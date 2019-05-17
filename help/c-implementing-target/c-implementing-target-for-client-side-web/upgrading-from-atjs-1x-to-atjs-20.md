@@ -1,0 +1,853 @@
+---
+description: . js 1. x에서 at. js 2. x로 업그레이드
+keywords: at.js 릴리스;at.js 버전;단일 페이지 앱; spa
+seo-description: Adobe Target at.js 1.x에서 at.js 버전 2.0.0으로 업그레이드하는 방법에 대한 자세한 정보
+seo-title: 'Adobe Target at.js 버전 1.x에서 at.js 버전 2.0.0으로 업그레이드 '
+solution: Target
+subtopic: 시작하기
+title: . js 1. x에서 at. js 2. x로 업그레이드
+uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# . js 1. x에서 at. js 2. x로 업그레이드 {#upgrading-from-atjs-1x-to-atjs-200}
+
+at. js의 [!DNL Adobe Target] 최신 버전은 기업이 차세대 클라이언트측 기술에 대한 개인화 실행을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.
+
+이전 버전에서 사용할 수 없는. js 2. x를 사용하는 경우의 몇 가지 이점은 다음과 같습니다.
+
+* 페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.
+* 오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.
+* 간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 SPA에서 VEC를 통해 A/B 및 XT 활동을 만들고 실행할 수 있도록 할 수 습니다.
+
+## at. js 2. x 시스템 다이어그램
+
+다음 다이어그램에서는 뷰가. js 2. x 인 워크플로우에 대해 알아보고 이를 통해 SPA 통합이 개선되는 방법을 이해할 수 있습니다. . js 2. x에서 사용되는 개념을 보다 잘 이해하려면 [단일 페이지 애플리케이션 구현을 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+
+![at. js 2. x를 사용한 타겟 흐름](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+
+| 호출 | 세부 사항 |
+| --- | --- |
+| 1 | 사용자가 인증되면 호출에서 [!DNL Experience Cloud ID]를 반환합니다. 다른 호출은 고객 ID를 동기화합니다. |
+| 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js는 페이지에 구현된 코드 조각을 미리 숨기는 선택 사항을 사용하여 비동기식으로 로드할 수도 있습니다. |
+| 3 | 모든 구성된 매개 변수(MCID, SDID 및 고객 ID)를 포함하는 페이지 로드 요청이 이루어집니다. |
+| 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 대상 라이브러리의 적절한 대상(예: Adobe Analytics, Audience Management 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 묶음 프로세스를 통해 프로필 저장소로 전송됩니다. |
+| 5 | [!DNL Target]에서는 URL 요청 매개 변수 및 프로필 데이터를 기반으로 현재 페이지 및 미래 보기를 위해 방문자에게 반환할 활동 및 경험을 결정합니다. |
+| 6 | 타깃팅된 컨텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>현재 페이지의 타깃팅된 컨텐츠는 기본 컨텐츠의 플리커 없이 가능한 한 빨리 나타납니다.<br>`triggerView()`를 통해 보기를 트리거할 때 추가적인 서버 호출 없이 즉시 적용할 수 있도록 브라우저에서 캐시된 SPA의 사용자 동작에 대한 결과로서 표시되는 보기를 위한 타깃팅된 컨텐츠입니다. |
+| 7 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
+| 8 | 타깃팅된 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다.그런 다음 <br>Analytics 데이터는 Analytics for Target(A4T) 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
+
+이제 SPA에서 `triggerView()`가 구현될 때 그곳이 어디든, 보기 및 작업은 캐시에서 검색되고 서버 호출 없이 사용자에게 표시됩니다. `triggerView()`는 또한 노출 수를 증가시키고 기록하기 위해 [!DNL Target] 백엔드에 알림을 요청합니다.
+
+![Target 흐름 at. js 2. x triggerview](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+
+| 호출 | 세부 사항 |
+| --- | --- |
+| 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
+| 2 | 보기용으로 타깃팅된 컨텐츠를 캐시에서 읽습니다. |
+| 3 | 타깃팅된 컨텐츠는 기본 컨텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
+| 5 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
+| 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
+
+## . js 2. x에 배포 {#deploy-atjs-200}
+
+1. Target UI를 사용하여. js 2. x에서 다운로드할 수 있습니다.
+
+   ![구현 세부 사항 대화 상자](/help/c-experiences/assets/imp-200.png)
+
+   >[!NOTE]
+   >
+   >[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Extension를 통해. js 2. x에서 설치하는 기능은 아직 지원되지 않습니다.
+
+## 사용 중단된 at.js 함수
+
+at. js 2. x 에서는 더 이상 사용되지 않는 몇 가지 함수가 있습니다.
+
+>[!IMPORTANT]
+>
+>at. js 2. x를 배포할 때 사이트에서 이러한 사용되지 않는 함수가 여전히 사용되는 경우 콘솔 경고가 표시됩니다. 업그레이드할 때의 권장 방법은 스테이징 환경에서 at. js 2. x의 배포를 테스트하고 콘솔에 로그인된 모든 경고를 수행해야 하며, 가치 하락 기능을 at. js 2. x에 도입된 새로운 함수로 변환하는 것입니다.
+
+아래에는 사용이 중단된 함수와 그에 해당하는 새로운 함수가 있습니다. 전체 함수 목록이 필요하면 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.
+
+>[!NOTE]
+>at. js 2. x에서 표시되는 요소가 더 이상 자동으로 표시되지 `mboxDefault` 않습니다. 따라서 고객은 사이트에서 수동으로 또는 태그 관리자를 통해 사전 숨김 로직을 수용해야 합니다.
+
+### mboxCreate(mbox,params)
+
+**설명**:
+
+요청을 실행하고 `mboxDefault` 클래스 이름을 사용하는 가장 가까운 DIV에 오퍼를 적용합니다.
+
+**예**:
+
+```
+<div class="mboxDefault">
+  default content to replace by offer
+</div>
+<script>
+  mboxCreate('mboxName','param1=value1','param2=value2');
+</script>
+```
+
+**at. js 2. x equivalent**
+
+`mboxCreate(mbox, params)`의 대체 함수는 `getOffer()`와 `applyOffer()`입니다.
+
+**예**:
+
+```
+<div class="mboxDefault"> 
+  default content to replace by offer 
+</div> 
+<script> 
+  var el = document.currentScript.previousElementSibling;
+  adobe.target.getOffer({
+    mbox: "mboxName",
+    params: {
+      param1: "value1",
+      param2: "value2"
+    },
+    success: function(offer) {
+      adobe.target.applyOffer({
+        mbox: "mboxName",
+        selector: el,
+        offer: offer
+      });
+    },
+    error: function(error) {
+      console.error(error);
+      el.style.visibility = "visible";
+    }
+  });
+</script> 
+```
+
+### mboxDefine() 및 mboxUpdate()
+
+**설명**:
+
+요소와 mbox 이름 사이에 내부 매핑을 만들되, 요청을 실행하지 마십시오. 요청을 실행하고 `mboxDefine()`에서 nodeId로 식별되는 요소에 오퍼를 적용하는 `mboxUpdate()`와 함께 사용됩니다. `mboxCreate`로 시작된 mbox를 업데이트하는 데도 사용할 수 있습니다. 
+
+**예**:
+
+```
+<div id="someId" class="mboxDefault"></div>
+<script>
+ mboxDefine('someId','mboxName','param1=value1','param2=value2');
+ mboxUpdate('mboxName','param3=value3','param4=value4');
+</script>
+```
+
+**at. js 2. x equivalent**:
+
+`mboxDefine()`과 `mboxUpdate`의 대체 함수는 `getOffer()`와 `applyOffer()`이며 `applyOffer()`에서는 선택기 선택 사항이 사용됩니다. 이 접근 방식에서는 ID가 있는 선택기뿐만 아니라 CSS 선택기를 사용하여 오퍼를 요소에 매핑할 수 있습니다.
+
+**예**:
+
+```
+<div id="someId" class="mboxDefault"> 
+  default content to replace by offer 
+</div> 
+<script> 
+  adobe.target.getOffer({
+    mbox: "mboxName",
+    params: {
+      param1: "value1",
+      param2: "value2",
+      param3: "value3",
+      param4: "value4" 
+    },
+    success: function(offer) {
+      adobe.target.applyOffer({
+        mbox: "mboxName",
+        selector: "#someId",
+        offer: offer
+      });
+    },
+    error: function(error) {
+      console.error(error);
+      var el = document.getElementById("someId");
+      el.style.visibility = "visible";
+    }
+  });
+</script>
+```
+
+### adobe.target.registerExtension()
+
+**설명**:
+
+특정 확장 기능을 등록하는 표준 방법을 제공합니다.
+
+이 함수는 더 이상 지원되지 않으므로 사용해서는 안 됩니다.
+
+## 2.0에서 사용이 중단된 함수, 새로운 함수 및 지원되는 at.js 함수에 대한 요약
+
+| 메서드 | 지원됨? | 신규? | 삭제 예정?<br>(기본 컨텐츠가 표시됩니다.) |
+| --- | --- | --- | --- |
+| `getOffer()` | 예 |
+| `getOffers()` | 예 |
+| `applyOffer()` | 예 |
+| `applyOffers()` | 예 |
+| `triggerView()` | 예 |
+| `trackEvent()` | 예 |
+| `mboxCreate()` | 예 |
+| `mboxDefine()`<br>`mboxUpdate()` | 예 |
+| `targetGlobalSettings()` | 예 |
+| `Data Providers` | 예 |
+| `targetPageParams()` | 예 |
+| `targetPageParamsAll()` | 예 |
+| `registerExtension()` | 예 |
+| `At.js Custom Events` | 예 |
+
+## 제한 사항 및 콜아웃
+
+다음 제한 사항 및 콜아웃을 알아 두십시오.
+
+**전환 추적**
+
+전환 추적에 `mboxCreate()`을 사용하는 고객은 `trackEvent()`나 `getOffer()`를 사용해야 합니다.
+
+**오퍼 게재**
+
+`mboxCreate()`을 `getOffer()`나 `applyOffer()`로 대체하지 않는 고객의 경우 오퍼가 게재되지 않을 수 있습니다.
+
+**at. js 1. x를 at. js 1 중에 일부 페이지에서 사용할 수 있습니다.*x*나 mbox.js와 다른 페이지에 있을 때 사용할 수 있습니까?**
+
+예. 방문자 프로필은 서로 다른 버전 및 라이브러리를 사용하는 여러 페이지 간에 보존됩니다. 쿠키 형식은 동일합니다.
+
+**Adobe Experience Cloud Debugger는 at. js 2. x에서 완전히 지원되지 않습니다.**
+
+[!DNL Adobe Experience Cloud Debugger][!UICONROL 요약 탭] 기능 및 [!UICONTROL 비활성화 및 콘솔 로깅] 도구는 지원되지만 네트워크 요청 및 Mboxtrace 는. js 2. x에서 지원되지 않습니다.
+
+이것은 at. js 2. x에서 키-값 쌍 대신 JSON 페이로드가 전송되기 때문입니다. [!DNL Target] 요청을 검사하려면 브라우저의 개발자 도구에 있는 [!UICONTROL 네트워크] 탭을 &quot;게재&quot;, &quot;`tt.omtrdc.net`&quot; 또는 클라이언트 코드로 필터링하십시오. 쿼리 문자열 매개 변수와 인증 토큰을 사용하여 추적 데이터를 계속 검사할 수 있습니다. 자세한 내용은 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md)를 참조하십시오.
+
+**at. js 2. x에서 새 API 사용**
+
+at. js 2. x는 전달 API 라고 하는 새 API를 사용합니다. at.js가 [!DNL Target] Edge Server를 올바로 호출하는지를 디버깅하기 위해 브라우저의 개발자 도구에 있는 네트워크 탭을 &quot;게재&quot;, &quot;`tt.omtrdc.net`&quot; 또는 클라이언트 코드로 필터링할 수 있습니다. 또한 [!DNL Target]에서 키-값 쌍 대신 JSON 페이로드를 전송하는 것을 보게 됩니다.
+
+**Target 글로벌 mbox가 더 이상 사용되지 않음**
+
+at. js 2. x에서 더 이상 네트워크 호출에 &quot;`target-global-mbox`눈에 띄게&quot; 표시되지 않습니다. 대신, 아래에서 보듯이 [!DNL Target] 서버에 전송된 JSON 페이로드에서 &quot;`target-global-mbox`&quot; 구문을 &quot;`execute > pageLoad`&quot;로 대체했습니다.
+
+```
+{
+  "id": {
+    // ...
+  },
+  "context": {
+    "channel": "web",
+    // ...
+  },
+  "execute": {
+    "pageLoad": {}
+  }
+}
+```
+
+기본적으로 글로벌 mbox 개념은 페이지 로드 시 오퍼와 컨텐츠를 검색할지 여부를 [!DNL Target]에서 알 수 있도록 하기 위해 도입되었습니다. 따라서 최신 버전에서는 이 기능을 더욱 명확하게 했습니다.
+
+**at.js에서 글로벌 mbox 이름이 문제가 됩니까?**
+
+고객은 [!UICONTROL Target &gt; 설정 &gt; 구현 &gt; at.js 설정 편집]을 통해 글로벌 mbox 이름을 지정할 수 있습니다. 이 설정은 [!DNL Target] Edge Server에서 execute &gt; pageLoad를 [!DNL Target] UI에 나타나는 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox 이름을 사용하여 대상을 만들 수 있습니다. 또한 다음 그림에서 보듯이, at.js 1*x*나 mbox.js를 사용한 페이지가 여전히 있는 경우 동일한 글로벌 mbox 이름이 [!UICONTROL 설정 &gt; 환경 설정] 페이지에도 구성되도록 하는 것이 좋습니다.
+
+![at.js 수정 대화 상자](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
+
+및
+
+![사용자 지정 글로벌 mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/custom-global-mbox.png)
+
+**전역 mbox 자동 만들기 설정은. js 2. x에서 켜야 합니까?**
+
+대부분의 경우, 그렇습니다. 이 설정은. js 2. x에서 페이지 로드 시 [!DNL Target] Edge Server에 대한 요청을 실행하도록 지시합니다. 글로벌 mbox가 execute &gt; pageLoad로 변환되므로 페이지 로드 시 요청을 개시하려면 이 설정이 켜져 있어야 합니다.
+
+**Target 전역 mbox 이름이. js 2. x에서 지정되지 않았더라도 기존 VEC 활동이 계속 작동합니까?**
+
+예. execute &gt; pageLoad는 `target-global-mbox`처럼 [!DNL Target] 백엔드에서 처리됩니다.
+
+**양식 기반 활동을`target-global-mbox`에 타깃팅하는 경우 이러한 활동이 계속 작동합니까?**
+
+예. execute &gt; pageLoad는 [!DNL Target]처럼 `target-global-mbox` Edge Server에서 처리됩니다.
+
+**. js 2. x 설정에서 지원됨 및 지원되지 않음**
+
+| 설정 | 지원됨? |
+| --- | --- |
+| X-Domain | 아니오 |
+| 글로벌 mbox를 자동으로 만들기 | 예 |
+| 글로벌 mbox 이름 | 예 |
+
+**도메인 간 추적이 지원되지*않음***
+
+도메인 간 추적을 사용하면 서로 다른 도메인에 있는 두 개의 관련 사이트에 있는 여러 세션을 하나의 세션으로 볼 수 있습니다. `siteA.com`과 `siteB.com`에 걸쳐 수행되는 [!DNL Target] 활동을 만들 수 있으며 방문자가 도메인들을 넘나들 때 계속 동일한 경험을 하게 됩니다. 이 기능은 Target의 타사 및 퍼스트 파티 쿠키 동작에 연결되어 있습니다.
+
+[!DNL Target]에서 타사 쿠키는 `[CLIENTCODE].tt.omtrdc.net`에 저장되고 퍼스트 파티 쿠키는 `clientdomain.com`에 저장됩니다. 첫 번째 요청은 `mboxSession` 및 `mboxPC`라는 타사 쿠키를 설정하는 HTTP 응답 헤더를 반환하는 반면, 리디렉션 요청이 추가 매개 변수(`mboxXDomainCheck=true`)를 사용하여 다시 전송됩니다. 브라우저가 타사 쿠키를 수락하면 리디렉션 요청에 해당 쿠키가 포함되고 오퍼가 반환됩니다. 여기서는 HTTP GET 메서드를 사용하므로 이 워크플로우가 가능합니다.
+
+그러나 at. js 2. x에서 HTTP GET는 더 이상 사용되지 않으며 대신 HTTP POST를 사용합니다. 이제 [!DNL Target] Edge Server에 JSON 페이로드를 전송하기 위해 at.js를 통해 HTTP POST가 사용됩니다. 이것은 브라우저가 타사 쿠키를 지원하는지 여부를 확인하는 리디렉션 요청이 이제 중단됨을 의미합니다. 이것은 HTTP GET 요청은 멱등 트랜잭션이 아니지만 HTTP POST는 비멱등이어서 임의로 반복되면 안 되기 때문입니다. 따라서 at. js 2. x에서 도메인 간 추적 기능은 더 이상 지원되지 않습니다.
+
+**글로벌 mbox 자동 만들기가 지원됨**
+
+이 설정은. js 2. x에서 페이지 로드 시 [!DNL Target] Edge Server에 대한 요청을 실행하도록 지시합니다. 글로벌 mbox가 execute &gt; pageLoad로 변환되고, [!DNL Target] Edge Server가 이를 해석하므로 고객은 페이지 로드 시 요청을 개시하려면 이 설정을 켜야 합니다.
+
+**글로벌 mbox 이름이 지원됨**
+
+고객은 [!UICONTROL Target &gt; 설정 &gt; 구현 &gt; at.js 설정 편집]을 통해 글로벌 mbox 이름을 지정할 수 있습니다. 이 설정은 [!DNL Target] Edge Server에서 execute &gt; pageLoad를 입력된 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox를 타깃팅하는 대상을 만들 수 있습니다.
+
+**아래의 at.js 사용자 지정 이벤트는`triggerView()`에 적용할 수 있습니까? 아니면`applyOffer()`나`applyOffers()`에만 적용할 수 있습니까?**
+
+* `adobe.target.event.CONTENT_RENDERING_FAILED`
+* `adobe.target.event.CONTENT_RENDERING_SUCCEEDED`
+* `adobe.target.event.CONTENT_RENDERING_NO_OFFERS`
+* `adobe.target.event.CONTENT_RENDERING_REDIRECT`
+
+at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습니다.
+
+**`{“page” : “true”}`인`triggerView()`를 호출하면[!DNL Target]백엔드에 알림이 전송되고 노출이 증가합니다. 이렇게 되면 프로필 스크립트도 실행됩니까?**
+
+[!DNL Target] 백엔드에 미리 가져오기 호출이 수행되면 프로필 스크립트가 실행됩니다. 그런 다음 영향을 받은 프로필 데이터가 암호화되어 클라이언트측으로 다시 전달됩니다. `{"page": "true"}`인 `triggerView()`를 호출하면 암호화된 프로필 데이터와 함께 알림이 전송됩니다. 이때 [!DNL Target] 백엔드가 프로필 데이터를 해독하고 데이터베이스에 저장합니다.
+
+**플리커를 관리하기 위해`triggerView()`를 호출하기 전에 사전 숨김 코드를 추가해야 합니까?**
+
+아니요. `triggerView()`를 호출하기 전에 사전 숨김(pre-hiding) 코드를 추가할 필요는 없습니다. at. js 2. x는 보기가 표시되고 적용되기 전에 사전 숨김 및 깜박임 로직을 관리합니다.
+
+## at.js 호환성
+
+다음 표에서는 다양한 활동 유형, 통합, 기능 및 at.js 함수와의 at.js 2.0.0 호환성에 대해 설명합니다.
+
+### 활동 유형 {#types}
+
+| 유형 | 지원됨? |
+| --- | --- |
+| A/B 테스트 | 예 |
+| 자동 할당 | 예 |
+| 자동 타겟 | 예 |
+| 경험 타깃팅 | 예 |
+| 다변량 테스트 | 예 |
+| 자동화된 개인화 | 예 |
+| 권장 사항 | 예 |
+
+>[!NOTE]
+>
+>자동 타겟 활동은 at. js 2. x와 모든 수정 사항이에 `Page Load Event`적용되는 vec를 통해 지원됩니다. 수정 사항이 특정 뷰에 추가되면 A/B 테스트, 자동 할당 및 경험 타깃팅 (XT) 활동만 지원됩니다.
+
+### 통합
+
+| 유형 | 지원됨? |
+| --- | --- |
+| Analytics for Target (A4T) | 예 |
+| 대상자 | 예 |
+| 고객 속성 | 예 |
+| AEM 경험 구성요소 | 예 |
+| Adobe Launch 확장 프로그램 | 현재 아님 |
+| 디버거 | 예 |
+| Auditor | 규칙이. js 2. x에 대해 아직 업데이트되지 않았습니다. |
+| DTM(다이내믹 태그 관리자) | 예 |
+| 옵트인 | 아니오 |
+| Adobe Target에서 제공하는 AEM 고급 개인화 | 아니오 |
+
+### 기능
+
+| 기능 | 지원됨? |
+| --- | --- |
+| X-Domain | 아니오 |
+| 속성/작업 공간 | 예 |
+| QA 링크 | 예 |
+| 양식 기반 경험 작성기 | 예 |
+| 시각적 경험 작성기(VEC) | 예 |
+| 사용자 지정 코드 | 예 |
+| 응답 토큰 | [예](#response-tokens) |
+| 클릭 추적 | 예 |
+| 여러 활동 전달 | 예 |
+| targetGlobalSettings | 예(하지만 x-domain은 아님) |
+| at.js 메서드 | 기본 컨텐츠를 표시하는<br>`mboxCreate()`<br>`mboxUpdate()`<br>`mboxDefine()`<br>을 제외하고 모든 메서드가 지원됩니다. |
+
+### 쿼리 문자열 매개 변수
+
+| 매개 변수 | 지원됨? |
+| --- | --- |
+| `?mboxDisable` | 예 |
+| `?mboxDisable` | 예 |
+| `?mboxTrace` | 예 |
+| `?mboxSession` | 아니오 |
+| `?mboxOverride.browserIp` | 아니오 |
+
+## 응답 토큰 {#response-tokens}
+
+at.js 2.*x*와 같습니다.*x*에서는 사용자 지정 이벤트를 `at-request-succeeded` 사용하여 응답 토큰을 사용합니다. `at-request-succeeded` 사용자 지정 이벤트를 사용한 코드 예제는 [응답 토큰을 참조하십시오](/help/administrating-target/response-tokens.md).
+
+## at. js 1. x 매개 변수를 at. js 2. x 페이로드 매핑 {#payload-mapping}
+
+이 섹션에서는 at. js 1 간의 매핑을 간략하게 설명합니다.*x* 및 at. js 2. x.
+
+매개 변수 매핑을 Delving 하기 전에 이러한 라이브러리 버전이 사용 중인 끝점이 변경되었습니다.
+
+* at.js 1.*x* - `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
+* at. js 2. x - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
+
+또 다른 중요한 차이점은 다음과 같습니다.
+
+* at.js 1.*X* - 클라이언트 코드가 경로의 일부입니다.
+* at. js 2. x - 클라이언트 코드는 다음과 같은 쿼리 문자열 매개 변수로 전송됩니다.
+   `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
+
+다음 섹션은 at. js 1의 각 목록입니다.*x* 매개 변수, 설명 및 해당 2.0.0 JSON 페이로드 (해당되는 경우):
+
+### at_ property
+
+(at.js 1.*x* 매개 변수)
+
+[엔터프라이즈 사용자 권한에 사용됩니다](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+
+```
+{
+  ....
+  "property": {
+    "token": "1213213123122313121"
+  }
+  ....
+}
+```
+
+### browserHeight
+
+(at.js 1.*x* 매개 변수)
+
+방문자의 브라우저 창 높이입니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "window": {
+       "height": 200
+    }
+  }
+}
+```
+
+### browserWidth
+
+(at.js 1.*x* 매개 변수)
+
+방문자의 브라우저 창 너비입니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "window": {
+       "width": 200
+    }
+  }
+}
+```
+
+### Browsertimeoffset
+
+(at.js 1.*x* 매개 변수)
+
+시간대 오프셋.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "timeOffsetInMinutes": -480
+  }
+}
+```
+
+### Screenheight
+
+(at.js 1.*x* 매개 변수)
+
+방문자의 화면 높이입니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "screen": {
+       "height": 200
+    }
+  }
+}
+```
+
+### Screenwidth
+
+(at.js 1.*x* 매개 변수)
+
+방문자 화면의 너비입니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "screen": {
+       "width": 200
+    }
+  }
+}
+```
+
+### colorDepth
+
+(at.js 1.*x* 매개 변수)
+
+방문자의 화면 색상 깊이
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "screen": {
+       "colorDepth": 24
+    }
+  }
+}
+```
+
+### mboxHost
+
+(at.js 1.*x* 매개 변수)
+
+Target 라이브러리가 실행되는 페이지의 도메인.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "browser": {
+       "host": "test.com"
+    }
+  }
+}
+```
+
+### webGLRenderer
+
+(at.js 1.*x* 매개 변수)
+
+브라우저의 WEB GL 렌더러 기능 이것은 방문자의 장치가 데스크톱, iPhone, Android 장치 등을 판별하는 데 사용되는 장치 탐지 메커니즘에서 사용됩니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "browser": {
+       "webGLRenderer": "AMD Radeon Pro 560X OpenGL Engine"
+    }
+  }
+}
+```
+
+### Mboxurl
+
+(at.js 1.*x* 매개 변수)
+
+페이지 URL.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "address": {
+       "url": "http://test.com"
+    }
+  }
+}
+```
+
+### Mboxreferrer
+
+(at.js 1.*x* 매개 변수)
+
+페이지 레퍼러.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "context": {
+    "address": {
+       "referringUrl": "http://google.com"
+    }
+  }
+}
+```
+
+### mbox (이름) 가 전역 mbox와 같음
+
+(at.js 1.*x* 매개 변수)
+
+배달 API는 더 이상 글로벌 mbox 개념을 가지지 않습니다. JSON 페이로드에서 `execute > pageLoad`사용해야 합니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "execute": {
+    "pageLoad": {
+       "parameters": ....
+       "profileParameters": ...
+       .....
+    }
+  }
+}
+```
+
+### mbox (이름) 이 *전역 mbox와* 같지 않음
+
+(at.js 1.*x* 매개 변수)
+
+mbox 이름을 사용하려면 `execute > mboxes`전달하십시오. mbox 에는 인덱스와 이름이 필요합니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "execute": {
+    "mboxes": [{
+       "index": 0,
+       "name": "some-mbox",
+       "parameters": ....
+       "profileParameters": ...
+       .....
+    }]
+  }
+}
+```
+
+### Mboxid
+
+(at.js 1.*x* 매개 변수)
+
+더 이상 사용되지 않습니다.
+
+### Mboxcount
+
+(at.js 1.*x* 매개 변수)
+
+더 이상 사용되지 않습니다.
+
+### Mboxrid
+
+(at.js 1.*x* 매개 변수)
+
+다운스트림 시스템에서 디버깅에 사용하는 데 사용하는 요청 ID 입니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "requestId": "2412234442342"
+  ....
+}
+```
+
+### Mboxtime
+
+(at.js 1.*x* 매개 변수)
+
+더 이상 사용되지 않습니다.
+
+### mboxSession
+
+(at.js 1.*x* 매개 변수)
+
+세션 ID가 배달 API 끝점에 쿼리 문자열 매개 변수 (`sessionId`) 로 전송됩니다.
+
+### mboxPC
+
+(at.js 1.*x* 매개 변수)
+
+tnt ID `id > tntId`가 전달됩니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "id": {
+    "tntId": "ca5ddd7e33504c58b70d45d0368bcc70.21_3"
+  }
+  ....
+}
+```
+
+### mboxMCGVID
+
+(at.js 1.*x* 매개 변수)
+
+Marketing Cloud 방문자 ID가 전달됩니다 `id > marketingCloudVisitorId`.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "id": {
+    "marketingCloudVisitorId": "797110122341429343505"
+  }
+  ....
+}
+```
+
+### vst. aaaa. id 및 vst. aaaa. authstate
+
+(at.js 1.*x* 매개 변수)
+
+고객 ID `id > customerIds`를 전달해야 합니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "id": {
+    "customerIds": [{
+       "id": "1232131",
+       "integrationCode": "aaaa",
+       "authenticatedState": "....."
+     }]
+  }
+  ....
+}
+```
+
+### mbox3rdPartyId
+
+(at.js 1.*x* 매개 변수)
+
+다른 대상 ID를 연결하는 데 사용되는 타사 ID.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "id": {
+    "thirdPartyId": "1232312323123"
+  }
+  ....
+}
+```
+
+### Mboxmcsdid
+
+(at.js 1.*x* 매개 변수)
+
+SDID (보충 데이터 ID 라고도 함). `experienceCloud > analytics > supplementalDataId`에 전달해야 합니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "experienceCloud": {
+    "analytics": {
+      "supplementalDataId": "1212321132123131"
+    }
+  }
+  ....
+}
+```
+
+### vst. trk
+
+(at.js 1.*x* 매개 변수)
+
+Analytics 추적 서버. `experienceCloud > analytics > trackingServer`에 전달해야 합니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "experienceCloud": {
+    "analytics": {
+      "trackingServer": "analytics.test.com"
+    }
+  }
+  ....
+}
+```
+
+### vst. trks
+
+(at.js 1.*x* 매개 변수)
+
+Analytics 추적 서버가 안전합니다. `experienceCloud > analytics > trackingServerSecure`에 전달해야 합니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "experienceCloud": {
+    "analytics": {
+      "trackingServerSecure": "secure-analytics.test.com"
+    }
+  }
+  ....
+}
+```
+
+### mboxMCGLH
+
+(at.js 1.*x* 매개 변수)
+
+Audience Manager 위치 힌트. `experienceCloud > audienceManager > locationHint`에 전달해야 합니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "experienceCloud": {
+    "audienceManager": {
+      "locationHint": 9
+    }
+  }
+  ....
+}
+```
+
+### mboxAAMB
+
+(at.js 1.*x* 매개 변수)
+
+Audience Manager Blob. `experienceCloud > audienceManager > blob`에 전달해야 합니다.
+
+at. js 2. x JSON 페이로드:
+
+```
+{
+  "experienceCloud": {
+    "audienceManager": {
+      "blob": "2142342343242342"
+    }
+  }
+  ....
+}
+```
+
+### Mboxversion
+
+(at.js 1.*x* 매개 변수)
+
+버전은 버전 매개 변수를 통해 쿼리 문자열 매개 변수로 전송됩니다.
+
+## 교육 비디오: at. js 2. x 아키텍처 다이어그램
+
+at. js 2. x는 SPAS에 대한 Adobe Target의 지원을 향상시키고 다른 Experience Cloud 솔루션과 통합됩니다. 다음 비디오에서는 모든 것이 어떻게 합쳐지는지 설명합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+자세한 [내용은 at. js 2. x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식을 참조하십시오.
