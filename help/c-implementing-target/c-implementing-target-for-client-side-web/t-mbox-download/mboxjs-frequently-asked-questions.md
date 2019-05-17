@@ -1,0 +1,46 @@
+---
+description: mbox.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
+keywords: mbox.js faq;mbox.js 자주 묻는 질문;document.write;tt.omtrdc.net;파서 차단
+seo-description: mbox.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
+seo-title: mbox.js FAQ
+solution: Target
+subtopic: 시작하기
+title: mbox.js FAQ
+uuid: af3105ab-87d9-4dbf-a380-b72788928958
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# mbox.js 자주 묻는 질문{#mbox-js-frequently-asked-questions}
+
+mbox.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
+
+## 페이지 로드 시 mbox.js의 영향은 어떤 것입니까? {#section_90B3B94FE0BF4B369577FCB97B67F089}
+
+자세한 내용은 [Target JavaScript 라이브러리 이해](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)를 참조하십시오.
+
+## mbox.js 및 document.write{#section_355A3A5BF02F42EEB8271C96EF41590A}을 사용할 때 Google Chrome에서 &quot;Parser-blocking&quot;(파서 차단)이라는 경고 메시지가 표시되는 이유는 무엇입니까? 
+
+이 콘솔 메시지는 `document.write` 함수가 mbox.js 파일 내에서 사용되는 많은 상황에서 Chrome을 사용할 때 표시되는 이 경고 메시지는 활동 설정 프로세스에 영향을 주지 않습니다.
+
+이 상황을 방지하는 가장 좋은 방법은 [Target 구현을 at.js JavaScript 라이브러리로 마이그레이션](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)하는 것으로서, 이 라이브러리에서는 `document.write` 함수를 사용하지 않습니다. at.js를 사용하면 mbox.js을 사용하는 것에 비해 많은 이점이 있습니다. 자세한 내용은 [at.js FAQ](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)를 참조하십시오.
+
+## 웹 페이지에서 mbox가 실행되지 않는 이유는 무엇입니까? {#section_4BA5DA424B734324AAB51E4588FA50F5}
+
+ 고객들이 테스트나 간단한 개념 입증 용도로 [!DNL Target]Target에 클라우드 기반 인스턴스를 사용하는 경우가 있습니다. 이러한 도메인 및 기타 많은 다른 도메인이 [공용 접미사 목록](https://publicsuffix.org/list/public_suffix_list.dat)에 나와 있습니다.
+
+최신 브라우저에서는 targetGlobalSettings()를 사용하여 `cookieDomain` 설정을 사용자 지정하지 않는 한, 이러한 도메인을 사용하는 경우 쿠키를 저장하지 않습니다. 자세한 내용은 [Target에 클라우드 기반 인스턴스 사용](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md#concept_A2077766948F4EA081CE592D8998F566)을 참조하십시오.
+
+## Target 서버 호출이 향하는 도메인 tt.omtrdc.net은 무엇입니까? {#section_999C29940E8B4CAD8A957A6B1D440317}
+
+[!DNL tt.omtrdc.net]은 Target에 대한 모든 서버 호출을 받는 데 사용되는 Adobe 에지 네트워크의 도메인 이름입니다.
+
+## at.js와 mbox.js가 HttpOnly 및 Secure 쿠키 플래그를 사용하지 않는 이유는 무엇입니까? {#section_74527E3B41B54B0A83F217C3E664ED1F}
+
+HttpOnly는 서버 측 코드를 통해서만 설정할 수 있습니다. mbox와 같은 Target 쿠키가 생성되고 JavaScript 코드를 통해 저장되므로 Target에서 HttpOnly 쿠키 플래그를 사용할 수 없습니다.
+
+HTTPS를 통해 페이지를 로드한 경우에만 JavaScript를 통해 보안을 설정할 수 있습니다. 페이지가 처음에 HTTP를 통해 로드된 경우에는 JavaScript에서 이 플래그를 설정할 수 없습니다. 또한 보안 플래그를 사용하는 경우 HTTPS 페이지에서만 쿠키를 사용할 수 있습니다.
+
+Target이 제대로 사용자를 추적할 수 있는지 보장하기 위해 그리고 쿠키가 클라이언트 측에서 생성되므로 Target에서 이러한 플래그 중 하나를 사용하지 않습니다.
