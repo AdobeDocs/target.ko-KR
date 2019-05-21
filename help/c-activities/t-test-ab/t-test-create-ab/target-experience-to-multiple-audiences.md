@@ -8,7 +8,7 @@ title: A/B 테스트의 여러 경험 버전
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -33,7 +33,9 @@ A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃
 
 1. [평소대로 A/B 활동을 만듭니다.](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 
-   여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상을 선택합니다. 1. 경험을 선택한 다음 **[!UICONTROL 구성]** &gt; **[!UICONTROL 대상]** &gt; **[!UICONTROL 여러 대상]**을 클릭합니다.
+   여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상을 선택합니다.
+
+1. 경험을 선택한 다음 **[!UICONTROL 구성]** &gt; **[!UICONTROL 대상]** &gt; **[!UICONTROL 여러 대상]**을 클릭합니다.
 
    ![](assets/multiple-audiences.png)
 
@@ -44,6 +46,7 @@ A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃
    대상이 아직 존재하지 않는 경우 [대상 만들기](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
 
    방문자가 둘 이상의 대상에 적격인 경우, 모든 대상을 위한 컨텐츠가 반환되고 목록의 마지막 컨텐츠가 페이지에서 실제로 렌더링됩니다.
+
 1. 활동을 계속 설정합니다.
 
 **우수 사례**
