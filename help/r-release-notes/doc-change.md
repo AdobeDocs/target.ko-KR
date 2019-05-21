@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # 설명서 변경 내용{#documentation-changes}
 
 이 페이지에는 [!DNL Adobe Target] 문서의 중요한 변경 사항이 나열됩니다.
+
+## Adobe Target Standard/Premium 19.5.1 (2019 년 5 월 21 일) {tgt -19-5-1}
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 2019 년 5 월 21 일 | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>&quot; 이동 &quot;옵션에 대한 정보가 업데이트되었습니다.</li><li>VEC에 페이지가 로드되기 전에 또는 페이지를 완전히 로드하지 못한 경우에도 많은 작업을 수행할 수 있다는 참고가 추가되었습니다. </li></ul> |
+|  | [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Udated Text, Updated Images 및 Added Training Video. |
+|  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 오래된 텍스트 및 이미지. |
+|  | [제한](/help/r-troubleshooting-target/target-limits.md) | 고객 속성 별칭 ID에 대한 문자 제한을 추가했습니다. |
+|  | [릴리스 노트](/help/r-release-notes/release-notes.md): 19.5.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 19.4.2 (2019 년 4 월 30 일) {19-4-2}
 
