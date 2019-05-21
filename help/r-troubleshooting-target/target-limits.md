@@ -8,7 +8,7 @@ title: 제한
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -38,6 +38,10 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 ## 고객 속성 이름
 
 **제한**: 128 자.
+
+## 고객 속성 별칭 ID
+
+**50** 자 제한.
 
 ## 엔티티 사용자 지정 속성
 
