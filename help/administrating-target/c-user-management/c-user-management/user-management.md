@@ -9,7 +9,7 @@ title: 사용자
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
    또는
 
-   이미 Experience Cloud에 로그인한 경우 [https://www.marketing.adobe.com](https://www.marketing.adobe.com/)로 이동한 다음 위쪽 탐색 모음에서 [!UICONTROL 앱] 아이콘을 클릭하고 오른쪽의 **[!UICONTROL [관리]** ] &gt; [관리 콘솔 **[!UICONTROL 시작] 를 클릭합니다]**.
+   이미 Experience Cloud에 로그인한 경우 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)로 이동한 다음 위쪽 내비게이션 바의 [!UICONTROL 앱] 아이콘을 클릭하고 오른쪽의 **[!UICONTROL 관리자를]** 클릭합니다.
 
 1. (조건부) 두 개 이상의 조직을 위한 [!DNL Admin Console for Enterprise]에 액세스할 수 있는 경우 오른쪽 모서리나 맨 위 탐색 막대의 사용자 아바타를 클릭한 다음, 원하는 조직을 선택하십시오.
 
@@ -53,14 +53,14 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 모든 사용자 관리는 [!DNL Adobe Admin Console for Enterprise]에서 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
 
-1. [Admin Console에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 사용자]**를 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
+1. [관리 콘솔에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)**[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자를]** 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
 1. *Enterprise 사용 안내서*의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 사용자 그룹 만들기 {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 개발자, 분석가, 마케터, 경영진 등과 같은 사용자 그룹을 만든 다음 여러 Adobe 제품 및 작업 공간에서 권한을 지정할 수 있습니다. 새 팀 구성원에게 다른 Adobe 제품에 대한 모든 적절한 권한을 지정하면 특정 사용자 그룹에 팀 구성원을 쉽게 추가할 수 있습니다.
 
-1. [Admin Console에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) **[!UICONTROL 사용자 관리]** &gt; **[!UICONTROL 사용자 그룹]**을 클릭하여 새 사용자 그룹을 만들거나 기존 사용자 그룹을 편집합니다.
+1. [관리 콘솔에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)**[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자 그룹을]** 클릭하여 새 사용자 그룹을 만들거나 기존 그룹을 편집합니다.
 1. *Enterprise 사용 안내서*의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
@@ -71,21 +71,33 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 제품]**을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
 
-   ![](assets/workspace.png)
+   ![제품 탭](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. 원하는 구성의 이름을 클릭합니다.
-1. **[!UICONTROL 사용자 구성을 클릭합니다]**.
+1. **[!UICONTROL 사용자를 클릭합니다]**.
 
-   [!UICONTROL 사용자 구성] 탭에는 해당 작업 공간의 모든 사용자가 표시됩니다.
+   [ [!UICONTROL 사용자] ] 탭에는 해당 작업 영역의 모든 사용자가 표시됩니다.
 
-   ![](assets/configuration_users.png)
+   ![구성 사용자](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
 1. [!UICONTROL 제품 역할] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할([관찰자], [편집자] 또는 [승인자])을 선택합니다.
 
-| 역할 | 설명 |
-|--- |--- |
-| 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-| 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
-| 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
+   | 역할 | 설명 |
+   |--- |--- |
+   | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
+   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+   | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
 
 자세한 내용은 *Enterprise 사용 안내서*의 [Admin Console에서 제공 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
+
+## 교육 비디오: Target 작업 영역을 구성하는 방법
+
+학습 목표:
+
+* Adobe Target 인터페이스에서 Adobe Admin Console에 액세스 (세 가지 방법)
+* Adobe Admin Console에서 작업 영역 구성
+   * 작업 공간에 사용자 추가
+   * 작업 공간에 속성 추가
+* 기본 작업 공간 이해
+
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
