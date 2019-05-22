@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 | 2019 년 5 월 22 일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 교육 비디오가 추가되었습니다. |
 |  | [iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 새 자습서에 대한 링크가 추가되었습니다.<ul><li>Mobile iOS Objective-C 응용 프로그램에서 Experience Cloud 구현</li><li>Mobile iOS Swift 애플리케이션에서 Experience Cloud 구현</li></ul> |
 |  | [Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 새 자습서에 대한 링크가 추가되었습니다.<ul><li>모바일 Android 애플리케이션에서 Experience Cloud 구현</li></ul> |
+|  | [ Target 소개](/help/c-intro/intro.md#kit) | Adobe Target 시작 키트에 대한 링크가 추가되었습니다. |
 | 2019 년 5 월 21 일 | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>&quot; 이동 &quot;옵션에 대한 정보가 업데이트되었습니다.</li><li>VEC에 페이지가 로드되기 전에 또는 페이지를 완전히 로드하지 못한 경우에도 많은 작업을 수행할 수 있다는 참고가 추가되었습니다. </li></ul> |
 |  | [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Udated Text, Updated Images 및 Added Training Video. |
 |  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 오래된 텍스트 및 이미지. |
