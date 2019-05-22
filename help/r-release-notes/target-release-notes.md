@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -38,6 +38,12 @@ source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 ### 개선 사항, 수정 및 변경 사항
 
 * VEC 내에서 페이지 로드를 취소하면 도구 모음 아이콘이 적절하게 표시됩니다. 페이지가 완전히 로드될 때까지 특정 작업을 수행할 수 없는 경우 연관된 도구 모음 아이콘이 비활성화됩니다. (TGT-33811)
+
+## Mobile App Visual Experience Composer (2019 년 5 월 14 일) {mobile-vec}
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| Mobile App Visual Experience Composer (VEC) | 모바일 앱 VEC를 사용하면 지속적인 개발 종속성 및 앱 릴리스 주기를 사용하지 않고도 고유한 방식으로 기본 모바일 앱에서 콘텐츠를 맞춤화하고 콘텐츠를 개인화할 수 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오.<ul><li>[모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[모바일 VEC에서 클릭 추적 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[비디오: 모바일 앱 Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
