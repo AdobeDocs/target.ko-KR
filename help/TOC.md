@@ -33,7 +33,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + [관리자의 첫 단계](administrating-target/start-target.md)
    + 환경 설정 지정 {#preferences}
       + [기본 설정](administrating-target/r-target-account-preferences/target-account-preferences.md)
-      + [매출 상승도 평가](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오
+      + [매출 상승도 평가](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + 사용자 관리 {#manage-users}
       + [사용자 관리](administrating-target/c-user-management/user-management.md)
       + 사용자 {#users}
@@ -145,10 +145,10 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + Adobe Target용 보고 소스로서의 Adobe Analytics(A4T) {#a4t}
       + [A4T 개요](c-integrating-target-with-mac/a4t/a4t.md)
       + [구현하기 전에](c-integrating-target-with-mac/a4t/before-implement.md)
-      + [Analytics for Target 구현](c-integrating-target-with-mac/a4t/a4timplementation.md)을 참조하십시오
-      + [사용자 권한 요구 사항](c-integrating-target-with-mac/a4t/account-reqs.md)을 참조하십시오
+      + [Analytics for Target 구현](c-integrating-target-with-mac/a4t/a4timplementation.md)
+      + [사용자 권한 요구 사항](c-integrating-target-with-mac/a4t/account-reqs.md)
       + [활동 만들기](c-integrating-target-with-mac/a4t/campaign-creation.md)
-      + [Analytics 추적 서버 사용](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)을 참조하십시오
+      + [Analytics 추적 서버 사용](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T 보고](c-integrating-target-with-mac/a4t/reporting.md)
       + Analytics 및 Target 통합 문제 해결(A4T) {#troubleshoot-a4t}
          + [A4T 문제 해결](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
@@ -173,7 +173,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + A/B 테스트{#abtest}를 참조하십시오 
       + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
       + [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md)
-      + [9가지 공통 A/B 테스트의 문제점 및 이러한 문제점을 방지하는 방법](c-activities/t-test-ab/common-ab-testing-pitfalls.md)을 참조하십시오
+      + [9가지 공통 A/B 테스트의 문제점 및 이러한 문제점을 방지하는 방법](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + A/B 테스트 만들기 {#create}
          + [테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
@@ -196,7 +196,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
       + [성공에 필요한 트래픽 예측](c-activities/t-automated-personalization/ap-traffic-estimator.md)
       + [자동화된 개인화 테스트를 위한 경험 미리 보기](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [자동화된 개인화 오퍼 타깃팅](c-activities/t-automated-personalization/ap-target-offers.md)
-      + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)를 참조하십시오
+      + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)
       + [자동화된 개인화 FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [경험 URL을 공유하여 Target 외부의 자동화된 개인화 미리 보기](c-activities/t-automated-personalization/experience-preview.md)
       + [자동화된 개인화 문제 해결](c-activities/t-automated-personalization/ap-trouble.md)
@@ -279,14 +279,14 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + [경험 및 오퍼 개요](c-experiences/experiences.md)
    + 시각적 경험 작성기(VEC) {#vec}
       + [시각적 경험 작성기 개요](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [시각적 경험 작성기 선택 사항](c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오
+      + [시각적 경험 작성기 선택 사항](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [유사한 페이지에 동일한 경험 포함](c-experiences/c-visual-experience-composer/temtest.md)
-      + [다중 페이지 활동](c-experiences/c-visual-experience-composer/multipage-activity.md)을 참조하십시오
+      + [다중 페이지 활동](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [활동 충돌](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + 수정 사항 {#modifications}
          + [수정 사항 개요](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
          + [경험 템플릿](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
-      + [시각적 경험 작성기에 사용된 요소 선택기](c-experiences/c-visual-experience-composer/vec-selectors.md)를 참조하십시오
+      + [시각적 경험 작성기에 사용된 요소 선택기](c-experiences/c-visual-experience-composer/vec-selectors.md)
       + [응답형 경험을 위한 모바일 뷰포트](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [시각적 경험 작성기 우수 사례 및 제한 사항](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
       + 시각적 경험 작성기 문제 해결 {#troubleshoot-composer}
@@ -316,8 +316,8 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + [보고서 개요](c-reports/reports.md)
    + 보고서 설정 {#settings}
       + [보고서 설정 개요](c-reports/c-report-settings/report-settings.md)
-      + [평균 상승도, 상승도 한계 및 신뢰 구간](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)을 참조하십시오
-      + [보고서에서 여러 지표 보기](c-reports/c-report-settings/view-multiple-metrics.md)를 참조하십시오
+      + [평균 상승도, 상승도 한계 및 신뢰 구간](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
+      + [보고서에서 여러 지표 보기](c-reports/c-report-settings/view-multiple-metrics.md)
       + [예외적인 값 제외](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [Auto-Target 요약 보고서](c-reports/auto-target-summary-report.md)
    + [자동화된 개인화 요약 보고서](c-reports/reports-ap.md)
@@ -339,16 +339,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
       + [엔티티 개요](c-recommendations/c-products/products.md)
       + [엔티티 속성](c-recommendations/c-products/entity-attributes.md)
       + [사용자 지정 엔티티 속성](c-recommendations/c-products/custom-entity-attributes.md)
-      + [피드](c-recommendations/c-products/feeds.md)를 참조하십시오
+      + [피드](c-recommendations/c-products/feeds.md)
       + [카탈로그 검색](c-recommendations/c-products/catalog-search.md)
       + [컬렉션](c-recommendations/c-products/collections.md)
       + [제외](c-recommendations/c-products/exclusions.md)
    + 기준 {#criteria}
       + [기준 개요](c-recommendations/c-algorithms/algorithms.md)
       + [기준 만들기](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [기준 시퀀스 만들기](c-recommendations/c-algorithms/create-criteria-sequence.md)를 참조하십시오
-      + [사용자 지정 기준 업로드](c-recommendations/c-algorithms/recommendations-csv.md)를 참조하십시오
-      + [동적 및 정적 포함 규칙 사용](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)을 참조하십시오
+      + [기준 시퀀스 만들기](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [사용자 지정 기준 업로드](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [동적 및 정적 포함 규칙 사용](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
       + [백업 권장 사항 사용](c-recommendations/c-algorithms/backup-recs.md)
    + 디자인 {#recommendations-design}
       + [디자인 개요](c-recommendations/c-design-overview/design-overview.md)
@@ -358,7 +358,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + 활동 {#recommendations-activity}
       + [권장 사항 활동 만들기](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [기준 선택](c-recommendations/t-create-recs-activity/algo-select-recs.md)
-      + [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md)를 참조하십시오
+      + [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
    + [오퍼로서의 Recommendations](c-recommendations/recommendations-as-an-offer.md)
    + FAQ {#recommendations-faq}
