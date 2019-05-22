@@ -243,7 +243,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 #### 경험 구성요소
 
-최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
+최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
 
 ### 바꿀 대상
 
@@ -281,7 +281,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 #### 경험 구성요소
 
-최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
+최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
 
 ### 레이아웃
 
