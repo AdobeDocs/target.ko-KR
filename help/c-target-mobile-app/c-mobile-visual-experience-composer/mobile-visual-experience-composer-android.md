@@ -8,7 +8,7 @@ title: Android - 모바일 앱 설정
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -305,3 +305,18 @@ TargetVEC.targetView("SURPRISE_VIEW",
    public static void prefetchOffersBackground();
    ```
 
+## 자습서: 모바일 Android 애플리케이션에서 Experience Cloud 구현 {#tutorial}
+
+* [모바일 Android 애플리케이션에서 Experience Cloud 구현](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+
+이 자습서를 완료한 후 다음을 수행할 수 있습니다.
+
+* 모바일 론치 속성 만들기
+* Android 앱에 론치 속성 설치
+* 다음과 같은 Adobe Experience Cloud 솔루션을 구현합니다.
+   * Experience Cloud ID 서비스
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* 개발, 스테이징 및 프로덕션 환경을 통해 론치 변경 사항 게시
