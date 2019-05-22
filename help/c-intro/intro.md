@@ -8,7 +8,7 @@ title: ' Target 소개'
 topic: 고급
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 23fc2eb4f4f76a903eca55fe1d73d8110c770e94
 
 ---
 
@@ -93,6 +93,12 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 [!DNL Recommendations Classic]은 웹 사이트에서의 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품 또는 컨텐츠를 자동으로 표시할 수 있습니다. 권장 사항을 사용하면 고객에게 모르는 제품을 안내하여 웹 사이트에서의 판매량을 늘릴 수 있습니다.
 
 자세한 내용은 [권장 사항 Classic 설명서](../assets/adobe-recommendations-classic.pdf)를 참조하십시오.
+
+## Experience League: Adobe Target Welcome Kit {#kit}
+
+이 환영 키트를 사용하여 Adobe Target에서 최적화 및 개인화 프로그램을 구축하십시오! 짧은 기간 단축 및 장기 최적화 전략을 통해 간단한 Adobe Target 활동을 준비하고 실행하는 데 도움이 되는 주요 정보, 툴 및 리소스가 포함되어 있습니다.
+
+[Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## 교육 비디오: 활동 유형(9:03)
 
