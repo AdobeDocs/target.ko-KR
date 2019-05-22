@@ -8,7 +8,7 @@ title: iOS - 모바일 앱 설정
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -277,3 +277,19 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 + (void) prefetchOffersBackground;
 ```
 
+## 자습서: Mobile iOS Objective-C 및 Swift 애플리케이션에 Experience Cloud 구현 {#tutorial}
+
+* [Mobile iOS Objective-C 응용 프로그램에서 Experience Cloud 구현](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Mobile iOS Swift 애플리케이션에서 Experience Cloud 구현](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+
+이러한 자습서를 완료한 후 다음을 수행할 수 있습니다.
+
+* 모바일 론치 속성 만들기
+* Objective-C 또는 Swift 앱에 론치 속성 설치
+* 다음과 같은 Adobe Experience Cloud 솔루션을 구현합니다.
+   * Experience Cloud ID 서비스
+   * Adobe Target
+   * Adobe Analytics
+   * Adobe Audience Manager
+
+* 개발, 스테이징 및 프로덕션 환경을 통해 론치 변경 사항 게시
