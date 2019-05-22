@@ -106,7 +106,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
             + [at.js 플러그인](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
             + [비프로덕션 환경에 at.js 배포](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
          + [mbox.js가 수행하는 작업](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
-         + [mbox.js 구성](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)에서 &quot;페이지 로드 깜박임 억제&quot;를 참조하십시오
+         + [mbox.js 구성](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
          + [mbox.js 다운로드](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
          + [mbox.js 라이브러리 버전별 Target 페이지 방법](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
          + [주문 확인 mbox 만들기 - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
