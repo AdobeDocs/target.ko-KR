@@ -51,7 +51,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
       + [구현하기 전에](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Target JavaScript 라이브러리 이해](c-implementing-target/c-considerations-before-you-implement-target/target-implement.md)
       + [Target 구현 준비](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + 개인 정보 보호{#privacy}를 참조하십시오 
+      + 개인 정보 보호{#privacy}
          + [개인 정보 보호 개요](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [개인 정보 및 GDPR(일반 데이터 보호 규정)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target 쿠키 삭제](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
@@ -74,7 +74,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
          + [태그 관리자 없이 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
          + [DTM을 사용한 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
          + [단일 페이지 애플리케이션 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
-      + at.js 함수{#functions-overview}를 참조하십시오 
+      + at.js 함수{#functions-overview}
          + [at.js 함수 개요](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
          + [adobe. target. getoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
          + [Adobe. target. getoffers () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
@@ -170,7 +170,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 + 활동 {#activities}
    + [활동 개요](c-activities/activities.md)
    + [Target 활동 유형](c-activities/target-activities-guide.md)
-   + A/B 테스트{#abtest}를 참조하십시오 
+   + A/B 테스트{#abtest}
       + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
       + [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md)
       + [9가지 공통 A/B 테스트의 문제점 및 이러한 문제점을 방지하는 방법](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
@@ -209,7 +209,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
          + [경험 타깃팅에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
          + [목표 및 설정](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [지표 설정](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
-   + 다변량 테스트{#multivariate-test}를 참조하십시오 
+   + 다변량 테스트{#multivariate-test}
       + [다변량 테스트 개요](c-activities/c-multivariate-testing/multivariate-testing.md)
       + [다변량 테스트 우수 사례](c-activities/c-multivariate-testing/best-practices.md)
       + [다변량 테스트 계획](c-activities/c-multivariate-testing/plan-mvt.md)
