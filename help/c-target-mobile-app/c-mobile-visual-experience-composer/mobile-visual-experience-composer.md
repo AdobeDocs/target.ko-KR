@@ -7,7 +7,7 @@ title: 모바일 앱 시각적 경험 작성기
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -197,3 +197,6 @@ Target 오퍼를 미리 가져올 때마다 `AdobeTargetMobile.targetView()`로 
    * &quot;목표 및 설정&quot; 단계에서 &quot;작성&quot; 단계(1단계)로 돌아가면 장치 대화 상자가 표시됩니다. 앱이 이미 열려 있는 경우 앱을 닫았다가 다시 실행하고 모바일 앱 VEC로 다시 연결해야 합니다.
    앱을 닫을 때 최신 앱 섹션에서 닫아야 하며 [!UICONTROL 뒤로] 단추를 누르지 말아야 합니다.
 
+## 교육 비디오: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
+
+>[!VIDEO](https://www.youtube.com/watch?v=VOahCFx0sV4)
