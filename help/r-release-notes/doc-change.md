@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 5 월 22 일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 교육 비디오가 추가되었습니다. |
 | 2019 년 5 월 21 일 | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>&quot; 이동 &quot;옵션에 대한 정보가 업데이트되었습니다.</li><li>VEC에 페이지가 로드되기 전에 또는 페이지를 완전히 로드하지 못한 경우에도 많은 작업을 수행할 수 있다는 참고가 추가되었습니다. </li></ul> |
 |  | [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Udated Text, Updated Images 및 Added Training Video. |
 |  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 오래된 텍스트 및 이미지. |
