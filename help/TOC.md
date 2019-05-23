@@ -157,7 +157,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
          + [초기 사용 권한 제공 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [활동 설정 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [보고서 보기 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
-         + [리디렉션 오퍼 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오
+         + [리디렉션 오퍼 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
          + [상승도 및 신뢰도 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [지표 정의 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [부풀려진 방문 및 방문자 카운트 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
