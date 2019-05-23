@@ -59,9 +59,9 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 * 경험
 
-   [!UICONTROL A/B 테스트], [!UICONTROL 경험 타깃팅](XT) 및 [!UICONTROL 다변량 테스트](MVT) 활동을 위 [!UICONTROL 주문 세부 사항]에서 [!UICONTROL 경험] 열에는 `localId`가 있습니다. 이것은 오퍼 토큰에 있는 `$campaign.recipe.id`의 값 출력입니다.
+   [!UICONTROL A/B 테스트], [!UICONTROL 경험 타깃팅] (XT) 및 [!UICONTROL 다변량 테스트] (MVT) 활동을 위 [!UICONTROL 주문 세부 사항]에서 [!UICONTROL 경험] 열에는 `localId`가 있습니다. 이것은 오퍼 토큰에 있는 `$campaign.recipe.id`의 값 출력입니다.
 
-   [!UICONTROL 자동화된 개인화](AP) 활동을 위한 [!UICONTROL 경험] 열은 없습니다. [!UICONTROL 의 다른 곳에 표시된 대로, 현재 ]알고리즘 이름[!DNL Target] 열은 &quot;통제&quot; 및 &quot;타깃팅된&quot; 용어로 대체되었습니다.
+   [!UICONTROL 자동화된 개인화] (AP) 활동을 위한 [!UICONTROL 경험] 열은 없습니다. [!UICONTROL 의 다른 곳에 표시된 대로, 현재 ]알고리즘 이름[!DNL Target] 열은 &quot;통제&quot; 및 &quot;타깃팅된&quot; 용어로 대체되었습니다.
 
    [!UICONTROL 권장 사항] 활동에는 영향을 주지 않았습니다.
 
