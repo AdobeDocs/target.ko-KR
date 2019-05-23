@@ -8,16 +8,14 @@ title: 양식 기반 경험 작성기
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # 양식 기반 경험 작성기{#form-based-experience-composer}
 
-양식 기반 경험 작성기는 시각적이지 않은 경험 생성 방식을 제공합니다.
-
-이 기능을 사용하면 Target Standard A/B 테스트, 경험 타깃팅, 자동화된 개인화 및 권장 사항 활동이 이메일, 모바일 앱 키오스크 및 시각적 경험 작성기에서는 작동하지 않는 기타 위치로 전달될 수 있습니다.
+양식 기반 경험 작성기는 시각적 경험 작성기가 사용할 수 없거나 실용적이지 않을 때 A/B 테스트, 경험 타깃팅, 자동화된 개인화 및 Recommendations 활동에 사용할 경험을 만드는 데 유용합니다. 예를 들어 양식 기반 Composer를 사용하여 이메일, 키오스크 및 음성 도우미를 배달할 경험과 오퍼를 만들 수 있습니다.
 
 권장 사항 활동을 만드는 경우에는 경험이 없습니다. 기준 및 디자인을 선택합니다. 여러 기준 또는 디자인을 선택하는 경우, Target은 자동으로 경험을 생성합니다.
 
