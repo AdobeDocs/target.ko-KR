@@ -9,14 +9,14 @@ title: 보고서
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e2638ad0438d637cce84b0387709d255b9f4a58d
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # 보고서{#reports}
 
-보고서에는 활동의 성과에 대한 정보가 있습니다.
+보고서는 데이터를 기반으로 결정을 내리는 데 도움이 되는 활동의 진행 상황과 결과에 대한 정보를 제공합니다. 보고서 데이터를 통해 테스트 종료 시기를 결정하고 우승자인지 여부를 보여주며 다음 작업을 판별하는 데 필요한 통찰력이나 교훈을 제공할 수 있습니다.
 
 >[!NOTE]
 >
