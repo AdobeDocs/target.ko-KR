@@ -76,7 +76,7 @@ UI 상단의 활동 탭을 클릭하여 [!UICONTROL 활동] 목록을 [!UICONTRO
 
 * 보관된 활동과 종료된 활동은 [!UICONTROL 활동] 목록에 표시되지 않습니다. 이러한 활동을 보려면 왼쪽 레일의 고급 필터 설정을 사용하여 필터링하십시오.
 * 원래 [!DNL Target Classic]에서 만들어진 활동은 비활성화되거나 삭제되는 즉시 [!DNL Target Standard/Premium]에서 삭제됩니다. 원래 [!DNL Target Classic]에서 만들어진 삭제된 작업은 [!DNL Target Standard/Premium]의 [!UICONTROL 보관] 폴더로 보내지지 않습니다. 보관된 폴더 기능은 [!DNL Target Standard/Premium]에서 만들어진 활동에만 적용됩니다.
-* [!UICONTROL 자동화된 개인화](AP), [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 이외의 모든 활동 유형에서는 [!DNL Target] 또는 [!DNL Adobe Analytics]를 데이터 소스로 사용하도록 선택할 수 있습니다. [!UICONTROL AP], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]은 *항상* [!DNL Target] 데이터를 사용합니다.
+* [!UICONTROL 자동화된 개인화] (AP), [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 이외의 모든 활동 유형에서는 [!DNL Target] 또는 [!DNL Adobe Analytics]를 데이터 소스로 사용하도록 선택할 수 있습니다. [!UICONTROL AP], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]은 *항상* [!DNL Target] 데이터를 사용합니다.
 * 활동은 몇 가지 채널에서 사용할 수 있습니다.
 
    * 웹 및 모바일 사이트
