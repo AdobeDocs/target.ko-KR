@@ -249,14 +249,14 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
       + 대상의 카테고리 {#categories-audiences}
          + [대상의 카테고리 개요](c-target/c-audiences/c-target-rules/target-rules.md)
          + [브라우저](c-target/c-audiences/c-target-rules/browser.md)
-         + [사용자 지정 매개 변수](c-target/c-audiences/c-target-rules/custom-parameters.md)를 참조하십시오
+         + [사용자 지정 매개 변수](c-target/c-audiences/c-target-rules/custom-parameters.md)
          + [지역](c-target/c-audiences/c-target-rules/geo.md)
          + [네트워크](c-target/c-audiences/c-target-rules/network.md)
          + [모바일](c-target/c-audiences/c-target-rules/mobile.md)
          + [운영 체제](c-target/c-audiences/c-target-rules/operating-system.md)
-         + [사이트 페이지](c-target/c-audiences/c-target-rules/site-pages.md)를 참조하십시오
+         + [사이트 페이지](c-target/c-audiences/c-target-rules/site-pages.md)
          + [타겟 라이브러리](c-target/c-audiences/c-target-rules/target-library.md)
-         + [시간대](c-target/c-audiences/c-target-rules/time-frame.md)를 참조하십시오
+         + [시간대](c-target/c-audiences/c-target-rules/time-frame.md)
          + [트래픽 소스](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [방문자 프로필](c-target/c-audiences/c-target-rules/visitor-profile.md)
       + [프로필 속성 비교 대상 만들기](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
