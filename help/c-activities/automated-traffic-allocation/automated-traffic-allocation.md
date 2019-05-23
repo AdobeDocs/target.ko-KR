@@ -19,7 +19,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 >[!IMPORTANT]
 >
->자동 할당은 [!DNL Target for Analytics](A4T) 보고를 지원하지 않습니다.
+>자동 할당은 [!DNL Target for Analytics] (A4T) 보고를 지원하지 않습니다.
 
 [안내가 있는 3단계 워크플로우를 사용하여 A/B 활동을 만들](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 때 [!UICONTROL 최고 경험에 자동 할당] 선택 사항을 선택할 수 있습니다.
 
