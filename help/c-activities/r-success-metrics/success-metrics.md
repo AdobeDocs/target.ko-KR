@@ -7,7 +7,7 @@ solution: Target
 title: 성공 지표
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 # 성공 지표{#success-metrics}
 
 Target Standard에서 성공 지표는 보고 및 추적용으로 미리 구성되어 있습니다.
+
+성공 지표는 활동의 성공을 측정하는 데 사용되는 매개 변수입니다. 성공 지표에는 주어진 경험의 성공 또는 타겟 활동에서 오퍼를 제공할 수 있는 주요 비즈니스 측정이 포함됩니다. 예를 들어 새 오퍼가 방문자당 매출을 증가시키는지 또는 장바구니에 품목을 추가할지 여부를 결정할 수 있습니다. 성공 지표는 등록, 주문 또는 구매 흐름과 관련된 문제를 발견하는 데 유용하며 방문자나 고객 참여와 함께 사용하면 유용합니다.
 
 테스트 생성을 간소화한다는 [!DNL Target Standard] 목표를 유지하면서, [!DNL Target Classic]에서 수동으로 수행하던 일부 구성이 유지됩니다. 예를 들어, 성공 지표는 최적 옵션으로 미리 구성됩니다.
 
