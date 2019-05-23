@@ -11,14 +11,14 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8c9da94d7589d54b205c1387d25515a962f98235
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 엔터프라이즈 사용자 권한{#enterprise-user-permissions}
 
-속성을 만들고 속성 및 권한을 사용하는 방법에 대한 정보. Target 관리자는 이 기능을 사용하여 Target에서 개별 작업 공간(제품 프로필)을 만든 다음, 사용자에게 이 작업 공간을 기반으로 하는 개별 페이지, 속성 또는 웹 사이트에 대한 서로 다른 역할 및 권한을 지정할 수 있습니다.
+엔터프라이즈 사용자 권한은 Target에 대한 전사적 사용자 액세스를 공식적으로 관리하는 수단입니다. Target에 사용자를 추가하고, 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 영역을 만듭니다. 옵저버, 편집자 또는 승인자 역할을 할당할 수 있습니다.
 
 ## 엔터프라이즈 사용자 권한에 대한 액세스 권한 보유 여부 확인
 
