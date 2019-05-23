@@ -18,7 +18,7 @@ source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
 
 기술 담당자가 mbox.js 구현과 이 구현이 사이트에 미칠 수 있는 영향을 이해하는 데 도움이 되는 정보입니다.
 
-Target Standard에는 [!DNL mbox.js] 버전 58 이상이 필요합니다. [!DNL mbox.js]를 다운로드하고 업데이트하는 방법에 대한 지침은 [Mbox 구현](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
+Target Standard에는 [!DNL mbox.js] 버전 58 이상이 필요합니다. [!DNL mbox.js]를 다운로드하고 업데이트하는 방법에 대한 지침은 [Mbox 구현] (../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
 
 Target Standard의 경우 [!DNL mbox.js]는 다른 JavaScript 파일인 [!DNL target.js]를 호출합니다. [!DNL Target.js]는 Adobe에 의해 호스팅되며 Adobe에 의해 자동으로 업데이트됩니다. [!DNL target.js]를 업데이트하기 위해 수행해야 할 작업은 없으며 클라이언트별 사용자 지정 사항도 없습니다.
 
@@ -33,7 +33,7 @@ Target Standard의 경우 [!DNL mbox.js]는 다른 JavaScript 파일인 [!DNL ta
 
 ## DOM 조작 {#section_169F8D4C077948DCB4F891ABBB03FF63}
 
-[!DNL Target.js]는 Standard에서 사용하는 DOM 조작 라이브러리를 제어합니다. 웹 사이트의 컨텐츠를 표시하기 위해 [!DNL target.js]는 [!DNL sizzle.js](버전1.10.8-pre)를 참조합니다. [!DNL Sizzle.js]는 HTML 요소 선택기를 활성화합니다. [!DNL sizzle.js] 이외에는 기본 JavaScript만 사용됩니다. jquery는 필요하지 않습니다.
+[!DNL Target.js]는 Standard에서 사용하는 DOM 조작 라이브러리를 제어합니다. 웹 사이트의 컨텐츠를 표시하기 위해 [!DNL target.js]는 [!DNL sizzle.js] (버전1.10.8-pre)를 참조합니다. [!DNL Sizzle.js]는 HTML 요소 선택기를 활성화합니다. [!DNL sizzle.js] 이외에는 기본 JavaScript만 사용됩니다. jquery는 필요하지 않습니다.
 
 또한 DOM을 폴링하는 데에는 다음 코드 조각이 사용됩니다.
 `https://github.com/dperini/ContentLoaded`
@@ -43,7 +43,7 @@ Target Standard의 경우 [!DNL mbox.js]는 다른 JavaScript 파일인 [!DNL ta
 [!UICONTROL 시각적 경험 작성기]를 사용하여 활동에 대한 경험을 설정하면 웹 페이지가 iFrame으로 열립니다. iFrame이 로드되면 Standard에서는 HTML5 `postMessage` API 호출을 전송합니다. [!DNL Target.js]는 모든 `postMessage` 호출을 감지하고 웹 사이트에 다음 JavaScript 라이브러리를 포함합니다.
 
 * 썸네일 생성용: [!DNL https://html2canvas.hertzen.com/]
-* 도메인 간 쿼리용: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css](여러 iFrame 간 메시지 전송에 사용됨). 이 스크립트들을 사용하면 Adobe에서 페이지 간에 데이터를 전송할 수 있습니다.
+* 도메인 간 쿼리용: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css] (여러 iFrame 간 메시지 전송에 사용됨). 이 스크립트들을 사용하면 Adobe에서 페이지 간에 데이터를 전송할 수 있습니다.
 
 ## Angular 사이트 및 단일 페이지 애플리케이션에 대한 고려 사항 {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 

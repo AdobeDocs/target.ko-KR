@@ -26,7 +26,7 @@ source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
 * [Target 최적화 및 개인화 FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [활동 문제 해결](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟](AT)
+### [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] (AT)
 
 * [9가지 공통 A/B 테스트의 문제점 및 이러한 문제점을 방지하는 방법](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)을 참조하십시오
 * [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
