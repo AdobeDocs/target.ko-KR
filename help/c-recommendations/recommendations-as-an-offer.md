@@ -15,7 +15,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 # ![PREMIUM](/help/assets/premium.png) 오퍼로서의 Recommendations
 
-이제 [!UICONTROL A/B 테스트]([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 포함)와 [!UICONTROL 경험 타깃팅](XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+이제 [!UICONTROL A/B 테스트] ([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 포함)와 [!UICONTROL 경험 타깃팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해줍니다.
 
