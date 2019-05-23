@@ -5,7 +5,7 @@ seo-title: Adobe Target VEC(시각적 경험 작성기)
 title: 시각적 경험 작성기(VEC)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -14,7 +14,9 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 시각적 경험 작성기(VEC) 사용에 대한 정보.
 
-VEC는의 주요 기능 [!DNL Adobe Target]중 하나입니다. VEC는 마케터와 디자이너가 시각적 인터페이스를 사용하여 컨텐츠를 만들고 변경할 수 있는 편집기입니다. 코드를 직접 편집하지 않고도 많은 디자인을 작성할 수 있습니다. 또한 작성기에서 사용 가능한 편집 선택 사항을 사용하여 HTML 및 JavaScript를 편집할 수도 있습니다.
+VEC는 사이트 컨텍스트에서 개인화된 경험과 오퍼를 손쉽게 만들고 테스트할 수 있는 WYSIWYG 유저 인터페이스입니다. 웹 페이지 (또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 컨텐츠를 드래그 앤 드롭하고, 교환하고, 수정하여 타겟 활동에 대한 경험과 오퍼를 만들 수 있습니다.
+
+VEC는의 주요 기능 [!DNL Adobe Target]중 하나입니다. VEC를 사용하면 마케터와 디자이너는 시각적 인터페이스를 사용하여 컨텐츠를 만들고 변경할 수 있습니다. 코드를 직접 편집하지 않고도 많은 디자인을 작성할 수 있습니다. 또한 작성기에서 사용 가능한 편집 선택 사항을 사용하여 HTML 및 JavaScript를 편집할 수도 있습니다.
 
 Target의 **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]** 탭에서 [기본 시각적 경험 작성기 URL]을 입력할 수 있습니다.
 
