@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -21,6 +21,15 @@ source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 5 월 23 일 | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 소개에서 텍스트가 업데이트되었습니다. |
+|  | [경험 및 오퍼](/help/c-experiences/experiences.md) | 소개에서 텍스트가 업데이트되었습니다. |
+|  | [대상자](/help/c-target/target.md) | 소개에서 텍스트가 업데이트되었습니다. |
+|  | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md) | 소개에서 텍스트가 업데이트되었습니다. |
+|  | [보고서](/help/c-reports/reports.md) | 소개에서 텍스트가 업데이트되었습니다. |
+|  | [VEC(시각적 경험 작성기)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 소개에서 텍스트가 업데이트되었습니다. |
+|  | [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md) | 소개에서 텍스트가 업데이트되었습니다. |
+|  | [Enterprise 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md) | 소개에서 텍스트가 업데이트되었습니다. |
+|  | [용어 설명](/help/c-intro/glossary.md) | 몇 개의 항목을 추가하고 업데이트했습니다. |
 | 2019 년 5 월 22 일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | 교육 비디오가 추가되었습니다. |
 |  | [iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 새 자습서에 대한 링크가 추가되었습니다.<ul><li>Mobile iOS Objective-C 응용 프로그램에서 Experience Cloud 구현</li><li>Mobile iOS Swift 애플리케이션에서 Experience Cloud 구현</li></ul> |
 |  | [Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 새 자습서에 대한 링크가 추가되었습니다.<ul><li>모바일 Android 애플리케이션에서 Experience Cloud 구현</li></ul> |
