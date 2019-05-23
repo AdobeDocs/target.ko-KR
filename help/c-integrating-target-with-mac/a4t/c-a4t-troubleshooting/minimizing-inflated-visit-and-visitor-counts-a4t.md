@@ -73,7 +73,7 @@ Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!D
 
 이 변경 내용과 관련된 다음 정보에는 세그먼트를 정의하고 가상 보고서 세트에 적용하여 이 세그먼트가 항상 [!DNL Analytics] 보기에 적용되도록 하는 데 도움이 되는 지침이 포함되어 있습니다.
 
-대부분의 경우 [!DNL Target] 히트는 각 웹 페이지의 [!DNL Analytics] 히트와 연결됩니다. 이 연결은 [!DNL Target]과 [!DNL Analytics] 호출 모두에서 일관된 SDID와 [!DNL Analytics] 호출의 [!DNL Experience Cloud ID](MCID)가 동일한 페이지에 있는 경우에 발생합니다. [!DNL Target]은 일반적으로 MCID도 포함하지만, [!DNL Target] 호출이 방문자 ID가 반환되기 전에 발생할 경우 SDID 때문에 해당 히트가 여전히 연결됩니다. 또한 사용자는 호출이 실행된 후 [!DNL Analytics] 호출을 실행할 수 있을 만큼 길게 페이지에 남아 [!DNL Target]있어야 합니다. 이것이 이상적인 시나리오입니다.
+대부분의 경우 [!DNL Target] 히트는 각 웹 페이지의 [!DNL Analytics] 히트와 연결됩니다. 이 연결은 [!DNL Target]과 [!DNL Analytics] 호출 모두에서 일관된 SDID와 [!DNL Analytics] 호출의 [!DNL Experience Cloud ID] (MCID)가 동일한 페이지에 있는 경우에 발생합니다. [!DNL Target]은 일반적으로 MCID도 포함하지만, [!DNL Target] 호출이 방문자 ID가 반환되기 전에 발생할 경우 SDID 때문에 해당 히트가 여전히 연결됩니다. 또한 사용자는 호출이 실행된 후 [!DNL Analytics] 호출을 실행할 수 있을 만큼 길게 페이지에 남아 [!DNL Target]있어야 합니다. 이것이 이상적인 시나리오입니다.
 
 **부분 데이터 히트:** 경우에 따라 사용자가 [!DNL Analytics] 호출을 전송할 만큼 충분히 오래 페이지에 머무르지 않아도 [!DNL Target]에 적절한 MCID가 유지됩니다. 이 경우 부분 데이터 히트([!DNL Analytics] 페이지 보기가 없는 히트)가 발생합니다. 이러한 사용자가 사이트로 돌아가 [!DNL Analytics] 코드를 포함하는 페이지를 보면 재방문자로 적절히 카운트됩니다. 이것은 페이지에 [!DNL Analytics] 코드만 있었으면 손실되었을 수 있는 히트입니다. 일부 클라이언트는 특정 지표(방문)는 부풀리고 다른 지표(방문당 페이지 보기, 방문당 시간 등)는 줄이기 때문에 이러한 히트에 대한 데이터는 원하지 않습니다. 페이지 보기가 없는 방문도 표시됩니다. 그러나 이러한 데이터를 유지해야 하는 적절한 이유는 여전히 있습니다.
 
