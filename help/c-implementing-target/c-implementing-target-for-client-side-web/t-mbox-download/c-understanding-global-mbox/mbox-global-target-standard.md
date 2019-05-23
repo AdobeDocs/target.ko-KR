@@ -9,7 +9,7 @@ title: 이전 구현에서 글로벌 mbox를 사용
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
 
 ---
 

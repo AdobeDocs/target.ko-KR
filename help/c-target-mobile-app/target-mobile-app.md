@@ -7,7 +7,7 @@ title: 모바일 앱을 위한 Target 기능에 대해 자세히 알아보십시
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: d3c0c888b5c6458d8ad2a894b0852681d9a4b2e5
 
 ---
 

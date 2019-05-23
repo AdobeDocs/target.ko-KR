@@ -8,7 +8,7 @@ title: 컨텐츠 검색 및 스마트 컬렉션 만들기
 topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
 
 ---
 

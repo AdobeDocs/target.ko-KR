@@ -8,7 +8,7 @@ title: 시각적 경험 작성기에 사용된 요소 선택기
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 ---
 
