@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js FAQ
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -86,15 +86,15 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 FP-11577을 사용하는 [!DNL Adobe Experience Manager] 6.2(또는 이상)에서는 이제 [!UICONTROL Adobe Target 클라우드 서비스] 통합을 통해 [!DNL at.js] 구현을 지원합니다. 자세한 내용은 *Adobe Experience Manager 6.2* 설명서에서 [기능 팩](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) 및 [Adobe Target과 통합](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)을 참조하십시오.
 
-## at.js{#section_4D78AAAE73C24E578C974743A3C65919}를 사용하여 페이지 로드 플리커를 방지하려면 어떻게 합니까 ? 
+## at.js{#section_4D78AAAE73C24E578C974743A3C65919}를 사용하여 페이지 로드 플리커를 방지하려면 어떻게 합니까? 
 
 Target에서는 페이지 로드 플리커를 방지하기 위한 여러 가지 방법을 제공합니다. 자세한 내용은 [at.js를 사용하여 플리커 방지](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA)를 참조하십시오.
 
-## at.js{#section_6A25C9A14C66441785A7635FEF5C4475}의 파일 크기는 얼마입니까 ? 
+## at.js{#section_6A25C9A14C66441785A7635FEF5C4475}의 파일 크기는 얼마입니까? 
 
 at.js 파일은 다운로드 시 약 109KB입니다. 그러나 대부분의 서버는 파일 크기를 줄이기 위해 파일을 자동으로 압축하므로, at.js는 서버에서 압축되고(GZIP 또는 다른 방법 사용) 사용자가 웹 사이트를 방문하여 로드될 때 약 34KB입니다. at.js를 설치한 서버의 압축 설정이 실제 압축 크기를 결정합니다.
 
-## at.js가 mbox.js{#section_AA1C43897E46448FA3E26EEC10ED7E51}보다 큰 이유는 무엇입니까 ? 
+## at.js가 mbox.js{#section_AA1C43897E46448FA3E26EEC10ED7E51}보다 큰 이유는 무엇입니까? 
 
 at.js 구현은 단일 라이브러리([!DNL at.js])를 사용하는 반면, mbox.js 구현은 실제로 두 개의 라이브러리([!DNL mbox.js]와 [!DNL target.js])를 사용합니다. 따라서 공정한 비교는 at.js 대 mbox.js*와* `target.js`입니다. gzip으로 압축된 두 버전의 크기를 비교하면 at.js 버전 1.2는 34KB이고 mbox.js 버전 63은 26.2KB입니다. ``
 
@@ -124,7 +124,7 @@ Safari 방문자를 지원하기 위해 더 나은 X-Domain이 &quot;비활성�
 
 예. 디버깅 목적으로 mboxTrace를 사용하거나 브라우저의 개발자 도구를 사용하여 네트워크 요청을 검사하고, &quot;mbox&quot;로 필터링하여 mbox 통화를 가려낼 수도 있습니다.
 
-## at.js를 사용하는 mbox 이름에 특수 문자를 사용할 수 있습니까 ? {#section_8E31D2E8A27642098934D7DACFB2A600}
+## at.js를 사용하는 mbox 이름에 특수 문자를 사용할 수 있습니까? {#section_8E31D2E8A27642098934D7DACFB2A600}
 
 예, mbox.js에서와 같습니다.
 
