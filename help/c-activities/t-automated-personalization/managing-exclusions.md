@@ -7,7 +7,7 @@ solution: Target,Analytics
 title: 제외 관리
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 7c51934b62044feebed0c54ddbbf49f9c8acdea5
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 7c51934b62044feebed0c54ddbbf49f9c8acdea5
 자동화된 개인화(AP) 활동에서 제외 그룹을 만들어 지정된 오퍼가 있는 경험이 자동으로 제외되도록 합니다.
 
 제외 그룹은 양립할 수 없는 오퍼가 서로 다른 위치의 동일한 경험에서 제공되지 않도록 하는 좋은 방법입니다. 예를 들어, 두 오퍼가 있다고 가정하십시오. 하나는 모든 상품을 20% 할인하는 것이고 다른 하나는 15% 할인하는 것으로 가정합니다. 이러한 두 오퍼를 동일한 경험에서 방문자에게 제공하고 싶지는 않을 것입니다. 이 두 오퍼를 제외 그룹에 추가한다면 그런 일이 발생하지 않도록 할 수 있습니다.
+
+AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있습니다. 자세한 내용은 자동화된 개인화 오퍼 [타깃팅을 참조하십시오](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **제외 그룹을 만들려면 다음을 수행하십시오.**
 
