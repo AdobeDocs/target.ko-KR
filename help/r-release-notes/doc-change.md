@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,7 +21,9 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2019 년 5 월 23 일 | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 소개에서 텍스트가 업데이트되었습니다. |
+| 2019 년 5 월 24 일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | at.js 2.1.0에 대한 정보가 추가되었습니다. |
+| 2019 년 5 월 23 일 | [제외 관리](/help/c-activities/t-automated-personalization/managing-exclusions.md)를 참조하십시오 | 타깃팅 규칙을 사용하여 AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한하기 위한 정보와 링크를 추가했습니다. |
+|  | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 소개에서 텍스트가 업데이트되었습니다. |
 |  | [경험 및 오퍼](/help/c-experiences/experiences.md) | 소개에서 텍스트가 업데이트되었습니다. |
 |  | [대상자](/help/c-target/target.md) | 소개에서 텍스트가 업데이트되었습니다. |
 |  | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md) | 소개에서 텍스트가 업데이트되었습니다. |
