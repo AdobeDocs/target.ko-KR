@@ -7,7 +7,7 @@ solution: Target
 title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 # 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
 특정 상황에서 VEC(시각적 경험 작성기) 및 EEC(고급 경험 작성기)에서 표시 문제가 발생하는 경우가 있습니다.
+
+## Target는 다중 수준 iframe를 지원합니까?
+
+Target는 다중 수준 iframe를 지원하지 않습니다. 웹 사이트가 자식 iframe 이 있는 iframe를 로드하는 경우 Target 라이브러리 (at. js 및 mbox. js) 는 상위 iframe와 상호 작용합니다. 타겟 라이브러리는 하위 iframe와 상호 작용하지 않습니다.
+
+해결 방법으로, 하위 iframe의 URL를 사용하여 경험의 페이지를 추가할 수 있습니다.
 
 ## 페이지를 편집하려고 할 때 페이지 대신 회전기가 표시됩니다. (VEC 및 EEC) {#section_313001039F79446DB28C70D932AF5F58}
 
