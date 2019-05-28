@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -25,6 +25,8 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 |  | [승자 결정](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 업데이트된 정보가 p-값에 해당합니다. |
 |  | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Target 이 다중 수준 iframe를 처리하는 방식에 대한 문제 해결 섹션을 추가했습니다. |
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 새로운 FAQ 추가: &quot; Recommendations 작업을 위한 예상 인제스트 기간은 언제입니까? &quot; |
+|  | [Adobe Launch를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 참조하십시오 | &quot; Target 실행 확장 기능을 사용하여 at. js 구현의 이점 &quot;아래의 정보를 업데이트했습니다. |
+|  | T[roubleshoot content delivery](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 잘못된 doctype를 사용하는 경우 at. js에서 about. js에 대한 새 문제 해결 섹션이 추가되었습니다. |
 | 2019 년 5 월 24 일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | at.js 2.1.0에 대한 정보가 추가되었습니다. |
 | 2019 년 5 월 23 일 | [제외 관리](/help/c-activities/t-automated-personalization/managing-exclusions.md)를 참조하십시오 | 타깃팅 규칙을 사용하여 AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한하기 위한 정보와 링크를 추가했습니다. |
 |  | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 소개에서 텍스트가 업데이트되었습니다. |
