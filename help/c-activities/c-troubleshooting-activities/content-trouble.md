@@ -9,7 +9,7 @@ title: 컨텐츠 전달 문제 해결
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -145,6 +145,10 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타깃팅 및 Target 활�
 원격 오퍼의 경우에는 mbox 응답이 `/* invalid remote offer URL */`을 포함할 수 있습니다.
 
 브라우저에서 또는 mboxTrace를 사용하여 mbox 응답을 확인할 수 있습니다. 올바른 URL에 대한 자세한 내용은 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)을 참조하십시오.
+
+## mbox가 내 사이트에서 실행되지 않습니다.
+
+at. js 에서는 잘못된 doctype를 사용하는 경우 Target mbox를 실행하지 않습니다. at. js를 사용하려면 HTML 5 DOCTYPE 이 필요합니다.
 
 ## 교육 비디오
 
