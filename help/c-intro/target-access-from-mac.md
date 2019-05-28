@@ -9,7 +9,7 @@ title: Adobe Experience Cloud에서 Target에 액세스
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -52,9 +52,10 @@ source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
 
 1. 첫 번째 (기본) 언어를 선택한 다음 원하는 경우 두 번째 언어를 선택합니다.
 
-   [!DNL Target] UI는 다음 언어로 제공됩니다.
+   UI는 [!DNL Target] 다음 언어로 사용할 수 있습니다.
 
    * 영어
+   * 스페인어
    * 프랑스어
    * 독일어
    * 일본어
@@ -67,6 +68,31 @@ source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
 1. [!DNL Adobe Experience Cloud] OR [!DNL Target]에서 로그아웃한 다음 다시 로그인하여 변경 사항을 적용하십시오.
+
+## 대상 제품 설명서의 언어 변경 {#doc-lang}
+
+운영 체제 또는 브라우저 설정은 기본 언어를 감지하고 해당 언어로 설명서를 표시해야 합니다 (사용 가능한 경우). 대상 설명서는 자동으로 번역되며 영어 문서의 변경 사항이 몇 시간 내에 영어 버전과 동기화됩니다.
+
+페이지 머리글에서 링크를 클릭하면 언어를 원래 영어 버전으로 신속하게 변경할 수 있습니다.
+
+![원래 언어로 변경](/help/c-intro/assets/mt-original.png)
+
+페이지 머리글 ( ![언어 전환기) 의 오른쪽 상단에 있는 언어 전환기 아이콘을 클릭하여 언어를 지원되는 언어로 빠르게 변경할](/help/c-intro/assets/icon-language-switcher.png) 수도 있습니다.
+
+![언어 전환기](/help/c-intro/assets/language-switcher.png)
+
+[!DNL Target] 설명서는 다음 언어로 제공됩니다.
+
+* 영어
+* 스페인어
+* 프랑스어
+* 독일어
+* 일본어
+* 이탈리아어
+* 포르투갈어 (브라질)
+* 중국어 간체 (준비 중)
+* 대만어
+* 한국어
 
 ## 교육 비디오: Experience Cloud의 Adobe Target(4:59)
 
