@@ -7,7 +7,7 @@ solution: Target
 title: 타깃팅이 작동하는 방법
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Adobe Target은 at.js나 mbox.js JavaScript 라이브러리를 사용하여 웹 페이지와 통합됩니다.
 
-[!DNL Target Classic]에서는 타깃팅된 컨텐츠를 표시하거나 데이터를 수집하려는 페이지에서 각 영역 주위에 mbox를 사용했습니다. [!DNL Target Standard]에서는 이러한 mbox가 필요하지 않습니다. 대신, 각 페이지에서 참조되는 하나의 [JavaScript 라이브러리](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)만 있으면 최적화 활동을 실행할 수 있습니다.
+[!DNL Target Classic]에서는 타깃팅된 컨텐츠를 표시하거나 데이터를 수집하려는 페이지에서 각 영역 주위에 mbox를 사용했습니다. [!DNL Target Standard]에서는 이러한 mbox가 필요하지 않습니다. 대신, 각 페이지에서 참조되는 하나의 JavaScript 라이브러리만 있으면 최적화 활동을 실행할 수 있습니다.
 
 방문자가 Target이 활성화된 페이지를 요청할 때마다, [!DNL Target]에서는 다음 프로세스를 사용하여 오퍼를 제공합니다.
 
