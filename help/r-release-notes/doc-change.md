@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 | 2019 년 5 월 29 일 | [카테고리 친화성](/help/c-target/c-visitor-profile/category-affinity.md) | `user.categoryId` AND `entity.categoryId`의 차이를 명확히 하기 위해 텍스트가 업데이트되었습니다. |
 |  | [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오 | 이 주제에 대한 재배치 섹션: at. js의 이점. |
 |  | [at.js 자주 묻는 질문](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 이 주제에 대한 재배치 섹션: &quot; 페이지 로드 시 at. js 및 mbox. js의 영향은 무엇입니까? &quot; |
+|  | [오퍼에 동적 데이터 전달](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 과거 비헤이비어 행의 구문이 수정되었습니다. |
 | 2019 년 5 월 28 일 | [Adobe Experience Cloud에서 Target에 액세스](/help/c-intro/target-access-from-mac.md#doc-lang) | 추가된 새 섹션: &quot; Target 제품 설명서의 언어를 변경합니다. &quot; |
 |  | [승자 결정](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 업데이트된 정보가 p-값에 해당합니다. |
 |  | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Target 이 다중 수준 iframe를 처리하는 방식에 대한 문제 해결 섹션을 추가했습니다. |
