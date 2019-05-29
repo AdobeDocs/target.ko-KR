@@ -8,7 +8,7 @@ title: Target 최적화 및 개인화 FAQ
 topic: 고급
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 4ba74729accceb48d4325a6755f34a8e9028d1dc
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 
 **at.js 또는 mbox.js 중에서 어떻게 구현된 JavaScript 파일을 사용해야 합니까?**
 
-at.js는 최신의 가장 뛰어난 JavaScript 라이브러리입니다. mbox.js는 이전 버전입니다. 두 라이브러리 간의 차이점을 이해하려면 [Target JavaScript 라이브러리 이해](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)를 참조하십시오. 신규 고객은 모두 at.js를 사용해야 합니다.
+at.js는 최신의 가장 뛰어난 JavaScript 라이브러리입니다. mbox.js는 이전 버전입니다. 두 라이브러리 간의 차이점을 이해하려면 [at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 의 이점을 통해 두 라이브러리 간의 차이점을 이해할 수 있습니다. 신규 고객은 모두 at.js를 사용해야 합니다.
 
 기존의 모든 mbox.js 고객은 at.js로 마이그레이션해야 합니다. 전환을 수행하기 전에 [mbox.js에서 at.js로 마이그레이션](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)에 포함된 단계에 대해 자세히 알아보십시오.
 
