@@ -9,7 +9,7 @@ title: 구현하기 전에
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: a0234d8dc1e539438130b2ba323d3f9eb4e7a022
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -24,7 +24,6 @@ Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
 >
 >at. js 또는 mbox. js에 대한 수정 사항은 Adobe 고객 지원 센터에서 지원되지 않습니다.
 
-- [Target JavaScript 라이브러리 이해](target-implement.md)
 - [Target 구현 준비](prepare-to-implement-target.md)
 - [개인 정보 보호](c-privacy/privacy.md)
 - [데이터를 Target에 가져오는 방법](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)을 참조하십시오.
