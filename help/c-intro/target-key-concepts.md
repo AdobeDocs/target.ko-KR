@@ -9,7 +9,7 @@ title: Target 주요 개념
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -50,7 +50,7 @@ Target 에는 몇 가지 활동 유형이 포함됩니다. 다음 표는 자세�
 
 [!DNL Target Standard]에서 위치는 추적하려는 각 페이지의 `<head>` 섹션에서 [!DNL Target]을 활성화하는 단일 코드 행을 페이지가 포함하는 한 페이지의 모든 요소가 될 수 있습니다. 이 코드 행은 정보를 수집하고 방문자에게 타깃팅된 경험을 전달하는 데 필요한 JavaScript 라이브러리를 호출합니다.
 
-see [Target JavaScript 라이브러리 이해](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)를 참조하면 [!DNL Target Standard]의 위치 구현과 [!DNL Target Classic]의 mbox 구현 간의 차이점에 대해 자세히 알 수 있습니다.
+see [위치](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 구현 [!DNL Target Standard] 및 mbox 구현 간의 차이점에 대한 자세한 내용은 at. js의 이점을 참조하십시오 [!DNL Target Classic].
 
 위치는 대상과 결합하여 고객에게 타깃팅 정보에 대한 선택 사항을 거의 무제한으로 제공합니다. 예를 들어, 방문자가 이전에 사이트를 방문한 적이 없는 경우 신규 고객용 할인 쿠폰을 표시할 수 있습니다. 마찬가지로, 페이지가 재방문 고객에게 더 최적화된 오퍼를 표시하도록 변경될 수도 있습니다.
 
