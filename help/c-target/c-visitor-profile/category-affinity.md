@@ -8,7 +8,7 @@ title: 카테고리 친화성
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
+source-git-commit: 9e491a183b2704a77ffc39a6b44cc763ad9ee232
 
 ---
 
@@ -19,16 +19,19 @@ source-git-commit: 7e06b77a552749578c487a8f5a6e079c48e0a44e
 
 ## Target에 카테고리 관심도 정보 전달 {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-사용자가 사이트를 방문할 때마다 방문자와 관련된 프로필 매개 변수가 [!DNL Target]의 데이터베이스에 기록됩니다. 이 데이터는 사용자의 쿠키에 연결되어 있습니다. 특히 유용한 한 가지 매개 변수는 `categoryId`로, 제품 페이지에서 지정된 mbox 매개 변수입니다. 방문자가 계속 탐색하거나 다른 세션을 위해 재방문할 때 특정 사용자가 보는 제품 카테고리를 기록할 수 있습니다. 또한 임의의 mbox(중첩된 mbox 포함)에서 mbox 매개 변수 `user.categoryId`나 URL 매개 변수 `user.categoryId`로서 또는 글로벌 mbox를 사용하는 Target 페이지 매개 변수로 카테고리 정보를 전달하여 카테고리 정보를 기록할 수도 있습니다. 자세한 내용은 계정 담당자에게 문의하십시오.
+사용자가 사이트를 방문할 때마다 방문자와 관련된 프로필 매개 변수가 [!DNL Target]의 데이터베이스에 기록됩니다. 이 데이터는 사용자의 쿠키에 연결되어 있습니다. 특히 유용한 한 가지 매개 변수는 `user.categoryId`로, 제품 페이지에서 지정된 mbox 매개 변수입니다. 방문자가 계속 탐색하거나 다른 세션을 위해 재방문할 때 특정 사용자가 보는 제품 카테고리를 기록할 수 있습니다. 또한 임의의 mbox(중첩된 mbox 포함)에서 mbox 매개 변수 `user.categoryId`나 URL 매개 변수 `user.categoryId`로서 또는 글로벌 mbox를 사용하는 Target 페이지 매개 변수로 카테고리 정보를 전달하여 카테고리 정보를 기록할 수도 있습니다. 자세한 내용은 계정 담당자에게 문의하십시오.
 
-별도의 카테고리를 만들려면 쉼표를 사용하여 카테고리를 구분하십시오. 예:
+여러 카테고리에 항목을 포함하려면 쉼표로 카테고리를 구분합니다. 예:
 
-* `categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
-* `entity.categoryId=clothing,shoes,nike,running,shox,nike shox turbo,nike shox turbo VI`
+* `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
 제품 카테고리에 대한 방문 빈도 및 최근성에 따라 사용자가 보유한 카테고리 관련성(있는 경우)이 기록됩니다. 카테고리 관심도를 사용하여 활동을 위한 모집단을 타깃팅할 수 있습니다.
 
 프로필 스크립트에서 `user.categoryAffinities[]`를 사용하여 방문자가 채운 다수의 관심 사항을 반환할 수 있습니다.
+
+>[!IMPORTANT]
+>
+>Adobe Target의 카테고리 친화성 알고리즘에 사용되는 `user.categoryId` 속성은 Adobe Target Recommendations의 제품 및 컨텐츠 추천에 사용되는 `entity.categoryId` 속성과 구별됩니다. `user.categoryId` 은 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId` 는 현재 페이지 또는 현재 항목 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 모두 Adobe Target로 전달합니다.
 
 ## 카테고리 관심도에 대한 비즈니스 사례 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
