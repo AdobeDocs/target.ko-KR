@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js FAQ
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -29,6 +29,44 @@ at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
 위에서 보듯이 mbox.js를 사용하는 페이지 컨텐츠는 [!DNL Target] 호출이 완료될 때까지 로드되지 않습니다. 반면에 at.js를 사용하는 페이지 컨텐츠는 [!DNL Target] 호출이 시작되면 로드가 시작되며 호출이 완료될 때까지 기다리지 않습니다.
 
+## 페이지 로드 시간에 at. js 및 mbox. js의 영향은 무엇입니까? {#page-load}
+
+많은 고객과 컨설턴트는 특히 새 사용자와 재방문 사용자의 컨텍스트에서 비교하여 페이지 로드 시간에 대한 [!DNL at.js]와 [!DNL mbox.js]의 영향을 알고 싶어 합니다. 안타깝게도, 제각각의 고객 구현으로 인해 [!DNL at.js]나 [!DNL mbox.js]가 어떻게 페이지 로드 시간에 영향을 주는지에 대한 구체적 수치를 측정하고 제공하기는 어렵습니다.
+
+하지만 방문자 API가 페이지에 있다면 [!DNL at.js]와 [!DNL mbox.js]가 어떻게 페이지 로드 시간에 영향을 주는지를 더 잘 이해할 수 있습니다.
+
+>[!NOTE]
+>
+>방문자 API와 [!DNL at.js] 또는 [!DNL mbox.js]는 글로벌 mbox를 사용하는 경우에만 페이지 로드 시간에 영향을 미칩니다(본문 숨기기 기법으로 인해). 지역 mbox는 방문자 API 통합의 영향을 받지 않습니다.
+
+다음 섹션에서는 새 방문자와 재방문자에 대한 작업 시퀀스를 설명합니다.
+
+### 새 방문자 수
+
+1. 방문자 API가 로드, 구문 분석 및 실행됩니다.
+1. at.js/mbox.js가 로드, 구문 분석 및 실행됩니다.
+1. 글로벌 mbox 자동 생성 기능이 활성화되어 있을 경우, Target JavaScript 라이브러리는
+
+   * 방문자 개체를 인스턴스화합니다.
+   * Target 라이브러리가 Experience Cloud 방문자 ID 데이터 검색을 시도합니다.
+   * 새 방문자이므로 방문자 API는 demdex.net에 대한 도메인 간 요청을 실행합니다.
+   * Experience Cloud 방문자 ID 데이터가 검색되면 Target에 대한 요청이 실행됩니다.
+
+### 재방문자
+
+1. 방문자 API가 로드, 구문 분석 및 실행됩니다.
+1. at.js/mbox.js가 로드, 구문 분석 및 실행됩니다.
+1. 글로벌 mbox 자동 생성 기능이 활성화되어 있을 경우, Target JavaScript 라이브러리는
+
+   * 방문자 개체를 인스턴스화합니다.
+   * Target 라이브러리가 Experience Cloud 방문자 ID 데이터 검색을 시도합니다.
+   * 방문자 API는 쿠키의 데이터를 검색합니다.
+   * Experience Cloud 방문자 ID 데이터가 검색되면 Target에 대한 요청이 실행됩니다.
+
+>[!NOTE]
+>
+>새 방문자의 경우, 방문자 API가 있으면 Target은 여러 번 연결하여 Target 요청에 Experience Cloud 방문자 ID 데이터가 포함되어 있는지 확인해야 합니다. 재방문자의 경우 Target은 Target에만 연결하여 개인화된 컨텐츠를 검색합니다.
+
 ## 이전 버전의 at.js를 버전 1.0.0으로 업그레이드한 후 응답 속도가 느려진 것 같은 이유는 무엇입니까? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
 [!DNL at.js] 버전 1.0.0 이상은 모든 요청을 동시에 실행합니다. 이전 버전은 요청을 순차적으로 실행합니다. 즉, 요청이 큐에 들어가고 Target은 다음 요청으로 이동하기 전에 첫 번째 요청이 완료될 때까지 대기합니다.
@@ -45,10 +83,6 @@ at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 </ul>
 
 알 수 있듯이 [!DNL at.js] 1.0.0이 요청을 더 빨리 완료할 것입니다. 또한 [!DNL at.js] 요청은 비동기적이므로 Target이 페이지 렌더링을 차단하지 않습니다. 요청이 완료되기까지 수 초가 걸리는 경우에도 여전히 렌더링된 페이지가 표시되며, Target이 Target 에지에서 응답을 받을 때까지 페이지의 몇몇 부분만 공백으로 표시됩니다.
-
-## 페이지 로드 시 at.js의 영향은 어떤 것입니까? {#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-자세한 내용은 [Target JavaScript 라이브러리 이해](../../../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB)를 참조하십시오.
 
 ## 타겟 라이브러리를 비동기식으로 로드할 수 있습니까? {#section_AB9A0CA30C5440C693413F1455841470}
 
