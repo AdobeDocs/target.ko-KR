@@ -8,7 +8,7 @@ title: 평균 상승도, 상승도 한계 및 신뢰 구간
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 721571e4257484af843d9ab5214cffc256c827db
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -38,7 +38,7 @@ Target 보고 UI의 상승도 정보는 다음 항목을 포함합니다.
 
 다음 그림은 상승도 한계와 신뢰 수준 정보를 보여줍니다.
 
-![](assets/lift-screenshot.png)
+![평균 상승도 및 신뢰도 수준 보고서](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## 상승도 한계는 어떻게 계산됩니까? {#section_1D360781D972483693680BE0F07AEAD1}
 
@@ -51,11 +51,11 @@ Target 보고 UI의 상승도 정보는 다음 항목을 포함합니다.
 상승도 한계에 대한 입력에 도달하는 몇 가지 추가 계산이 있습니다.
 
 * **t 값:** 95% 신뢰 수준에 대한 중요 통계는 1.96.입니다. [여기서 t 값](https://en.wikipedia.org/wiki/T-statistic)에 대해 자세히 알 수 있습니다.
-* **상승도 분산:**상승도 분산을 결정하려면 경험 N의 성공 지표에 대한 표준 오차와 통제 경험의 성공 지표에 대한 표준 오차가 있어야 합니다. 상승도 분산은 다음 공식을 사용하여 계산됩니다(성공 지표가 전환인 경우가 설명됨).
+* **상승도 분산:** 상승도 분산을 결정하려면 경험 N의 성공 지표에 대한 표준 오차와 통제 경험의 성공 지표에 대한 표준 오차가 있어야 합니다. 상승도 분산은 다음 공식을 사용하여 계산됩니다(성공 지표가 전환인 경우가 설명됨).
 
    ![](assets/lift_variance.png)
 
-* **전환율 / 성공 지표 표준 오차:**다음 공식을 사용하여 경험 N 및 통제 경험에 대해 동일한 방식으로 표준 오차가 계산됩니다(성공 지표가 전환인 경우가 설명됨). [여기서 표준 오차](https://en.wikipedia.org/wiki/Standard_error)에 대해 자세히 알 수 있습니다.
+* **전환율 / 성공 지표 표준 오차:** 다음 공식을 사용하여 경험 N 및 통제 경험에 대해 동일한 방식으로 표준 오차가 계산됩니다(성공 지표가 전환인 경우가 설명됨). [여기서 표준 오차](https://en.wikipedia.org/wiki/Standard_error)에 대해 자세히 알 수 있습니다.
 
    ![](assets/standard_error.png)
 
