@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 5 월 30 일 | [Adobe Experience Cloud에서 Target에 액세스](/help/c-intro/target-access-from-mac.md#doc-lang) | 이제 중국어 간체 언어로 설명서를 사용할 수 있습니다. |
+|  | [CSV 파일로 데이터 다운로드](/help/c-reports/downloading-data-in-csv-file.md) | Export Order Details in the Export Order Details to CSV Section: &quot; Target 보고 UI에 적용된 대상이 다운로드 보고서로 넘어가지 않습니다. &quot; |
 | 2019 년 5 월 29 일 | [카테고리 친화성](/help/c-target/c-visitor-profile/category-affinity.md) | `user.categoryId` AND `entity.categoryId`의 차이를 명확히 하기 위해 텍스트가 업데이트되었습니다. |
 |  | [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오 | 이 주제에 대한 재배치 섹션: at. js의 이점. |
 |  | [at.js 자주 묻는 질문](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 이 주제에 대한 재배치 섹션: &quot; 페이지 로드 시 at. js 및 mbox. js의 영향은 무엇입니까? &quot; |
@@ -54,7 +56,7 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ## Adobe Target Standard/Premium 19.4.2 (2019 년 4 월 30 일) {19-4-2}
 
-****참고: Target Standard/Premium 19.4.1 릴리스는 브랜딩 및 제품 변경 사항을 반영하도록 Adobe Experience Cloud UI를 업데이트하는 기본 버전입니다.
+**** 참고: Target Standard/Premium 19.4.1 릴리스는 브랜딩 및 제품 변경 사항을 반영하도록 Adobe Experience Cloud UI를 업데이트하는 기본 버전입니다.
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -147,7 +149,7 @@ source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 |  | [ Target 소개](/help/c-intro/intro.md) | &quot; Target Premium &quot;아래에&quot; Recommendations로 권장 사항 &quot;을 추가했습니다. |
 |  | [Target 주요 개념](/help/c-intro/target-key-concepts.md) | &quot; 활동 유형 &quot;테이블이 업데이트되었습니다. |
 | 2019년 26월 2일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | Target API의 엔터프라이즈 권한 지원에 대한 알려진 문제가 추가되었습니다. |
-| 2019년 25월 2일 | [Target 릴리스 노트 (현재)](/help/r-release-notes/release-notes.md), <br>[Target 릴리스 노트 (](/help/r-release-notes/target-release-notes.md)베타 버전) 및 <br>[TLS (전송 레이어 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 다음 정보가 업데이트되었습니다.<br>2019 년 2 월 20 일, EMEA, 일본 및 APAC 지역의 Adobe Target 인프라가 더 이상 TLS 1.1 이상 버전을 지원하지 않는 이전 장치나 웹 브라우저에서 최종 사용자의 데이터를 수집하지 않도록 업그레이드되었습니다. 동일한 업그레이드가 2019 년 **3 월 4 일에 북미 지역에 대해서도 예정되어**있습니다. TLS 1.2로 마이그레이션하면 보안이 강화됩니다. 세부 사항을 살펴보고 원활한 전환을 위한 변경을 계획하는 것이 중요합니다. |
+| 2019년 25월 2일 | [Target 릴리스 노트 (현재)](/help/r-release-notes/release-notes.md), <br>[Target 릴리스 노트 (](/help/r-release-notes/target-release-notes.md)베타 버전) 및 <br>[TLS (전송 레이어 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 다음 정보가 업데이트되었습니다.<br>2019 년 2 월 20 일, EMEA, 일본 및 APAC 지역의 Adobe Target 인프라가 더 이상 TLS 1.1 이상 버전을 지원하지 않는 이전 장치나 웹 브라우저에서 최종 사용자의 데이터를 수집하지 않도록 업그레이드되었습니다. 동일한 업그레이드가 2019 년 **3 월 4 일에 북미 지역에 대해서도 예정되어** 있습니다. TLS 1.2로 마이그레이션하면 보안이 강화됩니다. 세부 사항을 살펴보고 원활한 전환을 위한 변경을 계획하는 것이 중요합니다. |
 |  | [. js 1. x에서 at. js 2. x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping) | 새 섹션: &quot; at. js 1. x 매개 변수를. js 2. x 페이로드 매핑에 추가했습니다. &quot; |
 |  | [고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | &quot; Hostnames &quot;열이 허용 목록에 대한 IP 주소에 추가되었습니다. |
 | 2019년 22월 2일 | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | &quot; 작업 영역 ID 가져오기 &quot;섹션이 추가되었습니다. |
