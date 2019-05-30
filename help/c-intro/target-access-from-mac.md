@@ -9,7 +9,7 @@ title: Adobe Experience Cloud에서 Target에 액세스
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -28,11 +28,11 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
    ![타겟 아이콘](/help/c-intro/assets/appmenu-target-new.png)
 
-1. [!DNL Target] 카드에서 **[!UICONTROL 시작]**을 클릭합니다.
+1. [!DNL Target] 카드에서 **[!UICONTROL 시작]** 을 클릭합니다.
 
    ![Target Launch](/help/c-intro/assets/target-launch-new.png)
 
-1. (선택 사항) [!DNL Target]에 로그인할 때 [!DNL Experience Cloud]을 기본 보기로 설정하려면 프로필 아바타 아래의 **[!UICONTROL 프로필 편집]**을 클릭한 후 랜딩 페이지 기본 설정을 지정합니다.
+1. (선택 사항) [!DNL Target]에 로그인할 때 [!DNL Experience Cloud]을 기본 보기로 설정하려면 프로필 아바타 아래의 **[!UICONTROL 프로필 편집]** 을 클릭한 후 랜딩 페이지 기본 설정을 지정합니다.
 
    ![랜딩 페이지](/help/c-intro/assets/pagepref-new.png)
 
@@ -42,7 +42,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
    ![프로필 편집](/help/c-intro/assets/change-language.png)
 
-1. 개인 정보 **[!UICONTROL 편집을]**클릭합니다.
+1. 개인 정보 **[!UICONTROL 편집을]** 클릭합니다.
 
 1. 상단 메뉴 모음에서 **[!UICONTROL [통신]** ] 탭을 클릭합니다.
 
@@ -90,7 +90,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 * 일본어
 * 이탈리아어
 * 포르투갈어 (브라질)
-* 중국어 간체 (준비 중)
+* 중국어
 * 대만어
 * 한국어
 
