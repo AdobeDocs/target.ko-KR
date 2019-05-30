@@ -8,7 +8,7 @@ title: 보고서 설정
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 
-보고서를 표시하려면 **[!UICONTROL 활동]**을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **보고서]탭을 클릭하십시오.[!UICONTROL **
+보고서를 표시하려면 **[!UICONTROL 활동]** 을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **보고서]탭을 클릭하십시오.[!UICONTROL **
 
-![](assets/report_ui.png)
+![보고서 UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Target 사전 설정 {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -30,13 +30,13 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 **사전 설정 또는 기본 사전 설정 작성**
 
 1. 활동의 보고서를 원하는 대로 구성합니다(지표, 날짜 범위, 대상, 고급 설정 등).
-1. **[!UICONTROL Target 사전 설정]** 옆에 있는 3개의 수직 줄임표 아이콘을 클릭한 뒤 **[!UICONTROL 새 이름으로 저장]**을 클릭합니다.
+1. **[!UICONTROL Target 사전 설정]** 옆에 있는 3개의 수직 줄임표 아이콘을 클릭한 뒤 **[!UICONTROL 새 이름으로 저장]** 을 클릭합니다.
 
-   ![](assets/report_preset.png)
+   ![보고서 사전 설정](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    새 사전 설정 대화 상자가 표시됩니다.
 
-   ![](assets/report_preset_dialog.png)
+   ![새 사전 설정 대화 상자](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. 필터 및 설정 섹션의 정보를 검토하여 보고서가 원하는 대로 구성되었는지 확인한 다음 **[!UICONTROL 사전 설정 이름]**(최대 50자까지)을 지정하십시오.
 1. (조건부) 기본/즐겨 찾는 보고서 보기로 설정하려면 **[!UICONTROL 이 설정을 기본 사전 설정으로 설정]토글을 [켜기] 위치로 밉니다.**
@@ -46,7 +46,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 **[!UICONTROL Target 사전 설정]드롭다운 목록에서 원하는 사전 설정을 선택합니다.**
 
-![](assets/report_preset_drop-down.png)
+![사전 설정 드롭다운 목록](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **사전 설정 편집**
 
@@ -55,7 +55,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
    보고서의 구성을 편집한 후 [!UICONTROL 저장]을 클릭하면 사전 설정 이름 뒤에 별표(*)가 표시되어 아래와 같이 사전 설정이 변경되었음을 나타냅니다.
 
-   ![](assets/report_preset_asterisk.png)
+   ![별표 포함 보고서 사전 설정](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. 3개의 수직 줄임표 아이콘 &gt; **[!UICONTROL 새 이름으로 저장]을 클릭하여 새로운 사전 설정을 만듭니다.**
 
@@ -63,14 +63,14 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
    3개의 수직 줄임표 아이콘 &gt; **[!UICONTROL 업데이트]를 클릭하여 현재 사전 설정을 업데이트합니다.**
 
-   ![](assets/report_preset_update.png)
+   ![보고서 기본 업데이트](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **사전 설정 삭제**
 
 1. 삭제할 사전 설정을 선택합니다.
 1. 3개의 수직 줄임표 아이콘 &gt; **[!UICONTROL 삭제를 클릭합니다]**.
 
-   ![](assets/report_preset_delete.png)
+   ![보고서 기본 삭제](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. **[!UICONTROL 삭제]를 다시 클릭하여 삭제를 확인합니다.**
 
@@ -104,7 +104,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 날짜 범위 상자에 보고서 현재 날짜 범위가 표시됩니다. 드롭다운 아이콘을 클릭하여 보고서의 날짜 범위를 변경할 수 있는 달력을 표시합니다.
 
-![](assets/date_range.png)
+![달력](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
 보고서에 대한 새로운 **[!UICONTROL 시작]** 및 **종료]날짜를 선택하십시오.[!UICONTROL ** **[!UICONTROL 활동 시작 날짜부터]** 및 **활동 마지막 날짜까지[!UICONTROL 확인란을 사용할 수도 있습니다.]**
 
@@ -122,19 +122,19 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 다음 그림은 A/B 활동에 대한 [설정] 대화 상자입니다.
 
-![](assets/ab_settings_dialog.png)
+![설정 대화 상자](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 선택한 활동 유형에 따라 선택 사항이 달라집니다.
 
-* **계산 방법론:**원하는 방법을 선택하십시오.
+* **계산 방법론:** 원하는 방법을 선택하십시오.
 
    * 방문자 수
    * 방문 횟수
    * 활동 노출 횟수
 
-* **제어:**상승도를 계산하고 비교할 때 사용할 통제 경험을 선택하십시오.
-* **환경:**보고서에 사용할 환경(호스트 그룹)을 선택하십시오.  자세한 내용은 [호스트](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
-* **보고서 데이터 재설정:**이전 데이터를 제거하려면 보고 데이터를 재설정하십시오. 현재 방문자는 활동에 남아 있습니다.  이 선택 사항은 승인자 권한이 있는 사용자만 사용할 수 있습니다.
+* **제어:** 상승도를 계산하고 비교할 때 사용할 통제 경험을 선택하십시오.
+* **환경:** 보고서에 사용할 환경(호스트 그룹)을 선택하십시오.  자세한 내용은 [호스트](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
+* **보고서 데이터 재설정:** 이전 데이터를 제거하려면 보고 데이터를 재설정하십시오. 현재 방문자는 활동에 남아 있습니다.  이 선택 사항은 승인자 권한이 있는 사용자만 사용할 수 있습니다.
 
    >[!IMPORTANT]
    >
@@ -183,9 +183,9 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 차트에서 경험을 표시하거나 숨기려면 차트의 왼쪽에서 해당 경험을 선택하거나 선택 취소하십시오.
 
-다음 그림의 경우 보고서에 경험 B와 C만 표시됩니다.
+다음 그림일 경우, 보고서의 기본, 중동부 및 총계만 표시됩니다. 아시아 경험은 그래프에 숨겨져 있습니다.
 
-![](assets/report_experiences.png)
+![경험](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
 ## 평균 실행 {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -198,7 +198,7 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 * 일별
 * 일별 상승도
 
-![](assets/report_running_average.png)
+![보고서 실행 평균](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
@@ -214,13 +214,13 @@ source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
 
 계산 방법론은 위에서 설명한 [!UICONTROL 설정] 대화 상자에서 선택한 방법론과 같습니다.
 
-![](assets/counting_methodology.png)
+![계산 방법론](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)을 참조하십시오
 
 기본적으로 그래프는 [!UICONTROL 일별] 모드로 작성됩니다.
 
 [!UICONTROL 일별] 드롭다운 목록을 클릭한 다음, [!UICONTROL 누적]을 선택하여 모드를 변경할 수 있습니다.
 
-![](assets/counting_methodology_2.png)
+![누적](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 >[!NOTE]
 >
