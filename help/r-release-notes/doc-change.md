@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -23,6 +23,7 @@ source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 | --- | --- | --- |
 | 2019 년 5 월 30 일 | [Adobe Experience Cloud에서 Target에 액세스](/help/c-intro/target-access-from-mac.md#doc-lang) | 이제 중국어 간체 언어로 설명서를 사용할 수 있습니다. |
 |  | [CSV 파일로 데이터 다운로드](/help/c-reports/downloading-data-in-csv-file.md) | Export Order Details in the Export Order Details to CSV Section: &quot; Target 보고 UI에 적용된 대상이 다운로드 보고서로 넘어가지 않습니다. &quot; |
+|  | [보고서 설정](/help/c-reports/c-report-settings/report-settings.md) | 업데이트된 스크린샷. |
 | 2019 년 5 월 29 일 | [카테고리 친화성](/help/c-target/c-visitor-profile/category-affinity.md) | `user.categoryId` AND `entity.categoryId`의 차이를 명확히 하기 위해 텍스트가 업데이트되었습니다. |
 |  | [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오 | 이 주제에 대한 재배치 섹션: at. js의 이점. |
 |  | [at.js 자주 묻는 질문](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 이 주제에 대한 재배치 섹션: &quot; 페이지 로드 시 at. js 및 mbox. js의 영향은 무엇입니까? &quot; |
