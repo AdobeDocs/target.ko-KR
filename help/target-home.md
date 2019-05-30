@@ -6,7 +6,7 @@ title: Adobe Target 제품 설명서
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**최종 업데이트일: 2019 년 5 월 28 일 ([변경된](r-release-notes/doc-change.md)내용 확인)**
+**최종 업데이트일: 2019 년 5 월 30 일 ([변경된](r-release-notes/doc-change.md)내용 확인)**
 
 다음 섹션에서는 일반적인 직무에 따라 대상자별로 정렬된 이 안내서의 유용한 링크를 안내합니다.
 
@@ -58,4 +58,4 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 | Adobe [!DNL Target] 솔루션 도움말 | [!DNL Adobe Experience Cloud] 리소스 |
 |--- |--- |
-| <ul><li>[Adobe Target 학습 및 지원](https://helpx.adobe.com/support/target.html)</li><li>[Premium 권장 사항](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API 설명서](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud 도움말 홈](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |
+| <ul><li>[Adobe Target 학습 및 지원](https://helpx.adobe.com/support/target.html)</li><li>[Premium 권장 사항](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://marketing.adobe.com/resources/help/en_US/snp/)</li><li>[Target API 설명서](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 릴리스 노트](https://marketing.adobe.com/resources/help/en_US/whatsnew/)</li><li>[Experience Cloud 도움말 홈](https://marketing.adobe.com/resources/help/en_US/home/)</li><li>[Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
