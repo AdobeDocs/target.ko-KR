@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 5 월 31 일 | [권장 사항 계획 및 구현](/help/c-recommendations/plan-implement.md) | 코드 샘플이 업데이트되었습니다. |
 | 2019 년 5 월 30 일 | [Adobe Experience Cloud에서 Target에 액세스](/help/c-intro/target-access-from-mac.md#doc-lang) | 이제 중국어 간체 언어로 설명서를 사용할 수 있습니다. |
 |  | [CSV 파일로 데이터 다운로드](/help/c-reports/downloading-data-in-csv-file.md) | Export Order Details in the Export Order Details to CSV Section: &quot; Target 보고 UI에 적용된 대상이 다운로드 보고서로 넘어가지 않습니다. &quot; |
 |  | [보고서 설정](/help/c-reports/c-report-settings/report-settings.md) | 업데이트된 스크린샷. |
