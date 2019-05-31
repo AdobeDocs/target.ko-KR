@@ -8,7 +8,7 @@ title: 모바일
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -41,13 +41,13 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 사용자 지정 통합(at.js 또는 Mobile SDK를 사용하지 않음)을 사용하는 고객은 이러한 매개 변수를 직접 수집하여 mbox 매개 변수로 전달할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 모바일]**을 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 모바일]** 을 클릭합니다.
 
    ![](assets/target_mobile.png)
 
-1. **[!UICONTROL 선택]**을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
+1. **[!UICONTROL 선택]** 을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    * 장치 마케팅 이름
    * 장치 모델
@@ -58,6 +58,12 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
    * OS
    * 화면 높이(픽셀)
    * 화면 너비(픽셀)
+   >[!NOTE]
+   >
+   >iOS 12.2에 새롭게 추가된 변경 사항으로 인해, iPhone 모델을 지정하는 장치 마케팅 이름 및 장치 모델별로 정의된 규칙을 사용하여 대상을 만드는 것이 영향을 받습니다. iOS 12.2가 설치되어 있는 iphone를 가진 사용자를 더 이상 대상으로 할 수 없습니다. 그러나 이러한 사용자에게 iOS 12.2가 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
+   >
+   >Ios 12.2 업데이트는 다음 모델의 식별에는 영향을 주지 않습니다. 이러한 모델은 iOS 12.2 로의 업그레이드를 지원하지 않습니다. iPhone, iPhone 3 G, iPhone 3 GS, iPhone 4, iPhone 4 S, iPhone 5, iPhone 5 c, iPad, iPad 2, iPad/Retina 디스플레이, iPad Retina (4 세대), iPod touch 4 및 iPod touch 5.
+
    >[!NOTE]
    >
    >[지역 설정](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)을 사용하여 이동통신사별로 타깃팅할 수 있습니다.
@@ -72,4 +78,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
