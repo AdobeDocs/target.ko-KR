@@ -8,7 +8,7 @@ title: Target 릴리스 노트(현재)
 topic: 권장 사항
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
+source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 ---
 
@@ -21,12 +21,29 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 다음 중요 알림을 확인하십시오.
 
-* 2019 년 2 월 20 일, EMEA, 일본 및 APAC 지역에서 Adobe Target 인프라가 더 이상 TLS 1.1 이상을 지원하지 않는 이전 장치나 웹 브라우저에서 최종 사용자의 데이터를 수집하지 않도록 업그레이드되었습니다. 동일한 업그레이드가 2019 년 4 월 1 일에 **북미 지역에 대해서도 예정되어**있습니다. TLS 1.2로 마이그레이션하면 보안이 강화됩니다. 세부 사항을 검토하고 IT 팀에 변경 사항을 계획하여 원활한 전환을 수행해야 합니다. 자세한 내용은 [TLS (Transport Layer Security) 암호화 변경을 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
+* 2019 년 2 월 20 일, EMEA, 일본 및 APAC 지역에서 Adobe Target 인프라가 더 이상 TLS 1.1 이상을 지원하지 않는 이전 장치나 웹 브라우저에서 최종 사용자의 데이터를 수집하지 않도록 업그레이드되었습니다. 동일한 업그레이드가 2019 년 4 월 1 일에 **북미 지역에 대해서도 예정되어** 있습니다. TLS 1.2로 마이그레이션하면 보안이 강화됩니다. 세부 사항을 검토하고 IT 팀에 변경 사항을 계획하여 원활한 전환을 수행해야 합니다. 자세한 내용은 [TLS (Transport Layer Security) 암호화 변경을 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md).
 * [!DNL Target]과 [!DNL Adobe Marketing Cloud]는 2019년 3월부터 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. 이 변경 사항은 [!DNL Target] 작성에만 영향을 주며, 경험 전달에는 영향을 주지 않습니다. Microsoft Edge나 다른 브라우저로 전환하십시오. 자세한 내용은 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)를 참조하십시오.
 
-## [!DNL Target] Standard/Premium 19.5.1 (2019 년 5 월 21 일) {#tgt-19-5-1}
+## at. js 버전 2.1.0 (2019 년 6 월 3 일)
 
-이 릴리스에는 다음과 같은 기능, 변경 사항 및 개선 사항이 포함되었습니다.
+이제. js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드립니다.
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| Adobe 옵트인 지원 | Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 개인 정보 보호 규정 (GDPR) 를 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
+| 업계 표준의 CSP 규격 | at. js는 더 이상 eval () 를 사용하여 JavaScript를 실행하지 않습니다. |
+| 클라이언트측 분석 로깅 | 고객이 클라이언트측 또는 서버측에서 Adobe Analytics로 분석 데이터를 어떻게 전송할지 완전히 제어할 수 있습니다.<br>자세한 내용은 구현하기 전에 [Client-Side Analytics 로그인을](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) *참조하십시오*. |
+| 알림 보내기 | 개발자가 또는 사용 경험이 아닌 코드로 렌더링될 때 알림을 전송할 `applyOffer()` 수 있습니다 `applyOffers()`.<br>자세한 내용은 [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)를 참조하십시오. |
+| 파일 크기 감소 | at. js의 크기는 ~ 24% 줄어듭니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at. js 다운로드 시간도 줄어듭니다. |
+| . js 설명서 업데이트 | . js 2.1.0 릴리스로 인해 업데이트된 모든 문서의 전체 목록은 2019 년 6 월 3 [일 문서 변경 사항 항목을 참조하십시오](/help/r-release-notes/doc-change.md). |
+
+## Mobile App Visual Experience Composer (2019 년 5 월 14 일) {#mobile-app-vec-may14-1}
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| Mobile App Visual Experience Composer (VEC) | 모바일 앱 VEC를 사용하면 지속적인 개발 종속성 및 앱 릴리스 주기를 사용하지 않고도 고유한 방식으로 기본 모바일 앱에서 콘텐츠를 맞춤화하고 콘텐츠를 개인화할 수 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오.<ul><li>[모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[모바일 VEC에서 클릭 추적 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li></ul> |
+
+## [!DNL Target] Standard/Premium 19.5.1 (2019 년 5 월 21 일) {#tgt-19-5-1}
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
@@ -40,7 +57,7 @@ source-git-commit: 542366ce4c14eab4ee15e3614888f4b335b9a0df
 
 * VEC 내에서 페이지 로드를 취소하면 도구 모음 아이콘이 적절하게 표시됩니다. 페이지가 완전히 로드될 때까지 특정 작업을 수행할 수 없는 경우 연관된 도구 모음 아이콘이 비활성화됩니다. (TGT-33811)
 
-## Mobile App Visual Experience Composer (2019 년 5 월 14 일) {mobile-vec}
+## Mobile App Visual Experience Composer (2019 년 5 월 14 일) {#mobile-vec-may14-2}
 
 | 기능/향상 | 설명 |
 | --- | --- |
