@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js 버전 세부 사항
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
+source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
 
 ---
 
@@ -20,6 +20,24 @@ source-git-commit: 76a212d334564379a061e740d9b7a1a92b889a15
 >[!IMPORTANT]
 >
 >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 
+
+## at. js 버전 2.1.0 (발표일)
+
+이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+
+* **Adobe 옵트인 지원**: Adobe 옵트인 (Opt-in) 는 동의 관리 플랫폼으로 Adobe 솔루션 통합을 간소화하는 방법입니다. Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 개인 정보 보호 규정 (GDPR) 를 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+
+* **업계 표준 CSP 준수**: at. js는 더 이상 eval () 를 사용하여 JavaScript를 실행하지 않습니다.
+
+* **클라이언트측 분석 로깅**: 고객이 클라이언트측 또는 서버측에서 Adobe Analytics로 분석 데이터를 어떻게 전송할지 고객이 제어할 수 있도록 합니다.
+
+   자세한 내용은 구현하기 전에 [Client-Side Analytics 로그인을](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) *참조하십시오*.
+
+* **알림 보내기**: 개발자가 또는 사용 경험이 아닌 코드로 렌더링될 때 알림을 전송할 `applyOffer()` 수 있습니다 `applyOffers()`.
+
+   자세한 내용은 [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)를 참조하십시오.
+
+* **at. js size reduced by ~ 24%**: at. js의 크기는 ~ 24% 줄어듭니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at. js 다운로드 시간도 줄어듭니다.
 
 ## at. js 버전 2.0.1 (2019 년 3 월 19 일)
 
@@ -67,7 +85,7 @@ at. js 2. x 에서는 다음과 같은 새로운 기능을 도입했습니다.
 
 >[!NOTE]
 >
->[일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) 에 대한 Adobe 옵트인 지원이 필요한 경우, 현재 at. js 1.7.0를 사용해야 합니다. 옵트인 지원은 현재 at. js 2. x에서 지원되지 않습니다.
+>[일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) 에 대한 Adobe 옵트인 지원이 필요한 경우 현재. js 1.7.0 또는 at. js 2.1.0에서 사용해야 합니다.
 
 ## at.js 버전 1.7.0 {#at-js-170}
 
@@ -79,7 +97,7 @@ Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 일반 �
 
 >[! 참고]
 >
->GDPR에 대한 Adobe 옵트인 지원이 필요한 경우 현재. js 1.7.0를 사용해야 합니다. 옵트인 지원은 현재 at. js 2. x에서 지원되지 않습니다<br>. 모든 버전의 목록은. js 버전 세부 정보를 [참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>GDPR에 대한 Adobe 옵트인 지원이 필요한 경우 현재. js 1.7.0 또는 2.1.0에서 사용해야 합니다.<br>모든 버전의 목록은. js 버전 세부 정보를 [참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js 버전 1.6.4 {#at-js-164}
 
