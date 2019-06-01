@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
+source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 ---
 
@@ -21,6 +21,14 @@ source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 6 월 3 일 | [릴리스 노트 (현재)](/help/r-release-notes/release-notes.md) | . js 2.1.0의 예정된 릴리스에 대한 정보가 추가되었습니다. |
+|  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | . js 2.1.0의 예정된 릴리스에 대한 정보가 추가되었습니다. |
+|  | [시작하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 추가된 새 섹션: &quot; 클라이언트측 분석 로깅 &quot; |
+|  | [Analytics for Target 구현](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)을 참조하십시오 | 7 단계 개정. |
+|  | [adobe. target. getoffer (options) - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 다음 필드 이름에 대해 표에 행을 추가했습니다.<ul><li>요청 &gt; Experiencecloud</li><li>요청 &gt; Experiencecloud &gt; 분석</li><li>요청 &gt; Experiencecloud &gt; Analytics &gt; 로깅</li></ul> |
+|  | [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 표에 행을 추가했습니다 `adobe.target.sendNotifications(options)`. |
+|  | [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 새 주제입니다.  |
+|  | [. js 1. x에서 at. js 2. x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | . js 2.1.0에서 Adobe 옵트인 지원에 대한 정보가 추가되었습니다. |
 | 2019 년 5 월 31 일 | [모바일](/help/c-target/c-audiences/c-target-rules/mobile.md) | iOS 12.2를 실행하는 타깃팅 장치에 대한 참고가 추가되었습니다. |
 |  | [권장 사항 계획 및 구현](/help/c-recommendations/plan-implement.md) | 코드 샘플이 업데이트되었습니다. |
 | 2019 년 5 월 30 일 | [Adobe Experience Cloud에서 Target에 액세스](/help/c-intro/target-access-from-mac.md#doc-lang) | 이제 중국어 간체 언어로 설명서를 사용할 수 있습니다. |
