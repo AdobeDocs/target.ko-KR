@@ -8,7 +8,7 @@ title: Analytics for Target 구현
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 1be00210754e8fa3237fdbccf48af625c2aafe65
+source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
 
 ---
 
@@ -55,27 +55,110 @@ Experience Cloud 방문자 ID 서비스 설명서의 [Target용 Experience Cloud
 
 그렇지 않으면, JavaScript 파일용 AppMeasurement 및 방문자 ID 서비스와 함께 이 파일을 호스트할 수 있습니다. 이러한 파일은 사이트의 모든 페이지에서 액세스할 수 있는 웹 서버에 호스트되어야 합니다. 다음 단계에서 이 파일에 대한 경로가 필요합니다.
 
-## 7단계: 모든 사이트 페이지에서 at.js 또는 mbox.js 참조
+## 7단계: 모든 사이트 페이지에서 at.js 또는 mbox.js 참조 {#step7}
 
-각 페이지의 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 태그에 다음 코드 행을 추가하여 VisitorAPI.js 아래 at.js 또는 mbox.js를 포함합니다.
+각 페이지의 태그에 다음 코드 행을 추가하여 Visitorapi. js 아래에 at. js 또는 mbox. js를 포함합니다.
 
 at.js의 경우:
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
 mbox.js의 경우:
 
 ```
-<script language="JavaScript" type="text/javascript" 
+<script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-VisitorAPI.js가 at.js 또는 mbox.js보다 먼저 로드되어야 합니다. 따라서 기존 at.js 또는 mbox.js 파일을 업데이트하는 경우 로드 순서를 확인해야 합니다.
+Visitorapi. js 는. js 또는 mbox. js 앞에 로드되어야 합니다. 기존 at. js 또는 mbox. js 파일을 업데이트하는 경우 로드 순서를 확인해야 합니다.
 
-## 8단계: 구현의 유효성 검사
+구현 원근과 Target 및 Analytics 통합에 대해 기본적으로 설정이 구성되는 방법은 페이지에서 전달되는 SDID를 사용하여 자동으로 백엔드에서 Target 및 Analytics 요청을 연결하는 것입니다.
+
+하지만 보고 목적으로 Target와 관련된 Analytics 데이터를 어떻게 보내고 Target 및 Analytics가 SDID를 통해 Analytics 데이터를 자동으로 Stitch의 기본 설정을 따르도록 하는 방법과 시간을 더 많이 제어하려는 경우, window. targetglobalsettings를 통해 **analytics = client_ side****를 설정할 수** 있습니다. 참고: 2.1 미만 버전은 이 방법을 지원하지 않습니다.
+
+예:
+
+```
+window.targetGlobalSettings = {
+  analyticsLogging: "client_side"
+};
+```
+
+이 설정에는 전역 효과가 있습니다. 즉, at. js에서 만든 모든 호출에는 **Analytics 기록이 포함됩니다. &quot; client_ side &quot;가 Target 요청에** 전송되고 Analytics 페이로드가 모든 요청에 대해 반환됩니다. 이 설정이 설정되면 반환되는 페이로드의 형식은 다음과 같이 나타납니다.
+
+```
+"analytics": {
+   "payload": {
+      "pe": "tnt",
+      "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+   }
+}
+```
+
+그런 다음 데이터 삽입 API [](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)를 통해 페이로드를 Analytics로 전달할 수 있습니다.
+
+글로벌 설정을 원하지 않고 더 많은 on-demand 방식이 필요한 경우 at. js 함수 [getoffers ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 를 사용하여 Analytics에서 **전달함으로써 이를 수행할 수 있습니다. &quot; client_ side &quot;** 를 참조하십시오. Analytics 페이로드가 이 호출만 대해 반환되고 Target 백엔드는 페이로드를 Analytics로 전달하지 않습니다. 이 방법을 추구하면 at. js Target 요청이 기본적으로 페이로드를 반환하지는 않지만 대신 원할 때만 페이로드를 반환합니다.
+
+예:
+
+```
+adobe.target.getOffers({
+      request: {
+        experienceCloud: {
+          analytics: {
+            logging: "client_side"
+          }
+        },
+        prefetch: {
+          mboxes: [{
+            index: 0,
+            name: "a1-serverside-xt"
+          }]
+        }
+      }
+    })
+    .then(console.log)
+```
+
+이 호출은 Analytics 페이로드를 추출할 수 있는 응답을 호출합니다.
+
+응답은 다음과 같습니다.
+
+```
+{
+  "prefetch": {
+    "mboxes": [{
+      "index": 0,
+      "name": "a1-serverside-xt",
+      "options": [{
+        "content": "<img src=\"http://s7d2.scene7.com/is/image/TargetAdobeTargetMobile/L4242-xt-usa?tm=1490025518668&fit=constrain&hei=491&wid=980&fmt=png-alpha\"/>",
+        "type": "html",
+        "eventToken": "n/K05qdH0MxsiyH4gX05/2qipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+        "responseTokens": {
+          "profile.memberlevel": "0",
+          "geo.city": "bucharest",
+          "activity.id": "167169",
+          "experience.name": "USA Experience",
+          "geo.country": "romania"
+        }
+      }],
+      "analytics": {
+        "payload": {
+          "pe": "tnt",
+          "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+        }
+      }
+    }]
+  }
+}
+```
+
+그런 다음 데이터 삽입 API [](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)를 통해 페이로드를 Analytics로 전달할 수 있습니다.
+
+## 8단계: 구현의 유효성 검사 {#step8}
 
 JavaScript 라이브러리를 업데이트한 후 페이지를 로드하여 Target 호출의 mboxMCSDID 매개 변수 값이 Analytics page-view 호출의 sdid 매개 변수 값과 일치하는지 확인하십시오.
 
