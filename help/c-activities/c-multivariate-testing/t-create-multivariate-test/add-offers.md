@@ -1,11 +1,11 @@
 ---
 description: 시각적 경험 작성기를 사용하여 테스트에 포함할 오퍼를 만듭니다.
 seo-description: 시각적 경험 작성기를 사용하여 테스트에 포함할 오퍼를 만듭니다.
-seo-title: 조합 만들기
+seo-title: Adobe Target에서 조합 만들기
 title: 조합 만들기
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 >[!NOTE]
 >
->원래 선택한 요소 외에 상위 요소를 선택할 페이지에서 개체를 선택할 때 **[!UICONTROL 선택 요소 확장]**을 클릭할 수 있습니다. 상위 요소를 선택하면 이 요소의 모든 하위 요소가 자동으로 선택됩니다. 선택 요소를 여러 번 확장할 수 있습니다.
+>원래 선택한 요소 외에 상위 요소를 선택할 페이지에서 개체를 선택할 때 **[!UICONTROL 선택 요소 확장]** 을 클릭할 수 있습니다. 상위 요소를 선택하면 이 요소의 모든 하위 요소가 자동으로 선택됩니다. 선택 요소를 여러 번 확장할 수 있습니다.
 
 시각적 경험 작성기를 사용하면 오퍼, 오퍼 이름, 위치 이름을 편집할 수 있습니다. 변경을 수행한 위치를 보여주는 오버레이가 표시됩니다.
 
@@ -30,7 +30,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
    ![](assets/changeimage.png)
 
-1. 테스트에 포함할 모든 이미지를 선택하고 **[!UICONTROL 추가]**를 클릭합니다.
+1. 테스트에 포함할 모든 이미지를 선택하고 **[!UICONTROL 추가]** 를 클릭합니다.
 
    ![](assets/addimage.png)
 
@@ -40,11 +40,11 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 하나의 위치에서 여러 개의 텍스트/HTML 오퍼를 테스트하여 가장 성공적인 오퍼를 파악합니다.
 
-1. 페이지에서 텍스트/HTML 오퍼를 클릭한 다음 **[!UICONTROL 텍스트/HTML 변경]**을 클릭합니다.
+1. 페이지에서 텍스트/HTML 오퍼를 클릭한 다음 **[!UICONTROL 텍스트/HTML 변경]** 을 클릭합니다.
 
    ![](assets/changehtml.png)
 
-1. **[!UICONTROL 텍스트/HTML 오퍼 추가]**를 클릭하고 오퍼의 이름을 지정한 다음 텍스트/HTML 오퍼의 코드를 입력하거나 붙여넣습니다.
+1. **[!UICONTROL 텍스트/HTML 오퍼 추가]** 를 클릭하고 오퍼의 이름을 지정한 다음 텍스트/HTML 오퍼의 코드를 입력하거나 붙여넣습니다.
 
    ![](assets/editoffers.png)
 
