@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
+source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
 
 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
 
-## 제한 {limits}
+## 제한 {#limits}
 
 카탈로그에 있는 항목에 대한 추가 정보를 정의하는 데 최대 100개의 사용자 지정 엔티티 속성을 포함할 수 있습니다. 예를 들어, 책 또는 동영상을 정의하기 위해 `entity.genre`라는 사용자 지정 속성을 만들 수 있습니다. 또는 티켓 공급업체는 스포츠 경기의 원정 팀이나 콘서트의 서막 같이, 보조 참여자를 포함하도록 행사가 열리는 장소에 대한 속성을 만들 수 있습니다.
 
