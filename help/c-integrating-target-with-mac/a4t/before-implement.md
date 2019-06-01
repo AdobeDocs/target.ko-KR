@@ -8,7 +8,7 @@ title: 구현하기 전에
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 3b3b8d000f718fc87183e6e26b917ac683a61e72
+source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
 
 ---
 
@@ -76,3 +76,9 @@ Analytics 및 Target의 데이터가 포함된 히트 수에는 보충 데이터
 * 이 통합을 지원하는 [!DNL mbox.js] 버전이 구현됨
 
 문제를 해결할 때 보충 ID가 Analytics 히트 수에 있는지 확인하십시오.
+
+## 클라이언트측 분석 로깅 {#client-side}
+
+at default (at at. js, and [!DNL Experience Cloud Visitor ID Service]appmeasurement. js is on the page, [!DNL Adobe Analytics] and [!DNL Target] correct stitch events for reporting and analytics purpose as the page, as mentioned from the correct supplemental ID is included from the page, as 앞에서 언급한 대로). A 4 T가 제대로 작동하지 않도록 추가 작업을 관리 및 수행할 필요가 없습니다.
+
+하지만 보고 목적으로 [!DNL Target] 와 [!DNL Analytics] 관련된 분석 데이터를 보내는 시기와 방법을 더 많이 제어할 수 있는 경우도 있습니다. 내부 용도로 활용하는 분석 도구가 있을 수도 있지만, 사내 분석 제품을 [!DNL Analytics] 통해 분석 데이터를 전송하여 조직의 다른 구성원이 시각적 보고 소스로 계속 활용할 [!DNL Analytics] 수 있도록 하려는 경우도 있습니다. [7 단계 참조: 참조 구현을 위한 Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) 의 *모든 사이트 페이지에서 at. js 또는 mbox. js* 참조를 참조하십시오.
