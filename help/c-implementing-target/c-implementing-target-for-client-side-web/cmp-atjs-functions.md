@@ -9,7 +9,7 @@ title: at.js 함수
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: c607b241afb535f324cd1357c8784a88fb183658
+source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 
 ---
 
@@ -32,4 +32,6 @@ Adobe Target at.js JavaScript 라이브러리와 함께 사용할 수 있는 함
 | [Targetpageparams (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | 이 방법을 사용하면 요청 코드의 외부에서 글로벌 mbox에 매개 변수를 첨부할 수 있습니다. |
 | [Targetpageparamsall (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | 이 방법을 사용하면 요청 코드의 외부에서 모든 mbox에 매개 변수를 첨부할 수 있습니다. |
 | [Registerextension (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at. js 1. x) | 특정 확장 기능을 등록하는 표준 방법을 제공합니다.<br>**참고:** 이 함수는. js 버전 1에서 사용할 수 있습니다.*x*에만 사용할 수 있습니다. 이 함수는 at. js 2. x의 릴리스에서 더 이상 사용되지 않습니다. 이 함수는. js 2. x와 함께 사용되는 경우 기본 컨텐트를 반환합니다. |
-| [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js 사용자 지정 이벤트를 사용하면 mbox 요청 또는 오퍼가 성공하거나 실패할 때를 알 수 있습니다. |
+| [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js 사용자 지정 이벤트를 사용하면 mbox 요청 또는 오퍼가 실패하거나 성공할 때를 알 수 있습니다. |
+| [Adobe. Target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(. js 2.1.0) | 이 함수는 경험을 `adobe.target.applyOffer()` 사용하거나 `adobe.target.applyOffers()`사용하지 않고 경험을 렌더링할 때 Target Edge에 알림을 보냅니다.<br>**** 참고: 이 함수는. js 2.1.0에서 처음 소개되었으며 2.1.0 이상에서 사용할 수 있습니다. |
+
