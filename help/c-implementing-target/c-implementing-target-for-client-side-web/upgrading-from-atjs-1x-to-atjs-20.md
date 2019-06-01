@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: . js 1. x에서 at. js 2. x로 업그레이드
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d720980808172fbd49976ecac9406fc2508c06a6
+source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
 
 ---
 
@@ -189,20 +189,20 @@ at. js 2. x 에서는 더 이상 사용되지 않는 몇 가지 함수가 있습
 
 | 메서드 | 지원됨? | 신규? | 삭제 예정?<br>(기본 컨텐츠가 표시됩니다.) |
 | --- | --- | --- | --- |
-| `getOffer()` | 예 |
-| `getOffers()` | 예 |
-| `applyOffer()` | 예 |
-| `applyOffers()` | 예 |
-| `triggerView()` | 예 |
-| `trackEvent()` | 예 |
-| `mboxCreate()` | 예 |
-| `mboxDefine()`<br>`mboxUpdate()` | 예 |
-| `targetGlobalSettings()` | 예 |
-| `Data Providers` | 예 |
-| `targetPageParams()` | 예 |
-| `targetPageParamsAll()` | 예 |
-| `registerExtension()` | 예 |
-| `At.js Custom Events` | 예 |
+| `getOffer()` | 예 |  |  |
+| `getOffers()` |  | 예 |  |
+| `applyOffer()` | 예 |  |  |
+| `applyOffers()` |  | 예 |  |
+| `triggerView()` |  | 예 |  |
+| `trackEvent()` | 예 |  |  |
+| `mboxCreate()` |  |  | 예 |
+| `mboxDefine()`<br>`mboxUpdate()` |  |  | 예 |
+| `targetGlobalSettings()` | 예 |  |  |
+| `Data Providers` | 예 |  |  |
+| `targetPageParams()` | 예 |  |  |
+| `targetPageParamsAll()` | 예 |  |  |
+| `registerExtension()` |  |  | 예 |
+| `At.js Custom Events` | 예 |  |  |
 
 ## 제한 사항 및 콜아웃
 
@@ -334,7 +334,7 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 >
 >자동 타겟 활동은 at. js 2. x와 모든 수정 사항이에 `Page Load Event`적용되는 vec를 통해 지원됩니다. 수정 사항이 특정 뷰에 추가되면 A/B 테스트, 자동 할당 및 경험 타깃팅 (XT) 활동만 지원됩니다.
 
-### 통합
+### 통합 {#integrations}
 
 | 유형 | 지원됨? |
 | --- | --- |
@@ -346,7 +346,7 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 | 디버거 | 예 |
 | Auditor | 규칙이. js 2. x에 대해 아직 업데이트되지 않았습니다. |
 | DTM(다이내믹 태그 관리자) | 예 |
-| 옵트인 | 아니오 |
+| 옵트인 | 아니오라는 사용자 지정 코드에서 변수를 찾습니다. [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) 에 대한 옵트인 지원은. js 버전 2.1.0 [에서 지원됩니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | Adobe Target에서 제공하는 AEM 고급 개인화 | 아니오 |
 
 ### 기능
@@ -848,6 +848,6 @@ at. js 2. x JSON 페이로드:
 
 at. js 2. x는 SPAS에 대한 Adobe Target의 지원을 향상시키고 다른 Experience Cloud 솔루션과 통합됩니다. 다음 비디오에서는 모든 것이 어떻게 합쳐지는지 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=kor)
 
 자세한 [내용은 at. js 2. x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식을 참조하십시오.
