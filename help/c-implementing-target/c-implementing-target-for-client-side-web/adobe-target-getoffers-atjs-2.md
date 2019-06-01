@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e5ac81441b7bf1c57b1bf62f49100e98673ac65c
+source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 
 ---
 
@@ -31,38 +31,41 @@ source-git-commit: e5ac81441b7bf1c57b1bf62f49100e98673ac65c
 
 | 필드 이름 | 필수? | 제한 | 설명 |
 | --- | --- | --- | --- |
-| request &gt; id | 아니오 | `tntId`, `thirdPartyId`, `marketingCloudVisitorId` 중 하나는 필수입니다. |
-| request &gt; id &gt; thirdPartyId | 아니오 | 최대 크기 = 128 |
-| request &gt; prefetch | 아니오 |
+| request &gt; id | 아니오 |  | `tntId`, `thirdPartyId`, `marketingCloudVisitorId` 중 하나는 필수입니다. |
+| request &gt; id &gt; thirdPartyId | 아니오 | 최대 크기 = 128 |  |  |
+| 요청 &gt; Experiencecloud | 아니오 |  |  |
+| 요청 &gt; Experiencecloud &gt; 분석 | 아니오 |  | Adobe Analytics 통합 |
+| 요청 &gt; Experiencecloud &gt; Analytics &gt; 로깅 | 아니오 | 페이지에서 다음을 구현해야 합니다.<ul><li>방문자 ID 서비스</li><li>Appmeasurement. js</li></ul> | 다음 값이 지원됩니다.<br>**client_ side**: 이 값을 지정하면 Analytics 페이로드가 호출자에게 반환되어 데이터 삽입 API를 통해 Adobe Analytics로 보내야 합니다.<br>**server_ side**: Target 및 Analytics 백엔드가 보고를 통해 보고를 위해 호출을 연결하는 기본값입니다. |
+| request &gt; prefetch | 아니오 |  |  |
 | request &gt; prefetch &gt; views | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨<br>허용되지 않는 이름: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | 활성 활동에서 적절한 보기를 검색하는 데 사용할 매개 변수를 전달합니다. |
 | request &gt; prefetch &gt; views &gt; profileParameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 프로필 매개 변수를 전달합니다. |
-| request &gt; prefetch &gt; views &gt; product | 아니오 |
+| request &gt; prefetch &gt; views &gt; product | 아니오 |  |  |
 | request &gt; prefetch &gt; views &gt; product -&gt; id | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 제품 ID를 전달합니다. |
 | request &gt; prefetch &gt; views &gt; product &gt; categoryId | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 활동에서 적절한 보기를 검색하는 데 사용할 제품 카테고리 ID를 전달합니다. |
-| request &gt; prefetch &gt; views &gt; order | 아니오 |
+| request &gt; prefetch &gt; views &gt; order | 아니오 |  |  |
 | request &gt; prefetch &gt; views &gt; order &gt; id | 아니오 | 최대 길이 = 250 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 주문 ID를 전달합니다. |
 | request &gt; prefetch &gt; views &gt; order &gt; total | 아니오 | 합계 `>=` 0 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 주문 합계를 전달합니다. |
 | request &gt; prefetch &gt; views &gt; order &gt; purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 구입 제품 ID를 전달합니다. |
-| request &gt; execute | 아니오 |
-| request &gt; execute &gt; pageLoad | 아니오 |
+| request &gt; execute | 아니오 |  |  |
+| request &gt; execute &gt; pageLoad | 아니오 |  |  |
 | request &gt; execute &gt; pageLoad &gt; parameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨.<br>허용되지 않는 이름: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | 페이지가 로드될 때 지정된 매개 변수로 오퍼를 검색합니다. |
 | request &gt; execute &gt; pageLoad &gt; profileParameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=`256<br>이름은 &quot;profile&quot;로 시작하면 안 됨. | 페이지가 로드될 때 지정된 프로필 매개 변수로 오퍼를 검색합니다. |
-| request &gt; execute &gt; pageLoad &gt; product | 아니오 |
+| request &gt; execute &gt; pageLoad &gt; product | 아니오 |  |  |
 | request &gt; execute &gt; pageLoad &gt; product -&gt; id | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 페이지가 로드될 때 지정된 제품 ID로 오퍼를 검색합니다. |
 | request &gt; execute &gt; pageLoad &gt; product &gt; categoryId | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 페이지가 로드될 때 지정된 카테고리 ID로 오퍼를 검색합니다. |
-| request &gt; execute &gt; pageLoad &gt; order | 아니오 |
+| request &gt; execute &gt; pageLoad &gt; order | 아니오 |  |  |
 | request &gt; execute &gt; pageLoad &gt; order &gt; id | 아니오 | 최대 길이 = 250 | 페이지가 로드될 때 지정된 주문 ID로 오퍼를 검색합니다. |
 | request &gt; execute &gt; pageLoad &gt; order &gt; total | 아니오 | `>=` 0 | 페이지가 로드될 때 지정된 주문 합계로 오퍼를 검색합니다. |
 | request &gt; execute &gt; pageLoad &gt; order &gt; purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 페이지가 로드될 때 지정된 구입 제품 ID로 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes | 아니오 | 최대 크기 = 50<br>null 요소가 없음 |
+| request &gt; execute &gt; mboxes | 아니오 | 최대 크기 = 50<br>null 요소가 없음 |  |
 | request &gt; execute &gt; mboxes&gt;mbox | 예 | 공백은 안 됨<br>&#39;-clicked&#39; 접미어 없음<br>최대 크기 = 250<br>허용되는 문자: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox 이름. |
 | request &gt; execute &gt; mboxes&gt;mbox&gt;index | 예 | null 아님<br>고유함<br>`>=` 0 | 색인은 mbox가 처리되는 순서를 나타내지 않습니다. 몇 개의 지역 mbox가 있는 웹 페이지에서와 마찬가지로, 처리되는 순서를 지정할 수 없습니다. |
 | request &gt; execute &gt; mboxes &gt; mbox &gt; parameters | 아니오 | 최대 개수 = 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨.<br>허용되지 않는 이름: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | 지정된 매개 변수를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
 | request &gt; execute &gt; mboxes&gt;mbox&gt;profileParameters | 아니오 | 최대 개수 = 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=`256<br>이름은 &quot;profile&quot;로 시작하면 안 됨. | 지정된 프로필 매개 변수를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes&gt;mbox &gt; product | 아니오 |
+| request &gt; execute &gt; mboxes&gt;mbox &gt; product | 아니오 |  |  |
 | request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; id | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 지정된 제품 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
 | request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; categoryId | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 지정된 제품 카테고리 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; order | 아니오 |
+| request &gt; execute &gt; mboxes &gt; mbox &gt; order | 아니오 |  |  |
 | request &gt; execute &gt; mboxes&gt;mbox &gt; order &gt; id | 아니오 | 최대 길이 = 250 | 지정된 주문 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
 | request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; total | 아니오 | `>=` 0 | 지정된 주문 합계를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
 | request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 = 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 지정된 주문 구입 제품 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
@@ -125,6 +128,60 @@ adobe.target.getOffers({
   }
 });
 ```
+
+## Getoffers () 를 호출하여 클라이언트측에서 Analytics 페이로드를 검색합니다.
+
+```
+adobe.target.getOffers({
+      request: {
+        experienceCloud: {
+          analytics: {
+            logging: "client_side"
+          }
+        },
+        prefetch: {
+          mboxes: [{
+            index: 0,
+            name: "a1-serverside-xt"
+          }]
+        }
+      }
+    })
+    .then(console.log)
+```
+
+**응답**:
+
+```
+{
+  "prefetch": {
+    "mboxes": [{
+      "index": 0,
+      "name": "a1-serverside-xt",
+      "options": [{
+        "content": "<img src=\"http://s7d2.scene7.com/is/image/TargetAdobeTargetMobile/L4242-xt-usa?tm=1490025518668&fit=constrain&hei=491&wid=980&fmt=png-alpha\"/>",
+        "type": "html",
+        "eventToken": "n/K05qdH0MxsiyH4gX05/2qipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+        "responseTokens": {
+          "profile.memberlevel": "0",
+          "geo.city": "bucharest",
+          "activity.id": "167169",
+          "experience.name": "USA Experience",
+          "geo.country": "romania"
+        }
+      }],
+      "analytics": {
+        "payload": {
+          "pe": "tnt",
+          "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+        }
+      }
+    }]
+  }
+}
+```
+
+그런 다음 데이터 삽입 API를 통해 페이로드를 Adobe Analytics로 [전달할](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)수 있습니다.
 
 ## Getoffers () 및 applyoffers () 를 통해 여러 mbox의 데이터를 가져와 렌더링합니다. {#multiple}
 
