@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -51,7 +51,7 @@ source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
 
 * VEC 내에서 페이지 로드를 취소하면 도구 모음 아이콘이 적절하게 표시됩니다. 페이지가 완전히 로드될 때까지 특정 작업을 수행할 수 없는 경우 연관된 도구 모음 아이콘이 비활성화됩니다. (TGT-33811)
 
-## Mobile App Visual Experience Composer (2019 년 5 월 14 일) {mobile-vec-may 14}
+## Mobile App Visual Experience Composer (2019 년 5 월 14 일) {#mobile-vec-may14}
 
 | 기능/향상 | 설명 |
 | --- | --- |
