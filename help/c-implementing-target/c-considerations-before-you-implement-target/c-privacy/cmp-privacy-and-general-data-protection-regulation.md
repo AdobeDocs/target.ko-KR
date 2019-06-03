@@ -8,7 +8,7 @@ title: 개인 정보 및 GDPR(일반 데이터 보호 규정)
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 6c1b4f26f635eab661ec426f9241b26247e880c3
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -55,7 +55,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->옵트인 기능은 at.js 버전 1.7.0에서 지원되지만 현재 at.js 버전 2.0.0 에서는 지원되지 않습니다.
+>옵트인 기능은. js 버전 1.7.0 및 at. js 2.1.0에서 지원됩니다. 옵트인은. js 버전 2.0.0 및 2.0.1에서 지원되지 않습니다.
 >
 >Adobe Launch를 사용하여 선택 기능을 관리하는 것이 좋습니다. Adobe Launch에는 동의 전략의 일부로 활용할 수 있는 Target 실행 전에 페이지에서 선택한 요소를 숨기기 위한 세부적인 제어 기능이 추가로 있습니다.
 
