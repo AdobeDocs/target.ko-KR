@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 
 이 페이지에는 [!DNL Adobe Target] 문서의 중요한 변경 사항이 나열됩니다.
 
-## Adobe Target Standard/Premium 19.5.1 (2019 년 5 월 21 일) {tgt -19-5-1}
+## Adobe Target Standard/Premium 19.5.1(2019년 5월 21일) {#tgt-19-5-1}
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -65,7 +65,7 @@ source-git-commit: 2462ad2d49449217827fa474aa5f3f0a3e8c777d
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | 고객 속성 별칭 ID에 대한 문자 제한을 추가했습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 19.5.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
-## Adobe Target Standard/Premium 19.4.2 (2019 년 4 월 30 일) {19-4-2}
+## Adobe Target Standard/Premium 19.4.2(2019년 4월 30일) {#target-19-4-2}
 
 **** 참고: Target Standard/Premium 19.4.1 릴리스는 브랜딩 및 제품 변경 사항을 반영하도록 Adobe Experience Cloud UI를 업데이트하는 기본 버전입니다.
 
