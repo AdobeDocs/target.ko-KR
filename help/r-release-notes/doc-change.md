@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -29,6 +29,7 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 |  | [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 표에 행을 추가했습니다 `adobe.target.sendNotifications(options)`. |
 |  | [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 새 주제입니다.  |
 |  | [. js 1. x에서 at. js 2. x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | . js 2.1.0에서 Adobe 옵트인 지원에 대한 정보가 추가되었습니다. |
+|  | [개인 정보 및 일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | . js 2.1.0에서 옵트인 지원에 대한 정보가 업데이트되었습니다. |
 | 2019 년 5 월 31 일 | [모바일](/help/c-target/c-audiences/c-target-rules/mobile.md) | iOS 12.2를 실행하는 타깃팅 장치에 대한 참고가 추가되었습니다. |
 |  | [권장 사항 계획 및 구현](/help/c-recommendations/plan-implement.md) | 코드 샘플이 업데이트되었습니다. |
 | 2019 년 5 월 30 일 | [Adobe Experience Cloud에서 Target에 액세스](/help/c-intro/target-access-from-mac.md#doc-lang) | 이제 중국어 간체 언어로 설명서를 사용할 수 있습니다. |
