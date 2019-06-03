@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js 버전 세부 사항
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
+source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
 >
 >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 
 
-## at. js 버전 2.1.0 (발표일)
+## at. js 버전 2.1.0 (2019 년 6 월 3 일)
 
 이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
