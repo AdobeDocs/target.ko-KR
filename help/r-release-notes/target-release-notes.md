@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
+source-git-commit: a0f7dadf9e5c610c19b10bdd6f40e2af57ae6725
 
 ---
 
@@ -27,8 +27,8 @@ source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 시각적 경험 작성기(VEC) | vec에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. <ul><li>이제 선택한 요소의 배경 이미지와 색상을 변경하는 옵션을 [!DNL Styles > Background] 사용할 수 있습니다. (TGT-15001)</li><li>이미지를 클릭하면 두 [!DNL Replace With]개의 새 옵션이 표시됩니다. [!DNL HTML] [and experience fragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md).<br> HTML로 이미지를 바꾸면 HTML 옵션에 액세스하기 위해 상위 요소를 선택하지 않고도 요소를 완벽하게 제어할 수 있습니다.<br>경험 조각을 사용하면 Target Activiites에서 AEM (Adobe Experience Manager) 에서 만든 요소를 신속하게 삽입할 수 있습니다. (TGT-34097)</li></ul> |
-| 단일 페이지 앱 (SPA) Visual Experience Composer (VEC) | <ul><li>새로운 안내 워크플로우는 단일 페이지 앱에 대해 활동을 실행하고 실행하는 페이지 배달 규칙 설정을 구성하는 방법을 이해하는 데 도움이 됩니다. (TGT-33718)</li><li>이제 SPA VEC를 사용하여 수정 사항을 정의한 다음 단일 페이지 앱에서 다른 보기에 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)</li><li>SPA VEC 내에서 클릭 추적 구성 프로세스를 개선했습니다.<br>클릭 추적에서 사용할 요소를 선택할 때 사용 가능한 모든 요소의 이름이 오른쪽의 수정 패널에 표시되므로 원하는 요소를 빠르고 손쉽게 선택할 수 있습니다.<br>세 부분으로 구성된 안내 활동 워크플로우의 [!DNL Goals & Settings] 페이지에는 클릭 추적에 대해 선택한 요소의 수를 나타내는 숫자가 표시됩니다. 이 숫자 위로 마우스를 가져가면 선택한 모든 요소의 이름이 표시됩니다. (TGT-33878) </li></ul> |
+| 시각적 경험 작성기(VEC) | vec에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. <ul><li>이제 선택한 요소의 배경 이미지와 색상을 변경하는 옵션을 [!DNL Styles > Background] 사용할 수 있습니다. (TGT-15001)</li><li>이미지를 클릭하면 두 [!DNL Replace With]개의 새 옵션이 표시됩니다. [!DNL HTML] [and experience fragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md).<br> HTML로 이미지를 바꾸면 HTML 옵션에 액세스하기 위해 상위 요소를 선택하지 않고도 요소를 완벽하게 제어할 수 있습니다.<br>경험 조각을 사용하면 Target Activiites에서 AEM (Adobe Experience Manager) 에서 만든 요소를 신속하게 삽입할 수 있습니다. (TGT-34097)</li><li>VEC 및 단일 페이지 애플리케이션 VEC 내에서 클릭 추적을 구성하는 프로세스를 개선했습니다.<br>클릭 추적에서 사용할 요소를 선택할 때 사용 가능한 모든 요소의 이름이 오른쪽의 수정 패널에 표시되므로 원하는 요소를 빠르고 손쉽게 선택할 수 있습니다.<br>세 부분으로 구성된 안내 활동 워크플로우의 [!DNL Goals & Settings] 페이지에는 클릭 추적에 대해 선택한 요소의 수를 나타내는 숫자가 표시됩니다. 이 숫자 위로 마우스를 가져가면 선택한 모든 요소의 이름이 표시됩니다. (TGT-33878) </li></ul> |
+| 단일 페이지 앱 (SPA) Visual Experience Composer (VEC) | <ul><li>새로운 안내 워크플로우는 단일 페이지 앱에 대해 활동을 실행하고 실행하는 페이지 배달 규칙 설정을 구성하는 방법을 이해하는 데 도움이 됩니다. (TGT-33718)</li><li>이제 SPA VEC를 사용하여 수정 사항을 정의한 다음 단일 페이지 앱에서 다른 보기에 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)</li></ul> |
 | Mobile Visual Experience Composer (VEC) | <ul><li>이제 여러 버전의 모바일 앱용 활동을 제작할 수 있습니다. 따라서 버전이 매우 유사하고 앱의 UI를 크게 변경할 필요가 없을 때 시간과 노력을 절약할 수 있습니다. (TGT-34231)</li></ul> |
 | ![프리미엄 Badgeautomated](/help/assets/premium.png)<br>Personalization (AP) 및 자동 타겟 활동: 경험으로 경험 | <ul><li>AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 제어 환경에 대해 개인화된 작업 성능을 평가할 수 있습니다. (TGT-32801 및 TGT-26572)</li></ul> |
 
