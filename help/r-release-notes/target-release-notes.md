@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: bac43f0907b083f416aaf72fca0eb4c6d4b83a7e
 
 ---
 
@@ -23,39 +23,18 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 >
 >이러한 릴리스 노트에는 사전 릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 변경될 수 있습니다. 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트를 참조하십시오](release-notes.md). 이러한 페이지에 대한 정보는 동일하거나 다를 수 있습니다.
 
-## at. js 버전 2.1.0 (2019 년 6 월 3 일)
-
-이제. js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드립니다.
+## Target Standard/Premium 19.6.1(2019년 6월 25일) {#tgt-19-6-1}
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| Adobe 옵트인 지원 | Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 개인 정보 보호 규정 (GDPR) 를 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
-| 업계 표준의 CSP 규격 | at. js는 더 이상 eval () 를 사용하여 JavaScript를 실행하지 않습니다. |
-| 클라이언트측 분석 로깅 | 고객이 클라이언트측 또는 서버측에서 Adobe Analytics로 분석 데이터를 어떻게 전송할지 완전히 제어할 수 있습니다. |
-| 알림 보내기 | 개발자가 또는 사용 경험이 아닌 코드로 렌더링될 때 알림을 전송할 `applyOffer()` 수 있습니다 `applyOffers()`. |
-| 파일 크기 감소 | at. js의 크기는 ~ 24% 줄어듭니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at. js 다운로드 시간도 줄어듭니다. |
-
-## [!DNL Target] Standard/Premium 19.5.1 (2019 년 5 월 21 일) {#release-19-5-1-prerelease}
-
-이 릴리스에는 다음과 같은 기능, 변경 사항 및 개선 사항이 포함되었습니다.
-
-(괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
-
-### 기능 업데이트
-
-| 기능/향상 | 설명 |
-| --- | --- |
-| 단일 페이지 앱 시각적 경험 작성기 (SPA VEC) | SPA VEC에는 작업을 보다 빠르고 효율적으로 수행할 수 있도록 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>SPA에서 작업을 클릭하면 사이트에서 이 작업이 적용될 요소를 강조 표시합니다. A view 아래에 만들어진 각 vec 작업에는 4 개의 해당 아이콘이 있습니다. 정보, 편집, 이동 및 삭제. 이 릴리스의 새로운 &quot;이동&quot; 기능을 사용하면 작업을 페이지 로드 이벤트나 수정 패널에 이미 존재하는 다른 보기로 이동할 수 있습니다. (TGT-33746)</li><li>페이지가 VEC에 로드되기 전에 또는 페이지가 완전히 로드되지 않은 경우에도 여러 작업을 수행할 수 있습니다(예: 사용자 지정 코드가 더 이상 작동하지 않음). 사이트가 로드되기 전에 편집할 수 없는 작업은 Target UI에서 비활성화됩니다. (TGT-33851 및 TGT-34149)</li></ul>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오. |
+| 시각적 경험 작성기(VEC) | <ul><li>이제 VEC의 [!DNL Styles > Background] 메뉴를 사용하여 선택한 요소의 배경 이미지와 색상을 변경할 수 있습니다. (TGT-15001)</li><li>vec에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 이미지를 클릭하면 두 [!DNL Replace With]개의 새 옵션이 표시됩니다. [!DNL HTML] [and experience fragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md).<br> HTML로 이미지를 바꾸면 HTML 옵션에 액세스하기 위해 상위 요소를 선택하지 않고도 요소를 완벽하게 제어할 수 있습니다. 경험 조각을 사용하면 Target Activiites에서 AEM (Adobe Experience Manager) 에서 만든 요소를 신속하게 삽입할 수 있습니다. (TGT-34097)</li></ul> |
+| 단일 페이지 앱 (SPA) Visual Experience Composer (VEC) | <ul><li>새로운 안내 워크플로우는 단일 페이지 앱에 대해 활동을 실행하고 실행하는 페이지 배달 규칙 설정을 구성하는 방법을 이해하는 데 도움이 됩니다. (TGT-33718)</li><li>이제 SPA VEC를 사용하여 수정 사항을 정의한 다음 단일 페이지 앱에서 다른 보기에 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)</li><li>SPA VEC 내에서 클릭 추적 구성 프로세스를 개선했습니다.<br>클릭 추적에서 사용할 요소를 선택할 때 사용 가능한 모든 요소의 이름이 오른쪽의 수정 패널에 표시되므로 원하는 요소를 빠르고 손쉽게 선택할 수 있습니다.<br>세 부분으로 구성된 안내 활동 워크플로우의 [!DNL Goals & Settings] 페이지에는 클릭 추적에 대해 선택한 요소의 수를 나타내는 숫자가 표시됩니다. 이 숫자 위로 마우스를 가져가면 선택한 모든 요소의 이름이 표시됩니다. (TGT-33878) </li></ul> |
+| Mobile Visual Experience Composer (VEC) | <ul><li>이제 여러 버전의 모바일 앱에 대한 활동을 제작할 수 있으므로, 버전이 매우 유사하고 앱의 UI를 크게 변경할 필요가 없을 때 시간과 노력을 절약할 수 있습니다. (TGT-34231)</li></ul> |
+| ![프리미엄 Badgeautomated](/help/assets/premium.png)<br>Personalization (AP) 및 자동 타겟 활동: Experience as control in | <ul><li>AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 제어 환경에 대해 개인화된 작업 성능을 평가할 수 있습니다. (TGT-32801 및 TGT-26572)</li></ul> |
 
 ### 개선 사항, 수정 및 변경 사항
 
-* VEC 내에서 페이지 로드를 취소하면 도구 모음 아이콘이 적절하게 표시됩니다. 페이지가 완전히 로드될 때까지 특정 작업을 수행할 수 없는 경우 연관된 도구 모음 아이콘이 비활성화됩니다. (TGT-33811)
-
-## Mobile App Visual Experience Composer (2019 년 5 월 14 일) {#mobile-vec-may14}
-
-| 기능/향상 | 설명 |
-| --- | --- |
-| Mobile App Visual Experience Composer (VEC) | 모바일 앱 VEC를 사용하면 지속적인 개발 종속성 및 앱 릴리스 주기를 사용하지 않고도 고유한 방식으로 기본 모바일 앱에서 콘텐츠를 맞춤화하고 콘텐츠를 개인화할 수 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오.<ul><li>[모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[모바일 VEC에서 클릭 추적 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[비디오: 모바일 앱 Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+* the <BODY> 태그는 이제 페이지에서 요소를 클릭하면 vec 아래쪽에 표시되는 DOM 경로에 표시되며, <BODY> 태그를 닫기 전에 mbox.js 파일 다음에 선언이 오는지 판별하십시오. (TGT-33736)
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
