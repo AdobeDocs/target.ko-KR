@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: . js 1. x에서 at. js 2. x로 업그레이드
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
+source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 ---
 
@@ -55,13 +55,15 @@ at. js의 [!DNL Adobe Target] 최신 버전은 기업이 차세대 클라이언�
 
 ## . js 2. x에 배포 {#deploy-atjs-200}
 
-1. Target UI를 사용하여. js 2. x에서 다운로드할 수 있습니다.
-
-   ![구현 세부 사항 대화 상자](/help/c-experiences/assets/imp-200.png)
+1. [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Extension를 통해. js 2. x에 배포합니다.
 
    >[!NOTE]
    >
-   >[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Extension를 통해. js 2. x에서 설치하는 기능은 아직 지원되지 않습니다.
+   > Adobe Launch를 사용하여 at. js를 배포하는 것이 가장 좋습니다.
+
+   또는
+
+   대상 UI를 사용하여. js 2. x에서 수동으로 다운로드하여 원하는 [방법으로 배포합니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## 사용 중단된 at.js 함수
 
@@ -342,7 +344,7 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 | 대상자 | 예 |
 | 고객 속성 | 예 |
 | AEM 경험 구성요소 | 예 |
-| Adobe Launch 확장 프로그램 | 현재 아님 |
+| Adobe Launch 확장 프로그램 | [예](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | 디버거 | 예 |
 | Auditor | 규칙이. js 2. x에 대해 아직 업데이트되지 않았습니다. |
 | DTM(다이내믹 태그 관리자) | 예 |
