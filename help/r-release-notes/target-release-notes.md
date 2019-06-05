@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bac43f0907b083f416aaf72fca0eb4c6d4b83a7e
+source-git-commit: 6653410c5e105120e739c984f3462c4d054bc797
 
 ---
 
@@ -29,12 +29,12 @@ source-git-commit: bac43f0907b083f416aaf72fca0eb4c6d4b83a7e
 | --- | --- |
 | 시각적 경험 작성기(VEC) | <ul><li>이제 VEC의 [!DNL Styles > Background] 메뉴를 사용하여 선택한 요소의 배경 이미지와 색상을 변경할 수 있습니다. (TGT-15001)</li><li>vec에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 이미지를 클릭하면 두 [!DNL Replace With]개의 새 옵션이 표시됩니다. [!DNL HTML] [and experience fragment](/help/c-experiences/c-manage-content/aem-experience-fragments.md).<br> HTML로 이미지를 바꾸면 HTML 옵션에 액세스하기 위해 상위 요소를 선택하지 않고도 요소를 완벽하게 제어할 수 있습니다. 경험 조각을 사용하면 Target Activiites에서 AEM (Adobe Experience Manager) 에서 만든 요소를 신속하게 삽입할 수 있습니다. (TGT-34097)</li></ul> |
 | 단일 페이지 앱 (SPA) Visual Experience Composer (VEC) | <ul><li>새로운 안내 워크플로우는 단일 페이지 앱에 대해 활동을 실행하고 실행하는 페이지 배달 규칙 설정을 구성하는 방법을 이해하는 데 도움이 됩니다. (TGT-33718)</li><li>이제 SPA VEC를 사용하여 수정 사항을 정의한 다음 단일 페이지 앱에서 다른 보기에 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)</li><li>SPA VEC 내에서 클릭 추적 구성 프로세스를 개선했습니다.<br>클릭 추적에서 사용할 요소를 선택할 때 사용 가능한 모든 요소의 이름이 오른쪽의 수정 패널에 표시되므로 원하는 요소를 빠르고 손쉽게 선택할 수 있습니다.<br>세 부분으로 구성된 안내 활동 워크플로우의 [!DNL Goals & Settings] 페이지에는 클릭 추적에 대해 선택한 요소의 수를 나타내는 숫자가 표시됩니다. 이 숫자 위로 마우스를 가져가면 선택한 모든 요소의 이름이 표시됩니다. (TGT-33878) </li></ul> |
-| Mobile Visual Experience Composer (VEC) | <ul><li>이제 여러 버전의 모바일 앱에 대한 활동을 제작할 수 있으므로, 버전이 매우 유사하고 앱의 UI를 크게 변경할 필요가 없을 때 시간과 노력을 절약할 수 있습니다. (TGT-34231)</li></ul> |
-| ![프리미엄 Badgeautomated](/help/assets/premium.png)<br>Personalization (AP) 및 자동 타겟 활동: Experience as control in | <ul><li>AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 제어 환경에 대해 개인화된 작업 성능을 평가할 수 있습니다. (TGT-32801 및 TGT-26572)</li></ul> |
+| Mobile Visual Experience Composer (VEC) | <ul><li>이제 여러 버전의 모바일 앱용 활동을 제작할 수 있습니다. 따라서 버전이 매우 유사하고 앱의 UI를 크게 변경할 필요가 없을 때 시간과 노력을 절약할 수 있습니다. (TGT-34231)</li></ul> |
+| ![프리미엄 Badgeautomated](/help/assets/premium.png)<br>Personalization (AP) 및 자동 타겟 활동: 경험으로 경험 | <ul><li>AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 제어 환경에 대해 개인화된 작업 성능을 평가할 수 있습니다. (TGT-32801 및 TGT-26572)</li></ul> |
 
 ### 개선 사항, 수정 및 변경 사항
 
-* the <BODY> 태그는 이제 페이지에서 요소를 클릭하면 vec 아래쪽에 표시되는 DOM 경로에 표시되며, <BODY> 태그를 닫기 전에 mbox.js 파일 다음에 선언이 오는지 판별하십시오. (TGT-33736)
+* 이제 페이지에서 요소를 클릭하면 vec 아래쪽에 표시되는 DOM 경로에 `<BODY>` 태그가 표시되어 `<BODY>` 태그에 대해 작업을 수행할 수 있습니다. (TGT-33736)
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
