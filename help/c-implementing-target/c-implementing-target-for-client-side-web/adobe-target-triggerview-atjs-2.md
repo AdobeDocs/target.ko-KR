@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: adobe.target.triggerView (viewName, options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -24,16 +24,20 @@ source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
 | 매개 변수 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
 | viewName | 문자열 | 예 | 보기를 표현할 문자열 유형으로 모든 이름을 전달합니다. 이 보기 이름은 마케터가 작업을 만들고 A/B 및 XT 활동을 실행하는 VEC의 [!UICONTROL 수정 사항] 패널에 표시됩니다. |
-| options | 개체 | 아니오 |
-| options &gt; page | 부울 | 아니오 | **TRUE**: 페이지의 기본값은 true입니다. page=true일 때 노출 수가 증가하면 [!DNL Target] 백엔드에 알림이 전송됩니다.<br>**FALSE:** page = false 인 경우 노출 수 증가에 대한 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
+| options | 개체 | 아니오 |  |
+| options &gt; page | 부울 | 아니오 | **TRUE**: 페이지의 기본값은 true입니다. page=true일 때 노출 수가 증가하면 [!DNL Target] 백엔드에 알림이 전송됩니다.<br>활동 경험이나 활동 지표가 보기와 연결되어 있지 않으면 알림이 전송되지 않습니다.<br>**FALSE:** page = false 인 경우 노출 수 증가에 대한 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
 
-## 노출 수가 증가하면 Target 백엔드에 알림을 전송하는 `triggerView()` 호출 예
+## 예: true
+
+`triggerView()` 활동을 Target 백엔드로 전송하여 활동 노출 횟수 및 기타 지표를 증가시킵니다.
 
 ```
 adobe.target.triggerView("homeView")
 ```
 
-## 노출 계산을 위해 Target 백엔드에 전송된 알림을 전송하지 않은 `triggerView()` 호출 예
+## 예: false
+
+`triggerView()` 노출 수를 계산하기 위해 Target 백엔드로 전송된 알림이 없는 경우
 
 ```
 adobe.target.triggerView("homeView", {page: false})
