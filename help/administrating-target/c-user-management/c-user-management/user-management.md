@@ -9,7 +9,7 @@ title: 사용자
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -37,7 +37,7 @@ source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
 
 시스템 관리자는 사용자 목록에서 식별됩니다. 액세스 수준을 변경해야 할 경우 해당 시스템 관리자 사용자 중 한 명에게 문의하십시오.
 
-## Adobe Admin Console 액세스 {#section_79796E0227D048F59BAE0AB02E544EBE}
+## Adobe Admin Console 액세스 {#access}
 
 Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 콘솔에 액세스하십시오.
 
@@ -49,27 +49,27 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 1. (조건부) 두 개 이상의 조직을 위한 [!DNL Admin Console for Enterprise]에 액세스할 수 있는 경우 오른쪽 모서리나 맨 위 탐색 막대의 사용자 아바타를 클릭한 다음, 원하는 조직을 선택하십시오.
 
-## 사용자 추가 {#section_A92AF0F921B743FEB9E9033433BD816A}
+## 사용자 추가 {#add-users}
 
 모든 사용자 관리는 [!DNL Adobe Admin Console for Enterprise]에서 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
 
 1. [관리 콘솔에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)**[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자를]** 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
 1. *Enterprise 사용 안내서*의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
-## 사용자 그룹 만들기 {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## 사용자 그룹 만들기 {#user-groups}
 
 개발자, 분석가, 마케터, 경영진 등과 같은 사용자 그룹을 만든 다음 여러 Adobe 제품 및 작업 공간에서 권한을 지정할 수 있습니다. 새 팀 구성원에게 다른 Adobe 제품에 대한 모든 적절한 권한을 지정하면 특정 사용자 그룹에 팀 구성원을 쉽게 추가할 수 있습니다.
 
 1. [관리 콘솔에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)**[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자 그룹을]** 클릭하여 새 사용자 그룹을 만들거나 기존 그룹을 편집합니다.
 1. *Enterprise 사용 안내서*의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
-## 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## 역할 및 권한 지정 {#roles-permissions}
 
 시스템 관리자만 [!DNL Target]에서 사용자 역할을 설정할 수 있습니다. 예를 들어, Standard 승인자 사용자는 Experience Cloud 관리 권한도 가지고 있지 않으면 관찰자를 승인자로 변경할 수 없습니다.
 
 시스템 관리자 사용자는 시스템에 사용자를 추가해야 합니다. 사용자는 자동으로 추가되지 않습니다. 사용자는 Experience Cloud에서 이메일로 초대를 받으며 계정 등록 전에 자신의 이메일 주소를 확인해야 합니다.
 
-1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 제품]**을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
+1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 제품]** 을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
 
    ![제품 탭](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
@@ -100,4 +100,4 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
    * 작업 공간에 속성 추가
 * 기본 작업 공간 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=kor)
