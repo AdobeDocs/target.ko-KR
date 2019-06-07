@@ -8,7 +8,7 @@ title: Adobe Target Standard 및 Premium 교육 비디오
 topic: 고급
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: df4b2681720b83d967a378733dfc58301b1ca7ee
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -37,8 +37,8 @@ Target의 기능을 강조 표시하는 방법 비디오 및 자습서는 [Adobe
 
 ![Experience League Videos](/help/c-intro/assets/experience-league.png)
 
-## Adobe Target 자습서
+## Adobe Target 자습서 {#tutorials}
 
-[!DNL Target] 개념 및 도구에 대한 비디오 소개는 [Adobe Target 자습서](https://helpx.adobe.com/target/tutorials.html) 페이지에서 확인할 수 있습니다.
+[!DNL Target] 개념 및 도구에 대한 비디오 소개는 [Adobe Target 자습서](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) 페이지에서 확인할 수 있습니다.
 
-![Adobe Target 자습서](/help/c-intro/assets/adobe-target-tutorials.png)
+![Adobe Target 자습서](/help/c-intro/assets/adobe-target-tutorials-new.png)
