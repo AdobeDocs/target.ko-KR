@@ -8,7 +8,7 @@ title: iOS - 모바일 앱 설정
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 29e82d6bcb42b0f05b0b175be7df017184358c38
+source-git-commit: 0447ec6a589534ec9ad2da8d809b66900e9b4617
 
 ---
 
@@ -22,14 +22,19 @@ Adobe Target VEC 확장을 활성화하는 방법에 대한 자세한 내용은 
 ## 모바일 SDK 및 대상 라이브러리 포함 {#sdk-library}
 
 1. 창을 추가하여 집단 [!DNL Podfile] 기능을 통해 프로젝트에 라이브러리를 추가합니다 &quot;`ACPTargetVEC`.
+
 1. XCode에서 Objective-C 애플리케이션 프로젝트를 엽니다.
+
 1. 이미 설정되지 않은 경우 프로젝트 빌드 설정으로 이동하고&#39;항상 Swift Standard Libraries 포함&#39;을 Yes로 설정합니다.
+
 1. 프로젝트 빌드 설정에서 &quot;Other linker flags&quot;를 찾고 아직 없는 경우 `$(inherited)`를 추가합니다.
+
 1. objective-C 전용 프로젝트의 경우 - 스위프트 파일을 만들어 브릿징 헤더를 만듭니다. Swift를 위한 애플리케이션 환경을 설정하게 됩니다.
+
 1. 딥링크 핸들러를 추가합니다.
 
    1. 애플리케이션 프로젝트 설정에서 **[!UICONTROL 정보를 클릭합니다]**.
-   1. **[!UICONTROL URL 유형]**아래에서 삼각형을 클릭하여 연 다음 더하기 기호를 클릭하여 새 필드를 추가합니다.
+   1. **[!UICONTROL URL 유형]** 아래에서 삼각형을 클릭하여 연 다음 더하기 기호를 클릭하여 새 필드를 추가합니다.
    1. 다음 정보를 추가합니다.
 
       * 식별자: `com.adobe.sdktest`
@@ -46,6 +51,7 @@ Adobe Target VEC 확장을 활성화하는 방법에 대한 자세한 내용은 
 
 
 1. XCode에서 [!DNL AppDelegate] 파일을 엽니다.
+
 1. 파일 맨 위에서 가져오기 끝에 다음 줄을 추가합니다:
 
    `#import "ACPTargetVEC.h"`
@@ -57,72 +63,31 @@ Adobe Target VEC 확장을 활성화하는 방법에 대한 자세한 내용은 
 1. [!DNL AppDelegate] 파일에서 다음 줄을 `AppDelegate::application:didFinishLaunchingWithOptions:`에 추가합니다. 위임 함수가 정의되지 않은 경우에는 작성하여 Objective-C 또는 Swift 애플리케이션의 다음 줄을 각각 추가합니다.
 
    ```
-   // CONFIGURATION LINE FOR OBJECTIVE C ONLY (Skip any framework which is not applicable for you): 
-   [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"]; 
-   [ACPCore setLogLevel:ACPMobileLogLevelDebug]; 
-   [ACPLifecycle registerExtension]; 
-   [ACPIdentity registerExtension]; 
-   [ACPUserProfile registerExtension]; 
-   [ACPTarget registerExtension];
-   
-   [ACPTargetVEC registerExtension];
-   [ACPCore start:^{
-        [ACPCore lifecycleStart:nil];
-   }];
+   // CONFIGURATION LINE FOR OBJECTIVE C ONLY
+   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
+     //Other Extensions that you need
+     [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"];
+     [ACPCore setLogLevel:ACPMobileLogLevelDebug];
+     [ACPTarget registerExtension];
+     [ACPTargetVEC registerExtension];
+     [ACPCore start:^{
+       [ACPCore lifecycleStart:nil];
+     }];
+     // Override point for customization after application launch.
+     return YES;
+   }
    
    // CONFIGURATION LINE FOR SWIFT ONLY: 
-   ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID") 
-   ACPCore.setLogLevel(ACPMobileLogLevel.debug) 
-   ACPLifecycle.registerExtension() 
-   ACPIdentity.registerExtension() 
-   ACPUserProfile.registerExtension() 
-   ACPTarget.registerExtension() 
-   
-   ACPTargetVEC.registerExtension() 
-   
-   ACPCore.start {
-     ACPCore.lifecycleStart(nil)
-   }
-   ```
-
-   예를 들면 메서드가 다음 샘플과 유사합니다.
-
-   ```
-   // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY: 
-   - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions { 
-        // Override point for customization after application launch. 
-       [ACPCore configureWithAppId:@"YOUR_ADOBE_LAUNCH_APP_ID"]; 
-       [ACPCore setLogLevel:ACPMobileLogLevelDebug]; 
-       [ACPLifecycle registerExtension]; 
-       [ACPIdentity registerExtension]; 
-       [ACPUserProfile registerExtension]; 
-       [ACPTarget registerExtension]; 
-   
-       [ACPTargetVEC registerExtension]; 
-   
-       [ACPCore start:nil]; 
-       [ACPCore lifecycleStart:nil]; 
-   
-      return YES; 
-   } 
-   
-   // EXAMPLE OVERRIDE METHOD FOR SWIFT ONLY: 
-   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) 
-   { 
-       ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID") 
-       ACPCore.setLogLevel(ACPMobileLogLevel.debug) 
-       ACPLifecycle.registerExtension() 
-       ACPIdentity.registerExtension() 
-       ACPUserProfile.registerExtension() 
-       ACPTarget.registerExtension() 
-   
-       ACPTargetVEC.registerExtension() 
-   
-       ACPCore.start(nil) 
-       ACPCore.lifecycleStart(nil)
-   
-       return true 
-   
+   func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
+     //Other Extensions that you need
+     ACPCore.configure(withAppId: "YOUR_ADOBE_LAUNCH_APP_ID")
+     ACPCore.setLogLevel(ACPMobileLogLevel.debug)
+     ACPTarget.registerExtension()
+     ACPTargetVEC.registerExtension()
+     [ACPCore start:^{
+       [ACPCore lifecycleStart:nil];
+     }];
+     return true
    }
    ```
 
@@ -130,29 +95,20 @@ Adobe Target VEC 확장을 활성화하는 방법에 대한 자세한 내용은 
 
    ```
    // URL HANDLER LINE FOR OBJECTIVE C ONLY: 
-   [ACPTargetVEC handleDeepLink:url];
+   - (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
+     [ACPCore collectLaunchInfo:@ {@"adb_deeplink": url.absoluteString}];
+     return YES;
+   }
    
    // URL HANDLER LINE FOR SWIFT ONLY: 
-   ACPTargetVEC.handleDeepLink(url)
-   ```
-
-   예를 들면 메서드가 다음 샘플과 유사합니다.
-
-   ```
-   // EXAMPLE OVERRIDE METHOD FOR OBJECTIVE C ONLY:
-   -  (BOOL)application:(UIApplication *)application openURL:(NSURL *)url options:(NSDictionary<NSString *, id> *)options {
-    [ACPTargetVEC handleDeepLink:url];
-    return YES;
-   }
-   
-   // EXAMPLE OVERRIDE METHOD FOR SWIFT ONLY:
-   func application(_ app: UIApplication, open url: URL, options: [UIApplication.OpenURLOptionsKey : Any] = [:]) -> Bool {
-      ACPTargetVEC.handleDeepLink(url)
-      return true;
+   func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+     ACPCore.collectLaunchInfo(["adb_deeplink": url.absoluteString])
+     return true
    }
    ```
 
-1. 애플리케이션을 빌드하고 실행하고 모바일 앱 VEC 기능을 테스트하는 데 사용합니다.
+   애플리케이션을 빌드하고 실행하고 모바일 앱 VEC 기능을 테스트하는 데 사용합니다.
+
 
 ## 모바일 앱에서 타겟 보기 설정 {#views}
 
@@ -200,18 +156,18 @@ NSDictionary *profileParams = @{@"profilekey1":@"profilevalue1"}; //profile para
   
 ACPTargetProduct *product = [ACPTargetProduct targetProductWithId:@"1234" categoryId:@"furniture"]; 
 ACPTargetOrder *order = [ACPTargetOrder targetOrderWithId:@"12343" total:@(123.45) purchasedProductIds:@[@"100",@"200"]]; 
-ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters:mboxParams 
-                                                                      profileParameters:profileParams 
-                                                                                product:product 
-                                                                                  order:order]; 
+ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithParameters: mboxParams
+                      profileParameters: profileParams
+                      product: product
+                      order: order];
 [ACPTargetVEC setGlobalRequestParameters:targetParams];
 
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
-var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product = ACPTargetProduct(id: "1234", categoryId: "furniture")
+var order = ACPTargetOrder(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"])
+var targetParams = ACPTargetParameters(parameters: mboxParams, profileParameters: profileParams, product: product, order: order)
 ACPTargetVEC.setGlobalRequest(targetParams)
 ```
 
@@ -235,9 +191,9 @@ ACPTargetParameters *targetParams = [ACPTargetParameters targetParametersWithPar
 //For Swift 
 var mboxParams = ["mboxparam1":"mboxvalue1"] 
 var profileParams = ["profilekey1":"profilevalue1"] 
-var product : ACPTargetProduct = ACPTargetProduct.init(id: "1234", categoryId: "furniture") 
-var order : ACPTargetOrder = ACPTargetOrder.init(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"]) 
-var targetParams : ACPTargetParameters = ACPTargetParameters.init(parameters: mboxParams, profileParameters: profileParams, product: product, order: order) 
+var product = ACPTargetProduct(id: "1234", categoryId: "furniture")
+var order = ACPTargetOrder(id: "12345", total: 123.45, purchasedProductIds: ["100", "200"])
+var targetParams = ACPTargetParameters(parameters: mboxParams, profileParameters: profileParams, product: product, order: order)
 ACPTargetVEC.setRequest(targetParams)
 ```
 
