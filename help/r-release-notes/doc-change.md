@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 745eb38b18ce7b29d87abb588ecdbb3fffc8cfc1
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -22,8 +22,10 @@ source-git-commit: 745eb38b18ce7b29d87abb588ecdbb3fffc8cfc1
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2019년 6월 7일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 추가된 새 섹션: &quot; 시나리오: null-checking 논리를 사용하여 4 x 2 기본 권장 사항 디자인을 만듭니다. &quot; |
+|  | [Adobe Target Standard 및 Premium 교육 비디오](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 새 Adobe Target 자습서 사이트에 대한 링크가 업데이트되었습니다. |
 |  | [iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 업데이트된 텍스트 및 코드 조각. |
 |  | [방문자 프로필 라이프타임](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | 간단한 텍스트 편집 |
+|  | [이메일 이미지 Adbox 테스트](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | 간단한 텍스트 편집 |
 | 2019년 6월 6일 | [adobe. target. triggerview (viewname, options) - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 매개 변수에 대한 설명을 `options > page` 업데이트했습니다. |
 |  | [관리자의 첫 단계](/help/administrating-target/start-target.md) | 전체 아티클 업데이트. |
 |  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target 19.6.1 릴리스에 대한 예비 릴리스 노트를 추가했습니다. |
