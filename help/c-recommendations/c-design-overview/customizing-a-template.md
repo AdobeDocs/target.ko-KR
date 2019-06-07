@@ -10,7 +10,7 @@ topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 badge: premium
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 공개 소스인 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정할 수 있습니다.
 
-## 속도 개요 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Velocity 개요 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Velocity에 대한 정보는 [](https://velocity.apache.org)https://velocity.apache.org에서 알 수 있습니다.
 
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 사용자는 또한 디자인에서 `algorithm.name` 및 `algorithm.dayCount`를 변수로 사용할 수 있으며, 하나의 디자인을 사용해서 여러 기준을 테스트하고 해당 기준 이름을 디자인에 동적으로 표시할 수 있습니다. 이는 방문자에게 자신이 &quot;최상위 판매자&quot; 또는 &quot;이 항목을 본 사용자가 구매한 항목&quot;을 검토 중임을 보여줍니다. 이러한 변수를 사용해서 `dayCount`(&quot;지난 2일 동안 최상위 판매자&quot; 등과 같이 기준에 사용된 데이터의 일 수)를 표시할 수도 있습니다.
 
-## 시나리오: 추천 제품에 키 항목 표시 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## 시나리오: 권장 제품으로 키 항목 표시 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 다른 추천 제품과 함께 키 항목을 표시하도록 디자인을 수정할 수 있습니다. 예를 들어, 권장 사항 항목 옆에 참조할 수 있도록 현재 항목을 표시할 수 있습니다.
 
@@ -178,9 +178,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![](assets/rec_key.png)
 
-[!DNL Recommendations] 활동을 만들 때, &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]에는 [!UICONTROL 시각적 경험 작성기] (VEC)에 무작위 제품이 표시됩니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
+[!DNL Recommendations] 활동을 만들 때, &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]에는 [!UICONTROL 시각적 경험 작성기](VEC)에 무작위 제품이 표시됩니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
 
-## 시나리오: 판매 가격의 소수점을 쉼표 구분 기호로 바꾸기 {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 시나리오: 소수점을 영업가에서 쉼표 구분 기호로 대체 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 미국에서 사용되는 소수점 구분 기호를 유럽 및 기타 국가에서 사용되는 쉼표 구분 기호로 바꾸도록 디자인을 수정할 수 있습니다.
 
@@ -206,3 +206,39 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
+## 시나리오: null 확인 논리를 사용하여 4 x 2 기본 권장 사항 디자인 만들기 {#default}
+
+다음 템플릿에서는 속도 스크립트를 사용하여 엔티티 디스플레이의 동적 크기 조정을 제어할 수 있으므로, 반환된 엔티티가 충분하지 [!DNL Recommendations]않은 경우 빈 HTML 요소를 생성하지 않도록 하기 위해 1 대 다 결과를 가져옵니다. 이 스크립트는 백업 권장 사항이 적합하지 않고 [!UICONTROL 부분 템플릿 렌더링이 활성화되어] 있을 때 시나리오에 가장 적합합니다.
+
+다음 HTML 코드 조각은 4 x 2 기본 디자인에서 기존 HTML 부분을 대체합니다 (간결한 설명을 위해 CSS가 여기에 포함되지 않음).
+
+* 다섯 번째 엔티티가 존재하는 경우, 스크립트는 닫는 div를 삽입하고 새 행을 엽니다 `<div class="at-table-row">`.
+* 4 x 2의 경우 표시되는 최대 결과는 8 이지만 수정함으로써 더 작은 목록 또는 더 큰 목록에 맞게 사용자 지정할 `$count <=8`수 있습니다.
+* 로직은 여러 행에 있는 엔티티의 균형을 맞추지 않습니다. 예를 들어 표시할 엔티티 수가 5 개 또는 6 개가 있는 경우 맨 위에는 동적으로 3 개가 되지 않으며 맨 아래쪽에는 3 개, 맨 아래에는 3 개가 동적으로 표시되지 않습니다. 상단 행은 두 번째 행을 시작하기 전에 네 개의 항목을 표시합니다.
+
+```
+<div class="at-table">
+  <div class="at-table-row">
+    #set($count=1) 
+    #foreach($e in $entities)  
+        #if($e.id != "" && $count < $entities.size() && $count <=8) 
+            #if($count==5) 
+                </div>
+                <div class="at-table-row">
+            #end
+            <div class="at-table-column">
+                <a href="$e.pageUrl"><img src="$e.thumbnailUrl" class="at-thumbnail" />
+                    <br/>
+                    <h3>$e.name</h3>
+                    <br/>
+                    <p class="at-light">$e.message</p>
+                    <br/>
+                    <p class="at-light">$$e.value</p>
+                </a>
+            </div>
+            #set($count = $count + 1) 
+        #end 
+    #end
+    </div>
+  </div>
+```
