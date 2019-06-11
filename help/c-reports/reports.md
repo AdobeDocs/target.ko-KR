@@ -9,7 +9,7 @@ title: 보고서
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -36,27 +36,26 @@ source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ## 보고서 표시 {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
-1. **[!UICONTROL 활동]**을 클릭한 다음, 목록에서 원하는 활동을 클릭합니다.
+1. **[!UICONTROL 활동]** 을 클릭한 다음, 목록에서 원하는 활동을 클릭합니다.
 
    활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
 
    예를 들어, [!UICONTROL 유형] 드롭다운 목록에서 [!UICONTROL A/B 테스트]와 [!UICONTROL 경험 타깃팅]을 선택하고 [!UICONTROL 상태] 드롭다운 목록에서 [!UICONTROL 라이브]를 선택하여 활성 상태에 있는 A/B 테스트 및 경험 타깃팅 활동만 표시할 수도 있습니다.
 
-   다음 그림은 두 가지 유형이 선택된 [!UICONTROL 유형] 드롭다운 목록을 보여줍니다.
+   다음 그림은 두 가지 유형이 선택된 [!UICONTROL 유형] 드롭다운 목록을 보여줍니다. A/B 테스트 및 경험 타깃팅. A/B 테스트 (수동, [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)및 [자동-대상](/help/c-activities/auto-target-to-optimize.md)) 의 세 가지 유형이 기본적으로 선택됩니다. 필요에 따라 하나 이상의 유형을 선택 취소할 수 있습니다.
 
-   ![](assets/report_filters.png)
+   ![유형별 보고서 필터링](/help/c-reports/assets/report_filters-new.png)
 
 1. **[!UICONTROL 보고서]탭을 클릭합니다.**
 
    각 보고서에는 보고서를 이해하는 데 도움이 되는 범례가 포함되어 있습니다.
 
-   ![](assets/report_menu_bar.png)
+   ![보고서 범례](/help/c-reports/assets/report_menu_bar-new.png)
 
    범례에는 다음과 같은 정보가 표시됩니다.
 
    * 활동이 실행된 날짜 범위를 포함한 활동 상태.
-   * 예상되는 가장 성과가 좋은 경험.
-   * 활동의 소스(예: [!DNL Adobe Target] 또는 [!DNL Adobe Target Classic]).
+   * 성공적인 우승 경험 (가능한 경우).
    >[!NOTE]
    >
    >경험 결과는 적어도 한 명 이상의 참여자가 경험을 본 후에야 표시됩니다.
