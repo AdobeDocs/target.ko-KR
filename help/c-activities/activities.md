@@ -8,7 +8,7 @@ title: 활동
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -70,13 +70,13 @@ UI 상단의 활동 탭을 클릭하여 [!UICONTROL 활동] 목록을 [!UICONTRO
 | 활성화 | 비활성 상태 또는 준비된 활동을 시작합니다. |
 | 보관 | 활동을 보관 파일에 보냅니다. 기본적으로 보관된 활동은 더 이상 [활동] 목록에 표시되지 않습니다. 보관된 활동을 보려면 이러한 활동을 포함하도록 활동 목록에 대한 필터를 변경하십시오. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.<br>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
 | 복사 | 활동을 복사합니다. 모든 활동은 복사할 수 있습니다. 활동을 복사하면 동일한 이름에 &quot;사본&quot;이 추가된 채 새 활동이 만들어집니다. 예를 들어, &quot;브라우저 오퍼&quot;라는 테스트는 &quot;브라우저 오퍼 사본&quot;으로 복사됩니다.<br>시각적 오퍼는 활동과 함께 복사됩니다. 원래 활동에 영향을 주지 않고 사본에서 오퍼를 안전하게 편집할 수 있습니다. 유일한 예외는 컨텐츠/자산 폴더에 있는 저장된 오퍼와 이미지입니다. |
-| 삭제 | 초안이나 준비된 활동을 삭제합니다. 삭제된 활동은 복구할 수 없습니다. |
+| 삭제 | 초안 또는 활동 삭제를 참조하십시오.<BR>**** 참고: 삭제된 활동은 복구할 수 없습니다. 이 활동이 다시 필요하지 않다는 확신이 없다면 [!UICONTROL 보관] 작업을 사용하십시오. 그런 다음 필요한 경우 활동을 다시 활성화할 수 있습니다. |
 
 활동 목록에 대한 다음 세부 사항을 참고하십시오.
 
 * 보관된 활동과 종료된 활동은 [!UICONTROL 활동] 목록에 표시되지 않습니다. 이러한 활동을 보려면 왼쪽 레일의 고급 필터 설정을 사용하여 필터링하십시오.
 * 원래 [!DNL Target Classic]에서 만들어진 활동은 비활성화되거나 삭제되는 즉시 [!DNL Target Standard/Premium]에서 삭제됩니다. 원래 [!DNL Target Classic]에서 만들어진 삭제된 작업은 [!DNL Target Standard/Premium]의 [!UICONTROL 보관] 폴더로 보내지지 않습니다. 보관된 폴더 기능은 [!DNL Target Standard/Premium]에서 만들어진 활동에만 적용됩니다.
-* [!UICONTROL 자동화된 개인화] (AP), [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 이외의 모든 활동 유형에서는 [!DNL Target] 또는 [!DNL Adobe Analytics]를 데이터 소스로 사용하도록 선택할 수 있습니다. [!UICONTROL AP], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]은 *항상* [!DNL Target] 데이터를 사용합니다.
+* [!UICONTROL 자동화된 개인화](AP), [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 이외의 모든 활동 유형에서는 [!DNL Target] 또는 [!DNL Adobe Analytics]를 데이터 소스로 사용하도록 선택할 수 있습니다. [!UICONTROL AP], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]은 *항상* [!DNL Target] 데이터를 사용합니다.
 * 활동은 몇 가지 채널에서 사용할 수 있습니다.
 
    * 웹 및 모바일 사이트
@@ -179,7 +179,7 @@ UI 상단의 활동 탭을 클릭하여 [!UICONTROL 활동] 목록을 [!UICONTRO
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로우 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=kor)
 
 ### 활동 관리(5:55)
 
@@ -189,4 +189,4 @@ UI 상단의 활동 탭을 클릭하여 [!UICONTROL 활동] 목록을 [!UICONTRO
 * [활동] 목록에서 활동 찾기
 * 활동 편집, 비활성화, 복사 및 삭제
 
->[!VIDEO](https://video.tv.adobe.com/v/18550)
+>[!VIDEO](https://video.tv.adobe.com/v/18550?captions=kor)
