@@ -8,7 +8,7 @@ title: A/B 테스트의 여러 경험 버전
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -35,11 +35,11 @@ A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃
 
    여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상을 선택합니다.
 
-1. 경험을 선택한 다음 **[!UICONTROL 구성]** &gt; **[!UICONTROL 대상]** &gt; **[!UICONTROL 여러 대상]**을 클릭합니다.
+1. 경험을 선택한 다음 **[!UICONTROL 구성]** &gt; **[!UICONTROL 대상]** &gt; **[!UICONTROL 여러 대상]** 을 클릭합니다.
 
-   ![](assets/multiple-audiences.png)
+   ![여러 대상 옵션](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. **[!UICONTROL 대상 추가]**를 클릭한 후 타깃팅할 첫 번째 대상을 선택합니다. 각 대상에 대해 이 작업을 반복합니다.
+1. **[!UICONTROL 대상 추가]** 를 클릭한 후 타깃팅할 첫 번째 대상을 선택합니다. 각 대상에 대해 이 작업을 반복합니다.
 
    ![](assets/exp-versions.png)
 
