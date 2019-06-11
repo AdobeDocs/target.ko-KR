@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 6 월 11 일 | [활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A 4 T를 사용하는 경우 추적 서버를 지정하는 것이 해결되었다는 내용의 메모를 제거했습니다. |
+|  | [활동](/help/c-activities/activities.md) | 삭제된 활동을 복원할 수 없다고 강조했습니다. 필요한 경우 보관하지 않도록 활동을 보관할 수 있습니다. |
+|  | [. js 1. x에서 at. js 2. x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Experience Cloud 디버거가. js 2. x에서 완전히 지원되지 않는다는 내용의 제한 사항이 제거되었습니다. |
 | 2019년 6월 7일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 추가된 새 섹션: &quot; 시나리오: null-checking 논리를 사용하여 4 x 2 기본 권장 사항 디자인을 만듭니다. &quot; |
 |  | [Adobe Target Standard 및 Premium 교육 비디오](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 새 Adobe Target 자습서 사이트에 대한 링크가 업데이트되었습니다. |
 |  | [iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 업데이트된 텍스트 및 코드 조각. |
