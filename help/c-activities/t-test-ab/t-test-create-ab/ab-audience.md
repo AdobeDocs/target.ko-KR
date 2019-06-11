@@ -8,7 +8,7 @@ title: 대상 선택
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 81731916926250195b0f70124c8dad0912074e77
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,11 +23,13 @@ source-git-commit: 81731916926250195b0f70124c8dad0912074e77
 
 [!UICONTROL 대상] 상자에서 [편집] 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 대상 바꾸기를 클릭하십시오]**.
 
-기본적으로 모든 방문자는 대상입니다. 그러나 대상을 변경할 수 있습니다. 대상 라이브러리에서 대상을 선택하거나 활동 전용 대상을 만들 수 있습니다. 대상 라이브러리에는 Target의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나, [새 대상을 만들](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)거나, [활동 전용 대상을 만들](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) 수 있습니다. 특정 대상 타깃팅이 없는 A/B 테스트의 경우, 기본값인 [모든 방문자]를 선택하십시오.
+![대상 바꾸기 옵션](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+
+기본적으로 모든 방문자는 대상입니다. 그러나 대상을 변경할 수 있습니다. 대상 라이브러리에서 대상을 선택하거나 활동 전용 대상을 만들 수 있습니다. 대상 라이브러리에는 Target의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나, 새 대상을 [](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)만들거나, 활동 전용 대상을 [만들](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)수 있습니다. 특정 대상 타깃팅이 없는 A/B 테스트의 경우, 기본값인 [모든 방문자]를 선택하십시오.
 
 아래와 같이, [!UICONTROL 대상 선택] 대화 상자에서 원하는 대상을 마우스로 가리켜서 대상을 편집하거나 복사할 수도 있습니다. 기존 대상과 유사한 대상을 만들려는 경우 대상을 복사하면 유용합니다. 대상의 복사본을 만들어 편집한 다음, 새 대상으로 저장할 수 있습니다. 이 마우스로 가리키는 기능은 다른 활동 유형에서도 사용할 수 있습니다.
 
-![](assets/audience_picker_hover.png)
+![고객 호버](/help/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
 
 고객을 만들 때 위치(mbox)를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. [사용자 지정 매개 변수]에서 mbox를 선택한 다음, 원하는 매개 변수를 지정합니다.
 
