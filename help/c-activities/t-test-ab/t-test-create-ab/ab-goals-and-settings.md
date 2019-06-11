@@ -7,7 +7,7 @@ title: 목표 및 설정
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 [목표 및 설정] 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
 
-사용 가능한 설정은 Target 또는 Analytics를 데이터 소스로 사용하는지에 따라 다릅니다.
+사용 가능한 설정은 Target 또는 [Analytics를](/help/c-integrating-target-with-mac/a4t/a4t.md) 데이터 소스로 사용하는지에 따라 다릅니다.
 
-![](assets/ab_settings.png)
+![활동 설정 대화 상자](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## 활동 설정 {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -41,16 +41,19 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 고급 설정은 A/B 테스트 목표 지표에서 사용할 수 있습니다.
 
-![](assets/Menu_AdvancedSettings.png)
+![고급 설정 메뉴](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >Adobe Analytics를 보고 소스로 사용하는 경우 설정은 Analytics 서버에서 관리됩니다. 고급 설정 옵션은 사용할 수 없습니다.
 
+![고급 설정](/help/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
+
 | 설정 | 설명 |
 |--- |--- |
 | 이 지표가 증가되기 위해 도달해야 할 성공 지표는 무엇입니까? | 사용자가 이전에 다른 성공 지표에 도달한 경우에만 해당 성공 지표에 도달할 때 카운트되도록 하려면 이 옵션을 사용합니다. 예를 들어, 방문자가 전환하기 전에 해당 오퍼를 클릭하거나 특정 페이지에 도달한 경우에만 테스트 전환이 유효할 수 있습니다.  여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다.  두 성공 지표(또는 여러 개의 성공 지표)를 정의해야 상호 종속성을 만들 수 있습니다.  종속성 추가 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다.  종속성을 추가하려면 다음을 수행하십시오.<ul><li>추가 지표를 추가한 후 고급 설정을 클릭합니다.</li><li>종속성 추가 옵션을 클릭합니다:</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 도달을 클릭하여 도달 및 도달 못 함 간에 설정을 전환합니다.</li><li>종속성을 추가한 후 편집하거나 제거할 수 있습니다.</li></ul> |
 | 사용자가 이 목표 지표에 도달한 후에 어떤 상황이 진행됩니까? | 사용자가 목표 지표에 도달한 다음에 진행되는 상황을 지정할 수 있는 세 가지 옵션이 있습니다.<ul><li>카운트가 증가되는 방식을 지정하려면 증분 카운트 및 사용자를 활동에 유지를 선택합니다.</li><li>사용자가 활동에 다시 입장하면 표시되는 경험을 지정하려면 증분 카운트, 사용자 해제 및 재입력 허용을 선택합니다.</li><li>활동 컨텐츠 대신 사용자에게 표시되는 컨텐츠를 지정하려면 증분 카운트, 재입력에서 사용자 및 막대 해제를 선택합니다.</li></ul> |
+| 카운트는 어떻게 증분됩니까? | 카운트가 증가되는 방법에는 세 가지가 있습니다.<ul><li>응모자마다 한 번</li><li>모든 노출 시 (페이지 새로 고침 제외)</li><li>노출 시마다</li></ul> |
 
 고급 설정에 대한 자세한 내용은 [성공 지표](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 
@@ -83,4 +86,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * Adobe Target에서 A/B 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=kor)
