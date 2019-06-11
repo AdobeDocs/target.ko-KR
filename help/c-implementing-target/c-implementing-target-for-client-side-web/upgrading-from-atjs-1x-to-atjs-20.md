@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: . js 1. x에서 at. js 2. x로 업그레이드
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -221,12 +221,6 @@ at. js 2. x 에서는 더 이상 사용되지 않는 몇 가지 함수가 있습
 **at. js 1. x를 at. js 1 중에 일부 페이지에서 사용할 수 있습니다.*x*나 mbox.js와 다른 페이지에 있을 때 사용할 수 있습니까?**
 
 예. 방문자 프로필은 서로 다른 버전 및 라이브러리를 사용하는 여러 페이지 간에 보존됩니다. 쿠키 형식은 동일합니다.
-
-**Adobe Experience Cloud Debugger는 at. js 2. x에서 완전히 지원되지 않습니다.**
-
-[!DNL Adobe Experience Cloud Debugger][!UICONROL 요약 탭] 기능 및 [!UICONTROL 비활성화 및 콘솔 로깅] 도구는 지원되지만 네트워크 요청 및 Mboxtrace 는. js 2. x에서 지원되지 않습니다.
-
-이것은 at. js 2. x에서 키-값 쌍 대신 JSON 페이로드가 전송되기 때문입니다. [!DNL Target] 요청을 검사하려면 브라우저의 개발자 도구에 있는 [!UICONTROL 네트워크] 탭을 &quot;게재&quot;, &quot;`tt.omtrdc.net`&quot; 또는 클라이언트 코드로 필터링하십시오. 쿼리 문자열 매개 변수와 인증 토큰을 사용하여 추적 데이터를 계속 검사할 수 있습니다. 자세한 내용은 [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md)를 참조하십시오.
 
 **at. js 2. x에서 새 API 사용**
 
