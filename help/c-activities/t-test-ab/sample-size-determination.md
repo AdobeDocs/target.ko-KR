@@ -7,7 +7,7 @@ solution: Target
 title: A/B 테스트를 얼마 동안 실행해야 합니까?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -40,7 +40,7 @@ Target은 사용자의 작업이 변환 목표를 달성할 수 있을 만큼 �
 
 A/B 테스트를 설정하기 전에 Adobe Target [샘플 크기 계산기에 액세스합니다](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
-![](assets/sample_size_calculator.png)
+![Adobe Target 샘플 크기 계산기](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 결과를 평가하기 전에 먼저 테스트를 실행하는 데 필요한 시간을 설정하려면 A/B 테스트를 수행하기 전에 적절한 샘플 크기(방문자 수)를 결정하는 것이 중요합니다. 통계적 유의도를 달성할 때까지 테스트를 모니터링하지 않으면 신뢰 구간을 너무 적게 잡아 테스트를 신뢰할 수 없게 됩니다. 이러한 결과 때문에 통계적으로 유의미한 결과가 감지되는 경우 테스트가 중지되고 승자가 선언됩니다. 그러나 결과가 통계적으로 유의미하지 않다면 테스트는 계속될 것이고, 이러한 절차는 긍정 오류(false positive) 비율을 증가시키는 긍정적인 결과를 매우 편애하는 것이므로, 테스트의 유효한 유의 수준이 왜곡됩니다.
 
