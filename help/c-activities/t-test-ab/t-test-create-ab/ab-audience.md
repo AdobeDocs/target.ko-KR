@@ -8,7 +8,7 @@ title: 대상 선택
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 81731916926250195b0f70124c8dad0912074e77
 
 ---
 
@@ -39,9 +39,9 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 활동에 포함할 자격이 있는 방문자 백분율을 지정할 수 있습니다. 예를 들어, 모든 방문자의 50%를 포함하도록 선택할 수 있습니다.
 
-![](assets/audperc.png)
+![고객 백분율](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Target에서 [트래픽을 자동으로 할당](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)할 수 있도록 선택할 수도 있습니다.
+Target에서 트래픽을 자동으로 [할당할 수도](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)있습니다.
 
 ## 교육 비디오
 
@@ -57,7 +57,7 @@ Target에서 [트래픽을 자동으로 할당](../../../c-activities/automated-
 * 활동을 대상에 타깃팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=kor)
 
 ### 활동 워크플로우 - 타깃팅(2:14)
 
@@ -68,6 +68,6 @@ Target에서 [트래픽을 자동으로 할당](../../../c-activities/automated-
 * 트래픽 할당 방법 선택
 * 서로 다른 경험에 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=kor)
 
 자세한 내용은 [대상](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)을 참조하십시오.
