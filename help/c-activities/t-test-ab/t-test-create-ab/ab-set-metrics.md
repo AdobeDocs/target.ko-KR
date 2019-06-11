@@ -7,7 +7,7 @@ solution: Target,standard
 title: 지표 설정
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -21,7 +21,7 @@ A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기�
 1. 활동의 목표를 지정합니다.
 1. [성공 지표](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
 
-   ![](assets/ab_metrics.png)
+   ![성공 지표 선택](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    [!UICONTROL 지표 선택] 페이지에는 활동에 대해 선택할 수 있는 성공 지표가 표시됩니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
@@ -63,4 +63,4 @@ A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기�
 * 변환, 수입 및 참여 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=kor)
