@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 6 월 12 일 | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [Adobe Target 작동 방식](/help/c-intro/how-target-works.md) | 중국에서 Target 사용에 대한 중요한 참고가 추가되었습니다. |
 | 2019 년 6 월 11 일 | [활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A 4 T를 사용하는 경우 추적 서버를 지정하는 것이 해결되었다는 내용의 메모를 제거했습니다. |
 |  | [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | 텍스트와 이미지를 업데이트했습니다. |
 |  | A/B 테스트: [활동 URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | 텍스트와 이미지를 업데이트했습니다. |
