@@ -8,7 +8,7 @@ title: 승자 결정
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,7 +23,7 @@ Target UI에서 표시를 보고 자동 할당 A/B 활동에서 승자를 결정
 
 [!UICONTROL 자동 할당] 기능을 사용하는 경우 [!DNL Target]에서는 활동이 충분히 신뢰할 수 있는 최소 전환 수에 도달하기 전까지 활동의 페이지 상단에 &quot;아직 우승자 없음&quot; 배지가 표시됩니다.
 
-![](assets/auto_traffic_no_winner.png)
+![우승자 배지 없음](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 명백한 승자를 선언할 때에는 [!DNL Target]에 &quot;우승자: 경험 X&quot;라고 표시됩니다.
 
@@ -39,7 +39,7 @@ A/B 활동의 끝에서 자동 할당은 결정된 승자에 5%의 유효한 긍
 
 자동 할당에는 p 값 기반 신뢰도가 사용되지 않습니다.
 
-자동 할당 활동의 [신뢰도] 열(아래 그림 참조)에는 경험이 1% 오차 범위 내에서 승자가 되는 확률이 표시됩니다(즉, 이 알고리즘에서는 1위와 2위 전환율 간에 최소 1%의 감지 가능한 효과를 사용합니다.). 이 알고리즘에서는 [Bernstein 부등식](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory))을 사용하여 이 확률을 계산합니다.
+자동 할당 활동의 신뢰도 열(아래 그림 참조)에는 경험이 1% 오차 범위 내에서 승자가 되는 확률이 표시됩니다(즉, 이 알고리즘에서는 1위와 2위 전환율 간에 최소 1%의 감지 가능한 효과를 사용합니다.). 이 알고리즘에서는 [Bernstein 부등식](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory))을 사용하여 이 확률을 계산합니다.
 
 일반 A/B 테스트는 p 값을 기반으로 신뢰도를 계산합니다. 자동 할당에서는 p 값을 사용하지 않습니다. p 값은 주어진 경험이 통제 경험과 다를 확률을 &quot;대략&quot; 계산합니다. 이러한 p-값은 경험이 제어와 다를 수 있는지 여부를 결정하는 데만 사용할 수 있습니다. 이 값은 경험이 통제 경험이 아닌 다른 경험과 다른지 판별하는 데에는 사용할 수 없습니다.
 
