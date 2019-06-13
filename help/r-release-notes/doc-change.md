@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -21,6 +21,10 @@ source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 6월 13일 | [자동화된 개인화 활동 만들기](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [성공에 필요한 트래픽 예측](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 새 이미지가 추가되었습니다. |
+|  | [시각적 경험 작성기에서 자동화된 개인화에 대한 경험 미리 보기](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [자동화된 개인화 오퍼 타깃팅](/help/c-activities/t-automated-personalization/ap-target-offers.md) | 텍스트와 이미지를 업데이트했습니다. |
 | 2019 년 6 월 12 일 | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 텍스트와 이미지를 업데이트했습니다. |
 |  | [Adobe Target 작동 방식](/help/c-intro/how-target-works.md) | 중국에서 Target 사용에 대한 중요한 참고가 추가되었습니다. |
 |  | [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | &quot; Target Standard/Premium 인터페이스 &quot;섹션에서 Microsoft Internet Explorer 11 (IE 11) 를 제거했습니다. Target는 더 이상 IE 11의 호환성을 지원하거나 유지 관리하지 않습니다. 이 변경 사항은 대상 UI 에만 영향을 줍니다. 컨텐츠 전달은 영향을 받지 않습니다. 이러한 변경 사항은 Adobe Analytics, Adobe Experience Platform 및 Adobe Audience Manager의 유사한 공지 사항을 따릅니다. 지원되는 브라우저로 전환하는 것이 좋습니다. |
