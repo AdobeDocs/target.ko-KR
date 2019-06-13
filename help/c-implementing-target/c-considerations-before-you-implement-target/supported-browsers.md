@@ -9,7 +9,7 @@ title: 지원되는 브라우저
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 17064ec4b3816f040f17277f5efc81f4eec9a3cc
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -26,7 +26,7 @@ TLS에 대한 추가적으로 중요한 정보는 [TLS(전송 계층 보안) 암
 
 | 장치 유형 | 브라우저 버전 |
 |--- |--- |
-| Windows | <ul><li>Microsoft Internet Explorer 11에서 보냅니다.<br>****참고: [!DNL Target] 및 Adobe Marketing Cloud는 2019년 3월부터 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. 이 변경 사항은 [!DNL Target] 작성에만 영향을 주며, 경험 전달에는 영향을 주지 않습니다. Microsoft Edge나 다른 지원되는 브라우저로 전환하십시오.</li><li>Microsoft Edge</li><li>Google Chrome(최신, 최신 버전-1)</li><li>Mozilla Firefox(최신, 최신 버전-1)</li></ul> |
+| Windows | <ul><li>Microsoft Edge</li><li>Google Chrome(최신, 최신 버전-1)</li><li>Mozilla Firefox(최신, 최신 버전-1)</li></ul> |
 | Mac | <ul><li>Firefox(최신, 최신 버전-1)</li><li>Chrome(최신, 최신 버전-1)</li></ul> |
 
 ## 컨텐츠 전달 {#section_1045A946056441268D40025529918D3D}
