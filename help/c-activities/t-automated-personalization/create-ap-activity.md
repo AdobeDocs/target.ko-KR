@@ -10,7 +10,7 @@ topic: 고급
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -30,6 +30,10 @@ source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 1. VEC(시각적 경험 작성기)를 사용하려면 **[!UICONTROL 시각적(기본값)]** 을 클릭합니다.
 
    양식 기반 경험 작성기를 사용하려면 **[!UICONTROL 양식을 선택합니다]**. 두 작성기에 대한 자세한 내용은 [경험](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
+
+   >[!NOTE]
+   >
+   >Target는 VEC 및 양식 기반 Experience Composer 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
 
 1. 활동 URL을 확인하거나 입력한 후 **[!UICONTROL 다음]** 을 클릭합니다.
 
