@@ -8,16 +8,16 @@ title-outputclass: premium
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 badge: premium
 translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 오퍼 타깃팅{#target-automated-personalization-offers}
 
-자동화된 개인화 활동에서는 오퍼에 대해 특정 대상을 지정할 수 있습니다.
+자동화된 개인화 (AP) 활동에서 오퍼를 특정 대상에 타깃팅할 수 있습니다.
 
-이 기능을 사용하면 특정 방문자가 볼 수 있는 오퍼의 수가 줄어듭니다. 예를 들면 3개의 오퍼가 있는 AP(자동화된 개인화) 활동을 고려합니다. 오퍼 1에는 대상 A로만 노출을 제한하는 타깃팅 규칙이 있습니다. 두 방문자가 이 AP 활동을 확인했습니다.
+이 기능을 사용하면 특정 방문자가 볼 수 있는 오퍼의 수가 줄어듭니다. 예를 들어 세 개의 오퍼가 있는 AP 활동을 고려하십시오. 오퍼 1 에는 대상 A에 대한 노출을 제한하는 타깃팅 규칙이 있습니다. 두 명의 방문자가 이 AP 활동을 보았습니다.
 
 |  | 방문자 1 | 방문자 2 |
 |--- |--- |--- |
@@ -30,23 +30,31 @@ source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
 
 ## 타깃팅 규칙 설정
 
-1. 타깃팅하려는 오퍼가 포함된 자동화된 개인화 활동을 생성합니다.
-1. 시각적 경험 작성기에서 활동에 대한 오퍼를 설정한 후에 **[!UICONTROL 컨텐츠]**를 클릭합니다.
+1. 타깃팅할 오퍼를 포함하는 [자동화된 개인화 활동을](/help/c-activities/t-automated-personalization/create-ap-activity.md) 만듭니다.
+1. Visual Experience Composer에서 활동에 대한 오퍼를 설정한 후 콘텐츠 **[!UICONTROL 관리를 클릭합니다]**.
+
+   ![컨텐츠 관리](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    컨텐츠 관리 대화 상자가 열립니다.
 
-   ![](assets/ap_content.png)
+1. 오퍼 탭을 클릭합니다.
 
-   >[!NOTE]
-   >
-   >50개의 위치 및 위치당 최대 250개의 오퍼를 설정할 수 있습니다.
+   ![오퍼 페이지](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
-1. **[!UICONTROL 컨텐츠]** 열에서 오퍼를 선택한 다음 **[!UICONTROL 타깃팅]**을 클릭하고 해당 오퍼를 표시하기 위해 자격을 부여할 대상을 선택합니다.
+1. 원하는 오퍼를 선택하고 해당 오퍼를 볼 수 있는 대상을 선택합니다.
 
-   선택한 대상에게만 해당 오퍼가 제공됩니다.
+   단일 오퍼에 대한 타깃팅을 설정하려면 원하는 오퍼 위로 마우스를 가져간 다음 **[!UICONTORL 타깃팅]** 아이콘을 클릭합니다.
+
+   여러 오퍼에 대한 타깃팅을 설정하려면 원하는 오퍼에 대한 확인란을 선택한 다음 목록의 오른쪽 상단에 표시되는**[!UICONTROL 타깃팅] 아이콘을 클릭합니다.
+
+1. 대상자 [!UICONTROL 선택] 대화 상자에서 오퍼에 대해 원하는 대상자를 선택한 다음 **[!UICONTROL 완료를]** 클릭하여 컨텐츠 [!UICONTROL 관리] 대화 상자로 돌아갑니다.
 
    >[!NOTE]
    >
    >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
 1. **[!UICONTROL 완료를 클릭합니다]**.
+
+>[!NOTE]
+>
+>50개의 위치 및 위치당 최대 250개의 오퍼를 설정할 수 있습니다.
