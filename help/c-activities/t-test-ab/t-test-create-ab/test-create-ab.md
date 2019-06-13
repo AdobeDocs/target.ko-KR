@@ -8,7 +8,7 @@ title: A/B 테스트 만들기
 topic: 고급,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -35,7 +35,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    >[!NOTE]
    >
-   >Target는 VEC 및 양식 기반 VEC 외에도 단일 페이지 애플리케이션 vec 및 모바일 앱용 vec를 제공합니다. For more information about the various VECs, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Target는 VEC 및 양식 기반 Experience Composer 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
 
    문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)을 참조하십시오.
 
