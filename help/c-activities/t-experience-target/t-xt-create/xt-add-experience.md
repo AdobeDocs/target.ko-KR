@@ -1,14 +1,14 @@
 ---
-description: Visual Experience Composer (VEC) 는 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
+description: Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 keywords: 경험 만들기;경험 생성;우선순위;대상;경험;시각적 경험 작성기
-seo-description: Adobe Target Visual Experience Composer (VEC) 는 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
+seo-description: Adobe Target VEC (Visual Experience Composer) 는 XT (경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 seo-title: '경험 만들기 '
 solution: Target
 title: '경험 만들기 '
 topic: 고급,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -23,11 +23,15 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
    ![모든 방문자 대상](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   이제 모든 변경 사항이 경험 A에 적용됩니다. 아래 단계에서 경험 타깃팅을 [!UICONTROL 추가하여] 추가 경험을 만듭니다.
+   이제 모든 변경 사항이 경험 A에 적용됩니다. 아래 단계에서 경험 타깃팅을 **[!UICONTROL 추가하여]** 추가 경험을 만듭니다.
 
    페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 vec를 사용하여 변경할 수 있습니다. 경험을 변경하기 위해 요소에 대해 수행할 수 있는 작업 목록은 [Visual Experience Composer 옵션을 참조하십시오](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Target Classic(이전의 Test&amp;Target)을 사용하여 페이지에서 mbox를 만든 경우 해당 mbox가 mbox 이름을 나타내는 요소로 표시되며, 다른 요소와 같이 수정할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >기본적으로, 시각적 경험 작성기에서는 회전 배너 등과 같은 JavaScript가 포함된 요소를 변경할 수 없습니다. vec를 사용하여 이러한 요소를 변경할 수 있게 하려면 JavaScript를 비활성화할 수 있습니다.
 
 1. 추가 경험을 만들려면 **[!A, DD 경험 타깃팅을 클릭합니다]**.
 
@@ -35,13 +39,13 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
    대상자 [!UICONTROL 선택] 대화 상자가 표시됩니다. 경험을 추가하려면 경험을 추가하려면 먼저 대상을 선택해야 합니다.
 
-   대상 라이브러리에는 Target의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나 [새 대상을 만들 수 있습니다](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). 모든 참여자에게 동일한 경험을 표시하려면 모든 방문자를 선택합니다.
+   대상 라이브러리에는 Target의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나 [새 대상을 만들 수 있습니다](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
    >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-   고객을 만들 때 위치(mbox)를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. 사용자 지정 매개 변수에서 mbox를 선택한 다음, 원하는 매개 변수를 지정합니다.
+   고객을 만들 때 위치(mbox)를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. [!UICONTROL 사용자 지정] (대상 만들기 &gt; 규칙 추가 &gt; 사용자 지정) 아래에서 mbox를 선택한 다음 원하는 매개 변수를 지정합니다.
 
    >[!NOTE]
    >
@@ -63,6 +67,10 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
    ![XT 타깃팅 다이어그램](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
+   >[!NOTE]
+   >
+   >메인 페이지 이외의 소스로부터 이미지를 제공하는 경우 (예: Akamai. net에서 호스팅되고 adobe.com에 제공된 이미지), 흐름 다이어그램에 표시된 페이지의 썸네일에는 해당 이미지가 표시되지 않습니다.
+
 1. (조건부) XT 활동을 만들거나 편집하는 동안 대상/경험 쌍을 드래그하여 놓아 원하는 순서대로 쌍을 정렬합니다.
 
    방문자는 위에서 아래로, 순서대로 경험에 대해 평가됩니다.
@@ -72,6 +80,8 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
    경험 타깃팅에서는 순서를 중요한 것으로 간주합니다. 방문자가 첫 번째 대상/경험 쌍에 속하는 경우 첫 번째 경험이 전달됩니다.
 
    예를 들어, XT 활동을 만드는 동안 순서가 중요하다는 것을 인식하지 못한다고 가정해보겠습니다. 경험 B 또는 C에 적격이라고 생각했던 방문자가 경험 A에 적격이라는 사실을 테스트 중에 알게 될 수 있습니다. 이것은 대상이 상호 배타적이지 않으며 적절한 순서로 정렬되지 않았기 때문일 수 있습니다(예: 경험 A = 미국, 경험 B = 샌프란시스코, 경험 C = 캘리포니아). 이 시나리오에서 미국의 모든 사용자는 샌프란시스코나 캘리포니아의 다른 지역에 있더라도 경험 A에 적격입니다. 전체 활동을 다시 만들지 않고, 가장 제한적인 것부터 덜 제한적인 순서로(샌프란시스코 &gt; 캘리포니아 &gt; 미국) 대상/경험 쌍을 재정렬할 수 있습니다.
+
+   [!UICONTROL 모든 방문자] 대상자가 있는 경우, 다이어그램에서 첫 번째 대상이 아닌지 확인하십시오. &quot;모든 방문자&quot;를 대상으로 하는 경험은 다른 경험에 속한 적이 없는 모든 방문자를 &quot;찾기 위한&quot; 경험 타깃팅 활동의 마지막 경험으로 사용될 수 있습니다.
 
 ## 경험 이름 변경 또는 편집
 
@@ -96,7 +106,31 @@ XT 활동의 한 경험에 [!UICONTROL 대해 편집] 아이콘 (세 개의 수�
 
 ![중복된 경험](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
-## 교육 비디오: 시각적 경험 작성기 사용
+## 교육 비디오:
+
+다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
+
+### A/B 테스트부터 경험 타깃팅까지
+
+이 비디오는 경험 타깃팅(XT)을 통해 A/B 테스트를 다음 수준으로 가져오는 방법을 설명합니다.
+
+* XT 활동을 구성하는 3단계 안내 워크플로우를 설명합니다.
+* 지리적 영역에 있는 대상으로 위치 특정 컨텐츠를 전달하는 방법을 설명합니다.
+* 올바른 컨텐츠가 올바른 대상에게 전달되도록 하기 위해 경험을 재정렬하는 방법을 설명합니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=kor)
+
+### 활동 유형(9:03)
+
+다음 비디오에서는 Target Standard/Premium에서 사용할 수 있는 활동 유형에 대해 설명합니다. 경험 타깃팅은 5:15에서 시작하는 것에 대해 논의합니다.
+
+* [!DNL Adobe Target]에 포함된 활동 유형 설명
+* 목표를 달성하기 위한 적절한 활동 유형 선택
+* 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로우 설명
+
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=kor)
+
+### Visual Experience Composer 사용
 
 이 비디오에서는 시각적 경험 작성기 선택 사항 사용에 대한 정보를 제공합니다.
 
