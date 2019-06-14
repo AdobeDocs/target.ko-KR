@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,8 +21,13 @@ source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2019 년 6 월 14 일 | [경험 만들기](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | 텍스트와 이미지를 업데이트했습니다. |
+| 2019 년 6 월 14 일 | [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) | 사용 사례 시나리오를 추가했습니다. |
 |  | [경험 타깃팅 활동 만들기](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | XT: [활동 URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | 업데이트된 텍스트입니다. |
+|  | XT: [경험 만들기](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [경험 타깃팅의 경험 전환](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | XT: [목표 및 설정](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | XT: [지표 설정](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | 텍스트와 이미지를 업데이트했습니다. |
 | 2019년 6월 13일 | [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 새로운 FAQ 추가: &quot; 특정 자동화된 세그먼트에 대한 다른 제안/경험과 비교하여 전환율이 낮은 일부 제안/경험이 더 많은 트래픽을 받는 이유는 무엇입니까? &quot; |
 |  | [자동화된 개인화 활동 만들기](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 텍스트와 이미지를 업데이트했습니다. |
 |  | [성공에 필요한 트래픽 예측](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 새 이미지가 추가되었습니다. |
