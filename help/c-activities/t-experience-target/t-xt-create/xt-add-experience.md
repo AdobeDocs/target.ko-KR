@@ -1,90 +1,100 @@
 ---
-description: 경험 작성기가 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
+description: Visual Experience Composer (VEC) 는 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
 keywords: 경험 만들기;경험 생성;우선순위;대상;경험;시각적 경험 작성기
-seo-description: 경험 작성기가 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
+seo-description: Adobe Target Visual Experience Composer (VEC) 는 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
 seo-title: '경험 만들기 '
 solution: Target
 title: '경험 만들기 '
 topic: 고급,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 ---
 
 
-# 경험 만들기 {#create-experience}
+# 경험 만들기{#create-experience}
 
-경험 작성기가 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
-
-경험에 대한 자세한 내용은 [경험](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
-
-1. **[!UICONTROL 경험 추가]**를 클릭합니다.
-
-   >[!NOTE]
-   >
-   >경험을 대상으로 타깃팅하는 경우 경험을 추가하기 전에 먼저 대상을 선택해야 합니다. 사용자에게 대상을 선택하라는 메시지가 표시됩니다.
-
-1. 활동 URL을 입력하라는 메시지가 표시되면 입력합니다. 전체 URL(`https://` 포함)을 입력한 다음 **[!UICONTROL 계속]**을 클릭합니다.
-
-   경험 작성기([경험](../../../c-experiences/experiences.md#concept_1D011219034B492BB03C08B3BB80E3F0) 참조)에서 계정 기본 설정에 지정한 페이지가 열립니다. 다른 페이지를 표시하려면 지구본 아이콘을 클릭하고 경험 작성기의 URL 선택 상자에 URL을 입력한 후 **[!UICONTROL 계속]**을 클릭합니다. Target Standard JavaScript 코드가 포함되지 않은 사이트 URL을 입력하면 페이지 요소를 선택할 수 없습니다.
-
-   기본적으로, 시각적 경험 작성기에서는 회전 배너 등과 같은 JavaScript가 포함된 요소를 변경할 수 없습니다. 시각적 경험 작성기에서 이러한 요소를 변경하려면 JavaScript를 비활성화할 수 있습니다.
-
-   >[!NOTE]
-   >
-   >페이지를 변경한 후에 하나 이상의 경험에 대해 이 URL을 변경하면 해당 경험은 새 페이지를 사용하여 재설정되고 수행한 변경 사항은 손실됩니다.
+Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 
 1. 변경할 요소를 선택하고 원하는 대로 변경합니다.
 
-   페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 경험 작성기를 사용하여 변경할 수 있습니다.
+   XT 활동을 [](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)만드는 동안 세 부분으로 구성된 안내 워크플로우 (경험) 중 하나를 선택하면 모든 방문자 대상의 기본 [!UICONTROL 경험 A][!UICONTROL 가] 표시됩니다.
+
+   ![모든 방문자 대상](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+
+   이제 모든 변경 사항이 경험 A에 적용됩니다. 아래 단계에서 경험 타깃팅을 [!UICONTROL 추가하여] 추가 경험을 만듭니다.
+
+   페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 vec를 사용하여 변경할 수 있습니다. 경험을 변경하기 위해 요소에 대해 수행할 수 있는 작업 목록은 [Visual Experience Composer 옵션을 참조하십시오](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Target Classic(이전의 Test&amp;Target)을 사용하여 페이지에서 mbox를 만든 경우 해당 mbox가 mbox 이름을 나타내는 요소로 표시되며, 다른 요소와 같이 수정할 수 있습니다.
 
-   표시된 페이지의 요소에서 수행하여 경험을 변경할 수 있는 작업 목록은 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
+1. 추가 경험을 만들려면 **[!A, DD 경험 타깃팅을 클릭합니다]**.
+
+   ![경험 타깃팅 링크 추가](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
+
+   대상자 [!UICONTROL 선택] 대화 상자가 표시됩니다. 경험을 추가하려면 경험을 추가하려면 먼저 대상을 선택해야 합니다.
+
+   대상 라이브러리에는 Target의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나 [새 대상을 만들 수 있습니다](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). 모든 참여자에게 동일한 경험을 표시하려면 모든 방문자를 선택합니다.
 
    >[!NOTE]
    >
-   >기본 페이지 이외의 소스에서 가져온 이미지(예: akamai.net에 호스팅되고 dell.com에 전달된 이미지)를 전달하는 경우 해당 이미지가 흐름 다이어그램에 표시된 페이지의 썸네일에 표시되지 않습니다.
+   >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-1. 경험 디자인을 마치면 확인 표시 단추를 클릭합니다.
+   고객을 만들 때 위치(mbox)를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. 사용자 지정 매개 변수에서 mbox를 선택한 다음, 원하는 매개 변수를 지정합니다.
+
+   >[!NOTE]
+   >
+   >대상 목록을 연 상태에서 가져온 대상이 10분 이상 오래되면 배경에서 자동으로 대상을 가져옵니다.
+
+1. 경험을 타게팅할 대상을 한 명 이상 선택하고 **[!UICONTROL 완료를 클릭합니다]**.
+
+   ![경험 B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
+
+   경험 B는 이전 일러스트레이션에 표시되며 이 경험은 미국 방문자를 대상으로 합니다.
+
+1. 이 경험에 대해 변경할 요소를 선택하고, 위의 1 단계에 설명된 대로 원하는 변경을 수행합니다.
+
+1. 필요에 따라 위의 단계를 반복하여 타깃팅된 추가 경험을 만듭니다.
+
+1. 경험 **[!UICONTROL 디자인을]** 마치면 다음을 클릭합니다.
 
    활동 다이어그램이 표시됩니다.
 
-   ![](assets/xt_diagram.png)
+   ![XT 타깃팅 다이어그램](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
-   경험에 도메인 간 컨텐츠가 포함되어 있는 경우 썸네일이 정확하지 않을 수 있으며 아이콘으로 바뀝니다.
-1. 원하는 대로 추가 경험을 만듭니다.
+1. (조건부) XT 활동을 만들거나 편집하는 동안 대상/경험 쌍을 드래그하여 놓아 원하는 순서대로 쌍을 정렬합니다.
 
-   >[!NOTE]
-   >
-   >대상/경험 쌍을 원하는 순서로 배열하기 위한 XT 활동을 만들거나 편집하면서 대상/경험 쌍을 드래그 앤 드롭할 수 있습니다. 방문자는 하향식으로 경험에 대해 평가됩니다.
+   방문자는 위에서 아래로, 순서대로 경험에 대해 평가됩니다.
 
-   ![](assets/move_experiences.jpg)
+   ![경험 이동](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
    경험 타깃팅에서는 순서를 중요한 것으로 간주합니다. 방문자가 첫 번째 대상/경험 쌍에 속하는 경우 첫 번째 경험이 전달됩니다.
 
    예를 들어, XT 활동을 만드는 동안 순서가 중요하다는 것을 인식하지 못한다고 가정해보겠습니다. 경험 B 또는 C에 적격이라고 생각했던 방문자가 경험 A에 적격이라는 사실을 테스트 중에 알게 될 수 있습니다. 이것은 대상이 상호 배타적이지 않으며 적절한 순서로 정렬되지 않았기 때문일 수 있습니다(예: 경험 A = 미국, 경험 B = 샌프란시스코, 경험 C = 캘리포니아). 이 시나리오에서 미국의 모든 사용자는 샌프란시스코나 캘리포니아의 다른 지역에 있더라도 경험 A에 적격입니다. 전체 활동을 다시 만들지 않고, 가장 제한적인 것부터 덜 제한적인 순서로(샌프란시스코 &gt; 캘리포니아 &gt; 미국) 대상/경험 쌍을 재정렬할 수 있습니다.
 
-## 경험 이름 변경, 편집 또는 삭제
+## 경험 이름 변경 또는 편집
 
-A/B 테스트 또는 경험 타깃팅(XT) 활동에서 경험에 대한 [편집](3개의 수직 줄임표) 아이콘을 클릭하고 필요에 따라 다음 선택 사항 중에서 선택할 수 있습니다.
+XT 활동의 한 경험에 [!UICONTROL 대해 편집] 아이콘 (세 개의 수직 줄임표) 를 클릭하고 필요에 따라 다음 옵션 중에서 선택할 수 있습니다.
 
 * 이름 변경
 * 편집
-* 삭제
 
-![](assets/experience_edit.png)
+![이름 변경 및 편집 옵션](/help/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
 
-이 단계를 완료하면 **[!UICONTROL 계속]을 클릭하십시오.**
+## 경험 삭제
+
+**[!UICONTROL 경험]** 페이지 (3 단계 안내 워크플로우의 첫 번째 단계) 에서 세 개의 세로 줄임표 &gt; **[!UICONTROL 삭제를 클릭합니다]**.
+
+![경험 삭제](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
 ## 경험 복제
 
 경험 타깃팅(XT) 활동에서 경험을 복사할 수 있으므로 경험을 처음부터 다시 작성하지 않고도 약간의 컨텐츠를 변경할 수 있습니다.
 
-**[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]**을 클릭하십시오.
+**[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]** 을 클릭하십시오.
 
-![](assets/duplicate_experience.png)
+![중복된 경험](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
 ## 교육 비디오: 시각적 경험 작성기 사용
 
@@ -93,4 +103,4 @@ A/B 테스트 또는 경험 타깃팅(XT) 활동에서 경험에 대한 [편집]
 * 페이지 컨텐츠 변경
 * 페이지 레이아웃 변경
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/17399?captions=kor)
