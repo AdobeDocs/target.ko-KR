@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 6월 15일 | [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 간단한 텍스트 편집 |
+|  | [다변량 테스트 우수 사례](/help/c-activities/c-multivariate-testing/best-practices.md) | 간단한 텍스트 편집 |
+|  | [다변량 테스트 계획](/help/c-activities/c-multivariate-testing/plan-mvt.md) | 간단한 텍스트 편집 |
 | 2019 년 6 월 14 일 | [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) | 사용 사례 시나리오를 추가했습니다. |
 |  | [경험 타깃팅 활동 만들기](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | 텍스트와 이미지를 업데이트했습니다. |
 |  | XT: [활동 URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | 업데이트된 텍스트입니다. |
