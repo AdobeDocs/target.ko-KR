@@ -8,14 +8,14 @@ title: 다변량 테스트 우수 사례
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # 다변량 테스트 우수 사례{#multivariate-test-best-practices}
 
-MVT (Multivariate) 테스트 활동을 만들고 실행할 때 발생할 수 있는 성능, 문제를 방지하고 알려진 문제를 수정하는 데 도움이 되는 팁입니다 [!DNL Adobe Target].
+MVT (Multivariate Testing) 활동을 만들고 실행할 때 발생할 수 있는 성능, 문제를 방지하고 알려진 문제를 수정하는 데 도움이 되는 팁입니다 [!DNL Adobe Target].
 
 ## 계획 {#section_4D4A1F6226F042379BF48DB753608579}
 
