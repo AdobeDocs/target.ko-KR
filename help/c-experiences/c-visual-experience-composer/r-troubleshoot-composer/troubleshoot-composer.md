@@ -7,7 +7,7 @@ solution: Target
 title: 시각적 경험 작성기 및 고급 경험 작성기 문제 해결
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -23,3 +23,7 @@ EEC는 Target 구현을 포함하지 않는 iframe 버스팅 사이트 또는 �
 VEC 및 EEC에 대한 내용은 [경험](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 일부 문제는 VEC 및 EEC에 모두 영향을 주며 일부 문제는 둘 중 하나에만 영향을 줍니다. 자세한 정보를 보려면 해당 페이지를 검토하십시오.
+
+* [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
+* [시각적 경험 작성기에 관련된 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+* [고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
