@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 6 월 16 일 | 다변량 테스트 만들기 | 텍스트와 이미지를 업데이트했습니다. |
 | 2019년 6월 15일 | [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 간단한 텍스트 편집 |
 |  | [다변량 테스트 우수 사례](/help/c-activities/c-multivariate-testing/best-practices.md) | 간단한 텍스트 편집 |
 |  | [다변량 테스트 계획](/help/c-activities/c-multivariate-testing/plan-mvt.md) | 간단한 텍스트 편집 |
