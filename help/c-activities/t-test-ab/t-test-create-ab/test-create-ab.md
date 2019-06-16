@@ -8,7 +8,7 @@ title: A/B 테스트 만들기
 topic: 고급,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -24,23 +24,24 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
    >[!NOTE]
    >
    >사용 가능한 활동 유형은 [!DNL Target] 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL Recommendations] 는 [Target Premium 기능입니다](/help/c-intro/intro.md#premium).
+   >
+   >다양한 활동 유형에 대한 자세한 내용은 [활동](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 및 [타겟 활동 안내서를 참조하십시오](/help/c-activities/target-activities-guide.md).
 
-   다양한 활동 유형에 대한 자세한 내용은 [활동](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 및 [타겟 활동 안내서를 참조하십시오](/help/c-activities/target-activities-guide.md).
-
-   ![A/B 테스트 활동 대화 상자 만들기](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newactivityurl-new.png)
+   ![A/B 테스트 Actity 만들기](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
 1. 필요한 경우 **[!UICONTROL 시각적 (기본값)]** 를 선택합니다.
 
-   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 Experience Composer](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html) 를 참조하십시오.
+   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 Experience Composer](/help/c-experiences/form-experience-composer.md) 를 참조하십시오.
 
    >[!NOTE]
    >
    >Target는 VEC 및 양식 기반 Experience Composer 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >
+   >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
+   >
+   >the [! 이전 [일러스트레이션에서 Uicontrol 선택 작업 영역](/help/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
 
-   문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4)을 참조하십시오.
-
-1. (조건부) [Target Premium](/help/c-intro/intro.md#premium) 고객인 경우 [작업 영역을 선택합니다](/help/administrating-target/c-user-management/property-channel/property-channel.md).
-
+1. (조건부) Target Premium 고객인 경우 작업 영역을 선택합니다.
 
 1. [활동 URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)를 지정하고 다음을 클릭합니다 **[!UICONTROL ]**.
 
