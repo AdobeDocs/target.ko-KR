@@ -9,7 +9,7 @@ title: 컨텐츠 전달 문제 해결
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -30,13 +30,15 @@ mboxTrace 및 mboxDebug는 캠페인 데이터 및 프로필 데이터를 외부
 
 인증 토큰을 검색하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**을 클릭합니다.
-1. **[!UICONTROL mbox.js]** 또는 **[!UICONTROL at.js]**를 선택합니다.
+1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** 을 클릭합니다.
+1. **[!UICONTROL mbox.js]** 또는 **[!UICONTROL at.js]** 를 선택합니다.
 1. **[!UICONTROL 인증 토큰 생성을 클릭합니다]**.
 
-   ![](assets/gen-auth-token.png)
+   ![인증 토큰 생성](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. 생성된 토큰을 URL에 매개 변수로 추가하여 고급 디버깅 도구 중 하나를 활성화합니다.
+
+   ![인증 토큰](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -126,7 +128,7 @@ Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글�
 
 ## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com]([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.에서 보냅니다.
+사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 
 ## 요소가 AEM 개인화에도 속하면 Target 컨텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -148,7 +150,7 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타깃팅 및 Target 활�
 
 ## mbox가 내 사이트에서 실행되지 않습니다.
 
-at. js 에서는 잘못된 doctype를 사용하는 경우 Target mbox를 실행하지 않습니다. at. js를 사용하려면 HTML 5 DOCTYPE 이 필요합니다.
+at. js 에서는 잘못된 doctype를 사용하는 경우 Target mbox를 실행하지 않습니다. at. s에는 HTML5 doctype이 필요합니다.
 
 ## 교육 비디오
 
@@ -156,12 +158,12 @@ at. js 에서는 잘못된 doctype를 사용하는 경우 Target mbox를 실행�
 
 ### 확장 추가
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=kor)
 
 ### 기본 Target 디버깅
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=kor)
 
 ### Mbox 추적
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=kor)
