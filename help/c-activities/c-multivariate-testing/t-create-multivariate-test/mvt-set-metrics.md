@@ -7,7 +7,7 @@ solution: Target,standard
 title: 지표 설정
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 1. 활동의 목표를 지정합니다.
 1. [성공 지표](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
 
-   ![](assets/mvt_metrics.png)
+   ![지표 목록 설정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
    [!UICONTROL 지표 선택] 페이지에는 활동에 대해 선택할 수 있는 성공 지표가 표시됩니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
@@ -37,7 +37,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
    예상한 데이터를 가져오기 위해서는 성공 지표를 올바르게 구성해야 합니다.
 
-   자세한 내용은 [성공 지표](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
+   자세한 내용은 [성공 지표](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오
 1. (선택 사항) 추가 지표를 추가합니다.
 1. 지표 설정이 끝나면 **[!UICONTROL 계속]**을 클릭합니다.
 이름을 지정하거나 지표의 이름을 바꾸는 경우 다음 문자가 허용되지 않습니다.
@@ -61,4 +61,4 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 * 변환, 수입 및 참여 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=kor)
