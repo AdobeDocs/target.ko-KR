@@ -7,7 +7,7 @@ solution: Target
 title: 다변량 테스트 만들기
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -22,13 +22,29 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
 1. **[!UICONTROL 활동 만들기]** &gt; **[!UICONTROL 다변량 테스트]** 를 클릭합니다.
 
-   ![](assets/create_mvt.png)
-
-1. (조건부) Target Premium 고객인 경우 작업 영역을 [선택합니다](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+   ![다변수 테스트 만들기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
    >[!NOTE]
    >
+   >사용 가능한 활동 유형은 Target 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL 자동화된 개인화는] [Target Premium 기능입니다](/help/c-intro/intro.md#premium).
+   >
+   >사용 가능한 다양한 활동 유형과 그 차이점에 대한 [!DNL Target] 자세한 내용은 [활동을 참조하십시오](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). 필요한 활동 유형을 결정하는 데 도움이 되는 [타겟 활동 유형을](/help/c-activities/target-activities-guide.md) 참조하십시오.
+
+1. 필요한 경우 **[!UICONTROL 시각적 (기본값)]** 를 선택합니다.
+
+   ![경험 타깃팅 활동 만들기 대화 상자](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
+
+   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 Experience Composer](/help/c-experiences/form-experience-composer.md) 를 참조하십시오.
+
+   >[!NOTE]
+   >
+   >Target는 VEC 및 양식 기반 Experience Composer 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >
+   >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
+   >
    >이전 그림에서 작업 영역 [!UICONTROL 선택] 옵션은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
+
+1. (조건부) Target Premium 고객인 경우 작업 영역을 [선택합니다](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. [테스트할 페이지의 URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) 를 지정하고 **[!UICONTROL 다음을 클릭합니다]**.
 
@@ -39,8 +55,6 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
    브라우저에서 혼합 컨텐츠를 사용하도록 허용할지 묻는 메시지가 표시되면 메시지의 지침을 따르십시오. 브라우저를 혼합 컨텐츠에 대해 활성화한 후 1단계부터 다시 시작하십시오.
 
    시각적 경험 작성기가 열립니다.
-
-   문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
 1. 활동의 이름을 입력합니다.
 
@@ -71,15 +85,25 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
 1. **[!UICONTROL 미리 보기를]** 클릭하여 경험을 [미리 봅니다](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
-   ![](assets/preview.png)
+   ![경험 미리 보기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   각 경험을 보고, 테스트에 포함하지 않으려는 경험을 제외할 수 있습니다.
+   각 경험을 보고, 테스트에 포함하지 않으려는 경험을 제외할 수 있습니다. 하나 이상의 경험을 제외하려면 원하는 확인란을 선택한 다음 제외를 클릭합니다 **[!UICONTROL ]** .
+
+   ![경험 제외](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
 1. [트래픽 견적 도구를 사용하여](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) 테스트 계획의 가능성을 테스트합니다.
 
-   ![](assets/estimator.png)  ![](assets/estimator2.png)
+   ![트래픽 표시기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
-1. [ **! Uicontrol -** [!UICONTROL 타깃팅] 페이지로 이동합니다.]
+   다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
+
+   ![](assets/estimator.png)
+
+   다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
+
+   ![](assets/estimator2.png)
+
+1. 다음을 **[!UICONTROL 클릭하여]** [!UICONTROL 타깃팅] 페이지로 이동합니다.]
 
 1. 활동을 시작할 자격 있는 방문자의 대상 및 비율을 선택합니다.
 
@@ -91,7 +115,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
    >
    >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-1. [테스트 요약을 검토하고](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 원하는 대로 변경한 후, **[!UICONTROL 다음]** 을 클릭합니다.
+1. [테스트 요약을](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 검토하고 원하는 변경을 수행한 후 다음을 클릭합니다 **[!UICONTROL ]**.
 
 1. [테스트에 대한 목표 및 설정을 지정](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)합니다.
 
