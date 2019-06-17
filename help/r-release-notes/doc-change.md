@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,6 +21,15 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 6 월 17 일 | [활동 URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [조합 만들기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [다변량 테스트에 대한 경험 미리 보기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [목표 및 설정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [지표 설정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)을 참조하십시오 | 텍스트와 이미지를 업데이트했습니다. |
+|  | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [활동 편집 또는 초안으로 저장](/help/c-activities/edit-activity.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [활동 변경 로그](/help/c-activities/change-log.md) | 텍스트와 이미지를 업데이트했습니다. |
+|  | [컨텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 텍스트와 이미지를 업데이트했습니다. |
 | 2019 년 6 월 16 일 | [다변량 테스트 만들기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | 텍스트와 이미지를 업데이트했습니다. |
 | 2019년 6월 15일 | [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 간단한 텍스트 편집 |
 |  | [다변량 테스트 우수 사례](/help/c-activities/c-multivariate-testing/best-practices.md) | 간단한 텍스트 편집 |
