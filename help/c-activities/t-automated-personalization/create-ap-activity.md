@@ -10,7 +10,7 @@ topic: 고급
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -23,11 +23,9 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
    ![활동 만들기: 자동화된 개인화](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. 원하는 채널: 웹을 지정합니다.
-
-   모바일 앱, 이메일 또는 기타/API를 선택할 수도 있습니다.
-
 1. VEC(시각적 경험 작성기)를 사용하려면 **[!UICONTROL 시각적(기본값)]** 을 클릭합니다.
+
+   ![자동화된 개인화 활동 대화 상자 만들기](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 Experience Composer](/help/c-experiences/form-experience-composer.md) 를 참조하십시오.
 
@@ -48,8 +46,6 @@ source-git-commit: c6085fae6428cb837eed6eadd778140687348817
    >[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서, [!DNL `http://www.adobe.com`]과 [!DNL `https://wwww.adobe.com`]은 모두 같습니다.
 
    지정된 URL의 페이지가 시각적 경험 작성기에서 열립니다.
-
-   ![자동화된 개인화 활동 대화 상자 만들기](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
 1. 활동의 이름을 지정하려면 이름 필드를 클릭하고 활동 이름을 입력합니다.
 
