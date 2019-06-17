@@ -7,7 +7,7 @@ title: 다변량 테스트에 대한 경험 미리 보기
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 다변량 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 
-1. 경험 작성기에서 **[!UICONTROL 미리 보기]**를 클릭합니다.
+1. 경험 작성기에서 **[!UICONTROL 미리 보기]** 를 클릭합니다.
 
    모든 경험 목록이 표시됩니다.
 
@@ -24,9 +24,9 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 1. 목록에서 경험을 클릭하여 해당 경험을 봅니다.
 
-1. 다변량 테스트에서 경험을 제외하려면 해당 경험을 선택하고 **[!UICONTROL 제외]**를 클릭합니다.
+1. 다변수 테스트에서 하나 이상의 경험을 제외하려면 원하는 경험을 선택한 다음 **[!UICONTROL 제외를 클릭합니다]**.
 
-   ![](assets/excludeexperience.png)
+   ![경험 제외](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
    충돌하는 변형을 표시하는 경험이나 미적으로 균형 잡히지 않은 경험을 제외할 수 있습니다.
 
@@ -36,5 +36,5 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
    기본적으로 모든 경험은 다변량 테스트에 포함됩니다. 제외된 경험을 포함하려면 제외된 경험을 선택하고 **[!UICONTROL 포함을 클릭합니다]**.
 
-변경을 수행할 수 있도록 **[!UICONTROL 미리 보기 모드 종료]**를 클릭하여 경험 작성기로 돌아가거나 **계속]을 클릭하여 테스트 요약으로 이동합니다.[!UICONTROL **
+변경을 수행할 수 있도록 **[!UICONTROL 미리 보기 모드 종료]** 를 클릭하여 경험 작성기로 돌아가거나 **계속]을 클릭하여 테스트 요약으로 이동합니다.[!UICONTROL **
 
