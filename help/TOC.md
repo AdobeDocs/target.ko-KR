@@ -2,9 +2,9 @@
 product: target
 audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
-user-guide-url: /content/help/en/target/using/target-home.html
+user-guide-url: /content/help/kr/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
+source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
 
 ---
 
@@ -75,13 +75,13 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [단일 페이지 애플리케이션 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + at.js 함수{#functions-overview}를 참조하십시오 
          + [at.js 함수 개요](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-         + [adobe. target. getoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-         + [Adobe. target. getoffers () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-         + [adobe. target. applyoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-         + [adobe. target. applyoffers () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-         + [adobe. target. triggerview () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-         + [adobe. target. trackevent ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-         + [Mboxcreate () - at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
+         + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
+         + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
+         + [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
+         + [adobe.target.applyOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+         + [adobe.target.triggerView() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
+         + [adobe.target.trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
+         + [mboxCreate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
          + [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
          + [mboxDefine() 및 mboxUpdate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
@@ -95,7 +95,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [at.js FAQ](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
          + [글로벌 mbox 자주 묻는 질문](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
       + [at.js 버전 세부 사항](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-      + [. js 1. x에서 at. js 2. x로 업그레이드](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
+      + [at.js 1.x에서 at.js 2.x로 업그레이드](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
       + [at.js 쿠키](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
       + mbox.js 구현{#mbox-implement}을 참조하십시오 
          + [mbox.js 구현 개요](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
@@ -133,6 +133,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Android - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [모바일 VEC에서 클릭 추적 설정](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
+         + [GHOST](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)
    + 서버 측: Target 구현 {#server-side}
       + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target의 이전 API에서 Adobe I/O로 전환](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -293,7 +294,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [시각적 경험 작성기 문제 해결 개요](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [시각적 경험 작성기 및 향상된 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [시각적 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-         + [향상된 Experience Composer 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+         + [향상된 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [브라우저에서 혼합 컨텐츠 사용](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [페이지 수정 시나리오](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
