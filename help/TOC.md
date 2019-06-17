@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/kr/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
+source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
 
 ---
 
@@ -133,7 +133,6 @@ source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
          + [Android - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [모바일 VEC에서 클릭 추적 설정](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-         + [GHOST](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)
    + 서버 측: Target 구현 {#server-side}
       + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target의 이전 API에서 Adobe I/O로 전환](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
