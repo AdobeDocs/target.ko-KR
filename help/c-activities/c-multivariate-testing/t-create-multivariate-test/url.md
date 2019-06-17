@@ -1,32 +1,32 @@
 ---
-description: 활동 URL은 테스트에 사용되는 페이지를 결정하며 테스트가 디자인될 때 열립니다.
+description: 활동 URL는 MVT (다변수 테스트) 에서 사용되는 페이지를 결정하며, Target에서 테스트를 설계할 때 열립니다.
 keywords: 타겟 지정
-seo-description: 활동 URL은 테스트에 사용되는 페이지를 결정하며 테스트가 디자인될 때 열립니다.
+seo-description: 활동 URL는 MVT (다변수 테스트) 에서 사용되는 페이지를 결정하며, Adobe Target에서 테스트를 설계할 때 열립니다.
 seo-title: 활동 URL
 solution: Target
 title: 활동 URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 ---
 
 
 # 활동 URL{#activity-url}
 
-활동 URL은 테스트에 사용되는 페이지를 결정하며 테스트가 디자인될 때 열립니다.
+활동 URL는 [!MMVT (Ultivariate Test] ) 에서 사용되는 페이지를 결정하며, 테스트가 설계되면 열립니다 [!DNL Adobe Target].
 
-활동을 만들 때 메시지가 표시되면 활동 URL을 입력합니다. 전체 URL(`https://` 포함)을 입력하고 **[!UICONTROL 활동 만들기]**를 클릭합니다.
+활동을 만드는 동안 [메시지가 표시되면 활동 URL를 지정합니다](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md). 전체 URL (포함 `https://`) 를 입력하고 **[!UICONTROL 다음을 클릭합니다]**.
 
 >[!NOTE]
 >
 >[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서, [!DNL `https://www.adobe.com`]과 [!DNL `http://www.adobe.com`]은 모두 같습니다.
 
-기본적으로 시각적 경험 작성기는 계정 환경 설정에 지정된 페이지에 열립니다. 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
+[!UICONTROL 기본적으로, Visual Experience Composer] (VEC) 는 [계정 기본 설정에 지정된 페이지를 엽니다](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
 
-시각적 경험 작성기가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성]**을 클릭하고 **[!UICONTROL URL]**을 선택한 다음 [활동 URL] 상자에 URL을 입력합니다.
+VEC가 열리고 다른 페이지를 표시하려면 **[!UICONTROL 구성]** 아이콘을 클릭한 다음 페이지 배달을 선택한 **[!UICONTROL ]** 다음 URL를 지정합니다.
 
-![](assets/url-config.png)
+![페이지 배달 대화 상자](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
 활동에 페이지 또는 섹션을 추가하려면 **[!UICONTROL 템플릿 규칙 추가]를 클릭합니다.**
 
@@ -37,7 +37,7 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 * 경로
 * 해시(#) 조각
 * 쿼리
-* mbox 매개 변수
+* 매개 변수
 
 추가 규칙은 AND 또는 OR을 사용하여 활동 URL에 결합할 수 있습니다. 추가하는 모든 규칙은 AND를 사용하여 서로 평가됩니다.
 
@@ -47,9 +47,8 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 >
 >Target Standard JavaScript 코드가 포함되지 않은 사이트 URL을 입력하면 페이지 요소를 선택할 수 없습니다.
 
-기본적으로, [!UICONTROL 시각적 경험 작성기]에서는 회전 배너 등과 같은 JavaScript가 포함된 요소를 변경할 수 없습니다. **[!UICONTROL 시각적 경험 작성기]에서 이러한 요소를 변경하려면**[!UICONTROL JavaScript를 사용하여 렌더링]을 끄면 됩니다.
+기본적으로 vec는 회전 배너와 같이 JavaScript가 포함된 요소의 변경을 허용하지 않습니다. **[!UICONTROL 시각적 경험 작성기]에서 이러한 요소를 변경하려면**[!UICONTROL JavaScript를 사용하여 렌더링]을 끄면 됩니다.
 
 >[!NOTE]
 >
 >페이지를 변경한 후에 하나 이상의 경험에 대해 이 URL을 변경하면 해당 경험은 새 페이지를 사용하여 재설정되고 수행한 변경 사항은 손실됩니다.
-
