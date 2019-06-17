@@ -1,26 +1,26 @@
 ---
-description: 시각적 경험 작성기를 사용하여 테스트에 포함할 오퍼를 만듭니다.
-seo-description: 시각적 경험 작성기를 사용하여 테스트에 포함할 오퍼를 만듭니다.
-seo-title: Adobe Target에서 조합 만들기
+description: Adobe Target의 Visual Experience Composer (VEC) 를 사용하여 MVT (다변수 테스트) 에 포함할 오퍼를 만듭니다.
+seo-description: Adobe Target의 Visual Experience Composer (VEC) 를 사용하여 MVT (다변수 테스트) 에 포함할 오퍼를 만듭니다.
+seo-title: Adobe Target를 사용하여 MVT (Multivariate Testing) 에서 조합 만들기
 title: 조합 만들기
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
+source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 ---
 
 
 # 조합 만들기{#create-combinations}
 
-시각적 경험 작성기를 사용하여 테스트에 포함할 오퍼를 만듭니다.
+Adobe Target의 Visual Experience Composer (VEC) 를 사용하여 MVT (다변수 테스트) 에 포함할 오퍼를 만듭니다.
+
+VEC를 사용하여 오퍼를 만들고 편집하는 방법에 대한 자세한 내용은 [Visual Experience Composer 옵션을](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)참조하십시오.
 
 >[!NOTE]
 >
 >원래 선택한 요소 외에 상위 요소를 선택할 페이지에서 개체를 선택할 때 **[!UICONTROL 선택 요소 확장]** 을 클릭할 수 있습니다. 상위 요소를 선택하면 이 요소의 모든 하위 요소가 자동으로 선택됩니다. 선택 요소를 여러 번 확장할 수 있습니다.
-
-시각적 경험 작성기를 사용하면 오퍼, 오퍼 이름, 위치 이름을 편집할 수 있습니다. 변경을 수행한 위치를 보여주는 오버레이가 표시됩니다.
-
-![](assets/overlay.png)
+>
+>[DOM 경로를](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 사용하여 요소를 탐색할 수도 있습니다.
 
 ## 이미지 오퍼 {#section_A48333211DB149ED926AE467D0032914}
 
@@ -28,11 +28,11 @@ source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 1. 페이지에서 이미지를 클릭한 다음 **[!UICONTROL 이미지 변경을 선택합니다]**.
 
-   ![](assets/changeimage.png)
+   ![이미지 변경 옵션](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
 1. 테스트에 포함할 모든 이미지를 선택하고 **[!UICONTROL 추가]** 를 클릭합니다.
 
-   ![](assets/addimage.png)
+   ![이미지 추가 시 사용되는 컨텐츠 대화 상자 선택](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
 각 이미지가 해당 위치에서 별도의 경험이 됩니다.
 
@@ -42,15 +42,11 @@ source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 1. 페이지에서 텍스트/HTML 오퍼를 클릭한 다음 **[!UICONTROL 텍스트/HTML 변경]** 을 클릭합니다.
 
-   ![](assets/changehtml.png)
+   ![텍스트/HTML 변경](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
 1. **[!UICONTROL 텍스트/HTML 오퍼 추가]** 를 클릭하고 오퍼의 이름을 지정한 다음 텍스트/HTML 오퍼의 코드를 입력하거나 붙여넣습니다.
 
-   ![](assets/editoffers.png)
-
-   >[!NOTE]
-   >
-   >Internet Explorer 10에서는 HTML5 입력 자리 표시자를 지원하지 않습니다. 따라서 IE10을 사용하는 경우 컨텐츠를 입력하는 [텍스트] 필드에 &quot;컨텐츠 추가&quot; 자리 표시자 텍스트가 남아 있습니다.
+   ![오퍼 편집](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
    포함하려는 모든 추가적인 텍스트/HTML 오퍼에 이 작업을 반복합니다.
 
