@@ -9,7 +9,7 @@ title: 활동 설정
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * [다변량 테스트](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [권장 사항](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 교육 비디오: 활동 설정**
+## 교육 비디오: 활동 설정
 
 이 비디오에는 활동 설정에 대한 정보가 포함되어 있습니다.
 
@@ -67,4 +67,4 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 * 보고서 필터를 작성하기 위해 보고 대상 추가
 * 활동에 대한 메모 입력
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=kor)
