@@ -8,7 +8,7 @@ title: Target에서 대상 작성
 topic: 고급,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -27,17 +27,17 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 두 부울 연산자를 혼합하여 복합 규칙을 만들 수 있지만 동일한 규칙 수준의 연산자가 일치해야 합니다. 사용자 인터페이스는 올바른 연산자를 자동으로 적용합니다.
 
-예를 들어, 다음 규칙은 Windows 컴퓨터에서 Chrome 또는 Firefox를 사용하는 방문자를 타깃팅합니다.
+예를 들어 다음 규칙은 Windows 컴퓨터에서 Chrome *또는* Firefox를 사용하는 방문자를 타깃팅합니다.
 
-![](assets/audience_create.png)
+![대상자 만들기](assets/audience_create.png)
 
 >[!NOTE]
 >
->모든 잠재적 대상 구성원을 제외하는 규칙을 작성하지 않도록 주의하십시오. 예를 들어, 고객이 브라우저 x와(AND) 브라우저 y를 동시에 사용하여 페이지를 방문할 수는 없습니다.
+>모든 잠재적 대상 구성원을 제외하는 규칙을 작성하지 않도록 주의하십시오. 예를 들어 Chrome *및* Firefox를 동시에 사용하여 페이지를 방문할 수 없습니다.
 
 ## 새 대상 만들기
 
-1. 위쪽 메뉴 막대에서 **[!UICONTROL 대상]**을 클릭합니다.
+1. 위쪽 메뉴 막대에서 **[!UICONTROL 대상]** 을 클릭합니다.
 
    ![](assets/audiences_list.png)
 
@@ -48,7 +48,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
    기존 대상을 복사하려면 [!UICONTROL 대상자] 목록에서 원하는 대상으로 마우스를 가져간 다음 **[!UICONTROL 복사]아이콘을 클릭합니다.** 그러면 대상을 편집하여 유사한 대상을 만들 수 있습니다.
 
 1. 고유한 수사적 대상 이름을 입력합니다.
-1. **[!UICONTROL + 규칙 추가]**를 클릭합니다.
+1. **[!UICONTROL + 규칙 추가]** 를 클릭합니다.
 
    규칙을 사용하면 대상을 사이트 방문자의 하위 집합으로 제한할 수 있습니다.
 1. 규칙 유형을 선택합니다.
@@ -66,4 +66,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
