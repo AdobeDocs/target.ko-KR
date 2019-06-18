@@ -7,7 +7,7 @@ solution: Target
 title: 시간대
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -18,9 +18,9 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 예를 들어, [결합한 임시 대상 기능](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 사용하는 경우 블랙 프라이데이 이전 3일 동안에 특정 컨텐츠에 돈을 덜 쓰는 대상과 블랙 프라이데이 이후에 다른 컨텐츠에 돈을 덜 쓰는 대상을 타깃팅할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 시간대]**를 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 시간대]** 를 클릭합니다.
 
    ![](assets/target_timeframe_dialog.png)
 
@@ -36,11 +36,11 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 1. (조건부) **[!UICONTROL 주/요일 분할]을 클릭하여 요일 및 시간을 포함하여 반복 패턴을 설정합니다.**
 
-   ![](assets/week_and_day_parting.png)
+   ![주/요일 분할](assets/week_and_day_parting.png)
 
-   예를 들어, [주/요일 분할] 선택 사항을 사용하여 콜 센터가 근무하는 날 및 시간 동안에만 &quot;채팅 지금&quot; 선택 사항을 방문자에게 표시할 수도 있습니다.
+   예를 들어, 주/요일 분할 선택 사항을 사용하여 콜 센터가 근무하는 날 및 시간 동안에만 &quot;채팅 지금&quot; 선택 사항을 방문자에게 표시할 수도 있습니다.
 
-   요일을 하나 이상 선택한 다음, 시작 및 종료 시간을 설정하십시오. 원하는 대로 추가적인 패턴을 지정하려면 [!UICONTROL 추가]를 클릭하십시오.
+   요일을 하나 이상 선택한 다음, 시작 및 종료 시간을 설정하십시오. 원하는 대로 추가적인 패턴을 지정하려면 **[!UICONTROL 추가]를 클릭하십시오.**
 
    >[!NOTE]
    >
@@ -59,4 +59,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
