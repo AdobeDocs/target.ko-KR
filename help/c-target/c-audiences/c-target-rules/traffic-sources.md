@@ -1,32 +1,32 @@
 ---
-description: 사이트 방문 시 사용한 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅합니다.
+description: 사이트를 만드는 검색 엔진 또는 랜딩 페이지를 기반으로 방문자를 타깃팅할 대상을 만듭니다.
 keywords: 타깃팅;트래픽 소스;트래픽 소스 타깃팅;검색 엔진 타깃팅;검색 엔진;랜딩 페이지;랜딩 페이지 타깃팅;참조 랜딩 페이지
-seo-description: 사이트 방문 시 사용한 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅합니다.
-seo-title: 트래픽 소스
+seo-description: Adobe Target에서 대상을 만들어 사이트를 참조하는 검색 엔진 또는 랜딩 페이지를 기준으로 방문자를 타깃팅합니다.
+seo-title: Adobe Target에서 트래픽 소스 타깃팅
 solution: Target
 title: 트래픽 소스
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # 트래픽 소스 {#traffic-sources}
 
-사이트 방문 시 사용한 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅합니다.
+사이트를 만드는 검색 엔진 또는 랜딩 페이지를 기반으로 방문자를 타깃팅할 대상을 만듭니다.
 
-예를 들어 방문자의 브라우저, 검색 엔진 또는 참조 랜딩 페이지를 기반으로 타게팅할 수 있습니다. 참조 랜딩 페이지는 이 세션에서 현재 페이지에 도달하기 위해 클릭했던 페이지입니다. (예를 들어, Google에서 광고를 클릭하여 [!DNL adobe.com] 홈페이지로 이어지는 경우 참조 랜딩 페이지는 [!DNL google.com]입니다.)
+예를 들어 방문자의 브라우저, 검색 엔진 또는 참조 랜딩 페이지를 기반으로 타게팅할 수 있습니다. 참조 랜딩 페이지는 방문자가 이 세션에서 현재 사이트에 도달하기 위해 클릭한 페이지입니다. (예를 들어 방문자가 Google에서 광고를 클릭한 후 `adobe.com` 홈 페이지로 안내하는 경우 참조 랜딩 페이지가 있습니다 `google.com`.)
 
 여러 트래픽 소스를 결합하여 복잡한 타깃팅 규칙을 만들 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 트래픽 소스]**를 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 트래픽 소스]** 를 클릭합니다.
 
    ![](assets/target_traffic_source.png)
 
-1. **[!UICONTROL 선택]**을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
+1. **[!UICONTROL 선택]** 을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    * Baidu에서
    * Bing에서
@@ -35,6 +35,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
    * 참조 랜딩 페이지: URL
    * 참조 랜딩 페이지: 도메인
    * 참조 랜딩 페이지: 쿼리
+   선택한 내용에 따라 추가 정보 (평가기 및/또는 값) 를 제공해야 할 수 있습니다.
 
 1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
 1. **[!UICONTROL 저장을 클릭합니다]**.
@@ -48,4 +49,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
