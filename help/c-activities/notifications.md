@@ -8,7 +8,7 @@ title: 활동 알림
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -23,7 +23,7 @@ Target은 Adobe Pulse를 사용하여 다른 Adobe Experience Cloud 솔루션과
 
 활동 작성 워크플로우 내를 제외하고 [!DNL Target]의 어디에서든 알림에 액세스합니다. 알림 위젯을 표시하거나 숨기려면 페이지 헤더에서 종 아이콘을 클릭하십시오.
 
-![](assets/notifications-shell.png)
+![알림 아이콘](assets/notifications-shell.png)
 
 [!DNL Target]에서는 모든 활동 유형에 대해 두 종류의 알림을 보냅니다.
 
