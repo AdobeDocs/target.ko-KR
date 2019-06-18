@@ -1,21 +1,21 @@
 ---
-description: Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동(들)을 다르게 결정합니다.
+description: Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동을 다르게 결정합니다.
 keywords: 설정;우선순위
-seo-description: Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동(들)을 다르게 결정합니다.
+seo-description: Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동을 다르게 결정합니다.
 seo-title: 우선순위
 solution: Target
 title: 우선순위
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # 우선 순위{#priority}
 
-Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동(들)을 다르게 결정합니다.
+Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동을 다르게 결정합니다.
 
 ## Target Standard/Premium 시각적 경험 작성기 전용 또는 글로벌 mbox를 사용하는 양식 기반 작성기 전용 {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
@@ -89,9 +89,9 @@ Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적
 
 >[!NOTE]
 >
->설정에 따라 우선순위 값은 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다. 자세한 내용은 [활동 설정을](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)참조하십시오.
+>설정에 따라 우선순위 값은 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다. 자세한 내용은 [활동 설정](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)을 참조하십시오.
 
-**두 Target Classic 캠페인이 비글로벌 mbox 사용 **
+**두 Target Classic 캠페인이 비글로벌 mbox 사용**
 
 * 캠페인 1: homePageHero, offer1, 우선순위 높음
 * 캠페인 2: homePageHero, offer2, 우선순위 낮음
@@ -139,4 +139,4 @@ Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적
 * 보고서 필터를 작성하기 위해 보고 대상 추가
 * 활동에 대한 메모 입력
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=kor)
