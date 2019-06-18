@@ -8,7 +8,7 @@ title: 사이트 페이지
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -21,15 +21,15 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 >
 >이제 대상 사이트 페이지 유형 및 비교 연산자는 Target Classic의 유형 및 비교 연산자와 일치합니다. 자신만의 &quot;사용자 정의 쿼리 매개 변수&quot; 또는 &quot;사용자 정의 헤더&quot;를 사용하여 사이트 페이지 대상을 만들 수도 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 사이트 페이지]**를 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 사이트 페이지]** 를 클릭합니다.
 
-   ![](assets/target_site_pages.png)
+   ![사이트 페이지 대상](assets/target_site_pages.png)
 
-1. **[!UICONTROL 선택]**을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
+1. **[!UICONTROL 선택]** 을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
-   * **현재 페이지:**활동에서 mbox를 포함하고 있는 페이지, 즉 사용자가 현재 있는 페이지입니다. 활동 수준에서 타게팅하는 경우 항목 조건을 정의하는 데 사용하는 mbox가 있는 페이지 또는 컨텐츠를 표시하는 페이지가 될 수 있습니다. 경험별로 타깃팅하고 있는 경우 현재 페이지는 표시 mbox가 있는 페이지입니다. 성공 지표 또는 전환 타깃팅의 경우 이러한 mbox가 있는 페이지입니다.
+   * **현재 페이지:** 활동에서 mbox를 포함하고 있는 페이지, 즉 사용자가 현재 있는 페이지입니다. 활동 수준에서 타게팅하는 경우 항목 조건을 정의하는 데 사용하는 mbox가 있는 페이지 또는 컨텐츠를 표시하는 페이지가 될 수 있습니다. 경험별로 타깃팅하고 있는 경우 현재 페이지는 표시 mbox가 있는 페이지입니다. 성공 지표 또는 전환 타깃팅의 경우 이러한 mbox가 있는 페이지입니다.
    * **이전 페이지:** 현재 페이지를 클릭하기 전에 사용자가 있던 페이지입니다. (사용자가 이전 페이지에서 클릭하여 현재 페이지로 이동해야 페이지가 추적됩니다. 사용자가 브라우저에서 새 URL을 입력하는 경우 이전 페이지가 추적됩니다.) 이 페이지의 실제 내용은 사이트의 디자인에 따라 다릅니다. 예를 들어, 현재 페이지에 특정 제품에 대한 정보가 표시되는 경우 이전 페이지는 방문자가 특정 항목을 선택하는 카테고리 페이지(예: 특정 유형의 카메라 몇 대가 표시되는 페이지)이거나 최종 페이지로 이어지는 홈페이지일 수 있습니다.
    * **랜딩 페이지:** 랜딩 페이지는 사이트에 액세스할 때 방문자가 보는 첫 페이지입니다. 예를 들어 방문자가 범주 페이지로 이동하는 Google에 대한 링크를 클릭하는 경우 범주 페이지는 랜딩 페이지입니다. 링크가 홈페이지로 이동하는 경우 홈페이지는 랜딩 페이지입니다. 랜딩 페이지는 방문자의 세션을 기억합니다. 방문자의 랜딩 페이지가 이 세션에 있었던 것을 기준으로 더 깊이 타깃팅할 수 있습니다.
 
@@ -38,8 +38,8 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
       >`landing.url` 개체는 하위 도메인 변경 시 또는 직접적인 URL 대체 시 재설정됩니다.
 
    * **Mbox:** 타게팅하는 mbox입니다. 예를 들어 총 주문액이 $100 이상인 주문을 계산하려는 경우, 여기에서 지정된 타깃팅을 사용하여 mbox 매개 변수로 `orderTotal`을 전달합니다.
-   * **도메인:**페이지의 전체 도메인. 도메인을 지정할 때는 &quot;contains&quot;를 사용하는 것이 좋습니다. 예를 들어, &quot;Domain equals facebook.com&quot;(도메인이 facebook.com과 같음)은 `m.facebook.com`이나 `www.facebook.com`을 허용하지 않지만, &quot;Domain contains facebook.com&quot;(도메인이 facebook.com 포함)은 facebook.com의 모든 변형을 허용합니다.
-   * **쿼리:**첫 번째 물음표(?) 다음의 URL 컨텐츠입니다. 예를 들어, 다음 샘플 URL에서 쿼리가 굵은 글꼴로 표시되어 있습니다.
+   * **도메인:** 페이지의 전체 도메인. 도메인을 지정할 때는 &quot;contains&quot;를 사용하는 것이 좋습니다. 예를 들어, &quot;Domain equals facebook.com&quot;(도메인이 facebook.com과 같음)은 `m.facebook.com`이나 `www.facebook.com`을 허용하지 않지만, &quot;Domain contains facebook.com&quot;(도메인이 facebook.com 포함)은 facebook.com의 모든 변형을 허용합니다.
+   * **쿼리:** 첫 번째 물음표(?) 다음의 URL 컨텐츠입니다. 예를 들어, 다음 샘플 URL에서 쿼리가 굵은 글꼴로 표시되어 있습니다.
 
       `foo.html?e0a72cb2a2c7`
 
@@ -50,7 +50,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 아래 그림과 같이
 
-* 사용자가 선택한 규칙이 [현재 페이지], [랜딩 페이지] 또는 [이전 페이지]인 경우 쿼리 매개 변수를,
+* 사용자가 선택한 규칙이 현재 페이지, 랜딩 페이지 또는 이전 페이지인 경우 쿼리 매개 변수를,
 * 사용자가 선택한 규칙이 HTTP 헤더인 경우 헤더를
 
 사용하십시오.
@@ -64,4 +64,4 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
