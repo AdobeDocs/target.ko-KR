@@ -1,21 +1,21 @@
 ---
-description: 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상자의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
+description: 대상을 정의하여 타겟 대상 라이브러리 또는 활동 전용 대상의 두 프로필 속성을 비교할 수 있습니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
 keywords: 대상;성향;프로필 속성;비교하기;비교;대상 만들기;대상 작성
-seo-description: 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상자의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
-seo-title: 프로필 속성 비교 대상 만들기
+seo-description: 대상을 정의하여 타겟 대상 라이브러리 또는 활동 전용 대상의 두 프로필 속성을 비교할 수 있습니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
+seo-title: 프로필 속성 비교 대상 만들기 Adobe Target 에서
 solution: Target
 title: 프로필 속성 비교 대상 만들기
 topic: 고급,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
 
 # 프로필 속성 비교 대상 만들기{#create-a-profile-attribute-comparison-audience}
 
-대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상자의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
+대상을 정의하여 [대상 라이브러리](/help/c-target/c-audiences/audiences.md) 또는 [활동 전용 대상의 두 프로필 속성을 비교할](/help/c-target/creating-activity-only-audience.md)수 있습니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
 
 >[!NOTE]
 >
@@ -36,20 +36,20 @@ source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
 
 ## 프로필 속성 비교 대상 만들기 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** &gt; **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]**을 클릭합니다.
+1. **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** &gt; **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]** 을 클릭합니다.
 1. **[!UICONTROL 방문자 프로필]드롭다운 목록에서 속성을 선택합니다.**
 
-   ![](assets/propensity_score_1.png)
+   ![성향 점수 1](assets/propensity_score_1.png)
 
 1. 평가기를 선택합니다.
 
-   ![](assets/propensity_score_2.png)
+   ![성향 점수 2](assets/propensity_score_2.png)
 
-1. **[!UICONTROL 비교 유형 선택]** 드롭다운 목록에서 **[!UICONTROL 속성]**을 선택합니다.
+1. **[!UICONTROL 비교 유형 선택]** 드롭다운 목록에서 **[!UICONTROL 속성]** 을 선택합니다.
 
    &quot;정적 값&quot; 비교 유형을 사용하면 방문자 프로필 속성을 특정 값과 비교할 수 있습니다.
 
-   ![](assets/propensity_score_3.png)
+   ![성향 점수 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
@@ -57,12 +57,10 @@ source-git-commit: a419672c3e7acffbe5ffea224951cf54bf53e584
 
 1. 초기 속성과 비교할 추가 속성을 선택합니다.
 
-   예를 들어, 특정 방문자의 &quot;부엌&quot; 속성 점수가 &quot;장식&quot; 점수보다 크면 해당 방문자가 이 대상에 포함됩니다.
-
    ![](assets/propensity_score_4.png)
 
 ## 교육 비디오 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 이 기능을 사용할 수 있는 시나리오 및 자세한 내용은 비디오를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=kor)
