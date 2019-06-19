@@ -8,7 +8,7 @@ title: 여러 대상 결합
 topic: 고급,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
@@ -25,11 +25,11 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
 [!DNL Target] UI의 다양한 위치에서 결합된 대상을 만들어 사용할 수 있습니다. 
 
-## 활동을 만들 때 결합된 대상 만들기 {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## 활동을 만드는 동안 결합된 대상자 만들기 {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 3단계 안내가 있는 워크플로우 동안 활동의 [!UICONTROL Target] 페이지에서 결합된 임시 대상을 만들 수 있습니다.
 
-1.   [활동](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 만들 때 **[!UICONTROL Target]** 페이지에서 **[!UICONTROL 대상 편집]** 아이콘을 클릭한 다음, **대상 변경[!UICONTROL 을 클릭합니다]**.
+1.   [활동](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), **[!UICONTROL 타겟]** 페이지에서 세 개의 세로 줄임표를 클릭한 다음 대상 **[!UICONTROL 바꾸기를 클릭합니다]**.
 
    ![단계 결과](assets/edit_audience.png)
 
@@ -47,11 +47,11 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
    1. 드래그하여 놓기 기능을 사용하여 기존 섹션 내의 대상을 수준 2 빌딩 블록으로 추가할 수 있습니다. 수준 1 빌딩 블록을 추가하려면 원하는 대상 옆에 있는 확인란을 선택한 다음, **[!UICONTROL 규칙에 추가를 클릭하십시오]**.
 
-      예를 들어, 앞의 예를 가정할 때 이제 결합된 대상에서 Firefox 사용자도 포함시키려고 합니다. 다음 예와 같이, &quot;브라우저: Firefox&quot; 대상을 검색하여 오른쪽의 &quot;브라우저: Safari&quot; 상자로 드래그합니다.
+      예를 들어 이전 예제에서는 이제 결합된 대상에 Safari 사용자를 포함하려 합니다. 다음 예와 같이 &quot;Safari 브라우저&quot; 대상을 검색하여 오른쪽의 &quot;Firefox 브라우저&quot; 상자로 끕니다.
 
       ![](assets/combine_multiple_audiences3.png)
 
-      두 브라우저 유형 대상 사이의 연산자는 &quot;AND&quot;입니다. Safari나 Firefox 중 하나를 사용하여 새로운 방문자를 위한 새로운 결합된 대상을 만들려면 AND드롭다운 목록을 선택하여 &quot;OR&quot;로 변경하십시오. 모든 잠재적 대상 구성원을 제외하는 규칙을 작성하지 않도록 주의하십시오. 예를 들어, 고객이 브라우저 x와(AND) 브라우저 y를 동시에 사용하여 페이지를 방문할 수는 없습니다.
+      두 브라우저 유형 대상 사이의 연산자는 &quot;AND&quot;입니다. AND 드롭다운 목록을 선택하고 &quot;OR&quot; 로 변경하여 Firefox 또는 Safari를 사용하는 새 방문자에 대해 새 통합 대상을 만듭니다. 모든 잠재적 대상 구성원을 제외하는 규칙을 작성하지 않도록 주의하십시오. 예를 들어, Firefox와 Safari를 동시에 사용하는 페이지를 방문자는 동시에 방문할 수 없습니다.
 
       >[!NOTE]
       >
@@ -65,7 +65,7 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
       ![](assets/combine_multiple_audiences3b.png)
 
-      예를 들어 새 방문자에서 San Francisco 방문자를 제외하려면 다음과 같이 San Francisco 대상을 상자로 드래그할 수 있습니다.
+      예를 들어 미국 방문자를 새 방문자에 제외하기 위해 시장을 끌 수 있습니다. 아래와 같이 미국 고객을 상자에 포함시킵니다.
 
       ![](assets/combine_multiple_audiences3b2.png)
 
@@ -77,7 +77,7 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
 1. 결합된 대상에 대한 수사적 이름을 지정한 다음 **[!UICONTROL 저장을 클릭합니다]**.
 
-## 지표 타깃팅에서 사용할 결합된 대상 만들기 {#section_A42E795AFCBD4575809C5942039910F0}
+## 지표 타깃팅에서 사용할 통합 대상 만들기 {#section_A42E795AFCBD4575809C5942039910F0}
 
 지표 타깃팅에서 사용할 결합된 임시 대상을 활동의 [!UICONTROL 목표 및 설정] 페이지에서 만들어 수 있습니다. 예를 들어, 결합된 대상을 사용하여 전환을 기반으로 타깃팅을 만들려면 다음을 수행하십시오.
 
@@ -103,7 +103,7 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
 1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
 
-## 활동을 편집할 때 결합된 대상 만들기 {#section_364A12CE96E04B61B7C18113AA586C2C}
+## 활동을 편집하는 동안 결합된 대상자 만들기 {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 기존 활동을 편집할 때 결합된 임시 대상을 만들 수 있습니다.
 
@@ -113,7 +113,12 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
    원하는 활동을 클릭하여 연 다음, **[!UICONTROL 활동 편집을 클릭합니다]**.
 
-1. 톱니바퀴 아이콘 &gt; **[!UICONTROL 대상]** &gt; **[!UICONTROL 여러 대상]** 을 클릭합니다.
-1. 활동의 현재 대상 옆에 있는 더 보기 선택 사항 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 대상 변경을 클릭합니다]**.
-1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
+1. **[!UICONTROL 구성]** &gt; **[!UICONTROL 대상]** &gt; **[!UICONTROL 여러 대상자를 클릭합니다]**.
 
+   ![구성 &gt; 대상 &gt; 여러 대상](/help/c-target/assets/combine_multiple_audiences7.png)
+
+1. 활동의 현재 대상 옆에 있는 더 보기 선택 사항 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 대상 변경을 클릭합니다]**.
+
+   ![대상 변경](/help/c-target/assets/combine_multiple_audiences8.png)
+
+1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
