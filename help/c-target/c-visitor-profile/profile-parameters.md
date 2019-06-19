@@ -8,7 +8,7 @@ title: 프로필 속성
 topic: 고급,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -81,11 +81,11 @@ if (mbox.name == 'Track_Interest') {
 
 [!UICONTROL 스크립트 정보] 탭에는 이름, 상태, 토큰 유형, 스크립트 ID, 변경 로그 및 설명이 있습니다.
 
-![](assets/profile_script_info_card.png)
+![프로필 스크립트 정보 카드](assets/profile_script_info_card.png)
 
 [!UICONTROL 스크립트 사용] 탭에는 선택한 프로필 스크립트를 참조하는 활동(및 해당 작업 공간)이 나열됩니다.
 
-![](assets/profile_script_info_card_usage_tab.png)
+![프로필 스크립트 정보 카드 &gt; 스크립트 사용 탭](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
