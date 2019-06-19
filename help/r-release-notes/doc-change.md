@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
@@ -21,50 +21,16 @@ source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2019 년 6 월 17 일 | [활동 URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [조합 만들기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [다변량 테스트에 대한 경험 미리 보기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [목표 및 설정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [지표 설정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)을 참조하십시오 | 텍스트와 이미지를 업데이트했습니다. |
-|  | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [활동 편집 또는 초안으로 저장](/help/c-activities/edit-activity.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [활동 변경 로그](/help/c-activities/change-log.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [컨텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 텍스트와 이미지를 업데이트했습니다. |
-| 2019 년 6 월 16 일 | [다변량 테스트 만들기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | 텍스트와 이미지를 업데이트했습니다. |
-| 2019년 6월 15일 | [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 간단한 텍스트 편집 |
-|  | [다변량 테스트 우수 사례](/help/c-activities/c-multivariate-testing/best-practices.md) | 간단한 텍스트 편집 |
-|  | [다변량 테스트 계획](/help/c-activities/c-multivariate-testing/plan-mvt.md) | 간단한 텍스트 편집 |
-| 2019 년 6 월 14 일 | [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) | 사용 사례 시나리오를 추가했습니다. |
-|  | [경험 타깃팅 활동 만들기](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | XT: [활동 URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | 업데이트된 텍스트입니다. |
-|  | XT: [경험 만들기](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [경험 타깃팅의 경험 전환](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | XT: [목표 및 설정](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | XT: [지표 설정](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | 텍스트와 이미지를 업데이트했습니다. |
+| 2019 년 6 월 19 일 | [프로모션 추가](/help/c-recommendations/t-create-recs-activity/adding-promotions.md)를 참조하십시오 | 활동의 기준이 권장하는 항목에 대해 중복 제거가 제거되는 판촉에 대한 정보가 추가되었습니다. |
 | 2019년 6월 13일 | [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 새로운 FAQ 추가: &quot; 특정 자동화된 세그먼트에 대한 다른 제안/경험과 비교하여 전환율이 낮은 일부 제안/경험이 더 많은 트래픽을 받는 이유는 무엇입니까? &quot; |
-|  | [자동화된 개인화 활동 만들기](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [성공에 필요한 트래픽 예측](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | 새 이미지가 추가되었습니다. |
-|  | [시각적 경험 작성기에서 자동화된 개인화에 대한 경험 미리 보기](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [자동화된 개인화 오퍼 타깃팅](/help/c-activities/t-automated-personalization/ap-target-offers.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [제외 관리](/help/c-activities/t-automated-personalization/managing-exclusions.md)를 참조하십시오 | 텍스트와 이미지를 업데이트했습니다. |
-| 2019 년 6 월 12 일 | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 텍스트와 이미지를 업데이트했습니다. |
 |  | [Adobe Target 작동 방식](/help/c-intro/how-target-works.md) | 중국에서 Target 사용에 대한 중요한 참고가 추가되었습니다. |
 |  | [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | &quot; Target Standard/Premium 인터페이스 &quot;섹션에서 Microsoft Internet Explorer 11 (IE 11) 를 제거했습니다. Target는 더 이상 IE 11의 호환성을 지원하거나 유지 관리하지 않습니다. 이 변경 사항은 대상 UI 에만 영향을 줍니다. 컨텐츠 전달은 영향을 받지 않습니다. 이러한 변경 사항은 Adobe Analytics, Adobe Experience Platform 및 Adobe Audience Manager의 유사한 공지 사항을 따릅니다. 지원되는 브라우저로 전환하는 것이 좋습니다. |
 | 2019 년 6 월 11 일 | [활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | A 4 T를 사용하는 경우 추적 서버를 지정하는 것이 해결되었다는 내용의 메모를 제거했습니다. |
-|  | [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | A/B 테스트: [활동 URL](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | A/B 테스트: [대상자 선택](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | A/B 테스트: [목표 및 설정](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | A/B 테스트: [지표 설정](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | 텍스트와 이미지를 업데이트했습니다. |
-|  | [A/B 테스트의 여러 경험 버전](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | 텍스트와 이미지를 업데이트했습니다. |
 |  | [활동](/help/c-activities/activities.md) | 삭제된 활동을 복원할 수 없다고 강조했습니다. 필요한 경우 보관하지 않도록 활동을 보관할 수 있습니다. |
 |  | [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Experience Cloud 디버거가. js 2. x에서 완전히 지원되지 않는다는 내용의 제한 사항이 제거되었습니다. |
-|  | [보고서](/help/c-reports/reports.md) | 텍스트와 이미지를 업데이트했습니다. |
 | 2019년 6월 7일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 추가된 새 섹션: &quot; 시나리오: null-checking 논리를 사용하여 4 x 2 기본 권장 사항 디자인을 만듭니다. &quot; |
 |  | [Adobe Target Standard 및 Premium 교육 비디오](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 새 Adobe Target 자습서 사이트에 대한 링크가 업데이트되었습니다. |
 |  | [iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 업데이트된 텍스트 및 코드 조각. |
-|  | [방문자 프로필 라이프타임](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | 간단한 텍스트 편집 |
-|  | [이메일 이미지 Adbox 테스트](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | 간단한 텍스트 편집 |
 | 2019년 6월 6일 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 매개 변수에 대한 설명을 `options > page` 업데이트했습니다. |
 |  | [관리자의 첫 단계](/help/administrating-target/start-target.md) | 전체 아티클 업데이트. |
 |  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target 19.6.1 릴리스에 대한 예비 릴리스 노트를 추가했습니다. |
