@@ -7,8 +7,8 @@ subtopic: 다변량 테스트
 title: URL로 리디렉션
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
 
 한 페이지 내의 컨텐츠 일부만 변경하는 대신, 완전히 다른 두 페이지를 테스트할 수 있습니다. 이 경우 A/B 테스트는 페이지 A와 페이지 B를 비교합니다. 하나는 기본 페이지 A를 가리키고 다른 페이지 B로 리디렉션되는 두 개의 경험이 있는 A/B 테스트 캠페인을 설정합니다. 경험에 대한 문자 레이블을 클릭하면 표시되는 경험 작업 메뉴에서 **[!UICONTROL URL로 리디렉션]을 선택하고 페이지 B의 URL을 지정합니다. 오퍼는 방문자를 다른 페이지로 리디렉션하도록 구성됩니다.**
 
-리디렉션 오퍼는 JavaScript 코드를 실행하여 브라우저를 리디렉션합니다. `window.location.replace();`메서드를 사용하므로 방문자를 리디렉션하는 페이지는 브라우저 기록에 저장되지 않습니다. 방문자는 여전히 브라우저에서 [뒤로] 단추를 사용할 수 있습니다.
+리디렉션 오퍼는 JavaScript 코드를 실행하여 브라우저를 리디렉션합니다. `window.location.replace();`메서드를 사용하므로 방문자를 리디렉션하는 페이지는 브라우저 기록에 저장되지 않습니다. 방문자는 여전히 브라우저에서 뒤로 단추를 사용할 수 있습니다.
 
 리디렉션 오퍼에는 다음과 같은 몇 가지 제한 사항이 있습니다.
 
