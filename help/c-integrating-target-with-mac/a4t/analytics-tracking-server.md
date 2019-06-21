@@ -5,8 +5,8 @@ seo-description: 이전 버전의 at.js나 mbox.js를 사용하는 경우 Analyt
 seo-title: Analytics 추적 서버 사용을 참조하십시오
 title: Analytics 추적 서버 사용을 참조하십시오
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ Target의 데이터가 Analytics의 올바른 위치로 이동되려면 Target�
 
 1. 활동을 만드는 페이지에서 Adobe Experience Cloud Debugger를 엽니다. 
 
-   이 디버거를 설치하지 않은 경우 [Adobe Debugger 설치 지침](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html)을 따르십시오.
+   디버거를 설치하지 않았다면 [Adobe Debugger 설치 지침](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/debugger_install.html)을 따르십시오.
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -36,7 +36,7 @@ Target의 데이터가 Analytics의 올바른 위치로 이동되려면 Target�
    * (RDC 구현의 경우)
    *Company*는 Analytics 회사 이름을 나타내고, *metrics*는 CNAME 값의 예이며 *d1*은 Analytics 데이터 센터의 예입니다.
 1.  필드의 전체 컨텐츠를 복사합니다. 
-1. 활동의 [!UICONTROL 목표 및 설정][!UICONTROL  화면에 있는 ]보고 설정**섹션에서 추적 서버 정보를[!UICONTROL 추적 서버]** 필드에 붙여넣으십시오.
+1. 활동의 [!UICONTROL 목표 및 설정][!UICONTROL  화면에 있는 ]보고 설정 **섹션에서 추적 서버 정보를[!UICONTROL 추적 서버]** 필드에 붙여넣으십시오.
 
    >[!NOTE]
    >
