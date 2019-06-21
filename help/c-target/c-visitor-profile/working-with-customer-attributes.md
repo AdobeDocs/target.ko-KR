@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 고객 속성
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
-translation-type: tm+mt
-source-git-commit: f0c1a87c82dcdaad48568b20db8619690ca13c30
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -28,14 +28,14 @@ Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 
 
 고객 속성 및 Target을 사용할 때 다음 정보를 고려하십시오.
 
-* [!DNL People] 핵심 서비스에서 [!UICONTROL 고객 속성] 기능을 사용하기 전에 충족해야 하는 몇 가지 전제 조건 요구 사항이 있습니다. 자세한 내용은 *Experience Cloud 및 핵심 서비스 제품 설명서*의 [고객 속성](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)에서 &quot;고객 속성 업로드를 위한 전제 조건&quot;을 참조하십시오. [!DNL at.js](임의 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
+* [!DNL People] 핵심 서비스에서 [!UICONTROL 고객 속성] 기능을 사용하기 전에 충족해야 하는 몇 가지 전제 조건 요구 사항이 있습니다. 자세한 내용은 *Experience Cloud 및 핵심 서비스 제품 설명서*의 [고객 속성](https://marketing.adobe.com/resources/help/ko_KR/mcloud/attributes.html)에서 &quot;고객 속성을 업로드하기 위한 사전 요구 사항&quot;을 참조하십시오. [!DNL at.js](임의 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
 * Adobe는 CRM 데이터베이스의 모든 고객 속성(방문자 프로필) 데이터가 Experience Cloud로 온보딩되어 Target에서 타깃팅에 사용될 수 있을 것으로 보장하지 않습니다. 현재 설계에서는 소량의 데이터가 온보딩되지 않을 수 있습니다.
 * Experience Cloud에서 Target으로 가져온 고객 속성 데이터의 라이프타임은 기본적으로 14일에 해당하는 방문자 프로필의 라이프타임에 따라 좌우됩니다. 자세한 내용은 [방문자 프로필 라이프타임](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * `vst.*` 매개 변수가 사용자를 식별하는 유일한 항목일 경우 `authState`가 UNAUTHENTICATED (0)이면 기존의 &quot;인증됨&quot; 프로필을 가져오지 않습니다. `authState`가 UNAUTHENTICATED (1)로 변경되는 경우 프로필이 재생됩니다.
 
    예를 들어, `vst.myDataSource.id` 매개 변수가 사용자를 식별하는 데 사용되고(`myDataSource`는 데이터 소스 별칭임) MCID 또는 타사 ID가 없는 경우 매개 변수 `vst.myDataSource.authState=0`을 사용하면 고객 속성 가져오기를 통해 작성되었을 수 있는 프로필을 가져오지 않습니다. 인증된 프로필을 가져오려면 `vst.myDataSource.authState` 값이 1(AUTHENTICATED)이어야 합니다.
 
-* 다음 문자는 보낼 `mbox3rdPartyID`수 없습니다. 더하기 기호 (+) 와 슬래시 (/).
+* `mbox3rdPartyID`에서 더하기 기호(+)와 슬래시(/)는 보낼 수 없습니다.
 
 ## Target에 대한 고객 속성 워크플로우 {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
@@ -43,7 +43,7 @@ Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 
 
 ![](assets/crm_workflow.png)
 
-다음 각 작업을 완료하기 위한 자세한 지침은 *Experience Cloud 및 핵심 서비스 제품 설명서*의 [고객 속성 소스 작성 및 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)에서 찾을 수 있습니다.
+다음 각 작업을 완료하기 위한 자세한 지침은 *Experience Cloud 및 핵심 서비스 제품 설명서*의 [고객 속성 소스 작성 및 데이터 파일 업로드](https://marketing.adobe.com/resources/help/ko_KR/mcloud/t_crs_usecase.html)에서 찾을 수 있습니다.
 
 1. 데이터 파일 만들기.
 
@@ -64,7 +64,7 @@ Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 
    HTTP 메서드를 사용하여 최대 100MB의 데이터 파일을 업로드할 수 있습니다. 100MB~4GB의 파일은 FTP를 통해 업로드할 수 있습니다.
 
    * **HTTPS:** [!DNL .csv] 데이터 파일을 드래그 앤 드롭하여 [!UICONTROL 찾아보기]를 클릭하여 파일 시스템에서 업로드할 수 있습니다.
-   * **FTP:** FTP 링크를 클릭하여 [FTP를 통해 파일을 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_upload_attributes_ftp.html)합니다. 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. 암호를 입력한 다음 [!UICONTROL 완료]를 클릭합니다.
+   * **FTP:** [FTP를 통해 파일을 업로드](https://marketing.adobe.com/resources/help/ko_KR/mcloud/t_upload_attributes_ftp.html)하려면 FTP 링크를 클릭합니다. 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. 암호를 입력한 다음 [!UICONTROL 완료]를 클릭합니다.
 
       이제 CSV/ZIP/GZIP 파일을 FTP 서버로 전송하십시오. 이 파일이 성공적으로 전송되면 동일한 이름 및 [!DNL .fin] 확장자를 사용하여 새 파일을 만듭니다. 이 빈 파일을 서버로 전송합니다. 이것은 전송 종료를 나타내며 Experience Cloud는 데이터 파일 처리를 시작합니다.
 
@@ -80,7 +80,7 @@ Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 
 
 1. 가입 구성 및 속성 소스 활성화.
 
-   **[!UICONTROL 구독 추가]**를 클릭하고 이러한 속성을 구독할 솔루션을 선택합니다. [가입을 구성하면 Experience Cloud와 솔루션 간에 데이터 흐름이 설정됩니다. ](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
+   **[!UICONTROL 구독 추가]** 를 클릭하고 이러한 속성을 구독할 솔루션을 선택합니다. [구독을 구성](https://marketing.adobe.com/resources/help/ko_KR/mcloud/subscription.html)하면 Experience Cloud와 솔루션 간 데이터 흐름이 설정됩니다. 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
 
    ![](assets/solution.png)
 
@@ -98,7 +98,7 @@ Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 
 
 ### 타깃팅 대상자 만들기
 
-[!DNL Target]에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 속성의 목록에는 &lt; data_ source_ name &gt; 접두사가 있습니다. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
+[!DNL Target]에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속성을 선택할 수 있습니다. 모든 고객 속성에는 목록에 &lt; data_source_name &gt; 접두사가 있습니다. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
 
 ![Target 대상](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -122,12 +122,12 @@ mbox3rdPartyId를 `targetPageParams()` 메서드 내의 글로벌 mbox에 매개
 
 ### Experience Cloud ID 서비스 사용
 
-Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속성을 사용하도록 고객 ID 및 인증 상태를 설정해야 합니다. 자세한 내용은 *Experience Cloud ID 서비스 설명서*의 [고객 ID 및 인증 상태](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)를 참조하십시오.
+Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속성을 사용하도록 고객 ID 및 인증 상태를 설정해야 합니다. 자세한 내용은 *Experience Cloud ID 서비스 설명서*의 [고객 ID 및 인증 상태](https://marketing.adobe.com/resources/help/ko_KR/mcvid/mcvid-authenticated-state.html)를 참조하십시오.
 
 [!DNL Target]에서 고객 속성을 사용하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-* *Experience Cloud 및 핵심 서비스 제품 문서*의 [고객 속성 소스 만들기 및 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
-*  *디지털 마케팅 블로그*의 [Customer Attributes: The More You Know, The Better You Connect(고객 속성: 더 많이 알수록 더 쉬워지는 연결)](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
+* *Experience Cloud 및 핵심 서비스 제품 설명서*의 [고객 속성 소스 작성 및 데이터 파일 업로드](https://marketing.adobe.com/resources/help/ko_KR/mcloud/t_crs_usecase.html)
+* *디지털 마케팅 블로그*의 [Customer Attributes: The More You Know, The Better You Connect(고객 속성: 더 많이 알수록 더 쉬워지는 연결)](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 고객에게 자주 발생하는 문제 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
