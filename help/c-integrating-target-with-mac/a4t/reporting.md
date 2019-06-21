@@ -8,8 +8,8 @@ subtopic: 다변량 테스트
 title: A4T 보고
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Analytics를 Target(A4T)의 보고 소스로 사용하면 Target 활동에 대�
 
 Analytics와 Target Standard/Premium 둘 다에서 활동의 보고서를 볼 수 있습니다.
 
-Analytics for Target을 사용하는 보고 우수 사례를 확인하려면 [Adobe Spark 페이지](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)를 방문하십시오.
+Analytics for Target을 사용하는 보고 우수 사례가 필요하면 [이 Adobe Spark 페이지를 방문해 보십시오](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## 개요 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -28,7 +28,7 @@ Analytics 및 Target 보고서는 사이트의 방문자 수가 아닌 참여자
 
 방문자가 페이지에서 활동 컨텐츠를 볼 때마다 Target은 방문자가 본 활동 및 경험을 포함하여 서버 간 호출을 Analytics로 유도합니다. 또한 Target은 전환이 발생할 때마다 Analytics를 호출합니다. Analytics는 이 전환을 &quot;활동 전환&quot;이라는 이름의 새로운 특정 Analytics 이벤트로 추가하며 이 전환은 Analytics에서 수집한 기타 데이터와 함께 추적됩니다.
 
-[선택] 작업을 사용하여 *참여자*를 정렬하면 선택된 기간 중에 참여자를 수신한 경험만 보고서에 표시됩니다.
+선택 작업을 사용하여 *참여자*를 정렬하면 선택된 기간 중에 참여자를 수신한 경험만 보고서에 표시됩니다.
 
 >[!NOTE]
 >
@@ -36,16 +36,16 @@ Analytics 및 Target 보고서는 사이트의 방문자 수가 아닌 참여자
 
 ## Analytics의 보고서 {#section_F6884872DC864AE7913587FAED4CD11C}
 
-Analytics의 왼쪽 메뉴에서 **[!UICONTROL Target]** &gt; **[!UICONTROL Target 활동]**을 클릭합니다. Target에서 활동의 보고서에 Analytics 데이터, 지표, 세그먼트가 자동으로 표시됩니다. 데이터는 사이트에서 수집된 후 약 1시간 후에 이러한 보고서에 표시됩니다. 보고서에 있는 모든 지표, 대상, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
+Analytics의 왼쪽 메뉴에서 **[!UICONTROL Target]** &gt; **[!UICONTROL Target 활동]** 을 클릭합니다. Target에서 활동의 보고서에 Analytics 데이터, 지표, 세그먼트가 자동으로 표시됩니다. 데이터는 사이트에서 수집된 후 약 1시간 후에 이러한 보고서에 표시됩니다. 보고서에 있는 모든 지표, 대상, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
 
-Analytics에서 Target 활동의 결과를 살펴보려면 Target 활동 보고서를 사용하십시오. 이 보고서에는 이전 Test&amp;Target 플러그인 스타일 페이지 통합에 관한 정보가 포함되며 Analytics for Target 데이터는 포함되지 않습니다. Activities 보고서에서 Target 경험에 대한 정보를 봅니다. **[!UICONTROL 지표]**를 클릭하고 **Target[!UICONTROL 지표 유형을 선택합니다.]** 보고서에서 두 개의 지표를 사용할 수 있습니다.
+Analytics에서 Target 활동의 결과를 살펴보려면 Target 활동 보고서를 사용하십시오. 이 보고서에는 이전 Test&amp;Target 플러그인 스타일 페이지 통합에 관한 정보가 포함되며 Analytics for Target 데이터는 포함되지 않습니다. Activities 보고서에서 Target 경험에 대한 정보를 봅니다. **[!UICONTROL 지표]** 를 클릭하고 **Target[!UICONTROL 지표 유형을 선택합니다.]** 보고서에서 두 개의 지표를 사용할 수 있습니다.
 
 * **활동 시작:** Target 보고서에서 참여자 수와 일치합니다.
 * **활동 전환:** Target 보고서에서 사용자 지정 전환 수와 일치합니다.
 
 >[!NOTE]
 >
->Target 향상도 및 신뢰도 세부 정보도 Analytics에서 사용할 수 있습니다. 자세한 내용은 Adobe Analytics 제품 설명서에서 [Target 상승도 및 신뢰도 보고서 유형](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html)을 참조하십시오.
+>Target 향상도 및 신뢰도 세부 정보도 Analytics에서 사용할 수 있습니다. 자세한 내용은 Adobe Analytics 제품 설명서에서 [Target 향상도 및 신뢰도 보고서 유형](https://marketing.adobe.com/resources/help/ko_KR/reference/report_target_lift_confidence.html)을 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -66,11 +66,11 @@ Analytics를 보고 소스로 사용하면 Target Standard의 보고서는 Analy
 
 활동 보고서 페이지에서 직접 전체 Analytics 보고서를 보려면 클릭하십시오.
 
-## 분석 작업 공간의 보고서 {#reports-in-analysis-workspace}
+## Analysis Workspace의 보고서 {#reports-in-analysis-workspace}
 
-이를 통해 [!DNL Adobe Analysis Workspace] 데이터를 보다 깊이 있게 분석하고 데이터를 시각화하거나 통찰력을 도출해낼 수 있습니다.
+[!DNL Adobe Analysis Workspace]를 사용하여 데이터를 보다 깊이 있게 분석하고 그 이면에 대한 통찰력을 얻을 수 있습니다.
 
-자세한 내용과 예를 보려면 [Analytics &amp; Target를 엽니다. Adobe Experience League에서 제공하는 분석 자습서를](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)위한 우수 사례.
+자세한 내용 및 예를 보려면 Adobe Experience League에서 제공한 [Analytics &amp; Target: 분석 우수 사례 자습서](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)를 여십시오.
 
 ## 활동 만들기 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
