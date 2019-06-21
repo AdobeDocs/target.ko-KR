@@ -3,7 +3,7 @@ product: target
 audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/kr/target/using/target-home.html
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
 
 ---
