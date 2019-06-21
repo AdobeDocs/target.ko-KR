@@ -1,6 +1,6 @@
 ---
 description: 제품이나 컨텐츠 정보를 권장 사항에 전달하려면 엔티티 속성을 사용하십시오.
-keywords: entity; 엔티티 속성; Recommendations에 정보 전달; 행동 데이터; 데이터 카운터; 상대 URL 정의; 재고 수준 표시; 가격 정의; 수익 여백을 정의합니다. 사용자 지정 속성
+keywords: 엔티티;엔티티 속성;Recommendations로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
 seo-description: 제품이나 컨텐츠 정보를 권장 사항에 전달하려면 엔티티 속성을 사용하십시오.
 seo-title: 엔티티 속성
 solution: Target
@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
-translation-type: tm+mt
-source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Singe 값만 사용합니다.
 
 이 필수 매개 변수는 제품을 식별합니다. 항목을 인식하고 그에 대한 데이터를 공유하려면 다양한 제품에 사용된 모든 [DNL Adobe Experience Cloud] 제품([!DNL Analytics] 포함)에서 이 영숫자 ID가 동일해야 합니다.
 
-`entity.id` REST API 호출에 전달될 때 URL 인코딩이 필요한 슬래시, 앰퍼샌드, 물음표, 백분율 기호, 쉼표 또는 기타 구두점 문자는 값이어야 합니다. 하이픈 및 밑줄은 허용됩니다. `entity.id` 값에 올바르지 않은 구두점을 포함하면 일부 [!DNL Recommendations] 기능에 오류가 발생합니다.
+`entity.id` 값에는 REST API 호출에 전달될 때 URL 인코딩이 필요한 슬래시, 앰퍼샌드, 물음표, 백분율 기호, 쉼표 또는 기타 구두점 문자를 사용할 수 없습니다. 하이픈 및 밑줄은 허용됩니다. `entity.id` 값에 올바르지 않은 구두점을 포함하면 일부 [!DNL Recommendations] 기능에 오류가 발생합니다.
 
 예: `'entity.id=67833'`
 
@@ -51,7 +51,7 @@ Singe 값만 사용합니다.
 
 >[!NOTE]
 >
->카테고리를 기반으로 한 추천을 [!UICONTROL 카테고리] 페이지에 표시하기 위해 한 개의 `categoryId`만 특정 추천을 표시하는 데 사용되는 mbox에 전달할 수 있습니다. `categoryId` 값은 제품 세부사항 페이지에서 전달된 `entity.categoryId`[!UICONTROL ] 값과 정확히 일치해야 합니다.
+>카테고리를 기반으로 한 권장 사항을 [!UICONTROL 카테고리] 페이지에 표시하기 위해 한 개의 `categoryId`만 특정 권장 사항을 표시하는 데 사용되는 mbox에 전달할 수 있습니다. `categoryId` 값은 제품 세부사항 페이지에서 전달된 `entity.categoryId`[!UICONTROL ] 값과 정확히 일치해야 합니다.
 
 예:
 
@@ -97,7 +97,7 @@ mbox 배달의 경우 키에 가장 긴 속성 이름이 사용됩니다. 연결
 
 단일 값만 가능합니다.
 
-권장 사항에 표시되는 제품에 대한 메시지(예: &quot;판매 중&quot; 또는 &quot;세일&quot;)입니다. 메시지는 일반적으로 제품 이름보다 더 자세합니다. 템플릿에 제품과 함께 표시할 추가 정보를 정의하는 데 사용합니다.에서 보냅니다.
+권장 사항에 표시되는 제품에 대한 메시지(예: &quot;판매 중&quot; 또는 &quot;세일&quot;)입니다. 메시지는 일반적으로 제품 이름보다 더 자세합니다. 템플릿에 제품과 함께 표시할 추가 정보를 정의하는 데 사용합니다.
 
 예: `'entity.message=Family&nbsp;special'`
 
@@ -148,7 +148,7 @@ mbox 배달의 경우 키에 가장 긴 속성 이름이 사용됩니다. 연결
 
 `'entity.secondary=Rockies'`
 
-사용자 지정 엔티티 속성은 다중 값을 지원합니다. 문자 및 값 제한에 [대한 사용자 지정 엔티티 속성을](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) 참조하십시오.
+사용자 지정 엔티티 속성은 다중 값을 지원합니다. 문자 및 값 제한에 대해서는 [사용자 지정 엔티티 속성](/help/c-recommendations/c-products/custom-entity-attributes.md#limits)을 참조하십시오.
 
 예: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
