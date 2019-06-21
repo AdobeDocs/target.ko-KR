@@ -6,8 +6,8 @@ solution: Target
 title: 성공적인 테스트에 필요한 트래픽 예측
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
-translation-type: tm+mt
-source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -38,12 +38,12 @@ source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
 
    ![](assets/estimatorempty.png)
 
-1. 일반적인 전환율, 예상 방문자 수 및 테스트 기간을 제공합니다.
+1. 일반적인 전환율, 일별 예상 방문자 수, 테스트 기간을 제공합니다.
 
-   * [!UICONTROL 컨텐츠 조합 수]: 제외 후 활동의 일부로 만들어지는 경험의 수를 기반으로 자동으로 계산됩니다.
-   * [!UICONTROL 일반적인 전환율]: 전환율은 분석 시스템의 과거 데이터를 기반으로 한 백분율로 표현됩니다.
-   * [!UICONTROL 예상 일일 방문자]수: 타깃팅 기준을 기반으로 이 페이지를 볼 가능성이 높은 방문자 수입니다. 분석 데이터를 기준으로 생성될 수 있습니다.
-   * [!UICONTROL 테스트 기간]: 활동을 실행할 일 수입니다.
+   * [!UICONTROL 콘텐츠 조합 수]: 제외 후 활동의 일부로 만들어지는 경험 수에 따라 자동으로 계산됩니다.
+   * [!UICONTROL 일반 전환율]: 전환율은 사용자의 예측 또는 분석 시스템의 과거 데이터를 기준으로 백분율로 표시됩니다.
+   * [!UICONTROL 일별 예상 방문자 수]: 타깃팅 기준에 따라 이 페이지를 볼 수 있는 방문자의 수입니다. 분석 데이터를 기준으로 생성될 수 있습니다.
+   * [!UICONTROL 테스트 기간]: 활동을 실행할 일수입니다.
    트래픽 견적 도구는 이러한 통계를 사용하여 성공적인 테스트를 실행하는 데 필요한 조정 사항을 결정합니다.
 
    트래픽 견적 도구 위쪽에서 입력된 값이 계산되고 결과가 표시됩니다.
