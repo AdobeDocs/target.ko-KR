@@ -7,8 +7,8 @@ solution: Target
 subtopic: 시작하기
 title: mbox.js 버전 세부 정보
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
-translation-type: tm+mt
-source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ Target이 페이지의 호출에 응답하는 방식은 사용 중인 Target 라
 
 **Target 릴리스:** 17.7.1
 
-이제 [!DNL mbox.js] 버전 63을 사용할 수 있습니다. 자세한 내용은 [mbox.js 다운로드](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html)를 참조하십시오.
+이제 [!DNL mbox.js] 버전 63을 사용할 수 있습니다. 자세한 내용은 [mbox.js 다운로드](https://marketing.adobe.com/resources/help/ko_KR/target/ov/t_target-download-config-mbox.html)를 참조하십시오.
 
 다음 개선 사항 및 수정 사항이 [!DNL mbox.js] 버전 63에 포함되어 있습니다.
 
@@ -246,7 +246,7 @@ Target 페이지 매개 변수가 Internet Explorer에서 올바르게 실행되
 
 Analytics가 IE 9 및 11에서 추적을 수행하지 못하게 하는 문제가 해결되었습니다. 이러한 변경 사항은 Analytics 사용자에게만 영향을 미칩니다.
 
-이제 targetPageParams() 함수를 사용하여 [매개 변수](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html)를 배열, JSON 개체 또는 쉼표로 구분된 목록(이전에 지원)으로 target-global-mbox에 전달할 수 있습니다.
+이제 targetPageParams() 함수를 사용하여 target-global-mbox에 배열, JSON 개체 또는 쉼표로 구분된 목록(이전에 지원됨)으로서 [매개 변수를 전달](https://marketing.adobe.com/resources/help/ko_KR/target/ov/c_pass_parameters_to_global_mbox.html)할 수 있습니다.
 
 M2PcId 및 VisitorId와 관련된 모든 항목의 이름이 변경되었습니다.
 
@@ -280,13 +280,13 @@ Target용 보고 소스로서 Adobe Analytics에 대한 지원을 추가했습�
 
 ## mbox 버전 46
 
-Target Standard의 단일 코드 행 구현을 위해 Experience Cloud 방문자 ID 서비스에 대한 전체 지원을 추가했었습니다. 이에 따라 서버측 Adobe Analytics 통합과 Experience Cloud 공유 프로필이 활성화됩니다.
+Target Standard의 단일 코드 행 구현을 위해 Experience Cloud 방문자 ID 서비스에 대한 전체 지원을 추가했었습니다. 이에 따라 서버 측 Adobe Analytics 통합과 Experience Cloud 공유 프로필이 활성화됩니다.
 
 IE10에서 문서 모드로 컨텐츠를 구현할 때의 문제를 수정했습니다.
 
 ## mbox 버전 45
 
-Experience Cloud 방문자 ID 서비스에 대한 전체 지원을 추가했습니다. 이에 따라 서버측 Adobe Analytics 통합과 Experience Cloud 공유 프로필이 활성화됩니다.
+Experience Cloud 방문자 ID 서비스에 대한 전체 지원을 추가했습니다. 이에 따라 서버 측 Adobe Analytics 통합과 Experience Cloud 공유 프로필이 활성화됩니다.
 
 ## mbox 버전 44
 
