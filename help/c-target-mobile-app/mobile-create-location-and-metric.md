@@ -6,8 +6,8 @@ seo-title: iOS - Target 위치 및 성공 지표 만들기
 title: iOS - Target 위치 및 성공 지표 만들기
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
-translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
 모바일 앱에서 Target을 사용하려면 위치 및 성공 지표를 만드십시오.
 
-이 섹션에는 앱용 템플릿으로 사용할 수 있는 샘플 코드가 포함되어 있습니다. 이 섹션의 샘플에는 iOS용 코드가 포함되어 있습니다. 동일한 패턴이 Android에 적용됩니다. Android 관련 구문은 [Experience Cloud용 Android SDK 4.x 솔루션 가이드](https://marketing.adobe.com/resources/help/en_US/mobile/android/target_main.html)에서 찾을 수 있습니다.
+이 섹션에는 앱용 템플릿으로 사용할 수 있는 샘플 코드가 포함되어 있습니다. 이 섹션의 샘플에는 iOS용 코드가 포함되어 있습니다. 동일한 패턴이 Android에 적용됩니다. Android용 구문은 [Experience Cloud 솔루션용 Android SDK 4.x](https://marketing.adobe.com/resources/help/ko_KR/mobile/android/target_main.html) 안내서를 참조하십시오.
 
 >[!NOTE]
 >
->사용 가능한 모든 타겟 메서드 목록은 [모바일 설명서를](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) 참조하십시오.
+>사용 가능한 모든 Target 메서드에 대한 목록이 필요하면 [모바일 설명서](https://marketing.adobe.com/resources/help/ko_KR/mobile/ios/c_target_methods.html)를 참조하십시오.
 
 앱에서 Target 위치를 만들고 요청을 수행하려면 다음 두 가지 기본 메서드를 사용할 수 있습니다.
 
