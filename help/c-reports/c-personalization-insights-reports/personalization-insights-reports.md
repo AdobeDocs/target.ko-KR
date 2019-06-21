@@ -8,8 +8,8 @@ title: 개인화 통찰력 보고서
 title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
-translation-type: tm+mt
-source-git-commit: 6cd0179b3fc1df8ec9ae1cbecd10749f751d9cd8
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -60,4 +60,4 @@ Target은 AP 및 AT 활동에서 해당 개인화 알고리즘을 작성하는 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-자세한 내용은 Adobe Target에서 개인화 인사이트 보고서 [사용을](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)참조하십시오.
+자세한 내용은 [Adobe Target에서 개인화 통찰력 보고서 사용](https://helpx.adobe.com/kr/target/kt/using/personalization-insights-report-feature-video-use.html)을 참조하십시오.
