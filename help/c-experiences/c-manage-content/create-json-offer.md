@@ -7,8 +7,8 @@ solution: Target
 title: JSON 오퍼 만들기
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,22 +17,22 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 양식 기반 경험 작성기에서 사용할 오퍼 라이브러리에 JSON을 만드십시오.
 
-JSON 오퍼는 SPA 프레임워크이나 서버측 통합에서 소비할 JSON 형식의 오퍼를 전송하는 데 Target의 의사 결정이 있어야 하는 사용 사례를 가능하게 하는 양식 기반 활동에서 사용할 수 있습니다.
+JSON 오퍼는 SPA 프레임워크이나 서버 측 통합에서 소비할 JSON 형식의 오퍼를 전송하는 데 Target의 의사 결정이 있어야 하는 사용 사례를 가능하게 하는 양식 기반 활동에서 사용할 수 있습니다.
 
 JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시오.
 
 * JSON 오퍼는 현재 AB 및 XT 활동에만 사용할 수 있습니다.
 * JSON 오퍼는 양식 기반 활동에서만 사용할 수 있습니다.
-* JSON 오퍼는 서버측 API, Mobile SDK 또는 NodeJS SDK를 사용할 때 바로 검색할 수 있습니다.
+* JSON 오퍼는 서버 측 API, Mobile SDK 또는 NodeJS SDK를 사용할 때 바로 검색할 수 있습니다.
 * 브라우저에서 JSON 오퍼는 at.js 1.2.3(또는 이상)을 통해서&quot;만&quot;,  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)를 사용(`setJson` 작업을 사용하여 작업을 필터링함으로써)하여 검색할 수 있습니다.
 * JSON 오퍼는 문자열이 아닌 기본 JSON 개체로 제공됩니다. 이러한 개체의 소비자는 개체를 문자열로 처리하고 JSON 개체로 변환하도록 더 이상 요구받지 않습니다.
-* JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 코드를 작성해야 [Getoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
+* JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 코드를 작성해야 [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
 * mbox.js를 사용하는 경우 JSON 오퍼가 지원되지 않습니다.
 
 ## JSON 오퍼 만들기 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. **[!UICONTROL 오퍼]**를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
-1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL JSON 오퍼]**를 클릭합니다.
+1. **[!UICONTROL 오퍼]** 를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
+1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL JSON 오퍼]** 를 클릭합니다.
 
    ![](assets/offer-json.png)
 
