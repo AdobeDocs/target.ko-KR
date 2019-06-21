@@ -7,8 +7,8 @@ solution: Target
 title: Target 및 대상 FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-translation-type: tm+mt
-source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
 
 ## 대상을 작성할 때 Target 라이브러리 아래의 사전 작성 대상이 다른 범주 아래에 표시되는 이유는 무엇입니까? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-[타겟 라이브러리] 카테고리의 사전 빌드된 대상은 이전 대상으로서, 다른 카테고리에 있습니다. 일례로, 이전 [타겟 라이브러리] &gt; [새 방문자 수] 대상에는 이에 대응하는 업데이트된 상대([방문자 프로필] &gt; [새 방문자])가 있습니다.
+타겟 라이브러리 카테고리의 사전 빌드된 대상은 이전 대상으로서, 다른 카테고리에 있습니다. 일례로, 이전 타겟 라이브러리 &gt; 새 방문자 수 대상에는 이에 대응하는 업데이트된 상대(방문자 프로필 &gt; 새 방문자)가 있습니다.
 
 성과가 개선되었으므로 최신 대상을 사용하는 것이 좋습니다(우수 사례). 일부 고객이 이전의 사전 빌드된 대상을 사용 중일 수 있으므로 이러한 대상을 Target 인터페이스에서 제거하지 않았습니다.
 
@@ -31,13 +31,13 @@ source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
 
 사용자는 활동의 [!UICONTROL 타겟] 페이지에 표시되는 첫 번째 경험/대상에 대한 자격이 있습니다.
 
-예를 들어 다음 그림에서 Windows 장치를 사용하는 캘리포니아 사용자는 경험 A(Windows 대상)와 경험 C(캘리포니아 대상) 모두에 대한 자격이 있습니다. [타겟] 페이지의 목록에서 경험 A가 경험 C의 위에 표시되므로 이 사용자에게는 경험 A가 표시됩니다.
+예를 들어 다음 그림에서 Windows 장치를 사용하는 캘리포니아 사용자는 경험 A(Windows 대상)와 경험 C(캘리포니아 대상) 모두에 대한 자격이 있습니다. 타겟 페이지의 목록에서 경험 A가 경험 C의 위에 표시되므로 이 사용자에게는 경험 A가 표시됩니다.
 
 ![](assets/audiences_order.png)
 
 ## Target, Adobe Audience Manager(AAM) 및 핵심 서비스의 대상 라이브러리에 있는 동일한 대상의 이름이 서로 다른 이유는 무엇입니까? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-대상의 대상자 이름은 [!DNL Target] 고유합니다. 하지만 In [!DNL AAM] 및 In [!DNL Audience Library]는 여러 대상자에 대해 동일한 이름을 가질 수 있습니다 (서로 다른 폴더에 있을 경우). 에서는 [!DNL Target][!DNL AAM] OR [!DNL Audience Library] 대상과 일치하는 대상 이름이 있을 때 이름에 &quot; # &lt; number &gt;&quot; [!DNL Target] 를 추가합니다.
+[!DNL Target]의 대상 이름은 고유합니다. 그러나 [!DNL AAM]과 [!DNL Audience Library]에서는 여러 대상(서로 다른 폴더에 있을 경우)에 대해 동일한 이름을 사용할 수 있습니다. [!DNL Target]에 [!DNL AAM] 또는 [!DNL Audience Library] 대상에 해당하는 대상 이름이 발생하면 [!DNL Target]은 해당 이름에 &quot;#&lt;number&gt;&quot;를 추가합니다.
 
 예를 들어, &quot;PC 사용자&quot;([!DNL AAM]에서)와 &quot;PC 사용자 #1&quot;([!DNL Target]에서)이라는 대상이 표시될 수 있습니다.
 
@@ -73,7 +73,7 @@ source-git-commit: 98902870c9949302eecfffc4da31b662651c4f8b
 | 2 | is greater than 3.0 | false |
 | 045 | equals 45 | true |
 
-과학적 표기법으로 작성된 숫자는 항상 문자열로 비교됩니다.
+과학적 표기법으로 기록된 숫자는 항상 문자열로 비교됩니다.
 
 예:
 
