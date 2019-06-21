@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 리디렉터 작업
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: tm+mt
-source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -45,7 +45,7 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
    &mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm
    ```
 
-   * 은 `yourclientcode` 회사의 클라이언트 코드입니다. 회사의 클라이언트 코드는 모두 소문자이고 특수 문자를 포함하지 않습니다.
+   * 여기서 `yourclientcode`는 회사의 클라이언트 코드입니다. 회사의 클라이언트 코드는 모두 소문자이고 특수 문자를 포함하지 않습니다.
 
       * **at.js**: 클라이언트 코드는 [!UICONTROL 인터페이스의 ]설정 &gt; 구현 &gt; at.js 설정 편집[!DNL Target] 페이지 맨 위에서 사용할 수 있습니다.
 
@@ -54,9 +54,9 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
       리디렉터는 다른 mbox와 다르게 작동하지만 계정에서는 다른 mbox처럼 나타납니다. 계정에서 표준 유형 mbox와 쉽게 구분되도록 리디렉터 이름을 지정하십시오.  우수 사례로, mbox 이름을 &#39;redirectorlink&#39;로 시작하십시오.
 
-   * 는 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` 기본 대상입니다.
+   * 여기서 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm`은 기본 대상입니다.
 
-      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. [HTML URL 인코딩 참조를](https://www.w3schools.com/tags/ref_urlencode.asp) 사용하여 URL를 빠르게 인코딩할 수 있습니다. |
+      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. [HTML URL 인코딩 참조](https://www.w3schools.com/tags/ref_urlencode.asp)를 사용하여 URL을 신속하게 인코딩할 수 있습니다.|
 
 
 
@@ -97,7 +97,7 @@ source-git-commit: ece87434c94501eeed1d6af9cb2a92f8585775b7
 
 >[!NOTE]
 >
->참여에 설명된 대로 방문당 **점수** 참여 지수를 사용하여 비용 값을 결정하는 것이 가장 [좋은 방법입니다](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>우수 사례는 **문당 점수** 참여 지표를 사용하여 비용값을 결정하는 것입니다. 자세한 내용은 [참여](https://marketing.adobe.com/resources/help/ko_KR/tnt/help/c_Capturing_Engagement.html)를 참조하십시오.
 
 `&mboxPageValue=-value`를 URL에 추가합니다. 음수입니다.
 
@@ -114,7 +114,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 
 >[!NOTE]
 >
->참여에 설명된 대로 방문당 **점수** 참여 지수를 사용하여 매출 값을 결정하는 것이 가장 [좋은 방법입니다](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>우수 사례는 **문당 점수** 참여 지표를 사용하여 매출액 값을 결정하는 것입니다. 자세한 내용은 [참여](https://marketing.adobe.com/resources/help/ko_KR/tnt/help/c_Capturing_Engagement.html)를 참조하십시오.
 
 `&mboxPageValue=value`를 URL에 추가합니다.
 
