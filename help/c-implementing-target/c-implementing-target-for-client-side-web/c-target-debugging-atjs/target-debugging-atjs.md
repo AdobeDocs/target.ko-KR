@@ -6,8 +6,8 @@ seo-title: Adobe Experience Cloud Debugger를 사용하여 at.js 디버그
 title: Adobe Experience Cloud Debugger를 사용하여 at.js 디버그
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
-translation-type: tm+mt
-source-git-commit: 2dcd42db7ca7d82ea1f90255b9b383542c97c614
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 �
 
 라이브러리 구성을 빠르게 보고, 요청을 검토하여 사용자 지정 매개 변수가 올바르게 전달되고 있는지 확인한 다음, 콘솔 로깅을 켜고, Target 요청을 모두 비활성화할 수 있습니다. Experience Cloud를 인증하면 강력한 Mbox 추적 도구를 사용하여 활동 및 대상 자격과 방문자 프로필을 검사할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Cloud Debugger 확장 프로그램 설명서](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)를 검토하십시오. Target의 특정 정보는 [도구](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html) 섹션에서 찾을 수 있습니다.
+자세한 내용은 [Adobe Experience Cloud Debugger 확장 프로그램 설명서](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)를 참조하십시오. Target에 대한 정보는 [도구](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html) 섹션에 있습니다.
 
 ## 교육 비디오
 
