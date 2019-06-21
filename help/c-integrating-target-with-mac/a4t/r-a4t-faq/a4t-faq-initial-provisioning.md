@@ -7,8 +7,8 @@ solution: Target
 title: 초기 사용 권한 제공 - A4T FAQ
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
-translation-type: tm+mt
-source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
 
 이 주제에서는 Target의 보고 소스로 사용되는 Analytics(A4T)에 대한 사용 권한을 제공하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
-## 다중 페이지 A 4 T 활동을 설정하려면 어떻게 해야 합니까?
+## 다중 페이지 A4T 활동을 설정하려면 어떻게 해야 합니까?
 
-기본 다중 페이지 A 4 T 사용 사례를 구현하려면:
+기본 다중 페이지 A4T 사용 사례를 구현하려면 다음을 수행합니다.
 
-* 활동 랜딩 URL/페이지에서 Target (at. js 또는 mbox. js) 와 Analytics 모두에 대한 JavaScript 라이브러리를 구현합니다. 두 솔루션을 모두 구현하면 Target 데이터가 각 방문자에 대한 분석 데이터와 연결됩니다. 이 데이터는 기본 만료 기간이 90 일로 설정된 상태로 만료되기 전까지 Analytics에 남아 있습니다.
+* 활동 랜딩 URL/페이지에서 Target(at.js 또는 mbox.js)과 Analytics에 대한 JavaScript 라이브러리를 구현합니다. 두 솔루션을 모두 구현하면 Target 데이터가 각 방문자에 대한 Analytics 데이터와 연결됩니다. 이 데이터는 기본 만료 기간이 90일로 설정된 상태로 만료되기 전까지 Analytics에 유지됩니다.
 
-* 사이트에서 Analytics 지표가 추적되는 나머지 페이지의 경우, 해당 페이지에 Analytics를 구현합니다. 해당 페이지에서 Target를 구현할 필요는 없습니다. 해당 페이지에 캡처된 분석 지표는 이전 글머리 기호가 있는 방문자에 첨부된 타겟 정보에 따라 사용자가 초기에 자격을 부여한 타겟 활동과 자동으로 연결됩니다.
+* Analytics 지표를 추적할 사이트의 나머지 페이지에 대해서는 해당 페이지에서 Analytics를 구현합니다. 그러한 페이지에서 Target을 구현할 필요는 없습니다. 해당 페이지 간에 캡처된 Analytics 지표는 이전 글머리 기호에서 해당 방문자에 첨부된 Target 정보를 기반으로 사용자가 처음에 자격을 부여한 Target 활동에 자동으로 연결됩니다.
 
 ## 내 Target 계정에 A4T가 활성화되었는지 어떻게 알 수 있습니까? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
