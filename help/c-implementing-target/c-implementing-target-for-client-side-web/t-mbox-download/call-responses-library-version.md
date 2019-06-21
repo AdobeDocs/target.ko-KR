@@ -4,8 +4,8 @@ seo-description: Target이 페이지의 호출을 수행하고 호출에 응답�
 seo-title: mbox.js 라이브러리 버전별 Target 페이지 방법
 title: mbox.js 라이브러리 버전별 Target 페이지 방법
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,7 +36,7 @@ Target이 페이지의 호출을 수행하고 호출에 응답하는 방식은 �
 
 ## 방문자 ID 구현이 없음 {#section_C6F7213FDE4D48E8BBCB1A9A26310FEE}
 
-[!DNL Target Standard]를 사용하는 [!DNL Premium]나 [!DNL mbox.js]을 사용하고, 계정에 대해 [!UICONTROL 글로벌 Mbox 만들기]를 활성화한 경우, **버전에 관계없이**글로벌 mbox를 자동으로 만들기 - 동기[!DNL mbox.js] 유형의 호출 및 응답이 수행됩니다.
+[!DNL Target Standard]를 사용하는 [!DNL Premium]나 [!DNL mbox.js]을 사용하고, 계정에 대해 [!UICONTROL 글로벌 Mbox 만들기]를 활성화한 경우, **버전에 관계없이** 글로벌 mbox를 자동으로 만들기 - 동기[!DNL mbox.js] 유형의 호출 및 응답이 수행됩니다.
 
 [!UICONTROL 시각적 경험 작성기] 작업을 사용하는 대신 자신만의 사용자 지정 코드를 작성하는 경우, 코드가 ajax 환경에 적합한지 확인하십시오. 예를 들어 `document.write()`을 포함하는 JavaScript를 사용하는 경우 스크립트는 예상대로 작동하지 않습니다.
 
@@ -70,7 +70,7 @@ Target이 페이지의 호출을 수행하고 호출에 응답하는 방식은 �
 
 ## 방문자 ID 구현이 있고 방문자 ID도 있음 {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
-방문자 ID 쿠키가 존재하는 경우 [!DNL Target]에서 방문자 ID 서비스에 대한 호출을 수행할 필요가 없습니다. 이 경우 컨텐츠를 표시하기 전에 방문자 ID 서비스를 기다릴 필요가 없습니다. 버전 57~59의 경우 **글로벌 mbox를 자동으로 만들기 - 비동기** 유형을 사용하므로 페이지는 계속해서 로드하기 전에 [!DNL Target]에 대한 호출이 반환되기를 기다립니다. 이렇게 하면 기본 컨텐츠가 깜박이지 않습니다. v60의 경우에는 **글로벌 mbox-비동기 유형**을 사용하여 [!DNL Target] 옵트아웃 서비스가 응답할 때까지 [!DNL Experience Cloud]이 기다리도록 합니다. 옵트아웃 서비스는 2016년 가을에 출시되는 Data Co-op의 일부입니다. 모든 호출은 ajax를 사용하여 반환되므로, [!DNL mbox.js] 버전 60에는 `document.write()`을 사용하면 안 됩니다.
+방문자 ID 쿠키가 존재하는 경우 [!DNL Target]에서 방문자 ID 서비스에 대한 호출을 수행할 필요가 없습니다. 이 경우 컨텐츠를 표시하기 전에 방문자 ID 서비스를 기다릴 필요가 없습니다. 버전 57~59의 경우 **글로벌 mbox를 자동으로 만들기 - 비동기** 유형을 사용하므로 페이지는 계속해서 로드하기 전에 [!DNL Target]에 대한 호출이 반환되기를 기다립니다. 이렇게 하면 기본 컨텐츠가 깜박이지 않습니다. v60의 경우에는 **글로벌 mbox-비동기 유형** 을 사용하여 [!DNL Target] 옵트아웃 서비스가 응답할 때까지 [!DNL Experience Cloud]이 기다리도록 합니다. 옵트아웃 서비스는 2016년 가을에 출시되는 Data Co-op의 일부입니다. 모든 호출은 ajax를 사용하여 반환되므로, [!DNL mbox.js] 버전 60에는 `document.write()`을 사용하면 안 됩니다.
 
 | 작성 방법 | mbox.js v57 | mbox.js v58 | mbox.js v59 | mbox.js v60 |
 |---|---|---|---|---|
