@@ -1,6 +1,6 @@
 ---
 description: 백업 권장 사항 기능을 사용할 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
-keywords: 추천;백업;백업
+keywords: 권장 사항;백업;백업
 seo-description: 백업 권장 사항 기능을 사용할 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 seo-title: 백업 권장 사항 사용
 solution: Target
@@ -9,13 +9,13 @@ title-outputclass: premium
 topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 badge: premium
-translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 백업 추천 사용{#use-a-backup-recommendation}
+# ![PREMIUM](/help/assets/premium.png) 백업 권장 사항 사용{#use-a-backup-recommendation}
 
 백업 권장 사항 기능을 사용할 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 
@@ -48,4 +48,4 @@ source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
 
 일반적으로 백업 권장 사항의 사용은 초기 설정 중 구현 팀과 논의하는 과정의 일부입니다. 구현 후 백업 권장 사항 설정을 변경하려면 계정 관리자에게 문의하십시오.
 
-[부분 디자인 렌더링 사용]( [컨텐츠 설정](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96) 참조)이 사용되도록 설정되어 있지 않고 템플릿이 표시되지 않으면 대신 백업 권장 사항이나 기본 컨텐츠가 표시됩니다.
+부분 디자인 렌더링 사용( [컨텐츠 설정](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96) 참조)이 사용되도록 설정되어 있지 않고 템플릿이 표시되지 않으면 대신 백업 권장 사항이나 기본 컨텐츠가 표시됩니다.
