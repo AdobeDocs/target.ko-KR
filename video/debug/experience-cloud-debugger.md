@@ -4,7 +4,7 @@ solution: Target
 title: Experience Cloud Debugger를 사용하여 Target 디버그
 seo-title: Experience Cloud Debugger를 사용하여 Target 디버그
 topic: Standard
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
@@ -26,6 +26,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 추가 리소스
 
-+ [Chrome Store의 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Target 도움말 문서 문제 해결](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
-+ [Experience Cloud Debugger 비디오를 사용하는 방법](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Chrome 스토어의 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Target 문제 해결 도움말 설명서](https://marketing.adobe.com/resources/help/ko_KR/target/target/r_troubleshooting_target.html)
++ [Experience Cloud Debugger 사용 방법 비디오](https://helpx.adobe.com/kr/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
