@@ -7,8 +7,8 @@ solution: Target
 title: at.js 제한 사항
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,15 +19,15 @@ at.js와 mbox.js 간에 약간의 차이가 있습니다. 이 섹션에는 at.js
 
 ## 알려진 시각적 경험 작성기 제한 사항 {#section_4B63C97169DE4C93B22944E880FD3DF1}
 
-* 시각적 경험 작성기의 [요소 삽입] 및 [다시 정렬] 선택 사항은 단일 페이지 앱에서 피해야 합니다.
+* 시각적 경험 작성기의 요소 삽입 및 다시 정렬 선택 사항은 단일 페이지 앱에서 피해야 합니다.
 
-   DOM은 기존 웹 사이트에서 지워지듯이 단일 페이지 앱의 페이지 로드 이벤트에서 지워지지 않으므로 [요소 삽입] 및 [다시 정렬] 조작은 방문자가 SPA를 탐색하는 방식에 따라 여러 번 다시 적용할 수 있습니다.
+   DOM은 기존 웹 사이트에서 지워지듯이 단일 페이지 앱의 페이지 로드 이벤트에서 지워지지 않으므로 요소 삽입 및 다시 정렬 조작은 방문자가 SPA를 탐색하는 방식에 따라 여러 번 다시 적용할 수 있습니다.
 
 ## 통합 및 플러그인 {#section_D92E31170176406AAC7B5005F03D3425}
 
 [!DNL mbox.js] 내의 일부 함수는 [!DNL at.js]에서 사용할 수 없습니다. 내부 [mbox.js 개체 및 메서드](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)(예: `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` 및 기타)는 더 이상 [!DNL at.js](예: `mboxFactoryDefault`)에서 지원하지 않습니다. 이것은 [!DNL at.js] &quot;해킹&quot;을 통해 장기적으로 구현을 심각하게 손상하여 업그레이드를 불가능하게 할 수 있는 지원되지 않는 기능을 개발하지 못하도록 디자인되었습니다. 유일하게 노출되는 메서드는 이 설명서의 API 페이지에서 다룹니다. 이 때문에
 
-* 다른 Adobe 솔루션과의 기존 페이지 기반 [통합이](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 작동하지 않을 수 있으며 서버측 통합으로 업그레이드해야 합니다.
+* 다른 Adobe 솔루션과 이전의 페이지 기반 [통합](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)은 작동하지 않을 수 있으므로 최신 서버 측 통합으로 업그레이드해야 합니다.
 * [mbox.js용으로 개발된 사용자 지정 플러그인](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)은 [!DNL at.js]용으로 업데이트하지 않으면 작동하지 않을 수 있습니다.
 
    테스트의 일부로서 어떤 [플러그인](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)이든 반드시 포함하십시오.
