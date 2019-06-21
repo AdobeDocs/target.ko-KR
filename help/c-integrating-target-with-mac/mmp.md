@@ -7,8 +7,8 @@ solution: Target
 title: Experience Cloud 대상자
 topic: Standard
 uuid: b3ec2cc8-f07b-4f09-85f2-bbf5495d0490
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Experience Cloud 대상에서는 동일한 데이터를 각 솔루션에서 사용할 수 있도록 웹 사이트 방문자에 대한 정보를 제공 및 공유하기 위한 Adobe Experience Cloud 솔루션용 기능을 제공합니다.
 
-자세한 내용은 Experience Cloud 제품 문서의 [대상자](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)를 참조하십시오.
+자세한 내용은 Experience Cloud 제품 설명서의 [대상](https://marketing.adobe.com/resources/help/ko_KR/mcloud/audience_library.html)을 참조하십시오.
