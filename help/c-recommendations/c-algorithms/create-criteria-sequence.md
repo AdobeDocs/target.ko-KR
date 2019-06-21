@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -45,31 +45,31 @@ source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
 
 [!UICONTROL 기준 시퀀스 만들기] 화면에 도달하는 여러 방법이 있습니다. 일부 화면 옵션은 화면에 도달하는 방법에 따라 달라집니다.
 
-* [!UICONTROL 권장 사항] 활동을 만드는 경우 [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]**를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준 시퀀스를 저장하는 옵션이 있습니다.
-* [!UICONTROL 권장 사항] 활동을 편집하는 경우 페이지에서 [!UICONTROL 권장 사항 위치] 상자를 클릭하고 **[!UICONTROL 기준 변경]**을 선택합니다. [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]**를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준을 저장하는 옵션이 있습니다.
-* **[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 기준]** 라이브러리 화면에서 **[!UICONTROL 기준 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]**를 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!UICONTROL 권장 사항] 활동에 사용 가능해집니다.
+* [!UICONTROL 권장 사항] 활동을 만드는 경우 [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]** 를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준 시퀀스를 저장하는 옵션이 있습니다.
+* [!UICONTROL 권장 사항] 활동을 편집하는 경우 페이지에서 [!UICONTROL 권장 사항 위치] 상자를 클릭하고 **[!UICONTROL 기준 변경]** 을 선택합니다. [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]** 를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준을 저장하는 옵션이 있습니다.
+* **[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 기준]** 라이브러리 화면에서 **[!UICONTROL 기준 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]** 를 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!UICONTROL 권장 사항] 활동에 사용 가능해집니다.
 
-1. **[!UICONTROL 기준 만들기]** 또는 **[!UICONTROL 새로 만들기]**를 클릭합니다.
+1. **[!UICONTROL 기준 만들기]** 또는 **[!UICONTROL 새로 만들기]** 를 클릭합니다.
 
    ![새 기준 만들기](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
-1. **[!UICONTROL 기준 시퀀스 만들기]**를 선택합니다.
+1. **[!UICONTROL 기준 시퀀스 만들기]** 를 선택합니다.
 
    ![](assets/CreateCriteriaSequence.png)
 
-1. 시퀀스의 **[!UICONTROL 이름]**을 입력합니다.
+1. 시퀀스의 **[!UICONTROL 이름]** 을 입력합니다.
 
    기준 시퀀스를 설명하는 데 사용되는 &quot;내부&quot; 이름입니다. 사이트 방문자에게는 이 이름이 표시되지 않습니다.
-1. 시퀀스의 여러 기준이 [!UICONTROL 권장 사항] 디자인을 채우는 데 사용될 경우 페이지에 표시할 공개 **[!UICONTROL 일반 표시 제목]**을 입력합니다.
+1. 시퀀스의 여러 기준이 [!UICONTROL 권장 사항] 디자인을 채우는 데 사용될 경우 페이지에 표시할 공개 **[!UICONTROL 일반 표시 제목]** 을 입력합니다.
 
    예를 들어 디자인에 둘 이상의 [!UICONTROL 권장 사항] 키를 기준으로 하는 항목이 포함될 수 있는 경우, &quot;이 항목을 본 고객이 다음 항목도 본 경우...&quot;를 &quot;사용자에게 권장&quot;으로 바꿀 수 있습니다.
-1. 기준 시퀀스에 대한 간단한 **[!UICONTROL 설명]**을 입력합니다.
+1. 기준 시퀀스에 대한 간단한 **[!UICONTROL 설명]** 을 입력합니다.
 
    설명은 기준 시퀀스를 식별하는 데 도움이 되어야 하며 용도 정보를 포함할 수 있습니다.
-1. **[!UICONTROL 수직 시장]**을 선택합니다.
+1. **[!UICONTROL 수직 시장]** 을 선택합니다.
 
    기본 수직 시장이 자동으로 표시됩니다.
-1. **[!UICONTROL 페이지 유형]**을 선택합니다.
+1. **[!UICONTROL 페이지 유형]** 을 선택합니다.
 
    여러 페이지 유형을 선택할 수 있습니다.
 
@@ -90,4 +90,4 @@ source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
 
    ![](assets/CriteriaSequenceCard.png)
 
-   추천 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
+   권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
