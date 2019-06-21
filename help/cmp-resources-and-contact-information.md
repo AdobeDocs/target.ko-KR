@@ -7,8 +7,8 @@ solution: Target
 title: 리소스 및 연락처 정보
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
-translation-type: tm+mt
-source-git-commit: 77dd9ec5cf97e4f45d40a49f83fe239267d38435
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,28 +27,28 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 * 동료 및 Adobe 전문가와 연결
 * Target 릴리스에 대한 자신의 아이디어를 투표하거나 제출
 
-시작하려면 [Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)을 방문하십시오.
+시작하려면 [Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)을 방문해 보십시오.
 
 ## Target 기본 사항 웨비나 시리즈{#concept_11902FAC95C64479AABE020557A7EEE4}에 참여합니다 
 
 커뮤니티에서 제공한 고객 성공 웨비나 시리즈인 Target 기본 사항 웨비나 시리즈의 이전 세션에 대한 등록 정보 및 링크입니다.
 
-[이전 세션을 보거나 예정된 세션 및 등록 정보에 대한 자세한 내용을 살펴보려면](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)여기를 클릭하십시오.
+[이전 세션을 시청하거나 예정된 세션 및 등록에 대해 자세히 알려면 여기를 클릭하십시오](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
 
 
 ## Adobe 고객 지원 센터 운영시간 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
 &quot;운영시간&quot;은 Adobe 고객 지원 팀에서 진행한 이니셔티브입니다. 이러한 세션은 참가자가 문제를 해결하도록 관련 정보를 제공하여 도움을 주며, Target을 포함하여 Adobe Experience Cloud 솔루션을 제대로 사용할 수 있는 팁과 트릭을 제시합니다.
 
-예정된 세션에 등록하고 기록된 세션을 보려면 [Adobe 고객 지원 센터 운영시간](https://helpx.adobe.com/customer-care-office-hours.html)을 참조하십시오.
+예정된 세션에 등록하고 기록된 세션을 보려면 [Adobe 고객 지원 센터 운영시간](https://helpx.adobe.com/kr/customer-care-office-hours.html)을 참조하십시오.
 
 현재 기록된 Target 세션에는 다음이 포함됩니다.
 
 | 주제/런타임/촬영 날짜 | 학습 내용 |
 |--- |--- |
-| [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>2017<br>년 12 월 50:23 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/c-experiences/experiences.md). |
-| [Adobe Target: Analytics/Target 통합 (A 4 T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018<br>년 1 월 40:33 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
-| [at. js:](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>2018<br>년 4 월 26:43의 이점 및 구현 우수 사례 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul>이 안내서에서 자세한 내용은 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [시각적 경험 작성기(VEC)](https://helpx.adobe.com/kr/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017년 12월 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/c-experiences/experiences.md). |
+| [Adobe Target: Analytics/Target 통합(A4T)](https://helpx.adobe.com/kr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018년 1월 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
+| [at.js: 이점 및 구현 우수 사례](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul>이 안내서에서 자세한 내용은 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Adobe Target Insider 뉴스 레터를 통해 최적화된 상태로 유지하는
 
 >[!IMPORTANT]
 >
->[Adobe Target Insider 뉴스레터를 받은 편지함에서 자동으로 받으려면](https://www.adobe.com/subscription/adobe_target_newsletter.html)등록하십시오.
+>[받은 편지함에서 Adobe Target Insider 뉴스 레터를 자동 수신하려면 등록하십시오](https://www.adobe.com/subscription/adobe_target_newsletter.html).
 
 이전 뉴스레터가 누락된 경우 다음 링크를 클릭하여 다음이 누락되지 않았는지 확인하십시오.
 
@@ -75,7 +75,7 @@ Adobe Target Insider 뉴스 레터를 통해 최적화된 상태로 유지하는
 
 | 문제 | 세부 사항 |
 |--- |--- |
-|  |
+|  |  |
 | 2018년 11월(1권, 11호) | 여기에서는 Forrester의 수석 애널리스트인 James McCormick 초청 연사와 함께 경험 최적화 플랫폼에 대한 최근의 웨비나에 대해 알 수 있습니다. 고객이 반복하여 사용하는 모바일 앱을 개발하는 방법이 나와 있습니다. 최적화 성공 소식을 전하는 방법에 대한 Westjet의 Matt Ravlich로부터 조언도 있습니다. Adobe Sensei 기반의 두 가지 강력한 AI 기능을 통해 규모에 맞게 개인화를 구현하는 방법도 발견해 보십시오. Adobe Summit 날짜는 반드시 저장해 두십시오. |
 | 2018년 10월(1권, 10호) | TechCrunch 기사에서 소개된 몇 가지 기능을 포함하여 Adobe Target에 다양하고 멋진 새로운 기능과 개선 기능을 최근 추가했습니다. 관련 블로그 문서와 최신 &quot;Adobe Target의 새로운 기능&quot;을 통해 새로운 기능에 대해 자세히 알아보십시오. 또한 David Parker와 그의 팀이 대기업 통신사가 회사의 웹 사이트에서 전체 고객 여정을 최적화하는 것을 어떻게 지원했는지도 알 수 있습니다. |
 | 2018년 9월(1권, 9호) | 이 Adobe Target Insider 에디션에서 여름 인턴인 Leen Habbal은 Adobe Target 제품 마케팅 팀에서 여름 인턴으로서의 자신의 경험을 공유합니다. Adobe 기술을 올바로 구현했는지 확인하는 데 도움을 주는 도구인 Adobe Cloud Platform Auditor도 소개합니다. AI가 고객 여정의 수준을 향상하는 방식과 Adobe Target을 인증받는 방법을 설명합니다. 또한 영국계 통신 및 미디어 회사 Sky의 Rob McLaughlin으로부터 고객에게 대규모 개인화를 제공하는 방법 등에 대해 듣게 됩니다. |
@@ -110,9 +110,9 @@ Adobe Target Insider 뉴스 레터를 통해 최적화된 상태로 유지하는
 
 Target을 사용하는 동안 문제가 발생하거나 질문이 있을 경우, 많은 선택 사항이 있습니다.
 
-질문이 있는 경우 [, Experience Cloud 커뮤니티에 있는 Adobe Target 전문가에게](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) 질문하거나 @ adobeexpcare의 [Twitter에서 문의해](https://twitter.com/adobeexpcare)주십시오.
+질문이 있는 경우 [Experience Cloud 커뮤니티](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)에서 Adobe Target 전문가에게 문의하거나 Twitter [@AdobeExpCare](https://twitter.com/adobeexpcare)에서 문의할 수 있습니다.
 
-기술적인 문제가 있거나 버그를 기록하려면 고객 지원 센터에 문의하십시오. 고객 지원 센터에 문의하려면 1-800-497-0335번으로 전화해 주십시오. 미국 이외의 무료 전화는 [Adobe Digital Marketing 고객 지원 지역 전화 번호](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) 페이지에서 찾을 수 있습니다. 제품에 대한 옵션을 선택하라는 메시지가 표시되면 3을 눌러 Target 팀으로 연락하십시오.
+기술적인 문제가 있거나 버그를 기록하려면 고객 지원 센터에 문의하십시오. 고객 지원 센터에 문의하려면 1-800-497-0335번으로 전화해 주십시오. 미국 외 지역의 무료 전화번호는 [Adobe Digital Marketing 고객 지원 센터 지역 전화번호](https://helpx.adobe.com/kr/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) 페이지에서 확인할 수 있습니다. 제품에 대한 옵션을 선택하라는 메시지가 표시되면 3을 눌러 Target 팀으로 연락하십시오.
 
 [!DNL tt-support@adobe.com]으로 고객 지원 센터에 이메일을 보낼 수도 있습니다.
 
@@ -170,15 +170,15 @@ target/c_contact_and_legal.xml
 
 Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구성되었으며 고객들이 참여할 수 있는 많은 메커니즘을 제공합니다.
 
-* [Experience Cloud 도움말 페이지에서 조언, 팁 및 FAQ 확인](https://helpx.adobe.com/marketing-cloud.html)
+* [Experience Cloud 도움말 페이지에서 조언, 팁 및 FAQ 확인](https://helpx.adobe.com/kr/marketing-cloud.html)
 * [Twitter @AdobeExpCare에서 간단한 질문하기](https://twitter.com/adobeexpcare)
 * [고객 포털에 사고 기록](https://customers.omniture.com/login.php)
-* [고객 지원 팀에 직접 문의](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [고객 지원 팀에 바로 문의](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
 * [Experience Cloud 솔루션의 가용성 및 상태 확인](https://status.adobe.com/)
 
 예정된 제품 향상에 대한 미리 알림을 받으려면, Adobe 우선 순위 제품 업데이트에 등록하십시오.
 
-[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe 우선순위 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### 서비스, 성능 및 과금 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -186,15 +186,15 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 ### 피드백 {#section_8154D6D712054220A90D85FA8E92933E}
 
-이 솔루션과 관련된 모든 제안이나 피드백을 환영합니다. Analytics 제품군에 대한 기능 향상 아이디어 및 제안을[ Customer Idea Exchange](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)에 추가할 수 있습니다.
+이 솔루션과 관련된 모든 제안이나 피드백을 환영합니다. Analytics 세트에 대한 기능 향상 아이디어 및 제안을[Customer Idea Exchange에 추가할 수 있습니다](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3).
 
 ### 법적 정보 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
 * © 2019 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
+[사용 약관](https://www.adobe.com/go/marketingcloud_terms_of_use_kr) | [개인 정보 보호 센터](https://www.adobe.com/kr/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. Updated information/additional third party code information available at [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/).
+All third-party trademarks are the property of their respective owners. Updated Information/Additional Third Party Code Information available at [https://www.adobe.com/go/thirdparty_kr](https://www.adobe.com/kr/products/eula/third_party/).
