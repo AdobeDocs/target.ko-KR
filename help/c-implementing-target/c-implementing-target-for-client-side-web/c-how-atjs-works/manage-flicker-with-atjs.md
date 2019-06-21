@@ -7,8 +7,8 @@ solution: Target
 title: at.js에서 플리커를 관리하는 방법
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,9 +29,9 @@ at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 
 
 구현에서 불투명도 0이 작동하지 않는 경우 `bodyHiddenStyle`을 사용자 지정하여 깜박임을 관리하고 `body {visibility:hidden !important}`로 설정할 수도 있습니다. body `{opacity:0 !important`} 또는 `body {visibility:hidden !important}` 중 특정 환경에 가장 적합한 것을 사용할 수 있습니다.
 
-다음 그림에서는 at.js 1.*x* 및 at. js 2. x.
+다음 그림에서는 at.js 1.*x*와 at.js 2.x의 본문 숨기기와 본문 표시 호출을 보여줍니다.
 
-**at. js 2. x**
+**at.js 2.x**
 
 ![Target 흐름: at.js 페이지 로드 요청](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -103,9 +103,9 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 body {opacity: 0 !important}
 ```
 
-## Triggerview () 용. js 2. x에서 깜박임 관리
+## at.js 2.x에서 triggerView()에 대한 플리커 관리
 
-`triggerView()`를 사용하여 SPA에서 타깃팅된 컨텐츠를 표시할 때 플리커(깜박임) 관리가 즉시 제공됩니다. 이것은 사전 숨김 로직을 수동으로 추가할 필요가 없음을 의미합니다. 대신 at. js 2. x는 타깃팅된 컨텐츠를 적용하기 전에 뷰를 표시해야 하는 위치를 사전에 숨깁니다.
+`triggerView()`를 사용하여 SPA에서 타깃팅된 컨텐츠를 표시할 때 플리커(깜박임) 관리가 즉시 제공됩니다. 이것은 사전 숨김 로직을 수동으로 추가할 필요가 없음을 의미합니다. 대신 at.js 2.x에서는 타깃팅된 콘텐츠를 적용하기 전에 보기를 표시해야 하는 위치를 사전에 숨깁니다.
 
 ## getOffer() 및 applyOffer()를 사용하여 플리커 관리
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## at. js 1. x (at. js 2. x에서 지원되지 않음) 에서 mboxcreate () 와 함께 지역 mbox 사용
+## At.js 1.x에서 mboxCreate()와 함께 지역 mbox 사용(at.js 2.x에서는 지원되지 않음)
 
 지역 mbox 구현을 사용하는 경우 다음 샘플 코드와 유사하게 공급된 페이지에 `mboxCreate()`을 사용할 수 있습니다.
 
