@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 응답 토큰
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 응답 토큰을 사용하면 디버깅이나 타사 시스템(예: Clicktale)과의 통합에 사용할 Target 관련 정보(캠페인 세부 사항, 사용자 프로필 정보, 지리 정보 등)를 자동으로 출력할 수 있습니다.
 
-Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송할 수 있도록 해주는 서버 플러그인이라는 기능이 있습니다. 응답 토큰은 플러그인과 유사해서, 다른 곳에서 사용할 Target 관련 정보를 표시할 수 있도록 해줍니다. 응답 토큰을 사용하면 활용할 변수를 선택한 다음, mbox 응답의 일부로 전송할 수 있습니다. 이렇게 하려면 스위치를 사용하여 변수를 활성화하십시오. 그러면 이 변수가 mbox 응답으로 전송되므로 네트워크 호출에서 유효성을 검사할 수 있습니다. 응답 토큰은 [미리 보기] 모드에서도 작동합니다.
+Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송할 수 있도록 해주는 서버 플러그인이라는 기능이 있습니다. 응답 토큰은 플러그인과 유사해서, 다른 곳에서 사용할 Target 관련 정보를 표시할 수 있도록 해줍니다. 응답 토큰을 사용하면 활용할 변수를 선택한 다음, mbox 응답의 일부로 전송할 수 있습니다. 이렇게 하려면 스위치를 사용하여 변수를 활성화하십시오. 그러면 이 변수가 mbox 응답으로 전송되므로 네트워크 호출에서 유효성을 검사할 수 있습니다. 응답 토큰은 미리 보기 모드에서도 작동합니다.
 
 플러그인과 응답 토큰 간의 중요한 차이는 플러그인이 전달 시 실행되는 JavaScript를 페이지에 전달하는 반면, 응답 토큰은 이벤트 수신자를 사용하여 읽고 작업할 수 있는 개체를 전달한다는 것입니다. 자세한 내용은 [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) 및 이 문서의 뒷부분에 나오는 예를 참조하십시오. 응답 토큰 접근 방식은 더 안전하며 타사 통합을 보다 쉽게 개발하고 유지 관리할 수 있도록 허용해야 합니다.
 
@@ -37,7 +37,7 @@ Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송�
 
    자세한 내용은 [at.js 다운로드](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오.
 
-1. [!DNL Target]에서 **[!UICONTROL 설정]** &gt; **[!UICONTROL 응답 토큰]**을 클릭합니다.
+1. [!DNL Target]에서 **[!UICONTROL 설정]** &gt; **[!UICONTROL 응답 토큰]** 을 클릭합니다.
 
    ![](assets/response_tokens.png)
 
@@ -65,15 +65,15 @@ Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송�
    >
    >특수 문자가 있는 매개 변수는 목록에 표시되지 않습니다. 영숫자 문자 및 밑줄만 지원됩니다.
 
-1. (조건부) 프로필 매개 변수를 응답 토큰으로 사용하고 싶지만, 매개 변수가 mbox 호출을 통해 전달되지 않아서 Target UI에 로드되지 않은 경우, [만들기] 단추를 사용하여 프로필을 UI에 추가할 수 있습니다.
+1. (조건부) 프로필 매개 변수를 응답 토큰으로 사용하고 싶지만, 매개 변수가 mbox 호출을 통해 전달되지 않아서 Target UI에 로드되지 않은 경우, 만들기 단추를 사용하여 프로필을 UI에 추가할 수 있습니다.
 
-   **[!UICONTROL 만들기]**를 클릭하고 토큰 이름을 제공한 다음, **[!UICONTROL 활성화]**를 클릭하십시오.
+   **[!UICONTROL 만들기]** 를 클릭하고 토큰 이름을 제공한 다음, **[!UICONTROL 활성화]** 를 클릭하십시오.
 
    ![](assets/response_token_create.png)
 
 1. 활동을 만듭니다.
 
-. js [사용자 지정 이벤트를](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) 사용하여 mbox 응답을 수신하고 응답 토큰을 읽습니다.
+[at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)를 사용하여 mbox 응답을 수신하고 응답 토큰을 읽습니다.
 
 다음 코드 샘플은 [!DNL at.js] 사용자 지정 이벤트 핸들러를 HTML 페이지에 바로 추가합니다.
 
