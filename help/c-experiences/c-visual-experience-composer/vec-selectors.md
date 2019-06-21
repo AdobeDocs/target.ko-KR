@@ -7,8 +7,8 @@ solution: Target
 title: 시각적 경험 작성기에 사용된 요소 선택기
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
 
 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
 
-MDN(Mozilla Developer Network)의 [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
+MDN(Mozilla Developer Network)의 [Selectors](https://developer.mozilla.org/ko-KR/docs/Web/Guide/CSS/Getting_started/Selectors) 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
 
-계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. **[!UICONTROL 설정 &gt; 환경 설정]**을 클릭한 다음 선호하는 CSS 선택기를 선택하십시오.
+계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. **[!UICONTROL 설정 &gt; 환경 설정]** 을 클릭한 다음 선호하는 CSS 선택기를 선택하십시오.
 
 ![](assets/css_selectors.png)
 
@@ -73,7 +73,7 @@ Target에서는 단순 알고리즘을 사용하여 선택기를 만듭니다. �
 
    선택기: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` (&quot; &gt; &quot;는 바로 아래 하위를 가리킵니다.)
 
-   `eq`는 &quot;tagName=UL&quot;이 있는 요소가 있고 첫 번째 클래스가 `navigation`임을 인덱스에 알려줍니다. 따라서 `index`는 0입니다. 자세한 내용은 MDN의 [선택기](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서를 참조하십시오.
+   `eq`는 &quot;tagName=UL&quot;이 있는 요소가 있고 첫 번째 클래스가 `navigation`임을 인덱스에 알려줍니다. 따라서 `index`는 0입니다. 자세한 내용은 MDN의 [선택기](https://developer.mozilla.org/ko-KR/docs/Web/Guide/CSS/Getting_started/Selectors) 문서를 참조하십시오.
 
 1. 요소에 클래스가 없는 경우, Target은 요소에 `tagName`을 사용하고 `<HTML>` 요소나 ID가 있는 요소가 발견될 때까지 상위 요소를 트래버스합니다.
 
