@@ -1,15 +1,15 @@
 ---
-description: Adobe Recommendations Classic 설명서.
+description: Adobe Recommendations Classic 설명서입니다.
 keywords: Recommendations Classic
-seo-description: Adobe Recommendations Classic 설명서.
-seo-title: Adobe Recommendations Classic 설명서.
+seo-description: Adobe Recommendations Classic 설명서입니다.
+seo-title: Adobe Recommendations Classic 설명서입니다.
 solution: Target
-title: Recommendations Classic 설명서를 참조하십시오.
+title: Recommendations Classic 설명서입니다.
 title-outputclass: premium
 topic: Premium
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,6 +20,6 @@ source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
 
 권장 사항을 사용하면 고객에게 모르는 제품을 안내하여 웹 사이트에서의 판매량을 늘릴 수 있습니다.
 
-에서 [!DNL Recommendations Classic][!DNL Target Premium]Recommendations 활동을 선택하는 데 도움이 되는 자세한 내용은 Target Premium의 [Recommendations Classic와 Recommendations 활동 비교를 참조하십시오](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+[!DNL Target Premium]과 [!DNL Recommendations Classic]의 Recommendations 활동 중에서 선택하는 데 도움이 되는 정보는 [Recommendations Classic과 Target Premium의 Recommendations 활동](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)을 참조하십시오.
 
-[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf) 의 설명서를 PDF 형식으로 다운로드합니다.
+[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf) 설명서를 PDF 형식으로 다운로드합니다.
