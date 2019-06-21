@@ -10,8 +10,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -61,9 +61,9 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 ## 보고 설정
 
-* **목표:**목표의 이름을 지정하고 활동 성공 여부를 판별하는 성공 지표를 선택하십시오.
-* **추가 지표:**보고서에서 사용할 추가 성공 지표를 구성하십시오.
-* **보고 대상:**보고서를 필터링할 때 사용할 수 있는 대상을 정의합니다.
+* **목표:** 목표의 이름을 지정하고 활동 성공 여부를 판별하는 성공 지표를 선택하십시오.
+* **추가 지표:** 보고서에서 사용할 추가 성공 지표를 구성하십시오.
+* **보고 대상:** 보고서를 필터링할 때 사용할 수 있는 대상을 정의합니다.
 
 ## 기타 메타데이터
 
