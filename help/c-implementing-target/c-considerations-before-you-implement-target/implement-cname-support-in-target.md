@@ -7,8 +7,8 @@ solution: Target
 title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
-translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Target에서 CNAME(표준 이름) 지원을 구현하기 위한 Adobe Clie
 다음 단계를 수행하여 Target에서 CNAME 지원을 요청합니다.
 
 1. Adobe Target 호출에 대한 [CNAME 지원을 요청하는 고객 지원 센터 티켓](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)입니다.
-1. [AMC(Adobe Managed Certificate) 프로그램](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)에 등록하고 *자사 쿠키* 가이드에 제공된 구현 단계를 따르십시오.
+1. [Adobe 관리 인증서(AMC) 프로그램](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html)에 등록하고 *퍼스트 파티 쿠키* 안내서에 제공된 구현 절차를 따릅니다.
 
    AMC 프로그램은 자사 쿠키를 구현할 때 고객이 겪게 되는 노력과 혼란을 없애는 데 도움이 됩니다. 이 프로그램에 등록하면 Adobe에서 보안 서버에 설치할 인증서를 구매하여 발급합니다.
 
