@@ -8,15 +8,15 @@ subtopic: 시작하기
 title: 데이터를 Target에 가져오는 방법
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: tm+mt
-source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 데이터를 Target에 가져오는 방법{#methods-to-get-data-into-target}
 
-페이지 매개 변수, 페이지 내 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로파일 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 포함하여 데이터를 Target로 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
+페이지 매개 변수, 인페이지 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 비롯하여 데이터를 Target에 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
 
 ## 페이지 매개 변수(&quot;mbox 매개 변수&quot;라고도 함){#section_5A297816173C4FE48DC4FE03860CB42B}
 
@@ -40,7 +40,7 @@ source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
 
 **주문 세부 사항**: 주문 수집을 위해 주문 ID, orderTotal 등을 보냅니다.
 
-**카테고리 관심도**: 특정 사이트 카테고리에 대한 사용자의 관심도에 대한 지식을 구축하기 위해 본 카테고리 정보를 Target에 보냅니다.
+**카테고리 친화성**: 특정 사이트 카테고리에 대한 사용자의 친화성에 대한 지식을 구축하기 위해 본 카테고리 정보를 Target에 보냅니다.
 
 **타사 데이터**: 날씨 타깃팅 제공자, 계정 데이터(예: DemandBase), 인구 데이터(예: Experian) 등과 같은 타사 데이터 소스의 정보를 보냅니다.
 
@@ -52,13 +52,13 @@ source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
 
 * 페이지 코드 업데이트가 필요합니다(직접 또는 태그 관리 시스템 사용).
 * 후속 페이지/서버 호출에서 타깃팅을 위해 데이터를 사용해야 하는 경우 프로필 스크립트로 변환해야 합니다.
-* 쿼리 문자열에는 [IETF(Internet Engineering Task Force) 표준](https://www.ietf.org/rfc/rfc3986.txt)에 대한 문자만 포함될 수 있습니다 .
+* 쿼리 문자열은 [IETF(Internet Engineering Task Force) 표준](https://www.ietf.org/rfc/rfc3986.txt)에 따라 문자만 포함할 수 있습니다.
 
    IETF 사이트에서 언급된 것 외에도, Target은 쿼리 문자열에 다음과 같은 문자를 허용합니다.
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   다른 모든 문자는 URL로 인코딩해야 합니다. The standard specify the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as shown below:
+   다른 모든 문자는 URL로 인코딩해야 합니다. 이 표준에서는 아래 그림과 같이 다음 형식을 지정합니다([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt)).
 
    ![](assets/ietf1.png)
 
@@ -86,7 +86,7 @@ mboxCreate 코드에 있는 매개 변수:
 
 주문 확인: [전환 추적](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
 
-카테고리 관심도: [카테고리 관심도](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+카테고리 친화성: [카테고리 친화성](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
 
 ## 인페이지 프로필 속성(&quot;mbox 내 프로필 속성&quot;이라고도 함) {#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -227,8 +227,8 @@ at.js는 데이터를 캐시하려고 하지 않습니다. 데이터 공급자�
 
 ### 교육 비디오:
 
-* [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 벌크 프로필 업데이트 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -240,7 +240,7 @@ API를 통해 많은 방문자에 대한 방문자 프로필 업데이트를 사
 * 고객 속성 데이터는 Analytics과 공유할 수 있고, 벌크 프로필 업데이트는 Target에서만 사용할 수 있습니다.
 * 고객 속성은 Target이 아직 보지 못한 사용자에 대한 프로필 작성을 지원합니다. 벌크 프로필 업데이트 API는 기존 Target 프로필만 업데이트합니다.
 * 고객 속성에는 Experience Cloud ID(ECID)를 사용해야 합니다. 벌크 프로필 업데이트 API에는 TNT ID나 `mbox3rdPartyId`를 사용해야 합니다.
-* 다음 문자는 보낼 `mbox3rdPartyID`수 없습니다. 더하기 기호 (+) 와 슬래시 (/).
+* `mbox3rdPartyID`에서 더하기 기호(+)와 슬래시(/)는 보낼 수 없습니다.
 
 ### 형식
 
@@ -336,8 +336,8 @@ Experience Cloud ID(ECID) 구현이 필요합니다.
 
 ### 코드 예
 
-세부 사항은 [고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)에서 찾을 수 있습니다 .
+세부 사항은 [고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/ko_KR/mcloud/t_crs_usecase.html)에서 찾을 수 있습니다.
 
 ### 관련 정보 링크
 
-[고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/ko_KR/mcloud/t_crs_usecase.html)
