@@ -1,14 +1,14 @@
 ---
-description: 'at. js에 대한 adobe. target. trackevent (options) 함수에 대한 정보입니다. '
+description: 'at.js에 대한 adobe.target.trackEvent(options) 함수 정보입니다. '
 keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
-seo-description: . js JavaScript 라이브러리의 Adobe Target에 대한 Adobe. Target. trackevent (options) 함수에 대한 정보입니다.
-seo-title: . js JavaScript 라이브러리의 Adobe Target에 대한 Adobe. Target. trackevent (options) 함수에 대한 정보입니다.
+seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.trackEvent(options) 함수 정보입니다.
+seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.trackEvent(options) 함수 정보입니다.
 solution: Target
 subtopic: 시작하기
 title: adobe.target.trackEvent(옵션)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
