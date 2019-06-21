@@ -7,8 +7,8 @@ solution: Target
 title: 디자인 개요
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
-translation-type: tm+mt
-source-git-commit: 3901aa72118adbc0862915da7c8b211090a4e7e7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,11 +17,11 @@ source-git-commit: 3901aa72118adbc0862915da7c8b211090a4e7e7
 
 페이지에 권장 사항이 어떻게 나타나는지를 정의하는 디자인에 대한 개요 정보.
 
-Target에서는 다음 그림에서 보듯이 추천의 전체 모양과 느낌을 제공할 수 있습니다. 디자인은 HTML, JavaScript 및 CSS를 포함할 수 있습니다.
+Target에서는 다음 그림에서 보듯이 권장 사항의 전체 모양과 느낌을 제공할 수 있습니다. 디자인은 HTML, JavaScript 및 CSS를 포함할 수 있습니다.
 
 ![](assets/velocity_example.png)
 
-또한 Target은 이메일 메시지, IoT(사물인터넷) 장치, 콘솔 또는 음성 사용 사례(Amazon Alexa 또는 Google Home)에서 사용할 수 있는 JSON 개체로서 추천 사항을 전송할 수도 있습니다.
+또한 Target은 이메일 메시지, IoT(사물인터넷) 장치, 콘솔 또는 음성 사용 사례(Amazon Alexa 또는 Google Home)에서 사용할 수 있는 JSON 개체로서 권장 사항을 전송할 수도 있습니다.
 
 ## JSON 예 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
@@ -63,18 +63,18 @@ Target에서는 다음 그림에서 보듯이 추천의 전체 모양과 느낌�
 
 1. 이 디자인을 사용하는 양식 기반의 권장 사항 활동을 설정합니다.
 
-   1. [활동] 페이지로 이동합니다.
-   1. **[!UICONTROL 활동 만들기를 클릭합니다]**.
-   1. **[!UICONTROL 추천을 선택합니다]**.
-   1. **[!UICONTROL 경험 작성기 선택]**에서 **[!UICONTROL 양식]**을 선택합니다.
+   1. 활동 페이지로 이동합니다.
+   1. **[!UICONTROL 활동 만들기]** 를 클릭합니다.
+   1. **[!UICONTROL 권장 사항]** 을 선택합니다.
+   1. **[!UICONTROL 경험 작성기 선택]** 에서 **[!UICONTROL 양식]** 을 선택합니다.
 
    1. 위치 아래에 &quot;Sample_Recs_Response&quot;라는 텍스트를 입력합니다.
-   1. **[!UICONTROL 기본 컨텐츠]** 아래에서 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 추천 추가]**를 클릭합니다.
+   1. **[!UICONTROL 기본 컨텐츠]** 아래에서 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 권장 사항 추가]** 를 클릭합니다.
    1. 페이지 유형을 선택합니다. 이 유형은 그 다음 화면의 초기 필터링을 결정합니다.
    1. 기준 카드를 선택한 후, **[!UICONTROL 다음을 클릭합니다]**.
    1. 이전 단계에서 만든 디자인을 선택한 다음, **[!UICONTROL 저장을 클릭합니다]**.
    1. 설정 프로세스를 완료합니다.
-   1. **[!UICONTROL 비활성]** 옆의 오른쪽 화살표를 클릭한 다음, **[!UICONTROL 활성화]**를 선택합니다.
+   1. **[!UICONTROL 비활성]** 옆의 오른쪽 화살표를 클릭한 다음, **[!UICONTROL 활성화]** 를 선택합니다.
 
 1. 활동이 설정되고 활성화된 후 깨끗한 JSON 응답을 다시 가져오는 샘플 요청을 설정할 수 있습니다.
 
@@ -90,10 +90,10 @@ Target에서는 다음 그림에서 보듯이 추천의 전체 모양과 느낌�
 
 | 매개 변수 | 값 |
 |--- |--- |
-| `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드 (../target/products.html # recssettings &gt; Recommendations API 토큰 &gt; 클라이언트 코드에서 사용 가능) |
+| `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(../target/products.html#recs설정 &gt; Recommendations API 토큰 &gt; 클라이언트 코드에서 사용 가능) |
 | `[YOUR_MBOX_NAME]` | 양식 기반 권장 사항의 &quot;위치&quot; 섹션에서 선택한 이름입니다. 이 경우에는 YOUR_CLIENT_CODE입니다. |
 | `[ENTITY_ID`] | 카탈로그에 있는 항목의 `entity.id`입니다. |
-| `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성([엔터프라이즈 권한]의 일부)을 선택한 경우 추가하십시오. |
+| `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
 
 알고리즘이 실행되고 결과가 나오면, 응답은 다음과 같은 모습이어야 합니다.
 
