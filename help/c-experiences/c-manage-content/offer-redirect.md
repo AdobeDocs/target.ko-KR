@@ -7,8 +7,8 @@ solution: Target
 title: 리디렉션 오퍼 만들기
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 리디렉션하는 경험을 설정하는 방법에 대한 자세한 내용은 [URL로 리디렉션](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)을 참조하십시오.
 
-리디렉션 오퍼는 JavaScript 코드를 실행하여 브라우저를 리디렉션합니다. `window.location.replace();` 메서드를 사용하므로 방문자를 리디렉션하는 페이지는 브라우저 기록에 저장되지 않습니다. 방문자는 여전히 브라우저에서 [뒤로] 단추를 사용할 수 있습니다.
+리디렉션 오퍼는 JavaScript 코드를 실행하여 브라우저를 리디렉션합니다. `window.location.replace();` 메서드를 사용하므로 방문자를 리디렉션하는 페이지는 브라우저 기록에 저장되지 않습니다. 방문자는 여전히 브라우저에서 뒤로 단추를 사용할 수 있습니다.
 
 >[!NOTE] {class=&quot;- topic/note &quot;}
 >
@@ -37,8 +37,8 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 **리디렉션 오퍼를 만들려면:**
 
-1. **[!UICONTROL 오퍼]**를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
-1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL 리디렉션 오퍼]**를 클릭합니다.
+1. **[!UICONTROL 오퍼]** 를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
+1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL 리디렉션 오퍼]** 를 클릭합니다.
 1. 오퍼 이름을 입력합니다.
 1. 재지정할 고유 컨텐츠 또는 대상의 URL을 입력하십시오. 절대 URL을 사용해야 합니다.
 
@@ -60,11 +60,11 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 >
 >이 테스트를 실행하기 전에 담당 구현 컨설턴트에게 문의하십시오.
 
-## 교육 비디오: 컨텐츠 저장소 (4:56)
+## 교육 비디오: 콘텐츠 저장소(4:56)
 
 이 비디오에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 
-* [Experience Cloud 자산 라이브러리](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html)와 Target 컨텐츠 라이브러리 간 연결
+* [Experience Cloud 자산 라이브러리](https://marketing.adobe.com/resources/help/ko_KR/mcloud/creative_cloud.html)와 Target 컨텐츠 라이브러리 간 연결
 * 사용자 지정 HTML 오퍼
 * 시각적 경험 작성기의 사용자 지정 HTML 오퍼
 
