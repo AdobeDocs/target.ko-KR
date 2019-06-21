@@ -8,8 +8,8 @@ subtopic: 다변량 테스트
 title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
-translation-type: tm+mt
-source-git-commit: 95bd08b08591fdedfe2c3e17ad6da480de9d49ae
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -49,7 +49,7 @@ Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!D
 * **잘못 정렬된 보고서 세트 ID(구현):** 활동 설정 동안 지정된 보고서 세트가 테스트가 전달된 페이지의 보고서 세트와 일치하지 않습니다. 데이터가 [!DNL Analytics] 서버에서 조정될 수 없으므로 부분 데이터처럼 보입니다.
 * **느린 페이지:** [!DNL Target] 호출이 페이지 위쪽에 있고 [!DNL Analytics] 호출은 일반적으로 페이지 아래쪽에 있으므로 페이지가 느리게 로드되면 [!DNL Target] 호출이 발생한 후, [!DNL Analytics] 호출 이전에 방문자가 페이지를 떠날 가능성이 높아집니다. 이러한 현상은 연결이 종종 더 느려지는 모바일 웹 사이트에서 특히 문제가 될 수 있습니다.
 * **페이지 오류:** JavaScript 오류 또는 각 터치포인트가 개시되지 않는 다른 시나리오가 있는 경우(Experience Cloud ID 서비스, Target 및 Analytics) 부분 데이터가 발생합니다.
-* **활동 리디렉션[!DNL Target]오퍼:** A 4 T를 사용하는 활동의 리디렉션 오퍼의 경우, 구현은 특정 최소 요구 사항을 충족해야 합니다. 또한 사용자가 알아야 하는 중요한 정보도 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)를 참조하십시오.
+* **[!DNL Target]활동의 리디렉션 오퍼:** A4T를 사용하는 활동의 리디렉션 오퍼에 대해서는 구현이 특정 최소 요구 사항을 충족해야 합니다. 또한 사용자가 알아야 하는 중요한 정보도 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)를 참조하십시오.
 * **이전 버전의 라이브러리:** 작년에 Adobe는 데이터가 가능한 한, 효율적으로 전송될 수 있게 하도록 JavaScript 라이브러리([!DNL appMeasurement.js], `at.js/mbox.js` 및 `visitorAPI.js`)를 일부 개선했습니다. 구현 요구 사항에 대해 자세히 알려면 [구현하기 전에](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)를 참조하십시오.
 
 ## 부분 데이터를 줄이는 우수 사례는 무엇입니까? {#section_065C38501527451C8058278054A1818D}
@@ -73,11 +73,11 @@ Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!D
 
 이 변경 내용과 관련된 다음 정보에는 세그먼트를 정의하고 가상 보고서 세트에 적용하여 이 세그먼트가 항상 [!DNL Analytics] 보기에 적용되도록 하는 데 도움이 되는 지침이 포함되어 있습니다.
 
-대부분의 경우 [!DNL Target] 히트는 각 웹 페이지의 [!DNL Analytics] 히트와 연결됩니다. 이 연결은 [!DNL Target]과 [!DNL Analytics] 호출 모두에서 일관된 SDID와 [!DNL Analytics] 호출의 [!DNL Experience Cloud ID] (MCID)가 동일한 페이지에 있는 경우에 발생합니다. [!DNL Target]은 일반적으로 MCID도 포함하지만, [!DNL Target] 호출이 방문자 ID가 반환되기 전에 발생할 경우 SDID 때문에 해당 히트가 여전히 연결됩니다. 또한 사용자는 호출이 실행된 후 [!DNL Analytics] 호출을 실행할 수 있을 만큼 길게 페이지에 남아 [!DNL Target]있어야 합니다. 이것이 이상적인 시나리오입니다.
+대부분의 경우 [!DNL Target] 히트는 각 웹 페이지의 [!DNL Analytics] 히트와 연결됩니다. 이 연결은 [!DNL Target]과 [!DNL Analytics] 호출 모두에서 일관된 SDID와 [!DNL Analytics] 호출의 [!DNL Experience Cloud ID] (MCID)가 동일한 페이지에 있는 경우에 발생합니다. [!DNL Target]은 일반적으로 MCID도 포함하지만, [!DNL Target] 호출이 방문자 ID가 반환되기 전에 발생할 경우 SDID 때문에 해당 히트가 여전히 연결됩니다. 또한 [!DNL Target] 호출이 실행된 후에 [!DNL Analytics] 호출을 실행할 수 있도록 충분히 오랫동안 사용자가 페이지에 머물러야 합니다. 이것이 이상적인 시나리오입니다.
 
 **부분 데이터 히트:** 경우에 따라 사용자가 [!DNL Analytics] 호출을 전송할 만큼 충분히 오래 페이지에 머무르지 않아도 [!DNL Target]에 적절한 MCID가 유지됩니다. 이 경우 부분 데이터 히트([!DNL Analytics] 페이지 보기가 없는 히트)가 발생합니다. 이러한 사용자가 사이트로 돌아가 [!DNL Analytics] 코드를 포함하는 페이지를 보면 재방문자로 적절히 카운트됩니다. 이것은 페이지에 [!DNL Analytics] 코드만 있었으면 손실되었을 수 있는 히트입니다. 일부 클라이언트는 특정 지표(방문)는 부풀리고 다른 지표(방문당 페이지 보기, 방문당 시간 등)는 줄이기 때문에 이러한 히트에 대한 데이터는 원하지 않습니다. 페이지 보기가 없는 방문도 표시됩니다. 그러나 이러한 데이터를 유지해야 하는 적절한 이유는 여전히 있습니다.
 
-부분 데이터 히트를 최소화하려면 페이지를 보다 빠르게 로드하거나, 라이브러리의 최신 버전으로 업데이트하거나, 해당 히트를 제외하는 [가상 보고서 세트](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html)를 만들 수 있습니다. 단계별 지침을 보려면 [ 제품 설명서에서 ](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html)가상 보고서 세트 만들기[!DNL Analytics]를 참조하십시오.
+부분 데이터 히트를 최소화하려면 페이지를 보다 빠르게 로드하거나, 라이브러리의 최신 버전으로 업데이트하거나, 해당 히트를 제외하는 [가상 보고서 세트](https://marketing.adobe.com/resources/help/ko_KR/reference/virtual-report-suites.html)를 만들 수 있습니다. 단계별 지침이 필요하면 [!DNL Analytics] 제품 설명서에서 [가상 보고서 세트 만들기](https://marketing.adobe.com/resources/help/ko_KR/reference/vrs-create.html)를 참조하십시오.
 
 다음 그림은 가상 보고서 세트에 대한 세그먼트 정의를 보여 줍니다.
 
@@ -96,9 +96,9 @@ Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!D
 * And
 * 종료 링크 인스턴스: 없음
 
-**고아 히트:** 일부 상황에서 사용자는 Analytics 호출에 대해 충분히 오랫동안 페이지에 있지 않고 Target는 적절한 MCID를 얻지 못했습니다. 이러한 상황을 &quot;고립된&quot; 히트로 정의합니다. 이러한 히트는 거의 재방문하지 않는 고객을 나타내며, 방문 및 방문자 수를 부적절하게 부풀립니다.
+**고립된 히트: ** 드문 경우이지만 사용자가 Analytics 호출을 위해 충분히 오래 페이지에 머무르지 않았으며 Target이 적절한 MCID를 얻지 못했습니다. 이러한 상황을 &quot;고립된&quot; 히트로 정의합니다. 이러한 히트는 거의 재방문하지 않는 고객을 나타내며, 방문 및 방문자 수를 부적절하게 부풀립니다.
 
-이러한 &quot;고립된&quot; 히트를 최소화하기 위해 위에서 설명된 것처럼 해당 히트를 제외하는 [가상 보고서 세트](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html)를 만들 수 있습니다.
+이러한 &quot;고립된&quot; 히트를 최소화하기 위해 위에서 설명한 대로 이러한 히트를 제외하기 위한 [가상 보고서 세트](https://marketing.adobe.com/resources/help/ko_KR/reference/vrs-create.html)를 만들 수 있습니다.
 
 ## 이것은 내 [!DNL Target] 보고에 어떤 의미가 있습니까? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
