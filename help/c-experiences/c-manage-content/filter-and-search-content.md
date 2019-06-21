@@ -7,8 +7,8 @@ solution: Target
 title: 컨텐츠 검색 및 스마트 컬렉션 만들기
 topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
 
 ## 키워드로 자산 검색 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. **[!UICONTROL 오퍼]** &gt; **[!UICONTROL 이미지 오퍼]**를 클릭하여 [!UICONTROL 자산 라이브러리]에 액세스합니다.
+1. **[!UICONTROL 오퍼]** &gt; **[!UICONTROL 이미지 오퍼]** 를 클릭하여 [!UICONTROL 자산 라이브러리]에 액세스합니다.
 
    오른쪽 위 모서리에 있는 [!UICONTROL 카드 보기] 아이콘을 클릭하여 자산을 카드 보기 형식으로 표시할 수 있습니다.
 
@@ -42,7 +42,7 @@ source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
 
 스마트 컬렉션이라는 저장된 검색을 만들어 유사한 검색을 수행할 때 시간을 절약할 수 있습니다. 저장된 검색은 검색 결과를 사용하여 자동으로 업데이트되는 스마트 컬렉션을 생성합니다.
 
-1. **[!UICONTROL 오퍼]** &gt; **[!UICONTROL 이미지 오퍼]**를 클릭하여 [!UICONTROL 자산 라이브러리]에 액세스합니다.
+1. **[!UICONTROL 오퍼]** &gt; **[!UICONTROL 이미지 오퍼]** 를 클릭하여 [!UICONTROL 자산 라이브러리]에 액세스합니다.
 
    ![](assets/content.png)
 
@@ -56,11 +56,11 @@ source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
    ![](assets/browse_folders2.png)
 
 1. (선택 사항) 필터 범위를 좁히려면 파일 유형 및 크기와 같은 다양한 선택 사항 중에서 선택합니다.
-1. **[!UICONTROL 필터 및 옵션]패널 아래에 있는**[!UICONTROL 스마트 컬렉션]을 클릭하여 [저장] 선택 사항을 표시합니다.
+1. **[!UICONTROL 필터 및 옵션]패널 아래에 있는**[!UICONTROL 스마트 컬렉션]을 클릭하여 저장 선택 사항을 표시합니다.
 
    ![](assets/save_smart_collection_options.png)
 
-1. 스마트 컬렉션 이름을 지정하고, [!DNL Target] 계정에 있는 모든 사용자가 이 스마트 컬렉션에 액세스할 수 있도록 하려는 경우 **[!UICONTROL 공용]** 확인란을 선택한 다음, **[!UICONTROL 저장]**을 클릭합니다.
+1. 스마트 컬렉션 이름을 지정하고, [!DNL Target] 계정에 있는 모든 사용자가 이 스마트 컬렉션에 액세스할 수 있도록 하려는 경우 **[!UICONTROL 공용]** 확인란을 선택한 다음, **[!UICONTROL 저장]** 을 클릭합니다.
 
    나중에 사용할 수 있도록 저장된 검색 목록에 스마트 컬렉션이 추가됩니다.
 
