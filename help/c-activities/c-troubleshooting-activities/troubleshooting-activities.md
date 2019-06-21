@@ -7,8 +7,8 @@ solution: Target
 title: 활동 문제 해결
 topic: 고급,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
-translation-type: tm+mt
-source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,20 +34,20 @@ source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
 **옵션:**
 
 * 테스트를 활성화합니다.
-* [미리 보기 링크]를 사용하여 비활성 테스트를 표시합니다.
+* 미리 보기 링크를 사용하여 비활성 테스트를 표시합니다.
 
 ## 대상 타깃팅 조건을 충족하지 않습니다.
 
-**유효성 검사:**개요 페이지의 타깃팅 조건을 검토합니다.
+**유효성 검사:** 개요 페이지의 타깃팅 조건을 검토합니다.
 
 **옵션:**
 
 * 자격을 제공하고 다시 시도합니다.
-* [미리 보기 링크]를 사용하여 타깃팅 조건을 우회합니다.
+* 미리 보기 링크를 사용하여 타깃팅 조건을 우회합니다.
 
 ## 페이지가 페이지 타깃팅 조건에 적합하지 않습니다.
 
-**유효성 검사:**개요 페이지에서 페이지가 타깃팅 조건을 벗어나는지 판별하십시오.
+**유효성 검사:** 개요 페이지에서 페이지가 타깃팅 조건을 벗어나는지 판별하십시오.
 
 **옵션:**
 
@@ -70,10 +70,10 @@ source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
 
 **옵션:**
 
-Target에서 사용자로 추가된 후 활동을 만들려면 [승인자] 역할이 있어야 합니다.
+Target에서 사용자로 추가된 후 활동을 만들려면 승인자 역할이 있어야 합니다.
 
 * 승인자가 되려면 계정 관리자에게 문의하십시오.
-* 관리자의 경우, Target 표준의 설정 &gt; 사용자에서 자신에게 [승인자] 역할을 지정하십시오.
+* 관리자의 경우, Target 표준의 설정 &gt; 사용자에서 자신에게 승인자 역할을 지정하십시오.
 
    [자신에게 승인자 역할 지정](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)을 참조하십시오.
 
@@ -85,7 +85,7 @@ Target에서 사용자로 추가된 후 활동을 만들려면 [승인자] 역�
 
 * 활동을 다시 빌드합니다.
 
-페이지 수정이 Target의 표시 기능에 미치는 영향에 대한 자세한 내용은 [페이지 수정 시나리오](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+페이지 수정이 Target의 표시 기능에 미치는 영향에 대한 자세한 내용은 [페이지 수정 시나리오](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)를 참조하십시오.
 
 ## 페이지 구조는 페이지 로드 중에 수정됩니다(실행 시).
 
@@ -98,7 +98,7 @@ Target에서 사용자로 추가된 후 활동을 만들려면 [승인자] 역�
 * 테스트할 각 요소를 고유하게 식별하도록 페이지 코드를 업데이트합니다( ID 사용).
 * 위에서 설명한 대로 클래스 또는 동일한 수준의 요소들을 동적으로 수정하지 마십시오.
 
-페이지 수정이 Target의 표시 기능에 미치는 영향에 대한 자세한 내용은 [페이지 수정 시나리오](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+페이지 수정이 Target의 표시 기능에 미치는 영향에 대한 자세한 내용은 [페이지 수정 시나리오](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)를 참조하십시오.
 
 ## Mbox.js가 헤드 및 본문에서 모든 후속 코드를 표시하고 있습니다.
 
@@ -111,9 +111,9 @@ Target에서 사용자로 추가된 후 활동을 만들려면 [승인자] 역�
 
 ## 다른 활동이 동일한 페이지에서 실행 중입니다.
 
-**유효성 검사:** [충돌] 탭을 사용하여 다른 작업이 실행 중인지 확인하십시오.
+**유효성 검사:** 충돌 탭을 사용하여 다른 작업이 실행 중인지 확인하십시오.
 
-**참고:** [충돌] 탭은 템플릿 테스트 모듈에서 작동하지 않습니다.
+**참고:** 충돌 탭은 템플릿 테스트 모듈에서 작동하지 않습니다.
 
 **옵션:**
 
