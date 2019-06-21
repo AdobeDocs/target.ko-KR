@@ -6,8 +6,8 @@ seo-title: 고급 경험 작성기 관련 문제 해결
 solution: Target
 title: 고급 경험 작성기 관련 문제 해결
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
-translation-type: tm+mt
-source-git-commit: 5dbccff982ce59d98b152f24ffa2eec046e4069f
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,9 +36,9 @@ Target에 다음 오류 메시지가 표시될 수 있습니다.
 
 다음은 이 오류 메시지와 상황을 수정할 조치를 볼 수 있는 이유입니다.
 
-* **문제:**웹 사이트 도메인(ISP)에서 고급 경험 작성기를 차단하고 있습니다.
+* **문제:** 웹 사이트 도메인(ISP)에서 고급 경험 작성기를 차단하고 있습니다.
 
-   **해결 방법:**위에 나열된 IP 주소를 허용 목록에 포함하십시오.
+   **해결 방법:** 위에 나열된 IP 주소를 허용 목록에 포함하십시오.
 
 * **문제:** IP 주소는 화이트리스트에 추가되었지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. Target은 현재 1.2의 기본 구성을 사용하고 있습니다. Target 18.4.1(2018년 4월 25일) 이전에는 기본 구성이 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
@@ -55,7 +55,7 @@ Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음
 
    ![](assets/firefox_more_info.png)
 
-1. **[!UICONTROL 연결 세부 사항 표시]** &gt; **[!UICONTROL 추가 정보]**를 클릭하십시오.
+1. **[!UICONTROL 연결 세부 사항 표시]** &gt; **[!UICONTROL 추가 정보]** 를 클릭하십시오.
 
    ![](assets/firefox_more_info_2.png)
 
