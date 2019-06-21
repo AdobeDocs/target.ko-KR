@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 고급
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -53,7 +53,7 @@ Random Forest는 선도적인 기계 학습 접근 방식입니다. 데이터 �
 
 * MAB(Multi-Arm Bandit)는 모델이 활동 수명 동안 지속적으로 학습하고, 이전에 학습한 트렌드를 과도하게 이용하지 않도록 하기 위해 항상 트래픽의 일부만 &quot;사용&quot;하고 있는지 확인합니다.
 * 기본 모델은 24시간마다 재구축되며, 최신 방문자 동작 데이터를 사용하여 달라지는 방문자 기본 설정이 Target에서 항상 활용되도록 합니다.
-* 이 알고리즘은 개별 방문자의 성과가 좋은 경험을 파악할 수 없는 경우 개인화된 승자를 계속 찾으면서, 전반적으로 가장 성과가 좋은 경험을 표시하는 방식으로 자동으로 전환됩니다. 최고 성과를 보이는 경험은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 확인되었습니다.
+* 이 알고리즘은 개별 방문자의 성과가 좋은 경험을 파악할 수 없는 경우 개인화된 승자를 계속 찾으면서, 전반적으로 가장 성과가 좋은 경험을 표시하는 방식으로 자동으로 전환됩니다. 성과가 가장 좋은 경험은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 발견됩니다.
 
 **이 모델은 계속해서 단일 목표 지표를 최적화합니다.**
 
