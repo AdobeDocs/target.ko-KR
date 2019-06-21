@@ -7,8 +7,8 @@ solution: Target
 title: 오퍼 폴더 만들기
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,8 +17,8 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
 
 오퍼 라이브러리에서 항목을 보관할 폴더를 만듭니다.
 
-1. **[!UICONTROL 오퍼]**를 클릭한 다음 **[!UICONTROL 코드 오퍼]** 또는 **[!UICONTROL 이미지 오퍼]** 탭을 적절하게 선택합니다.
-1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL 폴더]**를 클릭합니다.
+1. **[!UICONTROL 오퍼]** 를 클릭한 다음 **[!UICONTROL 코드 오퍼]** 또는 **[!UICONTROL 이미지 오퍼]** 탭을 적절하게 선택합니다.
+1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL 폴더]** 를 클릭합니다.
 1. 다음 필드를 채웁니다.
 
    | 필드 | 설명 |
@@ -28,7 +28,7 @@ source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
    | 비공개(이미지 오퍼에만 적용) | 사용자만 폴더 및 해당 컨텐츠를 볼 수 있도록 폴더를 비공개로 지정합니다. |
    | 목록 보기에서 순서 조정 가능(이미지 오퍼에만 적용) | 사용자 및 다른 사용자가 목록 보기에서 폴더의 위치를 다시 정렬할 수 있도록 지정합니다.<br>카드 보기와 목록 보기 간을 전환하려면 컨텐츠 라이브러리의 오른쪽 맨 위 모서리에 있는 카드 보기 아이콘 또는 목록 보기 아이콘을 클릭합니다. 보기 설정을 선택하여 목록 보기에서 열을 포함하거나 제외할 수도 있습니다. |
 
-1. **[!UICONTROL 만들기]**를 클릭합니다.
+1. **[!UICONTROL 만들기]** 를 클릭합니다.
 
 ## 코드 오퍼 선택 사항
 
