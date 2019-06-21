@@ -7,8 +7,8 @@ solution: Target
 title: mbox3rdPartyID에 대한 실시간 프로필 동기화
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
-translation-type: tm+mt
-source-git-commit: 17f0612559bae335d261ebc7654bc5d7fe3c0d12
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,4 +34,4 @@ Target이 활성화된 페이지에 방문자가 액세스하면 해당 방문�
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] 프로필이 mbox 3 rdpartyid를 기반으로 [!DNL Adobe Experience Cloud] 병합될 수 [!DNL Target] 있고 여전히 활동 정보가 있는 경우에도 방문자가 장치 변경을 변경하는 경우 (예: 방문자가 장치 변경) 목표가 추적되지 않습니다. 동일한 MID로 식별된 방문자의 경우 (동일한 장치로 페이지에 액세스하는 경우), [!DNL Analytics for Target] (A 4 T) 이 예상대로 작동해야 합니다.
+>[!DNL Target] 프로필이 mbox3rdPartyID를 기반으로 병합될 수 있고 여전히 활동 정보가 있더라도 MID([!DNL Adobe Experience Cloud] ID)가 변경되는 경우(예: 방문자가 장치 변경) [!DNL Adobe Analytics] 목표가 추적되지 않습니다. 동일한 MID로 식별된 방문자의 경우(동일한 장치로 페이지에 액세스하는 방문자) A4T([!DNL Analytics for Target])가 예상대로 작동해야 합니다.
