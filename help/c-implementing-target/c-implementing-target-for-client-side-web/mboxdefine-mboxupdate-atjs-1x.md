@@ -1,14 +1,14 @@
 ---
-description: 'at. js에 대한 mboxdefine () 및 mboxupdate () 함수에 대한 정보입니다. '
+description: 'at.js에 대한 mboxDefine() 및 mboxUpdate() 함수 정보입니다. '
 keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
-seo-description: . js JavaScript 라이브러리의 Adobe Target에 대한 mboxdefine () 및 mboxupdate () 함수에 대한 정보입니다.
-seo-title: . js JavaScript 라이브러리의 Adobe Target에 대한 mboxdefine () 및 mboxupdate () 함수에 대한 정보입니다.
+seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 mboxDefine() 및 mboxUpdate() 함수 정보입니다.
+seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 mboxDefine() 및 mboxUpdate() 함수 정보입니다.
 solution: Target
 subtopic: 시작하기
 title: mboxDefine() 및 mboxUpdate() - at.js 1.x
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Target에서 mbox를 정의하고 업데이트합니다.
 
 >[!NOTE]
 >
->이 함수들은 at.js 버전 1.*x*에만 사용할 수 있습니다. 이러한 기능은 at. js 2. x의 릴리스에서 더 이상 사용되지 않습니다. 이러한 함수는. js 2. x와 함께 사용되는 경우 기본 컨텐트를 반환합니다.
+>이 함수들은 at.js 버전 1.*x*에만 사용할 수 있습니다. 이러한 함수는 at.js 2.x의 릴리스에서 더 이상 사용되지 않으며, at.js 2.x에서 사용하는 경우 기본 콘텐츠를 반환합니다.
 
 `mboxDefine()` 및 `mboxCreate()`은 오퍼가 표시되어야 하는 HTML DIV 요소에 연결되어 있습니다. 이러한 HTML DIV 요소에는 `mboxDefault` 클래스가 있어야 합니다. HTML 요소에 이 클래스가 첨부되어 있지 않으면 깜박임이 느껴질 수 있습니다.
 
@@ -29,7 +29,7 @@ nodeId와 mbox 이름 사이에 내부 매핑을 만들되, 요청을 실행하�
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-요청을 실행하고 `nodeId`()의 `mboxDefine()`로 식별되는 요소에 오퍼를 적용합니다. `mboxCreate`로 시작된 mbox를 업데이트하는 데도 사용할 수 있습니다. 주로 [!DNL mbox.js]에서 [!DNL at.js]로 간편하게 전환하기 위해 [!DNL at.js]에 내장되어 있습니다. `mboxDefine()`/ `mboxUpdate()` 선택기 옵션을 사용하여 [adobe. target. getoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 및 [adobe. target. applyoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) 로 대체할 수 있습니다.
+요청을 실행하고 `nodeId`()의 `mboxDefine()`로 식별되는 요소에 오퍼를 적용합니다. `mboxCreate`로 시작된 mbox를 업데이트하는 데도 사용할 수 있습니다. 주로 [!DNL mbox.js]에서 [!DNL at.js]로 간편하게 전환하기 위해 [!DNL at.js]에 내장되어 있습니다. `mboxDefine()`/ `mboxUpdate()`는 선택기 옵션을 사용하여 [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 및 [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)로 대체할 수 있습니다.
 
 ## 예 {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 
