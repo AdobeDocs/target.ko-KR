@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,16 +29,16 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
    또는
 
-   사용자 지정 디자인을 만들려면 ****권장 사항 &gt; 디자인] 화면에서 **[!UICONTROL 디자인 만들기]를 클릭합니다.[!UICONTROL **
+   사용자 지정 디자인을 만들려면 **** 권장 사항 &gt; 디자인] 화면에서 **[!UICONTROL 디자인 만들기]를 클릭합니다.[!UICONTROL **
 
    ![](assets/createDesign.png)
 
-1. **[!UICONTROL 컨텐츠 이름]**을 추가합니다.
+1. **[!UICONTROL 컨텐츠 이름]** 을 추가합니다.
 
    기본 디자인을 사용하면 디자인 이름과 &quot;복사본&quot;이 **[!UICONTROL 컨텐츠 이름]필드에 나타납니다.** 이름을 편집할 수 있습니다. 1. (선택 사항): 디자인 카드에 표시할 이미지를 선택하려면 클릭합니다.
-1. 디자인 **[!UICONTROL 코드]**를 편집합니다.
+1. 디자인 **[!UICONTROL 코드]** 를 편집합니다.
 
-   권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 [](https://velocity.apache.org)https://velocity.apache.org에서 알 수 있습니다.
+   권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 [https://velocity.apache.org](https://velocity.apache.org)에서 알 수 있습니다.
 
    디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 수행할 수 있도록 <div> 태그로 래핑되어 있습니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다.
 
