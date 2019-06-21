@@ -1,14 +1,14 @@
 ---
-description: 'at. js에 대한 adobe. target. applyoffer (options) 함수에 대한 정보입니다. '
+description: 'at.js에 대한 adobe.target.applyOffer(options) 함수 정보입니다. '
 keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
-seo-description: . js JavaScript 라이브러리의 Adobe Target에 대한 Adobe. Target. applyoffer (options) 함수에 대한 정보입니다.
-seo-title: . js JavaScript 라이브러리의 Adobe Target에 대한 Adobe. Target. applyoffer (options) 함수에 대한 정보입니다.
+seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.applyOffer(options) 함수 정보입니다.
+seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.applyOffer(options) 함수 정보입니다.
 solution: Target
 subtopic: 시작하기
 title: adobe.target.applyOffer(옵션)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
 
 | 키 | 유형 | 필수 | 설명 |
 |--- |--- |--- |--- |
-| mbox | 문자열 | 예 | mbox namewith<br>at. js 1.3.0 (이상) Target는 mbox 키가 사용된다고 적용합니다. 이 키는 과거에는 필요했지만 현재 Target에서는 이 키를 적용하여 적절한 유효성 검사가 수행되는지와 고객이 함수를 올바르게 사용하고 있는지를 확인합니다. |
+| mbox | 문자열 | 예 | Mbox 이름<br>at.js 1.3.0(및 이후 버전)을 사용하면 Target에서 mbox 키를 사용하도록 강제 적용합니다. 이 키는 과거에는 필요했지만 현재 Target에서는 이 키를 적용하여 적절한 유효성 검사가 수행되는지와 고객이 함수를 올바르게 사용하고 있는지를 확인합니다. |
 | selector | 문자열 또는 DOM 요소 | 아니오 | Target이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. 선택기를 제공하지 않으면 Target은 사용되는 HTML 요소를 HTML HEAD로 간주합니다. |
 | 있습니까 | 배열 | 예 | 요소에 적용되어야 하는 배열 작업입니다. |
 
