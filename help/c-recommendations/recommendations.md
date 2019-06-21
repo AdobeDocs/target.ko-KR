@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -59,8 +59,8 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target 기본 웨비나: Recommendations 소개 {#intro-to-recs}
+## Adobe Target 기본 사항 웨비나: Recommendations 소개 {#intro-to-recs}
 
-Recommendations에 대한 소개 웨비나에는 값을 활용하는 방법에 대한 심도 있는 탐색이 포함되어 [!DNL Adobe Target Recommendations]있습니다. 이전 방문 횟수를 기반으로 하는 실시간 제안을 최적화하여 고객의 [!DNL Target] 흥미를 끌 수 있는 제품 또는 컨텐츠를 자동으로 표시하는 방법을 알아봅니다. 또한 [!DNL Target] UI를 통해 [!DNL Recommendations] 활동을 구축하는 방법에 대한 단계별 개요를 확인할 수 있습니다.
+Recommendations 소개 웨비나에서는 [!DNL Adobe Target Recommendations] 값을 활용하는 방법을 자세히 살펴봅니다. 이 [!DNL Target] 활동에서는 이전 방문 횟수에 따라 실시간 제안을 최적화하여 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시하는 방법을 알아봅니다. 또한 [!DNL Target] UI에서 [!DNL Recommendations] 활동을 구축하는 방법에 관한 단계별 개요를 살펴보십시오.
 
 [Recommendations 소개](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
