@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
 
 ## 오퍼로서의 Recommendations
 
-A/B [!UICONTROL 테스트] ( [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟 포함]) 및 [!UICONTROL 경험 타깃팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+[!UICONTROL A/B 테스트] ([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 포함)와 XT([!UICONTROL 경험 타깃팅]) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해줍니다.
 
@@ -48,7 +48,7 @@ A/B [!UICONTROL 테스트] ( [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 �
 
 ## 기준 {#section_117709846DAA404580EBE879FFCBD9BA}
 
-[!DNL Target Recommendations]는 사전 패키징된 규칙 및 구성 세트가 들어 있는 기준 라이브러리를 포함합니다. [!DNL Recommendations Classic]에서 각 추천은 양식에 입력하고 큰 규칙 목록에서 선택하여 수동으로 빌드되었습니다. 이제 [!DNL Recommendations] 활동을 작성할 때에는 사전 구성된 기준 세트를 선택하면 됩니다. 여전히 사용자 지정 권장 사항을 만들 수 있지만, 기준 라이브러리에는 프로세스를 단순화하도록 사전 빌드되어 있고 사용자가 이해하는 언어를 사용하는 가장 공통적인 구성들이 많이 포함되어 있습니다. 이렇게 사전 패키징된 기준은 그대로 사용하거나, 복사하여 특정 요구에 맞게 편집할 수 있습니다.
+[!DNL Target Recommendations]는 사전 패키징된 규칙 및 구성 세트가 들어 있는 기준 라이브러리를 포함합니다. [!DNL Recommendations Classic]에서 각 권장 사항은 양식에 입력하고 큰 규칙 목록에서 선택하여 수동으로 빌드되었습니다. 이제 [!DNL Recommendations] 활동을 작성할 때에는 사전 구성된 기준 세트를 선택하면 됩니다. 여전히 사용자 지정 권장 사항을 만들 수 있지만, 기준 라이브러리에는 프로세스를 단순화하도록 사전 빌드되어 있고 사용자가 이해하는 언어를 사용하는 가장 공통적인 구성들이 많이 포함되어 있습니다. 이렇게 사전 패키징된 기준은 그대로 사용하거나, 복사하여 특정 요구에 맞게 편집할 수 있습니다.
 
 ![](assets/overview_criteria.png)
 
