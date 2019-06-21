@@ -7,8 +7,8 @@ solution: Target
 title: 오퍼 컨텐츠 미리 가져오기
 topic: 고급,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
-translation-type: tm+mt
-source-git-commit: 5d8d4bb43a6181dfff2be49072d1cc7fbbcbba68
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,5 +23,5 @@ source-git-commit: 5d8d4bb43a6181dfff2be49072d1cc7fbbcbba68
 
 미리 가져오기 방법, 공용 클래스 및 코드 샘플을 포함한 자세한 내용은 다음을 참조하십시오.
 
-* **iOS:**[* Ios SDK 4. x 용 * iOS SDK 4. x 안내서의 오퍼](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) 콘텐츠 프리페치를 참조하십시오.
-* **Android:**[Experience Cloud Solutions용 Android SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) 안내서의 *Android에서 오퍼 컨텐츠 미리 가져오기*.
+* **iOS:** *Experience Cloud Solutions용 iOS SDK 4.x* 안내서의 [iOS에서 오퍼 컨텐츠 미리 가져오기](https://marketing.adobe.com/resources/help/ko_KR/mobile/ios/c_mob_target-prefetch_ios.html).
+* **Android:** *Experience Cloud Solutions용 Android SDK 4.x* 안내서의 [Android에서 오퍼 컨텐츠 미리 가져오기](https://marketing.adobe.com/resources/help/ko_KR/mobile/android/c_mob_target-prefetch_android.html).
