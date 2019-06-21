@@ -1,14 +1,14 @@
 ---
-description: 'at. js에 대한 mboxcreate (mbox, params) 함수에 대한 정보입니다. '
+description: 'at.js에 대한 mboxCreate(mbox,params) 함수 정보입니다. '
 keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
-seo-description: . js JavaScript 라이브러리의 Adobe Target에 대한 mboxcreate (mbox, params) 함수에 대한 정보입니다.
-seo-title: . js JavaScript 라이브러리의 Adobe Target에 대한 mboxcreate (mbox, params) 함수에 대한 정보입니다.
+seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 mboxCreate(mbox,params) 함수 정보입니다.
+seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 mboxCreate(mbox,params) 함수 정보입니다.
 solution: Target
 subtopic: 시작하기
 title: mboxCreate(mbox,params) - at.js 2.x
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
 
 >[!NOTE]
 >
->이 함수는 at.js 버전 1.*x*에만 사용할 수 있습니다. 이 함수는 at. js 2. x의 릴리스에서 더 이상 사용되지 않습니다. 이 함수는. js 2. x와 함께 사용되는 경우 기본 컨텐트를 반환합니다.
+>이 함수는 at.js 버전 1.*x*에만 사용할 수 있습니다. 이 함수는 at.js 2.x의 릴리스에서 더 이상 사용되지 않으며, at.js 2.x에서 사용하는 경우 기본 콘텐츠를 반환합니다.
 
 이 함수는 주로 [!DNL mbox.js]에서 [!DNL at.js]로 간편하게 전환하기 위해 [!DNL at.js]에 내장되어 있습니다. `mboxCreate()`에 대한 최신 대안은 `adobe.target.getOffer()`/`adobe.target.applyOffer()` 또는 Angular 지시문입니다.
 
