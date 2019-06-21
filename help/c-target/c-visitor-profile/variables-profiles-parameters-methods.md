@@ -7,8 +7,8 @@ solution: Target
 title: 프로필 및 변수 용어집
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
-translation-type: tm+mt
-source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,16 +22,16 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 | 프로필 | 참고 |
 |--- |--- |
 | user.activeActivities<br>user.activeCampaigns | 사용자가 현재 세션에서 캠페인/활동과 상호 작용하지 않더라도 사용자가 참여하는 모든 캠페인/활동에 대한 캠페인 ID를 반환합니다. |
-| user.pcId |
-| user.sessionId |
-| user.categoryAffinity |
+| user.pcId |  |
+| user.sessionId |  |
+| user.categoryAffinity |  |
 | user.categoryAffinities | 방문자가 채운 다수의 관심 사항을 반환합니다. |
-| user.isFirstSession |
-| user.isNewSession |
-| user.daysSinceLastVisit |
+| user.isFirstSession |  |
+| user.isNewSession |  |
+| user.daysSinceLastVisit |  |
 | user.browser | 사용자 에이전트 |
 | user.header | mbox 요청 헤더 데이터의 모든 `user.header` 프로필이 내장되어 있습니다. |
-| user.header(&#39;x-cluster-client-ip&#39;) | 방문자가 켜져 있는 네트워크 연결의 공개 IP 주소입니다.<br>예를 들어 [whatismyip.com](https://www.whatismyip.com/)/과 같은 여러 가지 방법으로 주소를 얻을 수 있습니다. IP 주소는 10., 192.168. 또는 172.으로 시작하는 NAT 주소(내부 주소)가 아닙니다. |
+| user.header(&#39;x-cluster-client-ip&#39;) | 방문자가 켜져 있는 네트워크 연결의 공개 IP 주소입니다.<br>예를 들어 [whatismyip.com](https://www.whatismyip.com/)과 같은 여러 가지 방법으로 주소를 얻을 수 있습니다. IP 주소는 10., 192.168. 또는 172.으로 시작하는 NAT 주소(내부 주소)가 아닙니다. |
 | user.header(&#39;host&#39;) | 웹 사이트 호스트 이름 |
 | user.header(&#39;cookie&#39;) | 방문자 쿠키 데이터 |
 | user.header(&#39;user-agent&#39;) | 방문자 브라우저 사용자-에이전트 |
@@ -40,16 +40,16 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 | user.header(&#39;accept&#39;) | 방문자 언어 및 문자 인코딩 |
 | user.header(&#39;connection&#39;) | 서버 연결. 예: keep-live |
 | user.header(&#39;referrer&#39;) | 방문자 현재 페이지의 웹 사이트 URL. Internet Explorer에 대해 작동하지 않습니다. |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.get(&#39;param_name&#39;) |
+| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.get(&#39;param_name&#39;) |  |
 | user.parameter | 프로필 스크립트에서 만든 지속적 프로필 속성입니다. 지리적 위치, 방문 수 등과 같은 &quot;시스템&quot; 프로필도 참조합니다. |
-| profile.get(&#39;param_name&#39;) |
-| profile.param(&#39;param_name&#39;); |
-| profile.parameter(&#39;parameter_name&#39;); | profile.  접두사로 인해 영구적으로 지정되는 Mbox 매개 변수입니다. |
+| profile.get(&#39;param_name&#39;) |  |
+| profile.param(&#39;param_name&#39;); |  |
+| profile.parameter(&#39;parameter_name&#39;); | profile.  prefix로 인해 영구적으로 지정되는 Mbox 매개 변수입니다. |
 | profile.browserTime | 방문자의 로컬 브라우저 시간. 시스템 시간의 경우 프로필 스크립트에서 새로운 날짜 개체를 만듭니다. |
-| profile.averageDaysBetweenVisits |
-| profile.sessionCount |
+| profile.averageDaysBetweenVisits |  |
+| profile.sessionCount |  |
 | parameter= | mbox와 함께 제공되는 (일반적으로 이름/값 쌍으로) 추가 값에 대한 일반 용어입니다. `profile.parameter`나 `user.parameter`로 설정되지 않는 한, 지속적이지 않습니다. |
 
 ## URL 변수 {#section_8F25958273164EBAA6DC659302993FD3}
@@ -80,8 +80,8 @@ source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
 
 | 변수 | 참고 |
 |--- |--- |
-| `mbox.name` |
-| mbox.param(&#39;param_name&#39;) |
+| `mbox.name` |  |
+| mbox.param(&#39;param_name&#39;) |  |
 | 모든 요청을 통해 자동 전달된 매개 변수:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 주문 mbox를 통해 전달된 매개 변수:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | 고객 ID를 Target의 mboxPCID와 동기화하는 mbox 매개 변수입니다. 고객 ID는 회사에서 방문자를 추적하는 데 사용하는 CRM ID, 멤버십 ID 또는 유사한 ID입니다. 그런 후 이 ID를 사용하여 프로필 API 및 [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
