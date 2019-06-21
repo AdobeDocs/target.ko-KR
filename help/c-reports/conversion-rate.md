@@ -7,8 +7,8 @@ solution: Target
 title: 전환율
 topic: 고급,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: tm+mt
-source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
 
 ## 소매 데이터 {#section_30A674731BA6440E9BB93C421BE990EE}
 
-[주문](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html)(`orderConfirmPage`) mbox를 삽입하여 전환 mbox로 선택한 경우 각 경험에 대해 AOV, RPV 및 판매 데이터가 표시됩니다.
+[주문](https://marketing.adobe.com/resources/help/ko_KR/target/ov/t_orderconfirm_create.html)(`orderConfirmPage`) mbox를 삽입하여 전환 mbox로 선택한 경우 각 경험에 대해 AOV, RPV 및 판매 데이터가 표시됩니다.
 
 ## 신뢰 수준 및 신뢰 구간{#concept_0D0002A1EBDF420E9C50E2A46F36629B}의 &quot;Analytics for Target (A4T)에 사용할 오프라인 계산 수행&quot;을 참조하십시오 
 
@@ -70,7 +70,7 @@ source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
 
 ### 신뢰도 수준 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-*신뢰 수준*은 각 경험에 대한 [전환율] 열에 짙은 비율로 표시됩니다.
+*신뢰 수준*은 각 경험에 대한 전환율 열에 짙은 비율로 표시됩니다.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
@@ -96,7 +96,7 @@ source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
 
 ![](assets/conversion_rate.png)
 
-**예:** 경험의 RPV는 $10이고 신뢰 수준은 95%이며 **신뢰 구간**은 $5~$15입니다. 이 테스트를 여러 번 실행한 경우 95%의 시간에 RPV가 $5~$15였습니다.
+**예:** 경험의 RPV는 $10이고 신뢰 수준은 95%이며 **신뢰 구간** 은 $5~$15입니다. 이 테스트를 여러 번 실행한 경우 95%의 시간에 RPV가 $5~$15였습니다.
 
 **신뢰도 구간은 어떤 영향을 미칩니까?** 관련 공식은 신뢰 구간을 계산하는 표준 통계 방법을 따릅니다.
 
@@ -124,22 +124,22 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 **[!DNL Analytics]데이터 내보내기 기능을 사용하여 다음을 수행하십시오.**
 
 1. [!DNL Adobe Analytics]에 로그인합니다.
-1. **[!UICONTROL 도구]** &gt; **[!UICONTROL Data Warehouse]**를 클릭합니다.
+1. **[!UICONTROL 도구]** &gt; **[!UICONTROL Data Warehouse]** 를 클릭합니다.
 1. **[!UICONTROL 데이터 웨어하우스 요청]탭에서 필드를 채웁니다.**
 
-   각 필드에 대한 자세한 내용은 [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
+   각 필드에 대한 자세한 내용은 [Data Warehouse](https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse.html)의 &quot;Data Warehouse 설명&quot;을 참조하십시오.
 
    | 필드 | 지침 |
    |--- |--- |
    | 요청 이름 | 요청에 사용할 이름을 지정하십시오. |
-   | 보고 날짜 | 기간 및 세부기간을 지정하십시오.<br>가장 좋은 방법은 첫 번째 요청에 대해 1시간 또는 하루 이하의 데이터를 선택하는 것입니다.  Data Warehouse 파일은 요청된 시간이 길수록 처리하는 데 걸리는 시간도 더 걸리므로, 항상 파일이 예상한 결과를 반환하도록 작은 기간 데이터를 먼저 요청하는 것이 좋습니다. 그런 다음 [요청 관리자]로 이동하여 요청을 복제하고 두 번째는 더 많은 데이터를 요청하십시오. 또한 세부기간을 &quot;없음&quot; 이외의 값으로 전환하면 파일 크기가 크게 증가합니다.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
+   | 보고 날짜 | 기간 및 세부기간을 지정하십시오.<br>가장 좋은 방법은 첫 번째 요청에 대해 1시간 또는 하루 이하의 데이터를 선택하는 것입니다.  Data Warehouse 파일은 요청된 시간이 길수록 처리하는 데 걸리는 시간도 더 걸리므로, 항상 파일이 예상한 결과를 반환하도록 작은 기간 데이터를 먼저 요청하는 것이 좋습니다. 그런 다음 요청 관리자로 이동하여 요청을 복제하고 두 번째는 더 많은 데이터를 요청하십시오. 또한 세부기간을 &quot;없음&quot; 이외의 값으로 전환하면 파일 크기가 크게 증가합니다.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | 사용 가능한 세그먼트 | 필요에 따라 세그먼트를 적용하십시오. |
-   | 분류 | 원하는 차원을 선택하십시오.  [표준]은 즉시 사용할 수 있는(OOTB) 반면, [사용자 지정]에는 eVar 및 prop이 포함되어 있습니다. 방문자 ID 수준 정보가 필요한 경우 &quot;Experience Cloud 방문자 ID&quot;가 아닌 &quot;방문자 ID&quot;를 사용하는 것이 좋습니다.<ul><li>방문자 ID는 Analytics에서 사용되는 최종 ID로서, AID(이전부터 있었던 고객인 경우) 또는 MID(MC 방문자 ID 서비스가 시작된 이후 신규 고객이거나 쿠키가 지워진 고객인 경우)입니다.</li><li>Experience Cloud 방문자 ID는 MC 방문자 ID 서비스가 시작된 이후 새 쿠키 또는 지워진 쿠키인 고객에 대해서만 설정됩니다.</li></ul> |
-   | 지표 | 원하는 지표를 선택하십시오. [표준]은 OOTB인 반면, [사용자 지정]에는 사용자 지정 이벤트가 포함됩니다. |
+   | 분류 | 원하는 차원을 선택하십시오.  표준은 즉시 사용할 수 있는(OOTB) 반면, 사용자 지정에는 eVar 및 prop이 포함되어 있습니다. 방문자 ID 수준 정보가 필요한 경우 &quot;Experience Cloud 방문자 ID&quot;가 아닌 &quot;방문자 ID&quot;를 사용하는 것이 좋습니다.<ul><li>방문자 ID는 Analytics에서 사용되는 최종 ID로서, AID(이전부터 있었던 고객인 경우) 또는 MID(MC 방문자 ID 서비스가 시작된 이후 신규 고객이거나 쿠키가 지워진 고객인 경우)입니다.</li><li>Experience Cloud 방문자 ID는 MC 방문자 ID 서비스가 시작된 이후 새 쿠키 또는 지워진 쿠키인 고객에 대해서만 설정됩니다.</li></ul> |
+   | 지표 | 원하는 지표를 선택하십시오. 표준은 OOTB인 반면, 사용자 지정에는 사용자 지정 이벤트가 포함됩니다. |
    | 보고서 미리 보기 | 보고서를 예약하기 전에 설정을 검토하십시오.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | 배달 예약 | 파일을 전달할 이메일 주소를 입력하고 파일 이름을 지정한 다음, [!UICONTROL 즉시 전송]을 선택하십시오.<br>참고: [!UICONTROL 고급 배달 선택 사항] 아래에서 FTP를 통해 파일을 제공할 수 있습니다.<br>![배달 예약](/help/c-reports/assets/datawarehouse3.png) |
 
-1. **[!UICONTROL 이 보고서 요청]**을 클릭합니다.
+1. **[!UICONTROL 이 보고서 요청]** 을 클릭합니다.
 
    파일 배달은 요청된 데이터의 양에 따라 최대 72시간이 걸릴 수 있습니다. [!UICONTROL 도구] &gt; [!UICONTROL Data Warehouse] &gt; [!UICONTROL 요청 관리자]를 클릭하여 언제든지 요청의 진행 상태를 확인할 수 있습니다.
 
@@ -147,8 +147,8 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 
 [!DNL Data Warehouse]에 대한 자세한 내용은 [!DNL Analytics] 도움말 설명서에서 다음 링크를 참조하십시오.
 
-* [Data Warehouse 요청 만들기](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Data Warehouse 우수 사례](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [Data Warehouse 요청 만들기](https://marketing.adobe.com/resources/help/ko_KR/reference/t_dw_create_request.html)
+* [Data Warehouse 우수 사례](https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse_bp.html)
 
 ## 계산 방법론{#concept_EC19BC897D66411BABAF2FA27BCE89AA}을 참조하십시오 
 
@@ -175,7 +175,7 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 
    새 컴퓨터 또는 새 브라우저에서 사이트를 방문하거나, 쿠키를 삭제하거나, 전환하고 동일한 쿠키를 사용하여 활동으로 돌아가면 새 참여자로 카운트됩니다. 참여자는 방문자 mbox 쿠키의 PCID로 식별됩니다. PCID가 변경되면 새 방문자로 간주됩니다.
 
-* **방문:**단일 30분 브라우저 세션 중 경험의 고유 참가자입니다.
+* **방문:** 단일 30분 브라우저 세션 중 경험의 고유 참가자입니다.
 
    전환에 성공하거나 방문자가 30분 이상 사이트를 나갔다가 돌아오는 경우 돌아온 방문자가 새 방문으로 카운트됩니다. 방문은 방문자 mbox 쿠키의 `sessionID`로 식별됩니다. `sessionID`가 변경되면 새 방문으로 간주됩니다.
 
