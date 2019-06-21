@@ -6,8 +6,8 @@ seo-title: 시각적 경험 작성기에 관련된 문제 해결
 solution: Target
 title: 시각적 경험 작성기에 관련된 문제 해결
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,7 +33,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 고급 경험 작성기에서 문제가 발생할 경우 고급 경험 작성기를 끄고 시각적 경험 작성기를 대신 사용합니다.
 
-고급 경험 작성기를 비활성화하려면 **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]**으로 이동한 후 **[!UICONTROL 고급 경험 작성기 활성화]** 선택 사항을 끄십시오.
+고급 경험 작성기를 비활성화하려면 **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]** 으로 이동한 후 **[!UICONTROL 고급 경험 작성기 활성화]** 선택 사항을 끄십시오.
 
 일부 사용자의 경우 콘솔에 다음과 같은 오류 메시지가 표시됩니다.
 
@@ -74,8 +74,8 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
    * 규칙 이름
    * 수정 규칙
 
-      * **[!UICONTROL 추가]**에서 **[!UICONTROL 제거]**로 전환합니다.
-      * **[!UICONTROL 요청]**에서 **[!UICONTROL 응답]**으로 전환합니다.
+      * **[!UICONTROL 추가]** 에서 **[!UICONTROL 제거]** 로 전환합니다.
+      * **[!UICONTROL 요청]** 에서 **[!UICONTROL 응답]** 으로 전환합니다.
       * 헤더 이름으로 &quot;X-Frame-Options&quot;를 입력합니다.
       * 이전 단계를 반복하고 헤더 이름으로 &quot;x-frame-options&quot;를 입력합니다.
 
@@ -83,7 +83,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
          >
          >Requestly를 통해 조작되는 헤더는 대/소문자를 구분합니다.
 
-      * 소스 URL에 대한 조건으로 **[!UICONTROL 다음과 같음]**을 **포함]으로 변경하고, VEC에 로드하려는 활동의 URL을 입력합니다.[!UICONTROL **
+      * 소스 URL에 대한 조건으로 **[!UICONTROL 다음과 같음]** 을 **포함]으로 변경하고, VEC에 로드하려는 활동의 URL을 입력합니다.[!UICONTROL **
       ![](assets/chrome_extension.png)
 
 
