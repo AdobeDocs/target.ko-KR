@@ -8,8 +8,8 @@ title: 자동화된 개인화 요약 보고서
 title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 badge: premium
-translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
 >
 >자동화된 개인화는 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에는 포함되어 있지 않습니다.
 
-1. **[!UICONTROL 활동]**을 클릭하고 목록에서 원하는 [!UICONTROL 자동화된 개인화] 활동을 클릭한 다음, **보고서[!UICONTROL 탭을 클릭합니다.]**
+1. **[!UICONTROL 활동]** 을 클릭하고 목록에서 원하는 [!UICONTROL 자동화된 개인화] 활동을 클릭한 다음, **보고서[!UICONTROL 탭을 클릭합니다.]**
 
    많은 활동이 있는 경우 [!UICONTROL 유형] 드롭다운 목록에서 [!UICONTROL 자동화된 개인화]를 선택하여 목록을 필터링할 수 있습니다.
 
@@ -46,7 +46,7 @@ source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
 
 랜덤 포레스트 경험에 대한 [!UICONTROL 오퍼 수준] 보고서는 알고리즘이 적용된 각 오퍼의 성과를 무작위로 제공된 동일한 오퍼(통제 오퍼)에 비교합니다. 따라서 이 보기에서 오퍼는 서로 비교되지 않습니다. 아래 예에서는 오퍼 D가 무작위로 제공될 때(통제)와는 대조적으로 알고리즘 논리(랜덤 포레스트)에 따라 제공될 때 12.43% 상승도를 표시하도록 지정할 수 있습니다.
 
-[오퍼 수준] 보고서를 보려면 경험 알고리즘(랜덤 포레스트 또는 통제)을 클릭하십시오.
+오퍼 수준 보고서를 보려면 경험 알고리즘(랜덤 포레스트 또는 통제)을 클릭하십시오.
 
 ![](assets/ap_OfferLevelRpt.png)
 
