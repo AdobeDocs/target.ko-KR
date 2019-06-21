@@ -7,8 +7,8 @@ solution: Target
 title: 리디렉션 오퍼 - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,9 +33,9 @@ source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
 
 리디렉션 오퍼가 있는 페이지와 방문자가 리디렉션되어 도착하는 페이지 모두에 세 개의 라이브러리를 포함해야 합니다.
 
-## A 4 T와 Analytics 간에 때때로 데이터가 일치하지 않는 이유는 무엇입니까?
+## A4T와 Analytics 간에 때때로 데이터가 일치하지 않는 이유는 무엇입니까?
 
-일부 데이터 불일치가 필요합니다. 자세한 내용은 A 4 T를 사용하고 사용하지 않을 때 Target와 Analytics 간의 [예상 데이터 차이를 참조하십시오](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+일부 데이터 불일치가 예상됩니다. 자세한 내용은 [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)을 참조하십시오.
 
 ## 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 카운트되는 이유는 무엇입니까? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
