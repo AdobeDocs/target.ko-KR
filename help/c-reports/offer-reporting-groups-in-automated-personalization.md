@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 고급
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 badge: premium
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -49,11 +49,11 @@ AP(자동화된 개인화) 활동에서 보고 그룹을 사용하는 방법에 
 
    ![](assets/ap_reporting_groups.png)
 
-1. 선택한 오퍼를 기존 보고 그룹에 지정하려면 **[!UICONTROL 기존]**을 선택하고 드롭다운 목록에서 원하는 보고 그룹을 선택한 다음 **[!UICONTROL 적용]**을 클릭합니다.
+1. 선택한 오퍼를 기존 보고 그룹에 지정하려면 **[!UICONTROL 기존]** 을 선택하고 드롭다운 목록에서 원하는 보고 그룹을 선택한 다음 **[!UICONTROL 적용]** 을 클릭합니다.
 
    또는
 
-   선택한 오퍼를 지정할 새 보고 그룹을 생성하려면 **[!UICONTROL 새로 만들기]**를 선택하고 새 보고 그룹의 이름을 지정한 다음 **[!UICONTROL 적용]**을 클릭합니다.
+   선택한 오퍼를 지정할 새 보고 그룹을 생성하려면 **[!UICONTROL 새로 만들기]** 를 선택하고 새 보고 그룹의 이름을 지정한 다음 **[!UICONTROL 적용]** 을 클릭합니다.
 
    ![](assets/ap_manage_content_3.png)
 
