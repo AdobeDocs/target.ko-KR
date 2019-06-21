@@ -8,8 +8,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 badge: premium
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,5 +32,5 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 >[!NOTE]
 >
->전체 최신 목록은 Adobe Experience Cloud에서 사용되는 [IP 주소를 참조하십시오](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
+>가장 최신의 전체 목록을 확인하려면 [Adobe Experience Cloud에서 사용되는 IP 주소](https://helpx.adobe.com/kr/analytics/kb/adobe-ip-addresses.html)를 참조하십시오.
 
