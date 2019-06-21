@@ -8,8 +8,8 @@ title: 자동화된 세그먼트 보고서
 title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
 
 ## 자동화된 세그먼트 보고서 액세스 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL 활동]**을 클릭한 다음, 목록에서 원하는 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 활동을 클릭합니다.
+1. **[!UICONTROL 활동]** 을 클릭한 다음, 목록에서 원하는 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 활동을 클릭합니다.
 
    활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
 
@@ -166,6 +166,6 @@ AP 및 AT 활동은 오퍼마다 한 개의 모델(AP의 경우)과 경험마다
 * 개인화 모델에서 사용되는 속성 및 그러한 속성의 중요도를 확인합니다.
 * 개인화를 자세히 알릴 Target에 전달할 수 있는 추가 데이터 포인트에 대한 기회를 식별합니다.
 
-**세그먼트 카드에 속성이 표시되는 순서에 대한 로직이 있습니까?**
+**세그먼트 카드에 속성이 표시되는 순서에 논리가 있습니까?**
 
-아니오. 카드 순서는 위에서 설명한 순위에 기준합니다. 카드 내의 속성 순서는 로직을 기반으로 하지 않습니다.
+아니요, 카드 순서는 위에서 설명한 순위만 기준으로 합니다. 카드 내의 속성 순서는 논리를 기반으로 하지 않습니다.
