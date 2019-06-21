@@ -1,14 +1,14 @@
 ---
-description: 'at. js에 대한 targetglobalsettings () 함수에 대한 정보입니다. '
+description: 'at.js에 대한 targetGlobalSettings() 함수 정보입니다. '
 keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
-seo-description: . js JavaScript 라이브러리의 Adobe Target에 대한 targetglobalsettings () 함수에 대한 정보입니다.
-seo-title: . js JavaScript 라이브러리의 Adobe Target에 대한 targetglobalsettings () 함수에 대한 정보입니다.
+seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
+seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 solution: Target
 subtopic: 시작하기
 title: targetGlobalSettings()
 topic: Standard
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -47,7 +47,7 @@ source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
 
 ## 사용 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-이 함수는 at.js가 로드되기 전에 또는 **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** &gt; **[!UICONTROL at.js 설정 편집]** &gt; **[!UICONTROL 코드 설정]** &gt; **[!UICONTROL 라이브러리 헤더]**에서 정의할 수 있습니다.
+이 함수는 at.js가 로드되기 전에 또는 **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** &gt; **[!UICONTROL at.js 설정 편집]** &gt; **[!UICONTROL 코드 설정]** &gt; **[!UICONTROL 라이브러리 헤더]** 에서 정의할 수 있습니다.
 
 라이브러리 헤더 필드에는 자유 형식 JavaScript를 입력할 수 있습니다. 사용자 지정 코드는 다음 예제와 유사해야 합니다.
 
@@ -71,8 +71,8 @@ window.targetGlobalSettings = {
 
 | 비디오 | 설명 |
 |--- |--- |
-| [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | 데이터 공급자는 타사의 데이터를 Target에 쉽게 전달할 수 있는 기능입니다. 타사는 기상 서비스, DMP 또는 자체 웹 서비스일 수 있습니다. 그런 다음, 이 데이터를 사용하여 대상, Target 컨텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다. |
-| [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Adobe Target의 dataProviders 기능을 사용하여 타사 데이터 공급자로부터 데이터를 검색하고 이를 Target 요청에 전달하는 방법에 대한 자세한 내용과 예제에 대한 구현입니다. |
+| [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-feature-video-use.html) | 데이터 공급자는 타사의 데이터를 Target에 쉽게 전달할 수 있는 기능입니다. 타사는 기상 서비스, DMP 또는 자체 웹 서비스일 수 있습니다. 그런 다음, 이 데이터를 사용하여 대상, Target 컨텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다. |
+| [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Adobe Target의 dataProviders 기능을 사용하여 타사 데이터 공급자로부터 데이터를 검색하고 이를 Target 요청에 전달하는 방법에 대한 자세한 내용과 예제에 대한 구현입니다. |
 
 `window.targetGlobalSettings.dataProviders` 설정은 데이터 공급자의 배열입니다.
 
