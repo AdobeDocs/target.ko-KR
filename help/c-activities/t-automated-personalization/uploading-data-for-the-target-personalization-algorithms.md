@@ -6,8 +6,8 @@ solution: Target
 title: Target의 개인화 알고리즘을 위해 데이터 업로드
 topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
-translation-type: tm+mt
-source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
 
 CRM 정보나 고객 이탈 성향 점수와 같은 오프라인 데이터는 개인화 모델을 만들 때 매우 소중합니다.
 
-자동화된 개인화(AP)와 자동 타겟 개인화 알고리즘에서 데이터를 입력하는 방법에는 몇 가지가 있습니다. 데이터를 Target로 가져오는 [메서드의 메서드 외에도](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), Experience Cloud 공유 대상 (Adobe Analytics, 고객 관리) 및 활동 내 보고 대상이 알고리즘에서도 사용됩니다.
+자동화된 개인화(AP)와 자동 타겟 개인화 알고리즘에서 데이터를 입력하는 방법에는 몇 가지가 있습니다. [데이터를 Target에 가져오는 방법](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)에 나와 있는 방법 외에도 Experience Cloud 공유 대상(Adobe Analytics, 고객 관리) 및 활동 보고 대상도 알고리즘에 사용됩니다.
 
 자동화된 개인화 및 자동 타겟 개인화 알고리즘에서 자동으로 수집 및 사용되는 데이터에 대해서는 [자동화된 개인화 데이터 수집](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)을 참조하십시오.
 
