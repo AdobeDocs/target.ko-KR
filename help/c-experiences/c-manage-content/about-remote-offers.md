@@ -7,8 +7,8 @@ solution: Target
 title: 원격 오퍼 만들기
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,8 +33,8 @@ Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달�
 
 **원격 오퍼를 만들려면 다음을 수행하십시오.**
 
-1. **[!UICONTROL 오퍼]**를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
-1. **[!UICONTROL 만들기]&gt;****[!UICONTROL 원격 오퍼]**를 클릭합니다.
+1. **[!UICONTROL 오퍼]** 를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
+1. **[!UICONTROL 만들기]&gt;****[!UICONTROL 원격 오퍼]** 를 클릭합니다.
 
    ![](assets/remote_offer_ui.png)
 
@@ -61,7 +61,7 @@ Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달�
 
 * 서버에서 동적으로 생성된 데이터가 테스트에 포함되는 경우 [!UICONTROL 동적] 선택 사항을 선택하는 것이 좋습니다.
 * 기존 원격 오퍼 컨텐츠의 모양만 테스트하려는 경우, [!UICONTROL 시각적 경험 작성기]를 사용하여 컨텐츠 관리 시스템에서 반환되는 컨텐츠의 모양과 느낌을 변경하십시오.
-* 특정 사례에 가장 적합한 오퍼를 선택하려면 [원격 오퍼 선택 표]를 사용하십시오. 의문 사항이 있는 경우 계정 담당자에게 문의하십시오.
+* 특정 사례에 가장 적합한 오퍼를 선택하려면 원격 오퍼 선택 표를 사용하십시오. 의문 사항이 있는 경우 계정 담당자에게 문의하십시오.
 
 ## 다이내믹 원격 오퍼 작동 방식 {#concept_CC2A969420B34364A9FA78C1CE251818}
 
@@ -73,7 +73,7 @@ Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달�
 
 ## 원격 오퍼 선택 표 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-[원격 오퍼 선택 표]는 선택할 원격 오퍼의 유형([!UICONTROL 캐시됨] 또는 [!UICONTROL 동적])을 결정하는 데 도움이 됩니다.
+원격 오퍼 선택 표는 선택할 원격 오퍼의 유형([!UICONTROL 캐시됨] 또는 [!UICONTROL 동적])을 결정하는 데 도움이 됩니다.
 
 | 기능 | 캐시됨 | 동적 |
 |--- |--- |--- |
