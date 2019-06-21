@@ -7,8 +7,8 @@ solution: Target
 title: 보고 FAQ
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,16 +32,16 @@ Target의 보고에 대한 FAQ 목록
 
 활동의 보고서에 대한 환경을 변경하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 활동]**을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **보고서[!UICONTROL 탭을 클릭합니다.]**
+1. **[!UICONTROL 활동]** 을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **보고서[!UICONTROL 탭을 클릭합니다.]**
 1. 톱니바퀴 아이콘을 클릭하여 보고서 설정을 구성합니다.
 
    ![](assets/ab_settings_dialog.png)
 
    >[!NOTE]
    >
-   >톱니바퀴 아이콘은 [자동화된 개인화] 보고서에 사용할 수 없습니다.
+   >톱니바퀴 아이콘은 자동화된 개인화 보고서에 사용할 수 없습니다.
 
-1. **[!UICONTROL 환경]** 드롭다운 목록에서 **[!UICONTROL 프로덕션]**을 선택합니다.
+1. **[!UICONTROL 환경]** 드롭다운 목록에서 **[!UICONTROL 프로덕션]** 을 선택합니다.
 
    개발 환경이 선택되어 있지 않은 경우에는 보고서 데이터를 사용하지 못할 수 있습니다.
 
