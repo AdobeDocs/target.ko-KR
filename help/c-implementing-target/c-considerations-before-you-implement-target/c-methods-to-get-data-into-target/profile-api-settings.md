@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 프로필 API 설정
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
-translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -24,8 +24,8 @@ Adobe Target은 모든 개별 사용자에 대한 프로필을 작성하고 유�
 
 **Target UI를 사용하여 인증을 요구하고 액세스 토큰을 생성하려면 다음을 수행하십시오.**
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**을 클릭합니다.
-1. **[!UICONTROL 프로필 API 설정]**에서 **인증 필요[!UICONTROL 드롭다운 목록을 사용하여 인증 요구 사항을 활성화 또는 비활성화합니다.]**
+1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** 을 클릭합니다.
+1. **[!UICONTROL 프로필 API 설정]** 에서 **인증 필요[!UICONTROL 드롭다운 목록을 사용하여 인증 요구 사항을 활성화 또는 비활성화합니다.]**
 
    ![](assets/profile_api_settings.png)
 
