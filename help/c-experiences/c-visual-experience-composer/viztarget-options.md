@@ -1,27 +1,27 @@
 ---
-description: Visual Experience Composer (VEC) 에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다.
+description: VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다.
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 삽입;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 교체;오퍼 바꾸기; 이미지 교체;이미지 바꾸기;항목 제거;항목 삭제;항목 숨기기;항목 숨김;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 네비게이션;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행
-seo-description: Adobe Target Visual Experience Composer (VEC) 에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다.
-seo-title: Adobe Target Visual Experience Composer (VEC) 옵션
+seo-description: Adobe Target VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다.
+seo-title: Adobe Target VEC(시각적 경험 작성기) 선택 사항
 solution: Target
-title: 시각적 경험 작성기 옵션
+title: 시각적 경험 작성기 선택 사항
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
-translation-type: tm+mt
-source-git-commit: cd6bfcda582b7432c4082144dbd8e561f71673a5
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # 시각적 경험 작성기 선택 사항{#visual-experience-composer-options}을 참조하십시오
 
-Visual Experience Composer (VEC) 에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있도록 페이지 하단에 DOM 경로가 표시됩니다.
+VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
 
-## vec 옵션
+## VEC 선택 사항
 
-다양한 시각적 경험 작성기 (VEC) 액션은 작업을 보다 빠르고 효율적으로 만들기 위해 적절한 메뉴 옵션을 그룹화합니다.
+다양한 VEC(시각적 경험 작성기) 작업은 작업을 보다 빠르고 효율적으로 할 수 있도록 적절한 메뉴 선택 사항에 그룹화되어 있습니다.
 
-![VEC 옵션 메뉴](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
+![VEC 선택 사항 메뉴](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
@@ -39,9 +39,9 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
 A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 여러 가지 서식 있는 텍스트 형식 옵션을 사용할 수 있습니다. [!UICONTROL ][!UICONTROL ] 글꼴을 선택하고, 글꼴 스타일을 선택하고, 텍스트 정렬을 변경하고, 기타 표준 텍스트 서식 옵션을 사용할 수 있습니다. HTML을 수정할 때 HTML의 코드 보기와 서식 편집 보기 간을 전환할 수 있습니다.
 
-다음 HTML 5 태그를 중첩할 수 있습니다.
+다음 HTML5 태그를 중첩할 수 있습니다.
 
-| 태그 | 중첩 태그 허용 |
+| 태그 | 허용된 중첩 태그 |
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
@@ -56,78 +56,78 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
 #### 스타일
 
-[!UICONTROL 스타일] 패널을 사용하여 선택한 요소의 기존 스타일 값을 보거나 편집할 수 있습니다. 또한 스타일을 추가할 수도 있습니다.
+[!UICONTROL 스타일] 패널을 사용하여 선택한 요소의 기존 스타일 값을 보거나 편집할 수 있습니다. 스타일을 추가할 수도 있습니다.
 
-[!UICONTROL 스타일] 패널에 액세스하려면 VEC 내에서 페이지 요소를 클릭한 다음 **[!UICONTROL 편집]** &gt; **[!UICONTROL 스타일을 클릭합니다]**.
+[!UICONTROL 스타일] 패널에 액세스하려면 VEC 내에서 페이지 요소를 클릭한 다음 **[!UICONTROL 편집]** &gt; **[!UICONTROL 스타일]** 을 클릭합니다.
 
-VEC 오른쪽에 [!UICONTROL 스타일] 패널이 표시됩니다. 패널에는 선택한 요소를 편집하거나 추가할 수 있는 스타일 목록이 포함되어 있습니다. CSS (Cascading Style Sheet) 를 사용하거나 개발자로부터 코드를 받은 경우 CSS 편집기를 사용하면 변경 사항을 보고 스타일을 추가할 수 있습니다.
+[!UICONTROL 스타일] 패널이 VEC 오른쪽에 표시됩니다. 이 패널에는 선택한 요소를 편집하거나 선택한 요소에 추가할 수 있는 스타일 목록이 포함되어 있습니다. CSS(Cascading Style Sheet)를 사용하는 데 익숙하거나 개발자로부터 코드를 받은 경우 실시간 CSS 편집기를 사용하면 변경 사항을 보고 스타일을 추가할 수 있습니다.
 
 ![스타일 패널](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-다른 스타일을 적용하더라도 섹션을 변경한 후 스타일 패널의 오른쪽 상단에 표시되는 [!UICONTROL 되돌리기] 아이콘을 클릭하여 [!UICONTROL 언제든지 변경] 내용을 되돌릴 수 있습니다. [!UICONTROL [되돌리기] ] 아이콘을 클릭하면 현재 섹션의 패널에 있는 모든 변경 사항이 적용됩니다.
+다른 스타일을 적용할 때 섹션을 변경한 후 [!UICONTROL 스타일] 패널의 오른쪽 상단 모서리에 표시되는 [!UICONTROL 되돌리기] 아이콘을 클릭하여 언제든지 변경 사항을 되돌릴 수 있습니다. [!UICONTROL 되돌리기] 아이콘을 클릭하면 현재 섹션의 패널에서 변경한 모든 사항을 되돌립니다.
 
-아래 설명된 대로 각 섹션을 확장하여 스타일을 편집하거나 추가합니다. 변경 사항을 저장하려면 패널 상단에 있는 [뒤로] 아이콘을 클릭하여 패널의 기본 화면으로 **[!UICONTROL ]**돌아간 다음 저장을 클릭합니다.
+아래 설명된 대로 각 섹션을 확장하여 스타일을 편집하거나 추가합니다. 변경 사항을 저장하려면 패널 상단에 있는 뒤로 아이콘을 클릭하여 패널의 주 표시로 돌아간 다음 **[!UICONTROL 저장]** 을 클릭합니다.
 
-주 패널의 파란색 점과 다양한 섹션 패널의 각 옵션 옆에 해당 스타일을 변경했다고 나타납니다. 따라서 [!UICONTROL [저장]] 를 클릭하기 전에 변경 사항을 쉽게 검토할 수 있습니다.
+주 패널과 여러 섹션 패널의 각 옵션 옆에 있는 파란색 점은 해당 스타일이 변경되었음을 나타냅니다. 이 경우 [!UICONTROL 저장]을 클릭하기 전에 변경 사항을 쉽게 검토할 수 있습니다.
 
 >[!NOTE]
 >
->레이아웃 변경, 배경색, 크기 조정 및 이동에 대한 빠른 작업은 VEC 메뉴에서 별도의 동작으로도 사용할 수 있습니다. 이러한 옵션은 별도의 동작으로 활용하거나 여기에 설명된 스타일 메뉴를 사용할 수 있습니다.
+>레이아웃 변경, 배경색, 크기 조정 및 이동에 대한 빠른 작업은 VEC 메뉴에서 별도의 동작으로 사용할 수도 있습니다. 이러한 옵션을 별도의 작업으로 활용하거나, 여기에 설명된 대로 스타일 메뉴를 사용할 수 있습니다.
 
 * **타이포그래피**
 
    요소의 타이포그래피를 변경합니다. 타이포그래피 편집은 빠르고 간단합니다.
 
-   리치 텍스트 편집기 (텍스트/HTML 편집) 는 미세 조정에 사용할 수 있지만, 이 옵션을 통해 전체 요소를 변경하는 빠른 작업을 사용할 수 있습니다. 텍스트 (전체 텍스트가 아님) 에만 타이포그래피를 적용하려면 [리치 텍스트 편집기를 사용합니다](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+   서식 있는 텍스트 편집기(텍스트/HTML 편집)를 미세 조정에 사용할 수 있지만, 이 옵션을 통해 전체 요소를 빠르게 변경할 수 있습니다. 타이포그래피 변경 사항을 텍스트의 한 부분(전체 텍스트 아님)에만 적용하려면 [서식 있는 텍스트 편집기](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)를 사용합니다.
 
    다음과 같은 타이포그래피 스타일을 편집할 수 있습니다.
 
    * 글꼴 크기
    * 글꼴 두께
    * 글꼴 스타일
-   * 색상 (색상 코드 지정 또는 색상 선택기 사용)
-   * 단어 간격
-   * 선 높이
+   * 색상(색상 코드 지정 또는 색상 선택기 사용)
+   * 띄어쓰기
+   * 라인 높이
    * 텍스트 정렬
 
 * **순익**
 
-   선택한 요소의 여백을 변경합니다. 왼쪽, 오른쪽, 아래쪽 및 위쪽 여백을 변경할 수 있습니다.
+   선택한 요소에 대한 여백을 변경합니다. 왼쪽, 오른쪽, 아래쪽 및 위쪽 여백을 변경할 수 있습니다.
 
    각 여백에 대한 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
    * 자동
-   * 값 (슬라이더를 드래그하여 여백을 설정하거나 각 여백에 대한 픽셀 수를 지정합니다.)
+   * 값(슬라이더를 드래그하여 여백을 설정하거나 각 여백에 대한 픽셀 수 지정)
    여백은 양수 및 음수 값을 지원합니다.
 
-   Target는 또한 REM, PC, EM 등의 다른 크기 단위를 지원합니다. 이러한 단위에 대한 자세한 내용은 [웹 스타일 시트 CSS 팁과 트릭을 참조하십시오](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target은 rem, pc, em 등의 다른 크기 단위도 지원합니다. 이러한 단위에 대한 자세한 내용은 [웹 스타일 시트 CSS 팁과 트릭](https://www.w3.org/Style/Examples/007/units.en.html)을 참조하십시오.
 
 * **패딩**
 
-   선택한 요소의 패딩을 변경합니다. 왼쪽, 오른쪽, 아래쪽 및 위쪽 패딩을 변경할 수 있습니다.
+   선택한 요소에 대한 패딩을 변경합니다. 왼쪽, 오른쪽, 아래쪽 및 위쪽 패딩을 변경할 수 있습니다.
 
-   슬라이더를 드래그하여 패딩을 설정하거나 패딩의 픽셀 수를 지정합니다.
+   슬라이더를 드래그하여 패딩을 설정하거나 각 패딩에 대한 픽셀 수 지정합니다.
 
-   패딩 지원 범위는 0 부터 시작합니다.
+   패딩은 폭 조절을 0부터 지원합니다.
 
-   Target는 또한 REM, PC, [EM 등의 다른 크기 단위를](https://www.w3.org/Style/Examples/007/units.en.html)지원합니다.
+   Target은 rem, pc, em 등과 같은 [다른 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)도 지원합니다.
 
 * **테두리**
 
    패널 맨 위에 있는 테두리 아이콘을 클릭하여 선택한 요소의 테두리를 변경합니다.
 
-   각 테두리 (위, 오른쪽, 아래, 왼쪽) 에 대해 다음 스타일을 편집할 수 있습니다.
+   각 테두리(위쪽, 오른쪽, 아래쪽, 왼쪽)에 대한 다음 스타일을 편집할 수 있습니다.
 
-   * 테두리 스타일 (없음, 숨김, 점선, 점선, 단색 또는 이중)
-   * 테두리 색상 (색상 코드 지정 또는 색상 선택기 사용)
-   * 테두리 너비 (슬라이더를 드래그하여 테두리 너비를 선택하거나 너비를 픽셀 단위로 지정)
-   테두리는 0 부터 너비까지 너비를 지원합니다.
+   * 테두리 스타일(없음, 숨김, 점선, 파선, 단색 또는 이중)
+   * 테두리 색상(색상 코드 지정 또는 색상 선택기 사용)
+   * 테두리 폭(슬라이더를 드래그하여 테두리 폭을 선택하거나 폭을 픽셀 단위로 지정)
+   테두리는 폭 조절을 0부터 지원합니다.
 
-   Target는 또한 REM, PC, [EM 등의 다른 크기 단위를](https://www.w3.org/Style/Examples/007/units.en.html)지원합니다.
+   Target은 rem, pc, em 등과 같은 [다른 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)도 지원합니다.
 
-* **position**
+* **위치**
 
-   선택한 요소를 현재 위치에서 이동합니다. 요소의 위쪽, 아래쪽, 왼쪽, 오른쪽 및 [z 인덱스](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 위치를 변경할 수 있습니다.
+   선택한 요소를 해당 현재 위치에서 이동합니다. 요소의 위쪽, 아래쪽, 왼쪽, 오른쪽 및 [Z-색인](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 위치를 변경할 수 있습니다.
 
    [!UICONTROL 정적] 드롭다운 목록을 클릭하여 다음 위치 옵션 중에서 선택합니다.
 
@@ -135,53 +135,53 @@ VEC 오른쪽에 [!UICONTROL 스타일] 패널이 표시됩니다. 패널에는 
    * 상대
    * 절대
    * 고정
-   * fixed
+   * 고정
    각 위치에 대한 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
    * 자동
-   * 값 (슬라이더를 드래그하여 요소를 배치하거나 요소를 이동할 픽셀 수를 지정합니다.)
-   position는 양수 및 음수 값을 지원합니다.
+   * 값(슬라이더를 드래그하여 요소를 배치하거나 요소를 이동할 픽셀 수 지정)
+   위치는 양수 및 음수 값을 지원합니다.
 
-   Target는 또한 REM, PC, [EM 등의 다른 크기 단위를](https://www.w3.org/Style/Examples/007/units.en.html)지원합니다.
+   Target은 rem, pc, em 등과 같은 [다른 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)도 지원합니다.
 
 * **크기**
 
    선택한 요소의 폭과 높이를 변경합니다.
 
-   [!UICONTROL 너비] 및 [!UICONTROL 높이] 옆에 있는 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
+   [!UICONTROL 폭]과 [!UICONTROL 높이] 옆에 있는 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
    * 자동
-   * 값 (슬라이더를 드래그하여 요소 크기를 조절하거나 각 차원에 대한 픽셀 수를 지정합니다.)
+   * 값(슬라이더를 드래그하여 요소의 크기를 지정하거나 각 차원에 대한 픽셀 수 지정)
 
 * **필터**
 
-   각 필터 옵션에 대해 슬라이더를 드래그하거나 원하는 백분율을 지정합니다.
+   각 필터 옵션에 대한 슬라이더를 드래그하거나 원하는 백분율 지정:
 
-   * Sepia
+   * 세피아 물감
    * 대비
-   * 밝기
+   * 명도
    * 회색 음영
    * 흐림 효과
    * 불투명도
    * 반전
-   * 색조 회전
-   * 채도 증가
+   * 색조-회전
+   * 채도
 
 * **CSS 편집기**
 
-   CSS (Cascading Style Sheet) 를 사용하거나 개발자로부터 코드를 받은 경우 CSS 편집기를 사용하면 변경 사항을 보고 스타일을 추가할 수 있습니다.
+   CSS(Cascading Style Sheet)를 사용하는 데 익숙하거나 개발자로부터 코드를 받은 경우 실시간 CSS 편집기를 사용하면 변경 사항을 보고 스타일을 추가할 수 있습니다.
 
-   CSS 편집기에 [스타일] 패널에서 변경한 내용이 표시됩니다. 아래 그림에 나타난 바와 같이 글꼴 크기, 상단 테두리 및 이미지 크기가 변경되었습니다.
+   CSS 편집기에 스타일 패널에서 변경한 내용이 표시됩니다. 아래 그림에 표시된 대로 글꼴 크기, 위쪽 테두리 및 이미지 크기가 변경되었습니다.
 
-   ![변경 사항이 있는 CSS 편집기](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
+   ![변경 사항이 표시된 CSS 편집기](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   앞의 그림에서 [!UICONTROL 타이포그래피], [!UICONTROL 테두리]및 [!UICONTROL 크기] 옵션 옆에 있는 파란색 점을 확인할 수 있습니다. 이러한 점은 이러한 섹션을 변경했음을 나타냅니다. 이러한 섹션 패널을 열면 변경한 특정 옵션 옆에 파란색 점이 표시됩니다.
+   이전 그림에서 [!UICONTROL 타이포그래피], [!UICONTROL 테두리]및 [!UICONTROL 크기] 옵션 옆에 있는 파란색 점을 확인할 수 있습니다. 이러한 점은 이러한 섹션을 변경했음을 나타냅니다. 이러한 섹션 패널을 열면 변경한 특정 옵션 옆에 파란색 점이 표시됩니다.
 
-   스타일에서 원하는 스타일을 기본적으로 사용할 수 없는 경우 직접 코드를 입력할 [!UICONTROL ]수 있습니다.
+   [!UICONTROL 스타일]에서 원하는 스타일을 기본적으로 사용할 수 없는 경우 직접 코드를 입력할 수 있습니다.
 
-   CSS 편집기에는 현재 세션에만 대한 세부 사항이 표시됩니다. 변경 내용을 저장한 다음 편집기를 다시 열면 동일한 요소를 다시 선택하더라도 이전 변경 내용에 대한 세부 사항이 편집기에 표시되지 않습니다.
+   CSS 편집기에는 현재 세션에 대한 세부 사항만 표시됩니다. 변경 사항을 저장한 다음 편집기를 다시 열면 동일한 요소를 다시 선택하더라도 이전 변경 사항에 대한 세부 사항이 편집기에 표시되지 않습니다.
 
-   >[!Important]
+   >[!I중요]
    >
    >CSS 편집기를 사용하여 배경 이미지를 적용할 수 있지만 깜박임이 발생할 수 있습니다. 배포하기 전에 변경 사항을 테스트합니다.
 
@@ -219,7 +219,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 #### 경험 구성요소
 
-최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
+최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 조각을 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
 
 ### 다음 항목 뒤에 삽입
 
@@ -243,7 +243,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 #### 경험 구성요소
 
-최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
+최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 조각을 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
 
 ### 바꿀 대상
 
@@ -263,7 +263,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 `http://s7d2.scene7.com/is/image/TargetTest/Aug_MBM?tm=1470768352933&fit=constrain&hei=173&wid=300`
 
-Recommendations는 div, section 및 article 태그로 대체됨을 지원합니다.
+Recommendations은 DIV, SECTION 및 ARTICLE 태그의 다음으로 바꾸기를 지원합니다.
 
 **참고:** 이미지를 교체하려면 Adobe Scene7 Publishing System 계정이 필요합니다.
 
@@ -281,7 +281,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 #### 경험 구성요소
 
-최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
+최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 조각을 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
 
 ### 레이아웃
 
@@ -333,10 +333,10 @@ CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것�
 
 ![DOM 경로](/help/c-experiences/c-visual-experience-composer/assets/dom-path.png)
 
-DOM 경로를 사용하여 선택한 요소 (유형, ID 및 클래스) 에 대한 정보를 빠르게 보고 DOM 경로로 위 또는 아래로 이동하여 원하는 요소를 선택할 수 있습니다.
+DOM 경로를 사용하여 선택한 요소(유형, ID 및 클래스)에 대한 정보를 빠르게 확인하고, DOM 경로로 위 또는 아래로 이동하여 원하는 요소를 선택할 수 있습니다.
 
-DOM 경로 위로 마우스를 가져가면 파란색 상자가 vec에서 해당 요소를 강조 표시합니다. 요소를 클릭하면 위에 설명된 대로 주황색 상자에 요소가 강조 표시되고 VEC 옵션 메뉴가 표시됩니다.
+DOM 경로를 가리키면 파란색 상자가 VEC에서 해당 요소를 강조 표시합니다. 요소를 클릭하면 위에 설명된 대로 주황색 상자가 요소를 강조 표시하고 VEC 옵션 메뉴가 표시됩니다.
 
-DOM 경로를 사용하여 VEC 내에서 상위 요소, 동기 요소 또는 하위 요소로 손쉽게 이동할 수 있습니다.
+DOM 경로를 사용하여 VEC 내에서 상위 요소, 동일 수준의 요소 또는 하위 요소로 손쉽게 이동할 수 있습니다.
 
-DOM 경로 기능은 [클릭 추적을 설정할 때도 사용할 수](/help/c-activities/r-success-metrics/click-tracking.md)있습니다.
+DOM 경로 기능은 [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md)을 설정할 때도 사용할 수 있습니다.
