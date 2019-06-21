@@ -1,14 +1,14 @@
 ---
-description: 'at. js에 대한 사용자 지정 이벤트에 대한 정보입니다. '
+description: 'at.js에 대한 사용자 지정 이벤트 정보입니다. '
 keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
-seo-description: . js JavaScript 라이브러리의 Adobe Target에 대한 사용자 지정 이벤트에 대한 정보입니다.
-seo-title: . js JavaScript 라이브러리의 Adobe Target에 대한 사용자 지정 이벤트에 대한 정보입니다.
+seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트 정보입니다.
+seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트 정보입니다.
 solution: Target
 subtopic: 시작하기
 title: at.js 사용자 지정 이벤트
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 46e49267ba602a96b45ddb54ff99017423e5bf82
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
