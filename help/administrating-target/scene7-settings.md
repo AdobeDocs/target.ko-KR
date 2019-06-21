@@ -7,8 +7,8 @@ subtopic: 시작하기
 title: Scene7 설정
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,7 +31,7 @@ Scene7 계정이 있는 경우 Scene7 자격 증명을 제공할 수 있습니�
 
 Scene7과 통합하려면 일부 Scene7 정보를 지정해야 합니다.
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL Scene7 설정]**을 클릭합니다.
+1. **[!UICONTROL 설정]** &gt; **[!UICONTROL Scene7 설정]** 을 클릭합니다.
 1. 다음 Scene7 계정 정보를 지정하십시오. 
 
    **Scene7 지역:** Scene7의 계정의 지역: 북미, 유럽 또는 아시아
