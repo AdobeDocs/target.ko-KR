@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: mbox.js가 수행하는 작업
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
-translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
 
 기술 담당자가 mbox.js 구현과 이 구현이 사이트에 미칠 수 있는 영향을 이해하는 데 도움이 되는 정보입니다.
 
-Target Standard에는 [!DNL mbox.js] 버전 58 이상이 필요합니다. [!DNL mbox.js]를 다운로드하고 업데이트하는 방법에 대한 지침은 [Mbox 구현] (../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
+Target Standard에는 [!DNL mbox.js] 버전 58 이상이 필요합니다. [!DNL mbox.js]를 다운로드하고 업데이트하는 방법에 대한 지침은 [Mbox 구현](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
 
 Target Standard의 경우 [!DNL mbox.js]는 다른 JavaScript 파일인 [!DNL target.js]를 호출합니다. [!DNL Target.js]는 Adobe에 의해 호스팅되며 Adobe에 의해 자동으로 업데이트됩니다. [!DNL target.js]를 업데이트하기 위해 수행해야 할 작업은 없으며 클라이언트별 사용자 지정 사항도 없습니다.
 
