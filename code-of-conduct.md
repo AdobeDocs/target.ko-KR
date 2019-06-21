@@ -1,6 +1,6 @@
 ---
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Adobe 행동 수칙
@@ -67,4 +67,4 @@ Adobe 프로젝트 및 커뮤니티 참여 시 괴롭힘이 없도록 할 것을
 
 ## 저작자 표시
 
-이 행동 수칙은 [Contributor Covenant](https://contributor-covenant.org)(기여자 규약) 버전 1.4([https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/))를 개작한 것입니다.
+이 행동 수칙은 [Contributor Covenant](https://contributor-covenant.org)(기여자 규약) 버전 1.4([https://contributor-covenant.org/version/1/4](https://contributor-covenant.org/version/1/4/))를 Adobe에 맞게 일부 수정한 것입니다.
