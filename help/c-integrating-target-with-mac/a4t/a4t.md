@@ -8,8 +8,8 @@ subtopic: 다변량 테스트
 title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -30,7 +30,7 @@ Target에서 Analytics 데이터를 사용하는 세 가지 기본 이점은 다
 
 >[!IMPORTANT]
 >
->A4T를 사용하려면 먼저 계정을 통합용으로 공급하도록 요청해야 합니다. [이 양식](https://www.adobe.com/go/audiences)을 사용하여 제공을 요청합니다.
+>A4T를 사용하려면 먼저 계정을 통합용으로 공급하도록 요청해야 합니다. [이 양식](https://www.adobe.com/go/audiences_kr)을 사용하여 제공을 요청하십시오.
 >
 >Adobe Analytics를 Adobe Target(A4T)의 데이터 소스로 활성화하는 통합은 차세대 Test&amp;Target - SiteCatalyst 플러그인을 나타냅니다. 이 플러그인은 더 이상 사용되지 않지만 이미 사용 중인 경우에는 계속 지원됩니다.
 
@@ -59,27 +59,27 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 
 | 활동 유형 | A4T와 호환 가능 | 해당하는 경우 메모 |
 |--- |--- |--- |
-| 수동 트래픽 분할을 사용하는 A/B 활동 | 예 |
-| 자동 할당을 사용하는 A/B 활동 | 아니오 |
-| 자동 타겟을 사용하는 A/B 활동 | 아니오 |
-| 경험 타깃팅(XT) | 예 |
+| 수동 트래픽 분할을 사용하는 A/B 활동 | 예 |  |
+| 자동 할당을 사용하는 A/B 활동 | 아니오 |  |
+| 자동 타겟을 사용하는 A/B 활동 | 아니오 |  |
+| 경험 타깃팅(XT) | 예 |  |
 | 다변량 테스트(MVT) | 예 | 요소 기여도 보고서를 가져오기 위해 mbox 기반 목표 지표 목표를 필요로 합니다.  요소 기여도 보고서는 현재 Analytics 지표를 지원하지 않습니다. |
-| 자동화된 개인화(AP) 활동 | 아니오 |
-| 권장 사항 활동 | 예 |
-| 모바일 앱 | 예 | Mobile Services SDK 버전 4.13.1 이상에서 지원됩니다.  자세한 내용은 [Mobile Services 설명서](https://marketing.adobe.com/resources/help/en_US/mobile/)를 참조하십시오. |
-| 이메일 | 아니오 |
-| 서버측 배달 API | 예 | 자세한 내용은 [서버측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)을 참조하십시오. |
-| NodeJS SDK | 예 | 자세한 내용은 [서버측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)을 참조하십시오. |
-| AEM 6.1(또는 이하) 클라우드 서비스 통합 | 아니오 |
-| AEM 6.2(또는 이상 버전) 클라우드 서비스 통합 | 예 | 자세한 내용은 Adobe Experience Manager 6.2 설명서에서 [Adobe Target과 통합](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)을 참조하십시오. |
+| 자동화된 개인화(AP) 활동 | 아니오 |  |
+| 권장 사항 활동 | 예 |  |
+| 모바일 앱 | 예 | Mobile Services SDK 버전 4.13.1 이상에서 지원됩니다.  자세한 내용은 [Mobile Services 설명서](https://marketing.adobe.com/resources/help/ko_KR/mobile/)를 참조하십시오. |
+| 이메일 | 아니오 |  |
+| 서버 측 배달 API | 예 | 자세한 내용은 [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)을 참조하십시오. |
+| NodeJS SDK | 예 | 자세한 내용은 [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)을 참조하십시오. |
+| AEM 6.1(또는 이하) 클라우드 서비스 통합 | 아니오 |  |
+| AEM 6.2(또는 이상 버전) 클라우드 서비스 통합 | 예 | 자세한 내용은 Adobe Experience Manager 6.2 설명서에서 [Adobe Target과 통합](https://helpx.adobe.com/kr/experience-manager/6-2/sites/administering/using/target.html)을 참조하십시오. |
 | 리디렉션 오퍼를 사용하는 모든 활동 | 예 | A4T에서 리디렉션 오퍼를 사용하기 위한 보다 엄격한 최소 요구 사항이 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오. |
-| Node.JS | 예 |
+| Node.JS | 예 |  |
 
 일부 활동 유형은 아직 A4T를 지원하지 않으므로 &quot;orderConfirmPage&quot; mbox와 같은 중요한 전환 mbox를 유지하거나 구현하는 것이 좋습니다.
 
 ## A4T 보고서의 예 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-[!DNL Target]**에서 A4T 보고서를 보려면[!UICONTROL 활동]**을 클릭하고, [!DNL Analytics]를 보고 소스로 사용하는 목록에서 원하는 활동을 클릭한 다음 **[!UICONTROL 보고서]탭을 클릭하십시오.**
+[!DNL Target]**에서 A4T 보고서를 보려면[!UICONTROL 활동]** 을 클릭하고, [!DNL Analytics]를 보고 소스로 사용하는 목록에서 원하는 활동을 클릭한 다음 **[!UICONTROL 보고서]탭을 클릭하십시오.**
 
 >[!NOTE]
 >
@@ -99,11 +99,11 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 
 ![](assets/a4t_report_table.png)
 
-[!DNL Analytics]이 아니라 [!DNL Target]에서 보고서를 보려면 보고서 맨 위의 **[!UICONTROL ]Analytics에서 보기**를 클릭하십시오.
+[!DNL Analytics]이 아니라 [!DNL Target]에서 보고서를 보려면 보고서 맨 위의 **[!UICONTROL ]Analytics에서 보기** 를 클릭하십시오.
 
 ## Analytics &amp; Target: 분석 우수 사례 자습서 {#section_3438E6E77A464424B717A4FD333B84B2}
 
-Adobe Experience League에서 제공하는 [Analytics &amp; Target: 분석 우수 사례](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) 자습서를 엽니다.
+Adobe Experience League에서 제공한 [Analytics 및 Target: 분석 우수 사례](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) 자습서를 여십시오.
 
 ## 교육 비디오:
 
