@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -16,16 +16,6 @@ source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
 # 설명서 변경 내용{#documentation-changes}
 
 이 페이지에는 [!DNL Adobe Target] 문서에 대한 중요한 변경 사항이 나와 있습니다.
-
-## Adobe Target Standard/Premium 19.6.1(2019년 6월 26일) {#tgt-19-6-1}
-
-| 날짜 | 주제 | 변경 사항 |
-| --- | --- | --- |
-| 2019 년 6 월 26 일 | [시각적인 경험 옵션](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
-|  | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | [!UICONTROL 복제] 작업에 대한 정보가 추가되었습니다. |
-|  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | [!UICONTROL 선택한 요소] 패널에 대한 정보가 추가되었습니다. |
-|  | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 새 섹션: &quot; Page delivery settings for the SPA VEC. &quot; |
-|  | [Google Chrome samesite 쿠키 정책](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 새 주제입니다.  |
 
 ## Adobe Target Standard/Premium 19.5.1(2019년 5월 21일) {#tgt-19-5-1}
 
