@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 # 설명서 변경 내용{#documentation-changes}
 
 이 페이지에는 [!DNL Adobe Target] 문서에 대한 중요한 변경 사항이 나와 있습니다.
+
+## Adobe Target Standard/Premium 19.6.1(2019년 6월 26일) {#tgt-19-6-1}
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 2019 년 6 월 26 일 | [시각적인 경험 옵션](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
+|  | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | [!UICONTROL 복제] 작업에 대한 정보가 추가되었습니다. |
+|  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | [!UICONTROL 선택한 요소] 패널에 대한 정보가 추가되었습니다. |
+|  | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 새 섹션: &quot; Page delivery settings for the SPA VEC. &quot; |
+|  | [Google Chrome samesite 쿠키 정책](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 새 주제입니다.  |
 
 ## Adobe Target Standard/Premium 19.5.1(2019년 5월 21일) {#tgt-19-5-1}
 
@@ -31,10 +41,10 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 | 2019년 6월 7일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | 추가된 새 섹션: &quot; 시나리오: null-checking 논리를 사용하여 4 x 2 기본 권장 사항 디자인을 만듭니다. &quot; |
 |  | [Adobe Target Standard 및 Premium 교육 비디오](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | 새 Adobe Target 자습서 사이트에 대한 링크가 업데이트되었습니다. |
 |  | [iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | 업데이트된 텍스트 및 코드 조각. |
-| 2019년 6월 6일 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | 매개 변수에 대한 설명을 `options > page` 업데이트했습니다. |
+| 2019년 6월 6일 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Updated the description for the `options > page` parameter. |
 |  | [관리자의 첫 단계](/help/administrating-target/start-target.md) | 전체 아티클 업데이트. |
 |  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target 19.6.1 릴리스에 대한 예비 릴리스 노트를 추가했습니다. |
-| 2019년 6월 5일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 새 [문제 해결](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) 섹션이 추가되었습니다. |
+| 2019년 6월 5일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Added new [Troubleshooting](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) section. |
 |  | [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 기본 배포 방법인 Adobe Launch를 사용하여 at. js를 배포하는 방법에 대한 정보가 업데이트되었습니다. |
 |  | [Target 주요 개념](/help/c-intro/target-key-concepts.md) | 텍스트가 약간 편집되었습니다. |
 | 2019 년 6 월 3 일 | [릴리스 노트 (현재)](/help/r-release-notes/release-notes.md) | . js 2.1.0의 예정된 릴리스에 대한 정보가 추가되었습니다. |
@@ -42,7 +52,7 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 |  | [시작하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 추가된 새 섹션: &quot; 클라이언트측 분석 로깅 &quot; |
 |  | [Analytics for Target 구현](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)을 참조하십시오 | 7 단계 개정. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 다음 필드 이름에 대해 표에 행을 추가했습니다.<ul><li>요청 &gt; Experiencecloud</li><li>요청 &gt; Experiencecloud &gt; 분석</li><li>요청 &gt; Experiencecloud &gt; Analytics &gt; 로깅</li></ul> |
-|  | [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | 표에 행을 추가했습니다 `adobe.target.sendNotifications(options)`. |
+|  | [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Added row to the table for `adobe.target.sendNotifications(options)`. |
 |  | [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 새 주제입니다.  |
 |  | [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#integrations) | . js 2.1.0에서 Adobe 옵트인 지원에 대한 정보가 추가되었습니다. |
 |  | [개인 정보 및 일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | . js 2.1.0에서 옵트인 지원에 대한 정보가 업데이트되었습니다. |
