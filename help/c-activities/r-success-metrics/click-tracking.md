@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 클릭 추적
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
 
 ---
 
@@ -22,7 +22,7 @@ Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있�
 >
 >클릭 추적이 양식 기반 활동에서 위치로 사용하는 경우 Target 글로벌 mbox에서 지원되지 않습니다.
 
-## 클릭 추적 설정 {#section_5540C5A533114E57BAE022A600B02E72}
+## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. 활동에 대한 [!UICONTROL 목표 및 설정] 페이지에서 목표를 설정할 때 **[!UICONTROL 변환]성공 지표를 선택합니다.**
 1. 작업에 대해 **[!UICONTROL 요소를 클릭함]** 을 선택한 후 **[!UICONTROL 요소 선택]** 을 클릭합니다.
@@ -36,6 +36,32 @@ Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있�
 1. 화면 맨 위에 있는 확인 표시를 클릭하여 선택 사항을 저장합니다.
 
 활동 참여자가 선택된 요소를 클릭하면 해당 클릭이 전환으로 카운트됩니다.
+
+## Selected Elements panel {#selected-elements}
+
+For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+
+![선택한 요소 패널](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+
+[!UICONTROL 선택한 요소] 패널의 요소 위로 마우스를 가져가면 적용할 수 있는 몇 가지 작업이 있습니다. 다음 표에서는 요소에 대해 수행할 수 있는 각 작업을 설명합니다.
+
+| 작업 | 설명 |
+| --- | --- |
+| 정보 | 선택기 및 선택기의 전체 DOM 경로를 표시합니다. |
+| 편집 | CSS 선택기를 편집할 수 있습니다. |
+| 삭제 | 요소를 삭제합니다. |
+
+### 요소 추가
+
+선택기의 DOM 경로를 이미 알고 있는 경우 패널 위쪽에 있는 더하기 아이콘을 클릭하여 수동으로 추가할 수 있습니다.
+
+![요소 추가 아이콘](/help/c-activities/r-success-metrics/assets/add-element.png)
+
+### 선택한 요소 커서 팝업
+
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 목록에는 선택한 요소가 클릭 추적에 사용되는지 확인하는 데 도움이 되는 요소에 대한 전체 DOM 경로가 포함되어 있습니다.
+
+![선택한 요소 연결](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## 고려 사항 {#considerations}
 
@@ -58,7 +84,7 @@ Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있�
 
    | 문자 | 설명 |
    |---|---|
-   | # | 숫자 기호 또는 해시 |
+   | # | 숫자 기호 또는 해시 해시 |
    | : | 콜론 |
    | . | 기간 |
    | $ | 달러 기호 |
@@ -90,4 +116,4 @@ Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있�
 * 변환, 수입 및 참여 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
->[!VIDEO](https://video.tv.adobe.com/v/17380
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=kor)
