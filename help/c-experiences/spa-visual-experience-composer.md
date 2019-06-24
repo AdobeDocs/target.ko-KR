@@ -8,12 +8,12 @@ title: SPA(단일 페이지 앱) 시각적 경험 작성기
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 91e108be21bd3759a17d7cf5f66bf134b1fab60a
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
 
-# SPA(단일 페이지 앱) 시각적 경험 작성기 {#single-page-app-spa-visual-experience-composer}
+# SPA(단일 페이지 앱) 시각적 경험 작성기{#single-page-app-spa-visual-experience-composer}
 
 [!DNL Adobe Target]에서 [!UICONTROL 시각적 경험 작성기] (VEC)는 마케터에게 Adobe Target의 글로벌 mbox를 통해 기존의 다중 페이지 애플리케이션에 동적으로 전달할 수 있는 경험을 개인화하고 활동을 만들 수 있는 DIY 기능을 제공합니다. 하지만, 이것은 아래 다이어그램에 표시된 것처럼, 지연을 초래하는 페이지 로드 또는 후속 서버 호출에서의 오퍼 검색에 의존합니다. 이 접근 방식은 사용자 경험과 애플리케이션 성능을 저하하므로 단일 페이지 애플리케이션(SPA)에서는 잘 작동하지 않습니다.
 
@@ -198,9 +198,9 @@ VEC가 SPA에서 잘 작동할 수 있도록 해주는, VEC에 대한 [수정 �
 
 **작업**
 
-작업을 클릭하면 이 작업이 적용될 사이트의 요소가 강조 표시됩니다. 아래 표시된 각 VEC 작업에는 아래와 같이 다음 아이콘이 표시됩니다. 정보, 편집, 복제, 이동 및 삭제.
+작업을 클릭하면 이 작업이 적용될 사이트의 요소가 강조 표시됩니다. 아래 표시된 각 VEC 작업에는 아래와 같이 네 개의 아이콘이 있습니다. 정보, 편집, 이동 및 삭제.
 
-![수정 사항](/help/c-experiences/assets/modifications.png)
+![수정 사항](/help/c-experiences/assets/modifications-new.png)
 
 다음 표는 각 작업에 대해 설명합니다.
 
@@ -208,8 +208,7 @@ VEC가 SPA에서 잘 작동할 수 있도록 해주는, VEC에 대한 [수정 �
 | --- | --- |
 | 정보 | 작업의 세부 사항을 표시합니다. |
 | 편집 | 작업의 속성을 직접 편집할 수 있습니다. |
-| 복제 | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. 즉, vec에서 탐색한 뷰로 작업을 복제할 수 있습니다. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**** 참고: 복제 작업이 수행된 후에는 [!UICONTROL 찾아보기를] 통해 VEC의 보기로 이동하여 복제된 작업이 올바른 작업인지 확인해야 합니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
-| 이동 | 동작을 페이지 로드 이벤트나 [수정] 패널에 이미 있는 다른 보기로 이동합니다.<br>[!UICONTROL 페이지 로드 이벤트] - 페이지 로드 이벤트에 해당하는 모든 작업은 웹 애플리케이션의 초기 페이지 로드 시 적용됩니다.<br>**참고** 이동 작업이 이루어진 후에는 찾아보기를 통해 VEC의 보기로 이동하여 이동이 올바른 작업인지 확인해야 합니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
+| 이동 | 동작을 페이지 로드 이벤트나 [수정] 패널에 이미 있는 다른 보기로 이동합니다.<br>[!UICONTROL 페이지 로드 이벤트] - 페이지 로드 이벤트에 해당하는 모든 작업은 웹 애플리케이션의 초기 페이지 로드 시 적용됩니다.<br>**참고** 이동 작업이 이루어진 후에는 이동을 통해 VEC의 보기로 이동하여 이동이 올바른 작업인지 확인하십시오. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
 | 삭제 | 작업을 삭제합니다. |
 
 >[!NOTE]
@@ -370,72 +369,6 @@ adobe.target.getOffers({
 | [VEC 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | 모든 |
 | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 예 |
 | [여러 활동 전달](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | 예 |
-
-## Page Delivery settings for the SPA VEC {#page-delivery-settings}
-
-[!UICONTROL 페이지 배달] 설정을 사용하면 대상 활동이 대상자에 대해 자격을 부여하고 실행하는 시기를 결정하는 규칙을 구성할 수 있습니다.
-
-To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
-
-![페이지 배달 옵션 대화 상자](/help/c-experiences/assets/page-delivery.png)
-
-For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. 이 기능은 페이지와의 모든 상호 작용이 페이지 로드를 불러오는 다중 페이지 애플리케이션에 완벽하게 작동합니다. 여기서 at. js는 사용자가 탐색하는 URL를 규정하는 활동을 검색합니다.
-
-However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
-
-### 예제 사용 사례
-
-Use this example-case:
-
-![SPA VEC 수정 패널](/help/c-experiences/assets/page-delivery-example.png)
-
-다음 변경 사항이 적용되었습니다.
-
-* Changed the background color in the Home view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
-
-![페이지 배달 대화 상자](/help/c-experiences/assets/spa-page-delivery.png)
-
-다음 그림은 at. js 2의 Target 흐름 - 페이지 로드 요청을 보여줍니다.*x*:
-
-![Target 흐름 - at. js 2.0 페이지 로드 요청](/help/c-experiences/assets/page-load-request.png)
-
-**사용자 경로 # 1**
-
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*X* 는 Edge에 대한 쿼리를 수행하여 URL에 대해 실행해야 하는 활동이 있는지 확인합니다. [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* 6 단계에서 Target Edge는 브라우저 내에서 캐시되도록 홈 및 제품 보기에 대한 작업을 반환합니다.
-
-**** 결과: 사용자는 홈 보기에서 녹색 배경색을 보게 됩니다. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen since the action is cached in the browser under the Products view.
-
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
-
-**사용자 경로 # 2**
-
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*X* 는 Edge에 대한 쿼리를 수행하여 URL에 대해 실행해야 하는 활동이 있는지 확인합니다. [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)에 적합한 활동이 없습니다.
-* 자격이 적격한 활동이 없으므로 at. js 2에 대해 캐시되는 작업 및 보기가 없습니다.*시작할 X.*
-
-**** 결과: 제품 보기에 `triggerView()` 대해 정의되고 SPA VEC를 통해 제품 보기에 작업을 수행한 경우에도 페이지 배달 설정에 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) 이 포함된 규칙을 만들지 않았기 때문에 예상된 작업이 표시되지 않습니다.
-
-### 우수 사례
-
-사용자가 SPA의 URL에 착륙하고 다른 페이지로 이동할 수 있으므로 사용자 여정을 관리하는 것은 매우 어려울 수 있습니다. 따라서 전체 SPA가 포함되도록 기본 URL 이 포함된 페이지 배달 규칙을 지정하는 것이 가장 좋습니다. 이러한 방식으로 A/B 테스트 또는 경험 타깃팅 (XT) 활동을 표시할 페이지에 도달하기 위해 사용자가 취할 수 있는 모든 여정 및 경로에 대해 신경쓰지 않아도 됩니다.
-
-예를 들어 위의 문제를 해결하기 위해 페이지 게재 설정에서 기본 URL를 다음과 같이 지정할 수 있습니다.
-
-![페이지 배달 대화 상자](/help/c-experiences/assets/conclusion.png)
-
-이렇게 하면 방문자가 SPA에 올라가 홈 또는 페이지 보기로 이동하면 적용된 작업이 표시됩니다.
-
-Now, whenever you had an action to a View in the SPA VEC, we will show you the following pop-up message to remind you to think about the [!UICONTROL Page Delivery] rules.
-
-![페이지 배달 설정 메시지](/help/c-experiences/assets/pop-up-message.png)
-
-이 메시지는 새로 만든 모든 활동에 대해 첫 번째 작업을 뷰에 추가할 때 표시됩니다. This message helps ensure that everyone in your organization learns how to apply these [!UICONTROL Page Delivery] rules correctly.
 
 ## 교육 비디오: Adobe Target에서의 SPA용 VEC 사용
 
