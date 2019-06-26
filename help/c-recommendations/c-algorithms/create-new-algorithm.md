@@ -1,6 +1,6 @@
 ---
-description: 기준은 Recommendations 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
-seo-description: 기준은 Adobe Recommendations 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
+description: 기준은 Recommendations 활동의 컨텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
+seo-description: 기준은 Adobe Recommendations 활동의 컨텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
 seo-title: 기준 만들기
 solution: Target
 title: 기준 만들기
@@ -9,14 +9,14 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 기준 만들기{#create-criteria}
 
-기준은 Recommendations 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
+기준은 Recommendations 활동의 컨텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
 
 ## 기준 만들기{#task_8A9CB465F28D44899F69F38AD27352FE}를 참조하십시오 
 
@@ -206,16 +206,16 @@ null 검색 결과 페이지는 사용하지 마십시오.
 
 사용자 지정 프로필 속성값을 기준으로 하여 권장 사항을 만들 수 있습니다. 예를 들어 방문자가 가장 최근에 큐에 추가한 동영상을 기반으로 권장 동영상을 표시하려 한다고 가정합니다.
 
-1. **[!UICONTROL 권장 사항 키]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예: &quot;Last Show Added to Watchlist&quot;).
-1. 그런 다음 **[!UICONTROL 권장 사항 논리]** 를 선택합니다(예: &quot;People Who Viewed This, Viewed That&quot;).
+1. **[!UICONTROL 권장 사항 키]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예를 들어 &quot;Last Show Added to Watchlist&quot;).
+1. 그런 다음 **[!UICONTROL 권장 사항 논리]** 를 선택합니다(예를 들어 &quot;People Who Viewed This, Viewed That&quot;).
 
    ![새 기준 만들기 대화 상자](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 사용자 지정 프로필 속성이 단일 엔티티 ID와 직접 일치하지 않는 경우 엔티티에 대한 일치가 어떻게 일치하는지 [!DNL Recommendations]에 설명해야 합니다. 예를 들어 방문자가 좋아하는 브랜드에서 상위 판매 항목을 표시한다고 가정합니다.
 
-1. **[!UICONTROL 권장 사항 키]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예: &quot;Favorite Brand&quot;).
+1. **[!UICONTROL 권장 사항 키]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예를 들어 &quot;Favorite Brand&quot;).
 
-1. 그런 다음 이 키와 함께 사용할 **[!UICONTROL 권장 사항 논리]** 를 선택합니다(예: &quot;Top Sellers&quot;).
+1. 그런 다음 이 키와 함께 사용할 **[!UICONTROL 권장 사항 논리]** 를 선택합니다(예를 들어 &quot;Top Sellers&quot;).
 
    [!UICONTROL 다음의 고유한 값으로 그룹화] 옵션이 표시됩니다.
 
@@ -331,6 +331,16 @@ null 검색 결과 페이지는 사용하지 마십시오.
 
 홈 페이지 또는 랜딩 페이지 및 오프사이트와 같은 일반 페이지.
 
+### Previously Purchased Items {#previously-purchased}
+
+Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+
+The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). 두 사이트가 서로 다른 환경에 속해 있고 방문자가 두 사이트 사이를 전환하는 경우 각 사이트는 해당 사이트에서 최근에 구입한 항목만 보여줍니다. 두 사이트가 동일한 환경에 있고 방문자가 두 사이트 사이를 전환하는 경우 방문자는 두 사이트 모두에 대해 동일한 최근에 구매한 항목을 보게 됩니다.
+
+**사이트에서 사용할 위치**
+
+홈 페이지 또는 랜딩 페이지 및 오프사이트와 같은 일반 페이지.
+
 ## 포함 규칙{#task_28DB20F968B1451481D8E51BAF947079}을 참조하십시오 
 
 여러 가지 옵션을 사용하여 권장 사항에 표시할 항목 범위를 좁힐 수 있습니다. 기준 또는 프로모션을 만들 때 포함 규칙을 사용할 수 있습니다.
@@ -422,9 +432,9 @@ null 검색 결과 페이지는 사용하지 마십시오.
 
 [!UICONTROL 컨텐츠 유사성] 규칙을 사용하여 항목 또는 미디어 속성에 따라 권장 사항을 제공합니다.
 
-콘텐츠 유사성은 항목 속성 키워드를 비교하고 여러 항목에 공통되는 키워드의 수에 따라 권장 사항을 제공합니다. 컨텐츠 유사성을 기준으로 하는 권장 사항은 강력한 결과를 전달하기 위해 과거 데이터가 필요하지 않습니다.
+컨텐츠 유사성은 항목 속성 키워드를 비교하고 여러 항목에 공통되는 키워드의 수에 따라 권장 사항을 제공합니다. 컨텐츠 유사성을 기준으로 하는 권장 사항은 강력한 결과를 전달하기 위해 과거 데이터가 필요하지 않습니다.
 
-콘텐츠 유사성을 사용하여 권장 사항을 생성하는 방식은 *특정 항목을 본 사용자* 및 과거 동작을 기준으로 하는 기타 논리를 사용하는 권장 사항에 표시되지 않는 새 항목에 특히 유용합니다. 또한 컨텐츠 유사성을 사용하여 과거 구입 내역 또는 기타 기록 데이터가 없는 새 방문자를 위한 유용한 권장 사항을 생성할 수도 있습니다.
+컨텐츠 유사성을 사용하여 권장 사항을 생성하는 방식은 *특정 항목을 본 사용자* 및 과거 동작을 기준으로 하는 기타 논리를 사용하는 권장 사항에 표시되지 않는 새 항목에 특히 유용합니다. 또한 컨텐츠 유사성을 사용하여 과거 구입 내역 또는 기타 기록 데이터가 없는 새 방문자를 위한 유용한 권장 사항을 생성할 수도 있습니다.
 
 **[!UICONTROL 유사한 속성의 항목]**/**[!UICONTROL 미디어]** 를 선택하는 경우 권장 사항을 결정할 때 특정 항목 속성의 중요도를 늘리거나 줄이는 규칙을 만드는 선택 사항이 제공됩니다. 서적과 같은 항목의 경우 *장르*, *저자*, *시리즈*와 같은 속성의 중요도를 높여 비슷한 서적을 권장할 수 있습니다.
 
