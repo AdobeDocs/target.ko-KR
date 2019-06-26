@@ -7,16 +7,16 @@ solution: Target
 title: 활동 URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 활동 URL{#activity-url}
 
-활동 URL는 [!MMVT (Ultivariate Test] ) 에서 사용되는 페이지를 결정하며, 테스트가 설계되면 열립니다 [!DNL Adobe Target].
+The activity URL determines the page that is used in the [!UICONTROL Multivariate Test] (MVT), and that opens when the test is designed in [!DNL Adobe Target].
 
-활동을 만드는 동안 [메시지가 표시되면 활동 URL를 지정합니다](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md). 전체 URL (포함 `https://`) 를 입력하고 **[!UICONTROL 다음을 클릭합니다]**.
+When prompted during [activity creation](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md), specify the activity URL. Type the complete URL (including `https://`), then click **[!UICONTROL Next]**.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 [!UICONTROL 기본적으로, Visual Experience Composer] (VEC) 는 [계정 기본 설정에 지정된 페이지를 엽니다](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
 
-VEC가 열리고 다른 페이지를 표시하려면 **[!UICONTROL 구성]** 아이콘을 클릭한 다음 페이지 배달을 선택한 **[!UICONTROL ]** 다음 URL를 지정합니다.
+To display a different page after the VEC opens, click the **[!UICONTROL Configure]** icon, then select **[!UICONTROL Page Delivery]**, then specify the URL.
 
 ![페이지 배달 대화 상자](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/url-config.png)
 
