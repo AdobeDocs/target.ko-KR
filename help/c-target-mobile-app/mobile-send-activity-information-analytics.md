@@ -4,8 +4,8 @@ seo-description: 이 섹션에서는 postAhoc 세그멘테이션을 위해 Targe
 seo-title: Adobe Analytics에 활동 정보 보내기
 title: Adobe Analytics에 활동 정보 보내기
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    콜백에서 Target으로부터 돌아온 응답을 분석합니다. NSJSONSerialization을 사용하여 이 응답을 분석한 후 dict 또는 배열에 저장할 수 있습니다.
 
-   자세한 내용은 [NSJSONSerialization 설명서](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error)를 참조하십시오.
+   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
 1. 데이터를 Analytics로 보냅니다.
 
    Analytics 호출의 컨텍스트 데이터 개체에 구문 분석된 활동 정보(위 응답에 있는 `tntVal` 등)를 추가합니다. 컨텍스트 데이터가 포함된 이 Analytics 호출은 즉시 실행하거나 다음 Analytics 호출이 실행되기 전까지 대기할 수 있습니다.
