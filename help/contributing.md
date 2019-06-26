@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+translation-type: tm+mt
 
 ---
 # 기여
@@ -21,4 +21,4 @@ translation-type: ht
 ## 수칙 검토
 
 모든 제출 사항은 끌어오기 요청 양식으로 제출해야 하며 프로젝트 커미터가
-검토해야 합니다. 끌어오기 요청 전송에 대한 자세한 내용은 [GitHub의 끌어오기 요청 설명서](https://help.github.com/articles/about-pull-requests/)를 참조하십시오.
+검토해야 합니다. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
