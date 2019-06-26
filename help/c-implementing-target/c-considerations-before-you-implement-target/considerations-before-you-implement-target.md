@@ -9,7 +9,7 @@ title: 구현하기 전에
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
 
 >[!IMPORTANT]
 >
->at. js 또는 mbox. js에 대한 수정 사항은 Adobe 고객 지원 센터에서 지원되지 않습니다.
+>at.js 또는 mbox.js에 대한 수정 사항은 Adobe 고객 지원 센터에서 지원하지 않습니다.
 
 - [Target 구현 준비](prepare-to-implement-target.md)
 - [개인 정보 보호](c-privacy/privacy.md)
