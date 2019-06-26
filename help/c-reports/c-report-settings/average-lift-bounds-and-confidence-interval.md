@@ -8,7 +8,7 @@ title: 평균 상승도, 상승도 한계 및 신뢰 구간
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 >[!NOTE]
 >
->이 기능은 [표 보기]에서 보고서를 볼 때만 사용할 수 있습니다. 이 기능은 [Analytics를 보고 소스로 사용(A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)하는 활동에는 사용할 수 없습니다.
+>이 기능은 표 보기에서 보고서를 볼 때만 사용할 수 있습니다. 이 기능은 [Analytics를 보고 소스로 사용(A4T)](../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)하는 활동에는 사용할 수 없습니다.
 
 ## 개요 {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
