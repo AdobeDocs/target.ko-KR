@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 데이터를 Target에 가져오는 방법
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -52,13 +52,13 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 * 페이지 코드 업데이트가 필요합니다(직접 또는 태그 관리 시스템 사용).
 * 후속 페이지/서버 호출에서 타깃팅을 위해 데이터를 사용해야 하는 경우 프로필 스크립트로 변환해야 합니다.
-* 쿼리 문자열은 [IETF(Internet Engineering Task Force) 표준](https://www.ietf.org/rfc/rfc3986.txt)에 따라 문자만 포함할 수 있습니다.
+* 쿼리 문자열에는 [IETF(Internet Engineering Task Force) 표준](https://www.ietf.org/rfc/rfc3986.txt)에 대한 문자만 포함될 수 있습니다 .
 
    IETF 사이트에서 언급된 것 외에도, Target은 쿼리 문자열에 다음과 같은 문자를 허용합니다.
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
-   다른 모든 문자는 URL로 인코딩해야 합니다. 이 표준에서는 아래 그림과 같이 다음 형식을 지정합니다([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt)).
+   다른 모든 문자는 URL로 인코딩해야 합니다. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
    ![](assets/ietf1.png)
 
@@ -227,8 +227,8 @@ at.js는 데이터를 캐시하려고 하지 않습니다. 데이터 공급자�
 
 ### 교육 비디오:
 
-* [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 벌크 프로필 업데이트 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -336,8 +336,8 @@ Experience Cloud ID(ECID) 구현이 필요합니다.
 
 ### 코드 예
 
-세부 사항은 [고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/ko_KR/mcloud/t_crs_usecase.html)에서 찾을 수 있습니다.
+세부 사항은 [고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)에서 찾을 수 있습니다 .
 
 ### 관련 정보 링크
 
-[고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/ko_KR/mcloud/t_crs_usecase.html)
+[고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
