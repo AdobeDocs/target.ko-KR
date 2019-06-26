@@ -7,14 +7,14 @@ solution: Target
 title: 다변량 테스트 만들기
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 다변량 테스트 만들기{#create-a-multivariate-test}
 
-의 [!UICONTROL Visual Experience Composer] (VEC) 를 사용하면 [!DNL Target] Target 이 활성화된 페이지에 테스트를 쉽게 만들고 페이지의 일부를 수정할 [!DNL Target]수 있습니다.
+The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] makes it easy to create your test right on a Target-enabled page and to modify portions of the page within [!DNL Target].
 
 Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
 
@@ -26,15 +26,15 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
    >[!NOTE]
    >
-   >사용 가능한 활동 유형은 Target 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL 자동화된 개인화는] [Target Premium 기능입니다](/help/c-intro/intro.md#premium).
+   >사용 가능한 활동 유형은 Target 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
    >
-   >사용 가능한 다양한 활동 유형과 그 차이점에 대한 [!DNL Target] 자세한 내용은 [활동을 참조하십시오](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). 필요한 활동 유형을 결정하는 데 도움이 되는 [타겟 활동 유형을](/help/c-activities/target-activities-guide.md) 참조하십시오.
+   >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
-1. 필요한 경우 **[!UICONTROL 시각적 (기본값)]** 를 선택합니다.
+1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
    ![경험 타깃팅 활동 만들기 대화 상자](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 Experience Composer](/help/c-experiences/form-experience-composer.md) 를 참조하십시오.
+   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
@@ -42,9 +42,9 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >이전 그림에서 작업 영역 [!UICONTROL 선택] 옵션은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
 
-1. (조건부) Target Premium 고객인 경우 작업 영역을 [선택합니다](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. [테스트할 페이지의 URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) 를 지정하고 **[!UICONTROL 다음을 클릭합니다]**.
 
@@ -87,7 +87,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
    ![경험 미리 보기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   각 경험을 보고, 테스트에 포함하지 않으려는 경험을 제외할 수 있습니다. 하나 이상의 경험을 제외하려면 원하는 확인란을 선택한 다음 제외를 클릭합니다 **[!UICONTROL ]** .
+   각 경험을 보고, 테스트에 포함하지 않으려는 경험을 제외할 수 있습니다. To exclude one or more experiences, select the desired checkboxes, then click **[!UICONTROL Exclude]** .
 
    ![경험 제외](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -103,7 +103,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
    ![](assets/estimator2.png)
 
-1. 다음을 **[!UICONTROL 클릭하여]** [!UICONTROL 타깃팅] 페이지로 이동합니다.]
+1. Click **[!UICONTROL Next]** to advance to the [!UICONTROL Targeting] page.]
 
 1. 활동을 시작할 자격 있는 방문자의 대상 및 비율을 선택합니다.
 
