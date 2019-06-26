@@ -6,8 +6,8 @@ seo-title: 오퍼
 solution: Target
 title: 오퍼
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,7 +30,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ![](assets/offers_filter.png)
 
-원하는 항목을 마우스로 가리킨 다음, 편집 또는 복사 아이콘을 클릭하여 폴더나 오퍼를 편집하거나 복사할 수 있습니다.
+원하는 항목을 마우스로 가리킨 다음, [편집] 또는 [복사] 아이콘을 클릭하여 폴더나 오퍼를 편집하거나 복사할 수 있습니다.
 
 ![](assets/offer-picker-large.png)
 
@@ -90,8 +90,8 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 다음 비디오에는 오퍼 관리에 대한 정보가 포함되어 있습니다.
 
-* [Experience Cloud 자산 라이브러리](https://marketing.adobe.com/resources/help/ko_KR/mcloud/creative_cloud.html)와 Target 컨텐츠 라이브러리 간 연결
+* [Experience Cloud 자산 라이브러리](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html)와 Target 컨텐츠 라이브러리 간 연결
 * 사용자 지정 HTML 오퍼
 * 시각적 경험 작성기의 사용자 지정 HTML 오퍼
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=kor)
