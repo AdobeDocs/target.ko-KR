@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 글로벌 mbox에 매개 변수 전달
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,7 +32,7 @@ JavaScript 함수를 호출하는 코드는 글로벌 mbox가 mbox.js의 일부�
 * JSON 개체
 * 앰퍼샌드로 구분된 목록
 
-이 세 가지 방법을 사용하여 매개 변수가 올바로 전달되고 있는지 확인하십시오. [Adobe Experience Cloud Debugger](https://marketing.adobe.com/resources/help/ko_KR/sc/implement/debugger.html)를 사용하여 매개 변수 전달을 확인할 수도 있습니다.
+이 세 가지 방법을 사용하여 매개 변수가 올바로 전달되고 있는지 확인하십시오. [Adobe Experience Cloud Debugger](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger.html)를 사용하여 매개 변수 전달을 확인할 수도 있습니다.
 
 페이지에 글로벌 mbox를 추가하려면 먼저 JavaScript 함수를 정의해야 합니다. 이름은 `targetPageParams`여야 합니다.
 
