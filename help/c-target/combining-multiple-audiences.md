@@ -8,7 +8,7 @@ title: 여러 대상 결합
 topic: 고급,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
 [!DNL Target] UI의 다양한 위치에서 결합된 대상을 만들어 사용할 수 있습니다. 
 
-## 활동을 만드는 동안 결합된 대상자 만들기 {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 3단계 안내가 있는 워크플로우 동안 활동의 [!UICONTROL Target] 페이지에서 결합된 임시 대상을 만들 수 있습니다.
 
@@ -77,7 +77,7 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
 1. 결합된 대상에 대한 수사적 이름을 지정한 다음 **[!UICONTROL 저장을 클릭합니다]**.
 
-## 지표 타깃팅에서 사용할 통합 대상 만들기 {#section_A42E795AFCBD4575809C5942039910F0}
+## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 지표 타깃팅에서 사용할 결합된 임시 대상을 활동의 [!UICONTROL 목표 및 설정] 페이지에서 만들어 수 있습니다. 예를 들어, 결합된 대상을 사용하여 전환을 기반으로 타깃팅을 만들려면 다음을 수행하십시오.
 
@@ -103,7 +103,7 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
 1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
 
-## 활동을 편집하는 동안 결합된 대상자 만들기 {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 기존 활동을 편집할 때 결합된 임시 대상을 만들 수 있습니다.
 
