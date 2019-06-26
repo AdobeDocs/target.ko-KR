@@ -8,14 +8,14 @@ title: 다변량 테스트 우수 사례
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 다변량 테스트 우수 사례{#multivariate-test-best-practices}
 
-MVT (Multivariate Testing) 활동을 만들고 실행할 때 발생할 수 있는 성능, 문제를 방지하고 알려진 문제를 수정하는 데 도움이 되는 팁입니다 [!DNL Adobe Target].
+Tips to help you improve performance, avoid issues, and correct known issues that might occur when creating and running Multivariate Test (MVT) activities in [!DNL Adobe Target].
 
 ## 계획 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -50,11 +50,11 @@ MVT (Multivariate Testing) 활동을 만들고 실행할 때 발생할 수 있�
 * [위치 기여도 보고서를](/help/c-reports/location-contribution-report.md) 자주 사용하여 각 위치와 오퍼의 성과를 모니터링합니다.
 * [경험 성과 보고서에서](/help/c-reports/experience-performance-report.md)우수 5 개 및 최저 성과 5 개의 필터를 사용하여 표시되는 데이터에 대한 결정을 기준으로 합니다.
 
-   [!UICONTROL [모두] ] 필터는 원하는 정보를 추출하기 어렵게 만들며 일부 경험은 그래프에 표시할 수 없습니다. 성과가 가장 높은 경험 5 개와 가장 낮은 경험 5 개에 포함되지 않은 특정 경험을 보려는 경우 [!UICONTROL 모두] 필터를 사용합니다.
+   [!UICONTROL [모두] ] 필터는 원하는 정보를 추출하기 어렵게 만들며 일부 경험은 그래프에 표시할 수 없습니다. Use the [!UICONTROL All] filter if you want to look at a specific experience that is not in the best or worst five.
 
 ## 추가 작업 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* 라이브 활동을 편집할 [!DNL Target] 수 있지만 진행 중인 활동을 편집하면 테스트가 재설정될 수 있습니다. 따라서 보고서가 일부 변경 사항을 인식하지 못할 수도 있습니다. HTML 오퍼 변경은 오퍼 라이브러리에서만 수행하는 것이 안전합니다.
+* Although [!DNL Target] allows you to edit a live activity, be aware that editing an activity that is in progress could reset the test. 따라서 보고서가 일부 변경 사항을 인식하지 못할 수도 있습니다. HTML 오퍼 변경은 오퍼 라이브러리에서만 수행하는 것이 안전합니다.
 
    경험 이름 및 보고서를 재설정하는 특정 작업은 다음과 같습니다.
 
