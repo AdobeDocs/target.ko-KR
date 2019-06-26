@@ -7,8 +7,8 @@ solution: Target
 title: 보고서 보기 - A4T FAQ
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Activities 보고서의 경우 관리자는 보고서를 실행할 때마다 보고서에 동일한 지표가 표시되도록 기본 지표를 변경할 수 있습니다. 그렇지 않으면 보고서는 마지막 보고서에 적용한 마지막 지표로 기본 설정됩니다.
 
-자세한 내용은 *Reports &amp; Analytics 인터페이스 도움말* 안내서의 [기본 보고서 지표 선택](https://marketing.adobe.com/resources/help/ko_KR/sc/user/t_metrics_set_default.html)을 참조하십시오.
+자세한 내용은 *Reports &amp; Analytics 인터페이스 도움말* 안내서의 [기본 보고서 지표 선택](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)을 참조하십시오.
 
 ## 보고서에 세그먼트를 적용하는 것과 비교하여 계산된 지표와 함께 지표에는 세그먼트를 언제 적용합니까? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -110,7 +110,7 @@ Analytics 지표를 활동의 전환 지표로 선택하면 &quot;활동 전환&
 
 전환 전에 두 경험을 모두 보았으므로 두 경험 모두 주문에 대한 &quot;크레딧&quot;을 받습니다. 그러나 주문은 시스템에서 하나만 발생했고 합계에 이렇게 반영됩니다. Target 보고의 경우 Target 활동을 활동으로 분류하고 있지 않으므로, 사용자가 본 모든 활동이 크레딧을 받은 것은 중요하지 않습니다. 지금은 단일 활동 내 두 항목의 결과를 비교하고 있으며, 사용자는 동일한 활동에서 서로 다른 경험을 확인할 수 없으므로 주문 크레딧의 교차 오염에 대해 걱정할 필요가 없습니다.
 
-자세한 내용은 Analytics 도움말의 [전환 변수(eVar)](https://marketing.adobe.com/resources/help/ko_KR/reference/conversion_var_admin.html)를 참조하십시오.
+자세한 내용은 Analytics 도움말의 [전환 변수(eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html)를 참조하십시오.
 
 ## Analytics와 Analytics for Target(A4T)에서 고유 방문자 수 지표에 대해 숫자를 서로 다르게 계산하는 이유는 무엇입니까? {#section_0C3B648AB54041F9A2AA839D51791883}
 
@@ -144,4 +144,4 @@ Target 변수가 지속되는 시간을 한 세션으로 단축할 수는 있지
 
 [!DNL Adobe Analysis Workspace]를 사용하여 데이터를 보다 깊이 있게 분석하고 그 이면에 대한 통찰력을 얻을 수 있습니다.
 
-자세한 내용 및 예를 보려면 Adobe Experience League에서 제공한 [Analytics &amp; Target: 분석 우수 사례 자습서](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)를 여십시오.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
