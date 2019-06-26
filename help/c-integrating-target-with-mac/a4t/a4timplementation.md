@@ -8,7 +8,7 @@ title: Analytics for Target 구현
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: dd23c58ce77a16d620498afb780dae67b1e9e7f7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ Visitorapi. js 는. js 또는 mbox. js 앞에 로드되어야 합니다. 기존 
 
 구현 원근과 Target 및 Analytics 통합에 대해 기본적으로 설정이 구성되는 방법은 페이지에서 전달되는 SDID를 사용하여 자동으로 백엔드에서 Target 및 Analytics 요청을 연결하는 것입니다.
 
-하지만 보고 목적으로 Target와 관련된 Analytics 데이터를 어떻게 보내고 Target 및 Analytics가 SDID를 통해 Analytics 데이터를 자동으로 Stitch의 기본 설정을 따르도록 하는 방법과 시간을 더 많이 제어하려는 경우, window. targetglobalsettings를 통해 **analytics = client_ side****를 설정할 수** 있습니다. 참고: 2.1 미만 버전은 이 방법을 지원하지 않습니다.
+However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. 참고: 2.1 미만 버전은 이 방법을 지원하지 않습니다.
 
 예:
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-이 설정에는 전역 효과가 있습니다. 즉, at. js에서 만든 모든 호출에는 **Analytics 기록이 포함됩니다. &quot; client_ side &quot;가 Target 요청에** 전송되고 Analytics 페이로드가 모든 요청에 대해 반환됩니다. 이 설정이 설정되면 반환되는 페이로드의 형식은 다음과 같이 나타납니다.
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. 이 설정이 설정되면 반환되는 페이로드의 형식은 다음과 같이 나타납니다.
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-그런 다음 데이터 삽입 API [](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)를 통해 페이로드를 Analytics로 전달할 수 있습니다.
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-글로벌 설정을 원하지 않고 더 많은 on-demand 방식이 필요한 경우 at. js 함수 [getoffers ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 를 사용하여 Analytics에서 **전달함으로써 이를 수행할 수 있습니다. &quot; client_ side &quot;** 를 참조하십시오. Analytics 페이로드가 이 호출만 대해 반환되고 Target 백엔드는 페이로드를 Analytics로 전달하지 않습니다. 이 방법을 추구하면 at. js Target 요청이 기본적으로 페이로드를 반환하지는 않지만 대신 원할 때만 페이로드를 반환합니다.
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. Analytics 페이로드가 이 호출만 대해 반환되고 Target 백엔드는 페이로드를 Analytics로 전달하지 않습니다. 이 방법을 추구하면 at. js Target 요청이 기본적으로 페이로드를 반환하지는 않지만 대신 원할 때만 페이로드를 반환합니다.
 
 예:
 
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 }
 ```
 
-그런 다음 데이터 삽입 API [](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)를 통해 페이로드를 Analytics로 전달할 수 있습니다.
+The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 8단계: 구현의 유효성 검사 {#step8}
 
