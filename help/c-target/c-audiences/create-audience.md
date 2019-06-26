@@ -8,7 +8,7 @@ title: Target에서 대상 작성
 topic: 고급,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,13 +27,13 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 두 부울 연산자를 혼합하여 복합 규칙을 만들 수 있지만 동일한 규칙 수준의 연산자가 일치해야 합니다. 사용자 인터페이스는 올바른 연산자를 자동으로 적용합니다.
 
-예를 들어 다음 규칙은 Windows 컴퓨터에서 Chrome *또는* Firefox를 사용하는 방문자를 타깃팅합니다.
+For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
 
 ![대상자 만들기](assets/audience_create.png)
 
 >[!NOTE]
 >
->모든 잠재적 대상 구성원을 제외하는 규칙을 작성하지 않도록 주의하십시오. 예를 들어 Chrome *및* Firefox를 동시에 사용하여 페이지를 방문할 수 없습니다.
+>모든 잠재적 대상 구성원을 제외하는 규칙을 작성하지 않도록 주의하십시오. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
 
 ## 새 대상 만들기
 
