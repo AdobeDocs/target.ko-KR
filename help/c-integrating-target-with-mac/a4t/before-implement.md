@@ -8,7 +8,7 @@ title: 구현하기 전에
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,22 +25,22 @@ Analytics를 Target(A4T)의 보고 소스로 설정할 때 데이터 수집 프�
 >
 >A4T를 사용하려면 먼저 계정을 통합용으로 공급하도록 요청해야 합니다. [이 양식](https://www.adobe.com/go/audiences)을 사용하여 제공을 요청합니다.
 
-이 A 4 T 통합을 사용하려면 4 T에서 리디렉션 오퍼를 사용할지 여부에 따라 다음 라이브러리 버전 이상을 구현해야 합니다.
+이 A4T 통합에서는 A4T와 함께 리디렉션 오퍼를 사용할지 여부에 따라 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다.
 
-### A 4 T에서 리디렉션 오퍼를 사용하지 *않을* 경우 필요한 요구 사항
+### A4T에서 리디렉션 오퍼를 사용하지 *않을* 경우 필요한 요구 사항
 
-이 통합을 사용하려면 4 T에서 리디렉션 오퍼 사용을 계획하지 않을 경우 다음 라이브러리 버전 이상을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
+A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합을 사용하려면 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
 
 * Experience Cloud 방문자 ID 서비스: visitorAPI.js 버전 1.8.0
 * Adobe Target(구현에 따라 다름): at.js 버전 0.9.1 또는 mbox.js 버전 61
 * Adobe Analytics: appMeasurement.js 버전 1.7.0
 
-### A 4 T에서 리디렉션 오퍼를 사용하는 경우 요구 사항 필요
+### A4T에서 리디렉션 오퍼를 사용할 경우 필요한 요구 사항
 
-A 4 T에서 리디렉션 오퍼를 사용하려면 다음 라이브러리 버전 이상을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
+A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
 
 * Experience Cloud 방문자 ID 서비스: visitorAPI.js 버전 2.3.0
-* Adobe Target: at. js 버전 1.6.2
+* Adobe Target: at.js 버전 1.6.2
 
    **참고:** mbox.js 라이브러리는 A4T를 사용하는 리디렉션 오퍼를 지원하지 않습니다. 구현에서 at.js를 사용해야 합니다.
 
@@ -77,8 +77,8 @@ Analytics 및 Target의 데이터가 포함된 히트 수에는 보충 데이터
 
 문제를 해결할 때 보충 ID가 Analytics 히트 수에 있는지 확인하십시오.
 
-## 클라이언트측 분석 로깅 {#client-side}
+## Client-side Analytics logging {#client-side}
 
-at default (at at. js, and [!DNL Experience Cloud Visitor ID Service]appmeasurement. js is on the page, [!DNL Adobe Analytics] and [!DNL Target] correct stitch events for reporting and analytics purpose as the page, as mentioned from the correct supplemental ID is included from the page, as 앞에서 언급한 대로). A 4 T가 제대로 작동하지 않도록 추가 작업을 관리 및 수행할 필요가 없습니다.
+By default, when at.js, the [!DNL Experience Cloud Visitor ID Service], and appMeasurement.js are on the page, [!DNL Adobe Analytics] and [!DNL Target] correctly stitch events for reporting and analytics purposes in the backend as long as the correct supplemental ID is included from the page, as mentioned above. A 4 T가 제대로 작동하지 않도록 추가 작업을 관리 및 수행할 필요가 없습니다.
 
-하지만 보고 목적으로 [!DNL Target] 와 [!DNL Analytics] 관련된 분석 데이터를 보내는 시기와 방법을 더 많이 제어할 수 있는 경우도 있습니다. 내부 용도로 활용하는 분석 도구가 있을 수도 있지만, 사내 분석 제품을 [!DNL Analytics] 통해 분석 데이터를 전송하여 조직의 다른 구성원이 시각적 보고 소스로 계속 활용할 [!DNL Analytics] 수 있도록 하려는 경우도 있습니다. [7 단계 참조: 참조 구현을 위한 Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) 의 *모든 사이트 페이지에서 at. js 또는 mbox. js* 참조를 참조하십시오.
+However, there are cases when you might want to have more control on when and how to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes. You might have an in-house analytics tool that you leverage for internal purposes but also want to send the analytics data to [!DNL Analytics] via your in-house analytics product so that other members of your organization can continue to utilize [!DNL Analytics] as a visual reporting source. [7 단계 참조: 참조 구현을 위한 Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) 의 *모든 사이트 페이지에서 at. js 또는 mbox. js* 참조를 참조하십시오.
