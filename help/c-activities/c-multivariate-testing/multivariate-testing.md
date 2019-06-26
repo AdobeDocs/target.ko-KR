@@ -8,7 +8,7 @@ title: 다변량 테스트
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
 
 다변량 테스트를 설정할 때 몇 가지 기본 용어를 이해하는 것이 유용합니다.
 
-업계에서 서로 다른 방식으로 사용되는 용어가 여러 개 있습니다. 이 섹션에서는에서 사용되는 용어를 정의합니다 [!DNL Target].
+업계에서 서로 다른 방식으로 사용되는 용어가 여러 개 있습니다. This section defines the terms used by [!DNL Target].
 
 **조합:** 여러 위치에서 여러 컨텐츠 선택 사항을 테스트할 때 만들어지는 컨텐츠 변형입니다. 예를 들어 각각 세 개의 컨텐츠 선택 사항이 있는 세 개의 위치를 테스트한다면 가능한 조합은 27개(3x3x3)입니다. 사이트 방문자는 경험이라고도 하는 하나의 조합을 보게 됩니다.
 
@@ -70,7 +70,7 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
    예를 들어 동일한 테스트에서 레이아웃과 컨텐츠를 테스트하지 마십시오.
 * 경험 수가 늘어나므로 QA에 소요되는 추가 시간을 계획합니다.
 
-   [!DNL Target] 다변량 테스트 (MVT) 를 내장된 활동 옵션으로 제공합니다. 통계학의 실험 계획에서는 결과에 영향을 미치는 요인을 결정하기 위한 다양한 접근 방식이나 디자인을 제공합니다. 이러한 접근 방식은 [부분 요인 테스트를](https://en.wikipedia.org/wiki/Taguchi_methods) 위한 Taguchi 메서드입니다. Taguchi 기법에서 마케터는 테스트해야 하는 경험의 순열 수를 줄이고 결과적으로 다변량 테스트에 대한 트래픽 요구 사항을 감소시키는 일련의 가정을 세울 수 있습니다. 이 기능 및 테스트 접근 방식은 이 오프라인 스프레드시트를 [!DNL Target] 사용할 때 [활용할](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)수 있습니다.
+   [!DNL Target] 다변량 테스트 (MVT) 를 내장된 활동 옵션으로 제공합니다. 통계학의 실험 계획에서는 결과에 영향을 미치는 요인을 결정하기 위한 다양한 접근 방식이나 디자인을 제공합니다. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Taguchi 기법에서 마케터는 테스트해야 하는 경험의 순열 수를 줄이고 결과적으로 다변량 테스트에 대한 트래픽 요구 사항을 감소시키는 일련의 가정을 세울 수 있습니다. This functionality and testing approach can be leveraged in [!DNL Target] using this [offline spreadsheet](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    팀이 다른 실험 계획 접근 방식을 사용한다면 이 계산 스프레드시트를 사용자 지정 실험 디자인을 위한 참조 구현으로 사용할 수 있습니다.
 
@@ -79,7 +79,7 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
    * 변경할 요소와 각 요소의 버전 수를 선택합니다(3x2, 4x3 등).
    * 번호 지정 방식을 일관성 있게 유지합니다. 예를 들어, 단추가 요소 1이고 선택 사항이 파란색, 녹색 및 노란색인 경우 파란색 단추는 1-1, 녹색 단추는 1-2, 노란색 단추는 1-3이 됩니다.
    * 오프라인 스프레드시트는 필요한 경험의 적절한 개수를 제공합니다(3x2의 경우 4개, 4x3의 경우 9개 등).
-   * Visual Experience Composer (VEC) 또는 양식 기반의 Experience [Composer를 사용하여 A/B 워크플로우에서 경험을 구축할](/help/c-experiences/experiences.md)수 있습니다. VEC를 사용하는 경우 사용자 지정 코드, HTML 편집, WYSIWYG 또는 임의의 조합을 사용할 수 있습니다.
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). VEC를 사용하는 경우 사용자 지정 코드, HTML 편집, WYSIWYG 또는 임의의 조합을 사용할 수 있습니다.
    * 활동이 끝나면(샘플 크기 계산기에 따라) 스프레드시트를 통해 결과를 실행하여 다른 세부 사항을 얻습니다.
 
 추가적인 고려 사항 및 우수 사례를 알려면 [다변량 테스트 우수 사례](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)를 참조하십시오.
