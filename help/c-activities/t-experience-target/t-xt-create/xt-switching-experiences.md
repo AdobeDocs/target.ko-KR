@@ -8,12 +8,12 @@ title: 경험 타깃팅에서 경험 전환
 topic: 고급,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# 경험 타깃팅의 경험 전환{#switching-experiences-in-experience-targeting}
+# Switching experiences in Experience Targeting{#switching-experiences-in-experience-targeting}
 
 프로필이 발전함에 따라 방문자가 XT(경험 타깃팅) 활동에서 경험 간을 전환하는 방법에 대한 정보입니다.
 
