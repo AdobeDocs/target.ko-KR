@@ -7,8 +7,8 @@ solution: Target
 title: at.js 제한 사항
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -21,7 +21,7 @@ at.js와 mbox.js 간에 약간의 차이가 있습니다. 이 섹션에는 at.js
 
 * 시각적 경험 작성기의 요소 삽입 및 다시 정렬 선택 사항은 단일 페이지 앱에서 피해야 합니다.
 
-   DOM은 기존 웹 사이트에서 지워지듯이 단일 페이지 앱의 페이지 로드 이벤트에서 지워지지 않으므로 요소 삽입 및 다시 정렬 조작은 방문자가 SPA를 탐색하는 방식에 따라 여러 번 다시 적용할 수 있습니다.
+   DOM은 기존 웹 사이트에서 지워지듯이 단일 페이지 앱의 페이지 로드 이벤트에서 지워지지 않으므로 [요소 삽입] 및 [다시 정렬] 조작은 방문자가 SPA를 탐색하는 방식에 따라 여러 번 다시 적용할 수 있습니다.
 
 ## 통합 및 플러그인 {#section_D92E31170176406AAC7B5005F03D3425}
 
