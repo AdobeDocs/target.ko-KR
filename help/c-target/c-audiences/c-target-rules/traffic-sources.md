@@ -7,7 +7,7 @@ solution: Target
 title: 트래픽 소스
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 사이트를 만드는 검색 엔진 또는 랜딩 페이지를 기반으로 방문자를 타깃팅할 대상을 만듭니다.
 
-예를 들어 방문자의 브라우저, 검색 엔진 또는 참조 랜딩 페이지를 기반으로 타게팅할 수 있습니다. 참조 랜딩 페이지는 방문자가 이 세션에서 현재 사이트에 도달하기 위해 클릭한 페이지입니다. (예를 들어 방문자가 Google에서 광고를 클릭한 후 `adobe.com` 홈 페이지로 안내하는 경우 참조 랜딩 페이지가 있습니다 `google.com`.)
+예를 들어 방문자의 브라우저, 검색 엔진 또는 참조 랜딩 페이지를 기반으로 타게팅할 수 있습니다. 참조 랜딩 페이지는 방문자가 이 세션에서 현재 사이트에 도달하기 위해 클릭한 페이지입니다. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
 
 여러 트래픽 소스를 결합하여 복잡한 타깃팅 규칙을 만들 수 있습니다.
 
