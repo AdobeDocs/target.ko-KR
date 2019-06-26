@@ -6,8 +6,8 @@ seo-title: SDK에서 Target 사용
 title: SDK에서 Target 사용
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 1. 앱에 Adobe Mobile Services SDK를 추가합니다.
 
-   지침은 [핵심 구현 및 라이프사이클](https://marketing.adobe.com/resources/help/ko_KR/mobile/ios/dev_qs.html) 아래에서 찾을 수 있습니다.
+   [핵심 구현 및 라이프사이클](https://marketing.adobe.com/resources/help/en_US/mobile/ios/dev_qs.html)에서 지침을 찾을 수 있습니다.
 1.  클라이언트 코드, 시간 제한을 추가하고, SSL을 활성화합니다. 
 
    Experience Cloud에서 Mobile Services를 열고 **[!UICONTROL 앱 설정 관리]** &gt; **[!UICONTROL SDK Target 선택 사항]** 으로 이동합니다.
