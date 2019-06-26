@@ -7,8 +7,8 @@ solution: Target
 title: 분류 - A4T FAQ
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 분류 가져오기를 사용하여 분류를 다운로드한 후 post-tnt-action 값을 활동 이름과 일치시키는 방법은 무엇입니까?{#section_6045DAC488B248418F430E663C38D001}
 
-관리 도구 [분류 가져오기](https://marketing.adobe.com/resources/help/ko_KR/reference/c_working_with_saint.html)에서 A4T/TNT 문자열에 대한 분류를 다운로드할 수 있습니다. 변수는 내보내기 목록에서 &quot;TNT&quot;라고 합니다. 다운로드한 데이터에는 활동, 경험 등을 위한 친숙한 이름이 포함되어 있습니다.
+관리 도구 [분류 가져오기](https://marketing.adobe.com/resources/help/en_US/reference/c_working_with_saint.html)에서 A4T/TNT 문자열에 대한 분류를 다운로드할 수 있습니다. 변수는 내보내기 목록에서 &quot;TNT&quot;라고 합니다. 다운로드한 데이터에는 활동, 경험 등을 위한 친숙한 이름이 포함되어 있습니다.
 
 이 조회 파일은 Adobe의 클릭스트림 데이터 피드를 받는 고객에게 유용합니다. 이 파일에는 `post_tnt` 및 `post_tnt_action` 열을 위한 친숙한 이름이 있습니다.
 
@@ -31,4 +31,4 @@ TNT 변수의 문자열 형식은 `activityID:experienceID:targettype|event`입�
 * Event = 2는 활동 노출을 나타냅니다.
 * Event = 32767은 활동 전환을 나타냅니다.
 
-[브라우저 내보내기](https://marketing.adobe.com/resources/help/ko_KR/reference/browser_export.html)나 [FTP 내보내기](https://marketing.adobe.com/resources/help/ko_KR/reference/ftp_export.html)를 사용하여 UI에서 자주 사용하는 분류 파일을 다운로드할 수 있습니다. 엔지니어링 서비스에 참여하여 클릭스트림 데이터 피드와 함께 조회 테이블로서 이 파일을 얻을 수도 있습니다.
+[브라우저 내보내기](https://marketing.adobe.com/resources/help/en_US/reference/browser_export.html)나 [FTP 내보내기](https://marketing.adobe.com/resources/help/en_US/reference/ftp_export.html)를 사용하여 UI에서 자주 사용하는 분류 파일을 다운로드할 수 있습니다. 엔지니어링 서비스에 참여하여 클릭스트림 데이터 피드와 함께 조회 테이블로서 이 파일을 얻을 수도 있습니다.
