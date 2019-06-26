@@ -8,7 +8,7 @@ title: ' Target 소개'
 topic: 고급
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -75,7 +75,7 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 ### 오퍼로서의 Recommendations
 
-[Recommendations를 오퍼로](/help/c-recommendations/recommendations-as-an-offer.md) 사용하면 A/B [!UICONTROL 테스트] ( [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟 포함]) 및 [!UICONTROL 경험 타깃팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+[오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 사용하면 [!UICONTROL A/B 테스트] ([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 포함) 및 XT([!UICONTROL 경험 타깃팅]) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해줍니다.
 
@@ -94,7 +94,7 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 자세한 내용은 [권장 사항 Classic 설명서](../assets/adobe-recommendations-classic.pdf)를 참조하십시오.
 
-## Experience League: Adobe Target Welcome Kit {#kit}
+## Experience League: The Adobe Target Welcome Kit {#kit}
 
 이 환영 키트를 사용하여 Adobe Target에서 최적화 및 개인화 프로그램을 구축하십시오! 짧은 기간 단축 및 장기 최적화 전략을 통해 간단한 Adobe Target 활동을 준비하고 실행하는 데 도움이 되는 주요 정보, 툴 및 리소스가 포함되어 있습니다.
 
@@ -108,4 +108,4 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로우 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=kor)
