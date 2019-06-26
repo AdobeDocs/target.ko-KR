@@ -5,7 +5,7 @@ seo-title: Adobe Target를 사용하여 MVT (Multivariate Testing) 에서 조합
 title: 조합 만들기
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 0730d5f8f6aa2b72c2069c81d6e5a0183489e91c
 
 Adobe Target의 Visual Experience Composer (VEC) 를 사용하여 MVT (다변수 테스트) 에 포함할 오퍼를 만듭니다.
 
-VEC를 사용하여 오퍼를 만들고 편집하는 방법에 대한 자세한 내용은 [Visual Experience Composer 옵션을](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)참조하십시오.
+For more information about using the VEC to create and edit offers, see [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 >[!NOTE]
 >
