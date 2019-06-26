@@ -6,8 +6,8 @@ seo-title: Adobe Target VEC(시각적 경험 작성기) Helper 확장 프로그�
 solution: Target
 title: 시각적 경험 작성기 Helper 확장 프로그램
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ VEC Helper 확장 프로그램을 사용하는 이점:
 
 ## VEC Helper 브라우저 확장 프로그램 받기 및 설치
 
-1. [Chrome 웹 스토어의 Adobe Target VEC Helper 브라우저 확장 프로그램](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)으로 이동합니다.
+1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. [!UICONTROL Chrome에 추가 &gt; 확장 프로그램 추가]를 클릭합니다.
 1. 확장 프로그램을 사용하려면 VEC 또는 [QA 모드](/help/c-activities/c-activity-qa/activity-qa.md)에 있는 동안 Chrome 브라우저의 도구 모음에서 VEC Helper 브라우저 확장 프로그램 아이콘(![VEC Helper 아이콘](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))을 클릭합니다.
 
