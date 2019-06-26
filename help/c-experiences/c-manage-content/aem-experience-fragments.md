@@ -8,7 +8,7 @@ title: AEM 경험 구성요소
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -90,7 +90,7 @@ Target에서 AEM 경험 구성요소를 사용하려면 다음 절차를 수행�
 
 2. 표시되는 대화 상자에서 [!UICONTROL 게시]를 선택하여 경험 구성요소 내에 있는 모든 자산을 [!DNL Target]에 게시합니다.
 
-## Target 활동에서 경험 조각 사용 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Using Experience Fragments in Target Activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 앞의 작업을 수행하면 경험 조각이 Target의 [!UICONTROL 오퍼] 페이지에 표시됩니다.
 
