@@ -7,8 +7,8 @@ solution: Target
 title: 시각적 경험 작성기 우수 사례 및 제한 사항
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -83,7 +83,7 @@ target.js에 의한 경험 적용 전에 수정 사항이 적용되지 않으면
 
 블록 수준 요소는 앵커, span 등과 같은 인라인 요소에서 사용해서는 안 됩니다. 이렇게 하면 인라인 요소가 높이와 너비를 잃을 수 있으므로 시각적 경험 작성기의 오버레이 도구가 예상대로 작동하지 않을 수 있습니다.
 
-**클래식 mbox용 오퍼를 업데이트할 때는 mbox가 Target Classic 도움말의[단일 mbox 만들기](https://marketing.adobe.com/resources/help/ko_KR/tnt/help/t_Creating_a_Single_Mbox.html)에 설명된 대로 만들어졌는지 확인하십시오.**
+**클래식 mbox용 오퍼를 업데이트할 때는 mbox가 Target Classic 도움말의[단일 mbox 만들기](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)에 설명된 대로 만들어졌는지 확인하십시오.**
 
 mbox에 요소나 요소 그룹을 배치하려는 경우 `class mboxDefault`와 함께 새 div로 래핑하십시오.
 
