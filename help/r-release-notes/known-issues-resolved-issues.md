@@ -8,7 +8,7 @@ title: 알려진 문제 및 해결된 문제
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
+
+### 사용자 지정 경험을 제어로 사용하는 경우 자동 타겟 활동에 대한 그래프 보고서가 렌더링되지 않습니다.
+
+모든 경험에 데이터 (0 회 방문) 가 없는 경우 자동 타겟 활동에 대한 그래프 보고서가 &quot;차등&quot; 모드 (평균 리프트 및 일별 리프트) 에 대해 렌더링되지 않습니다. 이러한 상황은 제어 경험이 사용자 지정으로 설정된 경우 활동의 초기 단계에서 발생할 수 있습니다. 다른 모드 (평균 제어 및 타깃팅, 일별 제어 및 타깃팅 및 방문) 의 경우 제대로 작동합니다. 데이터가 0 이 아닌 일부 데이터가 있으면 보고서가 예상대로 렌더링됩니다.
 
 ### VEC 내에서 페이지 로드 취소 {#cancel}
 
