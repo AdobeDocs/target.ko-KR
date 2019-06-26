@@ -7,8 +7,8 @@ solution: Target
 title: 유사한 페이지에 동일한 경험 포함
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -85,4 +85,4 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 * 응답형 웹 사이트용 경험 미리 보기 및 빌드
 * 오버레이를 사용하여 요소 유형을 강조 표시
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/17401?captions=kor)
