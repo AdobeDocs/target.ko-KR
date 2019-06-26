@@ -8,14 +8,14 @@ subtopic: 시작하기
 title: at.js 버전 세부 사항
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # at.js 버전 세부 사항{#at-js-version-details}을 참조하십시오 
 
-각 버전의 [!DNL Adobe Target] . js JavaScript 라이브러리 변경 사항에 대한 세부 사항입니다.
+[!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다.
 
 >[!IMPORTANT]
 >
@@ -25,63 +25,63 @@ source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
 
 이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
-* **Adobe 옵트인 지원**: Adobe 옵트인 (Opt-in) 는 동의 관리 플랫폼으로 Adobe 솔루션 통합을 간소화하는 방법입니다. Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 개인 정보 보호 규정 (GDPR) 를 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Adobe 옵트인 지원**: Adobe 옵트인 (Opt-in) 는 동의 관리 플랫폼으로 Adobe 솔루션 통합을 간소화하는 방법입니다. For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 * **업계 표준 CSP 준수**: at. js는 더 이상 eval () 를 사용하여 JavaScript를 실행하지 않습니다.
 
 * **클라이언트측 분석 로깅**: 고객이 클라이언트측 또는 서버측에서 Adobe Analytics로 분석 데이터를 어떻게 전송할지 고객이 제어할 수 있도록 합니다.
 
-   자세한 내용은 구현하기 전에 [Client-Side Analytics 로그인을](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) *참조하십시오*.
+   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
 * **알림 보내기**: 개발자가 또는 사용 경험이 아닌 코드로 렌더링될 때 알림을 전송할 `applyOffer()` 수 있습니다 `applyOffers()`.
 
-   자세한 내용은 [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)를 참조하십시오.
+   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 * **at. js size reduced by ~ 24%**: at. js의 크기는 ~ 24% 줄어듭니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at. js 다운로드 시간도 줄어듭니다.
 
-## at. js 버전 2.0.1 (2019 년 3 월 19 일)
+## at.js 버전 2.0.1(2019년 3월 19일)
 
-유지 관리 릴리스이며 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
-
-(괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
-
-* 특정 고객에 대한 JavaScript 예외가 발생하는 DOM 폴링 코드의 경쟁 조건을 수정했습니다. (TNT-31869)
-* 뷰가 렌더링되었음을 알리는 알림은 클릭 추적 이벤트 핸들러에서 분리되었습니다. 처음에, 렌더링된 보기에 속하는 클릭 이벤트 핸들러를 첨부할 수 없는 경우 Target에서 알림을 보내지 않았습니다. 이제 Target 에서는 클릭 요소를 찾을 수 없는 경우에도 보기 알림을 보냅니다. (TNT-31969)
-* 요청이 성공적인 이벤트 리디렉션 플래그가 항상 true로 설정되는 문제를 해결했습니다. (TNT-31907)
-* 요소가 누락된 경우에도 vec 재정렬 작업이 성공적으로 기록되던 문제를 수정했습니다. (TNT-31924)
-* 특정 고객에 대한 알림이 기업 권한 속성 토큰을 포함하지 않는 문제를 해결했습니다. (TNT-31999)
-
-## at. js 버전 1.7.1 (2019 년 3 월 19 일)
-
-유지 관리 릴리스이며 다음과 같은 수정 사항이 포함됩니다.
+유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-* 특정 고객에 대한 JavaScript 예외가 발생하는 DOM 폴링 코드의 경쟁 조건을 수정했습니다. (TNT-31869)
+* 특정 고객에 대해 JavaScript 예외가 발생한 DOM 폴링 코드의 경합 조건을 수정했습니다. (TNT-31869)
+* 보기가 렌더링되었다는 알림이 클릭 추적 이벤트 핸들러에서 분리되었습니다. 처음에는 렌더링된 보기에 속하는 클릭 이벤트 핸들러를 첨부할 수 없는 경우 Target에서 알림을 보내지 않았습니다. 이제 Target에서 클릭 요소를 찾을 수 없는 경우에도 보기 알림을 보냅니다. (TNT-31969)
+* request-succeeded 이벤트 리디렉션 플래그가 항상 true로 설정되는 문제가 해결되었습니다. (TNT-31907)
+* 요소가 누락된 경우에도 VEC 재정렬 작업이 성공으로 기록되는 문제가 해결되었습니다. (TNT-31924)
+* 특정 고객에 대한 알림에 엔터프라이즈 권한 속성 토큰이 포함되지 않는 문제가 해결되었습니다. (TNT-31999)
+
+## at.js 버전 1.7.1(2019년 3월 19일)
+
+유지보수 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.
+
+(괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+* 특정 고객에 대해 JavaScript 예외가 발생한 DOM 폴링 코드의 경합 조건을 수정했습니다. (TNT-31869)
 
 ## at.js 버전 2.0.0 {#at-js-200}
 
-at. js 2. x는 기업이 차세대 클라이언트측 기술에 대한 개인화 실행을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.
+at.js 2에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능 세트를 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.
 
-이전 버전에서 사용할 수 없는. js 2. x를 사용하는 경우의 몇 가지 이점은 다음과 같습니다.
+at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같은 몇 가지 이점이 있습니다.
 
 * 페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.
 * 오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.
 * 간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타깃팅(XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.
 
-at. js 2. x 에서는 다음과 같은 새로운 기능을 도입했습니다.
+at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.
 
 * getOffers()
 * applyOffers()
 * triggerView()
 
-다음 기능은 at. js 2. x의 도입에서 더 이상 사용되지 않습니다.
+다음 함수는 at.js 2.x의 도입으로 더 이상 사용되지 않습니다.
 
 * mboxCreate()
 * mboxDefine
 * registerExtension()
 
-자세한 내용은. js 1. x [에서. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 및 [at. js 함수로 업그레이드를 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)와 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -97,7 +97,7 @@ Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 일반 �
 
 >[! 참고]
 >
->GDPR에 대한 Adobe 옵트인 지원이 필요한 경우 현재. js 1.7.0 또는 2.1.0에서 사용해야 합니다.<br>모든 버전의 목록은. js 버전 세부 정보를 [참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## at.js 버전 1.6.4 {#at-js-164}
 
@@ -176,14 +176,14 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 * 데이터 공급자에서 가져온 추가 매개 변수로 at.js 요청을 확장할 수 있습니다. 데이터 공급자는 `dataProviders key` 아래의 `window.targetGlobalSettings`에 추가되어야 합니다.
 
-   자세한 내용은 [데이터 공급자를](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)참조하십시오.
+   자세한 내용은 [데이터 공급자](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)를 참조하십시오.
 
 * 이제 at.js 요청은 GET을 사용하지만 URL 크기가 2048자를 초과하면 POST로 전환됩니다. 필요한 경우 크기 제한을 늘릴 수 있는 `urlSizeLimit`라는 새 특성이 있습니다. 이를 통해 Target에서 동일한 기술을 사용하여 AppMeasurement에 맞게 at.js를 조정할 수 있습니다.
 * 이제 Target에서는 `adobe.target.applyOffer(options)` 함수의 `mbox` 키를 사용하도록 강제할 수 있습니다. 이 키는 과거에는 필요했지만 현재 Target에서는 이 키를 적용하여 적절한 유효성 검사가 수행되는지와 고객이 함수를 올바르게 사용하고 있는지를 확인합니다.
 * at.js의 이벤트 및 클릭 추적 기능이 개선되었습니다. at.js는 `navigator.sendBeacon()`을 사용하여 이벤트 추적 데이터를 전송하고, `navigator.sendBeacon()`이 지원되지 않을 때 동기 XHR로 대체됩니다. 이 대체 항목은 주로 Internet Explorer 10 및 11과 일부 Safari 버전에 영향을 줍니다. Safari는 향후 iOS 11.3 릴리스에서 `navigator.sendBeacon()`을 추가로 지원할 예정입니다.
 * 이제 페이지가 백그라운드 탭에서 열릴 때도 at.js가 오퍼를 렌더링할 수 있습니다. 백그라운드 탭의 브라우저 조절 동작으로 인해 `requestAnimationFrame()`이 비활성화될 때 일부 Target 고객에서 문제가 발생합니다.
 * 이번 릴리스에서는 Chrome CPU 프로필 검사 시 호출 스택 단축을 비롯하여 여러 가지 성능이 개선되었습니다.
-* at.js1.3.0은 더 이상 Microsoft Internet Explorer 9에서 컨텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 [지원되는 브라우저](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 `XMLHttpRequest`를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다.
+* at.js 1.3.0은 더 이상 Microsoft Internet Explorer 9에서 컨텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 [지원되는 브라우저](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 `XMLHttpRequest`를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다.
 
 ## at.js 버전 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
@@ -325,7 +325,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
    * 기존 확장(예: AngularJS 확장)은 `registerExtension()` 접근 방식을 사용하도록 업데이트해야 합니다.
 
-* 새 at.js notification API.
+* 새 at.js notification] API.
 
    이 알림 시스템의 목표는 페이지에서 [!DNL at.js]가 수행하는 작업과 문제가 발생하는 경우를 보다 잘 이해할 수 있도록 하는 것입니다. VEC에서 나타나는 일반적인 문제는 IT 릴리스가 페이지를 변경하고, VEC 선택기가 중단되고, 테스트가 더 이상 컨텐츠를 올바르게 배달하지 못하는 것입니다. 이 알림 시스템의 목표는 이 배달 문제를 페이지에 알려서 개발자들이 이 정보에 액세스하고, [!DNL Adobe Analytics]와 같은 시스템에 전달하고, 테스트가 중단된 비즈니스 소유자에게 경고를 보낼 수 있도록 하는 것입니다.
 
