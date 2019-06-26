@@ -7,7 +7,7 @@ solution: Target
 title: 경험 추가
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,11 +39,11 @@ Visual Experience Composer (VEC) 는 페이지에서 경험을 추가 및 편집
    >
    >기본 페이지 이외의 소스에서 가져온 이미지(예: akamai.net에 호스팅되고 dell.com에 전달된 이미지)를 전달하는 경우 해당 이미지가 흐름 다이어그램에 표시된 페이지의 썸네일에 표시되지 않습니다.
 
-1. 경험 디자인이 끝나면 **[!UICONTROL 저장을]** 클릭합니다.
+1. Click **[!UICONTROL Save]** when you are finished designing the experience.
 
 ## 경험 이름 변경
 
-A/B 테스트 또는 경험 타깃팅 (XT) 활동의 경험에 있는 경험 [!UICONTROL 이름 변경] 아이콘을 클릭하여 새 이름을 지정합니다.
+Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
 
 ![경험 이름 변경](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -62,9 +62,9 @@ A/B 테스트 또는 경험 타깃팅 (XT) 활동의 경험에 있는 경험 [!U
 
 ## URL로 리디렉션
 
-A/B 테스트 또는 경험 타깃팅 (XT) 활동의 경험에 있는 더 많은 (세로 줄임표) 아이콘을 클릭한 다음 URL로 [!UICONTROL 리디렉션을 클릭합니다].
+Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
 
-자세한 내용은 URL로 [리디렉션을](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)참조하십시오.
+For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 **** 참고: 경험을 이름을 지정하거나 이름을 변경하면 다음 문자가 허용되지 않습니다.
 
