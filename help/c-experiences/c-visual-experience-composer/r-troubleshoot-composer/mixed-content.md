@@ -7,8 +7,8 @@ solution: Target
 title: 브라우저에서 혼합 컨텐츠 사용
 topic: 고급,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 >
 >혼합 컨텐츠 허용은 여러분의 라이브 웹 사이트에는 영향을 주지 않고 VEC에만 영향을 줍니다.
 
-자세한 내용은 *Mozilla Developer Network*(MDN) 웹 사이트의 [Mixed Content](https://developer.mozilla.org/ko-KR/docs/Web/Security/Mixed_content)(혼합 컨텐츠)를 참조하십시오.
+자세한 내용은 *Mozilla Developer Network*(MDN) 웹 사이트의 [Mixed Content](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)(혼합 컨텐츠)를 참조하십시오.
 
 ## Firefox에서 혼합 컨텐츠 활성화 {#task_5448763B8DC941FD80F84041AEF0A14D}
 
@@ -83,4 +83,4 @@ target/t_mixed_content_chrome.xml
 
  -->
 
-Google Chrome 도움말에서 [This page has insecure content](https://support.google.com/chrome/answer/1342714?hl=en)(이 페이지에 안전하지 않은 컨텐츠가 있습니다)를 참조하십�
+Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가 있음](https://support.google.com/chrome/answer/1342714?hl=en)을 참조하십시오.
