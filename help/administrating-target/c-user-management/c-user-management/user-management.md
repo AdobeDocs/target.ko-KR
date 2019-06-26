@@ -9,7 +9,7 @@ title: 사용자
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -45,7 +45,7 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
    또는
 
-   이미 Experience Cloud에 로그인한 경우 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)로 이동한 다음 위쪽 내비게이션 바의 [!UICONTROL 앱] 아이콘을 클릭하고 오른쪽의 **[!UICONTROL 관리자를]** 클릭합니다.
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. (조건부) 두 개 이상의 조직을 위한 [!DNL Admin Console for Enterprise]에 액세스할 수 있는 경우 오른쪽 모서리나 맨 위 탐색 막대의 사용자 아바타를 클릭한 다음, 원하는 조직을 선택하십시오.
 
@@ -76,11 +76,11 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 1. 원하는 구성의 이름을 클릭합니다.
 1. **[!UICONTROL 사용자를 클릭합니다]**.
 
-   [ [!UICONTROL 사용자] ] 탭에는 해당 작업 영역의 모든 사용자가 표시됩니다.
+   The [!UICONTROL Users] tab displays all of the users in that workspace.
 
    ![구성 사용자](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. [!UICONTROL 제품 역할] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할([관찰자], [편집자] 또는 [승인자])을 선택합니다.
+1. [!UICONTROL 제품 역할] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할(관찰자, 편집자 또는 승인자)을 선택합니다.
 
    | 역할 | 설명 |
    |--- |--- |
