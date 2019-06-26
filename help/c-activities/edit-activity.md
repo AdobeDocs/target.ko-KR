@@ -8,7 +8,7 @@ title: 활동 편집 또는 초안으로 저장
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,15 +19,15 @@ source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
 
 Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습니다. 프로세스는 선택한 방법에 따라 달라집니다.
 
-## 활동 페이지에서 마우스로 가리키기 단추를 사용하여 활동 편집 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. **[!UICONTROL 활동]** 페이지에서 편집할 활동을 마우스로 가리킨 다음 **편집[!UICONTROL 아이콘을 클릭합니다.]**
 
    ![편집 아이콘](/help/c-activities/assets/hover_edit.png)
 
-   Target 이 Visual Experience Composer (VEC) 에서 활동을 열면 [!UICONTROL 경험] 페이지가 표시됩니다 (3 단계 안내 워크플로우의 첫 번째 단계).
+   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
 
-1. vec 옵션을 사용하여 원하는 대로 활동을 [편집합니다](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. [분할] 단추를 클릭하여 다음 단계로 진행하거나 활동을 저장합니다.
 
@@ -37,7 +37,7 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
    * **저장 및 닫기:** 현재 단계에서 원하는 대로 변경하고, 분할 단추의 드롭다운을 클릭한 다음 **[!UICONTROL 저장 및 닫기]** 를 선택하여 변경 사항을 저장하고 활동의 [!UICONTROL 개요] 페이지를 표시합니다.
    * **저장:** 한 단계에서 원하는 대로 변경하고, 분할 단추의 드롭다운을 클릭한 다음 **[!UICONTROL 저장]을 선택하여 변경 사항을 저장하고 계속 변경 작업을 수행할 수 있는 해당 단계에 남습니다.** 추가적인 변경 작업을 수행하려면 먼저 저장이 완료될 때까지 기다리십시오. 저장이 완료된 후 변경 사항이 적용된 채 VEC가 다시 로드됩니다.
 
-## 활동 페이지에서 해당 이름을 클릭하여 활동을 열어 활동을 편집합니다. {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. 워크플로우를 차례차례 이동하지 않으려면 활동 페이지에서 원하는 활동을 클릭하여 연 다음, **[!UICONTROL 활동 편집]드롭다운 목록에서 선택 사항을 선택하십시오.**
 
@@ -60,7 +60,7 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
 
 
 
-## 초안 형식으로 활동 저장 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 아직 저장되지 않은 새 활동을 만들거나 이전에 초안 양식으로 저장된 활동을 편집하는 경우, 분할 단추에 초안 저장 옵션이 표시됩니다.
 
