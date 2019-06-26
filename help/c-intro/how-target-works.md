@@ -9,16 +9,16 @@ title: Adobe Target 작동 방식
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Adobe Target 작동 방식{#how-adobe-target-works}
 
-Target JavaScript 라이브러리 (. js 및 mbox. js) 와 Target에 포함된 다양한 활동 유형에 대한 정보를 포함하여 Adobe Target 작동 방식에 대한 정보입니다.
+Target JavaScript 라이브러리(at.js 및 mbox.js)와 Target에 포함된 다양한 활동 유형에 대한 정보를 포함하여 Adobe Target 작동 방식에 대한 정보입니다.
 
-## Javascript 라이브러리 대상 {#libraries}
+## Target JavaScript 라이브러리 {#libraries}
 
 Adobe Target은 두 개의 JavaScript 라이브러리 중 하나를 통해 웹 사이트와 통합됩니다. at.js 또는 mbox.js
 
@@ -108,7 +108,7 @@ Adobe는 현재 북아메리카, 유럽 및 아시아 곳곳의 여러 지역을
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 현재 중국에는 Edge 네트워크가 없으며 최종 사용자 성능은 중국 [!DNL Target] 고객의 경우 계속 제한됩니다. 방화벽 및 국가 내 에지 노드가 부족하기 때문에 배포된 사이트의 [!DNL Target] 경험이 느리게 렌더링되고 페이지가 로드될 수 있습니다. 또한 [!DNL Target] 사용자 인터페이스는 지연을 경험할 수도 있습니다.
+>[!DNL Adobe Target] 현재 중국에는 Edge 네트워크가 없으며 최종 사용자 성능은 중국 [!DNL Target] 고객의 경우 계속 제한됩니다. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -148,7 +148,7 @@ Google에서는 사용자 테스트를 권장하고 있으며 A/B 및 다변량 
 
 * **302(임시) 리디렉션 사용** - 테스트에서 변형 페이지에 개별 URL이 사용되는 경우, Google에서는 302 리디렉션을 사용하여 트래픽을 테스트 변형으로 전달하는 것을 권장합니다. 검색 엔진은 이를 통해 리디렉션이 일시적인 것이며 테스트가 실행 중인 동안에만 실행될 것이라는 것을 알게 됩니다.
 
-   302 리디렉션은 서버측 리디렉션이며 대부분의 최적화 제공자와 함께 Target은 클라이언트측 기능을 사용합니다. 따라서 이것은 Target이 Google의 권장 사항을 완전히 준수하지 않는 영역입니다. 그러나 매우 일부 테스트에는 영향을 줍니다. Target을 통해 테스트를 실행하는 이 표준 접근 방식은 단일 URL 내 컨텐츠 변경을 필요로 하므로 리디렉션이 필요하지 않습니다. 클라이언트가 여러 URL을 사용하여 테스트 변형을 표현해야 하는 경우가 있습니다. 이러한 경우 Target에서는 리디렉션이 301인지 또는 302인지를 명시적으로 나타내지 않는 JavaScript `window.location` 명령을 사용하여 사용자에게 테스트 변형을 표시합니다.
+   302 리디렉션은 서버 측 리디렉션이며 대부분의 최적화 제공자와 함께 Target은 클라이언트측 기능을 사용합니다. 따라서 이것은 Target이 Google의 권장 사항을 완전히 준수하지 않는 영역입니다. 그러나 매우 일부 테스트에는 영향을 줍니다. Target을 통해 테스트를 실행하는 이 표준 접근 방식은 단일 URL 내 컨텐츠 변경을 필요로 하므로 리디렉션이 필요하지 않습니다. 클라이언트가 여러 URL을 사용하여 테스트 변형을 표현해야 하는 경우가 있습니다. 이러한 경우 Target에서는 리디렉션이 301인지 또는 302인지를 명시적으로 나타내지 않는 JavaScript `window.location` 명령을 사용하여 사용자에게 테스트 변형을 표시합니다.
 
    Adobe는 검색 엔진 지침에 완전히 부합하는 실행 가능한 해결 방법을 계속 찾겠지만, 테스트를 위해 별도의 URL을 사용해야 하는 클라이언트를 위해, 위에 언급된 대표(canonical ) 태그를 적절히 구현하면 이러한 접근 방식과 연관된 위험이 완화된다고 확신하고 있습니다.
 
