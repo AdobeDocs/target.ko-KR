@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,9 +23,9 @@ source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 카탈로그에 있는 항목에 대한 추가 정보를 정의하는 데 최대 100개의 사용자 지정 엔티티 속성을 포함할 수 있습니다. 예를 들어, 책 또는 동영상을 정의하기 위해 `entity.genre`라는 사용자 지정 속성을 만들 수 있습니다. 또는 티켓 공급업체는 스포츠 경기의 원정 팀이나 콘서트의 서막 같이, 보조 참여자를 포함하도록 행사가 열리는 장소에 대한 속성을 만들 수 있습니다.
 
-단일 값 엔티티 사용자 정의 속성의 최대 길이는 15,000 자 (영어 및 기타 라틴어 스크립트 알파벳과 같은 1 바이트 및 2 바이트 UTF -8 인코딩 언어) 또는 10,000 자 (중국어, 일본어 및 한국어 등의 3 바이트 UTF -8 인코딩 언어의 경우) 입니다.
+단일 값 엔티티 사용자 지정 속성의 최대 길이는 15,000자(영어 및 기타 라틴어 스크립트 알파벳과 같은 1바이트 및 2바이트 UTF-8 인코딩 언어인 경우) 또는 10,000자(중국어, 일본어 및 한국어와 같은 3바이트 UTF-8 인코딩 언어인 경우)입니다.
 
-다중 값 엔티티 사용자 지정 속성은 500 개 이하의 값을 포함할 수 없습니다. 각 개별 값은 100 자로 제한됩니다. 모든 값에 걸친 총 문자 수는 단일 값 엔티티 사용자 지정 속성의 최대 길이에 대한 제한을 준수해야 합니다 (위 참조).
+다중 값 엔티티 사용자 지정 속성은 최대 500개의 값을 포함할 수 있습니다. 각 개별값은 100자로 제한됩니다. 모든 값에 걸친 총 문자 수는 단일 값 엔티티 사용자 지정 속성의 최대 길이에 대한 제한을 준수해야 합니다(위 참조).
 
 ## 사용자 지정 엔티티 속성 값 {#section_313331A9F8194A89B5EDD89363018651}
 
@@ -62,7 +62,7 @@ entity.genre=[“genre1”, “genre2”]
 
 **제한 사항**:
 
-* 사용자 지정 엔티티 속성에는 사전 정의된 엔티티 속성 이름을 사용할 수 없습니다. [엔티티 속성을 참조하십시오](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).
+* 사용자 지정 엔티티 속성에는 사전 정의된 엔티티 속성 이름을 사용할 수 없습니다. [엔티티 속성](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)을 참조하십시오.
 * `entity.environment` 속성은 시스템에 의해 예약되어 있으므로 사용자 지정 엔티티 속성에 사용할 수 없습니다. `entity.environment`, 피드 또는 API를 사용하여 `targetPageParams`를 전달하려고 시도하는 것은 무시됩니다.
 * 배열에 단일 값 유형이 포함되어야 합니다. 혼합 값 배열(`["AB",1,true]`)은 지원되지 않습니다.
 * 중첩 JSON 배열(`[10,12,[1,2,3]]`)을 포함하는 다중 값 속성은 단일 값 속성으로 처리됩니다.
@@ -115,8 +115,8 @@ function targetPageParams() {
 
 **API 사용**
 
-게재 및 개체 저장 API 사용에 대한
-자세한 내용은 [Adobe Recommendations API 설명서를](http://developers.adobetarget.com/api/recommendations) 참조하십시오.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
+using the Delivery and Save entities APIs.
 
 ## 다중 값에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
