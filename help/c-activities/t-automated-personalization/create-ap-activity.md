@@ -10,7 +10,7 @@ topic: 고급
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    ![자동화된 개인화 활동 대화 상자 만들기](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 Experience Composer](/help/c-experiences/form-experience-composer.md) 를 참조하십시오.
+   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
@@ -35,9 +35,9 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >이전 그림에서 작업 영역 [!UICONTROL 선택] 옵션은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
 
-1. (조건부) Target Premium 고객인 경우 작업 영역을 [선택합니다](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. 활동 URL을 확인하거나 입력한 후 **[!UICONTROL 다음]** 을 클릭합니다.
 
@@ -64,7 +64,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
    | - | 빼기 |
    | @ | 로그인 |
 
-1. Visual Experience Composer 옵션에 설명된 [대로 페이지 요소를 수정합니다](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    자산 관리자에서 한꺼번에 여러 이미지를 선택할 수 있습니다. 이렇게 하면 활동에 대해 각 이미지가 구성된 페이지를 빠르게 볼 수 있습니다. 또한 오퍼의 텍스트 요소를 쉽게 편집할 수 있습니다. 요소를 편집하면 해당 요소가 변경되었음을 나타내는 막대가 표시됩니다.
 
@@ -120,7 +120,7 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    기존 제외 그룹을 편집하려면 편집할 그룹 위로 마우스를 가져간 후 연필 아이콘을 클릭합니다.
 
-1. 활동의 컨텐츠 설정을 완료하면 **[!UICONTROL 완료를]** 클릭합니다.
+1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
 
 1. **타깃팅** 단계는 다른 Target 활동 유형을 사용해본 적이 있는 경우 친숙하게 보일 것입니다. 여기서 대상을 선택하고, **[!UICONTROL 사용자 지정 할당]** 드롭다운 목록을 클릭한 후 **다음을 클릭하여 제어 경험을 표시할 방문자의 백분율을 지정할 수 있습니다**.
 
@@ -128,9 +128,12 @@ source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
    ![트래픽 할당 목표 드롭다운 목록](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **개인화 알고리즘 평가(50/50):** 목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다.
-   * **개인화 트래픽 최대화(90/10):** 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 10%의 방문자를 제어 알고리즘에 추가하여 충분한 데이터를 보장함으로써 시간에 따른 학습이 계속 진행될 수 있게 합니다. 여기에는 더 큰 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어지게 된다는 장단점이 있습니다.
+   * **개인화 알고리즘 평가(50/50):** 목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다. &quot; 무작위 경험 &quot;을 제어로 사용하는 것이 좋습니다.
+   * **개인화 트래픽 최대화(90/10):** 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 10%의 방문자를 제어 알고리즘에 추가하여 충분한 데이터를 보장함으로써 시간에 따른 학습이 계속 진행될 수 있게 합니다. 여기에는 더 큰 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어지게 된다는 장단점이 있습니다. 목표 없이, 이것은 제어로 특정 경험을 사용할 때 권장되는 트래픽 분할입니다.
    * **사용자 지정 할당** 원하는 대로 백분율을 수동으로 분할합니다.
+
+1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
+
    제어 경험은 자동 테스트에서 제공하는 상승도 수준을 판별하기 위한 비교를 제공합니다.
 
    자동화된 개인화는 항상 통제군을 기준으로 성능을 측정합니다. 우수 사례는 최소 10%의 참여자를 통제군에 배치하는 것입니다. 목표가 지정된 데이터에 대한 개인화 알고리즘이 개인화가 없는 경우(즉, 무작위로 제공되는 제어)보다 더 나은 결과를 가져올 경우 제어 알고리즘과 개인화 알고리즘 간의 50/50% 트래픽 분할이 이 목표를 달성할 수 있는 가장 빠르고 가장 정확한 방법이 됩니다. 개인화된 트래픽의 양을 최대화하려고 하며, 활동이 생성하는 정확한 상승도를 이해하는 것은 별로 중요하지 않을 경우, 제어 알고리즘과 개인화 알고리즘 간의 10/90% 트래픽 분할이 이 목표를 달성할 수 있는 가장 빠르고 가장 정확한 방법이 됩니다.
