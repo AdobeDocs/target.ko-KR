@@ -1,7 +1,7 @@
 ---
 description: Target 구현에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, at_property 매개 변수를 포함하도록 Target 구현을 업데이트하고, 역할 및 권한을 지정하는 데 필요한 작업에 대한 정보입니다.
 keywords: 사용자 추가;프로젝트;사용자 그룹;속성;작업 공간;속성 관리;속성;at_property;역할;권한
-seo-description: 사용자를 Adobe Target 구현에 추가하는 데 필요한 작업에 대한 정보 작업 영역, 사용자 그룹 및 속성을 만듭니다. at_ property 매개 변수를 포함하도록 Target 구현을 업데이트합니다. 역할 및 권한을 지정합니다.
+seo-description: Adobe Target 구현에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, at_property 매개 변수를 포함하도록 Target 구현을 업데이트하고, 역할 및 권한을 지정하는 데 필요한 작업에 대한 정보입니다.
 seo-title: Enterprise 권한 구성
 solution: Target
 subtopic: 시작하기
@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,11 +37,11 @@ source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 Enterprise용 Adobe Admin Console에서 수행되는 작업의 경우, 다음 단계에 따라 콘솔에 액세스하십시오.
 
-1. 아직 로그인하지 않은 경우 [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; Adobe ID를 사용하여 로그인합니다.
+1. Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) &gt; sign in using your Adobe ID, if you have not already logged in.
 
    또는
 
-   이미 Experience Cloud에 로그인한 경우 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)로 이동한 다음 위쪽 내비게이션 바의 [!UICONTROL 앱] 아이콘을 클릭하고 오른쪽의 **[!UICONTROL 관리자를]** 클릭합니다.
+   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
 1. (조건부) 두 개 이상의 조직을 위한 [!DNL Admin Console for Enterprise]에 액세스할 수 있는 경우 오른쪽 모서리나 맨 위 탐색 막대의 사용자 아바타를 클릭한 다음, 원하는 조직을 선택하십시오.
 
@@ -83,14 +83,14 @@ Enterprise용 Adobe Admin Console에서 수행되는 작업의 경우, 다음 �
 >[!NOTE]
 >작업 공간 구성에 대한 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-### 작업 영역 ID 얻기 {#workspace-id}
+### Obtain your Workspace ID {#workspace-id}
 
-Target API에서 [엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)합니다.
+[Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다.
 
-1. [Adobe Admin Console](https://adminconsole.adobe.com)에서 [!UICONTROL 제품] 탭을 클릭한 다음 왼쪽 메뉴에서 제품을 클릭하여 PLC (작업 영역) 목록을 표시합니다.
-1. 원하는 PLC (작업 영역) 를 클릭한 다음 아래에서 보듯이 URL에서 &quot;profiles&quot; ID를 찾습니다.
+1. [Adobe Admin Console](https://adminconsole.adobe.com)에서 [!UICONTROL 제품] 탭을 클릭한 다음 왼쪽 메뉴에서 제품을 클릭하여 PLC(작업 공간) 목록을 표시합니다.
+1. 원하는 PLC(작업 공간)를 클릭한 다음 아래 표시된 대로 URL에서 &quot;프로필&quot; ID를 찾습니다.
 
-   ![Workspaceid](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
+   ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
 ## 3단계. 사용자 그룹 만들기(선택 사항) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
@@ -139,7 +139,7 @@ Target API에서 [엔터프라이즈 권한을 활용하려면 작업 공간 ID�
 
    1. [!UICONTROL 최근 업데이트] 열에 마우스 포인터를 가져가 원하는 속성을 표시하고 [!UICONTROL 코드] 아이콘을 클릭합니다.
 
-      ![속성 호버 코드](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
+      ![속성 가리키기 코드](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. 강조 표시된 구현 코드를 마우스 오른쪽 단추로 클릭하여 클립보드에 복사합니다.
 
@@ -151,7 +151,7 @@ Target API에서 [엔터프라이즈 권한을 활용하려면 작업 공간 ID�
 
    * **&quot; 전역 매개 변수[!DNL Adobe Launch]:**
 
-      자세한 내용은 Adobe [Experience Platform](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) *시작* 설명서의 글로벌 mbox 매개 변수 추가를 참조하십시오.
+      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
    * **다음 위치의 &quot;전역 매개 변수&quot; 를 통해[!DNL Dynamic Tag Management]:**
 
@@ -169,7 +169,7 @@ Target API에서 [엔터프라이즈 권한을 활용하려면 작업 공간 ID�
 
       ![](assets/property_token_3.png)
 
-      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [Targetpageparams ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 및 [mboxcreate (mbox, params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 및 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
@@ -179,12 +179,12 @@ Target API에서 [엔터프라이즈 권한을 활용하려면 작업 공간 ID�
 
    >[!NOTE]
    >
-   >속성 및 권한 기능은 [Target Standard/Premium](/help/c-intro/intro.md#premium) 에만 적용됩니다. [!DNL Target Classic]에서는 이 기능을 사용할 수 없습니다.
+   >The Properties and Permissions functionality applies to [Target Standard/Premium](/help/c-intro/intro.md#premium) only. [!DNL Target Classic]에서는 이 기능을 사용할 수 없습니다.
 
 1. 원하는 프로필의 이름을 클릭합니다.
 1. **[!UICONTROL 사용자를 클릭합니다]**.
 
-   [ [!UICONTROL 사용자] ] 탭에는 해당 작업 영역의 모든 사용자가 표시됩니다.
+   The [!UICONTROL Users] tab displays all of the users in that workspace.
 
    ![사용자 구성](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 
