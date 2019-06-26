@@ -8,7 +8,7 @@ title: 대상자 만들기
 topic: 고급,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 대상은 타깃팅된 활동에서 컨텐츠 및 경험을 보게 되는 사용자를 결정합니다.
 
-대상은 타깃팅이 가능한 모든 곳에서 사용됩니다. 활동을 타깃팅할 때 [!UICONTROL 대상] 목록에서 재사용 가능한 대상을 선택하고, 활동별 대상을 [만들고 타깃팅하거나, 여러](/help/c-target/creating-activity-only-audience.md) 대상을 [결합하여 임시 대상자를](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) 만들 수 있습니다.
+대상은 타깃팅이 가능한 모든 곳에서 사용됩니다. When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
 
 또한 [!DNL Adobe Target] 및 기타 [!DNL Experience Cloud] 솔루션에서는 실시간 타깃팅 및 개인화에 [!DNL Analytics]에서 수집한 대상 데이터를 사용할 수도 있습니다. ](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)Experience Cloud 제품 설명서의 대상[을 참조하십시오.
 
@@ -41,13 +41,13 @@ AAM에서 원래 만들어진 대상과 작업할 때 AAM에서 나중에 삭제
 * AAM에서 대상이 삭제된 경우 [!UICONTROL 대상] 목록 및 대상 선택기에 모두 경고 아이콘이 표시됩니다. 또한 UI의 도구 설명은 또한 대상이 AAM에서 삭제되었음을 나타냅니다.
 * 삭제된 대상으로 여러 대상을 결합하려고 시도하거나 삭제된 대상을 참조하는 활동을 저장하려고 하면 경고 메시지가 표시됩니다.
 
-사용자 지정 프로필 매개 변수와 `user.` 매개 변수를 타깃팅할 수도 있습니다. 대상을 추가할 때 규칙 **[!UICONTROL 추가]** &gt; **[!UICONTROL 방문자 프로필을]** 클릭한 다음 활동을 타깃팅하는 데 사용할 매개 변수를 선택합니다. 원하는 매개 변수가 나타나지 않는다면 mbox가 해당 매개 변수를 실행하지 않은 것입니다. 다른 사용자 지정 mbox 매개 변수는 [!UICONTROL 사용자 지정 매개 변수] 드롭다운 목록에서 사용할 수 있습니다.
+사용자 지정 프로필 매개 변수와 `user.` 매개 변수를 타깃팅할 수도 있습니다. When adding an audience, click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 원하는 매개 변수가 나타나지 않는다면 mbox가 해당 매개 변수를 실행하지 않은 것입니다. 다른 사용자 지정 mbox 매개 변수는 [!UICONTROL 사용자 지정 매개 변수] 드롭다운 목록에서 사용할 수 있습니다.
 
 검색 상자를 사용하여 [!UICONTROL 대상] 목록을 검색하십시오. 대상 이름의 일부를 검색하거나 특정 문자열을 따옴표로 묶을 수 있습니다.
 
 대상 이름이나 마지막 수정 날짜별로 [!UICONTROL 대상자] 목록을 정렬할 수 있습니다. 이름이나 날짜별로 정렬하려면 열 헤더를 클릭한 다음, 대상을 오름차순이나 내림차순으로 표시하도록 선택하십시오.
 
-## 대상 정의 보기 {#section_11B9C4A777E14D36BA1E925021945780}
+## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
 
 대상을 열지 않고도 Target UI에서 다양한 위치에 있는 팝업 카드에서 대상 정의 세부 사항을 볼 수 있습니다. 이 기능은 Target Standard/Premium에서 만든 대상 Target Classic에서 가져오거나 API를 통해 만든 대상에 적용됩니다.
 
