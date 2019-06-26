@@ -4,8 +4,8 @@ seo-description: at.js를 비프로덕션 환경에 안전하게 배포하는 �
 seo-title: 비프로덕션 환경에 at.js 배포
 title: 비프로덕션 환경에 at.js 배포
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ DTM을 사용하는 경우 Adobe Target 도구 구성에 at.js를 쉽게 저장�
 
 라이브러리를 저장한 후 DTM 전환 도구를 사용하여 프로덕션 코드에 대해 테스트하십시오. 이를 통해 Adobe 컨설턴트는 사용자를 쉽게 지원할 수 있습니다.
 
-자세한 내용은 _다이내믹 태그 관리를 사용하여 Adobe Target을 구현하는 우수 사례_ 안내서에서 [Option 3: Implement Target Manually with the Target JavaScript Library Hosted by DTM](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)(선택 사항 3: DTM으로 호스팅하는 Target JavaScript 라이브러리를 사용하여 Target을 수동으로 구현)을 참조하십시오.
+자세한 정보는 _다이내믹 태그 관리를 사용하여 Adobe Target을 구현하기 위한 우수 사례_ 가이드에서 [옵션 3: DTM을 통해 호스팅된 Target 자바스크립트 라이브러리를 사용하여 수동으로 Target 구현](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html)을 참조하십시오.
 
 ## &quot;Requestly&quot; Chrome 확장을 사용하여 다른 파일에 매핑
 
@@ -28,7 +28,7 @@ DTM을 사용하는 경우 Adobe Target 도구 구성에 at.js를 쉽게 저장�
 >
 >다음 정보 외에 Google Chrome용 [Adobe Target VEC Helper 브라우저 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 사용할 수 있습니다.
 
-[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en)는 요청을 대체 URL로 리디렉션할 수 있는 무료 Chrome 확장 프로그램입니다.
+[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en)는 대체 URL로 요청을 리디렉션할 수 있는 무료 Chrome 확장입니다.
 
 at.js를 URL에 배포한 다음, Requestly를 사용하여 현재 mbox.js 파일 URL을 새 at.js URL에 매핑합니다. 그런 다음 웹 사이트에서 mbox.js를 로드하려고 하면 at.js를 대신 로드합니다. 이 방법을 사용하면 Adobe에서 지원을 보다 쉽게 제공할 수 있습니다.
 
