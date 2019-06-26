@@ -8,7 +8,7 @@ title: A/B 테스트 만들기
 topic: 고급,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,15 +23,15 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    >[!NOTE]
    >
-   >사용 가능한 활동 유형은 [!DNL Target] 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL Recommendations] 는 [Target Premium 기능입니다](/help/c-intro/intro.md#premium).
+   >사용 가능한 활동 유형은 [!DNL Target] 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. For example, [!UICONTROL Recommendations] is a [Target Premium feature](/help/c-intro/intro.md#premium).
    >
-   >다양한 활동 유형에 대한 자세한 내용은 [활동](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 및 [타겟 활동 안내서를 참조하십시오](/help/c-activities/target-activities-guide.md).
+   >For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
 
    ![A/B 테스트 Actity 만들기](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-1. 필요한 경우 **[!UICONTROL 시각적 (기본값)]** 를 선택합니다.
+1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 Experience Composer](/help/c-experiences/form-experience-composer.md) 를 참조하십시오.
+   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >the [! 이전 [일러스트레이션에서 Uicontrol 선택 작업 영역](/help/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
 
 1. (조건부) Target Premium 고객인 경우 작업 영역을 선택합니다.
 
@@ -74,7 +74,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    [!UICONTROL 시각적 경험 작성기]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. 경험 B를 수정하려면 3단계부터 시작하십시오.
 
-1. Visual Experience Composer 상단에 **[!UICONTROL 있는 타깃팅을]** [!UICONTROL 클릭하여] 3 단계 안내 워크플로우의 다음 단계로 이동합니다.
+1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
 
    흐름 다이어그램이 열립니다.
 
