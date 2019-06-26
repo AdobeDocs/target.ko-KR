@@ -7,8 +7,8 @@ solution: Target
 title: 호스트
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -85,7 +85,7 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 
 [!UICONTROL 호스트] 목록을 정렬하려면 원하는 열 헤더(이름, 환경 또는 마지막으로 요청한 날짜)를 클릭하여 목록을 오름차순 또는 내림차순으로 정렬하십시오.
 
-[!UICONTROL 호스트] 목록을 검색하려면 검색 상자에 검색어를 입력하십시오.
+[!UICONTROL 호스트] 목록을 검색하려면 [검색] 상자에 검색어를 입력하십시오.
 
 ## 여러 호스트 선택 {#section_EF3B458475184B7EA997C3559714397C}
 
