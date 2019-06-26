@@ -8,7 +8,7 @@ title: 사용자 지정 매개 변수
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. 규칙 **[!UICONTROL 추가]** &gt; **[!UICONTROL 사용자 지정을 클릭합니다]**.
+1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
 
    원하는 매개 변수를 선택하려면 다음을 수행하십시오.
 
