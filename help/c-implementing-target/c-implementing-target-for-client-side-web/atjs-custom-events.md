@@ -7,8 +7,8 @@ solution: Target
 subtopic: 시작하기
 title: at.js 사용자 지정 이벤트
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -51,4 +51,4 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 
 다음 비디오를 시청하여 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 학습하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=kor)
