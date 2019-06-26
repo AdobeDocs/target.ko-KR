@@ -6,8 +6,8 @@ seo-title: 모바일 앱을 위한 Target 기능에 대해 자세히 알아보�
 title: 모바일 앱을 위한 Target 기능에 대해 자세히 알아보십시오
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
