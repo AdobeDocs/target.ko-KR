@@ -8,7 +8,7 @@ title: 카테고리 친화성
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 >[!IMPORTANT]
 >
->Adobe Target의 카테고리 친화성 알고리즘에 사용되는 `user.categoryId` 속성은 Adobe Target Recommendations의 제품 및 컨텐츠 추천에 사용되는 `entity.categoryId` 속성과 구별됩니다. `user.categoryId` 은 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId` 는 현재 페이지 또는 현재 항목 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 모두 Adobe Target로 전달합니다.
+>The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` 은 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId` 는 현재 페이지 또는 현재 항목 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 모두 Adobe Target로 전달합니다.
 
 ## 카테고리 친화성에 대한 비즈니스 사례 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
