@@ -1,6 +1,6 @@
 ---
 description: 권장 사항 활동을 작성하기 전에 알아야 할 사항.
-keywords: Recommendations; 설정; 환경 설정; 업계 수직,호환되지 않는 기준 필터링; 기본 호스트 그룹; 썸네일 기본 URL; Recommendations API 토큰
+keywords: 권장 사항;설정;환경 설정;업계 카테고리;호환되지 않는 기준 필터링;기본 호스트 그룹;썸네일 기본 url;Recommendations API 토큰
 seo-description: 권장 사항 활동을 작성하기 전에 알아야 할 사항.
 seo-title: 권장 사항 계획 및 구현
 solution: Target
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 | 단계 | 정보 | 세부 사항 |
 |--- |--- |--- |
 | ![1단계](/help/c-recommendations/assets/step1_red.png) | JavaScript 라이브러리 | 각 페이지는 at.js 버전 0.9.1(또는 이상) 또는 mbox.js 버전 55(또는 이상)을 참조해야 합니다. 이 구현 단계는 Target 활동이 사용될 모든 페이지에서 필요하며, 제품 또는 카테고리 ID와 같은 키를 포함할 수 있습니다.<BR>at.js에 대해서는 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오.<br>mbox.js에 대한 자세한 내용은 [mbox.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)을 참조하십시오. |
-| ![2단계](/help/c-recommendations/assets/step2_red.png) | 키 | 키는 권장 사항에 표시되는 제품 또는 컨텐츠의 유형을 결정합니다. 예를 들어, 제품 카테고리가 키일 수 있습니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [추천 키를 기반으로 추천 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)를 참조하십시오. |
+| ![2단계](/help/c-recommendations/assets/step2_red.png) | 키 | 키는 권장 사항에 표시되는 제품 또는 컨텐츠의 유형을 결정합니다. 예를 들어, 제품 카테고리가 키일 수 있습니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)를 참조하십시오. |
 | ![3단계](/help/c-recommendations/assets/step3_red.png) | 속성 | 속성은 표시할 제품에 대한 보다 구체적인 정보를 제공합니다. 예를 들어, 특정 가격 범위 내 제품을 표시하거나 재고 임계값을 충족하는 항목을 표시할 수 있습니다. 속성은 mbox에서 또는 [피드](/help/c-recommendations/c-products/feeds.md).<br>[포함 규칙](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) 및 [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md)을 참조하십시오. |
 | ![4단계](/help/c-recommendations/assets/step4_red.png) | 제외 | 제외는 권장 사항에 표시되지 않는 특정 항목을 결정합니다.<br>[제외](/help/c-recommendations/c-products/exclusions.md)를 참조하십시오. |
 | ![5단계](/help/c-recommendations/assets/step5_red.png) | 구매 거래 | 구매 세부 사항에서는 구매한 항목과 구매가 완료된 주문에 대한 정보를 제공합니다. |
@@ -146,11 +146,11 @@ function targetPageParams() {
 
 [!DNL mbox.js] 구현에 대한 자세한 내용은 [mbox.js 구현](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
 
-두 Target Javascript 라이브러리 간의 차이점에 대한 자세한 내용은 at. js [의 이점을](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)참조하십시오.
+For more information about the differences between the two Target Javascript libraries, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## 카테고리 페이지 {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
-카테고리 페이지에서는 해당 카테고리 내의 제품 또는 컨텐츠로 권장 사항을 제한할 수 있습니다. 카테고리 페이지를 설정하려면 페이지에서 사용되는 키를 설정합니다. 키에 대한 자세한 내용은 [추천 키를 기반으로 추천 만들기](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)를 참조하십시오.
+카테고리 페이지에서는 해당 카테고리 내의 제품 또는 컨텐츠로 권장 사항을 제한할 수 있습니다. 카테고리 페이지를 설정하려면 페이지에서 사용되는 키를 설정합니다. 키에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)를 참조하십시오.
 
 ```
 function targetPageParams() { 
@@ -218,6 +218,6 @@ function targetPageParams() {
 | 사용자 지정 글로벌 mbox | (선택 사항) [!DNL Target] 활동을 제공하는 데 사용되는 사용자 지정 글로벌 mbox를 지정합니다. 기본적으로 [!DNL Target}에 사용되는 글로벌 mbox는 [!DNL Recommendations]에 사용됩니다.<br>[!DNL Target]참고: 이 선택 사항은 [!UICONTROL  설정] 페이지에서 설정됩니다. [!DNL Target]을 연 다음, [!UICONTROL 설정]을 클릭하십시오. |
 | 업계 카테고리 | 업계 카테고리는 권장 사항 기준을 분류하는 데 사용됩니다. 따라서 팀 구성원이 장바구니 페이지나 미디어 페이지에 가장 적합한 기준과 같이 특정 페이지에 적합한 기준을 찾는 데 도움이 됩니다. |
 | 호환되지 않는 기준 필터링 | 선택한 페이지가 필수 데이터를 전달하는 기준만 표시하려면 이 선택 사항을 사용하십시오. 모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 호환되지 않는 기준을 활동에 사용할 수 있게 하려면 이 선택 사항을 선택 취소하십시오.<br>태그 관리 솔루션을 사용하는 경우에는 이 선택 사항을 비활성화하는 것이 좋습니다.<br>이 선택 사항에 대한 자세한 내용은 [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)를 참조하십시오. |
-| 기본 호스트 그룹 | 기본 호스트 그룹을 선택합니다. &quot;없음&quot;은 [!DNL Target Classic]의 보고할 기본 호스트 그룹 지정 설정이 기본 호스트 그룹에 사용됨을 의미합니다.<br>호스트 그룹을 사용하여 카탈로그에 있는 사용 가능한 항목을 다양한 용도로 구분할 수 있습니다. 예를 들어 개발 및 프로덕션 환경, 다양한 브랜드 또는 다양한 지역용으로 호스트 그룹을 사용할 수 있습니다. 기본적으로 카탈로그 검색, 컬렉션 및 제외의 미리 보기 결과는 기본 호스트 그룹을 기반으로 합니다. (환경 필터를 사용하여 다른 결과를 미리 볼 호스트 그룹을 선택할 수도 있습니다.) 기본적으로 항목을 만들거나 업데이트할 때 환경 ID를 지정하지 않는 한, 새로 추가된 항목은 모든 호스트 그룹에서 사용할 수 있습니다. 전달되는 권장 사항은 요청에 지정된 호스트 그룹에 따라 다릅니다.<br>제품이 보이지 않는다면 올바른 호스트 그룹을 사용하고 있는지 확인하십시오. 예를 들어, 스테이징 환경을 사용하도록 권장 사항을 설정하고 호스트 그룹을 [스테이징]으로 설정하는 경우, 제품을 표시할 스테이징 환경에서 컬렉션을 다시 만들어야 합니다. 각 환경에서 사용 가능한 제품을 확인하려면 각 환경에서 [카탈로그 검색]을 사용하십시오. 선택한 환경(호스트 그룹)에 대한 권장 사항 컬렉션 및 제외 컨텐츠를 미리 볼 수도 있습니다.<br>**참고:** 선택한 환경을 변경한 후 [검색]을 클릭하여 반환된 결과를 업데이트해야 합니다.<br>[!UICONTROL 환경] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>카탈로그 검색([!UICONTROL 권장 사항 &gt; 카탈로그 검색])</li><li>컬렉션 만들기 대화 상자([!UICONTROL 권장 사항 &gt; 컬렉션 &gt; 새로 만들기])</li><li>컬렉션 업데이트 대화 상자([!UICONTROL 권장 사항 &gt; 컬렉션 &gt; 편집])</li><li>제외 만들기 대화 상자([!UICONTROL 권장 사항 &gt; 제외 &gt; 새로 만들기])</li><li>제외 업데이트 대화 상자([!UICONTROL 권장 사항 &gt; 제외 &gt; 편집])</li></ul>자세한 내용은 [호스트](/help/administrating-target/hosts.md)를 참조하십시오. |
+| 기본 호스트 그룹 | 기본 호스트 그룹을 선택합니다. &quot;없음&quot;은 [!DNL Target Classic]의 보고할 기본 호스트 그룹 지정 설정이 기본 호스트 그룹에 사용됨을 의미합니다.<br>호스트 그룹을 사용하여 카탈로그에 있는 사용 가능한 항목을 다양한 용도로 구분할 수 있습니다. 예를 들어 개발 및 프로덕션 환경, 다양한 브랜드 또는 다양한 지역용으로 호스트 그룹을 사용할 수 있습니다. 기본적으로 카탈로그 검색, 컬렉션 및 제외의 미리 보기 결과는 기본 호스트 그룹을 기반으로 합니다. (환경 필터를 사용하여 다른 결과를 미리 볼 호스트 그룹을 선택할 수도 있습니다.) 기본적으로 항목을 만들거나 업데이트할 때 환경 ID를 지정하지 않는 한, 새로 추가된 항목은 모든 호스트 그룹에서 사용할 수 있습니다. 전달되는 권장 사항은 요청에 지정된 호스트 그룹에 따라 다릅니다.<br>제품이 보이지 않는다면 올바른 호스트 그룹을 사용하고 있는지 확인하십시오. 예를 들어, 스테이징 환경을 사용하도록 권장 사항을 설정하고 호스트 그룹을 스테이징으로 설정하는 경우, 제품을 표시할 스테이징 환경에서 컬렉션을 다시 만들어야 합니다. 각 환경에서 사용 가능한 제품을 확인하려면 각 환경에서 카탈로그 검색을 사용하십시오. 선택한 환경(호스트 그룹)에 대한 권장 사항 컬렉션 및 제외 컨텐츠를 미리 볼 수도 있습니다.<br>**참고:** 선택한 환경을 변경한 후 검색을 클릭하여 반환된 결과를 업데이트해야 합니다.<br>[!UICONTROL 환경] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>카탈로그 검색 ([!UICONTROL 권장 사항 &gt; 카탈로그 검색)</li><li>컬렉션 만들기 대화 상자([!UICONTROL 권장 사항 &gt; 컬렉션 &gt; 새로 만들기])</li><li>컬렉션 업데이트 대화 상자([!UICONTROL 권장 사항 &gt; 컬렉션 &gt; 편집])</li><li>제외 만들기 대화 상자([!UICONTROL 권장 사항 &gt; 제외 &gt; 새로 만들기])</li><li>제외 업데이트 대화 상자([!UICONTROL 권장 사항 &gt; 제외 &gt; 편집])</li></ul>자세한 내용은 [호스트](/help/administrating-target/hosts.md)를 참조하십시오. |
 | 썸네일 기본 URL | 제품 카탈로그용의 기본 URL을 설정하면 썸네일 URL을 전달할 때, 제품의 썸네일을 지정할 때 상대 URL을 사용할 수 있습니다.<br>예를 들어<br>`"entity.thumbnailURL=/Images/Homepage/product1.jpg"`<br>는 썸네일 기본 URL에 상대적인 URL을 설정합니다. |
 | Recommendations API 토큰 | Download API와 같은 권장 사항 API 호출에서 이 토큰을 사용하십시오. |
