@@ -7,8 +7,8 @@ solution: Target
 title: Target 활동 유형
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Target의 다양한 활동 유형(권장 사항 제외)을 설명하는 �
 
 >[!NOTE]
 >
->최고의 경험을 얻고 다른 사용자와 공유하려면 대화형 [Adobe Target 활동 안내서 PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf)를 다운로드하십시오.
+>For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
 
 ## 활동 유형별 역할 {#section_4ECAACC68723402EB3649033190E1BBC}
 
