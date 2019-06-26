@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -33,7 +33,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    ![](assets/DB_NewRecAct.png)
 
-   양식 기반 경험 작성기를 사용하려면 해당 옵션을 선택합니다. [양식 기반 경험 작성기](https://marketing.adobe.com/resources/help/ko_KR/target/target/t_form_experience_composer.html)를 참조하십시오.
+   양식 기반 경험 작성기를 사용하려면 해당 옵션을 선택합니다. [양식 기반 경험 작성기](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html)를 참조하십시오.
 
    [!UICONTROL 다음]을 클릭하면 VEC가 열리고 페이지가 표시됩니다. 현재 요소를 권장 사항으로 바꾸거나 권장 사항을 삽입할 수 있습니다.
 
@@ -139,6 +139,6 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 * 디자인 코드 보기
 
 1. (선택 사항) [!UICONTROL 보고서] 페이지를 열어 [!DNL Recommendations] 활동의 성과를 보여 주는 보고서를 확인합니다.
-1. (선택 사항) [!UICONTROL 충돌] 페이지를 열어 발생할 수 있는 임의의 [활동 충돌](https://marketing.adobe.com/resources/help/ko_KR/target/target/c_activity_collisions.html)을 확인합니다.
+1. (선택 사항) [!UICONTROL 충돌] 페이지를 열어 발생할 수 있는 [활동 충돌](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html)을 봅니다.
 
    활동 충돌은 여러 활동이 동일한 페이지로 컨텐츠를 전달하도록 설정되어 있을 때 발생하며, 이로 인해 예상치 못한 컨텐츠가 표시될 수 있습니다.
