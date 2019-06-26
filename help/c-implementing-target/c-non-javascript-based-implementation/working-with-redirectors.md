@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 리디렉터 작업
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -56,7 +56,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    * 여기서 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm`은 기본 대상입니다.
 
-      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. [HTML URL 인코딩 참조](https://www.w3schools.com/tags/ref_urlencode.asp)를 사용하여 URL을 신속하게 인코딩할 수 있습니다.|
+      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. [HTML URL 인코딩 참조를](https://www.w3schools.com/tags/ref_urlencode.asp) 사용하여 URL를 빠르게 인코딩할 수 있습니다. |
 
 
 
@@ -97,7 +97,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 >[!NOTE]
 >
->우수 사례는 **문당 점수** 참여 지표를 사용하여 비용값을 결정하는 것입니다. 자세한 내용은 [참여](https://marketing.adobe.com/resources/help/ko_KR/tnt/help/c_Capturing_Engagement.html)를 참조하십시오.
+>Best practice is to determine the cost value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 `&mboxPageValue=-value`를 URL에 추가합니다. 음수입니다.
 
@@ -114,7 +114,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 
 >[!NOTE]
 >
->우수 사례는 **문당 점수** 참여 지표를 사용하여 매출액 값을 결정하는 것입니다. 자세한 내용은 [참여](https://marketing.adobe.com/resources/help/ko_KR/tnt/help/c_Capturing_Engagement.html)를 참조하십시오.
+>Best practice is to determine the revenue value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 `&mboxPageValue=value`를 URL에 추가합니다.
 
