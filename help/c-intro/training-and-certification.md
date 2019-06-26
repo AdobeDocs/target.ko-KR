@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 교육 및 인증
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Adobe 교육 서비스에서는 수업과 인증을 제공합니다.
 
-사용 가능한 강사 주도식 온라인 교육 과정에 대한 목록을 보려면 [Adobe 고객 교육 웹 사이트](https://training.adobe.com/training/courses.html#solution=adobeTarget)를 방문해 보십시오.
+강사 주도식 및 온라인 과정에 대해 사용 가능한 목록을 보려면 [Adobe 고객 교육 웹 사이트](https://training.adobe.com/training/courses.html#solution=adobeTarget)를 방문해 보십시오.
 
 자세한 내용은 해당 지역 Adobe 교육 서비스 센터에 문의하십시오.
 
