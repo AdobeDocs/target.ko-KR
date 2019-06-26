@@ -6,7 +6,7 @@ seo-title: Adobe Launch를 사용하여 Target 구현을 참조하십시오
 title: Adobe Launch를 사용하여 Target 구현을 참조하십시오
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
