@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: mbox.js 다운로드
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -32,6 +32,6 @@ Target Standard 및 Premium은 수정된 버전의 Adobe Target mbox.js 파일�
 
    >[!IMPORTANT]
    >
-   >57 이전 버전의 [!DNL mbox.js]를 사용하는 경우 해당 참조가 페이지의 `<head>` 섹션에서 마지막 항목이어야 합니다. 참조가 마지막 항목이 아닌 경우에는 심각한 표시 또는 성능 문제가 발생할 수 있습니다. 자세한 내용은 [기술 구현 세부 사항](https://marketing.adobe.com/resources/help/ko_KR/target/ov/c_mbox_technical.html)을 참조하십시오.
+   >57 이전 버전의 [!DNL mbox.js]를 사용하는 경우 해당 참조가 페이지의 `<head>` 섹션에서 마지막 항목이어야 합니다. 참조가 마지막 항목이 아닌 경우에는 심각한 표시 또는 성능 문제가 발생할 수 있습니다. 자세한 내용은 [기술 구현 세부 사항](https://marketing.adobe.com/resources/help/en_US/target/ov/c_mbox_technical.html)을 참조하십시오.
 
 1. 저장된 [!DNL mbox.js] 파일을 코드에서 지정한 호스팅 환경의 위치로 업로드합니다.
