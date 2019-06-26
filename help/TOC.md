@@ -198,7 +198,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
       + [자동화된 개인화 테스트를 위한 경험 미리 보기](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [자동화된 개인화 오퍼 타깃팅](c-activities/t-automated-personalization/ap-target-offers.md)
       + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)를 참조하십시오
-      + [자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택](c-activities/t-automated-personalization/experience-as-control.md)
+      + [특정 경험을 제어로 사용](c-activities/t-automated-personalization/experience-as-control.md)
       + [자동화된 개인화 FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [경험 URL을 공유하여 Target 외부의 자동화된 개인화 미리 보기](c-activities/t-automated-personalization/experience-preview.md)
       + [자동화된 개인화 문제 해결](c-activities/t-automated-personalization/ap-trouble.md)
