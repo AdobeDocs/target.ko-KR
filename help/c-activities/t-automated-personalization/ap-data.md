@@ -10,7 +10,7 @@ topic: Premium
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -21,15 +21,15 @@ Target은 자동으로 다양한 데이터를 수집하고 사용하여 자동�
 
 Target 개인화 알고리즘에 대한 자세한 내용은 [Random Forest 알고리즘](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)을 참조하십시오.
 
-다음 표는 마케터가 작업을 수행하지 않고도 기본적으로 자동화된 개인화를 통해 수집된 데이터와, [개인화 통찰력 보고서](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)에서 이러한 속성을 표시하는 데 사용된 이름 지정 규칙을 보여 줍니다. 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [Target의 개인화 알고리즘을 위한 데이터 업로드](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)를 참조하십시오.
+The following table shows the data collected by Automated Personalization and Auto-Target by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [Target의 개인화 알고리즘을 위한 데이터 업로드](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)를 참조하십시오.
 
 | 데이터 유형 | 설명 | 데이터 유형 이름 지정 규칙 | 예제 속성 |
 | --- | --- | --- | --- |
 | [장치 및 모바일 데이터](#device-mobile) | 장치 및 모바일 전용 정보입니다.<br>아래의 &quot;장치 및 모바일 데이터&quot; 를 참조하십시오. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
 | [환경 데이터](#env) | 방문자의 운영 체제와 방문자가 활동에 액세스하는 방법과 시기에 대한 정보입니다. | `Browser - / Operating System] - [Attribute Name]` | 브라우저 - 유형 |
-| Experience Cloud 세그먼트 | Audience Manager 또는 Analytics에서 제작하여 Experience Cloud에서 공유한 고객 | `Custom - Experience Cloud Audience - [Audience Name]` | Number of Number → &quot;1&quot; 값입니다.<br>숫자는 AAM (Adobe Audience Manager) 세그먼트 ID 입니다. |
+| Experience Cloud 세그먼트 | Audience Manager 또는 Analytics에서 제작하여 Experience Cloud에서 공유한 고객 | `Custom - Experience Cloud Audience - [Audience Name]` | 사용자 지정 데이터 |
 | [지리적 데이터](#geo) | 방문자가 있는 위치에 대한 정보입니다.<br>아래의 &quot;지리 데이터&quot; 를 참조하십시오. | `Geo - [geo attribute]` | City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier |
-| 프로필 속성 | 업데이트 API를 통해 Target 프로필에 직접 업로드된 프로필 스크립트 또는 속성 | Custom - Visitor Profile - [attribute name] | 사용자 지정 데이터 |
+| 프로필 속성 | 업데이트 API를 통해 Target 프로필에 직접 업로드된 프로필 스크립트 또는 속성 | `Custom - Visitor Profile - [attribute name]` | 사용자 지정 데이터 |
 | 참조 URL 매개 변수 | 일반적으로 참조 URL은 mbox 호출을 시작한 특정 페이지를 참조하는 URL입니다.<br>이 변수는 사이트의 사용자 활동뿐만 아니라 사이트의 기술 구현에 의해서도 영향을 받을 수 있습니다. | `Custom - [Referring URL Parameter] - [Parameter value]` | 사용자 지정 데이터 |
 | 보고 세그먼트 | 활동 설정에서 설정된 모든 세그먼트. | `Reporting Segment -[Segment Name]` | 사용자 지정 데이터 |
 | [세션 데이터](#session) | 활동에 액세스할 때 세션에서 방문자의 행동에 대한 정보입니다. | `Visitor Profile - [Attribute Name]` | 방문자 프로필 - 최근 방문 시작일 |
@@ -63,10 +63,10 @@ Target 개인화 알고리즘에 대한 자세한 내용은 [Random Forest 알�
 | 브라우저 - 주 중 시간 | 방문자가 활동에 액세스한 시간입니다. | 0 to 168<br>(Sunday midnight is 0) |
 | 브라우저 - 언어 설정 | 활동에 액세스하는 데 사용된 방문자의 브라우저에 지정된 언어입니다. | English<br>German |
 | 브라우저 - 화면 높이 (px) | 활동에 액세스하기 위해 사용된 방문자의 브라우저 화면 높이 (픽셀 단위) 입니다. | 1, 2, 3 등 |
-| 브라우저 - 하루 중 시간 | 방문자가 활동에 액세스한 브라우저의 시간입니다. | 0, 6, 12, 18<br>(0 is night, 6 is morning, 12 is afternoon, 18 is evening) |
+| 브라우저 - 하루 중 시간 | 방문자가 활동에 액세스한 브라우저의 시간입니다. | 0, 6, 12, 18<br>(0 is night, 6 is morning,<br>12 is afternoon, 18 is evening) |
 | 브라우저 - 표준 시간대 | 활동에 액세스하는 동안 방문자의 시간대가 표시됩니다. | Pacific Time<br>Eastern Time<br>GMT |
 | 브라우저 - 유형 | 방문자가 활동에 액세스하는 동안 사용한 브라우저의 유형입니다. | Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>Other |
-| 브라우저 - 평일/주말 | 방문자가 활동에 액세스할 때의 작업 상태 (주말, 근무 시간 또는 평일 자유-시간). | Saturday and Sunday is weekend<br>Monday through Friday 0900 to 1800 is work time<br>Monday through Friday after 1800 until 0900 is weekday free time |
+| 브라우저 - 평일/주말 | 방문자가 활동에 액세스할 때의 작업 상태 (주말, 근무 시간 또는 평일 자유-시간). | Saturday and Sunday is weekend<br>Monday-Friday 0900 to 1800 is work time<br>Monday-Friday after 1800 until 0900 is weekday free time |
 | 브라우저 - 창 높이 (px) | 활동에 액세스하기 위해 사용된 방문자의 창 높이 (픽셀 단위) 입니다. | 1, 2, 3 등 |
 | 브라우저 - 창 너비 (px) | 활동에 액세스하기 위해 사용된 방문자의 창 너비 (픽셀 단위) 입니다. | 1, 2, 3 등 |
 | 장치 - 화면 높이 | 방문자가 활동에 액세스하는 데 사용한 장치의 화면 높이입니다. | 1, 2, 3 등 |
