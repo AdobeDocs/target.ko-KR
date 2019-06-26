@@ -128,8 +128,8 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    ![트래픽 할당 목표 드롭다운 목록](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **개인화 알고리즘 평가(50/50):** 목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다. &quot; 무작위 경험 &quot;을 제어로 사용하는 것이 좋습니다.
-   * **개인화 트래픽 최대화(90/10):** 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 10%의 방문자를 제어 알고리즘에 추가하여 충분한 데이터를 보장함으로써 시간에 따른 학습이 계속 진행될 수 있게 합니다. 여기에는 더 큰 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어지게 된다는 장단점이 있습니다. 목표 없이, 이것은 제어로 특정 경험을 사용할 때 권장되는 트래픽 분할입니다.
+   * **개인화 알고리즘 평가(50/50):** 목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다.
+   * **개인화 트래픽 최대화(90/10):** 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 10%의 방문자를 제어 알고리즘에 추가하여 충분한 데이터를 보장함으로써 시간에 따른 학습이 계속 진행될 수 있게 합니다. 여기에는 더 큰 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어지게 된다는 장단점이 있습니다.
    * **사용자 지정 할당** 원하는 대로 백분율을 수동으로 분할합니다.
 
 1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
