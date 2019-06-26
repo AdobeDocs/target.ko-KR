@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 태그 관리자 없이 Target 구현
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -58,9 +58,9 @@ at.js 설정 페이지에서 몇 가지 설정을 지정하는 데 도움이 되
 |--- |--- |
 | 클라이언트 코드 | 클라이언트 코드는 Target API를 사용할 때 종종 필요한 클라이언트별 문자 시퀀스입니다.<br>이 설정은 변경할 수 없습니다. |
 | IMS 조직 ID | 이 ID는 구현을 [!DNL Adobe Experience Cloud] 계정에 연결합니다.<br>이 설정은 변경할 수 없습니다. |
-| 프로필 라이프타임 | 이 설정은 방문자 프로필이 저장되어 있는 기간을 결정합니다. 기본적으로, 프로필은 2주 동안 저장됩니다. 최대 90일까지 연장할 수 있습니다.<br>프로필 라이프타임 설정을 변경하려면 [고객 지원 팀](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)에 문의하십시오. |
+| 프로필 라이프타임 | 이 설정은 방문자 프로필이 저장되어 있는 기간을 결정합니다. 기본적으로, 프로필은 2주 동안 저장됩니다. 최대 90일까지 연장할 수 있습니다.<br>프로필 라이프타임 설정을 변경하려면 [고객 지원팀](https://helpx.adobe.com/contact/enterprise-support.ec.html)에 문의하십시오. |
 | X-Domain | 브라우저가 고유한 도메인(퍼스트 파티 쿠키), Target 도메인 또는 둘 다에 쿠키를 설정하는지를 결정합니다.<br>이 설정을 변경하는 것은 at.js와 mbox.js 모두에 영향을 줍니다. |
-| 시간 초과 | 정의된 기간 내에 [!DNL Target]이 컨텐츠에 응답하지 않으면 서버 호출 제한 시간이 초과되어 기본 컨텐츠가 표시됩니다. 방문자 세션 동안 추가 호출이 계속 시도됩니다. 기본값은 5초입니다.<br>이 설정을 변경하는 것은 at.js와 mbox.js 모두에 영향을 줍니다.<br>at.js 라이브러리는 `XMLHttpRequest`에서 시간 제한 설정을 사용합니다. 시간 제한은 요청이 시작되면 시작되고 Target이 서버의 응답을 받으면 중지됩니다. 자세한 내용은 Mozilla Developer Network의 [XMLHttpRequest.timeout](https://developer.mozilla.org/ko-KR/docs/Web/API/XMLHttpRequest/timeout)을 참조하십시오.<br>응답을 받기 전에 지정된 시간 제한이 초과되면, 기본 컨텐츠가 표시되고, 모든 데이터 수집은 [!DNL Target] 에지에서 발생하므로 방문자는 활동의 참가자로 카운트될 수 있습니다. 요청이 [!DNL Target] 에지에 도달하면 방문자가 카운트됩니다.<br>시간 제한 설정을 구성할 때에는 다음 사항을 고려하십시오.<ul><li>값이 너무 낮으면, 방문자가 활동의 참가자로 카운트될 수 있음에도 불구하고 사용자에게 대부분의 시간 동안 기본 컨텐츠가 표시될 수 있습니다.</li><li>값이 너무 높으면, 확장된 기간 동안 본문 숨기기를 사용하는 경우 방문자에게 웹 페이지의 빈 영역이 표시되거나 빈 페이지가 표시될 수 있습니다.</li></ul>mbox 응답 시간을 자세히 알아보려면 브라우저의 개발자 도구에서 네트워크 탭을 살펴보십시오. 타사 웹 성과 모니터링 도구(예: Catchpoint)를 사용할 수도 있습니다.<br>**참고**: [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 설정은 [!DNL Target]이 너무 오랫동안 방문자 API 응답을 기다리지 않도록 해줍니다. 이 설정과 여기에 설명된 at.js에 대한 시간 초과 설정은 서로 영향을 주지 않습니다. |
+| 시간 초과 | 정의된 기간 내에 [!DNL Target]이 컨텐츠에 응답하지 않으면 서버 호출 제한 시간이 초과되어 기본 컨텐츠가 표시됩니다. 방문자 세션 동안 추가 호출이 계속 시도됩니다. 기본값은 5초입니다.<br>이 설정을 변경하는 것은 at.js와 mbox.js 모두에 영향을 줍니다.<br>at.js 라이브러리는 `XMLHttpRequest`에서 시간 제한 설정을 사용합니다. 시간 제한은 요청이 시작되면 시작되고 Target이 서버의 응답을 받으면 중지됩니다. 자세한 내용은 Mozilla Developer Network의 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)을 참조하십시오.<br>응답을 받기 전에 지정된 시간 제한이 초과되면, 기본 컨텐츠가 표시되고, 모든 데이터 수집은 [!DNL Target] 에지에서 발생하므로 방문자는 활동의 참가자로 카운트될 수 있습니다. 요청이 [!DNL Target] 에지에 도달하면 방문자가 카운트됩니다.<br>시간 제한 설정을 구성할 때에는 다음 사항을 고려하십시오.<ul><li>값이 너무 낮으면, 방문자가 활동의 참가자로 카운트될 수 있음에도 불구하고 사용자에게 대부분의 시간 동안 기본 컨텐츠가 표시될 수 있습니다.</li><li>값이 너무 높으면, 확장된 기간 동안 본문 숨기기를 사용하는 경우 방문자에게 웹 페이지의 빈 영역이 표시되거나 빈 페이지가 표시될 수 있습니다.</li></ul>mbox 응답 시간을 자세히 알아보려면 브라우저의 개발자 도구에서 네트워크 탭을 살펴보십시오. 타사 웹 성과 모니터링 도구(예: Catchpoint)를 사용할 수도 있습니다.<br>**참고**: [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 설정은 [!DNL Target]이 너무 오랫동안 방문자 API 응답을 기다리지 않도록 해줍니다. 이 설정과 여기에 설명된 at.js에 대한 시간 초과 설정은 서로 영향을 주지 않습니다. |
 | 이전 브라우저 지원 | **참고**: 이전 브라우저 지원 선택 사항은 at.js 버전 0.9.3 및 그 이전 버전에서 사용할 수 있습니다. 이 선택 사항은 at.js 버전 0.9.4에서 제거되었습니다. at.js에서 지원하는 브라우저 목록이 필요하면 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)를 참조하십시오.<br>이전 브라우저는 CORS(Cross Origin Resource Sharing)를 완전히 지원하지는 않는 오래된 브라우저입니다. 이러한 브라우저에는 버전 11 이전의 Internet Explorer 브라우저와 Safari 버전 6 및 그 이전 버전이 포함됩니다. 이전 브라우저 지원이 비활성화되어 있으면, 이러한 브라우저에서는 Target이 보고서의 컨텐츠를 전달하거나 방문자 수를 카운트하지 않습니다. 이 선택 사항이 활성화되어 있으면, 이전 브라우저에서 품질 보증을 수행하여 좋은 고객 경험을 보장하는 것이 좋습니다. |
 
 ## 코드 설정 {#section_D41C905D0F8149949F525C85F2CCFF7F}
