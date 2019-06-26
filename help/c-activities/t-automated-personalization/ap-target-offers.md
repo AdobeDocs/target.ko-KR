@@ -8,7 +8,7 @@ title-outputclass: premium
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 badge: premium
 translation-type: tm+mt
-source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,8 +30,8 @@ source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
 
 ## 타깃팅 규칙 설정
 
-1. 타깃팅할 오퍼를 포함하는 [자동화된 개인화 활동을](/help/c-activities/t-automated-personalization/create-ap-activity.md) 만듭니다.
-1. Visual Experience Composer에서 활동에 대한 오퍼를 설정한 후 콘텐츠 **[!UICONTROL 관리를 클릭합니다]**.
+1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
+1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
 
    ![컨텐츠 관리](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -43,11 +43,11 @@ source-git-commit: 7b7f61efde2c72e6054dd8f08fbde2a395b6447c
 
 1. 원하는 오퍼를 선택하고 해당 오퍼를 볼 수 있는 대상을 선택합니다.
 
-   단일 오퍼에 대한 타깃팅을 설정하려면 원하는 오퍼 위로 마우스를 가져간 다음 **[!UICONTORL 타깃팅]** 아이콘을 클릭합니다.
+   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
 
-   여러 오퍼에 대한 타깃팅을 설정하려면 원하는 오퍼에 대한 확인란을 선택한 다음 목록의 오른쪽 상단에 표시되는**[!UICONTROL 타깃팅] 아이콘을 클릭합니다.
+   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
 
-1. 대상자 [!UICONTROL 선택] 대화 상자에서 오퍼에 대해 원하는 대상자를 선택한 다음 **[!UICONTROL 완료를]** 클릭하여 컨텐츠 [!UICONTROL 관리] 대화 상자로 돌아갑니다.
+1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
 
    >[!NOTE]
    >
