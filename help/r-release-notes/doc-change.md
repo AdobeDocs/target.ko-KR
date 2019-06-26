@@ -25,11 +25,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 |  | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | [!UICONTROL 복제] 작업에 대한 정보가 추가되었습니다. |
 |  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | [!UICONTROL 선택한 요소] 패널에 대한 정보가 추가되었습니다. |
 |  | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | 새 섹션: &quot; Page delivery settings for the SPA VEC. &quot; |
-|  | [자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택](/help/c-activities/t-automated-personalization/experience-as-control.md) | 새 주제입니다.  |
+|  | [특정 경험을 제어로 사용](/help/c-activities/t-automated-personalization/experience-as-control.md) | 새 주제입니다.  |
 |  | [Google Chrome samesite 쿠키 정책](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 새 주제입니다.  |
 |  | [Target의 개인화 알고리즘을 위한 데이터 수집](/help/c-activities/t-automated-personalization/ap-data.md) | 개별 주제를 설명하고 예를 제공하는 새 표를 추가했습니다. |
-|  | [자동 개인화맞춤형 FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 새로운 FAQ 추가: &quot; 제어로 사용할 특정 경험을 지정할 수 있습니까? &quot;<br>다음 FAQ가 수정되었습니다. &quot; 자동화된 개인화 활동을 설정하는 모범 사례는 무엇입니까? &quot; |
-|  | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 컨트롤에 사용할 특정 경험을 지정하는 방법에 대한 정보 및 FAQ가 추가되었습니다.<br>&quot; 트래픽 할당 결정 &quot;섹션이 업데이트되었습니다. |
+|  | [자동 개인화맞춤형 FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 새로운 FAQ 추가: &quot; 제어로 사용할 특정 경험을 지정할 수 있습니까? &quot; |
+|  | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 컨트롤에 사용할 특정 경험을 지정하는 방법에 대한 정보 및 FAQ가 추가되었습니다. |
 |  | [자동화된 개인화 활동 만들기](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 특정 경험을 기본값으로 선택하는 정보가 있는 단계가 추가되었습니다. |
 |  | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 여러 모바일 앱 버전을 관리하는 방법에 대한 정보가 추가되었습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 19.6.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
