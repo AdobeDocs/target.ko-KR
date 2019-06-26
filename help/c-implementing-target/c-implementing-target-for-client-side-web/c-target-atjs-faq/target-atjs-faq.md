@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js FAQ
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
 위에서 보듯이 mbox.js를 사용하는 페이지 컨텐츠는 [!DNL Target] 호출이 완료될 때까지 로드되지 않습니다. 반면에 at.js를 사용하는 페이지 컨텐츠는 [!DNL Target] 호출이 시작되면 로드가 시작되며 호출이 완료될 때까지 기다리지 않습니다.
 
-## 페이지 로드 시간에 at. js 및 mbox. js의 영향은 무엇입니까? {#page-load}
+## What is the impact of at.js and mbox.js on page-load time? {#page-load}
 
 많은 고객과 컨설턴트는 특히 새 사용자와 재방문 사용자의 컨텍스트에서 비교하여 페이지 로드 시간에 대한 [!DNL at.js]와 [!DNL mbox.js]의 영향을 알고 싶어 합니다. 안타깝게도, 제각각의 고객 구현으로 인해 [!DNL at.js]나 [!DNL mbox.js]가 어떻게 페이지 로드 시간에 영향을 주는지에 대한 구체적 수치를 측정하고 제공하기는 어렵습니다.
 
@@ -90,7 +90,7 @@ at.js 1.0.0 릴리스를 사용하면 Target 라이브러리를 비동기적으�
 
 at.js를 비동기적으로 로드하려면 다음을 수행하십시오.
 
-* 권장되는 방법은 Adobe Launch 또는 Adobe DTM (Dynamic Tag Manager) 와 같은 태그 관리자를 사용하는 것입니다. 자세한 [내용은](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) [론치](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) 자습서를 사용하여 웹 사이트에서 Experience Cloud 구현 설명서의 Adobe Target 추가 단원을 참조하십시오.
+* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
 * at.js를 로드하는 스크립트 태그에 비동기 속성을 추가하여 at.js를 비동기로 로드할 수도 있습니다. 다음과 같은 코드를 사용해야 합니다.
 
    ```
@@ -108,11 +108,11 @@ at.js를 비동기적으로 로드하려면 다음을 수행하십시오.
 
 at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단되지 않도록 하는 좋은 방법입니다. 그러나 이 기법은 웹 페이지에서 플리커를 유발할 수 있습니다.
 
-페이지 (또는 지정된 부분) 를 숨기는 사전 숨김 코드 조각을 사용하여 깜박임을 피한 다음, at. js 및 전역 요청이 완전히 로드되면 이를 표시할 수 있습니다. at.js를 로드하기 전에 코드 조각을 추가해야 합니다.
+페이지(또는 지정된 부분)를 숨긴 다음 at.js 및 글로벌 요청이 완전히 로드된 후에 표시하는 사전에 숨기는 코드 조각을 사용하여 플리커를 방지할 수 있습니다. at.js를 로드하기 전에 코드 조각을 추가해야 합니다.
 
-비동기 론치 구현을 통해 at. js를 배포하는 경우 론치 자습서를 사용하여 웹 사이트에서 Experience Cloud 구현의 [Target 사전 숨기기 [코드 조각](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 추가] 섹션에 설명된 대로 페이지에 직접 [사전 숨김 코드 조각을 포함하는 것이 좋습니다](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
 
-동기 DTM 구현을 통해 at. js를 배포하는 경우 페이지 상단에서 트리거된 페이지 로드 규칙을 통해 사전 숨김 코드 조각을 추가할 수 있습니다.
+동기 DTM 구현을 통해 at.js를 배포하는 경우 페이지 상단에서 트리거된 페이지 로드 규칙을 통해 사전에 숨기는 코드 조각을 추가할 수 있습니다.
 
 자세한 내용은 [at.js에서 플리커를 관리하는 방법](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)을 참조하십시오.
 
@@ -152,7 +152,7 @@ Safari 방문자를 지원하기 위해 더 나은 X-Domain이 &quot;비활성�
 
 ## 단일 페이지 애플리케이션에서 Target 시각적 경험 작성기를 사용할 수 있습니까? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-예. at. js 2. x를 활용하는 경우 SPA 용 VEC를 사용할 수 있습니다. 자세한 내용은 [단일 페이지 (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오.
+예. at.js 2.x를 활용하는 경우 SPA용 VEC를 사용할 수 있습니다. 자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오.
 
 ## at.js 구현에 Adobe Experience Cloud Debugger를 사용할 수 있습니까? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
@@ -176,7 +176,7 @@ Safari 방문자를 지원하기 위해 더 나은 X-Domain이 &quot;비활성�
 >
 >at.js 버전 1.2 이상을 사용하는 경우에는 다음 예가 필요하지 않습니다.
 
-Targetglobalsettings 사용 [방법에 따라](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). js를 다운로드한 후 코드를 추가로 수정해야 할 수 있습니다. 예를 들어, 다양한 웹 사이트에서 [!DNL Target] 구현들에 대해 약간씩 다르게 설정해야 하지만 이러한 설정을 사용자 지정 JavaScript를 사용하여 동적으로 정의할 수 없다면, 파일을 다운로드한 후 각 웹 사이트에 업로드하기 전에 이러한 사용자 지정을 수동으로 수행하십시오.
+[targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 사용하는 방법에 따라 at.js를 다운로드한 후 코드를 추가로 수정해야 할 수 있습니다. 예를 들어, 다양한 웹 사이트에서 [!DNL Target] 구현들에 대해 약간씩 다르게 설정해야 하지만 이러한 설정을 사용자 지정 JavaScript를 사용하여 동적으로 정의할 수 없다면, 파일을 다운로드한 후 각 웹 사이트에 업로드하기 전에 이러한 사용자 지정을 수동으로 수행하십시오.
 
 다음 예에서는 `targetGlobalSettings()` at.js 함수를 사용하여 IP 주소를 지원하는 코드 조각을 삽입할 수 있습니다.
 
@@ -264,12 +264,12 @@ Target 시간 제한은 5초입니다. 사용자가 대표 이미지를 사용�
 
 처음에는 이미지 대표 DOM 요소가 숨겨져 있습니다. Target의 응답이 수신된 후 at.js는 DOM 변경 사항을 적용합니다(예: IMG를 대체하고 사용자 지정된 대표 이미지 표시).
 
-## at. js에서 필요로 하는 HTML DOCTYPE는 무엇입니까?
+## at.js에 필요한 HTML doctype은 무엇입니까?
 
-at. js를 사용하려면 HTML 5 DOCTYPE 이 필요합니다.
+at. s에는 HTML5 doctype이 필요합니다.
 
 이 구문은 다음과 같습니다.
 
 `<!DOCTYPE html>`
 
-HTML 5 DOCTYPE는 페이지가 표준 모드로 로드되도록 합니다. quirks 모드로 로드할 때 at. js가 의존하는 일부 JS API가 비활성화됩니다. Target에서 at. js를 quirks 모드로 비활성화합니다.
+HTML5 doctype은 페이지가 표준 모드로 로드되도록 합니다. quirks 모드로 로드할 때 at.js가 사용하는 일부 JS API가 비활성화됩니다. Target은 quirks 모드에서 at.js를 비활성화합니다.
