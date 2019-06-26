@@ -8,7 +8,7 @@ title: 이메일 이미지 Adbox 테스트
 topic: 권장 사항
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: f7651205c27c6194e50610a916f51c5e585bf2a9
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -36,7 +36,7 @@ mboxSession={123456}&
 mboxPC={123456}” border=“0"/>
 ```
 
-The below value are specific to you:
+여기서 아래 값은 적절히 수정해야 합니다.
 
 | 값 | 설명 |
 |--- |--- |
