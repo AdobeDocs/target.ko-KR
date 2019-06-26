@@ -7,8 +7,8 @@ solution: Target
 title: 경험 성과 보고서(MVT)
 topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,4 +41,4 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 작성하는 방법을 보여줍니다. 경험 성과 보고서는 8:20부터 설명됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=kor)
