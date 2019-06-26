@@ -7,7 +7,7 @@ solution: Target,Analytics
 title: 제외 관리
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,17 +16,17 @@ source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 제외 그룹을 만들고, 중복 오퍼를 제외하고, 특정 경험을 제외하고, 자동화된 개인화 (AP) 활동에서 기본 컨텐츠를 제외하여 제외를 관리합니다.
 
-## 제외 그룹 만들기 {#task_AAAA6C7239A84F7696C8492F04B575A2}
+## Create exclusion groups {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
 자동화된 개인화(AP) 활동에서 제외 그룹을 만들어 지정된 오퍼가 있는 경험이 자동으로 제외되도록 합니다.
 
 제외 그룹은 양립할 수 없는 오퍼가 서로 다른 위치의 동일한 경험에서 제공되지 않도록 하는 좋은 방법입니다. 예를 들어, 두 오퍼가 있다고 가정하십시오. 하나는 모든 상품을 20% 할인하는 것이고 다른 하나는 15% 할인하는 것으로 가정합니다. 이러한 두 오퍼를 동일한 경험에서 방문자에게 제공하고 싶지는 않을 것입니다. 이 두 오퍼를 제외 그룹에 추가한다면 그런 일이 발생하지 않도록 할 수 있습니다.
 
-AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있습니다. 자세한 내용은 자동화된 개인화 오퍼 [타깃팅을 참조하십시오](/help/c-activities/t-automated-personalization/ap-target-offers.md).
+AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있습니다. For more information, see [Target Automated Personalization offers](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **제외 그룹을 만들려면 다음을 수행하십시오.**
 
-1. AP 활동을 [](/help/c-activities/t-automated-personalization/create-ap-activity.md)만들거나 편집하는 동안 헤더 막대에서 **[!UICONTROL [콘텐트]** 관리] 를 클릭합니다.
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), click **[!UICONTROL Manage Content]** in the header bar.
 
    ![콘텐츠 관리 링크](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -52,7 +52,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 제외 그룹의 오퍼는 앞으로 동일한 경험에서 자동으로 제외됩니다.
 
-## 중복 오퍼 제외 {#concept_4EF78013F80E48EFA024AE0274C9F037}
+## Exclude duplicate offers {#concept_4EF78013F80E48EFA024AE0274C9F037}
 
 [!UICONTROL 자동화된 개인화] 활동의 다른 위치에서 사용될 때 오퍼 라이브러리의 오퍼가 복제하지 않도록 합니다.
 
@@ -62,13 +62,13 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 ![중복 오퍼 옵션](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
-## 특정 경험 제외 {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
+## Exclude specific experiences {#task_C17D36EF58AF4908B17A3D84CA6DE85A}
 
 자동화된 개인화 활동에서 특정 오퍼 조합을 제외하려면 특정 경험을 제외하십시오.
 
 함께 작동하지 않는 특정 조합이 있거나, 활동에 대한 트래픽 요구 사항을 줄이기 위해 테스트하는 경험의 수를 제한할 수 있습니다.
 
-1. AP 활동을 [](/help/c-activities/t-automated-personalization/create-ap-activity.md)만들거나 편집하는 동안 헤더 막대에서 **[콘텐트** 관리] 를 클릭합니다.
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), click **Manage Content** in the header bar.
 
    ![콘텐츠 관리 링크](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
@@ -80,7 +80,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    ![마우스를 마우스로 제외](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   또는 관련 경험에 대한 확인란을 선택한 다음 대화 상자의 오른쪽 상단에 있는 **[Uicontrol 제외]** 아이콘을 클릭하여 경험을 일괄적으로 제외/포함할 수 있습니다. 하나 이상의 경험이 선택되면 [!UICONTROL 제외] 아이콘이 나타납니다.
+   Or you can batch exclude/include experiences by selecting the checkbox for the relevant experiences and then clicking the **[UICONTROL Exclude]** icon in the top right corner of the dialog box. The [!UICONTROL Exclude] icon appears when one or more experiences are checked.
 
    ![경험 일괄 제외](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
@@ -90,7 +90,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    ![제외된 경험](/help/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
-## 기본 컨텐츠 제외 {#task_DCB4528989DF4C05A3A4729E5891D18F}
+## Exclude default content {#task_DCB4528989DF4C05A3A4729E5891D18F}
 
 일부 경우에는 기본 컨텐츠를 자동화된 개인화 활동의 일부로 포함시키지 않을 수 있습니다. 이 설정에 액세스하는 방법은 제외 그룹 만들기와 다릅니다. 이 방법을 사용하면 AP 활동의 일부로서 한 위치에서 한 오퍼만 오퍼 (기본 컨텐츠와 다름) 를 가질 수 있습니다.
 
@@ -98,7 +98,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 **시각적 경험 작성기(VEC)를 사용하여 기본 컨텐츠를 제외하려면 다음을 수행하십시오.**
 
-1. AP 활동을 [](/help/c-activities/t-automated-personalization/create-ap-activity.md)만들거나 편집하는 동안 대체할 컨텐츠를 선택하고 클릭하여 텍스트/HTML **[!UICONTROL ]** 변경 내용, 이미지 **[!UICONTROL ]** 변경 또는 **[!UICONTROL 배경색을 액세스합니다]**.
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. 대화 상자에서 새 컨텐츠를 작성하고 기본 컨텐츠의 오른쪽에 있는 **포함** 을 선택 취소합니다(또는 컨텐츠 선택 화면에서 기본 이미지/비디오를 선택 취소합니다.).
 
    [!UICONTROL 포함] 확인란은 컨텐츠/오퍼 유형에 따라 약간 다른 위치에 표시됩니다.
