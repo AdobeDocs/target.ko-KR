@@ -7,8 +7,8 @@ solution: Target
 title: Target 모바일 미리 보기
 topic: 고급,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,8 +31,8 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
    적절한 SDK를 다운로드하는 방법에 대한 지침은
 
-   * **iOS:** *Experience Cloud Solutions용 iOS SDK 4.x* 안내서의 [시작하기 전에](https://marketing.adobe.com/resources/help/ko_KR/mobile/ios/requirements.html).
-   * **Android:** [Experience Cloud Solutions용 Android SDK 4.x]( 안내서의 )시작하기 전에*https://marketing.adobe.com/resources/help/ko_KR/mobile/android/requirements.html*.
+   * **iOS:**[Experience Cloud 솔루션용 iOS SDK 4.x](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) 안내서에서 *시작하기 전에*
+   * **Android:** Experience Cloud 솔루션용 Android SDK 4.x 안내서에서 [시작하기 전에](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)**
 
 1. **URL 체계 설정:** 미리 보기 링크는 URL 체계를 사용하여 앱을 엽니다. 미리 보기에 대해 고유한 URL 체계를 지정해야 합니다.
 
