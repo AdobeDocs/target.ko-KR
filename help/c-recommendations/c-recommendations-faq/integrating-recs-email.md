@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: 권장 사항
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -60,7 +60,7 @@ curl -X POST \
 >
 >모든 이메일 수신자(예: API 호출)에 대해 `sessionId` 및 `tntId` 또는 `thirdPartyId` 중 하나에 고유값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면 단일 프로필 내에서 생성된 수많은 이벤트로 인해 API 응답이 느려지거나 실패할 수 있습니다.
 
-자세한 내용은 [배달 API 설명서](https://developers.adobetarget.com/api/#server-side-delivery)를 참조하십시오.
+자세한 내용은 [게재 API 설명서](https://developers.adobetarget.com/api/#server-side-delivery)를 참조하십시오.
 
 ## 옵션 2: Rawbox 이메일 템플릿 사용 {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
