@@ -7,7 +7,7 @@ solution: Target
 title: 경험 타깃팅
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
 
 웹 사이트에서 아웃도어 장비를 사용할 수 있다고 가정합니다. A/B 테스트에 대한 보고서는 서로 다른 고객의 마음을 움직이는 세 가지 경험을 가지고 있음을 나타냅니다. 이러한 발견을 활용하려면 방문자의 위치 또는 취미에 따라 다른 대상자에게 호소하기 위해 홈 페이지에 다른 영웅 이미지를 표시하십시오. 이 시나리오에서는 뉴저지주 방문자에게 하이킹 이미지를 보여주고 하와이 방문자에게 서핑 이미지를 보여주려고 합니다. 또한 자전거를 좋아하는 고객도 있습니다. biking 고객에 호소하는 세 번째 영웅 이미지를 표시하려는 경우
 
-XT 활동을 통해 각 대상자에게 호소력이 있는 다른 영웅 이미지로 이 세 대상을 타깃팅할 수 있습니다. A/B *테스팅에서부터 경험 타깃팅에 이르기까지* 아래 비디오에서는 두 가지 상태 모두를 대상으로 하는 경험을 제작하는 방법과 Biking 애호가 타깃팅을 위한 세 번째 경험을 소개합니다. 또한 이 비디오에서는 세 가지 경험을 주문하여 목표를 달성하는 방법을 설명합니다. 비디오를 시청한 다음 경험 타깃팅 활동 [만들기를 계속합니다](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
+XT 활동을 통해 각 대상자에게 호소력이 있는 다른 영웅 이미지로 이 세 대상을 타깃팅할 수 있습니다. The video below, *From A/B Testing to Experience Targeting* shows you how to create experiences targeted to both states and a third experience targeted to biking enthusiasts. 또한 이 비디오에서는 세 가지 경험을 주문하여 목표를 달성하는 방법을 설명합니다. Watch the video, then continue with [Create an Experience Targeting activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## 교육 비디오:
 
