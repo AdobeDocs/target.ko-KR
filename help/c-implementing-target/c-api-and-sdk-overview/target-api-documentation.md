@@ -7,8 +7,8 @@ solution: Target
 title: Target의 이전 API에서 Adobe I/O로 전환
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
