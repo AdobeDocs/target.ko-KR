@@ -9,7 +9,7 @@ title: 데이터를 Target에 가져오는 방법
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 후속 페이지/서버 호출에서 타깃팅을 위해 데이터를 사용해야 하는 경우 프로필 스크립트로 변환해야 합니다.
 * 쿼리 문자열에는 [IETF(Internet Engineering Task Force) 표준](https://www.ietf.org/rfc/rfc3986.txt)에 대한 문자만 포함될 수 있습니다 .
 
-   IETF 사이트에서 언급된 것 외에도, Target은 쿼리 문자열에 다음과 같은 문자를 허용합니다.
+   IETF 사이트에 언급된 것 외에도 Target 에서는 쿼리 문자열에서 다음 문자를 허용합니다.
 
    `&lt; &gt; # % &quot; { } | \\ ^ \[\] \``
 
