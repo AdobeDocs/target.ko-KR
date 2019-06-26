@@ -8,8 +8,8 @@ subtopic: 다변량 테스트
 title: Analytics 및 Target 통합 문제 해결(A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -62,7 +62,7 @@ A4T 활동을 만들기 전에 올바른 권한이 있는지 확인하십시오.
 
 * Analytics를 Target의 보고 소스로 사용하려면 Adobe Analytics에서 웹 서비스 액세스 그룹에 속해 있어야 합니다.
 * 하나 이상의 Experience Cloud 그룹의 구성원으로서 Analytics 및 Target에 액세스할 수 있어야 합니다.
-* 왼쪽 탐색 메뉴의 마케팅 앱 섹션에 Analytics 및 Target이 표시되는지 확인하십시오.
+* 왼쪽 탐색 메뉴의 [마케팅 앱] 섹션에 Analytics 및 Target이 표시되는지 확인하십시오.
 
 ## 보고서에서 바운스 비율, 바운스 및 퇴장 지표가 양수로 표시됩니다. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
