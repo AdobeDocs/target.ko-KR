@@ -8,8 +8,8 @@ subtopic: 시작하기
 title: 이미지용 Adbox 만들기
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,7 +41,7 @@ AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다.
 
    * 여기서 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif`는 mbox의 기본 콘텐츠입니다. 이것은 이미지여야 합니다.
 
-      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. [HTML URL 인코딩 참조](https://www.w3schools.com/tags/ref_urlencode.asp)를 사용하여 URL을 신속하게 인코딩할 수 있습니다.
+      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. [HTML URL 인코딩 참조를](https://www.w3schools.com/tags/ref_urlencode.asp) 사용하여 URL를 빠르게 인코딩할 수 있습니다.
 
 
 1. 각 대체 이미지에 대한 [리디렉션 오퍼](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)를 만듭니다.
