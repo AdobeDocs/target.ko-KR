@@ -7,8 +7,8 @@ solution: Target
 title: 자동 할당
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -192,7 +192,7 @@ Bonferroni 보정이 적절히 적용된 [샘플 크기 계산기](https://docs.
 * 트래픽 할당 방법 선택
 * 서로 다른 경험에 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=kor)
 
 ### A/B 테스트 만들기(8:36)
 
@@ -201,4 +201,4 @@ Bonferroni 보정이 적절히 적용된 [샘플 크기 계산기](https://docs.
 * Adobe Target에서 A/B 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=kor)
