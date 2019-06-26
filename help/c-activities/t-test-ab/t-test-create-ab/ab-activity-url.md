@@ -8,7 +8,7 @@ title: 활동 URL
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 [!UICONTROL 기본적으로 Visual Experience Composer] 는 [타겟 계정 기본 설정에 지정된 페이지를 엽니다](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
 
-[!UICONTROL 시각적 경험 작성기]가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성]** 톱니바퀴 아이콘을 클릭한 다음, **[!UICONTROL 페이지 전달]** 을 선택하십시오. [활동 URL] 필드에 URL을 입력합니다.
+[!UICONTROL 시각적 경험 작성기]가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성]** 톱니바퀴 아이콘을 클릭한 다음, **[!UICONTROL 페이지 전달]** 을 선택하십시오. 활동 URL 필드에 URL을 입력합니다.
 
 ![페이지 배달 대화 상자](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
