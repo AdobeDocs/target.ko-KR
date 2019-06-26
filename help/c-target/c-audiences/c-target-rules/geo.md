@@ -8,7 +8,7 @@ title: 지역 Adobe Target에서 타깃팅
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -49,7 +49,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ## 정확도 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-지리 기반의 타깃팅의 정확도는 몇 가지 요인에 의존합니다. WiFi 연결은 셀룰러 네트워크(무선 통신망)보다 더 정확합니다. 방문자가 셀룰러 데이터 연결을 사용하는 경우 지리적 위치 조회 정확성은 위치, [Deviceatlas](https://deviceatlas.com/device-data/user-agent-tester)와의 데이터 관계 및 기타 요인을 통해 영향을 받을 수 있습니다. 셀 타워 기반 네트워크 연결은 유선 또는 WiFi 연결보다 정확도가 떨어질 수 있습니다. 또한 방문자의 IP 주소는 자신의 ISP 위치에 매핑될 수 있으므로 방문자의 실제 위치와 동일하지 않을 수도 있습니다. 지리 [위치 API를 사용하여 일부 모바일 지리적 위치 문제를 해결할](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)수 있습니다.
+지리 기반의 타깃팅의 정확도는 몇 가지 요인에 의존합니다. WiFi 연결은 셀룰러 네트워크(무선 통신망)보다 더 정확합니다. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 셀 타워 기반 네트워크 연결은 유선 또는 WiFi 연결보다 정확도가 떨어질 수 있습니다. 또한 방문자의 IP 주소는 자신의 ISP 위치에 매핑될 수 있으므로 방문자의 실제 위치와 동일하지 않을 수도 있습니다. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 다음 표는 유선 또는 WiFi 인터넷 연결을 위한 [DigitalEnvoy](https://www.digitalelement.com/solutions/)의 IP 기반 지리 정보의 정확도를 보여줍니다. DigitalEnvoy는 해당 산업 분야의 보다 정확한 데이터를 제공합니다. 전역 정확도는 국가 수준에서 99.9%가 넘고, 구/군/시 수준에서는 최대 97%에 이릅니다. 정확도 정보는 셀 타워 기반 네트워크에 적용되지 않습니다.
 
@@ -115,7 +115,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 **모바일 장치에서 지리 기반의 타깃팅은 어떻게 작동합니까?**
 
-방대한 모바일 장치 사용자가 WiFi를 통해 컨텐츠에 액세스합니다. 즉, Target의 IP 기반, 지리 기반의 타깃팅이 데스크톱만큼 정확합니다. 기지국 기반의 연결은 방문자의 IP 주소가 신호를 선택하는 기지국을 기준으로 하므로 덜 정확할 수 있습니다. 지리 [위치 API를 사용하여 일부 모바일 지리적 위치 문제를 해결할](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)수 있습니다.
+방대한 모바일 장치 사용자가 WiFi를 통해 컨텐츠에 액세스합니다. 즉, Target의 IP 기반, 지리 기반의 타깃팅이 데스크톱만큼 정확합니다. 기지국 기반의 연결은 방문자의 IP 주소가 신호를 선택하는 기지국을 기준으로 하므로 덜 정확할 수 있습니다. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **지리 기능은 AOL에서 온 방문자를 어떻게 처리합니까?**
 
