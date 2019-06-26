@@ -7,8 +7,8 @@ solution: Target,Analytics
 title: 사용자 권한 요구 사항
 topic: Reports & Analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,13 +29,13 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 [!DNL Analytics] 및 [!DNL Target] 사용자 계정이 Adobe ID에 연결되어 있어야 합니다.
 
-자세한 내용은 [조직 및 계정 연결](https://docs.adobe.com/help/kr/core-services/interface/manage-users-and-products/organizations.html)을 참조하십시오.
+For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 ### Experience Cloud 그룹 멤버십 구성
 
 하나 이상의 [!DNL Experience Cloud] 그룹의 구성원으로서 [!DNL Analytics] 및 [!DNL Target]에 액세스할 수 있어야 합니다.
 
-자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://docs.adobe.com/content/help/kr/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
+For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
@@ -46,7 +46,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Analytics 기반 활동에 대한 보고서를 만들거나 보려면 **[!UICONTROL 모든 보고서 액세스]** 그룹의 구성원이거나, 사용할 보고서 세트에 있는 하나 이상의 보고서에 액세스할 수 있는 그룹의 구성원이어야 합니다. 보고서를 볼 수 없는 경우 이러한 그룹 중 하나에 소속된 구성원인지 확인하십시오.
 
-자세한 내용은 [제품 프로필 및 그룹](https://docs.adobe.com/content/help/kr/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)을 참조하십시오.
+For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
 ### 웹 서비스 액세스 그룹에 대한 액세스 구성
 
