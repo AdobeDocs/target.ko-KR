@@ -7,8 +7,8 @@ solution: Target
 title: 전환율
 topic: 고급,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ## 소매 데이터 {#section_30A674731BA6440E9BB93C421BE990EE}
 
-[주문](https://marketing.adobe.com/resources/help/ko_KR/target/ov/t_orderconfirm_create.html)(`orderConfirmPage`) mbox를 삽입하여 전환 mbox로 선택한 경우 각 경험에 대해 AOV, RPV 및 판매 데이터가 표시됩니다.
+[주문](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html)(`orderConfirmPage`) mbox를 삽입하여 전환 mbox로 선택한 경우 각 경험에 대해 AOV, RPV 및 판매 데이터가 표시됩니다.
 
 ## 신뢰 수준 및 신뢰 구간{#concept_0D0002A1EBDF420E9C50E2A46F36629B}의 &quot;Analytics for Target (A4T)에 사용할 오프라인 계산 수행&quot;을 참조하십시오 
 
@@ -127,7 +127,7 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 1. **[!UICONTROL 도구]** &gt; **[!UICONTROL Data Warehouse]** 를 클릭합니다.
 1. **[!UICONTROL 데이터 웨어하우스 요청]탭에서 필드를 채웁니다.**
 
-   각 필드에 대한 자세한 내용은 [Data Warehouse](https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse.html)의 &quot;Data Warehouse 설명&quot;을 참조하십시오.
+   각 필드에 대한 자세한 내용은 [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
 
    | 필드 | 지침 |
    |--- |--- |
@@ -147,8 +147,8 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 
 [!DNL Data Warehouse]에 대한 자세한 내용은 [!DNL Analytics] 도움말 설명서에서 다음 링크를 참조하십시오.
 
-* [Data Warehouse 요청 만들기](https://marketing.adobe.com/resources/help/ko_KR/reference/t_dw_create_request.html)
-* [Data Warehouse 우수 사례](https://marketing.adobe.com/resources/help/ko_KR/reference/data_warehouse_bp.html)
+* [Data Warehouse 요청 만들기](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
+* [Data Warehouse 우수 사례](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
 
 ## 계산 방법론{#concept_EC19BC897D66411BABAF2FA27BCE89AA}을 참조하십시오 
 
