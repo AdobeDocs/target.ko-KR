@@ -6,8 +6,8 @@ solution: Target
 title: Target의 개인화 알고리즘을 위해 데이터 업로드
 topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
