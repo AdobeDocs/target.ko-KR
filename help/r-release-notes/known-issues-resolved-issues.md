@@ -7,8 +7,8 @@ solution: Target
 title: 알려진 문제 및 해결된 문제
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 다음은 at.js의 알려진 문제입니다.
 
-* 페이지가 VEC(시각적 경험 작성기)에 로드되면 Target은 글로벌 mbox 설정이 활성화되었는지와, 사용자가 VEC에서 권장 사항을 적용하려고 하는 위치에 entityID 또는 categoryID가 있는지를 확인해야 합니다. 이 정보에 따라 기준 목록이 필터링됩니다. 기본 목록에는 필터링된 알고리즘이 있지만 [호환 확인란](https://marketing.adobe.com/resources/help/ko_KR/target/recs/t_algo_select_recs.html)을 사용하면 전체 알고리즘 목록을 볼 수 있습니다.
+* 페이지가 VEC(시각적 경험 작성기)에 로드되면 Target은 글로벌 mbox 설정이 활성화되었는지와, 사용자가 VEC에서 권장 사항을 적용하려고 하는 위치에 entityID 또는 categoryID가 있는지를 확인해야 합니다. 이 정보에 따라 기준 목록이 필터링됩니다. 기본 목록에는 필터링된 알고리즘이 있지만 [호환 확인란](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html)을 사용하여 전체 알고리즘 목록을 볼 수 있습니다.
 
    at.js를 사용하는 경우 호환성 확인란이 숨겨지므로 호환되지 않는 알고리즘을 볼 수 없습니다.
 
