@@ -1,25 +1,25 @@
 ---
-description: 'at. js에 대한 adobe. target. getoffer (options) 함수에 대한 정보입니다. '
+description: 'at.js에 대한 adobe.target.getOffers(options) 함수 정보입니다. '
 keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
-seo-description: . js JavaScript 라이브러리의 Adobe Target에 대한 Adobe. Target. getoffer (options) 함수에 대한 정보입니다.
-seo-title: . js JavaScript 라이브러리의 Adobe Target에 대한 Adobe. Target. getoffer (options) 함수에 대한 정보입니다.
+seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers(options) 함수 정보입니다.
+seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers(options) 함수 정보입니다.
 solution: Target
 subtopic: 시작하기
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# adobe. target. getoffer (options) - at. js 2. x
+# adobe.target.getOffers(options) - at.js 2.x
 
 이 함수를 사용하면 여러 mbox를 전달하여 여러 오퍼를 검색할 수 있습니다. 또한 활성 활동의 모든 보기에 대해 여러 오퍼를 검색할 수 있습니다.
 
 >[!NOTE]
 >
->이 함수는 at. js 2. x에서 소개되었습니다. 이 함수는. js 버전 1에서 사용할 수 없습니다.*x*에는 사용할 수 없습니다.
+>이 함수는 at.js 2.x에서 도입되었으며, at.js 버전 1.*x*에는 사용할 수 없습니다.
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
@@ -35,7 +35,7 @@ source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 | request &gt; id &gt; thirdPartyId | 아니오 | 최대 크기 = 128 |  |  |
 | 요청 &gt; Experiencecloud | 아니오 |  |  |
 | 요청 &gt; Experiencecloud &gt; 분석 | 아니오 |  | Adobe Analytics 통합 |
-| 요청 &gt; Experiencecloud &gt; Analytics &gt; 로깅 | 아니오 | 페이지에서 다음을 구현해야 합니다.<ul><li>방문자 ID 서비스</li><li>Appmeasurement. js</li></ul> | 다음 값이 지원됩니다.<br>**client_ side**: 이 값을 지정하면 Analytics 페이로드가 호출자에게 반환되어 데이터 삽입 API를 통해 Adobe Analytics로 보내야 합니다.<br>**server_ side**: Target 및 Analytics 백엔드가 보고를 통해 보고를 위해 호출을 연결하는 기본값입니다. |
+| 요청 &gt; Experiencecloud &gt; Analytics &gt; 로깅 | 아니오 | 페이지에서 다음을 구현해야 합니다.<ul><li>방문자 ID 서비스</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**: Target 및 Analytics 백엔드가 보고를 통해 보고를 위해 호출을 연결하는 기본값입니다. |
 | request &gt; prefetch | 아니오 |  |  |
 | request &gt; prefetch &gt; views | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨<br>허용되지 않는 이름: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | 활성 활동에서 적절한 보기를 검색하는 데 사용할 매개 변수를 전달합니다. |
 | request &gt; prefetch &gt; views &gt; profileParameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 프로필 매개 변수를 전달합니다. |
@@ -181,13 +181,13 @@ adobe.target.getOffers({
 }
 ```
 
-그런 다음 데이터 삽입 API를 통해 페이로드를 Adobe Analytics로 [전달할](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)수 있습니다.
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-## Getoffers () 및 applyoffers () 를 통해 여러 mbox의 데이터를 가져와 렌더링합니다. {#multiple}
+## getOffers() 및 applyOffers()를 통해 여러 mbox에서 데이터를 가져와 렌더링합니다. {#multiple}
 
-at. js 2. x를 사용하면 `getOffers()` API를 통해 여러 mbox를 가져올 수 있습니다. 여러 mbox에 대한 데이터를 가져온 다음 CSS 선택기로 식별된 다른 위치에서 데이터를 렌더링하는 데 사용할 `applyOffers()` 수도 있습니다.
+at.js 2.x를 사용하면 `getOffers()` API를 통해 여러 mbox를 가져올 수 있습니다. 여러 mbox에 대한 데이터를 가져온 다음 CSS 선택기에서 식별한 다른 위치에 데이터를 렌더링하는 데 `applyOffers()`를 사용할 수도 있습니다.
 
-다음 예는. js 2. x가 구현된 간단한 HTML 페이지를 보여줍니다.
+다음 예는 at.js 2.x가 구현된 간단한 HTML 페이지를 보여줍니다.
 
 ```
 <!DOCTYPE html>
@@ -207,7 +207,7 @@ at. js 2. x를 사용하면 `getOffers()` API를 통해 여러 mbox를 가져올
 </html>
 ```
 
-받은 컨텐츠를 통해 수정할 컨테이너가 3 개 있다고 [!DNL Target]가정합니다. 각 mbox가 각 컨테이너로 렌더링할 컨텐츠가 있는 세 개의 mbox에 대한 단일 요청을 구성할 수 있습니다.
+[!DNL Target]에서 받은 콘텐츠를 통해 수정할 컨테이너가 3개 있다고 가정합니다. 각 mbox에 각 컨테이너로 렌더링할 콘텐츠가 있는 세 개의 mbox에 대해 단일 요청을 구성할 수 있습니다.
 
 요청 및 렌더링 코드는 다음 예제와 비슷합니다.
 
@@ -252,12 +252,12 @@ adobe.target.getOffers({
 });
 ```
 
-`request > prefetch > mboxes` 이 섹션에는 세 개의 mbox가 있습니다. 요청이 성공적으로 완료되면, 각 mbox에 대한 응답을 받게 `response > prefetch > mboxes`됩니다. 응답 및 렌더링에 사용할 위치가 있으면, 검색된 컨텐츠를 `applyOffers()` 렌더링하도록 호출할 [!DNL Target]수 있습니다. 이 예제에서는 다음 매핑이 있습니다.
+`request > prefetch > mboxes` 섹션에는 세 개의 다른 mbox가 있습니다. 요청이 성공적으로 완료되면 `response > prefetch > mboxes`에서 각 mbox에 대한 응답을 받게 됩니다. 응답 및 렌더링에 사용할 위치가 있으면 [!DNL Target]에서 검색된 콘텐츠를 렌더링하도록 `applyOffers()`를 호출할 수 있습니다. 이 예에는 다음 매핑이 있습니다.
 
-* mbox 1 &gt; CSS 선택기 # container 1
-* mbox 2 &gt; CSS 선택기 # container 2
-* mbox 3 &gt; CSS 선택기 # container 3
+* mbox1 &gt; CSS selector #container1
+* mbox2 &gt; CSS selector #container2
+* mbox3 &gt; CSS selector #container3
 
-이 예에서는 count 변수를 사용하여 CSS 선택기를 구성합니다. 실제 시나리오에서는 CSS 선택기 및 mbox 간에 다른 매핑을 사용할 수 있습니다.
+이 예에서는 count 변수를 사용하여 CSS 선택기를 구성합니다. 실제 시나리오에서는 CSS 선택기와 mbox 간에 다른 매핑을 사용할 수 있습니다.
 
-이 예제는 사용하지만 `prefetch > mboxes``execute > mboxes`사용할 수도 있습니다. 에서 `getOffers()`Prefetch를 사용하는 경우 `applyOffers()` 호출에서 Prefetch를 사용해야 합니다.
+이 예제에서는 `prefetch > mboxes`를 사용하지만 `execute > mboxes`를 사용할 수도 있습니다. `getOffers()`에서 미리 가져오기 작업을 실행하는 경우 `applyOffers()` 호출에서도 미리 가져오기 작업을 실행해야 합니다.
