@@ -8,7 +8,7 @@ title: 목표 및 설정
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -68,7 +68,7 @@ source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 Target의 보고 소스로 Analytics를 선택하는 경우 Target 활동 데이터를 수신할 Analytics 보고서 세트를 선택합니다. 이렇게 하려면 먼저 사용자 계정이 연결된 Analytics 회사 중에서 선택한 다음 활동에 대한 보고서 세트를 선택합니다. Adobe Target에 연결하기 위해 제공된 보고서 세트만 선택할 수 있습니다. 예상하는 보고서 세트가 표시되지 않으면 먼저 Adobe Experience Cloud에서 로그아웃했다가 다시 로그인한 후 다시 시도하십시오. 보고서 세트가 목록에 여전히 표시되지 않으면 고객 지원 센터에 문의하십시오.
 
-A4T(Analytics for Target)를 위해서는 결과를 올바르게 보고하기 위한 추적 서버가 필요합니다. 기본 추적 서버가 추적 서버 필드에 표시됩니다. 둘 이상의 추적 서버를 사용하는 경우 이 필드에 올바른 추적 서버가 포함되어 있는지 확인해야 합니다. 자세한 내용은 [Analytics 추적 서버 사용](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
+A4T(Analytics for Target)를 위해서는 결과를 올바르게 보고하기 위한 추적 서버가 필요합니다. 기본 추적 서버가 추적 서버 필드에 표시됩니다. 둘 이상의 추적 서버를 사용하는 경우 이 필드에 올바른 추적 서버가 포함되어 있는지 확인해야 합니다. 각 유형의 대상 규칙을 구성하는 방법에 대한 자세한 내용은 [Analytics 추적 서버 사용](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
 
 계정 설정에 보고 솔루션이 지정되어 있으면 지정된 솔루션이 사용되며 이 설정은 표시되지 않습니다.
 
