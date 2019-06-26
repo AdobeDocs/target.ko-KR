@@ -6,8 +6,8 @@ seo-title: Target에서 클라우드 기반 인스턴스 사용
 solution: Target
 title: Target에서 클라우드 기반 인스턴스 사용
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 `azurewebsites.net`, `cloudapp.net`, `amazonaws.com`, `cloudfront.net`, `herokuapp.com` 또는 `firebaseapp.com`
 
-이러한 도메인 및 기타 많은 다른 도메인은 [공용 접미사 목록](https://publicsuffix.org/list/public_suffix_list.dat)에 나와 있습니다.
+이러한 도메인 및 기타 많은 다른 도메인이 [공용 접미사 목록](https://publicsuffix.org/list/public_suffix_list.dat)에 나와 있습니다.
 
 **문제:** 최신 브라우저에서는 이러한 도메인을 사용하는 경우 쿠키를 저장하지 않습니다.
 
