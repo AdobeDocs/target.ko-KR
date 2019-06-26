@@ -8,8 +8,8 @@ subtopic: 다변량 테스트
 title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -30,7 +30,7 @@ Target에서 Analytics 데이터를 사용하는 세 가지 기본 이점은 다
 
 >[!IMPORTANT]
 >
->A4T를 사용하려면 먼저 계정을 통합용으로 공급하도록 요청해야 합니다. [이 양식](https://www.adobe.com/go/audiences_kr)을 사용하여 제공을 요청하십시오.
+>A4T를 사용하려면 먼저 계정을 통합용으로 공급하도록 요청해야 합니다. [이 양식](https://www.adobe.com/go/audiences)을 사용하여 제공을 요청합니다.
 >
 >Adobe Analytics를 Adobe Target(A4T)의 데이터 소스로 활성화하는 통합은 차세대 Test&amp;Target - SiteCatalyst 플러그인을 나타냅니다. 이 플러그인은 더 이상 사용되지 않지만 이미 사용 중인 경우에는 계속 지원됩니다.
 
@@ -66,12 +66,12 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 | 다변량 테스트(MVT) | 예 | 요소 기여도 보고서를 가져오기 위해 mbox 기반 목표 지표 목표를 필요로 합니다.  요소 기여도 보고서는 현재 Analytics 지표를 지원하지 않습니다. |
 | 자동화된 개인화(AP) 활동 | 아니오 |  |
 | 권장 사항 활동 | 예 |  |
-| 모바일 앱 | 예 | Mobile Services SDK 버전 4.13.1 이상에서 지원됩니다.  자세한 내용은 [Mobile Services 설명서](https://marketing.adobe.com/resources/help/ko_KR/mobile/)를 참조하십시오. |
+| 모바일 앱 | 예 | Mobile Services SDK 버전 4.13.1 이상에서 지원됩니다.  자세한 내용은 [Mobile Services 설명서](https://marketing.adobe.com/resources/help/en_US/mobile/)를 참조하십시오. |
 | 이메일 | 아니오 |  |
 | 서버 측 배달 API | 예 | 자세한 내용은 [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)을 참조하십시오. |
 | NodeJS SDK | 예 | 자세한 내용은 [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)을 참조하십시오. |
 | AEM 6.1(또는 이하) 클라우드 서비스 통합 | 아니오 |  |
-| AEM 6.2(또는 이상 버전) 클라우드 서비스 통합 | 예 | 자세한 내용은 Adobe Experience Manager 6.2 설명서에서 [Adobe Target과 통합](https://helpx.adobe.com/kr/experience-manager/6-2/sites/administering/using/target.html)을 참조하십시오. |
+| AEM 6.2(또는 이상 버전) 클라우드 서비스 통합 | 예 | 자세한 내용은 Adobe Experience Manager 6.2 설명서에서 [Adobe Target과 통합](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)을 참조하십시오. |
 | 리디렉션 오퍼를 사용하는 모든 활동 | 예 | A4T에서 리디렉션 오퍼를 사용하기 위한 보다 엄격한 최소 요구 사항이 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오. |
 | Node.JS | 예 |  |
 
@@ -103,7 +103,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 
 ## Analytics &amp; Target: 분석 우수 사례 자습서 {#section_3438E6E77A464424B717A4FD333B84B2}
 
-Adobe Experience League에서 제공한 [Analytics 및 Target: 분석 우수 사례](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) 자습서를 여십시오.
+Adobe Experience League에서 제공하는 [Analytics &amp; Target: 분석 우수 사례](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) 자습서를 엽니다.
 
 ## 교육 비디오:
 
@@ -117,7 +117,7 @@ Adobe Experience League에서 제공한 [Analytics 및 Target: 분석 우수 사
 * A4T의 작동 방식에 대해 설명합니다.
 * A4T를 사용하기 위해 필요한 전제 조건을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17384)
+>[!VIDEO](https://video.tv.adobe.com/v/17384?captions=kor)
 
 ### Analytics/Target 통합(A4T)(40:33)
 
@@ -128,4 +128,4 @@ Adobe Experience League에서 제공한 [Analytics 및 Target: 분석 우수 사
 * Analytics에서 사용할 이상적인 보고서에 대해 알아보기
 * A4T와 관련된 일반적인 질문에 대한 답변
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
+>[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=kor)
