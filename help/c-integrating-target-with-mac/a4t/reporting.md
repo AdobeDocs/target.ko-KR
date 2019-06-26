@@ -8,8 +8,8 @@ subtopic: 다변량 테스트
 title: A4T 보고
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Analytics를 Target(A4T)의 보고 소스로 사용하면 Target 활동에 대�
 
 Analytics와 Target Standard/Premium 둘 다에서 활동의 보고서를 볼 수 있습니다.
 
-Analytics for Target을 사용하는 보고 우수 사례가 필요하면 [이 Adobe Spark 페이지를 방문해 보십시오](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Analytics for Target을 사용하는 보고 우수 사례를 확인하려면 [Adobe Spark 페이지](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)를 방문하십시오.
 
 ## 개요 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -45,7 +45,7 @@ Analytics에서 Target 활동의 결과를 살펴보려면 Target 활동 보고�
 
 >[!NOTE]
 >
->Target 향상도 및 신뢰도 세부 정보도 Analytics에서 사용할 수 있습니다. 자세한 내용은 Adobe Analytics 제품 설명서에서 [Target 향상도 및 신뢰도 보고서 유형](https://marketing.adobe.com/resources/help/ko_KR/reference/report_target_lift_confidence.html)을 참조하십시오.
+>Target 향상도 및 신뢰도 세부 정보도 Analytics에서 사용할 수 있습니다. 자세한 내용은 Adobe Analytics 제품 설명서에서 [Target 상승도 및 신뢰도 보고서 유형](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html)을 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Analytics를 보고 소스로 사용하면 Target Standard의 보고서는 Analy
 
 [!DNL Adobe Analysis Workspace]를 사용하여 데이터를 보다 깊이 있게 분석하고 그 이면에 대한 통찰력을 얻을 수 있습니다.
 
-자세한 내용 및 예를 보려면 Adobe Experience League에서 제공한 [Analytics &amp; Target: 분석 우수 사례 자습서](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)를 여십시오.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
 ## 활동 만들기 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
