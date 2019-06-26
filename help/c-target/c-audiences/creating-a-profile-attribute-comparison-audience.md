@@ -8,14 +8,14 @@ title: 프로필 속성 비교 대상 만들기
 topic: 고급,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # 프로필 속성 비교 대상 만들기{#create-a-profile-attribute-comparison-audience}
 
-대상을 정의하여 [대상 라이브러리](/help/c-target/c-audiences/audiences.md) 또는 [활동 전용 대상의 두 프로필 속성을 비교할](/help/c-target/creating-activity-only-audience.md)수 있습니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
+Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
 
 >[!NOTE]
 >
