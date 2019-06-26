@@ -8,7 +8,7 @@ title: Target 최적화 및 개인화 FAQ
 topic: 고급
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -111,7 +111,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 **타깃팅 단계만 변경하고, 안내가 있는 전체 3단계 워크플로우(편집용)는 거치지 않을 수 있습니까?**
 
-[활동 개요 페이지에서 원하는 단계를 직접 입력](../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)한 후 [저장] 및 [닫기] 선택 사항으로 해당 단계를 종료하여 쉽게 수행할 수 있습니다.
+[활동 개요 페이지에서 원하는 단계를 직접 입력](../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0)한 후 저장 및 닫기 선택 사항으로 해당 단계를 종료하여 쉽게 수행할 수 있습니다.
 
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
