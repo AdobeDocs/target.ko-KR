@@ -8,7 +8,7 @@ title: mbox.js에서 at.js로 마이그레이션
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리�
 >
 >FP-11577을 사용하는 Adobe Experience Manager(AEM) 6.2(또는 이상)에서는 Adobe Target 클라우드 서비스 통합을 통해 at.js 구현을 지원합니다. 자세한 내용은 *Adobe Experience Manager 6.2* 설명서에서 [기능 팩](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) 및 [Adobe Target과 통합](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)을 참조하십시오.
 
-## at. js의 이점 {#benefits}
+## Benefits of at.js {#benefits}
 
 다음 표는 두 라이브러리의 차이점에 대해 설명합니다.
 
@@ -71,4 +71,4 @@ at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리�
 * 디버깅 방법론
 * 알려진 문제 및 향후 로드맵
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/)
+>[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=kor)
