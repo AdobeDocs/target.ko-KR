@@ -8,7 +8,7 @@ title: Target 문제 해결
 topic: 고급,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 * [Target 최적화 및 개인화 FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [활동 문제 해결](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟](AT)
+### [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] (AT)
 
 * [9가지 공통 A/B 테스트의 문제점 및 이러한 문제점을 방지하는 방법](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)을 참조하십시오
 * [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
