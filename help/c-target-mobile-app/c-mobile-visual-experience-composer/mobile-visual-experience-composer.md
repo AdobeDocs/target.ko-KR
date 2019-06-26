@@ -7,7 +7,7 @@ title: 모바일 앱 시각적 경험 작성기
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 ---
 
@@ -79,7 +79,7 @@ VEC에서 수행한 작업은 앱에서 실시간으로 표시되므로 작성 �
 
 새 앱 버전이 감지되면 앱 버전이 타깃팅된 버전 목록에 추가되었다는 알림을 받게 됩니다.
 
-![새로운 앱 알림](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification.png)
+![새로운 앱 알림](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
