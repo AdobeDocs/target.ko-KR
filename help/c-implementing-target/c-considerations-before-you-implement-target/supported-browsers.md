@@ -9,7 +9,7 @@ title: 지원되는 브라우저
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ TLS에 대한 추가적으로 중요한 정보는 [TLS(전송 계층 보안) 암
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome(최신, 최신 버전-1)</li><li>Mozilla Firefox(최신, 최신 버전-1)</li></ul> |
 | Mac | <ul><li>Firefox(최신, 최신 버전-1)</li><li>Chrome(최신, 최신 버전-1)</li></ul> |
 
-## 컨텐츠 전달 {#section_1045A946056441268D40025529918D3D}
+## Content delivery {#section_1045A946056441268D40025529918D3D}
 
 컨텐츠 전달은 다음 브라우저 및 장치에서 테스트되었습니다.
 
