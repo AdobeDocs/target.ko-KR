@@ -7,7 +7,7 @@ solution: Target
 title: 네트워크
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
-다음 그림은 AT &amp; T를 사용하여 모바일의 [!UICONTROL 연결 속도를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다].
+The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
 
 ![네트워크 타겟](assets/target_network.png)
 
