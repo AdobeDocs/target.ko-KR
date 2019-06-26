@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
@@ -32,6 +32,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 |  | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 컨트롤에 사용할 특정 경험을 지정하는 방법에 대한 정보 및 FAQ가 추가되었습니다.<br>&quot; 트래픽 할당 결정 &quot;섹션이 업데이트되었습니다. |
 |  | [자동화된 개인화 활동 만들기](/help/c-activities/t-automated-personalization/create-ap-activity.md) | 특정 경험을 기본값으로 선택하는 정보가 있는 단계가 추가되었습니다. |
 |  | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 여러 모바일 앱 버전을 관리하는 방법에 대한 정보가 추가되었습니다. |
+|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | 이전에 구입한 항목 권장 사항 키에 대한 정보가 추가되었습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 19.6.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 19.5.1(2019년 5월 21일) {#tgt-19-5-1}
@@ -93,10 +94,10 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 |  | [iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md#tutorial) | 새 자습서에 대한 링크가 추가되었습니다.<ul><li>Mobile iOS Objective-C 응용 프로그램에서 Experience Cloud 구현</li><li>Mobile iOS Swift 애플리케이션에서 Experience Cloud 구현</li></ul> |
 |  | [Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#tutorial) | 새 자습서에 대한 링크가 추가되었습니다.<ul><li>모바일 Android 애플리케이션에서 Experience Cloud 구현</li></ul> |
 |  | [ Target 소개](/help/c-intro/intro.md#kit) | Adobe Target 시작 키트에 대한 링크가 추가되었습니다. |
-| 2019년 5월 21일 | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>&quot; 이동 &quot;옵션에 대한 정보가 업데이트되었습니다.</li><li>VEC에 페이지가 로드되기 전에 또는 페이지를 완전히 로드하지 못한 경우에도 많은 작업을 수행할 수 있다는 참고가 추가되었습니다. </li></ul> |
-|  | [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Udated Text, Updated Images 및 Added Training Video. |
-|  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 오래된 텍스트 및 이미지. |
-|  | [제한](/help/r-troubleshooting-target/target-limits.md) | 고객 속성 별칭 ID에 대한 문자 제한을 추가했습니다. |
+| 2019년 5월 21일 | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>&quot;이동&quot; 옵션에 대한 정보가 업데이트되었습니다.</li><li>VEC에 페이지가 로드되기 전에 또는 페이지를 완전히 로드하지 못한 경우에도 여러 작업을 수행할 수 있다는 참고가 추가되었습니다. </li></ul> |
+|  | [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 텍스트 및 이미지가 업데이트되고, 교육 비디오가 추가되었습니다. |
+|  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 텍스트와 이미지가 업데이트되었습니다. |
+|  | [제한](/help/r-troubleshooting-target/target-limits.md) | 고객 속성 앨리어스 ID에 대한 문자 제한이 추가되었습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 19.5.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 19.4.2(2019년 4월 30일) {#target-19-4-2}
@@ -116,7 +117,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 | 2019년 5월 9일 | [A4T 보고](/help/c-integrating-target-with-mac/a4t/reporting.md#reports-in-analysis-workspace) | 섹션: &quot;Analysis Workspace의 보고서&quot;가 새로 추가되었습니다. |
 |  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | FAQ: &quot;Adobe Analysis Workspace에서 내 Target 활동 데이터를 볼 수 있습니까?&quot;가 새로 추가되었습니다. |
 |  | [Enterprise 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md#faqs) | FAQ: &quot;리디렉션 페이지 및 활동 URL이 다른 속성에 속하는 경우 클릭 추적 전환이 기록됩니까?&quot;가 새로 추가되었습니다. |
-| 2019년 5월 8일 | [Adobe Target Standard 및 Premium 교육 비디오](/help/c-intro/target-standard-premium-training-videos.md) | 콘텐츠 및 링크가 업데이트되었습니다. |
+| 2019년 5월 8일 | [Adobe Target Standard 및 Premium 교육 비디오](/help/c-intro/target-standard-premium-training-videos.md) | 컨텐츠 및 링크가 업데이트되었습니다. |
 |  | [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md) | `entity.id` 변수 아래에 있는 메모의 텍스트가 업데이트되었습니다. |
 | 2019년 5월 1일 | [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md) | 다음 변수 이름에서 대소문자가 수정되었습니다.<br>`pageURL`이 `pageUrl`로 변경되었습니다.<br>`thumbnailURL`이 `thumbnailUrl`로 변경되었습니다. |
 | 2019년 4월 30일 | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오 | <ul><li>섹션: &quot;스타일&quot;이 새로 추가되었습니다.</li><li>중첩할 수 있는 HTML5 태그가 나열된 표가 추가되었습니다.</li></ul> |
@@ -156,9 +157,9 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 |  | [활동 QA 북마클릿](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 활동 QA 북마클릿에 대한 JavaScript 코드가 업데이트되었습니다. |
 |  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target 19.4.1 및 Target 19.4.2 릴리스에 대한 사전 릴리스 노트가 업데이트되고, 둘 다 2019년 4월로 예약되었습니다. |
 | 2019년 4월 4일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target 19.4.1 및 Target 19.4.2 릴리스에 대한 사전 릴리스 노트가 추가되고, 둘 다 2019년 4월로 예약되었습니다. |
-| 2019년 3월 30일 | [제한](/help/r-troubleshooting-target/target-limits.md#excludedid) | `excludedID` mbox 매개 변수 제한에 대한 정보가 추가되었습니다. |
+| 2019년 30월 3일 | [제한](/help/r-troubleshooting-target/target-limits.md#excludedid) | `excludedID` mbox 매개 변수 제한에 대한 정보가 추가되었습니다. |
 | 2019년 29월 3일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 알려진 문제: &quot;SPA(단일 페이지 애플리케이션) 웹 사이트의 경우 로드를 취소하면 [!UICONTROL 수정 사항] 패널에서 작업을 편집할 수 없습니다.&quot;가 추가되었습니다.<br>알려진 문제: &quot;Adobe I/O에서 v1 버전의 오퍼 API는 Target을 통해 생성된 모든 오퍼를 기본 작업 공간에 있는 것으로 처리합니다.&quot;가 해결된 문제 섹션으로 이동되었습니다. |
-| 2019년 28월 3일 | [VEC(시각적 경험 작성기)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>[VEC 내에서 페이지 로드 취소](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[페이지를 로드하는 동안 또는 페이지 로드가 실패한 후 페이지 편집](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading)</li></ul> |
+| 2019년 28월 3일 | [VEC(시각적 경험 작성기)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>[VEC 내에서 페이지 로드 취소.](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#cancel-loading)</li><li>[페이지를 로드하는 동안 또는 페이지 로드가 실패한 후 페이지 편집](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md#loading).</li></ul> |
 |  | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md) | 새 섹션: &quot;[DOM 경로를 사용하여 요소 탐색](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)&quot; |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#cancel) | VEC 내에서 페이지 로드를 취소한 경우에 대해 현재 알려진 문제가 추가되었습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 19.3.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
@@ -187,14 +188,14 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 | 2019년 11월 3일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md),<br>[Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) 및 <br>[TLS(전송 계층 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS가 **2019년 4월 1일** 에 변경됨을 나타내도록 텍스트가 업데이트되었습니다. |
 |  | [adobe.target.getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 섹션: &quot;getOffers() 및 applyOffers()를 통해 여러 mbox에서 데이터를 가져와 렌더링합니다.&quot;가 추가되었습니다. |
 | 2019년 6월 3일 | [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | at.js 2.x 페이로드 매핑&quot; 표에 &quot;at.js 1.x 매개 변수에 대한 at_property 행이 추가되었습니다. |
-|  | [단일 페이지 애플리케이션 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | 섹션: &quot;TriggerView를 사용하여 A4T가 at.js 2.x 및 SPAs 에서 올바르게 작동하는지 확인&quot;이 새로 추가되었습니다. |
+|  | [단일 페이지 애플리케이션 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md) | 섹션: &quot;TriggerView를 사용하여 A4T가 at.js 2.x 및 SPA에서 올바르게 작동하는지 확인&quot;이 새로 추가되었습니다. |
 | 2019년 4월 3일 | [Recommendations Classic 설명서](/help/c-recommendations/recommendations-classic-documentaton.md) | 새 주제입니다.  |
 |  | [권장 사항 Classic과 Target Premium의 권장 사항 활동 비교](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md) | 오퍼로 권장 사항에 대한 정보가 추가되었습니다. |
 | 2019년 28월 2일 | [활동](/help/c-activities/activities.md) | 텍스트와 이미지를 업데이트했습니다. |
 |  | [ Target 소개](/help/c-intro/intro.md) | &quot;Target Premium&quot; 아래에 &quot;오퍼로서의 Recommendations&quot;가 추가되었습니다. |
 |  | [Target 주요 개념](/help/c-intro/target-key-concepts.md) | &quot;활동 유형&quot; 표가 업데이트되었습니다. |
 | 2019년 26월 2일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | Target API에 엔터프라이즈 권한 지원에 대해 알려진 문제가 추가되었습니다. |
-| 2019년 25월 2일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md),<br>[Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) 및 <br>[TLS(전송 계층 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 다음 정보가 업데이트됨:<br> 2019년 2월 20일, EMEA, 일본 및 APAC 지역에서 Adobe Target 인프라가 업그레이드되어 더 이상 TLS 1.1 이상을 지원하지 않는 이전 장치나 웹 브라우저를 사용자는 최종 사용자의 데이터를 수집하지 않습니다. 북미 지역에 대해서도 이러한 동일한 업그레이드가 **2019년 3월 4일** 에 예정되어 있습니다. TLS 1.2로 마이그레이션하면 보안이 강화됩니다. 세부 사항을 살펴보고 원활한 전환을 위한 변경을 계획하는 것이 중요합니다. |
+| 2019년 25월 2일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md), <br>[Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) 및 <br>[TLS(전송 계층 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 다음 정보가 업데이트됨:<br> 2019년 2월 20일, EMEA, 일본 및 APAC 지역에서 Adobe Target 인프라가 업그레이드되어 더 이상 TLS 1.1 이상을 지원하지 않는 이전 장치나 웹 브라우저를 사용자는 최종 사용자의 데이터를 수집하지 않습니다. 북미 지역에 대해서도 이러한 동일한 업그레이드가 **2019년 3월 4일** 에 예정되어 있습니다. TLS 1.2로 마이그레이션하면 보안이 강화됩니다. 세부 사항을 살펴보고 원활한 전환을 위한 변경을 계획하는 것이 중요합니다. |
 |  | [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#payload-mapping) | 섹션: &quot;at.js 1.x 매개 변수를 at.js 2.x 페이로드에 매핑&quot;이 새로 추가되었습니다. |
 |  | [고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 허용 목록에 IP 주소에 대한 &quot;호스트 이름&quot; 열이 추가되었습니다. |
 | 2019년 22월 2일 | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | &quot;작업 공간 ID 얻기&quot; 섹션이 추가되었습니다. |
