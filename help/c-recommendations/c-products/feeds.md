@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -97,7 +97,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >Google 데이터를 사용할 필요는 없습니다. [!DNL Recommendations]에서는 Google과 동일한 형식을 사용합니다. 이 방법을 사용하여 보유하고 있는 데이터를 업로드하고 사용 가능한 예약 기능을 이용할 수 있습니다. 하지만 파일을 설정할 때에는 Google의 사전 정의된 속성 이름을 보유하고 있어야 합니다.
 
-많은 소매점의 경우 제품을 Google에 업로드하여, 방문자가 Google 제품 검색을 사용할 때 제품이 나타나도록 합니다. [!DNL Recommendations]는 정확히 개체 피드에 대해 Google의 사양을 따릅니다. 개체 피드는 [!DNL .xml], [!DNL .txt] 또는 [!DNL .tsv]를 통해 [!DNL Recommendations]로 전송될 수 있으며, [Google에 의해 정의된 특성](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US)을 사용할 수 있습니다. 결과는 [Google 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
+많은 소매점의 경우 제품을 Google에 업로드하여, 방문자가 Google 제품 검색을 사용할 때 제품이 나타나도록 합니다. [!DNL Recommendations]는 정확히 개체 피드에 대해 Google의 사양을 따릅니다. Entity feeds can be sent to [!DNL Recommendations] via [!DNL .xml], [!DNL .txt], or [!DNL .tsv], and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). 결과는 [Google 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
 
 >[!NOTE]
 >
@@ -188,7 +188,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Analytics 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 *Analytics 도움말 및 참조* 안내서의 [분류](https://marketing.adobe.com/resources/help/ko_KR/reference/classifications.html)를 참조하십시오. 권장 사항에서 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용자 안내서를 따르십시오.
+Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 *Analytics 도움말 및 참조* 안내서의 [분류](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)를 참조하십시오. 권장 사항에서 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용자 안내서를 따르십시오.
 
 >[!IMPORTANT]
 >
