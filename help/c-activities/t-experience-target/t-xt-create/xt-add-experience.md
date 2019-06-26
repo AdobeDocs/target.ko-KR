@@ -8,24 +8,24 @@ title: '경험 만들기 '
 topic: 고급,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# 경험 만들기{#create-experience}
+# Create experience{#create-experience}
 
 Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 
 1. 변경할 요소를 선택하고 원하는 대로 변경합니다.
 
-   XT 활동을 [](/help/c-activities/t-experience-target/t-xt-create/xt-create.md)만드는 동안 세 부분으로 구성된 안내 워크플로우 (경험) 중 하나를 선택하면 모든 방문자 대상의 기본 [!UICONTROL 경험 A][!UICONTROL 가] 표시됩니다.
+   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow (Experiences) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
 
    ![모든 방문자 대상](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   이제 모든 변경 사항이 경험 A에 적용됩니다. 아래 단계에서 경험 타깃팅을 **[!UICONTROL 추가하여]** 추가 경험을 만듭니다.
+   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
-   페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 vec를 사용하여 변경할 수 있습니다. 경험을 변경하기 위해 요소에 대해 수행할 수 있는 작업 목록은 [Visual Experience Composer 옵션을 참조하십시오](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 vec를 사용하여 변경할 수 있습니다. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
    Target Classic(이전의 Test&amp;Target)을 사용하여 페이지에서 mbox를 만든 경우 해당 mbox가 mbox 이름을 나타내는 요소로 표시되며, 다른 요소와 같이 수정할 수 있습니다.
 
@@ -33,11 +33,11 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
    >
    >기본적으로, 시각적 경험 작성기에서는 회전 배너 등과 같은 JavaScript가 포함된 요소를 변경할 수 없습니다. vec를 사용하여 이러한 요소를 변경할 수 있게 하려면 JavaScript를 비활성화할 수 있습니다.
 
-1. 추가 경험을 만들려면 **[!A, DD 경험 타깃팅을 클릭합니다]**.
+1. To create additional experiences, click **[!Add Experience Targeting]**.
 
    ![경험 타깃팅 링크 추가](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   대상자 [!UICONTROL 선택] 대화 상자가 표시됩니다. 경험을 추가하려면 경험을 추가하려면 먼저 대상을 선택해야 합니다.
+   The [!UICONTROL Choose Audience] dialog box displays. 경험을 추가하려면 경험을 추가하려면 먼저 대상을 선택해야 합니다.
 
    대상 라이브러리에는 Target의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나 [새 대상을 만들 수 있습니다](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
@@ -51,7 +51,7 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
    >
    >대상 목록을 연 상태에서 가져온 대상이 10분 이상 오래되면 배경에서 자동으로 대상을 가져옵니다.
 
-1. 경험을 타게팅할 대상을 한 명 이상 선택하고 **[!UICONTROL 완료를 클릭합니다]**.
+1. Select one or more audiences to target with the experience, then click **[!UICONTROL Done]**.
 
    ![경험 B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
@@ -61,7 +61,7 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
 1. 필요에 따라 위의 단계를 반복하여 타깃팅된 추가 경험을 만듭니다.
 
-1. 경험 **[!UICONTROL 디자인을]** 마치면 다음을 클릭합니다.
+1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
 
    활동 다이어그램이 표시됩니다.
 
@@ -85,7 +85,7 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
 ## 경험 이름 변경 또는 편집
 
-XT 활동의 한 경험에 [!UICONTROL 대해 편집] 아이콘 (세 개의 수직 줄임표) 를 클릭하고 필요에 따라 다음 옵션 중에서 선택할 수 있습니다.
+You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
 
 * 이름 변경
 * 편집
