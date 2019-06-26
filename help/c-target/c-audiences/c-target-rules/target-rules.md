@@ -7,7 +7,7 @@ solution: Target
 title: 대상의 카테고리
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 조건을 추가하거나 다른 카테고리에 추가 규칙을 만들어 규칙을 더욱 구체화할 수 있습니다. 예를 들어 Google에서 사이트에 액세스한 샌프란시스코의 Firefox 사용자만 타깃팅하려면 [!UICONTROL 지역] 카테고리를 설정하여 샌프란시스코의 사용자를 타깃팅하고, [!UICONTROL 방문자 행동] 카테고리를 Firefox로 타깃팅하고 [!UICONTROL 트래픽 소스] 카테고리를 Google로 타깃팅합니다. 전체 카테고리에서 만든 모든 규칙이 &quot;AND&quot;로 결합됩니다. 카테고리 간에 &quot;OR&quot; 연산을 포함하는 복잡한 타깃팅 규칙을 만들려면 표현식 타겟을 만드십시오.
 
-사용자 지정 프로필 매개 변수와 `user.` 매개 변수를 타깃팅할 수도 있습니다. 대상을 추가할 때 **[!UICONTROL 방문자 프로필을]** 클릭한 다음, 활동 타깃팅에 사용할 매개 변수를 선택합니다. 원하는 매개 변수가 나타나지 않는다면 mbox가 해당 매개 변수를 실행하지 않은 것입니다. 다른 사용자 지정 mbox 매개 변수는 [!UICONTROL 사용자 지정 매개 변수] 드롭다운 목록에서 사용할 수 있습니다.
+사용자 지정 프로필 매개 변수와 `user.` 매개 변수를 타깃팅할 수도 있습니다. When adding an audience, click **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. 원하는 매개 변수가 나타나지 않는다면 mbox가 해당 매개 변수를 실행하지 않은 것입니다. 다른 사용자 지정 mbox 매개 변수는 [!UICONTROL 사용자 지정 매개 변수] 드롭다운 목록에서 사용할 수 있습니다.
 
 검색 상자를 사용하여 [!UICONTROL 대상] 목록을 검색하십시오. 대상 이름의 일부를 검색하거나 특정 문자열을 따옴표로 묶을 수 있습니다.
 
