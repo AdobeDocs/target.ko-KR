@@ -8,7 +8,7 @@ title: A4T를 사용하지 않을 때 예상되는 데이터 분산
 topic: 고급
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -28,6 +28,10 @@ A4T를 사용하면 활동에 대한 Analytics 및 Target 보고는 모두 Analy
    트래픽을 50/50(또는 25/25/25/25 등)으로 분할하도록 리디렉션 테스트가 Target에 설정된 경우 사용자 행동이 균일하게 나누어지지 않을 수 있습니다. 불규칙한 분할이 표시되는 경우, 한 사용자 그룹이 랜딩 페이지에서 다른 그룹이 했던 것보다 Analytics 호출을 더 많이 실행하지 못했음을 의미합니다. 한 그룹에 대한 Analytics 호출을 실행하지 못하면 해당 사용자에 대한 Target 히트가 제외되어 불일치가 생성됩니다.
 
    향후 Adobe Experience Platform에서 A4T를 사용할 때 해결되기를 바라는 문제입니다. Adobe 팀은 페이지에서 서로 다른 시간에 발생하는 이러한 여러 이벤트를 처리할 최선의 방법을 모색하고 있습니다.
+
+   >[!NOTE]
+   >
+   >A 4 T에서 리디렉션을 사용하는 제한된 수의 고객이 더 높은 백분율의 백분율 비율을 볼 수 있는 알려진 문제가 해결되었습니다. [알려진 문제 및 해결된 문제를 참조하십시오](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * 모든 방문자에게 특정 페이지를 공개하는 자동 할당 활동을 만든다고 가정합니다. 자동 할당 활동은 A4T를 지원하지 않으므로 모든 활동 데이터를 [!DNL Target]에서 수집합니다. [!DNL Target] 보고의 활동 방문자가 동일한 기간에 대한 [!DNL Analytics] 보고에서 해당 페이지 방문자와 일치해야 한다고 예상할 수도 있습니다. 이 시나리오에서는 아래에 설명된 분산이 예상됩니다.
 
