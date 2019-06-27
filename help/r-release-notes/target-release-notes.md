@@ -1,5 +1,5 @@
 ---
-description: 이러한 릴리스 노트는 최신 또는 예정된 타겟 릴리스의 기능, 향상된 기능, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
+description: 이러한 릴리스 노트는 최신 또는 예정된 Adobe Target 릴리스의 기능, 향상된 기능, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
 keywords: 릴리스 노트
 seo-description: 이러한 릴리스 노트는 최신 또는 예정된 Adobe Target 릴리스의 기능, 향상된 기능, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다
 seo-title: Adobe Target 릴리스 노트 (베타 버전)
@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 ---
 
