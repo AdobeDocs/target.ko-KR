@@ -2,13 +2,13 @@
 description: 이 Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 keywords: 알려진 문제;해결된 문제;릴리스 노트
 seo-description: 이 Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
-seo-title: 알려진 문제 및 해결된 문제
+seo-title: Adobe Target의 알려진 문제 및 해결된 문제
 solution: Target
 title: 알려진 문제 및 해결된 문제
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -24,6 +24,14 @@ source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
+
+### 리디렉션 오퍼 {#redirect}
+
+다음은 리디렉션 오퍼에 대한 알려진 문제입니다.
+
+* 일부 상황에서, Target (A 4 T) 용 Analytics로 구성된 활동에서 리디렉션 오퍼를 사용할 때 제한된 수의 고객이 트래픽 분포에서 더 높은 변화를 보고했습니다. Adobe 엔지니어는 현재 이 문제를 해결하기 위해 노력하고 있습니다.
+* 페이지에서 경합 조건을 사용하면 원래 페이지 및 리디렉션 페이지의 페이지 보기가 카운트될 수 있습니다. 이 레이스 조건이 피용될 수 있도록 업데이트를 at. js 구현으로 계획할 수 있습니다. 문제 및 해결 방법에 대한 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)를 참조하십시오.
+* at.js 구현의 리디렉션 활동으로 인해 미리 보기 URL이 루프에 들어가게 됩니다(오퍼가 반복적으로 전달됨). 대신 [QA 모드](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)를 사용하여 미리 보기와 QA를 수행할 수 있습니다. 이 문제는 오퍼의 실제 전달에는 영향을 주지 않습니다. (TGT-23019)
 
 ### 사용자 지정 경험을 제어로 사용하는 경우 자동 타겟 활동에 대한 그래프 보고서가 렌더링되지 않습니다.
 
@@ -92,13 +100,6 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 mbox.js 라이브러리는 Handlebars 및 Mustache와 같은 클라이언트 측 템플릿 언어를 지원하지 않습니다. at.js 라이브러리는 이러한 언어를 *지원합니다*.
 
 **참고**: mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 mbox.js에서 at.js로 마이그레이션해야 합니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
-
-### 리디렉션 오퍼
-
-다음은 리디렉션 오퍼에 대한 알려진 문제입니다.
-
-* 페이지에서 경합 조건을 사용하면 원래 페이지 및 리디렉션 페이지의 페이지 보기가 카운트될 수 있습니다. 이 경합 조건을 피할 수 있게 하도록 2018년 2사분기에 at.js 구현이 업데이트될 예정입니다. 문제 및 해결 방법에 대한 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)를 참조하십시오.
-* at.js 구현의 리디렉션 활동으로 인해 미리 보기 URL이 루프에 들어가게 됩니다(오퍼가 반복적으로 전달됨). 대신 [QA 모드](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)를 사용하여 미리 보기와 QA를 수행할 수 있습니다. 이 문제는 오퍼의 실제 전달에는 영향을 주지 않습니다. (TGT-23019)
 
 ### 구현: 글로벌 Mbox를 자동으로 만들기
 
