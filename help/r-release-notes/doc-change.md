@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[A 4 Tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[Offers-A 4 T FAQ 사용과 사용하지 않는 경우 Target와 Analytics 간의 예상 데이터 차이](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | A 4 T로 리디렉션을 사용하는 제한된 수의 고객이 더 높은 백분율의 비율을 볼 수 있도록 하는 알려진 문제에 대한 정보가 추가되었습니다. |
 | 2019 년 6 월 26 일 | [시각적인 경험 옵션](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | [!UICONTROL 복제] 작업에 대한 정보가 추가되었습니다. |
 |  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | [!UICONTROL 선택한 요소] 패널에 대한 정보가 추가되었습니다. |
