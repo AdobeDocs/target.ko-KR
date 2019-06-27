@@ -8,7 +8,7 @@ title: 리디렉션 오퍼 - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -20,6 +20,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ## Analytics for Target(A4T)에서 리디렉션 오퍼를 지원합니까? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 예, 구현에서 [!DNL at.js]를 사용하는 경우 지원합니다. 그러나 Analytics를 보고 소스로 사용하는 활동에서 [리디렉션 오퍼](../../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)를 사용하기 위해서는 구현이 아래 나열된 최소 요구 사항을 충족해야 합니다.
+
+>[!NOTE]
+>
+>A 4 T에서 리디렉션을 사용하는 제한된 수의 고객이 더 높은 백분율의 백분율 비율을 볼 수 있는 알려진 문제가 해결되었습니다. [알려진 문제 및 해결된 문제를 참조하십시오](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## A4T에 리디렉션 오퍼를 사용하는 데 필요한 최소 요구 사항은 무엇입니까? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
