@@ -8,7 +8,7 @@ title: ' Target 소개'
 topic: 고급
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에 대한 수익을 극대화하도록 고객의 환경을 재단하고 개인화하는 데 필요한 모든 것을 제공하는 Adobe Experience Cloud 솔루션입니다.
 
-다음 비디오에서는 Target을 다른 Adobe Experience Cloud 솔루션과 함께 사용할 때 조직의 목표를 달성하는 데 어떻게 도움이 될 수 있는지에 대한 기본 이해를 제공합니다.
+다음 비디오에서는 다른 Adobe Experience Cloud 솔루션과 함께 Target 이 목표 달성을 지원하는 방법에 대한 기본적인 이해를 제공합니다.
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
