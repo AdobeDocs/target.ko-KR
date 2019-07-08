@@ -9,7 +9,7 @@ title: Target 주요 개념
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -98,11 +98,11 @@ An *경험*은 특정 조건이 충족될 경우 표시되는 컨텐츠를 결�
 
 또는 활동을 한 지역의 방문자나 특정 검색 엔진에서 페이지에 액세스하는 사람들에 타깃팅할 수 있습니다.
 
-여러 활동에서 재사용할 수 있도록 대상을 저장하거나, 특정 캠페인용으로 대상을 만들 수 있습니다.
+대상을 저장하여 여러 활동에 재사용하거나 특정 활동에 대해 대상을 만들 수 있습니다.
 
 | 대상 유형 | 설명 |
 |--- |--- |
-| 재사용 가능한 대상 | 재사용 가능한 대상은 테스트용으로 선택할 수 있습니다. 이러한 대상 중 하나를 변경하면 이 대상을 사용하는 모든 활동에 대해 대상이 변경됩니다. |
+| 재사용 가능한 대상 | 재사용 가능한 대상은 모든 활동에 대해 선택할 수 있습니다. 이러한 대상 중 하나를 변경하면 이 대상을 사용하는 모든 활동에 대해 대상이 변경됩니다. |
 | 사용자 지정 세그먼트 | 사용자 지정 세그먼트(캠페인별 세그먼트라고도 함)는 Target Classic에서 캠페인에 따라 다릅니다. 캠페인의 일부로 생성되며 다른 캠페인에서 다시 사용할 수 없습니다. |
 | 공유 대상 | 대상은 [!DNL Adobe Experience Cloud] 솔루션에서 공유할 수 있습니다. 예가 필요하면 [Experience Cloud 대상](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)을 참조하십시오. |
 
