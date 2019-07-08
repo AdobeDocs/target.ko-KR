@@ -9,7 +9,7 @@ title: Adobe Target 작동 방식
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 834eee71f78765887e3e46f3cbab3eaf00b1ee39
 
 ---
 
@@ -20,7 +20,7 @@ Target JavaScript 라이브러리(at.js 및 mbox.js)와 Target에 포함된 다�
 
 ## Target JavaScript 라이브러리 {#libraries}
 
-Adobe Target은 두 개의 JavaScript 라이브러리 중 하나를 통해 웹 사이트와 통합됩니다. at.js 또는 mbox.js
+Adobe Target는 다음 두 가지 JavaScript 라이브러리 중 하나를 사용하여 웹 사이트와 통합됩니다. at. js 또는 mbox. js
 
 * **at.js:** [at.js 라이브러리](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)는 Target의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 권장되는 구현 라이브러리이며 새 기능으로 자주 업데이트됩니다. 모든 고객이 구현하거나 [at.js 최신 버전으로 마이그레이션](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)하는 것이 좋습니다.
 * **mbox.js:** mbox.js 라이브러리는 Target의 새 구현 라이브러리입니다. mbox.js 라이브러리는 계속 지원되지만 기능 업데이트는 제공되지 않을 예정입니다.
@@ -29,13 +29,13 @@ Adobe Target은 두 개의 JavaScript 라이브러리 중 하나를 통해 웹 �
 >
 >모든 고객은 at.js로 마이그레이션하는 것이 좋습니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오
 
-사이트의 모든 페이지에서 Target JavaScript 파일 중 하나를 참조해야 합니다. 예를 들어, 글로벌 헤더에 추가할 수 있습니다.
+사이트의 모든 페이지에서 타겟 JavaScript 라이브러리 파일을 참조해야 합니다. 예를 들어, 글로벌 헤더에 추가할 수 있습니다. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-방문자가 Target에 대해 최적화된 페이지를 요청할 때마다, 방문자에게 서비스로 제공할 컨텐츠를 결정하기 위해 타깃팅 시스템으로 요청이 전송됩니다. 이 프로세스는 실시간으로 발생하며, 페이지가 로드될 때마다 컨텐츠 요청이 이루어지고 각 시스템에 의해 이행됩니다. 컨텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 또한 각 사이트 방문자가 응답하고, 상호 작용하고, 궁극적으로 가장 구매할 것 같은 컨텐츠를 제공하여 응답률, 획득률 및 매출을 최적화합니다.
+방문자가 Target에 대해 최적화된 페이지를 요청할 때마다, 방문자에게 서비스로 제공할 컨텐츠를 결정하기 위해 타깃팅 시스템으로 요청이 전송됩니다. 이 프로세스는 실시간으로 이루어집니다. 페이지가 로드될 때마다 시스템에 대한 요청이 만들어지고 이행됩니다. 컨텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 또한 각 사이트 방문자가 응답하고, 상호 작용하고, 궁극적으로 가장 구매할 것 같은 컨텐츠를 제공하여 응답률, 획득률 및 매출을 최적화합니다.
 
-Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험의 일부입니다. 각 경험은 페이지에 여러 요소를 포함하고 있습니다. 페이지는 추적하려는 각 페이지의 `<head>`에 단일 코드 행으로 최적화되어 있습니다.
+Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험의 일부입니다. 각 경험에는 페이지에 여러 요소가 포함될 수 있습니다.
 
-방문자에 표시되는 컨텐츠는 사용자가 작성하는 활동의 유형에 따라 다릅니다.
+방문자에게 표시되는 컨텐츠는 만드는 활동 유형에 따라 달라집니다.
 
 ### A/B 테스트
 
@@ -48,7 +48,7 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 1. 고객이 서버에서 페이지를 요청하고 브라우저에 표시합니다.
 2. 자사 쿠키가 고객 브라우저에 설정되어 고객 동작을 저장합니다.
 3. 페이지가 타깃팅 시스템을 호출합니다.
-4. 캠페인의 규칙에 따라 컨텐츠가 표시됩니다.
+4. 컨텐츠는 활동 규칙에 따라 표시됩니다.
 
 ### 자동 할당
 
@@ -60,7 +60,7 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 자세한 내용은 [자동 타겟](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)을 참조하십시오.
 
-자동 타겟은 컨텐츠를 개인화하고 변환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택하고, 개별 고객 프로필과 이 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.
+Auto-Target는 고급 머신 러닝을 사용하여 여러 개의 마케터가 정의한 경험을 선택할 수 있으며, 개별 고객 프로파일을 기반으로 각 방문자에게 가장 적합한 경험을 제공하고, 유사한 프로파일을 갖는 이전 방문자의 행동을 제공하여 컨텐츠를 개인화하고 전환을 촉진합니다.
 
 ### AP(자동화된 개인화)
 
@@ -92,7 +92,7 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 &quot;에지(Edge)&quot;는 컨텐츠를 요청하는 최종 사용자가 세계 어디에 있든지 상관없이 최적의 응답 시간을 보장하는 지리적으로 분산된 서비스 아키텍처입니다.
 
-응답 시간을 개선하기 위해, 에지 환경에는 활동 로직과 캐시된 프로필 및 오퍼 정보만 저장합니다. 활동 및 컨텐츠 데이터베이스, [!DNL Analytics] 데이터, API 및 마케터 사용자 인터페이스는 Adobe의 중앙 데이터 환경에 수용됩니다. 그러면 업데이트가 에지 노드로 전송됩니다. 중앙 환경 및 에지 노드는 자동으로 동기화되어 캐시된 활동 데이터를 계속 업데이트합니다. 1:1 모델링도 각 에지에 저장되므로 이러한 더 복잡한 요청도 에지에 저장될 수 있습니다.
+응답 시간을 개선하기 위해 에지 환경에서는 활동 로직과 캐시된 프로필과 오퍼 정보만 호스팅합니다. 활동 및 컨텐츠 데이터베이스, [!DNL Analytics] 데이터, API 및 마케터 사용자 인터페이스는 Adobe의 중앙 데이터 환경에 수용됩니다. 그러면 업데이트가 에지 노드로 전송됩니다. 중앙 환경 및 에지 노드는 캐시된 활동 데이터를 지속적으로 업데이트하기 위해 자동으로 동기화됩니다. 1:1 모델링도 각 에지에 저장되므로 더 복잡한 요청은 가장자리에서 처리할 수도 있습니다.
 
 각 에지 노드에는 사용자의 컨텐츠 요청에 응답하고, 해당 요청에 대한 분석 데이터를 추적하는 데 필요한 모든 정보가 있습니다. 사용자 요청은 가장 가까운 에지 노드로 전달됩니다.
 
@@ -102,21 +102,19 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 Adobe는 현재 북아메리카, 유럽 및 아시아 곳곳의 여러 지역을 포함하여 몇 개 대륙에 데이터 센터를 보유하고 있습니다.
 
-한 위치에서 모든 타깃팅 요청에 응답하기 보다는, 요청 지점에서 가장 가까운 에지 환경에서 응답하는 것이 네트워크/인터넷 이동 시간의 영향을 완화합니다.
-
-네트워크는 장애 조치 메커니즘으로도 작동합니다. 한 에지 노드가 작동하지 않으면, 가장 가까운 다음 노드로 요청이 리디렉션되어, 사용자가 기본 컨텐츠를 제공받지 않도록 합니다(요청을 완료할 수 없을 때의 전형적 백업 응답).
+한 위치에서 모든 타깃팅 요청에 응답하는 대신, 요청은 방문자에게 가장 가까운 에지 환경에서 처리되므로 네트워크/인터넷 이동 시간의 영향을 완화합니다.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 현재 중국에는 Edge 네트워크가 없으며 최종 사용자 성능은 중국 [!DNL Target] 고객의 경우 계속 제한됩니다. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
+>[!DNL Adobe Target] 현재 중국에는 Edge 네트워크가 없으며 최종 사용자 성능은 중국 [!DNL Target] 고객의 경우 계속 제한됩니다. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe에서는 타깃팅 인프라의 가용성 및 성능을 가능한 한 신뢰할 수 있도록 만들고 있습니다. 하지만 최종 사용자의 브라우저와 Adobe의 서버 간 통신 실패로 인해 컨텐츠 전달이 중단될 수 있습니다.
 
-서비스 중단 및 연결 문제가 생기지 않도록 보호하려면, 모든 위치가 사용자의 브라우저가 [!DNL Target]에 연결할 수 없을 경우 나타나는 기본 컨텐츠(클라이언트가 정의함)를 포함하도록 설정하십시오.
+To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
 
-사용자의 브라우저가 정의된 제한 시간 내(기본적으로 15초)에 연결할 수 없는 경우 페이지에 변경 사항이 적용되지 않습니다. 이 시간 초과 임계값에 도달하면, 사용자가 모든 다른 위치에 대한 기본 컨텐츠를 즉시 볼 수 있도록 쿠키에서 설정이 변경됩니다. 이 상태는 30분간 지속되며 이 시간이 지나면 사용자의 브라우저가 다시 컨텐츠 요청을 위해 Adobe의 서버에 연결을 시도합니다.
+정의된 시간 초과 기간 내에 사용자의 브라우저가 연결할 수 없는 경우 페이지가 변경되지 않습니다 (기본적으로: 15 초). 이 시간 초과 임계값에 도달하면 기본 위치 컨텐츠가 표시됩니다.
 
 Adobe에서는 성능을 최적화 및 보호함으로써 사용자 경험을 보호합니다.
 
@@ -160,7 +158,7 @@ Google에서는 사용자 테스트를 권장하고 있으며 A/B 및 다변량 
 
    또한 테스트 중인 페이지의 액세서빌러티를 고려하는 것도 중요합니다. 이메일 캠페인 전용 랜딩 페이지와 같은 페이지가 검색 엔진에 액세스할 수 없고 자연 검색에서 1위를 하도록 설계되지 않은 경우에는 위의 고려 사항이 적용되지 않습니다.
 
-Googles에서는 이러한 지침을 따르는 것이 &quot;테스트에서 검색 결과에 있는 여러분의 사이트에 영향을 거의 주지 않거나 전혀 주지 않는다&quot;고 명시합니다.
+Google States는 이러한 지침을 따르는 것이 검색 결과에 사이트에 미치는 영향이 거의 없거나 전혀 없는 것으로 판단합니다. &quot;
 
 Google에서는 이 지침 외에도 콘텐츠 실험 도구에 대해 설명서에서 다음과 같은 지침을 하나 더 제공합니다.
 
