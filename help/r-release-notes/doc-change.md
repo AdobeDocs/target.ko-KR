@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -21,7 +21,8 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[A 4 Tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[Offers-A 4 T FAQ 사용과 사용하지 않는 경우 Target와 Analytics 간의 예상 데이터 차이](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | A 4 T로 리디렉션을 사용하는 제한된 수의 고객이 더 높은 백분율의 비율을 볼 수 있도록 하는 알려진 문제에 대한 정보가 추가되었습니다. |
+| 2019 년 7 월 8 일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | CNAME를 사용해야 하는 이유를 설명하는 정보가 추가되었습니다. |
+| 2019 년 6 월 28 일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[A 4 Tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[Offers-A 4 T FAQ 사용과 사용하지 않는 경우 Target와 Analytics 간의 예상 데이터 차이](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | A 4 T로 리디렉션을 사용하는 제한된 수의 고객이 더 높은 백분율의 비율을 볼 수 있도록 하는 알려진 문제에 대한 정보가 추가되었습니다. |
 | 2019 년 6 월 26 일 | [시각적인 경험 옵션](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md) | [!UICONTROL 복제] 작업에 대한 정보가 추가되었습니다. |
 |  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | [!UICONTROL 선택한 요소] 패널에 대한 정보가 추가되었습니다. |
@@ -41,7 +42,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2019 년 6 월 19 일 | [프로모션 추가](/help/c-recommendations/t-create-recs-activity/adding-promotions.md)를 참조하십시오 | 활동의 기준이 권장하는 항목에 대해 중복 제거가 제거되는 판촉에 대한 정보가 추가되었습니다. |
+| 2019 년 6 월 19 일 | [프로모션 추가](/help/c-recommendations/t-create-recs-activity/adding-promotions.md) | 활동의 기준이 권장하는 항목에 대해 중복 제거가 제거되는 판촉에 대한 정보가 추가되었습니다. |
 | 2019년 6월 13일 | [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 새로운 FAQ 추가: &quot; 특정 자동화된 세그먼트에 대한 다른 제안/경험과 비교하여 전환율이 낮은 일부 제안/경험이 더 많은 트래픽을 받는 이유는 무엇입니까? &quot; |
 |  | [Adobe Target 작동 방식](/help/c-intro/how-target-works.md) | 중국에서 Target 사용에 대한 중요한 참고가 추가되었습니다. |
 |  | [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | &quot; Target Standard/Premium 인터페이스 &quot;섹션에서 Microsoft Internet Explorer 11 (IE 11) 를 제거했습니다. Target는 더 이상 IE 11의 호환성을 지원하거나 유지 관리하지 않습니다. 이 변경 사항은 대상 UI 에만 영향을 줍니다. 컨텐츠 전달은 영향을 받지 않습니다. 이러한 변경 사항은 Adobe Analytics, Adobe Experience Platform 및 Adobe Audience Manager의 유사한 공지 사항을 따릅니다. 지원되는 브라우저로 전환하는 것이 좋습니다. |
@@ -60,7 +61,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 | 2019 년 6 월 3 일 | [릴리스 노트 (현재)](/help/r-release-notes/release-notes.md) | . js 2.1.0의 예정된 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | . js 2.1.0의 예정된 릴리스에 대한 정보가 추가되었습니다. |
 |  | [시작하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 추가된 새 섹션: &quot; 클라이언트측 분석 로깅 &quot; |
-|  | [Analytics for Target 구현](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)을 참조하십시오 | 7 단계 개정. |
+|  | [Analytics for Target 구현](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | 7 단계 개정. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 다음 필드 이름에 대해 표에 행을 추가했습니다.<ul><li>요청 &gt; Experiencecloud</li><li>요청 &gt; Experiencecloud &gt; 분석</li><li>요청 &gt; Experiencecloud &gt; Analytics &gt; 로깅</li></ul> |
 |  | [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md) | Added row to the table for `adobe.target.sendNotifications(options)`. |
 |  | [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md) | 새 주제입니다.  |
@@ -72,17 +73,17 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 |  | [CSV 파일로 데이터 다운로드](/help/c-reports/downloading-data-in-csv-file.md) | Export Order Details in the Export Order Details to CSV Section: &quot; Target 보고 UI에 적용된 대상이 다운로드 보고서로 넘어가지 않습니다. &quot; |
 |  | [보고서 설정](/help/c-reports/c-report-settings/report-settings.md) | 업데이트된 스크린샷. |
 | 2019년 5월 29일 | [카테고리 친화성](/help/c-target/c-visitor-profile/category-affinity.md) | `user.categoryId` AND `entity.categoryId`의 차이를 명확히 하기 위해 텍스트가 업데이트되었습니다. |
-|  | [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오 | 이 주제에 대한 재배치 섹션: at. js의 이점. |
+|  | [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | 이 주제에 대한 재배치 섹션: at. js의 이점. |
 |  | [at.js 자주 묻는 질문](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 이 주제에 대한 재배치 섹션: &quot; 페이지 로드 시 at. js 및 mbox. js의 영향은 무엇입니까? &quot; |
 |  | [오퍼에 동적 데이터 전달](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | 과거 비헤이비어 행의 구문이 수정되었습니다. |
 | 2019년 5월 28일 | [Adobe Experience Cloud에서 Target에 액세스](/help/c-intro/target-access-from-mac.md#doc-lang) | 추가된 새 섹션: &quot; Target 제품 설명서의 언어를 변경합니다. &quot; |
 |  | [승자 결정](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 업데이트된 정보가 p-값에 해당합니다. |
 |  | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Target 이 다중 수준 iframe를 처리하는 방식에 대한 문제 해결 섹션을 추가했습니다. |
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 새로운 FAQ 추가: &quot; Recommendations 작업을 위한 예상 인제스트 기간은 언제입니까? &quot; |
-|  | [Adobe Launch를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 참조하십시오 | &quot; Target 실행 확장 기능을 사용하여 at. js 구현의 이점 &quot;아래의 정보를 업데이트했습니다. |
+|  | [Adobe Launch를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | &quot; Target 실행 확장 기능을 사용하여 at. js 구현의 이점 &quot;아래의 정보를 업데이트했습니다. |
 |  | [컨텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 잘못된 doctype를 사용하는 경우 at. js에서 about. js에 대한 새 문제 해결 섹션이 추가되었습니다. |
 | 2019년 5월 24일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | at.js 2.1.0에 대한 정보가 추가되었습니다. |
-| 2019년 5월 23일 | [제외 관리](/help/c-activities/t-automated-personalization/managing-exclusions.md)를 참조하십시오 | 타깃팅 규칙을 사용하여 AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한하기 위한 정보와 링크를 추가했습니다. |
+| 2019년 5월 23일 | [제외 관리](/help/c-activities/t-automated-personalization/managing-exclusions.md) | 타깃팅 규칙을 사용하여 AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한하기 위한 정보와 링크를 추가했습니다. |
 |  | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 소개에서 텍스트가 업데이트되었습니다. |
 |  | [경험 및 오퍼](/help/c-experiences/experiences.md) | 소개에서 텍스트가 업데이트되었습니다. |
 |  | [대상자](/help/c-target/target.md) | 소개에서 텍스트가 업데이트되었습니다. |
