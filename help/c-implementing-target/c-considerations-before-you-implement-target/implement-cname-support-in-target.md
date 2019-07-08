@@ -8,14 +8,14 @@ title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
 
 # CNAME 및 Adobe Target{#cname-and-adobe-target}
 
-Adobe Target에서 CNAME(표준 이름) 지원을 구현하기 위한 Adobe Client Care 작업 정보입니다.
+Adobe Target에서 CNAME(표준 이름) 지원을 구현하기 위한 Adobe Client Care 작업 정보입니다. 광고 차단 문제를 가장 잘 처리하기 위해 CNAME 이 사용되므로 Adobe가 소유한 도메인이 아니라 고객이 소유한 도메인에 호출됩니다.
 
 다음 단계를 수행하여 Target에서 CNAME 지원을 요청합니다.
 
