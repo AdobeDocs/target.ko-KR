@@ -8,7 +8,7 @@ title: Target 최적화 및 개인화 FAQ
 topic: 고급
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Target에서 제공한 각 선택 사항이 적용되는 사례를 알려�
 
 **다른 위치(예: 체크아웃 단계)에 있는 오퍼를 적용할 수 있습니까?**
 
-경험에서 여러 페이지를 만들 수 있는 [다중 페이지 활동 기능](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 사용해보십시오.
+Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
 
 **일단 목표(기본 또는 2차)에 도달하면 사용자가 해당 활동에 다시 들어오지 않고, 대신 다른 활동이 진행되는 것을 보는지 확인하려면 어떻게 해야 합니까?**
 
@@ -89,9 +89,9 @@ Adobe Target에서 제공한 각 선택 사항이 적용되는 사례를 알려�
 
 따라서 이 경우 &quot;증분 카운트, 재입력에서 사용자 및 막대 해제&quot;와 &quot;기본/기타 활동 컨텐츠&quot;를 함께 선택하여 목표에 도달할 수 있습니다. 다른 옵션도 확인하십시오.
 
-**활동에 여러 목표를 생성했습니다. 목표 체인을 보고 및 분석 목적을 위한 단계로 만들 수 있습니까?
+**활동에 여러 목표를 생성했습니다. 목표 체인을 보고 및 분석 목적을 위한 단계로 만들 수 있습니까?**
 
-예를 들어, 특정 단계에 대한 숫자를 추적할 수 있도록 사용자가 목표 A에 도달했을 때 목표 B를 고려하려고 합니다.**
+**예를 들어, 특정 단계에 대한 숫자를 추적할 수 있도록 사용자가 목표 A에 도달했을 때 목표 B를 고려하려고 합니다.**
 
 Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강력한 방법이 있습니다. [다른 성공 지표에 대한 종속성을 추가](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)하면 됩니다. 여러 가지 방법으로 지표를 결합하는 기능과 &quot;도달&quot; 및 &quot;도달 못 함&quot;과 같은 옵션을 사용하여 원하는 모든 조합을 만들 수 있습니다.
 
@@ -107,7 +107,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 시작 및 종료 날짜를 지정하여 3파트 활동 워크플로우 중 ](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)목표 및 설정 단계의 예약 기능[을 사용하십시오.
 
-캠페인을 활성화해야 합니다. 라이브 캠페인만 지정된 일정을 준수합니다. 종료 날짜에 도달하면 활동이 종료됨 상태로 전환됩니다.
+활동을 활성화해야 합니다. 라이브 활동만 지정된 일정을 준수합니다. 종료 날짜에 도달하면 활동이 종료됨 상태로 전환됩니다.
 
 **타깃팅 단계만 변경하고, 안내가 있는 전체 3단계 워크플로우(편집용)는 거치지 않을 수 있습니까?**
 
@@ -131,24 +131,12 @@ QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa
 
 안내가 있는 Target의 3부분 워크플로우, 3단계(목표 및 설정 페이지)에서 사용할 수 있는 우선순위 설정을 사용하여 [활동의 우선순위를 정의](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)하십시오.
 
-몇 가지 선택 사항이 있습니다.
-
-* [Target JavaScript 라이브러리(at.js 및 mbox.js)](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
-* 기본, 3가지 수준(낮음/중간/높음) 포함
-* 사용자 지정, 0 -999 범위 사용자 지정의 경우 미세 조정 우선순위 기능을 활성화하십시오(설정 &gt; 기본 설정).
-
-## 대상자{#section_FA6314777ABC46D8B198D6F388051460}
-
-**두 개의 활동을 설정했습니다. 방문자가 보게 되는 활동은 어느 것입니까?**
-
-**몇 가지 활동의 우선순위 순서를 어떻게 설정할 수 있습니까?**
-
-안내가 있는 Target의 3부분 워크플로우, 3단계(목표 및 설정 페이지)에서 사용할 수 있는 우선순위 설정을 사용하여 [활동의 우선순위를 정의](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)하십시오.
-
 다음 두 가지 옵션을 사용할 수 있습니다.
 
 * 기본, 3가지 수준(낮음/중간/높음) 포함
 * 사용자 지정, 0 -999 범위 사용자 지정의 경우 미세 조정 우선순위 기능을 활성화하십시오(설정 &gt; 기본 설정).
+
+## 대상자{#section_FA6314777ABC46D8B198D6F388051460}
 
 **활동에 고유한 대상 세그먼트를 활동에서 만들 수 있습니까? 이러한 대상은 재사용 요인이 없으므로 대상 라이브러리에서 만들고 싶지 않습니다.**
 
@@ -246,21 +234,6 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 활성을 만들려면 [양식 기반 접근 방법](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)을 사용하십시오.
 
-**적은 수의 방문자가 있는 활동을 시작할 수 있습니까?**
-
-[Target의 안내가 있는 3가지 부분 워크플로우의 2단계(타깃팅 페이지)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087)에서 사용할 수 있는 백분율 할당 컨트롤을 사용하여 어떤 방식으로 활동 설정을 시작할지 결정하십시오.
-
-**두 개의 활동을 설정했습니다. 방문자가 보게 되는 활동은 어느 것입니까?**
-
-**몇 가지 활동의 우선순위 순서를 어떻게 설정할 수 있습니까?**
-
-안내가 있는 Target의 3부분 워크플로우, 3단계(목표 및 설정 페이지)에서 사용할 수 있는 우선순위 설정을 사용하여 [활동의 우선순위를 정의](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)하십시오.
-
-다음 두 가지 옵션을 사용할 수 있습니다.
-
-* 기본, 3가지 수준(낮음/중간/높음) 포함
-* 사용자 지정, 0 -999 범위 사용자 지정의 경우 미세 조정 우선순위 기능을 활성화하십시오(설정 &gt; 기본 설정).
-
 **사용자가 보유할 수 있는 모든 장치에서 일관되게 동일한 경험이 전달되도록 하려면 어떻게 해야 합니까?**
 
 Co-op의 기능을 통해 사용자의 여러 장치를 결정적으로 및 확률적으로 연결할 수 있도록 하는 [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html)를 확인해보십시오. 
@@ -283,7 +256,7 @@ Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그
 
 **내 QA 프로세스에서 컨텐츠 전달이 발생하지 않는 이유는 무엇입니까?**
 
-사이트에 요소에 대한 다이내믹 ID, 중복 ID 또는 다이내믹 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 기본 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)에서 &quot;CSS 선택기&quot;를 참조하십시오.
+사이트에 요소에 대한 다이내믹 ID, 중복 ID 또는 다이내믹 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 기본 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기를 참조하십시오](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **원하는 오퍼/경험이 표시되지 않고 대신 다른 활동이 표시되는 이유는 무엇입니까?**
 
@@ -295,7 +268,7 @@ Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그
 
 ## 보고서(A4T(Analytics for Target) 포함) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-또한 Adobe Analytics가 있으며 Target에서 이를 활용하려고 합니다. 두 가지 솔루션을 통합하여 어떤 핵심 기능을 얻을 수 있습니까?
+**또한 Adobe Analytics가 있으며 Target에서 이를 활용하려고 합니다. 두 가지 솔루션을 통합하여 어떤 핵심 기능을 얻을 수 있습니까?**
 
 제품의 다음 측면을 확인하십시오.
 
@@ -306,35 +279,31 @@ Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그
 * [대상자](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 
-여러 사용자 세그먼트에 대해 보고 기능을 분류할 수 있습니까?
+**여러 사용자 세그먼트에 대해 보고 기능을 분류할 수 있습니까?**
 
 안내가 있는 3파트로 구성된 활동 워크플로우의 3단계에 포함된 목표 및 설정 페이지에서 사용할 수 있는 ](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)보고 대상 기능[에서 이 작업을 수행할 수 있습니다.
 
-이러한 세그먼트 50개와 적용 지점(캠페인 진입 또는 특정 지표)을 추가하는 옵션을 통해 보다 강력한 분류 기능을 사용할 수 있습니다.
+50 개의 세그먼트와 애플리케이션 포인트 (활동 항목 또는 특정 지표) 를 추가하여 강력한 방법으로 슬라이스와 주사하는 방법을 선택할 수 있습니다.
 
 Target은 사용자가 이러한 대상을 추가할 때 이와 관련된 데이터를 수집하므로 테스트를 실행하기 전에 세그먼트를 추가하지 않으면 문제가 됩니다.
 
-활동을 실행하기 전에 대상을 정의할 수 없습니다. Target 활동 제한에서 보고 대상의 이러한 측면을 알게 되었습니다.
+**활동을 실행하기 전에 대상을 정의할 수 없습니다. Target 활동 제한에서 보고 대상의 이러한 측면을 알게 되었습니다.**
 
-이 프로세스를 좀 더 쉽게 수행하려면 어떻게 해야 합니까?
+**이 프로세스를 좀 더 쉽게 수행하려면 어떻게 해야 합니까?**
 
-여기에서 [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)을 사용하면 편리하게 작업할 수 있습니다. Adobe Analytics가 있는 경우 소스를 Analytics로 선택하면 이러한 제한이 해소됩니다. 이제 언제든지 아무 대상에서나 분석을 수행할 수 있으며, 보고 대상을 미리 정의할 필요가 없습니다.
+This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Adobe Analytics가 있는 경우 소스를 Analytics로 선택하면 이러한 제한이 해소됩니다. 이제 언제든지 아무 대상에서나 분석을 수행할 수 있으며, 보고 대상을 미리 정의할 필요가 없습니다.
 
-보고서를 정리하고 데이터 기록을 계속 시작할 수 있습니까? 예를 들어, 기록된 초기 방문은 활동에 대한 나의 테스트 방문으로 인한 것이었습니다.
+**오프라인 보고 계산을 수행할 수 있습니까?**
 
-Use the [보고 데이터 재설정](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 기능을 사용하십시오.
+Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
 
-오프라인 보고 계산을 수행할 수 있습니까?
+**보고서를 평가하기 위해 제어 경험을 변경하거나 방문자에서 방문으로 카운트 방법을 변경할 수 있습니까?**
 
-원하는 보고 데이터를 다운로드하려면 보고서 페이지의 [CSV로 보고서 내보내기 및 주문 세부사항을 CSV로 다운로드 옵션](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)을 사용하십시오.
+Make these changes using the [Settings gear on the reports page](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). 이러한 설정을 잘 읽어보고 계산이 어떻게 다른지 이해하도록 하십시오.
 
-보고서를 평가하기 위해 제어 경험을 변경하거나 방문자에서 방문으로 카운트 방법을 변경할 수 있습니까?
+**보고서를 어떻게 해석해야 합니까?**
 
-이러한 변경을 수행하려면 [보고서 페이지의 설정 톱니바퀴](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)를 사용하십시오. 이러한 설정을 잘 읽어보고 계산이 어떻게 다른지 이해하도록 하십시오.
-
-보고서를 어떻게 해석해야 합니까?
-
-유용한 여러 기능을 사용하여 보고서를 최대한 직관적으로 만들려고 했습니다. [이러한 기능에는 신뢰도 간격 막대, 상승도 범위, 의의도/신뢰도 및 다중 지표 선택 항목, 테이블 및 그래프 보기, 이동 평균](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 등이 포함됩니다. 이를 통해 강력하면서도 편리한 보고서 분석이 가능해졌습니다. 대상에 대한 추가적인 분석을 위해 [Analytics for Target(A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 활동을 사용하는 경우 Analytics를 살펴볼 수 있습니다.
+We have tried to make reports as intuitive as possible with features like [confidence Interval bars, lift bounds, significance/confidence and multiple metric selections, table and graph views, running averages, and more](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) to allow for powerful, yet easy, report analysis. 대상에 대한 추가적인 분석을 위해 [Analytics for Target(A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 활동을 사용하는 경우 Analytics를 살펴볼 수 있습니다.
 
 ## 응답 토큰{#section_C2A7118B4B62482A9D630C2212112A3D}을 참조하십시오 
 
