@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
+source-git-commit: 0d170f6d48a5f94b087d8760d0f418406c5334c2
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 이러한 릴리스 노트는 최신 또는 예정된 [!DNL Adobe Target] 릴리스의 기능, 향상된 기능 및 수정 사항에 대한 정보를 제공합니다.
 
-**마지막 업데이트: 2019년 6월 25일**
+**마지막 업데이트 날짜: 2019년 7월 9일**
 
 >[!NOTE]
 >
@@ -25,18 +25,15 @@ source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 >
 >괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## Target Standard/Premium 19.6.1(2019년 6월 26일) {#tgt-19-6-1}
+## Target Standard/Premium 19.7.1(2019년 7월 23일) {#tgt-19-7-1}
 
 이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
 | 기능 / 개선 사항 | 설명 |
 | --- | --- |
-| 시각적 경험 작성기(VEC) | **새 VEC 메뉴 옵션**: vec에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다.<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**클릭 추적 개선** 사항: VEC 및 SPA (Single Page Application) VEC 내에서 클릭 추적을 구성하는 과정을 개선했습니다.<ul><li>클릭 추적에서 사용할 요소를 선택할 때 사용 가능한 모든 요소의 이름이 오른쪽의 수정 패널에 표시되므로 원하는 요소를 빠르고 손쉽게 선택할 수 있습니다.</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. 이 숫자 위로 마우스를 가져가면 선택한 모든 요소의 이름이 표시됩니다. (TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
-| SPA VEC(Single Page App Visual Experience Composer) | **가이드 워크플로우**: 새로운 안내 워크플로우는 단일 페이지 앱에 대해 활동을 실행하고 실행하는 페이지 배달 규칙 설정을 구성하는 방법을 이해하는 데 도움이 됩니다. (TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**복제 수정** 사항: 이제 SPA VEC를 사용하여 수정 사항을 정의한 다음 단일 페이지 앱에서 다른 보기에 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| 모바일 시각적 경험 작성기 | **다양한 앱 버전**: 이제 여러 버전의 모바일 앱용 활동을 제작할 수 있습니다. 따라서 버전이 유사하고 앱의 UI를 크게 변경할 필요가 없을 때 시간과 노력을 절약할 수 있습니다. (TGT-34231)<br>See &quot;Manage multiple app versions&quot; in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
-| ![프리미엄 배지](/help/assets/premium.png) 자동 개인화 (AP) 및 자동 타깃팅 | **제어 기능**: AP 또는 자동 타겟 활동을 만드는 동안 컨트롤로 사용할 경험을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 경험으로 라우팅할 수 있습니다. 그런 다음 해당 경험의 제어 트래픽에 대한 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다. 현재 제어 옵션 (임의로 제공된 경험) 는 계속 사용할 수 있습니다. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**개인화 인사이트 보고서**: 방문자가 특정 위치에서 특정 컨텐츠를 볼 때 속성에 대한 마케터 친화적인 이름은 보다 의미 있는 정보를 제공합니다. (TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![프리미엄 배지](/help/assets/premium.png) 추천 | 최근에 본 항목 로직을 생성하는 동안 이전에 구입한 추천 항목 전환을 사용할 수 있습니다. (TGT-34030)<br>자세한 내용은 &quot;기준 만들기&quot; 에서 [최근에 본 항목을](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) 참조하십시오. |
-| Google Chrome samesite 쿠키 정책 | 최근 Google는 2019 년 7 월 30 일 릴리스로 예정되어 있는 Chrome 76 부터 시작하여 웹 사이트에서 사용할 수 있는 쿠키와 사용자를 추적할 수 있는 쿠키가 명시적으로 지정되어야 한다고 발표했습니다.<br>소비자가 소비자를 위해 보다 안전한 웹을 만들기 위해 노력함에 따라 Target는 방문자의 개인 정보 보호 기대치를 충족시키는 동시에 개인화된 경험을 제공하기 위해 절대적으로 노력하고 있습니다.<br>[Google Chrome Samesite 쿠키 정책을 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
+| 시각적 경험 작성기(VEC) | When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**: HTML 옵션에 액세스하기 위해 상위 요소를 선택하지 않고도 요소를 완전히 제어할 수 있도록 HTML로 이미지를 바꿀 수 있습니다.</li><li>**경험 조각**: 이미지를 AEM (Adobe Experience Manager [) 경험 조각으로](/help/c-experiences/c-manage-content/aem-experience-fragments.md) 대체하여 Target 활동에 AEM에서 만든 요소를 빠르게 삽입할 수 있습니다.</li></ul>(TGT-34097) |
+| 모바일 앱 시각적 경험 작성기 | 클릭추적을 위해 설정한 요소를 표시하는 새로운 수정 패널이 모바일 앱 VEC에 표시됩니다. (TGT-31741) |
+| ![A/B 테스트 및 경험 타깃팅 (XT) 활동의 프리미엄 배지](/help/assets/premium.png) 권장 사항 | Recommendations 오퍼 (알고리즘) 상태는 Recommendations 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 상태: 결과 준비, 결과 준비 안 됨 및 피드 실패. (TGT-33649) |
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
