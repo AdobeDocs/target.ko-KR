@@ -1,14 +1,14 @@
 ---
-description: 이러한 릴리스 노트는 최신 또는 예정된 Adobe Target 릴리스의 기능, 향상된 기능, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
+description: These release notes provides information about features, enhancements, and fixes for the latest or upcoming [! DNL Adobe Target] 릴리스.
 keywords: 릴리스 노트
-seo-description: 이러한 릴리스 노트는 최신 또는 예정된 Adobe Target 릴리스의 기능, 향상된 기능, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다
+seo-description: These release notes provides information about features, enhancements, and fixes for the latest or upcoming [! DNL Adobe Target] 릴리스.
 seo-title: Adobe Target 릴리스 노트 (베타 버전)
 solution: Target
 title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 0d170f6d48a5f94b087d8760d0f418406c5334c2
+source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 ---
 
@@ -33,7 +33,8 @@ source-git-commit: 0d170f6d48a5f94b087d8760d0f418406c5334c2
 | --- | --- |
 | 시각적 경험 작성기(VEC) | When you click an image then click [!UICONTROL Replace With], two new options display:<ul><li>**HTML**: HTML 옵션에 액세스하기 위해 상위 요소를 선택하지 않고도 요소를 완전히 제어할 수 있도록 HTML로 이미지를 바꿀 수 있습니다.</li><li>**경험 조각**: 이미지를 AEM (Adobe Experience Manager [) 경험 조각으로](/help/c-experiences/c-manage-content/aem-experience-fragments.md) 대체하여 Target 활동에 AEM에서 만든 요소를 빠르게 삽입할 수 있습니다.</li></ul>(TGT-34097) |
 | 모바일 앱 시각적 경험 작성기 | 클릭추적을 위해 설정한 요소를 표시하는 새로운 수정 패널이 모바일 앱 VEC에 표시됩니다. (TGT-31741) |
-| ![A/B 테스트 및 경험 타깃팅 (XT) 활동의 프리미엄 배지](/help/assets/premium.png) 권장 사항 | Recommendations 오퍼 (알고리즘) 상태는 Recommendations 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 상태: 결과 준비, 결과 준비 안 됨 및 피드 실패. (TGT-33649) |
+| ![프리미엄 Badgeresa/B](/help/assets/premium.png)<br>테스트 및 경험 타깃팅 (XT) 활동의 사용자 지정 | Recommendations 오퍼 (알고리즘) 상태는 Recommendations 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 상태: 결과 준비, 결과 준비 안 됨 및 피드 실패. (TGT-33649) |
+| Experience Cloud ID (ECID) 라이브러리를 통해 at. js 2.0 +에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이. js 2에서 지원되지 않았습니다.*x*에는 사용할 수 없습니다. 이 릴리스를 통해 at. js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통한 도메인 간 추적을 활용할 수 있습니다. 크로스 도메인 추적을 수행하려면. js 2.0 이상 버전과 함께 페이지에 ECID 라이브러리를 설치해야 합니다. It is highly recommended to use [Experience Cloud ID library 4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html). |
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
