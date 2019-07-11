@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 7 월 10 일 | [제한](/help/r-troubleshooting-target/target-limits.md) | 다음 항목에 대한 제한 정보가 추가되었습니다.<ul><li>활동당 전문가 수.</li><li>활동당 성공 지표 수.</li><li>활동당 보고 대상/세그먼트 수.</li><li>mbox, 지표 및 경험당 대상 수.</li><li>타깃팅 규칙당 고유한 값 수.</li><li>타깃팅 규칙당 고유한 고객 수.</li><li>활동당 고유한 타깃팅 규칙 수.</li><li>활성 프로필 스크립트 수.</li><li>총 프로필 스크립트 수.</li><li>프로필 스크립트당 총 루프 수.</li><li>라이브 활동 수.</li><li>활성 저장 (및 종료되지 않은) 활동 수.</li><li>속성 수.</li><li>오퍼 수.</li></ul> |
+|  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 Target 19.7.1 릴리스 (2019 년 7 월 23 일) 에 대한 정보가 추가되었습니다.<br>이 정보는 변경될 수 있습니다. |
 | 2019 년 7 월 8 일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | CNAME를 사용해야 하는 이유를 설명하는 정보가 추가되었습니다. |
 | 2019 년 6 월 28 일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[A 4 Tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[Offers-A 4 T FAQ 사용과 사용하지 않는 경우 Target와 Analytics 간의 예상 데이터 차이](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | A 4 T로 리디렉션을 사용하는 제한된 수의 고객이 더 높은 백분율의 비율을 볼 수 있도록 하는 알려진 문제에 대한 정보가 추가되었습니다. |
 | 2019 년 6 월 26 일 | [시각적인 경험 옵션](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
