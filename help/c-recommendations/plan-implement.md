@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | ![2단계](/help/c-recommendations/assets/step2_red.png) | 키 | 키는 권장 사항에 표시되는 제품 또는 컨텐츠의 유형을 결정합니다. 예를 들어, 제품 카테고리가 키일 수 있습니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)를 참조하십시오. |
 | ![3단계](/help/c-recommendations/assets/step3_red.png) | 속성 | 속성은 표시할 제품에 대한 보다 구체적인 정보를 제공합니다. 예를 들어, 특정 가격 범위 내 제품을 표시하거나 재고 임계값을 충족하는 항목을 표시할 수 있습니다. 속성은 mbox에서 또는 [피드](/help/c-recommendations/c-products/feeds.md).<br>[포함 규칙](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) 및 [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md)을 참조하십시오. |
 | ![4단계](/help/c-recommendations/assets/step4_red.png) | 제외 | 제외는 권장 사항에 표시되지 않는 특정 항목을 결정합니다.<br>[제외](/help/c-recommendations/c-products/exclusions.md)를 참조하십시오. |
-| ![5단계](/help/c-recommendations/assets/step5_red.png) | 구매 거래 | 구매 세부 사항에서는 구매한 항목과 구매가 완료된 주문에 대한 정보를 제공합니다. |
+| ![5단계](/help/c-recommendations/assets/step5_red.png) | 구입 세부 정보 | 구매 세부 사항에서는 구매한 항목과 구매가 완료된 주문에 대한 정보를 제공합니다. |
 
 ## 기본 구현 {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
@@ -44,7 +44,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 메서드 | 설명 |
 |--- |--- |
 | 페이지에 바로 매개 변수 전달 | 이 방법은 자주 변경되는 항목에 적합합니다. 하지만, 변경 사항을 페이지에 바로 적용해야 하므로 많은 조직의 경우 이 방법을 사용하려면 IT 및 페이지 구현 담당자가 있어야 합니다. |
-| Google 또는 CSV 피드를 통해 매개 변수 전달 | 이 방법은 자주 변경되지 않는 컬렉션에 적합합니다. 피드를 통해 제품 정보를 제공하는 데에는 일반적으로 mbox 구현이나 기타 페이지 코드를 변경할 필요가 없습니다. 하지만, 제품 목록이 계속 고정되어 있어서 빠른 변경은 더 어렵습니다. 자세한 내용은 [피드](/help/c-recommendations/c-products/feeds.md)를 참조하십시오. |
+| Google 또는 CSV 피드를 통해 매개 변수 전달 | 이 방법은 자주 변경되지 않는 컬렉션에 적합합니다. 피드를 통해 제품 정보를 제공하는 데에는 일반적으로 구현이나 기타 페이지 코드를 변경할 필요가 없습니다. 하지만, 제품 목록이 계속 고정되어 있어서 빠른 변경은 더 어렵습니다. 자세한 내용은 [피드](/help/c-recommendations/c-products/feeds.md)를 참조하십시오. |
 
 다음 예와 같이 이 방법들을 따로 사용하거나 함께 사용할 수도 있습니다.
 
