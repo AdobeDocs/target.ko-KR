@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 이 방법은 상대적으로 설정된 제품 카탈로그가 있지만 특정 시즌별 항목이나 판매 중인 항목을 강조하고 싶은 소매업자가 선호할 수 있습니다. 대부분의 고객은 가끔씩 페이지 조정만 하고, 주로 피드를 통해 정보를 제공할 수 있습니다.
 
-고정된 상태로 유지되는 정보를 제공하려면 피드를 사용하십시오. CSV 파일을 사용하든 Google 피드를 사용하든 다음 매개 변수를 사용합니다.
+자주 변경되지 않는 정보를 제공하는 피드를 사용합니다. CSV 파일을 사용하든 Google 피드를 사용하든 다음 매개 변수를 사용합니다.
 
 * 필수 매개 변수
 
@@ -62,12 +62,15 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 * 유용한 매개 변수
 
-   * `entity.cust1`
-   * `entity.cust2`
-   * `entity.cust3`
-   * 기타 모든 속성
+   * `entity.name`
+   * `entity.categoryId`
+   * `entity.brand`
+   * `entity.pageUrl`
+   * `entity.thumbnailUrl`
+   * `entity.message`
+   * 모든 사용자 지정 속성
 
-피드가 설정되어 [!DNL Recommendations]에 전달되면, 자주 변경되는 항목을 위한 페이지에서 매개 변수를 전달하십시오.
+Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
 
 * 필수 매개 변수
 
@@ -156,8 +159,7 @@ For more information about the differences between the two Target Javascript lib
 function targetPageParams() { 
    return { 
       "entity": { 
-         "categoryId": " 
-<i>My Category</i>" 
+         "categoryId": "My Category" 
       } 
    } 
 }
@@ -171,10 +173,8 @@ function targetPageParams() {
 function targetPageParams() { 
    return { 
       "entity": { 
-         "id": " 
-<i>32323</i>", 
-         "categoryId": " 
-<i>My Category</i>", 
+         "id": "32323", 
+         "categoryId": "My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 
