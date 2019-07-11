@@ -1,13 +1,13 @@
 ---
-description: Target의 시각적 경험 작성기를 사용하면 Target을 사용할 수 있는 페이지에 테스트를 쉽게 만들고 Target 내에서 해당 페이지의 부분을 수정할 수 있습니다.
+description: Target의 Visual Experience Composer를 사용하면 Target 지원 페이지에 MVT (다변수 테스트) 를 쉽게 만들고 Target 내에서 페이지의 일부를 수정할 수 있습니다.
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
-seo-description: Target의 시각적 경험 작성기를 사용하면 Target을 사용할 수 있는 페이지에 테스트를 쉽게 만들고 Target 내에서 해당 페이지의 부분을 수정할 수 있습니다.
+seo-description: Adobe Target의 Visual Experience Composer (VEC) 를 사용하면 Target 지원 페이지에 MVT (다변수 테스트) 를 쉽게 만들고 Target 내에서 페이지의 일부를 수정할 수 있습니다.
 seo-title: 다변량 테스트 만들기
 solution: Target
 title: 다변량 테스트 만들기
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 ---
 
@@ -32,13 +32,9 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   ![경험 타깃팅 활동 만들기 대화 상자](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
-
-   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   ![다변량 테스트 활동 만들기 대화 상자](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
 
    >[!NOTE]
-   >
-   >Target는 VEC 및 양식 기반 Experience Composer 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
