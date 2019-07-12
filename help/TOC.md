@@ -3,8 +3,8 @@ product: target
 audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/kr/target/using/target-home.html
-translation-type: ht
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+translation-type: tm+mt
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
          + [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Analytics 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [A/B 테스트의 여러 경험 버전](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/B 테스트의 여러 경험 대상](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 자동 할당 {#auto-allocate}
       + [자동 할당](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [승자 결정](c-activities/automated-traffic-allocation/determine-winner.md)
