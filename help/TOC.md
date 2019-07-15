@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/kr/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
+source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
       + Enterprise 사용자 권한 {#enterprise}
          + [Enterprise 사용자 권한](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 권한 구성](administrating-target/c-user-management/property-channel/properties-overview.md)
-   + [Scene7 설정](administrating-target/scene7-settings.md)
+   + [Dynamic Media Classic 통합](administrating-target/scene7-settings.md)
    + [호스트](administrating-target/hosts.md)
    + [응답 토큰](administrating-target/response-tokens.md)
 + Target 구현 {#implement-target}
