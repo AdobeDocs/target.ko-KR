@@ -8,7 +8,7 @@ title: 오퍼로서의 Recommendations
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    >
    >A/B 테스트의 경우 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 선택 사항을 선택하여 트래픽을 가장 성과가 좋은 권장 사항에 자동 푸시하거나 [자동 타겟](/help/c-activities/auto-target-to-optimize.md) 선택 사항을 선택하여 방문자를 해당 프로필에 따라 맞춤 권장 사항 경험에 할당할 수 있습니다.
 
-1. [경험](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 만드는 동안 권장 사항을 오퍼로 추가할 요소를 클릭하고 [!UICONTROL 다음 항목 앞에 삽입], [!UICONTROL 다음 항목 뒤에 삽입] 또는 [!UICONTROL 다음으로 바꾸기] 작업을 선택한 다음, [!UICONTROL 권장 사항]을 선택합니다.
+1. [경험을](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)만드는 동안 추천을 오퍼로 추가할 요소를 클릭하고 삽입 전에 **[!UICONTROL 삽입]**, 이후 **[!UICONTROL ]** 삽입 또는 작업으로 **[!UICONTROL 바꾸기를 선택한]** 다음 [!UICONTROL 권장 사항을 선택합니다].
 
    다음 그림은 [!UICONTROL 다음 항목 뒤에 삽입 &gt; 권장 사항] 선택 사항을 보여줍니다.
 
@@ -42,11 +42,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 다음 선택 사항 중에서 선택하여 페이지 유형별로 인기 있는 권장 사항 기준을 확인합니다.
 
-   * 문서 페이지
    * 장바구니 페이지
    * 카테고리 페이지
    * 홈 페이지
    * 랜딩 페이지
+   * 제품 페이지
+   * 검색 결과 페이지
+   * 감사 페이지
+   * 기타
 
 1. 원하는 [기준](/help/c-recommendations/c-algorithms/algorithms.md)을 선택하고 [!UICONTROL 다음]을 클릭합니다.
 1. 원하는 [디자인](/help/c-recommendations/c-design-overview/design-overview.md)을 선택하고 [!UICONTROL 다음]을 클릭합니다.
