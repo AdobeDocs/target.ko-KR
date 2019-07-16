@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
+source-git-commit: 1e0118d18d49235c7d5c437148db09273c218659
 
 ---
 
@@ -54,6 +54,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
    ![Recommendations 옵션](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    요소를 권장 사항으로 바꾸면 현재 컨텐츠가 삭제되고 권장 사항으로 바뀝니다.
+
 1. 페이지 유형을 선택합니다.
 
    페이지 유형에는 다음이 포함될 수 있습니다.
@@ -81,11 +82,11 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
    여러 기준을 선택하는 경우 선택한 기준 간에 트래픽이 균일하게 분할됩니다. 예를 들어, 두 개의 기준을 선택했으며 기본 컨텐츠를 활동 참여자의 20%에게 표시하도록 활동이 디자인된 경우 활동 참여자의 40%에게 각 기준에 따른 권장 사항이 표시됩니다. 각 기준의 백분율을 변경하는 옵션은 없습니다.
 
    * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
-
-      일부 기준은 [!DNL Recommendations]에서 제공됩니다. 사용자와 팀이 고유의 사용자 지정 기준을 만들 수도 있습니다.
+   일부 기준은 [!DNL Recommendations]에서 제공됩니다. 사용자와 팀이 고유의 사용자 지정 기준을 만들 수도 있습니다.
 
    * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 새 기준 만들기에 대한 내용은 [기준 만들기](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
    * 기준을 시퀀스로 그룹화할 수도 있습니다. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. 자세한 내용은 [기준 시퀀스 만들기](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
+
 
 1. **[!UICONTROL 다음]** 을 클릭합니다.
 1. [디자인을](/help/c-recommendations/c-design-overview/design-overview.md)선택합니다.
