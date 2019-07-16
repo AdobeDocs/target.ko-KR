@@ -8,7 +8,7 @@ title: A/B 테스트 만들기
 topic: 고급,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
 
 ---
 
@@ -41,7 +41,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
    >
    >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
 
-1. (조건부) Target Premium 고객인 경우 작업 영역을 선택합니다.
+1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. [활동 URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)를 지정하고 다음을 클릭합니다 **[!UICONTROL ]**.
 
