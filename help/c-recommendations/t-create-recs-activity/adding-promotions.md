@@ -1,8 +1,8 @@
 ---
 description: 프로모션된 항목을 추가하고 권장 사항 디자인에서 해당 배치를 제어합니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
 keywords: 프로모션;전면 프로모션;후속 프로모션;프로모션 유형
-seo-description: 프로모션된 항목을 추가하고 권장 사항 디자인에서 해당 배치를 제어합니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
-seo-title: 프로모션 추가
+seo-description: 홍보 항목을 추가하고 Adobe Target Recommendations 디자인에 해당 항목을 제어할 수 있습니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
+seo-title: Adobe Target Recommendations 디자인에 판촉을 추가합니다.
 solution: Target
 title: 프로모션 추가
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -35,9 +35,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >프로모션을 사용하면 CSV 구조 및 출력이 변경됩니다. 이러한 변경 사항은 CSV를 포함하는 외부 프로세스(예: 이메일)에 영향을 줄 수 있습니다.
 
-1. **[!UICONTROL 프로모션 추가]** 화면에서 **[!UICONTROL 전면 프로모션]** 또는 **[!UICONTROL 후속 프로모션]** 전환을 클릭합니다.
+1. **[!UICONTROL 옵션]** 페이지에서 **[!UICONTROL 앞면 프로모션]** 또는 **[!UICONTROL 뒤로 프로모션]** 전환을 클릭합니다.
 
-   ![](assets/add_promotion_front.png)
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+
+   ![전면 프로모션 옵션 추가](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    기준 결과 이전 *및* 이후에 프로모션을 삽입할 수 있습니다.
 1. 판촉된 항목에 사용할 디자인 슬롯 수를 설정합니다.
@@ -46,20 +48,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 판촉된 항목의 시작 날짜 및 종료 날짜를 설정합니다.
 
-   시작 날짜를 설정하지 않으면 프로모션이 즉시 시작됩니다. 종료 날짜를 설정하지 않으면 프로모션이 무기한 실행됩니다.
+   시작 날짜를 설정하지 않으면 즉시 프로모션이 시작됩니다. 종료 날짜를 설정하지 않으면 판촉 행사가 무기한으로 실행됩니다.
 
 1. **[!UICONTROL 프로모션 유형]을 선택합니다.**
 
    * **[!UICONTROL 항목 목록]** 을 선택하고, 판촉할 특정 항목의 `entity.id` 값을 쉼표로 구분해서 입력합니다.
-   목록에 프로모션용으로 설정한 슬롯 수보다 많은 항목이 포함된 경우 [!UICONTROL 항목 순서 무작위 지정] 선택란을 선택하여 디자인에 표시되는 판촉된 항목을 변경할 수 있습니다. 이렇게 하면 각 방문에 대해 설정된 전체 프로모션 중에서 템플릿의 프로모션에 대해 활성화된 항목 수가 무작위로 선택됩니다.
+
+      목록에 프로모션용으로 설정한 슬롯 수보다 많은 항목이 포함된 경우 **[!UICONTROL 항목 순서 무작위 지정]선택란을 선택하여 디자인에 표시되는 판촉된 항목을 변경할 수 있습니다.** 이 옵션을 선택하면 Target에서 각 방문에 대해 전체 판촉 행사 세트의 템플릿에서 판촉 행사에 대해 활성화된 항목 수를 임의로 선택할 수 있습니다.
 
    * **속성별 판촉[!UICONTROL ]을 선택하고 규칙을 추가하여 판촉할 항목의 속성을 정의합니다.**
-   속성별 판촉을 선택하는 경우 다이내믹 일치를 만들 수 있습니다. 자세한 내용은 [동적 및 정적 포함 규칙 사용](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하십시오.
+
+      속성별 판촉을 선택하는 경우 다이내믹 일치를 만들 수 있습니다. 자세한 내용은 [동적 및 정적 포함 규칙 사용](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하십시오.
 
    * **[!UICONTROL 컬렉션 판촉]을 선택하고 판촉할 항목의 컬렉션을 선택합니다.** 프로모션에 사용할 새 컬렉션을 만들 수 있습니다. 자세한 내용은 [컬렉션 만들기](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)를 참조하십시오.
 
-
-
 1. **[!UICONTROL 저장]** 을 클릭합니다.
 
-   활동의 모든 경험에 프로모션이 적용됩니다.
+활동의 모든 경험에 프로모션이 적용됩니다.
