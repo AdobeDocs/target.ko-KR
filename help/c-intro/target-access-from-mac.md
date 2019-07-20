@@ -28,21 +28,21 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![Target 아이콘](/help/c-intro/assets/appmenu-target-new.png)
 
-1. [!DNL Target] 카드에서 **[!UICONTROL 시작]** 을 클릭합니다.
+1. [!DNL Target] 카드에서 **[!UICONTROL 시작]**&#x200B;을 클릭합니다.
 
    ![Target 실행](/help/c-intro/assets/target-launch-new.png)
 
-1. (선택 사항) [!DNL Target]에 로그인할 때 [!DNL Experience Cloud]을 기본 보기로 설정하려면 프로필 아바타 아래의 **[!UICONTROL 프로필 편집]** 을 클릭한 후 랜딩 페이지 기본 설정을 지정합니다.
+1. (선택 사항) [!DNL Target]에 로그인할 때 [!DNL Experience Cloud]을 기본 보기로 설정하려면 프로필 아바타 아래의 **[!UICONTROL 프로필 편집]**&#x200B;을 클릭한 후 랜딩 페이지 기본 설정을 지정합니다.
 
    ![랜딩 페이지](/help/c-intro/assets/pagepref-new.png)
 
 ## Target UI {#language}에 대한 기본 언어 변경
 
-1. [!DNL Adobe Experience Cloud ] 또는 [!DNL Target]에 로그인한 후 프로필 아바타를 클릭한 다음 **[!UICONTROL 프로필 편집]** 을 클릭합니다.
+1. [!DNL Adobe Experience Cloud ] 또는 [!DNL Target]에 로그인한 후 프로필 아바타를 클릭한 다음 **[!UICONTROL 프로필 편집]**&#x200B;을 클릭합니다.
 
    ![프로필 편집](/help/c-intro/assets/change-language.png)
 
-1. **[!UICONTROL 개인 정보 편집]** 을 클릭합니다.
+1. **[!UICONTROL 개인 정보 편집]**&#x200B;을 클릭합니다.
 
 1. 상단 메뉴 모음에서 **[!UICONTROL 통신]** 탭을 클릭합니다.
 
