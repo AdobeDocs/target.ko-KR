@@ -31,13 +31,13 @@ Adobe Target에서 Adobe Analytics 기반 활동을 만들려면 사용자 계�
 
 ## 3단계: Experience Cloud 방문자 ID 서비스 구현
 
-방문자 ID 서비스를 통해 Experience Cloud 솔루션에서 사용자를 식별할 수 있습니다. 필요한 Experience Cloud 방문자 ID 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
+방문자 ID 서비스를 통해 Experience Cloud 솔루션에서 사용자를 식별할 수 있습니다. 필요한 Experience Cloud 방문자 ID 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 "구현 요구 사항"을 참조하십시오.
 
 Experience Cloud 방문자 ID 서비스 설명서의 [Target용 Experience Cloud ID 서비스 구현](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-target.html)을 참조하십시오.
 
 ## 4단계: AppMeasurement for JavaScript 또는 s_code의 AppMeasurement 업데이트
 
-필요한 appMeasurement.js 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
+필요한 appMeasurement.js 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 "구현 요구 사항"을 참조하십시오.
 
 신규 구현에 대해서는 [Analytics JavaScript 구현](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html)을 참조하십시오.
 
@@ -47,11 +47,11 @@ Experience Cloud 방문자 ID 서비스 설명서의 [Target용 Experience Cloud
 
 프로덕션 계정을 사용하여 필요한 at.js 또는 mbox.js 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 이 코드를 수정할 필요가 없습니다.
 
-자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
+자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 "구현 요구 사항"을 참조하십시오.
 
 ## 6단계: at.js 또는 mbox.js 호스팅
 
-이전에 at.js나 mbox.js를 배포한 경우에는 기존 파일을 업데이트된 버전으로 대체할 수 있습니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
+이전에 at.js나 mbox.js를 배포한 경우에는 기존 파일을 업데이트된 버전으로 대체할 수 있습니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 "구현 요구 사항"을 참조하십시오.
 
 그렇지 않으면, JavaScript 파일용 AppMeasurement 및 방문자 ID 서비스와 함께 이 파일을 호스트할 수 있습니다. 이러한 파일은 사이트의 모든 페이지에서 액세스할 수 있는 웹 서버에 호스트되어야 합니다. 다음 단계에서 이 파일에 대한 경로가 필요합니다.
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. 이 설정이 설정되면 반환되는 페이로드의 형식은 다음과 같이 나타납니다.
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. 이 설정이 설정되면 반환되는 페이로드의 형식은 다음과 같이 나타납니다.
 
 ```
 "analytics": {
@@ -100,7 +100,7 @@ This set up has a global effect, which means that every call made by at.js will 
 
 The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. Analytics 페이로드가 이 호출만 대해 반환되고 Target 백엔드는 페이로드를 Analytics로 전달하지 않습니다. 이 방법을 추구하면 at. js Target 요청이 기본적으로 페이로드를 반환하지는 않지만 대신 원할 때만 페이로드를 반환합니다.
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. Analytics 페이로드가 이 호출만 대해 반환되고 Target 백엔드는 페이로드를 Analytics로 전달하지 않습니다. 이 방법을 추구하면 at. js Target 요청이 기본적으로 페이로드를 반환하지는 않지만 대신 원할 때만 페이로드를 반환합니다.
 
 예:
 
