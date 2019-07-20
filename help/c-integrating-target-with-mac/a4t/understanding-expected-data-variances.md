@@ -15,7 +15,7 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 # A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산{#expected-data-variances-when-not-using-a-t}
 
-Analytics를 보고 소스(A4T)로 *사용*할 때와 *사용하지 않을* 때 [!DNL Target]와 Adobe [!DNL Analytics] 간에 예상되는 데이터 차이에 대한 정보입니다. A4T가 데이터 분산을 크게 줄임.
+Analytics를 보고 소스(A4T)로 *사용*&#x200B;할 때와 *사용하지 않을* 때 [!DNL Target]와 Adobe [!DNL Analytics] 간에 예상되는 데이터 차이에 대한 정보입니다. A4T가 데이터 분산을 크게 줄임.
 
 ## A4T를 사용할 때 예상되는 데이터 차이 {#expected-using-a4t}
 
@@ -55,7 +55,7 @@ A4T를 사용하면 활동에 대한 Analytics 및 Target 보고는 모두 Analy
 
 * [!DNL Target] 방문자는 쿠키와 JavaScript를 허용해야 합니다.
 * 자사 쿠키와 타사 쿠키가 다르게 처리되므로 이러한 쿠키 유형의 데이터는 일치하지 않습니다.
-* 페이지에서 태그의 상대 위치와 페이지가 완전히 로드되기 전에 페이지를 종료하는 방문자로 인한 &quot;누수&quot;
+* 페이지에서 태그의 상대 위치와 페이지가 완전히 로드되기 전에 페이지를 종료하는 방문자로 인한 "누수"
 * 시간대 고려 사항
 * 장치가 카운트될 수 있는 차이
 
