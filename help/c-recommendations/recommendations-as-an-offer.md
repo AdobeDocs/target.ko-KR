@@ -34,7 +34,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
    >
    >A/B 테스트의 경우 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 선택 사항을 선택하여 트래픽을 가장 성과가 좋은 권장 사항에 자동 푸시하거나 [자동 타겟](/help/c-activities/auto-target-to-optimize.md) 선택 사항을 선택하여 방문자를 해당 프로필에 따라 맞춤 권장 사항 경험에 할당할 수 있습니다.
 
-1. [경험을](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)만드는 동안 추천을 오퍼로 추가할 요소를 클릭하고 삽입 전에 **[!UICONTROL 삽입]**, 이후 **[!UICONTROL ]** 삽입 또는 작업으로 **[!UICONTROL 바꾸기를 선택한]** 다음 [!UICONTROL 권장 사항을 선택합니다].
+1. [경험을](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)만드는 동안 추천을 오퍼로 추가할 요소를 클릭하고 삽입 전에 **[!UICONTROL 삽입]**, 이후 ****&#x200B;삽입 또는 작업으로 **[!UICONTROL 바꾸기를 선택한]** 다음 [!UICONTROL 권장 사항을 선택합니다].
 
    다음 그림은 [!UICONTROL 다음 항목 뒤에 삽입 &gt; 권장 사항] 선택 사항을 보여줍니다.
 
@@ -85,7 +85,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 편집
 
-1. [!UICONTROL 수정 사항] 아이콘 *`&lt;/&gt;&#39;*을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. [!UICONTROL 수정 사항] 아이콘 *`&lt;/&gt;'*&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
 1. 원하는 작업을 마우스로 가리킨 다음, [!UICONTROL 편집] 아이콘을 클릭합니다.
 
    ![수정 사항 패널](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -107,7 +107,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 삭제
 
-1. [!UICONTROL 수정 사항] 아이콘 *`&lt;/&gt;&#39;*을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. [!UICONTROL 수정 사항] 아이콘 *`&lt;/&gt;'*&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
 1. 원하는 작업을 마우스로 가리킨 다음, [!UICONTROL 삭제] 아이콘을 클릭합니다.
 
    ![삭제 아이콘](/help/c-recommendations/assets/recs-offer-delete.png)
