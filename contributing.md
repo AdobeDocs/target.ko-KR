@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
+translation-type: tm+mt
 
 ---
 # 기여
@@ -23,14 +23,15 @@ translation-type: ht
 
 본 프로젝트에 대한 모든 타사 기여는 서명된 기여자 라이센스 계약을
 동반해야 합니다. 이를 통해 Adobe는 귀하의 기여를 프로젝트의 일부로서
-재배포할 수 있는 권한을 얻게 됩니다. [CLA에 서명하십시오](http://opensource.adobe.com/cla.html). Adobe
+재배포할 수 있는 권한을 얻게 됩니다. [CLA](http://opensource.adobe.com/cla.html)에 서명하십시오. Adobe
 CLA는 한 번만 제출하면 되므로 이전에 제출한 적이 있다면 언제든지 해당
 제품을 이용할 수 있습니다.
 
 ## 수칙 검토
 
 모든 제출 사항은 끌어오기 요청 양식으로 제출해야 하며 프로젝트 커미터가
-검토해야 합니다. 끌어오기 요청 전송에 대한 자세한 내용은 [GitHub의 끌어오기 요청 설명서](https://help.github.com/articles/about-pull-requests/)를 참조하십시오.
+검토해야 합니다. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/)
+for more information on sending pull requests.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -48,4 +49,4 @@ Adobe는 커뮤니티의 기여를 환영합니다. 기여자를 넘어 한 걸�
 
 ## 보안 문제
 
-보안 문제는 이 문제 추적기에서 보고할 수 없습니다. 대신, [보안 전문가에게 문제를 제기하십시오.](https://helpx.adobe.com/kr/security/alertus.html)
+보안 문제는 이 문제 추적기에서 보고할 수 없습니다. Instead, [file an issue to our security experts](https://helpx.adobe.com/security/alertus.html)
