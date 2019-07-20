@@ -31,4 +31,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## A4T의 전환은 여러 캠페인에서 비롯됩니까? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-예. 이 작업은 &quot;전체 할당&quot; 설정을 통해 수행됩니다.
+예. 이 작업은 "전체 할당" 설정을 통해 수행됩니다.
