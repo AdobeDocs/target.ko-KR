@@ -23,8 +23,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!DNL Target]에서는 두 가지 유형의 대상을 정의합니다.
 
-* **타깃팅 대상:** 다양한 유형의 방문자에게 다양한 컨텐츠를 전달하는 데 사용되는 입니다.
-* **보고 대상:** 테스트 결과를 분석할 수 있도록 다양한 유형의 방문자가 동일한 컨텐츠에 어떻게 반응하는지를 판별하는 데 사용됩니다.
+* **타깃팅 대상:**&#x200B;다양한 유형의 방문자에게 다양한 컨텐츠를 전달하는 데 사용되는 입니다.
+* **보고 대상:**&#x200B;테스트 결과를 분석할 수 있도록 다양한 유형의 방문자가 동일한 컨텐츠에 어떻게 반응하는지를 판별하는 데 사용됩니다.
 
    [!DNL Target]에서는 [!DNL Target]을 보고 소스로 사용하는 경우에만 보고 대상을 구성할 수 있습니다. [DNL Adobe Analytics를 보고 소스](/help/c-integrating-target-with-mac/a4t/a4t.md) (A 4 T) 로 사용하는 경우 내에서 보고 대상을 구성해야 [!DNL Analytics]합니다.
 
@@ -34,7 +34,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ![대상 목록](assets/audiences_list.png)
 
-[!UICONTROL 대상자] 목록에는 활동에서 사용할 수 있는 모든 대상자가 포함되어 있습니다. 대상자를 작성, 편집, 삭제, 복사 또는 결합하려면 [!UICONTROL 대상자] 목록을 사용하십시오. 대상이 만들어진 소스([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),], [!DNL Experience Cloud] 등)도 이 목록에 표시됩니다. &quot;새 방문자 수&quot;나 &quot;재방문자 수&quot;와 같이 사전 정의된 대상은 이름을 바꿀 수 없습니다.
+[!UICONTROL 대상자] 목록에는 활동에서 사용할 수 있는 모든 대상자가 포함되어 있습니다. 대상자를 작성, 편집, 삭제, 복사 또는 결합하려면 [!UICONTROL 대상자] 목록을 사용하십시오. 대상이 만들어진 소스([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),], [!DNL Experience Cloud] 등)도 이 목록에 표시됩니다. "새 방문자 수"나 "재방문자 수"와 같이 사전 정의된 대상은 이름을 바꿀 수 없습니다.
 
 AAM에서 원래 만들어진 대상과 작업할 때 AAM에서 나중에 삭제된 Target 활동에서 대상을 참조할 경우 Target에서 사용자에게 경고합니다.
 
@@ -74,7 +74,7 @@ AAM에서 원래 만들어진 대상과 작업할 때 AAM에서 나중에 삭제
 | 대상 유형 | 세부 사항 |
 |--- |--- |
 | 모바일 대상 | 마케팅 이름, 공급업체 및 모델.<br>`matches | does not match` 연산자가 `equals | does not equal`<br>![가져온 모바일 대상](/help/c-target/c-audiences/assets/imported_mobile_audience.png) 대신 표시됩니다. |
-| 방문자 행동 대상 | **user.categoryAffinity:** `FAVORITE` 매개 변수와 함께 `categoryAffinity`<br>![가져온 카테고리 친화성](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**모니터링:** 모니터링 서비스가 true입니다.<br>**모니터링 서비스 없음:** 모니터링 서비스가 false와 같음.<br>![가져온 모니터링](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| 방문자 행동 대상 | **user.categoryAffinity:** `FAVORITE` 매개 변수와 함께 `categoryAffinity`<br>![가져온 카테고리 친화성](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**모니터링:** 모니터링 서비스가 true입니다.<br>**모니터링 서비스 없음:**&#x200B;모니터링 서비스가 false와 같음.<br>![가져온 모니터링](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | NOT 연산자를 사용하는 대상 | **단일 규칙:** Target에 대상이 `[All Visitor AND [NOT [rule]` 형식으로 표시됩니다. 단일 NOT 규칙이 `AllVisitor` 대상 및 AND와 함께 표시됩니다.<br>![가져온 Not 대상](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 가져온 대상으로 작업할 때에는 다음 사항을 잊지 마십시오.
@@ -86,7 +86,7 @@ AAM에서 원래 만들어진 대상과 작업할 때 AAM에서 나중에 삭제
 
 다음 비디오에는 대상 사용에 대한 정보가 포함되어 있습니다.
 
-* 용어 &quot;대상&quot; 설명
+* 용어 "대상" 설명
 * 최적화에 대상을 사용하는 두 가지 방법 설명
 * 대상자 목록에서 대상자 찾기
 * 활동을 대상에 타깃팅
