@@ -37,7 +37,7 @@ Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송�
 
    자세한 내용은 [at.js 다운로드](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오.
 
-1. [!DNL Target]에서 **[!UICONTROL 설정]** &gt; **[!UICONTROL 응답 토큰]** 을 클릭합니다.
+1. [!DNL Target]에서 **[!UICONTROL 설정]** &gt; **[!UICONTROL 응답 토큰]**&#x200B;을 클릭합니다.
 
    ![](assets/response_tokens.png)
 
@@ -48,15 +48,15 @@ Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송�
    | 유형 | 매개 변수 | 참고 |
    |--- |--- |--- |
    | 내장 프로필 | `profile.activeActivities` | 방문자가 자격을 갖는 일련의 `activityIds`를 반환합니다. 사용자가 자격을 갖게 됨에 따라 증가합니다. 예를 들어, 두 개의 서로 다른 활동을 전달하는 두 개의 mbox가 있는 페이지에서 두 번째 mbox가 두 활동을 모두 포함하게 됩니다. |
-   |  | `profile.isFirstSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
-   |  | `profile.isNewSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
+   |  | `profile.isFirstSession` | "true" 또는 "false"를 반환합니다. |
+   |  | `profile.isNewSession` | "true" 또는 "false"를 반환합니다. |
    |  | `profile.daysSinceLastVisit` | 방문자가 마지막으로 방문한 이후 경과한 일수를 반환합니다. |
    |  | `profile.tntId` | 방문자의 tntID를 반환합니다. |
    |  | `profile.marketingCloudVisitorId` | 방문자의 Experience Cloud 방문자 ID를 반환합니다. |
    |  | `profile.thirdPartyId` | 방문자의 타사 ID를 반환합니다. |
    |  | `profile.categoryAffinity` | 방문자가 즐겨 찾는 카테고리를 반환합니다. |
    |  | `profile.categoryAffinities` | 방문자의 상위 5개 카테고리의 배열을 문자열로 반환합니다. |
-   | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 현재 활동의 세부 사항입니다. &quot;option&quot;은 &quot;offer&quot;와 같습니다. |
+   | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 현재 활동의 세부 사항입니다. "option"은 "offer"와 같습니다. |
    | 지역 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 활동에서 지역 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [지역](/help/c-target/c-audiences/c-target-rules/geo.md)을 참조하십시오. |
 
    사용자 프로필 속성 및 고객 속성도 목록에 표시됩니다.
@@ -67,7 +67,7 @@ Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송�
 
 1. (조건부) 프로필 매개 변수를 응답 토큰으로 사용하고 싶지만, 매개 변수가 mbox 호출을 통해 전달되지 않아서 Target UI에 로드되지 않은 경우, 만들기 단추를 사용하여 프로필을 UI에 추가할 수 있습니다.
 
-   **[!UICONTROL 만들기]** 를 클릭하고 토큰 이름을 제공한 다음, **[!UICONTROL 활성화]** 를 클릭하십시오.
+   **[!UICONTROL 만들기]**&#x200B;를 클릭하고 토큰 이름을 제공한 다음, **[!UICONTROL 활성화]**&#x200B;를 클릭하십시오.
 
    ![](assets/response_token_create.png)
 
