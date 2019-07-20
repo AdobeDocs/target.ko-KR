@@ -306,7 +306,7 @@ mbox 요소에서 이미지를 교체한 다음, mbox 요소 크기에 따라 �
 
 **컨텐츠 라이브러리(Scene7)에서 이미지를 삽입하고 HTML을 편집하면 이미지 URL이 손상됩니다.**
 
-일부 더미 텍스트와 함께 &#39;customHeaderMessage&#39; div 내부에 앵커 요소를 추가합니다.
+일부 더미 텍스트와 함께 'customHeaderMessage' div 내부에 앵커 요소를 추가합니다.
 
 ```
 <a href="#"> 
