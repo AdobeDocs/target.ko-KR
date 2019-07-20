@@ -22,17 +22,17 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >Target Classic에서는 표현식 타겟을 사용하여 복잡한 타겟을 한 번 만든 다음 이것을 다양한 활동, 경험 등에서 반복적으로 사용할 수 있도록 했습니다. 이 기능은 Target Standard/Premium에 포함되어 있지 않습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 타겟 라이브러리]** 를 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 타겟 라이브러리]**&#x200B;를 클릭합니다.
 
    ![타겟 라이브러리](assets/target_library.png)
 
-1. **[!UICONTROL 선택]** 을 클릭한 다음, 사전 빌드된 타깃팅 규칙을 선택합니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭한 다음, 사전 빌드된 타깃팅 규칙을 선택합니다.
 
    사전 빌드된 타깃팅 규칙에는 Windows 운영 체제, 태블릿 장치, Safari 브라우저, 재방문자, Google에서 참조 등이 포함됩니다.
 
-   사전 정의된 대상 &quot;태블릿 장치&quot; 는 사용자 에이전트가 다음 문자열 중 하나 (일부 장치의 모델 번호로) 를 포함할 때 이미 적합합니다. 이 장치들에 대한 사용자 지정 타깃팅 규칙은 만들 필요가 없습니다.
+   사전 정의된 대상 "태블릿 장치" 는 사용자 에이전트가 다음 문자열 중 하나 (일부 장치의 모델 번호로) 를 포함할 때 이미 적합합니다. 이 장치들에 대한 사용자 지정 타깃팅 규칙은 만들 필요가 없습니다.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 및 Tablet PC.
 
