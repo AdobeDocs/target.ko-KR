@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->이 함수는 at.js 버전 1.*x*에만 사용할 수 있습니다. 이 함수는 at.js 2.x의 릴리스에서 더 이상 사용되지 않으며, at.js 2.x에서 사용하는 경우 기본 콘텐츠를 반환합니다.
+>이 함수는 at.js 버전 1.*x*&#x200B;에만 사용할 수 있습니다. 이 함수는 at.js 2.x의 릴리스에서 더 이상 사용되지 않으며, at.js 2.x에서 사용하는 경우 기본 콘텐츠를 반환합니다.
 
 이 함수는 주로 [!DNL mbox.js]에서 [!DNL at.js]로 간편하게 전환하기 위해 [!DNL at.js]에 내장되어 있습니다. `mboxCreate()`에 대한 최신 대안은 `adobe.target.getOffer()`/`adobe.target.applyOffer()` 또는 Angular 지시문입니다.
 
@@ -36,7 +36,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 참고
 
-`mboxCreate()`은 이제 &quot;standard&quot; 종단점 대신 &quot;json&quot; 엔드포인트를 사용하며 비동기식으로 실행됩니다. 이 때문에
+`mboxCreate()`은 이제 "standard" 종단점 대신 "json" 엔드포인트를 사용하며 비동기식으로 실행됩니다. 이 때문에
 
 * [디버깅](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)이 약간 다릅니다.
 * 동기식 호출 차단을 요구하는 오퍼 코드를 피해야 합니다.
