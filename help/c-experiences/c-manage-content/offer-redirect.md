@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 한 페이지 내의 컨텐츠 일부만 변경하는 대신, 완전히 다른 두 페이지를 테스트할 수 있습니다. 이 경우 A/B 테스트는 페이지 A 및 페이지 B를 비교합니다. 두 가지 경험인 기본 페이지 A를 가리키는 경험과 페이지 B로 리디렉션되는 경험을 사용하여 A/B 테스트 캠페인을 설정합니다. 오퍼는 방문자를 다른 페이지로 리디렉션하도록 구성됩니다.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >ajax mbox에서 리디렉션 오퍼를 사용할 수 없습니다(`mboxUpdate`).
 
@@ -31,14 +31,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 리디렉션 오퍼는 JavaScript 코드를 실행하여 브라우저를 리디렉션합니다. `window.location.replace();` 메서드를 사용하므로 방문자를 리디렉션하는 페이지는 브라우저 기록에 저장되지 않습니다. 방문자는 여전히 브라우저에서 뒤로 단추를 사용할 수 있습니다.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >랜딩 페이지의 레퍼러 값을 전달하려면 리디렉션 오퍼보다는 HTML 오퍼를 사용하는 것이 좋습니다.
 
 **리디렉션 오퍼를 만들려면:**
 
-1. **[!UICONTROL 오퍼]** 를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
-1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL 리디렉션 오퍼]** 를 클릭합니다.
+1. **[!UICONTROL 오퍼]**&#x200B;를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
+1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL 리디렉션 오퍼]**&#x200B;를 클릭합니다.
 1. 오퍼 이름을 입력합니다.
 1. 재지정할 고유 컨텐츠 또는 대상의 URL을 입력하십시오. 절대 URL을 사용해야 합니다.
 
@@ -56,7 +56,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    자사 및 타사 쿠키 설정을 사용하는 경우에는 도메인 간에 이동할 때 mbox 세션 ID를 전달할 필요가 없습니다. 타사 쿠키에서 지속되므로 URL에는 필요하지 않습니다.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class="- topic/note "}
 >
 >이 테스트를 실행하기 전에 담당 구현 컨설턴트에게 문의하십시오.
 
