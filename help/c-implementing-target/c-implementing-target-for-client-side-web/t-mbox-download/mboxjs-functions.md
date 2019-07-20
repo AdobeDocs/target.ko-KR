@@ -61,8 +61,8 @@ mbox.js를 사용하여 구현할 때 사용할 mbox.js 함수 목록입니다.
 | `mboxFactoryDefault.getPageId()` |  |
 | `mboxFactoryDefault.getPCId().getId()` |  |
 | `mboxFactoryDefault.getSessionId().getId()` |  |
-| `mboxFactories.get('default').getSessionId()​.forceId("1276011116668");` |  |
-| `mboxFactories.get('default').getPCId()​.forceId("1276011116668");` |  |
+| `mboxFactories.get('default').getSessionId()&#x200B;.forceId("1276011116668");` |  |
+| `mboxFactories.get('default').getPCId()&#x200B;.forceId("1276011116668");` |  |
 | `mboxFactoryDefault.create()` |  |
 | `mboxFactoryDefault.disable()` |  |
 | `mboxFactoryDefault.enable()` |  |
@@ -80,5 +80,5 @@ mbox.js를 사용하여 구현할 때 사용할 mbox.js 함수 목록입니다.
 | `mboxFactoryDefault.isSupported()` |  |
 | `mboxFactoryDefault.limitTraffic()` |  |
 | `mboxFactoryDefault.update()` |  |
-| `mboxFactoryDefault.getCookieManager()​.getCookie("name")//!= null) {` |  |
-| `mboxFactoryDefault.getCookieManager()​.setCookie(_name,_value, _duration);` |  |
+| `mboxFactoryDefault.getCookieManager()&#x200B;.getCookie("name")//!= null) {` |  |
+| `mboxFactoryDefault.getCookieManager()&#x200B;.setCookie(_name,_value, _duration);` |  |
