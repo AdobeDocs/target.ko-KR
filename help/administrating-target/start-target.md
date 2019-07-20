@@ -35,15 +35,15 @@ After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept
 
    Adobe ID가 있는 경우 Adobe ID가 인식되면 로그인하라는 메시지가 표시됩니다.
 1. 사용약관에 동의합니다.
-1. 지금까지 수행한 작업에 대한 요약을 검토하고 **[!UICONTROL Experience Cloud 계속]** 을 클릭합니다.
-1. Adobe Experience Cloud에 로그인하고 **[!UICONTROL 계정 연결]** 을 클릭합니다.
+1. 지금까지 수행한 작업에 대한 요약을 검토하고 **[!UICONTROL Experience Cloud 계속]**&#x200B;을 클릭합니다.
+1. Adobe Experience Cloud에 로그인하고 **[!UICONTROL 계정 연결]**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
    >계정을 연결하지 않으면 [!DNL Target]에 액세스할 수 없습니다.
 
    모든 Experience Cloud 제품이 연결 페이지에 표시됩니다. `Link Test&Target`을 클릭하고 Test&amp;Target 사용자 이름 및 암호를 입력하여 Standard 및 Classic에 액세스합니다.
-1. **[!UICONTROL Experience Cloud로 계속]** 을 클릭합니다.
+1. **[!UICONTROL Experience Cloud로 계속]**&#x200B;을 클릭합니다.
 
    이 시점에서는 연결할 자격이 있는 그룹이 아직 설정되어 있지 않습니다.
 1. 원할 경우 [!DNL Adobe Experience Cloud]를 소개하는 비디오를 시청하십시오.
