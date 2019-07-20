@@ -62,7 +62,7 @@ at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리�
 
 ## 교육 비디오: at.js - 이점 및 구현 우수 사례
 
-이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
+이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 "[운영시간](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)" 기록입니다.
 
 * at.js 라이브러리 작동 방식
 * mbox.js에 비해 at.js의 장점
