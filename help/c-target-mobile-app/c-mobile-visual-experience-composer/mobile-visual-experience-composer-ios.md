@@ -17,24 +17,24 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Adobe Target 모바일 앱 VEC(시각적 경험 작성기)를 사용하여 개발자는 iOS 모바일 앱에서 일회성 설정을 수행하고 마케터는 모바일 앱 VEC의 기능을 사용할 수 있습니다.
 
-Adobe Target VEC 확장 프로그램 활성화에 대한 자세한 내용은 [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec)에서 *Adobe Target - 시각적 경험 작성기*를 참조하십시오.
+Adobe Target VEC 확장 프로그램 활성화에 대한 자세한 내용은 [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec)에서 *Adobe Target - 시각적 경험 작성기*&#x200B;를 참조하십시오.
 
 ## Mobile SDK 및 Target 라이브러리 포함 {#sdk-library}
 
-1. &#39;Pod [!DNL Podfile]&#39;(을)를 추가하여 Cocoapods를 통해 프로젝트에 라이브러리를 추가합니다.`ACPTargetVEC`
+1. 'Pod [!DNL Podfile]'(을)를 추가하여 Cocoapods를 통해 프로젝트에 라이브러리를 추가합니다.`ACPTargetVEC`
 
 1. XCode에서 Objective-C 애플리케이션 프로젝트를 엽니다.
 
-1. 아직 설정되지 않았다면 프로젝트 빌드 설정으로 이동하여 &#39;Always Embed swift Standard Libraries&#39;를 Yes로 설정합니다.
+1. 아직 설정되지 않았다면 프로젝트 빌드 설정으로 이동하여 'Always Embed swift Standard Libraries'를 Yes로 설정합니다.
 
-1. 프로젝트 빌드 설정에서 &quot;Other linker flags&quot;를 찾고 아직 없는 경우 `$(inherited)`를 추가합니다.
+1. 프로젝트 빌드 설정에서 "Other linker flags"를 찾고 아직 없는 경우 `$(inherited)`를 추가합니다.
 
 1. objective-C 전용 프로젝트의 경우 - 스위프트 파일을 만들어 브릿징 헤더를 만듭니다. Swift를 위한 애플리케이션 환경을 설정하게 됩니다.
 
 1. 딥링크 핸들러를 추가합니다.
 
    1. 애플리케이션 프로젝트 설정에서 **[!UICONTROL 정보를 클릭합니다]**.
-   1. **[!UICONTROL URL 유형]** 에서 삼각형을 클릭하여 연 다음 더하기 기호를 클릭하여 새 필드를 추가합니다.
+   1. **[!UICONTROL URL 유형]**&#x200B;에서 삼각형을 클릭하여 연 다음 더하기 기호를 클릭하여 새 필드를 추가합니다.
    1. 다음 정보를 추가합니다.
 
       * 식별자: `com.adobe.sdktest`
@@ -173,7 +173,7 @@ ACPTargetVEC.setGlobalRequest(targetParams)
 
 **다음 보기 트리거에 대한 매개 변수 전달:**
 
-앱에 있는 각 보기 컨트롤러에 대해 &quot;`AUTO_<viewControllerName>`&quot;과 같이 기본적으로 생성되는 일부 자동 보기가 제공되어 있습니다. 이러한 매개 변수를 전달하려는 경우 다음 API를 호출할 수 있습니다.
+앱에 있는 각 보기 컨트롤러에 대해 "`AUTO_<viewControllerName>`"과 같이 기본적으로 생성되는 일부 자동 보기가 제공되어 있습니다. 이러한 매개 변수를 전달하려는 경우 다음 API를 호출할 수 있습니다.
 
 ```
 //For Objective-c 
