@@ -23,8 +23,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 |--- |--- |--- |--- |
 | mbox | 문자열 | 예 | Mbox 이름 |
 | params | 개체 | 아니오 | Mbox 매개 변수입니다. 다음 구조를 가진 키 - 값 쌍의 개체입니다.<br>`{ "param1": "value1", "param2": "value2"}` |
-| 성공 | 함수 | 예 | 서버에서 응답을 받았을 때 실행할 콜백입니다. 성공 콜백 함수는 오퍼 개체의 배열을 나타내는 단일 매개 변수를 수신합니다. 다음은 성공 콜백 예입니다.<br>`function handleSuccess(response){......}`<br>자세한 내용은 아래의 &quot;응답&quot;을 참조하십시오. |
-| 오류 | 함수 | 예 | 오류가 발생한 경우 실행할 콜백입니다. 오류가 있는 것으로 간주되는 몇 가지 경우가 있습니다.<ul><li>HTTP 상태 코드가 200 정상이 아닙니다.</li><li>응답을 구문 분석할 수 없습니다. 예를 들어, JSON이 잘못 구성되었거나 JSON 대신 HTML이 구성되었습니다.</li><li>응답에 &quot;오류&quot; 키가 포함되어 있습니다. 예를 들어, 요청을 제대로 처리할 수 없다는 예외가 에지에서 발생했습니다. mbox가 차단되어 컨텐츠를 검색할 수 없는 등의 경우 오류가 발생했습니다. 오류 콜백 함수는 두 개의 매개 변수(status 및 error)를 수신합니다. 다음은 오류 콜백 예제입니다. `function handleError(status, error){......}`</li></ul>자세한 내용은 오류 응답을 참조하십시오. |
+| 성공 | 함수 | 예 | 서버에서 응답을 받았을 때 실행할 콜백입니다. 성공 콜백 함수는 오퍼 개체의 배열을 나타내는 단일 매개 변수를 수신합니다. 다음은 성공 콜백 예입니다.<br>`function handleSuccess(response){......}`<br>자세한 내용은 아래의 "응답"을 참조하십시오. |
+| 오류 | 함수 | 예 | 오류가 발생한 경우 실행할 콜백입니다. 오류가 있는 것으로 간주되는 몇 가지 경우가 있습니다.<ul><li>HTTP 상태 코드가 200 정상이 아닙니다.</li><li>응답을 구문 분석할 수 없습니다. 예를 들어, JSON이 잘못 구성되었거나 JSON 대신 HTML이 구성되었습니다.</li><li>응답에 "오류" 키가 포함되어 있습니다. 예를 들어, 요청을 제대로 처리할 수 없다는 예외가 에지에서 발생했습니다. mbox가 차단되어 컨텐츠를 검색할 수 없는 등의 경우 오류가 발생했습니다. 오류 콜백 함수는 두 개의 매개 변수(status 및 error)를 수신합니다. 다음은 오류 콜백 예제입니다. `function handleError(status, error){......}`</li></ul>자세한 내용은 오류 응답을 참조하십시오. |
 | timeout | 숫자 | 아니오 | 시간 초과(밀리 초)입니다. 지정하지 않으면 at.js의 기본 시간 초과가 사용됩니다.<br>[!DNL Target]기본 시간 초과는 UI의 [!UICONTROL 설정 &gt; 구현 &gt; Mbox.js 설정 편집 &gt; 시간 초과]에서 설정할 수 있습니다. |
 
 ## 예 {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
@@ -75,7 +75,7 @@ adobe.target.getOffer({
 
 getOffer()와 함께 사용자 지정 시간 초과 및 사용자 지정 성공 처리 사용:
 
-&quot;YOUR_OWN_CUSTOM_HANDLING_FUNCTION&quot;은 고객이 정의하는 함수의 자리 표시자입니다.
+"YOUR_OWN_CUSTOM_HANDLING_FUNCTION"은 고객이 정의하는 함수의 자리 표시자입니다.
 
 ```
 adobe.target.getOffer({     
@@ -124,7 +124,7 @@ adobe.target.getOffer({
 
 ## 오류 응답 {#section_1ACCE79AF2CB4FA2AD1371EA06AF129F}
 
-오류 콜백에 전달되는 &quot;status&quot; 및 &quot;error&quot; 매개 변수의 형식은 다음과 같습니다.
+오류 콜백에 전달되는 "status" 및 "error" 매개 변수의 형식은 다음과 같습니다.
 
 | 이름 | 유형 | 설명 |
 |--- |--- |--- |
