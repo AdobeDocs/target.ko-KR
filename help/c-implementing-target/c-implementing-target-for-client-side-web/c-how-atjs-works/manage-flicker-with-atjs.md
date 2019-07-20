@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 자동 생성된 글로벌 mbox 사용 {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-at.js 구성 시 [글로벌 mbox를 자동으로 만들기](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) 설정을 활성화하면 at.js가 페이지 로드 시 불투명도 설정을 변경하여 플리커(깜박임)를 관리합니다. at.js가 로드되면 at.js는 요소의 불투명도 설정을 <body> &quot;0&quot;으로 변경하여 방문자가 처음에 페이지를 볼 수 있도록 합니다. Target에서 응답을 받은 후 또는 Target 요청에 오류가 감지되면 at.js가 불투명도를 &quot;1&quot;로 재설정합니다. 이렇게 하면 활동의 컨텐츠가 적용된 후에만 방문자에게 페이지가 표시됩니다.
+at.js 구성 시 [글로벌 mbox를 자동으로 만들기](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) 설정을 활성화하면 at.js가 페이지 로드 시 불투명도 설정을 변경하여 플리커(깜박임)를 관리합니다. at.js가 로드되면 at.js는 요소의 불투명도 설정을 <body> "0"으로 변경하여 방문자가 처음에 페이지를 볼 수 있도록 합니다. Target에서 응답을 받은 후 또는 Target 요청에 오류가 감지되면 at.js가 불투명도를 "1"로 재설정합니다. 이렇게 하면 활동의 컨텐츠가 적용된 후에만 방문자에게 페이지가 표시됩니다.
 
 at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 불투명도를 0으로 설정합니다. Target의 응답을 받은 후 at.js는 HTML BODY 불투명도를 1로 재설정합니다.
 
@@ -29,7 +29,7 @@ at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 
 
 구현에서 불투명도 0이 작동하지 않는 경우 `bodyHiddenStyle`을 사용자 지정하여 깜박임을 관리하고 `body {visibility:hidden !important}`로 설정할 수도 있습니다. body `{opacity:0 !important`} 또는 `body {visibility:hidden !important}` 중 특정 환경에 가장 적합한 것을 사용할 수 있습니다.
 
-다음 그림에서는 at.js 1.*x*와 at.js 2.x의 본문 숨기기와 본문 표시 호출을 보여줍니다.
+다음 그림에서는 at.js 1.*x*&#x200B;와 at.js 2.x의 본문 숨기기와 본문 표시 호출을 보여줍니다.
 
 **at.js 2.x**
 
@@ -143,4 +143,4 @@ mboxCreate('some-mbox');
 </script>
 ```
 
-페이지가 적절하게 공급되면 at.js는 mboxDefault 클래스를 사용하여 요소의 CSS &quot;가시성&quot; 속성을 적절하게 전환하여 플리커를 관리합니다.
+페이지가 적절하게 공급되면 at.js는 mboxDefault 클래스를 사용하여 요소의 CSS "가시성" 속성을 적절하게 전환하여 플리커를 관리합니다.
