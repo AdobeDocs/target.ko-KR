@@ -36,9 +36,9 @@ Target에 다음 오류 메시지가 표시될 수 있습니다.
 
 다음은 이 오류 메시지와 상황을 수정할 조치를 볼 수 있는 이유입니다.
 
-* **문제:** 웹 사이트 도메인(ISP)에서 고급 경험 작성기를 차단하고 있습니다.
+* **문제:**&#x200B;웹 사이트 도메인(ISP)에서 고급 경험 작성기를 차단하고 있습니다.
 
-   **해결 방법:** 위에 나열된 IP 주소를 허용 목록에 포함하십시오.
+   **해결 방법:**&#x200B;위에 나열된 IP 주소를 허용 목록에 포함하십시오.
 
 * **문제:** IP 주소는 화이트리스트에 추가되었지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. Target은 현재 1.2의 기본 구성을 사용하고 있습니다. Target 18.4.1(2018년 4월 25일) 이전에는 기본 구성이 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
@@ -46,7 +46,7 @@ Target에 다음 오류 메시지가 표시될 수 있습니다.
 
 ## EEC가 TLS 1.0를 사용하는 사이트의 보안 페이지에 로드되지 않습니다. (EEC만 해당) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-위에 설명된 &quot;고급 시각적 경험 작성기가 내 사이트의 보안 페이지에 로드되지 않습니다.&quot; 오류 메시지가 표시될 수 있습니다. IP 주소는 화이트리스트에 추가되었지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. Target은 현재 1.2의 기본 구성을 사용하고 있습니다. Target 18.4.1(2018년 4월 25일) 이전에는 기본 구성이 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+위에 설명된 "고급 시각적 경험 작성기가 내 사이트의 보안 페이지에 로드되지 않습니다." 오류 메시지가 표시될 수 있습니다. IP 주소는 화이트리스트에 추가되었지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. Target은 현재 1.2의 기본 구성을 사용하고 있습니다. Target 18.4.1(2018년 4월 25일) 이전에는 기본 구성이 TLS 1.0을 지원했습니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음을 수행하십시오(다른 브라우저에도 유사한 단계가 있음).
 
@@ -55,7 +55,7 @@ Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음
 
    ![](assets/firefox_more_info.png)
 
-1. **[!UICONTROL 연결 세부 사항 표시]** &gt; **[!UICONTROL 추가 정보]** 를 클릭하십시오.
+1. **[!UICONTROL 연결 세부 사항 표시]** &gt; **[!UICONTROL 추가 정보]**&#x200B;를 클릭하십시오.
 
    ![](assets/firefox_more_info_2.png)
 
@@ -65,6 +65,6 @@ Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음
 
 1. 웹 사이트에 TLS 1.0이 표시되는 경우에는 [TLS(전송 계층 보안) 암호화 변경 사항](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)에서 Target의 TLS 지원 정책에 대한 정보를 참조하십시오. 현재(2018년 9월 12일까지 유효) 상황을 해결하기 위해 TLS 버전 및 도메인을 구성하려면 [고객 지원 센터](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
 
-## 프록시가 활성화된 로드할 때 시간 초과 또는 &quot;액세스 거부&quot; 오류가 표시됩니다. (EEC만 해당) {#section_60CBB9022DC449F593606C0E6252302D}
+## 프록시가 활성화된 로드할 때 시간 초과 또는 "액세스 거부" 오류가 표시됩니다. (EEC만 해당) {#section_60CBB9022DC449F593606C0E6252302D}
 
 프록시 IP가 사용자 환경에서 차단되지 않았는지 확인하십시오.
