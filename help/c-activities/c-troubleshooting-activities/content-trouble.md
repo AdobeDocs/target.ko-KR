@@ -30,8 +30,8 @@ mboxTrace 및 mboxDebug는 캠페인 데이터 및 프로필 데이터를 외부
 
 인증 토큰을 검색하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** 을 클릭합니다.
-1. **[!UICONTROL mbox.js]** 또는 **[!UICONTROL at.js]** 를 선택합니다.
+1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL mbox.js]** 또는 **[!UICONTROL at.js]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 인증 토큰 생성을 클릭합니다]**.
 
    ![인증 토큰 생성](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
@@ -106,7 +106,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 ## 전달 중 target.js가 로드되지 않는 경우 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
-전달 중에 target.js가 로드되지 않으면 Mbox.js에서는 방문자에게 &quot;em-disabled&quot;라는 쿠키를 보냅니다. 이 쿠키는 Visual Experience Composer를 사용하여 만든 오퍼가 사이트에서 렌더링되지 못하게 합니다. 이 쿠키가 있는 방문자는 테스트 컨텐츠를 보지 못하고 해당 활동 보고서에서 카운트되지도 않습니다. 다른 모든 오퍼 컨텐츠(예: Target Classic의 캠페인)는 계속 로드됩니다. 이 쿠키의 수명은 로드 실패 시간부터 30분입니다.
+전달 중에 target.js가 로드되지 않으면 Mbox.js에서는 방문자에게 "em-disabled"라는 쿠키를 보냅니다. 이 쿠키는 Visual Experience Composer를 사용하여 만든 오퍼가 사이트에서 렌더링되지 못하게 합니다. 이 쿠키가 있는 방문자는 테스트 컨텐츠를 보지 못하고 해당 활동 보고서에서 카운트되지도 않습니다. 다른 모든 오퍼 컨텐츠(예: Target Classic의 캠페인)는 계속 로드됩니다. 이 쿠키의 수명은 로드 실패 시간부터 30분입니다.
 
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
