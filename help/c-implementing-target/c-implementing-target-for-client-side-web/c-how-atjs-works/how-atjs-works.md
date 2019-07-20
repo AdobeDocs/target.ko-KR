@@ -29,12 +29,12 @@ source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ## At.js 1.*x* 및 at.js 2.x 워크플로우 다이어그램의 차이점은 무엇입니까?
 
-[at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)에서 1.*x*와 다른 2.O에 도입된 차이점을 자세히 알 수 있습니다.
+[at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)에서 1.*x*&#x200B;와 다른 2.O에 도입된 차이점을 자세히 알 수 있습니다.
 
 상위 수준의 보기에서 보면 두 버전 간에 두 가지 차이점이 있습니다.
 
 * at.js 2.x에는 글로벌 mbox 요청 개념이 없지만 페이지 로드 요청은 있습니다. 페이지 로드 요청은 웹 사이트의 초기 페이지 로드 시 적용해야 하는 컨텐츠를 검색하는 요청으로 볼 수 있습니다.
-* at.js 2.x는 SPA(단일 페이지 애플리케이션)에 사용되는 &quot;보기&quot; 개념을 관리합니다. at.js 1.*x*는 이 개념을 알지 못합니다.
+* at.js 2.x는 SPA(단일 페이지 애플리케이션)에 사용되는 "보기" 개념을 관리합니다. at.js 1.*x*&#x200B;는 이 개념을 알지 못합니다.
 
 ## at.js 2.x 다이어그램
 
