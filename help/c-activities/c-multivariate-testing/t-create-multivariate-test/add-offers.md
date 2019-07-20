@@ -18,7 +18,7 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 >[!NOTE]
 >
->원래 선택한 요소 외에 상위 요소를 선택할 페이지에서 개체를 선택할 때 **[!UICONTROL 선택 요소 확장]** 을 클릭할 수 있습니다. 상위 요소를 선택하면 이 요소의 모든 하위 요소가 자동으로 선택됩니다. 선택 요소를 여러 번 확장할 수 있습니다.
+>원래 선택한 요소 외에 상위 요소를 선택할 페이지에서 개체를 선택할 때 **[!UICONTROL 선택 요소 확장]**&#x200B;을 클릭할 수 있습니다. 상위 요소를 선택하면 이 요소의 모든 하위 요소가 자동으로 선택됩니다. 선택 요소를 여러 번 확장할 수 있습니다.
 >
 >[DOM 경로를](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 사용하여 요소를 탐색할 수도 있습니다.
 
@@ -30,7 +30,7 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
    ![이미지 변경 옵션](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
-1. 테스트에 포함할 모든 이미지를 선택하고 **[!UICONTROL 추가]** 를 클릭합니다.
+1. 테스트에 포함할 모든 이미지를 선택하고 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
 
    ![이미지 추가 시 사용되는 컨텐츠 대화 상자 선택](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
@@ -40,11 +40,11 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 하나의 위치에서 여러 개의 텍스트/HTML 오퍼를 테스트하여 가장 성공적인 오퍼를 파악합니다.
 
-1. 페이지에서 텍스트/HTML 오퍼를 클릭한 다음 **[!UICONTROL 텍스트/HTML 변경]** 을 클릭합니다.
+1. 페이지에서 텍스트/HTML 오퍼를 클릭한 다음 **[!UICONTROL 텍스트/HTML 변경]**&#x200B;을 클릭합니다.
 
    ![텍스트/HTML 변경](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
 
-1. **[!UICONTROL 텍스트/HTML 오퍼 추가]** 를 클릭하고 오퍼의 이름을 지정한 다음 텍스트/HTML 오퍼의 코드를 입력하거나 붙여넣습니다.
+1. **[!UICONTROL 텍스트/HTML 오퍼 추가]**&#x200B;를 클릭하고 오퍼의 이름을 지정한 다음 텍스트/HTML 오퍼의 코드를 입력하거나 붙여넣습니다.
 
    ![오퍼 편집](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
