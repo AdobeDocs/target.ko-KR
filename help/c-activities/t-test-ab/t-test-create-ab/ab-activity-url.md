@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 활동 URL은 테스트에 사용되는 페이지를 결정하며 테스트가 디자인될 때 열립니다.
 
-활동을 만들 때 메시지가 표시되면 활동 URL을 지정하십시오. 전체 URL(`https://` 포함)을 입력하고 **[!UICONTROL 만들기]** 를 클릭합니다.
+활동을 만들 때 메시지가 표시되면 활동 URL을 지정하십시오. 전체 URL(`https://` 포함)을 입력하고 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!UICONTROL 기본적으로 Visual Experience Composer] 는 [타겟 계정 기본 설정에 지정된 페이지를 엽니다](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
 
-[!UICONTROL 시각적 경험 작성기]가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성]** 톱니바퀴 아이콘을 클릭한 다음, **[!UICONTROL 페이지 전달]** 을 선택하십시오. 활동 URL 필드에 URL을 입력합니다.
+[!UICONTROL 시각적 경험 작성기]가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성]** 톱니바퀴 아이콘을 클릭한 다음, **[!UICONTROL 페이지 전달]**&#x200B;을 선택하십시오. 활동 URL 필드에 URL을 입력합니다.
 
 ![페이지 배달 대화 상자](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
