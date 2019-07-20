@@ -33,7 +33,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 고급 경험 작성기에서 문제가 발생할 경우 고급 경험 작성기를 끄고 시각적 경험 작성기를 대신 사용합니다.
 
-고급 경험 작성기를 비활성화하려면 **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]** 으로 이동한 후 **[!UICONTROL 고급 경험 작성기 활성화]** 선택 사항을 끄십시오.
+고급 경험 작성기를 비활성화하려면 **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]**&#x200B;으로 이동한 후 **[!UICONTROL 고급 경험 작성기 활성화]** 선택 사항을 끄십시오.
 
 일부 사용자의 경우 콘솔에 다음과 같은 오류 메시지가 표시됩니다.
 
@@ -74,16 +74,16 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
    * 규칙 이름
    * 수정 규칙
 
-      * **[!UICONTROL 추가]** 에서 **[!UICONTROL 제거]** 로 전환합니다.
-      * **[!UICONTROL 요청]** 에서 **[!UICONTROL 응답]** 으로 전환합니다.
-      * 헤더 이름으로 &quot;X-Frame-Options&quot;를 입력합니다.
-      * 이전 단계를 반복하고 헤더 이름으로 &quot;x-frame-options&quot;를 입력합니다.
+      * **[!UICONTROL 추가]**&#x200B;에서 **[!UICONTROL 제거]**&#x200B;로 전환합니다.
+      * **[!UICONTROL 요청]**&#x200B;에서 **[!UICONTROL 응답]**&#x200B;으로 전환합니다.
+      * 헤더 이름으로 "X-Frame-Options"를 입력합니다.
+      * 이전 단계를 반복하고 헤더 이름으로 "x-frame-options"를 입력합니다.
 
          >[!NOTE]
          >
          >Requestly를 통해 조작되는 헤더는 대/소문자를 구분합니다.
 
-      * 소스 URL에 대한 조건으로 **[!UICONTROL 다음과 같음]** 을 **포함]으로 변경하고, VEC에 로드하려는 활동의 URL을 입력합니다.[!UICONTROL **
+      * 소스 URL에 대한 조건으로 **[!UICONTROL 다음과 같음]**&#x200B;을 **포함]으로 변경하고, VEC에 로드하려는 활동의 URL을 입력합니다.[!UICONTROL **
       ![](assets/chrome_extension.png)
 
 
@@ -117,7 +117,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 * 올바르지 않은 URL을 입력했습니다.
 * 계정 설정 페이지에 기본 URL을 입력하지 않았습니다.
 
-## VEC 활동에 대한 URL을 실행할 때 콘솔에 &quot;확인할 수 없는 ReferenceError: _AT가 정의되지 않습니다.&quot;라는 오류 메시지가 표시됩니다. (VEC만 해당) {#section_BB5B9B629AC4452496A82943EFF72B85}
+## VEC 활동에 대한 URL을 실행할 때 콘솔에 "확인할 수 없는 ReferenceError: _AT가 정의되지 않습니다."라는 오류 메시지가 표시됩니다. (VEC만 해당) {#section_BB5B9B629AC4452496A82943EFF72B85}
 
 이 오류는 VEC(시각적 경험 작성기) 캠페인을 전달하려고 하며, [!UICONTROL 시각적 경험 작성기 활동 지원] 옵션을 활성화([!UICONTROL 설정] &gt; [!UICONTROL 구현] &gt; [!UICONTROL mbox.js] &gt; [!UICONTROL mbox.js 설정 편집])한 상태로 Target 사용자 인터페이스에서 다운로드한 mbox.js를 업데이트한 적이 없는 경우에 발생합니다.
 
