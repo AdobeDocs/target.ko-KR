@@ -34,7 +34,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 | [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 다변량 테스트(MVT)는 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
 | [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) | 경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 컨텐츠를 특정 대상에 전달합니다.<br>**참고:** 이제 [경험 타깃팅 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
 | [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | 자동화된 개인화(AP)는 컨텐츠를 개인화하고 전환을 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다. |
-| [Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 권장 사항은 사이트에서의 사용자 활동에 따라 웹 사이트 사용자에게 제품을 제안하는 방법을 결정합니다.<br>예를 들어, 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여주는 권장 사항을 생성할 수 있습니다. 또는 &quot;이 항목을 보고 다른 항목도 본 사람&quot; 알고리즘을 사용하여 방문자에게 보고 있는 것과 유사한 비디오를 추천하여 미디어 사이트에서 더 많은 시간을 소비하도록 할 수도 있습니다.<br>**참고:** 이제 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) 활동 내에 권장 사항을 포함할 수 있습니다. [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
+| [Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 권장 사항은 사이트에서의 사용자 활동에 따라 웹 사이트 사용자에게 제품을 제안하는 방법을 결정합니다.<br>예를 들어, 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, "이 항목을 구입하고 다른 항목도 구입한 사람" 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여주는 권장 사항을 생성할 수 있습니다. 또는 "이 항목을 보고 다른 항목도 본 사람" 알고리즘을 사용하여 방문자에게 보고 있는 것과 유사한 비디오를 추천하여 미디어 사이트에서 더 많은 시간을 소비하도록 할 수도 있습니다.<br>**참고:** 이제 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) 활동 내에 권장 사항을 포함할 수 있습니다. [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
 
 ## 활동 목록 {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -54,7 +54,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 | 상태 | 활동의 상태는 다음 중 하나일 수 있습니다.<ul><li>**라이브**: 활동이 현재 실행 중입니다.</li><li>**초안**: 활동 설정이 시작되었지만 아직 활동을 실행할 준비가 되지 않았습니다.</li><li>**예약됨**: 지정된 시작 날짜 및 시간에 도달하면 활동이 활성화되도록 준비되었습니다.</li><li>**비활성**: 활동이 일시 정지되었거나 비활성화되었습니다.</li><li>**동기화 중**: 활동이 저장되었으며 Target 배달 네트워크에 동기화되고 있습니다.</li><li>**종료**: 활동의 지정한 종료 날짜 및 시간이 완료되어 활동이 더 이상 지원되지 않습니다.</li><li>**보관됨**: 활동이 보관되었습니다. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.</li></ul>**참고**: API 방법을 사용하여 UI 외부에서의 활동 활성화와 같은 특정 작업을 수행하면 업데이트가 UI로 전파되는 데 최대 10분이 걸릴 수 있습니다. |
 | 소스 | 활동이 만들어진 위치를 보여줍니다.<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>AEM(Adobe Experience Manager)</li><li>AMS(Adobe Mobile Services)</li></ul> |
 | 속성 | 활동에 대한 [속성](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 표시합니다. |
-| 수입의 예상 상승도 | 대상의 100%에게 가장 성과가 좋은 경험이 표시되는 경우 수입의 예상되는 증가를 보여줍니다.<br>다음 공식을 사용하여 계산됩니다.<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>이 숫자는 압축 양식에서 소수 앞에 한 자릿수만 있으면 최대 소수 첫째 자리로 반올림됩니다. 예를 들어 $1.6M, $60K, $900, $8.5K, $205K와 같습니다.<br>승자를 확정하기에 충분한 데이터가 없거나 예상 비용이 없는 활동의 경우 이 열에 &quot;---&quot;이 표시됩니다.<br>자세한 내용은 [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오. |
+| 수입의 예상 상승도 | 대상의 100%에게 가장 성과가 좋은 경험이 표시되는 경우 수입의 예상되는 증가를 보여줍니다.<br>다음 공식을 사용하여 계산됩니다.<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>이 숫자는 압축 양식에서 소수 앞에 한 자릿수만 있으면 최대 소수 첫째 자리로 반올림됩니다. 예를 들어 $1.6M, $60K, $900, $8.5K, $205K와 같습니다.<br>승자를 확정하기에 충분한 데이터가 없거나 예상 비용이 없는 활동의 경우 이 열에 "---"이 표시됩니다.<br>자세한 내용은 [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오. |
 | 마지막 업데이트 날짜 | 활동이 마지막으로 업데이트된 날짜와 업데이트한 사람. |
 
 사용 가능한 작업을 보려면 마우스를 활동 위에 놓으십시오.
@@ -69,8 +69,8 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 | 비활성화 | 라이브 또는 예약된 활동을 중지합니다. 비활성화된 캠페인은 다시 활성화하거나 보관할 수 있습니다.<br>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
 | 활성화 | 비활성 상태 또는 준비된 활동을 시작합니다. |
 | 보관 | 활동을 보관 파일에 보냅니다. 기본적으로 보관된 활동은 더 이상 활동 목록에 표시되지 않습니다. 보관된 활동을 보려면 이러한 활동을 포함하도록 활동 목록에 대한 필터를 변경하십시오. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.<br>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
-| 복사 | 활동을 복사합니다. 모든 활동은 복사할 수 있습니다. 활동을 복사하면 동일한 이름에 &quot;사본&quot;이 추가된 채 새 활동이 만들어집니다. 예를 들어, &quot;브라우저 오퍼&quot;라는 테스트는 &quot;브라우저 오퍼 사본&quot;으로 복사됩니다.<br>시각적 오퍼는 활동과 함께 복사됩니다. 원래 활동에 영향을 주지 않고 사본에서 오퍼를 안전하게 편집할 수 있습니다. 유일한 예외는 컨텐츠/자산 폴더에 있는 저장된 오퍼와 이미지입니다. |
-| 삭제 | 초안 또는 활동 삭제를 참조하십시오.<BR>**** 참고: 삭제된 활동은 복구할 수 없습니다. Unless you are absolutely sure that you&#39;ll never need this activity again, use the [!UICONTROL Archive] action. 그런 다음 필요한 경우 활동을 다시 활성화할 수 있습니다. |
+| 복사 | 활동을 복사합니다. 모든 활동은 복사할 수 있습니다. 활동을 복사하면 동일한 이름에 "사본"이 추가된 채 새 활동이 만들어집니다. 예를 들어, "브라우저 오퍼"라는 테스트는 "브라우저 오퍼 사본"으로 복사됩니다.<br>시각적 오퍼는 활동과 함께 복사됩니다. 원래 활동에 영향을 주지 않고 사본에서 오퍼를 안전하게 편집할 수 있습니다. 유일한 예외는 컨텐츠/자산 폴더에 있는 저장된 오퍼와 이미지입니다. |
+| 삭제 | 초안 또는 활동 삭제를 참조하십시오.<BR>****&#x200B;참고: 삭제된 활동은 복구할 수 없습니다. Unless you are absolutely sure that you'll never need this activity again, use the [!UICONTROL Archive] action. 그런 다음 필요한 경우 활동을 다시 활성화할 수 있습니다. |
 
 활동 목록에 대한 다음 세부 사항을 참고하십시오.
 
@@ -185,7 +185,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 다음 비디오에서는 활동 목록을 사용하여 활동을 관리하는 방법에 대해 설명합니다.
 
-* *활동*이라는 용어 정의
+* *활동*&#x200B;이라는 용어 정의
 * 활동 목록에서 활동 찾기
 * 활동 편집, 비활성화, 복사 및 삭제
 
