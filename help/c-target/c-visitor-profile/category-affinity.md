@@ -31,11 +31,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` 은 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId` 는 현재 페이지 또는 현재 항목 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 모두 Adobe Target로 전달합니다.
+>The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` 은 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId` 는 현재 페이지 또는 현재 항목 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 모두 Adobe Target로 전달합니다.
 
 ## 카테고리 친화성에 대한 비즈니스 사례 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-가장 자주 보는 카테고리와 같은 한 세션에서 수행되는 방문자 활동을 이후 방문의 타깃팅에 사용할 수 있습니다. 세션 중에 방문자가 보는 각 카테고리 페이지는 캡처되며, 최근 및 빈도 모델에 따라 &quot;즐겨찾기&quot; 카테고리가 계산됩니다. 그런 후에 방문자가 홈 페이지로 돌아올 때마다 사용자의 즐겨찾기 카테고리와 관련된 컨텐츠를 표시하도록 주인공 이미지 영역을 타깃팅할 수 있습니다.
+가장 자주 보는 카테고리와 같은 한 세션에서 수행되는 방문자 활동을 이후 방문의 타깃팅에 사용할 수 있습니다. 세션 중에 방문자가 보는 각 카테고리 페이지는 캡처되며, 최근 및 빈도 모델에 따라 "즐겨찾기" 카테고리가 계산됩니다. 그런 후에 방문자가 홈 페이지로 돌아올 때마다 사용자의 즐겨찾기 카테고리와 관련된 컨텐츠를 표시하도록 주인공 이미지 영역을 타깃팅할 수 있습니다.
 
 ## 카테고리 친화성 사용의 예 {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -107,15 +107,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 카테고리 친화성을 사용할 대상 만들기 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. **[!UICONTROL 대상]** 목록에서 **[!UICONTROL + 대상 만들기]** 를 클릭합니다.
+1. **[!UICONTROL 대상]** 목록에서 **[!UICONTROL + 대상 만들기]**&#x200B;를 클릭합니다.
 
    또는
 
    기존 대상을 복사하려면 대상자 목록에서 원하는 대상으로 마우스를 가져간 다음 복사 아이콘을 클릭합니다. 그러면 대상을 편집하여 유사한 대상을 만들 수 있습니다.
 
 1. 수사적 대상 이름을 입력합니다.
-1. **[!UICONTROL + 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]** 을 클릭합니다.
-1. **[!UICONTROL 방문자 프로필]** 드롭다운 목록에서 **[!UICONTROL 카테고리 친화성]** 을 선택합니다.
+1. **[!UICONTROL + 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 방문자 프로필]** 드롭다운 목록에서 **[!UICONTROL 카테고리 친화성]**&#x200B;을 선택합니다.
 
    ![방문자 프로필 &gt; 카테고리 친화성](assets/affinity.png)
 
@@ -138,7 +138,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 다음을 포함하지 않음(대/소문자 구분 안 함)
    * 다음과 같음
 
-1. 각각의 새 값을 별도의 행에 지정합니다(예: &quot;신발&quot;).
+1. 각각의 새 값을 별도의 행에 지정합니다(예: "신발").
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
 ## 활동에서 카테고리 친화성 대상 사용 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
