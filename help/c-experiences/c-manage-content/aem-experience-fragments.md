@@ -100,7 +100,7 @@ Target에서 AEM 경험 구성요소를 사용하려면 다음 절차를 수행�
 
 >[!IMPORTANT]
 >
->경험 구성요소는 현재 HTML 오퍼로 Target에 가져왔습니다. 경험 조각 &quot;마스터&quot; 버전은 AEM에 남습니다. 이 경험 조각을 Target에서 편집할 수는 없습니다.
+>경험 구성요소는 현재 HTML 오퍼로 Target에 가져왔습니다. 경험 조각 "마스터" 버전은 AEM에 남습니다. 이 경험 조각을 Target에서 편집할 수는 없습니다.
 
 마우스로 목록의 경험 구성요소를 가리킨 다음, 보기 아이콘(![](assets/icon_info.png)
 
@@ -114,7 +114,7 @@ VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기를 사용�
 
 **VEC를 사용하여 경험 조각을 소비하려면 다음을 수행하십시오.**
 
-1. Target의 [시각적 경험 작성기](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)에서 경험을 만들거나 편집할 때 AEM 컨텐츠를 삽입하려는 페이지에서 해당 위치를 클릭한 다음, **[!UICONTROL 경험 조각으로 교체]** 를 선택하여 [!UICONTROL 경험 조각 선택] 목록을 표시합니다.
+1. Target의 [시각적 경험 작성기](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)에서 경험을 만들거나 편집할 때 AEM 컨텐츠를 삽입하려는 페이지에서 해당 위치를 클릭한 다음, **[!UICONTROL 경험 조각으로 교체]**&#x200B;를 선택하여 [!UICONTROL 경험 조각 선택] 목록을 표시합니다.
 
    >[!NOTE]
    >
@@ -139,7 +139,7 @@ VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기를 사용�
 
 **양식 기반 경험 작성기를 사용하여 경험 조각을 사용하려면 다음을 수행하십시오.**
 
-1. Target의 [양식 기반 경험 작성기](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)에서 경험을 만들거나 편집할 때 AEM 컨텐츠를 삽입하려는 페이지에서 해당 위치를 선택한 다음, **[!UICONTROL 경험 조각 변경]** 을 선택하여 [!UICONTROL 경험 조각 선택] 목록을 표시합니다.
+1. Target의 [양식 기반 경험 작성기](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)에서 경험을 만들거나 편집할 때 AEM 컨텐츠를 삽입하려는 페이지에서 해당 위치를 선택한 다음, **[!UICONTROL 경험 조각 변경]**&#x200B;을 선택하여 [!UICONTROL 경험 조각 선택] 목록을 표시합니다.
 
    ![](assets/experience_fragment_list.png)
 
