@@ -23,9 +23,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## Adobe Target 보기 및 단일 페이지 애플리케이션
 
-SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA 경험을 함께 구성하는 시각적 요소의 논리 그룹)을 활용합니다. 따라서 SPA는 사용자 상호 작용을 기반으로 하여 URL 대신 보기를 통해 전환으로 간주할 수 있습니다. &quot;보기&quot;는 일반적으로 전체 사이트를 나타내거나 사이트 내의 그룹화된 시각적 요소를 나타낼 수 있습니다.
+SPA용 Adobe Target VEC는 "보기"라는 새로운 개념(예: SPA 경험을 함께 구성하는 시각적 요소의 논리 그룹)을 활용합니다. 따라서 SPA는 사용자 상호 작용을 기반으로 하여 URL 대신 보기를 통해 전환으로 간주할 수 있습니다. "보기"는 일반적으로 전체 사이트를 나타내거나 사이트 내의 그룹화된 시각적 요소를 나타낼 수 있습니다.
 
-&quot;보기&quot;에 대해 더 설명하기 위해 React에 구현된 이러한 가상의 온라인 전자 상거래 사이트를 탐색하고 몇 가지 &quot;보기&quot; 예를 살펴보겠습니다. 아래 링크를 클릭하여 새 브라우저 탭에서 이 사이트를 엽니다.
+"보기"에 대해 더 설명하기 위해 React에 구현된 이러한 가상의 온라인 전자 상거래 사이트를 탐색하고 몇 가지 "보기" 예를 살펴보겠습니다. 아래 링크를 클릭하여 새 브라우저 탭에서 이 사이트를 엽니다.
 
 **Link:[홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
 
@@ -37,23 +37,23 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 ![제품 사이트](/help/c-experiences/assets/product-site.png)
 
-제품에 대한 관심이 높아짐에 따라 제품 링크를 클릭하기로 했습니다. 홈 사이트와 유사하게, 제품 사이트 전체를 보기로 정의할 수 있습니다. 이 보기의 이름을 `https://target.enablementadobe.com/react/demo/#/products`의 경로 이름처럼 &quot;products&quot;로 지정할 수 있습니다.
+제품에 대한 관심이 높아짐에 따라 제품 링크를 클릭하기로 했습니다. 홈 사이트와 유사하게, 제품 사이트 전체를 보기로 정의할 수 있습니다. 이 보기의 이름을 `https://target.enablementadobe.com/react/demo/#/products`의 경로 이름처럼 "products"로 지정할 수 있습니다.
 
 ![제품 사이트 2](/help/c-experiences/assets/product-site-2.png)
 
-이 섹션의 시작 부분에서 &quot;보기&quot;를 전체 사이트나 사이트에 있는 시각적 요소들의 그룹으로 정의했습니다. 위에 표시된 것처럼 사이트에 표시된 4개의 제품을 그룹화하고 &quot;보기&quot;로 간주할 수도 있습니다. 이 보기의 이름을 지정하려면 이름을 &quot;products&quot;로 지정할 수 있습니다.
+이 섹션의 시작 부분에서 "보기"를 전체 사이트나 사이트에 있는 시각적 요소들의 그룹으로 정의했습니다. 위에 표시된 것처럼 사이트에 표시된 4개의 제품을 그룹화하고 "보기"로 간주할 수도 있습니다. 이 보기의 이름을 지정하려면 이름을 "products"로 지정할 수 있습니다.
 
 ![제품 사이트 3](/help/c-experiences/assets/product-site-3.png)
 
-추가 로드 단추를 클릭하여 사이트에서 더 많은 제품을 탐색하려 합니다. 이 경우에는 웹 사이트 URL은 변경되지 않습니다. 그러나 여기에서 &quot;보기&quot;는 위에 표시된 두 번째 제품 행만 나타낼 수 있습니다. 보기 이름은 &quot;PRODUCTS-PAGE-2&quot;이라고 할 수 있습니다.
+추가 로드 단추를 클릭하여 사이트에서 더 많은 제품을 탐색하려 합니다. 이 경우에는 웹 사이트 URL은 변경되지 않습니다. 그러나 여기에서 "보기"는 위에 표시된 두 번째 제품 행만 나타낼 수 있습니다. 보기 이름은 "PRODUCTS-PAGE-2"이라고 할 수 있습니다.
 
 **Link:[checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![체크아웃 페이지](/help/c-experiences/assets/checkout.png)
 
-사이트에 표시된 일부 제품이 마음에 들어서 두 제품을 구매하기로 했습니다. 이제 체크아웃 사이트에서는 일반 배달이나 빠른 배달을 선택하는 선택 사항이 제공됩니다. &quot;보기&quot;는 사이트에서 임의의 시각적 요소 그룹일 수 있으므로 이 보기의 이름을 &quot;배달 환경 설정 보기&quot;로 지정할 수 있습니다.
+사이트에 표시된 일부 제품이 마음에 들어서 두 제품을 구매하기로 했습니다. 이제 체크아웃 사이트에서는 일반 배달이나 빠른 배달을 선택하는 선택 사항이 제공됩니다. "보기"는 사이트에서 임의의 시각적 요소 그룹일 수 있으므로 이 보기의 이름을 "배달 환경 설정 보기"로 지정할 수 있습니다.
 
-또한 &quot;보기&quot; 개념은 이보다 훨씬 더 확장될 수 있습니다. 마케터가 선택된 배송 환경 설정에 따라 사이트에서 컨텐츠를 개인화하려는 경우 각 배달 환경 설정에 대해 &quot;보기&quot;를 만들 수 있습니다. 이 경우 일반 배달을 선택하면 보기의 이름을 &quot;일반 배달&quot;로 지정할 수 있습니다. 빠른 배달을 선택한 경우 보기의 이름을 &quot;빠른 배달&quot;로 지정할 수 있습니다.
+또한 "보기" 개념은 이보다 훨씬 더 확장될 수 있습니다. 마케터가 선택된 배송 환경 설정에 따라 사이트에서 컨텐츠를 개인화하려는 경우 각 배달 환경 설정에 대해 "보기"를 만들 수 있습니다. 이 경우 일반 배달을 선택하면 보기의 이름을 "일반 배달"로 지정할 수 있습니다. 빠른 배달을 선택한 경우 보기의 이름을 "빠른 배달"로 지정할 수 있습니다.
 
 이제 마케터는 빠른 배달을 선택했을 때 단추 색상을 두 배달 선택 사항 모두에 대해 파란색으로 유지하는 것과 대조적으로 색상을 파란색에서 빨간색으로 변경하는 것이 전환을 더 끌어올릴 수 있을지 여부를 확인하기 위해 A/B 테스트를 실행할 수 있습니다.
 
@@ -77,7 +77,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    | 매개 변수 | 유형 | 필수? | 유효성 검사 | 설명 |
    | --- | --- | --- | --- | --- |
-   | viewName | 문자열 | 예 | 1. 후행 공백이 없습니다.<br>2. 비워 둘 수 없습니다.<br>3. 보기 이름이 모든 페이지에 대해 고유해야 합니다.<br>4. **경고**: 보기 이름을 &#39;`/`&#39;로 시작하거나 종료해서는 안 됩니다. 일반적으로 고객은 URL 경로에서 보기 이름을 추출하기 때문입니다. 우리의 경우 &quot;홈&quot;과 &quot;`/home`&quot;이 다릅니다.<br>5. **경고**: `{page: true}` 선택 사항을 사용하여 동일한 보기를 여러 번 연속적으로 트리거할 수 없습니다. | 보기를 표현할 문자열 유형으로 모든 이름을 전달합니다. 이 보기 이름은 마케터가 작업을 만들고 A/B 및 XT 활동을 실행하는 VEC의 [!UICONTROL 수정 사항] 패널에 표시됩니다. |
+   | viewName | 문자열 | 예 | 1. 후행 공백이 없습니다.<br>2. 비워 둘 수 없습니다.<br>3. 보기 이름이 모든 페이지에 대해 고유해야 합니다.<br>4. **경고**: 보기 이름을 '`/`'로 시작하거나 종료해서는 안 됩니다. 일반적으로 고객은 URL 경로에서 보기 이름을 추출하기 때문입니다. 우리의 경우 "홈"과 "`/home`"이 다릅니다.<br>5. **경고**: `{page: true}` 선택 사항을 사용하여 동일한 보기를 여러 번 연속적으로 트리거할 수 없습니다. | 보기를 표현할 문자열 유형으로 모든 이름을 전달합니다. 이 보기 이름은 마케터가 작업을 만들고 A/B 및 XT 활동을 실행하는 VEC의 [!UICONTROL 수정 사항] 패널에 표시됩니다. |
    | options | 개체 | 아니오 |  |  |
    | options &gt; page | 부울 | 아니오 |  | **TRUE**: 페이지의 기본값은 true입니다. `page=true`일 때 노출 수가 증가하면 Edge Server에 알림이 전송됩니다.<br>**FALSE**: `page=false`일 때 노출 수가 증가하면 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
 
@@ -87,7 +87,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
-   마케터는 전체 홈 사이트에서 A/B 테스트를 실행하려는 경우 URL에서 추출할 수 있는 &quot;홈&quot; 보기의 이름을 지정할 수 있습니다.
+   마케터는 전체 홈 사이트에서 A/B 테스트를 실행하려는 경우 URL에서 추출할 수 있는 "홈" 보기의 이름을 지정할 수 있습니다.
 
    ```
    function targetView() {
@@ -147,7 +147,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    ![React 체크아웃](/help/c-experiences/assets/react6.png)
 
-   마케터가 선택된 배송 환경 설정에 따라 사이트에서 컨텐츠를 개인화하려는 경우 각 배달 환경 설정에 대해 &quot;보기&quot;를 만들 수 있습니다. 이 경우 일반 배달을 선택하면 보기의 이름을 &quot;일반 배달&quot;로 지정할 수 있습니다. 빠른 배달을 선택한 경우 보기의 이름을 &quot;빠른 배달&quot;로 지정할 수 있습니다.
+   마케터가 선택된 배송 환경 설정에 따라 사이트에서 컨텐츠를 개인화하려는 경우 각 배달 환경 설정에 대해 "보기"를 만들 수 있습니다. 이 경우 일반 배달을 선택하면 보기의 이름을 "일반 배달"로 지정할 수 있습니다. 빠른 배달을 선택한 경우 보기의 이름을 "빠른 배달"로 지정할 수 있습니다.
 
    이제 마케터는 빠른 배달을 선택했을 때 단추 색상을 두 배달 선택 사항 모두에 대해 파란색으로 유지하는 것과 대조적으로 색상을 파란색에서 빨간색으로 변경하는 것이 전환을 더 끌어올릴 수 있을지 여부를 확인하기 위해 A/B 테스트를 실행할 수 있습니다.
 
@@ -208,20 +208,20 @@ VEC가 SPA에서 잘 작동할 수 있도록 해주는, VEC에 대한 [수정 �
 | --- | --- |
 | 정보 | 작업의 세부 사항을 표시합니다. |
 | 편집 | 작업의 속성을 직접 편집할 수 있습니다. |
-| 복제 | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**** 참고: 복제 작업이 수행된 후에는 [!UICONTROL 찾아보기를] 통해 VEC의 보기로 이동하여 복제된 작업이 올바른 작업인지 확인해야 합니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
-| 이동 | 동작을 페이지 로드 이벤트나 [수정] 패널에 이미 있는 다른 보기로 이동합니다.<br>[!UICONTROL 페이지 로드 이벤트] - 페이지 로드 이벤트에 해당하는 모든 작업은 웹 애플리케이션의 초기 페이지 로드 시 적용됩니다.<br>**참고** 이동 작업이 이루어진 후에는 찾아보기를 통해 VEC의 보기로 이동하여 이동이 올바른 작업인지 확인해야 합니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
+| 복제 | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>****&#x200B;참고: 복제 작업이 수행된 후에는 [!UICONTROL 찾아보기를] 통해 VEC의 보기로 이동하여 복제된 작업이 올바른 작업인지 확인해야 합니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
+| 이동 | 작업을 페이지 로드 이벤트나 수정 패널에 이미 있는 다른 보기로 이동합니다.<br>[!UICONTROL 페이지 로드 이벤트] - 페이지 로드 이벤트에 해당하는 모든 작업은 웹 애플리케이션의 초기 페이지 로드 시 적용됩니다.<br>**참고** 이동 작업이 이루어진 후에는 찾아보기를 통해 VEC의 보기로 이동하여 이동이 올바른 작업인지 확인해야 합니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
 | 삭제 | 작업을 삭제합니다. |
 
 >[!NOTE]
 >
->VEC에 페이지가 로드되기 전에 또는 페이지를 완전히 로드하지 못한 경우에도 많은 작업을 수행할 수 있습니다. 사이트가 로드되기 전에 편집할 수 없는 작업은 UI에서 비활성화됩니다.
+>VEC에 페이지가 로드되기 전에 또는 페이지를 완전히 로드하지 못한 경우에도 여러 작업을 수행할 수 있습니다. 사이트가 로드되기 전에 편집할 수 없는 작업은 UI에서 비활성화됩니다.
 
 **예제 1**
 
 홈 보기를 만든 위의 예를 살펴보겠습니다. 본 보기의 목표는 두 가지입니다.
 
-1. 장바구니에 추가 및 좋아요 단추를 연한 파란색으로 변경합니다. 머리글의 구성 요소를 변경하고 있으므로 이것은 &quot;페이지 로드&quot;에서 수행되어야 합니다.
-1. &quot;2019년 최신 제품&quot; 레이블을 &quot;2019년 가장 인기 있는 제품&quot;으로 변경하고 텍스트 색상을 자주색으로 변경합니다.
+1. 장바구니에 추가 및 좋아요 단추를 연한 파란색으로 변경합니다. 머리글의 구성 요소를 변경하고 있으므로 이것은 "페이지 로드"에서 수행되어야 합니다.
+1. "2019년 최신 제품" 레이블을 "2019년 가장 인기 있는 제품"으로 변경하고 텍스트 색상을 자주색으로 변경합니다.
 
 이러한 목표를 실행하려면 VEC에서 [!UICONTROL 작성] 클릭하고 홈 보기에서 해당 변경 사항을 적용합니다.
 
@@ -229,12 +229,12 @@ VEC가 SPA에서 잘 작동할 수 있도록 해주는, VEC에 대한 [수정 �
 
 **예제 2**
 
-PRODUCTS-PAGE-2 보기를 만든 위의 예를 살펴보겠습니다. 우리의 목표는 &quot;가격&quot; 레이블을 레이블 색상이 빨간색인 &quot;판매 가격&quot;으로 변경하는 것입니다.
+PRODUCTS-PAGE-2 보기를 만든 위의 예를 살펴보겠습니다. 우리의 목표는 "가격" 레이블을 레이블 색상이 빨간색인 "판매 가격"으로 변경하는 것입니다.
 
 1. [!UICONTROL 찾아보기]를 클릭한 다음, 머리글에서 [!UICONTROL 제품] 링크를 클릭합니다.
 1. [!UICONTROL 추가 로드]를 한 번 더 클릭하여 두 번째 제품 행을 표시합니다.
 1. [!UICONTROL 작성]을 클릭합니다.
-1. 동작을 적용하여 텍스트 레이블을 &quot;세일 가격&quot;으로 변경하고 색상을 빨간색으로 변경합니다.
+1. 동작을 적용하여 텍스트 레이블을 "세일 가격"으로 변경하고 색상을 빨간색으로 변경합니다.
 
 ![예제 2](/help/c-experiences/assets/example2.png)
 
@@ -248,7 +248,7 @@ PRODUCTS-PAGE-2 보기를 만든 위의 예를 살펴보겠습니다. 우리의 
 1. 주문 체크아웃을 클릭합니다.
 1. 빠른 배달 라디오 단추를 클릭합니다.
 1. [!UICONTROL 작성]을 클릭합니다.
-1. &quot;결제&quot; 단추를 &quot;주문 완료&quot; 단추로 변경하고 색상을 빨간색으로 변경합니다.
+1. "결제" 단추를 "주문 완료" 단추로 변경하고 색상을 빨간색으로 변경합니다.
 
 ![예제 3](/help/c-experiences/assets/example3.png)
 
@@ -264,33 +264,33 @@ at.js 2.x의 일반적인 워크플로우는 사이트가 로드될 때 사이�
 
 예를 들어 at.js 2.x을 사용하는 SPA를 보유한 통신 회사라고 가정할 때, 기업으로서 다음 목표를 달성하려고 합니다.
 
-* 로그아웃한 사용자나 익명 사용자에 대해 `http://www.telecom.com/home`에서 &quot;첫째 달 무료&quot; 주인공 오퍼 표시와 같은 최신 회사 프로모션을 보여줍니다.
-* 로그인한 사용자에 대해서는 `http://www.telecom.com/loggedIn/home`에서 &quot;무료 전화를 사용할 수 있습니다!&quot;와 같이 계약이 예정된 사용자를 위한 업그레이드 프로모션 오퍼를 표시합니다.
+* 로그아웃한 사용자나 익명 사용자에 대해 `http://www.telecom.com/home`에서 "첫째 달 무료" 주인공 오퍼 표시와 같은 최신 회사 프로모션을 보여줍니다.
+* 로그인한 사용자에 대해서는 `http://www.telecom.com/loggedIn/home`에서 "무료 전화를 사용할 수 있습니다!"와 같이 계약이 예정된 사용자를 위한 업그레이드 프로모션 오퍼를 표시합니다.
 
 이제 개발자는 다음의 방식으로 보기를 확인하고 `triggerView()`를 호출합니다.
 
-* `http://www.telecom.com/home`의 경우 보기 이름은 &quot;Logged Out Home&quot;입니다.
+* `http://www.telecom.com/home`의 경우 보기 이름은 "Logged Out Home"입니다.
    * `triggerView(“Logged Out Home”)`이 호출됩니다.
-* `http://www.telecom.com/loggedIn/home`의 경우 보기 이름은 &quot;Logged In Home&quot;입니다.
+* `http://www.telecom.com/loggedIn/home`의 경우 보기 이름은 "Logged In Home"입니다.
    * 경로 변경 시 `triggerView(“Logged In Home”)`이 호출됩니다.
 
 그러면 마케터는 VEC를 통해 다음의 A/B 활동을 실행합니다.
 
-* `http://www.telecom.com/home`에 표시할 매개 변수 &quot;`loggedIn= false`&quot;를 사용하는 대상에 대해 &quot;첫째 달 무료&quot; 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged Out Home입니다.
-* A/B 활동 «무료 전화! » `http://www.telecom.com/loggedIn/home`에 표시할 매개 변수 &quot;`loggedIn=true`&quot;를 사용하는 대상에 대해 &quot;무료 전화를 사용할 수 있습니다!&quot; 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged In Hero Offer입니다.
+* `http://www.telecom.com/home`에 표시할 매개 변수 "`loggedIn= false`"를 사용하는 대상에 대해 "첫째 달 무료" 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged Out Home입니다.
+* A/B 활동 «무료 전화! » `http://www.telecom.com/loggedIn/home`에 표시할 매개 변수 "`loggedIn=true`"를 사용하는 대상에 대해 "무료 전화를 사용할 수 있습니다!" 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged In Hero Offer입니다.
 
 이제 다음 사용자 흐름을 고려해 보십시오.
 
 1. 익명의 로그아웃 사용자가 페이지에 도달합니다.
-1. at.js 2.x를 사용하고 있으므로, 페이지 로드 시 매개 변수 &quot;`loggedIn = false`&quot;를 전달하여 대상에 &quot;`loggedIn = false`&quot; 매개 변수가 있을 때 자격이 있는 활성 활동에 있는 모든 보기를 검색합니다.
-1. 그런 다음 at.js 2.x는 Logged Out Home 보기 및 작업을 검색하여 &quot;첫째 달 무료&quot; 오퍼를 표시하고 캐시에 저장합니다.
-1. `triggerView(“Logged Out Home”)`이 호출되면 &quot;첫째 달 무료&quot; 오퍼가 캐시에서 검색되고 오퍼가 서버 호출 없이 표시됩니다.
-1. 이제 사용자가 &quot;로그인&quot;을 클릭하고 자격 증명을 제공합니다.
+1. at.js 2.x를 사용하고 있으므로, 페이지 로드 시 매개 변수 "`loggedIn = false`"를 전달하여 대상에 "`loggedIn = false`" 매개 변수가 있을 때 자격이 있는 활성 활동에 있는 모든 보기를 검색합니다.
+1. 그런 다음 at.js 2.x는 Logged Out Home 보기 및 작업을 검색하여 "첫째 달 무료" 오퍼를 표시하고 캐시에 저장합니다.
+1. `triggerView(“Logged Out Home”)`이 호출되면 "첫째 달 무료" 오퍼가 캐시에서 검색되고 오퍼가 서버 호출 없이 표시됩니다.
+1. 이제 사용자가 "로그인"을 클릭하고 자격 증명을 제공합니다.
 1. 웹 사이트가 SPA이므로 전체 페이지를 로드하지 않고 대신 사용자를 `http://www.telecom.com/loggedIn/home`으로 보냅니다.
 
 이제 문제가 있습니다. 경로 변경 시 우리가 이 코드를 배치했으므로 사용자가 로그인하면 우리에게 `triggerView(“Logged In Home”)`이 실행됩니다. 이 호출은 at.js 2.x가 캐시에서 보기와 작업을 검색하도록 하지만 캐시에 있는 유일한 보기는 Logged Out Home입니다.
 
-따라서 어떻게 하면 이때 Logged In View을 검색하고 &quot;무료 전화를 사용할 수 있습니다!&quot; 오퍼를 표시할 수 있습니까? 또한 사이트에 대한 모든 후속 작업은 로그인한 사용자 관점에서 비롯되므로 어떻게 하면 모든 후속 작업이 로그인한 사용자를 위해 개인화된 오퍼를 생성하도록 할 수 있습니까?
+따라서 어떻게 하면 이때 Logged In View을 검색하고 "무료 전화를 사용할 수 있습니다!" 오퍼를 표시할 수 있습니까? 또한 사이트에 대한 모든 후속 작업은 로그인한 사용자 관점에서 비롯되므로 어떻게 하면 모든 후속 작업이 로그인한 사용자를 위해 개인화된 오퍼를 생성하도록 할 수 있습니까?
 
 at.js 2.x에서 지원되는 새로운 `getOffers()` 및 `applyOffers()` 함수를 사용할 수 있습니다.
 
@@ -309,7 +309,7 @@ adobe.target.getOffers({
 });
 ```
 
-`getOffers()`의 응답을 `applyOffers()`에 전달하십시오. 그러면 이제 &quot;Loggedin = true&quot;와 연관된 모든 보기와 작업에 의해 at.js 캐시가 업데이트됩니다.
+`getOffers()`의 응답을 `applyOffers()`에 전달하십시오. 그러면 이제 "Loggedin = true"와 연관된 모든 보기와 작업에 의해 at.js 캐시가 업데이트됩니다.
 
 다시 말해, at.js 2.x에서는 온디맨드 방식으로 최신 대상 데이터로 보기, 작업 및 오퍼를 검색하는 방법을 지원합니다.
 
@@ -375,7 +375,7 @@ adobe.target.getOffers({
 
 [!UICONTROL 페이지 배달] 설정을 사용하면 대상 활동이 대상자에 대해 자격을 부여하고 실행하는 시기를 결정하는 규칙을 구성할 수 있습니다.
 
-To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
 
 ![페이지 배달 옵션 대화 상자](/help/c-experiences/assets/page-delivery.png)
 
@@ -408,7 +408,7 @@ With the example above in mind, what would happen when we configure [!UICONTROL 
 * at.js 2.*X* 는 Edge에 대한 쿼리를 수행하여 URL에 대해 실행해야 하는 활동이 있는지 확인합니다. [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * 6 단계에서 Target Edge는 브라우저 내에서 캐시되도록 홈 및 제품 보기에 대한 작업을 반환합니다.
 
-**** 결과: 사용자는 홈 보기에서 녹색 배경색을 보게 됩니다. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
+****&#x200B;결과: 사용자는 홈 보기에서 녹색 배경색을 보게 됩니다. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
 
 Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
 
@@ -419,7 +419,7 @@ Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/pr
 * [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)에 적합한 활동이 없습니다.
 * 자격이 적격한 활동이 없으므로 at. js 2에 대해 캐시되는 작업 및 보기가 없습니다.*시작할 X.*
 
-**** 결과: 제품 보기에 `triggerView()` 대해 정의되고 SPA VEC를 통해 제품 보기에 작업을 수행한 경우에도 페이지 배달 설정에 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) 이 포함된 규칙을 만들지 않았기 때문에 예상된 작업이 표시되지 않습니다.
+****&#x200B;결과: 제품 보기에 `triggerView()` 대해 정의되고 SPA VEC를 통해 제품 보기에 작업을 수행한 경우에도 페이지 배달 설정에 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) 이 포함된 규칙을 만들지 않았기 때문에 예상된 작업이 표시되지 않습니다.
 
 ### 우수 사례
 
