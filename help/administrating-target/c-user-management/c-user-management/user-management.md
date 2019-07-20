@@ -20,7 +20,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->[!UICONTROL ][!UICONTROL 속성 및 권한 기능은 ] Premium 솔루션의 일부로 사용할 수 있습니다. [!DNL Target] 이 기능은 [!DNL Target] Premium 라이센스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
+>[!UICONTROL 속성 및 권한 기능은 ] Premium 솔루션의 일부로 사용할 수 있습니다. [!DNL Target] 이 기능은 [!DNL Target] Premium 라이센스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
 > UI의 맨 위에서 [!UICONTROL 설정] 링크를 클릭하여 조직에 Standard 라이센스나 Premium 라이센스가 있는지 여부를 알 수 있습니다.[!DNL Target]
 >
 >**[!DNL Target]Standard 고객**: [!UICONTROL 사용자] 탭([!UICONTROL 설정 &gt; 사용자])이 표시된다면, 조직에 [!DNL Target] Standard 라이센스가 있는 것입니다. [!DNL Target Standard 고객은 이 문서의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
@@ -45,7 +45,7 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
    또는
 
-   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
+   Experience Cloud에 이미 로그인한 경우 [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com)으로 이동한 다음, 맨 위의 탐색 막대에 있는 [!UICONTROL 앱] 아이콘을 클릭하고 오른쪽의 **[!UICONTROL 관리]**&#x200B;를 클릭합니다.
 
 1. (조건부) 두 개 이상의 조직을 위한 [!DNL Admin Console for Enterprise]에 액세스할 수 있는 경우 오른쪽 모서리나 맨 위 탐색 막대의 사용자 아바타를 클릭한 다음, 원하는 조직을 선택하십시오.
 
@@ -53,15 +53,15 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 모든 사용자 관리는 [!DNL Adobe Admin Console for Enterprise]에서 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
 
-1. [관리 콘솔에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)**[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자를]** 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
-1. *Enterprise 사용 안내서*의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
+1. [Admin Console에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) **[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자]**&#x200B;를 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
+1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 사용자 그룹 만들기 {#user-groups}
 
 개발자, 분석가, 마케터, 경영진 등과 같은 사용자 그룹을 만든 다음 여러 Adobe 제품 및 작업 공간에서 권한을 지정할 수 있습니다. 새 팀 구성원에게 다른 Adobe 제품에 대한 모든 적절한 권한을 지정하면 특정 사용자 그룹에 팀 구성원을 쉽게 추가할 수 있습니다.
 
-1. [관리 콘솔에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)**[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자 그룹을]** 클릭하여 새 사용자 그룹을 만들거나 기존 그룹을 편집합니다.
-1. *Enterprise 사용 안내서*의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
+1. [Admin Console에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) **[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자 그룹]**&#x200B;을 클릭하여 새 사용자 그룹을 만들거나 기존 사용자 그룹을 편집합니다.
+1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 역할 및 권한 지정 {#roles-permissions}
 
@@ -69,14 +69,14 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 시스템 관리자 사용자는 시스템에 사용자를 추가해야 합니다. 사용자는 자동으로 추가되지 않습니다. 사용자는 Experience Cloud에서 이메일로 초대를 받으며 계정 등록 전에 자신의 이메일 주소를 확인해야 합니다.
 
-1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 제품]** 을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
+1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 제품]**&#x200B;을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
 
    ![제품 탭](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
 1. 원하는 구성의 이름을 클릭합니다.
 1. **[!UICONTROL 사용자를 클릭합니다]**.
 
-   The [!UICONTROL Users] tab displays all of the users in that workspace.
+   [!UICONTROL 사용자] 탭에는 해당 작업 공간의 모든 사용자가 표시됩니다.
 
    ![구성 사용자](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
@@ -88,14 +88,14 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
    | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
    | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
 
-자세한 내용은 *Enterprise 사용 안내서*의 [Admin Console에서 제공 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
+자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제공 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
 
-## 교육 비디오: Target 작업 영역을 구성하는 방법
+## 교육 비디오: 타겟 작업 공간을 구성하는 방법
 
 학습 목표:
 
-* Adobe Target 인터페이스에서 Adobe Admin Console에 액세스 (세 가지 방법)
-* Adobe Admin Console에서 작업 영역 구성
+* Adobe Target 인터페이스에서 Adobe Admin Console에 액세스(3가지 방법)
+* Adobe Admin Console에서 작업 공간 구성
    * 작업 공간에 사용자 추가
    * 작업 공간에 속성 추가
 * 기본 작업 공간 이해
