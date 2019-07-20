@@ -18,7 +18,7 @@ Visual Experience Composer (VEC) 는 페이지에서 경험을 추가 및 편집
 
 경험에 대한 자세한 내용은 [경험](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
 
-1. **[!UICONTROL 경험 추가]** 를 클릭합니다.
+1. **[!UICONTROL 경험 추가]**&#x200B;를 클릭합니다.
 
    ![경험 추가 옵션](/help/c-activities/t-test-ab/t-test-create-ab/assets/add-experience.png)
 
@@ -66,7 +66,7 @@ Click the More (three vertical ellipses) icon on an experience in an A/B Test or
 
 For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
-**** 참고: 경험을 이름을 지정하거나 이름을 변경하면 다음 문자가 허용되지 않습니다.
+****&#x200B;참고: 경험을 이름을 지정하거나 이름을 변경하면 다음 문자가 허용되지 않습니다.
 
 | 문자 | 설명 |
 |--- |--- |
@@ -83,13 +83,13 @@ For more information, see [Redirect to URL](/help/c-experiences/c-visual-experie
 
 A/B 테스트에서 환경을 복사할 수 있으므로 처음부터 환경을 다시 작성하지 않고도 간단한 컨텐츠를 변경할 수 있습니다.
 
-**[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]** 을 클릭하십시오.
+**[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]**&#x200B;을 클릭하십시오.
 
 ![복제 경험 옵션](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
 ## 경험 삭제
 
-**[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]** 을 클릭하십시오.
+**[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]**&#x200B;을 클릭하십시오.
 
 ![경험 삭제 옵션](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
