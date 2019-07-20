@@ -26,8 +26,8 @@ AdBox 광고 및 리디렉터는 모든 종류의 활동에 사용할 수 있습
 
 |  | 목적 | 사용 조건 | URL 구조 | 오퍼 유형 | 오퍼 컨텐츠 |
 |--- |--- |--- |--- |--- |--- |
-| AdBox | 여러 가지 이미지를 광고에 반환 | 광고 컨텐츠를 변경하기 위해 | `clientcode​.tt.​omtrdc​.net/​m2​/​clientcode/ubox/​image?` | 리디렉션 오퍼 | 이미지의 URL |
-| 리디렉터 | 방문자를 다른 웹 페이지로 리디렉션 | 광고의 랜딩 페이지를 변경하기 위해 | `clientcode​.tt.omtrdc.net/​m2/clientcode​/ubox/page?` | 리디렉션 오퍼 | 페이지의 URL |
+| AdBox | 여러 가지 이미지를 광고에 반환 | 광고 컨텐츠를 변경하기 위해 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | 리디렉션 오퍼 | 이미지의 URL |
+| 리디렉터 | 방문자를 다른 웹 페이지로 리디렉션 | 광고의 랜딩 페이지를 변경하기 위해 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | 리디렉션 오퍼 | 페이지의 URL |
 
 ## 제한 {#section_38F559DCF1324271926608BCD4AB1227}
 
