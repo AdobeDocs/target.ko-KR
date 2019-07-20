@@ -28,7 +28,7 @@ Target에서는 다음 그림에서 보듯이 권장 사항의 전체 모양과 
 다음 예는 양식 기반 편집기를 통해 활동을 구성할 때 JSON 응답을 반환하는 방법을 보여줍니다.
 
 1. 디자인 라이브러리나 양식 기반 워크플로우 내에서 디자인을 만듭니다. 시각적 경험 작성기(VEC) 워크플로우에서 이 작업을 수행하려 하면 클릭 추적을 위해 `<div>`&lt;div&gt;로 래핑된 HTML 디자인 이외의 다른 것은 만들 수 없습니다.
-1. &quot;HTML 디자인&quot; 선택 사항이 꺼져 있는지 확인합니다.
+1. "HTML 디자인" 선택 사항이 꺼져 있는지 확인합니다.
 
    ![](assets/html_design_toggle.png)
 
@@ -64,17 +64,17 @@ Target에서는 다음 그림에서 보듯이 권장 사항의 전체 모양과 
 1. 이 디자인을 사용하는 양식 기반의 권장 사항 활동을 설정합니다.
 
    1. 활동 페이지로 이동합니다.
-   1. **[!UICONTROL 활동 만들기]** 를 클릭합니다.
-   1. **[!UICONTROL 권장 사항]** 을 선택합니다.
-   1. **[!UICONTROL 경험 작성기 선택]** 에서 **[!UICONTROL 양식]** 을 선택합니다.
+   1. **[!UICONTROL 활동 만들기]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL 권장 사항]**&#x200B;을 선택합니다.
+   1. **[!UICONTROL 경험 작성기 선택]**&#x200B;에서 **[!UICONTROL 양식]**&#x200B;을 선택합니다.
 
-   1. 위치 아래에 &quot;Sample_Recs_Response&quot;라는 텍스트를 입력합니다.
-   1. **[!UICONTROL 기본 컨텐츠]** 아래에서 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 권장 사항 추가]** 를 클릭합니다.
+   1. 위치 아래에 "Sample_Recs_Response"라는 텍스트를 입력합니다.
+   1. **[!UICONTROL 기본 컨텐츠]** 아래에서 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 권장 사항 추가]**&#x200B;를 클릭합니다.
    1. 페이지 유형을 선택합니다. 이 유형은 그 다음 화면의 초기 필터링을 결정합니다.
    1. 기준 카드를 선택한 후, **[!UICONTROL 다음을 클릭합니다]**.
    1. 이전 단계에서 만든 디자인을 선택한 다음, **[!UICONTROL 저장을 클릭합니다]**.
    1. 설정 프로세스를 완료합니다.
-   1. **[!UICONTROL 비활성]** 옆의 오른쪽 화살표를 클릭한 다음, **[!UICONTROL 활성화]** 를 선택합니다.
+   1. **[!UICONTROL 비활성]** 옆의 오른쪽 화살표를 클릭한 다음, **[!UICONTROL 활성화]**&#x200B;를 선택합니다.
 
 1. 활동이 설정되고 활성화된 후 깨끗한 JSON 응답을 다시 가져오는 샘플 요청을 설정할 수 있습니다.
 
@@ -91,13 +91,13 @@ Target에서는 다음 그림에서 보듯이 권장 사항의 전체 모양과 
 | 매개 변수 | 값 |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(../target/products.html#recs설정 &gt; Recommendations API 토큰 &gt; 클라이언트 코드에서 사용 가능) |
-| `[YOUR_MBOX_NAME]` | 양식 기반 권장 사항의 &quot;위치&quot; 섹션에서 선택한 이름입니다. 이 경우에는 YOUR_CLIENT_CODE입니다. |
+| `[YOUR_MBOX_NAME]` | 양식 기반 권장 사항의 "위치" 섹션에서 선택한 이름입니다. 이 경우에는 YOUR_CLIENT_CODE입니다. |
 | `[ENTITY_ID`] | 카탈로그에 있는 항목의 `entity.id`입니다. |
 | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
 
 알고리즘이 실행되고 결과가 나오면, 응답은 다음과 같은 모습이어야 합니다.
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![](assets/json_recommendation.png){width="575px"}
 
 ## 추가 JSON Object 팁 및 요령 {#section_C305673C68944749969DB239E3221DC2}
 
