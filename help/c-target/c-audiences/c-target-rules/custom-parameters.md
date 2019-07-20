@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 때 `mboxParameter`에 대해 묻는 메시지가 `mboxName`에 더 이상 표시되지 않습니다. 이제 mbox 이름은 선택 사항입니다. 따라서 여러 mbox의 매개 변수를 사용하거나 가장자리에 아직 기록되지 않은 매개 변수를 참조할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
 1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
 
