@@ -37,7 +37,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
 
 ## 새 대상 만들기
 
-1. 위쪽 메뉴 막대에서 **[!UICONTROL 대상]** 을 클릭합니다.
+1. 위쪽 메뉴 막대에서 **[!UICONTROL 대상]**&#x200B;을 클릭합니다.
 
    ![](assets/audiences_list.png)
 
@@ -48,7 +48,7 @@ For example, the following rule targets visitors who use either Chrome *or* Fire
    기존 대상을 복사하려면 [!UICONTROL 대상자] 목록에서 원하는 대상으로 마우스를 가져간 다음 **[!UICONTROL 복사]아이콘을 클릭합니다.** 그러면 대상을 편집하여 유사한 대상을 만들 수 있습니다.
 
 1. 고유한 수사적 대상 이름을 입력합니다.
-1. **[!UICONTROL + 규칙 추가]** 를 클릭합니다.
+1. **[!UICONTROL + 규칙 추가]**&#x200B;를 클릭합니다.
 
    규칙을 사용하면 대상을 사이트 방문자의 하위 집합으로 제한할 수 있습니다.
 1. 규칙 유형을 선택합니다.
