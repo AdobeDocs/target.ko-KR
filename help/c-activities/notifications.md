@@ -41,7 +41,7 @@ For information about setting up Notifications, see [Notifications](https://mark
 
 예약된 활동이 시작 날짜에 도달했을 때와 종료 날짜에 도달하여 끝날 때도 유사한 알림이 표시됩니다.
 
-모든 [!DNL Target] 알림은 승인되었거나 비활성화된 활동의 이름을 표시하며, 쉽게 식별할 수 있도록 &quot;Adobe Target&quot;이라는 단어를 포함합니다.
+모든 [!DNL Target] 알림은 승인되었거나 비활성화된 활동의 이름을 표시하며, 쉽게 식별할 수 있도록 "Adobe Target"이라는 단어를 포함합니다.
 
 단일 활동이 동일한 유형의 여러 알림을 보내는 경우에는 단일 카드로 결합되고 이 카드에 알림 개수가 표시됩니다. 예:
 
@@ -56,5 +56,5 @@ For information about setting up Notifications, see [Notifications](https://mark
 ## 제한 {#section_B466EB20B2554CE7B1915374B39F4322}
 
 * 알림은 활동을 승인, 비활성화 또는 가져온 사람은 알려주지 않습니다.
-* MVT 알림은 [!DNL Target Classic]에서 A/B 캠페인으로 동기화되므로 &quot;A/B 테스트&quot;로 표시됩니다.
+* MVT 알림은 [!DNL Target Classic]에서 A/B 캠페인으로 동기화되므로 "A/B 테스트"로 표시됩니다.
 
