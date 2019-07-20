@@ -17,13 +17,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 대상을 만들어 특정 프로필 매개 변수를 충족하는 방문자를 타깃팅합니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]** 을 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭합니다.
 
    ![](assets/target_visitor_profile.png)
 
-1. **[!UICONTROL 선택]** 을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    방문자 프로필 매개 변수는 mbox(프로필)를 통해 전달됩니다. 새 방문자 또는 재방문자를 대상으로 지정하거나 모든 사용자를 포함할 수 있습니다.
 
