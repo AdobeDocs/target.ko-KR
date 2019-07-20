@@ -224,11 +224,11 @@ at.js 2.x에서는 더 이상 사용되지 않는 몇 가지 함수가 있습니
 
 **at.js 2.x의 새로운 API 사용**
 
-at.js 2.x에서는 배달 API라고 하는 새 API를 사용합니다. at.js가 [!DNL Target] Edge Server를 올바로 호출하는지를 디버깅하기 위해 브라우저의 개발자 도구에 있는 네트워크 탭을 &quot;게재&quot;, &quot;`tt.omtrdc.net`&quot; 또는 클라이언트 코드로 필터링할 수 있습니다. 또한 [!DNL Target]에서 키-값 쌍 대신 JSON 페이로드를 전송하는 것을 보게 됩니다.
+at.js 2.x에서는 배달 API라고 하는 새 API를 사용합니다. at.js가 [!DNL Target] Edge Server를 올바로 호출하는지를 디버깅하기 위해 브라우저의 개발자 도구에 있는 네트워크 탭을 "게재", "`tt.omtrdc.net`" 또는 클라이언트 코드로 필터링할 수 있습니다. 또한 [!DNL Target]에서 키-값 쌍 대신 JSON 페이로드를 전송하는 것을 보게 됩니다.
 
 **Target 글로벌 mbox가 더 이상 사용되지 않음**
 
-at.js 2.x에서는 더 이상 네트워크 호출에 &quot;`target-global-mbox`&quot;가 눈에 띄게 표시되지 않습니다. 대신, 아래에서 보듯이 [!DNL Target] 서버에 전송된 JSON 페이로드에서 &quot;`target-global-mbox`&quot; 구문을 &quot;`execute > pageLoad`&quot;로 대체했습니다.
+at.js 2.x에서는 더 이상 네트워크 호출에 "`target-global-mbox`"가 눈에 띄게 표시되지 않습니다. 대신, 아래에서 보듯이 [!DNL Target] 서버에 전송된 JSON 페이로드에서 "`target-global-mbox`" 구문을 "`execute > pageLoad`"로 대체했습니다.
 
 ```
 {
@@ -249,7 +249,7 @@ at.js 2.x에서는 더 이상 네트워크 호출에 &quot;`target-global-mbox`&
 
 **at.js에서 글로벌 mbox 이름이 문제가 됩니까?**
 
-고객은 [!UICONTROL Target &gt; 설정 &gt; 구현 &gt; at.js 설정 편집]을 통해 글로벌 mbox 이름을 지정할 수 있습니다. 이 설정은 [!DNL Target] Edge Server에서 execute &gt; pageLoad를 [!DNL Target] UI에 나타나는 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버 측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox 이름을 사용하여 대상을 만들 수 있습니다. 또한 다음 그림에서 보듯이, at.js 1*x*나 mbox.js를 사용한 페이지가 여전히 있는 경우 동일한 글로벌 mbox 이름이 [!UICONTROL 설정 &gt; 환경 설정] 페이지에도 구성되도록 하는 것이 좋습니다.
+고객은 [!UICONTROL Target &gt; 설정 &gt; 구현 &gt; at.js 설정 편집]을 통해 글로벌 mbox 이름을 지정할 수 있습니다. 이 설정은 [!DNL Target] Edge Server에서 execute &gt; pageLoad를 [!DNL Target] UI에 나타나는 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버 측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox 이름을 사용하여 대상을 만들 수 있습니다. 또한 다음 그림에서 보듯이, at.js 1 *x*&#x200B;나 mbox.js를 사용한 페이지가 여전히 있는 경우 동일한 글로벌 mbox 이름이 [!UICONTROL 설정 &gt; 환경 설정] 페이지에도 구성되도록 하는 것이 좋습니다.
 
 ![at.js 수정 대화 상자](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -277,7 +277,7 @@ at.js 2.x에서는 더 이상 네트워크 호출에 &quot;`target-global-mbox`&
 | 글로벌 mbox를 자동으로 만들기 | 예 |
 | 글로벌 mbox 이름 | 예 |
 
-**도메인 간 추적이 지원되지*않음***
+**도메인 간 추적이 지원되지&#x200B;*않음***
 
 도메인 간 추적을 사용하면 서로 다른 도메인에 있는 두 개의 관련 사이트에 있는 여러 세션을 하나의 세션으로 볼 수 있습니다. `siteA.com`과 `siteB.com`에 걸쳐 수행되는 [!DNL Target] 활동을 만들 수 있으며 방문자가 도메인들을 넘나들 때 계속 동일한 경험을 하게 됩니다. 이 기능은 Target의 타사 및 퍼스트 파티 쿠키 동작에 연결되어 있습니다.
 
@@ -373,11 +373,11 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 
 ## 응답 토큰 {#response-tokens}
 
-at.js 2.*x*는 at.js 1.*x*와 마찬가지로 사용자 지정 이벤트 `at-request-succeeded`를 사용하여 응답 토큰을 표시합니다. `at-request-succeeded` 사용자 지정 이벤트를 사용한 코드 예에 대해서는 [응답 토큰](/help/administrating-target/response-tokens.md)을 참조하십시오.
+at.js 2.*x*&#x200B;는 at.js 1.*x*&#x200B;와 마찬가지로 사용자 지정 이벤트 `at-request-succeeded`를 사용하여 응답 토큰을 표시합니다. `at-request-succeeded` 사용자 지정 이벤트를 사용한 코드 예에 대해서는 [응답 토큰](/help/administrating-target/response-tokens.md)을 참조하십시오.
 
 ## at.js 1.x 매개 변수를 at.js 2.x 페이로드에 매핑 {#payload-mapping}
 
-이 섹션에서는 at.js 1.*x*와 at.js 2.x 간의 매핑을 간략하게 설명합니다.
+이 섹션에서는 at.js 1.*x*&#x200B;와 at.js 2.x 간의 매핑을 간략하게 설명합니다.
 
 매개 변수 매핑을 찾기 전에 이러한 라이브러리 버전에서 사용 중인 엔드포인트가 다음과 같이 변경되었습니다.
 
