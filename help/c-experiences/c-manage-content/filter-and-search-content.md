@@ -24,7 +24,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 키워드로 자산 검색 {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. **[!UICONTROL 오퍼]** &gt; **[!UICONTROL 이미지 오퍼]** 를 클릭하여 [!UICONTROL 자산 라이브러리]에 액세스합니다.
+1. **[!UICONTROL 오퍼]** &gt; **[!UICONTROL 이미지 오퍼]**&#x200B;를 클릭하여 [!UICONTROL 자산 라이브러리]에 액세스합니다.
 
    오른쪽 위 모서리에 있는 [!UICONTROL 카드 보기] 아이콘을 클릭하여 자산을 카드 보기 형식으로 표시할 수 있습니다.
 
@@ -42,7 +42,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 스마트 컬렉션이라는 저장된 검색을 만들어 유사한 검색을 수행할 때 시간을 절약할 수 있습니다. 저장된 검색은 검색 결과를 사용하여 자동으로 업데이트되는 스마트 컬렉션을 생성합니다.
 
-1. **[!UICONTROL 오퍼]** &gt; **[!UICONTROL 이미지 오퍼]** 를 클릭하여 [!UICONTROL 자산 라이브러리]에 액세스합니다.
+1. **[!UICONTROL 오퍼]** &gt; **[!UICONTROL 이미지 오퍼]**&#x200B;를 클릭하여 [!UICONTROL 자산 라이브러리]에 액세스합니다.
 
    ![](assets/content.png)
 
@@ -60,7 +60,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/save_smart_collection_options.png)
 
-1. 스마트 컬렉션 이름을 지정하고, [!DNL Target] 계정에 있는 모든 사용자가 이 스마트 컬렉션에 액세스할 수 있도록 하려는 경우 **[!UICONTROL 공용]** 확인란을 선택한 다음, **[!UICONTROL 저장]** 을 클릭합니다.
+1. 스마트 컬렉션 이름을 지정하고, [!DNL Target] 계정에 있는 모든 사용자가 이 스마트 컬렉션에 액세스할 수 있도록 하려는 경우 **[!UICONTROL 공용]** 확인란을 선택한 다음, **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    나중에 사용할 수 있도록 저장된 검색 목록에 스마트 컬렉션이 추가됩니다.
 
