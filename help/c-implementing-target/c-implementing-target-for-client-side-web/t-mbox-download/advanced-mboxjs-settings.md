@@ -50,7 +50,7 @@ mbox.js 라이브러리 파일이 얼마나 압축되는지를 결정합니다. 
 
 예:
 
-return &quot;test=123&quot;;
+return "test=123";
 
 ## mboxSupported() 함수 본문
 
@@ -58,7 +58,7 @@ return &quot;test=123&quot;;
 
 예:
 
-return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
+return !navigator.userAgent.indexOf('Safari') != -1;
 
 다음 브라우저는 허용되거나 제외될 수 있습니다.
 
@@ -73,7 +73,7 @@ return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
 
 예:
 
-return &quot;YOUR-DOMAIN&quot;;
+return "YOUR-DOMAIN";
 
 ## 추가 JavaScript
 
