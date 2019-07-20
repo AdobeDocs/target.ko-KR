@@ -17,7 +17,7 @@ source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
 
 # ![PREMIUM](/help/assets/premium.png) Target의 개인화 알고리즘을 위한 데이터 수집{#data-collection-for-the-target-personalization-algorithms}
 
-Target은 자동으로 다양한 데이터를 수집하고 사용하여 자동화된 개인화(AP) 및 자동 타겟(AT) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 &quot;교육 레코드&quot;(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
+Target은 자동으로 다양한 데이터를 수집하고 사용하여 자동화된 개인화(AP) 및 자동 타겟(AT) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 "교육 레코드"(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
 
 Target 개인화 알고리즘에 대한 자세한 내용은 [Random Forest 알고리즘](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)을 참조하십시오.
 
@@ -25,10 +25,10 @@ The following table shows the data collected by Automated Personalization and Au
 
 | 데이터 유형 | 설명 | 데이터 유형 이름 지정 규칙 | 예제 속성 |
 | --- | --- | --- | --- |
-| [장치 및 모바일 데이터](#device-mobile) | 장치 및 모바일 전용 정보입니다.<br>아래의 &quot;장치 및 모바일 데이터&quot; 를 참조하십시오. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
+| [장치 및 모바일 데이터](#device-mobile) | 장치 및 모바일 전용 정보입니다.<br>아래의 "장치 및 모바일 데이터" 를 참조하십시오. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | Mobile Device OS<br>Mobile Screen Size |
 | [환경 데이터](#env) | 방문자의 운영 체제와 방문자가 활동에 액세스하는 방법과 시기에 대한 정보입니다. | `Browser - / Operating System] - [Attribute Name]` | 브라우저 - 유형 |
 | Experience Cloud 세그먼트 | Audience Manager 또는 Analytics에서 제작하여 Experience Cloud에서 공유한 고객 | `Custom - Experience Cloud Audience - [Audience Name]` | 사용자 지정 데이터 |
-| [지리적 데이터](#geo) | 방문자가 있는 위치에 대한 정보입니다.<br>아래의 &quot;지리 데이터&quot; 를 참조하십시오. | `Geo - [geo attribute]` | City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier |
+| [지리적 데이터](#geo) | 방문자가 있는 위치에 대한 정보입니다.<br>아래의 "지리 데이터" 를 참조하십시오. | `Geo - [geo attribute]` | City<br>Country<br>Region/State<br>Zip Code<br>Latitude<br>Longitude<br>ISP or Mobile Carrier |
 | 프로필 속성 | 업데이트 API를 통해 Target 프로필에 직접 업로드된 프로필 스크립트 또는 속성 | `Custom - Visitor Profile - [attribute name]` | 사용자 지정 데이터 |
 | 참조 URL 매개 변수 | 일반적으로 참조 URL은 mbox 호출을 시작한 특정 페이지를 참조하는 URL입니다.<br>이 변수는 사이트의 사용자 활동뿐만 아니라 사이트의 기술 구현에 의해서도 영향을 받을 수 있습니다. | `Custom - [Referring URL Parameter] - [Parameter value]` | 사용자 지정 데이터 |
 | 보고 세그먼트 | 활동 설정에서 설정된 모든 세그먼트. | `Reporting Segment -[Segment Name]` | 사용자 지정 데이터 |
