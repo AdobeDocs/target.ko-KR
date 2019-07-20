@@ -52,7 +52,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
       * **mbox.js**: 클라이언트 코드는 [!UICONTROL 설정 &gt; 구현 &gt; Mbox.js 설정 편집] 페이지 맨 위에서 사용할 수 있습니다.
    * `redirectorlink_456` 은 캠페인 및 테스트에서 사용할 계정에 나타나는 리디렉터 mbox의 이름입니다.
 
-      리디렉터는 다른 mbox와 다르게 작동하지만 계정에서는 다른 mbox처럼 나타납니다. 계정에서 표준 유형 mbox와 쉽게 구분되도록 리디렉터 이름을 지정하십시오.  우수 사례로, mbox 이름을 &#39;redirectorlink&#39;로 시작하십시오.
+      리디렉터는 다른 mbox와 다르게 작동하지만 계정에서는 다른 mbox처럼 나타납니다. 계정에서 표준 유형 mbox와 쉽게 구분되도록 리디렉터 이름을 지정하십시오.  우수 사례로, mbox 이름을 'redirectorlink'로 시작하십시오.
 
    * 여기서 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm`은 기본 대상입니다.
 
@@ -79,7 +79,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 모든 경험, 기본 컨텐츠 및 보고서가 모든 브라우저 유형에서 모든 환경에 대해 예상대로 작동하는지 확인합니다.
 
-   >[!NOTE] {class=&quot;- topic/note &quot;}
+   >[!NOTE] {class="- topic/note "}
    >
    >* 리디렉터는 mbox의 오퍼 미리 보기 또는 찾아보기에서 지원되지 않습니다. 브라우저에서 직접 경험을 미리 봅니다.
    >* `mboxDebug`는 리디렉터와 작동하지 않습니다. 
