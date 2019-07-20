@@ -18,9 +18,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 예를 들어, [결합한 임시 대상 기능](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 사용하는 경우 블랙 프라이데이 이전 3일 동안에 특정 컨텐츠에 돈을 덜 쓰는 대상과 블랙 프라이데이 이후에 다른 컨텐츠에 돈을 덜 쓰는 대상을 타깃팅할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 시간대]** 를 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 시간대]**&#x200B;를 클릭합니다.
 
    ![](assets/target_timeframe_dialog.png)
 
@@ -38,7 +38,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![주/요일 분할](assets/week_and_day_parting.png)
 
-   예를 들어, 주/요일 분할 선택 사항을 사용하여 콜 센터가 근무하는 날 및 시간 동안에만 &quot;채팅 지금&quot; 선택 사항을 방문자에게 표시할 수도 있습니다.
+   예를 들어, 주/요일 분할 선택 사항을 사용하여 콜 센터가 근무하는 날 및 시간 동안에만 "채팅 지금" 선택 사항을 방문자에게 표시할 수도 있습니다.
 
    요일을 하나 이상 선택한 다음, 시작 및 종료 시간을 설정하십시오. 원하는 대로 추가적인 패턴을 지정하려면 **[!UICONTROL 추가]를 클릭하십시오.**
 
