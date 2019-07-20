@@ -56,7 +56,7 @@ Adobe Campaign을 사용하여 타깃팅된 이메일 오퍼를 설정하기 전
 ## Adobe Campaign 이메일에 Target 오퍼 포함 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. Adobe Campaign에서 이메일을 작성합니다.
-1. 이메일 속성에서 **[!UICONTROL 포함]** &gt; **[!UICONTROL Adobe Target에서 제공하는 동적 이미지]** 를 클릭합니다.
+1. 이메일 속성에서 **[!UICONTROL 포함]** &gt; **[!UICONTROL Adobe Target에서 제공하는 동적 이미지]**&#x200B;를 클릭합니다.
 1. 공유 자산에서 기본 이미지를 선택합니다.
 1. 위치(rawbox)를 지정합니다.
 1. 수신자의 성별 등과 같은 기타 의사결정 매개 변수를 추가합니다.
