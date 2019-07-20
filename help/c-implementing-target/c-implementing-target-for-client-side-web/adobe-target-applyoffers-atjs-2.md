@@ -19,19 +19,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->이 함수는 at.js 2.x에서 도입되었으며, at.js 버전 1.*x*에는 사용할 수 없습니다.
+>이 함수는 at.js 2.x에서 도입되었으며, at.js 버전 1.*x*&#x200B;에는 사용할 수 없습니다.
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
 | selector | 문자열 | 아니오 | [!DNL Target]이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. 선택기를 제공하지 않으면 [!DNL Target]에서는 사용해야 하는 HTML 요소를 HTML HEAD로 간주합니다. |
-| 응답 | 개체 | 예 | `getOffers()`의 응답 개체.<br>아래의 &quot;요청&quot; 표를 참조하십시오. |
+| 응답 | 개체 | 예 | `getOffers()`의 응답 개체.<br>아래의 "요청" 표를 참조하십시오. |
 
 ## 응답
 
 | 필드 이름 | 설명 |
 | --- | --- |
-| response &gt; prefetch &gt; views &gt; options &gt; content | &quot;선택 사항&quot;의 컨텐츠가 잘 정의되어 있지 않으며 선택 사항 유형/템플릿 구조에 직접적으로 의존합니다. |
-| response &gt; prefetch &gt; views &gt; options &gt; type | 선택 사항 유형. &quot;컨텐츠&quot; 필드의 유형을 반영합니다. 지원되는 유형은 작업입니다. |
+| response &gt; prefetch &gt; views &gt; options &gt; content | "선택 사항"의 컨텐츠가 잘 정의되어 있지 않으며 선택 사항 유형/템플릿 구조에 직접적으로 의존합니다. |
+| response &gt; prefetch &gt; views &gt; options &gt; type | 선택 사항 유형. "컨텐츠" 필드의 유형을 반영합니다. 지원되는 유형은 작업입니다. |
 | response &gt; prefetch &gt; views &gt; state | 보기에 대한 디스플레이 알림과 함께 전달해야 하는 불투명 보기 상태 토큰 |
 | response &gt; prefetch &gt; views &gt; options &gt; responseTokens | 현재 선택 사항이 처리 중일 때 수집된 `responseTokens`의 맵을 포함합니다. |
 | response &gt; prefetch &gt; views &gt; analytics &gt; payload | 보기가 적용된 후 Analytics에 전송해야 하는 클라이언트측 통합을 위한 Analytics 페이로드. |
@@ -51,22 +51,22 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | response &gt; notifications | 기록되었거나 실패한 알림을 가리킵니다. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; trace | 개별 mbox 요청에 대한 모든 추적 데이터를 포함하는 개체. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; responseTokens | 특정 mbox 요청 실행을 위한 `responseTokens`의 맵을 포함합니다. |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; content | &quot;선택 사항&quot;의 컨텐츠가 잘 정의되어 있지 않으며 선택 사항 유형/템플릿 구조에 직접적으로 의존합니다. |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; type | 선택 사항 유형. &quot;컨텐츠&quot; 필드의 유형을 반영합니다. 지원되는 유형은 html, 리디렉션, JSON 및 다이내믹입니다. |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; content | "선택 사항"의 컨텐츠가 잘 정의되어 있지 않으며 선택 사항 유형/템플릿 구조에 직접적으로 의존합니다. |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; type | 선택 사항 유형. "컨텐츠" 필드의 유형을 반영합니다. 지원되는 유형은 html, 리디렉션, JSON 및 다이내믹입니다. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; options | 응답 선택 사항. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; eventToken | 클릭 이벤트의 토큰. |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | &quot;click&quot; |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | "click" |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics | `clickThrough` 지표 목록을 포함합니다. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; mbox | mbox의 이름. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt;index | 응답이 요청에서 나온 이 색인이 있는 mbox용임을 나타냅니다. |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; analytics &gt; payload | mbox가 적용된 후 Analytics에 전송해야 하는 클라이언트측 통합을 위한 Analytics 페이로드. (A4T 사용 &quot;캠페인&quot; 섹션을 참조하십시오.) |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; analytics &gt; payload | mbox가 적용된 후 Analytics에 전송해야 하는 클라이언트측 통합을 위한 Analytics 페이로드. (A4T 사용 "캠페인" 섹션을 참조하십시오.) |
 | response &gt; execute &gt; mboxes | 실행된 mbox 목록. |
-| response &gt; execute &gt; pageLoad &gt; options &gt; content | &quot;선택 사항&quot;의 컨텐츠가 잘 정의되어 있지 않으며 선택 사항 유형/템플릿 구조에 직접적으로 의존합니다. |
-| response &gt; execute &gt; pageLoad &gt; options &gt; type | 선택 사항 유형. &quot;컨텐츠&quot; 필드의 유형을 반영합니다. 지원되는 유형은 html, 리디렉션, JSON, 다이내믹 및 작업입니다. |
+| response &gt; execute &gt; pageLoad &gt; options &gt; content | "선택 사항"의 컨텐츠가 잘 정의되어 있지 않으며 선택 사항 유형/템플릿 구조에 직접적으로 의존합니다. |
+| response &gt; execute &gt; pageLoad &gt; options &gt; type | 선택 사항 유형. "컨텐츠" 필드의 유형을 반영합니다. 지원되는 유형은 html, 리디렉션, JSON, 다이내믹 및 작업입니다. |
 | response &gt; execute &gt; pageLoad &gt; options | 보기를 기준으로 그룹화되지 않은 선택 사항(target-global-mbox + 보기를 기준으로 그룹화되지 않은 보기를 사용하는 활동의 선택 사항). |
 | response &gt; execute &gt; pageLoad &gt; metrics | 특정 보기에 속하도록 설정되지 않은 클릭 지표. |
 | response &gt; execute &gt; pageLoad &gt; trace | pageLoad 요청에 대한 모든 추적 데이터를 포함하는 개체. |
-| response &gt; execute &gt; pageLoad &gt; analytics &gt; payload | 페이지 로드 컨텐츠가 적용된 후 Analytics에 전송해야 하는 클라이언트측 통합을 위한 Analytics 페이로드. (A4T 사용 &quot;캠페인&quot; 섹션을 참조하십시오.) |
+| response &gt; execute &gt; pageLoad &gt; analytics &gt; payload | 페이지 로드 컨텐츠가 적용된 후 Analytics에 전송해야 하는 클라이언트측 통합을 위한 Analytics 페이로드. (A4T 사용 "캠페인" 섹션을 참조하십시오.) |
 
 ## applyOffers() 호출 예
 
