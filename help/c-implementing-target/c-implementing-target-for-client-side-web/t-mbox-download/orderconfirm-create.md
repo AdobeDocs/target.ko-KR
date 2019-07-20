@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 주문 확인 mbox 만들기 - mbox.js{#create-an-order-confirmation-mbox-mbox-js}를 참조하십시오
 
-주문 확인 mbox는 사이트의 주문에 대한 세부 사항을 기록하고 매출 및 주문을 기준으로 보고할 수 있도록 합니다. 또한 주문 확인 mbox는 &quot;제품 x를 구입한 사람이 제품 y도 구입함&quot;과 같은 권장 사항 알고리즘을 유도할 수도 있습니다.
+주문 확인 mbox는 사이트의 주문에 대한 세부 사항을 기록하고 매출 및 주문을 기준으로 보고할 수 있도록 합니다. 또한 주문 확인 mbox는 "제품 x를 구입한 사람이 제품 y도 구입함"과 같은 권장 사항 알고리즘을 유도할 수도 있습니다.
 
 >[!NOTE]
 >
