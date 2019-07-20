@@ -31,7 +31,7 @@ Target Standard를 Adobe Dynamic Media Classic (이전 Scene 7) 와 통합하여
 
 Dynamic Media Classic (Scene 7) 와 통합하려면 다음 정보를 지정해야 합니다.
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL Scene7 설정]** 을 클릭합니다.
+1. **[!UICONTROL 설정]** &gt; **[!UICONTROL Scene7 설정]**&#x200B;을 클릭합니다.
 1. 다음 Dynamic Media Classic 계정 정보를 지정합니다.
 
    **지역:** 다이내믹 미디어 계정 지역: 북아메리카, 유럽 또는 아시아
