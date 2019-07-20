@@ -86,7 +86,7 @@ Recommendations API를 사용하면 Target의 Recommendations 서버와 프로�
 
 다음 FAQ는 사용할 것을 결정하는 데 도움이 됩니다.
 
-**&quot;원시&quot; 서버 측 API와 NodeJS SDK는 언제 사용해야 합니까?**
+**"원시" 서버 측 API와 NodeJS SDK는 언제 사용해야 합니까?**
 
 NodeJS를 백엔드 기술로 사용하는 경우에는 NodeJS SDK를 선택하는 것이 좋습니다. SDK는 쿠키, 헤더, 페이로드 등과 같은 여러 세부 사항을 처리합니다. 이 경우 애플리케이션의 핵심에 초점을 맞출 수 있습니다.
 
