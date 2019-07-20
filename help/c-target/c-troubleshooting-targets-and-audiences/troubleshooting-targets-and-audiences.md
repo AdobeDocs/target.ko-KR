@@ -37,13 +37,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## Target, Adobe Audience Manager(AAM) 및 핵심 서비스의 대상 라이브러리에 있는 동일한 대상의 이름이 서로 다른 이유는 무엇입니까? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-[!DNL Target]의 대상 이름은 고유합니다. 그러나 [!DNL AAM]과 [!DNL Audience Library]에서는 여러 대상(서로 다른 폴더에 있을 경우)에 대해 동일한 이름을 사용할 수 있습니다. [!DNL Target]에 [!DNL AAM] 또는 [!DNL Audience Library] 대상에 해당하는 대상 이름이 발생하면 [!DNL Target]은 해당 이름에 &quot;#&lt;number&gt;&quot;를 추가합니다.
+[!DNL Target]의 대상 이름은 고유합니다. 그러나 [!DNL AAM]과 [!DNL Audience Library]에서는 여러 대상(서로 다른 폴더에 있을 경우)에 대해 동일한 이름을 사용할 수 있습니다. [!DNL Target]에 [!DNL AAM] 또는 [!DNL Audience Library] 대상에 해당하는 대상 이름이 발생하면 [!DNL Target]은 해당 이름에 "#&lt;number&gt;"를 추가합니다.
 
-예를 들어, &quot;PC 사용자&quot;([!DNL AAM]에서)와 &quot;PC 사용자 #1&quot;([!DNL Target]에서)이라는 대상이 표시될 수 있습니다.
+예를 들어, "PC 사용자"([!DNL AAM]에서)와 "PC 사용자 #1"([!DNL Target]에서)이라는 대상이 표시될 수 있습니다.
 
 ## 대상의 이름을 바꿀 수 없는 이유는 무엇입니까? {#section_54E420556F534D20836E261E253D8B97}
 
-일부 Target 대상은 &quot;새 방문자&quot; 및 &quot;재방문자&quot;와 같이 사전에 정의되어 있습니다. 이렇게 사전 정의된 대상은 사용자가 이름을 바꿀 수 없습니다.
+일부 Target 대상은 "새 방문자" 및 "재방문자"와 같이 사전에 정의되어 있습니다. 이렇게 사전 정의된 대상은 사용자가 이름을 바꿀 수 없습니다.
 
 ## 일부 프로필 매개 변수가 Target 사용자 인터페이스에 표시되지 않는 이유는 무엇입니까? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
@@ -59,7 +59,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 숫자를 나타내는 문자열(부동 소수점 숫자도 지원됨)은 숫자로 비교됩니다.{#strings-that-represent-numbers}
 
-&quot;같음&quot;(equals) 표현식의 왼쪽 부분과 오른쪽 부분을 숫자로 구문 분석할 수 있는 경우 두 부분은 문자열이 아닌 숫자로서 비교됩니다.
+"같음"(equals) 표현식의 왼쪽 부분과 오른쪽 부분을 숫자로 구문 분석할 수 있는 경우 두 부분은 문자열이 아닌 숫자로서 비교됩니다.
 
 예:
 
@@ -77,4 +77,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 예:
 
-&quot;4e-2&quot;는 &quot;4e-2&quot;와만 같습니다. &quot;0.04&quot;와는 같지 *않습니다*.
+"4e-2"는 "4e-2"와만 같습니다. "0.04"와는 같지 *않습니다*.
