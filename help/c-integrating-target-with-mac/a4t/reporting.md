@@ -26,9 +26,9 @@ Analytics for Target을 사용하는 보고 우수 사례를 확인하려면 [Ad
 
 Analytics 및 Target 보고서는 사이트의 방문자 수가 아닌 참여자 수(테스트에 참여한 사람)를 측정합니다.
 
-방문자가 페이지에서 활동 컨텐츠를 볼 때마다 Target은 방문자가 본 활동 및 경험을 포함하여 서버 간 호출을 Analytics로 유도합니다. 또한 Target은 전환이 발생할 때마다 Analytics를 호출합니다. Analytics는 이 전환을 &quot;활동 전환&quot;이라는 이름의 새로운 특정 Analytics 이벤트로 추가하며 이 전환은 Analytics에서 수집한 기타 데이터와 함께 추적됩니다.
+방문자가 페이지에서 활동 컨텐츠를 볼 때마다 Target은 방문자가 본 활동 및 경험을 포함하여 서버 간 호출을 Analytics로 유도합니다. 또한 Target은 전환이 발생할 때마다 Analytics를 호출합니다. Analytics는 이 전환을 "활동 전환"이라는 이름의 새로운 특정 Analytics 이벤트로 추가하며 이 전환은 Analytics에서 수집한 기타 데이터와 함께 추적됩니다.
 
-선택 작업을 사용하여 *참여자*를 정렬하면 선택된 기간 중에 참여자를 수신한 경험만 보고서에 표시됩니다.
+선택 작업을 사용하여 *참여자*&#x200B;를 정렬하면 선택된 기간 중에 참여자를 수신한 경험만 보고서에 표시됩니다.
 
 >[!NOTE]
 >
@@ -36,9 +36,9 @@ Analytics 및 Target 보고서는 사이트의 방문자 수가 아닌 참여자
 
 ## Analytics의 보고서 {#section_F6884872DC864AE7913587FAED4CD11C}
 
-Analytics의 왼쪽 메뉴에서 **[!UICONTROL Target]** &gt; **[!UICONTROL Target 활동]** 을 클릭합니다. Target에서 활동의 보고서에 Analytics 데이터, 지표, 세그먼트가 자동으로 표시됩니다. 데이터는 사이트에서 수집된 후 약 1시간 후에 이러한 보고서에 표시됩니다. 보고서에 있는 모든 지표, 대상, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
+Analytics의 왼쪽 메뉴에서 **[!UICONTROL Target]** &gt; **[!UICONTROL Target 활동]**&#x200B;을 클릭합니다. Target에서 활동의 보고서에 Analytics 데이터, 지표, 세그먼트가 자동으로 표시됩니다. 데이터는 사이트에서 수집된 후 약 1시간 후에 이러한 보고서에 표시됩니다. 보고서에 있는 모든 지표, 대상, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
 
-Analytics에서 Target 활동의 결과를 살펴보려면 Target 활동 보고서를 사용하십시오. 이 보고서에는 이전 Test&amp;Target 플러그인 스타일 페이지 통합에 관한 정보가 포함되며 Analytics for Target 데이터는 포함되지 않습니다. Activities 보고서에서 Target 경험에 대한 정보를 봅니다. **[!UICONTROL 지표]** 를 클릭하고 **Target[!UICONTROL 지표 유형을 선택합니다.]** 보고서에서 두 개의 지표를 사용할 수 있습니다.
+Analytics에서 Target 활동의 결과를 살펴보려면 Target 활동 보고서를 사용하십시오. 이 보고서에는 이전 Test&amp;Target 플러그인 스타일 페이지 통합에 관한 정보가 포함되며 Analytics for Target 데이터는 포함되지 않습니다. Activities 보고서에서 Target 경험에 대한 정보를 봅니다. **[!UICONTROL 지표]**&#x200B;를 클릭하고 **Target[!UICONTROL 지표 유형을 선택합니다.]** 보고서에서 두 개의 지표를 사용할 수 있습니다.
 
 * **활동 시작:** Target 보고서에서 참여자 수와 일치합니다.
 * **활동 전환:** Target 보고서에서 사용자 지정 전환 수와 일치합니다.
@@ -49,7 +49,7 @@ Analytics에서 Target 활동의 결과를 살펴보려면 Target 활동 보고�
 
 >[!IMPORTANT]
 >
->Analytics에서 Target 활동 보고서에 활동이 나열되지 않고 &quot;지정되지 않음&quot;이 나열되면 제공된 계정을 업데이트해야 합니다. 이 문제를 해결하려면 고객 지원팀에 문의하십시오.
+>Analytics에서 Target 활동 보고서에 활동이 나열되지 않고 "지정되지 않음"이 나열되면 제공된 계정을 업데이트해야 합니다. 이 문제를 해결하려면 고객 지원팀에 문의하십시오.
 
 ## Target의 보고서 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
