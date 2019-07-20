@@ -33,8 +33,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | globalMboxAutoCreate | 부울 | UI를 통해 설정된 값 | 전역 mbox 요청을 실행해야 하는지를 나타냅니다. |
 | visitorApiTimeout | 숫자 | 2000ms = 2s | 방문자 API 요청 시간 제한을 나타냅니다. |
 | 활성화됨 | 부울 | true | 라이브러리로서의 at.js가 활성화되어 있는지, 즉 어떤 항목이라도 실행해야 하는지를 나타냅니다. 이 설정에 대한 기본 사용 사례는 옵트아웃 쿠키 또는 at.js 기능을 비활성화하는 기타 사용자 지정 의사 결정입니다. |
-| defaultContentHiddenStyle | 문자열 | 가시성: 숨김 | 기본 컨텐츠를 숨기기 위해 DIV를 클래스 이름 &quot;mboxDefault&quot;와 함께 사용하고 `mboxCreate()`, `mboxUpdate()` 또는 `mboxDefine()`을 통해 실행되는 mbox를 래핑하는 데만 사용됩니다. |
-| defaultContentVisibleStyle | 문자열 | 가시성: 표시 | 적용된 오퍼(있는 경우) 또는 기본 컨텐츠를 표시하기 위해 DIV를 클래스 이름 &quot;mboxDefault&quot;와 함께 사용하고 `mboxCreate()`, `mboxUpdate()` 또는 `mboxDefine()`을 통해 실행되는 mbox를 래핑하는 데만 사용됩니다. |
+| defaultContentHiddenStyle | 문자열 | 가시성: 숨김 | 기본 컨텐츠를 숨기기 위해 DIV를 클래스 이름 "mboxDefault"와 함께 사용하고 `mboxCreate()`, `mboxUpdate()` 또는 `mboxDefine()`을 통해 실행되는 mbox를 래핑하는 데만 사용됩니다. |
+| defaultContentVisibleStyle | 문자열 | 가시성: 표시 | 적용된 오퍼(있는 경우) 또는 기본 컨텐츠를 표시하기 위해 DIV를 클래스 이름 "mboxDefault"와 함께 사용하고 `mboxCreate()`, `mboxUpdate()` 또는 `mboxDefine()`을 통해 실행되는 mbox를 래핑하는 데만 사용됩니다. |
 | bodyHiddenStyle | 문자열 | body { opacity: 0 } | 깜박임 가능성을 최소화하기 위해 `globalMboxAutocreate === true`일 때만 사용됩니다.<br>자세한 내용은 [at.js에서 플리커를 관리하는 방법](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)을 참조하십시오. |
 | bodyHidingEnabled | 부울 | true | `target-global-mbox` 가 시각적 오퍼로도 알려진 시각적 경험 작성기에서 만든 오퍼를 전달하는 데 사용될 때 깜박임을 제어하는 데 사용됩니다. |
 | imsOrgId | 문자열 | IMS ORG ID | IMS ORG ID를 나타냅니다. |
@@ -43,11 +43,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | overrideMboxEdgeServerTimeout | 숫자 | 1860000 =&gt; 31분 | `mboxedge<clusterNumber>.tt.omtrdc.net` 값을 포함하는 쿠키 라이프타임을 나타냅니다. |
 | optoutEnabled | 부울 | false | Target이 방문자 API `isOptedOut()` 함수를 호출해야 하는지를 나타냅니다. Device Graph 지원의 일부입니다. |
 | selectorsPollingTimeout | 숫자 | 5000ms = 5s | at.js 0.9.6에서 Target은 `targetGlobalSettings`를 통해 재정의할 수 있는 이 새 설정을 도입했습니다.<br>`selectorsPollingTimeout`은 선택기로 식별된 모든 요소가 페이지에 표시되도록 하기 위해 클라이언트가 대기하는 시간을 나타냅니다.<br>VEC(시각적 경험 작성기)를 통해 작성된 활동에는 선택기를 포함하는 오퍼가 있습니다. |
-| dataProviders | 아래의 &quot;데이터 공급자&quot;를 참조하십시오. | 아래의 &quot;데이터 공급자&quot;를 참조하십시오. | 아래의 &quot;데이터 공급자&quot;를 참조하십시오. |
+| dataProviders | 아래의 "데이터 공급자"를 참조하십시오. | 아래의 "데이터 공급자"를 참조하십시오. | 아래의 "데이터 공급자"를 참조하십시오. |
 
 ## 사용 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-이 함수는 at.js가 로드되기 전에 또는 **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** &gt; **[!UICONTROL at.js 설정 편집]** &gt; **[!UICONTROL 코드 설정]** &gt; **[!UICONTROL 라이브러리 헤더]** 에서 정의할 수 있습니다.
+이 함수는 at.js가 로드되기 전에 또는 **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** &gt; **[!UICONTROL at.js 설정 편집]** &gt; **[!UICONTROL 코드 설정]** &gt; **[!UICONTROL 라이브러리 헤더]**&#x200B;에서 정의할 수 있습니다.
 
 라이브러리 헤더 필드에는 자유 형식 JavaScript를 입력할 수 있습니다. 사용자 지정 코드는 다음 예제와 유사해야 합니다.
 
