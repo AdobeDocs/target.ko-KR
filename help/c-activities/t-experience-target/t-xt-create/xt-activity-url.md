@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 활동 URL는 경험 타깃팅 (XT) 활동에서 사용되는 페이지를 결정하며, 활동이 디자인할 때 Visual Experience Composer (VEC) 또는 양식 기반 경험 작성기에서 열립니다.
 
-1. When prompted while [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), specify the activity URL. 전체 URL(`https://` 포함)을 입력하고 **[!UICONTROL 활동 만들기]** 를 클릭합니다.
+1. When prompted while [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), specify the activity URL. 전체 URL(`https://` 포함)을 입력하고 **[!UICONTROL 활동 만들기]**&#x200B;를 클릭합니다.
 
    >[!NOTE]
    >
