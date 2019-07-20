@@ -52,7 +52,7 @@ target/t_mixed_content_firefox.xml
 1. 검색 막대에서 `block_active`을 입력합니다.
 1. ` **[!UICONTROL security.mixed_content.block_active_content]**`를 두 번 클릭합니다.
 
-   값이 &quot;True&quot;에서 &quot;False&quot;로 변경됩니다. 값이 &quot;False&quot;를 표시하면 끝난 것입니다.  이 설정을 변경한 후에는 컴퓨터를 다시 시작하는 것이 좋습니다.
+   값이 "True"에서 "False"로 변경됩니다. 값이 "False"를 표시하면 끝난 것입니다.  이 설정을 변경한 후에는 컴퓨터를 다시 시작하는 것이 좋습니다.
 
 ## Internet Explorer에서 혼합 컨텐츠 활성화 {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
@@ -64,12 +64,12 @@ target/t_mixed_content_ie.xml
 
  -->
 
-1. Internet Explorer에서 설정 아이콘 &gt; **[!UICONTROL 인터넷 옵션]** 을 클릭합니다.
+1. Internet Explorer에서 설정 아이콘 &gt; **[!UICONTROL 인터넷 옵션]**&#x200B;을 클릭합니다.
 1. [!UICONTROL 보안] 탭을 엽니다.
-1. **[!UICONTROL 인터넷]** 을 선택한 후 **[!UICONTROL 사용자 지정 수준]** 을 클릭합니다.
-1. **[!UICONTROL 기타]** 를 선택합니다.
-1. [!UICONTROL 기타]에서 **[!UICONTROL 혼합 컨텐츠 표시]** 를 활성화합니다.
-1. **[!UICONTROL 확인]** &gt; **[!UICONTROL 예]** &gt;**[!UICONTROL 적용]** 을 클릭합니다.
+1. **[!UICONTROL 인터넷]**&#x200B;을 선택한 후 **[!UICONTROL 사용자 지정 수준]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 기타]**&#x200B;를 선택합니다.
+1. [!UICONTROL 기타]에서 **[!UICONTROL 혼합 컨텐츠 표시]**&#x200B;를 활성화합니다.
+1. **[!UICONTROL 확인]** &gt; **[!UICONTROL 예]** &gt;**[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
 이 설정을 변경한 후에는 컴퓨터를 다시 시작하는 것이 좋습니다.
 
