@@ -43,7 +43,7 @@ Adobe Experience Cloud는 GDPR 규정 발효일 이전에 데이터 관리자가
 
 ## Adobe Target 및 Adobe Launch 선택 {#section_6F7B53F5E40C4425934627B653E831B0}
 
-Target은 Adobe Launch를 통해 동의 관리 전략을 지원하는 데 도움이 되는 선택 기능 지원을 제공합니다. 선택 기능을 통해 고객이 Target 태그를 실행하는 방법과 시기를 제어할 수 있습니다. Adobe Launch를 통해서 Target 태그를 사전 승인할 수 있는 옵션이 있습니다. Target at.js에서 옵트인을 사용하는 기능을 활성화하려면 `targetGlobalSettings`를 사용하고 `optinEnabled=true` 설정을 추가해야 합니다. Launch에서는 Target Launch Extension 설치 보기의 GDPR 옵트인 드롭다운 목록에서 &quot;활성화&quot;를 선택해야 합니다. 자세한 내용은 [Launch 설명서](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 참조하십시오.
+Target은 Adobe Launch를 통해 동의 관리 전략을 지원하는 데 도움이 되는 선택 기능 지원을 제공합니다. 선택 기능을 통해 고객이 Target 태그를 실행하는 방법과 시기를 제어할 수 있습니다. Adobe Launch를 통해서 Target 태그를 사전 승인할 수 있는 옵션이 있습니다. Target at.js에서 옵트인을 사용하는 기능을 활성화하려면 `targetGlobalSettings`를 사용하고 `optinEnabled=true` 설정을 추가해야 합니다. Launch에서는 Target Launch Extension 설치 보기의 GDPR 옵트인 드롭다운 목록에서 "활성화"를 선택해야 합니다. 자세한 내용은 [Launch 설명서](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 참조하십시오.
 
 다음 코드 조각은 `optinEnabled=true` 설정을 활성화하는 방법을 보여 줍니다.
 
@@ -137,7 +137,7 @@ GDPR로 인해 변경되는 것은 동의를 받아야 하는 시점이 아닌 �
 
 Adobe Target은 Adobe Launch를 통해 동의 관리 전략을 지원하는 데 도움이 되는 선택 기능 지원을 제공합니다. 선택 기능을 통해 고객이 Adobe Target 태그를 실행하는 방법과 시기를 제어할 수 있습니다. Adobe Launch를 통해서 Adobe Target 태그를 사전 승인할 수 있는 옵션이 있습니다. Adobe Launch를 사용하여 선택 기능을 관리하는 것이 좋습니다. Adobe Launch에는 동의 전략의 일부로 활용할 수 있는 Adobe Target 실행 전에 페이지에서 선택한 요소를 숨기기 위한 세부적인 제어 기능이 추가로 있습니다.
 
-GDPR 및 Adobe Launch에 대한 자세한 내용은 [Adobe Privacy JavaScript Library 및 GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)을 참조하십시오. 또한 위의 &quot;Adobe Target 및 Adobe Launch 선택&quot; 섹션도 참조하십시오.
+GDPR 및 Adobe Launch에 대한 자세한 내용은 [Adobe Privacy JavaScript Library 및 GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)을 참조하십시오. 또한 위의 "Adobe Target 및 Adobe Launch 선택" 섹션도 참조하십시오.
 
 ### AdobePrivacy.js가 GDPR API에 정보를 제출합니까? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -246,9 +246,9 @@ GDPR 및 Adobe Launch에 대한 자세한 내용은 [Adobe Privacy JavaScript Li
 |--- |--- |
 | jobId | 중앙 GDPR API의 GDPR 작업 ID를 나타냅니다. |
 | imsOrgID | 회사에 대한 고유 식별자를 제공합니다. |
-| namespace | 데이터 소스라고도 합니다. 이 주제에서 &quot;고객이 Target에 대한 GDPR 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?&quot;를 참조하십시오. |
-| 유형 | GDPR 데이터 액세스를 요청한 ID의 유형입니다. Target은 여러 가지 ID 유형을 지원하는데, 이 중 일부는 표준 ID 유형이며 일부는 Target에 고유한 ID 유형입니다. 이 주제에서 &quot;고객이 Target에 대한 GDPR 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?&quot;를 참조하십시오. |
-| value | 네임스페이스/데이터 소스의 ID입니다. 이 주제에서 &quot;고객이 Target에 대한 GDPR 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?&quot;를 참조하십시오. |
+| namespace | 데이터 소스라고도 합니다. 이 주제에서 "고객이 Target에 대한 GDPR 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?"를 참조하십시오. |
+| 유형 | GDPR 데이터 액세스를 요청한 ID의 유형입니다. Target은 여러 가지 ID 유형을 지원하는데, 이 중 일부는 표준 ID 유형이며 일부는 Target에 고유한 ID 유형입니다. 이 주제에서 "고객이 Target에 대한 GDPR 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?"를 참조하십시오. |
+| value | 네임스페이스/데이터 소스의 ID입니다. 이 주제에서 "고객이 Target에 대한 GDPR 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?"를 참조하십시오. |
 | 통합 코드 | 통합 코드는 데이터 소스의 친숙한 이름이며, 데이터 소스 ID를 사용하는 것보다 쉽게 데이터 소스를 추적하는 데 도움이 됩니다. |
 
 프로필을 식별하기 위해 여러 값이 제공된 경우 유효한 식별자마다 하나의 프로필 파일을 갖습니다. 프로필 파일은 GDPR 중앙 API를 통해 Target 프로필 JSON 응답 형식으로 중앙 GDPR Azure Blob에 전송됩니다.
