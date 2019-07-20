@@ -40,8 +40,8 @@ at.js 설정 페이지에서 몇 가지 설정을 지정하는 데 도움이 되
 
 [!UICONTROL 설정] 페이지를 열려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** 을 클릭합니다.
-1. **[!UICONTROL at.js]** &gt; **[!UICONTROL at.js 설정 편집]** 을 선택합니다.
+1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL at.js]** &gt; **[!UICONTROL at.js 설정 편집]**&#x200B;을 선택합니다.
 
 ## 컨텐츠 전달 설정 {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -92,7 +92,7 @@ ov2/c_target-configure-atjs.xml
 
 [!DNL Target] 인터페이스에서 [!DNL at.js]를 다운로드하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** 을 클릭합니다.
+1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL at.js를 선택합니다]**.
 1. **[!UICONTROL at.js 다운로드를 클릭합니다]**.
 
@@ -122,7 +122,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
    }
    ```
 
-   이 예에서 &quot;6&quot;은 관리 번호입니다.
+   이 예에서 "6"은 관리 번호입니다.
 
 1. 다운로드 [!DNL at.js].
 
@@ -213,7 +213,7 @@ at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현�
 
 ## 변환 추적 {#task_E85D2F64FEB84201A594F2288FABF053}
 
-주문 확인 mbox는 사이트의 주문에 대한 세부 사항을 기록하고 매출 및 주문을 기준으로 보고할 수 있도록 합니다. 또한 주문 확인 mbox는 &quot;제품 x를 구입한 사람이 제품 y도 구입함&quot;과 같은 권장 사항 알고리즘을 유도할 수도 있습니다.
+주문 확인 mbox는 사이트의 주문에 대한 세부 사항을 기록하고 매출 및 주문을 기준으로 보고할 수 있도록 합니다. 또한 주문 확인 mbox는 "제품 x를 구입한 사람이 제품 y도 구입함"과 같은 권장 사항 알고리즘을 유도할 수도 있습니다.
 
 <!-- 
 
