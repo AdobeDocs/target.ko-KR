@@ -17,10 +17,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 특정 운영 체제를 사용하는 방문자를 타깃팅할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 운영 체제]** 를 클릭합니다.
-1. **[!UICONTROL 선택]** 을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 운영 체제]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    * Linux
    * Macintosh
