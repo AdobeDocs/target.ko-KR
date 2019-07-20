@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 방문자가 웹 사이트를 찾아보거나 방문자가 다른 세션을 위해 돌아오면 저장된 프로필 속성을 사용하여 세그먼트 필터링을 위한 컨텐츠 또는 로그 정보를 타깃팅할 수 있습니다.
 
-프로필 속성을 설정하려면 **[!UICONTROL 대상]** &gt; **[!UICONTROL 프로필 스크립트]** 를 클릭하십시오.
+프로필 속성을 설정하려면 **[!UICONTROL 대상]** &gt; **[!UICONTROL 프로필 스크립트]**&#x200B;를 클릭하십시오.
 
 ![프로필 스크립트 탭](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -27,8 +27,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 | 매개 변수 유형 | 설명 |
 |--- |--- |
-| Mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [글로벌 mbox에 매개 변수 전달](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)을 참조하십시오.<br>**** 참고: Target의 mbox 호출당 고유한 프로필 속성 제한은 50개입니다. Target에 50개가 넘는 프로필 속성을 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하여 전달할 수 있습니다. 자세한 내용은 Adobe Target API 설명서의 [프로필 업데이트를 참조하십시오](http://developers.adobetarget.com/api/#updating-profiles). |
-| 스크립트 | JavaScript 코드 조각으로 바로 정의됩니다. 이러한 스크립트는 소비자가 지출한 총 금액과 같은 누계를 저장할 수 있으며 각 mbox 요청 시 실행됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 아래의 &quot;프로필 스크립트 속성&quot;을 참조하십시오. |
+| Mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [글로벌 mbox에 매개 변수 전달](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)을 참조하십시오.<br>****&#x200B;참고: Target의 mbox 호출당 고유한 프로필 속성 제한은 50개입니다. Target에 50개가 넘는 프로필 속성을 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하여 전달할 수 있습니다. 자세한 내용은 Adobe Target API 설명서의 [프로필 업데이트를 참조하십시오](http://developers.adobetarget.com/api/#updating-profiles). |
+| 스크립트 | JavaScript 코드 조각으로 바로 정의됩니다. 이러한 스크립트는 소비자가 지출한 총 금액과 같은 누계를 저장할 수 있으며 각 mbox 요청 시 실행됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 아래의 "프로필 스크립트 속성"을 참조하십시오. |
 
 ## 프로필 스크립트 속성 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -46,7 +46,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 프로필 스크립트는 [!UICONTROL  인터페이스의 ]대상자[!DNL Target] 탭에서 사용할 수 있습니다.
 
-새 프로필 스크립트를 추가하려면 **[!UICONTROL 프로필 스크립트]** 탭과 **[!UICONTROL 스크립트 만들기]** 를 클릭한 다음 스크립트를 작성합니다.
+새 프로필 스크립트를 추가하려면 **[!UICONTROL 프로필 스크립트]** 탭과 **[!UICONTROL 스크립트 만들기]**&#x200B;를 클릭한 다음 스크립트를 작성합니다.
 
 또는
 
@@ -56,7 +56,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ![프로필 스크립트 만들기 대화 상자](assets/profile-script.png)
 
-프로필 스크립트는 각 위치 요청에서 프로필 속성 &quot;catchers&quot;를 실행합니다. 위치 요청이 수신되면, Target은 실행해야 할 활동을 결정하고 해당 활동과 해당 경험에 적절한 컨텐츠를 표시하며 활동의 성공을 추적하고 모든 적절한 프로필 스크립트를 실행합니다. 이렇게 하면 방문자의 위치, 시각, 방문자가 사이트에 있었던 횟수, 전에 구입한 적이 있었는지 여부 등과 같은 방문에 대한 정보를 추적할 수 있습니다. 그런 다음 이러한 정보가 방문자의 프로필에 추가되므로 방문자의 사이트 활동을 더 잘 추적할 수 있습니다.
+프로필 스크립트는 각 위치 요청에서 프로필 속성 "catchers"를 실행합니다. 위치 요청이 수신되면, Target은 실행해야 할 활동을 결정하고 해당 활동과 해당 경험에 적절한 컨텐츠를 표시하며 활동의 성공을 추적하고 모든 적절한 프로필 스크립트를 실행합니다. 이렇게 하면 방문자의 위치, 시각, 방문자가 사이트에 있었던 횟수, 전에 구입한 적이 있었는지 여부 등과 같은 방문에 대한 정보를 추적할 수 있습니다. 그런 다음 이러한 정보가 방문자의 프로필에 추가되므로 방문자의 사이트 활동을 더 잘 추적할 수 있습니다.
 
 프로필 스크립트 속성은 속성 이름 앞에 `user.` 태그가 삽입되어 있습니다. 예:
 
@@ -68,10 +68,10 @@ if (mbox.name == 'Track_Interest') {
 }
 ```
 
-* `user.get('parameterName')`&#39;)을 사용하여 코드에서 프로필 스크립트 속성(자신 포함)을 참조하십시오.
-* `user.setLocal('variable_name', 'value')`&#39;)을 사용하여 다음 mbox 요청에서 스크립트가 다음에 실행될 때 액세스할 수 있는 변수를 저장합니다. `user.getLocal('variable_name')`을 사용하여 변수를 참조합니다. 마지막 요청의 날짜와 시간을 참조하려는 경우에 유용합니다.
+* `user.get('parameterName')`')을 사용하여 코드에서 프로필 스크립트 속성(자신 포함)을 참조하십시오.
+* `user.setLocal('variable_name', 'value')`')을 사용하여 다음 mbox 요청에서 스크립트가 다음에 실행될 때 액세스할 수 있는 변수를 저장합니다. `user.getLocal('variable_name')`을 사용하여 변수를 참조합니다. 마지막 요청의 날짜와 시간을 참조하려는 경우에 유용합니다.
 * 매개 변수와 값은 대/소문자를 구분합니다. 활동 또는 테스트 중에 받게 될 매개 변수 및 값의 대/소문자를 일치시킵니다.
-* 자세한 JavaScript 구문에 대해서는 아래의 &quot;스크립트 프로필 매개 변수에 대해 JavaScript 참조&quot; 섹션을 참조하십시오.
+* 자세한 JavaScript 구문에 대해서는 아래의 "스크립트 프로필 매개 변수에 대해 JavaScript 참조" 섹션을 참조하십시오.
 
 ## 프로필 스크립트 정보 카드 보기 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -111,7 +111,7 @@ if (mbox.name == 'Track_Interest') {
 
 * 정의되지 않은 변수가 참조되었습니다.
 * 올바르지 않은 값이 참조되었습니다. 적절한 유효성 검사를 수행하지 않고 URL 값 및 기타 사용자가 입력한 데이터를 참조할 때 이런 일이 종종 발생합니다.
-* 너무 많은 JavaScript 명령어가 사용되었습니다. Target에서는 스크립트당 JavaScript 명령어 개수를 2,000개로 제한하지만 JavaScript를 수동으로 읽어서는 이것을 간단히 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 &quot;새로운&quot; 호출을 100개의 명령어로 처리합니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
+* 너무 많은 JavaScript 명령어가 사용되었습니다. Target에서는 스크립트당 JavaScript 명령어 개수를 2,000개로 제한하지만 JavaScript를 수동으로 읽어서는 이것을 간단히 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 "새로운" 호출을 100개의 명령어로 처리합니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
 * 아래의 [우수 사례](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) 섹션에서 강조 표시된 항목을 따르지 않습니다.
 
 ## 우수 사례 {#section_64AFE5D2B0C8408A912FC2A832B3AAE0}
@@ -123,7 +123,7 @@ if (mbox.name == 'Track_Interest') {
 * 문자열 기반 조작 함수와 정규 표현식을 비교 사용합니다.
 * 제한된 for 루프와 개방된 for 또는 while 루프를 비교 사용합니다.
 * 1,300자 또는 50개 루프 반복을 초과하지 않도록 합니다.
-* JavaScript 명령어 2,000개를 초과하지 않도록 합니다. Target에서는 스크립트당 JavaScript 명령어 개수를 2,000개로 제한하지만 JavaScript를 수동으로 읽어서는 이것을 간단히 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 &quot;새로운&quot; 호출을 100개의 명령어로 처리합니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
+* JavaScript 명령어 2,000개를 초과하지 않도록 합니다. Target에서는 스크립트당 JavaScript 명령어 개수를 2,000개로 제한하지만 JavaScript를 수동으로 읽어서는 이것을 간단히 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 "새로운" 호출을 100개의 명령어로 처리합니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
 * 스크립트 성능뿐만 아니라 모든 스크립트를 결합한 성능에 주의하십시오. 우수 사례로, 총 5,000개 미만의 지침을 사용하는 것이 좋습니다. 지침 수를 계산하는 것이 명확하지 않지만, 중요한 것은 2KB를 초과하는 스크립트가 자동으로 비활성화된다는 점입니다. 실행할 수 있는 스크립트의 수에 대한 제한이 설정되어 있지 않지만, 각 스크립트는 단일 mbox가 호출될 때마다 실행됩니다. 필요만 만큼만 스크립트를 실행합니다.
 * 모두 실패하는 경우 try/catch에 스크립트를 래핑합니다.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -143,7 +143,7 @@ if (mbox.name == 'Track_Interest') {
 
 ### 두 개의 활동 설정
 
-방문자를 각각 다른 활동이 표시되는 그룹으로 정렬하려면 프로필 속성을 만들어야 합니다. 프로필 속성은 방문자를 둘 이상 그룹의 하나로 정렬할 수 있습니다. &quot;twogroups&quot;라는 프로필 속성을 설정하려면 다음 스크립트를 만드십시오.
+방문자를 각각 다른 활동이 표시되는 그룹으로 정렬하려면 프로필 속성을 만들어야 합니다. 프로필 속성은 방문자를 둘 이상 그룹의 하나로 정렬할 수 있습니다. "twogroups"라는 프로필 속성을 설정하려면 다음 스크립트를 만드십시오.
 
 ```
 if (!user.get('twogroups')) { 
@@ -226,17 +226,17 @@ if (!user.get('threegroups')) {
 
 * **프로필 스크립트를 응답 토큰으로 추가하여 프로필 스크립트 디버그:**
 
-   Target에서 **[!UICONTROL 설정]** 을 클릭하고 **[!UICONTROL 응답 토큰]** 을 클릭한 다음 디버그하려는 프로필 스크립트를 활성화합니다.
+   Target에서 **[!UICONTROL 설정]**&#x200B;을 클릭하고 **[!UICONTROL 응답 토큰]**&#x200B;을 클릭한 다음 디버그하려는 프로필 스크립트를 활성화합니다.
 
    Target이 있는 사이트에 대한 페이지를 로드할 때 Target의 응답 중 일부에는 아래에 표시된 대로 제공된 프로필 스크립트에 대한 값이 포함됩니다.
 
    ![](assets/debug_profile_script_1.png)
 
-* **mboxTrace 디버깅 도구를 사용하여 프로필 스크립트를 디버그** 합니다.
+* **mboxTrace 디버깅 도구를 사용하여 프로필 스크립트를 디버그**&#x200B;합니다.
 
-   이 메서드는 **[!UICONTROL Target]** &gt; **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** &gt; **[!UICONTROL 승인 토큰 생성]** 을 클릭하여 생성할 수 있는 승인 토큰이 필요합니다.
+   이 메서드는 **[!UICONTROL Target]** &gt; **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** &gt; **[!UICONTROL 승인 토큰 생성]**&#x200B;을 클릭하여 생성할 수 있는 승인 토큰이 필요합니다.
 
-   그런 다음 &quot;?&quot; 뒤에 있는 페이지 URL에 다음 두 매개 변수를 추가합니다.`mboxTrace=window&authorization=YOURTOKEN`
+   그런 다음 "?" 뒤에 있는 페이지 URL에 다음 두 매개 변수를 추가합니다.`mboxTrace=window&authorization=YOURTOKEN`
 
    이 매개 변수는 프로필의 실행 전 스냅샷과 실행 후 스냅샷을 가져오므로, 응답 토큰보다 더욱 유용합니다. 또한 사용 가능한 모든 프로필을 모두 표시합니다.
 
@@ -303,14 +303,14 @@ if (mbox.name == 'orderThankyouPage') {
 | `page.url` | 현재 URL입니다. |
 | `page.protocol` | 페이지에 사용된 프로토콜(http, https)입니다. |
 | page.domain | 현재 URL 도메인(첫 번째 슬래시 앞에 있는 모든 것)입니다. 예: `http://www.acme.com/categories/men_jeans?color=blu e&size=small`에서 `www.acme.com`. |
-| `page.query` | 현재 페이지에 대한 쿼리 문자열입니다. &#39;?&#39; 뒤에 있는 모든 것입니다. 예: `http://www.acme.com/categories/mens_jeans?color=blue&size=small`에서 `blue&size=small`. |
+| `page.query` | 현재 페이지에 대한 쿼리 문자열입니다. '?' 뒤에 있는 모든 것입니다. 예: `http://www.acme.com/categories/mens_jeans?color=blue&size=small`에서 `blue&size=small`. |
 | `page.param(‘<par_name>’)` | `<par_name>`으로 표시된 매개 변수의 값입니다. 현재 URL이 Google의 검색 페이지이고 `page.param('hl')`을 입력한 경우, URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`에 대해 “en”이 표시됩니다. |
 | `page.referrer` | 위와 동일한 일련의 작업이 레퍼러 및 랜딩에 적용됩니다(referrer.url이 레퍼러의 URL 주소가 됨). |
 | `landing.url`, `landing.protocol`, `landing.query`, 및 `landing.param` | 페이지의 값과 비슷하지만 랜딩 페이지용입니다. |
 | `mbox.name` | 활성 mbox 이름입니다. |
 | `mbox.param(‘<par_name>’)` | 활성 mbox에서 제공된 이름의 mbox 매개 변수입니다. |
-| `profile.get(‘<par_name>’)` | `<par_name>`이라는 이름으로 클라이언트가 생성한 사용자 프로필 매개 변수입니다. 예를 들어 사용자가 &quot;gender&quot;라는 프로필 매개 변수를 설정하면 &quot;profile.gender&quot;를 사용하여 값을 추출할 수 있습니다. 현재 방문자에 대해 설정된 &quot;`profile.<par_name>`&quot; 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. |
-| `user.get(‘<par_name>’)` | 현재 방문자에 대해 설정된 &quot;`user.<par_name>`&quot; 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. |
+| `profile.get(‘<par_name>’)` | `<par_name>`이라는 이름으로 클라이언트가 생성한 사용자 프로필 매개 변수입니다. 예를 들어 사용자가 "gender"라는 프로필 매개 변수를 설정하면 "profile.gender"를 사용하여 값을 추출할 수 있습니다. 현재 방문자에 대해 설정된 "`profile.<par_name>`" 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. |
+| `user.get(‘<par_name>’)` | 현재 방문자에 대해 설정된 "`user.<par_name>`" 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. |
 | `user.categoryAffinity` | 가장 적합한 카테고리의 이름을 반환합니다. |
 | `user.categoryAffinities` | 가장 적합한 카테고리가 있는 배열을 반환합니다. |
 | `user.isFirstSession` | 방문자의 첫 번째 세션인 경우 true를 반환합니다. |
@@ -329,8 +329,8 @@ if (mbox.name == 'orderThankyouPage') {
 | `>` | 왼쪽의 변수가 오른쪽의 변수보다 큼을 나타냅니다. 변수가 동일한 경우 false입니다. |
 | `<=` | 변수가 동일한 경우를 제외하고 `<`와 동일하면 true입니다. |
 | `>=` | 변수가 동일한 경우를 제외하고 `>`와 동일하면 true입니다. |
-| `&&` | 표현식의 왼쪽과 오른쪽에 있는 논리적 &quot;AND&quot;는 양쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
-| `||` | 표현식의 왼쪽과 오른쪽에 있는 논리적 &quot;OR&quot;은 한쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
+| `&&` | 표현식의 왼쪽과 오른쪽에 있는 논리적 "AND"는 양쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
+| `||` | 표현식의 왼쪽과 오른쪽에 있는 논리적 "OR"은 한쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
 | `//` | 부울에 포함된 타겟의 모든 요소(Array source, Array target)가 소스에 포함되어 있는지 확인합니다.<br>`//`는 타겟(regexp에 해당함)에서 하위 문자열을 추출하여 `Array/*String*/ decode(String encoding, String regexp, String target)`로 디코딩합니다.<br>이 기능은 상수 문자열 값, 그룹화(`condition1 || condition2) && condition3` 및 정규식(`/[^a-z]$/.test(landing.referring.url)` 사용을 지원합니다. |
 
 ## 교육 비디오: 프로필 스크립트
