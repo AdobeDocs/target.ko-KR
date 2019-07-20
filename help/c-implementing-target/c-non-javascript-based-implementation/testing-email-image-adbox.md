@@ -41,7 +41,7 @@ mboxPC={123456}” border=“0"/>
 | 값 | 설명 |
 |--- |--- |
 | clientcode | 회사의 클라이언트 코드입니다. `clientCode='yourclientcode'`로 나열된 at.js 또는 mbox.js에서 찾으십시오. 모두 소문자이고 특수 문자를 포함하지 않습니다. |
-| 이미지 | 오퍼 유형입니다. 그래픽 광고의 경우 항상 &quot;image&quot;이며 리디렉터의 경우에는 &quot;page&quot;입니다. |
+| 이미지 | 오퍼 유형입니다. 그래픽 광고의 경우 항상 "image"이며 리디렉터의 경우에는 "page"입니다. |
 | email_header | adbox의 이름입니다. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 필수. URL를 adbox의 적절한 기본 컨텐츠로 바꿉니다. 이것은 절대 참조이며 URL로 인코딩되어야 합니다. |
 | `mboxXDomain=disabled` | Target에 쿠키를 설정하지 않도록 지시합니다. |
