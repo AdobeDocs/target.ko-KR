@@ -20,15 +20,15 @@ at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데
 
 1. mbox.js를 편집합니다.
 
-   **[!UICONTROL Target]** &gt; **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** 으로 이동합니다.
+   **[!UICONTROL Target]** &gt; **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;으로 이동합니다.
 
    * mbox.js의 경우 **[!UICONTROL mbox.js 설정 편집을 클릭합니다]**.
-   * [!DNL at.js]의 경우 구현 방법 아래에서 **[!UICONTROL at.js]** 를 선택한 후 **[!UICONTROL mbox.js 설정 편집]** 을 클릭합니다.
+   * [!DNL at.js]의 경우 구현 방법 아래에서 **[!UICONTROL at.js]**&#x200B;를 선택한 후 **[!UICONTROL mbox.js 설정 편집]**&#x200B;을 클릭합니다.
    ![](assets/step-1-edit-mboxjs.png)
 
 1. [!DNL mbox.js] 또는 [!DNL at.js]를 편집합니다.
 
-   **[!UICONTROL 글로벌 mbox를 자동으로 만들기]** 를 비활성화한 후 [!DNL Target Standard/Premium]에서 활동을 전달하는 데 사용할 사용자 지정 글로벌 mbox의 이름을 추가합니다. 이 사용자 지정 mbox도 클릭 추적에 사용됩니다.
+   **[!UICONTROL 글로벌 mbox를 자동으로 만들기]**&#x200B;를 비활성화한 후 [!DNL Target Standard/Premium]에서 활동을 전달하는 데 사용할 사용자 지정 글로벌 mbox의 이름을 추가합니다. 이 사용자 지정 mbox도 클릭 추적에 사용됩니다.
 
    ![](assets/step-2-edit-mboxjs-or-atjs.png)
 
