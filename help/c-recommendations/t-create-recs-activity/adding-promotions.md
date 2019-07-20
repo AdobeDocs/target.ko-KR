@@ -37,7 +37,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 1. **[!UICONTROL 옵션]** 페이지에서 **[!UICONTROL 앞면 프로모션]** 또는 **[!UICONTROL 뒤로 프로모션]** 전환을 클릭합니다.
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
 
    ![전면 프로모션 옵션 추가](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
@@ -52,16 +52,16 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 1. **[!UICONTROL 프로모션 유형]을 선택합니다.**
 
-   * **[!UICONTROL 항목 목록]** 을 선택하고, 판촉할 특정 항목의 `entity.id` 값을 쉼표로 구분해서 입력합니다.
+   * **[!UICONTROL 항목 목록]**&#x200B;을 선택하고, 판촉할 특정 항목의 `entity.id` 값을 쉼표로 구분해서 입력합니다.
 
       목록에 프로모션용으로 설정한 슬롯 수보다 많은 항목이 포함된 경우 **[!UICONTROL 항목 순서 무작위 지정]선택란을 선택하여 디자인에 표시되는 판촉된 항목을 변경할 수 있습니다.** 이 옵션을 선택하면 Target에서 각 방문에 대해 전체 판촉 행사 세트의 템플릿에서 판촉 행사에 대해 활성화된 항목 수를 임의로 선택할 수 있습니다.
 
-   * **속성별 판촉[!UICONTROL ]을 선택하고 규칙을 추가하여 판촉할 항목의 속성을 정의합니다.**
+   * **속성별 판촉을 선택하고 규칙을 추가하여 판촉할 항목의 속성을 정의합니다.**
 
       속성별 판촉을 선택하는 경우 다이내믹 일치를 만들 수 있습니다. 자세한 내용은 [동적 및 정적 포함 규칙 사용](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하십시오.
 
    * **[!UICONTROL 컬렉션 판촉]을 선택하고 판촉할 항목의 컬렉션을 선택합니다.** 프로모션에 사용할 새 컬렉션을 만들 수 있습니다. 자세한 내용은 [컬렉션 만들기](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08)를 참조하십시오.
 
-1. **[!UICONTROL 저장]** 을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 활동의 모든 경험에 프로모션이 적용됩니다.
