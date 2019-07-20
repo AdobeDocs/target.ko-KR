@@ -25,7 +25,7 @@ For more information about Experience Targeting, a use-case scenario, and traini
 
 **XT 활동을 만들려면:**
 
-1. [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** &gt; **[!UICONTROL 경험 타깃팅]** 을 클릭합니다.
+1. [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** &gt; **[!UICONTROL 경험 타깃팅]**&#x200B;을 클릭합니다.
 
    ![활동 만들기 &gt; 경험 타깃팅](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
@@ -51,7 +51,7 @@ For more information about Experience Targeting, a use-case scenario, and traini
 
 1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [활동 URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)를 지정하고 다음을 클릭합니다 **[!UICONTROL ]**.
+1. [활동 URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)를 지정하고 다음을 클릭합니다 ****.
 
    If your account is [configured with a default URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), that URL appears by default. 필요한 경우 기본값에서 다른 URL로 변경할 수 있습니다.
 
