@@ -24,8 +24,8 @@ Adobe Target은 모든 개별 사용자에 대한 프로필을 작성하고 유�
 
 **Target UI를 사용하여 인증을 요구하고 액세스 토큰을 생성하려면 다음을 수행하십시오.**
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** 을 클릭합니다.
-1. **[!UICONTROL 프로필 API 설정]** 에서 **인증 필요[!UICONTROL 드롭다운 목록을 사용하여 인증 요구 사항을 활성화 또는 비활성화합니다.]**
+1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 프로필 API 설정]**&#x200B;에서 **인증 필요[!UICONTROL 드롭다운 목록을 사용하여 인증 요구 사항을 활성화 또는 비활성화합니다.]**
 
    ![](assets/profile_api_settings.png)
 
@@ -39,7 +39,7 @@ Adobe Target은 모든 개별 사용자에 대한 프로필을 작성하고 유�
    >
    >API를 통해 프로필 인증 토큰을 생성할 수도 있습니다. 자세한 내용은 [Adobe Target 개발자 웹 사이트](https://developers.adobetarget.com/)에서 [프로필](https://developers.adobetarget.com/api/#profiles)을 참조하십시오.
 
-1. 토큰을 복사하고 &quot;Authorization&quot; : &quot;Bearer &quot; 형식으로 요청 헤더에 포함합니다.
+1. 토큰을 복사하고 "Authorization" : "Bearer " 형식으로 요청 헤더에 포함합니다.
 
 필요에 따라 토큰을 재생성하려면 [!UICONTROL 프로필 인증 토큰 재생]을 클릭하십시오.
 
