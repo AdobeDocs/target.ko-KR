@@ -24,7 +24,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!DNL Target Standard]와 레거시 구현 둘 다에 기존 글로벌 mbox를 사용하려면, 몇 개의 매개 변수를 설정해야 합니다.
 
-1. [!DNL Target Standard]로 이동한 다음, **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** 을 클릭합니다.
+1. [!DNL Target Standard]로 이동한 다음, **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 
    기본적으로, [!UICONTROL 글로벌 mbox 자동 만들기]가 활성화되어 있고, 사용자 지정 글로벌 mbox의 이름은 `target-global-mbox`로 지정됩니다.
 1. 기존 mbox를 사용하려는 경우, [!UICONTROL 글로벌 mbox 자동 만들기]를 비활성화하고, [!UICONTROL 사용자 지정 글로벌 mbox] 필드에 이전에 만든 글로벌 mbox의 이름을 지정하십시오.
@@ -36,7 +36,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 새 mbox.js 파일을 다운로드하고 사이트에서 참조합니다.
 
    새 mbox.js 파일로 프로덕션 사이트를 업데이트했다면, 이제 기본 설정을 지정할 수 있습니다.
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]** 을 클릭합니다.
+1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
 1. [!UICONTROL 사용자 지정 글로벌 mbox] 필드에서, 구현 페이지에서 선택한 글로벌 mbox의 이름을 지정합니다.
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
