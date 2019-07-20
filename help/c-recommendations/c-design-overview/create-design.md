@@ -29,14 +29,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    또는
 
-   사용자 지정 디자인을 만들려면 **** 권장 사항 &gt; 디자인] 화면에서 **[!UICONTROL 디자인 만들기]를 클릭합니다.[!UICONTROL **
+   사용자 지정 디자인을 만들려면 ****&#x200B;권장 사항 &gt; 디자인] 화면에서 **[!UICONTROL 디자인 만들기]를 클릭합니다.[!UICONTROL **
 
    ![](assets/createDesign.png)
 
-1. **[!UICONTROL 컨텐츠 이름]** 을 추가합니다.
+1. **[!UICONTROL 컨텐츠 이름]**&#x200B;을 추가합니다.
 
-   기본 디자인을 사용하면 디자인 이름과 &quot;복사본&quot;이 **[!UICONTROL 컨텐츠 이름]필드에 나타납니다.** 이름을 편집할 수 있습니다. 1. (선택 사항): 디자인 카드에 표시할 이미지를 선택하려면 클릭합니다.
-1. 디자인 **[!UICONTROL 코드]** 를 편집합니다.
+   기본 디자인을 사용하면 디자인 이름과 "복사본"이 **[!UICONTROL 컨텐츠 이름]필드에 나타납니다.** 이름을 편집할 수 있습니다. 1. (선택 사항): 디자인 카드에 표시할 이미지를 선택하려면 클릭합니다.
+1. 디자인 **[!UICONTROL 코드]**&#x200B;를 편집합니다.
 
    권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 [](https://velocity.apache.org)https://velocity.apache.org에서 알 수 있습니다.
 
