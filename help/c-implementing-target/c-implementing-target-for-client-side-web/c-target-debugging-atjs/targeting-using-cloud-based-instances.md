@@ -26,4 +26,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [!DNL at.js] 및 [!DNL mbox.js] JavaScript 라이브러리에서는 쿠키로 사용자를 추적하여 [!DNL Target]이 항상 일관된 경험을 제공하도록 합니다. [!DNL Target] JavaScript 라이브러리가 쿠키를 저장할 수 없다면 [!DNL Target] 요청이 비활성화된 것입니다.
 
-**해결 방법:** 공용 접미어 목록에 포함된 도메인에 클라우드 기반 인스턴스를 사용하려는 경우 `cookieDomain` 설정을 사용자 지정하는 것이 좋습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
+**해결 방법:**&#x200B;공용 접미어 목록에 포함된 도메인에 클라우드 기반 인스턴스를 사용하려는 경우 `cookieDomain` 설정을 사용자 지정하는 것이 좋습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
