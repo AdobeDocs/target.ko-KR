@@ -36,7 +36,7 @@ Define an audience to compare two profile attributes for your [Audience library]
 
 ## 프로필 속성 비교 대상 만들기 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** &gt; **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]** 을 클릭합니다.
+1. **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** &gt; **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 방문자 프로필]드롭다운 목록에서 속성을 선택합니다.**
 
    ![성향 점수 1](assets/propensity_score_1.png)
@@ -45,15 +45,15 @@ Define an audience to compare two profile attributes for your [Audience library]
 
    ![성향 점수 2](assets/propensity_score_2.png)
 
-1. **[!UICONTROL 비교 유형 선택]** 드롭다운 목록에서 **[!UICONTROL 속성]** 을 선택합니다.
+1. **[!UICONTROL 비교 유형 선택]** 드롭다운 목록에서 **[!UICONTROL 속성]**&#x200B;을 선택합니다.
 
-   &quot;정적 값&quot; 비교 유형을 사용하면 방문자 프로필 속성을 특정 값과 비교할 수 있습니다.
+   "정적 값" 비교 유형을 사용하면 방문자 프로필 속성을 특정 값과 비교할 수 있습니다.
 
    ![성향 점수 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
-   >1단계의 기본 방문자 프로필 카테고리 중 하나를 사용하는 경우(예: 새 방문자 또는 재방문자) 정적 값 선택 사항만 선택할 수 있습니다. 동적 비교 옵션은 기본 카테고리에 사용할 수 없습니다. 동적 비교 옵션을 사용할 수 없는 다른 예로는 &quot;세션의 첫 페이지&quot;, &quot;다른 테스트에 없음&quot;, &quot;세션의 첫 페이지 아님&quot;, &quot;카테고리 친화성&quot;이 있습니다.
+   >1단계의 기본 방문자 프로필 카테고리 중 하나를 사용하는 경우(예: 새 방문자 또는 재방문자) 정적 값 선택 사항만 선택할 수 있습니다. 동적 비교 옵션은 기본 카테고리에 사용할 수 없습니다. 동적 비교 옵션을 사용할 수 없는 다른 예로는 "세션의 첫 페이지", "다른 테스트에 없음", "세션의 첫 페이지 아님", "카테고리 친화성"이 있습니다.
 
 1. 초기 속성과 비교할 추가 속성을 선택합니다.
 
