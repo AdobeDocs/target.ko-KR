@@ -30,13 +30,13 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    ![콘텐츠 관리 링크](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
-1. [!UICONTROL 컨텐츠 관리] 대화 상자에서 **[!UICONTROL 제외 그룹]** 을 클릭합니다.
+1. [!UICONTROL 컨텐츠 관리] 대화 상자에서 **[!UICONTROL 제외 그룹]**&#x200B;을 클릭합니다.
 
    ![컨텐츠 관리 &gt; 제외 그룹 대화 상자](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    이전에 만든 제외 그룹이 있다면 목록에 표시됩니다. 아직 제외 그룹을 만들지 않은 경우에는 만들라는 메시지가 표시됩니다.
 
-1. **[!UICONTROL 제외 그룹 만들기]** 를 클릭합니다.
+1. **[!UICONTROL 제외 그룹 만들기]**&#x200B;를 클릭합니다.
 
    ![제외 그룹 만들기 대화 상자](/help/c-activities/t-automated-personalization/assets/exclusion_group_create_dialog-new.png)
 
@@ -58,7 +58,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 예를 들어, 12개의 오퍼가 있는 페이지에 6개의 위치가 있는 활동이 있을 수 있습니다. 활동에서 하나 이상의 위치에 동일한 오퍼를 배치할 수 있습니다. 이 기능은 중복 오퍼들이 동일한 활동 내의 다른 위치에서 동시에 표시되지 않도록 합니다.
 
-**[!UICONTROL 구성]** &gt; **[!UICONTROL 중복 오퍼]** 를 클릭한 다음, **[!UICONTROL 중복 허용]** 또는 **[!UICONTROL 중복 허용 안 함]** 을 클릭합니다.
+**[!UICONTROL 구성]** &gt; **[!UICONTROL 중복 오퍼]**&#x200B;를 클릭한 다음, **[!UICONTROL 중복 허용]** 또는 **[!UICONTROL 중복 허용 안 함]**&#x200B;을 클릭합니다.
 
 ![중복 오퍼 옵션](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -99,7 +99,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 **시각적 경험 작성기(VEC)를 사용하여 기본 컨텐츠를 제외하려면 다음을 수행하십시오.**
 
 1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
-1. 대화 상자에서 새 컨텐츠를 작성하고 기본 컨텐츠의 오른쪽에 있는 **포함** 을 선택 취소합니다(또는 컨텐츠 선택 화면에서 기본 이미지/비디오를 선택 취소합니다.).
+1. 대화 상자에서 새 컨텐츠를 작성하고 기본 컨텐츠의 오른쪽에 있는 **포함**&#x200B;을 선택 취소합니다(또는 컨텐츠 선택 화면에서 기본 이미지/비디오를 선택 취소합니다.).
 
    [!UICONTROL 포함] 확인란은 컨텐츠/오퍼 유형에 따라 약간 다른 위치에 표시됩니다.
 
@@ -113,7 +113,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    배경 색상의 경우:
 
-   ![배경색 편집] 대화 상자에 확인란 포함](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![[배경색 편집] 대화 상자에 확인란 포함](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
@@ -123,7 +123,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 **양식 기반 경험 작성기를 사용하여 기본 컨텐츠를 제외하려면 다음을 수행하십시오.**
 
-1. AP 활동을 작성하거나 편집할 때 **[!UICONTROL 컨텐츠]에서****텍스트/HTML 변경[!UICONTROL ]또는** 이미지 오퍼 변경 **[!UICONTROL 을 클릭합니다]**.
+1. AP 활동을 작성하거나 편집할 때 **[!UICONTROL 컨텐츠]에서****텍스트/HTML 변경또는**&#x200B;이미지 오퍼 변경&#x200B;**[!UICONTROL 을 클릭합니다]**.
 1. 대화 상자에서 새 컨텐츠를 작성하고 기본 컨텐츠의 오른쪽에 있는 **[!UICONTROL 포함]을 선택 취소합니다(또는 컨텐츠 선택 화면에서 기본 이미지/비디오를 선택 취소합니다.).**
 
    포함 확인란은 컨텐츠/오퍼 유형에 따라 약간 다른 위치에 표시됩니다.
