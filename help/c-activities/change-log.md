@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 변경 로그는 활동을 변경한 사람과 변경한 시간에 대한 기록을 제공합니다.
 
-1. 활동을 열고 **[!UICONTROL 변경 로그]** 를 클릭합니다.
+1. 활동을 열고 **[!UICONTROL 변경 로그]**&#x200B;를 클릭합니다.
 
    ![활동 변경 로그](/help/c-activities/assets/change_log.png)
 
