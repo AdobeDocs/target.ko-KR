@@ -37,7 +37,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 | [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 다변량 테스트(MVT)는 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
 | [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) | 경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 컨텐츠를 특정 대상에 전달합니다.<br>**참고:** 이제 [경험 타깃팅 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
 | [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | 자동화된 개인화(AP)는 컨텐츠를 개인화하고 전환을 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다. |
-| [Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 권장 사항은 사이트에서의 사용자 활동에 따라 웹 사이트 사용자에게 제품을 제안하는 방법을 결정합니다.<br>예를 들어, 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여주는 권장 사항을 생성할 수 있습니다. 또는 &quot;이 항목을 보고 다른 항목도 본 사람&quot; 알고리즘을 사용하여 방문자에게 보고 있는 것과 유사한 비디오를 추천하여 미디어 사이트에서 더 많은 시간을 소비하도록 할 수도 있습니다.<br>**참고:** 이제 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) 활동 내에 권장 사항을 포함할 수 있습니다. [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
+| [Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 권장 사항은 사이트에서의 사용자 활동에 따라 웹 사이트 사용자에게 제품을 제안하는 방법을 결정합니다.<br>예를 들어, 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, "이 항목을 구입하고 다른 항목도 구입한 사람" 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여주는 권장 사항을 생성할 수 있습니다. 또는 "이 항목을 보고 다른 항목도 본 사람" 알고리즘을 사용하여 방문자에게 보고 있는 것과 유사한 비디오를 추천하여 미디어 사이트에서 더 많은 시간을 소비하도록 할 수도 있습니다.<br>**참고:** 이제 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) 활동 내에 권장 사항을 포함할 수 있습니다. [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
 
 ## 위치 {#section_F18FBF1ED23340ED9F39C51971A4E874}
 
@@ -84,7 +84,7 @@ see [위치](/help/c-implementing-target/c-implementing-target-for-client-side-w
 
 예를 들어, 웹 페이지는 방문자가 전에 사이트에 왔었는지 여부에 따라 두 오퍼 중 하나를 표시할 수 있습니다.
 
-An *경험*은 특정 조건이 충족될 경우 표시되는 컨텐츠를 결정합니다.
+An *경험*&#x200B;은 특정 조건이 충족될 경우 표시되는 컨텐츠를 결정합니다.
 
 ## 대상자{#section_3F32DA46BDF947878DD79DBB97040D01}
 
@@ -126,7 +126,7 @@ An *경험*은 특정 조건이 충족될 경우 표시되는 컨텐츠를 결�
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상을 사용하는 방법을 설명합니다.
 
-* 용어 &quot;대상&quot; 설명
+* 용어 "대상" 설명
 * 최적화에 대상을 사용하는 두 가지 방법 설명
 * 대상자 목록에서 대상자 찾기
 * 활동을 대상에 타깃팅
