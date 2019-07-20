@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/mobile-vec-clicktrack1.png)
 
-1. 작업에 대해 **[!UICONTROL 요소를 클릭함]** 을 선택한 후 **[!UICONTROL 요소 선택]** 을 클릭합니다.
+1. 작업에 대해 **[!UICONTROL 요소를 클릭함]**&#x200B;을 선택한 후 **[!UICONTROL 요소 선택]**&#x200B;을 클릭합니다.
 
    모바일 앱이 모바일 VEC(Visual Experience Composer)에서 열립니다.
 
