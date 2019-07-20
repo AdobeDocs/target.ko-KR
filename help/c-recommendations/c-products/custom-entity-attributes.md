@@ -120,7 +120,7 @@ using the Delivery and Save entities APIs.
 
 ## 다중 값에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
-알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 다중 값 사용자 지정 속성에 연산자를 적용할 때, 목록에 있는 하나 이상의 값이 연산(부울 *or*)을 통과하는 경우 결과는 *true*가 됩니다.
+알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 다중 값 사용자 지정 속성에 연산자를 적용할 때, 목록에 있는 하나 이상의 값이 연산(부울 *or*)을 통과하는 경우 결과는 *true*&#x200B;가 됩니다.
 
 다음 예에서 규칙은 `message contains abc`.
 
@@ -128,7 +128,7 @@ using the Delivery and Save entities APIs.
 
 사례 2: `entity.genre = ["abcde","de","ef"]`. 하나의 값이 `abc`.
 
-부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어, 연산자가 `notEquals`인 경우 결과는 어느 값이든 일치하면 *false*가 됩니다.
+부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어, 연산자가 `notEquals`인 경우 결과는 어느 값이든 일치하면 *false*&#x200B;가 됩니다.
 
 알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 연산자 동작에 대해서는 아래 표를 참조하십시오.
 
@@ -148,7 +148,7 @@ using the Delivery and Save entities APIs.
 
 >[!NOTE]
 >
->*Double*은 Java 데이터 유형입니다. 숫자 값이 필요한 연산자의 경우, double로 변환하면 숫자가 아닌 값은 결과에서 고려되지 않습니다.
+>*Double*&#x200B;은 Java 데이터 유형입니다. 숫자 값이 필요한 연산자의 경우, double로 변환하면 숫자가 아닌 값은 결과에서 고려되지 않습니다.
 
 ## 디자인에 있는 다중 값 속성 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
