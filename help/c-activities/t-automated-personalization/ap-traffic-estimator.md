@@ -24,7 +24,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Target은 개인화 알고리즘이 구축될 때까지 무작위로 서비스를 제공합니다. 각 오퍼 옆의 확인 표시 아이콘은 해당 오퍼에 대한 모델이 준비되고, Target이 개인화된 컨텐츠를 전달할 수 있게 되면 표시됩니다. 상승도는 모델이 준비된 후에만 예측되므로 시각적 표시를 통해 적절한 기대 수준을 설정할 수 있습니다. VEC(시각적 경험 작성기)의 트래픽 견적 도구를 사용하여 모델이 준비 상태가 될 때를 나타내는 지침을 얻으십시오.
 
-1. 경험 작성기에서 **[!UICONTROL 트래픽]** 을 클릭합니다.
+1. 경험 작성기에서 **[!UICONTROL 트래픽]**&#x200B;을 클릭합니다.
 
    ![트래픽 아이콘](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
 
