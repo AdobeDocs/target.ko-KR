@@ -27,7 +27,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 전제 조건 {#section_A763C564C9E84B0EB448237B5B1E4068}
 
-1. **지원되는 SDK 버전 사용:** 모바일 미리 보기 기능을 사용하려면 해당 앱에서 Adobe Mobile SDK의 해당 4.14 이상 버전을 다운로드한 후 설치해야 합니다.
+1. **지원되는 SDK 버전 사용:**&#x200B;모바일 미리 보기 기능을 사용하려면 해당 앱에서 Adobe Mobile SDK의 해당 4.14 이상 버전을 다운로드한 후 설치해야 합니다.
 
    적절한 SDK를 다운로드하는 방법에 대한 지침은
 
@@ -85,7 +85,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 미리 보기 링크 생성 {#section_D9D58173FFF34E9BB75EBF357273F128}
 
-1. Target UI에서 **[!UICONTROL 추가 선택 사항]** 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 모바일 미리 보기 만들기]** 를 선택합니다.
+1. Target UI에서 **[!UICONTROL 추가 선택 사항]** 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 모바일 미리 보기 만들기]**&#x200B;를 선택합니다.
 
    ![](assets/mobile-preview-create.png)
 
@@ -103,7 +103,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    ![](assets/mobile-preview-enter-url-scheme.png)
 
-1. **[!UICONTROL 모바일 미리 보기 링크 생성]** 을 클릭한 다음, 링크를 복사합니다.
+1. **[!UICONTROL 모바일 미리 보기 링크 생성]**&#x200B;을 클릭한 다음, 링크를 복사합니다.
 
    ![](assets/mobile-preview-generate-and-copy.png)
 
