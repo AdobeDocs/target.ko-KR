@@ -37,25 +37,25 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 부분 데이터 히트는 잘못 정렬된 보고서 세트 ID와 같은 부적절한 구현으로 인해 종종 발생합니다. 또한 느린 페이지, 페이지 오류, 활동의 리디렉션 오퍼 또는 오래된 라이브러리 버전을 포함한 타당한 원인도 있습니다.
 
-자세한 내용은 [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 &quot;부분 데이터에 기여하는 것은 무엇입니까?&quot;를 참조하십시오.
+자세한 내용은 [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 "부분 데이터에 기여하는 것은 무엇입니까?"를 참조하십시오.
 
 ## 부분 데이터 히트가 있습니다. 내 데이터를 정리하려면 어떤 작업을 수행합니까? {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 보고서에서 이전 부분 데이터를 제외하도록 가상 보고서 세트를 작성할 수 있습니다.
 
-자세한 내용은 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 &quot;부분 데이터를 제외한 기록 추세를 보려면 어떻게 해야 합니까?&quot;를 참조하십시오.
+자세한 내용은 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 "부분 데이터를 제외한 기록 추세를 보려면 어떻게 해야 합니까?"를 참조하십시오.
 
 ## 페이지에서 부분 데이터 히트가 생성되지 않게 할 방법이 있습니까? {#section_4B00E7E618444BE98A0798DE98F08B21}
 
-2016년 11월 14일 이후에는 [!DNL Target]과 [!DNL Analytics] 태그가 모두 실행된 경우에만 데이터를 포함하게 됩니다. 이 변경은 소급 적용되지 않습니다. 이전 보고서에 부풀려진 카운트가 표시되어 보고서에서 이를 제외하려는 경우 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 &quot;부분 데이터를 제외한 기록 추세를 보려면 어떻게 해야 합니까?&quot;에 설명된 대로 가상 보고서 세트를 작성할 수 있습니다.
+2016년 11월 14일 이후에는 [!DNL Target]과 [!DNL Analytics] 태그가 모두 실행된 경우에만 데이터를 포함하게 됩니다. 이 변경은 소급 적용되지 않습니다. 이전 보고서에 부풀려진 카운트가 표시되어 보고서에서 이를 제외하려는 경우 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 "부분 데이터를 제외한 기록 추세를 보려면 어떻게 해야 합니까?"에 설명된 대로 가상 보고서 세트를 작성할 수 있습니다.
 
-부분 데이터 히트를 최소화하기 위해 수행할 수 있는 절차도 있습니다. 자세한 내용은 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 &quot;부분 데이터를 줄이는 우수 사례는 무엇입니까?&quot;를 참조하십시오.
+부분 데이터 히트를 최소화하기 위해 수행할 수 있는 절차도 있습니다. 자세한 내용은 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 "부분 데이터를 줄이는 우수 사례는 무엇입니까?"를 참조하십시오.
 
 ## 부분 데이터 히트가 보고에서 제거되면 귀중한 Target 또는 Analytics 데이터를 유실하게 되지 않습니까? {#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 [!DNL Analytics] 보고에 부분 데이터를 포함하면 추가 정보가 제공되며, 실행 중인 [!DNL Target] 활동이 없을 때 다양한 기간 동안 기록된 데이터와의 불일치도 생깁니다. 이렇게 되면 시간에 따른 트렌드를 분석하는 [!DNL Analytics] 사용자의 경우 문제가 발생할 수 있습니다.
 
-부분 데이터 히트를 최소화하기 위해 수행할 수 있는 절차가 있습니다. 자세한 내용은 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 &quot;부분 데이터를 줄이는 우수 사례는 무엇입니까?&quot;를 참조하십시오.
+부분 데이터 히트를 최소화하기 위해 수행할 수 있는 절차가 있습니다. 자세한 내용은 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 "부분 데이터를 줄이는 우수 사례는 무엇입니까?"를 참조하십시오.
 
 ## 부분 데이터 히트를 초래할 수 있는 특정 유형의 Target 활동이 있습니까? {#section_69837442A9B84366BEFDA4588B31E574}
 
