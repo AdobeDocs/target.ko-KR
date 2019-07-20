@@ -21,11 +21,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 지리 기반의 타깃팅으로 대상 만들기 {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 지역]** 을 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 지역]**&#x200B;을 클릭합니다.
 
-1. **[!UICONTROL 선택]** 을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    * 국가
    * 주/도
@@ -49,7 +49,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 정확도 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-지리 기반의 타깃팅의 정확도는 몇 가지 요인에 의존합니다. WiFi 연결은 셀룰러 네트워크(무선 통신망)보다 더 정확합니다. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 셀 타워 기반 네트워크 연결은 유선 또는 WiFi 연결보다 정확도가 떨어질 수 있습니다. 또한 방문자의 IP 주소는 자신의 ISP 위치에 매핑될 수 있으므로 방문자의 실제 위치와 동일하지 않을 수도 있습니다. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+지리 기반의 타깃팅의 정확도는 몇 가지 요인에 의존합니다. WiFi 연결은 셀룰러 네트워크(무선 통신망)보다 더 정확합니다. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. 셀 타워 기반 네트워크 연결은 유선 또는 WiFi 연결보다 정확도가 떨어질 수 있습니다. 또한 방문자의 IP 주소는 자신의 ISP 위치에 매핑될 수 있으므로 방문자의 실제 위치와 동일하지 않을 수도 있습니다. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 다음 표는 유선 또는 WiFi 인터넷 연결을 위한 [DigitalEnvoy](https://www.digitalelement.com/solutions/)의 IP 기반 지리 정보의 정확도를 보여줍니다. DigitalEnvoy는 해당 산업 분야의 보다 정확한 데이터를 제공합니다. 전역 정확도는 국가 수준에서 99.9%가 넘고, 구/군/시 수준에서는 최대 97%에 이릅니다. 정확도 정보는 셀 타워 기반 네트워크에 적용되지 않습니다.
 
@@ -82,7 +82,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * `profile.geolocation.connectionSpeed`
 * `profile.geolocation.mobileCarrier`
 
-따라서 다음 코드와 함께 &quot;From North America&quot;라는 타겟 표현식을 쓸 수 있습니다.
+따라서 다음 코드와 함께 "From North America"라는 타겟 표현식을 쓸 수 있습니다.
 
 `return profile.geolocation.country == 'united states' || profile.geolocation.country == 'canada' || profile.geolocation.country == 'mexico';`
 
@@ -119,7 +119,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **지리 기능은 AOL에서 온 방문자를 어떻게 처리합니까?**
 
-AOL이 트래픽을 프록시하는 방법 때문에 국가 수준에서만 타깃팅할 수 있습니다. 예를 들어 프랑스를 타겟으로 하는 캠페인은 프랑스의 AOL 사용자를 성공적으로 타깃팅합니다. 그러나 파리를 타겟으로 하는 캠페인은 파리의 AOL 사용자를 성공적으로 타깃팅하지 못합니다. 특별히 AOL 사용자를 타깃팅하려는 경우 지역 필드를 &quot;aol&quot;로 설정할 수 있습니다. 실제로, 국가가 정확히 &quot;미국&quot;과 일치하고 지역이 정확히 &quot;aol&quot;과 일치한다는 두 가지 타깃팅 조건을 지정하여 미국 AOL 사용자를 타깃팅할 수 있습니다.
+AOL이 트래픽을 프록시하는 방법 때문에 국가 수준에서만 타깃팅할 수 있습니다. 예를 들어 프랑스를 타겟으로 하는 캠페인은 프랑스의 AOL 사용자를 성공적으로 타깃팅합니다. 그러나 파리를 타겟으로 하는 캠페인은 파리의 AOL 사용자를 성공적으로 타깃팅하지 못합니다. 특별히 AOL 사용자를 타깃팅하려는 경우 지역 필드를 "aol"로 설정할 수 있습니다. 실제로, 국가가 정확히 "미국"과 일치하고 지역이 정확히 "aol"과 일치한다는 두 가지 타깃팅 조건을 지정하여 미국 AOL 사용자를 타깃팅할 수 있습니다.
 
 **지리 기반의 타깃팅에서 제공하는 위치 단위는 무엇입니까?**
 
@@ -140,7 +140,7 @@ AOL이 트래픽을 프록시하는 방법 때문에 국가 수준에서만 타�
 
 **푸에르토리코 및 홍콩과 같은 지역은 어떻게 지역 타깃팅 구조에 매핑됩니까?**
 
-푸에르토리코, 홍콩 및 기타 지역은 &quot;국가&quot; 값으로 취급됩니다.
+푸에르토리코, 홍콩 및 기타 지역은 "국가" 값으로 취급됩니다.
 
 ## 교육 비디오: 대상 만들기
 
