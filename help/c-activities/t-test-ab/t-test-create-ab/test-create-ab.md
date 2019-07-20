@@ -17,7 +17,7 @@ source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
 
 Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target의 시각적 경험 작성기를 사용하십시오.
 
-1. [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** &gt; **[!UICONTROL A/B 테스트]** 를 클릭합니다.
+1. [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** &gt; **[!UICONTROL A/B 테스트]**&#x200B;를 클릭합니다.
 
    ![활동 만들기 드롭다운 목록](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -43,7 +43,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
 1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [활동 URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)를 지정하고 다음을 클릭합니다 **[!UICONTROL ]**.
+1. [활동 URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)를 지정하고 다음을 클릭합니다 ****.
 
    계정이 기본 URL로 구성된 경우 기본적으로 해당 URL이 표시됩니다. 기본값에서 다른 URL로 변경할 수 있습니다.
 
@@ -89,7 +89,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    ![고객 백분율](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-   예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다.
+   예를 들어 항목 수를 모든 방문자의 50% 또는 "캘리포니아" 대상의 45%로 제한할 수 있습니다.
 
 1. 트래픽 할당을 설정합니다.
 
@@ -104,7 +104,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
    * **[!UICONTROL 개인화된 경험을 위한 자동 타깃팅]**: Target는 고급 머신 러닝 알고리즘을 사용하여 방문자를 최적의 경험으로 자동으로 타겟팅하여 목표를 극대화합니다. 자세한 내용은 [자동 타겟으로 최적화](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)를 참조하십시오.
    **[!UICONTROL 경험 추가]를 클릭하여 활동에 다른 경험을 추가할 수도 있습니다.**
 
-1. 선택한 대상 및 경험이 만족스러우면 **[!UICONTROL 다음]** 을 클릭하여 안내가 있는 3단계 워크플로우의 세 번째 단계로 이동합니다.
+1. 선택한 대상 및 경험이 만족스러우면 **[!UICONTROL 다음]**&#x200B;을 클릭하여 안내가 있는 3단계 워크플로우의 세 번째 단계로 이동합니다.
 
 1. 활동에 대한 [목표 및 설정](../../../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)을 지정합니다.
 
