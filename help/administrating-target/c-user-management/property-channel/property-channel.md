@@ -32,7 +32,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * **[!DNL Target Standard]고객**: [!UICONTROL 사용자] 탭([!UICONTROL 설정 &gt; 사용자][!DNL Target Standard])이 표시된다면, 조직에 라이센스가 있는 것입니다. [!DNL Target Standard] 고객은 [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md)의 지침에 따라 Adobe Admin Console에서 사용자를 추가하고 권한을 지정해야 합니다.
 
-   [!DNL Target Standard] 사용자는 속성 탭을 클릭하면 다음 오류 메시지가 표시됩니다. [!UICONTROL ] [!DNL Target]에는 아무런 문제가 없습니다. [!DNL Target Standard] 사용자에게 [!DNL Target Premium] [!UICONTROL 엔터프라이즈 권한] 기능에 대한 액세스 권한이 없습니다.
+   [!DNL Target Standard] 사용자는 속성 탭을 클릭하면 다음 오류 메시지가 표시됩니다.  [!DNL Target]에는 아무런 문제가 없습니다. [!DNL Target Standard] 사용자에게 [!DNL Target Premium] [!UICONTROL 엔터프라이즈 권한] 기능에 대한 액세스 권한이 없습니다.
 
    ![오류 메시지](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
@@ -70,13 +70,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 작업 공간에는 완전한 다른 대상, 코드 오퍼 및 활동이 포함될 수 있습니다.
 
-새 Enterprise 권한 모델 마이그레이션 전에 만든 모든 대상 및 활동은 아래 설명된 &quot;기본 작업 공간&quot;에 함께 그룹화됩니다.
+새 Enterprise 권한 모델 마이그레이션 전에 만든 모든 대상 및 활동은 아래 설명된 "기본 작업 공간"에 함께 그룹화됩니다.
 
-AEM(Adobe Experience Manager), Adobe Mobile Services 및 Adobe Target Classic을 통해 만든 모든 활동은 &quot;기본 작업 공간&quot;에 포함됩니다.
+AEM(Adobe Experience Manager), Adobe Mobile Services 및 Adobe Target Classic을 통해 만든 모든 활동은 "기본 작업 공간"에 포함됩니다.
 
 ### 기본 작업 공간
 
-Admin Console 내의 모든 기존 작업 공간(제품 프로필)은 조직이 새 Enterprise 권한 모델로 마이그레이션하는 동안 &quot;기본 작업 공간&quot;이라는 단일 작업 공간으로 병합됩니다.
+Admin Console 내의 모든 기존 작업 공간(제품 프로필)은 조직이 새 Enterprise 권한 모델로 마이그레이션하는 동안 "기본 작업 공간"이라는 단일 작업 공간으로 병합됩니다.
 
 >[!IMPORTANT]
 >
@@ -106,11 +106,11 @@ Admin Console 내의 모든 기존 작업 공간(제품 프로필)은 조직이 
 
 다음에서는 [!DNL Target]에서 이전에 권한이 적용되던 방식과 [!UICONTROL 속성] 및 [!UICONTROL 권한] 기능을 사용하여 적용되는 방식을 설명합니다.
 
-새 [!UICONTROL 권한] 기능을 사용하면 여러 다른 프로젝트([!DNL Adobe Admin Console for Enterprise]에서는 &quot;제품 프로필&quot;로 지칭됨)를 만들어 사용자마다 각 프로젝트의 해당 사용자 액세스 권한을 나타내는 다른 사용 권한을 지정할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 결과적으로 고객은 아래와 같이 지역, 환경(개발/스테이징/프로덕션), 채널 또는 기타 사용자 지정 기준을 기반으로 해당 사용자에 대한 보기, 편집 및 승인 액세스 권한을 제한할 수 있게 됩니다.
+새 [!UICONTROL 권한] 기능을 사용하면 여러 다른 프로젝트([!DNL Adobe Admin Console for Enterprise]에서는 "제품 프로필"로 지칭됨)를 만들어 사용자마다 각 프로젝트의 해당 사용자 액세스 권한을 나타내는 다른 사용 권한을 지정할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 결과적으로 고객은 아래와 같이 지역, 환경(개발/스테이징/프로덕션), 채널 또는 기타 사용자 지정 기준을 기반으로 해당 사용자에 대한 보기, 편집 및 승인 액세스 권한을 제한할 수 있게 됩니다.
 
 ![](assets/permissions.png)
 
-예를 들어, 특정 사용자에게 미국 웹 사이트에 대해서는 &quot;승인&quot; 액세스 권한이 있지만 유럽 모바일 앱에 대해서는 &quot;보기&quot; 액세스 권한만 있을 수 있습니다. 같은 사용자가 APAC 지역의 웹 및 모바일 속성에 제공되는 활동에 대해서는 보기 액세스 권한조차 없을 수 있습니다.
+예를 들어, 특정 사용자에게 미국 웹 사이트에 대해서는 "승인" 액세스 권한이 있지만 유럽 모바일 앱에 대해서는 "보기" 액세스 권한만 있을 수 있습니다. 같은 사용자가 APAC 지역의 웹 및 모바일 속성에 제공되는 활동에 대해서는 보기 액세스 권한조차 없을 수 있습니다.
 
 현재 [!DNL Target][!UICONTROL  권한] 모델에는 다음 그림과 같이 3가지 권한 역할(관찰자, 편집자 및 승인자)이 있습니다.
 
@@ -191,16 +191,16 @@ Admin Console 내의 모든 기존 작업 공간(제품 프로필)은 조직이 
 
 새 권한 기능은 [!DNL Target] UI의 다양한 위치에서 볼 수 있습니다.
 
-* **작업 공간(제품 프로필) 드롭다운 목록:** 작업 공간 드롭다운 목록은 [!UICONTROL 활동], [!UICONTROL 대상] 및 [!UICONTROL 오퍼] 페이지 맨 위에 표시됩니다. 원하는 작업 공간을 선택하여 선택한 작업 공간의 항목만 표시하도록 목록을 필터링합니다.
+* **작업 공간(제품 프로필) 드롭다운 목록:**&#x200B;작업 공간 드롭다운 목록은 [!UICONTROL 활동], [!UICONTROL 대상] 및 [!UICONTROL 오퍼] 페이지 맨 위에 표시됩니다. 원하는 작업 공간을 선택하여 선택한 작업 공간의 항목만 표시하도록 목록을 필터링합니다.
 
    ![](assets/workspace_drop-down.png)
 
-* **활동 생성:** 새 활동을 생성하면 현재 선택한 작업 공간에서 생성됩니다. 활동에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API 중에서 선택할 수 있는 채널 선택 옵션이 첫 번째 대화 상자에 표시됩니다.
+* **활동 생성:**&#x200B;새 활동을 생성하면 현재 선택한 작업 공간에서 생성됩니다. 활동에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API 중에서 선택할 수 있는 채널 선택 옵션이 첫 번째 대화 상자에 표시됩니다.
 
    ![](assets/channel_options.png)
 
-* **대상 생성:** 새 대상을 생성하면 현재 선택한 작업 공간에서 생성됩니다.
-* **오퍼 생성:** 새 오퍼를 생성하면 현재 선택한 작업 공간에서 생성됩니다.
+* **대상 생성:**&#x200B;새 대상을 생성하면 현재 선택한 작업 공간에서 생성됩니다.
+* **오퍼 생성:**&#x200B;새 오퍼를 생성하면 현재 선택한 작업 공간에서 생성됩니다.
 * **속성 페이지(설정 &gt; 속성):**[!UICONTROL 검색] 상자, [!UICONTROL 채널] 및 [!UICONTROL 제품 프로필] 옵션을 사용하여 [!UICONTROL 속성] 목록을 필터링할 수 있습니다.
 
    ![](assets/properties_list.png)
@@ -241,7 +241,7 @@ Target Premium에서 속성 및 권한을 사용하거나 구성할 때 다음 �
    * 활동, 대상, 코드 오퍼, 이미지 오퍼 또는 Target Classic, Adobe Experience Manager(AEM), Adobe Mobile Services와 같은 솔루션이나 방법을 사용하여 만든 기타 모든 리소스와 API를 통해 생성된 리소스는 엔터프라이즈 권한 모델로 제어할 수 없지만 기본 작업 공간의 일부가 됩니다. API를 통해 만든 리소스에는 활동, 대상, 코드 오퍼, 이미지 오퍼가 포함됩니다.
    * 이미지 오퍼(`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`에 저장된 자산)는 현재 엔터프라이즈 권한 모델로 제어할 수 없습니다.
    * clickTracking 및 리디렉션은 대상 링크 또는 대상 페이지가 활동에 포함된 속성의 일부일 때만 작동합니다. 또한 `targetPageParams()` 함수를 사용할 경우 clickTracking이 작동하지 않을 수 있습니다. `targetPageParamsAll()`이 권장되는 함수입니다.
-   Target에서는 추적이 발생하는 모든 페이지에 `at_property` 토큰이 있어야 합니다. 토큰이 (1) 없거나, (2) 활동 설정 시 감지되지 않거나(VEC에서) (3) `targetPageParamsAll()` 함수를 통해 clickTracking mbox로 전달되지 않을 경우 지표는 증분 되지 않으며 &quot;0&quot;으로 표시됩니다.
+   Target에서는 추적이 발생하는 모든 페이지에 `at_property` 토큰이 있어야 합니다. 토큰이 (1) 없거나, (2) 활동 설정 시 감지되지 않거나(VEC에서) (3) `targetPageParamsAll()` 함수를 통해 clickTracking mbox로 전달되지 않을 경우 지표는 증분 되지 않으며 "0"으로 표시됩니다.
 
    리디렉션을 사용하는 활동의 경우도 마찬가지입니다. 대상 페이지에는 `at_property` 토큰이 있어야 하며 VEC 내에서 설정할 때 인식되어야 합니다.
 
@@ -255,7 +255,7 @@ Target Premium에서 속성 및 권한을 사용하거나 구성할 때 다음 �
 
 ### 한 작업 공간에서 다른 작업 공간으로 활동을 이동할 수 있습니까?
 
-한 작업 공간에서 다른 작업 공간으로 활동을 이동할 수 없습니다. 그러나 보고 데이터를 수행하지 않으려는 경우 작업 공간으로 활동을 복사할 수 있습니다. 자세한 내용은 [작업 공간을 사용할 때 활동 복사/편집](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)에서 &quot;작업 공간을 사용할 때 활동 복사/편집&quot;을 참조하십시오.
+한 작업 공간에서 다른 작업 공간으로 활동을 이동할 수 없습니다. 그러나 보고 데이터를 수행하지 않으려는 경우 작업 공간으로 활동을 복사할 수 있습니다. 자세한 내용은 [작업 공간을 사용할 때 활동 복사/편집](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)에서 "작업 공간을 사용할 때 활동 복사/편집"을 참조하십시오.
 
 마이그레이션이 편집되고 속성이 지정되지 않는 한, 마이그레이션 전에 만든 활동은 기본 작업 공간에서 동일한 방법으로 계속 실행됩니다. 특정 작업 공간의 활동은 해당 작업 공간에 지정된 속성을 따르므로 마이그레이션 전과 동일하게 동작하지 않을 수 있습니다.
 
