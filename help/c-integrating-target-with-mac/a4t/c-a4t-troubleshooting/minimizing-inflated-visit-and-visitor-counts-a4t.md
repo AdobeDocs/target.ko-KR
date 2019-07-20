@@ -38,7 +38,7 @@ mbox.js 라이브러리는 A4T를 사용하는 리디렉션 오퍼를 지원하�
 
 ## Adobe가 이 변경 작업을 수행하는 이유는 무엇입니까? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!DNL Target] 태그가 실행되지만 [!DNL Analytics] 태그는 실행되지 않은 경우, [!DNL Analytics] 활동이 없으면 [!DNL Target]에서 캡처되지 않을 수 있는 &quot;부분 데이터&quot;(경우에 따라 &quot;연결되지 않은 히트&quot;라고도 함)가 기록됩니다. 이 부분 데이터를 [!DNL Analytics] 보고에 포함하면 추가 정보가 제공되지만, 실행 중인 [!DNL Target] 활동이 없는 기간의 기록 데이터와 불일치하게 됩니다. 이렇게 되면 시간에 따른 트렌드를 분석하는 [!DNL Analytics] 사용자의 경우 문제가 발생할 수 있습니다. [!DNL Analytics]에서 데이터 일관성을 유지하기 위해 모든 부분 데이터를 제외할 것입니다.
+Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!DNL Target] 태그가 실행되지만 [!DNL Analytics] 태그는 실행되지 않은 경우, [!DNL Analytics] 활동이 없으면 [!DNL Target]에서 캡처되지 않을 수 있는 "부분 데이터"(경우에 따라 "연결되지 않은 히트"라고도 함)가 기록됩니다. 이 부분 데이터를 [!DNL Analytics] 보고에 포함하면 추가 정보가 제공되지만, 실행 중인 [!DNL Target] 활동이 없는 기간의 기록 데이터와 불일치하게 됩니다. 이렇게 되면 시간에 따른 트렌드를 분석하는 [!DNL Analytics] 사용자의 경우 문제가 발생할 수 있습니다. [!DNL Analytics]에서 데이터 일관성을 유지하기 위해 모든 부분 데이터를 제외할 것입니다.
 
 ## 부분 데이터에 기여하는 것은 무엇입니까? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
@@ -96,9 +96,9 @@ Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!D
 * And
 * 종료 링크 인스턴스: 없음
 
-**고립된 히트: ** 드문 경우이지만 사용자가 Analytics 호출을 위해 충분히 오래 페이지에 머무르지 않았으며 Target이 적절한 MCID를 얻지 못했습니다. 이러한 상황을 &quot;고립된&quot; 히트로 정의합니다. 이러한 히트는 거의 재방문하지 않는 고객을 나타내며, 방문 및 방문자 수를 부적절하게 부풀립니다.
+**고립된 히트: ** 드문 경우이지만 사용자가 Analytics 호출을 위해 충분히 오래 페이지에 머무르지 않았으며 Target이 적절한 MCID를 얻지 못했습니다. 이러한 상황을 "고립된" 히트로 정의합니다. 이러한 히트는 거의 재방문하지 않는 고객을 나타내며, 방문 및 방문자 수를 부적절하게 부풀립니다.
 
-이러한 &quot;고립된&quot; 히트를 최소화하기 위해 위에서 설명된 것처럼 해당 히트를 제외하는 [가상 보고서 세트](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html)를 만들 수 있습니다.
+이러한 "고립된" 히트를 최소화하기 위해 위에서 설명된 것처럼 해당 히트를 제외하는 [가상 보고서 세트](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html)를 만들 수 있습니다.
 
 ## 이것은 내 [!DNL Target] 보고에 어떤 의미가 있습니까? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
