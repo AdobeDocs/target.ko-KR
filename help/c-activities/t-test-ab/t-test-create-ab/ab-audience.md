@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-[!UICONTROL 대상] 상자에서 편집 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 대상 바꾸기]** 를 클릭하십시오.
+[!UICONTROL 대상] 상자에서 편집 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭하십시오.
 
 ![대상 바꾸기 옵션](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
@@ -53,7 +53,7 @@ You can also choose to let Target [allocate traffic automatically](../../../c-ac
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상을 사용하는 방법을 설명합니다.
 
-* 용어 &quot;대상&quot; 설명
+* 용어 "대상" 설명
 * 최적화에 대상을 사용하는 두 가지 방법 설명
 * 대상자 목록에서 대상자 찾기
 * 활동을 대상에 타깃팅
