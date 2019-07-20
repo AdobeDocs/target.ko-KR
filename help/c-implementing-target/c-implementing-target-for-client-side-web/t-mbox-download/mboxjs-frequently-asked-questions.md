@@ -21,7 +21,7 @@ mbox.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
 For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
-## mbox.js 및 document.write{#section_355A3A5BF02F42EEB8271C96EF41590A}을 사용할 때 Google Chrome에서 &quot;Parser-blocking&quot;(파서 차단)이라는 경고 메시지가 표시되는 이유는 무엇입니까? 
+## mbox.js 및 document.write{#section_355A3A5BF02F42EEB8271C96EF41590A}을 사용할 때 Google Chrome에서 "Parser-blocking"(파서 차단)이라는 경고 메시지가 표시되는 이유는 무엇입니까? 
 
 이 콘솔 메시지는 `document.write` 함수가 mbox.js 파일 내에서 사용되는 많은 상황에서 Chrome을 사용할 때 표시되는 이 경고 메시지는 활동 설정 프로세스에 영향을 주지 않습니다.
 
