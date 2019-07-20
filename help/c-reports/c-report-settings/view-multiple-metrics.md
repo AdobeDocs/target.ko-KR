@@ -26,7 +26,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 **보고서에 표시할 지표를 여러 개 선택하려면 다음을 수행하십시오.**
 
-1. 보고서를 표시하려면 **[!UICONTROL 활동]** 을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **보고서]탭을 클릭하십시오.[!UICONTROL **
+1. 보고서를 표시하려면 **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **보고서]탭을 클릭하십시오.[!UICONTROL **
 1. **[!UICONTROL 보고서 지표]** 드롭다운 목록을 클릭하여 [!UICONTROL 표시된 지표] 및 [!UICONTROL 숨겨진 지표] 목록을 표시합니다.
 
    ![](assets/multiple_metrics.png)
@@ -35,7 +35,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    보고서의 [!UICONTROL 표 보기]와 [!UICONTROL 그래프 보기], 이 두 모드에서 여러 지표를 선택할 수 있습니다.
 
-1. [!UICONTROL 숨겨진 지표] 목록의 원하는 지표 위에 마우스 포인터를 놓은 다음 **[!UICONTROL 선택]** 을 클릭하여 [!UICONTROL 표시된 지표] 목록으로 이동합니다.
+1. [!UICONTROL 숨겨진 지표] 목록의 원하는 지표 위에 마우스 포인터를 놓은 다음 **[!UICONTROL 선택]**&#x200B;을 클릭하여 [!UICONTROL 표시된 지표] 목록으로 이동합니다.
 
    또는
 
