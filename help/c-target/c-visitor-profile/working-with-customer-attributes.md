@@ -28,10 +28,10 @@ Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 
 
 고객 속성 및 Target을 사용할 때 다음 정보를 고려하십시오.
 
-* [!DNL People] 핵심 서비스에서 [!UICONTROL 고객 속성] 기능을 사용하기 전에 충족해야 하는 몇 가지 전제 조건 요구 사항이 있습니다. 자세한 내용은 *Experience Cloud 및 핵심 서비스 제품 설명서*의 [고객 속성](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)에서 &quot;고객 속성 업로드를 위한 전제 조건&quot;을 참조하십시오. [!DNL at.js](임의 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
+* [!DNL People] 핵심 서비스에서 [!UICONTROL 고객 속성] 기능을 사용하기 전에 충족해야 하는 몇 가지 전제 조건 요구 사항이 있습니다. 자세한 내용은 *Experience Cloud 및 핵심 서비스 제품 설명서*&#x200B;의 [고객 속성](https://marketing.adobe.com/resources/help/en_US/mcloud/attributes.html)에서 "고객 속성 업로드를 위한 전제 조건"을 참조하십시오. [!DNL at.js](임의 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
 * Adobe는 CRM 데이터베이스의 모든 고객 속성(방문자 프로필) 데이터가 Experience Cloud로 온보딩되어 Target에서 타깃팅에 사용될 수 있을 것으로 보장하지 않습니다. 현재 설계에서는 소량의 데이터가 온보딩되지 않을 수 있습니다.
 * Experience Cloud에서 Target으로 가져온 고객 속성 데이터의 라이프타임은 기본적으로 14일에 해당하는 방문자 프로필의 라이프타임에 따라 좌우됩니다. 자세한 내용은 [방문자 프로필 라이프타임](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* `vst.*` 매개 변수가 사용자를 식별하는 유일한 항목일 경우 `authState`가 UNAUTHENTICATED (0)이면 기존의 &quot;인증됨&quot; 프로필을 가져오지 않습니다. `authState`가 UNAUTHENTICATED (1)로 변경되는 경우 프로필이 재생됩니다.
+* `vst.*` 매개 변수가 사용자를 식별하는 유일한 항목일 경우 `authState`가 UNAUTHENTICATED (0)이면 기존의 "인증됨" 프로필을 가져오지 않습니다. `authState`가 UNAUTHENTICATED (1)로 변경되는 경우 프로필이 재생됩니다.
 
    예를 들어, `vst.myDataSource.id` 매개 변수가 사용자를 식별하는 데 사용되고(`myDataSource`는 데이터 소스 별칭임) MCID 또는 타사 ID가 없는 경우 매개 변수 `vst.myDataSource.authState=0`을 사용하면 고객 속성 가져오기를 통해 작성되었을 수 있는 프로필을 가져오지 않습니다. 인증된 프로필을 가져오려면 `vst.myDataSource.authState` 값이 1(AUTHENTICATED)이어야 합니다.
 
@@ -43,7 +43,7 @@ Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 
 
 ![](assets/crm_workflow.png)
 
-다음 각 작업을 완료하기 위한 자세한 지침은 *Experience Cloud 및 핵심 서비스 제품 설명서*의 [고객 속성 소스 작성 및 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)에서 찾을 수 있습니다.
+다음 각 작업을 완료하기 위한 자세한 지침은 *Experience Cloud 및 핵심 서비스 제품 설명서*&#x200B;의 [고객 속성 소스 작성 및 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)에서 찾을 수 있습니다.
 
 1. 데이터 파일 만들기.
 
@@ -80,7 +80,7 @@ Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 
 
 1. 가입 구성 및 속성 소스 활성화.
 
-   **[!UICONTROL 구독 추가]** 를 클릭하고 이러한 속성을 구독할 솔루션을 선택합니다. [가입을 구성하면 Experience Cloud와 솔루션 간에 데이터 흐름이 설정됩니다. ](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
+   **[!UICONTROL 구독 추가]**&#x200B;를 클릭하고 이러한 속성을 구독할 솔루션을 선택합니다. [가입을 구성하면 Experience Cloud와 솔루션 간에 데이터 흐름이 설정됩니다. ](https://marketing.adobe.com/resources/help/en_US/mcloud/subscription.html) 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
 
    ![](assets/solution.png)
 
@@ -122,12 +122,12 @@ mbox3rdPartyId를 `targetPageParams()` 메서드 내의 글로벌 mbox에 매개
 
 ### Experience Cloud ID 서비스 사용
 
-Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속성을 사용하도록 고객 ID 및 인증 상태를 설정해야 합니다. 자세한 내용은 *Experience Cloud ID 서비스 설명서*의 [고객 ID 및 인증 상태](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)를 참조하십시오.
+Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속성을 사용하도록 고객 ID 및 인증 상태를 설정해야 합니다. 자세한 내용은 *Experience Cloud ID 서비스 설명서*&#x200B;의 [고객 ID 및 인증 상태](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-authenticated-state.html)를 참조하십시오.
 
 [!DNL Target]에서 고객 속성을 사용하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-* *Experience Cloud 및 핵심 서비스 제품 문서*의 [고객 속성 소스 만들기 및 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
-*  *디지털 마케팅 블로그*의 [Customer Attributes: The More You Know, The Better You Connect(고객 속성: 더 많이 알수록 더 쉬워지는 연결)](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
+* *Experience Cloud 및 핵심 서비스 제품 문서*&#x200B;의 [고객 속성 소스 만들기 및 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+*  *디지털 마케팅 블로그*&#x200B;의 [Customer Attributes: The More You Know, The Better You Connect(고객 속성: 더 많이 알수록 더 쉬워지는 연결)](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 고객에게 자주 발생하는 문제 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
