@@ -25,7 +25,7 @@ Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있�
 ## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. 활동에 대한 [!UICONTROL 목표 및 설정] 페이지에서 목표를 설정할 때 **[!UICONTROL 변환]성공 지표를 선택합니다.**
-1. 작업에 대해 **[!UICONTROL 요소를 클릭함]** 을 선택한 후 **[!UICONTROL 요소 선택]** 을 클릭합니다.
+1. 작업에 대해 **[!UICONTROL 요소를 클릭함]**&#x200B;을 선택한 후 **[!UICONTROL 요소 선택]**&#x200B;을 클릭합니다.
 
    페이지가 VEC([!UICONTROL 시각적 경험 작성기])에서 열립니다.
 
@@ -59,7 +59,7 @@ For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Mul
 
 ### 선택한 요소 커서 팝업
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 목록에는 선택한 요소가 클릭 추적에 사용되는지 확인하는 데 도움이 되는 요소에 대한 전체 DOM 경로가 포함되어 있습니다.
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 목록에는 선택한 요소가 클릭 추적에 사용되는지 확인하는 데 도움이 되는 요소에 대한 전체 DOM 경로가 포함되어 있습니다.
 
 ![선택한 요소 연결](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -71,9 +71,9 @@ After selecting multiple elements for click tracking, you can click the [!UICONT
 
    ![DOM 경로 일러스트레이션](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   활동 생성 워크플로우의 1단계에서 경험을 만들 때와 마찬가지로 페이지 하단에 있는 DOM 경로 선택기를 사용하여 요소를 선택할 수 있습니다. DOM 경로에서 요소를 선택할 때 VEC에서 해당 요소가 &quot;선택됨&quot;으로 표시됩니다. 선택한 요소를 선택 취소하려면 DOM 경로 선택기에서 요소를 다시 클릭하거나 VEC 내에서 &quot;선택됨&quot; 상자를 클릭할 수 있습니다.
+   활동 생성 워크플로우의 1단계에서 경험을 만들 때와 마찬가지로 페이지 하단에 있는 DOM 경로 선택기를 사용하여 요소를 선택할 수 있습니다. DOM 경로에서 요소를 선택할 때 VEC에서 해당 요소가 "선택됨"으로 표시됩니다. 선택한 요소를 선택 취소하려면 DOM 경로 선택기에서 요소를 다시 클릭하거나 VEC 내에서 "선택됨" 상자를 클릭할 수 있습니다.
 
-   자세한 내용은 *시각적 경험 작성기 선택 사항*에서 [DOM 경로를 사용하여 요소 탐색](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)을 참조하십시오.
+   자세한 내용은 *시각적 경험 작성기 선택 사항*&#x200B;에서 [DOM 경로를 사용하여 요소 탐색](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)을 참조하십시오.
 
 * 페이지에서 컨텐츠를 변경하지 않을 수 있는 클릭 수를 추적하기 위해 다른 페이지로 이동할 수 있습니다. 이 다른 페이지는 [다중 페이지 기능](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 사용하는 활동에 포함되어야 하며, [!DNL at.js] 또는 [!DNL mbox.js]가 구현되어야 합니다.
 * 둘 이상의 요소를 선택하는 경우 참여자가 선택된 요소 중 하나를 클릭하면 해당 클릭은 카운트됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오.
@@ -112,7 +112,7 @@ After selecting multiple elements for click tracking, you can click the [!UICONT
 
 이 비디오에는 클릭 추적 성공 지표 생성에 대한 정보가 포함되어 있습니다.
 
-* &quot;목표&quot; 지표 이해
+* "목표" 지표 이해
 * 변환, 수입 및 참여 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
