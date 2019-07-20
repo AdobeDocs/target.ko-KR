@@ -23,7 +23,7 @@ This function sends a notification to Target edge when an experience is rendered
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
 | consumerId | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 보조 데이터 ID를 생성하는 데 사용됩니다. |
-| 요청 | 개체 | 예 | 아래의 &quot;요청&quot; 표를 참조하십시오. |
+| 요청 | 개체 | 예 | 아래의 "요청" 표를 참조하십시오. |
 | timeout | 숫자 | 아니오 | 요청 시간 제한. 지정하지 않으면 기본값 at.js 시간 제한이 사용됩니다. |
 
 ## 요청
@@ -34,8 +34,8 @@ This function sends a notification to Target edge when an experience is rendered
 | 요청 &gt; 알림 &gt; 주소 | 개체 | 아니오 |  |  |
 | 요청 &gt; 알림 &gt; 주소 &gt; URL | 문자열 | 아니오 |  | 알림이 실행된 URL. |
 | 요청 &gt; 알림 &gt; 주소 &gt; 레퍼링url | 문자열 | 아니오 |  | 알림이 실행된 참조 URL. |
-| 요청 &gt; 알림 &gt; 매개 변수 | 개체 | 아니오 | 매개 변수에는 다음 이름이 허용되지 않습니다.<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>다음 사항을 고려하십시오.<ul><li>최대 50 개 매개 변수 제한.</li><li>매개 변수 이름은 비어 있으면 안 됩니다.</li><li>매개 변수 이름 최대 길이 128.</li><li>매개 변수 이름은 &quot;profile&quot; 로 시작하면 안 됩니다.</li><li>매개 변수 값 길이 max 5000.</li></ul> |  |
-| 요청 &gt; 알림 &gt; Profileparameters | 개체 | 아니오 | 매개 변수에는 다음 이름이 허용되지 않습니다.<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>다음 사항을 고려하십시오.<ul><li>최대 50 개 매개 변수 제한.</li><li>매개 변수 이름은 비어 있으면 안 됩니다.</li><li>매개 변수 이름 최대 길이 128.</li><li>매개 변수 이름은 &quot;profile&quot; 로 시작하면 안 됩니다.</li><li>매개 변수 값 길이 max 5000.</li></ul> |  |
+| 요청 &gt; 알림 &gt; 매개 변수 | 개체 | 아니오 | 매개 변수에는 다음 이름이 허용되지 않습니다.<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>다음 사항을 고려하십시오.<ul><li>최대 50 개 매개 변수 제한.</li><li>매개 변수 이름은 비어 있으면 안 됩니다.</li><li>매개 변수 이름 최대 길이 128.</li><li>매개 변수 이름은 "profile" 로 시작하면 안 됩니다.</li><li>매개 변수 값 길이 max 5000.</li></ul> |  |
+| 요청 &gt; 알림 &gt; Profileparameters | 개체 | 아니오 | 매개 변수에는 다음 이름이 허용되지 않습니다.<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>다음 사항을 고려하십시오.<ul><li>최대 50 개 매개 변수 제한.</li><li>매개 변수 이름은 비어 있으면 안 됩니다.</li><li>매개 변수 이름 최대 길이 128.</li><li>매개 변수 이름은 "profile" 로 시작하면 안 됩니다.</li><li>매개 변수 값 길이 max 5000.</li></ul> |  |
 | 요청 &gt; 알림 &gt; 주문 | 개체 | 아니오 |  | 순서 세부 사항을 설명하는 개체. |
 | 요청 &gt; 알림 &gt; 주문 &gt; ID | 문자열 | 아니오 | `<=` 250자. | 주문 ID. |
 | 요청 &gt; 알림 &gt; 주문 &gt; 합계 | 문자열 | 아니오 | `>=` 0 | 주문 총액. |
@@ -57,7 +57,7 @@ This function sends a notification to Target edge when an experience is rendered
 | 요청 &gt; 알림 &gt; 보기 &gt; 키 | 문자열 | 아니오 | `<=` 512 자. | 키를 참조하십시오. API를 통해 보기에서 설정된 키. |
 | 요청 &gt; 알림 &gt; 보기 &gt; 상태 | 문자열 | 아니오 |  | 상태 토큰을 봅니다. |
 
-**** 참고: 다음 문자는 `Request > notifications > mbox > name`허용됩니다.
+****&#x200B;참고: 다음 문자는 `Request > notifications > mbox > name`허용됩니다.
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
