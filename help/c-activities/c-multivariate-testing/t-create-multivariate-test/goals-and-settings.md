@@ -41,7 +41,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 이 옵션이 설정(기본값)에서 활성화되지 않으면 우선순위를 낮음, 중간 또는 높음으로 지정하십시오.
 
-세분화된 우선순위를 활성화하려면 설정을 클릭한 다음, 세분화된 우선순위 활성화 옵션을 &quot;켜기&quot; 위치로 전환하십시오.
+세분화된 우선순위를 활성화하려면 설정을 클릭한 다음, 세분화된 우선순위 활성화 옵션을 "켜기" 위치로 전환하십시오.
 
 이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 
@@ -127,7 +127,7 @@ A4T(Analytics for Target)를 위해서는 결과를 올바르게 보고하기 �
 
    ![종속성 추가](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. 왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 **[!UICONTROL 도달]** 을 클릭하여 도달 및 도달 못 함 간에 설정을 전환합니다 .
+3. 왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 **[!UICONTROL 도달]**&#x200B;을 클릭하여 도달 및 도달 못 함 간에 설정을 전환합니다 .
 
    ![종속성 도달](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
