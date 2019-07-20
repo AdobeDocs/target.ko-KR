@@ -29,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 | 매개 변수 | 유형 | 설명 |
 |--- |--- |--- |
-| devicePixelRatio | 문자열 | 브라우저의 실제 픽셀과 장치 독립적인 픽셀(dips) 간의 비율입니다.  예: &quot;1.5&quot; 또는 &quot;2&quot; |
+| devicePixelRatio | 문자열 | 브라우저의 실제 픽셀과 장치 독립적인 픽셀(dips) 간의 비율입니다.  예: "1.5" 또는 "2" |
 | screenOrientation | 문자열 | 장치와 브라우저의 JavaScript 엔진은 장치 방향을 지원합니다. 가로이거나 세로일 수 있습니다. |
 | webGLRenderer | 문자열 | 그래픽 드라이버의 브라우저 렌더러입니다. |
 
@@ -41,10 +41,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 사용자 지정 통합(at.js 또는 Mobile SDK를 사용하지 않음)을 사용하는 고객은 이러한 매개 변수를 직접 수집하여 mbox 매개 변수로 전달할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** 를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 모바일]** 을 클릭합니다.
-1. **[!UICONTROL 선택]** 을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 모바일]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    * 장치 마케팅 이름
    * 장치 모델
