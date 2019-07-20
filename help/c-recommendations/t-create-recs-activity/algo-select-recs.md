@@ -37,8 +37,8 @@ Select the [criteria](/help/c-recommendations/c-algorithms/algorithms.md) to use
 
    [!UICONTROL 업계 유형] 필터, [!UICONTROL 페이지 유형] 필터 및 [!UICONTROL 호환] 확인란을 사용하여 기준 목록을 필터링할 수 있습니다. 이러한 옵션은 원하는 기준을 찾는 데 도움이 됩니다.
 
-   * **업계 유형:** 업계 유형은 [!DNL Recommendations] 기준을 분류하는 데 사용됩니다. 기본 수직 시장을 변경하려면 **[!UICONTROL 설정]** 을 클릭하고 원하는 기본 **수직 시장]설정을 선택합니다.[!UICONTROL **
-   * **페이지 유형:** 페이지 유형은 권장 사항을 분류하는 데 도움이 됩니다. 각 페이지 유형에 대해 선택할 수 있는 내장 기준도 있습니다.
-   * **호환:** 선택한 페이지가 필수 데이터를 제공하는 기준만 표시합니다. 모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]선택란을 선택 취소하십시오.** 이 옵션은 [!DNL Target][!UICONTROL  기본 설정]에서 비활성화하거나 활성화할 수 있습니다.
+   * **업계 유형:** 업계 유형은 [!DNL Recommendations] 기준을 분류하는 데 사용됩니다. 기본 수직 시장을 변경하려면 **[!UICONTROL 설정]**&#x200B;을 클릭하고 원하는 기본 **수직 시장]설정을 선택합니다.[!UICONTROL **
+   * **페이지 유형:**&#x200B;페이지 유형은 권장 사항을 분류하는 데 도움이 됩니다. 각 페이지 유형에 대해 선택할 수 있는 내장 기준도 있습니다.
+   * **호환:**&#x200B;선택한 페이지가 필수 데이터를 제공하는 기준만 표시합니다. 모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]선택란을 선택 취소하십시오.** 이 옵션은 [!DNL Target][!UICONTROL  기본 설정]에서 비활성화하거나 활성화할 수 있습니다.
 
 1. Click **[!UICONTROL Next]** to display the [Select Design](/help/c-recommendations/c-design-overview/design-overview.md) dialog box.
