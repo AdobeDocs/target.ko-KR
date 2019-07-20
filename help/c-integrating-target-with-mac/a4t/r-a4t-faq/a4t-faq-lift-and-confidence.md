@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## A4T에 대해 오프라인 계산을 수행할 수 있습니까? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 자세한 내용은 [신뢰 수준 및 신뢰 구간](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)의 &quot;Analytics for Target(A4T)에 사용할 오프라인 계산 수행&quot;을 참조하십시오.
+A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 자세한 내용은 [신뢰 수준 및 신뢰 구간](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)의 "Analytics for Target(A4T)에 사용할 오프라인 계산 수행"을 참조하십시오.
 
 ## 상승도는 어떻게 계산됩니까? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -37,7 +37,7 @@ A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]
 
 A4T는 데이터 제곱의 합과 함께 비이진 지표 계산을 사용합니다. 변화는 데이터 제곱의 합을 사용하여 계산됩니다. 비정상적인 주문은 고려되지 않습니다.
 
-모든 Analytics 세그먼트를 보고서에 적용할 수 있습니다. 이를 통해 기타 세그먼트 옵션에서 &quot;비정상적인 주문&quot;을 가져올 수 있습니다. 또한 지표를 작성하여 방문자가 전환되는 횟수 등과 같은 사항을 제한할 수 있습니다.
+모든 Analytics 세그먼트를 보고서에 적용할 수 있습니다. 이를 통해 기타 세그먼트 옵션에서 "비정상적인 주문"을 가져올 수 있습니다. 또한 지표를 작성하여 방문자가 전환되는 횟수 등과 같은 사항을 제한할 수 있습니다.
 
 ## 상승도 및 신뢰도를 Ad Hoc 및 Report Builder에서 사용할 수 있습니까? 기본적으로 사용할 수 없다면 사용 설정할 수 있습니까? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
