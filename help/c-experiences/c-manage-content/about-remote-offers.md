@@ -33,8 +33,8 @@ Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달�
 
 **원격 오퍼를 만들려면 다음을 수행하십시오.**
 
-1. **[!UICONTROL 오퍼]** 를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
-1. **[!UICONTROL 만들기]&gt;****[!UICONTROL 원격 오퍼]** 를 클릭합니다.
+1. **[!UICONTROL 오퍼]**&#x200B;를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
+1. **[!UICONTROL 만들기]&gt;****[!UICONTROL 원격 오퍼]**&#x200B;를 클릭합니다.
 
    ![](assets/remote_offer_ui.png)
 
