@@ -23,7 +23,7 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
    ![모든 방문자 대상](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
    페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 vec를 사용하여 변경할 수 있습니다. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -81,7 +81,7 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
    예를 들어, XT 활동을 만드는 동안 순서가 중요하다는 것을 인식하지 못한다고 가정해보겠습니다. 경험 B 또는 C에 적격이라고 생각했던 방문자가 경험 A에 적격이라는 사실을 테스트 중에 알게 될 수 있습니다. 이것은 대상이 상호 배타적이지 않으며 적절한 순서로 정렬되지 않았기 때문일 수 있습니다(예: 경험 A = 미국, 경험 B = 샌프란시스코, 경험 C = 캘리포니아). 이 시나리오에서 미국의 모든 사용자는 샌프란시스코나 캘리포니아의 다른 지역에 있더라도 경험 A에 적격입니다. 전체 활동을 다시 만들지 않고, 가장 제한적인 것부터 덜 제한적인 순서로(샌프란시스코 &gt; 캘리포니아 &gt; 미국) 대상/경험 쌍을 재정렬할 수 있습니다.
 
-   [!UICONTROL 모든 방문자] 대상자가 있는 경우, 다이어그램에서 첫 번째 대상이 아닌지 확인하십시오. &quot;모든 방문자&quot;를 대상으로 하는 경험은 다른 경험에 속한 적이 없는 모든 방문자를 &quot;찾기 위한&quot; 경험 타깃팅 활동의 마지막 경험으로 사용될 수 있습니다.
+   [!UICONTROL 모든 방문자] 대상자가 있는 경우, 다이어그램에서 첫 번째 대상이 아닌지 확인하십시오. "모든 방문자"를 대상으로 하는 경험은 다른 경험에 속한 적이 없는 모든 방문자를 "찾기 위한" 경험 타깃팅 활동의 마지막 경험으로 사용될 수 있습니다.
 
 ## 경험 이름 변경 또는 편집
 
@@ -102,7 +102,7 @@ You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experie
 
 경험 타깃팅(XT) 활동에서 경험을 복사할 수 있으므로 경험을 처음부터 다시 작성하지 않고도 약간의 컨텐츠를 변경할 수 있습니다.
 
-**[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]** 을 클릭하십시오.
+**[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]**&#x200B;을 클릭하십시오.
 
 ![중복된 경험](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
