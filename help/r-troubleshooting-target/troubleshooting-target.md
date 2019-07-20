@@ -51,7 +51,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ## Analytics 및 Target 통합(A4T)
 
 * [Analytics와 Target의 통합 문제 해결](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 동영상입니다. [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
+* 고객 지원 팀에서 진행한 이니셔티브인 "운영시간" 동영상입니다. [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
 * A4T FAQ(자주 묻는 질문)
    * [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [초기 사용 권한 제공 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -113,7 +113,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [at.js 제한 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 동영상입니다. [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오.
+* 고객 지원 팀에서 진행한 이니셔티브인 "운영시간" 동영상입니다. [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오.
 
 ### mbox.js
 
@@ -155,4 +155,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [시각적 경험 작성기 우수 사례 및 제한 사항](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 동영상입니다. [시각적 경험 작성기(VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 참조하십시오.
+* 고객 지원 팀에서 진행한 이니셔티브인 "운영시간" 동영상입니다. [시각적 경험 작성기(VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 참조하십시오.
