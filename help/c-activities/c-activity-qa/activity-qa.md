@@ -37,13 +37,13 @@ QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간�
 
    ![QA 링크 구성 옵션](assets/qa_link_config.png)
 
-   * **대상 규칙을 일치시켜 경험 보기:** 때로 대상 일치가 작동하는지 확인할 수 있습니다. 평소에는 활동의 모양과 느낌을 확인할 수 있습니다. 이 설정을 &quot;켬&quot; 위치로 전환할 경우, 테스터는 타깃팅 요구 사항을 충족해야 경험을 볼 수 있는 자격이 생깁니다. 경험 타깃팅(XT) 활동의 경우 하나의 활동 URL이 제공됩니다. 사용자에게 표시되는 경험은 타깃팅 규칙 중 하나에 대한 사용자 자격에 의해 결정됩니다.
+   * **대상 규칙을 일치시켜 경험 보기:**&#x200B;때로 대상 일치가 작동하는지 확인할 수 있습니다. 평소에는 활동의 모양과 느낌을 확인할 수 있습니다. 이 설정을 "켬" 위치로 전환할 경우, 테스터는 타깃팅 요구 사항을 충족해야 경험을 볼 수 있는 자격이 생깁니다. 경험 타깃팅(XT) 활동의 경우 하나의 활동 URL이 제공됩니다. 사용자에게 표시되는 경험은 타깃팅 규칙 중 하나에 대한 사용자 자격에 의해 결정됩니다.
 
-      이 설정을 &quot;끔&quot; 위치로 전환할 경우, 링크를 클릭하면 자격 여부에 관계없이 경험이 표시됩니다. QA를 수행할 때, 대상 타깃팅을 따라야 되는지, 따르지 않아도 되는지 사이에 전환할 수 있습니다.
+      이 설정을 "끔" 위치로 전환할 경우, 링크를 클릭하면 자격 여부에 관계없이 경험이 표시됩니다. QA를 수행할 때, 대상 타깃팅을 따라야 되는지, 따르지 않아도 되는지 사이에 전환할 수 있습니다.
 
-   * **다른 모든 활동에 대한 기본 컨텐츠 표시:** 이 선택 사항을 &quot;켬&quot; 위치로 전환하면 다른 모든 활동에 대해 기본 컨텐츠가 표시됩니다(예: 동일한 페이지/mbox에 있는 다른 모든 라이브 활동을 고려하지 않고 미리 보기가 별도로 표시됨).
+   * **다른 모든 활동에 대한 기본 컨텐츠 표시:**&#x200B;이 선택 사항을 "켬" 위치로 전환하면 다른 모든 활동에 대해 기본 컨텐츠가 표시됩니다(예: 동일한 페이지/mbox에 있는 다른 모든 라이브 활동을 고려하지 않고 미리 보기가 별도로 표시됨).
 
-      이 설정을 &quot;끔&quot;으로 전환하는 경우, 다음을 고려하십시오.
+      이 설정을 "끔"으로 전환하는 경우, 다음을 고려하십시오.
 
       * 테스트하는 활동과 다른 라이브 활동 사이에 충돌이 있는 경우, [일반 우선순위 규칙](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)이 적용됩니다. 이로 인해 QA하려는 활동이 표시되지 않을 수 있습니다.
       * 표시된 활동에 대한 지표 증가가 QA 보고 환경에서만 발생합니다.
@@ -55,7 +55,7 @@ QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간�
 
    각 활동 링크 URL(경험 A, 경험 B 등을 위한 URL)을 사용하면 해당 경험에서 사용자 경험을 시작할 수 있습니다. 경험에 대해 생성된 URL을 클릭한 다음, 일반적인 사이트 탐색을 진행하여 여러 페이지(여러 페이지가 있는 경우)의 경험들을 볼 수 있습니다. 경험이 여러 페이지(템플릿 테스트 또는 다중 페이지 테스트)에 걸쳐 있는 경우에도 경험당 하나의 URL만 생성됩니다. 활동 QA가 결합되어 있으므로 사이트를 탐색하여 다른 페이지를 볼 수 있습니다.
 
-1. 활동 링크 URL에서 생성된 보고서를 보려면 활동의 **[!UICONTROL 보고서]** 페이지를 클릭하고 **[!UICONTROL 설정]** 아이콘(![](assets/icon_gear.png))을 클릭한 다음, **[!UICONTROL 환경]** 드롭다운 목록에서 **[!UICONTROL QA 모드]** 를 선택하십시오.
+1. 활동 링크 URL에서 생성된 보고서를 보려면 활동의 **[!UICONTROL 보고서]** 페이지를 클릭하고 **[!UICONTROL 설정]** 아이콘(![](assets/icon_gear.png))을 클릭한 다음, **[!UICONTROL 환경]** 드롭다운 목록에서 **[!UICONTROL QA 모드]**&#x200B;를 선택하십시오.
 
 ## 고려 사항 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
@@ -68,7 +68,7 @@ QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간�
 
    값이 비어 있는 `at_preview_token` 매개 변수로 사이트의 페이지를 로드하여(예: `https://www.mysite.com/?at_preview_token=`) 수동으로 나올 수도 있습니다.
 
-* 활동을 작성할 때 &quot;URL은&quot;을 지정한 경우([양식 기반 작성기의 개선](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기의 페이지 전달 선택 사항](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)) 활동 QA가 URL 매개 변수를 추가하므로 QA URL이 작동하지 않습니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
+* 활동을 작성할 때 "URL은"을 지정한 경우([양식 기반 작성기의 개선](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기의 페이지 전달 선택 사항](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)) 활동 QA가 URL 매개 변수를 추가하므로 QA URL이 작동하지 않습니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
 * Safari 브라우저에서 활동 QA가 제대로 작동하려면 타사 쿠키를 활성화해야 합니다.
 * 활동에서 여러 경험 대상을 사용하는 경우(예를 들어, 동일한 활동에 포함된 미국 및 영국 사이트), QA 링크가 4개의 조합(경험 A/미국 사이트, 경험 A/영국 사이트, 경험 B/미국 사이트, 경험 B/영국 사이트)에 대해 생성되지 않습니다. 두 개의 QA 링크(경험 A와 경험 B)만 생성되고, 사용자는 페이지를 보려면 적절한 대상에 대한 자격이 있어야 합니다. 영국 QA 담당자는 미국 사이트를 볼 수 없습니다.
 * 모든 `at_preview` 매개 변수와 값이 이미 URL로 인코딩되어 있습니다. 대부분의 경우 모두 예상대로 작동합니다. 하지만, 일부 고객의 로드 밸런서나 웹 서버에서는 쿼리 문자열 매개 변수를 다시 인코딩하려고 시도할 수 있습니다.
@@ -83,10 +83,10 @@ QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간�
    |--- |--- |--- |--- |
    | `at_preview_token` | 암호화된 문자열 | 필수, 기본값 없음 | QA 모드에서 실행할 수 있는 캠페인 ID 목록이 들어 있는 암호화된 엔티티입니다. |
    | `at_preview_index` | 문자열 | Empty | 매개 변수의 형식은 `<campaignIndex>` 또는 `<campaignIndex>_< experienceIndex>`입니다.<br>두 색인이 모두 1로 시작합니다. |
-   | `at_preview_listed_activities_only` | 부울(true/false) | 기본값: false | &quot;true&quot;면 `at_preview_index` 매개 변수에 지정된 모든 캠페인이 처리됩니다.<br>&quot;false&quot;이면 페이지의 모든 캠페인이 미리 보기 토큰에 지정되지 않았더라도 처리됩니다. |
-   | `at_preview_evaluate_as_true_audience_ids` | 문자열 | Empty | mbox 요청 범위에서(대상 및 보고 수준에서) 항상 &quot;true&quot;로 평가되어야 하는 segmentId-s의 밑줄로 구분된(&quot;_&quot;) 목록입니다. |
+   | `at_preview_listed_activities_only` | 부울(true/false) | 기본값: false | "true"면 `at_preview_index` 매개 변수에 지정된 모든 캠페인이 처리됩니다.<br>"false"이면 페이지의 모든 캠페인이 미리 보기 토큰에 지정되지 않았더라도 처리됩니다. |
+   | `at_preview_evaluate_as_true_audience_ids` | 문자열 | Empty | mbox 요청 범위에서(대상 및 보고 수준에서) 항상 "true"로 평가되어야 하는 segmentId-s의 밑줄로 구분된("_") 목록입니다. |
    | `_AT_Debug` | 문자열 | 창 또는 콘솔 | 콘솔 로깅 또는 새 창입니다. |
    | `adobe_mc_ref` |  |  | 기본 페이지의 참조 URL을 새 페이지에 전달합니다. `AppMeasurement.js` 버전 2.1 이상에서 사용하는 경우 [!DNL Adobe Analytics]는 이 매개 변수값을 새 페이지의 참조 URL로 사용합니다. |
-   | `adobe_mc_sdid` |  |  | Analytics for Target(A4T)이 기본 페이지의 Target 요청을 새 페이지의 Analytics 요청과 함께 &quot;결합&quot;하도록 기본 페이지의 SDID([!DNL Supplemental Data Id])와 [!DNL Experience Cloud Org Id]를 새 페이지에 전달합니다. |
+   | `adobe_mc_sdid` |  |  | Analytics for Target(A4T)이 기본 페이지의 Target 요청을 새 페이지의 Analytics 요청과 함께 "결합"하도록 기본 페이지의 SDID([!DNL Supplemental Data Id])와 [!DNL Experience Cloud Org Id]를 새 페이지에 전달합니다. |
 
-* Target QA 모드 UI는 여러 페이지 활동에 경험의 첫 번째 URL만 표시합니다. 경험 테스트를 만들고 URL1에서 URL2로 이동한다고 가정합니다. 그러나 URL2로 이동하려는 경우 URL1에 대해 제공된 모든 URL 매개 변수를 복사하여 URL1에 표시된 대로 &quot;?&quot;를 지정한 후 URL2에 적용합니다.
+* Target QA 모드 UI는 여러 페이지 활동에 경험의 첫 번째 URL만 표시합니다. 경험 테스트를 만들고 URL1에서 URL2로 이동한다고 가정합니다. 그러나 URL2로 이동하려는 경우 URL1에 대해 제공된 모든 URL 매개 변수를 복사하여 URL1에 표시된 대로 "?"를 지정한 후 URL2에 적용합니다.
