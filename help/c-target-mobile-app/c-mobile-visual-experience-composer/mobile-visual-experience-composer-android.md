@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Adobe Target 모바일 앱 VEC(시각적 경험 작성기)를 사용하여 개발자는 Android 모바일 앱에서 일회성 설정을 수행하고 마케터는 모바일 앱 VEC의 기능을 사용할 수 있습니다.
 
-Adobe Target VEC 확장 프로그램 활성화에 대한 자세한 내용은 [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec)에서 *Adobe Target - 시각적 경험 작성기*를 참조하십시오.
+Adobe Target VEC 확장 프로그램 활성화에 대한 자세한 내용은 [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec)에서 *Adobe Target - 시각적 경험 작성기*&#x200B;를 참조하십시오.
 
 ## Mobile SDK 및 Target 라이브러리 포함 {#sdk-library}
 
@@ -138,7 +138,7 @@ public class TargetVEC {
 1. 응용 프로그램을 빌드하고 실행합니다.
 1. 모바일 앱 VEC 작성 모드로 전환하려면 [!DNL sdkbetabus://com.adobe.sdkbetabus]를 해당 URL 체계로 사용하고 장치에서 생성된 딥링크를 엽니다(아래 지시 사항 참조).
 
-이러한 간단한 버스 예약 응용 프로그램에서는 활동 라이프사이클과 연관된 자동으로 생성된 Target 보기를 모두 사용합니다. 또한 숨겨진 단추를 클릭하면(화면의 오퍼 이미지) 동적으로 추가되는 사용자 지정 보기 요소에서 Target 보기 API를 호출하여 API의 유연성을 보여 줍니다. 이 새 Target 보기는 코드에서 `OfferDetailsActivity.java:40`에 API 호출을 삽입하여 구현됩니다. 숨겨진 단추를 클릭하면 &quot;SURPRISE_VIEW&quot;라는 새 Target 보기 이벤트가 실행되므로 마케터가 애플리케이션 환경에서 더욱 정밀하게 대상을 변경할 수 있습니다.
+이러한 간단한 버스 예약 응용 프로그램에서는 활동 라이프사이클과 연관된 자동으로 생성된 Target 보기를 모두 사용합니다. 또한 숨겨진 단추를 클릭하면(화면의 오퍼 이미지) 동적으로 추가되는 사용자 지정 보기 요소에서 Target 보기 API를 호출하여 API의 유연성을 보여 줍니다. 이 새 Target 보기는 코드에서 `OfferDetailsActivity.java:40`에 API 호출을 삽입하여 구현됩니다. 숨겨진 단추를 클릭하면 "SURPRISE_VIEW"라는 새 Target 보기 이벤트가 실행되므로 마케터가 애플리케이션 환경에서 더욱 정밀하게 대상을 변경할 수 있습니다.
 
 타깃팅된 동적 보기 삽입:
 
@@ -247,7 +247,7 @@ TargetVEC.setGlobalRequestParameters(new TargetParameters.Builder()
 
 **다음 보기 트리거에 대한 매개 변수 전달:**
 
-앱에 있는 각 활동 및 조각에 대해 &quot;`AUTO_<activity|fragment name>`&quot;과 같이 기본적으로 생성되는 일부 자동 보기가 제공되어 있습니다. 이러한 매개 변수를 전달하려는 경우 다음 API를 호출할 수 있습니다.
+앱에 있는 각 활동 및 조각에 대해 "`AUTO_<activity|fragment name>`"과 같이 기본적으로 생성되는 일부 자동 보기가 제공되어 있습니다. 이러한 매개 변수를 전달하려는 경우 다음 API를 호출할 수 있습니다.
 
 ```
 Map<String, String> mboxParams = new HashMap<>();  //Mbox or view params 
