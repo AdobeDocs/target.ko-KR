@@ -31,7 +31,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 단일 페이지 앱 시각적 경험 작성기 (SPA VEC) | SPA VEC에는 작업을 보다 빠르고 효율적으로 수행할 수 있도록 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>SPA에서 작업을 클릭하면 이 작업이 적용될 사이트의 요소가 강조 표시됩니다. 보기 아래에 만들어진 각 VEC 작업에는 정보, 편집, 이동 및 삭제 아이콘이 있습니다. 이 릴리스의 새로운 &quot;이동&quot; 기능을 사용하면 작업을 페이지 로드 이벤트나 수정 패널에 이미 있는 다른 보기로 이동할 수 있습니다. (TGT-33746)</li><li>페이지가 VEC에 로드되기 전에 또는 페이지가 완전히 로드되지 않은 경우에도 여러 작업을 수행할 수 있습니다(예: 사용자 지정 코드가 더 이상 작동하지 않음). 사이트가 로드되기 전에 편집할 수 없는 작업은 Target UI에서 비활성화됩니다. (TGT-33851 및 TGT-34149)</li></ul>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오. |
+| 단일 페이지 앱 시각적 경험 작성기 (SPA VEC) | SPA VEC에는 작업을 보다 빠르고 효율적으로 수행할 수 있도록 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>SPA에서 작업을 클릭하면 이 작업이 적용될 사이트의 요소가 강조 표시됩니다. 보기 아래에 만들어진 각 VEC 작업에는 정보, 편집, 이동 및 삭제 아이콘이 있습니다. 이 릴리스의 새로운 "이동" 기능을 사용하면 작업을 페이지 로드 이벤트나 수정 패널에 이미 있는 다른 보기로 이동할 수 있습니다. (TGT-33746)</li><li>페이지가 VEC에 로드되기 전에 또는 페이지가 완전히 로드되지 않은 경우에도 여러 작업을 수행할 수 있습니다(예: 사용자 지정 코드가 더 이상 작동하지 않음). 사이트가 로드되기 전에 편집할 수 없는 작업은 Target UI에서 비활성화됩니다. (TGT-33851 및 TGT-34149)</li></ul>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오. |
 
 #### 개선 사항, 수정 및 변경 사항
 
@@ -41,7 +41,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 모바일 앱 VEC(시각적 경험 작성기) | 모바일 앱 VEC를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 콘텐츠를 개인화할 수 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오.<ul><li>[모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[모바일 VEC에서 클릭 추적 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[비디오: 모바일 앱 Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
+| 모바일 앱 VEC(시각적 경험 작성기) | 모바일 앱 VEC를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 컨텐츠를 개인화할 수 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오.<ul><li>[모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[모바일 VEC에서 클릭 추적 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[비디오: 모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.4.2(2019년 4월 30일) {#release-19-4-2}
 
@@ -53,18 +53,18 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| [!UICONTROL 시각적 경험 작성기] | VEC([!UICONTROL 시각적 경험 작성기])에는 작업을 보다 빠르고 효율적으로 수행할 수 있도록 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>이제 DOM 경로 기능은 클릭 추적을 설정할 때 사용할 수 있습니다.<br>자세한 내용은 [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md#considerations)을 참조하십시오.</li><li>스타일 패널을 사용하여 선택한 요소의 기존 스타일 값을 보거나 편집할 수 있습니다. 스타일을 추가할 수도 있습니다.<br>스타일 패널에 액세스하려면 VEC 내에서 페이지 요소를 클릭한 다음 [!UICONTROL 편집] &gt; [!UICONTROL 스타일]을 클릭합니다.<br>스타일 패널이 VEC 오른쪽에 표시됩니다. 이 패널에는 선택한 요소를 편집하거나 선택한 요소에 추가할 수 있는 스타일 목록이 포함되어 있습니다. CSS(Cascading Style Sheet)를 사용하는 데 익숙하거나 개발자로부터 코드를 받은 경우 실시간 CSS 편집기를 사용하면 변경 사항을 보고 스타일을 추가할 수 있습니다.<br>자세한 내용은 *시각적 경험 작성기 선택 사항*의 [스타일](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)을 참조하십시오.</li><li>이제 서식 있는 텍스트 편집기에서 중첩된 HTML5 요소를 지원합니다.<br>HTML5 사양에 따라 중첩할 태그를 새로 조합할 수 있습니다. 이전 버전의 서식 있는 텍스트 편집기에서는 HTML5 사양에 따라 허용되는 태그의 새로운 중첩을 지원하지 않았습니다. 따라서 VEC에서 선택한 중첩된 요소가 제대로 처리되지 않아 HTML이 원치 않게 변경되었습니다. (TGT-33618)<br>자세한 내용은 *시각적 경험 작성기 선택 사항*의 [텍스트/HTML 편집](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html)을 참조하십시오.</li> |
+| [!UICONTROL 시각적 경험 작성기] | [!UICONTROL 시각적 경험 작성기] (VEC) 작업을 보다 빠르고 효율적으로 수행할 수 있도록 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>이제 DOM 경로 기능은 클릭 추적을 설정할 때 사용할 수 있습니다.<br>자세한 내용은 [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md#considerations)을 참조하십시오.</li><li>스타일 패널을 사용하여 선택한 요소의 기존 스타일 값을 보거나 편집할 수 있습니다. 스타일을 추가할 수도 있습니다.<br>스타일 패널에 액세스하려면 VEC 내에서 페이지 요소를 클릭한 다음 [!UICONTROL 편집] &gt; [!UICONTROL 스타일]을 클릭합니다.<br>스타일 패널이 VEC 오른쪽에 표시됩니다. 이 패널에는 선택한 요소를 편집하거나 선택한 요소에 추가할 수 있는 스타일 목록이 포함되어 있습니다. CSS(Cascading Style Sheet)를 사용하는 데 익숙하거나 개발자로부터 코드를 받은 경우 실시간 CSS 편집기를 사용하면 변경 사항을 보고 스타일을 추가할 수 있습니다.<br>자세한 내용은 *시각적 경험 작성기 선택 사항*&#x200B;의 [스타일](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)을 참조하십시오.</li><li>이제 서식 있는 텍스트 편집기에서 중첩된 HTML5 요소를 지원합니다.<br>HTML5 사양에 따라 중첩할 태그를 새로 조합할 수 있습니다. 이전 버전의 서식 있는 텍스트 편집기에서는 HTML5 사양에 따라 허용되는 태그의 새로운 중첩을 지원하지 않았습니다. 따라서 VEC에서 선택한 중첩된 요소가 제대로 처리되지 않아 HTML이 원치 않게 변경되었습니다. (TGT-33618)<br>자세한 내용은 *시각적 경험 작성기 선택 사항*&#x200B;의 [텍스트/HTML 편집](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#edit-text-html)을 참조하십시오.</li> |
 
 #### 개선 사항, 수정 및 변경 사항
 
-* VEC를 사용하여 자산을 삭제할 때 워크플로를 개선했습니다. 삭제된 자산은 이제 [!UICONTROL 오퍼 라이브러리] 및 [!DNL Scene7](해당하는 경우)에서 제거됩니다. 삭제된 자산은 더 이상 검색 결과에 표시되지 않습니다. (TGT-31981)
+* VEC를 사용하여 자산을 삭제할 때 워크플로를 개선했습니다. 삭제된 자산은 이제 [!UICONTROL 오퍼 라이브러리] 및 [!DNL Scene7] (해당하는 경우)에서 제거됩니다. 삭제된 자산은 더 이상 검색 결과에 표시되지 않습니다. (TGT-31981)
 * 이제 자산 폴더에 이미지가 있더라도(비어 있지 않은 폴더) 자산 폴더를 삭제할 수 있습니다. (TGT-33265)
 
-   이전에는 Target 이미지 오퍼 라이브러리([!UICONTROL 오퍼] &gt; [!UICONTROL 이미지 오퍼])에서 비어 있지 않은 폴더를 삭제할 수 없었습니다. UI에서 폴더를 삭제하려고 하면 &quot;폴더가 비어 있지 않습니다.&quot; 알림이 표시됩니다. 이 기능을 사용하여 폴더 삭제를 수행하여 내부에 자산 및 하위 폴더가 포함된 전체 폴더를 제거할 수 있는 기능을 추가합니다. 이 기능은 Adobe Experience Cloud Assets UI뿐만 아니라 Target UI에서 사용할 수 있습니다.
+   이전에는 Target 이미지 오퍼 라이브러리([!UICONTROL 오퍼] &gt; [!UICONTROL 이미지 오퍼])에서 비어 있지 않은 폴더를 삭제할 수 없었습니다. UI에서 폴더를 삭제하려고 하면 "폴더가 비어 있지 않습니다." 알림이 표시됩니다. 이 기능을 사용하여 폴더 삭제를 수행하여 내부에 자산 및 하위 폴더가 포함된 전체 폴더를 제거할 수 있는 기능을 추가합니다. 이 기능은 Adobe Experience Cloud Assets UI뿐만 아니라 Target UI에서 사용할 수 있습니다.
 
-   *  이미지 오퍼 라이브러리에서 비어 있지 않은 폴더를 삭제할 수 있습니다. 폴더 내의 모든 이미지를 활동에서 참조하지 않으면 전체 폴더와 해당 콘텐츠가 삭제됩니다. 폴더 내의 일부 이미지를 활동에서 참조하는 경우 참조되지 않은 모든 이미지가 삭제되지만, 그러한 이미지가 들어 있는 참조된 이미지와 폴더는 그대로 유지됩니다.
+   * 이미지 오퍼 라이브러리에서 비어 있지 않은 폴더를 삭제할 수 있습니다. 폴더 내의 모든 이미지를 활동에서 참조하지 않으면 전체 폴더와 해당 컨텐츠가 삭제됩니다. 폴더 내의 일부 이미지를 활동에서 참조하는 경우 참조되지 않은 모든 이미지가 삭제되지만, 그러한 이미지가 들어 있는 참조된 이미지와 폴더는 그대로 유지됩니다.
    * 이미지 자산 선택기에서 이미지 오퍼를 렌더링하는 것이 훨씬 빠르며, 보다 효율적입니다.
-   자세한 내용은 [라이브러리에서 콘텐츠 작업](/help/c-experiences/c-manage-content/assets-working.md)을 참조하십시오. (TGT-32897)
+   자세한 내용은 [라이브러리에서 컨텐츠 작업](/help/c-experiences/c-manage-content/assets-working.md)을 참조하십시오. (TGT-32897)
 
 * 자산 선택기에서 이미지 제공 렌더링을 개선했습니다. 이제 이미지 표시 및 선택이 더 빠르고 효율적입니다. (TGT-32897)
 * VEC 내에서 페이지 로드를 취소할 때 URL에 대한 리디렉션 처리를 개선했습니다. (TGT-33815)
@@ -103,7 +103,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 >[!NOTE]
 >
->GDPR(일반 데이터 보호 규정)에 대한 [!DNL Adobe] 옵트인 지원이 필요한 경우 at.js 1.7.1을 구현해야 합니다. 옵트인 지원은 현재 at.js 2에서 지원되지 않습니다.*x*에는 사용할 수 없습니다.
+>GDPR(일반 데이터 보호 규정)에 대한 [!DNL Adobe] 옵트인 지원이 필요한 경우 at.js 1.7.1을 구현해야 합니다. 옵트인 지원은 현재 at.js 2에서 지원되지 않습니다.*x*&#x200B;에는 사용할 수 없습니다.
 
 ### at.js 버전 1.7.1(2019년 3월 19일) {#atjs171}
 
@@ -117,7 +117,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| at.js 버전 2.0.0<br>2019년 2월 19일 | 이제 at.js 2.x를 사용할 수 있습니다.<br>최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.<br>at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같은 몇 가지 이점이 있습니다.<ul><li>페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.</li><li>오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.</li><li>간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타깃팅(XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.</li></ul>at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>다음 함수는 at.js 2.x의 도입으로 더 이상 사용되지 않습니다.<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)와 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.<br>**참고**: [일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)(GDPR)에 대한 Adobe 옵트인 지원이 필요한 경우, 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다. |
+| at.js 버전 2.0.0<br>2019년 2월 19일 | 이제 at.js 2.x를 사용할 수 있습니다.<br>최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.<br>at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같은 몇 가지 이점이 있습니다.<ul><li>페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.</li><li>오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.</li><li>간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타깃팅(XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.</li></ul>at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>다음 함수는 at.js 2.x의 도입으로 더 이상 사용되지 않습니다.<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)와 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.<br>**참고**: [일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)에 대한 Adobe 옵트인 지원이 필요한 경우, 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다. |
 | at.js 버전 1.7.0<br>2019년 2월 14일 | at.js 1.7.0을 사용할 수 있습니다.<br>이 릴리스는 Adobe 옵트인을 지원합니다. Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)(GDPR)을 참조하십시오.<br>또한 이 릴리스에서는 Target이 리디렉션 URL에서 발생하는 매개 변수로 리디렉션 URL 매개 변수를 무시할 수 있는 문제를 수정합니다.<br>**참고**: GDPR에 대한 Adobe 옵트인 지원이 필요한 경우에는 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다.<br>모든 버전의 목록은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오. |
 
 ### [!DNL Target] Standard/Premium 19.2.1(2019년 2월 19일) {#target-19-2-1}
@@ -131,7 +131,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 | 단일 페이지 앱 시각적 경험 작성기 | SPA(단일 페이지 앱)에 대한 VEC(시각적 경험 작성기)를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 컨텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같은 가장 인기 있는 프레임워크의 활동을 작성하는 데 사용할 수 있습니다. (TGT -27916)<br>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)와 [단일 페이지 애플리케이션 통합](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)을 참조하십시오.<br>위의 문서 외에도, 이 기능을 처리하는 SPA와 at.js 및 그 구현 방법과 관련된 항목이 많습니다. 자세한 내용은 [설명서 변경 내용](/help/r-release-notes/doc-change.md)을 참조하십시오. |
 | 시각적 경험 작성기 | 시각적 경험 작성기(VEC)에는 다음 개선 사항이 포함되어 있어 작업을 보다 빠르고 효율적으로 수행할 수 있습니다.<ul><li>이제 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 삽입하는 동안 VEC에서 다음 항목 앞에 삽입 및 다음 항목 뒤에 삽입 선택 사항을 사용할 수 있습니다. [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오. (TGT-32385)</li><li>Google Chrome용 [!DNL Adobe Target] VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다. [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 참조하십시오. (TGT-32746)</li></ul> |
 | ![Premium 배지](/help/assets/premium.png)<br> [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] 활동의 권장 사항 | 이제 [!UICONTROL A/B 테스트]([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 포함)와 [!UICONTROL 경험 타깃팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다. 이에 따라 다음과 같이 완전히 새로운 기능을 사용할 수 있게 됩니다.<ul><li>동일한 활동에서 권장 사항 및 비권장 사항 컨텐츠를 테스트하고 타깃팅할 수 있습니다.</li><li>권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다.</li><li>[!UICONTROL 자동 할당]을 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동 푸시할 수 있습니다.</li><li>[!UICONTROL 자동 타겟]을 사용하여 방문자를 개별 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.</li></ul>시작하려면 VEC를 사용하여 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅] 활동을 만들고, [!UICONTROL 다음 항목 앞에 삽입], [!UICONTROL 다음 항목 뒤에 삽입] 또는 [!UICONTROL 다음으로 바꾸기] 작업을 사용하여 권장 사항을 경험에 추가하십시오. (RECS-6166)<br>자세한 내용은 [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
-| ![Premium 배지](/help/assets/premium.png)<br>Target API의 엔터프라이즈 권한 지원 | 이제 [Adobe Target 관리 API](http://developers.adobetarget.com/api/#admin-apis)는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일** 부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 공간에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 공간으로만 제한되었습니다. 자동화된 개인화(AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다.<br>**참고:** 이 기능과 관련하여 [알려진 문제](/help/r-release-notes/known-issues-resolved-issues.md#api)가 있습니다. |
+| ![Premium 배지](/help/assets/premium.png)<br>Target API의 엔터프라이즈 권한 지원 | 이제 [Adobe Target 관리 API](http://developers.adobetarget.com/api/#admin-apis)는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 공간에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 공간으로만 제한되었습니다. 자동화된 개인화(AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다.<br>**참고:** 이 기능과 관련하여 [알려진 문제](/help/r-release-notes/known-issues-resolved-issues.md#api)가 있습니다. |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -141,7 +141,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 타깃팅<br>2019년 1월 25일 | 프로필 스크립트나 다른 입력 소스(예: mbox 매개 변수, 프로필 매개 변수 등)에 의해 반환된 비십진수 및 십진수 값과의 &quot;같음&quot;(equals) 비교를 위해 타깃팅 일치가 작동하는 방식을 변경했습니다.<br>자세한 내용은 [타겟 및 대상](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) FAQ를 참조하십시오. |
+| 타깃팅<br>2019년 1월 25일 | 프로필 스크립트나 다른 입력 소스(예: mbox 매개 변수, 프로필 매개 변수 등)에 의해 반환된 비십진수 및 십진수 값과의 "같음"(equals) 비교를 위해 타깃팅 일치가 작동하는 방식을 변경했습니다.<br>자세한 내용은 [타겟 및 대상](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) FAQ를 참조하십시오. |
 | 프로필 스크립트<br>2019년 1월 17일 | 성능상의 이유로 256자를 넘지 않는 반환 값이 좋습니다.<br>문자열 반환 값의 경우 반환 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>배열 반환 값의 경우, 연결된 배열 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>오퍼 크기, 대상, 프로필, 값, 매개 변수 등 Target의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한에 대해서는 [제한 사항](../r-troubleshooting-target/target-limits.md)을 참조하십시오. |
 | at.js<br>2019년 1월 16일 | at.js 1.6.4는 유지보수 릴리스이며 다음 문제를 해결합니다.<ul><li>Microsoft Internet Explorer 11에서 중복된 오퍼가 적용되는 경합 조건 매니페스트를 수정했습니다. (TNT-31374)</li><li>클릭 토큰 및 HTML 오퍼와 함께 기본 오퍼가 있을 때 클릭 추적에 영향을 주는 문제를 해결했습니다. (TNT-31493)</li><li>각 Target 요청에서 mboxEdgeCluster 쿠키를 확장했습니다. 이 쿠키는 mboxEdgeOverride가 활성화된 경우에만 사용됩니다. (TNT-31485)</li></ul> |
 
@@ -153,7 +153,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| ![Target Premium 배지](/help/assets/premium.png)<br/>[!DNL Target] API의 [!UICONTROL 엔터프라이즈 권한] 지원 | 이제 [Adobe Target 관리 API](http://developers.adobetarget.com/api/#admin-apis)는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일** 부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 공간에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 공간으로만 제한되었습니다. 자동화된 개인화(AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
+| ![Target Premium 배지](/help/assets/premium.png)<br/>[!DNL Target] API의 [!UICONTROL 엔터프라이즈 권한] 지원 | 이제 [Adobe Target 관리 API](http://developers.adobetarget.com/api/#admin-apis)는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 공간에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 공간으로만 제한되었습니다. 자동화된 개인화(AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
 | ![Target Premium 배지](/help/assets/premium.png)<br/>[!UICONTROL 권장 사항]: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링 | 이제 선택한 환경(호스트 그룹)에 대한 [!UICONTROL 권장 사항] 컬렉션 및 제외 컨텐츠를 미리 볼 수 있습니다.<br/>이전에는, 컬렉션이나 제외를 볼 때, 들어 있는 것으로 표시된 항목이 기본 호스트 그룹([!UICONTROL 권장 사항 &gt; 설정 &gt; 기본 호스트 그룹]에 지정됨)에 대한 결과였습니다.<br/>이제, 컬렉션이나 제외를 만들거나 업데이트할 때 [!UICONTROL 환경] 선택기를 사용하여 결과를 미리 볼 환경을 선택할 수 있습니다. 따라서 컬렉션과 제외를 만들거나 편집하기 전에 적절한 기본 호스트 그룹을 선택하기 위해 더 이상 [!UICONTROL 설정] 페이지로 이동할 필요가 없으므로 새 [!UICONTROL 환경] 필터를 통해 시간과 노력을 절약할 수 있습니다.<br/>**참고:** 선택한 환경을 변경한 후 [!UICONTROL 검색]을 클릭하여 반환된 결과를 업데이트해야 합니다.<br/>새 [!UICONTROL 환경] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>[!UICONTROL 카탈로그 검색]([!UICONTROL 권장 사항 &gt; 카탈로그 검색])</li><li>[!UICONTROL 컬렉션 만들기] 대화 상자([!UICONTROL 권장 사항 &gt; 컬렉션 &gt; 새로 만들기])</li><li>[!UICONTROL 컬렉션 업데이트] 대화 상자([!UICONTROL 권장 사항 &gt; 컬렉션 &gt; 편집])</li><li>[!UICONTROL 제외 만들기] 대화 상자([!UICONTROL 권장 사항 &gt; 제외 &gt; 새로 만들기])</li><li>[!UICONTROL 제외 업데이트] 대화 상자([!UICONTROL 권장 사항 &gt; 제외 &gt; 편집])</li></ul><br>자세한 내용은 다음 주제를 참조하십시오.<uL><li>[컬렉션](/help/c-recommendations/c-products/collections.md)</li><li>[제외](/help/c-recommendations/c-products/exclusions.md)</li><li>[카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md)</li><li>[설정](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링](/help/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **개선 사항, 수정 및 변경 사항**
@@ -176,7 +176,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
    <td colname="col1"> <p>at.js 1.6.3 </p> </td> 
    <td colname="col2"> <p>이제 at.js 버전 1.6.3을 사용할 수 있습니다. </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
-      <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>이제 선택기는 십진수, 하이픈 두 개 또는 뒤에 십진수가 있는 하이픈(예: # -123)으로 시작하는 ID 또는 CSS 클래스를 포함하는 경우 CSS가 이스케이프 처리됩니다. (TNT-31061) </p> </li> 
+      <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>이제 선택기는 십진수, 하이픈 두 개 또는 뒤에 십진수가 있는 하이픈(예: #-123)으로 시작하는 ID 또는 CSS 클래스를 포함하는 경우 CSS가 이스케이프 처리됩니다. (TNT-31061) </p> </li> 
       <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>동일한 CSS 선택기에 적용되는 서로 다른 활동의 시각적 경험 작성기(VEC) 오퍼가 활동 우선순위를 준수하지 않는 at.js 1.6.2에서 발생하는 문제를 수정했습니다. (TNT-31052) </p> </li> 
       <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>약속에 대한 기본 지원이 없는 환경에서 약속 시간 제한 관련 문제를 해결했습니다. (TNT-30974) </p> </li> 
       <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>이제 컨텐츠 렌더링 실패 이벤트를 통해 문제가 올바로 캡처되고 보고됩니다. 이전에는 사실이 아님에도 불구하고 JavaScript가 성공적으로 실행된 것으로 보고되었습니다. (TNT-30599) </p> </li> 
@@ -247,7 +247,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
    * 삭제된 대상으로 여러 대상을 결합하려고 시도하거나 삭제된 대상을 참조하는 활동을 저장하려고 하면 경고 메시지가 표시됩니다.
    [대상 정보](https://marketing.adobe.com/resources/help/en_US/target/target/c_audiences.html)를 참조하십시오.
 
-* 사용자가 [!UICONTROL 설정] 페이지에서 보고 소스로 Adobe Analytics를 선택한 경우 특정 상황에서 사용자가 활동을 작성할 수 없는 문제가 수정되었습니다. 사용자에게 보고서 세트를 선택하는 옵션을 제공하지 않아도 &quot;보고서 세트를 선택하십시오&quot;라는 메시지가 표시됩니다. (TGT-31968)
+* 사용자가 [!UICONTROL 설정] 페이지에서 보고 소스로 Adobe Analytics를 선택한 경우 특정 상황에서 사용자가 활동을 작성할 수 없는 문제가 수정되었습니다. 사용자에게 보고서 세트를 선택하는 옵션을 제공하지 않아도 "보고서 세트를 선택하십시오"라는 메시지가 표시됩니다. (TGT-31968)
 
 ### 플랫폼(2018년 10월 19일)
 
@@ -301,7 +301,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>시각적 경험 작성기(VEC) </p> </td> 
-   <td colname="col2"> <p>VEC에 <span class="wintitle">다음 항목 전에 삽입</span> 동작을 추가했습니다. 이 기능은 이전의</span>다음 항목 뒤에 삽입<span class="wintitle"> 옵션과 유사합니다. 페이지에서 요소를 선택하면 <span class="wintitle">다음 항목 전에 삽입</span>을 클릭하고 이미지, HTML 또는 텍스트 중 어떤 항목을 삽입할지 선택할 수 있습니다. 삽입된 요소는 선택한 요소 앞에 나타납니다. (TGT-30473) <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local"> 시각적 경험 작성기 선택 사항</a>을 참조하십시오. </span></p> </td> 
+   <td colname="col2"> <p>VEC에 <span class="wintitle">다음 항목 전에 삽입</span> 동작을 추가했습니다. 이 기능은 이전의</span>다음 항목 뒤에 삽입<span class="wintitle"> 옵션과 유사합니다. 페이지에서 요소를 선택하면 <span class="wintitle">다음 항목 전에 삽입</span>을 클릭하고 이미지, HTML 또는 텍스트 중 어떤 항목을 삽입할지 선택할 수 있습니다. 삽입된 요소는 선택한 요소 앞에 나타납니다. (TGT-30473) <a href="../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81" format="dita" scope="local">시각적 경험 작성기 선택 사항</a>을 참조하십시오. </span></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -381,7 +381,7 @@ target/r_release-notes-2018.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>오퍼: A/B 및 경험 타깃팅(XT) 활동 </p> </td> 
-   <td colname="col2"> <p>활동 다이어그램에서 바로 경험을 편집하고 삭제합니다. 이제 특정 경험을 위해 VEC(시각적 경험 작성기)로 이동하거나 다이어그램에서 바로 경험을 삭제할 수 있습니다. </p> <p> <img src="assets/experience_edit.png" id="image_FA6E5F07B04A4B4BA02EA71EDB6908A7" /> </p> <p>자세한 내용은: </p> <p> 
+   <td colname="col2"> <p>활동 다이어그램에서 바로 경험을 편집하고 삭제합니다. 이제 특정 경험을 위해 VEC(시각적 경험 작성기)로 이동하거나 다이어그램에서 바로 경험을 삭제할 수 있습니다. </p> <p> <img src="assets/experience_edit.png" id="image_FA6E5F07B04A4B4BA02EA71EDB6908A7" /> </p> <p>다음 참조: </p> <p> 
      <ul id="ul_CB0C1146716F4C09BF924CF3DFA7DC1A"> 
       <li id="li_3767DD36F597481FB312CC577CD668F0"> <p>A/B 활동: <a href="../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local">경험 추가 </a> </p> </li> 
       <li id="li_E2990CA178C6446BA7206643A3164FEF"> <p>XT 활동: <a href="../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local">경험 만들기 </a> </p> </li> 
@@ -485,7 +485,7 @@ target/r_release-notes-2018.xml
 
 이 [!DNL Target] 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* 이제 권장 사항 CSV 다운로드의 백업 행에는 *(단일 별표) 대신 선행 &quot;*&quot;(별표를 묶는 큰따옴표 묶음)가 있습니다.
+* 이제 권장 사항 CSV 다운로드의 백업 행에는 *(단일 별표) 대신 선행 "*"(별표를 묶는 큰따옴표 묶음)가 있습니다.
 * 권장 사항 CSV 다운로드에서 가장 많이 판매된 카테고리/가장 많이 본 카테고리 행에 더 이상 맨 앞에 쉼표가 없습니다.
 
 ### Target 플랫폼 변경 사항(2018년 6월 19일) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -504,7 +504,7 @@ target/r_release-notes-2018.xml
 
 ### Target 다운로드 API(2018년 6월 5일) {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
-Recommendations Download API를 사용하여 스프레드시트나 텍스트 편집기에서 볼 수 있는 .CSV 파일로 권장 사항을 다운로드할 수 있습니다. 보안을 강화하기 위해 **2018년 6월 5일** 부터 Target에서는 HTTP 요청을 차단하고 HTTPS 요청만 허용합니다.
+Recommendations Download API를 사용하여 스프레드시트나 텍스트 편집기에서 볼 수 있는 .CSV 파일로 권장 사항을 다운로드할 수 있습니다. 보안을 강화하기 위해 **2018년 6월 5일**&#x200B;부터 Target에서는 HTTP 요청을 차단하고 HTTPS 요청만 허용합니다.
 
 ### Target Standard/Premium 18.5.1(2018년 5월 22일) {#section_7C1427793C2A48DBAC39F8290717DC5B}
 
@@ -582,7 +582,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p>AEM(Adobe Experience Manager) 경험 구성요소 </p> </td> 
-   <td colname="col2"> <p>Target 활동에 AEM에서 만든 경험 조각을 사용하면 AEM의 편의성과 기능을 Target의 강력한 AI(Automated Intelligence) 및 기계 학습(ML) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.&amp; amp; nbsp; &amp; amp; nbsp; </p> <p>AEM에서는 모든 컨텐츠 및 자산을 중앙 위치에 가져와서 개인화 전략을 실행합니다. AEM을 사용하면 코드를 작성하지 않고도 한 위치에서 데스크톱, 태블릿 및 휴대 장치의 컨텐츠를 쉽게 만들 수 있습니다. 모든 장치를 위해 페이지를 만들 필요가 없이, 컨텐츠를 사용하여 각 경험이 자동으로 조정됩니다. </p> <p> Target을 사용하면 행동 변수, 컨텍스트 변수 및 오프라인 변수를 통합하는 규칙 기반 및 AI 중심 기계 학습 접근 방식들의 결합을 기반으로 다양한 규모의 개인화된 경험을 제공할 수 있습니다. Target을 사용하면 A/B와 다변량 활동을 쉽게 설정 및 실행하여 최상의 오퍼, 컨텐츠 및 경험을 결정할 수 있습니다. </p> <p>경험 조각은 컨텐츠/경험 작성자 및 관리자를 Target을 사용하여 비즈니스 결과를 이끄는 최적화 및 개인화 전문가에게 연결하기 위한 매우 큰 단계를 나타냅니다. </p> <p>자세한 내용은 <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM 경험 구성요소</a>를 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p>Target 활동에 AEM에서 만든 경험 조각을 사용하면 AEM의 편의성과 기능을 Target의 강력한 AI(Automated Intelligence) 및 기계 학습(ML) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.&amp; amp; nbsp; &amp; amp; nbsp; </p> <p>AEM에서는 모든 컨텐츠 및 자산을 중앙 위치에 가져와서 개인화 전략을 실행합니다. AEM을 사용하면 코드를 작성하지 않고도 한 위치에서 데스크톱, 태블릿 및 휴대 장치의 컨텐츠를 쉽게 만들 수 있습니다. 모든 장치를 위해 페이지를 만들 필요가 없이, 컨텐츠를 사용하여 각 경험이 자동으로 조정됩니다. </p> <p> Target을 사용하면 행동 변수, 컨텍스트 변수 및 오프라인 변수를 통합하는 규칙 기반 및 AI 중심 기계 학습 접근 방식들의 결합을 기반으로 다양한 규모의 개인화된 경험을 제공할 수 있습니다.Target을 사용하면 A/B와 다변량 활동을 쉽게 설정 및 실행하여 최상의 오퍼, 컨텐츠 및 경험을 결정할 수 있습니다. </p> <p>경험 조각은 컨텐츠/경험 작성자 및 관리자를 Target을 사용하여 비즈니스 결과를 이끄는 최적화 및 개인화 전문가에게 연결하기 위한 매우 큰 단계를 나타냅니다. </p> <p>자세한 내용은 <a href="../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local">AEM 경험 구성요소</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>보고서 </p> </td> 
@@ -997,7 +997,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col2"> <p>활동 만들기 워크플로우가 다음과 같이 개선되었습니다. </p> <p> 
      <ul id="ul_2D251AC11FC54E86AE84DEFFB6FDF43C"> 
       <li id="li_AB8F12B3CF654120BD16EAE570517741"> <p>활동을 편집하는 동안, 현재 표시된 단계에서 원하는 부분을 변경한 후 분할 단추의 드롭다운을 클릭하고 <span class="wintitle">다음</span>을 선택하여 다음 단계로 이동한 후 <span class="wintitle">저장하고 닫기</span>를 클릭하여 변경 사항을 저장하고 활동의 <span class="wintitle">개요</span> 페이지를 표시하거나 <span class="wintitle">저장</span>을 클릭하여 변경 사항을 저장한 후 해당 단계에 남아 있습니다. </p> <p> <img src="assets/edit_split_button_2.png" id="image_ABC7EE42F5D341EC88AACC54CA98DA2F" /> </p> <p>자세한 내용은 <a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local">활동 편집 또는 초안으로 저장</a>을 참조하십시오 . </p> </li> 
-      <li id="li_4C71E2570ECF4BBAB08443D89230CE82"> <p>활동을 편집하는 동안, 원하는 워크플로우 단계를 열고 변경을 수행한 후(예: 경험 백분율, 대상 등) 안내가 있는 3단계 워크플로우를 진행할 필요 없이 활동을 저장하거나 닫을 수 있습니다. </p> <p> <img src="assets/edit_activity.png" id="image_0B9A2EF729C34A1D9FA84B8B7B17A3C1" /> </p> <p>자세한 내용은 <a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local">활동 편집 또는 초안으로 저장</a>을 참조하십시오 . </p> </li> 
+      <li id="li_4C71E2570ECF4BBAB08443D89230CE82"> <p>활동을 편집하는 동안, 원하는 워크플로우 단계를 열고 변경을 수행한 후(예를 들어 경험 백분율, 대상 등) 안내가 있는 3단계 워크플로우를 진행할 필요 없이 활동을 저장하거나 닫을 수 있습니다. </p> <p> <img src="assets/edit_activity.png" id="image_0B9A2EF729C34A1D9FA84B8B7B17A3C1" /> </p> <p>자세한 내용은 <a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local">활동 편집 또는 초안으로 저장</a>을 참조하십시오 . </p> </li> 
       <li id="li_43C15B13E4F7475E9376A98222AA0253"> <p>아직 저장되지 않은 새 활동을 만들거나 이전에 초안 양식으로 저장된 활동을 편집하는 경우, 분할 단추에 <span class="wintitle">초안 저장</span> 옵션이 표시됩니다. </p> <p> <img src="assets/save_draft.png" id="image_3975786947CE4E39B900AA81D838B9B3" /> </p> <p>자세한 내용은 <a href="../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local">활동 편집 또는 초안으로 저장</a>을 참조하십시오 . </p> </li> 
       <li id="li_36EF9AD13B2D40ADB99343C9F758D5FD"> <p>이제 안내가 있는 3단계 워크플로우 중 2단계에서 타깃팅을 선택하면서, <span class="wintitle">대상 선택</span> 대화 상자에서 원하는 대상 위로 마우스를 가져간 후 대상을 편집하거나 복사할 수 있습니다. </p> <p> <img src="assets/audience_picker_hover.png" id="image_6DC33A0856A346948E517F0BA4C9039F" /> </p> </li> 
      </ul> </p> <p>자세한 내용은 <a href="../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087" format="dita" scope="local">대상 선택</a>을 참조하십시오 . </p> </td> 
@@ -1229,14 +1229,14 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    사용자가 [!DNL Target] 페이지에서 간헐적인 작업을 수행하고 세션 시간 제한이 발생하는 경우, 다시 로그온하도록 지시된 후 [!DNL Target] UI에서 마지막으로 작업한 페이지로 이동됩니다.
 
 * 사용자가 다른 위치로 이동하고(경험 변경, 페이지 전환, 대상 전환, 다음 클릭 등) 변경 사항을 저장하는 것을 잊어버릴 경우 사용자 지정 코드 변경 사항이 유실되는 문제가 수정되었습니다. 이제 변경 사항을 저장하라는 메시지가 표시됩니다. (TGT-23766)
-* 활동이 보관될 경우 &quot;활동 업데이트 중&quot; 대신 &quot;활동을 보관함&quot;이 표시됩니다. (KB-1517)
+* 활동이 보관될 경우 "활동 업데이트 중" 대신 "활동을 보관함"이 표시됩니다. (KB-1517)
 * Target UI 내의 다음 위치에 있는 드롭다운 선택기가 속도 및 성능 향상을 위해 자동 완성 기능으로 대체되었습니다(TGT-22939).
 
    * 활동 페이지 &gt; *활동* &gt; 3단계 &gt; 보고서 세트 선택기
    * 대상자 &gt; 대상자 만들기 &gt; 방문자 프로필
    * 권장 사항 &gt; 피드 만들기 &gt; 시간 소스 유형 &gt; 분석 &gt; 보고서 세트 선택기
 
-* 사이트의 &quot;X-Frame-options&quot;가 SAMEORIGIN으로 설정되어 있고 VEC(시각적 경험 작성기)에서 사이트를 로드할 수 없을 때 표시되는 오류 메시지가 개선되었습니다. 설정 &gt; 기본 설정에서 고급 경험 작성기로 전환하라는 메시지가 표시됩니다. (TGT-17356)
+* 사이트의 "X-Frame-options"가 SAMEORIGIN으로 설정되어 있고 VEC(시각적 경험 작성기)에서 사이트를 로드할 수 없을 때 표시되는 오류 메시지가 개선되었습니다. 설정 &gt; 기본 설정에서 고급 경험 작성기로 전환하라는 메시지가 표시됩니다. (TGT-17356)
 * 이제 Target Standard/Premium의 보고서가 Target 서버 시간대(미국 EST)가 아닌 계정의 시간대로 표시됩니다. (TGT-24868)
 * [!DNL Target]에서 만든 활동이 [!DNL Target]의 외부에서(예를 들어, Adobe I/O를 통해) 업데이트된 경우 다음 활동 속성을 다시 [!DNL Target]으로 가져오게 됩니다.
 
@@ -1387,7 +1387,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 이번 [!DNL Target] 릴리스는 백엔드 수정 사항에 주안점을 두며, 다음과 같은 고객용 개선 사항 및 수정 사항을 포함합니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
 
-* 활동에 대한 고급 설정에 포함된 &quot;증분 카운트, 사용자 해제 및 재입력 허용&quot; 설정이 제대로 작동하지 않도록 하는 문제가 수정되었습니다. (TNT-26556)
+* 활동에 대한 고급 설정에 포함된 "증분 카운트, 사용자 해제 및 재입력 허용" 설정이 제대로 작동하지 않도록 하는 문제가 수정되었습니다. (TNT-26556)
 * 고객 속성 데이터가 Experience Cloud 사용자 인터페이스에서 NULL로 업데이트된 후 Target에서 제거되지 않도록 하는 문제가 수정되었습니다. (TNT-26462)
 
 ### 타겟 플랫폼 변경(2017년 4월 13일) {#section_B59C26405EB7482AA80820D6D39B9C44}
@@ -1464,7 +1464,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    * 이제 [!UICONTROL 오퍼] 라이브러리에서 오퍼는 카드가 아닌 목록으로 표시됩니다. [!UICONTROL 오퍼] 라이브러리 UI 전체에서 UI가 약간 변경되었습니다.
 
 * [!UICONTROL 활동] 및 [!UICONTROL 대상] 목록의 성능이 크게 개선되었습니다. 또한 검색 결과 로드 시간도 크게 단축되었습니다.
-* 이제 [!UICONTROL 자동화된 개인화] 보고서의 [!UICONTROL 오퍼 수준 보고서]에서 &quot;보기 수&quot;는 &quot;방문 수&quot;입니다.
+* 이제 [!UICONTROL 자동화된 개인화] 보고서의 [!UICONTROL 오퍼 수준 보고서]에서 "보기 수"는 "방문 수"입니다.
 * 이제 [!DNL Target]에서는 [!UICONTROL 자동화된 개인화] 활동에 대한 환경(호스트 그룹) 전환을 지원합니다.
 * [!UICONTROL 자동화된 개인화] 활동은 이제 호스트 그룹을 지원합니다.
 
@@ -1476,7 +1476,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 이번 [!DNL Target] 릴리스는 사용 편의성과 성능 개선에 주안점을 두며, 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
 
-* [!DNL Target] 사용자 인터페이스의 오른쪽 상단 모서리에서 액세스할 수 있는 도움말 메뉴에 추가 항목이 추가되었습니다. 새 옵션에는 &quot;블로그&quot; 및 &quot;비디오&quot;가 포함됩니다. &quot;Adobe Experience Cloud 상태&quot; 옵션은 이제 &quot;Adobe Target Standard/Premium 상태&quot;로 표시됩니다. (TGT-22629)
+* [!DNL Target] 사용자 인터페이스의 오른쪽 상단 모서리에서 액세스할 수 있는 도움말 메뉴에 추가 항목이 추가되었습니다. 새 옵션에는 "블로그" 및 "비디오"가 포함됩니다. "Adobe Experience Cloud 상태" 옵션은 이제 "Adobe Target Standard/Premium 상태"로 표시됩니다. (TGT-22629)
 * 대상을 삭제하면 [!DNL Target]에는 해당 대상을 참조하는 활동 목록이 표시됩니다. 목록의 각 활동을 클릭하여 해당 [!UICONTROL 개요] 페이지를 표시할 수 있습니다. (TGT-17997)
 * 사용자가 현재 세션에서 캠페인/활동과 상호 작용하지 않더라도 사용자가 참여하는 모든 캠페인/활동에 대한 캠페인 ID를 반환하도록 `user.activeCampaigns`이 개선되었습니다. (TNT-26237)
 * 이제 모든 활동 이름이 목록에 로드되기 전에 [!UICONTROL 활동] 페이지에 있는 [!UICONTROL 활동 만들기] 단추가 활성 상태입니다. 이러한 개선을 통해 특히, 계정에 구성된 활동이 많은 경우 새 활동을 더 빠르게 만들 수 있습니다. (TGT-21470)
@@ -1707,7 +1707,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  </tbody> 
 </table>
 
-**개선 사항**
+**향상된 기능**
 
 이 릴리스에는 다음 개선 사항이 포함됩니다.
 
@@ -1772,7 +1772,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  </tbody> 
 </table>
 
-**개선 사항**
+**향상된 기능**
 
 이 릴리스에는 다음 개선 사항이 포함됩니다.
 
@@ -1836,7 +1836,7 @@ Adobe Target Standard/Premium 16.8.1(2016년 8월 23일) 릴리스에는 다음�
  </tbody> 
 </table>
 
-**개선 사항**
+**향상된 기능**
 
 이 릴리스에는 다음 개선 사항이 포함됩니다.
 
@@ -1959,8 +1959,8 @@ Adobe Target Standard/Premium 16.7.1(2016년 7월 21일) 릴리스에는 다음�
 
 다음과 같은 알려진 문제가 보고되었습니다.
 
-* 다중 페이지 활동에서 페이지 A에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하면 다른 페이지에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
-* 리디렉션이 적용된 경험에 대한 경험 미리 보기 URL에 문제가 있습니다. 이 문제를 해결하려면 경험 작성기에서 **[!UICONTROL 구성]** 을 클릭하고 **[!UICONTROL 다중 대상]** 을 선택한 후 유일한 대상으로 **[!UICONTROL 모든 방문자]** 를 추가합니다. 계속해서 활동을 저장합니다. 활동의 전달은 변경되지 않지만 미리 보기가 제대로 작동합니다. 이 문제는 Adobe Target의 7월 릴리스에서 수정될 예정입니다.
+* 다중 페이지 활동에서 페이지 A에 대해 "JavaScript 사용 안 함"을 선택하면 다른 페이지에 대해 "JavaScript 사용 안 함"을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
+* 리디렉션이 적용된 경험에 대한 경험 미리 보기 URL에 문제가 있습니다. 이 문제를 해결하려면 경험 작성기에서 **[!UICONTROL 구성]**&#x200B;을 클릭하고 **[!UICONTROL 다중 대상]**&#x200B;을 선택한 후 유일한 대상으로 **[!UICONTROL 모든 방문자]**&#x200B;를 추가합니다. 계속해서 활동을 저장합니다. 활동의 전달은 변경되지 않지만 미리 보기가 제대로 작동합니다. 이 문제는 Adobe Target의 7월 릴리스에서 수정될 예정입니다.
 
 * 설명서에는 리디렉션 URL 확인란의 예상되는 동작이 나와 있습니다. 그러나 버그로 인해 확인란이 기본적으로 선택된 상태로 표시되지 않습니다. 이 결함은 곧 수정될 예정입니다.
 
@@ -1969,7 +1969,7 @@ Adobe Target Standard/Premium 16.7.1(2016년 7월 21일) 릴리스에는 다음�
    1. URL로 리디렉션 팝업을 엽니다.
    1. URL을 더미 URL로 변경한 후 저장합니다.
    1. 더미 URL을 캠페인의 예상 리디렉션 URL로 다시 변경합니다.
-   1. &quot;현재 쿼리 매개 변수 포함&quot; 옵션을 선택하고 저장합니다.
+   1. "현재 쿼리 매개 변수 포함" 옵션을 선택하고 저장합니다.
    새 리디렉션 오퍼를 만드는 동안 이 옵션을 선택하는 경우, 리디렉션에 쿼리 매개 변수가 포함될 것으로 예상할 수 있습니다.
 
    이전 활동의 경우 활동의 경험 작성기에서 이 옵션을 선택하면 리디렉션에 쿼리 매개 변수가 포함되게 됩니다. 이 옵션을 선택하지 않으면 현재 쿼리 매개 변수가 리디렉션에 포함되지 않습니다.
@@ -2035,7 +2035,7 @@ Adobe Target Standard/Premium 16.5.1(2016년 5월 19일) 릴리스에는 다음�
  </tbody> 
 </table>
 
-**개선 사항**
+**향상된 기능**
 
 A4T 프로비저닝 프로세스가 개선되었습니다.
 
@@ -2043,8 +2043,8 @@ A4T 프로비저닝 프로세스가 개선되었습니다.
 
 다음과 같은 알려진 문제가 보고되었습니다.
 
-* 다중 페이지 활동에서 페이지 A에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하면 다른 페이지에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
-* 리디렉션이 적용된 경험에 대한 경험 미리 보기 URL에 문제가 있습니다. 이 문제를 해결하려면 경험 작성기에서 **[!UICONTROL 구성]** 을 클릭하고 **[!UICONTROL 다중 대상]** 을 선택한 후 유일한 대상으로 **[!UICONTROL 모든 방문자]** 를 추가합니다. 계속해서 활동을 저장합니다. 활동의 전달은 변경되지 않지만 미리 보기가 제대로 작동합니다. 이 문제는 Adobe Target의 7월 릴리스에서 수정될 예정입니다.
+* 다중 페이지 활동에서 페이지 A에 대해 "JavaScript 사용 안 함"을 선택하면 다른 페이지에 대해 "JavaScript 사용 안 함"을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
+* 리디렉션이 적용된 경험에 대한 경험 미리 보기 URL에 문제가 있습니다. 이 문제를 해결하려면 경험 작성기에서 **[!UICONTROL 구성]**&#x200B;을 클릭하고 **[!UICONTROL 다중 대상]**&#x200B;을 선택한 후 유일한 대상으로 **[!UICONTROL 모든 방문자]**&#x200B;를 추가합니다. 계속해서 활동을 저장합니다. 활동의 전달은 변경되지 않지만 미리 보기가 제대로 작동합니다. 이 문제는 Adobe Target의 7월 릴리스에서 수정될 예정입니다.
 
 ### 새 Target 구현 라이브러리, at.js 0.8.0(2016년 5월 5일) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2106,7 +2106,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
  <tbody> 
   <tr> 
    <td colname="col1"> Experience Cloud 알림 </td> 
-   <td colname="col2"> <p>Target의 알림은 모든 Adobe Experience Cloud 솔루션에서 볼 수 있습니다. 활동이 활성화되거나 비활성화되면 알림이 자동으로 전송됩니다. 이러한 알림은 Target Standard/Premium에 액세스할 수 있는 모든 사용자가 사용할 수 있습니다. </p> <p>Target Standard/Premium에서도 알림을 볼 수 있습니다. </p> <p><a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local"> 알림</a> 참조 </p> </td> 
+   <td colname="col2"> <p>Target의 알림은 모든 Adobe Experience Cloud 솔루션에서 볼 수 있습니다. 활동이 활성화되거나 비활성화되면 알림이 자동으로 전송됩니다. 이러한 알림은 Target Standard/Premium에 액세스할 수 있는 모든 사용자가 사용할 수 있습니다. </p> <p>Target Standard/Premium에서도 알림을 볼 수 있습니다. </p> <p><a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local">알림</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 사용자 인터페이스 개선 </td> 
@@ -2166,7 +2166,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 다음과 같은 알려진 문제가 보고되었습니다.
 
-* 다중 페이지 활동에서 페이지 A에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하면 다른 페이지에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
+* 다중 페이지 활동에서 페이지 A에 대해 "JavaScript 사용 안 함"을 선택하면 다른 페이지에 대해 "JavaScript 사용 안 함"을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
 
 ### Adobe Target Standard/Premium 16.3.1(2016년 3월 15일) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
@@ -2211,7 +2211,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 다음과 같은 알려진 문제가 보고되었습니다.
 
-* 다중 페이지 활동에서 페이지 A에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하면 다른 페이지에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
+* 다중 페이지 활동에서 페이지 A에 대해 "JavaScript 사용 안 함"을 선택하면 다른 페이지에 대해 "JavaScript 사용 안 함"을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
 * Internet Explorer 10에서 화면 깜빡임과 속도 저하 등 인터페이스 관련 문제가 발생할 수 있습니다.
 * Chrome 버전 48 업데이트는 Visual Experience Composer가 Chrome에서 제대로 작동할 수 없게 하는 문제를 야기합니다. Google을 사용하면 문제가 해결됩니다. 자세한 내용은 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)을 참조하십시오. 이 문제를 해결하려면 다음을 수행하십시오.
 
@@ -2224,7 +2224,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 | 기능 | 설명 |
 |---|---|
-| 비율별 활동 항목 타깃팅. | 이제 [A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 및 [다변량](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 활동에 대한 항목 수를 방문자 또는 대상 구성원의 백분율로 제한할 수 있습니다. 예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다. |
+| 비율별 활동 항목 타깃팅. | 이제 [A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 및 [다변량](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 활동에 대한 항목 수를 방문자 또는 대상 구성원의 백분율로 제한할 수 있습니다. 예를 들어 항목 수를 모든 방문자의 50% 또는 "캘리포니아" 대상의 45%로 제한할 수 있습니다. |
 | 자동 할당에서 매출, 주문 및 참여 지원 | 이제 자동 할당을 선택하고 A/B 활동의 목표로 매출(RPV), 주문 및 참여 지표를 선택할 수 있습니다. 이전에는 전환 지표만 지원되었습니다. [자동화된 트래픽 할당](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오. |
 | 소스별 필터링 | 이제 활동이 생성된 소스별로 활동 목록을 필터링할 수 있습니다. 선택 항목은 Adobe Target 및 Adobe Experience Manager입니다. [활동](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. |
 | 향상된 자동화된 맞춤설정 성능 | 자동화된 맞춤설정이 많은 수의 오퍼/위치 조합에 대해 더 나은 성능을 제공하도록 재디자인되었습니다. |
@@ -2233,7 +2233,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 다음과 같은 알려진 문제가 보고되었습니다.
 
-* 다중 페이지 활동에서 페이지 A에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하면 다른 페이지에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
+* 다중 페이지 활동에서 페이지 A에 대해 "JavaScript 사용 안 함"을 선택하면 다른 페이지에 대해 "JavaScript 사용 안 함"을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
 * Internet Explorer 10에서 화면 깜빡임과 속도 저하 등 인터페이스 관련 문제가 발생할 수 있습니다.
 * Chrome 버전 48 업데이트는 Visual Experience Composer가 Chrome에서 제대로 작동할 수 없게 하는 문제를 야기합니다. Google을 사용하면 문제가 해결됩니다. 자세한 내용은 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)을 참조하십시오. 이 문제를 해결하려면 다음을 수행하십시오.
 
@@ -2254,7 +2254,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
  <tbody> 
   <tr> 
    <td colname="col1"> 사용자 인터페이스 개선 </td> 
-   <td colname="col2"> <p>작업목록과 대상 목록 디자인을 포함, 검색/정렬 기능도 개선되었습니다. 추가적인 사용자 인터페이스 변경이 향후 릴리스에 포함될 것입니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> 활동</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>작업목록과 대상 목록 디자인을 포함, 검색/정렬 기능도 개선되었습니다. 추가적인 사용자 인터페이스 변경이 향후 릴리스에 포함될 것입니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">활동</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> "슈퍼" 대상 </td> 
@@ -2290,7 +2290,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
   </tr> 
   <tr> 
    <td colname="col1"> <p> 성공 지표 보고서 다운로드 </p> </td> 
-   <td colname="col2"> <p> 최종 활동 목표만 포함하는 보고서가 아니라 모든 성공 지표가 표시된 단일 csv 파일을 다운로드합니다. </p> <p><a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local"> 보고서</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 최종 활동 목표만 포함하는 보고서가 아니라 모든 성공 지표가 표시된 단일 csv 파일을 다운로드합니다. </p> <p><a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local">보고서</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2305,13 +2305,13 @@ at.js를 구현할 때는 다음에 유의하십시오.
 * 비 HTML Recommendations 템플릿을 양식 기반 워크플로우에서 사용할 경우 `<div>` 요소에 래핑하는 문제를 수정했습니다.
 * 많은 작업으로 인해 충돌 계산 시간이 초과되는 문제를 수정했습니다.
 * CSV 다운로드에 성공 지표 보고서가 아닌 요약 보고서가 표시되는 문제를 수정했습니다.
-* 요소를 편집할 때 가끔 나타나는 &quot;고유 ID&quot; 팝업 메시지가 제거되었습니다.
+* 요소를 편집할 때 가끔 나타나는 "고유 ID" 팝업 메시지가 제거되었습니다.
 
 **알려진 문제**
 
 다음과 같은 알려진 문제가 보고되었습니다.
 
-* &quot;JavaScript 비활성화&quot;가 여러 페이지 작업의 pageA에 대해 활성화된 경우 JavaScript는 모든 페이지에 대해 활성화된 상태로 유지되지만 기능은 비활성화된 상태로 유지됩니다.
+* "JavaScript 비활성화"가 여러 페이지 작업의 pageA에 대해 활성화된 경우 JavaScript는 모든 페이지에 대해 활성화된 상태로 유지되지만 기능은 비활성화된 상태로 유지됩니다.
 * Internet Explorer 10에서 화면 깜빡임과 속도 저하 등 인터페이스 관련 문제가 발생할 수 있습니다.
 * Chrome 버전 48 업데이트는 Visual Experience Composer가 Chrome에서 제대로 작동할 수 없게 하는 문제를 야기합니다. Google을 사용하면 문제가 해결됩니다. 자세한 내용은 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)을 참조하십시오. 이 문제를 해결하려면 다음을 수행하십시오.
 
@@ -2394,7 +2394,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> 새로운 활동 목록 필터 </td> 
-   <td colname="col2"> <p>활동 목록에서 가장 많이 보고 싶은 활동을 표시하는 데 도움이 되는 일부 필터가 추가되었습니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> 활동</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>활동 목록에서 가장 많이 보고 싶은 활동을 표시하는 데 도움이 되는 일부 필터가 추가되었습니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">활동</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">권장 사항 </p> <p>향상된 기능: 업계 관련 기준 구성 </p> </td> 
@@ -2428,7 +2428,7 @@ target/r_release-notes-2015.xml
 
 다음과 같은 알려진 문제가 보고되었습니다.
 
-* &quot;JavaScript 비활성화&quot;가 여러 페이지 작업의 pageA에 대해 활성화된 경우 JavaScript는 모든 페이지에 대해 활성화된 상태로 유지되지만 기능은 비활성화된 상태로 유지됩니다.
+* "JavaScript 비활성화"가 여러 페이지 작업의 pageA에 대해 활성화된 경우 JavaScript는 모든 페이지에 대해 활성화된 상태로 유지되지만 기능은 비활성화된 상태로 유지됩니다.
 
 ### Adobe Target Standard/Premium 15.9.1(2015년 9월 30일) {#section_A54204291A99476688E8C0BD8255F93C}
 
@@ -2504,7 +2504,7 @@ target/r_release-notes-2015.xml
 
 다음과 같은 알려진 문제가 보고되었습니다.
 
-* &quot;JavaScript 비활성화&quot;가 여러 페이지 작업의 pageA에 대해 활성화된 경우 JavaScript는 모든 페이지에 대해 활성화된 상태로 유지되지만 기능은 비활성화된 상태로 유지됩니다.
+* "JavaScript 비활성화"가 여러 페이지 작업의 pageA에 대해 활성화된 경우 JavaScript는 모든 페이지에 대해 활성화된 상태로 유지되지만 기능은 비활성화된 상태로 유지됩니다.
 
 ### Adobe Target Standard/Premium 15.8.1(2015년 8월 20일) {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
@@ -2543,7 +2543,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> 활동 보관 </td> 
-   <td colname="col2"> <p>활동을 보관으로 보냅니다. 보관된 활동을 승인하여 다시 활성화할 수 있습니다. 보관의 활동은 기본적으로 활동 목록에 표시되지 않습니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> 활동</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>활동을 보관으로 보냅니다. 보관된 활동을 승인하여 다시 활성화할 수 있습니다. 보관의 활동은 기본적으로 활동 목록에 표시되지 않습니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">활동</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>자동화된 개인화 </p> <p>오퍼 수준 타깃팅 </p> </td> 
@@ -2640,7 +2640,7 @@ target/r_release-notes-2015.xml
 
 다음과 같은 알려진 문제가 보고되었습니다.
 
-* &quot;JavaScript 비활성화&quot;가 여러 페이지 작업의 pageA에 대해 활성화된 경우 JavaScript는 모든 페이지에 대해 활성화된 상태로 유지되지만 기능은 비활성화된 상태로 유지됩니다.
+* "JavaScript 비활성화"가 여러 페이지 작업의 pageA에 대해 활성화된 경우 JavaScript는 모든 페이지에 대해 활성화된 상태로 유지되지만 기능은 비활성화된 상태로 유지됩니다.
 
 ### Adobe Target Standard/Premium 15.6.1(2015년 6월 25일) {#section_43FEA310830E4E8E853FAB56B12B1301}
 
@@ -2676,7 +2676,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> Target Standard 활동 목록에 외부 캠페인 표시 </p> </td> 
-   <td colname="col2"> <p> 이제 Target Standard 활동 목록 내에서 Target Classic 캠페인을 볼 수 있습니다. Target Classic 캠페인을 필터링하고 Target Standard만 보려면 "소스" 검색 필터 옵션을 사용할 수 있습니다. 예를 들어, Adobe Target Standard 활동만 보려면 소스 필터를 선택하고 소스로 "Adobe Target"을 입력하십시오. 권장 사항 Classic 또는 Adobe Mobile Services에서 만든 활동을 볼 수 있는 기능은 향후 릴리스에 추가될 예정입니다. </p> <p>Target 사용자 인터페이스를 사용하여 다른 솔루션에서 만든 활동을 활성화 및 비활성화할 수 있습니다. 다른 모든 변경 사항의 경우 소스 솔루션에서 활동을 편집해야 합니다. </p> <p> 다른 솔루션에서 만든 활동의 경우, 대상자 정보가 개요 페이지에 표시되지 않습니다. 활동이 만들어진 솔루션에서 대상자 정보를 봅니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> 활동</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 이제 Target Standard 활동 목록 내에서 Target Classic 캠페인을 볼 수 있습니다. Target Classic 캠페인을 필터링하고 Target Standard만 보려면 "소스" 검색 필터 옵션을 사용할 수 있습니다. 예를 들어, Adobe Target Standard 활동만 보려면 소스 필터를 선택하고 소스로 "Adobe Target"을 입력하십시오. 권장 사항 Classic 또는 Adobe Mobile Services에서 만든 활동을 볼 수 있는 기능은 향후 릴리스에 추가될 예정입니다. </p> <p>Target 사용자 인터페이스를 사용하여 다른 솔루션에서 만든 활동을 활성화 및 비활성화할 수 있습니다. 다른 모든 변경 사항의 경우 소스 솔루션에서 활동을 편집해야 합니다. </p> <p> 다른 솔루션에서 만든 활동의 경우, 대상자 정보가 개요 페이지에 표시되지 않습니다. 활동이 만들어진 솔루션에서 대상자 정보를 봅니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">활동</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2777,7 +2777,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> Target Standard 활동 목록에 외부 캠페인 표시 </p> </td> 
-   <td colname="col2"> <p> 이제 Target Standard 활동 목록 내에서 Target Classic 캠페인을 볼 수 있습니다. Target Classic 캠페인을 필터링하고 Target Standard만 보려면 "소스" 검색 필터 옵션을 사용할 수 있습니다. 예를 들어, Adobe Target Standard 활동만 보려면 소스 필터를 선택하고 소스로 "Adobe Target"을 입력하십시오. 권장 사항 Classic 또는 Adobe Mobile Services에서 만든 활동을 볼 수 있는 기능은 향후 릴리스에 추가될 예정입니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> 활동</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 이제 Target Standard 활동 목록 내에서 Target Classic 캠페인을 볼 수 있습니다. Target Classic 캠페인을 필터링하고 Target Standard만 보려면 "소스" 검색 필터 옵션을 사용할 수 있습니다. 예를 들어, Adobe Target Standard 활동만 보려면 소스 필터를 선택하고 소스로 "Adobe Target"을 입력하십시오. 권장 사항 Classic 또는 Adobe Mobile Services에서 만든 활동을 볼 수 있는 기능은 향후 릴리스에 추가될 예정입니다. </p> <p><a href="../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local">활동</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p> 오퍼 감사 보고서 내보내기 </p> </td> 
@@ -2813,7 +2813,7 @@ target/r_release-notes-2015.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <p>시각적 경험 작성기 개선 사항 </p> </td> 
-   <td colname="col2"> <p>이제 가리킬 때만 나타나던 컨텐츠(예: 플라이아웃 메뉴 및 미니 장바구니)를 시각적 경험 작성기에서 편집하도록 선택할 수 있습니다. </p> <p><a href="../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local"> 경험</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>이제 가리킬 때만 나타나던 컨텐츠(예: 플라이아웃 메뉴 및 미니 장바구니)를 시각적 경험 작성기에서 편집하도록 선택할 수 있습니다. </p> <p><a href="../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D" format="dita" scope="local">경험</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">자동화된 개인화: 트래픽 견적 도구 </p> </td> 
@@ -2848,9 +2848,9 @@ target/r_release-notes-2015.xml
 **알려진 문제**
 
 * Target에 대한 분석 소스로 Analytics가 사용되는 경우 Target Standard/Premium의 다변량 테스트에 대한 대상 기반 전환 이벤트가 보고되지 않습니다. 이 문제는 곧 수정될 예정입니다.
-* mbox.js 버전 56은 &quot;extra JavaScript&quot; 섹션으로 이동되었으므로 글로벌 mbox 이전에 실행됩니다.
+* mbox.js 버전 56은 "extra JavaScript" 섹션으로 이동되었으므로 글로벌 mbox 이전에 실행됩니다.
 
-   v56+의 모든 설정은 네임스페이스됩니다. &quot;extra JavaScript&quot;에서 선언된 함수가 있는 경우 window를 접두사로 추가해야 합니다. [mbox.js 변경 로그](https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html)를 참조하십시오.
+   v56+의 모든 설정은 네임스페이스됩니다. "extra JavaScript"에서 선언된 함수가 있는 경우 window를 접두사로 추가해야 합니다. [mbox.js 변경 로그](https://marketing.adobe.com/resources/help/en_US/target/ov/r_mboxjs_change_log.html)를 참조하십시오.
 
 ### Adobe Target 15.2.1(2015년 2월 19일) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
@@ -3039,7 +3039,7 @@ target/r_release-notes-2014.xml
 * 경험의 대상이 보고서에 표시되지 않던 문제를 해결했습니다.
 * [!DNL Target] 및 [!DNL Analytics]의 지표 목록이 일치하지 않는 문제를 해결했습니다.
 
-* 사용자가 전역 mbox를 [!DNL Target Standard]에 따라 HTML 컨텐츠를 전달하는 데 사용되는 mbox로 지정할 수 있도록 하는 문제를 해결했습니다. 콘텐츠 전달 및 여러 캠페인을 단일 보고서의 단일 페이지로 전달할 수 있는 [!DNL Target Classic] 기능에 부정적인 영향을 미치는 방식으로 전역 mbox가 사용되었습니다.
+* 사용자가 전역 mbox를 [!DNL Target Standard]에 따라 HTML 컨텐츠를 전달하는 데 사용되는 mbox로 지정할 수 있도록 하는 문제를 해결했습니다. 컨텐츠 전달 및 여러 캠페인을 단일 보고서의 단일 페이지로 전달할 수 있는 [!DNL Target Classic] 기능에 부정적인 영향을 미치는 방식으로 전역 mbox가 사용되었습니다.
 
 * 제거한 항목이 계속 표시되도록 하는 오류가 수정되었습니다.
 
@@ -3252,7 +3252,7 @@ target/r_release-notes-2014.xml
 
 * 활동이 복사될 때 참조된 일부 자산이 복사되는 문제가 수정되었습니다.
 * 업데이트된 이미지 오퍼 컨텐츠가 Scene7 및 Target Advanded 둘 다에서 업데이트되지 못하게 하는 문제가 수정되었습니다.
-* 검색 필터를 적용하면 &quot;보고 대상&quot;에서 선택된 대상이 지워지는 문제가 수정되었습니다.
+* 검색 필터를 적용하면 "보고 대상"에서 선택된 대상이 지워지는 문제가 수정되었습니다.
 * 테스트의 활성 기간이 2일 미만일 때 그래프가 기본적으로 시간별 결과를 표시하도록 개선되었습니다.
 * 동기화되지 않은 활동을 복사하지 못하게 하는 문제가 수정되었습니다.
 * 위치에 대한 드롭다운 메뉴에 키보드 입력 기능이 추가되었습니다.
@@ -3266,7 +3266,7 @@ target/r_release-notes-2014.xml
 
 | 기능 | 설명 |
 |---|---|
-| Target Standard 내 [!DNL mbox.js] 다운로드 | Target Standard 인터페이스의 **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** 에서 [!DNL mbox.js] 파일을 이제 직접 다운로드할 수 있습니다. 이전에는 Target Advanced 내에서 파일을 다운로드하거나 계정 담당자 또는 컨설턴트가 제공해야 했습니다. |
+| Target Standard 내 [!DNL mbox.js] 다운로드 | Target Standard 인터페이스의 **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;에서 [!DNL mbox.js] 파일을 이제 직접 다운로드할 수 있습니다. 이전에는 Target Advanced 내에서 파일을 다운로드하거나 계정 담당자 또는 컨설턴트가 제공해야 했습니다. |
 
 이 릴리스에는 다음과 같은 수정 사항 및 개선 사항이 포함됩니다.
 
