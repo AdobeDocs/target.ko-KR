@@ -1,14 +1,14 @@
 ---
-description: These release notes provides information about features, enhancements, and fixes for the latest or upcoming [! DNL Adobe Target] 릴리스.
+description: 최신 또는 예정된 [! DNL Adobe Target] 릴리스.
 keywords: 릴리스 노트
-seo-description: These release notes provides information about features, enhancements, and fixes for the latest or upcoming [! DNL Adobe Target] 릴리스.
+seo-description: 최신 또는 예정된 [! DNL Adobe Target] 릴리스.
 seo-title: Adobe Target 릴리스 노트 (베타 버전)
 solution: Target
 title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 45d0a73faafd216b5a4686501c548f5771943050
+source-git-commit: 48d265feb329355f5aabe34a6a950d78df981966
 
 ---
 
