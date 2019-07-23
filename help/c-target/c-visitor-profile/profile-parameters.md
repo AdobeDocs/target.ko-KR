@@ -8,7 +8,7 @@ title: 프로필 속성
 topic: 고급,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 5af98ebdb15ddbb3c57a4e76c66db2a5ce1c576f
+source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 ---
 
@@ -114,7 +114,7 @@ if (mbox.name == 'Track_Interest') {
 * 너무 많은 JavaScript 명령어가 사용되었습니다. Target에서는 스크립트당 JavaScript 명령어 개수를 2,000개로 제한하지만 JavaScript를 수동으로 읽어서는 이것을 간단히 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 "새로운" 호출을 100개의 명령어로 처리합니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
 * 아래의 [우수 사례](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) 섹션에서 강조 표시된 항목을 따르지 않습니다.
 
-## 우수 사례 {#section_64AFE5D2B0C8408A912FC2A832B3AAE0}
+## 우수 사례 {#best}
 
 다음 지침은 시스템 스크립트 중지를 강제하지 않고 스크립트가 처리되도록 정상적으로 실패하는 코드를 작성하여 가능한 한 오류 실패가 없는 간소화된 프로필 스크립트를 작성하기 위한 것입니다. 이러한 지침은 효율적으로 실행되는 것으로 입증된 우수 사례의 결과이며, Rhino 개발 커뮤니티에서 작성된 원칙 및 권장 사항과 함께 적용됩니다.
 
@@ -125,7 +125,7 @@ if (mbox.name == 'Track_Interest') {
 * 1,300자 또는 50개 루프 반복을 초과하지 않도록 합니다.
 * JavaScript 명령어 2,000개를 초과하지 않도록 합니다. Target에서는 스크립트당 JavaScript 명령어 개수를 2,000개로 제한하지만 JavaScript를 수동으로 읽어서는 이것을 간단히 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 "새로운" 호출을 100개의 명령어로 처리합니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
 * 스크립트 성능뿐만 아니라 모든 스크립트를 결합한 성능에 주의하십시오. 우수 사례로, 총 5,000개 미만의 지침을 사용하는 것이 좋습니다. 지침 수를 계산하는 것이 명확하지 않지만, 중요한 것은 2KB를 초과하는 스크립트가 자동으로 비활성화된다는 점입니다. 실행할 수 있는 스크립트의 수에 대한 제한이 설정되어 있지 않지만, 각 스크립트는 단일 mbox가 호출될 때마다 실행됩니다. 필요만 만큼만 스크립트를 실행합니다.
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed: the regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. 이러한 regex가 충분히 긴 입력 데이터 (수백 개의 문자 수) 와 일치하는 경우 스크립트 실행이 중단될 수 있습니다.
+* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. 이러한 regex가 충분히 긴 입력 데이터 (수백 자 이하) 와 일치하는 경우 스크립트 실행이 중단될 수 있습니다.
 * 모두 실패하는 경우 try/catch에 스크립트를 래핑합니다.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
