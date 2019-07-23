@@ -1,7 +1,7 @@
 ---
 description: 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.
-keywords: 권장 사항;권장 사항 활동;기준
-seo-description: 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.
+keywords: 권장 사항;권장 사항 활동;기준;는 알고리즘을 사용하여 함께 자주 구매하는 항목을 표시하는 권장 사항을 만들 수 있습니다
+seo-description: Adobe Target의 기준은 미리 결정된 방문자 행동을 기반으로 추천할 제품을 결정하는 규칙입니다.
 seo-title: 기준
 solution: Target
 title: 기준
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -71,15 +71,15 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 카드 위로 마우스를 이동하고 기준을 열지 않은 상태로 기준 카드에서 정보 아이콘을 클릭하여 팝업 카드에 대한 기준 세부 사항을 볼 수 있습니다.
 
-![](assets/criteria_hover.png)
+![기준 카드 가리키기](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 **[!UICONTROL 알고리즘 정보]탭을 클릭하여 이름, 설명, 업계, 페이지 유형, 권장 사항 키, 권장 사항 논리 및 알고리즘 ID를 포함하여 선택한 기준에 대한 일반 정보를 볼 수 있습니다.**
 
-![](assets/criteria_info.png)
+![알고리즘 정보 탭](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 **[!UICONTROL 알고리즘 사용]탭을 클릭하여 선택한 기준을 참조하는 활동 목록을 표시합니다.** 카드에 활성 및 비활성 활동이 나열됩니다. 라이브 활동 또는 활동 없음 드롭다운 목록을 클릭하여 해당 기준을 참조하는 전체 활동 목록을 표시합니다. 활동 링크를 클릭하여 편집할 활동을 열 수 있습니다.
 
-![](assets/criteria_usage.png)
+![기준 사용 탭](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 ## 기준 결과를 표시할 준비가 되었는지 확인 {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -91,7 +91,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 다음 그림은 권장 사항 활동의 개요 페이지에 활동 다이어그램을 나타낸 것입니다. 또한 활동 생성 워크플로우 중 2단계의 기준 상태 결과를 사용하여 활동 다이어그램을 볼 수 있습니다.
 
-![](assets/criteria_status.png)
+![개요 페이지의 기준 상태](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 상태 결과에는 다음 다이어그램에 나와 있는 대로 결과 준비, 결과가 준비되지 않음 및 피드 실패가 포함됩니다.
 
