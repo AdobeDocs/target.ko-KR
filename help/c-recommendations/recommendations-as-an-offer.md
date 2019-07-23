@@ -8,7 +8,7 @@ title: 오퍼로서의 Recommendations
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -70,9 +70,9 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 편집 메뉴를 사용하여 권장 사항 오퍼 편집
 
-1. 편집할 오퍼를 클릭한 다음, 편집을 클릭합니다.
+1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![편집 메뉴](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Recommendations 오퍼 편집](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. 다음 선택 사항 중 하나를 선택합니다.
 
@@ -85,8 +85,8 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 편집
 
-1. [!UICONTROL 수정 사항] 아이콘 *`&lt;/&gt;'*&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
-1. 원하는 작업을 마우스로 가리킨 다음, [!UICONTROL 편집] 아이콘을 클릭합니다.
+1. [!UICONTROL 수정] 아이콘 **(`</>`)** 를 클릭하여 [수정](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. 원하는 작업을 마우스로 가리킨 다음, **[!UICONTROL 편집]아이콘을 클릭합니다.**
 
    ![수정 사항 패널](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -101,13 +101,23 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ### 편집 메뉴를 사용하여 권장 사항 오퍼 삭제
 
-1. 제거할 오퍼를 클릭한 다음, [!UICONTROL 레이아웃 &gt; 제거]를 클릭합니다.
+1. 제거할 오퍼를 클릭한 다음, **[!UICONTROL 레이아웃 &gt; 제거를 클릭합니다]**.
 
    ![제거](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 삭제
 
-1. [!UICONTROL 수정 사항] 아이콘 *`&lt;/&gt;'*&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. [!UICONTROL 수정] 아이콘 **(&lt;/&gt;)** 를 클릭하여 [수정](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
 1. 원하는 작업을 마우스로 가리킨 다음, [!UICONTROL 삭제] 아이콘을 클릭합니다.
 
    ![삭제 아이콘](/help/c-recommendations/assets/recs-offer-delete.png)
+
+### Viewing the recommendations offer's status {#status}
+
+The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+
+* 결과 준비
+* 결과가 준비되지 않음
+* 피드 실패
+
+![Recommendations 오퍼 상태](/help/c-recommendations/assets/recs-offer-status.png)
