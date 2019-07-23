@@ -8,7 +8,7 @@ title: 모바일 앱 VEC에서 클릭 추적 설정
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -50,3 +50,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * 모바일 앱 VEC에서는 클릭 처리기가 첨부된 요소만 선택할 수 있습니다.
 * 앱의 섹션을 찾아볼 수 있지만 클릭을 추적하기 위해 요소를 선택한 섹션에 대해 [ 보기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views)가 정의되어 있는지 확인합니다.
 * 활동을 편집하는 동안 장치가 이미 1단계에서 선택된 경우 장비를 다시 선택할 필요가 없습니다. 그러나 클릭 추적 페이지로 직접 연결하는 경우에는 인증된 장치를 선택하도록 장치 선택 화면이 표시됩니다.
+* 클릭 추적용으로 설정한 요소를 표시하는 수정 패널이 모바일 앱 VEC에 표시됩니다.
+
+   ![클릭 추적을 보여주는 수정 패널
+   ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
