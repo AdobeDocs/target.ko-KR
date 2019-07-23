@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
 
 ---
 
@@ -198,7 +198,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 >* Target은 제품 분류만 지원합니다. Analytics 제품 SKU는 권장 사항 entity.id와 동일한 수준에 매핑해야 합니다 . 사용자 지정 Analytics 분류는 Adobe 컨설팅 서비스를 사용하여 만들 수 있습니다. 질문이 있으면 계정 관리자에게 문의하십시오.
 
 
-## 피드 만들기 {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## 피드 만들기 {#steps}
 
 [!DNL Recommendations]에 제품이나 서비스에 대한 정보를 삽입하는 피드를 작성합니다.
 
@@ -220,7 +220,13 @@ recs/t_feeds_create.xml
 
    FTP를 선택하는 경우 FTP 서버 정보, 로그인 자격 증명, 파일 이름 및 FTP 디렉토리를 제공하십시오. 보다 안전한 업로드를 위해 SSL을 사용하는 FTP(FTPS)를 선택할 수 있습니다.
 
+   지원되는 FTP 서버 설정:
+
+   * FTP 및 FTPS는 수동 FTP를 사용하도록 설정되어야 합니다.
+   * FTPS의 경우 명시적 FTPS 연결을 허용하도록 서버를 구성합니다.
+   * Sftp는 지원되지 않습니다.
    URL을 선택하는 경우에는 URL을 지정하십시오.
+
 1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 예약] 선택 사항을 표시합니다.
 
    ![단계 결과](assets/CreateFeedSchedule.png)
@@ -260,7 +266,7 @@ recs/t_feeds_create.xml
 
 가능한 피드 상태 및 해당 표시기에 대한 정보입니다.
 
-### 피드 상태 {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### 피드 상태 {#status}
 
 다음은 피드의 가능한 상태입니다.
 
@@ -272,10 +278,8 @@ recs/t_feeds_create.xml
 | 예약 일시: *날짜 및 시간* | 피드가 실행되지 않았지만 지정된 날짜 및 시간에 실행되도록 예약되었습니다. |
 | 다운로드 대기 중 | Target이 피드 파일 다운로드를 준비하는 중입니다. |
 | 피드 파일 다운로드 중 | Target이 피드 파일을 다운로드하는 중입니다. |
-| 항목을 가져오는 중 | Target이 피드 파일에서 항목을 가져오는 중입니다. 참고: 이 단계가 완료되고 "검색 색인 업데이트 준비 중"이 표시되면 항목 속성의 변경 사항을 중앙 시스템으로 가져온 것이므로 해당 변경 사항이 60분 이내에 지리적 에지 노드에서 반환된 전달된 권장 사항 콘텐츠에 반영됩니다. |
-| 검색 색인 업데이트 준비 중 | Target이 카탈로그 검색 색인 업데이트를 준비하는 중입니다. 참고: 이 상태가 나열되면 항목 속성이 이미 변경된 것이므로 변경 사항이 아직 카탈로그 검색에 반영되지 않았더라도 전달된 권장 사항에 곧 반영됩니다. |
-| 검색 색인 업데이트 중 | Target이 카탈로그 검색 색인을 업데이트하는 중입니다. 참고: 이 상태가 나열되면 항목 속성이 이미 변경된 것이므로 변경 사항이 아직 카탈로그 검색에 반영되지 않았을 수도 있지만 전달된 권장 사항에 곧 반영됩니다. |
-| 업데이트가 완료됨 | Target이 피드 파일과 관련된 모든 업데이트를 완료했습니다. |
+| 항목을 가져오는 중 | Target이 피드 파일에서 항목을 가져오는 중입니다. |
+| Feed Imported Successfully at *time* | Target 이 피드 파일을 컨텐츠 전달 시스템으로 가져옵니다. 항목 속성에 대한 변경 사항은 컨텐츠 전달 시스템에서 만들어졌고 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않는 경우 잠시 후 권장 사항이 포함된 페이지를 새로 고칩니다.<br>*참고 1:* 항목의 특성에 대한 변경 사항이 Recommendations에서 제외되는 경우 제외 사항이 즉시 반영됩니다. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*참고 2:* 이 상태가 표시되면 업데이트가 카탈로그 검색 사용자 인터페이스에 아직 반영되지 않을 수 있습니다. 검색 가능한 카탈로그가 업데이트된 마지막 시간을 나타내는 별도의 상태가 카탈로그 검색에 표시됩니다. |
 | 색인화 실패 | 색인 작업에 실패했습니다. 다시 시도하십시오. |
 | 서버를 찾을 수 없음 | FTP 또는 URL 위치가 잘못되었거나 접속할 수 없습니다. |
 
