@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/kr/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
+source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
 
 ---
 
@@ -55,6 +55,7 @@ source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
          + [개인 정보 및 GDPR(일반 데이터 보호 규정)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target 쿠키 삭제](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome samesite 쿠키 정책](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
+         + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
       + 데이터를 Target에 가져오는 방법 {#methods}
          + [메서드](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [프로필 API 설정](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
