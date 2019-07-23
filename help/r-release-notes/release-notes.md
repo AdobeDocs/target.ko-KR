@@ -8,7 +8,7 @@ title: Target 릴리스 노트(현재)
 topic: 권장 사항
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
+source-git-commit: 2cc1918610950ea8474def526d9596ec709456a2
 
 ---
 
@@ -17,14 +17,7 @@ source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 이러한 릴리스 노트는 Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다.
 
-## 공지
-
-다음 중요 알림을 확인하십시오.
-
-* 2019년 2월 20일, EMEA, 일본 및 APAC 지역에서 Adobe Target 인프라가 업그레이드되어 더 이상 TLS 1.1 이상을 지원하지 않는 이전 장치나 웹 브라우저를 사용자는 최종 사용자의 데이터를 수집하지 않습니다. 북미 지역에 대해서도 이러한 동일한 업그레이드가 **2019년 4월 1일**&#x200B;에 예정되어 있습니다. TLS 1.2로 마이그레이션하면 보안이 강화됩니다. 세부 사항을 살펴보고 원활한 전환을 위해 IT 팀과 변경을 계획하는 것이 중요합니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)을 참조하십시오.
-* [!DNL Target]과 [!DNL Adobe Marketing Cloud]는 2019년 3월부터 Microsoft Internet Explorer 11에 대한 지원을 중단할 예정입니다. 이 변경 사항은 [!DNL Target] 작성에만 영향을 주며, 경험 전달에는 영향을 주지 않습니다. Microsoft Edge나 다른 브라우저로 전환하십시오. 자세한 내용은 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)를 참조하십시오.
-
-## Target Standard/Premium 19.6.1(2019년 6월 26일)
+## Target Standard/Premium 19.7.1(2019년 7월 24일) {#tgt-19-7-1}
 
 이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
@@ -32,25 +25,36 @@ source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 시각적 경험 작성기(VEC) | **새 VEC 메뉴 옵션**: vec에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다.<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**클릭 추적 개선**&#x200B;사항: VEC 및 SPA (Single Page Application) VEC 내에서 클릭 추적을 구성하는 과정을 개선했습니다.<ul><li>클릭 추적에서 사용할 요소를 선택할 때 사용 가능한 모든 요소의 이름이 오른쪽의 수정 패널에 표시되므로 원하는 요소를 빠르고 손쉽게 선택할 수 있습니다.</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. 이 숫자 위로 마우스를 가져가면 선택한 모든 요소의 이름이 표시됩니다. (TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
-| SPA VEC(Single Page App Visual Experience Composer) | **가이드 워크플로우**: 새로운 안내 워크플로우는 단일 페이지 앱에 대해 활동을 실행하고 실행하는 페이지 배달 규칙 설정을 구성하는 방법을 이해하는 데 도움이 됩니다. (TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**복제 수정**&#x200B;사항: 이제 SPA VEC를 사용하여 수정 사항을 정의한 다음 단일 페이지 앱에서 다른 보기에 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
-| 모바일 시각적 경험 작성기 | **다양한 앱 버전**: 이제 여러 버전의 모바일 앱용 활동을 제작할 수 있습니다. 따라서 버전이 유사하고 앱의 UI를 크게 변경할 필요가 없을 때 시간과 노력을 절약할 수 있습니다. (TGT-34231)<br>See "Manage multiple app versions" in [Mobile App Visual Experience Composer](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
-| ![프리미엄 배지](/help/assets/premium.png) 자동 개인화 (AP) 및 자동 타깃팅 | **제어 기능**: AP 또는 자동 타겟 활동을 만드는 동안 컨트롤로 사용할 경험을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 경험으로 라우팅할 수 있습니다. 그런 다음 해당 경험의 제어 트래픽에 대한 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다. 현재 제어 옵션 (임의로 제공된 경험) 는 계속 사용할 수 있습니다. (TGT-32801, TGT-26572, &amp; TGT-26571)<br>See [Select the control for your Automated Personalization or Auto-Target Activity](/help/c-activities/t-automated-personalization/experience-as-control.md). Note that there is a [current known issue](/help/r-release-notes/known-issues-resolved-issues.md) with this feature.<br>**개인화 인사이트 보고서**: 방문자가 특정 위치에서 특정 컨텐츠를 볼 때 속성에 대한 마케터 친화적인 이름은 보다 의미 있는 정보를 제공합니다. (TGT-33421 &amp; TGT-34957)<br>See [Data collection for the Target personalization algorithms](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![프리미엄 배지](/help/assets/premium.png) 추천 | 최근에 본 항목 로직을 생성하는 동안 이전에 구입한 추천 항목 전환을 사용할 수 있습니다. (TGT-34030)<br>자세한 내용은 "기준 만들기" 에서 [최근에 본 항목을](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) 참조하십시오. |
-| Google Chrome samesite 쿠키 정책 | 최근 Google는 2019 년 7 월 30 일 릴리스로 예정되어 있는 Chrome 76 부터 시작하여 웹 사이트에서 사용할 수 있는 쿠키와 사용자를 추적할 수 있는 쿠키가 명시적으로 지정되어야 한다고 발표했습니다.<br>소비자가 소비자를 위해 보다 안전한 웹을 만들기 위해 노력함에 따라 Target는 방문자의 개인 정보 보호 기대치를 충족시키는 동시에 개인화된 경험을 제공하기 위해 절대적으로 노력하고 있습니다.<br>[Google Chrome Samesite 쿠키 정책을 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
+| 모바일 앱 시각적 경험 작성기 | 클릭추적을 위해 설정한 요소를 표시하는 새로운 수정 패널이 모바일 앱 VEC에 표시됩니다. (TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| ![프리미엄 Badgeresa/B](/help/assets/premium.png)<br>테스트 및 경험 타깃팅 (XT) 활동의 사용자 지정 | Recommendations 오퍼 (알고리즘) 상태는 Recommendations 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 상태: 결과 준비, 결과 준비 안 됨 및 피드 실패. (TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
+| Experience Cloud ID (ECID) 라이브러리를 통해 at. js 2.0 +에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이. js 2에서 지원되지 않았습니다.*x*&#x200B;에는 사용할 수 없습니다. 이 릴리스를 통해 at. js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통한 도메인 간 추적을 활용할 수 있습니다. 크로스 도메인 추적을 수행하려면. js 2.0 이상 버전과 함께 페이지에 ECID 라이브러리를 설치해야 합니다. [Experience Cloud ID Library 4.3.0 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 를 사용해야 합니다.<br>at. js 2. x에서 [도메인 간 추적 지원을 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
+| Experience Cloud ID (ECID) 라이브러리 4.3를 통해 Apple의 ITP 2.1 및 ITP 2.2에 대한 Target 지원 | 현재 타깃 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target 이 서버측 쿠키를 활용하여 ITP 2.1 및 ITP 2.2를 완화하는 ECID Library 4.3 과의 매끄러운 통합을 도입했습니다. Target 고객은 Target의 JavaScript 라이브러리와 [함께 ECID Library 4.3 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 를 배포하여 향후 ITP 릴리스를 완화하는 것이 좋습니다. ECID 라이브러리는 브라우저에서 도입된 지속적인 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 출시합니다.<br>[Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)를 참조하십시오. |
 
-## at. js 버전 2.1.0 (2019 년 6 월 3 일)
+**개선 사항, 수정 및 변경 사항**
 
-이제. js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드립니다.
+* 중복 값을 추가할 때 Recommendations 활동의 제외 값이 지워지지 않는 문제를 해결했습니다. (TGT-34996)
+* 이제 타깃팅 페이지에서 추천 활동에서 디자인을 제거할 수 있습니다 (3 부분으로 구성된 안내 워크플로우 중 2 단계). 디자인을 제거하려면 두 개 이상의 디자인을 선택해야 합니다. (TGT-35118)
+* 일부 고객이 타겟 UI에서 제대로 로드하거나 편집할 수 있도록 사용자 지정 기준 카드가 표시되지 않는 문제를 해결했습니다. (TGT-35170)
 
-| 기능/향상 | 설명 |
-| --- | --- |
-| Adobe 옵트인 지원 | Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 개인 정보 보호 규정 (GDPR) 를 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md). |
-| 업계 표준의 CSP 규격 | at. js는 더 이상 eval () 를 사용하여 JavaScript를 실행하지 않습니다. |
-| 클라이언트측 분석 로깅 | 고객이 클라이언트측 또는 서버측에서 Adobe Analytics로 분석 데이터를 어떻게 전송할지 완전히 제어할 수 있습니다.<br>자세한 내용은 구현하기 전에 [Client-Side Analytics 로그인을](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) *참조하십시오*. |
-| 알림 보내기 | Allows developers to send notifications when an experience is rendered by their code instead of using `applyOffer()` or `applyOffers()`.<br>자세한 내용은 [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)를 참조하십시오. |
-| 파일 크기 감소 | at. js의 크기는 ~ 24% 줄어듭니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at. js 다운로드 시간도 줄어듭니다. |
-| . js 설명서 업데이트 | For a full list of all articles updated due to the at.js 2.1.0 release, see the June 3, 2019 entries in [Documentation changes](/help/r-release-notes/doc-change.md). |
+## at. js 버전 2.1.1 (2019 년 7 월 24 일)
+
+at. js의 이번 릴리스는 유지 관리 릴리스이며 다음 개선 사항 및 수정 사항을 포함합니다.
+
+(괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
+
+* Visual Experience Composer (VEC) 의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 개의 비콘이 실행되는 문제를 해결했습니다. (TNT-32812)
+* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함될 때 발생하는 decodeuricomponent 사용 오류로 인해 오류가 발생하던 문제를 수정했습니다. (TNT-32710)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* 일부 고객의 웹 사이트에서 Recommendations 오퍼가 표시되지 않는 문제를 해결했습니다. 고객은 배달 API 호출에서 오퍼 컨텐츠를 볼 수 있지만 오퍼는 웹 사이트에 적용되지 않았습니다. (TNT-32680)
+* 여러 경험이 걸쳐 클릭추적이 예상대로 작동되지 않는 문제를 해결했습니다. (TNT-32644)
+* 첫 번째 지표 렌더링이 실패한 후 at. js에서 두 번째 지표를 적용하지 못했던 문제를 수정했습니다. (TNT-32628)
+* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* Chrome 기반 브라우저 (Google Chrome 포함) 에서 디스플레이 및 클릭 알림 응답이 차단되는 문제를 해결했습니다. (TNT-32290)
+
+For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## 설명서 변경 내용, 이전 릴리스 노트 및 Experience Cloud 릴리스 노트 {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
