@@ -7,7 +7,7 @@ title: 모바일 앱 시각적 경험 작성기
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
 
 ---
 
@@ -84,16 +84,6 @@ VEC에서 수행한 작업은 앱에서 실시간으로 표시되므로 작성 �
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
 ![버전 관리 대화 상자](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
-
-## 문제 해결 {#troubleshooting}
-
-**모바일 앱 VEC에 내 앱 연결이 끊겼다고 표시됩니다.**
-
-인터넷 연결이 끊겼을 수 있습니다. 인터넷을 사용할 수 있고 연결을 새로 설정한 후에 애플리케이션을 다시 실행합니다. Wi-Fi 연결로 모바일 앱 VEC 활동을 작성하는 것이 좋습니다.
-
-**모바일 앱 VEC가 내 모바일 앱과 동기화되지 않습니다.**
-
-디스플레이를 동기화하려면 VEC에서 [!UICONTROL 새로 고침] 단추를 클릭합니다.
 
 ## Target 보기 및 모바일 애플리케이션 {#target-views}
 
@@ -194,9 +184,17 @@ Target 오퍼를 미리 가져올 때마다 `AdobeTargetMobile.targetView()`로 
 
 ## 문제 해결 {#ts}
 
-**" context. application. name "값에 금지된 문자가 포함되어 있다는 오류 메시지가 표시되었습니다. What characters are allowed in mobile app names?**
+**모바일 앱 VEC에 내 앱 연결이 끊겼다고 표시됩니다.**
 
-모바일 앱 이름에 허용되는 문자는 다음과 같습니다.
+인터넷 연결이 끊겼을 수 있습니다. 인터넷을 사용할 수 있고 연결을 새로 설정한 후에 애플리케이션을 다시 실행합니다. Wi-Fi 연결로 모바일 앱 VEC 활동을 작성하는 것이 좋습니다.
+
+**모바일 앱 VEC가 내 모바일 앱과 동기화되지 않습니다.**
+
+디스플레이를 동기화하려면 VEC에서 [!UICONTROL 새로 고침] 단추를 클릭합니다.
+
+**" context. application. id "값에 금지된 문자가 포함되어 있다는 오류 메시지가 표시되었습니다. What characters are allowed in mobile app IDs?**
+
+모바일 앱 ID에 허용되는 문자는 다음과 같습니다.
 
 | 허용되는 문자 | 설명 |
 | --- | --- |
@@ -215,7 +213,7 @@ Target 오퍼를 미리 가져올 때마다 `AdobeTargetMobile.targetView()`로 
 Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
 
 ```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
 ```
 
 ## 알려진 제한 사항 {#limitations}
