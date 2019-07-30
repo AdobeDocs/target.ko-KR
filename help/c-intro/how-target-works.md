@@ -9,7 +9,7 @@ title: Adobe Target 작동 방식
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
 
 ---
 
@@ -170,7 +170,7 @@ Google에서는 한 예로 "사이트의 원본 페이지를 로드한 키워드
 
 테스트 변형 내 원래 컨텐츠의 의미를 실수로 변경하기는 어려울 것으로 생각되지만, 페이지의 키워드 테마에 유의하고 해당 테마를 유지하는 것이 좋습니다. 특히 관련 키워드를 추가하거나 삭제하는 등의 페이지 컨텐츠 변경은 자연 검색에서 URL에 대한 순위 변경을 초래할 수 있습니다. 테스트 프로토콜의 일부로서 SEO 파트너를 이용하는 것이 좋습니다.
 
-보트 {#bots}
+## 보트 {#bots}
 
 Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 보트 의해 생성된 것으로 식별된 트래픽은 SEO 가이드라인과 일치하도록 일반 사용자와 같은 컨텐츠를 계속 제공합니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 약간 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
 
