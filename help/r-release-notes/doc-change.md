@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 7 월 29 일 | [보고 FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
 | 2019 년 7 월 24 일 | [. js 1 *. x* 에서 at. js 2 *. x로 업그레이드*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 새 주제입니다.  |
 |  | [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status) | 추가된 새 섹션: " Recommendations Offer의 상태를 보고 있습니다. " |
