@@ -8,7 +8,7 @@ title: 알려진 문제 및 해결된 문제
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
+
+### 링크 미리 보기 {#preview}
+
+계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 미리 보기 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도합니다. 이 문제가 계속 발생하지 않도록 하려면 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관합니다. (TNT-32697)
 
 ### 리디렉션 오퍼 {#redirect}
 
