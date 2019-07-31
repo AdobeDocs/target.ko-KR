@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2019 년 7 월 30 일 | [Recommendations 소개](/help/c-recommendations/introduction-to-recommendations.md) | 새 주제입니다.  |
+| 2019 년 7 월 31 일 | [Recommendations 소개](/help/c-recommendations/introduction-to-recommendations.md) | 새 주제입니다.  |
 |  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 최근에 본 항목에 메모를 추가했습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 미리 보기 링크에 알려진 문제가 추가되었습니다. |
 | 2019 년 7 월 29 일 | [보고 FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | Added new FAQ: "Why do my [!UICONTROL Experience Targeting] (XT) reports contain metrics for control experiences?" |
