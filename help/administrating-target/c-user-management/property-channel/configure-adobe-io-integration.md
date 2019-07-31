@@ -1,5 +1,5 @@
 ---
-description: 원하는 역할을 가진 모든 작업 영역에 기존 Adobe I/O 통합 액세스를 부여하는 방법에 대한 정보입니다.
+description: 원하는 역할을 가진 모든 작업 영역에 대한 Adobe I/O 통합 액세스 권한을 부여하는 정보입니다.
 keywords: 통합; 역할; 사용자 권한; Admin Console
 seo-description: Adobe Target에서 원하는 역할을 가진 모든 작업 영역에 대한 기존 Adobe I/O 통합 액세스 권한을 부여하는 정보
 seo-title: Adobe I/O 통합 기능을 통해 작업 영역에 대한 액세스 권한 부여 및 Adobe Target에서 역할 할당
@@ -7,7 +7,7 @@ solution: Target
 subtopic: 시작하기
 title: Adobe I/O 통합 기능을 통해 작업 영역 이용 권한 부여 및 역할 할당
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
 
 ---
 
@@ -54,10 +54,11 @@ This action should be performed before **September 4, 2019** to not face any dis
 
    ![통합 탭](/help/administrating-target/c-user-management/property-channel/assets/integrations-tab.png)
 
+1. (Conditional) To add a new integration, click **[!UICONTROL Add Integration]**, select the desired integration, then click **[!UICONTROL Save]**.
+
 1. **[!UICONTROL 제품 역할]** 드롭다운 목록에서 해당 작업 영역에 대해 원하는 역할을 선택합니다.
 
-   *[!UICONTROL Approver]
-*[!UICONTROL Editor]
-*[!UICONTROL Observer]
-
+   * [!UICONTROL 승인자]
+   * [!UICONTROL 편집자]
+   * [!UICONTROL 관찰자]
    ![제품 프로필 역할 선택](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
