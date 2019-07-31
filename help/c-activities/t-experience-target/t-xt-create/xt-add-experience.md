@@ -8,18 +8,18 @@ title: '경험 만들기 '
 topic: 고급,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 
 ---
 
 
 # Create experience{#create-experience}
 
-Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
+The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
 
 1. 변경할 요소를 선택하고 원하는 대로 변경합니다.
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow (Experiences) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
 
    ![모든 방문자 대상](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +27,19 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
    페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 vec를 사용하여 변경할 수 있습니다. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Target Classic(이전의 Test&amp;Target)을 사용하여 페이지에서 mbox를 만든 경우 해당 mbox가 mbox 이름을 나타내는 요소로 표시되며, 다른 요소와 같이 수정할 수 있습니다.
+   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >기본적으로, 시각적 경험 작성기에서는 회전 배너 등과 같은 JavaScript가 포함된 요소를 변경할 수 없습니다. vec를 사용하여 이러한 요소를 변경할 수 있게 하려면 JavaScript를 비활성화할 수 있습니다.
+   >기본적으로 vec는 회전 배너와 같이 JavaScript가 포함된 요소의 변경을 허용하지 않습니다. Javascript를 비활성화하여 vec를 사용하여 해당 요소를 변경할 수 있습니다.
 
-1. To create additional experiences, click **[!Add Experience Targeting]**.
+1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
    ![경험 타깃팅 링크 추가](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    The [!UICONTROL Choose Audience] dialog box displays. 경험을 추가하려면 경험을 추가하려면 먼저 대상을 선택해야 합니다.
 
-   대상 라이브러리에는 Target의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나 [새 대상을 만들 수 있습니다](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
    >[!NOTE]
    >
-   >메인 페이지 이외의 소스로부터 이미지를 제공하는 경우 (예: Akamai. net에서 호스팅되고 adobe.com에 제공된 이미지), 흐름 다이어그램에 표시된 페이지의 썸네일에는 해당 이미지가 표시되지 않습니다.
+   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
 1. (조건부) XT 활동을 만들거나 편집하는 동안 대상/경험 쌍을 드래그하여 놓아 원하는 순서대로 쌍을 정렬합니다.
 
@@ -77,7 +77,7 @@ Visual Experience Composer (VEC) 는 XT (경험 타깃팅) 활동에서 페이�
 
    ![경험 이동](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   경험 타깃팅에서는 순서를 중요한 것으로 간주합니다. 방문자가 첫 번째 대상/경험 쌍에 속하는 경우 첫 번째 경험이 전달됩니다.
+   [!UICONTROL 경험 타깃팅에서는 순서를 중요한 것으로 간주합니다. ] 방문자가 첫 번째 대상/경험 쌍에 속하는 경우 첫 번째 경험이 전달됩니다.
 
    예를 들어, XT 활동을 만드는 동안 순서가 중요하다는 것을 인식하지 못한다고 가정해보겠습니다. 경험 B 또는 C에 적격이라고 생각했던 방문자가 경험 A에 적격이라는 사실을 테스트 중에 알게 될 수 있습니다. 이것은 대상이 상호 배타적이지 않으며 적절한 순서로 정렬되지 않았기 때문일 수 있습니다(예: 경험 A = 미국, 경험 B = 샌프란시스코, 경험 C = 캘리포니아). 이 시나리오에서 미국의 모든 사용자는 샌프란시스코나 캘리포니아의 다른 지역에 있더라도 경험 A에 적격입니다. 전체 활동을 다시 만들지 않고, 가장 제한적인 것부터 덜 제한적인 순서로(샌프란시스코 &gt; 캘리포니아 &gt; 미국) 대상/경험 쌍을 재정렬할 수 있습니다.
 
@@ -100,7 +100,7 @@ You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experie
 
 ## 경험 복제
 
-경험 타깃팅(XT) 활동에서 경험을 복사할 수 있으므로 경험을 처음부터 다시 작성하지 않고도 약간의 컨텐츠를 변경할 수 있습니다.
+경험을 처음부터 다시 만들지 않고도 내용을 약간 변경할 수 있도록 XT 활동에 경험을 복사할 수 있습니다.
 
 **[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]**&#x200B;을 클릭하십시오.
 
