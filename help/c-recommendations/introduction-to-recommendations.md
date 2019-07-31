@@ -9,7 +9,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -129,7 +129,7 @@ Besides user behavior in aggregate, you need to pass [!DNL Target] the specific 
 
 ![권장 사항 활동을 구성하는 방법을 보여주는 그림: 대상, 기준 및 디자인](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 이 섹션에서는 마녀항목을 정의하는 기준을 정의하는 데 중점을 둡니다.
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 이 섹션에서는 권장 사항을 정의하는 기준을 정의하는 데 초점을 둡니다.
 
 Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화를 위한 레서피와 같습니다.
 
