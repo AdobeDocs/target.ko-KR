@@ -1,0 +1,200 @@
+---
+description: 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품 또는 컨텐트를 자동으로 표시하는 추천 활동을 소개하는 소개입니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
+keywords: 권장 사항;
+seo-description: 이전 사용자 활동이나 기타 알고리즘에 따라 고객의 흥미를 끌 수 있는 제품 또는 컨텐츠를 자동으로 표시하는 Adobe Target Recommendations 활동을 소개합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
+seo-title: Adobe Target의 Recommendations 활동 소개
+solution: Target
+title: Recommendations 소개
+title-outputclass: premium
+topic: Premium
+badge: premium
+translation-type: tm+mt
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+
+---
+
+
+# ![Recommendations](/help/assets/premium.png) 소개
+
+The text in this article comes from the *Introduction to Recommendations* webinar, which you can view in its entirety below.
+
+The *Introduction to Recommendations* webinar includes an in-depth exploration of how to leverage the value of [!DNL Adobe Target Recommendations]. 이 [!DNL Target] 활동에서는 이전 방문 횟수에 따라 실시간 제안을 최적화하여 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시하는 방법을 알아봅니다. 또한 [!DNL Target] UI에서 [!DNL Recommendations] 활동을 구축하는 방법에 관한 단계별 개요를 살펴보십시오.
+
+## 소개
+
+소매업체에서 제공하는 권장 사항 유형에 대해 모두 알고 있습니다. 이러한 유형의 추천이 점점 더 많아지고 있으며 사용 가능한 다른 옵션을 살펴보기 위한 출발점으로 사용할 수도 있습니다. 쇼핑 행동에 대해 생각해 보면 이러한 유형의 추천이 잘 작동합니다. 우리 중 거의 모든 사람이 처음으로 추천에서 본 제품을 구매했습니다. 이 제품은 매장 또는 디지털 자산에 저장되어 있었습니다.
+
+다음 그림은 충전 스테이션, 케이스, 헤드폰 등 새 휴대폰과 함께 일반적으로 구입한 액세서리 권장 사항을 보여줍니다.
+
+![다른 사람이 새 전화로 구입한 보조 프로그램을 보여주는 권장 사항.](/help/c-recommendations/assets/intro-1.png)
+
+그러나 디지털 중심의 브랜드 기업이 고객 기대치를 높이는 것은 결코 쉬운 일이 아닙니다. 미디어 및 컨텐츠를 사용하는 방법은 개인화된 권장 사항에 의해 좌우됩니다. Netflix, Spotify 또는 YouTube를 열 때 가장 먼저 본 내용을 살펴보십시오. 이러한 브랜드는 고객 경험을 추천으로 시작합니다. 더 많은 대체 요소를 사용할 수 있는 환경에서 고객과의 상호 작용 시점에서 가장 연관성 있는 컨텐츠를 식별할 수 있어야 합니다.
+
+![디지털 퍼스트 브랜드를 보여주는 권장 사항](/help/c-recommendations/assets/intro-2.png)
+
+Marketers use [!DNL Adobe Target] to drive personalized experiences across a wide variety of industries, customer types, and channels.
+
+[!DNL Adobe Target] 어디에서나 개인화된 콘텐츠 제공
+
+![Target 이 다양한 위치에서 추천을 제공하는 방법을 보여주는 그림](/help/c-recommendations/assets/intro-3.png)
+
+* **게시**: 웹 발행자는 사이트 방문자에게 아티클을 추천하고 참여도를 높일 [!DNL Target Recommendations] 수 있습니다.
+* **비디오 자습서**: [!DNL Adobe Creative Cloud] Photoshop [!DNL Target] 애플리케이션의 Photoshop 사용자에게 비디오 자습서를 추천하는 데 사용합니다.
+* **게임**: 게임 업체는 콘솔 내의 사용자에게 게임과 컨텐츠를 추천하기 [!DNL Target] 위해 사용합니다.
+* **B 2 B 세일즈**: B 2 B 잠재 고객에 대한 비디오, 백서 및 블로그 게시물을 [!DNL Target] 추천하기 위해 B 2 B (B 2 B) 를 사용하는 기업 다운로드 제공; 기존 고객에게 도움을 제공합니다 (https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **여행**: 독일 여행 책자가 호텔 등에서 호텔을 추천하는 [!DNL Target] 데 사용됩니다 (https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **소매**: 선도적인 B 2 B 소매업체는 [!DNL Target] 상위 카테고리 및 제품을 사용하여 브라우저 및 모바일 앱 (https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)에서 방문자를 재방문할 것을 권장하고 있습니다.
+
+다음은 고객이 Target를 사용하여 개인화된 추천을 제공하는 방법 중 몇 가지에 불과합니다.
+
+탁월한 추천은 무엇입니까?
+
+![권장 사항을 만드는 세 가지 요소를 보여주는 그림](/help/c-recommendations/assets/intro-4.png)
+
+탁월한 추천은 연관성과 개인화해야 합니다. 즉, 연관성과 개인화를 주도해야 합니다.
+
+* **권장하는** 항목의 연관성을 높이는 마케터 제어 마케터는 중요한 컨텍스트를 표로 가져와 제품 또는 컨텐츠의 속성이 추천 모델과 연관성이 높은 특성을 파악할 수 있습니다. 비디오 사이트를 운영하고 있는 경우 사용자가 같은 Director에서 동영상을 보는 것에 관심이 있을 수 있지만 동일한 스튜디오에서 제작된 동영상을 보는 것에 관심이 없을 수도 있습니다. [!DNL Target] 이 도메인 지식을 사용하여 알고리즘을 개선할 수 있는 컨트롤을 제공합니다.
+* **카탈로그 및 인터랙션** 이벤트에서 수백만 개의 항목을 이해할 수 있는 정교한 모델 [!DNL Target] 10 년 이상의 경험을 제공하는 세련된 머신 러닝 기능을 갖추고 있으며 연간 수십억 건의 추천을 처리하고 있습니다.
+* **사용자 컨텍스트를** 참조하십시오. 방금 시청한 비디오나 방금 장바구니에 추가한 셔츠를 추천하지 않을 것입니다. Target의 리치 사용자 프로필을 Recommendations에 사용하여 개인화를 보장할 수 있습니다.
+
+## Target 권장 사항 구현
+
+전략으로 시작
+
+![Recommendations 전략을 보여주는 일러스트레이션](/help/c-recommendations/assets/intro-5.png)
+
+* **어떤 항목을 추천하시겠습니까?** 먼저 추천할 항목을 생각해 보십시오. 제품, 비디오 또는 컨텐츠일 수 있습니다.
+* **권장 사항을 표시할 위치를 선택하십시오.** 다음으로 권장 사항을 만들 위치를 생각해 보십시오. 다양한 채널 (웹, 모바일, 매장, 키오스크 등) 를 광범위하게 제공할 수 있습니다. 고객 여정의 어떤 부분에 추천이 포함됩니까? 사이트의 어떤 페이지에 추천이 포함될 예정입니까?
+* **권장 사항의 성공 여부를 어떻게 결정합니까?** 권장 사항이 없는 경험과 권장 사항이 있는 경험이 있거나 두 가지 다른 유형의 권장 사항이 있다고 가정합니다. 고객에게 최적의 경험을 제공하려면 어떻게 해야 합니까? 일부 지표는 다른 지표보다 더 어려울 수 있습니다. 예를 들어 고객 라이프타임 값에 대한 추천이 미치는 영향은 종종 직접 구매하는 것이 어렵습니다. 따라서 종종 방문당 매출, 평균 주문 가격, 클릭 수 등 보다 구체적인 지표와 보다 구체적인 지표에 도달하는 것이 더 쉽습니다. 경우에 따라 지원 호출 수와 같이 지표를 최소화하려고 할 수도 있습니다.
+
+After you come up with your strategy, you are ready to start the implementation of [!DNL Target Recommendations].
+
+권장 사항 구현을 만드는 데에는 다음 세 가지 광범위한 단계가 있습니다.
+
+![권장 사항 구현을 만드는 단계를 보여주는 그림](/help/c-recommendations/assets/intro-6.png)
+
+1. Teach [!DNL Target] about your context or products.
+1. 사용자 행동을 캡처합니다.
+1. 상황에 맞는 컨텍스트 구축
+
+### Teach [!DNL Target] about your context or products
+
+When you start with [!DNL Recommendations], you pass information about every item you want to recommend. [!DNL Target] 카탈로그를 만드는 여러 통합 옵션을 제공합니다.
+
+![컨텍스트 또는 제품에 대해 타깃팅하는 방법을 보여주는 일러스트레이션](/help/c-recommendations/assets/intro-7.png)
+
+가장 간단하고 자주 사용하는 방법은 제품 정보 관리 시스템 또는 컨텐츠 관리 시스템에서 매일 또는 매주 CSV 파일을 전송하는 것입니다. But you can also pass information on the data layer from your page using the [!DNL Adobe Target] Javascript library, leverage our APIs to pass information directly from your source system, or use our [!DNL Adobe Analytics] integration if you are already passing catalog data to [!DNL Analytics].
+
+경우에 따라 CSV 파일을 통해 대부분의 데이터를 매일 전달하고 API를 통해 보다 자주 재고 업데이트를 전달하는 등 여러 옵션을 함께 사용할 수 있습니다.
+
+IT 부서는 일반적으로 이 단계를 설정하는 데 도움을 줄 것입니다.
+
+선택한 방법은 다음 세 가지 범주의 각 항목에 대한 메타데이터를 포함해야 합니다.
+
+![카탈로그에 대한 메타데이터 정보를 보여주는 그림](/help/c-recommendations/assets/intro-8.png)
+
+* 권장 사항을 받은 사용자에게 표시할 데이터. 예를 들어 영화 이름과 썸네일 이미지 URL 이 있습니다.
+* 마케팅 및 머천다이징 컨트롤을 적용하는 데 유용한 데이터입니다. 예를 들어, NC -17 동영상을 권장하지 않도록 동영상에 대한 등급을 지정합니다.
+* 다른 항목에 대한 항목의 유사성을 판단하는 데 유용한 데이터입니다. 예를 들어 영화 장르 또는 동영상에 있는 연기자가 여기에 포함됩니다.
+
+### 사용자 동작 캡처
+
+Next, you should add tags or leverage you existing [!DNL Analytics] implementation to track the conversion events (such as views and purchases) that drive [!DNL Target] algorithms.
+
+![사용자 행동을 캡처하는 방법을 보여주는 일러스트레이션](/help/c-recommendations/assets/intro-9.png)
+
+You need to ensure that [!DNL Target] is aware of the items that your users are viewing and purchasing. 구매가 컨텍스트와 관련이 없는 경우 PDF 다운로드, 설문 조사 완료, 뉴스레터 가입, 비디오 보기 등과 같은 다른 유형의 전환 이벤트를 추적할 수 있습니다.
+
+If you are already using [!DNL Target] to run A/B Tests activities on your site, you might have already completed this step. Or if you are already using [!DNL Adobe Analytics] to report on site visits and conversion behavior, you can use [!DNL Analytics] as your behavioral datasource. If not, it’s easiest to set this up using a tag manager such as [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). It’s also possible to send offline or in-app interactions to [!DNL Target] via real-time API.
+
+### 상황에 맞는 컨텍스트 구축
+
+Pass information about the user and context at the point of interaction to [!DNL Target] to return relevant and personalized recommendations.
+
+![적합한 컨텍스트를 사용하여 추천을 얻는 방법을 보여주는 그림](/help/c-recommendations/assets/intro-10.png)
+
+Besides user behavior in aggregate, you need to pass [!DNL Target] the specific context where recommendations are being shown. 여기에는 사용자 프로필의 페이지 및 정보에 대한 정보가 포함됩니다. [!DNL Target] 이 정보를 사용하여 개인화된 추천을 만듭니다. 예를 들어 소매 웹 사이트에서 방문자가 현재 보고 있는 제품 및 제품 카테고리를 알고 있어야 합니다. 해당 사용자에 대한 정보 (즐겨찾기 브랜드, 즐겨찾는 제품 카테고리, 충성도 티어 등) 도 알고 있어야 합니다. This information is important so that [!DNL Target] can filter items and improve the personalization of recommendations.
+
+## 첫 번째 Recommendations 활동 만들기
+
+[!DNL Recommendations] 활동이란 무엇입니까?
+
+![권장 사항 활동을 수행하는 부분을 보여주는 그림](/help/c-recommendations/assets/intro-11.png)
+
+[!DNL Recommendations] 활동은 다음 구성 요소로 구성됩니다.
+
+* **대상**: 이러한 권장 사항은 누가 보게 됩니까?
+* **기준**: 어떤 항목을 권장해야 합니까?
+* **디자인**: 권장되는 항목은 어떻게 표시됩니까?
+
+![권장 사항 활동을 구성하는 방법을 보여주는 그림: 대상, 기준 및 디자인](/help/c-recommendations/assets/intro-12.png)
+
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 이 섹션에서는 마녀항목을 정의하는 기준을 정의하는 데 중점을 둡니다.
+
+Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화를 위한 레서피와 같습니다.
+
+![표준 카드 일러스트레이션](/help/c-recommendations/assets/intro-13.png)
+
+원하는 개인화 결과를 얻으려면 적절한 기준을 선택하거나 만들어야 합니다. 기준은 전체 카탈로그에서 최종 권장 사항으로 안내하는 단계와 같습니다.
+
+![단계 일러스트레이션](/help/c-recommendations/assets/intro-14.png)
+
+The following sections describe the various parts of this funnel and how they work in [!DNL Target]:
+
+### 정적 필터 (컬렉션 및 제외)
+
+정적 필터는 자주 변경되지 않을 카탈로그 특성과 관련된 광범위하게 적용되는 규칙입니다.
+
+![컬렉션 및 제외 일러스트레이션](/help/c-recommendations/assets/intro-16.png)
+
+예를 들어 컨텐츠 컨텍스트에서는 모든 동영상을 Recommendations에 포함시키고 NC -17 등급의 무비를 제외할 수 있습니다. 소매 컨텍스트에서는 세계 여러 지역에 여러 브랜드를 보유하고 있을 수 있지만 미국에서만 사용할 수 있는 제품은 권장됩니다. 지역 비공개 레이블에서 제품을 제외시킬 수도 있습니다.
+
+이러한 속성은 대체로 여러 권장 사항에서 사용할 수 있으며 자주 변경되지 않는 모든 카탈로그 특성입니다.
+
+### 알고리즘 (권장 사항 키 및 논리)
+
+다음 단계는 권장 사항 키와 로직을 선택하는 것입니다. 여기에서 권장 사항의 기초가 무엇인지 결정합니다.
+
+![알고리즘 일러스트레이션](/help/c-recommendations/assets/intro-17.png)
+
+먼저 권장 사항 키를 선택해야 합니다. 권장 사항 키는 권장 사항을 선택하는 "조회" 입니다. 이것이 권장 사항을 기준으로 하는 것입니다.
+
+권장 사항을 기준으로 권장 사항을 만들 수 있습니다.
+
+* 방문자가 현재 보고 있는 항목
+* 방문자가 현재 보고 있는 카테고리
+* 방문자가 장바구니에 마지막으로 구매했거나 추가한 항목
+* 방문자 또는 항목과 관련된 사용자 지정 속성
+
+이러한 키를 기반으로 권장 사항 로직을 선택합니다.
+
+* 비슷한 속성을 갖는 항목
+* 특정 범주의 가장 많이 본 항목
+* 이 항목을 구매한 고객도 이 항목을 구입했습니다.
+* 사용자 지정 속성
+
+Out of the box, [!DNL Target] includes a portfolio of algorithms.
+
+![알고리즘 일러스트레이션 포트폴리오](/help/c-recommendations/assets/intro-15.png)
+
+* **인기도 기반 알고리즘에는** 가장 많이 본 판매자와 최상위 판매자가 포함됩니다.
+* **컨텐츠 기반의 알고리즘에는** 컨텐츠 유사성이 포함됩니다.
+* **항목 기반 협업 필터링 알고리즘에는** 보기/조회, 조회/구매, 구매/구입이 포함됩니다. " 구매한 "은 모든 전환이 될 수 있습니다.
+* **개인화된 알고리즘에는** 최근에 본, 사이트 친화성 및 프로필 향상 협업 필터링이 포함됩니다.
+* **사용자 고유의 알고리즘을** 사용하여 사용자 지정 알고리즘을 사용할 수 있습니다.
+
+### 온라인 비즈니스 규칙
+
+마지막 단계는 온라인 비즈니스 규칙을 적용하는 것입니다. 이러한 맥락에서 방문자가 디지털 속성에 대해 수행하는 작업을 기반으로 도메인 지식과 현재 컨텍스트를 통해 알고리즘을 강화할 수 있습니다.
+
+![온라인 비즈니스 규칙 일러스트레이션](/help/c-recommendations/assets/intro-18.png)
+
+예를 들어 컨텐츠 컨텍스트에서는 방문자가 이전에 시청한 동영상을 제외시키거나 같은 디렉터로 동영상을 추천하거나 동일한 장르 동영상에서 동영상을 향상시킬 수 있습니다. 소매 컨텍스트에서는 재고 부족 제품을 제외하고 $ 5 ~ $ 500 범위의 가격대에서 항목을 표시하거나 동일한 브랜드의 항목을 늘릴 수 있습니다.
+
+## 데모
+
+위에서 설명한 권장 사항 단계에 표시된 작업을 완료하면 최종 권장 사항과 함께 남게 됩니다. To watch an in-product demonstration inside [!DNL Target], the demo begins at 21:00 in the *Adobe Target Basics Webinar*, linked to below.
+
+## Adobe Target 기본 사항 웨비나: Recommendations 소개 {#intro-to-recs}
+
+[Recommendations 소개](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
