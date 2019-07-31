@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
 
 이러한 릴리스 노트는 최신 또는 예정된 [!DNL Adobe Target] 릴리스의 기능, 향상된 기능 및 수정 사항에 대한 정보를 제공합니다.
 
-**마지막 업데이트 날짜: 2019년 7월 24일**
+**마지막 업데이트 날짜: 2019년 7월 31일**
 
 >[!NOTE]
 >
@@ -25,42 +25,31 @@ source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
 >
 >괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## Target Standard/Premium 19.7.1(2019년 7월 24일) {#tgt-19-7-1}
+## 공지
 
-이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+Enterprise Permissions allows [!DNL Target] customers to use a single organization, but divide it into workspaces for their different teams or workflows. 따라서 팀 간의 최적화 프로그램을 효과적으로 확장할 수 있습니다. Although the feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until earlier this year. In the [!DNL Target] February 2019 release, Adobe updated the Admin APIs so that you can use the integration account to access all workspaces created in your organization. So, while earlier, Admin APIs were restricted to just the default workspace, the February update granted access to all workspaces with [!UICONTROL Approver] access.
 
-| 기능 / 개선 사항 | 설명 |
-| --- | --- |
-| 모바일 앱 시각적 경험 작성기 | 클릭추적을 위해 설정한 요소를 표시하는 새로운 수정 패널이 모바일 앱 VEC에 표시됩니다. (TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
-| ![프리미엄 Badgeresa/B](/help/assets/premium.png)<br>테스트 및 경험 타깃팅 (XT) 활동의 사용자 지정 | Recommendations 오퍼 (알고리즘) 상태는 Recommendations 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 상태: 결과 준비, 결과 준비 안 됨 및 피드 실패. (TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Experience Cloud ID (ECID) 라이브러리를 통해 at. js 2.0 +에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이. js 2에서 지원되지 않았습니다.*x*&#x200B;에는 사용할 수 없습니다. 이 릴리스를 통해 at. js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통한 도메인 간 추적을 활용할 수 있습니다. 크로스 도메인 추적을 수행하려면. js 2.0 이상 버전과 함께 페이지에 ECID 라이브러리를 설치해야 합니다. [Experience Cloud ID Library 4.3.0 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 를 사용해야 합니다.<br>at. js 2. x에서 [도메인 간 추적 지원을 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Experience Cloud ID (ECID) 라이브러리 4.3를 통해 Apple의 ITP 2.1 및 ITP 2.2에 대한 Target 지원 | 현재 타깃 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target 이 서버측 쿠키를 활용하여 ITP 2.1 및 ITP 2.2를 완화하는 ECID Library 4.3 과의 매끄러운 통합을 도입했습니다. Target 고객은 Target의 JavaScript 라이브러리와 [함께 ECID Library 4.3 +](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) 를 배포하여 향후 ITP 릴리스를 완화하는 것이 좋습니다. ECID 라이브러리는 브라우저에서 도입된 지속적인 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 출시합니다.<br>[Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)를 참조하십시오. |
+With the upcoming [!DNL Target] September 2019 release, Target Enterprise Permissions will provide customers with the following access controls:
 
-## at. js 버전 2.1.1 (2019 년 7 월 24 일)
+* 통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다.
+* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
 
-at. js의 이번 릴리스는 유지 관리 릴리스이며 다음 개선 사항 및 수정 사항을 포함합니다.
+이 업데이트는 다음 사용 사례를 지원합니다.
 
-(괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
+* Grant the Adobe I/O integration access to all workspaces with the [!UICONTROL Observer] role for reporting purposes with no rights to create or edit resources.
+* Adobe I/O 통합 권한을 부여하면 Central 팀이 몇 가지 작업 공간에서만 API 중심의 변경을 수행할 수 있도록 적절한 역할의 작업 영역을 선택할 수 있습니다.
+* 작업 영역을 소유한 각 팀은 팀에서 API를 탐색할 준비가 될 때마다 자체 통합을 가지고 그에 따라 역할을 선택할 수 있습니다.
+* 위의 시나리오 중 하나를 혼합하여 사용할 수 있습니다.
 
-* Visual Experience Composer (VEC) 의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 개의 비콘이 실행되는 문제를 해결했습니다. (TNT-32812)
-* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
-* URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함될 때 발생하는 decodeuricomponent 사용 오류로 인해 오류가 발생하던 문제를 수정했습니다. (TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
-* 일부 고객의 웹 사이트에서 Recommendations 오퍼가 표시되지 않는 문제를 해결했습니다. 고객은 배달 API 호출에서 오퍼 컨텐츠를 볼 수 있지만 오퍼는 웹 사이트에 적용되지 않았습니다. (TNT-32680)
-* 여러 경험이 걸쳐 클릭추적이 예상대로 작동되지 않는 문제를 해결했습니다. (TNT-32644)
-* 첫 번째 지표 렌더링이 실패한 후 at. js에서 두 번째 지표를 적용하지 못했던 문제를 수정했습니다. (TNT-32628)
-* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
-* Chrome 기반 브라우저 (Google Chrome 포함) 에서 디스플레이 및 클릭 알림 응답이 차단되는 문제를 해결했습니다. (TNT-32290)
+**필요한 조치**: 현재 모든 작업 영역에서 리소스 (활동, 대상, 제안 및 보고) 에 대한 CRUD 작업을 위해 API를 활용하는 고객은 사용 사례에 따라 원하는 역할을 가진 모든 작업 영역에 대한 기존 Adobe I/O 통합 액세스 권한을 부여해야 합니다. You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, irrespective of choice made in the [!UICONTROL Product Role] drop-down list. 이제 원하는 역할을 선택할 수 있습니다.
 
-For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+This action *must* be performed before September 4, 2019 to not face any disruption on your end. 이 작업이 수행되지 않으면 [! DNL Target 9 월 릴리스, 액세스 제어가 활성화되고 현재 설정된 방식으로 기본 작업 영역에 대한 액세스를 관찰할 수 있습니다. 위의 가이드라인에 따라 통합을 설정한다는 역반응이 없습니다. 이렇게 변경할수록 더 나은 결과를 얻을 수 있습니다. 조직의 작업 영역 수에 따라 작업 시간을 단축할 수 있습니다. 이 프로세스는 몇 번의 클릭만으로 원하는 역할을 가진 작업 영역에 기존 통합을 추가할 수 있습니다.
 
-**개선 사항, 수정 및 변경 사항**
+## Target Standard/Premium 19.8.1(2019년 8월 20일) {#tgt-19-8-1}
 
-* 중복 값을 추가할 때 Recommendations 활동의 제외 값이 지워지지 않는 문제를 해결했습니다. (TGT-34996)
-* 이제 타깃팅 페이지에서 추천 활동에서 디자인을 제거할 수 있습니다 (3 부분으로 구성된 안내 워크플로우 중 2 단계). 디자인을 제거하려면 두 개 이상의 디자인을 선택해야 합니다. (TGT-35118)
-* 일부 고객이 타겟 UI에서 제대로 로드하거나 편집할 수 있도록 사용자 지정 기준 카드가 표시되지 않는 문제를 해결했습니다. (TGT-35170)
+이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* Visual Experience Composer (VEC) 의 RTE (Rich Text Editor) 에 대한 보안 업데이트를 포함한 여러 보안 수정 사항이 있습니다. (TGT-35383)
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
