@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/kr/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -337,6 +337,7 @@ source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
    + [보고 FAQ](c-reports/reporting-frequently-asked-questions.md)
 + 권장 사항 {#recommendations}
    + [권장 사항 개요](c-recommendations/recommendations.md)
+   + [Recommendations 소개](/help/c-recommendations/introduction-to-recommendations.md)
    + [권장 사항 계획 및 구현](c-recommendations/plan-implement.md)
    + 엔티티 {#entities}
       + [엔티티 개요](c-recommendations/c-products/products.md)
