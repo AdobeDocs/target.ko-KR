@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 8월 1일 | [Target 릴리스 노트 (현재)](/help/r-release-notes/release-notes.md) | 엔터프라이즈 권한에 대한 API 지원에 대한 중요 알림을 추가했습니다. |
+|  | Adobe I/O 통합 기능을 통해 작업 영역 이용 권한 부여 및 역할 할당 | 새 주제입니다.  |
 | 2019 년 7 월 31 일 | [Recommendations 소개](/help/c-recommendations/introduction-to-recommendations.md) | 새 주제입니다.  |
 |  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 최근에 본 항목에 메모를 추가했습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 활동 QA 미리 보기 링크에 알려진 문제가 추가되었습니다. |
