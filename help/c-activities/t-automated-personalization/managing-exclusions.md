@@ -113,7 +113,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    배경 색상의 경우:
 
-   ![[배경색 편집] 대화 상자에 확인란 포함](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
+   ![배경색 편집] 대화 상자에 확인란 포함](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
