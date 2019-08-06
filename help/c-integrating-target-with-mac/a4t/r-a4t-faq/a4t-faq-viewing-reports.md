@@ -8,7 +8,7 @@ title: 보고서 보기 - A4T FAQ
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -37,7 +37,7 @@ Activities 보고서의 경우 관리자는 보고서를 실행할 때마다 보
 
 계산된 지표와 함께 세그먼트를 지표에 적용할 수 있습니다. 이 작업은 일반적으로 새로운 유형의 성공 이벤트를 만들 때 수행합니다. 예를 들어, 활동을 재방문한 방문자 수를 확인하거나 특정 페이지에서 테스트를 본 방문자의 수를 확인하는 경우에 수행합니다. 현재 계산된 지표에는 상승도 및 신뢰도를 생성할 수 없습니다.
 
-## 보고서를 볼 때 방문자 수, 활동 노출 수 또는 방문 횟수를 사용해야 합니까? {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## 보고서를 볼 때 방문자 수, 활동 노출 수 또는 방문 횟수를 사용해야 합니까? {#metrics}
 
 몇 가지 옵션을 사용할 수 있으며 옵션마다 이점이 있습니다.
 
@@ -52,7 +52,7 @@ Activities 보고서의 경우 관리자는 보고서를 실행할 때마다 보
 
 * 사용자가 활동 자격을 확보하고 컨텐츠가 [!DNL Target]에서 반환될 때 위의 모든 지표를 트리거합니다. 이는 사용자가 반드시 오퍼를 보았다는 것을 의미하지는 않습니다. 활동 경험이 스크롤해야 볼 수 있는 부분에 있고 사용자가 페이지를 아래로 스크롤하지 않는 경우 [!DNL Target]에서 오퍼를 제공했지만 사용자는 볼 수 없습니다.
 * 동일한 활동의 동일한 페이지에 여러 개의 mbox 호출이 있는 경우가 아니라면 [!UICONTROL 활동 노출 수]([!DNL Target]으로 측정) 및 [!UICONTROL 인스턴스 수]([!DNL Analytics]로 측정)는 동일합니다. 이로 인해 다중 [!UICONTROL 활동 노출 수]가 계산되지만, 인스턴스의 경우 단일 [!UICONTROL 인스턴스]만 계산됩니다.
-* 현재 [!UICONTROL 활동 노출 수] 및 [!UICONTROL 활동 변환] 지표는 [!DNL Analysis Workspace]에서 확장되므로 이 문제가 해결될 때까지 사용해서는 안 됩니다.
+* [!UICONTROL 에서 활동 노출 횟수] 및 [!UICONTROL 활동 전환] 지표를 사용할 때는 두 지표 [!DNL Analysis Workspace]모두에 [!UICONTROL 동일한 터치] 기여도 모델이 적용되어 있는지 확인하십시오. 열 설정 톱니바퀴를 클릭하고, 기본값이 아닌 기여도 모델을 활성화한 [!UICONTROL 다음 동일한 터치를 선택하여][!UICONTROL 모델을 적용할]수 있습니다. 분석 도구 안내서의 속성 IQ 개요에서 [속성에 대한 자세한](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) **&#x200B;내용을 살펴보십시오.
 
 ## 마케터가 활동을 설정할 때 Analytics 지표를 선택하는 경우 "활동 전환"은 무엇을 의미합니까? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
