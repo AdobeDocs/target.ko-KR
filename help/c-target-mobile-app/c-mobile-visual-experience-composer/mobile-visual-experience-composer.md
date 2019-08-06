@@ -7,7 +7,7 @@ title: 모바일 앱 시각적 경험 작성기
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
+source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
 
 ---
 
@@ -81,7 +81,7 @@ VEC에서 수행한 작업은 앱에서 실시간으로 표시되므로 작성 �
 
 ![새로운 앱 알림](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
+버전 [!UICONTROL 관리] 대화 상자에서 여러 모바일 앱 버전을 수동으로 추가하고 제거할 수 있습니다.
 
 ![버전 관리 대화 상자](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
@@ -192,7 +192,7 @@ Target 오퍼를 미리 가져올 때마다 `AdobeTargetMobile.targetView()`로 
 
 디스플레이를 동기화하려면 VEC에서 [!UICONTROL 새로 고침] 단추를 클릭합니다.
 
-**" context. application. id "값에 금지된 문자가 포함되어 있다는 오류 메시지가 표시되었습니다. What characters are allowed in mobile app IDs?**
+**" context. application. id "값에 금지된 문자가 포함되어 있다는 오류 메시지가 표시되었습니다. 모바일 앱 ID 에는 어떤 문자가 허용됩니까?**
 
 모바일 앱 ID에 허용되는 문자는 다음과 같습니다.
 
@@ -210,7 +210,7 @@ Target 오퍼를 미리 가져올 때마다 `AdobeTargetMobile.targetView()`로 
 | `&` | 앰퍼샌드 |
 | `+` | 더하기 기호 |
 
-Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
+예를 들어 아포스트로피 ( `'` ) 와 같은 문자를 사용할 수 없는 문자를 사용하면 다음과 같은 오류 메시지가 표시됩니다.
 
 ```
 Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
@@ -219,7 +219,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
 ## 알려진 제한 사항 {#limitations}
 
 * 모바일 앱 VEC는 현재 모바일 앱에 대한 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) 및 [XT(경험 타깃팅)](/help/c-activities/t-experience-target/experience-target.md) 활동을 만드는 데 사용할 수 있습니다. 다른 활동 유형에 대한 지원은 향후에 가능합니다.
-* 미리 보기 기능은 아직 지원되지 않습니다. 향후 릴리스에서 제공될 예정입니다.
 * 앱을 모바일 앱 VEC에 다시 연결할 때 앱을 완전히 종료한 후 다시 실행해야 합니다.
 
    아래 나열된 시나리오 진행 중 모바일 앱이 이미 열려 있는 경우에는 해당 앱을 닫은 다음 다시 열어야 합니다. 그러나 앱을 닫을 때 최신 앱 섹션에서 닫아야 *하며* 뒤로 단추를 누르지 *말아야* 합니다. 뒤로 단추를 눌러 앱을 닫으면 간헐적인 연결 문제가 발생할 수 있습니다.
