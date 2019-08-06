@@ -9,7 +9,7 @@ title: Adobe Target 작동 방식
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: f0002ef506746bc315fbcc9224e6e6fa35c78b83
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -29,7 +29,7 @@ Adobe Target는 다음 두 가지 JavaScript 라이브러리 중 하나를 사�
 >
 >모든 고객은 at.js로 마이그레이션하는 것이 좋습니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오
 
-사이트의 모든 페이지에서 타겟 JavaScript 라이브러리 파일을 참조해야 합니다. 예를 들어, 글로벌 헤더에 추가할 수 있습니다. Alternatively, consider using [Adobe Launch tag manager](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+사이트의 모든 페이지에서 타겟 JavaScript 라이브러리 파일을 참조해야 합니다. 예를 들어, 글로벌 헤더에 추가할 수 있습니다. 또는 Adobe Launch 태그 관리자를 사용하는 [것이 좋습니다.](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 방문자가 Target에 대해 최적화된 페이지를 요청할 때마다, 방문자에게 서비스로 제공할 컨텐츠를 결정하기 위해 타깃팅 시스템으로 요청이 전송됩니다. 이 프로세스는 실시간으로 이루어집니다. 페이지가 로드될 때마다 시스템에 대한 요청이 만들어지고 이행됩니다. 컨텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 또한 각 사이트 방문자가 응답하고, 상호 작용하고, 궁극적으로 가장 구매할 것 같은 컨텐츠를 제공하여 응답률, 획득률 및 매출을 최적화합니다.
 
@@ -98,17 +98,17 @@ Auto-Target는 고급 머신 러닝을 사용하여 여러 개의 마케터가 �
 
 ![핵심 Edge 사이트 및 Edge 사이트와 매핑](assets/edge_network.png)
 
-Adobe는 현재 미국 오리건 및 텍사스 소재의 핵심 에지 사이트를 보유하고 있습니다. 영국, 런던 싱가포르 Adobe는 현재 버지니아 암스테르담 (미국) 에 Edge Sites를 보유하고 있습니다. 일본, 도쿄 호주 시드니에서
+이 Mage의 소스는 [Adobe Target 보안 개요](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서입니다.
 
-중심 에지 사이트 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 있습니다. 에지 사이트 위치에는 데이터 수집 센터만 있습니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
+Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센터에 호스팅됩니다. 관리 서버는 런던, 싱가포르 및 오레곤 및 버지니아 등 미국 전역의 여러 위치에서 Adobe 소유 데이터 센터 내에 호스팅됩니다. Edge Server는 런던, 홍콩, 싱가포르, 도쿄 및 시드니에 있는 Amazon AWS 데이터 센터의 Adobe 소유 서버와 Adobe 임대 서버에서 모두 호스팅됩니다.
 
-Adobe는 현재 북아메리카, 유럽 및 아시아 곳곳의 여러 지역을 포함하여 몇 개 대륙에 데이터 센터를 보유하고 있습니다.
+관리 서버 위치에 데이터 수집 센터와 데이터 처리 센터가 모두 포함됩니다. 에지 사이트 위치에는 데이터 수집 센터만 있습니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
 
 한 위치에서 모든 타깃팅 요청에 응답하는 대신, 요청은 방문자에게 가장 가까운 에지 환경에서 처리되므로 네트워크/인터넷 이동 시간의 영향을 완화합니다.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 현재 중국에는 Edge 네트워크가 없으며 최종 사용자 성능은 중국 [!DNL Target] 고객의 경우 계속 제한됩니다. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] 현재 중국에는 Edge 네트워크가 없으며 최종 사용자 성능은 중국 [!DNL Target] 고객의 경우 계속 제한됩니다. 방화벽 및 국가 내 에지 노드가 부족하기 때문에 배포된 사이트의 [!DNL Target] 경험이 느리게 렌더링되고 페이지가 로드될 수 있습니다. 또한, 마케터는 작성 UI 사용 시 지연을 경험할 [!DNL Target] 수 있습니다.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -172,7 +172,7 @@ Google에서는 한 예로 "사이트의 원본 페이지를 로드한 키워드
 
 ## 보트 {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 보트 의해 생성된 것으로 식별된 트래픽은 SEO 가이드라인과 일치하도록 일반 사용자와 같은 컨텐츠를 계속 제공합니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 약간 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
+Adobe Target는 [deviceatlas](https://deviceatlas.com/) 를 사용하여 알려진 보트를 감지합니다. 보트 의해 생성된 것으로 식별된 트래픽은 SEO 가이드라인과 일치하도록 일반 사용자와 같은 컨텐츠를 계속 제공합니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 약간 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
 
 특히 알려진 보트 트래픽 타겟의 경우,
 
