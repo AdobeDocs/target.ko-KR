@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 targetGlobalSettings() 함수 정보입니다. '
-keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
+keywords: targetglobalsettings; targetglobalsettings; Globalsettings; Globalsettings; 전역 설정; at. js; 함수; 함수; clientcode; clientcode; serverdomain; serverdomain; Cookiedomain; Cookiedomain; Crossdomain; Crossdomain; 제한 시간; Globalmboxautocreate; Visitorapitimeout; Defaultcontenthiddenstyle; Defaultcontentvisiblestyle; Bodyhiddenstyle; Bodyhidingenabled; Imsorgid; Secureonly; Overridemboxedgeserver; Overridemboxedgeservertimeout; Optoutenabled; optout; 수신 거부; Selectorspollingtimeout; Dataproviders
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
 
 ---
 
