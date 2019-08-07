@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/kr/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
@@ -53,7 +53,7 @@ source-git-commit: b88460fbd90168ddc19cbae1939b47ac69a854a8
       + [Target 구현 준비](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + 개인 정보 {#privacy}
          + [개인 정보 보호 개요](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
-         + [개인 정보 및 GDPR(일반 데이터 보호 규정)](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
+         + [개인 정보 보호 및 데이터 보호 규정](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target 쿠키 삭제](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome samesite 쿠키 정책](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
