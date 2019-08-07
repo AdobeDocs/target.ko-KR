@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 사용자 지정 이벤트 정보입니다. '
-keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
+keywords: 사용자 지정 이벤트; at. js; 요청 실패; 요청이 성공적임; 컨텐츠 렌더링 실패; 컨텐츠 렌더링 성공; 라이브러리 로드됨; 요청 시작; 컨텐츠 렌더링 시작; 컨텐츠 렌더링 없음컨텐츠 렌더링 Rediret
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트 정보입니다.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js 사용자 지정 이벤트
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
