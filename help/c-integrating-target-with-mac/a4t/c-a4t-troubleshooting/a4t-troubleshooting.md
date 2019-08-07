@@ -9,7 +9,7 @@ title: Analytics 및 Target 통합 문제 해결(A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -24,7 +24,7 @@ source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 * [!DNL Target]의 분류가 완전히 처리되지 않았습니다.
 
-   분류는 활동의 첫 번째 저장에서 처리하는 데 24시간이나 소요될 수 있습니다.
+   일반적으로 분류는 처음 저장한 후 보고서를 분류하는 데 24 시간에서 72 시간 사이가 소요됩니다.
 
 * 보고서 세트에 데이터가 들어 있지 않은데 [!DNL Target]이 히트를 분류하려고 했습니다. 첫 번째 히트가 발생하기 전까지 [!DNL Target]은 데이터를 분류할 수 없습니다.
 
