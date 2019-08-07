@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 | 2019년 8월 7일 | [오퍼 컨텐츠 미리 가져오기](/help/c-target-mobile-app/prefetch-offer-content.md) | SDK의 프리페치 기능은 자동 타겟, 자동 할당 및 자동화된 개인화 활동 유형에 대해 지원되지 않는다는 참고가 추가되었습니다. |
 |  | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 분류 프로세스가 완료되는 데 걸리는 시간을 나타내는 업데이트입니다. |
 |  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 분류 프로세스가 완료되는 데 걸리는 시간을 나타내는 업데이트입니다. |
+|  | [개인 정보 보호 및 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 캘리포니아 소비자 개인 정보 보호법 (CCPA) 에 대한 정보를 포함하도록 업데이트된 주제입니다. |
 | 2019년 8월 6일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Mobile VEC SDK iOS 2.1.0 및 Android 1.1.0 릴리스의 릴리스 노트를 추가했습니다. |
 |  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 다음 섹션을 업데이트했습니다. " 예상 기준 처리 시간. " |
 |  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | [!UICONTROL 활동 노출] 횟수 및 [!UICONTROL 활동 전환] 지표 사용에 대한 고려가 업데이트되었습니다 [!DNL Analysis Workspace]. |
