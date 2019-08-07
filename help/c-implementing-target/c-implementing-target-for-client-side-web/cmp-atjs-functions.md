@@ -1,6 +1,6 @@
 ---
-description: at.js와 함께 사용할 수 있는 함수 목록입니다.
-keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
+description: Adobe Target at.js JavaScript 라이브러리와 함께 사용할 수 있는 함수 목록.
+keywords: at. js; 함수; Javascript 라이브러리
 seo-description: Adobe Target의 at.js JavaScript 라이브러리와 함께 사용할 수 있는 함수 목록.
 seo-title: Adobe Target at.js 함수
 solution: Target
@@ -9,7 +9,7 @@ title: at.js 함수
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
@@ -33,5 +33,5 @@ Adobe Target at.js JavaScript 라이브러리와 함께 사용할 수 있는 함
 | [targetPageParamsAll(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | 이 방법을 사용하면 요청 코드의 외부에서 모든 mbox에 매개 변수를 첨부할 수 있습니다. |
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 특정 확장 기능을 등록하는 표준 방법을 제공합니다.<br>**참고:** 이 함수는 at.js 버전 1.*x*&#x200B;에만 사용할 수 있습니다. 이 함수는 at.js 2.x의 릴리스에서 더 이상 사용되지 않으며, at.js 2.x에서 사용하는 경우 기본 콘텐츠를 반환합니다. |
 | [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at. js 사용자 지정 이벤트를 사용하면 mbox 요청 또는 오퍼가 실패하거나 성공할 때를 알 수 있습니다. |
-| [Adobe. Target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(. js 2.1.0) | This function sends a notification to Target edge when an experience is rendered without using `adobe.target.applyOffer()` or `adobe.target.applyOffers()`.<br>****&#x200B;참고: 이 함수는. js 2.1.0에서 처음 소개되었으며 2.1.0 이상에서 사용할 수 있습니다. |
+| [Adobe. Target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(. js 2.1.0) | 이 함수는 경험을 `adobe.target.applyOffer()` 사용하거나 `adobe.target.applyOffers()`사용하지 않고 경험을 렌더링할 때 Target Edge에 알림을 보냅니다.<br>****&#x200B;참고: 이 함수는. js 2.1.0에서 처음 소개되었으며 2.1.0 이상에서 사용할 수 있습니다. |
 
