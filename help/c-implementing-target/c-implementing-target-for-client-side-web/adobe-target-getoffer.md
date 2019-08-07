@@ -1,6 +1,6 @@
 ---
-description: 'at.js에 대한 adobe.target.getOffer(options) 함수 정보입니다. '
-keywords: adobe.target.notification;요소;선택기;알림;확장 프로그램
+description: 'at.js에 대한 adobe.target.getOffer() 함수 정보입니다. '
+keywords: adobe. target. getoffer; Getoffer; Getoffer; 오퍼 다운로드; at. js; 함수; 함수
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffer(options) 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffer(options) 함수 정보입니다.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: adobe.target.getOffer(옵션)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
