@@ -8,7 +8,7 @@ title: at.js 작동 방식
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ---
 
@@ -75,7 +75,24 @@ source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 | 1 | 사용자가 인증되면 호출에서 [!DNL Experience Cloud ID] (MCID)를 반환합니다. 다른 호출은 고객 ID를 동기화합니다. | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다. |
 | 3 | 모든 구성된 매개 변수, MCID, SDID 및 고객 ID(선택 사항)를 포함하는 글로벌 mbox 요청이 이루어집니다. | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 [!UICONTROL 대상 라이브러리]의 적절한 대상(예: [!DNL Adobe Analytics], [!DNL Audience Manager] 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 배치 프로세스를 통해 [!DNL Profile Store]로 전송됩니다. |
 | 5 | [!DNL Target]에서는 URL, mbox 매개 변수 및 프로필 데이터를 기반으로 방문자에게 반환할 활동 및 경험을 결정합니다. | 6 | 타깃팅된 컨텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>경험은 기본 컨텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
-| 7 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. | 8 | [!DNL Target] 데이터는 SDID를 통해 [!DNL Analytics] 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다.<br>그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics for Target] (A4T) 보고서를 통해 [!DNL Analytics] 및 [!DNL Target] 모두에서 볼 수 있게 됩니다. |
+| 7 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. | 8 | [!DNL Target] 데이터는 SDID를 통해 [!DNL Analytics] 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다.<br>그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics for Target] (A4T) 보고서를 통해 [!DNL Analytics]및 [!DNL Target] 모두에서 볼 수 있게 됩니다. |
+
+## at. js에서 HTML 컨텐츠로 오퍼를 렌더링하는 방법 {#render}
+
+오퍼를 HTML 컨텐츠로 렌더링할 때 at. js는 다음 알고리즘을 적용합니다.
+
+1. 이미지가 미리 로드됩니다 (HTML 컨텐츠에 `<img>` 태그가 있는 경우).
+
+1. HTML 콘텐츠가 DOM 노드에 첨부됩니다.
+
+1. 인라인 스크립트가 실행됩니다 ( `<script>` 태그로 둘러싸인 코드).
+
+1. 원격 스크립트는 비동기식으로 로드되고 실행됩니다 (특성이 있는`<script>` `src` 태그).
+
+중요 참고 사항:
+
+* at. js는 비동기식으로 로드되므로 원격 스크립트 실행 순서에 대해 보장하지 않습니다.
+* 원격 스크립트는 나중에 로드되고 실행되므로 인라인 스크립트에 대한 종속성을 가지면 안 됩니다.
 
 ## 교육 비디오: at.js 2.x 아키텍처 다이어그램
 
@@ -83,4 +100,4 @@ at.js 2.x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experie
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=kor)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+자세한 [내용은 at. js 2. x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식을 참조하십시오.
