@@ -8,7 +8,7 @@ title: 시각적 경험 작성기 선택 사항
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -340,6 +340,10 @@ CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것�
 ### 실행 취소/다시 실행
 
 편집 세션 동안 활동에 대해 변경한 내용을 실행 취소합니다. 이전에 실행 취소한 변경 사항을 다시 실행할 수도 있습니다.
+
+## 고려 사항 {#considerations}
+
+* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우 at. js [작동 방식을](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) 참조하십시오.
 
 ## DOM 경로를 사용하여 요소 탐색 {#dom-path}
 
