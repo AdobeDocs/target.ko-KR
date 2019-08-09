@@ -8,7 +8,7 @@ title: 개인 정보 보호 및 데이터 보호 규정
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: aa077c92e0b6aaec27429acd9292a5edcf6c60fa
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -289,6 +289,6 @@ A sample [!DNL Target] Profile JSON could look like the following example:
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. Many of the fields of the [!DNL Target] profile are not standard. 반환되는 내용은 해당 방문자 프로필에 포함된 정보에 따라 다릅니다.
 
-## Target이 IP 난독화를 지원합니까? {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Target이 IP 난독화를 지원합니까? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 IP 난독화를 지원합니다. For more information, see [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
