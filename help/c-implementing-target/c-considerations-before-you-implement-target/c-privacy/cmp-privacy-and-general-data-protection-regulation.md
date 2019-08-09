@@ -1,21 +1,21 @@
 ---
-description: 유럽 연합의 개인 정보 보호 규정 (GDPR) 및 캘리포니아 소비자 개인 정보 보호 법 (CCPA) 와 이러한 규정이 귀하의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
+description: 유럽 연합의 개인 정보 보호 규정 (GDPR), 캘리포니아 소비자 개인 정보 보호 법안 (CCPA) 및 기타 국제 개인 정보 보호 요구 사항 및 이러한 규정이 귀하의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
 keywords: GDPR; EU; 유럽연합 (EU); 개인정보 보호; FAQ; FAQCalifornia Consumer Privacy Act; CCPA; 개인정보 보호; 데이터 보호; 옵트아웃; 수신 거부; 정부; 규정
-seo-description: 유럽 연합의 개인 정보 보호 규정 (GDPR) 및 캘리포니아 소비자 개인 정보 보호 법 (CCPA) 와 이러한 규정이 귀하의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
-seo-title: 개인 정보 보호 규정 (GDPR), 캘리포니아 소비자 개인 정보 보호 법안 (CCPA) 및 Adobe Target
+seo-description: 유럽 연합의 개인 정보 보호 규정 (GDPR), 캘리포니아 소비자 개인 정보 보호 법안 (CCPA) 및 기타 국제 개인 정보 보호 요구 사항 및 이러한 규정이 귀하의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
+seo-title: 유럽 연합의 개인 정보 보호 규정 (GDPR), 캘리포니아 소비자 개인 정보 보호 법안 (CCPA) 및 기타 국제 개인 정보 보호 요구 사항 및 이러한 규정이 귀하의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
 solution: Target
 title: 개인 정보 보호 및 데이터 보호 규정
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
 
 ---
 
 
 # 개인 정보 보호 및 데이터 보호 규정 {#privacy-and-general-data-protection-regulation-gdpr}
 
-유럽 연합의 개인 정보 보호 규정 (GDPR) 및 캘리포니아 소비자 개인 정보 보호 법 (CCPA) 와 이러한 규정이 조직에 미치는 영향에 대한 정보입니다 [!DNL Adobe Target].
+유럽 연합의 개인 정보 보호 규정 (GDPR), 캘리포니아 소비자 개인 정보 보호 법안 (CCPA) 및 기타 국제 개인 정보 보호 요구 사항 및 이러한 규정이 귀하의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -37,9 +37,7 @@ As the Data Controller, you determine the personal data that [!DNL Adobe] proces
 
 ## California Consumer Privacy Act (CCPA) 개요
 
-캘리포니아 소비자 개인 정보 보호법 (CCPA) 는 2020 년 1 월 1 일부터 유효합니다. 디자인은 California Regulator Leeway에게 조정을 하고 세부 사항을 명확히 할 수 있도록 해주므로 당연히 많은 질문이 있을 수 있습니다. 질문이 있는 경우, 법률 관련 불확실성을 해결하고 법률, 운영 및 기술 요구 사항을 해결하기 위한 접근 방식을 이해하고 개발하려는 만큼 많은 기업이 단독으로 작업하고 있지 않습니다.
-
-CCPA는 캘리포니아 소비자에게 개인 정보와 관련된 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 법인에 대한 데이터 보호 책임을 부과한다. 이 법은 높은 수준에서 캘리포니아 시민에게 다음과 같은 권리를 부여합니다.
+캘리포니아 소비자 개인 정보 보호법 (California Consumer Privacy Act, CCPA) 는 캘리포니아 소비자에게 개인 정보와 관련된 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 법인에 대한 데이터 보호 책임을 부과한다. 이 법은 높은 수준에서 캘리포니아 시민에게 다음과 같은 권리를 부여합니다.
 
 * 정보 요청 (데이터 액세스)
 * 개인 정보 판매 거부 (제 3 자와 정보 공유를 선택할 수 있는 매우 광범위하게 정의된 권리)
@@ -102,7 +100,7 @@ window.targetGlobalSettings = {
 
 ## 개인 정보 보호 및 데이터 보호 규정 FAQ {#concept_41F88DE95D2943178BEC382736B5C038}
 
-전용 개인 정보 보호 규정 (GDPR) 및 캘리포니아 소비자 개인 정보 보호 법안 (CCPA) 에 대한 FAQ [!DNL Target]입니다.
+유럽 연합의 개인 정보 보호 규정 (GDPR), 캘리포니아 소비자 개인 정보 보호 법안 (CCPA) 및 Target 관련 기타 국제 개인 정보 보호 요구 사항에 대한 FAQ 입니다.
 
 ### 이러한 규정에 대한 Adobe의 정책은 무엇입니까? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
