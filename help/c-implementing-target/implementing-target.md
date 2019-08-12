@@ -9,7 +9,7 @@ title: Target 구현
 topic: Standard
 uuid: 08482171-73c0-4816-bf4d-4571d92f04ab
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -21,5 +21,5 @@ Adobe Target 사용을 시작하기 전에 먼저 사이트에서 구현하고, 
 + [구현하기 전에](c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
 + [클라이언트측 웹 구현](c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 + [모바일 앱 구현](/help/c-target-mobile-app/target-mobile-app.md)
-+ [서버 측 구현](c-api-and-sdk-overview/target-api-documentation.md)
++ [서버 측 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
 + [이메일 구현](c-non-javascript-based-implementation/non-javascript-based-implementation.md)
