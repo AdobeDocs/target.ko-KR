@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 8월 12일 | [Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 종이와 가공물에 대한 정보가 업데이트되었습니다.<br>파일에 대한 코드 샘플이 `AndroidManifest.XML` 업데이트되었습니다. |
+|  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | " Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1 "섹션의 개선 사항 및 수정 사항 목록을 업데이트했습니다. |
+|  | [활동 편집 또는 초안으로 저장](/help/c-activities/edit-activity.md#classic) | 추가된 새 섹션: " Adobe Target Classic에서 만든 이전 활동과 함께 작업합니다. " |
 | 2019년 8월 9일 | [at.js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 추가된 새 섹션: " at. js에서 HTML 컨텐츠로 오퍼를 렌더링합니다. " |
 |  | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations)을 참조하십시오 | 추가된 새 섹션: " 고려 사항. " |
 | 2019년 8월 7일 | [오퍼 컨텐츠 미리 가져오기](/help/c-target-mobile-app/prefetch-offer-content.md) | SDK의 프리페치 기능은 자동 타겟, 자동 할당 및 자동화된 개인화 활동 유형에 대해 지원되지 않는다는 참고가 추가되었습니다. |
