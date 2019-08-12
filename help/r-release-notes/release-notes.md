@@ -8,7 +8,7 @@ title: Target 릴리스 노트(현재)
 topic: 권장 사항
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
+source-git-commit: 2588a7c251e58193b969d57f91a7c3f640318fbf
 
 ---
 
@@ -34,7 +34,7 @@ source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
 
 단계별 지침과 자세한 내용은 Adobe I/O 통합 액세스 권한 [부여 및 역할 할당을 참조하십시오](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.0 (2019 년 8 월 7 일)
+## Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1 (2019 년 8 월 7 일)
 
 Mobile VEC SDK의 이번 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
 
@@ -43,6 +43,7 @@ Mobile VEC SDK의 이번 릴리스에는 다음 개선 사항 및 수정 사항�
 * 모바일 장치에서의 시각적 활동 미리 보기에 대한 지원이 추가되었습니다. (TGT-27875)
 * Apple Standard 위반이 `UIImagePickerController` 사용으로 인해 발생하는 문제를 수정했습니다.
 * Android SDK에서 Gson 종속성을 제거했습니다. (TGT-31710)
+* 다른 중복 Gradle 종속성 제거 (tgt -35479)
 * 게재 시 배달 오퍼가 재설정되지 않는 문제를 해결했습니다. (TGT-35270)
 
 ## Target Standard/Premium 19.7.1(2019년 7월 24일) {#tgt-19-7-1}
