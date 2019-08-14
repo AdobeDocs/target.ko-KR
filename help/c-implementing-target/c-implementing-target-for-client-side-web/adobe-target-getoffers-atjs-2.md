@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
-| consumerId | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 보조 데이터 ID를 생성하는 데 사용됩니다. |
+| consumerId | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 보조 데이터 ID를 생성하는 데 사용됩니다. 이 키는 방문자별로 고유한 문자열입니다. |
 | 요청 | 개체 | 예 | 아래의 "요청" 표를 참조하십시오. |
 | timeout | 숫자 | 아니오 | 요청 시간 제한. 지정하지 않으면 기본값 at.js 시간 제한이 사용됩니다. |
 
