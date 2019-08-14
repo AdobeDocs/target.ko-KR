@@ -8,7 +8,7 @@ title: 개인 정보 보호 및 데이터 보호 규정
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -37,7 +37,9 @@ As the Data Controller, you determine the personal data that [!DNL Adobe] proces
 
 ## California Consumer Privacy Act (CCPA) 개요
 
-캘리포니아 소비자 개인 정보 보호법 (California Consumer Privacy Act, CCPA) 는 캘리포니아 소비자에게 개인 정보와 관련된 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 법인에 대한 데이터 보호 책임을 부과한다. 이 법은 높은 수준에서 캘리포니아 시민에게 다음과 같은 권리를 부여합니다.
+캘리포니아 소비자 개인 정보 보호법 (California Consumer Privacy Act, CCPA) 는 캘리포니아 소비자에게 개인 정보와 관련된 새로운 권리를 제공하고 캘리포니아에서 비즈니스를 수행하는 특정 법인에 대한 데이터 보호 책임을 부과한다. CCPA는 2020 년 1 월 1 일부터 시행됩니다.
+
+이 법은 높은 수준에서 캘리포니아 시민에게 다음과 같은 권리를 부여합니다.
 
 * 정보 요청 (데이터 액세스)
 * 개인 정보 판매 거부 (제 3 자와 정보 공유를 선택할 수 있는 매우 광범위하게 정의된 권리)
