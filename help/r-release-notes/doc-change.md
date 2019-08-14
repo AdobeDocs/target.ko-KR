@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2019년 8월 14일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 업데이트된 텍스트와 교육 비디오 링크가 추가되었습니다. |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Clarrifed `consumerID` 키에 대한 정보입니다. |
 |  | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)을 참조하십시오 | " 레이아웃 &gt; 이동 "섹션의 업데이트된 정보. |
 | 2019년 8월 12일 | [Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 종이와 가공물에 대한 정보가 업데이트되었습니다.<br>파일에 대한 코드 샘플이 `AndroidManifest.XML` 업데이트되었습니다. |
 |  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | " Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1 "섹션의 개선 사항 및 수정 사항 목록을 업데이트했습니다. |
