@@ -8,7 +8,7 @@ title: 리디렉션 오퍼 - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -43,15 +43,15 @@ source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ## 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 카운트되는 이유는 무엇입니까? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-첫 번째 페이지에서 리디렉션이 실행되기 전에 Analytics 호출을 초래할 수도 있는 경합 조건이 발생할 수 있습니다. 이렇게 되면 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 모두 카운트되어 실제로는 방문자에게 첫 번째 페이지가 "표시"되지 않았는데 첫 번째 페이지에 추가 페이지 보기가 발생할 수 있습니다.
+. JS 버전 1.6.3 이상에서 사용할 때 문제가 되지 않습니다. 이 경합 조건은 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀은 at. js의 두 버전을 유지 관리합니다. 현재 버전과 최신 버전. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+at. js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션이 첫 페이지에서 실행되기 전에 Analytics 호출이 실행될 수 있는 레이스 조건이 발생할 수 있습니다. 이렇게 되면 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 모두 카운트되어 실제로는 방문자에게 첫 번째 페이지가 "표시"되지 않았는데 첫 번째 페이지에 추가 페이지 보기가 발생할 수 있습니다.
 
 페이지 리디렉션의 속도를 높이도록 양식 기반 작성기를 사용하여 리디렉션 활동을 만드는 것이 좋습니다. 이것은 코드가 페이지에서 실행되는 위치 때문입니다. 또한, 리디렉션이 원래 페이지로 돌아가는 리디렉션 오퍼를 기본 경험을 포함한 모든 경험에 대해 만드는 것이 좋습니다. 이렇게 하면 잘못 카운트하는 경우 모든 경험에서 카운트 잘못이 발생하므로 보고와 분석이 테스트에 대해 여전히 유효합니다.
 
->[!NOTE]
->
->이 경합 조건은 at.js 버전 1.6.3 및 그 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀에서는 at.js의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리한다는 점에 유의하십시오. [지원되는 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 실행 중인지 확인하려면 at.js를 필요에 따라 업그레이드하십시오.
+기본 (제어) 경험을 포함하여 활동의 모든 경험에 대해 리디렉션 오퍼를 사용하려는 이유는 모든 경험에 동일한 조건을 적용하는 것입니다. 예를 들어 기본 경험에 리디렉션 오퍼가 없지만 다른 경험에 리디렉션 오퍼가 있는 경우 리디렉션 오퍼가 없는 경험의 속도가 고유한 이점이 있습니다. 리디렉션 오퍼는 테스트와 같은 임시 시나리오에만 권장됩니다. 리디렉션 오퍼는 개인화와 같은 영구 시나리오에 권장되지 않습니다. " 우승자 "를 결정한 후 리디렉션을 제거하여 페이지 로드 성능을 개선해야 합니다.
 
-이 문제에 대한 자세한 내용은 [알려진 문제](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541) 표의 "리디렉션 오퍼" 열을 참조하십시오.
+For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## mbox.js JavaScript 라이브러리를 사용하는 경우 A4T에서 리디렉션 오퍼를 사용할 수 있습니까? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
