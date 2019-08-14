@@ -8,7 +8,7 @@ title: 활동 편집 또는 초안으로 저장
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -60,9 +60,9 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
 
 
 
-## Adobe Target Classic에서 만든 이전 활동과 작업 {#classic}
+## Recommendations Classic에서 만든 이전 활동과 작업 {#classic}
 
-[!UICONTROL 활동] 목록에는 다음을 포함하여 다양한 소스에서 작성된 활동이 표시됩니다 [!DNL Adobe Target Classic]. 다음 작업은에서 만든 이전 활동으로 작업할 때 사용할 수 [!DNL Target Classic]있습니다.
+[!UICONTROL 활동] 목록에는 다음을 포함하여 다양한 소스에서 작성된 활동이 표시됩니다 [!DNL Recommendations Classic]. 다음 작업은에서 만든 이전 활동으로 작업할 때 사용할 수 [!DNL Recommendations Classic]있습니다.
 
 * [!UICONTROL 활성화]
 * [!UICONTROL 비활성화]
@@ -70,7 +70,7 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
 * [!UICONTROL 복사]
 * [!UICONTROL 삭제]
 
-[!DNL Target Classic] 활동을 직접 편집할 수는 없습니다. 활동을 편집하려면, 사용하여 [!DNL Target Standard/Premium] 활동 사본을 만든 다음 새로 만든 활동을 저장해야 합니다.
+[!DNL Recommendations] 활동을 직접 편집할 수는 없습니다. 활동을 편집하려면, 사용하여 [!DNL Target Premium] 활동 사본을 만든 다음 새로 만든 활동을 저장해야 합니다. 그런 다음 새로 만든 이 활동을 필요에 따라 편집할 수 있습니다.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
