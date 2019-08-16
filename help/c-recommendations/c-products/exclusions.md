@@ -8,7 +8,7 @@ title: 제외
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -46,3 +46,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!IMPORTANT]
 >
 >고급 검색 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 제외를 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, "Holiday"를 검색할 때 초기 검색 목록에는 "Holiday"와 "holiday"를 포함하는 결과가 나열됩니다. 그런 다음 "holiday"를 포함하는 제품을 제외할 의도로 제외를 만드는 경우 "holiday"를 포함하는 제품만 제외됩니다. "Holiday"를 포함하는 제품은 제외되지 않습니다.
+
+## 교육 비디오: Recommendations에서 컬렉션 및 제외 만들기 (7:05)
+
+이 비디오에는 다음 정보가 포함되어 있습니다.
+
+* 컬렉션 만들기
+* 제외 만들기
+
+>[!VIDEO](https://video.tv.adobe.com/v/27689?captions=kor)
