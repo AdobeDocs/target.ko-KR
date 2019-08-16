@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -279,7 +279,7 @@ recs/t_feeds_create.xml
 | 다운로드 대기 중 | Target이 피드 파일 다운로드를 준비하는 중입니다. |
 | 피드 파일 다운로드 중 | Target이 피드 파일을 다운로드하는 중입니다. |
 | 항목을 가져오는 중 | Target이 피드 파일에서 항목을 가져오는 중입니다. |
-| Feed Imported Successfully at *time* | Target 이 피드 파일을 컨텐츠 전달 시스템으로 가져옵니다. 항목 속성에 대한 변경 사항은 컨텐츠 전달 시스템에서 만들어졌고 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않는 경우 잠시 후 권장 사항이 포함된 페이지를 새로 고칩니다.<br>*참고 1:* 항목의 특성에 대한 변경 사항이 Recommendations에서 제외되는 경우 제외 사항이 즉시 반영됩니다. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*참고 2:* 이 상태가 표시되면 업데이트가 카탈로그 검색 사용자 인터페이스에 아직 반영되지 않을 수 있습니다. 검색 가능한 카탈로그가 업데이트된 마지막 시간을 나타내는 별도의 상태가 카탈로그 검색에 표시됩니다. |
+| 피드가 *시간에 성공적으로 가져옴* | Target 이 피드 파일을 컨텐츠 전달 시스템으로 가져옵니다. 항목 속성에 대한 변경 사항은 컨텐츠 전달 시스템에서 만들어졌고 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않는 경우 잠시 후 권장 사항이 포함된 페이지를 새로 고칩니다.<br>*참고 1:* 항목의 특성에 대한 변경 사항이 Recommendations에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 속성을 변경하면 더 이상 Recommendations에서 *제외되지* 않습니다. 이 경우 24 시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.<br>*참고 2:* 이 상태가 표시되면 업데이트가 카탈로그 검색 사용자 인터페이스에 아직 반영되지 않을 수 있습니다. 검색 가능한 카탈로그가 업데이트된 마지막 시간을 나타내는 별도의 상태가 카탈로그 검색에 표시됩니다. |
 | 색인화 실패 | 색인 작업에 실패했습니다. 다시 시도하십시오. |
 | 서버를 찾을 수 없음 | FTP 또는 URL 위치가 잘못되었거나 접속할 수 없습니다. |
 
@@ -314,3 +314,25 @@ recs/t_feeds_create.xml
 * 2월 3일: 오전 10시이고 피드가 1개월, 1일, 1시간 동안에 실행되지 않았습니다.
 
 약 1일 1시간 전에 색인이 실행되어야 했는데 그렇지 않으므로 상태는 노란색이어야 합니다. 이것은 빈도 설정의 (31+(1/25))/30 = 1.03%에 불과하지만 하루 지연의 최대값을 초과했습니다.
+
+## 교육 비디오
+
+다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
+
+### Recommendations의 피드 이해 (3:01)
+
+이 비디오에는 다음 정보가 포함되어 있습니다.
+
+* 피드의 목적 이해
+* 피드 값 이해
+
+>[!VIDEO](https://video.tv.adobe.com/v/27695?captions=kor)
+
+### 피드 만들기 (6:44)
+
+이 비디오에는 다음 정보가 포함되어 있습니다.
+
+* 피드 설정
+* 사용할 피드 유형 파악
+
+>[!VIDEO](https://video.tv.adobe.com/v/27696?captions=kor)
