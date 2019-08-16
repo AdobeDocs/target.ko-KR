@@ -1,14 +1,14 @@
 ---
 description: 리디렉션 오퍼가 발생하면 브라우저가 새 페이지로 리디렉션됩니다.
 keywords: 리디렉션 오퍼;리디렉션 오퍼 만들기;html 오퍼 추가;리디렉션에서 모든 URL 매개 변수 전달;리디렉션에서 mboxSessionId 전달(리디렉션이 다른 도메인으로 진행될 경우에만 필요함)
-seo-description: 리디렉션 오퍼가 발생하면 브라우저가 새 페이지로 리디렉션됩니다.
+seo-description: 브라우저가 새 페이지로 리디렉션되는 Adobe Target의 리디렉션 오퍼에 대한 정보입니다.
 seo-title: 리디렉션 오퍼 만들기
 solution: Target
 title: 리디렉션 오퍼 만들기
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 ---
 
@@ -22,8 +22,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >[!NOTE] {class="- topic/note "}
 >
 >ajax mbox에서 리디렉션 오퍼를 사용할 수 없습니다(`mboxUpdate`).
-
->[!NOTE]
 >
 >A4T를 사용하는 활동의 리디렉션 오퍼에 대해서는 구현이 특정 최소 요구 사항을 충족해야 합니다. 또한 사용자가 알아야 하는 중요한 정보도 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)를 참조하십시오.
 
