@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -457,3 +457,13 @@ The Recently Purchased Items criteria now returns results specific to a given [e
 컨텐츠 유사성은 키워드를 사용하여 항목을 비교하므로 일부 속성(예: *메시지* 또는 *설명*)이 비교에 "영향"을 줄 수 있습니다. 이러한 속성을 무시하는 규칙을 만들 수 있습니다.
 
 기본적으로 모든 속성은 *기준선*&#x200B;으로 설정됩니다. 이 설정을 변경하려는 경우가 아니면, 규칙을 만들 필요가 없습니다.
+
+## 교육 비디오: Recommendations에서 기준 만들기 (12:33)
+
+이 비디오에는 다음 정보가 포함되어 있습니다.
+
+* 기준 만들기
+* 기준 시퀀스 만들기
+* 사용자 지정 기준 업로드
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=kor)
