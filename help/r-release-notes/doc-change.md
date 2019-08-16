@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -22,6 +22,14 @@ source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2019년 8월 16일 | [mbox3rdPartyID에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | 추가된 새 섹션: " 고려 사항. " |
+|  | [권장 사항 활동 만들기](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 교육 비디오가 추가되었습니다. |
+|  | [피드](/help/c-recommendations/c-products/feeds.md) | 교육 비디오가 추가되었습니다. |
+|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 교육 비디오가 추가되었습니다. |
+|  | [사용자 지정 기준 업로드](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 교육 비디오가 추가되었습니다. |
+|  | [기준 시퀀스 만들기](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | 교육 비디오가 추가되었습니다. |
+|  | [디자인 만들기](/help/c-recommendations/c-design-overview/create-design.md) | 교육 비디오가 추가되었습니다. |
+|  | [컬렉션](/help/c-recommendations/c-products/collections.md) | 교육 비디오가 추가되었습니다. |
+|  | [제외](/help/c-recommendations/c-products/exclusions.md) | 교육 비디오가 추가되었습니다. |
 | 2019년 8월 14일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 업데이트된 텍스트와 교육 비디오 링크가 추가되었습니다. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Clarrifed `consumerID` 키에 대한 정보입니다. |
 |  | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)을 참조하십시오 | " 레이아웃 &gt; 이동 "섹션의 업데이트된 정보. |
