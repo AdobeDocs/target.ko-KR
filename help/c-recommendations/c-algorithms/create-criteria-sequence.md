@@ -10,7 +10,7 @@ topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -91,3 +91,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    ![](assets/CriteriaSequenceCard.png)
 
    권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
+
+## 교육 비디오: Recommendations에서 기준 만들기 (12:33)
+
+이 비디오에는 다음 정보가 포함되어 있습니다.
+
+* 기준 만들기
+* 기준 시퀀스 만들기
+* 사용자 지정 기준 업로드
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=kor)
