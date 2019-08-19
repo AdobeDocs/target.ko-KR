@@ -9,7 +9,7 @@ title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
 
 ---
 
@@ -128,4 +128,4 @@ Adobe Experience League에서 제공하는 [Analytics &amp; Target: 분석 우�
 * Analytics에서 사용할 이상적인 보고서에 대해 알아보기
 * A4T와 관련된 일반적인 질문에 대한 답변
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=kor)
+[Analytics/Target 통합 (A 4 T) 업무 시간](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
