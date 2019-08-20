@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
+source-git-commit: dcfc016a703ac964876629b353c68a2cd8351ca5
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 513d83251e2cd31593db013aa317cfbdf5da85e8
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2019년 8월 20일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target/Premium 19.8.1 릴리스 (2019 년 8 월 20 일) 를 연기했습니다. 이 릴리스의 컨텐츠는 19.9.1 릴리스 (2019 년 9 월 24 일) 에 롤링됩니다. |
+|  | [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 다음 FAQ가 추가되었습니다. " 권장 항목 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시할 수 있습니까? " |
 | 2019년 8월 16일 | [mbox3rdPartyID에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | 추가된 새 섹션: " 고려 사항. " |
 |  | [권장 사항 활동 만들기](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 교육 비디오가 추가되었습니다. |
 |  | [피드](/help/c-recommendations/c-products/feeds.md) | 교육 비디오가 추가되었습니다. |
