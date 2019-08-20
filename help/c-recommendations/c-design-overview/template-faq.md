@@ -10,7 +10,7 @@ topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -18,6 +18,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png) 디자인 FAQ {#design-faq}
 
 권장 사항 디자인에 대한 FAQ 목록
+
+## 권장 항목 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시할 수 있습니까?
+
+기본적으로 디자인 템플릿에서 `entity.value`반환되는 숫자 값 (등) 는 소수점 뒤에 후행 0 이 표시되지 않습니다. 예를 들어, 항목이 $ 35.00 이면 35 `entity.value` 이고 35만 페이지에 35가 아니라 35가 표시됩니다.
+
+이 문제를 해결하기 위해 두 가지 옵션을 사용할 수 있습니다.
+
+* Velocity 스크립팅 또는 Javascript를 사용하여 반환된 값에 서식을 적용할 수 있습니다.
+
+* 항목의 가격을 별개의 두 개체 속성으로 전달할 수 있습니다. 첫 번째, `entity.value`는 숫자 비교 (가격 비교 규칙 등) 에 사용할 수 있습니다. 두 번째는 올바른 렌더링을 허용하는 문자열로 엔티티의 값을 저장하는 등의 `entity.displayValue` 사용자 지정 특성이어야 합니다.
+
+   예:
+
+   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## 디자인에 카테고리가 표시되지 않는 이유는 무엇입니까? $entity1.categoryId를 사용하고 있습니다.{#section_073309B8051049C7953D396A93EA0713}
 
