@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
+source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
 
 ---
 
@@ -29,20 +29,20 @@ source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 **2019 년 7 월 31 일**
 
-[!UICONTROL 엔터프라이즈 권한을 통해] [!DNL Target] 고객은 단일 조직을 사용할 수 있지만 여러 팀 또는 워크플로우의 작업 영역으로 나눌 수 있습니다. [!UICONTROL 엔터프라이즈 권한] 기능을 사용하면 팀 간의 최적화 프로그램을 효율적으로 확장할 수 있습니다. Although this feature was available in the [!DNL Target] UI, the Admin APIs lacked the corresponding support until the [!DNL Target] February 2019 release. Adobe는 통합 계정을 사용하여 조직에서 만든 모든 작업 영역에 액세스할 수 있도록 관리 API를 업데이트했습니다. So, while earlier, Admin APIs were restricted to the default workspace, the February 2019 update granted access to all workspaces with [!UICONTROL Approver] access.
+[!UICONTROL 엔터프라이즈 권한을 통해] [!DNL Target] 고객은 단일 조직을 사용할 수 있지만 여러 팀 또는 워크플로우의 작업 영역으로 나눌 수 있습니다. [!UICONTROL 엔터프라이즈 권한] 기능을 사용하면 팀 간의 최적화 프로그램을 효율적으로 확장할 수 있습니다. 이 기능은 [!DNL Target] UI에서 사용할 수 있었지만 관리 API는 2019 [!DNL Target] 년 2 월 릴리스까지는 해당 지원을 받지 못했습니다. Adobe는 통합 계정을 사용하여 조직에서 만든 모든 작업 영역에 액세스할 수 있도록 관리 API를 업데이트했습니다. 따라서 이전에는 관리 API가 기본 작업 영역으로 제한되었지만 2019 년 2 월 업데이트에는 [!UICONTROL 승인자] 액세스 권한이 있는 모든 작업 영역에 대한 액세스가 허용되었습니다.
 
-With the upcoming [!DNL Target] September 2019 release, [!UICONTROL Enterprise Permissions] will provide customers with the following access controls:
+2019 년 9 월 출시 [!DNL Target] 이후 [!UICONTROL 엔터프라이즈 권한은] 다음과 같은 액세스 제어를 고객에게 제공합니다.
 
 * 통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다.
-* You can apply a role to the Adobe I/O integration: [!UICONTROL Approver], [!UICONTROL Editor], or [!UICONTROL Observer].
+* Adobe I/O 통합에 역할을 적용할 수 있습니다. [!UICONTROL 승인자], [!UICONTROL 편집자][!UICONTROL 또는 관찰자.]
 
-**조치 필요**: 현재 모든 작업 영역에서 리소스 (활동, 대상, 제안 및 보고) 에 대한 CRUD 작업을 위해 API를 활용하는 고객은 원하는 역할을 가진 모든 작업 영역에 대한 기존 Adobe I/O 통합 액세스 권한을 부여해야 합니다. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of the role selected from the [!UICONTROL Product Role] drop-down list. 향후 릴리스에서는 원하는 역할을 선택할 수 있습니다.
+**조치 필요**: 현재 모든 작업 영역에서 리소스 (활동, 대상, 제안 및 보고) 에 대한 CRUD 작업을 위해 API를 활용하는 고객은 원하는 역할을 가진 모든 작업 영역에 대한 기존 Adobe I/O 통합 액세스 권한을 부여해야 합니다. 9 월 릴리스 이전에는 제품 역할 드롭다운 목록에서 선택한 역할에 관계없이 [!UICONTROL 승인자] 액세스 기능을 사용하여 모든 [!UICONTROL 통합이] 작동되었습니다. 향후 릴리스에서는 원하는 역할을 선택할 수 있습니다.
 
-This action should be performed during the month of **August 2019**. After the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. 통합 역할을 미리 설정하는 데에는 불리한 결과가 없습니다.
+이 작업은 2019 **년 8 월 중에 수행해야 합니다.** 2019 년 9 월 [!DNL Target] 릴리스 이후 액세스 제어가 활성화되고 현재 설정된 방식으로 기본 작업 영역에 대한 액세스를 관찰할 수 있습니다. 통합 역할을 미리 설정하는 데에는 불리한 결과가 없습니다.
 
-For step-by-step instructions and more information, see [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
+단계별 지침과 자세한 내용은 Adobe I/O 통합 액세스 권한 [부여 및 역할 할당을 참조하십시오](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Target Standard/Premium 19.8.1(2019년 8월 20일) {#tgt-19-8-1}
+## Target Standard/Premium 19.9.1(2019년 9월 24일)
 
 이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
