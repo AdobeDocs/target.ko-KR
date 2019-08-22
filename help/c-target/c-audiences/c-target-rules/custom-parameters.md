@@ -8,7 +8,7 @@ title: 사용자 지정 매개 변수
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -23,7 +23,7 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
+1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 사용자 지정]**&#x200B;을 클릭합니다.
 
    원하는 매개 변수를 선택하려면 다음을 수행하십시오.
 
@@ -36,11 +36,11 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 1. 평가자를 선택합니다:
 
    * 다음 포함(대/소문자 구분 안 함)
-   * 포함하지 않음 (대/소문자 구분 안 함)
+   * 다음을 포함하지 않음(대/소문자 구분 안 함)
    * 다음과 같음
    ![사용자 지정 매개 변수 대상](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
-1. 새 줄에 각 값을 입력합니다.
+1. 새 라인에 각 값을 입력합니다.
 1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
@@ -49,6 +49,10 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 >[!NOTE]
 >
 >Target 18.5.1 릴리스(2018년 5월 22일) 전에 생성된 사용자 지정 대상 대상의 경우 mbox 이름은 대상의 정의 팝업 카드에 표시되지 않습니다. 사용자 지정 대상을 다시 저장하여 카드에 표시할 mbox 이름을 가져올 수 있습니다.
+
+## 고려 사항 {#considerations}
+
+* 대상 및 활동은 특정 mbox에 대해 평가됩니다. 글로벌 mbox가 특정 매개 변수를 전달하지만 해당 지역 mbox가 없는 경우 방문자는 해당 활동에 대한 자격이 없습니다.
 
 ## 교육 비디오: 대상 만들기
 
