@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 ---
 
@@ -22,6 +22,8 @@ source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2019년 8월 22일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 모바일 앱 ID에서 금지된 문자를 사용하는 방법에 대한 정보가 제거되었습니다. 더 이상 제한 사항이 없습니다. |
+|  | [사용자 지정 매개 변수](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 추가된 새 섹션: " 고려 사항. " |
+|  | [사용자 지정 기준 업로드](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 다음 문장을 업데이트했습니다. 사용자 지정 기준 업데이트는 기본적으로 "누적" 입니다. CSV 업로드 파일에 지정된 새 키-값 쌍이 기존 키-값 쌍을 덮어씁니다. CSV 업로드에 지정된 키가 없는 기존 키-값 쌍은 계속 배달할 수 있으며, CSV 파일의 일부로 업로드한 후 31 일 후에 만료됩니다. |
 | 2019년 8월 20일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target/Premium 19.8.1 릴리스 (2019 년 8 월 20 일) 를 연기했습니다. 이 릴리스의 컨텐츠는 19.9.1 릴리스 (2019 년 9 월 24 일) 에 롤링됩니다. |
 |  | [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 다음 FAQ가 추가되었습니다. " 권장 항목 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시할 수 있습니까? " |
 | 2019년 8월 16일 | [mbox3rdPartyID에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | 추가된 새 섹션: " 고려 사항. " |
