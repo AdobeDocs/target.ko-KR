@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
    키를 기반으로 기준을 지정하는 방법에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)를 참조하십시오.
 1. **[!UICONTROL 컨텐츠]** 규칙을 설정합니다.
 
-   컨텐츠 규칙은 권장 항목 수로 디자인을 채우지 못할 경우에 발생하는 결과를 결정합니다. 예를 들어, 디자인에 5개 항목에 대한 공간이 있지만 기준을 따를 경우 3개의 항목만 권장되는 경우 나머지 공간을 비워 두거나 백업 권장 사항을 사용하여 추가 공간을 채울 수 있습니다. 적절한 전환 옵션을 선택합니다. 자세한 내용은 [컨텐츠 설정](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)을 참조하십시오.
+   콘텐츠 규칙은 권장 항목 수로 디자인을 채우지 못할 경우에 발생하는 결과를 결정합니다. 예를 들어, 디자인에 5개 항목에 대한 공간이 있지만 기준을 따를 경우 3개의 항목만 권장되는 경우 나머지 공간을 비워 두거나 백업 권장 사항을 사용하여 추가 공간을 채울 수 있습니다. 적절한 전환 옵션을 선택합니다. 자세한 내용은 [컨텐츠 설정](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)을 참조하십시오.
 1. **[!UICONTROL 포함 규칙]**&#x200B;을 설정합니다.
 
    포함 규칙을 사용하여 권장 사항에 표시할 항목 범위를 좁힐 수 있습니다. [포함 규칙](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)을 참조하십시오. 1. **CSV 파일의[!UICONTROL 위치]**&#x200B;를 선택합니다.
@@ -72,7 +72,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
    >
    >사용자 지정 기준 엔티티(행)에는 최대 1,000개의 권장 항목(열)이 포함될 수 있습니다.
 
-사용자 지정 기준 업데이트는 기본적으로 "누적"입니다. CSV 업로드 파일에 지정된 새 키-값 쌍이 기존 키-값 쌍을 덮어씁니다. CSV 업로드에 키가 지정되지 않은 기존 키-값 쌍은 여전히 전달에 사용할 수 있습니다.
+사용자 지정 기준 업데이트는 기본적으로 "누적"입니다. CSV 업로드 파일에 지정된 새 키-값 쌍이 기존 키-값 쌍을 덮어씁니다. CSV 업로드에 지정된 키가 없는 기존 키-값 쌍은 계속 배달할 수 있으며, CSV 파일의 일부로 업로드한 후 31 일 후에 만료됩니다.
 
 Client Care에 문의하여 다음 CSV 업로드에 포함되지 않은 기존 결과를 삭제하도록 설정을 활성화합니다. 이 설정을 활성화하면 사용자 지정 CSV 피드 파일에 있는 키만 전달할 수 있습니다. 이 설정은 모든 사용자 지정 기준에 적용됩니다.
 
