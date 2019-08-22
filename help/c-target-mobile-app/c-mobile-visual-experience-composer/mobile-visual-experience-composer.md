@@ -1,20 +1,20 @@
 ---
-description: 기본 모바일 앱용 VEC(시각적 경험 작성기)를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 컨텐츠를 개인화할 수 있습니다.
-seo-description: 기본 모바일 앱용 VEC(시각적 경험 작성기)를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 컨텐츠를 개인화할 수 있습니다.
+description: 기본 모바일 앱용 VEC(시각적 경험 작성기)를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 콘텐츠를 개인화할 수 있습니다.
+seo-description: 기본 모바일 앱용 VEC(시각적 경험 작성기)를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 콘텐츠를 개인화할 수 있습니다.
 seo-title: 모바일 앱 시각적 경험 작성기
 solution: Target
 title: 모바일 앱 시각적 경험 작성기
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
+source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 
 ---
 
 
 # 모바일 앱 시각적 경험 작성기{#mobile-app-visual-experience-composer}
 
-기본 모바일 앱용 VEC(시각적 경험 작성기)를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 컨텐츠를 개인화할 수 있습니다.
+기본 모바일 앱용 VEC(시각적 경험 작성기)를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 콘텐츠를 개인화할 수 있습니다.
 
 기존 [시각적 경험 작성기](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)는 개발자 개입 없이 Target의 글로벌 Mbox를 통해 웹 속성에 동적으로 전달할 수 있는 활동을 만들고 경험을 개인화하는 자체 기능을 제공합니다. 이제 VEC를 활용하여 기본 모바일 애플리케이션에 대해 동일하게 수행할 수 있습니다. [AEP SDK v5](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target-vec)에 제공되는 모바일 앱 VEC를 사용하여 모바일 앱에 대한 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) 및 [XT(경험 타깃팅)](/help/c-activities/t-experience-target/experience-target.md) 활동을 만들 수 있습니다. 다른 활동 유형에 대한 지원은 향후에 가능합니다.
 
@@ -68,8 +68,8 @@ source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
 | Action | 세부 사항 |
 |--- |--- |
 | 이미지 교체 | 다른 이미지 오퍼를 선택하거나 이미지의 CDN URL을 직접 설정하여 이미지를 다른 이미지로 바꿉니다. Target의 이미지 오퍼는 [Adobe Scene7](/help/administrating-target/scene7-settings.md)을 통해 제공됩니다. |
-| 텍스트 변경 | 텍스트 요소, 단추 또는 레이블에서 텍스트 컨텐츠, 색상 또는 글꼴 크기를 변경합니다. |
-| 배경 변경 | 텍스트 영역 또는 단추의 컨텐츠 또는 요소 배경을 변경합니다. |
+| 텍스트 변경 | 텍스트 요소, 단추 또는 레이블에서 텍스트 콘텐츠, 색상 또는 글꼴 크기를 변경합니다. |
+| 배경 변경 | 텍스트 영역 또는 단추의 콘텐츠 또는 요소 배경을 변경합니다. |
 
 VEC에서 수행한 작업은 앱에서 실시간으로 표시되므로 작성 중에 실시간 미리 보기 기능을 사용할 수 있습니다. 작업은 관련 모바일 화면 또는 보기와 적절하게 연결됩니다.
 
@@ -81,7 +81,7 @@ VEC에서 수행한 작업은 앱에서 실시간으로 표시되므로 작성 �
 
 ![새로운 앱 알림](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-버전 [!UICONTROL 관리] 대화 상자에서 여러 모바일 앱 버전을 수동으로 추가하고 제거할 수 있습니다.
+[!UICONTROL 버전 관리] 대화 상자에서 여러 모바일 앱 버전을 수동으로 추가하고 제거할 수 있습니다.
 
 ![버전 관리 대화 상자](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
@@ -160,7 +160,7 @@ Launch 인터페이스를 사용하여 작업 공간에 대한 `at_property` 값
 | `Activity::onStart`, `Activity::onResume`의 끝 | `OnStart`와 `OnResume`을 동일하거나 다른 `targetViews`로 고려할 것인지 여부는 개발자가 결정합니다. 동일한 것으로 고려할 경우 동일한 `viewName`을 사용합니다. 다른 것으로 고려할 경우 다른 `viewNames`를 사용합니다. 이러한 이벤트는 SDK에 의해 자동으로 추가됩니다. |
 | `Activity::SetContent` 호출 바로 뒤 | UI가 변경되지 않으면 `targetView` 호출을 삽입할 수 있습니다. |
 | `View::willAppear`의 내부 | 선택된 보기가 하나의 특정 보기 계층 구조에 고유하게 표시되는 경우입니다. |
-| `Activity::SetContentView` 호출 바로 뒤 | 활동이 다음 코드에서 해당 컨텐츠를 변경/수정하지 않는 경우입니다. |
+| `Activity::SetContentView` 호출 바로 뒤 | 활동이 다음 코드에서 해당 콘텐츠를 변경/수정하지 않는 경우입니다. |
 
 다음은 Android에서 `targetView` 호출을 지정할 잘못된 위치에 대한 표입니다.
 
@@ -178,7 +178,7 @@ Launch 인터페이스를 사용하여 작업 공간에 대한 `at_property` 값
 
 추가적인 유연성을 위해 `TargetVEC.prefetchOffers()` API를 호출할 수도 있습니다. API를 호출하면 Target 오퍼를 미리 가져와서 Target 보기에 적용할 때까지 현재 레이아웃을 미리 숨깁니다(깜박임이 발생할 수 있음).
 
-사용자가 로컬 Target 오퍼 캐시를 가장 적절한 컨텐츠(현재 사용자의 대상 프로필에 대한 최신 업데이트)로 새로 고치기 위해 고객 앱을 탐색할 때 `TargetVEC.prefetchOffersBackground()`를 반복적으로 호출할 수도 있습니다.
+사용자가 로컬 Target 오퍼 캐시를 가장 적절한 콘텐츠(현재 사용자의 대상 프로필에 대한 최신 업데이트)로 새로 고치기 위해 고객 앱을 탐색할 때 `TargetVEC.prefetchOffersBackground()`를 반복적으로 호출할 수도 있습니다.
 
 Target 오퍼를 미리 가져올 때마다 `AdobeTargetMobile.targetView()`로 트리거된 최신 Target 보기에 대한 오퍼가 적용됩니다.
 
@@ -191,30 +191,6 @@ Target 오퍼를 미리 가져올 때마다 `AdobeTargetMobile.targetView()`로 
 **모바일 앱 VEC가 내 모바일 앱과 동기화되지 않습니다.**
 
 디스플레이를 동기화하려면 VEC에서 [!UICONTROL 새로 고침] 단추를 클릭합니다.
-
-**" context. application. id "값에 금지된 문자가 포함되어 있다는 오류 메시지가 표시되었습니다. 모바일 앱 ID 에는 어떤 문자가 허용됩니까?**
-
-모바일 앱 ID에 허용되는 문자는 다음과 같습니다.
-
-| 허용되는 문자 | 설명 |
-| --- | --- |
-| letters |  |
-| 숫자 |  |
-| `-` | 하이픈 |
-| `.` | 기간 |
-| `,` | 쉼표 |
-| `:` | 콜론 |
-| `#` | 숫자 기호 |
-| `(` | 여는 괄호 |
-| `)` | 닫는 괄호 |
-| `&` | 앰퍼샌드 |
-| `+` | 더하기 기호 |
-
-예를 들어 아포스트로피 ( `'` ) 와 같은 문자를 사용할 수 없는 문자를 사용하면 다음과 같은 오류 메시지가 표시됩니다.
-
-```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
-```
 
 ## 알려진 제한 사항 {#limitations}
 
