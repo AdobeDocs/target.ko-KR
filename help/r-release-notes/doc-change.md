@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
+source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 8월 23일 | [타겟 모바일 미리 보기](/help/c-target-mobile-app/target-mobile-preview.md) | 업데이트된 코드 `AndroidManifest.xml`스니펫입니다. |
+|  | [at. js 플러그인](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) | ttmeta 행을 업데이트했습니다. 이 플러그인은 더 이상 지원되지 않습니다. 응답 토큰을 대신 사용하십시오. |
 | 2019년 8월 22일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 모바일 앱 ID에서 금지된 문자를 사용하는 방법에 대한 정보가 제거되었습니다. 더 이상 제한 사항이 없습니다. |
 |  | [사용자 지정 매개 변수](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 추가된 새 섹션: " 고려 사항. " |
 |  | [사용자 지정 기준 업로드](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 다음 문장을 업데이트했습니다. 사용자 지정 기준 업데이트는 기본적으로 "누적" 입니다. CSV 업로드 파일에 지정된 새 키-값 쌍이 기존 키-값 쌍을 덮어씁니다. CSV 업로드에 지정된 키가 없는 기존 키-값 쌍은 계속 배달할 수 있으며, CSV 파일의 일부로 업로드한 후 31 일 후에 만료됩니다. |
