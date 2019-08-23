@@ -2,9 +2,9 @@
 product: target
 audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
-user-guide-url: /content/help/kr/target/using/target-home.html
+user-guide-url: /content/help/ko-KR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 
 ---
 
@@ -130,7 +130,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [iOS - 사용자 지정 사용자 데이터 전송](c-target-mobile-app/mobile-custom-user-data.md)
       + [Adobe Analytics에 활동 정보 보내기](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [타겟 모바일 미리 보기](c-target-mobile-app/target-mobile-preview.md)
-      + [오퍼 컨텐츠 미리 가져오기](c-target-mobile-app/prefetch-offer-content.md)
+      + [오퍼 콘텐츠 미리 가져오기](c-target-mobile-app/prefetch-offer-content.md)
       + 모바일 앱 시각적 경험 작성기 {#composer}
          + [모바일 앱 시각적 경험 작성기](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)
          + [Android - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
@@ -173,7 +173,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 + 활동 {#activities}
    + [활동 개요](c-activities/activities.md)
    + [Target 활동 유형](c-activities/target-activities-guide.md)
-   + A/B 테스트{#abtest}
+   + A/B 테스트 {#abtest}
       + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
       + [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md)
       + [9가지 공통 A/B 테스트 위험 및 방지 방법](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
@@ -213,7 +213,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [경험 타깃팅에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
          + [목표 및 설정](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [지표 설정](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
-   + 다변량 테스트{#multivariate-test}
+   + 다변량 테스트 {#multivariate-test}
       + [다변량 테스트 개요](c-activities/c-multivariate-testing/multivariate-testing.md)
       + [다변량 테스트 우수 사례](c-activities/c-multivariate-testing/best-practices.md)
       + [다변량 테스트 계획](c-activities/c-multivariate-testing/plan-mvt.md)
@@ -236,15 +236,15 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [클릭 추적](c-activities/r-success-metrics/click-tracking.md)
       + [캡처 점수](c-activities/r-success-metrics/capture-score.md)
    + [활동 변경 로그](c-activities/change-log.md)
-   + 활동 문제 해결{#troubleshoot-activities}
+   + 활동 문제 해결 {#troubleshoot-activities}
       + [활동 문제 해결 개요](c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
-      + [컨텐츠 전달 문제 해결](c-activities/c-troubleshooting-activities/content-trouble.md)
+      + [콘텐츠 전달 문제 해결](c-activities/c-troubleshooting-activities/content-trouble.md)
    + 활동 QA {#activity-qa}
       + [활동 QA 개요](c-activities/c-activity-qa/activity-qa.md)
       + [활동 QA 북마클릿](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [활동 QA 및 서버 측 전달 사용](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
    + [활동 알림](c-activities/notifications.md)
-+ 대상자{#audiences}
++ 대상자 {#audiences}
    + [대상 개요](c-target/target.md)
    + [타깃팅이 작동하는 방법](c-target/target-how-target-works.md)
    + 대상자 만들기 {#create-audiences}
@@ -274,7 +274,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [프로필 속성](c-target/c-visitor-profile/profile-parameters.md)
       + [카테고리 친화성](c-target/c-visitor-profile/category-affinity.md)
       + [고객 속성](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyID에 대한 실시간 프로필 동기화](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox 3 rdpartyid에 대한 실시간 프로필 동기화](c-target/c-visitor-profile/3rd-party-id.md)
       + [프로필 및 변수 용어집](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Target 및 대상 FAQ {#faq-audiences}
       + [Target 및 대상 FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -298,7 +298,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [시각적 경험 작성기 및 향상된 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [시각적 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [향상된 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-         + [브라우저에서 혼합 컨텐츠 사용](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+         + [브라우저에서 혼합 콘텐츠 사용](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [페이지 수정 시나리오](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL로 리디렉션](c-experiences/c-visual-experience-composer/redirect-offer.md)
@@ -308,12 +308,12 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
    + 오퍼 {#offers}
       + [오퍼 개요](c-experiences/c-manage-content/manage-content.md)
       + [오퍼 폴더 만들기](c-experiences/c-manage-content/create-content-folder.md)
-      + [컨텐츠 업로드](c-experiences/c-manage-content/assets-upload.md)
+      + [콘텐츠 업로드](c-experiences/c-manage-content/assets-upload.md)
       + [리디렉션 오퍼 만들기](c-experiences/c-manage-content/offer-redirect.md)
       + [원격 오퍼 만들기](c-experiences/c-manage-content/about-remote-offers.md)
       + [JSON 오퍼 만들기](c-experiences/c-manage-content/create-json-offer.md)
-      + [라이브러리의 컨텐츠 사용](c-experiences/c-manage-content/assets-working.md)
-      + [컨텐츠 검색 및 스마트 컬렉션 만들기](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [라이브러리의 콘텐츠 사용](c-experiences/c-manage-content/assets-working.md)
+      + [콘텐츠 검색 및 스마트 컬렉션 만들기](c-experiences/c-manage-content/filter-and-search-content.md)
       + [오퍼에 동적 데이터 전달](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM 경험 구성요소](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 보고서 {#reports}
