@@ -2,13 +2,13 @@
 description: 사용자 지정 매개 변수는 mbox 매개 변수입니다. 임의의 mbox 매개 변수를 mbox에 전달하거나 targetPageParams 함수를 사용하는 경우 이러한 매개 변수는 대상에서 사용할 수 있도록 여기에 표시됩니다.
 keywords: 사용자 지정 매개 변수;타겟 사용자 지정 매개 변수;targetpageparams;타깃팅 mbox 매개 변수
 seo-description: 사용자 지정 매개 변수는 mbox 매개 변수입니다. 임의의 mbox 매개 변수를 mbox에 전달하거나 targetPageParams 함수를 사용하는 경우 이러한 매개 변수는 대상에서 사용할 수 있도록 여기에 표시됩니다.
-seo-title: 사용자 지정 매개 변수
+seo-title: Adobe Target의 사용자 정의 매개 변수
 solution: Target
 title: 사용자 지정 매개 변수
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -52,7 +52,7 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 
 ## 고려 사항 {#considerations}
 
-* 대상 및 활동은 특정 mbox에 대해 평가됩니다. 글로벌 mbox가 특정 매개 변수를 전달하지만 해당 지역 mbox가 없는 경우 방문자는 해당 활동에 대한 자격이 없습니다.
+* 대상 및 활동은 특정 mbox에 대해 평가됩니다. 예를 들어 글로벌 mbox가 특정 매개 변수를 전달하지만 지역 mbox가 그렇지 않은 경우 해당 매개 변수를 타깃팅한 활동/대상 타깃팅은 지역 mbox에서 사용할 수 없습니다.
 
 ## 교육 비디오: 대상 만들기
 
