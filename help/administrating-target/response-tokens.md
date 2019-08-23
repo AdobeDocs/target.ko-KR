@@ -1,15 +1,15 @@
 ---
 description: '응답 토큰을 사용하면 디버깅이나 타사 시스템(예: Clicktale)과의 통합에 사용할 Target 관련 정보(캠페인 세부 사항, 사용자 프로필 정보, 지리 정보 등)를 자동으로 출력할 수 있습니다.'
-keywords: 응답 토큰;토큰;플러그인;플러그 인
+keywords: 응답 토큰;토큰;플러그인;플러그 인;at.js
 seo-description: '응답 토큰을 사용하면 디버깅이나 타사 시스템(예: Clicktale)과의 통합에 사용할 Target 관련 정보(캠페인 세부 사항, 사용자 프로필 정보, 지리 정보 등)를 자동으로 출력할 수 있습니다.'
-seo-title: 응답 토큰
+seo-title: Adobe Target의 응답 토큰
 solution: Target
 subtopic: 시작하기
 title: 응답 토큰
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ccc2d9c2de7013ecc2423af6905359ab99fd2269
+source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 ---
 
@@ -282,12 +282,8 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 </script>
 ```
 
->[!NOTE]
->
->Ttmeta 플러그인은 더 이상 지원되지 않습니다. For more information, see [at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md).
-
 ## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-다음 비디오를 시청하여 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 학습하십시오.
+다음 비디오를 통해 응답 토큰 및 at. js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 알아보십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=kor)
