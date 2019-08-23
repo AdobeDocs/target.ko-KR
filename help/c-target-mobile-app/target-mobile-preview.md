@@ -1,14 +1,14 @@
 ---
 description: 모바일 미리 보기 링크를 사용하여 모바일 앱 활동에 대한 간단한 종단 간 QA를 수행하고 특별한 테스트 장치 없이 장치에서 다양한 경험을 직접 등록할 수 있습니다.
-keywords: qa;미리 보기;미리 보기 링크;모바일;모바일 미리 보기
+keywords: QA; 미리 보기; 링크 미리 보기; 모바일; 모바일 미리 보기
 seo-description: 모바일 미리 보기 링크를 사용하여 모바일 앱 활동에 대한 간단한 종단 간 QA를 수행하고 특별한 테스트 장치 없이 장치에서 다양한 경험을 직접 등록할 수 있습니다.
-seo-title: Target 모바일 미리 보기
+seo-title: Adobe Target Mobile에서 모바일 미리 보기 링크 사용
 solution: Target
 title: Target 모바일 미리 보기
 topic: 고급,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->이 기능은 2017년 10월 12일 이후의 모든 고객을 위한 UI에서 켜집니다. 모바일 미리 보기 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다.
+>모바일 미리 보기 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다.
 
 ## 개요 {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -80,7 +80,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    모바일 미리 보기가 Android에 대해 작동되도록 하려면 [!DNL AndroidManifest.xml]에 다음 코드 조각도 추가해야 합니다.
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## 미리 보기 링크 생성 {#section_D9D58173FFF34E9BB75EBF357273F128}
