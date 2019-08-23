@@ -9,7 +9,7 @@ title: 응답 토큰
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ccc2d9c2de7013ecc2423af6905359ab99fd2269
 
 ---
 
@@ -281,6 +281,10 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
   } 
 </script>
 ```
+
+>[!NOTE]
+>
+>Ttmeta 플러그인은 더 이상 지원되지 않습니다. For more information, see [at.js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md).
 
 ## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
