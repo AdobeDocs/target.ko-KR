@@ -1,14 +1,14 @@
 ---
 description: at.js 2.x를 사용하여 SPA(단일 페이지 애플리케이션)를 구현하기 위한 정보입니다.
-keywords: 단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현하기;spa;at.js 2.x
+keywords: 단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현하기;spa;at.js 2.x; at. js; 단일 페이지 애플리케이션; 단일 페이지 앱
 seo-description: Adobe Target at.js 2.x를 사용하여 SPA(단일 페이지 애플리케이션)를 구현하기 위한 정보입니다.
-seo-title: 단일 페이지 애플리케이션 구현
+seo-title: Adobe Target에서 단일 페이지 애플리케이션 구현
 solution: Target
 title: 단일 페이지 애플리케이션 구현
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -199,7 +199,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 | 3 | 모든 구성된 매개 변수(MCID, SDID 및 고객 ID)를 포함하는 페이지 로드 요청이 이루어집니다. |
 | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 대상 라이브러리의 적절한 대상(예: Adobe Analytics, Audience Management 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 묶음 프로세스를 통해 프로필 저장소로 전송됩니다. |
 | 5 | [!DNL Target]에서는 URL 요청 매개 변수 및 프로필 데이터를 기반으로 현재 페이지 및 미래 보기를 위해 방문자에게 반환할 활동 및 경험을 결정합니다. |
-| 6 | 타깃팅된 컨텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>현재 페이지의 타깃팅된 컨텐츠는 기본 컨텐츠의 플리커 없이 가능한 한 빨리 나타납니다.<br>`triggerView()`를 통해 보기를 트리거할 때 추가적인 서버 호출 없이 즉시 적용할 수 있도록 브라우저에서 캐시된 SPA의 사용자 동작에 대한 결과로서 표시되는 보기를 위한 타깃팅된 컨텐츠입니다. |
+| 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>현재 페이지의 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다.<br>`triggerView()`를 통해 보기를 트리거할 때 추가적인 서버 호출 없이 즉시 적용할 수 있도록 브라우저에서 캐시된 SPA의 사용자 동작에 대한 결과로서 표시되는 보기를 위한 타깃팅된 콘텐츠입니다. |
 | 7 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 8 | 타깃팅된 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다.그런 다음 <br>Analytics 데이터는 Analytics for Target (A4T) 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
 
@@ -210,8 +210,8 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 | 단계 | 세부 사항 |
 | --- | --- |
 | 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
-| 2 | 보기용으로 타깃팅된 컨텐츠를 캐시에서 읽습니다. |
-| 3 | 타깃팅된 컨텐츠는 기본 컨텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 2 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
+| 3 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
 | 5 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
@@ -281,13 +281,13 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=kor)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+자세한 [내용은 at. js 2. x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식을 참조하십시오.
 
 ### SPA에서 at.js 2.x 구현
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=kor)
 
-See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+자세한 [내용은 단일 페이지 애플리케이션 (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 에서 Adobe Target의 at. js 2. x 구현을 참조하십시오.
 
 ### Adobe Target에서의 SPA용 VEC 사용
 
