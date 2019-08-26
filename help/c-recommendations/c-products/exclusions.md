@@ -1,14 +1,14 @@
 ---
 description: 항목이 추천되지 않도록 하려면 제외 목록을 만드십시오.
 keywords: 제외
-seo-description: 항목이 추천되지 않도록 하려면 제외 목록을 만드십시오.
-seo-title: 제외
+seo-description: Adobe Target에서 제외 목록을 만들어 항목을 권장하지 않도록 합니다.
+seo-title: Adobe Target에서 제외
 solution: Target
 title: 제외
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 ---
 
@@ -21,11 +21,13 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 >
 >정적 및 동적 제외 규칙은 마케팅 활동에 도움이 될 수 있는 강력한 기능입니다. 자세한 정보, 예 및 사용 사례 시나리오가 필요하면 [동적 및 정적 포함 규칙 사용](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하십시오.
 
+**제외를 만들려면:**
+
 1. **[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 제외]**&#x200B;를 클릭하여 기존 제외 목록을 표시합니다.
 
-   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 "항목 수"는 구성된 기본 권장 사항 [호스트 그룹](/help/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
-
    ![](assets/exclusions_list.png)
+
+   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 "항목 수"는 구성된 기본 권장 사항 [호스트 그룹](/help/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
 
 1. **[!UICONTROL 제외 만들기]**&#x200B;를 클릭합니다.
 
@@ -41,7 +43,13 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
-   카탈로그 검색 페이지의 고급 검색([!UICONTROL 권장 사항] &gt; [!UICONTROL 카탈로그 검색] &gt; [!UICONTROL 고급 검색])을 사용하여 제외를 만들 수도 있습니다. 예를 들어 "id &gt; 포함"을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] &gt; [!UICONTROL 제외]를 클릭할 수 있습니다.
+## 고급 검색을 사용하여 제외 만들기
+
+카탈로그 검색 페이지의 고급 검색([!UICONTROL 권장 사항] &gt; [!UICONTROL 카탈로그 검색] &gt; [!UICONTROL 고급 검색])을 사용하여 제외를 만들 수도 있습니다. 
+
+[다른 이름으로 저장](/help/c-recommendations/c-products/assets/save-as.png)
+
+예를 들어 "id &gt; 포함"을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] &gt; [!UICONTROL 제외]를 클릭할 수 있습니다. 자세한 내용은 [카탈로그 검색을](/help/c-recommendations/c-products/catalog-search.md)참조하십시오.
 
 >[!IMPORTANT]
 >
