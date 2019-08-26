@@ -1,7 +1,7 @@
 ---
 description: 권장 사항에 가져온 엔티티를 가져오려면 피드를 사용하십시오. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
-keywords: 권장 사항 피드;피드;SAINT;ftp;csv
-seo-description: 권장 사항에 가져온 엔티티를 가져오려면 피드를 사용하십시오. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
+keywords: 권장 사항 피드;피드;SAINT;ftp;csv; 분류; 분석 분류
+seo-description: 피드를 사용하여 Adobe Recommendations로 가져온 엔티티를 가져옵니다. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
 seo-title: 피드
 solution: Target
 title: 피드
@@ -10,30 +10,35 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 83da8c014f46f9b5e2d17dc616097b59050f2549
+source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 피드{#feeds}
 
-권장 사항에 가져온 엔티티를 가져오려면 피드를 사용하십시오. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
+Use feeds to get entities imported into [!DNL Recommendations]. CSV 파일, Google 제품 검색 피드 형식 및 Adobe Analytics 제품 분류를 사용하여 엔티티를 보낼 수 있습니다.
 
 ## 피드 개요 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-권장 사항에 가져온 엔티티를 가져오려면 피드를 사용하십시오. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
+피드를 사용하면 [엔티티](/help/c-recommendations/c-products/products.md)를 전달하거나, 페이지에서 사용할 수 없거나 여백, COGS 등과 같이 페이지에서 직접 보내기에는 안전하지 않은 정보가 있는 mbox 데이터를 보강할 수 있습니다.
 
-피드를 사용하면 [엔티티](../../c-recommendations/c-products/products.md#concept_FD935A24D98745FFB2447933FCEB8062)를 전달하거나, 페이지에서 사용할 수 없거나 여백, COGS 등과 같이 페이지에서 직접 보내기에는 안전하지 않은 정보가 있는 mbox 데이터를 보강할 수 있습니다.
-
-Adobe Target 제품 분류 파일 또는 Google 제품 검색 파일에서 [!DNL Recommendations] 서버로 전송할 열을 선택할 수 있습니다. 각 항목에 대한 이러한 데이터 조각을 템플릿 표시에서 사용하여 권장 사항을 제어할 수 있습니다.
+You can select which columns from your [!DNL Target] product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. 각 항목에 대한 이러한 데이터 조각을 템플릿 표시에서 사용하여 권장 사항을 제어할 수 있습니다.
 
 개체 피드와 mbox 양쪽에서 데이터를 수집할 경우 가장 최근의 데이터가 우선합니다. 일반적으로 가장 최근의 데이터는 mbox가 더 자주 조회되므로 mbox에서 옵니다. 드물지만 개체 피드 데이터와 mbox 데이터가 동시에 조회되는 경우 mbox 데이터가 사용됩니다.
 
-[!UICONTROL 피드] 목록(**[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 피드]**)에는 만들어진 피드에 대한 정보가 있습니다. 피드의 이름을 편집하려면 피드 자체를 편집해야 합니다. 새 이름으로 저장하면 피드가 새로 고쳐집니다.
+[!UICONTROL 피드] 목록(**[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 피드]**)에는 만들어진 피드에 대한 정보가 있습니다.
 
->[!NOTE]
->
->[!UICONTROL 최근 업데이트된] 피드에 "정의되지 않음"이라고 표시된다면 피드가 [!DNL Recommendations Classic]을 통해 제공되는 것이며 [!DNL Target Premium Recommendations]에서는 변경할 수 없습니다.
+![피드 페이지](/help/c-recommendations/c-products/assets/feeds-page.png)
+
+피드 페이지에는 다음 열이 포함되어 있습니다.
+
+* **이름**: 만드는 동안 지정된 피드의 이름. 피드의 이름을 편집하려면 피드 자체를 편집해야 합니다. 새 이름으로 저장하면 피드가 새로 고쳐집니다.
+* ****&#x200B;유형: 유형에는 [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Google 제품 피드](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)및 [분석 분류가 포함됩니다.](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)
+* **상태**: 피드의 현재 [상태입니다](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **일정**: 피드에 대한 업데이트 일정을 표시합니다. 일별, 주별, 2 주 또는 절대 없습니다.
+* **항목**: 피드에 있는 항목의 수를 표시합니다.
+* **최종 업데이트일: 피드를 마지막으로 업데이트한 날짜와 시간 및 피드를 업데이트한 사람의 이름을 표시합니다.** [!UICONTROL 마지막으로 업데이트된] 피드가 "정의되지 않음" 로 표시되면 피드가에서 [!DNL Recommendations Classic] 들어오고 내에서 [!DNL Target Premium Recommendations]변경할 수 없습니다.
 
 ## CSV{#section_65CC1148C7DD448FB213FDF499D35FCA}로 내보내기 
 
@@ -47,11 +52,11 @@ Adobe 소유 CSV 업로드 형식을 사용하여 `.csv` 파일을 작성할 수
 
 페이지에 mbox가 없는 경우 또는 사이트에서 사용할 수 없는 항목으로 표시 정보를 보완하려는 경우 일괄 업로드 방법을 사용하여 표시 정보를 전송할 수 있습니다. 예를 들어 사이트에 게시되지 않았을 수 있는 재고 정보를 전송할 수 있습니다.
 
-[!DNL .csv] 파일, Google 제품 피드 또는 Analytics 제품 분류 피드를 사용하여 업로드한 모든 데이터는 데이터베이스의 기존 엔티티 속성값을 덮어씁니다. mbox 요청을 통해 가격 정보를 보내고 파일에 다른 가격 값을 보내는 경우 파일의 값은 mbox 요청에 설정된 값을 덮어씁니다. 최대 250자까지 덮어쓰는 대신 카테고리 값을 추가한 `categoryId` 엔티티 속성은 예외입니다.
+.csv 파일, Google 제품 피드 또는 Analytics 제품 분류 피드를 사용하여 업로드한 모든 데이터는 데이터베이스의 기존 엔티티 속성 값을 덮어씁니다. mbox 요청을 통해 가격 정보를 보내고 파일에 다른 가격 값을 보내는 경우 파일의 값은 mbox 요청에 설정된 값을 덮어씁니다. 최대 250자까지 덮어쓰는 대신 카테고리 값을 추가한 `categoryId` 엔티티 속성은 예외입니다.
 
 >[!IMPORTANT]
 >
->[!DNL .csv] 파일에서 의도된 것이 아니라면 값을 큰따옴표(")로 묶지 마십시오. 값을 큰따옴표로 묶으면 다른 큰따옴표로 묶어서 이스케이프 처리를 해야 합니다. 큰따옴표를 이스케이프 처리를 하지 않으면 권장 사항 피드가 제대로 로드되지 않습니다.
+>의도한 경우를 제외하고. csv 파일에서 큰 따옴표 (") 로 값을 묶지 마십시오. 값을 큰따옴표로 묶으면 다른 큰따옴표로 묶어서 이스케이프 처리를 해야 합니다. 이스케이프되지 않은 큰 따옴표는 Recommendations 피드가 제대로 로드되지 않도록 합니다.
 
 예를 들어, 다음 구문은 올바르지 않습니다.
 
@@ -87,11 +92,9 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ## Google {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
->[!IMPORTANT]
->
->Google Product Search 피드 유형에서는 Google 형식을 사용합니다. 이것은 Adobe 소유 CSV 업로드 형식과는 다릅니다.
+Google Product Search 피드 유형에서는 Google 형식을 사용합니다. 이것은 Adobe 소유 CSV 업로드 형식과는 다릅니다.
 
-기존 Google 제품 피드가 있는 경우 가져오기 파일로 사용할 수 있습니다.
+기존 Google 제품 피드가 있는 경우 해당 피드를 가져오기 파일로 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -188,45 +191,47 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ## Analytics 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 *Analytics 도움말 및 참조* 안내서의 [분류](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html)를 참조하십시오. 권장 사항에서 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용자 안내서를 따르십시오.
+Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니다. For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 권장 사항에서 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용자 안내서를 따르십시오.
 
 >[!IMPORTANT]
 >
 >Analytics 제품 분류를 사용하여 엔티티 데이터를 권장 사항으로 가져오려면 먼저 이것이 사전 정의된 방법이 아니라는 것을 알아 두십시오.
+>
 > 다음 주의 사항에 유의하십시오.
 >* 엔티티 속성에 대한 업데이트는 최대 24시간이 넘는 지연을 초래합니다.
->* Target은 제품 분류만 지원합니다. Analytics 제품 SKU는 권장 사항 entity.id와 동일한 수준에 매핑해야 합니다 . 사용자 지정 Analytics 분류는 Adobe 컨설팅 서비스를 사용하여 만들 수 있습니다. 질문이 있으면 계정 관리자에게 문의하십시오.
+>* Target은 제품 분류만 지원합니다. Analytics 제품 SKU는 권장 사항 `entity.id`와 동일한 수준에 매핑해야 합니다. 사용자 지정 Analytics 분류는 Adobe 컨설팅 서비스를 사용하여 만들 수 있습니다. 질문이 있으면 계정 관리자에게 문의하십시오.
 
 
 ## 피드 만들기 {#steps}
 
 [!DNL Recommendations]에 제품이나 서비스에 대한 정보를 삽입하는 피드를 작성합니다.
 
-<!-- 
-
-recs/t_feeds_create.xml
-
- -->
-
 1. Target 인터페이스에서 **[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 피드]&gt;****[!UICONTROL 피드 만들기]**&#x200B;를 클릭하십시오.
 
-   ![단계 결과](assets/CreateFeed.png)
+   ![피드 만들기 대화 상자](assets/CreateFeed.png)
 
 1. 피드의 수사적 이름을 지정합니다.
 1. **[!UICONTROL 소스 유형]**&#x200B;을 선택합니다.
 
-   Google 제품 피드 및 CSV 피드 유형에 대한 자세한 내용은 [피드 개요](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)를 참조하십시오.
-1. 피드를 액세스할 수 있는 보고서 세트나 URL 또는 FTP 위치를 지정합니다.
+   * CSV로 내보내기
+   * Google 제품 피드
+   * 분석 분류
+   CSV 및 Google 제품 피드 피드 유형에 대한 자세한 내용은 [피드 개요를](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)참조하십시오. 모델 CSV 안내서를 [다운로드하여 피드](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) 형식을 올바르게 지정할 수도 있습니다.
 
-   FTP를 선택하는 경우 FTP 서버 정보, 로그인 자격 증명, 파일 이름 및 FTP 디렉토리를 제공하십시오. 보다 안전한 업로드를 위해 SSL을 사용하는 FTP(FTPS)를 선택할 수 있습니다.
+1. (조건부) **[!UICONTROL CSV]** 또는 **[!UICONTROL Google 제품 피드를]**&#x200B;선택한 경우 피드에 액세스할 수 있는 위치를 지정합니다.
 
-   지원되는 FTP 서버 설정:
+   * **FTP**: FTP를 선택한 경우 FTP 서버 정보, 로그인 자격 증명, 파일 이름 및 FTP 디렉토리를 제공합니다. 보다 안전한 업로드를 위해 SSL을 사용하는 FTP(FTPS)를 선택할 수 있습니다.
 
-   * FTP 및 FTPS는 수동 FTP를 사용하도록 설정되어야 합니다.
-   * FTPS의 경우 명시적 FTPS 연결을 허용하도록 서버를 구성합니다.
-   * Sftp는 지원되지 않습니다.
-   * 연결을 시작할 포트를 수동으로 지정할 수 있습니다 (예: ftp://ftp.yoursite.com:2121). 포트를 지정하지 않으면 기본 FTP 또는 FTPS 포트가 사용됩니다.
-   URL을 선택하는 경우에는 URL을 지정하십시오.
+      지원되는 FTP 서버 설정:
+
+      * FTP 및 FTPS는 수동 FTP를 사용하도록 설정되어야 합니다.
+      * FTPS의 경우 명시적 FTPS 연결을 허용하도록 서버를 구성합니다.
+      * Sftp는 지원되지 않습니다.
+      * 연결을 시작할 포트를 수동으로 지정할 수 있습니다 (예: `ftp://ftp.yoursite.com:2121`). 포트를 지정하지 않으면 기본 FTP 또는 FTPS 포트가 사용됩니다.
+   * **URL**: URL를 선택하는 경우 URL를 지정합니다.
+
+
+1. (조건부) **[!UICONTROL 분석 분류를]**&#x200B;선택한 경우 드롭다운 목록에서 보고서 세트를 선택합니다.
 
 1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 예약] 선택 사항을 표시합니다.
 
@@ -237,27 +242,23 @@ recs/t_feeds_create.xml
    * 일별
    * 주별
    * 2주마다
-   * 절대 안 함
-   업데이트는 예약하지 마십시오. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
+   * 절대 안 함: 업데이트를 예약하지 마십시오. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
 
 1. 피드를 실행할 시간을 지정합니다.
 
    이 선택 사항은 브라우저에서 사용되는 시간대를 기반으로 합니다. 다른 시간대의 시간을 사용하려면 시간대에 따라 시간을 계산해야 합니다.
+
 1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 매핑] 선택 사항을 표시한 다음, 데이터를 [!DNL Target] 정의에 매핑하는 방식을 지정합니다.
 
    ![단계 결과](assets/CreatFeedMapping.png)
 
 1. (선택 사항) 피드가 환경(호스트 그룹)에 속하도록 하려면 호스트 그룹을 선택합니다.
 
-   기본적으로 피드는 모든 호스트 그룹에 속합니다. 따라서 이 피드의 항목을 어떤 환경에서든 사용할 수 있습니다.
-
-   >[!NOTE]
-   >
-   >자세한 내용은 [호스트](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
+   기본적으로 피드는 모든 호스트 그룹에 속합니다. 따라서 이 피드의 항목을 어떤 환경에서든 사용할 수 있습니다. 자세한 내용은 [호스트](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
-피드를 만들거나 편집하면 피드가 즉시 실행된 다음, 설정하는 매개 변수에 따라 업데이트됩니다. 모든 정보를 사용할 수 있게 되는 데에는 시간이 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태가 피드 목록의 [피드 상태](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) 아래에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
+피드를 만들거나 편집하면 피드가 즉시 실행된 다음, 설정하는 매개 변수에 따라 업데이트됩니다. 모든 정보를 사용할 수 있게 되는 데에는 시간이 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태가 피드 목록의 [피드 상태](/help/c-recommendations/c-products/feeds.md#status) 아래에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
 
 색인화가 진행 중인 동안 개별 값이 색인화되기 전에 제품 및 피드 헤더가 표시됩니다. 따라서 제품을 검색하고 볼 수 있으므로 색인화가 완료되기 전에 컬렉션, 제외, 디자인 및 활동을 작성할 수 있습니다.
 
