@@ -1,8 +1,8 @@
 ---
 description: 컬렉션은 권장 사항에 적합한 제품 또는 항목 세트입니다.
 keywords: 컬렉션;타깃팅
-seo-description: 컬렉션은 권장 사항에 적합한 제품 또는 항목 세트입니다.
-seo-title: 컬렉션
+seo-description: 컬렉션은 Adobe Target에서 추천을 받을 수 있는 제품 또는 항목 세트입니다.
+seo-title: Adobe Target의 컬렉션
 solution: Target
 title: 컬렉션
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
 
 ---
 
@@ -19,15 +19,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 컬렉션은 권장 사항에 적합한 제품 또는 항목 세트입니다.
 
-## 컬렉션 {#concept_671BEFFB997D4F1282665BF3CAC00AC5}
-
-컬렉션은 권장 사항에 적합한 제품 또는 항목 세트입니다.
-
 일반적으로 컬렉션은 하나의 제품 컬렉션과 같이 유사하거나 관련성이 있는 항목들의 세트입니다. 그러나 어떤 항목이든 특정 가격 범위나 색상 또는 특정 지역에서 관심을 가질 수 있는 항목 등, 비즈니스에 의미가 있는 카테고리로 그룹화할 수 있습니다.
 
 제품을 논리 버킷으로 구성하려면 컬렉션을 사용하십시오. 예를 들어 어떤 항목들이 한 지역에서는 사용할 수 있지만 다른 지역에서는 사용할 수 없다면, 방문자의 지역에서 사용할 수 없는 항목을 제외하는 컬렉션을 만들 수 있습니다. 컬렉션을 사용하여 시즌별 항목을 구성하거나 비즈니스에 적용되는 다른 조직 매개 변수를 구성할 수도 있습니다.
 
-권장 사항 내 각 기준에 대해 생성된 백업 권장 사항도 이 컬렉션을 사용하므로, 해당 컬렉션의 항목만 백업 권장 사항에 포함됩니다. 컬렉션을 사용하여 특정 위치에 표시되는 것이 적합한 제품만 표시되게 할 수 있습니다.
+The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. 컬렉션을 사용하여 특정 위치에 표시되는 것이 적합한 제품만 표시되게 할 수 있습니다.
 
 컬렉션은 각 기준이 실행될 때마다 재구성 또는 업데이트됩니다.
 
@@ -47,9 +43,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. **[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 컬렉션]**&#x200B;을 클릭하여 기존 컬렉션 목록을 표시합니다.
 
-   [!UICONTROL 컬렉션][](/help/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 "항목 수"는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
+   ![컬렉션 목록](assets/collections_list.png)
 
-   ![](assets/collections_list.png)
+   [!UICONTROL 컬렉션][](/help/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 "항목 수"는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
 
 1. **[!UICONTROL 컬렉션 만들기]**&#x200B;를 클릭합니다.
 
@@ -68,7 +64,14 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
    여러 매개 변수를 사용하는 규칙을 추가하여 컬렉션을 정의할 수 있습니다. 여러 규칙을 AND로 결합합니다. 컬렉션을 적용하려면 지정된 모든 규칙이 일치해야 합니다.
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
-카탈로그 검색 페이지의 고급 검색([!UICONTROL 권장 사항] &gt; [!UICONTROL 카탈로그 검색] &gt; [!UICONTROL 고급 검색] )을 사용하여 컬렉션을 만들 수도 있습니다. 예를 들어 "id &gt; 포함"을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] &gt; [!UICONTROL 컬렉션]을 클릭할 수 있습니다.
+
+## 고급 검색을 사용하여 컬렉션 만들기
+
+[카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md) 페이지에서 고급 검색을 사용하여 컬렉션을 만들 수도 있습니다[!UICONTROL (권장] 사항 &gt; [!UICONTROL 카탈로그 검색] &gt; [!UICONTROL 고급 검색]).
+
+![다른 이름으로 저장](/help/c-recommendations/c-products/assets/save-as.png)
+
+예를 들어 "id &gt; 포함"을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] &gt; [!UICONTROL 컬렉션]을 클릭할 수 있습니다.
 
 >[!IMPORTANT]
 >
