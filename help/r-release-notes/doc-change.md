@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
+source-git-commit: 7020705c25ad2a4f25844ea70985ad9e2199b41f
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 9월 4일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 주제가 업데이트됨. |
 | 2019년 8월 23일 | [타겟 모바일 미리 보기](/help/c-target-mobile-app/target-mobile-preview.md) | 업데이트된 코드 `AndroidManifest.xml`스니펫입니다. |
 | 2019년 8월 22일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 모바일 앱 ID에서 금지된 문자를 사용하는 방법에 대한 정보가 제거되었습니다. 더 이상 제한 사항이 없습니다. |
 |  | [사용자 지정 매개 변수](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 추가된 새 섹션: " 고려 사항. " |
@@ -57,7 +58,7 @@ source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
 |  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 최근에 본 항목에 메모를 추가했습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 활동 QA 미리 보기 링크에 알려진 문제가 추가되었습니다. |
 | 2019년 7월 29일 | [보고 FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 새로운 FAQ 추가: " 왜 내 [!UICONTROL 경험 타깃팅] (XT) 보고서에 제어 경험에 대한 지표가 포함되어 있습니까? " |
-| 2019년 7월 24일 | [. js 1 *. x* 에서 at. js 2 *. x로 업그레이드*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 추가된 새 섹션: [at. js 2. x의 크로스 도메인 추적 지원](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+| 2019년 7월 24일 | [Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 추가된 새 섹션: [at. js 2. x의 크로스 도메인 추적 지원](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 새 주제입니다.  |
 |  | [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status) | 추가된 새 섹션: " Recommendations Offer의 상태를 보고 있습니다. " |
 |  | [피드](/help/c-recommendations/c-products/feeds.md) | " 항목 가져오기 "행이 업데이트되었으며 피드 상태 아래의" 피드를 *때*&#x200B;가져오기 "행이 [추가되었습니다](/help/c-recommendations/c-products/feeds.md#status). |
