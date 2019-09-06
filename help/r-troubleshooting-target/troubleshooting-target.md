@@ -8,7 +8,7 @@ title: Target 문제 해결
 topic: 고급,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -71,10 +71,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 * [Target 및 대상 FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [프로필 스크립트 속성](/help/c-target/c-visitor-profile/profile-parameters.md)
 
-## 컨텐츠
+## 콘텐츠
 
 * [Target 최적화 및 개인화 FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
-* [컨텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md)
+* [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md)
 
 ## Enterprise 권한
 
@@ -124,9 +124,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 * [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md)
 
-## 모바일 앱 시각적 경험 작성기
+## 모바일 앱
 
 * [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
+* [모바일 앱용 타겟 FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 보고
 
