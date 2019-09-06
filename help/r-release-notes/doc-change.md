@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2019 년 9 월 6 일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 19.9.1 (2019 년 9 월 10 일) 릴리스에 대한 정보가 추가되었습니다. |
+|  | [모바일 앱용 타겟 FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 새 주제입니다.  |
 | 2019년 9월 4일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 주제가 업데이트됨. |
 | 2019년 8월 23일 | [타겟 모바일 미리 보기](/help/c-target-mobile-app/target-mobile-preview.md) | 업데이트된 코드 `AndroidManifest.xml`스니펫입니다. |
 | 2019년 8월 22일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 모바일 앱 ID에서 금지된 문자를 사용하는 방법에 대한 정보가 제거되었습니다. 더 이상 제한 사항이 없습니다. |
