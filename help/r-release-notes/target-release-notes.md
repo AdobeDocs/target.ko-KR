@@ -2,13 +2,13 @@
 description: 최신 또는 예정된 [! DNL Adobe Target] 릴리스.
 keywords: 릴리스 노트
 seo-description: 최신 또는 예정된 [! DNL Adobe Target] 릴리스.
-seo-title: Adobe Target 릴리스 노트 (베타 버전)
+seo-title: Adobe Target 릴리스 노트(사전 릴리스)
 solution: Target
 title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
+source-git-commit: 27963738d0935427bd9c96df6922911394df31c3
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
 
 이러한 릴리스 노트는 최신 또는 예정된 [!DNL Adobe Target] 릴리스의 기능, 향상된 기능 및 수정 사항에 대한 정보를 제공합니다.
 
-**마지막 업데이트 날짜: 2019년 7월 31일**
+**최근 업데이트: 2019년 9월 6일**
 
 >[!NOTE]
 >
@@ -42,7 +42,13 @@ source-git-commit: 3b21fede9df1ef61da194fac55ffb862c037258a
 
 단계별 지침과 자세한 내용은 Adobe I/O 통합 액세스 권한 [부여 및 역할 할당을 참조하십시오](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Target Standard/Premium 19.9.1(2019년 9월 24일)
+## Target Standard/Premium 19.9.1(2019년 9월 10일)
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| ![프리미엄 배지](/help/assets/premium.png) 엔터프라이즈 권한 | 2019 년 9 월 예정된 Target 릴리스에서는 엔터프라이즈 권한이 다음과 같은 액세스 제어를 제공합니다.<UL><li>통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다.</li><li>Adobe I/O 통합에 역할을 적용할 수 있습니다. 승인자, 편집자 또는 관찰자.</li></ul>단계별 지침과 자세한 내용은 Adobe I/O 통합 액세스 권한 [부여 및 역할 할당을 참조하십시오](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+
+## Target Standard/Premium 19.9.2(2019년 9월 24일)
 
 이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
