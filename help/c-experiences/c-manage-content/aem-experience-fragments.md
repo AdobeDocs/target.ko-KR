@@ -1,6 +1,6 @@
 ---
 description: 최적화 또는 개인화를 지원하기 위해 Target 활동의 AEM(Adobe Experience Manager)에서 작성된 경험 구성요소 사용에 관해 설명합니다.
-keywords: 경험; JSON; AEM; Adobe Experience Manager; Adobe Target로 내보내기; 경험 조각; fragments; XF
+keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 seo-description: 최적화 또는 개인화를 위해 Adobe Target 활동에서 AEM (Adobe Experience Manager) 에서 만든 경험 조각을 사용하는 방법에 대한 정보입니다.
 seo-title: Adobe Target의 AEM (Adobe Experience Manager) 경험 조각
 solution: Target
@@ -8,7 +8,7 @@ title: AEM 경험 구성요소
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -138,7 +138,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 1. 원하는 경험 조각을 선택하고 **[!UICONTROL 저장을 클릭합니다]**.
 1. 활동 구성을 완료합니다.
 
-## 고려 사항 (# considerations)
+## 고려 사항 {#considerations}
 
 * [!DNL Target] 현재 10 분마다 가져올 경험 조각을 찾습니다. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. 경험 조각 "마스터" 버전은 AEM에 남습니다. You cannot edit the experience fragment in [!DNL Target].
