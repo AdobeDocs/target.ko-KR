@@ -1,132 +1,120 @@
 ---
 description: 최적화 또는 개인화를 지원하기 위해 Target 활동의 AEM(Adobe Experience Manager)에서 작성된 경험 구성요소 사용에 관해 설명합니다.
-keywords: 경험;aem;adobe experience manager;adobe target에 내보내기;경험 구성요소;구성요소;XF
-seo-description: 최적화 또는 개인화를 지원하기 위해 Target 활동의 AEM(Adobe Experience Manager)에서 작성된 경험 구성요소 사용에 관해 설명합니다.
-seo-title: AEM 경험 구성요소
+keywords: 경험; JSON; AEM; Adobe Experience Manager; Adobe Target로 내보내기; 경험 조각; fragments; XF
+seo-description: 최적화 또는 개인화를 위해 Adobe Target 활동에서 AEM (Adobe Experience Manager) 에서 만든 경험 조각을 사용하는 방법에 대한 정보입니다.
+seo-title: Adobe Target의 AEM (Adobe Experience Manager) 경험 조각
 solution: Target
 title: AEM 경험 구성요소
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 4c8a36f9210a36a658064bd286d6f3c2398da3e4
+source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
 
 ---
 
 
 # AEM 경험 구성요소{#aem-experience-fragments}
 
-최적화 또는 개인화를 지원하기 위해 Target 활동의 AEM(Adobe Experience Manager)에서 작성된 경험 구성요소 사용에 관해 설명합니다.
-
-## AEM 경험 구성요소{#topic_1E1E4EA01F074349B2CF8785387B5FE8}를 참조하십시오 
-
-최적화 또는 개인화를 지원하기 위해 Target 활동의 AEM(Adobe Experience Manager)에서 작성된 경험 구성요소 사용에 관해 설명합니다.
+Information about using experience fragments created in [!DNL Adobe Experience Manager] (AEM) in [!DNL Target] activities to aid optimization or personalization.
 
 >[!NOTE]
 >
->AEM(Adobe Experience Manager) 고객만 이 기능을 사용할 수 있습니다. 자세한 내용은 아래의 [요구 사항](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
+>This feature requires that you are an [!DNL Adobe Experience Manager] (AEM) customer. 자세한 내용은 아래의 [요구 사항](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
 
 ## 개요 {#section_95A91830530F493B81C5C9CDB9B783EA}
 
-Target 활동에 AEM에서 만든 경험 조각을 사용하면 AEM의 편의성과 기능을 Target의 강력한 AI(Automated Intelligence) 및 기계 학습(ML) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.
+[!DNL Target] 활동에 AEM에서 만든 경험 조각을 사용하면 AEM의 사용 편의성 및 강력한 기능을 강력한 자동화된 지능 (AI) 및 머신 러닝 (ML) 기능과 결합하여 경험을 [!DNL Target] 테스트하고 개인화할 수 있습니다.
 
-AEM에서는 모든 컨텐츠 및 자산을 중앙 위치에 가져와서 개인화 전략을 실행합니다. AEM을 사용하면 코드를 작성하지 않고도 한 위치에서 데스크톱, 태블릿 및 휴대 장치의 컨텐츠를 쉽게 만들 수 있습니다. 모든 장치를 위해 페이지를 만들 필요가 없이, 컨텐츠를 사용하여 각 경험이 자동으로 조정됩니다.
+AEM에서는 모든 콘텐츠 및 자산을 중앙 위치에 가져와서 개인화 전략을 실행합니다. AEM을 사용하면 코드를 작성하지 않고도 한 위치에서 데스크톱, 태블릿 및 휴대 장치의 콘텐츠를 쉽게 만들 수 있습니다. 모든 디바이스용 페이지를 만들 필요가 없습니다. AEM는 컨텐츠를 사용하여 각 경험을 자동으로 조정합니다.
 
-Target을 사용하면 행동 변수, 컨텍스트 변수 및 오프라인 변수를 통합하는 규칙 기반 및 AI 중심 기계 학습 접근 방식들의 결합을 기반으로 다양한 규모의 개인화된 경험을 제공할 수 있습니다.  Target을 사용하면 A/B와 MVT(다변량) 활동을 쉽게 설정 및 실행하여 최상의 오퍼, 컨텐츠 및 경험을 결정할 수 있습니다.
+[!DNL Target] 행동, 컨텍스트 및 오프라인 변수를 통합하는 규칙 기반의 AI 기반 머신 러닝 접근 방식을 기반으로 개인화된 경험을 제공할 수 있습니다. With [!DNL Target] you can easily set up and run [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
 
-경험 조각은 컨텐츠/경험 작성자 및 관리자를 Target을 사용하여 비즈니스 결과를 이끄는 최적화 및 개인화 전문가에게 연결하기 위한 매우 큰 단계를 나타냅니다.
+Experience fragments represent a huge step forward to link the content/experience creators and managers to the optimization and personalization professionals who are driving business outcomes using [!DNL Target].
 
 ## 요구 사항 {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-Target 내의 경험 구성요소 기능을 공급받아야 합니다. 또한 해당하는 AEM 6.3 서비스 팩 또는 AEM 6.4 이상을 사용 중이어야 합니다. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
+You must be provisioned with the experience fragments functionality within [!DNl Target]. 또한 해당하는 AEM 6.3 서비스 팩 또는 AEM 6.4 이상을 사용 중이어야 합니다. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
 
 * Adobe Experience Manager 6.4 이상
 * Adobe Experience Manager 6.3 SP2 이상
 * Adobe Target Standard 또는 Adobe Target Premium 계정
-* Adobe Target 고객 지원에 연락하여 통합을 활성화하고 인증 세부 사항을 제공받으십시오.
+* Contact [Adobe Target Customer Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to enable the integration and to provide you with authentication details.
 
 ## AEM에서 경험 조각 만들기 및 구성 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-Target에서 AEM 경험 구성요소를 사용하려면 다음 절차를 수행해야 합니다.
+In order to use AEM experience fragments in [!DNL Target], you must perform the following steps:
 
 ### 1단계: AEM을 Target과 통합
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* **AEM 6.3:**[Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) 설명서에서 _Adobe Analytics 및 Adobe Target 선택_
-* **AEM 6.4:**[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) 설명서에서 _Adobe Analytics 및 Adobe Target 선택_
-* **AEM 6.5:**[Adobe Analytics 및 Adobe Target 선택](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)
+* **AEM 6.3**: [Adobe Experience Manager](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) _6.3_ 설명서에서 Adobe Analytics 및 Adobe Target 으로의 옵트아웃
+* **AEM 6.4**: [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) _6.4_ 문서에서 Adobe Analytics 및 Adobe Target 으로의 옵트아웃
+* **AEM 6.5**: [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) *6.5* 문서에서 Adobe Analytics 및 Adobe Target 으로의 옵트아웃
 
 ### 2단계: 경험 구성요소 만들기
 
 경험 조각은 AEM에서 만들어집니다. 자세한 내용은 다음 문서를 참조하십시오.
 
-* **AEM 6.3:** [Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) 설명서의 *경험 구성요소*
-* **AEM 6.4:**[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) 설명서의 *경험 구성요소*
-* **AEM 6.5:**[경험 조각](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)
+* **AEM 6.3**: [Adobe Experience Manager](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) *6.3* 설명서의 경험 조각을 참조하십시오.
+* **AEM 6.4**: [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) *6.4* 설명서의 경험 조각을 참조하십시오.
+* **AEM 6.5**: [Adobe Experience](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Manager *6.5* 설명서의 경험 조각
 
 ### 3단계: 경험 구성요소를 Target과 공유하도록 AEM 구성
 
-1. AEM 내에서 원하는 경험 구성요소 또는 상위 폴더를 선택한 다음 [!UICONTROL 속성]을 클릭합니다.
-2. [!UICONTROL 클라우드 서비스] 탭을 클릭한 다음, [!UICONTROL 클라우드 서비스 구성] 드롭다운 목록에서 [!UICONTROL Adobe Target]을 선택합니다.
+1. AEM 내에서 원하는 경험 구성요소 또는 상위 폴더를 선택한 다음 **[!UICONTROL 속성을 클릭합니다]**.
+2. **[!UICONTROL 클라우드 서비스]** 탭을 클릭한 다음, **[!UICONTROL 클라우드 서비스 구성]** 드롭다운 목록에서 **Adobe Target[!UICONTROL 을 선택합니다]**.
 
    >[!NOTE]
    >
-   >이전 단계에서는 사용자 조직의 누군가가 Adobe Target 구성을 작성했다고 가정합니다.
+   >The previous step assumes that someone in your organization has created the [!DNL Adobe Target] configuration.
 
-3. [!UICONTROL 저장 및 닫기]를 클릭합니다.
+3. **[!UICONTROL 저장 및 닫기를 클릭합니다]**.
 
 ### 4단계: 경험 구성요소를 게시하고 Target으로 내보내기
 
-**AEM 6.3:**
+AEM 버전에 따라 단계별 지침을 보려면 다음 링크를 참조하십시오.
 
-1. AEM 내에서 원하는 경험 조각을 선택하고 [!UICONTROL 게시] 탭을 클릭한 다음, [!UICONTROL 게시] 단추를 클릭합니다.
-2. AEM 내에서 원하는 경험 조각을 선택하고, [!UICONTROL Adobe Target으로 내보내기]를 클릭한 다음, [!UICONTROL 확인]을 클릭합니다.
+* **AEM 6.3**: [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) *6.3* 설명서의 Target로 경험 조각 내보내기.
+* **AEM 6.4**: [Adobe Experience Manager](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) *6.4* 설명서의 Target로 경험 조각 내보내기.
+* **AEM 6.5**: [Adobe Experience Manager](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) *6.5* 설명서의 Target로 경험 조각 내보내기.
 
-   ![](assets/experience_fragment_export_to_target.png)
-
-**AEM 6.4:**
-
-1. AEM 내에서 원하는 경험 구성요소를 선택하고 [!UICONTROL Adobe Target으로 내보내기]를 클릭합니다.
-
-   ![](assets/experience_fragment_export_to_target.png)
-
-2. 표시되는 대화 상자에서 [!UICONTROL 게시]를 선택하여 경험 구성요소 내에 있는 모든 자산을 [!DNL Target]에 게시합니다.
-
-## Using Experience Fragments in Target Activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Target 활동에서 경험 조각 사용 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 앞의 작업을 수행하면 경험 조각이 Target의 [!UICONTROL 오퍼] 페이지에 표시됩니다.
 
 >[!NOTE]
 >
->Target은 현재 10분마다 가져올 경험 구성요소를 찾습니다. 가져온 경험 구성요소는 10분 이내에 Target에서 사용할 수 있습니다. 이 시간은 향후 단축될 것입니다.
+>[!DNL Target] 현재 10 분마다 가져올 경험 조각을 찾습니다. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 
 >[!IMPORTANT]
 >
->경험 구성요소는 현재 HTML 오퍼로 Target에 가져왔습니다. 경험 조각 "마스터" 버전은 AEM에 남습니다. 이 경험 조각을 Target에서 편집할 수는 없습니다.
+>The experience fragment is currently imported into [!DNL Target] as an HTML offer. 경험 조각 "마스터" 버전은 AEM에 남습니다. 이 경험 조각을 Target에서 편집할 수는 없습니다.
 
-마우스로 목록의 경험 구성요소를 가리킨 다음, 보기 아이콘(![](assets/icon_info.png)
+You can hover over an experience fragment in the list, then click the View icon ![View icon](assets/icon_info.png) to see additional information about the experience fragment, including its public offer delivery URL, its AEM path, and a deep link to open the experience fragment inside of AEM.
 
-)을 클릭하여 공개 오퍼 게재 URL, 해당 AEM 경로 및 AEM 내부의 경험 구성요소를 여는 딥링크를 포함한 경험 구성요소에 대한 추가 정보를 볼 수 있습니다.
-
-VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기를 사용하여 Target 활동에서 경험 조각을 사용할 수 있습니다.
+You can consume Experience Fragments in [!DNL Target] activities using the [Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) or the [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md).
 
 >[!NOTE]
 >
->Target의 AI 및 ML 기능을 완전히 활용하려면 A/B 테스트를 작성하는 동안 [자동 할당](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동화된 개인화](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)를 선택하면 됩니다.
+>[!DNL Target] AI 및 ML 기능을 완전히 활용하려면 A/B 테스트를 만드는 동안 [자동 할당](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 할당을](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 선택할 수 있습니다.
 
 **VEC를 사용하여 경험 조각을 소비하려면 다음을 수행하십시오.**
 
-1. Target의 [시각적 경험 작성기](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)에서 경험을 만들거나 편집할 때 AEM 컨텐츠를 삽입하려는 페이지에서 해당 위치를 클릭한 다음, **[!UICONTROL 경험 조각으로 교체]**&#x200B;를 선택하여 [!UICONTROL 경험 조각 선택] 목록을 표시합니다.
+1. 에서 [!DNL Target][시각적 경험 작성기에서](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)경험을 만들거나 편집하는 동안 AEM 컨텐츠를 삽입하려는 페이지에서 위치를 클릭한 다음 원하는 옵션을 선택하여 경험 [!UICONTROL 조각] 선택 목록을 표시합니다.
+
+   * [!UICONTROL 다음 항목 전에 삽입]
+   * [!UICONTROL 다음 항목 뒤에 삽입]
+   * [!UICONTROL 경험 조각으로 바꾸기]
+   [!UICONTROL 경험 조각] 목록은 기본적으로 내에서 사용할 수 [!DNL Target]있는 AEM에서 만든 모든 컨텐츠를 표시합니다.
 
    >[!NOTE]
    >
    >[!UICONTROL 경험 구성요소로 교체] 선택 사항은 이미지에 사용할 수 없습니다. 이미지에 이 선택 사항을 사용하려면 원하는 이미지가 들어 있는 컨테이너 요소를 클릭하십시오.
 
-   [!UICONTROL 경험 조각] 목록에는 이제 Target 내에서 기본적으로 사용할 수 있는 AEM에서 만들어진 모든 컨텐츠가 표시됩니다.
-
    ![](assets/experience_fragment_list.png)
 
-1. 원하는 경험 조각을 선택하고 **[!UICONTROL 저장을 클릭합니다]**.
+1. Select the desired experience fragment, then click **[!UICONTROL Done]**.
 1. 활동 구성을 완료합니다.
 
    다양한 활동 유형의 구성에 대한 자세한 내용은 다음 항목을 참조하십시오.
@@ -141,14 +129,20 @@ VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기를 사용�
 
 **양식 기반 경험 작성기를 사용하여 경험 조각을 사용하려면 다음을 수행하십시오.**
 
-1. Target의 [양식 기반 경험 작성기](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)에서 경험을 만들거나 편집할 때 AEM 컨텐츠를 삽입하려는 페이지에서 해당 위치를 선택한 다음, **[!UICONTROL 경험 조각 변경]**&#x200B;을 선택하여 [!UICONTROL 경험 조각 선택] 목록을 표시합니다.
+1. [!DNL Target]에서 [양식 기반 경험 작성기에서](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)경험을 만들거나 편집하는 동안 AEM 컨텐츠를 삽입하려는 페이지에서 위치를 선택한 다음 경험 조각 **[!UICONTROL 변경을 선택하여]** 경험 [!UICONTROL 조각] 선택 목록을 표시합니다.
 
    ![](assets/experience_fragment_list.png)
 
-   [!UICONTROL 경험 조각] 목록에는 이제 Target 내에서 기본적으로 사용할 수 있는 AEM에서 만들어진 모든 컨텐츠가 표시됩니다.
+   [!UICONTROL 경험 조각] 목록은 기본적으로 내에서 사용할 수 [!DNL Target]있는 AEM에서 만든 모든 컨텐츠를 표시합니다.
 
 1. 원하는 경험 조각을 선택하고 **[!UICONTROL 저장을 클릭합니다]**.
 1. 활동 구성을 완료합니다.
+
+## 고려 사항 (# considerations)
+
+* [!DNL Target] 현재 10 분마다 가져올 경험 조각을 찾습니다. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
+* The experience fragment is currently imported into [!DNL Target] as an HTML offer. 경험 조각 "마스터" 버전은 AEM에 남습니다. You cannot edit the experience fragment in [!DNL Target].
+* 경험으로 JSON 오퍼를 [!DNL Target]가져올 수 있습니다. 그러나 이러한 오퍼는 HTML 오퍼로 가져옵니다. JSON 오퍼 (경험 조각) 는 [!DNL Target] 현재 UI에서 완전히 지원되지 않습니다.
 
 ## 교육 비디오: Adobe Target에서 AEM 경험 구성요소 사용 {#section_C0EDC54063464F41A182492D2045BC64}
 
