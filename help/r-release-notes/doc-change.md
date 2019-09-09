@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019 년 9 월 9 일 | [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | " 고려 사항 "섹션이 추가되었습니다. |
 | 2019 년 9 월 6 일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 19.9.1 (2019 년 9 월 10 일) 릴리스에 대한 정보가 추가되었습니다. |
 |  | [모바일 앱용 타겟 FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 새 주제입니다.  |
 | 2019년 9월 4일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 주제가 업데이트됨. |
