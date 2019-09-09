@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/ko-KR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -51,12 +51,13 @@ source-git-commit: 93d626abd4c37977409509efd139db7aac4a8656
    + 구현하기 전에 {#before-implement}
       + [구현하기 전에](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Target 구현 준비](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + 개인 정보 {#privacy}
+      + 개인 정보 보호 및 보안 {#privacy}
          + [개인 정보 보호 개요](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [개인 정보 보호 및 데이터 보호 규정](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target 쿠키 삭제](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome samesite 쿠키 정책](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [CSP (Content Security Policy) 지시문](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 데이터를 Target에 가져오는 방법 {#methods}
          + [메서드](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [프로필 API 설정](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
