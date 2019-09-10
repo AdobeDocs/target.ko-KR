@@ -9,7 +9,7 @@ title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -52,6 +52,8 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 * 모든 기존 Target 활동은 Target 데이터 수집을 계속 사용하며 A4T 사용의 영향을 받지 않습니다.
 * Analytics를 보고 소스로 사용할 때에는 하나의 mbox 기반 지표만 허용됩니다.
 * Target에서 Analytics로 수행되는 서버 간 호출은 활동 및 경험 정보를 Analytics에 전송합니다. 이 통합으로 인해 Target 또는 Analytics의 추가적인 서버 호출이 발생하지 않습니다.
+
+   어떤 상황에서는 Target에서 Analytics 로의 분류 호출이 실패하고 활동이 Analytics에 데이터를 표시하지 않습니다. 이러한 경우 Analytics 및 Target 통합 [(A 4 T) 문제 해결을 참조하십시오](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). 도움이 필요한 경우 [클라이언트 지원팀에](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 문의할 수도 있습니다.
 
 ## 지원되는 활동 유형 {#section_F487896214BF4803AF78C552EF1669AA}
 
