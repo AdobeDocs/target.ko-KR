@@ -8,7 +8,7 @@ title: 리소스 및 연락처 정보
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -161,12 +161,6 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 이 제품과 설명서의 사용에 관한 법적 문제를 이해하고 Adobe에 문의하는 데 도움이 되는 정보입니다.
 
 ### 도움말 및 기술 지원 {#section_354AC2658BA84A2A96E64C5B2C43B73B}
-
-<!-- 
-
-target/c_contact_and_legal.xml
-
- -->
 
 Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구성되었으며 고객들이 참여할 수 있는 많은 메커니즘을 제공합니다.
 
