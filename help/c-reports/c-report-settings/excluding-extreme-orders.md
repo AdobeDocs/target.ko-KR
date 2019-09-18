@@ -1,14 +1,14 @@
 ---
 description: 몇 개의 비정상적인 주문이 활동 결과에 영향을 주지 않도록 영향력이 있는 보고서에서 극단적인 값을 제외할 수 있습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
 keywords: Target;보고서;보고서 설정;예외적인 주문;예외적인 값
-seo-description: 몇 개의 비정상적인 주문이 활동 결과에 영향을 주지 않도록 영향력이 있는 보고서에서 극단적인 값을 제외할 수 있습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
-seo-title: 예외적인 값 제외
+seo-description: Adobe Target에서 보고서에 영향을 주는 예외적인 값을 제외하여 몇 가지 비정상적인 주문이 활동 결과에 영향을 주지 않습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
+seo-title: Adobe Target 보고서에서 예외적인 값 제외
 solution: Target
 title: 예외적인 값 제외
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -32,9 +32,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **보고서에서 예외적인 값을 제외하려면**
 
 1. 매출 또는 참여 지표 유형을 포함하는 활동을 연 다음 **[!UICONTROL 보고서]** 탭을 클릭합니다.
-1. 톱니바퀴 아이콘을 클릭하여 [!UICONTROL 보고서 설정] 옵션을 표시합니다.
+1. 톱니바퀴 아이콘을 클릭합니다.
+
+   ![보고서 설정](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
+
+   보고서 [!UICONTROL 설정] 옵션 대화 상자가 표시됩니다.
 
    ![단계 결과](assets/exclude_extreme_values.png)
 
 1. 원하는 대로 **[!UICONTROL 예외적인 값 제외]** 선택 사항을 전환하거나 해제합니다.
-1. **[!UICONTROL 설정 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장을 클릭합니다]**.
