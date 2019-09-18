@@ -8,7 +8,7 @@ title: 보고서 보기 - A4T FAQ
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -29,7 +29,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 Activities 보고서의 경우 관리자는 보고서를 실행할 때마다 보고서에 동일한 지표가 표시되도록 기본 지표를 변경할 수 있습니다. 그렇지 않으면 보고서는 마지막 보고서에 적용한 마지막 지표로 기본 설정됩니다.
 
-자세한 내용은 *Reports &amp; Analytics 인터페이스 도움말* 안내서의 [기본 보고서 지표 선택](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html)을 참조하십시오.
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## 보고서에 세그먼트를 적용하는 것과 비교하여 계산된 지표와 함께 지표에는 세그먼트를 언제 적용합니까? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -52,7 +52,7 @@ Activities 보고서의 경우 관리자는 보고서를 실행할 때마다 보
 
 * 사용자가 활동 자격을 확보하고 컨텐츠가 [!DNL Target]에서 반환될 때 위의 모든 지표를 트리거합니다. 이는 사용자가 반드시 오퍼를 보았다는 것을 의미하지는 않습니다. 활동 경험이 스크롤해야 볼 수 있는 부분에 있고 사용자가 페이지를 아래로 스크롤하지 않는 경우 [!DNL Target]에서 오퍼를 제공했지만 사용자는 볼 수 없습니다.
 * 동일한 활동의 동일한 페이지에 여러 개의 mbox 호출이 있는 경우가 아니라면 [!UICONTROL 활동 노출 수]([!DNL Target]으로 측정) 및 [!UICONTROL 인스턴스 수]([!DNL Analytics]로 측정)는 동일합니다. 이로 인해 다중 [!UICONTROL 활동 노출 수]가 계산되지만, 인스턴스의 경우 단일 [!UICONTROL 인스턴스]만 계산됩니다.
-* [!UICONTROL 에서 활동 노출 횟수] 및 [!UICONTROL 활동 전환] 지표를 사용할 때는 두 지표 [!DNL Analysis Workspace]모두에 [!UICONTROL 동일한 터치] 기여도 모델이 적용되어 있는지 확인하십시오. 열 설정 톱니바퀴를 클릭하고, 기본값이 아닌 기여도 모델을 활성화한 [!UICONTROL 다음 동일한 터치를 선택하여][!UICONTROL 모델을 적용할]수 있습니다. 분석 도구 안내서의 속성 IQ 개요에서 [속성에 대한 자세한](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) **&#x200B;내용을 살펴보십시오.
+* 에서 활동 [!UICONTROL 노출 횟수] 및 [!UICONTROL 활동 전환] 지표를 사용할 [!DNL Analysis Workspace]때 [!UICONTROL 두 지표 모두에 동일한] 터치속성 모델이 적용되었는지확인합니다. 열 설정 톱니바퀴를 클릭하고 기본이 아닌 속성 모델을 활성화한 [!UICONTROL 다음 동일한 터치를]선택하여 모델을 적용할 [!UICONTROL 수 있습니다]. Analytics 도구 안내서의 속성 [IQ 개요의](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) 속성에 대해 *자세히 알아보십시오*.
 
 ## 마케터가 활동을 설정할 때 Analytics 지표를 선택하는 경우 "활동 전환"은 무엇을 의미합니까? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ Analytics 지표를 활동의 전환 지표로 선택하면 "활동 전환"은 �
 
 ![](assets/unspecified.png)
 
-기타 보고서에서 "지정되지 않음"은 데이터가 분류 규칙과 일치하지 않음을 의미하지만 A4T에서는 그렇지 않습니다. "지정되지 않음"이 표시되는 경우 분류 서비스가 아직 실행되지 않은 것입니다. 일반적으로 활동 데이터가 보고서에 표시되는 데 24-72 시간 정도 걸립니다. 이 시간까지 보고서에 활동 데이터가 표시되지 않더라도 해당 활동과 연관된 모든 방문자 데이터는 캡처되며 분류가 완료되면 표시됩니다.
+기타 보고서에서 "지정되지 않음"은 데이터가 분류 규칙과 일치하지 않음을 의미하지만 A4T에서는 그렇지 않습니다. "지정되지 않음"이 표시되는 경우 분류 서비스가 아직 실행되지 않은 것입니다. 일반적으로 활동 데이터가 보고서에 표시되려면 24-72시간 정도가 소요됩니다. 이 시간까지 보고서에 활동 데이터가 표시되지 않더라도 해당 활동과 연관된 모든 방문자 데이터는 캡처되며 분류가 완료되면 표시됩니다.
 
 분류 기간 후에 데이터는 웹 사이트에서 수집되고 약 1시간 후에 보고서에 표시됩니다. 보고서에 있는 모든 지표, 세그먼트, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
 
@@ -110,7 +110,7 @@ Analytics 지표를 활동의 전환 지표로 선택하면 "활동 전환"은 �
 
 전환 전에 두 경험을 모두 보았으므로 두 경험 모두 주문에 대한 "크레딧"을 받습니다. 그러나 주문은 시스템에서 하나만 발생했고 합계에 이렇게 반영됩니다. Target 보고의 경우 Target 활동을 활동으로 분류하고 있지 않으므로, 사용자가 본 모든 활동이 크레딧을 받은 것은 중요하지 않습니다. 지금은 단일 활동 내 두 항목의 결과를 비교하고 있으며, 사용자는 동일한 활동에서 서로 다른 경험을 확인할 수 없으므로 주문 크레딧의 교차 오염에 대해 걱정할 필요가 없습니다.
 
-자세한 내용은 Analytics 도움말의 [전환 변수(eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html)를 참조하십시오.
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Analytics와 Analytics for Target(A4T)에서 고유 방문자 수 지표에 대해 숫자를 서로 다르게 계산하는 이유는 무엇입니까? {#section_0C3B648AB54041F9A2AA839D51791883}
 
