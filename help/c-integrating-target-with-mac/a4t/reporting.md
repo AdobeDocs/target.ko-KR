@@ -9,7 +9,7 @@ title: A4T 보고
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -45,7 +45,7 @@ Analytics에서 Target 활동의 결과를 살펴보려면 Target 활동 보고�
 
 >[!NOTE]
 >
->Target 향상도 및 신뢰도 세부 정보도 Analytics에서 사용할 수 있습니다. 자세한 내용은 Adobe Analytics 제품 설명서에서 [Target 상승도 및 신뢰도 보고서 유형](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html)을 참조하십시오.
+>Target 향상도 및 신뢰도 세부 정보도 Analytics에서 사용할 수 있습니다. 자세한 내용은 Analytics 구성 [요소 안내서의](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) Target *향상도 및 신뢰도를 참조하십시오*.
 
 >[!IMPORTANT]
 >
