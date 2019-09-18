@@ -9,7 +9,7 @@ title: mbox.js 쿠키
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >
 >이 주제에는 `mboxSession`과 `mboxPC`에 대한 정보가 포함되어 있습니다. 구현 우수 사례에 따라 쿠키 데이터를 사용하여 민감한 정보인 `mboxSession` 또는 `mboxPC`를 링크하거나 저장하지 않도록 권장합니다.
 
-[Target 쿠키 삭제](https://marketing.adobe.com/resources/help/en_US/target/target/t_cookie_deleting.html)를 참조하십시오.
+See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
 
 ## 퍼스트 파티 또는 타사 쿠키를 사용하는 경우 {#section_F71B29420C004A7FA3B1921E619B326E}
 
