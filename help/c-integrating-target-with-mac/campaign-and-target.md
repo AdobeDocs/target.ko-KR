@@ -8,7 +8,7 @@ title: Adobe Campaign과 Target 통합
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -46,10 +46,10 @@ Adobe Campaign을 사용하여 타깃팅된 이메일 오퍼를 설정하기 전
 
 * 둘 이상의 Target 리디렉션 오퍼
 
-   [리디렉션 오퍼 만들기](https://marketing.adobe.com/resources/help/en_US/target/target/t_offer_redirect.html)를 참조하십시오.
-* 각 오퍼 및 원하는 [성공 지표](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html)에 대한 경험이 포함된 Target 활동
+   See [Create redirect offer](/help/c-experiences/c-manage-content/offer-redirect.md).
+* 각 오퍼 및 원하는 [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md)에 대한 경험이 포함된 Target 활동
 
-   [URL로 리디렉션](https://marketing.adobe.com/resources/help/en_US/target/target/t_redirect_offer.html)을 참조하십시오.
+   [URL로 리디렉션](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)을 참조하십시오.
 
 통합에서 Campaign 부분을 설정하기 전에 Target에서 활동을 시작합니다.
 
