@@ -9,7 +9,7 @@ title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -53,7 +53,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 * Analytics를 보고 소스로 사용할 때에는 하나의 mbox 기반 지표만 허용됩니다.
 * Target에서 Analytics로 수행되는 서버 간 호출은 활동 및 경험 정보를 Analytics에 전송합니다. 이 통합으로 인해 Target 또는 Analytics의 추가적인 서버 호출이 발생하지 않습니다.
 
-   어떤 상황에서는 Target에서 Analytics 로의 분류 호출이 실패하고 활동이 Analytics에 데이터를 표시하지 않습니다. 이러한 경우 Analytics 및 Target 통합 [(A 4 T) 문제 해결을 참조하십시오](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). 도움이 필요한 경우 [클라이언트 지원팀에](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 문의할 수도 있습니다.
+   경우에 따라 Target에서 Analytics로의 분류 호출이 실패할 수 있으며 활동에서 Analytics에 데이터가 표시되지 않습니다. 이러한 경우 Analytics 및 [Target 통합 문제 해결(A4T)을](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)참조하십시오. 또한 클라이언트 [지원 팀에](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 문의하여 추가 지원을 받을 수 있습니다.
 
 ## 지원되는 활동 유형 {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -68,7 +68,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 | 다변량 테스트(MVT) | 예 | 요소 기여도 보고서를 가져오기 위해 mbox 기반 목표 지표 목표를 필요로 합니다.  요소 기여도 보고서는 현재 Analytics 지표를 지원하지 않습니다. |
 | 자동화된 개인화(AP) 활동 | 아니오 |  |
 | 권장 사항 활동 | 예 |  |
-| 모바일 앱 | 예 | Mobile Services SDK 버전 4.13.1 이상에서 지원됩니다.  자세한 내용은 [Mobile Services 설명서](https://marketing.adobe.com/resources/help/en_US/mobile/)를 참조하십시오. |
+| 모바일 앱 | 예 | Mobile Services SDK 버전 4.13.1 이상에서 지원됩니다.  자세한 내용은 [Mobile Services 설명서](https://docs.adobe.com/content/help/en/mobile-services/using/home.html)를 참조하십시오. |
 | 이메일 | 아니오 |  |
 | 서버 측 배달 API | 예 | 자세한 내용은 [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)을 참조하십시오. |
 | NodeJS SDK | 예 | 자세한 내용은 [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)을 참조하십시오. |
@@ -130,4 +130,4 @@ Adobe Experience League에서 제공하는 [Analytics &amp; Target: 분석 우�
 * Analytics에서 사용할 이상적인 보고서에 대해 알아보기
 * A4T와 관련된 일반적인 질문에 대한 답변
 
-[Analytics/Target 통합 (A 4 T) 업무 시간](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target 통합(A4T) 오피스 시간](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
