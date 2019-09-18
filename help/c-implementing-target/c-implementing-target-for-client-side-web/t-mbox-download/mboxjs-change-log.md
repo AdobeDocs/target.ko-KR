@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: mbox.js 버전 세부 정보
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -31,7 +31,7 @@ Target이 페이지의 호출에 응답하는 방식은 사용 중인 Target 라
 
 **Target 릴리스:** 17.7.1
 
-이제 [!DNL mbox.js] 버전 63을 사용할 수 있습니다. 자세한 내용은 [mbox.js 다운로드](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html)를 참조하십시오.
+이제 [!DNL mbox.js] 버전 63을 사용할 수 있습니다. 자세한 내용은 [mbox.js 다운로드](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)를 참조하십시오.
 
 다음 개선 사항 및 수정 사항이 [!DNL mbox.js] 버전 63에 포함되어 있습니다.
 
@@ -136,7 +136,7 @@ window.targetGlobalSettings = {
 </script> 
 ```
 
-Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 mbox에 대한 비 JavaScript 컨텐츠를 실행합니다. 글로벌 mbox에 대한 `<script>` 태그 내의 JavaScript 컨텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 컨텐츠 전달 순서에 따라 글로벌 mbox에 대한 JavaScript 컨텐츠가 제대로 전달되고 렌더링될 수 있습니다.
+Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 mbox에 대한 비 JavaScript 컨텐츠를 실행합니다. 글로벌 mbox에 대한 `<script>` 태그 내의 JavaScript 콘텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 컨텐츠 전달 순서에 따라 글로벌 mbox에 대한 JavaScript 컨텐츠가 제대로 전달되고 렌더링될 수 있습니다.
 
 ## mbox.js 버전 57 {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
 
@@ -246,7 +246,7 @@ Target 페이지 매개 변수가 Internet Explorer에서 올바르게 실행되
 
 Analytics가 IE 9 및 11에서 추적을 수행하지 못하게 하는 문제가 해결되었습니다. 이러한 변경 사항은 Analytics 사용자에게만 영향을 미칩니다.
 
-이제 targetPageParams() 함수를 사용하여 [매개 변수](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html)를 배열, JSON 개체 또는 쉼표로 구분된 목록(이전에 지원)으로 target-global-mbox에 전달할 수 있습니다.
+이제 targetPageParams() 함수를 사용하여 [매개 변수](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)를 배열, JSON 개체 또는 쉼표로 구분된 목록(이전에 지원)으로 target-global-mbox에 전달할 수 있습니다.
 
 M2PcId 및 VisitorId와 관련된 모든 항목의 이름이 변경되었습니다.
 
