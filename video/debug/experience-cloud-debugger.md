@@ -5,7 +5,7 @@ title: Experience Cloud Debugger를 사용하여 Target 디버그
 seo-title: Experience Cloud Debugger를 사용하여 Target 디버그
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -27,5 +27,5 @@ source-git-commit: 6627c8cd5edb882d8af8fc71b069f7f5edbaa706
 ## 추가 리소스
 
 + [Chrome Store의 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Target 도움말 문서 문제 해결](https://marketing.adobe.com/resources/help/en_US/target/target/r_troubleshooting_target.html)
-+ [Experience Cloud Debugger 비디오를 사용하는 방법](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Target 도움말 설명서 문제 해결](/help/r-troubleshooting-target/troubleshooting-target.md)
++ [Experience Cloud 디버거 비디오를 사용하는 방법](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
