@@ -9,7 +9,7 @@ title: 데이터를 Target에 가져오는 방법
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -54,7 +54,7 @@ source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 * 후속 페이지/서버 호출에서 타깃팅을 위해 데이터를 사용해야 하는 경우 프로필 스크립트로 변환해야 합니다.
 * 쿼리 문자열에는 [IETF(Internet Engineering Task Force) 표준](https://www.ietf.org/rfc/rfc3986.txt)에 대한 문자만 포함될 수 있습니다 .
 
-   IETF 사이트에 언급된 것 외에도 Target 에서는 쿼리 문자열에서 다음 문자를 허용합니다.
+   IETF 사이트에서 언급된 것 외에도, Target은 쿼리 문자열에 다음과 같은 문자를 허용합니다.
 
    `&lt; &gt; # % " { } | \\ ^ \[\] \``
 
@@ -201,7 +201,7 @@ JavaScript 지식이 필요합니다.
 
 ### 사용 사례 예
 
-날씨 서비스, DMP 또는 사용자 지정 웹 서비스와 같은 타사로부터 데이터를 수집합니다. 그런 다음, 이 데이터를 사용하여 대상, Target 컨텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다.
+날씨 서비스, DMP 또는 사용자 지정 웹 서비스와 같은 타사로부터 데이터를 수집합니다. 그런 다음, 이 데이터를 사용하여 대상, Target 콘텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다.
 
 ### 방법 장점
 
@@ -209,7 +209,7 @@ JavaScript 지식이 필요합니다.
 
 비동기 및 동기 요청을 통해 여러 공급자로부터 데이터를 수집하도록 지원합니다.
 
-이 접근 방식을 사용하면 각 공급자에 대해 독립적인 시간 제한을 포함하여 페이지 성능에 미치는 영향을 제한하면서, 기본 페이지 컨텐츠의 깜박임을 쉽게 관리할 수 있습니다
+이 접근 방식을 사용하면 각 공급자에 대해 독립적인 시간 제한을 포함하여 페이지 성능에 미치는 영향을 제한하면서, 기본 페이지 콘텐츠의 깜박임을 쉽게 관리할 수 있습니다
 
 ### 주의 사항
 
@@ -336,8 +336,8 @@ Experience Cloud ID(ECID) 구현이 필요합니다.
 
 ### 코드 예
 
-세부 사항은 [고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)에서 찾을 수 있습니다 .
+Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### 관련 정보 링크
 
-[고객 속성 소스를 만들고 데이터 파일 업로드](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[고객 속성 소스를 만들고 데이터 파일 업로드](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
