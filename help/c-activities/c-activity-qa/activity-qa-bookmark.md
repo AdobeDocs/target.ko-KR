@@ -1,25 +1,25 @@
 ---
-description: Target QA 북마클릿을 사용하여 사용자를 QA 모드로부터 강제로 나오도록 하는 데 도움이 되는 정보입니다.
+description: Adobe Target QA 북마클릿을 사용하여 Target에서 QA 모드에서 사용자를 릴리스하도록 하는 데 도움이 되는 정보입니다.
 keywords: qa;미리 보기;북마클릿;미리 보기 링크
-seo-description: Target QA 북마클릿을 사용하여 사용자를 QA 모드로부터 강제로 나오도록 하는 데 도움이 되는 정보입니다.
-seo-title: 활동 QA 북마클릿
+seo-description: Adobe Target QA 북마클릿을 사용하여 Target에서 QA 모드에서 사용자를 릴리스하도록 하는 데 도움이 되는 정보입니다.
+seo-title: Adobe Target용 활동 QA 북마클릿
 solution: Target
 title: 활동 QA 북마클릿
 topic: 고급,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
 
 # 활동 QA 북마클릿{#activity-qa-bookmarklet}
 
-Target QA 북마클릿을 사용하여 사용자를 QA 모드로부터 강제로 나오도록 하는 데 도움이 되는 정보입니다.
+Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
 
-[QA 모드](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)는 고정되어 있으므로 QA 모드에서 웹 사이트를 탐색한 후 일반 방문자처럼 사이트를 볼 수 있으려면 먼저 Target 세션이 만료되거나 Target에서 사용자를 QA 모드로부터 해제해야 합니다. QA 모드를 해제하려면 QA Target 북마클릿을 사용하십시오.
+Because [QA mode](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) is sticky, after you browse a website in QA mode, your [!DNL Target] session must expire or you need to have [!DNL Target] release you from QA mode before you can view your site like a typical visitor. Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
 
-Target QA 북마클릿을 사용하려면 다음 JavaScript 코드가 들어 있는 북마클릿을 만들어 브라우저의 책갈피 도구 모음에 추가하십시오.
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
 
 ```
 javascript:(
@@ -44,4 +44,8 @@ javascript:(
 >
 >북마클릿을 만드는 프로세스는 브라우저 종류와 버전에 따라 다릅니다. 구체적인 지침이 필요하면 브라우저의 도움말을 참조하거나 인터넷에서 검색하십시오.
 
-값이 비어 있는 `at_preview_token` 매개 변수로 사이트의 페이지를 로드하여(예: `https://www.mysite.com/?at_preview_token=`) QA 모드를 수동으로 나올 수도 있습니다.
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+예:
+
+`https://www.mysite.com/?at_preview_token=`
