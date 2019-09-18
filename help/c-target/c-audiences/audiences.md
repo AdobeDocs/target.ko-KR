@@ -1,32 +1,32 @@
 ---
-description: 대상은 타깃팅된 활동에서 컨텐츠 및 경험을 보게 되는 사용자를 결정합니다.
+description: 대상은 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정합니다.
 keywords: 대상;대상 규칙;대상 만들기;대상 작성;대상 타깃팅;보고 대상;보고서 대상;세그먼트;사용자 지정 프로필 매개 변수;대상 정의;대상 목록
-seo-description: Adobe Target의 대상자는 타깃팅된 활동에서 컨텐츠 및 경험을 보게 될 사람을 결정합니다.
+seo-description: Adobe Target의 대상은 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정합니다.
 seo-title: Adobe Target에서 대상 만들기
 solution: Target
 title: 대상자 만들기
 topic: 고급,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
 
 # 대상자 만들기{#create-audiences}
 
-대상은 타깃팅된 활동에서 컨텐츠 및 경험을 보게 되는 사용자를 결정합니다.
+대상은 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정합니다.
 
-대상은 타깃팅이 가능한 모든 곳에서 사용됩니다. When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
+대상은 타깃팅이 가능한 모든 곳에서 사용됩니다. 활동을 타깃팅할 때 [!UICONTROL 대상] 목록에서 재사용 가능한 대상을 선택하고, [활동별 대상을 만들고](/help/c-target/creating-activity-only-audience.md) 타깃팅하거나, [여러 대상을 결합](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 임시 대상을 만들 수 있습니다.
 
-또한 [!DNL Adobe Target] 및 기타 [!DNL Experience Cloud] 솔루션에서는 실시간 타깃팅 및 개인화에 [!DNL Analytics]에서 수집한 대상 데이터를 사용할 수도 있습니다. ](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html)Experience Cloud 제품 설명서의 대상[을 참조하십시오.
+또한 [!DNL Adobe Target] 및 기타 [!DNL Experience Cloud] 솔루션에서는 실시간 타깃팅 및 개인화에 [!DNL Analytics]에서 수집한 대상 데이터를 사용할 수도 있습니다. 핵심 [서비스](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 사용 안내서의 *대상을 참조하십시오*.
 
 [!DNL Target]에서는 두 가지 유형의 대상을 정의합니다.
 
-* **타깃팅 대상:**&#x200B;다양한 유형의 방문자에게 다양한 컨텐츠를 전달하는 데 사용되는 입니다.
-* **보고 대상:**&#x200B;테스트 결과를 분석할 수 있도록 다양한 유형의 방문자가 동일한 컨텐츠에 어떻게 반응하는지를 판별하는 데 사용됩니다.
+* **타깃팅 대상:**&#x200B;다양한 유형의 방문자에게 다양한 콘텐츠를 전달하는 데 사용되는 입니다.
+* **보고 대상:**&#x200B;테스트 결과를 분석할 수 있도록 다양한 유형의 방문자가 동일한 콘텐츠에 어떻게 반응하는지를 판별하는 데 사용됩니다.
 
-   [!DNL Target]에서는 [!DNL Target]을 보고 소스로 사용하는 경우에만 보고 대상을 구성할 수 있습니다. [DNL Adobe Analytics를 보고 소스](/help/c-integrating-target-with-mac/a4t/a4t.md) (A 4 T) 로 사용하는 경우 내에서 보고 대상을 구성해야 [!DNL Analytics]합니다.
+   [!DNL Target]에서는 [!DNL Target]을 보고 소스로 사용하는 경우에만 보고 대상을 구성할 수 있습니다. [DNL Adobe Analytics를 보고 소스](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)로 사용하는 경우에는 [!DNL Analytics]에서 보고 대상을 구성해야 합니다.
 
 ## 대상 목록 사용
 
@@ -41,13 +41,13 @@ AAM에서 원래 만들어진 대상과 작업할 때 AAM에서 나중에 삭제
 * AAM에서 대상이 삭제된 경우 [!UICONTROL 대상] 목록 및 대상 선택기에 모두 경고 아이콘이 표시됩니다. 또한 UI의 도구 설명은 또한 대상이 AAM에서 삭제되었음을 나타냅니다.
 * 삭제된 대상으로 여러 대상을 결합하려고 시도하거나 삭제된 대상을 참조하는 활동을 저장하려고 하면 경고 메시지가 표시됩니다.
 
-사용자 지정 프로필 매개 변수와 `user.` 매개 변수를 타깃팅할 수도 있습니다. When adding an audience, click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. 원하는 매개 변수가 나타나지 않는다면 mbox가 해당 매개 변수를 실행하지 않은 것입니다. 다른 사용자 지정 mbox 매개 변수는 [!UICONTROL 사용자 지정 매개 변수] 드롭다운 목록에서 사용할 수 있습니다.
+사용자 지정 프로필 매개 변수와 `user.` 매개 변수를 타깃팅할 수도 있습니다. 대상을 추가할 때 **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭한 다음 활동을 타깃팅하는 데 사용할 매개 변수를 선택합니다. 원하는 매개 변수가 나타나지 않는다면 mbox가 해당 매개 변수를 실행하지 않은 것입니다. 다른 사용자 지정 mbox 매개 변수는 [!UICONTROL 사용자 지정 매개 변수] 드롭다운 목록에서 사용할 수 있습니다.
 
 검색 상자를 사용하여 [!UICONTROL 대상] 목록을 검색하십시오. 대상 이름의 일부를 검색하거나 특정 문자열을 따옴표로 묶을 수 있습니다.
 
 대상 이름이나 마지막 수정 날짜별로 [!UICONTROL 대상자] 목록을 정렬할 수 있습니다. 이름이나 날짜별로 정렬하려면 열 헤더를 클릭한 다음, 대상을 오름차순이나 내림차순으로 표시하도록 선택하십시오.
 
-## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
+## 대상 정의 보기 {#section_11B9C4A777E14D36BA1E925021945780}
 
 대상을 열지 않고도 Target UI에서 다양한 위치에 있는 팝업 카드에서 대상 정의 세부 사항을 볼 수 있습니다. 이 기능은 Target Standard/Premium에서 만든 대상 Target Classic에서 가져오거나 API를 통해 만든 대상에 적용됩니다.
 
