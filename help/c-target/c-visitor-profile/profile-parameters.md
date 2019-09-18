@@ -1,14 +1,14 @@
 ---
-description: 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 Adobe Target 활동에서 사용할 수 있는 방문자에 대한 정보를 제공합니다.
+description: 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 Adobe Target 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
 keywords: 프로필 스크립트;프로필 스크립트 속성;프로필 스크립트 우수 사례;디버그;디버깅
-seo-description: 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 Adobe Target 활동에서 사용할 수 있는 방문자에 대한 정보를 제공합니다.
+seo-description: 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 Adobe Target 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
 seo-title: Adobe Target의 프로필 속성
 solution: Target
 title: 프로필 속성
 topic: 고급,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
 
-방문자가 웹 사이트를 찾아보거나 방문자가 다른 세션을 위해 돌아오면 저장된 프로필 속성을 사용하여 세그먼트 필터링을 위한 컨텐츠 또는 로그 정보를 타깃팅할 수 있습니다.
+방문자가 웹 사이트를 찾아보거나 다른 세션을 위해 돌아가면 저장된 프로필 속성을 사용하여 콘텐츠를 타깃팅하거나 세그먼트 필터링을 위해 정보를 기록할 수 있습니다.
 
 프로필 속성을 설정하려면 **[!UICONTROL 대상]** &gt; **[!UICONTROL 프로필 스크립트]**&#x200B;를 클릭하십시오.
 
@@ -56,7 +56,7 @@ source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
 
 ![프로필 스크립트 만들기 대화 상자](assets/profile-script.png)
 
-프로필 스크립트는 각 위치 요청에서 프로필 속성 "catchers"를 실행합니다. 위치 요청이 수신되면, Target은 실행해야 할 활동을 결정하고 해당 활동과 해당 경험에 적절한 컨텐츠를 표시하며 활동의 성공을 추적하고 모든 적절한 프로필 스크립트를 실행합니다. 이렇게 하면 방문자의 위치, 시각, 방문자가 사이트에 있었던 횟수, 전에 구입한 적이 있었는지 여부 등과 같은 방문에 대한 정보를 추적할 수 있습니다. 그런 다음 이러한 정보가 방문자의 프로필에 추가되므로 방문자의 사이트 활동을 더 잘 추적할 수 있습니다.
+프로필 스크립트는 각 위치 요청에서 프로필 속성 "catchers"를 실행합니다. 위치 요청이 수신되면, Target은 실행해야 할 활동을 결정하고 해당 활동과 해당 경험에 적절한 콘텐츠를 표시하며 활동의 성공을 추적하고 모든 적절한 프로필 스크립트를 실행합니다. 이렇게 하면 방문자의 위치, 시각, 방문자가 사이트에 있었던 횟수, 전에 구입한 적이 있었는지 여부 등과 같은 방문에 대한 정보를 추적할 수 있습니다. 그런 다음 이러한 정보가 방문자의 프로필에 추가되므로 방문자의 사이트 활동을 더 잘 추적할 수 있습니다.
 
 프로필 스크립트 속성은 속성 이름 앞에 `user.` 태그가 삽입되어 있습니다. 예:
 
@@ -70,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * `user.get('parameterName')`')을 사용하여 코드에서 프로필 스크립트 속성(자신 포함)을 참조하십시오.
 * `user.setLocal('variable_name', 'value')`')을 사용하여 다음 mbox 요청에서 스크립트가 다음에 실행될 때 액세스할 수 있는 변수를 저장합니다. `user.getLocal('variable_name')`을 사용하여 변수를 참조합니다. 마지막 요청의 날짜와 시간을 참조하려는 경우에 유용합니다.
-* 매개 변수와 값은 대/소문자를 구분합니다. 활동 또는 테스트 중에 받게 될 매개 변수 및 값의 대/소문자를 일치시킵니다.
+* 매개 변수와 값은 대/소문자를 구분합니다. 활동이나 테스트 중에 받게 되는 매개 변수 및 값의 대소문자를 맞추십시오.
 * 자세한 JavaScript 구문에 대해서는 아래의 "스크립트 프로필 매개 변수에 대해 JavaScript 참조" 섹션을 참조하십시오.
 
 ## 프로필 스크립트 정보 카드 보기 {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -91,7 +91,7 @@ if (mbox.name == 'Track_Interest') {
 >
 >스크립트 사용 탭에는 다음 상황에서 선택한 프로필 스크립트를 참조하는 활동이 표시되지 않습니다.
 > * 활동이 초안 상태입니다.
-> * 활동에 사용된 컨텐츠 또는 오퍼가 스크립트 변수(활동 내의 인라인 오퍼 또는 오퍼 라이브러리 내의 오퍼)를 사용합니다.
+> * 활동에 사용된 콘텐츠 또는 오퍼가 스크립트 변수(활동 내의 인라인 오퍼 또는 오퍼 라이브러리 내의 오퍼)를 사용합니다.
 
 
 
@@ -125,7 +125,7 @@ if (mbox.name == 'Track_Interest') {
 * 1,300자 또는 50개 루프 반복을 초과하지 않도록 합니다.
 * JavaScript 명령어 2,000개를 초과하지 않도록 합니다. Target에서는 스크립트당 JavaScript 명령어 개수를 2,000개로 제한하지만 JavaScript를 수동으로 읽어서는 이것을 간단히 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 "새로운" 호출을 100개의 명령어로 처리합니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
 * 스크립트 성능뿐만 아니라 모든 스크립트를 결합한 성능에 주의하십시오. 우수 사례로, 총 5,000개 미만의 지침을 사용하는 것이 좋습니다. 지침 수를 계산하는 것이 명확하지 않지만, 중요한 것은 2KB를 초과하는 스크립트가 자동으로 비활성화된다는 점입니다. 실행할 수 있는 스크립트의 수에 대한 제한이 설정되어 있지 않지만, 각 스크립트는 단일 mbox가 호출될 때마다 실행됩니다. 필요만 만큼만 스크립트를 실행합니다.
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. 이러한 regex가 충분히 긴 입력 데이터 (수백 자 이하) 와 일치하는 경우 스크립트 실행이 중단될 수 있습니다.
+* regex에서 시작 부분에 점 별 표시(예:거의 `/.*match/`필요 없는 `/a|.*b/`) regex 검색은 문자열의 모든 위치에서 시작되므로( `^`함께 바인딩되지 않는 경우) 이미 dot-star로 간주됩니다. 이러한 regex가 충분한 긴 입력 데이터와 일치하면 스크립트 실행이 중단될 수 있습니다(수백 자까지 입력할 수 있음).
 * 모두 실패하는 경우 try/catch에 스크립트를 래핑합니다.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -149,7 +149,7 @@ if (mbox.name == 'Track_Interest') {
 ```
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number < = 49) { 
+    if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
         return 'GroupB'; 
@@ -180,11 +180,11 @@ if (!user.get('twogroups')) {
 ```
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number < = 24) { 
+    if (ran_number <= 24) { 
         return 'GroupA'; 
-    } else if (ran_number < = 49) { 
+    } else if (ran_number <= 49) { 
         return 'GroupB'; 
-    } else if (ran_number < = 74) { 
+    } else if (ran_number <= 74) { 
         return 'GroupC'; 
     } else { 
         return 'GroupD'; 
@@ -207,9 +207,9 @@ if (!user.get('fourgroups')) {
 ```
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
-    if (ran_number < = 32.33) { 
+    if (ran_number <= 32.33) { 
         return 'GroupA'; 
-    } else if (ran_number < = 65.66) { 
+    } else if (ran_number <= 65.66) { 
         return 'GroupB'; 
     } else { 
         return 'GroupC'; 
