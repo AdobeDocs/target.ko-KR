@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js 버전 세부 사항
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -21,41 +21,41 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 >
 >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 
 
-## at. js 버전 2.1.1 (2019 년 7 월 24 일)
+## at.js 버전 2.1.1(2019년 7월 24일)
 
-at. js의 이번 릴리스는 유지 관리 릴리스이며 다음 개선 사항 및 수정 사항을 포함합니다.
+at.js의 이 릴리스는 유지 관리 릴리스이며 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
 
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
-* Visual Experience Composer (VEC) 의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 개의 비콘이 실행되는 문제를 해결했습니다. (TNT-32812)
-* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
-* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
-* URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함될 때 발생하는 decodeuricomponent 사용 오류로 인해 오류가 발생하던 문제를 수정했습니다. (TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
-* 일부 고객의 웹 사이트에서 Recommendations 오퍼가 표시되지 않는 문제를 해결했습니다. 고객은 배달 API 호출에서 오퍼 컨텐츠를 볼 수 있지만 오퍼는 웹 사이트에 적용되지 않았습니다. (TNT-32680)
-* 여러 경험이 걸쳐 클릭추적이 예상대로 작동되지 않는 문제를 해결했습니다. (TNT-32644)
-* 첫 번째 지표 렌더링이 실패한 후 at. js에서 두 번째 지표를 적용하지 못했던 문제를 수정했습니다. (TNT-32628)
-* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
-* Chrome 기반 브라우저 (Google Chrome 포함) 에서 디스플레이 및 클릭 알림 응답이 차단되는 문제를 해결했습니다. (TNT-32290)
+* VEC(Visual Experience Composer)의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 비콘이 발생하는 문제를 해결했습니다. (TNT-32812)
+* 오퍼를 두 번 이상 렌더링하지 `triggerView()` 않는 문제를 해결했습니다. (TNT-32780)
+* 요청에 MCID(Marketing Cloud ID) 정보가 포함되어 `triggerView()` 있는지 확인하는 문제를 수정했습니다. (TNT-32776)
+* 저장된 보기가 없는 경우에도 알림이 `triggerView()` 실행되지 않는 문제를 해결했습니다. (TNT-32614)
+* URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함되어 있을 때 문제를 야기하는 decodeURIcomponent의 사용으로 인해 오류가 발생하는 문제를 수정했습니다. (TNT-32710)
+* 이제 API를 통해 전송된 배달 요청 컨텍스트에서 비콘 플래그가 "true"로 `Navigator.sendBeacon()` 설정됩니다. (TNT-32683)
+* 일부 고객의 웹 사이트에 Recommendations 오퍼가 표시되지 않던 문제를 수정했습니다. 고객은 전달 API 호출에서 오퍼 컨텐츠를 볼 수 있었지만 오퍼가 웹 사이트에 적용되지 않았습니다. (TNT-32680)
+* 여러 경험에 대한 클릭 추적이 예상대로 작동하지 않는 문제를 해결했습니다. (TNT-32644)
+* 첫 번째 지표 렌더링이 실패한 후 at.js가 두 번째 지표를 적용하지 못했던 문제를 수정했습니다. (TNT-32628)
+* 쿼리 매개 변수 또는 요청 페이로드에 요청 페이로드가 `mboxThirdPartyId` 없는 `targetPageParams` 함수를 사용할 때 발생하는 문제를 수정했습니다. (TNT-32613)
+* Chromium 기반 브라우저(Google Chrome 포함)에서 표시 및 클릭 알림 응답이 차단되는 문제를 수정했습니다. (TNT-32290)
 
-## at. js 버전 2.1.0 (2019 년 6 월 3 일)
+## at.js 버전 2.1.0(2019년 6월 3일)
 
 이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
-* **Adobe 옵트인 지원**: Adobe 옵트인 (Opt-in) 는 동의 관리 플랫폼으로 Adobe 솔루션 통합을 간소화하는 방법입니다. For more information about Adobe Opt-in, see [Privacy and General Data Protection Regulation (GDPR)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Adobe 옵트인(Opt-in) 지원**: Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다. Adobe 옵트인에 대한 자세한 내용은 [개인 정보 및 GDPR(일반 데이터 보호 규정)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)을 참조하십시오.
 
-* **업계 표준 CSP 준수**: at. js는 더 이상 eval () 를 사용하여 JavaScript를 실행하지 않습니다.
+* **업계 표준 CSP 준수**: at.js는 더 이상 eval()을 사용하여 JavaScript를 실행하지 않습니다.
 
-* **클라이언트측 분석 로깅**: 고객이 클라이언트측 또는 서버측에서 Adobe Analytics로 분석 데이터를 어떻게 전송할지 고객이 제어할 수 있도록 합니다.
+* **클라이언트 측 분석 로깅**: 클라이언트 측이든 아니면 서버측이든 간에 분석 데이터를 Adobe Analytics에 전송하는 방법을 고객이 완벽하게 제어할 수 있도록 합니다.
 
-   For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
+   자세한 내용은 *구현하기 전에*&#x200B;의 [클라이언트 측 분석 로깅](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side)을 참조하십시오.
 
-* **알림 보내기**: 개발자가 또는 사용 경험이 아닌 코드로 렌더링될 때 알림을 전송할 `applyOffer()` 수 있습니다 `applyOffers()`.
+* **알림 보내기**: 경험이 `applyOffer()` 또는 `applyOffers()` 대신 코드로 렌더링될 때 개발자가 알림을 전송할 수 있습니다.
 
-   For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+   자세한 내용은 [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)를 참조하십시오.
 
-* **at. js size reduced by ~ 24%**: at. js의 크기는 ~ 24% 줄어듭니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at. js 다운로드 시간도 줄어듭니다.
+* **at.js 크기가 24%까지 줄어듦**: at.js의 크기가 24%까지 줄어듭니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at.js 다운로드 시간이 줄어듭니다.
 
 ## at.js 버전 2.0.1(2019년 3월 19일)
 
@@ -103,7 +103,7 @@ at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.
 
 >[!NOTE]
 >
->[일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR) 에 대한 Adobe 옵트인 지원이 필요한 경우 현재. js 1.7.0 또는 at. js 2.1.0에서 사용해야 합니다.
+>GDPR([일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md))에 대한 Adobe 옵트인 지원이 필요한 경우 현재 at.js 1.7.0 또는 at.js 2.1.0을 사용해야 합니다.
 
 ## at.js 버전 1.7.0 {#at-js-170}
 
@@ -115,7 +115,7 @@ Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 일반 �
 
 >[! 참고]
 >
->If you require Adobe Opt-in support for GDPR, you must currently use at.js 1.7.0 or 2.1.0.<br>For a list of all versions, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>GDPR에 대한 Adobe 옵트인 지원이 필요한 경우 현재 at.js 1.7.0 또는 2.1.0을 사용해야 합니다.<br>모든 버전의 목록에 대해서는 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오.
 
 ## at.js 버전 1.6.4 {#at-js-164}
 
@@ -127,10 +127,10 @@ at.js 1.6.4는 유지보수 릴리스이며 다음 문제를 해결합니다.
 
 at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되어 있습니다.
 
-* 이제 선택기는 십진수, 하이픈 두 개 또는 뒤에 십진수가 있는 하이픈(예: # -123)으로 시작하는 ID 또는 CSS 클래스를 포함하는 경우 CSS가 이스케이프 처리됩니다. (TNT-31061)
+* 이제 선택기는 십진수, 하이픈 두 개 또는 뒤에 십진수가 있는 하이픈(예: #-123)으로 시작하는 ID 또는 CSS 클래스를 포함하는 경우 CSS가 이스케이프 처리됩니다. (TNT-31061)
 * 동일한 CSS 선택기에 적용되는 서로 다른 활동의 시각적 경험 작성기(VEC) 오퍼가 활동 우선순위를 준수하지 않는 at.js 1.6.2에서 발생하는 문제를 수정했습니다. (TNT-31052)
 * 약속에 대한 기본 지원이 없는 환경에서 약속 시간 제한 관련 문제를 해결했습니다. (TNT-30974)
-* 이제 컨텐츠 렌더링 실패 이벤트를 통해 문제가 올바로 캡처되고 보고됩니다. 이전에는 사실이 아님에도 불구하고 JavaScript가 성공적으로 실행된 것으로 보고되었습니다. (TNT-30599)
+* 이제 콘텐츠 렌더링 실패 이벤트를 통해 문제가 올바로 캡처되고 보고됩니다. 이전에는 사실이 아님에도 불구하고 JavaScript가 성공적으로 실행된 것으로 보고되었습니다. (TNT-30599)
 
 ## at.js 버전 1.6.2 {#section_88BE2F69943D4280B8170F377886B58E}
 
@@ -146,7 +146,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 * 권장 사항이 Microsoft Internet Explorer 11에서 복제되도록 하는 at.js 1.6.0 문제가 해결되었습니다. (TNT-30593)
 * 이제 at.js는 사용자가 세션 중에 엣지를 변경하는 경우 엣지 오버라이드 로직이 엣지 클러스터 쿠키의 존재 여부를 확인하여 다른 엣지 번호가 발생하지 않도록 합니다. (TNT-30563)
-* HTML 컨텐츠에 잘못된 JS 코드가 포함된 경우 at.js가 후속 조치를 실행하지 못하도록 하는 문제가 수정되었습니다. 이제 at.js는 오류를 로그하고 문제 없이 나머지 조치를 렌더링합니다. (TNT-30546)
+* HTML 콘텐츠에 잘못된 JS 코드가 포함된 경우 at.js가 후속 조치를 실행하지 못하도록 하는 문제가 수정되었습니다. 이제 at.js는 오류를 로그하고 문제 없이 나머지 조치를 렌더링합니다. (TNT-30546)
 * .리디렉션 페이지가 리디렉션 활동에 대해 다시 자격을 확보할 때 예외가 발생하도록 변경했습니다. (TNT-30532)
 * getOffer() API 요청에서 올바른 요청 제한 시간이 적용되지 않는 문제가 수정되었습니다. (TNT-30498)
 * 파일 프로토콜을 사용할 때 at.js 1.6.0이 쿠키를 저장하지 못하도록 하는 문제가 수정되었습니다. (TNT-30454)
@@ -201,7 +201,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 * at.js의 이벤트 및 클릭 추적 기능이 개선되었습니다. at.js는 `navigator.sendBeacon()`을 사용하여 이벤트 추적 데이터를 전송하고, `navigator.sendBeacon()`이 지원되지 않을 때 동기 XHR로 대체됩니다. 이 대체 항목은 주로 Internet Explorer 10 및 11과 일부 Safari 버전에 영향을 줍니다. Safari는 향후 iOS 11.3 릴리스에서 `navigator.sendBeacon()`을 추가로 지원할 예정입니다.
 * 이제 페이지가 백그라운드 탭에서 열릴 때도 at.js가 오퍼를 렌더링할 수 있습니다. 백그라운드 탭의 브라우저 조절 동작으로 인해 `requestAnimationFrame()`이 비활성화될 때 일부 Target 고객에서 문제가 발생합니다.
 * 이번 릴리스에서는 Chrome CPU 프로필 검사 시 호출 스택 단축을 비롯하여 여러 가지 성능이 개선되었습니다.
-* at.js 1.3.0은 더 이상 Microsoft Internet Explorer 9에서 컨텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 [지원되는 브라우저](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 `XMLHttpRequest`를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다.
+* at.js 1.3.0은 더 이상 Microsoft Internet Explorer 9에서 콘텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 [지원되는 브라우저](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 `XMLHttpRequest`를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다.
 
 ## at.js 버전 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
@@ -256,8 +256,8 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 다음 개선 사항 및 수정 사항이 at.js 버전 1.0에 포함되어 있습니다.
 
 * 더 빠른 페이지 로드를 위해 at.js의 비동기식 로드가 지원됩니다.
-* at.js를 비동기식으로 로드할 때 사전 숨김 페이지 컨텐츠가 지원됩니다.
-* 컨텐츠 전달을 사용하지 않도록 설정할 때 오류 메시지가 개선됩니다.
+* at.js를 비동기식으로 로드할 때 사전 숨김 페이지 콘텐츠가 지원됩니다.
+* 콘텐츠 전달을 사용하지 않도록 설정할 때 오류 메시지가 개선됩니다.
 * 여러 활동을 전달할 때 성능이 향상됩니다.
 * YUI Compressor가 지원됩니다.
 * 활동 전달 중 사용자 지정 이벤트에 대한 버그/오류가 보고됩니다.
@@ -287,7 +287,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 * `selectorsPollingTimeout` 설정이 추가되었습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 * `getOffer()`의 응답 형식이 변경되었습니다. 자세한 내용은 [adobe.target.getOffer(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)를 참조하십시오.
 * 지원되지 않는 `<!DOCTYPE>` 선언에 대한 콘솔 로깅이 추가되었습니다.
-* 여러 기본 오퍼가 단일 mbox에 전달된 경우 [!DNL Target Classic] 플러그인이 올바르게 적용되지 않던 문제가 수정되었습니다. (TGT-22664) 자세한 내용은 Adobe Target Classic 설명서에서 [플러그인](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Using_Plug-Ins.html)을 참조하십시오.
+* 여러 기본 오퍼가 단일 mbox에 전달된 경우 [!DNL Target Classic] 플러그인이 올바르게 적용되지 않던 문제가 수정되었습니다. (TGT-22664)
 * mbox 쿠키가 이러한 도메인(예: [!DNL test.no], [!DNL autodrives.ca] 등)에 대해 올바르게 설정되었는지 확인할 수 있게 두 글자로 된 TLD(최상위 수준 도메인)에 대한 쿠키 설정이 향상되었습니다.
 * 쿠키를 저장할 때 사용해야 하는 최상위 도메인을 추출하는 알고리즘이 at.js 버전 0.9.6에서 변경되었습니다. 이러한 변경으로 인해 쿠키를 IP를 사용하는 주소에 저장할 수 없습니다. 대부분의 경우 IP 주소는 테스트 용도로 사용되지만, 해결 방법으로 DNS 항목을 사용하거나, 로컬 상자에서 호스트 파일을 조정할 수 있습니다.
 * 속성이 정수 대신 문자열 값일 때 이동 및 재정렬 작업 처리 방식이 수정되었습니다.
@@ -308,7 +308,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 **날짜:** 2016년 10월 10일
 
 * at.js 설정에서 레거시 브라우저가 비활성화될 경우 Microsoft Internet Explorer 11에서 mbox가 실행되도록 합니다.
-* 다이내믹 원격 오퍼가 실패하는 경우(예를 들어, URL이 올바르지 않고 404 오류를 반환하는 경우) 기본 컨텐츠가 렌더링되도록 합니다.
+* 다이내믹 원격 오퍼가 실패하는 경우(예를 들어, URL이 올바르지 않고 404 오류를 반환하는 경우) 기본 콘텐츠가 렌더링되도록 합니다.
 * DOM에서 VEC 클릭 추적 선택기를 찾을 수 없는 경우 요소가 빠르게 표시되도록 합니다.
 
 ## at.js 버전 0.9.2 {#section_148549CBB4F046BAA8F79C79B64EC889}
@@ -316,7 +316,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 **날짜:** 2016년 9월 21일
 
 * Device Graph 옵트아웃을 활성화하거나 비활성화하는 `optoutEnabled` 설정이 추가되었습니다. 이 설정이 `true`로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 베타 버전입니다. 이 설정은 기본적으로 `false`로 설정되지만 Device Graph를 사용하는 경우에는 `true`로 설정되어야 합니다. 비슷한 옵션이 mbox.js v61에 포함되어 있습니다.
-* 알림 메커니즘에 대한 `CustomEvent` 지원이 추가되었습니다. 이전에는 at.js 이벤트 알림 메커니즘을 `document.addEventListener()`()와 같은 표준 DOM API를 통해 사용할 수 없었습니다. 이제는 `document.addEventListener()`를 사용하여 요청 이벤트 및 컨텐츠 렌더링 이벤트와 같은 at.js 이벤트에 가입할 수 있습니다.
+* 알림 메커니즘에 대한 `CustomEvent` 지원이 추가되었습니다. 이전에는 at.js 이벤트 알림 메커니즘을 `document.addEventListener()`()와 같은 표준 DOM API를 통해 사용할 수 없었습니다. 이제는 `document.addEventListener()`를 사용하여 요청 이벤트 및 콘텐츠 렌더링 이벤트와 같은 at.js 이벤트에 가입할 수 있습니다.
 * VEC(시각적 경험 작성기)에서 만든 오퍼와 관련된 문제가 수정되었습니다. 이 릴리스 이전에 Target은 선택기를 숨기고, 모든 선택기가 선택될 때만 숨김을 해제했습니다. at.js 0.9.2 Target은 일치하는 선택기가 확인되면 바로 숨김을 해제합니다.
 
 ## at.js 버전 0.9.1 {#section_DAFB99114D604CFB8416C1BC7DEEAEEE}
@@ -345,7 +345,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 * 새 at.js notification] API.
 
-   이 알림 시스템의 목표는 페이지에서 [!DNL at.js]가 수행하는 작업과 문제가 발생하는 경우를 보다 잘 이해할 수 있도록 하는 것입니다. VEC에서 나타나는 일반적인 문제는 IT 릴리스가 페이지를 변경하고, VEC 선택기가 중단되고, 테스트가 더 이상 컨텐츠를 올바르게 배달하지 못하는 것입니다. 이 알림 시스템의 목표는 이 배달 문제를 페이지에 알려서 개발자들이 이 정보에 액세스하고, [!DNL Adobe Analytics]와 같은 시스템에 전달하고, 테스트가 중단된 비즈니스 소유자에게 경고를 보낼 수 있도록 하는 것입니다.
+   이 알림 시스템의 목표는 페이지에서 [!DNL at.js]가 수행하는 작업과 문제가 발생하는 경우를 보다 잘 이해할 수 있도록 하는 것입니다. VEC에서 나타나는 일반적인 문제는 IT 릴리스가 페이지를 변경하고, VEC 선택기가 중단되고, 테스트가 더 이상 콘텐츠를 올바르게 배달하지 못하는 것입니다. 이 알림 시스템의 목표는 이 배달 문제를 페이지에 알려서 개발자들이 이 정보에 액세스하고, [!DNL Adobe Analytics]와 같은 시스템에 전달하고, 테스트가 중단된 비즈니스 소유자에게 경고를 보낼 수 있도록 하는 것입니다.
 
 * 새 `targetGlobalSettings()` API 메서드.
 
@@ -374,4 +374,4 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 * 버전 8 이전의 Internet Explorer 버전은 지원되지 않습니다.
 * 비동기식 구현은 [!DNL Test&Target]과 [!DNL SiteCatalyst] 플러그인의 통합과 같은 이전 통합이 작동되지 않을 수 있음을 의미합니다.
 * [!DNL Target] 개체 및 메서드를 참조하는 [!DNL mbox.js] 플러그인은 지원되지 않습니다.
-* 모든 [!DNL Target] 호출은 XMLHTTPRequest를 통해 수행되고 컨텐츠는 JSON을 통해 반환됩니다.
+* 모든 [!DNL Target] 호출은 XMLHTTPRequest를 통해 수행되고 콘텐츠는 JSON을 통해 반환됩니다.
