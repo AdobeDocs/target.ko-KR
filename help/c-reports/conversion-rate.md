@@ -8,7 +8,7 @@ title: 전환율
 topic: 고급,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -107,7 +107,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 [다운로드한 CSV 보고서](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다.
 
-이러한 계산된 지표를 계산하려면 [Target의 Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel 파일을 다운로드하여 활동의 값을 입력하거나, [Target에서 사용하는 통계 계산](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf)을 검토하십시오.
+To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
