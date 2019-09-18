@@ -1,15 +1,15 @@
 ---
 description: 데이터를 .csv 형식으로 다운로드하면 Excel, Access 또는 기타 데이터 분석 프로그램으로 빠르게 가져올 수 있습니다.
 keywords: 보고서;보고서 다운로드;csv;성공 지표;주문 세부 사항
-seo-description: 데이터를 .csv 형식으로 다운로드하면 Excel, Access 또는 기타 데이터 분석 프로그램으로 빠르게 가져올 수 있습니다.
-seo-title: CSV 파일로 데이터 다운로드
+seo-description: Adobe Target을 사용하여 데이터를 .csv 형식으로 다운로드하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 신속하게 가져올 수 있습니다.
+seo-title: Adobe Target을 사용하여 CSV 파일로 데이터 다운로드
 solution: Target
 subtopic: 다변량 테스트
 title: CSV 파일로 데이터 다운로드
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -20,12 +20,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 데이터를 CSV 파일로 다운로드하려면 다음을 수행하십시오.
 
-1. [!DNL Activities]을 클릭한 다음, 목록에서 원하는 활동을 클릭합니다.
+1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음, 목록에서 원하는 활동을 클릭합니다.
 
    활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
 
 1. **[!UICONTROL 보고서]탭을 클릭합니다.**
-1. [!UICONTROL 다운로드] 아이콘을 클릭한 다음, Excel 및 기타 도구에서 분석할 수 있도록 다운로드할 보고서 유형을 선택합니다.
+1. **[!UICONTROL 다운로드]아이콘을 클릭한 다음, Excel 및 기타 도구에서 분석할 수 있도록 다운로드할 보고서 유형을 선택합니다.**
+
+   * [!UICONTROL 보고서를 CSV로 내보내기]
+   * [!UICONTROL 주문 세부 사항을 CSV로 내보내기]
+   ![다운로드 옵션](/help/c-reports/assets/download-options.png)
 
 ## 보고서를 CSV로 내보내기 {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -38,7 +42,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 >[!NOTE]
 >
->CSV 보고서는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다. 이러한 계산된 지표를 계산하려면 [Target의 Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) Excel 파일을 다운로드하여 활동의 값을 입력하거나, [Target에서 사용하는 통계 계산](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf)을 검토하십시오.
+>CSV 보고서에는 원시 데이터만 포함되며 방문자당 매출액, 리프트 수 또는 A/B 테스트에 사용된 신뢰도와 같은 계산된 지표는 포함되지 않습니다. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 주문 세부 사항을 CSV로 내보내기 {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -81,7 +85,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 다음 정보는 다운로드 선택 사항에 적용됩니다.
 
-* A/B, 자동화된 개인화, 경험 타깃팅 및 다변량 활동에 대한 보고서를 모두 다운로드할 수 있습니다.  권장 사항 활동에 대한 성공 지표 보고서는 다운로드할 수 없습니다.
+* A/B 테스트, 자동화된 개인화, 경험 타깃팅 및 다변량 활동에 대한 보고서를 모두 다운로드할 수 있습니다.  권장 사항 활동에 대한 성공 지표 보고서는 다운로드할 수 없습니다.
 * Target 버전 15.7.1(2015년 7월) 이전에 만들어진 A/B 및 경험 타깃팅 활동에는 다운로드 선택 사항을 사용할 수 없습니다.
 * 연결된 데이터가 없는 경험은 다운로드한 보고서에 기록되지 않습니다.
-* Target 보고 UI에 적용된 대상은 다운로드 보고서로 넘어가지 않습니다.
+* Target 보고 UI에 적용된 대상은 다운로드 보고서로 넘겨지지 않습니다.
