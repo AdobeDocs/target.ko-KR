@@ -8,7 +8,7 @@ title: 활동 알림
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -19,7 +19,7 @@ Target은 Adobe Pulse를 사용하여 다른 Adobe Experience Cloud 솔루션과
 
 [!DNL Target]의 알림은 모든 솔루션에서 [!DNL Target Standard/Premium]의 [!DNL Experience Cloud] 제품 컨텍스트가 있는 사용자에게 표시될 수 있습니다.
 
-For information about setting up Notifications, see [Notifications](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) in the [!DNL Adobe Experience Cloud] documentation.
+For information about setting up Notifications, see [Enable notifications](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/getting-started-experience-cloud.html#concept_0105453AD71847B8BFCAF4A40915F157) in the [!DNL Adobe Experience Cloud] documentation.
 
 활동 작성 워크플로우 내를 제외하고 [!DNL Target]의 어디에서든 알림에 액세스합니다. 알림 위젯을 표시하거나 숨기려면 페이지 헤더에서 종 아이콘을 클릭하십시오.
 
