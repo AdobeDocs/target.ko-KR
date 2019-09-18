@@ -8,7 +8,7 @@ title: Target 최적화 및 개인화 FAQ
 topic: 고급
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -41,7 +41,7 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 
 **at.js 또는 mbox.js 중에서 어떻게 구현된 JavaScript 파일을 사용해야 합니까?**
 
-at.js는 최신의 가장 뛰어난 JavaScript 라이브러리입니다. mbox.js는 이전 버전입니다. 두 라이브러리 간의 차이점을 이해하려면 [at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 의 이점을 통해 두 라이브러리 간의 차이점을 이해할 수 있습니다. 신규 고객은 모두 at.js를 사용해야 합니다.
+at.js는 최신의 가장 뛰어난 JavaScript 라이브러리입니다. mbox.js는 이전 버전입니다. 두 라이브러리 간의 차이점을 이해하려면 [at.js의 이점](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)을 참조하십시오. 신규 고객은 모두 at.js를 사용해야 합니다.
 
 기존의 모든 mbox.js 고객은 at.js로 마이그레이션해야 합니다. 전환을 수행하기 전에 [mbox.js에서 at.js로 마이그레이션](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)에 포함된 단계에 대해 자세히 알아보십시오.
 
@@ -81,13 +81,13 @@ Adobe Target에서 제공한 각 선택 사항이 적용되는 사례를 알려�
 
 **다른 위치(예: 체크아웃 단계)에 있는 오퍼를 적용할 수 있습니까?**
 
-Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+경험에서 여러 페이지를 사용할 수 있는 [다중 페이지 활동 기능](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 사용해보십시오.
 
 **일단 목표(기본 또는 2차)에 도달하면 사용자가 해당 활동에 다시 들어오지 않고, 대신 다른 활동이 진행되는 것을 보는지 확인하려면 어떻게 해야 합니까?**
 
 모든 목표에 사용할 수 있는 [고급 설정](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) 옵션을 사용하면 쉽게 알 수 있습니다. 사용자가 목표에 도달한 후 수행되어야 하는 동작과 카운트가 증분되는 방식을 결정할 수 있는 옵션이 제공됩니다.
 
-따라서 이 경우 "증분 카운트, 재입력에서 사용자 및 막대 해제"와 "기본/기타 활동 컨텐츠"를 함께 선택하여 목표에 도달할 수 있습니다. 다른 옵션도 확인하십시오.
+따라서 이 경우 "증분 카운트, 재입력에서 사용자 및 막대 해제"와 "기본/기타 활동 콘텐츠"를 함께 선택하여 목표에 도달할 수 있습니다. 다른 옵션도 확인하십시오.
 
 **활동에 여러 목표를 생성했습니다. 목표 체인을 보고 및 분석 목적을 위한 단계로 만들 수 있습니까?**
 
@@ -115,7 +115,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
-이 작업도 가능합니다. simply [사용할 수 있는 저장 옵션을 사용하여 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다](../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+이 작업도 가능합니다. 간단한 [사용할 수 있는 저장 옵션을 사용하여 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다](../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 **방금 생성한 활동을 미리 보고 QA를 수행하려면 어떻게 해야 합니까?**
 
@@ -176,9 +176,9 @@ QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa
 
 **VEC(시각적 경험 작성기)에서 내 페이지를 로드하려고 할 때 "브라우저에서 스크립트가 로드되도록 허용" 메시지가 표시됩니다. 이 문제를 방지하려면 어떻게 해야 합니까?**
 
-이 문제는 사이트가 HTTP 리소스와 HTTPS 리소스를 둘 다 가져와 혼합된 컨텐츠를 포함하고 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
+이 문제는 사이트가 HTTP 리소스와 HTTPS 리소스를 둘 다 가져와 혼합된 콘텐츠를 포함하고 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
 
-이러한 이동이 완료될 때까지는 [브라우저에서 혼합 컨텐츠 활성화](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)의 지침에 따라 브라우저가 혼합된 컨텐츠를 로드할 수 있도록 하십시오. 이것은 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
+이러한 이동이 완료될 때까지는 [브라우저에서 혼합 콘텐츠 활성화](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)의 지침에 따라 브라우저가 혼합된 콘텐츠를 로드할 수 있도록 하십시오. 이것은 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
 
 **Target at.js 라이브러리가 아직 배포되지 않았더라도 사이트에서 VEC(시각적 경험 작성기)를 사용해볼 수 있습니까?**
 
@@ -236,7 +236,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 **사용자가 보유할 수 있는 모든 장치에서 일관되게 동일한 경험이 전달되도록 하려면 어떻게 해야 합니까?**
 
-Co-op의 기능을 통해 사용자의 여러 장치를 결정적으로 및 확률적으로 연결할 수 있도록 하는 [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html)를 확인해보십시오. 
+Co-op의 기능을 통해 사용자의 여러 장치를 결정적으로 및 확률적으로 연결할 수 있도록 하는 [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)를 확인해보십시오. 
 
 Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그를 사용하여 기능을 활성화할 수 있습니다. 또한 보고 기능도 이제 방문자 대신 사용자를 반영합니다. 이 기능을 일부 지역에서는 사용할 수 없으므로 Adobe 담당자에게 이 기능에 대해 문의하십시오.
 
@@ -254,9 +254,9 @@ Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그
 
 사용자를 선택한 페이지로 리디렉션할 수 있는 [리디렉션 URL 기능](../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)이 있습니다(현재 쿼리 매개 변수를 사용하거나 사용하지 않음).
 
-**내 QA 프로세스에서 컨텐츠 전달이 발생하지 않는 이유는 무엇입니까?**
+**내 QA 프로세스에서 콘텐츠 전달이 발생하지 않는 이유는 무엇입니까?**
 
-사이트에 요소에 대한 다이내믹 ID, 중복 ID 또는 다이내믹 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 기본 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기를 참조하십시오](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+사이트에 요소에 대한 다이내믹 ID, 중복 ID 또는 다이내믹 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 기본 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)를 참조하십시오.
 
 **원하는 오퍼/경험이 표시되지 않고 대신 다른 활동이 표시되는 이유는 무엇입니까?**
 
@@ -283,7 +283,7 @@ Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그
 
 안내가 있는 3파트로 구성된 활동 워크플로우의 3단계에 포함된 목표 및 설정 페이지에서 사용할 수 있는 ](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)보고 대상 기능[에서 이 작업을 수행할 수 있습니다.
 
-50 개의 세그먼트와 애플리케이션 포인트 (활동 항목 또는 특정 지표) 를 추가하여 강력한 방법으로 슬라이스와 주사하는 방법을 선택할 수 있습니다.
+이러한 세그먼트 50개와 적용 지점(활동 시작 또는 특정 지표)을 추가하는 옵션을 통해 보다 강력한 분류 기능을 사용할 수 있습니다.
 
 Target은 사용자가 이러한 대상을 추가할 때 이와 관련된 데이터를 수집하므로 테스트를 실행하기 전에 세그먼트를 추가하지 않으면 문제가 됩니다.
 
@@ -291,19 +291,19 @@ Target은 사용자가 이러한 대상을 추가할 때 이와 관련된 데이
 
 **이 프로세스를 좀 더 쉽게 수행하려면 어떻게 해야 합니까?**
 
-This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Adobe Analytics가 있는 경우 소스를 Analytics로 선택하면 이러한 제한이 해소됩니다. 이제 언제든지 아무 대상에서나 분석을 수행할 수 있으며, 보고 대상을 미리 정의할 필요가 없습니다.
+[A4T(타겟 분석)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)가 편리한 위치입니다. Adobe Analytics가 있는 경우 소스를 Analytics로 선택하면 이러한 제한이 해소됩니다. 이제 언제든지 아무 대상에서나 분석을 수행할 수 있으며, 보고 대상을 미리 정의할 필요가 없습니다.
 
 **오프라인 보고 계산을 수행할 수 있습니까?**
 
-Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
+보고서 페이지의 [CSV로 보고서 내보내기 및 주문 세부사항을 CSV로 다운로드 옵션](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)을 사용하여 원하는 보고 데이터를 다운로드하십시오.
 
 **보고서를 평가하기 위해 제어 경험을 변경하거나 방문자에서 방문으로 카운트 방법을 변경할 수 있습니까?**
 
-Make these changes using the [Settings gear on the reports page](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). 이러한 설정을 잘 읽어보고 계산이 어떻게 다른지 이해하도록 하십시오.
+다음 [보고서 페이지의 설정 톱니바퀴](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)를 사용하여 이러한 변경 작업을 수행합니다. 이러한 설정을 잘 읽어보고 계산이 어떻게 다른지 이해하도록 하십시오.
 
 **보고서를 어떻게 해석해야 합니까?**
 
-We have tried to make reports as intuitive as possible with features like [confidence Interval bars, lift bounds, significance/confidence and multiple metric selections, table and graph views, running averages, and more](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) to allow for powerful, yet easy, report analysis. 대상에 대한 추가적인 분석을 위해 [Analytics for Target(A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 활동을 사용하는 경우 Analytics를 살펴볼 수 있습니다.
+Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러 지표 선택, 표 및 그래프 보기, 평균 실행](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)과 같은 기능으로 보고서를 최대한 직관적인 방식으로 만들어 강력하지만 쉬운 보고서 분석을 가능하게 했습니다. 대상에 대한 추가적인 분석을 위해 [Analytics for Target(A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 활동을 사용하는 경우 Analytics를 살펴볼 수 있습니다.
 
 ## 응답 토큰{#section_C2A7118B4B62482A9D630C2212112A3D}을 참조하십시오 
 
