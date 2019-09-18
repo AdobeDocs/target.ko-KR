@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/ko-KR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + Enterprise 사용자 권한 {#enterprise}
          + [Enterprise 사용자 권한](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 권한 구성](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Adobe I/O 통합 기능을 통해 작업 영역 이용 권한 부여 및 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [작업 영역에 Adobe I/O 통합 액세스 권한 부여 및 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic 통합](administrating-target/scene7-settings.md)
    + [호스트](administrating-target/hosts.md)
    + [응답 토큰](administrating-target/response-tokens.md)
@@ -51,13 +51,13 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
    + 구현하기 전에 {#before-implement}
       + [구현하기 전에](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
       + [Target 구현 준비](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
-      + 개인 정보 보호 및 보안 {#privacy}
+      + 개인 정보 및 보안 {#privacy}
          + [개인 정보 보호 개요](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
          + [개인 정보 보호 및 데이터 보호 규정](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target 쿠키 삭제](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome samesite 쿠키 정책](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [CSP (Content Security Policy) 지시문](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [CSP(Content Security Policy) 디렉티브](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 데이터를 Target에 가져오는 방법 {#methods}
          + [메서드](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [프로필 API 설정](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -137,7 +137,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [Android - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [모바일 VEC에서 클릭 추적 설정](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [모바일 앱용 타겟 FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + 서버 측: Target 구현 {#server-side}
       + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target의 이전 API에서 Adobe I/O로 전환](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -167,6 +167,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
          + [지표 정의 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [부풀려진 방문 및 방문자 카운트 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [분류 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
+         + [지표, 대상 및 보고서 공유 - A4T FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud 대상자](c-integrating-target-with-mac/mmp.md)
@@ -276,7 +277,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
       + [프로필 속성](c-target/c-visitor-profile/profile-parameters.md)
       + [카테고리 친화성](c-target/c-visitor-profile/category-affinity.md)
       + [고객 속성](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox 3 rdpartyid에 대한 실시간 프로필 동기화](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox3rdPartyId에 대한 실시간 프로필 동기화](c-target/c-visitor-profile/3rd-party-id.md)
       + [프로필 및 변수 용어집](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Target 및 대상 FAQ {#faq-audiences}
       + [Target 및 대상 FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -340,7 +341,7 @@ source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
    + [보고 FAQ](c-reports/reporting-frequently-asked-questions.md)
 + 권장 사항 {#recommendations}
    + [권장 사항 개요](c-recommendations/recommendations.md)
-   + [Recommendations 소개](c-recommendations/introduction-to-recommendations.md)
+   + [추천 소개](c-recommendations/introduction-to-recommendations.md)
    + [권장 사항 계획 및 구현](c-recommendations/plan-implement.md)
    + 엔티티 {#entities}
       + [엔티티 개요](c-recommendations/c-products/products.md)
