@@ -8,7 +8,7 @@ title: Analytics for Target 구현
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -33,15 +33,15 @@ Adobe Target에서 Adobe Analytics 기반 활동을 만들려면 사용자 계�
 
 방문자 ID 서비스를 통해 Experience Cloud 솔루션에서 사용자를 식별할 수 있습니다. 필요한 Experience Cloud 방문자 ID 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 "구현 요구 사항"을 참조하십시오.
 
-Experience Cloud 방문자 ID 서비스 설명서의 [Target용 Experience Cloud ID 서비스 구현](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-target.html)을 참조하십시오.
+Experience Cloud 방문자 ID 서비스 설명서의 [Target용 Experience Cloud ID 서비스 구현](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html)을 참조하십시오.
 
 ## 4단계: AppMeasurement for JavaScript 또는 s_code의 AppMeasurement 업데이트
 
 필요한 appMeasurement.js 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 "구현 요구 사항"을 참조하십시오.
 
-신규 구현에 대해서는 [Analytics JavaScript 구현](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html)을 참조하십시오.
+새 구현에 대해서는 Analytics 구현 [안내서의 JavaScript 구현 개요를](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) *참조하십시오*.
 
-마이그레이션에 대해서는 [JavaScript용 AppMeasurement로 마이그레이션](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=appmeasure_mjs_migrate)을 참조하십시오.
+마이그레이션에 대해서는 Analytics 구현 [안내서의 JavaScript용 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 로 *마이그레이션을 참조하십시오*.
 
 ## 5단계: at.js 또는 mbox.js 다운로드하여 업데이트
 
@@ -57,7 +57,7 @@ Experience Cloud 방문자 ID 서비스 설명서의 [Target용 Experience Cloud
 
 ## 7단계: 모든 사이트 페이지에서 at.js 또는 mbox.js 참조 {#step7}
 
-각 페이지의 태그에 다음 코드 행을 추가하여 Visitorapi. js 아래에 at. js 또는 mbox. js를 포함합니다.
+각 페이지의 태그에 다음 코드 행을 추가하여 VisitorAPI.js 아래에 at.js 또는 mbox.js를 포함합니다.
 
 at.js의 경우:
 
@@ -73,11 +73,11 @@ mbox.js의 경우:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-Visitorapi. js 는. js 또는 mbox. js 앞에 로드되어야 합니다. 기존 at. js 또는 mbox. js 파일을 업데이트하는 경우 로드 순서를 확인해야 합니다.
+VisitorAPI.js가 at.js 또는 mbox.js보다 먼저 로드되어야 합니다. 기존 at.js 또는 mbox.js 파일을 업데이트하는 경우 로드 순서를 확인해야 합니다.
 
-구현 원근과 Target 및 Analytics 통합에 대해 기본적으로 설정이 구성되는 방법은 페이지에서 전달되는 SDID를 사용하여 자동으로 백엔드에서 Target 및 Analytics 요청을 연결하는 것입니다.
+구현 관점에서 Target 및 Analytics 통합에 대한 기본 설정이 구성되는 방법은 페이지에서 전달되는 SDID를 사용하여 자동으로 백엔드에서 Target과 Analytics 요청을 함께 연결하는 것입니다.
 
-However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. 참고: 2.1 미만 버전은 이 방법을 지원하지 않습니다.
+하지만 보고 목적을 위해 Target과 관련된 Analytics 데이터를 언제, 어떻게 Analytics로 보낼 것이지에 대해 자세히 제어하고, Target 및 Analytics에서 SDID를 통해 Analytics 데이터를 자동으로 연결하게 하는 기본 설정으로 옵트인하지 않으려는 경우 **window.targetGlobalSettings**&#x200B;를 통해 **analyticsLogging = client_side**&#x200B;를 설정할 수 있습니다. 참고: 2.1 이하의 버전은 이 방법을 지원하지 않습니다.
 
 예:
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. 이 설정이 설정되면 반환되는 페이로드의 형식은 다음과 같이 나타납니다.
+이 설정에는 전역 효과가 있습니다. 즉, at.js에 의한 모든 호출에는 Target 요청 내에 전송된 **analyticsLogging: "client_side"**&#x200B;가 있으며 모든 요청마다 Analytics 페이로드가 반환됩니다. 이 기능이 설정되면 반환되는 페이로드의 형식은 다음과 같이 나타납니다.
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ This set up has a global effect, which means that every call made by at.js will 
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+그런 다음 데이터 삽입 API를 통해 페이로드를 Analytics로 [전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. Analytics 페이로드가 이 호출만 대해 반환되고 Target 백엔드는 페이로드를 Analytics로 전달하지 않습니다. 이 방법을 추구하면 at. js Target 요청이 기본적으로 페이로드를 반환하지는 않지만 대신 원할 때만 페이로드를 반환합니다.
+글로벌 설정을 원하지 않고 더 많은 요구 방식이 필요한 경우 at.js 함수 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)를 사용하면 **analyticsLogging: "client_side"**&#x200B;를 전달하여 이를 수행할 수 있습니다. Analytics 페이로드는 이 호출에 대해서만 반환되고, Target 백엔드는 페이로드를 Analytics에 전달하지 않습니다. 이 방법을 사용하면 모든 at.js Target 요청이 페이로드를 기본적으로 반환하지 않는 것이 아니라, 필요 시 지정한 경우에만 페이로드를 반환합니다.
 
 예:
 
@@ -156,7 +156,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+그런 다음 데이터 삽입 API를 통해 페이로드를 Analytics로 [전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## 8단계: 구현의 유효성 검사 {#step8}
 
