@@ -1,28 +1,28 @@
 ---
-description: 페이지에 예상되는 컨텐츠가 표시되지 않으면 몇 가지 단계를 진행하여 컨텐츠 제공을 디버깅할 수 있습니다.
+description: 페이지에 예상되는 콘텐츠가 표시되지 않으면 몇 가지 단계를 진행하여 콘텐츠 제공을 디버깅할 수 있습니다.
 keywords: mbox 디버그;mbox 문제 해결;mbox 문제;깜박임;mboxDebug;mboxTrace;토큰;디버거;우선순위;활동 우선순위;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst 구매 mbox;최상위 판매;최상위 판매자
-seo-description: 페이지에 예상되는 컨텐츠가 표시되지 않으면 몇 가지 단계를 진행하여 컨텐츠 제공을 디버깅할 수 있습니다.
-seo-title: 컨텐츠 전달 문제 해결
+seo-description: 페이지에 예상되는 콘텐츠가 표시되지 않으면 몇 가지 단계를 진행하여 콘텐츠 제공을 디버깅할 수 있습니다.
+seo-title: 콘텐츠 전달 문제 해결
 solution: Target
 subtopic: 다변량 테스트
-title: 컨텐츠 전달 문제 해결
+title: 콘텐츠 전달 문제 해결
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
-# 컨텐츠 전달 문제 해결{#troubleshoot-content-delivery}
+# 콘텐츠 전달 문제 해결{#troubleshoot-content-delivery}
 
-페이지에 예상되는 컨텐츠가 표시되지 않으면 몇 가지 단계를 진행하여 컨텐츠 제공을 디버깅할 수 있습니다.
+페이지에 예상되는 콘텐츠가 표시되지 않으면 몇 가지 단계를 진행하여 콘텐츠 제공을 디버깅할 수 있습니다.
 
-* 활동 또는 캠페인 코드를 주의깊게 확인합니다. 입력 또는 기타 오류로 인해 예상 컨텐츠가 표시되지 않을 수 있습니다.
+* 활동 또는 캠페인 코드를 주의깊게 확인합니다. 입력 또는 기타 오류로 인해 예상 콘텐츠가 표시되지 않을 수 있습니다.
 * mboxTrace 또는 mboxDebug를 사용하여 mbox 문제를 해결합니다.
 * mbox의 문제를 해결하려면, mboxDebug와 거의 동일한 정보를 제공하고 사용하기 쉬운 도구인 Adobe Experience Cloud Debugger를 사용하십시오.
 
-mboxDebug는 mbox가 실행되고 쿠키가 설정되는지 확인하도록 페이지에서 Target을 설정하는 경우에 특히 유용합니다. 그러나 컨텐츠 전달을 디버깅할 때 유용한 세부 정보로 이동하지는 않습니다. 사용자 활동이 페이지에 나타나지 않거나 원치 않는 컨텐츠가 나타나면 mboxTrace를 사용하여 페이지를 자세히 검사하고 디버깅하십시오.
+mboxDebug는 mbox가 실행되고 쿠키가 설정되는지 확인하도록 페이지에서 Target을 설정하는 경우에 특히 유용합니다. 그러나 콘텐츠 전달을 디버깅할 때 유용한 세부 정보로 이동하지는 않습니다. 사용자 활동이 페이지에 나타나지 않거나 원치 않는 콘텐츠가 나타나면 mboxTrace를 사용하여 페이지를 자세히 검사하고 디버깅하십시오.
 
 ## 디버깅 도구에 사용할 인증 토큰 검색 {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -42,7 +42,7 @@ mboxTrace 및 mboxDebug는 캠페인 데이터 및 프로필 데이터를 외부
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace를 사용하여 mbox 회신에 첨부된 추적 정보를 수신할 수 있습니다. 추적 정보는 mbox 호출의 결과(예: 대화 또는 노출) 및 이 특정 결과가 발생한 이유를 확인하는 데 도움이 되는 추가 데이터(예: 캠페인에서 해당 선택 영역이 포함되는 사용 가능한 분기 세트)를 반영합니다. 이 정보를 사용하여 컨텐츠 전달을 디버깅하십시오.
+mboxTrace를 사용하여 mbox 회신에 첨부된 추적 정보를 수신할 수 있습니다. 추적 정보는 mbox 호출의 결과(예: 대화 또는 노출) 및 이 특정 결과가 발생한 이유를 확인하는 데 도움이 되는 추가 데이터(예: 캠페인에서 해당 선택 영역이 포함되는 사용 가능한 분기 세트)를 반영합니다. 이 정보를 사용하여 콘텐츠 전달을 디버깅하십시오.
 
 다음 매개 변수를 사용할 수 있습니다.
 
@@ -57,7 +57,7 @@ mboxTrace를 사용하여 mbox 회신에 첨부된 추적 정보를 수신할 �
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-출력에는 컨텐츠에 대한 아주 자세한 정보가 표시됩니다. mboxTrace는 캠페인이나 활동 및 프로필에 대한 세부 정보를 표시합니다. 또한 실행 전에 프로필 스냅숏과 실행 후 변경된 사항에 대한 스냅숏도 제공합니다. 그뿐 아니라 각 위치에 대해 평가된 캠페인 또는 활동도 표시합니다.
+출력에는 콘텐츠에 대한 아주 자세한 정보가 표시됩니다. mboxTrace는 캠페인이나 활동 및 프로필에 대한 세부 정보를 표시합니다. 또한 실행 전에 프로필 스냅숏과 실행 후 변경된 사항에 대한 스냅숏도 제공합니다. 그뿐 아니라 각 위치에 대해 평가된 캠페인 또는 활동도 표시합니다.
 
 일부 정보에는 일치하거나 일치하지 않는 세그먼트 및 타겟 ID가 포함됩니다.
 
@@ -102,11 +102,11 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-자세한 내용은 [*Adobe Experience Cloud Debugger Extension* 설명서](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/)를 참조하십시오.
+자세한 내용은 Adobe Experience [Cloud 디버거를](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)사용하여 at.js 디버깅을 참조하십시오.
 
 ## 전달 중 target.js가 로드되지 않는 경우 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
-전달 중에 target.js가 로드되지 않으면 Mbox.js에서는 방문자에게 "em-disabled"라는 쿠키를 보냅니다. 이 쿠키는 Visual Experience Composer를 사용하여 만든 오퍼가 사이트에서 렌더링되지 못하게 합니다. 이 쿠키가 있는 방문자는 테스트 컨텐츠를 보지 못하고 해당 활동 보고서에서 카운트되지도 않습니다. 다른 모든 오퍼 컨텐츠(예: Target Classic의 캠페인)는 계속 로드됩니다. 이 쿠키의 수명은 로드 실패 시간부터 30분입니다.
+전달 중에 target.js가 로드되지 않으면 Mbox.js에서는 방문자에게 "em-disabled"라는 쿠키를 보냅니다. 이 쿠키는 Visual Experience Composer를 사용하여 만든 오퍼가 사이트에서 렌더링되지 못하게 합니다. 이 쿠키가 있는 방문자는 테스트 콘텐츠를 보지 못하고 해당 활동 보고서에서 카운트되지도 않습니다. 다른 모든 오퍼 콘텐츠(예: Target Classic의 캠페인)는 계속 로드됩니다. 이 쿠키의 수명은 로드 실패 시간부터 30분입니다.
 
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -120,19 +120,19 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
-## 글로벌 mbox.js에 의해 전달된 JavaScript 컨텐츠가 mbox.js{#section_03EC9B9C410B4F52A7FCD81840311709} 사용 시 로드되지 않습니다. 
+## 글로벌 mbox.js에 의해 전달된 JavaScript 콘텐츠가 mbox.js{#section_03EC9B9C410B4F52A7FCD81840311709} 사용 시 로드되지 않습니다. 
 
 [!DNL mbox.js] 버전 58 이상으로 업그레이드하십시오.
 
-Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 mbox에 대한 비 JavaScript 컨텐츠를 실행합니다. 글로벌 mbox에 대한 `<script>` 태그 내의 JavaScript 컨텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 컨텐츠 전달 순서에 따라 글로벌 mbox에 대한 JavaScript 컨텐츠가 제대로 전달되고 렌더링될 수 있습니다.
+Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 mbox에 대한 비 JavaScript 콘텐츠를 실행합니다. 글로벌 mbox에 대한 `<script>` 태그 내의 JavaScript 콘텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 컨텐츠 전달 순서에 따라 글로벌 mbox에 대한 JavaScript 컨텐츠가 제대로 전달되고 렌더링될 수 있습니다.
 
 ## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 
-## 요소가 AEM 개인화에도 속하면 Target 컨텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## 요소가 AEM 개인화에도 속하면 Target 콘텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
-DOM 요소가 Adobe Experience Manager(AEM) 개인화 타깃팅 및 Target 활동의 일부인 경우 Target 컨텐츠가 깜박이거나 표시되지 않을 수 있습니다.
+DOM 요소가 Adobe Experience Manager(AEM) 개인화 타깃팅 및 Target 활동의 일부인 경우 Target 콘텐츠가 깜박이거나 표시되지 않을 수 있습니다.
 
 이를 해결하려면 Target이 실행 중인 페이지에서 AEM 개인화를 비활성화하면 됩니다.
 
@@ -150,7 +150,7 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타깃팅 및 Target 활�
 
 ## mbox가 내 사이트에서 실행되지 않습니다.
 
-at. js 에서는 잘못된 doctype를 사용하는 경우 Target mbox를 실행하지 않습니다. at. s에는 HTML5 doctype이 필요합니다.
+잘못된 doctype을 사용하는 경우 at.js에서 Target mbox를 실행하지 않습니다. at. s에는 HTML5 doctype이 필요합니다.
 
 ## 교육 비디오
 
