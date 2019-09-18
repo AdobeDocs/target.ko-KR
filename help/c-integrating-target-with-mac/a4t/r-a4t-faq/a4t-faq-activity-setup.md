@@ -8,7 +8,7 @@ title: 활동 설정 - A4T FAQ
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 방금 활동을 만들었습니다. 수신되는 데이터가 표시되지 않는 이유는 무엇입니까? {#section_9F8092BE4225442896F926540292F221}
 
-활동이 만들어지면 Target은 Analytics에 분류 파일을 보냅니다. Analytics가 데이터를 캡처하고 처리하지만 분류 파일이 업데이트될 때까지는 보고서에 해당 데이터가 표시되지 않습니다. 데이터가 표시되려면 24시간이 걸릴 수 있습니다. 48시간 후에도 데이터가 표시되지 않으면 [Client Care에 문의](https://marketing.adobe.com/resources/help/en_US/target/target/r_problem.html)하십시오. 또는 활동을 실행할 시기를 알고 있는 경우 며칠 전에 활동을 미리 만들면 활동이 저장될 때 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. Analytics에서 데이터가 처리되려면 45-90분이 소요됩니다.
+활동이 만들어지면 Target은 Analytics에 분류 파일을 보냅니다. Analytics가 데이터를 캡처하고 처리하지만 분류 파일이 업데이트될 때까지는 보고서에 해당 데이터가 표시되지 않습니다. 데이터가 표시되려면 24시간이 걸릴 수 있습니다. 48시간 후에도 데이터가 표시되지 않으면 [Client Care에 문의](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)하십시오. 또는 활동을 실행할 시기를 알고 있는 경우 며칠 전에 활동을 미리 만들면 활동이 저장될 때 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. Analytics에서 데이터가 처리되려면 45-90분이 소요됩니다.
 
 ## 새 활동을 만들 때 Analytics를 보고 소스로 선택할 수 없는 이유는 무엇입니까? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
