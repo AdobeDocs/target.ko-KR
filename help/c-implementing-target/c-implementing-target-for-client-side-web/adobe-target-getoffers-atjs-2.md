@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 adobe.target.getOffers() 함수 정보입니다. '
-keywords: adobe. target. getoffers; Getoffers; Getoffers; 오퍼 받기; at. js; 함수; 함수
+keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;functions
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers(options) 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers() 함수 정보입니다.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
-| consumerId | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 보조 데이터 ID를 생성하는 데 사용됩니다. 이 키는 방문자별로 고유한 문자열입니다. |
+| consumerId | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 보조 데이터 ID를 생성하는 데 사용됩니다. 이 키는 방문자당 고유한 문자열입니다. |
 | 요청 | 개체 | 예 | 아래의 "요청" 표를 참조하십시오. |
 | timeout | 숫자 | 아니오 | 요청 시간 제한. 지정하지 않으면 기본값 at.js 시간 제한이 사용됩니다. |
 
@@ -33,9 +33,9 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 | --- | --- | --- | --- |
 | request &gt; id | 아니오 |  | `tntId`, `thirdPartyId`, `marketingCloudVisitorId` 중 하나는 필수입니다. |
 | request &gt; id &gt; thirdPartyId | 아니오 | 최대 크기 = 128 |  |  |
-| 요청 &gt; Experiencecloud | 아니오 |  |  |
-| 요청 &gt; Experiencecloud &gt; 분석 | 아니오 |  | Adobe Analytics 통합 |
-| 요청 &gt; Experiencecloud &gt; Analytics &gt; 로깅 | 아니오 | 페이지에서 다음을 구현해야 합니다.<ul><li>방문자 ID 서비스</li><li>Appmeasurement. js</li></ul> | 다음 값이 지원됩니다.<br>**client_ side**: 이 값을 지정하면 Analytics 페이로드가 호출자에게 반환되어 데이터 삽입 API를 통해 Adobe Analytics로 보내야 합니다.<br>**server_ side**: Target 및 Analytics 백엔드가 보고를 통해 보고를 위해 호출을 연결하는 기본값입니다. |
+| Request &gt; experienceCloud | 아니오 |  |  |
+| Request &gt; experienceCloud &gt; analytics | 아니오 |  | Adobe Analytics 통합 |
+| Request &gt; experienceCloud &gt; analytics &gt; logging | 아니오 | 페이지에서 다음을 구현해야 합니다.<ul><li>방문자 ID 서비스</li><li>Appmeasurement.js</li></ul> | 다음 값이 지원됩니다.<br>**client_side**: 이 값을 지정하면 데이터 삽입 API를 통해 Adobe Analytics로 보낼 때 사용해야 하는 호출자에게 분석 페이로드가 반환됩니다.<br>**server_side**: Target 및 Analytics 백엔드가 보고 목적으로 SDID를 사용하여 호출을 함께 연결하는 기본값입니다. |
 | request &gt; prefetch | 아니오 |  |  |
 | request &gt; prefetch &gt; views | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 "profile"로 시작하면 안 됨<br>허용되지 않는 이름: "orderId", "orderTotal", "productPurchasedId" | 활성 활동에서 적절한 보기를 검색하는 데 사용할 매개 변수를 전달합니다. |
 | request &gt; prefetch &gt; views &gt; profileParameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 "profile"로 시작하면 안 됨 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 프로필 매개 변수를 전달합니다. |
@@ -74,8 +74,9 @@ source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
@@ -129,7 +130,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Getoffers () 를 호출하여 클라이언트측에서 Analytics 페이로드를 검색합니다.
+## getOffers()를 호출하여 클라이언트 측에서 분석 페이로드를 검색합니다.
 
 ```
 adobe.target.getOffers({
@@ -181,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-그런 다음 데이터 삽입 API를 통해 페이로드를 Adobe Analytics로 [전달할](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)수 있습니다.
+그런 다음 데이터 삽입 API를 통해 페이로드를 Adobe Analytics로 [전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## getOffers() 및 applyOffers()를 통해 여러 mbox에서 데이터를 가져와 렌더링합니다. {#multiple}
 
