@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
+source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
 
 ---
 
@@ -120,17 +120,17 @@ source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
 
 ## 예상 기준 처리 시간 {#process-time}
 
-기준을 저장한 후 권장 사항을 [!DNL Target] 계산합니다. 이 계산은 수행하는 데 어느 정도 시간이 걸리고 선택한 권장 사항 논리, 데이터 범위, 카탈로그의 항목 수, 고객이 생성한 행동 데이터 양 및 선택한 행동 데이터 소스에 따라 일정이 달라집니다. 행동 데이터 소스는 다음과 같이 처리 시간에 가장 큰 영향을 줍니다.
+After saving an Activity containing a Criteria, [!DNL Target] computes recommendations based on the selected Collection and Criteria. This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source. The behavioral data source has the largest impact on processing time, as follows:
 
 ### mbox에 대해 Target Classic 캠페인이 실행되고 있지 않은지 확인합니다
 
-mbox를 행동 데이터 소스로 선택한 경우, 만들어진 후에는 기준이 즉시 실행됩니다. 사용되는 동작 데이터의 분량과 카탈로그 크기에 따라 알고리즘을 실행하는 데 최대 12시간이 걸릴 수 있습니다. 일반적으로 기준 구성을 변경하면 알고리즘이 다시 실행됩니다. 변경 내용에 따라 이전에 계산된 권장 사항은 다시 실행이 완료될 때까지 사용할 수 있고, 더 큰 변경 사항에 대해서는 다시 실행이 완료될 때까지 백업 또는 기본 컨텐츠만 사용할 수 있습니다. 알고리즘이 수정되지 않으면 선택한 데이터 범위에 따라 12-48시간마다 자동으로 다시 실행됩니다. [!DNL Target]
+If mboxes is selected as the behavioral data source, once created, the criteria immediately runs. 사용되는 동작 데이터의 분량과 카탈로그 크기에 따라 알고리즘을 실행하는 데 최대 12시간이 걸릴 수 있습니다. 일반적으로 기준 구성을 변경하면 알고리즘이 다시 실행됩니다. Depending on the change made, the previously computed recommendations might be available until a re-run is complete, or for larger changes, only backup or default content is available until a re-run is complete. If an algorithm is not modified, it is automatically re-run by  every 12-48 hours, depending on the selected data range.[!DNL Target]
 
 ### Adobe Analytics
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
-* **일회성 보고서 세트 설정**:보고서 세트가 지정된 데이터 범위 조회 뒤로 창에서 처음 사용되는 [!DNL Target Recommendations] 경우 2-7일 이내에 선택한 보고서 세트에 대한 행동 데이터를 완전히 다운로드할 수 [!DNL Analytics]있습니다. 이 기간은 [!DNL Analytics] 시스템 로드에 따라 다릅니다.
+* **One-time report suite setup: The first time a report suite is used with a given data range lookback window,  can take from two to seven days to fully download the behavioral data for the selected report suite from .**[!DNL Target Recommendations][!DNL Analytics] 이 기간은 [!DNL Analytics] 시스템 로드에 따라 다릅니다.
 * **이미 사용 가능한 보고서 세트를**&#x200B;사용하여 새 기준 또는 편집됨:새 기준을 만들거나 기존 기준을 편집할 때, 선택한 보고서 세트가 이미 선택한 데이터 범위와 같거나 그보다 작은 데이터 범위를 [!DNL Target Recommendations]가진 경우, 데이터를 즉시 사용할 수 있으며 일회성 설정이 필요하지 않습니다. 이 경우, 또는 선택한 보고서 세트 또는 데이터 범위를 수정하지 않고 알고리즘의 설정을 편집하는 경우 알고리즘이 12시간 내에 실행되거나 다시 실행됩니다.
 * **지속적인 알고리즘 실행**:데이터는 [!DNL Analytics] 매일 [!DNL Target Recommendations] 전송되며 예를 들어, 본 [!UICONTROL 친화성] 권장 사항의 경우 사용자가 제품을 볼 때 제품 보기 추적 호출이 [!DNL Analytics] 거의 실시간으로 전달됩니다. 데이터는 다음 날 [!DNL Analytics] 초로 푸시되고 12시간 이내에 알고리즘을 [!DNL Target] [!DNL Target] 실행합니다.
 
@@ -343,7 +343,7 @@ null 검색 결과 페이지는 사용하지 마십시오.
 
 >[!NOTE]
 >
->최근에 본 항목은 활동에 대해 선택한 컬렉션 설정과 제외 전역 설정을 모두 고려합니다. 항목이 전역 제외되거나 선택한 컬렉션에 포함되지 않은 경우 표시되지 않습니다.따라서 최근에 본 항목 기준을 사용할 때 일반적으로 "모든 컬렉션" 설정이 사용됩니다.
+>최근에 본 항목은 활동에 대해 선택한 컬렉션 설정과 제외 전역 설정을 모두 고려합니다. If an item is excluded by a global Exclusion, or is not contained in the selected Collection, it will not be displayed; therefore, when using a Recently Viewed Items criteria, the "All Collections" setting should generally be used.
 
 ## 포함 규칙{#task_28DB20F968B1451481D8E51BAF947079}을 참조하십시오 
 
