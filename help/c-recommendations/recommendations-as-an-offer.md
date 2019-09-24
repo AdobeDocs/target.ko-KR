@@ -8,7 +8,7 @@ title: 오퍼로서의 Recommendations
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해줍니다.
 
-* 동일한 활동에서 권장 사항 및 비권장 사항 컨텐츠를 테스트하고 타깃팅할 수 있습니다.
+* 동일한 활동에서 권장 사항 및 비권장 사항 콘텐츠를 테스트하고 타깃팅할 수 있습니다.
 * 권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다.
 * [!UICONTROL 자동 할당]을 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동 푸시할 수 있습니다.
 * [!UICONTROL 자동 타겟]을 사용하여 방문자를 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
@@ -34,7 +34,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
    >
    >A/B 테스트의 경우 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 선택 사항을 선택하여 트래픽을 가장 성과가 좋은 권장 사항에 자동 푸시하거나 [자동 타겟](/help/c-activities/auto-target-to-optimize.md) 선택 사항을 선택하여 방문자를 해당 프로필에 따라 맞춤 권장 사항 경험에 할당할 수 있습니다.
 
-1. [경험을](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)만드는 동안 추천을 오퍼로 추가할 요소를 클릭하고 삽입 전에 **[!UICONTROL 삽입]**, 이후 ****&#x200B;삽입 또는 작업으로 **[!UICONTROL 바꾸기를 선택한]** 다음 [!UICONTROL 권장 사항을 선택합니다].
+1. [경험](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 만드는 동안 권장 사항을 오퍼로 추가할 요소를 클릭하고, **[!UICONTROL 다음 항목 앞에 삽입]**, **[!UICONTROL 다음 항목 뒤에 삽입]** 또는 **[!UICONTROL 다음으로 바꾸기]** 작업을 선택한 다음, [!UICONTROL 권장 사항]을 선택합니다.
 
    다음 그림은 [!UICONTROL 다음 항목 뒤에 삽입 &gt; 권장 사항] 선택 사항을 보여줍니다.
 
@@ -72,7 +72,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![Recommendations 오퍼 편집](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![추천 오퍼 편집](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. 다음 선택 사항 중 하나를 선택합니다.
 
@@ -85,7 +85,7 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 편집
 
-1. [!UICONTROL 수정] 아이콘 **(`</>`)** 를 클릭하여 [수정](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
 1. 원하는 작업을 마우스로 가리킨 다음, **[!UICONTROL 편집]아이콘을 클릭합니다.**
 
    ![수정 사항 패널](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -107,17 +107,21 @@ source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 삭제
 
-1. [!UICONTROL 수정] 아이콘 **(&lt;/&gt;)** 를 클릭하여 [수정](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
 1. 원하는 작업을 마우스로 가리킨 다음, [!UICONTROL 삭제] 아이콘을 클릭합니다.
 
    ![삭제 아이콘](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### Viewing the recommendations offer's status {#status}
+### 추천 오퍼의 상태 보기 {#status}
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
 * 결과 준비
-* 결과가 준비되지 않음
+* 결과 준비 안 됨
 * 피드 실패
 
 ![Recommendations 오퍼 상태](/help/c-recommendations/assets/recs-offer-status.png)
+
+## 교육 비디오:오퍼로서 권장 사항
+
+>[!VIDEO](https://video.tv.adobe.com/v/28878?captions=kor)
