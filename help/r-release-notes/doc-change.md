@@ -2,13 +2,13 @@
 description: 이 페이지에는 Target 문서에 대한 중요한 변경 사항이 나와 있습니다.
 keywords: Target 설명서 변경 로그;설명서 업데이트
 seo-description: This page lists important changes made to the Adobe Target documentation.
-seo-title: Adobe Target 제품 설명서의 문서 변경 사항.
+seo-title: Documentation changes in the Adobe Target product documentation.
 solution: Target
 title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -21,50 +21,51 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| September 24, 2019 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Changed date of the Target/Standard 19.2.1 release to September 30, 2019. |
+| 2019년 9월 26일 | [Feature flagging](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md) | 새 주제입니다.  |
+| 2019년 9월 24일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target/Standard 19.2.1 릴리스의 날짜가 2019년 9월 30일로 변경되었습니다. |
 |  | [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md) | 교육 비디오가 추가되었습니다. |
-| 2019년 9월 10일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Standard/Premium 19.9.1 릴리스에 대한 정보가 추가되었습니다. |
-| September 9, 2019 | [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | "고려 사항" 섹션이 추가되었습니다. |
-|  | [Google Chrome samesite 쿠키 정책](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | 전체 주제에 대한 텍스트가 업데이트되었습니다. |
-|  | [Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 새 주제입니다.  |
-| September 6, 2019 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 19.9.1(2019년 9월 10일) 릴리스에 대한 정보가 추가되었습니다. |
+| 2019년 9월 10일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Added information about the Target Standard/Premium 19.9.1 release. |
+| 2019년 9월 9일 | [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
+|  | [Google Chrome samesite 쿠키 정책](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
+|  | [CSP(Content Security Policy)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | 새 주제입니다.  |
+| 2019년 9월 6일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Added information about the Target Standard/Premium 19.9.1 (September 10, 2019) release. |
 |  | [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 새 주제입니다.  |
 | 2019년 9월 4일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 주제가 업데이트됨. |
-| 2019년 8월 23일 | [타겟 모바일 미리 보기](/help/c-target-mobile-app/target-mobile-preview.md) | 에서 코드 조각을 `AndroidManifest.xml`업데이트했습니다. |
-| 2019년 8월 22일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | 모바일 앱 ID 파섹 더 이상 제한이 없습니다. |
+| 2019년 8월 23일 | [타겟 모바일 미리 보기](/help/c-target-mobile-app/target-mobile-preview.md) | Updated code snippet in `AndroidManifest.xml`. |
+| 2019년 8월 22일 | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Removed information about using prohibited characters in mobile app IDs. 더 이상 제한이 없습니다. |
 |  | [사용자 지정 매개 변수](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 새 섹션이 추가되었습니다."고려 사항." |
 |  | [사용자 지정 기준 업로드](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Updated following sentence: Custom criteria updates are by default "cumulative." CSV 업로드 파일에 지정된 새 키-값 쌍이 기존 키-값 쌍을 덮어씁니다. Existing key-value pairs that don't have keys specified in the CSV upload will still be available for delivery and will expire in 31 days from the time they are last uploaded as part of the CSV file. |
-| 2019년 8월 20일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target/Premium 19.8.1 릴리스(2019년 8월 20일)를 연기했습니다. Content from this release will be rolled into the 19.9.1 release (September 24, 2019). |
-|  | [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | Added the following FAQ: "My recommended item's price isn't displaying both values to the right of the decimal point. How can I display them?" |
+| 2019년 8월 20일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target/Premium 19.8.1 릴리스(2019년 8월 20일)를 연기했습니다. 이 릴리스의 내용은 19.9.1 릴리스(2019년 9월 24일)로 롤업됩니다. |
+|  | [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 다음과 같은 FAQ가 추가되었습니다."권장 항목의 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시합니까?" |
 | 2019년 8월 16일 | [mbox3rdPartyID에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | 새 섹션이 추가되었습니다."고려 사항." |
 |  | [권장 사항 활동 만들기](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | 교육 비디오가 추가되었습니다. |
-|  | [피드](/help/c-recommendations/c-products/feeds.md) | Added training videos. |
+|  | [피드](/help/c-recommendations/c-products/feeds.md) | 교육 비디오가 추가되었습니다. |
 |  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 교육 비디오가 추가되었습니다. |
 |  | [사용자 지정 기준 업로드](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 교육 비디오가 추가되었습니다. |
 |  | [기준 시퀀스 만들기](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | 교육 비디오가 추가되었습니다. |
 |  | [디자인 만들기](/help/c-recommendations/c-design-overview/create-design.md) | 교육 비디오가 추가되었습니다. |
 |  | [컬렉션](/help/c-recommendations/c-products/collections.md) | 교육 비디오가 추가되었습니다. |
 |  | [제외](/help/c-recommendations/c-products/exclusions.md) | 교육 비디오가 추가되었습니다. |
-| 2019년 8월 14일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Updated text and added training video link. |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Clarrifed information about the  key.`consumerID` |
-|  | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)을 참조하십시오 | Updated information in the "Layout &gt; Move" section. |
-| 2019년 8월 12일 | [Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Updated information about dependencies and artifacts.<br>파일에 대한 코드 샘플이 `AndroidManifest.XML` 업데이트되었습니다. |
-|  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Updated the list of enhancements and fixes in the "Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1" section. |
+| 2019년 8월 14일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 업데이트된 텍스트 및 추가된 교육 비디오 링크입니다. |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 키에 대한 정보를 `consumerID` 추가했습니다. |
+|  | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)을 참조하십시오 | "레이아웃 &gt; 이동" 섹션에서 정보를 업데이트했습니다. |
+| 2019년 8월 12일 | [Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 종속성 및 객체에 대한 정보가 업데이트되었습니다.<br>파일에 대한 코드 샘플이 `AndroidManifest.XML` 업데이트되었습니다. |
+|  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | "Target Mobile VEC SDK iOS 2.1.0 및 Android 1.1.1" 섹션의 개선 사항 및 수정 사항 목록을 업데이트했습니다. |
 |  | [활동 편집 또는 초안으로 저장](/help/c-activities/edit-activity.md#classic) | 새 섹션이 추가되었습니다."Recommendations Classic에서 만든 이전 활동을 사용하여 작업합니다." |
 | 2019년 8월 9일 | [at.js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 새 섹션이 추가되었습니다."How at.js는 HTML 컨텐츠로 오퍼를 렌더링합니다." |
 |  | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations)을 참조하십시오 | 새 섹션이 추가되었습니다."고려 사항." |
 | 2019년 8월 7일 | [오퍼 콘텐츠 미리 가져오기](/help/c-target-mobile-app/prefetch-offer-content.md) | SDK의 프리페치 기능은 자동 타겟, 자동 할당 및 자동화된 개인화 활동 유형에서 지원되지 않는다는 내용의 참고가 추가되었습니다. |
-|  | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Updated note indicating how long the classification process takes to complete. |
-|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Updated note indicating how long the classification process takes to complete. |
+|  | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 분류 프로세스를 완료하는 데 걸리는 시간을 나타내는 참고가 업데이트되었습니다. |
+|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 분류 프로세스를 완료하는 데 걸리는 시간을 나타내는 참고가 업데이트되었습니다. |
 |  | [개인 정보 보호 및 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Updated topic to include information about the California Consumer Privacy Act (CCPA). |
-| 2019년 8월 6일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Mobile VEC SDK iOS 2.1.0 및 Android 1.1.0 릴리스에 대한 릴리스 노트를 추가했습니다. |
-|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 다음 섹션이 업데이트되었습니다."예상 기준 처리 시간." |
-|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 활동 노출 횟수 및 [!UICONTROL 활동 전환] 지표 [!UICONTROL 사용에 대한] 고려 사항을 [!DNL Analysis Workspace]업데이트했습니다. |
-| 2019년 8월 1일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 엔터프라이즈 권한에 대한 API 지원에 대한 중요한 공지가 추가되었습니다. |
-|  | [작업 영역에 Adobe I/O 통합 액세스 권한 부여 및 역할 할당](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 새 주제입니다.  |
+| 2019년 8월 6일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Added release notes for the Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.0 release. |
+|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Updated the following section: "Expected criteria processing time." |
+|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Updated consideration about using Activity Impressions and Activity Conversions metrics in .[!DNL Analysis Workspace] |
+| 2019년 8월 1일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Added important announcement regarding API support for Enterprise Permissions. |
+|  | [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 새 주제입니다.  |
 | 2019년 7월 31일 | [추천 소개](/help/c-recommendations/introduction-to-recommendations.md) | 새 주제입니다.  |
-|  | [Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 최근에 본 항목에 메모를 추가했습니다. |
-|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#preview) | Added known issue with Activity QA preview links. |
+|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 최근에 본 항목에 메모를 추가했습니다. |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 활동 QA 미리 보기 링크에 알려진 문제가 추가되었습니다. |
 | 2019년 7월 29일 | [보고 FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 추가된 새로운 FAQ:"XT(Experience Targeting  ) 보고서에 제어 경험에 대한 지표가 포함된 이유는 무엇입니까?" |
 | 2019년 7월 24일 | [at.js 1.*x* 에서 at.js 2.*x로 업그레이드*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 새 섹션이 추가되었습니다.at.js [2.x에서 도메인 간 추적 지원](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention(ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 새 주제입니다.  |
