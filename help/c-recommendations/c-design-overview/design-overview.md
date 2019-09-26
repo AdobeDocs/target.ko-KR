@@ -8,7 +8,7 @@ title: 디자인 개요
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -91,7 +91,7 @@ Target에서는 다음 그림에서 보듯이 권장 사항의 전체 모양과 
 | 매개 변수 | 값 |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(../target/products.html#recs설정 &gt; Recommendations API 토큰 &gt; 클라이언트 코드에서 사용 가능) |
-| `[YOUR_MBOX_NAME]` | 양식 기반 권장 사항의 "위치" 섹션에서 선택한 이름입니다. 이 경우에는 YOUR_CLIENT_CODE입니다. |
+| `[YOUR_MBOX_NAME]` | 양식 기반 Recommendations의 "위치" 섹션에서 선택한 이름(이 경우 Sample_Recs_Response). |
 | `[ENTITY_ID`] | 카탈로그에 있는 항목의 `entity.id`입니다. |
 | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
 
