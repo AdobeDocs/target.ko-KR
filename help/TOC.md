@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/ko-KR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -57,7 +57,7 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
          + [Target 쿠키 삭제](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome samesite 쿠키 정책](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [CSP(Content Security Policy) 디렉티브](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Content Security Policy (CSP) directives](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 데이터를 Target에 가져오는 방법 {#methods}
          + [메서드](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [프로필 API 설정](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -137,10 +137,11 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
          + [Android - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [모바일 VEC에서 클릭 추적 설정](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + 서버 측: Target 구현 {#server-side}
       + [릴리스 노트 - API 및 SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+      + [Feature flagging](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)
       + [Target의 이전 API에서 Adobe I/O로 전환](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 이메일: Target 구현 {#implement-email}
       + [이메일: Target 구현 개요](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
@@ -278,7 +279,7 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
       + [프로필 속성](c-target/c-visitor-profile/profile-parameters.md)
       + [카테고리 친화성](c-target/c-visitor-profile/category-affinity.md)
       + [고객 속성](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyId에 대한 실시간 프로필 동기화](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Real-time profile syncing for mbox3rdPartyId](c-target/c-visitor-profile/3rd-party-id.md)
       + [프로필 및 변수 용어집](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Target 및 대상 FAQ {#faq-audiences}
       + [Target 및 대상 FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -342,7 +343,7 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
    + [보고 FAQ](c-reports/reporting-frequently-asked-questions.md)
 + 권장 사항 {#recommendations}
    + [권장 사항 개요](c-recommendations/recommendations.md)
-   + [추천 소개](c-recommendations/introduction-to-recommendations.md)
+   + [Introduction to Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [권장 사항 계획 및 구현](c-recommendations/plan-implement.md)
    + 엔티티 {#entities}
       + [엔티티 개요](c-recommendations/c-products/products.md)
