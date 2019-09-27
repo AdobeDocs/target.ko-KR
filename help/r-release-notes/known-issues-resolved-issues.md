@@ -1,14 +1,14 @@
 ---
 description: 이 Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
-keywords: 알려진 문제;해결된 문제;릴리스 노트
-seo-description: 이 Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
+keywords: 알려진 문제;해결된 문제;릴리스 노트버그;문제;수정
+seo-description: 이 Adobe Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 seo-title: Adobe Target의 알려진 문제 및 해결된 문제
 solution: Target
 title: 알려진 문제 및 해결된 문제
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
