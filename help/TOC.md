@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/ko-KR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
       + Enterprise 사용자 권한 {#enterprise}
          + [Enterprise 사용자 권한](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 권한 구성](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [작업 영역에 Adobe I/O 통합 액세스 권한 부여 및 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Grant Adobe I/O integrations access to workspaces and assign roles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic 통합](administrating-target/scene7-settings.md)
    + [호스트](administrating-target/hosts.md)
    + [응답 토큰](administrating-target/response-tokens.md)
@@ -137,11 +137,10 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
          + [Android - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [모바일 VEC에서 클릭 추적 설정](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + 서버 측: Target 구현 {#server-side}
       + [릴리스 노트 - API 및 SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Feature flagging](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)
       + [Target의 이전 API에서 Adobe I/O로 전환](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 이메일: Target 구현 {#implement-email}
       + [이메일: Target 구현 개요](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
