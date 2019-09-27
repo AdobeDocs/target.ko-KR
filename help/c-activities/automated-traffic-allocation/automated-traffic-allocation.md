@@ -8,7 +8,7 @@ title: 자동 할당
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -171,7 +171,7 @@ A/B 테스트는 장기간에 걸친 결과를 분석하므로 위와 같은 요
 
 **활동에서 자동 할당을 사용하여 승자를 식별하는 데 걸리는 시간을 예상할 때 샘플 크기 계산기를 사용할 수 있습니까?**
 
-Bonferroni 보정이 적절히 적용된 [샘플 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html)를 사용하여 테스트가 실행되는 시간을 예상할 수 있습니다. 실험에서는 이 샘플 크기보다 자동 할당 활동이 훨씬 빨리 종료되는 것을 보았습니다.
+Bonferroni 보정이 적절히 적용된 [샘플 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html)를 사용하여 테스트가 실행되는 시간을 예상할 수 있습니다. 자동 할당 활동은 우승자를 선언하므로 자동 할당 활동에 계산기를 사용하는 것은 선택 사항입니다. 이 계산기는 필요한 샘플 크기의 대략적인 견적을 제공합니다. 실험에서는 이 샘플 크기보다 자동 할당 활동이 훨씬 빨리 종료되는 것을 보았습니다.
 
 **우승자를 결정하는 프로세스를 빠르게 하기 위해 자동 할당 활동에서 성과가 낮은 경험을 제거해야 합니까?**
 
