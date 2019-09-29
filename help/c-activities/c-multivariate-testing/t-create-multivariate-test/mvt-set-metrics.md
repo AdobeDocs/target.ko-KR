@@ -21,7 +21,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 활동의 목표를 지정합니다.
 1. [성공 지표](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
 
-   ![지표 목록 설정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![지표 설정 목록](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
    [!UICONTROL 지표 선택] 페이지에는 활동에 대해 선택할 수 있는 성공 지표가 표시됩니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
