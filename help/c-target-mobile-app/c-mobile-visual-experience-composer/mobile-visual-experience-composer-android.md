@@ -1,8 +1,8 @@
 ---
 description: Target의 새 SDK 라이브러리를 사용하여 개발자가 Android 모바일 앱에서 일회 설정을 수행하고 마케터가 모바일 VEC(시각적 경험 작성기)의 기능을 사용할 수 있습니다.
 keywords: 모바일 vec;모바일 시각적 경험 작성기;모바일 경험 작성기 선택 사항;설정;android
-seo-description: Adobe Target의 새로운 SDK 라이브러리를 통해 개발자는 Android 모바일 앱에서 일회성 설정을 할 수 있으며, 마케터는 Mobile Experience Composer (VEC) 의 기능을 사용할 수 있습니다.
-seo-title: Android - Adobe Target 용 모바일 앱 설정
+seo-description: Adobe Target의 새로운 SDK 라이브러리를 통해 개발자는 Android 모바일 앱에서 일회성 설정을 수행할 수 있고 마케터는 VEC(Mobile Visual Experience Composer)의 기능을 사용할 수 있습니다.
+seo-title: Android - Adobe Target용 모바일 앱 설정
 solution: Target
 title: Android - 모바일 앱 설정
 topic: Standard
@@ -303,14 +303,14 @@ TargetVEC.targetView("SURPRISE_VIEW",
 
 * [모바일 Android 애플리케이션에서 Experience Cloud 구현](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
-이 자습서를 완료한 후 다음을 수행할 수 있습니다.
+이 자습서를 완료하면 다음 작업을 수행할 수 있습니다.
 
-* 모바일 론치 속성 만들기
-* Android 앱에 론치 속성 설치
+* 모바일 Launch 속성 만들기
+* Android 앱에 Launch 속성 설치
 * 다음과 같은 Adobe Experience Cloud 솔루션을 구현합니다.
    * Experience Cloud ID 서비스
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* 개발, 스테이징 및 프로덕션 환경을 통해 론치 변경 사항 게시
+* 개발, 스테이징 및 프로덕션 환경을 통해 Launch 변경 사항 게시
