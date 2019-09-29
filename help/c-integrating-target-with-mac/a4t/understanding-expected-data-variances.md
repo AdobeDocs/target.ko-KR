@@ -31,7 +31,7 @@ A4T를 사용하면 활동에 대한 Analytics 및 Target 보고는 모두 Analy
 
    >[!NOTE]
    >
-   >A 4 T에서 리디렉션을 사용하는 제한된 수의 고객이 더 높은 백분율의 백분율 비율을 볼 수 있는 알려진 문제가 해결되었습니다. [알려진 문제 및 해결된 문제를 참조하십시오](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+   >A4T에서 리디렉션을 사용하는 제한된 고객 수가 연결되지 않은 적중률 비율이 높아지는 알려진 문제가 해결되었습니다. [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)를 참조하십시오.
 
 * 모든 방문자에게 특정 페이지를 공개하는 자동 할당 활동을 만든다고 가정합니다. 자동 할당 활동은 A4T를 지원하지 않으므로 모든 활동 데이터를 [!DNL Target]에서 수집합니다. [!DNL Target] 보고의 활동 방문자가 동일한 기간에 대한 [!DNL Analytics] 보고에서 해당 페이지 방문자와 일치해야 한다고 예상할 수도 있습니다. 이 시나리오에서는 아래에 설명된 분산이 예상됩니다.
 
