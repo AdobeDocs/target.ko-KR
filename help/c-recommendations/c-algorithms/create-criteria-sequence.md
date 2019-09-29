@@ -92,7 +92,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
 
-## 교육 비디오: Recommendations에서 기준 만들기 (12:33)
+## 교육 비디오:Recommendations에서 기준 만들기(12:33)
 
 이 비디오에는 다음 정보가 포함되어 있습니다.
 
