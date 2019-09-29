@@ -1,7 +1,7 @@
 ---
 description: XT(경험 타깃팅) 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 keywords: 경험 타깃팅;xt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-seo-description: Adobe Target 경험 타깃팅 (XT) 활동에서 지표를 사용하여 방문이 성공했는지 확인합니다.
+seo-description: Adobe Target XT(경험 타깃팅) 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 seo-title: 지표 설정
 solution: Target,standard
 title: 지표 설정
