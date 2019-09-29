@@ -38,7 +38,7 @@ Target 보고 UI의 상승도 정보는 다음 항목을 포함합니다.
 
 다음 그림은 상승도 한계와 신뢰 수준 정보를 보여줍니다.
 
-![평균 상승도 및 신뢰도 수준 보고서](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+![평균 리프트 및 신뢰 수준 보고서](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## 상승도 한계는 어떻게 계산됩니까? {#section_1D360781D972483693680BE0F07AEAD1}
 
