@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 보고서{#reports}
 
-보고서는 데이터를 기반으로 결정을 내리는 데 도움이 되는 활동의 진행 상황과 결과에 대한 정보를 제공합니다. 보고서 데이터를 통해 테스트 종료 시기를 결정하고 우승자인지 여부를 보여주며 다음 작업을 판별하는 데 필요한 통찰력이나 교훈을 제공할 수 있습니다.
+보고서는 데이터를 기반으로 결정을 내리는 데 도움이 되는 활동의 진행 상황과 결과에 대한 정보를 제공합니다. 보고서 데이터를 통해 테스트 종료 시점을 결정하고 우승자인 경험 또는 오퍼를 보여주고 다음 작업을 결정하는 데 필요한 인사이트 또는 통찰력을 제공할 수 있습니다.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    예를 들어, [!UICONTROL 유형] 드롭다운 목록에서 [!UICONTROL A/B 테스트]와 [!UICONTROL 경험 타깃팅]을 선택하고 [!UICONTROL 상태] 드롭다운 목록에서 [!UICONTROL 라이브]를 선택하여 활성 상태에 있는 A/B 테스트 및 경험 타깃팅 활동만 표시할 수도 있습니다.
 
-   다음 그림은 두 가지 유형이 선택된 [!UICONTROL 유형] 드롭다운 목록을 보여줍니다. A/B 테스트 및 경험 타깃팅. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. 필요에 따라 하나 이상의 유형을 선택 취소할 수 있습니다.
+   다음 그림은 두 가지 유형이 선택된 [!UICONTROL 유형] 드롭다운 목록을 보여줍니다. A/B 테스트 및 경험 타깃팅. A/B 테스트의 세 가지 유형(수동, [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)및 [자동 타겟](/help/c-activities/auto-target-to-optimize.md))이 기본적으로 선택됩니다. 필요에 따라 하나 이상의 유형을 선택 취소할 수 있습니다.
 
    ![유형별 보고서 필터링](/help/c-reports/assets/report_filters-new.png)
 
@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    범례에는 다음과 같은 정보가 표시됩니다.
 
    * 활동이 실행된 날짜 범위를 포함한 활동 상태.
-   * 성공적인 우승 경험 (가능한 경우).
+   * 예상 우승 경험(가능한 경우).
    >[!NOTE]
    >
    >경험 결과는 적어도 한 명 이상의 참여자가 경험을 본 후에야 표시됩니다.
