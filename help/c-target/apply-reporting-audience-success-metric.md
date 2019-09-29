@@ -1,7 +1,7 @@
 ---
 description: 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
 keywords: 타깃팅;대상;보고;성공 지표
-seo-description: Adobe Target에서 보고 대상의 자격을 평가하는 성공 지표를 선택합니다.
+seo-description: Adobe Target에서 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
 seo-title: Adobe Target의 성공 지표에 보고 대상 적용
 solution: Target
 title: 성공 지표에 보고 대상 적용
