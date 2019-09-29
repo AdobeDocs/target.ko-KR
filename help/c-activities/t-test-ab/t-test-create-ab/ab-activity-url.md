@@ -25,11 +25,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 다른 URL 지정
 
-[!UICONTROL 기본적으로 Visual Experience Composer] 는 [타겟 계정 기본 설정에 지정된 페이지를 엽니다](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
+기본적으로 [!UICONTROL 시각적 경험 작성기]는 [Target 계정 환경 설정](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)에 지정된 페이지에 열립니다. 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
 
 [!UICONTROL 시각적 경험 작성기]가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성]** 톱니바퀴 아이콘을 클릭한 다음, **[!UICONTROL 페이지 전달]**&#x200B;을 선택하십시오. 활동 URL 필드에 URL을 입력합니다.
 
-![페이지 배달 대화 상자](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
+![페이지 전달 대화 상자](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
 활동에 페이지 또는 섹션을 추가하려면 **[!UICONTROL 템플릿 규칙 추가]를 클릭합니다.**
 
