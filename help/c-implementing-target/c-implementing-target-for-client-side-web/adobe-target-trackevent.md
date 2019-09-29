@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 adobe.target.trackEvent(options) 함수 정보입니다. '
-keywords: adobe. target. trackevent; Trackevent; Trackevent; 이벤트 추적; at. js; 함수; 함수; Preventdefault; Preventdefault; 기본값 방지
+keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;preventdefault;preventdefault;preventdefault
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.trackEvent(options) 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.trackEvent(options) 함수 정보입니다.
 solution: Target
@@ -17,7 +17,7 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 이 함수는 클릭 및 전환과 같은 사용자 작업을 보고하라는 요청을 실행하며, 응답에 있는 활동을 전달하지는 않습니다.
 
-그런 후에 이러한 이벤트 추적 mbox 호출을 사용하여 활동의 지표를 정의할 수 있습니다. 자세한 내용은 [성공 지표](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)와 [전환 추적](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)을 참조하십시오.
+그런 후에 이러한 이벤트 추적 mbox 호출을 사용하여 활동의 지표를 정의할 수 있습니다. 자세한 내용은 성공 지표 [및 전환](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) 추적을 [참조하십시오](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 
 다음은 API 세부 사항입니다.
 
