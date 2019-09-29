@@ -39,6 +39,6 @@ Target의 기능을 강조 표시하는 방법 비디오 및 자습서 컬렉션
 
 ## Adobe Target 자습서 {#tutorials}
 
-[!DNL Target] 개념 및 도구에 대한 비디오 소개는 [Adobe Target 자습서](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) 페이지에서 확인할 수 있습니다.
+Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) page.
 
 ![Adobe Target 자습서](/help/c-intro/assets/adobe-target-tutorials-new.png)
