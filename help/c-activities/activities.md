@@ -1,5 +1,5 @@
 ---
-description: 활동을 통해 페이지 디자인을 테스트하고 특정 대상에 컨텐츠를 타깃팅할 수 있습니다.
+description: 활동을 통해 페이지 디자인을 테스트하고 특정 대상에 콘텐츠를 타깃팅할 수 있습니다.
 keywords: 활동 목록;활동;활동;활동 유형;활동 편집;활동 작업;활동 속성;활동 목록 필터;활동 제한 사항
 seo-description: Adobe Target의 활동을 통해 페이지 디자인을 테스트하고 특정 대상에 콘텐츠를 타깃팅할 수 있습니다.
 seo-title: Adobe Target의 활동
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 활동{#activities}
 
-활동을 통해 페이지 디자인을 테스트하고 특정 대상에 컨텐츠를 타깃팅할 수 있습니다. 활동은 사이트 방문자가 접할 수 있는 경험을 결정합니다.
+활동을 통해 페이지 디자인을 테스트하고 특정 대상에 콘텐츠를 타깃팅할 수 있습니다. 활동은 사이트 방문자가 접할 수 있는 경험을 결정합니다.
 
 예를 들어 여성의 여름 신발에 대한 정보를 강조 표시하는 페이지와 보다 일반적인 여름 의류를 강조 표시하는 랜딩 페이지 등 두 개의 다른 랜딩 페이지를 테스트하는 활동을 디자인할 수 있습니다. 활동은 이러한 각 랜딩 페이지가 표시되는 시기를 제어하는 조건과 보다 성공적인 페이지를 확인하는 지표를 결정합니다. 특정 날짜 사이 등의 특정 조건이 충족될 때 시작되고 종료되거나 활동이 승인될 때 시작되고 비활성화될 때 종료되도록 활동이 구성됩니다.
 
@@ -27,13 +27,13 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 | 활동 유형 | 설명 |
 |--- |--- |
-| [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) | A/B 테스트에서는 웹 사이트 컨텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간에 전환율이 가장 많이 향상된 버전을 확인합니다.<br>**참고:** 이제 [A/B 테스트 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
+| [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) | A/B 테스트에서는 웹 사이트 콘텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간에 전환율이 가장 많이 향상된 버전을 확인합니다.<br>**참고:** 이제 [A/B 테스트 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 자동 할당은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.<br>**참고:** 이제 [자동 지정 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
-| [자동 타겟](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 자동 타겟은 컨텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 식별하고, 개별 고객 프로필과, 이 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.<br>**참고:** 이제 [자동 타겟 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
+| [자동 타겟](/help/c-activities/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 자동 타겟은 콘텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 식별하고, 개별 고객 프로필과, 이 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.<br>**참고:** 이제 [자동 타겟 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
 | [Analytics 데이터 사용](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)(A4T) | [!DNL Adobe Analytics]를 보고 소스로 사용하도록 활동을 구성할 수 있습니다. 이 활동 유형을 사용하려면 [!DNL Adobe Experience Cloud] 계정을 [!DNL Analytics]와 [!DNL Target] 모두에 연결해야 합니다. |
 | [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 다변량 테스트(MVT)는 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
-| [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) | 경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 컨텐츠를 특정 대상에 전달합니다.<br>**참고:** 이제 [경험 타깃팅 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
-| [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | 자동화된 개인화(AP)는 컨텐츠를 개인화하고 전환을 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다. |
+| [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) | 경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.<br>**참고:** 이제 [경험 타깃팅 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
+| [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | 자동화된 개인화(AP)는 콘텐츠를 개인화하고 전환을 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다. |
 | [Recommendations](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | 권장 사항은 사이트에서의 사용자 활동에 따라 웹 사이트 사용자에게 제품을 제안하는 방법을 결정합니다.<br>예를 들어, 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, "이 항목을 구입하고 다른 항목도 구입한 사람" 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여주는 권장 사항을 생성할 수 있습니다. 또는 "이 항목을 보고 다른 항목도 본 사람" 알고리즘을 사용하여 방문자에게 보고 있는 것과 유사한 비디오를 추천하여 미디어 사이트에서 더 많은 시간을 소비하도록 할 수도 있습니다.<br>**참고:** 이제 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) 활동 내에 권장 사항을 포함할 수 있습니다. [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
 
 ## 활동 목록 {#section_DE8E2DB30D534962A931EF8BB48240F5}
@@ -69,8 +69,8 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 | 비활성화 | 라이브 또는 예약된 활동을 중지합니다. 비활성화된 캠페인은 다시 활성화하거나 보관할 수 있습니다.<br>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
 | 활성화 | 비활성 상태 또는 준비된 활동을 시작합니다. |
 | 보관 | 활동을 보관 파일에 보냅니다. 기본적으로 보관된 활동은 더 이상 활동 목록에 표시되지 않습니다. 보관된 활동을 보려면 이러한 활동을 포함하도록 활동 목록에 대한 필터를 변경하십시오. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.<br>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
-| 복사 | 활동을 복사합니다. 모든 활동은 복사할 수 있습니다. 활동을 복사하면 동일한 이름에 "사본"이 추가된 채 새 활동이 만들어집니다. 예를 들어, "브라우저 오퍼"라는 테스트는 "브라우저 오퍼 사본"으로 복사됩니다.<br>시각적 오퍼는 활동과 함께 복사됩니다. 원래 활동에 영향을 주지 않고 사본에서 오퍼를 안전하게 편집할 수 있습니다. 유일한 예외는 컨텐츠/자산 폴더에 있는 저장된 오퍼와 이미지입니다. |
-| 삭제 | 초안 또는 활동 삭제를 참조하십시오.<BR>****&#x200B;참고: 삭제된 활동은 복구할 수 없습니다. Unless you are absolutely sure that you'll never need this activity again, use the [!UICONTROL Archive] action. 그런 다음 필요한 경우 활동을 다시 활성화할 수 있습니다. |
+| 복사 | 활동을 복사합니다. 모든 활동은 복사할 수 있습니다. 활동을 복사하면 동일한 이름에 "사본"이 추가된 채 새 활동이 만들어집니다. 예를 들어, "브라우저 오퍼"라는 테스트는 "브라우저 오퍼 사본"으로 복사됩니다.<br>시각적 오퍼는 활동과 함께 복사됩니다. 원래 활동에 영향을 주지 않고 사본에서 오퍼를 안전하게 편집할 수 있습니다. 유일한 예외는 콘텐츠/자산 폴더에 있는 저장된 오퍼와 이미지입니다. |
+| 삭제 | 초안이나 활동을 삭제합니다.<BR>**참고**:삭제된 활동은 복구할 수 없습니다. 이 활동이 다시 필요하지 않은지 확신할 수 없는 경우 [!UICONTROL 보관] 작업을 사용하십시오. 그런 다음 필요한 경우 활동을 다시 활성화할 수 있습니다. |
 
 활동 목록에 대한 다음 세부 사항을 참고하십시오.
 
@@ -83,7 +83,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
    * 키오스크 및 ATM을 포함하는 인터넷이 연결된 스크린 및 장치
    * 이메일 및 기타 획득 채널 또는 파트너 사이트
    * 모바일 앱
-   * 태그된 컨텐츠를 제공할 수 있는 그 밖의 모든 곳
+   * 태그된 콘텐츠를 제공할 수 있는 그 밖의 모든 곳
 
 ## 활동 목록 정렬 및 필터링 {#section_41DAD479FFF740E2BB67BF4825955670}
 
@@ -133,7 +133,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 ## 제한 {#section_049D4684403A4E07B998067EB8E9BE56}
 
-각 Target 활동에는 다음의 컨텐츠 제한 사항이 있습니다.
+각 Target 활동에는 다음의 콘텐츠 제한 사항이 있습니다.
 
 | 항목 |  제한 |
 |--- |--- |
