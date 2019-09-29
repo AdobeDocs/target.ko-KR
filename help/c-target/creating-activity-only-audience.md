@@ -1,8 +1,8 @@
 ---
 description: 활동을 만들 때 안내가 있는 3단계 워크플로우에서 활동 전용 대상을 만듭니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 대상 라이브러리에 저장되지는 않습니다.
 keywords: 대상;대상 규칙;대상 만들기;대상 생성;활동 전용;활동전용;임시
-seo-description: 활동을 만들 때 Adobe Target 3 단계 안내 워크플로우 내에서 활동 전용 대상을 만듭니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 대상 라이브러리에 저장되지는 않습니다.
-seo-title: 활동 전용 대상 만들기 Adobe Target 에서
+seo-description: Adobe Target 내에서 활동을 만들 때 안내가 있는 3단계 워크플로우에서 활동 전용 대상을 만듭니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 대상 라이브러리에 저장되지는 않습니다.
+seo-title: 활동 전용 대상 만들기 Adobe Target에서
 solution: Target
 title: 활동 전용 대상 만들기
 topic: 고급,Standard,Classic
@@ -15,18 +15,18 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 활동 전용 대상 만들기{#create-an-activity-only-audience}
 
-활동을 만들 때 안내가 있는 3단계 워크플로우에서 활동 전용 대상을 만듭니다. These ad hoc audiences can be used in other places within the same activity, but are not stored in the [!UICONTROL Audiences Library] for use in other activities.
+활동을 만들 때 안내가 있는 3단계 워크플로우에서 활동 전용 대상을 만듭니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 [!UICONTROL 대상 라이브러리]에 저장되지는 않습니다.
 
 활동 전용 대상은 다음과 같은 이점을 제공합니다.
 
-* You can use activity-only audiences to create an audience that you want to use only once and you do not want to store it in the [!UICONTROL Audiences Library]. This prevents the [!UICONTROL Audiences Library] from being cluttered with audiences that you never want to use again.
-* Activity-only audiences are not visible in the [!UICONTROL Audiences Library]. 따라서 조직의 다른 사용자가 원치 않는 방식으로 변경하지 않도록 방지됩니다.
+* 활동 전용 대상을 사용하여 한 번만 사용하려고 하며 [!UICONTROL 대상 라이브러리]에 저장하지 않으려는 대상을 만들 수 있습니다. 이렇게 하면 다시 사용하지 않으려는 대상으로 [!UICONTROL 대상 라이브러리]가 복잡해지지 않게 됩니다.
+* 활동 전용 대상은 [!UICONTROL 대상 라이브러리]에 표시되지 않습니다. 따라서 조직의 다른 사용자가 원치 않는 방식으로 변경하지 않도록 방지됩니다.
 
-1. [활동을](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)만드는 동안 **[!UICONTROL 타겟]** 페이지에서 세 개의 세로 줄임표를 클릭한 다음 대상자 **[!UICONTROL 대체를 클릭합니다]**.
+1. **[!UICONTROL 타겟]** 페이지에서 [활동](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 만드는 동안 3개의 세로 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/edit_audience.png)
 
-1. On the [!UICONTROL Choose Audience] page, click **[!UICONTROL Activity Only Audience]**.
+1. 대상 선택&#x200B;**[!UICONTROL 페이지에서]활동 전용 대상**&#x200B;을 클릭합니다.
 
    ![](assets/activity-only-aud.png)
 
@@ -48,9 +48,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 활동 전용 대상을 사용할 때는 다음 정보에 유의하십시오.
 
 * VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기에서 활동 전용 대상을 만들 수 있습니다. 이 기능은 이전 버전의 Target에 제공되는 세분화 규칙을 대체합니다.
-* [!UICONTROL 대상 라이브러리에] 저장할 활동을 만들어 다른 활동에서 재사용하거나 활동 전용 대상을 만들 수 있습니다. 대상을 저장한 후에는 대상 유형을 변경할 수 없습니다.
+* 활동을 다른 활동에서 재사용하기 위해 활동을 만든 후 [!UICONTROL 대상 라이브러리]에 저장하거나 활동 전용 대상을 만들 수 있습니다. 대상을 저장한 후에는 대상 유형을 변경할 수 없습니다.
 * 기존 활동에 대한 구체화 내용은 활동 전용 대상으로 마이그레이션됩니다.
-* Activity-only audiences have a status of [!UICONTROL Used] or [!UICONTROL Unused]. 사용되지 않음 활동 전용 대상은 활동을 저장할 때까지 표시됩니다. 사용되지 않음 상태로 두고 활동을 저장하려고 하면 사용되지 않음 활동 전용 대상은 삭제된다는 사실을 알리는 경고 메시지가 표시됩니다.
+* 활동 전용 대상의 상태는 [!UICONTROL 사용됨] 또는 [!UICONTROL 사용되지 않음]입니다. 사용되지 않음 활동 전용 대상은 활동을 저장할 때까지 표시됩니다. 사용되지 않음 상태로 두고 활동을 저장하려고 하면 사용되지 않음 활동 전용 대상은 삭제된다는 사실을 알리는 경고 메시지가 표시됩니다.
 * 대상을 열지 않고 대상 선택기에서 액세스한 팝업 카드에서 대상 정의 세부 사항을 볼 수 있습니다.
 * You can [여러 대상을 결합](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 활동 전용 대상을 만들 수 있습니다.
 
