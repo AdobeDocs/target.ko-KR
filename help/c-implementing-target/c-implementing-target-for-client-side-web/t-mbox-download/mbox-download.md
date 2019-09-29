@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Target Standard 또는 Target Premium을 사용하려면 mbox.js를 호출할 코드 한 줄을 추가하십시오.
 
-두 라이브러리 참조([!DNL mbox.js] 또는 [!DNL at.js]) 중 하나를 사용할 수 있습니다. [at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 의 이점은 두 라이브러리 간의 차이점을 설명합니다.
+두 라이브러리 참조([!DNL mbox.js] 또는 [!DNL at.js]) 중 하나를 사용할 수 있습니다. [at.js의 이점](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)은 두 라이브러리의 차이점을 설명합니다.
 
 >[!NOTE]
 >
