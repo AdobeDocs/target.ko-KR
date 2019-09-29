@@ -1,8 +1,8 @@
 ---
 description: 네트워크 세부 사항을 기반으로 대상을 만들 수 있습니다.
 keywords: 타깃팅;네트워크;타겟 네트워크;isp;도메인 이름;연결 속도;타겟 isp;타겟 도메인 이름;타겟 연결 속도
-seo-description: 네트워크 세부 정보를 기반으로 Adobe Target에서 대상을 만들 수 있습니다.
-seo-title: 네트워크 세부 정보를 기반으로 Adobe Target에서 대상을 만듭니다.
+seo-description: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만들 수 있습니다.
+seo-title: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만듭니다.
 solution: Target
 title: 네트워크
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
-The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
+다음 그림은 [!UICONTROL 모바일]의 연결 속도로 AT&amp;T를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다.
 
 ![네트워크 타겟](assets/target_network.png)
 
