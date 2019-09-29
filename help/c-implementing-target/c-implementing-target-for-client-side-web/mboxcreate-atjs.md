@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 mboxCreate(mbox,params) 함수 정보입니다. '
-keywords: Mboxcreate; Mboxcreate; mbox 만들기; at. js; 함수; 함수
+keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;functions
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 mboxCreate(mbox,params) 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 mboxCreate(mbox,params) 함수 정보입니다.
 solution: Target
