@@ -33,7 +33,7 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 
 커뮤니티에서 제공한 고객 성공 웨비나 시리즈인 Target 기본 사항 웨비나 시리즈의 이전 세션에 대한 등록 정보 및 링크입니다.
 
-[이전 세션을 보거나 예정된 세션 및 등록 정보에 대한 자세한 내용을 살펴보려면](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)여기를 클릭하십시오.
+[이전 세션을 시청하거나 예정된 세션 및 등록 정보에](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)대해 자세히 알아보려면 여기를 클릭하십시오.
 
 
 ## Adobe 고객 지원 센터 운영시간 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -46,9 +46,9 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 
 | 주제/런타임/촬영 날짜 | 학습 내용 |
 |--- |--- |
-| [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>2017<br>년 12 월 50:23 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/c-experiences/experiences.md). |
-| [Adobe Target: Analytics/Target 통합 (A 4 T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018<br>년 1 월 40:33 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
-| [at. js:](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>2018<br>년 4 월 26:43의 이점 및 구현 우수 사례 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul>이 안내서에서 자세한 내용은 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [VEC(Visual Experience Composer)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017년 12월 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/c-experiences/experiences.md). |
+| [Adobe Target:Analytics/Target 통합(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018년 1월 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
+| [at.js:장점 및 구현 우수 사례](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:<br>43 2018년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul>이 안내서에서 자세한 내용은 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Adobe Target Insider 뉴스 레터를 통해 최적화된 상태로 유지하는
 
 >[!IMPORTANT]
 >
->[Adobe Target Insider 뉴스레터를 받은 편지함에서 자동으로 받으려면](https://www.adobe.com/subscription/adobe_target_newsletter.html)등록하십시오.
+>[Adobe Target Insider 뉴스레터를 받은 편지함에](https://www.adobe.com/subscription/adobe_target_newsletter.html)자동으로 수신하도록 등록합니다.
 
 이전 뉴스레터가 누락된 경우 다음 링크를 클릭하여 다음이 누락되지 않았는지 확인하십시오.
 
@@ -172,7 +172,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 예정된 제품 향상에 대한 미리 알림을 받으려면, Adobe 우선 순위 제품 업데이트에 등록하십시오.
 
-[Adobe Priority Product Update](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe 우선 순위 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)
 
 ### 서비스, 성능 및 과금 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
