@@ -1,8 +1,8 @@
 ---
-description: 모바일 장치, 장치 유형, 장치 공급업체, 화면 크기 (픽셀 단위) 등의 매개 변수를 기반으로 모바일 장치를 타깃팅할 대상자를 만듭니다.
+description: 모바일 장치, 장치 유형, 장치 공급업체, 화면 치수(픽셀) 등의 매개 변수를 기반으로 하는 모바일 장치를 타깃팅할 대상을 만듭니다.
 keywords: 타깃팅;모바일;target 모바일;deviceatlas;iPhone;iPhone 모델;장치 atlas;displaywidth;디스플레이 너비;디스플레이 높이;장치 유형;displayheight;휴대폰;태블릿;태블릿;장치 모델
-seo-description: Adobe Target에서 대상을 만들어 모바일 장치, 장치 유형, 장치 공급업체, 화면 크기 (픽셀 단위) 등의 매개 변수를 기반으로 모바일 장치를 타깃팅합니다.
-seo-title: Adobe Target의 모바일 고객
+seo-description: Adobe Target에서 모바일 장치, 장치 유형, 장치 공급업체, 화면 치수(픽셀) 등의 매개 변수를 기반으로 하는 모바일 장치를 타깃팅할 대상을 만듭니다.
+seo-title: Adobe Target의 모바일 대상
 solution: Target
 title: 모바일
 topic: Standard
@@ -15,9 +15,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 모바일{#mobile}
 
-모바일 장치, 장치 유형, 장치 공급업체, 화면 크기 (픽셀 단위) 등의 매개 변수를 기반으로 모바일 장치를 타깃팅할 대상자를 만듭니다.
+모바일 장치, 장치 유형, 장치 공급업체, 화면 치수(픽셀) 등의 매개 변수를 기반으로 하는 모바일 장치를 타깃팅할 대상을 만듭니다.
 
-예를 들어, 휴대폰에서 페이지에 들어가는 사용자에게 컴퓨터에서 방문할 때와는 다른 컨텐츠를 표시할 수 있습니다. 이런 경우 모바일 대상을 선택한 다음, **[!UICONTROL 휴대 전화입니다]선택 사항을 선택하고, 휴대폰 유형, 화면의 크기(픽셀 단위) 등과 같이 중요한 구체적인 세부 사항이 있으면 추가할 수 있습니다.**
+예를 들어, 휴대폰에서 페이지에 들어가는 사용자에게 컴퓨터에서 방문할 때와는 다른 콘텐츠를 표시할 수 있습니다. 이런 경우 모바일 대상을 선택한 다음, **[!UICONTROL 휴대 전화입니다]선택 사항을 선택하고, 휴대폰 유형, 화면의 크기(픽셀 단위) 등과 같이 중요한 구체적인 세부 사항이 있으면 추가할 수 있습니다.**
 
 모바일 타깃팅은 DotMobi의 서비스인 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)에서 제공됩니다. DeviceAtlas는 제조업체와 네트워크 운영자를 비롯한, 수 많은 소스에서 컴파일된 데이터 위에 구축된 휴대 장치의 포괄적인 데이터베이스입니다. 그런 다음 이러한 데이터가 확인되고 상호 참조되며 유효성이 검사되어 사용 가능한 대용량의 정확한 휴대 장치 데이터베이스를 구축합니다.
 
@@ -57,9 +57,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
    * 화면 너비(픽셀)
    >[!NOTE]
    >
-   >iOS 12.2에 새롭게 추가된 변경 사항으로 인해, iPhone 모델을 지정하는 장치 마케팅 이름 및 장치 모델별로 정의된 규칙을 사용하여 대상을 만드는 것이 영향을 받습니다. iOS 12.2가 설치되어 있는 iphone를 가진 사용자를 더 이상 대상으로 할 수 없습니다. 그러나 이러한 사용자에게 iOS 12.2가 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
+   >iOS 12.2에 새롭게 추가된 변경 사항으로 인해, iPhone 모델을 지정한 장치 마케팅 이름 및 장치 모델로 정의된 규칙으로 대상을 만들면 영향을 받습니다. iOS 12.2가 설치된 iPhone 사용자를 더 이상 타깃팅할 수 없습니다. 그러나 그러한 사용자에게 iOS 12.2가 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
    >
-   >Ios 12.2 업데이트는 다음 모델의 식별에는 영향을 주지 않습니다. 이러한 모델은 iOS 12.2 로의 업그레이드를 지원하지 않습니다. iPhone, iPhone 3 G, iPhone 3 GS, iPhone 4, iPhone 4 S, iPhone 5, iPhone 5 c, iPad, iPad 2, iPad/Retina 디스플레이, iPad Retina (4 세대), iPod touch 4 및 iPod touch 5.
+   >iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina 디스플레이, iPad Retina (4th Gen), iPod Touch 4 및 iPod Touch 5 모델은 iOS 12.2로의 업그레이드를 지원하지 않기 때문에 iOS 12.2 업데이트는 이러한 모델을 식별하는 데 영향을 주지 않습니다.
 
    >[!NOTE]
    >
@@ -68,9 +68,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
-다음 그림은 모바일 장치인 Google에서 만든 장치를 사용하는 방문자를 대상으로 하는 대상입니다.
+다음 그림은 Google에서 만든 모바일 장치를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다.
 
-![모바일 디바이스 대상](assets/target_mobile.png)
+![타겟 모바일 장치](assets/target_mobile.png)
 
 ## 교육 비디오: 대상 만들기
 
