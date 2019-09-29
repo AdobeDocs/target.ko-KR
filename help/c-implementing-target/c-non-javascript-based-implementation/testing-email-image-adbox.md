@@ -43,6 +43,6 @@ mboxPC={123456}” border=“0"/>
 | clientcode | 회사의 클라이언트 코드입니다. `clientCode='yourclientcode'`로 나열된 at.js 또는 mbox.js에서 찾으십시오. 모두 소문자이고 특수 문자를 포함하지 않습니다. |
 | 이미지 | 오퍼 유형입니다. 그래픽 광고의 경우 항상 "image"이며 리디렉터의 경우에는 "page"입니다. |
 | email_header | adbox의 이름입니다. |
-| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 필수. URL를 adbox의 적절한 기본 컨텐츠로 바꿉니다. 이것은 절대 참조이며 URL로 인코딩되어야 합니다. |
+| `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 필수. URL을 adbox의 적절한 기본 콘텐츠로 바꿉니다. 이것은 절대 참조이며 URL로 인코딩되어야 합니다. |
 | `mboxXDomain=disabled` | Target에 쿠키를 설정하지 않도록 지시합니다. |
 | `mboxSession=123456` 및 `mboxPC=123456` | 이 사용자의 프로필을 사이트의 기존 프로필과 병합하기 위해 Target에 필요한 두 개의 값입니다. 123456은 이메일에 대해 생성된 고유한 식별자입니다. 이 값을 모든 adbox와 리디렉터 URL에 동적으로 삽입하십시오. 이 숫자는 각 사용자에게 전송된 각 이메일에 대해 고유해야 합니다. 주별 이메일을 1,000명에게 전송하면 1,000개의 고유한 ID가 생성되어야 합니다.<br>이메일에 대한 고유한 식별자는 각 adbox와 리디렉터 URL에서 mboxSession 및 mboxPC에 할당해야 합니다. 이 식별자의 권장 형식은 timestamp-NNNNN이고 여기서 NNNNN은 임의의 5자리 숫자지만 모든 영숫자 형식을 사용할 수 있습니다. 일부 대량 이메일 서비스와 모든 프로그래밍 언어는 이 고유 식별자를 생성할 수 있습니다. |
