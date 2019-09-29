@@ -23,7 +23,7 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 >[!NOTE]
 >
->A 4 T에서 리디렉션을 사용하는 제한된 수의 고객이 더 높은 백분율의 백분율 비율을 볼 수 있는 알려진 문제가 해결되었습니다. [알려진 문제 및 해결된 문제를 참조하십시오](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+>A4T에서 리디렉션을 사용하는 제한된 고객 수가 연결되지 않은 적중률 비율이 높아지는 알려진 문제가 해결되었습니다. [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)를 참조하십시오.
 
 ## A4T에 리디렉션 오퍼를 사용하는 데 필요한 최소 요구 사항은 무엇입니까? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -43,13 +43,13 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ## 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 카운트되는 이유는 무엇입니까? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-. JS 버전 1.6.3 이상에서 사용할 때 문제가 되지 않습니다. 이 경합 조건은 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀은 at. js의 두 버전을 유지 관리합니다. 현재 버전과 최신 버전. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+at.js 버전 1.6.3 이상을 사용하는 경우 문제가 아닙니다. 이 경쟁 조건은 이전 버전을 사용하는 고객에게만 적용됩니다. Target 팀은 두 버전의 at.js를 유지 관리합니다.최신 버전과 두 번째 최신 버전. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-at. js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션이 첫 페이지에서 실행되기 전에 Analytics 호출이 실행될 수 있는 레이스 조건이 발생할 수 있습니다. 이렇게 되면 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 모두 카운트되어 실제로는 방문자에게 첫 번째 페이지가 "표시"되지 않았는데 첫 번째 페이지에 추가 페이지 보기가 발생할 수 있습니다.
+이전에 지원되지 않는 at.js 버전을 사용하는 경우, 첫 번째 페이지에서 리디렉션이 실행되기 전에 Analytics 호출이 실행될 수 있는 경합 조건이 발생할 수 있습니다. 이렇게 되면 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 모두 카운트되어 실제로는 방문자에게 첫 번째 페이지가 "표시"되지 않았는데 첫 번째 페이지에 추가 페이지 보기가 발생할 수 있습니다.
 
 페이지 리디렉션의 속도를 높이도록 양식 기반 작성기를 사용하여 리디렉션 활동을 만드는 것이 좋습니다. 이것은 코드가 페이지에서 실행되는 위치 때문입니다. 또한, 리디렉션이 원래 페이지로 돌아가는 리디렉션 오퍼를 기본 경험을 포함한 모든 경험에 대해 만드는 것이 좋습니다. 이렇게 하면 잘못 카운트하는 경우 모든 경험에서 카운트 잘못이 발생하므로 보고와 분석이 테스트에 대해 여전히 유효합니다.
 
-기본 (제어) 경험을 포함하여 활동의 모든 경험에 대해 리디렉션 오퍼를 사용하려는 한 가지 이유는 모든 경험에 동일한 조건을 적용하는 것입니다. 예를 들어 기본 경험에 리디렉션 오퍼가 없지만 다른 경험에 리디렉션 오퍼가 있는 경우 리디렉션 오퍼가 없는 경험의 속도가 고유한 이점이 있습니다. 리디렉션 오퍼는 테스트와 같은 임시 시나리오에만 권장됩니다. 리디렉션 오퍼는 개인화와 같은 영구 시나리오에 권장되지 않습니다. " 우승자 "를 결정한 후 리디렉션을 제거하여 페이지 로드 성능을 개선해야 합니다.
+기본(제어) 경험을 포함하여 활동의 모든 경험에 대해 리디렉션 오퍼를 사용하려는 한 가지 이유는 모든 경험에 동일한 조건을 적용하는 것입니다. 예를 들어, 기본 경험에 리디렉션 오퍼가 없지만 다른 경험에 리디렉션 오퍼가 있는 경우 리디렉션 오퍼 없이 경험의 속도는 고유한 이점이 있습니다. 리디렉션 오퍼는 테스트와 같은 임시 시나리오에만 권장됩니다. 리디렉션 오퍼는 개인화와 같은 영구 시나리오에 권장되지 않습니다. "우승자"를 결정한 후 리디렉션을 제거하여 페이지 로드 성능을 향상시켜야 합니다.
 
 For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
