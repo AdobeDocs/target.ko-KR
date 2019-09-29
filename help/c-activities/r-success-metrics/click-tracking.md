@@ -22,7 +22,7 @@ Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있�
 >
 >클릭 추적이 양식 기반 활동에서 위치로 사용하는 경우 Target 글로벌 mbox에서 지원되지 않습니다.
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## 클릭 추적 설정 {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. 활동에 대한 [!UICONTROL 목표 및 설정] 페이지에서 목표를 설정할 때 **[!UICONTROL 변환]성공 지표를 선택합니다.**
 1. 작업에 대해 **[!UICONTROL 요소를 클릭함]**&#x200B;을 선택한 후 **[!UICONTROL 요소 선택]**&#x200B;을 클릭합니다.
@@ -37,31 +37,31 @@ Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있�
 
 활동 참여자가 선택된 요소를 클릭하면 해당 클릭이 전환으로 카운트됩니다.
 
-## Selected Elements panel {#selected-elements}
+## 선택한 요소 패널 {#selected-elements}
 
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+A/B 테스트, XT(경험 타깃팅), AP(자동화된 개인화) 및 MVT(다변량 테스트) 활동의 경우 [!UICONTROL 선택한 요소] 패널에 오른쪽의 클릭 추적에 대해 선택한 모든 요소가 나열됩니다.
 
 ![선택한 요소 패널](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-[!UICONTROL 선택한 요소] 패널의 요소 위로 마우스를 가져가면 적용할 수 있는 몇 가지 작업이 있습니다. 다음 표에서는 요소에 대해 수행할 수 있는 각 작업을 설명합니다.
+다음 [!UICONTROL 선택한 요소] 패널의 요소를 마우스로 가리키면 적용할 수 있는 몇 가지 작업이 표시됩니다. 다음 표에서는 요소에 대해 수행할 수 있는 각 작업을 설명합니다.
 
 | 작업 | 설명 |
 | --- | --- |
-| 정보 | 선택기 및 선택기의 전체 DOM 경로를 표시합니다. |
+| 정보 | 선택기에 요소 유형 및 전체 DOM 경로를 표시합니다. |
 | 편집 | CSS 선택기를 편집할 수 있습니다. |
 | 삭제 | 요소를 삭제합니다. |
 
 ### 요소 추가
 
-선택기의 DOM 경로를 이미 알고 있는 경우 패널 위쪽에 있는 더하기 아이콘을 클릭하여 수동으로 추가할 수 있습니다.
+선택기의 DOM 경로를 이미 알고 있는 경우에는 패널 위쪽에 있는 더하기 아이콘을 클릭하여 수동으로 추가할 수 있습니다.
 
 ![요소 추가 아이콘](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### 선택한 요소 커서 팝업
+### 선택한 요소 가리키기 팝업
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. 목록에는 선택한 요소가 클릭 추적에 사용되는지 확인하는 데 도움이 되는 요소에 대한 전체 DOM 경로가 포함되어 있습니다.
+클릭 추적을 위해 여러 요소를 선택한 후 활동의 [!UICONTROL 목표 및 설정] 단계에서 [!UICONTROL 선택한 요소] 링크를 클릭하여 클릭 추적을 위해 선택한 전체 요소 목록을 표시할 수 있습니다. 목록에는 선택한 요소가 클릭 추적에 사용되는지 확인하는 데 도움이 되는 요소에 대한 전체 DOM 경로가 포함되어 있습니다.
 
-![선택한 요소 연결](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
+![선택한 요소 링크](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## 고려 사항 {#considerations}
 
@@ -84,7 +84,7 @@ After selecting multiple elements for click tracking, you can click the [!UICONT
 
    | 문자 | 설명 |
    |---|---|
-   | # | 숫자 기호 또는 해시 해시 |
+   | # | 숫자 기호 또는 해시 |
    | : | 콜론 |
    | . | 기간 |
    | $ | 달러 기호 |
