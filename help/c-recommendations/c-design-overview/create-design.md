@@ -48,11 +48,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 1. **[!UICONTROL 저장을 클릭합니다]**.
 
-## 교육 비디오: Recommendations에서 사용자 정의 디자인 만들기 (3:20)
+## 교육 비디오:Recommendations에서 사용자 정의 디자인 만들기(3:20)
 
 이 비디오에는 다음 정보가 포함되어 있습니다.
 
-* 사용자 정의 디자인 만들기
+* 맞춤형 디자인 제작
 * 디자인에서 디스플레이 변수를 참조하는 방법 이해
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=kor)
