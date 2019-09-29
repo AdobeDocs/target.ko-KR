@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    콜백에서 Target으로부터 돌아온 응답을 분석합니다. NSJSONSerialization을 사용하여 이 응답을 분석한 후 dict 또는 배열에 저장할 수 있습니다.
 
-   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
+   자세한 내용은 [NSJSONSerialization 설명서를](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) 참조하십시오.
 1. 데이터를 Analytics로 보냅니다.
 
    Analytics 호출의 컨텍스트 데이터 개체에 구문 분석된 활동 정보(위 응답에 있는 `tntVal` 등)를 추가합니다. 컨텍스트 데이터가 포함된 이 Analytics 호출은 즉시 실행하거나 다음 Analytics 호출이 실행되기 전까지 대기할 수 있습니다.
