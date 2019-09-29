@@ -1,7 +1,7 @@
 ---
-description: Adobe Target에서 대상을 만들어 특정 브라우저 또는 특정 브라우저 옵션을 사용하는 사용자를 타게팅하는 사용자를 타깃팅할 수 있습니다.
+description: Adobe Target에서 페이지를 방문할 때 특정 브라우저나 특정 브라우저 선택 사항을 사용하는 타겟 사용자에 대한 대상을 만들 수 있습니다.
 keywords: 브라우저 선택 사항;유형;브라우저 유형;브라우저 언어;언어;버전;브라우저 버전
-seo-description: Adobe Target에서 대상을 만들어 특정 브라우저 또는 특정 브라우저 옵션을 사용하는 사용자를 타게팅하는 사용자를 타깃팅할 수 있습니다.
+seo-description: Adobe Target에서 페이지를 방문할 때 특정 브라우저나 특정 브라우저 선택 사항을 사용하는 타겟 사용자에 대한 대상을 만들 수 있습니다.
 seo-title: Adobe Target 대상의 브라우저 옵션
 solution: Target
 subtopic: 다변량 테스트
@@ -43,7 +43,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 1. 대상자의 이름을 지정합니다.
 1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 브라우저]**&#x200B;를 클릭합니다.
 
-   ![규칙 &gt; Brower](assets/target_browser.png)
+   ![규칙 &gt; 브라우저](assets/target_browser.png)
 
 1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
