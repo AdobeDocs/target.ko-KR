@@ -1,7 +1,7 @@
 ---
 description: 권장 사항에 가져온 엔티티를 가져오려면 피드를 사용하십시오. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
-keywords: 권장 사항 피드;피드;SAINT;ftp;csv; 분류; 분석 분류
-seo-description: 피드를 사용하여 Adobe Recommendations로 가져온 엔티티를 가져옵니다. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
+keywords: 권장 사항 피드;피드;SAINT;ftp;csv분류;분석 분류;analytics classifications;analytics classifications;analytics classifications
+seo-description: 피드를 사용하여 개체를 Adobe Recommendations로 가져옵니다. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
 seo-title: 피드
 solution: Target
 title: 피드
@@ -17,7 +17,7 @@ source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 # ![PREMIUM](/help/assets/premium.png) 피드{#feeds}
 
-Use feeds to get entities imported into [!DNL Recommendations]. CSV 파일, Google 제품 검색 피드 형식 및 Adobe Analytics 제품 분류를 사용하여 엔티티를 보낼 수 있습니다.
+Use feeds to get entities imported into [!DNL Recommendations]. CSV 파일, Google 제품 검색 피드 형식 및 Adobe Analytics 제품 분류를 사용하여 개체를 보낼 수 있습니다.
 
 ## 피드 개요 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
@@ -31,14 +31,14 @@ You can select which columns from your [!DNL Target] product classifications fil
 
 ![피드 페이지](/help/c-recommendations/c-products/assets/feeds-page.png)
 
-피드 페이지에는 다음 열이 포함되어 있습니다.
+피드 페이지에는 다음 열이 있습니다.
 
-* **이름**: 만드는 동안 지정된 피드의 이름. 피드의 이름을 편집하려면 피드 자체를 편집해야 합니다. 새 이름으로 저장하면 피드가 새로 고쳐집니다.
-* ****&#x200B;유형: 유형에는 [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Google 제품 피드](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)및 [분석 분류가 포함됩니다.](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)
-* **상태**: 피드의 현재 [상태입니다](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **일정**: 피드에 대한 업데이트 일정을 표시합니다. 일별, 주별, 2 주 또는 절대 없습니다.
-* **항목**: 피드에 있는 항목의 수를 표시합니다.
-* **최종 업데이트일: 피드를 마지막으로 업데이트한 날짜와 시간 및 피드를 업데이트한 사람의 이름을 표시합니다.** [!UICONTROL 마지막으로 업데이트된] 피드가 "정의되지 않음" 로 표시되면 피드가에서 [!DNL Recommendations Classic] 들어오고 내에서 [!DNL Target Premium Recommendations]변경할 수 없습니다.
+* **이름**:생성하는 동안 지정된 피드의 이름입니다. 피드의 이름을 편집하려면 피드 자체를 편집해야 합니다. 새 이름으로 저장하면 피드가 새로 고쳐집니다.
+* **유형**:유형에는 [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Google 제품 피드](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)및 [Analytics 분류가](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)있습니다.
+* **상태**:피드의 현재 [상태입니다](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
+* **예약**:피드에 대한 업데이트 일정을 표시합니다.일별, 주별, 2주마다 또는 전혀 사용하지 않습니다.
+* **항목**:피드의 항목 수를 표시합니다.
+* **마지막 업데이트**:피드가 마지막으로 업데이트된 날짜 및 시간과 피드를 업데이트한 사람의 이름을 표시합니다. If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
 
 ## CSV{#section_65CC1148C7DD448FB213FDF499D35FCA}로 내보내기 
 
@@ -56,7 +56,7 @@ Adobe 소유 CSV 업로드 형식을 사용하여 `.csv` 파일을 작성할 수
 
 >[!IMPORTANT]
 >
->의도한 경우를 제외하고. csv 파일에서 큰 따옴표 (") 로 값을 묶지 마십시오. 값을 큰따옴표로 묶으면 다른 큰따옴표로 묶어서 이스케이프 처리를 해야 합니다. 이스케이프되지 않은 큰 따옴표는 Recommendations 피드가 제대로 로드되지 않도록 합니다.
+>의도하지 않은 경우 .csv 파일에 값을 큰따옴표( " )로 묶지 마십시오. 값을 큰따옴표로 묶으면 다른 큰따옴표로 묶어서 이스케이프 처리를 해야 합니다. 이스케이프되지 않은 큰따옴표로 인해 권장 사항 피드가 제대로 로드되지 않습니다.
 
 예를 들어, 다음 구문은 올바르지 않습니다.
 
@@ -94,7 +94,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 Google Product Search 피드 유형에서는 Google 형식을 사용합니다. 이것은 Adobe 소유 CSV 업로드 형식과는 다릅니다.
 
-기존 Google 제품 피드가 있는 경우 해당 피드를 가져오기 파일로 사용할 수 있습니다.
+기존 Google 제품 피드가 있는 경우 가져오기 파일로 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -215,23 +215,23 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 
    * CSV로 내보내기
    * Google 제품 피드
-   * 분석 분류
-   CSV 및 Google 제품 피드 피드 유형에 대한 자세한 내용은 [피드 개요를](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)참조하십시오. 모델 CSV 안내서를 [다운로드하여 피드](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) 형식을 올바르게 지정할 수도 있습니다.
+   * Analytics 분류
+   CSV 및 Google 제품 피드 유형에 대한 자세한 내용은 피드 [개요를 참조하십시오](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). 모델 CSV 안내서를 [](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) 다운로드하여 피드의 형식을 올바르게 지정할 수도 있습니다.
 
-1. (조건부) **[!UICONTROL CSV]** 또는 **[!UICONTROL Google 제품 피드를]**&#x200B;선택한 경우 피드에 액세스할 수 있는 위치를 지정합니다.
+1. (조건부) CSV 또는 **[!UICONTROL Google]** 제품 **[!UICONTROL 피드를 선택한]**&#x200B;경우 피드에 액세스할 수 있는 위치를 지정합니다.
 
-   * **FTP**: FTP를 선택한 경우 FTP 서버 정보, 로그인 자격 증명, 파일 이름 및 FTP 디렉토리를 제공합니다. 보다 안전한 업로드를 위해 SSL을 사용하는 FTP(FTPS)를 선택할 수 있습니다.
+   * **FTP**:FTP를 선택한 경우 FTP 서버 정보, 로그인 자격 증명, 파일 이름 및 FTP 디렉토리를 제공합니다. 보다 안전한 업로드를 위해 SSL을 사용하는 FTP(FTPS)를 선택할 수 있습니다.
 
       지원되는 FTP 서버 설정:
 
-      * FTP 및 FTPS는 수동 FTP를 사용하도록 설정되어야 합니다.
+      * FTP 및 FTPS는 수동 FTP를 사용하도록 설정해야 합니다.
       * FTPS의 경우 명시적 FTPS 연결을 허용하도록 서버를 구성합니다.
-      * Sftp는 지원되지 않습니다.
-      * 연결을 시작할 포트를 수동으로 지정할 수 있습니다 (예: `ftp://ftp.yoursite.com:2121`). 포트를 지정하지 않으면 기본 FTP 또는 FTPS 포트가 사용됩니다.
-   * **URL**: URL를 선택하는 경우 URL를 지정합니다.
+      * SFTP는 지원되지 않습니다.
+      * 연결을 시작할 포트(예: `ftp://ftp.yoursite.com:2121`). 포트를 지정하지 않으면 기본 FTP 또는 FTPS 포트가 사용됩니다.
+   * **URL**:URL을 선택하는 경우 URL을 지정합니다.
 
 
-1. (조건부) **[!UICONTROL 분석 분류를]**&#x200B;선택한 경우 드롭다운 목록에서 보고서 세트를 선택합니다.
+1. (조건부) Analytics **[!UICONTROL 분류를]**&#x200B;선택한 경우 드롭다운 목록에서 보고서 세트를 선택합니다.
 
 1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 예약] 선택 사항을 표시합니다.
 
@@ -242,7 +242,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
    * 일별
    * 주별
    * 2주마다
-   * 절대 안 함: 업데이트를 예약하지 마십시오. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
+   * 사용 안 함:업데이트를 예약하지 마십시오. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
 
 1. 피드를 실행할 시간을 지정합니다.
 
@@ -281,7 +281,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 | 다운로드 대기 중 | Target이 피드 파일 다운로드를 준비하는 중입니다. |
 | 피드 파일 다운로드 중 | Target이 피드 파일을 다운로드하는 중입니다. |
 | 항목을 가져오는 중 | Target이 피드 파일에서 항목을 가져오는 중입니다. |
-| 피드가 *시간에 성공적으로 가져옴* | Target 이 피드 파일을 컨텐츠 전달 시스템으로 가져옵니다. 항목 속성에 대한 변경 사항은 컨텐츠 전달 시스템에서 만들어졌고 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않는 경우 잠시 후 권장 사항이 포함된 페이지를 새로 고칩니다.<br>*참고 1:* 항목의 특성에 대한 변경 사항이 Recommendations에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 속성을 변경하면 더 이상 Recommendations에서 *제외되지* 않습니다. 이 경우 24 시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.<br>*참고 2:* 이 상태가 표시되면 업데이트가 카탈로그 검색 사용자 인터페이스에 아직 반영되지 않을 수 있습니다. 검색 가능한 카탈로그가 업데이트된 마지막 시간을 나타내는 별도의 상태가 카탈로그 검색에 표시됩니다. |
+| 피드를 *시간에 성공적으로 가져왔습니다.* | Target에서 피드 파일을 컨텐츠 전달 시스템으로 가져왔습니다. 품목 속성을 변경하면 컨텐츠 전달 시스템에서 변경 사항이 적용되며 곧 전달되는 권장 사항에 반영됩니다. 예상 변경 사항이 표시되지 않으면 잠시 후 다시 시도하거나 권장 사항이 포함된 페이지를 새로 고칩니다.<br>** 참고 1:항목의 속성을 변경하면 항목이 추천에서 제외되는 경우 제외가 즉시 반영됩니다. 항목이 새로 추가되거나 속성 변경으로 인해 항목이 더 이상 *추천에서 제외되지* 않는 경우, 다음 알고리즘이 업데이트될 때까지 반영되지 않고 24시간 이내에 발생합니다.<br>** 참고 2:이 상태가 표시되면 업데이트가 아직 카탈로그 검색 사용자 인터페이스에 반영되지 않을 수 있습니다. 검색 가능한 카탈로그가 마지막으로 업데이트된 경우를 가리키는 별도의 상태가 카탈로그 검색에 나열됩니다. |
 | 색인화 실패 | 색인 작업에 실패했습니다. 다시 시도하십시오. |
 | 서버를 찾을 수 없음 | FTP 또는 URL 위치가 잘못되었거나 접속할 수 없습니다. |
 
@@ -321,20 +321,20 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Recommendations의 피드 이해 (3:01)
+### 권장 사항의 피드 이해(3:01)
 
 이 비디오에는 다음 정보가 포함되어 있습니다.
 
-* 피드의 목적 이해
+* 피드 목적 이해
 * 피드 값 이해
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695?captions=kor)
 
-### 피드 만들기 (6:44)
+### 피드 만들기(6:44)
 
 이 비디오에는 다음 정보가 포함되어 있습니다.
 
 * 피드 설정
-* 사용할 피드 유형 파악
+* 사용할 피드 유형 확인
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?captions=kor)
