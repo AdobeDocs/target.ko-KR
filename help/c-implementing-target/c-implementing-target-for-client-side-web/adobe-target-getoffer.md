@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 adobe.target.getOffer() 함수 정보입니다. '
-keywords: adobe. target. getoffer; Getoffer; Getoffer; 오퍼 다운로드; at. js; 함수; 함수
+keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;functions
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffer(options) 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffer(options) 함수 정보입니다.
 solution: Target
@@ -99,7 +99,7 @@ adobe.target.getOffer({
 | action | 문자열 | 식별된 요소에 적용할 작업 유형입니다. |
 | selector | 문자열 | Sizzle 선택기를 나타냅니다. |
 | cssSelector | 문자열 | 요소 사전 숨기기에 사용되는 DOM 네이티브 선택기입니다. |
-| 컨텐츠 | 문자열 | 식별된 요소에 적용할 컨텐츠입니다. |
+| 콘텐츠 | 문자열 | 식별된 요소에 적용할 컨텐츠입니다. |
 
 ## 예
 
