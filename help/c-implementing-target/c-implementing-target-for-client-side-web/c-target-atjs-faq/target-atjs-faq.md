@@ -27,9 +27,9 @@ at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-위에서 보듯이 mbox.js를 사용하는 페이지 컨텐츠는 [!DNL Target] 호출이 완료될 때까지 로드되지 않습니다. 반면에 at.js를 사용하는 페이지 컨텐츠는 [!DNL Target] 호출이 시작되면 로드가 시작되며 호출이 완료될 때까지 기다리지 않습니다.
+위에서 보듯이 mbox.js를 사용하는 페이지 콘텐츠는 [!DNL Target] 호출이 완료될 때까지 로드되지 않습니다. 반면에 at.js를 사용하는 페이지 콘텐츠는 [!DNL Target] 호출이 시작되면 로드가 시작되며 호출이 완료될 때까지 기다리지 않습니다.
 
-## What is the impact of at.js and mbox.js on page-load time? {#page-load}
+## at.js 및 mbox.js가 페이지 로드 시간에 미치는 영향을 무엇입니까? {#page-load}
 
 많은 고객과 컨설턴트는 특히 새 사용자와 재방문 사용자의 컨텍스트에서 비교하여 페이지 로드 시간에 대한 [!DNL at.js]와 [!DNL mbox.js]의 영향을 알고 싶어 합니다. 안타깝게도, 제각각의 고객 구현으로 인해 [!DNL at.js]나 [!DNL mbox.js]가 어떻게 페이지 로드 시간에 영향을 주는지에 대한 구체적 수치를 측정하고 제공하기는 어렵습니다.
 
@@ -65,7 +65,7 @@ at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
 >[!NOTE]
 >
->새 방문자의 경우, 방문자 API가 있으면 Target은 여러 번 연결하여 Target 요청에 Experience Cloud 방문자 ID 데이터가 포함되어 있는지 확인해야 합니다. 재방문자의 경우 Target은 Target에만 연결하여 개인화된 컨텐츠를 검색합니다.
+>새 방문자의 경우, 방문자 API가 있으면 Target은 여러 번 연결하여 Target 요청에 Experience Cloud 방문자 ID 데이터가 포함되어 있는지 확인해야 합니다. 재방문자의 경우 Target은 Target에만 연결하여 개인화된 콘텐츠를 검색합니다.
 
 ## 이전 버전의 at.js를 버전 1.0.0으로 업그레이드한 후 응답 속도가 느려진 것 같은 이유는 무엇입니까? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
@@ -90,7 +90,7 @@ at.js 1.0.0 릴리스를 사용하면 Target 라이브러리를 비동기적으�
 
 at.js를 비동기적으로 로드하려면 다음을 수행하십시오.
 
-* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
+* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. 자세한 [내용은 Launch를](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 사용하여 웹 사이트에서 [Experience Cloud 구현 자습서의](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) Adobe Target 추가 단원을참조하십시오.
 * at.js를 로드하는 스크립트 태그에 비동기 속성을 추가하여 at.js를 비동기로 로드할 수도 있습니다. 다음과 같은 코드를 사용해야 합니다.
 
    ```
@@ -110,7 +110,7 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 페이지(또는 지정된 부분)를 숨긴 다음 at.js 및 글로벌 요청이 완전히 로드된 후에 표시하는 사전에 숨기는 코드 조각을 사용하여 플리커를 방지할 수 있습니다. at.js를 로드하기 전에 코드 조각을 추가해야 합니다.
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+비동기 Launch 구현을 통해 at.js를 배포하는 경우, Launch를 사용하여 웹 사이트에서 Experience Cloud 구현 자습서의 [Add the Target Pre-Hiding Snippet 섹션에 설명된 대로, 시작 포함 코드 앞에](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 사전 [숨김 조각을 포함해야 합니다](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 동기 DTM 구현을 통해 at.js를 배포하는 경우 페이지 상단에서 트리거된 페이지 로드 규칙을 통해 사전에 숨기는 코드 조각을 추가할 수 있습니다.
 
@@ -226,7 +226,7 @@ Target이 제대로 사용자를 추적할 수 있는지 보장하기 위해 그
 
 Adobe Target은 서버 측에서 모든 의사 결정을 실행합니다. 즉, at.js는 페이지가 다시 로드되거나 at.js 공용 API가 호출될 때마다 네트워크 요청을 실행합니다.
 
-## 최상의 사례 시나리오에서 사용자가 컨텐츠를 숨기고, 대체하고, 표시하는 것과 관련된 페이지 로드에 가시적인 영향을 미치지 않을 것으로 기대할 수 있습니까? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
+## 최상의 사례 시나리오에서 사용자가 콘텐츠를 숨기고, 대체하고, 표시하는 것과 관련된 페이지 로드에 가시적인 영향을 미치지 않을 것으로 기대할 수 있습니까? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
 at.js는 장기간 HTML BODY 또는 기타 DOM 요소를 사전에 숨기지 않으려고 시도하지만 이는 네트워크 조건 및 활동 설정에 따라 다릅니다. at.js에서는 본문 숨기기 CSS 스타일을 사용자 지정하는 데 사용할 수 있는 [설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)을 제공하므로 전체 HTML BODY를 공백으로 남기지 않고 페이지의 일부만 미리 숨길 수 있습니다. 이러한 부분에는 "개인화"해야 하는 DOM 요소가 포함될 것으로 예상됩니다.
 
@@ -244,13 +244,13 @@ at.js 요청은 비동기 `XMLHttpRequest`이므로 다음 단계를 실행합�
 1. DOM 요소가 발견되면 Target이 DOM 변경 사항을 적용하고 요소 미리 숨김 STYLE이 제거됩니다.
 1. DOM 요소가 발견되지 않는 경우 보편적인 시간 초과로 인해 페이지가 손상되지 않도록 요소를 숨김 해제합니다.
 
-## at.js가 활동이 변경하는 요소를 최종적으로 숨기지 않을 때 페이지의 컨텐츠는 얼마나 자주 로드 및 표시됩니까? {#section_01AFF476EFD046298A2E17FE3ED85075}
+## at.js가 활동이 변경하는 요소를 최종적으로 숨기지 않을 때 페이지의 콘텐츠는 얼마나 자주 로드 및 표시됩니까? {#section_01AFF476EFD046298A2E17FE3ED85075}
 
-위의 시나리오를 고려할 때, at.js가 활동이 변경하는 요소를 최종적으로 숨기지 않으면 페이지의 컨텐츠는 얼마나 자주 로드 및 표시됩니까? 다시 말해, 페이지는 활동 컨텐츠를 제외하고 완전히 표시되며, 나머지 컨텐츠는 잠시 후에 표시됩니다.
+위의 시나리오를 고려할 때, at.js가 활동이 변경하는 요소를 최종적으로 숨기지 않으면 페이지의 콘텐츠는 얼마나 자주 로드 및 표시됩니까? 다시 말해, 페이지는 활동 콘텐츠를 제외하고 완전히 표시되며, 나머지 콘텐츠는 잠시 후에 표시됩니다.
 
-at.js는 페이지의 렌더링을 차단하지 않습니다. 사용자는 Target에서 사용자 지정할 요소를 나타내는 페이지에서 일부 영역이 비어 있는 것을 볼 수 있습니다. 적용할 컨텐츠에 SCRIPT 또는 IMG와 같은 원격 자산이 포함되지 않은 경우 모든 것을 빠르게 렌더링해야 합니다.
+at.js는 페이지의 렌더링을 차단하지 않습니다. 사용자는 Target에서 사용자 지정할 요소를 나타내는 페이지에서 일부 영역이 비어 있는 것을 볼 수 있습니다. 적용할 콘텐츠에 SCRIPT 또는 IMG와 같은 원격 자산이 포함되지 않은 경우 모든 것을 빠르게 렌더링해야 합니다.
 
-## 완전히 캐시된 페이지는 위의 시나리오에 어떻게 영향을 줍니까? 페이지의 나머지 컨텐츠를 로드한 후에 활동 컨텐츠가 눈에 더욱 잘 띄게 표시될 수 있습니까? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## 완전히 캐시된 페이지는 위의 시나리오에 어떻게 영향을 줍니까? 페이지의 나머지 콘텐츠를 로드한 후에 활동 콘텐츠가 눈에 더욱 잘 띄게 표시될 수 있습니까? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 사용자의 위치에 가까운 CDN에 페이지가 캐시되지만 Target 엣지 근처에 없는 경우 해당 사용자에게 지연이 표시될 수 있습니다. Target 에지는 전역에 걸쳐 있으므로 대부분의 경우 문제가 되지 않습니다.
 
@@ -258,7 +258,7 @@ at.js는 페이지의 렌더링을 차단하지 않습니다. 사용자는 Targe
 
 다음 시나리오를 고려하십시오.
 
-Target 시간 제한은 5초입니다. 사용자가 대표 이미지를 사용자 지정할 수 있는 활동이 포함된 페이지를 로드합니다. at.js는 적용할 활동이 있는지 확인하기 위한 요청을 보내지만 초기 응답이 없습니다. 연관된 활동이 있는지 여부에 대해 Target에서 수신된 응답이 없기 때문에 사용자는 대표 이미지의 일반 컨텐츠를 볼 수 있다고 가정합니다. 4초 후Target은 활동 컨텐츠와 함께 응답을 반환합니다.
+Target 시간 제한은 5초입니다. 사용자가 대표 이미지를 사용자 지정할 수 있는 활동이 포함된 페이지를 로드합니다. at.js는 적용할 활동이 있는지 확인하기 위한 요청을 보내지만 초기 응답이 없습니다. 연관된 활동이 있는지 여부에 대해 Target에서 수신된 응답이 없기 때문에 사용자는 대표 이미지의 일반 콘텐츠를 볼 수 있다고 가정합니다. 4초 후Target은 활동 콘텐츠와 함께 응답을 반환합니다.
 
 이 단계에서 대체 버전을 표시할 수 있습니까? 따라서 4초 후에 대표 이미지를 교체할 수 있으며 사용자가 이 이미지 교체를 알 수 있습니까?
 
