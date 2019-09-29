@@ -52,7 +52,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 * 사용자가 활동 자격을 확보하고 컨텐츠가 [!DNL Target]에서 반환될 때 위의 모든 지표를 트리거합니다. 이는 사용자가 반드시 오퍼를 보았다는 것을 의미하지는 않습니다. 활동 경험이 스크롤해야 볼 수 있는 부분에 있고 사용자가 페이지를 아래로 스크롤하지 않는 경우 [!DNL Target]에서 오퍼를 제공했지만 사용자는 볼 수 없습니다.
 * 동일한 활동의 동일한 페이지에 여러 개의 mbox 호출이 있는 경우가 아니라면 [!UICONTROL 활동 노출 수]([!DNL Target]으로 측정) 및 [!UICONTROL 인스턴스 수]([!DNL Analytics]로 측정)는 동일합니다. 이로 인해 다중 [!UICONTROL 활동 노출 수]가 계산되지만, 인스턴스의 경우 단일 [!UICONTROL 인스턴스]만 계산됩니다.
-* 에서 활동 [!UICONTROL 노출 횟수] 및 [!UICONTROL 활동 전환] 지표를 사용할 [!DNL Analysis Workspace]때 [!UICONTROL 두 지표 모두에 동일한] 터치속성 모델이 적용되었는지확인합니다. 열 설정 톱니바퀴를 클릭하고 기본이 아닌 속성 모델을 활성화한 [!UICONTROL 다음 동일한 터치를]선택하여 모델을 적용할 [!UICONTROL 수 있습니다]. Analytics 도구 안내서의 속성 [IQ 개요의](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) 속성에 대해 *자세히 알아보십시오*.
+* When using Activity Impressions and Activity Conversions metrics in , ensure that both metrics have Same Touch attribution models applied. [!DNL Analysis Workspace] Models can be applied by clicking the column settings gear, enabling [!UICONTROL Non-default attribution models], then selecting [!UICONTROL Same Touch]. Learn more about attribution in [Attributes IQ overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
 
 ## 마케터가 활동을 설정할 때 Analytics 지표를 선택하는 경우 "활동 전환"은 무엇을 의미합니까? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
