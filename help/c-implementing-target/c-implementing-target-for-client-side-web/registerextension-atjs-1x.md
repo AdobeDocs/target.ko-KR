@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 registerExtension() 함수 정보입니다. '
-keywords: Registerextension; Registerextension; 익스텐션 등록; at. js; 함수; 함수; clientcode; serverdomain; Globalmboxname; Globalmboxautocreate; 시간 초과
+keywords: registerExtension;registestextension;register extension;at.js;functions;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 registerExtension() 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 tregisterExtension() 함수 정보입니다.
 solution: Target
