@@ -1,7 +1,7 @@
 ---
-description: 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 컨텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
+description: 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 keywords: 권장 사항;권장 사항 기준;권장 사항 알고리즘;권장 사항 활동;기준;권장 사항 타깃팅
-seo-description: 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 컨텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
+seo-description: 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 seo-title: 권장 사항
 solution: Target
 title: 권장 사항
@@ -17,11 +17,11 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 # ![PREMIUM](/help/assets/premium.png) 권장 사항{#recommendations}
 
-권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 컨텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
+권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
 >[!NOTE]
 >
->[!DNL Recommendations] 활동은 [Target Premium 솔루션의 일부로 사용할](/help/c-intro/intro.md#premium)수 있습니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다.
+>[!DNL Recommendations] 작업은 [Target Premium 솔루션](/help/c-intro/intro.md#premium)의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다.
 >
 >[!DNL Recommendations Classic]을 사용 중이라면 [Recommendations Classic과 Target Premium의 권장 사항 활동 비교](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5)를 참조하십시오.
 
@@ -43,7 +43,7 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 | 원하는 작업 | 권장 사항 |
 |--- |--- |
 | 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 유도합니다. | "이 항목을 구입하고 다른 항목도 구입한 사람" 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여주는 권장 사항을 생성합니다. |
-| 시청 중인 내용과 유사한 미디어 컨텐츠를 추천하여 방문자가 여러분의 미디어 사이트에서 보내는 시간을 늘립니다. | "이 항목을 보고 다른 항목도 본 사람" 기준을 사용하여 다른 비디오를 제안하는 권장 사항을 생성합니다. |
+| 시청 중인 내용과 유사한 미디어 콘텐츠를 추천하여 방문자가 여러분의 미디어 사이트에서 보내는 시간을 늘립니다. | "이 항목을 보고 다른 항목도 본 사람" 기준을 사용하여 다른 비디오를 제안하는 권장 사항을 생성합니다. |
 | 또한 은행의 저축 제도에 대한 정보를 본 고객이 IRA 계좌에 대해서도 읽도록 제안합니다. | "이 항목을 보고 다른 항목도 구입한 사람" 기준을 사용하여, 권장 사항에 있는 첫 번째 제품을 표시하지 않고 고객이 한 제품을 본 후에 구입한 다른 제품을 표시합니다. |
 </table>
 
@@ -61,6 +61,6 @@ source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ## Adobe Target 기본 사항 웨비나: Recommendations 소개 {#intro-to-recs}
 
-The *Introduction to Recommendations* webinar includes an in-depth exploration of how to leverage the value of [!DNL Adobe Target Recommendations]. 이 [!DNL Target] 활동에서는 이전 방문 횟수에 따라 실시간 제안을 최적화하여 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시하는 방법을 알아봅니다. 또한 [!DNL Target] UI에서 [!DNL Recommendations] 활동을 구축하는 방법에 관한 단계별 개요를 살펴보십시오.
+*권장 사항 소개* 웨비나에서는 [!DNL Adobe Target Recommendations] 값을 활용하는 방법에 대한 심층적인 설명을 포함합니다. 이 [!DNL Target] 활동에서는 이전 방문 횟수에 따라 실시간 제안을 최적화하여 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시하는 방법을 알아봅니다. 또한 [!DNL Target] UI에서 [!DNL Recommendations] 활동을 구축하는 방법에 관한 단계별 개요를 살펴보십시오.
 
-[Recommendations 소개](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[추천 소개](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
