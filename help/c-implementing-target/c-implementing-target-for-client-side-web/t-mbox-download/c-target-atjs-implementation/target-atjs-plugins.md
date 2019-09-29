@@ -1,8 +1,8 @@
 ---
-description: Target 의. js 플러그인에서 지원되고 지원되지 않는 정보입니다.
-keywords: at. js plugins; 지원되는 플러그인; 지원되지 않는 플러그인; ttmeta; ttmeta; Mboxtrack
-seo-description: Adobe Target 용. js 플러그인에서 지원되고 지원되지 않는 정보입니다.
-seo-title: at. js 플러그인 (Adobe Target 용)
+description: Target에서 지원되고 지원되지 않는 at.js 플러그인에 대한 정보입니다.
+keywords: at.js 플러그인;지원되는 플러그인;지원되지 않는 플러그인;ttMeta;ttmeta;mboxTrack
+seo-description: Adobe Target에서 지원되거나 지원되지 않는 at.js 플러그인에 대한 정보입니다.
+seo-title: adobe Target용 at.js 플러그인
 solution: Target
 title: at.js 플러그인
 topic: Standard
@@ -15,7 +15,7 @@ source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
 
 # at.js plug-ins{#at-js-plug-ins}
 
-Adobe Target 의. js 플러그인에서 지원되고 지원되지 않는 정보입니다.
+Adobe Target에서 지원되거나 지원되지 않는 at.js 플러그인에 대한 정보입니다.
 
 많은 사용자가 [!DNL mbox.js]에 대해 사용자 지정된 플러그인 및 응답 플러그인을 빌드했습니다. 이러한 사용자 지정 플러그인은 업데이트하지 않으면 [!DNL at.js]에서 지원하지 않을 수 있습니다.
 
