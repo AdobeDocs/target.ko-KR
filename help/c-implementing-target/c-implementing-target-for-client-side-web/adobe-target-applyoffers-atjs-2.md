@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 adobe.target.applyOffers() 함수 정보입니다. '
-keywords: adobe. target. applyoffers; Applyoffers; Applyoffers; 오퍼 적용; at. js; 함수; 함수
+keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;functions;functions
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.applyOffers(options) 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.applyOffers(options) 함수 정보입니다.
 solution: Target
