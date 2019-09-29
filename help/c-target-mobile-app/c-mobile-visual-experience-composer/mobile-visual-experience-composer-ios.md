@@ -233,19 +233,19 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 + (void) prefetchOffersBackground;
 ```
 
-## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
+## 자습서: 모바일 iOS Objective-C 및 Swift 애플리케이션에서 Experience Cloud 구현{#tutorial}
 
-* [Mobile iOS Objective-C 응용 프로그램에서 Experience Cloud 구현](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [Mobile iOS Swift 애플리케이션에서 Experience Cloud 구현](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [모바일 iOS Objective-C 애플리케이션에서 Experience Cloud 구현](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [모바일 Swift 애플리케이션에서 Experience Cloud 구현](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 
-이러한 자습서를 완료한 후 다음을 수행할 수 있습니다.
+이러한 자습서를 완료하면 다음 작업을 수행할 수 있습니다.
 
-* 모바일 론치 속성 만들기
-* Objective-C 또는 Swift 앱에 론치 속성 설치
+* 모바일 Launch 속성 만들기
+* Objective-C 또는 Swift 앱에 Launch 속성 설치
 * 다음과 같은 Adobe Experience Cloud 솔루션을 구현합니다.
    * Experience Cloud ID 서비스
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* 개발, 스테이징 및 프로덕션 환경을 통해 론치 변경 사항 게시
+* 개발, 스테이징 및 프로덕션 환경을 통해 Launch 변경 사항 게시
