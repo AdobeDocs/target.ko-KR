@@ -83,7 +83,7 @@ Enterprise용 Adobe Admin Console에서 수행되는 작업의 경우, 다음 �
 >[!NOTE]
 >작업 공간 구성에 대한 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-### Obtain your Workspace ID {#workspace-id}
+### 작업 공간 ID 얻기 {#workspace-id}
 
 [Target API](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다.
 
