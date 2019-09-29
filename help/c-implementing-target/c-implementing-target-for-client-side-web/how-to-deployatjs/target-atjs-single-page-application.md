@@ -1,8 +1,8 @@
 ---
 description: at.js 2.x를 사용하여 SPA(단일 페이지 애플리케이션)를 구현하기 위한 정보입니다.
-keywords: 단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현하기;spa;at.js 2.x; at. js; 단일 페이지 애플리케이션; 단일 페이지 앱
+keywords: 단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현하기;spa;at.js 2.x단일 페이지 응용 프로그램;단일 페이지 응용 프로그램;단일 페이지 응용 프로그램;at.js;single page app
 seo-description: Adobe Target at.js 2.x를 사용하여 SPA(단일 페이지 애플리케이션)를 구현하기 위한 정보입니다.
-seo-title: Adobe Target에서 단일 페이지 애플리케이션 구현
+seo-title: Adobe Target의 단일 페이지 애플리케이션 구현
 solution: Target
 title: 단일 페이지 애플리케이션 구현
 topic: standard
@@ -33,13 +33,13 @@ SPA용 Adobe Target VEC는 "보기"라는 새로운 개념(예: SPA 경험을 �
 
 "보기"에 대해 더 설명하기 위해 React에 구현된 이러한 가상의 온라인 전자 상거래 사이트를 탐색하고 몇 가지 "보기" 예를 살펴보겠습니다. 아래 링크를 클릭하여 새 브라우저 탭에서 이 사이트를 엽니다.
 
-**Link:[홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
+**링크:홈[사이트](https://target.enablementadobe.com/react/demo/#/)**
 
 ![홈 사이트](/help/c-experiences/assets/home.png)
 
 홈 사이트로 이동하면 사이트에서 판매되는 최신 제품과 부활절 판매를 홍보하는 영웅 이미지가 바로 표시됩니다. 이 경우 보기는 전체 홈 사이트로 정의할 수 있습니다. 아래의 Adobe Target 보기 구현 섹션에서 이에 대해 자세히 설명할 예정이므로 이것은 기록해 두면 편리합니다.
 
-**Link:[제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
+**링크:제품[사이트](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![제품 사이트](/help/c-experiences/assets/product-site.png)
 
@@ -53,7 +53,7 @@ SPA용 Adobe Target VEC는 "보기"라는 새로운 개념(예: SPA 경험을 �
 
 추가 로드 단추를 클릭하여 사이트에서 더 많은 제품을 탐색하려 합니다. 이 경우에는 웹 사이트 URL은 변경되지 않습니다. 그러나 여기에서 "보기"는 위에 표시된 두 번째 제품 행만 나타낼 수 있습니다. 보기 이름은 "PRODUCTS-PAGE-2"이라고 할 수 있습니다.
 
-**Link:[checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**링크:[체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![체크아웃 페이지](/help/c-experiences/assets/checkout.png)
 
@@ -87,7 +87,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    이제 가상의 전자 상거래 SPA에 대해 React에서 `triggerView()` 함수를 호출하는 방법에 대한 몇 가지 사용 사례를 살펴보겠습니다.
 
-   **Link:[홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
+   **링크:홈[사이트](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Link:[제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
+**링크:제품[사이트](https://target.enablementadobe.com/react/demo/#/products)**
 
 이제 좀 더 복잡한 예를 살펴보겠습니다. 마케터는 사용자가 추가 로드 단추를 클릭한 후 "가격" 레이블 색상을 빨간색으로 변경함으로써 제품의 두 번째 행을 개인화하려고 합니다.
 
@@ -147,7 +147,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
  }
 ```
 
-**Link:[checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**링크:[체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![React 체크아웃](/help/c-experiences/assets/react6.png)
 
@@ -281,13 +281,13 @@ document.addEventListener("at-view-end", function(e) {
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=kor)
 
-자세한 [내용은 at. js 2. x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식을 참조하십시오.
+자세한 [내용은 at.js 2.x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식 이해를 참조하십시오.
 
 ### SPA에서 at.js 2.x 구현
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=kor)
 
-자세한 [내용은 단일 페이지 애플리케이션 (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 에서 Adobe Target의 at. js 2. x 구현을 참조하십시오.
+자세한 [내용은 단일 페이지 애플리케이션(SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 에서 Adobe Target at.js 2.x 구현을 참조하십시오.
 
 ### Adobe Target에서의 SPA용 VEC 사용
 
