@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 mboxDefine() 및 mboxUpdate() 함수 정보입니다. '
-keywords: Mboxdefine; Mboxdefine; mbox 정의; Mboxupdate; Mboxupdate; mbox 업데이트; at. js; 함수; 함수
+keywords: mboxDefine;mboxDefine;mboxUpdate;mboxUpdate;mbox 업데이트;at.js;functions;functions
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 mboxDefine() 및 mboxUpdate() 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 mboxDefine() 및 mboxUpdate() 함수 정보입니다.
 solution: Target
