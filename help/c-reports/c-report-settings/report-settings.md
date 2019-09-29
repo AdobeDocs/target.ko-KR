@@ -55,7 +55,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    보고서의 구성을 편집한 후 [!UICONTROL 저장]을 클릭하면 사전 설정 이름 뒤에 별표(*)가 표시되어 아래와 같이 사전 설정이 변경되었음을 나타냅니다.
 
-   ![별표 포함 보고서 사전 설정](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
+   ![별표가 표시된 보고서 사전 설정](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. 3개의 수직 줄임표 아이콘 &gt; **[!UICONTROL 새 이름으로 저장]을 클릭하여 새로운 사전 설정을 만듭니다.**
 
@@ -63,14 +63,14 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
    3개의 수직 줄임표 아이콘 &gt; **[!UICONTROL 업데이트]를 클릭하여 현재 사전 설정을 업데이트합니다.**
 
-   ![보고서 기본 업데이트](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
+   ![보고서 기본값 업데이트](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **사전 설정 삭제**
 
 1. 삭제할 사전 설정을 선택합니다.
 1. 3개의 수직 줄임표 아이콘 &gt; **[!UICONTROL 삭제를 클릭합니다]**.
 
-   ![보고서 기본 삭제](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
+   ![보고서 기본값 삭제](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. **[!UICONTROL 삭제]를 다시 클릭하여 삭제를 확인합니다.**
 
@@ -183,7 +183,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 차트에서 경험을 표시하거나 숨기려면 차트의 왼쪽에서 해당 경험을 선택하거나 선택 취소하십시오.
 
-다음 그림일 경우, 보고서의 기본, 중동부 및 총계만 표시됩니다. 아시아 경험은 그래프에 숨겨져 있습니다.
+다음 그림의 경우 보고서에 경험 기본값, 중동 및 합계만 표시됩니다. 아시아 경험은 그래프에 숨겨져 있습니다.
 
 ![경험](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
