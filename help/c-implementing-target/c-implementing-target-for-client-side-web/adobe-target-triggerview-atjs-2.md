@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다. '
-keywords: adobe. target. triggerview; Triggerview; Triggerview; 트리거 보기; at. js; 함수; 함수; Viewname; Viewname; 보기 이름
+keywords: adobe.target.triggerView;triggerView;triggerView;trigger view;at.js;functions;functions;viewName;viewname;view name
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다.
 solution: Target
@@ -27,17 +27,17 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | options | 개체 | 아니오 |  |
 | options &gt; page | 부울 | 아니오 | **TRUE**: 페이지의 기본값은 true입니다. page=true일 때 노출 수가 증가하면 [!DNL Target] 백엔드에 알림이 전송됩니다.<br>활동 경험이나 활동 지표가 보기와 연결되어 있지 않으면 알림이 전송되지 않습니다.<br>**FALSE:** page=false일 때 노출 수가 증가하면 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
 
-## 예: true
+## 예: True
 
-`triggerView()` 활동을 Target 백엔드로 전송하여 활동 노출 횟수 및 기타 지표를 증가시킵니다.
+활동 노출 횟수 및 기타 지표를 늘리기 위해 Target 백엔드로 알림을 전송하는 `triggerView()` 호출.
 
 ```
 adobe.target.triggerView("homeView")
 ```
 
-## 예: false
+## 예: False
 
-`triggerView()` 노출 수를 계산하기 위해 Target 백엔드로 전송된 알림이 없는 경우
+노출 계산을 위해 Target 백엔드에 전송된 알림을 전송하지 않은 `triggerView()` 호출.
 
 ```
 adobe.target.triggerView("homeView", {page: false})
