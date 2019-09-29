@@ -23,33 +23,33 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    >[!NOTE]
    >
-   >사용 가능한 활동 유형은 [!DNL Target] 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. For example, [!UICONTROL Recommendations] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >사용 가능한 활동 유형은 [!DNL Target] 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL 권장 사항]은 [Target Premium 기능](/help/c-intro/intro.md#premium)입니다.
    >
-   >For information about the various activity types, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) and the [Target activities guide](/help/c-activities/target-activities-guide.md).
+   >다양한 활동 유형에 대한 자세한 내용은 [활동](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 및 [Target 활동 안내서](/help/c-activities/target-activities-guide.md)를 참조하십시오.
 
-   ![A/B 테스트 Actity 만들기](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
+   ![A/B 테스트 활동 만들기](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. 필요한 경우 **[!UICONTROL 시각적(기본값)]**&#x200B;을 선택합니다.
 
-   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 참조하십시오.
 
    >[!NOTE]
    >
-   >Target는 VEC 및 양식 기반 Experience Composer 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Target은 VEC 및 양식 기반 경험 작성기 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/c-experiences/experiences.md)를 참조하십시오.
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.]
 
-1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (조건부) [Target Premium 고객](/help/c-intro/intro.md#premium)인 경우 [작업 공간](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
-1. [활동 URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)를 지정하고 다음을 클릭합니다 ****.
+1. [활동 URL](../../../c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)을 지정한 후, **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    계정이 기본 URL로 구성된 경우 기본적으로 해당 URL이 표시됩니다. 기본값에서 다른 URL로 변경할 수 있습니다.
 
    [!UICONTROL 시각적 경험 작성기]가 열리고 URL에 지정된 페이지가 표시됩니다.
 
-   ![vec](/help/c-activities/t-test-ab/t-test-create-ab/assets/vec-new.png)
+   ![VEC](/help/c-activities/t-test-ab/t-test-create-ab/assets/vec-new.png)
 
 1. 제공된 공간에 활동의 이름을 입력합니다.
 
@@ -74,7 +74,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    [!UICONTROL 시각적 경험 작성기]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. 경험 B를 수정하려면 3단계부터 시작하십시오.
 
-1. Click **[!UICONTROL Targeting]** at the top of the [!UICONTROL Visual Experience Composer] to move to the next step in the three-step guided workflow.
+1. [!UICONTROL 시각적 경험 작성기]의 맨 위에서 **[!UICONTROL 타깃팅]**&#x200B;을 클릭하여 3단계 안내가 워크플로우에서 다음 단계로 이동합니다.
 
    흐름 다이어그램이 열립니다.
 
@@ -87,7 +87,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
 1. 활동을 입력하려는 자격 있는 방문자의 비율을 선택합니다.
 
-   ![고객 백분율](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   ![대상 비율](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
    예를 들어 항목 수를 모든 방문자의 50% 또는 "캘리포니아" 대상의 45%로 제한할 수 있습니다.
 
@@ -97,11 +97,11 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    원하는 트래픽 할당 방법을 선택합니다.
 
-   * **[!UICONTROL 수동 (기본값)]**: 각 경험을 볼 참가자 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다. 
+   * **[!UICONTROL 수동(기본값)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다. 
 
-   * **[!UICONTROL 최적의 경험에 자동 할당]**: 대부분의 활동 참가자는 자동으로 성과가 높은 경험으로 연결됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. [자동화된 트래픽 할당](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
+   * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. [자동화된 트래픽 할당](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
 
-   * **[!UICONTROL 개인화된 경험을 위한 자동 타깃팅]**: Target는 고급 머신 러닝 알고리즘을 사용하여 방문자를 최적의 경험으로 자동으로 타겟팅하여 목표를 극대화합니다. 자세한 내용은 [자동 타겟으로 최적화](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)를 참조하십시오.
+   * **[!UICONTROL 개인화된 경험에 대한 자동 타겟]**: Target은 고급 기계 학습 알고리즘을 사용하여 목표를 극대화하기 위한 최상의 경험으로 방문자를 자동으로 타깃팅합니다. 자세한 내용은 [자동 타겟으로 최적화](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)를 참조하십시오.
    **[!UICONTROL 경험 추가]를 클릭하여 활동에 다른 경험을 추가할 수도 있습니다.**
 
 1. 선택한 대상 및 경험이 만족스러우면 **[!UICONTROL 다음]**&#x200B;을 클릭하여 안내가 있는 3단계 워크플로우의 세 번째 단계로 이동합니다.
