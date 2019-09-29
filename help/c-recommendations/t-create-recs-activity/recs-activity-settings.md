@@ -1,8 +1,8 @@
 ---
 description: 여러 설정을 사용하여 권장 사항 활동을 설명하고 제어할 수 있습니다.
 keywords: 권장 사항;설정;이름;목표;우선순위;지속 기간;보고 설정;기타 메타데이터
-seo-description: Adobe Target에서 Recommendations 활동을 설명하고 제어하는 데 몇 가지 설정을 사용할 수 있습니다.
-seo-title: Adobe Target의 Recommendations 활동 설정
+seo-description: 여러 설정을 사용하여 Adobe Target에서 권장 사항 활동을 설명하고 제어할 수 있습니다.
+seo-title: Adobe Target의 권장 사항 활동 설정
 solution: Target
 subtopic: 권장 사항
 title: 권장 사항 활동 설정
@@ -20,7 +20,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 [!UICONTROL 권장 사항] 활동을 설명하고 제어하는 데 사용할 수 있는 설정에 대한 정보.
 
-![Recommendations 목표 및 설정 페이지](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
+![권장 사항 목표 및 설정 페이지](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 다음 섹션에서는 [!UICONTROL 권장 사항] 활동에 사용 가능한 설정을 설명합니다.
 
@@ -55,11 +55,11 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 활동의 지속 기간을 설정하십시오.
 
-활성화할 때 활동이 시작되거나 특정 날짜와 시간을 설정할 수 있습니다. 이와 마찬가지로, 활동은 비활성화될 때 종료되거나 날짜 및 시간을 설정하여 종료할 수 있습니다. 시간 선택기는 24시간 형식을 사용하며 00:00은 자정을 나타냅니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
+활동은 활성화될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 이와 마찬가지로, 활동은 비활성화될 때 종료되거나 날짜 및 시간을 설정하여 종료할 수 있습니다. 시간 선택기는 24시간 형식을 사용하며 00:00은 자정을 나타냅니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
 
 ## 보고 설정
 
-* **보고 출처:** 보고 소스를 선택합니다. Adobe Target 또는 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). 활동이 라이브된 후에는 보고 소스를 변경하지 마십시오. 활동이 활성화된 후 보고 소스를 변경하면 보고가 일관되지 않습니다.
+* **보고 소스:** 보고 소스: Adobe Target 또는 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)를 선택합니다. 활동이 라이브로 전환된 후에는 보고 소스를 변경하지 마십시오. 활동이 라이브로 전환된 후에 보고 소스를 변경하면 보고가 일관되지 않습니다.
 * **목표 지표:** 활동이 성공적인지를 결정하는 성공 지표를 선택합니다.
 * **추가 지표:**&#x200B;보고서에서 사용할 추가 성공 지표를 구성하십시오.
 * **보고 대상:**&#x200B;보고서를 필터링할 때 사용할 수 있는 대상을 정의합니다.
