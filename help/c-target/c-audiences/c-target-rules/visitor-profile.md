@@ -1,10 +1,10 @@
 ---
-description: 대상을 만들어 특정 프로필 매개 변수를 충족하는 방문자를 타깃팅합니다.
+description: 특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
 keywords: 방문자 프로필;대상 방문자 프로필
-seo-description: Adobe Target에서 대상을 만들어 특정 프로필 매개 변수를 충족하는 방문자를 타깃팅합니다.
+seo-description: Adobe Target에서특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
 seo-title: 방문자 프로필
 solution: Target
-title: Adobe Target를 사용하여 방문자를 타깃팅할 대상 만들기
+title: Adobe Target을 사용하여 방문자 프로필을 타깃팅할 대상 만들기
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 방문자 프로필{#visitor-profile}
 
-대상을 만들어 특정 프로필 매개 변수를 충족하는 방문자를 타깃팅합니다.
+특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
