@@ -15,9 +15,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 오퍼 타깃팅{#target-automated-personalization-offers}
 
-자동화된 개인화 (AP) 활동에서 오퍼를 특정 대상에 타깃팅할 수 있습니다.
+AP(자동화된 개인화) 활동에서는 오퍼에 대해 특정 대상을 지정할 수 있습니다.
 
-이 기능을 사용하면 특정 방문자가 볼 수 있는 오퍼의 수가 줄어듭니다. 예를 들어 세 개의 오퍼가 있는 AP 활동을 고려하십시오. 오퍼 1 에는 대상 A에 대한 노출을 제한하는 타깃팅 규칙이 있습니다. 두 명의 방문자가 이 AP 활동을 보았습니다.
+이 기능을 사용하면 특정 방문자가 볼 수 있는 오퍼의 수가 줄어듭니다. 예를 들면 3개의 오퍼가 있는 AP 활동을 고려합니다. 오퍼 1에는 대상 A로 노출을 제한하는 타깃팅 규칙이 있습니다. 두 방문자가 이 AP 활동을 확인했습니다.
 
 |  | 방문자 1 | 방문자 2 |
 |--- |--- |--- |
@@ -30,12 +30,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## 타깃팅 규칙 설정
 
-1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
-1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
+1. 타깃팅하려는 오퍼가 포함된 [자동화된 개인화 활동](/help/c-activities/t-automated-personalization/create-ap-activity.md)을 만듭니다.
+1. 시각적 경험 작성기에서 활동에 대한 오퍼를 설정한 후에 **[!UICONTROL 콘텐츠 관리]**&#x200B;를 클릭합니다.
 
-   ![컨텐츠 관리](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![콘텐츠 관리](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
-   컨텐츠 관리 대화 상자가 열립니다.
+   콘텐츠 관리 대화 상자가 열립니다.
 
 1. 오퍼 탭을 클릭합니다.
 
@@ -43,11 +43,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 1. 원하는 오퍼를 선택하고 해당 오퍼를 볼 수 있는 대상을 선택합니다.
 
-   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
+   단일 오퍼에 대한 타깃팅을 설정하려면 원하는 오퍼 위를 마우스로 가리킨 다음 **[!UICONTORL 타깃팅]** 아이콘을 클릭합니다.
 
-   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
+   여러 오퍼에 대한 타깃팅을 설정하려면 원하는 오퍼에 대한 확인란을 선택한 다음 목록의 오른쪽 상단에 표시되는 **[!UICONTROL 타깃팅] 아이콘을 클릭합니다.
 
-1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
+1. 다음 [!UICONTROL 대상자 선택] 대화 상자에서 오퍼에 대해 원하는 대상자를 선택한 다음 **[!UICONTROL 완료]**&#x200B;를 클릭하여 [!UICONTROL 콘텐츠 관리] 대화 상자로 돌아갑니다.
 
    >[!NOTE]
    >
