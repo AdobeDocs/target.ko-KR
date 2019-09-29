@@ -1,11 +1,11 @@
 ---
-description: 'at. js에 대한 adobe. target. sendnotifications (options) 함수에 대한 정보입니다. '
-keywords: adobe. target. sendnotifications; Sendnotifications; Sendnotifications; 알림 전송; 알림; at. js; 함수; 함수
-seo-description: . js JavaScript 라이브러리의 Adobe Target에 대한 Adobe. target. sendnotifications (options) 함수에 대한 정보입니다.
-seo-title: . js JavaScript 라이브러리의 Adobe Target에 대한 Adobe. target. sendnotifications (options) 함수에 대한 정보입니다.
+description: 'at.js에 대한 adobe.target.sendNotifications(options) 함수 정보입니다. '
+keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;functions
+seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.sendNotifications(options) 함수 정보입니다.
+seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.sendNotifications(options) 함수 정보입니다.
 solution: Target
 subtopic: 시작하기
-title: adobe. target. sendnotifications (options)
+title: adobe.target.sendNotifications(options)
 topic: Standard
 translation-type: tm+mt
 source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
@@ -13,13 +13,13 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 ---
 
 
-# adobe. target. sendnotifications (options)
+# adobe.target.sendNotifications(options)
 
-이 함수는 경험을 `adobe.target.applyOffer()` 사용하거나 `adobe.target.applyOffers()`사용하지 않고 경험을 렌더링할 때 Target Edge에 알림을 보냅니다.
+이 함수는 `adobe.target.applyOffer()` 또는 `adobe.target.applyOffers()`를 사용하지 않고 경험을 렌더링할 때 Target Edge에 알림을 보냅니다.
 
 >[!NOTE]
 >
->이 함수는. js 2.1.0에서 처음 소개되었으며 2.1.0 이상에서 사용할 수 있습니다.
+>이 함수는 at.js 2.1.0에서 처음 소개되었으며, 2.1.0 이상 버전에서 사용할 수 있습니다.
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
@@ -31,40 +31,40 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 | 필드 이름 | 유형 | 필수? | 제한 사항 | 설명 |
 | --- | --- | --- | --- | --- |
-| 요청 &gt; 알림 | 객체 배열 | 예 |  | 표시된 컨텐츠, 클릭한 선택기 및/또는 방문 횟수 또는 mbox에 대한 알림. |
-| 요청 &gt; 알림 &gt; 주소 | 개체 | 아니오 |  |  |
-| 요청 &gt; 알림 &gt; 주소 &gt; URL | 문자열 | 아니오 |  | 알림이 실행된 URL. |
-| 요청 &gt; 알림 &gt; 주소 &gt; 레퍼링url | 문자열 | 아니오 |  | 알림이 실행된 참조 URL. |
-| 요청 &gt; 알림 &gt; 매개 변수 | 개체 | 아니오 | 매개 변수에는 다음 이름이 허용되지 않습니다.<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>다음 사항을 고려하십시오.<ul><li>최대 50 개 매개 변수 제한.</li><li>매개 변수 이름은 비어 있으면 안 됩니다.</li><li>매개 변수 이름 최대 길이 128.</li><li>매개 변수 이름은 "profile" 로 시작하면 안 됩니다.</li><li>매개 변수 값 길이 max 5000.</li></ul> |  |
-| 요청 &gt; 알림 &gt; Profileparameters | 개체 | 아니오 | 매개 변수에는 다음 이름이 허용되지 않습니다.<ul><li>orderId</li><li>orderTotal</li><li>Productpurchasedids</li></ul>다음 사항을 고려하십시오.<ul><li>최대 50 개 매개 변수 제한.</li><li>매개 변수 이름은 비어 있으면 안 됩니다.</li><li>매개 변수 이름 최대 길이 128.</li><li>매개 변수 이름은 "profile" 로 시작하면 안 됩니다.</li><li>매개 변수 값 길이 max 5000.</li></ul> |  |
-| 요청 &gt; 알림 &gt; 주문 | 개체 | 아니오 |  | 순서 세부 사항을 설명하는 개체. |
-| 요청 &gt; 알림 &gt; 주문 &gt; ID | 문자열 | 아니오 | `<=` 250자. | 주문 ID. |
-| 요청 &gt; 알림 &gt; 주문 &gt; 합계 | 문자열 | 아니오 | `>=` 0 | 주문 총액. |
-| 요청 &gt; 알림 &gt; 주문 &gt; Purchasedproductids | 문자열 배열 | 아니오 | <ul><li>빈 값은 허용되지 않습니다.</li><li>각 제품 ID 최대 길이 50.</li><li>제품 ID, 쉼표로 구분되고 연결된 제품 ID는 250 개를 초과할 수 없습니다.</li></ul> | 제품 ID 주문 |
-| 요청 &gt; 알림 &gt; 제품 | 개체 | 아니오 |  |  |
-| 요청 &gt; 알림 &gt; 제품 &gt; ID | 문자열 | 아니오 | `<=` 128 자; 비워 둘 수 없습니다. | 제품 ID. |
-| 요청 &gt; 알림 &gt; 제품 &gt; Categoryid | 문자열 | 아니오 | `<=` 128 자; 비워 둘 수 없습니다. | 카테고리 ID. |
-| 요청 &gt; 알림 &gt; ID | 문자열 | 예 | `<=` 200 자. | 알림 ID가 응답으로 반환되고 알림이 성공적으로 처리되었음을 나타냅니다. |
-| 요청 &gt; 알림 &gt; 노출 IMPRESSIONID | 문자열 | 아니오 | `<= 128`자. | 노출 ID는 이전 알림을 사용하여 현재 알림을 stitch (링크) 하거나 요청을 실행하는 데 사용됩니다. 두 변수가 일치하는 경우 두 번째 및 기타 후속 요청은 활동 또는 경험에 새 인상을 생성하지 않습니다. |
-| 요청 &gt; 알림 &gt; 유형 | 문자열 | 예 | «클릭» 또는 «디스플레이» 가 지원됩니다. | 알림 유형. |
-| 요청 &gt; 알림 &gt; 타임스탬프 | 숫자`<int64>` | 예 |  | UNIX Epoch 이후 경과된 알림의 타임스탬프 (밀리초) 입니다. |
-| 요청 &gt; 알림 &gt; 토큰 | 문자열 배열 | 예 |  | 알림 유형에 따라 표시된 컨텐츠 또는 클릭한 선택기의 토큰 목록입니다. |
-| 요청 &gt; 알림 &gt; mbox | 개체 | 아니오 |  | mbox에 대한 알림. |
-| 요청 &gt; 알림 &gt; mbox &gt; 이름 | 문자열 | 아니오 | 빈 값은 허용되지 않습니다.<br>허용되는 문자: 이 표 다음에 나오는 참고 사항을 참조하십시오. | mbox 이름. |
-| 요청 &gt; 알림 &gt; mbox &gt; 상태 | 문자열 | 아니오 |  | mbox 상태 토큰입니다. |
-| 요청 &gt; 알림 &gt; 보기 | 개체 | 아니오 |  |  |
-| 요청 &gt; 알림 &gt; 보기 &gt; ID | 정수 `<int64>` | 아니오 |  | ID를 참조하십시오. 보기 API를 통해 보기를 만들 때 보기에 할당된 ID 입니다. |
-| 요청 &gt; 알림 &gt; 보기 &gt; 이름 | 문자열 | 아니오 | `<= 128`자. | 보기 이름. |
-| 요청 &gt; 알림 &gt; 보기 &gt; 키 | 문자열 | 아니오 | `<=` 512 자. | 키를 참조하십시오. API를 통해 보기에서 설정된 키. |
-| 요청 &gt; 알림 &gt; 보기 &gt; 상태 | 문자열 | 아니오 |  | 상태 토큰을 봅니다. |
+| Request &gt; notifications | 개체 배열 | 예 |  | 표시된 콘텐츠, 클릭한 선택기 및/또는 방문 보기 또는 mbox에 대한 알림입니다. |
+| Request &gt; notifications &gt; address | 개체 | 아니오 |  |  |
+| Request &gt; notifications &gt; address &gt; url | 문자열 | 아니오 |  | 알림이 실행된 URL입니다. |
+| Request &gt; notifications &gt; address &gt; referringUrl | 문자열 | 아니오 |  | 알림이 실행된 참조 URL입니다. |
+| Request &gt; notifications &gt; parameters | 개체 | 아니오 | 매개 변수에는 다음 이름을 사용할 수 없습니다.<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>다음 사항을 고려하십시오.<ul><li>매개 변수의 수는 최대 50개로 제한됩니다.</li><li>매개 변수 이름은 비워둘 수 없습니다.</li><li>매개 변수 이름은 최대 128자입니다.</li><li>매개 변수 이름은 "profile"로 시작하면 안 됩니다.</li><li>매개 변수 값의 최대 길이는 5000입니다.</li></ul> |  |
+| Request &gt; notifications &gt; profileParameters | 개체 | 아니오 | 매개 변수에는 다음 이름을 사용할 수 없습니다.<ul><li>orderId</li><li>orderTotal</li><li>productPurchasedIds</li></ul>다음 사항을 고려하십시오.<ul><li>매개 변수의 수는 최대 50개로 제한됩니다.</li><li>매개 변수 이름은 비워둘 수 없습니다.</li><li>매개 변수 이름은 최대 128자입니다.</li><li>매개 변수 이름은 "profile"로 시작하면 안 됩니다.</li><li>매개 변수 값의 최대 길이는 5000입니다.</li></ul> |  |
+| Request &gt; notifications &gt; order | 개체 | 아니오 |  | 순서 세부 사항을 설명하는 개체입니다. |
+| Request &gt; notifications &gt; order &gt; id | 문자열 | 아니오 | `<=` 250자. | 주문 ID. |
+| Request &gt; notifications &gt; order &gt; total | 문자열 | 아니오 | `>=` 0 | 주문 총액. |
+| Request &gt; notifications &gt; order &gt; purchasedProductIds | 문자열의 배열 | 아니오 | <ul><li>값을 비워둘 수 없습니다.</li><li>각 제품 ID의 최대 길이는 50자입니다.</li><li>쉼표로 구분되고 연결된 제품 ID의 최대 길이가 250자를 초과하면 안 됩니다.</li></ul> | 주문 제품 ID입니다. |
+| Request &gt; notifications &gt; product | 개체 | 아니오 |  |  |
+| Request &gt; notifications &gt; product &gt; id | 문자열 | 아니오 | `<=` 128자이며, 비워 둘 수 없습니다. | 제품 ID. |
+| Request &gt; notifications &gt; product &gt; categoryId | 문자열 | 아니오 | `<=` 128자이며, 비워 둘 수 없습니다. | 카테고리 ID입니다. |
+| Request &gt; notifications &gt; id | 문자열 | 예 | `<=` 200자. | 알림 ID가 응답으로 반환되고, 알림이 성공적으로 처리되었음을 나타냅니다. |
+| Request &gt; notifications &gt; impressionId | 문자열 | 아니오 | `<= 128`자. | 노출 ID는 이전 알림을 사용하여 현재 알림을 연결(링크)하거나 요청을 실행하는 데 사용됩니다. 둘 다 일치하는 경우 두 번째와 다른 후속 요청이 활동 또는 경험에 대한 새로운 노출을 생성하지 않습니다. |
+| Request &gt; notifications &gt; type | 문자열 | 예 | click 또는 display가 지원됩니다. | 알림 유형입니다. |
+| Request &gt; notifications &gt; timestamp | 숫자`<int64>` | 예 |  | UNIX Epoch 이후 경과된 알림의 타임스탬프(밀리초)입니다. |
+| Request &gt; notifications &gt; tokens | 문자열의 배열 | 예 |  | 알림 유형에 따라 표시된 콘텐츠 또는 클릭한 선택기에 대한 토큰 목록입니다. |
+| Request &gt; notifications &gt; mbox | 개체 | 아니오 |  | mbox에 대한 알림입니다. |
+| Request &gt; notifications &gt; mbox &gt; name | 문자열 | 아니오 | 값을 비워둘 수 없습니다.<br>허용된 문자: 이 표 다음에 나오는 참고 사항을 참조하십시오. | mbox 이름. |
+| Request &gt; notifications &gt; mbox &gt; state | 문자열 | 아니오 |  | mbox 상태 토큰입니다. |
+| Request &gt; notifications &gt; view | 개체 | 아니오 |  |  |
+| Request &gt; notifications &gt; view &gt; id | 정수 `<int64>` | 아니오 |  | ID 보기. API 보기를 통해 보기를 만들 때 보기에 지정된 ID입니다. |
+| Request &gt; notifications &gt; view &gt; name | 문자열 | 아니오 | `<= 128`자. | 보기의 이름입니다. |
+| Request &gt; notifications &gt; view &gt; key | 문자열 | 아니오 | `<=` 512자. | 키 보기. API를 통해 보기에 설정된 키입니다. |
+| Request &gt; notifications &gt; view &gt; state | 문자열 | 아니오 |  | 상태 토큰 보기. |
 
-****&#x200B;참고: 다음 문자는 `Request > notifications > mbox > name`허용됩니다.
+**참고**: `Request > notifications > mbox > name`에 사용할 수 있는 문자는 다음과 같습니다.
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
 ```
 
-## Prefetched mbox 렌더링 후 sendnotifications () 호출
+## 프리페치된 mbox 렌더링 후 sendNotifications() 호출
 
 ```
 function createTokens(options) {
@@ -120,4 +120,4 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->Adobe Analytics를 사용하는 경우 `getOffers()` 프리페치만 사용하는 `sendNotifications()`경우 Analytics 요청을 실행한 후 실행해야 `sendNotifications()` 합니다. The purpose of this is to ensure that the SDID sent `sendNotifications()` to the SDID sent to analytics and target.
+>Adobe Analytics에서 프리페치만 사용하는 `getOffers()`와 `sendNotifications()`를 사용하는 경우 `sendNotifications()`가 실행된 후에 Analytics 요청을 실행해야 합니다. 목적은 `sendNotifications()`에서 생성한 SDID가 Analytics와 Target에 전송된 SDID와 일치하는지 확인하는 것입니다.
