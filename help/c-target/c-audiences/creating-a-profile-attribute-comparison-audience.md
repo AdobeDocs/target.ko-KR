@@ -1,8 +1,8 @@
 ---
-description: 대상을 정의하여 타겟 대상 라이브러리 또는 활동 전용 대상의 두 프로필 속성을 비교할 수 있습니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
+description: 타겟 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
 keywords: 대상;성향;프로필 속성;비교하기;비교;대상 만들기;대상 작성
-seo-description: 대상을 정의하여 타겟 대상 라이브러리 또는 활동 전용 대상의 두 프로필 속성을 비교할 수 있습니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
-seo-title: 프로필 속성 비교 대상 만들기 Adobe Target 에서
+seo-description: 타겟 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
+seo-title: 프로필 속성 비교 대상 만들기 Adobe Target에서
 solution: Target
 title: 프로필 속성 비교 대상 만들기
 topic: 고급,Standard,Classic
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # 프로필 속성 비교 대상 만들기{#create-a-profile-attribute-comparison-audience}
 
-Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
+타겟 [대상 라이브러리](/help/c-target/c-audiences/audiences.md)에 대한 두 프로필 속성 또는 [활동 전용 대상](/help/c-target/creating-activity-only-audience.md)의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
 
 >[!NOTE]
 >
