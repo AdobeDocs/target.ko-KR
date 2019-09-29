@@ -22,7 +22,7 @@ source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
 
 [!DNL Adobe Admin Console]에서 시스템 관리자가 귀하를 참여할 수 있도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행합니다.
 
-자세한 내용은 Experience [Cloud 및 핵심 서비스](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) 도움말에서 Experience Cloud *사용자 및 제품 관리를 참조하십시오*.
+자세한 내용은 [Experience Cloud 및 핵심 서비스 도움말에서](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) Experience Cloud 사용자 및 제품 *관리를*&#x200B;참조하십시오.
 
 시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다. 
 
