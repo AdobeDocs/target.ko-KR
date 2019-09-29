@@ -19,17 +19,17 @@ source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습니다. 프로세스는 선택한 방법에 따라 달라집니다.
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## 활동 페이지에서 마우스로 가리키면 나타나는 단추를 사용하여 활동 편집 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. **[!UICONTROL 활동]** 페이지에서 편집할 활동을 마우스로 가리킨 다음 **편집[!UICONTROL 아이콘을 클릭합니다.]**
 
    ![편집 아이콘](/help/c-activities/assets/hover_edit.png)
 
-   Target 이 Visual Experience Composer (VEC) 에서 활동을 열면 [!UICONTROL 경험] 페이지가 표시됩니다 (3 단계 안내 워크플로우의 첫 번째 단계).
+   Target은 VEC(시각적 경험 작성기)에서 활동을 열면 [!UICONTROL 경험] 페이지가 표시됩니다(3단계 안내 워크플로우의 첫 번째 단계).
 
-1. vec 옵션을 사용하여 원하는 대로 활동을 [편집합니다](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. [VEC 옵션](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 사용하여 원하는 대로 활동을 편집합니다.
 
-1. [분할] 단추를 클릭하여 다음 단계로 진행하거나 활동을 저장합니다.
+1. 분할 단추를 클릭하여 다음 단계로 이동하거나 활동을 저장합니다.
 
    ![분할 단추](/help/c-activities/assets/edit_split_button_2.png)
 
@@ -37,7 +37,7 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
    * **저장 및 닫기:**&#x200B;현재 단계에서 원하는 대로 변경하고, 분할 단추의 드롭다운을 클릭한 다음 **[!UICONTROL 저장 및 닫기]**&#x200B;를 선택하여 변경 사항을 저장하고 활동의 [!UICONTROL 개요] 페이지를 표시합니다.
    * **저장:**&#x200B;한 단계에서 원하는 대로 변경하고, 분할 단추의 드롭다운을 클릭한 다음 **[!UICONTROL 저장]을 선택하여 변경 사항을 저장하고 계속 변경 작업을 수행할 수 있는 해당 단계에 남습니다.** 추가적인 변경 작업을 수행하려면 먼저 저장이 완료될 때까지 기다리십시오. 저장이 완료된 후 변경 사항이 적용된 채 VEC가 다시 로드됩니다.
 
-## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## 활동 페이지에서 해당 이름을 클릭하여 활동을 열어 활동 편집 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. 워크플로우를 차례차례 이동하지 않으려면 활동 페이지에서 원하는 활동을 클릭하여 연 다음, **[!UICONTROL 활동 편집]드롭다운 목록에서 선택 사항을 선택하십시오.**
 
@@ -60,9 +60,9 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
 
 
 
-## Recommendations Classic에서 만든 이전 활동과 작업 {#classic}
+## Recommendations Classic에서 만든 이전 활동 사용 {#classic}
 
-[!UICONTROL 활동] 목록에는 다음을 포함하여 다양한 소스에서 작성된 활동이 표시됩니다 [!DNL Recommendations Classic]. 다음 작업은에서 만든 이전 활동으로 작업할 때 사용할 수 [!DNL Recommendations Classic]있습니다.
+활동 [!UICONTROL 목록은] 다양한 소스에서 생성된 활동을 포함하여 표시합니다 [!DNL Recommendations Classic]. 에서 만든 기존 활동을 사용하여 작업할 때 다음 작업을 사용할 수 [!DNL Recommendations Classic]있습니다.
 
 * [!UICONTROL 활성화]
 * [!UICONTROL 비활성화]
@@ -70,9 +70,9 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
 * [!UICONTROL 복사]
 * [!UICONTROL 삭제]
 
-[!DNL Recommendations] 활동을 직접 편집할 수는 없습니다. 활동을 편집하려면, 사용하여 [!DNL Target Premium] 활동 사본을 만든 다음 새로 만든 활동을 저장해야 합니다. 그런 다음 새로 만든 이 활동을 필요에 따라 편집할 수 있습니다.
+활동을 직접 편집할 수 없습니다. [!DNL Recommendations] 활동을 편집하려면 를 사용하여 활동 사본을 만든 [!DNL Target Premium] 다음 새로 만든 활동을 저장해야 합니다. 이렇게 새로 만든 활동은 필요에 따라 편집할 수 있습니다.
 
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## 활동을 초안 양식으로 저장 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 아직 저장되지 않은 새 활동을 만들거나 이전에 초안 양식으로 저장된 활동을 편집하는 경우, 분할 단추에 초안 저장 옵션이 표시됩니다.
 
