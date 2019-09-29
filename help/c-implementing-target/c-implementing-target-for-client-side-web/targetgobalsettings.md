@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 targetGlobalSettings() 함수 정보입니다. '
-keywords: targetglobalsettings; targetglobalsettings; Globalsettings; Globalsettings; 전역 설정; at. js; 함수; 함수; clientcode; clientcode; serverdomain; serverdomain; Cookiedomain; Cookiedomain; Crossdomain; Crossdomain; 제한 시간; Globalmboxautocreate; Visitorapitimeout; Defaultcontenthiddenstyle; Defaultcontentvisiblestyle; Bodyhiddenstyle; Bodyhidingenabled; Imsorgid; Secureonly; Overridemboxedgeserver; Overridemboxedgeservertimeout; Optoutenabled; optout; 수신 거부; Selectorspollingtimeout; Dataproviders
+keywords: targetGlobalSettings;targetGlobalSettings;globalSettings;글로벌 설정;글로벌 설정;at.js;functions;clientCode;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle defaultContentVisibleStyle;bodyHiddenStyle;bodyHiddenEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;optout;selectorsPollingTimeout;dataProviders
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 solution: Target
@@ -61,7 +61,7 @@ window.targetGlobalSettings = {
 
 ## 데이터 공급자 {#data-providers}
 
-이 설정을 사용하여 고객은 Demandbase, BlueKai 및 사용자 지정 서비스와 같은 서드 파티 데이터 공급자로부터 데이터를 수집하고, 글로벌 mbox의 mbox 매개 변수가 요청할 때 Target으로 데이터를 전달할 수 있습니다. 비동기 및 동기 요청을 통해 여러 공급자로부터 데이터를 수집하도록 지원합니다. 이 접근 방식을 사용하면 각 공급자에 대해 독립적인 시간 제한을 포함하여 페이지 성능에 미치는 영향을 제한하면서, 기본 페이지 컨텐츠의 깜박임을 쉽게 관리할 수 있습니다
+이 설정을 사용하여 고객은 Demandbase, BlueKai 및 사용자 지정 서비스와 같은 서드 파티 데이터 공급자로부터 데이터를 수집하고, 글로벌 mbox의 mbox 매개 변수가 요청할 때 Target으로 데이터를 전달할 수 있습니다. 비동기 및 동기 요청을 통해 여러 공급자로부터 데이터를 수집하도록 지원합니다. 이 접근 방식을 사용하면 각 공급자에 대해 독립적인 시간 제한을 포함하여 페이지 성능에 미치는 영향을 제한하면서, 기본 페이지 콘텐츠의 깜박임을 쉽게 관리할 수 있습니다
 
 >[!NOTE]
 >
@@ -71,7 +71,7 @@ window.targetGlobalSettings = {
 
 | 비디오 | 설명 |
 |--- |--- |
-| [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | 데이터 공급자는 타사의 데이터를 Target에 쉽게 전달할 수 있는 기능입니다. 타사는 기상 서비스, DMP 또는 자체 웹 서비스일 수 있습니다. 그런 다음, 이 데이터를 사용하여 대상, Target 컨텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다. |
+| [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | 데이터 공급자는 타사의 데이터를 Target에 쉽게 전달할 수 있는 기능입니다. 타사는 기상 서비스, DMP 또는 자체 웹 서비스일 수 있습니다. 그런 다음, 이 데이터를 사용하여 대상, Target 콘텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다. |
 | [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Adobe Target의 dataProviders 기능을 사용하여 타사 데이터 공급자로부터 데이터를 검색하고 이를 Target 요청에 전달하는 방법에 대한 자세한 내용과 예제에 대한 구현입니다. |
 
 `window.targetGlobalSettings.dataProviders` 설정은 데이터 공급자의 배열입니다.
