@@ -31,5 +31,5 @@ Launch는 Adobe의 차세대 태그 관리 플랫폼이며 Adobe Target을 구�
 
 Adobe Launch를 사용하여 at.js를 구현하는 경우에만 다음과 같은 이점이 있습니다. 따라서 DTM이 아닌 Adobe Launch를 사용하거나 at.js를 수동으로 구현하는 것이 좋습니다.
 
-* **분석 및 타겟 경합 조건 해결:** Analytics 호출은 Target 호출이 시작되기 전에 실행되기 때문에 Target 호출이 Analytics 호출에 연결되지 않습니다. 이로 인해 데이터가 잘못될 수 있습니다. 0.6.0 부터는 Target 시작 확장 기능에서 Target 호출이 성공적으로 완료될 때까지 Analytics 비콘 호출이 대기하는지 확인합니다. 이로 인해 데이터 불일치가 발생했을 수 있습니다.
-* **잘못된 리디렉션 오퍼 처리를 방지합니다.** 페이지에 Target 및 Analytics가 있고 Target에서 실행된 리디렉션 오퍼가 있을 경우, Analytics 추적기가 요청을 실행하지 않을 때 (사용자가 다른 URL로 리디렉션되기 때문에) 요청하는 상황이 발생할 수 있습니다. 론치를 통해 Target 및 Analytics를 구현하는 경우 이 문제가 발생하지 않습니다. 론치를 사용하여 Target는 Analytics가 Analytics 비콘 요청을 중단하도록 지시합니다.
+* **Analytics 및 Target 경쟁 조건 해결:** Analytics 호출이 Target 호출 전에 실행될 수 있으므로, Target 호출은 Analytics 호출에 연결되지 않습니다. 이로 인해 잘못된 데이터가 발생할 수 있습니다. 0.6.0부터 Target Launch Extension에서 Analytics 신호 호출은 Target 호출이 성공했는지에 관계없이 완료될 때까지 대기합니다. 이로 인해 데이터 불일치가 발생했을 수 있습니다.
+* **잘못된 리디렉션 오퍼 처리 방지:** 페이지에 Target과 Analytics가 있고 Target에 의해 리디렉션 오퍼가 실행된 경우, 사용자가 다른 URL로 리디렉션되기 때문에 Analytics 추적기가 요청을 실행하지 말아야 할 때 요청을 실행하는 상황이 발생할 수 있습니다. Launch를 통해 Target 및 Analytics를 구현하는 경우 이 문제가 발생하지 않습니다. Launch를 사용하면 Target은 Analytics에 Analytics 비콘 요청을 중단하도록 지시합니다.
