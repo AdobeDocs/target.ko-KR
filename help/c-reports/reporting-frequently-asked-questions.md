@@ -1,8 +1,8 @@
 ---
 description: Target의 보고에 대한 FAQ 목록
 keywords: 문제 해결;지표 불일치;FAQ;보고서
-seo-description: Adobe Target에서 보고하기에 대한 FAQ 목록입니다.
-seo-title: Adobe Target에 대한 FAQ 보고
+seo-description: Adobe Target의 보고에 대한 FAQ 목록입니다.
+seo-title: Adobe Target에 대한 보고 FAQ
 solution: Target
 title: 보고 FAQ
 topic: Standard
@@ -17,16 +17,16 @@ source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
 
 [!DNL Target]의 보고에 대한 FAQ 목록
 
-## [!UICONTROL 내 경험 타깃팅] (XT) 보고서에 제어 경험에 대한 지표가 포함되는 이유는 무엇입니까?
+## 내 XT( [!UICONTROL Experience Targeting] ) 보고서에 제어 경험에 대한 지표가 포함되는 이유는 무엇입니까?
 
-XT 활동에는 항상 제어 경험이 있어야 합니다. If you are using an XT activity in a similar manner to an [!UICONTROL A/B Test] activity, which is a fairly common scenario, the control experience data is useful. 보고서에서 유용하지 않은 경우 제어 경험 데이터를 무시할 수 있습니다.
+XT 활동에는 항상 제어 경험이 있어야 합니다. XT 활동을 A/B 테스트 [!UICONTROL 활동과 유사한 방식으로 사용하는] 경우, 이는 매우 일반적인 시나리오입니다. 제어 경험 데이터는 유용합니다. 보고서에서 유용하지 않은 제어 경험 데이터를 무시할 수 있습니다.
 
 ## Why are the number of visits lower in [!DNL Target] than in other [!DNL Adobe Experience Cloud] solutions? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 예를 들어 [!DNL Target]에 의해 보고된 방문 횟수와 같은 지표 수치는 다음과 같은 여러 가지 이유로 다른 [!DNL Experience Cloud] 솔루션에서 보고된 수치보다 항상 낮습니다.
 
 * [!DNL Target]은 활동에 대해 자격이 되는 방문자에 대해서만 방문을 카운트하고, 다른 솔루션에서는 방문자를 페이지로 유도한 활동과 관계없이 페이지를 표시하는 방문자에 대한 방문을 카운트합니다.
-* 동일한 위치에 대해 서로 다른 활동이 경쟁하는 경우가 있을 수 있습니다 (상호 배타적). 그 결과, 방문자는 웹 페이지에 있는 [!DNL Target]에서 보고하는 지표 수치에 영향을 주는 다른 컨텐츠를 보게 됩니다.
+* 동일한 위치(상호 배타적인)에 대해 서로 다른 활동이 경쟁하는 경우가 있을 수 있습니다. 그 결과, 방문자는 웹 페이지에 있는 [!DNL Target]에서 보고하는 지표 수치에 영향을 주는 다른 컨텐츠를 보게 됩니다.
 
 ## 내 활동의 보고서에 사용할 수 있는 데이터가 없는 이유는 무엇입니까? {#section_E4722F6445884130951DF79981C8289B}
 
