@@ -19,7 +19,7 @@ mbox.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
 ## 페이지 로드 시 mbox.js의 영향은 어떤 것입니까? {#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+자세한 내용은 [at.js의 이점](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)을 참조하십시오.
 
 ## mbox.js 및 document.write{#section_355A3A5BF02F42EEB8271C96EF41590A}을 사용할 때 Google Chrome에서 "Parser-blocking"(파서 차단)이라는 경고 메시지가 표시되는 이유는 무엇입니까? 
 
