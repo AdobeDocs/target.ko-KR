@@ -21,23 +21,23 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 1. Target Standard 활동 목록에서 **[!UICONTROL 활동 만들기]** &gt; **[!UICONTROL 자동화된 개인화]**&#x200B;를 클릭합니다.
 
-   ![활동 만들기: 자동화된 개인화](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
+   ![활동 만들기: 자동화된 맞춤설정](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
 1. VEC(시각적 경험 작성기)를 사용하려면 **[!UICONTROL 시각적(기본값)]**&#x200B;을 클릭합니다.
 
-   ![자동화된 개인화 활동 대화 상자 만들기](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
+   ![자동화된 맞춤설정 활동 만들기 대화 상자](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 참조하십시오.
 
    >[!NOTE]
    >
-   >Target는 VEC 및 양식 기반 Experience Composer 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Target은 VEC 및 양식 기반 경험 작성기 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/c-experiences/experiences.md)를 참조하십시오.
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 이 옵션이 표시되지 않는 경우 조직에 Target Standard 라이선스가 있습니다.]
+   >이전 그림에서 [!UICONTROL 작업 공간 선택] 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.]
 
-1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (조건부) Target Premium 고객인 경우 [작업 공간을 선택](/help/administrating-target/c-user-management/property-channel/property-channel.md)합니다.
 
 1. 활동 URL을 확인하거나 입력한 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
@@ -64,45 +64,45 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
    | - | 빼기 |
    | @ | 로그인 |
 
-1. Modify page elements as explained in [Visual Experience Composer options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. 다음 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)에 설명된 대로 페이지 요소를 수정합니다.
 
    자산 관리자에서 한꺼번에 여러 이미지를 선택할 수 있습니다. 이렇게 하면 활동에 대해 각 이미지가 구성된 페이지를 빠르게 볼 수 있습니다. 또한 오퍼의 텍스트 요소를 쉽게 편집할 수 있습니다. 요소를 편집하면 해당 요소가 변경되었음을 나타내는 막대가 표시됩니다.
 
-1. **[!UICONTROL 컨텐츠 관리]**&#x200B;를 클릭하여 사용 가능한 조합을 구성합니다.
+1. **[!UICONTROL 콘텐츠 관리]**&#x200B;를 클릭하여 사용 가능한 조합을 구성합니다.
 
-   ![컨텐츠 관리 옵션](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![콘텐츠 관리 옵션](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    화면 맨 위에 세 가지 옵션(경험, 오퍼 및 제외 그룹)이 있는 대화 상자가 표시됩니다.
 
-   ![컨텐츠 관리 대화 상자](/help/c-activities/t-automated-personalization/assets/ap_content-new.png)
+   ![콘텐츠 관리 대화 상자](/help/c-activities/t-automated-personalization/assets/ap_content-new.png)
 
    >[!NOTE]
    >
    >AP 활동에서 최대 30,000개의 경험을 작성할 수 있지만, 이 활동은 5,000개 미만의 경험이 사용되는 경우 가장 잘 수행됩니다.
 
-   [!UICONTROL 경험] 목록에는 활동에 대해 선택된 각 컨텐츠 부분과 지정된 위치가 표시됩니다.
+   [!UICONTROL 경험] 목록에는 활동에 대해 선택된 각 콘텐츠 부분과 지정된 위치가 표시됩니다.
 
    원하는 경험을 마우스로 가리키고 제외 아이콘을 클릭하여 특정 경험을 제외할 수 있습니다.
 
    ![제외 아이콘 가리키기](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
 
-   관련 경험에 대한 확인란을 선택하여 경험을 일괄 제외/포함시킨 다음 대화 상자의 오른쪽 상단에 있는 제외 아이콘을 클릭할 수 있습니다.
+   관련 경험에 대한 확인란을 선택하여 경험을 묶음으로 제외/포함한 다음, 대화 상자의 오른쪽 맨 위에 있는 제외 아이콘을 클릭할 수 있습니다.
 
    ![일괄 제외 옵션](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
    **상태** 드롭다운 목록을 클릭하여 제외되거나 포함된 활동만 표시하도록 이 목록 보기를 필터링할 수 있습니다.
 
-1. (조건부) **[!UICONTROL 오퍼]**&#x200B;를 클릭하여 컨텐츠를 선택하고 이를 보고 그룹에 지정하거나 특정 방문자만 타깃팅으로 한 특정 오퍼를 볼 수 있도록 합니다.
+1. (조건부) **[!UICONTROL 오퍼]**&#x200B;를 클릭하여 콘텐츠를 선택하고 이를 보고 그룹에 지정하거나 특정 방문자만 타깃팅으로 한 특정 오퍼를 볼 수 있도록 합니다.
 
    자세한 내용은 [자동화된 개인화의 오퍼 보고 그룹](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)을 참조하십시오.
 
    위치별로 오퍼를 필터링하려면 [!UICONTROL 위치] 목록을 사용하십시오. [!UICONTROL 보고서 그룹] 목록을 사용하여 보고 그룹별로 오퍼를 필터링합니다. 또한 [!UICONTROL 보고 그룹] 목록을 사용하여 [!UICONTROL 지정되지 않은 오퍼]를 필터링하면 현재 보고 그룹에 지정되지 않은 오퍼에 보고 그룹을 지정할 수 있습니다.
 
-   원하는 오퍼 위로 마우스를 가져간 다음 폴더 아이콘을 클릭하여 특정 경험을 보고 그룹에 추가할 수 있습니다.
+   원하는 오퍼 위로 마우스를 이동한 다음 폴더 아이콘을 클릭하여 보고 그룹에 특정 경험을 추가합니다.
 
    ![폴더 아이콘 가리키기](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
 
-   관련 경험에 대한 확인란을 선택하여 보고 그룹에 경험을 일괄로 포함시킨 다음 대화 상자의 오른쪽 상단에 있는 보고 그룹 폴더 아이콘 단추를 클릭할 수 있습니다.
+   관련 경험에 대한 확인란을 선택하여 보고 그룹에 경험을 묶음으로 포함한 다음 대화 상자의 오른쪽 상단 모서리에 있는 보고 그룹 폴더 아이콘을 클릭할 수 있습니다.
 
    ![보고서 그룹 옵션](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
 
@@ -112,7 +112,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 1. (조건부) **[!UICONTROL 제외 그룹]**&#x200B;을 클릭하여 활동에서 제외할 요소의 조합을 선택합니다.
 
-   ![컨텐츠 관리 대화 상자의 제외 그룹 탭](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![콘텐츠 관리 대화 상자의 제외 그룹 탭](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
    AP 테스트에서 최대 30,000개의 경험을 만들 수 있지만, 이 알고리즘은 사용되는 고유 경험이 10,000개 보다 작을 때 가장 잘 수행됩니다.
 
@@ -120,7 +120,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    기존 제외 그룹을 편집하려면 편집할 그룹 위로 마우스를 가져간 후 연필 아이콘을 클릭합니다.
 
-1. Click **[!UICONTROL Done]** when you have finished setting up the content of your activity.
+1. 활동의 콘텐츠 설정을 완료했으면 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
 
 1. **타깃팅** 단계는 다른 Target 활동 유형을 사용해본 적이 있는 경우 친숙하게 보일 것입니다. 여기서 대상을 선택하고, **[!UICONTROL 사용자 지정 할당]** 드롭다운 목록을 클릭한 후 **다음을 클릭하여 제어 경험을 표시할 방문자의 백분율을 지정할 수 있습니다**.
 
@@ -128,11 +128,11 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
    ![트래픽 할당 목표 드롭다운 목록](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **개인화 알고리즘 평가(50/50):**&#x200B;목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다. " 무작위 경험 "을 제어로 사용하는 것이 좋습니다.
-   * **개인화 트래픽 최대화(90/10):**&#x200B;목표가 "상시 설정" 활동을 만드는 것이면 10%의 방문자를 제어 알고리즘에 추가하여 충분한 데이터를 보장함으로써 시간에 따른 학습이 계속 진행될 수 있게 합니다. 여기에는 더 큰 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어지게 된다는 장단점이 있습니다. 목표 없이, 이것은 제어로 특정 경험을 사용할 때 권장되는 트래픽 분할입니다.
+   * **개인화 알고리즘 평가(50/50):**&#x200B;목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다. 임의 경험을 제어로 사용하는 것이 좋습니다.
+   * **개인화 트래픽 최대화(90/10):**&#x200B;목표가 "상시 설정" 활동을 만드는 것이면 10%의 방문자를 제어 알고리즘에 추가하여 충분한 데이터를 보장함으로써 시간에 따른 학습이 계속 진행될 수 있게 합니다. 여기에는 더 큰 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어지게 된다는 장단점이 있습니다. 목표에 관계없이, 특정 경험을 제어로 사용할 때 권장되는 트래픽 분할입니다.
    * **사용자 지정 할당** 원하는 대로 백분율을 수동으로 분할합니다.
 
-1. (Conditional) From the [!UICONTROL Control] drop-down list, [select a specific experience to be used as control](/help/c-activities/t-automated-personalization/experience-as-control.md) or select [!UICONTROL Random Experience.]
+1. (조건부) [!UICONTROL 제어] 드롭다운 목록에서 [제어로 사용할 특정 경험을 선택](/help/c-activities/t-automated-personalization/experience-as-control.md)하거나 [!UICONTROL 임의 경험]을 선택합니다.
 
    제어 경험은 자동 테스트에서 제공하는 상승도 수준을 판별하기 위한 비교를 제공합니다.
 
@@ -142,7 +142,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
    >
    >자동화된 개인화 활동에서 각 요청에 대해 시작 기준(URL 타깃팅, 템플릿 규칙 및 대상 타겟)이 평가됩니다. 이전 버전에서는 항목 기준이 세션당 한 번만 평가되었습니다.
 
-1. **[!UICONTROL 다음을]** 클릭하여 **[!UICONTROL 목표 및 설정]** 페이지를 표시합니다.
+1. **[!UICONTROL 다음]**&#x200B;을 클릭하여 **[!UICONTROL 목표 및 설정]** 페이지를 표시합니다.
 1. 다음 설정으로 활동을 구성한 다음 **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭합니다.
 
    | 설정 | 설명 |
