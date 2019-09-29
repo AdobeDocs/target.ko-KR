@@ -50,31 +50,31 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 | 2019년 8월 14일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 업데이트된 텍스트 및 추가된 교육 비디오 링크입니다. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 키에 대한 정보를 `consumerID` 추가했습니다. |
 |  | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move)을 참조하십시오 | "레이아웃 &gt; 이동" 섹션에서 정보를 업데이트했습니다. |
-| 2019년 8월 12일 | [Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Updated information about dependencies and artifacts.<br>파일에 대한 코드 샘플이 `AndroidManifest.XML` 업데이트되었습니다. |
+| 2019년 8월 12일 | [Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | 종속성 및 객체에 대한 정보가 업데이트되었습니다.<br>파일에 대한 코드 샘플이 `AndroidManifest.XML` 업데이트되었습니다. |
 |  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | "Target Mobile VEC SDK iOS 2.1.0 및 Android 1.1.1" 섹션의 개선 사항 및 수정 사항 목록을 업데이트했습니다. |
-|  | [활동 편집 또는 초안으로 저장](/help/c-activities/edit-activity.md#classic) | Added new section: "Work with legacy activities created in Recommendations Classic." |
-| 2019년 8월 9일 | [at.js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Added new section: "How at.js renders offers with HTML content." |
+|  | [활동 편집 또는 초안으로 저장](/help/c-activities/edit-activity.md#classic) | 새 섹션이 추가되었습니다."Recommendations Classic에서 만든 이전 활동을 사용하여 작업합니다." |
+| 2019년 8월 9일 | [at.js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | 새 섹션이 추가되었습니다."How at.js는 HTML 컨텐츠로 오퍼를 렌더링합니다." |
 |  | [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations)을 참조하십시오 | 새 섹션이 추가되었습니다."고려 사항." |
-| 2019년 8월 7일 | [오퍼 콘텐츠 미리 가져오기](/help/c-target-mobile-app/prefetch-offer-content.md) | Added note that the prefetch functionality in the SDKs is not supported for Auto Target, Auto Allocate, and Automated Personalization activity types. |
-|  | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Updated note indicating how long the classification process takes to complete. |
-|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Updated note indicating how long the classification process takes to complete. |
-|  | [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Updated topic to include information about the California Consumer Privacy Act (CCPA). |
-| 2019년 8월 6일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Added release notes for the Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.0 release. |
-|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Updated the following section: "Expected criteria processing time." |
-|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | Updated consideration about using Activity Impressions and Activity Conversions metrics in .[!DNL Analysis Workspace] |
-| 2019년 8월 1일 | [Target Release notes (current)](/help/r-release-notes/release-notes.md) | Added important announcement regarding API support for Enterprise Permissions. |
-|  | [Grant Adobe I/O integrations access to workspaces and assign roles](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 새 주제입니다.  |
-| 2019년 7월 31일 | [Introduction to Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | 새 주제입니다.  |
-|  | [Create Criteria](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Added note to Recently Viewed Items. |
+| 2019년 8월 7일 | [오퍼 콘텐츠 미리 가져오기](/help/c-target-mobile-app/prefetch-offer-content.md) | SDK의 프리페치 기능은 자동 타겟, 자동 할당 및 자동화된 개인화 활동 유형에서 지원되지 않는다는 내용의 참고가 추가되었습니다. |
+|  | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | 분류 프로세스를 완료하는 데 걸리는 시간을 나타내는 참고가 업데이트되었습니다. |
+|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 분류 프로세스를 완료하는 데 걸리는 시간을 나타내는 참고가 업데이트되었습니다. |
+|  | [개인 정보 보호 및 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CCPA(California Consumer Privacy Act)에 대한 정보를 포함하도록 주제를 업데이트했습니다. |
+| 2019년 8월 6일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Mobile VEC SDK iOS 2.1.0 및 Android 1.1.0 릴리스에 대한 릴리스 노트를 추가했습니다. |
+|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 다음 섹션이 업데이트되었습니다."예상 기준 처리 시간." |
+|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | 활동 노출 횟수 및 [!UICONTROL 활동 전환] 지표 [!UICONTROL 사용에 대한] 고려 사항을 [!DNL Analysis Workspace]업데이트했습니다. |
+| 2019년 8월 1일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 엔터프라이즈 권한에 대한 API 지원에 대한 중요한 공지가 추가되었습니다. |
+|  | [작업 영역에 Adobe I/O 통합 액세스 권한 부여 및 역할 할당](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 새 주제입니다.  |
+| 2019년 7월 31일 | [추천 소개](/help/c-recommendations/introduction-to-recommendations.md) | 새 주제입니다.  |
+|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | 최근에 본 항목에 메모를 추가했습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#preview) | 활동 QA 미리 보기 링크에 알려진 문제가 추가되었습니다. |
 | 2019년 7월 29일 | [보고 FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 추가된 새로운 FAQ:"XT(Experience Targeting  ) 보고서에 제어 경험에 대한 지표가 포함된 이유는 무엇입니까?" |
-| 2019년 7월 24일 | [Upgrading from at.js 1.*x* to at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 새 섹션이 추가되었습니다.at.js [2.x에서 도메인 간 추적 지원](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+| 2019년 7월 24일 | [at.js 1.*x* 에서 at.js 2.*x로 업그레이드*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | 새 섹션이 추가되었습니다.at.js [2.x에서 도메인 간 추적 지원](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention(ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 새 주제입니다.  |
 |  | [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status) | 새 섹션이 추가되었습니다."추천 오퍼의 상태 보기" |
 |  | [피드](/help/c-recommendations/c-products/feeds.md) | "항목 가져오기" 행이 업데이트되고 피드 상태 아래에 " *시간에*&#x200B;제대로 가져온 피드" 행이 [추가되었습니다](/help/c-recommendations/c-products/feeds.md#status). |
 |  | [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md) | 카탈로그를 새로 고치는 방법에 대한 텍스트가 업데이트되었습니다. |
-|  | [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 클릭 추적을 위해 설정한 요소를 보여주는 수정 패널에 대한 정보가 추가되었습니다. |
-|  | [Adobe Target 작동 방식](/help/c-intro/how-target-works.md#bots) | Added new section: "Bots." |
+|  | [모바일 앱에서 클릭 추적 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | 클릭 추적을 위해 설정한 요소를 보여주는 수정 패널에 대한 정보가 추가되었습니다. |
+|  | [Adobe Target 작동 방식](/help/c-intro/how-target-works.md#bots) | 새 섹션이 추가되었습니다."보트." |
 |  | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md#best) | 느린 정규식 실행을 방지하기 위한 우수 사례를 추가했습니다. |
 |  | [모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | 문자 제한이 앱 이름에 더 이상 적용되지 않는다는 것을 반영하도록 문제 해결 섹션을 업데이트했습니다. 제한은 ID에만 적용됩니다. |
 |  | [피드](/help/c-recommendations/c-products/feeds.md#steps) | 지원되는 FTP 서버 설정을 단계에 추가했습니다. |
