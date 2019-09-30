@@ -8,7 +8,7 @@ title: 이전 릴리스에 대한 릴리스 노트
 topic: 권장 사항
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 ---
 
@@ -22,6 +22,13 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 노트(현재)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 노트 - 2019 {#releases-2019}
+
+### Target Standard/Premium 19.9.1(2019년 9월 10일)
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| ![프리미엄 배지](/help/assets/premium.png) 엔터프라이즈 권한 | Target 2019년 9월 릴리스에서 엔터프라이즈 권한은 고객에게 다음과 같은 액세스 제어를 제공합니다.<UL><li>통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다.</li><li>Adobe I/O 통합에 역할을 적용할 수 있습니다.승인자, 편집자 또는 관찰자를 참조하십시오.</li></ul>단계별 지침과 자세한 내용은 작업 영역에 [대한 Adobe I/O 통합 액세스 권한 부여 및 역할](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)할당을 참조하십시오. |
+
 
 ### Target Mobile VEC SDK iOS 2.1.0 및 Android 1.1.1(2019년 8월 7일)
 
@@ -43,7 +50,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 모바일 앱 시각적 경험 작성기 | 클릭 추적에 대해 설정한 요소를 표시하는 모바일 앱 VEC에 새로운 수정 패널이 표시됩니다. (TGT-31741)<br> 모바일 [앱에서 클릭 추적 설정을 참조하십시오](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| 모바일 앱 시각적 경험 작성기 | 클릭 추적에 대해 설정한 요소를 표시하는 모바일 앱 VEC에 새로운 수정 패널이 표시됩니다. (TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
 | ![Premium 배지](/help/assets/premium.png)<br>A/B 테스트 및 XT(경험 타깃팅) 활동의 권장 사항 | 권장 사항 오퍼(알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 결과 준비됨, 결과가 준비되지 않음 및 피드 장애 상태가 있습니다. (TGT-33649)<br>[오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status)를 참조하십시오. |
 | ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 사용해야 합니다.<br>at. [js 2.x에서 크로스 도메인 추적 지원을 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
 | Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스를 통해 Target은 서버측 쿠키를 활용하여 ITP 2.1 및 ITP 2.2를 완화하는 ECID 라이브러리 4.3과의 매끄러운 통합을 제공합니다.Target 고객은 Target의 JavaScript [라이브러리와 함께 ECID 라이브러리 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 배포하여 향후 ITP 릴리스를 완화하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>Apple [Intelligent Tracking Prevention(ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)참조 |
@@ -69,8 +76,8 @@ at.js의 이 릴리스는 유지 관리 릴리스이며 다음과 같은 개선 
 * 일부 고객의 웹 사이트에 Recommendations 오퍼가 표시되지 않던 문제를 수정했습니다. 고객은 전달 API 호출에서 오퍼 컨텐츠를 볼 수 있었지만 오퍼가 웹 사이트에 적용되지 않았습니다. (TNT-32680)
 * 여러 경험에 대한 클릭 추적이 예상대로 작동하지 않는 문제를 해결했습니다. (TNT-32644)
 * 첫 번째 지표 렌더링이 실패한 후 at.js가 두 번째 지표를 적용하지 못했던 문제를 수정했습니다. (TNT-32628)
-* 쿼리 매개 변수 또는 요청 페이로드에 요청 페이로드가 `mboxThirdPartyId` 없는 `targetPageParams` 함수를 사용할 때 발생하는 문제를 수정했습니다. (TNT-32613)
-* Chromium 기반 브라우저(Google Chrome 포함)에서 표시 및 클릭 알림 응답이 차단되는 문제를 수정했습니다. (TNT-32290)
+* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* Fixed an issue that caused display and click notification responses to be blocked in Chromium-based browsers (including Google Chrome). (TNT-32290)
 
 For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
