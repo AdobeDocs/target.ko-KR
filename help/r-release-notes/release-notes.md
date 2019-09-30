@@ -1,6 +1,6 @@
 ---
 description: 이러한 릴리스 노트는 Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
-keywords: 릴리스 정보;새 기능;업데이트;업데이트;릴리스;개선 사항;개선 사항;수정 사항;버그 수정
+keywords: 릴리스 정보;새 기능;릴리스;업데이트;업데이트;릴리스;개선;개선 사항;수정 사항;버그 수정
 seo-description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
 seo-title: Adobe Target 릴리스 노트(현재)
 solution: Target
@@ -8,7 +8,7 @@ title: Target 릴리스 노트(현재)
 topic: 권장 사항
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
 
 ---
 
@@ -16,6 +16,12 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 # Target 릴리스 노트(현재){#target-release-notes-current}
 
 이러한 릴리스 노트는 Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다.
+
+## Target Standard/Premium 19.9.2(2019년 9월 30일)
+
+이 유지 관리 릴리스에는 다음과 같은 향상된 기능이 포함되어 있습니다.
+
+* VEC(Visual Experience Composer)의 RTE(Rich Text Editor)에 대한 보안 업데이트를 비롯한 몇 가지 보안 수정 사항이 있습니다. (TGT-35383)
 
 ## Target Standard/Premium 19.9.1(2019년 9월 10일)
 
