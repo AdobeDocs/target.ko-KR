@@ -1,13 +1,13 @@
 ---
 description: 대상 필터(또는 대상)는 특정 특성이나 일련의 특성을 공유하는 방문자 그룹입니다.
-keywords: 타깃팅;대상 필터;대상
-seo-description: 대상 필터(또는 대상)는 특정 특성이나 일련의 특성을 공유하는 방문자 그룹입니다.
-seo-title: 보고용 대상 필터
+keywords: 타깃팅;대상 필터;대상;필터에서만 지원됩니다
+seo-description: Adobe Target의 대상 필터(또는 대상)는 특정 특성 또는 특성 집합을 공유하는 방문자 그룹입니다.
+seo-title: Audience filters for reporting in Adobe Target
 solution: Target
 title: 보고용 대상 필터
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -22,8 +22,8 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 활동에 대상 필터를 사용하려는 경우 다음 지침을 고려하십시오.
 
-* **방문자는 여러 대상에 있을 수 있습니다.** 설정된 대상 두 개가 있고(예: "새 방문자"와 "Google의 방문자"), 어떤 사람이 두 기준을 만족한다면 이 사람은 두 대상 모두에서 카운트되고 추적됩니다. 따라서 대상에 있는 방문자의 합계는 활동에 있는 방문자의 수와 일치하지 않습니다.
-* **캠페인을 시작하기 전에 대상을 설정합니다.** 대상 데이터는 소급하여 검색할 수 없습니다. 활동을 시작하기 전에 대상 필터를 구성하지 않고 일정 기간 활동을 실행한 후 필터 사용을 결정하는 경우 이미 경과한 시간의 데이터는 수집하지 않습니다.
+* **방문자는 여러 대상에 있을 수 있습니다.** 설정된 대상이 두 개(예: "새 방문자" 및 "Google의 방문자")이고 한 사람이 두 기준을 모두 충족하는 경우 이 방문자는 두 대상에서 모두 계산되고 추적됩니다. 따라서 대상에 있는 방문자의 합계는 활동에 있는 방문자의 수와 일치하지 않습니다.
+* **활동을 시작하기 전에 대상을 설정합니다.** 대상 데이터는 소급하여 검색할 수 없습니다. 활동을 시작하기 전에 대상 필터를 구성하지 않고 일정 기간 활동을 실행한 후 필터 사용을 결정하는 경우 이미 경과한 시간의 데이터는 수집하지 않습니다.
 * **2-4개 대상으로 시작합니다.** 트래픽 소스 등의 기본 정보에 주력합니다.
 * **필요한 경우 대상 이름을 변경합니다.** 활동이 활성 상태인 경우에도 수집 중인 결과에 보다 의미 있는 대상 이름이 되도록 데이터에 영향을 주지 않고 대상 이름을 변경할 수 있습니다.
 * **정확한 값을 입력합니다.** 대상 필터 값은 대소문자를 구분합니다. 예를 들어 도시를 필터링하는 대상을 사용하는 경우 "OR" 조건을 사용하여 "Vienna", "vienna", "wien", "Wien" 등의 가능한 철자 및 대문자화 변형을 포함해야 합니다.
@@ -36,6 +36,6 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 적절한 활동 또는 테스트 만들기 | [활동 및 테스트](/help/c-intro/target-key-concepts.md) |
 | 필요한 경우 대상 만들기 | [대상자 만들기](/help/c-target/c-audiences/create-audience.md) |
 | 필요한 경우 여러 대상자 결합 | [여러 대상 결합](/help/c-target/combining-multiple-audiences.md) |
-| 활동의 목표 및 설정 페이지에서 대상 적용 | A/B 테스트: [목표 및 설정](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>자동화된 개인화: [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>경험 타깃팅: [목표 및 설정](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>다변량 테스트: [목표 및 설정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>활동 설정: [활동 설정](/help/c-activities/activity-settings.md) |
-| 대상 필터에 대한 정보가 있는 보고서 보기 | 보고서 설정 |
+| 활동의 목표 및 설정 페이지에서 대상 적용 | A/B Test: [Goals and Settings](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization:  [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>Experience Targeting: [Goals and Settings](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>Multivariate Test:  [Goals and Settings](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Recommendations activity settings](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>Activity Settings: [Activity Settings](/help/c-activities/activity-settings.md) |
+| 대상 필터에 대한 정보가 있는 보고서 보기 | [보고서 설정](/help/c-reports/c-report-settings/report-settings.md) |
 
