@@ -1,14 +1,14 @@
 ---
 description: 이 Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 keywords: 알려진 문제;해결된 문제;릴리스 노트버그;문제;수정
-seo-description: 이 Adobe Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
+seo-description: Information about known issues for this release of Adobe Target. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 seo-title: Adobe Target의 알려진 문제 및 해결된 문제
 solution: Target
 title: 알려진 문제 및 해결된 문제
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ---
 
@@ -62,8 +62,9 @@ GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러
 
 다음은 권장 사항 활동에 대한 알려진 문제입니다.
 
-* 특정 프로필 속성이 기준 키로 사용될 때 권장 사항 "error.restapi.algorithmProfileAttributeInvalid" 오류가 발생합니다.
-* 역 프로모션이 권장 사항 활동에 사용될 경우 기준 포함 필터가 백업 ER에 적용되지 않습니다.
+* 피드나 API를 통해 업데이트를 받지 못한 후 60일이 지나면 개체가 올바르게 만료됩니다.그러나 만료된 개체는 만료 후 카탈로그 검색 색인에서 제거되지 않습니다. (IRI 파섹
+* 기준 및 디자인에 대한 "사용 정보" 오버레이는 A/B 및 경험 타깃팅 활동의 사용을 반영하지 않습니다(TGT-34331).
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
 
 ### MVT(다변량 테스트) 활동
 
@@ -124,7 +125,7 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 
 * 피드의 항목이 이전 실행과 동일한 경우 권장 사항 피드 색인이 "색인 큐 대기 중"을 표시할 수 있습니다. 배달을 위한 제품 섭취는 영향을 받지 않습니다. (RECS-6663)
 
-   이 문제는 Target 19.4.2 릴리스에서 해결되었습니다.
+   This issue was fixed in the Target 19.4.2 release.
 
 * 권장 사항 피드를 처리하는 데 예상보다 시간이 더 오래 걸립니다. (COR-2836)
 
@@ -138,7 +139,7 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 
 페이지에서 경합 조건을 사용하면 원래 페이지 및 리디렉션 페이지의 페이지 보기가 카운트될 수 있습니다. 이 경합 조건을 피할 수 있도록 at.js 구현에 대한 업데이트가 예정되어 있습니다.
 
-이 문제는 at.js 1.6.3에서 해결되었습니다.
+This issue was fixed in at.js 1.6.3.
 
 ### 제외 그룹
 
