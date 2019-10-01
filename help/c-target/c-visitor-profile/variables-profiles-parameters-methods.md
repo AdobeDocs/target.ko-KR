@@ -8,7 +8,7 @@ title: 프로필 및 변수 용어집
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -93,4 +93,4 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 고객 속성이 `crs.get('<Datasource Name>.<Attribute name>')`.
 
-이러한 속성이 프로필 스크립트에서 토큰으로 사용되거나 프로필 스크립트가 없어도 오퍼에서 직접 토큰으로 사용될 수도 있습니다. 토큰은 `$crs.datasourceName.attributeName` 형식이어야 합니다.
+이러한 속성이 프로필 스크립트에서 토큰으로 사용되거나 프로필 스크립트가 없어도 오퍼에서 직접 토큰으로 사용될 수도 있습니다. 토큰은 `${crs.datasourceName.attributeName}` 형식이어야 합니다. Note that spaces in the `datasourceName` should be stripped from any API call.
