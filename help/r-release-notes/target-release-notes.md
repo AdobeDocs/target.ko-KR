@@ -1,14 +1,14 @@
 ---
-description: 최신 또는 예정된 Adobe Target 릴리스의 기능, 개선 사항 및 수정 사항에 대한 정보를 제공하는 릴리스 노트입니다.
+description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming Adobe Target releases.
 keywords: 릴리스 정보;릴리스;업데이트;향후 릴리스;개선 사항;새 기능;수정 사항;release notes;updates;future release;enhancements;new features;fixes
-seo-description: 최신 또는 예정된 DNL Adobe Target 릴리스의 기능, 개선 사항 및 수정 사항에 대한 정보를 제공하는 릴리스 노트입니다.
-seo-title: Adobe Target 릴리스 노트(사전 릴리스)
+seo-description: Release notes that provide information about features, enhancements, and fixes for the latest or upcoming DNL Adobe Target releases.
+seo-title: Adobe Target 베타 버전 정보
 solution: Target
 title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 285a09503ba6abaf2bfe19fc2b214c32ebd2de3a
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 이러한 릴리스 노트는 최신 또는 예정된 [!DNL Adobe Target] 릴리스의 기능, 향상된 기능 및 수정 사항에 대한 정보를 제공합니다.
 
-**최근 업데이트: 2019년 9월 24일**
+**마지막 업데이트: 2019년 10월 2일**
 
 >[!NOTE]
 >
@@ -25,34 +25,20 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 >
 >괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## 공지
-
-**2019년 7월 31일**
-
-[!UICONTROL 기업 권한을] 통해 [!DNL Target] 고객은 단일 조직을 사용할 수 있지만 팀 또는 워크플로우의 작업 영역으로 나눌 수 있습니다. 엔터프라이즈 [!UICONTROL 권한] 기능을 사용하면 팀 전체의 최적화 프로그램을 효과적으로 확장할 수 있습니다. 이 기능은 UI에서 사용할 수 [!DNL Target] 있었지만 관리 API는 2019년 2월 릴리스까지 해당 지원이 [!DNL Target] 없었습니다. Adobe는 통합 계정을 사용하여 조직에서 만든 모든 작업 영역에 액세스할 수 있도록 관리 API를 업데이트했습니다. 이전 버전에서 관리 API는 기본 작업 영역으로 제한되었지만 2019년 2월 업데이트에서는 승인자 액세스 권한이 있는 모든 작업 영역에 대한 액세스 권한을 [!UICONTROL 부여했습니다] .
-
-2019년 [!DNL Target] 9월 릴리스를 통해 [!UICONTROL 엔터프라이즈] 권한은 고객에게 다음과 같은 액세스 제어를 제공합니다.
-
-* 통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다
-* Adobe I/O 통합에 역할을 적용할 수 있습니다.승인자 [!UICONTROL ,]편집자 [!UICONTROL 또는]관찰자 .
-
-**필요한 작업**:모든 작업 영역에서 리소스(활동, 대상, 제안 및 보고)에 대한 CRUD 작업을 위해 현재 API를 활용하는 고객은 원하는 역할을 가진 모든 작업 영역에 대한 기존 Adobe I/O 통합 액세스 권한을 부여해야 합니다. 9월 릴리스 이전에는 제품 역할 [!UICONTROL 드롭다운 목록에서 선택한 역할에] 관계없이 승인자 [!UICONTROL 액세스를 사용하여 모든 통합을] 실행했습니다. 이제 예정된 릴리스에서 원하는 역할을 선택할 수 있습니다.
-
-이 작업은 2019년 8월에 **수행해야 합니다**. 2019 [!DNL Target] 년 9월 릴리스 이후 액세스 제어가 활성화되고 현재 설정된 경우 기본 작업 공간에 대한 액세스 권한을 확인합니다. 미리 통합 역할을 설정하는 데 문제가 없습니다.
-
-단계별 지침과 자세한 내용은 작업 영역에 [대한 Adobe I/O 통합 액세스 권한 부여 및 역할](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)할당을 참조하십시오.
-
-## Target Standard/Premium 19.9.2(2019년 9월 30일)
-
-이 유지 관리 릴리스에는 다음과 같은 향상된 기능이 포함되어 있습니다.
-
-* Several security fixes, including a security update to the Rich Text Editor (RTE) in the Visual Experience Composer (VEC). (TGT-35383)
-
-## Target Standard/Premium 19.9.1(2019년 9월 10일)
+## 타겟 플랫폼(결정 날짜)
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| ![프리미엄 배지](/help/assets/premium.png) 엔터프라이즈 권한 | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다.</li><li>Adobe I/O 통합에 역할을 적용할 수 있습니다.승인자, 편집자 또는 관찰자를 참조하십시오.</li></ul>단계별 지침과 자세한 내용은 작업 영역에 [대한 Adobe I/O 통합 액세스 권한 부여 및 역할](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)할당을 참조하십시오. |
+| Node.js SDK 버전 1.0 | Target Node.js SDK를 사용하여 Target 서버측을 배포할 수 있습니다.<br>Node.js SDK를 사용하면 Adobe Experience Cloud Identity Service, Adobe Analytics 및 Adobe Audience Manager와 같은 다른 Experience Cloud 솔루션과 Target을 쉽게 통합할 수 있습니다.<br>Node.js SDK는 엔지니어링 팀이 비즈니스 로직에 집중할 수 있도록 Adobe Target과 통합할 때 모범 사례를 도입하고 복잡성을 제거합니다. 다음은 최신 버전에서 소개된 주요 기능입니다.<ul><li>캐싱을 통해 성능을 최적화할 수 있도록 프리페치 및 알림을 지원합니다.</li><li>웹 페이지와 서버측에서 모두 Target을 혼합하여 통합한 경우 성능 최적화를 지원합니다. at.js 2.2가 더 이상 경험을 검색할 추가 서버 호출을 하지 않도록 서버측을 통해 검색되는 경험이 채워지는 `serverState` 설정이라는 설정을 소개합니다. 이 방법은 페이지 로드 성능을 최적화합니다.</li><li> 새 배달 API에서 가능한 Node.js SDK를 통해 VEC에서 생성된 활동 검색 지원</li><li>Open sourced so your developers can contribute to the Node.js SDK.</li></ul> |
+| Delivery API | 완전히 새로운 전달 API 끝점(/v1/delivery)은 프로덕션에서 사용할 수 있습니다. Notable features are:<ul><li>하나 이상의 mbox에 대한 경험을 검색할 수 있는 하나의 끝점입니다.</li><li>Retrieve VEC-created activities via the API.</li><li>단일 페이지 애플리케이션(SPA) 및 모바일 애플리케이션에 사용되는 보기라는 완전히 새로운 객체를 지원합니다.</li></ul> |
+| at.js 버전 2.2<br><br>및 at.js 버전 1.8 | at.js의 이러한 버전은 다음과 같습니다.<ul><li>Improved performance when using both Experience Cloud ID Service (ECID) v4.4 and at.js 2.2 or at.js 1.8 on your web pages.</li><li>Previously, the ECID made two blocking calls before at.js could fetch experiences. This has been reduced to a single call, which significantly improves performance.</li></ul> 이러한 성능 향상을 활용하려면 ECID 라이브러리 v4.4와 함께 at.js 2.2 또는 at.js 1.8로 업그레이드하십시오. |
+
+
+## Target Standard/Premium 19.10.1(2019년 10월 22일)
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) User-Based Recommendations | Recommends items based off of each visitor's browsing, viewing, and purchasing history. These items are generally referred to as "Recommended for You."<br>This criteria lets you deliver personalized content and experiences to both new and returning visitors. The list of recommendations is weighted towards the visitor's most-recent activity and is updated in-session and becomes more personalized as the visitor browses your site. |
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
