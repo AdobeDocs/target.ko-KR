@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/ko-KR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -247,7 +247,6 @@ source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
       + [활동 QA 개요](c-activities/c-activity-qa/activity-qa.md)
       + [활동 QA 북마클릿](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [활동 QA 및 서버 측 전달 사용](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
-   + [활동 알림](c-activities/notifications.md)
 + 대상자 {#audiences}
    + [대상 개요](c-target/target.md)
    + [타깃팅이 작동하는 방법](c-target/target-how-target-works.md)
