@@ -8,7 +8,7 @@ title: 이전 릴리스에 대한 릴리스 노트
 topic: 권장 사항
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
+source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
 
 ---
 
@@ -37,10 +37,10 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
 * 모바일 장치에서 시각적 활동에 대한 미리 보기 지원을 추가했습니다. (TGT-27875)
-* 사용으로 인해 Apple Standard 위반이 발생하는 문제를 `UIImagePickerController` 수정했습니다.
-* Android SDK에서 GSON 종속성이 제거되었습니다. (TGT-31710)
-* 다른 중복 그레이더 종속성 제거(TGT-35479)
-* 작성 시 배달 오퍼가 재설정되지 않던 문제를 수정했습니다. (TGT-35270)
+* Fixed an issue that caused an Apple Standard violation due to  usage.`UIImagePickerController`
+* Removed GSON dependency from Android SDK. (TGT-31710)
+* Removed Other redundant Gradle dependencies (TGT-35479)
+* Fixed an issue that caused the delivery offer to not reset at the time of authoring. (TGT-35270)
 
 ### Target Standard/Premium 19.7.1(2019년 7월 24일) {#tgt-19-7-1}
 
@@ -50,10 +50,10 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 모바일 앱 시각적 경험 작성기 | 클릭 추적에 대해 설정한 요소를 표시하는 모바일 앱 VEC에 새로운 수정 패널이 표시됩니다. (TGT-31741)<br> See [Set up click tracking in the Mobile App](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| 모바일 앱 시각적 경험 작성기 | 클릭 추적에 대해 설정한 요소를 표시하는 모바일 앱 VEC에 새로운 수정 패널이 표시됩니다. (TGT-31741)<br> 모바일 [앱에서 클릭 추적 설정을 참조하십시오](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
 | ![Premium 배지](/help/assets/premium.png)<br>A/B 테스트 및 XT(경험 타깃팅) 활동의 권장 사항 | 권장 사항 오퍼(알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 결과 준비됨, 결과가 준비되지 않음 및 피드 장애 상태가 있습니다. (TGT-33649)<br>[오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status)를 참조하십시오. |
-| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 사용해야 합니다.<br>at. [js 2.x에서 크로스 도메인 추적 지원을 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스를 통해 Target은 서버측 쿠키를 활용하여 ITP 2.1 및 ITP 2.2를 완화하는 ECID 라이브러리 4.3과의 매끄러운 통합을 제공합니다.Target 고객은 Target의 JavaScript [라이브러리와 함께 ECID 라이브러리 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 배포하여 향후 ITP 릴리스를 완화하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>Apple [Intelligent Tracking Prevention(ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)참조 |
+| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID library 4.3.0+ must be used.](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)<br>See Cross-domain tracking support in at.js 2.x.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+| Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스를 통해 Target은 서버측 쿠키를 활용하여 ITP 2.1 및 ITP 2.2를 완화하는 ECID 라이브러리 4.3과의 매끄러운 통합을 제공합니다.Target 고객은 Target의 JavaScript [라이브러리와 함께 ECID 라이브러리 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 배포하여 향후 ITP 릴리스를 완화하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>See Apple Intelligent Tracking Prevention (ITP) 2.x.[](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -63,20 +63,20 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 ### at.js 버전 2.1.1(2019년 7월 24일)
 
-at.js의 이 릴리스는 유지 관리 릴리스이며 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+This release of at.js is a maintenance release and includes the following enhancements and fixes:
 
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
 * VEC(Visual Experience Composer)의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 비콘이 발생하는 문제를 해결했습니다. (TNT-32812)
 * 오퍼를 두 번 이상 렌더링하지 `triggerView()` 않는 문제를 해결했습니다. (TNT-32780)
-* 요청에 MCID(Marketing Cloud ID) 정보가 포함되어 `triggerView()` 있는지 확인하는 문제를 수정했습니다. (TNT-32776)
-* 저장된 보기가 없는 경우에도 알림이 `triggerView()` 실행되지 않는 문제를 해결했습니다. (TNT-32614)
+* Fixed an issue with  to ensure that the request contains Marketing Cloud ID (MCID) information. `triggerView()` (TNT-32776)
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
 * URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함되어 있을 때 문제를 야기하는 decodeURIcomponent의 사용으로 인해 오류가 발생하는 문제를 수정했습니다. (TNT-32710)
-* 이제 API를 통해 전송된 배달 요청 컨텍스트에서 비콘 플래그가 "true"로 `Navigator.sendBeacon()` 설정됩니다. (TNT-32683)
-* 일부 고객의 웹 사이트에 Recommendations 오퍼가 표시되지 않던 문제를 수정했습니다. 고객은 전달 API 호출에서 오퍼 컨텐츠를 볼 수 있었지만 오퍼가 웹 사이트에 적용되지 않았습니다. (TNT-32680)
-* 여러 경험에 대한 클릭 추적이 예상대로 작동하지 않는 문제를 해결했습니다. (TNT-32644)
-* 첫 번째 지표 렌더링이 실패한 후 at.js가 두 번째 지표를 적용하지 못했던 문제를 수정했습니다. (TNT-32628)
-* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the  API. `Navigator.sendBeacon()` (TNT-32683)
+* Fixed an issue that prevented Recommendations offers from displaying on websites for a few customers. Customers could see the offer content in the delivery API call but the offer was not applied on the website. (TNT-32680)
+* Fixed an issue that caused click-tracking across multiple experiences to not work as expected. (TNT-32644)
+* Fixed an issue that prevented at.js from applying the second metric after the rendering of the first metric fails. (TNT-32628)
+* 쿼리 매개 변수 또는 요청 페이로드에 요청 페이로드가 `mboxThirdPartyId` 없는 `targetPageParams` 함수를 사용할 때 발생하는 문제를 수정했습니다. (TNT-32613)
 * Fixed an issue that caused display and click notification responses to be blocked in Chromium-based browsers (including Google Chrome). (TNT-32290)
 
 For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
@@ -2190,10 +2190,6 @@ at.js를 구현할 때는 다음에 유의하십시오.
   </tr> 
  </thead>
  <tbody> 
-  <tr> 
-   <td colname="col1"> Experience Cloud 알림 </td> 
-   <td colname="col2"> <p>Target의 알림은 모든 Adobe Experience Cloud 솔루션에서 볼 수 있습니다. 활동이 활성화되거나 비활성화되면 알림이 자동으로 전송됩니다. 이러한 알림은 Target Standard/Premium에 액세스할 수 있는 모든 사용자가 사용할 수 있습니다. </p> <p>Target Standard/Premium에서도 알림을 볼 수 있습니다. </p> <p><a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local">알림</a>을 참조하십시오. </p> </td> 
-  </tr> 
   <tr> 
    <td colname="col1"> 사용자 인터페이스 개선 </td> 
    <td colname="col2"> <p>이번 릴리스에서는 사용자 인터페이스가 대폭 변경되었습니다. 주요 변경 사항은 다음과 같습니다. </p> <p> 
