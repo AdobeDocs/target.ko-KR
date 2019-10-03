@@ -1,14 +1,14 @@
 ---
 description: 이 Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 keywords: 알려진 문제;해결된 문제;릴리스 노트버그;문제;수정
-seo-description: Information about known issues for this release of Adobe Target. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
+seo-description: 이 Adobe Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 seo-title: Adobe Target의 알려진 문제 및 해결된 문제
 solution: Target
 title: 알려진 문제 및 해결된 문제
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
+source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ### 활동 QA 미리 보기 링크 {#preview}
 
-[계정에 저장된 활동이 너무 많은 경우 저장된 활동에 대한 활동 QA 미리 보기](/help/c-activities/c-activity-qa/activity-qa.md) 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도해도 됩니다. 이 문제가 계속 발생하지 않도록 하기 위해 더 이상 활발하게 사용되지 않는 저장된 활동을 보관합니다. (TNT-32697)
+[계정에 저장된 활동이 너무 많은 경우 저장된 활동에 대한 활동 QA 미리 보기](/help/c-activities/c-activity-qa/activity-qa.md) 링크가 로드되지 않을 수 있습니다. Re-trying the preview links should work. To prevent this from continuing to happen, archive saved activities that are no longer actively used. (TNT-32697)
 
 ### 리디렉션 오퍼 {#redirect}
 
@@ -62,8 +62,8 @@ GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러
 
 다음은 권장 사항 활동에 대한 알려진 문제입니다.
 
-* 피드나 API를 통해 업데이트를 받지 못한 후 60일이 지나면 개체가 올바르게 만료됩니다.그러나 만료된 개체는 만료 후 카탈로그 검색 색인에서 제거되지 않습니다. (IRI 파섹
-* 기준 및 디자인에 대한 "사용 정보" 오버레이는 A/B 및 경험 타깃팅 활동의 사용을 반영하지 않습니다(TGT-34331).
+* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
+* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
 * Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
 
 ### MVT(다변량 테스트) 활동
@@ -73,6 +73,10 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 ### at.js
 
 다음은 at.js의 알려진 문제입니다.
+
+* at.js 2를 사용하여 수정하지 않고 경험을 만드는 경우&#x200B;*x* (예: 기본 경험), 경험은 보고서, Analytics for Target(A4T), Analytics 또는 Google Analytics에서 카운트되지 않을 수 있습니다. 또한 [메타 플러그인이](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 제대로 작동하지 않을 수 있습니다.
+
+   해결 방법으로 경험 컨텐츠에 공백을 사용하십시오. (TNT-33366)
 
 * 페이지가 VEC(시각적 경험 작성기)에 로드되면 Target은 글로벌 mbox 설정이 활성화되었는지와, 사용자가 VEC에서 권장 사항을 적용하려고 하는 위치에 entityID 또는 categoryID가 있는지를 확인해야 합니다. 이 정보에 따라 기준 목록이 필터링됩니다. 기본 목록에는 필터링된 알고리즘이 있지만 [호환 확인란](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)을 사용하여 전체 알고리즘 목록을 볼 수 있습니다.
 
@@ -125,7 +129,7 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 
 * 피드의 항목이 이전 실행과 동일한 경우 권장 사항 피드 색인이 "색인 큐 대기 중"을 표시할 수 있습니다. 배달을 위한 제품 섭취는 영향을 받지 않습니다. (RECS-6663)
 
-   This issue was fixed in the Target 19.4.2 release.
+   이 문제는 Target 19.4.2 릴리스에서 해결되었습니다.
 
 * 권장 사항 피드를 처리하는 데 예상보다 시간이 더 오래 걸립니다. (COR-2836)
 
@@ -139,7 +143,7 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 
 페이지에서 경합 조건을 사용하면 원래 페이지 및 리디렉션 페이지의 페이지 보기가 카운트될 수 있습니다. 이 경합 조건을 피할 수 있도록 at.js 구현에 대한 업데이트가 예정되어 있습니다.
 
-This issue was fixed in at.js 1.6.3.
+이 문제는 at.js 1.6.3에서 해결되었습니다.
 
 ### 제외 그룹
 
