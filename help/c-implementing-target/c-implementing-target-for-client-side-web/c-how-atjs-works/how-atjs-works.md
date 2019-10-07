@@ -1,21 +1,21 @@
 ---
-description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송하거나 수집한 호출 및 정보의 플로우를 표시하는 Target 시스템 다이어그램입니다.
-keywords: 시스템 다이어그램;플리커;Target Standard;at.js;구현javascript library;js
+description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송 또는 수집된 호출 및 정보의 흐름을 보여주는 타겟 시스템 다이어그램.
+keywords: 시스템 다이어그램;깜박임;at.js;구현;javascript 라이브러리;js
 seo-description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송하거나 수집한 호출 및 정보의 플로우를 표시하는 Adobe Target 시스템 다이어그램입니다.
-seo-title: Adobe Target at.js 작동 방식
+seo-title: Adobe Target at.js JavaScript 라이브러리의 작동 방식
 solution: Target
 title: at.js 작동 방식
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # at.js 작동 방식{#how-at-js-works}
 
-[!DNL Adobe Target] 클라이언트측을 구현하려면 at.js 라이브러리를 사용해야 합니다.
+To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
 
 클라이언트측 [!DNL Adobe Target]의 구현에서 [!DNL Target]은 활동과 연관된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, VEC([시각적 경험 작성기](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)) 또는 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)인 비-시각적 인터페이스를 사용하여 테스트 및 개인화 경험을 만들 수 있습니다.
 
