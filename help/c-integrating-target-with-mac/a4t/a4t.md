@@ -4,12 +4,12 @@ keywords: a4t;analytics;analytics for target;analytics 보고 소스;target용 �
 seo-description: Adobe "Analytics for Target"(A4T)은 Analytics 변환 지표와 대상 세그먼트를 기반으로 활동을 생성할 수 있도록 해주는 교차 솔루션 통합입니다. 이 통합에서는 Analytics 보고서를 사용하여 결과를 검사할 수 있습니다. 활동의 보고 소스로 Analytics를 사용하는 경우 해당 활동의 모든 보고 및 세그멘테이션은 Analytics 데이터 수집을 기반으로 합니다.
 seo-title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 solution: Target
-subtopic: 다변량 테스트
+subtopic: 통합
 title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
