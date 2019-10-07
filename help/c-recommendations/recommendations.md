@@ -1,8 +1,8 @@
 ---
 description: 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
-keywords: 권장 사항;권장 사항 기준;권장 사항 알고리즘;권장 사항 활동;기준;권장 사항 타깃팅
-seo-description: 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
-seo-title: 권장 사항
+keywords: 권장 사항;권장 사항 기준;권장 사항 알고리즘;권장 사항 활동;기준;권장 사항 타깃팅직교
+seo-description: Adobe Target의 Recommendations 활동은 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 관심을 끌 수 있는 제품 또는 컨텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
+seo-title: Adobe Target Recommendations
 solution: Target
 title: 권장 사항
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
