@@ -1,6 +1,6 @@
 ---
 description: 페이지 또는 앱 로드 중 Target at.js JavaScript 라이브러리가 어떻게 플리커를 방지하는지에 대한 정보입니다.
-keywords: 플리커;Target Standard;at.js;구현
+keywords: flicker;at.js;implementation
 seo-description: 페이지 또는 앱 로드 중 Adobe Target at.js JavaScript 라이브러리가 어떻게 플리커를 방지하는지에 대한 정보입니다.
 seo-title: Adobe Target at.js에서 플리커를 관리하는 방법
 solution: Target
@@ -8,7 +8,7 @@ title: at.js에서 플리커를 관리하는 방법
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -103,11 +103,11 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 body {opacity: 0 !important}
 ```
 
-## at.js 2.x에서 triggerView()에 대한 플리커 관리
+## triggerView()용 at.js 2.x의 깜박임 관리
 
 `triggerView()`를 사용하여 SPA에서 타깃팅된 컨텐츠를 표시할 때 플리커(깜박임) 관리가 즉시 제공됩니다. 이것은 사전 숨김 로직을 수동으로 추가할 필요가 없음을 의미합니다. 대신 at.js 2.x에서는 타깃팅된 콘텐츠를 적용하기 전에 보기를 표시해야 하는 위치를 사전에 숨깁니다.
 
-## getOffer() 및 applyOffer()를 사용하여 플리커 관리
+## getOffer() 및 applyOffer()를 사용하여 깜박임 관리
 
 `getOffer()`와 `applyOffer()`는 모두 낮은 수준의 API이므로 기본으로 제공되는 플리커 제어 기능이 없습니다. `applyOffer()`에 선택기 또는 HTML 요소를 선택 사항으로 전달할 수 있습니다. 이 경우 `applyOffer()`는 활동 컨텐츠를 이 특정 요소에 추가하게 됩니다. 하지만, `getOffer()`와 `applyOffer()`를 호출하기 전에 해당 요소가 제대로 미리 숨겨져 있는지 확인해야 합니다.
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## At.js 1.x에서 mboxCreate()와 함께 지역 mbox 사용(at.js 2.x에서는 지원되지 않음)
+## at.js 1.x에서 mboxCreate()가 있는 지역 mbox 사용(at.js 2.x에서는 지원되지 않음)
 
 지역 mbox 구현을 사용하는 경우 다음 샘플 코드와 유사하게 공급된 페이지에 `mboxCreate()`을 사용할 수 있습니다.
 
