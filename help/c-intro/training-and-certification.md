@@ -1,22 +1,22 @@
 ---
-description: Adobe 교육 서비스에서는 수업과 인증을 제공합니다.
-keywords: 개요 및 참조
-seo-description: Adobe 교육 서비스에서는 수업과 인증을 제공합니다.
-seo-title: 교육 및 인증
+description: Adobe 트레이닝 서비스는 Adobe Target을 비롯한 Adobe 제품 및 솔루션에 대한 수업 및 인증을 제공합니다.
+keywords: 트레이닝;인증;대상;온라인 강좌;강좌;클래스;교육;training;certification;target;online courses;class;classes
+seo-description: Adobe 트레이닝 서비스는 Adobe Target을 비롯한 Adobe 제품 및 솔루션에 대한 수업 및 인증을 제공합니다.
+seo-title: Adobe Target을 비롯한 Adobe 제품 및 솔루션에 대한 트레이닝 및 인증
 solution: Target
 subtopic: 시작하기
-title: 교육 및 인증
+title: Adobe Target 트레이닝 및 인증
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # 교육 및 인증{#training-and-certification}
 
-Adobe 교육 서비스에서는 수업과 인증을 제공합니다.
+Adobe 트레이닝 서비스는 Adobe Target을 비롯한 Adobe 제품 및 솔루션에 대한 수업 및 인증을 제공합니다.
 
 강사 주도식 및 온라인 과정에 대해 사용 가능한 목록을 보려면 [Adobe 고객 교육 웹 사이트](https://training.adobe.com/training/courses.html#solution=adobeTarget)를 방문해 보십시오.
 
