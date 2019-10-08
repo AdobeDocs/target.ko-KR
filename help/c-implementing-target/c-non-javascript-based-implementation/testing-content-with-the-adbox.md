@@ -1,22 +1,22 @@
 ---
 description: AdBox를 사용하여 오프사이트 구현에서 이미지를 전달하십시오.
 keywords: 구현;mbox.js 비JavaScript;mbox;adbox
-seo-description: AdBox를 사용하여 오프사이트 구현에서 이미지를 전달하십시오.
-seo-title: 이미지용 Adbox 만들기
+seo-description: AdBox를 사용하여 Adobe Target을 사용하여 오프사이트 구현으로 이미지를 제공합니다.
+seo-title: Adobe Target을 사용하여 이미지에 대한 Adbox 만들기
 solution: Target
 subtopic: 시작하기
-title: 이미지용 Adbox 만들기
+title: 이미지용 Adbox 만들기 adobe Target 사용
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
 
 # 이미지용 Adbox 만들기{#create-an-adbox-for-an-image}
 
-AdBox를 사용하여 오프사이트 구현에서 이미지를 전달하십시오.
+AdBox를 사용하여 Adobe Target을 사용하여 오프사이트 구현에서 이미지를 제공합니다.
 
 AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다. AdBox는 "광고" mbox(또는 AdBox)를 자신의 Adobe 계정으로 로드하는 특별한 AdBox URL로 만들어집니다. 이 AdBox를 활동에서 mbox 대신 사용합니다. 이메일 또는 기타 비 자바스크립트 구현에서 직접 이미지 참조 대신 AdBox URL을 사용합니다.
 
@@ -26,7 +26,7 @@ AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다.
 
    ```
    https://myClientCode.tt.omtrdc.net/m2/myClientCode/ubox/
-   image?mbox=emailHeroImage123_320x200
+   image?mbox=emailHeroImage123_320x200&
    mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif
    ```
 
@@ -55,4 +55,6 @@ AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다.
    목표를 충족하는 올바른 설정을 알려면 [비JavaScript 기반 구현](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)을 참조하십시오.
 1. 활동에 대한 QA를 완료합니다.
 
-   우수 사례로, 더미 페이지를 만들고 모든 경험, 기본 컨텐츠 및 보고서가 모든 브라우저 유형에서 모든 환경에 대해 예상대로 작동하는지 확인합니다. 1. 활동을 실행합니다.
+   우수 사례로, 더미 페이지를 만들고 모든 경험, 기본 컨텐츠 및 보고서가 모든 브라우저 유형에서 모든 환경에 대해 예상대로 작동하는지 확인합니다.
+
+1. 활동을 실행합니다.
