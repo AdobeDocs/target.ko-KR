@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: Apple ITP 2.x
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -26,7 +26,7 @@ ITP(Intelligent Tracking Prevention)는 Apple의 이니셔티브로 Safari 사�
 
 ## Adobe Target 고객으로서 저에게 미치는 영향은 무엇입니까?
 
-[!DNL Target] 방문자에게 실시간 개인화를 제공할 [!DNL Target] 수 있도록 페이지에 배포할 수 있는 JavaScript 라이브러리를 제공합니다. 세 개의 Target JavaScript 라이브러리([at.js 1)가 있습니다.*x*&#x200B;및 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)및 [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md))를 사용하여 API를 통해 방문자의 브라우저에 클라이언트측 [!DNL Target] 쿠키를 `document.cookie` 배치합니다. 결과적으로, [!DNL Target] 쿠키는 Apple의 ITP 2.1 및 2.2에 의해 영향을 받고 7일(ITP 2.1 포함) 후 및 1일(ITP 2.2 포함) 후에 만료됩니다.
+[!DNL Target] 방문자에게 실시간 개인화를 제공할 [!DNL Target] 수 있도록 페이지에 배포할 수 있는 JavaScript 라이브러리를 제공합니다. 세 개의 Target JavaScript 라이브러리([at.js 1)가 있습니다.*x*&#x200B;와 at.js 2 모두에 있는 Hide Body(본문 숨기기) 및 Show Body(본문 표시) 호출을 보여줍니다.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)및 [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md))를 사용하여 API를 통해 방문자의 브라우저에 클라이언트측 [!DNL Target] 쿠키를 `document.cookie` 배치합니다. 결과적으로, [!DNL Target] 쿠키는 Apple의 ITP 2.1 및 2.2에 의해 영향을 받고 7일(ITP 2.1 포함) 후 및 1일(ITP 2.2 포함) 후에 만료됩니다.
 
 Apple ITP 2.1 및 2.1은 다음 [!DNL Target] 영역에 영향을 줍니다.
 
