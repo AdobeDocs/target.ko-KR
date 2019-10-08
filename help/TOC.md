@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/ko-KR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
 
 ---
 
@@ -15,6 +15,7 @@ source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 + Target 릴리스 노트 {#release-notes}
    + [Target 릴리스 노트(현재)](r-release-notes/release-notes.md)
    + [Target 릴리스 노트(사전 릴리스)](r-release-notes/target-release-notes.md)
+   + [Target Insider 뉴스레터](/help/r-release-notes/target-insider-newsletter.md)
    + [알려진 문제 및 해결된 문제](r-release-notes/known-issues-resolved-issues.md)
    + [시스템 상태 업데이트 및 사전 알림](r-release-notes/system-status-updates.md)
    + [설명서 변경 내용](r-release-notes/doc-change.md)
