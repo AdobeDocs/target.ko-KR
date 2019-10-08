@@ -1,14 +1,14 @@
 ---
 description: 이메일에서 이미지를 동적으로 테스트하고, 누군가 이메일을 열면 해당 이미지를 즉시 변경합니다.
-keywords: 이메일;adbox
-seo-description: 이메일에서 이미지를 동적으로 테스트하고, 누군가 이메일을 열면 해당 이미지를 즉시 변경합니다.
-seo-title: 이메일 이미지 Adbox 테스트
+keywords: email;adbox;email image adbox
+seo-description: Adobe Target을 사용하여 이메일에 포함된 이미지를 동적으로 테스트하고 이메일을 열면 해당 이미지를 즉시 변경할 수 있습니다.
+seo-title: Adobe Target을 사용하여 이메일 이미지 Adbox 테스트
 solution: Target
 title: 이메일 이미지 Adbox 테스트
 topic: 권장 사항
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -28,12 +28,12 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 **이메일 이미지 adbox에 대한 샘플 코드:**
 
 ```
-<img src=“https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
+<img src="https://{clientcode}.tt.omtrdc.net/m2/​{clientcode}/ubox/​image?
 mbox={email_header}&
 mboxDefault=​{http%3A%2F%2Fwww.domain.com%2Fheader.jpg}&
 mboxXDomain=disabled&
 mboxSession={123456}&
-mboxPC={123456}” border=“0"/>
+mboxPC={123456}” border=:"0"/>
 ```
 
 여기서 아래 값은 적절히 수정해야 합니다.
