@@ -7,14 +7,14 @@ solution: Target
 title: 릴리스 노트 - Target Node.js SDK
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # 릴리스 노트 - Target Node.js SDK
 
-Adobe Target의 Node.js SDK와 관련된 릴리스 노트입니다.
+Adobe Target의 [Node.js SDK와 관련된 릴리스 노트입니다](https://github.com/adobe/target-nodejs-sdk).
 
 ## 버전 1.0.0(2019년 10월 9일)
 
