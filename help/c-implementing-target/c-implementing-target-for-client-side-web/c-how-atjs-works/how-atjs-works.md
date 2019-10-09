@@ -1,6 +1,6 @@
 ---
 description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송 또는 수집된 호출 및 정보의 흐름을 보여주는 타겟 시스템 다이어그램.
-keywords: 시스템 다이어그램;깜박임;at.js;구현;javascript 라이브러리;js
+keywords: 시스템 다이어그램;깜박임;at.js;구현;javascript 라이브러리;js;atjs
 seo-description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송하거나 수집한 호출 및 정보의 플로우를 표시하는 Adobe Target 시스템 다이어그램입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리의 작동 방식
 solution: Target
@@ -8,7 +8,7 @@ title: at.js 작동 방식
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,7 +27,7 @@ To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript 
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. 또한 Experience Cloud 핵심 서비스로서 다이내믹 태그 관리(활성화), 대상 및 방문자 ID 서비스가 구현되었습니다.
 
-## At.js 1.*x* 및 at.js 2.x 워크플로우 다이어그램의 차이점은 무엇입니까?
+## at.js 1의 차이는 무엇입니까?*x* 및 at.js 2.x 워크플로우 다이어그램의 차이점은 무엇입니까?
 
 [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)에서 1.*x*&#x200B;와 다른 2.O에 도입된 차이점을 자세히 알 수 있습니다.
 
