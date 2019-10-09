@@ -1,6 +1,6 @@
 ---
 description: 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 Adobe Target 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
-keywords: 프로필 스크립트;프로필 스크립트 속성;프로필 스크립트 우수 사례;디버그;디버깅
+keywords: 프로필 스크립트;프로필 스크립트 속성;프로필 스크립트 우수 사례;디버그;디버깅;스크립트;프로필 스크립트;속성;특성;매개 변수
 seo-description: 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 Adobe Target 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
 seo-title: Adobe Target의 프로필 속성
 solution: Target
@@ -8,7 +8,7 @@ title: 프로필 속성
 topic: 고급,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -27,8 +27,8 @@ source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 | 매개 변수 유형 | 설명 |
 |--- |--- |
-| Mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [글로벌 mbox에 매개 변수 전달](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)을 참조하십시오.<br>****&#x200B;참고: Target의 mbox 호출당 고유한 프로필 속성 제한은 50개입니다. Target에 50개가 넘는 프로필 속성을 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하여 전달할 수 있습니다. 자세한 내용은 Adobe Target API 설명서의 [프로필 업데이트를 참조하십시오](http://developers.adobetarget.com/api/#updating-profiles). |
-| 스크립트 | JavaScript 코드 조각으로 바로 정의됩니다. 이러한 스크립트는 소비자가 지출한 총 금액과 같은 누계를 저장할 수 있으며 각 mbox 요청 시 실행됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 아래의 "프로필 스크립트 속성"을 참조하십시오. |
+| mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 자세한 내용은 [글로벌 mbox에 매개 변수 전달](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)을 참조하십시오.<br>****&#x200B;참고: Target의 mbox 호출당 고유한 프로필 속성 제한은 50개입니다. Target에 50개가 넘는 프로필 속성을 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하여 전달할 수 있습니다. 자세한 내용은 Adobe Target API 설명서의 [프로필 업데이트를 참조하십시오](http://developers.adobetarget.com/api/#updating-profiles). |
+| 스크립트 | JavaScript 코드 조각으로 바로 정의됩니다. 이러한 스크립트는 소비자가 지출한 총 금액과 같은 누계를 저장할 수 있으며 각 mbox 요청 시 실행됩니다. 자세한 내용은 아래의 "프로필 스크립트 속성"을 참조하십시오. |
 
 ## 프로필 스크립트 속성 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
