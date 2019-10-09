@@ -1,7 +1,7 @@
 ---
 description: '응답 토큰을 사용하면 디버깅이나 타사 시스템(예: Clicktale)과의 통합에 사용할 Target 관련 정보(캠페인 세부 사항, 사용자 프로필 정보, 지리 정보 등)를 자동으로 출력할 수 있습니다.'
-keywords: 응답 토큰;토큰;플러그인;플러그 인;at.js
-seo-description: '응답 토큰을 사용하면 디버깅이나 타사 시스템(예: Clicktale)과의 통합에 사용할 Target 관련 정보(캠페인 세부 사항, 사용자 프로필 정보, 지리 정보 등)를 자동으로 출력할 수 있습니다.'
+keywords: 응답 토큰;토큰;플러그인;플러그 인at.js;response
+seo-description: '응답 토큰을 사용하면 디버깅 또는 타사 시스템(예: Clicktale)과의 통합에 사용할 타겟 특정 정보(활동 세부 사항, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
 seo-title: Adobe Target의 응답 토큰
 solution: Target
 subtopic: 시작하기
@@ -9,7 +9,7 @@ title: 응답 토큰
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -24,7 +24,7 @@ Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송�
 
 >[!NOTE]
 >
->응답 토큰은 [!DNL at.js] 1.1 이상에서 사용할 수 있습니다. mbox.js에서는 응답 토큰이 지원되지 않습니다.
+>응답 토큰은 at.js 1.1 이상에서 사용할 수 있습니다. mbox.js에서는 응답 토큰이 지원되지 않습니다.
 
 | 사용 중인 Target 라이브러리 | 제안 작업 |
 |--- |--- |
