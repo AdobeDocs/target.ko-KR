@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -21,6 +21,10 @@ source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 10월 9일 | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 주제가 업데이트됨. |
+|  | [릴리스 정보 - 대상 서버측 API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 새 주제입니다.  |
+|  | [릴리스 노트 - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 새 주제입니다.  |
+|  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | V1/Delivery API 및 Node.js SDK 릴리스에 대한 정보가 추가되었습니다. |
 | 2019년 10월 8일 | [Target Insider 뉴스레터](/help/r-release-notes/target-insider-newsletter.md) | 뉴스레터 첫 번째 묶음에 대한 링크가 포함된 새로운 주제와 더 많은 정보가 제공됩니다. |
 | 2019년 10월 3일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음을 추가했습니다. <ul><li>at.js 2를 사용하여 수정 없이 경험을 만들 때 알려진 문제 및 해결책&#x200B;*x* 라이브러리.</li><li>API를 통해 생성된 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다.</li><li>API 파섹</li></ul> |
 |  | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | "mboxDebug" 섹션에 메모를 추가했습니다. |
