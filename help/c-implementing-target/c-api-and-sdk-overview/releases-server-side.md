@@ -7,14 +7,14 @@ solution: Target
 title: 릴리스 정보 - 대상 서버측 API
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # 릴리스 정보 - 대상 서버측 API
 
-서버측 API와 관련된 [!DNL Adobe Target] 릴리스 노트입니다.
+Adobe Target 서버측 [API와 관련된 릴리스 노트입니다](https://developers.adobetarget.com/api/delivery-api/).
 
 ## V1/배달(2019년 10월 9일)
 
