@@ -8,7 +8,7 @@ title: 활동 문제 해결
 topic: 고급,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -22,6 +22,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 >다음 문제 해결 정보 외에 추가적인 문제 해결 주제, FAQ 및 [!DNL Adobe Target]에 있는 활동 및 기능의 문제 해결에 대한 기타 유용한 정보가 필요하면 연관 링크를 제공하는 [Target 문제 해결](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)을 참조하십시오.
 
 다음 섹션은 추천 해결 방법에서 발생할 수 있는 문제를 포함합니다.
+
+## Target UI를 사용하여 활동을 만들었지만 API를 통해 업데이트할 수 없습니다.
+
+타겟 UI를 사용하여 만든 활동은 타겟 UI를 *통해서만* 업데이트할 수 있습니다. API를 통해 생성된 활동은 API를 *통해서만* 업데이트할 수 있습니다. 활동을 만드는 데 사용한 동일한 방법(UI 또는 API)을 사용하여 활동을 업데이트해 보십시오.
 
 ## 기본 컨텐츠가 표시됩니다.
 
