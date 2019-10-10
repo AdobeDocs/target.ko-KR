@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js 버전 세부 사항
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
+source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
 
 ---
 
@@ -21,11 +21,29 @@ source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 >
 >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 
 
-## at.js 버전 2.2 및 1.8(2019년 10월 10일)
+## at.js 버전 2.2(2019년 10월 10일)
 
-| 기능/향상 | 설명 |
-| --- | --- |
-| at.js 버전 2.2<br><br>및 at.js 버전 1.8 | at.js의 이러한 버전은 다음과 같습니다.<ul><li>웹 페이지에서 Experience Cloud ID 서비스(ECID) v4.4 및 at.js 2.2 또는 at.js 1.8을 모두 사용할 때의 성능이 개선되었습니다.</li><li>이전에는, at.js가 경험을 가져오기 전에 ECID가 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 향상되었습니다.</li></ul> 이러한 성능 향상을 활용하려면 ECID 라이브러리 v4.4.<br>at.js 2.2와 함께 at.js 2.2 또는 at.js 1.8로 업그레이드하십시오.<ul><li>**serverState**:Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있는 at.js v2.2+에서 사용할 수 있는 설정입니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 통해 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다.<br>자세한 내용은 targetGlobalSettings의 "serverState"를 [참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
+at.js의 이 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
+
+* 웹 페이지에서 Experience Cloud ID 서비스(ECID) v4.4 및 at.js 2.2를 모두 사용할 때의 성능이 개선되었습니다.
+* 이전에는, at.js가 경험을 가져오기 전에 ECID가 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 향상되었습니다.
+
+   >[!NOTE]
+   >
+   >ECID Launch Extension을 v4.4로 업그레이드하여 향상된 성능을 활용할 수 있습니다.
+
+* at.js 버전 2.2는 `serverState`라는 새 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 통해 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다. For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+
+## at.js 버전 1.8(2019년 10월 10일)
+
+at.js의 이 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
+
+* 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4 및 at.js 1.8을 모두 사용할 때의 성능이 개선되었습니다.
+* 이전에는, at.js가 경험을 가져오기 전에 ECID가 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 향상되었습니다.
+
+>[!NOTE]
+>
+>ECID Launch Extension을 v4.4로 업그레이드하여 향상된 성능을 활용할 수 있습니다.
 
 ## at.js 버전 2.1.1(2019년 7월 24일)
 
