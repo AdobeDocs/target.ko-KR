@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 targetGlobalSettings() 함수 정보입니다. '
-keywords: targetGlobalSettings;targetGlobalSettings;globalSettings;글로벌 설정;글로벌 설정;at.js;functions;clientCode;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle defaultContentVisibleStyle;bodyHiddenStyle;bodyHiddenEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;optout;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetGlobalSettings;globalSettings;globalSettings;globalSettings;global settings;at.js;functions;clientCode;serverDomain;cookiedomain;cookieDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenHiddenCode 스타일;defaultContentVisibleStyle;bodyHiddenStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeTimeout;optout;optout;optout;selectorsPollingTimeout;dataProviders
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
+source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 
 ---
 
@@ -25,6 +25,7 @@ source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
 
 | 설정의 지침을 완료하여 이 설정을 변경할 수 있습니다 | 유형 | 기본값 | 설명 |
 |--- |--- |--- |--- |
+| serverState | 아래의 "serverState"를 참조하십시오. | 아래의 "serverState"를 참조하십시오. | 아래의 "serverState"를 참조하십시오. |
 | clientCode | 문자열 | UI를 통해 설정된 값 | 클라이언트 코드를 나타냅니다. |
 | serverDomain | 문자열 | UI를 통해 설정된 값 | Target 에지 서버를 나타냅니다. |
 | cookieDomain | 문자열 | 가능한 경우 최상위 수준 도메인으로 설정하십시오. | 쿠키를 저장할 때 사용되는 도메인을 나타냅니다. |
@@ -175,3 +176,145 @@ var weatherProvider = {
 
 * `window.targetGlobalSettings.dataProviders`에 추가된 데이터 공급자가 비동기 상태인 경우 병렬로 실행됩니다. 방문자 API 요청은 최소 대기 시간을 허용하기 위해 `window.targetGlobalSettings.dataProviders`에 추가된 함수와 함께 실행됩니다.
 * at.js는 데이터를 캐시하려고 하지 않습니다. 데이터 공급자는 데이터를 한 번만 가져오는 경우 데이터가 캐시되는지 확인해야 하고, 공급자 함수가 호출될 때 두 번째 호출을 위해 캐시 데이터를 제공해야 합니다.
+
+## serverState {#server-state}
+
+`serverState` 은 at.js v2.2+에서 사용할 수 있는 설정으로, Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 통해 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다.
+
+### 전제 조건
+
+하이브리드 통합이 있어야 [!DNL Target]합니다.
+
+* **서버측**: 새 [배달 API](https://developers.adobetarget.com/api/delivery-api/) 또는 Target SDK를 [사용해야 합니다](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
+* **클라이언트측**:at.js [버전 2.2 이상을](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)사용해야 합니다.
+
+### 코드 샘플
+
+이 기능의 작동 방식을 더 잘 이해하려면 아래 코드 예제를 통해 서버에 있는 코드를 확인하십시오. 이 코드는 사용자가 Target Node.js SDK를 사용하고 [있다고 가정합니다](https://github.com/adobe/target-nodejs-sdk).
+
+```
+// First, we fetch the offers via Target Node.js SDK API, as usual
+const targetResponse = await targetClient.getOffers(options);
+// A successfull response will contain Target Delivery API request and response objects, which we need to set as serverState
+const serverState = {
+  request: targetResponse.request,
+  response: targetResponse.response
+};
+// Finally, we should set window.targetGlobalSettings.serverState in the returned page, by replacing it in a page template, for example
+const PAGE_TEMPLATE = `
+<!doctype html>
+<html>
+<head>
+  ...
+  <script>
+    window.targetGlobalSettings = {
+      overrideMboxEdgeServer: true,
+      serverState: ${JSON.stringify(serverState, null, " ")}
+    };
+  </script>
+  <script src="at.js"></script>
+</head>
+...
+</html>
+`;
+// Return PAGE_TEMPLATE to the client ...
+```
+
+프리페치 보기에 대한 샘플 `serverState` 개체 JSON은 다음과 같습니다.
+
+```
+{
+ "request": {
+  "requestId": "076ace1cd3624048bae1ced1f9e0c536",
+  "id": {
+   "tntId": "08210e2d751a44779b8313e2d2692b96.21_27"
+  },
+  "context": {
+   "channel": "web",
+   "timeOffsetInMinutes": 0
+  },
+  "experienceCloud": {
+   "analytics": {
+    "logging": "server_side",
+    "supplementalDataId": "7D3AA246CC99FD7F-1B3DD2E75595498E"
+   }
+  },
+  "prefetch": {
+   "views": [
+    {
+     "address": {
+      "url": "my.testsite.com/"
+     }
+    }
+   ]
+  }
+ },
+ "response": {
+  "status": 200,
+  "requestId": "076ace1cd3624048bae1ced1f9e0c536",
+  "id": {
+   "tntId": "08210e2d751a44779b8313e2d2692b96.21_27"
+  },
+  "client": "testclient",
+  "edgeHost": "mboxedge21.tt.omtrdc.net",
+  "prefetch": {
+   "views": [
+    {
+     "name": "home",
+     "key": "home",
+     "options": [
+      {
+       "type": "actions",
+       "content": [
+        {
+         "type": "setHtml",
+         "selector": "#app > DIV.app-container:eq(0) > DIV.page-container:eq(0) > DIV:nth-of-type(2) > SECTION.section:eq(0) > DIV.container:eq(1) > DIV.heading:eq(0) > H1.title:eq(0)",
+         "cssSelector": "#app > DIV:nth-of-type(1) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > SECTION:nth-of-type(1) > DIV:nth-of-type(2) > DIV:nth-of-type(1) > H1:nth-of-type(1)",
+         "content": "<span style=\"color:#FF0000;\">Latest</span> Products for 2020"
+        }
+       ],
+       "eventToken": "t0FRvoWosOqHmYL5G18QCZNWHtnQtQrJfmRrQugEa2qCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+       "responseTokens": {
+        "profile.memberlevel": "0",
+        "geo.city": "dublin",
+        "activity.id": "302740",
+        "experience.name": "Experience B",
+        "geo.country": "ireland"
+       }
+      }
+     ],
+     "state": "J+W1Fq18hxliDDJonTPfV0S+mzxapAO3d14M43EsM9f12A6QaqL+E3XKkRFlmq9U"
+    }
+   ]
+  }
+ }
+}
+```
+
+페이지가 브라우저에서 로드되면, at.js는 [!DNL Target] 가장자리에 대한 네트워크 호출을 실행하지 않고 `serverState` [!DNL Target] 즉시 모든 오퍼를 적용합니다. 또한 at.js는 컨텐츠 포즈 서버측에서 사용할 수 있는 DOM 요소만 미리 숨겨 페이지 로드 성능 및 최종 사용자 경험에 긍정적인 영향을 줍니다. [!DNL Target]
+
+### 중요 정보
+
+Consider the following when using `serverState`:
+
+* 현재 at.js v2.2는 serverState를 통해서만 다음 작업을 수행할 수 있습니다.
+
+   * 페이지 로드 시 실행되는 VEC 생성 활동.
+   * 사전 반입된 뷰
+
+      보기를 사용하는 SPA와 at.js API [!DNL Target] 의 경우, at.js v2.2는 서버측에서 프리페치된 모든 뷰에 대한 컨텐츠를 캐싱하고 각 보기가 를 통해 트리거되는 즉시 Target에 대한 추가 컨텐츠 페치 호출을 실행하지 않고 `triggerView()` `triggerView()`다시 적용합니다.
+
+   * **참고**: 현재, 서버측에서 검색된 mbox는 에서 지원되지 않습니다 `serverState`.
+
+* 오퍼를 적용할 `serverState `때 at.js는 `pageLoadEnabled` 고려사항 및 `viewsEnabled` `pageLoadEnabled` 설정을 고려합니다. 예를 들어 설정이 false이면 페이지 로드 오퍼가 적용되지 않습니다.
+
+   이 설정을 켜려면 UICONTROL 설정 &gt; 구현 &gt; 설정 **[편집 &gt; 페이지 로드 활성화에서 전환을 활성화합니다]**.
+
+   ![페이지 로드 활성화 설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+### 추가 리소스
+
+작동 방법에 대한 자세한 `serverState` 내용은 다음 리소스를 참조하십시오.
+
+* [샘플 코드](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate).
+* [SPA(Single Page Application) 샘플 앱과 함께 사용할 수 `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)있습니다.
