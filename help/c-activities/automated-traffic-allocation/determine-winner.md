@@ -8,7 +8,7 @@ title: 승자 결정
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -63,6 +63,6 @@ A/B 활동의 끝에서 자동 할당은 결정된 승자에 5%의 유효한 긍
 
    자동 할당은 주어진 경험이 활동의 모든 경험에 대해 실제 승자가 되는 확률을 표시합니다. 이것은 가장 성과가 좋은 경험(승자가 될 가능성이 가장 높은 경험)의 신뢰도 값만 0이 아님을 의미합니다. 다른 모든 경험은 패자가 될 가능성이 높으며 0%가 표시됩니다.
 
-* 자동 할당은 가장 성과가 좋은 경험이 60% 신뢰도를 모은 후에만 신뢰도 표시를 시작합니다. 자동 할당은 일반 A/B 테스트의 두 배 가량 빠릅니다. 일반 A/B 테스트가 얼마나 오래 실행되는지 결정하려면 통제 경험의 전환율을 "기본 전환율", "5%"의 "상승도", 95%의 "신뢰도"로 연결하는 [샘플 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html)를 사용하십시오. 일반적으로 신뢰도는 각 경험이 경험당 필요한 샘플을 50% 이상 축적하면 표시를 시작합니다. 이것으로 신뢰도 표시가 시작되는 시기를 알 수 있습니다.
+* 자동 할당은 가장 성과가 좋은 경험이 60% 신뢰도를 모은 후에만 신뢰도 표시를 시작합니다. 이러한 신뢰 수준은 일반적으로 일반 A/B 테스트를 완료하는 데 걸리는 약 2분의 1에 나타납니다(보장되지는 않지만). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." 일반적으로 신뢰도는 각 경험이 경험당 필요한 샘플을 50% 이상 축적하면 표시를 시작합니다. 이것으로 신뢰도 표시가 시작되는 시기를 알 수 있습니다.
 * 보고서가 보드 전체에서 0%를 표시한다면 활동이 너무 이른 것일 수 있습니다.
 
