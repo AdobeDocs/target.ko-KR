@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js 버전 세부 사항
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: e11f8dfee9bcdfae530efc75b239f0d7af045005
 
 ---
 
@@ -21,23 +21,29 @@ source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 >
 >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 
 
+## at.js 버전 2.2 및 1.8(2019년 10월 10일)
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| at.js 버전 2.2<br><br>및 at.js 버전 1.8 | at.js의 이러한 버전은 다음과 같습니다.<ul><li>웹 페이지에서 Experience Cloud ID 서비스(ECID) v4.4 및 at.js 2.2 또는 at.js 1.8을 모두 사용할 때의 성능이 개선되었습니다.</li><li>이전에는, at.js가 경험을 가져오기 전에 ECID가 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 향상되었습니다.</li></ul> 이러한 성능 향상을 활용하려면 ECID 라이브러리 v4.4.<br>at.js 2.2와 함께 at.js 2.2 또는 at.js 1.8로 업그레이드하십시오.<ul><li>**serverState**:Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있는 at.js v2.2+에서 사용할 수 있는 설정입니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 통해 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다.<br>자세한 내용은 targetGlobalSettings의 "serverState"를 [참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
+
 ## at.js 버전 2.1.1(2019년 7월 24일)
 
-at.js의 이 릴리스는 유지 관리 릴리스이며 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
-* VEC(Visual Experience Composer)의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 비콘이 발생하는 문제를 해결했습니다. (TNT-32812)
-* 오퍼를 두 번 이상 렌더링하지 `triggerView()` 않는 문제를 해결했습니다. (TNT-32780)
-* 요청에 MCID(Marketing Cloud ID) 정보가 포함되어 `triggerView()` 있는지 확인하는 문제를 수정했습니다. (TNT-32776)
-* 저장된 보기가 없는 경우에도 알림이 `triggerView()` 실행되지 않는 문제를 해결했습니다. (TNT-32614)
-* URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함되어 있을 때 문제를 야기하는 decodeURIcomponent의 사용으로 인해 오류가 발생하는 문제를 수정했습니다. (TNT-32710)
-* 이제 API를 통해 전송된 배달 요청 컨텍스트에서 비콘 플래그가 "true"로 `Navigator.sendBeacon()` 설정됩니다. (TNT-32683)
-* 일부 고객의 웹 사이트에 Recommendations 오퍼가 표시되지 않던 문제를 수정했습니다. 고객은 전달 API 호출에서 오퍼 컨텐츠를 볼 수 있었지만 오퍼가 웹 사이트에 적용되지 않았습니다. (TNT-32680)
-* 여러 경험에 대한 클릭 추적이 예상대로 작동하지 않는 문제를 해결했습니다. (TNT-32644)
-* 첫 번째 지표 렌더링이 실패한 후 at.js가 두 번째 지표를 적용하지 못했던 문제를 수정했습니다. (TNT-32628)
-* 쿼리 매개 변수 또는 요청 페이로드에 요청 페이로드가 `mboxThirdPartyId` 없는 `targetPageParams` 함수를 사용할 때 발생하는 문제를 수정했습니다. (TNT-32613)
-* Chromium 기반 브라우저(Google Chrome 포함)에서 표시 및 클릭 알림 응답이 차단되는 문제를 수정했습니다. (TNT-32290)
+* Visual Experience Composer(VEC)의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 개의 비콘이 실행되는 문제를 해결했습니다. (TNT-32812)
+* `triggerView()`이 오퍼를 두 번 이상 렌더링하지 않는 문제를 해결했습니다. (TNT-32780)
+* `triggerView()`이 요청에서 MCID(Marketing Cloud ID) 정보가 포함되어 있는지 확인하는 문제를 해결했습니다. (TNT-32776)
+* 저장된 보기가 없는 경우에도 `triggerView()` 알림이 실행되지 않는 문제를 해결했습니다. (TNT-32614)
+* URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함되어 있을 때 decodeURIcomponent를 사용하여 오류가 발생하는 문제를 해결했습니다. (TNT-32710)
+* 이제 `Navigator.sendBeacon()` API를 통해 전송된 배달 요청의 컨텍스트에서 비콘 플래그가 'true'로 설정됩니다. (TNT-32683)
+* 일부 고객의 웹 사이트에서 추천 오퍼가 표시되지 않는 문제를 해결했습니다. 고객이 배달 API 호출에서 오퍼 콘텐츠를 볼 수 있지만 오퍼가 웹 사이트에 적용되지 않았습니다. (TNT-32680)
+* 여러 경험에서 클릭 추적이 예상대로 작동되지 않는 문제를 해결했습니다. (TNT-32644)
+* 첫 번째 지표 렌더링이 실패한 후 at.js에서 두 번째 지표를 적용하지 못했던 문제를 해결했습니다. (TNT-32628)
+* 요청 페이로드가 쿼리 매개 변수 또는 요청 페이로드에 존재하지 않는 `targetPageParams` 함수를 사용하여 `mboxThirdPartyId`을 전달할 때 발생하는 문제를 해결했습니다. (TNT-32613)
+* Chromium 기반 브라우저(Google Chrome 포함)에서 디스플레이 및 클릭 알림 응답이 차단되는 문제를 해결했습니다. (TNT-32290)
 
 ## at.js 버전 2.1.0(2019년 6월 3일)
 
