@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -24,6 +24,7 @@ source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 | 2019년 10월 10일 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 새 섹션이 추가되었습니다."serverState" |
 |  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | at.js 2.2 및 at.js 1.8 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.2 및 at.js 1.8 릴리스에 대한 정보가 추가되었습니다. |
+|  | [활동 문제 해결](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 새 섹션이 추가되었습니다."Target UI를 사용하여 활동을 만들었으므로 API를 통해 업데이트할 수 없습니다." |
 | 2019년 10월 9일 | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 주제가 업데이트됨. |
 |  | [릴리스 정보 - 대상 서버측 API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | 새 주제입니다.  |
 |  | [릴리스 노트 - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 새 주제입니다.  |
