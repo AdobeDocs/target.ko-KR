@@ -8,7 +8,7 @@ title: 활동 문제 해결
 topic: 고급,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
 
 ---
 
@@ -25,7 +25,9 @@ source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ## Target UI를 사용하여 활동을 만들었지만 API를 통해 업데이트할 수 없습니다.
 
-타겟 UI를 사용하여 만든 활동은 타겟 UI를 *통해서만* 업데이트할 수 있습니다. API를 통해 생성된 활동은 API를 *통해서만* 업데이트할 수 있습니다. 활동을 만드는 데 사용한 동일한 방법(UI 또는 API)을 사용하여 활동을 업데이트해 보십시오.
+타겟 UI를 사용하여 만든 활동은 타겟 UI를 통해 업데이트해야 합니다. API를 통해 생성된 활동은 API를 통해 업데이트해야 합니다. 예를 들어 API를 사용하여 활동을 만든 다음 나중에 Target UI를 통해 활동을 편집하는 경우 일부 변경 사항이 업데이트되지 않습니다. 모든 변경 사항은 백엔드에 저장되며 다른 API 호출을 수행하여 업데이트할 수 있습니다.
+
+가장 좋은 방법은 활동을 처음 만드는 데 사용한 동일한 방법(UI 또는 API)을 사용하여 활동을 업데이트해 보는 것입니다.
 
 ## 기본 컨텐츠가 표시됩니다.
 
