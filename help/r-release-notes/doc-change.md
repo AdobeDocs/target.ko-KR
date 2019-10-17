@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 
 ---
 
@@ -21,6 +21,8 @@ source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 10월 17일 | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | Activity QA가 타사 쿠키와 작동하는 방식을 설명하는 항목을 업데이트했습니다. |
+|  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 통합 셸의 변경 사항에 대한 정보를 포함하도록 릴리스 노트를 업데이트했습니다. |
 | 2019년 10월 10일 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | 새 섹션이 추가되었습니다."serverState" |
 |  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | at.js 2.2 및 at.js 1.8 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.2 및 at.js 1.8 릴리스에 대한 정보가 추가되었습니다. |
