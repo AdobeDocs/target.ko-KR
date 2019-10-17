@@ -8,7 +8,7 @@ title: 활동 QA
 topic: 고급,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -27,9 +27,9 @@ QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간�
 * 배달 기준(페이지/mbox/대상)을 충족하는 다른 라이브 활동과 별개로 또는 결합하여 경험을 미리 볼 수 있는 기능입니다.
 * 전체 사용자 경험을 QA할 수 있습니다. QA 링크로 사이트에 한 번 액세스한 다음, 활동 QA 동안 전체 사이트를 탐색할 수 있습니다. 세션을 종료하거나 [QA Target 북마클릿](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을 사용하여 활동 QA를 강제로 해제하기 전까지는 활동 QA에 남아 있습니다. 이 기능은 특히 여러 웹 페이지에 걸친 활동이 있는 경우에 유용합니다.
 
->[!NOTE]
->
->버전 2를 사용하는 at.js 구현의 경우 마찬가지입니다.*x* 이상. at.js 1.*x* 및 mbox.js 구현에서는 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
+   >[!NOTE]
+   >
+   >버전 2를 사용하는 at.js 구현의 경우 마찬가지입니다.*x* 이상. at.js 1.*x* 및 mbox.js 구현에서는 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
 
 ## QA URL 액세스 및 공유 {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
