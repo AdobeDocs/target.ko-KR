@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
+source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
 
 ---
 
@@ -33,29 +33,25 @@ source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
 
 ### 개선 사항, 수정 사항 및 변경 사항
 
-* 셸의 [!DNL Experience Cloud] 변경 사항.
+* 에 로그인하면 [!DNL Adobe Experience Cloud]새 헤더 탐색으로 이동합니다. 맨 위에 검정색 막대가 있는 이전 탐색과 매우 유사해 보이지만 다음과 같은 향상된 기능을 제공합니다.
 
-   Adobe는 모든 [!DNL Experience Cloud] [!DNL Adobe Experience Cloud] 솔루션에서 경험을 통합하고 개선하기 위해 기존 셸(솔루션 상단에 있는 검은색 막대)을 업데이트하고 있습니다.
+   * IMS( [!DNL Identity Management System] Easily Switching) 조직 간 또는 다른 솔루션으로 전환
+   * 향상된 사용자 도움말:검색 결과에는 [!DNL Target] 제품 설명서의 결과뿐만 아니라 커뮤니티 포럼 및 기타 비디오 컨텐츠가 포함되어 있으므로 더 많은 컨텐츠에 손쉽게 액세스하여 최대한 활용할 수 [!DNL Target]있습니다. 또한 도움말 메뉴에 바로 피드백 메커니즘을 추가하여 [!UICONTROL 문제를] 보고하거나 아이디어를 공유할 수 있습니다.
 
-   현재 워크플로우는 변경되지 않으며, 보기에 간단한 이러한 변경 사항은 작지만 중요한 방식으로 보다 손쉽게 작업할 수 있도록 고안되었습니다.
-
-   에 로그인하면 [!DNL Adobe Experience Cloud]새 셸로 이동합니다. 맨 위에 검정 막대가 있는 이전 셸과 매우 유사해 보이지만 다음과 같은 향상된 기능을 제공합니다.
-
-   * IMS(Identity Management System) 조직 또는 다른 Experience Cloud [!E솔루션으로 보다] 간편하게 전환할 수 있습니다.
-   * 향상된 사용자 도움말:검색 결과에는 [!DNL Target] 제품 설명서의 결과뿐만 아니라 커뮤니티 포럼 및 기타 비디오 컨텐츠가 포함되어 있으므로 더 많은 컨텐츠에 손쉽게 액세스하여 최대한 활용할 수 [!DNL Target]있습니다. 또한 도움말 메뉴에 바로 피드백 메커니즘을 추가하여 문제를 보고하거나 아이디어를 공유할 수 있습니다.
-   * NPS(순 추천 점수) 기능이 개선되었습니다. 때때로 일부 고객은 우리가 의도한 것보다 더 높은 빈도로 설문 조사를 [!DNL Target] 보았습니다. 또한 작업 흐름을 방해하는 데 사용된 설문 조사 모달 더 이상 방해가 되지 않는 소규모 설문 조사가 되도록 이 기능을 완전히 업데이트했습니다. 또한 새로운 디자인을 통해 설문 조사 빈도를 효과적으로 제어할 수 있습니다.
-   * 로그인 흐름이 개선되었습니다. 이전에는 모든 [!DNL Target] 고객이 셸의 [!DNL Target] 아이콘을 클릭한 후 Target 랜딩 페이지에 도달했습니다. 그런 다음 이 페이지에서 고객이 Recommendations Classic [!DNL Target Standard/Premium]또는 [!DN아래와 같이]계속 진행할 수 있도록 [!DNL Search&Promote]했습니다.
+   * NPS(Net Promoter Score) 피드백 기능이 개선되어 설문 조사 모달 기능이 작업 흐름을 방해하지 않습니다.
+   * 로그인 흐름이 개선되었습니다. 이전에는 모든 [!DNL Target] 고객이 헤더의 [!DNL Target] 아이콘을 클릭한 후 Target 랜딩 페이지에 도달했습니다. 그런 다음 이 페이지에서 고객이 아래 표시된 대로 Recommendations Classic [!DNL Target Standard/Premium], [!DNL Search&Promote]또는 [!DNl]을 진행할 수있었습니다.
 
       ![랜딩 페이지](/help/r-release-notes/assets/landing.png)
 
-      모든 고객을 위해 이 랜딩 페이지를 제거했습니다. 이제 항상 [!UICONTROL 아이콘을 클릭하여 활동 목록] [!DNL Target] 페이지로 바로 이동합니다.
+      모든 고객을 위해 이 랜딩 페이지를 제거했습니다. 이제 새 헤더 탐색 막대에서 [!UICONTROL 아이콘을 클릭하면] [!DNL Target] 항상 활동 목록 페이지로 바로 이동합니다.
 
       를 사용하는 [!DNL Recommendations Classic]경우 솔루션으로 바로 이동하거나 아래와 같이 Recommendations [!UICONTROL 탭에서 만든 짧은 링크를] 이동할 수 있습니다.
 
       ![Recs Classic 딥 링크](/help/r-release-notes/assets/recs-classic.png)
 
       사용하는 [!DNL Search&Promote]경우 링크로 직접 이동해야 합니다. The path to reach [!DNL Search&Promote] from in of [!DNL Adobe Target] the inside.
-   * 에 [!DNL Target] 대한 알림은 현재 셸의 [!UICONTROL 알림] 드롭다운에서 표시되지 않습니다.
+
+   * 알림은 현재 헤더의 알림 [!DNL Target] 드롭다운에서  사용할 수 없습니다.
    >[!NOTE]
    >
    >이러한 기능은 한 번에 롤아웃되지 않으며 모든 고객에게 롤아웃되지 않습니다. 다음 며칠 동안 19.10.1(2019년 10월 22 [!DNL Target Standard/Premium] 일) 릴리스를 통해 이러한 기능을 제공할 예정입니다.
