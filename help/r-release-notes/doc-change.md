@@ -1,14 +1,14 @@
 ---
 description: 이 페이지에는 Target 문서에 대한 중요한 변경 사항이 나와 있습니다.
 keywords: Target 설명서 변경 로그;설명서 업데이트새로운 주제;편집
-seo-description: 이 페이지에는 Adobe Target 문서에 대한 중요한 변경 사항이 나와 있습니다.
+seo-description: 이 페이지에는 Adobe Target 설명서에 대한 중요한 변경 사항(릴리스별로 주문)이 나열됩니다.
 seo-title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 solution: Target
 title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9e7d1b0b9beae7817e958735e306c24318109b9f
+source-git-commit: 58d00c968a3e67c253aec833b554a3ec2116765f
 
 ---
 
