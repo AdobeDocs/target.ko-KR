@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -16,6 +16,13 @@ source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 # 설명서 변경 내용{#documentation-changes}
 
 이 페이지에는 [!DNL Adobe Target] 문서에 대한 중요한 변경 사항이 나와 있습니다.
+
+## Adobe Target/Standard/Premium 19.10.1(2019년 10월 22일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 2019년 10월 22일 |  |  |
+|  | [릴리스 노트](/help/r-release-notes/release-notes.md): 19.10.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target/Standard/Premium 19.9.1(2019년 9월 30일)
 
