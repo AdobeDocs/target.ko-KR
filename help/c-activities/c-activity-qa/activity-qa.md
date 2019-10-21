@@ -8,7 +8,7 @@ title: 활동 QA
 topic: 고급,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -75,7 +75,7 @@ QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간�
    값이 비어 있는 `at_preview_token` 매개 변수로 사이트의 페이지를 로드하여(예: `https://www.mysite.com/?at_preview_token=`) 수동으로 나올 수도 있습니다.
 
 * 활동을 작성할 때 "URL은"을 지정한 경우([양식 기반 작성기의 개선](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기의 페이지 전달 선택 사항](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)) 활동 QA가 URL 매개 변수를 추가하므로 QA URL이 작동하지 않습니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
-* at.js 1이 있는 경우&#x200B;*x* 또는 mbox.js, 브라우저가 타사 쿠키를 차단하는 경우 활동 QA 모드는 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리 보기 매개 변수를 추가해야 합니다.
+* at.js 1이 있는 경우&#x200B;*x*&#x200B;또는 mbox.js, Safari 또는 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우 활동 QA 모드는 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리 보기 매개 변수를 추가해야 합니다.
 * 활동에서 여러 경험 대상을 사용하는 경우(예를 들어, 동일한 활동에 포함된 미국 및 영국 사이트), QA 링크가 4개의 조합(경험 A/미국 사이트, 경험 A/영국 사이트, 경험 B/미국 사이트, 경험 B/영국 사이트)에 대해 생성되지 않습니다. 두 개의 QA 링크(경험 A와 경험 B)만 생성되고, 사용자는 페이지를 보려면 적절한 대상에 대한 자격이 있어야 합니다. 영국 QA 담당자는 미국 사이트를 볼 수 없습니다.
 * 모든 `at_preview` 매개 변수와 값이 이미 URL로 인코딩되어 있습니다. 대부분의 경우 모두 예상대로 작동합니다. 하지만, 일부 고객의 로드 밸런서나 웹 서버에서는 쿼리 문자열 매개 변수를 다시 인코딩하려고 시도할 수 있습니다.
 
