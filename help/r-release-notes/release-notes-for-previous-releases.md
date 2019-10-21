@@ -8,7 +8,7 @@ title: 이전 릴리스에 대한 릴리스 노트
 topic: 권장 사항
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
+source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
 
 ---
 
@@ -23,24 +23,45 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 ## 릴리스 노트 - 2019 {#releases-2019}
 
+### at.js 버전 2.2 및 1.8(2019년 10월 10일)
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| at.js 버전 2.2<br><br>및 at.js 버전 1.8 | at.js의 이러한 버전은 다음과 같습니다.<ul><li>웹 페이지에서 Experience Cloud ID 서비스(ECID) v4.4 및 at.js 2.2 또는 at.js 1.8을 모두 사용할 때의 성능이 개선되었습니다.</li><li>이전에는, at.js가 경험을 가져오기 전에 ECID가 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 향상되었습니다.</li></ul> 이러한 성능 향상을 활용하려면 ECID 라이브러리 v4.4.<br>at.js 2.2와 함께 at.js 2.2 또는 at.js 1.8로 업그레이드하십시오.<ul><li>**serverState**:Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있는 at.js v2.2+에서 사용할 수 있는 설정입니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 통해 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다.<br>자세한 내용은 targetGlobalSettings의 "serverState"를 [참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).</li></ul> |
+
+### Target 플랫폼(2019년 10월 9일)
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| Node.js SDK 버전 1.0 | Target Node.js SDK를 사용하여 Target 서버측을 배포할 수 있습니다.<br>Node.js SDK를 사용하면 Adobe Experience Cloud Identity Service, Adobe Analytics 및 Adobe Audience Manager와 같은 다른 Experience Cloud 솔루션과 Target을 쉽게 통합할 수 있습니다.<br>Node.js SDK는 엔지니어링 팀이 비즈니스 로직에 집중할 수 있도록 Adobe Target과 통합할 때 모범 사례를 도입하고 복잡성을 제거합니다. 다음은 최신 버전에서 소개된 주요 기능입니다.<ul><li>캐싱을 통해 성능을 최적화할 수 있도록 프리페치 및 알림을 지원합니다.</li><li>웹 페이지와 서버측에서 모두 Target을 혼합하여 통합한 경우 성능 최적화를 지원합니다. at.js 2.2가 더 이상 경험을 검색할 추가 서버 호출을 하지 않도록 서버측을 통해 검색되는 경험이 채워지는 `serverState` 설정이라는 설정을 소개합니다. 이 방법은 페이지 로드 성능을 최적화합니다.</li><li> 새 배달 API에서 가능한 Node.js SDK를 통해 VEC에서 생성된 활동 검색 지원</li><li>개발자가 Node.js SDK에 기여할 수 있도록 오픈 소싱됩니다.</li></ul><br>자세한 내용은 릴리스 [노트 - Target Node.js SDK를 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md). |
+| 배달 API | 완전히 새로운 전달 API 끝점(/v1/delivery)은 프로덕션에서 사용할 수 있습니다. 주요 기능은 다음과 같습니다.<ul><li>하나 이상의 mbox에 대한 경험을 검색할 수 있는 하나의 끝점입니다.</li><li>API 파섹</li><li>단일 페이지 애플리케이션(SPA) 및 모바일 애플리케이션에 사용되는 보기라는 완전히 새로운 객체를 지원합니다.</li></ul><br>자세한 내용은 릴리스 [정보 - Target 서버측 API를 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md). |
+
+### Target Standard/Premium 19.9.2(2019년 9월 30일)
+
+이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* Visual Experience Composer(VEC)의 리치 텍스트 편집기(RTE)에 대한 보안 업데이트를 포함한 여러 보안 사항이 수정되었습니다. (TGT-35383)
+* 이제 A/B 테스트 및 경험 타깃팅 활동에서 DIV(예: P, UL, H1) 이외의 요소에 Recommendations 오퍼를 추가할 수 있습니다. (TGT-34333)
+* 이벤트 알림(타겟 UI의 벨 아이콘)은 더 이상 사용할 수 없습니다. 새로운 알림 기능이 곧 제공될 예정입니다.
+
 ### Target Standard/Premium 19.9.1(2019년 9월 10일)
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| ![프리미엄 배지](/help/assets/premium.png) 엔터프라이즈 권한 | Target 2019년 9월 릴리스에서 엔터프라이즈 권한은 고객에게 다음과 같은 액세스 제어를 제공합니다.<UL><li>통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다.</li><li>Adobe I/O 통합에 역할을 적용할 수 있습니다.승인자, 편집자 또는 관찰자를 참조하십시오.</li></ul>단계별 지침과 자세한 내용은 작업 영역에 [대한 Adobe I/O 통합 액세스 권한 부여 및 역할](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)할당을 참조하십시오. |
+| ![프리미엄 배지](/help/assets/premium.png) 엔터프라이즈 권한 | Target 2019년 9월 릴리스에서 엔터프라이즈 권한은 고객에게 다음과 같은 액세스 제어를 제공합니다.<UL><li>통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다.</li><li>Adobe I/O 통합에 승인자, 편집자 또는 관찰자 역할을 적용할 수 있습니다.</li></ul>단계별 지침 및 추가 정보는 [작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)을 참조하십시오. |
 
 
-### Target Mobile VEC SDK iOS 2.1.0 및 Android 1.1.1(2019년 8월 7일)
+### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1(2019년 8월 7일)
 
-이 Mobile VEC SDK 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
+Mobile VEC SDK 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
-* 모바일 장치에서 시각적 활동에 대한 미리 보기 지원을 추가했습니다. (TGT-27875)
-* Fixed an issue that caused an Apple Standard violation due to  usage.`UIImagePickerController`
-* Removed GSON dependency from Android SDK. (TGT-31710)
-* Removed Other redundant Gradle dependencies (TGT-35479)
-* Fixed an issue that caused the delivery offer to not reset at the time of authoring. (TGT-35270)
+* 모바일 장치의 시각적 활동 미리 보기에 대한 지원이 추가되었습니다. (TGT-27875)
+* `UIImagePickerController` 사용으로 인해 Apple 표준 위반이 발생하는 문제를 해결했습니다.
+* Android SDK에서 GSON 종속성을 제거했습니다. (TGT-31710)
+* 다른 중복 Gradle 종속성 제거(TGT-35479)
+* 작성 시 게재 오퍼가 재설정되지 않는 문제를 해결했습니다. (TGT-35270)
 
 ### Target Standard/Premium 19.7.1(2019년 7월 24일) {#tgt-19-7-1}
 
@@ -50,36 +71,36 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 모바일 앱 시각적 경험 작성기 | 클릭 추적에 대해 설정한 요소를 표시하는 모바일 앱 VEC에 새로운 수정 패널이 표시됩니다. (TGT-31741)<br> 모바일 [앱에서 클릭 추적 설정을 참조하십시오](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
+| 모바일 앱 시각적 경험 작성기 | 클릭 추적에 대해 설정한 요소를 표시하는 모바일 앱 VEC에 새로운 수정 패널이 표시됩니다. (TGT-31741)<br>[모바일 앱에서 클릭 추적 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)을 참조하십시오. |
 | ![Premium 배지](/help/assets/premium.png)<br>A/B 테스트 및 XT(경험 타깃팅) 활동의 권장 사항 | 권장 사항 오퍼(알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 결과 준비됨, 결과가 준비되지 않음 및 피드 장애 상태가 있습니다. (TGT-33649)<br>[오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status)를 참조하십시오. |
-| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID library 4.3.0+ must be used.](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html)<br>See Cross-domain tracking support in at.js 2.x.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
-| Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스를 통해 Target은 서버측 쿠키를 활용하여 ITP 2.1 및 ITP 2.2를 완화하는 ECID 라이브러리 4.3과의 매끄러운 통합을 제공합니다.Target 고객은 Target의 JavaScript [라이브러리와 함께 ECID 라이브러리 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 배포하여 향후 ITP 릴리스를 완화하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>See Apple Intelligent Tracking Prevention (ITP) 2.x.[](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) |
+| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 사용해야 합니다.<br>[at.js 2.x 에서 도메인 간 추적 지원](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)을 참조하십시오. |
+| Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스를 통해 Target은 서버측 쿠키를 활용하여 ITP 2.1 및 ITP 2.2를 완화하는 ECID 라이브러리 4.3과의 매끄러운 통합을 제공합니다.Target 고객은 Target의 JavaScript [라이브러리와 함께 ECID 라이브러리 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 배포하여 향후 ITP 릴리스를 완화하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>[Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)를 참조하십시오. |
 
 **개선 사항, 수정 및 변경 사항**
 
-* 중복 값을 추가할 때 Recommendations 활동의 제외 값이 지워지지 않는 문제를 해결했습니다. (TGT-34996)
-* 이제 타깃팅 페이지(3부 안내 워크플로의 2단계)에서 Recommendations 활동의 디자인을 제거할 수 있습니다. 디자인을 제거하려면 두 개 이상의 디자인을 선택해야 합니다. (TGT-35118)
-* 일부 고객의 사용자 지정 기준 카드가 Target UI에서 제대로 로드되거나 편집할 수 없는 문제를 해결했습니다. (TGT-35170)
+* 중복 값을 추가할 때 추천 활동의 제외 값이 지워지지 않는 문제를 해결했습니다. (TGT-34996)
+* 이제 타깃팅 페이지(3단계 안내 워크플로우의 2단계)의 추천 활동에서 디자인을 제거할 수 있습니다. 디자인을 제거하려면 두 개 이상의 디자인을 선택해야 합니다. (TGT-35118)
+* 일부 고객의 사용자 지정 기준 카드가 Target UI에서 제대로 로드되지 않거나 편집할 수 없는 문제가 해결되었습니다. (TGT-35170)
 
 ### at.js 버전 2.1.1(2019년 7월 24일)
 
-This release of at.js is a maintenance release and includes the following enhancements and fixes:
+at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
-* VEC(Visual Experience Composer)의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 비콘이 발생하는 문제를 해결했습니다. (TNT-32812)
-* 오퍼를 두 번 이상 렌더링하지 `triggerView()` 않는 문제를 해결했습니다. (TNT-32780)
-* Fixed an issue with  to ensure that the request contains Marketing Cloud ID (MCID) information. `triggerView()` (TNT-32776)
-* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
-* URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함되어 있을 때 문제를 야기하는 decodeURIcomponent의 사용으로 인해 오류가 발생하는 문제를 수정했습니다. (TNT-32710)
-* The beacon flag is now set to "true" in the context of delivery requests sent via the  API. `Navigator.sendBeacon()` (TNT-32683)
-* Fixed an issue that prevented Recommendations offers from displaying on websites for a few customers. Customers could see the offer content in the delivery API call but the offer was not applied on the website. (TNT-32680)
-* Fixed an issue that caused click-tracking across multiple experiences to not work as expected. (TNT-32644)
-* Fixed an issue that prevented at.js from applying the second metric after the rendering of the first metric fails. (TNT-32628)
-* 쿼리 매개 변수 또는 요청 페이로드에 요청 페이로드가 `mboxThirdPartyId` 없는 `targetPageParams` 함수를 사용할 때 발생하는 문제를 수정했습니다. (TNT-32613)
-* Fixed an issue that caused display and click notification responses to be blocked in Chromium-based browsers (including Google Chrome). (TNT-32290)
+* Visual Experience Composer(VEC)의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 개의 비콘이 실행되는 문제를 해결했습니다. (TNT-32812)
+* `triggerView()`이 오퍼를 두 번 이상 렌더링하지 않는 문제를 해결했습니다. (TNT-32780)
+* `triggerView()`이 요청에서 MCID(Marketing Cloud ID) 정보가 포함되어 있는지 확인하는 문제를 해결했습니다. (TNT-32776)
+* 저장된 보기가 없는 경우에도 `triggerView()` 알림이 실행되지 않는 문제를 해결했습니다. (TNT-32614)
+* URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함되어 있을 때 decodeURIcomponent를 사용하여 오류가 발생하는 문제를 해결했습니다. (TNT-32710)
+* 이제 `Navigator.sendBeacon()` API를 통해 전송된 배달 요청의 컨텍스트에서 비콘 플래그가 'true'로 설정됩니다. (TNT-32683)
+* 일부 고객의 웹 사이트에서 추천 오퍼가 표시되지 않는 문제를 해결했습니다. 고객이 배달 API 호출에서 오퍼 콘텐츠를 볼 수 있지만 오퍼가 웹 사이트에 적용되지 않았습니다. (TNT-32680)
+* 여러 경험에서 클릭 추적이 예상대로 작동되지 않는 문제를 해결했습니다. (TNT-32644)
+* 첫 번째 지표 렌더링이 실패한 후 at.js에서 두 번째 지표를 적용하지 못했던 문제를 해결했습니다. (TNT-32628)
+* 요청 페이로드가 쿼리 매개 변수 또는 요청 페이로드에 존재하지 않는 `targetPageParams` 함수를 사용하여 `mboxThirdPartyId`을 전달할 때 발생하는 문제를 해결했습니다. (TNT-32613)
+* Chromium 기반 브라우저(Google Chrome 포함)에서 디스플레이 및 클릭 알림 응답이 차단되는 문제를 해결했습니다. (TNT-32290)
 
-For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+이 버전 및 이전 버전의 at.js에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오.
 
 ### Target Standard/Premium 19.6.1(2019년 6월 26일) {#tgt-19-6-1-historical}
 
@@ -372,7 +393,7 @@ target/r_release-notes-2018.xml
 <table id="table_7ABC8E7477194D4C8C9E82ECE60E3498"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 기능 / 개선 사항 </th> 
+   <th colname="col1" class="entry"> 기능/향상 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -410,7 +431,7 @@ target/r_release-notes-2018.xml
 <table id="table_4785030753B24AA1A973E1DF790B83DD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 기능 / 개선 사항 </th> 
+   <th colname="col1" class="entry"> 기능/향상 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -460,7 +481,7 @@ target/r_release-notes-2018.xml
 <table id="table_7E3513EABA4948DC92EADCCE0234A9FF"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 기능 / 개선 사항 </th> 
+   <th colname="col1" class="entry"> 기능/향상 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -547,7 +568,7 @@ target/r_release-notes-2018.xml
 <table id="table_5A60FFE5E86148F4BDC6A7031D03D6BA"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> 기능 / 개선 사항 </th> 
+   <th colname="col1" class="entry"> 기능/향상 </th> 
    <th colname="col2" class="entry"> 설명 </th> 
   </tr> 
  </thead>
@@ -2116,7 +2137,10 @@ Adobe Target Standard/Premium 16.5.1(2016년 5월 19일) 릴리스에는 다음�
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 권장 사항 CSV 다운로드 </td> 
-   <td colname="col2"> <p>이제 CSV 다운로드에는 엔티티 권장 사항이 없는 환경(예: <code># 환경: 1724</code>)을 비롯한 모든 환경에 대한 줄이 있습니다. </p> </td> 
+   <td colname="col2"> <p>CSV downloads now have a line for all environments, including those that do not have entity recommendations (for example: 
+     <code>
+       # environment: 1724 
+     </code>). </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2902,7 +2926,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">자동화된 개인화: 시각적 미리 보기 </p> </td> 
-   <td colname="col2"> <p>시각적 경험 작성기 내에서 모든 콘텐츠 조합을 시각적으로 미리 볼 수 있습니다. </p> <p>See <a href="../c-activities/t-automated-personalization/ap-preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local"> Preview Experiences for an Automated Personalization Test </a>. </p> </td> 
+   <td colname="col2"> <p>시각적 경험 작성기 내에서 모든 콘텐츠 조합을 시각적으로 미리 볼 수 있습니다. </p> <p><a href="../c-activities/t-automated-personalization/ap-preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local">자동화된 개인화 테스트를 위한 경험 미리 보기 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p class="premium">권장 사항: 개선된 콘텐츠 보기 </p> </td> 
@@ -3039,7 +3063,7 @@ target/r_release-notes-2014.xml
 
 이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
-| 기능/개선 사항 | 설명 |
+| 기능/향상 | 설명 |
 |---|---|
 | JavaScript 삽입 및 편집 허용 | 작업 메뉴에서 **[!UICONTROL HTML 편집]을 선택하면 경험 편집기에서 사용자 지정 JavaScript를 편집하고 주입할 수 있는 기능을 추가했습니다.** |
 | 자동 대상 가져오기 | 사용자가 대상 목록을 열고 가져온 대상이 10분 이상 오래되면 배경에서 자동으로 대상을 가져옵니다. |
@@ -3056,7 +3080,7 @@ target/r_release-notes-2014.xml
 
 이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
-| 기능/개선 사항 | 설명 |
+| 기능/향상 | 설명 |
 |---|---|
 | 문자 제한을 늘려 [!DNL Target Classic] 관련 HTML 오퍼 동기화를 개선했습니다 | [!DNL Target Classic]에 동기화된 HTML 오퍼의 256KB 제한에 맞춰 콘텐츠 아래에서 만들어진 HTML 오퍼의 문자 제한을 높였습니다. |
 | 경험 편집기에서 오류가 생성될 때의 사용자 경험을 개선했습니다. | 페이지의 DOM 구조 변경 사항이 선택기 작동을 중단시키면 경험 편집기에 메시지가 표시됩니다. |
