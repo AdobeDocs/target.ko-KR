@@ -8,7 +8,7 @@ title: Target 및 대상 FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # Target 및 대상 FAQ{#targets-and-audiences-faq}
 
 경험 타깃팅 및 대상에 대한 FAQ 목록
+
+## 복잡한 URL 문자열을 만들 때 전체 URL을 [!DNL Target] 평가합니까?
+
+URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하는 경우 HTTP는 첫 번째 매개 변수 이름을 고려하며 동일한 이름의 후속 매개 변수를 무시합니다.
+
+예를 들어 다음 URL 문자열에서 다음을 수행합니다.
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
+
+매개 변수의 첫 번째 `Category` 인스턴스가 평가되고 두 번째 `Category` 매개 변수가 무시됩니다.
 
 ## 대상을 작성할 때 Target 라이브러리 아래의 사전 작성 대상이 다른 범주 아래에 표시되는 이유는 무엇입니까? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
