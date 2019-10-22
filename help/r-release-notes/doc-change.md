@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 58d00c968a3e67c253aec833b554a3ec2116765f
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 58d00c968a3e67c253aec833b554a3ec2116765f
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2019년 10월 22일 | [기준/알고리즘](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | 사용자 기반 권장 사항에 대한 행이 추가되었습니다. |
+|  | [타겟 및 대상 FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 추가된 새로운 FAQ:"복잡한 URL 문자열을 만들 때 전체 URL을 [!DNL Target] 평가합니까?" |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 19.10.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target/Standard/Premium 19.9.1(2019년 9월 30일)
