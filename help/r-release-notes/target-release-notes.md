@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -27,11 +27,11 @@ source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
 
 ## Target Standard/Premium 19.10.1(2019년 10월 22일)
 
-| 기능 / 개선 사항 | 설명 |
+| 기능/향상 | 설명 |
 | --- | --- |
 | ![프리미엄 배지](/help/assets/premium.png) 사용자 기반 권장<br>사항(2019년 10월 24일) | 각 방문자의 탐색, 보기 및 구매 내역을 기반으로 항목을 권장합니다. 이러한 항목을 일반적으로 "권장"이라고 합니다.<br>이 기준을 사용하면 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 권장 사항 목록은 방문자의 최근 활동에 가중치가 적용되며, 세션 중에 업데이트되며 방문자가 사이트를 탐색할 때 더 개인화됩니다.<br>자세한 내용은 기준/알고리즘의 "사용자 기반 권장 사항" [을 참조하십시오](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
-### 개선 사항, 수정 사항 및 변경 사항
+### Adobe Experience Cloud 내비게이션
 
 * 에 로그인하면 [!DNL Adobe Experience Cloud]새 헤더 탐색으로 이동합니다. 맨 위에 검정색 막대가 있는 이전 탐색과 매우 유사해 보이지만 다음과 같은 향상된 기능을 제공합니다.
 
@@ -54,7 +54,7 @@ source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
    * 알림은 현재 헤더의 알림 [!DNL Target] 드롭다운에서  사용할 수 없습니다.
    >[!NOTE]
    >
-   >이러한 기능은 한 번에 롤아웃되지 않으며 모든 고객에게 롤아웃되지 않습니다. 다음 며칠 동안 19.10.1(2019년 10월 22 [!DNL Target Standard/Premium] 일) 릴리스를 통해 이러한 기능을 제공할 예정입니다.
+   >이러한 기능은 한 번에 롤아웃되지 않으며 모든 고객에게 롤아웃되지 않습니다. 다음 몇 주 동안 19.10.1(2019년 10월 22일) [!DNL Target Standard/Premium] 릴리스부터 이러한 기능을 제공할 예정입니다.
    >
    >새 내비게이션 막대의 롤아웃의 일부로 일부 URL이 변경된 것을 확인할 수 있습니다. 이전에 책갈피가 표시된 모든 링크는 계속 작동하지만 새 링크를 책갈피로 설정하여 빠르게 열 수 있습니다.
 
