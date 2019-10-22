@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
+source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 ---
 
@@ -31,7 +31,7 @@ source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 | 리드 생성/B2B/금융 서비스 | 구매가 없는 전환 |
 | 미디어/게시 | 참여 |
 
-## 권장 사항 키 {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 선택하는 권장 사항 키는 기준 유형을 결정합니다. [!DNL Recommendations] 활동을 설정할 때 기준 카드로 표현되는 몇 가지 기준 유형이 있습니다.
 
@@ -43,6 +43,35 @@ source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 | 인기도 | 관련 카테고리에서 가장 인기 있는 비디오나, 사이트에서 가장 자주 보는 제품과 같이 가장 인기 있는 항목을 추천합니다.<ul><li>인기도</li></ul> |
 | 최근에 본 항목 | 방문자가 마지막으로 사이트를 방문했을 때 본 항목과 같이 방문자가 가장 최근에 본 항목이나 현재 가장 트렌드가 되는 문서를 추천합니다.<br>최근에 본 항목 알고리즘은 [환경](/help/administrating-target/hosts.md) 내의 방문자 활동에 따른 결과를 반환합니다. 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 알고리즘은 해당 사이트에서 최근에 본 항목만 반환합니다.<br>이 기준 유형은 컬렉션으로 제한되지 않습니다.<ul><li>최근에 본 항목</li></ul>**참고:** 백업 권장 사항에는 최근에 본 항목 기준을 사용할 수 없습니다.<br>최근에 본 항목/미디어는 특정 속성이 있는 항목만 표시되도록 필터링 할 수 있습니다.<ul><li>최근에 본 항목 기준은 권장 사항에 있는 다른 기준처럼 구성이 가능합니다.</li><li>다른 기준과 동일한 방법으로 [컬렉션](/help/c-recommendations/c-products/collections.md), [제외](/help/c-recommendations/c-products/exclusions.md) 및 [포함](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)(가격 및 재고에 대한 특별한 규칙 포함)을 사용할 수 있습니다.</li></ul>가능한 사용 사례는 다음과 같습니다.<ul><li>여러 가지 비즈니스를 하는 다국적 기업에는 여러 디지털 속성을 갖는 방문자 보기 항목이 있을 수 있습니다. 이 경우 항목을 본 각각의 속성에 대해서만 표시하도록 최근에 본 항목을 제한할 수 있습니다. 이렇게 하면 최근에 본 항목이 다른 디지털 속성의 사이트에 표시되지 않습니다.</li></ul> |
 
+## Using a custom recommendations key {#custom-key}
+
+사용자 지정 프로필 속성 값을 기반으로 권장 사항을 만들 수도 있습니다.
+
+>[!NOTE]
+>
+>사용자 지정 프로필 매개 변수는 JavaScript, API 또는 통합을 통해 Target으로 전달할 수 있습니다. 사용자 지정 프로필 속성에 대한 자세한 내용은 방문자 프로필을 [참조하십시오](/help/c-target/c-visitor-profile/visitor-profile.md).
+
+예를 들어 사용자가 대기열에 가장 최근에 추가한 동영상을 기준으로 권장 동영상을 표시하려고 한다고 가정합니다.
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+
+Then select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+
+![새 기준 만들기 대화 상자](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+
+If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+
+예를 들어 사용자가 가장 좋아하는 브랜드의 최상위 판매 항목을 표시한다고 가정합니다.
+
+Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+
+Then select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+
+[!UICONTROL 다음의 고유한 값으로 그룹화] 옵션이 표시됩니다. 선택한 키와 일치하는 엔티티 속성을 선택합니다. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+
+[!DNL Recommendations] 이제 각 브랜드에 대해 "최상위 판매자" 목록을 생성하고 즐겨찾기 브랜드 프로필 속성에 저장된 값을 기반으로 사용자에게 적절한 "최상위 판매자" [!UICONTROL 목록을] 표시합니다.
+
+![최상위 판매자 속성](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
 ## 기준/알고리즘 {#criteria-algorithms}
 
