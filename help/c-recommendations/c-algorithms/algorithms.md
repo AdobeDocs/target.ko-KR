@@ -1,8 +1,8 @@
 ---
 description: 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.
-keywords: 권장 사항;권장 사항 활동;기준;는 알고리즘을 사용하여 함께 자주 구매하는 항목을 표시하는 권장 사항을 만들 수 있습니다
-seo-description: Adobe Target 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.
-seo-title: 기준
+keywords: 권장 사항;권장 사항 활동;기준알고리즘;추천 키;사용자 지정 키;업계 수직;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어;게시
+seo-description: Adobe Target Recommendations의 기준은 미리 결정된 방문자 행동을 기반으로 권장할 제품을 결정하는 규칙입니다.
+seo-title: Adobe Target Recommendations의 기준
 solution: Target
 title: 기준
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
+source-git-commit: 43051f3ab2687a07fbeedc0551aa4337509e4f2a
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 | 인기도 | 관련 카테고리에서 가장 인기 있는 비디오나, 사이트에서 가장 자주 보는 제품과 같이 가장 인기 있는 항목을 추천합니다.<ul><li>인기도</li></ul> |
 | 최근에 본 항목 | 방문자가 마지막으로 사이트를 방문했을 때 본 항목과 같이 방문자가 가장 최근에 본 항목이나 현재 가장 트렌드가 되는 문서를 추천합니다.<br>최근에 본 항목 알고리즘은 [환경](/help/administrating-target/hosts.md) 내의 방문자 활동에 따른 결과를 반환합니다. 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 알고리즘은 해당 사이트에서 최근에 본 항목만 반환합니다.<br>이 기준 유형은 컬렉션으로 제한되지 않습니다.<ul><li>최근에 본 항목</li></ul>**참고:** 백업 권장 사항에는 최근에 본 항목 기준을 사용할 수 없습니다.<br>최근에 본 항목/미디어는 특정 속성이 있는 항목만 표시되도록 필터링 할 수 있습니다.<ul><li>최근에 본 항목 기준은 권장 사항에 있는 다른 기준처럼 구성이 가능합니다.</li><li>다른 기준과 동일한 방법으로 [컬렉션](/help/c-recommendations/c-products/collections.md), [제외](/help/c-recommendations/c-products/exclusions.md) 및 [포함](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)(가격 및 재고에 대한 특별한 규칙 포함)을 사용할 수 있습니다.</li></ul>가능한 사용 사례는 다음과 같습니다.<ul><li>여러 가지 비즈니스를 하는 다국적 기업에는 여러 디지털 속성을 갖는 방문자 보기 항목이 있을 수 있습니다. 이 경우 항목을 본 각각의 속성에 대해서만 표시하도록 최근에 본 항목을 제한할 수 있습니다. 이렇게 하면 최근에 본 항목이 다른 디지털 속성의 사이트에 표시되지 않습니다.</li></ul> |
 
-## Using a custom recommendations key {#custom-key}
+## 사용자 지정 권장 사항 키 사용 {#custom-key}
 
 사용자 지정 프로필 속성 값을 기반으로 권장 사항을 만들 수도 있습니다.
 
@@ -53,27 +53,29 @@ source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 예를 들어 사용자가 대기열에 가장 최근에 추가한 동영상을 기준으로 권장 동영상을 표시하려고 한다고 가정합니다.
 
-Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
 
-Then select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
 
-![새 기준 만들기 대화 상자](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+   ![새 기준 만들기 대화 상자](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
 If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
 
 예를 들어 사용자가 가장 좋아하는 브랜드의 최상위 판매 항목을 표시한다고 가정합니다.
 
-Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
 
-Then select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
 
-[!UICONTROL 다음의 고유한 값으로 그룹화] 옵션이 표시됩니다. 선택한 키와 일치하는 엔티티 속성을 선택합니다. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+   [!UICONTROL 다음의 고유한 값으로 그룹화] 옵션이 표시됩니다.
 
-[!DNL Recommendations] 이제 각 브랜드에 대해 "최상위 판매자" 목록을 생성하고 즐겨찾기 브랜드 프로필 속성에 저장된 값을 기반으로 사용자에게 적절한 "최상위 판매자" [!UICONTROL 목록을] 표시합니다.
+1. 선택한 키와 일치하는 엔티티 속성을 선택합니다. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-![최상위 판매자 속성](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+   !DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
 
-## 기준/알고리즘 {#criteria-algorithms}
+   ![최상위 판매자 속성](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
+
+## Criteria/algorithms {#criteria-algorithms}
 
 [!DNL Target Recommendations]에서는 정교한 알고리즘을 사용하여 방문자의 작업이 활동에 설정된 기준에 적합한 경우를 판별합니다. 사용 가능한 권장 사항 논리 선택 사항은 권장 사항 키가 판별합니다.
 
@@ -97,7 +99,7 @@ Then select the [!UICONTROL Recommendation Logic] you want to use with this key 
 
 모든 1일 기준이 매일 두 번 실행됩니다. 모든 1주 이상 기준은 하루에 한 번 실행됩니다. 사이트 친화성 기준은 하루에 한 번 실행됩니다. 백업 기준은 하루에 두 번 실행됩니다.
 
-## 기준 정보 보기 {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 카드 위로 마우스를 이동하고 기준을 열지 않은 상태로 기준 카드에서 정보 아이콘을 클릭하여 팝업 카드에 대한 기준 세부 사항을 볼 수 있습니다.
 
@@ -111,7 +113,7 @@ Then select the [!UICONTROL Recommendation Logic] you want to use with this key 
 
 ![기준 사용 탭](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
-## 기준 결과를 표시할 준비가 되었는지 확인 {#section_03F328C07F234692B6D996DF745584B3}
+## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
 
 활동 다이어그램에서는 이제 결과를 표시할 준비가 되면 기준 카드에 표시됩니다. 결과를 표시할 준비가 되었는지 알고 있으면 활동을 활성화하여 라이브로 게시할 준비가 되었는지 확인하는 데 도움이 됩니다. 결과를 표시할 준비가 되었는지 알고 있으면 기준에 문제가 있는지 파악하는 데에도 도움이 됩니다.
 
