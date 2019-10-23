@@ -8,7 +8,7 @@ title: Target 및 대상 FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
@@ -26,6 +26,10 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
 매개 변수의 첫 번째 `Category` 인스턴스가 평가되고 두 번째 `Category` 매개 변수가 무시됩니다.
+
+다음과 같이 단일 카테고리와 연결된 여러 값이 있는 것이 좋습니다.
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
 ## 대상을 작성할 때 Target 라이브러리 아래의 사전 작성 대상이 다른 범주 아래에 표시되는 이유는 무엇입니까? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
