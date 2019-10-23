@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 43051f3ab2687a07fbeedc0551aa4337509e4f2a
+source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
 
 ---
 
@@ -63,7 +63,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 예를 들어 사용자가 가장 좋아하는 브랜드의 최상위 판매 항목을 표시한다고 가정합니다.
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
 
 1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
 
@@ -71,7 +71,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 1. 선택한 키와 일치하는 엔티티 속성을 선택합니다. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   !DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
+   [!DNL Recommendations] 이제 각 브랜드에 대해 "최상위 판매자" 목록을 생성하고 즐겨찾기 브랜드 프로필 속성에 저장된 값을 기반으로 사용자에게 적절한 "최상위 판매자" [!UICONTROL 목록을] 표시합니다.
 
    ![최상위 판매자 속성](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
