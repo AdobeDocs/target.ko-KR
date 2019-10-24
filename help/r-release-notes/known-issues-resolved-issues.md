@@ -8,7 +8,7 @@ title: 알려진 문제 및 해결된 문제
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
 
 ### 활동 QA 미리 보기 링크 {#preview}
 
-[계정에 저장된 활동이 너무 많은 경우 저장된 활동에 대한 활동 QA 미리 보기](/help/c-activities/c-activity-qa/activity-qa.md) 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도해도 됩니다. 이 문제가 계속 발생하지 않도록 하기 위해 더 이상 활발하게 사용되지 않는 저장된 활동을 보관합니다. (TNT-32697)
+계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 [활동 QA 미리 보기](/help/c-activities/c-activity-qa/activity-qa.md) 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도하면 작동합니다. 이 문제가 계속 발생하지 않도록 하려면 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오. (TNT-32697)
 
 ### 리디렉션 오퍼 {#redirect}
 
@@ -72,13 +72,17 @@ GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러
 
 MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확인할 때 일관되지 않습니다. 사용자가 요약 보기에서 그래프 보기로 전환한 후 요약 보기로 다시 전환하고 지표를 변경한 후 그래프 보기로 다시 전환하면 이 문제가 발생합니다. 이 문제가 발생해도 요약 보기에는 항상 올바른 승자가 표시됩니다. 사용자가 요약 보기 중간에 그래프 보기로 절대 전환하지 않으면 그래프 보기에 올바른 승자가 표시됩니다.
 
-### at.js
+### at.js {#atjs}
 
 다음은 at.js의 알려진 문제입니다.
 
-* at.js 2를 사용하여 수정하지 않고 경험을 만드는 경우&#x200B;*x* (예: 기본 경험), 경험은 보고서, Analytics for Target(A4T), Analytics 또는 Google Analytics에서 카운트되지 않을 수 있습니다. 또한 [메타 플러그인이](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 제대로 작동하지 않을 수 있습니다.
+* at.js 2.1.1 또는 이전 버전(예: 기본 경험)을 사용하지 않고 경험을 만드는 경우, 보고서, Analytics for Target(A4T), Adobe Analytics 또는 Google Analytics에서 경험이 카운트되지 않을 수 있습니다. 또한 [메타 플러그인이](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 제대로 작동하지 않을 수 있습니다.
 
-   As a workaround, use a whitespace in the experience content. (TNT-33366)
+   해결 방법으로 경험 컨텐츠에 공백을 사용하십시오. (TNT-33366)
+
+   >[!NOTE]
+   >
+   >이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다.최신 버전이나 at.js [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 버전으로 업그레이드하거나 2.2.0 이전 버전의 at.js에만 위에 언급된 해결 방법을 사용해야 합니다.
 
 * 페이지가 VEC(시각적 경험 작성기)에 로드되면 Target은 글로벌 mbox 설정이 활성화되었는지와, 사용자가 VEC에서 권장 사항을 적용하려고 하는 위치에 entityID 또는 categoryID가 있는지를 확인해야 합니다. 이 정보에 따라 기준 목록이 필터링됩니다. 기본 목록에는 필터링된 알고리즘이 있지만 [호환 확인란](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)을 사용하여 전체 알고리즘 목록을 볼 수 있습니다.
 
