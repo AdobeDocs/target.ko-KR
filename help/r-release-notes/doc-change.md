@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,6 +21,9 @@ source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 10월 24일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | 다음 FAQ에서 업데이트된 텍스트:"Target에서 때때로 권장 사항을 표시할 수 없는 이유는 무엇입니까?" |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js의 이전 버전(버전 2.2.0 이전 버전)에 영향을 주는 알려진 문제에 메모를 추가했습니다. |
+|  | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md) | A4T를 사용하는 활동에 대한 성공 지표의 기본 동작에 대한 참고가 추가되었습니다. |
 | 2019년 10월 22일 | [기준/알고리즘](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | 사용자 기반 권장 사항에 대한 행이 추가되었습니다. |
 |  | [기준](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | 새 섹션이 추가되었습니다."사용자 지정 추천 키 사용" |
 |  | [타겟 및 대상 FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 추가된 새로운 FAQ:"복잡한 URL 문자열을 만들 때 전체 URL을 [!DNL Target] 평가합니까?" |
