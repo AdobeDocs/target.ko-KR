@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js 버전 세부 사항
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 0e4298003d7eb99f29b700923cf53b445c3ef637
 >
 >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 
 
-## at.js 버전 2.2(2019년 10월 10일)
+## at.js 버전 2.2.0(2019년 10월 10일)
 
 at.js의 이 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
 
@@ -34,7 +34,7 @@ at.js의 이 릴리스에는 다음 개선 사항 및 수정 사항이 포함되
 
 * at.js 버전 2.2는 `serverState`라는 새 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 통해 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다. For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
-## at.js 버전 1.8(2019년 10월 10일)
+## at.js 버전 1.8.0(2019년 10월 10일)
 
 at.js의 이 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
 
