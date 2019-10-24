@@ -9,7 +9,7 @@ title: 태그 관리자 없이 Target 구현
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -112,7 +112,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   ` < *`클라이언트 코드`*>`를 1단계의 클라이언트 코드로 바꿉니다.
+   Replace `client code` with the client code from Step 1.
 
    이 URL을 로드한 결과는 다음 예와 유사해야 합니다.
 
@@ -132,9 +132,9 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
    https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
    ```
 
-   * ` < *`admin number`*>`를 본인의 관리 번호로 바꿉니다.
-   * ` < *`클라이언트 코드`*>`를 1단계의 클라이언트 코드로 바꿉니다.
-   * ` < *`version number`*>`를 원하는 [ [!DNL at.js] 버전 번호](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)(예: 1.6.2)로 바꿉니다.
+   * Replace `admin number` with your admin number.
+   * Replace `client code` with the client code from Step 1.
+   * Replace `version number` with the desired at.js version number (for example, 2.2).
    >[!IMPORTANT]
    >
    >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
@@ -253,4 +253,4 @@ ov/t_create_orderconfirm-page-mbox-atjs.xml
 |--- |--- |
 | orderId | 전환 계산을 위해 주문을 식별하는 고유한 값<br>`orderId`는 고유해야 합니다. 보고서에서 중복 주문은 무시됩니다. |
 | orderTotal | 구매품의 통화 가치<br>통화 기호는 전달하지 마십시오. 소수점(쉼표 아님)을 사용하여 십진수 값을 표시합니다. |
-| productPurchasedId(선택 사항) | 주문에서 구입한 제품 ID가 쉼표로 구분된 목록<br>이 제품 ID는 추가적인 보고 분석을 지원하기 위해 감사 보고서에 표시됩니다. |
+| productPurchasedId(선택 사항) | 주문에서 구입한 제품 ID가 쉼표로 구분된 목록<br>이 제품 ID는 추가적인 보고 분석을 지원하기 위해 감사 보고�
