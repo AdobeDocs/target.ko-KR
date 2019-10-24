@@ -10,7 +10,7 @@ topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 32fea099784cfc481028358c2270a40a98696a33
 
 ---
 
@@ -92,167 +92,52 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 | 이 기준에 대한 결과를 표시하지 않음 | 엔티티 속성 일치<br>프로필 속성 일치<br>매개 변수 일치 | 엔티티 속성 일치에 대한 기본 작업입니다.<br>이 작업은 이 선택 사항을 추가하기 전에 Target이 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |
 | 정적 값 사용 | 엔티티 속성 일치<br>프로필 속성 일치<br>매개 변수 일치 | 값이 비어 있으면 정적 값을 사용하도록 선택할 수 있습니다. |
 
-빈 값을 처리하는 예로 아래의 [시나리오 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40)를 고려하십시오.
+## 프로필 속성 일치 예 {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-## 동적 필터 시나리오 {#section_9873E2F22E094E479569D05AD5BB1D40}
+[!UICONTROL 프로필 속성] 일치를 사용하면 아래 예와 같이 방문자의 프로필과 일치하는 항목만 추천할 수 있습니다.
 
-**시나리오 1:**&#x200B;정적 필터를 사용하여 카탈로그의 항목을 카탈로그의 다른 항목에 일치시키는 대신 동적 필터를 사용하여 카탈로그의 항목을 방문자 프로필의 속성에 일치시킬 수 있습니다.
-
-예를 들어, [!UICONTROL 프로필 속성 일치] 선택 사항을 사용하여 브랜드가 `profile.favoritebrand`에 저장된 값 또는 텍스트와 같은 항목만을 추천하는 규칙을 만들 수 있습니다. 이러한 규칙을 사용할 때, 방문자가 특정 브랜드의 육상용 반바지를 보고 있다면 해당 사용자가 자주 이용하는 브랜드(방문자 프로필의 `profile.favoritebrand`에 저장된 값)와 일치하는 권장 사항만 표시됩니다.
-
-**시나리오 2:** Target이 방문자 프로필의 속성 정보를 사용하는 기능을 추가하기 전에 특정 지역 출신이고 특정 대학 학위가 있는 구직자에게만 표시되는 구인 목록을 설정하는 경우에는 서로 다른 대상(각 도시와 학위에 대해 하나씩)이 있는 많은 활동을 설정했어야 했습니다. 여러 도시의 구인 목록이 있는 경우 이 작업은 부담이 되었습니다.
-
-이제 다음 예와 같이 포함 규칙을 사용하여 방문자 프로필의 구직자 위치 및 학위를 구인 목록과 일치시킬 수 있습니다.
-
-![](assets/job_seeker.png)
-
-왼쪽에 있는 구인 목록에 따르면 방문자는 San Francisco, New York 또는 Los Angeles(`entity.jobCity`)에 있고 BSCS 또는 MBA 학위(`entity.requiredDegree`)가 있어야 합니다.
-
-오른쪽에 있는 이 구직자는 Los Angeles(`profile.usersCity`)에 있으며 MBA 학위(`profile.degree`)를 가지고 있습니다.
-
-프로필 속성이 일치하는 동적 필터를 사용하여 위치와 학위를 기반으로 이 방문자에게 적합한 구인 목록만 추천하도록 위 그림의 하단에 표시되는 필터를 작성할 수 있습니다.
-
-이러한 필터의 기준은 다음과 같습니다.
+**예 1:사용자의 즐겨찾기 브랜드의**&#x200B;항목 권장 예를 들어 프로필 속성 [!UICONTROL 일치] 옵션을 사용하여 브랜드가 에 저장된 값 또는 텍스트와 같은 항목만 권장하는 규칙을 만들 수 `profile.favoritebrand`있습니다. 이러한 규칙을 사용할 때, 방문자가 특정 브랜드의 육상용 반바지를 보고 있다면 해당 사용자가 자주 이용하는 브랜드(방문자 프로필의 `profile.favoritebrand`에 저장된 값)와 일치하는 권장 사항만 표시됩니다.
 
 ```
-entity.jobCity - equals - the value/text stored in - profile.usersCity
+Profile Attribute Matching
+brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-및
+**예 2:구직자와**&#x200B;직장 맞추기 구직자와 직업을 일치시키려고 한다고 가정합니다. 구직자와 같은 도시에 있는 일자리만 추천하고 싶으세요.
+
+다음 예와 같이, 포함 규칙을 사용하여 구직 방문자의 프로필에서 작업 목록으로의 위치를 일치시킬 수 있습니다.
 
 ```
-entity.requiredDegree - equals - the value/text stored in - profile.degree
+Profile Attribute Matching
+jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
-프로필 속성 일치를 사용하는 동적 필터를 사용하면 아래와 같이 더 적은 수의 활동으로 더 많은 일을 수행할 수 있습니다.
+## 엔티티 속성 일치 예
 
-![](assets/dynamic_before_and_after.png)
+[!UICONTROL 개체 속성] 일치를 사용하면 아래 예와 같이 사용자가 현재 보고 있는 항목의 속성과 일치하는 항목, 사용자가 가장 최근에 본 항목, 사용자가 가장 최근에 구입한 항목, 사용자가 가장 자주 본 항목 또는 방문자 프로필의 사용자 지정 속성에 저장된 항목에서 권장할 수 있습니다.
 
-위 그림의 맨 위에 있는 다이어그램은 프로필 속성을 사용하는 동적 필터가 작동하는 방식을 설명합니다. 기준(위 시나리오의 도시 및 학위)을 사용하는 하나의 대상을 만들어 방문자에게 해당하는 구인 목록을 표시할 수 있습니다. 이 필터는 위치 및 학위와 관련하여 거의 무한한 수의 가능성에 작동합니다.
-
-그림의 아래쪽에 있는 다이어그램은 프로필 속성을 사용하는 동적 필터를 사용하여 기준이나 프로모션을 구성하지 않으려는 경우 설정해야 하는 많은 대상 중 두 가지를 보여줍니다. 각 도시와 각 학위에 대해 다른 대상을 설정해야 할 것입니다. 특히 여러 도시에 많은 수의 구인 목록이 있는 경우 필요한 대상 수는 점점 더 빠르게 처리하기 힘들어질 수 있습니다.
-
-프로필 속성을 사용하지 않는 경우 대상 및 경험은 다음 그림의 상단과 비슷하게 표시되지만 모든 상상 가능한 시나리오에 대해 추가적인 대상/경험 쌍이 있을 수 있습니다.
-
-![](assets/dynamic_audience_experience_pairs.png)
-
-엔티티 속성을 사용자 속성에 일치시키는 프로필 속성을 사용하는 동적 필터를 사용하면 위 그림의 하단에 표시된 것처럼 원하는 경험을 동적으로 즉석에서 전달하는 하나의 대상을 설정할 수 있습니다.
-
-각 구인 목록에 필요한 정보가 포함되어 있고 사용자 프로필 내에서 필요한 정보를 캡처 중이라면 대상 및 경험을 만들고 관리하는 것이 크게 간편해집니다.
-
-**시나리오 3:**&#x200B;한 스포츠 회사가 한 개인이 좋아하는 팀의 웹 사이트에 기사를 표시하려고 합니다. 모든 기사에는 기사에 나온 모든 팀을 포함하는 `entity.featuredTeams`를 사용하는 필드가 있을 수 있습니다. 모든 프로필 속성에는 사용자가 "가입 중"인 좋아하는 팀 목록이 있을 수 있습니다.
-
-샘플 포함 규칙은 다음과 같은 모습일 수 있습니다.
-
-`entity.featuredTeam`에 `profile.favoriteTeams`와 일치하는 값이 하나 이상 있는 경우에만 포함합니다.
-
-다음 예를 고려할 때 하나 이상의 전체 문자열 값이 일치(완전히)해야 한다는 것을 잊지 마십시오. 일치하는 문자열이 없는 경우 일치하는 항목이 없습니다. 일치 규칙에서 엔티티 속성의 분리(디커플링)에 주목하십시오. 분리(디커플링)되면 서로 다른 메타데이터 필드 간에 일치시킬 수 있습니다.
-
-예/설명
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics"`
-
-"Red Sox"는 같지 않지만 "Athletics"가 같기 때문에 일치로 간주됩니다.
-
-`"entity.featuredTeam" - "Athletics,Red Sox" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-두 팀이 모두 일치할 필요는 없지만 "Athletics"와 "Red Sox"가 모두 같으므로 일치로 간주됩니다.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletics,Red Sox"`
-
-"Red Sox"는 같지 않지만 "Athletics"가 같기 때문에 일치로 간주됩니다.
-
-`"entity.featuredTeam" - "Athletics" equals "profile.favoriteTeams" - "Athletic"`
-
-"Athletics"(복수)는 "Athletic"(단수)과 같지 않으므로 일치하지 않습니다.
-
-또는 "equals"(다음과 같음)대신 "contains"(포함)를 사용하여 이것을 일치로 만들 수도 있습니다.
-
-`"entity.featuredTeam" - "Athletic" equals "profile.favoriteTeams" - "Athletics"`
-
-"Athletic"(단수)은 "Athletics"(복수)와 같지 않으므로 일치하지 않습니다.
-
-또는 "equals"(다음과 같음)대신 "starts with"(다음으로 시작)를 사용하여 이것을 일치로 만들 수도 있습니다.
-
-**시나리오 4:**&#x200B;다음 그림에서는 "equals"(다음과 같음)와 "is between"(다음 사이) 연산자를 사용하여 동일한 카테고리 및 동일한 브랜드의 더 비싼 항목을 프로모션하는 방법을 보여줍니다. 예를 들어, 스포츠 의류 회사는 육상용 반바지를 보고 있는 방문자에게 상향 판매하려고 더 비싼 런닝화를 프로모션할 수 있습니다.
-
-![](assets/dynamic3.png)
-
-이 예에는 다음 규칙이 사용됩니다.
+**예 3:더 비싼 제품으로**&#x200B;업셀링 의류 소매업체로서 사용자가 더 높은 가격에 더 많은 수익을 창출할 수 있도록 유도하고자 한다고 가정합니다. "같음" 및 "사이" 연산자를 사용하여 동일한 카테고리와 동일한 브랜드의 보다 비싼 항목을 홍보할 수 있습니다. 예를 들어, 런닝 회사를 보는 방문자는 런닝화를 보는 방문자를 업셀링하기 위해 더 비싼 런닝 구두를 홍보할 수 있습니다.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
 And 
+Entity Attribute Matching
 brand - equals - current item's - brand 
 And 
+Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
->[!NOTE]
->
->여러 규칙을 사용하는 동적 프로모션의 키(그림에서 처음 두 개의 규칙에서 "현재 항목"으로 레이블이 지정된 세 번째 드롭다운 목록)는 변경할 수 없습니다.
-
-**시나리오 5:**&#x200B;두 번째 그림에서는 "equals"(다음과 같음)와 "is between"(다음 사이) 연산자를 사용하여 동일한 카테고리, 동일한 브랜드 및 판매자 브랜드의 더 비싼 항목을 프로모션하는 방법을 보여줍니다. 예를 들어, 사무용품 회사는 프린터를 보고 있는 방문자에게 상향 판매하기 위해, 동일한 브라우저와 이 회사의 자체 브랜드(판매자 브랜드), 이렇게 두 가지 중 더 비싼 토너 카트리지를 프로모션할 수 있습니다.
-
-![](assets/dynamic4.png)
-
-이 예에는 다음 규칙이 사용됩니다.
+**예 4:비공개 레이블 제품**&#x200B;홍보 다이내믹한 필터와 정적인 필터를 혼합하여 비공개 레이블 제품을 홍보할 수 있습니다. 예를 들어, 사무용품 회사는 회사 주택 브랜드의 토너 카트리지를 홍보하여 토너를 보는 방문자에게 보다 수익성 높은 매출을 올리고 회사 주택 브랜드의 펜을 홍보하여 펜을 보고 있는 방문자에게 더 많은 수익성을 얻을 수 있도록 할 수 있습니다.
 
 ```
+Entity Attribute Matching
 category - equals - current item's - category 
-And 
-IsHouseBrand - equals - true 
-And 
-value - is between - 100% and 1000% of - current item's - value
+And
+Static Filter
+IsHouseBrand - equals - true
 ```
-
-이 예는 두 개의 동적 규칙과 하나의 정적 규칙을 사용합니다.
-
-**시나리오 6:**&#x200B;세 번째 그림에서는 "does not equal"(다음과 같지 않음) 연산자를 사용하여 방문자가 현재 보고 있는 시리즈와 같지 않은 시리즈를 프로모션하는 방법을 보여줍니다. 예를 들어 미디어 웹 사이트는 방문자가 현재 보고 있는 시리즈와 다른 TV 시리즈를 프로모션할 수도 있습니다.
-
-![](assets/dynamic5.png)
-
-이 예에는 다음 규칙이 사용됩니다.
-
-```
-series - does not equal - current item's - series
-```
-
-**시나리오 7:**&#x200B;네 번째 그림은 방문자가 가장 최근에 구매한 항목을 위한 호환되는 액세서리 항목을 프로모션하는 방법을 보여줍니다. 예를 들어 누군가가 새 TV를 구입했다면 이 사람에게 HDMI 케이블을 동적으로 프로모션할 수 있을 것입니다.
-
-![](assets/dynamic1.png)
-
-이 예에는 다음 규칙이 사용됩니다.
-
-```
-id - equals - last purchased item's - compatibleAccessoryids
-```
-
-**시나리오 8:**&#x200B;다음 그림에서는 방문자가 현재 보고 있는 항목의 90%~110% 가격으로 판매 중인 항목을 프로모션하는 방법을 보여줍니다. 예를 들어, 어떤 사람이 TV를 보고 있는 경우 거의 동일한 가격대에서 판매 중인 유사한 TV를 동적으로 프로모션할 수 있습니다.
-
-![](assets/dynamic2.png)
-
-이 예에는 다음 규칙이 사용됩니다.
-
-```
-salesPrice - is between - 90% and 110% of - current item's - price
-```
-
-**시나리오 9:**[엔티티 속성 일치, 프로필 속성 일치 및 매개 변수 일치로 필터링할 때 빈 값 처리](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8)에서 설명한 대로 비어 있는 값을 처리하는 방법과 관련하여 스포츠 미디어 사이트를 위한 다음 시나리오를 생각해 보십시오.
-
-스포츠 미디어 사이트의 컨텐츠 팀은 사용자가 좋아하는 팀에 대해 사용자에게 컨텐츠를 표시하려고 합니다. 사용자가 좋아하는 팀을 지정한 경우 팀은 해당 팀에 대한 미디어를 표시하고 싶어 합니다. 사용자가 좋아하는 팀을 지정하지 않았다면 팀은 "*x*&#x200B;이(가) 비어 있는 경우" 드롭다운 목록을 사용하여 다음 중 하나를 수행할 수 있습니다.
-
-* 다음 그림과 같이 팀 필터를 모두 무시하려면 [!UICONTROL 이 필터링 규칙 무시] 선택 사항을 사용합니다.
-
-   ![](assets/missing1.png)
-
-* 다음 그림과 같이 이 기준의 일부로서 어떠한 미디어도 표시하지 않으려면 [!UICONTROL 이 기준에 대한 결과를 표시하지 않음] 선택 사항을 사용합니다.
-
-   ![](assets/missing7.png)
-
-* 다음 그림과 같이 특정 팀(예를 들면, 49ers입니다.)에 대한 미디어를 표시하려면 [!UICONTROL 정적 값 사용] 선택 사항을 사용합니다.
-
-   ![](assets/missing10.png)
 
 ## 주의 사항 {#section_A889FAF794B7458CA074DEE06DD0E345}
 
@@ -264,7 +149,7 @@ salesPrice - is between - 90% and 110% of - current item's - price
 
 다음 표는 유효 규칙과 런타임 중에 호환되지 않을 수 있는 규칙을 보여줍니다.
 
-| 호환 규칙 | 잠재적으로 호환되지 않는 규칙 |
+| 호환 규칙 | 호환되지 않는 규칙 |
 |--- |--- |
 | 값 - 다음 사이 - 현재 항목의 90%와 110% - salesValue | salesValue - 다음 사이 - 현재 항목의 90%와 110% - 값 |
 | 값 - 다음 사이 - 현재 항목의 90%와 110% - 값 | clearancePrice - 다음 사이 - 현재 항목의 90%와 110% - 순익 |
