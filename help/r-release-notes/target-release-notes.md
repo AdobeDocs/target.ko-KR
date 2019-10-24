@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 34809d458b4e43e5ed9715803541a81754ee7e0f
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -27,7 +27,7 @@ source-git-commit: 34809d458b4e43e5ed9715803541a81754ee7e0f
 
 ## Target Standard/Premium 20.1.1
 
-다음 Target 릴리스는 2020년 1월에 있을 예정입니다. 정확한 날짜와 기능은 여기에서 발표될 예정입니다.
+Target Standard/Premium 20.1.1 릴리스는 2020년 1월에 제공될 예정입니다. 정확한 날짜, 기능 및 개선 사항은 여기에서 발표될 예정입니다.
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
