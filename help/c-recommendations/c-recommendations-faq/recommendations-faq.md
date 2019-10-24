@@ -1,8 +1,8 @@
 ---
 description: 권장 사항 활동에 대한 FAQ 목록
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;권장 사항;특수 문자;속성 가중치;콘텐츠 유사성
-seo-description: 권장 사항 활동에 대한 FAQ 목록
-seo-title: 권장 사항 FAQ
+seo-description: Adobe Target Recommendations 활동에 대한 FAQ 목록
+seo-title: Adobe Target Recommendations FAQ
 solution: Target
 title: 권장 사항 FAQ
 title-outputclass: premium
@@ -10,14 +10,14 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 권장 사항 FAQ{#recommendations-faq}
 
-권장 사항 활동에 대한 FAQ 목록
+Adobe Target Recommendations 활동에 대한 FAQ 목록
 
 ## 내 카탈로그에 있는 항목에 대한 업데이트를 내 사이트에 반영하는 데 얼마나 걸립니까?
 
@@ -119,9 +119,9 @@ Target에서 [!UICONTROL 호환] 확인란이 표시되지 않는 특수한 경�
 
 때로는 Target에서 사용 가능한 권장 사항 수가 적어서 권장 사항이 표시되지 않을 수 있습니다.
 
-기준당 생성된 값의 수는 디자인에 지정된 엔티티 수의 5배입니다. 런타임 필터링(예: 재고, mbox 속성 일치)은 5x개의 값을 생성한 후에 적용되며, 따라서 전달 시 5x개보다 적은 수의 값으로 끝날 수 있습니다. 이 상황을 완화하려면 추가 엔티티를 숨겨서 디자인의 엔티티 수를 늘리십시오.
+기준당 생성된 값의 수는 디자인에 지정된 엔티티 수의 3배입니다. 런타임 필터링(예: 재고, mbox 속성 일치)은 3x개의 값을 생성한 후에 적용되며, 따라서 전달 시 3x개보다 적은 수의 값으로 끝날 수 있습니다. 이 상황을 완화하려면 추가 엔티티를 숨겨서 디자인의 엔티티 수를 늘리십시오.
 
-다음 JavaScript는 요청한 엔티티 수를 늘리기 위해 디자인의 시작 부분에서 사용할 수 있습니다. 이 예제에서 요청된 엔티티 수는 50(5x10)입니다.
+다음 JavaScript는 요청한 엔티티 수를 늘리기 위해 디자인의 시작 부분에서 사용할 수 있습니다. 이 예제에서 요청된 엔티티 수는 30(3x10)입니다.
 
 ```
 #foreach($entity in $entities) 
