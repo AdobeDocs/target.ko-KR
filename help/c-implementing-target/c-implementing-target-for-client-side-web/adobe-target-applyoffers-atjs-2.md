@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 adobe.target.applyOffers() 함수 정보입니다. '
-keywords: adobe.target.applyOffers;applyOffers;applyoffers;apply offers;at.js;functions;functions
+keywords: adobe.target.오퍼적용;오퍼 적용;오퍼적용;오퍼 적용;at.js;함수;함수
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.applyOffers(options) 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.applyOffers(options) 함수 정보입니다.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: adobe.target.applyOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -27,6 +27,10 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | 응답 | 개체 | 예 | `getOffers()`의 응답 개체.<br>아래의 "요청" 표를 참조하십시오. |
 
 ## 응답
+
+>[!NOTE]
+>
+>아래 나열된 [모든 필드에 대해 허용되는 유형에 대한 자세한 내용은 배달 API 설명서를](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 참조하십시오.
 
 | 필드 이름 | 설명 |
 | --- | --- |
