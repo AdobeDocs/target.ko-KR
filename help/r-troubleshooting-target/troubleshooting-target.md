@@ -8,7 +8,7 @@ title: Target 문제 해결
 topic: 고급,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -70,6 +70,7 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 * [Target 최적화 및 개인화 FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Target 및 대상 FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [프로필 스크립트 속성](/help/c-target/c-visitor-profile/profile-parameters.md)
+* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
 
 ## 콘텐츠
 
