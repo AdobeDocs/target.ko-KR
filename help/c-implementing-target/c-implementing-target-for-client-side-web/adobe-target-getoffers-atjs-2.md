@@ -1,6 +1,6 @@
 ---
 description: 'at.js에 대한 adobe.target.getOffers() 함수 정보입니다. '
-keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;functions
+keywords: adobe.target.오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;at.js;함수;함수
 seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers(options) 함수 정보입니다.
 seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers() 함수 정보입니다.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -23,11 +23,15 @@ source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
-| consumerId | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 보조 데이터 ID를 생성하는 데 사용됩니다. 이 키는 방문자당 고유한 문자열입니다. |
+| consumerId | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 보조 데이터 ID를 생성하는 데 사용됩니다. 이 키는 방문자별로 고유한 문자열입니다. |
 | 요청 | 개체 | 예 | 아래의 "요청" 표를 참조하십시오. |
 | timeout | 숫자 | 아니오 | 요청 시간 제한. 지정하지 않으면 기본값 at.js 시간 제한이 사용됩니다. |
 
 ## 요청
+
+>[!NOTE]
+>
+>아래 나열된 [모든 필드에 대해 허용되는 유형에 대한 자세한 내용은 배달 API 설명서를](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 참조하십시오.
 
 | 필드 이름 | 필수? | 제한 | 설명 |
 | --- | --- | --- | --- |
