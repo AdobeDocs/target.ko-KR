@@ -1,21 +1,21 @@
 ---
 description: 특정 페이지에 있거나 특정 mbox 매개 변수를 가진 방문자를 타깃팅합니다.
 keywords: 사이트 페이지;타겟 사이트 페이지;타깃팅;현재 페이지;타겟 현재 페이지;이전 페이지;타겟 이전 페이지;랜딩 페이지;타겟 랜딩 페이지;mbox;타겟 mbox
-seo-description: 특정 페이지에 있거나 특정 mbox 매개 변수를 가진 방문자를 타깃팅합니다.
-seo-title: 사이트 페이지
+seo-description: Adobe Target을 사용하여 특정 페이지에 있거나 특정 mbox 매개 변수를 갖는 방문자를 타깃팅할 수 있습니다.
+seo-title: Adobe Target의 사이트 페이지
 solution: Target
 title: 사이트 페이지
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
 
 # 사이트 페이지{#site-pages}
 
-특정 페이지에 있거나 특정 mbox 매개 변수를 가진 방문자를 타깃팅합니다.
+특정 페이지에 있거나 특정 mbox 매개 변수를 가진 방문자를 타깃팅할 수 있습니다.
 
 >[!NOTE]
 >
@@ -56,6 +56,19 @@ source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 사용하십시오.
 
 ![](assets/site_pages.png)
+
+## 문제 해결 {#ts}
+
+* 랜딩 페이지 대상이 제대로 작동하려면 요청에 `mboxReferrer` mbox 매개 변수가 제대로 설정되어 있어야 합니다. at.js JavaScript 라이브러리는 를 사용하여 `mboxReferrer` 페이지에서 가져옵니다 `document.referrer`.
+
+   이러한 매개 변수가 제대로 설정되지 않은 경우 방문자는 후속 페이지로 이동한 후 활동을 떠날 수 있습니다. 예를 들어 랜딩 페이지에서 `document.referrer` 사용되지만 이후 페이지에서 사용되지 않는 경우 방문자가 활동에 남아 있는지 확인할 수 [!DNL Target] 없습니다.
+
+   이 상황이 발생하면 다음 작업 중 하나를 수행하는 것이 좋습니다.
+
+   * 웹 사이트가 `document.referrer` 올바로 로드되는지 확인합니다.
+   * 타깃팅 목적으로 사용할 [mbox 매개](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) 변수를 [!DNL Target] 전달합니다.
+   * 랜딩 [페이지 활동](/help/c-activities/t-test-ab/test-ab.md) 대신 A/B 테스트 활동을 사용합니다. A/B 테스트 활동은 동일한 방문자에 대한 경험을 전환하지 않습니다.
+   * 대신 [방문자 프로필을](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 사용하십시오.
 
 ## 교육 비디오: 대상 만들기
 
