@@ -2,13 +2,13 @@
 description: 문제 해결 항목, FAQ 및 기타 유용한 항목을 포함하여 Adobe Target에서 발생할 수 있는 문제들을 해결하는 데 도움이 되는 주제 목록입니다.
 keywords: target 문제 해결;target 문제해결
 seo-description: 문제 해결 항목, FAQ 및 기타 유용한 항목을 포함하여 Adobe Target에서 발생할 수 있는 문제들을 해결하는 데 도움이 되는 주제 목록입니다.
-seo-title: Target 문제 해결
+seo-title: Adobe Target 문제 해결
 solution: Target
 title: Target 문제 해결
 topic: 고급,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
 
 ---
 
@@ -70,7 +70,7 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 * [Target 최적화 및 개인화 FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Target 및 대상 FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [프로필 스크립트 속성](/help/c-target/c-visitor-profile/profile-parameters.md)
-* [[Site pages](/help/c-target/c-audiences/c-target-rules/site-pages.md)]
+* [사이트 페이지](/help/c-target/c-audiences/c-target-rules/site-pages.md)
 
 ## 콘텐츠
 
