@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -112,20 +112,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 **[!UICONTROL 알고리즘 사용]탭을 클릭하여 선택한 기준을 참조하는 활동 목록을 표시합니다.** 카드에 활성 및 비활성 활동이 나열됩니다. 라이브 활동 또는 활동 없음 드롭다운 목록을 클릭하여 해당 기준을 참조하는 전체 활동 목록을 표시합니다. 활동 링크를 클릭하여 편집할 활동을 열 수 있습니다.
 
 ![기준 사용 탭](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
-
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-활동 다이어그램에서는 이제 결과를 표시할 준비가 되면 기준 카드에 표시됩니다. 결과를 표시할 준비가 되었는지 알고 있으면 활동을 활성화하여 라이브로 게시할 준비가 되었는지 확인하는 데 도움이 됩니다. 결과를 표시할 준비가 되었는지 알고 있으면 기준에 문제가 있는지 파악하는 데에도 도움이 됩니다.
-
->[!NOTE]
->
->로드 시간에 대한 논의에 대해서는 [기준 만들기](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)의 "예상 기준 처리 시간"을 참조하십시오.
-
-다음 그림은 권장 사항 활동의 개요 페이지에 활동 다이어그램을 나타낸 것입니다. 또한 활동 생성 워크플로우 중 2단계의 기준 상태 결과를 사용하여 활동 다이어그램을 볼 수 있습니다.
-
-![개요 페이지의 기준 상태](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-상태 결과에는 다음 다이어그램에 나와 있는 대로 결과 준비, 결과가 준비되지 않음 및 피드 실패가 포함됩니다.
-
-![](assets/criteria_status_multi.png)
 
