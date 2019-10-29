@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -22,6 +22,7 @@ source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2019년 10월 29일 | [컨텐츠 유사성](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 참고가 추가되었습니다. |
+|  | [Recommendations 활동 미리 보기 및 시작](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 새 주제입니다.  |
 | 2019년 10월 25일 | [사용자 지정 매개 변수](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 타깃팅이 내부 mbox 매개 변수에서 평가되지 않음을 설명하는 "고려 사항" 아래에 새 항목이 추가되었습니다. |
 |  | [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | 주제가 완전히 업데이트되었으며 오래된 예가 제거되었습니다. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 요청/응답(배열, 문자열 등)에 사용할 수 있는 유형을 이해하는 데 도움이 되는 Target 배달 API 설명서에 대한 링크가 추가되었습니다. |
@@ -100,7 +101,6 @@ source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 |  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | 분류 프로세스가 완료되는 데 걸리는 시간에 관한 설명이 업데이트되었습니다. |
 |  | [개인 정보 보호 및 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | 캘리포니아 소비자 개인 정보 보호법(CCPA)에 대한 정보를 포함하도록 주제가 업데이트되었습니다. |
 | 2019년 8월 6일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.0 릴리스의 릴리스 노트를 추가했습니다. |
-|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | 섹션: "예상 기준 처리 시간"이 새로 업데이트되었습니다. |
 |  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | [!DNL Analysis Workspace]에서 [!UICONTROL 활동 노출 횟수] 및 [!UICONTROL 활동 전환] 지표 사용에 대한 고려 사항이 업데이트되었습니다. |
 | 2019년 8월 1일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 엔터프라이즈 권한의 API 지원에 대한 중요 알림을 추가했습니다. |
 |  | [작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | 새 주제입니다.  |
