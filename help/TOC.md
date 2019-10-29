@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/ko-KR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
       + Enterprise 사용자 권한 {#enterprise}
          + [Enterprise 사용자 권한](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 권한 구성](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [작업 영역에 Adobe I/O 통합 액세스 권한 부여 및 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Dynamic Media Classic 통합](administrating-target/scene7-settings.md)
    + [호스트](administrating-target/hosts.md)
    + [응답 토큰](administrating-target/response-tokens.md)
@@ -57,7 +57,7 @@ source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
          + [개인 정보 보호 및 데이터 보호 규정](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)
          + [Target 쿠키 삭제](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome samesite 쿠키 정책](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
-         + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
+         + [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [CSP(Content Security Policy) 디렉티브](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
       + 데이터를 Target에 가져오는 방법 {#methods}
          + [메서드](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
@@ -279,7 +279,7 @@ source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
       + [프로필 속성](c-target/c-visitor-profile/profile-parameters.md)
       + [카테고리 친화성](c-target/c-visitor-profile/category-affinity.md)
       + [고객 속성](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [mbox3rdPartyId에 대한 실시간 프로필 동기화](c-target/c-visitor-profile/3rd-party-id.md)
+      + [mbox3rdPartyID에 대한 실시간 프로필 동기화](c-target/c-visitor-profile/3rd-party-id.md)
       + [프로필 및 변수 용어집](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Target 및 대상 FAQ {#faq-audiences}
       + [Target 및 대상 FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
@@ -370,6 +370,7 @@ source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
       + [기준 선택](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [Recommendations 활동 미리 보기 및 시작](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [오퍼로서의 Recommendations](c-recommendations/recommendations-as-an-offer.md)
    + FAQ {#recommendations-faq}
       + [권장 사항 FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
