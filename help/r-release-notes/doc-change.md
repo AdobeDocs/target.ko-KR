@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 10월 29일 | [컨텐츠 유사성](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 참고가 추가되었습니다. |
 |  | [사용자 지정 매개 변수](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 타깃팅이 내부 mbox 매개 변수에서 평가되지 않음을 설명하는 "고려 사항" 아래에 새 항목이 추가되었습니다. |
 |  | [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | 주제가 완전히 업데이트되었으며 오래된 예가 제거되었습니다. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 요청/응답(배열, 문자열 등)에 사용할 수 있는 유형을 이해하는 데 도움이 되는 Target 배달 API 설명서에 대한 링크가 추가되었습니다. |
