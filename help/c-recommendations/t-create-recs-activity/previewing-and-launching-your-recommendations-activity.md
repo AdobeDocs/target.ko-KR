@@ -10,7 +10,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
 
 ---
 
@@ -23,6 +23,7 @@ Recommendations, A/ [!UICONTROL B 테스트]또는 [!UICONTROL XT](Experience Ta
 
 활동을 만든 후 [!DNL Recommendations] 알고리즘을 실행하여 권장 사항을 생성합니다. 이 알고리즘은 실행하는 데 몇 시간이 걸릴 수 있습니다.
 
+기준 상태가 나열되는 활동 [!UICONTROL 개요] 다이어그램에서 알고리즘의 실행을 완료했는지 여부를 확인할 수 있습니다. 다음 그림은 [!DNL Recommendations] 활동 개요 페이지의 활동 다이어그램의 상태를 [!UICONTROL 보여줍니다] .
 
 ![Recommendations 활동 개요 페이지](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -36,7 +37,7 @@ Recommendations, A/ [!UICONTROL B 테스트]또는 [!UICONTROL XT](Experience Ta
 * [!UICONTROL 결과 준비 안 됨]:알고리즘이 실행되지 않았음을 나타냅니다.
 * [!UICONTROL 피드 실패]:사용자 지정 기준 피드 파일을 검색할 수 없음을 나타냅니다.
 
-![결과 대화 상자](/help/c-recommendations/t-create-recs-activity/assets/results.png)
+![결과 대화 상자](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
 ## 알고리즘을 실행하는 데 얼마나 걸립니까?
 
@@ -48,7 +49,7 @@ Recommendations, A/ [!UICONTROL B 테스트]또는 [!UICONTROL XT](Experience Ta
 
 mbox를 동작 데이터 소스로 선택한 경우, 기준이 만들어지면 즉시 실행됩니다. 사용되는 동작 데이터의 분량과 카탈로그 크기에 따라 알고리즘을 실행하는 데 최대 12시간이 걸릴 수 있습니다. 일반적으로 기준 구성을 변경하면 알고리즘이 재실행됩니다. 변경 내용에 따라 이전에 계산된 권장 사항은 다시 실행이 완료될 때까지 사용할 수 없거나 큰 변경 사항에 대해서는 다시 실행이 완료될 때까지 백업 또는 기본 컨텐츠만 사용할 수 있습니다. 알고리즘이 수정되지 않으면 [!DNL Target]이 선택한 데이터 범위에 따라 12~48시간 간격으로 자동 재실행됩니다.
 
-## Adobe Analytics
+### Adobe Analytics
 
 기준이 [!DNL Adobe Analytics]을 동작 데이터 소스로 사용하는 경우 기준 가용성의 시간은 선택한 보고서 세트 및 전환 창이 다른 모든 기준에 사용되었는지 여부에 따라 달라집니다.
 
