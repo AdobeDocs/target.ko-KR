@@ -8,7 +8,7 @@ title: Target 릴리스 노트(현재)
 topic: 권장 사항
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -18,6 +18,12 @@ source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 이러한 릴리스 노트는 Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 또한 Target API, SDK, JavaScript 라이브러리(at.js) 및 기타 플랫폼 변경 사항에 대한 릴리스 노트도 포함되어 있습니다(해당되는 경우).
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+## Target Standard/Premium 19.10.2(2019년 10월 31일)
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| ![프리미엄 배지](/help/assets/premium.png) 다중 값 속성 | 다중 값 필드로 작업하려는 경우가 있습니다. 다음 예를 생각해 보십시오.<ul><li>사용자에게 동영상을 제공합니다. 특정 영화에는 여러 배우가 출연한다.</li><li>콘서트 티켓을 팔아요 지정된 사용자는 여러 개의 즐겨찾기 밴드를 가지고 있습니다.</li><li>옷을 팔아요 셔츠는 여러 크기로 제공됩니다.</li></ul>이러한 시나리오에서 권장 사항을 처리하려면 다중 값 데이터를 Target Recommendations로 전달하고 특수 다중 값 연산자를 사용할 수 있습니다.<br>자세한 내용은 다중 값 [속성을](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)사용한 작업을 참조하십시오. |
 
 ## Target Standard/Premium 19.10.1(2019년 10월 22일)
 
