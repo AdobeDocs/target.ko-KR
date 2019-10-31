@@ -1,22 +1,22 @@
 ---
-description: Target 구현에서 각 웹 페이지의 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름인 글로벌 mbox에 대한 정보입니다.
+description: 글로벌 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
 keywords: 글로벌 mbox;mbox.js 구현;at.js 구현
-seo-description: Target 구현에서 각 웹 페이지의 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름인 글로벌 mbox에 대한 정보입니다.
+seo-description: 글로벌 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
 seo-title: 글로벌 mbox 이해
 solution: Target
 subtopic: 시작하기
-title: 글로벌 mbox 이해
+title: 글로벌 mbox 이해 Adobe Target에서
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
 
 # 글로벌 mbox 이해{#understand-the-global-mbox}
 
-Target 구현에서 각 웹 페이지의 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름인 글로벌 mbox에 대한 정보입니다.
+글로벌 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
 
 기본적으로 글로벌 mbox에는 [!DNL target-global-mbox]라는 이름이 지정됩니다. 필요한 경우 이 이름을 해당 계정용으로 바꿀 수 있습니다.
 
