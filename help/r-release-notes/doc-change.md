@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 10월 30일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Premium 19.10.2(2019년 10월 31일) 릴리스에 대한 정보가 추가되었습니다. |
 | 2019년 10월 29일 | [컨텐츠 유사성](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 참고가 추가되었습니다. |
 |  | [Recommendations 활동 미리 보기 및 시작](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 새 주제입니다.  |
 | 2019년 10월 25일 | [사용자 지정 매개 변수](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 타깃팅이 내부 mbox 매개 변수에서 평가되지 않음을 설명하는 "고려 사항" 아래에 새 항목이 추가되었습니다. |
