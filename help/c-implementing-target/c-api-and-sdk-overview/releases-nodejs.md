@@ -7,7 +7,7 @@ solution: Target
 title: 릴리스 노트 - Target Node.js SDK
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
+source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 # 릴리스 노트 - Target Node.js SDK
 
 Adobe Target의 [Node.js SDK와 관련된 릴리스 노트입니다](https://github.com/adobe/target-nodejs-sdk).
+
+Target Node.js SDK를 사용하여 [!DNL Target] 서버측을 배포할 수 있습니다.
+
+이 Node.js SDK를 사용하면 [!DNL Target] , [!DNL Adobe Experience Cloud] 및 [!DNL Adobe Experience Cloud Identity Service]같은 다른 [!DNL Adobe Analytics]솔루션과 쉽게 통합할 수 [!DNL Adobe Audience Manager]있습니다.
+
+Node.js SDK는 Adobe의 전달 API를 [!DNL Target] 통해 통합할 때 모범 사례를 도입하고 복잡성을 제거하여 엔지니어링 팀이 비즈니스 로직에 집중할 수 있도록 합니다.
 
 ## 버전 1.0.0(2019년 10월 9일)
 
