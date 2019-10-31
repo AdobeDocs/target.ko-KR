@@ -8,7 +8,7 @@ title: 알려진 문제 및 해결된 문제
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -24,6 +24,10 @@ source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
+
+### 페이지 전달 {#page-delivery}
+
+URL에 (/checkout, /cart) 포함)과 같은 템플릿 규칙을 [페이지 배달에서](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)추가하면 추가 공백이 규칙에 접두사로 추가됩니다. 이것은 외관 문제이며 대상 정의 작성 및 오퍼 전달에 영향을 주지 않습니다. (TGT-35916)
 
 ### 활동 QA 미리 보기 링크 {#preview}
 
