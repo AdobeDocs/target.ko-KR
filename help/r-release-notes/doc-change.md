@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -21,7 +21,11 @@ source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2019년 10월 30일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Premium 19.10.2(2019년 10월 31일) 릴리스에 대한 정보가 추가되었습니다. |
+| 2019년 10월 31일 | [다중 값 특성을 사용한 작업](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 새 주제입니다.  |
+|  | [at.js 1.*x*&#x200B;에서 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters)로 업그레이드 | 새 섹션이 추가되었습니다."Which at.js 1.*대상을 만들기 위한 x* 매개 변수는 at.js 2에서 지원되지 않습니다.*x*?" |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 템플릿 규칙에 추가되는 추가 공간에 대한 알려진 새 문제가 추가되었습니다. |
+|  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Premium 19.10.2 릴리스에 대한 정보가 추가되었습니다. |
+| 2019년 10월 30일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 Target Premium 19.10.2(2019년 10월 31일) 릴리스에 대한 정보가 추가되었습니다. |
 | 2019년 10월 29일 | [컨텐츠 유사성](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | 참고가 추가되었습니다. |
 |  | [Recommendations 활동 미리 보기 및 시작](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | 새 주제입니다.  |
 | 2019년 10월 25일 | [사용자 지정 매개 변수](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | 타깃팅이 내부 mbox 매개 변수에서 평가되지 않음을 설명하는 "고려 사항" 아래에 새 항목이 추가되었습니다. |
