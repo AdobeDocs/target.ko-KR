@@ -8,7 +8,7 @@ title: Target 릴리스 노트(사전 릴리스)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 
 ---
 
@@ -17,13 +17,19 @@ source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 이러한 릴리스 노트는 최신 또는 예정된 [!DNL Adobe Target] 릴리스의 기능, 향상된 기능 및 수정 사항에 대한 정보를 제공합니다.
 
-**마지막 업데이트: 2019년 10월 230일**
+**마지막 업데이트: 2019년 10월 31일**
 
 >[!NOTE]
 >
 >이러한 릴리스 노트에는 사전 릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다. 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일하거나 다를 수 있습니다.
 >
 >괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+## Target 플랫폼(2019년 10월 31일)
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| Java SDK | Java [!DNL Target] SDK를 사용하여 [!DNL Target] 서버측을 배포할 수 있습니다. 이 Java SDK를 사용하면 [!DNL Target] 및 [!DNL Adobe Experience Cloud] 같은 다른 솔루션과 쉽게 통합할 수 [!DNL Adobe Experience Cloud Identity Service][!DNL Adobe Analytics][!DNL Adobe Audience Manager]있습니다.<br>Java SDK는 Adobe의 전달 API를 [!DNL Target] 통해 통합할 때 모범 사례를 도입하고 복잡성을 제거하여 엔지니어링 팀이 비즈니스 로직에 집중할 수 있도록 합니다. 다음은 최신 버전에서 소개된 주요 기능입니다.<ul><li>캐싱을 통해 성능을 최적화할 수 있도록 프리페치 및 알림을 지원합니다.</li><li>웹 페이지와 서버측 모두에서 [!DNL Target] 하이브리드 통합이 있는 경우 성능 최적화를 지원합니다. at.js 2.2가 더 이상 경험을 검색하기 위해 추가 서버 호출을 하지 않도록 서버측을 통해 검색되는 경험이 `serverState` 채워지는 설정이라는 설정을 소개합니다. 이 방법은 페이지 로드 성능을 최적화합니다.</li><li>새로운 배달 API에서 가능한 Java SDK를 통해 VEC에서 생성된 활동 검색 지원</li><li>개발자가 Target Java SDK에 기여할 수 있도록 오픈 [소싱됩니다](https://github.com/adobe/target-java-sdk).</li></ul>자세한 내용은 릴리스 노트 - [Target Java SDK를 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md). |
 
 ## Target Standard/Premium 19.10.2(2019년 10월 31일)
 
