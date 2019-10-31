@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js 1.*x*에서 at.js 2.*x*로 업그레이드
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
 
 ---
 
@@ -316,6 +316,19 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 
 아니요. `triggerView()`를 호출하기 전에 사전 숨김(pre-hiding) 코드를 추가할 필요는 없습니다. at.js 2.*x에서는 보기가 표시되고 적용되기 전에 사전 숨김 및 플리커(깜박임) 로직을 관리합니다.*
 
+### at.js 1.*대상을 만들기 위한 x* 매개 변수는 at.js 2에서 지원되지 않습니다.*x*? {#audience-parameters}
+
+다음 at.js 1.x 매개 변수는 at.js *2를* 사용할 때 현재 대상 생성을 위해 지원되지 않습니다.*x*:
+
+* browserHeight
+* browserWidth
+* browserTimeOffset
+* screenHeight
+* screenWidth
+* screenOrientation
+* colorDepth
+* devicePixelRatio
+
 ## at.js 호환성
 
 다음 표에서는 다양한 활동 유형, 통합, 기능 및 at.js 함수와의 at.js 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
@@ -411,112 +424,6 @@ at.js 2.*x*&#x200B;는 at.js 1.*x*&#x200B;와 마찬가지로 사용자 지정 �
     "token": "1213213123122313121"
   }
   ....
-}
-```
-
-### browserHeight
-
-(at.js 1.*x* 매개 변수)
-
-방문자의 브라우저 창 높이입니다.
-
-at.js 2.*x* JSON 페이로드:
-
-```
-{
-  "context": {
-    "window": {
-       "height": 200
-    }
-  }
-}
-```
-
-### browserWidth
-
-(at.js 1.*x* 매개 변수)
-
-방문자의 브라우저 창 폭입니다.
-
-at.js 2.*x* JSON 페이로드:
-
-```
-{
-  "context": {
-    "window": {
-       "width": 200
-    }
-  }
-}
-```
-
-### browserTimeOffset
-
-(at.js 1.*x* 매개 변수)
-
-시간대 오프셋입니다.
-
-at.js 2.*x* JSON 페이로드:
-
-```
-{
-  "context": {
-    "timeOffsetInMinutes": -480
-  }
-}
-```
-
-### screenHeight
-
-(at.js 1.*x* 매개 변수)
-
-방문자의 화면 높이입니다.
-
-at.js 2.*x* JSON 페이로드:
-
-```
-{
-  "context": {
-    "screen": {
-       "height": 200
-    }
-  }
-}
-```
-
-### screenWidth
-
-(at.js 1.*x* 매개 변수)
-
-방문자의 화면 폭입니다.
-
-at.js 2.*x* JSON 페이로드:
-
-```
-{
-  "context": {
-    "screen": {
-       "width": 200
-    }
-  }
-}
-```
-
-### colorDepth
-
-(at.js 1.*x* 매개 변수)
-
-방문자의 화면 색상 깊이입니다.
-
-at.js 2.*x* JSON 페이로드:
-
-```
-{
-  "context": {
-    "screen": {
-       "colorDepth": 24
-    }
-  }
 }
 ```
 
