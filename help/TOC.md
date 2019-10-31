@@ -4,7 +4,7 @@ audience: 최종 사용자
 user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/ko-KR/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 
 ---
 
@@ -142,6 +142,7 @@ source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
    + 서버 측: Target 구현 {#server-side}
       + [릴리스 정보 - 대상 서버측 API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [릴리스 노트 - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
+      + [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target의 이전 API에서 Adobe I/O로 전환](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + 이메일: Target 구현 {#implement-email}
