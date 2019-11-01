@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -23,7 +23,7 @@ source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
 | --- | --- | --- |
 | 2019년 10월 31일 | [다중 값 특성을 사용한 작업](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 새 주제입니다.  |
 |  | [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 새 주제입니다.  |
-|  | [at.js 1.*x*&#x200B;에서 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters)로 업그레이드 | 새 섹션이 추가되었습니다."Which at.js 1.*대상을 만들기 위한 x* 매개 변수는 at.js 2에서 지원되지 않습니다.*x*?" |
+|  | [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 새 섹션이 추가되었습니다."Which at.js 1.*대상을 만들기 위한 x* 매개 변수는 at.js 2에서 지원되지 않습니다.*x*?" |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 템플릿 규칙에 추가되는 추가 공간에 대한 알려진 새 문제가 추가되었습니다. |
 |  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Premium 19.10.2 릴리스 및 Target Java SDK 릴리스에 대한 정보가 추가되었습니다. |
 | 2019년 10월 30일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 Target Premium 19.10.2(2019년 10월 31일) 릴리스에 대한 정보가 추가되었습니다. |
