@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 41a287ede7326b8d7ed8c4763a3a733c5bd08333
 
 ---
 
@@ -158,7 +158,7 @@ using the Delivery and Save entities APIs.
 
 디자인에서 `entity.genre=["genre1","genre2"]`가 `$entity<N>.genre`로 참조되는 경우 결과는 `genre1, genre2`입니다.
 
->[!MORE_LIKE_THIS]
+>[!MORELIKETHIS]
 >
 >* [엔티티 속성](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
 
