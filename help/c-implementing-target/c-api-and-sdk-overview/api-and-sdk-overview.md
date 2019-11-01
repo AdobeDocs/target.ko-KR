@@ -8,7 +8,7 @@ title: '서버 측: Target 구현'
 topic: 권장 사항
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: afec96b2bec18048ab7132232711d2c14769c46c
 
 ---
 
@@ -28,7 +28,7 @@ source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 다음 섹션에서는 다양한 API 및 NodeJS SDK에 대한 자세한 정보를 제공합니다.
 
-## 서버 장치 배달 API
+## 서버 측 배달 API
 
 Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
 
@@ -50,6 +50,13 @@ Node.js SDK는 쿠키, 세션, [!DNL Experience Cloud][!DNL Analytics]및 [!DNL 
 
 * **** 캐싱을 통해 성능을 최적화할 수 있는 프리페치 및 알림 지원:Node.js SDK를 사용하여 Node.js 서버에 대한 서버 호출을 최소화하고 애플리케이션 성능을 최적화하기 위한 목적으로 경험을 검색하고 Node.js 서버에 로컬로 캐시할 [!DNL Target] 수 있습니다.
 * **** VEC에서 만든 활동을 검색할 수 있는 기능:서버측에서 VEC에서 만든 활동을 검색합니다. VEC에서 만든 활동이 포함된 응답에는 개인화해야 하는 페이지 부분만 미리 숨기는 데 사용할 수 있는 선택기가 있습니다. 이를 통해 Google PageRank [시스템에서 높은 점수를 얻기 위해 비즈니스에 중요한 KPI인 페이지의 첫 번째 컨텐츠 페인트 지표를](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)최적화할 [수 있습니다](https://en.wikipedia.org/wiki/PageRank) .
+
+## Target Java SDK
+
+Java SDK는 쿠키, 세션 관리 및 [!DNL Adobe Experience Cloud] 솔루션(예: [!DNL Adobe Analytics]및 [!DNL Experience Cloud Visitor ID Service][!DNL Adobe Audience Manager])과의 통합에 대한 복잡성을 해소해주는 정교한 소프트웨어 개발 키트입니다. 백그라운드에서 Java SDK는 API를 `/rest/v1/delivery` 사용합니다. 다음은 Java SDK에서 지원되는 몇 가지 주목할 만한 기능입니다.
+
+* **캐싱을**&#x200B;통해 성능을 최적화할 수 있는 프리페치 및 알림 지원:서버 호출을 최소화하고 애플리케이션 성능을 최적화하기 위해 JavaSDK를 사용하여 경험을 검색하고 Java 서버에 로컬로 캐시할 [!DNL Target] 수 있습니다.
+* **VEC에서 만든 활동을**&#x200B;검색하는 기능:서버측에서 VEC에서 만든 활동을 검색합니다. VEC에서 만든 활동이 포함된 응답에는 개인화해야 하는 페이지 부분만 미리 숨기는 데 사용할 수 있는 선택기가 있습니다. 이를 통해 Google PageRank [시스템에서 높은 점수를](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) 얻기 위해 비즈니스에 중요한 KPI인 페이지의 첫 번째 컨텐츠 [페인트 지표를 최적화할](https://en.wikipedia.org/wiki/PageRank) 수 있습니다.
 
 ## Target Recommendations API
 
