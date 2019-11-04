@@ -8,7 +8,7 @@ subtopic: 시작하기
 title: at.js FAQ
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
-## mbox.js{#section_FE30D01A577C46ACB0F787B85F5E0F6B}와 비교하여 at.js를 사용할 때의 장점은 무엇입니까? 
+## mbox.js와 비교하여 at.js를 사용할 때의 장점은 무엇입니까? {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
 [!DNL at.js]는 [!DNL mbox.js]를 대신하지만 [!DNL mbox.js]는 계속 지원될 예정입니다. 하지만 대부분의 사용자에게 [!DNL at.js]는 [!DNL mbox.js]보다 나은 이점을 제공합니다.
 
@@ -204,6 +204,8 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 이 경고 메시지가 표시되는 경우 가능한 근본 원인은 다음과 같습니다.
 
+* 페이지가 동적으로 작성되고 있으며 at.js에서 요소를 찾을 수 없습니다.
+* 사용자가 느린 네트워크에 있고 at.js가 DOM에서 선택기를 찾을 수 없습니다.
 * 활동이 실행 중인 페이지 구조가 변경되었습니다. 시각적 경험 작성기(VEC)에서 활동을 다시 열 경우 경고 메시지가 표시됩니다. 필요한 모든 요소를 찾을 수 있도록 활동을 업데이트해야 합니다.
 * 기본 페이지가 단일 페이지 애플리케이션(SPA)의 일부이거나 이 페이지에 페이지 아래쪽에 나타나는 요소가 있는데, [!DNL at.js] "선택기 폴링 메커니즘"이 해당 요소를 찾을 수 없습니다. `selectorsPollingTimeout`을 늘리는 것이 도움이 될 수 있습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 * 지표가 설정된 URL과 관계없이 모든 클릭 추적 지표가 모든 페이지에 추가되려고 시도합니다. 그 자체로 문제가 안 되더라도 이렇게 되면 많은 메시지가 표시됩니다. 최신 버전의 [!DNL at.js]는 이러한 메시지가 표시되는 것을 방지하지만 많은 고객은 여전히 이전 버전의 [!DNL at.js] 또는 [!DNL mbox.js]를 사용합니다.
