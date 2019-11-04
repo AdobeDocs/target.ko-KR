@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 11월 4일 | [at.js 자주 묻는 질문](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 다음 FAQ에서 업데이트된 텍스트:"왜 '선택기가 누락된 작업'과 같은 경고 메시지가 표시됩니까?" |
 | 2019년 10월 31일 | [다중 값 특성을 사용한 작업](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 새 주제입니다.  |
 |  | [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 새 주제입니다.  |
 |  | [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | 새 섹션이 추가되었습니다."Which at.js 1.*대상을 만들기 위한 x* 매개 변수는 at.js 2에서 지원되지 않습니다.*x*?" |
