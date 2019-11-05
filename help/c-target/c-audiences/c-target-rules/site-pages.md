@@ -8,7 +8,7 @@ title: 사이트 페이지
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -59,13 +59,10 @@ source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ## 문제 해결 {#ts}
 
-* 랜딩 페이지 대상이 제대로 작동하려면 요청에 `mboxReferrer` mbox 매개 변수가 제대로 설정되어 있어야 합니다. at.js JavaScript 라이브러리는 를 사용하여 `mboxReferrer` 페이지에서 가져옵니다 `document.referrer`.
+* 랜딩 페이지 대상이 제대로 작동하려면 요청에 at.js JavaScript 라이브러리가 `mboxReferrer` 속성을 사용하여 페이지에서 가져오는 매개 변수 세트(전달 API의 `context.address.referringUrl` `document.referrer` 경우 매개 변수)가 있어야 합니다. 이 `HTMLDocument` 속성은 사용자가 탐색한 페이지의 URI를 반환합니다. 이 속성의 값은 사용자가 링크를 통해서가 아니라 책갈피를 통해 페이지로 직접 이동할 때 빈 문자열입니다.
 
-   이러한 매개 변수가 제대로 설정되지 않은 경우 방문자는 후속 페이지로 이동한 후 활동을 떠날 수 있습니다. 예를 들어 랜딩 페이지에서 `document.referrer` 사용되지만 이후 페이지에서 사용되지 않는 경우 방문자가 활동에 남아 있는지 확인할 수 [!DNL Target] 없습니다.
+   이 동작이 요구 사항과 일치하지 않는 경우 다음 작업 중 하나를 수행하는 것이 좋습니다.
 
-   이 상황이 발생하면 다음 작업 중 하나를 수행하는 것이 좋습니다.
-
-   * 웹 사이트가 `document.referrer` 올바로 로드되는지 확인합니다.
    * 타깃팅 목적으로 사용할 [mbox 매개](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) 변수를 [!DNL Target] 전달합니다.
    * 랜딩 [페이지 활동](/help/c-activities/t-test-ab/test-ab.md) 대신 A/B 테스트 활동을 사용합니다. A/B 테스트 활동은 동일한 방문자에 대한 경험을 전환하지 않습니다.
    * 대신 [방문자 프로필을](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 사용하십시오.
