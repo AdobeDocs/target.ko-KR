@@ -8,7 +8,7 @@ title: 설명서 변경 내용
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -21,6 +21,7 @@ source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 11월 5일 | [사이트 페이지](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | "문제 해결" 섹션의 텍스트가 업데이트되었습니다. |
 | 2019년 11월 4일 | [at.js 자주 묻는 질문](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | 다음 FAQ에서 업데이트된 텍스트:"왜 '선택기가 누락된 작업'과 같은 경고 메시지가 표시됩니까?" |
 | 2019년 10월 31일 | [다중 값 특성을 사용한 작업](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | 새 주제입니다.  |
 |  | [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 새 주제입니다.  |
