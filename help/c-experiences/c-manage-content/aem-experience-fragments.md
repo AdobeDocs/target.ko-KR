@@ -1,14 +1,11 @@
 ---
-description: 최적화 또는 개인화를 지원하기 위해 Target 활동의 AEM(Adobe Experience Manager)에서 작성된 경험 구성요소 사용에 관해 설명합니다.
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
-seo-description: 최적화 또는 개인화를 돕기 위해 Adobe Target 활동에서 AEM(Adobe Experience Manager)에서 만든 경험 조각을 사용하는 방법에 대한 정보입니다.
-seo-title: Adobe Target의 AEM(Adobe Experience Manager) 경험 조각
-solution: Target
-title: AEM 경험 구성요소
+description: 최적화 또는 개인화를 돕기 위해 Adobe Target 활동에서 AEM(Adobe Experience Manager)에서 만든 경험 조각을 사용하는 방법에 대한 정보입니다.
+title: Adobe Target의 AEM(Adobe Experience Manager) 경험 조각
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
