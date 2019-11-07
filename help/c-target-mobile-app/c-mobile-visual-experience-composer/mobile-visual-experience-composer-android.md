@@ -1,14 +1,11 @@
 ---
-description: Target의 새 SDK 라이브러리를 사용하여 개발자가 Android 모바일 앱에서 일회 설정을 수행하고 마케터가 모바일 VEC(시각적 경험 작성기)의 기능을 사용할 수 있습니다.
 keywords: 모바일 vec;모바일 시각적 경험 작성기;모바일 경험 작성기 선택 사항;설정;android
-seo-description: Adobe Target의 새로운 SDK 라이브러리를 통해 개발자는 Android 모바일 앱에서 일회성 설정을 수행할 수 있고 마케터는 VEC(Mobile Visual Experience Composer)의 기능을 사용할 수 있습니다.
-seo-title: Android - Adobe Target용 모바일 앱 설정
-solution: Target
-title: Android - 모바일 앱 설정
+description: Adobe Target의 새 SDK 라이브러리를 사용하여 개발자가 Android 모바일 앱에서 일회 설정을 수행하고 마케터가 모바일 VEC(시각적 경험 작성기)의 기능을 사용할 수 있습니다.
+title: Android - Adobe Target용 모바일 앱 설정
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
