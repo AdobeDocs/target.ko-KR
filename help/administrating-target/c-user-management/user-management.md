@@ -1,15 +1,12 @@
 ---
-description: Target Standard에서 사용자를 관리하고 Target Premium에서 Enterprise 속성 및 권한을 관리하는 방법에 대한 정보입니다.
 keywords: 사용자 추가;사용자 관리;사용자 권한
-seo-description: Target Standard에서 사용자를 관리하고 Target Premium에서 Enterprise 속성 및 권한을 관리하는 방법에 대한 정보입니다.
-seo-title: 사용자 관리
-solution: Target
-subtopic: 시작하기
+description: Target Standard에서 사용자를 관리하고 Target Premium에서 Enterprise 속성 및 권한을 관리하는 방법에 대한 정보입니다.
 title: 사용자 관리
+subtopic: 시작하기
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
