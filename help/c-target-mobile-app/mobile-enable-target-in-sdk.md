@@ -1,13 +1,11 @@
 ---
-description: 앱에 Adobe Mobile Services SDK를 추가합니다.
 keywords: 모바일 앱;모바일 앱 SDK;target 모바일 앱;모바일 target sdk;모바일 앱 SDK;SDK에서 Target 사용
-seo-description: 앱에 Adobe Mobile Services SDK를 추가합니다.
-seo-title: SDK에서 Target 사용
+description: 앱에 Adobe Mobile Services SDK를 추가합니다.
 title: SDK에서 Target 사용
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: 5d5523ba5aa3875ac450cb356141bea5dffa3842
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
