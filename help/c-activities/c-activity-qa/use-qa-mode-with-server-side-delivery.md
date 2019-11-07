@@ -1,14 +1,11 @@
 ---
-description: 서버 측 전달과 함께 QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그멘테이션된 상태를 유지하는 QA 보고를 수행할 수 있습니다.
 keywords: qa;서버 측;서버-측;미리 보기;미리 보기 링크
-seo-description: 서버 측 전달과 함께 QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그멘테이션된 상태를 유지하는 QA 보고를 수행할 수 있습니다.
-seo-title: 활동 QA 및 서버 측 전달 사용
-solution: Target
+description: 서버 측 전달과 함께 QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그멘테이션된 상태를 유지하는 QA 보고를 수행할 수 있습니다.
 title: 활동 QA 및 서버 측 전달 사용
 topic: 고급,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
