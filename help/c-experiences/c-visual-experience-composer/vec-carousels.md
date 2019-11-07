@@ -1,15 +1,12 @@
 ---
-description: 이 주제에서는 시각적 경험 작성기(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여줍니다.
 keywords: 시각적 경험 작성기;VEC;캐러셀
-seo-description: 이 주제에서는 시각적 경험 작성기(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여줍니다.
-seo-title: 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기
-solution: Target
-subtopic: 다변량 테스트
+description: 이 주제에서는 시각적 경험 작성기(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여줍니다.
 title: 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기
+subtopic: 다변량 테스트
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
