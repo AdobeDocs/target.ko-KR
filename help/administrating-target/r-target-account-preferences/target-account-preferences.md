@@ -1,15 +1,12 @@
 ---
-description: 계정에서 올바르게 작동하도록 계정 기본 설정을 사용하여 Target Standard 또는 Target Premium을 구성합니다.
 keywords: 계정 환경 설정;환경 설정;사이트 세부 사항;사용자 지정 mbox 이름;보고에 사용되는 Experience Cloud 솔루션;매출액에서 예상되는 상승도 표시;css 선택기;요소 클래스 사용;기본 시각적 경험 작성기 URL;고급 경험 작성기 활성화;경험 스냅샷 생성;모바일 뷰포트 구성;수직 시장;필터 비호환 기준
-seo-description: Adobe Target Standard 또는 Target Premium이 계정에서 올바르게 작동하도록 계정 환경 설정을 지정합니다.
-seo-title: 기본 설정
-solution: Target
-subtopic: 시작하기
+description: Adobe Target Standard 또는 Target Premium이 계정에서 올바르게 작동하도록 계정 환경 설정을 지정합니다.
 title: 기본 설정
+subtopic: 시작하기
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
