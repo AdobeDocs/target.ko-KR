@@ -1,15 +1,12 @@
 ---
-description: AdBox를 사용하여 오프사이트 구현에서 이미지를 전달하십시오.
 keywords: 구현;mbox.js 비JavaScript;mbox;adbox
-seo-description: AdBox를 사용하여 Adobe Target을 사용하여 오프사이트 구현으로 이미지를 제공합니다.
-seo-title: Adobe Target을 사용하여 이미지에 대한 Adbox 만들기
-solution: Target
+description: AdBox를 사용하여 Adobe Target을 사용하여 오프사이트 구현으로 이미지를 제공합니다.
+title: Adobe Target을 사용하여 이미지에 대한 Adbox 만들기
 subtopic: 시작하기
-title: 이미지용 Adbox 만들기 adobe Target 사용
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
