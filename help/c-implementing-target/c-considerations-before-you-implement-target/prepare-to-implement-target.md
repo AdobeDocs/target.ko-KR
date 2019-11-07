@@ -1,15 +1,12 @@
 ---
-description: Adobe Target 구현을 준비할 때 완료해야 하는 작업과 수집해야 하는 정보가 있습니다.
 keywords: 구현;구현;rfi;정보 요청
-seo-description: Adobe Target 구현을 준비할 때 완료해야 하는 작업과 수집해야 하는 정보가 있습니다.
-seo-title: Adobe Target 구현 준비
-solution: Target
+description: Adobe Target 구현을 준비할 때 완료해야 하는 작업과 수집해야 하는 정보가 있습니다.
+title: Adobe Target 구현 준비
 subtopic: 시작하기
-title: Target 구현 준비
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
