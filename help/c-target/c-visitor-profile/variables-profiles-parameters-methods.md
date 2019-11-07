@@ -1,14 +1,11 @@
 ---
-description: 이 페이지에는 프로필 스크립트에 유용한 프로필, 변수 및 매개 변수가 나열됩니다.
 keywords: 변수;프로필;매개 변수;내장 프로필;메서드;URL 변수;지역 프로필;타사 프로필;mbox 변수;캠페인 변수;고객 속성
-seo-description: 이 페이지에는 프로필 스크립트에 유용한 프로필, 변수 및 매개 변수가 나열됩니다.
-seo-title: 프로필 및 변수 용어집
-solution: Target
+description: 이 페이지에는 프로필 스크립트에 유용한 프로필, 변수 및 매개 변수가 나열됩니다.
 title: 프로필 및 변수 용어집
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -93,4 +90,4 @@ source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 고객 속성이 `crs.get('<Datasource Name>.<Attribute name>')`.
 
-이러한 속성이 프로필 스크립트에서 토큰으로 사용되거나 프로필 스크립트가 없어도 오퍼에서 직접 토큰으로 사용될 수도 있습니다. 토큰은 `${crs.datasourceName.attributeName}` 형식이어야 합니다. Note that spaces in the `datasourceName` should be stripped from any API call.
+이러한 속성이 프로필 스크립트에서 토큰으로 사용되거나 프로필 스크립트가 없어도 오퍼에서 직접 토큰으로 사용될 수도 있습니다. 토큰은 `${crs.datasourceName.attributeName}` 형식이어야 합니다. API 호출에서 공백이 제거되어야 `datasourceName` 합니다.
