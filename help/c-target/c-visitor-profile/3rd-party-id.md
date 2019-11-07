@@ -1,14 +1,11 @@
 ---
-description: mbox3rdPartyID는 회사의 충성도 프로그램을 위한 멤버십 ID와 같은 회사의 방문자 ID입니다.
 keywords: mbox;mbox 타사 Id;프로필 동기화;프로파일 동기화;PCID
-seo-description: '실시간 프로필에 대한 정보 '
-seo-title: Adobe Target의 mbox3rdPartyId에 대한 실시간 프로필 동기화
-solution: Target
-title: mbox3rdPartyId에 대한 실시간 프로필 동기화
+description: '실시간 프로필에 대한 정보 '
+title: Adobe Target의 mbox3rdPartyId에 대한 실시간 프로필 동기화
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 34809d458b4e43e5ed9715803541a81754ee7e0f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
