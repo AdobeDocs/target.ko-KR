@@ -1,14 +1,11 @@
 ---
-description: 대상은 활동에 입력된 사이트 방문자를 판별합니다.
 keywords: 대상;대상 선택;대상 선택;선택기
-seo-description: 대상은 활동에 입력된 사이트 방문자를 판별합니다.
-seo-title: 대상 선택
-solution: Target
+description: 대상은 활동에 입력된 사이트 방문자를 판별합니다.
 title: 대상 선택
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
