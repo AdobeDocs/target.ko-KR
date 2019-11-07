@@ -1,13 +1,10 @@
 ---
-description: Target의 시각적 경험 작성기를 사용하면 Target을 사용할 수 있는 페이지에 대해 MVT(다변량 테스트) 권한을 쉽게 만들고 Target 내에서 해당 페이지의 부분을 쉽게 수정할 수 있습니다.
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
-seo-description: Adobe Target의 VEC(시각적 경험 작성기)를 사용하면 Target을 사용할 수 있는 페이지에 MVT(다변량 테스트) 권한을 쉽게 만들고 Target 내에서 해당 페이지의 부분을 수정할 수 있습니다.
-seo-title: 다변량 테스트 만들기
-solution: Target
+description: Adobe Target의 VEC(시각적 경험 작성기)를 사용하면 Target을 사용할 수 있는 페이지에 MVT(다변량 테스트) 권한을 쉽게 만들고 Target 내에서 해당 페이지의 부분을 수정할 수 있습니다.
 title: 다변량 테스트 만들기
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
