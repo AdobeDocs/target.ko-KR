@@ -1,13 +1,10 @@
 ---
-description: 몇 가지 카테고리 중 어느 것에 대해서든 타깃팅할 수 있습니다. 각 카테고리는 각 카테고리에 대한 타깃팅 규칙(또는 그룹)을 만들 수 있는 탭으로 사용됩니다.
 keywords: 타깃팅;타겟 카테고리;타겟 조건;audience manager;사용자 지정 프로필 매개 변수;방문자 프로필;사용자 지정 사용자 매개 변수;타겟 규칙
-seo-description: 몇 가지 카테고리 중 어느 것에 대해서든 타깃팅할 수 있습니다. 각 카테고리는 각 카테고리에 대한 타깃팅 규칙(또는 그룹)을 만들 수 있는 탭으로 사용됩니다.
-seo-title: 대상의 카테고리
-solution: Target
+description: 몇 가지 카테고리 중 어느 것에 대해서든 타깃팅할 수 있습니다. 각 카테고리는 각 카테고리에 대한 타깃팅 규칙(또는 그룹)을 만들 수 있는 탭으로 사용됩니다.
 title: 대상의 카테고리
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
