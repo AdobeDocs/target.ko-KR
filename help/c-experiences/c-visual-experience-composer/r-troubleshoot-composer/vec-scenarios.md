@@ -1,14 +1,10 @@
 ---
-description: 이 주제의 시나리오에서는 페이지에 적용된 변경 내용이 경험을 표시하는 Target의 기능에 어떻게 영향을 주는지를 보여줍니다.
 keywords: 권장 사항
-seo-description: 이 주제의 시나리오에서는 페이지에 적용된 변경 내용이 경험을 표시하는 Target의 기능에 어떻게 영향을 주는지를 보여줍니다.
-seo-title: 페이지 수정 시나리오
-solution: Target
+description: 이 주제의 시나리오에서는 페이지에 적용된 변경 내용이 경험을 표시하는 Target의 기능에 어떻게 영향을 주는지를 보여줍니다.
 title: 페이지 수정 시나리오
-topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
