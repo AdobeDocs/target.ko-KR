@@ -1,14 +1,9 @@
 ---
-description: A/B 테스트 및 경험 타깃팅 활동에서 오퍼로서 Adobe Recommendations
 keywords: 권장 사항;오퍼
-seo-description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
-seo-title: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
-solution: Target
-title: 오퍼로서의 Recommendations
-title-outputclass: premium
-topic: Premium
+description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
+title: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
 translation-type: tm+mt
-source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -70,7 +65,7 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ### 편집 메뉴를 사용하여 권장 사항 오퍼 편집
 
-1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
+1. 편집할 오퍼를 클릭한 다음, **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
    ![추천 오퍼 편집](/help/c-recommendations/assets/recs-offer-edit.png)
 
@@ -85,7 +80,7 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 편집
 
-1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. [!UICONTROL 수정 사항] 아이콘 **(`</>`)**&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
 1. 원하는 작업을 마우스로 가리킨 다음, **[!UICONTROL 편집]아이콘을 클릭합니다.**
 
    ![수정 사항 패널](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -107,20 +102,20 @@ source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 삭제
 
-1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. [!UICONTROL 수정 사항] 아이콘 **( &lt;/&gt; )**&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
 1. 원하는 작업을 마우스로 가리킨 다음, [!UICONTROL 삭제] 아이콘을 클릭합니다.
 
    ![삭제 아이콘](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### 추천 오퍼의 상태 보기 {#status}
+### 수정 오퍼 상태 보기 {#status}
 
-The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+수정 오퍼의 (알고리즘) 상태는 추천 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 [!UICONTROL 개요] 페이지 하단에 표시됩니다.
 
 * 결과 준비
-* 결과 준비 안 됨
+* 결과가 준비되지 않음
 * 피드 실패
 
-![Recommendations 오퍼 상태](/help/c-recommendations/assets/recs-offer-status.png)
+![추천 오퍼 상태](/help/c-recommendations/assets/recs-offer-status.png)
 
 ## 교육 비디오:오퍼로서 권장 사항
 
