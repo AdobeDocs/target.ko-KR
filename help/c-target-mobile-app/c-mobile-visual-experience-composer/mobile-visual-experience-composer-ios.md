@@ -1,14 +1,11 @@
 ---
-description: Adobe Target 모바일 VEC(시각적 경험 작성기)를 사용하여 개발자는 iOS 모바일 앱에서 일회성 설정을 수행하고 마케터는 모바일 앱 VEC의 기능을 사용할 수 있습니다.
 keywords: 모바일 앱 VEC;모바일 시각적 경험 작성기;모바일 경험 작성기 선택 사항;설정;ios;apple
-seo-description: Adobe Target 모바일 VEC(시각적 경험 작성기)를 사용하여 개발자는 iOS 모바일 앱에서 일회성 설정을 수행하고 마케터는 모바일 앱 VEC의 기능을 사용할 수 있습니다.
-seo-title: iOS - 모바일 앱 설정
-solution: Target
+description: Adobe Target 모바일 VEC(시각적 경험 작성기)를 사용하여 개발자는 iOS 모바일 앱에서 일회성 설정을 수행하고 마케터는 모바일 앱 VEC의 기능을 사용할 수 있습니다.
 title: iOS - 모바일 앱 설정
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
