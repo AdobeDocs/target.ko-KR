@@ -1,15 +1,12 @@
 ---
-description: 글로벌 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
 keywords: 글로벌 mbox;mbox.js 구현;at.js 구현
-seo-description: 글로벌 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
-seo-title: 글로벌 mbox 이해
-solution: Target
+description: 글로벌 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
+title: 글로벌 mbox 이해
 subtopic: 시작하기
-title: 글로벌 mbox 이해 Adobe Target에서
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
