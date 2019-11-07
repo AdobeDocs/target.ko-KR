@@ -1,14 +1,11 @@
 ---
-description: 일부 브라우저의 경우 보안 컨텐츠가 비보안 컨텐츠와 혼합된 경우 페이지 표시를 차단합니다.
 keywords: 혼합 컨텐츠;보안;비보안;chrome;문제 해결;vec;시각적 경험 작성기;비보안
-seo-description: 일부 브라우저의 경우 보안 컨텐츠가 비보안 컨텐츠와 혼합된 경우 페이지 표시를 차단합니다.
-seo-title: 브라우저에서 혼합 컨텐츠 사용
-solution: Target
+description: 일부 브라우저의 경우 보안 컨텐츠가 비보안 컨텐츠와 혼합된 경우 페이지 표시를 차단합니다.
 title: 브라우저에서 혼합 컨텐츠 사용
 topic: 고급,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
