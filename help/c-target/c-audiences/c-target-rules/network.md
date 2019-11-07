@@ -1,13 +1,10 @@
 ---
-description: 네트워크 세부 사항을 기반으로 대상을 만들 수 있습니다.
 keywords: 타깃팅;네트워크;타겟 네트워크;isp;도메인 이름;연결 속도;타겟 isp;타겟 도메인 이름;타겟 연결 속도
-seo-description: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만들 수 있습니다.
-seo-title: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만듭니다.
-solution: Target
-title: 네트워크
+description: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만들 수 있습니다.
+title: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만듭니다.
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
