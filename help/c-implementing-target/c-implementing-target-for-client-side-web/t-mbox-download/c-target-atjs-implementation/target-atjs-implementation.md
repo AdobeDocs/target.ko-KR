@@ -1,14 +1,11 @@
 ---
-description: at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 Adobe Target용 구현 라이브러리입니다.
 keywords: Target Standard;at.js;구현
-seo-description: at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 Adobe Target용 구현 라이브러리입니다.
-seo-title: mbox.js에서 at.js로 마이그레이션
-solution: Target
+description: at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 Adobe Target용 구현 라이브러리입니다.
 title: mbox.js에서 at.js로 마이그레이션
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
