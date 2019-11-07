@@ -1,14 +1,11 @@
 ---
-description: 최신 또는 예정된 Adobe Target 릴리스의 기능, 개선 사항 및 수정 사항에 대한 정보를 제공하는 릴리스 노트입니다.
 keywords: 릴리스 정보;릴리스;업데이트;향후 릴리스;개선 사항;새 기능;수정 사항;release notes;updates;future release;enhancements;new features;fixes
-seo-description: 최신 또는 예정된 DNL Adobe Target 릴리스의 기능, 개선 사항 및 수정 사항에 대한 정보를 제공하는 릴리스 노트입니다.
-seo-title: Adobe Target 베타 버전 정보
-solution: Target
-title: Target 릴리스 노트(사전 릴리스)
+description: 최신 또는 예정된 DNL Adobe Target 릴리스의 기능, 개선 사항 및 수정 사항에 대한 정보를 제공하는 릴리스 노트입니다.
+title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
