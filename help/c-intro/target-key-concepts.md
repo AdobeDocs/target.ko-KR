@@ -1,15 +1,12 @@
 ---
-description: Adobe Target의 기능 및 성능을 이해하는 데 도움이 되는 주요 개념에 대한 정보입니다.
 keywords: 개요 및 참조;작업
-seo-description: Adobe Target의 기능 및 성능을 이해하는 데 도움이 되는 주요 개념에 대한 정보입니다.
-seo-title: Target 주요 개념
-solution: Target
-subtopic: 시작하기
+description: Adobe Target의 기능 및 성능을 이해하는 데 도움이 되는 주요 개념에 대한 정보입니다.
 title: Target 주요 개념
+subtopic: 시작하기
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
