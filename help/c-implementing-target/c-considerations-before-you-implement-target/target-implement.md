@@ -1,13 +1,11 @@
 ---
-description: 웹 페이지에서 Target 라이브러리(at.js 또는 mbox.js)를 참조하여 Target을 구현합니다.
 keywords: document.write;target;구현;target 구현;dtm;다이내믹 태그 관리;at.js;mbox.js;target.js;mbox
-seo-description: 웹 페이지에서 Target 라이브러리(at.js 또는 mbox.js)를 참조하여 Target을 구현합니다.
-seo-title: Target JavaScript 라이브러리 이해
+description: 웹 페이지에서 Target 라이브러리(at.js 또는 mbox.js)를 참조하여 Target을 구현합니다.
 title: Target JavaScript 라이브러리 이해
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
