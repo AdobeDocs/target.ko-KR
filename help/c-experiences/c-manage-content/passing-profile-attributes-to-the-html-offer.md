@@ -1,14 +1,10 @@
 ---
-description: 프로필 값과 활동 정보를 HTML 또는 JSON 오퍼에 직접 표시할 수 있습니다.
 keywords: 동적 데이터;자산;데이터;오퍼;개인화된 오퍼;개인 오퍼;토큰 바꾸기
-seo-description: 프로필 값과 활동 정보를 HTML 또는 JSON 오퍼에 직접 표시할 수 있습니다.
-seo-title: 오퍼에 동적 데이터 전달
-solution: Target
+description: 프로필 값과 활동 정보를 HTML 또는 JSON 오퍼에 직접 표시할 수 있습니다.
 title: 오퍼에 동적 데이터 전달
-topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
