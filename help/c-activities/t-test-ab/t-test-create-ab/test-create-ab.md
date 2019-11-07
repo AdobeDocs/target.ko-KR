@@ -1,14 +1,11 @@
 ---
-description: Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target의 시각적 경험 작성기를 사용하십시오.
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동
-seo-description: Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target의 시각적 경험 작성기를 사용하십시오.
-seo-title: A/B 테스트 만들기
-solution: Target
+description: Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target의 시각적 경험 작성기를 사용하십시오.
 title: A/B 테스트 만들기
 topic: 고급,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -39,7 +36,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.]
+   >이전 그림에서 [!UICONTROL 작업 공간 선택[ 선택 사항은 ](/help/administrating-target/c-user-management/property-channel/property-channel.md)Target Premium[](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.]
 
 1. (조건부) [Target Premium 고객](/help/c-intro/intro.md#premium)인 경우 [작업 공간](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
