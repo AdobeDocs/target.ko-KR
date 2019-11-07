@@ -1,14 +1,11 @@
 ---
-description: 각 경험에 대한 전환율, 상승도, 신뢰도(통계적 중요도) 및 신뢰 구간이 보고됩니다.
 keywords: 타겟 지정
-seo-description: 각 경험에 대한 전환율, 상승도, 신뢰도(통계적 중요도) 및 신뢰 구간이 보고됩니다.
-seo-title: 전환율
-solution: Target
+description: 각 경험에 대한 전환율, 상승도, 신뢰도(통계적 중요도) 및 신뢰 구간이 보고됩니다.
 title: 전환율
 topic: 고급,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
