@@ -1,15 +1,10 @@
 ---
-description: 자동화된 개인화 사용자는 전문 보고서를 사용할 수 있습니다.
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;활동 수준 보고서;오퍼 수준 보고서;오퍼 세부 사항 보고서
-seo-description: 자동화된 개인화 사용자는 전문 보고서를 사용할 수 있습니다.
-seo-title: 자동화된 개인화 요약 보고서
-solution: Target
+description: 자동화된 개인화 사용자는 전문 보고서를 사용할 수 있습니다.
 title: 자동화된 개인화 요약 보고서
-title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
