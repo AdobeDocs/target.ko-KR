@@ -1,14 +1,11 @@
 ---
-description: 문제 해결 항목, FAQ 및 기타 유용한 항목을 포함하여 Adobe Target에서 발생할 수 있는 문제들을 해결하는 데 도움이 되는 주제 목록입니다.
 keywords: target 문제 해결;target 문제해결
-seo-description: 문제 해결 항목, FAQ 및 기타 유용한 항목을 포함하여 Adobe Target에서 발생할 수 있는 문제들을 해결하는 데 도움이 되는 주제 목록입니다.
-seo-title: Adobe Target 문제 해결
-solution: Target
-title: Target 문제 해결
+description: 문제 해결 항목, FAQ 및 기타 유용한 항목을 포함하여 Adobe Target에서 발생할 수 있는 문제들을 해결하는 데 도움이 되는 주제 목록입니다.
+title: Adobe Target 문제 해결
 topic: 고급,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
