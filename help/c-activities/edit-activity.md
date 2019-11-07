@@ -1,14 +1,11 @@
 ---
-description: 활동을 초안 양식으로 저장하는 작업을 포함하여 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
 keywords: 활동;활동;활동 유형;활동 편집;편집;초안
-seo-description: 활동을 초안 양식으로 저장하는 작업을 포함하여 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
-seo-title: 활동 편집 또는 초안으로 저장
-solution: Target
+description: 활동을 초안 양식으로 저장하는 작업을 포함하여 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
 title: 활동 편집 또는 초안으로 저장
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -60,9 +57,9 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
 
 
 
-## Recommendations Classic에서 만든 이전 활동 사용 {#classic}
+## Recommendations Classic 에서 생성한 이전 활동과 작업 {#classic}
 
-활동 [!UICONTROL 목록은] 다양한 소스에서 생성된 활동을 포함하여 표시합니다 [!DNL Recommendations Classic]. 에서 만든 기존 활동을 사용하여 작업할 때 다음 작업을 사용할 수 [!DNL Recommendations Classic]있습니다.
+[!UICONTROL 활동] 목록에는 [!DNL Recommendations Classic]을 포함하여 다양한 소스에서 생성된 활동이 표시됩니다. 다음 작업은 [!DNL Recommendations Classic]에서 생성한 이전 활동으로 작업할 때 사용할 수 있습니다.
 
 * [!UICONTROL 활성화]
 * [!UICONTROL 비활성화]
@@ -70,7 +67,7 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
 * [!UICONTROL 복사]
 * [!UICONTROL 삭제]
 
-활동을 직접 편집할 수 없습니다. [!DNL Recommendations] 활동을 편집하려면 를 사용하여 활동 사본을 만든 [!DNL Target Premium] 다음 새로 만든 활동을 저장해야 합니다. 이렇게 새로 만든 활동은 필요에 따라 편집할 수 있습니다.
+[!DNL Recommendations] 활동을 직접 편집할 수는 없습니다. 활동을 편집하려면, [!DNL Target Premium]을 사용하여 활동 사본을 만든 다음 새로 만든 활동을 저장해야 합니다. 그런 다음 새로 만든 이 활동을 필요에 따라 편집할 수 있습니다.
 
 ## 활동을 초안 양식으로 저장 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
