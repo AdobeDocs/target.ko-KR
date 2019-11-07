@@ -1,13 +1,11 @@
 ---
-description: 목표 및 설정 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
 keywords: 활동 설정;A/B 목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
-seo-description: 목표 및 설정 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
-seo-title: 목표 및 설정
+description: 목표 및 설정 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
 title: 목표 및 설정
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
