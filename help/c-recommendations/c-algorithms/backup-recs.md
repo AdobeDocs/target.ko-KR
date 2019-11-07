@@ -1,16 +1,10 @@
 ---
-description: 백업 권장 사항 기능을 사용할 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 keywords: 권장 사항;백업;백업
-seo-description: 백업 권장 사항 기능을 사용할 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
-seo-title: 백업 권장 사항 사용
-solution: Target
+description: 백업 권장 사항 기능을 사용할 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 title: 백업 권장 사항 사용
-title-outputclass: premium
-topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
