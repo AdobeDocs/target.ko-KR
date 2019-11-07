@@ -1,14 +1,11 @@
 ---
-description: Target UI에서 표시를 보고 자동 할당 A/B 활동에서 승자를 결정합니다.
 keywords: 자동화된 트래픽 할당;타깃팅;승자;통계적 보장;신뢰도;승자 결정
-seo-description: Target UI에서 표시를 보고 자동 할당 A/B 활동에서 승자를 결정합니다.
-seo-title: 승자 결정
-solution: Target
+description: Target UI에서 표시를 보고 자동 할당 A/B 활동에서 승자를 결정합니다.
 title: 승자 결정
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
