@@ -1,13 +1,10 @@
 ---
-description: 사전 빌드된 타깃팅 규칙을 기반으로 사용자를 타깃팅하십시오.
 keywords: 타깃팅;타겟 라이브러리;라이브러리
-seo-description: 사전 빌드된 타깃팅 규칙을 기반으로 사용자를 타깃팅하십시오.
-seo-title: 타겟 라이브러리
-solution: Target
+description: 사전 빌드된 타깃팅 규칙을 기반으로 사용자를 타깃팅하십시오.
 title: 타겟 라이브러리
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
