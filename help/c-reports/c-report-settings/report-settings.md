@@ -1,14 +1,10 @@
 ---
-description: 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 keywords: Target;보고서;보고서 설정;사전 설정;target 사전 설정;지표;대상;날짜 범위;설정;다운로드;표 보기;그래프 보기;평균 리프트;리프트;리프트 경계;신뢰 구간;신뢰도;위치 기여도;평균 실행;방법론 계산
-seo-description: 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
-seo-title: 보고서 설정
-solution: Target
+description: 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 title: 보고서 설정
-topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
