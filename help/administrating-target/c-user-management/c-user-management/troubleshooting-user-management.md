@@ -1,14 +1,11 @@
 ---
-description: Adobe Target의 사용자 관리에 대한 문제 해결 정보입니다.
 keywords: target 문제 해결;target 문제 해결;사용자;사용자 관리
-seo-description: Adobe Target의 사용자 관리에 대한 문제 해결 정보입니다.
-seo-title: 사용자 관리 문제 해결
-solution: Target
+description: Adobe Target의 사용자 관리에 대한 문제 해결 정보입니다.
 title: 사용자 관리 문제 해결
 topic: 고급,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
