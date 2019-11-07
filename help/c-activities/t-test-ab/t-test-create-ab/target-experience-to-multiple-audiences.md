@@ -1,14 +1,11 @@
 ---
-description: A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃팅할 수 있습니다. 시각적 경험 작성기 또는 양식 기반 경험 작성기에서는 한 경험에 대해 여러 대상을 설정할 수 있습니다.
 keywords: 여러 대상;경험 버전;target 경험 버전
-seo-description: A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃팅할 수 있습니다. 시각적 경험 작성기 또는 양식 기반 경험 작성기에서는 한 경험에 대해 여러 대상을 설정할 수 있습니다.
-seo-title: A/B 테스트의 여러 경험 버전
-solution: Target
+description: A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃팅할 수 있습니다. 시각적 경험 작성기 또는 양식 기반 경험 작성기에서는 한 경험에 대해 여러 대상을 설정할 수 있습니다.
 title: A/B 테스트의 여러 경험 버전
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
