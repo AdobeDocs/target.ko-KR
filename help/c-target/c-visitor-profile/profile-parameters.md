@@ -5,7 +5,7 @@ title: Adobe Target의 프로필 속성
 topic: 고급,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -253,7 +253,7 @@ if (!user.get('threegroups')) {
 
 스크립트 프로필 매개 변수는 mbox/프로필 탭 아래에 있습니다. Javascript 유형(문자열, 정수, 배열 등)을 반환하는 Javascript 프로그램을 작성할 수 있습니다.
 
-### 스크립트 프로필 매개 변수 예
+### 스크립트 프로필 매개 변수 예 {#examples}
 
 **이름:** *user.recency*
 
@@ -279,7 +279,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-이전 값이 없는 경우 이전 값 또는 0으로 초기화하는 frequency라는 변수를 만듭니다. mbox 이름이 `orderThankyouPage`이면 증분 값이 반환됩니다.
+Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. mbox 이름이 `orderThankyouPage`이면 증분 값이 반환됩니다.
 
 **이름:** *user.monetaryValue*
 
@@ -291,6 +291,20 @@ if (mbox.name == 'orderThankyouPage') {
 ```
 
 지정된 방문자에 대한 현재 값을 조회(또는 이전 값이 없는 경우 0으로 설정)하는 `monetaryValue`라는 변수를 만듭니다. mbox 이름이 `orderThankyouPage`이면 이전 통화 값과 mbox에 전달된 `orderTotal` 매개 변수의 값을 추가하여 새 통화 값이 반환됩니다.
+
+**** 이름:adobeQA
+
+```
+if (page.param("adobeQA"))
+     return page.param("adobeQA");
+else if (page.param("adobeqa"))
+     return page.param("adobeqa");
+else if (mbox.param("adobeQA"))
+     return mbox.param("adobeQA");
+```
+
+활동 QA `adobeQA` 에 대한 사용자를 추적하기 위해 호출된 변수를 [만듭니다](/help/c-activities/c-activity-qa/activity-qa.md).
+
 
 ### 개체 및 메서드
 
