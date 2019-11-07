@@ -1,14 +1,11 @@
 ---
 description: 컨텐츠를 동일한 페이지에 표시하지 않고 방문자를 다른 페이지로 보내려면 이 선택 사항을 사용하십시오.
-seo-description: 컨텐츠를 동일한 페이지에 표시하지 않고 방문자를 다른 페이지로 보내려면 이 선택 사항을 사용하십시오.
-seo-title: URL로 리디렉션
-solution: Target
-subtopic: 다변량 테스트
 title: URL로 리디렉션
+subtopic: 다변량 테스트
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
