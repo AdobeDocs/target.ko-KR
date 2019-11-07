@@ -1,14 +1,11 @@
 ---
-description: at.js의 각 버전 변경 사항에 대한 세부 사항.
 keywords: at.js 릴리스;at.js 버전
-seo-description: at.js의 각 버전 변경 사항에 대한 세부 사항.
-seo-title: at.js 버전 세부 사항
-solution: Target
-subtopic: 시작하기
+description: at.js의 각 버전 변경 사항에 대한 세부 사항.
 title: at.js 버전 세부 사항
+subtopic: 시작하기
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
