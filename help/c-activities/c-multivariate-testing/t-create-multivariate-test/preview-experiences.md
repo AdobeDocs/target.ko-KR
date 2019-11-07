@@ -1,13 +1,10 @@
 ---
 description: 다변량 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
-seo-description: 다변량 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
-seo-title: 다변량 테스트에 대한 경험 미리 보기
-solution: Target
 title: 다변량 테스트에 대한 경험 미리 보기
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
