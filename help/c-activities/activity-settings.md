@@ -1,15 +1,12 @@
 ---
-description: 활동의 목표, 우선순위 및 지속 기간을 관리하려면 활동 설정을 사용하십시오.
 keywords: 목표 및 설정;목표;우선순위;지속 기간
-seo-description: 활동의 목표, 우선순위 및 지속 기간을 관리하려면 활동 설정을 사용하십시오.
-seo-title: 활동 설정
-solution: Target
-subtopic: 다변량 테스트
+description: 활동의 목표, 우선순위 및 지속 기간을 관리하려면 활동 설정을 사용하십시오.
 title: 활동 설정
+subtopic: 다변량 테스트
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
