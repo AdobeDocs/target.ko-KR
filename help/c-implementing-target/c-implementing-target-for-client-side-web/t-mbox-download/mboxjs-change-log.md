@@ -1,14 +1,11 @@
 ---
-description: 이 페이지에는 각 mbox.js 버전에 대한 변경 사항이 표시됩니다.
 keywords: mbox.js 변경 사항;mbox.js 버전
-seo-description: 이 페이지에는 각 mbox.js 버전에 대한 변경 사항이 표시됩니다.
-seo-title: mbox.js 버전 세부 정보
-solution: Target
-subtopic: 시작하기
+description: 이 페이지에는 각 mbox.js 버전에 대한 변경 사항이 표시됩니다.
 title: mbox.js 버전 세부 정보
+subtopic: 시작하기
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
