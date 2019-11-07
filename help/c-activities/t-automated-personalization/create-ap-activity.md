@@ -1,16 +1,11 @@
 ---
-description: 자동화 개인화 활동 워크플로우는 다른 활동 유형의 워크플로우와 다릅니다.
 keywords: 자동화된 개인화;대상;앙상블;랜덤 포레스트;잔차 분산;오차 분산;라이프타임 값
-seo-description: 자동화 개인화 활동 워크플로우는 다른 활동 유형의 워크플로우와 다릅니다.
-seo-title: 자동화된 개인화 활동 만들기
-solution: Target
+description: 자동화 개인화 활동 워크플로우는 다른 활동 유형의 워크플로우와 다릅니다.
 title: 자동화된 개인화 활동 만들기
-title-outputclass: premium
 topic: 고급
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
