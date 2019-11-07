@@ -1,14 +1,11 @@
 ---
-description: Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측할 수 있습니다.
 keywords: 수입 상승도;수입;수입의 상승도 예상;상승도 계산;예상 값
-seo-description: Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측할 수 있습니다.
-seo-title: 매출 상승도 평가
-solution: Target
+description: Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측할 수 있습니다.
 title: 매출 상승도 평가
 topic: 고급,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
