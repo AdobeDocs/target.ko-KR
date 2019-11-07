@@ -1,14 +1,11 @@
 ---
-description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때의 지표, 대상 및 보고서 공유와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 keywords: faq;자주 묻는 질문;analytics for target;세그먼트;a4T;보고서 공유
-seo-description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때의 지표, 대상 및 보고서 공유와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
-seo-title: 지표, 대상 및 보고서 공유 - A4T FAQ
-solution: Target
+description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때의 지표, 대상 및 보고서 공유와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 지표, 대상 및 보고서 공유 - A4T FAQ
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
