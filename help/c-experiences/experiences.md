@@ -1,14 +1,11 @@
 ---
-description: 경험은 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 결정합니다.
 keywords: 경험;시각적 경험 작성기;고급 경험 작성기;양식 기반 경험 작성기;양식 작성기;시각적 작성기;경험 작성기;혼합 콘텐츠;iframe;iframe 버스팅;iframe 버스트;x-frame-options;x 프레임 선택 사항;교차 원본;교차 원본 문제;인증 워크플로우;IP 블랙리스트;IP 허용 목록
-seo-description: 경험은 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 결정합니다.
-seo-title: 경험 및 오퍼
-solution: Target
+description: 경험은 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 결정합니다.
 title: 경험 및 오퍼
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
