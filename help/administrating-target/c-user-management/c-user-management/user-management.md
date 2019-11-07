@@ -1,15 +1,12 @@
 ---
-description: 사용자를 추가하고 Adobe Admin Console에서 사용자 권한을 관리할 수 있습니다.
 keywords: 사용자 추가;사용자 관리;사용자 권한
-seo-description: 사용자를 추가하고 Adobe Admin Console에서 사용자 권한을 관리할 수 있습니다.
-seo-title: 사용자
-solution: Target
-subtopic: 시작하기
+description: 사용자를 추가하고 Adobe Admin Console에서 사용자 권한을 관리할 수 있습니다.
 title: 사용자
+subtopic: 시작하기
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
