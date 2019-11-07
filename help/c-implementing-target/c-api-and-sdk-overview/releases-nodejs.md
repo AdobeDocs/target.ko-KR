@@ -1,13 +1,10 @@
 ---
-description: Adobe Target의 Node.js SDK와 관련된 릴리스 노트
 keywords: at.js;sdk;node.js;release;updates;sdks;server side;serverside;server-side;nodejs
-seo-description: Adobe Target의 서버측 API와 관련된 릴리스 노트입니다.
-seo-title: Adobe Target의 Node.js SDK와 관련된 릴리스 노트입니다.
-solution: Target
-title: 릴리스 노트 - Target Node.js SDK
+description: Adobe Target의 서버측 API와 관련된 릴리스 노트입니다.
+title: Adobe Target의 Node.js SDK와 관련된 릴리스 노트입니다.
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
