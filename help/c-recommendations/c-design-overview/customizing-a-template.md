@@ -1,16 +1,10 @@
 ---
-description: 공개 소스인 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정할 수 있습니다.
 keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
-seo-description: 공개 소스인 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정할 수 있습니다.
-seo-title: Velocity를 사용하여 디자인 사용자 지정
-solution: Target
+description: 공개 소스인 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정할 수 있습니다.
 title: Velocity를 사용하여 디자인 사용자 지정
-title-outputclass: premium
-topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
