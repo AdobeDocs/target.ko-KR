@@ -1,15 +1,10 @@
 ---
-description: 오레곤 데이터 센터에 있는 권장 사항 피드 처리 서버에서 사용하는 IP 주소 목록으로서, Adobe 서버에서 시작되는 IP 주소를 허용하도록 방화벽을 구성하는 데 도움이 됩니다.
 keywords: IP 주소;IP 주소;허용 목록;방화벽;recs;피드;서버;adobe marketing cloud;권장 사항
-seo-description: 오레곤 데이터 센터에 있는 권장 사항 피드 처리 서버에서 사용하는 IP 주소 목록으로서, Adobe 서버에서 시작되는 IP 주소를 허용하도록 방화벽을 구성하는 데 도움이 됩니다.
-seo-title: 권장 사항 피드 처리 서버에서 사용하는 IP 주소
+description: 오레곤 데이터 센터에 있는 권장 사항 피드 처리 서버에서 사용하는 IP 주소 목록으로서, Adobe 서버에서 시작되는 IP 주소를 허용하도록 방화벽을 구성하는 데 도움이 됩니다.
 title: 권장 사항 피드 처리 서버에서 사용하는 IP 주소
-title-outputclass: premium
-topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
