@@ -1,13 +1,10 @@
 ---
-description: Adobe Analytics를 보고 소스(A4T)로 사용하도록 Target Standard에서 활동을 구성할 수 있습니다.
 keywords: 타깃팅;분석;추적 서버
-seo-description: Adobe Analytics를 보고 소스(A4T)로 사용하도록 Target Standard에서 활동을 구성할 수 있습니다.
-seo-title: Analytics 데이터 사용
-solution: Target
+description: Adobe Analytics를 보고 소스(A4T)로 사용하도록 Target Standard에서 활동을 구성할 수 있습니다.
 title: Analytics 데이터 사용
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
