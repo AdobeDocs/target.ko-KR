@@ -1,13 +1,11 @@
 ---
-description: A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 keywords: A/B;활동 지표;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-seo-description: A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
-seo-title: 지표 설정
-solution: Target,standard
+description: A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 title: 지표 설정
+solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
