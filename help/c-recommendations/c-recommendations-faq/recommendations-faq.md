@@ -1,16 +1,10 @@
 ---
-description: 권장 사항 활동에 대한 FAQ 목록
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;권장 사항;특수 문자;속성 가중치;콘텐츠 유사성
-seo-description: Adobe Target Recommendations 활동에 대한 FAQ 목록
-seo-title: Adobe Target Recommendations FAQ
-solution: Target
-title: 권장 사항 FAQ
-title-outputclass: premium
-topic: Premium
+description: Adobe Target Recommendations 활동에 대한 FAQ 목록
+title: Adobe Target Recommendations FAQ
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
-badge: premium
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
