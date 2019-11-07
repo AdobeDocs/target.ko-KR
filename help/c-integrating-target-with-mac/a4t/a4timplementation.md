@@ -1,14 +1,10 @@
 ---
-description: Adobe Analytics를 Target(A4T)의 보고 소스로 구현할 때 몇 가지 단계가 필요합니다.
 keywords: A4T;Adobe Analytics;Analytics 기반 활동;Analytics 보고서 세트;보고서 세트;Analytics Target 통합;보고서 세트 구성
-seo-description: Adobe Analytics를 Target(A4T)의 보고 소스로 구현할 때 몇 가지 단계가 필요합니다.
-seo-title: Analytics for Target 구현
-solution: Target
+description: Adobe Analytics를 Target(A4T)의 보고 소스로 구현할 때 몇 가지 단계가 필요합니다.
 title: Analytics for Target 구현
-topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
