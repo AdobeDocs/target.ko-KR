@@ -1,15 +1,12 @@
 ---
-description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때 발생하는 몇 가지 일반적인 문제에 대해 설명합니다.
 keywords: Analytics 추적 서버;A4T;분석 세그먼트;보고서 세트;잘못된 데이터;고립됨;sdid;VisitorAPI.js;mboxMCSDID;phantom;지정되지 않음
-seo-description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때 발생하는 몇 가지 일반적인 문제에 대해 설명합니다.
-seo-title: Analytics 및 Target 통합 문제 해결(A4T)
-solution: Target
-subtopic: 다변량 테스트
+description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때 발생하는 몇 가지 일반적인 문제에 대해 설명합니다.
 title: Analytics 및 Target 통합 문제 해결(A4T)
+subtopic: 다변량 테스트
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -24,7 +21,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 * [!DNL Target]의 분류가 완전히 처리되지 않았습니다.
 
-   분류는 일반적으로 첫 번째 저장 후 보고서를 분류하는 데 24시간에서 72시간이 걸립니다.
+   일반적으로 분류는 처음 저장한 후 보고서를 분류하는 데 24~72시간 정도가 소요됩니다.
 
 * 보고서 세트에 데이터가 들어 있지 않은데 [!DNL Target]이 히트를 분류하려고 했습니다. 첫 번째 히트가 발생하기 전까지 [!DNL Target]은 데이터를 분류할 수 없습니다.
 
@@ -36,7 +33,7 @@ source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 >[!NOTE]
 >
->때로 데이터가 보고서에 올바로 표시되지만, 분류를 완료하지 않은 새 활동이 추가되었기 때문에 "지정되지 않음"으로 다시 되돌려집니다. 첫 번째 저장 후 보고서를 분류하는 데 일반적으로 24시간에서 72시간이 걸립니다.
+>때로 데이터가 보고서에 올바로 표시되지만, 분류를 완료하지 않은 새 활동이 추가되었기 때문에 "지정되지 않음"으로 다시 되돌려집니다. 일반적으로 처음 저장한 후 보고서를 분류하는 데 24~72시간 정도가 소요됩니다.
 >
 >"지정되지 않음"으로 나열된 경우 데이터는 손실되지 않으며, 분류가 실행된 후 적절한 활동이나 경험에 적절하게 지정됩니다.
 
