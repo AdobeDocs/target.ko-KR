@@ -1,16 +1,10 @@
 ---
-description: 권장 사항 활동을 작성하기 전에 알아야 할 사항.
 keywords: 권장 사항;설정;환경 설정;업계 카테고리;호환되지 않는 기준 필터링;기본 호스트 그룹;썸네일 기본 url;Recommendations API 토큰
-seo-description: 권장 사항 활동을 작성하기 전에 알아야 할 사항.
-seo-title: 권장 사항 계획 및 구현
-solution: Target
+description: 권장 사항 활동을 작성하기 전에 알아야 할 사항.
 title: 권장 사항 계획 및 구현
-title-outputclass: premium
-topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
-badge: premium
 translation-type: tm+mt
-source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
