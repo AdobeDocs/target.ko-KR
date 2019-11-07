@@ -1,11 +1,9 @@
 ---
 description: Adobe Mobile SDK는 Target 서버에 접속하여 다른 데이터 포인트와 함께 컨텐츠를 가져와서 사용자에게 적합한 경험을 보여줍니다.
-seo-description: Adobe Mobile SDK는 Target 서버에 접속하여 다른 데이터 포인트와 함께 컨텐츠를 가져와서 사용자에게 적합한 경험을 보여줍니다.
-seo-title: 모바일 앱에서의 Target 작동 방식
 title: 모바일 앱에서의 Target 작동 방식
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
