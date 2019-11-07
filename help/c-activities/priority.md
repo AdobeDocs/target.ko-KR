@@ -1,14 +1,11 @@
 ---
-description: Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동을 다르게 결정합니다.
 keywords: 설정;우선순위
-seo-description: Adobe Target은 사용 중인 Target 인터페이스 및 활동 생성 기능(Visual Experience Composer 또는 Form Based Composer)에 따라 페이지에 다르게 전달할 활동(또는 활동)을 결정합니다.
-seo-title: Adobe Target의 우선 순위
-solution: Target
-title: 우선순위
+description: Adobe Target은 사용 중인 Target 인터페이스 및 활동 생성 기능(Visual Experience Composer 또는 Form Based Composer)에 따라 페이지에 다르게 전달할 활동(또는 활동)을 결정합니다.
+title: Adobe Target의 우선 순위
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
