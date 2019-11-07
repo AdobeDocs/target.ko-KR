@@ -1,15 +1,12 @@
 ---
-description: 환경 설정, 구현, 사용자 관리, 속성, Scene7 설정, 호스트 관리 및 응답 토큰을 포함하여 Target을 설정하는 데 도움이 되는 정보입니다.
 keywords: 구현;구현하기;설정하기;설정
-seo-description: 환경 설정, 구현, 사용자 관리, 속성, Scene7 설정, 호스트 관리 및 응답 토큰을 포함하여 Adobe Target을 설정하는 데 도움이 되는 정보입니다.
-seo-title: Adobe Target 관리
-solution: Target
+description: 환경 설정, 구현, 사용자 관리, 속성, Scene7 설정, 호스트 관리 및 응답 토큰을 포함하여 Adobe Target을 설정하는 데 도움이 되는 정보입니다.
+title: Adobe Target 관리
 subtopic: 시작하기
-title: Target 관리
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
