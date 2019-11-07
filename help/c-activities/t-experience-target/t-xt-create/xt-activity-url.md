@@ -1,13 +1,10 @@
 ---
-description: 활동 URL은 경험 타깃팅 활동에 사용되고 활동을 디자인할 때 VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기에서 열리는 페이지를 결정합니다.
 keywords: 타겟 지정
-seo-description: 활동 URL은 경험 타깃팅 활동에 사용되고 활동을 디자인할 때 Adobe Target VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기에서 열리는 페이지를 결정합니다.
-seo-title: 활동 URL
-solution: Target
+description: 활동 URL은 경험 타깃팅 활동에 사용되고 활동을 디자인할 때 Adobe Target VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기에서 열리는 페이지를 결정합니다.
 title: 활동 URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
