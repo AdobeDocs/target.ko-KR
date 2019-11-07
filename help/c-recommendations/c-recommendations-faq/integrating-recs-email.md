@@ -1,16 +1,11 @@
 ---
-description: 이메일을 권장 사항과 통합하는 방법에 대한 정보입니다.
 keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;배달 API;다운로드 전용 템플릿;이메일 템플릿;일괄처리;작성 시간 이메일
-seo-description: 이메일을 권장 사항과 통합하는 방법에 대한 정보입니다.
-seo-title: 이메일에 권장 사항 통합
-solution: Target
+description: 이메일을 권장 사항과 통합하는 방법에 대한 정보입니다.
 title: 이메일에 권장 사항 통합
-title-outputclass: premium
 topic: 권장 사항
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
