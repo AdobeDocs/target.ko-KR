@@ -1,14 +1,11 @@
 ---
-description: 이 주제에서는 Target의 보고 소스로 사용되는 Analytics(A4T)에 대한 사용 권한을 제공하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 keywords: faq;자주 묻는 질문;analytics for target;a4t;사용 권한 제공;사용 권한 제공;adobe Experience Cloud
-seo-description: 이 주제에서는 Target의 보고 소스로 사용되는 Analytics(A4T)에 대한 사용 권한을 제공하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
-seo-title: 초기 사용 권한 제공 - A4T FAQ
-solution: Target
+description: 이 주제에서는 Target의 보고 소스로 사용되는 Analytics(A4T)에 대한 사용 권한을 제공하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 초기 사용 권한 제공 - A4T FAQ
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
