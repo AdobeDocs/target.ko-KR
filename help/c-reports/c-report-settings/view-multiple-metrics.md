@@ -50,4 +50,5 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. (조건부) 그래프 보기에서 보고서를 보는 동안 드롭다운 목록에서 표시할 개별 지표를 선택할 수 있습니다.
 
-   ![](assets/multiple_metri
+   ![](assets/multiple_metrics_graph.png)
+
