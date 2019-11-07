@@ -1,15 +1,12 @@
 ---
-description: 사용자 지정 코드에서 사용할 Adobe Target 경험 템플릿 정보. Target 경험 템플릿은 공통된 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력으로 사전 코딩된 샘플입니다.
 keywords: 경험 템플릿;사용자 지정 코드;배너;lightbox;캐러셀;카운트다운;리본;단추
-seo-description: 사용자 지정 코드에서 사용할 Adobe Target 경험 템플릿 정보. Target 경험 템플릿은 공통된 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력으로 사전 코딩된 샘플입니다.
-seo-title: 경험 템플릿
-solution: Target
-subtopic: 코드 편집기
+description: 사용자 지정 코드에서 사용할 Adobe Target 경험 템플릿 정보. Target 경험 템플릿은 공통된 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력으로 사전 코딩된 샘플입니다.
 title: 경험 템플릿
+subtopic: 코드 편집기
 topic: Standard
 uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
