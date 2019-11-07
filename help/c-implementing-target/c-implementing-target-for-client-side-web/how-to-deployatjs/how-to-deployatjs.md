@@ -1,14 +1,11 @@
 ---
-description: 태그 관리자 없이 Adobe Launch 또는 Adobe DTM(Dynamic Tag Management)을 사용하여 Adobe Target JavaScript 라이브러리를 배포하는 방법에 대한 정보입니다.
 keywords: 구현;at.js;Javascript 라이브러리
-seo-description: 태그 관리자 없이 Adobe Launch 또는 Adobe DTM(Dynamic Tag Management)을 사용하여 Adobe Target JavaScript 라이브러리를 배포하는 방법에 대한 정보입니다.
-seo-title: at.js를 배포하는 방법
-solution: Target
+description: 태그 관리자 없이 Adobe Launch 또는 Adobe DTM(Dynamic Tag Management)을 사용하여 Adobe Target JavaScript 라이브러리를 배포하는 방법에 대한 정보입니다.
 title: at.js를 배포하는 방법
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
