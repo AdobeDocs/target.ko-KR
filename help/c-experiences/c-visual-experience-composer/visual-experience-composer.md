@@ -1,11 +1,9 @@
 ---
-description: 시각적 경험 작성기(VEC) 사용에 대한 정보.
-seo-description: Adobe Target의 시각적 경험 작성기(VEC) 사용에 대한 정보.
-seo-title: Adobe Target VEC(시각적 경험 작성기)
-title: 시각적 경험 작성기(VEC)
+description: Adobe Target의 시각적 경험 작성기(VEC) 사용에 대한 정보.
+title: Adobe Target VEC(시각적 경험 작성기)
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
