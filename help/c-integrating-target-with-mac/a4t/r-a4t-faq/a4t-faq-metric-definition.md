@@ -1,14 +1,11 @@
 ---
-description: 이 주제에서는 지표 정의와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 keywords: faq;자주 묻는 질문;analytics for target;a4T;지표;지표 정의
-seo-description: 이 주제에서는 지표 정의와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
-seo-title: 지표 정의 - A4T FAQ
-solution: Target
+description: 이 주제에서는 지표 정의와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 지표 정의 - A4T FAQ
 topic: Standard
 uuid: 41d41665-9057-479d-b0a8-7cffb90ca843
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
