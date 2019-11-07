@@ -1,13 +1,10 @@
 ---
-description: VEC(시각적 경험 작성기) Helper 브라우저 확장 프로그램을 사용하여 VEC에서 웹 사이트를 안정적으로 로드함으로써 경험을 빠르게 작성 및 QA하기 위한 정보입니다.
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 프로그램;브라우저
-seo-description: Adobe VEC(시각적 경험 작성기) Helper 브라우저 확장 프로그램을 사용하여 VEC에서 웹 사이트를 안정적으로 로드함으로써 경험을 빠르게 작성 및 QA하기 위한 정보입니다.
-seo-title: Adobe Target VEC(시각적 경험 작성기) Helper 확장 프로그램
-solution: Target
-title: 시각적 경험 작성기 Helper 확장 프로그램
+description: Adobe VEC(시각적 경험 작성기) Helper 브라우저 확장 프로그램을 사용하여 VEC에서 웹 사이트를 안정적으로 로드함으로써 경험을 빠르게 작성 및 QA하기 위한 정보입니다.
+title: Adobe Target VEC(시각적 경험 작성기) Helper 확장 프로그램
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
