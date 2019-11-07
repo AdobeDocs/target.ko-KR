@@ -1,14 +1,11 @@
 ---
-description: 'at.js에 대한 targetPageParams() 함수 정보입니다. '
-keywords: targetPageParams;targetPageparams;pageParams;pageparams;page params;page parameters;at.js;functions;functions
-seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 targetPageParams() 함수 정보입니다.
-seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 targetPageParams() 함수 정보입니다.
-solution: Target
+keywords: 타겟 페이지 매개변수;타겟 페이지 매개변수;페이지 매개 변수;페이지 매개변수;페이지 매개변수;페이지 매개변수;at.js;함수;함수
+description: Adobe Target at.js JavaScript 라이브러리에 대한 targetPageParams() 함수 정보입니다.
+title: Adobe Target at.js JavaScript 라이브러리에 대한 targetPageParams() 함수 정보입니다.
 subtopic: 시작하기
-title: targetPageParams()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
