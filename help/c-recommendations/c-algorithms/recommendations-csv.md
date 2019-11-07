@@ -1,16 +1,10 @@
 ---
-description: 권장 사항을 사용자 지정하려면 CSV 파일을 업로드합니다.
 keywords: 사용자 지정 기준 만들기;알고리즘;기준;권장 사항 기준;csv;ftp;csv 업로드
-seo-description: 권장 사항을 사용자 지정하려면 CSV 파일을 업로드합니다.
-seo-title: 사용자 지정 기준 업로드
-solution: Target
+description: 권장 사항을 사용자 지정하려면 CSV 파일을 업로드합니다.
 title: 사용자 지정 기준 업로드
-title-outputclass: premium
-topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
-badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
