@@ -1,16 +1,11 @@
 ---
-description: AP(자동화된 개인화) 활동에서 보고 그룹을 사용하는 방법에 대한 정보입니다.
-keywords: 자동화된 개인화;오퍼;보고;그룹보고 그룹
-seo-description: Adobe Target의 AP(Automated Personalization) 활동에서 보고 그룹을 사용하는 방법에 대한 정보입니다.
-seo-title: Adobe Target의 AP(Automated Personalization) 활동에서 보고 그룹 제공
-solution: Target
-title: 자동화된 개인화의 오퍼 보고 그룹
-title-outputclass: premium
+keywords: 자동화된 개인화;오퍼;보고;그룹;보고 그룹
+description: Adobe Target의 AP(Automated Personalization) 활동에서 보고 그룹을 사용하는 방법에 대한 정보입니다.
+title: Adobe Target의 AP(Automated Personalization) 활동에서 보고 그룹 제공
 topic: 고급
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
-badge: premium
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
