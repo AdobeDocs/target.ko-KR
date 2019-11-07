@@ -1,13 +1,10 @@
 ---
-description: mbox.js 설정 페이지에서 여러 설정을 지정하는 데 도움이 되는 정보입니다.
 keywords: 고급 mbox.js 설정;클라이언트;서버 도메인;xdomain;압축 수준;클라이언트 세션 ID 지원;secureOnly;클라이언트 pc id 지원;페이지 전달;참조 url;트래픽 수준;트래픽 기간;mboxParameters() 함수 본문;mboxSupported() 함수 본문;mboxCookieDomain() 함수 본문;추가 JavaScript;SiteCatalyst 플러그인;mbox.js를 자동 압축 해제 JavaScript;깜박임;본문 숨김;본문 숨기기
-seo-description: mbox.js 설정 페이지에서 여러 설정을 지정하는 데 도움이 되는 정보입니다.
-seo-title: mbox.js 구성
-solution: Target
+description: mbox.js 설정 페이지에서 여러 설정을 지정하는 데 도움이 되는 정보입니다.
 title: mbox.js 구성
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
