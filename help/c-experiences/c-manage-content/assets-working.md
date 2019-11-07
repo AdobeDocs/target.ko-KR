@@ -1,14 +1,10 @@
 ---
-description: 라이브러리에 있는 자산에 대해 수행할 수 있는 작업이 많습니다.
 keywords: 컨텐츠 라이브러리;자산;주석 달기;복사;자산 삭제;자산 다운로드;컨텐츠 편집;카드 공유;컨텐츠 속성 보기
-seo-description: 라이브러리에 있는 자산에 대해 수행할 수 있는 작업이 많습니다.
-seo-title: 라이브러리에서 컨텐츠 작업
-solution: Target
+description: 라이브러리에 있는 자산에 대해 수행할 수 있는 작업이 많습니다.
 title: 라이브러리에서 컨텐츠 작업
-topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
