@@ -1,13 +1,10 @@
 ---
 description: 모든 경험의 유효성을 확인할 수 있도록 Target 브라우저 쿠키를 삭제합니다.
-seo-description: 모든 경험의 유효성을 확인할 수 있도록 Target 브라우저 쿠키를 삭제합니다.
-seo-title: Target 쿠키 삭제
-solution: Target
 title: Target 쿠키 삭제
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
