@@ -1,13 +1,11 @@
 ---
-description: Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 대한 정보이며 Target 구현을 빠르고 쉽게 이해할 수 있습니다.
 keywords: at.js;at.js 디버그;adobe Experience Cloud debugger;experience cloud debugger;mbox 추적;mbox 강조 표시;디버그;디버깅
-seo-description: Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 대한 정보이며 Target 구현을 빠르고 쉽게 이해할 수 있습니다.
-seo-title: Adobe Experience Cloud Debugger를 사용하여 at.js 디버그
+description: Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 대한 정보이며 Target 구현을 빠르고 쉽게 이해할 수 있습니다.
 title: Adobe Experience Cloud Debugger를 사용하여 at.js 디버그
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
