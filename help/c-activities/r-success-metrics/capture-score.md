@@ -1,15 +1,12 @@
 ---
-description: 캡처 점수 참여 지표는 방문자가 캠페인의 첫 번째 디스플레이 mbox를 처음 본 시점부터 시작하여 사이트에서 방문된 페이지에 할당된 값에 따라 집계된 점수를 계산합니다.
 keywords: 캡처 점수;점수
-seo-description: 캡처 점수 참여 지표는 방문자가 캠페인의 첫 번째 디스플레이 mbox를 처음 본 시점부터 시작하여 사이트에서 방문된 페이지에 할당된 값에 따라 집계된 점수를 계산합니다.
-seo-title: 캡처 점수
-solution: Target
-subtopic: 시작하기
+description: 캡처 점수 참여 지표는 방문자가 캠페인의 첫 번째 디스플레이 mbox를 처음 본 시점부터 시작하여 사이트에서 방문된 페이지에 할당된 값에 따라 집계된 점수를 계산합니다.
 title: 캡처 점수
+subtopic: 시작하기
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
