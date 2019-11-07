@@ -1,16 +1,11 @@
 ---
-description: 경험 URL은 활동이 미리 보기 및 QA 목적으로 라이브 상태가 되기 전에 사이트에서 바로 경험 컨텐츠를 볼 수 있도록 Target 자동화된 개인화 활동에 대해 생성될 수 있습니다. 경험 URL은 타깃팅을 무시하여 특정 경험을 강제로 표시합니다.
 keywords: 경험 미리 보기;경험 URL;URL 생성;경험 URL 보기
-seo-description: 경험 URL은 활동이 미리 보기 및 QA 목적으로 라이브 상태가 되기 전에 사이트에서 바로 경험 컨텐츠를 볼 수 있도록 Target 자동화된 개인화 활동에 대해 생성될 수 있습니다. 경험 URL은 타깃팅을 무시하여 특정 경험을 강제로 표시합니다.
-seo-title: 경험 URL을 공유하여 Target 외부의 자동화된 개인화 미리 보기
-solution: Target
+description: 경험 URL은 활동이 미리 보기 및 QA 목적으로 라이브 상태가 되기 전에 사이트에서 바로 경험 컨텐츠를 볼 수 있도록 Target 자동화된 개인화 활동에 대해 생성될 수 있습니다. 경험 URL은 타깃팅을 무시하여 특정 경험을 강제로 표시합니다.
 title: 경험 URL을 공유하여 Target 외부의 자동화된 개인화 미리 보기
-title-outputclass: premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
