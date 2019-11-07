@@ -1,14 +1,11 @@
 ---
-description: 이메일에서 이미지를 동적으로 테스트하고, 누군가 이메일을 열면 해당 이미지를 즉시 변경합니다.
 keywords: email;adbox;email image adbox
-seo-description: Adobe Target을 사용하여 이메일에 포함된 이미지를 동적으로 테스트하고 이메일을 열면 해당 이미지를 즉시 변경할 수 있습니다.
-seo-title: Adobe Target을 사용하여 이메일 이미지 Adbox 테스트
-solution: Target
-title: 이메일 이미지 Adbox 테스트
+description: Adobe Target을 사용하여 이메일에 포함된 이미지를 동적으로 테스트하고 이메일을 열면 해당 이미지를 즉시 변경할 수 있습니다.
+title: Adobe Target을 사용하여 이메일 이미지 Adbox 테스트
 topic: 권장 사항
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
