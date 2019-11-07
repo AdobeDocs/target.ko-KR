@@ -1,14 +1,10 @@
 ---
-description: 항목이 추천되지 않도록 하려면 제외 목록을 만드십시오.
 keywords: 제외
-seo-description: Adobe Target에서 제외 목록을 만들어 항목이 권장되지 않도록 합니다.
-seo-title: Adobe Target의 제외
-solution: Target
-title: 제외
-topic: Premium
+description: 항목이 추천되지 않도록 하려면 Adobe Target에서 제외 목록을 만드십시오.
+title: Adobe Target의 제외
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -21,7 +17,7 @@ source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 >
 >정적 및 동적 제외 규칙은 마케팅 활동에 도움이 될 수 있는 강력한 기능입니다. 자세한 정보, 예 및 사용 사례 시나리오가 필요하면 [동적 및 정적 포함 규칙 사용](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하십시오.
 
-**제외를 만들려면**
+**제외 만들기:**
 
 1. **[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 제외]**&#x200B;를 클릭하여 기존 제외 목록을 표시합니다.
 
@@ -49,15 +45,15 @@ source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 [다른 이름으로 저장](/help/c-recommendations/c-products/assets/save-as.png)
 
-예를 들어 "id &gt; 포함"을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] &gt; [!UICONTROL 제외]를 클릭할 수 있습니다. 자세한 내용은 카탈로그 [검색을](/help/c-recommendations/c-products/catalog-search.md)참조하십시오.
+예를 들어 "id &gt; 포함"을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] &gt; [!UICONTROL 제외]를 클릭할 수 있습니다. 자세한 내용은 [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md)을 참조하십시오.
 
 >[!IMPORTANT]
 >
 >고급 검색 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 제외를 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, "Holiday"를 검색할 때 초기 검색 목록에는 "Holiday"와 "holiday"를 포함하는 결과가 나열됩니다. 그런 다음 "holiday"를 포함하는 제품을 제외할 의도로 제외를 만드는 경우 "holiday"를 포함하는 제품만 제외됩니다. "Holiday"를 포함하는 제품은 제외되지 않습니다.
 
-## 교육 비디오:Recommendations에서 컬렉션 및 제외 만들기(7:05)
+## 교육 비디오: 추천에서 컬렉션 및 제외 만들기(7:05)
 
-이 비디오에는 다음 정보가 포함되어 있습니다.
+이 비디오에는 다음 정보가 포함됩니다.
 
 * 컬렉션 만들기
 * 제외 만들기
