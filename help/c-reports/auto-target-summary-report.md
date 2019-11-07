@@ -1,20 +1,17 @@
 ---
-description: 자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
 keywords: 보고서;자동 타겟;자동 타겟;AT
-seo-description: 자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
-seo-title: Auto-Target 요약 보고서
-solution: Target
-subtopic: 다변량 테스트
+description: 자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
 title: Auto-Target 요약 보고서
+subtopic: 다변량 테스트
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# Auto-Target 요약 보고서{#auto-target-summary-report}를 참조하십시오
+# Auto-Target 요약 보고서를 참조하십시오{#auto-target-summary-report}
 
 자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
 
