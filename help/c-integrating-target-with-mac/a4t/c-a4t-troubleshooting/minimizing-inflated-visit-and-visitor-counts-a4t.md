@@ -1,15 +1,12 @@
 ---
-description: Analytics를 보고 소스로 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 데 도움이 되는 정보입니다.
 keywords: 부분 데이터;부분적 데이터;A4T;불일치;analytics for target;고립됨;가상 보고서 세트;가상;문제 해결;분리됨;부풀려짐;미지정
-seo-description: Analytics를 보고 소스로 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 데 도움이 되는 정보입니다.
-seo-title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화
-solution: Target
-subtopic: 다변량 테스트
+description: Analytics를 보고 소스로 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 데 도움이 되는 정보입니다.
 title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화
+subtopic: 다변량 테스트
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
