@@ -1,16 +1,10 @@
 ---
-description: 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.
-keywords: 권장 사항;권장 사항 활동;기준알고리즘;추천 키;사용자 지정 키;업계 수직;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어;게시
-seo-description: Adobe Target Recommendations의 기준은 미리 결정된 방문자 행동을 기반으로 권장할 제품을 결정하는 규칙입니다.
-seo-title: Adobe Target Recommendations의 기준
-solution: Target
-title: 기준
-title-outputclass: premium
-topic: Premium
+keywords: 추천;추천 활동;기준;알고리즘;추천 키;사용자 지정 키;업계 수직;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어 게시
+description: Adobe Target Recommendations의 기준은 미리 결정된 방문자 행동을 기반으로 권장할 제품을 결정하는 규칙입니다.
+title: Adobe Target Recommendations의 기준
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
