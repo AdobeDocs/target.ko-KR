@@ -1,23 +1,17 @@
 ---
-description: 엔티티는 추천할 항목을 나타냅니다. 엔티티는 제품, 컨텐츠(문서, 슬라이드쇼, 이미지, 동영상 및 TV 프로그램 등), 구인 및 구직 정보, 식당 등 어떤 것이든 될 수 있습니다.
 keywords: 제품;컬렉션
-seo-description: 개체는 Adobe Target을 사용하여 추천할 항목을 나타냅니다. 엔티티는 제품, 컨텐츠(문서, 슬라이드쇼, 이미지, 동영상 및 TV 프로그램 등), 구인 및 구직 정보, 식당 등 어떤 것이든 될 수 있습니다.
-seo-title: Adobe Target의 엔티티
-solution: Target
-title: 엔티티
-title-outputclass: premium
-topic: Premium
+description: 엔티티는 Adobe Target 사용 중에 권장할 항목을 참조합니다. 엔티티는 제품, 콘텐츠(문서, 슬라이드쇼, 이미지, 동영상 및 TV 프로그램 등), 구인 및 구직 정보, 식당 등 어떤 것이든 될 수 있습니다.
+title: Adobe Target의 엔티티
 uuid: 1940dd31-b416-413e-aa6c-babbc8883d47
-badge: premium
 translation-type: tm+mt
-source-git-commit: 5a10156bfe235d894c7ee3518cbf685deed324ca
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 엔티티{#entities}
 
-엔티티는 추천할 항목을 나타냅니다. 엔티티는 제품, 컨텐츠(문서, 슬라이드쇼, 이미지, 동영상 및 TV 프로그램 등), 구인 및 구직 정보, 식당 등 어떤 것이든 될 수 있습니다.
+엔티티는 추천할 항목을 나타냅니다. 엔티티는 제품, 콘텐츠(문서, 슬라이드쇼, 이미지, 동영상 및 TV 프로그램 등), 구인 및 구직 정보, 식당 등 어떤 것이든 될 수 있습니다.
 
 권장 사항은 설정된 기준에 따라 컬렉션의 항목을 표시합니다.
 
