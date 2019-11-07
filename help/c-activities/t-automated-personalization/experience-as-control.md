@@ -1,13 +1,11 @@
 ---
-description: AP(자동화된 개인화) 또는 자동 타겟 활동을 작성하는 동안 제어로 사용할 경험을 선택합니다.
 keywords: 경험;제어;자동화된 개인화;자동 타겟
-seo-description: Adobe Target에서 AP(자동화된 개인화) 또는 자동 타겟 활동을 작성하는 동안 제어로 사용할 경험을 선택합니다.
-seo-title: Adobe Target에서 특정 환경을 제어로 사용
+description: Adobe Target에서 AP(자동화된 개인화) 또는 자동 타겟 활동을 작성하는 동안 제어로 사용할 경험을 선택합니다.
+title: Adobe Target에서 특정 환경을 제어로 사용
 solution: Target,Analytics
-title: 특정 환경을 제어로 사용
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
