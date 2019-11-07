@@ -1,15 +1,12 @@
 ---
-description: Target Standard 또는 Target Premium을 사용하려면 mbox.js를 호출할 코드 한 줄을 추가하십시오.
 keywords: 구현;Mbox;mbox.js 다운로드;api 다운로드;mbox.js api
-seo-description: Target Standard 또는 Target Premium을 사용하려면 mbox.js를 호출할 코드 한 줄을 추가하십시오.
-seo-title: mbox.js 구현
-solution: Target
-subtopic: 시작하기
+description: Target Standard 또는 Target Premium을 사용하려면 mbox.js를 호출할 코드 한 줄을 추가하십시오.
 title: mbox.js 구현
+subtopic: 시작하기
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
