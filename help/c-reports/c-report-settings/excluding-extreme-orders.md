@@ -1,14 +1,10 @@
 ---
-description: 몇 개의 비정상적인 주문이 활동 결과에 영향을 주지 않도록 영향력이 있는 보고서에서 극단적인 값을 제외할 수 있습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
 keywords: Target;보고서;보고서 설정;예외적인 주문;예외적인 값
-seo-description: Adobe Target에서 보고서에 영향을 주는 예외적인 값을 제외하여 몇 가지 비정상적인 주문이 활동 결과에 영향을 주지 않습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
-seo-title: Adobe Target 보고서에서 예외적인 값 제외
-solution: Target
-title: 예외적인 값 제외
-topic: Premium
+description: Adobe Target에서 보고서에 영향을 주는 예외적인 값을 제외하여 몇 가지 비정상적인 주문이 활동 결과에 영향을 주지 않습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
+title: Adobe Target 보고서에서 예외적인 값 제외
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
