@@ -1,13 +1,10 @@
 ---
-description: 특정 조건에서 EEC에 문제가 발생하는 경우가 있습니다.
 keywords: 타깃팅;eec;시각적 경험 작성기;EEC 문제 해결;문제점 해결
-seo-description: 특정 조건에서 EEC에 문제가 발생하는 경우가 있습니다.
-seo-title: 고급 경험 작성기 관련 문제 해결
-solution: Target
+description: 특정 조건에서 EEC에 문제가 발생하는 경우가 있습니다.
 title: 고급 경험 작성기 관련 문제 해결
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
