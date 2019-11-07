@@ -1,14 +1,11 @@
 ---
-description: 'at.js에 대한 사용자 지정 이벤트 정보입니다. '
-keywords: 사용자 지정 이벤트;at.js;요청 실패;요청 성공;컨텐츠 렌더링 실패;콘텐트 렌더링 성공;라이브러리 로딩;요청 시작;컨텐츠 렌더링 시작;오퍼를 사용하지 않는 컨텐츠 렌더링
-seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트 정보입니다.
-seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트 정보입니다.
-solution: Target
+keywords: 사용자 지정 이벤트;at.js;요청 실패;요청 성공;콘텐츠 렌더링 실패;콘텐츠 렌더링 성공;라이브러리 로드됨;요청 시작;콘텐츠 렌더링 시작;콘텐츠 렌더링 오퍼 없음;콘텐츠 렌더링 리디렉션
+description: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트 정보입니다.
+title: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트 정보입니다.
 subtopic: 시작하기
-title: at.js 사용자 지정 이벤트
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
