@@ -1,16 +1,10 @@
 ---
-description: 'Recommendations 오퍼를 포함하는 Recommendations, A/B 테스트 또는 경험 타깃팅(XT) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기할 것입니다. Target Recommendations는 권장 사항을 미리 보는 여러 가지 방법을 제공합니다. '
 keywords: 추천;오퍼;미리 보기;실행
-seo-description: 'Adobe Target Recommendations 오퍼가 포함된 Recommendations, A/B 테스트 또는 XT(Experience Targeting) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기할 수 있습니다. Target Recommendations는 권장 사항을 미리 보는 여러 가지 방법을 제공합니다. '
-seo-title: 'Adobe Target Recommendations 오퍼가 포함된 Recommendations, A/B 테스트 또는 XT(Experience Targeting) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기할 수 있습니다. Target Recommendations는 권장 사항을 미리 보는 여러 가지 방법을 제공합니다. '
-solution: Target
+description: 'Adobe Target Recommendations 오퍼가 포함된 Recommendations, A/B 테스트 또는 XT(Experience Targeting) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기할 수 있습니다. Target Recommendations는 권장 사항을 미리 보는 여러 가지 방법을 제공합니다. '
+title: 'Adobe Target Recommendations 오퍼가 포함된 Recommendations, A/B 테스트 또는 XT(Experience Targeting) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기할 수 있습니다. Target Recommendations는 권장 사항을 미리 보는 여러 가지 방법을 제공합니다. '
 subtopic: 권장 사항
-title: Recommendations 활동 미리 보기 및 시작
-title-outputclass: premium
-topic: Premium
-badge: premium
 translation-type: tm+mt
-source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
