@@ -1,14 +1,11 @@
 ---
-description: 위치 기여도 보고서는 각 요소 및 각 오퍼의 성과를 보여줍니다.
 keywords: mvt;다변량 테스트;위치 기여도 보고서
-seo-description: 위치 기여도 보고서는 각 요소 및 각 오퍼의 성과를 보여줍니다.
-seo-title: 위치 기여도 보고서(MVT)
-solution: Target
+description: 위치 기여도 보고서는 각 요소 및 각 오퍼의 성과를 보여줍니다.
 title: 위치 기여도 보고서(MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
