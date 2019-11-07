@@ -1,19 +1,16 @@
 ---
-description: mbox.js에서 at.js로 마이그레이션하는 것은 간단한 프로세스입니다.
 keywords: Target;at.js;at.js로 마이그레이션;준비 상태;at.js 감사;at.js 통합
-seo-description: mbox.js에서 at.js로 마이그레이션하는 것은 간단한 프로세스입니다.
-seo-title: mbox.js에서 at.js로 마이그레이션하는 방법
-solution: Target
+description: mbox.js에서 at.js로 마이그레이션하는 것은 간단한 프로세스입니다.
 title: mbox.js에서 at.js로 마이그레이션하는 방법
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# mbox.js에서 at.js로 마이그레이션하는 방법{#how-to-migrate-to-at-js-from-mbox-js}을 참조하십시오.
+# mbox.js에서 at.js로 마이그레이션하는 방법을 참조하십시오.{#how-to-migrate-to-at-js-from-mbox-js}
 
 mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는 간단합니다.
 
