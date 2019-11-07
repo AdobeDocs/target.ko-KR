@@ -1,15 +1,12 @@
 ---
-description: Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있습니다.
 keywords: 클릭 추적;클릭 수 추적;클릭 수;AppMeasurement
-seo-description: Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있습니다.
-seo-title: 클릭 추적
-solution: Target
-subtopic: 시작하기
+description: Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있습니다.
 title: 클릭 추적
+subtopic: 시작하기
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
