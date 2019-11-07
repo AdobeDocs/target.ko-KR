@@ -1,14 +1,11 @@
 ---
-description: Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달할 Target 외부의 컨텐츠를 호스팅하려면 원격 오퍼를 사용하십시오. 이 콘텐츠는 편의성이나 보안상의 이유로 콘텐츠 관리 시스템이나 다른 시스템에 있을 수 있습니다.
 keywords: 원격 오퍼;원격 오퍼 선택 표;캐시된 컨텐츠;다이내믹 컨텐츠
-seo-description: Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달할 Target 외부의 컨텐츠를 호스팅하려면 원격 오퍼를 사용하십시오. 이 콘텐츠는 편의성이나 보안상의 이유로 콘텐츠 관리 시스템이나 다른 시스템에 있을 수 있습니다.
-seo-title: 원격 오퍼 만들기
-solution: Target
+description: Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달할 Target 외부의 컨텐츠를 호스팅하려면 원격 오퍼를 사용하십시오. 이 콘텐츠는 편의성이나 보안상의 이유로 콘텐츠 관리 시스템이나 다른 시스템에 있을 수 있습니다.
 title: 원격 오퍼 만들기
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
