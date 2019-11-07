@@ -1,13 +1,11 @@
 ---
-description: 다변량 테스트의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 keywords: 다변량;mvt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;수입;참여
-seo-description: 다변량 테스트의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
-seo-title: 지표 설정
-solution: Target,standard
+description: 다변량 테스트의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 title: 지표 설정
+solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
