@@ -1,13 +1,10 @@
 ---
-description: 특정 조건에서 VEC에 문제가 발생하는 경우가 있습니다.
 keywords: 타깃팅;시각적 경험 작성기;허용 목록;vec;시각적 경험 작성기 문제 해결;문제 해결;tls;tls 1.2
-seo-description: 특정 조건에서 VEC에 문제가 발생하는 경우가 있습니다.
-seo-title: 시각적 경험 작성기에 관련된 문제 해결
-solution: Target
+description: 특정 조건에서 VEC에 문제가 발생하는 경우가 있습니다.
 title: 시각적 경험 작성기에 관련된 문제 해결
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
