@@ -1,15 +1,12 @@
 ---
-description: '응답 토큰을 사용하면 디버깅이나 타사 시스템(예: Clicktale)과의 통합에 사용할 Target 관련 정보(캠페인 세부 사항, 사용자 프로필 정보, 지리 정보 등)를 자동으로 출력할 수 있습니다.'
-keywords: 응답 토큰;토큰;플러그인;플러그 인at.js;response
-seo-description: '응답 토큰을 사용하면 디버깅 또는 타사 시스템(예: Clicktale)과의 통합에 사용할 타겟 특정 정보(활동 세부 사항, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
-seo-title: Adobe Target의 응답 토큰
-solution: Target
+keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답 토큰;토큰;토큰;플러그인;플러그인;at.js;response
+description: '응답 토큰을 사용하면 디버깅 또는 타사 시스템(예: Clicktale)과의 통합에 사용할 타겟 특정 정보(활동 세부 사항, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
+title: Adobe Target의 응답 토큰
 subtopic: 시작하기
-title: 응답 토큰
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -284,6 +281,6 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 
 ## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-다음 비디오를 통해 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 살펴볼 수 있습니다.
+다음 비디오를 시청하여 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 학습하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=kor)
