@@ -1,14 +1,11 @@
 ---
-description: 리디렉션 오퍼가 발생하면 브라우저가 새 페이지로 리디렉션됩니다.
 keywords: 리디렉션 오퍼;리디렉션 오퍼 만들기;html 오퍼 추가;리디렉션에서 모든 URL 매개 변수 전달;리디렉션에서 mboxSessionId 전달(리디렉션이 다른 도메인으로 진행될 경우에만 필요함)
-seo-description: 브라우저가 새 페이지로 리디렉션되는 Adobe Target의 리디렉션 오퍼에 대한 정보입니다.
-seo-title: 리디렉션 오퍼 만들기
-solution: Target
+description: 브라우저가 새 페이지로 리디렉션되는 Adobe Target의 리디렉션 오퍼에 대한 정보입니다.
 title: 리디렉션 오퍼 만들기
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
