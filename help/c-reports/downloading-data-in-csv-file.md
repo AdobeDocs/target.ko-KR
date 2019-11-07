@@ -1,15 +1,12 @@
 ---
-description: 데이터를 .csv 형식으로 다운로드하면 Excel, Access 또는 기타 데이터 분석 프로그램으로 빠르게 가져올 수 있습니다.
 keywords: 보고서;보고서 다운로드;csv;성공 지표;주문 세부 사항
-seo-description: Adobe Target을 사용하여 데이터를 .csv 형식으로 다운로드하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 신속하게 가져올 수 있습니다.
-seo-title: Adobe Target을 사용하여 CSV 파일로 데이터 다운로드
-solution: Target
+description: Adobe Target을 사용하여 데이터를 .csv 형식으로 다운로드하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 신속하게 가져올 수 있습니다.
+title: Adobe Target을 사용하여 CSV 파일로 데이터 다운로드
 subtopic: 다변량 테스트
-title: CSV 파일로 데이터 다운로드
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -27,7 +24,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 1. **[!UICONTROL 보고서]탭을 클릭합니다.**
 1. **[!UICONTROL 다운로드]아이콘을 클릭한 다음, Excel 및 기타 도구에서 분석할 수 있도록 다운로드할 보고서 유형을 선택합니다.**
 
-   * [!UICONTROL Export Reports to CSV]
+   * [!UICONTROL 보고서를 CSV로 내보내기]
    * [!UICONTROL 주문 세부 사항을 CSV로 내보내기]
    ![다운로드 옵션](/help/c-reports/assets/download-options.png)
 
@@ -42,7 +39,7 @@ source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 >[!NOTE]
 >
->The CSV report includes only raw data and does not include calculated metrics such as revenue per visitor, lift, or confidence used for A/B tests. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSV 보고서에는 원시 데이터만 포함되며 방문자당 매출액, 리프트 수 또는 A/B 테스트에 사용된 신뢰도와 같은 계산된 지표는 포함되지 않습니다. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 주문 세부 사항을 CSV로 내보내기 {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
