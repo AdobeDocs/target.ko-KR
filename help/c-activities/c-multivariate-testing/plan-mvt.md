@@ -1,13 +1,10 @@
 ---
-description: 성공적인 테스트를 위해서는 Adobe Target의 다변량 테스트에 몇 가지 계획이 필요합니다.
 keywords: 다변량 테스트;mvt;mvt 계획;다변량 테스트 계획
-seo-description: 성공적인 테스트를 위해서는 Adobe Target의 다변량 테스트에 몇 가지 계획이 필요합니다.
-seo-title: Adobe Target에서 다변량 테스트 계획
-solution: Target
-title: 다변량 테스트 계획
+description: 성공적인 테스트를 위해서는 Adobe Target의 다변량 테스트에 몇 가지 계획이 필요합니다.
+title: Adobe Target에서 다변량 테스트 계획
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
