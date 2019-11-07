@@ -1,14 +1,11 @@
 ---
-description: at.js 2.x 및 at.js 1.x에서 쿠키를 처리하는 방법에 대한 자세한 내용
 keywords: at.js;2.0;1.x;쿠키
-seo-description: Adobe Target at.js 2.x 및 at.js 1.x에서 쿠키를 처리하는 방법에 대한 자세한 내용
-seo-title: Adobe Target at.js 쿠키
-solution: Target
+description: Adobe Target at.js 2.x 및 at.js 1.x에서 쿠키를 처리하는 방법에 대한 자세한 내용
+title: Adobe Target at.js 쿠키
 subtopic: 시작하기
-title: at.js 쿠키
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
