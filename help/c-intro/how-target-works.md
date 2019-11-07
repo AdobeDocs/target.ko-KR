@@ -1,15 +1,12 @@
 ---
-description: Adobe Target은 두 개의 JavaScript 라이브러리 중 하나를 통해 웹 사이트와 통합됩니다.at.js 또는 mbox.js
 keywords: 개요 및 참조;SEO;검색 엔진 최적화
-seo-description: Adobe Target은 두 개의 JavaScript 라이브러리 중 하나를 통해 웹 사이트와 통합됩니다.at.js 또는 mbox.js
-seo-title: Adobe Target 작동 방식
-solution: Target
-subtopic: 시작하기
+description: Adobe Target은 JavaScript 라이브러리 at.js 또는 mbox.js 중 하나를 통해 웹 사이트와 통합
 title: Adobe Target 작동 방식
+subtopic: 시작하기
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -96,13 +93,13 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 각 에지 노드에는 사용자의 콘텐츠 요청에 응답하고, 해당 요청에 대한 분석 데이터를 추적하는 데 필요한 모든 정보가 있습니다. 사용자 요청은 가장 가까운 에지 노드로 전달됩니다.
 
-![핵심 Edge 사이트 및 Edge Sites를 사용하여 매핑](assets/edge_network.png)
+![핵심 에지 사이트 및 에지 사이트 매핑](assets/edge_network.png)
 
-이 이미지의 소스는 Adobe Target [보안 개요](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서입니다.
+The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe에서 임대한 데이터 센터에서 호스팅됩니다. 관리 서버는 전적으로 런던, 싱가포르, Adobe 소유 데이터 센터 내에서 호스팅되며, 오레곤 및 버지니아를 포함하여 미국 전역의 여러 위치에서 호스팅됩니다. Edge Server는 런던, 홍콩, 싱가포르, 도쿄, 시드니에 있는 Amazon AWS 데이터 센터의 Adobe 소유 서버와 Adobe에서 임대한 서버에서 호스팅됩니다.
+Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센터에 호스팅됩니다. 관리 서버는 런던, 싱가포르를 포함하여 오레곤, 버지니아 등 미국 전역의 여러 지역에서 Adobe 소유 데이터 센터 내에 호스팅됩니다. 에지 서버는 런던, 홍콩, 싱가포르, 도쿄 및 시드니에 있는 Amazon AWS 데이터 센터의 Adobe 소유 서버와 Adobe 임대 서버에서 모두 호스팅됩니다.
 
-관리 서버 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 포함되어 있습니다. 에지 사이트 위치에는 데이터 수집 센터만 있습니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
+관리 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 있습니다. 에지 사이트 위치에는 데이터 수집 센터만 있습니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
 
 한 위치에서 모든 타깃팅 요청에 응답하기보다는, 방문자에게 가장 가까운 에지 환경에서 요청을 처리하는 것이 네트워크/인터넷 이동 시간의 영향을 완화합니다.
 
@@ -172,13 +169,13 @@ Google에서는 한 예로 "사이트의 원본 페이지를 로드한 키워드
 
 ## 보트 {#bots}
 
-Adobe Target은 [DeviceAtlas를](https://deviceatlas.com/) 사용하여 알려진 보트를 감지합니다. 보트가 생성하는 것으로 식별되는 트래픽은 SEO 지침과 일치하는지 확인하기 위해 일반 사용자와 같은 컨텐츠가 계속 제공됩니다. 보트 트래픽을 사용하면 A/B 테스트나 개인화 알고리즘이 일반 사용자로 처리되는 경우 이를 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽이 약간 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
+Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 보트에 의해 생성된 것으로 식별된 트래픽은 SEO 가이드라인과 일치하도록 일반 사용자와 같은 콘텐츠를 계속 제공합니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 다소 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
 
-특히 알려진 보트 트래픽의 경우 Target은 다음을 수행하지 않습니다.
+특히 알려진 보트 트래픽 Target의 경우 다음이 불가능합니다.
 
 * 방문자 프로필 만들기 또는 검색
-* 모든 프로필 속성 로그 또는 프로필 스크립트 실행
-* AAM(Adobe Audience Manager) 세그먼트 조회(해당되는 경우)
-* Recommendations, Auto Target, Automated Personalization 또는 Auto Align 활동에 대한 맞춤형 컨텐츠를 모델링 및 제공하는 데 보트 트래픽을 사용합니다.
-* 보고를 위해 활동 방문 기록
-* Adobe Experience Cloud 플랫폼으로 전송할 로그 데이터
+* 모든 프로필 속성 로깅 또는 프로필 스크립트 실행
+* Adobe Audience Manager(AAM) 세그먼트 조회(해당하는 경우)
+* 추천, 자동 Target, 자동 개인화 또는 자동 할당 활동에 대해 개인화된 콘텐츠를 모델링하고 제공하는 데 보트 트래픽을 사용합니다.
+* 보고를 위한 활동 방문 로그
+* Adobe Experience Cloud 플랫폼으로 전송될 로그 데이터
