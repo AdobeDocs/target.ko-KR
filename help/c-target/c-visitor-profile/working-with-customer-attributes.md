@@ -1,15 +1,12 @@
 ---
-description: Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 Adobe Target에서의 컨텐츠 타깃팅을 위해 고객 관계 관리(CRM) 데이터베이스의 엔터프라이즈 고객 데이터를 사용하는 방법에 대한 정보입니다.
 keywords: 고객 레코드 서비스;crs;crm;mbox3rdpartyid;고객 속성;타깃팅
-seo-description: Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 Adobe Target에서의 컨텐츠 타깃팅을 위해 고객 관계 관리(CRM) 데이터베이스의 엔터프라이즈 고객 데이터를 사용하는 방법에 대한 정보입니다.
-seo-title: 고객 속성 Adobe Target에서
-solution: Target
+description: Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 Adobe Target에서의 컨텐츠 타깃팅을 위해 고객 관계 관리(CRM) 데이터베이스의 엔터프라이즈 고객 데이터를 사용하는 방법에 대한 정보입니다.
+title: 고객 속성 Adobe Target에서
 subtopic: 시작하기
-title: 고객 속성
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -69,9 +66,9 @@ Detailed instructions for completing each of the following tasks can be found in
    HTTP 메서드를 사용하여 최대 100MB의 데이터 파일을 업로드할 수 있습니다. 100MB보다 큰 파일(최대 4GB)은 FTP를 통해 업로드할 수 있습니다.
 
    * **** HTTPS:.csv 데이터 파일을 드래그 앤 드롭하거나 찾아보기를 클릭하여 **[!UICONTROL 파일]** 시스템에서 업로드할 수 있습니다.
-   * **FTP:** Click the FTP link to [upload the file through FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. Specify the password, then click **[!UICONTROL Done]**.
+   * **** FTP:FTP 링크를 클릭하여 FTP를 통해 파일을 [업로드합니다](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. Specify the password, then click **[!UICONTROL Done]**.
 
-      이제 CSV/ZIP/GZIP 파일을 FTP 서버로 전송하십시오. After this file transfer is successful, create a new file with same name and .fin extension. 이 빈 파일을 서버로 전송합니다. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
+      이제 CSV/ZIP/GZIP 파일을 FTP 서버로 전송하십시오. 이 파일 전송이 성공한 후 동일한 이름과 .fin 확장명을 가진 새 파일을 만듭니다. 이 빈 파일을 서버로 전송합니다. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. 스키마 유효성 검사.
 
