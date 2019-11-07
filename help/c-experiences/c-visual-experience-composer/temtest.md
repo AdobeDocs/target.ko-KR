@@ -1,14 +1,10 @@
 ---
-description: 페이지 템플릿을 사용하여 페이지에 구조를 지정하거나 페이지에 유사한 요소들이 있는 경우, 이 기능을 사용하면 구조가 유사한 페이지 요소에서 변형을 테스트할 수 있습니다.
 keywords: 템플릿 테스트;템플릿;유사한 페이지의 동일한 경험;템플릿 테스트
-seo-description: 페이지 템플릿을 사용하여 페이지에 구조를 지정하거나 페이지에 유사한 요소들이 있는 경우, 이 기능을 사용하면 구조가 유사한 페이지 요소에서 변형을 테스트할 수 있습니다.
-seo-title: 유사한 페이지에 동일한 경험 포함
-solution: Target
+description: 페이지 템플릿을 사용하여 페이지에 구조를 지정하거나 페이지에 유사한 요소들이 있는 경우, 이 기능을 사용하면 구조가 유사한 페이지 요소에서 변형을 테스트할 수 있습니다.
 title: 유사한 페이지에 동일한 경험 포함
-topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
