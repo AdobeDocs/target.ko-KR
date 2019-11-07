@@ -1,13 +1,10 @@
 ---
 description: 기본 모바일 앱용 VEC(시각적 경험 작성기)를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 콘텐츠를 개인화할 수 있습니다.
-seo-description: 기본 모바일 앱용 VEC(시각적 경험 작성기)를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 콘텐츠를 개인화할 수 있습니다.
-seo-title: 모바일 앱 시각적 경험 작성기
-solution: Target
 title: 모바일 앱 시각적 경험 작성기
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
