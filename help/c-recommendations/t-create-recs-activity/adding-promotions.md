@@ -1,16 +1,10 @@
 ---
-description: 프로모션된 항목을 추가하고 권장 사항 디자인에서 해당 배치를 제어합니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
 keywords: 프로모션;전면 프로모션;후속 프로모션;프로모션 유형
-seo-description: 프로모션된 항목을 추가하고 Adobe Target 권장 사항 디자인에서 해당 배치를 제어합니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
-seo-title: Adobe Target 권장 사항 디자인에 프로모션을 추가합니다.
-solution: Target
-title: 프로모션 추가
-title-outputclass: premium
-topic: Premium
+description: 프로모션된 항목을 추가하고 Adobe Target 권장 사항 디자인에서 해당 배치를 제어합니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
+title: Adobe Target 권장 사항 디자인에 프로모션을 추가합니다.
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
