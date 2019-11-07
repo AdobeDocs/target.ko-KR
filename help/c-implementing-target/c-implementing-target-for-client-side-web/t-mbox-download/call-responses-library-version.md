@@ -1,11 +1,9 @@
 ---
 description: Target이 페이지의 호출을 수행하고 호출에 응답하는 방식은 사용 중인 Target 라이브러리 버전, Experience Cloud 방문자 ID 구현이 존재하는지 여부, 방문자 ID가 있는지 여부에 따라 다릅니다.
-seo-description: Target이 페이지의 호출을 수행하고 호출에 응답하는 방식은 사용 중인 Target 라이브러리 버전, Experience Cloud 방문자 ID 구현이 존재하는지 여부, 방문자 ID가 있는지 여부에 따라 다릅니다.
-seo-title: mbox.js 라이브러리 버전별 Target 페이지 방법
 title: mbox.js 라이브러리 버전별 Target 페이지 방법
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
