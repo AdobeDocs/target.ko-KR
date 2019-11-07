@@ -1,15 +1,12 @@
 ---
-description: Adobe Experience Cloud에서 Adobe Target에 액세스하기 위한 지침입니다.
 keywords: Experience Cloud;로그인
-seo-description: Adobe Experience Cloud에서 Adobe Target에 액세스하기 위한 지침입니다.
-seo-title: Adobe Experience Cloud에서 Target에 액세스
-solution: Target
-subtopic: 시작하기
+description: Adobe Experience Cloud에서 Adobe Target에 액세스하기 위한 지침입니다.
 title: Adobe Experience Cloud에서 Target에 액세스
+subtopic: 시작하기
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
