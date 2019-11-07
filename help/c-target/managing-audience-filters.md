@@ -1,13 +1,10 @@
 ---
-description: 대상 필터(또는 대상)는 특정 특성이나 일련의 특성을 공유하는 방문자 그룹입니다.
-keywords: 타깃팅;대상 필터;대상;필터에서만 지원됩니다
-seo-description: Adobe Target의 대상 필터(또는 대상)는 특정 특성 또는 특성 집합을 공유하는 방문자 그룹입니다.
-seo-title: Audience filters for reporting in Adobe Target
-solution: Target
-title: 보고용 대상 필터
+keywords: 타깃팅;대상 필터;대상;필터
+description: Adobe Target의 대상 필터(또는 대상)는 특정 특성 또는 특성 집합을 공유하는 방문자 그룹입니다.
+title: Adobe Target에서 보고를 위한 대상 필터
 uuid: ca2632c0-87e4-4a85-95e6-e63cf800ab2f
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
