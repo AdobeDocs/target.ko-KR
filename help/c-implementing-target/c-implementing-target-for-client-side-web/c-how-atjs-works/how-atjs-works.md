@@ -1,14 +1,11 @@
 ---
-description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송 또는 수집된 호출 및 정보의 흐름을 보여주는 타겟 시스템 다이어그램.
 keywords: 시스템 다이어그램;깜박임;at.js;구현;javascript 라이브러리;js;atjs
-seo-description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송하거나 수집한 호출 및 정보의 플로우를 표시하는 Adobe Target 시스템 다이어그램입니다.
-seo-title: Adobe Target at.js JavaScript 라이브러리의 작동 방식
-solution: Target
-title: at.js 작동 방식
+description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송하거나 수집한 호출 및 정보의 플로우를 표시하는 Adobe Target 시스템 다이어그램입니다.
+title: Adobe Target at.js JavaScript 라이브러리의 작동 방식
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -77,22 +74,22 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 5 | [!DNL Target]에서는 URL, mbox 매개 변수 및 프로필 데이터를 기반으로 방문자에게 반환할 활동 및 경험을 결정합니다. | 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>경험은 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 7 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. | 8 | [!DNL Target] 데이터는 SDID를 통해 [!DNL Analytics] 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다.<br>그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics for Target] (A4T) 보고서를 통해 [!DNL Analytics]및 [!DNL Target] 모두에서 볼 수 있게 됩니다. |
 
-## HTML 컨텐츠로 오퍼를 렌더링하는 방법 {#render}
+## at.js에서 HTML 콘텐츠로 오퍼를 렌더링하는 방법 {#render}
 
-HTML 내용으로 오퍼를 렌더링할 때 at.js는 다음 알고리즘을 적용합니다.
+오퍼를 HTML 콘텐츠로 렌더링할 때 at.js는 다음 알고리즘을 적용합니다.
 
-1. 이미지가 미리 로드됩니다(HTML 컨텐츠에 `<img>` 태그가 있는 경우).
+1. 이미지가 미리 로드됩니다(HTML 콘텐츠에 `<img>` 태그가 있는 경우).
 
-1. HTML 컨텐츠가 DOM 노드에 첨부됩니다.
+1. HTML 콘텐츠가 DOM 노드에 첨부됩니다.
 
-1. 인라인 스크립트는 실행됩니다( `<script>` 태그로 둘러싸인 코드).
+1. 인라인 스크립트가 실행됩니다(`<script>` 태그로 둘러싸인 코드).
 
-1. 원격 스크립트는 비동기적으로 로드되고 실행됩니다(`<script>` 특성이 있는 `src` 태그).
+1. 원격 스크립트가 비동기식으로 로드 및 실행됩니다(`src` 속성이 있는 `<script>` 태그).
 
-중요 정보:
+중요 참고 사항:
 
-* at.js는 비동기적으로 로드되므로 원격 스크립트 실행 순서에 대한 어떠한 보장도 제공하지 않습니다.
-* 인라인 스크립트는 나중에 로드되고 실행되므로 원격 스크립트에 종속되지 않아야 합니다.
+* at.js는 비동기식으로 로드되므로 원격 스크립트 실행 순서에 대해 보장하지 않습니다.
+* 원격 스크립트는 나중에 로드 및 실행되므로 인라인 스크립트에 대한 종속성을 가지면 안 됩니다.
 
 ## 교육 비디오: at.js 2.x 아키텍처 다이어그램
 
