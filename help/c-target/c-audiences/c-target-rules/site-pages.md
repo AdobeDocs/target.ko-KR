@@ -1,14 +1,11 @@
 ---
-description: 특정 페이지에 있거나 특정 mbox 매개 변수를 가진 방문자를 타깃팅합니다.
 keywords: 사이트 페이지;타겟 사이트 페이지;타깃팅;현재 페이지;타겟 현재 페이지;이전 페이지;타겟 이전 페이지;랜딩 페이지;타겟 랜딩 페이지;mbox;타겟 mbox
-seo-description: Adobe Target을 사용하여 특정 페이지에 있거나 특정 mbox 매개 변수를 갖는 방문자를 타깃팅할 수 있습니다.
-seo-title: Adobe Target의 사이트 페이지
-solution: Target
-title: 사이트 페이지
+description: Adobe Target을 사용하여 특정 페이지에 있거나 특정 mbox 매개 변수를 갖는 방문자를 타깃팅할 수 있습니다.
+title: Adobe Target의 사이트 페이지
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
