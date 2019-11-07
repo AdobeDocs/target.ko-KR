@@ -1,15 +1,10 @@
 ---
-description: 중요 속성 보고서에 대한 정보이며 두 전문 보고서 중 하나는 자동화된 개인 설정(AP) 및 Auto-Target(AT) 활동의 사용자가 사용할 수 있습니다.
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
-seo-description: 중요 속성 보고서에 대한 정보이며 두 전문 보고서 중 하나는 자동화된 개인 설정(AP) 및 Auto-Target(AT) 활동의 사용자가 사용할 수 있습니다.
-seo-title: 중요 속성 보고서
-solution: Target
+description: 중요 속성 보고서에 대한 정보이며 두 전문 보고서 중 하나는 자동화된 개인 설정(AP) 및 Auto-Target(AT) 활동의 사용자가 사용할 수 있습니다.
 title: 중요 속성 보고서
-title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
