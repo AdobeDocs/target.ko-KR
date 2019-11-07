@@ -1,14 +1,11 @@
 ---
-description: VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다.
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 삽입;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 교체;오퍼 바꾸기; 이미지 교체;이미지 바꾸기;항목 제거;항목 삭제;항목 숨기기;항목 숨김;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 네비게이션;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행
-seo-description: Adobe Target VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다.
-seo-title: Adobe Target VEC(시각적 경험 작성기) 선택 사항
-solution: Target
-title: 시각적 경험 작성기 선택 사항
+description: Adobe Target VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다.
+title: Adobe Target VEC(시각적 경험 작성기) 선택 사항
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -317,7 +314,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 페이지에서 요소를 이동합니다. [!UICONTROL 재정렬] 옵션과 달리, [!UICONTROL 이동] 기능은 다른 요소를 이동하여 해당 요소가 이동될 공간을 만들지 않습니다. 화살표 키를 사용하여 이동을 미세 조정하십시오. (예정된 개선 사항: 이동된 요소가 다른 요소 뒤에 숨겨지지 않도록 지원됩니다.)
 
-CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것과 같은 일부 경우에는 요소를 상위 요소 외부로 이동할 수 없습니다. 요소는 다음과 같은 CSS 속성이 있는 컨테이너 외부로 이동할 수 없습니다. `overflow: hidden`Adobe
+CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것과 같은 일부 경우에는 요소를 상위 요소 외부로 이동할 수 없습니다. 요소는 다음 CSS 속성 `overflow: hidden`을 갖는 컨테이너 외부로 이동할 수 없습니다.
 
 #### 숨김
 
@@ -343,7 +340,7 @@ CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것�
 
 ## 고려 사항 {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
+* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)에서 'at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법'을 참조하십시오.
 
 ## DOM 경로를 사용하여 요소 탐색 {#dom-path}
 
