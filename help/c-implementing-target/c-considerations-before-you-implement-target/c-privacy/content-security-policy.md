@@ -1,14 +1,11 @@
 ---
-description: Adobe Target at.js 2.1 이상을 사용할 때 추가해야 하는 CSP(Content Security Policy) 지시문에 대한 정보입니다.
 keywords: 콘텐츠 보안 정책;csp;at.js;화이트리스트;깜박임;사전 숨기기;사전 숨기기;사전 숨김;사전 숨김;사전 숨김;사전 숨김;prehiding
-seo-description: Adobe Target at.js 2.1 이상을 사용할 때 추가해야 하는 CSP(Content Security Policy) 지시문에 대한 정보입니다.
-seo-title: CSP(컨텐츠 보안 정책)
-solution: Target
+description: Adobe Target at.js 2.1 이상을 사용할 때 추가해야 하는 CSP(Content Security Policy) 지시문에 대한 정보입니다.
+title: CSP(컨텐츠 보안 정책)
 subtopic: 시작하기
-title: CSP(Content Security Policy) 디렉티브
 topic: Standard
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
