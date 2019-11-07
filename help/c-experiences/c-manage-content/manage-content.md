@@ -1,13 +1,10 @@
 ---
-description: 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리하려면 오퍼 라이브러리를 사용하십시오.
 keywords: 컨텐츠;자산;컨텐츠 관리;오퍼;자산 관리;선택 모드 들어가기;선택 모드
-seo-description: 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리하려면 오퍼 라이브러리를 사용하십시오.
-seo-title: 오퍼
-solution: Target
+description: 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리하려면 오퍼 라이브러리를 사용하십시오.
 title: 오퍼
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
