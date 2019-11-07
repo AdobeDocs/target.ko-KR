@@ -1,15 +1,12 @@
 ---
-description: Analytics를 Target(A4T)의 보고 소스로 사용하면 Target 활동에 대한 Analytics 보고서에 액세스할 수 있습니다.
 keywords: analytics for target;a4t;보고 소스로 분석
-seo-description: Analytics를 Target(A4T)의 보고 소스로 사용하면 Target 활동에 대한 Analytics 보고서에 액세스할 수 있습니다.
-seo-title: A4T(Analytics for Target) 보고
-solution: Target
-subtopic: 다변량 테스트
+description: Analytics를 Target(A4T)의 보고 소스로 사용하면 Target 활동에 대한 Analytics 보고서에 액세스할 수 있습니다.
 title: A4T(Analytics for Target) 보고
+subtopic: 다변량 테스트
 topic: Standard
 uuid: 4132492b-92d7-4b21-b7ca-324e7b898251
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
