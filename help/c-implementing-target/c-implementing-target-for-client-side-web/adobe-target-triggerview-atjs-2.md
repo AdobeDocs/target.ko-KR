@@ -1,14 +1,11 @@
 ---
-description: 'at.js에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다. '
-keywords: adobe.target.triggerView;triggerView;triggerView;trigger view;at.js;functions;functions;viewName;viewname;view name
-seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다.
-seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다.
-solution: Target
+keywords: adobe.target.트리거뷰;트리거뷰;트리거 뷰;트리거 뷰;at.js;함수;함수;이름 보기;네임 보기;이름 보기
+description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다.
+title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다.
 subtopic: 시작하기
-title: adobe.target.triggerView (viewName, options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
