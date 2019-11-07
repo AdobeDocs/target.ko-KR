@@ -1,14 +1,10 @@
 ---
-description: 모바일 뷰포트는 다양한 크기의 화면에서 활동이 표시되는 방식을 미리 보는 데 유용합니다.
 keywords: 응답형;모바일 뷰포트;뷰포트;장치;모바일 예제;iPhone
-seo-description: 모바일 뷰포트는 다양한 크기의 화면에서 활동이 표시되는 방식을 미리 보는 데 유용합니다.
-seo-title: 응답형 경험을 위한 모바일 뷰포트
-solution: Target
+description: 모바일 뷰포트는 다양한 크기의 화면에서 활동이 표시되는 방식을 미리 보는 데 유용합니다.
 title: 응답형 경험을 위한 모바일 뷰포트
-topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
