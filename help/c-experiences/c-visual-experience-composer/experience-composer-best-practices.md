@@ -1,14 +1,11 @@
 ---
-description: 다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. 시각적 경험 작성기(VEC)를 사용할 때 알아야 하는 기타 팁과 제한 사항도 있습니다.
 keywords: 시각적 경험 작성기;시각적 경험 작성기 우수 사례;시각적 경험 작성기 제한 사항;시각적 경험 작성기 주의 사항;vec 우수 사례;vec
-seo-description: 다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. 시각적 경험 작성기(VEC)를 사용할 때 알아야 하는 기타 팁과 제한 사항도 있습니다.
-seo-title: 시각적 경험 작성기 우수 사례 및 제한 사항
-solution: Target
+description: 다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. 시각적 경험 작성기(VEC)를 사용할 때 알아야 하는 기타 팁과 제한 사항도 있습니다.
 title: 시각적 경험 작성기 우수 사례 및 제한 사항
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
