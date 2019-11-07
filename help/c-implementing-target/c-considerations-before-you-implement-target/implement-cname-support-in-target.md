@@ -1,14 +1,11 @@
 ---
+keywords: 클라이언트 지원;cname;인증서 프로그램;표준 이름;쿠키;인증서;amc;adobe 관리 인증서
 description: Adobe Target에서 CNAME(표준 이름) 지원을 구현하기 위한 Adobe Client Care 작업 정보입니다.
-keywords: 클라이언트 관리;cname;인증서 프로그램;표준 이름;쿠키;인증서amc;adobe managed certificate
-seo-description: Adobe Target에서 CNAME(표준 이름) 지원을 구현하기 위한 Adobe Client Care 작업 정보입니다.
-seo-title: CNAME 및 Adobe Target
-solution: Target
 title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b7a80326b0b89f6fe3bac70ccc6941be09d14ac1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -31,4 +28,4 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. 이러한 CNAME이 적절히 설치되면 Adobe는 DigiCert와 함께 Adobe의 프로덕션 서버에 인증서를 구입하여 설치합니다.
 
-1. 이전 작업을 완료한 후 at.js에서 새 CNAME `serverDomain` 으로 업데이트해야 합니다.
+1. 이전 작업을 완료한 후에는 at.js에서 새 CNAME으로 `serverDomain`을 업데이트해야 합니다.
