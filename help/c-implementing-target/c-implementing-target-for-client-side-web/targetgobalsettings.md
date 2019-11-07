@@ -1,14 +1,11 @@
 ---
-description: 'at.js에 대한 targetGlobalSettings() 함수 정보입니다. '
 keywords: serverstate;targetGlobalSettings;targetGlobalSettings;globalSettings;globalSettings;globalSettings;global settings;at.js;functions;clientCode;serverDomain;cookiedomain;cookieDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenHiddenCode 스타일;defaultContentVisibleStyle;bodyHiddenStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeTimeout;optout;optout;optout;selectorsPollingTimeout;dataProviders
-seo-description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
-seo-title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
-solution: Target
+description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
+title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 subtopic: 시작하기
-title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
