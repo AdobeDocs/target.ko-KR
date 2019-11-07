@@ -1,14 +1,11 @@
 ---
-description: 활동이 사이트에 나타나지 않는 경우 이 문제 해결 제안은 해결 방법을 찾는 데 도움이 될 것입니다.
 keywords: target 문제 해결;target 문제 해결;기본 컨텐츠;테스트가 라이브가 아님;활동이 라이브가 아님;타깃팅이 작동하지 않음;이전 경험이 표시됩니다;활동을 만들 수 없습니다;활동을 만들 수 없습니다;활동 만들기;페이지 구조가 변경됨;페이지 구조가 수정됨;오류 메시지;프로필 스크립트 삭제 오류;ajax가 작동하지 않음
-seo-description: 활동이 사이트에 나타나지 않는 경우 이 문제 해결 제안은 해결 방법을 찾는 데 도움이 될 것입니다.
-seo-title: 활동 문제 해결
-solution: Target
+description: 활동이 사이트에 나타나지 않는 경우 이 문제 해결 제안은 해결 방법을 찾는 데 도움이 될 것입니다.
 title: 활동 문제 해결
 topic: 고급,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
