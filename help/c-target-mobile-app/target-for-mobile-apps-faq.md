@@ -1,13 +1,11 @@
 ---
-description: 모바일 앱용 Adobe Target에 대한 FAQ입니다.
 keywords: 모바일 앱;FAQ;대상 모바일 앱
-seo-description: 모바일 앱용 Adobe Target에 대한 FAQ입니다.
-seo-title: 모바일 앱용 Adobe Target에 대한 FAQ
-title: 모바일 앱용 Adobe Target FAQ
+description: 모바일 앱용 Adobe Target에 대한 FAQ입니다.
+title: 모바일 앱용 Adobe Target에 대한 FAQ
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
