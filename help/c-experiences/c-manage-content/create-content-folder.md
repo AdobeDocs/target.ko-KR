@@ -1,14 +1,11 @@
 ---
-description: 오퍼 라이브러리에서 항목을 보관할 폴더를 만듭니다.
 keywords: 컨텐츠;폴더 만들기;자산;폴더 이동;폴더 복사;폴더 삭제;폴더 다운로드;폴더
-seo-description: 오퍼 라이브러리에서 항목을 보관할 폴더를 만듭니다.
-seo-title: 오퍼 폴더 만들기
-solution: Target
+description: 오퍼 라이브러리에서 항목을 보관할 폴더를 만듭니다.
 title: 오퍼 폴더 만들기
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
