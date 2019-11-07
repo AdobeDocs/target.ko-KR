@@ -1,15 +1,12 @@
 ---
-description: 페이지 수정 사항을 보고 추가로 수정(CSS 선택기, 순Mbox 및 사용자 지정 코드)할 수 있는 수정 사항 페이지에 대한 정보입니다.
 keywords: css 선택기;사용자 지정 코드;코드 편집기;모바일 웹 경험 편집기
-seo-description: 페이지 수정 사항을 보고 추가로 수정(CSS 선택기, 순Mbox 및 사용자 지정 코드)할 수 있는 수정 사항 페이지에 대한 정보입니다.
-seo-title: 수정 사항
-solution: Target
-subtopic: 코드 편집기
+description: 페이지 수정 사항을 보고 추가로 수정(CSS 선택기, 순Mbox 및 사용자 지정 코드)할 수 있는 수정 사항 페이지에 대한 정보입니다.
 title: 수정 사항
+subtopic: 코드 편집기
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
