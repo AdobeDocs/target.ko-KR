@@ -1,19 +1,16 @@
 ---
-description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
 keywords: 경험 타깃팅;랜딩 페이지 테스트
-seo-description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
-seo-title: 시각적 경험 작성기에 사용된 요소 선택기
-solution: Target
+description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
 title: 시각적 경험 작성기에 사용된 요소 선택기
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# 시각적 경험 작성기에 사용된 요소 선택기{#element-selectors-used-in-the-visual-experience-composer}를 참조하십시오
+# 시각적 경험 작성기에 사용된 요소 선택기를 참조하십시오{#element-selectors-used-in-the-visual-experience-composer}
 
 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
 
