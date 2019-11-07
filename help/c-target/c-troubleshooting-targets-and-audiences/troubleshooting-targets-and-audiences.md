@@ -1,14 +1,11 @@
 ---
-description: 경험 타깃팅 및 대상에 대한 FAQ 목록
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;타겟;대상
-seo-description: 경험 타깃팅 및 대상에 대한 FAQ 목록
-seo-title: Target 및 대상 FAQ
-solution: Target
+description: 경험 타깃팅 및 대상에 대한 FAQ 목록
 title: Target 및 대상 FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
