@@ -1,13 +1,10 @@
 ---
-description: 활동 URL은 MVT(다변량 테스트)에 사용되는 페이지를 결정하며 테스트가 Target에 디자인될 때 열립니다.
 keywords: 타겟 지정
-seo-description: 활동 URL은 MVT(다변량 테스트)에 사용되는 페이지를 결정하며 테스트가 Adobe Target에 디자인될 때 열립니다.
-seo-title: 활동 URL
-solution: Target
+description: 활동 URL은 MVT(다변량 테스트)에 사용되는 페이지를 결정하며 테스트가 Adobe Target에 디자인될 때 열립니다.
 title: 활동 URL
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
