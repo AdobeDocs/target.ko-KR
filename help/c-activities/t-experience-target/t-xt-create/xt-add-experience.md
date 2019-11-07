@@ -1,25 +1,22 @@
 ---
-description: VEC(시각적 경험 작성기)는 XT(경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 keywords: 경험 만들기;경험 생성;우선순위;대상;경험;시각적 경험 작성기
-seo-description: Adobe Target VEC(시각적 경험 작성기)는 XT(경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
-seo-title: '경험 만들기 '
-solution: Target
+description: Adobe Target VEC(시각적 경험 작성기)는 XT(경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 title: '경험 만들기 '
 topic: 고급,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
 # 경험 만들기{#create-experience}
 
-The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
+[!UICONTROL 시각적 경험 작성기(VEC)]는 [!UICONTROL XT(경험 타깃팅)] 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 
 1. 변경할 요소를 선택하고 원하는 대로 변경합니다.
 
-   While [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), step one of the three-part guided workflow ([!UICONTROL Experiences]) displays the default [!UICONTROL Experience A] with an [!UICONTROL All Visitors] audience.
+   [XT 활동을 만드는](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) 동안 세 부분으로 구성된 안내 워크플로우([!UICONTROL 경험])의 1단계는 [!UICONTROL 모든 방문자] 대상이 있는 기본 [!UICONTROL 경험 A]를 표시합니다.
 
    ![모든 방문자 대상](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +24,19 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 VEC를 사용하여 변경할 수 있습니다. 요소에서 수행하여 경험을 변경할 수 있는 작업 목록은 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
 
-   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
+   [!DNL Target Classic]을 사용하여 페이지에서 mbox를 만든 경우 해당 mbox가 mbox 이름을 나타내는 요소로 표시되며, 다른 요소와 같이 수정할 수 있습니다.
 
    >[!NOTE]
    >
-   >기본적으로, VEC에서는 회전 배너 등과 같은 JavaScript가 포함된 요소를 변경할 수 없습니다. VEC를 사용하여 이러한 요소를 변경하려면 JavaScript를 비활성화하도록 선택할 수 있습니다.
+   >기본적으로, VEC에서는 회전 배너 등과 같은 JavaScript가 포함된 요소를 변경할 수 없습니다. Javascript를 비활성화하여 VEC로 해당 요소를 변경할 수 있습니다.
 
-1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
+1. 추가 경험을 만들려면 **[!UICONTROL 경험 타깃팅 추가]**&#x200B;를 클릭합니다.
 
    ![경험 타깃팅 추가 링크](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    [!UICONTROL 대상자 선택] 대화 상자가 표시됩니다. 경험을 대상으로 타깃팅하려면 경험을 추가하기 전에 먼저 대상을 선택해야 합니다.
 
-   The audience library contains audiences that have previously been defined, including some common audiences that are pre-built as a part of [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   대상 라이브러리에는 [!DNL Target]의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나, [새 대상을 만듭니다](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
@@ -69,7 +66,7 @@ The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface fo
 
    >[!NOTE]
    >
-   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
+   >기본 페이지 이외의 소스에서 가져온 이미지(예: `akamai.net`에 호스팅되고 `adobe.com`에 전달된 이미지)를 전달하는 경우 해당 이미지가 흐름 다이어그램에 표시된 페이지의 썸네일에 표시되지 않습니다.
 
 1. (조건부) 대상/경험 쌍을 원하는 순서로 배열하기 위한 XT 활동을 만들거나 편집하면서 대상/경험 쌍을 드래그 앤 드롭할 수 있습니다.
 
@@ -100,7 +97,7 @@ XT 활동에서 경험에 대한 [!UICONTROL 편집](3개의 세로 줄임표) �
 
 ## 경험 복제
 
-XT 활동에서 경험을 복사할 수 있으므로 경험을 처음부터 다시 만들지 않고도 컨텐츠를 경미한 변경 사항으로 만들 수 있습니다.
+XT 활동에서 경험을 복사할 수 있으므로 경험을 처음부터 다시 작성하지 않고도 약간의 콘텐츠를 변경할 수 있습니다.
 
 **[!UICONTROL 경험]** 페이지(3단계 안내식 워크플로우의 첫 번째 단계)에서 세 개의 수직 줄임표 &gt; **[!UICONTROL 중복]**&#x200B;을 클릭하십시오.
 
