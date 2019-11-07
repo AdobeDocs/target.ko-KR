@@ -1,13 +1,10 @@
 ---
-description: mbox.js를 사용하여 구현할 때 사용할 mbox.js 함수 목록입니다.
 keywords: mbox 함수
-seo-description: mbox.js를 사용하여 구현할 때 사용할 mbox.js 함수 목록입니다.
-seo-title: mbox.js 함수
-solution: Target
+description: mbox.js를 사용하여 구현할 때 사용할 mbox.js 함수 목록입니다.
 title: mbox.js 함수
 uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
