@@ -1,14 +1,10 @@
 ---
-description: at.js와 mbox.js 간에 약간의 차이가 있습니다. 이 섹션에는 at.js 사용 시 성공하는 데 도움이 되도록 몇 가지 차이점과 제한 사항이 나와 있습니다.
 keywords: 시각적 경험 작성기 제한 사항;브라우저 지원;통합;플러그인;비동기 고려 사항
-seo-description: at.js와 mbox.js 간에 약간의 차이가 있습니다. 이 섹션에는 at.js 사용 시 성공하는 데 도움이 되도록 몇 가지 차이점과 제한 사항이 나와 있습니다.
-seo-title: at.js 제한 사항
-solution: Target
+description: at.js와 mbox.js 간에 약간의 차이가 있습니다. 이 섹션에는 at.js 사용 시 성공하는 데 도움이 되도록 몇 가지 차이점과 제한 사항이 나와 있습니다.
 title: at.js 제한 사항
-topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
