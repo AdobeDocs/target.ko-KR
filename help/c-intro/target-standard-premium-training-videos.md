@@ -1,14 +1,11 @@
 ---
-description: Adobe Target Standard 및 Target Premium을 최대한 활용할 수 있는 트레이닝 비디오를 시청하십시오.
 keywords: 교육 비디오;youtube;비디오;비디오 교육;자습서;자습서;비디오;교육 비디오;교육 비디오;youtube;videos;video
-seo-description: Target Standard 및 Target Premium을 최대한 활용하는 데 도움이 되는 교육 비디오를 시청해 보십시오.
-seo-title: Adobe Target Standard 및 Premium 교육 비디오
-solution: Target
+description: Target Standard 및 Target Premium을 최대한 활용하는 데 도움이 되는 교육 비디오를 시청해 보십시오.
 title: Adobe Target Standard 및 Premium 교육 비디오
 topic: 고급
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
