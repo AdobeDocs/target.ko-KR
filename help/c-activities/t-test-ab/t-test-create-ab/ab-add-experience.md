@@ -1,13 +1,10 @@
 ---
-description: 시각적 경험 작성기가 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
 keywords: 타깃팅;경험;경험 추가;경험 추가
-seo-description: Adobe Target의 VEC(시각적 경험 작성기)가 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
-seo-title: 경험 추가
-solution: Target
+description: Adobe Target의 VEC(시각적 경험 작성기)가 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
 title: 경험 추가
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
