@@ -1,14 +1,10 @@
 ---
-description: 키워드로 자산을 검색하고, 검색 결과를 사용하여 자동으로 업데이트되는 스마트 컬렉션이라는 검색 폴더를 저장하십시오.
 keywords: 컨텐츠 라이브러리;자산;검색;스마트 컬렉션;검색 폴더;필터
-seo-description: 키워드로 자산을 검색하고, 검색 결과를 사용하여 자동으로 업데이트되는 스마트 컬렉션이라는 검색 폴더를 저장하십시오.
-seo-title: 컨텐츠 검색 및 스마트 컬렉션 만들기
-solution: Target
+description: 키워드로 자산을 검색하고, 검색 결과를 사용하여 자동으로 업데이트되는 스마트 컬렉션이라는 검색 폴더를 저장하십시오.
 title: 컨텐츠 검색 및 스마트 컬렉션 만들기
-topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
