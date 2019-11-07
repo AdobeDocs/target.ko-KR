@@ -1,14 +1,10 @@
 ---
-description: 보고서에서 보려는 여러 지표를 선택하십시오.
 keywords: Target;보고서;보고서 설정;여러 지표;지표
-seo-description: Adobe Target을 사용하여 보고서에서 볼 지표를 여러 개 선택합니다.
-seo-title: Adobe Target을 사용하여 보고서에서 여러 지표 보기
-solution: Target
-title: 보고서에서 여러 지표 보기
-topic: Premium
+description: Adobe Target을 사용하여 보고서에서 볼 지표를 여러 개 선택합니다.
+title: Adobe Target을 사용하여 보고서에서 여러 지표 보기
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -54,5 +50,4 @@ source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 1. (조건부) 그래프 보기에서 보고서를 보는 동안 드롭다운 목록에서 표시할 개별 지표를 선택할 수 있습니다.
 
-   ![](assets/multiple_metrics_graph.png)
-
+   ![](assets/multiple_metri
