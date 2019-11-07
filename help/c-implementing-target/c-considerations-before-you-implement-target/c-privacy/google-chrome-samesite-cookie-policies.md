@@ -1,15 +1,12 @@
 ---
-description: Google Chrome 버전 76부터 사용되는 Target 및 SameSite IETF 표준에 대한 정보입니다.
-keywords: google;samesite쿠키;크롬 80;ietf
-seo-description: Google Chrome 버전 80부터 도입되는 Adobe Target 및 SameSite IETF 표준에 대한 정보입니다.
-seo-title: Adobe Target 및 Google의 SameSite 쿠키 정책
-solution: Target
+keywords: google;samesite;cookies;chrome 80;ietf
+description: Google Chrome 버전 80부터 도입되는 Adobe Target 및 SameSite IETF 표준에 대한 정보입니다.
+title: Adobe Target 및 Google의 SameSite 쿠키 정책
 subtopic: 시작하기
-title: Google Chrome samesite 쿠키 정책
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -32,17 +29,17 @@ Chrome 80부터 웹 개발자는 웹 사이트에서 사용할 수 있는 쿠키
 
 "친구"라고 하는 가상 소셜 미디어 회사는 다른 사이트에서 친구 사용자가 사이트 컨텐츠를 친구 피드에서 공유할 수 있도록 구현하는 공유 단추를 제공한다고 가정해 봅시다. 이제 사용자는 공유 버튼을 사용하는 뉴스 웹 사이트에서 뉴스 기사를 읽고 이를 클릭하여 자신의 친구 계정에 자동으로 게시합니다.
 
-For this to happen, the browser fetches the Friends Share button from  when the news article is loaded. `platform.friends.com` Within this process, the browser attaches Friends cookies, which contain the logged-in credentials of the user, to the request to Friends servers. This allows Friends to post the news article in its feed on the user’s behalf without requiring the user to log in.
+이렇게 하려면 뉴스 아티클이 로드되면 브라우저가 [친구 공유] 단추를 `platform.friends.com` 가져옵니다. 이 프로세스 내에서 브라우저는 사용자의 로그인 자격 증명을 포함하는 친구 쿠키를 친구 서버에 요청에 첨부합니다. 이렇게 하면 친구가 사용자를 대신하여 피드에 뉴스 아티클을 게시할 수 있습니다. 이때 사용자는 로그인하지 않아도 됩니다.
 
-This is all possible by using third-party cookies. In this case, the third-party cookie is saved on the browser for , so that  can make the post in the Friends app on the user’s behalf.`platform.friends.com``platform.friends.com`
+이는 모두 타사 쿠키를 사용하여 가능합니다. 이 경우 타사 쿠키는 사용자를 대신하여 친구 앱의 게시물을 만들 수 `platform.friends.com``platform.friends.com` 있도록 브라우저에 저장됩니다.
 
-If you imagine for a moment how to achieve this use case without third-party cookies, the user would have to follow a lot of manual steps. First, the user would have to copy the link to the news article. Second, the user would have to log into the Friends app separately. Then, the user would click on the Create Post button. Then the user would copy and paste the link in the text field, and finally click Post. As you can see, third-party cookies immensely help the user experience as manual steps can be drastically reduced.
+서드 파티 쿠키 없이 이 사용 사례를 달성하는 방법을 상상하는 경우 사용자는 많은 수동 단계를 수행해야 합니다. 먼저 사용자는 뉴스 기사에 대한 링크를 복사해야 합니다. 둘째, 사용자는 친구 앱에 별도로 로그인해야 합니다. 그런 다음 사용자가 게시물 만들기 단추를 클릭합니다. 그런 다음 사용자가 링크를 복사하여 텍스트 필드에 붙여 넣은 다음, 마지막으로 게시를 클릭합니다. 보시다시피, 서드 파티 쿠키는 수작업 단계를 대폭 줄일 수 있으므로 사용자 경험을 크게 향상시켜줍니다.
 
-More generally, third-party cookies make it possible for data to be stored on a user’s browser without requiring that user to explicitly visit a website.
+일반적으로 타사 쿠키는 사용자가 웹 사이트를 명시적으로 방문하지 않고도 데이터를 사용자의 브라우저에 저장할 수 있도록 합니다.
 
-## Security concerns
+## 보안 문제
 
-Although cookies enhance user experiences and power advertising, they can also introduce security vulnerabilities like Cross-Site Request Forgery (CSRF) attacks. 예를 들어 사용자가 은행 사이트에 로그인하여 신용 카드 결제를 위해 로그인하고 로그아웃하지 않고 사이트를 떠난 다음 동일한 세션에서 악성 사이트로 이동하면 CSRF 공격이 발생할 수 있습니다. The malicious site could include code that makes a request to the banking site that executes when the page loads. 사용자가 여전히 은행 사이트에 대해 인증되므로 세션 쿠키를 사용하여 CSRF 공격을 실행하여 사용자의 은행 계좌에서 자금 전송 이벤트를 시작할 수 있습니다. 이는 사이트를 방문할 때마다 모든 쿠키가 HTTP 요청에 첨부되기 때문입니다. 그리고 이러한 보안 문제 때문에 Google은 현재 이러한 문제를 완화하려고 노력하고 있습니다.
+쿠키는 사용자 경험과 강력한 광고를 향상시키지만, CSRF(Cross-Site Request 위조) 공격과 같은 보안 취약점도 유발할 수 있습니다. 예를 들어 사용자가 은행 사이트에 로그인하여 신용 카드 결제를 위해 로그인하고 로그아웃하지 않고 사이트를 떠난 다음 동일한 세션에서 악성 사이트로 이동하면 CSRF 공격이 발생할 수 있습니다. 악성 사이트에는 페이지가 로드될 때 실행되는 은행 사이트에 대한 요청을 수행하는 코드가 포함될 수 있습니다. 사용자가 여전히 은행 사이트에 대해 인증되므로 세션 쿠키를 사용하여 CSRF 공격을 실행하여 사용자의 은행 계좌에서 자금 전송 이벤트를 시작할 수 있습니다. 이는 사이트를 방문할 때마다 모든 쿠키가 HTTP 요청에 첨부되기 때문입니다. 그리고 이러한 보안 문제 때문에 Google은 현재 이러한 문제를 완화하려고 노력하고 있습니다.
 
 ## Target은 쿠키를 어떻게 사용합니까?
 
@@ -58,9 +55,9 @@ SameSite 속성으로 전달할 수 있는 Strict, Lax 또는 None값이 있습�
 
 | 값 | 설명 |
 | --- | --- |
-| Strict | 이 설정을 사용하는 쿠키는 처음에 설정된 도메인을 방문할 때만 액세스할 수 있습니다. 즉, Strict는 쿠키를 사이트 간에 사용할 수 없게 차단합니다. This option would be best for applications that require high security, such as banks. |
+| Strict | 이 설정을 사용하는 쿠키는 처음에 설정된 도메인을 방문할 때만 액세스할 수 있습니다. 즉, Strict는 쿠키를 사이트 간에 사용할 수 없게 차단합니다. 이 옵션은 은행과 같이 보안이 높은 애플리케이션에 가장 적합합니다. |
 | Lax | Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, like `HTTP GET`. 따라서 이 옵션은 타사에서 쿠키를 사용할 수 있지만 CSRF 공격의 피해를 당하지 않도록 하는 보안 혜택이 추가된 경우에 사용됩니다. |
-| 없음 | Cookies with this setting will work the same way as cookies work today. |
+| 없음 | 이 설정을 사용하는 쿠키는 쿠키가 작동하는 방식과 동일하게 작동합니다. |
 
 상기에 유의하십시오. Chrome 80은 사용자에 대해 두 가지 독립 설정을 제공합니다."SameSite by default cookies" 및 "SameSite가 없는 쿠키는 안전해야 합니다." 이러한 설정은 Chrome 80에서 기본적으로 활성화됩니다.
 
@@ -83,25 +80,25 @@ However, when you opt-in to use cross-domain tracking to leverage [!DNL Target] 
 
 Google Chrome 80+ 사용자를 위해 [!DNL Target] 계속 작업하기 위해 필요한 작업을 이해하려면 아래 표를 참조하십시오. 아래 열에는 다음 열이 표시됩니다.
 
-* **타겟 JavaScript 라이브러리**:mbox.js를 사용하는 경우 at.js 1.*x* 또는 at.js 2 *x on your sites.*
+* **타겟 JavaScript 라이브러리**:mbox.js를 사용하는 경우 at.js 1.*x* 또는 at.js 2 *x* 를 사이트에 추가할 수 있습니다.
 * **SameSite by default cookies = Enabled**:사용자가 "기본 쿠키로 SameSite"를 활성화한 경우 쿠키가 사용자에게 어떤 영향을 미치며 작업을 계속 진행하기 위해 필요한 모든 것이 [!DNL Target] 있습니다.
 * **SameSite가 없는 쿠키는 안전해야 함 = 활성화됨**:사용자가 "동일한 사이트가 없는 쿠키는 반드시 안전해야 함"을 사용하는 경우 쿠키가 어떤 영향을 미치며 [!DNL Target] 계속 작업하는 데 필요한 모든 것이 있어야 합니다.
 
-| Target JavaScript Library | SameSite를 기본 쿠키로 지정 = 활성화됨 | SameSite가 없는 쿠키를 보호해야 함 = 활성화됨 |
+| 타겟 JavaScript 라이브러리 | SameSite를 기본 쿠키로 지정 = 활성화됨 | SameSite가 없는 쿠키를 보호해야 함 = 활성화됨 |
 | --- | --- | --- |
-| mbox.js with first-party cookie only. | No impact. | 크로스 도메인 추적을 사용하지 않는 경우 영향을 주지 않습니다. |
-| mbox.js with cross-domain tracking enabled. | No impact. | 사이트에 대해 HTTPS 프로토콜을 활성화해야 합니다.<br>[!DNL Target] uses a third-party cookie to track users and Google requires third-party cookies to have  and Secure flag. `SameSite = None` The Secure flag requires your sites must use the HTTPS protocol. |
-| at.js 1.*x* with first-party cookie. | No impact. | No impact if you are not using cross-domain tracking. |
-| at.js 1.*x* with cross-domain tracking enabled. | 효과 없음 | You must enable the HTTPS protocol for your site.<br>[!DNL Target] 타사 쿠키를 사용하여 사용자를 추적하고 Google을 사용하려면 타사 쿠키가 있어야 하며 `SameSite = None` 보안 플래그가 있어야 합니다. 보안 플래그를 사용하려면 사이트에서 HTTPS 프로토콜을 사용해야 합니다. |
+| 퍼스트 파티 쿠키만 있는 mbox.js | 효과 없음 | 크로스 도메인 추적을 사용하지 않는 경우 영향을 주지 않습니다. |
+| 크로스 도메인 추적이 활성화된 mbox.js를 추가했습니다. | 효과 없음 | 사이트에 대해 HTTPS 프로토콜을 활성화해야 합니다.<br>[!DNL Target] 타사 쿠키를 사용하여 사용자를 추적하고 Google을 사용하려면 타사 쿠키가 있어야 하며 `SameSite = None` 보안 플래그가 있어야 합니다. 보안 플래그를 사용하려면 사이트에서 HTTPS 프로토콜을 사용해야 합니다. |
+| at.js 1.*x* (퍼스트 파티 쿠키 포함) | 효과 없음 | 크로스 도메인 추적을 사용하지 않는 경우 영향을 주지 않습니다. |
+| at.js 1.*x* 크로스 도메인 추적이 활성화되면 | 효과 없음 | 사이트에 대해 HTTPS 프로토콜을 활성화해야 합니다.<br>[!DNL Target] 타사 쿠키를 사용하여 사용자를 추적하고 Google을 사용하려면 타사 쿠키가 있어야 하며 `SameSite = None` 보안 플래그가 있어야 합니다. 보안 플래그를 사용하려면 사이트에서 HTTPS 프로토콜을 사용해야 합니다. |
 | at.js 2.*x* | 효과 없음 | 효과 없음 |
 
-## What does Target need to do?
+## Target의 기능
 
 그렇다면 새로운 Google Chrome 80+ SameSite 쿠키 정책을 준수하는 데 Adobe 플랫폼에서 어떻게 해야 합니까?
 
 | 타겟 JavaScript 라이브러리 | SameSite를 기본 쿠키로 지정 = 활성화됨 | SameSite가 없는 쿠키를 보호해야 함 = 활성화됨 |
 | --- | --- | --- |
-| 퍼스트 파티 쿠키만 있는 mbox.js | 효과 없음 | No impact if you are not using cross-domain tracking. |
+| 퍼스트 파티 쿠키만 있는 mbox.js | 효과 없음 | 크로스 도메인 추적을 사용하지 않는 경우 영향을 주지 않습니다. |
 | 크로스 도메인 추적이 활성화된 mbox.js를 추가했습니다. | 효과 없음 | [!DNL Target] 서버가 호출될 `SameSite = None` 때 타사 쿠키에 [!DNL Target] 및 보안 플래그를 추가합니다. |
 | at.js 1.*x* (퍼스트 파티 쿠키 포함) | 효과 없음 | 크로스 도메인 추적을 사용하지 않는 경우 영향을 주지 않습니다. |
 | at.js 1.*x* 크로스 도메인 추적이 활성화되면 | 효과 없음 | at.js 1.*x* 크로스 도메인 추적이 활성화되면 |
@@ -109,7 +106,7 @@ Google Chrome 80+ 사용자를 위해 [!DNL Target] 계속 작업하기 위해 �
 
 ## HTTPS 프로토콜을 사용하지 않으면 어떤 영향을 미칩니까?
 
-영향을 줄 유일한 사용 사례는 mbox.js 또는 at.js 1에서 도메인 간 추적 기능을 사용하는 [!DNL Target] 경우입니다.*x*&#x200B;에는 사용할 수 없습니다. Google의 요구 사항인 HTTPS로 전환하지 않으면 Adobe가 사용하는 타사 쿠키가 Google에 의해 삭제되기 때문에 도메인에서 고유 방문자 수가 급증합니다. 또한 타사 쿠키가 삭제되기 때문에 사용자가 한 도메인에서 다른 도메인으로 이동할 때 해당 사용자에 대해 일관되고 개인화된 경험을 제공할 [!DNL Target] 수 없습니다. 타사 쿠키는 주로 사용자가 소유한 도메인 간을 탐색하는 단일 사용자를 식별하는 데 사용됩니다.
+영향을 줄 유일한 사용 사례는 mbox.js 또는 at.js 1에서 도메인 간 추적 기능을 사용하는 [!DNL Target] 경우입니다.*x*&#x200B;에서 지원되지 않습니다. Google의 요구 사항인 HTTPS로 전환하지 않으면 Adobe가 사용하는 타사 쿠키가 Google에 의해 삭제되기 때문에 도메인에서 고유 방문자 수가 급증합니다. 또한 타사 쿠키가 삭제되기 때문에 사용자가 한 도메인에서 다른 도메인으로 이동할 때 해당 사용자에 대해 일관되고 개인화된 경험을 제공할 [!DNL Target] 수 없습니다. 타사 쿠키는 주로 사용자가 소유한 도메인 간을 탐색하는 단일 사용자를 식별하는 데 사용됩니다.
 
 ## 결론
 
