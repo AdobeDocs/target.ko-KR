@@ -1,13 +1,9 @@
 ---
 description: CRM 정보나 고객 이탈 성향 점수와 같은 오프라인 데이터는 개인화 모델을 만들 때 매우 소중합니다.
-seo-description: CRM 정보나 고객 이탈 성향 점수와 같은 오프라인 데이터는 개인화 모델을 만들 때 매우 소중합니다.
-seo-title: Target의 개인화 알고리즘을 위해 데이터 업로드
-solution: Target
 title: Target의 개인화 알고리즘을 위해 데이터 업로드
-topic: Premium
 uuid: eb0938b9-7f35-4bb5-ac4b-260b2144db5b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
