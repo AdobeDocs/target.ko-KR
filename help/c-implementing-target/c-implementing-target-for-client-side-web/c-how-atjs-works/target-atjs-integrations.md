@@ -1,14 +1,11 @@
 ---
-description: Target과의 통합과 at.js 관련 지원 상태에 대한 정보입니다.
 keywords: at.js 통합;지원되는 통합;지원되지 않는 통합;타사 통합
-seo-description: Target과의 통합과 at.js 관련 지원 상태에 대한 정보입니다.
-seo-title: at.js 통합
-solution: Target
+description: Target과의 통합과 at.js 관련 지원 상태에 대한 정보입니다.
 title: at.js 통합
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
