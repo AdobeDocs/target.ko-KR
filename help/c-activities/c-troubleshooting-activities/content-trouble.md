@@ -1,15 +1,12 @@
 ---
-description: 페이지에 예상되는 콘텐츠가 표시되지 않으면 몇 가지 단계를 진행하여 콘텐츠 제공을 디버깅할 수 있습니다.
 keywords: mbox 디버그;mbox 문제 해결;mbox 문제;깜박임;mboxDebug;mboxTrace;토큰;디버거;우선순위;활동 우선순위;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst 구매 mbox;최상위 판매;최상위 판매자
-seo-description: 페이지에 예상 컨텐츠가 표시되지 않는 경우 Adobe Target에서 컨텐츠 전달을 디버깅하는 몇 가지 단계를 수행할 수 있습니다.
-seo-title: Adobe Target에서 컨텐츠 전달 문제 해결
-solution: Target
+description: 페이지에 예상 컨텐츠가 표시되지 않는 경우 Adobe Target에서 컨텐츠 전달을 디버깅하는 몇 가지 단계를 수행할 수 있습니다.
+title: Adobe Target에서 컨텐츠 전달 문제 해결
 subtopic: 다변량 테스트
-title: 콘텐츠 전달 문제 해결
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -128,11 +125,11 @@ Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
 [!DNL mbox.js] 버전 58 이상으로 업그레이드하십시오.
 
-Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 mbox에 대한 비 JavaScript 콘텐츠를 실행합니다. 글로벌 mbox에 대한 `<script>` 태그 내의 JavaScript 콘텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 콘텐츠 전달 순서에 따라 글로벌 mbox에 대한 JavaScript 콘텐츠가 제대로 전달되고 렌더링될 수 있습니다.
+Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 mbox에 대한 비 JavaScript 콘텐츠를 실행합니다. 글로벌 mbox에 대한 `<script>` 태그 내의 JavaScript 콘텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 컨텐츠 전달 순서에 따라 글로벌 mbox에 대한 JavaScript 컨텐츠가 제대로 전달되고 렌더링될 수 있습니다.
 
 ## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오..
+사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 
 ## 요소가 AEM 개인화에도 속하면 Target 콘텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
