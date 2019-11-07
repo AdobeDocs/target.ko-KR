@@ -1,16 +1,10 @@
 ---
-description: 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
 keywords: 권장 사항;권장 사항 알고리즘;권장 사항 활동;recommendations classic
-seo-description: 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
-seo-title: 권장 사항 Classic과 Target Premium의 권장 사항 활동 비교
-solution: Target
+description: 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
 title: 권장 사항 Classic과 Target Premium의 권장 사항 활동 비교
-title-outputclass: premium
-topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
