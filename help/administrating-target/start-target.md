@@ -1,15 +1,12 @@
 ---
-description: 이 섹션에는 Target 관리자가 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후 수행해야 하는 첫 번째 단계들이 포함되어 있습니다.
 keywords: 관리;승인자 역할;승인자
-seo-description: 이 섹션에는 Adobe Target 관리자가 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후 수행해야 하는 첫 번째 단계들이 포함되어 있습니다.
-seo-title: 관리자의 첫 단계
-solution: Target
-subtopic: 시작하기
+description: 이 섹션에는 Adobe Target 관리자가 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후 수행해야 하는 첫 번째 단계들이 포함되어 있습니다.
 title: 관리자의 첫 단계
+subtopic: 시작하기
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -42,7 +39,7 @@ source-git-commit: 6ef0362ce492d20d3a2485e2db1fa8c76df7adb1
    >
    >계정을 연결하지 않으면 [!DNL Target]에 액세스할 수 없습니다.
 
-   모든 Experience Cloud 제품이 연결 페이지에 표시됩니다. Click `Link Target` and enter your Target username and password to access Target Standard.
+   모든 Experience Cloud 제품이 연결 페이지에 표시됩니다. `Link Target`을 클릭하고 Target 사용자 이름 및 암호를 입력하여 Target Standard에 액세스합니다.
 1. **[!UICONTROL Experience Cloud로 계속]**&#x200B;을 클릭합니다.
 
    이 시점에서는 연결할 자격이 있는 그룹이 아직 설정되어 있지 않습니다.
