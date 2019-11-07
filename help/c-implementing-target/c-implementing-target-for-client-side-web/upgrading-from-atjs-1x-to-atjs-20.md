@@ -1,14 +1,11 @@
 ---
-description: at.js 1.*x*에서 at.js 2.*x*로 업그레이드
 keywords: at.js 릴리스;at.js 버전;단일 페이지 앱;spa;크로스 도메인;cross-도메인
-seo-description: Adobe Target at.js 1.*x*에서 at.js 버전 2.0.0으로 업그레이드하는 방법에 대한 자세한 정보
-seo-title: Adobe Target at.js 버전 1*x*에서 at.js 버전 2*x*로 업그레이드되었습니다.*x*
-solution: Target
+description: Adobe Target at.js 1.*x*에서 at.js 버전 2.0.0으로 업그레이드하는 방법에 대한 자세한 정보
+title: Adobe Target at.js 버전 1*x*에서 at.js 버전 2*x*로 업그레이드되었습니다.*x*
 subtopic: 시작하기
-title: at.js 1.*x*에서 at.js 2.*x*로 업그레이드
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
