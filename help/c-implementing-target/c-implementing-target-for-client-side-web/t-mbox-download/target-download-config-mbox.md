@@ -1,15 +1,12 @@
 ---
-description: Target Standard 및 Premium은 수정된 버전의 Adobe Target mbox.js 파일을 사용합니다.
 keywords: 구현;Mbox;mbox.js;mbox.js 다운로드;mbox.js 구성
-seo-description: Target Standard 및 Premium은 수정된 버전의 Adobe Target mbox.js 파일을 사용합니다.
-seo-title: mbox.js 다운로드
-solution: Target
-subtopic: 시작하기
+description: Target Standard 및 Premium은 수정된 버전의 Adobe Target mbox.js 파일을 사용합니다.
 title: mbox.js 다운로드
+subtopic: 시작하기
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
