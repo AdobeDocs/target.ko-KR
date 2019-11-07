@@ -1,15 +1,12 @@
 ---
-description: 보고서에는 활동의 성과에 대한 정보가 있습니다.
 keywords: 보고서;IP 주소 차단;IP 주소에서 방문자 차단;보고서 다운로드;csv
-seo-description: 보고서에는 활동의 성과에 대한 정보가 있습니다
-seo-title: 보고서
-solution: Target
-subtopic: 다변량 테스트
+description: 보고서에는 활동의 성과에 대한 정보가 있습니다
 title: 보고서
+subtopic: 다변량 테스트
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
