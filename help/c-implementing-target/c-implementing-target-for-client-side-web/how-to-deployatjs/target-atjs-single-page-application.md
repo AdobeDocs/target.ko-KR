@@ -1,14 +1,11 @@
 ---
-description: at.js 2.x를 사용하여 SPA(단일 페이지 애플리케이션)를 구현하기 위한 정보입니다.
-keywords: 단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현하기;spa;at.js 2.xat.js;단일 페이지 응용 프로그램;단일 페이지 응용 프로그램;spa;SPA
-seo-description: Adobe Target at.js 2.x를 사용하여 SPA(단일 페이지 애플리케이션)를 구현하기 위한 정보입니다.
-seo-title: Adobe Target의 단일 페이지 애플리케이션 구현
-solution: Target
-title: 단일 페이지 애플리케이션 구현
+keywords: 단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현;spa;at.js 2.x;at.js;단일 페이지 애플리케이션;단일 페이지 앱;spa;SPA
+description: Adobe Target at.js 2.x를 사용하여 SPA(단일 페이지 애플리케이션)를 구현하기 위한 정보입니다.
+title: Adobe Target에서 단일 페이지 애플리케이션 구현
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
