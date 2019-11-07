@@ -1,16 +1,10 @@
 ---
-description: 자동화된 개인화 활동은 한 페이지의 여러 오퍼를 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 keywords: 권장 사항
-seo-description: AP(자동화된 개인화) 활동은 한 페이지의 여러 오퍼를 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
-seo-title: Adobe Target 시각적 경험 작성기에서 AP(자동화된 개인화) 활동에 대한 미리 보기 환경
-solution: Target
-title: 시각적 경험 작성기에서 자동화된 개인화에 대한 경험 미리 보기
-title-outputclass: premium
-topic: Premium
+description: AP(자동화된 개인화) 활동은 한 페이지의 여러 오퍼를 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
+title: Adobe Target 시각적 경험 작성기에서 AP(자동화된 개인화) 활동에 대한 미리 보기 환경
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
