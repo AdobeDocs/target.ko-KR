@@ -1,14 +1,11 @@
 ---
-description: Target을 사용할 수 있는 페이지에서 경험 타깃팅 활동을 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 시각적 경험 작성기를 사용하십시오.
-seo-description: Target을 사용할 수 있는 페이지에서 XT(경험 타깃팅) 활동을 만들고 Adobe Target 내에서 해당 페이지의 부분을 수정하려면 시각적 경험 작성기를 사용하십시오.
-seo-title: 경험 타깃팅 활동 만들기
-solution: Target
-subtopic: 다변량 테스트
+description: Target을 사용할 수 있는 페이지에서 XT(경험 타깃팅) 활동을 만들고 Adobe Target 내에서 해당 페이지의 부분을 수정하려면 시각적 경험 작성기를 사용하십시오.
 title: 경험 타깃팅 활동 만들기
+subtopic: 다변량 테스트
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
