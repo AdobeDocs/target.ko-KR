@@ -1,16 +1,10 @@
 ---
-description: 카탈로그 검색은 카탈로그에서 제품이나 컨텐츠를 찾는 데 도움이 됩니다.
 keywords: 카탈로그;검색
-seo-description: Adobe Target의 카탈로그 검색을 통해 카탈로그의 제품 또는 컨텐츠를 찾을 수 있습니다.
-seo-title: Adobe Target의 카탈로그 검색
-solution: Target
-title: 카탈로그 검색
-title-outputclass: premium
-topic: Premium
+description: Adobe Target의 카탈로그 검색은 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다.
+title: Adobe Target의 카탈로그 검색
 uuid: e0876963-5905-4850-a615-953e435f26e9
-badge: premium
 translation-type: tm+mt
-source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,7 +13,7 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 카탈로그 검색은 카탈로그에서 제품이나 컨텐츠를 찾는 데 도움이 됩니다.
 
-카탈로그 검색에 액세스하려면 Recommendations &gt; **[!UICONTROL 카탈로그]** 검색을 **[!UICONTROL 클릭합니다]**.
+카탈로그 검색에 액세스하려면 **[!UICONTROL 추천]** &gt; **[!UICONTROL 카탈로그 검색]**&#x200B;을 클릭합니다.
 
 검색 필드에서 아래쪽 화살표를 클릭하면 표시되는 선택 사항 메뉴에서 검색 선택 사항을 선택하여 검색을 개선할 수 있습니다.
 
@@ -40,11 +34,11 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 "제품" 옆에 표시되는 숫자는 지정된 환경에서 사용 가능한 전체 개수 중 검색어와 일치하는 제품의 수입니다.
 
-피드 파일, API 또는 mbox 업데이트를 통해 업데이트가 수신되면 카탈로그는 자동으로 새로 고쳐집니다. 업데이트는 보통 한 시간 내에 완료됩니다. 업데이트가 진행 중인 경우 최신 업데이트가 시작된 시간이 표시됩니다. 진행 중인 업데이트가 없으면 가장 최근 업데이트가 시작되고 완료된 시간이 표시됩니다.
+피드 파일, API 또는 mbox 업데이트를 통해 업데이트가 수신되면 카탈로그가 자동으로 새로고침됩니다. 업데이트는 일반적으로 한 시간 내에 완료됩니다. 업데이트가 진행 중인 경우 가장 최근 업데이트가 시작된 시간이 표시됩니다. 진행 중인 업데이트가 없으면 가장 최근 업데이트가 시작되고 완료된 시간이 표시됩니다.
 
 ## 고급 검색을 기반으로 컬렉션 또는 제외 만들기
 
-You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+카탈로그 검색 페이지의 고급 검색([!UICONTROL 추천] &gt; [!UICONTROL 카탈로그 검색] &gt; [!UICONTROL 고급 검색])을 사용하여 [컬렉션](/help/c-recommendations/c-products/collections.md)이나 [제외](/help/c-recommendations/c-products/exclusions.md)를 만들 수 있습니다.
 
 ![다른 이름으로 저장](/help/c-recommendations/c-products/assets/save-as.png)
 
