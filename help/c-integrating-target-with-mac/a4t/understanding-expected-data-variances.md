@@ -1,14 +1,11 @@
 ---
-description: Analytics를 보고 소스(A4T)로 사용하지 않아 데이터 분산이 모두 삭제될 때 Target과 Adobe Analytics 간의 예상 데이터 분산에 관해 설명합니다.
 keywords: 데이터 분산;분석;차이;분산;a4t;analytics for target;보고 소스로 분석;불일치;일치하지 않음
-seo-description: Analytics를 보고 소스(A4T)로 사용하지 않아 데이터 분산이 모두 삭제될 때 Target과 Adobe Analytics 간의 예상 데이터 분산에 관해 설명합니다.
-seo-title: A4T를 사용하지 않을 때 예상되는 데이터 분산
-solution: Target
+description: Analytics를 보고 소스(A4T)로 사용하지 않아 데이터 분산이 모두 삭제될 때 Target과 Adobe Analytics 간의 예상 데이터 분산에 관해 설명합니다.
 title: A4T를 사용하지 않을 때 예상되는 데이터 분산
 topic: 고급
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
