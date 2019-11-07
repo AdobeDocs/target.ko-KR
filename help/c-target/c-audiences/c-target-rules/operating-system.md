@@ -1,14 +1,11 @@
 ---
-description: 특정 운영 체제를 사용하는 방문자를 타깃팅할 수 있습니다.
 keywords: 타깃팅;운영 체제 타깃팅;운영 체제;OS 타깃팅;OS;Linux 타깃팅;Linux;Windows 타깃팅;windows;macintosh 타깃팅;macintosh;mac;mac 타깃팅;win;win 타깃팅
-seo-description: 특정 운영 체제를 사용하는 방문자를 타깃팅할 수 있습니다.
-seo-title: 운영 체제
-solution: Target
+description: 특정 운영 체제를 사용하는 방문자를 타깃팅할 수 있습니다.
 title: 운영 체제
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
