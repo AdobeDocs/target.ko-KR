@@ -1,16 +1,10 @@
 ---
-description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
 keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
-seo-description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
-seo-title: 사용자 지정 엔티티 속성
-solution: Target
+description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
 title: 사용자 지정 엔티티 속성
-title-outputclass: premium
-topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
-badge: premium
 translation-type: tm+mt
-source-git-commit: 41a287ede7326b8d7ed8c4763a3a733c5bd08333
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
