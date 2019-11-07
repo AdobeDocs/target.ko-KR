@@ -1,14 +1,11 @@
 ---
-description: Adobe Experience Cloud Device Co-op에 대한 정보입니다. 이 프로그램은 가장 높은 수준의 개인 정보 보호와 투명성을 보장하면서도 참가자가 협력하여 디지털 터치포인트 간에 소비자를 더 잘 식별할 수 있도록 해줍니다.
 keywords: experience cloud;device co-op;device co op;분석;audience manager;aam;media optimizer;device graph
-seo-description: Adobe Experience Cloud Device Co-op에 대한 정보입니다. 이 프로그램은 가장 높은 수준의 개인 정보 보호와 투명성을 보장하면서도 참가자가 협력하여 디지털 터치포인트 간에 소비자를 더 잘 식별할 수 있도록 해줍니다.
-seo-title: Experience Cloud Device Co-op
-solution: Target
+description: Adobe Experience Cloud Device Co-op에 대한 정보입니다. 이 프로그램은 가장 높은 수준의 개인 정보 보호와 투명성을 보장하면서도 참가자가 협력하여 디지털 터치포인트 간에 소비자를 더 잘 식별할 수 있도록 해줍니다.
 title: Experience Cloud Device Co-op
 topic: Standard
 uuid: b689a964-613f-4a64-9f15-e9111e6bf945
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
