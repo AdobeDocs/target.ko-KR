@@ -1,14 +1,11 @@
 ---
-description: 이러한 릴리스 노트는 Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
 keywords: 릴리스 정보;새 기능;릴리스;업데이트;업데이트;릴리스;개선;개선 사항;수정 사항;버그 수정
-seo-description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
-seo-title: 'Adobe Target 릴리스 노트(현재) '
-solution: Target
-title: Target 릴리스 노트(현재)
+description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
+title: 'Adobe Target 릴리스 노트(현재) '
 topic: 권장 사항
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 5f05f218e5fdea26827b86cb7fbea05ac6349014
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
