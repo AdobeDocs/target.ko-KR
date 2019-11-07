@@ -1,16 +1,10 @@
 ---
-description: 권장 사항 디자인에 대한 FAQ 목록
 keywords: 권장 사항;자주 묻는 질문;faq
-seo-description: 권장 사항 디자인에 대한 FAQ 목록
-seo-title: 디자인 FAQ
-solution: Target
+description: 권장 사항 디자인에 대한 FAQ 목록
 title: 디자인 FAQ
-title-outputclass: premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: premium
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -19,15 +13,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 권장 사항 디자인에 대한 FAQ 목록
 
-## 권장 항목의 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시합니까?
+## 권장 품목 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시할 수 있습니까?
 
-기본적으로 디자인 템플릿에서 반환되는 숫자 값( `entity.value`예:)은 소수점 뒤에 후행 0을 표시하지 않습니다. 예를 들어, 항목이 $35.00인 경우 35와 `entity.value` 같고 35만 페이지에 표시되고 $35.00이 아닙니다.
+기본적으로 디자인 템플릿에서 반환되는 숫자 값(예: `entity.value`) 은 소수점 뒤에 0이 표시되지 않습니다. 예를 들어, 항목이 $35.00인 경우 `entity.value`은 35와 같으며 $35.00이 아닌 35만 페이지에 표시됩니다.
 
 이 문제를 해결하기 위해 두 가지 옵션을 사용할 수 있습니다.
 
-* Velocity 스크립팅 또는 Javascript를 사용하여 반환된 값에 서식을 적용할 수 있습니다.
+* 속도 스크립팅 또는 Javascript를 사용하여 반환된 값에 서식을 적용할 수 있습니다.
 
-* 항목의 가격을 두 개의 개별 개체 속성으로 전달할 수 있습니다. 첫 번째, `entity.value`를 숫자 비교(예: 가격 비교 규칙)에 사용할 수 있습니다. 두 번째 값은 적절한 렌더링을 위해 엔터티의 값을 문자열로 저장하는 `entity.displayValue` 것과 같은 사용자 지정 속성이어야 합니다.
+* 항목의 가격을 두 개의 별도 엔티티 속성으로 전달할 수 있습니다. 첫 번째 `entity.value`는 숫자 비교(예: 가격 비교 규칙 등)에 사용할 수 있습니다. 두 번째는 올바른 렌더링을 허용하는 문자열로 엔티티 값을 저장하는 사용자 지정 속성(예: `entity.displayValue`)이어야 합니다.
 
    예:
 
