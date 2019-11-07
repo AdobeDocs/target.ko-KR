@@ -1,14 +1,11 @@
 ---
+keywords: qa;미리 보기;미리보기 링크;모바일;모바일 미리보기
 description: 모바일 미리 보기 링크를 사용하여 모바일 앱 활동에 대한 간단한 종단 간 QA를 수행하고 특별한 테스트 장치 없이 장치에서 다양한 경험을 직접 등록할 수 있습니다.
-keywords: qa;preview;preview link;mobile preview link;mobile preview
-seo-description: 모바일 미리 보기 링크를 사용하여 모바일 앱 활동에 대한 간단한 종단 간 QA를 수행하고 특별한 테스트 장치 없이 장치에서 다양한 경험을 직접 등록할 수 있습니다.
-seo-title: Adobe Target 모바일에서 모바일 미리 보기 링크 사용
-solution: Target
-title: Target 모바일 미리 보기
+title: Adobe Target Mobile에서 모바일 미리 보기 링크 사용
 topic: 고급,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
