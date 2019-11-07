@@ -1,14 +1,10 @@
 ---
-description: 특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
 keywords: 방문자 프로필;대상 방문자 프로필
-seo-description: Adobe Target에서특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
-seo-title: 방문자 프로필
-solution: Target
-title: Adobe Target을 사용하여 방문자 프로필을 타깃팅할 대상 만들기
-topic: Premium
+description: Adobe Target에서특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
+title: 방문자 프로필
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
