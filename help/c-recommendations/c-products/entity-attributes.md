@@ -1,16 +1,10 @@
 ---
-description: 제품이나 컨텐츠 정보를 권장 사항에 전달하려면 엔티티 속성을 사용하십시오.
 keywords: 엔티티;엔티티 속성;Recommendations로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
-seo-description: 제품이나 컨텐츠 정보를 권장 사항에 전달하려면 엔티티 속성을 사용하십시오.
-seo-title: 엔티티 속성
-solution: Target
+description: 제품이나 컨텐츠 정보를 권장 사항에 전달하려면 엔티티 속성을 사용하십시오.
 title: 엔티티 속성
-title-outputclass: premium
-topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
-badge: premium
 translation-type: tm+mt
-source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
