@@ -1,15 +1,10 @@
 ---
 description: 트래픽 견적 도구에서는 활동이 성공하기 위한 트래픽이 충분히 있는지 여부를 알 수 있는 피드백을 제공합니다.
-seo-description: 트래픽 견적 도구에서는 활동이 성공하기 위한 트래픽이 충분히 있는지 여부를 알 수 있는 피드백을 제공합니다.
-seo-title: 성공에 필요한 트래픽 예측
-solution: Target
 title: 성공에 필요한 트래픽 예측
-title-outputclass: premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
