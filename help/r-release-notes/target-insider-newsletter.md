@@ -1,12 +1,9 @@
 ---
-description: Adobe Target Insider는 Adobe Target 커뮤니티 구성원을 위한 월별 뉴스레터입니다. 제품 업데이트 및 향후 계획, 개인화 및 최적화 팁과 요령, 고객 성공, 예정된 이벤트, 정보 백서, 인기 있는 블로그 게시물 등에 대해 알아볼 수 있습니다.
 keywords: 참가자 뉴스레터;뉴스레터;제품 업데이트;팁 및 기법;이벤트;고객 성공;블로그;블로그;백서
-seo-description: Adobe Target Insider는 Adobe Target 커뮤니티 구성원을 위한 월별 뉴스레터입니다. 제품 업데이트 및 향후 계획, 개인화 및 최적화 팁과 요령, 고객 성공, 예정된 이벤트, 정보 백서, 인기 있는 블로그 게시물 등에 대해 알아볼 수 있습니다.
-seo-title: 'Adobe Target Insider 뉴스레터 '
-solution: Target
-title: Target Insider 뉴스레터
+description: Adobe Target Insider는 Adobe Target 커뮤니티 구성원을 위한 월별 뉴스레터입니다. 제품 업데이트 및 향후 계획, 개인화 및 최적화 팁과 요령, 고객 성공, 예정된 이벤트, 정보 백서, 인기 있는 블로그 게시물 등에 대해 알아볼 수 있습니다.
+title: 'Adobe Target Insider 뉴스레터 '
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
