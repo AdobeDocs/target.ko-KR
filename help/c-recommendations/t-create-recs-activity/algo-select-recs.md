@@ -1,16 +1,10 @@
 ---
-description: 권장 사항 활동에서 사용할 기준을 선택하십시오.
 keywords: 권장 사항;권장 사항 활동;기준
-seo-description: Adobe Target 권장 사항 활동에서 사용할 기준을 선택하십시오.
-seo-title: 기준 선택
-solution: Target
+description: Adobe Target 권장 사항 활동에서 사용할 기준을 선택하십시오.
 title: 기준 선택
-title-outputclass: premium
-topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
