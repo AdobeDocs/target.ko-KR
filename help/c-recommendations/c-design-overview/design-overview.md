@@ -1,14 +1,10 @@
 ---
-description: 페이지에 권장 사항이 어떻게 나타나는지를 정의하는 디자인에 대한 개요 정보.
 keywords: 권장 사항 디자인;템플릿;디자인 만들기;전달;출력
-seo-description: 페이지에 권장 사항이 어떻게 나타나는지를 정의하는 디자인에 대한 개요 정보.
-seo-title: 디자인 개요
-solution: Target
+description: 페이지에 권장 사항이 어떻게 나타나는지를 정의하는 디자인에 대한 개요 정보.
 title: 디자인 개요
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
