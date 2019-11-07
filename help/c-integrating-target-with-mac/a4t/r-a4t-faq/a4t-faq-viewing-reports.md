@@ -1,14 +1,11 @@
 ---
-description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(A4T)할 때의 보고서 보기에 대한 FAQ 답변을 제공합니다.
 keywords: faq;자주 묻는 질문;analytics for target;a4T;보고서;보고서;보고서 보기;보고;계산 방법론;노출 횟수;방문자 수;방문 횟수;기본 지표;활동 전환;지정되지 않음
-seo-description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(A4T)할 때의 보고서 보기에 대한 FAQ 답변을 제공합니다.
-seo-title: 보고서 보기 - A4T FAQ
-solution: Target
+description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(A4T)할 때의 보고서 보기에 대한 FAQ 답변을 제공합니다.
 title: 보고서 보기 - A4T FAQ
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -52,7 +49,7 @@ For more information, see [Select default report metrics](https://docs.adobe.com
 
 * 사용자가 활동 자격을 확보하고 컨텐츠가 [!DNL Target]에서 반환될 때 위의 모든 지표를 트리거합니다. 이는 사용자가 반드시 오퍼를 보았다는 것을 의미하지는 않습니다. 활동 경험이 스크롤해야 볼 수 있는 부분에 있고 사용자가 페이지를 아래로 스크롤하지 않는 경우 [!DNL Target]에서 오퍼를 제공했지만 사용자는 볼 수 없습니다.
 * 동일한 활동의 동일한 페이지에 여러 개의 mbox 호출이 있는 경우가 아니라면 [!UICONTROL 활동 노출 수]([!DNL Target]으로 측정) 및 [!UICONTROL 인스턴스 수]([!DNL Analytics]로 측정)는 동일합니다. 이로 인해 다중 [!UICONTROL 활동 노출 수]가 계산되지만, 인스턴스의 경우 단일 [!UICONTROL 인스턴스]만 계산됩니다.
-* When using Activity Impressions and Activity Conversions metrics in , ensure that both metrics have Same Touch attribution models applied. [!DNL Analysis Workspace] Models can be applied by clicking the column settings gear, enabling [!UICONTROL Non-default attribution models], then selecting [!UICONTROL Same Touch]. Learn more about attribution in [Attributes IQ overview](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) in the *Analytics Tools Guide*.
+* [!DNL Analysis Workspace]에서 [!UICONTROL 활동 노출 횟수] 및 [!UICONTROL 활동 전환] 지표를 사용할 때 두 지표 모두에 [!UICONTROL Same Touch] 속성 모델이 적용되어 있는지 확인하십시오. 열 설정 톱니바퀴를 클릭하고, [!UICONTROL 기본값이 아닌 속성 모델]을 활성화한 다음 [!UICONTROL Same Touch]를 선택하여 모델을 적용할 수 있습니다. Analytics 도구 안내서의 속성 [IQ 개요의](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) 속성에 대해 *자세히 알아보십시오*.
 
 ## 마케터가 활동을 설정할 때 Analytics 지표를 선택하는 경우 "활동 전환"은 무엇을 의미합니까? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +59,7 @@ Analytics 지표를 활동의 전환 지표로 선택하면 "활동 전환"은 �
 
 ![](assets/unspecified.png)
 
-기타 보고서에서 "지정되지 않음"은 데이터가 분류 규칙과 일치하지 않음을 의미하지만 A4T에서는 그렇지 않습니다. "지정되지 않음"이 표시되는 경우 분류 서비스가 아직 실행되지 않은 것입니다. 일반적으로 활동 데이터가 보고서에 표시되려면 24-72시간 정도가 소요됩니다. 이 시간까지 보고서에 활동 데이터가 표시되지 않더라도 해당 활동과 연관된 모든 방문자 데이터는 캡처되며 분류가 완료되면 표시됩니다.
+기타 보고서에서 "지정되지 않음"은 데이터가 분류 규칙과 일치하지 않음을 의미하지만 A4T에서는 그렇지 않습니다. "지정되지 않음"이 표시되는 경우 분류 서비스가 아직 실행되지 않은 것입니다. 활동 데이터가 보고서에 표시되려면 일반적으로 24~72시간이 걸립니다. 이 시간까지 보고서에 활동 데이터가 표시되지 않더라도 해당 활동과 연관된 모든 방문자 데이터는 캡처되며 분류가 완료되면 표시됩니다.
 
 분류 기간 후에 데이터는 웹 사이트에서 수집되고 약 1시간 후에 보고서에 표시됩니다. 보고서에 있는 모든 지표, 세그먼트, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
 
