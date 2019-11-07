@@ -1,13 +1,10 @@
 ---
-description: A/B 테스트에서는 웹 사이트 컨텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간에 전환율이 가장 많이 향상된 버전을 확인합니다.
 keywords: AB;A/B;AB...n;경험 비교;타깃팅;컨텐츠 비교
-seo-description: A/B 테스트에서는 웹 사이트 컨텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간에 전환율이 가장 많이 향상된 버전을 확인합니다.
-seo-title: A/B 테스트
-solution: Target
+description: A/B 테스트에서는 웹 사이트 컨텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간에 전환율이 가장 많이 향상된 버전을 확인합니다.
 title: A/B 테스트
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
