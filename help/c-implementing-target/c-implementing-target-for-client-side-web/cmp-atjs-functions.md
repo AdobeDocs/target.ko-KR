@@ -1,20 +1,17 @@
 ---
-description: Adobe Target at.js JavaScript 라이브러리와 함께 사용할 수 있는 함수 목록.
-keywords: at.js;functions;javascript library
-seo-description: Adobe Target의 at.js JavaScript 라이브러리와 함께 사용할 수 있는 함수 목록.
-seo-title: Adobe Target at.js 함수
-solution: Target
+keywords: at.js;함수;javascript 라이브러리
+description: Adobe Target의 at.js JavaScript 라이브러리와 함께 사용할 수 있는 함수 목록.
+title: Adobe Target at.js 함수
 subtopic: 시작하기
-title: at.js 함수
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# at.js 함수{#at-js-functions}를 참조하십시오
+# at.js 함수를 참조하십시오{#at-js-functions}
 
 Adobe Target at.js JavaScript 라이브러리와 함께 사용할 수 있는 함수 목록. 자세한 내용 및 예를 보려면 함수 열의 링크를 클릭합니다.
 
