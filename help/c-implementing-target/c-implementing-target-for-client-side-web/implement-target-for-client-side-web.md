@@ -1,13 +1,10 @@
 ---
-description: 클라이언트측 웹용 Target 구현에 대한 정보입니다.
-seo-description: 클라이언트측 웹용 Adobe Target 구현에 대한 정보입니다.
-seo-title: 클라이언트측 웹용 Adobe Target 구현
-solution: Target
-title: 개요 - 클라이언트측 웹용 Target 구현
+description: 클라이언트측 웹용 Adobe Target 구현에 대한 정보입니다.
+title: 클라이언트측 웹용 Adobe Target 구현
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
