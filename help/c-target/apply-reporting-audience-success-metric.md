@@ -1,13 +1,10 @@
 ---
-description: 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
 keywords: 타깃팅;대상;보고;성공 지표
-seo-description: Adobe Target에서 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
-seo-title: Adobe Target의 성공 지표에 보고 대상 적용
-solution: Target
-title: 성공 지표에 보고 대상 적용
+description: Adobe Target에서 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
+title: Adobe Target의 성공 지표에 보고 대상 적용
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
