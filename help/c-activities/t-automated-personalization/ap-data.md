@@ -1,16 +1,10 @@
 ---
-description: Adobe Target은 자동으로 다양한 데이터를 수집하고 사용하여 AP(자동화된 개인화) 및 AT(자동 타겟) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 "교육 레코드"(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
 keywords: 환경 데이터;세션 데이터;지역 데이터;지역 데이터;지역 데이터;장치 데이터;모바일 데이터;속성;프로필 속성
-seo-description: Adobe Target은 자동으로 다양한 데이터를 수집하고 사용하여 AP(자동화된 개인화) 및 AT(자동 타겟) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 "교육 레코드"(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
-seo-title: Adobe Target의 개인화 알고리즘에 대한 데이터 수집
-solution: Target
-title: Target의 개인화 알고리즘에 대한 데이터 수집
-title-outputclass: premium
-topic: Premium
+description: Adobe Target은 자동으로 다양한 데이터를 수집하고 사용하여 AP(자동화된 개인화) 및 AT(자동 타겟) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 "교육 레코드"(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
+title: Adobe Target의 개인화 알고리즘에 대한 데이터 수집
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
-badge: premium
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
