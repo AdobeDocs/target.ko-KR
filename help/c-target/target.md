@@ -1,13 +1,10 @@
 ---
-description: 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅하는 데 대상을 사용합니다.
 keywords: 타깃팅;대상;백분율 타겟
-seo-description: 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅하는 데 Adobe Target의 대상을 사용합니다.
-seo-title: Adobe Target의 대상
-solution: Target
-title: 대상자
+description: 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅하는 데 Adobe Target의 대상을 사용합니다.
+title: Adobe Target의 대상
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
