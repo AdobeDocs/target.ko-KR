@@ -1,16 +1,10 @@
 ---
-description: 최대 5개의 기준 시퀀스를 사용하여 권장 사항 활동에 표시되는 항목을 보다 강력하게 제어할 수 있습니다.
 keywords: 기준 시퀀스;다중 기준;알고리즘;기준;권장 사항 기준
-seo-description: 최대 5개의 기준 시퀀스를 사용하여 권장 사항 활동에 표시되는 항목을 보다 강력하게 제어할 수 있습니다.
-seo-title: 기준 시퀀스 만들기
-solution: Target
+description: 최대 5개의 기준 시퀀스를 사용하여 권장 사항 활동에 표시되는 항목을 보다 강력하게 제어할 수 있습니다.
 title: 기준 시퀀스 만들기
-title-outputclass: premium
-topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -92,9 +86,9 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
    권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
 
-## 교육 비디오:Recommendations에서 기준 만들기(12:33)
+## 교육 비디오: 추천에서 기준 만들기(12:33)
 
-이 비디오에는 다음 정보가 포함되어 있습니다.
+이 비디오에는 다음 정보가 포함됩니다.
 
 * 기준 만들기
 * 기준 시퀀스 만들기
