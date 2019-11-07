@@ -1,13 +1,10 @@
 ---
-description: 사이트를 안내하는 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅할 대상을 만듭니다.
 keywords: 타깃팅;트래픽 소스;트래픽 소스 타깃팅;검색 엔진 타깃팅;검색 엔진;랜딩 페이지;랜딩 페이지 타깃팅;참조 랜딩 페이지
-seo-description: Adobe Target에서 사이트를 안내하는 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅할 대상을 만듭니다.
-seo-title: Adobe Target에서 트래픽 소스 타깃팅
-solution: Target
-title: 트래픽 소스
+description: Adobe Target에서 사이트를 안내하는 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅할 대상을 만듭니다.
+title: Adobe Target에서 트래픽 소스 타깃팅
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
