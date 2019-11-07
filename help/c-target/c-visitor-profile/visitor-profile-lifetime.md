@@ -1,15 +1,12 @@
 ---
-description: 기본적으로, 방문자 프로필은 14일 동안 저장됩니다. 이 프로필 라이프타임은 연장할 수 있습니다.
 keywords: 개요 및 참조
-seo-description: 기본적으로, 방문자 프로필은 14일 동안 저장됩니다. 이 프로필 라이프타임은 연장할 수 있습니다.
-seo-title: 방문자 프로필 라이프타임
-solution: Target
-subtopic: 시작하기
+description: 기본적으로, 방문자 프로필은 14일 동안 저장됩니다. 이 프로필 라이프타임은 연장할 수 있습니다.
 title: 방문자 프로필 라이프타임
+subtopic: 시작하기
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
