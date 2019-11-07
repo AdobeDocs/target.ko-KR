@@ -1,14 +1,11 @@
 ---
-description: Adobe Target QA 북마클릿을 사용하여 Target에서 QA 모드에서 사용자를 릴리스하도록 하는 데 도움이 되는 정보입니다.
 keywords: qa;미리 보기;북마클릿;미리 보기 링크
-seo-description: Adobe Target QA 북마클릿을 사용하여 Target에서 QA 모드에서 사용자를 릴리스하도록 하는 데 도움이 되는 정보입니다.
-seo-title: Adobe Target용 활동 QA 북마클릿
-solution: Target
-title: 활동 QA 북마클릿
+description: Adobe Target QA 북마클릿을 사용하여 Target에서 QA 모드에서 사용자를 릴리스하도록 하는 데 도움이 되는 정보입니다.
+title: Adobe Target용 활동 QA 북마클릿
 topic: 고급,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
