@@ -1,15 +1,12 @@
 ---
-description: Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
 keywords: 구현;구현
-seo-description: Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
-seo-title: 구현하기 전에
-solution: Target
-subtopic: 시작하기
+description: Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
 title: 구현하기 전에
+subtopic: 시작하기
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
