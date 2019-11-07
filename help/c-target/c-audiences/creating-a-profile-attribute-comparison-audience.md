@@ -1,14 +1,11 @@
 ---
-description: 타겟 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
 keywords: 대상;성향;프로필 속성;비교하기;비교;대상 만들기;대상 작성
-seo-description: 타겟 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
-seo-title: 프로필 속성 비교 대상 만들기 Adobe Target에서
-solution: Target
-title: 프로필 속성 비교 대상 만들기
+description: 타겟 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
+title: 프로필 속성 비교 대상 만들기 Adobe Target에서
 topic: 고급,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -32,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 부엌 가구를 구입할 경향이 거실 가구를 구입할 경향보다 크다고 정의된 대상을 생성할 수 있습니다. 그러면 Target이 특정 방문자에 대한 부엌 성향과 거실 성향 점수를 동적으로 비교하여 해당 방문자가 이 대상에 적합한지 확인합니다.
 
-자세한 내용은 [데이터를 Target에 가져오는 방법](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)을 참조하십시오.
+자세한 내용은 [데이터를 Target으로 가져오는 방법](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17)을 참조하십시오.
 
 ## 프로필 속성 비교 대상 만들기 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
