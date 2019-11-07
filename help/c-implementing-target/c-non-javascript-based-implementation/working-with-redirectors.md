@@ -1,15 +1,12 @@
 ---
-description: 리디렉터는 테스트에서 mbox를 사용하는 것과 비슷한 방법으로 사용됩니다.
 keywords: 구현;mbox.js 비Javascript;리디렉터;클릭당 비용;클릭당 수익
-seo-description: 리디렉터는 테스트에서 mbox를 사용하는 것과 비슷한 방법으로 사용됩니다.
-seo-title: 리디렉터 작업
-solution: Target
-subtopic: 시작하기
+description: 리디렉터는 테스트에서 mbox를 사용하는 것과 비슷한 방법으로 사용됩니다.
 title: 리디렉터 작업
+subtopic: 시작하기
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
