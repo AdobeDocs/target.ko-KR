@@ -1,13 +1,10 @@
 ---
-description: Adobe Target에서 성공 지표는 보고 및 추적 목적으로 미리 구성됩니다.
 keywords: 타게팅;성공;전환 지표;페이지 점수 지표;페이지 보기 횟수 지표;매출 지표;사이트에서 보낸 시간;예상 값;고급 설정;성공 지표
-seo-description: Adobe Target에서 성공 지표는 보고 및 추적 목적으로 미리 구성됩니다.
-seo-title: Adobe Target의 성공 지표
-solution: Target
-title: 성공 지표
+description: Adobe Target에서 성공 지표는 보고 및 추적 목적으로 미리 구성됩니다.
+title: Adobe Target의 성공 지표
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
