@@ -1,14 +1,11 @@
 ---
-description: 양식 기반 경험 작성기에서 사용할 오퍼 라이브러리에 JSON을 만드십시오.
 keywords: 원격 오퍼;원격 오퍼 만들기
-seo-description: 양식 기반 경험 작성기에서 사용할 오퍼 라이브러리에 JSON을 만드십시오.
-seo-title: JSON 오퍼 만들기
-solution: Target
+description: 양식 기반 경험 작성기에서 사용할 오퍼 라이브러리에 JSON을 만드십시오.
 title: JSON 오퍼 만들기
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
