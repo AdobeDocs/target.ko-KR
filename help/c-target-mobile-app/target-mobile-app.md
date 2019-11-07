@@ -1,13 +1,11 @@
 ---
-description: 모바일 앱 최적화 및 개인화에 Target을 사용할 수 있습니다.
 keywords: 모바일 앱;모바일 앱 프로세스;Target 모바일 앱;모바일 타겟 위치;모바일 앱 성공 지표
-seo-description: 모바일 앱 최적화 및 개인화에 Target을 사용할 수 있습니다.
-seo-title: 모바일 앱을 위한 Target 기능에 대해 자세히 알아보십시오
+description: 모바일 앱 최적화 및 개인화에 Target을 사용할 수 있습니다.
 title: 모바일 앱을 위한 Target 기능에 대해 자세히 알아보십시오
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
