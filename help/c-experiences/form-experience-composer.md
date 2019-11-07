@@ -1,14 +1,11 @@
 ---
-description: 양식 기반 경험 작성기는 시각적이지 않은 경험 생성 방식을 제공합니다.
 keywords: 양식 기반 경험 작성기;양식 기반 작성기;세분화
-seo-description: 양식 기반 경험 작성기는 시각적이지 않은 경험 생성 방식을 제공합니다.
-seo-title: 양식 기반 경험 작성기
-solution: Target
+description: 양식 기반 경험 작성기는 시각적이지 않은 경험 생성 방식을 제공합니다.
 title: 양식 기반 경험 작성기
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
