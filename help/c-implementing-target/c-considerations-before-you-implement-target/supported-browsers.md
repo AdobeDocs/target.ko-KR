@@ -1,15 +1,12 @@
 ---
-description: Adobe Target 애플리케이션 및 콘텐츠 전달은 다양한 브라우저 및 장치에서 테스트되었습니다.
 keywords: 브라우저;사전 요구 사항;요구 사항;internet explorer;chrome;firefox;safari;android;surface
-seo-description: Adobe Target 애플리케이션 및 콘텐츠 전달은 다양한 브라우저 및 장치에서 테스트되었습니다.
-seo-title: 지원되는 브라우저
-solution: Target
-subtopic: 시작하기
+description: Adobe Target 애플리케이션 및 콘텐츠 전달은 다양한 브라우저 및 장치에서 테스트되었습니다.
 title: 지원되는 브라우저
+subtopic: 시작하기
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
