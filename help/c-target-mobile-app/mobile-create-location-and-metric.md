@@ -1,13 +1,11 @@
 ---
-description: 모바일 앱에서 Target을 사용하려면 위치 및 성공 지표를 만드십시오.
 keywords: 모바일 앱;모바일 앱 위치;target 모바일 앱;모바일 target 위치;모바일 앱 성공 지표
-seo-description: 모바일 앱에서 Target을 사용하려면 위치 및 성공 지표를 만드십시오.
-seo-title: iOS - Target 위치 및 성공 지표 만들기
+description: 모바일 앱에서 Target을 사용하려면 위치 및 성공 지표를 만드십시오.
 title: iOS - Target 위치 및 성공 지표 만들기
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
