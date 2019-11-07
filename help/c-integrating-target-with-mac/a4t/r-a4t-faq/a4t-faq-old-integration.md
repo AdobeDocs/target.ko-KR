@@ -1,14 +1,11 @@
 ---
-description: 이 주제에서는 기존 SiteCatalyst-Test&Target 통합과 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 keywords: faq;자주 묻는 질문;analytics for target;a4T;sitecatalyst;캠페인>레서피;test&target;통합
-seo-description: 이 주제에서는 기존 SiteCatalyst-Test&Target 통합과 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
-seo-title: 기존 SiteCatalyst-Test&Target 통합 - A4T FAQ
-solution: Target
+description: 이 주제에서는 기존 SiteCatalyst-Test&Target 통합과 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 기존 SiteCatalyst-Test&Target 통합 - A4T FAQ
 topic: Standard
 uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
