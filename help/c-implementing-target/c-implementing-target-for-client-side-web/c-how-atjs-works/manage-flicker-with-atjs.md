@@ -1,14 +1,11 @@
 ---
-description: 페이지 또는 앱 로드 중 Target at.js JavaScript 라이브러리가 어떻게 플리커를 방지하는지에 대한 정보입니다.
 keywords: flicker;at.js;implementation
-seo-description: 페이지 또는 앱 로드 중 Adobe Target at.js JavaScript 라이브러리가 어떻게 플리커를 방지하는지에 대한 정보입니다.
-seo-title: Adobe Target at.js에서 플리커를 관리하는 방법
-solution: Target
-title: at.js에서 플리커를 관리하는 방법
+description: 페이지 또는 앱 로드 중 Adobe Target at.js JavaScript 라이브러리가 어떻게 플리커를 방지하는지에 대한 정보입니다.
+title: Adobe Target at.js에서 플리커를 관리하는 방법
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
