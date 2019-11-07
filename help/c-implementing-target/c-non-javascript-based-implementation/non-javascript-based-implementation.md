@@ -1,15 +1,12 @@
 ---
-description: AdBox 또는 리디렉터 사용과 같이 비JavaScript 상황에서 Target을 구현하는 방법에 대한 정보입니다.
 keywords: 구현;mbox.js 비javascript;adbox;리디렉터;mbox
-seo-description: AdBox 또는 리디렉터 사용과 같이 비JavaScript 상황에서 Target을 구현하는 방법에 대한 정보입니다.
-seo-title: '이메일: Target 구현'
-solution: Target
-subtopic: 시작하기
+description: AdBox 또는 리디렉터 사용과 같이 비JavaScript 상황에서 Target을 구현하는 방법에 대한 정보입니다.
 title: '이메일: Target 구현'
+subtopic: 시작하기
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
