@@ -1,16 +1,11 @@
 ---
-description: 자동화된 개인화(AP)는 컨텐츠를 개인화하고 상승도를 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결합니다.
 keywords: 자동화된 개인화;대상;앙상블;랜덤 포레스트
-seo-description: 자동화된 개인화(AP)는 컨텐츠를 개인화하고 상승도를 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결합니다.
-seo-title: 자동화된 개인화
-solution: Target
+description: 자동화된 개인화(AP)는 컨텐츠를 개인화하고 상승도를 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결합니다.
 title: 자동화된 개인화
-title-outputclass: premium
 topic: 고급
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
