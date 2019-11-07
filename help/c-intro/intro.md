@@ -1,14 +1,11 @@
 ---
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto-target;permissions;adobe target;
 description: Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에 대한 수익을 극대화하도록 고객의 환경을 재단하고 개인화하는 데 필요한 모든 것을 제공하는 Adobe Experience Cloud 솔루션입니다.
-keywords: Target Standard;권장 사항;Target Premium;자동화된 개인화;자동 타겟;자동 타겟;사용 권한adobe의 목표는 무엇입니까?
-seo-description: Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에 대한 수익을 극대화하도록 고객의 환경을 재단하고 개인화하는 데 필요한 모든 것을 제공하는 Adobe Experience Cloud 솔루션입니다.
-seo-title: Adobe Target 소개
-solution: Target
-title: ' Target 소개'
+title: Adobe Target 소개
 topic: 고급
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
