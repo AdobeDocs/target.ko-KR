@@ -1,14 +1,12 @@
 ---
-description: Adobe Target(A4T)에서 Adobe Analytics 기반 활동을 만들기 위한 사용자 계정 요구 사항입니다.
 keywords: Analytics를 보고 소스로 사용;a4t;A4T
-seo-description: Adobe Target(A4T)에서 Adobe Analytics 기반 활동을 만들기 위한 사용자 계정 요구 사항입니다.
-seo-title: 사용자 권한 요구 사항
-solution: Target,Analytics
+description: Adobe Target(A4T)에서 Adobe Analytics 기반 활동을 만들기 위한 사용자 계정 요구 사항입니다.
 title: 사용자 권한 요구 사항
+solution: Target,Analytics
 topic: Reports & Analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
