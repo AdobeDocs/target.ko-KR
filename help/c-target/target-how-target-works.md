@@ -1,13 +1,10 @@
 ---
-description: Adobe Target은 at.js나 mbox.js JavaScript 라이브러리를 사용하여 웹 페이지와 통합됩니다.
 keywords: 타깃팅;쿠키;퍼스트 파티;자사 쿠키
-seo-description: Adobe Target은 at.js나 mbox.js JavaScript 라이브러리를 사용하여 웹 페이지와 통합됩니다.
-seo-title: 타깃팅이 작동하는 방법
-solution: Target
+description: Adobe Target은 at.js나 mbox.js JavaScript 라이브러리를 사용하여 웹 페이지와 통합됩니다.
 title: 타깃팅이 작동하는 방법
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
