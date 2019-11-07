@@ -1,15 +1,12 @@
 ---
-description: at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
 keywords: 글로벌 mbox;글로벌 mbox 사용자 지정;mbox.js 편집;at.js 편집;at.js;mbox.js 구현;at.js 구현
-seo-description: at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
-seo-title: 글로벌 mbox 사용자 지정
-solution: Target
-subtopic: 시작하기
+description: at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
 title: 글로벌 mbox 사용자 지정
+subtopic: 시작하기
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
