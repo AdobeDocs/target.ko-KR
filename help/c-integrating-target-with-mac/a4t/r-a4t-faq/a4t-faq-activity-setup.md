@@ -1,14 +1,11 @@
 ---
-description: 이 주제에서는 활동 설정과 Analytics를 Target의 보고 소스로 사용(A4T)하는 것과 관련하여 자주 묻는 질문에 대한 답을 제공합니다.
 keywords: faq;자주 묻는 질문;analytics for target;a4T;활동 설정
-seo-description: 이 주제에서는 활동 설정과 Analytics를 Target의 보고 소스로 사용(A4T)하는 것과 관련하여 자주 묻는 질문에 대한 답을 제공합니다.
-seo-title: 활동 설정 - A4T FAQ
-solution: Target
+description: 이 주제에서는 활동 설정과 Analytics를 Target의 보고 소스로 사용(A4T)하는 것과 관련하여 자주 묻는 질문에 대한 답을 제공합니다.
 title: 활동 설정 - A4T FAQ
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
