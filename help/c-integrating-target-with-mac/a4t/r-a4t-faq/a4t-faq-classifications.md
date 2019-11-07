@@ -1,14 +1,11 @@
 ---
-description: 이 주제에서는 분류와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 keywords: faq;자주 묻는 질문;analytics for target;a4T;분류;분류;분류 가져오기;post-tnt-action
-seo-description: 이 주제에서는 분류와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
-seo-title: 분류 - A4T FAQ
-solution: Target
+description: 이 주제에서는 분류와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 분류 - A4T FAQ
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
