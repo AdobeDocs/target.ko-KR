@@ -5,7 +5,7 @@ title: 유럽연합 일반 데이터 보호 규칙(GDPR), 캘리포니아 소비
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -44,6 +44,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 개인 정보가 공개 또는 판매되고 있다는 내용의 정보 제공
 
 지난 해 유럽의 개인 정보 보호법(GDPR)에 부지런히 대비한 경우 이러한 권리 중 일부는 친숙할 수 있으며, 수행했던 작업의 대부분을 다시 활용할 수 있습니다.
+
+>[!NOTE]
+>
+>CPA에 적용되는 데이터에 액세스하고 삭제하는 작업은 GDPR과 동일한 프로세스를 따릅니다.
 
 ## Adobe Target 및 [!DNL Experience Platform Launch] 선택 {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -289,3 +293,7 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 ### Target이 IP 난독화를 지원합니까? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target]은 사용자가 IP 난독화를 GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 유사 IP 탐지를 지원합니다. 자세한 내용은 [개인 정보](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)를 참조하십시오.
+
+### 데이터가 제3자에게 공유되거나 판매되지 않도록 하려면 어떤 조치를 취해야 합니까?
+
+Target은 고객이 Target에서 제3자에게 직접 데이터를 공유하거나 판매할 수 있는 기능이 없으므로 Target에 대한 판매 옵트아웃이 없습니다.
