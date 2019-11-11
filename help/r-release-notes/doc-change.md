@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -20,6 +20,7 @@ source-git-commit: 117e4c8712d49a284331552268cec42bb34cf013
 | --- | --- | --- |
 | 2019년 11월 11일 | [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 버전 1.0.1에 대한 정보가 추가되었습니다. |
 |  | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 전체 주제가 업데이트되었습니다. |
+|  | [지역](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | 우편번호와 같은 지역 정보를 저장하지 [!DNL Target] 않는다는 내용의 정보가 추가되었습니다. |
 | 2019년 11월 8일 | [Target Insider 뉴스레터](/help/r-release-notes/target-insider-newsletter.md) | 추가 이전 문제에 대한 링크가 추가되었습니다. |
 |  | [개인 정보 보호 및 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | CPA 섹션이 새 메모로 업데이트되었습니다.<br>Target에서 고객이 Target에서 직접 데이터를 공유하거나 판매할 수 없도록 할 수 있음을 고객에게 알려주는 새로운 FAQ가 추가되었으며, Target에 대한 판매 수신이 없습니다. |
 | 2019년 11월 7일 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | adobeQA 매개 변수에 대한 코드 샘플이 추가되었습니다. |
