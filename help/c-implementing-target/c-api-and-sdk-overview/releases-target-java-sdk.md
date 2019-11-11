@@ -4,7 +4,7 @@ description: Adobe Target의 Java SDK와 관련된 릴리스 노트입니다.
 title: Adobe Target의 Java SDK와 관련된 릴리스 노트입니다.
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -18,6 +18,14 @@ Java [!DNL Target] SDK를 사용하여 [!DNL Target] 서버측을 배포할 수 
 Java SDK는 Adobe의 전달 API를 [!DNL Target] 통해 통합할 때 모범 사례를 도입하고 복잡성을 제거하여 엔지니어링 팀이 비즈니스 로직에 집중할 수 있도록 합니다.
 
 새로운 Target Java SDK를 사용한 Adobe 기술 블로그 - [서버측 최적화에 대한 자세한 내용을 살펴보십시오](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2).
+
+## 버전 1.0.1(2019년 11월 11일)
+
+다음 섹션에서는 Target Java SDK의 버전 1.0.1에 대한 자세한 정보를 제공합니다.
+
+### 고정
+
+* 방문자 API 쿠키가 없는 경우에도 Target 요청에서 보충 데이터 ID를 보냅니다.
 
 ## 버전 1.0.0(2019년 10월 31일)
 
