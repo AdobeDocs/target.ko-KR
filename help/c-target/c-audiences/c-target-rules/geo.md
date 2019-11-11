@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -139,6 +139,10 @@ AOL이 트래픽을 프록시하는 방법 때문에 국가 수준에서만 타�
 **푸에르토리코 및 홍콩과 같은 지역은 어떻게 지역 타깃팅 구조에 매핑됩니까?**
 
 푸에르토리코, 홍콩 및 기타 지역은 "국가" 값으로 취급됩니다.
+
+**활동이 지역 위치 타깃팅 기능으로 타깃팅될 때 우편번호와 같은 정보를[!DNL Target]캡처(및 저장)합니까?**
+
+아니요, [!DNL Target] 세션 기간 동안 지역 데이터만 사용하면 데이터가 무시됩니다.
 
 ## 교육 비디오: 대상 만들기
 
