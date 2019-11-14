@@ -1,11 +1,11 @@
 ---
-keywords: at.js faq;at.js 자주 묻는 질문;faq;깜박임;로더;페이지 로더;교차 도메인;파일 크기;파일크기;x-domain;at.js 및 mbox.js;x 전용;교차 도메인;safari;단일 페이지 앱;누락된 선택기;선택기;단일 페이지 애플리케이션;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip 주소;httponly;HttpOnly;보안;ip;쿠키 도메인
+keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
 description: Adobe Target at.js JavaScript 라이브러리에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 title: Adobe Target at.js FAQ
-subtopic: 시작하기
+subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 36159cc0db41513267bfb9c5ac9bda96bc8120f2
 
 ---
 
@@ -205,9 +205,8 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 * 느린 네트워크로 인해 페이지가 느리게 작성되고 있으며 at.js는 DOM에서 선택기를 찾을 수 없습니다.
 * 활동이 실행 중인 페이지 구조가 변경되었습니다. 시각적 경험 작성기(VEC)에서 활동을 다시 열 경우 경고 메시지가 표시됩니다. 필요한 모든 요소를 찾을 수 있도록 활동을 업데이트해야 합니다.
 * 기본 페이지가 단일 페이지 애플리케이션(SPA)의 일부이거나 이 페이지에 페이지 아래쪽에 나타나는 요소가 있는데, [!DNL at.js] "선택기 폴링 메커니즘"이 해당 요소를 찾을 수 없습니다. `selectorsPollingTimeout`을 늘리는 것이 도움이 될 수 있습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
-* 지표가 설정된 URL과 관계없이 모든 클릭 추적 지표가 모든 페이지에 추가되려고 시도합니다. 그 자체로 문제가 안 되더라도 이렇게 되면 많은 메시지가 표시됩니다. 최신 버전의 [!DNL at.js]는 이러한 메시지가 표시되는 것을 방지하지만 많은 고객은 여전히 이전 버전의 [!DNL at.js] 또는 [!DNL mbox.js]를 사용합니다.
-
-   최상의 결과를 얻으려면 최신 버전의 [!DNL at.js]를 다운로드하여 사용하십시오. 자세한 내용은 [at.js 버전 세부 사항](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) 및 [at.js 다운로드](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오.
+* 지표가 설정된 URL과 관계없이 모든 클릭 추적 지표가 모든 페이지에 추가되려고 시도합니다. 그 자체로 문제가 안 되더라도 이렇게 되면 많은 메시지가 표시됩니다.
+최상의 결과를 얻으려면 최신 버전의 [!DNL at.js]를 다운로드하여 사용하십시오. 자세한 내용은 [at.js 버전 세부 사항](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) 및 [at.js 다운로드](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오.
 
 ## Target 서버 호출이 향하는 도메인 tt.omtrdc.net은 무엇입니까? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
