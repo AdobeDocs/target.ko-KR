@@ -1,11 +1,11 @@
 ---
-keywords: 대상 설명서 변경 로그;문서 업데이트;새 항목;편집
+keywords: target documentation change log;documentation updates;new topics;edits
 description: 이 페이지에는 Adobe Target 설명서에 대한 중요한 변경 사항(릴리스별로 주문)이 나열됩니다.
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
+source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 11월 15일 | [10가지 일반적인 A/B 테스트 문제와 이를 방지하는 방법](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | 추가된 "Pitfall 7:테스트 기간 동안 트래픽 할당 변경" |
 | 2019년 11월 11일 | [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 버전 1.0.1에 대한 정보가 추가되었습니다. |
 |  | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 전체 주제가 업데이트되었습니다. |
 |  | [지역](/help/c-target/c-audiences/c-target-rules/geo.md#section_DD308A53AF0F48FA8C81423580561FE7) | 우편번호와 같은 지역 정보를 저장하지 [!DNL Target] 않는다는 내용의 정보가 추가되었습니다. |
