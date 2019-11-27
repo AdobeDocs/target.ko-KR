@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -70,20 +70,23 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
    ![제품 탭](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. 원하는 구성의 이름을 클릭합니다.
-1. **[!UICONTROL 사용자를 클릭합니다]**.
+1. 원하는 작업 영역(예: 기본 작업 영역)을 클릭합니다.
+
+   ![기본 작업 공간](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    [!UICONTROL 사용자] 탭에는 해당 작업 공간의 모든 사용자가 표시됩니다.
 
    ![구성 사용자](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. [!UICONTROL 제품 역할] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할(관찰자, 편집자 또는 승인자)을 선택합니다.
+1. [!UICONTROL 제품 역할] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할(승인자, 편집자 또는 관찰자)을 선택합니다.
+
+   ![제품 역할 드롭다운 목록](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | 역할 | 설명 |
    |--- |--- |
-   | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
    | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
+   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+   | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
 
 자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제공 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
 
