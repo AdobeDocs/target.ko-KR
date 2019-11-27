@@ -1,11 +1,11 @@
 ---
-keywords: flicker;at.js;implementation
+keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: 페이지 또는 앱 로드 중 Adobe Target at.js JavaScript 라이브러리가 어떻게 플리커를 방지하는지에 대한 정보입니다.
 title: Adobe Target at.js에서 플리커를 관리하는 방법
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
