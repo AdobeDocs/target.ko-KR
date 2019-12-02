@@ -4,7 +4,7 @@ audience: end-user
 user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
 
 ---
 
@@ -139,6 +139,7 @@ source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
          + [iOS - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [모바일 VEC에서 클릭 추적 설정](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [위치 서비스 사용](/help/c-target-mobile-app/use-location-service.md)
    + 서버 측: Target 구현 {#server-side}
       + [릴리스 정보 - 대상 서버측 API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [릴리스 노트 - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
