@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 12월 2일 | [위치 서비스 사용](/help/c-target-mobile-app/use-location-service.md) | 새 주제입니다.  |
 | 2019년 11월 26일 | [at.js에서 플리커를 관리하는 방법](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | at.js를 비동기식으로 로드할 때 "깜박임 관리"에서 텍스트가 업데이트되었습니다. |
 |  | [Target Insider 뉴스레터](/help/r-release-notes/target-insider-newsletter.md) | 2019년 11월 뉴스레터에 대한 링크가 추가되었습니다. |
 |  | [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) | "역할 및 권한 지정"에서 텍스트와 이미지를 업데이트했습니다. |
