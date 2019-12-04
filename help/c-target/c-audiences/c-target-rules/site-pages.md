@@ -1,11 +1,11 @@
 ---
-keywords: 사이트 페이지;타겟 사이트 페이지;타깃팅;현재 페이지;타겟 현재 페이지;이전 페이지;타겟 이전 페이지;랜딩 페이지;타겟 랜딩 페이지;mbox;타겟 mbox
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
 description: Adobe Target을 사용하여 특정 페이지에 있거나 특정 mbox 매개 변수를 갖는 방문자를 타깃팅할 수 있습니다.
 title: Adobe Target의 사이트 페이지
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->이제 대상 사이트 페이지 유형 및 비교 연산자는 Target Classic의 유형 및 비교 연산자와 일치합니다. 자신만의 "사용자 정의 쿼리 매개 변수" 또는 "사용자 정의 헤더"를 사용하여 사이트 페이지 대상을 만들 수도 있습니다.
+>Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. 자신만의 "사용자 정의 쿼리 매개 변수" 또는 "사용자 정의 헤더"를 사용하여 사이트 페이지 대상을 만들 수도 있습니다.
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
@@ -24,21 +24,93 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![사이트 페이지 대상](assets/target_site_pages.png)
 
-1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
+1. 선택 **[!UICONTROL 드롭다운]** 목록을 클릭하고 다음 옵션 중 하나를 선택한 다음 원하는 대로 규칙을 구성합니다.
 
-   * **현재 페이지:**&#x200B;활동에서 mbox를 포함하고 있는 페이지, 즉 사용자가 현재 있는 페이지입니다. 활동 수준에서 타깃팅하는 경우 항목 조건을 정의하는 데 사용하는 mbox가 있는 페이지 또는 콘텐츠를 표시하는 페이지가 될 수 있습니다. 경험별로 타깃팅하고 있는 경우 현재 페이지는 표시 mbox가 있는 페이지입니다. 성공 지표 또는 전환 타깃팅의 경우 이러한 mbox가 있는 페이지입니다.
+   규칙의 후속 드롭다운 목록에서 사용할 수 있는 옵션 및 평가기는 선택한 옵션에 따라 달라집니다. 다음 그림은 현재 페이지를 선택하는 경우 사용 가능한 옵션을 [!UICONTROL 보여줍니다].
+
+   ![현재 페이지](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
+
+   선택을 선택하면 초기 드롭다운 목록에서 다음 옵션을 사용할 수 [!UICONTROL 있습니다].
+
+   * **현재 페이지:**&#x200B;활동에서 mbox를 포함하고 있는 페이지, 즉 사용자가 현재 있는 페이지입니다. 활동 수준에서 타깃팅하는 경우 항목 조건을 정의하는 데 사용하는 mbox가 있는 페이지 또는 콘텐츠를 표시하는 페이지가 될 수 있습니다. 경험별로 타깃팅하고 있는 경우 현재 페이지는 표시 mbox가 있는 페이지입니다. 성공 지표 또는 전환 타깃팅의 경우 해당 mbox가 있는 페이지입니다.
+
+      이 옵션을 선택하면 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
+
+      * URL
+      * 도메인
+      * 쿼리
+      * 하위 도메인
+      * 최상위 도메인
+      * 경로
+      * 해시(#) 단편
    * **이전 페이지:** 현재 페이지를 클릭하기 전에 사용자가 있던 페이지입니다. (사용자가 이전 페이지에서 클릭하여 현재 페이지로 이동해야 페이지가 추적됩니다. 사용자가 브라우저에서 새 URL을 입력하는 경우 이전 페이지가 추적됩니다.) 이 페이지의 실제 내용은 사이트의 디자인에 따라 다릅니다. 예를 들어, 현재 페이지에 특정 제품에 대한 정보가 표시되는 경우 이전 페이지는 방문자가 특정 항목을 선택하는 카테고리 페이지(예: 특정 유형의 카메라 몇 대가 표시되는 페이지)이거나 최종 페이지로 이어지는 홈페이지일 수 있습니다.
+
+      이 옵션을 선택하면 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
+
+      * URL
+      * 도메인
+      * 쿼리
+      * 하위 도메인
+      * 최상위 도메인
+      * 경로
    * **랜딩 페이지:** 랜딩 페이지는 사이트에 액세스할 때 방문자가 보는 첫 페이지입니다. 예를 들어 방문자가 범주 페이지로 이동하는 Google에 대한 링크를 클릭하는 경우 범주 페이지는 랜딩 페이지입니다. 링크가 홈페이지로 이동하는 경우 홈페이지는 랜딩 페이지입니다. 랜딩 페이지는 방문자의 세션을 기억합니다. 방문자의 랜딩 페이지가 이 세션에 있었던 것을 기준으로 더 깊이 타깃팅할 수 있습니다.
 
+      이 옵션을 선택하면 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
+
+      * URL
+      * 도메인
+      * 쿼리
+      * 하위 도메인
+      * 최상위 도메인
+      * 경로
+      * 해시(#) 단편
       >[!NOTE]
       >
       >`landing.url` 개체는 하위 도메인 변경 시 또는 직접적인 URL 대체 시 재설정됩니다.
 
-   * **Mbox:** 타깃팅하는 mbox입니다. 예를 들어 총 주문액이 $100 이상인 주문을 계산하려는 경우, 여기에서 지정된 타깃팅을 사용하여 mbox 매개 변수로 `orderTotal`을 전달합니다.
+   * **** HTTP 헤더:이 옵션은 사이트에 액세스할 때 방문자가 보는 첫 번째 페이지의 HTTP 헤더에 있는 정보를 평가합니다. 예를 들어 HTTP 헤더에 언어 정보가 포함되어 있는 경우 방문자를 타깃팅하는 `Accept-Language: es` 조건을 포함하는 규칙을 만들 수 있습니다.
+
+      이 옵션을 선택하면 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
+
+      * Accept
+      * Accept-Charset
+      * 인코딩 허용
+      * Accept-Language
+      * 승인
+      * Cache-Control
+      * 연결
+      * Content-Lenght
+      * Content-MDS
+      * Content-Type
+      * 날짜
+      * 예상
+      * From
+      * 호스트
+      * If-Match
+      * 수정된 경우
+      * If-None-Match
+      * If-Range
+      * 수정되지 않은 경우
+      * 최대 전달
+      * Pragma
+      * 프록시 인증
+      * 범위
+      * Referer
+      * TE
+      * 업그레이드
+      * User-Agent
+      * Via
+      * 경고
+   [현재 페이지 ,]이전 페이지 [!UICONTROL 또는]랜딩 페이지를 [!UICONTROL 선택한]경우 [!UICONTROL DomainDomain 및]  QualifyQuery 옵션을 사용할 수 있습니다. 이러한 옵션을 선택할 때는 다음 사항을 고려하십시오.
+
    * **도메인:**&#x200B;페이지의 전체 도메인. 도메인을 지정할 때는 "contains"를 사용하는 것이 좋습니다. 예를 들어, "Domain equals facebook.com"(도메인이 facebook.com과 같음)은 `m.facebook.com`이나 `www.facebook.com`을 허용하지 않지만, "Domain contains facebook.com"(도메인이 facebook.com 포함)은 facebook.com의 모든 변형을 허용합니다.
    * **쿼리:**&#x200B;첫 번째 물음표(?) 다음의 URL 콘텐츠입니다. 
 
       `foo.html?e0a72cb2a2c7`
+
+
+
+
 
 1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
 1. **[!UICONTROL 저장을 클릭합니다]**.
