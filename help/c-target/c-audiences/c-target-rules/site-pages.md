@@ -1,22 +1,18 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: Adobe Target을 사용하여 특정 페이지에 있거나 특정 mbox 매개 변수를 갖는 방문자를 타깃팅할 수 있습니다.
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: 사이트의 특정 페이지에 있는 방문자를 타깃팅할 수 있습니다.
 title: Adobe Target의 사이트 페이지
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
+source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 
 ---
 
 
 # 사이트 페이지{#site-pages}
 
-특정 페이지에 있거나 특정 mbox 매개 변수를 가진 방문자를 타깃팅할 수 있습니다.
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. 자신만의 "사용자 정의 쿼리 매개 변수" 또는 "사용자 정의 헤더"를 사용하여 사이트 페이지 대상을 만들 수도 있습니다.
+사이트의 특정 페이지에 있는 방문자를 타깃팅할 수 있습니다.
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
@@ -32,7 +28,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
 
    선택을 선택하면 초기 드롭다운 목록에서 다음 옵션을 사용할 수 [!UICONTROL 있습니다].
 
-   * **현재 페이지:**&#x200B;활동에서 mbox를 포함하고 있는 페이지, 즉 사용자가 현재 있는 페이지입니다. 활동 수준에서 타깃팅하는 경우 항목 조건을 정의하는 데 사용하는 mbox가 있는 페이지 또는 콘텐츠를 표시하는 페이지가 될 수 있습니다. 경험별로 타깃팅하고 있는 경우 현재 페이지는 표시 mbox가 있는 페이지입니다. 성공 지표 또는 전환 타깃팅의 경우 해당 mbox가 있는 페이지입니다.
+   * **** 현재 페이지:사용자가 현재 있는 페이지입니다.
 
       이 옵션을 선택하면 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
@@ -68,7 +64,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
       >
       >`landing.url` 개체는 하위 도메인 변경 시 또는 직접적인 URL 대체 시 재설정됩니다.
 
-   * **** HTTP 헤더:이 옵션은 사이트에 액세스할 때 방문자가 보는 첫 번째 페이지의 HTTP 헤더에 있는 정보를 평가합니다. 예를 들어 HTTP 헤더에 언어 정보가 포함되어 있는 경우 방문자를 타깃팅하는 `Accept-Language: es` 조건을 포함하는 규칙을 만들 수 있습니다.
+   * **** HTTP 헤더:이 옵션은 Target 요청의 HTTP 헤더에 있는 정보를 평가합니다. 예를 들어 HTTP 헤더에 언어 정보가 포함되어 있는 경우, 페이지에 스페인어로 액세스하는 방문자를 타게팅하는 `Accept-Language: es` 조건을 포함하는 규칙을 만들 수 있습니다.
 
       이 옵션을 선택하면 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
@@ -79,7 +75,7 @@ source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
       * 승인
       * Cache-Control
       * 연결
-      * Content-Lenght
+      * Content-Length
       * Content-MDS
       * Content-Type
       * 날짜
