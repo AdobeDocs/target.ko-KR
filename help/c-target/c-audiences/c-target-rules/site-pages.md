@@ -5,7 +5,7 @@ title: Adobe Target의 사이트 페이지
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
+source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 ---
 
@@ -116,7 +116,7 @@ source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 아래 그림과 같이
 
 * 사용자가 선택한 규칙이 현재 페이지, 랜딩 페이지 또는 이전 페이지인 경우 쿼리 매개 변수를,
-* 사용자가 선택한 규칙이 HTTP 헤더인 경우 헤더를
+* 사용자가 선택한 규칙이 HTTP 헤더인 경우 헤더입니다.
 
 사용하십시오.
 
