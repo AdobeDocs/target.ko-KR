@@ -1,10 +1,10 @@
 ---
-keywords: 추천;추천 활동;기준;알고리즘;추천 키;사용자 지정 키;업계 수직;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어 게시
+keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Adobe Target Recommendations의 기준은 미리 결정된 방문자 행동을 기반으로 권장할 제품을 결정하는 규칙입니다.
 title: Adobe Target Recommendations의 기준
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -107,3 +107,6 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 ![기준 사용 탭](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
+>[!NOTE]
+>
+>기준 사용 기능은 현재 Recommendations 활동에서만 지원됩니다. A/B 테스트 및 경험 타깃팅(XT 파섹) 활동은 현재 지원되지 않습니다.
