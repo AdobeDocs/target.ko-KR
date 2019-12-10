@@ -1,11 +1,11 @@
 ---
-keywords: 변수;프로필;매개 변수;내장 프로필;메서드;URL 변수;지역 프로필;타사 프로필;mbox 변수;캠페인 변수;고객 속성
+keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: 이 페이지에는 프로필 스크립트에 유용한 프로필, 변수 및 매개 변수가 나열됩니다.
 title: 프로필 및 변수 용어집
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
@@ -41,7 +41,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | user.setLocal('param_name','value'); |  |
 | user.get('param_name') |  |
 | user.parameter | 프로필 스크립트에서 만든 지속적 프로필 속성입니다. 지리적 위치, 방문 수 등과 같은 "시스템" 프로필도 참조합니다. |
-| profile.get('param_name') |  |
+| profile.get('param_name') | 프로필 스크립트에서 사용할 프로필 매개 변수를 가져오는 올바른 방법은 profile.get('param_name') 메서드입니다. |
 | profile.param('param_name'); |  |
 | profile.parameter('parameter_name'); | profile.  prefix로 인해 영구적으로 지정되는 Mbox 매개 변수입니다. |
 | profile.browserTime | 방문자의 로컬 브라우저 시간. 시스템 시간의 경우 프로필 스크립트에서 새로운 날짜 개체를 만듭니다. |
