@@ -1,11 +1,11 @@
 ---
-keywords: 문자 제한;mbox 매개 변수;배치 배달 api;프로필 매개 변수;제한;내장 프로필;최대값;제한;제한;문자;우수 사례;orderid;orderTotal;mbox3rdPartyID;카테고리;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 정보입니다.
 title: 제한
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
 
 ---
 
@@ -107,14 +107,38 @@ AP(자동화된 개인화) 활동당 30,000개 경험.
 
 **제한**: mbox 매개 변수에는 다음과 같은 제한이 적용됩니다.
 
+표준 mbox 호출의 경우:
 * mbox 매개 변수: mbox당 500개 매개 변수.
-* 프로필 매개 변수: 500개 매개 변수.
-* mbox당 프로필 매개 변수:
+* 프로필 매개 변수:mbox당 500개의 매개 변수 프로필 매개 변수
 * 기타 매개 변수(URL, 참조 URL 등): 각 매개 변수 유형에 대해 mbox당 50.
 
-Target 데이터베이스에 기록되는 매개 변수의 경우 위의 제한은 표준 mbox 요청에 해당됩니다. 웹 브라우저 제한으로 인해 요청이 축소되지 않는 한 이러한 제한이 적용됩니다.
+웹 브라우저 제한으로 인해 요청이 축소되지 않는 한 이러한 제한이 적용됩니다.
 
-모바일 서비스 SDK에서 [배치 배달 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)를 사용하는 경우 50개의 mbox 매개 변수, 50개의 프로필 매개 변수 및 50개의 다른 매개 변수 유형에 대한 제한은 API 자체의 제한입니다. 배치 배달 API를 사용하여 이들 번호를 더 많이 포함하는 요청을 보낼 수 없습니다. 요청에 이보다 더 많은 제한이 포함된 경우 API가 다음 오류 메시지를 반환합니다."mboxParameters 수는 100을 초과할 수 없습니다."
+모바일 서비스 SDK에서 [배치 배달 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)를 사용하는 경우 50개의 mbox 매개 변수, 50개의 프로필 매개 변수 및 50개의 다른 매개 변수 유형에 대한 제한은 API 자체의 제한입니다. 배치 배달 API를 사용하여 이들 번호를 더 많이 포함하는 요청을 보낼 수 없습니다. 요청에 이러한 제한보다 많은 수가 포함된 경우 API는 다음 오류 메시지를 반환합니다.
+
+"mboxParameters 수는 50개를 초과할 수 없습니다."
+
+끝점에 대해 설정된 제한:
+
+mbox v2 일괄 처리:
+* mbox 매개 변수 100
+* mbox 매개 변수 이름 최대 길이 128
+* mbox 매개 변수 값은 null일 수 없습니다.
+* mbox 매개 변수 값 5000
+* 프로필 매개 변수 50
+* 프로필 매개 변수 이름 최대 길이 128
+* 프로필 매개 변수 값은 null일 수 없습니다.
+* 프로필 매개 변수 값 최대 길이 256
+
+배달 API 끝점
+* mbox 매개 변수 50
+* mbox 매개 변수 이름 최대 길이 128
+* mbox 매개 변수 값은 null일 수 없습니다.
+* mbox 매개 변수 값 5000
+* 프로필 매개 변수 50
+* 프로필 매개 변수 이름 최대 길이 128
+* 프로필 매개 변수 값은 null일 수 없습니다.
+* 프로필 매개 변수 값 최대 길이 256
 
 ## mbox 요청 URL
 
