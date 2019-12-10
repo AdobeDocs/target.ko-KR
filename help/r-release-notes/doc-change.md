@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -18,6 +18,8 @@ source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 12월 10일 | [타겟 제한](/help/r-troubleshooting-target/target-limits.md) | mbox 매개 변수 섹션이 업데이트되었습니다. |
+|  | [기준](/help/c-recommendations/c-algorithms/algorithms.md) | 기준 사용 기능에 대한 지원에 대한 참고가 추가되었습니다. |
 | 2019년 12월 5일 | [사이트 페이지](/help/c-target/c-audiences/c-target-rules/site-pages.md) | 주제가 업데이트됨. |
 | 2019년 12월 2일 | [위치 서비스 사용](/help/c-target-mobile-app/use-location-service.md) | 새 주제입니다.  |
 | 2019년 11월 26일 | [at.js에서 플리커를 관리하는 방법](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | at.js를 비동기식으로 로드할 때 "깜박임 관리"에서 텍스트가 업데이트되었습니다. |
