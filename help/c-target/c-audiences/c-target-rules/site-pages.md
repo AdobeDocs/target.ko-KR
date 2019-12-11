@@ -5,7 +5,7 @@ title: Adobe Target의 사이트 페이지
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -32,7 +32,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
       이 옵션을 선택하면 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * URL
+      * URL(Target이 URL을 평가하는 방법에 대한 자세한 내용은 대상 및 대상 [FAQ를 참조하십시오](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * 도메인
       * 쿼리
       * 하위 도메인
@@ -43,7 +43,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
       이 옵션을 선택하면 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * URL
+      * URL(Target이 URL을 평가하는 방법에 대한 자세한 내용은 대상 및 대상 [FAQ를 참조하십시오](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * 도메인
       * 쿼리
       * 하위 도메인
@@ -53,7 +53,7 @@ source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
       이 옵션을 선택하면 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * URL
+      * URL(Target이 URL을 평가하는 방법에 대한 자세한 내용은 대상 및 대상 [FAQ를 참조하십시오](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * 도메인
       * 쿼리
       * 하위 도메인
