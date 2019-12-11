@@ -1,11 +1,11 @@
 ---
-keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;타겟;대상
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: 경험 타깃팅 및 대상에 대한 FAQ 목록
 title: Target 및 대상 FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -13,6 +13,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 # Target 및 대상 FAQ{#targets-and-audiences-faq}
 
 경험 타깃팅 및 대상에 대한 FAQ 목록
+
+## Target은 타깃팅에서 URL을 어떻게 평가합니까? {#url}
+
+Target은 활동을 만들 때 대상 URL 타깃팅을 사용할지 또는 대상을 만들 때 URL 타깃팅을 사용할지 여부에 따라 URL을 다르게 평가합니다.
+
+다음 URL을 고려하십시오.
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**대상 URL 타깃팅**:활동을 만드는 동안 대상 URL 타깃팅을 적용하려면 경험 페이지(3단계 안내 워크플로우 중 하나)에서 톱니바퀴 아이콘을 클릭하고 페이지 배달을 클릭한 다음 원하는 URL을 지정합니다.
+
+![페이지 배달 URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+대상 URL 타깃팅이 정확한 URL 일치를 찾습니다. URL 파섹 위 URL에서 활동이 실행되도록 설정된 경우 대상 URL 타깃팅이 쿼리에 `www.example.com`관계없이 URL과 일치합니다.
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+URL에 대한 대상 타깃팅 외에도 쿼리에 사용할 수 있는 특정 값을 지정할 수 있는 것이 좋습니다.
+
+**URL 타깃팅**:대상을 만드는 동안 URL 타깃팅을 적용하려면 규칙 추가를 클릭하고 사이트 페이지를 클릭하고 첫 번째 드롭다운 목록(현재 페이지, 이전 페이지 또는 랜딩 페이지)에서 옵션을 선택하고 두 번째 드롭다운 목록에서 URL을 선택한 다음 원하는 URL을 지정합니다.
+
+![사이트 페이지 &gt; 현재 페이지 &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+URL 타깃팅은 URL을 평가할 규칙 세트로 변환합니다.
+
+* URL 도메인 = `example.com`
+* 경로 = path1/path2/path3
+* queryStringParam1 = test123
+* queryStringParam2 = test7
 
 ## 복잡한 URL 문자열을 만들 때 전체 URL을 [!DNL Target] 평가합니까?
 
