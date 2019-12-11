@@ -1,10 +1,10 @@
 ---
-keywords: 템플릿 테스트;템플릿;유사한 페이지의 동일한 경험;템플릿 테스트
+keywords: template testing;template;same experience on similar pages;template test
 description: 페이지 템플릿을 사용하여 페이지에 구조를 지정하거나 페이지에 유사한 요소들이 있는 경우, 이 기능을 사용하면 구조가 유사한 페이지 요소에서 변형을 테스트할 수 있습니다.
 title: 유사한 페이지에 동일한 경험 포함
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 페이지 범위를 지정합니다. 페이지 범위는 다음 중 하나일 수 있습니다.
 
-   * URL
+   * URL (Target이 URL을 평가하는 방법에 대한 자세한 내용은 타겟 및 [대상 FAQ를 참조하십시오](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * 도메인
    * 경로
    * 해시(#) 조각(# 기호 뒤에 오는 URL 일부를 대상으로 지정)
