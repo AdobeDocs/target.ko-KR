@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2019년 12월 11일 | [Target 및 대상 FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 추가된 새로운 FAQ:"Target은 타깃팅에서 URL을 어떻게 평가합니까?" |
 | 2019년 12월 10일 | [타겟 제한](/help/r-troubleshooting-target/target-limits.md) | mbox 매개 변수 섹션이 업데이트되었습니다. |
 |  | [기준](/help/c-recommendations/c-algorithms/algorithms.md) | 기준 사용 기능에 대한 지원에 대한 참고가 추가되었습니다. |
 | 2019년 12월 5일 | [사이트 페이지](/help/c-target/c-audiences/c-target-rules/site-pages.md) | 주제가 업데이트됨. |
