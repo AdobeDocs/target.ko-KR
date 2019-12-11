@@ -4,7 +4,7 @@ description: Adobe Target Recommendations의 기준은 미리 결정된 방문�
 title: Adobe Target Recommendations의 기준
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
+source-git-commit: 5f71efe3c5e429809a3ba7a400c91c8aa3b6c14e
 
 ---
 
@@ -109,4 +109,4 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 >[!NOTE]
 >
->알고리즘 사용 기능은 현재 Recommendations 활동에 대해서만 지원됩니다. 이 기능은 현재 A/B 테스트 및 경험 타깃팅(XT) 활동을 지원하지 않습니다.
+>알고리즘 [!UICONTROL 사용] 기능은 현재 Recommendations 활동에서만 지원됩니다. 이 기능은 현재 오퍼로 [권장 사항을](/help/c-recommendations/recommendations-as-an-offer.md)포함하는 A/B 테스트 및 경험 타깃팅(XT) 활동에 대해 지원되지 않습니다.
