@@ -5,7 +5,7 @@ title: Target 및 대상 FAQ
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -22,7 +22,9 @@ Target은 활동을 만들 때 대상 URL 타깃팅을 사용할지 또는 대�
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-**대상 URL 타깃팅**:활동을 만드는 동안 대상 URL 타깃팅을 적용하려면 경험 페이지(3단계 안내 워크플로우 중 하나)에서 톱니바퀴 아이콘을 클릭하고 페이지 배달을 클릭한 다음 원하는 URL을 지정합니다.
+### 대상 URL 타깃팅
+
+활동을 만드는 동안 대상 URL 타깃팅을 적용하려면 경험 페이지(3단계 안내 워크플로우 중 하나)에서 톱니바퀴 아이콘을 클릭하고 페이지 배달을 클릭한 다음 원하는 URL을 지정합니다.
 
 ![페이지 배달 URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -32,9 +34,11 @@ Target은 활동을 만들 때 대상 URL 타깃팅을 사용할지 또는 대�
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-URL에 대한 대상 타깃팅 외에도 쿼리에 사용할 수 있는 특정 값을 지정할 수 있는 것이 좋습니다.
+URL에 대한 대상 타깃팅 외에도 쿼리에 사용할 수 있는 특정 값을 지정할 수 있습니다.
 
-**URL 타깃팅**:대상을 만드는 동안 URL 타깃팅을 적용하려면 규칙 추가를 클릭하고 사이트 페이지를 클릭하고 첫 번째 드롭다운 목록(현재 페이지, 이전 페이지 또는 랜딩 페이지)에서 옵션을 선택하고 두 번째 드롭다운 목록에서 URL을 선택한 다음 원하는 URL을 지정합니다.
+### URL 타깃팅
+
+대상을 만드는 동안 URL 타깃팅을 적용하려면 규칙 추가를 클릭하고 사이트 페이지를 클릭하고 첫 번째 드롭다운 목록(현재 페이지, 이전 페이지 또는 랜딩 페이지)에서 옵션을 선택하고 두 번째 드롭다운 목록에서 URL을 선택한 다음 원하는 URL을 지정합니다.
 
 ![사이트 페이지 &gt; 현재 페이지 &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
