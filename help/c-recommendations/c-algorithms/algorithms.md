@@ -4,7 +4,7 @@ description: Adobe Target Recommendations의 기준은 미리 결정된 방문�
 title: Adobe Target Recommendations의 기준
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 980e446a73e30e06d79b7c73e6102c6e32930481
 
 ---
 
@@ -105,8 +105,8 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 **[!UICONTROL 알고리즘 사용]탭을 클릭하여 선택한 기준을 참조하는 활동 목록을 표시합니다.** 카드에 활성 및 비활성 활동이 나열됩니다. 라이브 활동 또는 활동 없음 드롭다운 목록을 클릭하여 해당 기준을 참조하는 전체 활동 목록을 표시합니다. 활동 링크를 클릭하여 편집할 활동을 열 수 있습니다.
 
-![기준 사용 탭](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
+![알고리즘 사용 탭](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->기준 사용 기능은 현재 Recommendations 활동에서만 지원됩니다. A/B 테스트 및 경험 타깃팅(XT 파섹) 활동은 현재 지원되지 않습니다.
+>알고리즘 사용 기능은 현재 Recommendations 활동에 대해서만 지원됩니다. 이 기능은 현재 A/B 테스트 및 경험 타깃팅(XT) 활동을 지원하지 않습니다.
