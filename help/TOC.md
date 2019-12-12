@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
@@ -197,7 +197,7 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
          + [A/B 테스트의 여러 경험 대상](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 자동 할당 {#auto-allocate}
       + [자동 할당](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-      + [승자 결정](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner.md)
    + [자동 타깃팅](c-activities/auto-target-to-optimize.md)
    + 자동화된 개인화 {#automated-personalization}
       + [자동화된 개인화 개요](c-activities/t-automated-personalization/automated-personalization.md)
