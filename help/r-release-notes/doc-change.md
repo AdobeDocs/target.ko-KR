@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
@@ -19,6 +19,7 @@ source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2019년 12월 12일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 업데이트된 FAQ 섹션. |
+|  | [자동 할당 보고서 해석](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 항목의 이름을 바꾸고 다음 섹션을 추가했습니다."자동 할당 활동에서 향상도 및 신뢰도 보고를 이해합니다." |
 | 2019년 12월 11일 | [Target 및 대상 FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 추가된 새로운 FAQ:"Target은 타깃팅에서 URL을 어떻게 평가합니까?" |
 | 2019년 12월 10일 | [타겟 제한](/help/r-troubleshooting-target/target-limits.md) | mbox 매개 변수 섹션이 업데이트되었습니다. |
 |  | [기준](/help/c-recommendations/c-algorithms/algorithms.md) | 기준 사용 기능에 대한 지원에 대한 참고가 추가되었습니다. |
