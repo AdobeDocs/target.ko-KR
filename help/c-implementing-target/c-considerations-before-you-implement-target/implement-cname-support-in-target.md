@@ -1,11 +1,11 @@
 ---
-keywords: 클라이언트 지원;cname;인증서 프로그램;표준 이름;쿠키;인증서;amc;adobe 관리 인증서;digicert;도메인 제어 유효성 검사;dcv
+keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
 description: Adobe Target에서 CNAME(표준 이름) 지원을 구현하기 위한 Adobe Client Care 작업 정보입니다.
 title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 872e2329e7954453b5c8bd4f4885b94f1b02fd1f
+source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
 
 ---
 
@@ -65,6 +65,14 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 ### 에 대한 CNAME 구현이 이미 있습니다. [!DNL Adobe Analytics]동일한 인증서 또는 호스트 이름을 사용할 수 있습니까?
 
 아니요. [!DNL Target] 별도의 호스트 이름과 인증서가 필요합니다.
+
+### 현재 Target 구현이 ITP 2.1 또는 2.2의 영향을 받습니까?
+
+Safari 브라우저에서 Target JavaScript 라이브러리가 있는 웹 사이트로 이동합니다. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.1 or 2.2.
+
+Analytics CNAME만 있는 Target에 대해 ITP 문제를 해결할 수 있습니다. Target이 차단되는 광고 차단 시나리오의 경우에만 별도의 Target CNAME이 필요합니다.
+
+ITP에 대한 자세한 내용은 Apple Intelligent [Tracking Prevention(ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)를 참조하십시오.
 
 ### CNAME 구현이 트래픽을 위해 준비되었는지 어떻게 확인할 수 있습니까?
 
