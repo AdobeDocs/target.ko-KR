@@ -1,11 +1,11 @@
 ---
-keywords: 릴리스 정보;새 기능;릴리스;업데이트;업데이트;릴리스;개선;개선 사항;수정 사항;버그 수정
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
 description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
 title: 'Adobe Target 릴리스 노트(현재) '
-topic: 권장 사항
+topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
+source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 이러한 릴리스 노트는 Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 또한 Target API, SDK, JavaScript 라이브러리(at.js) 및 기타 플랫폼 변경 사항에 대한 릴리스 노트도 포함되어 있습니다(해당되는 경우).
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+## Target Java SDK 버전 1.1.0(2019년 12월 16일)
+
+* @hisham-hassan의 오픈 소스 기여도로 인해 프록시 구성에 대한 지원이 추가되었습니다.
+
+자세한 내용은 릴리스 노트 - [Target Java SDK를 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
 
 ## Target Java SDK 버전 1.0.1(2019년 11월 11일)
 
