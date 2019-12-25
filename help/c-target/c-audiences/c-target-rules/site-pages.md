@@ -5,7 +5,7 @@ title: Adobe Target의 사이트 페이지
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ---
 
@@ -14,13 +14,13 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 사이트의 특정 페이지에 있는 방문자를 타깃팅할 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상자]**>**[!UICONTROL &#x200B;대상자 만들기]**를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 사이트 페이지]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 규칙 추가]**>**[!UICONTROL &#x200B;사이트 페이지]**를 클릭합니다.
 
    ![사이트 페이지 대상](assets/target_site_pages.png)
 
-1. 선택 **[!UICONTROL 드롭다운]** 목록을 클릭하고 다음 옵션 중 하나를 선택한 다음 원하는 대로 규칙을 구성합니다.
+1. 선택 **[!UICONTROL 드롭다운]**목록을 클릭하고 다음 옵션 중 하나를 선택한 다음 원하는 대로 규칙을 구성합니다.
 
    규칙의 후속 드롭다운 목록에서 사용할 수 있는 옵션 및 평가기는 선택한 옵션에 따라 달라집니다. 다음 그림은 현재 페이지를 선택하는 경우 사용 가능한 옵션을 [!UICONTROL 보여줍니다].
 
@@ -99,7 +99,7 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
       * 경고
    [현재 페이지 ,]이전 페이지 [!UICONTROL 또는]랜딩 페이지를 [!UICONTROL 선택한]경우 [!UICONTROL DomainDomain 및]  QualifyQuery 옵션을 사용할 수 있습니다. 이러한 옵션을 선택할 때는 다음 사항을 고려하십시오.
 
-   * **도메인:**&#x200B;페이지의 전체 도메인. 도메인을 지정할 때는 "contains"를 사용하는 것이 좋습니다. 예를 들어, "Domain equals facebook.com"(도메인이 facebook.com과 같음)은 `m.facebook.com`이나 `www.facebook.com`을 허용하지 않지만, "Domain contains facebook.com"(도메인이 facebook.com 포함)은 facebook.com의 모든 변형을 허용합니다.
+   * **도메인:**&#x200B;페이지의 전체 도메인. 도메인을 지정할 때는 &quot;contains&quot;를 사용하는 것이 좋습니다. 예를 들어, &quot;Domain equals facebook.com&quot;(도메인이 facebook.com과 같음)은 `m.facebook.com`이나 `www.facebook.com`을 허용하지 않지만, &quot;Domain contains facebook.com&quot;(도메인이 facebook.com 포함)은 facebook.com의 모든 변형을 허용합니다.
    * **쿼리:**&#x200B;첫 번째 물음표(?) 다음의 URL 콘텐츠입니다. 
 
       `foo.html?e0a72cb2a2c7`
@@ -108,10 +108,10 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 
 
-1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. (선택 사항) **[!UICONTROL 규칙 추가]**를 클릭하고 대상에 대한 추가 규칙을 설정합니다.
+1. **[!UICONTROL 저장]**을 클릭합니다.
 
-자신만의 "사용자 정의 쿼리 매개 변수" 또는 "사용자 정의 헤더"를 사용하여 사이트 페이지 대상을 만들 수도 있습니다.
+자신만의 &quot;사용자 정의 쿼리 매개 변수&quot; 또는 &quot;사용자 정의 헤더&quot;를 사용하여 사이트 페이지 대상을 만들 수도 있습니다.
 
 아래 그림과 같이
 
@@ -132,6 +132,12 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
    * 랜딩 [페이지 활동](/help/c-activities/t-test-ab/test-ab.md) 대신 A/B 테스트 활동을 사용합니다. A/B 테스트 활동은 동일한 방문자에 대한 경험을 전환하지 않습니다.
    * 대신 [방문자 프로필을](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) 사용하십시오.
 
+* 쉼표를 포함하는 문자열에서 &quot;다음으로 시작/종료&quot;를 사용하는 경우 각 값이 쉼표로 구분된 값 배열로 평가된다는 점을 유의하십시오. 예를 들어 헤더에 대한 값이 있는 경우다음과 같은 조건을 확인합니다. `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7`
+   * zh로 시작,
+   * 다음으로 시작,
+   * 0.7,
+   * 0.8로 끝남.
+
 ## 교육 비디오: 대상 만들기
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
@@ -139,4 +145,4 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
