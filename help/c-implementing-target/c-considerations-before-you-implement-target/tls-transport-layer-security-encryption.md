@@ -1,11 +1,11 @@
 ---
-keywords: tls;tls 1.0;transport layer security;encryption
+keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: Adobe 및 Target에서 TLS(전송 계층 보안)를 사용하여 가장 높은 보안 표준을 유지 관리하고 고객 데이터의 안전을 강화하는 방법과 관련된 변경 사항에 대한 정보입니다.
 title: TLS(전송 계층 보안) 암호화 변경 사항
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 1a502cc9c235ee765f24f04acf60b6fd75c369dc
+source-git-commit: 0cd553316d43e78e23c268de20871150dcc1cc85
 
 ---
 
@@ -18,25 +18,25 @@ TLS(전송 계층 보안)는 네트워크를 통해 데이터를 안전하게 �
 
 >[!IMPORTANT]
 >
->2020년 2월 이후 Adobe Target은 VEC(Visual Experience Composer), EEC(Enhanced Experience Composer), 활동 전달, API 등에 대한 TLS 1.1 암호화를 더 이상 지원하지 않습니다. 문제를 방지하려면 2002년 2월 전에 TLS 1.2로 업그레이드하십시오.
+>2020년 3월 1일 이후 Adobe Target은 VEC(Visual Experience Composer), EEC(Enhanced Experience Composer), 활동 전달, API 등에 대한 TLS 1.1 암호화를 더 이상 지원하지 않습니다. 문제를 방지하려면 2002년 3월 1일 전에 TLS 1.2로 업그레이드하십시오.
 
 이렇게 해도 고객 데이터 또는 보고에 큰 영향을 주지는 않습니다.
 
 ## EEC(향상된 경험 작성기)를 사용한 VEC(시각적 경험 작성기){#section_B374B62DEC3344C194AC7BECC2EE0AA0}
 
-지금까지 Adobe Target의 EEC([ Enhanced Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D))는 기본적으로 TLS 1.0을 사용했습니다. 2020년 2월 이후 Target은 기본적으로 TLS 1.2로 이동합니다.
+지금까지 Adobe Target의 EEC([ Enhanced Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D))는 기본적으로 TLS 1.1을 사용했습니다. 2020년 3월 1일 이후 Target은 기본적으로 TLS 1.2로 이동합니다.
 
-Adobe는 단계적으로 고객을 TLS1.2.로 전환합니다. 이미 1.2 규격 도메인을 사용하는 고객은 별도로 변경할 필요 없이 TLS 1.2로 전환됩니다. 대부분의 고객 도메인이 이미 TLS 2020를 지원하지만, TLS 1.2를 지원하지 않는 도메인은 오늘과 같이 TLS 1.0에서 해당 도메인을 유지합니다(2019년 2월까지).
+Adobe는 단계적으로 고객을 TLS1.2.로 전환합니다. 이미 1.2 규격 도메인을 사용하는 고객은 별도로 변경할 필요 없이 TLS 1.2로 전환됩니다. 대부분의 고객 도메인은 이미 TLS 1.2를 지원합니다.그러나 도메인이 TLS 1.2를 지원하지 않는 경우 Adobe는 이러한 도메인을 오늘과 같이 TLS 1.1에 보관합니다(2020년 3월까지).
 
 이 마이그레이션 단계 중에는 문제가 발생하지 않아야 합니다. VEC가 이전에 작업하던 사이트 로드를 중지한 경우 이 마이그레이션을 가능한 원인으로 인용한 [Client Care 티켓을 여십시오](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-그러나 TLS 2020를 지원하지 않는 TLS 1.0 고객인 경우에는 도메인/인프라를 TLS 1.2로 이동해야 합니다. 2019년 2월까지는 TLS 1.0 프로토콜을 계속 지원할 예정입니다. 2020년 2월부터 Target은 향상된 환경 편집기 기능을 통해 VEC에 사용할 TLS 1.0 프로토콜을 지원하지 않습니다.
+그러나 TLS 1.2를 지원하지 않고 TSL 1.1을 사용하는 고객인 경우 도메인/인프라를 TLS 1.2로 이동할 계획을 세워야 합니다.2020년 3월까지 TLS 1.1 프로토콜을 계속 지원할 예정입니다. 2020년 3월부터 Target은 향상된 Experience Composer 기능을 통해 VEC에 사용할 TLS 1.1 프로토콜을 지원하지 않습니다.
 
-모든 고객이 앞으로 TLS 1.2를 사용할 것을 권장하지만, TLS 1.2를 지원하지 *않는* 새로운 고객은 고객 지원에 연락하여 향상된 경험 작성기를 위해 TLS 1.0을 사용해야 한다고 알리십시오. 하지만 2020년 2월 이후에는 지원을 받을 수 없으므로 TLS 1.2로 전환하십시오.
+모든 고객이 앞으로 TLS 1.2를 사용할 것을 권장하지만, TLS 1.2를 지원하지 *않는* 새로운 고객은 고객 지원에 연락하여 향상된 경험 작성기를 위해 TLS 1.1을 사용해야 한다고 알리십시오. 그러나 2020년 3월 1일 이후로도 지원되지 않으므로 TLS 1.2로 전환하십시오.
 
 ## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
 
-2020년 2월부터 Target 서버는 더 이상 TLS 1.0을 지원하지 않습니다. 이 변경으로 Target 서버는 TLS 1.1 이상을 지원하지 않는 이전 장치 또는 웹 브라우저를 사용하는 최종 사용자의 요청을 더 이상 수락하지 않습니다. 따라서 TLS 1.0만 지원하거나 기본적으로 TLS 1.0을 지원하는 이전 장치 및 브라우저는 Adobe Target에서 활동 컨텐츠를 받지 않습니다. 사이트의 기본 컨텐츠가 렌더링됩니다.
+2020년 3월 1일부터 Target 서버는 더 이상 TLS 1.1을 지원하지 않습니다.이 변경 사항으로 Target 서버는 더 이상 TLS 1.1 이상을 지원하지 않는 이전 장치 또는 웹 브라우저가 있는 최종 사용자의 요청을 수락하지 않습니다. 따라서 TLS 1.1만 지원하거나 기본적으로 TLS 1.1을 지원하는 이전 장치 및 브라우저는 Adobe Target에서 활동 컨텐츠를 받지 않습니다. 사이트의 기본 컨텐츠가 렌더링됩니다.
 
 영향을 받는 일부 이전 장치 및 브라우저는 다음과 같습니다.
 
@@ -45,17 +45,17 @@ Adobe는 단계적으로 고객을 TLS1.2.로 전환합니다. 이미 1.2 규격
 * Windows Phone 8.0의 Internet Explorer 10
 * Safari 6.0.4/OS X10.8.4 및 이전 버전
 
-이 변경을 계획할 때 다음 사항을 고려하십시오(2020년 2월 최종 기한은 이러한 모든 항목에 영향을 줌).
+이 변경 사항에 대해 계획할 때는 다음 사항을 고려하십시오(2020년 3월 1일 마감일은 이러한 모든 항목에 영향을 줍니다).
 
 * 기본 사이트가 호환 장치 및 브라우저를 구입할 준비가 되었는지 확인해야 합니다.
 * Target 보고서의 방문자 수는 방문자 수가 잠재적으로 약간 줄어들 수 있습니다.
-* 브라우저가 더 이상 작동하지 않는 장치로 TLS 1.0 배달을 지원하지 않는 이전 장치나 브라우저를 목적으로 만들어진 대상을 변경해야 할 수도 있습니다.
+* 브라우저가 더 이상 작동하지 않는 장치로 TLS 1.1 배달을 지원하지 않는 이전 장치나 브라우저를 목적으로 만들어진 대상을 변경해야 할 수도 있습니다.
 
-지원되는 브라우저 및 해당 버전에 대한 자세한 내용은 [지원되는 브라우저](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 
-2020년 2월부터, Target API는 더 이상 TLS 1.0 암호화를 지원하지 않습니다. API에 액세스하는 고객은 자신들에게 영향이 없는지 확인해야 합니다.
+2020년 3월 1일부터 Target API는 더 이상 TLS 1.1 암호화를 지원하지 않습니다. API에 액세스하는 고객은 자신들에게 영향이 없는지 확인해야 합니다.
 
 * 기본 설정으로 Java 7을 사용하는 API 클라이언트는 TLS 1.2를 지원하도록 수정해야 합니다. 자세한 내용은 Java 웹 사이트에서 &quot;[Changing default TLS protocol version for client end points: TLS 1.0 to TLS 1.2](https://www.java.com/en/configure_crypto.html)&quot;(클라이언트 종단점에 대한 기본 TLS 프로토콜 버전 변경: TLS 1.0에서 TLS 1.2로)를 참조하십시오.
 * Java 8을 사용하는 API 클라이언트는 기본값 설정이 TLS 1.2이므로 영향을 받지 않아야 합니다.
