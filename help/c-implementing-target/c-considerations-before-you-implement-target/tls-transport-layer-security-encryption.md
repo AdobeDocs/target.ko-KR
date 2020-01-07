@@ -54,7 +54,7 @@ Adobe는 단계적으로 고객을 TLS1.2.로 전환합니다. 이미 1.2 규격
 * Target 보고서의 방문자 수는 방문자 수가 잠재적으로 약간 줄어들 수 있습니다.
 * TLS 1.2를 지원하지 않는 이전 디바이스 또는 브라우저를 대상으로 하도록 특별히 만들어진 대상을 변경해야 할 수 있습니다.이러한 장치 및 브라우저로의 배달은 더 이상 작동하지 않습니다.
 
-For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+지원되는 브라우저 및 해당 버전에 대한 자세한 내용은 [지원되는 브라우저](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 
