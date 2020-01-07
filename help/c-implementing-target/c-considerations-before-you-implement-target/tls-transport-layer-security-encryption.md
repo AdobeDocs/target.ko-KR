@@ -5,7 +5,7 @@ title: TLS(전송 계층 보안) 암호화 변경 사항
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: d227b22463ebf08d8f16c78a18d451723e4e6aee
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -18,7 +18,7 @@ TLS(전송 계층 보안)는 네트워크를 통해 데이터를 안전하게 �
 
 >[!IMPORTANT]
 >
->2020년 3월 1일 이후 Adobe Target은 VEC(Visual Experience Composer), EEC(Enhanced Experience Composer), 활동 전달, API 등에 대한 TLS 1.1 암호화를 더 이상 지원하지 않습니다. 문제를 방지하려면 2002년 3월 1일 전에 TLS 1.2로 업그레이드하십시오.
+>2020년 3월 1일 이후 Adobe Target은 VEC(Visual Experience Composer), EEC(Enhanced Experience Composer), 활동 전달, API 등에 대한 TLS 1.1 암호화를 더 이상 지원하지 않습니다. 문제를 방지하려면 2020년 3월 1일 전에 TLS 1.2로 업그레이드하십시오.
 
 이렇게 해도 고객 데이터 또는 보고에 큰 영향을 주지는 않습니다.
 
@@ -40,6 +40,9 @@ Adobe는 단계적으로 고객을 TLS1.2.로 전환합니다. 이미 1.2 규격
 
 영향을 받는 일부 이전 장치 및 브라우저는 다음과 같습니다.
 
+* Google Chrome(Android용 Chrome) 버전 29 및 이전 버전
+* Opera Browser(Opera Mobile) 버전 12.17 및 이전 버전
+* Mozilla Firefox(모바일용 Firefox) 26 및 이전 버전
 * Android 4.3 및 이전 버전
 * Windows 7 및 이전 버전의 Internet Explorer 8~10
 * Windows Phone 8.0의 Internet Explorer 10
