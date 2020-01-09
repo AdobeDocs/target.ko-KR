@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -18,7 +18,8 @@ source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2019년 1월 6일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 사용자 지정 기준 피드 상태에 대한 알려진 문제가 추가되었습니다. |
+| 2020년 1월 9일 | [TLS(전송 계층 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | 업데이트된 텍스트입니다.<br>2020년 3월 1일 이후 Adobe Target은 VEC(Visual Experience Composer), EEC(Enhanced Experience Composer), 활동 전달, API 등에 대한 TLS 1.1 암호화를 더 이상 지원하지 않습니다. 문제를 방지하려면 2020년 3월 1일 전에 TLS 1.2로 업그레이드하십시오. |
+| 2020년 1월 6일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 사용자 지정 기준 피드 상태에 대한 알려진 문제가 추가되었습니다. |
 | 2019년 12월 19일 | [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | 버전 1.1.0에 대한 정보가 추가되었습니다. |
 | 2019년 12월 12일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 업데이트된 FAQ 섹션. |
 |  | [자동 할당 보고서 해석](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 항목의 이름을 바꾸고 다음 섹션을 추가했습니다.&quot;자동 할당 활동에서 향상도 및 신뢰도 보고를 이해합니다.&quot; |
