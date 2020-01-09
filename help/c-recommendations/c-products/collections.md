@@ -1,10 +1,10 @@
 ---
-keywords: 컬렉션;타깃팅
+keywords: collection;Targeting
 description: 컬렉션은 추천에 적합한 Adobe Target의 제품 또는 항목 세트입니다.
 title: Adobe Target의 컬렉션
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 ---
 
@@ -35,19 +35,19 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 컬렉션을 만들어 권장 사항에 표시할 제품을 구성해 보십시오.
 
-1. **[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 컬렉션]**&#x200B;을 클릭하여 기존 컬렉션 목록을 표시합니다.
+1. **[!UICONTROL 권장 사항]**>**[!UICONTROL  컬렉션]**을 클릭하여 기존 컬렉션 목록을 표시합니다.
 
    ![컬렉션 목록](assets/collections_list.png)
 
-   [!UICONTROL 컬렉션][](/help/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 "항목 수"는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
+   [!UICONTROL 컬렉션][](/help/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
 
-1. **[!UICONTROL 컬렉션 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 컬렉션 만들기]**를 클릭합니다.
 
-1. (조건부) 컬렉션을 만들거나 업데이트하여 해당 환경에서 컬렉션의 컨텐츠를 미리 보는 동안 **[!UICONTROL 환경]** 필터에서 환경을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
+1. (조건부) 컬렉션을 만들거나 업데이트하여 해당 환경에서 컬렉션의 컨텐츠를 미리 보는 동안 **[!UICONTROL 환경]**필터에서 환경을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
    ![컬렉션 만들기](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. 컬렉션에 사용할 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
+1. 컬렉션에 사용할 **[!UICONTROL 이름]**을 입력합니다.
 
    원할 경우 **[!UICONTROL 설명을 입력할 수도 있습니다]**.
 
@@ -57,19 +57,19 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    여러 매개 변수를 사용하는 규칙을 추가하여 컬렉션을 정의할 수 있습니다. 여러 규칙을 AND로 결합합니다. 컬렉션을 적용하려면 지정된 모든 규칙이 일치해야 합니다.
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**을 클릭합니다.
 
 ## 고급 검색을 사용하여 컬렉션 만들기
 
-또한 [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md) 페이지의 고급 검색([!UICONTROL 추천] &gt; [!UICONTROL 카탈로그 검색] &gt; [!UICONTROL 고급 검색])을 사용하여 컬렉션을 만들 수도 있습니다.
+또한 [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md) 페이지의 고급 검색([!UICONTROL 추천] > [!UICONTROL 카탈로그 검색] > [!UICONTROL 고급 검색])을 사용하여 컬렉션을 만들 수도 있습니다.
 
-![다른 이름으로 저장](/help/c-recommendations/c-products/assets/save-as.png)
+![다른 이름으로 저장 대화 상자](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-예를 들어 "id &gt; 포함"을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] &gt; [!UICONTROL 컬렉션]을 클릭할 수 있습니다.
+예를 들어 &quot;id > 포함&quot;을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] > [!UICONTROL 컬렉션]을 클릭할 수 있습니다.
 
 >[!IMPORTANT]
 >
->고급 검색 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 컬렉션을 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, "Holiday"를 검색할 때 초기 검색 목록에는 "Holiday"와 "holiday"를 포함하는 결과가 나열됩니다. 그런 다음 "holiday"를 포함하는 제품을 반환할 의도로 카탈로그를 만드는 경우 "holiday"를 포함하는 제품만 반환됩니다. "Holiday"를 포함하는 제품은 반환되지 않습니다. 
+>고급 검색 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 컬렉션을 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 반환할 의도로 카탈로그를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 반환됩니다. &quot;Holiday&quot;를 포함하는 제품은 반환되지 않습니다. 
 
 ## 교육 비디오: 추천에서 컬렉션 및 제외 만들기(7:05)
 
@@ -78,4 +78,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
