@@ -4,7 +4,7 @@ description: Adobe Target의 카탈로그 검색은 카탈로그에서 제품이
 title: Adobe Target의 카탈로그 검색
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 1a1e1a0f2ff802ee630c47ceeb3241c55eb2cb65
+source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 ---
 
@@ -40,7 +40,7 @@ To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  
 
 카탈로그 검색 페이지의 고급 검색([!UICONTROL 추천] > [!UICONTROL 카탈로그 검색] > [!UICONTROL 고급 검색])을 사용하여 [컬렉션](/help/c-recommendations/c-products/collections.md)이나 [제외](/help/c-recommendations/c-products/exclusions.md)를 만들 수 있습니다.
 
-![다른 이름으로 저장 대화 상자](/help/c-recommendations/c-products/assets/save-as.png)
+![다른 이름으로 저장 대화 상자](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 예를 들어 &quot;id > 포함&quot;을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] > [!UICONTROL 컬렉션 또는 제외]를 클릭할 수 있습니다.
 
