@@ -1,10 +1,10 @@
 ---
-keywords: 응답형;모바일 뷰포트;뷰포트;장치;모바일 예제;iPhone
+keywords: responsive;mobile viewports;viewport;devices;mobile example;iphone
 description: 모바일 뷰포트는 다양한 크기의 화면에서 활동이 표시되는 방식을 미리 보는 데 유용합니다.
 title: 응답형 경험을 위한 모바일 뷰포트
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >
 >리디렉션 오퍼 오버레이와 겹칠 경우에는 모바일 뷰포트를 사용할 수 없습니다.
 
-뷰포트는 화면의 웹 페이지에 의해 채워진 사각형의 크기로 정의됩니다. 브라우저 창의 크기에서 스크롤바와 도구 모음을 뺀 크기입니다. 브라우저는 "CSS 픽셀"을 사용합니다. Retina 화면을 사용하는 장치와 같이 많은 장치의 경우, 뷰포트는 광고된 장치 해상도보다 작습니다.
+뷰포트는 화면의 웹 페이지에 의해 채워진 사각형의 크기로 정의됩니다. 브라우저 창의 크기에서 스크롤바와 도구 모음을 뺀 크기입니다. 브라우저는 &quot;CSS 픽셀&quot;을 사용합니다. Retina 화면을 사용하는 장치와 같이 많은 장치의 경우, 뷰포트는 광고된 장치 해상도보다 작습니다.
 
 다음은 인기 있는 일부 장치의 뷰포트와 해상도입니다. Target에서는 뷰포트 크기를 사용해야 합니다.
 
@@ -57,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | Samsung Galaxy Tab 10 | 800w x 1280h | 800w x 1280h |
 | Chromebook Pixel | 1280w x 850h | 2560w x 1700h |
 
-다양한 웹 사이트가 많이 사용되는 장치에 대한 뷰포트 크기 목록을 제공합니다. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
+다양한 웹 사이트가 많이 사용되는 장치에 대한 뷰포트 크기 목록을 제공합니다. 예를 들어 https://viewportsizer.com/devices/ [을](https://viewportsizer.com/devices/) 참조하거나 장치 제작자의 웹 사이트를 참조하십시오.
 
 특정 장치의 사용자에게 활동을 전달하려면 활동 다이어그램에서 해당 장치에 적합한 대상을 선택하십시오. 모바일 웹 작성기를 사용하여 해당 장치용 활동의 페이지를 편집하십시오. 전체 디지털 경험에서 활동을 실행하고 모든 장치에서 적절히 표시되는지 확인하려면 타깃팅을 적용하지 말고 모바일 뷰포트를 사용하여 각 화면 크기에서 활동을 미리 보십시오.
 
@@ -73,8 +73,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 경험을 만들 때 사용 가능하게 할 모바일 뷰포트를 구성하십시오.
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
-1. 계정 환경 설정 페이지의 모바일 뷰포트 구성 섹션에서 **[!UICONTROL 새로 추가]**&#x200B;를 클릭하여 모바일 뷰포트를 추가합니다.
+1. Click **[!UICONTROL Setup]**>**[!UICONTROL  Preferences]**.
+1. 계정 환경 설정 페이지의 모바일 뷰포트 구성 섹션에서 **[!UICONTROL 새로 추가]**를 클릭하여 모바일 뷰포트를 추가합니다.
 
    기존 모바일 뷰포트의 구성을 변경하려면 해당 뷰포트를 선택하고 편집(연필) 아이콘을 클릭합니다.
 
@@ -99,15 +99,15 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * Symbian
    * Blackberry
    [고급 경험 작성기](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)를 사용하고 운영 체제를 선택하는 경우, 페이지를 볼 때 Target에서 해당 장치를 에뮬레이트합니다. 예를 들어, 응답형 사이트에서 Android의 모양과 느낌이 iOS와 다른 경우 Target은 해당 동작을 모방합니다.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**을 클릭합니다.
 
 ## 응답형 경험 만들기 {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 모바일 화면을 위한 응답형 경험을 만들려면 모바일 뷰포트를 Target 활동에 추가하십시오.
 
 1. 활동을 만듭니다.
-1. 시각적 경험 작성기에서 **[!UICONTROL 설정]** 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL 모바일 뷰포트 추가]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 장치]** 아이콘을 클릭한 다음, 모바일 뷰포트가 필요한 각 장치를 활성화합니다.
+1. 시각적 경험 작성기에서 **[!UICONTROL 설정]**톱니바퀴 아이콘을 클릭하고**[!UICONTROL &#x200B;모바일 뷰포트 추가]**를 선택합니다.
+1. **[!UICONTROL 장치]**아이콘을 클릭한 다음, 모바일 뷰포트가 필요한 각 장치를 활성화합니다.
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 이 사용 사례에서는 Target Standard의 모바일 뷰포트 기능을 사용하여 iPhone 6과 iPhone 6 Plus, 이 두 가지 iPhone 버전을 위한 경험을 구성하는 방법을 보여줍니다.
 
-1. Target Standard에서 **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
+1. In Target Standard, click **[!UICONTROL Setup]**>**[!UICONTROL  Preferences]**.
 1. 기본 설정 페이지의 모바일 뷰포트 구성 섹션에서 iPhone 6 및 iPhone 6 plus에 대한 모바일 뷰포트를 만듭니다.
 
    각 뷰포트에 다음 설정을 사용합니다.
@@ -140,12 +140,12 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 타깃팅하려는 경험으로 활동을 만듭니다.
 1. iPhone 6 또는 iPhone 6 Plus에서 사이트에 액세스하는 방문자를 타깃팅하려는 경험을 선택합니다.
-1. 타겟을 선택할 때 **[!UICONTROL 대상 만들기]**&#x200B;를 클릭한 다음, 아래 그림과 같이 대상을 구성합니다.
+1. 타겟을 선택할 때 **[!UICONTROL 대상 만들기]**를 클릭한 다음, 아래 그림과 같이 대상을 구성합니다.
 
    ![](assets/iphoneaudiences.png)
 
    휴대폰은 가로로 회전할 수 있으므로 높이와 너비를 둘 다 320보다 크게 지정하면 iPhone 장치 모델과 결합할 때 6 및 6 Plus만 충족할 수 있는 조건이 동시에 생성됩니다.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**을 클릭합니다.
 1. 평소대로 활동을 계속 설정합니다.
 
 ## 교육 비디오
@@ -163,10 +163,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 응답형 웹 사이트용 경험 미리 보기 및 빌드
 * 오버레이를 사용하여 요소 유형을 강조 표시
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target의 계정 환경 설정
 
 이 비디오에는 계정 기본 설정에서 모바일 뷰포트를 설정하는 방법에 대한 정보가 포함되어 있습니다. 이 내용은 비디오의 4분 40초부터 시작됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17379?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17379)
