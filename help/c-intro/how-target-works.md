@@ -1,12 +1,12 @@
 ---
-keywords: 개요 및 참조;SEO;검색 엔진 최적화
+keywords: Overview and Reference;SEO;search engine optimization
 description: Adobe Target은 JavaScript 라이브러리 at.js 또는 mbox.js 중 하나를 통해 웹 사이트와 통합
 title: Adobe Target 작동 방식
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
@@ -97,7 +97,7 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
 
-Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센터에 호스팅됩니다. 관리 서버는 런던, 싱가포르를 포함하여 오레곤, 버지니아 등 미국 전역의 여러 지역에서 Adobe 소유 데이터 센터 내에 호스팅됩니다. 에지 서버는 런던, 홍콩, 싱가포르, 도쿄 및 시드니에 있는 Amazon AWS 데이터 센터의 Adobe 소유 서버와 Adobe 임대 서버에서 모두 호스팅됩니다.
+Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센터에 호스팅됩니다. 관리 서버는 런던, 싱가포르를 포함하여 오레곤, 버지니아 등 미국 전역의 여러 지역에서 Adobe 소유 데이터 센터 내에 호스팅됩니다. Edge Server는 런던, 중국 홍콩 SAR, 싱가포르, 도쿄 및 시드니에 있는 Amazon AWS 데이터 센터의 Adobe 소유 및 Adobe 임대한 서버에서 호스팅됩니다.
 
 관리 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 있습니다. 에지 사이트 위치에는 데이터 수집 센터만 있습니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
 
@@ -105,7 +105,7 @@ Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target]은 현재 중국에는 에지 네트워크가 없기 때문에 중국 [!DNL Target] 고객의 경우 최종 사용자 성능이 계속 제한됩니다. 만리 방화벽(Great Firewall) 및 국가 내 에지 노드가 부족하기 때문에 [!DNL Target]이 배포된 사이트의 경험이 느리게 렌더링 되고 페이지 로드에 영향을 줍니다. 또한, 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
+>[!DNL Adobe Target]은 현재 중국에는 에지 네트워크가 없기 때문에 중국 [!DNL Target] 고객의 경우 최종 사용자 성능이 계속 제한됩니다. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -137,9 +137,9 @@ Google에서는 사용자 테스트를 권장하고 있으며 A/B 및 다변량 
 
 * **클로킹 없음** - 클로킹(Cloaking)은 사용자와 검색 엔진 봇을 명확히 구별하여 양측에 의도적으로 서로 다른 콘텐츠를 공급함으로써 사용자에게 표시하는 콘텐츠 세트와 검색 엔진 봇에게 표시하는 콘텐츠 세트를 달리하는 것입니다.
 
-   플랫폼인 Target은 검색 엔진 봇을 사용자와 동일하게 처리하도록 구성되었습니다. 이것은 봇이 임의로 선택되는 경우 실행 중인 테스트에 포함될 수 있으며, 테스트 변형을 "볼" 수 있음을 의미합니다.
+   플랫폼인 Target은 검색 엔진 봇을 사용자와 동일하게 처리하도록 구성되었습니다. 이것은 봇이 임의로 선택되는 경우 실행 중인 테스트에 포함될 수 있으며, 테스트 변형을 &quot;볼&quot; 수 있음을 의미합니다.
 
-* **rel="canonical" 사용** - 때로 다양한 변형에 대한 다양한 URL을 사용하여 A/B 테스트를 설정해야 합니다. 이러한 경우, 모든 변형은 원래(통제) URL을 참조하는 `rel="canonical"` 태그를 포함해야 합니다. 예를 들어, Adobe가 각 변형에 대해 서로 다른 URL을 사용하여 홈 페이지를 테스트하는 경우 홈 페이지에 대한 다음 대표(canonical) 태그는 각 변형에 대해 `<head>` 태그 안으로 들어갈 것입니다.
+* **rel=&quot;canonical&quot; 사용** - 때로 다양한 변형에 대한 다양한 URL을 사용하여 A/B 테스트를 설정해야 합니다. 이러한 경우, 모든 변형은 원래(통제) URL을 참조하는 `rel="canonical"` 태그를 포함해야 합니다. 예를 들어, Adobe가 각 변형에 대해 서로 다른 URL을 사용하여 홈 페이지를 테스트하는 경우 홈 페이지에 대한 다음 대표(canonical) 태그는 각 변형에 대해 `<head>` 태그 안으로 들어갈 것입니다.
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
@@ -149,21 +149,21 @@ Google에서는 사용자 테스트를 권장하고 있으며 A/B 및 다변량 
 
    Adobe는 검색 엔진 지침에 완전히 부합하는 실행 가능한 해결 방법을 계속 찾겠지만, 테스트를 위해 별도의 URL을 사용해야 하는 클라이언트를 위해, 위에 언급된 대표(canonical ) 태그를 적절히 구현하면 이러한 접근 방식과 연관된 위험이 완화된다고 확신하고 있습니다.
 
-* **필요한 동안만 실험 실행** - Adobe에서는 "필요한 동안"을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. Target에서는 테스트가 이 시점에 도달했을 때를 판별하는 [우수 사례를 제공합니다](https://docs.adobe.com/content/target-microsite/testcalculator.html). 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로우에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
+* **필요한 동안만 실험 실행** - Adobe에서는 &quot;필요한 동안&quot;을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. Target에서는 테스트가 이 시점에 도달했을 때를 판별하는 [우수 사례를 제공합니다](https://docs.adobe.com/content/target-microsite/testcalculator.html). 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로우에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
 
-   Target 플랫폼을 사용하여 가장 성과가 좋은 테스트를 "게시"하는 것은 영구적인 해결 방법으로 권장되지 않지만, 가장 성과가 좋은 테스트를 테스트 내내 100%의 사용자에 대해 게시하는 한 가장 성과가 좋은 테스트를 하드코딩하는 프로세스가 완료된 동안 이 접근 방식을 사용할 수 있습니다.
+   Target 플랫폼을 사용하여 가장 성과가 좋은 테스트를 &quot;게시&quot;하는 것은 영구적인 해결 방법으로 권장되지 않지만, 가장 성과가 좋은 테스트를 테스트 내내 100%의 사용자에 대해 게시하는 한 가장 성과가 좋은 테스트를 하드코딩하는 프로세스가 완료된 동안 이 접근 방식을 사용할 수 있습니다.
 
    테스트가 변경한 사항을 고려하는 것도 중요합니다. 페이지에 있는 단추나 기타 부수적인 비텍스트 기반 항목의 색상을 단순히 업데이트하는 것은 자연 순위에는 영향을 주지 않습니다. 하지만, 텍스트 변경 사항은 하드코딩해야 합니다.
 
    또한 테스트 중인 페이지의 액세서빌러티를 고려하는 것도 중요합니다. 이메일 캠페인 전용 랜딩 페이지와 같은 페이지가 검색 엔진에 액세스할 수 없고 자연 검색에서 1위를 하도록 설계되지 않은 경우에는 위의 고려 사항이 적용되지 않습니다.
 
-Google에서는 이러한 지침을 따르는 것이 "테스트에서 검색 결과에 있는 여러분의 사이트에 영향을 거의 주지 않거나 전혀 주지 않는다"고 명시합니다.
+Google에서는 이러한 지침을 따르는 것이 &quot;테스트에서 검색 결과에 있는 여러분의 사이트에 영향을 거의 주지 않거나 전혀 주지 않는다&quot;고 명시합니다.
 
 Google에서는 이 지침 외에도 콘텐츠 실험 도구에 대해 설명서에서 다음과 같은 지침을 하나 더 제공합니다.
 
 * 대안 페이지는 원본 페이지의 콘텐츠와 본질적인 측면에서 동일해야 합니다. 원본 콘텐츠의 의미와 사용자가 원본 콘텐츠에서 인식하는 일반적인 개념이 대안 페이지에서 바뀌지 않는 것이 좋습니다.
 
-Google에서는 한 예로 "사이트의 원본 페이지를 로드한 키워드가 사용자에게 표시되는 조합과 관련이 없을 경우 Google은 해당 사이트를 Google 색인에서 제외할 수 있다"고 명시하고 있습니다.
+Google에서는 한 예로 &quot;사이트의 원본 페이지를 로드한 키워드가 사용자에게 표시되는 조합과 관련이 없을 경우 Google은 해당 사이트를 Google 색인에서 제외할 수 있다&quot;고 명시하고 있습니다.
 
 테스트 변형 내 원래 콘텐츠의 의미를 실수로 변경하기는 어려울 것으로 생각되지만, 페이지의 키워드 테마에 유의하고 해당 테마를 유지하는 것이 좋습니다. 특히 관련 키워드를 추가하거나 삭제하는 등의 페이지 콘텐츠 변경은 자연 검색에서 URL에 대한 순위 변경을 초래할 수 있습니다. 테스트 프로토콜의 일부로서 SEO 파트너를 이용하는 것이 좋습니다.
 
