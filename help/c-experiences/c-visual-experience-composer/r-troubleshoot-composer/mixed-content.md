@@ -5,7 +5,7 @@ title: 브라우저에서 혼합 컨텐츠 활성화
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 9286c85e7f0427b563807e1c424b0caca1abe8f2
+source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 ---
 
@@ -30,19 +30,13 @@ source-git-commit: 9286c85e7f0427b563807e1c424b0caca1abe8f2
 
 자세한 내용은 *Mozilla Developer Network*(MDN) 웹 사이트의 [Mixed Content](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content)(혼합 컨텐츠)를 참조하십시오.
 
-## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 보안 연결을 통해 사이트를 방문하는 경우 Google Chrome은 웹 페이지의 컨텐츠가 안전하게 전송되었는지 확인합니다.
 
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
 Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가 있음](https://support.google.com/chrome/answer/1342714?hl=en)을 참조하십시오.
 
-### 교육 비디오:Chrome에서 VEC 활성화(2020년 1월)
+### 교육 비디오:Chrome 버전 79.0.3945.117 이상에서 VEC 활성화(2020년 1월)
 
 최신 버전의 Chrome(버전 79.0.3945.117 이상)에서 VEC를 사용하는 경우 사이트 설정을 업데이트해야 합니다. 사이트 방문자는 이러한 단계를 완료할 필요가 없습니다.
 
@@ -60,15 +54,9 @@ Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가
 
 1. VEC 페이지를 다시 로드합니다.
 
-## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 기본적으로 Firebox에서는 보안 및 비보안 컨텐츠를 혼합하는 페이지를 차단합니다. 이 설정을 [!DNL Target]을 사용하도록 영구적으로 변경하는 것이 좋습니다.
-
-<!-- 
-
-target/t_mixed_content_firefox.xml
-
- -->
 
 1. Firefox에서 주소 표시줄에 `about:config`를 입력합니다.
 1.  Firefox에서 표시되는 경고 메시지를 확인합니다. 
@@ -77,15 +65,9 @@ target/t_mixed_content_firefox.xml
 
    값이 &quot;True&quot;에서 &quot;False&quot;로 변경됩니다. 값이 &quot;False&quot;를 표시하면 끝난 것입니다.  이 설정을 변경한 후에는 컴퓨터를 다시 시작하는 것이 좋습니다.
 
-## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Microsoft Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
-기본적으로 Internet Explorer에서는 보안 및 비보안 컨텐츠를 혼합하는 페이지를 차단합니다. 이 설정을 Target Standard를 사용하도록 영구적으로 변경하는 것이 좋습니다.
-
-<!-- 
-
-target/t_mixed_content_ie.xml
-
- -->
+기본적으로 Internet Explorer에서는 보안 및 비보안 컨텐츠를 혼합하는 페이지를 차단합니다. 이 설정을 Target을 사용하도록 영구적으로 변경하는 것이 좋습니다.
 
 1. Internet Explorer에서 설정 아이콘 > **[!UICONTROL 인터넷 옵션]**을 클릭합니다.
 1. [!UICONTROL 보안] 탭을 엽니다.
@@ -94,5 +76,5 @@ target/t_mixed_content_ie.xml
 1. [!UICONTROL 기타]에서 **[!UICONTROL 혼합 컨텐츠 표시]**를 활성화합니다.
 1. **[!UICONTROL 확인]**>**[!UICONTROL &#x200B;예]** >**[!UICONTROL 적용]**을 클릭합니다.
 
-이 설정을 변경한 후에는 컴퓨터를 다시 시작하는 것이 좋습니다.
+이 설정을 변경한 후 컴퓨터를 다시 시작하는 것이 좋습니다.
 
