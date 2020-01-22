@@ -5,7 +5,7 @@ title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 이러한 릴리스 노트는 최신 또는 예정된 [!DNL Adobe Target] 릴리스의 기능, 향상된 기능 및 수정 사항에 대한 정보를 제공합니다.
 
-**마지막 업데이트 날짜:2020년 1월 8일**
+**마지막 업데이트 날짜:2020년 1월 22일**
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 >
 >괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## Target Standard/Premium 20.1.1(2020년 1월 22일)
+## Target Standard/Premium 20.1.1(2020년 1월 29일)
 
-Target Standard/Premium 20.1.1 릴리스는 2020년 1월 22일이 됩니다. 기능 및 개선 사항은 여기에서 발표될 예정입니다.
+Target Standard/Premium 20.1.1 릴리스는 2020년 1월 29일이 됩니다. 기능 및 개선 사항은 여기에서 발표될 예정입니다.
 
 >[!IMPORTANT]
 >
