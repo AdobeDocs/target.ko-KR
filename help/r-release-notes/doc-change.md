@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -18,6 +18,7 @@ source-git-commit: 1e582451264138450d097d29d431b0615a7bebed
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2020년 1월 22일 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 다음 FAQ가 업데이트되었습니다.&quot;자동 할당을 사용하는 경우 샘플 크기 계산기를 사용하여 우승자를 식별하는 데 얼마나 오래 걸릴 수 있습니까?&quot; |
 | 2020년 1월 15일 | [브라우저에서 혼합 컨텐츠 활성화](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 최신 버전의 Chrome에서 혼합 컨텐츠를 허용하도록 사이트 설정을 업데이트하는 방법에 대해 설명하는 교육 비디오 및 지침을 추가했습니다. |
 |  | [피드](/help/c-recommendations/c-products/feeds.md) | 개체 및 개체 특성 업로드 및 제거에 대한 참고가 추가되었습니다. |
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.Recommendations 컨텐츠 추적에서 때로 반환되는 NO_CONTENT 응답은 무엇입니까? |
