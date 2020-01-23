@@ -4,7 +4,7 @@ description: 제품이나 컨텐츠 정보를 권장 사항에 전달하려면 �
 title: 엔티티 속성
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 ---
 
@@ -183,7 +183,7 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 >[!NOTE]
 >
->at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` (다음 예에서 사용됨)는 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations로 전달합니다.*x*, 다음 API 메서드를 사용합니다. [오퍼](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)[](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md), [apply](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)Offers또는applyOffersOffers를참조하십시오.
+>at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` (다음 예에서 사용됨)는 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations로 전달합니다.*x*, targetPageParams [를 사용하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
 
 >[!NOTE]
 >
