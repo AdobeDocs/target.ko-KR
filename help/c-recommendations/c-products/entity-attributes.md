@@ -1,10 +1,10 @@
 ---
-keywords: 엔티티;엔티티 속성;Recommendations로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: 제품이나 컨텐츠 정보를 권장 사항에 전달하려면 엔티티 속성을 사용하십시오.
 title: 엔티티 속성
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -91,7 +91,7 @@ mbox 배달의 경우 키에 가장 긴 속성 이름이 사용됩니다. 연결
 
 단일 값만 가능합니다.
 
-권장 사항에 표시되는 제품에 대한 메시지(예: "판매 중" 또는 "세일")입니다. 메시지는 일반적으로 제품 이름보다 더 자세합니다. 템플릿에 제품과 함께 표시할 추가 정보를 정의하는 데 사용합니다.
+권장 사항에 표시되는 제품에 대한 메시지(예: &quot;판매 중&quot; 또는 &quot;세일&quot;)입니다. 메시지는 일반적으로 제품 이름보다 더 자세합니다. 템플릿에 제품과 함께 표시할 추가 정보를 정의하는 데 사용합니다.
 
 예: `'entity.message=Family&nbsp;special'`
 
@@ -103,7 +103,7 @@ mbox 배달의 경우 키에 가장 긴 속성 이름이 사용됩니다. 연결
 
 예: `'entity.inventory=1'`
 
-**빈 재고 속성 처리:** 전달에 대한 포함 규칙, 컬렉션 규칙 또는 기준 설정이 `entity.inventory` &gt; 0 또는 `entity.inventory` = 0이고 제품에 재고가 설정되어 있지 않은 경우, [!DNL Target]이 이를 TRUE로 평가하고 재고가 설정되지 않은 제품을 포함합니다. 이 작업은 기본적으로 수행되었으므로 재고가 설정되지 않은 제품이 권장 결과에 표시됩니다.
+**빈 재고 속성 처리:** 전달에 대한 포함 규칙, 컬렉션 규칙 또는 기준 설정이 `entity.inventory` > 0 또는 `entity.inventory` = 0이고 제품에 재고가 설정되어 있지 않은 경우, [!DNL Target]이 이를 TRUE로 평가하고 재고가 설정되지 않은 제품을 포함합니다. 이 작업은 기본적으로 수행되었으므로 재고가 설정되지 않은 제품이 권장 결과에 표시됩니다.
 
 마찬가지로, 글로벌 제외 규칙이 `entity.inventory` = 0으로 설정되어 있고 `entity.inventory`가 설정되지 않은 경우 [!DNL Target]은 이 규칙을 TRUE로 평가하고 제품을 제외합니다.
 
@@ -179,7 +179,11 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 대부분의 사전 정의된 매개 변수는 단일 값만 허용하므로, 새 값이 이전 값을 덮어씁니다. `categoryId` 매개 변수에는 해당 제품을 포함하는 각 카테고리의 쉼표 구분 값 목록이 사용됩니다. 새 `categoryId` 값이 기존 값을 덮어쓰지 않지만, 대신 엔티티 업데이트(250자 제한) 중에 첨부됩니다.
 
-일반적으로 표시 정보 mbox는 다음 예와 비슷합니다. 제품을 참조하도록 굵은체의 상세 정보를 변경합니다.
+일반적으로 표시 정보 mbox는 at.js 1을 사용하는 경우 다음 예와 유사할 수 있습니다.*x* with `mboxCreate`.
+
+>[!NOTE]
+>
+>at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` (다음 예에서 사용됨)는 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations로 전달합니다.*x*, 다음 API 메서드를 사용합니다. [오퍼](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)[](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md), [apply](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)Offers또는applyOffersOffers를참조하십시오.
 
 >[!NOTE]
 >
