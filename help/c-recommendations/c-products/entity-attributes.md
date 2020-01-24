@@ -4,7 +4,7 @@ description: 제품이나 컨텐츠 정보를 권장 사항에 전달하려면 �
 title: 엔티티 속성
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 2ee61d04c9afcb79be980f70fe5ecedcd5eefa9f
 
 ---
 
