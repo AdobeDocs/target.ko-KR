@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -18,8 +18,10 @@ source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2020년 1월 27일 | [제한](/help/r-troubleshooting-target/target-limits.md) | 다음 정보가 추가되었습니다.&quot;배치 배달 API를 사용하는 경우 배치 요청당 최대 50mbox가 제한됩니다.&quot; |
+|  | [리소스 및 연락처 정보](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 지원 티켓을 열기 위한 링크가 업데이트되었습니다. |
 | 2020년 1월 23일 | [자동 할당 보고서 해석](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Adobe Target 샘플 크기 계산기를 사용하여 우승자를 결정하는 참고가 추가되었습니다. |
-|  | [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md) | at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations로 전달합니다.*x*, `targePageParams`사용합니다. |
+|  | [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md) | at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations로 전달합니다.*x*, `targetPageParams`사용합니다. |
 | 2020년 1월 22일 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 다음 FAQ가 업데이트되었습니다.&quot;자동 할당을 사용하는 경우 샘플 크기 계산기를 사용하여 우승자를 식별하는 데 얼마나 오래 걸릴 수 있습니까?&quot; |
 | 2020년 1월 15일 | [브라우저에서 혼합 컨텐츠 활성화](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 최신 버전의 Chrome에서 혼합 컨텐츠를 허용하도록 사이트 설정을 업데이트하는 방법에 대해 설명하는 교육 비디오 및 지침을 추가했습니다. |
 |  | [피드](/help/c-recommendations/c-products/feeds.md) | 개체 및 개체 특성 업로드 및 제거에 대한 참고가 추가되었습니다. |
