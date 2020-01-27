@@ -1,23 +1,33 @@
 ---
-keywords: 보고서;자동 타겟;자동 타겟;AT
+keywords: reports;auto-target;auto target;AT
 description: 자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
 title: Auto-Target 요약 보고서
-subtopic: 다변량 테스트
+subtopic: Multivariate Test
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3faba3d3158bed69ae5d756fb70c97d17110c1d8
 
 ---
 
 
 # Auto-Target 요약 보고서를 참조하십시오{#auto-target-summary-report}
 
-자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
+자동 타겟 요약 보고서를 해석하는 방법에 대한 정보입니다.
 
-다음 그림은 자동 타겟을 사용할 때 일반적인 요약 보고서의 모습을 보여줍니다.
+자동 타겟 요약 보고서를 표시하려면:
 
-![](assets/autotarget.png)
+1. 활동 [!UICONTROL 페이지에서] 원하는 자동 타겟 활동을 클릭합니다.
+
+   많은 활동이 있는 경우 유형, 상태, 속성, 보고 소스, 경험 작성기, 지표 유형 및 활동 소스 드롭다운 목록에서 옵션을 선택하여 목록을 필터링할 수 있습니다.
+
+1. [!UICONTROL 보고서] 탭을 클릭합니다.
+
+## 표 보기
+
+다음 그림은 자동 타겟을 사용할 때 &quot;테이블 보기&quot;에서 일반적인 요약 보고서가 어떻게 나타나는지 보여줍니다.
+
+![자동 타겟 테이블 보기 보고서](/help/c-reports/assets/at-table-view.png)
 
 자동 타겟 보고서를 해석할 때 필요한 몇 가지 팁과 고려 사항:
 
@@ -34,4 +44,30 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 * 경험 A의 전환율을 경험 B의 전환율과 비교하는 것은 자동 타겟에서 적절한 비교가 아닙니다. 문제는 지능적인 방식으로 제공될 때와 임의 방식(다시 말해 통제군 사용)으로 제공될 때 중 언제 경험 A가 더 나은 성과를 보이는가 하는 것입니다. 또한 개인화 알고리즘은 개별 경험이 아니라 전체 활동에 대한 성공 지표에 대해 최적화하려고 시도하므로 마케터는 개별 경험의 상승도 해석에 대해 주의해야 합니다.
 * 상승도가 가장 높은 경험은 모집단 내에서 분화가 가장 큰 것으로 이해할 수 있습니다. 즉, 알고리즘이 해당 특정 경험을 가장 좋아하는 세그먼트를 찾은 것입니다.
+* 표의 다양한 열에는 방문 수, 전환율, 평균 상승률 및 신뢰도 수준, 신뢰도가 표시됩니다. 자세한 내용은 [평균 리프트, 리프트 경계 및 신뢰 구간](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)을 참조하십시오.
 
+## 그래프 보기
+
+다음 그림은 자동 타겟을 사용할 때 &quot;그래프 보기&quot;에서 일반적인 요약 보고서가 어떻게 나타나는지 보여줍니다.
+
+![자동 대상 그래프 보기 보고서](/help/c-reports/assets/at-graph-view.png)
+
+아래에 표시된 것처럼 두 드롭다운 목록을 사용하여 원하는 지표, 계산 방법론 등을 선택할 수 있습니다. 자세한 [내용은 보고서 설정 개요를](/help/c-reports/c-report-settings/report-settings.md) 참조하십시오.
+
+![자동 대상 그래프 보기 보고서](/help/c-reports/assets/at-graph-view-2.png)
+
+## 자동화된 세그먼트
+
+자동화된 세그먼트 아이콘을 클릭합니다. 이 보고서는 여러 방문자가 AP/AT 활동의 오퍼/경험에 대해 어떻게 다르게 반응하는지를 보여줍니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.
+
+![자동화된 세그먼트 아이콘](/help/c-reports/assets/icon-automated-sements.png)
+
+자세한 내용은 자동화된 [세그먼트 보고서를](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)참조하십시오.
+
+## 중요 속성
+
+중요 속성 아이콘을 클릭합니다. 이 보고서는 여러 활동에서 모델이 개인화하는 방식에 대해 서로 다른 속성이 얼마나 중요한지 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
+
+![중요 속성 아이콘](/help/c-reports/assets/icon-important-attributes.png)
+
+자세한 내용은 중요한 속성 [보고서를](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)참조하십시오.
