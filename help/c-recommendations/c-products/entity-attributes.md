@@ -4,7 +4,7 @@ description: 제품이나 컨텐츠 정보를 권장 사항에 전달하려면 �
 title: 엔티티 속성
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 2ee61d04c9afcb79be980f70fe5ecedcd5eefa9f
+source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
 
 ---
 
@@ -183,7 +183,7 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 
 >[!NOTE]
 >
->at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` (다음 예에서 사용됨)는 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations로 전달합니다.*x*, targetPageParams [를 사용하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
+>at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` (다음 예에서 사용됨)는 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations로 전달합니다.*x*, targetPageParams [를 사용하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). 이 예제의 경우 Recommendations [계획 및 구현을 참조하십시오](/help/c-recommendations/plan-implement.md).
 
 >[!NOTE]
 >
