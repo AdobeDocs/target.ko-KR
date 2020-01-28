@@ -5,7 +5,7 @@ title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 
 
-**마지막 업데이트 날짜:2020년 1월 27일**
+**마지막 업데이트 날짜:2020년 1월 28일**
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
    가능한 영향 및 구현을 업데이트하는 데 필요한 단계에 대한 자세한 내용은 TLS(전송 [레이어 보안) 암호화 변경을](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)참조하십시오.
 
 
-## Target Standard/Premium 20.1.1(2020년 1월 29일)
+## Target Standard/Premium 20.1.1(2020년 2월 4일)
 
 Target Standard/Premium 20.1.1 릴리스는 유지 관리 릴리스이며 백엔드 개선 사항 및 개선 사항이 포함되어 있습니다. 또한 다음 수정 사항이 포함되어 있습니다.
 
