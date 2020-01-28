@@ -5,19 +5,20 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 98716582ced4b3f3c0d1cb56e186bd24b7cd4cb6
 
 ---
 
 
 # 설명서 변경 내용{#documentation-changes}
 
-이 페이지에는 [!DNL Adobe Target] 문서에 대한 중요한 변경 사항이 나와 있습니다.
+This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
 ## Adobe Target/Standard/Premium 19.10.1(2019년 10월 22일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2020년 1월 28일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.1.1 릴리스의 릴리스 날짜를 변경했습니다. 릴리스 날짜는 2020년 2월 4일입니다. |
 | 2020년 1월 27일 | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 새 섹션이 추가되었습니다.&quot;Adobe 블로그&quot; |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | 다음 정보가 추가되었습니다.&quot;배치 배달 API를 사용하는 경우 배치 요청당 최대 50mbox가 제한됩니다.&quot; |
 |  | [리소스 및 연락처 정보](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | 지원 티켓을 열기 위한 링크가 업데이트되었습니다. |
