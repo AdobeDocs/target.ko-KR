@@ -1,12 +1,12 @@
 ---
-keywords: 보고서;IP 주소 차단;IP 주소에서 방문자 차단;보고서 다운로드;csv
+keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
 description: 보고서에는 활동의 성과에 대한 정보가 있습니다
 title: 보고서
-subtopic: 다변량 테스트
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 보고서 표시 {#section_C4591A32F6D04C95A1AD5A377C27C28B}
 
-1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음, 목록에서 원하는 활동을 클릭합니다.
+1. **[!UICONTROL 활동]**을 클릭한 다음, 목록에서 원하는 활동을 클릭합니다.
 
    활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
 
@@ -43,7 +43,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![유형별 보고서 필터링](/help/c-reports/assets/report_filters-new.png)
 
-1. **[!UICONTROL 보고서]탭을 클릭합니다.**
+1. **[!UICONTROL 보고서]**탭을 클릭합니다.
 
    각 보고서에는 보고서를 이해하는 데 도움이 되는 범례가 포함되어 있습니다.
 
@@ -52,7 +52,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    범례에는 다음과 같은 정보가 표시됩니다.
 
    * 활동이 실행된 날짜 범위를 포함한 활동 상태.
-   * 예상 우승 경험(가능한 경우).
+   * The [projected winning experience](/help/c-activities/automated-traffic-allocation/determine-winner.md) (if available).
    >[!NOTE]
    >
    >경험 결과는 적어도 한 명 이상의 참여자가 경험을 본 후에야 표시됩니다.
@@ -65,6 +65,12 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * [!UICONTROL 보고서를 CSV로 내보내기]
    * [!UICONTROL 주문 세부 사항을 CSV로 내보내기]
 
-1. (선택 사항) 보고 형식 간에 전환하려면 **[!UICONTROL 표 보기]** 및 **그래프 보기]아이콘을 클릭하십시오.[!UICONTROL **
+1. (선택 사항) 보고 형식 간에 전환하려면 **[!UICONTROL 표 보기]**및**[!UICONTROL &#x200B;그래프 보기]** 아이콘을 클릭하십시오.
 
-   위치별 기여도를 표시하도록 보고서를 전환하려면 다변량 테스트의 경우에만 **[!UICONTROL 위치 기여도]**(![위치 기여도 아이콘](assets/icon_location_contribution.png)) 아이콘을 클릭하십시오.
+   선택한 보고서 유형에 따라 다른 보기 및 보고서를 사용할 수 있습니다.
+
+   | 보고서 유형 | 보기 |
+   | --- | --- |
+   | 자동 타겟 | 자동화된 **[!UICONTROL 세그먼트]**또는 중요**[!UICONTROL &#x200B;속성]** 아이콘을 클릭합니다.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.</li></ul> |
+   | AP(자동화된 개인화) | 자동화된 개인화 [요약 보고서](/help/c-reports/reports-ap.md)외에 자동화된 세그먼트 또는 **[!UICONTROL 중요 속성]****** 아이콘을 클릭할 수있습니다.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.</li></ul> |
+   | 다변량 테스트(MVT) | 경험 성과 보고서 [외에도 위치 기여도](/help/c-reports/experience-performance-report.md)아이콘을 클릭하여 [보고서를](/help/c-reports/location-contribution-report.md) 전환하여 위치별 기여도를 표시할 수 있습니다. |
