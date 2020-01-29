@@ -1,10 +1,10 @@
 ---
-keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
+keywords: custom design;velocity;decimal;comma;customize design
 description: 공개 소스인 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정할 수 있습니다.
 title: Velocity를 사용하여 디자인 사용자 지정
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
 
 ---
 
@@ -71,87 +71,117 @@ Velocity 변수에 대한 자세한 내용은 [https://velocity.apache.org/engin
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
- 
 <tr> 
- 
 <td colspan="3" style="font-size: 130%; border-bottom:1px solid  
 #CCCCCC;"> You May Also Like... </td> 
- 
 </tr> 
- 
 <tr> 
- 
 <td style="border-right:1px solid #CCCCCC;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity1.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity1.id</a></div> 
- 
 By $entity1.message <a href="?x14=brand;q14=$entity1.message"> 
 (More)</a><br/> 
- 
 sku: $entity1.prodId<br/> Price: $$entity1.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="border-right:1px solid #CCCCCC; padding-left:10px;"> 
- 
-<div class="search_content_inner" style="border-bottom:0px;"> 
- 
+<div class="search_content_inner" style="border-bottom:0px;">  
 <div class="search_title"><a href="$entity2.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity2.id</a></div> 
- 
 By $entity2.message <a href="?x14=brand;q14=$entity2.message"> 
 (More)</a><br/> 
- 
 sku: $entity2.prodId<br/> 
- 
 Price: $$entity2.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="padding-left:10px;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity3.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity3.id</a></div> 
- 
 By $entity3.message <a href="?x14=brand;q14=$entity3.message"> 
 (More)</a><br/> 
- 
 sku: $entity3.prodId<br/> Price: $$entity3.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
-</tr> 
- 
+</tr>  
 </table>
 ```
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE] {class=&quot;- topic/note &quot;}
 >
->변수값 뒤에 정보를 추가하려는 경우 공식 표기법을 사용할 수 있습니다. 예: `${entity1.thumbnailUrl}.gif`.
+>변수 이름이 끝났음을 나타내는 태그 앞에 변수 값 뒤에 텍스트를 추가하려면 형식 표기법을 사용하여 변수 이름을 묶을 수 있습니다. 예: `${entity1.thumbnailUrl}.gif`.
 
-사용자는 또한 디자인에서 `algorithm.name` 및 `algorithm.dayCount`를 변수로 사용할 수 있으며, 하나의 디자인을 사용해서 여러 기준을 테스트하고 해당 기준 이름을 디자인에 동적으로 표시할 수 있습니다. 이는 방문자에게 자신이 "최상위 판매자" 또는 "이 항목을 본 사용자가 구매한 항목"을 검토 중임을 보여줍니다. 이러한 변수를 사용해서 `dayCount`("지난 2일 동안 최상위 판매자" 등과 같이 기준에 사용된 데이터의 일 수)를 표시할 수도 있습니다.
+사용자는 또한 디자인에서 `algorithm.name` 및 `algorithm.dayCount`를 변수로 사용할 수 있으며, 하나의 디자인을 사용해서 여러 기준을 테스트하고 해당 기준 이름을 디자인에 동적으로 표시할 수 있습니다. 이는 방문자에게 자신이 &quot;최상위 판매자&quot; 또는 &quot;이 항목을 본 사용자가 구매한 항목&quot;을 검토 중임을 보여줍니다. 이러한 변수를 사용해서 `dayCount`(&quot;지난 2일 동안 최상위 판매자&quot; 등과 같이 기준에 사용된 데이터의 일 수)를 표시할 수도 있습니다.
 
-## 시나리오: 추천 제품에 키 항목 표시 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Velocity 템플릿에서 숫자를 사용한 작업
+
+기본적으로 Velocity 템플릿은 모든 개체 속성을 문자열 값으로 처리합니다. 수학 연산을 수행하거나 다른 숫자 값과 비교하기 위해 개체 속성을 숫자 값으로 처리할 수 있습니다. 개체 속성을 숫자 값으로 처리하려면 다음 단계를 따르십시오.
+1. 더미 변수를 선언하고 임의의 정수 또는 이중 값으로 초기화합니다.
+2. 사용하려는 개체 속성이 비어 있지 않은지 확인하십시오(Target Recommendations의 템플릿 구문 분석기가 템플릿을 확인하고 저장하는 데 필요).
+3. 1단계에서 만든 더미 변수의 `parseInt` 또는 `parseDouble` 메서드에 entity 속성을 전달하여 문자열을 정수 또는 이중 값으로 변환합니다.
+4. 수학 연산을 수행하거나 새 숫자 값에 대해 비교를 수행합니다.
+
+**예:할인 가격 계산**
+
+할인 적용을 위해 품목의 표시 가격을 $0.99까지 줄이려고 한다고 가정합니다. 다음 방법을 사용하여 이 결과를 얻을 수 있습니다.
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('priceBeforeDiscount') != '' )
+    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    Item price: $$discountedPrice
+#else
+    Item price unavailable
+#end
+```
+
+**예:항목 등급을 기준으로 표시할 별 수 선택**
+
+항목의 평균 고객 등급을 기준으로 적절한 수의 별을 표시하려고 한다고 가정합니다. 다음 방법을 사용하여 이 결과를 얻을 수 있습니다.
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('rating') != '' )
+    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #if( $rating >= 4.5 )
+        <img src="5_stars.jpg">
+    #elseif( $rating >= 3.5 )
+        <img src="4_stars.jpg">
+    #elseif( $rating >= 2.5 )
+        <img src="3_stars.jpg">
+    #elseif( $rating >= 1.5 )
+        <img src="2_stars.jpg">
+    #else
+        <img src="1_star.jpg">
+    #end
+#else
+    <img src="no_rating_default.jpg">
+#end
+```
+
+**예:항목 길이를 기준으로 시간 및 분 단위 계산(분)**
+
+동영상 길이를 분 단위로 저장하지만 시간 및 분 단위로 표시하려고 한다고 가정합니다. 다음 방법을 사용하여 이 결과를 얻을 수 있습니다.
+
+```
+#if( $entity1.get('length_minutes') )
+#set( $Integer = 1 )
+#set( $nbr = $Integer.parseInt($entity1.get('length_minutes')) )
+#set( $hrs = $nbr / 60)
+#set( $mins = $nbr % 60)
+#end
+```
+
+## 권장 제품이 있는 주요 항목 표시 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 다른 추천 제품과 함께 키 항목을 표시하도록 디자인을 수정할 수 있습니다. 예를 들어, 권장 사항 항목 옆에 참조할 수 있도록 현재 항목을 표시할 수 있습니다.
 
@@ -172,11 +202,11 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![](assets/rec_key.png)
 
-[!DNL Recommendations] 활동을 만들 때, "마지막으로 구매한 항목"과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]에는 [!UICONTROL 시각적 경험 작성기] (VEC)에 무작위 제품이 표시됩니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
+[!DNL Recommendations] 활동을 만들 때, &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]에는 [!UICONTROL 시각적 경험 작성기] (VEC)에 무작위 제품이 표시됩니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
 
-## 시나리오: 판매 가격의 소수점을 쉼표 구분 기호로 바꾸기 {#section_01F8C993C79F42978ED00E39956FA8CA}
+## 문자열 값에서 바꾸기 수행 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-미국에서 사용되는 소수점 구분 기호를 유럽 및 기타 국가에서 사용되는 쉼표 구분 기호로 바꾸도록 디자인을 수정할 수 있습니다.
+디자인을 수정하여 문자열 내의 값을 바꿀 수 있습니다. 예를 들어 미국에서 사용되는 소수점 구분 기호를 유럽 및 기타 국가에서 사용되는 쉼표 구분 기호로 바꿉니다.
 
 다음 코드는 조건부 판매 가격 책정 예제의 한 줄을 보여 줍니다.
 
@@ -200,7 +230,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
                                     </span>
 ```
 
-## 시나리오: null 확인 논리를 사용하여 4x2 기본 권장 사항 디자인 만들기 {#default}
+## 템플릿 크기 사용자 지정 및 빈 값 확인 {#default}
 
 다음 템플릿은 속도 스크립트를 사용하여 엔티티 디스플레이의 동적 크기 조정을 제어하므로, [!DNL Recommendations]에서 반환된 일치하는 엔티티가 충분하지 않은 경우 빈 HTML 요소를 생성하지 않도록 일대다 결과를 사용합니다. 이 스크립트는 백업 권장 사항이 적합하지 않고 [!UICONTROL 부분 템플릿 렌더링]이 활성화되어 있는 시나리오에 가장 적합합니다.
 
