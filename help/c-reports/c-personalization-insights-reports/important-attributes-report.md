@@ -1,10 +1,10 @@
 ---
-keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
+keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
 description: 중요 속성 보고서에 대한 정보이며 두 전문 보고서 중 하나는 자동화된 개인 설정(AP) 및 Auto-Target(AT) 활동의 사용자가 사용할 수 있습니다.
 title: 중요 속성 보고서
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 
 ---
 
@@ -22,13 +22,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 중요 속성 보고서 액세스 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음, 목록에서 원하는 [AP](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [AT](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 활동을 클릭합니다.
+1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
 
    활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
 
 1. **[!UICONTROL 보고서를 클릭합니다]**.
 
-   첫 번째 화면 아이콘으로 표시된 활동의 성과에 대한 정보를 제공하는 [!UICONTROL 요약] 보고서가 표시됩니다. 두 개의 추가 아이콘은 두 개의 개인화 인사이트 보고서인 자동화된 세그먼트 및 중요 속성 보고서를 나타냅니다. Auto-Target에는 [!UICONTROL 요약] 보고서의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다.
+   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. 두 개의 추가 아이콘은 두 개의 개인화 인사이트 보고서인 자동화된 세그먼트 및 중요 속성 보고서를 나타냅니다. Auto-Target에는 [!UICONTROL 요약] 보고서의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다.
 
    ![](assets/personalization_insights.png)
 
@@ -36,13 +36,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >[!UICONTROL 중요 속성] 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간에는 이 보고서에 액세스하거나 [!UICONTROL 중요 속성] 아이콘을 클릭할 수 없습니다. 15일 이후에는 활동에 개인화 모델을 구축할 개인화된 트래픽이 충분하다고 가정하여 [!UICONTROL 중요 속성] 보고서를 사용할 수 있습니다.
 
-1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL 중요 속성]아이콘을 클릭할 수 있습니다.**
+1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL 중요 속성]**아이콘을 클릭할 수 있습니다.
 
    ![](assets/model_attribute_ranking.png)
 
 1. 원하는 날짜 범위를 선택합니다.
 
-   [!UICONTROL 요약] 보고서(성과 보고)와 달리 [!UICONTROL 중요 속성]을 포함한 [!UICONTROL 개인화 인사이트]는 고정 날짜 범위(15일, 30일, 45일, 60일 및 90일)에만 사용할 수 있습니다. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 "종료 날짜" 및 "지속 시간"입니다. "시작"은 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
+   [!UICONTROL 요약] 보고서(성과 보고)와 달리 [!UICONTROL 중요 속성]을 포함한 [!UICONTROL 개인화 인사이트]는 고정 날짜 범위(15일, 30일, 45일, 60일 및 90일)에만 사용할 수 있습니다. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;은 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -104,7 +104,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **중요 속성 보고서에서 속성 중요도 점수란 무엇입니까?**
 
-보고서의 "속성 중요도 등급" 부분에서 중요도 점수는 모든 방문자를 식별된 세그먼트로 분할하는 방법을 결정할 때 알고리즘이 학습하는 데 사용한 가장 중요한 변수에 입력을 제공합니다. 모델에서 사용하는 상위 100개 속성에 백분율 점수를 지정했습니다.
+보고서의 &quot;속성 중요도 등급&quot; 부분에서 중요도 점수는 모든 방문자를 식별된 세그먼트로 분할하는 방법을 결정할 때 알고리즘이 학습하는 데 사용한 가장 중요한 변수에 입력을 제공합니다. 모델에서 사용하는 상위 100개 속성에 백분율 점수를 지정했습니다.
 
 **전환율이 낮은 일부 오퍼/경험이 특정 자동화된 세그먼트에 대한 다른 오퍼/경험보다 큰 트래픽을 수신하는 이유는 무엇입니까?**
 
@@ -114,7 +114,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 특정 오퍼나 경험에 모델이 구축되지 않은 낮은 볼륨 활동입니다.
 * 모델이 일부 오퍼/경험에 대해 보다 빠르게 구축된 낮은 볼륨 활동입니다. 예를 들어 추가 모델이 22일에 구축되었고, 사용자가 10~24일의 데이터를 보고 있다고 가정합니다.
 * 방문자가 볼 수 있는 오퍼/경험을 제한하는 특정 오퍼에 대한 타깃팅 규칙입니다.
-* 인사이트 보고에는 신뢰 구간이 없습니다. 그러나 전환율이 거의 근접한 경우 모델이 트래픽을 제공하므로 포인트 크기보다 높을 수 있지만 "통계적으로 다른" 숫자는 아닙니다.
+* 인사이트 보고에는 신뢰 구간이 없습니다. 그러나 전환율이 거의 근접한 경우 모델이 트래픽을 제공하므로 포인트 크기보다 높을 수 있지만 &quot;통계적으로 다른&quot; 숫자는 아닙니다.
 
 트래픽을 제공하는 모델이 어떻게 작동하는지 파악하는 것이 도움이 될 수 있습니다. 각 개인에게는 개인의 전체 프로필을 기반으로 하여 제공됩니다. 하지만 인사이트 보고서는 이 동작을 일반화하여 사람이 쉽게 이해할 수 있게 만듭니다. 따라서 세그먼트는 상호 배타적이 아닙니다. 이렇게 하면 동일한 사람이 여러 세그먼트에 나타날 수 있으므로 개별 세그먼트에 이러한 유형의 동작이 표시될 수 있습니다.
 
