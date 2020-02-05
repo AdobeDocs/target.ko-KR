@@ -5,7 +5,7 @@ title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,9 +14,7 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 이러한 릴리스 노트는 최신 또는 예정된 [!DNL Adobe Target] 릴리스의 기능, 향상된 기능 및 수정 사항에 대한 정보를 제공합니다.
 
-
-
-**마지막 업데이트 날짜:2020년 1월 28일**
+**마지막 업데이트 날짜: 2020년 2월 4일**
 
 >[!NOTE]
 >
@@ -32,12 +30,9 @@ source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
    가능한 영향 및 구현을 업데이트하는 데 필요한 단계에 대한 자세한 내용은 TLS(전송 [레이어 보안) 암호화 변경을](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)참조하십시오.
 
 
-## Target Standard/Premium 20.1.1(2020년 2월 4일)
+## Target Standard/Premium 20.2.1(2020년 2월 19일)
 
-Target Standard/Premium 20.1.1 릴리스는 유지 관리 릴리스이며 백엔드 개선 사항 및 개선 사항이 포함되어 있습니다. 또한 다음 수정 사항이 포함되어 있습니다.
-
-* Target(A4T) 활동에 대한 기존 Adobe의 목표 및 설정 페이지에서 Adobe Analytics 추적 서버 필드가 비어 있는 문제를 해결했습니다. (TGT-35960)
-* 카테고리 관련성에 대한 대상을 만드는 동안 두 번째 드롭다운 목록의 선택 사항이 표시되지 않는 사용자 인터페이스 문제를 해결했습니다. (TGT-36098)
+Target Standard/Premium 20.2.1 릴리스는 2020년 2월 19일로 예정되어 있습니다. 특정 기능, 개선 사항 및 수정 사항에 대한 정보는 향후 며칠 이내에 여기에 게시될 예정입니다.
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
