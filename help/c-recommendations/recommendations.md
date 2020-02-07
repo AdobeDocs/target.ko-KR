@@ -1,10 +1,10 @@
 ---
-keywords: Recommendations;Recommendations 조건;추천 알고리즘;추천 활동;기준;추천 타게팅;recommendations;recommendations
+keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: Adobe Target의 Recommendations 활동은 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 관심을 끌 수 있는 제품 또는 컨텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -36,14 +36,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 | 원하는 작업 | 권장 사항 |
 |--- |--- |
-| 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 유도합니다. | "이 항목을 구입하고 다른 항목도 구입한 사람" 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여주는 권장 사항을 생성합니다. |
-| 시청 중인 내용과 유사한 미디어 콘텐츠를 추천하여 방문자가 여러분의 미디어 사이트에서 보내는 시간을 늘립니다. | "이 항목을 보고 다른 항목도 본 사람" 기준을 사용하여 다른 비디오를 제안하는 권장 사항을 생성합니다. |
-| 또한 은행의 저축 제도에 대한 정보를 본 고객이 IRA 계좌에 대해서도 읽도록 제안합니다. | "이 항목을 보고 다른 항목도 구입한 사람" 기준을 사용하여, 권장 사항에 있는 첫 번째 제품을 표시하지 않고 고객이 한 제품을 본 후에 구입한 다른 제품을 표시합니다. |
+| 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 유도합니다. | &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여주는 권장 사항을 생성합니다. |
+| 시청 중인 내용과 유사한 미디어 콘텐츠를 추천하여 방문자가 여러분의 미디어 사이트에서 보내는 시간을 늘립니다. | &quot;이 항목을 보고 다른 항목도 본 사람&quot; 기준을 사용하여 다른 비디오를 제안하는 권장 사항을 생성합니다. |
+| 또한 은행의 저축 제도에 대한 정보를 본 고객이 IRA 계좌에 대해서도 읽도록 제안합니다. | &quot;이 항목을 보고 다른 항목도 구입한 사람&quot; 기준을 사용하여, 권장 사항에 있는 첫 번째 제품을 표시하지 않고 고객이 한 제품을 본 후에 구입한 다른 제품을 표시합니다. |
 </table>
 
 이러한 기준 및 기타 [!DNL Recommendations] 기준에 대한 자세한 내용은 [기준](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
 
-## 교육 비디오: 활동 유형
+## ![개요 배지](/help/assets/overview.png) 교육 비디오:활동 유형
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!DNL Recommendations]은 7:20부터 설명합니다.
 
@@ -51,7 +51,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로우 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Adobe Target 기본 사항 웨비나: Recommendations 소개 {#intro-to-recs}
 
