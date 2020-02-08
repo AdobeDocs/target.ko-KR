@@ -5,7 +5,7 @@ title: Adobe Target의 AEM(Adobe Experience Manager) 경험 조각
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -59,14 +59,14 @@ In order to use AEM experience fragments in [!DNL Target], you must perform the 
 
 ### 3단계: 경험 구성요소를 Target과 공유하도록 AEM 구성
 
-1. AEM 내에서 원하는 경험 구성요소 또는 상위 폴더를 선택한 다음 **[!UICONTROL 속성을 클릭합니다]**.
-2. **[!UICONTROL 클라우드 서비스]** 탭을 클릭한 다음, **[!UICONTROL 클라우드 서비스 구성]** 드롭다운 목록에서 **Adobe Target[!UICONTROL 을 선택합니다]**.
+1. AEM 내에서 원하는 경험 구성요소 또는 상위 폴더를 선택한 다음 **[!UICONTROL 속성]**&#x200B;을 클릭합니다.
+2. **[!UICONTROL 클라우드 서비스]** 탭을 클릭한 다음, **[!UICONTROL 클라우드 서비스 구성]** 드롭다운 목록에서 **[!UICONTROL Adobe Target]**&#x200B;을 선택합니다.
 
    >[!NOTE]
    >
    >The previous step assumes that someone in your organization has created the [!DNL Adobe Target] configuration.
 
-3. **[!UICONTROL 저장 및 닫기를 클릭합니다]**.
+3. **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭합니다.
 
 ### 4단계: 경험 구성요소를 게시하고 Target으로 내보내기
 
@@ -86,7 +86,7 @@ AEM 버전에 따라 단계별 지침은 다음 링크를 참조하십시오.
 
 >[!IMPORTANT]
 >
->The experience fragment is currently imported into [!DNL Target] as an HTML offer. 경험 조각 "마스터" 버전은 AEM에 남습니다. 이 경험 조각을 Target에서 편집할 수는 없습니다.
+>The experience fragment is currently imported into [!DNL Target] as an HTML offer. 경험 조각 &quot;마스터&quot; 버전은 AEM에 남습니다. 이 경험 조각을 Target에서 편집할 수는 없습니다.
 
 You can hover over an experience fragment in the list, then click the View icon ![View icon](assets/icon_info.png) to see additional information about the experience fragment, including its public offer delivery URL, its AEM path, and a deep link to open the experience fragment inside of AEM.
 
@@ -138,9 +138,13 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 ## 고려 사항 {#considerations}
 
 * [!DNL Target] 현재 10분마다 경험 조각을 가져올 수 있습니다. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
-* The experience fragment is currently imported into [!DNL Target] as an HTML offer. 경험 조각 "마스터" 버전은 AEM에 남습니다. You cannot edit the experience fragment in [!DNL Target].
+* The experience fragment is currently imported into [!DNL Target] as an HTML offer. 경험 조각 &quot;마스터&quot; 버전은 AEM에 남습니다. You cannot edit the experience fragment in [!DNL Target].
 * JSON 오퍼를 경험 조각으로 가져올 수 [!DNL Target]있습니다. 하지만 이러한 오퍼는 HTML 오퍼로 가져옵니다. JSON 오퍼(경험 조각)는 현재 UI에서 완전히 지원되지 [!DNL Target] 않습니다.
 
-## 교육 비디오: Adobe Target에서 AEM 경험 구성요소 사용 {#section_C0EDC54063464F41A182492D2045BC64}
+## ![자습서 배지](/help/assets/overview.png) 교육 비디오:Adobe Target에서 AEM 경험 조각 사용 {#section_C0EDC54063464F41A182492D2045BC64}
 
-[Adobe Target에서 AEM 경험 구성요소 사용](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html) 비디오는 경험 구성요소를 설정하고 사용하는 방법을 보여 줍니다.
+다음 비디오에서는 경험 조각을 설정하고 사용하는 방법을 보여 줍니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
+
+자세한 내용은 AEM Sites [비디오 및 자습서](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) 페이지에서 Adobe Target과 *경험 조각 사용을* 참조하십시오.
