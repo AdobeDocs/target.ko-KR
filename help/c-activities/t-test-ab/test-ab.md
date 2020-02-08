@@ -1,10 +1,10 @@
 ---
-keywords: AB;A/B;AB...n;경험 비교;타깃팅;컨텐츠 비교
+keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content
 description: A/B 테스트에서는 웹 사이트 컨텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간에 전환율이 가장 많이 향상된 버전을 확인합니다.
 title: A/B 테스트
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -27,7 +27,7 @@ A/B 테스트는 새로운 레이아웃이나 완전히 다른 요소 처리가 
 
 각기 다른 경험의 수가 5개를 초과하고 둘 이상의 위치에 걸쳐 있는 경우 A/B 테스트를 실행하기 전에 [MVT 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md)를 실행하는 것이 좋습니다. 다변량 테스트는 페이지에서 전환율 개선 가능성이 가장 높은 영역을 보여줍니다. 마케터는 이러한 위치에 중점을 두어야 합니다. 예를 들어, MVT 테스트는 클릭 유도 문안이 목표 달성을 위한 가장 중요한 위치임을 보여줄 수 있습니다. 목표 달성에 가장 유용한 위치 및 컨텐츠를 파악한 후에는 A/B 테스트를 실행하여 2개의 특정 이미지를 서로 테스트하거나 클릭 유도 문안의 문구 또는 색상을 비교하는 등 결과를 세분화할 수 있습니다. MVT 테스트 다음에 하나 이상의 A/B 테스트를 실행하면 원하는 결과에 대해 가능성이 가장 높은 콘텐츠를 판단할 수 있습니다.
 
-## 교육 비디오: 활동 유형(9:03)
+## ![개요 배지](/help/assets/overview.png) 교육 비디오:활동 유형(9:03)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다.
 
@@ -35,4 +35,4 @@ A/B 테스트는 새로운 레이아웃이나 완전히 다른 요소 처리가 
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로우 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
