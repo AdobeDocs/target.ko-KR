@@ -5,7 +5,7 @@ title: 이전 릴리스에 대한 릴리스 노트
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
+source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
 
 ---
 
@@ -106,19 +106,6 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 | --- | --- |
 | ![프리미엄 배지](/help/assets/premium.png) 엔터프라이즈 권한 | Target 2019년 9월 릴리스에서 엔터프라이즈 권한은 고객에게 다음과 같은 액세스 제어를 제공합니다.<UL><li>통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다.</li><li>Adobe I/O 통합에 승인자, 편집자 또는 관찰자 역할을 적용할 수 있습니다.</li></ul>단계별 지침 및 추가 정보는 [작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)을 참조하십시오. |
 
-
-### Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1(2019년 8월 7일)
-
-Mobile VEC SDK 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
-
-(괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
-
-* 모바일 장치의 시각적 활동 미리 보기에 대한 지원이 추가되었습니다. (TGT-27875)
-* `UIImagePickerController` 사용으로 인해 Apple 표준 위반이 발생하는 문제를 해결했습니다.
-* Android SDK에서 GSON 종속성을 제거했습니다. (TGT-31710)
-* 다른 중복 Gradle 종속성 제거(TGT-35479)
-* 작성 시 게재 오퍼가 재설정되지 않는 문제를 해결했습니다. (TGT-35270)
-
 ### Target Standard/Premium 19.7.1(2019년 7월 24일) {#tgt-19-7-1}
 
 이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
@@ -127,7 +114,6 @@ Mobile VEC SDK 릴리스이며, 다음과 같은 개선 기능 및 수정 사항
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 모바일 앱 시각적 경험 작성기 | 클릭 추적에 대해 설정한 요소를 표시하는 모바일 앱 VEC에 새로운 수정 패널이 표시됩니다. (TGT-31741)<br>[모바일 앱에서 클릭 추적 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)을 참조하십시오. |
 | ![Premium 배지](/help/assets/premium.png)<br>A/B 테스트 및 XT(경험 타깃팅) 활동의 권장 사항 | 권장 사항 오퍼(알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 결과 준비됨, 결과가 준비되지 않음 및 피드 장애 상태가 있습니다. (TGT-33649)<br>[오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status)를 참조하십시오. |
 | ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 사용해야 합니다.<br>[at.js 2.x 에서 도메인 간 추적 지원](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)을 참조하십시오. |
 | Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스를 통해 Target은 서버측 쿠키를 활용하여 ITP 2.1 및 ITP 2.2를 완화하는 ECID 라이브러리 4.3과의 매끄러운 통합을 제공합니다.Target 고객은 Target의 JavaScript [라이브러리와 함께 ECID 라이브러리 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 배포하여 향후 ITP 릴리스를 완화하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>[Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)를 참조하십시오. |
@@ -168,7 +154,6 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 | --- | --- |
 | 시각적 경험 작성기(VEC) | **새 VEC 메뉴 옵션**: VEC에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다.<ul><li>이제 [!UICONTROL 스타일 > 배경] 옵션을 사용하여 선택한 요소의 배경 이미지와 색상을 변경할 수 있습니다. (TGT-15001)</li></ul>다음 [시각적 경험 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)에서 *스타일을*&#x200B;확인합니다.<br>**클릭 추적 개선 사항&#x200B;**: VEC 및 SPA(단일 페이지 애플리케이션) VEC 내에서 클릭 추적을 구성하는 프로세스를 개선했습니다.<ul><li>클릭 추적에서 사용할 요소를 선택할 때 사용 가능한 모든 요소의 이름이 오른쪽의 수정 패널에 표시되므로 원하는 요소를 빠르고 쉽게 선택할 수 있습니다.</li><li>세 부분으로 구성된 안내 활동 워크플로우의 [!UICONTROL 목표 및 설정] 페이지에 클릭 추적에 대해 선택한 요소의 수를 나타내는 숫자가 표시됩니다. 이 숫자를 마우스로 가리키면 선택한 모든 요소의 이름이 표시됩니다. (TGT-33878)</li></ul>다음 [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md)을 참조하십시오. |
 | SPA VEC(Single Page App Visual Experience Composer) | **안내 워크플로우**: 새로운 안내 워크플로우를 통해 페이지 전달 규칙 설정을 실행하도록 구성하는 방법을 이해하고 단일 페이지 앱에 대한 활동을 성공적으로 실행할 수 있습니다. (TGT-33718)<br> [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)를 참조하십시오.<br>**복제 수정 사항&#x200B;**: 이제 SPA VEC를 사용하여 수정 사항을 정의한 다음, 단일 페이지 앱의 다른 보기에서 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)<br>[SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오. |
-| 모바일 시각적 경험 작성기 | **여러 앱 버전**: 이제 여러 버전의 모바일 앱용 활동을 작성할 수 있습니다. 따라서 버전이 유사하고 앱의 UI를 크게 변경할 필요가 없는 경우 시간과 노력을 절약할 수 있습니다. (TGT-34231)<br>[모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec)에서 &quot;여러 앱 버전 관리&quot;를 참조하십시오. |
 | ![프리미엄 배지](/help/assets/premium.png) AP(자동화된 개인화) 및 자동 타겟 | **특정 환경을 제어로 사용**: AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 해당 경험의 제어 트래픽에 대해 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다. 현재 제어 옵션(임의로 제공된 경험)은 계속 사용할 수 있습니다. (TGT-32801, TGT-26572, TGT-26571)<br>[자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택](/help/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오. 이 기능에 대해 [현재 알려진 문제](/help/r-release-notes/known-issues-resolved-issues.md)가 있습니다.<br>**개인화 인사이트 보고서&#x200B;**: 방문자가 특정 위치에서 특정 콘텐츠를 볼 때 마케터에게 친숙한 속성 이름 지정은 보다 의미 있는 정보를 제공합니다. (TGT-33421 및 TGT-34957)<br>[Target의 개인화 알고리즘을 위한 데이터 수집](/help/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. |
 | ![프리미엄 배지](/help/assets/premium.png) 권장 사항 | 최근에 본 항목 로직을 생성하는 동안 이전에 구입한 추천 항목 전환을 사용할 수 있습니다. (TGT-34030)<br>자세한 내용은 &quot;기준 만들기&quot;에서 [최근에 본 항목](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)을 참조하십시오. |
 | Google Chrome samesite 쿠키 정책 | Google은 최근에 Chrome 76(2019년 7월 30일 출시 예정)부터 웹 사이트에서 작동할 수 있는 쿠키와 사용자를 추적할 수 있는 쿠키를 개발자 명시적으로 지정해야 한다고 발표했습니다.<br>업계에서 소비자를 위해 보다 안전한 웹을 만들기 위해 노력함에 따라 Target은 방문자의 개인 정보 보호 기대치를 충족시키는 동시에 개인화된 경험을 제공하기 위해 노력을 아끼지 않고 있습니다.<br> 다음 [Google Chrome SameSite 쿠키 정책](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)을 참조하십시오. |
@@ -199,12 +184,6 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 #### 개선 사항, 수정 및 변경 사항
 
 * VEC 내에서 페이지 로드를 취소하면 도구 모음 아이콘이 적절하게 표시됩니다. 페이지가 완전히 로드될 때까지 특정 작업을 수행할 수 없는 경우 연관된 도구 모음 아이콘이 비활성화됩니다. (TGT-33811)
-
-### 모바일 앱 시각적 경험 작성기(2019년 5월 14일) {#mobile-vec-may14-2}
-
-| 기능/향상 | 설명 |
-| --- | --- |
-| 모바일 앱 VEC(시각적 경험 작성기) | 모바일 앱 VEC를 사용하면 연속적인 개발 종속성 및 앱 릴리스 주기 없이 자체적인 방식으로 기본 모바일 앱에 대한 활동을 만들고 콘텐츠를 개인화할 수 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오.<ul><li>[모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS - 모바일 앱 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[모바일 VEC에서 클릭 추적 설정](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[비디오: 모바일 앱 시각적 경험 작성기](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.4.2(2019년 4월 30일) {#release-19-4-2}
 
@@ -2123,7 +2102,7 @@ Adobe Target Standard/Premium 16.7.1(2016년 7월 21일) 릴리스에는 다음�
 다음과 같은 알려진 문제가 보고되었습니다.
 
 * 다중 페이지 활동에서 페이지 A에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하면 다른 페이지에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
-* 리디렉션이 적용된 경험에 대한 경험 미리 보기 URL에 문제가 있습니다. 이 문제를 해결하려면 경험 작성기에서 **[!UICONTROL 구성]**을 클릭하고**[!UICONTROL &#x200B;다중 대상]**을 선택한 후 유일한 대상으로 **[!UICONTROL 모든 방문자]**를 추가합니다. 계속해서 활동을 저장합니다. 활동의 전달은 변경되지 않지만 미리 보기가 제대로 작동합니다. 이 문제는 Adobe Target의 7월 릴리스에서 수정될 예정입니다.
+* 리디렉션이 적용된 경험에 대한 경험 미리 보기 URL에 문제가 있습니다. 이 문제를 해결하려면 경험 작성기에서 **[!UICONTROL 구성]**&#x200B;을 클릭하고 **[!UICONTROL 다중 대상]**&#x200B;을 선택한 후 유일한 대상으로 **[!UICONTROL 모든 방문자]**&#x200B;를 추가합니다. 계속해서 활동을 저장합니다. 활동의 전달은 변경되지 않지만 미리 보기가 제대로 작동합니다. 이 문제는 Adobe Target의 7월 릴리스에서 수정될 예정입니다.
 
 * 설명서에는 리디렉션 URL 확인란의 예상되는 동작이 나와 있습니다. 그러나 버그로 인해 확인란이 기본적으로 선택된 상태로 표시되지 않습니다. 이 결함은 곧 수정될 예정입니다.
 
@@ -2210,7 +2189,7 @@ A4T 프로비저닝 프로세스가 개선되었습니다.
 다음과 같은 알려진 문제가 보고되었습니다.
 
 * 다중 페이지 활동에서 페이지 A에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하면 다른 페이지에 대해 &quot;JavaScript 사용 안 함&quot;을 선택하지 않았더라도 모든 위치에서 JavaScript가 사용되지 않도록 설정됩니다.
-* 리디렉션이 적용된 경험에 대한 경험 미리 보기 URL에 문제가 있습니다. 이 문제를 해결하려면 경험 작성기에서 **[!UICONTROL 구성]**을 클릭하고**[!UICONTROL &#x200B;다중 대상]**을 선택한 후 유일한 대상으로 **[!UICONTROL 모든 방문자]**를 추가합니다. 계속해서 활동을 저장합니다. 활동의 전달은 변경되지 않지만 미리 보기가 제대로 작동합니다. 이 문제는 Adobe Target의 7월 릴리스에서 수정될 예정입니다.
+* 리디렉션이 적용된 경험에 대한 경험 미리 보기 URL에 문제가 있습니다. 이 문제를 해결하려면 경험 작성기에서 **[!UICONTROL 구성]**&#x200B;을 클릭하고 **[!UICONTROL 다중 대상]**&#x200B;을 선택한 후 유일한 대상으로 **[!UICONTROL 모든 방문자]**&#x200B;를 추가합니다. 계속해서 활동을 저장합니다. 활동의 전달은 변경되지 않지만 미리 보기가 제대로 작동합니다. 이 문제는 Adobe Target의 7월 릴리스에서 수정될 예정입니다.
 
 ### 새 Target 구현 라이브러리, at.js 0.8.0(2016년 5월 5일) {#section_6A44C277E82D409AB6DCD0901F43794A}
 
@@ -2378,7 +2357,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 * Chrome 버전 48 업데이트는 Visual Experience Composer가 Chrome에서 제대로 작동할 수 없게 하는 문제를 야기합니다. Google을 사용하면 문제가 해결됩니다. 자세한 내용은 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)을 참조하십시오. 이 문제를 해결하려면 다음을 수행하십시오.
 
    * Firefox 또는 Internet Explorer를 사용합니다.
-   * **[!UICONTROL 설정]**>**[!UICONTROL &#x200B;기본 설정]** 탭 내에서 구성할 수 있는 Enhanced Experience Composer를 사용하도록 설정합니다.
+   * **[!UICONTROL 설정]** > **[!UICONTROL 기본 설정]** 탭 내에서 구성할 수 있는 Enhanced Experience Composer를 사용하도록 설정합니다.
 
 ### Adobe Target Standard/Premium 16.2.1(2016년 2월 18일) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2400,7 +2379,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 * Chrome 버전 48 업데이트는 Visual Experience Composer가 Chrome에서 제대로 작동할 수 없게 하는 문제를 야기합니다. Google을 사용하면 문제가 해결됩니다. 자세한 내용은 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)을 참조하십시오. 이 문제를 해결하려면 다음을 수행하십시오.
 
    * Firefox 또는 Internet Explorer를 사용합니다.
-   * **[!UICONTROL 설정]**>**[!UICONTROL &#x200B;기본 설정]** 탭 내에서 구성할 수 있는 Enhanced Experience Composer를 사용하도록 설정합니다.
+   * **[!UICONTROL 설정]** > **[!UICONTROL 기본 설정]** 탭 내에서 구성할 수 있는 Enhanced Experience Composer를 사용하도록 설정합니다.
 
 ### Adobe Target Standard/Premium 16.1.1(2016년 1월 28일) {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2478,7 +2457,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 * Chrome 버전 48 업데이트는 Visual Experience Composer가 Chrome에서 제대로 작동할 수 없게 하는 문제를 야기합니다. Google을 사용하면 문제가 해결됩니다. 자세한 내용은 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)을 참조하십시오. 이 문제를 해결하려면 다음을 수행하십시오.
 
    * Firefox 또는 Internet Explorer를 사용합니다.
-   * **[!UICONTROL 설정]**>**[!UICONTROL &#x200B;기본 설정]** 탭 내에서 구성할 수 있는 Enhanced Experience Composer를 사용하도록 설정합니다.
+   * **[!UICONTROL 설정]** > **[!UICONTROL 기본 설정]** 탭 내에서 구성할 수 있는 Enhanced Experience Composer를 사용하도록 설정합니다.
 
 ## 릴리스 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -3121,7 +3100,7 @@ target/r_release-notes-2014.xml
 
 | 기능/향상 | 설명 |
 |---|---|
-| JavaScript 삽입 및 편집 허용 | 작업 메뉴에서 **[!UICONTROL HTML 편집]**을 선택하면 경험 편집기에서 사용자 지정 JavaScript를 편집하고 주입할 수 있는 기능을 추가했습니다. |
+| JavaScript 삽입 및 편집 허용 | 작업 메뉴에서 **[!UICONTROL HTML 편집]**&#x200B;을 선택하면 경험 편집기에서 사용자 지정 JavaScript를 편집하고 주입할 수 있는 기능을 추가했습니다. |
 | 자동 대상 가져오기 | 사용자가 대상 목록을 열고 가져온 대상이 10분 이상 오래되면 배경에서 자동으로 대상을 가져옵니다. |
 | HTML 오퍼의 증가된 크기는 [!DNL Target Classic]에 동기화할 수 있습니다. | 이전의 64KB 제한을 256KB로 늘렸습니다. |
 
@@ -3144,7 +3123,7 @@ target/r_release-notes-2014.xml
 **수정 사항**
 
 * 활동 간을 탐색할 때 보고 그래프가 생성되지 않던 문제를 수정했습니다.
-* 선택된 링크가 사용자가 **[!UICONTROL 목표 및 설정]**페이지에서[!UICONTROL 링크 선택]을 클릭했을 때 선택된 것으로 표시되지 않던 문제를 수정했습니다.
+* 선택된 링크가 사용자가 **[!UICONTROL 목표 및 설정]** 페이지에서 [!UICONTROL 링크 선택]을 클릭했을 때 선택된 것으로 표시되지 않던 문제를 수정했습니다.
 
 * [!UICONTROL 개요] 페이지에서 새 활동이 활성화된 후 [!UICONTROL 활동 목록]에 표시되지 않던 문제를 수정했습니다.
 
@@ -3395,7 +3374,7 @@ target/r_release-notes-2014.xml
 * Target Advanced에서 지리적 위치가 비활성화되어 있을 때 Target Standard에서 지역 대상이 생성되면 동기화 오류가 발생합니다.
 * 이미지가 CSS에서 참조된 경우 교환할 수 없습니다.
 * Visual Experience Composer를 사용하여 다시 정렬한 요소에는 클릭 추적이 작동하지 않습니다. 이 버그가 수정될 때까지 다시 정렬된 요소에 대해서는 클릭 추적을 설정하지 마십시오.
-* 사용자는 mbox에 래핑된 콘텐츠에 대해 **[!UICONTROL 제거]**작업을 선택할 수 없습니다.
+* 사용자는 mbox에 래핑된 콘텐츠에 대해 **[!UICONTROL 제거]** 작업을 선택할 수 없습니다.
 
 ### Adobe Target Standard 1.2(2013년 10월 31일) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
@@ -3427,7 +3406,7 @@ target/r_release-notes-2014.xml
 
 | 기능 | 설명 |
 |---|---|
-| Target Standard 내 [!DNL mbox.js] 다운로드 | Target Standard 인터페이스의 [!DNL mbox.js]설정&#x200B;**[!UICONTROL >]**구현**[!UICONTROL &#x200B;에서 ]** 파일을 이제 직접 다운로드할 수 있습니다. 이전에는 Target Advanced 내에서 파일을 다운로드하거나 계정 담당자 또는 컨설턴트가 제공해야 했습니다. |
+| Target Standard 내 [!DNL mbox.js] 다운로드 | Target Standard 인터페이스의 [!DNL mbox.js]설정&#x200B;**[!UICONTROL >]** 구현&#x200B;**[!UICONTROL 에서]** 파일을 이제 직접 다운로드할 수 있습니다. 이전에는 Target Advanced 내에서 파일을 다운로드하거나 계정 담당자 또는 컨설턴트가 제공해야 했습니다. |
 
 이 릴리스에는 다음과 같은 수정 사항 및 개선 사항이 포함됩니다.
 
