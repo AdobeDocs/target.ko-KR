@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
+source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
 
 ---
 
@@ -134,11 +134,6 @@ source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
       + [Adobe Analytics에 활동 정보 보내기](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [타겟 모바일 미리 보기](c-target-mobile-app/target-mobile-preview.md)
       + [오퍼 콘텐츠 미리 가져오기](c-target-mobile-app/prefetch-offer-content.md)
-      + 모바일 앱 시각적 경험 작성기 {#composer}
-         + [모바일 앱 시각적 경험 작성기](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)
-         + [Android - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
-         + [iOS - 모바일 앱 설정](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
-         + [모바일 VEC에서 클릭 추적 설정](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [위치 서비스 사용](/help/c-target-mobile-app/use-location-service.md)
    + 서버 측: Target 구현 {#server-side}
