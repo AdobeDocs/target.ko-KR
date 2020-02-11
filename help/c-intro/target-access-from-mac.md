@@ -1,12 +1,12 @@
 ---
-keywords: Experience Cloud;로그인
+keywords: Experience Cloud;sign in
 description: Adobe Experience Cloud에서 Adobe Target에 액세스하기 위한 지침입니다.
 title: Adobe Experience Cloud에서 Target에 액세스
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![Target 아이콘](/help/c-intro/assets/appmenu-target-new.png)
 
-1. [!DNL Target] 카드에서 **[!UICONTROL 시작]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 카드에서]**&#x200B;시작[!DNL Target]을 클릭합니다.
 
    ![Target 실행](/help/c-intro/assets/target-launch-new.png)
 
@@ -62,7 +62,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 대만어
    * 한국어
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 1. [!DNL Adobe Experience Cloud] 또는 [!DNL Target]에서 로그아웃한 다음 다시 로그인하여 변경 사항을 적용하십시오.
 
@@ -91,7 +91,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 대만어
 * 한국어
 
-## 교육 비디오: Experience Cloud의 Adobe Target(4:59)
+## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
 
 이 비디오에는 [!DNL Experience Cloud]의 [!DNL Adobe Target]에 대한 정보가 포함되어 있습니다.
 
