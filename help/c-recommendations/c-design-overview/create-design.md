@@ -1,10 +1,10 @@
 ---
-keywords: 권장 사항 디자인;디자인 만들기;디자인 복사
+keywords: recommendations design;create design;copy design
 description: 디자인은 페이지에 권장 사항이 어떻게 나타나는지를 정의합니다.
 title: 디자인 만들기
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 디자인은 페이지에 권장 사항이 어떻게 나타나는지를 정의합니다.
 
-기본 디자인을 사용하거나 사용자 지정 디자인을 만들어 [!UICONTROL 권장 사항] 디자인을 만들 수 있습니다. **[!UICONTROL 권장 사항 &gt; 디자인]화면에는 기본 디자인 카드와 사용자가 만든 모든 디자인이 표시됩니다.** 기본 디자인은 편집하거나 삭제할 수 없습니다.
+기본 디자인을 사용하거나 사용자 지정 디자인을 만들어 [!UICONTROL 권장 사항] 디자인을 만들 수 있습니다. **[!UICONTROL 권장 사항 > 디자인]** 화면에는 기본 디자인 카드와 사용자가 만든 모든 디자인이 표시됩니다. 기본 디자인은 편집하거나 삭제할 수 없습니다.
 
-1. **[!UICONTROL 권장 사항 &gt; 디자인]** 화면에서 만들려는 디자인에 대한 카드 위로 마우스를 가져갑니다.
+1. **[!UICONTROL 권장 사항 > 디자인]** 화면에서 만들려는 디자인에 대한 카드 위로 마우스를 가져갑니다.
 
    ![](assets/Card_CopyDesign.png)
 
@@ -23,13 +23,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    또는
 
-   사용자 지정 디자인을 만들려면 ****&#x200B;권장 사항 &gt; 디자인] 화면에서 **[!UICONTROL 디자인 만들기]를 클릭합니다.[!UICONTROL **
+   사용자 지정 디자인을 만들려면 **[!UICONTROL 권장 사항 > 디자인]** 화면에서 **[!UICONTROL 디자인 만들기]**&#x200B;를 클릭합니다.
 
    ![](assets/createDesign.png)
 
 1. **[!UICONTROL 컨텐츠 이름]**&#x200B;을 추가합니다.
 
-   기본 디자인을 사용하면 디자인 이름과 "복사본"이 **[!UICONTROL 컨텐츠 이름]필드에 나타납니다.** 이름을 편집할 수 있습니다. 1. (선택 사항): 디자인 카드에 표시할 이미지를 선택하려면 클릭합니다.
+   기본 디자인을 사용하면 디자인 이름과 &quot;복사본&quot;이 **[!UICONTROL 컨텐츠 이름]** 필드에 나타납니다. 이름을 편집할 수 있습니다. 1. (선택 사항): 디자인 카드에 표시할 이미지를 선택하려면 클릭합니다.
 1. 디자인 **[!UICONTROL 코드]**&#x200B;를 편집합니다.
 
    권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 [](https://velocity.apache.org)https://velocity.apache.org에서 알 수 있습니다.
@@ -40,13 +40,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >하드 코딩되거나 루프를 통해 디자인에서 참조할 수 있는 최대 개체 수는 99개입니다.
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 교육 비디오: 추천에서 사용자 지정 디자인 만들기(3:20)
+## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
 * 사용자 지정 디자인 만들기
 * 디자인에서 디스플레이 변수를 참조하는 방법 이해하기
 
->[!VIDEO](https://video.tv.adobe.com/v/27687?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)
