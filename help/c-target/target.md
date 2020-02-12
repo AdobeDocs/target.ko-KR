@@ -1,10 +1,10 @@
 ---
-keywords: 타깃팅;대상;백분율 타겟
+keywords: Targeting;audiences;percentage target
 description: 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅하는 데 Adobe Target의 대상을 사용합니다.
 title: Adobe Target의 대상
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 방문자가 타겟 대상의 일부로 식별되는 경우, [!DNL Target]에서는 활동을 만들 때 설정한 기준을 기반으로, 어느 경험을 표시할지를 결정합니다.
 
-## 교육 비디오: 활동 타깃팅 (2:13)
+## 교육 비디오: 활동 타깃팅 (2:13) ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에는 타깃팅 및 대상 설정에 대한 정보가 포함되어 있습니다.
 
@@ -34,4 +34,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 트래픽 할당 방법 선택
 * 서로 다른 경험에 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
