@@ -1,11 +1,11 @@
 ---
-keywords: 대상;성향;프로필 속성;비교하기;비교;대상 만들기;대상 작성
+keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
 description: 타겟 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
 title: 프로필 속성 비교 대상 만들기 Adobe Target에서
-topic: 고급,Standard,Classic
+topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 프로필 속성 비교 대상 만들기 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]** &gt; **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 방문자 프로필]드롭다운 목록에서 속성을 선택합니다.**
+1. **[!UICONTROL 대상]** > **[!UICONTROL 대상 만들기]** > **[!UICONTROL 규칙 추가]** > **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 방문자 프로필]** 드롭다운 목록에서 속성을 선택합니다.
 
    ![성향 점수 1](assets/propensity_score_1.png)
 
@@ -44,20 +44,20 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. **[!UICONTROL 비교 유형 선택]** 드롭다운 목록에서 **[!UICONTROL 속성]**&#x200B;을 선택합니다.
 
-   "정적 값" 비교 유형을 사용하면 방문자 프로필 속성을 특정 값과 비교할 수 있습니다.
+   &quot;정적 값&quot; 비교 유형을 사용하면 방문자 프로필 속성을 특정 값과 비교할 수 있습니다.
 
    ![성향 점수 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
-   >1단계의 기본 방문자 프로필 카테고리 중 하나를 사용하는 경우(예: 새 방문자 또는 재방문자) 정적 값 선택 사항만 선택할 수 있습니다. 동적 비교 옵션은 기본 카테고리에 사용할 수 없습니다. 동적 비교 옵션을 사용할 수 없는 다른 예로는 "세션의 첫 페이지", "다른 테스트에 없음", "세션의 첫 페이지 아님", "카테고리 친화성"이 있습니다.
+   >1단계의 기본 방문자 프로필 카테고리 중 하나를 사용하는 경우(예: 새 방문자 또는 재방문자) 정적 값 선택 사항만 선택할 수 있습니다. 동적 비교 옵션은 기본 카테고리에 사용할 수 없습니다. 동적 비교 옵션을 사용할 수 없는 다른 예로는 &quot;세션의 첫 페이지&quot;, &quot;다른 테스트에 없음&quot;, &quot;세션의 첫 페이지 아님&quot;, &quot;카테고리 친화성&quot;이 있습니다.
 
 1. 초기 속성과 비교할 추가 속성을 선택합니다.
 
    ![](assets/propensity_score_4.png)
 
-## 교육 비디오 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## 교육 비디오 {#section_3BB8DBF3418F4520B3E274B6F40AF8F3} 개요 ![배지](/help/assets/overview.png)
 
 이 기능을 사용할 수 있는 시나리오 및 자세한 내용은 비디오를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/)
