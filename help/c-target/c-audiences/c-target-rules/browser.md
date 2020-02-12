@@ -1,11 +1,11 @@
 ---
-keywords: 브라우저 선택 사항;유형;브라우저 유형;브라우저 언어;언어;버전;브라우저 버전
+keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Adobe Target에서 페이지를 방문할 때 특정 브라우저나 특정 브라우저 선택 사항을 사용하는 타겟 사용자에 대한 대상을 만들 수 있습니다.
 title: Adobe Target 대상의 브라우저 옵션
-subtopic: 다변량 테스트
+subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,11 +35,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **사용자 지정된 브라우저 대상 규칙:**&#x200B;사용자 지정된 대상을 이용하면 여러 브라우저를 타깃팅하거나 특정 브라우저, 브라우저 버전 또는 브라우저 언어에 대한 규칙 또는 제외를 설정할 수 있습니다. 이 기능은 브라우저 속성을 기반으로 캠페인을 타깃팅할 때 상당한 유연성을 제공합니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상자]** > **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 브라우저]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** > **[!UICONTROL 브라우저]**&#x200B;를 클릭합니다.
 
-   ![규칙 &gt; 브라우저](assets/target_browser.png)
+   ![규칙 > 브라우저](assets/target_browser.png)
 
 1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
@@ -47,8 +47,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * **언어:** 특정 언어를 사용하도록 설정된 특정 브라우저를 타깃팅하거나 제외합니다. [언어](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)를 참조하십시오.
    * **버전:** 특정 브라우저 버전을 타깃팅하거나 제외합니다. [버전](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)을 참조하십시오.
 
-1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. (선택 사항) **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 대상에 대한 추가 규칙을 설정합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 다음 예는 버전 10 또는 11에서 Internet Explorer 사용자를 포함하는 대상을 보여줍니다.
 
@@ -117,11 +117,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 여러 선택 사항은 OR로 연결됩니다.
 
-## 교육 비디오: 대상 만들기
+## 교육 비디오: 대상 만들기 자습서 ![배지](/help/assets/tutorial.png)
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
