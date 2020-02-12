@@ -1,11 +1,11 @@
 ---
-keywords: mvt;다변량 테스트;위치 기여도 보고서
+keywords: mvt;multivariate test;location contribution report
 description: 위치 기여도 보고서는 각 요소 및 각 오퍼의 성과를 보여줍니다.
 title: 위치 기여도 보고서(MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -30,8 +30,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![](assets/locationcontributionbottom.png)
 
-## 교육 비디오: MVT 테스트 만들기
+## 교육 비디오: MVT 테스트 만들기 자습서 ![배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 작성하는 방법을 보여줍니다. 위치 기여도 보고서는 8:45부터 설명됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
