@@ -1,10 +1,10 @@
 ---
-keywords: 다변량 테스트;mvt;경험 성과 보고서
+keywords: multivariate test;mvt;experience performance report
 description: 경험 성과 보고서는 활동에서 각 경험의 성과를 보여줍니다. 이 보고서에는 참여자 수, 전환율, 상승도, 신뢰도에 대한 정보가 포함됩니다.
 title: 경험 성과 보고서(MVT)
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 경험 성과 보고서는 활동에 있는 각 경험의 성과를 보여줍니다. 이 보고서에는 참여자 수, 전환율, 상승도 및 신뢰도에 대한 정보가 포함되어 있습니다.
 
-하나 이상의 경험을 선택하여 비교할 수 있습니다. 경험을 클릭하고 **[!UICONTROL 미리 보기]를 선택하여 브라우저 탭에서 경험을 엽니다.**
+하나 이상의 경험을 선택하여 비교할 수 있습니다. 경험을 클릭하고 **[!UICONTROL 미리 보기]**&#x200B;를 선택하여 브라우저 탭에서 경험을 엽니다.
 
 ![](assets/experienceperformancetable.png)
 
@@ -33,8 +33,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 그래프 아래의 표는 각 경험을 본 참여자의 수와 성공 지표와 관련된 기타 정보를 보여줍니다.
 
-## 교육 비디오: MVT 테스트 만들기
+## 교육 비디오: MVT 테스트 만들기 자습서 ![배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 작성하는 방법을 보여줍니다. 경험 성과 보고서는 8:20부터 설명됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
