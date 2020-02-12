@@ -5,7 +5,7 @@ title: Adobe Target 소개
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -101,7 +101,7 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 [Adobe Target 시작 키트](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## ![개요 배지](/help/assets/overview.png) 교육 비디오:활동 유형(9:03)
+## 교육 비디오:활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형과 어떻게 Target의 3단계 안내가 있는 워크플로우가 여러분이 사이트 목표를 달성하는 데 도움이 될 수 있는지에 대해 설명합니다.
 
