@@ -1,10 +1,10 @@
 ---
-keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
+keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target 시각적 경험 작성기(VEC)를 사용하십시오.
 title: 권장 사항 활동 만들기
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target 시각적 경험 작성기(VEC)를 사용하십시오.
 
-1. **[!UICONTROL 활동 만들기]** &gt; **[!UICONTROL 권장 사항]**&#x200B;을 클릭합니다.
+1. Click **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
 
    ![권장 사항 활동 만들기](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
@@ -29,7 +29,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >이전 그림에서 [!UICONTROL 작업 공간 선택[ 선택 사항은 ](/help/administrating-target/c-user-management/property-channel/property-channel.md)Target Premium[](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.]
+   >이전 그림에서 [!UICONTROL [작업 공간 선택](/help/administrating-target/c-user-management/property-channel/property-channel.md) 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.]
 
 1. (조건부) [Target Premium 고객](/help/c-intro/intro.md#premium)인 경우 [작업 공간](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
@@ -43,7 +43,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    [!UICONTROL 다음]을 클릭하면 VEC가 열리고 페이지가 표시됩니다. 현재 요소를 권장 사항으로 바꾸거나 권장 사항을 삽입할 수 있습니다.
 
-1. 페이지의 요소를 클릭한 다음, 해당 요소가 있는 위치에서 권장 사항을 사용할 수 있는 경우 **[!UICONTROL 권장 사항으로 바꾸기]**, **[!UICONTROL 앞에 권장 사항 삽입]** 또는 **[!UICONTROL 다음 항목 뒤에 권장 사항 삽입]**&#x200B;을 클릭합니다.
+1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
    ![권장 사항 옵션](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
@@ -69,7 +69,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    >[!NOTE]
    >
-   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]선택란을 선택 취소하십시오.** [!UICONTROL 호환] 선택 사항은 권장 사항 설정(**[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 설정]** &gt; **[!UICONTROL 호환되지 않는 기준 필터링]**)에 따라 표시되지 않을 수 있습니다. 자세한 내용은 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
+   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]** 선택란을 선택 취소하십시오. [!UICONTROL 호환] 옵션은 권장 사항 설정(**[!UICONTROL 권장 사항]** > **[!UICONTROL 설정]** > **[!UICONTROL 호환되지 않는 기준 필터링]**)에 따라 표시되지 않을 수 있습니다. 자세한 내용은 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
 
    ![기준 선택 대화 상자](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -79,8 +79,8 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
       일부 기준은 [!DNL Recommendations]에서 제공됩니다. 사용자와 팀이 고유의 사용자 지정 기준을 만들 수도 있습니다.
 
-   * 새 기준을 만들려면 **[!UICONTROL 기준 만들기]** &gt; **[!UICONTROL 기준 만들기]**&#x200B;를 클릭하고 새 기준에 대한 정보를 입력합니다. 새 기준 만들기에 대한 내용은 [기준 만들기](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
-   * 기준을 시퀀스로 그룹화할 수도 있습니다. 새 기준 시퀀스를 만들려면 **[!UICONTROL 기준 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 자세한 내용은 [기준 시퀀스 만들기](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 새 기준 만들기에 대한 내용은 [기준 만들기](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
+   * 기준을 시퀀스로 그룹화할 수도 있습니다. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 자세한 내용은 [기준 시퀀스 만들기](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. [디자인](/help/c-recommendations/c-design-overview/design-overview.md)을 선택합니다.
@@ -95,12 +95,12 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
       여러 기준을 선택한 경우 디자인을 한 개만 선택할 수 있습니다.
 
-   * 사용자 지정 디자인을 만들려면 **[!UICONTROL 디자인 만들기]**&#x200B;를 클릭하고 새 디자인의 이름과 코드를 입력합니다. **[!UICONTROL 다음]**&#x200B;을 클릭한 후 이미지를 선택하거나 업로드하고 **[!UICONTROL 완료]** &gt; **[!UICONTROL 완료]** 를 클릭합니다. 새 디자인 만들기에 대한 내용은 [디자인 만들기](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)를 참조하십시오.
+   * 사용자 지정 디자인을 만들려면 **[!UICONTROL 디자인 만들기]**&#x200B;를 클릭하고 새 디자인의 이름과 코드를 입력합니다. **[!UICONTROL 다음]**&#x200B;을 클릭한 후 이미지를 선택하거나 업로드하고 **[!UICONTROL 완료]** > **[!UICONTROL 완료]**&#x200B;를 클릭합니다. 새 디자인 만들기에 대한 내용은 [디자인 만들기](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14)를 참조하십시오.
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    권장 사항에 프로모션을 추가할 수 있는 옵션이 있습니다. 전면 및 후속 프로모션을 추가하는 방법에 대한 자세한 내용은 [프로모션 추가](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    VEC 화면은 페이지에 권장 사항 디자인을 표시합니다.
 
@@ -165,6 +165,6 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    활동 충돌은 여러 활동이 동일한 페이지로 콘텐츠를 전달하도록 설정되어 있을 때 발생하며, 이로 인해 예상치 못한 콘텐츠가 표시될 수 있습니다.
 
-## 교육 비디오: 추천 활동 만들기(7:15)
+## 교육 비디오: 추천 활동 만들기(7:15) 자습서 ![배지](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/27688?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)
