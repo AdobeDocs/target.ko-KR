@@ -1,11 +1,11 @@
 ---
-keywords: 권장 사항;설정;이름;목표;우선순위;지속 기간;보고 설정;기타 메타데이터
+keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: 여러 설정을 사용하여 Adobe Target에서 권장 사항 활동을 설명하고 제어할 수 있습니다.
 title: Adobe Target의 권장 사항 활동 설정
-subtopic: 권장 사항
+subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -62,7 +62,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 활동에 대한 메모를 입력합니다.
 
-## 교육 비디오: 활동 설정(3:02)
+## 교육 비디오:활동 설정(3:02) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에는 활동 설정에 대한 정보가 포함되어 있습니다.
 
@@ -72,4 +72,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 보고서 필터를 작성하기 위해 보고 대상 추가
 * 활동에 대한 메모 입력
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
