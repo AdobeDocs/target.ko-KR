@@ -4,7 +4,7 @@ description: Adobe Target의 MVT(다변량 테스트)는 페이지의 요소에 
 title: 다변량 테스트
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 9231f202c64a6b00e9b026fa205e1966b6ab24d9
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -87,7 +87,7 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 활동 유형(9:03)
+### 활동 유형(9:03) 개요 ![배지](/help/assets/overview.png)
 
 이 개요 비디오에서는 Target Standard/Premium에서 사용할 수 있는 활동 유형을 설명합니다. 다변량 테스트는 4:20부터 설명합니다.
 
@@ -97,7 +97,7 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 다변량 테스트 만들기(9:25)
+### 다변량 테스트 만들기(9:25) ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 이해, 계획 및 작성하는 방법을 설명합니다.
 
