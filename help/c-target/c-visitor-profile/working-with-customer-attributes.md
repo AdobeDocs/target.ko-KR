@@ -1,12 +1,12 @@
 ---
-keywords: 고객 레코드 서비스;crs;crm;mbox3rdpartyid;고객 속성;타깃팅
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
 description: Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 Adobe Target에서의 컨텐츠 타깃팅을 위해 고객 관계 관리(CRM) 데이터베이스의 엔터프라이즈 고객 데이터를 사용하는 방법에 대한 정보입니다.
-title: 고객 속성 Adobe Target에서
-subtopic: 시작하기
+title: Adobe Target의 고객 속성
+subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,7 +25,7 @@ The Audiences core service is part of the [!DNL Adobe Experience Cloud] and prov
 
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see "Prerequisites for uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
 
    >[!NOTE]
    >
@@ -33,9 +33,9 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 현재 설계에서는 소량의 데이터가 온보딩되지 않을 수 있습니다.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 자세한 내용은 방문자 프로필 [라이프타임을 참조하십시오](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). `authState`가 UNAUTHENTICATED (1)로 변경되는 경우 프로필이 재생됩니다.
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). `authState`가 UNAUTHENTICATED (1)로 변경되는 경우 프로필이 재생됩니다.
 
-   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. 인증된 프로필을 가져오려면 `vst.myDataSource.authState` 값이 1(AUTHENTICATED)이어야 합니다.
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. 인증된 프로필을 가져오려면 `vst.myDataSource.authState` 값이 1(AUTHENTICATED)이어야 합니다.
 
 * `mbox3rdPartyID`에서 더하기 기호(+)와 슬래시(/)는 보낼 수 없습니다.
 
@@ -100,7 +100,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 ### 타깃팅 대상자 만들기
 
-[!DNL Target]에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속성을 선택할 수 있습니다.  모든 고객 속성에는 목록에 &lt; data_source_name &gt; 접두사가 있습니다. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
+[!DNL Target]에서는 대상을 만들 때 방문자 프로필 섹션에서 고객 속성을 선택할 수 있습니다.  모든 고객 속성에는 목록에 &lt; data_source_name > 접두사가 있습니다. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
 
 ![Target 대상](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -146,8 +146,8 @@ Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속�
 
 위의 행 1과 2의 문제는 이 영역에서 약 60%의 오류를 유발합니다. 행 3의 문제는 약 30%의 오류를 유발합니다. 행 4의 문제는 약 5%의 오류를 유발합니다. 나머지 5%는 기타 문제로 인해 발생합니다.
 
-## 교육 비디오: 고객 속성을 사용하여 오프라인 데이터 업로드 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## 교육 비디오: 고객 속성을 사용하여 오프라인 데이터 업로드 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} 자습서 ![배지](/help/assets/tutorial.png)
 
-이 비디오는 오프라인 CRM, 도움말 데스크, POS 및 기타 마케팅 데이터를 Experience Cloud 사용자 서비스로 가져오고 알려진 ID를 사용하여 방문자와 연결하는 방법을 보여 줍니다.
+이 비디오에서는 오프라인 CRM, 헬프데스크, POS 및 기타 마케팅 데이터를 Experience Cloud People 서비스로 가져와서 알려진 ID를 사용하여 방문자와 연결하는 방법을 보여줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17802t1/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17802t1/)
