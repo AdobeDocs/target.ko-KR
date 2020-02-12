@@ -1,11 +1,11 @@
 ---
-keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동
+keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target의 시각적 경험 작성기를 사용하십시오.
 title: A/B 테스트 만들기
-topic: 고급,Standard,Classic
+topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target의 시각적 경험 작성기를 사용하십시오.
 
-1. [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** &gt; **[!UICONTROL A/B 테스트]**&#x200B;를 클릭합니다.
+1. From the [!UICONTROL Activities] list, click **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
 
    ![활동 만들기 드롭다운 목록](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -36,7 +36,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >이전 그림에서 [!UICONTROL 작업 공간 선택[ 선택 사항은 ](/help/administrating-target/c-user-management/property-channel/property-channel.md)Target Premium[](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.]
+   >이전 그림에서 [!UICONTROL [작업 공간 선택](/help/administrating-target/c-user-management/property-channel/property-channel.md) 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.]
 
 1. (조건부) [Target Premium 고객](/help/c-intro/intro.md#premium)인 경우 [작업 공간](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
@@ -71,7 +71,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    [!UICONTROL 시각적 경험 작성기]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. 경험 B를 수정하려면 3단계부터 시작하십시오.
 
-1. [!UICONTROL 시각적 경험 작성기]의 맨 위에서 **[!UICONTROL 타깃팅]**&#x200B;을 클릭하여 3단계 안내가 워크플로우에서 다음 단계로 이동합니다.
+1. **[!UICONTROL 시각적 경험 작성기]**&#x200B;의 맨 위에서 [!UICONTROL 타깃팅]을 클릭하여 3단계 안내가 워크플로우에서 다음 단계로 이동합니다.
 
    흐름 다이어그램이 열립니다.
 
@@ -86,7 +86,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    ![대상 비율](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-   예를 들어 항목 수를 모든 방문자의 50% 또는 "캘리포니아" 대상의 45%로 제한할 수 있습니다.
+   예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다.
 
 1. 트래픽 할당을 설정합니다.
 
@@ -99,7 +99,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
    * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. [자동화된 트래픽 할당](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
 
    * **[!UICONTROL 개인화된 경험에 대한 자동 타겟]**: Target은 고급 기계 학습 알고리즘을 사용하여 목표를 극대화하기 위한 최상의 경험으로 방문자를 자동으로 타깃팅합니다. 자세한 내용은 [자동 타겟으로 최적화](../../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)를 참조하십시오.
-   **[!UICONTROL 경험 추가]를 클릭하여 활동에 다른 경험을 추가할 수도 있습니다.**
+   **[!UICONTROL 경험 추가]**&#x200B;를 클릭하여 활동에 다른 경험을 추가할 수도 있습니다.
 
 1. 선택한 대상 및 경험이 만족스러우면 **[!UICONTROL 다음]**&#x200B;을 클릭하여 안내가 있는 3단계 워크플로우의 세 번째 단계로 이동합니다.
 
@@ -107,15 +107,15 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
    ![A/B 활동 설정](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 활동을 만든 후 개요 탭에는 활동의 다이어그램을 포함하여 활동에 대한 정보가 표시됩니다.
 
-## 교육 비디오: A/B 테스트 만들기(8:36)
+## 교육 비디오: A/B 테스트 만들기(8:36) 자습서 ![배지](/help/assets/tutorial.png)
 
 이 비디오에서는 [!DNL Target]의 안내가 있는 3단계 워크플로우를 사용하여 A/B 테스트를 만드는 방법을 보여 줍니다.
 
 * Adobe Target에서 A/B 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
