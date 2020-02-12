@@ -1,10 +1,10 @@
 ---
-keywords: 타깃팅;트래픽 소스;트래픽 소스 타깃팅;검색 엔진 타깃팅;검색 엔진;랜딩 페이지;랜딩 페이지 타깃팅;참조 랜딩 페이지
+keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Adobe Target에서 사이트를 안내하는 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅할 대상을 만듭니다.
 title: Adobe Target에서 트래픽 소스 타깃팅
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 여러 트래픽 소스를 결합하여 복잡한 타깃팅 규칙을 만들 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상자]** > **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 트래픽 소스]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** > **[!UICONTROL 트래픽 소스]**&#x200B;를 클릭합니다.
 
    ![](assets/target_traffic_source.png)
 
@@ -34,16 +34,16 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 참조 랜딩 페이지: 쿼리
    선택한 항목에 따라 추가 정보(평가기 및/또는 값)를 제공해야 할 수 있습니다.
 
-1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. (선택 사항) **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 대상에 대한 추가 규칙을 설정합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 특정 검색 엔진으로 또는 특정 랜딩 페이지에서 사이트를 참조하는 사용자를 타깃팅할 수 있습니다.
 
-## 교육 비디오: 대상 만들기
+## 교육 비디오: 대상 만들기 개요 ![배지](/help/assets/overview.png)
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
