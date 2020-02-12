@@ -1,10 +1,10 @@
 ---
-keywords: 기준 시퀀스;다중 기준;알고리즘;기준;권장 사항 기준
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: 최대 5개의 기준 시퀀스를 사용하여 권장 사항 활동에 표시되는 항목을 보다 강력하게 제어할 수 있습니다.
 title: 기준 시퀀스 만들기
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -39,9 +39,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [!UICONTROL 기준 시퀀스 만들기] 화면에 도달하는 여러 방법이 있습니다. 일부 화면 옵션은 화면에 도달하는 방법에 따라 달라집니다.
 
-* [!UICONTROL 권장 사항] 활동을 만드는 경우 [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준 시퀀스를 저장하는 옵션이 있습니다.
-* [!UICONTROL 권장 사항] 활동을 편집하는 경우 페이지에서 [!UICONTROL 권장 사항 위치] 상자를 클릭하고 **[!UICONTROL 기준 변경]**&#x200B;을 선택합니다. [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준을 저장하는 옵션이 있습니다.
-* **[!UICONTROL 권장 사항]** &gt; **[!UICONTROL 기준]** 라이브러리 화면에서 **[!UICONTROL 기준 만들기]** &gt; **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!UICONTROL 권장 사항] 활동에 사용 가능해집니다.
+* [!UICONTROL 권장 사항] 활동을 만드는 경우 [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준 시퀀스를 저장하는 옵션이 있습니다.
+* [!UICONTROL 권장 사항] 활동을 편집하는 경우 페이지에서 [!UICONTROL 권장 사항 위치] 상자를 클릭하고 **[!UICONTROL 기준 변경]**&#x200B;을 선택합니다. [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 새로 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 다른 [!UICONTROL 권장 사항] 활동과 함께 사용할 새 기준을 저장하는 옵션이 있습니다.
+* **[!UICONTROL 권장 사항]** > **[!UICONTROL 기준]** 라이브러리 화면에서 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!UICONTROL 권장 사항] 활동에 사용 가능해집니다.
 
 1. **[!UICONTROL 기준 만들기]** 또는 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
 
@@ -53,10 +53,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 시퀀스의 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
 
-   기준 시퀀스를 설명하는 데 사용되는 "내부" 이름입니다. 사이트 방문자에게는 이 이름이 표시되지 않습니다.
-1. 시퀀스의 여러 기준이 [!UICONTROL 권장 사항] 디자인을 채우는 데 사용될 경우 페이지에 표시할 공개 **[!UICONTROL 일반 표시 제목]**&#x200B;을 입력합니다.
+   기준 시퀀스를 설명하는 데 사용되는 &quot;내부&quot; 이름입니다. 사이트 방문자에게는 이 이름이 표시되지 않습니다.
+1. 시퀀스의 여러 기준이 **[!UICONTROL 권장 사항]** 디자인을 채우는 데 사용될 경우 페이지에 표시할 공개 [!UICONTROL 일반 표시 제목]을 입력합니다.
 
-   예를 들어 디자인에 둘 이상의 [!UICONTROL 권장 사항] 키를 기준으로 하는 항목이 포함될 수 있는 경우, "이 항목을 본 고객이 다음 항목도 본 경우..."를 "사용자에게 권장"으로 바꿀 수 있습니다.
+   예를 들어 디자인에 둘 이상의 [!UICONTROL 권장 사항] 키를 기준으로 하는 항목이 포함될 수 있는 경우, &quot;이 항목을 본 고객이 다음 항목도 본 경우...&quot;를 &quot;사용자에게 권장&quot;으로 바꿀 수 있습니다.
 1. 기준 시퀀스에 대한 간단한 **[!UICONTROL 설명]**&#x200B;을 입력합니다.
 
    설명은 기준 시퀀스를 식별하는 데 도움이 되어야 하며 용도 정보를 포함할 수 있습니다.
@@ -68,7 +68,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    여러 페이지 유형을 선택할 수 있습니다.
 
    수직 시장 및 페이지 유형을 함께 사용하여 저장된 기준 시퀀스를 분류할 수 있습니다. 이렇게 하면 다른 [!UICONTROL 권장 사항] 활동에 대한 시퀀스를 좀 더 쉽게 다시 사용할 수 있습니다.
-1. **[!UICONTROL 컨텐츠]** 규칙을 설정합니다.
+1. **[!UICONTROL 콘텐츠]** 규칙을 설정합니다.
 
    기준 시퀀스를 만들 경우 백업 권장 사항 및 부분 디자인 렌더링 설정이 해당 시퀀스를 구성하는 개별 기준에 대해 무시됩니다. 백업 권장 사항 및 부분 디자인 렌더링을 사용하려면 시퀀스에 대해 해당 기능을 활성화해야 합니다. 적절한 전환 옵션을 선택합니다. 백업 권장 사항을 허용하도록 선택하는 경우 백업에 포함 규칙을 적용할지도 선택할 수 있습니다.
 1. 시퀀스 순서를 설정합니다.
@@ -78,7 +78,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. **[!UICONTROL 추가를 클릭합니다]**.
 
    시퀀스에 최대 5개의 기준을 추가할 수 있습니다.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    기준 시퀀스가 기준 목록에 나타납니다.
 
@@ -86,7 +86,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
 
-## 교육 비디오: 추천에서 기준 만들기(12:33)
+## 교육 비디오: 추천에서 기준 만들기(12:33) !![Tutorial badge](/help/assets/tutorial.png
 
 이 비디오에는 다음 정보가 포함됩니다.
 
@@ -94,4 +94,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 기준 시퀀스 만들기
 * 사용자 지정 기준 업로드
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
