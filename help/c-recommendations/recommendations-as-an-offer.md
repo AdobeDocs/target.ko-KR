@@ -1,9 +1,9 @@
 ---
-keywords: 권장 사항;오퍼
+keywords: Recommendations;offer
 description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
 title: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -29,9 +29,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >A/B 테스트의 경우 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 선택 사항을 선택하여 트래픽을 가장 성과가 좋은 권장 사항에 자동 푸시하거나 [자동 타겟](/help/c-activities/auto-target-to-optimize.md) 선택 사항을 선택하여 방문자를 해당 프로필에 따라 맞춤 권장 사항 경험에 할당할 수 있습니다.
 
-1. [경험](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 만드는 동안 권장 사항을 오퍼로 추가할 요소를 클릭하고, **[!UICONTROL 다음 항목 앞에 삽입]**, **[!UICONTROL 다음 항목 뒤에 삽입]** 또는 **[!UICONTROL 다음으로 바꾸기]** 작업을 선택한 다음, [!UICONTROL 권장 사항]을 선택합니다.
+1. [경험](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 만드는 동안 권장 사항을 오퍼로 추가할 요소를 클릭하고 **[!UICONTROL 다음 항목 앞에 삽입]**, **[!UICONTROL 다음 항목 뒤에 삽입]** 또는 **[!UICONTROL 다음으로 바꾸기]** 작업을 선택한 다음, [!UICONTROL 권장 사항]을 선택합니다.
 
-   다음 그림은 [!UICONTROL 다음 항목 뒤에 삽입 &gt; 권장 사항] 선택 사항을 보여줍니다.
+   다음 그림은 [!UICONTROL 다음 항목 뒤에 삽입 > 권장 사항] 선택 사항을 보여줍니다.
 
    ![오퍼로서 권장 사항 삽입](/help/c-recommendations/assets/replace-after-recommendations.png)
 
@@ -81,7 +81,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 편집
 
 1. [!UICONTROL 수정 사항] 아이콘 **(`</>`)**&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
-1. 원하는 작업을 마우스로 가리킨 다음, **[!UICONTROL 편집]아이콘을 클릭합니다.**
+1. 원하는 작업을 마우스로 가리킨 다음, **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 
    ![수정 사항 패널](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -96,13 +96,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ### 편집 메뉴를 사용하여 권장 사항 오퍼 삭제
 
-1. 제거할 오퍼를 클릭한 다음, **[!UICONTROL 레이아웃 &gt; 제거를 클릭합니다]**.
+1. 제거할 오퍼를 클릭한 다음, **[!UICONTROL 레이아웃 > 제거]**&#x200B;를 클릭합니다.
 
    ![제거](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 삭제
 
-1. [!UICONTROL 수정 사항] 아이콘 **( &lt;/&gt; )**&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. [!UICONTROL 수정 사항] 아이콘 **( &lt;/> )**&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
 1. 원하는 작업을 마우스로 가리킨 다음, [!UICONTROL 삭제] 아이콘을 클릭합니다.
 
    ![삭제 아이콘](/help/c-recommendations/assets/recs-offer-delete.png)
@@ -117,6 +117,6 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![추천 오퍼 상태](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 교육 비디오:오퍼로서 권장 사항
+## 교육 비디오:오퍼로서 권장 사항 개요 ![배지](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/28878?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/28878)
