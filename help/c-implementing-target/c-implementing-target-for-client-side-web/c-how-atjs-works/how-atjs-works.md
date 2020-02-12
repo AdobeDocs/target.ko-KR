@@ -1,11 +1,11 @@
 ---
-keywords: 시스템 다이어그램;깜박임;at.js;구현;javascript 라이브러리;js;atjs
+keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송하거나 수집한 호출 및 정보의 플로우를 표시하는 Adobe Target 시스템 다이어그램입니다.
 title: Adobe Target at.js JavaScript 라이브러리의 작동 방식
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -72,7 +72,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 1 | 사용자가 인증되면 호출에서 [!DNL Experience Cloud ID] (MCID)를 반환합니다. 다른 호출은 고객 ID를 동기화합니다. | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다. |
 | 3 | 모든 구성된 매개 변수, MCID, SDID 및 고객 ID(선택 사항)를 포함하는 글로벌 mbox 요청이 이루어집니다. | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 [!UICONTROL 대상 라이브러리]의 적절한 대상(예: [!DNL Adobe Analytics], [!DNL Audience Manager] 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 배치 프로세스를 통해 [!DNL Profile Store]로 전송됩니다. |
 | 5 | [!DNL Target]에서는 URL, mbox 매개 변수 및 프로필 데이터를 기반으로 방문자에게 반환할 활동 및 경험을 결정합니다. | 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>경험은 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
-| 7 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. | 8 | [!DNL Target] 데이터는 SDID를 통해 [!DNL Analytics] 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다.<br>그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics for Target] (A4T) 보고서를 통해 [!DNL Analytics]및 [!DNL Target] 모두에서 볼 수 있게 됩니다. |
+| 7 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. | 8 | [!DNL Target] 데이터는 SDID를 통해 [!DNL Analytics] 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다.<br>[!DNL Analytics]그런 다음  데이터는 [!DNL Analytics] (A4T) 보고서를 통해 [!DNL Target]및 [!DNL Analytics for Target] 모두에서 볼 수 있게 됩니다. |
 
 ## at.js에서 HTML 콘텐츠로 오퍼를 렌더링하는 방법 {#render}
 
@@ -91,10 +91,10 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 * at.js는 비동기식으로 로드되므로 원격 스크립트 실행 순서에 대해 보장하지 않습니다.
 * 원격 스크립트는 나중에 로드 및 실행되므로 인라인 스크립트에 대한 종속성을 가지면 안 됩니다.
 
-## 교육 비디오: at.js 2.x 아키텍처 다이어그램
+## 교육 비디오:at.js 2.x 아키텍처 다이어그램 ![개요](/help/assets/overview.png) ![배지](/help/assets/overview.png)
 
 at.js 2.x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experience Cloud 솔루션과 통합됩니다. 다음 비디오에서는 모든 것이 어떻게 합쳐지는지 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 자세한 [내용은 at.js 2.x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식 이해를 참조하십시오.
