@@ -1,10 +1,10 @@
 ---
-keywords: 타깃팅;타겟 카테고리;타겟 조건;audience manager;사용자 지정 프로필 매개 변수;방문자 프로필;사용자 지정 사용자 매개 변수;타겟 규칙
+keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: 몇 가지 카테고리 중 어느 것에 대해서든 타깃팅할 수 있습니다. 각 카테고리는 각 카테고리에 대한 타깃팅 규칙(또는 그룹)을 만들 수 있는 탭으로 사용됩니다.
 title: 대상의 카테고리
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 규칙을 만든 후 **[!UICONTROL 저장을 클릭하십시오]**. 타깃팅 중인 수준에 대한 타깃팅 링크 옆에 규칙의 요약이 표시됩니다.
 
-조건을 추가하거나 다른 카테고리에 추가 규칙을 만들어 규칙을 더욱 구체화할 수 있습니다. 예를 들어 Google에서 사이트에 액세스한 샌프란시스코의 Firefox 사용자만 타깃팅하려면 [!UICONTROL 지역] 카테고리를 설정하여 샌프란시스코의 사용자를 타깃팅하고, [!UICONTROL 방문자 행동] 카테고리를 Firefox로 타깃팅하고 [!UICONTROL 트래픽 소스] 카테고리를 Google로 타깃팅합니다. 전체 카테고리에서 만든 모든 규칙이 "AND"로 결합됩니다. 카테고리 간에 "OR" 연산을 포함하는 복잡한 타깃팅 규칙을 만들려면 표현식 타겟을 만드십시오.
+조건을 추가하거나 다른 카테고리에 추가 규칙을 만들어 규칙을 더욱 구체화할 수 있습니다. 예를 들어 Google에서 사이트에 액세스한 샌프란시스코의 Firefox 사용자만 타깃팅하려면 [!UICONTROL 지역] 카테고리를 설정하여 샌프란시스코의 사용자를 타깃팅하고, [!UICONTROL 방문자 행동] 카테고리를 Firefox로 타깃팅하고 [!UICONTROL 트래픽 소스] 카테고리를 Google로 타깃팅합니다. 전체 카테고리에서 만든 모든 규칙이 &quot;AND&quot;로 결합됩니다. 카테고리 간에 &quot;OR&quot; 연산을 포함하는 복잡한 타깃팅 규칙을 만들려면 표현식 타겟을 만드십시오.
 
 사용자 지정 프로필 매개 변수와 `user.` 매개 변수를 타깃팅할 수도 있습니다. 대상을 추가할 때 **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭한 다음, 활동 타깃팅에 사용할 매개 변수를 선택합니다. 원하는 매개 변수가 나타나지 않는다면 mbox가 해당 매개 변수를 실행하지 않은 것입니다. 다른 사용자 지정 mbox 매개 변수는 [!UICONTROL 사용자 지정 매개 변수] 드롭다운 목록에서 사용할 수 있습니다.
 
@@ -25,11 +25,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 대상 이름이나 마지막으로 수정한 날짜별로 대상 목록을 정렬할 수 있습니다. 이름이나 날짜별로 정렬하려면 열 헤더를 클릭한 다음, 대상을 오름차순이나 내림차순으로 표시하도록 선택하십시오.
 
-## 교육 비디오: 대상 만들기
+## 교육 비디오:대상 자습서 ![배지 만들기](/help/assets/tutorial.png)
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
