@@ -5,7 +5,7 @@ title: 브라우저에서 혼합 컨텐츠 활성화
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -36,7 +36,7 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 
 Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가 있음](https://support.google.com/chrome/answer/1342714?hl=en)을 참조하십시오.
 
-### 교육 비디오:Chrome 버전 79.0.3945.117 이상에서 VEC 활성화(2020년 1월)
+### 교육 비디오:Chrome 버전 79.0.3945.117 이상(2020년 1월) 개요 ![배지 활성화](/help/assets/overview.png)
 
 최신 버전의 Chrome(버전 79.0.3945.117 이상)에서 VEC를 사용하는 경우 사이트 설정을 업데이트해야 합니다. 사이트 방문자는 이러한 단계를 완료할 필요가 없습니다.
 
@@ -69,12 +69,12 @@ Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가
 
 기본적으로 Internet Explorer에서는 보안 및 비보안 컨텐츠를 혼합하는 페이지를 차단합니다. 이 설정을 Target을 사용하도록 영구적으로 변경하는 것이 좋습니다.
 
-1. Internet Explorer에서 설정 아이콘 > **[!UICONTROL 인터넷 옵션]**을 클릭합니다.
+1. Internet Explorer에서 설정 아이콘 > **[!UICONTROL 인터넷 옵션]**&#x200B;을 클릭합니다.
 1. [!UICONTROL 보안] 탭을 엽니다.
-1. **[!UICONTROL 인터넷]**을 선택한 후**[!UICONTROL &#x200B;사용자 지정 수준]**을 클릭합니다.
-1. **[!UICONTROL 기타]**를 선택합니다.
-1. [!UICONTROL 기타]에서 **[!UICONTROL 혼합 컨텐츠 표시]**를 활성화합니다.
-1. **[!UICONTROL 확인]**>**[!UICONTROL &#x200B;예]** >**[!UICONTROL 적용]**을 클릭합니다.
+1. **[!UICONTROL 인터넷]**&#x200B;을 선택한 후 **[!UICONTROL 사용자 지정 수준]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 기타]**&#x200B;를 선택합니다.
+1. [!UICONTROL 기타]에서 **[!UICONTROL 혼합 컨텐츠 표시]**&#x200B;를 활성화합니다.
+1. **[!UICONTROL 확인]** > **[!UICONTROL 예]** >**[!UICONTROL 적용]**&#x200B;을 클릭합니다. 
 
 이 설정을 변경한 후 컴퓨터를 다시 시작하는 것이 좋습니다.
 
