@@ -1,10 +1,10 @@
 ---
-keywords: 다변량 테스트;mvt;mvt 계획;다변량 테스트 계획
+keywords: multivariate test;mvt;mvt plan;multivariate test plan
 description: 성공적인 테스트를 위해서는 Adobe Target의 다변량 테스트에 몇 가지 계획이 필요합니다.
 title: Adobe Target에서 다변량 테스트 계획
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -23,11 +23,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 마지막으로, 테스트를 만들기 전에 테스트할 콘텐츠를 만들어야 합니다. 각 오퍼의 콘텐츠 차이점을 파악하고 테스트에 사용할 이미지, 텍스트, HTML 오퍼를 만듭니다.
 
-## 교육 비디오: 다변량 테스트 만들기(9:25)
+## 교육 비디오:다변량 테스트 만들기(9:25) ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 계획하고 작성하는 방법을 보여줍니다.
 
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
