@@ -4,7 +4,7 @@ description: Adobe Recommendations에 가져온 엔티티를 가져오려면 피
 title: 피드
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
 
 개체 피드와 mbox 양쪽에서 데이터를 수집할 경우 가장 최근의 데이터가 우선합니다. 일반적으로 가장 최근의 데이터는 mbox가 더 자주 조회되므로 mbox에서 옵니다. 드물지만 개체 피드 데이터와 mbox 데이터가 동시에 조회되는 경우 mbox 데이터가 사용됩니다.
 
-[!UICONTROL 피드] 목록(**[!UICONTROL 권장 사항]**>**[!UICONTROL &#x200B;피드]**)에는 만들어진 피드에 대한 정보가 있습니다.
+[!UICONTROL 피드] 목록(**[!UICONTROL 권장 사항]** > **[!UICONTROL 피드]**)에는 만들어진 피드에 대한 정보가 있습니다.
 
 ![피드 페이지](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -208,19 +208,19 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 
 [!DNL Recommendations]에 제품이나 서비스에 대한 정보를 삽입하는 피드를 작성합니다.
 
-1. From within the Target interface, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Feeds]** > **[!UICONTROL Create Feed]**.
+1. From within the Target interface, click **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
 
    ![피드 만들기 대화 상자](assets/CreateFeed.png)
 
 1. 피드의 수사적 이름을 지정합니다.
-1. **[!UICONTROL 소스 유형]**을 선택합니다.
+1. **[!UICONTROL 소스 유형]**&#x200B;을 선택합니다.
 
    * CSV로 내보내기
    * Google 제품 피드
    * Analytics 분류
    CSV 및 Google 제품 피드 유형에 대한 자세한 내용은 [피드 개요](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)를 참조하십시오. You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (조건부) **[!UICONTROL CSV]**또는**[!UICONTROL  Google 제품 피드]**를 선택한 경우 피드에 액세스할 수 있는 위치를 지정합니다.
+1. (조건부) **[!UICONTROL CSV]** 또는 **[!UICONTROL Google 제품 피드]**&#x200B;를 선택한 경우 피드에 액세스할 수 있는 위치를 지정합니다.
 
    * **FTP**: FTP를 선택하는 경우 FTP 서버 정보, 로그인 자격 증명, 파일 이름 및 FTP 디렉토리를 제공하십시오. 보다 안전한 업로드를 위해 SSL을 사용하는 FTP(FTPS)를 선택할 수 있습니다.
 
@@ -233,9 +233,9 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
    * **URL**: URL을 선택하는 경우에는 URL을 지정하십시오.
 
 
-1. (조건부) **[!UICONTROL Analytics 분류]**를 선택한 경우, 드롭다운 목록에서 보고서 세트를 선택합니다.
+1. (조건부) **[!UICONTROL Analytics 분류]**&#x200B;를 선택한 경우, 드롭다운 목록에서 보고서 세트를 선택합니다.
 
-1. **[!UICONTROL 다음]**화살표를 클릭하여[!UICONTROL 예약]선택 사항을 표시합니다.
+1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 예약] 선택 사항을 표시합니다.
 
    ![단계 결과](assets/CreateFeedSchedule.png)
 
@@ -250,7 +250,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 
    이 선택 사항은 브라우저에서 사용되는 시간대를 기반으로 합니다. 다른 시간대의 시간을 사용하려면 시간대에 따라 시간을 계산해야 합니다.
 
-1. **[!UICONTROL 다음]**화살표를 클릭하여[!UICONTROL 매핑]선택 사항을 표시한 다음, 데이터를[!DNL Target]정의에 매핑하는 방식을 지정합니다.
+1. **[!UICONTROL 다음]** 화살표를 클릭하여 [!UICONTROL 매핑] 선택 사항을 표시한 다음, 데이터를 [!DNL Target] 정의에 매핑하는 방식을 지정합니다.
 
    ![단계 결과](assets/CreatFeedMapping.png)
 
@@ -258,7 +258,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 
    기본적으로 피드는 모든 호스트 그룹에 속합니다. 따라서 이 피드의 항목을 어떤 환경에서든 사용할 수 있습니다. 자세한 내용은 [호스트](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
 
-1. **[!UICONTROL 저장]**을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 피드를 만들거나 편집하면 피드가 즉시 실행된 다음, 설정하는 매개 변수에 따라 업데이트됩니다. 모든 정보를 사용할 수 있게 되는 데에는 시간이 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태가 피드 목록의 [피드 상태](/help/c-recommendations/c-products/feeds.md#status) 아래에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
 
@@ -323,7 +323,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 추천의 피드 이해(3:01)
+### 추천의 피드 이해(3:01) 개요 ![배지](/help/assets/overview.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
@@ -332,7 +332,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### 피드 만들기(6:44)
+### 피드 만들기(6:44) 자습서 ![배지](/help/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
