@@ -1,10 +1,10 @@
 ---
-keywords: 컨텐츠 라이브러리;자산;주석 달기;복사;자산 삭제;자산 다운로드;컨텐츠 편집;카드 공유;컨텐츠 속성 보기
+keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: 라이브러리에 있는 자산에 대해 수행할 수 있는 작업이 많습니다.
 title: 라이브러리에서 컨텐츠 작업
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 라이브러리의 항목을 나타내는 이미지를 변경하려면 항목을 클릭하고 **[!UICONTROL 속성]** 아이콘을 클릭하고 **[!UICONTROL 편집]**&#x200B;을 클릭한 다음, 이미지를 추가합니다.
 
-## 교육 비디오: 콘텐츠 저장소
+## 교육 비디오:컨텐츠 저장소 ![개요 배지](/help/assets/overview.png)
 
 이 비디오에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다. (4:56)
 
@@ -41,4 +41,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 사용자 지정 HTML 오퍼
 * 시각적 경험 작성기의 사용자 지정 HTML 오퍼
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
