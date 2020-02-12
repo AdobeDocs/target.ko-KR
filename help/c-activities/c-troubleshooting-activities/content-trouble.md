@@ -1,12 +1,12 @@
 ---
-keywords: mbox 디버그;mbox 문제 해결;mbox 문제;깜박임;mboxDebug;mboxTrace;토큰;디버거;우선순위;활동 우선순위;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst 구매 mbox;최상위 판매;최상위 판매자
+keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: 페이지에 예상 컨텐츠가 표시되지 않는 경우 Adobe Target에서 컨텐츠 전달을 디버깅하는 몇 가지 단계를 수행할 수 있습니다.
 title: Adobe Target에서 컨텐츠 전달 문제 해결
-subtopic: 다변량 테스트
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ mboxTrace 및 mboxDebug는 캠페인 데이터 및 프로필 데이터를 외부
 
 인증 토큰을 검색하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL mbox.js]** 또는 **[!UICONTROL at.js]**&#x200B;를 선택합니다.
 1. **[!UICONTROL 인증 토큰 생성을 클릭합니다]**.
 
@@ -107,7 +107,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 ## 전달 중 target.js가 로드되지 않는 경우 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
-전달 중에 target.js가 로드되지 않으면 Mbox.js에서는 방문자에게 "em-disabled"라는 쿠키를 보냅니다. 이 쿠키는 Visual Experience Composer를 사용하여 만든 오퍼가 사이트에서 렌더링되지 못하게 합니다. 이 쿠키가 있는 방문자는 테스트 콘텐츠를 보지 못하고 해당 활동 보고서에서 카운트되지도 않습니다. 다른 모든 오퍼 콘텐츠(예: Target Classic의 캠페인)는 계속 로드됩니다. 이 쿠키의 수명은 로드 실패 시간부터 30분입니다.
+전달 중에 target.js가 로드되지 않으면 Mbox.js에서는 방문자에게 &quot;em-disabled&quot;라는 쿠키를 보냅니다. 이 쿠키는 Visual Experience Composer를 사용하여 만든 오퍼가 사이트에서 렌더링되지 못하게 합니다. 이 쿠키가 있는 방문자는 테스트 콘텐츠를 보지 못하고 해당 활동 보고서에서 카운트되지도 않습니다. 다른 모든 오퍼 콘텐츠(예: Target Classic의 캠페인)는 계속 로드됩니다. 이 쿠키의 수명은 로드 실패 시간부터 30분입니다.
 
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -157,14 +157,14 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타깃팅 및 Target 활�
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 확장 추가
+### 확장 추가 자습서 ![배지](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### 기본 Target 디버깅
+### 기본 대상 디버깅 ![자습서 배지](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox 추적
+### Mbox 추적 ![자습서 배지](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
