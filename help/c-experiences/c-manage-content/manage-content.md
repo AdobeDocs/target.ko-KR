@@ -1,10 +1,10 @@
 ---
-keywords: 컨텐츠;자산;컨텐츠 관리;오퍼;자산 관리;선택 모드 들어가기;선택 모드
+keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리하려면 오퍼 라이브러리를 사용하십시오.
 title: 오퍼
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 >
 >2017년 1월 릴리스에서는 [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) 및 API를 통해 만들어진 오퍼가 [!DNL Target Standard/Premium] 사용자 인터페이스에 표시됩니다. 이 방법을 사용하여 지난 2년 동안(2015년 1월 이후) 업데이트된 오퍼가 표시됩니다. 초기 동기화는 조직에 있는 사용자가 처음 [!UICONTROL 오퍼] 페이지를 열 때 수행됩니다. 초기 동기화 시간은 데이터 양에 따라 다릅니다. 초기 동기화가 완료되면 데이터가 점점 더 많이 동기화됩니다. 이 릴리스 이전에 코드와 이미지가 동일한 폴더에 있었다면 [!DNL Target]에서 이 코드와 이미지를 두 개의 중복 폴더로 분할합니다. 업데이트 날짜 및 시간은 폴더를 마이그레이션한 시간을 나타내며 원래 폴더를 만든 날짜는 반영하지 않습니다.
 
-라이브러리를 열려면 **[!UICONTROL 오퍼]를 클릭하십시오.** 이 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다.
+라이브러리를 열려면 **[!UICONTROL 오퍼]**&#x200B;를 클릭하십시오. 이 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다.
 
 [!UICONTROL 오퍼] 페이지의 오른쪽에는 유형별로 오퍼를 볼 수 있는 두 개의 탭, 코드 오퍼와 이미지 오퍼가 있습니다.
 
@@ -83,7 +83,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 리디렉션 URL 유형
 * 절대 또는 상대 URL
 
-## 교육 비디오: 콘텐츠 저장소
+## 교육 비디오: 콘텐츠 저장소 개요 ![배지](/help/assets/overview.png)
 
 다음 비디오에는 오퍼 관리에 대한 정보가 포함되어 있습니다.
 
@@ -91,4 +91,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 사용자 지정 HTML 오퍼
 * 시각적 경험 작성기의 사용자 지정 HTML 오퍼
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
