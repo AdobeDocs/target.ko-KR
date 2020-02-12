@@ -1,11 +1,11 @@
 ---
-keywords: 대상;대상 선택;대상 선택;선택기
+keywords: audience;select audience;choose audience;Selectors
 description: 대상은 활동에 입력된 사이트 방문자를 판별합니다.
 title: 대상 선택
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -46,19 +46,19 @@ Target에서 [트래픽을 자동으로 할당](../../../c-activities/automated-
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Adobe Target에서 대상 사용(6:21)
+### Adobe Target에서 대상 사용(6:21) 개요 ![배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상을 사용하는 방법을 설명합니다.
 
-* 용어 "대상" 설명
+* 용어 &quot;대상&quot; 설명
 * 최적화에 대상을 사용하는 두 가지 방법 설명
 * 대상자 목록에서 대상자 찾기
 * 활동을 대상에 타깃팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/17398?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### 활동 워크플로우 - 타깃팅(2:14)
+### Activity Workflow - Targeting (2:14) Tutorial badge![](/help/assets/tutorial.png)
 
 다음 비디오에는 대상 설정에 대한 정보가 포함되어 있습니다.
 
@@ -67,6 +67,6 @@ Target에서 [트래픽을 자동으로 할당](../../../c-activities/automated-
 * 트래픽 할당 방법 선택
 * 서로 다른 경험에 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
 
 자세한 내용은 [대상](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)을 참조하십시오.
