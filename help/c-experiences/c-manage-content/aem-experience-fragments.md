@@ -5,7 +5,7 @@ title: Adobe Target의 AEM(Adobe Experience Manager) 경험 조각
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -141,7 +141,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. 경험 조각 &quot;마스터&quot; 버전은 AEM에 남습니다. You cannot edit the experience fragment in [!DNL Target].
 * JSON 오퍼를 경험 조각으로 가져올 수 [!DNL Target]있습니다. 하지만 이러한 오퍼는 HTML 오퍼로 가져옵니다. JSON 오퍼(경험 조각)는 현재 UI에서 완전히 지원되지 [!DNL Target] 않습니다.
 
-## ![자습서 배지](/help/assets/overview.png) 교육 비디오:Adobe Target에서 AEM 경험 조각 사용 {#section_C0EDC54063464F41A182492D2045BC64}
+## Training video: Using AEM Experience Fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
 
 다음 비디오에서는 경험 조각을 설정하고 사용하는 방법을 보여 줍니다.
 
