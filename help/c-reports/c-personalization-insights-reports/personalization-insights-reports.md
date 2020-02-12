@@ -4,7 +4,7 @@ description: 두 개의 전문 보고서는 AP(자동화된 개인화)와 AT(자
 title: 개인화 통찰력 보고서
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -53,7 +53,7 @@ Target은 AP 및 AT 활동에서 해당 개인화 알고리즘을 작성하는 �
 | 공유 대상(Adobe Audience Manager 또는 Adobe Analytics) | Adobe Audience Manager 또는 Adobe Analytics를 통해 생성되고 Target과 공유되는 대상입니다. | `Custom - Experience Cloud Segment - [segment name]` |
 | 활동 보고 대상/세그먼트 | &quot;목표 및 지표&quot;에서 설정하는 동안 AP 또는 자동 Target 활동에 정의된 대상입니다. | `Custom - Reporting Segment - [segment name]` |
 
-## 교육 비디오: 개인화 통찰력 보고서 사용
+## 교육 비디오: 개인화 통찰력 보고서 사용 자습서 ![배지](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
