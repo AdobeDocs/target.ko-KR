@@ -4,7 +4,7 @@ description: 항목이 추천되지 않도록 하려면 Adobe Target에서 제�
 title: Adobe Target의 제외
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,25 +19,25 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 **제외 만들기:**
 
-1. **[!UICONTROL 권장 사항]**>**[!UICONTROL &#x200B;제외]**를 클릭하여 기존 제외 목록을 표시합니다.
+1. **[!UICONTROL 권장 사항]** > **[!UICONTROL 제외]**&#x200B;를 클릭하여 기존 제외 목록을 표시합니다.
 
    ![](assets/exclusions_list.png)
 
    [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
 
-1. **[!UICONTROL 제외 만들기]**를 클릭합니다.
+1. **[!UICONTROL 제외 만들기]**&#x200B;를 클릭합니다.
 
-1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외의 컨텐츠를 미리 보는 동안 **[!UICONTROL 환경]**필터에서 환경을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
+1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외의 컨텐츠를 미리 보는 동안 **[!UICONTROL 환경]** 필터에서 환경을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
    ![제외 만들기](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. 제외 **[!UICONTROL 이름]**을 입력하고 선택적 설명을 입력합니다.
+1. 제외 **[!UICONTROL 이름]**&#x200B;을 입력하고 선택적 설명을 입력합니다.
 
 1. 규칙 빌더를 사용하여 제외 항목을 만듭니다.
 
    규칙 목록에서 매개 변수를 선택하고 연산자를 선택한 다음, 하나 이상의 값을 입력하여 제품을 식별하십시오. 여러 값을 입력할 경우에는 쉼표로 구분합니다.
 
-1. **[!UICONTROL 저장]**을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 고급 검색을 사용하여 제외 만들기
 
@@ -51,7 +51,7 @@ source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 >
 >고급 검색 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 제외를 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 제외할 의도로 제외를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 제외됩니다. &quot;Holiday&quot;를 포함하는 제품은 제외되지 않습니다.
 
-## 교육 비디오: 추천에서 컬렉션 및 제외 만들기(7:05)
+## 교육 비디오: 추천에서 컬렉션 및 제외 만들기(7:05) 자습서 ![배지](/help/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
