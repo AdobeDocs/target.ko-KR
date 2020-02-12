@@ -1,11 +1,11 @@
 ---
-keywords: at.js;at.js 디버그;adobe Experience Cloud debugger;experience cloud debugger;mbox 추적;mbox 강조 표시;디버그;디버깅
+keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud debugger;mbox trace;mbox highlight;debug;debugging
 description: Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 대한 정보이며 Target 구현을 빠르고 쉽게 이해할 수 있습니다.
 title: Adobe Experience Cloud Debugger를 사용하여 at.js 디버그
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -22,14 +22,14 @@ Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 �
 
 다음 동영상은 디버깅 절차를 안내합니다.
 
-### Adobe Experience Cloud Debugger 확장 프로그램 추가 {#section_8CD96F76E397476193529573F3199615}
+### Adobe Experience Cloud Debugger 확장 프로그램 추가 개요 {#section_8CD96F76E397476193529573F3199615} 배지 ![](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Adobe Experience Cloud Debugger를 사용하는 기본 Target 디버깅 {#section_AB2814A994DC4A86BABDD0441343D911}
+### Basic Target Debugging Using the Adobe Experience Cloud Debugger {#section_AB2814A994DC4A86BABDD0441343D911} ![Overview badge](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Mbox 추적 {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Mbox 추적 {#section_FD3BC8019FA847209AB8BCA747C50211} 개요 ![배지](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23113/)
