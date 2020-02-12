@@ -1,11 +1,11 @@
 ---
-keywords: 양식 기반 경험 작성기;양식 기반 작성기;세분화
+keywords: form-based experience composer;form-based composer;refinements
 description: 양식 기반 경험 작성기는 시각적이지 않은 경험 생성 방식을 제공합니다.
 title: 양식 기반 경험 작성기
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. **[!UICONTROL 활동 만들기]**&#x200B;를 클릭한 후 만들려는 활동 유형을 선택합니다.
 
    양식 기반 경험 작성기는 A/B 테스트, 경험 타깃팅, 자동화된 개인화 및 권장 사항 활동에 사용할 수 있습니다.
-1. [!UICONTROL 새 활동] 대화 상자에서 **[!UICONTROL 양식 기반 경험 작성기]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 새 활동]** 대화 상자에서 [!UICONTROL 양식 기반 경험 작성기]를 선택합니다.
 
    양식 기반 경험 작성기가 열립니다.
 
@@ -29,7 +29,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 1. 활동의 이름을 지정합니다.
 1. 위치를 선택합니다.
 
-   위치 선택 상자를 클릭하면 사용 가능한 위치 목록이 나타납니다. 해당 위치 중 하나를 선택합니다. target.js를 통해 전달된 글로벌 위치를 선택하려면 "target-global-mbox"를 선택합니다.
+   위치 선택 상자를 클릭하면 사용 가능한 위치 목록이 나타납니다. 해당 위치 중 하나를 선택합니다. target.js를 통해 전달된 글로벌 위치를 선택하려면 &quot;target-global-mbox&quot;를 선택합니다.
 
    여기에 나열되지 않은 위치를 입력할 수도 있습니다. 이 방식은 mbox가 페이지에서 아직 만들어졌거나 열람되지 않은 경우에 유용할 수 있습니다. 위치의 이름을 입력합니다. 아직 없는 위치를 입력할 때는 주의하십시오. 철자 또는 대소문자가 mbox 호출이 수행될 때의 철자 및 대소문자와 일치하지 않으면 활동이 전달되지 않습니다. 수동으로 입력한 위치가 목록에 저장됩니다.
 1. **[!UICONTROL 대상 개선 추가]**&#x200B;를 클릭한 다음, 이 활동에 대해 하나 이상의 [대상](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을 선택합니다.
@@ -63,14 +63,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    **HTML 오퍼 만들기:**
 
    1. [!UICONTROL 오퍼]를 클릭한 다음, [!UICONTROL 코드 오퍼] 탭을 선택합니다.
-   1. [!UICONTROL 만들기] &gt; [!UICONTROL HTML 오퍼]를 클릭합니다.
+   1. [!UICONTROL 만들기] > [!UICONTROL HTML 오퍼]를 클릭합니다.
    1. 오퍼 이름을 입력합니다.
    1. 코드 상자에 HTML 코드를 입력하거나 붙여넣습니다.
    1. [!UICONTROL 저장]을 클릭합니다.
    **JSON 오퍼 만들기:**
 
    1. [!UICONTROL 오퍼]를 클릭한 다음, [!UICONTROL 코드 오퍼] 탭을 선택합니다.
-   1. [!UICONTROL 만들기] &gt; [!UICONTROL JSON 오퍼]를 클릭합니다.
+   1. [!UICONTROL 만들기] > [!UICONTROL JSON 오퍼]를 클릭합니다.
    1. 오퍼 이름을 입력합니다.
    1. 코드 상자에 JSON 코드를 입력하거나 붙여 넣습니다.
    1. [!UICONTROL 저장]을 클릭합니다.
@@ -91,7 +91,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * [경험 타깃팅 활동 만들기](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [권장 사항 활동 만들기](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## 교육 비디오: 양식 기반 작성기
+## 교육 비디오: 양식 기반 작성기 자습서 ![배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 양식 기반 작성기 데모를 제공합니다.
 
@@ -99,4 +99,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 언제 양식 기반 경험 작성기를 사용하고 언제 시각적 경험 작성기를 사용할지 이해
 * 개선을 통해 위치 타깃팅
 
->[!VIDEO](https://video.tv.adobe.com/v/17390?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
