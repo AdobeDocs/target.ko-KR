@@ -1,11 +1,11 @@
 ---
-keywords: A/B;활동 지표;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
+keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 title: 지표 설정
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -53,12 +53,12 @@ A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기�
 | - | 빼기 |
 | @ | 로그인 |
 
-## 교육 비디오: 활동 지표(7:43)
+## 교육 비디오: 활동 지표(7:43) 자습서 ![배지](/help/assets/tutorial.png)
 
 이 비디오에는 성공 지표 사용에 대한 정보가 포함되어 있습니다.
 
-* "목표" 지표 이해
+* &quot;목표&quot; 지표 이해
 * 변환, 수입 및 참여 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
