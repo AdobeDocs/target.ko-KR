@@ -4,7 +4,7 @@ description: 모바일 뷰포트는 다양한 크기의 화면에서 활동이 �
 title: 응답형 경험을 위한 모바일 뷰포트
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -73,8 +73,8 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 경험을 만들 때 사용 가능하게 할 모바일 뷰포트를 구성하십시오.
 
-1. Click **[!UICONTROL Setup]**>**[!UICONTROL  Preferences]**.
-1. 계정 환경 설정 페이지의 모바일 뷰포트 구성 섹션에서 **[!UICONTROL 새로 추가]**를 클릭하여 모바일 뷰포트를 추가합니다.
+1. Click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
+1. 계정 환경 설정 페이지의 모바일 뷰포트 구성 섹션에서 **[!UICONTROL 새로 추가]**&#x200B;를 클릭하여 모바일 뷰포트를 추가합니다.
 
    기존 모바일 뷰포트의 구성을 변경하려면 해당 뷰포트를 선택하고 편집(연필) 아이콘을 클릭합니다.
 
@@ -99,15 +99,15 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
    * Symbian
    * Blackberry
    [고급 경험 작성기](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)를 사용하고 운영 체제를 선택하는 경우, 페이지를 볼 때 Target에서 해당 장치를 에뮬레이트합니다. 예를 들어, 응답형 사이트에서 Android의 모양과 느낌이 iOS와 다른 경우 Target은 해당 동작을 모방합니다.
-1. **[!UICONTROL 저장]**을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 응답형 경험 만들기 {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 모바일 화면을 위한 응답형 경험을 만들려면 모바일 뷰포트를 Target 활동에 추가하십시오.
 
 1. 활동을 만듭니다.
-1. 시각적 경험 작성기에서 **[!UICONTROL 설정]**톱니바퀴 아이콘을 클릭하고**[!UICONTROL &#x200B;모바일 뷰포트 추가]**를 선택합니다.
-1. **[!UICONTROL 장치]**아이콘을 클릭한 다음, 모바일 뷰포트가 필요한 각 장치를 활성화합니다.
+1. 시각적 경험 작성기에서 **[!UICONTROL 설정]** 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL 모바일 뷰포트 추가]**&#x200B;를 선택합니다.
+1. **[!UICONTROL 장치]** 아이콘을 클릭한 다음, 모바일 뷰포트가 필요한 각 장치를 활성화합니다.
 
    ![](assets/MobileViewPorts.jpg)
 
@@ -126,7 +126,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 이 사용 사례에서는 Target Standard의 모바일 뷰포트 기능을 사용하여 iPhone 6과 iPhone 6 Plus, 이 두 가지 iPhone 버전을 위한 경험을 구성하는 방법을 보여줍니다.
 
-1. In Target Standard, click **[!UICONTROL Setup]**>**[!UICONTROL  Preferences]**.
+1. In Target Standard, click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
 1. 기본 설정 페이지의 모바일 뷰포트 구성 섹션에서 iPhone 6 및 iPhone 6 plus에 대한 모바일 뷰포트를 만듭니다.
 
    각 뷰포트에 다음 설정을 사용합니다.
@@ -140,19 +140,19 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 1. 타깃팅하려는 경험으로 활동을 만듭니다.
 1. iPhone 6 또는 iPhone 6 Plus에서 사이트에 액세스하는 방문자를 타깃팅하려는 경험을 선택합니다.
-1. 타겟을 선택할 때 **[!UICONTROL 대상 만들기]**를 클릭한 다음, 아래 그림과 같이 대상을 구성합니다.
+1. 타겟을 선택할 때 **[!UICONTROL 대상 만들기]**&#x200B;를 클릭한 다음, 아래 그림과 같이 대상을 구성합니다.
 
    ![](assets/iphoneaudiences.png)
 
    휴대폰은 가로로 회전할 수 있으므로 높이와 너비를 둘 다 320보다 크게 지정하면 iPhone 장치 모델과 결합할 때 6 및 6 Plus만 충족할 수 있는 조건이 동시에 생성됩니다.
-1. **[!UICONTROL 저장]**을 클릭합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 평소대로 활동을 계속 설정합니다.
 
 ## 교육 비디오
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 시각적 경험 작성기(2/2)(7:29)
+### 시각적 경험 작성기(2/2)(7:29) 개요 ![배지](/help/assets/overview.png)
 
 다음 데모 비디오에는 시각적 경험 작성기에서 모바일 뷰포트로 작업하는 방법에 대한 정보가 포함되어 있습니다.
 
@@ -165,7 +165,7 @@ source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target의 계정 환경 설정
+### Adobe Target 개요 배지의 계정 ![환경 설정](/help/assets/overview.png)
 
 이 비디오에는 계정 기본 설정에서 모바일 뷰포트를 설정하는 방법에 대한 정보가 포함되어 있습니다. 이 내용은 비디오의 4분 40초부터 시작됩니다.
 
