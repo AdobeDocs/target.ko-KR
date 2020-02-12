@@ -4,7 +4,7 @@ description: Adobe Target의 Recommendations 활동은 이전 사용자 활동 �
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -43,7 +43,7 @@ source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 이러한 기준 및 기타 [!DNL Recommendations] 기준에 대한 자세한 내용은 [기준](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
 
-## ![개요 배지](/help/assets/overview.png) 교육 비디오:활동 유형
+## 교육 비디오: 활동 유형 개요 ![배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!DNL Recommendations]은 7:20부터 설명합니다.
 
@@ -53,7 +53,7 @@ source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target 기본 사항 웨비나: Recommendations 소개 {#intro-to-recs}
+## Adobe Target 기본 사항 웨비나: Recommendations 소개 {#intro-to-recs} 자습서 ![배지](/help/assets/tutorial.png)
 
 *권장 사항 소개* 웨비나에서는 [!DNL Adobe Target Recommendations] 값을 활용하는 방법에 대한 심층적인 설명을 포함합니다. 이 [!DNL Target] 활동에서는 이전 방문 횟수에 따라 실시간 제안을 최적화하여 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시하는 방법을 알아봅니다. 또한 [!DNL Target] UI에서 [!DNL Recommendations] 활동을 구축하는 방법에 관한 단계별 개요를 살펴보십시오.
 
