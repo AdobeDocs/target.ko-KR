@@ -1,12 +1,12 @@
 ---
-keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답 토큰;토큰;토큰;플러그인;플러그인;at.js;response
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: '응답 토큰을 사용하면 디버깅 또는 타사 시스템(예: Clicktale)과의 통합에 사용할 타겟 특정 정보(활동 세부 사항, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
 title: Adobe Target의 응답 토큰
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -34,7 +34,7 @@ Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송�
 
    자세한 내용은 [at.js 다운로드](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오.
 
-1. [!DNL Target]에서 **[!UICONTROL 설정]** &gt; **[!UICONTROL 응답 토큰]**&#x200B;을 클릭합니다.
+1. [!DNL Target]에서 **[!UICONTROL 설정]** > **[!UICONTROL 응답 토큰]**&#x200B;을 클릭합니다.
 
    ![](assets/response_tokens.png)
 
@@ -45,15 +45,15 @@ Adobe Target Classic에는 mbox 응답으로 실행되는 JavaScript를 전송�
    | 유형 | 매개 변수 | 참고 |
    |--- |--- |--- |
    | 내장 프로필 | `profile.activeActivities` | 방문자가 자격을 갖는 일련의 `activityIds`를 반환합니다. 사용자가 자격을 갖게 됨에 따라 증가합니다. 예를 들어, 두 개의 서로 다른 활동을 전달하는 두 개의 mbox가 있는 페이지에서 두 번째 mbox가 두 활동을 모두 포함하게 됩니다. |
-   |  | `profile.isFirstSession` | "true" 또는 "false"를 반환합니다. |
-   |  | `profile.isNewSession` | "true" 또는 "false"를 반환합니다. |
+   |  | `profile.isFirstSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
+   |  | `profile.isNewSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
    |  | `profile.daysSinceLastVisit` | 방문자가 마지막으로 방문한 이후 경과한 일수를 반환합니다. |
    |  | `profile.tntId` | 방문자의 tntID를 반환합니다. |
    |  | `profile.marketingCloudVisitorId` | 방문자의 Experience Cloud 방문자 ID를 반환합니다. |
    |  | `profile.thirdPartyId` | 방문자의 타사 ID를 반환합니다. |
    |  | `profile.categoryAffinity` | 방문자가 즐겨 찾는 카테고리를 반환합니다. |
    |  | `profile.categoryAffinities` | 방문자의 상위 5개 카테고리의 배열을 문자열로 반환합니다. |
-   | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 현재 활동의 세부 사항입니다. "option"은 "offer"와 같습니다. |
+   | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 현재 활동의 세부 사항입니다. &quot;option&quot;은 &quot;offer&quot;와 같습니다. |
    | 지역 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 활동에서 지역 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [지역](/help/c-target/c-audiences/c-target-rules/geo.md)을 참조하십시오. |
 
    사용자 프로필 속성 및 고객 속성도 목록에 표시됩니다.
@@ -279,8 +279,8 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 </script>
 ```
 
-## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5} 자습서 ![배지](/help/assets/tutorial.png)
 
 다음 비디오를 시청하여 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 학습하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
