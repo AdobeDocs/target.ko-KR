@@ -5,7 +5,7 @@ title: 자동 할당
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -182,7 +182,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 활동 워크플로우 - 타깃팅(2:14)
+### 활동 워크플로우 - 타깃팅(2:14) 자습서 ![배지](/help/assets/tutorial.png)
 
 다음 비디오에는 트래픽 할당 설정에 대한 정보가 포함되어 있습니다.
 
@@ -193,7 +193,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### A/B 테스트 만들기(8:36)
+### A/B 테스트 만들기(8:36) ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 A/B 테스트를 작성하는 방법을 보여줍니다. 자동화된 트래픽 할당에 대해서는 4:45부터 설명합니다.
 
