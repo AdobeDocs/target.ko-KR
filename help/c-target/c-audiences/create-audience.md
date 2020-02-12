@@ -1,11 +1,11 @@
 ---
-keywords: 대상;대상 규칙;대상 만들기;대상 생성
+keywords: audience;audience rules;create audience;creating audience
 description: 사용자 지정된 대상을 만들어 활동에서 사용할 수 있도록 Target 라이브러리에 저장할 수 있습니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수 있습니다.
 title: Target에서 대상 작성
-topic: 고급,Standard,Classic
+topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -38,11 +38,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![](assets/audiences_list.png)
 
-1. [!UICONTROL 대상자] 목록에서 **[!UICONTROL + 대상자 만들기를 클릭합니다]**.
+1. [!UICONTROL 대상] 목록에서 **[!UICONTROL + 대상 만들기]**&#x200B;를 클릭합니다.
 
    또는
 
-   기존 대상을 복사하려면 [!UICONTROL 대상자] 목록에서 원하는 대상으로 마우스를 가져간 다음 **[!UICONTROL 복사]아이콘을 클릭합니다.** 그러면 대상을 편집하여 유사한 대상을 만들 수 있습니다.
+   기존 대상을 복사하려면 [!UICONTROL 대상자] 목록에서 원하는 대상으로 마우스를 가져간 다음 **[!UICONTROL 복사]** 아이콘을 클릭합니다. 그러면 대상을 편집하여 유사한 대상을 만들 수 있습니다.
 
 1. 고유한 수사적 대상 이름을 입력합니다.
 1. **[!UICONTROL + 규칙 추가]**&#x200B;를 클릭합니다.
@@ -52,15 +52,15 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    각 규칙 유형에는 고유한 매개 변수가 있습니다. 각 유형의 대상 규칙을 구성하는 방법에 대한 자세한 내용은 [대상 카테고리](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)를 참조하십시오.
 1. 규칙 매개 변수를 정의합니다.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    새로 만든 대상이 몇 초 동안 처리가 지연된 후에 목록에 표시됩니다. 대상이 목록에 즉시 표시되지 않는 경우 대상을 검색하거나 목록을 새로 고치십시오.
 
-## 교육 비디오: 대상 만들기
+## 교육 비디오: 대상 만들기 개요 ![배지](/help/assets/overview.png)
 
 이 비디오에는 대상을 만드는 방법에 대한 정보가 포함되어 있습니다.
 
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
