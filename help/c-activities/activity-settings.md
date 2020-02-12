@@ -1,12 +1,12 @@
 ---
-keywords: 목표 및 설정;목표;우선순위;지속 기간
+keywords: Goal &Settings;objective;priority;duration
 description: 활동의 목표, 우선순위 및 지속 기간을 관리하려면 활동 설정을 사용하십시오.
 title: 활동 설정
-subtopic: 다변량 테스트
+subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -26,7 +26,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    이 옵션이 [!UICONTROL 설정] (기본값)에서 활성화되지 않으면 우선순위를 낮음, 중간 또는 높음으로 지정하십시오.
 
-   세분화된 우선순위를 활성화하려면 [!UICONTROL 설정]을 클릭한 다음, [!UICONTROL 세분화된 우선순위 활성화] 옵션을 "켜기" 위치로 전환하십시오.
+   세분화된 우선순위를 활성화하려면 [!UICONTROL 설정]을 클릭한 다음, [!UICONTROL 세분화된 우선순위 활성화] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.
 
    이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 
@@ -54,7 +54,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * [다변량 테스트](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [권장 사항](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 교육 비디오: 활동 설정
+## 교육 비디오: 활동 설정 자습서 ![배지](/help/assets/tutorial.png)
 
 이 비디오에는 활동 설정에 대한 정보가 포함되어 있습니다.
 
@@ -64,4 +64,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 보고서 필터를 작성하기 위해 보고 대상 추가
 * 활동에 대한 메모 입력
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=kor)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381)
