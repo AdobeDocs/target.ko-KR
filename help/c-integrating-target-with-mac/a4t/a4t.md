@@ -1,19 +1,19 @@
 ---
-keywords: a4t;analytics;analytics for target;analytics 보고 소스;target용 보고 소스로서의 adobe analytics
+keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Adobe "Analytics for Target"(A4T)은 Analytics 변환 지표와 대상 세그먼트를 기반으로 활동을 생성할 수 있도록 해주는 교차 솔루션 통합입니다. 이 통합에서는 Analytics 보고서를 사용하여 결과를 검사할 수 있습니다. 활동의 보고 소스로 Analytics를 사용하는 경우 해당 활동의 모든 보고 및 세그멘테이션은 Analytics 데이터 수집을 기반으로 합니다.
 title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
-subtopic: 통합
+subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
 
 # Adobe Target용 보고 소스로서의 Adobe Analytics(A4T){#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
 
-Adobe "Analytics for Target"(A4T)은 Analytics 변환 지표와 대상 세그먼트를 기반으로 활동을 생성할 수 있도록 해주는 교차 솔루션 통합입니다. A4T 통합에서는 Analytics 보고서를 사용하여 결과를 검사할 수 있습니다. 활동의 보고 소스로 Analytics를 사용하는 경우 해당 활동의 모든 보고 및 세그멘테이션은 Analytics 데이터 수집을 기반으로 합니다.
+Adobe &quot;Analytics for Target&quot;(A4T)은 Analytics 변환 지표와 대상 세그먼트를 기반으로 활동을 생성할 수 있도록 해주는 교차 솔루션 통합입니다. A4T 통합에서는 Analytics 보고서를 사용하여 결과를 검사할 수 있습니다. 활동의 보고 소스로 Analytics를 사용하는 경우 해당 활동의 모든 보고 및 세그멘테이션은 Analytics 데이터 수집을 기반으로 합니다.
 
 ## A4T 개요 {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -74,11 +74,11 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 | 리디렉션 오퍼를 사용하는 모든 활동 | 예 | A4T에서 리디렉션 오퍼를 사용하기 위한 보다 엄격한 최소 요구 사항이 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오. |
 | Node.JS | 예 |  |
 
-일부 활동 유형은 아직 A4T를 지원하지 않으므로 "orderConfirmPage" mbox와 같은 중요한 전환 mbox를 유지하거나 구현하는 것이 좋습니다.
+일부 활동 유형은 아직 A4T를 지원하지 않으므로 &quot;orderConfirmPage&quot; mbox와 같은 중요한 전환 mbox를 유지하거나 구현하는 것이 좋습니다.
 
 ## A4T 보고서의 예 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-[!DNL Target]**에서 A4T 보고서를 보려면[!UICONTROL 활동]**&#x200B;을 클릭하고, [!DNL Analytics]를 보고 소스로 사용하는 목록에서 원하는 활동을 클릭한 다음 **[!UICONTROL 보고서]탭을 클릭하십시오.**
+[!DNL Target]**[!UICONTROL 에서 A4T 보고서를 보려면 활동]**&#x200B;을 클릭하고, [!DNL Analytics]를 보고 소스로 사용하는 목록에서 원하는 활동을 클릭한 다음 **[!UICONTROL 보고서]** 탭을 클릭하십시오.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 
 ![](assets/a4t_report_table.png)
 
-[!DNL Analytics]이 아니라 [!DNL Target]에서 보고서를 보려면 보고서 맨 위의 **Analytics에서 보기**&#x200B;를 클릭하십시오.
+[!DNL Analytics]이 아니라 [!DNL Target]에서 보고서를 보려면 보고서 맨 위의 **** Analytics에서 보기를 클릭하십시오.
 
 ## Analytics &amp; Target: 분석 우수 사례 자습서 {#section_3438E6E77A464424B717A4FD333B84B2}
 
@@ -108,7 +108,7 @@ Adobe Experience League에서 제공하는 [Analytics &amp; Target: 분석 우�
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Analytics for Target(A4T)(4:32)
+### Analytics for Target(A4T)(4:32) ![개요 배지](/help/assets/overview.png)
 
 이 비디오에서는 Adobe Analytics를 Adobe Target에서 보고 소스로 사용하여 최적화 프로그램의 분석을 실행하는 방법에 대해 설명합니다.
 
@@ -116,11 +116,11 @@ Adobe Experience League에서 제공하는 [Analytics &amp; Target: 분석 우�
 * A4T의 작동 방식에 대해 설명합니다.
 * A4T를 사용하기 위해 필요한 전제 조건을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17384?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/Target 통합(A4T)(40:33)
+### Analytics/Target 통합(A4T)(40:33) !![Tutorial badge](/help/assets/tutorial.png
 
-이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 "[운영시간](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)" 기록입니다.
+이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
 
 * 통합이 작동하도록 설정하고 작동하는지 확인하는 방법
 * 통합 작동 방식
