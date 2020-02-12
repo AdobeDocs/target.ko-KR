@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -20,9 +20,9 @@ source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 >[!UICONTROL 속성 및 권한 기능은 ] Premium 솔루션의 일부로 사용할 수 있습니다. [!DNL Target] 이 기능은 [!DNL Target] Premium 라이센스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
 > UI의 맨 위에서 [!UICONTROL 설정] 링크를 클릭하여 조직에 Standard 라이센스나 Premium 라이센스가 있는지 여부를 알 수 있습니다.[!DNL Target]
 >
->**[!DNL Target]Standard 고객**: [!UICONTROL 사용자] 탭([!UICONTROL 설정 &gt; 사용자])이 표시된다면, 조직에 [!DNL Target] Standard 라이센스가 있는 것입니다. [!DNL Target Standard 고객은 이 문서의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
+>**[!DNL Target]Standard 고객&#x200B;**:[!UICONTROL 사용자]탭([!UICONTROL 설정 > 사용자])이 표시된다면, 조직에[!DNL Target]Standard 라이센스가 있는 것입니다. [!DNL Target Standard 고객은 이 문서의 지침에 따라[!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
 >
->**[!DNL Target]Premium 고객**: [!UICONTROL 속성] 탭([!UICONTROL 설정 &gt; 속성])이 표시되면 조직에 [!DNL Target] Premium 라이센스가 있는 것입니다. [!DNL Target] Premium 고객은 [엔터프라이즈 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md) 및 [엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
+>**[!DNL Target]Premium 고객&#x200B;**:[!UICONTROL 속성]탭([!UICONTROL 설정 > 속성])이 표시되면 조직에[!DNL Target]Premium 라이센스가 있는 것입니다.[!DNL Target]Premium 고객은[엔터프라이즈 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md)및[엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침에 따라[!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
 
 사용자 및 권한을 관리하려면 엔터프라이즈 및 팀 [사용자 안내서의 제품 및 프로필](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) 관리를 참조하십시오.
 
@@ -50,14 +50,14 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 모든 사용자 관리는 [!DNL Adobe Admin Console for Enterprise]에서 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
 
-1. [Admin Console에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) **[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자]**&#x200B;를 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
+1. [관리 콘솔에서 사용자](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)> **[!UICONTROL 사용자를]** 클릭하여 **[!UICONTROL 새 사용자를 만들거나]** 기존 사용자를 편집합니다.
 1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 사용자 그룹 만들기 {#user-groups}
 
 개발자, 분석가, 마케터, 경영진 등과 같은 사용자 그룹을 만든 다음 여러 Adobe 제품 및 작업 공간에서 권한을 지정할 수 있습니다. 새 팀 구성원에게 다른 Adobe 제품에 대한 모든 적절한 권한을 지정하면 특정 사용자 그룹에 팀 구성원을 쉽게 추가할 수 있습니다.
 
-1. [Admin Console에서](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) **[!UICONTROL 사용자]** &gt; **[!UICONTROL 사용자 그룹]**&#x200B;을 클릭하여 새 사용자 그룹을 만들거나 기존 사용자 그룹을 편집합니다.
+1. [관리 콘솔에서 사용자](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)> 사용자 **[!UICONTROL 그룹을]** 클릭하여 **[!UICONTROL 새 사용자 그룹을]** 만들거나 기존 그룹을 편집합니다.
 1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 역할 및 권한 지정 {#roles-permissions}
@@ -90,7 +90,7 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제공 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
 
-## 교육 비디오: 타겟 작업 공간을 구성하는 방법
+## Training video: How to Configure Target Workspaces ![Tutorial badge](/help/assets/tutorial.png)
 
 학습 목표:
 
@@ -100,4 +100,4 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
    * 작업 공간에 속성 추가
 * 기본 작업 공간 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)
