@@ -1,11 +1,11 @@
 ---
-keywords: 경험 미리 보기;경험 URL;URL 생성;경험 URL 보기
+keywords: experience preview;experience urls;generate urls;view experience urls
 description: 경험 URL은 활동이 미리 보기 및 QA 목적으로 라이브 상태가 되기 전에 사이트에서 바로 경험 컨텐츠를 볼 수 있도록 Target 자동화된 개인화 활동에 대해 생성될 수 있습니다. 경험 URL은 타깃팅을 무시하여 특정 경험을 강제로 표시합니다.
 title: 경험 URL을 공유하여 Target 외부의 자동화된 개인화 미리 보기
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
 
 ---
 
@@ -34,10 +34,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 양식 기반 경험 작성기를 사용하는 경우 기본 URL이 자동으로 입력되지 않습니다. 이전에 경험 URL을 만든 적이 없으면 **새 URL 추가**&#x200B;를 클릭합니다. 미리 보려는 모든 URL과 각 URL의 이름을 지정해야 합니다.
    여러 URL을 추가할 수 있습니다. 이러한 기능은 다중 페이지 테스트 또는 템플릿 테스트를 실행하며 둘 이상의 페이지에서 활동을 미리 보려는 경우에 유용합니다.
 
-   모달 창에는 Target의 시각적 경험 작성기 외부에서 경험을 "실제로 미리 볼 수 있도록" 사이트의 경험에 대한 링크가 표시됩니다. 미리 보기를 공유하려면 메시지에서 링크를 공유해야 합니다. URL에는 메시지의 링크에서 페이지에 액세스할 때만 페이지를 올바르게 표시하는 매개 변수가 포함되어 있으므로 링크를 클릭한 다음, 페이지에서 결과 URL을 복사할 수 없습니다. 대신 모달 창에서 텍스트를 복사하고 전체 텍스트를 팀에 이메일로 보냅니다.
+   모달 창에는 Target의 시각적 경험 작성기 외부에서 경험을 &quot;실제로 미리 볼 수 있도록&quot; 사이트의 경험에 대한 링크가 표시됩니다. 미리 보기를 공유하려면 메시지에서 링크를 공유해야 합니다. URL에는 메시지의 링크에서 페이지에 액세스할 때만 페이지를 올바르게 표시하는 매개 변수가 포함되어 있으므로 링크를 클릭한 다음, 페이지에서 결과 URL을 복사할 수 없습니다. 대신 모달 창에서 텍스트를 복사하고 전체 텍스트를 팀에 이메일로 보냅니다.
 1. **[!UICONTROL 모두 생성]**&#x200B;을 클릭한 다음, 각 경험을 클릭하여 미리 봅니다.
 
-   경험을 변경하는 경우 모달 창으로 돌아간 후 **모두 생성**&#x200B;을 클릭하여 새 링크를 가져와 팀에 대한 새 미리 보기 링크를 생성해야 합니다.
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **참고:** 미리 보기 링크는 새 탭에서 열리며 브라우저에서 팝업 차단 기능을 비활성화해야 사용할 수 있습니다.
 
