@@ -5,7 +5,7 @@ title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
+source-git-commit: 93ffd24946ad23780b8c141bec79e4492f0e8cda
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 이러한 릴리스 노트는 최신 또는 예정된 [!DNL Adobe Target] 릴리스의 기능, 향상된 기능 및 수정 사항에 대한 정보를 제공합니다.
 
-**마지막 업데이트 날짜: 2020년 2월 4일**
+**마지막 업데이트 날짜: 2020년 2월 18일**
 
 >[!NOTE]
 >
@@ -32,7 +32,14 @@ source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ## Target Standard/Premium 20.2.1(2020년 2월 19일)
 
-Target Standard/Premium 20.2.1 릴리스는 2020년 2월 19일로 예정되어 있습니다. 특정 기능, 개선 사항 및 수정 사항에 대한 정보는 향후 며칠 이내에 여기에 게시될 예정입니다.
+이 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+
+* 카탈로그 검색을 수행할 때 고객이 컬렉션을 선택할 수 없는 문제를 해결했습니다. (TGT-36230)
+* API를 통해 생성되었지만 타겟 UI에서 만든 활동에서 참조되지 않는 기준이 UI에서 잘못 삭제되는 문제를 수정했습니다. (TGT-35917)
+* CSP(Content Security Policy)에 대한 보안 개선 사항을 구현했습니다. (TGT-36190)
+* 속성 가중치 백분율 막대를 왼쪽으로 밀면 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
+* 고객이 AP(Automated Personalization) 활동의 알고리즘을 Random Forest에서 Vantary Variance로 변경할 수 없는 문제를 해결했습니다. (TGT-36321)
+* 다양한 언어의 UI 텍스트가 올바로 표시되도록 현지화 문제를 해결했습니다.
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
