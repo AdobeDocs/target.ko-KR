@@ -5,7 +5,7 @@ title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: f710882392f54c13a2161a97b7530796f9a99283
 
 ---
 
@@ -51,7 +51,6 @@ source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 * API를 통해 생성되었지만 타겟 UI에서 만든 활동에서 참조되지 않는 기준이 UI에서 잘못 삭제되는 문제를 수정했습니다. (TGT-35917)
 * CSP(Content Security Policy)에 대한 보안 개선 사항을 구현했습니다. (TGT-36190)
 * 속성 가중치 백분율 막대를 왼쪽으로 밀면 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
-* 고객이 AP(Automated Personalization) 활동의 알고리즘을 Random Forest에서 Vantary Variance로 변경할 수 없는 문제를 해결했습니다. (TGT-36321)
 * 다양한 언어의 UI 텍스트가 올바로 표시되도록 현지화 문제를 해결했습니다.
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
