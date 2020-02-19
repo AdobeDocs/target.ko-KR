@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -138,7 +138,7 @@ AOL이 트래픽을 프록시하는 방법 때문에 국가 수준에서만 타�
 
 >[!NOTE]
 >
->mboxOverride.browserIp는 at.js 1.*jx에서만 지원됩니다*. 이 기능은 at.js 2에서 지원되지 않습니다.*x*&#x200B;에는 사용할 수 없습니다.
+>`mboxOverride.browserIp` 은 at.js 1.*jx에서만* 지원됩니다. 이 기능은 at.js 2에서 지원되지 않습니다.*x*&#x200B;에는 사용할 수 없습니다.
 
 **푸에르토리코 및 홍콩과 같은 지역은 어떻게 지역 타깃팅 구조에 매핑됩니까?**
 
