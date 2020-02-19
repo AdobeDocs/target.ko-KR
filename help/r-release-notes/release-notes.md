@@ -5,7 +5,7 @@ title: 'Adobe Target 릴리스 노트(현재) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -32,12 +32,19 @@ source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
 
-## Target Standard/Premium 20.1.1(2020년 2월 4일)
+## Target Standard/Premium 20.2.1(2020년 2월 19일)
 
-Target Standard/Premium 20.1.1 릴리스는 유지 관리 릴리스이며 백엔드 개선 사항 및 개선 사항이 포함되어 있습니다. 또한 다음 수정 사항이 포함되어 있습니다.
+>[!IMPORTANT]
+>
+>mbox.js 사용 중단에 대한 위의 정보를 참조하십시오.
 
-* Target(A4T) 활동에 대한 기존 Adobe의 목표 및 설정 페이지에서 Adobe Analytics 추적 서버 필드가 비어 있는 문제를 해결했습니다. (TGT-35960)
-* 카테고리 관련성에 대한 대상을 만드는 동안 두 번째 드롭다운 목록의 선택 사항이 표시되지 않는 사용자 인터페이스 문제를 해결했습니다. (TGT-36098)
+이 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+
+* 카탈로그 검색을 수행할 때 고객이 컬렉션을 선택할 수 없는 문제를 해결했습니다. (TGT-36230)
+* API를 통해 생성되었지만 타겟 UI에서 만든 활동에서 참조되지 않는 기준이 UI에서 잘못 삭제되는 문제를 수정했습니다. (TGT-35917)
+* CSP(Content Security Policy)에 대한 보안 개선 사항을 구현했습니다. (TGT-36190)
+* 속성 가중치 백분율 막대를 왼쪽으로 밀면 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
+* 다양한 언어의 UI 텍스트가 올바로 표시되도록 현지화 문제를 해결했습니다.
 
 ## 추가 릴리스 노트 및 버전 세부 정보
 
