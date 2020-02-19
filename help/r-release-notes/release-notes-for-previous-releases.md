@@ -5,7 +5,7 @@ title: 이전 릴리스에 대한 릴리스 노트
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -17,6 +17,15 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 >[!NOTE]
 >
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 노트(현재)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
+
+## 릴리스 노트 - 2020
+
+### Target Standard/Premium 20.1.1(2020년 2월 4일)
+
+Target Standard/Premium 20.1.1 릴리스는 유지 관리 릴리스이며 백엔드 개선 사항 및 개선 사항이 포함되어 있습니다. 또한 다음 수정 사항이 포함되어 있습니다.
+
+* Target(A4T) 활동에 대한 기존 Adobe의 목표 및 설정 페이지에서 Adobe Analytics 추적 서버 필드가 비어 있는 문제를 해결했습니다. (TGT-35960)
+* 카테고리 관련성에 대한 대상을 만드는 동안 두 번째 드롭다운 목록의 선택 사항이 표시되지 않는 사용자 인터페이스 문제를 해결했습니다. (TGT-36098)
 
 ## 릴리스 노트 - 2019 {#releases-2019}
 
