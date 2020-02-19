@@ -1,11 +1,11 @@
 ---
-keywords: at.js 릴리스;at.js 버전
+keywords: at.js releases;at.js versions
 description: at.js의 각 버전 변경 사항에 대한 세부 사항.
 title: at.js 버전 세부 사항
-subtopic: 시작하기
+subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!IMPORTANT]
 >
->Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 
+>Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오.
 
 ## at.js 버전 2.2.0(2019년 10월 10일)
 
@@ -29,7 +29,7 @@ at.js의 이 릴리스에는 다음 개선 사항 및 수정 사항이 포함되
    >
    >ECID Launch Extension을 v4.4로 업그레이드하여 향상된 성능을 활용할 수 있습니다.
 
-* at.js 버전 2.2는 `serverState`라는 새 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 통해 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다. For more information, see "serverState" in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js 버전 2.2는 `serverState`라는 새 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 통해 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js 버전 1.8.0(2019년 10월 10일)
 
@@ -53,7 +53,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 * `triggerView()`이 요청에서 MCID(Marketing Cloud ID) 정보가 포함되어 있는지 확인하는 문제를 해결했습니다. (TNT-32776)
 * 저장된 보기가 없는 경우에도 `triggerView()` 알림이 실행되지 않는 문제를 해결했습니다. (TNT-32614)
 * URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함되어 있을 때 decodeURIcomponent를 사용하여 오류가 발생하는 문제를 해결했습니다. (TNT-32710)
-* 이제 `Navigator.sendBeacon()` API를 통해 전송된 배달 요청의 컨텍스트에서 비콘 플래그가 'true'로 설정됩니다. (TNT-32683)
+* 이제 `Navigator.sendBeacon()` API를 통해 전송된 배달 요청의 컨텍스트에서 비콘 플래그가 &#39;true&#39;로 설정됩니다. (TNT-32683)
 * 일부 고객의 웹 사이트에서 추천 오퍼가 표시되지 않는 문제를 해결했습니다. 고객이 배달 API 호출에서 오퍼 콘텐츠를 볼 수 있지만 오퍼가 웹 사이트에 적용되지 않았습니다. (TNT-32680)
 * 여러 경험에서 클릭 추적이 예상대로 작동되지 않는 문제를 해결했습니다. (TNT-32644)
 * 첫 번째 지표 렌더링이 실패한 후 at.js에서 두 번째 지표를 적용하지 못했던 문제를 해결했습니다. (TNT-32628)
@@ -157,7 +157,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 유지보수 릴리스이며 다음 문제를 해결합니다.
 
-* 일부 고객 사이트에서 무한 "비동기화" 루프가 발생하는 문제를 해결했습니다.
+* 일부 고객 사이트에서 무한 &quot;비동기화&quot; 루프가 발생하는 문제를 해결했습니다.
 
 >[!IMPORTANT]
 >
@@ -243,7 +243,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 이제 [!DNL at.js] 버전 1.2.1을 사용할 수 있습니다.
 
-* target="_blank"인 링크에 대한 클릭 추적을 수행할 경우 새 탭에서 링크가 열리지 않도록 하는 문제가 수정되었습니다.
+* target=&quot;_blank&quot;인 링크에 대한 클릭 추적을 수행할 경우 새 탭에서 링크가 열리지 않도록 하는 문제가 수정되었습니다.
 
 ## at.js 버전 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
