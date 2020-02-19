@@ -5,7 +5,7 @@ title: 'Adobe Target 릴리스 노트(현재) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: f5444d8a4d9229112aeaeadc0bccdb42a006c02b
 
 ---
 
@@ -29,7 +29,9 @@ source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
    >
    >   
    모든 고객을 at.js로 이동시킴으로써 Adobe 엔지니어 및 지원 담당자는 새로운 기능을 제공하고 Adobe로부터 기대하는 지원을 제공할 수 있습니다.
-괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+   >
+   >
+* 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
 
 ## Target Standard/Premium 20.2.1(2020년 2월 19일)
