@@ -1,11 +1,11 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetGlobalSettings;globalSettings;globalSettings;globalSettings;global settings;at.js;functions;clientCode;serverDomain;cookiedomain;cookieDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenHiddenCode 스타일;defaultContentVisibleStyle;bodyHiddenStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeTimeout;optout;optout;optout;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
 description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -22,7 +22,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 | 설정의 지침을 완료하여 이 설정을 변경할 수 있습니다 | 유형 | 기본값 | 설명 |
 |--- |--- |--- |--- |
-| serverState | 아래의 "serverState"를 참조하십시오. | 아래의 "serverState"를 참조하십시오. | 아래의 "serverState"를 참조하십시오. |
+| serverState | 아래의 &quot;serverState&quot;를 참조하십시오. | 아래의 &quot;serverState&quot;를 참조하십시오. | 아래의 &quot;serverState&quot;를 참조하십시오. |
 | clientCode | 문자열 | UI를 통해 설정된 값 | 클라이언트 코드를 나타냅니다. |
 | serverDomain | 문자열 | UI를 통해 설정된 값 | Target 에지 서버를 나타냅니다. |
 | cookieDomain | 문자열 | 가능한 경우 최상위 수준 도메인으로 설정하십시오. | 쿠키를 저장할 때 사용되는 도메인을 나타냅니다. |
@@ -30,22 +30,24 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | timeout | 숫자 | UI를 통해 설정된 값 | Target 에지 요청 시간 제한을 나타냅니다. |
 | globalMboxAutoCreate | 부울 | UI를 통해 설정된 값 | 전역 mbox 요청을 실행해야 하는지를 나타냅니다. |
 | visitorApiTimeout | 숫자 | 2000ms = 2s | 방문자 API 요청 시간 제한을 나타냅니다. |
-| 활성화됨 | 부울 | true | 라이브러리로서의 at.js가 활성화되어 있는지, 즉 어떤 항목이라도 실행해야 하는지를 나타냅니다. 이 설정에 대한 기본 사용 사례는 옵트아웃 쿠키 또는 at.js 기능을 비활성화하는 기타 사용자 지정 의사 결정입니다. |
-| defaultContentHiddenStyle | 문자열 | 가시성: 숨김 | 기본 컨텐츠를 숨기기 위해 DIV를 클래스 이름 "mboxDefault"와 함께 사용하고 `mboxCreate()`, `mboxUpdate()` 또는 `mboxDefine()`을 통해 실행되는 mbox를 래핑하는 데만 사용됩니다. |
-| defaultContentVisibleStyle | 문자열 | 가시성: 표시 | 적용된 오퍼(있는 경우) 또는 기본 컨텐츠를 표시하기 위해 DIV를 클래스 이름 "mboxDefault"와 함께 사용하고 `mboxCreate()`, `mboxUpdate()` 또는 `mboxDefine()`을 통해 실행되는 mbox를 래핑하는 데만 사용됩니다. |
+| 활성화됨 | 부울 | true | 활성화되면 경험 가져오기 및 경험을 렌더링하기 위한 DOM 조작에 대한 타겟 요청이 자동으로 실행됩니다. 또한, Target 호출은 /를 통해 수동으로 실행할 수 `getOffer(s)` 있습니다. `applyOffer(s)`<br>비활성화하면 Target 요청이 자동으로 또는 수동으로 실행되지 않습니다. |
+| pageLoadEnabled | 부울 | true | 활성화되면 페이지 로드 시 반환해야 하는 경험을 자동으로 검색합니다. |
+| viewsEnabled | 부울 | true | 활성화되면 페이지 로드 시 반환해야 하는 뷰를 자동으로 검색합니다. 보기는 at.js 2에서 지원됩니다.*x*&#x200B;에만 사용할 수 있습니다 |
+| defaultContentHiddenStyle | 문자열 | 가시성: 숨김 | 기본 컨텐츠를 숨기기 위해 DIV를 클래스 이름 &quot;mboxDefault&quot;와 함께 사용하고 `mboxCreate()`, `mboxUpdate()` 또는 `mboxDefine()`을 통해 실행되는 mbox를 래핑하는 데만 사용됩니다. |
+| defaultContentVisibleStyle | 문자열 | 가시성: 표시 | 적용된 오퍼(있는 경우) 또는 기본 컨텐츠를 표시하기 위해 DIV를 클래스 이름 &quot;mboxDefault&quot;와 함께 사용하고 `mboxCreate()`, `mboxUpdate()` 또는 `mboxDefine()`을 통해 실행되는 mbox를 래핑하는 데만 사용됩니다. |
 | bodyHiddenStyle | 문자열 | body { opacity: 0 } | 깜박임 가능성을 최소화하기 위해 `globalMboxAutocreate === true`일 때만 사용됩니다.<br>자세한 내용은 [at.js에서 플리커를 관리하는 방법](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)을 참조하십시오. |
 | bodyHidingEnabled | 부울 | true | `target-global-mbox` 가 시각적 오퍼로도 알려진 시각적 경험 작성기에서 만든 오퍼를 전달하는 데 사용될 때 깜박임을 제어하는 데 사용됩니다. |
 | imsOrgId | 문자열 | IMS ORG ID | IMS ORG ID를 나타냅니다. |
 | secureOnly | 부울 | false | at.js에서 HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타냅니다. |
 | overrideMboxEdgeServer | 부울 | true(at.js 버전 1.6.2부터 true) | `<clientCode>.tt.omtrdc.net` 도메인과 `mboxedge<clusterNumber>.tt.omtrdc.net` 도메인 중에서 어떤 도메인을 사용해야 하는지를 나타냅니다.<br>이 값이 true면 `mboxedge<clusterNumber>.tt.omtrdc.net` 도메인이 쿠키에 저장됩니다. |
-| overrideMboxEdgeServerTimeout | 숫자 | 1860000 =&gt; 31분 | `mboxedge<clusterNumber>.tt.omtrdc.net` 값을 포함하는 쿠키 라이프타임을 나타냅니다. |
+| overrideMboxEdgeServerTimeout | 숫자 | 1860000 => 31분 | `mboxedge<clusterNumber>.tt.omtrdc.net` 값을 포함하는 쿠키 라이프타임을 나타냅니다. |
 | optoutEnabled | 부울 | false | Target이 방문자 API `isOptedOut()` 함수를 호출해야 하는지를 나타냅니다. Device Graph 지원의 일부입니다. |
 | selectorsPollingTimeout | 숫자 | 5000ms = 5s | at.js 0.9.6에서 Target은 `targetGlobalSettings`를 통해 재정의할 수 있는 이 새 설정을 도입했습니다.<br>`selectorsPollingTimeout`은 선택기로 식별된 모든 요소가 페이지에 표시되도록 하기 위해 클라이언트가 대기하는 시간을 나타냅니다.<br>VEC(시각적 경험 작성기)를 통해 작성된 활동에는 선택기를 포함하는 오퍼가 있습니다. |
-| dataProviders | 아래의 "데이터 공급자"를 참조하십시오. | 아래의 "데이터 공급자"를 참조하십시오. | 아래의 "데이터 공급자"를 참조하십시오. |
+| dataProviders | 아래의 &quot;데이터 공급자&quot;를 참조하십시오. | 아래의 &quot;데이터 공급자&quot;를 참조하십시오. | 아래의 &quot;데이터 공급자&quot;를 참조하십시오. |
 
 ## 사용 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-이 함수는 at.js가 로드되기 전에 또는 **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** &gt; **[!UICONTROL at.js 설정 편집]** &gt; **[!UICONTROL 코드 설정]** &gt; **[!UICONTROL 라이브러리 헤더]**&#x200B;에서 정의할 수 있습니다.
+이 함수는 at.js가 로드되기 전에 또는 **[!UICONTROL 설정]** > **[!UICONTROL 구현]** > **[!UICONTROL at.js 설정 편집]** > **[!UICONTROL 코드 설정]** > **[!UICONTROL 라이브러리 헤더]**&#x200B;에서 정의할 수 있습니다.
 
 라이브러리 헤더 필드에는 자유 형식 JavaScript를 입력할 수 있습니다. 사용자 지정 코드는 다음 예제와 유사해야 합니다.
 
@@ -305,7 +307,7 @@ Consider the following when using `serverState`:
 
 * 오퍼를 적용할 `serverState `때 at.js는 `pageLoadEnabled` 고려사항 및 `viewsEnabled` `pageLoadEnabled` 설정을 고려합니다. 예를 들어 설정이 false이면 페이지 로드 오퍼가 적용되지 않습니다.
 
-   이 설정을 켜려면 UICONTROL 설정 &gt; 구현 &gt; 설정 **[편집 &gt; 페이지 로드 활성화에서 전환을 활성화합니다]**.
+   이 설정을 켜려면 UICONTROL 설정 > 구현 > 설정 **[편집 > 페이지 로드 활성화에서 전환을 활성화합니다]**.
 
    ![페이지 로드 활성화 설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
