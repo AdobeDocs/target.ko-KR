@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2020년 2월 19일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | 앞으로 있을 mbox.js 라이브러리 사용 중단에 대한 정보가 추가되었습니다. |
+| 2월 20일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 다음 설정에 대한 정보가 추가되었습니다. `pageLoadEnabled` 및 `viewsEnabled`Adobe |
+| 2월 19일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | 앞으로 있을 mbox.js 라이브러리 사용 중단에 대한 정보가 추가되었습니다. |
 |  | [지역](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 1에서 `mboxOverride.browserIp` 지원된다는 참고가 추가되었습니다.*x*&#x200B;에만 사용할 수 있습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Target 팀에서 지원하는 at.js 버전을 설명하는 텍스트가 정리되었습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 20.2.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
