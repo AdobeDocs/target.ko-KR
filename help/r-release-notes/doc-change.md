@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: a7929ef8070dbe94c43832df915c6b75cd69f0a7
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 21일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 새로운 Adobe Experience Cloud 탐색에 대한 정보가 추가되었습니다. |
 | 2월 20일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 다음 설정에 대한 정보가 추가되었습니다. `pageLoadEnabled` 및 `viewsEnabled`Adobe |
 | 2월 19일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | 앞으로 있을 mbox.js 라이브러리 사용 중단에 대한 정보가 추가되었습니다. |
 |  | [지역](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 1에서 `mboxOverride.browserIp` 지원된다는 참고가 추가되었습니다.*x*&#x200B;에만 사용할 수 있습니다. |
