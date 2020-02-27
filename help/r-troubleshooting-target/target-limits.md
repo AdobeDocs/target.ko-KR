@@ -5,7 +5,7 @@ title: 제한
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
+source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ---
 
@@ -192,9 +192,7 @@ mbox v2 일괄 처리:
 
 **계정당**&#x200B;총 프로필 스크립트의 권장 한도:2천
 
-**프로필 스크립트 복잡성**&#x200B;제한을 위한 권장 사항:프로필 스크립트는 제한된 수의 지침을 실행할 수 있습니다. 자세한 내용은 프로필 [속성의](/help/c-target/c-visitor-profile/profile-parameters.md#best) 우수 사례를 [참조하십시오](/help/c-target/c-visitor-profile/profile-parameters.md).
-
-**권장 제한**: 프로필 스크립트당 최대 루프 수 500,000개.
+**프로필 스크립트 복잡성**&#x200B;제한을 위한 권장 사항:프로필 스크립트는 제한된 수의 지침을 실행할 수 있습니다. 자세한 내용은 프로필 [속성의](/help/c-target/c-visitor-profile/profile-parameters.md#best) 우수 사례를 *참조하십시오*.
 
 ## 속성
 
