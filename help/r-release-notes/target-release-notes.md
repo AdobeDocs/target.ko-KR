@@ -5,7 +5,7 @@ title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 
 ---
 
@@ -39,19 +39,31 @@ source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
    모든 고객을 at.js로 이동시킴으로써 Adobe 엔지니어 및 지원 담당자는 새로운 기능을 제공하고 Adobe로부터 기대하는 지원을 제공할 수 있습니다.
 
 
-## Target Standard/Premium 20.2.1(2020년 2월 19일)
+## Target Standard/Premium 20.2.1(2020년 3월 3일)
 
 >[!IMPORTANT]
 >
 >mbox.js 사용 중단에 대한 위의 정보를 참조하십시오.
 
-이 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
 
 * 카탈로그 검색을 수행할 때 고객이 컬렉션을 선택할 수 없는 문제를 해결했습니다. (TGT-36230)
 * API를 통해 생성되었지만 타겟 UI에서 만든 활동에서 참조되지 않는 기준이 UI에서 잘못 삭제되는 문제를 수정했습니다. (TGT-35917)
 * CSP(Content Security Policy)에 대한 보안 개선 사항을 구현했습니다. (TGT-36190)
 * 속성 가중치 백분율 막대를 왼쪽으로 밀면 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
 * 다양한 언어의 UI 텍스트가 올바로 표시되도록 현지화 문제를 해결했습니다.
+* 다음 Adobe Analytics 지표는 2020년 3월 Target 릴리스부터 Analytics for Target(A4T)에서 더 이상 지원되지 않습니다.
+   * averagevisdepth
+   * 보트
+* 다음 지표는 더 이상 지원되지 않으며 사용자가 지표를 포함하는 활동을 처음 수정할 때 동일한 지표의 새 버전으로 자동 변환됩니다.
+
+   | 가치 하락 지표 | 새 지표 |
+   |--- |--- |
+   | `averagetimespentonpage` | `averagetimespentonsite` (참고:초 대신 분 단위 측정) |
+   | `instances` | `occurrences` |
+   | `singleaccess` | `singlepagevisits` |
+   | `uniquevisitors` | `visitors` |
+   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
