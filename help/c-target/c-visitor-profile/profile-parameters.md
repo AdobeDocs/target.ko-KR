@@ -5,7 +5,7 @@ title: Adobe Target의 프로필 속성
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -126,7 +126,7 @@ if (mbox.name == 'Track_Interest') {
 * 제한된 for 루프와 개방된 for 또는 while 루프를 비교 사용합니다.
 * 1,300자 또는 50개 루프 반복을 초과하지 않도록 합니다.
 * JavaScript 명령어 2,000개를 초과하지 않도록 합니다. Target에서는 스크립트당 JavaScript 명령어 개수를 2,000개로 제한하지만 JavaScript를 수동으로 읽어서는 이것을 간단히 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 &quot;새로운&quot; 호출을 100개의 명령어로 처리합니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
-* 스크립트 성능뿐만 아니라 모든 스크립트를 결합한 성능에 주의하십시오. 우수 사례로, 총 5,000개 미만의 지침을 사용하는 것이 좋습니다. 지침 수를 계산하는 것이 명확하지 않지만, 중요한 것은 2KB를 초과하는 스크립트가 자동으로 비활성화된다는 점입니다. 실행할 수 있는 스크립트의 수에 대한 제한이 설정되어 있지 않지만, 각 스크립트는 단일 mbox가 호출될 때마다 실행됩니다. 필요만 만큼만 스크립트를 실행합니다.
+* 스크립트 성능뿐만 아니라 모든 스크립트를 결합한 성능에 주의하십시오. 우수 사례로, 총 5,000개 미만의 지침을 사용하는 것이 좋습니다. 지시 사항의 수를 계산하는 것은 분명하지 않지만, 중요한 것은 2,000개가 넘는 스크립트가 자동으로 비활성화된다는 것입니다. 활성 프로필 스크립트 수는 300개를 초과할 수 없습니다. 각 스크립트는 모든 단일 mbox 호출을 사용하여 실행됩니다. 필요만 만큼만 스크립트를 실행합니다.
 * 정규 표현식에서 시작 부분의 점-별(예: `/.*match/`, `/a|.*b/`)은 거의 필요하지 않습니다. 정규 표현식 검색은 `^`으로 묶이지 않는 한 문자열의 모든 위치에서 시작하므로 이미 점-별이 가정되었습니다. 그러한 정규 표현식이 충분히 긴 입력 데이터(최저 700자까지 가능)와 일치하면 스크립트 실행이 중단될 수 있습니다.
 * 모두 실패하는 경우 try/catch에 스크립트를 래핑합니다.
 * 다음 권장 사항은 프로필 스크립트의 복잡성을 제한하는 데 도움이 될 수 있습니다. 프로필 스크립트는 제한된 수의 지침을 실행할 수 있습니다.
@@ -140,94 +140,6 @@ if (mbox.name == 'Track_Interest') {
    * 프로필 스크립트가 너무 복잡하면 [응답 토큰을](/help/administrating-target/response-tokens.md) 대신 사용하는 것이 좋습니다.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
-
-## 함께 수행할 수 없는 활동을 테스트하는 프로필 스크립트 {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
-
-프로필 속성을 사용하여 두 개 이상의 활동을 비교하되 동일한 방문자가 각 활동에 참여하지 못하도록 하는 테스트를 설정할 수 있습니다.
-
-상호 배타적인 활동 테스트에서는 한 활동의 방문자가 다른 활동에 대한 테스트 결과에 영향을 주지 않습니다. 방문자가 여러 활동에 참여하는 경우 양수 또는 음수 리프트가 방문자의 한 활동 경험에서 발생했는지 여부 또는 여러 활동 간의 상호 작용이 하나 이상의 활동 결과에 영향을 주었는지 여부를 확인하기 어려울 수 있습니다.
-
-예를 들어 전자 상거래 시스템의 두 영역을 테스트할 수 있습니다. 파란색 대신 &quot;장바구니에 추가&quot; 단추를 빨간색으로 만드는 것을 테스트할 수 있습니다. 단계 수를 5개에서 2개로 줄이는 새로운 체크아웃 프로세스를 테스트할 수도 있습니다. 두 활동이 동일한 성공 이벤트(완료된 구매)를 갖는 경우 빨간색 단추가 전환을 향상시키는지 또는 향상된 체크아웃 프로세스로 인해 동일한 전환도 증가했는지 여부를 확인하는 것이 어려울 수 있습니다. 테스트를 상호 배타적인 활동으로 구분하면 각 변경을 독립적으로 테스트할 수 있습니다.
-
-다음 프로필 스크립트 중 하나를 사용할 때 다음 정보를 유념하십시오.
-
-* 프로필 스크립트는 활동이 시작되기 전에 실행되어야 하며 스크립트는 활동 지속 기간 동안 변경되지 않은 상태로 있어야 합니다.
-* 이 기술은 활동의 트래픽 양을 감소시켜 활동을 더 오래 실행해야 할 수 있습니다. 활동 지속 기간을 추정할 때 이 사실을 고려해야 합니다.
-
-### 두 개의 활동 설정
-
-방문자를 각각 다른 활동이 표시되는 그룹으로 정렬하려면 프로필 속성을 만들어야 합니다. 프로필 속성은 방문자를 둘 이상 그룹의 하나로 정렬할 수 있습니다. &quot;twogroups&quot;라는 프로필 속성을 설정하려면 다음 스크립트를 만드십시오.
-
-```
-if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number <= 49) { 
-        return 'GroupA'; 
-    } else { 
-        return 'GroupB'; 
-    } 
-}
-```
-
-* `if (!user.get('twogroups'))`는 *twogroups* 프로필 속성이 현재 방문자에 대해 설정되었는지 여부를 확인합니다. 설정된 경우 추가 작업이 필요 없습니다.
-
-* `var ran_number=Math.floor(Math.random() *99)`는 ran_number라는 새 변수를 선언하고 해당 값을 0과 1 사이의 임의 소수로 설정한 다음 99를 곱하고 내림하여 100(0-99)의 범위를 만듭니다. 이 범위는 활동을 보는 방문자의 비율을 지정하는 데 유용합니다.
-
-* `if (ran_number <= 49)`는 방문자가 속하는 그룹을 결정하는 루틴을 시작합니다. 반환된 숫자가 0-49이면 방문자가 GroupA에 할당됩니다. 숫자가 50-99이면 방문자가 GroupB에 할당됩니다. 그룹은 방문자에게 표시되는 활동을 결정합니다.
-
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
-
->[!NOTE]
->
->페이지의 앞부분에서 mbox를 선택하십시오. 이 코드는 방문자가 활동을 경험하는지 여부를 결정합니다. 브라우저가 mbox를 처음 발견하기만 하면 이 값을 설정하는 데 사용할 수 있습니다.
-
-사용자 프로필 매개 변수 `user.twogroups`가 GroupB에 대해 지정된 값과 일치하도록 두 번째 캠페인을 설정하십시오.
-
-### 3개 이상의 활동 설정
-
-3개 이상의 상호 배타적인 활동을 설정하는 과정은 두 개를 설정하는 과정과 비슷하지만 프로필 속성 JavaScript를 변경하여 각 활동에 대해 별도의 그룹을 만들고 각 활동을 보는 사람을 결정해야 합니다. 홀수 또는 짝수 그룹을 만드는지에 따라 난수 생성이 달라집니다.
-
-예를 들어 그룹을 4개 만들려면 다음 JavaScript를 사용하십시오.
-
-```
-if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number <= 24) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 49) { 
-        return 'GroupB'; 
-    } else if (ran_number <= 74) { 
-        return 'GroupC'; 
-    } else { 
-        return 'GroupD'; 
-    } 
-}
-```
-
-이 예에서 방문자를 그룹에 할당하는 난수 생성에 사용된 수학은 그룹이 2개인 경우와 동일합니다. 임의 소수가 생성된 다음 내림되어 정수를 만듭니다.
-
-홀수 그룹이나 100이 균일하게 나누어지지 않는 임의 개수를 만드는 경우 소수를 정수로 내림하면 안 됩니다. 소수를 내림하지 않으면 정수가 아닌 범위를 지정할 수 있습니다. 이 작업을 수행하려면 다음 줄을 찾습니다.
-
-`var ran_number=Math.floor(Math.random()*99);`
-
-다음 동작을 수행합니다.
-
-`var ran_number=Math.random()*99;`
-
-예를 들어 방문자를 동일한 그룹 3개에 배치하려면 다음 코드를 사용하십시오.
-
-```
-if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
-    if (ran_number <= 32.33) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 65.66) { 
-        return 'GroupB'; 
-    } else { 
-        return 'GroupC'; 
-    } 
-}
-```
 
 ## 프로필 스크립트 디버그 {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -306,7 +218,7 @@ if (mbox.name == 'orderThankyouPage') {
 
 지정된 방문자에 대한 현재 값을 조회(또는 이전 값이 없는 경우 0으로 설정)하는 `monetaryValue`라는 변수를 만듭니다. mbox 이름이 `orderThankyouPage`이면 이전 통화 값과 mbox에 전달된 `orderTotal` 매개 변수의 값을 추가하여 새 통화 값이 반환됩니다.
 
-**** 이름:adobeQA
+**이름:** adobeQA
 
 ```
 if (page.param("adobeQA"))
