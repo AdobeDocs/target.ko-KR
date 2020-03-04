@@ -5,7 +5,7 @@ title: 'Adobe Target 릴리스 노트(현재) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
+source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 
 ---
 
@@ -34,6 +34,32 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 * 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
 
+## Target Standard/Premium 20.2.1(2020년 3월 3일)
+
+>[!IMPORTANT]
+>
+>mbox.js 사용 중단에 대한 위의 정보를 참조하십시오.
+
+이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
+
+* 카탈로그 검색을 수행할 때 고객이 컬렉션을 선택할 수 없는 문제를 해결했습니다. (TGT-36230)
+* API를 통해 생성되었지만 타겟 UI에서 만든 활동에서 참조되지 않는 기준이 UI에서 잘못 삭제되는 문제를 수정했습니다. (TGT-35917)
+* CSP(Content Security Policy)에 대한 보안 개선 사항을 구현했습니다. (TGT-36190)
+* 속성 가중치 백분율 막대를 왼쪽으로 밀면 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
+* 다양한 언어의 UI 텍스트가 올바로 표시되도록 현지화 문제를 해결했습니다.
+* 다음 Adobe Analytics 지표는 2020년 3월 Target 릴리스부터 Analytics for Target(A4T)에서 더 이상 지원되지 않습니다.
+   * averagevisdepth
+   * 보트
+* 다음 지표는 더 이상 지원되지 않으며 사용자가 지표를 포함하는 활동을 처음 수정할 때 동일한 지표의 새 버전으로 자동 변환됩니다.
+
+   | 가치 하락 지표 | 새 지표 |
+   |--- |--- |
+   | `averagetimespentonpage` | `averagetimespentonsite` (참고:초 대신 분 단위 측정) |
+   | `instances` | `occurrences` |
+   | `singleaccess` | `singlepagevisits` |
+   | `uniquevisitors` | `visitors` |
+   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+
 ## Adobe Experience Cloud 내비게이션(2019년 2월 22일)
 
 * 에 로그인하면 [!DNL Adobe Experience Cloud]새 헤더 탐색으로 이동합니다. 맨 위에 검정색 막대가 있는 이전 탐색과 매우 유사해 보이지만 다음과 같은 향상된 기능을 제공합니다.
@@ -52,26 +78,12 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 
       ![Recs Classic 딥 링크](/help/r-release-notes/assets/recs-classic.png)
 
-      사용하는 [!DNL Search&Promote]경우 Search&amp;Promote URL(https://center.atomz.com/center/?ims=1) [로](https://center.atomz.com/center/?ims=1) 직접 이동해야 합니다. The path to reach [!DNL Search&Promote] from in of [!DNL Adobe Target] the inside.
+      를 사용하는 [!DNL Search&Promote]경우 Search&amp;Promote URL(https://center.atomz.com/center/?ims=1) [로](https://center.atomz.com/center/?ims=1) 직접 이동해야 합니다. The path to reach [!DNL Search&Promote] from in of [!DNL Adobe Target] the inside.
 
    * 알림은 현재 헤더의 알림 [!DNL Target] 드롭다운에서  사용할 수 없습니다.
    >[!NOTE]
    >
    >새 내비게이션 막대의 롤아웃의 일부로 일부 URL이 변경된 것을 확인할 수 있습니다. 이전에 책갈피가 표시된 모든 링크는 계속 작동하지만 새 링크를 책갈피로 설정하여 빠르게 열 수 있습니다.
-
-## Target Standard/Premium 20.2.1(2020년 2월 19일)
-
->[!IMPORTANT]
->
->mbox.js 사용 중단에 대한 위의 정보를 참조하십시오.
-
-이 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
-
-* 카탈로그 검색을 수행할 때 고객이 컬렉션을 선택할 수 없는 문제를 해결했습니다. (TGT-36230)
-* API를 통해 생성되었지만 타겟 UI에서 만든 활동에서 참조되지 않는 기준이 UI에서 잘못 삭제되는 문제를 수정했습니다. (TGT-35917)
-* CSP(Content Security Policy)에 대한 보안 개선 사항을 구현했습니다. (TGT-36190)
-* 속성 가중치 백분율 막대를 왼쪽으로 밀면 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
-* 다양한 언어의 UI 텍스트가 올바로 표시되도록 현지화 문제를 해결했습니다.
 
 ## 추가 릴리스 노트 및 버전 세부 정보
 
