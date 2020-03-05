@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations
 description: Adobe Target은 적용 가능한 데이터 개인 정보 보호 법률에 따라 Target을 사용할 수 있도록 허용하는 프로세스 및 설정을 제공합니다.
 title: 개인 정보 보호
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
+source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
 
 ---
 
@@ -19,7 +19,7 @@ Adobe Target은 적용 가능한 데이터 개인 정보 보호 법률에 따라
 
 웹 사이트에 대한 방문자의 IP 주소가 Adobe Data Processing Center(DPC)로 전송됩니다. 방문자에 대한 네트워크 구성에 따라서는, 이 IP 주소가 꼭 방문자의 컴퓨터 IP 주소를 나타내지는 않습니다. 예를 들어 IP 주소가 NAT(Network Address Translation) 방화벽, HTTP 프록시 또는 인터넷 게이트웨이의 외부 IP 주소일 수 있습니다. Target은 사용자의 IP 주소 또는 PII(개인 식별이 가능한 정보)를 저장하지 않습니다. IP 주소는 세션 기간 동안(메모리 내, 지속되지 않음) Target에서만 사용됩니다.
 
-## IP 주소의 마지막 옥텟 대체 {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## IP 주소의 마지막 8진수 대체 {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe는 Adobe Target에 대해 Adobe Client Care에서 활성화할 수 있는 새로운 “Privacy by Design” 설정을 개발했습니다. 이 설정을 활성화할 경우, 이 IP 주소가 Adobe에 의해 수집되면 즉시 IP 주소의 마지막 옥텟(마지막 부분)이 표시되지 않게 됩니다. 이러한 익명화는 선택 사항인 IP 주소의 지역 조회를 포함하여, IP 주소의 모든 처리 이전에 수행됩니다.
 
@@ -41,7 +41,7 @@ IP 주소의 마지막 옥텟 대체를 활성화하는 경우, IP 주소의 나
 
 IP 주소가 완전히 난독화된 경우 지리 특성 및 지역 타깃팅을 사용할 수 없습니다.
 
-## 옵트아웃 링크 {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 옵트아웃 링크를 사이트에 추가하여 방문자가 모든 계산 및 컨텐츠 제공을 옵트아웃(탈퇴)할 수 있도록 합니다.
 
@@ -53,3 +53,7 @@ IP 주소가 완전히 난독화된 경우 지리 특성 및 지역 타깃팅을
 이 링크를 클릭하는 모든 방문자는 쿠키를 삭제하기 전까지 또는 2년 동안(어느 쪽이든 먼저 만족되는 조건 적용) 브라우징 세션에서 호출된 어떤 mbox 요청에도 포함되지 않습니다. 이 기능은 `disableClient`라는 방문자의 쿠키를 `clientcode.tt.omtrdc.net` 도메인에서 설정하면 작동합니다.
 
 퍼스트 파티 쿠키 구현을 사용하더라도 제공된 옵트아웃은 타사 쿠키를 통해 설정됩니다. 클라이언트가 퍼스트 파티 쿠키만 사용하는 경우 Target은 옵트아웃 쿠키가 설정되어 있는지 여부를 확인합니다.
+
+## 개인 정보 보호 및 데이터 보호 규정
+
+See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
