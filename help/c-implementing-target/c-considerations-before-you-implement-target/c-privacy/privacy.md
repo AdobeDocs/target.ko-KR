@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
 
 ---
 
@@ -25,8 +25,6 @@ Adobe는 Adobe Target에 대해 Adobe Client Care에서 활성화할 수 있는 
 
 이 기능이 활성화되어 있으면 IP 주소가 충분히 익명으로 변경되므로 더 이상 개인 정보로 식별되지 않습니다. 결과적으로, Adobe Target은 개인 정보 수집을 허용하지 않는 국가의 데이터 개인 정보 보호 법률을 준수하며 사용할 수 있습니다. 도시 수준의 정보를 획득하는 것은 IP 주소 난독화의 영향을 크게 받을 수 있습니다. 지역 및 국가 수준의 정보를 획득하는 것은 IP 주소 난독화의 영향을 약간만 받아야 합니다.
 
-Adobe Client Care에 문의하여 IP 난독화 기능을 활성화하십시오.
-
 다음 설정을 사용할 수 있습니다.
 
 * 난독화 금지:Target은 IP 주소의 일부를 숨기지 않습니다.
@@ -34,6 +32,10 @@ Adobe Client Care에 문의하여 IP 난독화 기능을 활성화하십시오.
 * 전체 IP:Target은 전체 IP 주소를 숨깁니다.
 
 Target은 전체 IP 주소를 수신하고 지정된 대로 이를 난독화합니다(마지막 8진수나 전체 IP로 설정된 경우). 그런 다음 Target은 세션 동안 난독화된 IP 주소를 메모리에 저장합니다.
+
+>[!NOTE]
+>
+>[현재 사용 중인 설정을](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 확인하거나 IP 난독화 기능을 활성화하려면 Adobe Client Care에 문의하십시오.
 
 ## 지리 특성 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
