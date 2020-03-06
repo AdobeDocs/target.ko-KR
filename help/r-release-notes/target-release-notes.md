@@ -5,7 +5,7 @@ title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 ---
 
@@ -39,7 +39,7 @@ source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
    모든 고객을 at.js로 이동시킴으로써 Adobe 엔지니어 및 지원 담당자는 새로운 기능을 제공하고 Adobe로부터 기대하는 지원을 제공할 수 있습니다.
 
 
-## Target Standard/Premium 20.2.1(2020년 3월 3일)
+## Target Standard/Premium 20.2.1(2020년 3월 9일)
 
 >[!IMPORTANT]
 >
