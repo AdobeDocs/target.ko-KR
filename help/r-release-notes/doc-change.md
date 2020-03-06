@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0d9d88a7d3559621cdd49eecffaed0dd178047fa
+source-git-commit: 97f48e317b8d73d61c6262884ef689ffba645428
 
 ---
 
@@ -19,6 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 3월 6일 | [개인 정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | &quot;IP 주소의 마지막 8진수 대체&quot; 섹션에 더 많은 정보가 추가되었습니다. |
+|  | [릴리스 노트](/help/r-release-notes/release-notes.md) | 릴리스 날짜가 3월 9일로 변경되었습니다. |
 | 3월 4일 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | &quot;모범 사례&quot; 섹션의 광범위한 개정으로 전체 주제를 업데이트했습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md) | 릴리스 날짜를 3월 9일로 변경했습니다. |
 |  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Analytics용 Target(A4T)을 사용할 때 더 이상 사용되지 않고 변경된 지표에 대한 정보가 추가되었습니다. |
