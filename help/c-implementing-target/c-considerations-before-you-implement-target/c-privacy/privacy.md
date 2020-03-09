@@ -1,12 +1,12 @@
 ---
-keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations
+keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target은 적용 가능한 데이터 개인 정보 보호 법률에 따라 Target을 사용할 수 있도록 허용하는 프로세스 및 설정을 제공합니다.
 title: 개인 정보 보호
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
