@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: 759bd27a43cf831441d44b1d5c6b1f05f1d505d8
 
 ---
 
@@ -23,7 +23,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [사용자 지정 엔티티 속성](/help/c-recommendations/c-products/custom-entity-attributes.md) | 다중 값 속성 구현에서 *API* 사용에 *코드 샘플이*&#x200B;추가되었습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md) | 릴리스 날짜가 3월 9일로 변경되었습니다. |
 | 3월 4일 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | &quot;모범 사례&quot; 섹션의 광범위한 개정으로 전체 주제를 업데이트했습니다. |
-|  | [릴리스 노트](/help/r-release-notes/release-notes.md) | 릴리스 날짜를 3월 9일로 변경했습니다. |
+|  | [릴리스 노트](/help/r-release-notes/release-notes.md) | 이 릴리스 날짜가 아직 결정되지 않았음을 나타냅니다. |
 |  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Analytics용 Target(A4T)을 사용할 때 더 이상 사용되지 않고 변경된 지표에 대한 정보가 추가되었습니다. |
 | 2월 21일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 새로운 Adobe Experience Cloud 탐색에 대한 정보가 추가되었습니다. |
 | 2월 20일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 다음 설정에 대한 정보가 추가되었습니다. `pageLoadEnabled` 및 `viewsEnabled`Adobe |
