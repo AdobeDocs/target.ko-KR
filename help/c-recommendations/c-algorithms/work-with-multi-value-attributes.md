@@ -1,16 +1,16 @@
 ---
-keywords: multi;value;attributes;recommendations;multi value;multivalue
+keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: 특수 다중 값 연산자를 사용하는 Adobe Target Recommendations의 다중 값 필드 작업에 대한 정보입니다.
 title: Adobe Target Recommendations에서 다중 값 속성을 사용한 작업
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
 
 # 다중 값 특성을 사용한 작업
 
-다중 값 필드를 사용하여 작업하는 경우가 있습니다. 다음 예를 생각해 보십시오.
+다중 값 필드로 작업하려는 경우가 있습니다. 다음 예를 생각해 보십시오.
 
 * 사용자에게 동영상을 제공합니다. 특정 영화에는 여러 배우가 출연한다.
 * 콘서트 티켓을 팔아요 지정된 사용자는 여러 개의 즐겨찾기 밴드를 가지고 있습니다.
@@ -20,14 +20,24 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 다중 값 데이터를 [!DNL Recommendations] 식별하려면 아래 코드 샘플에서와 같이 JSON 배열로 전송해야 합니다.
 
-## JavaScript에서 다중 값 mbox 매개 변수 전달
+## JavaScript에서 다중 값 매개 변수 전달
 
 ```
- <!-- pass in the value of mbox parameter “favName” as JSON array -->
-<script type="text/javascript">
-   mboxCreate('myMbox','entity.id=<key>','favName=["a","b","c"]');
-</script>
+function targetPageParams() { 
+  return { 
+    'entity.id':                   '123', 
+    'entity.categoryId':            '["A", "A:B", "A:B:C", "A:B:C:D"]',        
+    'entity.MultiValueAttribute':   '["X", "Y", "Z"]', 
+    'entity.event.detailsOnly':     'true', 
+    'excludedIds":                  '[123, 3232, 2323, 4344]', 
+    'orderId":                      '123456', 
+    'orderTotal":                   '195.32', 
+    'productPurchaseId":            '[001,002,003]' 
+  }; 
+}
 ```
+
+자세한 내용은 사용자 지정 [엔티티 속성에서](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 다중 값 속성 *구현을*&#x200B;참조하십시오.
 
 ## CSV 파일에 다중 값 엔티티 속성 전달
 
