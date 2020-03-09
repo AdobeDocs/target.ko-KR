@@ -1,10 +1,10 @@
 ---
-keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
+keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
 title: 사용자 지정 엔티티 속성
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -21,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 다중 값 엔티티 사용자 지정 속성은 최대 500개의 값을 포함할 수 있습니다. 각 개별값은 100자로 제한됩니다. 모든 값에 걸친 총 문자 수는 단일 값 엔티티 사용자 지정 속성의 최대 길이에 대한 제한을 준수해야 합니다(위 참조).
 
-## 사용자 지정 엔티티 속성 값 {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 사용자 지정 엔티티 속성은 단일 값 또는 다중 값을 포함할 수 있습니다. 엔티티 속성 값은 제품 보기에 표시됩니다.
 
@@ -61,7 +61,7 @@ entity.genre=[“genre1”, “genre2”]
 * 배열에 단일 값 유형이 포함되어야 합니다. 혼합 값 배열(`["AB",1,true]`)은 지원되지 않습니다.
 * 중첩 JSON 배열(`[10,12,[1,2,3]]`)을 포함하는 다중 값 속성은 단일 값 속성으로 처리됩니다.
 
-## 다중 값 속성 구현 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 다중 값 사용자 지정 엔티티 속성은 피드(CSV), `targetPageParams`, 배달 API 및 엔티티 저장 API를 사용하여 제품을 업로드할 때 지원됩니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열([])은 값이 없는 것으로 처리됩니다.
 
@@ -109,10 +109,16 @@ function targetPageParams() {
 
 **API 사용**
 
+mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케이프된 JSON 배열이 포함된 문자열 값으로 전달할 수 있습니다.
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## 다중 값에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 다중 값 사용자 지정 속성에 연산자를 적용할 때, 목록에 있는 하나 이상의 값이 연산(부울 *or*)을 통과하는 경우 결과는 *true*&#x200B;가 됩니다.
 
@@ -136,7 +142,7 @@ using the Delivery and Save entities APIs.
 | 다음으로 끝남 | 속성 중 어떤 값이든 입력 값으로 끝나면 결과는 true가 됩니다. | `genre ends with abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["deabc", "de", "ef"]`. 하나의 값이 `abc`. |
 | 다음보다 크거나 같음(숫자 값만 해당) | 속성 값이 double로 변환됩니다. 규칙을 실행하는 동안 변환할 수 없는 속성은 건너뜁니다.<br>처리 후, 어떤 속성 값이든 입력 값보다 크거나 같으면 결과는 true가 됩니다. | `price greater than or equal to 100`<br>사례 1: `entity.price = ["10", "20", "45"]`. 100보다 크거나 같은 값이 없으므로 결과는 false입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.<br>사례 2: `entity.price = ["100", "101", "90", "80"]`. 두 값이 100보다 크거나 같으므로 결과는 true입니다. |
 | 다음보다 작거나 같음(숫자 값만 해당) | 속성 값이 double로 변환됩니다. 규칙을 실행하는 동안 변환할 수 없는 속성은 건너뜁니다.<br>처리 후, 어떤 속성 값이든 입력 값보다 작거나 같으면 결과는 true가 됩니다. | `price less than or equal to 100`<br>사례 1: `entity.price = ["101", "200", "141"]`. 100보다 작거나 같은 값이 없으므로 결과는 false입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.<br>사례 2: `entity.price = ["100", "101", "90", "80"]`. 두 값이 100보다 작거나 같으므로 결과는 true입니다. |
-| 동적으로 일치(항목 기반 알고리즘에서만 사용 가능) | 어떤 속성 값이든 입력 값과 일치하면 결과는 true가 됩니다. | `genre matches abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`. |
+| 동적으로 일치(항목 기반 알고리즘에서만 사용 가능) | 어떤 속성 값이든 입력 값과 일치하면 결과는 true가 됩니다. | `genre matches abc`<br> 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`. |
 | 동적으로 일치하지 않음(항목 기반 알고리즘에서만 사용 가능) | 어떤 속성 값이든 입력 값과 일치하면 결과는 false가 됩니다. | `genre does not match abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`. |
 | 동적 범위(항목 기반 알고리즘에서만 사용 가능, 숫자 값만 해당) | 어떤 숫자 속성 값이든 지정된 범위 내에 있으면 결과는 true가 됩니다. | `price dynamically ranges in 80% to 120% of 100`<br>사례 1: `entity.price = ["101", "200", "125"]`. `101`이 100의 80%~120% 범위에 있으므로 결과는 true입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.<br>사례 2: `entity.price = ["130", "191", "60", "75"]`. 100의 80%~120% 범위에 있는 값이 없으므로 결과는 false입니다. |
 
@@ -144,7 +150,7 @@ using the Delivery and Save entities APIs.
 >
 >*Double*&#x200B;은 Java 데이터 유형입니다. 숫자 값이 필요한 연산자의 경우, double로 변환하면 숫자가 아닌 값은 결과에서 고려되지 않습니다.
 
-## 디자인에 있는 다중 값 속성 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 다중 값 속성은 디자인에서 참조할 때 쉼표로 구분된 목록으로 표시됩니다.
 
