@@ -1,11 +1,11 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits
+keywords: target documentation change log;documentation updates;new topics;edits;updates
 description: 이 페이지에는 Adobe Target 설명서에 대한 중요한 변경 사항(릴리스별로 주문)이 나열됩니다.
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 97f48e317b8d73d61c6262884ef689ffba645428
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -18,7 +18,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 3월 6일 | [개인 정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | &quot;IP 주소의 마지막 8진수 대체&quot; 섹션에 더 많은 정보가 추가되었습니다. |
+| 3월 9일 | [개인 정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | &quot;IP 주소의 마지막 8진수 대체&quot; 섹션에 더 많은 정보가 추가되었습니다. |
+|  | [다중 값 특성을 사용한 작업](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | JavaScript *에서 다중 값 매개 변수 전달의 코드 샘플이 업데이트되었습니다*. |
+|  | [사용자 지정 엔티티 속성](/help/c-recommendations/c-products/custom-entity-attributes.md) | 다중 값 속성 구현에서 *API* 사용에 *코드 샘플이*&#x200B;추가되었습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md) | 릴리스 날짜가 3월 9일로 변경되었습니다. |
 | 3월 4일 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | &quot;모범 사례&quot; 섹션의 광범위한 개정으로 전체 주제를 업데이트했습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md) | 릴리스 날짜를 3월 9일로 변경했습니다. |
