@@ -4,7 +4,7 @@ description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용�
 title: 사용자 지정 엔티티 속성
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a686c6964bba360f013d6fb7effcfc7ae5f1eaf5
 
 ---
 
@@ -112,7 +112,19 @@ function targetPageParams() {
 mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케이프된 JSON 배열이 포함된 문자열 값으로 전달할 수 있습니다.
 
 ```
-"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+"execute": {
+    "mboxes": [
+      {
+        "index": 0,
+        "name": "first-mbox",
+        "parameters": {
+          "entity.id": "32323",
+          "entity.categoryId": "My Category",
+          "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]"
+        }
+      }
+    ]
+  }
 ```
 
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
