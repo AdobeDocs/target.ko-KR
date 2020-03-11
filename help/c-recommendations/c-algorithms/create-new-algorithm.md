@@ -3,7 +3,7 @@ description: 기준은 Adobe Recommendations 활동의 콘텐츠를 제어합니
 title: 기준 만들기
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -438,7 +438,7 @@ null 검색 결과 페이지는 사용하지 마십시오.
 >
 >컨텐츠 유사성 알고리즘은 항목 간 유사성을 계산하는 데 무작위 샘플링을 사용할 수 있습니다. 따라서 항목 간 유사성 등급은 알고리즘 실행 간에 다를 수 있습니다.
 
-## 교육 비디오:Recommendations에서 기준 만들기(12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
