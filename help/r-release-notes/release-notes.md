@@ -5,7 +5,7 @@ title: 'Adobe Target 릴리스 노트(현재) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -34,9 +34,7 @@ source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 * 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
 
-## Target Standard/Premium 20.2.1(결정 예정)
-
-해당 정보를 사용할 수 있는 정확한 날짜를 보려면 여기를 다시 확인하십시오.
+## Target Standard/Premium 20.2.1(2020년 3월 17일)
 
 >[!IMPORTANT]
 >
