@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 제품 설명서
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
 
 ---
 
@@ -14,7 +14,11 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**최종 업데이트일:2020년 3월 11일 ([변경 내용](r-release-notes/doc-change.md)참조)**
+**최종 업데이트일:2020년 3월 12일 ([변경 내용](r-release-notes/doc-change.md)참조)**
+
+>[!IMPORTANT]
+>
+>Adobe Summit이 가상 이벤트가 되었습니다. Adobe는 실시간 디지털 경험을 통해 모든 것을 혁신하고 있습니다. 이 라이브 경험에는 기본 단계의 Keynote 주소, 최신 트렌드와 고급 기능이 포함된 미니 키노트, 업계 선도업체의 성공에 대한 통찰력, 소규모 세션이 포함됩니다. 전체 디지털 이벤트에 무료로 등록하려면 The Digital Experience [Conference로 이동하십시오.Summit](https://www.adobe.com/summit.html) 페이지.
 
 다음 섹션에서는 일반적인 직무에 따라 의도된 대상별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
