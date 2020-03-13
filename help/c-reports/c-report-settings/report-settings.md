@@ -1,10 +1,10 @@
 ---
-keywords: Target;보고서;보고서 설정;사전 설정;target 사전 설정;지표;대상;날짜 범위;설정;다운로드;표 보기;그래프 보기;평균 리프트;리프트;리프트 경계;신뢰 구간;신뢰도;위치 기여도;평균 실행;방법론 계산
+keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 title: 보고서 설정
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -13,7 +13,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 
-보고서를 표시하려면 **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **보고서]탭을 클릭하십시오.[!UICONTROL **
+보고서를 표시하려면 **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **[!UICONTROL 보고서]** 탭을 클릭하십시오.
 
 ![보고서 UI](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
@@ -23,9 +23,12 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 개별 활동의 보고서를 원하는 대로 구성한 다음 해당 구성을 기본/즐겨 찾는 사전 설정으로 저장할 수도 있습니다. 해당 활동 보고서를 볼 때마다 표시되는 보기입니다.
 
-**사전 설정 또는 기본 사전 설정 작성**
+### 사전 설정 또는 기본 사전 설정 만들기
 
-1. 활동의 보고서를 원하는 대로 구성합니다(지표, 날짜 범위, 대상, 고급 설정 등).
+1. 원하는 대로 활동의 보고서를 구성합니다.
+
+   지표, 날짜 범위, 대상, 고급 설정 등을 포함한 사용 가능한 설정은 아래에 설명되어 있습니다.
+
 1. **[!UICONTROL Target 사전 설정]** 옆에 있는 3개의 수직 줄임표 아이콘을 클릭한 뒤 **[!UICONTROL 새 이름으로 저장]**&#x200B;을 클릭합니다.
 
    ![보고서 사전 설정](/help/c-reports/c-report-settings/assets/report_preset-new.png)
@@ -35,16 +38,16 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    ![새 사전 설정 대화 상자](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. 필터 및 설정 섹션의 정보를 검토하여 보고서가 원하는 대로 구성되었는지 확인한 다음 **[!UICONTROL 사전 설정 이름]**(최대 50자까지)을 지정하십시오.
-1. (조건부) 기본/즐겨 찾는 보고서 보기로 설정하려면 **[!UICONTROL 이 설정을 기본 사전 설정으로 설정]토글을 켜기 위치로 밉니다.**
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. (조건부) 기본/즐겨 찾는 보고서 보기로 설정하려면 **[!UICONTROL 이 설정을 기본 사전 설정으로 설정]** 토글을 켜기 위치로 밉니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-**다른 사전 설정 선택**
+### 다른 사전 설정 선택
 
-**[!UICONTROL Target 사전 설정]드롭다운 목록에서 원하는 사전 설정을 선택합니다.**
+**[!UICONTROL Target 사전 설정]** 드롭다운 목록에서 원하는 사전 설정을 선택합니다.
 
 ![사전 설정 드롭다운 목록](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-**사전 설정 편집**
+### 사전 설정 편집
 
 1. 편집할 사전 설정을 선택합니다.
 1. 보고서의 구성을 원하는 대로 편집합니다(지표, 날짜 범위, 대상, 고급 설정 등).
@@ -53,24 +56,24 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    ![별표가 표시된 보고서 사전 설정](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
-1. 3개의 수직 줄임표 아이콘 &gt; **[!UICONTROL 새 이름으로 저장]을 클릭하여 새로운 사전 설정을 만듭니다.**
+1. 3개의 수직 줄임표 아이콘 > **[!UICONTROL 새 이름으로 저장]**&#x200B;을 클릭하여 새로운 사전 설정을 만듭니다.
 
    또는
 
-   3개의 수직 줄임표 아이콘 &gt; **[!UICONTROL 업데이트]를 클릭하여 현재 사전 설정을 업데이트합니다.**
+   3개의 수직 줄임표 아이콘 > **[!UICONTROL 업데이트]**&#x200B;를 클릭하여 현재 사전 설정을 업데이트합니다.
 
    ![보고서 기본값 업데이트](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
-**사전 설정 삭제**
+### 사전 설정 삭제
 
 1. 삭제할 사전 설정을 선택합니다.
-1. 3개의 수직 줄임표 아이콘 &gt; **[!UICONTROL 삭제를 클릭합니다]**.
+1. 3개의 수직 줄임표 아이콘 > **[!UICONTROL 삭제를 클릭합니다]**.
 
    ![보고서 기본값 삭제](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. **[!UICONTROL 삭제]를 다시 클릭하여 삭제를 확인합니다.**
+1. **[!UICONTROL 삭제]**&#x200B;를 다시 클릭하여 삭제를 확인합니다.
 
-**사전 설정 오류 처리**
+### 사전 설정 오류 처리
 
 보고서 내의 경고 및 메시지를 통해 사전 설정이 유효하지 않은 상태가 되는지 알 수 있습니다. 경고 또는 메시지에 올바른 사전 설정을 작성하기 위한 다른 대상, 지표, 호스트 그룹 또는 경험을 선택하라고 표시됩니다.
 
@@ -80,7 +83,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 하나 이상의 지표가 삭제되었지만 사전 설정된 정의에서 참조됩니다. 예를 들어, 활동에서 하나 이상의 지표를 삭제한 다음 지표를 새로 추가할 수 있습니다.
 * 하나 이상의 호스트 그룹(환경)이 존재하지 않지만 사전 설정된 정의에서 참조됩니다.
 * 사전 설정이 작성된 후에 하나 이상의 경험이 삭제되었지만 사전 설정된 정의에서 참조됩니다.
-* 참조된 엔티티가 있지만 사전 설정 정의가 의미상 변경되는 방식으로 업데이트되었으므로 사전 설정이 의미상 잘못되었습니다. 예를 들어 처음에 "Revenue on Chrome"이라는 사전 설정된 이름을 만들었다고 가정해 보겠습니다. 나중에 활동을 업데이트하여 수입 대신 전환 지표를 측정합니다. 활동 정의에 대한 이 업데이트는 사전 설정된 정의를 무효화했습니다.
+* 참조된 엔티티가 있지만 사전 설정 정의가 의미상 변경되는 방식으로 업데이트되었으므로 사전 설정이 의미상 잘못되었습니다. 예를 들어 처음에 &quot;Revenue on Chrome&quot;이라는 사전 설정된 이름을 만들었다고 가정해 보겠습니다. 나중에 활동을 업데이트하여 수입 대신 전환 지표를 측정합니다. 활동 정의에 대한 이 업데이트는 사전 설정 정의를 의미적으로 무효화합니다.
 
 ## 보고서 지표 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -92,19 +95,19 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 대상자 {#section_70926EB4618945D9AFF2B0564FF3717B}
 
-[!UICONTROL 대상] 드롭다운 목록을 클릭하면 보고서에 대해 표시된 [대상](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을 변경할 수 있습니다.
+[!UICONTROL 대상] 드롭다운 목록을 클릭하면 보고서에 대해 표시된 대상을 변경할 수 있습니다.
 
 자세한 내용은 [대상](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을 참조하십시오.
 
 ## 날짜 범위 {#section_A410A768403C4E01891F95CB357E63ED}
 
-날짜 범위 상자에 보고서 현재 날짜 범위가 표시됩니다. 드롭다운 아이콘을 클릭하여 보고서의 날짜 범위를 변경할 수 있는 달력을 표시합니다.
+날짜 범위 상자에 보고서의 현재 날짜 범위가 표시됩니다. 드롭다운 아이콘을 클릭하여 보고서의 날짜 범위를 변경할 수 있는 달력을 표시합니다.
 
 ![달력](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-보고서에 대한 새로운 **[!UICONTROL 시작]** 및 **종료]날짜를 선택하십시오.[!UICONTROL ** **[!UICONTROL 활동 시작 날짜부터]** 및 **활동 마지막 날짜까지[!UICONTROL 확인란을 사용할 수도 있습니다.]**
+보고서에 대한 새로운 **[!UICONTROL 시작]** 및 **[!UICONTROL 종료]** 날짜를 선택하십시오. **[!UICONTROL 활동 시작 날짜부터]** 및 **[!UICONTROL 활동 마지막 날짜까지 확인란을 사용할 수도 있습니다.]**
 
-**[!UICONTROL 사용자 지정 날짜]를 클릭하여 사전 정의된 날짜 범위인 최근 7일, 최근 15일 또는 최근 30일을 선택합니다.** 이러한 사전 정의된 날짜 범위는 순환 범위입니다. 시작 날짜가 선택한 일 수보다 작은 경우, 달력에 시작 날짜부터 범위가 표시되지만, 시작 날짜가 활동 기간이 늘어날 때 선택한 일 수보다 오래되면 롤링됩니다.
+**[!UICONTROL 사용자 지정 날짜]**&#x200B;를 클릭하여 사전 정의된 날짜 범위인 최근 7일, 최근 15일 또는 최근 30일을 선택합니다. 이러한 사전 정의된 날짜 범위는 순환 범위입니다. 시작 날짜가 선택한 일 수보다 작은 경우, 달력에 시작 날짜부터 범위가 표시되지만, 시작 날짜가 활동 기간이 늘어날 때 선택한 일 수보다 오래되면 롤링됩니다.
 
 보고서 날짜는 다음과 같이 제한됩니다.
 
@@ -114,7 +117,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 설정{#section_D99CE462107D45CABE0960F820E1E972}의 지침을 완료하여 이 설정을 변경할 수 있습니다 
 
-톱니바퀴 아이콘을 클릭하여 보고서 설정을 구성한 다음, 완료되면 **[!UICONTROL 설정 저장]을 클릭하십시오.**
+톱니바퀴 아이콘을 클릭하여 보고서 설정을 구성한 다음, 완료되면 **[!UICONTROL 설정 저장]**&#x200B;을 클릭하십시오.
 
 다음 그림은 A/B 활동에 대한 설정 대화 상자입니다.
 
@@ -144,19 +147,22 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 새로 고침 {#section_E203729F2F314DF3856D2EE67C60B370}
 
-[새로 고침] 아이콘을 클릭하면 전체 페이지, 페이지 구성 또는 날짜 범위를 새로 고치지 않고 보고서 테이블 및 그래프 보기를 새로 고칠 수 있습니다.
+새로 고침 아이콘을 클릭하면 전체 페이지, 페이지 구성 또는 날짜 범위를 새로 고치지 않고 보고서 테이블 및 그래프 보기를 새로 고칠 수 있습니다.
 
-## 추가 옵션 {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
-[!UICONTROL 활동 편집] 및 [!UICONTROL 경험 URL 보기] 옵션에 액세스하려면 [추가 옵션] 아이콘(3개의 수직 줄임표)을 클릭하십시오.
+[!UICONTROL 활동 편집] 및 [!UICONTROL 경험 URL 보기] 옵션에 액세스하려면 추가 옵션 아이콘(3개의 수직 줄임표)을 클릭하십시오.
 
-## 표 보기 {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## 보기 옵션
 
-보고서를 표로 보려면 **[!UICONTROL 표 보기]아이콘을 클릭하십시오.**
+활동 유형에 따라 다양한 형식으로 보고서를 볼 수 있습니다. 원하는 옵션을 선택합니다.
 
-## 그래프 보기 {#section_0D24B902A8D142468ADB7EEF1D941786}
+![보기 옵션 아이콘](/help/c-reports/c-report-settings/assets/view-options.png)
 
-보고서를 그래프로 보려면 **[!UICONTROL 그래프 보기]아이콘을 클릭하십시오.**
+* **테이블 보기**:테이블 **[!UICONTROL 보기]** 아이콘을 클릭하여 보고서를 표로 봅니다.
+* **그래프 보기**:그래프 **[!UICONTROL 보기]** 아이콘을 클릭하여 보고서를 그래프로 표시합니다.
+* **자동화된 세그먼트**: (AP(Automated Personalization) 및 AT(Auto-Target) 활동에만 사용할 수 있습니다.) **자동화된[!UICONTROL 세그먼트] 아이콘을 클릭하여 자동화된 세그먼트 [보고서를](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)봅니다.
+* **중요 속성**:(AP(Automated Personalization) 및 AT(Auto-Target) 활동에만 사용할 수 있습니다.) **[!UICONTROL 중요 속성] 아이콘을 클릭하여 중요 속성 [보고서를](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)봅니다.
 
 ## 평균 상승도, 상승도 한계 및 신뢰 구간{#section_0D87615B1D3344B3858BA494EEBC16FB}을 참조하십시오 
 
@@ -167,11 +173,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 다음 사항을 고려하십시오.
 
 * 표 보기에서 보고서를 볼 때만 사용할 수 있습니다.
-* 이 기능은 Analytics를 보고 소스로 사용(A4T)하는 활동에는 사용할 수 없습니다.
+* 이 기능은 [Analytics를 보고 소스로 사용(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)하는 활동에는 사용할 수 없습니다.
 
 ## 위치 기여도 {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
-위치별 기여도를 표시하도록 보고서를 전환하려면 **[!UICONTROL 위치 기여도]아이콘을 클릭하십시오.**
+위치별 기여도를 표시하도록 보고서를 전환하려면 **[!UICONTROL 위치 기여도]** 아이콘을 클릭하십시오.
 
 ## 경험{#section_3A450DE1FA7E43F0AAB73165EC3D1C34}을 참조하십시오 
 
@@ -187,18 +193,21 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 그래프 보기에서 보고서를 볼 때만 사용할 수 있습니다.
 
+&quot;실행 평균&quot;은 누적 방문자로 나눈 누적 전환(보고 창의 시작에서 그래프에 표시되는 날짜까지)을 반영합니다.
+
 원하는 그래프 보기를 선택하십시오.
 
 * 평균 실행
 * 평균 상승도 실행
-* 일별
+* 일별 제어
+* 일별 타깃팅
 * 일별 상승도
 
 ![보고서 실행 평균](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
->이 드롭다운 목록의 이름은 선택한 보기에 따라 달라지지만 위에 나열된 네 개의 보기 중 하나가 됩니다.
+>이 드롭다운 목록의 이름은 선택한 보기에 따라 다르지만 위에 나열된 보기 중 하나가 됩니다.
 
 ## 계산 방법론{#section_01B0ED5665C74AE1AE97259800190C3E}을 참조하십시오 
 
@@ -206,17 +215,17 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 보고서에서 그래프에 대한 계산 방법론을 선택할 수 있습니다. 자동화된 개인화(AP) 활동에는 지원되지 않습니다.
 
-계산 방법론 선택 사항에 액세스하려면 그래프 모드에서 보고서를 볼 때 **[!UICONTROL 기본 목표]드롭다운을 클릭한 다음, 계산 방법론을 선택하십시오.**
+계산 방법론 선택 사항에 액세스하려면 그래프 모드에서 보고서를 볼 때 **[!UICONTROL 기본 목표]** 드롭다운을 클릭한 다음, 계산 방법론을 선택하십시오.
 
 계산 방법론은 위에서 설명한 [!UICONTROL 설정] 대화 상자에서 선택한 방법론과 같습니다.
 
-![계산 방법론](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)을 참조하십시오
+![계산 방법론](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)을 참조하십시오
 
 기본적으로 그래프는 [!UICONTROL 일별] 모드로 작성됩니다.
 
-[!UICONTROL 일별] 드롭다운 목록을 클릭한 다음, [!UICONTROL 누적]을 선택하여 모드를 변경할 수 있습니다.
+You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
 
-![누적](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
+![누적](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 >[!NOTE]
 >
@@ -226,17 +235,17 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 그래프가 작성되는 기본 순서는 다음과 같습니다.
 
-* A/B 테스트(자동 할당 및 자동화된 개인화 포함): 내림차순의 경험 작성 순서.
-* 경험 타깃팅(XT): 활동에 있는 경험의 순서.
-* 다변량 테스트(MVT): 경험 이름별 알파벳순.
-* 권장 사항: 내림차순의 경험 작성 순서.
+* **A/B 테스트(자동 할당 및 자동화된 개인화 포함)**:경험 제작 순서(내림차순)
+* **경험 타깃팅(XT)**:활동의 경험 순서.
+* **다변량 테스트(MVT)**:경험 이름별로 알파벳 순.
+* **권장 사항**:경험 제작 순서(내림차순)
 
 계산 방법론 선택 사항을 사용하여 작업할 때에는 다음 주의 사항을 고려하십시오.
 
-* 자동 타겟 활동의 경우 계산 방법론으로 "방문자 수"를 선택하는 선택 사항이 없습니다. 자동 타겟은 방문자 수로 그래프를 그릴 수 없는 유일한 활동 유형입니다.
-* Analytics를 보고 소스로 사용(A4T)하는 활동의 경우 방문자, 방문 또는 노출을 누적해서 그릴 수 없습니다.
+* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 자동 타겟은 방문자 수로 그래프를 그릴 수 없는 유일한 활동 유형입니다.
+* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-**활동에 16개가 넘는 경험이 있는 그래프 작업**
+## 활동에 16개 이상의 경험이 있는 그래프 작업
 
 활동에 16개 미만의 경험이 있다면 각 경험은 그래프에서 서로 다른 색상으로 이 표시됩니다.
 
