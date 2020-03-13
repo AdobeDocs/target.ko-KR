@@ -5,7 +5,7 @@ title: 제한
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -204,9 +204,7 @@ mbox v2 일괄 처리:
 
 ## 재사용 가능 대상/계정
 
-**권장 제한**: 75개의 대상.
-
-너무 많을 경우 인터페이스에서 JavaScript 시간 초과가 발생합니다.
+**권장 제한**: 20,000개의 대상.
 
 ## Target UI의 스크립트 프로필 입력 상자
 
