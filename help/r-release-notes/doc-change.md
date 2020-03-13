@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 3월 13일 | [제한](/help/r-troubleshooting-target/target-limits.md) | 재사용 가능한 대상/계정 수를 업데이트했습니다. |
 | 3월 12일 | [릴리스 노트](/help/r-release-notes/release-notes.md#summit) | 온라인 디지털 Summit 컨퍼런스에 무료로 액세스하기 위한 등록 정보를 추가했습니다. |
 | 3월 11일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Standard/Premium 20.2.1 릴리스는 2020년 3월 17일이 될 것임을 나타냅니다. |
 | 3월 9일 | [개인 정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | &quot;IP 주소의 마지막 8진수 대체&quot; 섹션에 더 많은 정보가 추가되었습니다. |
