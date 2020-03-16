@@ -1,12 +1,12 @@
 ---
-keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting
+keywords: customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm
 description: Adobe 프로필 및 대상 핵심 서비스에서 고객 속성을 사용하여 Adobe Target에서의 컨텐츠 타깃팅을 위해 고객 관계 관리(CRM) 데이터베이스의 엔터프라이즈 고객 데이터를 사용하는 방법에 대한 정보입니다.
 title: Adobe Target의 고객 속성
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -33,7 +33,7 @@ Consider the following information as your work with customer attributes and [!D
 
 * Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 현재 설계에서는 소량의 데이터가 온보딩되지 않을 수 있습니다.
 * The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 자세한 내용은 방문자 프로필 [라이프타임을 참조하십시오](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). `authState`가 UNAUTHENTICATED (1)로 변경되는 경우 프로필이 재생됩니다.
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will only come into play if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. 인증된 프로필을 가져오려면 `vst.myDataSource.authState` 값이 1(AUTHENTICATED)이어야 합니다.
 
@@ -65,8 +65,8 @@ Detailed instructions for completing each of the following tasks can be found in
 
    HTTP 메서드를 사용하여 최대 100MB의 데이터 파일을 업로드할 수 있습니다. 100MB보다 큰 파일(최대 4GB)은 FTP를 통해 업로드할 수 있습니다.
 
-   * **** HTTPS:.csv 데이터 파일을 드래그 앤 드롭하거나 찾아보기를 클릭하여 **[!UICONTROL 파일]** 시스템에서 업로드할 수 있습니다.
-   * **** FTP:FTP 링크를 클릭하여 FTP를 통해 파일을 [업로드합니다](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. Specify the password, then click **[!UICONTROL Done]**.
+   * **HTTPS:** .csv 데이터 파일을 드래그 앤 드롭하거나 찾아보기를 클릭하여 **[!UICONTROL 파일]** 시스템에서 업로드할 수 있습니다.
+   * **FTP:** FTP 링크를 클릭하여 FTP를 통해 파일을 [업로드합니다](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. Specify the password, then click **[!UICONTROL Done]**.
 
       이제 CSV/ZIP/GZIP 파일을 FTP 서버로 전송하십시오. 이 파일 전송이 성공한 후 동일한 이름과 .fin 확장명을 가진 새 파일을 만듭니다. 이 빈 파일을 서버로 전송합니다. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
