@@ -5,7 +5,7 @@ title: 제한
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -40,6 +40,10 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 
 **제한**: mbox, 지표 또는 경험당 50개 대상.
 
+## 고객, 계정당 재사용 가능
+
+**권장 제한**: 20,000개의 대상.
+
 ## categoryId 매개 변수
 
 **제한**: 128자.
@@ -51,6 +55,12 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 ## 고객 속성 앨리어스 ID
 
 **제한**: 50자.
+
+## 고객 속성, 업로드
+
+* **HTTP 방법을**&#x200B;사용하여 각 업로드에 대한 최대 파일 크기:100MB.
+* **FTP 방법을**&#x200B;사용하여 각 업로드에 대한 최대 파일 크기:4GB.
+* **구독할**&#x200B;수 있는 속성 수:5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
 
 ## 엔티티 사용자 지정 속성
 
@@ -201,10 +211,6 @@ mbox v2 일괄 처리:
 ## 보고 대상/세그먼트
 
 **제한**: 활동당 50개의 보고 대상/세그먼트.
-
-## 재사용 가능 대상/계정
-
-**권장 제한**: 20,000개의 대상.
 
 ## Target UI의 스크립트 프로필 입력 상자
 
