@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
+source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
 
 ---
 
@@ -148,7 +148,11 @@ Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속�
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-고객 속성 및 [!DNL Target]을 사용할 때 다음과 같은 문제가 발생할 수 있습니다.
+You might encounter the following issues when working with customer attributes and [!DNL Target].
+
+>[!NOTE]
+>
+>문제 1과 2는 이 지역의 약 60%의 문제를 야기합니다. 문제 3은 약 30%의 문제를 야기합니다. 문제 4는 약 5%의 문제를 야기합니다. 나머지 5%는 기타 문제로 인해 발생합니다.
 
 ### 문제 1:프로필이 너무 커서 고객 속성이 제거됩니다.
 
@@ -178,11 +182,7 @@ Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속�
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
 
->[!NOTE]
->
->위의 문제 1과 2는 이 지역에서 약 60%의 문제를 야기합니다. 문제 3은 약 30%의 문제를 야기합니다. 문제 4는 약 5%의 문제를 야기합니다. 나머지 5%는 기타 문제로 인해 발생합니다.
-
-## 교육 비디오: 고객 속성을 사용하여 오프라인 데이터 업로드 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} 자습서 ![배지](/help/assets/tutorial.png)
+## Training video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![Tutorial badge](/help/assets/tutorial.png)
 
 This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
