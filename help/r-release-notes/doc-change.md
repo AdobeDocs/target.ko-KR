@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -18,16 +18,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 3월 20일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Standard/Premium 20.2.1 릴리스가 2020년 3월 23일임을 나타냅니다. |
 | 3월 13일 | [제한](/help/r-troubleshooting-target/target-limits.md) | &quot;대상자, 계정당 재사용 가능&quot; 수를 업데이트했습니다. |
-| 3월 12일 | [릴리스 노트](/help/r-release-notes/release-notes.md#summit) | 온라인 디지털 Summit 컨퍼런스에 무료로 액세스하기 위한 등록 정보를 추가했습니다. |
-| 3월 11일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target Standard/Premium 20.2.1 릴리스는 2020년 3월 17일이 될 것임을 나타냅니다. |
+| 3월 12일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md#summit) | 온라인 디지털 Summit 컨퍼런스에 무료로 액세스하기 위한 등록 정보를 추가했습니다. |
 | 3월 9일 | [개인 정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | &quot;IP 주소의 마지막 8진수 대체&quot; 섹션에 더 많은 정보가 추가되었습니다. |
 |  | [다중 값 특성을 사용한 작업](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | JavaScript *에서 다중 값 매개 변수 전달의 코드 샘플이 업데이트되었습니다*. |
 |  | [사용자 지정 엔티티 속성](/help/c-recommendations/c-products/custom-entity-attributes.md) | 다중 값 속성 구현에서 *API* 사용에 *코드 샘플이*&#x200B;추가되었습니다. |
-|  | [릴리스 노트](/help/r-release-notes/release-notes.md) | 이 릴리스의 날짜가 아직 결정되지 않았음을 나타냅니다. |
 | 3월 4일 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | &quot;모범 사례&quot; 섹션의 광범위한 개정으로 전체 주제를 업데이트했습니다. |
-|  | [릴리스 노트](/help/r-release-notes/release-notes.md) | 이 릴리스 날짜가 아직 결정되지 않았음을 나타냅니다. |
-|  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Analytics용 Target(A4T)을 사용할 때 더 이상 사용되지 않고 변경된 지표에 대한 정보가 추가되었습니다. |
 | 2월 21일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 새로운 Adobe Experience Cloud 탐색에 대한 정보가 추가되었습니다. |
 | 2월 20일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 다음 설정에 대한 정보가 추가되었습니다. `pageLoadEnabled` 및 `viewsEnabled`Adobe |
 | 2월 19일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | 앞으로 있을 mbox.js 라이브러리 사용 중단에 대한 정보가 추가되었습니다. |
