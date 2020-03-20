@@ -5,7 +5,7 @@ title: 'Adobe Target 릴리스 노트(현재) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -44,7 +44,7 @@ Adobe Summit이 가상 이벤트가 되었습니다. Adobe는 2020년 3월 31일
 
 전체 디지털 이벤트에 무료로 등록하려면 The Digital Experience [Conference로 이동하십시오.Summit](https://www.adobe.com/summit.html) 페이지.
 
-## Target Standard/Premium 20.2.1(2020년 3월 17일)
+## Target Standard/Premium 20.2.1(2020년 3월 23일)
 
 >[!IMPORTANT]
 >
@@ -57,18 +57,21 @@ Adobe Summit이 가상 이벤트가 되었습니다. Adobe는 2020년 3월 31일
 * CSP(Content Security Policy)에 대한 보안 개선 사항을 구현했습니다. (TGT-36190)
 * 속성 가중치 백분율 막대를 왼쪽으로 밀면 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
 * 다양한 언어의 UI 텍스트가 올바로 표시되도록 현지화 문제를 해결했습니다.
-* 다음 Adobe Analytics 지표는 2020년 3월 Target 릴리스부터 Analytics for Target(A4T)에서 더 이상 지원되지 않습니다.
-   * averagevisdepth
-   * 보트
-* 다음 지표는 더 이상 지원되지 않으며 사용자가 지표를 포함하는 활동을 처음 수정할 때 지표의 새 버전으로 자동 변환됩니다.
+* 현재 버전의 Adobe Analytics API에서 지원되지 않는 Adobe Analytics 지표를 비활성화하여 Adobe Analytics for Target(A4T) 활동의 사용 가능한 지표 목록을 표준화했습니다. 이를 통해 향후 Adobe Target 릴리스에서 A4T 지원을 확장할 수 있습니다.
 
-   | 가치 하락 지표 | 새 지표 |
+   다음 변경 사항이 적용되었습니다.
+
+   * &quot;페이지에서 보낸 평균 시간&quot;이 &quot;사이트에서 보낸 평균 시간&quot;으로 대체되었습니다. 이 지표를 지표로 사용하는 모든 활동에는 &quot;사이트에서 보낸 평균 시간&quot;이 있습니다(참고:다음 번에 활동이 편집될 때 기본 목표 지표로 선택한 시간(초 단위)입니다.
+   * &quot;방문자 수&quot;는 &quot;고유 방문자 수&quot;로 대체되었습니다. 이 지표를 기본 목표 지표로 사용하는 모든 활동은 다음에 활동을 편집할 때 기본 목표 지표로 선택됩니다.
+
+* 다음 지표는 더 이상 사용되지 않으며 새 A4T 활동을 만들 때 기본 목표 지표로 선택할 수 없습니다.
+
+   | 가치 하락 지표 | 제안된 대체 지표 |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (참고:초 대신 분 단위 측정) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | 일일 방문자, 시간별 방문자, 월별 방문자, 분기별 방문자, 주별 방문자, 연간 방문자 | 고유 방문자 수 |
+   | 평균 방문 깊이 | n/a.기본 목표 지표로 제안되지 않음 |
+   | 보트 | n/a.기본 목표 지표로 제안되지 않음 |
+   | 모바일 충돌 비율, 모바일 평균 이전 세션 길이, 모바일 앱 스토어 평균 등급, 모바일 앱 성능 충돌 비율, 모바일 앱 스토어 평균 등급 | n/a.기본 목표 지표로 제안되지 않음 |
 
 ## Adobe Experience Cloud 내비게이션(2019년 2월 22일)
 
