@@ -5,7 +5,7 @@ title: Adobe Target 소개
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -16,9 +16,9 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 
 다음 비디오에서는 Target을 다른 Adobe Experience Cloud 솔루션과 함께 사용할 때 조직의 목표를 달성하는 데 어떻게 도움이 될 수 있는지에 대한 기본 이해를 제공합니다.
 
->[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
 
->[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 [!DNL Adobe Target] 솔루션은 다음과 같은 몇 가지 조각을 포함합니다.
 
