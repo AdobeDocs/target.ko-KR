@@ -5,7 +5,7 @@ title: 브라우저에서 혼합 컨텐츠 활성화
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -40,7 +40,7 @@ Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가
 
 최신 버전의 Chrome(버전 79.0.3945.117 이상)에서 VEC를 사용하는 경우 사이트 설정을 업데이트해야 합니다. 사이트 방문자는 이러한 단계를 완료할 필요가 없습니다.
 
->[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo)
+>[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
 
 위의 비디오에서는 필요한 단계를 간략하게 설명합니다.
 
