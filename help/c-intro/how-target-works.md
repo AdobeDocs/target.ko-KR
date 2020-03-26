@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -95,7 +95,7 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 ![핵심 에지 사이트 및 에지 사이트 매핑](assets/edge_network.png)
 
-The source for this mage is the [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) white paper.
+이 이미지의 소스는 Adobe Target [보안 개요](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서입니다.
 
 Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센터에 호스팅됩니다. 관리 서버는 런던, 싱가포르를 포함하여 오레곤, 버지니아 등 미국 전역의 여러 지역에서 Adobe 소유 데이터 센터 내에 호스팅됩니다. Edge Server는 런던, 중국 홍콩 SAR, 싱가포르, 도쿄 및 시드니에 있는 Amazon AWS 데이터 센터의 Adobe 소유 및 Adobe 임대한 서버에서 호스팅됩니다.
 
