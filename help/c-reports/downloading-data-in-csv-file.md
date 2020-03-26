@@ -1,12 +1,12 @@
 ---
-keywords: 보고서;보고서 다운로드;csv;성공 지표;주문 세부 사항
+keywords: reports;download reports;csv;success metrics;order details
 description: Adobe Target을 사용하여 데이터를 .csv 형식으로 다운로드하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 신속하게 가져올 수 있습니다.
 title: Adobe Target을 사용하여 CSV 파일로 데이터 다운로드
-subtopic: 다변량 테스트
+subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -21,8 +21,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
 
-1. **[!UICONTROL 보고서]탭을 클릭합니다.**
-1. **[!UICONTROL 다운로드]아이콘을 클릭한 다음, Excel 및 기타 도구에서 분석할 수 있도록 다운로드할 보고서 유형을 선택합니다.**
+1. **[!UICONTROL 보고서]** 탭을 클릭합니다.
+1. **[!UICONTROL 다운로드]** 아이콘을 클릭한 다음, Excel 및 기타 도구에서 분석할 수 있도록 다운로드할 보고서 유형을 선택합니다.
 
    * [!UICONTROL 보고서를 CSV로 내보내기]
    * [!UICONTROL 주문 세부 사항을 CSV로 내보내기]
@@ -39,11 +39,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->CSV 보고서에는 원시 데이터만 포함되며 방문자당 매출액, 리프트 수 또는 A/B 테스트에 사용된 신뢰도와 같은 계산된 지표는 포함되지 않습니다. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSV 보고서에는 원시 데이터만 포함되며 방문자당 매출액, 리프트 수 또는 A/B 테스트에 사용된 신뢰도와 같은 계산된 지표는 포함되지 않습니다. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 주문 세부 사항을 CSV로 내보내기 {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-주문 세부 사항 보고서([!DNL Target Classic]의 감사 보고서로 알려짐)는 다음 사항을 포함하여 주문에 대한 정보를 제공합니다.
+주문 세부 사항 보고서는 다음을 포함하여 주문에 대한 정보를 보여줍니다.
 
 * 주문 날짜 및 시간
 * 주문 수량(mbox 주문하기를 삽입한 경우)
@@ -56,20 +56,20 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 * 제품 ID
 
-   쉼표로 연결할 제품 ID의 전체 길이는 255자를 초과하지 않아야 하며 그렇지 않을 경우 ID가 보고서에 제대로 표시되지 않습니다. 예를 들어 주문에 ID가 "aa, bb"인 제품이 포함되어 있으면 총 길이는 "aa,bb" = 5가 됩니다.
+   쉼표로 연결할 제품 ID의 전체 길이는 255자를 초과하지 않아야 하며 그렇지 않을 경우 ID가 보고서에 제대로 표시되지 않습니다. 예를 들어 주문에 ID가 &quot;aa, bb&quot;인 제품이 포함되어 있으면 총 길이는 &quot;aa,bb&quot; = 5가 됩니다.
 
 * 경험
 
    [!UICONTROL A/B 테스트], [!UICONTROL 경험 타깃팅] (XT) 및 [!UICONTROL 다변량 테스트] (MVT) 활동을 위 [!UICONTROL 주문 세부 사항]에서 [!UICONTROL 경험] 열에는 `localId`가 있습니다. 이것은 오퍼 토큰에 있는 `$campaign.recipe.id`의 값 출력입니다.
 
-   [!UICONTROL 자동화된 개인화] (AP) 활동을 위한 [!UICONTROL 경험] 열은 없습니다. [!UICONTROL 의 다른 곳에 표시된 대로, 현재 ]알고리즘 이름[!DNL Target] 열은 "통제" 및 "타깃팅된" 용어로 대체되었습니다.
+   [!UICONTROL 자동화된 개인화] (AP) 활동을 위한 [!UICONTROL 경험] 열은 없습니다. [!UICONTROL 의 다른 곳에 표시된 대로, 현재 ]알고리즘 이름[!DNL Target] 열은 &quot;통제&quot; 및 &quot;타깃팅된&quot; 용어로 대체되었습니다.
 
    [!UICONTROL 권장 사항] 활동에는 영향을 주지 않았습니다.
 
 >[!NOTE]
 >
 >* 주문 보고서 데이터에는 기본 환경(호스트 그룹)의 경우는 4주, 비기본 환경의 경우는 2주 동안의 데이터가 포함됩니다.
->* "증분 카운트 및 사용자를 활동에 유지"로 설정된 수입 지표는 동일한 방문자가 수행한 첫 번째 주문에 대해서만 주문 세부 사항을 기록합니다. 모든 후속 주문은 전환 카운트를 증가시키지만 RPV/AOV/매출에는 매출을 추가하지 않으며 주문 세부 사항 보고서에 포함되지 않습니다.
+>* &quot;증분 카운트 및 사용자를 활동에 유지&quot;로 설정된 수입 지표는 동일한 방문자가 수행한 첫 번째 주문에 대해서만 주문 세부 사항을 기록합니다. 모든 후속 주문은 전환 카운트를 증가시키지만 RPV/AOV/매출에는 매출을 추가하지 않으며 주문 세부 사항 보고서에 포함되지 않습니다.
 
 
 ## 우수 사례
