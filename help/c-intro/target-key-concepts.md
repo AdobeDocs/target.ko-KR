@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -46,8 +46,6 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 * 방문자 행동 기록
 
 [!DNL Target Standard]에서 위치는 추적하려는 각 페이지의 `<head>` 섹션에서 [!DNL Target]을 활성화하는 단일 코드 행을 페이지가 포함하는 한 페이지의 모든 요소가 될 수 있습니다. 이 코드 행은 정보를 수집하고 방문자에게 타깃팅된 경험을 전달하는 데 필요한 JavaScript 라이브러리를 호출합니다.
-
-자세한 내용은 [의 위치 구현과 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)의 mbox 구현의 차이점에 대해서는 [!DNL Target Standard]at.js의 이점[!DNL Target Classic]을 참조하십시오.
 
 위치는 대상과 결합하여 고객에게 타깃팅 정보에 대한 선택 사항을 거의 무제한으로 제공합니다. 예를 들어, 방문자가 이전에 사이트를 방문한 적이 없는 경우 신규 고객용 할인 쿠폰을 표시할 수 있습니다. 마찬가지로, 페이지가 재방문 고객에게 더 최적화된 오퍼를 표시하도록 변경될 수도 있습니다.
 
