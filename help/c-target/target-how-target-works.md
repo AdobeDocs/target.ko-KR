@@ -1,19 +1,17 @@
 ---
-keywords: 타깃팅;쿠키;퍼스트 파티;자사 쿠키
+keywords: targeting;cookie;first-party cookie;1st-party cookie
 description: Adobe Target은 at.js나 mbox.js JavaScript 라이브러리를 사용하여 웹 페이지와 통합됩니다.
 title: 타깃팅이 작동하는 방법
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
 
 # 타깃팅이 작동하는 방법{#how-targeting-works}
 
-Adobe Target은 at.js나 mbox.js JavaScript 라이브러리를 사용하여 웹 페이지와 통합됩니다.
-
-[!DNL Target Classic]에서는 타깃팅된 콘텐츠를 표시하거나 데이터를 수집하려는 페이지에서 각 영역 주위에 mbox를 사용했습니다. [!DNL Target Standard]에서는 이러한 mbox가 필요하지 않습니다. 대신, 각 페이지에서 참조되는 하나의 JavaScript 라이브러리만 있으면 최적화 활동을 실행할 수 있습니다.
+Adobe Target은 at.js나 mbox.js JavaScript 라이브러리를 사용하여 웹 페이지와 통합됩니다. 각 페이지에서 참조되는 하나의 JavaScript 라이브러리는 최적화 활동을 실행하는 데 필요한 모든 것입니다.
 
 방문자가 Target이 활성화된 페이지를 요청할 때마다, [!DNL Target]에서는 다음 프로세스를 사용하여 오퍼를 제공합니다.
 
