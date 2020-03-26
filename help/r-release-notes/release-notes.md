@@ -5,7 +5,7 @@ title: 'Adobe Target 릴리스 노트(현재) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -43,6 +43,15 @@ Adobe Summit이 가상 이벤트가 되었습니다. Adobe는 2020년 3월 31일
 * **미래의**&#x200B;정점을 엿보십시오.특별 게스트 Chelsea Handler에 가입하여 Adobe 랩에서 제공하는 최신 실험 기술을 살펴보십시오. 를 참조하십시오.
 
 전체 디지털 이벤트에 무료로 등록하려면 The Digital Experience [Conference로 이동하십시오.Summit](https://www.adobe.com/summit.html) 페이지.
+
+## at.js 타깃팅(2020년 3월 25일)
+
+다음 새 버전의 Target at.js JavaScript 라이브러리를 사용할 수 있습니다.
+
+* at.js 버전 2.3.0
+* at.js 버전 1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1(2020년 3월 23일)
 
