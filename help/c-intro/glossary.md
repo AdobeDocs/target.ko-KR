@@ -4,7 +4,7 @@ title: Adobe Target 용어
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -161,7 +161,7 @@ Target에 대한 엔터프라이즈급 사용자 액세스를 공식적으로 �
 
 **환경**
 
-관리하기 쉽도록 호스트는 환경으로 번들됩니다. 미리 설정된 호스트 그룹은 프로덕션, 스테이징 및 개발입니다. 그러나 새 호스트 그룹을 추가하고 기존의 호스트 그룹의 이름을 변경할 수도 있습니다. 환경은 [!DNL Target Classic]에서는 "호스트 그룹"이라고 합니다.
+관리하기 쉽도록 호스트는 환경으로 번들됩니다. 미리 설정된 호스트 그룹은 프로덕션, 스테이징 및 개발입니다. 그러나 새 호스트 그룹을 추가하고 기존의 호스트 그룹의 이름을 변경할 수도 있습니다.
 
 **경험**&#x200B;으로 제어됩니다
 
@@ -203,7 +203,7 @@ Target Standard의 활동에 대한 시각적 표시입니다.
 
 **호스트 그룹**
 
-*환경*&#x200B;을 참조하십시오. 호스트 그룹을 [!DNL Target Standard/Premium]에서는 "환경"이라고 합니다.
+*환경*&#x200B;을 참조하십시오. 호스트 그룹을 [!DNL Target Standard/Premium]에서는 &quot;환경&quot;이라고 합니다.
 
 ## I {#section_8ABE89A86AF54BD4B6B2CC909F651B5C}
 
