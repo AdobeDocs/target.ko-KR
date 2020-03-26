@@ -5,7 +5,7 @@ title: at.js 버전 세부 사항
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,6 +17,20 @@ source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
 >[!IMPORTANT]
 >
 >Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오.
+
+## at.js 버전 2.3.0(2020년 3월 25일)
+
+at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
+
+* 제공된 Target 오퍼를 적용할 때 DOM 페이지에 추가된 SCRIPT 및 STYLE 태그에 대한 Content Security 정책 추가 설정을 지원합니다. 고객은 `targetGlobalSettings.cspScriptNonce` `targetGlobalSettings.cspStyleNonce` 적용된 오퍼에서 해당 스크립트 및 스타일 태그 원본을 설정할 수 있도록 설정할 수 있습니다. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* Google 태그 관리자 배포용 Google Closure 컴파일러를 사용하여 at.js를 컴파일할 때 발생하는 문제가 해결되었습니다.
+* 고객의 구현과의 충돌을 방지하기 위해 at.js 확인 쿠키의 이름을 에서 `check` 로 `at_check` 변경했습니다.
+
+## at.js 버전 1.8.1(2020년 3월 25일)
+
+at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
+
+* 고객의 구현과의 충돌을 방지하기 위해 at.js 확인 쿠키의 이름을 에서 `check` 로 `at_check` 변경했습니다.
 
 ## at.js 버전 2.2.0(2019년 10월 10일)
 
