@@ -5,7 +5,7 @@ title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 이러한 릴리스 노트는 최신 또는 예정된 [!DNL Adobe Target] 릴리스의 기능, 향상된 기능 및 수정 사항에 대한 정보를 제공합니다.
 
-**마지막 업데이트 날짜: 2020년 20월 3일**
+**마지막 업데이트 날짜: 2020년 25월 3일**
 
 >[!NOTE]
 >
@@ -38,6 +38,15 @@ source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
    >   
    모든 고객을 at.js로 이동시킴으로써 Adobe 엔지니어 및 지원 담당자는 새로운 기능을 제공하고 Adobe로부터 기대하는 지원을 제공할 수 있습니다.
 
+
+## at.js 타깃팅(2020년 3월 25일)
+
+다음 새 버전의 Target at.js JavaScript 라이브러리를 사용할 수 있습니다.
+
+* at.js 버전 2.3.0
+* at.js 버전 1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1(2020년 3월 23일)
 
