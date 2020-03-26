@@ -5,7 +5,7 @@ title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSetti
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 ---
 
@@ -44,6 +44,8 @@ source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
 | optoutEnabled | 부울 | false | Target이 방문자 API `isOptedOut()` 함수를 호출해야 하는지를 나타냅니다. Device Graph 지원의 일부입니다. |
 | selectorsPollingTimeout | 숫자 | 5000ms = 5s | at.js 0.9.6에서 Target은 `targetGlobalSettings`를 통해 재정의할 수 있는 이 새 설정을 도입했습니다.<br>`selectorsPollingTimeout`은 선택기로 식별된 모든 요소가 페이지에 표시되도록 하기 위해 클라이언트가 대기하는 시간을 나타냅니다.<br>VEC(시각적 경험 작성기)를 통해 작성된 활동에는 선택기를 포함하는 오퍼가 있습니다. |
 | dataProviders | 아래의 &quot;데이터 공급자&quot;를 참조하십시오. | 아래의 &quot;데이터 공급자&quot;를 참조하십시오. | 아래의 &quot;데이터 공급자&quot;를 참조하십시오. |
+| cspScriptNonce | 아래의 &quot;콘텐츠 보안 정책&quot;을 참조하십시오. | 아래의 &quot;콘텐츠 보안 정책&quot;을 참조하십시오. | 아래의 &quot;콘텐츠 보안 정책&quot;을 참조하십시오. |
+| cspStyleNonce | 아래의 &quot;콘텐츠 보안 정책&quot;을 참조하십시오. | 아래의 &quot;콘텐츠 보안 정책&quot;을 참조하십시오. | 아래의 &quot;콘텐츠 보안 정책&quot;을 참조하십시오. |
 
 ## 사용 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -175,6 +177,29 @@ var weatherProvider = {
 
 * `window.targetGlobalSettings.dataProviders`에 추가된 데이터 공급자가 비동기 상태인 경우 병렬로 실행됩니다. 방문자 API 요청은 최소 대기 시간을 허용하기 위해 `window.targetGlobalSettings.dataProviders`에 추가된 함수와 함께 실행됩니다.
 * at.js는 데이터를 캐시하려고 하지 않습니다. 데이터 공급자는 데이터를 한 번만 가져오는 경우 데이터가 캐시되는지 확인해야 하고, 공급자 함수가 호출될 때 두 번째 호출을 위해 캐시 데이터를 제공해야 합니다.
+
+## Content Security Policy {#content-security}
+
+at.js 2.3.0+는 제공된 Target 오퍼를 적용할 때 페이지 DOM에 첨부된 SCRIPT 및 STYLE 태그에서 Content Security 정책 원본을 설정할 수 있도록 지원합니다.
+
+SCRIPT 및 STYLE 논리는 at.js 2.3.0+ 로딩 전에 `targetGlobalSettings.cspScriptNonce` 그에 따라 설정되어야 `targetGlobalSettings.cspStyleNonce` 합니다. 아래 예를 참조하십시오.
+
+```
+...
+<head>
+ <script nonce="<script_nonce_value>">
+window.targetGlobalSettings = {
+  cspScriptNonce: "<csp_script_nonce_value>",
+  cspStyleNonce: "<csp_style_nonce_value>"
+};
+ </script>
+ <script nonce="<script_nonce_value>" src="at.js"></script>
+...
+</head>
+...
+```
+
+이후 `cspScriptNonce` 및 `cspStyleNonce` 설정이 지정되면 at.js 2.3.0+는 Target 오퍼를 적용할 때 DOM에 추가되는 모든 SCRIPT 및 STYLE 태그의 nonce 특성으로 설정합니다.
 
 ## serverState {#server-state}
 
