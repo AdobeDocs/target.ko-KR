@@ -4,7 +4,7 @@ description: 이 Adobe Target 릴리스의 알려진 문제에 대한 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -77,6 +77,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 다음은 at.js의 알려진 문제입니다.
 
+* Adobe Analytics 코드가 페이지 요소(예: 단추)에 없는 경우, 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 Analytics for Target(A4T)에서 전환을 보고하지 않습니다. at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다.이 [문제가 발생하는 경우 최신 at.js 버전으로](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 업그레이드하십시오.
 * at.js 2.1.1 또는 이전 버전(예: 기본 경험)을 사용하지 않고 경험을 만드는 경우, 보고서, Analytics for Target(A4T), Adobe Analytics 또는 Google Analytics에서 경험이 카운트되지 않을 수 있습니다. 또한 [메타 플러그인이](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 제대로 작동하지 않을 수 있습니다.
 
    해결 방법으로 경험 컨텐츠에 공백을 사용하십시오. (TNT-33366)
