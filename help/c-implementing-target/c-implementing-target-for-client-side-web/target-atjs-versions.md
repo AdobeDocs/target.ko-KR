@@ -5,7 +5,7 @@ title: at.js 버전 세부 사항
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -36,6 +36,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 at.js의 이 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
 
+* Adobe Analytics 코드가 페이지 요소에 없을 때 클릭 추적이 Analytics for Target(A4T)의 전환을 보고하지 않았던 문제를 수정했습니다.
 * 웹 페이지에서 Experience Cloud ID 서비스(ECID) v4.4 및 at.js 2.2를 모두 사용할 때의 성능이 개선되었습니다.
 * 이전에는, at.js가 경험을 가져오기 전에 ECID가 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 향상되었습니다.
 
