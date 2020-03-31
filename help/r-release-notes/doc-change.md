@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: fe537a2c2007af59b2eb8abb4aaf3ec5626f2c65
 
 ---
 
@@ -19,7 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 3월 30일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.2.0 이전의 at.js 버전에 영향을 주는 알려진 문제가 추가되었습니다.이 문제로 인해 Adobe Analytics 코드가 페이지 요소에 없을 때 Analytics for Target(A4T)에서 클릭 추적이 전환을 보고하지 않았습니다. |
-|  | at.js 버전 세부 사항 | at.js 버전 2.2.0 세부 정보에 다음 정보가 추가되었습니다.<ul><li>Adobe Analytics 코드가 페이지 요소에 없을 때 클릭 추적이 Analytics for Target(A4T)에서 전환을 보고하지 않던 문제를 수정했습니다.</li></ul> |
+|  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.2.0 세부 정보에 다음 정보가 추가되었습니다.<ul><li>Adobe Analytics 코드가 페이지 요소에 없을 때 클릭 추적이 Analytics for Target(A4T)에서 전환을 보고하지 않던 문제를 수정했습니다.</li></ul> |
 | 3월 25일 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js의 다음 새 버전에 대한 정보가 추가되었습니다.<ul><li>at.js 버전 2.3.0</li><li>at.js 버전 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | &quot;설정&quot; 섹션에 다음과 같은 새 행을 추가했습니다.<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>다음 새 섹션이 추가되었습니다.<ul><li>콘텐츠 보안 정책</li></ul> |
 | 3월 24일 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 다음 항목에 대한 영향에 대한 정보가 추가되었습니다.<ul><li>타사 ID를 기반으로 하는 프로필 스크립트</li><li>iOS 장치의 QA/미리 보기 URL</li></ul> |
