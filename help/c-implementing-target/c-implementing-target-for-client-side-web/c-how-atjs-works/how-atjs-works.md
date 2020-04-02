@@ -5,7 +5,7 @@ title: Adobe Target at.js JavaScript 라이브러리의 작동 방식
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -91,7 +91,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 * at.js는 비동기식으로 로드되므로 원격 스크립트 실행 순서에 대해 보장하지 않습니다.
 * 원격 스크립트는 나중에 로드 및 실행되므로 인라인 스크립트에 대한 종속성을 가지면 안 됩니다.
 
-## 교육 비디오:at.js 2.x 아키텍처 다이어그램 ![개요](/help/assets/overview.png) ![배지](/help/assets/overview.png)
+## 교육 비디오:at.js 2.x 아키텍처 다이어그램 ![개요 배지](/help/assets/overview.png)
 
 at.js 2.x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experience Cloud 솔루션과 통합됩니다. 다음 비디오에서는 모든 것이 어떻게 합쳐지는지 설명합니다.
 
