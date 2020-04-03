@@ -5,7 +5,7 @@ title: Adobe Target에서 단일 페이지 애플리케이션 구현
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -36,7 +36,7 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 홈 사이트로 이동하면 사이트에서 판매되는 최신 제품과 부활절 판매를 홍보하는 영웅 이미지가 바로 표시됩니다. 이 경우 보기는 전체 홈 사이트로 정의할 수 있습니다. 아래의 Adobe Target 보기 구현 섹션에서 이에 대해 자세히 설명할 예정이므로 이것은 기록해 두면 편리합니다.
 
-**링크: Product Site[](https://target.enablementadobe.com/react/demo/#/products)**
+**링크:제품[사이트](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![제품 사이트](/help/c-experiences/assets/product-site.png)
 
@@ -115,7 +115,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**링크: Products Site[](https://target.enablementadobe.com/react/demo/#/products)**
+**링크:제품[사이트](https://target.enablementadobe.com/react/demo/#/products)**
 
 이제 좀 더 복잡한 예를 살펴보겠습니다. 마케터는 사용자가 추가 로드 단추를 클릭한 후 &quot;가격&quot; 레이블 색상을 빨간색으로 변경함으로써 제품의 두 번째 행을 개인화하려고 합니다.
 
@@ -274,15 +274,15 @@ document.addEventListener("at-view-end", function(e) {
 
 다음 비디오에는 추가 정보가 포함되어 있습니다.
 
-### at.js 2.x 작동 방식 이해
+### at.js 2.x 작동 방식 이해 개요 ![배지](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26250) 개요 ![배지](/help/assets/overview.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 자세한 [내용은 at.js 2.x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식 이해를 참조하십시오.
 
-### SPA에서 at.js 2.x 구현
+### SPA 자습서 배지에서 at.js 2.x ![구현](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26248) 자습서 ![배지](/help/assets/tutorial.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
 
 자세한 [내용은 단일 페이지 애플리케이션(SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 에서 Adobe Target at.js 2.x 구현을 참조하십시오.
 
