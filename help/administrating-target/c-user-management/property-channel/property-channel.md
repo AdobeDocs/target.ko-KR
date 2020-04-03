@@ -5,7 +5,7 @@ title: Enterprise 사용자 권한
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
 
 ---
 
@@ -271,7 +271,7 @@ Target Premium에서 속성 및 권한을 사용하거나 구성할 때 다음 �
 
 리디렉션 페이지와 활동 URL이 동일한 속성에 속하는 경우 clicktracks가 예상대로 작동합니다. 자세한 내용은 [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md)을 참조하십시오.
 
-## 교육 비디오:엔터프라이즈 권한 교육 비디오 {#section_2FA080303A064242B63FF16CFA6DB31D} 개요 ![배지](/help/assets/overview.png)
+## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 학습 목표:
 
