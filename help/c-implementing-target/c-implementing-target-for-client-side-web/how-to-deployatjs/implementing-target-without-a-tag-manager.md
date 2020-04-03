@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: ff3e0d7baacc149e53641f0340dded3a310c60f9
 
 ---
 
@@ -37,8 +37,8 @@ at.js 설정 페이지에서 몇 가지 설정을 지정하는 데 도움이 되
 
 [!UICONTROL 설정] 페이지를 열려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 설정]**>**[!UICONTROL &#x200B;구현]**을 클릭합니다.
-1. **[!UICONTROL at.js]**>**[!UICONTROL  at.js 설정 편집]**을 선택합니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL at.js]** > **[!UICONTROL at.js 설정 편집]**&#x200B;을 선택합니다.
 
 ## 컨텐츠 전달 설정 {#section_118D290DFC444509AD8E4AE86C9D92C0}
 
@@ -89,7 +89,7 @@ ov2/c_target-configure-atjs.xml
 
 [!DNL Target] 인터페이스에서 [!DNL at.js]를 다운로드하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 설정]**>**[!UICONTROL &#x200B;구현]**을 클릭합니다.
+1. **[!UICONTROL 설정]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL at.js를 선택합니다]**.
 1. **[!UICONTROL at.js 다운로드를 클릭합니다]**.
 
@@ -99,7 +99,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
 
 1. 클라이언트 코드를 가져옵니다.
 
-   클라이언트 코드는 **[!UICONTROL 인터페이스의]**설정**[!UICONTROL  > ]**구현&#x200B;**[!UICONTROL >]**at.js 설정 편집[!DNL Target]페이지의 맨 위에 있습니다.
+   클라이언트 코드는 **[!UICONTROL 인터페이스의]**&#x200B;설정&#x200B;**[!UICONTROL >]**&#x200B;구현&#x200B;**[!UICONTROL >]** at.js 설정 편집[!DNL Target] 페이지의 맨 위에 있습니다.
 
 1. 관리 번호를 가져옵니다.
 
@@ -126,7 +126,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
    이 URL을 다음 구조로 로드하십시오.
 
    ```
-   https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
+   https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
    * Replace `admin number` with your admin number.
@@ -202,7 +202,7 @@ at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현�
 다음 중요 참고 사항을 고려하십시오.
 
 * HTML5 Doctype(예: `<!doctype html>`)을 사용해야 합니다. 지원되지 않거나 이전 버전의 doctypes으로 Target이 요청을 작성할 수 없습니다.
-* 사전 연결 및 미리 가져오기는 웹 페이지 로드 속도를 높일 수 있는 옵션입니다. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]**>**[!UICONTROL  Implementation]** > **[!UICONTROL Edit at.js Settings]**page.
+* 사전 연결 및 미리 가져오기는 웹 페이지 로드 속도를 높일 수 있는 옵션입니다. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** page.
 * 데이터 계층이 있는 경우 at.js가 로드되기 전에 페이지의 `<head>`에 가능한 많은 항목을 정의하는 것이 최적입니다. 이 배치는 개인화를 위해 Target에서 이 정보를 활용할 수 있는 최대 기능을 제공합니다.
 * `targetPageParams()`, `targetPageParamsAll()`, Data Providers, `targetGlobalSettings()`와 같은 특수 Target 함수는 데이터 계층 뒤, at.js 로드 전에 정의해야 합니다. 또한 이러한 값은 [!UICONTROL at.js 설정 편집] 페이지의 [!UICONTROL 라이브러리 헤더] 섹션에 저장되며 at.js 라이브러리 자체의 일부로 저장될 수 있습니다. 이러한 함수에 대한 자세한 정보는 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * jQuery와 같은 JavaScript 헬퍼 라이브러리를 사용하는 경우 Target 경험을 작성할 때 Target 앞에 포함시키면 구문 및 메서드를 활용할 수 있습니다.
