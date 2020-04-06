@@ -5,7 +5,7 @@ title: 'Adobe Target 릴리스 노트(현재) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -33,16 +33,6 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
    >
 * 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-
-## Summit Live:디지털 경험 컨퍼런스 {#summit}
-
-Adobe Summit이 가상 이벤트가 되었습니다. Adobe는 2020년 3월 31일부터 라이브 디지털 경험을 통해 모든 노력을 다하고 있습니다. 이 라이브 경험에는 기본 단계의 Keynote 주소, 최신 트렌드와 고급 기능이 포함된 미니 키노트, 업계 선도업체의 성공에 대한 통찰력, 소규모 세션이 포함됩니다.
-
-* **기조 연설 라이브**&#x200B;보기:업계 트렌드와 새로운 제품을 통해 어디에서나 안심하고 이용할 수 있습니다.
-* **100개 이상의 On-Demand 소규모 회의 살펴보기:** Adobe, 고객 및 파트너의 100개 이상의 On-Demand 소규모 세션을 무료로 이용할 수 있습니다.
-* **미래의**&#x200B;정점을 엿보십시오.특별 게스트 Chelsea Handler에 가입하여 Adobe 랩에서 제공하는 최신 실험 기술을 살펴보십시오. 를 참조하십시오.
-
-전체 디지털 이벤트에 무료로 등록하려면 The Digital Experience [Conference로 이동하십시오.Summit](https://www.adobe.com/summit.html) 페이지.
 
 ## at.js 타깃팅(2020년 3월 25일)
 
