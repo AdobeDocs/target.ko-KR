@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 제품 설명서
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 3b3c728cb66df4aba4fc305e3d20f0c3f21e834d
 
 ---
 
@@ -15,10 +15,6 @@ source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
 **최종 업데이트일:2020년 4월 2일 ([변경된 내용](r-release-notes/doc-change.md)참조)**
-
->[!IMPORTANT]
->
->Adobe Summit이 가상 이벤트가 되었습니다. Adobe는 실시간 디지털 경험을 통해 모든 것을 혁신하고 있습니다. 이 라이브 경험에는 기본 단계의 Keynote 주소, 최신 트렌드와 고급 기능이 포함된 미니 키노트, 업계 선도업체의 성공에 대한 통찰력, 소규모 세션이 포함됩니다. 전체 디지털 이벤트에 무료로 등록하려면 The Digital Experience [Conference로 이동하십시오.Summit](https://www.adobe.com/summit.html) 페이지.
 
 다음 섹션에서는 일반적인 직무에 따라 의도된 대상별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
@@ -74,4 +70,4 @@ source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 | Adobe [!DNL Target] 솔루션 도움말 | [!DNL Adobe Experience Cloud] 리소스 |
 |--- |--- |
-| <ul><li>[Adobe Target 학습 및 지원](https://helpx.adobe.com/support/target.html)</li><li>[Premium 권장 사항](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target API 설명서](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 도움말 홈](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium 권장 사항](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://docs.adobe.com/content/help/en/search-promote/using/sp-home.html)</li><li>[Target API 설명서](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 릴리스 노트](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)</li><li>[Experience Cloud 도움말 홈](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 설명서](https://docs.adobe.com/content/help/en/experience-cloud/user-guides/home.html)</li><li>[Adobe 교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
