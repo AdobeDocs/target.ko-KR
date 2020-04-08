@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
+source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 7년 4월 | [상승도 및 신뢰도 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | &quot;계산된 지표에 향상도 및 신뢰도가 표시되지 않는 이유는 무엇입니까?&quot;에 대한 텍스트가 업데이트되었습니다. |
 | 2년 4월 | [프로필 및 변수 용어집](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 사용자의 IP 주소를 검색할 수 있도록 최신 AWS `user.header('x-forwarded-for')` 모서리와 함께 사용하는 방법에 대한 정보가 추가되었습니다. |
 |  | [at.js 1.*x*&#x200B;에서 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)로 업그레이드 | 다음 참고가 추가되었습니다.<ul><li>ECID library v4.3.0+ 및 at.js 2.*x*&#x200B;를 설치한 뒤 고유한 도메인을 확장하고 사용자를 추적할 수 있는 활동을 만들 수 있습니다. 이 기능은 세션이 만료된 후에만 작동합니다.</li></ul> |
 | 3월 30일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.2.0 이전의 at.js 버전에 영향을 주는 알려진 문제가 추가되었습니다.이 문제로 인해 Adobe Analytics 코드가 페이지 요소에 없을 때 Analytics for Target(A4T)에서 클릭 추적이 전환을 보고하지 않았습니다. |
