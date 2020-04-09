@@ -5,7 +5,7 @@ title: 제한
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ---
 
@@ -98,12 +98,6 @@ AP(자동화된 개인화) 활동당 30,000개 경험.
 **제한**: 256자.
 
 이 값보다 긴 값은 잘립니다.
-
-## mbox 요청에 있는 mbox 내부 프로필
-
-**제한**: 50개 프로필.
-
-50개 이후의 모든 프로필은 무시됩니다.
 
 ## mbox 내부 프로필 이름
 
