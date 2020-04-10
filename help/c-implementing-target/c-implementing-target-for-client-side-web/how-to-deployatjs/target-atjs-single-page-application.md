@@ -5,7 +5,7 @@ title: Adobe Target에서 단일 페이지 애플리케이션 구현
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -270,7 +270,7 @@ document.addEventListener("at-view-end", function(e) {
 
 위의 단계를 수행하는 경우 SPA에 강력한 A4T 솔루션이 있어야 합니다.
 
-## 구현 우수 사례
+## 구현 우수 사례 {#bp}
 
 at.js 2.x API를 사용하면 다양한 방식으로 [!DNL Target] 구현을 사용자 정의할 수 있지만, 이 프로세스 동안 올바른 작업 순서를 따라야 합니다.
 
