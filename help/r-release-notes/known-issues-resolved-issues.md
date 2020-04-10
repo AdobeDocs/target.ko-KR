@@ -1,9 +1,9 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: 이 Adobe Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
+description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 title: Adobe Target의 알려진 문제 및 해결된 문제
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
@@ -21,9 +21,9 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
 
-### 페이지 전달 {#page-delivery}
+### 페이지 게재 {#page-delivery}
 
-URL에 (/checkout, /cart) 포함)과 같은 템플릿 규칙을 [페이지 배달에서](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)추가하면 추가 공백이 규칙에 접두사로 추가됩니다. 이것은 외관 문제이며 대상 정의 작성 및 오퍼 전달에 영향을 주지 않습니다. (TGT-35916)
+URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게재](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)에 추가하면 추가 공백이 규칙에 접두사로 추가됩니다. 이것은 사소한 문제이며 대상-정의 작성 및 오퍼 게재에 영향을 주지 않습니다. (TGT-35916)
 
 ### 활동 QA 미리 보기 링크 {#preview}
 
@@ -58,16 +58,16 @@ URL에 (/checkout, /cart) 포함)과 같은 템플릿 규칙을 [페이지 배�
 
 GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러리의 Target UI에서 생성된 코드 오퍼가 기본 작업 공간에 표시될 수 있습니다. 이 문제는 2019년 3월 첫 주에 수정됩니다. 이 수정 사항이 적용되면 API에서 가져올 때 코드 오퍼가 적합한 작업 공간에 표시됩니다. 이 문제는 API에서 만든 오퍼에 영향을 주지 *않습니다*. 예를 들어 API에서 생성된 코드 오퍼는 GET API를 사용하여 가져오든 아니면 Target UI 내에서 가져오든 간에 생성될 때 작업 공간에 표시됩니다.
 
-### 권장 사항
+### Recommendations
 
-다음은 권장 사항 활동에 대한 알려진 문제입니다.
+다음은 Recommendations 활동에 대한 알려진 문제입니다.
 
-* 피드나 API를 통해 업데이트를 받지 못한 후 60일이 지나면 개체가 올바르게 만료됩니다.그러나 만료된 개체는 만료 후 카탈로그 검색 색인에서 제거되지 않습니다. (IRI 파섹
-* 기준 및 디자인에 대한 &quot;사용 정보&quot; 오버레이는 A/B 및 경험 타깃팅 활동의 사용을 반영하지 않습니다(TGT-34331).
-* A/B 및 경험 타깃팅 활동의 Recommendations 오퍼는 Recommendations 트레이의 시각적 미리 보기를 표시하지 않습니다(TGT-33426).
+* 피드나 API를 통해 업데이트를 받지 못한 후 60일이 지나면 엔티티가 올바르게 만료됩니다. 그러나 만료된 엔티티는 만료 후 카탈로그 검색 색인에서 제거되지 않습니다. (IRI-857)
+* 기준 및 디자인에 대한 &quot;사용 정보&quot; 오버레이는 A/B 및 Experience 타깃팅 활동의 사용을 반영하지 않습니다(TGT-34331).
+* A/B 및 Experience 타깃팅 활동의 Recommendations 오퍼는 Recommendations 트레이의 시각적 미리 보기를 표시하지 않습니다(TGT-33426).
 * API를 통해 생성된 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다. (TGT-35777)
-* API 파섹
-* 기준 목록(카드) 보기에 표시된 사용자 지정 기준 피드 상태는 10분마다 새로 고쳐지며 드문 경우 10분 이상 오래된 것일 수 있습니다. 사용자 지정 기준 편집 보기에 표시된 상태는 실시간으로 반입되며 항상 최신 상태입니다. (TGT-35896, TGT-36173)
+* API를 통해 생성된 Recommendations 활동은 사용자 인터페이스에서 볼 수 있지만 API를 통해서만 편집할 수 있습니다.
+* 기준 목록(카드) 보기에 표시된 사용자 지정 기준 피드 상태는 10분마다 새로 고침되며 특수한 상황에서 10분 이상 걸릴 수 있습니다. 사용자 지정 기준 편집 보기에 표시된 상태를 실시간으로 가져오며 상태는 항상 최신입니다. (TGT-35896, TGT-36173)
 
 ### MVT(다변량 테스트) 활동
 
@@ -77,22 +77,22 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 다음은 at.js의 알려진 문제입니다.
 
-* Adobe Analytics 코드가 페이지 요소(예: 단추)에 없는 경우, 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 Analytics for Target(A4T)에서 전환을 보고하지 않습니다. at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다.이 [문제가 발생하는 경우 최신 at.js 버전으로](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 업그레이드하십시오.
-* at.js 2.1.1 또는 이전 버전(예: 기본 경험)을 사용하지 않고 경험을 만드는 경우, 보고서, Analytics for Target(A4T), Adobe Analytics 또는 Google Analytics에서 경험이 카운트되지 않을 수 있습니다. 또한 [메타 플러그인이](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 제대로 작동하지 않을 수 있습니다.
+* Adobe Analytics 코드가 페이지 요소(예: 단추)에 없는 경우 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 Analytics for Target(A4T)에서 전환을 보고하지 않습니다. at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. 이 문제가 발생하는 경우 [최신 at.js 버전으로 업그레이드하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* at.js 2.1.1 이하 버전(예: 기본 경험)을 사용하여 수정 없이 경험을 생성하는 경우 보고서, Analytics for Target(A4T), Adobe Analytics 또는 Google Analytics에서 경험이 계산되지 않을 수 있습니다. 또한 [ttMeta 플러그인](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)이 제대로 작동하지 않을 수 있습니다.
 
    해결 방법으로 경험 컨텐츠에 공백을 사용하십시오. (TNT-33366)
 
    >[!NOTE]
    >
-   >이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다.최신 버전이나 at.js [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 버전으로 업그레이드하거나 2.2.0 이전 버전의 at.js에만 위에 언급된 해결 방법을 사용해야 합니다.
+   >이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다. [최신 버전 또는 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)로 업그레이드하거나 2.2.0 이하 버전의 at.js에 대해서만 위에 언급된 해결 방법을 사용해야 합니다.
 
 * 페이지가 VEC(시각적 경험 작성기)에 로드되면 Target은 글로벌 mbox 설정이 활성화되었는지와, 사용자가 VEC에서 권장 사항을 적용하려고 하는 위치에 entityID 또는 categoryID가 있는지를 확인해야 합니다. 이 정보에 따라 기준 목록이 필터링됩니다. 기본 목록에는 필터링된 알고리즘이 있지만 [호환 확인란](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md)을 사용하여 전체 알고리즘 목록을 볼 수 있습니다.
 
    at.js를 사용하는 경우 호환성 확인란이 숨겨지므로 호환되지 않는 알고리즘을 볼 수 없습니다.
 
-   이 문제는 VEC를 사용하는 권장 사항 활동에만 적용됩니다.
+   이 문제는 VEC를 사용하는 Recommendations 활동에만 적용됩니다.
 
-   **해결 방법**: [!UICONTROL 권장 사항 > 설정]에서 [!UICONTROL 호환되지 않는 기준 필터링] 선택 사항을 비활성화합니다. 이 설정을 비활성화하면 모든 기준(호환 및 비호환)이 기준 선택기에 표시됩니다. (TGT-25949)
+   **해결 방법**: [!UICONTROL Recommendations > 설정]에서 [!UICONTROL 호환되지 않는 기준 필터링] 선택 사항을 비활성화합니다. 이 설정을 비활성화하면 모든 기준(호환 및 비호환)이 기준 선택기에 표시됩니다. (TGT-25949)
 
 * at.js 버전 1.0으로 업그레이드한 후 at.js 및 Visitor API 2.2.0 간의 상호 작용으로 인해 Mbox가 Microsoft Explorer 11 브라우저에서 실행되지 않습니다. 이 문제는 at.js 버전 0.9.6 이상에 영향을 미칩니다. (TNT-27600)
 * Cordova/Hybrid 앱에서는 퍼스트 파티 쿠키가 현재 지원되지 않으므로 이 앱에서 at.js가 작동하지 않을 수 있습니다. (TNT-26166)
@@ -133,17 +133,17 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 
 위의 알려진 문제가 해결되면 다음 섹션으로 이동되고, 필요한 경우 다른 메모가 더 추가됩니다.
 
-### 권장 사항
+### Recommendations
 
-* 피드의 항목이 이전 실행과 동일한 경우 권장 사항 피드 색인이 &quot;색인 큐 대기 중&quot;을 표시할 수 있습니다. 배달을 위한 제품 섭취는 영향을 받지 않습니다. (RECS-6663)
+* 피드의 항목이 이전 실행과 동일한 경우 Recommendations 피드 색인이 &quot;색인 큐 대기 중&quot;을 표시할 수 있습니다. 배달을 위한 제품 섭취는 영향을 받지 않습니다. (RECS-6663)
 
    이 문제는 Target 19.4.2 릴리스에서 해결되었습니다.
 
-* 권장 사항 피드를 처리하는 데 예상보다 시간이 더 오래 걸립니다. (COR-2836)
+* Recommendations 피드를 처리하는 데 예상보다 시간이 더 오래 걸립니다. (COR-2836)
 
    Target 16.10.1 릴리스에서 수정되었습니다.
 
-* 권장 사항 피드 UI에 올바른 색인화 상태가 표시되지 않습니다. 백엔드 작업은 제대로 작동하지만 UI가 현재 상태를 가져와 표시할 수 없습니다.
+* Recommendation 피드 UI에 올바른 색인화 상태가 표시되지 않습니다. 백엔드 작업은 제대로 작동하지만 UI가 현재 상태를 가져와 표시할 수 없습니다.
 
    이 오류는 17.10.1 릴리스에서 수정되었습니다.
 
@@ -202,15 +202,15 @@ Firefox 및 Internet Explorer에서 코드 편집기로 작업하는 동안 3단
 
 이 오류는 18.9.1 릴리스에서 수정되었습니다.
 
-### 속성 프로모션 규칙을 사용하는 권장 사항 활동입니다
+### 속성 프로모션 규칙을 사용하는 Recommendations 활동입니다
 
-속성 프로모션 규칙을 사용하는 권장 사항 활동을 편집하거나 복사하는 경우 저장을 클릭하면 &quot;누락된 필드 있음&quot; 오류가 표시됩니다 .
+속성 프로모션 규칙을 사용하는 Recommendations 활동을 편집하거나 복사하는 경우 저장을 클릭하면 &quot;누락된 필드 있음&quot; 오류가 표시됩니다 .
 
 이 오류는 17.8.1 릴리스에서 수정되었습니다.
 
-### 백업 권장 사항
+### 백업 Recommendations
 
-백업 권장 사항에서는 Target UI의 최근에 본 항목 카드에 &quot;활성화됨&quot;을 잘못 표시합니다. (TGT-29308)
+백업 Recommendations에서는 Target UI의 최근에 본 항목 카드에 &quot;활성화됨&quot;을 잘못 표시합니다. (TGT-29308)
 
 이 오류 &quot;비활성화&quot;가 표시되도록 18.4.1 릴리스에서 수정되었습니다.
 
@@ -303,7 +303,7 @@ Target 17.4.1 릴리스(2017년 4월 27일)에서 수정되었습니다.
 
 최근 조회 기준의 경우, entity.id 매개 변수가 mbox 요청에 전달되지 않으면 엔티티 기반 다이내믹 규칙이 권장 사항을 표시하지 않습니다. (RECS-6241)
 
-이 문제는 권장 사항 릴리스(2018년 3월 22일) 이후에 수정되었습니다. 권장 사항 릴리스 이후에 entity.id가 mbox 요청에 전달되지 않은 경우 Target에서 엔티티 기반 다이내믹 규칙을 건너뜁니다.
+이 문제는 Recommendations 릴리스(2018년 3월 22일) 이후에 수정되었습니다. Recommendations 릴리스 이후에 entity.id가 mbox 요청에 전달되지 않은 경우 Target에서 엔티티 기반 다이내믹 규칙을 건너뜁니다.
 
 ### at.js
 
@@ -313,9 +313,9 @@ Target 17.3.1 릴리스(2017년 3월 30일)에서 수정되었습니다.
 
 ### 글로벌 제외 규칙
 
-글로벌 제외 규칙은 Premium 권장 사항용 에지로 전파되는 데 10~20분이 소요됩니다. (RECS-5270)
+글로벌 제외 규칙은 Premium Recommendations용 에지로 전파되는 데 10~20분이 소요됩니다. (RECS-5270)
 
-권장 사항 17.2.2.0 릴리스(2017년 3월 6일)에서 수정되었습니다.
+Recommendations 17.2.2.0 릴리스(2017년 3월 6일)에서 수정되었습니다.
 
 ### A4T(Analytics for Target) 보고
 
