@@ -5,7 +5,7 @@ title: Adobe Target에서 단일 페이지 애플리케이션 구현
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 58ec4ee9821b06dcacd2a24e758fb8d083f39947
+source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
 
 ---
 
@@ -283,7 +283,7 @@ at.js 2.x API를 사용하면 다양한 방식으로 [!DNL Target] 구현을 사
 | 1 | VisitorAPI JS 로드 | 이 라이브러리는 방문자에게 ECID를 할당할 책임이 있습니다. 이 ID는 나중에 웹 페이지의 다른 [!DNL Adobe] 솔루션에 사용됩니다. |
 | 2 | at.js 2.x 로드 | at.js 2.x는 [!DNL Target] 요청 및 보기를 구현하는 데 사용하는 모든 필요한 API를 로드합니다. |
 | 3 | 요청 [!DNL Target] 실행 | 데이터 레이어가 있는 경우 [!DNL Target] [!DNL Target] 요청을 실행하기 전에 전송해야 하는 중요한 데이터를 로드하는 것이 좋습니다. 이렇게 하면 타깃팅에 사용할 데이터를 보내는 `targetPageParams` 데 사용할 수 있습니다. 이 API 호출에서 실행 > pageLoad와 프리페치 > 보기를 요청해야 합니다. 을 설정하고 `pageLoadEnabled` `viewsEnabled`설정한 경우, 두 단계 모두 > pageLoad 및 prefetch > 보기가 자동으로 발생합니다.그렇지 않으면 API를 사용하여 `getOffers()` 이 요청을 해야 합니다. |
-| 4 | 호출 `triggerView()` | 3단계에서 시작한 [!DNL Target] 요청은 보기 뿐만 아니라 페이지 로드 실행에 대한 경험을 반환할 수 있으므로 `triggerView()` [!DNL Target] 요청이 반환된 후 호출되고 캐시에서 오퍼 적용을 완료해야 합니다. 보기당 한 번만 이 단계를 실행해야 합니다. |
+| 4 | 호출 `triggerView()` | 3단계에서 시작한 [!DNL Target] 요청은 보기 뿐만 아니라 페이지 로드 실행에 대한 경험을 반환할 수 있으므로 `triggerView()` [!DNL Target] 요청이 반환된 후 오퍼를 캐시에 적용하기 완료했는지 확인합니다. 보기당 한 번만 이 단계를 실행해야 합니다. |
 | 5 | 페이지 보기 [!DNL Analytics] 비콘 호출 | 이 비콘은 3단계 및 4단계와 연결된 SDID를 데이터 [!DNL Analytics] 스티칭에 전송합니다. |
 | 6 | 추가 문의 `triggerView({"page": false})` | 이는 뷰 변경 없이 페이지에서 특정 구성 요소를 다시 렌더링할 수 있는 SPA 프레임워크에 대한 선택 단계입니다. 이러한 경우 SPA 프레임워크에서 구성 요소를 다시 렌더링한 후 경험이 다시 적용되도록 하려면 이 API를 불러와야 합니다. [!DNL Target] 이 단계를 여러 번 실행하여 SPA 보기에서 [!DNL Target] 경험이 지속되도록 할 수 있습니다. |
 
@@ -292,7 +292,7 @@ at.js 2.x API를 사용하면 다양한 방식으로 [!DNL Target] 구현을 사
 | 단계 | Action | 세부 사항 |
 | --- | --- | --- |
 | 1 | 호출 `visitor.resetState()` | 이 API는 SDID가 로드될 때 새 보기에 대해 다시 생성됩니다. |
-| 2 | API를 호출하여 캐시 `getOffer()` 업데이트 | 이 단계는 이 보기 변경으로 현재 방문자를 더 많은 [!DNL Target] 활동에 대한 자격을 얻거나 활동에서 자격을 박탈할 수 있는 가능성이 있는 경우 취할 수 있는 선택 단계입니다. 이 시점에서 추가적인 타깃팅 기능을 활성화하기 위해 추가 데이터를 보내도록 선택할 [!DNL Target] 수도 있습니다. |
+| 2 | API를 호출하여 캐시 `getOffers()` 업데이트 | 이 단계는 이 보기 변경으로 현재 방문자를 더 많은 [!DNL Target] 활동에 대한 자격을 얻거나 활동에서 자격을 박탈할 수 있는 가능성이 있는 경우 취할 수 있는 선택 단계입니다. 이 시점에서 추가적인 타깃팅 기능을 활성화하기 위해 추가 데이터를 보내도록 선택할 [!DNL Target] 수도 있습니다. |
 | 3 | 호출 `triggerView()` | 2단계를 실행한 경우, 이 단계를 실행하기 전에 [!DNL Target] 요청을 기다렸다가 오퍼를 캐시에 적용해야 합니다. 보기당 한 번만 이 단계를 실행해야 합니다. |
 | 4 | 호출 `triggerView()` | 2단계를 실행하지 않은 경우 1단계를 완료하자마자 이 단계를 실행할 수 있습니다. 2단계 및 3단계를 실행한 경우 이 단계를 건너뛰어야 합니다. 보기당 한 번만 이 단계를 실행해야 합니다. |
 | 5 | 페이지 보기 [!DNL Analytics] 비콘 호출 | 이 비콘은 2단계, 3단계 및 4와 연관된 SDID를 데이터 [!DNL Analytics] 스티칭에 전송합니다. |
