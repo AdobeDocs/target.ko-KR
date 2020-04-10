@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10년 4월 | [단일 페이지 애플리케이션 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 새 섹션이 추가되었습니다.&quot;구현 우수 사례&quot; |
 | 7년 4월 | [상승도 및 신뢰도 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | &quot;계산된 지표에 향상도 및 신뢰도가 표시되지 않는 이유는 무엇입니까?&quot;에 대한 텍스트가 업데이트되었습니다. |
 | 2년 4월 | [프로필 및 변수 용어집](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 사용자의 IP 주소를 검색할 수 있도록 최신 AWS `user.header('x-forwarded-for')` 모서리와 함께 사용하는 방법에 대한 정보가 추가되었습니다. |
 |  | [at.js 1.*x*&#x200B;에서 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)로 업그레이드 | 다음 참고가 추가되었습니다.<ul><li>ECID library v4.3.0+ 및 at.js 2.*x*&#x200B;를 설치한 뒤 고유한 도메인을 확장하고 사용자를 추적할 수 있는 활동을 만들 수 있습니다. 이 기능은 세션이 만료된 후에만 작동합니다.</li></ul> |
@@ -121,7 +122,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [릴리스 노트 - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | 새 주제입니다.  |
 |  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | V1/Delivery API 및 Node.js SDK 릴리스에 대한 정보가 추가되었습니다. |
 | 2019년 10월 8일 | [Target Insider 뉴스레터](/help/r-release-notes/target-insider-newsletter.md) | 뉴스레터 첫 번째 묶음에 대한 링크가 포함된 새로운 주제와 더 많은 정보가 제공됩니다. |
-| 2019년 10월 3일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음을 추가했습니다. <ul><li>at.js 2를 사용하여 수정 없이 경험을 만들 때 알려진 문제 및 해결책&#x200B;*x* 라이브러리.</li><li>API를 통해 생성된 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다.</li><li>API 파섹</li></ul> |
+| 2019년 10월 3일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음을 추가했습니다. <ul><li>at.js 2를 사용하여 수정 없이 경험을 만들 때 알려진 문제 및 해결책&#x200B;*x* 라이브러리.</li><li>API를 통해 생성된 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다.</li><li>API를 통해 생성된 Recommendations 활동은 사용자 인터페이스에서 볼 수 있지만 API를 통해서만 편집할 수 있습니다.</li></ul> |
 |  | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | &quot;mboxDebug&quot; 섹션에 메모를 추가했습니다. |
 | 2029년 10월 2일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 향후 릴리스에 대한 정보가 추가되었습니다. |
 | 2019년 10월 1일 | [프로필 및 변수 용어집](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | &quot;고객 속성&quot; 섹션의 텍스트가 업데이트되었습니다. |
