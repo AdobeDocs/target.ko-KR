@@ -4,7 +4,7 @@ title: Adobe Target 용어
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ SPA(단일 페이지 애플리케이션)는 단일 웹 페이지에 맞는 웹 �
 모든 참조 페이지 및 페이지 URL 변수는 방문자가 mbox를 포함하는 페이지를 볼 때마다 mbox에 자동으로 전달됩니다. 그런 후에 보고서에서 디스플레이 타깃팅 또는 세그먼트 필터를 통해 이러한 URL 변수를 사용할 수 있습니다.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**visit**
+
+방문은 세션이라고도 합니다. 방문은 활동이 없는 상태로 30분 후 종료되며, 이는 서버 요청 간에 Target으로 최소 30분이 경과했음을 의미합니다.
 
 **방문자**
 
