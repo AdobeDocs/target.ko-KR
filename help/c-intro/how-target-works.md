@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -107,6 +107,8 @@ Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센
 >
 >[!DNL Adobe Target]은 현재 중국에는 에지 네트워크가 없기 때문에 중국 [!DNL Target] 고객의 경우 최종 사용자 성능이 계속 제한됩니다. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
+원하는 경우 타겟 에지 노트를 허용 목록에 추가할 수 있습니다. 자세한 내용은 화이트리스트 대상 [에지 노드를](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)참조하십시오.
+
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe에서는 타깃팅 인프라의 가용성 및 성능을 가능한 한 신뢰할 수 있도록 만들고 있습니다. 하지만 최종 사용자의 브라우저와 Adobe의 서버 간 통신 실패로 인해 콘텐츠 전달이 중단될 수 있습니다.
@@ -131,7 +133,7 @@ Google에서는 사용자 테스트를 권장하고 있으며 A/B 및 다변량 
 자세한 내용은 다음 Google 리소스를 참조하십시오.
 
 * [웹 사이트 테스트 및 Google 검색](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html)
-* [실험 및 클로킹](https://support.google.com/analytics/answer/2576845?hl=en&ref_topic=1745207)
+* [실험 및 클로킹](https://support.google.com/analytics/answer/2576845?hl=en&amp;ref_topic=1745207)
 
 지침은 [Google 웹마스터 센터 블로그](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) 게시물에 나와 있습니다. 게시 날짜가 2012년까지 거슬러 올라가지만, 이 문제에 대한 Google의 최신 성명서이며 지침도 아직 적절합니다.
 
