@@ -1,12 +1,12 @@
 ---
-keywords: 구현;구현
+keywords: implement;implementing
 description: Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
 title: 구현하기 전에
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -28,3 +28,4 @@ Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
 - [지원되는 브라우저](supported-browsers.md)
 - [TLS(전송 계층 보안) 암호화 변경 사항](tls-transport-layer-security-encryption.md)
 - [CNAME 및 Adobe Target](implement-cname-support-in-target.md)
+- [화이트 리스트 타겟 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
