@@ -6,7 +6,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -27,7 +27,7 @@ Target에서 Analytics 데이터를 사용하는 세 가지 기본 이점은 다
 
 >[!IMPORTANT]
 >
->A4T를 사용하려면 먼저 계정을 통합용으로 공급하도록 요청해야 합니다. [이 양식](https://www.adobe.com/go/audiences)을 사용하여 제공을 요청합니다.
+>A4T를 사용하려면 먼저 계정을 통합용으로 공급하도록 요청해야 합니다. [이 양식](https://www.adobe.com/go/audiences_kr)을 사용하여 제공을 요청합니다.
 >
 >Adobe Analytics를 Adobe Target(A4T)의 데이터 소스로 활성화하는 통합은 차세대 Test&amp;Target - SiteCatalyst 플러그인을 나타냅니다. 이 플러그인은 더 이상 사용되지 않지만 이미 사용 중인 경우에는 계속 지원됩니다.
 
@@ -118,7 +118,7 @@ Adobe Experience League에서 제공하는 [Analytics &amp; Target: 분석 우�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/Target 통합(A4T)(40:33) !![Tutorial badge](/help/assets/tutorial.png
+### Analytics/Target 통합(A4T)(40:33) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
 
