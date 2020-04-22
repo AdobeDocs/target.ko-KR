@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
+source-git-commit: 710b442dd7e2d906dafc5ec73748268681e08448
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 22년 4월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 새 섹션이 추가되었습니다.프로필 *배치 상태 API v2 변경 사항(2020년 5월 4일).* |
 | 20년 4월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 새 섹션이 추가되었습니다.Adobe *Target 스킬 빌더:개발자 채팅에서 Adobe Target의 mbox.js를 at.js로 마이그레이션합니다.* |
 | 14년 4월 | [화이트 리스트 타겟 에지 호스트](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 새 주제입니다.  |
 | 10년 4월 | [단일 페이지 애플리케이션 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 새 섹션이 추가되었습니다.&quot;구현 우수 사례&quot; |
