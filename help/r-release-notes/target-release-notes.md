@@ -5,7 +5,7 @@ title: Adobe Target 베타 버전 정보
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e9a6545ab65cf1214977f8fa472904527c18a04d
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: e9a6545ab65cf1214977f8fa472904527c18a04d
 
 이 문서에는 베타 버전 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트 날짜: 2020년 4월 24일**
+**마지막 업데이트 날짜: 2020년 4월 27일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시기에 따라 이러한 페이지의 정보가 같을 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -44,7 +44,6 @@ Adobe Target 제품 관리자인 David Son과 함께 mbox.js를 at.js로 마이�
 * 대상의 장치 및 브라우저 유형을 잘못 검증했던 문제를 수정했습니다. (TGT-36266)
 * 가로 963픽셀 미만의 화면에서 볼 때 보고서 데이터가 표시되지 않는 문제를 해결했습니다. (TGT-36549)
 * 자동 개인화 보고서가 제대로 렌더링되지 않는 문제를 해결했습니다. (TGT-36619)
-* Analytics for Target(A4t)을 사용하는 자동 할당 및 자동 타겟 활동에서 호환되지 않는 지표를 선택할 수 있게 하는 문제를 해결했습니다. (TGT-36646)
 * VEC(Visual Experience Composer)의 특정 옵션이 올바르게 표시되지 않는 문제를 해결했습니다. (TGT-36571)
 * 사용자가 단일 경험에서 컨텐츠를 교체한 후 다른 Recommendations 오퍼 미리 보기에 편집된 컨텐츠가 표시되는 타겟 UI의 문제를 해결했습니다. (TGT-36053 및 TGT-36894)
 * 일부 사용자가 Recommendations 카탈로그에서 항목을 삭제하지 못했던 문제를 수정했습니다. (TGT-36455)
