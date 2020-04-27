@@ -5,7 +5,7 @@ title: 이전 릴리스에 대한 릴리스 노트
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 
 ---
 
@@ -19,6 +19,65 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 노트(현재)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 노트 - 2020
+
+## at.js 타깃팅(2020년 3월 25일)
+
+다음 새 버전의 Target at.js JavaScript 라이브러리를 사용할 수 있습니다.
+
+* at.js 버전 2.3.0
+* at.js 버전 1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+## Target Standard/Premium 20.2.1(2020년 3월 23일)
+
+이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
+
+* 카탈로그 검색을 수행할 때 고객이 컬렉션을 선택할 수 없는 문제를 해결했습니다. (TGT-36230)
+* API를 통해 생성되었지만 타겟 UI에서 만든 활동에서 참조되지 않는 기준이 UI에서 잘못 삭제되는 문제를 수정했습니다. (TGT-35917)
+* CSP(Content Security Policy)에 대한 보안 개선 사항을 구현했습니다. (TGT-36190)
+* 속성 가중치 백분율 막대를 왼쪽으로 밀면 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
+* 다양한 언어의 UI 텍스트가 올바로 표시되도록 현지화 문제를 해결했습니다.
+* 현재 버전의 Adobe Analytics API에서 지원되지 않는 Adobe Analytics 지표를 비활성화하여 Adobe Analytics for Target(A4T) 활동의 사용 가능한 지표 목록을 표준화했습니다. 이를 통해 향후 Adobe Target 릴리스에서 A4T 지원을 확장할 수 있습니다.
+
+   다음 변경 사항이 적용되었습니다.
+
+   * &quot;페이지에서 보낸 평균 시간&quot;이 &quot;사이트에서 보낸 평균 시간&quot;으로 대체되었습니다. 이 지표를 지표로 사용하는 모든 활동에는 &quot;사이트에서 보낸 평균 시간&quot;이 있습니다(참고:다음 번에 활동이 편집될 때 기본 목표 지표로 선택한 시간(초 단위)입니다.
+   * &quot;방문자 수&quot;는 &quot;고유 방문자 수&quot;로 대체되었습니다. 이 지표를 기본 목표 지표로 사용하는 모든 활동은 다음에 활동을 편집할 때 기본 목표 지표로 선택됩니다.
+
+* 다음 지표는 더 이상 사용되지 않으며 새 A4T 활동을 만들 때 기본 목표 지표로 선택할 수 없습니다.
+
+   | 가치 하락 지표 | 제안된 대체 지표 |
+   |--- |--- |
+   | 일일 방문자, 시간별 방문자, 월별 방문자, 분기별 방문자, 주별 방문자, 연간 방문자 | 고유 방문자 수 |
+   | 평균 방문 깊이 | n/a.기본 목표 지표로 제안되지 않음 |
+   | 보트 | n/a.기본 목표 지표로 제안되지 않음 |
+   | 모바일 충돌 비율, 모바일 평균 이전 세션 길이, 모바일 앱 스토어 평균 등급, 모바일 앱 성능 충돌 비율, 모바일 앱 스토어 평균 등급 | n/a.기본 목표 지표로 제안되지 않음 |
+
+## Adobe Experience Cloud 내비게이션(2019년 2월 22일)
+
+* 에 로그인하면 [!DNL Adobe Experience Cloud]새 헤더 탐색으로 이동합니다. 맨 위에 검정색 막대가 있는 이전 탐색과 매우 유사해 보이지만 다음과 같은 향상된 기능을 제공합니다.
+
+   * IMS( [!DNL Identity Management System] Easily Switching) 조직 간 또는 다른 솔루션으로 전환
+   * 향상된 사용자 도움말:검색 결과에는 [!DNL Target] 제품 설명서의 결과뿐만 아니라 커뮤니티 포럼 및 기타 비디오 컨텐츠가 포함되어 있으므로 더 많은 컨텐츠에 손쉽게 액세스하여 최대한 활용할 수 [!DNL Target]있습니다. 또한 도움말 메뉴에 바로 피드백 메커니즘을 추가하여 [!UICONTROL 문제를] 보고하거나 아이디어를 공유할 수 있습니다.
+
+   * NPS(Net Promoter Score) 피드백 기능이 개선되어 설문 조사 모달 기능이 작업 흐름을 방해하지 않습니다.
+   * 로그인 흐름이 개선되었습니다. 이전에는 모든 [!DNL Target] 고객이 헤더의 [!DNL Target] 아이콘을 클릭한 후 Target 랜딩 페이지에 도달했습니다. 이 페이지에서는 고객이 아래 [!DNL Target Standard/Premium]보듯이, [!DNL Search&Promote]또는 [!DNL Recommendations Classic]계속 진행할 수 있도록 했습니다.
+
+      ![랜딩 페이지](/help/r-release-notes/assets/landing.png)
+
+      모든 고객을 위해 이 랜딩 페이지를 제거했습니다. 이제 새 헤더 탐색 막대에서 [!UICONTROL 아이콘을 클릭하면] [!DNL Target] 항상 활동 목록 페이지로 바로 이동합니다.
+
+      를 사용하는 [!DNL Recommendations Classic]경우 솔루션으로 바로 이동하거나 아래와 같이 Recommendations [!UICONTROL 탭에서 만든 짧은 링크를] 이동할 수 있습니다.
+
+      ![Recs Classic 딥 링크](/help/r-release-notes/assets/recs-classic.png)
+
+      를 사용하는 [!DNL Search&Promote]경우 Search&amp;Promote URL(https://center.atomz.com/center/?ims=1) [로](https://center.atomz.com/center/?ims=1) 직접 이동해야 합니다. The path to reach [!DNL Search&Promote] from in of [!DNL Adobe Target] the inside.
+
+   * 알림은 현재 헤더의 알림 [!DNL Target] 드롭다운에서  사용할 수 없습니다.
+   >[!NOTE]
+   >
+   >새 내비게이션 막대의 롤아웃의 일부로 일부 URL이 변경된 것을 확인할 수 있습니다. 이전에 책갈피가 표시된 모든 링크는 계속 작동하지만 새 링크를 책갈피로 설정하여 빠르게 열 수 있습니다.
 
 ### Target Standard/Premium 20.1.1(2020년 2월 4일)
 
@@ -79,7 +138,7 @@ Target Standard/Premium 20.1.1 릴리스는 유지 관리 릴리스이며 백엔
 
       ![Recs Classic 딥 링크](/help/r-release-notes/assets/recs-classic.png)
 
-      사용하는 [!DNL Search&Promote]경우 Search&amp;Promote URL(https://center.atomz.com/center/?ims=1) [로](https://center.atomz.com/center/?ims=1) 직접 이동해야 합니다. The path to reach [!DNL Search&Promote] from in of [!DNL Adobe Target] the inside.
+      를 사용하는 [!DNL Search&Promote]경우 Search&amp;Promote URL(https://center.atomz.com/center/?ims=1) [로](https://center.atomz.com/center/?ims=1) 직접 이동해야 합니다. The path to reach [!DNL Search&Promote] from in of [!DNL Adobe Target] the inside.
 
    * 알림은 현재 헤더의 알림 [!DNL Target] 드롭다운에서  사용할 수 없습니다.
    >[!NOTE]
@@ -2760,7 +2819,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> Mbox.js 관리 및 편집 옵션 </td> 
-   <td colname="col2"> <p>이제 모든 mbox.js 구성 및 편집 기능을 Target Standard 내에서 사용할 수 있습니다. 더 이상 Target Classic에서 수정할 필요가 없습니다. </p> <p><a href="https://marketing-beta.adobe.com/resources/help/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external">고급 mbox.js 설정</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p>이제 모든 mbox.js 구성 및 편집 기능을 Target Standard 내에서 사용할 수 있습니다. 더 이상 Target Classic에서 수정할 필요가 없습니다. </p> <p><a href="https://marketing-beta.adobe.com/kr/resources/help/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external">고급 mbox.js 설정</a>을 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 3rdPartyId 데이터에 대한 실시간 프로필 동기화 </td> 
@@ -3214,11 +3273,11 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Adobe Target에 대한 Adobe Analytics의 향상된 보고 기능 </td> 
-   <td colname="col2"> Adobe Analytics 고객은 <a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">테스트 설정 프로세스</a> 동안 Analytics를 기본 보고 소스로 선택할 수 있습니다. 더 이상 결과를 필터링하는 데 사용할 성공 지표 또는 대상을 모두 선택할 필요가 없습니다. 보고 내에서, Analytics에 정의된 아무 성공 지표나 대상 세그먼트를 선택하고 이것을 최적화 결과에 대한 광범위한 필터링 및 드릴다운 분석을 위해 보고에 소급하여 적용할 수 있습니다. <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_kr</a>을 방문해 보십시오. </p> </p> </td> 
+   <td colname="col2"> Adobe Analytics 고객은 <a href="../c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local">테스트 설정 프로세스</a> 동안 Analytics를 기본 보고 소스로 선택할 수 있습니다. 더 이상 결과를 필터링하는 데 사용할 성공 지표 또는 대상을 모두 선택할 필요가 없습니다. 보고 내에서, Analytics에 정의된 아무 성공 지표나 대상 세그먼트를 선택하고 이것을 최적화 결과에 대한 광범위한 필터링 및 드릴다운 분석을 위해 보고에 소급하여 적용할 수 있습니다. <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://www.adobe.com/go/audiences_kr" format="http" scope="external">https://www.adobe.com/go/audiences_kr</a>을 방문해 보십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 마스터 마케팅 프로필 실시간 대상 </td> 
-   <td colname="col2"> 방문자 ID 및 데이터를 솔루션 간에 사용할 수 있도록 하나의 실행 가능한 프로필로 통합하는 마스터 마케팅 프로필을 활용하십시오. Adobe Analytics의 세그먼트 작성 프로세스 동안 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 Target에서 방문자를 타깃팅하는 데 사용할 수 있습니다. <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://www.adobe.com/go/audiences" format="http" scope="external">https://www.adobe.com/go/audiences_kr</a>을 방문해 보십시오. </p> </p> </td> 
+   <td colname="col2"> 방문자 ID 및 데이터를 솔루션 간에 사용할 수 있도록 하나의 실행 가능한 프로필로 통합하는 마스터 마케팅 프로필을 활용하십시오. Adobe Analytics의 세그먼트 작성 프로세스 동안 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 Target에서 방문자를 타깃팅하는 데 사용할 수 있습니다. <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://www.adobe.com/go/audiences_kr" format="http" scope="external">https://www.adobe.com/go/audiences_kr</a>을 방문해 보십시오. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 경험 타깃팅 활동 유형 </td> 
