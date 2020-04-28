@@ -5,7 +5,7 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
+source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 ---
 
@@ -13,12 +13,6 @@ source-git-commit: d45a38376ebe98d212fba3097159a7b89b792c53
 # 설명서 변경 내용{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
-
-## Adobe Target Standard/Premium 20.4.1(2020년 4월 27일)
-
-| 날짜 | 주제 | 변경 사항 |
-| --- | --- | --- |
-| 27년 4월 | [릴리스 노트](/help/r-release-notes/release-notes.md): 20.4.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 20.2.1(2020년 2월 19일)
 
