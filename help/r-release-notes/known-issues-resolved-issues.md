@@ -3,15 +3,15 @@ keywords: known issues;resolved issues;release notes;bugs;issues;fixes
 description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 title: Adobe Target의 알려진 문제 및 해결된 문제
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+translation-type: tm+mt
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
 
 # 알려진 문제 및 해결된 문제{#known-issues-and-resolved-issues}
 
-이 Target 릴리스의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
+이 릴리스의 Target에 대한 알려진 문제 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 
 >[!NOTE]
 >
@@ -20,6 +20,20 @@ source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
+
+### 보고 및 예외적인 주문
+
+2019년 11월 25일부터 2020년 4월 26일까지, 한 Target 서버에서 매출 기반 보고서 지표(AOV, RPV)에서 예외적인 주문 값이 카운트되는 문제가 발생했습니다. 2019년 12월 19일부터 2020년 4월 23일까지 다른 서버에서 동일한 문제가 발생했습니다. 이 문제는 모든 Target 서버 또는 모든 Target 고객에게 영향을 주지 않았습니다.
+
+다음의 경우 영향을 받지 *않았습니다* .
+
+* Target 구현에서는 다른 서버를 사용합니다.
+* 보고서에서 예외적인 주문을 제외하지 않았습니다.
+* 전환 지표를 사용하여 활동을 측정했습니다.
+* Target 활동에서는 Analytics for Target(A4T)을 사용합니다.
+* APAC 지역에 있습니다.
+
+이 문제가 Target 구현에 영향을 미치는지 확인하려면 클라이언트 지원 팀에 [문의하십시오](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### 페이지 게재 {#page-delivery}
 
