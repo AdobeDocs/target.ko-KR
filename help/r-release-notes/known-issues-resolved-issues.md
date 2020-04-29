@@ -4,7 +4,7 @@ description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 
 ---
 
@@ -33,7 +33,7 @@ source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 * Target 활동에서는 Analytics for Target(A4T)을 사용합니다.
 * APAC 지역에 있습니다.
 
-이 문제가 Target 구현에 영향을 미치는지 확인하려면 클라이언트 지원 팀에 [문의하십시오](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+이 문제가 Target 보고에 영향을 미치는지 확인하려면 클라이언트 지원 팀에 [문의하십시오](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### 페이지 게재 {#page-delivery}
 
