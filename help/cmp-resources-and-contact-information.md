@@ -5,7 +5,7 @@ title: 리소스 및 연락처 정보
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
+source-git-commit: f85b9887559792628151998673b7fc95e0d9145a
 
 ---
 
@@ -30,7 +30,7 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 
 커뮤니티에서 제공한 고객 성공 웨비나 시리즈인 Target 기본 사항 웨비나 시리즈의 이전 세션에 대한 등록 정보 및 링크입니다.
 
-[이전 세션을 시청하거나 예정된 세션 및 등록 정보에](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)대해 자세히 알아보려면 여기를 클릭하십시오.
+[지난 세션을 시청하거나 예정된 세션 및 등록 정보에 대해 자세히 알아보려면 여기를 클릭하십시오](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
 
 
 ## Adobe 고객 지원 센터 운영시간 {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
@@ -44,8 +44,8 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 | 주제/런타임/촬영 날짜 | 학습 내용 |
 |--- |--- |
 | [VEC(Visual Experience Composer)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017년 12월 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/c-experiences/experiences.md). |
-| [Adobe Target:Analytics/Target 통합(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018년 1월 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
-| [at.js:장점 및 구현 우수 사례](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:<br>43 2018년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul>이 안내서에서 자세한 내용은 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [Adobe Target: Analytics/Target 통합(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018년 1<br>월 40시 33분 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
+| [at.js: 장점 및 구현 우수 사례](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul>이 안내서에서 자세한 내용은 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -78,7 +78,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 | 비즈니스 영향 | 비즈니스에 어떤 영향이 있는가? 예를 들어 이 문제로 인해 매출 손실이 발생하고 있는가 또는 제품을 사용할 수 없게 되는가, 그리고 가능한 해결 방법이 있는가? |
 | 예상 | 어떤 일이 발생할 것이라고 예상하는가? |
 
-컨텐츠 전달 문제에 대해서는 가능한 솔루션 및 [문제 해결 정보를 보려면 컨텐츠 전달](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 문제를 참조하십시오.
+컨텐츠 전달 문제에 대해서는 가능한 솔루션 및 문제 해결 정보를 [보려면 컨텐츠 전달](/help/c-activities/c-troubleshooting-activities/content-trouble.md) 문제 해결을 참조하십시오.
 
 ### 작동 중지 상황 {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
@@ -97,10 +97,10 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 
 Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구성되었으며 고객들이 참여할 수 있는 많은 메커니즘을 제공합니다.
 
-* [Experience Cloud 도움말 페이지에서 조언, 팁 및 FAQ 확인](https://helpx.adobe.com/marketing-cloud.html)
+* [Experience Cloud 도움말 페이지에서 조언, 팁 및 FAQ 확인](https://helpx.adobe.com/kr/marketing-cloud.html)
 * [Twitter @AdobeExpCare에서 간단한 질문하기](https://twitter.com/adobeexpcare)
-* [지원을 통해 도움을 받을 수 있는 티켓을 엽니다.](https://experienceleague.adobe.com/?support-solution=Target#support)
-* [고객 지원 팀에 직접 문의](https://helpx.adobe.com/marketing-cloud/contact-support.html)
+* [지원 받기 위해 티켓 열기](https://experienceleague.adobe.com/?support-solution=Target#support)
+* [고객 지원 팀에 직접 문의](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
 * [Experience Cloud 솔루션의 가용성 및 상태 확인](https://status.adobe.com/)
 
 예정된 제품 향상에 대한 미리 알림을 받으려면, Adobe 우선 순위 제품 업데이트에 등록하십시오.
@@ -113,7 +113,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 ### 피드백 {#section_8154D6D712054220A90D85FA8E92933E}
 
-이 솔루션과 관련된 모든 제안이나 피드백을 환영합니다. Analytics 제품군에 대한 기능 향상 아이디어 및 제안을[ Customer Idea Exchange](https://my.omniture.com/login/?r=%2Fp%2Fsuite%2Fcurrent%2Findex.html%3Fa%3DIdeasExchange.Redirect%26redirectreason%3Dnotregistered%26referer%3Dhttp%253A%252F%252Fideas.omniture.com%252Ft5%252FAdobe-Idea-Exchange-for-Omniture%252Fidb-p%252FIdeaExchange3)에 추가할 수 있습니다.
+이 솔루션과 관련된 모든 제안이나 피드백을 환영합니다. 향상된 아이디어와 제안을 [Adobe Target Experience League Community에 추가할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Click the [!UICONTROL Ideas] tab.
 
 ### 법적 정보 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
