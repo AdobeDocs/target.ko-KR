@@ -5,7 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 >[!NOTE]
 >
->* **mbox.js 사용 중단**: 2020년 8월 30일에 Adobe Target은 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2020년 8월 30일 이후 mbox.js에서 수행된 모든 호출이 실패하고 Target 활동이 실행되는 페이지에 영향을 줍니다. 사이트의 잠재적인 문제를 방지하려면 모든 고객이 이 날짜 전에 at.js 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 자세한 내용은 *Adobe Target 기술 빌더를 참조하십시오. 개발자 채팅에서 Adobe Target의 mbox.js를 아래 at.js* 로 마이그레이션하여 이 주제에 대한 향후 개발자 채팅 등록에 대한 자세한 내용을 살펴보십시오.
+>* **mbox.js 사용 중단**: 2020년 8월 30일에 Adobe Target은 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2020년 8월 30일 이후 mbox.js에서 수행된 모든 호출이 실패하고 Target 활동이 실행되는 페이지에 영향을 줍니다. 사이트의 잠재적인 문제를 방지하려면 모든 고객이 이 날짜 전에 at.js 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 자세한 내용은 *Adobe Target 기술 빌더를 참조하십시오. 개발자 채팅에서 자세한 내용을 보려면 Adobe Target의 mbox.js를* 아래 at.js로 마이그레이션하십시오.
    >
    >   
    mbox.js는 현재 지원되지만 2017년 7월부터 이 라이브러리에 대한 기능 업데이트를 제공하지 않았습니다. 최신 at.js는 mbox.js보다 많은 이점을 제공합니다. 그 외에도 at.js는 웹 구현을 위한 페이지 로드 시간을 향상시키고, 보안을 향상시키며, 단일 페이지 애플리케이션에 대한 더 나은 구현 옵션을 제공합니다.
@@ -31,11 +34,7 @@ source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 ## Adobe Target 스킬 빌더: 개발자 채팅, Adobe Target의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
-Adobe Target 제품 관리자인 David Son과 함께 mbox.js를 at.js로 마이그레이션하는 것의 이점을 설명합니다. 최신 at.js 업데이트를 듣고, 향상된 기능 및 이러한 기능이 기술 환경의 더 큰 트렌드에 어떻게 연결되는지 알아보고, mbox.js에서 at.js로 마이그레이션할 때 Target에서 많은 가치를 추출할 수 있는 유용한 팁을 얻을 수 있습니다. Adobe Target 개발자는 이러한 기회를 놓치고 싶지 않습니다.
-
-5월 5일 화요일 오전 8시 - 9시(PDT)
-
-[지금 여기에서 등록하십시오!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+2020년 8월 30일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 열어 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 이후 30일 동안 웨비나 레코딩 [을 볼 수 있습니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
 ## Target Standard/Premium 20.4.1(2020년 5월 6일)
 
