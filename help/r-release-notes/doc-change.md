@@ -5,7 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '7548'
+ht-degree: 81%
 
 ---
 
@@ -18,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 7년 5월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 2020년 8월 30일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 열어 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 웨비나를 30일 동안 볼 수 있는 링크가 있습니다. |
+|  | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | &quot;고려 사항&quot; 섹션이 업데이트되었습니다. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | &quot;설정&quot; 아래의 &quot;overrideMboxEdgeServer&quot; 행을 업데이트했습니다. |
+| 6년 5월 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | ITP 2.3에 대한 정보가 추가되었습니다. |
 | 4년 5월 | [보고 FAQ](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | 추가된 새로운 FAQ: &quot;내 A/B 또는 MVT 활동에서 내 경험 간에 트래픽이 분리된 이유는 무엇입니까?&quot; |
 | 29년 4월 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 예외적인 주문으로 보고하기 위한 알려진 문제가 추가되었습니다. |
 | 28년 4월 | [프로필 및 변수 용어집](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 사용자의 IP 주소 `user.header('x-forwarded-for')` 를 검색하기 위해 최신 AWS 가장자리에 사용하는 방법에 대한 정보가 제거되었습니다. 이제 이 명령은 최신 AWS 가장자리에서도 작동합니다. |
