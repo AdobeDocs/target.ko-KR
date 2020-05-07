@@ -3,7 +3,10 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 제품 설명서
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 63%
 
 ---
 
@@ -14,11 +17,11 @@ source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜: 2020년 5월 4일([변경 사항 보기](r-release-notes/doc-change.md))**
+**마지막 업데이트 날짜: 2020년 5월 7일([변경 사항 보기](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
->2020년 8월 30일에 mbox.js의 사용 중단 사태가 발생함에 따라 Adobe Target Product Manager는 개발자 채팅을 호스팅하여 mbox.js를 at.js로 마이그레이션하는 것의 이점을 설명합니다. 자세한 내용은 [Adobe Target 스킬 빌더를 참조하십시오. 개발자 채팅에서 Adobe Target의 mbox.js를 at.js로 마이그레이션합니다](/help/r-release-notes/release-notes.md#skill-builder).
+>2020년 8월 30일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 열어 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 이후 30일 동안 웨비나 레코딩 [을 볼 수 있습니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
 다음 섹션에서는 일반적인 직무에 따라 의도된 대상별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
