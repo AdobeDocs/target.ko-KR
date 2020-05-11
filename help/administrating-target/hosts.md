@@ -1,11 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices
+keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
 title: 호스트
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 504d967e3b4be890843f53f97a96fb7e5a33f1f9
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '1820'
+ht-degree: 96%
 
 ---
 
@@ -121,6 +124,8 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 허가되지 않은 호스트에서 mbox 호출이 수행되면 해당 호출은 `/* no display - unauthorized mbox host */`로 응답합니다.
+
+의 ubox 기능을 사용하는 경우 이 허용 목록 [!DNL Target]은 리디렉터가 탐색할 수 있는 도메인 목록도 [제어합니다](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . 구현의 일부로 ubox를 사용할 때 리디렉션할 도메인을 추가하는지 확인하십시오. 허용 목록이 지정되지 않은 상태로 있으면 Adobe는 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다.
 
 허용 목록은 환경보다 우선합니다. 허용 목록 기능을 사용하기 전에 모든 호스트를 지워야 합니다. 그래야 허용 목록에서 허용되는 호스트만 호스트 목록에 표시됩니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 
