@@ -1,12 +1,15 @@
 ---
-keywords: 구현;mbox.js 비Javascript;리디렉터;클릭당 비용;클릭당 수익
+keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
 description: 리디렉터는 테스트에서 mbox를 사용하는 것과 비슷한 방법으로 사용됩니다.
 title: 리디렉터 작업
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 78%
 
 ---
 
@@ -44,20 +47,23 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    * 여기서 `yourclientcode`는 회사의 클라이언트 코드입니다. 회사의 클라이언트 코드는 모두 소문자이고 특수 문자를 포함하지 않습니다.
 
-      * **at.js**: 클라이언트 코드는 [!UICONTROL 인터페이스의 ]설정 &gt; 구현 &gt; at.js 설정 편집[!DNL Target] 페이지 맨 위에서 사용할 수 있습니다.
+      * **at.js**: 클라이언트 코드는 [!UICONTROL 인터페이스의 ]설정 > 구현 > at.js 설정 편집[!DNL Target] 페이지 맨 위에서 사용할 수 있습니다.
 
-      * **mbox.js**: 클라이언트 코드는 [!UICONTROL 설정 &gt; 구현 &gt; Mbox.js 설정 편집] 페이지 맨 위에서 사용할 수 있습니다.
+      * **mbox.js**: 클라이언트 코드는 [!UICONTROL 설정 > 구현 > Mbox.js 설정 편집] 페이지 맨 위에서 사용할 수 있습니다.
    * `redirectorlink_456` 은 캠페인 및 테스트에서 사용할 계정에 나타나는 리디렉터 mbox의 이름입니다.
 
-      리디렉터는 다른 mbox와 다르게 작동하지만 계정에서는 다른 mbox처럼 나타납니다. 계정에서 표준 유형 mbox와 쉽게 구분되도록 리디렉터 이름을 지정하십시오.  우수 사례로, mbox 이름을 'redirectorlink'로 시작하십시오.
+      리디렉터는 다른 mbox와 다르게 작동하지만 계정에서는 다른 mbox처럼 나타납니다. 계정에서 표준 유형 mbox와 쉽게 구분되도록 리디렉터 이름을 지정하십시오.  우수 사례로, mbox 이름을 &#39;redirectorlink&#39;로 시작하십시오.
 
    * 여기서 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm`은 기본 대상입니다.
+
+      리디렉터를 사용하면 개방형 리디렉션 취약점의 위험에 노출될 수 있습니다. 제3자가 리디렉터 링크를 무단으로 사용하지 않도록 하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하는 것이 좋습니다. Target은 호스트를 사용하여 리디렉션을 허용하려는 도메인을 화이트리스트합니다. 자세한 내용은 [호스트](/help/administrating-target/hosts.md)를 참조하십시오.
 
       이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 
 1. 리디렉터의 유효성을 확인합니다.
+   1. 리디렉터에서 사용된 도메인이 위에 표시된 대로 허용 목록에 있는지 확인합니다. 허용 목록에 포함되지 않은 도메인을 사용하는 경우, Adobe는 악의적인 행위자가 리디렉터를 사용하여 잠재적으로 악성 도메인으로 리디렉션하지 못하도록 해당 도메인에 대한 모든 호출을 차단합니다.
    1. 리디렉터 URL을 브라우저에 삽입하고 새로 고칩니다.
    1. 계정에 로그인하고 mbox 목록을 새로 고친 후 새 리디렉터가 mbox로 나열되는지 확인합니다.
 1. 하나의 광고에 대해 서로 다른 대상을 테스트할 경우 각 버전에 대해 [리디렉션 오퍼](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)를 만듭니다.
@@ -76,7 +82,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1. 모든 경험, 기본 컨텐츠 및 보고서가 모든 브라우저 유형에서 모든 환경에 대해 예상대로 작동하는지 확인합니다.
 
-   >[!NOTE] {class="- topic/note "}
+   >[!NOTE] {class=&quot;- topic/note &quot;}
    >
    >* 리디렉터는 mbox의 오퍼 미리 보기 또는 찾아보기에서 지원되지 않습니다. 브라우저에서 직접 경험을 미리 봅니다.
    >* `mboxDebug`는 리디렉터와 작동하지 않습니다. 
