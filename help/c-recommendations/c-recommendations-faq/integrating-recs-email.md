@@ -5,10 +5,10 @@ title: 이메일에 권장 사항 통합
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 95%
+source-wordcount: '1431'
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ curl -X POST \
 
 자세한 내용은 [게재 API 설명서](https://developers.adobetarget.com/api/#server-side-delivery)를 참조하십시오.
 
-## 옵션 2: Rawbox 이메일 템플릿 사용 {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## Option 2: Use a rawbox email template {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 제공업체)와 같은 비웹 환경용입니다. rawbox 요청에 사용할 [!DNL mbox.js] 또는 [!DNL at.js]가 없으므로 요청을 수동으로 만들어야 합니다. 아래의 예에서는 이메일에서 rawbox 요청을 사용하는 방법을 설명합니다.
 
@@ -107,7 +107,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(특정 유형의 기준, 즉 보기/보기, 보기/구매, 구매/구매에 필요) | *entity_id* | 권장 사항의 기준이 되는 productId(예: 장바구니에서 구매하지 않은 제품 또는 이전 구매)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.id`를 포함해야 합니다. |  |
 | `entity.event.detailsOnly` | true | `entity.id`가 전달된 경우 이 매개 변수도 함께 전달하여 제품 보기 기반 알고리즘을 왜곡하지 않도록, 요청에 따라 항목에 대한 누적된 페이지 보기 수를 증분 되지 않게 하는 것이 좋습니다. |  |
 | `entity.categoryId`<br>(특정 기준 유형, 즉 카테고리별로 가장 많이 본 항목 및 카테고리별 상위 판매자에 필요) | *category_id* | 권장 사항의 기준이 되는 카테고리(예: 카테고리의 최상위 판매자)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.categoryId`를 포함해야 합니다. |  |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` 매개 변수가 없으면 `mboxDefault` 매개 변수는 권장 사항을 사용할 수 없을 때 기본 컨텐츠를 반환하는 절대 URL이어야 합니다. 이 매개 변수는 이미지 또는 기타 정적 컨텐츠일 수 있습니다.<br>`mboxNoRedirect` 매개 변수가 있으면 `mboxDefault`는 권장 사항이 없음을 나타내는 텍스트(예: `no_content`)일 수 있습니다.<br>이메일 제공업체는 이 값이 반환되는 경우를 처리하고 기본 HTML을 이메일에 삽입해야 합니다. <br> URL에 사용된 도메인이 허용 목록에 `mboxDefault` 없는 경우 [리디렉션 열기 취약성]에 노출될 수 있습니다. 리디렉터 링크 또는 제3자에 의한 무단 사용을 방지하기 위해 &quot;승인된 호스트&quot; `mboxDefault` 를 사용하여 기본 리디렉션 URL 도메인을 화이트리스트하는 것이 좋습니다. Target은 호스트를 사용하여 리디렉션을 허용하려는 도메인을 화이트리스트합니다. 자세한 내용은 [호스트](https://developers.adobetarget.com/api/#server-side-delivery)를 참조하십시오. |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` 매개 변수가 없으면 `mboxDefault` 매개 변수는 권장 사항을 사용할 수 없을 때 기본 컨텐츠를 반환하는 절대 URL이어야 합니다. 이 매개 변수는 이미지 또는 기타 정적 컨텐츠일 수 있습니다.<br>`mboxNoRedirect` 매개 변수가 있으면 `mboxDefault`는 권장 사항이 없음을 나타내는 텍스트(예: `no_content`)일 수 있습니다.<br>이메일 제공업체는 이 값이 반환되는 경우를 처리하고 기본 HTML을 이메일에 삽입해야 합니다. <br> URL에 사용된 도메인이 허용 목록에 `mboxDefault` 없는 경우 [리디렉션 열기 취약성]에 노출될 수 있습니다. 리디렉터 링크 또는 제3자에 의한 무단 사용을 방지하기 위해 &quot;승인된 호스트&quot; `mboxDefault` 를 사용하여 기본 리디렉션 URL 도메인을 화이트리스트하는 것이 좋습니다. Target은 호스트를 사용하여 리디렉션을 허용하려는 도메인을 화이트리스트합니다. 자세한 내용은 호스트 [에서 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#whitelist) 만들기를 *참조하십시오*. |  |
 | `mboxHost` | *mbox_host* | 호출이 실행될 때 기본 환경(호스트 그룹)에 추가되는 도메인입니다. |  |
 | `mboxPC` | Empty | (방문자 프로필을 사용하는 권장 사항에 필수입니다.)<br>&quot;thirdPartyId&quot;가 제공되지 않으면 새 tntId가 생성되고 응답의 일부로 반환됩니다. 그렇지 않으면 비어 있는 상태로 유지됩니다.<br>**참고&#x200B;**: 각 이메일 수신자에게(즉, 각 API 호출에 대해)`mboxSession`및`mboxPC`의 고유한 값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면 단일 프로필 내에서 생성된 수많은 이벤트로 인해 API 응답이 느려지거나 실패할 수 있습니다. | 1 &lt; 길이 &lt; 128<br>둘 이상의 &quot;.&quot; (점)을 포함할 수 없습니다.<br>점은 프로필 위치 접미사에만 사용할 수 있습니다. |
 
