@@ -5,10 +5,10 @@ title: 호스트
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
 source-wordcount: '1820'
-ht-degree: 96%
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,7 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 
 ![](assets/hosts_list.png)
 
-## 호스트 인식 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
+## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
 호스트를 인식하고 이 호스트를 호스트 목록에 추가하기 위해 [!DNL Target]에 대해 충족해야 하는 조건들에 대한 정보입니다.
 
@@ -64,7 +64,7 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 >
 >프로덕션 환경은 이름을 바꾸더라도 삭제할 수 없습니다. 이 위치에서 활성 상태 최종 활동 및 테스트를 제공한다고 가정합니다. 기본 환경은 비활성 상태 캠페인을 보도록 허용하지 않습니다.
 
-## 호스트 및 환경 관리 {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
 
 보고용 기본 호스트를 설정하고, 허용 목록을 작성하고, 환경 이름을 변경하고, 호스트를 다른 환경으로 이동하고, 호스트나 환경을 삭제하는 등 호스트 및 환경(호스트 그룹)을 관리하는 데 도움이 되는 정보입니다.
 
@@ -73,19 +73,19 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 
 ![](assets/hosts_list.png)
 
-## 호스트 목록 필터, 정렬 또는 검색 {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 [!UICONTROL 호스트] 목록을 환경별로 필터링하려면 **[!UICONTROL 모두]** 드롭다운 목록을 클릭한 다음, 원하는 환경(프로덕션, 스테이징, 개발 또는 작성한 사용자 지정 환경)을 선택하십시오.
 
 [!UICONTROL 호스트] 목록을 정렬하려면 원하는 열 헤더(이름, 환경 또는 마지막으로 요청한 날짜)를 클릭하여 목록을 오름차순 또는 내림차순으로 정렬하십시오.
 
-[!UICONTROL 호스트] 목록을 검색하려면 [검색] 상자에 검색어를 입력하십시오.
+[!UICONTROL 호스트] 목록을 검색하려면 검색 상자에 검색어를 입력하십시오.
 
-## 여러 호스트 선택 {#section_EF3B458475184B7EA997C3559714397C}
+## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
 
 여러 호스트를 선택하려면 원하는 호스트에 대한 [!UICONTROL 이름] 열 옆에 있는 확인란을 선택하십시오. 그런 다음 선택한 모든 호스트를 이동하거나 삭제할 수 있습니다.
 
-## 환경 만들기 {#section_32097D0993724DF3A202D164D3F18674}
+## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
 
 1. [!UICONTROL 호스트] 목록에서 **[!UICONTROL 환경]** 탭을 클릭합니다.
 1. **[!UICONTROL 환경 만들기를 클릭합니다]**.
@@ -93,7 +93,7 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 1. 환경에 대해 원하는 활성 모드를 [!UICONTROL 활성 활동]과 [!UICONTROL 활성 및 비활성 활동] 중에서 지정합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 보고용 기본 호스트 설정 {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 모든 활동 보고서의 기본값으로 사용할 환경을 선택할 수 있습니다.
 
@@ -109,7 +109,7 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 >
 >[!DNL Recommendations] 사용자는 호스트가 호스트 그룹을 전환할 경우 자신들의 행동 데이터베이스와 제품 데이터베이스를 다시 구축해야 합니다.
 
-## Target으로 mbox 호출을 전송하도록 허가된 호스트를 지정하는 허용 목록 만들기{#section_0AF7F56C386A42C381AF704DEF08D5CC}
+## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
 [!DNL Target]으로 mbox 호출을 전송하도록 허가된 호스트(도메인)를 지정하는 허용 목록을 만들 수 있습니다. 호출을 생성하는 다른 모든 호스트는 주석 처리된 인증 오류 응답을 받게 됩니다. 기본적으로 mbox 호출이 포함된 모든 호스트는 프로덕션 환경에서 [!DNL Target]에 등록되며 모든 활성 상태의 승인된 활동에 액세스할 수 있습니다. 이 방식을 원하지 않는 경우 대신 허용 목록을 사용하여 mbox 호출을 수행할 수 있는 특정 호스트를 기록하고 [!DNL Target] 컨텐츠를 수신할 수 있습니다. 모든 호스트는 [!UICONTROL 호스트] 목록에 계속 표시되며 환경은 이러한 호스트를 그룹화하고 각각에 다른 수준(예: 호스트가 활성 상태 캠페인을 볼 수 있는지 및/또는 비활성 상태 캠페인을 볼 수 있는지)을 지정하는 데 사용될 수 있습니다.
 
@@ -135,20 +135,20 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 
 [!DNL Target]호스트에 다음이 제외됨[!UICONTROL  상자에서 원하는 호스트를 추가하여 mbox 호출을 ]에 전송할 수 없는 호스트(도메인)를 지정하는 블랙리스트를 만들 수도 있습니다.
 
-## 환경 이름 변경 {#section_9F5F94285F8E495E9CE69810CE94CA08}
+## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
 1. [!UICONTROL 호스트] 목록에서 **[!UICONTROL 환경]** 탭을 클릭합니다.
 1. 원하는 환경을 마우스로 가리킨 다음, **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 1. 환경 이름을 변경합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 호스트를 다른 환경으로 이동 {#section_9F52549958BD485EB74FE78C32773D2A}
+## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
 
 1. [!UICONTROL 호스트] 목록에서 이동할 호스트를 마우스로 가리킵니다.
 1. **[!UICONTROL 이동]** 아이콘을 클릭합니다.
 1. 드롭다운 목록에서 원하는 환경을 선택한 다음, 확인 표시 아이콘을 클릭합니다.
 
-## 호스트 삭제 {#section_F56355BA4BC54B078A1A8179BC954632}
+## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 더 이상 필요하지 않은 호스트를 삭제할 수 있습니다.
 
@@ -160,7 +160,7 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 >
 >호스트에서 mbox가 있는 페이지로 이동하면 호스트가 다시 나열됩니다.
 
-## 환경 삭제 {#section_737F8869612047868D03FC755B1223D3}
+## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
 
 더 이상 필요하지 않은 환경을 삭제할 수 있습니다.
 
