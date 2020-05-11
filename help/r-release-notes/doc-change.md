@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
 workflow-type: tm+mt
-source-wordcount: '7548'
+source-wordcount: '7601'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 11년 5월 | [호스트](/help/administrating-target/hosts.md) | 리디렉션 및 화이트리스트에 ubox 기능 사용에 대한 정보가 추가되었습니다. |
+|  | [리디렉터 작업](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
+|  | [이메일에 권장 사항 통합](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
+|  | [이메일: Target 구현](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
 | 7년 5월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 2020년 8월 30일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 열어 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 웨비나를 30일 동안 볼 수 있는 링크가 있습니다. |
 |  | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | &quot;고려 사항&quot; 섹션이 업데이트되었습니다. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | &quot;설정&quot; 아래의 &quot;overrideMboxEdgeServer&quot; 행을 업데이트했습니다. |
