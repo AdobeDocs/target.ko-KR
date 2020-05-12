@@ -5,10 +5,10 @@ title: 호스트
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 81d6ce3e9c83fb4cce26644b45321e7492392bea
+source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
 workflow-type: tm+mt
-source-wordcount: '1820'
-ht-degree: 93%
+source-wordcount: '1823'
+ht-degree: 92%
 
 ---
 
@@ -125,9 +125,11 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 
 허가되지 않은 호스트에서 mbox 호출이 수행되면 해당 호출은 `/* no display - unauthorized mbox host */`로 응답합니다.
 
-의 ubox 기능을 사용하는 경우 이 허용 목록 [!DNL Target]은 리디렉터가 탐색할 수 있는 도메인 목록도 [제어합니다](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . 구현의 일부로 ubox를 사용할 때 리디렉션할 도메인을 추가하는지 확인하십시오. 허용 목록이 지정되지 않은 상태로 있으면 Adobe는 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다.
-
-허용 목록은 환경보다 우선합니다. 허용 목록 기능을 사용하기 전에 모든 호스트를 지워야 합니다. 그래야 허용 목록에서 허용되는 호스트만 호스트 목록에 표시됩니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
+>[!IMPORTANT]
+>
+>*보안 모범 사례*: 의 ubox 기능을 사용하는 경우 이 허용 목록 [!DNL Target]은 리디렉터가 탐색할 수 있는 도메인 목록도 [제어합니다](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . 구현의 일부로 ubox를 사용할 때 리디렉션할 도메인을 추가하는지 확인하십시오. 허용 목록이 지정되지 않은 상태로 있으면 Adobe는 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다.
+>
+>허용 목록은 환경보다 우선합니다. 허용 목록 기능을 사용하기 전에 모든 호스트를 지워야 합니다. 그래야 허용 목록에서 허용되는 호스트만 호스트 목록에 표시됩니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 
 다른 사이트의 도메인이 환경에 표시되는 경우가 있습니다. 도메인이 mbox.js를 호출하면 목록에 표시됩니다. 예를 들어 웹 페이지 중 하나를 서버로 복사하면 해당 도메인이 환경에 표시됩니다. 스파이더 엔진, 언어 번역기 사이트 또는 로컬 디스크 드라이브에서 도메인을 볼 수도 있습니다.
 
