@@ -5,10 +5,10 @@ title: 'Adobe Target 릴리스 노트(현재) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
 workflow-type: tm+mt
-source-wordcount: '1241'
-ht-degree: 21%
+source-wordcount: '783'
+ht-degree: 34%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->* **mbox.js 사용 중단**: 2020년 8월 30일에 Adobe Target은 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2020년 8월 30일 이후 mbox.js에서 수행된 모든 호출이 실패하고 Target 활동이 실행되는 페이지에 영향을 줍니다. 사이트의 잠재적인 문제를 방지하려면 모든 고객이 이 날짜 전에 at.js 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 자세한 내용은 *Adobe Target 스킬 빌더: 개발자 채팅에서 자세한 내용을 보려면 Adobe Target의 mbox.js를* 아래 at.js로 마이그레이션하십시오.
+>* **mbox.js 사용 중단**: 2020년 8월 30일에 Adobe Target은 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2020년 8월 30일 이후 mbox.js에서 수행된 모든 호출이 실패하고 Target 활동이 실행되는 페이지에 영향을 줍니다. 사이트의 잠재적인 문제를 방지하려면 모든 고객이 이 날짜 전에 at.js 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 자세한 내용은 *Adobe Target 기술 빌더를 참조하십시오. 개발자 채팅에서 자세한 내용을 보려면 Adobe Target의 mbox.js를* 아래 at.js로 마이그레이션하십시오.
    >
    >   
    mbox.js는 현재 지원되지만 2017년 7월부터 이 라이브러리에 대한 기능 업데이트를 제공하지 않았습니다. 최신 at.js는 mbox.js보다 많은 이점을 제공합니다. 그 외에도 at.js는 웹 구현을 위한 페이지 로드 시간을 향상시키고, 보안을 향상시키며, 단일 페이지 애플리케이션에 대한 더 나은 구현 옵션을 제공합니다.
@@ -34,68 +34,21 @@ ht-degree: 21%
 
 2020년 8월 30일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 열어 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 이후 30일 동안 웨비나 레코딩 [을 볼 수 있습니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
-## Target at.js(2020년 3월 25일)
-
-다음 새 버전의 Target at.js JavaScript 라이브러리를 사용할 수 있습니다.
-
-* at.js 버전 2.3.0
-* at.js 버전 1.8.1
-
-For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
-## Target Standard/Premium 20.2.1(2020년 3월 23일)
-
->[!IMPORTANT]
->
->mbox.js 사용 중단에 대한 위의 정보를 참조하십시오.
+## Target Standard/Premium 20.4.1(2020년 5월 6일)
 
 이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
 
-* 카탈로그 검색을 수행할 때 고객이 컬렉션을 선택할 수 없는 문제를 해결했습니다. (TGT-36230)
-* API를 통해 만들어졌지만 Target UI에서 만든 활동에서 참조되지 않는 기준이 UI에서 잘못 삭제되는 문제를 수정했습니다. (TGT-35917)
-* CSP(Content Security Policy)에 대한 보안 개선 사항을 구현했습니다. (TGT-36190)
-* 속성 가중치 백분율 막대를 왼쪽으로 밀면 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
-* 다양한 언어로 된 UI 텍스트가 올바로 표시되도록 로컬라이제이션 문제를 해결했습니다.
-* 현재 버전의 Adobe Analytics API에서는 지원되지 않는 Adobe Analytics 지표를 사용 중지하여 Adobe Analytics for Target(A4T) 활동의 사용 가능한 지표 목록을 표준화했습니다. 이를 통해 향후 Adobe Target 릴리스에서 A4T 지원을 확장할 수 있습니다.
-
-   다음 변경 사항이 적용되었습니다.
-
-   * &quot;페이지에서 보낸 평균 시간&quot;이 &quot;사이트에서 보낸 평균 시간&quot;으로 대체되었습니다. 이 지표를 기본 목표 지표로 사용하는 모든 활동에는 &quot;사이트에서 보낸 평균 시간&quot;이 있습니다(참고: 다음 번에 활동을 편집할 때 기본 목표 지표로 선택한 시간(초 단위)입니다.
-   * &quot;방문자&quot;가 &quot;고유 방문자 수&quot;로 대체되었습니다. 이 지표를 기본 목표 지표로 사용하는 모든 활동에는 다음 번에 활동을 편집할 때 기본 목표 지표로 &quot;고유 방문자 수&quot;가 선택됩니다.
-
-* 다음 지표는 더 이상 사용되지 않으며, 새 A4T 활동을 만들 때 기본 목표 지표로 선택할 수 없습니다.
-
-   | 더 이상 사용되지 않는 지표 | 제안된 대체 지표 |
-   |--- |--- |
-   | 일별 방문자, 시간별 방문자, 월별 방문자, 분기별 방문자, 주별 방문자, 연간 방문자 | 고유 방문자 수 |
-   | 평균 방문 깊이 | n/a. 기본 목표 지표로 제안되지 않음 |
-   | 보트 | n/a. 기본 목표 지표로 제안되지 않음 |
-   | 모바일 충돌 비율, 모바일 평균 이전 세션 길이, 모바일 앱 스토어 평균 등급, 모바일 앱 성능 충돌 비율, 모바일 앱 스토어 평균 등급 | n/a. 기본 목표 지표로 제안되지 않음 |
-
-## Adobe Experience Cloud 내비게이션(2019년 2월 22일)
-
-* 에 로그인하면 새 헤더 탐색 [!DNL Adobe Experience Cloud]으로 이동합니다. 맨 위에 검정 막대가 있는 이전 탐색과 매우 비슷하지만 다음 개선 사항을 제공합니다.
-
-   * IMS( [!DNL Identity Management System] 조직) 간 또는 다른 솔루션으로 손쉽게 전환할 수 있습니다.
-   * 향상된 사용자 도움말: 검색 결과에는 [!DNL Target] 제품 설명서의 결과뿐만 아니라 커뮤니티 포럼 및 기타 비디오 컨텐츠도 포함되어 있으므로 더 많은 컨텐츠에 손쉽게 액세스하여 최대한 활용할 수 있습니다 [!DNL Target]. 또한 [!UICONTROL 도움말] 메뉴에서 바로 피드백 메커니즘을 추가하여 문제를 보고하거나 아이디어를 공유할 수 있습니다.
-
-   * NPS(Net Promoter Score) 피드백 기능이 개선되어 설문 조사 모달 기능이 작업 흐름을 방해하지 않습니다.
-   * 로그인 흐름이 개선되었습니다. 이전에는 모든 [!DNL Target] 고객이 헤더의 [!DNL Target] 아이콘을 클릭한 후 Target 랜딩 페이지에 도달했습니다. 이 페이지에서는 고객이 아래 [!DNL Target Standard/Premium]와 같이, [!DNL Search&Promote]또는 [!DNL Recommendations Classic]계속 진행할 수 있습니다.
-
-      ![랜딩 페이지](/help/r-release-notes/assets/landing.png)
-
-      모든 고객을 위한 이 랜딩 페이지를 제거했습니다. 이제 새 헤더 탐색 막대의 [!UICONTROL 아이콘을 클릭하여 항상 활동 목록] [!DNL Target] 페이지로 바로 이동됩니다.
-
-      사용하는 경우 솔루션 [!DNL Recommendations Classic]으로 직접 이동하거나 아래 [!UICONTROL 와 같이 Recommendations] 탭에 만든 짧은 링크를 통해 이동할 수 있습니다.
-
-      ![Recs Classic 딥 링크](/help/r-release-notes/assets/recs-classic.png)
-
-      사용하는 [!DNL Search&Promote]경우 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)으로 바로 이동해야 합니다. 안쪽에서 [!DNL Search&Promote] 로 이동하는 [!DNL Adobe Target] 경로가 완전히 제거되었습니다.
-
-   * 현재 헤더 [!DNL Target] 의 [!UICONTROL 알림] 드롭다운에서 알림을 사용할 수 없습니다.
-   >[!NOTE]
-   >
-   >새 내비게이션 막대 롤아웃의 일부로서 일부 URL이 변경되는 것을 확인할 수 있습니다. 이전에 책갈피가 지정된 모든 링크는 계속 작동하지만 빨리 열기 위해 새 링크를 책갈피로 지정하는 것이 좋습니다.
+* 대상의 장치 및 브라우저 유형을 잘못 검증했던 문제를 수정했습니다. (TGT-36266)
+* 963픽셀 미만의 화면에서 볼 때 보고서 데이터가 표시되지 않는 문제를 해결했습니다. (TGT-36549)
+* 자동 개인화 보고서가 올바르게 렌더링되지 않는 문제를 해결했습니다. (TGT-36619)
+* Analytics for Target(A4t)을 사용하는 자동 할당 및 자동 대상 활동에서 호환되지 않는 지표를 선택할 수 있었던 문제를 수정했습니다. (TGT-36646)
+* VEC(Visual Experience Composer)의 특정 옵션이 올바로 표시되지 않던 문제를 수정했습니다. (TGT-36571)
+* 사용자가 단일 경험에서 컨텐츠를 교체한 후 다른 Recommendations 오퍼 미리 보기에 편집된 컨텐츠가 표시되던 Target UI의 문제를 수정했습니다. (TGT-36053 및 TGT-36894)
+* 일부 사용자가 Recommendations 카탈로그에서 항목을 삭제하지 못했던 문제를 수정했습니다. (TGT-36455)
+* 사용자가 여러 페이지 활동에 대한 Recommendations 기준을 저장하지 못했던 문제를 수정했습니다. (TGT-36249)
+* 두 번째 연속 기준을 편집할 때 행동 데이터 소스 라디오 단추가 사라지는 문제를 수정했습니다. (TGT-36796)
+* Recommendations 알고리즘이 장시간 동안 &quot;결과 가져오기&quot;를 표시하는 표시 문제를 해결했습니다. (TGT-36550 및 TGT-36551)
+* 여러 언어로 번역된 많은 UI 문자열이 업데이트되었습니다.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
