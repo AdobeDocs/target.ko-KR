@@ -5,9 +5,9 @@ title: 이메일에 권장 사항 통합
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: f8e964b420ea225c3a0de1cbec7dc3edda358d63
 workflow-type: tm+mt
-source-wordcount: '1431'
+source-wordcount: '1434'
 ht-degree: 93%
 
 ---
@@ -70,12 +70,12 @@ rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 제공업체)�
 
 사용하는 이메일 시스템은 다음 시나리오를 처리할 수 있어야 합니다.
 
-**유효한 응답이 수신되지만 권장 사항이 없습니다.**
+### 유효한 응답이 수신되지만 권장 사항이 없습니다
 
 * 이 경우 응답은 mboxDefault 매개 변수 값으로 설정됩니다. 이 매개 변수에 대해서는 아래 설명을 참조하십시오.
 * 이메일 제공업체는 이 경우에 사용할 기본 권장 사항 HTML 블록을 제공해야 합니다.
 
-**Target 서버는 시간 초과되고 데이터 없이 반환됩니다.**
+### Target 서버는 시간 초과되고 데이터 없이 반환됩니다
 
 * 이 경우 Target 서버는 다음 컨텐츠를 반환합니다.
 
@@ -87,13 +87,13 @@ rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 제공업체)�
    * 특정 이메일을 제외하고 다음 이메일을 계속 실행합니다.
    * 해당 특정 이메일을 큐에 추가하고 초기 실행이 끝나면 실패한 이메일을 일괄로 다시 실행합니다.
 
-**샘플 요청 URL:**
+### 샘플 요청 URL
 
 ```
 https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSession=1396032094853-955654&mboxPC=1396032094853-955654&mboxXDomain=disabled&entity.event.detailsOnly=true&mboxDefault=nocontent&mboxNoRedirect=1&entity.id=2A229&entity.categoryId=5674
 ```
 
-**필수 매개 변수:**
+### 필수 매개 변수: {#reqparams}
 
 >[!NOTE]
 >
@@ -107,11 +107,11 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(특정 유형의 기준, 즉 보기/보기, 보기/구매, 구매/구매에 필요) | *entity_id* | 권장 사항의 기준이 되는 productId(예: 장바구니에서 구매하지 않은 제품 또는 이전 구매)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.id`를 포함해야 합니다. |  |
 | `entity.event.detailsOnly` | true | `entity.id`가 전달된 경우 이 매개 변수도 함께 전달하여 제품 보기 기반 알고리즘을 왜곡하지 않도록, 요청에 따라 항목에 대한 누적된 페이지 보기 수를 증분 되지 않게 하는 것이 좋습니다. |  |
 | `entity.categoryId`<br>(특정 기준 유형, 즉 카테고리별로 가장 많이 본 항목 및 카테고리별 상위 판매자에 필요) | *category_id* | 권장 사항의 기준이 되는 카테고리(예: 카테고리의 최상위 판매자)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.categoryId`를 포함해야 합니다. |  |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` 매개 변수가 없으면 `mboxDefault` 매개 변수는 권장 사항을 사용할 수 없을 때 기본 컨텐츠를 반환하는 절대 URL이어야 합니다. 이 매개 변수는 이미지 또는 기타 정적 컨텐츠일 수 있습니다.<br>`mboxNoRedirect` 매개 변수가 있으면 `mboxDefault`는 권장 사항이 없음을 나타내는 텍스트(예: `no_content`)일 수 있습니다.<br>이메일 제공업체는 이 값이 반환되는 경우를 처리하고 기본 HTML을 이메일에 삽입해야 합니다. <br> URL에 사용된 도메인이 허용 목록에 `mboxDefault` 없는 경우 [리디렉션 열기 취약성]에 노출될 수 있습니다. 리디렉터 링크 또는 제3자에 의한 무단 사용을 방지하기 위해 &quot;승인된 호스트&quot; `mboxDefault` 를 사용하여 기본 리디렉션 URL 도메인을 화이트리스트하는 것이 좋습니다. Target은 호스트를 사용하여 리디렉션을 허용하려는 도메인을 화이트리스트합니다. 자세한 내용은 호스트 [에서 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#whitelist) 만들기를 *참조하십시오*. |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` 매개 변수가 없으면 `mboxDefault` 매개 변수는 권장 사항을 사용할 수 없을 때 기본 컨텐츠를 반환하는 절대 URL이어야 합니다. 이 매개 변수는 이미지 또는 기타 정적 컨텐츠일 수 있습니다.<br>`mboxNoRedirect` 매개 변수가 있으면 `mboxDefault`는 권장 사항이 없음을 나타내는 텍스트(예: `no_content`)일 수 있습니다.<br>이메일 제공업체는 이 값이 반환되는 경우를 처리하고 기본 HTML을 이메일에 삽입해야 합니다. <br> *보안 모범 사례*: URL에 사용된 도메인이 허용 목록에 `mboxDefault` 없는 경우 [리디렉션 열기 취약성]에 노출될 수 있습니다. 리디렉터 링크 또는 제3자에 의한 무단 사용을 방지하기 위해 &quot;승인된 호스트&quot; `mboxDefault` 를 사용하여 기본 리디렉션 URL 도메인을 화이트리스트하는 것이 좋습니다. Target은 호스트를 사용하여 리디렉션을 허용하려는 도메인을 화이트리스트합니다. 자세한 내용은 호스트 [에서 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#whitelist) 만들기를 *참조하십시오*. |  |
 | `mboxHost` | *mbox_host* | 호출이 실행될 때 기본 환경(호스트 그룹)에 추가되는 도메인입니다. |  |
 | `mboxPC` | Empty | (방문자 프로필을 사용하는 권장 사항에 필수입니다.)<br>&quot;thirdPartyId&quot;가 제공되지 않으면 새 tntId가 생성되고 응답의 일부로 반환됩니다. 그렇지 않으면 비어 있는 상태로 유지됩니다.<br>**참고&#x200B;**: 각 이메일 수신자에게(즉, 각 API 호출에 대해)`mboxSession`및`mboxPC`의 고유한 값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면 단일 프로필 내에서 생성된 수많은 이벤트로 인해 API 응답이 느려지거나 실패할 수 있습니다. | 1 &lt; 길이 &lt; 128<br>둘 이상의 &quot;.&quot; (점)을 포함할 수 없습니다.<br>점은 프로필 위치 접미사에만 사용할 수 있습니다. |
 
-**선택적 매개 변수**:
+### 선택적 매개 변수
 
 | 매개 변수 | 값 | 설명 | 유효성 검사 |
 |--- |--- |--- |--- |
@@ -119,7 +119,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(선택 사항) | 1 | 기본적으로 호출자는 제공품 컨텐츠를 찾을 수 없을 때 리디렉션됩니다. 기본 작동을 비활성화하려면 사용하십시오. |  |
 | `mbox3rdPartyId` | *xxx* | 프로필 타깃팅에 사용할 사용자 고유의 사용자 지정 방문자 ID가 있는 경우 이 옵션을 사용하십시오. |  |
 
-**발생할 수 있는 Target 서버 응답** :
+### 잠재적 타겟 서버 응답
 
 | 응답 | 설명 |
 |--- |--- |
