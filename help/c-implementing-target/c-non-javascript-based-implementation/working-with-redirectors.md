@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '683'
 ht-degree: 73%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 73%
 
 올바른 설정을 결정하는 방법은 [비 JavaScript 기반 구현](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#redirector}
 
 리디렉터를 사용하기 전에 먼저 리디렉터를 만들어야 합니다.
 
@@ -56,14 +56,15 @@ ht-degree: 73%
 
    * 여기서 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm`은 기본 대상입니다.
 
-      리디렉터를 사용하면 개방형 리디렉션 취약점의 위험에 노출될 수 있습니다. 제3자가 리디렉터 링크를 무단으로 사용하지 않도록 하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하는 것이 좋습니다. Target은 호스트를 사용하여 리디렉션을 허용하려는 도메인을 화이트리스트합니다. 자세한 내용은 호스트 [에서 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#whitelist) 만들기를 *참조하십시오*.
+      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
 
-      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
-
+      >[!IMPORTANT]
+      >
+      >리디렉터를 사용하면 개방형 리디렉션 취약점의 위험에 노출될 수 있습니다. 제3자가 리디렉터 링크를 무단으로 사용하지 않도록 하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하는 것이 좋습니다. Target은 호스트를 사용하여 리디렉션을 허용하려는 도메인을 화이트리스트합니다. 자세한 내용은 호스트 [에서 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#whitelist) 만들기를 *참조하십시오*.
 
 
 1. 리디렉터의 유효성을 확인합니다.
-   1. 리디렉터에서 사용된 도메인이 위에 표시된 대로 허용 목록에 있는지 확인합니다. 허용 목록에 포함되지 않은 도메인을 사용하는 경우, Adobe는 악의적인 행위자가 리디렉터를 사용하여 잠재적으로 악성 도메인으로 리디렉션하지 못하도록 해당 도메인에 대한 모든 호출을 차단합니다.
+   1. *보안 모범 사례*: 리디렉터에서 사용된 도메인이 위에 표시된 대로 허용 목록에 있는지 확인합니다. 허용 목록에 포함되지 않은 도메인을 사용하는 경우, Adobe는 악의적인 행위자가 리디렉터를 사용하여 잠재적으로 악성 도메인으로 리디렉션하지 못하도록 해당 도메인에 대한 모든 호출을 차단합니다.
    1. 리디렉터 URL을 브라우저에 삽입하고 새로 고칩니다.
    1. 계정에 로그인하고 mbox 목록을 새로 고친 후 새 리디렉터가 mbox로 나열되는지 확인합니다.
 1. 하나의 광고에 대해 서로 다른 대상을 테스트할 경우 각 버전에 대해 [리디렉션 오퍼](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)를 만듭니다.
