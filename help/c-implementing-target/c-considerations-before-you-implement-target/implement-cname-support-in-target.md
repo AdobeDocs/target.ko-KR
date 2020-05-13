@@ -5,9 +5,9 @@ title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e3600c10764ad93e59e9ff4b6e1810fa02d6425f
+source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1367'
 ht-degree: 2%
 
 ---
@@ -154,3 +154,8 @@ ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.
    >[!NOTE]
    >
    >이 명령이 실패했지만 위의 `validateEdgeFpsslSni` 명령이 성공하면 DNS 업데이트가 완전히 전파될 때까지 기다려야 할 수 있습니다. DNS 레코드에는 해당 레코드 [의 DNS 답글에 대한 캐시 만료 시간을 지정하는 관련 TTL(](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) Time-to-Live)이 있으므로 TTL이 있을 때까지 기다려야 할 수 있습니다. 명령 또는 G Suite 도구 상자 `dig target.example.com` [](https://toolbox.googleapps.com/apps/dig/#CNAME) 를 사용하여 특정 TTL을 확인할 수 있습니다.
+
+## 알려진 제한 사항
+
+* CNAME과 at.js 1.x가 있는 경우 QA 모드는 타사 쿠키를 기반으로 하므로 고정되지 않습니다. 해결 방법은 탐색하는 각 URL에 미리 보기 매개 변수를 추가하는 것입니다. CNAME과 at.js 2.x가 있는 경우 QA 모드가 고정됩니다.
+* 현재 이 `overrideMboxEdgeServer` 설정은 CNAME에서 제대로 작동하지 않습니다. 요청 `false` 실패를 방지하기 위해 이 값을 설정해야 합니다.
