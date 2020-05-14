@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '7650'
+source-wordcount: '7664'
 ht-degree: 81%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 14년 5월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 프로필 배치 상태 API v2 변경 사항에 대한 정보가 추가되었습니다. |
 | 13년 5월 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | &quot;알려진 제한 사항&quot; 섹션이 추가되었습니다. |
 | 11년 5월 | [호스트](/help/administrating-target/hosts.md) | 리디렉션 및 화이트리스트에 ubox 기능 사용에 대한 정보가 추가되었습니다. |
 |  | [리디렉터 작업](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
