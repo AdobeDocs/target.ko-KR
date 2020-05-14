@@ -5,7 +5,7 @@ title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 1bcfa02632a13cf1f20a618abb07cae41b49d5ec
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
 source-wordcount: '1367'
 ht-degree: 2%
@@ -43,7 +43,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
       DCV 이메일 프로세스를 신속하게 처리하기 위해 DigiCert는 다음 권장 사항을 제공합니다.
 
-      &quot;등록업체/WHOIS 공급자가 [관련 이메일 주소를 마스크 또는 제거하지 않았는지 확인하십시오]. 이러한 경우, 인증 기관이 [도메인의 WHOIS 데이터에 액세스할 수 있도록 하는 방법(예: 익명 처리된 이메일 주소, 웹 양식)을 제공하는지] 확인하십시오.&quot;
+      &quot;등록업체/WHOIS 공급자가 관련 이메일 주소를 마스크 또는 제거하지 않았는지 확인하십시오. 이러한 경우 인증 기관이 도메인의 WHOIS 데이터에 액세스할 수 있도록 하는 방법(예: 익명 처리된 이메일 주소, 웹 양식)을 제공하는지 확인하십시오.&quot;
 
 1. 일반 호스트 이름을 가리키는 도메인의 DNS에 CNAME 레코드를 만듭니다 `clientcode.tt.omtrdc.net`. 예를 들어, 클라이언트 코드가 사용자 이름이고 제안된 호스트 이름이 `target.example.com`인 경우 DNS CNAME 레코드는 다음과 같이 표시됩니다.
 
