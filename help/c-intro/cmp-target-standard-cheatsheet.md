@@ -1,11 +1,14 @@
 ---
-keywords: Target Standard;faq;자주 묻는 질문;치트 시트;치트시트
+keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보로 연결되는 링크 목록입니다.
 title: Target 최적화 및 개인화 FAQ
-topic: 고급
+topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '2904'
+ht-degree: 99%
 
 ---
 
@@ -84,13 +87,13 @@ Adobe Target에서 제공한 각 선택 사항이 적용되는 사례를 알려�
 
 모든 목표에 사용할 수 있는 [고급 설정](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) 옵션을 사용하면 쉽게 알 수 있습니다. 사용자가 목표에 도달한 후 수행되어야 하는 동작과 카운트가 증분되는 방식을 결정할 수 있는 옵션이 제공됩니다.
 
-따라서 이 경우 "증분 카운트, 재입력에서 사용자 및 막대 해제"와 "기본/기타 활동 콘텐츠"를 함께 선택하여 목표에 도달할 수 있습니다. 다른 옵션도 확인하십시오.
+따라서 이 경우 &quot;증분 카운트, 재입력에서 사용자 및 막대 해제&quot;와 &quot;기본/기타 활동 콘텐츠&quot;를 함께 선택하여 목표에 도달할 수 있습니다. 다른 옵션도 확인하십시오.
 
 **활동에 여러 목표를 생성했습니다. 목표 체인을 보고 및 분석 목적을 위한 단계로 만들 수 있습니까?**
 
 **예를 들어, 특정 단계에 대한 숫자를 추적할 수 있도록 사용자가 목표 A에 도달했을 때 목표 B를 고려하려고 합니다.**
 
-Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강력한 방법이 있습니다. [다른 성공 지표에 대한 종속성을 추가](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)하면 됩니다. 여러 가지 방법으로 지표를 결합하는 기능과 "도달" 및 "도달 못 함"과 같은 옵션을 사용하여 원하는 모든 조합을 만들 수 있습니다.
+Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강력한 방법이 있습니다. [다른 성공 지표에 대한 종속성을 추가](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)하면 됩니다. 여러 가지 방법으로 지표를 결합하는 기능과 &quot;도달&quot; 및 &quot;도달 못 함&quot;과 같은 옵션을 사용하여 원하는 모든 조합을 만들 수 있습니다.
 
 **목표를 달성하기 위해 활동을 설정하는 방법을 명확히 알려면 어떻게 해야 합니까?**
 
@@ -131,7 +134,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa
 다음 두 가지 옵션을 사용할 수 있습니다.
 
 * 기본, 3가지 수준(낮음/중간/높음) 포함
-* 사용자 지정, 0 -999 범위 사용자 지정의 경우 미세 조정 우선순위 기능을 활성화하십시오(설정 &gt; 기본 설정).
+* 사용자 지정, 0 -999 범위 사용자 지정의 경우 미세 조정 우선순위 기능을 활성화하십시오(설정 > 기본 설정).
 
 ## 대상자{#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -171,7 +174,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa
 
 제공된 단일 URL에 대한 경험을 만드는 동안 구조가 유사한 여러 페이지를 활동에 포함하도록 [템플릿 규칙](../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)을 확인하십시오.
 
-**VEC(시각적 경험 작성기)에서 내 페이지를 로드하려고 할 때 "브라우저에서 스크립트가 로드되도록 허용" 메시지가 표시됩니다. 이 문제를 방지하려면 어떻게 해야 합니까?**
+**VEC(시각적 경험 작성기)에서 내 페이지를 로드하려고 할 때 &quot;브라우저에서 스크립트가 로드되도록 허용&quot; 메시지가 표시됩니다. 이 문제를 방지하려면 어떻게 해야 합니까?**
 
 이 문제는 사이트가 HTTP 리소스와 HTTPS 리소스를 둘 다 가져와 혼합된 콘텐츠를 포함하고 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
 
@@ -195,7 +198,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa
 
 **제게는 여러 도메인이 있습니다. 도메인 중 하나에서는 고급 경험 작성기가 활성화되어야 하지만 다른 도메인은 이 기능이 비활성화되어야 합니다. 이 작업을 어떻게 수행할 수 있습니까?**
 
-항상 [활동 수준의 고급 경험 작성기 옵션](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)을 사용하여 기본 설정을 재정의할 수 있습니다(설정 &gt; 기본 설정).
+항상 [활동 수준의 고급 경험 작성기 옵션](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)을 사용하여 기본 설정을 재정의할 수 있습니다(설정 > 기본 설정).
 
 **이미지를 교환하는 옵션이 보이지 않는 이유는 무엇입니까?**
 
@@ -253,7 +256,7 @@ Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그
 
 **내 QA 프로세스에서 콘텐츠 전달이 발생하지 않는 이유는 무엇입니까?**
 
-사이트에 요소에 대한 다이내믹 ID, 중복 ID 또는 다이내믹 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 기본 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872)를 참조하십시오.
+사이트에 요소에 대한 다이내믹 ID, 중복 ID 또는 다이내믹 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 기본 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기](/help/administrating-target/visual-experience-composer-set-up.md#css)를 참조하십시오.
 
 **원하는 오퍼/경험이 표시되지 않고 대신 다른 활동이 표시되는 이유는 무엇입니까?**
 
