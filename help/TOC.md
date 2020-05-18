@@ -5,7 +5,10 @@ user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+workflow-type: tm+mt
+source-wordcount: '1407'
+ht-degree: 93%
 
 ---
 
@@ -33,9 +36,15 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 + Target 관리 {#administer}
    + [Target 개요 관리](administrating-target/administrating-target.md)
    + [관리자의 첫 단계](administrating-target/start-target.md)
-   + 환경 설정 지정 {#preferences}
-      + [기본 설정](administrating-target/r-target-account-preferences/target-account-preferences.md)
-      + [매출 상승도 평가](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
+   + [Visual Experience Composer 구성](/help/administrating-target/visual-experience-composer-set-up.md)
+   + 보고 {#reporting}
+      + [보고 구성](/help/administrating-target/reporting.md)
+      + [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오
+   + [Dynamic Media Classic 통합](administrating-target/scene7-settings.md)
+   + [구현](/help/administrating-target/implementation.md)
+   + [호스트](administrating-target/hosts.md)
+   + [환경](/help/administrating-target/environments.md)
+   + [응답 토큰](administrating-target/response-tokens.md)
    + 사용자 관리 {#manage-users}
       + [사용자 관리](administrating-target/c-user-management/user-management.md)
       + 사용자 {#users}
@@ -45,9 +54,6 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
          + [Enterprise 사용자 권한](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 권한 구성](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Dynamic Media Classic 통합](administrating-target/scene7-settings.md)
-   + [호스트](administrating-target/hosts.md)
-   + [응답 토큰](administrating-target/response-tokens.md)
 + Target 구현 {#implement-target}
    + [Target 구현 개요](c-implementing-target/implementing-target.md)
    + 구현하기 전에 {#before-implement}
@@ -59,8 +65,8 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
          + [Target 쿠키 삭제](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)
          + [Google Chrome samesite 쿠키 정책](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
-         + [CSP(Content Security Policy) 디렉티브](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [화이트 리스트 타겟 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
+         + [CSP(Content Security Policy) 지시문](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [화이트 리스트 대상 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
       + 데이터를 Target에 가져오는 방법 {#methods}
          + [메서드](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [프로필 API 설정](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -138,7 +144,7 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
       + [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [위치 서비스 사용](/help/c-target-mobile-app/use-location-service.md)
    + 서버 측: Target 구현 {#server-side}
-      + [릴리스 정보 - 대상 서버측 API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [릴리스 노트 - 대상 서버측 API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [릴리스 노트 - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -181,7 +187,7 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
    + A/B 테스트 {#abtest}
       + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
       + [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md)
-      + [10가지 일반적인 A/B 테스트 문제와 이를 방지하는 방법](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [일반적인 A/B 테스트 문제와 이를 방지하는 방법 10가지](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + A/B 테스트 만들기 {#create}
          + [테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
@@ -207,7 +213,7 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
       + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)
       + [자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택](c-activities/t-automated-personalization/experience-as-control.md)
       + [자동화된 개인화 FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [경험 미리 보기 URL 파섹](c-activities/t-automated-personalization/experience-preview.md)
+      + [경험 미리 보기 URL을 사용하여 자동화된 개인화 활동 미리 보기](c-activities/t-automated-personalization/experience-preview.md)
       + [자동화된 개인화 문제 해결](c-activities/t-automated-personalization/ap-trouble.md)
    + 경험 타깃팅 {#experience-targeting}
       + [경험 타깃팅 개요](c-activities/t-experience-target/experience-target.md)
@@ -371,7 +377,7 @@ source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
       + [기준 선택](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + [Recommendations 활동 미리 보기 및 시작](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [Recommendations 활동 미리 보기 및 실행](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [오퍼로서의 Recommendations](c-recommendations/recommendations-as-an-offer.md)
    + FAQ {#recommendations-faq}
       + [권장 사항 FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
