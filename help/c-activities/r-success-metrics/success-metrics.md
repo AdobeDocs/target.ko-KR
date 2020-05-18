@@ -1,10 +1,13 @@
 ---
-keywords: 타게팅;성공;전환 지표;페이지 점수 지표;페이지 보기 횟수 지표;매출 지표;사이트에서 보낸 시간;예상 값;고급 설정;성공 지표
+keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
 description: Adobe Target에서 성공 지표는 보고 및 추적 목적으로 미리 구성됩니다.
 title: Adobe Target의 성공 지표
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '1019'
+ht-degree: 92%
 
 ---
 
@@ -17,13 +20,13 @@ Adobe Target에서 성공 지표는 보고 및 추적 목적으로 미리 구성
 
 테스트 생성을 간소화한다는 [!DNL Target Standard] 목표를 유지하면서, [!DNL Target Classic]에서 수동으로 수행하던 일부 구성이 유지됩니다. 예를 들어, 성공 지표는 최적 옵션으로 미리 구성됩니다.
 
-By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. 전환은 한 번만 카운트되고 반복 전환은 카운트되지 않으며, 방문자에게는 항상 테스트 콘텐츠가 표시됩니다.
+By default, conversion events are set to &quot;Count once and keep the entrant in the activity&quot; in [!DNL Target Standard]. 전환은 한 번만 카운트되고 반복 전환은 카운트되지 않으며, 방문자에게는 항상 테스트 콘텐츠가 표시됩니다.
 
-"증분 카운트 및 사용자를 활동에 유지"로 설정된 수입 지표는 동일한 방문자가 수행한 첫 번째 주문에 대해서만 주문 세부 사항을 기록합니다. 모든 후속 주문은 전환 카운트를 증가시키지만 RPV/AOV/매출에는 매출을 추가하지 않으며 주문 세부 사항 보고서에 포함되지 않습니다.
+&quot;증분 카운트 및 사용자를 활동에 유지&quot;로 설정된 수입 지표는 동일한 방문자가 수행한 첫 번째 주문에 대해서만 주문 세부 사항을 기록합니다. 모든 후속 주문은 전환 카운트를 증가시키지만 RPV/AOV/매출에는 매출을 추가하지 않으며 주문 세부 사항 보고서에 포함되지 않습니다.
 
 >[!NOTE]
 >
->Analytics를 보고 소스 [](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)로 사용하는 활동에 대한 기본 동작은 "Increment count and keep the user in the activity"이며 "Once per entrant"입니다.
+>Analytics를 보고 소스 [](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)로 사용하는 활동에 대한 기본 동작은 &quot;Increment count and keep the user in the activity&quot;와 &quot;Once per entrant&quot;입니다.
 
 다음과 같은 성공 지표를 사용할 수 있습니다.
 
@@ -41,7 +44,7 @@ By default, conversion events are set to "Count once and keep the entrant in the
 
 성공 지표를 선택한 후에 방문자가 목표를 달성하기 위해 수행한 작업을 선택합니다. 예를 들어 전환 지표를 선택하거나, 방문자당 한 번만 카운트되도록 설정한 다음, 방문자가 특정 페이지(또는 페이지 집합)를 볼 때 성공인지, 특정 mbox를 볼 때 성공인지, 특정 링크를 클릭할 때 성공인지를 설정합니다.
 
-전환 예상값 필드가 활성화되어 있으면(페이지 점수 지표에는 사용할 수 없음) 목표값이 표시되지만 기타 지표의 값은 표시되지 않습니다. 이 값을 통해 [!DNL Target]이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 모든 매출액 지표(방문자당 매출액, 평균 주문 가격, 총 판매 수, 주문 수)의 경우 방문자당 매출액이 예상 매출액으로 사용됩니다. 데이터 유형은 통화입니다. 자세한 내용은 [매출 상승도 평가](../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE)를 참조하십시오.
+전환 예상값 필드가 활성화되어 있으면(페이지 점수 지표에는 사용할 수 없음) 목표값이 표시되지만 기타 지표의 값은 표시되지 않습니다. 이 값을 통해 [!DNL Target]이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 모든 매출액 지표(방문자당 매출액, 평균 주문 가격, 총 판매 수, 주문 수)의 경우 방문자당 매출액이 예상 매출액으로 사용됩니다. 데이터 유형은 통화입니다. 자세한 내용은 [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오.
 
 활동에 대해 선택한 성공 지표는 활동에 대한 보고서를 볼 때 보고서 설정에서 사용할 수 있습니다.
 
@@ -84,8 +87,8 @@ By default, conversion events are set to "Count once and keep the entrant in the
 
 이 비디오는 활동 지표를 사용하는 방법을 보여 줍니다.
 
-* "목표" 지표 이해
+* &quot;목표&quot; 지표 이해
 * 변환, 수입 및 참여 지표 이해 및 빌드
 * 클릭 추적 지표 빌드
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
