@@ -1,10 +1,13 @@
 ---
-keywords: 타겟 지정
+keywords: Targeting
 description: 활동 URL은 경험 타깃팅 활동에 사용되고 활동을 디자인할 때 Adobe Target VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기에서 열리는 페이지를 결정합니다.
 title: 활동 URL
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +22,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    >
    >[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서, [!DNL `https://www.adobe.com`]과 [!DNL `http://www.adobe.com`]은 모두 같습니다.
    >
-   >기본적으로 VEC 또는 양식 기반 경험 작성기는 [계정 환경 설정](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)에 지정된 페이지에 열립니다. 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
    >
    >Target Standard JavaScript 코드가 포함되지 않은 사이트 URL을 지정하면 페이지 요소를 선택할 수 없습니다.
 
@@ -43,4 +46,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * mbox 매개 변수
    추가 규칙은 AND 또는 OR을 사용하여 활동 URL에 결합할 수 있습니다. 추가하는 모든 규칙은 AND를 사용하여 서로 평가됩니다.
 
-1. 완료되면 **[!UICONTROL 저장]을 클릭합니다.**
+1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
