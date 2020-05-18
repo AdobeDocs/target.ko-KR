@@ -5,9 +5,9 @@ title: 이전 릴리스에 대한 릴리스 노트
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
 workflow-type: tm+mt
-source-wordcount: '29277'
+source-wordcount: '29260'
 ht-degree: 92%
 
 ---
@@ -449,7 +449,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동에 대한 보고 소스 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">설정</span> &gt; <span class="wintitle">환경 설정</span>에서 활동에 대한 보고 소스인 <span class="keyword">Target</span> 또는 <span class="keyword">Adobe Analytics</span>를 선택할 수 있습니다 . 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다. </p> <p>이 릴리스부터 <span class="wintitle">환경 설정</span> 또는 활동별로 보고 소스를 선택할 때 알아두어야 하는 몇 가지 중요한 작업 과정 고려 사항이 있습니다. </p> <p><a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">환경 설정</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p><span class="wintitle">설정</span> &gt; <span class="wintitle">환경 설정</span>에서 활동에 대한 보고 소스인 <span class="keyword">Target</span> 또는 <span class="keyword">Adobe Analytics</span>를 선택할 수 있습니다 . 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다. </p> <p>이 릴리스부터 <span class="wintitle">환경 설정</span> 또는 활동별로 보고 소스를 선택할 때 알아두어야 하는 몇 가지 중요한 작업 과정 고려 사항이 있습니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3391,7 +3391,7 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 매출 리프트 예측 </td> 
-   <td colname="col2"> <p>Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측할 수 있습니다. </p> <p>이러한 예측은 우승 경험에 의해 얻는 증가 리프트와 테스트 수명 동안 총 방문자 수를 계산하고, 테스트 중에 나타나는 트렌드가 계속된다고 가정할 경우 모든 방문자가 우승하는 경험을 보게 될 때 달성할 수 있는 리프트를 표시합니다. </p> <p> 예측 정확도는 현재 트렌드가 계속될 경우에 예측되는 수치를 비롯한 여러 요인에 따라 좌우됩니다. 이러한 값은 이전 성능을 기반으로 하는 예측값이며 재무 지침으로는 사용하지 않아야 합니다. 수치 결과는 다를 수 있습니다. </p> <p><a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local">매출 상승도 평가</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측할 수 있습니다. </p> <p>이러한 예측은 우승 경험에 의해 얻는 증가 리프트와 테스트 수명 동안 총 방문자 수를 계산하고, 테스트 중에 나타나는 트렌드가 계속된다고 가정할 경우 모든 방문자가 우승하는 경험을 보게 될 때 달성할 수 있는 리프트를 표시합니다. </p> <p> 예측 정확도는 현재 트렌드가 계속될 경우에 예측되는 수치를 비롯한 여러 요인에 따라 좌우됩니다. 이러한 값은 이전 성능을 기반으로 하는 예측값이며 재무 지침으로는 사용하지 않아야 합니다. 수치 결과는 다를 수 있습니다. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> 실행 취소/다시 실행 </td> 
