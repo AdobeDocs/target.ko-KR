@@ -1,12 +1,15 @@
 ---
-keywords: 구현;구현하기;설정하기;설정
+keywords: implement;implementing;setting up;setup
 description: 환경 설정, 구현, 사용자 관리, 속성, Scene7 설정, 호스트 관리 및 응답 토큰을 포함하여 Adobe Target을 설정하는 데 도움이 되는 정보입니다.
 title: Adobe Target 관리
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 67%
 
 ---
 
@@ -15,14 +18,16 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 환경 설정, 구현, 사용자 관리, 속성, Scene7 설정, 호스트 관리 및 응답 토큰을 포함하여 Adobe Target을 설정하는 데 도움이 되는 정보입니다.
 
-[!UICONTROL 설정] 메뉴 항목에 액세스하려면 맨 위의 메뉴 막대에서 **[!UICONTROL 설정]을 클릭한 다음 왼쪽에서 원하는 탭을 클릭하십시오.**
+To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
-* [기본 설정](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)
-* [구현](/help/c-implementing-target/implementing-target.md)
-* [사용자](/help/administrating-target/c-user-management/user-management.md)
-* [속성](/help/administrating-target/c-user-management/property-channel/property-channel.md)
+* [시각적 경험 작성기](/help/administrating-target/visual-experience-composer-set-up.md)
+* [보고](/help/administrating-target/reporting.md)
 * [Scene7 설정](/help/administrating-target/scene7-settings.md)
+* [구현](/help/c-implementing-target/implementing-target.md)
+* [속성](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [호스트](/help/administrating-target/hosts.md)
+* [환경](/help/administrating-target/environments.md)
 * [응답 토큰](/help/administrating-target/response-tokens.md)
+* [사용자](/help/administrating-target/c-user-management/user-management.md)
 
-![Adobe Target 설정 메뉴](/help/administrating-target/assets/setup_menu_new.png)
+![Adobe Target 관리 메뉴](/help/administrating-target/assets/administration.png)
