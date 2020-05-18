@@ -1,11 +1,14 @@
 ---
 description: Target을 사용할 수 있는 페이지에서 XT(경험 타깃팅) 활동을 만들고 Adobe Target 내에서 해당 페이지의 부분을 수정하려면 시각적 경험 작성기를 사용하십시오.
 title: 경험 타깃팅 활동 만들기
-subtopic: 다변량 테스트
+subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 97%
 
 ---
 
@@ -22,9 +25,9 @@ Target을 사용할 수 있는 페이지에서 XT([!UICONTROL 경험 타깃팅])
 
 **XT 활동을 만들려면 다음을 수행하십시오.**
 
-1. [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** &gt; **[!UICONTROL 경험 타깃팅]**&#x200B;을 클릭합니다.
+1. From the [!UICONTROL Activities] list, click **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
 
-   ![활동 만들기 &gt; 경험 타깃팅](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![활동 만들기 > 경험 타깃팅](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
@@ -50,7 +53,7 @@ Target을 사용할 수 있는 페이지에서 XT([!UICONTROL 경험 타깃팅])
 
 1. [활동 URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)을 지정한 후, **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
-   계정이 [기본 URL로 구성](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)된 경우 기본적으로 해당 URL이 표시됩니다. 필요한 경우 기본값에서 다른 URL로 변경할 수 있습니다.
+   계정이 [기본 URL로 구성](/help/administrating-target/visual-experience-composer-set-up.md)된 경우 기본적으로 해당 URL이 표시됩니다. 필요한 경우 기본값에서 다른 URL로 변경할 수 있습니다.
 
    VEC가 열리고 URL에 지정된 페이지가 표시됩니다.
 
