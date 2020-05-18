@@ -1,18 +1,21 @@
 ---
 description: Target Standard는 콘텐츠 라이브러리에서 DAM(디지털 자산 관리)을 제공하기 위해 Adobe Dynamic Media Classic(이전 Scene7)과 통합될 수 있습니다.
-title: Dynamic Media Classic 통합
-subtopic: 시작하기
+title: Dynamic Media Classic 통합 구성 통합
+subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '434'
+ht-degree: 90%
 
 ---
 
 
 # Dynamic Media Classic 통합{#scene-settings}
 
-Target Standard는 콘텐츠 라이브러리에서 DAM(디지털 자산 관리)을 제공하기 위해 Adobe Dynamic Media Classic(이전 Scene7)과 통합될 수 있습니다.
+Target을 Adobe Dynamic Media Classic(이전 Scene7)과 통합하여 콘텐츠 라이브러리에서 DAM(Digital Asset Management)을 제공할 수 있습니다.
 
 >[!NOTE]
 >
@@ -26,9 +29,10 @@ Target Standard는 콘텐츠 라이브러리에서 DAM(디지털 자산 관리)�
 
 Dynamic Media 이미지의 스토리지 URL과 최종 공개 URL은 다르며, 이러한 경우에는 전달이 작동하지 않으므로 이미지의 스토리지 링크를 사용하여 오퍼를 만들지 않아야 합니다. 도움말 설명서에 설명된 대로 이미지 오퍼 기능을 사용해야 합니다.
 
-Dynamic Media Classic(Scene 7)과 통합하려면 다음 정보를 지정해야 합니다.
+Dynamic Media Classic(Scene7)과 통합하려면 다음 정보를 지정해야 합니다.
 
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL Scene7 설정]**&#x200B;을 클릭합니다.
+1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+
 1. 다음 Dynamic Media Classic 계정 정보를 지정합니다.
 
    **지역**: Dynamic Media 계정의 지역: 북미, 유럽 또는 아시아.
@@ -38,4 +42,5 @@ Dynamic Media Classic(Scene 7)과 통합하려면 다음 정보를 지정해야 
    **이메일 주소:** Dynamic Media Classic(Scene7)에 로그인하는 데 사용되는 이메일 주소입니다.
 
    **암호:** Dynamic Media Classic(Scene 7)에 로그인하는 데 사용되는 암호입니다.
+
 1. **[!UICONTROL 제출을 클릭합니다]**.
