@@ -5,7 +5,10 @@ title: 지표 설정
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '312'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +34,7 @@ A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기�
 
    사용 가능한 설정은 사용 중인 성공 지표에 따라 다릅니다.
 
-   [!UICONTROL 전환 예상값] 필드가 활성화되어 있으면(페이지 점수 지표에는 사용할 수 없음) 목표값이 표시됩니다. 이 값을 통해 Target이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 데이터 유형은 통화입니다. 이 필드는 사용자가 목표를 충족하기 위해 수행한 작업을 지정한 후에 점진적으로 표시됩니다. 자세한 내용은 [매출 상승도 평가](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE)를 참조하십시오.
+   [!UICONTROL 전환 예상값] 필드가 활성화되어 있으면(페이지 점수 지표에는 사용할 수 없음) 목표값이 표시됩니다. 이 값을 통해 Target이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 데이터 유형은 통화입니다. 이 필드는 사용자가 목표를 충족하기 위해 수행한 작업을 지정한 후에 점진적으로 표시됩니다. 자세한 내용은 [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오.
 
    예상한 데이터를 가져오기 위해서는 성공 지표를 올바르게 구성해야 합니다.
 
@@ -53,7 +56,7 @@ A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기�
 | - | 빼기 |
 | @ | 로그인 |
 
-## 교육 비디오: 활동 지표(7:43) 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 활동 지표(7:43) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에는 성공 지표 사용에 대한 정보가 포함되어 있습니다.
 
