@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
 description: 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
 title: 호스트
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 111a960201e14c5283b8c7212dffac9fde9c49e9
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
 workflow-type: tm+mt
-source-wordcount: '1823'
-ht-degree: 92%
+source-wordcount: '1179'
+ht-degree: 66%
 
 ---
 
@@ -17,32 +17,30 @@ ht-degree: 92%
 
 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
 
-호스트 관리의 기본 목적은 비활성화 상태 컨텐츠가 실수로 웹 사이트에 나타나지 않도록 하는 것입니다. 또한 호스트 관리를 사용하면 환경별로 보고서 데이터를 구별할 수 있습니다.
+호스트 관리의 기본 목적은 비활성화 상태 컨텐츠가 실수로 웹 사이트에 나타나지 않도록 하는 것입니다. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 호스트는 프로젝트의 모든 단계에서 컨텐츠를 제공하는 웹 서버(또는 웹 도메인)입니다. mbox를 제공하는 모든 호스트가 인식됩니다.
 
-관리하기 쉽도록 호스트는 환경으로 번들됩니다. 예를 들어 수십 개의 호스트를 두세 개의 환경으로 그룹화할 수 있습니다. 사전 설정된 환경에는 프로덕션, 스테이징 및 개발이 포함됩니다. 필요한 경우 새 환경을 추가하거나 환경의 이름을 바꿀 수 있습니다.
+관리하기 쉽도록 호스트는 환경으로 번들됩니다. 예를 들어 수십 개의 호스트를 두세 개의 환경으로 그룹화할 수 있습니다. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 필요한 경우 새 환경을 추가하거나 환경의 이름을 바꿀 수 있습니다.
 
-한 환경인 기본 환경은 이름이 사전에 지정된 프로덕션입니다. 이 기본 환경은 이름을 변경하는 경우에도 삭제할 수 없습니다. [!DNL Target]은 이 위치에서 승인된 최종 활동 및 테스트를 제공한다고 가정합니다.
+One environment, the default environment, is pre-named [!UICONTROL Production]. 이 기본 환경은 이름을 변경하는 경우에도 삭제할 수 없습니다. [!DNL Target]은 이 위치에서 승인된 최종 활동 및 테스트를 제공한다고 가정합니다.
 
-새 웹 사이트나 도메인에서 mbox 요청을 받을 때 이러한 새 도메인은 항상 프로덕션 환경에 표시됩니다. 프로덕션 환경의 설정은 변경할 수 없으므로 알 수 없는 사이트나 새 사이트는 활성 상태의 준비된 컨텐츠만 보게 됩니다. 활동을 활성화하기 전에 호스트 관리를 사용하면 테스트, 스테이징 및 개발 환경에서 새 활동과 컨텐츠의 품질을 쉽게 보장할 수도 있습니다.
+When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 활동을 활성화하기 전에 호스트 관리를 사용하면 테스트, 스테이징 및 개발 환경에서 새 활동과 컨텐츠의 품질을 쉽게 보장할 수도 있습니다.
 
-Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으므로 새 서버나 도메인이 들어오면 자동으로 작동합니다(허용 목록이나 블랙리스트를 설정하지 않은 경우). 또한 모르거나 예상할 수 없는 여러 도메인에서 광고 테스트가 활성화됩니다.
+[!DNL Target] 은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으므로 새 서버나 도메인이 들어오면 자동으로 작동합니다(화이트리스트 또는 블랙 리스트를 설정하지 않은 경우). 또한 모르거나 예상할 수 없는 여러 도메인에서 광고 테스트가 활성화됩니다.
 
-호스트 및 환경을 관리하려면 **[!UICONTROL 설정]** > **[!UICONTROL 호스트]**&#x200B;를 클릭하십시오.
+호스트를 관리하려면 **[!UICONTROL 관리]** > **[!UICONTROL 호스트를 클릭합니다]**.
 
 ![](assets/hosts_list.png)
 
 ## Recognizing hosts {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 
-호스트를 인식하고 이 호스트를 호스트 목록에 추가하기 위해 [!DNL Target]에 대해 충족해야 하는 조건들에 대한 정보입니다.
-
-호스트를 인식하려면 다음 조건을 충족해야 합니다.
+호스트를 인식하고 [!UICONTROL 호스트] 목록에 추가하려면 다음 조건을 충족해야 합니다.
 
 * 호스트에 적어도 하나의 mbox가 있어야 합니다.
 * 호스트의 페이지에 다음 항목이 있어야 합니다.
 
-   * 정확한 [!DNL mbox.js] 참조
+   * 정확한 at.js 또는 mbox.js 참조
    * mbox 또는 자동 생성된 글로벌 mbox 호출
 
 * mbox가 있는 페이지는 브라우저에서 봐야 합니다.
@@ -55,59 +53,22 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 
 호스트가 [!UICONTROL 호스트] 목록에 추가되면 호스트가 인식되는지 확인하십시오.
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 호스트]**&#x200B;를 클릭합니다.
+1. 관리 **** > **[!UICONTROL 호스트를 클릭합니다]**.
 1. 해당 호스트가 나열되지 않으면 브라우저를 새로 고치십시오.
-기본적으로 새로 인식된 호스트는 프로덕션 환경에 배치됩니다. 이러한 호스트에서는 비활성 상태 활동을 보는 것이 허용되지 않으므로 이 환경은 가장 안전한 환경입니다.
-1. (조건부) 호스트를 개발 또는 스테이징 환경으로 이동하십시오.
+
+   By default, a newly recognized host is placed in the [!UICONTROL Production] environment. 이러한 호스트에서는 비활성 상태 활동을 보는 것이 허용되지 않으므로 이 환경은 가장 안전한 환경입니다.
+
+1. (조건부) 이동 아이콘( ![이동 아이콘](/help/administrating-target/assets/icon-move.png) )을 클릭하여 호스트를 [!UICONTROL 개발], 스테이징 [!UICONTROL 또는]기타 환경으로이동합니다.
 
 >[!NOTE]
 >
->프로덕션 환경은 이름을 바꾸더라도 삭제할 수 없습니다. 이 위치에서 활성 상태 최종 활동 및 테스트를 제공한다고 가정합니다. 기본 환경은 비활성 상태 캠페인을 보도록 허용하지 않습니다.
+>The [!UICONTROL Production] environment cannot be deleted, even if you rename it. 이 위치에서 활성 상태 최종 활동 및 테스트를 제공한다고 가정합니다. 기본 환경은 비활성 상태 캠페인을 보도록 허용하지 않습니다.
 
-## Manage hosts and environments {#concept_90573F5A52E04600A8C3C5897880C10F}
+## Sort or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
-보고용 기본 호스트를 설정하고, 허용 목록을 작성하고, 환경 이름을 변경하고, 호스트를 다른 환경으로 이동하고, 호스트나 환경을 삭제하는 등 호스트 및 환경(호스트 그룹)을 관리하는 데 도움이 되는 정보입니다.
+To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name], [!UICONTROL Environment], or [!UICONTROL Last Requested]) to sort the list in ascending or descending order.
 
-
-[!UICONTROL 호스트] 목록에 액세스하려면 **[!UICONTROL 설정]** > **[!UICONTROL 호스트]**&#x200B;를 클릭하십시오.
-
-![](assets/hosts_list.png)
-
-## Filter, sort, or search the Hosts list {#section_068B23C9D8224EB78BC3B7C8580251B0}
-
-[!UICONTROL 호스트] 목록을 환경별로 필터링하려면 **[!UICONTROL 모두]** 드롭다운 목록을 클릭한 다음, 원하는 환경(프로덕션, 스테이징, 개발 또는 작성한 사용자 지정 환경)을 선택하십시오.
-
-[!UICONTROL 호스트] 목록을 정렬하려면 원하는 열 헤더(이름, 환경 또는 마지막으로 요청한 날짜)를 클릭하여 목록을 오름차순 또는 내림차순으로 정렬하십시오.
-
-[!UICONTROL 호스트] 목록을 검색하려면 검색 상자에 검색어를 입력하십시오.
-
-## Select multiple hosts {#section_EF3B458475184B7EA997C3559714397C}
-
-여러 호스트를 선택하려면 원하는 호스트에 대한 [!UICONTROL 이름] 열 옆에 있는 확인란을 선택하십시오. 그런 다음 선택한 모든 호스트를 이동하거나 삭제할 수 있습니다.
-
-## Create an environment {#section_32097D0993724DF3A202D164D3F18674}
-
-1. [!UICONTROL 호스트] 목록에서 **[!UICONTROL 환경]** 탭을 클릭합니다.
-1. **[!UICONTROL 환경 만들기를 클릭합니다]**.
-1. 환경에 대해 수사적 이름을 지정합니다.
-1. 환경에 대해 원하는 활성 모드를 [!UICONTROL 활성 활동]과 [!UICONTROL 활성 및 비활성 활동] 중에서 지정합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-## Set the default host for reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
-
-모든 활동 보고서의 기본값으로 사용할 환경을 선택할 수 있습니다.
-
-프로덕션을 기본값으로 사용하는 경우 모든 알 수 없는 호스트가 여기에 자동으로 추가되고 여기에서 나온 보고서 데이터가 기본 보고서 보기에 포함됩니다. 대신 &quot;깨끗한&quot; 환경을 작성하면 핵심 사이트/도메인만 포함됩니다.
-
-보고할 기본 환경을 설정하려면 다음을 수행하십시오.
-
-1. [!UICONTROL 호스트] 목록에서 **[!UICONTROL 설정]** 탭을 클릭합니다.
-1. **[!UICONTROL 환경 설정]** 드롭다운 목록에서 기본 호스트를 선택합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
->[!NOTE]
->
->[!DNL Recommendations] 사용자는 호스트가 호스트 그룹을 전환할 경우 자신들의 행동 데이터베이스와 제품 데이터베이스를 다시 구축해야 합니다.
+To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
 ## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
@@ -115,9 +76,13 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 
 허용 목록을 만들려면 다음을 수행하십시오.
 
-1. [!UICONTROL 호스트] 목록에서 **[!UICONTROL 설정]** 탭을 클릭합니다.
-1. **[!UICONTROL 컨텐츠 전달에 인증된 호스트를 사용합니다]** 확인란을 선택합니다.
-1. **[!UICONTROL 호스트에 다음이 포함됨]** 상자에서 원하는 호스트를 추가합니다.
+1. 호스트 [!UICONTROL 목록에서 호스트] 권한 **[!UICONTROL 을 클릭합니다]**.
+1. 컨텐츠 **[!UICONTROL 전달에 대해 인증된 호스트 활성화 전환을]** 활성화합니다.
+1. Add the desired hosts in the **[!UICONTROL Host contains]** box, as desired.
+
+   여러 호스트가 각각 고유한 행에 나열될 수 있습니다.
+
+1. Add the desired hosts in the **[!UICONTROL Host does not contains]** box, as desired.
 
    여러 호스트가 각각 고유한 행에 나열될 수 있습니다.
 
@@ -131,49 +96,22 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 >
 >허용 목록은 환경보다 우선합니다. 허용 목록 기능을 사용하기 전에 모든 호스트를 지워야 합니다. 그래야 허용 목록에서 허용되는 호스트만 호스트 목록에 표시됩니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 
-다른 사이트의 도메인이 환경에 표시되는 경우가 있습니다. 도메인이 mbox.js를 호출하면 목록에 표시됩니다. 예를 들어 웹 페이지 중 하나를 서버로 복사하면 해당 도메인이 환경에 표시됩니다. 스파이더 엔진, 언어 번역기 사이트 또는 로컬 디스크 드라이브에서 도메인을 볼 수도 있습니다.
+다른 사이트의 도메인이 환경에 표시되는 경우가 있습니다. 도메인이 at.js 또는 mbox.js를 호출하는 경우 목록에 나타납니다. 예를 들어 웹 페이지 중 하나를 서버로 복사하면 해당 도메인이 환경에 표시됩니다. 스파이더 엔진, 언어 번역기 사이트 또는 로컬 디스크 드라이브에서 도메인을 볼 수도 있습니다.
 
-`mboxHost`가 API 호출에서 전달되는 경우 전달된 환경에 대해 전환이 기록됩니다. 환경이 전달되지 않으면 호출에 있는 호스트의 기본값이 프로덕션으로 설정됩니다.
+`mboxHost`가 API 호출에서 전달되는 경우 전달된 환경에 대해 전환이 기록됩니다. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 [!DNL Target]호스트에 다음이 제외됨[!UICONTROL  상자에서 원하는 호스트를 추가하여 mbox 호출을 ]에 전송할 수 없는 호스트(도메인)를 지정하는 블랙리스트를 만들 수도 있습니다.
-
-## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
-
-1. [!UICONTROL 호스트] 목록에서 **[!UICONTROL 환경]** 탭을 클릭합니다.
-1. 원하는 환경을 마우스로 가리킨 다음, **[!UICONTROL 편집]** 아이콘을 클릭합니다.
-1. 환경 이름을 변경합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-## Move a host to a different environment {#section_9F52549958BD485EB74FE78C32773D2A}
-
-1. [!UICONTROL 호스트] 목록에서 이동할 호스트를 마우스로 가리킵니다.
-1. **[!UICONTROL 이동]** 아이콘을 클릭합니다.
-1. 드롭다운 목록에서 원하는 환경을 선택한 다음, 확인 표시 아이콘을 클릭합니다.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 더 이상 필요하지 않은 호스트를 삭제할 수 있습니다.
 
-1. [!UICONTROL 호스트] 목록에서 삭제할 호스트를 마우스로 가리킵니다.
-1. **[!UICONTROL 삭제]** 아이콘을 클릭합니다.
+1. From the [!UICONTROL Hosts] list, click the **[!UICONTROL Delete]** icon.
 1. **[!UICONTROL 삭제]**&#x200B;를 클릭하여 삭제를 확인합니다.
 
 >[!NOTE]
 >
 >호스트에서 mbox가 있는 페이지로 이동하면 호스트가 다시 나열됩니다.
-
-## Delete an environment {#section_737F8869612047868D03FC755B1223D3}
-
-더 이상 필요하지 않은 환경을 삭제할 수 있습니다.
-
-1. [!UICONTROL 호스트] 목록에서 **[!UICONTROL 환경]** 탭을 클릭합니다.
-1. 삭제할 환경을 마우스로 가리킵니다.
-1. **[!UICONTROL 삭제]** 아이콘을 클릭합니다.
-1. **[!UICONTROL 삭제]**&#x200B;를 클릭하여 삭제를 확인합니다.
-
->[!NOTE]
->
->프로덕션 환경은 삭제할 수 없지만 이름을 바꿀 수는 있습니다.
 
 ## 호스트 문제 해결 {#concept_B3D7583FA4BB480382CC7453529FE1B7}
 
@@ -184,7 +122,7 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 **호스트가 계정의 mbox 목록에 표시되지 않습니다.**
 
 * 브라우저에서 [!UICONTROL 호스트] 페이지를 새로 고치십시오.
-* [!DNL mbox.js] 참조를 포함하는 mbox 코드가 올바른지 확인하십시오.
+* at.js 또는 mbox.js 참조를 포함하여 mbox 코드가 올바른지 확인합니다.
 * 호스트의 mbox 중 하나를 탐색하십시오. 호스트의 mbox가 브라우저에서 하나도 렌더링된 적이 없을 수 있습니다.
 
 **[!UICONTROL 호스트]목록에 임의 도메인이나 알 수 없는 도메인이 표시됩니다.**
@@ -194,27 +132,3 @@ Target은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으�
 **내 mbox 호출이 /* no display - unauthorized mbox host */를 반환합니다.**
 
 허가되지 않은 호스트에서 mbox 호출이 수행되면 해당 호출은 /* no display - unauthorized mbox host */로 응답합니다.
-
-## 권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링
-
-![Premium 배지](/help/assets/premium.png)
-
-선택한 환경(호스트 그룹)에 대한 권장 사항 컬렉션 및 제외 컨텐츠를 미리 볼 수 있습니다.
-
->[!NOTE]
->권장 사항 활동은 Target Premium 솔루션의 일부로 사용할 수 있습니다. 이 기능은 Target Premium 라이센스가 없는 Target Standard에서는 사용할 수 없습니다.
-
-호스트 그룹을 사용하여 카탈로그에 있는 사용 가능한 항목을 다양한 용도로 구분할 수 있습니다. 예를 들어 개발 및 프로덕션 환경, 다양한 브랜드 또는 다양한 지역용으로 호스트 그룹을 사용할 수 있습니다. 기본적으로 카탈로그 검색, 컬렉션 및 제외의 미리 보기 결과는 기본 호스트 그룹을 기반으로 합니다. (환경 필터를 사용하여 다른 결과를 미리 볼 호스트 그룹을 선택할 수도 있습니다.) 기본적으로 항목을 만들거나 업데이트할 때 환경 ID를 지정하지 않는 한, 새로 추가된 항목은 모든 호스트 그룹에서 사용할 수 있습니다. 전달되는 권장 사항은 요청에 지정된 호스트 그룹에 따라 다릅니다.
-
-제품이 보이지 않는다면 올바른 호스트 그룹을 사용하고 있는지 확인하십시오. 예를 들어, 스테이징 환경을 사용하도록 권장 사항을 설정하고 호스트 그룹을 스테이징으로 설정하는 경우, 제품을 표시할 스테이징 환경에서 컬렉션을 다시 만들어야 합니다. 각 환경에서 사용 가능한 제품을 확인하려면 각 환경에서 카탈로그 검색을 사용하십시오. 선택한 환경(호스트 그룹)에 대한 권장 사항 컬렉션 및 제외 컨텐츠를 미리 볼 수도 있습니다.
-
->[!NOTE]
->선택한 환경을 변경한 후 검색을 클릭하여 반환된 결과를 업데이트해야 합니다.
-
-환경 필터는 Target UI의 다음 위치에서 사용할 수 있습니다.
-
-* 카탈로그 검색([!UICONTROL 권장 사항 > 카탈로그 검색])
-* 컬렉션 만들기 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 새로 만들기])
-* 컬렉션 업데이트 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 편집])
-* 제외 만들기 대화 상자([!UICONTROL 권장 사항 > 제외 > 새로 만들기])
-* 제외 업데이트 대화 상자([!UICONTROL 권장 사항 > 제외 > 편집])
