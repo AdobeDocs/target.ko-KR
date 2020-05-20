@@ -5,9 +5,9 @@ user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: fea8a9a7655507f53e5146f401a0113bcb4e90b0
+source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
 workflow-type: tm+mt
-source-wordcount: '1407'
+source-wordcount: '1404'
 ht-degree: 93%
 
 ---
@@ -256,7 +256,6 @@ ht-degree: 93%
       + [활동 QA 및 서버 측 전달 사용](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + 대상자 {#audiences}
    + [대상 개요](c-target/target.md)
-   + [타깃팅이 작동하는 방법](c-target/target-how-target-works.md)
    + 대상자 만들기 {#create-audiences}
       + [선택 사항에서](c-target/c-audiences/audiences.md)
       + [Target에서 대상 작성](c-target/c-audiences/create-audience.md)
