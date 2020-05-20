@@ -5,10 +5,10 @@ title: 호스트
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '1179'
-ht-degree: 66%
+source-wordcount: '1232'
+ht-degree: 63%
 
 ---
 
@@ -101,6 +101,10 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 `mboxHost`가 API 호출에서 전달되는 경우 전달된 환경에 대해 전환이 기록됩니다. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
 [!DNL Target]호스트에 다음이 제외됨[!UICONTROL  상자에서 원하는 호스트를 추가하여 mbox 호출을 ]에 전송할 수 없는 호스트(도메인)를 지정하는 블랙리스트를 만들 수도 있습니다.
+
+>[!NOTE]
+>
+>승인된 호스트 목록은 mbox 호스트 및 기본 리디렉션 호스트 모두에 사용되므로 Adobe Target Javascript SDK(at.js) *AND* ubox 기본 리디렉션 url에 사용된 모든 도메인을 사용하도록 승인된 기존 도메인을 모두 추가해야 합니다. 나중에 허용 목록에 유사한 새 도메인을 추가해야 합니다.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
