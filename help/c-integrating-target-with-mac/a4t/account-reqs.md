@@ -1,12 +1,15 @@
 ---
-keywords: Analytics를 보고 소스로 사용;a4t;A4T
+keywords: Analytics as reporting source;a4t;A4T
 description: Adobe Target(A4T)에서 Adobe Analytics 기반 활동을 만들기 위한 사용자 계정 요구 사항입니다.
 title: 사용자 권한 요구 사항
 solution: Target,Analytics
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 63%
 
 ---
 
@@ -33,8 +36,7 @@ For more information, see [Organizations and account linking](https://docs.adobe
 
 하나 이상의 [!DNL Experience Cloud] 그룹의 구성원으로서 [!DNL Analytics] 및 [!DNL Target]에 액세스할 수 있어야 합니다.
 
-자세한 내용은 Experience [Cloud 사용자 및 제품](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)관리를 참조하십시오.
-
+자세한 내용은 Experience [Cloud 사용자 및 제품 관리를 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -42,13 +44,13 @@ For more information, see [Organizations and account linking](https://docs.adobe
 
 ### Analytics 보고서 세트에 대한 액세스 구성
 
-Analytics 기반 활동에 대한 보고서를 만들거나 보려면 **[!UICONTROL 모든 보고서 액세스]** 그룹의 구성원이거나, 사용할 보고서 세트에 있는 하나 이상의 보고서에 액세스할 수 있는 그룹의 구성원이어야 합니다. 보고서를 볼 수 없는 경우 이러한 그룹 중 하나에 소속된 구성원인지 확인하십시오.
+Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. 보고서를 볼 수 없는 경우 이러한 그룹 중 하나에 소속된 구성원인지 확인하십시오.
 
-자세한 내용은 제품 [프로필 및 그룹을](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF)참조하십시오.
+자세한 내용은 [제품 프로필 및 그룹을 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
 ### 웹 서비스 액세스 그룹에 대한 액세스 구성
 
-[!DNL Adobe Analytics]를 Target의 [!DNL Target]에 대한 보고 소스로 사용하려면 [!DNL Analytics]의 웹 서비스 액세스 그룹에 속해 있어야 합니다.
+[!DNL Analytics]를 Target의 [!DNL Target]에 대한 보고 소스로 사용하려면 [!DNL Analytics]의 웹 서비스 액세스 그룹에 속해 있어야 합니다.
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
