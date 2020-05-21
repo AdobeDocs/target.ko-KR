@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '860'
 ht-degree: 36%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 21년 5월 | [화이트 리스트 대상 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 목록 `mboxedge30.tt.omtrdc.net` 에 추가되었습니다. |
 | 20년 5월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 Target Standard/Premium 20.6.1(2020년 6월 10일) 릴리스에 대한 정보가 추가되었습니다. |
 |  | [호스트](/help/administrating-target/hosts.md) | &quot;보안 모범 사례&quot; 섹션에 메모를 추가했습니다. |
 | 14년 5월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 프로필 배치 상태 API v2 변경 사항에 대한 정보가 추가되었습니다. |
