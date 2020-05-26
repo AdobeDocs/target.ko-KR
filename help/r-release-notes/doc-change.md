@@ -5,10 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
+source-git-commit: 2167de7512e16a7b91aa276baa0cfdc35dcafeaa
 workflow-type: tm+mt
-source-wordcount: '860'
-ht-degree: 36%
+source-wordcount: '895'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 26년 5월 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | 다음 정보가 추가되었습니다. &quot;스크립트를 비활성화한 후에도 매개 변수가 프로필에 남아 있습니다. 프로필에는 활동 대상에서 사용되는 매개 변수가 이미 포함되어 있는 사용자는 해당 활동에 대한 자격을 얻게 됩니다.&quot; |
 | 21년 5월 | [화이트 리스트 대상 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 목록 `mboxedge30.tt.omtrdc.net` 에 추가되었습니다. |
 | 20년 5월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 Target Standard/Premium 20.6.1(2020년 6월 10일) 릴리스에 대한 정보가 추가되었습니다. |
 |  | [호스트](/help/administrating-target/hosts.md) | &quot;보안 모범 사례&quot; 섹션에 메모를 추가했습니다. |
