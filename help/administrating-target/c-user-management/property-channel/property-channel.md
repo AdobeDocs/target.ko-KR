@@ -5,78 +5,79 @@ title: Enterprise 사용자 권한
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 207ff5d6010bf5006d31945f7a35c35860c3646c
+source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+workflow-type: tm+mt
+source-wordcount: '2899'
+ht-degree: 85%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 엔터프라이즈 사용자 권한{#enterprise-user-permissions}
 
-엔터프라이즈 사용자 권한은 Target에 대한 엔터프라이즈 수준의 사용자 권한을 공식적으로 관리하는 수단입니다. Target에 사용자를 추가하고, 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 공간을 만듭니다. 사용자에게 관찰자, 편집자 또는 승인자 역할을 할당할 수 있습니다.
+Enterprise user permissions is a means of formal administering enterprise-wide user access to [!DNL Target]. Add users to [!DNL Target], assign permissions based on their roles, and create workspaces for teams based on different departments, global locations, channels, and other logical groupings. You can assign users the roles of [!UICONTROL Observer], [!UICONTROL Editor], or [!UICONTROL Approver].
 
-## 엔터프라이즈 사용자 권한에 대한 액세스 권한 보유 여부 확인
+## 엔터프라이즈 사용자 권한에 대한 액세스 권한 여부 확인
 
 >[!NOTE]
 >
->속성 및 권한 기능은 Target Premium 솔루션의 일부로 사용할 수 있습니다. 이 기능은 Target Premium 라이센스가 없는 Target Standard에서는 사용할 수 없습니다.
+>속성 및 권한 기능은  Premium 솔루션의 일부로 사용할 수 있습니다. [!DNL Target] 이 기능은 [!DNL Target] Premium 라이센스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
 >
->Target 구현에는 임의 버전의 at.js 또는 mbox.js를 사용할 수 있습니다.
+>Your [!DNL Target] implementation can be using any version of at.js or mbox.js.
 
- UI의 맨 위에서 [!UICONTROL 설정] 링크를 클릭하여 조직에 Standard 라이센스나 Premium 라이센스가 있는지 여부를 알 수 있습니다.[!DNL Target]
+You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]고객&#x200B;**:[!UICONTROL 사용자]탭([!UICONTROL 설정 > 사용자][!DNL Target Standard])이 표시된다면, 조직에 라이센스가 있는 것입니다.[!DNL Target Standard]고객은[사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md)의 지침에 따라 Adobe Admin Console에서 사용자를 추가하고 권한을 지정해야 합니다.
+* **[!DNL Target Standard]고객&#x200B;**: [[!UICONTROL 사용자]] 탭([관리][!UICONTROL > [사용자]]가[!UICONTROL 아니라)이 표시되는 경우]조직의[!DNL Target Standard]라이센스는있습니다.[!DNL Target Standard]고객은[사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md)[!DNL Adobe Admin Console]지침을 따라 사용자를 추가하고
 
-   [!DNL Target Standard] 사용자는 속성 탭을 클릭하면 다음 오류 메시지가 표시됩니다.  [!DNL Target]에는 아무런 문제가 없습니다. [!DNL Target Standard] 사용자에게 [!DNL Target Premium] [!UICONTROL 엔터프라이즈 권한] 기능에 대한 액세스 권한이 없습니다.
+* **[!DNL Target Premium]고객&#x200B;**: [[!UICONTROL 속성]] 탭([[!UICONTROL 설정]] > [속성)과][사용자[!DNL Target Premium]]탭이 표시되면 조직에라이선스가 있는 것입니다.[!DNL Target Premium]고객은 이 문서와[엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
 
-   ![오류 메시지](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
-
-* **[!DNL Target Premium]고객&#x200B;**:[!UICONTROL 속성]탭([!UICONTROL 설정 > 속성])이 표시되면 조직에[!DNL Target Premium]라이센스가 있는 것입니다.[!DNL Target Premium]고객은 이 문서와[엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
-
-## 엔터프라이즈 권한을 시작하기 전에
+## 엔터프라이즈 권한을 시작하기 전
 
 >[!IMPORTANT]
 >
->엔터프라이즈 권한 작업을 계속 진행하기 전에 아래의 [공지](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) 섹션을 읽어야 합니다.
+>Ensure that you read the [Caveats](../../../administrating-target/c-user-management/property-channel/property-channel.md#section_9714311B1CD9497A86F4910F8AE635E2) section below before proceeding with enterprise permissions.
 
-## 이 섹션에 사용된 용어 및 정의 {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
+## Terms and definitions used in this section {#section_F8D229544FEA41C3BC2EFD1F95AA0116}
 
-다음 용어는 이 섹션 전체에서 사용되며 Target Premium에서 속성 및 권한 기능을 사용하려는 사용자에게 생소할 수 있습니다.
+The following terms are used throughout this section and might be new to users wanting to use the Properties and Permissions functionality in [!DNL Target] Premium.
 
 ### 속성
 
-속성을 구분을 위해 고유한 코드 조각을 사용한다는 측면에서 다이내믹 태그 관리( 활성화) 내의 속성과 비슷한 특성을 갖습니다.
+Properties are similar in nature to those within [!DNL Adobe Platform Launch] in that they use a unique snippet of code to differentiate them.
 
 웹 속성은 규칙들과 하나의 내장 코드로 이루어진 라이브러리로서, 웹 속성은 하나 이상의 도메인과 하위 도메인을 그룹화한 것일 수 있습니다.
 
-속성은 특정 이름/값 쌍을 Target 호출(mbox, API 등)의 매개 변수로 추가하면 활성화됩니다. 속성은 특정 채널(웹, 모바일, 이메일 또는 API/기타)에 속합니다.
+속성은 특정 이름/값 쌍을 에서 [!DNL Target].
+
+속성은 특정 채널(웹, 모바일, 이메일 또는 API/기타)에 속합니다.
 
 ### 작업 공간(제품 프로필)
 
-작업 공간을 사용하면 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 Adobe Analytics의 보고서 세트와 비슷합니다.
+작업 공간을 사용하면 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 [!DNL Adobe Analytics]의 보고서 세트와 비슷합니다.
 
-참고: 작업 공간이 Enterprise용 Adobe Admin Console에서는 제품 프로필로 알려져 있습니다.
+참고: 작업 영역은 의 [!UICONTROL 제품] 프로필이라고 합니다 [!DNL Adobe Admin Console for Enterprise].
 
 다국적 조직에 속하는 경우 유럽 웹 페이지, 속성 또는 사이트를 위한 작업 공간과 미국 웹 페이지, 속성 또는 사이트를 위한 또 다른 작업 공간이 있을 수 있습니다. 복수 브랜드 조직에 속하는 경우에는 각 브랜드를 위한 독립된 작업 공간이 있을 수 있습니다.
 
 사용자는 여러 작업 공간에 속할 수 있으며, 각 작업 공간에서 서로 다른 역할을 가질 수도 있습니다.
 
-사용자는 Analytics 사용자가 보고서 세트 사이를 이동하여 다른 Analytics 보기를 표시하는 방법과 비슷하게 작업 공간 사이를 이동하여 Adobe Target의 다른 보기를 표시할 수 있습니다.
+Users can have different views of [!DNL Adobe Target] by moving between workspaces, similar to how [!DNL Analytics] users have different views of [!DNL Analytics] by moving between Report Suites.
 
 작업 공간에는 완전한 다른 대상, 코드 오퍼 및 활동이 포함될 수 있습니다.
 
 새 Enterprise 권한 모델 마이그레이션 전에 만든 모든 대상 및 활동은 아래 설명된 &quot;기본 작업 공간&quot;에 함께 그룹화됩니다.
 
-AEM(Adobe Experience Manager), Adobe Mobile Services 및 Adobe Target Classic을 통해 만든 모든 활동은 &quot;기본 작업 공간&quot;에 포함됩니다.
+All activities created via [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services], and [!DNL Adobe Target Classic] will be part of the &quot;Default Workspace.&quot;
 
-### 기본 작업 공간
+### 기본 작업 영역
 
-Admin Console 내의 모든 기존 작업 공간(제품 프로필)은 조직이 새 Enterprise 권한 모델로 마이그레이션하는 동안 &quot;기본 작업 공간&quot;이라는 단일 작업 공간으로 병합됩니다.
+All existing workspaces (product profiles) within [!DNL Admin Console] are merged into a single workspace called &quot;Default Workspace&quot; during your organization&#39;s migration to the new Enterprise Permissions model.
 
 >[!IMPORTANT]
 >
 >기본 작업 공간은 삭제하지 마십시오.
 
-모든 Target 기능에 대한 모든 사용자 역할 및 액세스는 새 Enterprise 권한 모델로 마이그레이션하기 전과 정확히 동일하게 유지됩니다.
+All user roles and access to all [!DNL Target] functionality remains exactly the same as they were prior to the migration to the new Enterprise Permissions model.
 
 ### 사용자 그룹
 
@@ -84,19 +85,19 @@ Admin Console 내의 모든 기존 작업 공간(제품 프로필)은 조직이 
 
 ### 역할 및 권한
 
-역할 및 권한은 사용자가 Target 구현에서 활동을 만들고 관리하기 위해 보유해야 하는 액세스 권한 수준을 결정합니다. Target에서 역할에는 다음이 포함됩니다.
+역할 및 권한은 사용자가 [!DNL Target] 구현에서 활동을 만들고 관리하기 위해 보유해야 하는 액세스 권한 수준을 결정합니다. [!DNL Target]에서 역할에는 다음이 포함됩니다.
 
-* 관찰자: 활동을 볼 수 있지만 만들거나 편집할 수 없습니다.
-* 편집자: 활동이 라이브되기 전에 만들고 편집할 수 있지만 활동 실행을 승인할 수 없습니다.
-* 승인자: 활동을 만들고, 편집하고, 활성화하거나 중지할 수 있습니다.
+* **[!UICONTROL 관찰자]**: 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다.
+* **[!UICONTROL 편집기]**: 활동이 라이브되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다.
+* **[!UICONTROL 승인자]**: 활동을 생성, 편집, 활성화 또는 중지할 수 있습니다.
 
 ### 채널
 
-채널은 Target 활동이 전달되는 콘텐츠 유형, 즉 웹 페이지, 모바일 앱, 이메일 메시지 등을 나타냅니다.
+채널은 [!DNL Target] 활동이 전달되는 컨텐츠 유형, 즉 웹 페이지, 모바일 앱, 이메일 메시지 등을 나타냅니다.
 
 새 활동을 만들면 현재 선택한 작업 공간에서 생성됩니다. 활동에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API 중에서 선택할 수 있는 채널 선택 옵션이 첫 번째 대화 상자에 표시됩니다.
 
-## 권한 개요 {#section_DC2172520DA84605B218A5E9FB6D187A}
+## Permissions overview {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 다음에서는 [!DNL Target]에서 이전에 권한이 적용되던 방식과 [!UICONTROL 속성] 및 [!UICONTROL 권한] 기능을 사용하여 적용되는 방식을 설명합니다.
 
@@ -181,7 +182,7 @@ Admin Console 내의 모든 기존 작업 공간(제품 프로필)은 조직이 
 
 * **Diana**: Diana는 현재 조직의 분석가로, 활동에 대한 읽기 전용 액세스 권한을 제공하는 병원 사이트 및 소비자 사이트에 대한 관찰자 권한을 부여받았습니다. Diana는 활동을 볼 수 있지만 만들거나 편집할 수 없습니다.
 
-## Target UI 속성 및 권한 터치포인트 {#section_3414371393BB42999A268628B5456EC9}
+## Target UI Property and Permissions touchpoints {#section_3414371393BB42999A268628B5456EC9}
 
 새 권한 기능은 [!DNL Target] UI의 다양한 위치에서 볼 수 있습니다.
 
@@ -195,13 +196,13 @@ Admin Console 내의 모든 기존 작업 공간(제품 프로필)은 조직이 
 
 * **대상 생성:**&#x200B;새 대상을 생성하면 현재 선택한 작업 공간에서 생성됩니다.
 * **오퍼 생성:**&#x200B;새 오퍼를 생성하면 현재 선택한 작업 공간에서 생성됩니다.
-* **속성 페이지(설정 > 속성):**[!UICONTROL 검색] 상자, [!UICONTROL 채널] 및 [!UICONTROL 제품 프로필] 옵션을 사용하여 [!UICONTROL 속성] 목록을 필터링할 수 있습니다.
+* **속성 페이지(설정 > 속성):** 검색 상자 [!UICONTROL 를] 사용하여 [!UICONTROL 속성] 목록을 검색할 수 있습니다.
 
    ![](assets/properties_list.png)
 
 ## 주의 사항 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
-Target Premium에서 속성 및 권한을 사용하거나 구성할 때 다음 사항을 고려하십시오.
+Consider the following when using or configuring properties and permissions in [!DNL Target] Premium:
 
 * **중요**: 활동이 있는 작업 공간은 삭제하지 마십시오. 이러한 활동을 삭제한 경우 클라이언트 관리팀과 협력하여 해당 활동을 복구하십시오.
 * 모든 내 작업 공간 보기를 사용하는 경우:
@@ -211,12 +212,17 @@ Target Premium에서 속성 및 권한을 사용하거나 구성할 때 다음 �
    * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 작성할 때 항목을 작성할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
    * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 복사할 때 항목을 복사할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
 
-* 다음 설정 페이지의 모든 설정은 작업 공간의 승인자가 제어할 수 있습니다.
+* 다음 관리 페이지의 설정은 모든 작업 영역에서 승인자에 의해 제어됩니다.
 
-   * 기본 설정
-   * 구현
+   * 시각적 경험 작성기
+   * 보고
    * Scene7 설정
+   * 구현
+   * 속성
    * 호스트
+   * 환경
+   * 응답 토큰
+   * 사용자
 
 * 사용자는 한 작업 공간(제품 프로필)에서 다른 작업 공간으로 리소스를 이동할 수 없습니다. 그러나 복사는 지원됩니다.
 * [!DNL Audiences] 페이지에서 대상을 볼 때 페이지가 예상보다 더 느리게 로드됩니다. 어떤 방식으로든 검색 막대와 상호 작용하는 경우 대상이 더 빠르게 표시됩니다. 이것은 알려진 문제이며 향후 업데이트에서 수정될 예정입니다. 이 문제는 활동 생성 워크플로우 중에 대상을 선택하는 데 영향을 주지 않습니다.
@@ -235,7 +241,7 @@ Target Premium에서 속성 및 권한을 사용하거나 구성할 때 다음 �
    * 활동, 대상, 코드 오퍼, 이미지 오퍼 또는 Target Classic, Adobe Experience Manager(AEM), Adobe Mobile Services와 같은 솔루션이나 방법을 사용하여 만든 기타 모든 리소스와 API를 통해 생성된 리소스는 엔터프라이즈 권한 모델로 제어할 수 없지만 기본 작업 공간의 일부가 됩니다. API를 통해 만든 리소스에는 활동, 대상, 코드 오퍼, 이미지 오퍼가 포함됩니다.
    * 이미지 오퍼(`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`에 저장된 자산)는 현재 엔터프라이즈 권한 모델로 제어할 수 없습니다.
    * clickTracking 및 리디렉션은 대상 링크 또는 대상 페이지가 활동에 포함된 속성의 일부일 때만 작동합니다. 또한 `targetPageParams()` 함수를 사용할 경우 clickTracking이 작동하지 않을 수 있습니다. `targetPageParamsAll()`이 권장되는 함수입니다.
-   Target에서는 추적이 발생하는 모든 페이지에 `at_property` 토큰이 있어야 합니다. 토큰이 (1) 없거나, (2) 활동 설정 시 감지되지 않거나(VEC에서) (3) `targetPageParamsAll()` 함수를 통해 clickTracking mbox로 전달되지 않을 경우 지표는 증분 되지 않으며 &quot;0&quot;으로 표시됩니다.
+   [!DNL Target] 현재 추적이 발생하는 페이지에 `at_property` 토큰이 있어야 합니다. 토큰이 (1) 없거나, (2) 활동 설정 시 감지되지 않거나(VEC에서) (3) `targetPageParamsAll()` 함수를 통해 clickTracking mbox로 전달되지 않을 경우 지표는 증분 되지 않으며 &quot;0&quot;으로 표시됩니다.
 
    리디렉션을 사용하는 활동의 경우도 마찬가지입니다. 대상 페이지에는 `at_property` 토큰이 있어야 하며 VEC 내에서 설정할 때 인식되어야 합니다.
 
