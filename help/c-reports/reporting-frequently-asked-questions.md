@@ -5,10 +5,10 @@ title: Adobe Target에 대한 FAQ 보고
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 39%
+source-wordcount: '983'
+ht-degree: 35%
 
 ---
 
@@ -37,6 +37,14 @@ ht-degree: 39%
 * 재방문자에 대한 조건이 충족되고 재방문자로 카운트되면 방문자가 사이트로 돌아갑니다.
 
 이 방문자는 새 방문자 세그먼트와 돌아온 방문자 세그먼트에서 모두 계산되더라도 활동의 전체 방문자 수에서 단일 방문자로 카운트됩니다.
+
+새 방문자 수와 돌아온 방문자 수 간의 불일치는 활동의 [성공 지표를 구성하는 방법에도 따라 다릅니다](/help/c-activities/r-success-metrics/success-metrics.md).
+
+다음 예를 생각해 보십시오.
+
+사이트를 방문하고 활동을 수행할 수 있는 신규 방문자 수 이러한 새 방문자는 새 방문자 세그먼트로 계산됩니다. 이러한 모든 방문자는 해당 활동에 방문을 기록하기도 합니다.
+
+일부 방문자가 &quot;증가 카운트, 릴리스 사용자 및 재입력 허용&quot;으로 구성된 전환 지표에 도달했습니다. 이러한 사용자 중 일부가 전환 지표를 여러 번 히트했다고 가정하면 전환 지표는 증가하지 않습니다. 하지만 이러한 설정이 주어지면 일부 사용자는 전환 지표를 친 다음 홈 페이지로 다시 이동하여 활동에 다시 적격한 다음 새 방문을 기록할 수 있습니다.
 
 ## [!UICONTROL 경험 타깃팅](XT) 보고서에 제어 경험에 대한 지표가 포함되는 이유는 무엇입니까?
 
