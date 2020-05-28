@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '912'
+source-wordcount: '930'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 28년 5월 | [보고 FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 다음과 같은 새로운 FAQ가 추가되었습니다. <ul><li>새 방문자 및 돌아온 방문자 지표는 어떻게 카운트됩니까?</li></ul> |
 | 27년 5월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 자동 할당 활동에 대한 Analytics for Target(A4T) 지원에 대한 정보가 추가되었습니다. |
 | 26년 5월 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | 다음 정보가 추가되었습니다. &quot;스크립트를 비활성화한 후에도 매개 변수가 프로필에 남아 있습니다. 프로필에는 활동 대상에서 사용되는 매개 변수가 이미 포함되어 있는 사용자는 해당 활동에 대한 자격을 얻게 됩니다.&quot; |
 | 21년 5월 | [화이트 리스트 대상 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 목록 `mboxedge30.tt.omtrdc.net` 에 추가되었습니다. |
