@@ -1,14 +1,14 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports
+keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Adobe Target의 보고에 대한 FAQ 목록입니다.
 title: Adobe Target에 대한 FAQ 보고
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 7b57ef37f2764f5ec58c9a090edc295e81fdaaa9
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 50%
+source-wordcount: '862'
+ht-degree: 39%
 
 ---
 
@@ -16,6 +16,27 @@ ht-degree: 50%
 # 보고 FAQ{#reporting-faq}
 
 [!DNL Target]의 보고에 대한 FAQ 목록
+
+## 새 방문자 및 돌아온 방문자 지표는 어떻게 카운트됩니까?
+
+다음 사항을 고려하십시오.
+
+**새 방문자**: 다음 조건 중 하나가 충족되면 새 방문자 세그먼트에 방문자가 포함됩니다.
+
+* 방문자가 사이트를 방문하는 것은 이번이 처음입니다.
+* 쿠키를 지운 후 방문자가 사이트를 방문하는 것은 이번이 처음입니다.
+* 방문자 프로필 라이프타임이 만료된 후 [방문자가 사이트를](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) 방문하는 것은 이번이 처음입니다.
+
+**돌아온 방문자**: 사용자가 이전에 사이트를 방문하고 최소 30분 동안 떠났다가 동일한 쿠키로 다시 사이트에 돌아온 경우 방문자는 돌아온 방문자 세그먼트에 포함됩니다. 방문자는 프로필 라이프타임 이내에 재방문하는 경우에 한해 재방문자가 됩니다.
+
+이러한 두 세그먼트가 활동에 적용되는 경우 새 방문자 세그먼트와 돌아온 방문자 세그먼트가 항상 총 방문자 수에 추가되지 않습니다.
+
+새 방문자 및 돌아온 방문자에 대해 위에 언급된 조건을 고려하여 다음 예를 고려하십시오.
+
+* 방문자가 사이트를 처음 방문하고 새 방문자로 계산됩니다.
+* 재방문자에 대한 조건이 충족되고 재방문자로 카운트되면 방문자가 사이트로 돌아갑니다.
+
+이 방문자는 새 방문자 세그먼트와 돌아온 방문자 세그먼트에서 모두 계산되더라도 활동의 전체 방문자 수에서 단일 방문자로 카운트됩니다.
 
 ## [!UICONTROL 경험 타깃팅](XT) 보고서에 제어 경험에 대한 지표가 포함되는 이유는 무엇입니까?
 
