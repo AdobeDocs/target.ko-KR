@@ -4,7 +4,10 @@ description: 모바일 뷰포트는 다양한 크기의 화면에서 활동이 �
 title: 응답형 경험을 위한 모바일 뷰포트
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 97%
 
 ---
 
@@ -42,7 +45,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | Google Pixel | 411w x 731h | 1080w x 1920h |
 | Google Pixel XL | 411w x 731h | 1440w x 2560h |
 | Google Pixel 2 | 411w x 731h | 1080w x 1920h |
-| Google Pixel 2 XL | 411w x 731h | 1440w x 2560h |
+| Google Pixel 2 XL | 411w x 823h | 1440w x 2880h |
 | Samsung Galaxy Note 5 | 480w x 853h | 1440w x 2560h |
 | LG G5 | 480w x 853h | 1440w x 2560h |
 | One Plus 3 | 480w x 853h | 1080w x 1920h |
@@ -57,7 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 | Samsung Galaxy Tab 10 | 800w x 1280h | 800w x 1280h |
 | Chromebook Pixel | 1280w x 850h | 2560w x 1700h |
 
-다양한 웹 사이트가 많이 사용되는 장치에 대한 뷰포트 크기 목록을 제공합니다. 예를 들어 https://viewportsizer.com/devices/ [을](https://viewportsizer.com/devices/) 참조하거나 장치 제작자의 웹 사이트를 참조하십시오.
+다양한 웹 사이트가 많이 사용되는 장치에 대한 뷰포트 크기 목록을 제공합니다. 예를 들어 https://viewportsizer.com/devices/ [를](https://viewportsizer.com/devices/) 참조하거나 장치 제조업체의 웹 사이트를 참조하십시오.
 
 특정 장치의 사용자에게 활동을 전달하려면 활동 다이어그램에서 해당 장치에 적합한 대상을 선택하십시오. 모바일 웹 작성기를 사용하여 해당 장치용 활동의 페이지를 편집하십시오. 전체 디지털 경험에서 활동을 실행하고 모든 장치에서 적절히 표시되는지 확인하려면 타깃팅을 적용하지 말고 모바일 뷰포트를 사용하여 각 화면 크기에서 활동을 미리 보십시오.
 
@@ -152,7 +155,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 시각적 경험 작성기(2/2)(7:29) 개요 ![배지](/help/assets/overview.png)
+### 시각적 경험 작성기(2/2)(7:29) ![개요 배지](/help/assets/overview.png)
 
 다음 데모 비디오에는 시각적 경험 작성기에서 모바일 뷰포트로 작업하는 방법에 대한 정보가 포함되어 있습니다.
 
@@ -165,7 +168,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target 개요 배지의 계정 ![환경 설정](/help/assets/overview.png)
+### Adobe Target ![개요 배지의 계정 환경 설정](/help/assets/overview.png)
 
 이 비디오에는 계정 기본 설정에서 모바일 뷰포트를 설정하는 방법에 대한 정보가 포함되어 있습니다. 이 내용은 비디오의 4분 40초부터 시작됩니다.
 
