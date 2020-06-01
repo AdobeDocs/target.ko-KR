@@ -4,7 +4,7 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Co
 title: 타겟 공지
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Coffee Break �
 * Target Recommendations에 컨텐츠 수집 자동화
 * 권장 컨텐츠의 성능 및 리드 생성과 관련된 방법 추적
 
-2010년 6월 4일 목요일 오전 10시 45분으로 (EST)
+**2020년 6월 4일 목요일**
+
+**오전 10시 ~ 오전 10시 45분 (EST)**
 
 등록하려면 Adobe Experience League 웹 사이트의 [등록 페이지를 참조하십시오](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
 
