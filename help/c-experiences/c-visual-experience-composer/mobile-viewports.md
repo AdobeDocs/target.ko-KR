@@ -4,9 +4,9 @@ description: 모바일 뷰포트는 다양한 크기의 화면에서 활동이 �
 title: 응답형 경험을 위한 모바일 뷰포트
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 97%
 
 ---
@@ -33,8 +33,10 @@ ht-degree: 97%
 | iPhone8 | 375w x 667h | 750w x 1334h |
 | iPhone 7 Plus | 414w x 736h | 1080w x 1920h |
 | iPhone7 | 375w x 667h | 750w x 1334h |
+| iPhone6s 플러스 | 414w x 736h | 1080w x 1920h |
+| iPhone6s | 375w x 667h | 750w x 1334h |
+| iPhone 6 Plus | 414w x 736h | 1080w x 1920h |
 | iPhone6 | 375w x 667h | 750w x 1334h |
-| iPhone6s | 414w x 736h | 1080w x 1920h |
 | iPad Pro | 1024w x 1366h | 2048w x 2732h |
 | iPad Third &amp; Fourth Generation | 768w x 1024h | 1536w x 2048h |
 | iPad Air 1 및 2 | 768w x 1024h | 1536w x 2048h |
