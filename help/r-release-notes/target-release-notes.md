@@ -5,10 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 20%
+source-wordcount: '457'
+ht-degree: 21%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트 날짜: 2020년 5월 27일**
+**마지막 업데이트: 2020년 6월 1일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -30,11 +30,10 @@ ht-degree: 20%
    >
    >   
    모든 고객을 at.js로 이동시킴으로써 Adobe 엔지니어 및 지원 담당자는 새로운 기능을 제공하고 Adobe로부터 기대하는 지원을 제공할 수 있습니다.
+   >
+   >
+* **타겟 공지**: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
 
-
-## Adobe Target 스킬 빌더: 개발자 채팅, Adobe Target의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
-
-2020년 8월 30일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 열어 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 이후 30일 동안 웨비나 레코딩 [을 볼 수 있습니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
 
 ## Target Standard/Premium 20.6.1(2020년 6월 10일)
 
