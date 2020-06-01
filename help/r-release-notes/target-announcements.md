@@ -4,9 +4,9 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Co
 title: 타겟 공지
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
+source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Coffee Break �
 
 ## Adobe Target 스킬 빌더: Adobe Sensei AI를 사용하여 경험 개인화 방법 `Adobe.com`
 
-인터넷 상에서 가장 큰 B2E 사이트 중 하나로 Adobe Experience Cloud `Adobe.com` 의 &quot;Customer Zero&quot;라는 자사 역할을 완전히 수용하여 B2B 및 B2C 사용 사례에 대한 모든 솔루션을 전 세계적으로 채택하고 있습니다. 실제 크리에이티브 전문가, 비기술적 마케터 및 전문적인 IT 구매자를 포함한 다양한 개인화를 제공하는 디지털 대상으로서, 개인화는 Adobe.com의 성공에 매우 중요합니다.
+**2020년 6월 4일 목요일**
+
+**오전 10시 ~ 오전 10시 45분 (EST)**
+
+인터넷 상에서 가장 큰 B2E 사이트 중 하나로 Adobe Experience Cloud `Adobe.com` 의 &quot;Customer Zero&quot;라는 자사 역할을 완전히 수용하여 B2B 및 B2C 사용 사례에 대한 모든 솔루션을 전 세계적으로 채택하고 있습니다. 실제 크리에이티브 전문가, 비전문 마케터, 기술 IT 구매자 등 다양한 개인화를 제공하는 디지털 대상으로서 개인화는 성공을 위해 매우 중요합니다 `Adobe.com`.
 
 개인화가 어떻게 이루어지는지에 대한 실제 사례를 소개하는 제품 관리자인 Tamer Mina와 Mark Tuyah에 참여하십시오 `Adobe.com`. 이 웨비나에서는 다음 방법을 학습합니다.
 
@@ -26,10 +30,6 @@ Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Coffee Break �
 * 유연한 경험을 사용하여 권장 컨텐츠 범위 확대 `Adobe.com`
 * Target Recommendations에 컨텐츠 수집 자동화
 * 권장 컨텐츠의 성능 및 리드 생성과 관련된 방법 추적
-
-**2020년 6월 4일 목요일**
-
-**오전 10시 ~ 오전 10시 45분 (EST)**
 
 등록하려면 Adobe Experience League 웹 사이트의 [등록 페이지를 참조하십시오](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
 
