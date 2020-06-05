@@ -6,10 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 44%
+source-wordcount: '669'
+ht-degree: 35%
 
 ---
 
@@ -34,22 +34,30 @@ When the [!UICONTROL Select] operation is used and you sort on *Entrants*, then 
 >
 >Reports powered by [!DNL Target] have a latency of four minutes. For activities powered by A4T, in both the [!DNL Target] and [!DNL Analytics] reports, it can take up to 24 hours after the activity is initially saved before the report data can be broken down by experiences. 처음 24시간 내에 수집된 데이터는 정확하며 올바른 경험에 지정됩니다.
 
-## Analytics의 보고서 {#section_F6884872DC864AE7913587FAED4CD11C}
+## Analytics의 보고서 {#analytics}
 
-In [!DNL Analytics], click **[!UICONTROL Target]** > **[!UICONTROL Target Activities]** in the left menu. In [!DNL Target], the activity&#39;s reports automatically show [!DNL Analytics] data, metrics, and segments. 데이터는 사이트에서 수집된 후 약 1시간 후에 이러한 보고서에 표시됩니다. 보고서에 있는 모든 지표, 대상, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
+A4T 통합 [!DNL Analytics]이 활성화된 후 사용할 수 있는 차원 및 지표가 몇 가지 있습니다.
 
-In [!DNL Analytics], use the [!UICONTROL Target Activities] report to view the results of your [!DNL Target] activity. Test&amp;Target (Legacy) Reports provides information about your old Test&amp;Target plug-in style page integrations and does not include [!DNL Analytics] for [!DNL Target] data. In the [!UICONTROL Activities] report, view information about your [!DNL Target] experiences. **[!UICONTROL 지표]**&#x200B;를 클릭하고 **[!UICONTROL Target 지표 유형을 선택합니다.]** 보고서에서 두 개의 지표를 사용할 수 있습니다.
+### 차원
 
-* **활동 시작:**[!DNL Target] 보고서에서 참여자 수와 일치합니다.
-* **활동 전환:**[!DNL Target] 보고서에서 사용자 지정 전환 수와 일치합니다.
+* [!UICONTROL Target] 분석 - 통합을 통해 전달된 상위 ID입니다. 이 차원의 형식은 입니다 `Activity ID:Experience ID:3rd ID`. 아래 차원은 이 차원의 분류입니다.
+* [!UICONTROL 타겟 활동]
+* [!UICONTROL 타겟 경험]
+* [!UICONTROL 타겟 활동] > [!UICONTROL 경험]
+* [!UICONTROL 세 번째 ID] - 무시할 수 있음
 
->[!NOTE]
->
->[!DNL Target] 향상도 및 신뢰도 세부 사항도 제공됩니다 [!DNL Analytics]. 자세한 내용은 [Analytics 구성 요소 안내서의](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) Target 향상도 및 신뢰도를 *참조하십시오*.
+### 지표
+
+* [!UICONTROL 활동 노출 횟수] - 보고서의 [!UICONTROL 참여자] 수와 [!DNL Target] 일치합니다.
+* [!UICONTROL 활동 전환] - [!UICONTROL 보고서의] 사용자 지정 전환 [!DNL Target] 번호와 일치합니다.
+
+에서 [!DNL Analysis Workspace]Target용 [!UICONTROL Analytics 패널을 사용하여] 활동 및 경험을 향상도 및 신뢰도로 [!DNL Target] 분석할 수 있습니다. 자세한 내용은 [분석 도구 안내서의 타겟 분석(A4T) 패널](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 을 *참조하십시오*.
 
 >[!IMPORTANT]
 >
 >If your [!UICONTROL Target Activities] report in [!DNL Analytics] lists &quot;unspecified&quot; instead of listing your activities, an update is required to your provisioned account. 이 문제를 해결하려면 고객 지원팀에 문의하십시오.
+
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) tutorial, provided by Adobe Experience League.
 
 ## Target의 보고서 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -65,12 +73,6 @@ When [!DNL Analytics] is used as the reporting source, reports in [!DNL Target] 
 You can apply the metric or audience to the report in [!DNL Target] after the activity has started, or even after the test has completed. 측정할 사항을 사전에 정확히 알 필요는 없습니다.
 
 Click to view the full [!DNL Analytics] report directly from the activity report page.
-
-## Analysis Workspace의 보고서 {#reports-in-analysis-workspace}
-
-[!DNL Adobe Analysis Workspace]를 사용하여 데이터를 보다 깊이 있게 분석하고 그 이면에 대한 통찰력을 얻을 수 있습니다.
-
-자세한 정보 및 예제를 보려면 [분석 및 대상을 엽니다. 분석 모범 사례 자습서](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)(제공) [!DNL Adobe Experience League].
 
 ## 활동 만들기 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
