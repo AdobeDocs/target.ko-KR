@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6de68f5038df0d8c0ba97ef8f17c9a1312c8c2c0
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '986'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 5일 | [타겟 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 6월 10일 Adobe Target 커피 브레이크 관련 정보가 추가되었습니다. |
 | 6월 4일 | [A4T 보고](/help/c-integrating-target-with-mac/a4t/reporting.md) | &quot;Analytics의 보고서&quot; 섹션이 업데이트되었습니다. |
 | 6월 1일 | [타겟 공지](/help/r-release-notes/target-announcements.md) | 예정된 타겟 이벤트를 알리는 새 페이지가 추가되었습니다. |
 |  | [응답형 경험을 위한 모바일 뷰포트](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Apple iPhone 11, Apple iPhone SE 및 Google Pixel 2 XL 모델의 뷰포트 크기와 해상도가 업데이트되었습니다. |
