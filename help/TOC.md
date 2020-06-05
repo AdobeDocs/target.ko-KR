@@ -5,9 +5,9 @@ user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '1406'
+source-wordcount: '1408'
 ht-degree: 93%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 93%
 
 + [Adobe Target 제품 설명서](target-home.md)
 + Target 릴리스 노트 {#release-notes}
-   + [타겟 공지](/help/r-release-notes/target-announcements.md)
+   + [타겟 공지 및 이벤트](/help/r-release-notes/target-announcements.md)
    + [Target 릴리스 노트(현재)](r-release-notes/release-notes.md)
    + [Target 릴리스 노트(사전 릴리스)](r-release-notes/target-release-notes.md)
    + [Target Insider 뉴스레터](/help/r-release-notes/target-insider-newsletter.md)
