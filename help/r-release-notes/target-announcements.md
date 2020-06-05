@@ -4,9 +4,9 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Co
 title: 타겟 공지
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '224'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Coffee Break �
 
 * at.js
 * 모바일
-* 합금
+* Adobe Experience Platform - AEP Web SDK(합금)
 * API
 
 Target 관련 질문에 자유롭게 답변합니다.
