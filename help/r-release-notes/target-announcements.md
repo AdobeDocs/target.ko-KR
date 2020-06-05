@@ -4,34 +4,38 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Co
 title: 타겟 공지
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
 
-# 타겟 공지
+# 타겟 공지 및 이벤트
 
 Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Coffee Break 세션 등 예정된 이벤트에 대한 정보입니다.
 
-## Adobe Target 스킬 빌더: Adobe Sensei AI를 사용하여 경험 개인화 방법 `Adobe.com`
+## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
 
-**2020년 6월 4일 목요일**
+**2020년 6월 10일 수요일**
 
-**오전 10시 ~ 오전 10시 45분 (EST)**
+**오전 10시에서 11시 (PST)**
 
-인터넷 상에서 가장 큰 B2E 사이트 중 하나로 Adobe Experience Cloud `Adobe.com` 의 &quot;Customer Zero&quot;라는 자사 역할을 완전히 수용하여 B2B 및 B2C 사용 사례에 대한 모든 솔루션을 전 세계적으로 채택하고 있습니다. 실제 크리에이티브 전문가, 비전문 마케터, 기술 IT 구매자 등 다양한 개인화를 제공하는 디지털 대상으로서 개인화는 성공을 위해 매우 중요합니다 `Adobe.com`.
+앞으로 있을 커뮤니티 Q&amp;A [!DNL Adobe Target] 커피 파크에 참여하십시오! 이는 &quot;Coffee Break&quot;를 위한 Adobe 포럼 실선에서 Adobe의 내부 전문가들이 귀하와 직접 교류하는 것을 돕기 위해 최근에 실시된 일련의 사례입니다. AMA(Ask Me Anything)나 twitter-chat와 같은 [!DNL Adobe Target] 커뮤니티 포럼으로 생각해 보십시오.
 
-개인화가 어떻게 이루어지는지에 대한 실제 사례를 소개하는 제품 관리자인 Tamer Mina와 Mark Tuyah에 참여하십시오 `Adobe.com`. 이 웨비나에서는 다음 방법을 학습합니다.
+제품 관리자인 David Son이 모든 질문에 답변해 드릴 것입니다. [!DNL Target] David의 전문 분야는 다음과 같습니다.
 
-* 수동으로 업데이트하지 않고도 연관성 있고 최신 컨텐츠 유지
-* 유연한 경험을 사용하여 권장 컨텐츠 범위 확대 `Adobe.com`
-* Target Recommendations에 컨텐츠 수집 자동화
-* 권장 컨텐츠의 성능 및 리드 생성과 관련된 방법 추적
+* at.js
+* 모바일
+* 합금
+* API
 
-등록하려면 Adobe Experience League 웹 사이트의 [등록 페이지를 참조하십시오](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/).
+Target 관련 질문에 자유롭게 답변합니다.
+
+참가하려면 [Adobe Target 커뮤니티에](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) 로그인해야 합니다.
+
+[여기에 등록](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Target 스킬 빌더: 개발자 채팅, Adobe Target의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
