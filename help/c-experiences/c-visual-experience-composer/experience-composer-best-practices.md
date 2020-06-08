@@ -1,11 +1,14 @@
 ---
-keywords: 시각적 경험 작성기;시각적 경험 작성기 우수 사례;시각적 경험 작성기 제한 사항;시각적 경험 작성기 주의 사항;vec 우수 사례;vec
+keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: 다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. 시각적 경험 작성기(VEC)를 사용할 때 알아야 하는 기타 팁과 제한 사항도 있습니다.
 title: 시각적 경험 작성기 우수 사례 및 제한 사항
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2446'
+ht-degree: 98%
 
 ---
 
@@ -28,13 +31,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **계정 수준(계정에서 만들어진 모든 활동에 대해 활성화됨)이나 개별 활동 수준에서 향상된 경험 작성기를 활성화할 수 있습니다.**
 
-계정 수준에서 향상된 경험 작성기를 활성화하려면 [!UICONTROL 설정 &gt; 환경 설정]을 클릭한 다음, 스위치를 켜짐 위치로 전환하십시오.
+계정 수준에서 향상된 경험 작성기를 활성화하려면 [!UICONTROL 설정 > 환경 설정]을 클릭한 다음, 스위치를 켜짐 위치로 전환하십시오.
 
-시각적 경험 작성기에서 활동을 만드는 동안 활동 수준에서 향상된 경험 작성기를 활성화하려면 [!UICONTROL 구성 &gt; URL]을 클릭한 다음, 스위치를 켜짐 위치로 전환하십시오.
+시각적 경험 작성기에서 활동을 만드는 동안 활동 수준에서 향상된 경험 작성기를 활성화하려면 [!UICONTROL 구성 > URL]을 클릭한 다음, 스위치를 켜짐 위치로 전환하십시오.
 
-**향상된 시각적 경험 작성기가 사이트의 보안 페이지에서 로드되지 않는 경우 특정 IP 주소를 허용 목록에 추가할 수 있습니다.**
+**향상된 시각적 경험 작성기가 사이트의 보안 페이지에서 로드되지 않을 경우 특정 IP 주소를 표시할 수 있습니다.**
 
-향상된 시각적 경험 작성기를 로드하는 데 발생하는 문제는 다음 IP 주소를 허용 목록에 추가하여 해결할 수 있습니다. 이 IP 주소는 향상된 경험 작성기 프록시에 사용되는 Adobe의 서버용이며, 활동 편집에만 필요합니다. 사이트 방문자는 이 IP 주소를 허용 목록에 추가할 필요가 없습니다.
+다음 IP 주소를 나열할 수 있도록 허용하여 향상된 시각적 경험 작성기를 로드하는 동안 문제가 발생할 수 있습니다. 이 IP 주소는 향상된 경험 작성기 프록시에 사용되는 Adobe의 서버용이며, 활동 편집에만 필요합니다. 사이트 방문자는 이러한 IP 주소를 나열할 필요가 없습니다.
 
 미국: 52.55.99.45, 54.80.158.92 및 54.204.197.253
 
@@ -292,7 +295,7 @@ mbox 요소에서 이미지를 교체한 다음, mbox 요소 크기에 따라 �
 
 **컨텐츠 라이브러리(Scene7)에서 이미지를 삽입하고 HTML을 편집하면 이미지 URL이 손상됩니다.**
 
-일부 더미 텍스트와 함께 'customHeaderMessage' div 내부에 앵커 요소를 추가합니다.
+일부 더미 텍스트와 함께 &#39;customHeaderMessage&#39; div 내부에 앵커 요소를 추가합니다.
 
 ```
 <a href="#"> 
