@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '113'
+ht-degree: 96%
 
 ---
 
@@ -28,4 +31,4 @@ Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
 - [지원되는 브라우저](supported-browsers.md)
 - [TLS(전송 계층 보안) 암호화 변경 사항](tls-transport-layer-security-encryption.md)
 - [CNAME 및 Adobe Target](implement-cname-support-in-target.md)
-- [화이트 리스트 타겟 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
+- [Allowlist 대상 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
