@@ -5,10 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 33%
+source-wordcount: '1040'
+ht-degree: 32%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 8일 | [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 다음 FAQ에 대한 텍스트가 업데이트되었습니다. &quot;Target Mobile은 Adobe Target Premium 제품 SKU의 기능만 제공합니까?&quot; |
+|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 전체 주제가 업데이트되었습니다. |
 | 6월 5일 | [타겟 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 6월 10일 Adobe Target 커피 브레이크 관련 정보가 추가되었습니다. |
 |  | [상승도 및 신뢰도 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | 다음 FAQ에 대한 텍스트가 업데이트되었습니다. &quot;계산된 지표에서 향상도 및 신뢰도가 표시되지 않는 이유는 무엇입니까?&quot; |
 | 6월 4일 | [A4T 보고](/help/c-integrating-target-with-mac/a4t/reporting.md) | &quot;Analytics의 보고서&quot; 섹션이 업데이트되었습니다. |
