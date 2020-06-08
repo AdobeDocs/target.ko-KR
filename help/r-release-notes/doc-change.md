@@ -31,12 +31,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 28년 5월 | [보고 FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 다음과 같은 새로운 FAQ가 추가되었습니다. <ul><li>새 방문자 및 돌아온 방문자 지표는 어떻게 카운트됩니까?</li></ul> |
 | 27년 5월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 자동 할당 활동에 대한 Analytics for Target(A4T) 지원에 대한 정보가 추가되었습니다. |
 | 26년 5월 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | 다음 정보가 추가되었습니다. &quot;스크립트를 비활성화한 후에도 매개 변수가 프로필에 남아 있습니다. 프로필에는 활동 대상에서 사용되는 매개 변수가 이미 포함되어 있는 사용자는 해당 활동에 대한 자격을 얻게 됩니다.&quot; |
-| 21년 5월 | [화이트 리스트 대상 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 목록 `mboxedge30.tt.omtrdc.net` 에 추가되었습니다. |
+| 21년 5월 | [Allowlist 대상 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 목록 `mboxedge30.tt.omtrdc.net` 에 추가되었습니다. |
 | 20년 5월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 Target Standard/Premium 20.6.1(2020년 6월 10일) 릴리스에 대한 정보가 추가되었습니다. |
 |  | [호스트](/help/administrating-target/hosts.md) | &quot;보안 모범 사례&quot; 섹션에 메모를 추가했습니다. |
 | 14년 5월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 프로필 배치 상태 API v2 변경 사항에 대한 정보가 추가되었습니다. |
 | 13년 5월 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | &quot;알려진 제한 사항&quot; 섹션이 추가되었습니다. |
-| 11년 5월 | [호스트](/help/administrating-target/hosts.md) | 리디렉션 및 화이트리스트에 ubox 기능 사용에 대한 정보가 추가되었습니다. |
+| 11년 5월 | [호스트](/help/administrating-target/hosts.md) | 리디렉션 및 허용 목록에 ubox 기능 사용에 대한 정보가 추가되었습니다. |
 |  | [리디렉터 작업](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
 |  | [이메일에 권장 사항 통합](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
 |  | [이메일: Target 구현](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
@@ -57,7 +57,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 23년 4월 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 주제가 업데이트됨. |
 | 22년 4월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 새 섹션이 추가되었습니다. *프로필 배치 상태 API v2 변경 사항(2020년 5월 4일).* |
 | 20년 4월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 새 섹션이 추가되었습니다. *Adobe Target 스킬 빌더: 개발자 채팅에서 Adobe Target의 mbox.js를 at.js로 마이그레이션합니다.* |
-| 14년 4월 | [화이트 리스트 타겟 에지 호스트](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 새 주제입니다.  |
+| 14년 4월 | [Allowlist 타겟 에지 호스트](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | 새 주제입니다.  |
 | 10년 4월 | [단일 페이지 애플리케이션 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 새 섹션이 추가되었습니다. &quot;구현 모범 사례&quot; |
 | 7년 4월 | [상승도 및 신뢰도 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | &quot;계산된 지표에 향상도 및 신뢰도가 표시되지 않는 이유는 무엇입니까?&quot;에 대한 텍스트가 업데이트되었습니다. |
 | 2년 4월 | [프로필 및 변수 용어집](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 사용자의 IP 주소 `user.header('x-forwarded-for')` 를 검색하기 위해 최신 AWS 가장자리에 사용하는 방법에 대한 정보가 추가되었습니다. |
