@@ -1,11 +1,14 @@
 ---
-keywords: 모바일 앱;모바일 앱 SDK;target 모바일 앱;모바일 target sdk;모바일 앱 SDK;SDK에서 Target 사용
+keywords: mobile app;mobile app sdk;target mobile app;mobile target sdk;mobile app sdk;enable target in sdk
 description: 앱에 Adobe Mobile Services SDK를 추가합니다.
 title: SDK에서 Target 사용
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +25,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 1.  클라이언트 코드, 시간 제한을 추가하고, SSL을 활성화합니다. 
 
-   Experience Cloud에서 Mobile Services를 열고 **[!UICONTROL 앱 설정 관리]** &gt; **[!UICONTROL SDK Target 선택 사항]**&#x200B;으로 이동합니다.
+   Experience Cloud에서 Mobile Services를 열고 **[!UICONTROL 앱 설정 관리]** > **[!UICONTROL SDK Target 옵션]**&#x200B;으로 이동합니다.
 
-   Target 클라이언트 코드 및 시간 제한 시간을 추가합니다. 클라이언트 코드는 계정 또는 회사에 고유합니다. 시간 제한은 기본 컨텐츠를 표시하기 전에 Target이 응답을 기다리는 시간(초)입니다. Adobe Mobile Services의 앱 설정 관리 페이지에서 **[!UICONTROL HTTPS 사용]옵션이 선택되어 있는지 확인합니다.** HTTPS가 비활성화되면 Target 서버를 허용 목록에 추가하지 않은 경우 iOS9+의 모든 호출이 차단됩니다.
+   Target 클라이언트 코드 및 시간 제한 시간을 추가합니다. 클라이언트 코드는 계정 또는 회사에 고유합니다. 시간 제한은 기본 컨텐츠를 표시하기 전에 Target이 응답을 기다리는 시간(초)입니다. Adobe Mobile Services의 앱 설정 관리 페이지에서 **[!UICONTROL HTTPS 사용]** 옵션이 선택되어 있는지 확인합니다. HTTPS가 활성화되지 않은 경우 Target 서버를 나열할 수 있도록 허용하지 않으면 iOS9+의 모든 호출이 차단됩니다.
 
    ![](assets/mobile-clientcode.png)
 
