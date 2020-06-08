@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '2346'
+ht-degree: 94%
 
 ---
 
@@ -95,9 +98,9 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 ![핵심 에지 사이트 및 에지 사이트 매핑](assets/edge_network.png)
 
-이 이미지의 소스는 Adobe Target [보안 개요](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서입니다.
+이 이미지의 소스는 [Adobe Target 보안 개요](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서입니다.
 
-Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센터에 호스팅됩니다. 관리 서버는 런던, 싱가포르를 포함하여 오레곤, 버지니아 등 미국 전역의 여러 지역에서 Adobe 소유 데이터 센터 내에 호스팅됩니다. Edge Server는 런던, 중국 홍콩 SAR, 싱가포르, 도쿄 및 시드니에 있는 Amazon AWS 데이터 센터의 Adobe 소유 및 Adobe 임대한 서버에서 호스팅됩니다.
+Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센터에 호스팅됩니다. 관리 서버는 런던, 싱가포르를 포함하여 오레곤, 버지니아 등 미국 전역의 여러 지역에서 Adobe 소유 데이터 센터 내에 호스팅됩니다. Edge Server는 런던, 중국, 싱가포르, 도쿄 및 시드니의 Amazon AWS 데이터 센터의 Adobe 소유 서버와 Adobe에서 임대한 서버에 호스팅됩니다.
 
 관리 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 있습니다. 에지 사이트 위치에는 데이터 수집 센터만 있습니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
 
@@ -107,7 +110,7 @@ Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센
 >
 >[!DNL Adobe Target]은 현재 중국에는 에지 네트워크가 없기 때문에 중국 [!DNL Target] 고객의 경우 최종 사용자 성능이 계속 제한됩니다. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-원하는 경우 타겟 에지 노트를 허용 목록에 추가할 수 있습니다. 자세한 내용은 화이트리스트 대상 [에지 노드를](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)참조하십시오.
+원하는 경우 타겟 에지 노트를 선택할 수 있습니다. 자세한 내용은 [허용 목록 대상 에지 노드를 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md).
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
