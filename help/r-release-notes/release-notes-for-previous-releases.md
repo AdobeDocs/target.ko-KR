@@ -5,7 +5,7 @@ title: 이전 릴리스에 대한 릴리스 노트
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '29260'
 ht-degree: 92%
@@ -1815,7 +1815,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>고급 VEC(시각적 경험 작성기) </p> </td> 
-   <td colname="col2"> <p>고급 VEC(시각적 경험 작성기)에 대한 IP 주소가 업데이트되었습니다. </p> <p>VEC에 사용되는 IP 주소를 허용 목록에 포함할 경우 새 IP 주소를 추가하십시오. </p> <p>자세한 내용은 <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">시각적 경험 작성기 문제 해결</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>고급 VEC(시각적 경험 작성기)에 대한 IP 주소가 업데이트되었습니다. </p> <p>VEC에 사용되는 IP 주소를 허용되는 경우 새 IP 주소를 추가합니다. </p> <p>자세한 내용은 <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">시각적 경험 작성기 문제 해결</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
