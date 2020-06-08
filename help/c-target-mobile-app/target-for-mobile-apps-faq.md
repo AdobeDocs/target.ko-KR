@@ -5,9 +5,9 @@ title: 모바일 앱용 Adobe Target에 대한 FAQ
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
+source-wordcount: '294'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Adobe Experience Platform Mobile SDK는 현재 iOS, Android 및 반응형 앱을
 
 ## Target Mobile은 Adobe Target Premium 제품 SKU의 기능만 제공합니까?
 
-Adobe Target Standard 고객의 경우 A/B 테스트 및 경험 타깃팅(XT) 활동에만 Mobile SDK를 사용할 수 있습니다. 모바일 앱에서 Recommendations 또는 AI 기반 기능을 사용하려면 [Adobe Target Premium](/help/c-intro/intro.md#premium) 라이선스가 필요합니다.
+아니오. 고객의 경우 [!DNL Adobe Target Standard] Mobile App Add-On에서만 A/B 테스트 및 경험 타깃팅(XT) 활동에 Mobile SDK를 사용할 수 [!DNL Target Standard] 있습니다. 모바일 앱에서 Recommendations 또는 AI 기반 기능을 사용하려면 [Adobe Target Premium](/help/c-intro/intro.md#premium) 라이선스가 필요합니다.
 
 ## AEM(Adobe Experience Manager)과 Target 모바일 활동 간에 모바일 앱 통합이 있습니까?
 
