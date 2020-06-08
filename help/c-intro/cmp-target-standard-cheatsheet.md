@@ -5,7 +5,7 @@ title: Target 최적화 및 개인화 FAQ
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '2904'
 ht-degree: 99%
@@ -190,7 +190,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa
 
 차단을 해제할 수 있는 [양식 기반 접근 방식](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)도 있습니다.
 
-또한 [고급 경험 작성기](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)가 유용한 경우와 그 이유도 읽어보십시오. IT 부서에 연락하여 [Adobe의 프록시 서버도 화이트리스트에 포함](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)해야 할 수 있습니다.
+또한 [고급 경험 작성기](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)가 유용한 경우와 그 이유도 읽어보십시오. IT 부서에 연락하여 [allowlist Adobe&#39;s proxy servers](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
 
 **응답하는 사이트가 있습니다. 활동을 만드는 동안, 핵심 장치를 고려하고 있는지를 어떻게 확인할 수 있습니까?**
 
