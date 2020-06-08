@@ -1,11 +1,14 @@
 ---
-keywords: faq;자주 묻는 질문;analytics for target;a4T;리디렉션;리디렉션 오퍼;adobe-mc-sdid;adobe_mc_ref
+keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redirect offer;adobe-mc-sdid;adobe_mc_ref
 description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(A4T)할 때의 리디렉션 오퍼 사용에 대한 FAQ 답변을 제공합니다.
 title: 리디렉션 오퍼 - A4T FAQ
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+workflow-type: tm+mt
+source-wordcount: '1207'
+ht-degree: 96%
 
 ---
 
@@ -42,13 +45,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 at.js 버전 1.6.3 이상에서 사용할 때 문제가 되지 않습니다. 이 경합 조건은 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀에서는 at.js의 현재 버전과 바로 전 버전, 이렇게 두 버전을 유지 관리합니다. [지원되는 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 실행 중인지 확인하려면 at.js를 필요에 따라 업그레이드하십시오.
 
-at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션이 첫 페이지에서 실행되기 전에 Analytics 호출이 실행될 수 있는 경합 조건이 발생할 수 있습니다. 이렇게 되면 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 모두 카운트되어 실제로는 방문자에게 첫 번째 페이지가 "표시"되지 않았는데 첫 번째 페이지에 추가 페이지 보기가 발생할 수 있습니다.
+at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션이 첫 페이지에서 실행되기 전에 Analytics 호출이 실행될 수 있는 경합 조건이 발생할 수 있습니다. 이렇게 되면 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 모두 카운트되어 실제로는 방문자에게 첫 번째 페이지가 &quot;표시&quot;되지 않았는데 첫 번째 페이지에 추가 페이지 보기가 발생할 수 있습니다.
 
 페이지 리디렉션의 속도를 높이도록 양식 기반 작성기를 사용하여 리디렉션 활동을 만드는 것이 좋습니다. 이것은 코드가 페이지에서 실행되는 위치 때문입니다. 또한, 리디렉션이 원래 페이지로 돌아가는 리디렉션 오퍼를 기본 경험을 포함한 모든 경험에 대해 만드는 것이 좋습니다. 이렇게 하면 잘못 카운트하는 경우 모든 경험에서 카운트 잘못이 발생하므로 보고와 분석이 테스트에 대해 여전히 유효합니다.
 
 기본(제어) 경험을 포함하여 활동의 모든 경험에 대해 리디렉션 오퍼를 사용하려는 한 가지 이유는 모든 경험에 동일한 조건을 적용하기 위해서입니다. 예를 들어 기본 경험에 리디렉션 오퍼가 없지만 다른 경험에 리디렉션 오퍼가 있는 경우 리디렉션 오퍼가 없는 경험의 속도가 고유한 이점이 있습니다. 리디렉션 오퍼는 테스트와 같은 임시 시나리오에만 권장됩니다. 리디렉션 오퍼는 개인화와 같은 영구 시나리오에 권장되지 않습니다. 우승자를 결정한 후 리디렉션을 제거하여 페이지 로드 성능을 개선해야 합니다.
 
-이 문제에 대한 자세한 내용은 [알려진 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)의 "리디렉션 오퍼" 정보를 참조하십시오.
+이 문제에 대한 자세한 내용은 [알려진 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)의 &quot;리디렉션 오퍼&quot; 정보를 참조하십시오.
 
 ## mbox.js JavaScript 라이브러리를 사용하는 경우 A4T에서 리디렉션 오퍼를 사용할 수 있습니까? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
@@ -66,14 +69,14 @@ at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션�
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| `adobe_mc_sdid` | `adobe_mc_sdid` 매개 변수는 A4T가 기본 페이지의 Target 요청을 새 페이지의 Analytic 요청과 함께 "결합"(stitch)하도록 기본 페이지의 SDID(보조 데이터 ID)와 Experience Cloud 조직 ID를 새 페이지에 전달합니다. |
+| `adobe_mc_sdid` | `adobe_mc_sdid` 매개 변수는 A4T가 기본 페이지의 Target 요청을 새 페이지의 Analytic 요청과 함께 &quot;결합&quot;(stitch)하도록 기본 페이지의 SDID(보조 데이터 ID)와 Experience Cloud 조직 ID를 새 페이지에 전달합니다. |
 | `adobe_mc_ref` | `adobe_mc_ref` 매개 변수는 기본 페이지의 참조 URL을 새 페이지에 전달합니다. AppMeasurement.js 버전 2.1(또는 이상)에서 사용하는 경우 Analytics는 이 매개 변수 값을 새 페이지의 참조 URL로 사용하게 됩니다. |
 
 이 매개 변수들은 페이지에 방문자 ID 서비스가 구현되어 있으면 VEC 및 양식 기반 경험 작성기에서 내장 리디렉션 오퍼를 사용할 때 리디렉션 URL에 자동으로 추가됩니다. VEC 또는 양식 기반 편집기에서 자신만의 사용자 지정 리디렉션 코드를 사용하는 경우 사용자 지정 코드와 함께 이 매개 변수를 전달해야 합니다.
 
 ## 내 웹 서버가 내 URL에서 이러한 매개 변수를 제거하고 있습니다.어떻게 해야 합니까? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-이러한 매개 변수(`adobe_mc_sdid`와 `adobe_mc_ref`)를 허용 목록에 추가하려면 IT 팀과 협력해야 합니다.
+You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
 
 ## 리디렉션 활동에 A4T를 사용하고 있지 않고 이러한 추가 매개 변수를 내 URL에 추가하지 않으려면 어떻게 합니까? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -87,13 +90,13 @@ A4T와 리디렉션 오퍼를 사용하는 경우, Target에서는 `adobe_mc_ref
 
 방문자 API에서 `adobe_mc_sdid` 값을 디코딩하려 할 때 이러한 이중 인코딩이 발생하면 SDID 값이 추출되지 않고 새 SDID가 생성됩니다. 결국 잘못된 SDID 값이 Target과 Analytics에 전송되고, Analytics 보고서에서는 리디렉션에 대한 분할이 균일하지 않게 나타납니다.
 
-해당 IT 팀에 얘기해서 `adobe_mc_ref`와 `adobe_mc_sdid`가 변환되지 않도록 이 매개 변수들을 허용 목록에 추가하는 것이 좋습니다.
+We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
 
 ## 참조 URL을 새 페이지에 전달해야 하는 이유는 무엇입니까? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-방문자가 리디렉션 활동이 라이브 상태인 홈 페이지([!DNL `www.mysite.com/index.html]`)에 연결된 링크를 [!DNL `www.google.com`]에서 클릭하여 새 페이지([!DNL `www.mysite.com/index2.html`])로 리디렉션된다고 가정해 보십시오.
+방문자가 리디렉션 활동이 라이브 상태인 홈 페이지([!DNL [!DNL `www.google.com`])에 연결된 링크를 `www.mysite.com/index.html]`에서 클릭하여 새 페이지([!DNL `www.mysite.com/index2.html`])로 리디렉션된다고 가정해 보십시오.
 
-이전이라면 새 페이지에 대한 [!DNL Analytics] 요청에서 [!DNL `www.google.com`]이 아니라 [!DNL `www.mysite.com/index.html`]을 참조 URL로 보고했을 것입니다. 이로 인해 참조 URL과 관련하여 [!DNL Analytics]에 정확하지 않은 보고가 발생했습니다(예를 들어 마케팅 채널 보고서에서). 보고서는 [!DNL `www.google.com`]을 통해 이 사이트에 왔다는 실제 정보를 잃어버린 것입니다.
+이전이라면 새 페이지에 대한 [!DNL Analytics] 요청에서 [!DNL `www.mysite.com/index.html`]이 아니라 [!DNL `www.google.com`]을 참조 URL로 보고했을 것입니다. 이로 인해 참조 URL과 관련하여 [!DNL Analytics]에 정확하지 않은 보고가 발생했습니다(예를 들어 마케팅 채널 보고서에서). 보고서는 [!DNL `www.google.com`]을 통해 이 사이트에 왔다는 실제 정보를 잃어버린 것입니다.
 
 [!DNL at.js] 버전 0.9.6(또는 이상)과 [!DNL AppMeasurement.js] 2.1(또는 이상)을 사용하면, 새 페이지에 대한 [!DNL Analytics] 요청에서 [!DNL `www.google.com`]이 참조 URL로 보고됩니다.
 
