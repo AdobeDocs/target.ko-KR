@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
 title: 호스트
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 63%
+ht-degree: 57%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 활동을 활성화하기 전에 호스트 관리를 사용하면 테스트, 스테이징 및 개발 환경에서 새 활동과 컨텐츠의 품질을 쉽게 보장할 수도 있습니다.
 
-[!DNL Target] 은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으므로 새 서버나 도메인이 들어오면 자동으로 작동합니다(화이트리스트 또는 블랙 리스트를 설정하지 않은 경우). 또한 모르거나 예상할 수 없는 여러 도메인에서 광고 테스트가 활성화됩니다.
+[!DNL Target] 은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으므로 새 서버나 도메인이 들어오면 자동으로 작동합니다(허용 목록 또는 차단 목록을 설정하지 않은 경우). 또한 모르거나 예상할 수 없는 여러 도메인에서 광고 테스트가 활성화됩니다.
 
 호스트를 관리하려면 **[!UICONTROL 관리]** > **[!UICONTROL 호스트를 클릭합니다]**.
 
@@ -70,11 +70,11 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
-[!DNL Target]으로 mbox 호출을 전송하도록 허가된 호스트(도메인)를 지정하는 허용 목록을 만들 수 있습니다. 호출을 생성하는 다른 모든 호스트는 주석 처리된 인증 오류 응답을 받게 됩니다. 기본적으로 mbox 호출이 포함된 모든 호스트는 프로덕션 환경에서 [!DNL Target]에 등록되며 모든 활성 상태의 승인된 활동에 액세스할 수 있습니다. 이 방식을 원하지 않는 경우 대신 허용 목록을 사용하여 mbox 호출을 수행할 수 있는 특정 호스트를 기록하고 [!DNL Target] 컨텐츠를 수신할 수 있습니다. 모든 호스트는 [!UICONTROL 호스트] 목록에 계속 표시되며 환경은 이러한 호스트를 그룹화하고 각각에 다른 수준(예: 호스트가 활성 상태 캠페인을 볼 수 있는지 및/또는 비활성 상태 캠페인을 볼 수 있는지)을 지정하는 데 사용될 수 있습니다.
+You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. 호출을 생성하는 다른 모든 호스트는 주석 처리된 인증 오류 응답을 받게 됩니다. 기본적으로 mbox 호출이 포함된 모든 호스트는 프로덕션 환경에서 [!DNL Target]에 등록되며 모든 활성 상태의 승인된 활동에 액세스할 수 있습니다. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. 모든 호스트는 [!UICONTROL 호스트] 목록에 계속 표시되며 환경은 이러한 호스트를 그룹화하고 각각에 다른 수준(예: 호스트가 활성 상태 캠페인을 볼 수 있는지 및/또는 비활성 상태 캠페인을 볼 수 있는지)을 지정하는 데 사용될 수 있습니다.
 
-허용 목록을 만들려면 다음을 수행하십시오.
+허용 목록을 만들려면:
 
 1. 호스트 [!UICONTROL 목록에서 호스트] 권한 **[!UICONTROL 을 클릭합니다]**.
 1. 컨텐츠 **[!UICONTROL 전달에 대해 인증된 호스트 활성화 전환을]** 활성화합니다.
@@ -92,9 +92,9 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 >[!IMPORTANT]
 >
->**보안 모범 사례**: 의 ubox 기능을 사용하는 경우 이 허용 목록 [!DNL Target]은 리디렉터가 탐색할 수 있는 도메인 목록도 [제어합니다](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . 구현의 일부로 ubox를 사용할 때 리디렉션할 도메인을 추가하는지 확인하십시오. 허용 목록이 지정되지 않은 상태로 있으면 Adobe는 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다.
+>**보안 모범 사례**: 의 ubox 기능을 사용하는 [!DNL Target]경우 이 허용 목록은 리디렉터가 탐색할 수 있는 도메인 목록도 [제어합니다](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . 구현의 일부로 ubox를 사용할 때 리디렉션할 도메인을 추가하는지 확인하십시오. allowlist를 지정하지 않은 경우 Adobe는 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다.
 >
->허용 목록은 환경보다 우선합니다. 허용 목록 기능을 사용하기 전에 모든 호스트를 지워야 합니다. 그래야 허용 목록에서 허용되는 호스트만 호스트 목록에 표시됩니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
+>allowlist가 환경보다 우선합니다. allowlist 기능을 사용하기 전에 모든 호스트를 지워야 합니다. 그러면 허용 목록에서 허용되는 호스트만 호스트 목록에 표시됩니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 
 다른 사이트의 도메인이 환경에 표시되는 경우가 있습니다. 도메인이 at.js 또는 mbox.js를 호출하는 경우 목록에 나타납니다. 예를 들어 웹 페이지 중 하나를 서버로 복사하면 해당 도메인이 환경에 표시됩니다. 스파이더 엔진, 언어 번역기 사이트 또는 로컬 디스크 드라이브에서 도메인을 볼 수도 있습니다.
 
@@ -104,7 +104,7 @@ To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Sea
 
 >[!NOTE]
 >
->승인된 호스트 목록은 mbox 호스트 및 기본 리디렉션 호스트 모두에 사용되므로 Adobe Target Javascript SDK(at.js) *AND* ubox 기본 리디렉션 url에 사용된 모든 도메인을 사용하도록 승인된 기존 도메인을 모두 추가해야 합니다. 나중에 허용 목록에 유사한 새 도메인을 추가해야 합니다.
+>승인된 호스트 목록은 mbox 호스트 및 기본 리디렉션 호스트 모두에 사용되므로 Adobe Target Javascript SDK(at.js) *AND* ubox 기본 리디렉션 url에 사용된 모든 도메인을 사용하도록 승인된 기존 도메인을 모두 추가해야 합니다. 향후 허용 목록에 유사한 새 도메인을 추가해야 합니다.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
