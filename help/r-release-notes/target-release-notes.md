@@ -5,7 +5,7 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 68d49d4cdfd76fdea9c1e004adfaf7e6044d22bb
+source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 21%
@@ -23,7 +23,7 @@ ht-degree: 21%
 
 >[!NOTE]
 >
->* **mbox.js 사용 중단**: 2020년 8월 30일에 Adobe Target은 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2020년 8월 30일 이후 mbox.js에서 수행된 모든 호출이 실패하고 Target 활동이 실행되는 페이지에 영향을 줍니다. 사이트의 잠재적인 문제를 방지하려면 모든 고객이 이 날짜 전에 at.js 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 자세한 내용은 *Adobe Target 스킬 빌더: 개발자 채팅에서 자세한 내용을 보려면 Adobe Target의 mbox.js를* 아래 at.js로 마이그레이션하십시오.
+>* **mbox.js 사용 중단**: 2020년 8월 30일에 Adobe Target은 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2020년 8월 30일 이후 mbox.js에서 수행된 모든 호출이 실패하고 Target 활동이 실행되는 페이지에 영향을 줍니다. 사이트의 잠재적인 문제를 방지하려면 모든 고객이 이 날짜 전에 at.js 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). 자세한 내용은 *Adobe Target 기술 빌더를 참조하십시오. 개발자 채팅에서 자세한 내용을 보려면 Adobe Target의 mbox.js를* 아래 at.js로 마이그레이션하십시오.
    >
    >   
    mbox.js는 현재 지원되지만 2017년 7월부터 이 라이브러리에 대한 기능 업데이트를 제공하지 않았습니다. 최신 at.js는 mbox.js보다 많은 이점을 제공합니다. 그 외에도 at.js는 웹 구현을 위한 페이지 로드 시간을 향상시키고, 보안을 향상시키며, 단일 페이지 애플리케이션에 대한 더 나은 구현 옵션을 제공합니다.
@@ -40,7 +40,7 @@ ht-degree: 21%
 | 기능/향상 | 설명 |
 | --- | --- |
 | Analytics for Target (A4T) 자동 할당 활동 지원 | 6월 릴리스에서는 자동 할당 테스트가 [Target용 Analytics를 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md). 이 통합을 사용하면 Adobe Analytics 목표 지표 및/또는 Adobe Analytics 보고 및 분석 기능을 사용하는 동안 자동 할당의 여러 무장 강도적 기능을 사용하여 트래픽을 이기고 탁월한 경험으로 유도할 수 있습니다. A/B 테스트 및 경험 [타깃팅 활동에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정됩니다. |
-| 게시자 역할 | 이 새 역할은 현재 옵저버 역할과 비슷합니다(활동은 볼 수 있지만 만들거나 편집할 수는 없습니다). 그러나 게시자 역할에는 활성 활동에 대한 추가 권한이 있습니다. |
+| 게시자 역할 | 이 새 역할은 현재 옵저버 역할과 비슷합니다(활동은 볼 수 있지만 만들거나 편집할 수는 없습니다). 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 | 관리<br>페이지이전에 &quot;설정&quot;이었습니다. | 설정 페이지의 이름이 &quot;관리&quot;로 변경되었으며 모든 메뉴 항목의 UI가 워크플로우 및 사용 편이성을 개선하기 위해 업데이트되었습니다.<br>사용 가능한 메뉴 항목은 다음과 같습니다.<ul><li>시각적 경험 작성기</li><li>보고</li><li>Scene7 설정</li><li>구현</li><li>속성</li><li>호스트</li><li>환경</li><li>응답 토큰</li><li>사용자</li></ul> |
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
