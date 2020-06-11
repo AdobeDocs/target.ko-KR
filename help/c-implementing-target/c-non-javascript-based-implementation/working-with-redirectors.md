@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 73%
@@ -60,7 +60,7 @@ ht-degree: 73%
 
       >[!IMPORTANT]
       >
-      >리디렉터를 사용하면 개방형 리디렉션 취약점의 위험에 노출될 수 있습니다. 제3자가 리디렉터 링크를 무단으로 사용하지 않도록 하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 나열할 것을 권장합니다. Target은 호스트를 사용하여 리디렉션을 허용할 도메인을 허용합니다. 자세한 내용은 호스트 [에서 mbox 호출을 Target으로 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#whitelist) 만들기를 *참조하십시오*.
+      >리디렉터를 사용하면 개방형 리디렉션 취약점의 위험에 노출될 수 있습니다. 제3자가 리디렉터 링크를 무단으로 사용하지 않도록 하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 나열할 것을 권장합니다. Target은 호스트를 사용하여 리디렉션을 허용할 도메인을 허용합니다. 자세한 내용은 호스트 [에서 mbox 호출을 Target으로 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#allowlist) 만들기를 *참조하십시오*.
 
 
 1. 리디렉터의 유효성을 확인합니다.
