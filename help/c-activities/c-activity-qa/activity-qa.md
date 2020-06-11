@@ -5,10 +5,10 @@ title: 활동 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 87%
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ Adobe Target의 QA URL을 사용하면 변경되지 않는 미리 보기 링크,
 
    이러한 이중 인코딩 때문에 `at_preview_token`을 디코딩하려 할 때 올바른 토큰 값이 추출되지 않고 새 미리 보기가 작동하지 않습니다.
 
-   IT 팀에 얘기해서 모든 미리 보기 변수 값이 어떤 식으로든 변환되지 않도록 이 매개 변수들을 허용 목록에 추가하는 것이 좋습니다.
+   IT 팀에 문의하여 모든 미리 보기 매개 변수가 표시되므로 이러한 값이 어떤 식으로든 변형되지 않도록 하는 것이 좋습니다.
 
    다음 표에는 도메인에 나열될 수 있는 매개 변수가 나와 있습니다.
 
