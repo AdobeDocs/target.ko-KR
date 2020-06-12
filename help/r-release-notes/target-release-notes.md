@@ -5,10 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
+source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 20%
+source-wordcount: '495'
+ht-degree: 18%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2020년 6월 10일**
+**마지막 업데이트: 2020년 6월 12일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -34,6 +34,20 @@ ht-degree: 20%
    >
 * **타겟 공지**: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
 
+
+## at.js 1.8.2 및 at.js 2.3.1 릴리스(2020년 6월 15일)
+
+at.js 라이브러리에서 다음과 같은 개선 및 수정 사항이 [!DNL Target] 수행되었습니다.
+
+### at.js 1.8.2
+
+* CNAME 및 Edge Override를 사용하는 경우 at.js 1.*x* 서버 도메인을 잘못 만들면 요청이 [!DNL Target] 실패할 수 있습니다. (TNT-35064)
+
+### at.js 2.3.1
+
+* targetGlobalSettings를 통해 `deviceIdLifetime` 설정이 [오버라이드되도록 했습니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
+* CNAME 및 Edge Override를 사용하는 경우 at.js 2.*x* 서버 도메인을 잘못 만들면 요청이 [!DNL Target] 실패할 수 있습니다. (TNT-35065)
+* 확장 v2 및 [!DNL Target] 확장 [!DNL Launch] 을 사용할 때 [!DNL Adobe Analytics] 호출이 [!DNL Launch][!DNL Target] 지연되었습니다 [!DNL Analytics] `sendBeacon` . (TNT-36407, TNT-35990, TNT-3600)
 
 ## Target Standard/Premium 20.5.1(2020년 6월 17일)
 
