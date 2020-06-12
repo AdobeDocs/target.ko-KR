@@ -5,10 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
 workflow-type: tm+mt
-source-wordcount: '1040'
-ht-degree: 32%
+source-wordcount: '1059'
+ht-degree: 33%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 12일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `deviceIdLifetime` 설정에 대한 정보가 추가되었습니다. |
+|  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | at.js 1.8.2 및 at.js 2.3.1 릴리스에 대한 정보가 추가되었습니다. |
 | 6월 8일 | [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 다음 FAQ에 대한 텍스트가 업데이트되었습니다. &quot;Target Mobile은 Adobe Target Premium 제품 SKU의 기능만 제공합니까?&quot; |
 |  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 전체 주제가 업데이트되었습니다. |
 | 6월 5일 | [타겟 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 6월 10일 Adobe Target 커피 브레이크 관련 정보가 추가되었습니다. |
