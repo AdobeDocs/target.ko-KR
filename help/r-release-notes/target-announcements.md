@@ -4,10 +4,10 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Co
 title: 타겟 공지
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
+source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -15,27 +15,6 @@ ht-degree: 2%
 # 타겟 공지 및 이벤트
 
 Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Coffee Break 세션 등 예정된 이벤트에 대한 정보입니다.
-
-## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
-
-**2020년 6월 10일 수요일**
-
-**오전 10시에서 11시 (PST)**
-
-앞으로 있을 커뮤니티 Q&amp;A [!DNL Adobe Target] 커피 파크에 참여하십시오! 이는 &quot;Coffee Break&quot;를 위한 Adobe 포럼 실선에서 Adobe의 내부 전문가들이 귀하와 직접 교류하는 것을 돕기 위해 최근에 실시된 일련의 사례입니다. AMA(Ask Me Anything)나 twitter-chat와 같은 [!DNL Adobe Target] 커뮤니티 포럼으로 생각해 보십시오.
-
-제품 관리자인 David Son이 모든 질문에 답변해 드릴 것입니다. [!DNL Target] David의 전문 분야는 다음과 같습니다.
-
-* at.js
-* 모바일
-* Adobe Experience Platform - AEP Web SDK(합금)
-* API
-
-Target 관련 질문에 자유롭게 답변합니다.
-
-참가하려면 [Adobe Target 커뮤니티에](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) 로그인해야 합니다.
-
-[여기에 등록](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Target 스킬 빌더: 개발자 채팅, Adobe Target의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
