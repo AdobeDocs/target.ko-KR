@@ -5,9 +5,9 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '515'
 ht-degree: 17%
 
 ---
@@ -45,7 +45,6 @@ ht-degree: 17%
 
 ### 개선 사항, 수정 및 변경 사항
 
-* 전역 mbox 지정을 쉽게 하도록 Target UI가 개선되었습니다. (TGT-15280)
 * &quot;방문자 수&quot; 지표가 &quot;고유 방문자 수&quot; 대신 활동의 정의에 저장되는 문제를 해결했습니다. (TGT-37098)
 * 대상 [!DNL Target] 페이지 [!UICONTROL 에서 세로 스크롤 막대가 제대로 작동하지 않는 UI의 문제를] 수정했습니다. (TGT-36968)
 
