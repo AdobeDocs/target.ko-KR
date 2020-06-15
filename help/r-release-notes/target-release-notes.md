@@ -5,10 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '508'
-ht-degree: 17%
+source-wordcount: '563'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2020년 6월 12일**
+**마지막 업데이트: 2020년 6월 15일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -55,6 +55,7 @@ at.js 라이브러리에서 다음과 같은 개선 및 수정 사항이 [!DNL T
 | --- | --- |
 | Analytics for Target (A4T) 자동 할당 활동 지원 | 6월 릴리스에서는 자동 할당 테스트가 [Target용 Analytics를 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md). 이 통합을 사용하면 Adobe Analytics 목표 지표 및/또는 Adobe Analytics 보고 및 분석 기능을 사용하는 동안 자동 할당의 여러 무장 강도적 기능을 사용하여 트래픽을 이기고 탁월한 경험으로 유도할 수 있습니다. A/B 테스트 및 경험 [타깃팅 활동에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정됩니다. |
 | 게시자 역할 | 이 새 역할은 현재 옵저버 역할과 비슷합니다(활동은 볼 수 있지만 만들거나 편집할 수는 없습니다). 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
+| 2020년 6 [!DNL Analysis Workspace]<br>월 25일에 A4T 지원 | [!UICONTROL 이제 Target] (A4T)용 분석이 지원됩니다 [!DNL Analysis Workspace]. 타겟 [!UICONTROL 분석(A4T) 패널에서는] 내 [!DNL Adobe Target] 활동과 경험을 분석할 수 [!DNL Analysis Workspace]있습니다.<br>자세한 내용은 [분석 도구 안내서의 타겟 분석(A4T) 패널](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 을 *참조하십시오*. |
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
