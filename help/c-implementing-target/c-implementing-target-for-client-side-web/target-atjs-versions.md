@@ -5,7 +5,10 @@ title: at.js 버전 세부 사항
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+workflow-type: tm+mt
+source-wordcount: '3947'
+ht-degree: 86%
 
 ---
 
@@ -18,13 +21,27 @@ source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 >
 >Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오.
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 는 at.js를 업그레이드할 때 사용하는 기본 방법입니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 카탈로그에서 업그레이드로 사용할 수 [!DNL Launch] 있습니다. 자세한 내용은 Experience Platform [Launch 사용자](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 안내서의 *Extension Upgrade를 참조하십시오*.
+>[Adobe Experience Platform 론치는](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) at.js를 업그레이드할 때 사용하는 기본 방법입니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 카탈로그에서 업그레이드로 사용할 수 [!DNL Launch] 있습니다. 자세한 내용은 [Experience Platform Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 의 익스텐션 업그레이드 *를 참조하십시오*.
+
+## at.js 1.8.2(2020년 6월 15일)
+
+at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항이 포함되어 있습니다.
+
+* at.js 1, CNAME 및 Edge Override 사용 시 발생하는 문제를 수정했습니다.*x* 서버 도메인을 잘못 만들면 요청이 [!DNL Target] 실패할 수 있습니다. (TNT-35064)
+
+## at.js 2.3.1 릴리스(2020년 6월 15일)
+
+at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
+
+* targetGlobalSettings를 통해 `deviceIdLifetime` 설정이 [오버라이드되도록 했습니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
+* at.js 2에서 CNAME 및 Edge Override를 사용할 때 발생하는 문제가 해결되었습니다.*x* 서버 도메인을 잘못 만들면 요청이 [!DNL Target] 실패할 수 있습니다. (TNT-35065)
+* 확장 v2 및 [!DNL Target] 확장 [!DNL Launch] 을 사용할 때 [!DNL Adobe Analytics] 통화가 [!DNL Launch] 지연되는 문제가 [!DNL Target][!DNL Analytics] `sendBeacon` 수정되었습니다. (TNT-36407, TNT-35990, TNT-3600)
 
 ## at.js 버전 2.3.0(2020년 3월 25일)
 
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
-* 배달된 Target 오퍼를 적용할 때 DOM 페이지에 추가된 SCRIPT 및 STYLE 태그에 대한 Content Security 정책 원본을 설정할 수 있습니다. 고객은 at.js가 적용된 오퍼 `targetGlobalSettings.cspScriptNonce` 에서 해당 스크립트 및 스타일 태그 원본을 설정할 수 있도록 설정 및 `targetGlobalSettings.cspStyleNonce` 설정할 수 있습니다. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* 배달된 Target 오퍼을 적용할 때 DOM 페이지에 추가된 SCRIPT 및 STYLE 태그에 대한 Content Security 정책 원본을 설정할 수 있습니다. 고객은 at.js가 적용된 오퍼 `targetGlobalSettings.cspScriptNonce` 에서 해당 스크립트 및 스타일 태그 원본을 설정할 수 있도록 설정 및 `targetGlobalSettings.cspStyleNonce` 설정할 수 있습니다. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
 * Google 태그 관리자 배포용 Google Closure 컴파일러를 사용하여 at.js를 컴파일할 때 발생하는 문제가 해결되었습니다.
 * 고객의 구현과 충돌을 방지하기 위해 at.js 확인 쿠키 `check` 의 이름을 `at_check` 변경할 수 있습니다.
 
@@ -38,21 +55,21 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 at.js의 이번 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
 
-* 페이지 요소에 Adobe Analytics 코드가 없을 때 클릭 추적이 Analytics for Target(A4T)의 전환을 보고하지 않았던 문제를 수정했습니다.
-* 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4 및 at.js 2.2를 모두 사용할 때의 성능이 개선되었습니다.
+* 페이지 요소에 Adobe Analytics 코드가 없을 때 클릭 추적이 Target(A4T)에 대한 Analytics의 전환을 보고하지 않았던 문제를 수정했습니다.
+* 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4와 at.js 2.2를 모두 사용할 때의 성능이 개선되었습니다.
 * 이전에는 at.js가 경험을 가져오기 전에 ECID에서 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 개선되었습니다.
 
    >[!NOTE]
    >
    >향상된 성능을 활용하려면 ECID Launch Extension을 v4.4로 업그레이드하십시오.
 
-* at.js 버전 2.2에서는 `serverState` 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합은 경험을 제공하기 위해 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+를 제공하여 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* at.js 버전 2.2에서는 `serverState` 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 제공하여 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다. For more information, see &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js 버전 1.8.0(2019년 10월 10일)
 
 at.js의 이번 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
 
-* 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4 및 at.js 1.8을 모두 사용할 때의 성능이 개선되었습니다.
+* 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4와 at.js 1.8을 모두 사용할 때의 성능이 개선되었습니다.
 * 이전에는 at.js가 경험을 가져오기 전에 ECID에서 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 개선되었습니다.
 
 >[!NOTE]
