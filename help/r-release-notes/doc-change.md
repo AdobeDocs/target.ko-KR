@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '1059'
+source-wordcount: '1079'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 15일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | A4T 지원에 대한 정보를 포함하도록 [!DNL Target Standard/Premium] 20.5.1 릴리스(2020년 6월 17일)의 노트를 [!DNL Analysis Workspace]업데이트했습니다. |
 | 6월 12일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `deviceIdLifetime` 설정에 대한 정보가 추가되었습니다. |
 |  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | at.js 1.8.2 및 at.js 2.3.1 릴리스에 대한 정보가 추가되었습니다. |
 | 6월 8일 | [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | 다음 FAQ에 대한 텍스트가 업데이트되었습니다. &quot;Target Mobile은 Adobe Target Premium 제품 SKU의 기능만 제공합니까?&quot; |
