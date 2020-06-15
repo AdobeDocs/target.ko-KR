@@ -5,9 +5,9 @@ title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSetti
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1648'
 ht-degree: 41%
 
 ---
@@ -91,6 +91,10 @@ ht-degree: 41%
 * **기본값**: 63244800000ms = 2년
 * **설명**: 쿠키에 `deviceId` 남아 있는 시간입니다.
 
+>[!NOTE]
+>
+>deviceIdLifetime 설정은 at.js 버전 2.3.1 이상에서 사용할 수 있습니다.
+
 ### 활성화됨
 
 * **유형**: 부울
@@ -115,7 +119,7 @@ ht-degree: 41%
 
 * **유형**: 부울
 * **기본값**: false
-* **설명**: Target에서 방문자 API 함수를 호출할지 여부를 `isOptedOut()` 나타냅니다. Device Graph 지원의 일부입니다.
+* **설명**: Target이 방문자 API 함수를 호출해야 하는지 여부를 `isOptedOut()` 나타냅니다. Device Graph 지원의 일부입니다.
 
 ### overrideMboxEdgeServer
 
@@ -316,7 +320,7 @@ var weatherProvider = {
 
 ## Content Security Policy {#content-security}
 
-at.js 2.3.0+는 제공된 Target 오퍼를 적용할 때 페이지 DOM에 첨부된 SCRIPT 및 STYLE 태그에서 Content Security 정책 논점 설정을 지원합니다.
+at.js 2.3.0+는 배달된 Target 오퍼을 적용할 때 페이지 DOM에 첨부된 SCRIPT 및 STYLE 태그의 Content Security 정책 원본을 설정할 수 있도록 지원합니다.
 
 at.js 2.3.0+ 로딩 전에 SCRIPT 및 STYLE 원본을 `targetGlobalSettings.cspScriptNonce` in `targetGlobalSettings.cspStyleNonce` 과 이에 따라 설정해야 합니다. 아래 예를 참조하십시오.
 
@@ -335,11 +339,11 @@ window.targetGlobalSettings = {
 ...
 ```
 
-이후 `cspScriptNonce` 및 `cspStyleNonce` 설정이 지정되면 at.js 2.3.0+은 이러한 속성을 Target 오퍼를 적용할 때 DOM에 추가되는 모든 SCRIPT 및 STYLE 태그의 한 번 속성으로 설정합니다.
+이후 `cspScriptNonce` 및 `cspStyleNonce` 설정이 지정되면 at.js 2.3.0+은 이러한 속성을 Target 오퍼을 적용할 때 DOM에 추가되는 모든 SCRIPT 및 STYLE 태그의 한 번 속성으로 설정합니다.
 
 ## 하이브리드 개인화 {#server-state}
 
-`serverState` 은 at.js v2.2+에서 사용할 수 있는 설정으로, Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합은 경험을 제공하기 위해 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+를 제공하여 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다.
+`serverState` 은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있는 at.js v2.2+에서 사용할 수 있는 설정입니다. 하이브리드 통합이란 클라이언트측에서 at.js v2.2+를 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 전달하는 것을 의미합니다. `serverState` 는 at.js v2.2+를 제공하여 서버 측에서 가져온 컨텐츠에서 직접 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다.
 
 ### 전제 조건
 
@@ -350,7 +354,7 @@ window.targetGlobalSettings = {
 
 ### 코드 샘플
 
-이 작동 방식을 보다 잘 이해하려면 아래 코드 예제를 통해 서버에 게시해 주십시오. 이 코드는 사용자가 [Target Node.js SDK를 사용하고 있다고 가정합니다](https://github.com/adobe/target-nodejs-sdk).
+이 작동 방식을 보다 잘 이해하려면 아래 코드 예제를 통해 서버에 게시해 주십시오. 이 코드에서는 사용자가 [Target Node.js SDK를 사용하고 있다고 가정합니다](https://github.com/adobe/target-nodejs-sdk).
 
 ```
 // First, we fetch the offers via Target Node.js SDK API, as usual
@@ -462,7 +466,7 @@ Consider the following when using `serverState`:
    * 페이지 로드 시 실행되는 VEC 생성 활동
    * 미리 반입된 뷰
 
-      보기 및 at.js API를 사용하는 SPA [!DNL Target] 의 경우 at.js v2.2는 서버측에서 프리페치된 모든 뷰에 대한 컨텐츠를 캐시하고 각 보기가 트리거되는 즉시 Target에 대한 추가 컨텐츠 페치 호출을 실행하지 않고 `triggerView()` `triggerView()`다시 적용합니다.
+      보기 및 at.js API [!DNL Target] 를 사용하는 SPA의 경우, at.js v2.2는 서버측에서 프리페치된 모든 뷰에 대한 컨텐츠를 캐시하고 각 보기가 트리거되는 즉시 이를 적용하여 Target에 대한 추가 컨텐츠 페치 호출을 실행하지 `triggerView()` `triggerView()`않고 다시 적용합니다.
 
    * **참고**:  현재, 서버측에서 검색한 mbox는 에서 지원되지 않습니다 `serverState`.
 
