@@ -1,10 +1,13 @@
 ---
-keywords: 통합;역할;사용자 권한;Admin Console
+keywords: integration;roles;user permissions;admin console
 description: Adobe Target에서 원하는 역할을 가진 모든 작업 공간에 기존 Adobe I/O 통합 액세스 권한을 부여하는 것과 관련된 정보입니다.
 title: Adobe Target에서 작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당
-subtopic: 시작하기
+subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
 
@@ -35,7 +38,7 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 >[!NOTE]
 >
->이 작업이 수행되지 않으면 [!DNL Target] 2019년 9월 릴리스 이후 액세스 제어가 활성화되고 현재 설정된 방식으로 기본 작업 영역에 대한 액세스를 관찰할 수 있습니다. 통합을 미리 설정해도 부작용이 없습니다. 더 빨리 변경할수록 더 나은 결과를 얻을 수 있습니다. 조직의 작업 영역 수에 따라 이 프로세스는 몇 번의 클릭만으로 원하는 역할이 있는 작업 영역에 기존 통합을 추가할 수 있습니다.
+>이 작업이 수행되지 않으면 [!DNL Target] 2019년 9월 릴리스 이후 액세스 제어가 활성화되고 현재 설정된 방식으로 기본 작업 영역에 대한 액세스를 관찰할 수 있습니다. 통합을 미리 설정해도 부작용이 없습니다. 더 빨리 변경할수록 더 나은 결과를 얻을 수 있습니다. 조직의 작업 영역 수에 따라 이 프로세스는 원하는 역할을 가진 작업 영역에 기존 통합을 추가하는 데 몇 번의 클릭만으로 이루어집니다.
 
 **작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할을 할당하는 방법:**
 
@@ -57,7 +60,9 @@ With the [!DNL Target] September 2019 release, [!DNL Target] [!UICONTROL Enterpr
 
 1. **[!UICONTROL 제품 역할]** 드롭다운 목록에서 해당 작업 영역에 대해 원하는 역할을 선택합니다.
 
-   * [!UICONTROL 승인자]
-   * [!UICONTROL 편집자]
-   * [!UICONTROL 관찰자]
-   ![제품 프로필 역할 선택](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | 역할 | 설명 |
+   |--- |--- |
+   | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
+   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+   | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
+   | 게시자 | 옵저버 역할과 유사(활동을 볼 수 있지만 만들거나 편집할 수는 없음) 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
