@@ -5,7 +5,7 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
+source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 17%
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2020년 6월 15일**
+**마지막 업데이트: 2020년 6월 17일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
