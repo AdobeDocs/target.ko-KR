@@ -5,10 +5,10 @@ title: Enterprise 권한 구성
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 77%
+source-wordcount: '1418'
+ht-degree: 73%
 
 ---
 
@@ -34,7 +34,7 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. Adobe Target에서 **[!UICONTROL 관리]** > **[!UICONTROL 속성]** ****>작업 영역에 속성할당을 클릭합니다.
+1. Adobe Target에서 **[!UICONTROL 관리]** > **[!UICONTROL 속성]** ****> 작업 영역에속성할당을 클릭합니다.
 
    또는
 
@@ -74,6 +74,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
       * [!DNL Admin Console for Enterprise]에서 새 작업 공간 만들기
       * 작업 공간에 Target 속성 지정
+
    이러한 작업 공간을 사용하여 지역, 사업부, 사이트 섹션별로 또는 선택한 다른 방법을 통해 여러 다른 팀에 대한 액세스를 구분할 수 있습니다. 사용자는 여러 작업 공간에 속할 수 있으며, 각 작업 공간에서 서로 다른 역할을 가질 수 있습니다.
 
 1. *Enterprise 사용 안내서*&#x200B;에 포함된 [제품 구성 만들기 및 관리](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)의 지침에 따르십시오.
@@ -172,22 +173,28 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 1. Admin Console에서 **[!UICONTROL 제품]**&#x200B;을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
 
-   ![작업 공간](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![작업 공간](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. 원하는 프로필의 이름을 클릭합니다.
+1. 원하는 프로필의 이름(예: 기본 작업 공간)을 클릭합니다.
+
+   ![기본 작업 공간](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. **[!UICONTROL 사용자를 클릭합니다]**.
 
    [!UICONTROL 사용자] 탭에는 해당 작업 공간의 모든 사용자가 표시됩니다.
 
-   ![사용자 구성](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![구성 사용자](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. [!UICONTROL 제품 역할] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할(승인자, 편집자 또는 관찰자)을 선택합니다.
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![제품 역할 드롭다운 목록](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 역할 | 설명 |
    |--- |--- |
-   | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
    | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
+   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+   | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
+   | 게시자 | 옵저버 역할과 유사(활동을 볼 수 있지만 만들거나 편집할 수는 없음) 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
    자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제공 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
 
