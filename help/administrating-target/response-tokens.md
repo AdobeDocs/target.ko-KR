@@ -1,12 +1,15 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: '응답 토큰을 사용하면 디버깅 또는 타사 시스템(예: Clicktale)과의 통합에 사용할 타겟 특정 정보(활동 세부 사항, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
+description: '응답 토큰을 사용하면 디버깅하거나 타사 시스템(예: Clicktale)과 통합하는 데 사용할 Target 관련 정보(활동 세부 정보, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
 title: Adobe Target의 응답 토큰
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '1484'
+ht-degree: 92%
 
 ---
 
@@ -34,9 +37,9 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
    자세한 내용은 [at.js 다운로드](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오.
 
-1. [!DNL Target]에서 **[!UICONTROL 설정]** > **[!UICONTROL 응답 토큰]**&#x200B;을 클릭합니다.
+1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
-   ![](assets/response_tokens.png)
+   ![](assets/response_tokens-new.png)
 
 1. `activity.id`, `option.id` 등 원하는 응답 토큰을 활성화합니다.
 
@@ -62,9 +65,9 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
    >
    >특수 문자가 있는 매개 변수는 목록에 표시되지 않습니다. 영숫자 문자 및 밑줄만 지원됩니다.
 
-1. (조건부) 프로필 매개 변수를 응답 토큰으로 사용하고 싶지만, 매개 변수가 mbox 호출을 통해 전달되지 않아서 Target UI에 로드되지 않은 경우, 만들기 단추를 사용하여 프로필을 UI에 추가할 수 있습니다.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
-   **[!UICONTROL 만들기]**&#x200B;를 클릭하고 토큰 이름을 제공한 다음, **[!UICONTROL 활성화]**&#x200B;를 클릭하십시오.
+   응답 **[!UICONTROL 토큰]**&#x200B;추가를 클릭하고 토큰 이름을 입력한 다음 활성화를 **[!UICONTROL 클릭합니다]**.
 
    ![](assets/response_token_create.png)
 
@@ -279,7 +282,7 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 </script>
 ```
 
-## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5} 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오를 시청하여 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 학습하십시오.
 
