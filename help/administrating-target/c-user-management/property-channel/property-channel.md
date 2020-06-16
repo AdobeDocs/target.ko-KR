@@ -5,10 +5,10 @@ title: Enterprise 사용자 권한
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '2899'
-ht-degree: 85%
+source-wordcount: '2948'
+ht-degree: 84%
 
 ---
 
@@ -87,9 +87,12 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 역할 및 권한은 사용자가 [!DNL Target] 구현에서 활동을 만들고 관리하기 위해 보유해야 하는 액세스 권한 수준을 결정합니다. [!DNL Target]에서 역할에는 다음이 포함됩니다.
 
-* **[!UICONTROL 관찰자]**: 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다.
-* **[!UICONTROL 편집기]**: 활동이 라이브되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다.
-* **[!UICONTROL 승인자]**: 활동을 생성, 편집, 활성화 또는 중지할 수 있습니다.
+| 역할 | 설명 |
+|--- |--- |
+| 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
+| 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+| 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
+| 게시자 | 옵저버 역할과 유사(활동을 볼 수 있지만 만들거나 편집할 수는 없음) 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
 ### 채널
 
@@ -115,10 +118,10 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 | 역할 | 설명 |
 |--- |--- |
-| 관찰자 | 활동에 대한 읽기 전용 액세스 권한이 있습니다. 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-| 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
 | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
-
+| 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+| 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
+| 게시자 | 옵저버 역할과 유사(활동을 볼 수 있지만 만들거나 편집할 수는 없음) 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 아래와 같이 [!DNL Target] 태그를 포함하는 계정의 모든 페이지, 속성 또는 사이트에 각 사용자의 역할이 적용된다는 점에 유의해야 합니다.
 
 ![](assets/permissions_2.png)
@@ -241,6 +244,7 @@ Consider the following when using or configuring properties and permissions in [
    * 활동, 대상, 코드 오퍼, 이미지 오퍼 또는 Target Classic, Adobe Experience Manager(AEM), Adobe Mobile Services와 같은 솔루션이나 방법을 사용하여 만든 기타 모든 리소스와 API를 통해 생성된 리소스는 엔터프라이즈 권한 모델로 제어할 수 없지만 기본 작업 공간의 일부가 됩니다. API를 통해 만든 리소스에는 활동, 대상, 코드 오퍼, 이미지 오퍼가 포함됩니다.
    * 이미지 오퍼(`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`에 저장된 자산)는 현재 엔터프라이즈 권한 모델로 제어할 수 없습니다.
    * clickTracking 및 리디렉션은 대상 링크 또는 대상 페이지가 활동에 포함된 속성의 일부일 때만 작동합니다. 또한 `targetPageParams()` 함수를 사용할 경우 clickTracking이 작동하지 않을 수 있습니다. `targetPageParamsAll()`이 권장되는 함수입니다.
+
    [!DNL Target] 현재 추적이 발생하는 페이지에 `at_property` 토큰이 있어야 합니다. 토큰이 (1) 없거나, (2) 활동 설정 시 감지되지 않거나(VEC에서) (3) `targetPageParamsAll()` 함수를 통해 clickTracking mbox로 전달되지 않을 경우 지표는 증분 되지 않으며 &quot;0&quot;으로 표시됩니다.
 
    리디렉션을 사용하는 활동의 경우도 마찬가지입니다. 대상 페이지에는 `at_property` 토큰이 있어야 하며 VEC 내에서 설정할 때 인식되어야 합니다.
