@@ -5,10 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '515'
-ht-degree: 17%
+source-wordcount: '561'
+ht-degree: 16%
 
 ---
 
@@ -39,11 +39,11 @@ ht-degree: 17%
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| Analytics for Target (A4T) 자동 할당 활동 지원 | 6월 릴리스에서는 자동 할당 테스트가 Target에 대한 [Analytics을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md). 이 통합을 사용하면 Adobe Analytics 목표 지표 및/또는 Adobe Analytics 보고 및 분석 기능을 사용하는 동안 자동 할당의 여러 무장 강도적 기능을 사용하여 트래픽이 우승한 경험으로 유도할 수 있습니다. A/B 테스트 및 경험 [타깃팅 활동에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정됩니다. |
-| 게시자 역할 | 이 새 역할은 현재 옵저버 역할과 비슷합니다(활동은 볼 수 있지만 만들거나 편집할 수는 없습니다). 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
-| 2020년 6 [!DNL Analysis Workspace]<br>월 25일에 A4T 지원 | [!UICONTROL 이제 Target] (A4T)에 대한 분석이 지원됩니다 [!DNL Analysis Workspace]. Target(A4T)용 [!UICONTROL Analytics 패널을] 사용하면 [!DNL Adobe Target] 활동 및 경험을 분석할 수 [!DNL Analysis Workspace]있습니다.<br>자세한 내용은 [Analytics 도구 안내서의 Target(A4T) 패널](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 을 참조하십시오 **. |
+| Analytics for Target (A4T) 자동 할당 [!UICONTROL 활동] 지원 | [!UICONTROL 이제 자동 할당] 활동이 Target에 대한 [Analytics을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 사용하면 [!UICONTROL Adobe Analytics] 목표 지표 및/또는 [!UICONTROL Adobe Analytics] 보고 및 분석 기능을 사용하는 동시에, 여러 무장 강도 [!UICONTROL 데이터 자동 할당 기능을 사용하여 트래픽이 우승한 경험으로 유도할 수 있습니다] .<br>A/B 테스트 및 경험 [타깃팅 활동에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정됩니다.<br>자세한 내용은 [활동 생성](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) **&#x200B;시 자동 할당 활동에 대한 Target(A4T) 지원을 위한 Analytics을 참조하십시오. |
+| [!UICONTROL 게시자] 역할 | 이 새 역할은 현재 [!UICONTROL 옵저버] 역할과 비슷합니다(활동은 볼 수 있지만 만들거나 편집할 수는 없습니다). 그러나 게시자  역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오. <ul><li>**Target Standard 사용자**: [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 에서 역할 및 권한을 *지정합니다*.</li><li>**Target Premium 사용자**: [6단계: 엔터프라이즈 권한](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 구성에서 역할 및 권한 *을 지정합니다*.</li></ul> |
+| 2020년 6 [!DNL Analysis Workspace]<br>월 25일에 A4T 지원 | [!UICONTROL 이제 Target] (A4T)에 대한 분석이 지원됩니다 [!DNL Analysis Workspace]. Target(A4T)용 [!UICONTROL Analytics 패널을] 사용하면 [!DNL Adobe Target] 활동 및 경험을 분석할 수 [!DNL Analysis Workspace]있습니다.<br>자세한 내용은 [Analytics 도구 안내서의 A4T 보고](/help/c-integrating-target-with-mac/a4t/reporting.md) 의 Analytics에 있는 보고서 *와* Target에 대한 [Analytics(A4T) 패널](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 에 있는 보고서 *를*&#x200B;참조하십시오. |
 
-### 개선 사항, 수정 및 변경 사항
+### 개선 사항, 수정 사항 및 변경 사항
 
 * &quot;방문자 수&quot; 지표가 &quot;고유 방문자 수&quot; 대신 활동의 정의에 저장되는 문제를 해결했습니다. (TGT-37098)
 * 대상 [!DNL Target] 페이지 [!UICONTROL 에서 세로 스크롤 막대가 제대로 작동하지 않는 UI의 문제를] 수정했습니다. (TGT-36968)
