@@ -5,10 +5,10 @@ title: 호스트
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 57%
+source-wordcount: '1279'
+ht-degree: 55%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 57%
 # 호스트{#hosts}
 
 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
+
+>[!NOTE]
+>
+>이 항목의 정보는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대해 살짝 돋보이게 하기 위해 업데이트되었습니다. 이 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
 호스트 관리의 기본 목적은 비활성화 상태 컨텐츠가 실수로 웹 사이트에 나타나지 않도록 하는 것입니다. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
@@ -104,7 +108,7 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 
 >[!NOTE]
 >
->승인된 호스트 목록은 mbox 호스트 및 기본 리디렉션 호스트 모두에 사용되므로 Adobe Target Javascript SDK(at.js) *AND* ubox 기본 리디렉션 url에 사용된 모든 도메인을 사용하도록 승인된 기존 도메인을 모두 추가해야 합니다. 향후 허용 목록에 유사한 새 도메인을 추가해야 합니다.
+>허가된 호스트 목록은 mbox 호스트 및 기본 리디렉션 호스트 모두에 사용되므로, ubox 기본 리디렉션 url에 사용된 모든 도메인(at.js) *AND* 모든 도메인을 사용하기 위해 승인된 기존 도메인을 모두 추가해야 합니다. 향후 허용 목록에 유사한 새 도메인을 추가해야 합니다.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
