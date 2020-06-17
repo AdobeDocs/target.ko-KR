@@ -5,10 +5,10 @@ title: Enterprise 권한 구성
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1418'
-ht-degree: 73%
+source-wordcount: '1465'
+ht-degree: 71%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 73%
 # ![PREMIUM](/help/assets/premium.png) 엔터프라이즈 권한 구성{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
+
+>[!NOTE]
+>
+>이 항목의 정보는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대해 살짝 돋보이게 하기 위해 업데이트되었습니다. 이 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
 >[!NOTE]
 >
@@ -74,7 +78,6 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
       * [!DNL Admin Console for Enterprise]에서 새 작업 공간 만들기
       * 작업 공간에 Target 속성 지정
-
    이러한 작업 공간을 사용하여 지역, 사업부, 사이트 섹션별로 또는 선택한 다른 방법을 통해 여러 다른 팀에 대한 액세스를 구분할 수 있습니다. 사용자는 여러 작업 공간에 속할 수 있으며, 각 작업 공간에서 서로 다른 역할을 가질 수 있습니다.
 
 1. *Enterprise 사용 안내서*&#x200B;에 포함된 [제품 구성 만들기 및 관리](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)의 지침에 따르십시오.
