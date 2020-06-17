@@ -4,17 +4,21 @@ description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지�
 title: Adobe Target에서 보고 구성
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 69%
+source-wordcount: '695'
+ht-degree: 65%
 
 ---
 
 
 # Target에서 보고 구성
 
-전체 계정에 적용되는 Target 보고에서 사용할 일반 설정을 [!DNL Target] 구성합니다.
+전체 계정에 적용되는 Target 보고에 사용할 일반 설정을 [!DNL Target] 구성합니다.
+
+>[!NOTE]
+>
+>이 항목의 정보는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대해 살짝 돋보이게 하기 위해 업데이트되었습니다. 이 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
 보고 [!UICONTROL 구성] 페이지에 액세스하려면 **[!UICONTROL 관리]** > 보고 **[!UICONTROL 를]클릭합니다.**
 
