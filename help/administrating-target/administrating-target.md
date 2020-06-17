@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 86b2f0eba5c995967b93b516c224140cc4771420
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '86'
-ht-degree: 68%
+source-wordcount: '135'
+ht-degree: 43%
 
 ---
 
@@ -17,6 +17,10 @@ ht-degree: 68%
 # Target 관리{#administer-target}
 
 환경 설정, 구현, 사용자 관리, 속성, Scene7 설정, 호스트 관리 및 응답 토큰을 포함하여 Adobe Target을 설정하는 데 도움이 되는 정보입니다.
+
+>[!NOTE]
+>
+>아래 나와 있는 이 섹션의 주제는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대한 간략한 개요를 제공하기 위해 업데이트되었습니다. 이러한 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
 To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
