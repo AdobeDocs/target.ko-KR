@@ -5,9 +5,9 @@ title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1145'
 ht-degree: 2%
 
 ---
@@ -97,10 +97,6 @@ ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.
 ### CNAME 구현에 어떤 키 유형 및 인증서 서명 알고리즘이 사용됩니까?
 
 모든 인증서는 RSA SHA-256이고 키는 기본적으로 RSA 2048비트입니다. 2048비트보다 큰 키 크기는 현재 지원되지 않습니다.
-
-### Adobe/DigiCert가 DCV 이메일을 다른 이메일 주소로 보낼 수 있습니까 `<someone>@example.com`?
-
-아니요. DigiCert(또는 인증 기관)는 도메인 아래에 이메일 주소를 가진 모든 사람이 동일한 도메인 아래에 SSL 인증서를 인증하도록 허용하지 않습니다. 단, 이메일 주소가 도메인의 WHOIS 정보 또는 미리 결정된 주소 목록에 포함되어 있지 않습니다(위 참조). 따라서 권한이 있는 사용자만 특정 도메인에 대해 DCV를 승인할 수 있습니다. DNS CNAME DCV 메서드를 사용하는 것이 좋습니다(위 참조).
 
 ### CNAME 구현이 트래픽을 위해 준비되었는지 어떻게 확인할 수 있습니까?
 
