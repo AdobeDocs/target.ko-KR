@@ -5,9 +5,9 @@ title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1233'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,9 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. SSL 인증서에 필요한 호스트 이름 목록을 결정합니다(FAQ 참조).
 
-1. 각 호스트 이름에 대해 DNS에 일반 [!DNL Target] 호스트 이름을 가리키는 CNAME 레코드를 만듭니다 `clientcode.tt.omtrdc.net`. 예를 들어, 클라이언트 코드가 사용자 이름이고 제안된 호스트 이름이 `target.example.com`인 경우 DNS CNAME 레코드는 다음과 같이 표시됩니다.
+1. 각 호스트 이름에 대해 DNS에 일반 [!DNL Target] 호스트 이름을 가리키는 CNAME 레코드를 만듭니다 `clientcode.tt.omtrdc.net`.
+
+   예를 들어 클라이언트 코드가 &quot;사용자 이름 지정&quot;이고 제안된 호스트 이름이 `target.example.com`인 경우 DNS CNAME 레코드는 다음과 같이 표시됩니다.
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -31,10 +33,10 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobe의 인증 기관인 DigiCert는 이 단계가 완료될 때까지 인증서를 발급할 수 없으므로 이 단계가 완료될 때까지 Adobe는 CNAME 구현 요청을 이행할 수 없습니다.
+   >* Adobe의 인증 기관인 DigiCert는 이 단계가 완료될 때까지 인증서를 발급할 수 없습니다. 따라서 Adobe는 이 단계가 완료될 때까지 CNAME 구현에 대한 요청을 이행할 수 없습니다.
 
 
-1. 다음 양식을 작성하고 CNAME 지원을 요청하는 Adobe Client Care 티켓을 [열 때 포함합니다](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C).
+1. 다음 양식을 작성하고 CNAME 지원을 요청하는 Adobe Client Care 티켓을 [열 때 포함합니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
    * Adobe [!DNL Target] client code:
    * SSL 인증서 호스트 이름(예: `target.example.com target.example.org`):
@@ -48,7 +50,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 1. Adobe가 인증서를 구입하는 경우 Adobe는 DigiCert와 함께 Adobe의 프로덕션 서버에 인증서를 구매 및 배포합니다.
 
-   고객이 인증서(BYOC)를 구입하는 경우, Adobe Client Care는 귀하가 선택한 인증 기관을 통해 인증서를 구입할 때 사용해야 하는 CSR(인증서 서명 요청)을 다시 전송합니다. 인증서가 발급되면 인증서 사본과 중간 인증서를 다시 Adobe 클라이언트 지원팀에 보내 배포해야 합니다.
+   고객이 인증서(BYOC)를 구입하는 경우, Adobe Client Care는 CSR(인증서 서명 요청)을 발송합니다. 이 요청은 귀하가 선택한 인증 기관을 통해 인증서를 구매할 때 사용해야 합니다. 인증서가 발급되면 인증서 사본과 중간 인증서 사본을 배포하기 위해 Adobe 클라이언트 지원팀에 다시 보내야 합니다.
 
    구현이 준비되면 Adobe Client Care에서 통보합니다.
 
@@ -90,7 +92,7 @@ ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.
 
 ### CNAME 구현이 배포되면 어떤 유형의 서비스 장애가 발생할 수 있습니까?
 
-인증서를 배포(인증서 갱신 포함)할 때 서비스 중단은 발생하지 않습니다. 그러나, Target 구현 코드(at.js`serverDomain` )의 호스트 이름을 새로운 CNAME 호스트 이름(`target.example.com`)으로 변경하면 웹 브라우저는 돌아온 방문자를 새로운 방문자로 취급하고 이전 쿠키는 브라우저 보안 모델로 인해 이전 호스트 이름(`clientcode.tt.omtrdc.net`)에서 액세스할 수 없기 때문에 프로필 데이터를 잃게 됩니다. 이 작업은 새 CNAME에 대한 초기 컷오버 시 일회성으로 인한 중단입니다. 호스트 이름이 변경되지 않으므로 인증서 갱신은 같은 효과가 없습니다.
+인증서를 배포(인증서 갱신 포함)할 때 서비스 중단은 발생하지 않습니다. 그러나 구현 코드(at.js [!DNL Target] 에서)의 호스트 이름을 새로운 CNAME 호스트 이름(`serverDomain` )으로 변경하면 웹 브라우저는 돌아온 방문자를 새로운 방문자로 취급하며, 브라우저 보안 모델로 인해 이전 쿠키는 이전 호스트 이름(`target.example.com``clientcode.tt.omtrdc.net`)에서 액세스할 수 없기 때문에 프로필 데이터가 유실됩니다. 이는 새로운 CNAME에 대한 초기 컷오버 시 일회성 중단입니다. 호스트 이름이 변경되지 않으므로 인증서 갱신에 동일한 효과가 없습니다.
 
 ### CNAME 구현에 어떤 키 유형 및 인증서 서명 알고리즘이 사용됩니까?
 
