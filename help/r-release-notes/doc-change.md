@@ -5,10 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1102'
-ht-degree: 33%
+source-wordcount: '1199'
+ht-degree: 34%
 
 ---
 
@@ -16,6 +16,16 @@ ht-degree: 33%
 # 설명서 변경 내용{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.5.1(2020년 6월 17일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 6월 17일 | [활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 자동 할당 활동에 대한 Target(A4T) 지원을 위한 Analytics에 대한 정보가 추가되었습니다. |
+|  | [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 역할 및 권한 지정 [!UICONTROL 에서 새 게시자] 역할에 대한 *정보가 추가되었습니다*. |
+|  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 6단계 아래의 새 [!UICONTROL 게시자] 역할에 대한 *정보가 추가되었습니다. 역할 및 권한을 지정합니다*. |
+|  | [Enterprise 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Office *시간 링크 추가: Target 프리미엄 작업 영역 세션*. |
+|  | [릴리스 노트](/help/r-release-notes/release-notes.md): 20.5.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 20.4.1(2020년 5월 6일)
 
