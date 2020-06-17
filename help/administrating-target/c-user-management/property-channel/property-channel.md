@@ -5,9 +5,9 @@ title: Enterprise 사용자 권한
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2948'
+source-wordcount: '2996'
 ht-degree: 84%
 
 ---
@@ -281,7 +281,11 @@ Consider the following when using or configuring properties and permissions in [
 
 리디렉션 페이지와 활동 URL이 동일한 속성에 속하는 경우 clicktracks가 예상대로 작동합니다. 자세한 내용은 [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md)을 참조하십시오.
 
-## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+## 교육 비디오
+
+다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 학습 목표:
 
@@ -290,3 +294,14 @@ Consider the following when using or configuring properties and permissions in [
 * 조직이 고려할 다양한 속성 예제
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### 근무 시간: Target 프리미엄 작업 영역
+
+이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 기록입니다.
+
+* 작업 공간 만들기(제품 프로필)
+* 속성 만들기
+* 사용자 추가
+* 구현 업데이트
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
