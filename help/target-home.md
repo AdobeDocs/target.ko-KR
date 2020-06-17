@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 제품 설명서
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 63%
@@ -17,11 +17,11 @@ ht-degree: 63%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트: 2020년 6월 15일 ([변경된 내용](r-release-notes/doc-change.md)참조)**
+**마지막 업데이트: 2020년 6월 17일 ([변경된 내용](r-release-notes/doc-change.md)참조)**
 
 >[!NOTE]
 >
->Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
+>Target Spuit Builder 세션, 개발자 채팅, 웨비나 및 Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
 
 다음 섹션에서는 일반적인 직무에 따라 의도된 대상별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
@@ -54,11 +54,11 @@ ht-degree: 63%
 ## 개발자 {#developers}
 
 - [Target 구현](c-implementing-target/implementing-target.md): 웹 사이트, 모바일 앱, 단일 페이지 앱(SPA) 및 iOT/OTT 플랫폼에서 [!DNL Target]을 구현하는 방법을 설명합니다.
-- [대상 서버측 API](https://developers.adobetarget.com/api/delivery-api/): Adobe Target 배달 API를 구성하는 리소스에 대해 설명합니다.
+- [Target 서버측 API](https://developers.adobetarget.com/api/delivery-api/): Adobe Target 배달 API를 구성하는 리소스에 대해 설명합니다.
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): Target 서버측을 배포하는 방법에 대해 설명합니다. 이 Node.js SDK를 사용하면 Target을 다른 Adobe Experience Cloud 솔루션과 손쉽게 통합할 수 있습니다.
 - [Target Java SDK](https://github.com/adobe/target-java-sdk): Target 서버측을 배포하는 방법에 대해 설명합니다. 이 Java SDK를 사용하면 Target을 다른 Adobe Experience Cloud 솔루션과 손쉽게 통합할 수 있습니다.
-- [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/): 공식 Adobe Target Recommendations API를 구성하는 리소스에 대해 설명합니다.
-- [Target Adobe.IO 설명서](http://developers.adobetarget.com/api/#introduction): Adobe.IO 통합을 사용하여 활동, 대상, 오퍼, 속성, 보고서, mbox, 환경 및 프로필을 관리하는 Target의 관리 및 프로필 REST API를 사용하는 방법에 대해 설명합니다.
+- [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/): 공식 Adobe Target 추천 API를 구성하는 리소스에 대해 설명합니다.
+- [Target Adobe.IO 설명서](http://developers.adobetarget.com/api/#introduction): Adobe.IO 통합을 사용하여 활동, 대상, 오퍼, 속성, 보고서, mbox, 환경 및 프로필을 관리하는 Target 관리 및 프로필 REST API를 사용하는 방법에 대해 설명합니다.
 
 ## Target 및 Adobe Experience Cloud 관리자 {#admins}
 
