@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1199'
+source-wordcount: '1205'
 ht-degree: 34%
 
 ---
@@ -21,7 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 6월 17일 | [활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 자동 할당 활동에 대한 Target(A4T) 지원을 위한 Analytics에 대한 정보가 추가되었습니다. |
+| 6월 17일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 주제가 업데이트됨. |
+|  | [활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 자동 할당 활동에 대한 Target(A4T) 지원을 위한 Analytics에 대한 정보가 추가되었습니다. |
 |  | [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 역할 및 권한 지정 [!UICONTROL 에서 새 게시자] 역할에 대한 *정보가 추가되었습니다*. |
 |  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 6단계 아래의 새 [!UICONTROL 게시자] 역할에 대한 *정보가 추가되었습니다. 역할 및 권한을 지정합니다*. |
 |  | [Enterprise 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Office *시간 링크 추가: Target 프리미엄 작업 영역 세션*. |
