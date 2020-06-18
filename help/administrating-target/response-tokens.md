@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1570'
 ht-degree: 87%
 
 ---
@@ -62,8 +62,8 @@ ht-degree: 87%
    |  | `profile.categoryAffinities` | 방문자의 상위 5개 카테고리의 배열을 문자열로 반환합니다. |
    | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 현재 활동의 세부 사항입니다. &quot;option&quot;은 &quot;offer&quot;와 같습니다. |
    | 지역 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 활동에서 지역 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [지역](/help/c-target/c-audiences/c-target-rules/geo.md)을 참조하십시오. |
-   | 트래픽 할당<br>방법 [!UICONTROL 자동 Target] 및 [!UICONTROL 자동화된 개인화] 활동에만적용됩니다. | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고 방문자가 &quot;타깃팅된&quot; 트래픽 배포로부터 경험을 받은 경우 1을 반환합니다. |
-   |  | `experience.trafficAllocationType` | 각각 &quot;control&quot; 및 &quot;targeted&quot;를 반환합니다. |
+   | 트래픽 할당 방법<br>(자동 Target [!UICONTROL 및] 자동화된 개인화 [!UICONTROL 활동에만] 적용됩니다.) | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고 방문자가 &quot;타깃팅된&quot; 트래픽 배포로부터 경험을 받은 경우 1을 반환합니다. |
+   |  | `experience.trafficAllocationType` | &quot;control&quot; 또는 &quot;targeted&quot;를 반환합니다. |
 
    사용자 프로필 속성 및 고객 속성도 목록에 표시됩니다.
 
