@@ -5,9 +5,9 @@ user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 93%
 
 ---
@@ -17,10 +17,10 @@ ht-degree: 93%
 
 + [Adobe Target 제품 설명서](target-home.md)
 + Target 릴리스 노트 {#release-notes}
-   + [타겟 공지 및 이벤트](/help/r-release-notes/target-announcements.md)
+   + [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md)
    + [Target 릴리스 노트(현재)](r-release-notes/release-notes.md)
    + [Target 릴리스 노트(사전 릴리스)](r-release-notes/target-release-notes.md)
-   + [Target Insider 뉴스레터](/help/r-release-notes/target-insider-newsletter.md)
+   + [Target 인사이더 뉴스레터](/help/r-release-notes/target-insider-newsletter.md)
    + [알려진 문제 및 해결된 문제](r-release-notes/known-issues-resolved-issues.md)
    + [시스템 상태 업데이트 및 사전 알림](r-release-notes/system-status-updates.md)
    + [설명서 변경 내용](r-release-notes/doc-change.md)
@@ -41,7 +41,7 @@ ht-degree: 93%
    + 보고 {#reporting}
       + [보고 구성](/help/administrating-target/reporting.md)
       + [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오
-   + [Dynamic Media Classic 통합](administrating-target/scene7-settings.md)
+   + [Scene7 구성](administrating-target/scene7-settings.md)
    + [구현](/help/administrating-target/implementation.md)
    + [호스트](administrating-target/hosts.md)
    + [환경](/help/administrating-target/environments.md)
@@ -67,7 +67,7 @@ ht-degree: 93%
          + [Google Chrome samesite 쿠키 정책](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [CSP(Content Security Policy) 지시문](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Allowlist 대상 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [허용 목록 Target 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + 데이터를 Target에 가져오는 방법 {#methods}
          + [메서드](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [프로필 API 설정](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -145,7 +145,7 @@ ht-degree: 93%
       + [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [위치 서비스 사용](/help/c-target-mobile-app/use-location-service.md)
    + 서버 측: Target 구현 {#server-side}
-      + [릴리스 노트 - 대상 서버측 API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [릴리스 정보 - Target 서버측 API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [릴리스 노트 - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
