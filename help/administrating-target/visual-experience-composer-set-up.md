@@ -4,10 +4,10 @@ description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지�
 title: Adobe Target Visual Experience Composer 구성
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 57%
+source-wordcount: '686'
+ht-degree: 52%
 
 ---
 
@@ -15,6 +15,10 @@ ht-degree: 57%
 # Visual Experience Composer 구성
 
 일반 설정, [!DNL Adobe Target] 모바일 [!UICONTROL 뷰포트 구성 및 CSS 선택기] 를 지정하여 VEC(Visual Experience Composer)를 구성합니다.
+
+>[!NOTE]
+>
+>아래 나와 있는 이 섹션의 주제는 [!DNL Target Standard/Premium] 20.6.1 릴리스(2020년 7월)에 제공되는 UI 변경 사항에 대한 간략한 개요를 제공하기 위해 업데이트되었습니다. 이러한 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
 Visual Experience [!UICONTROL Composer] 구성 페이지에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL Visual Experience Composer를 클릭합니다].**
 
@@ -38,15 +42,15 @@ Visual Experience [!UICONTROL Composer] 구성 페이지에 액세스하려면 *
 
 ### 고급 경험 작성기 활성화
 
-iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 향상된 버전과 호환되지 않을 수 있습니다. 원래 시각적 경험 작성기로 되돌리려면 이 옵션을 선택 취소합니다. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
+iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 향상된 버전과 호환되지 않을 수 있습니다. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
 
 자세한 내용은 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
-활동 수준에서 향상된 경험 작성기를 활성화할 수도 있습니다.
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### 혼합 콘텐츠 로드
 
-EEC(향상된 경험 작성기)를 사용하여 웹 사이트를 여는 동안 혼합 콘텐츠를 사용합니다. Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 이 옵션은 다음과 같은 경우에 유용합니다.
 
