@@ -4,17 +4,17 @@ description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지�
 title: Adobe Target에서 보고 구성
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 65%
+source-wordcount: '713'
+ht-degree: 30%
 
 ---
 
 
 # Target에서 보고 구성
 
-전체 계정에 적용되는 Target 보고에 사용할 일반 설정을 [!DNL Target] 구성합니다.
+전체 계정에 적용되는 보고에 사용할 [!DNL Adobe Target] 일반 설정을 [!DNL Target] 구성합니다.
 
 >[!NOTE]
 >
@@ -31,21 +31,24 @@ ht-degree: 65%
 * 보고에서 예상 매출 증가를 표시할지 여부
 * 세부적으로 분류된 우선 순위를 사용할지 여부
 
+>[!NOTE]
+>
+>제외할 표준 시간대, 통화 및 IP 주소는 [!DNL Target] 보고를 사용하는 활동에 적용됩니다. 이러한 설정은 보고 소스(/help/c-integrating-target-with-mac/a4t/a4t.md)으로 Target(A4T)에 [Analytics을] 사용하는 활동에는 적용되지 않습니다.
+
 ![보고 페이지](/help/administrating-target/assets/reporting.png)
 
 ## Reporting Cloud 솔루션
 
 결과 및 보고서에 사용되는 데이터를 결정하는 옵션을 설정합니다.
 
-활동의 보고 소스로 [!DNL Target] 또는 Adobe Analytics 중 하나를 선택합니다. 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다.
+Select the reporting source for your activities, either [!DNL Target] or [!DNL Adobe Analytics]. 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다.
 
 보고 소스를 선택하는 경우 다음 정보를 고려하십시오.
 
-* [!UICONTROL 자동 할당], [!UICONTROL 자동 타겟] 및 [!UICONTROL 자동화된 개인화] (AP) 활동 작성, 활성화 및 비활성화는 선택된 보고 소스와 관계없이 허용됩니다. 이러한 활동 유형은 [Adobe Analytics를 Adobe Target(A4T)의 보고 소스](/help/c-integrating-target-with-mac/a4t/a4t.md)로 선택할 때 지원되지 않습니다. Analytics를 보고 소스로 지정하더라도 [!DNL Target]은 이러한 활동 유형의 보고 소스로 사용됩니다.
-* 보고 소스가 여기에서 Analytics로 설정된 경우 [!DNL Target]을 보고 소스(보고 소스가 활동별 Target으로 지정됨)로 사용하는 활동을 활성화할 수 없습니다. 활동의 보고 소스를 Analytics로 변경하거나 설정 > 환경 설정에서 활동당 선택으로 보고 엔진을 변경해야 합니다.
-* 보고 소스가 여기에서 [!DNL Target]으로 설정된 경우 Analytics를 보고 소스로 사용하는 활동을 활성화할 수 없습니다. 활동의 보고 소스를 [!DNL Target]으로 변경하거나 설정 > 환경 설정에서 활동당 선택으로 보고 소스를 변경해야 합니다.
-* 보고 소스가 여기에서 활동당 선택으로 설정된 경우, 선택한 보고 소스에서 지원하는 활동을 작성, 활성화 및 비활성화할 수 있습니다. 지원되는 활동의 매트릭스는 [](/help/c-integrating-target-with-mac/a4t/a4t.md)Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)를 참조하십시오.
-* A/B Manual에서 [!UICONTROL 자동 할당] 또는 [!UICONTROL 자동 타겟]으로 전환하면 A/B Manual 활동의 보고 소스가 [!UICONTROL 자동 할당] 또는 [!UICONTROL 자동 타겟] 활동에서 지원되지 않는 경우 모든 지표 및 보고 대상이 손실됩니다.
+* 보고 소스가 여기에서 **[!DNL Target]**&#x200B;으로 설정된 경우 [!DNL Analytics]를 보고 소스로 사용하는 활동을 활성화할 수 없습니다. You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration]>[!UICONTROL Reporting]**.
+* If the reporting source is set to **[!DNL Analytics]** here, you are not allowed to activate an activity that uses [!DNL Target] as the reporting source (the reporting source is specified as **[!UICONTROL Target per activity])**. You must change the reporting source to[!DNL Analytics]in your activity or change the reporting engine to**[!UICONTROL Select per activity ]**in**[!UICONTROL Administration]>[!UICONTROL Reporting ]**.
+* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* [!UICONTROL AP(Automated Personalization] ) 활동 생성, 활성화 및 비활성화를 선택한 보고 소스에 관계없이 사용할 수 있습니다. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
 
 ## 보고 표준 시간대
 
@@ -65,7 +68,7 @@ ht-degree: 65%
 
 목표에 대한 통화 값을 입력할 경우 예상 수익 향상도를 표시하도록 선택할 수 있습니다. [!DNL Target]은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측할 수 있습니다. 예상되는 상승도 기능은 기본적으로 비활성화됩니다.
 
-Experience Cloud 관리자 사용자만 이 기능을 활성화하거나 비활성화할 수 있습니다. 예상되는 상승도가 비활성화되면 해당 필드가 인터페이스에 표시되지 않습니다. 이 기능을 비활성화해도 예상치에 사용되는 데이터를 비롯한 어떤 데이터도 손실되지 않습니다. 예상치는 기능의 활성화 여부와 관계없이 수집되는 데이터를 기준으로 합니다.
+Only [!DNL Experience Cloud] Admin users can enable or disable this feature. 예상되는 상승도가 비활성화되면 해당 필드가 인터페이스에 표시되지 않습니다. 이 기능을 비활성화해도 예상치에 사용되는 데이터를 비롯한 어떤 데이터도 손실되지 않습니다. 예상치는 기능의 활성화 여부와 관계없이 수집되는 데이터를 기준으로 합니다.
 
 자세한 내용은 [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오.
 
