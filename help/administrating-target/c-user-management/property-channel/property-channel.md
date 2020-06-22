@@ -5,7 +5,7 @@ title: Enterprise 사용자 권한
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 984a58373c1a19fa4faf9041b5e3fb0c523fa4b5
 workflow-type: tm+mt
 source-wordcount: '2996'
 ht-degree: 84%
@@ -219,7 +219,7 @@ Consider the following when using or configuring properties and permissions in [
 
    * 시각적 경험 작성기
    * 보고
-   * Scene7 설정
+   * Scene7 구성
    * 구현
    * 속성
    * 호스트
@@ -244,7 +244,6 @@ Consider the following when using or configuring properties and permissions in [
    * 활동, 대상, 코드 오퍼, 이미지 오퍼 또는 Target Classic, Adobe Experience Manager(AEM), Adobe Mobile Services와 같은 솔루션이나 방법을 사용하여 만든 기타 모든 리소스와 API를 통해 생성된 리소스는 엔터프라이즈 권한 모델로 제어할 수 없지만 기본 작업 공간의 일부가 됩니다. API를 통해 만든 리소스에는 활동, 대상, 코드 오퍼, 이미지 오퍼가 포함됩니다.
    * 이미지 오퍼(`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`에 저장된 자산)는 현재 엔터프라이즈 권한 모델로 제어할 수 없습니다.
    * clickTracking 및 리디렉션은 대상 링크 또는 대상 페이지가 활동에 포함된 속성의 일부일 때만 작동합니다. 또한 `targetPageParams()` 함수를 사용할 경우 clickTracking이 작동하지 않을 수 있습니다. `targetPageParamsAll()`이 권장되는 함수입니다.
-
    [!DNL Target] 현재 추적이 발생하는 페이지에 `at_property` 토큰이 있어야 합니다. 토큰이 (1) 없거나, (2) 활동 설정 시 감지되지 않거나(VEC에서) (3) `targetPageParamsAll()` 함수를 통해 clickTracking mbox로 전달되지 않을 경우 지표는 증분 되지 않으며 &quot;0&quot;으로 표시됩니다.
 
    리디렉션을 사용하는 활동의 경우도 마찬가지입니다. 대상 페이지에는 `at_property` 토큰이 있어야 하며 VEC 내에서 설정할 때 인식되어야 합니다.
