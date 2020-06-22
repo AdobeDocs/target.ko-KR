@@ -6,23 +6,23 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1570'
-ht-degree: 87%
+source-wordcount: '1571'
+ht-degree: 85%
 
 ---
 
 
 # 응답 토큰{#response-tokens}
 
-응답 토큰을 사용하면 디버깅이나 타사 시스템(예: Clicktale)과의 통합에 사용할 Target 관련 정보(캠페인 세부 사항, 사용자 프로필 정보, 지리 정보 등)를 자동으로 출력할 수 있습니다..
+Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
 
 >[!NOTE]
 >
 >이 항목의 정보는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대해 살짝 돋보이게 하기 위해 업데이트되었습니다. 이 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
-응답 토큰을 사용하면 활용할 변수를 선택한 다음, mbox 응답의 일부로 전송할 수 있습니다. 이렇게 하려면 스위치를 사용하여 변수를 활성화하십시오. 그러면 이 변수가 mbox 응답으로 전송되므로 네트워크 호출에서 유효성을 검사할 수 있습니다. 응답 토큰은 미리 보기 모드에서도 작동합니다.
+응답 토큰을 사용하면 활용할 변수를 선택한 다음, mbox 응답의 일부로 전송할 수 있습니다. 이렇게 하려면 스위치를 사용하여 변수를 활성화하십시오. 그러면 이 변수가 mbox 응답으로 전송되므로 네트워크 호출에서 유효성을 검사할 수 있습니다. Response tokens work in [!UICONTROL Preview] mode as well.
 
 플러그인과 응답 토큰 간의 중요한 차이는 플러그인이 전달 시 실행되는 JavaScript를 페이지에 전달하는 반면, 응답 토큰은 이벤트 수신자를 사용하여 읽고 작업할 수 있는 개체를 전달한다는 것입니다. 자세한 내용은 [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) 및 이 문서의 뒷부분에 나오는 예를 참조하십시오. 응답 토큰 접근 방식은 더 안전하며 타사 통합을 보다 쉽게 개발하고 유지 관리할 수 있도록 허용해야 합니다.
 
