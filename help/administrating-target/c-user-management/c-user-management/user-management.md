@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 52%
+source-wordcount: '888'
+ht-degree: 48%
 
 ---
 
@@ -42,6 +42,18 @@ You will not see the new user listed on the [!UICONTROL Users] page until the us
 기본적으로 모든 [!DNL Target] 사용자는 관찰자 권한으로 시작합니다.
 
 Admin users are identified in the [!UICONTROL Users] list. 액세스 수준을 변경해야 하는 경우 시스템 관리자 사용자 중 한 명에게 문의하십시오.
+
+## Target 내에서 사용자 정보 보기
+
+Target 환경에서 작업 공간당 역할 및 Target 내에서 직접 이메일 주소를 포함하여 현재 사용자의 목록을 볼 수 있습니다.
+
+사용자 페이지를 보려면 관리 **** > **[!UICONTROL 사용자를]**&#x200B;클릭합니다.
+
+![Target 내의 사용자 목록](/help/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
+
+>[!NOTE]
+>
+>기존 사용자를 관리하거나 새 사용자를 추가하려면 아래 설명된 대로 [!UICONTROL Adobe Admin Console]을 사용해야 합니다.
 
 ## Adobe Admin Console 액세스 {#access}
 
