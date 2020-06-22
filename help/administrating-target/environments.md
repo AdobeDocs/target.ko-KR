@@ -5,10 +5,10 @@ title: 환경
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 61%
+source-wordcount: '702'
+ht-degree: 63%
 
 ---
 
@@ -21,17 +21,11 @@ ht-degree: 61%
 >
 >이 항목의 정보는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대해 살짝 돋보이게 하기 위해 업데이트되었습니다. 이 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
-호스트 관리의 기본 목적은 비활성화 상태 컨텐츠가 실수로 웹 사이트에 나타나지 않도록 하는 것입니다. 또한 호스트 관리를 사용하면 환경별로 보고서 데이터를 구별할 수 있습니다.
-
-A [host](/help/administrating-target/hosts.md) is any web server (or web domain) from where you serve content during any stage of your project. mbox를 제공하는 모든 호스트가 인식됩니다.
-
 관리하기 쉽도록 호스트는 환경으로 번들됩니다. 예를 들어 수십 개의 호스트를 두세 개의 환경으로 그룹화할 수 있습니다. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 필요한 경우 새 환경을 추가하거나 환경의 이름을 바꿀 수 있습니다.
 
 One environment, the default environment, is pre-named [!UICONTROL Production]. 이 기본 환경은 이름을 변경하는 경우에도 삭제할 수 없습니다. [!DNL Target]은 이 위치에서 승인된 최종 활동 및 테스트를 제공한다고 가정합니다.
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 활동을 활성화하기 전에 호스트 관리를 사용하면 테스트, 스테이징 및 개발 환경에서 새 활동과 컨텐츠의 품질을 쉽게 보장할 수도 있습니다.
-
-[!DNL Target] 은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으므로 새 서버나 도메인이 들어오면 자동으로 작동합니다(허용 목록 또는 차단 목록을 설정하지 않은 경우). 또한 모르거나 예상할 수 없는 여러 도메인에서 광고 테스트가 활성화됩니다.
 
 환경을 관리하려면 **[!UICONTROL 관리]** > 환경을 **[!UICONTROL 클릭합니다]**.
 
@@ -60,8 +54,7 @@ If you use [!UICONTROL Production] as your default, all unknown hosts automatica
 
 ## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. From the [!UICONTROL Environment] list, click the **[!UICONTROL Environments]** tab.
-1. Click the **[!UICONTROL Edit]** icon.
+1. 환경 [!UICONTROL 목록] 에서 **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 1. 환경 이름을 변경합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
