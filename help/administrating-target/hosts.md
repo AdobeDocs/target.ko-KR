@@ -5,10 +5,10 @@ title: 호스트
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 55%
+source-wordcount: '1127'
+ht-degree: 54%
 
 ---
 
@@ -24,12 +24,6 @@ ht-degree: 55%
 호스트 관리의 기본 목적은 비활성화 상태 컨텐츠가 실수로 웹 사이트에 나타나지 않도록 하는 것입니다. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 호스트는 프로젝트의 모든 단계에서 컨텐츠를 제공하는 웹 서버(또는 웹 도메인)입니다. mbox를 제공하는 모든 호스트가 인식됩니다.
-
-관리하기 쉽도록 호스트는 환경으로 번들됩니다. 예를 들어 수십 개의 호스트를 두세 개의 환경으로 그룹화할 수 있습니다. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 필요한 경우 새 환경을 추가하거나 환경의 이름을 바꿀 수 있습니다.
-
-One environment, the default environment, is pre-named [!UICONTROL Production]. 이 기본 환경은 이름을 변경하는 경우에도 삭제할 수 없습니다. [!DNL Target]은 이 위치에서 승인된 최종 활동 및 테스트를 제공한다고 가정합니다.
-
-When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. 활동을 활성화하기 전에 호스트 관리를 사용하면 테스트, 스테이징 및 개발 환경에서 새 활동과 컨텐츠의 품질을 쉽게 보장할 수도 있습니다.
 
 [!DNL Target] 은 mbox를 보내고 받을 수 있는 호스트를 제한하지 않으므로 새 서버나 도메인이 들어오면 자동으로 작동합니다(허용 목록 또는 차단 목록을 설정하지 않은 경우). 또한 모르거나 예상할 수 없는 여러 도메인에서 광고 테스트가 활성화됩니다.
 
@@ -62,7 +56,7 @@ When an mbox request is received from new websites or domains, these new domains
 
    By default, a newly recognized host is placed in the [!UICONTROL Production] environment. 이러한 호스트에서는 비활성 상태 활동을 보는 것이 허용되지 않으므로 이 환경은 가장 안전한 환경입니다.
 
-1. (조건부) 이동 아이콘( ![이동 아이콘](/help/administrating-target/assets/icon-move.png) )을 클릭하여 호스트를 [!UICONTROL 개발], 스테이징 [!UICONTROL 또는]기타 환경으로이동합니다.
+1. (조건부) 호스트를 **[!UICONTROL 개발]** , 스테이징, ![스테이징 또는 기타 환경으로 이동하려면 이동](/help/administrating-target/assets/icon-move.png) 아이콘( [!UICONTROL 이동]아이콘 [!UICONTROL )을]클릭합니다.
 
 >[!NOTE]
 >
@@ -122,8 +116,6 @@ You can create an allowlist that specifies hosts (domains) that are authorized t
 >호스트에서 mbox가 있는 페이지로 이동하면 호스트가 다시 나열됩니다.
 
 ## 호스트 문제 해결 {#concept_B3D7583FA4BB480382CC7453529FE1B7}
-
-[!DNL Adobe Target]에서 호스트를 관리하고 호스트 문제를 해결하기 위한 우수 사례
 
 호스트에 문제가 발생하는 경우 다음의 문제 해결 팁을 사용해 보십시오.
 
