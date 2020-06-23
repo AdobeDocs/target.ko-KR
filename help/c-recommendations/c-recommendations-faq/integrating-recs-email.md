@@ -5,10 +5,10 @@ title: 이메일에 권장 사항 통합
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 93%
+source-wordcount: '1459'
+ht-degree: 91%
 
 ---
 
@@ -64,6 +64,10 @@ curl -X POST \
 
 rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 제공업체)와 같은 비웹 환경용입니다. rawbox 요청에 사용할 [!DNL mbox.js] 또는 [!DNL at.js]가 없으므로 요청을 수동으로 만들어야 합니다. 아래의 예에서는 이메일에서 rawbox 요청을 사용하는 방법을 설명합니다.
 
+>[!NOTE]
+>
+>rawbox를 사용하고 [!DNL Target]있는 경우, Target으로 mbox 호출을 전송할 수 [있는 호스트를 지정하는 허용 목록 만들기 아래의 중요한 보안 알림을 참조하십시오](/help/administrating-target/hosts.md#allowlist).
+
 이 접근 방법을 사용하면 이메일에 포함된 권장 사항의 성과를 추적하고 권장 사항을 사용하여 일반적인 방법으로 테스트하고 사이트에 대한 추적을 계속할 수 있습니다.
 
 [양식 기반 경험 작성기](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 선택 사항을 사용하여 [!DNL Adobe Target]에서 [!DNL Recommendations] 활동을 설정하십시오. 위치에 대해 ESP에서 제공되는 rawbox 요청에서 사용하기로 선택한 mbox의 이름을 선택합니다. 원하는 이메일의 모양과 느낌을 갖는 디자인을 선택합니다. 이메일 작성 시간에, ESP에서는 생성할 각 이메일의 각 rawbox에 대해 [!DNL Adobe Target] 서버를 호출합니다. ESP는 전송 시 이메일에 반환되는 HTML을 포함할 방법을 제공해야 합니다.
@@ -107,7 +111,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(특정 유형의 기준, 즉 보기/보기, 보기/구매, 구매/구매에 필요) | *entity_id* | 권장 사항의 기준이 되는 productId(예: 장바구니에서 구매하지 않은 제품 또는 이전 구매)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.id`를 포함해야 합니다. |  |
 | `entity.event.detailsOnly` | true | `entity.id`가 전달된 경우 이 매개 변수도 함께 전달하여 제품 보기 기반 알고리즘을 왜곡하지 않도록, 요청에 따라 항목에 대한 누적된 페이지 보기 수를 증분 되지 않게 하는 것이 좋습니다. |  |
 | `entity.categoryId`<br>(특정 기준 유형, 즉 카테고리별로 가장 많이 본 항목 및 카테고리별 상위 판매자에 필요) | *category_id* | 권장 사항의 기준이 되는 카테고리(예: 카테고리의 최상위 판매자)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.categoryId`를 포함해야 합니다. |  |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` 매개 변수가 없으면 `mboxDefault` 매개 변수는 권장 사항을 사용할 수 없을 때 기본 컨텐츠를 반환하는 절대 URL이어야 합니다. 이 매개 변수는 이미지 또는 기타 정적 컨텐츠일 수 있습니다.<br>`mboxNoRedirect` 매개 변수가 있으면 `mboxDefault`는 권장 사항이 없음을 나타내는 텍스트(예: `no_content`)일 수 있습니다.<br>이메일 제공업체는 이 값이 반환되는 경우를 처리하고 기본 HTML을 이메일에 삽입해야 합니다. <br> **보안 모범 사례**: URL에 사용된 도메인이 `mboxDefault` 나열되지 않은 경우 [리디렉션 열기 취약점]에 노출될 수 있습니다. 리디렉터 링크 또는 제3자에 의한 무단 사용을 방지하기 위해 &quot; `mboxDefault` 승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 나열할 것을 권장합니다. Target은 호스트를 사용하여 리디렉션을 허용할 도메인을 허용합니다. 자세한 내용은 호스트 [에서 mbox 호출을 Target으로 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#allowlist) 만들기를 *참조하십시오*. |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` 매개 변수가 없으면 `mboxDefault` 매개 변수는 권장 사항을 사용할 수 없을 때 기본 컨텐츠를 반환하는 절대 URL이어야 합니다. 이 매개 변수는 이미지 또는 기타 정적 컨텐츠일 수 있습니다.<br>`mboxNoRedirect` 매개 변수가 있으면 `mboxDefault`는 권장 사항이 없음을 나타내는 텍스트(예: `no_content`)일 수 있습니다.<br>이메일 제공업체는 이 값이 반환되는 경우를 처리하고 기본 HTML을 이메일에 삽입해야 합니다. <br> **보안 모범 사례**: URL에 사용된 도메인이 `mboxDefault` 나열되지 않은 경우 [리디렉션 열기 취약점]에 노출될 수 있습니다. 리디렉터 링크 또는 제3자에 의한 무단 사용을 방지하기 위해 &quot; `mboxDefault` 승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 나열할 것을 권장합니다. Target은 호스트를 사용하여 리디렉션을 허용할 도메인 목록을 허용합니다. 자세한 내용은 [주최자의 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#allowlist) 만들기를 *참조하십시오*. |  |
 | `mboxHost` | *mbox_host* | 호출이 실행될 때 기본 환경(호스트 그룹)에 추가되는 도메인입니다. |  |
 | `mboxPC` | Empty | (방문자 프로필을 사용하는 권장 사항에 필수입니다.)<br>&quot;thirdPartyId&quot;가 제공되지 않으면 새 tntId가 생성되고 응답의 일부로 반환됩니다. 그렇지 않으면 비어 있는 상태로 유지됩니다.<br>**참고&#x200B;**: 각 이메일 수신자에게(즉, 각 API 호출에 대해)`mboxSession`및`mboxPC`의 고유한 값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면 단일 프로필 내에서 생성된 수많은 이벤트로 인해 API 응답이 느려지거나 실패할 수 있습니다. | 1 &lt; 길이 &lt; 128<br>둘 이상의 &quot;.&quot; (점)을 포함할 수 없습니다.<br>점은 프로필 위치 접미사에만 사용할 수 있습니다. |
 
@@ -119,7 +123,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(선택 사항) | 1 | 기본적으로 호출자는 제공품 컨텐츠를 찾을 수 없을 때 리디렉션됩니다. 기본 작동을 비활성화하려면 사용하십시오. |  |
 | `mbox3rdPartyId` | *xxx* | 프로필 타깃팅에 사용할 사용자 고유의 사용자 지정 방문자 ID가 있는 경우 이 옵션을 사용하십시오. |  |
 
-### 잠재적 타겟 서버 응답
+### 잠재적 Target 서버 응답
 
 | 응답 | 설명 |
 |--- |--- |
