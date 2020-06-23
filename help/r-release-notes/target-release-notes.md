@@ -5,10 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
+source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 14%
+source-wordcount: '545'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2020년 6월 17일**
+**마지막 업데이트: 2020년 6월 23일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -35,19 +35,45 @@ ht-degree: 14%
 * **Target 공지**: Target Spuit Builder 세션, 개발자 채팅, 웨비나 및 Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.5.1(2020년 6월 17일)
+## Target Standard/Premium 20.6.1(2020년 7월, 정확한 날짜 TBD)
 
-| 기능/향상 | 설명 |
-| --- | --- |
-| Analytics for Target (A4T) 자동 할당 [!UICONTROL 활동] 지원 | [!UICONTROL 이제 자동 할당] 활동이 Target에 대한 [Analytics을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 사용하면 [!UICONTROL Adobe Analytics] 목표 지표 및/또는 [!UICONTROL Adobe Analytics] 보고 및 분석 기능을 사용하는 동시에, 여러 무장 강도 [!UICONTROL 데이터 자동 할당 기능을 사용하여 트래픽이 우승한 경험으로 유도할 수 있습니다] .<br>A/B 테스트 및 경험 [타깃팅 활동에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정됩니다.<br>자세한 내용은 [활동 생성](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) **&#x200B;시 자동 할당 활동에 대한 Target(A4T) 지원을 위한 Analytics을 참조하십시오. |
-| 자동 Target 및 자동화된 개인화 활동을 위한 트래픽 할당 방법에 대한 응답 토큰 | 두 개의 [응답 토큰](/help/administrating-target/response-tokens.md) 이 [!UICONTROL 자동 Target] 및 [!UICONTROL 자동화된 개인화] 활동에 추가되어 방문자가 &quot;제어&quot;나 &quot;타깃팅된&quot; 트래픽에 지정된 결과로 특정 경험을 수신했는지 여부를 결정할 수 있습니다.<ul><li>`experience.trafficAllocationId` 방문자가 &quot;제어&quot; 트래픽에 있는 경험을 수신하면 0을 반환하고 방문자가 &quot;타깃팅된&quot; 트래픽 배포로부터 경험을 받은 경우 1을 반환합니다.</li><li>`experience.trafficAllocationType` 는 &quot;control&quot; 또는 &quot;targeted&quot;를 반환합니다.</li></ul>제어권 및 타깃팅된 트래픽에 대한 자세한 내용은 자동화된 개인화 또는 자동 Target [활동에 대한 컨트롤 선택을 참조하십시오](/help/c-activities/t-automated-personalization/experience-as-control.md). |
-| [!UICONTROL 게시자] 역할 | 이 새 역할은 현재 [!UICONTROL 옵저버] 역할과 비슷합니다(활동은 볼 수 있지만 만들거나 편집할 수는 없습니다). 그러나 게시자  역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오. <ul><li>**Target Standard 사용자**: [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 에서 역할 및 권한을 *지정합니다*.</li><li>**Target Premium 사용자**: [6단계: 엔터프라이즈 권한](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 구성에서 역할 및 권한 *을 지정합니다*.</li></ul> |
-| 2020년 6 [!DNL Analysis Workspace]<br>월 25일에 A4T 지원 | [!UICONTROL 이제 Target] (A4T)에 대한 분석이 지원됩니다 [!DNL Analysis Workspace]. Target(A4T)용 [!UICONTROL Analytics 패널을] 사용하면 [!DNL Adobe Target] 활동 및 경험을 분석할 수 [!DNL Analysis Workspace]있습니다.<br>자세한 내용은 [Analytics 도구 안내서의 A4T 보고](/help/c-integrating-target-with-mac/a4t/reporting.md) 의 Analytics에 있는 보고서 *와* Target에 대한 [Analytics(A4T) 패널](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 에 있는 보고서 *를*&#x200B;참조하십시오. |
+이 릴리스에는 다음 개선 사항이 포함됩니다.
 
-### 개선 사항, 수정 사항 및 변경 사항
+### Target(A4T) [!UICONTROL 자동 Target] 활동 지원 Analytics
 
-* &quot;방문자 수&quot; 지표가 &quot;고유 방문자 수&quot; 대신 활동의 정의에 저장되는 문제를 해결했습니다. (TGT-37098)
-* 대상 [!DNL Target] 페이지 [!UICONTROL 에서 세로 스크롤 막대가 제대로 작동하지 않는 UI의 문제를] 수정했습니다. (TGT-36968)
+[!UICONTROL 이제 자동 Target] 활동이 Target에 대한 [Analytics을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).
+
+이 통합은 고급 머신 러닝을 사용하여 고성능의 마케터가 정의한 여러 경험 중에서 선택하여 컨텐츠를 개인화하고 전환율을 높입니다. 자동 타겟은 개별 고객 프로필 및 유사한 프로필을 갖는 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
+
+A/B 테스트 활동 [에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정되어 있습니다.
+
+### [!UICONTROL 관리] 섹션 UI 새로 고침
+
+Adobe는 [!UICONTROL 관리] 섹션(이전 관리자 )과 해당 페이지를 업데이트하여 워크플로우를 보다 쉽고 효율적으로 진행할 수 있도록 했습니다.
+
+주요 특징:
+
+* **[!UICONTROL Visual Experience Composer]페이지&#x200B;**: 이 새 페이지(**[!UICONTROL 관리&#x200B;]****[!UICONTROL >]**시각적 경험 컴포저)에서는 다음을 수행할 수 있습니다.
+
+   * VEC에 대한 일반 설정 구성(기본 URL 지정, [!UICONTROL 향상된 경험 작성기]활성화, 혼합 컨텐츠 로드, 활동 흐름 다이어그램에서 경험 스냅샷 생성)
+   * 모바일 뷰포트 구성
+   * CSS 선택기 구성
+
+* **[!UICONTROL 보고]페이지&#x200B;**: 이 새 페이지(**[!UICONTROL 관리&#x200B;]****[!UICONTROL >]**보고[!DNL Target])에서는 전체[!DNL Target]계정에 적용되는 보고에 사용할 일반 설정을 구성할 수 있습니다.
+
+   사용 가능한 설정은 다음과 같습니다.
+
+   * 보고에 사용할 [!DNL Adobe Experience Cloud] 솔루션
+   * 보고에 사용할 표준 시간대
+   * 보고에 사용할 통화
+   * 보고에서 제외할 IP 주소
+   * 보고에서 예상 매출 증가를 표시할지 여부
+   * 세부적으로 분류된 우선 순위를 사용할지 여부
+
+* 이전 [!UICONTROL 호스트] 페이지가 두 개의 새 페이지로 분할되었습니다.
+
+   * [!UICONTROL 호스트]
+   * [!UICONTROL 환경]
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
