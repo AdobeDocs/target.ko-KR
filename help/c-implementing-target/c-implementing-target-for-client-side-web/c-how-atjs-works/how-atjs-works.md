@@ -1,11 +1,14 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송하거나 수집한 호출 및 정보의 플로우를 표시하는 Adobe Target 시스템 다이어그램입니다.
-title: Adobe Target at.js JavaScript 라이브러리의 작동 방식
+title: at.js JavaScript 라이브러리의 작동 방식
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +27,7 @@ To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript 
 
 In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. 또한 Experience Cloud 핵심 서비스로서 다이내믹 태그 관리(활성화), 대상 및 방문자 ID 서비스가 구현되었습니다.
 
-## at.js 1의 차이는 무엇입니까?*x* 및 at.js 2.x 워크플로우 다이어그램의 차이점은 무엇입니까?
+## at.js 1의 차이점은 무엇입니까?*x* 및 at.js 2.x 워크플로우 다이어그램의 차이점은 무엇입니까?
 
 [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)에서 1.*x*&#x200B;와 다른 2.O에 도입된 차이점을 자세히 알 수 있습니다.
 
@@ -46,7 +49,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | 모든 구성된 매개 변수(MCID, SDID 및 고객 ID)를 포함하는 페이지 로드 요청이 이루어집니다. |
 | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 대상 라이브러리의 적절한 대상(예: Adobe Analytics, Audience Management 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 묶음 프로세스를 통해 프로필 저장소로 전송됩니다. |
 | 5 | [!DNL Target]에서는 URL 요청 매개 변수 및 프로필 데이터를 기반으로 현재 페이지 및 미래 보기를 위해 방문자에게 반환할 활동 및 경험을 결정합니다. |
-| 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>현재 페이지의 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다.<br>SPA의 사용자 작업으로 인해 표시되는 보기에 대한 타깃팅된 컨텐츠는 브라우저에 캐시되므로 뷰가 트리거될 때 추가 서버 호출 없이 즉시 적용할 수 `triggerView()`있습니다. |
+| 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>현재 페이지의 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다.<br>SPA에서 사용자 작업으로 인해 표시되는 뷰에 대한 타깃팅된 컨텐츠는 브라우저에 캐시되므로 뷰를 통해 트리거할 때 추가 서버 호출 없이 즉시 적용할 수 있습니다 `triggerView()`. |
 | 7 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 8 | 타깃팅된 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다.그런 다음 <br>Analytics 데이터는 Analytics for Target (A4T) 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
 
@@ -91,10 +94,27 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 * at.js는 비동기식으로 로드되므로 원격 스크립트 실행 순서에 대해 보장하지 않습니다.
 * 원격 스크립트는 나중에 로드 및 실행되므로 인라인 스크립트에 대한 종속성을 가지면 안 됩니다.
 
-## 교육 비디오:at.js 2.x 아키텍처 다이어그램 ![개요 배지](/help/assets/overview.png)
+## 교육 비디오
+
+다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
+
+### at.js 2.x 아키텍처 다이어그램 ![개요 배지](/help/assets/overview.png)
 
 at.js 2.x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experience Cloud 솔루션과 통합됩니다. 다음 비디오에서는 모든 것이 어떻게 합쳐지는지 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 자세한 [내용은 at.js 2.x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식 이해를 참조하십시오.
+
+### 근무 시간: at.js 팁 및 개요(2019년 6월 26일) ![자습서 배지](/help/assets/tutorial.png)
+
+이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 기록입니다.
+
+* at.js 사용의 이점
+* at.js 설정
+* 깜박임 처리
+* at.js 디버깅
+* 알려진 문제
+* FAQ
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
