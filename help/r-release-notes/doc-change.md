@@ -5,10 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 34%
+source-wordcount: '1260'
+ht-degree: 33%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 23일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 6월 24일 Adobe Target 커피 휴가에 대한 정보가 추가되었습니다. |
+|  | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | 다른 프로필 스크립트에서 한 프로필 스크립트의 결과를 사용하는 종속 프로필 스크립트를 만드는 것이 권장되지 않습니다. |
 | 6월 17일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 주제가 업데이트됨. |
 |  | [응답 토큰](/help/administrating-target/response-tokens.md) | 자동 Target [!UICONTROL 및] 자동화된 개인화  활동에 대한 트래픽 할당 방법에 대한 응답 토큰에 대한 정보가 추가되었습니다. |
 |  | [활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 자동 할당 활동에 대한 Target(A4T) 지원을 위한 Analytics에 대한 정보가 추가되었습니다. |
