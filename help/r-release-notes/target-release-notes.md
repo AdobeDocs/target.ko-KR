@@ -5,10 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 058828bbf3f13704d9e941563b7dab5259be6809
+source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
 workflow-type: tm+mt
-source-wordcount: '545'
-ht-degree: 19%
+source-wordcount: '684'
+ht-degree: 15%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2020년 6월 23일**
+**마지막 업데이트: 2020년 6월 24일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -49,9 +49,18 @@ A/B 테스트 활동 [에 사용하기 위해 A4T](/help/c-integrating-target-wi
 
 ### [!UICONTROL 관리] 섹션 UI 새로 고침
 
-Adobe는 [!UICONTROL 관리] 섹션(이전 관리자 )과 해당 페이지를 업데이트하여 워크플로우를 보다 쉽고 효율적으로 진행할 수 있도록 했습니다.
+새로운 기술 스택을 사용하여 전체 [!DNL Target] UI를 점진적으로 재작성하고 있어 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반의 사용자 경험을 향상시키고 있습니다. 새로 고친 첫 번째 섹션은 [!UICONTROL 설정] 섹션으로서, 이름이 [!UICONTROL 관리로 변경되었습니다].
 
-주요 특징:
+이 새로 고침의 일부로, 다음과 같은 [!UICONTROL 관리] 섹션의 페이지를 사용하여 많은 작업을 쉽게 수행할 수 있습니다.
+
+* 구현 탭( [!UICONTROL 관리] > 구현)에서 최신 at.js 파일을&#x200B;**** **[!UICONTROL 다운로드합니다]**.
+* at.js 설정을 사용자 정의하고 변경 사항을 쉽게 검토할 수 있습니다(**[!UICONTROL 관리]** > **[!UICONTROL 구현]**).
+* 기본 통화 및 표준 시간대, 보고에서 제외되도록 IP와 같은 향상된 보고 설정을 수정합니다. (**[!UICONTROL 관리]** > **[!UICONTROL 보고]**)
+* 개인 정보 보호를 위해 방문자 IP 주소 난독화(**[!UICONTROL 관리]** > **[!UICONTROL 구현]**)
+* Adobe Admin Console(**[!UICONTROL 관리]** > **[!UICONTROL 사용자]**)에서 관리하기 전에 작업 공간당 사용자 및 해당 역할의 기존 사용자 목록을 확인합니다.
+* 관리 섹션에서 모든 테이블을 검색하고 [!UICONTROL 필터링합니다] .
+
+중요한 변경 사항은 다음과 같습니다.
 
 * **[!UICONTROL Visual Experience Composer]페이지&#x200B;**: 이 새 페이지(**[!UICONTROL 관리&#x200B;]****[!UICONTROL >]**시각적 경험 컴포저)에서는 다음을 수행할 수 있습니다.
 
