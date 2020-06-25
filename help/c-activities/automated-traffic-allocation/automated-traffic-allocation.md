@@ -5,9 +5,9 @@ title: 자동 할당
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3014'
 ht-degree: 89%
 
 ---
@@ -83,7 +83,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 활동에 경험이 두 개만 있는 경우 Target이 신뢰도 90%인 경험을 찾기 전까지는 두 경험이 모두 동일한 트래픽을 받습니다. 이 시점에서 트래픽의 70%는 승자에게 할당되고 30%는 패자에게 할당됩니다. 해당 경험이 95% 신뢰도에 도달하면 트래픽의 100%가 승자에게 할당되고 0%가 패자에게 할당됩니다.
 
-자동 할당 활동용 모델이 준비되면(각 경험에 최소 1,000명의 방문자와 50개의 전환이 있음) UI에서 다음 작업이 허용되지 않습니다.
+After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
 * &quot;트래픽 할당&quot; 모드를 &quot;수동&quot;으로 전환
 * 목표 지표 유형 변경
