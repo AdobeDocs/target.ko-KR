@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '1287'
+source-wordcount: '1298'
 ht-degree: 33%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 6월 25일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 대한 정보가 추가되었습니다. |
+|  | [Target 설명서 개요](/help/r-release-notes/target-documentation.md) | 다양한 설명서 소스를 자세히 설명하는 새로운 [!DNL Target] 주제입니다. |
 | 6월 23일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 6월 24일 Adobe Target 커피 휴가에 대한 정보가 추가되었습니다. |
 |  | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | 다른 프로필 스크립트에서 한 프로필 스크립트의 결과를 사용하는 종속 프로필 스크립트를 만드는 것이 권장되지 않습니다. |
 |  | [at.js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 다음 비디오가 추가되었습니다. 근무 시간: at.js 팁 및 개요 |
