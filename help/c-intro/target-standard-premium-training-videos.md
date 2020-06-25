@@ -1,11 +1,14 @@
 ---
-keywords: 교육 비디오;youtube;비디오;비디오 교육;자습서;자습서;비디오;교육 비디오;교육 비디오;youtube;videos;video
+keywords: training videos;youtube;videos;video training;tutorial;tutorials;video
 description: Target Standard 및 Target Premium을 최대한 활용하는 데 도움이 되는 교육 비디오를 시청해 보십시오.
 title: Adobe Target Standard 및 Premium 교육 비디오
-topic: 고급
+topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+workflow-type: tm+mt
+source-wordcount: '163'
+ht-degree: 71%
 
 ---
 
@@ -30,7 +33,7 @@ Target Standard 및 Target Premium을 최대한 활용하는 데 도움이 되�
 
 ## Adobe Target - 자습서 및 비디오
 
-Target의 기능을 강조 표시하는 방법 비디오 및 자습서 컬렉션은 [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 페이지에 나와 있습니다.
+A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
 
 ![Experience League 비디오](/help/c-intro/assets/experience-league.png)
 
