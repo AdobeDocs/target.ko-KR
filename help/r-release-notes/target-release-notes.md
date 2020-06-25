@@ -5,10 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 15%
+source-wordcount: '558'
+ht-degree: 18%
 
 ---
 
@@ -59,30 +59,6 @@ A/B 테스트 활동 [에 사용하기 위해 A4T](/help/c-integrating-target-wi
 * 개인 정보 보호를 위해 방문자 IP 주소 난독화(**[!UICONTROL 관리]** > **[!UICONTROL 구현]**)
 * Adobe Admin Console(**[!UICONTROL 관리]** > **[!UICONTROL 사용자]**)에서 관리하기 전에 작업 공간당 사용자 및 해당 역할의 기존 사용자 목록을 확인합니다.
 * 관리 섹션에서 모든 테이블을 검색하고 [!UICONTROL 필터링합니다] .
-
-중요한 변경 사항은 다음과 같습니다.
-
-* **[!UICONTROL Visual Experience Composer]페이지&#x200B;**: 이 새 페이지(**[!UICONTROL 관리&#x200B;]****[!UICONTROL >]**시각적 경험 컴포저)에서는 다음을 수행할 수 있습니다.
-
-   * VEC에 대한 일반 설정 구성(기본 URL 지정, [!UICONTROL 향상된 경험 작성기]활성화, 혼합 컨텐츠 로드, 활동 흐름 다이어그램에서 경험 스냅샷 생성)
-   * 모바일 뷰포트 구성
-   * CSS 선택기 구성
-
-* **[!UICONTROL 보고]페이지&#x200B;**: 이 새 페이지(**[!UICONTROL 관리&#x200B;]****[!UICONTROL >]**보고[!DNL Target])에서는 전체[!DNL Target]계정에 적용되는 보고에 사용할 일반 설정을 구성할 수 있습니다.
-
-   사용 가능한 설정은 다음과 같습니다.
-
-   * 보고에 사용할 [!DNL Adobe Experience Cloud] 솔루션
-   * 보고에 사용할 표준 시간대
-   * 보고에 사용할 통화
-   * 보고에서 제외할 IP 주소
-   * 보고에서 예상 매출 증가를 표시할지 여부
-   * 세부적으로 분류된 우선 순위를 사용할지 여부
-
-* 이전 [!UICONTROL 호스트] 페이지가 두 개의 새 페이지로 분할되었습니다.
-
-   * [!UICONTROL 호스트]
-   * [!UICONTROL 환경]
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
