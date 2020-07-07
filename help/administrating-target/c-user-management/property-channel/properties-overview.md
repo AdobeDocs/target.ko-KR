@@ -5,10 +5,10 @@ title: Enterprise 권한 구성
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1465'
-ht-degree: 71%
+source-wordcount: '1469'
+ht-degree: 70%
 
 ---
 
@@ -103,7 +103,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## 4단계. Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-속성은 특정 이름/값 쌍을 Target 호출(mbox, API 등)의 매개 변수로 추가하면 활성화됩니다. 
+속성은 특정 이름/값 쌍을 모든 호출(Target 호출, api 호출 등)과 함께 매개 변수로 추가하여 사용할 수 있습니다. Target 호출(mbox, API 등)의 매개 변수로 추가하면 활성화됩니다. 
 
 속성은 특정 채널(웹, 모바일, 이메일 및 API/기타)에 속합니다.
 
@@ -128,7 +128,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 ## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (mbox, api, etc.).
+To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
 **`at_property`매개 변수 코드를 획득하려면:**
 
