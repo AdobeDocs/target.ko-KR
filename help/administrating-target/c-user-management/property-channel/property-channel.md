@@ -5,10 +5,10 @@ title: Enterprise 사용자 권한
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '2996'
-ht-degree: 84%
+source-wordcount: '2999'
+ht-degree: 82%
 
 ---
 
@@ -47,7 +47,7 @@ Properties are similar in nature to those within [!DNL Adobe Platform Launch] in
 
 웹 속성은 규칙들과 하나의 내장 코드로 이루어진 라이브러리로서, 웹 속성은 하나 이상의 도메인과 하위 도메인을 그룹화한 것일 수 있습니다.
 
-속성은 특정 이름/값 쌍을 에서 [!DNL Target].
+속성은 특정 이름/값 쌍을 모든 호출(Target 호출, api 호출 등)과 함께 매개 변수로 추가하여 사용할 수 있습니다. 에서 [!DNL Target].
 
 속성은 특정 채널(웹, 모바일, 이메일 또는 API/기타)에 속합니다.
 
@@ -245,7 +245,7 @@ Consider the following when using or configuring properties and permissions in [
    * 이미지 오퍼(`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`에 저장된 자산)는 현재 엔터프라이즈 권한 모델로 제어할 수 없습니다.
    * clickTracking 및 리디렉션은 대상 링크 또는 대상 페이지가 활동에 포함된 속성의 일부일 때만 작동합니다. 또한 `targetPageParams()` 함수를 사용할 경우 clickTracking이 작동하지 않을 수 있습니다. `targetPageParamsAll()`이 권장되는 함수입니다.
 
-   [!DNL Target] 현재 추적이 발생하는 페이지에 `at_property` 토큰이 있어야 합니다. 토큰이 (1) 없거나, (2) 활동 설정 시 감지되지 않거나(VEC에서) (3) `targetPageParamsAll()` 함수를 통해 clickTracking mbox로 전달되지 않을 경우 지표는 증분 되지 않으며 &quot;0&quot;으로 표시됩니다.
+   [!DNL Target] 현재 추적이 발생하는 페이지에 `at_property` 토큰이 있어야 합니다. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking Target call via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as &quot;0.&quot;
 
    리디렉션을 사용하는 활동의 경우도 마찬가지입니다. 대상 페이지에는 `at_property` 토큰이 있어야 하며 VEC 내에서 설정할 때 인식되어야 합니다.
 
