@@ -4,10 +4,10 @@ description: Adobe Target에서 성공 지표는 보고 및 추적 목적으로 
 title: Adobe Target의 성공 지표
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1020'
+ht-degree: 83%
 
 ---
 
@@ -26,7 +26,7 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 
 >[!NOTE]
 >
->Analytics를 보고 소스 [](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)로 사용하는 활동에 대한 기본 동작은 &quot;Increment count and keep the user in the activity&quot;와 &quot;Once per entrant&quot;입니다.
+>보고 소스 [(A4T)로](/help/c-integrating-target-with-mac/a4t/a4t.md) Analytics을 사용하는 활동에 대한 기본 동작은 &quot;참가자당 한 번&quot;을 사용하여 사용자를 활동에 유지&quot;입니다.
 
 다음과 같은 성공 지표를 사용할 수 있습니다.
 
@@ -35,14 +35,14 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 | 변환 | 전환 기반 | 전환은 방문자가 사용자가 정의한 작업(단추 클릭, 페이지 보기, 설문 조사 완료 또는 구매)을 사이트에서 수행하는 경우를 나타냅니다. 전환은 방문자당 한 번 또는 방문자가 전환을 완료할 때마다 카운트될 수 있습니다. |
 | 수입 | 전환 기반 | 방문에서 생성된 수익입니다. 다음 매출 지표 중에서 선택할 수 있습니다.<ul><li>RPV(방문자당 매출)</li><li>AOV(평균 주문 가격)</li><li>총 판매 수</li></ul> |
 | 페이지 보기 횟수 | 참여 기반 | 각 고유한 방문은 전환으로 간주됩니다. |
-| 사이트에서 보낸 시간 | 참여 기반 | 방문자가 캠페인의 첫 표시 mbox를 본 시점부터 세션에서 mbox가 있는 최종 페이지가 로드될 때까지 활동에서 보낸 시간(초)입니다. |
-| 사용자 지정 점수 지정 | 참여 기반 | 방문자가 활동의 첫 번째 디스플레이 mbox를 처음 본 시점부터 시작하여 사이트에서 방문된 페이지에 지정된 값에 따라 집계되는 점수입니다. |
+| 사이트에서 보낸 시간 | 참여 기반 | 방문자가 활동의 첫 번째 표시 Target 요청을 본 시점부터 세션에서 요청이 있는 최종 페이지의 로드까지 방문에서 보낸 시간(초)입니다. |
+| 사용자 지정 점수 지정 | 참여 기반 | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 참여 기반 지표는 전환 기반 및 수입 기반 지표와 달리, 방문자가 해당 세션에 대한 수를 늘리기 위해 각 방문 활동의 대상 사용자여야 합니다. 연관된 지표는 적격 재확인 이후 증가하기 시작하고, 각 방문자의 세션 종료 시 중지됩니다. 세션은 활동이 없는 경우 30분 후에 종료됩니다. 따라서 테스트 중에는 결과가 바로 표시되지 않지만 해당 세션의 모든 결과는 세션이 종료되기 전 몇 분 이내에 사용 가능합니다.
 
 사용자 지정 성공 지표를 만들 수도 있습니다.
 
-성공 지표를 선택한 후에 방문자가 목표를 달성하기 위해 수행한 작업을 선택합니다. 예를 들어 전환 지표를 선택하거나, 방문자당 한 번만 카운트되도록 설정한 다음, 방문자가 특정 페이지(또는 페이지 집합)를 볼 때 성공인지, 특정 mbox를 볼 때 성공인지, 특정 링크를 클릭할 때 성공인지를 설정합니다.
+성공 지표를 선택한 후에 방문자가 목표를 달성하기 위해 수행한 작업을 선택합니다. For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
 전환 예상값 필드가 활성화되어 있으면(페이지 점수 지표에는 사용할 수 없음) 목표값이 표시되지만 기타 지표의 값은 표시되지 않습니다. 이 값을 통해 [!DNL Target]이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 모든 매출액 지표(방문자당 매출액, 평균 주문 가격, 총 판매 수, 주문 수)의 경우 방문자당 매출액이 예상 매출액으로 사용됩니다. 데이터 유형은 통화입니다. 자세한 내용은 [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오.
 
