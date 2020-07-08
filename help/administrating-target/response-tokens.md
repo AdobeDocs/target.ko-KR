@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 81%
+source-wordcount: '1567'
+ht-degree: 78%
 
 ---
 
@@ -51,7 +51,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    | 유형 | 매개 변수 | 참고 |
    |--- |--- |--- |
-   | 내장 프로필 | `profile.activeActivities` | 방문자가 자격을 갖는 일련의 `activityIds`를 반환합니다. 사용자가 자격을 갖게 됨에 따라 증가합니다. 예를 들어, 두 개의 서로 다른 활동을 전달하는 두 개의 mbox가 있는 페이지에서 두 번째 mbox가 두 활동을 모두 포함하게 됩니다. |
+   | 내장 프로필 | `profile.activeActivities` | 방문자가 자격을 갖는 일련의 `activityIds`를 반환합니다. 사용자가 자격을 갖게 됨에 따라 증가합니다. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
    |  | `profile.isFirstSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
    |  | `profile.isNewSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
    |  | `profile.daysSinceLastVisit` | 방문자가 마지막으로 방문한 이후 경과한 일수를 반환합니다. |
@@ -71,7 +71,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    >
    >특수 문자가 있는 매개 변수는 목록에 표시되지 않습니다. 영숫자 문자 및 밑줄만 지원됩니다.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
    응답 **[!UICONTROL 토큰]**&#x200B;추가를 클릭하고 토큰 이름을 입력한 다음 활성화를 **[!UICONTROL 클릭합니다]**.
 
@@ -79,7 +79,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 1. 활동을 만듭니다.
 
-[at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)를 사용하여 mbox 응답을 수신하고 응답 토큰을 읽습니다.
+[at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)를 사용하여 응답을 수신하고 응답 토큰을 읽습니다.[!DNL Target]
 
 다음 코드 샘플은 [!DNL at.js] 사용자 지정 이벤트 핸들러를 HTML 페이지에 바로 추가합니다.
 
@@ -136,15 +136,15 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 **사이트의 일부 페이지에서 at.js 1.1(또는 이상)을 사용하고 있지만 다른 페이지에서는 mbox.js를 사용 중이라면 어떻게 됩니까?**
 
-응답 토큰은 [!DNL at.js] mbox 응답에는 전달되지만 [!DNL mbox.js] 응답에는 전달되지 않습니다.
+Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
 
 **Target Classic 플러그인과 응답 토큰이 동시에 활성화될 수 있습니까?**
 
 플러그인과 응답 토큰을 동시에 사용할 수는 있지만 플러그인은 향후에 더 이상 사용되지 않습니다.
 
-**응답 토큰은 모든 mbox 응답을 통해 전달됩니까, 아니면 활동을 전달하는 mbox를 통해서만 전달됩니까?**
+**응답 토큰이 모든[!DNL Target]응답을 통해 전달됩니까 아니면 활동을 제공하는[!DNL Target]응답으로만 전달됩니까?**
 
-응답 토큰은 활동을 전달하는 mbox를 통해서만 전달됩니다.
+Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
 **내 Target Classic 플러그인에는 JavaScript가 포함되어 있습니다. 응답 토큰을 사용하여 해당 기능을 복제하려면 어떻게 해야 합니까?**
 
