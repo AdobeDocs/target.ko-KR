@@ -1,11 +1,14 @@
 ---
-keywords: target 문제 해결;target 문제 해결;기본 컨텐츠;테스트가 라이브가 아님;활동이 라이브가 아님;타깃팅이 작동하지 않음;이전 경험이 표시됩니다;활동을 만들 수 없습니다;활동을 만들 수 없습니다;활동 만들기;페이지 구조가 변경됨;페이지 구조가 수정됨;오류 메시지;프로필 스크립트 삭제 오류;ajax가 작동하지 않음
+keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: 활동이 사이트에 나타나지 않는 경우 이 문제 해결 제안은 해결 방법을 찾는 데 도움이 될 것입니다.
 title: 활동 문제 해결
-topic: 고급,Standard,Classic
+topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '800'
+ht-degree: 83%
 
 ---
 
@@ -22,9 +25,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## Target UI를 사용하여 활동을 만들었지만 API를 통해 업데이트할 수 없습니다.
 
-타겟 UI를 사용하여 만든 활동은 타겟 UI를 통해 업데이트해야 합니다. API를 통해 생성된 활동은 API를 통해 업데이트해야 합니다. 예를 들어 API를 사용하여 활동을 만든 다음 나중에 Target UI를 통해 활동을 편집하는 경우 일부 변경 사항이 업데이트되지 않습니다. 모든 변경 사항은 백엔드에 저장되며 다른 API 호출을 수행하여 업데이트할 수 있습니다.
+Target UI를 사용하여 만든 활동은 Target UI를 통해 업데이트해야 합니다. API를 통해 생성된 활동은 API를 통해 업데이트해야 합니다. 예를 들어, API를 사용하여 원래 활동을 만든 다음 나중에 Target UI를 통해 활동을 편집하는 경우 일부 변경 사항이 업데이트되지 않습니다. 모든 변경 사항은 백엔드에 저장되며 다른 API 호출을 수행하여 업데이트할 수 있습니다.
 
-가장 좋은 방법은 활동을 처음 만드는 데 사용한 동일한 방법(UI 또는 API)을 사용하여 활동을 업데이트해 보는 것입니다.
+원래 활동을 만드는 데 사용한 동일한 방법(UI 또는 API)을 사용하여 활동을 업데이트하는 것이 좋습니다.
 
 ## 기본 컨텐츠가 표시됩니다.
 
@@ -54,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **옵션:**
 
-* 시각적 경험 작성기로 이동하여 URL\&gt; 고급\&gt; 현재 페이지를 클릭합니다.
+* 시각적 경험 작성기로 이동하여 URL\> 고급\> 현재 페이지를 클릭합니다.
 
 ## 새 경험이 아니라 이전 경험이 표시됩니다.
 
@@ -76,7 +79,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 Target에서 사용자로 추가된 후 활동을 만들려면 승인자 역할이 있어야 합니다.
 
 * 승인자가 되려면 계정 관리자에게 문의하십시오.
-* 관리자의 경우, Target 표준의 설정 &gt; 사용자에서 자신에게 승인자 역할을 지정하십시오.
+* 관리자의 경우, Target 표준의 설정 > 사용자에서 자신에게 승인자 역할을 지정하십시오.
 
    [자신에게 승인자 역할 지정](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)을 참조하십시오.
 
@@ -126,7 +129,7 @@ Target에서 사용자로 추가된 후 활동을 만들려면 승인자 역할�
 
 ## 프로필 스크립트를 삭제하면 오류 메시지가 표시됩니다.
 
-**유효성 검사:** Target Standard/Premium에서 프로필 스크립트를 삭제하면 "프로필 스크립트 삭제 실패"라는 오류 메시지가 표시됩니다.
+**유효성 검사:** Target Standard/Premium에서 프로필 스크립트를 삭제하면 &quot;프로필 스크립트 삭제 실패&quot;라는 오류 메시지가 표시됩니다.
 
 **옵션:**
 
@@ -135,10 +138,10 @@ Target에서 사용자로 추가된 후 활동을 만들려면 승인자 역할�
 * 다시 삭제합니다. 성공 메시지가 나타납니다.
 * Target Standard/Premium 가져오기가 실행될 때까지 약 10분 동안 기다립니다. 가져오기에서 프로필 스크립트 목록을 업데이트합니다.
 
-## 일부 ajax mbox 호출이 작동하지 않습니다.
+## Some ajax [!DNL Target] calls are not working.
 
-**참고:** mbox 이름은 동일하지만 매개 변수가 다른 여러 개의 ajax mbox 호출의 경우 동일한 페이지에서 작동하지 않습니다. 첫 번째 호출만 수행됩니다.
+**참고:**[!DNL Target] 이름은 동일하지만 매개 변수가 다른 여러 개의 ajax 호출의 경우 동일한 페이지에서 작동하지 않습니다. 첫 번째 호출만 수행됩니다.
 
-## Target API를 사용하여 활동을 활성화했지만 활동이 Target UI에서 비활성 상태로 표시됩니다.
+## You activated an activity using the Target API, but the activity shows a status of [!UICONTROL Inactive] in the Target UI.
 
 Target API를 사용하여 UI 외부에서의 활동 활성화와 같은 특정 작업을 수행하면 업데이트가 UI로 전파되는 데 최대 10분이 걸릴 수 있습니다.
