@@ -5,10 +5,10 @@ title: 원격 오퍼 만들기
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 100%
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달�
 
 >[!NOTE]
 >
->원격 오퍼는 양식 기반 작성기에서만 만들 수 있습니다. 컨텐츠는 mbox 위치에 삽입되므로 글로벌 mbox에는 적합하지 않을 수 있습니다.
+>원격 오퍼는 양식 기반 작성기에서만 만들 수 있습니다. Content will be injected in the [!DNL Target] request locations, so these are most likely not appropriate for a global [!DNL Target] request.
 >
 >[!DNL Target Classic]에는 유사한 기능으로, [!UICONTROL 사이트의 오퍼] 및 [!UICONTROL Test&amp;Target 외부의 오퍼]가 포함되어 있었습니다.
 
@@ -47,7 +47,7 @@ Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달�
    | 옵션 | 설명 |
    |--- |--- |
    | 캐시됨 | 캐시된 원격 오퍼의 컨텐츠는 Target에서 제공됩니다.<br>두 시간마다 [!DNL Target]에서는 원격 URL에서 컨텐츠를 가져온 다음, Target 내부에 컨텐츠를 저장합니다. 방문자가 원격 오퍼를 포함하는 경험이 있는 사이트를 로드하면 Target에 의해 오퍼가 제공됩니다.<br>Target에 로그인한 사람은 컨텐츠를 변경할 수 없으므로 캐시된 원격 오퍼는 향상된 보안을 제공합니다. 컨텐츠를 변경하기 위해서는 누군가가 컨텐츠 관리 시스템이나 다른 시스템에 로그인하여 컨텐츠를 변경해야 합니다.<br>캐시된 원격 오퍼에 대한 절대 또는 상대 URL을 지정할 수 있습니다. |
-   | 동적 | 다이내믹 원격 오퍼는 Target이 아니라 컨텐츠 관리 시스템이나 다른 시스템에서 제공됩니다.<br>방문자가 원격 오퍼를 포함하는 경험이 있는 사이트를 로드할 때마다 Target에서 컨텐츠를 주기적으로 캐시한 다음 전달하는 것을 원치 않을 수도 있습니다. 대신 컨텐츠를 호스팅하는 시스템을 호출하고 다시 표시된 오퍼가 각 사용자에 대해 동적이거나 달라지도록 특정 정보를 전달할 수 있습니다.<br>예를 들어, 사용자가 다이내믹 원격 오퍼가 있는 경험이 포함된 신용 카드 웹 사이트에 로그인하는 경우, 사용자 계정 정보를 얻기 위해 URL에 매개 변수를 전달할 수 있습니다. 그러면 웹 사이트에서는 계좌 잔고와 같은 사용자별 정보를 제공할 수 있습니다.<br>하나 이상의 mbox 또는 요청 매개 변수를 추가하려면 [!UICONTROL 매개 변수 추가]를 클릭하십시오. |
+   | 동적 | 다이내믹 원격 오퍼는 Target이 아니라 컨텐츠 관리 시스템이나 다른 시스템에서 제공됩니다.<br>방문자가 원격 오퍼를 포함하는 경험이 있는 사이트를 로드할 때마다 Target에서 컨텐츠를 주기적으로 캐시한 다음 전달하는 것을 원치 않을 수도 있습니다. 대신 컨텐츠를 호스팅하는 시스템을 호출하고 다시 표시된 오퍼가 각 사용자에 대해 동적이거나 달라지도록 특정 정보를 전달할 수 있습니다.<br>예를 들어, 사용자가 다이내믹 원격 오퍼가 있는 경험이 포함된 신용 카드 웹 사이트에 로그인하는 경우, 사용자 계정 정보를 얻기 위해 URL에 매개 변수를 전달할 수 있습니다. 그러면 웹 사이트에서는 계좌 잔고와 같은 사용자별 정보를 제공할 수 있습니다.<br>매개 변수 [!UICONTROL 추가를] 클릭하여 하나 이상의 [!DNL Target] 요청이나 요청 매개 변수를 추가합니다. |
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -55,7 +55,7 @@ Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달�
 
 활동에서 원격 오퍼를 사용하는 우수 사례:
 
-* 오퍼가 mbox와 동일한 도메인에 있는 경우 [!UICONTROL 캐시됨] 선택 사항을 사용하면 오퍼 위치 설명에 상대 URL을 사용할 수 있습니다.
+* If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
 
    이 경우 스테이징 서버에서 프로덕션으로 활동을 이동할 때 URL을 수동으로 변경하지 않아도 자동으로 컨텐츠에 액세스할 수 있습니다.
 
