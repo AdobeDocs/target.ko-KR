@@ -1,17 +1,20 @@
 ---
-keywords: 환경 데이터;세션 데이터;지역 데이터;지역 데이터;지역 데이터;장치 데이터;모바일 데이터;속성;프로필 속성
+keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target은 자동으로 다양한 데이터를 수집하고 사용하여 AP(자동화된 개인화) 및 AT(자동 타겟) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 "교육 레코드"(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
 title: Adobe Target의 개인화 알고리즘에 대한 데이터 수집
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1755'
+ht-degree: 97%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Target의 개인화 알고리즘을 위한 데이터 수집{#data-collection-for-the-target-personalization-algorithms}
 
-Target은 자동으로 다양한 데이터를 수집하고 사용하여 AP(자동화된 개인화) 및 AT(자동 타겟) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 "교육 레코드"(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
+Target은 자동으로 다양한 데이터를 수집하고 사용하여 AP(자동화된 개인화) 및 AT(자동 타겟) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 &quot;교육 레코드&quot;(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
 
 Target 개인화 알고리즘에 대한 자세한 내용은 [Random Forest 알고리즘](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA)을 참조하십시오.
 
@@ -19,12 +22,12 @@ Target 개인화 알고리즘에 대한 자세한 내용은 [Random Forest 알�
 
 | 데이터 유형 | 설명 | 데이터 유형 이름 지정 규칙 | 예제 속성 |
 | --- | --- | --- | --- |
-| [장치 및 모바일 데이터](#device-mobile) | 장치 및 모바일 전용 정보입니다.<br>아래의 "장치 및 모바일 데이터"를 참조하십시오. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | 모바일 장치 OS<br>모바일 화면 크기 |
+| [장치 및 모바일 데이터](#device-mobile) | 장치 및 모바일 전용 정보입니다.<br>아래의 &quot;장치 및 모바일 데이터&quot;를 참조하십시오. | `Device - [device attribute]`<br>`Mobile - [mobile attribute]` | 모바일 장치 OS<br>모바일 화면 크기 |
 | [환경 데이터](#env) | 방문자의 운영 체제와 방문자가 활동에 액세스하는 방법과 시기에 대한 정보입니다. | `Browser - / Operating System] - [Attribute Name]` | 브라우저 - 유형 |
 | Experience Cloud 세그먼트 | Audience Manager 또는 Analytics에서 작성하여 Experience Cloud에서 공유한 대상 | `Custom - Experience Cloud Audience - [Audience Name]` | 사용자 지정 데이터 |
-| [지역 데이터](#geo) | 방문자가 있는 위치에 대한 정보입니다.<br>아래의 "지역 데이터"를 참조하십시오. | `Geo - [geo attribute]` | 도시<br>국가<br>지역/주<br>우편 번호<br>위도<br>경도<br>ISP 또는 모바일 통신사 |
+| [지역 데이터](#geo) | 방문자가 있는 위치에 대한 정보입니다.<br>아래의 &quot;지역 데이터&quot;를 참조하십시오. | `Geo - [geo attribute]` | 도시<br>국가<br>지역/주<br>우편 번호<br>위도<br>경도<br>ISP 또는 모바일 통신사 |
 | 프로필 속성 | 업데이트 API를 통해 Target 프로필에 직접 업로드된 프로필 스크립트 또는 속성 | `Custom - Visitor Profile - [attribute name]` | 사용자 지정 데이터 |
-| URL 매개 변수 참조 | 일반적으로 참조 URL은 mbox 호출을 시작한 특정 페이지를 참조하는 URL입니다.<br>이 변수는 사이트의 사용자 활동뿐만 아니라 사이트의 기술 구현에 의해서도 영향을 받을 수 있습니다. | `Custom - [Referring URL Parameter] - [Parameter value]` | 사용자 지정 데이터 |
+| URL 매개 변수 참조 | 일반적으로 참조 URL은 Target 호출을 시작한 특정 페이지를 참조하는 URL입니다.<br>이 변수는 사이트의 사용자 활동뿐만 아니라 사이트의 기술 구현에 의해서도 영향을 받을 수 있습니다. | `Custom - [Referring URL Parameter] - [Parameter value]` | 사용자 지정 데이터 |
 | 보고 세그먼트 | 활동 설정에서 설정된 모든 세그먼트입니다. | `Reporting Segment -[Segment Name]` | 사용자 지정 데이터 |
 | [세션 데이터](#session) | 활동에 액세스할 때 세션에서 방문자의 행동에 대한 정보입니다. | `Visitor Profile - [Attribute Name]` | 방문자 프로필 - 최근 방문 시작일 |
 | URL 매개 변수 | Target에서는 URL 매개 변수를 추출할 URL을 검사합니다. | `Custom - URL Parameter - [URL Parameter]` | 사용자 지정 데이터 |
@@ -96,13 +99,13 @@ Target 개인화 알고리즘에 대한 자세한 내용은 [Random Forest 알�
 | 방문자 프로필 - 첫 번째 방문 | 사용자가 Target과 상호 작용한 첫 번째 방문 시간을 지정합니다. | 더블, 밀리초 |
 | 방문자 프로필 - 마지막 방문 이후의 시간 | 이 특정 활동에 대한 마지막 방문 이후의 시간을 지정합니다. | 더블(정수 양수만) 1, 2, 3 등 |
 | 방문자 프로필 - 위치/콘텐츠의 노출 횟수 | 특정 활동의 특정 위치/콘텐츠 조합에 대한 노출 횟수를 지정합니다. | 더블(정수 양수만) 1, 2, 3 등 |
-| 방문자 프로필 - 마지막 타겟 상호 작용 | Target과의 마지막 상호 작용 시간을 지정합니다. Target의 현재 구현은 요청 시마다 프로필을 업데이트하므로 모든 mbox 요청마다 상호 작용이 발생합니다. | 더블, 밀리초 |
+| 방문자 프로필 - 마지막 타겟 상호 작용 | Target과의 마지막 상호 작용 시간을 지정합니다. Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | 더블, 밀리초 |
 | 방문자 프로필 - 활동 전에 본 페이지 수 | 현재 방문/세션을 포함하여 방문자가 활동에 들어갈 때까지의 총 페이지 보기 횟수(노출 횟수)를 지정합니다. | 더블(정수 양수만) 1, 2, 3 등 |
 | 방문자 프로필 - 현재 방문의 페이지 보기 | 방문자가 활동에 들어갈 때까지 현재 방문/세션에 페이지 보기 횟수를 지정합니다. 정확하게 말하면 노출 횟수입니다. 이러한 노출 횟수는 실제 페이지 보기 횟수가 아니라, 요청이 Target에 도달한 횟수입니다. Target은 사용자가 콘텐츠를 받지 못하거나 보지 않은 다른 이유 또는 시간 초과를 구별하지 못합니다. | 더블(정수 양수만) |
-| 방문자 프로필 - 현재 방문 시작 | Target에서 현재 방문/세션이 시작된 시간을 지정합니다. Target에서 방문은 활동을 입력하지 않고 시작할 수 있습니다. mbox에 대한 호출만 필요합니다. 방문자가 활동을 입력하고 스냅샷을 가져올 때까지 시간이 걸릴 수 있습니다. | 더블, 밀리초 |
+| 방문자 프로필 - 현재 방문 시작 | Target에서 현재 방문/세션이 시작된 시간을 지정합니다. Target에서 방문은 활동을 입력하지 않고 시작할 수 있습니다. All that is required is a call to any [!DNL Target] request. 방문자가 활동을 입력하고 스냅샷을 가져올 때까지 시간이 걸릴 수 있습니다. | 더블, 밀리초 |
 | 방문자 프로필 - 최근 방문 시작일 | Target에서 최근 방문/세션이 시작된 시간을 지정합니다. 이 속성은 세션이 만료되면 업데이트됩니다.<br>방문자의 첫 번째 세션인 경우 `LAST_SESSION_START = 0.`이 됩니다. | 더블, 밀리초 |
 | 방문자 프로필 - 처음 활동을 시작할 때 가장 최근 방문한 이후 시간 | 이전 세션과 사용자가 활동을 시작하고 스냅숏이 수행되는 시간 사이의 기간을 지정합니다. | 더블, 밀리초 |
-| 방문자 프로필 - 활동 입력 전 방문 시간 | Target과의 마지막 상호 작용과 현재 방문이 시작된 시간의 차이를 지정합니다. 이 속성은 사용자가 활동을 시작하고 스냅숏이 수행될 때까지 방문/세션 기간으로 간주될 수 있습니다.<br>세션 시작 시간과 마지막 업데이트 시간이 동일한 mbox 호출에 의해 트리거되면 음수 값이 발생합니다. 음수 값은 0로 간주해야 합니다. | 더블, 밀리초 |
+| 방문자 프로필 - 활동 입력 전 방문 시간 | Target과의 마지막 상호 작용과 현재 방문이 시작된 시간의 차이를 지정합니다. 이 속성은 사용자가 활동을 시작하고 스냅숏이 수행될 때까지 방문/세션 기간으로 간주될 수 있습니다.<br>[!DNL Target]세션 시작 시간과 마지막 업데이트 시간이 동일한 호출에 의해 트리거되면 음수 값이 발생합니다. 음수 값은 0로 간주해야 합니다. | 더블, 밀리초 |
 | 방문자 프로필 - 총 방문 횟수 | 총 방문/세션 수를 지정합니다. 현재 방문/세션은 포함하지 않습니다. | 더블(정수 양수만) 1, 2, 3 등 |
 | 방문자 프로필 - 활동에 대한 총 방문 횟수 | 특정 활동에 대한 방문 횟수를 지정합니다. 이전 방문이 없는 경우 0을 반환합니다. | 더블(정수 양수만) 1, 2, 3 등 |
 | 방문자 프로필 - 전환이 있는 활동에 대한 총 방문 횟수 | 방문 중에 전환이 하나 이상 있었던 경우 특정 활동에 대한 방문/세션 횟수를 지정합니다. | 이중 |
