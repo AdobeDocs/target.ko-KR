@@ -1,21 +1,21 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Adobe Target QA URL을 사용하면 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 종단 간 활동 QA를 손쉽게 수행할 수 있습니다.
+description: Adobe Target QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 엔드 투 엔드 활동 QA를 손쉽게 수행할 수 있습니다.
 title: 활동 QA
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1489'
-ht-degree: 85%
+ht-degree: 79%
 
 ---
 
 
 # 활동 QA {#activity-qa}
 
-Adobe Target의 QA URL을 사용하면 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 종단 간 활동 QA를 손쉽게 수행할 수 있습니다.
+Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 종단 간 활동 QA를 손쉽게 수행할 수 있습니다.
 
 ## 개요 {#section_11B761A522A14E61978275772210A4C2}
 
@@ -24,7 +24,7 @@ Adobe Target의 QA URL을 사용하면 변경되지 않는 미리 보기 링크,
 * 경험 또는 활동에 수행된 업데이트에 상관없이 변경되지 않고 재생성이 필요 없는, 팀 구성원과 공유하는 링크가 있습니다. 이렇게 하면 전체 사용자 경험에서 활동을 완전히 테스트할 수 있습니다.
 * 선택적으로 준수하는 대상 조건. 대상 조건을 충족하지 않고도 마케터가 타깃팅 기준을 테스트하거나 타깃팅 기준을 무시하여 경험의 모양을 QA할 수 있습니다.
 * 지표가 예상대로 증가하고 있는지, 그리고 QA 보고서 데이터가 프로덕션 보고(비A4T 보고의 경우)와 별도로 유지되는지를 마케터가 확인할 수 있도록 QA 보고가 생성됩니다.
-* 배달 기준(페이지/mbox/대상)을 충족하는 다른 라이브 활동과 별개로 또는 결합하여 경험을 미리 볼 수 있는 기능입니다.
+* 격리 또는 전달 기준을 충족하는 다른 라이브 활동과 함께 경험을 미리 보는 기능(페이지/Target 요청/대상).
 * 전체 사용자 경험을 QA할 수 있습니다. QA 링크로 사이트에 한 번 액세스한 다음, 활동 QA 동안 전체 사이트를 탐색할 수 있습니다. 세션을 종료하거나 [QA Target 북마클릿](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을 사용하여 활동 QA를 강제로 해제하기 전까지는 활동 QA에 남아 있습니다. 이 기능은 특히 여러 웹 페이지에 걸친 활동이 있는 경우에 유용합니다.
 
    >[!NOTE]
@@ -45,7 +45,7 @@ Adobe Target의 QA URL을 사용하면 변경되지 않는 미리 보기 링크,
 
       이 설정을 &quot;끔&quot; 위치로 전환할 경우, 링크를 클릭하면 자격 여부에 관계없이 경험이 표시됩니다. QA를 수행할 때, 대상 타깃팅을 따라야 되는지, 따르지 않아도 되는지 사이에 전환할 수 있습니다.
 
-   * **다른 모든 활동에 대한 기본 콘텐츠 표시:**&#x200B;이 선택 사항을 &quot;켬&quot; 위치로 전환하면 다른 모든 활동에 대해 기본 콘텐츠가 표시됩니다(예: 동일한 페이지/mbox에 있는 다른 모든 라이브 활동을 고려하지 않고 미리 보기가 별도로 표시됨).
+   * **다른 모든 활동에 대한 기본 컨텐츠 표시:** 이 옵션이 &quot;설정&quot; 위치로 전환되면 다른 모든 활동에 대해 기본 컨텐츠가 표시됩니다. 예를 들어 동일한 페이지/[!DNL Target] 요청에서 다른 모든 라이브 활동을 고려하지 않고 미리 보기가 격리되어 표시됩니다.
 
       이 설정을 &quot;끔&quot;으로 전환하는 경우, 다음을 고려하십시오.
 
@@ -90,7 +90,7 @@ Adobe Target의 QA URL을 사용하면 변경되지 않는 미리 보기 링크,
    | `at_preview_token` | 암호화된 문자열 | 필수, 기본값 없음 | QA 모드에서 실행할 수 있는 캠페인 ID 목록이 들어 있는 암호화된 엔티티입니다. |
    | `at_preview_index` | 문자열 | Empty | 매개 변수의 형식은 `<campaignIndex>` 또는 `<campaignIndex>_< experienceIndex>`<br>입니다.두 색인이 모두 1로 시작합니다. |
    | `at_preview_listed_activities_only` | 부울(true/false) | 기본값: false | &quot;true&quot;면 `at_preview_index` 매개 변수에 지정된 모든 캠페인이 처리됩니다.<br>&quot;false&quot;이면 페이지의 모든 캠페인이 미리 보기 토큰에 지정되지 않았더라도 처리됩니다. |
-   | `at_preview_evaluate_as_true_audience_ids` | 문자열 | Empty | mbox 요청 범위에서(대상 및 보고 수준에서) 항상 &quot;true&quot;로 평가되어야 하는 segmentId-s의 밑줄로 구분된(&quot;_&quot;) 목록입니다. |
+   | `at_preview_evaluate_as_true_audience_ids` | 문자열 | Empty | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
    | `_AT_Debug` | 문자열 | 창 또는 콘솔 | 콘솔 로깅 또는 새 창입니다. |
    | `adobe_mc_ref` |  |  | 기본 페이지의 참조 URL을 새 페이지에 전달합니다. `AppMeasurement.js` 버전 2.1 이상에서 사용하는 경우 [!DNL Adobe Analytics]는 이 매개 변수값을 새 페이지의 참조 URL로 사용합니다. |
    | `adobe_mc_sdid` |  |  | Analytics for Target(A4T)이 기본 페이지의 Target 요청을 새 페이지의 Analytics 요청과 함께 &quot;결합&quot;하도록 기본 페이지의 SDID([!DNL Supplemental Data Id])와 [!DNL Experience Cloud Org Id]를 새 페이지에 전달합니다. |
