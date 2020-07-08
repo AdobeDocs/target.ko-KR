@@ -5,7 +5,7 @@ title: Enterprise 권한 구성
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
 source-wordcount: '1469'
 ht-degree: 70%
@@ -78,6 +78,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
       * [!DNL Admin Console for Enterprise]에서 새 작업 공간 만들기
       * 작업 공간에 Target 속성 지정
+
    이러한 작업 공간을 사용하여 지역, 사업부, 사이트 섹션별로 또는 선택한 다른 방법을 통해 여러 다른 팀에 대한 액세스를 구분할 수 있습니다. 사용자는 여러 작업 공간에 속할 수 있으며, 각 작업 공간에서 서로 다른 역할을 가질 수 있습니다.
 
 1. *Enterprise 사용 안내서*&#x200B;에 포함된 [제품 구성 만들기 및 관리](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html)의 지침에 따르십시오.
@@ -152,7 +153,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    * **[!DNL Adobe Launch]의 &quot;전역 매개 변수&quot;를 통해:**
 
-      For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
    * **[!DNL Dynamic Tag Management]의 &quot;전역 매개 변수&quot;를 통해:**
 
