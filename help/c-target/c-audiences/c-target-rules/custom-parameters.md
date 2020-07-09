@@ -5,7 +5,10 @@ title: 'Adobe Target의 사용자 정의 매개 변수 '
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 90%
 
 ---
 
@@ -26,6 +29,7 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 
    * 새 대상을 만드는 동안 목록에서 매개 변수 이름을 선택하고, 원하는 매개 변수 이름의 첫 글자를 입력하거나 전체 이름을 입력합니다.
    * mbox 이름은 기억하지만, 매개 변수 이름을 기억하지 못하는 경우 원하는 매개 변수를 전달하는 알려진 mbox를 필터링할 확인란을 사용합니다.
+
    어느 방법을 사용하든 mbox와 매개 변수 간에 링크가 없습니다. 대상은 해당 매개 변수를 전달하는 모든 mbox에서 매개 변수를 기준으로 작업합니다.
 
    기존 대상을 편집하는 경우 필터링 기준에는 작성 중에 제공된 mbox 이름이 함께 표시됩니다.
@@ -35,6 +39,7 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
    * 다음 포함(대/소문자 구분 안 함)
    * 다음을 포함하지 않음(대/소문자 구분 안 함)
    * 다음과 같음
+
    ![사용자 지정 매개 변수 대상](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. 새 라인에 각 값을 입력합니다.
@@ -50,9 +55,9 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 ## 고려 사항 {#considerations}
 
 * 대상 및 활동은 특정 mbox에 대해 평가됩니다. 예를 들어 전역 mbox가 특정 매개 변수를 전달하지만 지역 mbox가 전달하지 않으면 해당 매개 변수를 타깃팅하는 활동/대상은 지역 mbox에서 사용할 수 없습니다.
-* 타깃팅은 mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId 및 mboxVersion과 같은 내부 mbox 매개 변수에서 평가되지 않습니다.
+* 타깃팅은 mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId 및 mboxVersion과 같은 내부 mbox 매개 변수에서 평가되지 않습니다.
 
-## 교육 비디오:대상 자습서 ![배지 만들기](/help/assets/tutorial.png)
+## 교육 비디오: 대상 자습서 ![배지 만들기](/help/assets/tutorial.png)
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 
