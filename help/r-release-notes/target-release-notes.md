@@ -5,10 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 322b14629d420601b763fed7597c43a8458b7dbf
+source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 17%
+source-wordcount: '572'
+ht-degree: 16%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2020년 6월 24일**
+**마지막 업데이트 날짜: 2020년 7월 13일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -51,6 +51,16 @@ ht-degree: 17%
 * 개인 정보 보호를 위해 방문자 IP 주소 난독화(**[!UICONTROL 관리]** > **[!UICONTROL 구현]**)
 * Adobe Admin Console(**[!UICONTROL 관리]** > **[!UICONTROL 사용자]**)에서 관리하기 전에 작업 공간당 사용자 및 해당 역할의 기존 사용자 목록을 확인합니다.
 * 관리 섹션에서 모든 테이블을 검색하고 [!UICONTROL 필터링합니다] .
+
+### 개선 사항, 수정 사항 및 변경 사항
+
+이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
+
+* 새로 고친 후 사이트 환경 설정을 유지할 수 없는 문제를 해결했습니다. (TGT-37239)
+* SVG(Scalable Vector Graphics) 이미지 [!UICONTROL 에서] 이후 [!UICONTROL 삽입 >] 이미지기능이 제대로 작동하지 않는 문제를 해결했습니다. (TGT-37242)
+* 초안 활동을 삭제할 수 없는 [!UICONTROL 게시자] 역할을 가진 사용자의 문제를 수정했습니다. (TGT-37358)
+* 모든 내 작업 영역을 선택할 때 사용자가 활동 [!UICONTROL 을 편집할 수 없는] 문제를 수정했습니다. (TGT-37276)
+* 고객 사용 정보가 포함된 기존 프로필 스크립트 정보 카드 강화 (TGT-37302)
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
