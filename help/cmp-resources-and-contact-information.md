@@ -5,7 +5,7 @@ title: 리소스 및 연락처 정보
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: ce885c24a44aa1ebd5ed48f14bc68105e665dc88
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -70,7 +70,7 @@ For questions, you can ask the Adobe Target experts in the [Experience Cloud com
 
 기술적인 문제가 있거나 버그를 기록하려면 고객 지원 센터에 문의하십시오. 고객 지원 센터에 문의하려면 1-800-497-0335번으로 전화해 주십시오. Toll free numbers outside the United States can be found on the [Adobe Digital Marketing Customer Care Regional Phone Numbers](https://helpx.adobe.com/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) page. 제품에 대한 옵션을 선택하라는 메시지가 표시되면 3을 눌러 Target 팀으로 연락하십시오.
 
-[!DNL tt-support@adobe.com]으로 고객 지원 센터에 이메일을 보낼 수도 있습니다.
+[!DNL customercare@adobe.com]으로 고객 지원 센터에 이메일을 보낼 수도 있습니다.
 
 문제에 대한 빠른 상담을 원하는 경우, 문의할 때 다음의 기본 정보를 제공해 주십시오.
 
