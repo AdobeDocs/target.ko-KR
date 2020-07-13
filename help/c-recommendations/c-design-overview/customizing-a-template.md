@@ -4,7 +4,10 @@ description: 공개 소스인 Velocity 디자인 언어를 사용하여 권장 �
 title: Velocity를 사용하여 디자인 사용자 지정
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 65%
 
 ---
 
@@ -114,7 +117,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >변수 이름이 끝났음을 나타내는 태그 전에 변수 값 뒤에 텍스트를 추가하려면 형식 표기법을 사용하여 변수 이름을 묶을 수 있습니다. 예: `${entity1.thumbnailUrl}.gif`.
 
