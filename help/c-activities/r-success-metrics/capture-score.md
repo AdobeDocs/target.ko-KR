@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '770'
-ht-degree: 52%
+source-wordcount: '764'
+ht-degree: 51%
 
 ---
 
@@ -48,13 +48,13 @@ The Capture Score engagement metric calculates an aggregated score based on the 
 
    Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >활동의 첫 번째 표시 [!DNL Target] 요청 위에 있는 Target 요청은 점수에 포함되지 않습니다.
 
 Best practice is to assign values in the [!DNL Target] request. 이렇게 하면 각 요청의 내용에 따라 측정하는 값을 정확하게 파악할 수 있습니다.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE]
 >
 >간편하게 유지 관리할 수 있도록 일부 조건부 JavaScript 논리를 사용하여 [!DNL at.js] 또는 [!DNL mbox.js] 파일에 지정된 사이트의 페이지 점수값을 구성할 수 있습니다. 이렇게 하면 페이지에 코드를 더 추가할 필요가 없습니다. 도움이 필요한 경우 계정 컨설턴트에게 문의하십시오.
 
