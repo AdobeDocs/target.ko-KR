@@ -1,11 +1,14 @@
 ---
-keywords: 타겟 지정
+keywords: Targeting
 description: 각 경험에 대한 전환율, 상승도, 신뢰도(통계적 중요도) 및 신뢰 구간이 보고됩니다.
 title: 전환율
-topic: 고급,Standard,Classic
+topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +21,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >`orderID` 가 전달된 경우 모든 데이터에서 중복 주문은 무시됩니다. 감사 보고서에 무시된 중복 주문이 표시됩니다.
 
@@ -54,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [주문](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)(`orderConfirmPage`) mbox를 삽입하여 전환 mbox로 선택한 경우 각 경험에 대해 AOV, RPV 및 판매 데이터가 표시됩니다.
 
-## 신뢰 수준 및 신뢰 구간{#concept_0D0002A1EBDF420E9C50E2A46F36629B}의 "Analytics for Target (A4T)에 사용할 오프라인 계산 수행"을 참조하십시오 
+## 신뢰 수준 및 신뢰 구간{#concept_0D0002A1EBDF420E9C50E2A46F36629B}의 &quot;Analytics for Target (A4T)에 사용할 오프라인 계산 수행&quot;을 참조하십시오 
 
 각 경험에 대한 신뢰 수준 및 신뢰 구간이 표시됩니다.
 
@@ -63,7 +66,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * **전환:** 예 또는 아니요 중 하나
 * **기타 모든 변수:** 범위의 값
 
- for Target(A4T)에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]Analytics의 데이터 내보내기 단계가 필요합니다. 자세한 내용은 아래의 "Analytics for Target (A4T)에 사용할 오프라인 계산 수행"을 참조하십시오.
+ for Target(A4T)에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]Analytics의 데이터 내보내기 단계가 필요합니다. 자세한 내용은 아래의 &quot;Analytics for Target (A4T)에 사용할 오프라인 계산 수행&quot;을 참조하십시오.
 
 ### 신뢰도 수준 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
@@ -104,7 +107,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [다운로드한 CSV 보고서](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다.
 
-To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -114,38 +117,38 @@ To calculate these calculated metrics, download the Target's [Complete Confidenc
 
 A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 
 
-A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-test) 계산을 사용합니다. Analytics에서 방문자는 항상 추적되며 수행된 모든 작업이 카운트됩니다. 따라서 방문자가 여러 번 구입하거나 성공 지표를 여러 번 방문하면 해당 추가 히트가 카운트됩니다. 이 작업으로 지표는 연속 변수가 됩니다. 학생 t 검증(t-test) 계산을 수행하려면 "제곱합"이 필요합니다. 제곱합은 [!DNL Analytics]에서 검색할 수 있습니다. 제곱합 데이터를 얻으려면, 최적화할 지표에 대한 방문자 수준 내보내기를 샘플 기간 동안 수행해야 합니다.
+A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-test) 계산을 사용합니다. Analytics에서 방문자는 항상 추적되며 수행된 모든 작업이 카운트됩니다. 따라서 방문자가 여러 번 구입하거나 성공 지표를 여러 번 방문하면 해당 추가 히트가 카운트됩니다. 이 작업으로 지표는 연속 변수가 됩니다. 학생 t 검증(t-test) 계산을 수행하려면 &quot;제곱합&quot;이 필요합니다. 제곱합은 [!DNL Analytics]에서 검색할 수 있습니다. 제곱합 데이터를 얻으려면, 최적화할 지표에 대한 방문자 수준 내보내기를 샘플 기간 동안 수행해야 합니다.
 
-예를 들어, 방문자별 페이지 보기 횟수로 최적화하는 경우, 지정된 기간(예: 2일) 동안 방문자별로 총 페이지 보기 횟수의 샘플을 내보냅니다(수천 데이터 포인트만 있으면 됩니다.). 그런 다음 각 값을 제곱하고 이 제곱들의 총합을 구합니다(여기서 연산 순서가 매우 중요합니다.). 그런 다음 이 "제곱합" 값은 Complete Confidence Calculator에서 사용됩니다. 이 값에 해당 스프레드시트의 "수입" 섹션을 사용하십시오.
+예를 들어, 방문자별 페이지 보기 횟수로 최적화하는 경우, 지정된 기간(예: 2일) 동안 방문자별로 총 페이지 보기 횟수의 샘플을 내보냅니다(수천 데이터 포인트만 있으면 됩니다.). 그런 다음 각 값을 제곱하고 이 제곱들의 총합을 구합니다(여기서 연산 순서가 매우 중요합니다.). 그런 다음 이 &quot;제곱합&quot; 값은 Complete Confidence Calculator에서 사용됩니다. 이 값에 해당 스프레드시트의 &quot;수입&quot; 섹션을 사용하십시오.
 
 **[!DNL Analytics]데이터 내보내기 기능을 사용하여 다음을 수행하십시오.**
 
 1. [!DNL Adobe Analytics]에 로그인합니다.
-1. **[!UICONTROL 도구]** &gt; **[!UICONTROL Data Warehouse]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 데이터 웨어하우스 요청]탭에서 필드를 채웁니다.**
+1. **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 데이터 웨어하우스 요청]** 탭에서 필드를 채웁니다.
 
-   각 필드에 대한 자세한 내용은 [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html)의 "데이터 웨어하우스 설명"을 참조하십시오.
+   각 필드에 대한 자세한 내용은 [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
 
    | 필드 | 지침 |
    |--- |--- |
    | 요청 이름 | 요청에 사용할 이름을 지정하십시오. |
-   | 보고 날짜 | 기간 및 세부기간을 지정하십시오.<br>가장 좋은 방법은 첫 번째 요청에 대해 1시간 또는 하루 이하의 데이터를 선택하는 것입니다.  Data Warehouse 파일은 요청된 시간이 길수록 처리하는 데 걸리는 시간도 더 걸리므로, 항상 파일이 예상한 결과를 반환하도록 작은 기간 데이터를 먼저 요청하는 것이 좋습니다. 그런 다음 요청 관리자로 이동하여 요청을 복제하고 두 번째는 더 많은 데이터를 요청하십시오. 또한 세부기간을 "없음" 이외의 값으로 전환하면 파일 크기가 크게 증가합니다.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
+   | 보고 날짜 | 기간 및 세부기간을 지정하십시오.<br>가장 좋은 방법은 첫 번째 요청에 대해 1시간 또는 하루 이하의 데이터를 선택하는 것입니다.  Data Warehouse 파일은 요청된 시간이 길수록 처리하는 데 걸리는 시간도 더 걸리므로, 항상 파일이 예상한 결과를 반환하도록 작은 기간 데이터를 먼저 요청하는 것이 좋습니다. 그런 다음 요청 관리자로 이동하여 요청을 복제하고 두 번째는 더 많은 데이터를 요청하십시오. 또한 세부기간을 &quot;없음&quot; 이외의 값으로 전환하면 파일 크기가 크게 증가합니다.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | 사용 가능한 세그먼트 | 필요에 따라 세그먼트를 적용하십시오. |
-   | 분류 | 원하는 차원을 선택하십시오.  표준은 즉시 사용할 수 있는(OOTB) 반면, 사용자 지정에는 eVar 및 prop이 포함되어 있습니다. 방문자 ID 수준 정보가 필요한 경우 "Experience Cloud 방문자 ID"가 아닌 "방문자 ID"를 사용하는 것이 좋습니다.<ul><li>방문자 ID는 Analytics에서 사용되는 최종 ID로서, AID(이전부터 있었던 고객인 경우) 또는 MID(MC 방문자 ID 서비스가 시작된 이후 신규 고객이거나 쿠키가 지워진 고객인 경우)입니다.</li><li>Experience Cloud 방문자 ID는 MC 방문자 ID 서비스가 시작된 이후 새 쿠키 또는 지워진 쿠키인 고객에 대해서만 설정됩니다.</li></ul> |
+   | 분류 | 원하는 차원을 선택하십시오.  표준은 즉시 사용할 수 있는(OOTB) 반면, 사용자 지정에는 eVar 및 prop이 포함되어 있습니다. 방문자 ID 수준 정보가 필요한 경우 &quot;Experience Cloud 방문자 ID&quot;가 아닌 &quot;방문자 ID&quot;를 사용하는 것이 좋습니다.<ul><li>방문자 ID는 Analytics에서 사용되는 최종 ID로서, AID(이전부터 있었던 고객인 경우) 또는 MID(MC 방문자 ID 서비스가 시작된 이후 신규 고객이거나 쿠키가 지워진 고객인 경우)입니다.</li><li>Experience Cloud 방문자 ID는 MC 방문자 ID 서비스가 시작된 이후 새 쿠키 또는 지워진 쿠키인 고객에 대해서만 설정됩니다.</li></ul> |
    | 지표 | 원하는 지표를 선택하십시오. 표준은 OOTB인 반면, 사용자 지정에는 사용자 지정 이벤트가 포함됩니다. |
    | 보고서 미리 보기 | 보고서를 예약하기 전에 설정을 검토하십시오.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
-   | 배달 예약 | 파일을 전달할 이메일 주소를 입력하고 파일 이름을 지정한 다음, [!UICONTROL 즉시 전송]을 선택하십시오.<br>참고: [!UICONTROL 고급 배달 선택 사항] 아래에서 FTP를 통해 파일을 제공할 수 있습니다.<br>![배달 예약](/help/c-reports/assets/datawarehouse3.png) |
+   | 배달 예약 | 파일을 전달할 이메일 주소를 입력하고 파일 이름을 지정한 다음, [!UICONTROL 즉시 전송]을 선택하십시오.<br>참고: [!UICONTROL 고급 배달 선택 사항]<br>![ 아래에서 FTP를 통해 파일을 제공할 수 있습니다.배달 예약](/help/c-reports/assets/datawarehouse3.png) |
 
 1. **[!UICONTROL 이 보고서 요청]**&#x200B;을 클릭합니다.
 
-   파일 배달은 요청된 데이터의 양에 따라 최대 72시간이 걸릴 수 있습니다. [!UICONTROL 도구] &gt; [!UICONTROL Data Warehouse] &gt; [!UICONTROL 요청 관리자]를 클릭하여 언제든지 요청의 진행 상태를 확인할 수 있습니다.
+   파일 배달은 요청된 데이터의 양에 따라 최대 72시간이 걸릴 수 있습니다. [!UICONTROL 도구] > [!UICONTROL Data Warehouse] > [!UICONTROL 요청 관리자]를 클릭하여 언제든지 요청의 진행 상태를 확인할 수 있습니다.
 
    과거에 요청한 데이터를 다시 요청하려는 경우 필요에 따라 [!UICONTROL 요청 관리자]에서 이전 요청을 복제할 수 있습니다.
 
 [!DNL Data Warehouse]에 대한 자세한 내용은 [!DNL Analytics] 도움말 설명서에서 다음 링크를 참조하십시오.
 
 * [Data Warehouse 요청 만들기](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [데이터 웨어하우스 우수 사례](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Data warehouse 모범 사례](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 계산 방법론{#concept_EC19BC897D66411BABAF2FA27BCE89AA}을 참조하십시오 
 
@@ -155,7 +158,7 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 
 * A/B 테스트
 
-   예외로서, 자동 타겟 A/B 활동은 기본 "방문" 계산 방법론만 지원합니다.
+   예외로서, 자동 타겟 A/B 활동은 기본 &quot;방문&quot; 계산 방법론만 지원합니다.
 
 * 경험 타깃팅(XT)
 * 다변량 테스트(MVT)
@@ -180,6 +183,6 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 
    단일 방문에 홈 페이지 등의 임프레션이 여러 개 포함될 수 있습니다.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >일반적으로 계수는 쿠키 및 세션 활동에 의해 결정됩니다. 하지만 활동의 최종 전환 지점에 도달한 후 활동을 다시 시작하는 경우에는 활동에 대한 새 방문 및 새 참여자로 간주됩니다. PCID 및 `sessionID` 값이 변경되지 않는 경우에도 마찬가지입니다.
