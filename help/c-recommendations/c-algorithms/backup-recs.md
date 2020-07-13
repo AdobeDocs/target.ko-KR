@@ -1,10 +1,13 @@
 ---
-keywords: 권장 사항;백업;백업
+keywords: recommendation;backup;back up
 description: 백업 권장 사항 기능을 사용할 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 title: 백업 권장 사항 사용
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 백업 권장 사항의 버킷이 지정되지 않으면, 499번째로 가장 많이 본 항목이 표시되고 그 다음에 200번째로 가장 많이 본 항목이, 그 다음에 380번째로 가장 많이 본 항목이 표시되는 식으로 계속 표시될 수 있습니다. 버킷 지정 프로세스가 있으면 가장 많이 본 항목이 먼저 추천됩니다.
 
->[!NOTE] {class="- topic/note "}
+>[!NOTE]
 >
 >항목을 카탈로그에 그룹화할 경우 권장 사항 내 각 알고리즘에 대해 생성된 백업 권장 사항도 해당 카탈로그를 사용하므로 카탈로그에 있는 항목만 백업 권장 사항에 포함됩니다.
 
