@@ -5,9 +5,9 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
+source-git-commit: 7f23f80a0528ea2e6de78a5491c87ca72862813d
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '561'
 ht-degree: 16%
 
 ---
@@ -60,7 +60,6 @@ ht-degree: 16%
 * SVG(Scalable Vector Graphics) 이미지 [!UICONTROL 에서] 이후 [!UICONTROL 삽입 >] 이미지기능이 제대로 작동하지 않는 문제를 해결했습니다. (TGT-37242)
 * 초안 활동을 삭제할 수 없는 [!UICONTROL 게시자] 역할을 가진 사용자의 문제를 수정했습니다. (TGT-37358)
 * 모든 내 작업 영역을 선택할 때 사용자가 활동 [!UICONTROL 을 편집할 수 없는] 문제를 수정했습니다. (TGT-37276)
-* 고객 사용 정보가 포함된 기존 프로필 스크립트 정보 카드 강화 (TGT-37302)
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
