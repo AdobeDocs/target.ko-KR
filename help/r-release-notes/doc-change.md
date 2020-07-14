@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1334'
 ht-degree: 32%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 14년 7월 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[자동 Target](/help/c-activities/auto-target-to-optimize.md)<br><br>[및 자동화된 개인화 FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 활동을 통해 중간에 목표 지표를 변경해서는 안 된다는 권장 FAQ가 추가되었습니다. |
 | 7년 7월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 7월 8일 Adobe Target 커피 휴대에 대한 정보가 추가되었습니다. |
 | 6월 25일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 대한 정보가 추가되었습니다. |
 |  | [Target 설명서 개요](/help/r-release-notes/target-documentation.md) | 다양한 설명서 소스를 자세히 설명하는 새로운 [!DNL Target] 주제입니다. |
