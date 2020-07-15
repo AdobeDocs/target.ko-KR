@@ -5,10 +5,10 @@ title: 자동 할당
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '3112'
-ht-degree: 84%
+source-wordcount: '3134'
+ht-degree: 83%
 
 ---
 
@@ -88,6 +88,10 @@ After an [!UICONTROL Auto-Allocate] activity is activated, the following operati
 * &quot;트래픽 할당&quot; 모드를 &quot;수동&quot;으로 전환
 * 목표 지표 유형 변경
 * &quot;고급 설정&quot; 패널에서 옵션 변경
+
+## 자동 할당 작동 방식 보기
+
+자세한 내용은 자동 할당 [을 통해 수동 테스트보다 테스트 결과 및 매출 향상](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
 
 ## 주의 사항 {#section_5C83F89F85C14FD181930AA420435E1D}
 
