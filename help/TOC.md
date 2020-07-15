@@ -5,10 +5,10 @@ user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: f2cd428fa16bd1a6b3c677f862f163bd8b66ef41
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 92%
+source-wordcount: '1423'
+ht-degree: 91%
 
 ---
 
@@ -202,7 +202,7 @@ ht-degree: 92%
    + 자동 할당 {#auto-allocate}
       + [자동 할당](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [자동 할당을 사용하면 수동 테스트보다 테스트 결과 및 매출 향상](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+      + [자동 할당을 사용하면 수동 테스트보다 테스트 결과를 더 빠르게 얻고 매출을 높일 수 있습니다](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [자동 타깃팅](c-activities/auto-target-to-optimize.md)
    + 자동화된 개인화 {#automated-personalization}
       + [자동화된 개인화 개요](c-activities/t-automated-personalization/automated-personalization.md)
