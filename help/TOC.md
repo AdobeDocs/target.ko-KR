@@ -5,9 +5,9 @@ user-guide-title: Adobe Target 도움말
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1409'
+source-wordcount: '1421'
 ht-degree: 92%
 
 ---
@@ -68,7 +68,7 @@ ht-degree: 92%
          + [Google Chrome samesite 쿠키 정책](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [CSP(Content Security Policy) 지시문](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [허용 목록 Target 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Target 에지 노드 허용 목록에 추가하다](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + 데이터를 Target에 가져오는 방법 {#methods}
          + [메서드](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [프로필 API 설정](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -202,6 +202,7 @@ ht-degree: 92%
    + 자동 할당 {#auto-allocate}
       + [자동 할당](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [자동 할당을 사용하면 수동 테스트보다 테스트 결과 및 매출 향상](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [자동 타깃팅](c-activities/auto-target-to-optimize.md)
    + 자동화된 개인화 {#automated-personalization}
       + [자동화된 개인화 개요](c-activities/t-automated-personalization/automated-personalization.md)
