@@ -5,7 +5,10 @@ title: Adobe Target 소개
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+workflow-type: tm+mt
+source-wordcount: '971'
+ht-degree: 96%
 
 ---
 
@@ -13,12 +16,6 @@ source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 # Target 소개{#introduction-to-target}
 
 Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에 대한 수익을 극대화하도록 고객의 환경을 재단하고 개인화하는 데 필요한 모든 것을 제공하는 Adobe Experience Cloud 솔루션입니다.
-
-다음 비디오에서는 Target을 다른 Adobe Experience Cloud 솔루션과 함께 사용할 때 조직의 목표를 달성하는 데 어떻게 도움이 될 수 있는지에 대한 기본 이해를 제공합니다.
-
->[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
-
->[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 [!DNL Adobe Target] 솔루션은 다음과 같은 몇 가지 조각을 포함합니다.
 
@@ -38,7 +35,7 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 
 [!DNL Target Premium]은 [!DNL Target Standard]에 프리미엄 기능을 추가하는 고급 [!DNL Target] 라이센스입니다.
 
-이 도움말의 Target Premium 주제에는 페이지 맨 위에 있는 Premium 배지가 포함되어 있습니다.
+이 도움말의 Target 프리미엄 항목에는 페이지 맨 위에 있는 프리미엄 배지가 포함됩니다.
 
 ![Premium 배지](/help/assets/premium.png)
 
@@ -99,9 +96,9 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 이 시작 키트를 사용하여 Adobe Target에서 최적화 및 개인화 프로그램을 구축하십시오! 단기 속전승 및 장기 최적화 전략을 통해 첫 번째 Adobe Target 활동을 준비하고 실행하는 데 도움이 되는 주요 정보, 도구 및 리소스가 포함되어 있습니다.
 
-[Adobe Target 시작 키트](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target 환영 키트](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 교육 비디오:활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
+## 교육 비디오: 활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형과 어떻게 Target의 3단계 안내가 있는 워크플로우가 여러분이 사이트 목표를 달성하는 데 도움이 될 수 있는지에 대해 설명합니다.
 
