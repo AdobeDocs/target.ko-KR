@@ -5,10 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
 workflow-type: tm+mt
-source-wordcount: '1351'
-ht-degree: 32%
+source-wordcount: '1365'
+ht-degree: 31%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 17년 7월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 7월 22일 Adobe Target 커피 휴가에 대한 정보가 추가되었습니다. |
 | 15년 7월 | [자동 할당을 사용하면 수동 테스트보다 테스트 결과를 더 빠르게 얻고 매출을 높일 수 있습니다](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | 새 주제입니다.  |
 | 14년 7월 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md),<br>[자동 Target](/help/c-activities/auto-target-to-optimize.md)<br><br>[및 자동화된 개인화 FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 활동을 통해 중간에 목표 지표를 변경해서는 안 된다는 권장 FAQ가 추가되었습니다. |
 | 7년 7월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 7월 8일 Adobe Target 커피 휴대에 대한 정보가 추가되었습니다. |
