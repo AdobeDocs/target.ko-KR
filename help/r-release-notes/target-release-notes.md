@@ -5,7 +5,7 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7f23f80a0528ea2e6de78a5491c87ca72862813d
+source-git-commit: 26447c745cf56f3e04ad477bc05446e5d8ab76c1
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 16%
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트 날짜: 2020년 7월 13일**
+**마지막 업데이트 날짜: 2020년 7월 22일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -35,7 +35,7 @@ ht-degree: 16%
 * **Target 공지**: Target Spuit Builder 세션, 개발자 채팅, 웨비나 및 Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.7.1(2020년 7월 21일)
+## Target Standard/Premium 20.7.1(2020년 7월 22일)
 
 이 릴리스에는 다음 개선 사항이 포함됩니다.
 
