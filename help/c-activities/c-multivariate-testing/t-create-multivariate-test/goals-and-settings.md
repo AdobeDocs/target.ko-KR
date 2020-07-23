@@ -5,7 +5,10 @@ title: 목표 및 설정
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 96%
 
 ---
 
@@ -36,9 +39,9 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-이 옵션이 설정(기본값)에서 활성화되지 않으면 우선순위를 낮음, 중간 또는 높음으로 지정하십시오.
+If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-세분화된 우선순위를 활성화하려면 설정을 클릭한 다음, 세분화된 우선순위 활성화 옵션을 &quot;켜기&quot; 위치로 전환하십시오.
+To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 
@@ -164,7 +167,7 @@ A4T(Analytics for Target)를 위해서는 결과를 올바르게 보고하기 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### 다변량 테스트 만들기(9:25) ![자습서 배지](/help/assets/tutorial.png)
+### 다변수 테스트 만들기(9:25) ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 작성하는 방법을 보여줍니다. 목표 및 설정은 7시 00분부터 논의됩니다.
 
