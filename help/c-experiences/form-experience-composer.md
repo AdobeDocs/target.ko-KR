@@ -5,7 +5,10 @@ title: 양식 기반 경험 작성기
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '744'
+ht-degree: 79%
 
 ---
 
@@ -29,9 +32,14 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 1. 활동의 이름을 지정합니다.
 1. 위치를 선택합니다.
 
-   위치 선택 상자를 클릭하면 사용 가능한 위치 목록이 나타납니다. 해당 위치 중 하나를 선택합니다. target.js를 통해 전달된 글로벌 위치를 선택하려면 &quot;target-global-mbox&quot;를 선택합니다.
+   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. 해당 위치 중 하나를 선택합니다. target.js를 통해 전달된 글로벌 위치를 선택하려면 &quot;target-global-mbox&quot;를 선택합니다.
 
-   여기에 나열되지 않은 위치를 입력할 수도 있습니다. 이 방식은 mbox가 페이지에서 아직 만들어졌거나 열람되지 않은 경우에 유용할 수 있습니다. 위치의 이름을 입력합니다. 아직 없는 위치를 입력할 때는 주의하십시오. 철자 또는 대소문자가 mbox 호출이 수행될 때의 철자 및 대소문자와 일치하지 않으면 활동이 전달되지 않습니다. 수동으로 입력한 위치가 목록에 저장됩니다.
+   여기에 나열되지 않은 위치를 입력할 수도 있습니다. 이 방식은 mbox가 페이지에서 아직 만들어졌거나 열람되지 않은 경우에 유용할 수 있습니다. 위치의 이름을 입력합니다. 아직 없는 위치를 입력할 때는 주의하십시오. 철자 또는 대소문자가 mbox 호출이 수행될 때의 철자 및 대소문자와 일치하지 않으면 활동이 전달되지 않습니다. 수동으로 입력한 위치는 사용 가능한 위치 목록에 저장됩니다. 다음에 수동으로 입력한 위치를 선택하려고 하면 해당 활동에 대한 위치 [!UICONTROL 선택] 드롭다운 목록에서 사용할 수 있습니다.
+
+   >[!NOTE]
+   >
+   >활동을 만드는 동안 수동으로 입력된 위치를 만들면 새 위치가 자동으로 만들어지지 않습니다. 위치 이름은 활동 컨텍스트에서만 저장됩니다. 컨텐츠 전달 호출이 있을 때 위치가 만들어집니다. 만들어진 위치 다음에 다른 활동에서 대상 등을 만드는 데 사용할 수 있게 됩니다. 을 클릭합니다.
+
 1. **[!UICONTROL 대상 개선 추가]**&#x200B;를 클릭한 다음, 이 활동에 대해 하나 이상의 [대상](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을 선택합니다.
 
    ![](assets/location_refinements_2.png)
@@ -52,6 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    1. [!UICONTROL 이미지 오퍼 변경]을 클릭합니다.
    1. 원하는 이미지를 선택한 다음, [!UICONTROL 링크 편집]을 클릭합니다.
    1. 사이트에서 원하는 URL 또는 페이지를 지정하고 [!UICONTROL 업데이트]을 클릭합니다.
+
    **JSON 오퍼 변경:** JSON 오퍼를 선택합니다.
 
    **경험 구성요소 변경:** 경험 구성요소를 선택합니다.
@@ -67,6 +76,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    1. 오퍼 이름을 입력합니다.
    1. 코드 상자에 HTML 코드를 입력하거나 붙여넣습니다.
    1. [!UICONTROL 저장]을 클릭합니다.
+
    **JSON 오퍼 만들기:**
 
    1. [!UICONTROL 오퍼]를 클릭한 다음, [!UICONTROL 코드 오퍼] 탭을 선택합니다.
@@ -74,6 +84,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    1. 오퍼 이름을 입력합니다.
    1. 코드 상자에 JSON 코드를 입력하거나 붙여 넣습니다.
    1. [!UICONTROL 저장]을 클릭합니다.
+
    권장 사항 활동의 경우, 콘텐츠 드롭다운에 권장 사항 추가 옵션이 제공됩니다. **[!UICONTROL 추천 추가]**&#x200B;를 클릭한 후 페이지 유형을 선택합니다. 그런 다음, 인터페이스에 정의된 일반적인 단계를 수행하여 [권장 사항 활동을 만듭니다](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    양식 기반 경험 작성기에서 권장 사항 기준을 선택하는 동안 선택한 기준 카드에 직접 연결되는 링크가 있으므로 기준을 빠르고 쉽게 편집할 수 있습니다.
@@ -84,14 +95,14 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    ![](assets/change_criteria_2.png)
 
-1. (선택 사항, 자동화된 개인화 및 경험 타깃팅 AB 활동의 경우) 추가적인 위치에 대해 이 프로세스를 반복하려면 `Add Location`을 클릭하고 위치 및 콘텐츠를 구성합니다.
-1. **[!UICONTROL 계속]**&#x200B;을 클릭하고 활동 유형에 대한 활동 만들기 단계를 평소처럼 완료합니다.
+1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
+1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [A/B 테스트 만들기](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
 * [경험 타깃팅 활동 만들기](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [권장 사항 활동 만들기](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## 교육 비디오: 양식 기반 작성기 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 양식 기반 작성기 ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 양식 기반 작성기 데모를 제공합니다.
 
