@@ -5,10 +5,10 @@ title: 환경
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '654'
+ht-degree: 67%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 63%
 # 환경
 
 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
-
->[!NOTE]
->
->이 항목의 정보는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대해 살짝 돋보이게 하기 위해 업데이트되었습니다. 이 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
 관리하기 쉽도록 호스트는 환경으로 번들됩니다. 예를 들어 수십 개의 호스트를 두세 개의 환경으로 그룹화할 수 있습니다. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. 필요한 경우 새 환경을 추가하거나 환경의 이름을 바꿀 수 있습니다.
 
