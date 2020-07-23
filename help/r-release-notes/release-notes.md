@@ -5,10 +5,10 @@ title: 'Adobe Target 릴리스 노트(현재) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 31%
+source-wordcount: '904'
+ht-degree: 30%
 
 ---
 
@@ -35,6 +35,12 @@ ht-degree: 31%
 
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+## at.js 2.3.2(2020년 7월 24일)
+
+at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항이 포함되어 있습니다.
+
+* 스크립트나 코드가 창 또는 문서에 기본 속성을 추가할 때의 버그를 수정했습니다.
 
 ## Target Standard/Premium 20.7.1(2020년 7월 27일)
 
