@@ -5,10 +5,10 @@ title: 이전 릴리스에 대한 릴리스 노트
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: bab73014c7f194c4080eafc024259f767347d1bb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '29530'
-ht-degree: 91%
+source-wordcount: '30025'
+ht-degree: 89%
 
 ---
 
@@ -22,6 +22,29 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 노트(현재)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 노트 - 2020
+
+### Target Standard/Premium 20.5.1(2020년 6월 17일)
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| Analytics for Target (A4T) 자동 할당 [!UICONTROL 활동] 지원 | [!UICONTROL 이제 자동 할당] 활동이 Target에 대한 [Analytics을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 사용하면 [!UICONTROL Adobe Analytics] 목표 지표 및/또는 [!UICONTROL Adobe Analytics] 보고 및 분석 기능을 사용하는 동시에, 여러 무장 강도 [!UICONTROL 데이터 자동 할당 기능을 사용하여 트래픽이 우승한 경험으로 유도할 수 있습니다] .<br>A/B 테스트 및 경험 [타깃팅 활동에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정됩니다.<br>자세한 내용은 [활동 생성](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) **&#x200B;시 자동 할당 활동에 대한 Target(A4T) 지원을 위한 Analytics을 참조하십시오. |
+| 자동 Target 및 자동화된 개인화 활동을 위한 트래픽 할당 방법에 대한 응답 토큰 | 두 개의 [응답 토큰](/help/administrating-target/response-tokens.md) 이 [!UICONTROL 자동 Target] 및 [!UICONTROL 자동화된 개인화] 활동에 추가되어 방문자가 &quot;제어&quot;나 &quot;타깃팅된&quot; 트래픽에 지정된 결과로 특정 경험을 수신했는지 여부를 결정할 수 있습니다.<ul><li>`experience.trafficAllocationId` 방문자가 &quot;제어&quot; 트래픽에 있는 경험을 수신하면 0을 반환하고 방문자가 &quot;타깃팅된&quot; 트래픽 배포로부터 경험을 받은 경우 1을 반환합니다.</li><li>`experience.trafficAllocationType` 는 &quot;control&quot; 또는 &quot;targeted&quot;를 반환합니다.</li></ul>제어권 및 타깃팅된 트래픽에 대한 자세한 내용은 자동화된 개인화 또는 자동 Target [활동에 대한 컨트롤 선택을 참조하십시오](/help/c-activities/t-automated-personalization/experience-as-control.md). |
+| [!UICONTROL 게시자] 역할 | 이 새 역할은 현재 [!UICONTROL 옵저버] 역할과 비슷합니다(활동은 볼 수 있지만 만들거나 편집할 수는 없습니다). 그러나 게시자  역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오. <ul><li>**Target Standard 사용자**: [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 에서 역할 및 권한을 *지정합니다*.</li><li>**Target Premium 사용자**: [6단계: 엔터프라이즈 권한](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 구성에서 역할 및 권한 *을 지정합니다*.</li></ul> |
+| 2020년 6 [!DNL Analysis Workspace]<br>월 25일에 A4T 지원 | [!UICONTROL 이제 Target] (A4T)에 대한 분석이 지원됩니다 [!DNL Analysis Workspace]. Target(A4T)용 [!UICONTROL Analytics 패널을] 사용하면 [!DNL Adobe Target] 활동 및 경험을 분석할 수 [!DNL Analysis Workspace]있습니다.<br>자세한 내용은 [Analytics 도구 안내서의 A4T 보고](/help/c-integrating-target-with-mac/a4t/reporting.md) 의 Analytics에 있는 보고서 *와* Target에 대한 [Analytics(A4T) 패널](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 에 있는 보고서 *를*&#x200B;참조하십시오. |
+
+**개선 사항, 수정 사항 및 변경 사항**
+
+* &quot;방문자 수&quot; 지표가 &quot;고유 방문자 수&quot; 대신 활동의 정의에 저장되는 문제를 해결했습니다. (TGT-37098)
+* 대상 [!DNL Target] 페이지 [!UICONTROL 에서 세로 스크롤 막대가 제대로 작동하지 않는 UI의 문제를] 수정했습니다. (TGT-36968)
+
+### at.js 1.8.2 및 at.js 2.3.1 릴리스(2020년 6월 15일)
+
+at.js 라이브러리에서 다음과 같은 개선 및 수정 사항이 [!DNL Target] 수행되었습니다.
+
+| 기능/향상 | 설명 |
+| --- | --- |
+| at.js 1.8.2 | at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항이 포함되어 있습니다.<ul><li>at.js 1, CNAME 및 Edge Override 사용 시 발생하는 문제를 수정했습니다.*x* 서버 도메인을 잘못 만들면 요청이 [!DNL Target] 실패할 수 있습니다. (TNT-35064)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| at.js 2.3.1 | at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.<ul><li>targetGlobalSettings를 통해 `deviceIdLifetime` 설정이 [오버라이드되도록 했습니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)</li><li>at.js 2에서 CNAME 및 Edge Override를 사용할 때 발생하는 문제가 해결되었습니다.*x* 서버 도메인을 잘못 만들면 요청이 [!DNL Target] 실패할 수 있습니다. (TNT-35065)</li><li>확장 v2 및 [!DNL Target] 확장 [!DNL Launch] 을 사용할 때 [!DNL Adobe Analytics] 통화가 [!DNL Launch] 지연되는 문제가 [!DNL Target][!DNL Analytics] `sendBeacon` 수정되었습니다. (TNT-36407, TNT-35990, TNT-3600)</li></ul>For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 
 ### 프로필 배치 상태 API v2 변경 사항(2020년 5월 14일)
 
@@ -535,7 +558,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동에 대한 보고 소스 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle">설정</span> &gt; <span class="wintitle">환경 설정</span>에서 활동에 대한 보고 소스인 <span class="keyword">Target</span> 또는 <span class="keyword">Adobe Analytics</span>를 선택할 수 있습니다 . 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다. </p> <p>이 릴리스부터 <span class="wintitle">환경 설정</span> 또는 활동별로 보고 소스를 선택할 때 알아두어야 하는 몇 가지 중요한 작업 과정 고려 사항이 있습니다.</p></td> 
+   <td colname="col2"> <p>In <span class="wintitle"> Administration </span> &gt; <span class="wintitle"> Visual Experience Composer </span>, you can select the reporting source for your activities, either <span class="keyword"> Target </span> or <span class="keyword"> Adobe Analytics </span>. 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다. </p> <p>이 릴리스부터 <span class="wintitle">환경 설정</span> 또는 활동별로 보고 소스를 선택할 때 알아두어야 하는 몇 가지 중요한 작업 과정 고려 사항이 있습니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -551,7 +574,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
    [대상 정보](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html)를 참조하십시오.
 
-* 사용자가 [!UICONTROL 설정] 페이지에서 보고 소스로 Adobe Analytics를 선택한 경우 특정 상황에서 사용자가 활동을 작성할 수 없는 문제가 수정되었습니다. 사용자에게 보고서 세트를 선택하는 옵션을 제공하지 않아도 &quot;보고서 세트를 선택하십시오&quot;라는 메시지가 표시됩니다. (TGT-31968)
+* Fixed an issue that prevented users in certain situations from being able to create an activity when Adobe Analytics was selected as the reporting source on the [!UICONTROL Administration] page. 사용자에게 보고서 세트를 선택하는 옵션을 제공하지 않아도 &quot;보고서 세트를 선택하십시오&quot;라는 메시지가 표시됩니다. (TGT-31968)
 
 ### 플랫폼(2018년 10월 19일)
 
@@ -1350,7 +1373,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 자세한 내용은 [브라우저에서 혼합 콘텐츠 활성화](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)를 참조하십시오.
 
-* 설정, 대상 및 권장 사항 페이지에서 옵션을 구성하는 동안 사용자의 Target 세션 시간이 초과되면 워크플로우가 개선되었습니다. 사용자가 저장을 클릭하면 세션 만료 메시지가 표시되지만, 다시 로그인하면 성공적인 로그인을 사용자에게 알리는 대화 상자가 표시되며, UI는 데이터 손실 없이 Target의 동일한 페이지에 그대로 유지됩니다. (TGT-25557)
+* 관리, 대상 및 권장 사항 페이지에서 옵션을 구성하는 동안 사용자의 Target 세션이 시간 초과되는 워크플로우를 개선했습니다. 사용자가 저장을 클릭하면 세션 만료 메시지가 표시되지만, 다시 로그인하면 성공적인 로그인을 사용자에게 알리는 대화 상자가 표시되며, UI는 데이터 손실 없이 Target의 동일한 페이지에 그대로 유지됩니다. (TGT-25557)
 
 ### 타겟 플랫폼 변경 사항(2017년 9월 27일) {#section_AC32516DFBA64AD2AC9A74171D452778}
 
@@ -1540,7 +1563,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    * 대상자 > 대상자 만들기 > 방문자 프로필
    * 권장 사항 > 피드 만들기 > 시간 소스 유형 > 분석 > 보고서 세트 선택기
 
-* 사이트의 &quot;X-Frame-options&quot;가 SAMEORIGIN으로 설정되어 있고 VEC(시각적 경험 작성기)에서 사이트를 로드할 수 없을 때 표시되는 오류 메시지가 개선되었습니다. 설정 > 기본 설정에서 고급 경험 작성기로 전환하라는 메시지가 표시됩니다. (TGT-17356)
+* 사이트의 &quot;X-Frame-options&quot;가 SAMEORIGIN으로 설정되어 있고 VEC(시각적 경험 작성기)에서 사이트를 로드할 수 없을 때 표시되는 오류 메시지가 개선되었습니다. 사용자에게 관리 > 시각적 경험 작성기에서 향상된 경험 작성기로 전환하라는 메시지가 표시됩니다. (TGT-17356)
 * 이제 Target Standard/Premium의 보고서가 Target 서버 시간대(미국 EST)가 아닌 계정의 시간대로 표시됩니다. (TGT-24868)
 * [!DNL Target]에서 만든 활동이 [!DNL Target]의 외부에서(예를 들어, Adobe I/O를 통해) 업데이트된 경우 다음 활동 속성을 다시 [!DNL Target]으로 가져오게 됩니다.
 
@@ -1902,7 +1925,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>고급 VEC(시각적 경험 작성기) </p> </td> 
-   <td colname="col2"> <p>고급 VEC(시각적 경험 작성기)에 대한 IP 주소가 업데이트되었습니다. </p> <p>VEC에 사용되는 IP 주소를 허용되는 경우 새 IP 주소를 추가합니다. </p> <p>자세한 내용은 <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">시각적 경험 작성기 문제 해결</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p>고급 VEC(시각적 경험 작성기)에 대한 IP 주소가 업데이트되었습니다. </p> <p>VEC에 사용된 IP 주소를허용 목록에 추가하다하는 경우 새 IP 주소를 추가합니다. </p> <p>자세한 내용은 <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">시각적 경험 작성기 문제 해결</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1941,7 +1964,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> Target UI에서 mboxTrace 인증 토큰 생성 </td> 
-   <td colname="col2"> <p>임시 인증 토큰을 만들어 고급 <span class="keyword">Target</span> 디버깅 도구를 활성화합니다. </p> <p><span class="uicontrol">구현 세부 사항</span> 페이지(<span class="wintitle">설정</span> &gt; <span class="uicontrol">구현</span>)에서 <span class="uicontrol">인증 토큰 생성</span>을 클릭합니다. 그런 다음, 문제 해결을 위해 결과 매개 변수를 웹 페이지 URL에 추가할 수 있습니다. </p> <p>자세한 내용은 <a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> 콘텐츠 전달 문제 해결 </a>. </p> </td> 
+   <td colname="col2"> <p>임시 인증 토큰을 만들어 고급 <span class="keyword">Target</span> 디버깅 도구를 활성화합니다. </p> <p>Click <span class="uicontrol"> Generate Authentication Token </span> on the <span class="wintitle"> Implementation Details </span> page ( <span class="uicontrol"> Administration </span> &gt; <span class="uicontrol"> Implementation </span>). 그런 다음, 문제 해결을 위해 결과 매개 변수를 웹 페이지 URL에 추가할 수 있습니다. </p> <p>자세한 내용은 <a href="../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA" format="dita" scope="local"> 콘텐츠 전달 문제 해결 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 권장 사항: 기준 집합 시퀀싱 </td> 
@@ -2198,7 +2221,7 @@ Adobe Target Standard/Premium 16.7.1(2016년 7월 21일) 릴리스에는 다음�
  <tbody> 
   <tr> 
    <td colname="col1"> 활동에 대한 우선순위 설정 </td> 
-   <td colname="col2"> <p>이제 여러 활동이 동일한 대상을 가진 동일한 위치에 지정되는 경우, 활동 우선순위 수준을 0 -999 범위에서 설정하여 표시되는 활동을 보다 상세하게 제어할 수 있습니다. </p> <p>이 옵션은 <span class="wintitle">설정</span> &gt; <span class="wintitle">기본 설정</span>에서 활성화해야 합니다. </p> <p>세분화된 우선순위 옵션은 A/B 테스트, 자동화된 개인화, 경험 타깃팅 다변량 테스트 활동에 적용됩니다. </p> <p>자세한 내용은 다음 주제를 참조하십시오. </p> <p> 
+   <td colname="col2"> <p>이제 여러 활동이 동일한 대상을 가진 동일한 위치에 지정되는 경우, 활동 우선순위 수준을 0 -999 범위에서 설정하여 표시되는 활동을 보다 상세하게 제어할 수 있습니다. </p> <p>This option must be enabled in <span class="wintitle"> Administration </span> &gt; <span class="wintitle"> Reporting </span> . </p> <p>세분화된 우선순위 옵션은 A/B 테스트, 자동화된 개인화, 경험 타깃팅 다변량 테스트 활동에 적용됩니다. </p> <p>자세한 내용은 다음 주제를 참조하십시오. </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
       <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>A/B 테스트: </b> <a href="../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local"> 목표 및 설정 </a> </li> 
       <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>자동화된 개인화: </b><a href="../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">자동화된 개인화</a> </li> 
@@ -2520,7 +2543,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 * Chrome 버전 48 업데이트는 Visual Experience Composer가 Chrome에서 제대로 작동할 수 없게 하는 문제를 야기합니다. Google을 사용하면 문제가 해결됩니다. 자세한 내용은 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)을 참조하십시오. 이 문제를 해결하려면 다음을 수행하십시오.
 
    * Firefox 또는 Internet Explorer를 사용합니다.
-   * **[!UICONTROL 설정]** > **[!UICONTROL 기본 설정]** 탭 내에서 구성할 수 있는 Enhanced Experience Composer를 사용하도록 설정합니다.
+   * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab.
 
 ### Adobe Target Standard/Premium 16.2.1(2016년 2월 18일) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
@@ -2542,7 +2565,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 * Chrome 버전 48 업데이트는 Visual Experience Composer가 Chrome에서 제대로 작동할 수 없게 하는 문제를 야기합니다. Google을 사용하면 문제가 해결됩니다. 자세한 내용은 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)을 참조하십시오. 이 문제를 해결하려면 다음을 수행하십시오.
 
    * Firefox 또는 Internet Explorer를 사용합니다.
-   * **[!UICONTROL 설정]** > **[!UICONTROL 기본 설정]** 탭 내에서 구성할 수 있는 Enhanced Experience Composer를 사용하도록 설정합니다.
+   * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab.
 
 ### Adobe Target Standard/Premium 16.1.1(2016년 1월 28일) {#section_8BF7705B452C449F961AEFC568A0778C}
 
@@ -2620,7 +2643,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 * Chrome 버전 48 업데이트는 Visual Experience Composer가 Chrome에서 제대로 작동할 수 없게 하는 문제를 야기합니다. Google을 사용하면 문제가 해결됩니다. 자세한 내용은 [https://code.google.com/p/chromium/issues/detail?id=582603](https://code.google.com/p/chromium/issues/detail?id=582603)을 참조하십시오. 이 문제를 해결하려면 다음을 수행하십시오.
 
    * Firefox 또는 Internet Explorer를 사용합니다.
-   * **[!UICONTROL 설정]** > **[!UICONTROL 기본 설정]** 탭 내에서 구성할 수 있는 Enhanced Experience Composer를 사용하도록 설정합니다.
+   * Enable the Enhanced Experience Composer, which can be configured from within the **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab.
 
 ## 릴리스 2015 {#reference_8E940F500A374F9FBCD68CDE9E7E1A00}
 
@@ -3569,7 +3592,7 @@ target/r_release-notes-2014.xml
 
 | 기능 | 설명 |
 |---|---|
-| Target Standard 내 [!DNL mbox.js] 다운로드 | Target Standard 인터페이스의 [!DNL mbox.js]설정&#x200B;**[!UICONTROL >]** 구현&#x200B;**[!UICONTROL 에서]** 파일을 이제 직접 다운로드할 수 있습니다. 이전에는 Target Advanced 내에서 파일을 다운로드하거나 계정 담당자 또는 컨설턴트가 제공해야 했습니다. |
+| Target Standard 내 [!DNL mbox.js] 다운로드 | The [!DNL mbox.js] file can now be downloaded directly from **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** in the Target Standard interface. 이전에는 Target Advanced 내에서 파일을 다운로드하거나 계정 담당자 또는 컨설턴트가 제공해야 했습니다. |
 
 이 릴리스에는 다음과 같은 수정 사항 및 개선 사항이 포함됩니다.
 
