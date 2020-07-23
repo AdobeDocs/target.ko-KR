@@ -1,11 +1,14 @@
 ---
-keywords: 타겟 페이지 매개변수;타겟 페이지 매개변수;페이지 매개 변수;페이지 매개변수;페이지 매개변수;페이지 매개변수;at.js;함수;함수
+keywords: targetPageParams;targetpageparams;pageParams;pageparams;page params;page parameters;at.js;functions;function
 description: Adobe Target at.js JavaScript 라이브러리에 대한 targetPageParams() 함수 정보입니다.
 title: Adobe Target at.js JavaScript 라이브러리에 대한 targetPageParams() 함수 정보입니다.
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '150'
+ht-degree: 89%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 이 방법을 사용하면 요청 코드의 외부에서 글로벌 mbox에 매개 변수를 첨부할 수 있습니다.
 
-이 함수는 여러 mbox 호출에 대해 동일한 매개 변수 집합을 포함하는 데 매우 유용합니다. 이 함수는 고객이 정의해야 합니다. 글로벌 mbox 요청에만 전달될 매개 변수 배열을 반환해야 합니다. 이 함수는 at.js가 로드되기 전에 또는 **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]** &gt; **[!UICONTROL at.js 설정 편집]** &gt; **[!UICONTROL 코드 설정]** &gt; **[!UICONTROL 라이브러리 헤더]**&#x200B;에서 정의할 수 있습니다.
+이 함수는 여러 mbox 호출에 대해 동일한 매개 변수 집합을 포함하는 데 매우 유용합니다. 이 함수는 고객이 정의해야 합니다. 글로벌 mbox 요청에만 전달될 매개 변수 배열을 반환해야 합니다. This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Library Header]**.
 
 다음 방법 중 하나로 `targetPageParams()` 함수를 사용하여 target-global-mbox에 매개 변수를 전달할 수 있습니다.
 
