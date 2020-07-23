@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 78%
+source-wordcount: '1574'
+ht-degree: 77%
 
 ---
 
@@ -17,10 +17,6 @@ ht-degree: 78%
 # 응답 토큰{#response-tokens}
 
 Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
-
->[!NOTE]
->
->이 항목의 정보는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대해 살짝 돋보이게 하기 위해 업데이트되었습니다. 이 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
 응답 토큰을 사용하면 활용할 변수를 선택한 다음 Target 응답의 일부로 전송할 수 있습니다. 이렇게 하려면 스위치를 사용하여 변수를 활성화하면 해당 변수가 Target 응답과 함께 보내지며, 네트워크 호출에서 유효성을 검사할 수 있습니다. Response tokens work in [!UICONTROL Preview] mode as well.
 
@@ -291,5 +287,9 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 ## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오를 시청하여 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 학습하십시오.
+
+>[!NOTE]
+>
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다. 그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
