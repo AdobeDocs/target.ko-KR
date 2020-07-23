@@ -4,7 +4,10 @@ description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3201'
+ht-degree: 95%
 
 ---
 
@@ -20,20 +23,6 @@ source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
-
-### 보고 및 예외적인 주문
-
-2019년 11월 25일부터 2020년 4월 26일까지, 한 Target 서버에서 매출 기반 보고서 지표(AOV, RPV)에서 예외적인 주문 값이 카운트되는 문제가 발생했습니다. 2019년 12월 19일부터 2020년 4월 23일까지 다른 서버에서 동일한 문제가 발생했습니다. 이 문제는 모든 Target 서버 또는 모든 Target 고객에게 영향을 주지 않았습니다.
-
-다음의 경우 영향을 받지 *않았습니다* .
-
-* Target 구현에서는 다른 서버를 사용합니다.
-* 보고서에서 예외적인 주문을 제외하지 않았습니다.
-* 전환 지표를 사용하여 활동을 측정했습니다.
-* Target 활동에서는 Analytics for Target(A4T)을 사용합니다.
-* APAC 지역에 있습니다.
-
-이 문제가 Target 보고에 영향을 미치는지 확인하려면 클라이언트 지원 팀에 [문의하십시오](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### 페이지 게재 {#page-delivery}
 
@@ -121,7 +110,7 @@ mbox.js 라이브러리는 Handlebars 및 Mustache와 같은 클라이언트 측
 
 ### 구현: 글로벌 Mbox를 자동으로 만들기
 
-구현 탭([!UICONTROL 설정 > 구현])에서 [!UICONTROL 글로벌 Mbox 자동으로 만들기] 필드는 새로 제공된 임차인에 대해 기본적으로 &quot;false&quot;입니다.
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
 
 프로비저닝 후 처음으로 mbox.js가 다운로드되면 다운로드된 mbox.js 파일 및 [!UICONTROL  백엔드에서 ]글로벌 Mbox를 자동으로 만들기[!DNL Target] 필드가 &quot;true&quot;로 설정되지만, UI의 [!UICONTROL 구현] 페이지에는 페이지를 새로 고칠 때까지 계속 &quot;false&quot;로 표시됩니다(페이지를 새로 고친 후 상태는 &quot;true&quot;로 표시됨).
 
@@ -146,6 +135,20 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 위의 알려진 문제가 해결되면 다음 섹션으로 이동되고, 필요한 경우 다른 메모가 더 추가됩니다.
+
+### 보고 및 예외적인 주문
+
+2019년 11월 25일부터 2020년 4월 26일까지, 한 Target 서버에서 매출 기반 보고서 지표(AOV, RPV)에서 예외적인 주문 값을 계산하는 문제를 경험했습니다. 2019년 12월 19일부터 2020년 4월 23일까지 다른 서버에서 동일한 문제가 발생했습니다. 이 문제는 모든 Target 서버 또는 모든 Target 고객에게 영향을 주지 않았습니다.
+
+다음의 경우 *영향을 받지* 않았습니다.
+
+* Target 구현에서 서로 다른 서버를 사용합니다.
+* 보고서에서 예외적인 주문을 제외하지 않았습니다.
+* 전환 지표를 사용하여 활동을 측정했습니다.
+* Target 활동에서는 Target(A4T)에 Analytics을 사용합니다.
+* APAC 지역에 있습니다.
+
+이 문제가 Target 보고에 영향을 미치는지 확인하려면 [클라이언트 지원팀에 문의하십시오](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Recommendations
 
