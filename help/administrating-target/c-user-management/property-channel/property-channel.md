@@ -5,10 +5,10 @@ title: Enterprise 사용자 권한
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 82%
+source-wordcount: '3053'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 * **[!DNL Target Standard]고객&#x200B;**: [[!UICONTROL 사용자]] 탭([관리][!UICONTROL > [사용자]]가[!UICONTROL 아니라)이 표시되는 경우]조직의[!DNL Target Standard]라이센스는있습니다.[!DNL Target Standard]고객은[사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md)[!DNL Adobe Admin Console]지침을 따라 사용자를 추가하고
 
-* **[!DNL Target Premium]고객&#x200B;**: [[!UICONTROL 속성]] 탭([[!UICONTROL 설정]] > [속성)과][사용자[!DNL Target Premium]]탭이 표시되면 조직에라이선스가 있는 것입니다.[!DNL Target Premium]고객은 이 문서와[엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
+* **[!DNL Target Premium]고객&#x200B;**: [[!UICONTROL 속성]] 탭([!UICONTROL 관리]> 속성[!UICONTROL )과]사용자[!DNL Target Premium]탭이 표시되면 조직에라이센스가 있는 것입니다.[!DNL Target Premium]고객은 이 문서와[엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
 
 ## 엔터프라이즈 권한을 시작하기 전
 
@@ -199,7 +199,7 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 * **대상 생성:**&#x200B;새 대상을 생성하면 현재 선택한 작업 공간에서 생성됩니다.
 * **오퍼 생성:**&#x200B;새 오퍼를 생성하면 현재 선택한 작업 공간에서 생성됩니다.
-* **속성 페이지(설정 > 속성):** 검색 상자 [!UICONTROL 를] 사용하여 [!UICONTROL 속성] 목록을 검색할 수 있습니다.
+* **속성 페이지(관리 > 속성):** 검색 상자 [!UICONTROL 를] 사용하여 [!UICONTROL 속성] 목록을 검색할 수 있습니다.
 
    ![](assets/properties_list.png)
 
@@ -303,5 +303,9 @@ Consider the following when using or configuring properties and permissions in [
 * 속성 만들기
 * 사용자 추가
 * 구현 업데이트
+
+>[!NOTE]
+>
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다. 그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
