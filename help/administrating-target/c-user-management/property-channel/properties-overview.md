@@ -5,10 +5,10 @@ title: Enterprise 권한 구성
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1469'
-ht-degree: 70%
+source-wordcount: '1476'
+ht-degree: 69%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 70%
 # ![PREMIUM](/help/assets/premium.png) 엔터프라이즈 권한 구성{#configure-enterprise-permissions}
 
 Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
-
->[!NOTE]
->
->이 항목의 정보는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대해 살짝 돋보이게 하기 위해 업데이트되었습니다. 이 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
 >[!NOTE]
 >
@@ -206,7 +202,11 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Target 작업 공간 구성 방법(6:55) ![자습서 배지](/help/assets/tutorial.png)
+>[!NOTE]
+>
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오에 있는 정보는 일반적으로 정확합니다. 그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+
+### Target 작업 영역 구성 방법(6:55) 자습서 ![배지](/help/assets/tutorial.png)
 
 이 비디오에서는 작업 공간을 만드는 방법을 설명합니다.
 
