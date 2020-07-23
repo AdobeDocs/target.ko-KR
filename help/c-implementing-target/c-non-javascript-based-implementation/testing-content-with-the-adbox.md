@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 83%
+source-wordcount: '308'
+ht-degree: 77%
 
 ---
 
@@ -32,9 +32,8 @@ AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다.
 
    * 여기서 `myClientCode`는 회사의 클라이언트 코드입니다. 회사의 클라이언트 코드는 모두 소문자이고 특수 문자를 포함하지 않습니다.
 
-      * **at.js**: 클라이언트 코드는 [!UICONTROL 인터페이스의 ]설정 > 구현 > at.js 설정 편집[!DNL Target] 페이지 맨 위에서 사용할 수 있습니다.
+      Your client code is available at the top of the [!UICONTROL Administation > Implementation] page of the [!DNL Target] interface.
 
-      * **mbox.js**: 클라이언트 코드는 [!UICONTROL 설정 > 구현 > Mbox.js 설정 편집] 페이지 맨 위에서 사용할 수 있습니다.
    * 여기서 `image`는 호출 유형입니다. 이 경우 이미지입니다.
 
    * 여기서 `emailHeroImage123_320x200`은 AdBox의 이름입니다.
@@ -42,7 +41,6 @@ AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다.
    * 여기서 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif`는 mbox의 기본 콘텐츠입니다. 이것은 이미지여야 합니다.
 
       이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
-
 
 1. 각 대체 이미지에 대한 [리디렉션 오퍼](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)를 만듭니다.
 
