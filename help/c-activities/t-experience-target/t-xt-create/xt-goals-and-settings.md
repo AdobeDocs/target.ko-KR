@@ -1,11 +1,14 @@
 ---
-keywords: 활동 설정;경험 타깃팅 목표 및 설정;xt 목표 및 설정;경험 타깃팅;목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
+keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: 목표 및 설정 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
 title: 목표 및 설정
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1228'
+ht-degree: 97%
 
 ---
 
@@ -36,9 +39,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-이 옵션이 설정(기본값)에서 활성화되지 않으면 우선순위를 낮음, 중간 또는 높음으로 지정하십시오.
+관리에서 이 옵션이 활성화되지 않은 경우(기본값) 우선 순위를 지정합니다. 낮음, 중간 또는 높음
 
-세분화된 우선순위를 활성화하려면 설정을 클릭한 다음, 세분화된 우선순위 활성화 옵션을 "켜기" 위치로 전환하십시오.
+To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 
@@ -160,4 +163,4 @@ A4T(Analytics for Target)를 위해서는 결과를 올바르게 보고하기 �
 * 보고서 필터를 작성하기 위해 보고 대상 추가
 * 활동에 대한 메모 입력
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
