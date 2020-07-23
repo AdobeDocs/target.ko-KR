@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 90%
 
 ---
 
@@ -24,14 +27,15 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-   이 옵션이 [!UICONTROL 설정] (기본값)에서 활성화되지 않으면 우선순위를 낮음, 중간 또는 높음으로 지정하십시오.
+   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-   세분화된 우선순위를 활성화하려면 [!UICONTROL 설정]을 클릭한 다음, [!UICONTROL 세분화된 우선순위 활성화] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.
+   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
 
    이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 
    * 0 = 낮음
    * 999 = 높음
+
    이전 버전의 [!DNL Target Standard/Premium]에서 만든 활동의 경우, 낮음 우선순위는 0으로, 중간은 5로, 높음은 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.
 
    >[!NOTE]
@@ -54,7 +58,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 * [다변량 테스트](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [권장 사항](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 교육 비디오: 활동 설정 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 활동 설정 ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에는 활동 설정에 대한 정보가 포함되어 있습니다.
 
