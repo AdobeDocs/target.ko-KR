@@ -3,10 +3,10 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Adobe Target 제품 설명서
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
+source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 64%
+source-wordcount: '665'
+ht-degree: 61%
 
 ---
 
@@ -17,11 +17,13 @@ ht-degree: 64%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜: 2020년 7월 17일([변경 사항 보기](r-release-notes/doc-change.md))**
+**마지막 업데이트 날짜: 2020년 7월 27일([변경 사항 보기](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
->Target Spuit Builder 세션, 개발자 채팅, 웨비나 및 Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
+>**Adobe, 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정**
+>
+>Adobe는 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 평가 결과, 비전의 완전성과 실행 능력. [Adobe 블로그에서 확인할 수 있습니다](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
 다음 섹션에서는 일반적인 직무에 따라 의도된 대상별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
