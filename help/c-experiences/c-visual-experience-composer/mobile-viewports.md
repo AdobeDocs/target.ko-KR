@@ -4,10 +4,10 @@ description: 모바일 뷰포트는 다양한 크기의 화면에서 활동이 �
 title: 응답형 경험을 위한 모바일 뷰포트
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1346'
-ht-degree: 96%
+source-wordcount: '1343'
+ht-degree: 93%
 
 ---
 
@@ -86,12 +86,12 @@ ht-degree: 96%
 
 경험을 만들 때 사용 가능하게 할 모바일 뷰포트를 구성하십시오.
 
-1. Click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
-1. 계정 환경 설정 페이지의 모바일 뷰포트 구성 섹션에서 **[!UICONTROL 새로 추가]**&#x200B;를 클릭하여 모바일 뷰포트를 추가합니다.
+1. [ **[!UICONTROL 관리]** ] > **[!UICONTROL [시각적 경험 컴포저]를 클릭합니다]**.
+1. In the Mobile Viewports Configuration section of the Account Preferences page, click **[!UICONTROL Add]** to add a mobile viewport.
 
    기존 모바일 뷰포트의 구성을 변경하려면 해당 뷰포트를 선택하고 편집(연필) 아이콘을 클릭합니다.
 
-   ![](assets/viewpoert_add.png)
+   ![뷰포트 추가](/help/c-experiences/c-visual-experience-composer/assets/viewpoert_add.png)
 
 1. 모바일 뷰포트의 이름을 입력합니다.
 
@@ -111,6 +111,7 @@ ht-degree: 96%
    * Windows
    * Symbian
    * Blackberry
+
    [고급 경험 작성기](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)를 사용하고 운영 체제를 선택하는 경우, 페이지를 볼 때 Target에서 해당 장치를 에뮬레이트합니다. 예를 들어, 응답형 사이트에서 Android의 모양과 느낌이 iOS와 다른 경우 Target은 해당 동작을 모방합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
@@ -139,8 +140,8 @@ ht-degree: 96%
 
 이 사용 사례에서는 Target Standard의 모바일 뷰포트 기능을 사용하여 iPhone 6과 iPhone 6 Plus, 이 두 가지 iPhone 버전을 위한 경험을 구성하는 방법을 보여줍니다.
 
-1. In Target Standard, click **[!UICONTROL Setup]** > **[!UICONTROL Preferences]**.
-1. 기본 설정 페이지의 모바일 뷰포트 구성 섹션에서 iPhone 6 및 iPhone 6 plus에 대한 모바일 뷰포트를 만듭니다.
+1. Target에서 관리를 **[!UICONTROL 클릭합니다]**.
+1. 모바일 뷰포트 구성 섹션에서 iPhone 6 및 iPhone 6 plus용 모바일 뷰포트를 만듭니다.
 
    각 뷰포트에 다음 설정을 사용합니다.
 
@@ -178,7 +179,7 @@ ht-degree: 96%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Adobe Target ![개요 배지의 계정 환경 설정](/help/assets/overview.png)
+### Adobe Target ![개요 배지의 계정 기본 설정](/help/assets/overview.png)
 
 이 비디오에는 계정 기본 설정에서 모바일 뷰포트를 설정하는 방법에 대한 정보가 포함되어 있습니다. 이 내용은 비디오의 4분 40초부터 시작됩니다.
 
