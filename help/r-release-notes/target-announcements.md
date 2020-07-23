@@ -4,9 +4,9 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target �
 title: Target 공지
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '158'
+source-wordcount: '304'
 ht-degree: 0%
 
 ---
@@ -14,16 +14,30 @@ ht-degree: 0%
 
 # Target 공지 및 이벤트
 
-Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target 커피 브레이크 세션 등 예정된 이벤트에 대한 정보입니다.
+Target Skinning Builder 세션, 개발자 채팅, 웨비나, Target 커피 브레이크 세션 등 예정된 이벤트에 대한 공지 및 정보입니다.
 
-## Jon Tehero와 함께 Adobe Target 커뮤니티 커피 휴식
+## Adobe, 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정
 
-* **오전 10시에서 11시 (PST)**
-* **2020년 7월 22일 수요일**
+Adobe는 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 평가 결과, 비전의 완전성과 실행 능력. [Adobe 블로그에서 확인할 수 있습니다](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
 
-Adobe는 Digital Experience의 그룹 제품 관리자인 Jon Tehero와 함께 Adobe Target 커뮤니티에 로그인하여 Adobe와 직접 대화를 통해 Adobe의 전문 기술과 관련된 귀하의 Adobe Target 관련 질문에 답변해 드릴 것입니다.
+## 웨비나: HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법
 
-[Adobe Target 커뮤니티에 등록하십시오](https://adobe-target-community-coffee-breaks.experienceleague.adobeevents.com/).
+* **오전 8시 - 9시 (PDT)**
+* **2020년 8월 6일 목요일**
+
+McKinsey Digital은 &quot;지난 5년간 소비자 및 비즈니스 디지털 채택이 8주 만에 급증했다고 보고했습니다.&quot; *
+
+소비자의 요구 사항이 빠르게 진화하고 있고 HSBC는 Adobe Target을 통해 최적화를 통해 새로운 고객 여정을 신속하게 테스트하고 개인화하여 특정 개발 및 런칭을 6개월에서 1주일로 줄였습니다.
+
+이 웨비나에서는 Adobe와 HSBC에 가입하여 다음과 같은 사항을 살펴볼 수 있습니다.
+
+* HSBC의 최적화 및 개인화 노력이 조직의 신속한 변화를 이끌어내는 방법
+* AI와 Analytics의 노력을 가속화하고 명확하고 중요한 비즈니스 효과를 제공하는 방법
+* HSBC가 3000개 이상의 활동을 제공하는 대규모 프로그램을 성공적으로 구축한 방법
+
+[이 유용한 웨비나를 등록하십시오](https://hsbc-targetai.experienceleague.adobeevents.com/).
+
+*맥킨지 기사: &quot;[COVID-19 복구는 디지털](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)상태가 될 것입니다.&quot; 2020년 5월
 
 ## Adobe Target 스킬 빌더: 개발자 채팅, Adobe Target mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
