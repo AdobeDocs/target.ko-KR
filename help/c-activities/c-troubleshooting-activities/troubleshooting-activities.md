@@ -5,10 +5,10 @@ title: 활동 문제 해결
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 83%
+source-wordcount: '799'
+ht-degree: 81%
 
 ---
 
@@ -79,7 +79,7 @@ Target UI를 사용하여 만든 활동은 Target UI를 통해 업데이트해�
 Target에서 사용자로 추가된 후 활동을 만들려면 승인자 역할이 있어야 합니다.
 
 * 승인자가 되려면 계정 관리자에게 문의하십시오.
-* 관리자의 경우, Target 표준의 설정 > 사용자에서 자신에게 승인자 역할을 지정하십시오.
+* If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
    [자신에게 승인자 역할 지정](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)을 참조하십시오.
 
