@@ -5,10 +5,10 @@ title: 시각적 경험 작성기 우수 사례 및 제한 사항
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 98%
+source-wordcount: '2448'
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,13 @@ ht-degree: 98%
 
 **계정 수준(계정에서 만들어진 모든 활동에 대해 활성화됨)이나 개별 활동 수준에서 향상된 경험 작성기를 활성화할 수 있습니다.**
 
-계정 수준에서 향상된 경험 작성기를 활성화하려면 [!UICONTROL 설정 > 환경 설정]을 클릭한 다음, 스위치를 켜짐 위치로 전환하십시오.
+To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
 
 시각적 경험 작성기에서 활동을 만드는 동안 활동 수준에서 향상된 경험 작성기를 활성화하려면 [!UICONTROL 구성 > URL]을 클릭한 다음, 스위치를 켜짐 위치로 전환하십시오.
 
-**향상된 시각적 경험 작성기가 사이트의 보안 페이지에서 로드되지 않을 경우 특정 IP 주소를 표시할 수 있습니다.**
+**향상된 시각적 경험 작성기가 사이트의 보안 페이지에서 로드되지 않을 경우 특정 IP 주소를할 허용 목록에 추가하다 수 있습니다.**
 
-다음 IP 주소를 나열할 수 있도록 허용하여 향상된 시각적 경험 작성기를 로드하는 동안 문제가 발생할 수 있습니다. 이 IP 주소는 향상된 경험 작성기 프록시에 사용되는 Adobe의 서버용이며, 활동 편집에만 필요합니다. 사이트 방문자는 이러한 IP 주소를 나열할 필요가 없습니다.
+다음 IP 주소를 허용 목록에 추가로 사용하여 향상된 시각적 경험 작성기를 로드하는 동안 문제가 발생할 수 있습니다. 이 IP 주소는 향상된 경험 작성기 프록시에 사용되는 Adobe의 서버용이며, 활동 편집에만 필요합니다. 사이트 방문자에게는 이러한 IP 주소가 필요하지 허용 목록에추가된 않습니다.
 
 미국: 52.55.99.45, 54.80.158.92 및 54.204.197.253
 
