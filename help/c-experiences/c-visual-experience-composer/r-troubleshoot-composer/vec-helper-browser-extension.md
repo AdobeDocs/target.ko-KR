@@ -1,10 +1,13 @@
 ---
-keywords: vec;시각적 경험 작성기; vec;iframe;확장 프로그램;브라우저
+keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Adobe VEC(시각적 경험 작성기) Helper 브라우저 확장 프로그램을 사용하여 VEC에서 웹 사이트를 안정적으로 로드함으로써 경험을 빠르게 작성 및 QA하기 위한 정보입니다.
 title: Adobe Target VEC(시각적 경험 작성기) Helper 확장 프로그램
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 94%
 
 ---
 
@@ -33,7 +36,7 @@ VEC Helper 확장 프로그램을 사용하는 이점:
 ## VEC Helper 브라우저 확장 프로그램 받기 및 설치
 
 1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
-1. [!UICONTROL Chrome에 추가 &gt; 확장 프로그램 추가]를 클릭합니다.
+1. [!UICONTROL Chrome에 추가 > 확장 프로그램 추가]를 클릭합니다.
 1. 확장 프로그램을 사용하려면 VEC 또는 [QA 모드](/help/c-activities/c-activity-qa/activity-qa.md)에 있는 동안 Chrome 브라우저의 도구 모음에서 VEC Helper 브라우저 확장 프로그램 아이콘(![VEC Helper 아이콘](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))을 클릭합니다.
 
 다음 그림은 [!UICONTROL Target 라이브러리 삽입] 설정이 활성화된 VEC Helper를 보여줍니다.
@@ -51,7 +54,7 @@ VEC Helper 확장 프로그램을 사용하는 이점:
 
    이 플래그는 글로벌 설정이며, VEC에서 연 모든 웹 사이트에 대해 활성화되어 있거나 비활성화되어 있습니다. 따라서, 예를 들어, 이 플래그를 켜짐으로 설정하고 at.js로 이미 구현된 웹 사이트를 여는 경우 at.js가 이미 로드되었음을 알려주는 메시지가 표시됩니다. 대부분의 고객은 페이지에 이미 at.js를 구현하고 기본 설정인 꺼짐을 사용할 것으로 예상됩니다.
 
-* 확장 프로그램은 [!UICONTROL 설정 &gt; 구현]을 통해 [!DNL Target UI]에서 사용할 수 있는 최신 at.js 버전을 로드합니다.
+* The extension loads the latest version of at.js that is available from the [!DNL Target UI] in [!UICONTROL Administration > Implementation].
 * [QA 모드](/help/c-activities/c-activity-qa/activity-qa.md)에서 확장 프로그램을 사용하여 at.js를 주입하는 경우 다른 Chrome 탭이 열려 있어야 합니다. 이 Chrome 탭은 활동을 만든 조직과 동일한 [!DNL Adobe Experience Cloud] 조직으로 인증되어야 합니다.
 * 다음 메시지는 사용자에게 계속 정보를 제공하는 데 도움이 됩니다.
 
