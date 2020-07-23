@@ -1,10 +1,13 @@
 ---
-keywords: 고급 mbox.js 설정;클라이언트;서버 도메인;xdomain;압축 수준;클라이언트 세션 ID 지원;secureOnly;클라이언트 pc id 지원;페이지 전달;참조 url;트래픽 수준;트래픽 기간;mboxParameters() 함수 본문;mboxSupported() 함수 본문;mboxCookieDomain() 함수 본문;추가 JavaScript;SiteCatalyst 플러그인;mbox.js를 자동 압축 해제 JavaScript;깜박임;본문 숨김;본문 숨기기
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: mbox.js 설정 페이지에서 여러 설정을 지정하는 데 도움이 되는 정보입니다.
 title: mbox.js 구성
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +26,13 @@ mbox.js 설정 페이지에서 여러 설정을 지정하는 데 도움이 되�
 
 계정에 대한 클라이언트 코드입니다.
 
-[!UICONTROL 설정 &gt; 구현 &gt; Mbox.js 설정 편집]을 볼 때 맨 위에 있는 클라이언트가 계정의 클라이언트 코드입니다.
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## 시간 초과
 
 Target 요청 시간 제한입니다.
 
-[!UICONTROL 설정 &gt; 구현 &gt; Mbox.js 설정 편집]을 볼 때 압축 수준 다음에 나오는 시간 제한이 Target 요청 시간 제한입니다. 기본적으로 이 값은 15초로 설정되지만 2초~5초 사이의 값으로 설정하는 것이 좋습니다.
+[ [!UICONTROL 관리] > [구현]]을 볼 때 [시간 초과(초)] 설정은 Target 요청 시간 초과입니다. 기본적으로 이 값은 15초로 설정되지만 2초~5초 사이의 값으로 설정하는 것이 좋습니다.
 
 ## XDomain
 
@@ -47,7 +50,7 @@ mbox.js 라이브러리 파일이 얼마나 압축되는지를 결정합니다. 
 
 예:
 
-return "test=123";
+return &quot;test=123&quot;;
 
 ## mboxSupported() 함수 본문
 
@@ -55,7 +58,7 @@ return "test=123";
 
 예:
 
-return !navigator.userAgent.indexOf('Safari') != -1;
+return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
 
 다음 브라우저는 허용되거나 제외될 수 있습니다.
 
@@ -70,7 +73,7 @@ return !navigator.userAgent.indexOf('Safari') != -1;
 
 예:
 
-return "YOUR-DOMAIN";
+return &quot;YOUR-DOMAIN&quot;;
 
 ## 추가 JavaScript
 
