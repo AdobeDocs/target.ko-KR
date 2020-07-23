@@ -5,10 +5,10 @@ title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSetti
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 41%
+source-wordcount: '1647'
+ht-degree: 39%
 
 ---
 
@@ -189,7 +189,7 @@ ht-degree: 41%
 
 ## 사용 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-이 함수는 at.js가 로드되기 전에 또는 **[!UICONTROL 설정]** > **[!UICONTROL 구현]** > **[!UICONTROL at.js 설정 편집]** > **[!UICONTROL 코드 설정]** > **[!UICONTROL 라이브러리 헤더]**&#x200B;에서 정의할 수 있습니다.
+This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 라이브러리 헤더 필드에는 자유 형식 JavaScript를 입력할 수 있습니다. 사용자 지정 코드는 다음 예제와 유사해야 합니다.
 
@@ -472,7 +472,7 @@ Consider the following when using `serverState`:
 
 * 오퍼를 `serverState `적용할 때 at.js는 고려 `pageLoadEnabled` 및 `viewsEnabled` 설정(예: 설정이 false인 경우 페이지 로드 오퍼가 적용되지 `pageLoadEnabled` 않습니다.
 
-   이 설정을 활성화하려면 UICONTROL 설정 > 구현 > **[설정 편집 > 페이지 로드 활성화에서 전환을 활성화합니다]**.
+   이 설정을 켜려면 UICONTROL 관리 > 구현 > 편집 > 페이지 로드 **[활성화에서 전환을 활성화합니다]**.
 
    ![페이지 로드 활성화 설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
