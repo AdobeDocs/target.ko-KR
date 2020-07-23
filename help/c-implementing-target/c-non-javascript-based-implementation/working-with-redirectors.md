@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '680'
-ht-degree: 72%
+source-wordcount: '659'
+ht-degree: 69%
 
 ---
 
@@ -47,9 +47,8 @@ ht-degree: 72%
 
    * 여기서 `yourclientcode`는 회사의 클라이언트 코드입니다. 회사의 클라이언트 코드는 모두 소문자이고 특수 문자를 포함하지 않습니다.
 
-      * **at.js**: 클라이언트 코드는 [!UICONTROL 인터페이스의 ]설정 > 구현 > at.js 설정 편집[!DNL Target] 페이지 맨 위에서 사용할 수 있습니다.
+      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
 
-      * **mbox.js**: 클라이언트 코드는 [!UICONTROL 설정 > 구현 > Mbox.js 설정 편집] 페이지 맨 위에서 사용할 수 있습니다.
    * `redirectorlink_456` 은 캠페인 및 테스트에서 사용할 계정에 나타나는 리디렉터 mbox의 이름입니다.
 
       리디렉터는 다른 mbox와 다르게 작동하지만 계정에서는 다른 mbox처럼 나타납니다. 계정에서 표준 유형 mbox와 쉽게 구분되도록 리디렉터 이름을 지정하십시오.  우수 사례로, mbox 이름을 &#39;redirectorlink&#39;로 시작하십시오.
@@ -62,9 +61,8 @@ ht-degree: 72%
       >
       >리디렉터를 사용하면 개방형 리디렉션 취약점의 위험에 노출될 수 있습니다. 제3자가 리디렉터 링크를 무단으로 사용하지 않도록 하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target은 리디렉션을 허용할 도메인을에 허용 목록에 추가하다 사용합니다. 자세한 내용은 호스트 [에서 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#allowlist) 만들기를 *참조하십시오*.
 
-
 1. 리디렉터의 유효성을 확인합니다.
-   1. *보안 모범 사례*: 리디렉터에서 사용되는 도메인이 위에 표시된 대로 나열되는지 확인하십시오. 목록에 명시되지 않은 도메인을 사용하는 경우, Adobe는 악의적인 행위자가 리디렉터를 사용하여 잠재적으로 악성 도메인으로 리디렉션하지 못하도록 해당 도메인에 대한 모든 호출을 차단합니다.
+   1. *보안 모범 사례*: 리디렉터에 사용된 도메인이 위에 허용 목록에추가된 표시된 대로 표시되는지 확인합니다. 사용자가 아닌 도메인허용 목록에추가된을 사용하는 경우 Adobe는 악의적인 행위자가 리디렉터를 사용하여 잠재적으로 악성 도메인으로 리디렉션하는 것을 방지하기 위해 해당 도메인에 대한 모든 호출을 차단합니다.
    1. 리디렉터 URL을 브라우저에 삽입하고 새로 고칩니다.
    1. 계정에 로그인하고 mbox 목록을 새로 고친 후 새 리디렉터가 mbox로 나열되는지 확인합니다.
 1. 하나의 광고에 대해 서로 다른 대상을 테스트할 경우 각 버전에 대해 [리디렉션 오퍼](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)를 만듭니다.
