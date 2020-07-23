@@ -5,10 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
+source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 31%
+source-wordcount: '1483'
+ht-degree: 32%
 
 ---
 
@@ -16,6 +16,15 @@ ht-degree: 31%
 # 설명서 변경 내용{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.7.1(2020년 7월 27일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 27년 7월 | [Target 관리](/help/administrating-target/administrating-target.md) | 관리 페이지에 대한 새로운 UI 변경 사항을 반영하도록 이 페이지의 모든 연결된 항목에 있는 [!UICONTROL 텍스트를] 업데이트했습니다. |
+|  | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음과 같이 변경되었습니다. <ul><li>다음 웨비나에 대한 등록 정보가 추가되었습니다. &quot;HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법&quot;</li><li>개인화 엔진 부문 Gartner Magic Quadrant에서 Adobe가 리더로 선정되었다는 내용이 추가되었습니다.</li></ul> |
+|  | [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md) | 4단계 아래의 명확한 정보: 위치를 선택합니다. |
+|  | [릴리스 노트](/help/r-release-notes/release-notes.md): 20.7.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 20.5.1(2020년 6월 17일)
 
