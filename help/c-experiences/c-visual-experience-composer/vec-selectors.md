@@ -1,11 +1,14 @@
 ---
-keywords: 경험 타깃팅;랜딩 페이지 테스트
+keywords: Experience Targeting;Landing Page Test
 description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
 title: 시각적 경험 작성기에 사용된 요소 선택기
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 MDN(Mozilla Developer Network)의 [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
 
-계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. **[!UICONTROL 설정 &gt; 환경 설정]**&#x200B;을 클릭한 다음 선호하는 CSS 선택기를 선택하십시오.
+계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. [ **[!UICONTROL 관리] > [Visual Experience Composer]**]를 클릭한 다음 원하는 CSS 선택기를 선택합니다.
 
 ![](assets/css_selectors.png)
 
@@ -68,9 +71,9 @@ Target에서는 단순 알고리즘을 사용하여 선택기를 만듭니다. �
 
    이 예에서,
 
-   선택기: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` (" &gt; "는 바로 아래 하위를 가리킵니다.)
+   선택기: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (&quot; > &quot;는 바로 아래 하위를 가리킵니다.)
 
-   `eq`는 "tagName=UL"이 있는 요소가 있고 첫 번째 클래스가 `navigation`임을 인덱스에 알려줍니다. 따라서 `index`는 0입니다. 자세한 내용은 MDN의 [선택기](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서를 참조하십시오.
+   `eq`는 &quot;tagName=UL&quot;이 있는 요소가 있고 첫 번째 클래스가 `navigation`임을 인덱스에 알려줍니다. 따라서 `index`는 0입니다. 자세한 내용은 MDN의 [선택기](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서를 참조하십시오.
 
 1. 요소에 클래스가 없는 경우, Target은 요소에 `tagName`을 사용하고 `<HTML>` 요소나 ID가 있는 요소가 발견될 때까지 상위 요소를 트래버스합니다.
 
@@ -89,7 +92,7 @@ Target에서는 단순 알고리즘을 사용하여 선택기를 만듭니다. �
    </div>
    ```
 
-   선택기: `#container` &gt; `ul.navigation(0)` &gt; `li:nth-of-type(4)`
+   선택기: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
 
    [CSS Tricks 웹 페이지의 nth-of-type](https://css-tricks.com/almanac/selectors/n/nth-of-type/)에 대해 자세히 알 수 있습니다.
 
