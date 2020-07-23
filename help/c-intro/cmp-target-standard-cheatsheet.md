@@ -5,10 +5,10 @@ title: Target 최적화 및 개인화 FAQ
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2904'
-ht-degree: 99%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -134,9 +134,9 @@ QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa
 다음 두 가지 옵션을 사용할 수 있습니다.
 
 * 기본, 3가지 수준(낮음/중간/높음) 포함
-* 사용자 지정, 0 -999 범위 사용자 지정의 경우 미세 조정 우선순위 기능을 활성화하십시오(설정 > 기본 설정).
+* 사용자 지정, 0 -999 범위 사용자 지정에 대해 [세부 지정 우선 순위] 기능을 활성화합니다([관리] > [시각적 경험 컴포저]).
 
-## 대상자{#section_FA6314777ABC46D8B198D6F388051460}
+## 대상자 {#section_FA6314777ABC46D8B198D6F388051460}
 
 **활동에 고유한 대상 세그먼트를 활동에서 만들 수 있습니까? 이러한 대상은 재사용 요인이 없으므로 대상 라이브러리에서 만들고 싶지 않습니다.**
 
@@ -198,7 +198,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa
 
 **제게는 여러 도메인이 있습니다. 도메인 중 하나에서는 고급 경험 작성기가 활성화되어야 하지만 다른 도메인은 이 기능이 비활성화되어야 합니다. 이 작업을 어떻게 수행할 수 있습니까?**
 
-항상 [활동 수준의 고급 경험 작성기 옵션](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)을 사용하여 기본 설정을 재정의할 수 있습니다(설정 > 기본 설정).
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **이미지를 교환하는 옵션이 보이지 않는 이유는 무엇입니까?**
 
