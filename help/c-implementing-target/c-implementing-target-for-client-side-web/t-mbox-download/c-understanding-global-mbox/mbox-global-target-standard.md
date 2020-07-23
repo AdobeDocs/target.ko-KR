@@ -1,12 +1,15 @@
 ---
-keywords: 글로벌 mbox;target classic;target classic의 글로벌 mbox 사용
+keywords: global mbox;target classic;use global mbox from target classic
 description: 기본적으로, Target Standard에서는 target-global-mbox라는 글로벌 mbox를 만들어 Target Standard에서 만들어진 활동들 실행하는 데 사용합니다. 하지만, 이미 페이지에서 레거시 구현에 대한 mbox를 만든 경우, Target Standard 활동에 이 mbox를 사용할 수 있습니다.
 title: 이전 구현에서 글로벌 mbox를 사용
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '344'
+ht-degree: 91%
 
 ---
 
@@ -21,20 +24,20 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [!DNL Target Standard]와 레거시 구현 둘 다에 기존 글로벌 mbox를 사용하려면, 몇 개의 매개 변수를 설정해야 합니다.
 
-1. [!DNL Target Standard]로 이동한 다음, **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
+1. Go to [!DNL Target Standard], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    기본적으로, [!UICONTROL 글로벌 mbox 자동 만들기]가 활성화되어 있고, 사용자 지정 글로벌 mbox의 이름은 `target-global-mbox`로 지정됩니다.
 1. 기존 mbox를 사용하려는 경우, [!UICONTROL 글로벌 mbox 자동 만들기]를 비활성화하고, [!UICONTROL 사용자 지정 글로벌 mbox] 필드에 이전에 만든 글로벌 mbox의 이름을 지정하십시오.
 
    [!UICONTROL 사용자 지정 글로벌 mbox] 드롭다운에는 계정에 있는 모든 mbox가 나열됩니다. 아직 존재하지 않는 mbox를 사용하려면, Target Classic에서 mbox를 만드십시오.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    계정에 대한 mbox.js 설정이 업데이트됩니다.
 1. 새 mbox.js 파일을 다운로드하고 사이트에서 참조합니다.
 
    새 mbox.js 파일로 프로덕션 사이트를 업데이트했다면, 이제 기본 설정을 지정할 수 있습니다.
-1. **[!UICONTROL 설정]** &gt; **[!UICONTROL 환경 설정]**&#x200B;을 클릭합니다.
-1. [!UICONTROL 사용자 지정 글로벌 mbox] 필드에서, 구현 페이지에서 선택한 글로벌 mbox의 이름을 지정합니다.
+1. [ **[!UICONTROL 관리]** ] > **[!UICONTROL [시각적 경험 컴포저]를 클릭합니다]**.
+1. In the [!UICONTROL Global Mbox] field, specify the name of the global mbox you selected on the Implementation page.
 1. **[!UICONTROL 제출을 클릭합니다]**.
 
    모든 기존 활동은 이전에 만들어서 구현한 활동을 포함하여, 지정된 글로벌 mbox를 사용하도록 업데이트됩니다.
