@@ -1,12 +1,15 @@
 ---
-keywords: 글로벌 mbox;글로벌 mbox 사용자 지정;mbox.js 편집;at.js 편집;at.js;mbox.js 구현;at.js 구현
+keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
 description: at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
 title: 글로벌 mbox 사용자 지정
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 97%
 
 ---
 
@@ -17,10 +20,11 @@ at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데
 
 1. mbox.js를 편집합니다.
 
-   **[!UICONTROL Target]** &gt; **[!UICONTROL 설정]** &gt; **[!UICONTROL 구현]**&#x200B;으로 이동합니다.
+   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    * mbox.js의 경우 **[!UICONTROL mbox.js 설정 편집을 클릭합니다]**.
    * [!DNL at.js]의 경우 구현 방법 아래에서 **[!UICONTROL at.js]**&#x200B;를 선택한 후 **[!UICONTROL mbox.js 설정 편집]**&#x200B;을 클릭합니다.
+
    ![](assets/step-1-edit-mboxjs.png)
 
 1. [!DNL mbox.js] 또는 [!DNL at.js]를 편집합니다.
@@ -29,7 +33,7 @@ at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데
 
    ![](assets/step-2-edit-mboxjs-or-atjs.png)
 
-   완료되면 **[!UICONTROL 저장]을 클릭합니다.**
+   완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 사이트에서 [!DNL mbox.js] 또는 [!DNL at.js] 라이브러리를 구현합니다.
 
 * mbox.js에 대해서는 [mbox.js 구현](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
@@ -47,4 +51,4 @@ at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데
    >
    >저장하면 계정 동기화에 있는 모든 활동이 이 mbox와 동기화됩니다. 이 mbox가 사용자의 사이트에 없는 경우 모든 활동이 더 이상 작동하지 않습니다.
 
-   **[!UICONTROL 저장을 클릭합니다]**.
+   **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
