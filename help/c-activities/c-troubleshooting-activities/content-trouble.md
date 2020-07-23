@@ -6,10 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 68%
+source-wordcount: '1316'
+ht-degree: 67%
 
 ---
 
@@ -30,15 +30,14 @@ mboxTrace 및 mboxDebug는 캠페인 데이터 및 프로필 데이터를 외부
 
 인증 토큰을 검색하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 설정]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL mbox.js]** 또는 **[!UICONTROL at.js]**&#x200B;를 선택합니다.
-1. **[!UICONTROL 인증 토큰 생성을 클릭합니다]**.
+1. 관리 **** > **[!UICONTROL 구현을 클릭합니다]**.
+1. 디버거 도구 섹션에서 새 인증 토큰 **[!UICONTROL 생성을 클릭합니다]**.
 
-   ![인증 토큰 생성](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
+   ![새 인증 토큰 생성](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 1. 생성된 토큰을 URL에 매개 변수로 추가하여 고급 디버깅 도구 중 하나를 활성화합니다.
 
-   ![인증 토큰](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
+   ![인증 토큰](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
