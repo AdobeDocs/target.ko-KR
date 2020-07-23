@@ -4,10 +4,10 @@ description: 특정 조건에서 VEC에 문제가 발생하는 경우가 있습�
 title: 시각적 경험 작성기에 관련된 문제 해결
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '839'
-ht-degree: 100%
+source-wordcount: '778'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 고급 경험 작성기에서 문제가 발생할 경우 고급 경험 작성기를 끄고 시각적 경험 작성기를 대신 사용합니다.
 
-고급 경험 작성기를 비활성화하려면 **[!UICONTROL 설정]** > **[!UICONTROL 기본 설정]**&#x200B;으로 이동한 후 **[!UICONTROL 고급 경험 작성기 활성화]** 옵션을 끄십시오.
+To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
 
 일부 사용자의 경우 콘솔에 다음과 같은 오류 메시지가 표시됩니다.
 
@@ -117,10 +117,6 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
    브라우저 주소 표시줄에서 URL 왼쪽에 있는 아이콘을 클릭하고 **[!UICONTROL 이 페이지에서 보호 비활성화를 클릭합니다.]**
 * 올바르지 않은 URL을 입력했습니다.
 * 계정 설정 페이지에 기본 URL을 입력하지 않았습니다.
-
-## VEC 활동에 대한 URL을 실행할 때 콘솔에 &quot;확인할 수 없는 ReferenceError: _AT가 정의되지 않습니다.&quot;라는 오류 메시지가 표시됩니다. (VEC만 해당) {#section_BB5B9B629AC4452496A82943EFF72B85}
-
-이 오류는 VEC(시각적 경험 작성기) 캠페인을 전달하려고 하며, [!UICONTROL 시각적 경험 작성기 활동 지원] 옵션을 활성화([!UICONTROL 설정] > [!UICONTROL 구현] > [!UICONTROL mbox.js] > [!UICONTROL mbox.js 설정 편집])한 상태로 Target 사용자 인터페이스에서 다운로드한 mbox.js를 업데이트한 적이 없는 경우에 발생합니다.
 
 이 설정이 활성화되어 있는지 확인한 다음, 웹 사이트에서 mbox.js를 다운로드하여 업데이트하십시오.
 
