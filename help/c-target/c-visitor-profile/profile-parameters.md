@@ -5,10 +5,10 @@ title: Adobe Target의 프로필 속성
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 79%
+source-wordcount: '2446'
+ht-degree: 78%
 
 ---
 
@@ -158,7 +158,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **프로필 스크립트를 응답 토큰으로 추가하여 프로필 스크립트 디버그:**
 
-   Target에서 **[!UICONTROL 설정]**&#x200B;을 클릭하고 **[!UICONTROL 응답 토큰]**&#x200B;을 클릭한 다음 디버그하려는 프로필 스크립트를 활성화합니다.
+   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
 
    Target이 있는 사이트에 대한 페이지를 로드할 때 Target의 응답 중 일부에는 아래에 표시된 대로 제공된 프로필 스크립트에 대한 값이 포함됩니다.
 
@@ -166,7 +166,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **mboxTrace 디버깅 도구를 사용하여 프로필 스크립트를 디버그**&#x200B;합니다.
 
-   이 메서드는 **[!UICONTROL Target]** > **[!UICONTROL 설정]** > **[!UICONTROL 구현]** > **[!UICONTROL 승인 토큰 생성]**&#x200B;을 클릭하여 생성할 수 있는 승인 토큰이 필요합니다.
+   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
 
    그런 다음 &quot;?&quot; 뒤에 있는 페이지 URL에 다음 두 매개 변수를 추가합니다.`mboxTrace=window&authorization=YOURTOKEN`
 
