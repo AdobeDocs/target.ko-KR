@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: f81e03cb4bc7cd2080f7c8a8473192858b4bbef8
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 48%
 
 ---
@@ -17,10 +17,6 @@ ht-degree: 48%
 # 사용자{#users}
 
 You can add users and manage their permissions in the [!DNL Adobe Admin Console].
-
->[!NOTE]
->
->이 항목의 정보는 Target Standard/Premium 20.6.1 릴리스(2020년 7월)에 나오는 UI 변경 사항에 대해 살짝 돋보이게 하기 위해 업데이트되었습니다. 이 항목에 제시된 대부분의 정보는 현재 UI에 적용됩니다. 그러나 옵션이 약간 다를 수 있습니다.
 
 >[!NOTE]
 >
@@ -121,5 +117,9 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
    * 작업 공간에 사용자 추가
    * 작업 공간에 속성 추가
 * 기본 작업 공간 이해
+
+>[!NOTE]
+>
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다. 그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
