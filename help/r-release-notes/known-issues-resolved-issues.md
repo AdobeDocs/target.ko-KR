@@ -4,10 +4,10 @@ description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 95%
+source-wordcount: '3261'
+ht-degree: 94%
 
 ---
 
@@ -131,6 +131,10 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 ### Target API
 
 고객은 Adobe I/O에서 A/B 활동 API의 v3 버전을 통해 자동 할당 활동에 대한 CRUD 작업을 수행할 수 없습니다.
+
+### GEO 타깃팅
+
+2020년 5월 10일에 GEO 공급자 파일이 업데이트되었으며, 이러한 파일이 일치하지 않습니다. 예를 들어 쉼표를 포함하는 일부 값이 추가되었습니다. 하지만 기존 대상의 값은 쉼표가 없습니다. 이 변경 사항으로 인해 모든 배달 서버가 영향을 받지 않았습니다. 따라서 이러한 값을 사용하는 대상이 2020년 5월 10일부터 7월 22일 사이에 올바른 방문자를 모두 적격한 것이 아닐 수 있습니다.
 
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
