@@ -5,9 +5,9 @@ title: Target 구현
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: b8eb49876c3759223eb5d6979678f6c6b24963e9
 workflow-type: tm+mt
-source-wordcount: '157'
+source-wordcount: '155'
 ht-degree: 28%
 
 ---
@@ -19,12 +19,12 @@ Before you start using [!DNL Adobe Target], you should implement it on your site
 
 자세한 내용은 Target 구현 아래의 다양한 [항목을 참조하십시오](/help/c-implementing-target/implementing-target.md).
 
-이 페이지의 설정에 적용할 수 있는 정보는 태그 관리자 [가 없는 Target 구현에서 찾을 수 있습니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
-
 >[!NOTE]
 >
 >[!DNL Adobe Experience Platform Launch] 는 구현하기 위한 기본 방법입니다 [!DNL Target]. [!DNL Launch] 고객은 연관성 높은 고객 경험을 제공하기 위해 필요한 모든 분석, 마케팅 및 광고 태그를 간단하게 배포 및 관리할 수 있습니다. For more information, see [Implement Target using Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
-구현 [!UICONTROL 페이지에] 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 구현을]**&#x200B;클릭합니다.
+1. 구현 [!UICONTROL 페이지에] 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 구현을]**&#x200B;클릭합니다.
+
+1. 이 페이지의 설정에 적용할 수 있는 자세한 내용은 태그 관리자 [가 없는 Target 구현을 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
 
 ![구현 페이지](/help/administrating-target/assets/implementation.png)
