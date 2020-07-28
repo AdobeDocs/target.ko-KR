@@ -5,10 +5,10 @@ title: 자동 할당
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3134'
-ht-degree: 83%
+source-wordcount: '3335'
+ht-degree: 78%
 
 ---
 
@@ -187,7 +187,19 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 활동을 진행하는 동안 목표 지표를 변경하는 것이 좋습니다. UI를 사용하는 활동 중에 목표 지표를 변경할 수는 있지만 항상 새 활동을 시작해야 합니다. [!DNL Target] 실행 후 활동에서 목표 지표를 변경하면 발생하는 사항에 대해 보증하지 않습니다.
 
-이 권장 사항은 [!UICONTROL 자동 할당], [!UICONTROL 자동 Target]및 [!UICONTROL 자동화된 개인화] 활동에 [!DNL Target] 적용되며, 보고 소스로 [!DNL Analytics] 또는 A4T를 사용하는 자동 개인화활동에적용됩니다.
+이 권장 사항은 보고 소스로 [!UICONTROL 자동 할당], [!UICONTROL 자동 Target]및 [!UICONTROL Automated Personalization] 활동에 [!DNL Target] 적용됩니다 [!DNL Analytics] . 이활동은또는 (A4T)를 사용하는활동에 적용됩니다.
+
+### 자동 할당 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?
+
+자동 할당 [!UICONTROL 활동에 대해 보고서 데이터] 재설정 [!UICONTROL 옵션을] 사용하는 것은권장되지 않습니다. 보이는 보고 데이터를 제거하지만 이 옵션은 [자동 할당] 모델에서 모든 교육 레코드를 [!UICONTROL 제거하지는] 않습니다. 자동 할당 활동에 대해 [!UICONTROL 보고서 데이터] 재설정 옵션 [!UICONTROL 을 사용하는] 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고: 이 지침은 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동에도 적용됩니다.)
+
+### 자동 할당 기능은 환경과 관련하여 빌드 모델을 어떻게 지정합니까?
+
+[!UICONTROL 자동 할당] 기능은 기본 환경에서만 기록된 트래픽 및 전환 행동을 기반으로 모델을 작성합니다. 기본적으로 [!UICONTROL 프로덕션은] 기본 환경이지만 Target [관리 > 환경에서 변경할 수 있습니다](/help/administrating-target/environments.md).
+
+히트가 다른(기본이 아님) 환경에서 발생하는 경우 기본 환경에서 관찰된 전환 동작에 따라 트래픽이 배포됩니다. 해당 히트(전환 또는 비전환)의 결과는 보고 목적으로 기록되지만 [!UICONTROL 자동 할당] 모델에 대해서는 고려하지 않습니다.
+
+다른 환경을 선택하면 해당 환경에 대한 트래픽 및 전환이 보고서에 표시됩니다. 보고서에 대해 선택된 기본 환경은 항상 선택된 계정 전체 기본값이 됩니다. 기본 환경은 활동별로 설정할 수 없습니다.
 
 ## 교육 비디오 {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
