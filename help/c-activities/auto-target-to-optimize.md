@@ -4,10 +4,10 @@ title: 자동 타겟
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 96%
+source-wordcount: '3517'
+ht-degree: 91%
 
 ---
 
@@ -32,11 +32,18 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 지정된 방문자에 대한 경험 할당이 고정된 A/B 활동과 달리, [!UICONTROL 자동 타겟]은 각 방문을 통해 지정된 비즈니스 목표를 최적화합니다. [!UICONTROL 자동화된 개인화]에서와 같이, [!UICONTROL 자동 타겟]은 기본적으로 활동의 트래픽 일부를 상승도를 측정하기 위한 통제군으로 예약합니다. 통제군에 있는 방문자는 활동에서 임의 경험을 제공받습니다.
 
-[!UICONTROL 자동 타겟]을 사용할 때 기억해야 할 중요한 사항이 몇 가지 있습니다.
+## 고려 사항
+
+There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
 * 특정 활동을 [!UICONTROL 자동 타겟]에서 자동화된 개인화로 전환하거나 그 반대로 전환할 수 없습니다.
 * 활동이 라이브 상태가 된 후에는 수동 트래픽 할당(기존 A/B 테스트)에서 [!UICONTROL 자동 타겟]으로 전환하거나 그 반대로 전환할 수 없습니다.
-* 호스트와 환경(호스트 그룹)을 사용할 때 모델은 &quot;프로덕션&quot; 환경에 대해서만 만들어집니다. 모든 환경은 &quot;프로덕션&quot; 캠페인용 모델을 만드는 데 필요한 데이터를 제공합니다.
+* 하나의 모델은 개인화된 전략과 무작위로 제공되는 트래픽의 성과를 식별하여 모든 트래픽을 전체적인 우승 경험으로 보내는 것입니다. 이 모델은 히트와 전환을 기본 환경에서만 고려합니다.
+
+   두 번째 모델 세트의 트래픽은 각 모델링 그룹(AP) 또는 경험(AT)에 대해 작성됩니다. 이러한 각 모델에 대해 모든 환경에서 히트 및 전환을 고려합니다.
+
+   따라서 요청은 환경에 관계없이 동일한 모델로 제공되지만 트래픽의 복수는 기본 환경에서 생성되어야 식별된 전체 우승 경험이 실제 행동과 일치하는지 확인합니다.
+
 * 최소 두 개의 경험을 사용해야 합니다.
 
 ## 용어 {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -220,7 +227,11 @@ AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/au
 
 활동을 진행하는 동안 목표 지표를 변경하는 것이 좋습니다. UI를 사용하는 활동 중에 목표 지표를 변경할 수는 있지만 항상 새 활동을 시작해야 합니다. [!DNL Target] 실행 후 활동에서 목표 지표를 변경하면 발생하는 사항에 대해 보증하지 않습니다.
 
-이 권장 사항은 [!UICONTROL 자동 할당], [!UICONTROL 자동 Target]및 [!UICONTROL 자동화된 개인화] 활동에 [!DNL Target] 적용되며, 보고 소스로 [!DNL Analytics] 또는 A4T를 사용하는 자동 개인화활동에적용됩니다.
+이 권장 사항은 보고 소스로 [!UICONTROL 자동 할당], [!UICONTROL 자동 Target]및 [!UICONTROL Automated Personalization] 활동에 [!DNL Target] 적용됩니다 [!DNL Analytics] . 이활동은또는 (A4T)를 사용하는활동에 적용됩니다.
+
+### 자동 Target 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?
+
+자동 Target [!UICONTROL 활동에 대해] 보고서 데이터 [!UICONTROL 재설정 옵션] 은사용하지 않는 것이 좋습니다. 보이는 보고 데이터를 제거하지만 이 옵션은 [!UICONTROL 자동 Target] 모델에서 모든 교육 레코드를 제거하지 않습니다. 자동 Target [!UICONTROL 활동에 대해 보고서 데이터] 재설정 [!UICONTROL 옵션] 을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고: 이 지침은 자동 할당 [!UICONTROL 및] Automated Personalization  활동에도 적용됩니다.)
 
 ## [!UICONTROL 자동 타겟] 문제 해결 {#section_23995AB813F24525AF294D20A20875C8}
 
