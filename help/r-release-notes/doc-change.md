@@ -5,10 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 31%
+source-wordcount: '1661'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 28년 7월 | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[자동화된 세그먼트 보고서](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)<br>및 [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 참조의 텍스트가 업데이트되었습니다. |
+| 28년 7월 | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[자동화된 세그먼트 보고서](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)<br>및 [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 주제 맨 위에 있는 메모의 텍스트가 업데이트되었습니다. |
+|  | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>자동 할당 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?</li><li>자동 할당 기능은 환경과 관련하여 빌드 모델을 어떻게 지정합니까?</li></ul> |
+|  | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 다음 FAQ가 추가되었습니다.<ul><li>자동 Target 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?</li></ul>&quot;고려 사항&quot; 섹션의 텍스트가 업데이트되었습니다. |
+|  | [Automated Personalization FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>Automated Personalization 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?</li><li>Automated Personalization은 환경과 관련하여 어떻게 모델을 구축하는가?</li></ul> |
 |  | [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Internet Explorer 및 알 수 없는 요소에 대한 정보가 추가되었습니다. |
 |  | [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 현재 설계에서는 적은 양의 데이터(대규모 프로덕션 배치의 최대 0.1%까지)가 온보딩되지 않을 가능성이 있습니다. |
 | 27년 7월 | [Target 관리](/help/administrating-target/administrating-target.md) | 관리 페이지에 대한 새로운 UI 변경 사항을 반영하도록 이 페이지의 모든 연결된 항목에 있는 [!UICONTROL 텍스트를] 업데이트했습니다. |
