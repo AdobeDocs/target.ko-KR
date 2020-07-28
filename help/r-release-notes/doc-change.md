@@ -5,10 +5,10 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
 workflow-type: tm+mt
-source-wordcount: '1491'
-ht-degree: 33%
+source-wordcount: '1573'
+ht-degree: 31%
 
 ---
 
@@ -21,8 +21,11 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 28년 7월 | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[자동화된 세그먼트 보고서](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)<br>및 [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 참조의 텍스트가 업데이트되었습니다. |
+|  | [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Internet Explorer 및 알 수 없는 요소에 대한 정보가 추가되었습니다. |
+|  | [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. 현재 설계에서는 적은 양의 데이터(대규모 프로덕션 배치의 최대 0.1%까지)가 온보딩되지 않을 가능성이 있습니다. |
 | 27년 7월 | [Target 관리](/help/administrating-target/administrating-target.md) | 관리 페이지에 대한 새로운 UI 변경 사항을 반영하도록 이 페이지의 모든 연결된 항목에 있는 [!UICONTROL 텍스트를] 업데이트했습니다. |
-|  | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음과 같이 변경되었습니다. <ul><li>다음 웨비나에 대한 등록 정보가 추가되었습니다. &quot;HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법&quot;</li><li>개인화 엔진 부문 Gartner Magic Quadrant에서 Adobe가 리더로 선정되었다는 내용이 추가되었습니다.</li></ul> |
+|  | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음과 같이 변경되었습니다. <ul><li>다음 웨비나에 대한 등록 정보가 추가되었습니다. &quot;HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법&quot;</li><li>개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정된 Adobe에 대한 정보가 추가되었습니다.</li></ul> |
 |  | [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md) | 4단계 아래의 명확한 정보: 위치를 선택합니다. |
 | 24년 7월 | <br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.3.2에 대한 정보가 추가되었습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 20.7.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
@@ -41,7 +44,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | 다른 프로필 스크립트에서 한 프로필 스크립트의 결과를 사용하는 종속 프로필 스크립트를 만드는 것이 권장되지 않습니다. |
 |  | [at.js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | 다음 비디오가 추가되었습니다. 근무 시간: at.js 팁 및 개요 |
 | 6월 17일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 주제가 업데이트됨. |
-|  | [응답 토큰](/help/administrating-target/response-tokens.md) | 자동 Target [!UICONTROL 및] 자동화된 개인화  활동에 대한 트래픽 할당 방법에 대한 응답 토큰에 대한 정보가 추가되었습니다. |
+|  | [응답 토큰](/help/administrating-target/response-tokens.md) | 자동 Target [!UICONTROL 및] Automated Personalization  활동에 대한 트래픽 할당 방법에 대한 응답 토큰에 대한 정보가 추가되었습니다. |
 |  | [활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 자동 할당 활동에 대한 Target(A4T) 지원을 위한 Analytics에 대한 정보가 추가되었습니다. |
 |  | [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) | 역할 및 권한 지정 [!UICONTROL 에서 새 게시자] 역할에 대한 *정보가 추가되었습니다*. |
 |  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | 6단계 아래의 새 [!UICONTROL 게시자] 역할에 대한 *정보가 추가되었습니다. 역할 및 권한을 지정합니다*. |
@@ -98,8 +101,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 7년 4월 | [상승도 및 신뢰도 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | &quot;계산된 지표에 향상도 및 신뢰도가 표시되지 않는 이유는 무엇입니까?&quot;에 대한 텍스트가 업데이트되었습니다. |
 | 2년 4월 | [프로필 및 변수 용어집](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | 사용자의 IP 주소 `user.header('x-forwarded-for')` 를 검색하기 위해 최신 AWS 가장자리에 사용하는 방법에 대한 정보가 추가되었습니다. |
 |  | [at.js 1.*x*&#x200B;에서 at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)로 업그레이드 | 다음 참고가 추가되었습니다.<ul><li>ECID library v4.3.0+ 및 at.js 2.*x*&#x200B;를 설치한 뒤 고유한 도메인을 확장하고 사용자를 추적할 수 있는 활동을 만들 수 있습니다. 이 기능은 세션이 만료된 후에만 작동합니다.</li></ul> |
-| 3월 30일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.0 이전의 at.js 버전에 영향을 주는 알려진 문제가 추가되었습니다. 이 문제로 인해 Adobe Analytics 코드가 페이지 요소에 없을 때 A4T(Target)용 Analytics의 전환을 보고하지 않는 클릭 추적이 발생했습니다. |
-|  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.2.0 세부 정보에 다음 정보가 추가되었습니다.<ul><li>페이지 요소에 Adobe Analytics 코드가 없을 때 A4T(Target)에 대한 Analytics에서 클릭 추적이 전환을 보고하지 않는 문제를 해결했습니다.</li></ul> |
+| 3월 30일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | at.js 2.0 이전의 at.js 버전에 영향을 주는 알려진 문제가 추가되었습니다. 이 문제로 인해 Adobe Analytics 코드가 페이지 요소에 없을 때 A4T(Target)에 대한 Analytics의 전환을 보고하지 않는 클릭 추적이 발생했습니다. |
+|  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.2.0 세부 정보에 다음 정보가 추가되었습니다.<ul><li>페이지 요소에 Adobe Analytics 코드가 없을 때 Target(A4T)에 대한 Analytics의 전환을 보고하지 않는 클릭 추적이 있었던 문제를 수정했습니다.</li></ul> |
 | 3월 25일 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js의 다음과 같은 새 버전에 대한 정보가 추가되었습니다.<ul><li>at.js 버전 2.3.0</li><li>at.js 버전 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | &quot;설정&quot; 섹션에 다음과 같은 새 행을 추가했습니다.<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>다음 새 섹션이 추가되었습니다.<ul><li>콘텐츠 보안 정책</li></ul> |
 | 3월 24일 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | 다음에 대한 영향에 대한 정보가 추가되었습니다.<ul><li>타사 ID를 기반으로 하는 프로필 스크립트</li><li>iOS 장치의 QA/미리 보기 URL</li></ul> |
@@ -110,7 +113,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [다중 값 특성을 사용한 작업](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | JavaScript *에서 다중 값 매개 변수 전달의 코드 샘플이 업데이트되었습니다*. |
 |  | [사용자 지정 엔티티 속성](/help/c-recommendations/c-products/custom-entity-attributes.md) | 다중 값 속성 구현에서 *API* 사용 *에 코드 샘플이 추가되었습니다*. |
 | 3월 4일 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | &quot;모범 사례&quot; 섹션의 광범위한 개정으로 전체 주제를 업데이트했습니다. |
-| 2월 21일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 새로운 Adobe Experience Cloud 탐색에 대한 정보가 추가되었습니다. |
+| 2월 21일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 새 Adobe Experience Cloud 탐색에 대한 정보가 추가되었습니다. |
 | 2월 20일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 다음 설정에 대한 정보가 추가되었습니다. `pageLoadEnabled` 및 `viewsEnabled`. |
 | 2월 19일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | 예정된 mbox.js 라이브러리 사용 중단에 대한 정보가 추가되었습니다. |
 |  | [지역](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 1 `mboxOverride.browserIp` 에서 지원된다는 참고가 추가되었습니다.*x*&#x200B;에만 사용할 수 있습니다. |
