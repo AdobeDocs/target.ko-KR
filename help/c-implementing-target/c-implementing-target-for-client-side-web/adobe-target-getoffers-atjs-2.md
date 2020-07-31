@@ -1,11 +1,14 @@
 ---
-keywords: adobe.target.오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;at.js;함수;함수
+keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers(options) 함수 정보입니다.
 title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers() 함수 정보입니다.
-subtopic: 시작하기
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
+workflow-type: tm+mt
+source-wordcount: '1229'
+ht-degree: 94%
 
 ---
 
@@ -21,55 +24,55 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
 | consumerId | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 보조 데이터 ID를 생성하는 데 사용됩니다. 이 키는 방문자별로 고유한 문자열입니다. |
-| 요청 | 개체 | 예 | 아래의 "요청" 표를 참조하십시오. |
+| 요청 | 개체 | 예 | 아래의 &quot;요청&quot; 표를 참조하십시오. |
 | timeout | 숫자 | 아니오 | 요청 시간 제한. 지정하지 않으면 기본값 at.js 시간 제한이 사용됩니다. |
 
 ## 요청
 
 >[!NOTE]
 >
->아래 나열된 [모든 필드에 대해 허용되는 유형에 대한 자세한 내용은 배달 API 설명서를](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 참조하십시오.
+>아래 나열된 모든 필드에 대해 허용되는 유형에 대한 자세한 내용은 [배달 API 설명서를](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 참조하십시오.
 
 | 필드 이름 | 필수? | 제한 | 설명 |
 | --- | --- | --- | --- |
-| request &gt; id | 아니오 |  | `tntId`, `thirdPartyId`, `marketingCloudVisitorId` 중 하나는 필수입니다. |
-| request &gt; id &gt; thirdPartyId | 아니오 | 최대 크기 = 128 |  |  |
-| Request &gt; experienceCloud | 아니오 |  |  |
-| Request &gt; experienceCloud &gt; analytics | 아니오 |  | Adobe Analytics 통합 |
-| Request &gt; experienceCloud &gt; analytics &gt; logging | 아니오 | 페이지에서 다음을 구현해야 합니다.<ul><li>방문자 ID 서비스</li><li>Appmeasurement.js</li></ul> | 다음 값이 지원됩니다.<br>**client_side**: 이 값을 지정하면 데이터 삽입 API를 통해 Adobe Analytics로 보낼 때 사용해야 하는 호출자에게 분석 페이로드가 반환됩니다.<br>**server_side**: Target 및 Analytics 백엔드가 보고 목적으로 SDID를 사용하여 호출을 함께 연결하는 기본값입니다. |
-| request &gt; prefetch | 아니오 |  |  |
-| request &gt; prefetch &gt; views | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 "profile"로 시작하면 안 됨<br>허용되지 않는 이름: "orderId", "orderTotal", "productPurchasedId" | 활성 활동에서 적절한 보기를 검색하는 데 사용할 매개 변수를 전달합니다. |
-| request &gt; prefetch &gt; views &gt; profileParameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 "profile"로 시작하면 안 됨 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 프로필 매개 변수를 전달합니다. |
-| request &gt; prefetch &gt; views &gt; product | 아니오 |  |  |
-| request &gt; prefetch &gt; views &gt; product -&gt; id | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 제품 ID를 전달합니다. |
-| request &gt; prefetch &gt; views &gt; product &gt; categoryId | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 활동에서 적절한 보기를 검색하는 데 사용할 제품 카테고리 ID를 전달합니다. |
-| request &gt; prefetch &gt; views &gt; order | 아니오 |  |  |
-| request &gt; prefetch &gt; views &gt; order &gt; id | 아니오 | 최대 길이 = 250 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 주문 ID를 전달합니다. |
-| request &gt; prefetch &gt; views &gt; order &gt; total | 아니오 | 합계 `>=` 0 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 주문 합계를 전달합니다. |
-| request &gt; prefetch &gt; views &gt; order &gt; purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 구입 제품 ID를 전달합니다. |
-| request &gt; execute | 아니오 |  |  |
-| request &gt; execute &gt; pageLoad | 아니오 |  |  |
-| request &gt; execute &gt; pageLoad &gt; parameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 "profile"로 시작하면 안 됨.<br>허용되지 않는 이름: "orderId", "orderTotal", "productPurchasedId" | 페이지가 로드될 때 지정된 매개 변수로 오퍼를 검색합니다. |
-| request &gt; execute &gt; pageLoad &gt; profileParameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=`256<br>이름은 "profile"로 시작하면 안 됨. | 페이지가 로드될 때 지정된 프로필 매개 변수로 오퍼를 검색합니다. |
-| request &gt; execute &gt; pageLoad &gt; product | 아니오 |  |  |
-| request &gt; execute &gt; pageLoad &gt; product -&gt; id | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 페이지가 로드될 때 지정된 제품 ID로 오퍼를 검색합니다. |
-| request &gt; execute &gt; pageLoad &gt; product &gt; categoryId | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 페이지가 로드될 때 지정된 카테고리 ID로 오퍼를 검색합니다. |
-| request &gt; execute &gt; pageLoad &gt; order | 아니오 |  |  |
-| request &gt; execute &gt; pageLoad &gt; order &gt; id | 아니오 | 최대 길이 = 250 | 페이지가 로드될 때 지정된 주문 ID로 오퍼를 검색합니다. |
-| request &gt; execute &gt; pageLoad &gt; order &gt; total | 아니오 | `>=` 0 | 페이지가 로드될 때 지정된 주문 합계로 오퍼를 검색합니다. |
-| request &gt; execute &gt; pageLoad &gt; order &gt; purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 페이지가 로드될 때 지정된 구입 제품 ID로 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes | 아니오 | 최대 크기 = 50<br>null 요소가 없음 |  |
-| request &gt; execute &gt; mboxes&gt;mbox | 예 | 공백은 안 됨<br>'-clicked' 접미어 없음<br>최대 크기 = 250<br>허용되는 문자: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox 이름. |
-| request &gt; execute &gt; mboxes&gt;mbox&gt;index | 예 | null 아님<br>고유함<br>`>=` 0 | 색인은 mbox가 처리되는 순서를 나타내지 않습니다. 몇 개의 지역 mbox가 있는 웹 페이지에서와 마찬가지로, 처리되는 순서를 지정할 수 없습니다. |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; parameters | 아니오 | 최대 개수 = 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 "profile"로 시작하면 안 됨.<br>허용되지 않는 이름: "orderId", "orderTotal", "productPurchasedId" | 지정된 매개 변수를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes&gt;mbox&gt;profileParameters | 아니오 | 최대 개수 = 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=`256<br>이름은 "profile"로 시작하면 안 됨. | 지정된 프로필 매개 변수를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes&gt;mbox &gt; product | 아니오 |  |  |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; id | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 지정된 제품 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; categoryId | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 지정된 제품 카테고리 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; order | 아니오 |  |  |
-| request &gt; execute &gt; mboxes&gt;mbox &gt; order &gt; id | 아니오 | 최대 길이 = 250 | 지정된 주문 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; total | 아니오 | `>=` 0 | 지정된 주문 합계를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
-| request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 = 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 지정된 주문 구입 제품 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
+| request > id | 아니오 |  | `tntId`, `thirdPartyId`, `marketingCloudVisitorId` 중 하나는 필수입니다. |
+| request > id > thirdPartyId | 아니오 | 최대 크기 = 128 |  |  |
+| Request > experienceCloud | 아니오 |  |  |
+| Request > experienceCloud > analytics | 아니오 |  | Adobe Analytics 통합 |
+| Request > experienceCloud > analytics > logging | 아니오 | 페이지에서 다음을 구현해야 합니다.<ul><li>방문자 ID 서비스</li><li>Appmeasurement.js</li></ul> | 다음 값이 지원됩니다.<br>**client_side **: 이 값을 지정하면 데이터 삽입 API를 통해 Adobe Analytics로 보낼 때 사용해야 하는 호출자에게 분석 페이로드가 반환됩니다.<br>**server_side**: Target 및 Analytics 백엔드가 보고 목적으로 SDID를 사용하여 호출을 함께 연결하는 기본값입니다. |
+| request > prefetch | 아니오 |  |  |
+| request > prefetch > views | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨<br>허용되지 않는 이름: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | 활성 활동에서 적절한 보기를 검색하는 데 사용할 매개 변수를 전달합니다. |
+| request > prefetch > views > profileParameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 프로필 매개 변수를 전달합니다. |
+| request > prefetch > views > product | 아니오 |  |  |
+| request > prefetch > views > product -> id | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 제품 ID를 전달합니다. |
+| request > prefetch > views > product > categoryId | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 활동에서 적절한 보기를 검색하는 데 사용할 제품 카테고리 ID를 전달합니다. |
+| request > prefetch > views > order | 아니오 |  |  |
+| request > prefetch > views > order > id | 아니오 | 최대 길이 = 250 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 주문 ID를 전달합니다. |
+| request > prefetch > views > order > total | 아니오 | 합계 `>=` 0 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 주문 합계를 전달합니다. |
+| request > prefetch > views > order > purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 구입 제품 ID를 전달합니다. |
+| request > execute | 아니오 |  |  |
+| request > execute > pageLoad | 아니오 |  |  |
+| request > execute > pageLoad > parameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨.<br>허용되지 않는 이름: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | 페이지가 로드될 때 지정된 매개 변수로 오퍼를 검색합니다. |
+| request > execute > pageLoad > profileParameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=`256<br>이름은 &quot;profile&quot;로 시작하면 안 됨. | 페이지가 로드될 때 지정된 프로필 매개 변수로 오퍼를 검색합니다. |
+| request > execute > pageLoad > product | 아니오 |  |  |
+| request > execute > pageLoad > product -> id | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 페이지가 로드될 때 지정된 제품 ID로 오퍼를 검색합니다. |
+| request > execute > pageLoad > product > categoryId | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 페이지가 로드될 때 지정된 카테고리 ID로 오퍼를 검색합니다. |
+| request > execute > pageLoad > order | 아니오 |  |  |
+| request > execute > pageLoad > order > id | 아니오 | 최대 길이 = 250 | 페이지가 로드될 때 지정된 주문 ID로 오퍼를 검색합니다. |
+| request > execute > pageLoad > order > total | 아니오 | `>=` 0 | 페이지가 로드될 때 지정된 주문 합계로 오퍼를 검색합니다. |
+| request > execute > pageLoad > order > purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 페이지가 로드될 때 지정된 구입 제품 ID로 오퍼를 검색합니다. |
+| request > execute > mboxes | 아니오 | 최대 크기 = 50<br>null 요소가 없음 |  |
+| request > execute > mboxes>mbox | 예 | 공백은 안 됨<br>&#39;-clicked&#39; 접미어 없음<br>최대 크기 = 250<br>허용되는 문자: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | mbox 이름. |
+| request > execute > mboxes>mbox>index | 예 | null 아님<br>고유함<br>`>=` 0 | 색인은 mbox가 처리되는 순서를 나타내지 않습니다. 몇 개의 지역 mbox가 있는 웹 페이지에서와 마찬가지로, 처리되는 순서를 지정할 수 없습니다. |
+| request > execute > mboxes > mbox > parameters | 아니오 | 최대 개수 = 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨.<br>허용되지 않는 이름: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | 지정된 매개 변수를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
+| request > execute > mboxes>mbox>profileParameters | 아니오 | 최대 개수 = 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=`256<br>이름은 &quot;profile&quot;로 시작하면 안 됨. | 지정된 프로필 매개 변수를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
+| request > execute > mboxes>mbox > product | 아니오 |  |  |
+| request > execute > mboxes > mbox > product > id | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 지정된 제품 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
+| request > execute > mboxes > mbox > product > categoryId | 아니오 | 공백은 안 됨<br>최대 크기 = 128 | 지정된 제품 카테고리 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
+| request > execute > mboxes > mbox > order | 아니오 |  |  |
+| request > execute > mboxes>mbox > order > id | 아니오 | 최대 길이 = 250 | 지정된 주문 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
+| request > execute > mboxes > mbox > order > total | 아니오 | `>=` 0 | 지정된 주문 합계를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
+| request > execute > mboxes > mbox > order > purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 = 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 지정된 주문 구입 제품 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
 
 ## 모든 보기에 대해 `getOffers()` 호출
 
@@ -183,7 +186,7 @@ adobe.target.getOffers({
 }
 ```
 
-그런 다음 데이터 삽입 API를 통해 페이로드를 Adobe Analytics로 [전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+그러면 페이로드를 [데이터 삽입 API를 통해 Adobe Analytics으로 전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## getOffers() 및 applyOffers()를 통해 여러 mbox에서 데이터를 가져와 렌더링합니다. {#multiple}
 
@@ -256,10 +259,16 @@ adobe.target.getOffers({
 
 `request > prefetch > mboxes` 섹션에는 세 개의 다른 mbox가 있습니다. 요청이 성공적으로 완료되면 `response > prefetch > mboxes`에서 각 mbox에 대한 응답을 받게 됩니다. 응답 및 렌더링에 사용할 위치가 있으면 [!DNL Target]에서 검색된 콘텐츠를 렌더링하도록 `applyOffers()`를 호출할 수 있습니다. 이 예에는 다음 매핑이 있습니다.
 
-* mbox1 &gt; CSS selector #container1
-* mbox2 &gt; CSS selector #container2
-* mbox3 &gt; CSS selector #container3
+* mbox1 > CSS selector #container1
+* mbox2 > CSS selector #container2
+* mbox3 > CSS selector #container3
 
 이 예에서는 count 변수를 사용하여 CSS 선택기를 구성합니다. 실제 시나리오에서는 CSS 선택기와 mbox 간에 다른 매핑을 사용할 수 있습니다.
 
 이 예제에서는 `prefetch > mboxes`를 사용하지만 `execute > mboxes`를 사용할 수도 있습니다. `getOffers()`에서 미리 가져오기 작업을 실행하는 경우 `applyOffers()` 호출에서도 미리 가져오기 작업을 실행해야 합니다.
+
+## 호출 `getOffers()` 을 호출하여 pageLoad
+
+다음 예는 at.js 2에서 getOffers()를 사용하여 pageLoad를 수행하는 방법을 보여줍니다.*x*
+
+adobe.target.getOffers({request: {execute: {pageLoad: {parameters: {}}});
