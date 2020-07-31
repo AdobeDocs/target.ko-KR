@@ -4,10 +4,10 @@ description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
+source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
 workflow-type: tm+mt
-source-wordcount: '3261'
-ht-degree: 94%
+source-wordcount: '3352'
+ht-degree: 91%
 
 ---
 
@@ -135,6 +135,10 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 ### GEO 타깃팅
 
 2020년 5월 10일에 GEO 공급자 파일이 업데이트되었으며, 이러한 파일이 일치하지 않습니다. 예를 들어 쉼표를 포함하는 일부 값이 추가되었습니다. 하지만 기존 대상의 값은 쉼표가 없습니다. 이 변경 사항으로 인해 모든 배달 서버가 영향을 받지 않았습니다. 따라서 이러한 값을 사용하는 대상이 2020년 5월 10일부터 7월 22일 사이에 올바른 방문자를 모두 적격한 것이 아닐 수 있습니다.
+
+### &quot;처리&quot; 레이블을 표시하는 이미지 0ffers
+
+오퍼 페이지의 이미지 오퍼에는 이미지가 업로드된 후 몇 시간 동안 &quot;처리&quot; 레이블이 유지되는 경우가 있습니다. 대부분의 경우 레이블에만 문제가 발생합니다. 이미지 오퍼는 여전히 활동에 사용할 수 있으며 배달됩니다. 그러나 일부 경우에는 컨텐츠 바꾸기 > 이미지 작업에 이미지 오퍼를 사용할 수 없을 수도 있습니다. 이러한 경우 이미지 오퍼를 다시 업로드하고 몇 시간 후에 이미지 오퍼를 교체할 수 있는지 확인해야 합니다. (TGT-37458)
 
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
