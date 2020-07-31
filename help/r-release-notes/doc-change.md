@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
 workflow-type: tm+mt
-source-wordcount: '1661'
+source-wordcount: '1676'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 31년 7월 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 새롭게 알려진 문제 추가: &quot;처리&quot; 레이블을 표시하는 이미지 오퍼입니다.&quot; |
 | 28년 7월 | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[자동화된 세그먼트 보고서](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)<br>및 [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 주제 맨 위에 있는 메모의 텍스트가 업데이트되었습니다. |
 |  | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>자동 할당 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?</li><li>자동 할당 기능은 환경과 관련하여 빌드 모델을 어떻게 지정합니까?</li></ul> |
 |  | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 다음 FAQ가 추가되었습니다.<ul><li>자동 Target 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?</li></ul>&quot;고려 사항&quot; 섹션의 텍스트가 업데이트되었습니다. |
