@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 51fde03508baf67a377499220be1dba10f5b48b5
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1706'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 31년 7월 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 새롭게 알려진 문제 추가: &quot;처리&quot; 레이블을 표시하는 이미지 오퍼입니다.&quot; |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | pageLoad를 수행하는 데 사용할 코드 샘플 `getoffers()` 을 추가했습니다. |
 |  | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 8월 5일에 있을 예정된 Adobe Target 커뮤니티 커피 브레이크에 대한 등록 정보가 추가되었습니다. |
 | 28년 7월 | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md),<br>[자동화된 세그먼트 보고서](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)<br>및 [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 주제 맨 위에 있는 메모의 텍스트가 업데이트되었습니다. |
 |  | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>자동 할당 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?</li><li>자동 할당 기능은 환경과 관련하여 빌드 모델을 어떻게 지정합니까?</li></ul> |
