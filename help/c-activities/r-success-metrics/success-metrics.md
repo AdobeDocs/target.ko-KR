@@ -4,10 +4,10 @@ description: Adobe Target에서 성공 지표는 보고 및 추적 목적으로 
 title: Adobe Target의 성공 지표
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,10 @@ By default, conversion events are set to &quot;Count once and keep the entrant i
 | 증분 카운트 및 사용자를 활동에 유지 | 카운트가 증분되는 방식 지정:<ul><li>응모자마다 한 번(기본값)</li><li>노출 시마다, 페이지 새로 고침 제외</li><li>노출 시마다</li></ul> |
 | 증분 카운트, 사용자 해제 및 재입력 허용 | 방문자가 활동을 다시 입력하는 경우 방문자에게 표시되는 경험을 선택합니다.<ul><li>동일 경험(기본값)</li><li>임의 경험</li><li>확인되지 않은 경험</li></ul> |
 | 증분 카운트, 사용자 해제 및 재입력 금지 | 활동 콘텐츠 대신 사용자에게 표시되는 콘텐츠를 결정합니다.<ul><li>동일 경험, 추적 없음(기본값)</li><li>기본 콘텐츠 또는 기타 활동 콘텐츠</li></ul> |
+
+>[!NOTE]
+>
+>지표를 [!UICONTROL 증가 카운트 옵션 중 하나(위에 언급된)로] 구성하는 경우, 지표 카운트는 참가자당 한 번만 올바르게 증가합니다. 지표 카운트는 방문 수준에서 모든 새 세션에 대해 방문당 한 번씩 증가합니다.
 
 ## 교육 비디오: 활동 지표
 
