@@ -5,10 +5,10 @@ title: 브라우저에서 혼합 컨텐츠 활성화
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 88a001f9ff4c72074fe72b9cc61effec5f28e5f8
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 35%
+source-wordcount: '558'
+ht-degree: 34%
 
 ---
 
@@ -21,7 +21,7 @@ HTTPS(보안) *및* HTTP(비보안) 컨텐츠가 모두 동일한 웹 페이지�
 
 If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
 
-![](assets/mixed_content_warning.gif)
+![혼합 컨텐츠 경고](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 이전에는 혼합 컨텐츠가 허용되지 않는 경우 활동을 작성할 때 3단계 안내가 있는 워크플로우의 1단계에서 일부 작업을 수행할 수 있었습니다. [!DNL Target] 이제 1단계에서 작업을 차단합니다. 이 메시지가 표시되면 활동을 계속 만들기 전에 혼합 컨텐츠를 활성화해야 합니다.
 
