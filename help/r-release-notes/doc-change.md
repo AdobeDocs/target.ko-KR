@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1746'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 4일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 8월 13일로 예정된 &quot;인공 지능과 Adobe Target을 사용한 개인화 전략&quot; 웨비나에 대한 등록 정보가 추가되었습니다. |
 | 8월 3일 | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md) | 방문자와 방문 중 [!UICONTROL 에] 대해 증분 카운트 옵션이 의미하는 사항을 설명하는 참고가 추가되었습니다. |
 | 31년 7월 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 새롭게 알려진 문제 추가: &quot;처리&quot; 레이블을 표시하는 이미지 오퍼입니다.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | pageLoad를 수행하는 데 사용할 코드 샘플 `getoffers()` 을 추가했습니다. |
