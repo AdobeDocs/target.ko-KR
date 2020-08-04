@@ -4,9 +4,9 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target �
 title: Target 공지
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ McKinsey Digital은 &quot;지난 5년간 소비자 및 비즈니스 디지털 �
 [이 유용한 웨비나를 등록하십시오](https://hsbc-targetai.experienceleague.adobeevents.com/).
 
 *맥킨지 기사: &quot;[COVID-19 복구는 디지털](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)상태가 될 것입니다.&quot; 2020년 5월
+
+## 웨비나: 인공 지능과 Adobe Target을 사용한 개인화 전략
+
+* **오전 8시 - 9시 (PDT)**
+* **2020년 8월 13일 목요일**
+
+[이 웨비나를 등록하십시오](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
 
 ## Adobe Target 스킬 빌더: 개발자 채팅, Adobe Target mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
