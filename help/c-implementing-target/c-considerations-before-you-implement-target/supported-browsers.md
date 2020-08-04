@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 84%
+source-wordcount: '299'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ TLS에 대한 추가적으로 중요한 정보는 [TLS(전송 계층 보안) 암
 
 ## [!DNL Target] Standard/Premium 인터페이스 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-다음 [!DNL [!DNL Target]] Standard/Premium] 인터페이스는 다음 브라우저 및 장치를 지원합니다.
+The [!DNL Target] interface supports the following browsers and devices:
 
 | 장치 유형 | 브라우저 버전 |
 |--- |--- |
