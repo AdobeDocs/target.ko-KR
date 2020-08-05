@@ -1,31 +1,61 @@
 ---
 description: 모든 경험의 유효성을 확인할 수 있도록 Target 브라우저 쿠키를 삭제합니다.
-title: Target 쿠키 삭제
+title: Adobe Target 쿠키 삭제
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+workflow-type: tm+mt
+source-wordcount: '261'
+ht-degree: 8%
 
 ---
 
 
 # Target 쿠키 삭제{#delete-the-target-cookie}
 
-모든 경험의 유효성을 확인할 수 있도록 Target 브라우저 쿠키를 삭제합니다.
+테스트하는 동안 모든 경험의 유효성을 확인할 수 있도록 [!DNL Target] 브라우저 쿠키를 삭제할 수 있습니다.
 
-쿠키가 없을 경우, 새 방문자로 취급되어 새 경험이 표시됩니다. 브라우저 쿠키를 모두 삭제하지 않고 Target 쿠키를 삭제하는 방법에는 몇 가지가 있습니다.
+If there are no [!DNL Target] cookies, you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
 
-**Internet Explorer에서 쿠키를 삭제하려면**
+&lt;[!NOTE]
+>나열된 브라우저 및 버전에 대해 다음 지침이 올바릅니다. 특정 브라우저 또는 버전에 대한 지침을 인터넷에서 검색합니다.
+>
+## Google Chrome에서 쿠키 삭제
 
-1. Internet Explorer의 도구 메뉴에서 **[!UICONTROL 인터넷 옵션]**&#x200B;을 선택합니다.
-1. 일반 탭을 열고 [!UICONTROL 검색 기록] 섹션에서 **[!UICONTROL 설정]** &gt; **[!UICONTROL 파일 보기]**&#x200B;를 클릭합니다.
-1. mbox 쿠키를 선택합니다.
-1. 파일 메뉴에서 **[!UICONTROL 삭제]**&#x200B;를 선택하거나 파일을 선택하고 **[!UICONTROL 삭제]**&#x200B;를 누릅니다.
+버전 84.0.4147.105
 
-**Firefox에서 쿠키를 삭제하려면**
+1. Chrome **메뉴** > 환경 설정을 **클릭합니다**.
+1. 개인 **정보 및 보안** 탭을 클릭합니다.
+1. 쿠키 **및 기타 사이트 데이터를 클릭합니다**.
+1. 모든 쿠키 및 사이트 데이터 **보기를 클릭합니다**.
+1. 삭제할 쿠키의 사이트를 선택한 다음 **삭제** 아이콘을 클릭합니다.
 
-1. **도구** &gt; **옵션** &gt; **개인 정보**&#x200B;를 선택합니다.
-1. **쿠키 보기**&#x200B;를 클릭합니다.
-1. 쿠키 이름별로 정렬하여 Target 쿠키를 찾습니다.
-1. 미리 보기를 하고 있는 사이트의 쿠키를 선택한 다음 **쿠키 제거**&#x200B;를 클릭합니다.
+## Mozilla Firefox에서 쿠키 삭제
 
+버전 79.0
+
+1. Firefox **메뉴** > 환경 설정을 **클릭합니다**.
+1. 개인 **정보 및 보안** 탭을 클릭합니다.
+1. 쿠키 **및 사이트 데이터에서**&#x200B;데이터 **관리를 클릭합니다**.
+1. 쿠키를 **찾으려면 사이트별로** 정렬합니다 [!DNL Target] .
+1. 삭제할 쿠키의 사이트를 선택한 다음 선택한 항목 **제거** > 변경 내용 **저장을 클릭합니다**.
+
+## Microsoft Edge에서 쿠키 삭제
+
+버전 84.0.522.52
+
+1. Microsoft **Edge** 메뉴 > 환경 설정을 **클릭합니다**.
+1. Click the **Site Permissions** tab.
+1. 쿠키 **및 사이트 데이터를 클릭합니다**.
+1. 모든 쿠키 및 사이트 데이터 **보기를 클릭합니다**.
+1. 삭제할 쿠키의 사이트를 선택한 다음 **삭제** 아이콘을 클릭합니다.
+
+## Apple Safari에서 쿠키 삭제
+
+버전 13.1.2
+
+1. Safari **메뉴** > 환경 설정을 **클릭합니다**.
+1. Click the **Privacy** tab.
+1. 웹 사이트 **데이터 관리를 클릭합니다**.
+1. 삭제할 쿠키의 사이트를 선택한 다음 **제거를 클릭합니다**.
