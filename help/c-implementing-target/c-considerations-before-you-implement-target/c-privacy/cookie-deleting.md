@@ -4,9 +4,9 @@ title: Adobe Target 쿠키 삭제
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 79bcd452a9faa0883272d2e686efd7c4ddfa34a2
+source-git-commit: 871250ecaadafa7e9b56fad7e211f258767e3c18
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '409'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 테스트하는 동안 모든 경험의 유효성을 검사할 수 있도록 [!DNL Target] 브라우저 쿠키(mbox)를 삭제할 수 있습니다.
 
-If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
+If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and shown a new experience. 모든 브라우저 쿠키를 삭제하지 않고 mbox를 삭제하는 방법에는 여러 가지가 있습니다.
 
 >[!NOTE]
 >
@@ -36,6 +36,8 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 
 버전 79.0
 
+### 관련된 모든 쿠키 삭제 `adobe.com`
+
 1. Firefox **메뉴** > 환경 설정을 **클릭합니다**.
 1. 개인 **정보 및 보안** 탭을 클릭합니다.
 1. 쿠키 **및 사이트 데이터에서**&#x200B;데이터 **관리를 클릭합니다**.
@@ -43,7 +45,15 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 
    >[!NOTE]
    >
-   >사이트와 연관된 모든 쿠키가 `adobe.com` 삭제됩니다. 사이트에 대한 개별 쿠키를 삭제하거나 편집하려면 개발자 도구의 [저장소 관리자에서 쿠키를 삭제할 수 있습니다](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector). 삭제할 특정 쿠키의 이름은 &quot;mbox&quot;입니다.
+   >사이트와 연관된 모든 쿠키가 `adobe.com` 삭제됩니다. 사이트에 대한 개별 쿠키를 삭제하려면 아래 지침을 따르십시오.
+
+### 개별 쿠키 삭제(mbox)
+
+1. Firefox에서 **도구** > **웹 개발자** > **저장소 검사기를**&#x200B;클릭합니다.
+1. Click the **Advanced** tab.
+1. 삭제할 쿠키가 있는 웹 페이지로 이동합니다.
+1. 쿠키 **섹션을** 확장한 다음 을 클릭합니다 `https://experience.adobe.com`.
+1. mbox 쿠키를 마우스 오른쪽 단추로 **클릭한** 다음 **삭제를 클릭합니다**.
 
 ## Microsoft Edge에서 Target 쿠키 삭제
 
@@ -59,14 +69,18 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 
 버전 13.1.2
 
+### 관련된 모든 쿠키 삭제 `adobe.com`
+
 1. Safari **메뉴** > 환경 설정을 **클릭합니다**.
 1. Click the **Privacy** tab.
 1. 웹 사이트 **데이터 관리를 클릭합니다**.
 1. 삭제할 쿠키의 사이트를 선택한 다음 **제거를 클릭합니다**.
 
->[!NOTE]
->
->사이트와 연관된 모든 쿠키가 `adobe.com` 삭제됩니다. 사이트에 대한 개별 쿠키를 삭제하려면 아래 지침을 따르십시오.
+   >[!NOTE]
+   >
+   >사이트와 연관된 모든 쿠키가 `adobe.com` 삭제됩니다. 사이트에 대한 개별 쿠키를 삭제하려면 아래 지침을 따르십시오.
+
+### 개별 쿠키 삭제(mbox)
 
 1. Safari **메뉴** > 환경 설정을 **클릭합니다**.
 1. Click the **Advanced** tab.
