@@ -5,10 +5,10 @@ title: Adobe Target 프리릴리스 노트
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 580a4cbdc4ea164e858eadc2fe2923ab65711e2b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 22%
+source-wordcount: '391'
+ht-degree: 19%
 
 ---
 
@@ -40,11 +40,7 @@ ht-degree: 22%
 
 ## Target Standard/Premium 20.9.1(2020년 9월 2일)
 
-이 Target 릴리스에는 다음과 같은 새로운 기능 또는 개선 사항이 포함됩니다.
-
-| 기능/향상 | 설명 |
-| --- | --- |
-| Analytics for Target (A4T) 자동 [!UICONTROL Target 활동] 지원 | [!UICONTROL 자동 Target] 활동은 Target [!UICONTROL 에 대한 분석] (A4T)을 지원합니다.<br>이러한 통합을 통해 [!UICONTROL 자동 Target] 고급 머신 러닝을 사용하여 컨텐츠를 개인화하고 전환을 유도하기 위해 고성능의 마케터가 정의한 여러 경험 중에서 선택할 수 있으며 [!UICONTROL Adobe Analytics] 목표 지표 및/또는 [!DNL Adobe Analytics] 보고 및 분석 기능을 사용할 수 있습니다. [!UICONTROL 자동 타겟은 개별 고객 프로필 및 유사한 프로필을 갖는 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.]<br>이미 [A/B 테스트](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) , [!UICONTROL 자동 할당]및 경험 타깃팅 [!UICONTROL 활동과 함께 사용할 수 있도록 A4T를]구현한 경우 [!UICONTROL 모두] 설정됩니다. |
+이번 릴리스의 새로운 기능, 개선 사항 및 수정 사항은 여기에서 업데이트됩니다.
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
