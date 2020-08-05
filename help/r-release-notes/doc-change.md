@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: 864ce209675b465e229fad787e102e8d9bf5825c
 workflow-type: tm+mt
-source-wordcount: '1754'
+source-wordcount: '1762'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 5일 | [Target 쿠키 삭제](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | 전체 주제가 업데이트되었습니다. |
 | 8월 4일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 8월 13일로 예정된 &quot;인공 지능(AI) 및 Adobe Target(Facebook)을 사용한 개인화 전략&quot; 웨비나에 대한 등록 정보가 추가되었습니다. |
 |  | [브라우저에서 혼합 컨텐츠 활성화](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | 주제가 업데이트됨. |
 | 8월 3일 | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md) | 방문자와 방문 중 [!UICONTROL 에] 대해 증분 카운트 옵션이 의미하는 사항을 설명하는 참고가 추가되었습니다. |
