@@ -4,10 +4,10 @@ title: 자동 타겟
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 91%
+source-wordcount: '3610'
+ht-degree: 85%
 
 ---
 
@@ -198,14 +198,17 @@ A/B 테스트 결과에 경험들 중 하나 이상에서 통계적으로 의미
 
 [!UICONTROL 자동 타겟] 활동에서 콘텐츠를 크게 변경하려면, 보고서를 검토하는 다른 사용자들이 과거 결과를 다른 콘텐츠와 혼동하거나 결부 짓지 않도록 새 활동을 시작하는 것이 좋습니다.
 
-### 모델이 만들어지기까지 얼마나 기다려야 합니까?
+### 모델이 만들어지기까지 얼마나 기다려야 합니까? {#how-long}
 
-일반적으로 [!UICONTROL 자동 타겟] 활동에서 모델을 만드는 데 걸리는 시간은 선택된 활동 위치에 대한 트래픽과 활동 성공 지표에 따라 다릅니다.
+The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-[!UICONTROL 자동 타겟]의 경우 간단한 경험 법칙을 사용하여 트래픽 요구 사항을 이해할 수 있습니다.
+[!UICONTROL 자동 Target] 는 해당 경험에 대해 최소 50개의 전환이 있을 때까지 주어진 경험에 대한 맞춤형 모델을 만들지 않습니다. 또한, 빌드된 모델의 품질이 부족한 경우(오프라인 평가에 의해 &quot;테스트&quot; 데이터 대기 중(AUC라고 [하는 지표 사용)에 따라 모델](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)이 트래픽을 개인화된 방식으로 제공하는 데 사용되지 않습니다.
 
-* **전환이 성공 지표일 경우:**&#x200B;경험당 하루에 1,000개의 방문과 최소 50개의 전환이 있어야 하고, 또한 활동에는 적어도 7000개의 방문과 350개의 전환이 있어야 합니다.
-* **방문당 매출액이 성공 지표일 경우:**&#x200B;경험당 하루에 1,000개의 방문과 최소 50개의 전환이 있어야 하고, 또한 활동에는 경험당 적어도 1000개의 전환이 있어야 합니다. RPV를 사용할 때에는 전환율을 사용할 때와 비교하여 방문 매출에 일반적으로 존재하는 더 높은 데이터 분산으로 인해 모델을 만드는 데 더 많은 데이터가 필요합니다.
+자동 [!UICONTROL Target의 모델]구성에 대해 염두에 두어야 할 몇 가지 더 자세한 사항은 다음과 같습니다.
+
+* 활동이 라이브되면 [!UICONTROL 자동 Target] 는 모델을 빌드하려고 할 때(즉, 트래픽을 제어하고 알고리즘에 의해 과도하게 제공되는 일부 데이터 포함) 임의로 제공된 데이터의 마지막 45일 동안의 데이터를 고려합니다.
+* 방문당 [!UICONTROL 매출이 성공 지표인] 경우, 이러한 활동은 일반적으로 전환율과 비교하여 방문 수익에 있는 높은 데이터 분산 때문에 모델을 만드는 데 더 많은 데이터가 필요합니다.
+* 모델은 경험을 기준으로 구축되므로 한 경험을 다른 경험으로 교체하면 개인화된 모델을 다시 빌드하기 전에 새로운 경험에 대해 충분한 트래픽(즉, 50개 이상의 전환)을 수집해야 합니다.
 
 ### 내 활동에 모델 하나가 만들어져 있습니다. 해당 경험에 대한 방문이 개인화됩니까?
 
