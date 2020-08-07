@@ -4,10 +4,10 @@ description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 86ff105770a430b3cc56ab8ed490a154a1c2180f
+source-git-commit: f3bb126943bc5f3a44f2969e82190eac34fc5710
 workflow-type: tm+mt
-source-wordcount: '3352'
-ht-degree: 91%
+source-wordcount: '3421'
+ht-degree: 88%
 
 ---
 
@@ -124,9 +124,9 @@ at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false`�
 
 ### Analytics for Target (A4T)
 
-Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘못 계산됩니다 .
+Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표에 &quot;동일한 터치&quot; Attribution IQ 모델을 적용하여 정확한 카운트를 확인하십시오. 기본이 [아닌 속성 모델을](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)적용하려면 지표를 마우스 오른쪽 단추로 클릭하여 열 설정 > 기본이 아닌 속성 모델 사용 **설정 > 동일한 터치 모델**&#x200B;선택 이 모델이 적용되지 않으면 지표가 부풀려집니다.
 
-임시 해결책으로, 이 문제가 해결될 때까지 Reports &amp; Analytics에서 A4T 데이터를 활용하십시오.
+현재 모든 Analytics 패키지에는 Attribution IQ에 이 모델을 추가할 수 있습니다. Attribution IQ에 액세스할 수 없는 경우 보고 및 분석의 A4T 데이터를 사용하십시오.
 
 ### Target API
 
@@ -134,11 +134,11 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 
 ### GEO 타깃팅
 
-2020년 5월 10일에 GEO 공급자 파일이 업데이트되었으며, 이러한 파일이 일치하지 않습니다. 예를 들어 쉼표를 포함하는 일부 값이 추가되었습니다. 하지만 기존 대상의 값은 쉼표가 없습니다. 이 변경 사항으로 인해 모든 배달 서버가 영향을 받지 않았습니다. 따라서 이러한 값을 사용하는 대상이 2020년 5월 10일부터 7월 22일 사이에 올바른 방문자를 모두 적격한 것이 아닐 수 있습니다.
+2020년 5월 10일에 GEO 공급자 파일이 업데이트되었으며, 이러한 파일이 일치하지 않습니다. 예를 들어 쉼표를 포함하는 일부 값이 추가되었습니다.하지만 기존 대상의 값은 쉼표가 없습니다. 이 변경 사항으로 인해 모든 배달 서버가 영향을 받지 않았습니다. 따라서 이러한 값을 사용하는 대상이 2020년 5월 10일부터 7월 22일 사이에 올바른 방문자를 모두 적격한 것이 아닐 수 있습니다.
 
 ### &quot;처리&quot; 레이블을 표시하는 이미지 오퍼
 
-오퍼 페이지의 이미지 오퍼에는 이미지가 업로드된 후 몇 시간 동안 &quot;처리&quot; 레이블이 유지되는 경우가 있습니다. 대부분의 경우 레이블에만 문제가 발생합니다. 이미지 오퍼는 여전히 활동에 사용할 수 있으며 배달됩니다. 그러나 일부 경우에는 컨텐츠 바꾸기 > 이미지 작업에 이미지 오퍼를 사용할 수 없을 수도 있습니다. 이러한 경우 이미지 오퍼를 다시 업로드하고 몇 시간 후에 이미지 오퍼를 교체할 수 있는지 확인해야 합니다. (TGT-37458)
+오퍼 페이지의 이미지 오퍼에는 이미지가 업로드된 후 몇 시간 동안 &quot;처리&quot; 레이블이 유지되는 경우가 있습니다. 대부분의 경우 레이블에만 문제가 발생합니다.이미지 오퍼는 여전히 활동에 사용할 수 있으며 배달됩니다. 그러나 일부 경우에는 컨텐츠 바꾸기 > 이미지 작업에 이미지 오퍼를 사용할 수 없을 수도 있습니다. 이러한 경우 이미지 오퍼를 다시 업로드하고 몇 시간 후에 이미지 오퍼를 교체할 수 있는지 확인해야 합니다. (TGT-37458)
 
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -153,7 +153,7 @@ Target 활동 노출 수 및 전환 수가 현재 Analysis Workspace에서 잘�
 * Target 구현에서 서로 다른 서버를 사용합니다.
 * 보고서에서 예외적인 주문을 제외하지 않았습니다.
 * 전환 지표를 사용하여 활동을 측정했습니다.
-* Target 활동에서는 Target(A4T)에 Analytics을 사용합니다.
+* Target 활동에서는 Target(A4T)에 Analytics를 사용합니다.
 * APAC 지역에 있습니다.
 
 이 문제가 Target 보고에 영향을 미치는지 확인하려면 [클라이언트 지원팀에 문의하십시오](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
