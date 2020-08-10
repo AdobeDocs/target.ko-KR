@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1423'
+source-wordcount: '1429'
 ht-degree: 91%
 
 ---
@@ -182,6 +182,7 @@ ht-degree: 91%
          + [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud 대상자](c-integrating-target-with-mac/mmp.md)
+   + [Adobe Audience Manager과 Target 통합](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Adobe Campaign과 Target 통합](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + 활동 {#activities}
@@ -217,7 +218,7 @@ ht-degree: 91%
       + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)
       + [자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택](c-activities/t-automated-personalization/experience-as-control.md)
       + [자동화된 개인화 FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [경험 미리 보기 URL을 사용하여 자동화된 개인화 활동 미리 보기](c-activities/t-automated-personalization/experience-preview.md)
+      + [경험 미리 보기 URL을 사용하여 Automated Personalization 활동 미리 보기](c-activities/t-automated-personalization/experience-preview.md)
       + [자동화된 개인화 문제 해결](c-activities/t-automated-personalization/ap-trouble.md)
    + 경험 타깃팅 {#experience-targeting}
       + [경험 타깃팅 개요](c-activities/t-experience-target/experience-target.md)
