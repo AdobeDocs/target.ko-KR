@@ -5,9 +5,9 @@ title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
+source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1172'
 ht-degree: 2%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 2%
 
 # CNAME 및 Adobe Target {#cname-and-adobe-target}
 
-Adobe Client Care에서 CNAME(표준 이름) 지원을 구현하기 위한 지침 [!DNL Adobe Target]. 광고 차단 문제 또는 ITP 관련 쿠키 정책을 효과적으로 처리하기 위해 CNAME이 사용되므로 Adobe가 소유한 도메인이 아닌 고객이 소유한 도메인에 대한 호출이 수행됩니다.
+CNAME(표준 이름) 지원을 구현하기 위한 Adobe 클라이언트 지원 작업에 대한 지침 [!DNL Adobe Target]. 광고 차단 문제 또는 ITP 관련 쿠키 정책을 처리하기 위해 CNAME이 사용되므로 Adobe이 소유한 도메인이 아닌 고객이 소유한 도메인에 대한 호출이 수행됩니다.
 
 ## CNAME 지원 요청
 
@@ -33,28 +33,28 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobe의 인증 기관인 DigiCert는 이 단계가 완료될 때까지 인증서를 발급할 수 없습니다. 따라서 Adobe는 이 단계가 완료될 때까지 CNAME 구현에 대한 요청을 이행할 수 없습니다.
+   >* Adobe 인증 기관인 DigiCert는 이 단계가 완료될 때까지 인증서를 발급할 수 없습니다. 따라서 Adobe은 이 단계가 완료될 때까지 CNAME 구현에 대한 요청을 이행할 수 없습니다.
 
 
-1. 다음 양식을 작성하고 CNAME 지원을 요청하는 Adobe Client Care 티켓을 [열 때 포함합니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+1. 다음 양식을 작성하고 CNAME 지원을 요청하는 Adobe 클라이언트 지원 티켓을 [열 때 포함합니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
    * Adobe [!DNL Target] client code:
    * SSL 인증서 호스트 이름(예: `target.example.com target.example.org`):
-   * SSL 인증서 구매자(Adobe가 적극 권장됩니다. FAQ 참조): Adobe/고객
+   * SSL 인증서 구매자(Adobe 권장):Adobe/고객
    * 고객이 인증서(BYOC)를 구입하는 경우 다음과 같은 추가 정보를 작성해 주십시오.
-      * 인증서 조직(예: 예제 Company Inc):
-      * 인증서 조직 단위(선택 사항: 마케팅):
-      * 인증서 국가(예: 미국):
-      * 인증서 상태/지역(예: 캘리포니아):
-      * 인증서 구/군/시(예: 산호세):
+      * 인증서 조직(예:예제 Company Inc):
+      * 인증서 조직 단위(선택 사항:마케팅):
+      * 인증서 국가(예:미국):
+      * 인증서 상태/지역(예:캘리포니아):
+      * 인증서 구/군/시(예:산호세):
 
-1. Adobe가 인증서를 구입하는 경우 Adobe는 DigiCert와 함께 Adobe의 프로덕션 서버에 인증서를 구매 및 배포합니다.
+1. Adobe이 인증서를 구입하는 경우 Adobe은 DigiCert와 함께 작동하여 Adobe 프로덕션 서버에 인증서를 구매하고 배포합니다.
 
-   고객이 인증서(BYOC)를 구입하는 경우, Adobe Client Care는 CSR(인증서 서명 요청)을 발송합니다. 이 요청은 귀하가 선택한 인증 기관을 통해 인증서를 구매할 때 사용해야 합니다. 인증서가 발급되면 인증서 사본과 중간 인증서 사본을 배포하기 위해 Adobe 클라이언트 지원팀에 다시 보내야 합니다.
+   고객이 인증서(BYOC)를 구입하는 경우, Adobe 클라이언트 지원팀은 CSR(인증서 서명 요청)을 보내드립니다. 이 요청은 인증서 기관을 통해 인증서를 구매할 때 사용해야 합니다. 인증서가 발급되면 인증서 사본과 중간 인증서 사본을 Adobe 클라이언트 지원팀에 보내 배포해야 합니다.
 
-   구현이 준비되면 Adobe Client Care에서 통보합니다.
+   Adobe 클라이언트 지원 센터에서 구현이 준비되면 알려줍니다.
 
-1. 이전 작업을 완료하고 Adobe Client Care에서 구현이 준비되었다는 통보를 받은 후에는 at.js에서 새 CNAME `serverDomain` 으로 업데이트해야 합니다.
+1. 이전 작업을 완료하고 Adobe 클라이언트 지원팀이 구현 준비가 되었다는 알림을 보낸 후 at.js에서 새 CNAME `serverDomain` 으로 업데이트해야 합니다.
 
 ## FAQ
 
@@ -62,11 +62,11 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
 ### 직접 인증서를 제공할 수 있습니까(BYOC 또는 BYOC)?
 
-예. 자신의 인증서를 제공할 수 있습니다. 하지만 권장되지 않습니다. Adobe에서 인증서를 구매하고 제어할 때 SSL 인증서 라이프사이클의 관리가 매우 쉬워졌습니다. SSL 인증서는 매년 갱신되어야 합니다. 즉, Adobe Client Care는 매년 사용자에게 연락하여 Adobe에 적시에 새로운 인증서를 보내야 합니다. 인증서 만료 시 브라우저 거부 때문에 [!DNL Target] 구현을 저해하는 새로운 인증서를 매년 적시에 만드는 데 어려움을 겪을 수도 있습니다.
+예. 자신의 인증서를 제공할 수 있습니다.하지만 권장되지 않습니다. Adobe 구입 및 인증서 제어 시 SSL 인증서 라이프사이클의 관리가 매우 쉬워졌습니다. SSL 인증서는 매년 갱신되어야 합니다. 즉, Adobe 클라이언트 지원 팀은 Adobe에 적시에 새 인증서를 보내기 위해 매년 사용자에게 연락해야 합니다. 인증서 만료 시 브라우저 거부 때문에 [!DNL Target] 구현을 저해하는 새로운 인증서를 매년 적시에 만드는 데 어려움을 겪을 수도 있습니다.
 
 >[!IMPORTANT]
 >
->CNAME [!DNL Target] 가져오기 구현을 요청하는 경우 매년 Adobe Client Care에 갱신된 인증서를 제공할 책임이 있습니다. Adobe에서 갱신된 인증서를 배포하기 전에 CNAME 인증서가 만료되도록 허용하면 특정 구현에 대한 중단이 [!DNL Target] 발생합니다.
+>CNAME 구현 [!DNL Target] 가져오기를 요청하는 경우 매년 Adobe 클라이언트 지원팀에 갱신된 인증서를 제공할 책임이 있습니다. Adobe에서 갱신된 인증서를 배포하기 전에 CNAME 인증서가 만료되도록 허용하면 특정 구현에 대한 중단이 [!DNL Target] 발생합니다.
 
 ### 새 SSL 인증서가 만료될 때까지 얼마나 걸립니까?
 
@@ -146,3 +146,4 @@ ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.
 
 * CNAME과 at.js 1.x가 있는 경우 QA 모드는 타사 쿠키를 기반으로 하므로 고정되지 않습니다. 해결 방법은 탐색하는 각 URL에 미리 보기 매개 변수를 추가하는 것입니다. CNAME과 at.js 2.x가 있는 경우 QA 모드가 고정됩니다.
 * 현재 이 `overrideMboxEdgeServer` 설정은 CNAME에서 제대로 작동하지 않습니다. 요청 `false` 실패를 방지하기 위해 이 값을 설정해야 합니다.
+* CNAME을 사용하는 경우 Target 호출에 대한 쿠키 헤더 크기가 증가할 가능성이 커집니다. 쿠키 크기를 8KB 이하로 유지하는 것이 좋습니다.
