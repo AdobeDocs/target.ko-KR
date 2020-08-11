@@ -4,10 +4,10 @@ description: 모바일 뷰포트를 통해 다양한 크기의 화면에서 Adob
 title: 반응형 경험을 위한 모바일 뷰포트
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 64%
+source-wordcount: '1402'
+ht-degree: 69%
 
 ---
 
@@ -148,27 +148,27 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-이 사용 사례에서는 두 개의 iPhone 버전에 대한 경험을 구성하는 방법을 보여줍니다.iPhone 11 Pro Max 및 iPhone SE.
+이 사용 사례에서는 두 개의 iPhone 버전에 대한 경험을 구성하는 방법을 보여줍니다.iPhone 6 및 iPhone 6 Plus.
 
-1. Target에서 관리를 **[!UICONTROL 클릭합니다]**.
-1. 모바일 **[!UICONTROL 뷰포트 구성]** 섹션에서 iPhone 11 Pro Max 및 iPhone SE용 모바일 뷰포트를 만듭니다.
+1. [ **[!UICONTROL 관리]** ] > **[!UICONTROL [시각적 경험 컴포저]를 클릭합니다]**.
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    각 뷰포트에 다음 설정을 사용합니다.
 
    | 이름 | 너비 | 높이 | 운영 체제 |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | iOS |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. 타깃팅할 경험으로 활동을 만듭니다.
-1. iPhone 11 Pro Max 또는 iPhone SE에서 사이트에 액세스하는 방문자에게 타깃팅할 경험을 선택합니다.
+1. iPhone 6 또는 iPhone 6 Plus에서 사이트에 액세스하는 방문자를 타깃팅하려는 경험을 선택합니다.
 1. 타겟을 선택할 때 **[!UICONTROL 대상 만들기]**&#x200B;를 클릭한 다음, 아래 그림과 같이 대상을 구성합니다.
 
    ![](assets/iphoneaudiences.png)
 
-   전화를 가로 방향으로 회전할 수 있기 때문에 높이와 너비 모두 320보다 커야 하므로 iPhone 장치 모델과 결합하면 iPhone 11 Pro Max 및 iPhone SE만 만날 수 있습니다.
+   휴대폰은 가로로 회전할 수 있으므로 높이와 너비를 둘 다 320보다 크게 지정하면 iPhone 장치 모델과 결합할 때 6 및 6 Plus만 충족할 수 있는 조건이 동시에 생성됩니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 1. 평소대로 활동을 계속 설정합니다.
 
