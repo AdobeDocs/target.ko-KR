@@ -2,9 +2,13 @@
 keywords: catalog;search
 description: Adobe Target의 카탈로그 검색은 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다.
 title: Adobe Target의 카탈로그 검색
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 카탈로그 검색은 카탈로그에서 제품이나 컨텐츠를 찾는 데 도움이 됩니다.
 
-To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
+To access catalog search, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 검색 필드에서 아래쪽 화살표를 클릭하면 표시되는 선택 사항 메뉴에서 검색 선택 사항을 선택하여 검색을 개선할 수 있습니다.
 
@@ -28,9 +32,9 @@ To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  
 * ID
 * 메시지
 
-**[!UICONTROL 모두]**는 OR 논리를 사용하여 기타 모든 검색 기준으로 검색합니다.
+**[!UICONTROL 모두]**&#x200B;는 OR 논리를 사용하여 기타 모든 검색 기준으로 검색합니다.
 
-검색 결과에서 **[!UICONTROL 환경]**을 클릭하여 표시하는 카탈로그의 프로덕션 호스트 그룹 환경을 지정합니다.[](/help/administrating-target/hosts.md)검색 결과에 있는 항목들을 스크롤하여 썸네일 및 기타 제품 정보를 볼 수도 있습니다.
+검색 결과에서 **[!UICONTROL 환경]**&#x200B;을 클릭하여 표시하는 카탈로그의 프로덕션 호스트 그룹 환경을 지정합니다. [](/help/administrating-target/hosts.md) 검색 결과에 있는 항목들을 스크롤하여 썸네일 및 기타 제품 정보를 볼 수도 있습니다.
 
 &quot;제품&quot; 옆에 표시되는 숫자는 지정된 환경에서 사용 가능한 전체 개수 중 검색어와 일치하는 제품의 수입니다.
 
