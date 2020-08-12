@@ -1,10 +1,14 @@
 ---
-keywords: 타깃팅;경험 타깃팅;xt;랜딩 페이지;랜딩 페이지 캠페인
+keywords: Targeting;experience targeting;xt;landing page;landing page campaign
 description: 경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 title: 경험 타깃팅
+feature: null
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '483'
+ht-degree: 100%
 
 ---
 
@@ -37,7 +41,7 @@ XT 활동을 통해 각 대상에게 어필하는 다른 영웅 이미지로 이
 * 지리적 영역에 있는 대상으로 위치 특정 콘텐츠를 전달하는 방법을 설명합니다.
 * 올바른 콘텐츠가 올바른 대상에게 전달되도록 하기 위해 경험을 재정렬하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### 활동 유형(9:03)
 
@@ -47,4 +51,4 @@ XT 활동을 통해 각 대상에게 어필하는 다른 영웅 이미지로 이
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로우 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
