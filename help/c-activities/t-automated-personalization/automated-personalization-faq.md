@@ -2,9 +2,10 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: 자동화된 개인화(AP)에 대한 FAQ 목록
 title: 자동화된 개인화 FAQ
+feature: null
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 85%
@@ -119,7 +120,7 @@ AP 활동에서 상승도를 생성하는 데에는 4가지 필요한 요소가 
 
 ### Automated Personalization 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?
 
-Automated Personalization [!UICONTROL 활동에 대해] 보고서 데이터 [!UICONTROL 재설정 옵션을 사용하는 것은] 권장되지않습니다. 보이는 보고 데이터를 제거하지만 이 옵션을 사용하면 [!UICONTROL Automated Personalization] 모델에서 모든 교육 레코드가 제거되지는 않습니다. [!UICONTROL Automated Personalization] 활동에 대해 [보고서 데이터  재설정] 옵션을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고: 이 지침은 자동 [!UICONTROL 할당] 및 [!UICONTROL 자동 Target] 활동에도 적용됩니다.)
+Automated Personalization [!UICONTROL 활동에 대해] 보고서 데이터 [!UICONTROL 재설정 옵션을 사용하는 것은] 권장되지않습니다. 보이는 보고 데이터를 제거하지만 이 옵션을 사용하면 [!UICONTROL Automated Personalization] 모델에서 모든 교육 레코드가 제거되지는 않습니다. [!UICONTROL Automated Personalization] 활동에 대해 [보고서 데이터  재설정] 옵션을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고:이 지침은 자동 [!UICONTROL 할당] 및 [!UICONTROL 자동 Target] 활동에도 적용됩니다.)
 
 ### Automated Personalization은 환경과 관련하여 어떻게 모델을 구축하는가?
 
