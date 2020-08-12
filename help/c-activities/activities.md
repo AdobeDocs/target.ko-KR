@@ -1,11 +1,15 @@
 ---
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
-description: Adobe Target의 활동을 통해 특정 대상에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다
+description: Adobe Target의 활동을 통해 특정 고객에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다
 title: Adobe Target의 활동을 통해 특정 대상에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다.
+feature: null
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2094'
+ht-degree: 97%
 
 ---
 
@@ -168,7 +172,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 활동 유형(9:03) 개요 ![배지](/help/assets/overview.png)
+### 활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다.
 
