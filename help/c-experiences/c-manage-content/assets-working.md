@@ -2,9 +2,13 @@
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
 description: 라이브러리에 있는 자산에 대해 수행할 수 있는 작업이 많습니다.
 title: 라이브러리에서 컨텐츠 작업
+feature: null
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '513'
+ht-degree: 96%
 
 ---
 
