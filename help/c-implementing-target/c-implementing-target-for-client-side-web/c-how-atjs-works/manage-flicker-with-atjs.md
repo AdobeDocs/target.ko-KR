@@ -2,10 +2,14 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: 페이지 또는 앱 로드 중 Adobe Target at.js JavaScript 라이브러리가 어떻게 플리커를 방지하는지에 대한 정보입니다.
 title: Adobe Target at.js에서 플리커를 관리하는 방법
+feature: null
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '655'
+ht-degree: 83%
 
 ---
 
@@ -18,7 +22,7 @@ source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ## 자동 생성된 글로벌 mbox 사용 {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-at.js 구성 시 [글로벌 mbox를 자동으로 만들기](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) 설정을 활성화하면 at.js가 페이지 로드 시 불투명도 설정을 변경하여 플리커(깜박임)를 관리합니다. at.js가 로드되면 at.js는 요소의 불투명도 설정을 <body> "0"으로 변경하여 방문자가 처음에 페이지를 볼 수 있도록 합니다. Target에서 응답을 받은 후 또는 Target 요청에 오류가 감지되면 at.js가 불투명도를 "1"로 재설정합니다. 이렇게 하면 활동의 컨텐츠가 적용된 후에만 방문자에게 페이지가 표시됩니다.
+at.js 구성 시 [글로벌 mbox를 자동으로 만들기](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) 설정을 활성화하면 at.js가 페이지 로드 시 불투명도 설정을 변경하여 플리커(깜박임)를 관리합니다. at.js가 로드되면 at.js는 요소의 불투명도 설정을 <body> &quot;0&quot;으로 변경하여 방문자가 처음에 페이지를 볼 수 있도록 합니다. Target에서 응답을 받은 후 또는 Target 요청에 오류가 감지되면 at.js가 불투명도를 &quot;1&quot;로 재설정합니다. 이렇게 하면 활동의 컨텐츠가 적용된 후에만 방문자에게 페이지가 표시됩니다.
 
 at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 불투명도를 0으로 설정합니다. Target의 응답을 받은 후 at.js는 HTML BODY 불투명도를 1로 재설정합니다.
 
@@ -32,7 +36,7 @@ at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 
 
 ![Target 흐름: at.js 페이지 로드 요청](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x***
+**at.js 1.*x ***
 
 ![](assets/target-flow2.png)
 
@@ -44,9 +48,9 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 관련 HTML 요소가 [!DNL Target]에 의해 개인화된 후 표시되는 사전에 숨기는(pre-hiding) 코드 조각을 사용하여 플리커(깜박임)를 방지할 수 있습니다. 
 
-at.js는 페이지에 직접 삽입하거나 태그 관리자(Adobe Launch, DTM) 등을 통해 비동기적으로 로드할 수 있습니다.
+at.js는 페이지에 직접 포함되거나 태그 관리자(Adobe 실행, DTM) 등을 통해 비동기적으로 로드할 수 있습니다.
 
-at.js가 페이지에 포함된 경우 at.js를 로드하기 전에 조각을 추가해야 합니다. 비동기적으로 로드되는 태그 관리자를 통해 at.js를 로드하는 경우 태그 관리자를 로드하기 전에 코드 조각을 추가해야 합니다. 태그 관리자가 동기식으로 로드되면 스크립트가 at.js 앞에 태그 관리자에 포함될 수 있습니다.
+at.js가 페이지에 포함된 경우 at.js를 로드하기 전에 조각을 추가해야 합니다. 비동기식으로 로드되는 태그 관리자를 통해 at.js를 로드하는 경우 태그 관리자를 로드하기 전에 코드 조각을 추가해야 합니다. 태그 관리자가 동기식으로 로드되면 at.js 이전에 태그 관리자에 스크립트가 포함될 수 있습니다.
 
 사전에 숨기는 코드 조각은 다음과 같습니다.
 
@@ -144,4 +148,4 @@ mboxCreate('some-mbox');
 </script>
 ```
 
-페이지가 적절하게 공급되면 at.js는 mboxDefault 클래스를 사용하여 요소의 CSS "가시성" 속성을 적절하게 전환하여 플리커를 관리합니다.
+페이지가 적절하게 공급되면 at.js는 mboxDefault 클래스를 사용하여 요소의 CSS &quot;가시성&quot; 속성을 적절하게 전환하여 플리커를 관리합니다.
