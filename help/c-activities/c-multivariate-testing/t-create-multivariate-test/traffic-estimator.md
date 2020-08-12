@@ -1,10 +1,14 @@
 ---
 description: 다변량 테스트는 여러 개의 경험을 비교하기 때문에 의미있는 결과를 제공하는 데 필요한 트래픽의 양을 파악하는 것이 중요합니다. 트래픽 견적 도구는 테스트되는 경험의 수 및 페이지에 대한 통계를 사용하여 성공적인 테스트에 필요한 테스트 기간과 트래픽의 양을 예상합니다.
 title: 성공적인 테스트에 필요한 트래픽 예측
+feature: null
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
@@ -41,6 +45,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * [!UICONTROL 일반 전환율]: 전환율은 사용자의 예측 또는 분석 시스템의 과거 데이터를 기준으로 백분율로 표시됩니다.
    * [!UICONTROL 일별 예상 방문자 수]: 타깃팅 기준에 따라 이 페이지를 볼 수 있는 방문자의 수입니다. 분석 데이터를 기준으로 생성될 수 있습니다.
    * [!UICONTROL 테스트 기간]: 활동을 실행할 일수입니다.
+
    트래픽 견적 도구는 이러한 통계를 사용하여 성공적인 테스트를 실행하는 데 필요한 조정 사항을 결정합니다.
 
    트래픽 견적 도구 위쪽에서 입력된 값이 계산되고 결과가 표시됩니다.
@@ -53,6 +58,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    * 오퍼의 조합 수와 위치 수를 줄입니다.
    * 테스트의 지속 기간을 늘립니다.
+
    트래픽 견적 도구가 트래픽이 충분하다고 표시할 때까지 수치를 조정한 후 그에 따라 테스트를 디자인하십시오.
 
    ![](assets/estimatorok.png)
