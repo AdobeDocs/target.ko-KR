@@ -1,12 +1,16 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: Adobe Target을 사용하여 데이터를 .csv 형식으로 다운로드하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 신속하게 가져올 수 있습니다.
+description: 데이터를 .csv 형식으로 다운로드하여 Adobe Target을 사용하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 신속하게 가져올 수 있습니다.
 title: Adobe Target을 사용하여 CSV 파일로 데이터 다운로드
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +30,7 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
    * [!UICONTROL 보고서를 CSV로 내보내기]
    * [!UICONTROL 주문 세부 사항을 CSV로 내보내기]
+
    ![다운로드 옵션](/help/c-reports/assets/download-options.png)
 
 ## 보고서를 CSV로 내보내기 {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -39,11 +44,11 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 >[!NOTE]
 >
->CSV 보고서에는 원시 데이터만 포함되며 방문자당 매출액, 리프트 수 또는 A/B 테스트에 사용된 신뢰도와 같은 계산된 지표는 포함되지 않습니다. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSV 보고서에는 원시 데이터만 포함되며 방문자당 매출, 리프트 또는 A/B 테스트에 사용되는 신뢰도와 같은 계산된 지표는 포함되지 않습니다. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## 주문 세부 사항을 CSV로 내보내기 {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-주문 세부 사항 보고서는 다음을 포함하여 주문에 대한 정보를 보여줍니다.
+주문 세부 사항 보고서는 다음을 포함한 주문에 대한 정보를 보여줍니다.
 
 * 주문 날짜 및 시간
 * 주문 수량(mbox 주문하기를 삽입한 경우)
@@ -82,7 +87,7 @@ source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 다음 정보는 다운로드 선택 사항에 적용됩니다.
 
-* A/B 테스트, 자동화된 개인화, 경험 타깃팅 및 다변량 활동에 대한 보고서를 모두 다운로드할 수 있습니다.  권장 사항 활동에 대한 성공 지표 보고서는 다운로드할 수 없습니다.
+* A/B 테스트, Automated Personalization, 경험 타깃팅 및 다변수 활동에 대한 보고서를 모두 다운로드할 수 있습니다.  권장 사항 활동에 대한 성공 지표 보고서는 다운로드할 수 없습니다.
 * Target 버전 15.7.1(2015년 7월) 이전에 만들어진 A/B 및 경험 타깃팅 활동에는 다운로드 선택 사항을 사용할 수 없습니다.
 * 연결된 데이터가 없는 경험은 다운로드한 보고서에 기록되지 않습니다.
 * Target 보고 UI에 적용된 대상은 다운로드 보고서로 넘겨지지 않습니다.
