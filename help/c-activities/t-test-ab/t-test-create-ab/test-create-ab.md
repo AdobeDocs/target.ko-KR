@@ -2,10 +2,14 @@
 keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target의 시각적 경험 작성기를 사용하십시오.
 title: A/B 테스트 만들기
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '778'
+ht-degree: 98%
 
 ---
 
@@ -111,7 +115,7 @@ Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Tar
 
 활동을 만든 후 개요 탭에는 활동의 다이어그램을 포함하여 활동에 대한 정보가 표시됩니다.
 
-## 교육 비디오: A/B 테스트 만들기(8:36) 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: A/B 테스트 만들기(8:36) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에서는 [!DNL Target]의 안내가 있는 3단계 워크플로우를 사용하여 A/B 테스트를 만드는 방법을 보여 줍니다.
 
