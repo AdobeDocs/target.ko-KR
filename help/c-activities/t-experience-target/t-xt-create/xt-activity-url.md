@@ -2,9 +2,10 @@
 keywords: Targeting
 description: 활동 URL은 경험 타깃팅 활동에 사용되고 활동을 디자인할 때 Adobe Target VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기에서 열리는 페이지를 결정합니다.
 title: 활동 URL
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
@@ -44,6 +45,7 @@ ht-degree: 92%
    * 해시(#) 조각
    * 쿼리
    * mbox 매개 변수
+
    추가 규칙은 AND 또는 OR을 사용하여 활동 URL에 결합할 수 있습니다. 추가하는 모든 규칙은 AND를 사용하여 서로 평가됩니다.
 
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
