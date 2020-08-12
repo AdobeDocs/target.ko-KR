@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience
 description: 사용자 지정된 대상을 만들어 활동에서 사용할 수 있도록 Target 라이브러리에 저장할 수 있습니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수 있습니다.
 title: Target에서 대상 작성
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '473'
+ht-degree: 99%
 
 ---
 
@@ -56,7 +60,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    새로 만든 대상이 몇 초 동안 처리가 지연된 후에 목록에 표시됩니다. 대상이 목록에 즉시 표시되지 않는 경우 대상을 검색하거나 목록을 새로 고치십시오.
 
-## 교육 비디오: 대상 만들기 개요 ![배지](/help/assets/overview.png)
+## 교육 비디오: 대상 만들기 ![개요 배지](/help/assets/overview.png)
 
 이 비디오에는 대상을 만드는 방법에 대한 정보가 포함되어 있습니다.
 
