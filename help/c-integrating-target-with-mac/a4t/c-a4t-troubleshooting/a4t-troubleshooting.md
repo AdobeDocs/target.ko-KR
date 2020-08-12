@@ -1,12 +1,16 @@
 ---
-keywords: Analytics 추적 서버;A4T;분석 세그먼트;보고서 세트;잘못된 데이터;고립됨;sdid;VisitorAPI.js;mboxMCSDID;phantom;지정되지 않음
+keywords: analytics tracking server;A4T;analytics segments;report suites;incorrect data;orphaned;sdid;VisitorAPI.js;mboxMCSDID;phantom;unspecified
 description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때 발생하는 몇 가지 일반적인 문제에 대해 설명합니다.
 title: Analytics 및 Target 통합 문제 해결(A4T)
-subtopic: 다변량 테스트
+feature: null
+subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '682'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때 발생하는 몇 가지 일반적인 문제에 대해 설명합니다.
 
-## 활동이 Analytics에서 데이터를 표시하지 않고, 대신 "지정되지 않음"으로 나열됩니다.{#unspecified}
+## 활동이 Analytics에서 데이터를 표시하지 않고, 대신 &quot;지정되지 않음&quot;으로 나열됩니다.{#unspecified}
 
 이러한 상황이 발생할 수 있는 이유에는 다음과 같이 몇 가지가 있습니다.
 
@@ -33,9 +37,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 >[!NOTE]
 >
->때로 데이터가 보고서에 올바로 표시되지만, 분류를 완료하지 않은 새 활동이 추가되었기 때문에 "지정되지 않음"으로 다시 되돌려집니다. 일반적으로 처음 저장한 후 보고서를 분류하는 데 24~72시간 정도가 소요됩니다.
+>때로 데이터가 보고서에 올바로 표시되지만, 분류를 완료하지 않은 새 활동이 추가되었기 때문에 &quot;지정되지 않음&quot;으로 다시 되돌려집니다. 일반적으로 처음 저장한 후 보고서를 분류하는 데 24~72시간 정도가 소요됩니다.
 >
->"지정되지 않음"으로 나열된 경우 데이터는 손실되지 않으며, 분류가 실행된 후 적절한 활동이나 경험에 적절하게 지정됩니다.
+>&quot;지정되지 않음&quot;으로 나열된 경우 데이터는 손실되지 않으며, 분류가 실행된 후 적절한 활동이나 경험에 적절하게 지정됩니다.
 
 ## A4T를 시작한 이후 내 Analytics 데이터에 부풀려진 방문 또는 방문자 카운트가 표시됩니다. {#section_4BE374E573D44FB7918611699B74F58E}
 
