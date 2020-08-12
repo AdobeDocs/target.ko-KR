@@ -2,10 +2,11 @@
 keywords: at.js releases;at.js versions
 description: at.js의 각 버전 변경 사항에 대한 세부 사항.
 title: at.js 버전 세부 사항
+feature: null
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3978'
 ht-degree: 86%
@@ -21,7 +22,7 @@ ht-degree: 86%
 >
 >Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오.
 >
->[Adobe Experience Platform 론치는](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) at.js를 업그레이드할 때 사용하는 기본 방법입니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 카탈로그에서 업그레이드로 사용할 수 [!DNL Launch] 있습니다. 자세한 내용은 [Experience Platform Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 의 익스텐션 업그레이드 *를 참조하십시오*.
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 는 at.js로 업그레이드하는 것이 좋습니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 카탈로그에서 업그레이드로 사용할 수 [!DNL Launch] 있습니다. 자세한 내용은 [Experience Platform Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 의 익스텐션 업그레이드 *를 참조하십시오*.
 
 ## at.js 2.3.2(2020년 7월 24일)
 
@@ -61,7 +62,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 at.js의 이번 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
 
-* 페이지 요소에 Adobe Analytics 코드가 없을 때 클릭 추적이 Target(A4T)에 대한 Analytics의 전환을 보고하지 않았던 문제를 수정했습니다.
+* 페이지 요소에 Adobe Analytics 코드가 없을 때 클릭 추적이 Target(A4T)용 Analytics에서 전환을 보고하지 않았던 문제를 수정했습니다.
 * 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4와 at.js 2.2를 모두 사용할 때의 성능이 개선되었습니다.
 * 이전에는 at.js가 경험을 가져오기 전에 ECID에서 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 개선되었습니다.
 
