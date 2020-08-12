@@ -5,25 +5,19 @@ title: Adobe Target 소개
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: ffb7d592cf4878f301f168f2f635a2b9c9455ece
+source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 96%
+source-wordcount: '906'
+ht-degree: 86%
 
 ---
 
 
 # Target 소개{#introduction-to-target}
 
-Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에 대한 수익을 극대화하도록 고객의 환경을 재단하고 개인화하는 데 필요한 모든 것을 제공하는 Adobe Experience Cloud 솔루션입니다.
+[!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에 대한 수익을 극대화하도록 고객의 환경을 재단하고 개인화하는 데 필요한 모든 것을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
 [!DNL Adobe Target] 솔루션은 다음과 같은 몇 가지 조각을 포함합니다.
-
-| 구성 요소 | 설명 |
-|--- |--- |
-| Target Standard | A/B 테스트 및 규칙 기반 타깃팅 활동을 만들고 관리할 수 있도록 시각적인 인터페이스를 제공합니다. |
-| Target Premium | Target Standard 인터페이스에 프리미엄 기능을 추가합니다. |
-| Recommendations Classic  | 웹 사이트에서의 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시합니다. |
 
 ## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
@@ -35,7 +29,7 @@ Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 
 
 [!DNL Target Premium]은 [!DNL Target Standard]에 프리미엄 기능을 추가하는 고급 [!DNL Target] 라이센스입니다.
 
-이 도움말의 Target 프리미엄 항목에는 페이지 맨 위에 있는 프리미엄 배지가 포함됩니다.
+[!DNL Target Premium] 이 도움말의 항목에는 페이지 맨 위에 있는 Premium 배지가 포함됩니다.
 
 ![Premium 배지](/help/assets/premium.png)
 
@@ -84,7 +78,7 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 ### Enterprise 사용자 권한
 
-[엔터프라이즈 사용자 권한](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 기능을 사용하면 각 프로젝트에 대한 사용자의 액세스 권한을 지정하는 단일 사용자에 대해 서로 다른 권한들을 지정할 수 있도록 해주는 서로 다른 프로젝트(Enterprise용 Adobe Admin Console에서 &quot;제품 프로필&quot;이라고 함)를 만들 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 Adobe Analytics에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과 고객은 지역, 환경(개발/스테이지/프로덕션), 채널 또는 기타 사용자 지정 기준에 따라 해당 사용자에 대한 보기, 편집 및 승인 액세스 권한을 제한할 수 있게 됩니다.
+[엔터프라이즈 사용자 권한](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 기능을 사용하면 서로 다른 프로젝트(&quot;제품 프로필&quot;이라고 함)를 만들어 [!DNL Adobe Admin Console for Enterprise]각각의 프로젝트에 대한 사용자의 액세스 권한을 제어하는 단일 사용자에 대해 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과, 고객은 지역, 환경(개발/단계/제품), 채널 또는 기타 사용자 지정 기준을 기반으로 사용자에 대한 보기, 편집, 승인 및 게시 액세스 권한을 제한할 수 있습니다.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -94,11 +88,11 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 ## Experience League: Adobe Target 시작 키트 {#kit}
 
-이 시작 키트를 사용하여 Adobe Target에서 최적화 및 개인화 프로그램을 구축하십시오! 단기 속전승 및 장기 최적화 전략을 통해 첫 번째 Adobe Target 활동을 준비하고 실행하는 데 도움이 되는 주요 정보, 도구 및 리소스가 포함되어 있습니다.
+이 시작 키트를 사용하여 Adobe Target에서 최적화 및 개인화 프로그램을 구축하십시오! It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
 
 [Adobe Target 환영 키트](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## 교육 비디오: 활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
+## 교육 비디오:활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형과 어떻게 Target의 3단계 안내가 있는 워크플로우가 여러분이 사이트 목표를 달성하는 데 도움이 될 수 있는지에 대해 설명합니다.
 
