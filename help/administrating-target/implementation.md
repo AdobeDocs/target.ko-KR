@@ -2,10 +2,11 @@
 keywords: implement;implementing
 description: Adobe Target 사용을 시작하기 전에 먼저 사이트에서 구현하고, 몇 가지 기본 개념과 용어를 이해하고, Target이 어떻게 작동하고 인프라와 통합되는지를 숙지하고, Target 시스템에서 어떻게 방문자를 추적하는지 이해해야 합니다.
 title: Target 구현
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b8eb49876c3759223eb5d6979678f6c6b24963e9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 28%
