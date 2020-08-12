@@ -1,17 +1,21 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: Adobe Target Recommendations 활동에 대한 FAQ 목록
+description: Adobe Target Recommendations 활동에 대한 FAQ(FAQ) 목록
 title: Adobe Target Recommendations FAQ
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1933'
+ht-degree: 84%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 권장 사항 FAQ{#recommendations-faq}
 
-Adobe Target Recommendations 활동에 대한 FAQ 목록
+Adobe Target Recommendations 활동에 대한 FAQ(FAQ) 목록
 
 ## 내 카탈로그에 있는 항목에 대한 업데이트를 내 사이트에 반영하는 데 얼마나 걸립니까?
 
@@ -159,7 +163,7 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 제외 기능을 활성화하려면 `excludedIds` mbox 매개 변수를 사용합니다. 이 매개 변수는 쉼표로 구분된 엔티티 ID 목록을 가리킵니다. 예, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. 권장 사항 요청 시 해당 값이 전송됩니다.
 
-제외는 현재 Target 호출에 대해서만 수행됩니다.값이 다시 전달되지 않는 한 후속 Target 호출에서 항목이 제외되지 `excludedIds` 않습니다. 모든 페이지의 권장 사항에서 장바구니의 항목을 제외하려면 모든 페이지의 `excludedIds` 값을 계속 전달합니다.
+현재 Target 호출에 대해서만 제외가 수행됩니다.값이 다시 전달되지 않는 한 후속 Target 호출에서는 항목이 `excludedIds` 제외되지 않습니다. 모든 페이지의 추천에서 장바구니의 항목을 제외하려면 모든 페이지의 `excludedIds` 값을 계속 전달합니다.
 
 >[!NOTE]
 >
@@ -169,22 +173,22 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 
 기본적으로 이 기능은 새로 만든 권장 사항에 활성화되어 있습니다. 동적으로 제외된 엔티티를 지원하려면 기존 권장 사항을 저장해야 합니다.
 
-## Recommendations 컨텐츠 추적에서 때로 반환되는 NO_CONTENT 응답은 무엇입니까?
+## NO_CONTENT 응답이 때때로 Recommendations 컨텐츠 추적에서 반환되는 의미는 무엇입니까?
 
-요청된 알고리즘과 키 조합에서 권장 사항을 사용할 수 없을 때 NO_CONTENT가 반환됩니다. 일반적으로 이 문제는 알고리즘에 대해 백업이 비활성화되고 다음 중 하나 이상이 true일 때 발생합니다.
+요청된 알고리즘 및 키 조합에서 권장 사항을 사용할 수 없을 때 NO_CONTENT가 반환됩니다. 일반적으로 이 문제는 알고리즘에 대해 백업이 비활성화되고 다음 중 하나 이상이 true일 때 발생합니다.
 
 * 결과가 아직 준비되지 않았습니다.
 
-   이 문제는 일반적으로 새로 만든 활동을 처음 저장하거나 활동에 사용된 수집, 기준 또는 프로모션을 구성 변경 후에 저장할 때 발생합니다.
+   이 문제는 일반적으로 활동에 사용된 수집, 기준 또는 판촉 행사에 대해 처음 새로 만든 활동을 저장하거나 구성 변경 후에 발생할 수 있습니다.
 
-* 요청된 알고리즘/키 조합에 대해 결과가 준비되었으나 가장 가까운 Edge Server에 아직 캐시되지 않았습니다.
+* 요청된 알고리즘/키 조합에 대해 결과가 준비되었지만 가장 가까운 에지 서버에 아직 캐시되지 않았습니다.
 
-   방금 수행한 요청은 캐시 작업을 시작하므로 몇 번의 페이지 다시 로드 및/또는 몇 분 정도 경과하면 자동으로 해결됩니다.
+   방금 수행한 요청은 캐싱 작업을 시작하므로 몇 분 정도 페이지를 다시 로드하거나 몇 분 정도 경과하면 자동으로 해결됩니다.
 
-* 결과가 준비되었지만 제공된 키 값에 대해서는 사용할 수 없습니다.
+* 결과가 준비되었지만 제공된 키 값에 사용할 수 없습니다.
 
-   이 문제는 일반적으로 가장 최근 알고리즘을 실행한 후 카탈로그에 추가된 항목에 대한 권장 사항을 요청할 때 발생하며 다음 알고리즘을 실행한 후 자체적으로 해결됩니다.
+   이 문제는 일반적으로 최근 알고리즘 실행 후 카탈로그에 추가된 항목에 대한 권장 사항을 요청할 때 발생하고 다음 알고리즘 실행 후 자체적으로 해결할 것입니다.
 
-* 부분 템플릿 렌더링이 비활성화되어 있고 템플릿을 채울 수 있는 결과가 충분하지 않습니다.
+* 부분 템플릿 렌더링이 비활성화되어 템플릿을 채울 수 있는 결과가 충분하지 않습니다.
 
-   이 문제는 일반적으로 동적 포함 규칙이 있을 때 발생합니다. 동적 포함 규칙은 가능한 결과에서 많은 항목을 적극적으로 필터링합니다. 이 문제를 방지하려면 백업을 활성화하고 포함 규칙을 백업에 적용하지 마십시오. 그렇지 않으면 필터링이 덜 심한 기준을 순서대로 사용하십시오.
+   일반적으로 동적 포함 규칙이 있으면 발생 가능한 결과에서 많은 항목을 적극적으로 필터링합니다. 이 문제를 방지하려면 백업을 활성화하고 백업 포함 규칙을 적용하지 않고 필터링이 덜 까다로운 기준을 순서대로 사용하지 마십시오.
