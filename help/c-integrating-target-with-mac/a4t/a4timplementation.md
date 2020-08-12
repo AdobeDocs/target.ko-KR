@@ -2,9 +2,10 @@
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Adobe Analytics를 Target(A4T)의 보고 소스로 구현할 때 몇 가지 단계가 필요합니다.
 title: Analytics for Target 구현
+feature: null
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 62%
@@ -38,9 +39,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 필요한 appMeasurement.js 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
-새 구현에 대해서는 Analytics 구현 [안내서의 JavaScript 구현 개요를](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 참조하십시오 **.
+새 구현에 대해서는 [Analytics 구현 안내서의 JavaScript 구현 개요를](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 참조하십시오 **.
 
-마이그레이션에 대해서는 Analytics 구현 [안내서에서 JavaScript용 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 로 마이그레이션을 *참조하십시오*.
+마이그레이션에 대해서는 [Analytics 구현 안내서에서 JavaScript용 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 로 마이그레이션을 *참조하십시오*.
 
 ## 5단계: at.js 또는 mbox.js 다운로드하여 업데이트
 
@@ -97,7 +98,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-그러면 페이로드를 [데이터 삽입 API를 통해 Analytics으로 전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+그런 다음 데이터 삽입 API를 통해 페이로드를 [Analytics로 전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 글로벌 설정을 원하지 않고 더 많은 요구 방식이 필요한 경우 at.js 함수 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)를 사용하면 **analyticsLogging: &quot;client_side&quot;**&#x200B;를 전달하여 이를 수행할 수 있습니다. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
