@@ -2,10 +2,11 @@
 keywords: Overview and Reference
 description: Target과 Adobe Campaign 통합을 통해 이메일 컨텐츠를 최적화합니다.
 title: Adobe Campaign과 Target 통합
+feature: null
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: c652be30b0dfede94457f402a8b540a35096bdb4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 44%
@@ -40,7 +41,7 @@ Target은 다음과 같은 데이터를 추적할 수 있습니다.
    * The rawbox and the experience in [!DNL Target]
    >[!NOTE]
    >
-   >rawbox를 사용하고 [!DNL Target]있는 경우, Target으로 mbox 호출을 전송할 수 [있는 호스트를 지정하는 허용 목록 만들기 아래의 중요한 보안 알림을 참조하십시오](/help/administrating-target/hosts.md#allowlist).
+   >rawbox를 사용하고 [!DNL Target]있는 경우 Target에 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록 [만들기 아래의 중요 보안 알림을 참조하십시오](/help/administrating-target/hosts.md#allowlist).
 
    * 전달 [!DNL Campaign]
 
