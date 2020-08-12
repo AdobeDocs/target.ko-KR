@@ -1,10 +1,11 @@
 ---
 keywords: Recommendations
 description: Analytics를 Target(A4T)의 보고 소스로 설정할 때 데이터 수집 프로세스에 몇 가지 변경 사항이 발생합니다.
-title: Adobe Target(A4T)의 보고 소스로 Adobe Analytics를 구현하기 전에
+title: Adobe Target(A4T)의 보고 소스로 Adobe Analytics을 구현하기 전에
+feature: null
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '821'
 ht-degree: 57%
@@ -30,7 +31,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합을 사용하려면 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js 버전 1.8.0
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js 버전 1.8.0
 * [!DNL Adobe Target](구현에 따라 다름): at.js 버전 0.9.1 또는 mbox.js 버전 61
 * Adobe Analytics: appMeasurement.js 버전 1.7.0
 
@@ -38,7 +39,7 @@ A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합�
 
 A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
 
-* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js 버전 2.3.0
+* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js 버전 2.3.0
 * [!DNL Adobe Target]: at.js 버전 1.6.2
 
    **참고:** mbox.js 라이브러리는 A4T를 사용하는 리디렉션 오퍼를 지원하지 않습니다. 구현에서 at.js를 사용해야 합니다.
