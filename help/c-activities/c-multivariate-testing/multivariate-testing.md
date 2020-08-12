@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;full factorial;mvt or a/b;multivariate a/b;traffic estimator;when to use mvt;mvt considerations;multivariate;partial-factorial;partial factorial;full-factorial
 description: Adobe Target의 MVT(다변량 테스트)는 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다.
 title: 다변량 테스트
+feature: null
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1442'
+ht-degree: 91%
 
 ---
 
@@ -60,12 +64,12 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
 * 테스트할 요소가 3개 이상 있는 경우 MVT 테스트를 사용합니다. 테스트할 요소가 3개 미만이면 일련의 A/B 테스트를 실행합니다.
 * 결과에 가장 큰 영향을 줄 것으로 예상되는 페이지 요소를 선택합니다.
 * 테스트에 너무 많은 요소나 위치를 포함하지 마십시오. 요소나 위치의 개수가 너무 많으면 테스트 기간이 길어집니다.
-* 테스트 디자인을 미리 계획합니다. 테스트가 라이브되고 데이터가 수집 및 분석되기 시작한 후 테스트를 편집하는 것은 바람직하지 않습니다.
+* 테스트 디자인을 미리 계획합니다. 테스트가 실행되고 데이터가 수집 및 분석되기 시작한 후에는 테스트를 편집하는 것이 좋지 않습니다.
 * 요소는 서로 독립적인 것이 좋습니다.
 
    예를 들어 동일한 테스트에서 레이아웃과 콘텐츠를 테스트하지 마십시오.
 
-* 경험 수가 늘어나므로 QA에 소요되는 추가 시간을 계획합니다. 또한 부분 요인 테스트를 사용하여 다변수 테스트에 필요한 트래픽 양을 줄일 수 있습니다. 자세한 내용은 아래 부분 요인 테스트를 참조하십시오.
+* 경험 수가 늘어나므로 QA에 소요되는 추가 시간을 계획합니다. 다변량 테스트에 필요한 트래픽 양을 줄이기 위해 부분 요인 테스트를 사용할 수도 있습니다. 자세한 내용은 아래 부분 요인 테스트를 참조하십시오.
 
 ## 부분 요인 테스트
 
@@ -87,7 +91,7 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 활동 유형(9:03) 개요 ![배지](/help/assets/overview.png)
+### 활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
 
 이 개요 비디오에서는 Target Standard/Premium에서 사용할 수 있는 활동 유형을 설명합니다. 다변량 테스트는 4:20부터 설명합니다.
 
@@ -97,7 +101,7 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### 다변량 테스트 만들기(9:25) ![자습서 배지](/help/assets/tutorial.png)
+### 다변수 테스트 만들기(9:25) ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 이해, 계획 및 작성하는 방법을 설명합니다.
 
