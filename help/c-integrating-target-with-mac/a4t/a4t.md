@@ -2,11 +2,12 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Adobe "Analytics for Target"(A4T)은 Analytics 변환 지표와 대상 세그먼트를 기반으로 활동을 생성할 수 있도록 해주는 교차 솔루션 통합입니다. 이 통합에서는 Analytics 보고서를 사용하여 결과를 검사할 수 있습니다. 활동의 보고 소스로 Analytics를 사용하는 경우 해당 활동의 모든 보고 및 세그멘테이션은 Analytics 데이터 수집을 기반으로 합니다.
 title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
+feature: null
 subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1257'
 ht-degree: 46%
@@ -53,7 +54,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 * Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source.
 * A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics].
 
-   경우에 따라 분류 호출 [!DNL Target] 이 [!DNL Analytics] 실패할 수 있으며 활동은 데이터를 표시하지 않습니다 [!DNL Analytics]. 이러한 경우 Analytics [및 Target 통합 문제 해결(A4T)을 참조하십시오](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). 클라이언트 [지원 팀에](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 문의할 수도 있습니다.
+   경우에 따라 분류 호출 [!DNL Target] 이 [!DNL Analytics] 실패할 수 있으며 활동은 데이터를 표시하지 않습니다 [!DNL Analytics]. 이러한 경우 Analytics 및 [Target 통합 문제 해결(A4T)을 참조하십시오](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). 클라이언트 [지원 팀에](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) 문의할 수도 있습니다.
 
 ## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -62,7 +63,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | 활동 유형 | A4T와 호환 가능 | 해당하는 경우 메모 |
 |--- |--- |--- |
 | 수동 트래픽 분할을 사용하는 A/B 활동 | 예 |  |
-| 자동 할당을 사용하는 A/B 활동 | 예 | 자동 할당 활동에 대한 Target(A4T) 지원을 위한 [Analytics을 참조하십시오](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
+| 자동 할당을 사용하는 A/B 활동 | 예 | 자동 [할당 활동에 대한 Target(A4T) 지원을 참조하십시오](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
 | 자동 타겟을 사용하는 A/B 활동 | 아니오 |  |
 | 경험 타깃팅(XT) | 예 |  |
 | 다변량 테스트(MVT) | 예 | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
@@ -111,7 +112,7 @@ Open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.ado
 
 다음 비디오에는 이 주제에서 설명한 개념에 대한 자세한 내용이 포함되어 있습니다.
 
-### Target(A4T)(4:32) ![개요 배지](/help/assets/overview.png)
+### Target용 분석(A4T)(4:32) ![개요 배지](/help/assets/overview.png)
 
 This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 
@@ -130,4 +131,4 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 * Analytics에서 사용할 이상적인 보고서에 대해 알아보기
 * A4T와 관련된 일반적인 질문에 대한 답변
 
-[Analytics/Target 통합(A4T) 업무 시간](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[분석/Target 통합(A4T) 업무 시간](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
