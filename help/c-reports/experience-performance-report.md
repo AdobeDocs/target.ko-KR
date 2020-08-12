@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;experience performance report
 description: 경험 성과 보고서는 활동에서 각 경험의 성과를 보여줍니다. 이 보고서에는 참여자 수, 전환율, 상승도, 신뢰도에 대한 정보가 포함됩니다.
 title: 경험 성과 보고서(MVT)
+feature: null
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +37,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 그래프 아래의 표는 각 경험을 본 참여자의 수와 성공 지표와 관련된 기타 정보를 보여줍니다.
 
-## 교육 비디오: MVT 테스트 만들기 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: MVT 테스트 만들기 ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 작성하는 방법을 보여줍니다. 경험 성과 보고서는 8:20부터 설명됩니다.
 
