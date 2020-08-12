@@ -1,11 +1,15 @@
 ---
-keywords: 모바일 앱;모바일 앱 위치;target 모바일 앱;모바일 target 위치;모바일 앱 성공 지표
+keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
 description: 모바일 앱에서 Target을 사용하려면 위치 및 성공 지표를 만드십시오.
 title: iOS - Target 위치 및 성공 지표 만들기
+feature: null
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 92%
 
 ---
 
@@ -41,7 +45,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    | `ADBTargetLocationRequest *myRequest` | `myRequest`를 앱의 `targetLocation` 이름으로 바꿉니다. |
    | `targetCreateRequestWithName:@"heroBanner"` | `heroBanner`를 Target의 `targetLocation` 이름으로 바꿉니다. 이것은 mbox 이름과 동일합니다. 이 히어로 배너는 Target 인터페이스에 나타납니다. |
    | `defaultContent:@"default.png"` | `default.png`을 Target이 응답하지 않는 경우 앱이 사용하는 값으로 바꿉니다. |
-   | `parameters:nil` | 프로필 또는 mbox 매개 변수를 지정합니다. '사용자 지정 데이터 전달' 섹션에서 자세한 내용을 참조하십시오. |
+   | `parameters:nil` | 프로필 또는 mbox 매개 변수를 지정합니다. &#39;사용자 지정 데이터 전달&#39; 섹션에서 자세한 내용을 참조하십시오. |
 
    다음은 요청을 로드하기 위한 샘플 호출입니다.
 
