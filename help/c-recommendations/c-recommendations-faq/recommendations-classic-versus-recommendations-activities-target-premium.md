@@ -1,10 +1,14 @@
 ---
-keywords: 권장 사항;권장 사항 알고리즘;권장 사항 활동;recommendations classic
+keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
 description: 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
 title: 권장 사항 Classic과 Target Premium의 권장 사항 활동 비교
+feature: null
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 100%
 
 ---
 
