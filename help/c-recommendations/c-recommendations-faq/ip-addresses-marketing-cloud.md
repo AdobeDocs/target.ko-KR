@@ -2,9 +2,10 @@
 keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
 description: 오레곤 데이터 센터에 있는 권장 사항 피드 처리 서버에서 사용하는 IP 주소 목록으로서, Adobe 서버에서 시작되는 IP 주소를 허용하도록 방화벽을 구성하는 데 도움이 됩니다.
 title: 권장 사항 피드 처리 서버에서 사용하는 IP 주소
+feature: null
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '166'
 ht-degree: 87%
