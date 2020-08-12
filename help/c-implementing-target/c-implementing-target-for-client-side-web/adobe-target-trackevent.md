@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.이벤트 추적;이벤트 추적;이벤트 추적;이벤트 추적;at.js;함수;함수;기본값 방지;기본 방지;기본 방지
+keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
 description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.trackEvent(options) 함수 정보입니다.
 title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.trackEvent(options) 함수 정보입니다.
-subtopic: 시작하기
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '248'
+ht-degree: 100%
 
 ---
 
@@ -23,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | mbox | 문자열 | 예 | Mbox 이름 |
 | selector | 문자열 | 아니오 | HTML 요소를 찾는 데 사용되는 CSS 선택기입니다. 이벤트 리스너는 발견된 요소에 첨부됩니다. |
 | 유형 | 문자열 | 아니오 | 등록된 이벤트 유형을 나타냅니다. HTML 알려진 이벤트(예: click, mousedown 등)일 수도 있고 사용자 지정 HTML 이벤트일 수도 있습니다. |
-| preventDefault | 부울 | 아니오 | 이벤트 리스너 콜백에서 `event.preventDefault()`를 사용할지 여부를 나타냅니다. 기본값은 false입니다.<br>**참고**: `form[submit] and `a[click]`만 지원됩니다. 복잡성 및 지원할 시나리오 양이 많기 때문에 기타 시나리오는 지원되지 않습니다. |
+| preventDefault | 부울 | 아니오 | 이벤트 리스너 콜백에서 `event.preventDefault()`를 사용할지 여부를 나타냅니다. 기본값은 false입니다.<br>**참고&#x200B;**:`form[submit] and `a[click]`만 지원됩니다. 복잡성 및 지원할 시나리오 양이 많기 때문에 기타 시나리오는 지원되지 않습니다. |
 | params | 개체 | 아니오 | Mbox 매개 변수입니다. 다음 구조를 가진 키 - 값 쌍의 개체입니다.<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | 숫자 | 아니오 | 시간 초과(밀리 초)입니다. <br>지정하지 않으면 기본값이 사용됩니다.<br>`...timeoutInSeconds: 0.15...}` |
 | 성공 | 함수 | 아니오 | 이벤트가 보고되었음을 신호로 알리는 데 사용되는 콜백 함수입니다. |
