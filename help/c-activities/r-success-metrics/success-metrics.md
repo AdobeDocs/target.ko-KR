@@ -2,9 +2,10 @@
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics;advanced settings
 description: Adobe Target에서 성공 지표는 활동의 성공을 측정하는 데 사용되는 매개 변수입니다. 성공 지표에는 타겟 활동에 주어진 경험 또는 오퍼의 성공을 결정할 수 있는 주요 비즈니스 정책이 포함되어 있습니다.
 title: Adobe Target의 성공 지표
+feature: null
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 4fd2de5600060d58759ffa54a771a45b263f115b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1070'
 ht-degree: 53%
@@ -28,7 +29,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->보고 소스 [(A4T)로](/help/c-integrating-target-with-mac/a4t/a4t.md) Analytics을 사용하는 활동에 대한 기본 동작은 &quot;[!UICONTROL 참가자당 한 번&quot;을 사용하는 &quot;사용자 활동]유지&quot;[!UICONTROL 입니다].
+>보고 소스 [(A4T)로](/help/c-integrating-target-with-mac/a4t/a4t.md) Analytics를 사용하는 활동에 대한 기본 동작은 &quot;[!UICONTROL 참가자당]1회&quot;와 함께 &quot;사용자 활동[!UICONTROL 유지&quot;입니다].
 
 다음과 같은 성공 지표를 사용할 수 있습니다.
 
@@ -40,7 +41,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 | 사용자 지정 점수 지정 | 참여 기반 | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 | 사이트에서 보낸 시간 | 참여 기반 | Time spent in the visit (in seconds) from the point the visitor sees the activity&#39;s first display [!DNL Target] request to the load of the final page with a request in the session. |
 
-참여 기반 지표는 전환 기반 및 수입 기반 지표와 달리, 방문자가 해당 세션에 대한 수를 늘리기 위해 각 방문 활동의 대상 사용자여야 합니다. 연관된 지표는 적격 재확인 이후 증가하기 시작하고, 각 방문자의 세션 종료 시 중지됩니다. 세션은 활동이 없는 경우 30분 후에 종료됩니다. 따라서 테스트 도중 결과가 바로 표시되지 않습니다. 그러나 세션 종료 후 몇 분 이내에 해당 세션의 모든 결과를 사용할 수 있습니다.
+참여 기반 지표는 전환 기반 및 수입 기반 지표와 달리, 방문자가 해당 세션에 대한 수를 늘리기 위해 각 방문 활동의 대상 사용자여야 합니다. 연관된 지표는 적격 재확인 이후 증가하기 시작하고, 각 방문자의 세션 종료 시 중지됩니다. 세션은 활동이 없는 경우 30분 후에 종료됩니다. 따라서 테스트 도중 결과가 바로 표시되지 않습니다.그러나 세션 종료 후 몇 분 이내에 해당 세션의 모든 결과를 사용할 수 있습니다.
 
 ## 사용자 지정 성공 지표
 
