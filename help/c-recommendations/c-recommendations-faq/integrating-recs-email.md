@@ -2,10 +2,11 @@
 keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
 description: 이메일을 권장 사항과 통합하는 방법에 대한 정보입니다.
 title: 이메일에 권장 사항 통합
+feature: null
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 91%
@@ -66,7 +67,7 @@ rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 제공업체)�
 
 >[!NOTE]
 >
->rawbox를 사용하고 [!DNL Target]있는 경우, Target으로 mbox 호출을 전송할 수 [있는 호스트를 지정하는 허용 목록 만들기 아래의 중요한 보안 알림을 참조하십시오](/help/administrating-target/hosts.md#allowlist).
+>rawbox를 사용하고 [!DNL Target]있는 경우 Target에 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록 [만들기 아래의 중요 보안 알림을 참조하십시오](/help/administrating-target/hosts.md#allowlist).
 
 이 접근 방법을 사용하면 이메일에 포함된 권장 사항의 성과를 추적하고 권장 사항을 사용하여 일반적인 방법으로 테스트하고 사이트에 대한 추적을 계속할 수 있습니다.
 
@@ -111,7 +112,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(특정 유형의 기준, 즉 보기/보기, 보기/구매, 구매/구매에 필요) | *entity_id* | 권장 사항의 기준이 되는 productId(예: 장바구니에서 구매하지 않은 제품 또는 이전 구매)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.id`를 포함해야 합니다. |  |
 | `entity.event.detailsOnly` | true | `entity.id`가 전달된 경우 이 매개 변수도 함께 전달하여 제품 보기 기반 알고리즘을 왜곡하지 않도록, 요청에 따라 항목에 대한 누적된 페이지 보기 수를 증분 되지 않게 하는 것이 좋습니다. |  |
 | `entity.categoryId`<br>(특정 기준 유형, 즉 카테고리별로 가장 많이 본 항목 및 카테고리별 상위 판매자에 필요) | *category_id* | 권장 사항의 기준이 되는 카테고리(예: 카테고리의 최상위 판매자)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.categoryId`를 포함해야 합니다. |  |
-| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` 매개 변수가 없으면 `mboxDefault` 매개 변수는 권장 사항을 사용할 수 없을 때 기본 컨텐츠를 반환하는 절대 URL이어야 합니다. 이 매개 변수는 이미지 또는 기타 정적 컨텐츠일 수 있습니다.<br>`mboxNoRedirect` 매개 변수가 있으면 `mboxDefault`는 권장 사항이 없음을 나타내는 텍스트(예: `no_content`)일 수 있습니다.<br>이메일 제공업체는 이 값이 반환되는 경우를 처리하고 기본 HTML을 이메일에 삽입해야 합니다. <br> **보안 모범 사례**: URL에 사용된 도메인이 `mboxDefault` 나열되지 않은 경우 [리디렉션 열기 취약점]에 노출될 수 있습니다. 리디렉터 링크 또는 제3자에 의한 무단 사용을 방지하기 위해 &quot; `mboxDefault` 승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 나열할 것을 권장합니다. Target은 호스트를 사용하여 리디렉션을 허용할 도메인 목록을 허용합니다. 자세한 내용은 [주최자의 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#allowlist) 만들기를 *참조하십시오*. |  |
+| `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` 매개 변수가 없으면 `mboxDefault` 매개 변수는 권장 사항을 사용할 수 없을 때 기본 컨텐츠를 반환하는 절대 URL이어야 합니다. 이 매개 변수는 이미지 또는 기타 정적 컨텐츠일 수 있습니다.<br>`mboxNoRedirect` 매개 변수가 있으면 `mboxDefault`는 권장 사항이 없음을 나타내는 텍스트(예: `no_content`)일 수 있습니다.<br>이메일 제공업체는 이 값이 반환되는 경우를 처리하고 기본 HTML을 이메일에 삽입해야 합니다. <br> **보안 모범 사례**:URL에 사용된 도메인이 허용 목록에추가된 없는 경우 리디렉션 열기 취약점에 노출될 수 있습니다. `mboxDefault` 리디렉터 링크 또는 제3자에 의한 권한 없는 사용을 방지하려면 &quot; `mboxDefault` 권한 있는 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target은 리디렉션을 허용할 도메인을에 허용 목록에 추가하다 사용합니다. 자세한 내용은 호스트 [에서 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#allowlist) 만들기를 *참조하십시오*. |  |
 | `mboxHost` | *mbox_host* | 호출이 실행될 때 기본 환경(호스트 그룹)에 추가되는 도메인입니다. |  |
 | `mboxPC` | Empty | (방문자 프로필을 사용하는 권장 사항에 필수입니다.)<br>&quot;thirdPartyId&quot;가 제공되지 않으면 새 tntId가 생성되고 응답의 일부로 반환됩니다. 그렇지 않으면 비어 있는 상태로 유지됩니다.<br>**참고&#x200B;**: 각 이메일 수신자에게(즉, 각 API 호출에 대해)`mboxSession`및`mboxPC`의 고유한 값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면 단일 프로필 내에서 생성된 수많은 이벤트로 인해 API 응답이 느려지거나 실패할 수 있습니다. | 1 &lt; 길이 &lt; 128<br>둘 이상의 &quot;.&quot; (점)을 포함할 수 없습니다.<br>점은 프로필 위치 접미사에만 사용할 수 있습니다. |
 
