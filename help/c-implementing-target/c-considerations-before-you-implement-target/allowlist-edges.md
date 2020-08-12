@@ -1,11 +1,12 @@
 ---
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
-description: Adobe Target 에지 노드 허용
-title: Adobe Target 에지 노드 허용
+description: 허용 목록에 추가하다 Adobe Target 가장자리 노드
+title: 허용 목록에 추가하다 Adobe Target 가장자리 노드
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +14,13 @@ ht-degree: 0%
 ---
 
 
-# Allowlist 대상 에지 노드
+# Target 에지 노드 허용 목록에 추가하다
 
-Adobe [!DNL Target] 가장자리를 나열하는 데 도움이 되는 최신 호스트 목록 및 정보.
+Adobe [!DNL Target] 가장자리를 표시하는 데 도움이 되는 최신 호스트 허용 목록에 추가하다 목록과 정보입니다.
 
-에지(Edge)는 컨텐츠를 요청하는 최종 사용자가 전세계 위치에 관계없이 최적의 응답 시간을 보장하는 지리적으로 분산된 서비스 아키텍처입니다. 각 에지 노드에는 사용자의 컨텐츠 요청에 응답하고 해당 요청에 대한 분석 데이터를 추적하는 데 필요한 모든 정보가 있습니다. 사용자 요청은 가장 가까운 에지 노드로 전달됩니다. 자세한 내용은 Adobe 작업 [의](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) 에지 네트워크 *를[!DNL Target]참조하십시오*.
+에지(Edge)는 컨텐츠를 요청하는 최종 사용자가 전세계 위치에 관계없이 최적의 응답 시간을 보장하는 지리적으로 분산된 서비스 아키텍처입니다. 각 에지 노드에는 사용자의 컨텐츠 요청에 응답하고 해당 요청에 대한 분석 데이터를 추적하는 데 필요한 모든 정보가 있습니다. 사용자 요청은 가장 가까운 에지 노드로 전달됩니다. 자세한 내용은 Adobe 작동 [방법](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) 의 Edge 네트워크 *를[!DNL Target]참조하십시오*.
 
-원하는 경우 [!DNL Target] 모서리 노드를 선택할 수 있습니다.
+원하는 경우 [!DNL Target] 모서리 노드를할 수 허용 목록에 추가하다 있습니다.
 
 다음 목록에는 현재 호스트가 포함됩니다.
 
