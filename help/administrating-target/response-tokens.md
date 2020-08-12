@@ -2,11 +2,12 @@
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: '응답 토큰을 사용하면 디버깅하거나 타사 시스템(예: Clicktale)과 통합하는 데 사용할 Target 관련 정보(활동 세부 정보, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
 title: Adobe Target의 응답 토큰
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -58,7 +59,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 방문자의 상위 5개 카테고리의 배열을 문자열로 반환합니다. |
    | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 현재 활동의 세부 사항입니다. &quot;option&quot;은 &quot;offer&quot;와 같습니다. |
    | 지역 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 활동에서 지역 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [지역](/help/c-target/c-audiences/c-target-rules/geo.md)을 참조하십시오. |
-   | 트래픽 할당 방법<br>(자동 Target [!UICONTROL 및] 자동화된 개인화 [!UICONTROL 활동에만] 적용됩니다.) | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고 방문자가 &quot;타깃팅된&quot; 트래픽 배포로부터 경험을 받은 경우 1을 반환합니다. |
+   | 트래픽 할당 방법<br>(자동 Target [!UICONTROL 및] Automated Personalization [!UICONTROL 활동에만] 적용됩니다.) | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고 방문자가 &quot;타깃팅된&quot; 트래픽 배포로부터 경험을 받은 경우 1을 반환합니다. |
    |  | `experience.trafficAllocationType` | &quot;control&quot; 또는 &quot;targeted&quot;를 반환합니다. |
 
    사용자 프로필 속성 및 고객 속성도 목록에 표시됩니다.
@@ -290,6 +291,6 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 
 >[!NOTE]
 >
->관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다. 그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
