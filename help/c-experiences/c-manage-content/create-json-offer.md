@@ -1,11 +1,15 @@
 ---
-keywords: 원격 오퍼;원격 오퍼 만들기
+keywords: remote offer;create remote offer
 description: 양식 기반 경험 작성기에서 사용할 오퍼 라이브러리에 JSON을 만드십시오.
 title: JSON 오퍼 만들기
+feature: null
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -21,21 +25,21 @@ JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시
 * JSON 오퍼는 현재 AB 및 XT 활동에만 사용할 수 있습니다.
 * JSON 오퍼는 양식 기반 활동에서만 사용할 수 있습니다.
 * JSON 오퍼는 서버측 API, Mobile SDK 또는 NodeJS SDK를 사용할 때 바로 검색할 수 있습니다.
-* 브라우저에서 JSON 오퍼는 at.js 1.2.3(또는 이상)을 통해서"만",  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)를 사용(`setJson` 작업을 사용하여 작업을 필터링함으로써)하여 검색할 수 있습니다.
+* 브라우저에서 JSON 오퍼는 at.js 1.2.3(또는 이상)을 통해서&quot;만&quot;,  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)를 사용(`setJson` 작업을 사용하여 작업을 필터링함으로써)하여 검색할 수 있습니다.
 * JSON 오퍼는 문자열이 아닌 기본 JSON 개체로 제공됩니다. 이러한 개체의 소비자는 개체를 문자열로 처리하고 JSON 개체로 변환하도록 더 이상 요구받지 않습니다.
 * JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 코드를 작성해야 [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
 * mbox.js를 사용하는 경우 JSON 오퍼가 지원되지 않습니다.
 
 ## JSON 오퍼 만들기 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. **[!UICONTROL 오퍼]**&#x200B;를 클릭한 다음, **코드 오퍼[!UICONTROL 탭을 선택합니다.]**
-1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL JSON 오퍼]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 오퍼]**&#x200B;를 클릭한 다음, **[!UICONTROL 코드 오퍼]** 탭을 선택합니다.
+1. **[!UICONTROL 만들기]** > **[!UICONTROL JSON 오퍼]**&#x200B;를 클릭합니다.
 
    ![](assets/offer-json.png)
 
 1. 오퍼 이름을 입력합니다.
-1. **[!UICONTROL 코드]상자에 JSON 코드를 입력하거나 붙여 넣습니다.**
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 코드]** 상자에 JSON 코드를 입력하거나 붙여 넣습니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 예 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -111,7 +115,7 @@ JSON 오퍼를 추출하려면 작업을 반복하고 `setJson` 작업을 통해
   
 ```
 
-다음 코드는 "인사말" 속성에 액세스하는 방법을 보여줍니다.
+다음 코드는 &quot;인사말&quot; 속성에 액세스하는 방법을 보여줍니다.
 
 ```
 adobe.target.getOffer({   
@@ -128,7 +132,7 @@ adobe.target.getOffer({
 
 ## JSON 오퍼 유형별 오퍼 필터링 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-**[!UICONTROL 유형]** 드롭다운 목록을 클릭한 다음, **JSON[!UICONTROL 확인란을 선택하여 오퍼 라이브러리를 JSON 오퍼 유형별로 필터링할 수 있습니다.]**
+**[!UICONTROL 유형]** 드롭다운 목록을 클릭한 다음, **[!UICONTROL JSON 확인란을 선택하여 오퍼 라이브러리를 JSON 오퍼 유형별로 필터링할 수 있습니다.]**
 
 ![](assets/offer-json-filter.png)
 
