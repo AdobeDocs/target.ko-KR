@@ -2,9 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: 두 개의 전문 보고서는 AP(자동화된 개인화)와 AT(자동 타겟) 활동인 자동화된 세그먼트와 중요 속성 보고서의 사용자가 사용할 수 있습니다.
 title: 개인화 통찰력 보고서
+feature: null
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 64%
@@ -52,7 +53,7 @@ Because the goal of the [!UICONTROL Personalization Insights] reports is to unde
 
 AP 또는 자동 Target 모델에 사용되는 [!UICONTROL 개인화 인사이트] 보고서에는 두 가지 유형의 속성이 표시됩니다.
 
-* **Target에 의해 자동으로 수집된 속성:** [!DNL Target] 기본 데이터 세트를 사용하여 개인화 인사이트에 반영된 AP 및 AT 활동에 개인화 알고리즘을 작성합니다. 데이터 유형, 예제 속성 및 [!UICONTROL 개인화 통찰력] 이름 지정 규칙에 대해서는 [Target의 개인화 알고리즘에 대한 데이터 수집](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)을 참조하십시오. 이러한 속성을 고려하지만 개별 활동 모델은 최종 모델에서 이러한 속성을 모두 사용하지 않을 수 있습니다.
+* **Target에 의해 자동으로 수집된 속성:**[!DNL Target] 기본 데이터 세트를 사용하여 개인화 인사이트에 반영된 AP 및 AT 활동에 개인화 알고리즘을 작성합니다. 데이터 유형, 예제 속성 및 [!UICONTROL 개인화 통찰력] 이름 지정 규칙에 대해서는 [Target의 개인화 알고리즘에 대한 데이터 수집](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)을 참조하십시오. 이러한 속성을 고려하지만 개별 활동 모델은 최종 모델에서 이러한 속성을 모두 사용하지 않을 수 있습니다.
 * **Target에 전달된 속성:** [Target의 개인화 알고리즘을 위한 데이터 업로드](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)를 참조하십시오.
 
 [!DNL Target] AP 및 AT 활동에서 개인화 알고리즘을 구축하는 데 사용되는 기본 데이터 세트를 [!DNL Target] 보완하기 위해 추가 데이터를 전달하는 다양한 방법을 제공합니다.
@@ -74,5 +75,5 @@ AP 또는 자동 Target 모델에 사용되는 [!UICONTROL 개인화 인사이�
 ## Adobe 블로그
 
 * 1부: [AI 기반의 개인화의 마법](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* 2부: [Adobe Target에서 개인화를 위한 AI의 장막](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* 2부: [Adobe Target 개인화를 위한 AI 활용 사례](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
 * 3부: [MAGIX — AI 기반의 개인화 블랙박스 문제 해결](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
