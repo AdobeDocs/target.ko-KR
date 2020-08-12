@@ -1,12 +1,16 @@
 ---
-keywords: 글로벌 mbox 매개 변수;targetPageParams;쿼리 문자열;배열;json;dtm;다이내믹 태그 관리
+keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: 글로벌 mbox에 매개 변수를 전달하는 데에는 JavaScript targetPageParams 함수가 사용됩니다. 이 함수는 추가적인 타깃팅/컨텍스트 정보가 Target으로 전달되는 모든 상황에서 필요합니다.
 title: 글로벌 mbox에 매개 변수 전달
-subtopic: 시작하기
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 97%
 
 ---
 
@@ -40,7 +44,7 @@ p1=v1&p2=v2&p3=hello%20world
 ```
 
 * 이름: `targetPageParams`
-* 반환 값: URL로 인코딩된 매개 변수 값을 사용하고 "&amp;"로 구분된 매개 변수 값.
+* 반환 값: URL로 인코딩된 매개 변수 값을 사용하고 &quot;&amp;&quot;로 구분된 매개 변수 값.
 
    예:
 
@@ -106,7 +110,7 @@ JSON은 매개 변수를 전달하는 강력한 방법입니다. Target에서는
 }; 
 ```
 
-값은 URL로 인코딩할 필요가 없습니다. 예를 들어 "San Francisco"를 사용할 때 공백을 인코딩할 필요가 없습니다. 공백으로 충분합니다.
+값은 URL로 인코딩할 필요가 없습니다. 예를 들어 &quot;San Francisco&quot;를 사용할 때 공백을 인코딩할 필요가 없습니다. 공백으로 충분합니다.
 
 이 예는 mbox 가장자리에 다음 데이터를 보냅니다.
 
