@@ -2,9 +2,13 @@
 keywords: visitor profile;target visitor profile
 description: Adobe Target에서특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
 title: 방문자 프로필
+feature: null
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '217'
+ht-degree: 97%
 
 ---
 
@@ -30,6 +34,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
    * 세션의 첫 페이지
    * 세션의 첫 페이지 아님
    * 카테고리 친화성
+
    방문자 프로필은 새로운 `mboxPC`가 있는 각 mbox 호출의 로컬 엣지 메모리에 생성됩니다. 30분 동안 비활성화되면 프로필이 Target 데이터베이스에 저장되고 다른 엣지에서 액세스할 수 있습니다.
 
    사이트 방문자가 세션 중간에 로그인하고 `3rdpartyId`를 얻으면`3rdPartyId`에 연결된 이전에 로드된 모든 프로필 속성을 즉시 사용할 수 있게 됩니다.
@@ -39,7 +44,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 1. (선택 사항) **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 대상에 대한 추가 규칙을 설정합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 교육 비디오:대상 개요 ![배지 만들기](/help/assets/overview.png)
+## 교육 비디오:대상 ![개요 배지 만들기](/help/assets/overview.png)
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 
