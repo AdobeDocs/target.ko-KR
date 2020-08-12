@@ -1,10 +1,14 @@
 ---
-keywords: 타겟 지정
+keywords: Targeting
 description: 활동 개요 페이지의 충돌 탭에는 사이트에 있는 활동 충돌들이 표시됩니다.
 title: 활동 충돌
+feature: null
 uuid: 0e53ef60-2f71-4b34-9383-1de5cf5d3ab5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
