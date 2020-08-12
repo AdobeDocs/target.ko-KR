@@ -1,11 +1,15 @@
 ---
-keywords: 시스템 업데이트;문제 해결;유지 관리;시스템 상태;상태 업데이트
+keywords: system update;troubleshooting;maintenance;system status;update status
 description: Adobe 시스템 상태 페이지에서 Target을 포함한 Adobe 제품 및 Experience Cloud 솔루션의 상태를 볼 수 있습니다. 이 페이지는 발생할 수 있는 문제가 시스템 업데이트 또는 일상적인 유지 관리로 인한 문제인지를 확인하는 데 도움이 됩니다.
 title: 시스템 상태 업데이트
+feature: null
 topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 98%
 
 ---
 
