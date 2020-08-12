@@ -1,11 +1,15 @@
 ---
-keywords: Target;at.js;at.js로 마이그레이션;준비 상태;at.js 감사;at.js 통합
+keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: mbox.js에서 at.js로 마이그레이션하는 것은 간단한 프로세스입니다.
 title: mbox.js에서 at.js로 마이그레이션하는 방법
+feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '828'
+ht-degree: 98%
 
 ---
 
@@ -42,6 +46,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    * mboxCookieDomain()
    * 추가 JavaScript
    * 기타 위치
+
    대부분의 [mbox.js 개체 및 메서드](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)(예: `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` 등)는 지원되지 않습니다. 다른 방법으로 원하는 작업을 수행할 수도 있습니다.
 
    **웹 페이지에[!DNL mbox.js]가 있습니까?**
@@ -58,6 +63,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    * AAM(레거시 프런트엔드)
    * AEM
    * Data Workbench
+
    레거시 통합 중 일부는 [!DNL at.js]에서 지원되지 않습니다. 자세한 내용은 [통합](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 페이지를 참조하십시오.
 
    **[!DNL Target]을 타사 도구와 통합하려고 합니까?**
@@ -67,6 +73,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    * Demandbase
    * Click-tale
    * 기타
+
    [!DNL at.js]를 사용하도록 이러한 통합을 조정해야 할 수 있습니다. 자세한 내용은 [통합](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 페이지를 참조하십시오.
 
    **태그 관리자를 사용합니까?**
@@ -75,6 +82,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    * Ensighten
    * Tealium
    * Signal/BrightTag
+
    자세한 내용은 [at.js 통합](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)을 참조하십시오.
 
    >[!NOTE]
@@ -104,7 +112,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
 
    [!DNL mbox.js]가 페이지 맨 위에 추가 `<div>` 요소를 추가했다는 가정하에 빌드되었습니다. [!DNL at.js]는 페이지 맨 위에 `<div>` 요소를 추가하지 않으므로 이 선택기는 더 이상 [!DNL at.js]에서 작동하지 않습니다.
 
-   이 문제는 [!DNL at.js]를 사용하여 URL의 VEC에서 활동을 다시 만들거나 VEC에서 **[!UICONTROL &lt;/&gt; 코드]** &gt; **[!UICONTROL 수정]** 선택 사항을 사용하여 선택기를 수동으로 업데이트하여 해결할 수 있습니다.
+   이 문제는 [!DNL at.js]를 사용하여 URL의 VEC에서 활동을 다시 만들거나 VEC에서 **[!UICONTROL &lt;/> 코드]** > **[!UICONTROL 수정]** 옵션을 사용하여 선택기를 수동으로 업데이트하여 해결할 수 있습니다.
 
    이 문제를 해결하려면 BODY 다음에 나오는 첫 번째 DIV 요소의 n번째 유형 번호에서 1을 뺍니다. 위의 예제에서 편집된 코드는 다음과 같습니다.
 
