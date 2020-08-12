@@ -2,10 +2,14 @@
 keywords: order confirmation;orderConfirmPage
 description: 주문 확인 mbox는 사이트의 주문에 대한 세부 사항을 기록하고 매출 및 주문을 기준으로 보고할 수 있도록 합니다. 또한 주문 확인 mbox는 "제품 x를 구입한 사람이 제품 y도 구입함"과 같은 권장 사항 알고리즘을 유도할 수도 있습니다.
 title: 주문 확인 mbox 만들기 - mbox.js
+feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '306'
+ht-degree: 85%
 
 ---
 
@@ -19,10 +23,10 @@ source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
 >* 사용자가 웹 사이트에서 구매를 수행하는 경우, 보고 작업을 위해 A4T(Analytics for Target)를 사용하더라도 주문 확인 mbox를 구현하는 것이 좋습니다.
    >
    >
-* at.js 1에 대한 주문 확인 mbox를 만들 수도 있습니다.*x* , 동일한 방법을 사용하는 경우하지만 [!DNL at.js] 방법이 더 좋습니다. 자세한 내용은 [전환 추적](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)을 참조하십시오.
+* at.js 1에 대한 주문 확인 mbox를 만들 수도 있습니다.*x* ;하지만 [!DNL at.js] 기본 방법입니다. 자세한 내용은 [전환 추적](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)을 참조하십시오.
    >
    >
-* at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` 더 이상 지원되지 않습니다. at.js 2를 사용하여 주문 확인을 위해.*x*, 다음 추적 관련 API를 사용하십시오. [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 및 [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+* at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` 더 이상 지원되지 않습니다. at.js 2를 사용한 주문 확인을 위해.*x*, 다음의 추적 관련 API를 사용하십시오. [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 및 [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 
 1. 주문 상세 정보 페이지에서 아래의 모델에 따라 mbox 스크립트를 삽입합니다.
