@@ -2,10 +2,11 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: 다변량 테스트의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 title: 지표 설정
+feature: null
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 99%
@@ -29,6 +30,7 @@ ht-degree: 99%
    * 변환
    * 수입
    * 참여
+
    사전 빌드된 지표 중 하나를 사용하거나 사용자 지정 성공 지표를 만들 수 있습니다. 성공 지표를 기본 지표로 표시할 수도 있습니다. 기본 측정 항목(설정된 경우)을 표시하려면 Experience Cloud 카드 기본값을 보고합니다.
 1. 지표에 대한 설정을 지정합니다.
 
