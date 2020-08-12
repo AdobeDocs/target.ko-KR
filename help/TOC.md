@@ -6,9 +6,9 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
+source-git-commit: 8102b0322466e8cfb0a158b1ccb3f74e25d54cc1
 workflow-type: tm+mt
-source-wordcount: '1429'
+source-wordcount: '1433'
 ht-degree: 91%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 91%
    + [ Target 소개](c-intro/intro.md)
    + [Adobe Experience Cloud에서 Target에 액세스](c-intro/target-access-from-mac.md)
    + [Target 주요 개념](c-intro/target-key-concepts.md)
+   + [Target UI 이해](/help/c-intro/understand-the-target-ui.md)
    + [용어 설명](c-intro/glossary.md)
    + [Adobe Target 작동 방식](c-intro/how-target-works.md)
    + [교육 및 인증](c-intro/training-and-certification.md)
