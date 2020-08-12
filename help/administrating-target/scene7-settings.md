@@ -1,11 +1,12 @@
 ---
 description: Target Standard는 콘텐츠 라이브러리에서 DAM(디지털 자산 관리)을 제공하기 위해 Adobe Dynamic Media Classic(이전 Scene7)과 통합될 수 있습니다.
 title: Dynamic Media Classic 통합 구성 통합
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 25%
