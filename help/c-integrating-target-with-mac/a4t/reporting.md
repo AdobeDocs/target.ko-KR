@@ -2,11 +2,12 @@
 keywords: analytics for target;a4t;analytics as the reporting source
 description: Analytics를 Target(A4T)의 보고 소스로 사용하면 Target 활동에 대한 Analytics 보고서에 액세스할 수 있습니다.
 title: A4T 보고
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 59c26a766018affe5ef7b5fa4ea5a421ab3cc37d
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '669'
 ht-degree: 35%
@@ -43,7 +44,7 @@ A4T 통합 [!DNL Analytics]이 활성화된 후 사용할 수 있는 차원 및 
 * [!UICONTROL Target] 분석 - 통합을 통해 전달된 상위 ID입니다. 이 차원의 형식은 입니다 `Activity ID:Experience ID:3rd ID`. 아래 차원은 이 차원의 분류입니다.
 * [!UICONTROL 타겟 활동]
 * [!UICONTROL 타겟 경험]
-* [!UICONTROL 타겟 활동] > [!UICONTROL 경험]
+* [!UICONTROL Target 활동] > [!UICONTROL 경험]
 * [!UICONTROL 세 번째 ID] - 무시할 수 있음
 
 ### 지표
@@ -51,7 +52,7 @@ A4T 통합 [!DNL Analytics]이 활성화된 후 사용할 수 있는 차원 및 
 * [!UICONTROL 활동 노출 횟수] - 보고서의 [!UICONTROL 참여자] 수와 [!DNL Target] 일치합니다.
 * [!UICONTROL 활동 전환] - [!UICONTROL 보고서의] 사용자 지정 전환 [!DNL Target] 번호와 일치합니다.
 
-에서 [!DNL Analysis Workspace]Target용 [!UICONTROL Analytics 패널을 사용하여] 활동 및 경험을 향상도 및 신뢰도로 [!DNL Target] 분석할 수 있습니다. 자세한 내용은 [분석 도구 안내서의 타겟 분석(A4T) 패널](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 을 *참조하십시오*.
+에서 [!DNL Analysis Workspace]Target용 [!UICONTROL 분석] 패널을 사용하여 [!DNL Target] 활동 및 경험을 향상시키거나 자신있게 분석할 수 있습니다. 자세한 내용은 [분석 도구 안내서의 Target(A4T) 패널](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 분석을 *참조하십시오*.
 
 >[!IMPORTANT]
 >
