@@ -4,17 +4,17 @@ description: 관리, 전달, 보고 및 프로필 API를 비롯한 Adobe Target 
 title: Adobe Target API 개요
 topic: APIs
 translation-type: tm+mt
-source-git-commit: 84cd5d41655baaaadeba63954858730ce956e039
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
 
 # Adobe Target API 개요
 
-Adobe Target API는 유형에 따라 그룹화할 수 있습니다.
+[!DNL Adobe Target] API는 유형에 따라 그룹화할 수 있습니다.
 
 | API 유형 | 이 기능을 통해 얻을 수 있는 이점 | 다운로드 링크 | 기타 유용한 링크 |
 | --- | --- | --- |--- |
@@ -25,6 +25,12 @@ Adobe Target API는 유형에 따라 그룹화할 수 있습니다.
 
 >[!NOTE]
 >
->Adobe Target의 다양한 측면을 구성할 수 있는 **관리 API** ( [!DNL Recommendations] API 포함)와 컨텐츠를 검색할 수 있는 **배달 API**&#x200B;를구별할 수 있습니다. 관리 API는 인증이 필요한 반면 배달 API는 인증이 필요하지 않습니다.
+>관리 API( [!DNL Target] API 포함)와 [!DNL Recommendations] [!DNL Target] 배달 API는 다음과 같은 중요한 차이점이 있습니다.
 >
->Adobe Target 관리 API를 사용하려면 먼저 Adobe I/O를 사용하여 인증을 구성해야 합니다.자세한 내용은 [Adobe Target Tutorials에서 인증](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) 구성을 참조하십시오 **.
+>* 관리 API를 사용하면 [!DNL Target] UI에서 구성할 수 [!DNL Target] 있는 다양한 측면을 구성할 수 있습니다. 관리 API는 인증이 필요합니다.
+   >
+   >
+* 배달 API를 사용하여 콘텐츠를 검색할 수 있습니다. 배달 API는 인증이 필요하지 않습니다.
+>
+>
+관리 [!DNL Target] API를 사용하려면 먼저 Adobe I/O를 사용하여 인증을 구성해야 합니다.자세한 내용은 [Adobe Target Tutorials에서 인증](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) 구성을 참조하십시오 **.
