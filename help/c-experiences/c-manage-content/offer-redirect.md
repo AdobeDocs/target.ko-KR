@@ -2,10 +2,11 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: 브라우저가 새 페이지로 리디렉션되는 Adobe Target의 리디렉션 오퍼에 대한 정보입니다.
 title: 리디렉션 오퍼 만들기
+feature: null
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 96%
@@ -58,7 +59,7 @@ ht-degree: 96%
 >
 >이 테스트를 실행하기 전에 담당 구현 컨설턴트에게 문의하십시오.
 
-## 교육 비디오: 컨텐츠 저장소(4:56) ![개요 배지](/help/assets/overview.png)
+## 교육 비디오:컨텐츠 저장소(4:56) ![개요 배지](/help/assets/overview.png)
 
 이 비디오에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 
