@@ -2,9 +2,10 @@
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
 description: 특정 조건에서 EEC에 문제가 발생하는 경우가 있습니다.
 title: 고급 경험 작성기 관련 문제 해결
+feature: null
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -18,9 +19,9 @@ ht-degree: 71%
 
 ## EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다. (EEC만 해당) {#section_D29E96911D5C401889B5EACE267F13CF}
 
-이 문제는 다음 IP 주소를 허용하여 해결할 수 있습니다. 이 IP 주소는 향상된 경험 작성기 프록시에 사용되는 Adobe의 서버용이며, 활동 편집에만 필요합니다. 사이트 방문자는 이러한 IP 주소를 나열할 필요가 없습니다.
+이 문제는 다음 IP 주소를 허용 목록에 추가로 해결할 수 있습니다. 이 IP 주소는 향상된 경험 작성기 프록시에 사용되는 Adobe의 서버용이며, 활동 편집에만 필요합니다. 사이트 방문자는 이러한 IP 주소가 필요하지 허용 목록에추가된 않습니다.
 
-다음 IP 주소를 나열하도록 IT 팀에 요청합니다.
+IT 팀에 다음 IP 주소를 허용 목록에 추가하다 지정하도록 요청합니다.
 
 | 지역 | IP 주소 | 호스트 이름 |
 |--- |--- |--- |
@@ -38,9 +39,9 @@ Target에 다음 오류 메시지가 표시될 수 있습니다.
 
 * **문제:**&#x200B;웹 사이트 도메인(ISP)에서 고급 경험 작성기를 차단하고 있습니다.
 
-   **해결 방법:** 위에 나열된 IP 주소를 허용합니다.
+   **해결 방법:** 위에 나열된 IP 주소허용 목록에 추가하다를합니다.
 
-* **문제:** IP 주소는 허용되지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. Target은 현재 기본 구성 1.2를 사용합니다. Target 18.4.1(2018년 4월 25일) 이전에는 기본 구성이 지원되는 TLS 1.0입니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항을 참조하십시오](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451). .
+* **문제:** IP 주소가 TLS 버전 1.2를 허용 목록에추가된 지원하지만 웹 사이트에서 지원하지 않습니다. Target은 현재 기본 구성 1.2를 사용합니다. Target 18.4.1(2018년 4월 25일) 이전에는 기본 구성이 지원되는 TLS 1.0입니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항을 참조하십시오](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **해결 방법:**(고급 시각적 경험 작성기가 TLS 1.2를 사용하는 사이트의 보안 페이지에 로드되지 않습니다.) 질문을 참조하십시오.
 
