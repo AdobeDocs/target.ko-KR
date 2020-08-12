@@ -2,8 +2,9 @@
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: 특수 다중 값 연산자를 사용하는 Adobe Target Recommendations의 다중 값 필드 작업에 대한 정보입니다.
 title: Adobe Target Recommendations에서 다중 값 속성을 사용한 작업
+feature: null
 translation-type: tm+mt
-source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -73,7 +74,7 @@ function targetPageParams() {
 >다중 값 속성에 대한 동적 일치 지원은 현재 하나의 값을 왼쪽 다중 값 오른쪽과 비교할 때 프로필 속성 일치 또는 매개 변수(mbox) 속성 일치 규칙을 사용하는 기준에서만 사용할 수 있습니다. 다중 값 속성은 현재 프로모션, 엔티티 속성 일치 또는 포함 규칙 왼쪽의 목록에 대해 지원되지 않습니다.
 
 
-### 예: 최근에 본 항목 제외
+### 예:최근에 본 항목 제외
 
 사용자의 최근 10개 시청된 영화에 있는 동영상이 권장되지 않도록 한다고 가정합니다. 먼저, 마지막으로 본 10개의 동영상을 JSON 배열로 추적하기 `user.lastWatchedMovies` 위해 호출된 프로필 스크립트를 작성하십시오. 그런 다음 다음 다음 포함 규칙을 사용하여 항목을 제외할 수 있습니다.
 
@@ -95,7 +96,7 @@ function targetPageParams() {
 } 
 ```
 
-### 예: 사용자 즐겨찾기에서 항목 추천
+### 예:사용자 즐겨찾기에서 항목 추천
 
 밴드 재생이 사용자가 가장 좋아하는 밴드 중 하나인 경우에만 콘서트 입장권만 추천하려고 한다고 가정해 봅시다. 먼저 사용자의 즐겨찾기 밴드가 포함된 프로필 변수 `profile.favoriteBands` 가 있는지 확인합니다. 그런 다음, 카탈로그에 콘서트에서 공연하는 아티스트가 포함된 속성 `entity.artistPerforming` 이 있는지 확인하십시오. 그런 다음 다음 다음 포함 규칙을 사용할 수 있습니다.
 
@@ -117,7 +118,7 @@ function targetPageParams() {
 }
 ```
 
-### 예: 사용자의 즐겨찾기에서 항목을 추천하는 기준 API 만들기
+### 예:사용자의 즐겨찾기에서 항목을 추천하는 기준 API 만들기
 
 모든 기준과 같은 다중 값 필터링 규칙을 사용하는 기준은 Adobe I/O API를 통해 만들 수 있습니다. mbox 매개 변수 목록에 개체 속성이 들어 있는 기준 `id` 을 만드는 예제 API 호출 `favorites` 은 다음과 같습니다.
 
