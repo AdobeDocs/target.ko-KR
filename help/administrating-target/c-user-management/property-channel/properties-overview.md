@@ -2,10 +2,11 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: Adobe Target 구현에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, at_property 매개 변수를 포함하도록 Target 구현을 업데이트하고, 역할 및 권한을 지정하는 데 필요한 작업에 대한 정보입니다.
 title: Enterprise 권한 구성
+feature: null
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 69%
@@ -34,7 +35,7 @@ Information about the tasks required to add users to your [!DNL Target] implemen
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. Adobe Target에서 **[!UICONTROL 관리]** > **[!UICONTROL 속성]** ****> 작업 영역에속성할당을 클릭합니다.
+1. Adobe Target에서 **[!UICONTROL 관리]** > **[!UICONTROL 속성]** > **[!UICONTROL 작업 영역에 속성]**&#x200B;을 클릭합니다.
 
    또는
 
@@ -117,7 +118,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
    * **설명:** 속성에 대한 선택적 설명을 지정합니다.
    * **채널:**&#x200B;속성에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API(예를 들어 셋톱 박스 또는 PlayStation 콘솔)를 선택합니다.
 
-1. **[!UICONTROL 복사를]** 클릭하여 다음 [5의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사합니다. at_property 매개 변수를 포함하도록 구현을 업데이트합니다](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. **[!UICONTROL 복사를]** 클릭하여 다음 [5의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사합니다.at_property 매개 변수를 포함하도록 구현을 업데이트합니다](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
@@ -204,7 +205,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!NOTE]
 >
->관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오에 있는 정보는 일반적으로 정확합니다. 그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오에 있는 정보는 일반적으로 정확합니다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 ### Target 작업 영역 구성 방법(6:55) 자습서 ![배지](/help/assets/tutorial.png)
 
