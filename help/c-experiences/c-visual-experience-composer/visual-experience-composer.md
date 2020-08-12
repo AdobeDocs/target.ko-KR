@@ -1,9 +1,10 @@
 ---
 description: Adobe Target의 시각적 경험 작성기(VEC) 사용에 대한 정보.
 title: Adobe Target VEC(시각적 경험 작성기)
+feature: null
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -130,7 +131,7 @@ VEC 내에서 페이지 로드를 취소하려면 페이지가 로드되는 동�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 근무 시간: Visual Experience Composer ![자습서 배지](/help/assets/tutorial.png)
+### 근무 시간:Visual Experience Composer ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
 
