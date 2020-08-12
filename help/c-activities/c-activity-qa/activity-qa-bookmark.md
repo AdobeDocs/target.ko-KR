@@ -1,11 +1,15 @@
 ---
-keywords: qa;미리 보기;북마클릿;미리 보기 링크
-description: Adobe Target QA 북마클릿을 사용하여 Target에서 QA 모드에서 사용자를 릴리스하도록 하는 데 도움이 되는 정보입니다.
+keywords: qa;preview;bookmarklet;preview links
+description: Adobe Target QA 북마클릿을 사용하여 Target이 QA 모드에서 사용자를 릴리스하도록 하는 데 도움이 되는 정보입니다.
 title: Adobe Target용 활동 QA 북마클릿
-topic: 고급,Standard,Classic
+feature: null
+topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '173'
+ht-degree: 22%
 
 ---
 
@@ -16,7 +20,7 @@ Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Targ
 
 Because [QA mode](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) is sticky, after you browse a website in QA mode, your [!DNL Target] session must expire or you need to have [!DNL Target] release you from QA mode before you can view your site like a typical visitor. Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
 
-To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
 ```
 javascript:(
