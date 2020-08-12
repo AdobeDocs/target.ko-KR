@@ -1,11 +1,15 @@
 ---
-keywords: 우선순위;경험 작성;우선순위;경험;대상;경험;경험 전환;시각적 경험 작성기
+keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: 프로필이 발전함에 따라 방문자가 XT(경험 타깃팅) 활동에서 경험 간을 전환하는 방법에 대한 정보입니다.
 title: 경험 타깃팅에서 경험 전환
-topic: 고급,Standard,Classic
+feature: null
+topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 100%
 
 ---
 
@@ -38,28 +42,28 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    예를 들어, 다음 활동 설정에서 방문자는 미국에서 여러분의 웹 사이트에 액세스한 다음, 독일로 여행을 가서 두 번째로 해당 웹 사이트를 방문했습니다. 첫 번째 방문 동안 이 방문자에게는 경험 A(미국 방문자)의 자격이 부여되었습니다. 독일에서 해당 웹 사이트를 열람한 후에 이 방문자는 경험 B(독일 방문자)로 전환되었습니다.
 
-   ![우선 순위 미국 &gt; 독일](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![우선 순위 미국 > 독일](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **또한 현재 대상에 대한 방문자의 자격이 중지되고 우선순위가 더 낮은 경험에 대한 자격이 부여되기 시작하므로 경험이 바뀝니다.**
 * **현재 경험에 대한 방문자 자격이 중지되고 다른 경험에 대한 자격도 받지 못하면 기본 콘텐츠가 표시됩니다.**
 
    예를 들어, 다음 활동 설정에서 방문자는 미국에서 여러분의 웹 사이트에 액세스한 다음, 프랑스로 여행을 가서 두 번째로 해당 웹 사이트를 방문했습니다. 첫 번째 방문 동안 이 방문자에게는 경험 A(미국 방문자)의 자격이 부여되었습니다. 프랑스에서 해당 웹 사이트를 열람한 후에도 방문자는 원래 경험에 유지됩니다.
 
-   ![우선 순위 미국 &gt; 독일](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![우선 순위 미국 > 독일](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
-* **"모든 방문자"를 대상으로 하는 경험은 다른 경험에 속한 적이 없는 모든 방문자를 "찾기 위한" 경험 타깃팅 활동의 마지막 경험으로 사용될 수 있습니다. "모든 방문자"를 대상으로 하는 경험이 순서상으로 마지막이 아니면 이 경험보다 낮은 다른 타깃팅된 경험이 평가됩니다.**
+* **&quot;모든 방문자&quot;를 대상으로 하는 경험은 다른 경험에 속한 적이 없는 모든 방문자를 &quot;찾기 위한&quot; 경험 타깃팅 활동의 마지막 경험으로 사용될 수 있습니다. &quot;모든 방문자&quot;를 대상으로 하는 경험이 순서상으로 마지막이 아니면 이 경험보다 낮은 다른 타깃팅된 경험이 평가됩니다.**
 
    예를 들어, 다음 활동 설정에서 방문자는 미국에서 여러분의 웹 사이트에 액세스한 다음, 독일로 여행을 가서 두 번째로 해당 웹 사이트를 방문했습니다. 첫 번째 방문 동안 이 방문자에게는 경험 A(미국 방문자)의 자격이 부여되었습니다. 이 방문자는 독일에서 웹 사이트를 열람한 후에 경험 A(미국 방문자)에 유지됩니다.
 
-   ![우선 순위 미국 &gt; 모든 방문자](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
+   ![우선 순위 미국 > 모든 방문자](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
    이를 원치 않을 경우 다음 예와 같이 타깃팅된 대상의 역으로 명시적으로 정의된 새 대상을 만들 수 있습니다.
 
-   ![우선 순위 미국 &gt; 미국 외](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+   ![우선 순위 미국 > 미국 외](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
 * **단일 경험 XT 활동을 사용할 경우, 방문자는 해당 경험에 속하게 만든 대상에 대한 자격이 중단될 경우에도 해당 경험에 유지됩니다.**
 
-   이를 원치 않을 경우, 역대상(예: "미국"에 상대되는 "미국 아님")으로 타깃팅된 다른 경험을 만들 수 있습니다. 
+   이를 원치 않을 경우, 역대상(예: &quot;미국&quot;에 상대되는 &quot;미국 아님&quot;)으로 타깃팅된 다른 경험을 만들 수 있습니다. 
 
    다른 옵션으로는 아래와 같이 100% 트래픽이 할당되는 원하는 대상으로 타깃팅된 A/B 활동을 만들 수 있습니다.
 
@@ -67,7 +71,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 * **경험의 우선순위는 Target UI에 표시되는 순서대로(하향식) 정의됩니다.**
 
-   방문자가 둘 이상의 대상에 대해 자격이 있을 수 있는 시나리오를 염두에 두는 것이 중요합니다. 예를 들어, 하나는 "미국"을 대상으로 하고, 다른 하나는 "뉴욕"을 대상으로 하는 두 가지 경험이 있는 경우 뉴욕에 있는 방문자는 두 대상에 대한 자격을 모두 가질 수 있습니다. 따라서 Target UI에서 "미국" 경험보다 먼저 "뉴욕" 경험이 정의되어 있는지 확인해야 합니다. 이렇게 하면 다음 예와 같이 더 많이 타깃팅된 "뉴욕" 경험의 우선순위가 더 높습니다.
+   방문자가 둘 이상의 대상에 대해 자격이 있을 수 있는 시나리오를 염두에 두는 것이 중요합니다. 예를 들어, 하나는 &quot;미국&quot;을 대상으로 하고, 다른 하나는 &quot;뉴욕&quot;을 대상으로 하는 두 가지 경험이 있는 경우 뉴욕에 있는 방문자는 두 대상에 대한 자격을 모두 가질 수 있습니다. 따라서 Target UI에서 &quot;미국&quot; 경험보다 먼저 &quot;뉴욕&quot; 경험이 정의되어 있는지 확인해야 합니다. 이렇게 하면 다음 예와 같이 더 많이 타깃팅된 &quot;뉴욕&quot; 경험의 우선순위가 더 높습니다.
 
-   ![우선 순위 뉴욕 &gt; 미국](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+   ![우선 순위 뉴욕 > 미국](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
 
