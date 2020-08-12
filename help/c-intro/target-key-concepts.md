@@ -2,11 +2,15 @@
 keywords: Overview and Reference;act
 description: Adobe Target의 기능 및 성능을 이해하는 데 도움이 되는 주요 개념에 대한 정보입니다.
 title: Target 주요 개념
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +111,7 @@ An *경험*&#x200B;은 특정 조건이 충족될 경우 표시되는 콘텐츠�
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 활동 유형(9:03) 개요 ![배지](/help/assets/overview.png)
+### 활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다.
 
