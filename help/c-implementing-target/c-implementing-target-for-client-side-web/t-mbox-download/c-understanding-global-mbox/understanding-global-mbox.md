@@ -1,19 +1,23 @@
 ---
-keywords: 글로벌 mbox;mbox.js 구현;at.js 구현
-description: 글로벌 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
+keywords: global mbox;implement mbox.js;implement at.js
+description: 전역 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
 title: 글로벌 mbox 이해
-subtopic: 시작하기
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '210'
+ht-degree: 73%
 
 ---
 
 
 # 글로벌 mbox 이해{#understand-the-global-mbox}
 
-글로벌 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
+전역 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
 
 기본적으로 글로벌 mbox에는 [!DNL target-global-mbox]라는 이름이 지정됩니다. 필요한 경우 이 이름을 해당 계정용으로 바꿀 수 있습니다.
 
@@ -21,7 +25,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 | 일반 mbox | 글로벌 mbox |
 |--- |--- |
-| 일반 mbox는 일반적으로 컨텐츠를 `<DIV>` 태그로 둘러싸고 있습니다. | 글로벌 mbox는 "비어 있는" 상태이며 컨텐츠를 둘러싸지 않습니다. |
+| 일반 mbox는 일반적으로 컨텐츠를 `<DIV>` 태그로 둘러싸고 있습니다. | 글로벌 mbox는 &quot;비어 있는&quot; 상태이며 컨텐츠를 둘러싸지 않습니다. |
 | 한 활동의 컨텐츠만 일반 mbox에서 전달할 수 있습니다. | 여러 활동의 컨텐츠를 글로벌 mbox에 대한 하나의 응답으로 전달할 수 있습니다. |
 
 여러 활동이 글로벌 mbox 또는 여러 일반 mbox를 통해 전달되는 경우 [!DNL Target]에서는 [활동이 웹 페이지에 전달되는 우선순위를 결정](../../../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)합니다.
