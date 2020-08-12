@@ -2,9 +2,13 @@
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리하려면 오퍼 라이브러리를 사용하십시오.
 title: 오퍼
+feature: null
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +87,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 * 리디렉션 URL 유형
 * 절대 또는 상대 URL
 
-## 교육 비디오: 콘텐츠 저장소 개요 ![배지](/help/assets/overview.png)
+## 교육 비디오: 콘텐츠 저장소 ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에는 오퍼 관리에 대한 정보가 포함되어 있습니다.
 
