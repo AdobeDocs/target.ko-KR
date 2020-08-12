@@ -2,10 +2,14 @@
 keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
 description: Adobe Target at.js JavaScript 라이브러리에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 title: Adobe Target at.js FAQ
+feature: null
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2660'
+ht-degree: 94%
 
 ---
 
@@ -68,7 +72,7 @@ at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
 [!DNL at.js] 버전 1.0.0 이상은 모든 요청을 동시에 실행합니다. 이전 버전은 요청을 순차적으로 실행합니다. 즉, 요청이 큐에 들어가고 Target은 다음 요청으로 이동하기 전에 첫 번째 요청이 완료될 때까지 대기합니다.
 
-이전 버전의 [!DNL at.js]가 요청을 실행하는 방식은 "head of line blocking"(HOL 블로킹)이라는 현상이 발생하기 쉽습니다. [!DNL at.js] 1.0.0 이상에서는 Target이 병렬 요청 실행으로 전환되었습니다.
+이전 버전의 [!DNL at.js]가 요청을 실행하는 방식은 &quot;head of line blocking&quot;(HOL 블로킹)이라는 현상이 발생하기 쉽습니다. [!DNL at.js] 1.0.0 이상에서는 Target이 병렬 요청 실행으로 전환되었습니다.
 
 예를 들어 [!DNL at.js] 0.9.1에 대한 네트워크 탭 워터폴을 확인하면, 이전 Target 요청이 완료되기 전까지 다음 Target 요청이 시작되지 않는 것을 보게 될 것입니다. 그러나 기본적으로 모든 요청이 동시에 시작되는 [!DNL at.js] 1.0.0 이상에서는 이런 일이 발생하지 않습니다.
 
@@ -87,7 +91,7 @@ at.js 1.0.0 릴리스를 사용하면 Target 라이브러리를 비동기적으�
 
 at.js를 비동기적으로 로드하려면 다음을 수행하십시오.
 
-* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. 자세한 [내용은 Launch를](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 사용하여 웹 사이트에서 [Experience Cloud 구현 자습서의](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) Adobe Target 추가 단원을참조하십시오.
+* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. 자세한 내용은 [Launch를 사용하여 웹 사이트에서 Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 구현 [자습서의 Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) 추가단원을참조하십시오.
 * at.js를 로드하는 스크립트 태그에 비동기 속성을 추가하여 at.js를 비동기로 로드할 수도 있습니다. 다음과 같은 코드를 사용해야 합니다.
 
    ```
@@ -107,7 +111,7 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 페이지(또는 지정된 부분)를 숨긴 다음 at.js 및 글로벌 요청이 완전히 로드된 후에 표시하는 사전에 숨기는 코드 조각을 사용하여 플리커를 방지할 수 있습니다. at.js를 로드하기 전에 코드 조각을 추가해야 합니다.
 
-비동기 Launch 구현을 통해 at.js를 배포하는 경우, Launch를 사용하여 웹 사이트에서 Experience Cloud 구현 자습서의 [Add the Target Pre-Hiding Snippet 섹션에 설명된 대로, 시작 포함 코드 앞에](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 사전 [숨김 조각을 포함해야 합니다](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+비동기 Launch 구현을 통해 at.js를 배포하는 경우, Launch를 사용하여 웹 사이트에서 Experience Cloud 구현 자습서의 &quot; [Target 미리 숨김 조각](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 추가&quot; 섹션에 설명된 대로, 시작 내장 코드 앞 [에 사전 숨김 코드 조각을 포함해야 합니다](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 동기 DTM 구현을 통해 at.js를 배포하는 경우 페이지 상단에서 트리거된 페이지 로드 규칙을 통해 사전에 숨기는 코드 조각을 추가할 수 있습니다.
 
@@ -129,7 +133,7 @@ at.js 파일은 다운로드 시 약 109KB입니다. 그러나 대부분의 서�
 
 at.js 구현은 단일 라이브러리([!DNL at.js])를 사용하는 반면, mbox.js 구현은 실제로 두 개의 라이브러리([!DNL mbox.js]와 [!DNL target.js])를 사용합니다. 따라서 공정한 비교는 at.js 대 mbox.js *와* `target.js`입니다. gzip으로 압축된 두 버전의 크기를 비교하면 at.js 버전 1.2는 34KB이고 mbox.js 버전 63은 26.2KB입니다. ``
 
-at.js는 mbox.js와 비교하여 훨씬 더 많은 DOM 구문 분석을 수행하므로 더 adfd큽니다. 이것은 at.js가 JSON 응답에 있는 "원시" 데이터를 가져오고 이를 이해해야 하기 때문에 필요합니다. mbox.js는 `document.write()`을 사용하고 모든 구문 분석은 브라우저가 수행합니다.
+at.js는 mbox.js와 비교하여 훨씬 더 많은 DOM 구문 분석을 수행하므로 더 adfd큽니다. 이것은 at.js가 JSON 응답에 있는 &quot;원시&quot; 데이터를 가져오고 이를 이해해야 하기 때문에 필요합니다. mbox.js는 `document.write()`을 사용하고 모든 구문 분석은 브라우저가 수행합니다.
 
 파일이 큼에도 불구하고 테스트를 해보면 mbox.js에 비해 at.js를 사용할 때 페이지가 더 빨리 로드됩니다. 또한 at.js는 추가적인 파일을 동적으로 로드하거나 `document.write`을 사용하지 않으므로 보안 관점에서 더 우수합니다.
 
@@ -141,7 +145,7 @@ at.js는 현재 jQuery의 일부를 사용하므로 at.js의 맨 위에 MIT 라�
 
 아니요. 교차 도메인이 x 전용으로 설정되어 있고 Safari에 타사 쿠키가 비활성화되어 있다면, [!DNL mbox.js]와 at.js는 모두 비활성화된 쿠키를 설정하며 mbox 요청은 해당하는 특정 클라이언트의 도메인에 대해 실행되지 않습니다.
 
-Safari 방문자를 지원하기 위해 더 나은 X-Domain이 "비활성화"(퍼스트 파티 쿠키만 설정)되거나 "활성화"(Safari에서 퍼스트 파티 쿠키만 설정하고 기타 브라우저에서는 퍼스트 파티 쿠키와 타사 쿠키 설정)됩니다.
+Safari 방문자를 지원하기 위해 더 나은 X-Domain이 &quot;비활성화&quot;(퍼스트 파티 쿠키만 설정)되거나 &quot;활성화&quot;(Safari에서 퍼스트 파티 쿠키만 설정하고 기타 브라우저에서는 퍼스트 파티 쿠키와 타사 쿠키 설정)됩니다.
 
 ## at.js와 mbox.js를 나란히 실행할 수 있습니까? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
 
@@ -153,7 +157,7 @@ Safari 방문자를 지원하기 위해 더 나은 X-Domain이 "비활성화"(�
 
 ## at.js 구현에 Adobe Experience Cloud Debugger를 사용할 수 있습니까? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
-예. 디버깅 목적으로 mboxTrace를 사용하거나 브라우저의 개발자 도구를 사용하여 네트워크 요청을 검사하고, "mbox"로 필터링하여 mbox 통화를 가려낼 수도 있습니다.
+예. 디버깅 목적으로 mboxTrace를 사용하거나 브라우저의 개발자 도구를 사용하여 네트워크 요청을 검사하고, &quot;mbox&quot;로 필터링하여 mbox 통화를 가려낼 수도 있습니다.
 
 ## at.js를 사용하는 mbox 이름에 특수 문자를 사용할 수 있습니까? {#section_8E31D2E8A27642098934D7DACFB2A600}
 
@@ -195,16 +199,16 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 }
 ```
 
-## "누락된 선택기 관련 작업"과 같은 경고 메시지가 표시되는 이유는 무엇입니까? {#section_C36BED5B16634361A1BA46FCB731489D}
+## &quot;누락된 선택기 관련 작업&quot;과 같은 경고 메시지가 표시되는 이유는 무엇입니까? {#section_C36BED5B16634361A1BA46FCB731489D}
 
 이 메시지는 [!DNL at.js] 기능과 관련이 없습니다. [!DNL at.js] 라이브러리는 DOM에서 찾을 수 없는 모든 것을 보고합니다.
 
 이 경고 메시지가 표시되는 경우 가능한 근본 원인은 다음과 같습니다.
 
-* 페이지가 동적으로 작성되고 있으며 at.js에서 요소를 찾을 수 없습니다.
-* 느린 네트워크로 인해 페이지가 느리게 작성되고 있으며 at.js는 DOM에서 선택기를 찾을 수 없습니다.
+* 페이지가 동적으로 빌드되고 있으며 at.js가 요소를 찾을 수 없습니다.
+* 느린 네트워크로 인해 페이지가 천천히 빌드되고 있으며 at.js는 DOM에서 선택기를 찾을 수 없습니다.
 * 활동이 실행 중인 페이지 구조가 변경되었습니다. 시각적 경험 작성기(VEC)에서 활동을 다시 열 경우 경고 메시지가 표시됩니다. 필요한 모든 요소를 찾을 수 있도록 활동을 업데이트해야 합니다.
-* 기본 페이지가 단일 페이지 애플리케이션(SPA)의 일부이거나 이 페이지에 페이지 아래쪽에 나타나는 요소가 있는데, [!DNL at.js] "선택기 폴링 메커니즘"이 해당 요소를 찾을 수 없습니다. `selectorsPollingTimeout`을 늘리는 것이 도움이 될 수 있습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
+* 기본 페이지가 단일 페이지 애플리케이션(SPA)의 일부이거나 이 페이지에 페이지 아래쪽에 나타나는 요소가 있는데, [!DNL at.js] &quot;선택기 폴링 메커니즘&quot;이 해당 요소를 찾을 수 없습니다. `selectorsPollingTimeout`을 늘리는 것이 도움이 될 수 있습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 * 지표가 설정된 URL과 관계없이 모든 클릭 추적 지표가 모든 페이지에 추가되려고 시도합니다. 그 자체로 문제가 안 되더라도 이렇게 되면 많은 메시지가 표시됩니다.
 
    최상의 결과를 얻으려면 최신 버전의 [!DNL at.js]를 다운로드하여 사용하십시오. 자세한 내용은 [at.js 버전 세부 사항](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) 및 [at.js 다운로드](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오.
@@ -227,7 +231,7 @@ Adobe Target은 서버 측에서 모든 의사 결정을 실행합니다. 즉, a
 
 ## 최상의 사례 시나리오에서 사용자가 콘텐츠를 숨기고, 대체하고, 표시하는 것과 관련된 페이지 로드에 가시적인 영향을 미치지 않을 것으로 기대할 수 있습니까? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js는 장기간 HTML BODY 또는 기타 DOM 요소를 사전에 숨기지 않으려고 시도하지만 이는 네트워크 조건 및 활동 설정에 따라 다릅니다. at.js에서는 본문 숨기기 CSS 스타일을 사용자 지정하는 데 사용할 수 있는 [설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)을 제공하므로 전체 HTML BODY를 공백으로 남기지 않고 페이지의 일부만 미리 숨길 수 있습니다. 이러한 부분에는 "개인화"해야 하는 DOM 요소가 포함될 것으로 예상됩니다.
+at.js는 장기간 HTML BODY 또는 기타 DOM 요소를 사전에 숨기지 않으려고 시도하지만 이는 네트워크 조건 및 활동 설정에 따라 다릅니다. at.js에서는 본문 숨기기 CSS 스타일을 사용자 지정하는 데 사용할 수 있는 [설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)을 제공하므로 전체 HTML BODY를 공백으로 남기지 않고 페이지의 일부만 미리 숨길 수 있습니다. 이러한 부분에는 &quot;개인화&quot;해야 하는 DOM 요소가 포함될 것으로 예상됩니다.
 
 ## 사용자가 활동 자격이 있는 평균 시나리오의 이벤트 순서는 무엇입니까? {#section_56E6F448E901403FB77DF02F44C44452}
 
