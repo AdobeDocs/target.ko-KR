@@ -2,10 +2,11 @@
 keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 Adobe Target 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
 title: Adobe Target의 프로필 속성
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -277,7 +278,7 @@ else if (mbox.param("adobeQA"))
 | `||` | 표현식의 왼쪽과 오른쪽에 있는 논리적 &quot;OR&quot;은 한쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
 | `//` | 부울에 포함된 타겟의 모든 요소(Array source, Array target)가 소스에 포함되어 있는지 확인합니다.<br>`//`는 타겟(regexp에 해당함)에서 하위 문자열을 추출하여 `Array/*String*/ decode(String encoding, String regexp, String target)`로 디코딩합니다.<br>이 기능은 상수 문자열 값, 그룹화(`condition1 || condition2) && condition3` 및 정규식(`/[^a-z]$/.test(landing.referring.url)` 사용을 지원합니다. |
 
-## 교육 비디오: 프로필 스크립트 ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오:프로필 스크립트 ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에는 프로필 스크립트 사용 및 작성에 대한 정보가 포함되어 있습니다.
 
