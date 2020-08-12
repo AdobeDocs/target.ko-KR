@@ -1,10 +1,14 @@
 ---
 description: 용어 정의입니다.
 title: Adobe Target 용어
+feature: null
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2291'
+ht-degree: 98%
 
 ---
 
@@ -331,7 +335,7 @@ SPA(단일 페이지 애플리케이션)는 단일 웹 페이지에 맞는 웹 �
 
 **visit**
 
-방문은 세션이라고도 합니다. 방문은 활동이 없는 상태로 30분 후 종료되며, 이는 서버 요청 간에 Target으로 최소 30분이 경과했음을 의미합니다.
+방문은 세션이라고도 합니다. 방문은 활동이 없는 상태로 30분 후에 종료되며, 이는 서버 요청 간에 Target으로 최소 30분이 경과했음을 의미합니다.
 
 **방문자**
 
