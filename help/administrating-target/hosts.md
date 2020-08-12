@@ -2,10 +2,11 @@
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
 title: 호스트
+feature: null
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 27%
@@ -86,7 +87,7 @@ If a [!DNL Target] request is made on an unauthorized host, the call will respon
 
 >[!IMPORTANT]
 >
->**보안 모범 사례**: 의 ubox 기능을 사용하는 경우 이허용 목록에 추가하다는 리디렉터가 탐색할 수 있는 도메인 목록도 [!DNL Target]제어합니다 [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . 구현의 일부로 ubox를 사용할 때 리디렉션할 도메인을 추가하는지 확인하십시오. 허용 목록에 추가하다를 지정하지 않은 경우 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다. [!DNL Adobe]
+>**보안 모범 사례**:의 ubox 기능을 사용하는 경우 이허용 목록에 추가하다는 리디렉터가 탐색할 수 있는 도메인 목록도 [!DNL Target]제어합니다 [](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) . 구현의 일부로 ubox를 사용할 때 리디렉션할 도메인을 추가하는지 확인하십시오. 허용 목록에 추가하다를 지정하지 않은 경우 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다. [!DNL Adobe]
 >
 >허용 목록에 추가하다가 환경보다 우선합니다. 기능을 사용하기 전에 모든 호스트를 지워야 허용 목록에 추가하다 합니다. 그러면에서 허용하는 허용 목록에 추가하다 호스트만 호스트 목록에 나타납니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 
