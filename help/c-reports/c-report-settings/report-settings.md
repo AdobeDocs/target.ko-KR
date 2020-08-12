@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 title: 보고서 설정
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1878'
+ht-degree: 83%
 
 ---
 
@@ -83,7 +87,7 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 * 하나 이상의 지표가 삭제되었지만 사전 설정된 정의에서 참조됩니다. 예를 들어, 활동에서 하나 이상의 지표를 삭제한 다음 지표를 새로 추가할 수 있습니다.
 * 하나 이상의 호스트 그룹(환경)이 존재하지 않지만 사전 설정된 정의에서 참조됩니다.
 * 사전 설정이 작성된 후에 하나 이상의 경험이 삭제되었지만 사전 설정된 정의에서 참조됩니다.
-* 참조된 엔티티가 있지만 사전 설정 정의가 의미상 변경되는 방식으로 업데이트되었으므로 사전 설정이 의미상 잘못되었습니다. 예를 들어 처음에 &quot;Revenue on Chrome&quot;이라는 사전 설정된 이름을 만들었다고 가정해 보겠습니다. 나중에 활동을 업데이트하여 수입 대신 전환 지표를 측정합니다. 활동 정의에 대한 이 업데이트는 사전 설정 정의를 의미적으로 무효화합니다.
+* 참조된 엔티티가 있지만 사전 설정 정의가 의미상 변경되는 방식으로 업데이트되었으므로 사전 설정이 의미상 잘못되었습니다. 예를 들어 처음에 &quot;Revenue on Chrome&quot;이라는 사전 설정된 이름을 만들었다고 가정해 보겠습니다. 나중에 활동을 업데이트하여 수입 대신 전환 지표를 측정합니다. 활동 정의에 대한 이 업데이트는 사전 설정 정의를 의미상으로 무효화합니다.
 
 ## 보고서 지표 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -157,12 +161,12 @@ source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 활동 유형에 따라 다양한 형식으로 보고서를 볼 수 있습니다. 원하는 옵션을 선택합니다.
 
-![보기 옵션 아이콘](/help/c-reports/c-report-settings/assets/view-options.png)
+![옵션 아이콘 보기](/help/c-reports/c-report-settings/assets/view-options.png)
 
 * **테이블 보기**:테이블 **[!UICONTROL 보기]** 아이콘을 클릭하여 보고서를 표로 봅니다.
 * **그래프 보기**:그래프 **[!UICONTROL 보기]** 아이콘을 클릭하여 보고서를 그래프로 표시합니다.
-* **자동화된 세그먼트**: (AP(Automated Personalization) 및 AT(Auto-Target) 활동에만 사용할 수 있습니다.) **자동화된[!UICONTROL 세그먼트] 아이콘을 클릭하여 자동화된 세그먼트 [보고서를](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)봅니다.
-* **중요 속성**:(AP(Automated Personalization) 및 AT(Auto-Target) 활동에만 사용할 수 있습니다.) **[!UICONTROL 중요 속성] 아이콘을 클릭하여 중요 속성 [보고서를](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)봅니다.
+* **자동화된 세그먼트**: (AP(Automated Personalization) 및 자동 Target(AT) 활동에만 사용 가능) **[!UICONTROL 자동화된 세그먼트] 아이콘을 클릭하여 [자동화된 세그먼트 보고서를 봅니다](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+* **중요 속성**:(Automated Personalization(AP) 및 자동 Target(AT) 활동에만 사용할 수 있습니다.) **[!UICONTROL 중요 속성] 아이콘을 클릭하여 [중요 속성 보고서를 봅니다](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
 ## 평균 상승도, 상승도 한계 및 신뢰 구간{#section_0D87615B1D3344B3858BA494EEBC16FB}을 참조하십시오 
 
@@ -235,10 +239,10 @@ You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then 
 
 그래프가 작성되는 기본 순서는 다음과 같습니다.
 
-* **A/B 테스트(자동 할당 및 자동화된 개인화 포함)**:경험 제작 순서(내림차순)
+* **A/B 테스트(자동 할당 및 Automated Personalization 포함)**:경험 제작 순서(내림차순)
 * **경험 타깃팅(XT)**:활동의 경험 순서.
-* **다변량 테스트(MVT)**:경험 이름별로 알파벳 순.
-* **권장 사항**:경험 제작 순서(내림차순)
+* **MVT(다변량 테스트)**:경험 이름별로 알파벳 순
+* **Recommendations**:경험 제작 순서(내림차순)
 
 계산 방법론 선택 사항을 사용하여 작업할 때에는 다음 주의 사항을 고려하십시오.
 
