@@ -1,11 +1,15 @@
 ---
-keywords: faq;자주 묻는 질문;analytics for target;a4T;지표;지표 정의
+keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric definitions
 description: 이 주제에서는 지표 정의와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 지표 정의 - A4T FAQ
+feature: null
 topic: Standard
 uuid: 41d41665-9057-479d-b0a8-7cffb90ca843
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '262'
+ht-degree: 100%
 
 ---
 
@@ -28,4 +32,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## A4T의 전환은 여러 캠페인에서 비롯됩니까? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-예. 이 작업은 "전체 할당" 설정을 통해 수행됩니다.
+예. 이 작업은 &quot;전체 할당&quot; 설정을 통해 수행됩니다.
