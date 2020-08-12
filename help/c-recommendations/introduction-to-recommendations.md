@@ -1,9 +1,13 @@
 ---
-keywords: 추천;소개;소개;웨비나;데모
+keywords: Recommendations;intro;introduction;webinar;demo
 description: Adobe Target Recommendations 소개 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 title: Adobe Target의 추천 활동 소개
+feature: null
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 96%
 
 ---
 
@@ -37,7 +41,7 @@ Adobe는 소매점에서 사용하는 모든 종류의 추천에 대해 알고 �
 * **게임**: 게임 업체는 콘솔 내의 사용자에게 게임과 콘텐츠를 추천하기 위해 [!DNL Target]을 사용합니다.
 * **B2B 판매**: [B2B 업체는 Target를 사용하여 B2B 잠재 고객에게 비디오, 백서 및 블로그 게시물을 추천하고 다운로드를 제공하며 기존 고객을 지원합니다](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **여행**:독일의 [여행 책자는 Target을 사용하여 호텔과 더 많은 여행자를](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608)추천합니다.
+* **여행**: [독일의 한 여행책자는 Target을 이용해 호텔을 추천하고 여행자들에게 더 많은 호텔을 추천한다](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
 * **소매**: [선도적인 BB 소매업체는 Target를 사용하여 브라우저와 모바일에서 방문자가 재방문할 수 있는 상위 카테고리와 제품을 추천합니다](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
 
@@ -153,7 +157,7 @@ Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화
 
 ![알고리즘 일러스트레이션](/help/c-recommendations/assets/intro-17.png)
 
-가장 먼저 추천 키를 선택해야 합니다. 추천 키는 추천을 선택하기 위해 '찾아보는' 것입니다. 이것은 사용자의 추천을 기반으로 하는 것입니다.
+가장 먼저 추천 키를 선택해야 합니다. 추천 키는 추천을 선택하기 위해 &#39;찾아보는&#39; 것입니다. 이것은 사용자의 추천을 기반으로 하는 것입니다.
 
 추천은 다음을 기반으로 할 수 있습니다.
 
