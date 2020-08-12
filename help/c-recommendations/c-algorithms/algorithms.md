@@ -1,10 +1,11 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Adobe Target Recommendations의 기준은 미리 결정된 방문자 행동을 기반으로 권장할 제품을 결정하는 규칙입니다.
-title: Adobe Target 권장 사항의 기준
+title: Adobe Target Recommendations의 기준
+feature: null
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -86,7 +87,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 | 최상위 판매자 | 가장 많이 완료된 주문에 포함된 항목. 단일 주문에서 여러 개의 동일한 항목은 하나의 주문으로 계산됩니다. |
 | 가장 많이 본 항목 | 가장 자주 표시되는 항목 또는 미디어. |
 | 최근에 본 항목/미디어 | 방문자가 최근에 본 항목입니다. 이 기준을 사용하는 경우 Target 디자인을 업데이트하여 표시하는 데 필요한 이전에 본 항목이 충분하지 않다면 빈 권장 사항이 표시되는 경우를 처리해야 합니다. |
-| 사용자 기반 권장 사항 | 각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목을 일반적으로 &quot;권장 사항&quot;이라고 합니다.<br>이 기준을 통해 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 권장 사항 목록은 방문자의 최근 활동에 가중치가 적용되며 세션 중에 업데이트되고 사용자가 사이트를 검색할 때 더욱 개인화됩니다.<br>뷰와 구매 모두 권장 항목을 결정하는 데 사용됩니다. 지정한 권장 사항 키(예: 현재 항목)는 선택한 포함 규칙 필터를 적용하는 데 사용됩니다. 예를 들어 다음 작업을 수행할 수 있습니다.<ul><li>특정 기준에 맞지 않는 항목(재고가 없는 제품, 30일 전에 게시된 문서, R 등급 영화 등)을 제외합니다.</li><li>포함된 항목을 단일 카테고리 또는 현재 카테고리로 제한</li></ul> |
+| 사용자 기반 Recommendations | 각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목을 일반적으로 &quot;권장 사항&quot;이라고 합니다.<br>이 기준을 통해 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 권장 사항 목록은 방문자의 최근 활동에 가중치가 적용되며 세션 중에 업데이트되고 사용자가 사이트를 검색할 때 더욱 개인화됩니다.<br>뷰와 구매 모두 권장 항목을 결정하는 데 사용됩니다. 지정한 권장 사항 키(예: 현재 항목)는 선택한 포함 규칙 필터를 적용하는 데 사용됩니다. 예를 들어 다음 작업을 수행할 수 있습니다.<ul><li>특정 기준에 맞지 않는 항목(재고가 없는 제품, 30일 전에 게시된 문서, R 등급 영화 등)을 제외합니다.</li><li>포함된 항목을 단일 카테고리 또는 현재 카테고리로 제한</li></ul> |
 
 >[!NOTE]
 >
