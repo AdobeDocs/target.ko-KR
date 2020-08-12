@@ -1,11 +1,15 @@
 ---
-keywords: faq;자주 묻는 질문;analytics for target;세그먼트;a4T;보고서 공유
+keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
 description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때의 지표, 대상 및 보고서 공유와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 지표, 대상 및 보고서 공유 - A4T FAQ
+feature: null
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +22,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 사용자가 테스트 결과를 보다 쉽게 확인할 수 있도록 여러 사용자 그룹을 위해 테스트 보기를 만들어야 하는 경우가 있습니다. Analytics에서는 지표, 날짜 범위, 세그먼트 및 기타 데이터를 포함하여 현재 보고서 보기를 저장하는 책갈피를 만들 수 있습니다.
 
-자세한 내용은 책갈피 [관리자를](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html)참조하십시오.
+자세한 내용은 책갈피 [관리자를 참조하십시오](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html).
 
 ## 최적화 팀에서 지표 및 세그먼트를 공유하고 있는지 어떻게 확인할 수 있습니까? {#section_38BCA134A2F64C21B670CBD4491B7099}
 
