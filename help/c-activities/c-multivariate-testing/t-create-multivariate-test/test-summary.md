@@ -1,11 +1,15 @@
 ---
-keywords: 개요 및 참조
+keywords: Overview and Reference
 description: 테스트 요약은 다변량 테스트에 대한 시각적 개요를 제공합니다.
 title: 테스트 요약
+feature: null
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '101'
+ht-degree: 100%
 
 ---
 
@@ -28,4 +32,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    현재, 사용 가능한 유일한 알고리즘은 완전 요인입니다. 이 알고리즘 이름은 정보용으로 제공되므로 사용 중인 알고리즘을 알 수 있게 됩니다.
 * 포함 및 제외된 경험의 수입니다.
 
-테스트 구성에 만족하면 **[!UICONTROL 계속]을 클릭하십시오.** 목표 및 설정 페이지가 열립니다.
+테스트 구성에 만족하면 **[!UICONTROL 계속]**&#x200B;을 클릭하십시오. 목표 및 설정 페이지가 열립니다.
