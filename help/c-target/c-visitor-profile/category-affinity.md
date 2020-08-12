@@ -1,11 +1,15 @@
 ---
-keywords: 친화성;카테고리 친화성
+keywords: affinity;category affinity
 description: Adobe Target의 카테고리 친화성 기능을 사용하여 자동으로 사용자가 방문하는 카테고리를 캡처하고 카테고리에 대한 사용자의 친화성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있습니다. 이 기능은 해당 정보에 대해 행동할 가능성이 가장 큰 방문자를 타겟으로 콘텐츠를 지정합니다.
 title: Adobe Target에서 카테고리 친화성 사용
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +36,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 카테고리 친화성에 대한 비즈니스 사례 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-가장 자주 보는 카테고리와 같은 한 세션에서 수행되는 방문자 활동을 이후 방문의 타깃팅에 사용할 수 있습니다. 세션 중에 방문자가 보는 각 카테고리 페이지는 캡처되며, 최근 및 빈도 모델에 따라 "즐겨찾기" 카테고리가 계산됩니다. 그런 후에 방문자가 홈 페이지로 돌아올 때마다 사용자의 즐겨찾기 카테고리와 관련된 콘텐츠를 표시하도록 주인공 이미지 영역을 타깃팅할 수 있습니다.
+가장 자주 보는 카테고리와 같은 한 세션에서 수행되는 방문자 활동을 이후 방문의 타깃팅에 사용할 수 있습니다. 세션 중에 방문자가 보는 각 카테고리 페이지는 캡처되며, 최근 및 빈도 모델에 따라 &quot;즐겨찾기&quot; 카테고리가 계산됩니다. 그런 후에 방문자가 홈 페이지로 돌아올 때마다 사용자의 즐겨찾기 카테고리와 관련된 콘텐츠를 표시하도록 주인공 이미지 영역을 타깃팅할 수 있습니다.
 
 ## 카테고리 친화성 사용의 예 {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -111,14 +115,14 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    기존 대상을 복사하려면 대상자 목록에서 원하는 대상으로 마우스를 가져간 다음 복사 아이콘을 클릭합니다. 그러면 대상을 편집하여 유사한 대상을 만들 수 있습니다.
 
 1. 수사적 대상 이름을 입력합니다.
-1. **[!UICONTROL + 규칙 추가]** &gt; **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL + 규칙 추가]** > **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭합니다.
 1. **[!UICONTROL 방문자 프로필]** 드롭다운 목록에서 **[!UICONTROL 카테고리 친화성]**&#x200B;을 선택합니다.
 
-   ![방문자 프로필 &gt; 카테고리 친화성](assets/affinity.png)
+   ![방문자 프로필 > 카테고리 친화성](assets/affinity.png)
 
 1. 원하는 카테고리를 선택합니다.
 
-   ![카테고리 친화성 &gt; 카테고리](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![카테고리 친화성 > 카테고리](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    카테고리는 다음과 같습니다.
 
@@ -128,7 +132,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 세 번째 카테고리
    * 네 번째 카테고리
    * 다섯 번째 카테고리
-   "즐겨찾기 카테고리" 및 "첫 번째 카테고리" 옵션은 동일합니다.
+
+   &quot;즐겨찾기 카테고리&quot; 및 &quot;첫 번째 카테고리&quot; 옵션은 동일합니다.
 
 1. 평가기를 선택합니다.
 
@@ -136,8 +141,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    * 다음을 포함하지 않음(대/소문자 구분 안 함)
    * 다음과 같음
 
-1. 각각의 새 값을 별도의 행에 지정합니다(예: "신발").
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. 각각의 새 값을 별도의 행에 지정합니다(예: &quot;신발&quot;).
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 활동에서 카테고리 친화성 대상 사용 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
