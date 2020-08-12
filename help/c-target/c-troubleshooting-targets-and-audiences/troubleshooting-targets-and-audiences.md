@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: 경험 타깃팅 및 대상에 대한 FAQ 목록
 title: Target 및 대상 FAQ
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 69%
 
 ---
 
@@ -24,25 +28,25 @@ Target은 활동을 만들 때 대상 URL 타깃팅을 사용할지 또는 대�
 
 ### 대상 URL 타깃팅
 
-활동을 만드는 동안 대상 URL 타깃팅을 적용하려면 경험 페이지(3단계 안내 워크플로우 중 하나)에서 톱니바퀴 아이콘을 클릭하고 페이지 배달을 클릭한 다음 원하는 URL을 지정합니다.
+활동을 만드는 동안 대상 URL 타깃팅을 적용하려면 경험 페이지(3단계 안내 워크플로우 중 하나 단계)에서 톱니바퀴 아이콘을 클릭하고 페이지 배달을 클릭한 다음 원하는 URL을 지정합니다.
 
 ![페이지 배달 URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-대상 URL 타깃팅이 정확한 URL 일치를 찾습니다. URL 파섹 위 URL에서 활동이 실행되도록 설정된 경우 대상 URL 타깃팅이 쿼리에 `www.example.com`관계없이 URL과 일치합니다.
+대상 URL 타깃팅이 정확한 URL 일치를 찾습니다. URL이 일치하는 경우 Target은 추가 로직을 고려하지 않습니다. 위 URL에서 활동이 실행되도록 설정된 경우 대상 URL 타깃팅이 쿼리 `www.example.com`에 관계없이 URL이 다음 URL에 일치합니다.
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-URL에 대한 대상 타깃팅 외에도 쿼리에 사용할 수 있는 특정 값을 지정할 수 있습니다.
+URL에 대한 대상 타깃팅을 넘어 쿼리에 사용할 수 있는 특정 값을 지정할 수도 있습니다.
 
 ### URL 타깃팅
 
-대상을 만드는 동안 URL 타깃팅을 적용하려면 규칙 추가를 클릭하고 사이트 페이지를 클릭하고 첫 번째 드롭다운 목록(현재 페이지, 이전 페이지 또는 랜딩 페이지)에서 옵션을 선택하고 두 번째 드롭다운 목록에서 URL을 선택한 다음 원하는 URL을 지정합니다.
+대상을 만드는 동안 URL 타깃팅을 적용하려면 규칙 추가를 클릭하고 사이트 페이지를 클릭하고 첫 번째 드롭다운 목록에서 옵션을 선택합니다(현재 페이지, 이전 페이지 또는 랜딩 페이지). 두 번째 드롭다운 목록에서 URL을 선택하고 원하는 URL 평가자를 지정한 다음 원하는 URL을 지정합니다.
 
-![사이트 페이지 &gt; 현재 페이지 &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![사이트 페이지 > 현재 페이지 > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-URL 타깃팅은 URL을 평가할 규칙 세트로 변환합니다.
+URL 타깃팅은 URL을 규칙 세트로 변환하여 다음을 평가합니다.
 
 * URL 도메인 = `example.com`
 * 경로 = path1/path2/path3
@@ -51,21 +55,21 @@ URL 타깃팅은 URL을 평가할 규칙 세트로 변환합니다.
 
 ## 복잡한 URL 문자열을 만들 때 전체 URL을 [!DNL Target] 평가합니까?
 
-URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하는 경우 HTTP는 첫 번째 매개 변수 이름을 고려하며 동일한 이름의 후속 매개 변수를 무시합니다.
+URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하는 경우 HTTP는 첫 번째 매개 변수 이름을 고려하고 동일한 이름의 후속 매개 변수를 무시합니다.
 
-예를 들어 다음 URL 문자열에서 다음을 수행합니다.
+예를 들어 다음 URL 문자열에서
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-매개 변수의 첫 번째 `Category` 인스턴스가 평가되고 두 번째 `Category` 매개 변수가 무시됩니다.
+매개 변수의 첫 번째 `Category` 인스턴스가 평가되고 두 번째 `Category` 매개 변수는 무시됩니다.
 
-다음과 같이 단일 카테고리와 연결된 여러 값이 있는 것이 좋습니다.
+아래와 같이 단일 카테고리와 연결된 여러 값이 있는 것이 좋습니다.
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
 ## 대상을 작성할 때 Target 라이브러리 아래의 사전 작성 대상이 다른 범주 아래에 표시되는 이유는 무엇입니까? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-타겟 라이브러리 카테고리의 사전 빌드된 대상은 이전 대상으로서, 다른 카테고리에 있습니다. 일례로, 이전 타겟 라이브러리 &gt; 새 방문자 수 대상에는 이에 대응하는 업데이트된 상대(방문자 프로필 &gt; 새 방문자)가 있습니다.
+타겟 라이브러리 카테고리의 사전 빌드된 대상은 이전 대상으로서, 다른 카테고리에 있습니다. 일례로, 이전 타겟 라이브러리 > 새 방문자 수 대상에는 이에 대응하는 업데이트된 상대(방문자 프로필 > 새 방문자)가 있습니다.
 
 성과가 개선되었으므로 최신 대상을 사용하는 것이 좋습니다(우수 사례). 일부 고객이 이전의 사전 빌드된 대상을 사용 중일 수 있으므로 이러한 대상을 Target 인터페이스에서 제거하지 않았습니다.
 
@@ -83,13 +87,13 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 ## Target, Adobe Audience Manager(AAM) 및 핵심 서비스의 대상 라이브러리에 있는 동일한 대상의 이름이 서로 다른 이유는 무엇입니까? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-[!DNL Target]의 대상 이름은 고유합니다. 그러나 [!DNL AAM]과 [!DNL Audience Library]에서는 여러 대상(서로 다른 폴더에 있을 경우)에 대해 동일한 이름을 사용할 수 있습니다. [!DNL Target]에 [!DNL AAM] 또는 [!DNL Audience Library] 대상에 해당하는 대상 이름이 발생하면 [!DNL Target]은 해당 이름에 "#&lt;number&gt;"를 추가합니다.
+[!DNL Target]의 대상 이름은 고유합니다. 그러나 [!DNL AAM]과 [!DNL Audience Library]에서는 여러 대상(서로 다른 폴더에 있을 경우)에 대해 동일한 이름을 사용할 수 있습니다. [!DNL Target]에 [!DNL AAM] 또는 [!DNL Audience Library] 대상에 해당하는 대상 이름이 발생하면 [!DNL Target]은 해당 이름에 &quot;#&lt;number>&quot;를 추가합니다.
 
-예를 들어, "PC 사용자"([!DNL AAM]에서)와 "PC 사용자 #1"([!DNL Target]에서)이라는 대상이 표시될 수 있습니다.
+예를 들어, &quot;PC 사용자&quot;([!DNL AAM]에서)와 &quot;PC 사용자 #1&quot;([!DNL Target]에서)이라는 대상이 표시될 수 있습니다.
 
 ## 대상의 이름을 바꿀 수 없는 이유는 무엇입니까? {#section_54E420556F534D20836E261E253D8B97}
 
-일부 Target 대상은 "새 방문자" 및 "재방문자"와 같이 사전에 정의되어 있습니다. 이렇게 사전 정의된 대상은 사용자가 이름을 바꿀 수 없습니다.
+일부 Target 대상은 &quot;새 방문자&quot; 및 &quot;재방문자&quot;와 같이 사전에 정의되어 있습니다. 이렇게 사전 정의된 대상은 사용자가 이름을 바꿀 수 없습니다.
 
 ## 일부 프로필 매개 변수가 Target 사용자 인터페이스에 표시되지 않는 이유는 무엇입니까? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
@@ -105,7 +109,7 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 ## 숫자를 나타내는 문자열(부동 소수점 숫자도 지원됨)은 숫자로 비교됩니다.{#strings-that-represent-numbers}
 
-"같음"(equals) 표현식의 왼쪽 부분과 오른쪽 부분을 숫자로 구문 분석할 수 있는 경우 두 부분은 문자열이 아닌 숫자로서 비교됩니다.
+&quot;같음&quot;(equals) 표현식의 왼쪽 부분과 오른쪽 부분을 숫자로 구문 분석할 수 있는 경우 두 부분은 문자열이 아닌 숫자로서 비교됩니다.
 
 예:
 
@@ -123,4 +127,4 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 예:
 
-"4e-2"는 "4e-2"와만 같습니다. "0.04"와는 같지 *않습니다*.
+&quot;4e-2&quot;는 &quot;4e-2&quot;와만 같습니다. &quot;0.04&quot;와는 같지 *않습니다*.
