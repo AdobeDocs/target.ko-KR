@@ -2,9 +2,10 @@
 keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: 특정 상황에서 VEC(시각적 경험 작성기) 및 EEC(고급 경험 작성기)에서 표시 문제가 발생하는 경우가 있습니다.
 title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결
+feature: null
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 98%
