@@ -1,10 +1,14 @@
 ---
-keywords: 타깃팅;네트워크;타겟 네트워크;isp;도메인 이름;연결 속도;타겟 isp;타겟 도메인 이름;타겟 연결 속도
+keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
 description: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만들 수 있습니다.
 title: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만듭니다.
+feature: null
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '485'
+ht-degree: 99%
 
 ---
 
@@ -13,9 +17,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 네트워크 세부 사항을 기반으로 대상을 만들 수 있습니다.
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상]** &gt; **[!UICONTROL 대상 만들기]**&#x200B;를 클릭합니다.
+1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상자]** > **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** &gt; **[!UICONTROL 네트워크]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL 규칙 추가]** > **[!UICONTROL 네트워크]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
    * **ISP:** ISP는 보통 월별 또는 연간 요금으로 해당 가입자에게 인터넷 액세스 권한을 제공하는 회사입니다. 많은 ISP에서 웹 호스팅이나 이메일과 같은 추가 서비스를 제공합니다. ISP 필드는 상업적인 ISP(예: Comcast, TimeWarner)나, 비즈니스 또는 교육 기관과 같은 엔티티입니다.
@@ -49,8 +53,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
       이 필드는 연결 유형을 기반으로 하며 실제 속도 자체는 아닙니다. [!DNL Target]은 연결의 정확한 연결 속도를 판별할 수 없습니다. 기타 연결 유형이 표시되지 않아서 특정 유형을 선택할 수 없는 경우 광대역 연결 유형이 사용됩니다.
 
-1. (선택 사항) **[!UICONTROL 규칙 추가]를 클릭하고 대상에 대한 추가 규칙을 설정합니다.**
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. (선택 사항) **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 대상에 대한 추가 규칙을 설정합니다.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 다음 그림은 [!UICONTROL 모바일]의 연결 속도로 AT&amp;T를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다.
 
@@ -63,4 +67,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 대상자 만들기
 * 대상 카테고리 정의
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
