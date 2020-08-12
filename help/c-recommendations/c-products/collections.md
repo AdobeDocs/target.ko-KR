@@ -2,9 +2,13 @@
 keywords: collection;Targeting
 description: 컬렉션은 추천에 적합한 Adobe Target의 제품 또는 항목 세트입니다.
 title: Adobe Target의 컬렉션
+feature: null
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +75,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >
 >고급 검색 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 컬렉션을 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 반환할 의도로 카탈로그를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 반환됩니다. &quot;Holiday&quot;를 포함하는 제품은 반환되지 않습니다. 
 
-## 교육 비디오: 추천에서 컬렉션 및 제외 만들기(7:05) 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 추천에서 컬렉션 및 제외 만들기(7:05) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
