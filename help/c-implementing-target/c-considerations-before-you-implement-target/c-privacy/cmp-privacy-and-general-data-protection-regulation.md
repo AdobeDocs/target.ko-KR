@@ -1,11 +1,15 @@
 ---
-keywords: gdpr;eu;유럽연합;개인 정보;faq;자주 묻는 질문;캘리포니아 소비자 개인 정보 보호법;ccpa;개인 정보;데이터 보호;옵트 아웃;옵트 아웃;정부;규정
+keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: 유럽연합 일반 데이터 보호 규칙(GDPR), 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 사용자의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
 title: 유럽연합 일반 데이터 보호 규칙(GDPR), 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 사용자의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
+feature: null
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2276'
+ht-degree: 93%
 
 ---
 
@@ -47,11 +51,11 @@ source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 >[!NOTE]
 >
->CPA에 적용되는 데이터에 액세스하고 삭제하는 작업은 GDPR과 동일한 프로세스를 따릅니다.
+>CPA에 적용되는 데이터에 액세스하고 삭제하면 GDPR과 동일한 프로세스가 따릅니다.
 
 ## Adobe Target 및 [!DNL Experience Platform Launch] 선택 {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target]은 [!DNL Launch]를 통해 동의 관리 전략을 지원하는 데 도움이 되는 선택 기능 지원을 제공합니다. 선택 기능을 통해 고객이 태그를 실행하는 방법과 시기를 제어할 수 있습니다. [!DNL Target] 또한 [!DNL Launch]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Target] at.js 라이브러리에서 옵트인을 사용하는 기능을 활성화하려면 `targetGlobalSettings`를 사용하고 `optinEnabled=true` 설정을 추가해야 합니다. [!DNL Launch]에서는 [!DNL Launch] Extension 설치 보기의 [!UICONTROL GDPR 옵트인] 드롭다운 목록에서 "활성화"를 선택해야 합니다. 자세한 내용은 [Launch 설명서](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 참조하십시오.
+[!DNL Target]은 [!DNL Launch]를 통해 동의 관리 전략을 지원하는 데 도움이 되는 선택 기능 지원을 제공합니다. 선택 기능을 통해 고객이 태그를 실행하는 방법과 시기를 제어할 수 있습니다. [!DNL Target] 또한 [!DNL Launch]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Target] at.js 라이브러리에서 옵트인을 사용하는 기능을 활성화하려면 `targetGlobalSettings`를 사용하고 `optinEnabled=true` 설정을 추가해야 합니다. [!DNL Launch]에서는 [!DNL Launch] Extension 설치 보기의 [!UICONTROL GDPR 옵트인] 드롭다운 목록에서 &quot;활성화&quot;를 선택해야 합니다. 자세한 내용은 [Launch 설명서](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 참조하십시오.
 
 다음 코드 조각은 `optinEnabled=true` 설정을 활성화하는 방법을 보여 줍니다.
 
@@ -254,9 +258,9 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 |--- |--- |
 | jobId | 중앙 GDPR API의 GDPR 또는 CCPA 작업 ID를 나타냅니다. |
 | imsOrgID | 회사에 대한 고유 식별자를 제공합니다. |
-| namespace | 데이터 소스라고도 합니다. 이 주제에서 "고객이 Target에 대한 GDPR 또는 CCPA 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?"를 참조하십시오. |
-| 유형 | GDPR 또는 CCPA 데이터 액세스를 요청한 ID의 유형입니다. Target은 여러 가지 ID 유형을 지원하는데, 이 중 일부는 표준 ID 유형이며 일부는 Target에 고유한 ID 유형입니다. 이 주제에서 "고객이 Target에 대한 GDPR 또는 CCPA 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?"를 참조하십시오. |
-| value | 네임스페이스/데이터 소스의 ID입니다. 이 주제에서 "고객이 Target에 대한 GDPR 또는 CCPA 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?"를 참조하십시오. |
+| namespace | 데이터 소스라고도 합니다. 이 주제에서 &quot;고객이 Target에 대한 GDPR 또는 CCPA 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?&quot;를 참조하십시오. |
+| 유형 | GDPR 또는 CCPA 데이터 액세스를 요청한 ID의 유형입니다. Target은 여러 가지 ID 유형을 지원하는데, 이 중 일부는 표준 ID 유형이며 일부는 Target에 고유한 ID 유형입니다. 이 주제에서 &quot;고객이 Target에 대한 GDPR 또는 CCPA 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?&quot;를 참조하십시오. |
+| value | 네임스페이스/데이터 소스의 ID입니다. 이 주제에서 &quot;고객이 Target에 대한 GDPR 또는 CCPA 액세스 및 삭제 요청을 완료할 수 있도록 지원되는 ID는 무엇입니까?&quot;를 참조하십시오. |
 | 통합 코드 | 통합 코드는 데이터 소스의 친숙한 이름이며, 데이터 소스 ID를 사용하는 것보다 쉽게 데이터 소스를 추적하는 데 도움이 됩니다. |
 
 프로필을 식별하기 위해 여러 값이 제공된 경우 유효한 식별자마다 하나의 프로필 파일을 갖습니다. 프로필 파일은 GDPR 중앙 API를 통해 [!DNL Target] 프로필 JSON 응답 형식으로 중앙 GDPR Azure Blob에 전송됩니다.
@@ -294,6 +298,6 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 
 [!DNL Target]은 사용자가 IP 난독화를 GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 유사 IP 탐지를 지원합니다. 자세한 내용은 [개인 정보](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)를 참조하십시오.
 
-### 데이터가 제3자에게 공유되거나 판매되지 않도록 하려면 어떤 조치를 취해야 합니까?
+### 데이터가 제3자에게 공유되거나 판매되지 않도록 하려면 어떤 조치가 필요합니까?
 
-Target은 고객이 Target에서 제3자에게 직접 데이터를 공유하거나 판매할 수 있는 기능이 없으므로 Target에 대한 판매 옵트아웃이 없습니다.
+Target은 고객이 Target에서 제3자에게 직접 데이터를 공유 또는 판매할 수 있는 권한이 없으므로 Target에 대한 판매 수신을 거부할 수 없습니다.
