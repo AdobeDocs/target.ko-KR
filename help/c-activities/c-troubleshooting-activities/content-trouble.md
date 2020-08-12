@@ -2,11 +2,12 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: 페이지에 예상 컨텐츠가 표시되지 않으면 Adobe Target에서 컨텐츠 전달을 디버깅하는 몇 가지 단계를 수행할 수 있습니다.
 title: Adobe Target에서 컨텐츠 전달 문제 해결
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 67%
@@ -105,7 +106,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-자세한 내용은 Adobe Experience Cloud [디버거를 사용하여 Debug at.js를 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+자세한 내용은 Adobe Experience Cloud 디버거를 [사용하여 Debug at.js를 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## 전달 중 target.js가 로드되지 않는 경우 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
