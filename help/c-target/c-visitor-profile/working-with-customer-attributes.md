@@ -2,11 +2,12 @@
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
 description: Adobe Experience Cloud 사람 핵심 서비스의 고객 특성을 사용하여 Adobe Target에서 컨텐츠 타깃팅을 위한 CRM(고객 관계 관리) 데이터베이스의 기업 고객 데이터를 사용하는 방법에 대한 정보입니다.
 title: Adobe Target의 고객 속성
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 37%
@@ -158,7 +159,7 @@ You might encounter the following issues when working with customer attributes a
 >
 >문제 1과 2는 이 지역의 약 60%의 문제를 야기합니다. 문제 3은 약 30%의 문제를 야기합니다. 문제 4는 약 5%의 문제를 야기합니다. 나머지 5%는 기타 문제로 인해 발생합니다.
 
-### 문제 1: 프로필이 너무 커서 고객 속성이 제거됩니다
+### 문제 1:프로필이 너무 커서 고객 속성이 제거됩니다
 
 사용자 프로필의 특정 필드에 대해 문자 제한이 없지만 프로필이 64K보다 커지면 다시 64K보다 작아질 때까지 가장 오래된 속성을 제거하여 잘립니다.
 
@@ -166,11 +167,11 @@ You might encounter the following issues when working with customer attributes a
 
 일반적으로 파이프라인 연결 문제입니다. 해결 방법으로 고객 속성 팀에 피드를 다시 게시하라고 요청합니다.
 
-### 문제 3: 특성에 따라 배달이 작동하지 않음
+### 문제 3:특성에 따라 배달이 작동하지 않음
 
 프로필이 아직 에지에서 업데이트되지 않았습니다. 해결 방법으로 고객 속성 팀에 피드를 다시 게시하라고 요청합니다.
 
-### 문제 4: 구현 문제
+### 문제 4:구현 문제
 
 다음 구현 문제에 유의하십시오.
 
