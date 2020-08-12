@@ -1,11 +1,15 @@
 ---
-keywords: 컨텐츠;폴더 만들기;자산;폴더 이동;폴더 복사;폴더 삭제;폴더 다운로드;폴더
+keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: 오퍼 라이브러리에서 항목을 보관할 폴더를 만듭니다.
 title: 오퍼 폴더 만들기
+feature: null
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 99%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 오퍼 라이브러리에서 항목을 보관할 폴더를 만듭니다.
 
 1. **[!UICONTROL 오퍼]**&#x200B;를 클릭한 다음 **[!UICONTROL 코드 오퍼]** 또는 **[!UICONTROL 이미지 오퍼]** 탭을 적절하게 선택합니다.
-1. **[!UICONTROL 만들기]** &gt; **[!UICONTROL 폴더]**&#x200B;를 클릭합니다.
+1. Click **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
 1. 다음 필드를 채웁니다.
 
    | 필드 | 설명 |
