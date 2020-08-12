@@ -2,10 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: 속성을 만들고 속성 및 권한을 사용하는 방법에 대한 정보. Target 관리자는 이 기능을 사용하여 Target에서 개별 작업 공간(제품 프로필)을 만든 다음, 사용자에게 이 작업 공간을 기반으로 하는 개별 페이지, 속성 또는 웹 사이트에 대한 서로 다른 역할 및 권한을 지정할 수 있습니다.
 title: Enterprise 사용자 권한
+feature: null
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -27,9 +28,9 @@ Enterprise user permissions is a means of formal administering enterprise-wide u
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]고객&#x200B;**: [[!UICONTROL 사용자]] 탭([관리][!UICONTROL > [사용자]]가[!UICONTROL 아니라)이 표시되는 경우]조직의[!DNL Target Standard]라이센스는있습니다.[!DNL Target Standard]고객은[사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md)[!DNL Adobe Admin Console]지침을 따라 사용자를 추가하고
+* **[!DNL Target Standard]고객&#x200B;**:[[!UICONTROL 사용자]] 탭([관리][!UICONTROL > [사용자]]가[!UICONTROL 아니라)이 표시되는 경우]조직의[!DNL Target Standard]라이센스는있습니다.[!DNL Target Standard]고객은[사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md)[!DNL Adobe Admin Console]지침을 따라 사용자를 추가하고
 
-* **[!DNL Target Premium]고객&#x200B;**: [[!UICONTROL 속성]] 탭([!UICONTROL 관리]> 속성[!UICONTROL )과]사용자[!DNL Target Premium]탭이 표시되면 조직에라이센스가 있는 것입니다.[!DNL Target Premium]고객은 이 문서와[엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
+* **[!DNL Target Premium]고객&#x200B;**:[[!UICONTROL 속성]] 탭([!UICONTROL 관리]> 속성[!UICONTROL )과]사용자[!DNL Target Premium]탭이 표시되면 조직에라이센스가 있는 것입니다.[!DNL Target Premium]고객은 이 문서와[엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
 
 ## 엔터프라이즈 권한을 시작하기 전
 
@@ -55,7 +56,7 @@ Properties are similar in nature to those within [!DNL Adobe Platform Launch] in
 
 작업 공간을 사용하면 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 [!DNL Adobe Analytics]의 보고서 세트와 비슷합니다.
 
-참고: 작업 영역은 의 [!UICONTROL 제품] 프로필이라고 합니다 [!DNL Adobe Admin Console for Enterprise].
+참고:작업 영역은 의 [!UICONTROL 제품] 프로필이라고 합니다 [!DNL Adobe Admin Console for Enterprise].
 
 다국적 조직에 속하는 경우 유럽 웹 페이지, 속성 또는 사이트를 위한 작업 공간과 미국 웹 페이지, 속성 또는 사이트를 위한 또 다른 작업 공간이 있을 수 있습니다. 복수 브랜드 조직에 속하는 경우에는 각 브랜드를 위한 독립된 작업 공간이 있을 수 있습니다.
 
@@ -295,7 +296,7 @@ Consider the following when using or configuring properties and permissions in [
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### 근무 시간: Target 프리미엄 작업 영역
+### 근무 시간:Target 프리미엄 작업 영역
 
 이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 기록입니다.
 
@@ -306,6 +307,6 @@ Consider the following when using or configuring properties and permissions in [
 
 >[!NOTE]
 >
->관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다. 그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
