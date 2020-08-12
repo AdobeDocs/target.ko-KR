@@ -2,9 +2,13 @@
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: 권장 사항을 사용자 지정하려면 CSV 파일을 업로드합니다.
 title: 사용자 지정 기준 업로드
+feature: null
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +93,7 @@ Client Care에 문의하여 다음 CSV 업로드에 포함되지 않은 기존 �
 | 디렉토리를 찾을 수 없음 | 서버에 존재하는 디렉토리를 지정합니다. |
 | 파일을 찾을 수 없음 | 표시된 디렉토리의 서버에 있는 파일의 이름을 제공합니다. |
 
-## 교육 비디오: 추천에서 기준 만들기(12:33) 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 추천에서 기준 만들기(12:33) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함되어 있습니다(사용자 지정 기준 업로드에 대한 세부 사항은 11:43부터 시작).
 
