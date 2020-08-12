@@ -2,9 +2,13 @@
 keywords: Targeting;audiences;percentage target
 description: 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅하는 데 Adobe Target의 대상을 사용합니다.
 title: Adobe Target의 대상
+feature: null
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '354'
+ht-degree: 99%
 
 ---
 
