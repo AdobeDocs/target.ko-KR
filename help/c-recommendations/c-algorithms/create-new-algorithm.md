@@ -1,9 +1,13 @@
 ---
 description: 기준은 Adobe Recommendations 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
 title: 기준 만들기
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3605'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +51,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    * [!UICONTROL 소매/Ecommerce]
    * [!UICONTROL 리드 생성/B2B/금융 서비스]
    * [!UICONTROL 미디어/게시]
+
    기타 기준 옵션은 선택한 수직 시장에 따라 달라집니다.
 
 1. **[!UICONTROL 페이지 유형]**&#x200B;을 선택합니다.
@@ -94,6 +99,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
    * [!UICONTROL 부분 디자인 렌더링 활성화]
    * [!UICONTROL 백업 권장 사항 표시]
    * [!UICONTROL 이전에 구입한 항목 권장]
+
    이 설정은 `productPurchasedId`를 기준으로 합니다. 카약처럼 일반적으로 한 번만 구매하는 항목을 판매하는 경우에 유용합니다. 샴푸나 기타 개인용 항목과 같이 사람들이 다시 구매하러 오는 항목을 판매하는 경우, 이 옵션을 비활성화해야 합니다.
 
 1. **[!UICONTROL 포함 규칙]**&#x200B;을 설정합니다.
@@ -411,7 +417,7 @@ null 검색 결과 페이지는 사용하지 마십시오.
 
 ![](assets/Recs_ContentControls.png)
 
-| 부분 디자인 렌더링 | 백업 권장 사항 | 결과 |
+| 부분 디자인 렌더링 | 백업 Recommendations | 결과 |
 |--- |--- |--- |
 | 비활성화됨 | 비활성화됨 | 디자인이 요구하는 곳보다 더 적은 수의 권장 사항이 반환되면 권장 사항 디자인은 기본 콘텐츠로 대체되고 추가 권장 사항은 표시되지 않습니다. |
 | 활성화됨 | 비활성화됨 | 디자인이 렌더링되지만 디자인 요구하는 것보다 더 적은 수의 권장 사항이 반환되면 빈 공백이 포함될 수 있습니다. |
@@ -436,7 +442,7 @@ null 검색 결과 페이지는 사용하지 마십시오.
 
 >[!NOTE]
 >
->컨텐츠 유사성 알고리즘은 항목 간 유사성을 계산하는 데 무작위 샘플링을 사용할 수 있습니다. 따라서 항목 간 유사성 등급은 알고리즘 실행 간에 다를 수 있습니다.
+>컨텐츠 유사성 알고리즘은 항목 간 컴퓨팅 유사성에 임의 샘플링을 사용할 수 있습니다. 따라서 알고리즘 실행 간에 항목 간 유사성 등급이 다를 수 있습니다.
 
 ## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
