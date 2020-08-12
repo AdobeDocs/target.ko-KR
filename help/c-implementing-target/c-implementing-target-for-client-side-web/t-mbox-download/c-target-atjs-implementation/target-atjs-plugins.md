@@ -1,11 +1,15 @@
 ---
-keywords: at.js 플러그인;지원되는 플러그인;지원되지 않는 플러그인;ttMeta;ttmeta;mbox 추적
+keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
 description: Adobe Target에서 지원 및 지원되지 않는 at.js 플러그인 정보입니다.
 title: Adobe Target용 at.js 플러그인
+feature: null
 topic: Standard
 uuid: ef36b2b2-bf6d-497e-b3f5-2b572a1b8a8d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '209'
+ht-degree: 97%
 
 ---
 
