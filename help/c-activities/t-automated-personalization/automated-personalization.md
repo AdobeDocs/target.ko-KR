@@ -2,10 +2,14 @@
 keywords: automated personalization;Audiences;ensemble;random forest
 description: 자동화된 개인화(AP)는 컨텐츠를 개인화하고 상승도를 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결합니다.
 title: 자동화된 개인화
+feature: null
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1023'
+ht-degree: 98%
 
 ---
 
