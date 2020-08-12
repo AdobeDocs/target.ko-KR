@@ -1,11 +1,15 @@
 ---
-keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 삽입;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 교체;오퍼 바꾸기; 이미지 교체;이미지 바꾸기;항목 제거;항목 삭제;항목 숨기기;항목 숨김;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 네비게이션;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행
+keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Adobe Target VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다.
 title: Adobe Target VEC(시각적 경험 작성기) 선택 사항
+feature: null
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -55,7 +59,7 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
 [!UICONTROL 스타일] 패널을 사용하여 선택한 요소의 기존 스타일 값을 보거나 편집할 수 있습니다. 스타일을 추가할 수도 있습니다.
 
-[!UICONTROL 스타일] 패널에 액세스하려면 VEC 내에서 페이지 요소를 클릭한 다음 **[!UICONTROL 편집]** &gt; **[!UICONTROL 스타일]**&#x200B;을 클릭합니다.
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
 [!UICONTROL 스타일] 패널이 VEC 오른쪽에 표시됩니다. 이 패널에는 선택한 요소를 편집하거나 선택한 요소에 추가할 수 있는 스타일 목록이 포함되어 있습니다. CSS(Cascading Style Sheet)를 사용하는 데 익숙하거나 개발자로부터 코드를 받은 경우 실시간 CSS 편집기를 사용하면 변경 사항을 보고 스타일을 추가할 수 있습니다.
 
@@ -109,6 +113,7 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
    * 자동
    * 값(슬라이더를 드래그하여 여백을 설정하거나 각 여백에 대한 픽셀 수 지정)
+
    여백은 양수 및 음수 값을 지원합니다.
 
    Target은 rem, pc, em 등의 다른 크기 단위도 지원합니다. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,13 +137,14 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
    * 테두리 스타일(없음, 숨김, 점선, 파선, 단색 또는 이중)
    * 테두리 색상(색상 코드 지정 또는 색상 선택기 사용)
    * 테두리 폭(슬라이더를 드래그하여 테두리 폭을 선택하거나 폭을 픽셀 단위로 지정)
+
    테두리는 폭 조절을 0부터 지원합니다.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **위치**
 
-   선택한 요소를 해당 현재 위치에서 이동합니다. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   선택한 요소를 해당 현재 위치에서 이동합니다. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    [!UICONTROL 정적] 드롭다운 목록을 클릭하여 다음 위치 옵션 중에서 선택합니다.
 
@@ -147,10 +153,12 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
    * 절대
    * 고정
    * 고정
+
    각 위치에 대한 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
    * 자동
    * 값(슬라이더를 드래그하여 요소를 배치하거나 요소를 이동할 픽셀 수 지정)
+
    위치는 양수 및 음수 값을 지원합니다.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
@@ -324,7 +332,7 @@ CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것�
 
 요소를 제거합니다. 이미지 뒤의 공백은 제거되고 요소가 있던 공간은 축소됩니다.
 
-**참고:** "클래식" mbox(Target Classic 캠페인 내에서 만든 mbox) 내의 항목은 이 옵션을 사용하여 제거할 수 없습니다.
+**참고:** &quot;클래식&quot; mbox(Target Classic 캠페인 내에서 만든 mbox) 내의 항목은 이 옵션을 사용하여 제거할 수 없습니다.
 
 ### 섹션 확장
 
@@ -340,7 +348,7 @@ CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것�
 
 ## 고려 사항 {#considerations}
 
-* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)에서 'at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법'을 참조하십시오.
+* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)에서 &#39;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&#39;을 참조하십시오.
 
 ## DOM 경로를 사용하여 요소 탐색 {#dom-path}
 
