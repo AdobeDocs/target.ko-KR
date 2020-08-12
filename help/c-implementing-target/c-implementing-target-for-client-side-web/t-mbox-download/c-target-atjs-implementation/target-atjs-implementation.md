@@ -2,10 +2,11 @@
 keywords: Target Standard;at.js;implementation
 description: at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 Adobe Target용 구현 라이브러리입니다.
 title: mbox.js에서 at.js로 마이그레이션
+feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: d7c9f8c21a6acf195d416ad37d70c0b72d671ebc
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 89%
@@ -27,8 +28,7 @@ at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리�
 
 ## at.js의 이점 {#benefits}
 
-다음 표에서는 두 라이브러리 간의 차이점을 설명합니다.
-4
+다음 표에서는 두 라이브러리 간의 차이점을 설명합니다.4
 | 라이브러리 참조 | 설명 |
 |— |— |
 |at.js|at.js는 구현을 위해 mbox.js를 [!DNL Target] 대체합니다.<br>여러 가지 이점 중에서 at.js는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 보안을 강화하고, Google Chrome의 document.write 경고를 방지하며, 단일 페이지 애플리케이션에 대해 더 나은 구현 선택 사항을 제공합니다.<br>자세한 내용은 [at.js 구현](#implement)을 참조하십시오.|
