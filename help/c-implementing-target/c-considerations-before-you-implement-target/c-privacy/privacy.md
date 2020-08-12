@@ -2,11 +2,15 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: Adobe Target은 적용 가능한 데이터 개인 정보 보호 법률에 따라 Target을 사용할 수 있도록 허용하는 프로세스 및 설정을 제공합니다.
 title: 개인 정보 보호
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 78%
 
 ---
 
@@ -27,15 +31,15 @@ Adobe는 Adobe Target에 대해 Adobe Client Care에서 활성화할 수 있는 
 
 다음 설정을 사용할 수 있습니다.
 
-* 난독화 금지:Target은 IP 주소의 일부를 숨기지 않습니다.
+* 난독화 없음:Target은 IP 주소의 일부를 숨기지 않습니다.
 * 마지막 8진수:Target은 IP 주소의 마지막 8진수를 숨깁니다.
 * 전체 IP:Target은 전체 IP 주소를 숨깁니다.
 
-Target은 전체 IP 주소를 수신하고 지정된 대로 이를 난독화합니다(마지막 8진수나 전체 IP로 설정된 경우). 그런 다음 Target은 세션 동안 난독화된 IP 주소를 메모리에 저장합니다.
+Target은 지정된 대로 전체 IP 주소를 수신하고 이를 난독화합니다(마지막 8진이나 전체 IP로 설정된 경우). 그런 다음 Target은 세션 동안 난독화된 IP 주소를 메모리에 저장합니다.
 
 >[!NOTE]
 >
->[현재 사용 중인 설정을](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 확인하거나 IP 난독화 기능을 활성화하려면 Adobe Client Care에 문의하십시오.
+>[Adobe 클라이언트 지원팀에](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 문의하여 현재 사용 중인 설정을 확인하거나 IP 난독화 기능을 사용하도록 설정하십시오.
 
 ## 지리 특성 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
