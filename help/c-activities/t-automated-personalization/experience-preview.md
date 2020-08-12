@@ -1,26 +1,30 @@
 ---
 keywords: experience preview;experience urls;generate urls;view experience urls
-description: Target 자동화된 개인화 활동에 대한 경험 미리 보기 URL을 생성하여 활동이 미리 보기 및 QA를 위해 라이브되기 전에 사이트에서 직접 경험 컨텐츠를 볼 수 있습니다. 타깃팅을 무시하여 특정 경험을 강제로 볼 수 있도록 미리 보기 URL이 무시됩니다.
-title: 경험 미리 보기 URL 파섹
+description: Target Automated Personalization 활동에 대한 경험 미리 보기 URL을 생성하여 활동이 미리 보기 및 QA용으로 라이브되기 전에 사이트에서 직접 경험 컨텐츠를 볼 수 있습니다. 경험 미리 보기 URL은 타깃팅을 무시하여 특정 경험을 강제로 봅니다.
+title: 경험 미리 보기 URL을 사용하여 Automated Personalization 활동 미리 보기
+feature: null
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 64%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 경험 미리 보기 URL을 사용하여 자동화된 개인화 활동 미리 보기{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![프리미엄](/help/assets/premium.png) 미리 보기 URL을 사용하여 Automated Personalization 활동 미리 보기{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
-Target 자동화된 개인화 활동에 대한 경험 미리 보기 URL을 생성하여 활동이 미리 보기 및 QA를 위해 라이브되기 전에 사이트에서 직접 경험 컨텐츠를 볼 수 있습니다. 타깃팅을 무시하여 특정 경험을 강제로 볼 수 있도록 미리 보기 URL이 무시됩니다.
+Target Automated Personalization 활동에 대한 경험 미리 보기 URL을 생성하여 활동이 미리 보기 및 QA용으로 라이브되기 전에 사이트에서 직접 경험 컨텐츠를 볼 수 있습니다. 경험 미리 보기 URL은 타깃팅을 무시하여 특정 경험을 강제로 봅니다.
 
 >[!NOTE]
 >
->자동 개인화를 위한 경험 미리 보기 URL은 활동 QA 모드와 다릅니다. 활동 QA 모드에서는 다른 유형의 활동에 대한 활동 URL을 만들 수 있습니다. 자세한 내용은 [활동 QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)를 참조하십시오.
+>Automated Personalization에 대한 경험 미리 보기 URL은 활동 QA 모드와 다릅니다. 활동 QA 모드에서는 다른 유형의 활동에 대한 활동 URL을 만들 수 있습니다. 자세한 내용은 [활동 QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)를 참조하십시오.
 >
 >AP 활동에 대한 경험 미리 보기 URL은 at.js 1.x를 사용하는 경우에만 사용할 수 있습니다.AP 활동에 대한 경험 미리 보기 URL은 현재 at.js 2.x에서 지원되지 않습니다.
 
-경험 미리 보기 URL을 사용하여 별도의 QA 활동을 만들지 않고도 다양한 브라우저와 환경에서 팀 멤버와 QA 경험을 공유할 수 있습니다. 이 기능은 사이트가 복잡한 경우나 보안 정책 때문에 해당 사이트를 시뮬레이터에서 볼 수 없는 경우에 특히 유용합니다.
+경험 미리 보기 URL을 사용하여 별도의 QA 활동을 만들지 않고도 다양한 브라우저와 환경에서 팀 멤버와 경험을 공유하고 QA 경험을 공유할 수 있습니다. 이 기능은 사이트가 복잡한 경우나 보안 정책 때문에 해당 사이트를 시뮬레이터에서 볼 수 없는 경우에 특히 유용합니다.
 
 1. [자동화된 개인화 활동](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)을 만들거나 해당 활동을 클릭하여 엽니다.
 
@@ -30,6 +34,7 @@ Target 자동화된 개인화 활동에 대한 경험 미리 보기 URL을 생�
 
    * 시각적 경험 작성기를 사용하는 경우 활동에 대해 지정한 기본 URL이 자동으로 입력되고, 활동의 각 경험에 대해 링크가 생성됩니다. 원할 경우 이 URL을 변경하고 다른 URL을 추가할 수 있습니다.
    * 양식 기반 경험 작성기를 사용하는 경우 기본 URL이 자동으로 입력되지 않습니다. If you haven&#39;t previously created experience preview URLs, click **Add New URL**. 미리 보려는 모든 URL과 각 URL의 이름을 지정해야 합니다.
+
    여러 URL을 추가할 수 있습니다. 이러한 기능은 다중 페이지 테스트 또는 템플릿 테스트를 실행하며 둘 이상의 페이지에서 활동을 미리 보려는 경우에 유용합니다.
 
    모달 창에는 Target의 시각적 경험 작성기 외부에서 경험을 &quot;실제로 미리 볼 수 있도록&quot; 사이트의 경험에 대한 링크가 표시됩니다. 미리 보기를 공유하려면 메시지에서 링크를 공유해야 합니다. URL에는 메시지의 링크에서 페이지에 액세스할 때만 페이지를 올바르게 표시하는 매개 변수가 포함되어 있으므로 링크를 클릭한 다음, 페이지에서 결과 URL을 복사할 수 없습니다. 대신 모달 창에서 텍스트를 복사하고 전체 텍스트를 팀에 이메일로 보냅니다.
@@ -64,7 +69,7 @@ Target 자동화된 개인화 활동에 대한 경험 미리 보기 URL을 생�
 **경험 미리 보기 URL을 사용하여 경험 보기**
 
 * 페이지가 변경되지 않는 한, 저장된 활동을 미리 볼 수 있습니다.
-* 활동 활성화 또는 비활성 여부에 관계없이 경험 미리 보기 URL을 사용할 수 있습니다.
+* 활동이 활성 상태이든 비활성 상태이든 경험 미리 보기 URL을 사용할 수 있습니다.
 * 초안 상태의 경험은 미리 볼 수 없습니다.
 * 경험 미리 보기 URL을 보면 보고에 영향을 받지 않습니다.
 
