@@ -1,10 +1,11 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: 자동 타겟
+feature: null
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 85%
@@ -234,7 +235,7 @@ AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/au
 
 ### 자동 Target 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?
 
-자동 Target [!UICONTROL 활동에 대해] 보고서 데이터 [!UICONTROL 재설정 옵션] 은사용하지 않는 것이 좋습니다. 보이는 보고 데이터를 제거하지만 이 옵션은 [!UICONTROL 자동 Target] 모델에서 모든 교육 레코드를 제거하지 않습니다. 자동 Target [!UICONTROL 활동에 대해 보고서 데이터] 재설정 [!UICONTROL 옵션] 을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고: 이 지침은 자동 할당 [!UICONTROL 및] Automated Personalization  활동에도 적용됩니다.)
+자동 Target [!UICONTROL 활동에 대해] 보고서 데이터 [!UICONTROL 재설정 옵션] 은사용하지 않는 것이 좋습니다. 보이는 보고 데이터를 제거하지만 이 옵션은 [!UICONTROL 자동 Target] 모델에서 모든 교육 레코드를 제거하지 않습니다. 자동 Target [!UICONTROL 활동에 대해 보고서 데이터] 재설정 [!UICONTROL 옵션] 을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고:이 지침은 자동 할당 [!UICONTROL 및] Automated Personalization  활동에도 적용됩니다.)
 
 ## [!UICONTROL 자동 타겟] 문제 해결 {#section_23995AB813F24525AF294D20A20875C8}
 
