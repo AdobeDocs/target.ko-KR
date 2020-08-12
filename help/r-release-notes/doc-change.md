@@ -5,9 +5,9 @@ title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 118ca52beebcc11795b381f7f1fdcea305d2005f
+source-git-commit: 4287c93058e279da6de262a19fbabb4bbacdf7ad
 workflow-type: tm+mt
-source-wordcount: '1850'
+source-wordcount: '1856'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 8월 12일 | [Target UI 이해](/help/c-intro/understand-the-target-ui.md) | 새 주제입니다.  |
+|  | [Adobe Target API 개요](/help/api/api-overview.md) | 새 주제입니다.  |
 | 8월 10일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | CNAME 사용 시 쿠키 헤더의 크기가 증가함을 나타내는 텍스트가 추가되었습니다. |
 |  | [Adobe Audience Manager과 Target 통합](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | 새 주제입니다.  |
 |  | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 보관된 웨비나를 보기 위한 링크가 추가되었습니다.&quot;HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법&quot; |
