@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Adobe Target의 대상은 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정합니다.
 title: Adobe Target에서 대상 만들기
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 95%
 
 ---
 
@@ -16,7 +20,7 @@ Adobe Target의 대상은 타깃팅된 활동에서 콘텐츠 및 경험을 보�
 
 대상은 타깃팅이 가능한 모든 곳에서 사용됩니다. 활동을 타깃팅할 때 [!UICONTROL 대상] 목록에서 재사용 가능한 대상을 선택하고, [활동별 대상을 만들고](/help/c-target/creating-activity-only-audience.md) 타깃팅하거나, [여러 대상을 결합](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 임시 대상을 만들 수 있습니다.
 
-또한 [!DNL Adobe Target] 및 기타 [!DNL Experience Cloud] 솔루션에서는 실시간 타깃팅 및 개인화에 [!DNL Analytics]에서 수집한 대상 데이터를 사용할 수도 있습니다. 핵심 [서비스](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 사용 안내서의 *대상을 참조하십시오*.
+또한 [!DNL Adobe Target] 및 기타 [!DNL Experience Cloud] 솔루션에서는 실시간 타깃팅 및 개인화에 [!DNL Analytics]에서 수집한 대상 데이터를 사용할 수도 있습니다. 핵심 [서비스 사용자](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 안내서의 *대상을 참조하십시오*.
 
 [!DNL Target]에서는 두 가지 유형의 대상을 정의합니다.
 
@@ -79,7 +83,7 @@ AAM에서 원래 만들어진 대상과 작업할 때 AAM에서 나중에 삭제
 * 표현식 타깃팅 대상은 더 이상 Target Standard/Premium에서 지원되지 않습니다.
 * Target Standard/Premium이 일부 사용되지 않는 대상을 지원하지 않거나, 사용하기 쉽도록 연산자를 개선했습니다. 이러한 이유로 특정 대상을 가져올 경우, 가져온 대상의 정의가 올바르게 작동하더라도 Standard/Premium 인터페이스에서 해당 대상을 생성하지 못할 수도 있습니다. 예를 들어, 소셜 대상은 해당 규칙으로 표시되지만 Target Standard/Premium에서는 소셜 대상을 만들 수 없습니다.
 
-## 교육 비디오: 대상 사용 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 대상 사용 ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에는 대상 사용에 대한 정보가 포함되어 있습니다.
 
