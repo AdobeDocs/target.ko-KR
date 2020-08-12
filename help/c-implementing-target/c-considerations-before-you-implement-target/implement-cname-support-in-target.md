@@ -5,9 +5,9 @@ title: CNAME 및 Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
+source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1183'
 ht-degree: 2%
 
 ---
@@ -36,7 +36,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
    >* Adobe 인증 기관인 DigiCert는 이 단계가 완료될 때까지 인증서를 발급할 수 없습니다. 따라서 Adobe은 이 단계가 완료될 때까지 CNAME 구현에 대한 요청을 이행할 수 없습니다.
 
 
-1. 다음 양식을 작성하고 CNAME 지원을 요청하는 Adobe 클라이언트 지원 티켓을 [열 때 포함합니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+1. [CNAME 지원을 요청하는 Adobe 클라이언트 지원 티켓을](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) 열 때 이 양식을 작성하고 포함시키십시오 [](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
    * Adobe [!DNL Target] client code:
    * SSL 인증서 호스트 이름(예: `target.example.com target.example.org`):
