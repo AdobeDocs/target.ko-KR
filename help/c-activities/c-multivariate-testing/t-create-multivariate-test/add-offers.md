@@ -1,9 +1,13 @@
 ---
 description: Adobe Target의 VEC(시각적 경험 작성기)를 사용하여 MVT(다변량 테스트)에 포함할 오퍼를 만듭니다.
 title: Adobe Target을 사용하여 MVT(다변량 테스트)의 조합 만들기
+feature: null
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
@@ -48,7 +52,7 @@ VEC를 사용하여 오퍼를 만들고 편집하는 방법에 대한 자세한 
 
    포함하려는 모든 추가적인 텍스트/HTML 오퍼에 이 작업을 반복합니다.
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 각 텍스트/HTML 오퍼가 해당 위치에서 별도의 경험이 됩니다.
 
