@@ -1,9 +1,13 @@
 ---
 description: Target이 페이지의 호출을 수행하고 호출에 응답하는 방식은 사용 중인 Target 라이브러리 버전, Experience Cloud 방문자 ID 구현이 존재하는지 여부, 방문자 ID가 있는지 여부에 따라 다릅니다.
 title: mbox.js 라이브러리 버전별 Target 페이지 방법
+feature: null
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '867'
+ht-degree: 100%
 
 ---
 
@@ -42,7 +46,7 @@ Target이 페이지의 호출을 수행하고 호출에 응답하는 방식은 �
 >
 >mbox 이름은 동일하지만 매개 변수가 다른 여러 개의 ajax mbox 호출의 경우 동일한 페이지에서 작동하지 않습니다. 첫 번째 호출만 수행됩니다.
 
-이전 구현에서 이전에 사용했던 페이지에서 [!DNL Target Standard]나 [!DNL Premium]을 구현하는 경우처럼, "글로벌 mbox를 자동으로 만들기"를 사용하지만 페이지에 `mboxCreate` 호출도 있는 경우, 글로벌 mbox 호출은 글로벌 mbox를 **자동으로 만들기 - 표준** 종단점을 사용하여 수행되고 `mboxCreate` 호출은 **표준** 종단점을 사용하여 수행됩니다. **표준** 종단점은 `document.write()`을 사용하여 호출하고 응답합니다. 이렇게 하면 모든 정보가 다운로드되기 전까지는 ajax 응답에 전달된 컨텐츠를 포함하여 페이지 로드가 차단됩니다.
+이전 구현에서 이전에 사용했던 페이지에서 [!DNL Target Standard]나 [!DNL Premium]을 구현하는 경우처럼, &quot;글로벌 mbox를 자동으로 만들기&quot;를 사용하지만 페이지에 `mboxCreate` 호출도 있는 경우, 글로벌 mbox 호출은 글로벌 mbox를 **자동으로 만들기 - 표준** 종단점을 사용하여 수행되고 `mboxCreate` 호출은 **표준** 종단점을 사용하여 수행됩니다. **표준** 종단점은 `document.write()`을 사용하여 호출하고 응답합니다. 이렇게 하면 모든 정보가 다운로드되기 전까지는 ajax 응답에 전달된 컨텐츠를 포함하여 페이지 로드가 차단됩니다.
 
 [!DNL Target Classic]을 사용하여 작성된 페이지 등에서 mboxCreate만 사용하는 경우에는 페이지가 평상시처럼 작동합니다.
 
