@@ -2,11 +2,12 @@
 keywords: setting up;setup;set-up;set up;administration
 description: 환경 설정, 구현, 사용자 관리, 속성, Scene7 구성, 호스트 관리 및 응답 토큰을 포함하여 Adobe Target을 설정하는 데 도움이 되는 정보입니다.
 title: Adobe Target 관리
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 17%
