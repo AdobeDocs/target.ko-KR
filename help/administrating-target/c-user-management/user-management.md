@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Target Standard에서 사용자를 관리하고 Target Premium에서 Enterprise 속성 및 권한을 관리하는 방법에 대한 정보입니다.
 title: 사용자 관리
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -20,7 +21,7 @@ Information about managing users in [!DNL Target] Standard and managing enterpri
 
 >[!NOTE]
 >
->속성 및 권한 기능은 [!UICONTROL  솔루션의 일부로 사용할 수 있습니다. ][!DNL Target Premium] 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다. 고급 [!DNL Target] Premium 기능에 대한 자세한 내용은 [Target 소개](/help/c-intro/intro.md#premium) 에서 *Target Premium*&#x200B;을 참조하십시오.
+>속성 및 권한 기능은 [!UICONTROL  솔루션의 일부로 사용할 수 있습니다. ][!DNL Target Premium] 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다. 고급 [!DNL Target] 프리미엄 기능에 대한 자세한 내용은 Target 소개 [의 Target Premium](/help/c-intro/intro.md#premium)*을 참조하십시오*.
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
@@ -28,9 +29,10 @@ You can tell whether your organization has a Standard or Premium license by clic
 
    * 사용자 탭( [!UICONTROL 관리]  > [!UICONTROL 사용자] )이 표시됩니다.
    * 속성 탭 *(* 관리  > 속성 [!UICONTROL )은 표시되지] [!UICONTROL 않습니다] .
+
    [!DNL Target] Standard 고객은 [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md)의 지침에 따라 Adobe Admin Console에서 사용자를 추가하고 권한을 지정해야 합니다.
 
-* **Target Premium 고객:** 조직에 [!DNL Target] 프리미엄 라이선스가 있는 경우 Target UI에서 다음을 준수합니다.
+* **Target 프리미엄 고객:** 조직에 [!DNL Target] 프리미엄 라이선스가 있는 경우 Target UI에서 다음을 준수합니다.
 
    * 속성 탭 [!UICONTROL 이] 표시됩니다( [!UICONTROL 관리] > [!UICONTROL 속성] ).
    * 또한 [!UICONTROL 사용자] 탭( [!UICONTROL 관리] > [!UICONTROL 사용자] 도참조)이 표시됩니다.
