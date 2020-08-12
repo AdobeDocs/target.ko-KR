@@ -1,10 +1,14 @@
 ---
-keywords: 권장 사항
+keywords: Recommendations
 description: AP(자동화된 개인화) 활동은 한 페이지의 여러 오퍼를 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 title: Adobe Target 시각적 경험 작성기에서 AP(자동화된 개인화) 활동에 대한 미리 보기 환경
+feature: null
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '256'
+ht-degree: 100%
 
 ---
 
@@ -41,4 +45,4 @@ AP(자동화된 개인화) 활동은 한 페이지의 여러 오퍼를 비교하
 
    제외된 여러 경험을 포함하려면 원하는 경험에 대한 확인란을 선택한 다음 목록의 오른쪽 상단에 있는 **[!UICONTROL 포함]** 아이콘을 클릭합니다.
 
-1. 변경할 수 있도록 **[!UICONTROL 작성]**&#x200B;을 클릭하여 시각적 경험 작성기로 돌아가거나, **[!UICONTROL 다음]**&#x200B;을 클릭하여 [!UICONTROL 타깃팅] 단
+1. 변경할 수 있도록 **[!UICONTROL 작성]**&#x200B;을 클릭하여 시각적 경험 작성기로 돌아가거나, **[!UICONTROL 다음]**&#x200B;을 클릭하여 [!UICONTROL 타깃팅] 단계로 이동합니다.
