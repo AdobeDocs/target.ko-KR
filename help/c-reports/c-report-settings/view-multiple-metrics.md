@@ -1,10 +1,14 @@
 ---
-keywords: Target;보고서;보고서 설정;여러 지표;지표
+keywords: Target;reports;report settings;multiple metrics;metrics
 description: Adobe Target을 사용하여 보고서에서 볼 지표를 여러 개 선택합니다.
 title: Adobe Target을 사용하여 보고서에서 여러 지표 보기
+feature: null
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 70%
 
 ---
 
@@ -22,7 +26,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 **보고서에 표시할 지표를 여러 개 선택하려면 다음을 수행하십시오.**
 
-1. 보고서를 표시하려면 **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **보고서]탭을 클릭하십시오.[!UICONTROL **
+1. 보고서를 표시하려면 **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **[!UICONTROL 보고서]** 탭을 클릭하십시오.
 1. **[!UICONTROL 보고서 지표]** 드롭다운 목록을 클릭하여 [!UICONTROL 표시된 지표] 및 [!UICONTROL 숨겨진 지표] 목록을 표시합니다.
 
    ![](assets/multiple_metrics.png)
@@ -41,8 +45,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    [!UICONTROL 표시된 지표] 목록에서 지표를 원하는 순서로 드래그하여 놓아 지표들을 다시 정렬할 수 있습니다. 선택한 순서는 표 보기와 그래프 보기에 반영됩니다. [!UICONTROL 표시된 지표] 목록에서 지표를 제거하려면 지표를 마우스 포인터로 가리킨 다음, **X** 아이콘을 클릭하십시오.
 
-1. 완료되면 **[!UICONTROL 저장]을 클릭합니다.**
-1. (조건부) 테이블 보기에서 보고서를 보는 동안 지표의 열 머리글에 마우스 포인터를 올려 놓아 파란색 화살표를 표시합니다. 이 화살표를 클릭하여 해당 지표에 대한 [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도]를 표시하도록 표를 확장하십시오.
+1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. (조건부) 테이블 보기에서 보고서를 보는 동안 지표의 열 머리글에 마우스 포인터를 올려 파란색 화살표를 표시합니다. 이 화살표를 클릭하여 해당 지표에 대한 [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도]를 표시하도록 표를 확장하십시오.
 
    ![](assets/multiple_metrics_table.png)
 
