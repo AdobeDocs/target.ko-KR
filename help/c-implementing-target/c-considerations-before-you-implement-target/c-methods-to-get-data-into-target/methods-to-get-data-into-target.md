@@ -1,12 +1,16 @@
 ---
-keywords: 구현;구현하기;설정하기;설정;페이지 매개 변수;tomcat;url 인코딩;인페이지 프로필 속성;mbox 매개 변수;인페이지 프로필 속성;스크립트 프로필 속성;벌크 프로필 업데이트 API;단일 파일 업데이트 API;고객 속성;데이터 공급자;dataprovider;데이터공급자
+keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: 페이지 매개 변수, 인페이지 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 비롯하여 데이터를 Target에 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
 title: 데이터를 Target에 가져오는 방법
-subtopic: 시작하기
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 페이지 매개 변수, 인페이지 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 비롯하여 데이터를 Target에 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
 
-## 페이지 매개 변수("mbox 매개 변수"라고도 함){#section_5A297816173C4FE48DC4FE03860CB42B}
+## 페이지 매개 변수(&quot;mbox 매개 변수&quot;라고도 함){#section_5A297816173C4FE48DC4FE03860CB42B}
 
 페이지 매개 변수는 나중에 사용할 수 있도록 방문자 프로필에 저장되지 않은 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다.
 
@@ -23,7 +27,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ### 형식
 
-페이지 매개 변수는 서버 호출을 통해 문자열 이름/값 쌍으로 Target에 전달됩니다. 매개 변수 이름과 값은 사용자 지정할 수 있습니다(특정 용도로 "예약된 이름"도 있음).
+페이지 매개 변수는 서버 호출을 통해 문자열 이름/값 쌍으로 Target에 전달됩니다. 매개 변수 이름과 값은 사용자 지정할 수 있습니다(특정 용도로 &quot;예약된 이름&quot;도 있음).
 
 예:
 
@@ -53,7 +57,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    IETF 사이트에서 언급된 것 외에도, Target은 쿼리 문자열에 다음과 같은 문자를 허용합니다.
 
-   `&lt; &gt; # % " { } | \\ ^ \[\] \``
+   `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
    다른 모든 문자는 URL로 인코딩해야 합니다. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
@@ -85,7 +89,7 @@ mboxCreate 코드에 있는 매개 변수:
 
 카테고리 친화성: [카테고리 친화성](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
 
-## 인페이지 프로필 속성("mbox 내 프로필 속성"이라고도 함) {#section_57E1C161AA7B444689B40B6F459302B6}
+## 인페이지 프로필 속성(&quot;mbox 내 프로필 속성&quot;이라고도 함) {#section_57E1C161AA7B444689B40B6F459302B6}
 
 인페이지 프로필 속성은 나중에 사용할 수 있도록 방문자 프로필에 저장된 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다.
 
@@ -93,9 +97,9 @@ mboxCreate 코드에 있는 매개 변수:
 
 ### 형식
 
-인페이지 프로필 속성은 서버 호출을 통해 속성 이름 앞에 접두사 "profile."을 사용하는 문자열 이름/값 쌍으로 Target에 전달됩니다.
+인페이지 프로필 속성은 서버 호출을 통해 속성 이름 앞에 접두사 &quot;profile.&quot;을 사용하는 문자열 이름/값 쌍으로 Target에 전달됩니다.
 
-속성 이름과 값은 사용자 지정할 수 있습니다(특정 용도로 "예약된 이름"도 있음).
+속성 이름과 값은 사용자 지정할 수 있습니다(특정 용도로 &quot;예약된 이름&quot;도 있음).
 
 예:
 
@@ -148,7 +152,7 @@ mboxCreate 코드에 있는 속성:
 
 ### 형식
 
-스크립트 프로필 속성은 Target의 대상 섹션에서 만들어집니다. 모든 속성 이름은 유효하며, 값은 Target 사용자가 작성한 JavaScript 함수의 결과입니다. 인페이지 프로필 속성과 구분할 수 있도록 속성 이름에는 Target에서 자동으로 "user. "가 접두사로 지정됩니다.
+스크립트 프로필 속성은 Target의 대상 섹션에서 만들어집니다. 모든 속성 이름은 유효하며, 값은 Target 사용자가 작성한 JavaScript 함수의 결과입니다. 인페이지 프로필 속성과 구분할 수 있도록 속성 이름에는 Target에서 자동으로 &quot;user. &quot;가 접두사로 지정됩니다.
 
 코드 조각은 Rhino JS 언어로 작성되며 토큰 및 기타 값을 참조할 수 있습니다.
 
@@ -224,8 +228,8 @@ at.js는 데이터를 캐시하려고 하지 않습니다. 데이터 공급자�
 
 ### 교육 비디오:
 
-* [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 벌크 프로필 업데이트 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
