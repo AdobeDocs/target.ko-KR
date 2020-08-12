@@ -1,11 +1,15 @@
 ---
-keywords: 대상;대상 규칙;대상 만들기;대상 생성;활동 전용;활동전용;임시
+keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
 description: Adobe Target 내에서 활동을 만들 때 안내가 있는 3단계 워크플로우에서 활동 전용 대상을 만듭니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 대상 라이브러리에 저장되지는 않습니다.
 title: 활동 전용 대상 만들기 Adobe Target에서
-topic: 고급,Standard,Classic
+feature: null
+topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '402'
+ht-degree: 100%
 
 ---
 
@@ -19,11 +23,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 * 활동 전용 대상을 사용하여 한 번만 사용하려고 하며 [!UICONTROL 대상 라이브러리]에 저장하지 않으려는 대상을 만들 수 있습니다. 이렇게 하면 다시 사용하지 않으려는 대상으로 [!UICONTROL 대상 라이브러리]가 복잡해지지 않게 됩니다.
 * 활동 전용 대상은 [!UICONTROL 대상 라이브러리]에 표시되지 않습니다. 따라서 조직의 다른 사용자가 원치 않는 방식으로 변경하지 않도록 방지됩니다.
 
-1. **[!UICONTROL 타겟]** 페이지에서 [활동](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 만드는 동안 3개의 세로 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
+1. [타겟](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 페이지에서 **[!UICONTROL 활동]**&#x200B;을 만드는 동안 3개의 세로 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/edit_audience.png)
 
-1. 대상 선택&#x200B;**[!UICONTROL 페이지에서]활동 전용 대상**&#x200B;을 클릭합니다.
+1. 대상 선택&#x200B;**[!UICONTROL 페이지에서]**&#x200B;활동 전용 대상을 클릭합니다.
 
    ![](assets/activity-only-aud.png)
 
@@ -38,7 +42,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    각 규칙 유형에는 고유한 매개 변수가 있습니다. 각 유형의 대상 규칙을 구성하는 방법에 대한 자세한 내용은 [대상 카테고리](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)를 참조하십시오.
 
 1. 규칙 매개 변수를 정의합니다.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ## 고려 사항
 
