@@ -1,11 +1,15 @@
 ---
-keywords: qa;미리 보기;미리보기 링크;모바일;모바일 미리보기
+keywords: qa;preview;preview link;mobile;mobile preview
 description: 모바일 미리 보기 링크를 사용하여 모바일 앱 활동에 대한 간단한 종단 간 QA를 수행하고 특별한 테스트 장치 없이 장치에서 다양한 경험을 직접 등록할 수 있습니다.
 title: Adobe Target Mobile에서 모바일 미리 보기 링크 사용
-topic: 고급,Standard,Classic
+feature: null
+topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '587'
+ht-degree: 93%
 
 ---
 
@@ -28,8 +32,8 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    적절한 SDK를 다운로드하는 방법에 대한 지침은
 
-   * **** iOS:Mobile [Services iOS 도움말에서](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) 시작하기 *전에*.
-   * **** Android:Mobile [Services Android 도움말에서](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) 시작하기 *전에*.
+   * **iOS:**[Mobile Services iOS 도움말을](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) 시작하기 전에 *시작하십시오*.
+   * **Android:**[Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) Android 도움말에서 시작하기 **&#x200B;전에
 
 1. **URL 체계 설정:** 미리 보기 링크는 URL 체계를 사용하여 앱을 엽니다. 미리 보기에 대해 고유한 URL 체계를 지정해야 합니다.
 
