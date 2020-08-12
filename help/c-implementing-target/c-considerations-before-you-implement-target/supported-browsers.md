@@ -2,11 +2,12 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: Adobe Target 애플리케이션 및 콘텐츠 전달은 다양한 브라우저 및 장치에서 테스트되었습니다.
 title: 지원되는 브라우저
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 81%
