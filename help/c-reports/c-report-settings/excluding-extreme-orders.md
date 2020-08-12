@@ -1,10 +1,14 @@
 ---
-keywords: Target;보고서;보고서 설정;예외적인 주문;예외적인 값
-description: Adobe Target에서 보고서에 영향을 주는 예외적인 값을 제외하여 몇 가지 비정상적인 주문이 활동 결과에 영향을 주지 않습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
+keywords: Target;reports;report settings;extreme orders;extreme values
+description: Adobe Target의 영향을 받는 보고서에서 예외적인 값을 제외하여 몇 가지 비정상적인 주문이 활동 결과에 영향을 주지 않도록 할 수 있습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
 title: Adobe Target 보고서에서 예외적인 값 제외
+feature: null
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '342'
+ht-degree: 88%
 
 ---
 
@@ -37,4 +41,4 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
    ![단계 결과](assets/exclude_extreme_values.png)
 
 1. 원하는 대로 **[!UICONTROL 예외적인 값 제외]** 선택 사항을 전환하거나 해제합니다.
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
