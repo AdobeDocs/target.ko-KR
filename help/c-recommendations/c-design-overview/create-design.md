@@ -2,9 +2,13 @@
 keywords: recommendations design;create design;copy design
 description: 디자인은 페이지에 권장 사항이 어떻게 나타나는지를 정의합니다.
 title: 디자인 만들기
+feature: null
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 95%
 
 ---
 
@@ -110,7 +114,7 @@ source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
 | 매개 변수 | 값 |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(../target/products.html#recs설정 > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능) |
-| `[YOUR_MBOX_NAME]` | 양식 기반 Recommendations의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response). |
+| `[YOUR_MBOX_NAME]` | 양식 기반 Recommendations의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response)입니다. |
 | `[ENTITY_ID`] | 카탈로그에 있는 항목의 `entity.id`입니다. |
 | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
 
