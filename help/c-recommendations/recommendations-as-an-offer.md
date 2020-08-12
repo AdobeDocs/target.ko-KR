@@ -2,8 +2,12 @@
 keywords: Recommendations;offer
 description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
 title: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
+feature: null
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -117,6 +121,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ![추천 오퍼 상태](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 교육 비디오:오퍼로서 권장 사항 개요 ![배지](/help/assets/overview.png)
+## 교육 비디오:오퍼 ![개요 배지로 사용](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
