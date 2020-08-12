@@ -1,11 +1,15 @@
 ---
-keywords: 여러 대상;경험 버전;target 경험 버전
+keywords: multiple audiences;experience versions;target experience versions
 description: A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃팅할 수 있습니다. 시각적 경험 작성기 또는 양식 기반 경험 작성기에서는 한 경험에 대해 여러 대상을 설정할 수 있습니다.
 title: A/B 테스트의 여러 경험 버전
+feature: null
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '605'
+ht-degree: 98%
 
 ---
 
@@ -32,7 +36,7 @@ A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃
 
    여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상을 선택합니다.
 
-1. 경험을 선택한 다음 **[!UICONTROL 구성]** &gt; **[!UICONTROL 대상]** &gt; **[!UICONTROL 여러 대상]**&#x200B;을 클릭합니다.
+1. Select the experience, then click **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
    ![여러 대상 선택 사항](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
@@ -50,5 +54,5 @@ A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃
 
 * 상호 배타적인 대상을 선택합니다. 활동이 VEC에서 만들어진 경우, 방문자가 둘 이상의 대상과 일치하면 각 대상을 위한 콘텐츠가 반환되고, 마지막에 나열된 대상의 콘텐츠가 페이지에서 표시됩니다.
 * 다이어그램에 정의된 활동 진입 대상은 AND 조건을 사용하여 경험 대상과 결합됩니다. 활동을 시작하려면 방문자가 활동 대상과 경험 대상 중 하나에 대해 적격이어야 합니다.
-* 보고서에 대해 세그먼트와 동일한 대상을 추가합니다. 이렇게 하면 높은 수준의 경험 A 및 B에서 테스트 결과를 확인하고, "브라우저 언어 jp_JP"에 대해서만 더 낮은 수준의 경험 A 및 B에서 테스트 결과를 확인하는 데 도움이 됩니다. 이 방식은 Analytics 기반 보고서가 아닌 Target 기반 보고서에서 작동합니다.
+* 보고서에 대해 세그먼트와 동일한 대상을 추가합니다. 이렇게 하면 높은 수준의 경험 A 및 B에서 테스트 결과를 확인하고, &quot;브라우저 언어 jp_JP&quot;에 대해서만 더 낮은 수준의 경험 A 및 B에서 테스트 결과를 확인하는 데 도움이 됩니다. 이 방식은 Analytics 기반 보고서가 아닌 Target 기반 보고서에서 작동합니다.
 
