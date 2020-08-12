@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: 자동 할당은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.
 title: 자동 할당
+feature: null
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
@@ -133,9 +134,9 @@ A/B 테스트는 장기간에 걸친 결과를 분석하므로 위와 같은 요
 
 자동 할당 활동을 할 때 다음 FAQ와 [!UICONTROL 답변을] 참조하십시오.
 
-### Target(A4T)용 Analytics에서 자동 할당 활동을 지원합니까?
+### Target(A4T)용 분석은 자동 할당 활동을 지원합니까?
 
-예. 자세한 내용은 [활동 생성](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) **&#x200B;시 자동 할당 활동에 대한 Target(A4T) 지원을 위한 Analytics을 참조하십시오.
+예. 자세한 내용은 [활동 만들기에서 자동 할당 활동에 대한 Target(A4T) 지원](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 을 *참조하십시오*.
 
 ### 재방문자는 성과가 좋은 경험에 자동으로 재할당됩니까?
 
@@ -191,7 +192,7 @@ You can use the existing [sample size calculator](https://docs.adobe.com/content
 
 ### 자동 할당 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?
 
-자동 할당 [!UICONTROL 활동에 대해 보고서 데이터] 재설정 [!UICONTROL 옵션을] 사용하는 것은권장되지 않습니다. 보이는 보고 데이터를 제거하지만 이 옵션은 [자동 할당] 모델에서 모든 교육 레코드를 [!UICONTROL 제거하지는] 않습니다. 자동 할당 활동에 대해 [!UICONTROL 보고서 데이터] 재설정 옵션 [!UICONTROL 을 사용하는] 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고: 이 지침은 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동에도 적용됩니다.)
+자동 할당 [!UICONTROL 활동에 대해 보고서 데이터] 재설정 [!UICONTROL 옵션을] 사용하는 것은권장되지 않습니다. 보이는 보고 데이터를 제거하지만 이 옵션은 [자동 할당] 모델에서 모든 교육 레코드를 [!UICONTROL 제거하지는] 않습니다. 자동 할당 활동에 대해 [!UICONTROL 보고서 데이터] 재설정 옵션 [!UICONTROL 을 사용하는] 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고:이 지침은 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동에도 적용됩니다.)
 
 ### 자동 할당 기능은 환경과 관련하여 빌드 모델을 어떻게 지정합니까?
 
