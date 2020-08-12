@@ -1,10 +1,14 @@
 ---
 description: 다변량 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 title: 다변량 테스트에 대한 경험 미리 보기
+feature: null
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
@@ -33,5 +37,5 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
    기본적으로 모든 경험은 다변량 테스트에 포함됩니다. 제외된 경험을 포함하려면 제외된 경험을 선택하고 **[!UICONTROL 포함을 클릭합니다]**.
 
-변경을 수행할 수 있도록 **[!UICONTROL 미리 보기 모드 종료]**&#x200B;를 클릭하여 경험 작성기로 돌아가거나 **계속]을 클릭하여 테스트 요약으로 이동합니다.[!UICONTROL **
+변경을 수행할 수 있도록 **[!UICONTROL 미리 보기 모드 종료]**&#x200B;를 클릭하여 경험 작성기로 돌아가거나 **[!UICONTROL 계속]**&#x200B;을 클릭하여 테스트 요약으로 이동합니다.
 
