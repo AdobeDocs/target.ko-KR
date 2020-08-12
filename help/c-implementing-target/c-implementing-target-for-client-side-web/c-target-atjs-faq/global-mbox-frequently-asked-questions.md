@@ -1,11 +1,15 @@
 ---
-keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;글로벌;글로벌 mbox
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
 description: 글로벌 mbox에 대한 FAQ 목록
 title: 글로벌 mbox FAQ
+feature: null
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '298'
+ht-degree: 100%
 
 ---
 
@@ -20,11 +24,11 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 활동에 URL 규칙을 추가하여 활동이 실행되는 위치를 제한할 수 있습니다. 자세한 내용은 [유사한 페이지에 동일한 경험 포함](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-[targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)를 사용하여 페이지에서 매개 변수를 전달한 다음, [!UICONTROL 시각적 경험 작성기] (VEC)의 "URL 구성" 섹션에서 또는 양식 기반 경험 작성기에서 매개 변수를 "개선"으로 추가하여 해당 매개 변수를 선택할 수도 있습니다.
+[targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)를 사용하여 페이지에서 매개 변수를 전달한 다음, [!UICONTROL 시각적 경험 작성기] (VEC)의 &quot;URL 구성&quot; 섹션에서 또는 양식 기반 경험 작성기에서 매개 변수를 &quot;개선&quot;으로 추가하여 해당 매개 변수를 선택할 수도 있습니다.
 
 ## Target 글로벌 mbox에 대한 수입 데이터를 전달하려면 어떻게 합니까? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
-target-global-mbox에 대한 수입 및 주문 정보를 수집하려면 "mbox 매개 변수"를 Target으로 보내야 합니다. 이 매개 변수는 Target에 추가 정보를 보내는 데 사용되는 이름/값 쌍입니다. Target은 수입 데이터를 채우기 위해 이 매개 변수(예약된 이름)를 자동으로 검색합니다.
+target-global-mbox에 대한 수입 및 주문 정보를 수집하려면 &quot;mbox 매개 변수&quot;를 Target으로 보내야 합니다. 이 매개 변수는 Target에 추가 정보를 보내는 데 사용되는 이름/값 쌍입니다. Target은 수입 데이터를 채우기 위해 이 매개 변수(예약된 이름)를 자동으로 검색합니다.
 
 `orderConfirmPage`의 경우 `orderTotal`, `orderId` 및 `productPurchasedId`를 전달해야 합니다. 자세한 내용은 [주문 확인 mbox 만들기 - mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)를 참조하십시오.
 
