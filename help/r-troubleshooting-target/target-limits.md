@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 정보입니다.
 title: 제한
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 77%
 
 ---
 
@@ -40,7 +44,7 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 
 **제한**: mbox, 지표 또는 경험당 50개 대상.
 
-## 고객, 계정당 재사용 가능
+## 대상, 계정당 재사용 가능
 
 **권장 제한**: 20,000개의 대상.
 
@@ -58,9 +62,9 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 
 ## 고객 속성, 업로드
 
-* **HTTP 방법을**&#x200B;사용하여 각 업로드에 대한 최대 파일 크기:100MB.
-* **FTP 방법을**&#x200B;사용하여 각 업로드에 대한 최대 파일 크기:4GB.
-* **구독할**&#x200B;수 있는 속성 수:5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
+* **HTTP 방법을 사용한 각 업로드에 대한 최대 파일 크기**:100MB.
+* **FTP 방법을 사용한 각 업로드에 대한 최대 파일 크기**:4GB
+* **가입이 허용된 속성 수**:5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
 
 ## 엔티티 사용자 지정 속성
 
@@ -194,9 +198,9 @@ mbox v2 일괄 처리:
 
 **활성 프로필 스크립트의 권장 제한**:300년
 
-**계정당**&#x200B;총 프로필 스크립트의 권장 한도:2천
+**계정당 총 프로필 스크립트 권장 한도**:2,000
 
-**프로필 스크립트 복잡성**&#x200B;제한을 위한 권장 사항:프로필 스크립트는 제한된 수의 지침을 실행할 수 있습니다. 자세한 내용은 프로필 [속성의](/help/c-target/c-visitor-profile/profile-parameters.md#best) 우수 사례를 *참조하십시오*.
+**프로필 스크립트 복잡성을 제한하는 Recommendations**:프로필 스크립트는 제한된 수의 지침을 실행할 수 있습니다. 자세한 내용은 프로필 속성의 [우수](/help/c-target/c-visitor-profile/profile-parameters.md#best) 사례 *를 참조하십시오*.
 
 ## 속성
 
