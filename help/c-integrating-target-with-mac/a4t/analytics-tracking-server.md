@@ -2,9 +2,10 @@
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: 이전 버전의 at.js나 mbox.js를 사용하는 경우 Analytics for Target(A4T)을 사용하는 활동용으로 Analytics 추적 서버를 지정해야 합니다.
 title: Analytics 추적 서버 사용을 참조하십시오
+feature: null
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 53%
@@ -26,7 +27,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. 활동을 만드는 페이지에서 활동을 엽니다 [!DNL Adobe Experience Cloud Debugger].
 
-   디버거를 설치하지 않은 경우 Experience [Cloud 디버거 설치를 참조하십시오](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
+   디버거를 설치하지 않은 경우 Experience Cloud Debugger [설치를 참조하십시오](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -35,6 +36,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    * (CNAME 구현의 경우)
    * (비RDC 구현의 경우)
    * (RDC 구현의 경우)
+
    *Company*[!DNL Analytics]는 회사 이름을 나타내고, *metrics*&#x200B;는 CNAME 값의 예이며 *d1*&#x200B;은 데이터 센터의 예입니다.[!DNL Analytics]
 1.  필드의 전체 컨텐츠를 복사합니다. 
 1. 활동의 [!UICONTROL 목표 및 설정][!UICONTROL  화면에 있는 ]보고 설정&#x200B;**[!UICONTROL 섹션에서 추적 서버 정보를 추적 서버]** 필드에 붙여넣으십시오.
