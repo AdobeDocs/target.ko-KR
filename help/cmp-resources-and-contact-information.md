@@ -2,10 +2,11 @@
 keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
 description: Target 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 Target에 대한 도움이 필요할 때 Adobe에 문의하는 방법에 대한 정보입니다.
 title: 리소스 및 연락처 정보
+feature: null
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: ce885c24a44aa1ebd5ed48f14bc68105e665dc88
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -49,8 +50,8 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 | [at.js 팁 및 개요](https://helpx.adobe.com/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>, 2019년 6월 26일 | 학습할 내용:<ul><li>at.js 사용의 이점</li><li>at.js 설정</li><li>깜박임 처리</li><li>at.js 디버깅</li><li>알려진 문제</li><li>FAQ</li></ul>For more information, see [How at.js works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). |
 | [Target 프리미엄 작업 영역](https://helpx.adobe.com/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018년 9월 4일 | 배울 내용:<ul><li>작업 공간 만들기(제품 프로필)</li><li>속성 만들기</li><li>사용자 추가</li><li>구현 업데이트</li></ul>자세한 내용은 [엔터프라이즈 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하십시오. |
 | [VEC(Visual Experience Composer)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>2017년 12월 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/c-experiences/experiences.md). |
-| [Adobe Target: Analytics/Target 통합(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018년 1<br>월 40시 33분 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
-| [at.js: 장점 및 구현 우수 사례](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul>이 안내서에서 자세한 내용은 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [Adobe Target:Analytics/Target 통합(A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 2018년 1<br>월 40시 33분 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
+| [at.js:장점 및 구현 우수 사례](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul>이 안내서에서 자세한 내용은 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
