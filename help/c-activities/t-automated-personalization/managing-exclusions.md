@@ -1,11 +1,15 @@
 ---
-keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
 description: Adobe Target AP(자동화된 개인화) 활동에서 제외 그룹을 만들고, 중복 오퍼를 제외하고, 특정 경험을 제외하고, 기본 콘텐츠를 제외하여 제외를 관리합니다.
 title: 제외 관리
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -30,7 +34,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 1. [!UICONTROL 콘텐츠 관리] 대화 상자에서 **[!UICONTROL 제외 그룹]**&#x200B;을 클릭합니다.
 
-   ![콘텐츠 관리 &gt; 제외 그룹 대화 상자](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![콘텐츠 관리 > 제외 그룹 대화 상자](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
    이전에 만든 제외 그룹이 있다면 목록에 표시됩니다. 아직 제외 그룹을 만들지 않은 경우에는 만들라는 메시지가 표시됩니다.
 
@@ -46,7 +50,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    제외 그룹의 동일한 위치에서 여러 개의 오퍼를 선택할 수 있습니다.
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 제외 그룹의 오퍼는 앞으로 동일한 경험에서 자동으로 제외됩니다.
 
@@ -56,7 +60,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 예를 들어, 12개의 오퍼가 있는 페이지에 6개의 위치가 있는 활동이 있을 수 있습니다. 활동에서 하나 이상의 위치에 동일한 오퍼를 배치할 수 있습니다. 이 기능은 중복 오퍼들이 동일한 활동 내의 다른 위치에서 동시에 표시되지 않도록 합니다.
 
-**[!UICONTROL 구성]** &gt; **[!UICONTROL 중복 오퍼]**&#x200B;를 클릭한 다음, **[!UICONTROL 중복 허용]** 또는 **[!UICONTROL 중복 허용 안 함]**&#x200B;을 클릭합니다.
+**[!UICONTROL 구성]** > **[!UICONTROL 중복 오퍼]**&#x200B;를 클릭한 다음, **[!UICONTROL 중복 허용]** 또는 **[!UICONTROL 중복 허용 안 함]**&#x200B;을 클릭합니다.
 
 ![중복 오퍼 옵션](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -96,7 +100,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 **시각적 경험 작성기(VEC)를 사용하여 기본 콘텐츠를 제외하려면 다음을 수행하십시오.**
 
-1. 다음 [AP 활동을 작성하거나 편집](/help/c-activities/t-automated-personalization/create-ap-activity.md)할 때 바꿀 콘텐츠를 선택하고 클릭하여 **[!UICONTROL 텍스트/HTML 변경]**, **[!UICONTROL 이미지 변경]** 또는 **[!UICONTROL 배경색 변경]**&#x200B;에 액세스합니다.
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. 대화 상자에서 새 콘텐츠를 작성하고 기본 콘텐츠의 오른쪽에 있는 **포함**&#x200B;을 선택 취소합니다(또는 콘텐츠 선택 화면에서 기본 이미지/비디오를 선택 취소합니다.).
 
    [!UICONTROL 포함] 확인란은 콘텐츠/오퍼 유형에 따라 약간 다른 위치에 표시됩니다.
@@ -113,7 +117,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    ![배경색 편집 대화 상자에 확인란 포함](/help/c-activities/t-automated-personalization/assets/exclude_content_vec_3a.png)
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    [!UICONTROL 콘텐츠 관리]에서 지정한 오퍼에서 생성된 경험을 확인할 수 있습니다. 제외된 기본 오퍼를 사용하여 [!UICONTROL 콘텐츠 관리]에 생성된 경험은 없습니다.
 
@@ -121,8 +125,8 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 **양식 기반 경험 작성기를 사용하여 기본 콘텐츠를 제외하려면 다음을 수행하십시오.**
 
-1. AP 활동을 작성하거나 편집할 때 **[!UICONTROL 콘텐츠]에서****텍스트/HTML 변경또는**&#x200B;이미지 오퍼 변경&#x200B;**[!UICONTROL 을 클릭합니다]**.
-1. 대화 상자에서 새 콘텐츠를 작성하고 기본 콘텐츠의 오른쪽에 있는 **[!UICONTROL 포함]을 선택 취소합니다(또는 콘텐츠 선택 화면에서 기본 이미지/비디오를 선택 취소합니다.).**
+1. AP 활동을 작성하거나 편집할 때 **[!UICONTROL 콘텐츠]**&#x200B;에서 **[!UICONTROL 텍스트/HTML 변경]** 또는 이미지 오퍼 변경&#x200B;**[!UICONTROL 을 클릭합니다]**.
+1. 대화 상자에서 새 콘텐츠를 작성하고 기본 콘텐츠의 오른쪽에 있는 **[!UICONTROL 포함]**&#x200B;을 선택 취소합니다(또는 콘텐츠 선택 화면에서 기본 이미지/비디오를 선택 취소합니다.).
 
    포함 확인란은 콘텐츠/오퍼 유형에 따라 약간 다른 위치에 표시됩니다.
 
@@ -134,7 +138,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    ![](assets/exclude_content_form_2.png)
 
-1. **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    [!UICONTROL 콘텐츠 관리]에서 지정한 오퍼에서 생성된 경험을 확인할 수 있습니다. 제외된 기본 오퍼를 사용하여 [!UICONTROL 콘텐츠 관리]에 생성된 경험은 없습니다.
 
