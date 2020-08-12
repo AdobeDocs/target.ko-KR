@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: 페이지 템플릿을 사용하여 페이지에 구조를 지정하거나 페이지에 유사한 요소들이 있는 경우, 이 기능을 사용하면 구조가 유사한 페이지 요소에서 변형을 테스트할 수 있습니다.
 title: 유사한 페이지에 동일한 경험 포함
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 96%
 
 ---
 
@@ -36,7 +40,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 1. 페이지 범위를 지정합니다. 페이지 범위는 다음 중 하나일 수 있습니다.
 
-   * URL (Target이 URL을 평가하는 방법에 대한 자세한 내용은 타겟 및 [대상 FAQ를 참조하십시오](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
+   * URL Target이 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ를 참조하십시오](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).
    * 도메인
    * 경로
    * 해시(#) 조각(# 기호 뒤에 오는 URL 일부를 대상으로 지정)
@@ -72,7 +76,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 >
 > Target은 페이지가 예상대로 표시되는지 확인할 수 없으므로 이 기능을 사용할 때는 영향을 받는 페이지를 공개하기 전에 테스트하는 것이 중요합니다.
 
-## 교육 비디오: 시각적 경험 작성기(2/2)(7:29) 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 시각적 경험 작성기(2/2)(7:29) ![자습서 배지](/help/assets/tutorial.png)
 
 * 경험 이름 변경 및 경험 복제
 * 리디렉션 경험 만들기
