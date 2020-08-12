@@ -2,10 +2,11 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(A4T)할 때의 보고서 보기에 대한 FAQ 답변을 제공합니다.
 title: 보고서 보기 - A4T FAQ
+feature: null
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 61%
@@ -19,17 +20,17 @@ This topic contains answers to questions that are frequently asked about viewing
 
 ## Can I view my Target activity data in Analysis Workspace? {#workspace}
 
-활동 및 경험 [!DNL Analysis Workspace] 을 분석하는 데 사용할 수 [!DNL Target] 있습니다. Target용 [Analytics 패널에서는](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 최대 3개의 성공 지표에 대한 상승도 및 신뢰도를 볼 수 있습니다. 표 및 시각화를 사용하여 더 깊이 이해할 수도 있습니다.
+활동 및 경험 [!DNL Analysis Workspace] 을 분석하는 데 사용할 수 [!DNL Target] 있습니다. Target용 [분석 패널에서는](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 최대 3개의 성공 지표에 대한 상승도와 신뢰도를 볼 수 있습니다. 표 및 시각화를 사용하여 더 깊이 이해할 수도 있습니다.
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
-## 분석 작업 공간에서 세그먼트를 적용할 수 있는 위치 {#segmentation}
+## Analysis Workspace에서 세그먼트를 적용할 수 있는 위치 {#segmentation}
 
 세그먼트는 일반적으로 세그먼트 드롭 영역의 패널 맨 위에 적용됩니다. 세그먼트는 패널의 모든 테이블 및 시각화에 적용됩니다. 이 기술은 테스트가 사용자 하위 집합에 어떤 영향을 주는지 확인하는 데 가장 유용합니다(예: 이 테스트가 영국의 사용자에 대해 어떻게 수행되었습니까).
 
-## 특정 Target 활동에 대해 히트 세그먼트를 적용하면 반환되는 관련 없는 경험이 왜 표시됩니까? {#activity-segmentation}
+## 특정 Target 활동에 대해 히트 세그먼트를 적용할 때 반환되는 관련 없는 경험이 표시되는 이유는 무엇입니까? {#activity-segmentation}
 
-[!DNL Target]에 보내진 [!DNL Analytics] 변수에는 기본 90일 만료 기간이 있습니다. (참고: 필요한 경우 고객 지원 센터에서 이 만료 기간을 조정할 수 있습니다.) 방문자가 이 만료 기간 동안 사이트를 탐색하면 많은 [!DNL Target] 활동의 일부이며 이 모든 활동이 차원에서 수집됩니다.
+[!DNL Target]에 보내진 [!DNL Analytics] 변수에는 기본 90일 만료 기간이 있습니다. (참고:필요한 경우 고객 지원 센터에서 이 만료 기간을 조정할 수 있습니다.) 방문자가 이 만료 기간 동안 사이트를 탐색하면 많은 [!DNL Target] 활동의 일부이며 이 모든 활동이 차원에서 수집됩니다.
 
 따라서 히트에 나타낼 활동을 세그먼트화하면 해당 활동의 일부인 모든 경험과 해당 히트에 지속적인 다른 경험 *을* 얻게 됩니다.
 
@@ -48,7 +49,7 @@ A4T 보고에서 지표를 표준화하기 위한 몇 가지 옵션이 있습니
 * All of the above metrics trigger when a user qualifies for an activity and content is returned from [!DNL [!DNL Target]]. 이는 사용자가 반드시 오퍼를 보았다는 것을 의미하지는 않습니다. 활동 경험이 스크롤해야 볼 수 있는 부분에 있고 사용자가 페이지를 아래로 스크롤하지 않는 경우 [!DNL Target]에서 오퍼를 제공했지만 사용자는 볼 수 없습니다.
 * 동일한 활동의 동일한 페이지에 여러 개의 mbox 호출이 있는 경우가 아니라면 [!UICONTROL 활동 노출 수]([!DNL Target]으로 측정) 및 [!UICONTROL 인스턴스 수]([!DNL Analytics]로 측정)는 동일합니다. 이로 인해 다중 [!UICONTROL 활동 노출 수]가 계산되지만, 인스턴스의 경우 단일 [!UICONTROL 인스턴스]만 계산됩니다.
 
-## 분석 작업 공간에서 보고 및 분석보다 &quot;활동 노출&quot; 및 &quot;활동 전환&quot;이 더 높은 이유는 무엇입니까? {#sametouch}
+## Analysis Workspace에서 보고 및 분석보다 &quot;활동 노출&quot; 및 &quot;활동 전환&quot;이 높은 이유는 무엇입니까? {#sametouch}
 
 [!DNL Reports & Analytics] 동일한 터치 속성 모델을 &quot;활동 노출 횟수&quot; 및 &quot;활동 전환&quot;에 적용하는 반면, 차원 지속성 [!DNL Analysis Workspace] 으로 부풀려질 수 있는 원시 지표를 [!DNL Target] 표시합니다.
 
@@ -125,7 +126,7 @@ The following list explains reasons why the same visitor could be counted in mul
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
 * If the visitor is using the `mbox3rdPartyId`, when the anonymous visitor is merged with his or her 3rd-party ID profile, [!DNL Target] could put the visitor into a different experience to match up with the 3rd-party ID. 자세한 내용은 [mbox3rdPartyID에 대한 실시간 프로필 동기화](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)를 참조하십시오.
-* [!DNL Analytics] 는 이러한 장치를 추적하는 방법과 다른 방법으로 동일한 방문자와 다른 장치를 [!DNL Target] 추적할 수 있습니다. 의 타사 ID 설정 [!DNL Target] 은 Analytics와 다릅니다.
+* [!DNL Analytics] 는 이러한 장치를 추적하는 방법과 다른 방법으로 동일한 방문자와 다른 장치를 [!DNL Target] 추적할 수 있습니다.의 타사 ID 설정 [!DNL Target] 은 Analytics와 다릅니다.
 
 ## A4T가 가상 보고서 세트를 지원합니까?
 
