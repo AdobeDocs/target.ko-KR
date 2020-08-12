@@ -1,11 +1,15 @@
 ---
-keywords: mbox 생성;mbox 생성;mbox 만들기;at.js;함수;함수
+keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;function
 description: Adobe Target at.js JavaScript 라이브러리에 대한 mboxCreate(mbox,params) 함수 정보입니다.
 title: Adobe Target at.js JavaScript 라이브러리에 대한 mboxCreate(mbox,params) 함수 정보입니다.
-subtopic: 시작하기
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 100%
 
 ---
 
@@ -33,7 +37,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ## 참고
 
-`mboxCreate()`은 이제 "standard" 종단점 대신 "json" 엔드포인트를 사용하며 비동기식으로 실행됩니다. 이 때문에
+`mboxCreate()`은 이제 &quot;standard&quot; 종단점 대신 &quot;json&quot; 엔드포인트를 사용하며 비동기식으로 실행됩니다. 이 때문에
 
 * [디버깅](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)이 약간 다릅니다.
 * 동기식 호출 차단을 요구하는 오퍼 코드를 피해야 합니다.
