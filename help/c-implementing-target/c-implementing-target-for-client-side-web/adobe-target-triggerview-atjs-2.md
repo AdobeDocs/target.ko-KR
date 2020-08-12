@@ -1,11 +1,15 @@
 ---
-keywords: adobe.target.트리거뷰;트리거뷰;트리거 뷰;트리거 뷰;at.js;함수;함수;이름 보기;네임 보기;이름 보기
+keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
 description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다.
 title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다.
-subtopic: 시작하기
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '270'
+ht-degree: 100%
 
 ---
 
@@ -22,7 +26,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 | --- | --- | --- | --- |
 | viewName | 문자열 | 예 | 보기를 표현할 문자열 유형으로 모든 이름을 전달합니다. 이 보기 이름은 마케터가 작업을 만들고 A/B 및 XT 활동을 실행하는 VEC의 [!UICONTROL 수정 사항] 패널에 표시됩니다. |
 | options | 개체 | 아니오 |  |
-| options &gt; page | 부울 | 아니오 | **TRUE**: 페이지의 기본값은 true입니다. page=true일 때 노출 수가 증가하면 [!DNL Target] 백엔드에 알림이 전송됩니다.<br>활동 경험이나 활동 지표가 보기와 연결되어 있지 않으면 알림이 전송되지 않습니다.<br>**FALSE:** page=false일 때 노출 수가 증가하면 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
+| options > page | 부울 | 아니오 | **TRUE**: 페이지의 기본값은 true입니다. page=true일 때 노출 수가 증가하면 [!DNL Target] 백엔드에 알림이 전송됩니다.<br>활동 경험이나 활동 지표가 보기와 연결되어 있지 않으면 알림이 전송되지 않습니다.<br>**FALSE:**page=false일 때 노출 수가 증가하면 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
 
 ## 예: True
 
