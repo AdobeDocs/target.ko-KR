@@ -1,12 +1,16 @@
 ---
-keywords: 관리;승인자 역할;승인자
+keywords: Administration;approver role;approver
 description: 이 섹션에는 Adobe Target 관리자가 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후 수행해야 하는 첫 번째 단계들이 포함되어 있습니다.
 title: 관리자의 첫 단계
-subtopic: 시작하기
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +23,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 [!DNL Adobe Admin Console]에서 시스템 관리자가 귀하를 참여할 수 있도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행합니다.
 
-자세한 내용은 [Experience Cloud 및 핵심 서비스 도움말에서](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) Experience Cloud 사용자 및 제품 *관리를*&#x200B;참조하십시오.
+자세한 내용은 [Experience Cloud 및 핵심 서비스 도움말에서 Experience Cloud 사용자 및 제품](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) 관리를 참조하십시오 **.
 
 시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다. 
 
