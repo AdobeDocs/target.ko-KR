@@ -2,10 +2,14 @@
 keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Adobe Target에서 페이지를 방문할 때 특정 브라우저나 특정 브라우저 선택 사항을 사용하는 타겟 사용자에 대한 대상을 만들 수 있습니다.
 title: Adobe Target 대상의 브라우저 옵션
+feature: null
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '648'
+ht-degree: 99%
 
 ---
 
@@ -117,7 +121,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 여러 선택 사항은 OR로 연결됩니다.
 
-## 교육 비디오: 대상 만들기 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 대상 만들기 ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 
