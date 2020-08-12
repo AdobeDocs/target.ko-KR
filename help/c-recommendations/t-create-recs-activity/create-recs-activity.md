@@ -2,9 +2,13 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target 시각적 경험 작성기(VEC)를 사용하십시오.
 title: 권장 사항 활동 만들기
+feature: null
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 94%
 
 ---
 
@@ -61,6 +65,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
    * 검색 결과 페이지
    * 감사 페이지
    * 기타
+
    ![페이지 유형 선택 옵션](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
 1. [기준](/help/c-recommendations/c-algorithms/algorithms.md)을 하나 이상 선택합니다.
@@ -165,6 +170,6 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    활동 충돌은 여러 활동이 동일한 페이지로 콘텐츠를 전달하도록 설정되어 있을 때 발생하며, 이로 인해 예상치 못한 콘텐츠가 표시될 수 있습니다.
 
-## 교육 비디오: 추천 활동 만들기(7:15) 자습서 ![배지](/help/assets/tutorial.png)
+## 교육 비디오: 추천 활동 만들기(7:15) ![자습서 배지](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
