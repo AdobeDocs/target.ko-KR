@@ -2,10 +2,11 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
 title: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 39%
@@ -26,70 +27,70 @@ ht-degree: 39%
 ### bodyHiddenStyle
 
 * **유형**: 문자열
-* **기본값**: body { opacity: 0 }
-* **설명**: 깜박임 `globalMboxAutocreate === true` 을 최소화할 경우에만 사용됩니다.
+* **기본값**:body { opacity:0 }
+* **설명**:깜박임 `globalMboxAutocreate === true` 을 최소화할 경우에만 사용됩니다.
 
    자세한 내용은 [at.js에서 플리커를 관리하는 방법](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)을 참조하십시오.
 
 ### bodyHidingEnabled
 
-* **유형**: 부울
-* **기본값**: true
-* **설명**: 시각적 오퍼라고도 하는 Visual Experience Composer `target-global-mbox` 에서 만든 오퍼를 전달하는 데 사용될 때 깜박임을 제어하는 데 사용됩니다.
+* **유형**:부울
+* **기본값**:true
+* **설명**:시각적 오퍼라고도 하는 Visual Experience Composer `target-global-mbox` 에서 만든 오퍼를 전달하는 데 사용될 때 깜박임을 제어하는 데 사용됩니다.
 
 ### clientCode
 
 * **유형**: 문자열
-* **기본값**: UI를 통해 설정된 값.
-* **설명**: 클라이언트 코드를 나타냅니다.
+* **기본값**:UI를 통해 설정된 값.
+* **설명**:클라이언트 코드를 나타냅니다.
 
 ### cookieDomain
 
 * **유형**: 문자열
-* **기본값**: 가능한 경우 최상위 도메인에 설정합니다.
-* **설명**: 쿠키를 저장할 때 사용되는 도메인을 나타냅니다.
+* **기본값**:가능한 경우 최상위 도메인에 설정합니다.
+* **설명**:쿠키를 저장할 때 사용되는 도메인을 나타냅니다.
 
 ### crossDomain
 
 * **유형**: 문자열
-* **기본값**: UI를 통해 설정된 값.
-* **설명**: 도메인 간 추적이 활성화되었는지 여부를 나타냅니다. 허용되는 값은 다음과 같습니다. 비활성화, 활성화 또는 x-only.
+* **기본값**:UI를 통해 설정된 값.
+* **설명**:도메인 간 추적이 활성화되었는지 여부를 나타냅니다. 허용되는 값은 다음과 같습니다.비활성화, 활성화 또는 x-only.
 
 ### cspScriptNonce
 
-* **유형**: 아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
-* **기본값**: 아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
-* **설명**: 아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
+* **유형**:아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
+* **기본값**:아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
+* **설명**:아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
 
 ### cspStyleNonce
 
-* **유형**: 아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
-* **기본값**: 아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
-* **설명**: 아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
+* **유형**:아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
+* **기본값**:아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
+* **설명**:아래의 [콘텐츠 보안 정책을](#content-security) 참조하십시오.
 
 ### dataProviders
 
-* **유형**: 아래의 [데이터 공급자를](#data-providers) 참조하십시오.
-* **기본값**: 아래의 [데이터 공급자를](#data-providers) 참조하십시오.
-* **설명**: 아래의 [데이터 공급자를](#data-providers) 참조하십시오.
+* **유형**:아래의 [데이터 공급자를](#data-providers) 참조하십시오.
+* **기본값**:아래의 [데이터 공급자를](#data-providers) 참조하십시오.
+* **설명**:아래의 [데이터 공급자를](#data-providers) 참조하십시오.
 
 ### defaultContentHiddenStyle
 
 * **유형**: 문자열
-* **기본값**: 가시성: 숨김
-* **설명**: 클래스 이름이 &quot;mboxDefault&quot;인 DIV를 사용하고 기본 컨텐츠를 통해 `mboxCreate()`, `mboxUpdate()`또는 `mboxDefine()` 숨기도록 실행되는 mbox를 래핑하는 경우에만 사용됩니다.
+* **기본값**:가시성:숨김
+* **설명**:클래스 이름이 &quot;mboxDefault&quot;인 DIV를 사용하고 기본 컨텐츠를 통해 `mboxCreate()`, `mboxUpdate()`또는 `mboxDefine()` 숨기도록 실행되는 mbox를 래핑하는 경우에만 사용됩니다.
 
 ### defaultContentVisibleStyle
 
 * **유형**: 문자열
-* **기본값**: 가시성: visible
-* **설명**: 클래스 이름이 &quot;mboxDefault&quot;인 DIV를 사용하고 `mboxCreate()`있거나 기본 컨텐츠가 있는 경우 적용된 오퍼를 통해 `mboxUpdate()`실행되거나 `mboxDefine()` 표시하는 mbox를 래핑하는 경우에만 사용됩니다.
+* **기본값**:가시성:visible
+* **설명**:클래스 이름이 &quot;mboxDefault&quot;인 DIV를 사용하고 `mboxCreate()`있거나 기본 컨텐츠가 있는 경우 적용된 오퍼를 통해 `mboxUpdate()`실행되거나 `mboxDefine()` 표시하는 mbox를 래핑하는 경우에만 사용됩니다.
 
 ### deviceIdLifetime
 
-* **유형**: 숫자
-* **기본값**: 63244800000ms = 2년
-* **설명**: 쿠키에 `deviceId` 남아 있는 시간입니다.
+* **유형**:숫자
+* **기본값**:63244800000ms = 2년
+* **설명**:쿠키에 `deviceId` 남아 있는 시간입니다.
 
 >[!NOTE]
 >
@@ -97,61 +98,61 @@ ht-degree: 39%
 
 ### 활성화됨
 
-* **유형**: 부울
-* **기본값**: true
-* **설명**: 활성화되면 경험을 렌더링하기 위한 경험 및 DOM 조작 [!DNL Target] 요청이 자동으로 실행됩니다. 또한 [!DNL Target] 호출은 /를 통해 수동으로 실행할 `getOffer(s)` 수 `applyOffer(s)`있습니다.
+* **유형**:부울
+* **기본값**:true
+* **설명**:활성화되면 경험을 렌더링하기 위한 경험 및 DOM 조작 [!DNL Target] 요청이 자동으로 실행됩니다. 또한 [!DNL Target] 호출은 /를 통해 수동으로 실행할 `getOffer(s)` 수 `applyOffer(s)`있습니다.
 
    비활성화되면 요청은 자동으로 또는 수동으로 [!DNL Target] 실행되지 않습니다.
 
 ### globalMboxAutoCreate
 
-* **유형**: 숫자
-* **기본값**: UI를 통해 설정된 값.
-* **설명**: 글로벌 mbox 요청을 실행할지 여부를 나타냅니다.
+* **유형**:숫자
+* **기본값**:UI를 통해 설정된 값.
+* **설명**:글로벌 mbox 요청을 실행할지 여부를 나타냅니다.
 
 ### imsOrgId
 
-* **유형**: 스팅
-* **기본값**: true
-* **설명**: IMS ORG ID를 나타냅니다.
+* **유형**:스팅
+* **기본값**:true
+* **설명**:IMS ORG ID를 나타냅니다.
 
 ### optoutEnabled
 
-* **유형**: 부울
-* **기본값**: false
-* **설명**: Target이 방문자 API 함수를 호출해야 하는지 여부를 `isOptedOut()` 나타냅니다. Device Graph 지원의 일부입니다.
+* **유형**:부울
+* **기본값**:false
+* **설명**:Target이 방문자 API 함수를 호출해야 하는지 여부를 `isOptedOut()` 나타냅니다. Device Graph 지원의 일부입니다.
 
 ### overrideMboxEdgeServer
 
-* **유형**: 부울
-* **기본값**: true(at.js 버전 1.6.2부터 시작)
-* **설명**: 도메인 또는 `<clientCode>.tt.omtrdc.net` 도메인을 사용해야 하는지 여부를 `mboxedge<clusterNumber>.tt.omtrdc.net` 나타냅니다.
+* **유형**:부울
+* **기본값**:true(at.js 버전 1.6.2부터 시작)
+* **설명**:도메인 또는 `<clientCode>.tt.omtrdc.net` 도메인을 사용해야 하는지 여부를 `mboxedge<clusterNumber>.tt.omtrdc.net` 나타냅니다.
 
    If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. 현재 CNAME에서 작동하지 [않음](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
 
 ### overrideMboxEdgeServerTimeout
 
-* **유형**: 숫자
-* **기본값**: 1860000 => 31분
-* **설명**: 값이 포함된 쿠키 수명을 `mboxedge<clusterNumber>.tt.omtrdc.net` 나타냅니다.
+* **유형**:숫자
+* **기본값**:1860000 => 31분
+* **설명**:값이 포함된 쿠키 수명을 `mboxedge<clusterNumber>.tt.omtrdc.net` 나타냅니다.
 
 ### pageLoadEnabled
 
-* **유형**: 부울
-* **기본값**: true
-* **설명**: 활성화되면 페이지 로드 시 반환해야 하는 경험을 자동으로 검색합니다.
+* **유형**:부울
+* **기본값**:true
+* **설명**:활성화되면 페이지 로드 시 반환해야 하는 경험을 자동으로 검색합니다.
 
 ### secureOnly
 
-* **유형**: 부울
-* **기본값**: false
-* **설명**: at.js가 HTTPS만 사용해야 하는지 또는 페이지 프로토콜을 기반으로 HTTP와 HTTPS 간을 전환할 수 있도록 허용되어야 하는지를 나타냅니다.
+* **유형**:부울
+* **기본값**:false
+* **설명**:at.js가 HTTPS만 사용해야 하는지 또는 페이지 프로토콜을 기반으로 HTTP와 HTTPS 간을 전환할 수 있도록 허용되어야 하는지를 나타냅니다.
 
 ### selectorsPollingTimeout
 
-* **유형**: 숫자
-* **기본값**: 5000ms = 5s
-* **설명**: at.js 0.9.6에서는 [!DNL Target] 이 새로운 설정을 도입하여 이 설정을 통해 재정의할 수 있습니다 `targetGlobalSettings`.
+* **유형**:숫자
+* **기본값**:5000ms = 5s
+* **설명**:at.js 0.9.6에서는 [!DNL Target] 이 새로운 설정을 도입하여 이 설정을 통해 재정의할 수 있습니다 `targetGlobalSettings`.
 
    The `selectorsPollingTimeout` setting represents how long the client is willing to wait for all the elements identified by selectors to appear on the page.
 
@@ -160,32 +161,32 @@ ht-degree: 39%
 ### serverDomain
 
 * **유형**: 문자열
-* **기본값**: UI를 통해 설정된 값.
-* **설명**: Target Edge Server를 나타냅니다.
+* **기본값**:UI를 통해 설정된 값.
+* **설명**:Target Edge Server를 나타냅니다.
 
 ### serverState
 
-* **유형**: 아래의 [하이브리드 개인화를](#server-state) 참조하십시오.
-* **기본값**: 아래의 [하이브리드 개인화를](#server-state) 참조하십시오.
-* **설명**: 아래의 [하이브리드 개인화를](#server-state) 참조하십시오.
+* **유형**:아래의 [하이브리드 개인화를](#server-state) 참조하십시오.
+* **기본값**:아래의 [하이브리드 개인화를](#server-state) 참조하십시오.
+* **설명**:아래의 [하이브리드 개인화를](#server-state) 참조하십시오.
 
 ### timeout
 
-* **유형**: 숫자
-* **기본값**: UI를 통해 설정된 값.
-* **설명**: 에지 요청 시간 초과를 [!DNL Target] 나타냅니다.
+* **유형**:숫자
+* **기본값**:UI를 통해 설정된 값.
+* **설명**:에지 요청 시간 초과를 [!DNL Target] 나타냅니다.
 
 ### viewsEnabled
 
-* **유형**: 부울
-* **기본값**: true
-* **설명**: 활성화되면 페이지 로드 시 반환해야 하는 뷰를 자동으로 검색합니다. 보기는 at.js 2에서 지원됩니다.*x*&#x200B;에만 사용할 수 있습니다.
+* **유형**:부울
+* **기본값**:true
+* **설명**:활성화되면 페이지 로드 시 반환해야 하는 뷰를 자동으로 검색합니다. 보기는 at.js 2에서 지원됩니다.*x*&#x200B;에만 사용할 수 있습니다.
 
 ### visitorApiTimeout
 
-* **유형**: 숫자
-* **기본값**: 2000ms = 2s
-* **설명**: 방문자 [!UICONTROL API] 요청 시간 초과를 나타냅니다.
+* **유형**:숫자
+* **기본값**:2000ms = 2s
+* **설명**:방문자 [!UICONTROL API] 요청 시간 초과를 나타냅니다.
 
 ## 사용 {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -349,8 +350,8 @@ window.targetGlobalSettings = {
 
 하이브리드 통합 [!DNL Target]이 필요합니다.
 
-* **서버측**:  새 [배달 API](https://developers.adobetarget.com/api/delivery-api/) 또는 [Target SDK를 사용해야 합니다](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **클라이언트측**: at.js 버전 [2.2 이상을 사용해야 합니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* **서버측**: 새 [배달 API](https://developers.adobetarget.com/api/delivery-api/) 또는 [Target SDK를 사용해야 합니다](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
+* **클라이언트측**:at.js 버전 [2.2 이상을 사용해야 합니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### 코드 샘플
 
@@ -468,7 +469,7 @@ Consider the following when using `serverState`:
 
       보기 및 at.js API [!DNL Target] 를 사용하는 SPA의 경우, at.js v2.2는 서버측에서 프리페치된 모든 뷰에 대한 컨텐츠를 캐시하고 각 보기가 트리거되는 즉시 이를 적용하여 Target에 대한 추가 컨텐츠 페치 호출을 실행하지 `triggerView()` `triggerView()`않고 다시 적용합니다.
 
-   * **참고**:  현재, 서버측에서 검색한 mbox는 에서 지원되지 않습니다 `serverState`.
+   * **참고**: 현재, 서버측에서 검색한 mbox는 에서 지원되지 않습니다 `serverState`.
 
 * 오퍼를 `serverState `적용할 때 at.js는 고려 `pageLoadEnabled` 및 `viewsEnabled` 설정(예: 설정이 false인 경우 페이지 로드 오퍼가 적용되지 `pageLoadEnabled` 않습니다.
 
