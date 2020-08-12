@@ -1,9 +1,13 @@
 ---
 description: at.js를 비프로덕션 환경에 안전하게 배포하는 방법에 대한 정보입니다.
 title: 비프로덕션 환경에 at.js 배포
+feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '370'
+ht-degree: 92%
 
 ---
 
@@ -20,7 +24,7 @@ DTM을 사용하는 경우 Adobe Target 도구 구성에 at.js를 쉽게 저장�
 
 자세한 정보는 *다이내믹 태그 관리를 사용하여 Adobe Target을 구현하기 위한 우수 사례* 가이드에서 [옵션 3: DTM을 통해 호스팅된 Target 자바스크립트 라이브러리를 사용하여 수동으로 Target 구현](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)을 참조하십시오.
 
-## "Requestly" Chrome 확장을 사용하여 다른 파일에 매핑
+## &quot;Requestly&quot; Chrome 확장을 사용하여 다른 파일에 매핑
 
 >[!NOTE]
 >
