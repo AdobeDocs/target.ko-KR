@@ -1,10 +1,14 @@
 ---
-keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk
-description: 이 섹션에서는 Adobe Target 모바일 앱 활동 정보를 Adobe Analytics로 전송하여 PostHoc 세그멘테이션을 수행하는 방법에 대해 설명합니다.
-title: Adobe Target 활동 정보를 Adobe Analytics로 보내기
+keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
+description: 이 섹션에서는 PostHoc 세그멘테이션을 위해 Adobe Analytics으로 Adobe Target 모바일 앱 활동 정보를 전송하는 방법에 대해 설명합니다.
+title: Adobe Analytics으로 Adobe Target 활동 정보 보내기
+feature: null
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '366'
+ht-degree: 30%
 
 ---
 
@@ -40,7 +44,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    In this example, a node with the variable `tntVal` is added to obtain the activity information. 적절한 제목과 메시지를 사용하는 유사한 코드를 다른 경험에 대해 추가합니다.
 
-   This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. 이것은 활동 ID, 경험 ID 및 트래픽 유형을 나타냅니다. 다음은 [!DNL Target]샘플 응답입니다.
+   This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. 이것은 활동 ID, 경험 ID 및 트래픽 유형을 나타냅니다. 다음은 샘플 응답입니다 [!DNL Target].
 
    ```
    { 
