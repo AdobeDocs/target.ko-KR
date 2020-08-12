@@ -2,10 +2,11 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Adobe Target at.js 1.*x*에서 at.js 버전 2.0.0으로 업그레이드하는 방법에 대한 자세한 정보
 title: Adobe Target at.js 버전 1*x*에서 at.js 버전 2*x*로 업그레이드되었습니다.*x*
+feature: null
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2747'
 ht-degree: 93%
@@ -757,7 +758,7 @@ at.js 2.*x* JSON 페이로드:
 
 버전은 버전 매개 변수를 통해 쿼리 문자열 매개 변수로 전송됩니다.
 
-## 교육 비디오: at.js 2.*x* 아키텍처 다이어그램 ![개요 배지](/help/assets/overview.png)
+## 교육 비디오:at.js 2.*x* 아키텍처 다이어그램 ![개요 배지](/help/assets/overview.png)
 
 at.js 2.*x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experience Cloud 솔루션과 통합됩니다.* 다음 비디오에서는 모든 것이 어떻게 합쳐지는지 설명합니다.
 
