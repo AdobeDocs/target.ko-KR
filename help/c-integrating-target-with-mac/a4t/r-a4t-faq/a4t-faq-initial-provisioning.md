@@ -1,11 +1,15 @@
 ---
-keywords: faq;자주 묻는 질문;analytics for target;a4t;사용 권한 제공;사용 권한 제공;adobe Experience Cloud
+keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
 description: 이 주제에서는 Target의 보고 소스로 사용되는 Analytics(A4T)에 대한 사용 권한을 제공하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 초기 사용 권한 제공 - A4T FAQ
+feature: null
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '459'
+ht-degree: 100%
 
 ---
 
@@ -40,12 +44,12 @@ Analytics 및 Target에 액세스할 수 있는 Experience Cloud 그룹 중 하�
 
 ## Target에 Analytics 선택 사항이 표시되지 않는 이유는 무엇입니까? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-위의 "내 보고서 세트가 로드되지 않는 이유는 무엇입니까?"를 참조하십시오. 이 문제의 근본 원인은 같습니다.
+위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 참조하십시오. 이 문제의 근본 원인은 같습니다.
 
 ## Analytics에 A4T 보고서가 표시되지 않는 이유는 무엇입니까? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
-위의 "내 보고서 세트가 로드되지 않는 이유는 무엇입니까?"를 참조하십시오. 이 문제의 근본 원인은 같습니다.
+위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 참조하십시오. 이 문제의 근본 원인은 같습니다.
 
 ## Target에 있는 내 보고서가 비어 있는 이유는 무엇입니까? {#section_3837104757464CB488C5A83014A669A1}
 
-위의 "내 보고서 세트가 로드되지 않는 이유는 무엇입니까?"를 참조하십시오. 이 문제의 근본 원인은 같습니다.
+위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 참조하십시오. 이 문제의 근본 원인은 같습니다.
