@@ -1,11 +1,15 @@
 ---
-keywords: 수입 상승도;수입;수입의 상승도 예상;상승도 계산;예상 값
+keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측할 수 있습니다.
 title: 매출 상승도 평가
-topic: 고급,Standard,Classic
+feature: null
+topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +32,7 @@ Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매
 
 수입의 예상 상승도는 기본 목표 지표에서 얻은 방문당 매출액(RPV)을 기반으로 계산됩니다.
 
-예상되는 향상도는 (&lt;우승 경험 RPV&gt; - &lt;제어 경험 RPV&gt;)*&lt;활동에서 총 방문자 수&gt; 공식을 사용하여 계산됩니다.
+예상되는 향상도는 (&lt;우승 경험 RPV> - &lt;제어 경험 RPV>)*&lt;활동에서 총 방문자 수> 공식을 사용하여 계산됩니다.
 
 결과는 압축 양식에서 소수 앞에 한자릿수만 있으면 최대 소수 첫째 자리로 반올림됩니다. 예를 들어, $1.6M, $60K, $900, $8.5K, $205K와 같습니다.
 
@@ -36,7 +40,7 @@ Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매
 
 마찬가지로, 가장 성과가 좋은 경험이 통제 경험에 비해 $0.17의 증가를 보이고 테스트 수명 동안 192,000명의 방문자가 있었다면, 현재 트렌드가 계속되는 경우, $32,640의 수입 증가를 예상할 수 있습니다.
 
-다음 상황에서는 수입의 예상 상승도 필드가 "---"으로 표시됩니다.
+다음 상황에서는 수입의 예상 상승도 필드가 &quot;---&quot;으로 표시됩니다.
 
 * 합리적인 예상을 계산할 만큼 방문자가 충분하지 않은 경우
 * 지표의 예상 값이 지표 설정 페이지에 제공되지 않은 경우
