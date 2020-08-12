@@ -2,10 +2,11 @@
 keywords: settings;priority
 description: Adobe Target은 사용 중인 Target 인터페이스 및 활동 생성 기능(Visual Experience Composer 또는 Form Based Composer)에 따라 페이지에 다르게 전달할 활동(또는 활동)을 결정합니다.
 title: Adobe Target의 우선 순위
+feature: null
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 87%
