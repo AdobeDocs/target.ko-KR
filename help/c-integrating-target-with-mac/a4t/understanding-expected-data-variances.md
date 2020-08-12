@@ -1,11 +1,15 @@
 ---
-keywords: 데이터 분산;분석;차이;분산;a4t;analytics for target;보고 소스로 분석;불일치;일치하지 않음
+keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
 description: Analytics를 보고 소스(A4T)로 사용하지 않아 데이터 분산이 모두 삭제될 때 Target과 Adobe Analytics 간의 예상 데이터 분산에 관해 설명합니다.
 title: A4T를 사용하지 않을 때 예상되는 데이터 분산
-topic: 고급
+feature: null
+topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '853'
+ht-degree: 100%
 
 ---
 
@@ -52,7 +56,7 @@ A4T를 사용하면 활동에 대한 Analytics 및 Target 보고는 모두 Analy
 
 * [!DNL Target] 방문자는 쿠키와 JavaScript를 허용해야 합니다.
 * 자사 쿠키와 타사 쿠키가 다르게 처리되므로 이러한 쿠키 유형의 데이터는 일치하지 않습니다.
-* 페이지에서 태그의 상대 위치와 페이지가 완전히 로드되기 전에 페이지를 종료하는 방문자로 인한 "누수"
+* 페이지에서 태그의 상대 위치와 페이지가 완전히 로드되기 전에 페이지를 종료하는 방문자로 인한 &quot;누수&quot;
 * 시간대 고려 사항
 * 장치가 카운트될 수 있는 차이
 
