@@ -1,12 +1,16 @@
 ---
-keywords: 개요 및 참조
+keywords: Overview and Reference
 description: 기본적으로, 방문자 프로필은 14일 동안 저장됩니다. 이 프로필 라이프타임은 연장할 수 있습니다.
 title: 방문자 프로필 라이프타임
-subtopic: 시작하기
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '289'
+ht-degree: 100%
 
 ---
 
