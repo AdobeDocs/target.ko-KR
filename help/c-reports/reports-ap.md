@@ -2,9 +2,13 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: 자동화된 개인화 사용자는 전문 보고서를 사용할 수 있습니다.
 title: 자동화된 개인화 요약 보고서
+feature: null
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 97%
 
 ---
 
@@ -17,7 +21,7 @@ source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
 >
 >자동화된 개인화는 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Standard]Target Premium 라이센스가 없는 [에는 포함되어 있지 않습니다](/help/c-intro/intro.md#premium).
 
-1. **[!UICONTROL 활동]**을 클릭하고 목록에서 원하는[!UICONTROL 자동화된 개인화]활동을 클릭한 다음,**[!UICONTROL &#x200B;보고서 탭을 클릭합니다.]**
+1. **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 [!UICONTROL 자동화된 개인화] 활동을 클릭한 다음, **[!UICONTROL 보고서 탭을 클릭합니다.]**
 
    많은 활동이 있는 경우 [!UICONTROL 유형] 드롭다운 목록에서 [!UICONTROL 자동화된 개인화]를 선택하여 목록을 필터링할 수 있습니다.
 
