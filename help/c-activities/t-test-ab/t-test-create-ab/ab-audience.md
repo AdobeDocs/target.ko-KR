@@ -2,10 +2,14 @@
 keywords: audience;select audience;choose audience;Selectors
 description: 대상은 활동에 입력된 사이트 방문자를 판별합니다.
 title: 대상 선택
+feature: null
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +50,7 @@ Target에서 [트래픽을 자동으로 할당](../../../c-activities/automated-
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Adobe Target에서 대상 사용(6:21) 개요 ![배지](/help/assets/overview.png)
+### Adobe Target에서 대상 사용(6:21) ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상을 사용하는 방법을 설명합니다.
 
@@ -58,7 +62,7 @@ Target에서 [트래픽을 자동으로 할당](../../../c-activities/automated-
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Activity Workflow - Targeting (2:14) Tutorial badge![](/help/assets/tutorial.png)
+### 활동 워크플로우 - 타깃팅(2:14) ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에는 대상 설정에 대한 정보가 포함되어 있습니다.
 
