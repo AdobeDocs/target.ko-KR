@@ -2,10 +2,14 @@
 keywords: content;update content;assets;upload content;upload asset
 description: 이미지 오퍼 목록에 항목을 추가할 수 있습니다.
 title: 업로드 컨텐츠
+feature: null
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '109'
+ht-degree: 87%
 
 ---
 
@@ -21,7 +25,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
    항목이 라이브러리에 업로드됩니다.
 
-## 교육 비디오: 콘텐츠 저장소 개요 ![배지](/help/assets/overview.png)
+## 교육 비디오: 콘텐츠 저장소 ![개요 배지](/help/assets/overview.png)
 
 이 비디오에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 
