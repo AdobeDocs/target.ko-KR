@@ -2,11 +2,11 @@
 keywords: Create A/B;A/B test;A/B activity;new a/b activity
 description: Target을 사용할 수 있는 페이지에서 바로 테스트를 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target의 시각적 경험 작성기를 사용하십시오.
 title: A/B 테스트 만들기
-feature: null
+feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 98%
