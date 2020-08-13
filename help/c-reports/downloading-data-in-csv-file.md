@@ -2,12 +2,12 @@
 keywords: reports;download reports;csv;success metrics;order details
 description: 데이터를 .csv 형식으로 다운로드하여 Adobe Target을 사용하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 신속하게 가져올 수 있습니다.
 title: Adobe Target을 사용하여 CSV 파일로 데이터 다운로드
-feature: null
+feature: reports
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 83%
