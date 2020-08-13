@@ -2,10 +2,10 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: 모바일 뷰포트를 통해 다양한 크기의 화면에서 Adobe Target 활동이 어떻게 표시되는지 미리 볼 수 있습니다.
 title: 반응형 경험을 위한 모바일 뷰포트
-feature: null
+feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1402'
 ht-degree: 69%
