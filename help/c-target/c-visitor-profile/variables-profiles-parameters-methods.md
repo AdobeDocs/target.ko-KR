@@ -2,11 +2,11 @@
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: 이 페이지에는 프로필 스크립트에 유용한 프로필, 변수 및 매개 변수가 나열됩니다.
 title: 프로필 및 변수 용어집
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 93%
@@ -88,7 +88,7 @@ ht-degree: 93%
 | mbox3rdPartyId | 고객 ID를 Target의 mboxPCID와 동기화하는 mbox 매개 변수입니다. 고객 ID는 회사에서 방문자를 추적하는 데 사용하는 CRM ID, 멤버십 ID 또는 유사한 ID입니다. 그런 후 이 ID를 사용하여 프로필 API 및 [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | 각 mbox 호출에서 페이지는 값을 지정받습니다. |
 | mboxDebug | 디버그 정보로만 사용됩니다. mbox.js가 이 정보를 찾는 페이지 URL에 추가됩니다. |
-| mboxOverride.browserIp | 다른 위치에서는 어떻게 보이는지 테스트할 수 있도록 실제 위치가 아닌 다른 지역을 설정합니다.<br>**참고:**mboxOverride 매개 변수는 프로덕션 환경이 아닌, 활동을 테스트할 때만 사용하는 것이 좋습니다. mboxOverride 매개 변수를 사용하면[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)을 사용할 때 불일치가 보고될 수 있습니다. 활동을 라이브 환경에 푸시하기 전에 활동이 예상대로 작동하는지 확인하려면 테스트할 때[활동 QA 모드](/help/c-activities/c-activity-qa/activity-qa.md)를 사용해야 합니다. |
+| mboxOverride.browserIp | 다른 위치에서는 어떻게 보이는지 테스트할 수 있도록 실제 위치가 아닌 다른 지역을 설정합니다.<br>**참고:** mboxOverride 매개 변수는 프로덕션 환경이 아닌, 활동을 테스트할 때만 사용하는 것이 좋습니다. mboxOverride 매개 변수를 사용하면 [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)을 사용할 때 불일치가 보고될 수 있습니다. 활동을 라이브 환경에 푸시하기 전에 활동이 예상대로 작동하는지 확인하려면 테스트할 때 [활동 QA 모드](/help/c-activities/c-activity-qa/activity-qa.md)를 사용해야 합니다. |
 
 ## 고객 속성{#section_62B4821EB6564FF4A14159A837AD4EDB}을 통해 정보를 추가할 수 있습니다 
 
