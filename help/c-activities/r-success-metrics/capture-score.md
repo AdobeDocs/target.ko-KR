@@ -2,12 +2,12 @@
 keywords: capture score;score
 description: 캡처 점수 참여 지표는 방문자가 캠페인의 첫 번째 표시 Target 요청을 처음 본 시점부터 사이트에서 방문한 페이지에 할당된 값을 기준으로 집계된 점수를 계산합니다.
 title: 캡처 점수
-feature: null
+feature: success metrics
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
