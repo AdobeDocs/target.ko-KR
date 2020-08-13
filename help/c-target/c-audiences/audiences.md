@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: Adobe Target의 대상은 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정합니다.
 title: Adobe Target에서 대상 만들기
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -75,7 +75,7 @@ AAM에서 원래 만들어진 대상과 작업할 때 AAM에서 나중에 삭제
 | 대상 유형 | 세부 사항 |
 |--- |--- |
 | 모바일 대상 | 마케팅 이름, 공급업체 및 모델.<br>`matches | does not match` 연산자가 `equals | does not equal`<br>![가져온 모바일 대상](/help/c-target/c-audiences/assets/imported_mobile_audience.png) 대신 표시됩니다. |
-| 방문자 행동 대상 | **user.categoryAffinity:** `FAVORITE` 매개 변수와 함께 `categoryAffinity`<br>![가져온 카테고리 친화성](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**모니터링:**모니터링 서비스가 true입니다.<br>**모니터링 서비스 없음:**&#x200B;모니터링 서비스가 false와 같음.<br>![가져온 모니터링](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| 방문자 행동 대상 | **user.categoryAffinity:** `FAVORITE` 매개 변수와 함께 `categoryAffinity`<br>![가져온 카테고리 친화성&#x200B;](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**모니터링:** 모니터링 서비스가 true입니다.<br>**모니터링 서비스 없음:**&#x200B;모니터링 서비스가 false와 같음.<br>![가져온 모니터링](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | NOT 연산자를 사용하는 대상 | **단일 규칙:** Target에 대상이 `[All Visitor AND [NOT [rule]` 형식으로 표시됩니다. 단일 NOT 규칙이 `AllVisitor` 대상 및 AND와 함께 표시됩니다.<br>![가져온 Not 대상](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 가져온 대상으로 작업할 때에는 다음 사항을 잊지 마십시오.
