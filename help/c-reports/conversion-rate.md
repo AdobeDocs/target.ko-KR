@@ -2,11 +2,11 @@
 keywords: Targeting
 description: 각 경험에 대한 전환율, 상승도, 신뢰도(통계적 중요도) 및 신뢰 구간이 보고됩니다.
 title: 전환율
-feature: null
+feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
