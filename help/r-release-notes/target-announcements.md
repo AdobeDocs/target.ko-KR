@@ -2,10 +2,10 @@
 keywords: announcements;skill builder;developer chat;coffee break;events
 description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target 커피 브레이크 세션 등 예정된 이벤트에 대한 정보입니다.
 title: Target 공지
-feature: null
+feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
