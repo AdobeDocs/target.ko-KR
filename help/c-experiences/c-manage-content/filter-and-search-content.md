@@ -2,10 +2,10 @@
 keywords: content library;assets;search;smart collections;search folder;filter
 description: 키워드로 자산을 검색하고, 검색 결과를 사용하여 자동으로 업데이트되는 스마트 컬렉션이라는 검색 폴더를 저장하십시오.
 title: 컨텐츠 검색 및 스마트 컬렉션 만들기
-feature: null
+feature: offers
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
