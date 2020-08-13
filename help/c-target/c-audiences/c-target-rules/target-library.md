@@ -2,10 +2,10 @@
 keywords: Targeting;target library;library
 description: 사전 빌드된 타깃팅 규칙을 기반으로 사용자를 타깃팅하십시오.
 title: 타겟 라이브러리
-feature: null
+feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '178'
 ht-degree: 100%
