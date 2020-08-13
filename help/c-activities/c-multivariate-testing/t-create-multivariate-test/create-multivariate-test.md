@@ -2,10 +2,10 @@
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: Adobe Target의 VEC(시각적 경험 작성기)를 사용하면 Target을 사용할 수 있는 페이지에 MVT(다변량 테스트) 권한을 쉽게 만들고 Target 내에서 해당 페이지의 부분을 수정할 수 있습니다.
 title: 다변량 테스트 만들기
-feature: null
+feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 97%
