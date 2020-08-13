@@ -2,10 +2,10 @@
 keywords: vec;visual experience composer; vec;iframe;extension;browser
 description: Adobe VEC(시각적 경험 작성기) Helper 브라우저 확장 프로그램을 사용하여 VEC에서 웹 사이트를 안정적으로 로드함으로써 경험을 빠르게 작성 및 QA하기 위한 정보입니다.
 title: Adobe Target VEC(시각적 경험 작성기) Helper 확장 프로그램
-feature: null
+feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '632'
 ht-degree: 94%
