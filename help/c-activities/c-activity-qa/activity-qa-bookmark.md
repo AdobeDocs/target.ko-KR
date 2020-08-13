@@ -2,11 +2,11 @@
 keywords: qa;preview;bookmarklet;preview links
 description: Adobe Target QA 북마클릿을 사용하여 Target이 QA 모드에서 사용자를 릴리스하도록 하는 데 도움이 되는 정보입니다.
 title: Adobe Target용 활동 QA 북마클릿
-feature: null
+feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 22%
