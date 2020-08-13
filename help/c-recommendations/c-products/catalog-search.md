@@ -2,10 +2,10 @@
 keywords: catalog;search
 description: Adobe Target의 카탈로그 검색은 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다.
 title: Adobe Target의 카탈로그 검색
-feature: null
+feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 96%
