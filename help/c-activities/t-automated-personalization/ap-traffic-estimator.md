@@ -1,11 +1,11 @@
 ---
 description: 트래픽 견적 도구에서는 활동이 성공하기 위한 트래픽이 충분히 있는지 여부를 알 수 있는 피드백을 제공합니다.
 title: 성공에 필요한 트래픽 예측
-feature: null
+feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '588'
 ht-degree: 100%
