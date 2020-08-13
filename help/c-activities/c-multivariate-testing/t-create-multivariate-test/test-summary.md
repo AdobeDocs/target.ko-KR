@@ -2,11 +2,11 @@
 keywords: Overview and Reference
 description: 테스트 요약은 다변량 테스트에 대한 시각적 개요를 제공합니다.
 title: 테스트 요약
-feature: null
+feature: mvt
 topic: Standard
 uuid: 22ac394d-70fe-4c4f-8b40-d478148d7e82
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '101'
 ht-degree: 100%
