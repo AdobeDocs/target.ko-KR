@@ -2,11 +2,11 @@
 keywords: Profile script;profile script attributes;mutually exclusive activities
 description: 프로필 속성을 사용하여 두 개 이상의 활동을 비교하되 동일한 방문자가 각 활동에 참여하지 못하도록 하는 테스트를 설정할 수 있습니다.
 title: 프로필 스크립트를 사용하여 상호 배타적인 활동 테스트
-feature: null
+feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%
