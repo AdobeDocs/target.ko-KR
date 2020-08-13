@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: Adobe Target Recommendations의 기준은 미리 결정된 방문자 행동을 기반으로 권장할 제품을 결정하는 규칙입니다.
 title: Adobe Target Recommendations의 기준
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -79,7 +79,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 | 기준 | 설명 |
 |--- |--- |
-| 비슷한 속성을 갖는 항목/미디어 | 현재 페이지 활동 또는 과거 방문자 행동을 기반으로 한 항목 또는 미디어와 유사한 항목 또는 미디어를 추천합니다.<br>**참고:**속성이 비슷한 항목/미디어를 선택하면 콘텐츠 유사성 규칙을 설정할 수 있는 선택 사항이 표시됩니다. |
+| 비슷한 속성을 갖는 항목/미디어 | 현재 페이지 활동 또는 과거 방문자 행동을 기반으로 한 항목 또는 미디어와 유사한 항목 또는 미디어를 추천합니다.<br>**참고:** 속성이 비슷한 항목/미디어를 선택하면 콘텐츠 유사성 규칙을 설정할 수 있는 선택 사항이 표시됩니다. |
 | 이 항목을 보고 다른 항목도 본 사람 | 지정한 항목을 본 것과 동일한 세션에서 가장 자주 본 항목을 추천합니다. |
 | 이 항목을 보고 다른 항목을 구입한 사람 | 지정한 항목을 본 것과 동일한 세션에서 가장 자주 구입한 항목을 추천합니다. 이 기준은 이 항목을 본 사용자가 구입한 다른 제품을 반환하고 지정된 제품은 결과 세트에 포함되지 않습니다. |
 | 이 항목을 구입하고 다른 항목도 구입한 사람 | 지정한 항목과 동시에 고객이 가장 자주 구입한 항목을 추천합니다. |
