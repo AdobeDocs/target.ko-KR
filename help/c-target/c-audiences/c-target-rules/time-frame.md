@@ -2,10 +2,10 @@
 keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
 description: 특정 기간에 사이트를 방문하는 사용자를 타깃팅하는 시작/종료 날짜 및 시간을 추가할 수 있습니다. 또한 주/요일 분할 선택 사항을 설정하여 대상 타깃팅을 위한 반복 패턴을 만들 수도 있습니다.
 title: 시간대
-feature: null
+feature: audiences
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '405'
 ht-degree: 98%
