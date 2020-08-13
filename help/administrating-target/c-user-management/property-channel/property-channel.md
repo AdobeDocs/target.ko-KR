@@ -2,11 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: 속성을 만들고 속성 및 권한을 사용하는 방법에 대한 정보. Target 관리자는 이 기능을 사용하여 Target에서 개별 작업 공간(제품 프로필)을 만든 다음, 사용자에게 이 작업 공간을 기반으로 하는 개별 페이지, 속성 또는 웹 사이트에 대한 서로 다른 역할 및 권한을 지정할 수 있습니다.
 title: Enterprise 사용자 권한
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -28,9 +28,9 @@ Enterprise user permissions is a means of formal administering enterprise-wide u
 
 You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 
-* **[!DNL Target Standard]고객&#x200B;**:[[!UICONTROL 사용자]] 탭([관리][!UICONTROL > [사용자]]가[!UICONTROL 아니라)이 표시되는 경우]조직의[!DNL Target Standard]라이센스는있습니다.[!DNL Target Standard]고객은[사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md)[!DNL Adobe Admin Console]지침을 따라 사용자를 추가하고
+* **[!DNL Target Standard]고객**:[ [!UICONTROL 사용자] ] 탭([관리][!UICONTROL > [사용자]]가 [!UICONTROL 아니라)이 표시되는 경우] 조직의 [!DNL Target Standard] 라이센스는있습니다. [!DNL Target Standard]고객은 [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md) [!DNL Adobe Admin Console]지침을 따라 사용자를 추가하고
 
-* **[!DNL Target Premium]고객&#x200B;**:[[!UICONTROL 속성]] 탭([!UICONTROL 관리]> 속성[!UICONTROL )과]사용자[!DNL Target Premium]탭이 표시되면 조직에라이센스가 있는 것입니다.[!DNL Target Premium]고객은 이 문서와[엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
+* **[!DNL Target Premium]고객**:[ [!UICONTROL 속성] ] 탭([!UICONTROL 관리]> 속성 [!UICONTROL )과] 사용자 [!DNL Target Premium] 탭이 표시되면 조직에라이센스가 있는 것입니다. [!DNL Target Premium] 고객은 이 문서와 [엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
 
 ## 엔터프라이즈 권한을 시작하기 전
 
