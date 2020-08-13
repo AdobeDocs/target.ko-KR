@@ -2,10 +2,10 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: 페이지 템플릿을 사용하여 페이지에 구조를 지정하거나 페이지에 유사한 요소들이 있는 경우, 이 기능을 사용하면 구조가 유사한 페이지 요소에서 변형을 테스트할 수 있습니다.
 title: 유사한 페이지에 동일한 경험 포함
-feature: null
+feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 96%
