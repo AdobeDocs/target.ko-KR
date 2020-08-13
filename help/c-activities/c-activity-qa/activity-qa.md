@@ -2,11 +2,11 @@
 keywords: qa;preview;preview links;adobe target;target
 description: Adobe Target QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 엔드 투 엔드 활동 QA를 손쉽게 수행할 수 있습니다.
 title: 활동 QA
-feature: null
+feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 79%
