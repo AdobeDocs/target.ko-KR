@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: 기준 및 프로모션을 위해 Adobe Target Recommendations에서 포함 규칙을 만들고 더 나은 결과를 얻기 위해 동적 또는 정적 필터링 규칙을 추가하는 방법에 대한 정보입니다.
 title: Adobe Target Recommendations에서 동적 및 정적 포함 규칙 사용
-feature: null
+feature: criteria
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1453'
 ht-degree: 75%
@@ -41,7 +41,7 @@ ht-degree: 75%
 |--- |--- |--- |
 | **동적 필터링** | **엔티티 속성 일치:**&#x200B;잠재적 권장 사항 항목의 풀을 사용자가 상호 작용한 특정 항목과 비교하여 동적으로 필터링합니다.<br>예를 들어 현재 항목의 브랜드와 일치하는 항목만 추천합니다. | 같음<br>다음과 같지 않음<br>다음 사이<br>포함<br>다음을 포함하지 않음<br>다음으로 시작<br>다음으로 끝남<br>값이 있음<br>값이 없음<br>다음보다 크거나 같음<br>작거나 같음 |
 |  | **프로필 속성 일치:**&#x200B;항목(엔티티)을 사용자 프로필에 있는 값과 비교하여 동적으로 필터링합니다.<br>예를 들어 현재 항목의 브랜드와 일치하는 항목만 추천합니다. | 같음<br> 다음과 같지 않음<br>포함<br>다음을 포함하지 않음<br>다음으로 시작<br>다음으로 끝남<br>다음보다 크거나 같음<br>작거나 같음<br>다음 사이 |
-|  | **매개 변수 일치:**&#x200B;항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 동적으로 필터링합니다.<br>예를 들어, &quot;업계&quot; 페이지 매개 변수와 일치하는 컨텐츠만 추천합니다.<br>**중요:**활동이 2016년 10월 31일 이전에 만들어진 경우 &quot;매개 변수 일치&quot; 필터를 사용하면 전달이 실패합니다. 이 문제를 해결하려면 다음을 수행하십시오.<ul><li>새 활동을 만들고 이 활동에서 기준을 추가합니다.</li><li>&quot;매개 변수 일치&quot; 필터가 들어 있지 않은 기준을 사용합니다.</li><li>기준에서 &quot;매개 변수 일치&quot; 필터를 제거합니다.</li></ul> | 다음과 같음<br>다음과 같지 않음<br>포함<br>다음을 포함하지 않음<br>다음으로 시작<br>다음으로 끝남<br>다음보다 크거나 같음<br>작거나 같음<br>다음 사이 |
+|  | **매개 변수 일치:**&#x200B;항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 동적으로 필터링합니다.<br>예를 들어, &quot;업계&quot; 페이지 매개 변수와 일치하는 컨텐츠만 추천합니다.<br>**중요:** 활동이 2016년 10월 31일 이전에 만들어진 경우 &quot;매개 변수 일치&quot; 필터를 사용하면 전달이 실패합니다. 이 문제를 해결하려면 다음을 수행하십시오.<ul><li>새 활동을 만들고 이 활동에서 기준을 추가합니다.</li><li>&quot;매개 변수 일치&quot; 필터가 들어 있지 않은 기준을 사용합니다.</li><li>기준에서 &quot;매개 변수 일치&quot; 필터를 제거합니다.</li></ul> | 다음과 같음<br>다음과 같지 않음<br>포함<br>다음을 포함하지 않음<br>다음으로 시작<br>다음으로 끝남<br>다음보다 크거나 같음<br>작거나 같음<br>다음 사이 |
 | **값별 필터링** | **정적 필터:**&#x200B;필터링할 정적 값을 수동으로 하나 이상 입력하십시오.<br>예를 들어, MPAA 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 컨텐츠만 추천합니다. | 같음<br>다음과 같지 않음<br>포함<br>다음을 포함하지 않음<br>다음으로 시작<br>다음으로 끝남<br>값이 있음<br>값이 없음<br>다음보다 크거나 같음<br>작거나 같음 |
 
 >[!NOTE]
