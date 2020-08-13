@@ -2,10 +2,10 @@
 keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: 보고서는 활동과 연결된 상승도 한계와 신뢰 수준을 이해하는 데 도움이 되는 몇 가지 데이터 포인트와 시각화 표현을 포함합니다. 이러한 항목들을 포함하는 것은 승자를 보다 정확하게 판별하는 데 도움이 됩니다.
 title: 평균 상승도, 상승도 한계 및 신뢰 구간
-feature: null
+feature: report settings
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 98%
