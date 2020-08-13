@@ -2,10 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: 자동화된 개인화 사용자는 전문 보고서를 사용할 수 있습니다.
 title: 자동화된 개인화 요약 보고서
-feature: null
+feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '276'
 ht-degree: 97%
