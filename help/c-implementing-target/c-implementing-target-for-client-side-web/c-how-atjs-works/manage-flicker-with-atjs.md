@@ -2,11 +2,11 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: 페이지 또는 앱 로드 중 Adobe Target at.js JavaScript 라이브러리가 어떻게 플리커를 방지하는지에 대한 정보입니다.
 title: Adobe Target at.js에서 플리커를 관리하는 방법
-feature: null
+feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 83%
@@ -36,7 +36,7 @@ at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 
 
 ![Target 흐름: at.js 페이지 로드 요청](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x ***
+**at.js 1.*x***
 
 ![](assets/target-flow2.png)
 
