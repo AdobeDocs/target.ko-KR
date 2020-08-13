@@ -2,10 +2,10 @@
 keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: 몇 가지 카테고리 중 어느 것에 대해서든 타깃팅할 수 있습니다. 각 카테고리는 각 카테고리에 대한 타깃팅 규칙(또는 그룹)을 만들 수 있는 탭으로 사용됩니다.
 title: 대상의 카테고리
-feature: null
+feature: audiences
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 98%
