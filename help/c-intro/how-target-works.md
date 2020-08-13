@@ -2,12 +2,12 @@
 keywords: Overview and Reference;SEO;search engine optimization
 description: Adobe Target은 JavaScript 라이브러리 at.js 또는 mbox.js 중 하나를 통해 웹 사이트와 통합
 title: Adobe Target 작동 방식
-feature: null
+feature: intro
 subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 94%
