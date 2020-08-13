@@ -2,11 +2,11 @@
 keywords: experience;control;automated personalization;auto-target
 description: Adobe Target에서 AP(자동화된 개인화) 또는 자동 타겟 활동을 작성하는 동안 제어로 사용할 경험을 선택합니다.
 title: Adobe Target에서 특정 환경을 제어로 사용
-feature: null
+feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
