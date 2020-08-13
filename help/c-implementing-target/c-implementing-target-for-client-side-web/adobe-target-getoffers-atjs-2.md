@@ -2,11 +2,11 @@
 keywords: adobe.target.getOffers;getOffers;getoffers;get offers;at.js;functions;function
 description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers(options) 함수 정보입니다.
 title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffers() 함수 정보입니다.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1224'
 ht-degree: 95%
@@ -40,7 +40,7 @@ ht-degree: 95%
 | request > id > thirdPartyId | 아니오 | 최대 크기 = 128 |  |  |
 | Request > experienceCloud | 아니오 |  |  |
 | Request > experienceCloud > analytics | 아니오 |  | Adobe Analytics 통합 |
-| Request > experienceCloud > analytics > logging | 아니오 | 페이지에서 다음을 구현해야 합니다.<ul><li>방문자 ID 서비스</li><li>Appmeasurement.js</li></ul> | 다음 값이 지원됩니다.<br>**client_side **: 이 값을 지정하면 데이터 삽입 API를 통해 Adobe Analytics로 보낼 때 사용해야 하는 호출자에게 분석 페이로드가 반환됩니다.<br>**server_side**: Target 및 Analytics 백엔드가 보고 목적으로 SDID를 사용하여 호출을 함께 연결하는 기본값입니다. |
+| Request > experienceCloud > analytics > logging | 아니오 | 페이지에서 다음을 구현해야 합니다.<ul><li>방문자 ID 서비스</li><li>Appmeasurement.js</li></ul> | 다음 값이 지원됩니다.<br>**client_side**: 이 값을 지정하면 데이터 삽입 API를 통해 Adobe Analytics로 보낼 때 사용해야 하는 호출자에게 분석 페이로드가 반환됩니다.<br>**server_side**: Target 및 Analytics 백엔드가 보고 목적으로 SDID를 사용하여 호출을 함께 연결하는 기본값입니다. |
 | request > prefetch | 아니오 |  |  |
 | request > prefetch > views | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨<br>허용되지 않는 이름: &quot;orderId&quot;, &quot;orderTotal&quot;, &quot;productPurchasedId&quot; | 활성 활동에서 적절한 보기를 검색하는 데 사용할 매개 변수를 전달합니다. |
 | request > prefetch > views > profileParameters | 아니오 | 최대 개수 50<br>이름은 공백 아님<br>이름 길이 `<=` 128<br>값 길이 `<=` 5000<br>이름은 &quot;profile&quot;로 시작하면 안 됨 | 활성 활동에서 적절한 보기를 검색하는 데 사용할 프로필 매개 변수를 전달합니다. |
