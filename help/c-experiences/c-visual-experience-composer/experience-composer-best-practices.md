@@ -2,11 +2,11 @@
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
 description: 다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. 시각적 경험 작성기(VEC)를 사용할 때 알아야 하는 기타 팁과 제한 사항도 있습니다.
 title: 시각적 경험 작성기 우수 사례 및 제한 사항
-feature: null
+feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
