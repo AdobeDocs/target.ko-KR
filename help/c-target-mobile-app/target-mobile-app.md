@@ -2,11 +2,11 @@
 keywords: mobile app;mobile app process;target mobile app;mobile target locations;mobile app success metrics
 description: 모바일 앱 최적화 및 개인화에 Target을 사용할 수 있습니다.
 title: 모바일 앱을 위한 Target 기능에 대해 자세히 알아보십시오
-feature: null
+feature: mobile implementation
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 95%
