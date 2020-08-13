@@ -2,11 +2,11 @@
 keywords: data variances;analytics;differences;variance;a4t;analytics for target;analytics as the reporting source;discrepancies;discrepancy
 description: Analytics를 보고 소스(A4T)로 사용하지 않아 데이터 분산이 모두 삭제될 때 Target과 Adobe Analytics 간의 예상 데이터 분산에 관해 설명합니다.
 title: A4T를 사용하지 않을 때 예상되는 데이터 분산
-feature: null
+feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
