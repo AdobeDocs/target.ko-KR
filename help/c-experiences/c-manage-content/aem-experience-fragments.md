@@ -2,11 +2,11 @@
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: Adobe Experience Manager(AEM)에서 만든 경험 조각을 최적화 또는 개인화를 돕기 위해 Adobe Target 활동에서 사용하는 방법에 대한 정보입니다.
 title: Adobe Target의 Adobe Experience Manager(AEM) 경험 조각
-feature: null
+feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1104'
 ht-degree: 14%
@@ -49,17 +49,17 @@ In order to use [!DNL AEM] experience fragments in [!DNL Target], you must perfo
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* **[!DNL AEM]6.3 **:[Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html)설명서에서 Adobe Analytics과 Adobe Target에__선택
-* **[!DNL AEM]6.4 **:[Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html)설명서에서 Adobe Analytics과 Adobe Target에__선택
-* **[!DNL AEM]6.5 **:[Adobe Experience Manager 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html)설명서에서 Adobe Analytics과 Adobe Target에&#x200B;**선택
+* **[!DNL AEM]6.3**: [Adobe Experience Manager 6.3](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) 설명서에서 Adobe Analytics과 Adobe Target에 __ 선택
+* **[!DNL AEM]6.4**: [Adobe Experience Manager 6.4](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) 설명서에서 Adobe Analytics과 Adobe Target에 __ 선택
+* **[!DNL AEM]6.5**: [Adobe Experience Manager 6.5](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) 설명서에서 Adobe Analytics과 Adobe Target에 ** 선택
 
 ### 2단계: 경험 구성요소 만들기
 
 Experience fragments are created in [!DNL AEM]. 자세한 내용은 다음 문서를 참조하십시오.
 
-* **[!DNL AEM]6.3 **:[](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)Adobe Experience Manager 6.3 **설명서에서 경험 조각
-* **[!DNL AEM]6.4 **:[](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)Adobe Experience Manager 6.4 **설명서에서 경험 조각
-* **[!DNL AEM]6.5 **:[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)Adobe Experience Manager 6.5 **설명서에서 경험 조각
+* **[!DNL AEM]6.3**: [](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) Adobe Experience Manager 6.3 ** 설명서에서 경험 조각
+* **[!DNL AEM]6.4**: [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.4 ** 설명서에서 경험 조각
+* **[!DNL AEM]6.5**: [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.5 ** 설명서에서 경험 조각
 
 ### Step 3: Configure [!DNL AEM] to share the experience fragment with [!DNL Target]
 
@@ -76,9 +76,9 @@ Experience fragments are created in [!DNL AEM]. 자세한 내용은 다음 문�
 
 버전에 따라 [!DNL AEM] 단계별 지침을 보려면 다음 링크를 참조하십시오.
 
-* **[!DNL AEM]6.3 **:[](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager 6.3 *설명서에서 Target으로 경험 조각*내보내기
-* **[!DNL AEM]6.4 **:[](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)Adobe Experience Manager 6.4 *설명서에서 Target으로 경험 조각*내보내기
-* **[!DNL AEM]6.5 **:[](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)Adobe Experience Manager 6.5 *설명서에서 Target으로 경험 조각*내보내기
+* **[!DNL AEM]6.3**: [](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.3 *설명서에서 Target으로 경험 조각* 내보내기
+* **[!DNL AEM]6.4**: [](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4 *설명서에서 Target으로 경험 조각* 내보내기
+* **[!DNL AEM]6.5**: [](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.5 *설명서에서 Target으로 경험 조각* 내보내기
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
