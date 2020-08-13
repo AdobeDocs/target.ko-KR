@@ -2,11 +2,11 @@
 keywords: affinity;category affinity
 description: Adobe Target의 카테고리 친화성 기능을 사용하여 자동으로 사용자가 방문하는 카테고리를 캡처하고 카테고리에 대한 사용자의 친화성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있습니다. 이 기능은 해당 정보에 대해 행동할 가능성이 가장 큰 방문자를 타겟으로 콘텐츠를 지정합니다.
 title: Adobe Target에서 카테고리 친화성 사용
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 98%
