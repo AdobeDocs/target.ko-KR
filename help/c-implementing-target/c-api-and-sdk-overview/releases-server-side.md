@@ -2,10 +2,10 @@
 keywords: at.js;api;release;updates;apis;sdks;server side;serverside;server-side;api;delivery api
 description: Adobe Target의 서버측 API와 관련된 릴리스 노트입니다.
 title: Adobe Target의 서버측 API와 관련된 릴리스 노트입니다.
-feature: null
+feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '211'
 ht-degree: 0%
