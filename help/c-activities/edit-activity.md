@@ -2,11 +2,11 @@
 keywords: activities;activity;activity types;edit activity;edit;draft
 description: 활동을 초안 양식으로 저장하는 작업을 포함하여 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
 title: 활동 편집 또는 초안으로 저장
-feature: null
+feature: activities
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 100%
