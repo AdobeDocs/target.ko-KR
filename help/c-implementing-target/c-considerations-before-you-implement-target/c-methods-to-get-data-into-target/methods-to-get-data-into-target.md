@@ -2,12 +2,12 @@
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: 페이지 매개 변수, 인페이지 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 비롯하여 데이터를 Target에 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
 title: 데이터를 Target에 가져오는 방법
-feature: null
+feature: implementation general
 subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1940'
 ht-degree: 97%
