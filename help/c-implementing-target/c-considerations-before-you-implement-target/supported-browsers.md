@@ -2,12 +2,12 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: Adobe Target 애플리케이션 및 콘텐츠 전달은 다양한 브라우저 및 장치에서 테스트되었습니다.
 title: 지원되는 브라우저
-feature: null
+feature: reference general
 subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 81%
@@ -36,8 +36,8 @@ The [!DNL Target] interface supports the following browsers and devices:
 
 | 장치 유형 | 브라우저 버전 |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 및 10. 에뮬레이션 모드에서 테스트되었습니다.<br>**참고&#x200B;**: at.js 1.3.0 이상 버전은 더 이상 Microsoft Internet Explorer 9에서 컨텐츠 전달을 지원하지 않습니다.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome(최신, 최신 버전-1)</li><li>Firefox(최신, 최신 버전-1)</li></ul> |
-| Mac | <ul><li>Apple Safari(최신)<br>**참고&#x200B;**: Safari가 퍼스트 파티 및 타사 쿠키를 처리하는 방법에 대한 자세한 내용은[Target 쿠키](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)를 참조하십시오.</li><li>Firefox(최신, 최신 버전-1)</li><li>Chrome(최신, 최신 버전-1)</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 및 10. 에뮬레이션 모드에서 테스트되었습니다.<br>**참고**: at.js 1.3.0 이상 버전은 더 이상 Microsoft Internet Explorer 9에서 컨텐츠 전달을 지원하지 않습니다.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome(최신, 최신 버전-1)</li><li>Firefox(최신, 최신 버전-1)</li></ul> |
+| Mac | <ul><li>Apple Safari(최신)<br>**참고**: Safari가 퍼스트 파티 및 타사 쿠키를 처리하는 방법에 대한 자세한 내용은 [Target 쿠키](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)를 참조하십시오.</li><li>Firefox(최신, 최신 버전-1)</li><li>Chrome(최신, 최신 버전-1)</li></ul> |
 | 모바일/태블릿 | <ul><li>Apple iOS(최신)</li><li>Android 장치 및 태블릿(Android 4 이상)</li><li>Microsoft Surface(Windows 8.1)</li></ul> |
 
 다음 사항에 주의하십시오.
