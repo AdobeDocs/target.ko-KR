@@ -2,11 +2,11 @@
 keywords: Target Standard;faq;frequently asked questions;cheat sheet;cheatsheet
 description: Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보로 연결되는 링크 목록입니다.
 title: Target 최적화 및 개인화 FAQ
-feature: null
+feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2908'
 ht-degree: 98%
