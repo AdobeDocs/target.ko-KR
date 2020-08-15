@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 39%
+source-wordcount: '1686'
+ht-degree: 38%
 
 ---
 
@@ -476,6 +476,8 @@ Consider the following when using `serverState`:
    이 설정을 켜려면 UICONTROL 관리 > 구현 > 편집 > 페이지 로드 **[활성화에서 전환을 활성화합니다]**.
 
    ![페이지 로드 활성화 설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+* 반환된 컨텐츠에서 `serverState` 태그를 사용하고 사용하는 경우 HTML 컨텐츠가 `<script>` 대신 사용되는지 확인하십시오 `<\/script>` `</script>`. 사용하는 경우, 브라우저 `</script>`는 인라인 SCRIPT의 끝 `</script>` 으로 해석되며 HTML 페이지가 중단될 수 있습니다.
 
 ### 추가 리소스
 
