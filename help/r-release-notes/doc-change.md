@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
 workflow-type: tm+mt
-source-wordcount: '1856'
+source-wordcount: '1894'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 14일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | Recommendations 활동의 QA에 대한 알려진 문제가 추가되었습니다. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 반환된 컨텐츠에서 태그를 사용하고 사용하는 경우 HTML 컨텐츠가 대신 `serverState` 사용할 수 있도록 `<script>` 하는 텍스트 `<\/script>` 가 추가되었습니다 `</script>`. |
 | 8월 12일 | [Target UI 이해](/help/c-intro/understand-the-target-ui.md) | 새 주제입니다.  |
 |  | [Adobe Target API 개요](/help/api/api-overview.md) | 새 주제입니다.  |
 | 8월 10일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | CNAME 사용 시 쿠키 헤더의 크기가 증가함을 나타내는 텍스트가 추가되었습니다. |
