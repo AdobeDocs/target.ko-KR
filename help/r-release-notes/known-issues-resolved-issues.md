@@ -5,9 +5,9 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3442'
 ht-degree: 88%
 
 ---
@@ -32,6 +32,10 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 ### 활동 QA 미리 보기 링크 {#preview}
 
 계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 [활동 QA 미리 보기](/help/c-activities/c-activity-qa/activity-qa.md) 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도하면 작동합니다. 이 문제가 계속 발생하지 않도록 하려면 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오. (TNT-32697)
+
+### Recommendations 활동에 대한 QA 모드
+
+알려진 문제로 인해 활동에 사용된 기준이 항목 기반 또는 카테고리 기반 항목인지 미리 볼 수 없습니다. (TNT-37455)
 
 ### 리디렉션 오퍼 {#redirect}
 
@@ -127,7 +131,7 @@ at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false`�
 
 Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표에 &quot;동일한 터치&quot; Attribution IQ 모델을 적용하여 정확한 카운트를 확인하십시오. 기본이 [아닌 속성 모델을](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)적용하려면 지표를 마우스 오른쪽 단추로 클릭하여 열 설정 > 기본이 아닌 속성 모델 사용 **설정 > 동일한 터치 모델**&#x200B;선택 이 모델이 적용되지 않으면 지표가 부풀려집니다.
 
-현재 모든 Analytics 패키지에는 Attribution IQ에 이 모델을 추가할 수 있습니다. Attribution IQ에 액세스할 수 없는 경우 보고 및 분석의 A4T 데이터를 사용하십시오.
+현재 모든 Analytics 패키지에는 Attribution IQ에 이 모델을 추가할 수 있습니다. Attribution IQ에 대한 액세스 권한이 없는 경우 보고 및 분석의 A4T 데이터를 사용하십시오.
 
 ### Target API
 
