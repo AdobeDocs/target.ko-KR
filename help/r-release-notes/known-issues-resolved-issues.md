@@ -5,9 +5,9 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3403'
 ht-degree: 88%
 
 ---
@@ -27,11 +27,7 @@ ht-degree: 88%
 
 ### 페이지 게재 {#page-delivery}
 
-URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게재](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)에 추가하면 추가 공백이 규칙에 접두사로 추가됩니다. 이것은 사소한 문제이며 대상-정의 작성 및 오퍼 게재에 영향을 주지 않습니다. (TGT-35916)
-
-### 활동 QA 미리 보기 링크 {#preview}
-
-계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 [활동 QA 미리 보기](/help/c-activities/c-activity-qa/activity-qa.md) 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도하면 작동합니다. 이 문제가 계속 발생하지 않도록 하려면 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오. (TNT-32697)
+URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게재](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)에 추가하면 추가 공백이 규칙에 접두사로 추가됩니다. 이것은 사소한 문제이며 대상-정의 작성 및 오퍼 게재에 영향을 주지 않습니다. (TGT-35920)
 
 ### Recommendations 활동에 대한 QA 모드
 
@@ -43,10 +39,6 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 
 * 경우에 따라 A4T(타겟 분석)로 구성된 활동에서 리디렉션 오퍼를 사용할 때 제한된 수의 고객이 트래픽 분포에서 높은 차이를 보고했습니다. Adobe 엔지니어가 현재 이 문제를 해결하기 위해 노력하고 있습니다.
 * at.js 구현의 리디렉션 활동으로 인해 미리 보기 URL이 루프에 들어가게 됩니다(오퍼가 반복적으로 전달됨). 대신 [QA 모드](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)를 사용하여 미리 보기와 QA를 수행할 수 있습니다. 이 문제는 오퍼의 실제 전달에는 영향을 주지 않습니다. (TGT-23019)
-
-### 사용자 지정 경험을 제어로 사용할 때 자동 타겟 활동에 대한 그래프 보고서가 렌더링되지 않습니다.
-
-경험에 데이터가 없는 경우(방문 횟수 0) 자동 타겟 활동에 대한 그래프 보고서가 &quot;차등&quot; 모드(평균 리프트 및 일별 리프트)에 대해 렌더링되지 않습니다. 이러한 상황은 제어 경험이 사용자 지정으로 설정된 경우 활동의 초기 단계에서 발생할 수 있습니다. 다른 모드(평균 제어 실행 및 타깃팅됨, 일별 제어 및 타깃팅됨, 방문 횟수)에서는 제대로 작동합니다. 데이터가 있으면(방문 횟수가 0이 아님) 바로 보고서가 예상대로 렌더링됩니다.
 
 ### VEC 내에서 페이지 로드 취소 {#cancel}
 
@@ -107,12 +99,6 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
    **해결 방법**: &quot;x-only&quot; 선택 사항을 활성화한 상태로 at.js를 구성한 후 호출에 `mboxThirdPartyId`를 전달하여 사용자를 관리합니다.
 
-### mbox.js
-
-mbox.js 라이브러리는 Handlebars 및 Mustache와 같은 클라이언트 측 템플릿 언어를 지원하지 않습니다. at.js 라이브러리는 이러한 언어를 *지원합니다*.
-
-**참고**: mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 mbox.js에서 at.js로 마이그레이션해야 합니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
-
 ### 구현: 글로벌 Mbox를 자동으로 만들기
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
@@ -148,6 +134,18 @@ Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 위의 알려진 문제가 해결되면 다음 섹션으로 이동되고, 필요한 경우 다른 메모가 더 추가됩니다.
+
+### 사용자 지정 경험을 제어로 사용할 때 자동 타겟 활동에 대한 그래프 보고서가 렌더링되지 않습니다.
+
+경험에 데이터가 없는 경우(방문 횟수 0) 자동 타겟 활동에 대한 그래프 보고서가 &quot;차등&quot; 모드(평균 리프트 및 일별 리프트)에 대해 렌더링되지 않습니다. 이러한 상황은 제어 경험이 사용자 지정으로 설정된 경우 활동의 초기 단계에서 발생할 수 있습니다. 다른 모드(평균 제어 실행 및 타깃팅됨, 일별 제어 및 타깃팅됨, 방문 횟수)에서는 제대로 작동합니다. 데이터가 있으면(방문 횟수가 0이 아님) 바로 보고서가 예상대로 렌더링됩니다.
+
+이 문제는 Target 19.7.1 릴리스에서 해결되었습니다.
+
+### mbox.js
+
+mbox.js 라이브러리는 Handlebars 및 Mustache와 같은 클라이언트 측 템플릿 언어를 지원하지 않습니다. at.js 라이브러리는 이러한 언어를 *지원합니다*.
+
+**참고**: mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 mbox.js에서 at.js로 마이그레이션해야 합니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
 
 ### 보고 및 예외적인 주문
 
