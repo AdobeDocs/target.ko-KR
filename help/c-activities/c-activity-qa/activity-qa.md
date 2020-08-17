@@ -6,10 +6,10 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 79%
+source-wordcount: '1531'
+ht-degree: 80%
 
 ---
 
@@ -67,6 +67,7 @@ Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크,
 ## 고려 사항 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * [!UICONTROL 활동 QA] 링크는 자동화된 개인화(AP)를 제외한 모든 활동 유형의 [!UICONTROL 개요] 페이지에 표시됩니다. AP 활동을 위한 [미리 보기 링크](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)를 사용할 수 있습니다.
+* 계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 활동 QA 미리 보기 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도하면 작동합니다. 이 문제가 계속 발생하지 않도록 하려면 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오.
 * 활동 QA URL은 Analytics를 보고 소스로 사용(A4T)하는 활동에서 사용할 수 있습니다. 활동 QA를 사용하여 QA를 수행하는 동안 생성된 히트는 활동이 라이브 상태가 된 후에도 활동의 데이터가 흐르는 보고서 세트에 제공됩니다.
 * 활동 QA에서는 종료 일자가 지난 보관된 활동용 콘텐츠를 표시하지 않습니다. 종료된 활동을 비활성화하는 경우 활동 QA 사용을 위해 활동을 다시 저장해야 합니다.
 * Target Standard/Premium에 가져온 활동(예를 들어, Target Classic에서 가져옴)은 QA URL을 지원하지 않습니다.
