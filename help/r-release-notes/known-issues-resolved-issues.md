@@ -5,7 +5,7 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
 workflow-type: tm+mt
 source-wordcount: '3403'
 ht-degree: 88%
@@ -54,10 +54,6 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 
 * SPA(단일 페이지 애플리케이션) 웹 사이트의 경우 로드를 취소하면 [!UICONTROL 수정 사항] 패널에서 작업을 편집할 수 없습니다.
 
-### Target API의 엔터프라이즈 권한 지원 {#api}
-
-GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러리의 Target UI에서 생성된 코드 오퍼가 기본 작업 공간에 표시될 수 있습니다. 이 문제는 2019년 3월 첫 주에 수정됩니다. 이 수정 사항이 적용되면 API에서 가져올 때 코드 오퍼가 적합한 작업 공간에 표시됩니다. 이 문제는 API에서 만든 오퍼에 영향을 주지 *않습니다*. 예를 들어 API에서 생성된 코드 오퍼는 GET API를 사용하여 가져오든 아니면 Target UI 내에서 가져오든 간에 생성될 때 작업 공간에 표시됩니다.
-
 ### Recommendations
 
 다음은 Recommendations 활동에 대한 알려진 문제입니다.
@@ -99,14 +95,6 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
    **해결 방법**: &quot;x-only&quot; 선택 사항을 활성화한 상태로 at.js를 구성한 후 호출에 `mboxThirdPartyId`를 전달하여 사용자를 관리합니다.
 
-### 구현: 글로벌 Mbox를 자동으로 만들기
-
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
-
-프로비저닝 후 처음으로 mbox.js가 다운로드되면 다운로드된 mbox.js 파일 및 [!UICONTROL  백엔드에서 ]글로벌 Mbox를 자동으로 만들기[!DNL Target] 필드가 &quot;true&quot;로 설정되지만, UI의 [!UICONTROL 구현] 페이지에는 페이지를 새로 고칠 때까지 계속 &quot;false&quot;로 표시됩니다(페이지를 새로 고친 후 상태는 &quot;true&quot;로 표시됨).
-
-at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false`로 다운로드됩니다. mbox.js를 처음 다운로드하면 global\_mbox\_autocreate가 &quot;true&quot;로 설정되고 at.js도 `global_mbox_autocreate = true`로 다운로드됩니다. (TGT-15929)
-
 ### 성공 지표
 
 고급 옵션 &quot;카운트는 어떻게 증분됩니까?&quot;가 &quot;모든 노출&quot; 또는 &quot;모든 노출(새로 고침 제외)&quot;로 설정된 성공 지표는 다른 지표가 종속되는 성공 지표로 사용할 수 없습니다.
@@ -117,7 +105,7 @@ at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false`�
 
 Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표에 &quot;동일한 터치&quot; Attribution IQ 모델을 적용하여 정확한 카운트를 확인하십시오. 기본이 [아닌 속성 모델을](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)적용하려면 지표를 마우스 오른쪽 단추로 클릭하여 열 설정 > 기본이 아닌 속성 모델 사용 **설정 > 동일한 터치 모델**&#x200B;선택 이 모델이 적용되지 않으면 지표가 부풀려집니다.
 
-현재 모든 Analytics 패키지에는 Attribution IQ에 이 모델을 추가할 수 있습니다. Attribution IQ에 대한 액세스 권한이 없는 경우 보고 및 분석의 A4T 데이터를 사용하십시오.
+현재 모든 Analytics 패키지에는 Attribution IQ에 이 모델을 추가할 수 있습니다. Attribution IQ에 액세스할 수 없는 경우 보고 및 분석의 A4T 데이터를 사용하십시오.
 
 ### Target API
 
@@ -146,6 +134,18 @@ Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표
 mbox.js 라이브러리는 Handlebars 및 Mustache와 같은 클라이언트 측 템플릿 언어를 지원하지 않습니다. at.js 라이브러리는 이러한 언어를 *지원합니다*.
 
 **참고**: mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 mbox.js에서 at.js로 마이그레이션해야 합니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
+
+### 구현: 글로벌 Mbox를 자동으로 만들기
+
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+
+프로비저닝 후 처음으로 mbox.js가 다운로드되면 다운로드된 mbox.js 파일 및 [!UICONTROL  백엔드에서 ]글로벌 Mbox를 자동으로 만들기[!DNL Target] 필드가 &quot;true&quot;로 설정되지만, UI의 [!UICONTROL 구현] 페이지에는 페이지를 새로 고칠 때까지 계속 &quot;false&quot;로 표시됩니다(페이지를 새로 고친 후 상태는 &quot;true&quot;로 표시됨).
+
+at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false`로 다운로드됩니다. mbox.js를 처음 다운로드하면 global\_mbox\_autocreate가 &quot;true&quot;로 설정되고 at.js도 `global_mbox_autocreate = true`로 다운로드됩니다. (TGT-15929)
+
+### Target API의 엔터프라이즈 권한 지원 {#api}
+
+GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러리의 Target UI에서 생성된 코드 오퍼가 기본 작업 공간에 표시될 수 있습니다. 이 문제는 2019년 3월 첫 주에 수정됩니다. 이 수정 사항이 적용되면 API에서 가져올 때 코드 오퍼가 적합한 작업 공간에 표시됩니다. 이 문제는 API에서 만든 오퍼에 영향을 주지 *않습니다*. 예를 들어 API에서 생성된 코드 오퍼는 GET API를 사용하여 가져오든 아니면 Target UI 내에서 가져오든 간에 생성될 때 작업 공간에 표시됩니다.
 
 ### 보고 및 예외적인 주문
 
