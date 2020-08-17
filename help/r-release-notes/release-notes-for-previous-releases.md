@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
 workflow-type: tm+mt
-source-wordcount: '30025'
+source-wordcount: '29471'
 ht-degree: 89%
 
 ---
@@ -234,7 +234,7 @@ Target Standard/Premium 20.1.1 릴리스는 유지 관리 버전이며 백엔드
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| ![프리미엄 배지](/help/assets/premium.png) 사용자 기반 Recommendations<br>(2019년 10월 24일) | 각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목을 일반적으로 &quot;권장 사항&quot;이라고 합니다.<br>이 기준을 통해 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 추천 목록은 방문자의 최근 활동에 가중치가 적용되며 세션 중에 업데이트되며 방문자가 사이트를 검색할 때 더욱 개인화됩니다.<br>자세한 내용은 기준/알고리즘의 &quot;사용자 기반 Recommendations&quot; [을 참조하십시오](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
+| ![프리미엄 배지](/help/assets/premium.png) 사용자 기반 Recommendations<br>(2019년 10월 24일) | 각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목을 일반적으로 &quot;권장 사항&quot;이라고 합니다.<br>이 기준을 통해 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 추천 목록은 방문자의 최근 활동에 가중치가 적용되며 세션 중에 업데이트되며 방문자가 사이트를 검색할 때 더욱 개인화됩니다.<br>자세한 내용은 [기준/알고리즘의 &quot;사용자 기반 Recommendations&quot;을 참조하십시오](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
 **Adobe Experience Cloud 내비게이션**
 
@@ -1457,13 +1457,6 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>클릭 추적이 가시성 속성을 방해하지 않도록 하는 데 필요한 변경이 수행되었습니다. 클릭 추적 요소가 <span class="codeph">at-element-marker</span> 대신 <span class="codeph">at-element-click-tracking</span> CSS 클래스로 표시됩니다 . </p> </li> 
      </ul> </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017년 7월 18일</b> </p> <p>  이제 <span class="filepath">mbox.js</span> 버전 63을 사용할 수 있습니다. 자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">mbox.js 다운로드</a>를 참조하십시오 . </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath">mbox.js</span> 버전 63에 포함되어 있습니다. </p> <p> 
-     <ul id="ul_F876FABA804A459D84387102DC38B7DC"> 
-      <li id="li_E840AFDFAD394F5E9CDF52FABCA27EF7"><span class="codeph">mboxDefine()</span> 및 <span class="codeph">mboxUpdate()</span>를 사용할 때 SDID 생성과 관련된 문제를 수정합니다. 이러한 사항은 페이지에서 방문자 API가 있는 클라이언트에만 영향을 줍니다. </li> 
-     </ul> </p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -1581,41 +1574,6 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    `marketingCloudMetadata(remoteModifiedBy)`
 
    이 가져오기 작업은 활동 페이지가 열리면 실행되고, 최대 지연 시간은 10분입니다. (KB-1526)
-
-### 타겟 플랫폼 변경 사항(2017년 7월 18일) {#section_08A2B80060FE4833B1BDD12D1AF5E3D6}
-
-<table id="table_17607030DA7948819F73FA9F2B22AB5B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 변경 </th> 
-   <th colname="col2" class="entry"> 세부 사항 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017년 7월 18일</b> </p> <p>  이제 <span class="filepath">mbox.js</span> 버전 63을 사용할 수 있습니다. 자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">mbox.js 다운로드</a>를 참조하십시오 . </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath">mbox.js</span> 버전 63에 포함되어 있습니다. </p> <p> 
-     <ul id="ul_6C88DB6332A94858B278F7F846E2F8EB"> 
-      <li id="li_597D15CAD9DA44008FEC01E6BB3CB9A7"><span class="codeph">mboxDefine()</span> 및 <span class="codeph">mboxUpdate()</span>를 사용할 때 SDID 생성과 관련된 문제를 수정합니다. 이러한 사항은 페이지에서 방문자 API가 있는 클라이언트에만 영향을 줍니다. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017년 7월 7일</b> </p> <p>  이제 <span class="filepath">at.js</span> 버전 1.0을 사용할 수 있습니다. 자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">at.js 다운로드</a>를 참조하십시오 . </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath">at.js</span> 버전 1.0에 포함되어 있습니다. </p> <p> 
-     <ul id="ul_4407D3923CE34CD8AD7120A2580A34DF"> 
-      <li id="li_34C8D0572A0340DF99294DD33E352D2C"> <p>더 빠른 페이지 로드를 위해 at.js의 비동기식 로드가 지원됩니다. </p> </li> 
-      <li id="li_BC944624B3104418854140484E682D69"> <p>at.js를 비동기식으로 로드할 때 사전 숨김 페이지 콘텐츠가 지원됩니다. </p> </li> 
-      <li id="li_F9D0AD095A2A425CB78772DDE8FCCF97"> <p>콘텐츠 전달을 사용하지 않도록 설정할 때 오류 메시지가 개선됩니다. </p> </li> 
-      <li id="li_4B32468665A34FC0AF66C1CD15DE7AFC"> <p>여러 활동을 전달할 때 성능이 향상됩니다. </p> </li> 
-      <li id="li_48EAD25A4077411E954CCCDB95058924"> <p>YUI Compressor가 지원됩니다. </p> </li> 
-      <li id="li_3598B4223C0A478D956A7EC618BFBCD6"> <p>활동 전달 중 사용자 지정 이벤트에 대한 버그/오류가 보고됩니다. </p> </li> 
-      <li id="li_28A5DDF1A9D64D66BF8BD0E89E5BD69B"> <p>Microsoft Internet Explorer 11의 성능 문제가 해결되었습니다. </p> </li> 
-      <li id="li_BB1C11A76FB14341AB7699F2C7753377"> <p>일부 웹 사이트에 오류를 발생하는 <span class="codeph">getOffer()</span> 함수가 수정되었습니다. </p> </li> 
-      <li id="li_4C7F3DE9A0A346C38E9EDCE21C83843D"> <p>Target 라이브러리를 비동기식으로 로드하십시오. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### Target Standard/Premium 17.6.2(2017년 6월 22일) {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
@@ -1845,14 +1803,6 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p><span class="codeph">at.js</span>에서 HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 <span class="codeph">secureOnly</span> 설정이 추가되었습니다. 이 설정은 기본값이 False이고 <span class="codeph">targetGlobalSettings</span>를 통해 대체할 수 있는 고급 설정입니다 . (TNT-26183) </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>를 참조하십시오. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="codeph">at.js</span> 버전 0.9.3 및 이전 버전에서 <span class="wintitle">레거시 브라우저 지원</span> 옵션을 사용할 수 있습니다. 이 옵션은 <span class="codeph">at.js</span> 버전 0.9.4에서 제거되었습니다. </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 구성</a>을 참조하십시오. </p> </li> 
      </ul> </p> <p>각 버전의 <span class="codeph">at.js</span> 변경 사항에 대한 자세한 내용은 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 버전 세부 사항</a>을 참조하십시오 . </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mbox.js</span> 버전 62 </p> </td> 
-   <td colname="col2"> <p>2017년 1월 18일 </p> <p> <span class="codeph">mbox.js</span> 버전 62에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다. </p> <p> 
-     <ul id="ul_1D4351AEB0D74FE4B09196113A4672C1"> 
-      <li id="li_653D9C605A0B447AB1FFEE5D22D3AD05"> <p>Google Chrome 브라우저에서 볼 때 리디렉션 활동에서 발생하는 깜박임 문제가 수정되었습니다. (TNT-24928) </p> </li> 
-      <li id="li_2196D7CD9B144C0A96AE8B8D13976C69"> <p><span class="codeph">mbox.js</span>에서 HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 <span class="codeph">secureOnly</span> 설정이 추가되었습니다. 이것은 기본값이 False인 고급 설정입니다. (TNT-26183) </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C" format="dita" scope="local">mbox.js 구성</a>을 참조하십시오 . </p> </li> 
-     </ul> </p> <p>각 버전의 <span class="codeph">mbox.js</span> 변경 사항에 대한 자세한 내용은 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html" format="html" scope="external">mbox.js 버전 세부 사항</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2112,27 +2062,6 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 * 시각적 경험 작성기에서 사용자 지정 코드와 함께 사용할 경우 [!UICONTROL 자바스크립트를 사용하여 렌더링] 옵션은 현재 지원되지 않습니다.
 
-### 타겟 플랫폼 변경 사항(2016년 8월) {#section_8D8BA8C628E747338C84564EC34CE0FD}
-
-<table id="table_0035B0D7ECD444C68B1B6CB0F150C55E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> 변경 </th> 
-   <th colname="col2" class="entry"> 세부 사항 </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js</span> 버전 61 </p> </td> 
-   <td colname="col2"> <p>2016년 8월 23일 </p> <p> <span class="filepath">mbox.js</span> 버전 61은 8월 릴리스의 다음 변경 사항을 포함합니다. </p> <p> 
-     <ul id="ul_DC4E5AB3B48A4D2D9B08B6CDA5DFE8FB"> 
-      <li id="li_B52F3AE60D324C2A8FAD03C1495F26D7"> <p> <span class="filepath"> mbox.js</span> 버전 61은 이제 <span class="keyword">Target Standard/Premium</span> 및 <span class="keyword">Target Classic</span> 사용자 인터페이스에 기본 다운로드로 제공됩니다. </p> </li> 
-      <li id="li_41C2D2E552BF4F8E8A4375AF368F7728"> <p>향후 Adobe Experience Cloud 옵트아웃 기능을 지원하도록 <span class="codeph">optoutEnabled</span> 설정이 추가되었습니다. 기본값은 false입니다. 이 속성을 활성화하면 버전 60과 마찬가지로 모든 요청이 <span class="filepath">/ajax</span> 종단점에 대해 비동기적으로 실행됩니다. </p> </li> 
-     </ul> </p> <p><span class="filepath">mbox.js</span> 버전 61의 모든 변경 사항에 대한 자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">mbox.js 버전 세부 사항</a>을 참조하십시오. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Adobe Target Standard/Premium 16.8.1(2016년 8월 23일) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 Adobe Target Standard/Premium 16.8.1(2016년 8월 23일) 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되어 있습니다.
@@ -2200,10 +2129,6 @@ Adobe Target Standard/Premium 16.8.1(2016년 8월 23일) 릴리스에는 다음�
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js</span> 버전 0.9.1 </p> </td> 
    <td colname="col2"> <p>2016년 7월 14일 </p> <p>  현재 <span class="filepath">at.js</span> 버전 0.9.1을 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js 버전 세부 사항</a>을 참조하십시오 . </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js</span> 버전 61 </p> </td> 
-   <td colname="col2"> <p>2016년 7월 28일 </p> <p> 현재 <span class="codeph">mbox.js</span> 버전 61을 다운로드할 수 있습니다. 버전 61은 현재 기본 다운로드가 아닙니다. </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">mbox.js 버전 세부 사항</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2399,16 +2324,6 @@ at.js를 구현할 때는 다음에 유의하십시오.
 * 비동기식 구현은 Test&amp;Target 및 SiteCatalyst 플러그인과 같은 이전 통합이 작동되지 않을 수 있음을 의미합니다.
 * mbox.js 개체 및 메서드를 참조하는 Target 플러그인은 지원되지 않습니다.
 * 모든 Target 호출은 XMLHTTPRequest를 통해 수행되고 컨텐츠는 JSON을 통해 반환됩니다.
-
-### Target 플랫폼 변경 사항 {#section_8295A808A4CE405C9DA2893E7935238E}
-
-* [Mbox.js 버전 60은 현재 기본 다운로드입니다.](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#section_3BDAB885FA13444A8D35940A4BFF5825)
-* 50 이전의 Mbox.js 버전은 더 이상 적극적으로 테스트되지 않습니다. 구현이 아직 업데이트되지 않은 경우 모든 Target 콘텐츠 전달 및 보고 컬렉션에 대해 추가 QA가 수행되도록 하십시오.
-* Flash 캠페인 및 기타 Flash 관련 항목은 Target에서 제거되었습니다.
-* Internet Explorer 10은 더 이상 Target 인터페이스에서 지원되지 않습니다.
-* Internet Explorer 8, 9 및 10에 대한 콘텐츠 전달 지원이 향후 릴리스에서 종료될 것입니다.
-
-   Microsoft에서 해당 브라우저에 대한 활성 지원을 종료하게 됨에 따라 이러한 브라우저의 후속 릴리스에서는 활성 테스트가 중단될 예정입니다. Target은 이러한 브라우저에 컨텐츠를 계속 전달할 예정이지만 보고를 위해 컨텐츠 전달 및 데이터 수집을 테스트해야 합니다.
 
 ### Adobe Target Standard/Premium 16.4.1 수정 사항(2016년 5월 5일) {#section_70552F61E83140C7B4D2A245198B630E}
 
@@ -3175,9 +3090,6 @@ target/r_release-notes-2015.xml
 **알려진 문제**
 
 * Target에 대한 분석 소스로 Analytics가 사용되는 경우 Target Standard/Premium의 다변량 테스트에 대한 대상 기반 전환 이벤트가 보고되지 않습니다. 이 문제는 곧 수정될 예정입니다.
-* mbox.js 버전 56은 &quot;extra JavaScript&quot; 섹션으로 이동되었으므로 글로벌 mbox 이전에 실행됩니다.
-
-   v56+의 모든 설정은 네임스페이스됩니다. &quot;extra JavaScript&quot;에서 선언된 함수가 있는 경우 window를 접두사로 추가해야 합니다. [mbox.js 변경 로그](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html)를 참조하십시오.
 
 ### Adobe Target 15.2.1(2015년 2월 19일) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
