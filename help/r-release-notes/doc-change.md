@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 15a80d35a8a6bce0a55f40c4ae13aa801738880d
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1814'
 ht-degree: 29%
 
 ---
@@ -99,7 +99,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [리디렉터 작업](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
 |  | [이메일에 권장 사항 통합](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
 |  | [이메일: Target 구현](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 열린 리디렉션 취약점을 방지하기 위해 호스트를 사용하는 방법에 대한 정보가 추가되었습니다. |
-| 7년 5월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 2020년 8월 30일에 mbox.js의 사용 중단 사태가 임박하자 David Son, Adobe Target 제품 관리자는 최근 개발자 채팅을 열어 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 웨비나를 30일 동안 볼 수 있는 링크가 있습니다. |
 |  | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | &quot;고려 사항&quot; 섹션이 업데이트되었습니다. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | &quot;설정&quot; 아래의 &quot;overrideMboxEdgeServer&quot; 행을 업데이트했습니다. |
 | 6년 5월 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | ITP 2.3에 대한 정보가 추가되었습니다. |
@@ -115,7 +114,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 릴리스(20.4.1)의 날짜가 5월 6일로 변경되었습니다. |
 | 23년 4월 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 주제가 업데이트됨. |
 | 22년 4월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 새 섹션이 추가되었습니다. *프로필 배치 상태 API v2 변경 사항(2020년 5월 4일).* |
-| 20년 4월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 새 섹션이 추가되었습니다. *Adobe Target 스킬 빌더:개발자 채팅에서 Adobe Target의 mbox.js를 at.js로 마이그레이션합니다.* |
 | 14년 4월 | [Target 허용 목록에 추가하다 에지 호스트](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | 새 주제입니다.  |
 | 10년 4월 | [단일 페이지 애플리케이션 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | 새 섹션이 추가되었습니다.&quot;구현 모범 사례&quot; |
 | 7년 4월 | [상승도 및 신뢰도 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | &quot;계산된 지표에 향상도 및 신뢰도가 표시되지 않는 이유는 무엇입니까?&quot;에 대한 텍스트가 업데이트되었습니다. |
@@ -135,7 +133,6 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 3월 4일 | [프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md) | &quot;모범 사례&quot; 섹션의 광범위한 개정으로 전체 주제를 업데이트했습니다. |
 | 2월 21일 | [릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 새 Adobe Experience Cloud 탐색에 대한 정보가 추가되었습니다. |
 | 2월 20일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. 다음 설정에 대한 정보가 추가되었습니다. `pageLoadEnabled` 및 `viewsEnabled`. |
-| 2월 19일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | 예정된 mbox.js 라이브러리 사용 중단에 대한 정보가 추가되었습니다. |
 |  | [지역](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 1 `mboxOverride.browserIp` 에서 지원된다는 참고가 추가되었습니다.*x*&#x200B;에만 사용할 수 있습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Target 팀이 지원하는 at.js 버전을 설명하는 텍스트를 명확히 했습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 20.2.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
