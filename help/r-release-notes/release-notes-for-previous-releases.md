@@ -1,14 +1,14 @@
 ---
 keywords: Release notes
-description: Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.js 및 mbox.js)에 대한 릴리스 노트를 포함하는 이전 Target 릴리스에 대한 릴리스 노트입니다. 릴리스 노트는 릴리스의 연도/월을 사용하여 내림차순으로 표시됩니다.
+description: Target Standard/Premium, Target 플랫폼 및 Target Javascript 라이브러리(at.js)에 대한 릴리스 노트를 포함하여 이전 Target 릴리스에 대한 릴리스 노트입니다. 릴리스 노트는 릴리스의 연도/월을 사용하여 내림차순으로 표시됩니다.
 title: 이전 릴리스에 대한 릴리스 노트
 feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
+source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
 workflow-type: tm+mt
-source-wordcount: '29471'
+source-wordcount: '29011'
 ht-degree: 89%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 89%
 
 # 이전 릴리스{#release-notes-for-previous-releases}에 대한 릴리스 노트
 
-Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.js 및 mbox.js)에 대한 릴리스 노트를 포함하는 이전 Target 릴리스에 대한 릴리스 노트입니다. 릴리스 노트는 릴리스의 연도/월을 사용하여 내림차순으로 표시됩니다.
+Target Standard/Premium, Target 플랫폼 및 Target Javascript 라이브러리(at.js)에 대한 릴리스 노트를 포함하여 이전 Target 릴리스에 대한 릴리스 노트입니다. 릴리스 노트는 릴리스의 연도/월을 사용하여 내림차순으로 표시됩니다.
 
 >[!NOTE]
 >
@@ -142,10 +142,6 @@ http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Target Standard/Premium 20.2.1(2020년 3월 23일)
-
->[!IMPORTANT]
->
->mbox.js 사용 중단에 대한 위의 정보를 참조하십시오.
 
 이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
 
@@ -1185,11 +1181,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_97BC1B7295364ACDAD3FB07005ED592F"> <p><span class="codeph">targetPageParams()</span>가 빈 문자열을 반환하는 경우 </span>getOffer() params<span class="codeph">가 실패하도록 하는 문제가 수정되었습니다. (TNT-28359) </span></p> </li> 
       <li id="li_B542D4A4E37141BA8BE79D416E1B58DB"> <p>x-only를 사용할 때 발생하는 세션 ID 생성 관련 문제가 수정되었습니다. (TNT-28361) </p> </li> 
      </ul> </p> <p>at.js의 기본 시간 제한이 15초에서 5초로 변경되었습니다. </p> <p>현재 설정이 15초이면 새 기본값인 5초로 업데이트됩니다. 이전에 다른 값으로 변경해도 설정은 영향을 받지 않습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p>mbox.js </p> </td> 
-   <td colname="col2"> <p>mbox.js의 기본 시간 제한이 15초에서 5초로 변경되었습니다. </p> <p>현재 설정이 15초이면 새 기본값인 5초로 업데이트됩니다. 이전에 다른 값으로 변경해도 설정은 영향을 받지 않습니다. </p> </td> 
-  </tr> 
+  </tr>  
  </tbody> 
 </table>
 
@@ -1472,7 +1464,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p>응답 토큰 </p> </td> 
-   <td colname="col2"> <p>응답 토큰을 사용하면 활동(예: mbox 표시)을 전달하는 Target 응답에 적합한 변수(예: 프로필 속성)를 자동으로 출력할 수 있습니다. 응답 토큰은 디버깅 목적이나 타사 제공자(예: Clicktale)와의 통합을 위해 사용할 수 있습니다. </p> <p>응답 토큰은 <span class="keyword">Adobe Target Classic</span> 서버 플러그인과 유사하며 두 가지 솔루션 간에 기능 패리티를 제공합니다. </p> <p> <p>참고: 응답 토큰은 <span class="filepath">at.js</span> 1.1 이상에서 사용할 수 있습니다. <span class="codeph">mbox.js</span>에서는 응답 토큰이 지원되지 않습니다 . </p> </p> <p>자세한 내용은 <a href="../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">응답 토큰</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p>응답 토큰을 사용하면 활동(예: mbox 표시)을 전달하는 Target 응답에 적합한 변수(예: 프로필 속성)를 자동으로 출력할 수 있습니다. 응답 토큰은 디버깅 목적이나 타사 제공자(예: Clicktale)와의 통합을 위해 사용할 수 있습니다. </p> <p>응답 토큰은 <span class="keyword">Adobe Target Classic</span> 서버 플러그인과 유사하며 두 가지 솔루션 간에 기능 패리티를 제공합니다. </p> <p> <p>참고: 응답 토큰은 <span class="filepath">at.js</span> 1.1 이상에서 사용할 수 있습니다.</span>. </p> </p> <p>자세한 내용은 <a href="../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">응답 토큰</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1648,10 +1640,6 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  </tbody> 
 </table>
 
-이번 [!DNL Target] 릴리스에는 다음과 같은 고객용 개선 사항 및 수정 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
-
-* [!DNL mbox.js]의 XSS 보안 문제가 수정되었습니다. 이 수정 사항은 [!DNL mbox.js] 업데이트가 필요하지 않은 서버 측 수정 사항입니다.
-
 ### Target Standard/Premium 17.4.1(2017년 4월 27일) {#section_24E6889AF1E0405497F6F77A407A9A46}
 
 이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
@@ -1768,7 +1756,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 * 이제 모든 활동 이름이 목록에 로드되기 전에 [!UICONTROL 활동] 페이지에 있는 [!UICONTROL 활동 만들기] 단추가 활성 상태입니다. 이러한 개선을 통해 특히, 계정에 구성된 활동이 많은 경우 새 활동을 더 빠르게 만들 수 있습니다. (TGT-21470)
 * 프록시를 통해 액세스하는 HTTPS 실행 웹 사이트의 로드 시간을 단축하도록 EEC(고급 경험 작성기)가 개선되었습니다. Target은 더 이상 프록시를 통해 정적 리소스를 가져오지 않습니다. (TGT-21793)
 * 특히, 활동에 대해 많은 지표가 정의될 경우 로드 시간이 단축되는 것처럼, [!UICONTROL 목표 및 설정] 페이지의 성능이 개선되었습니다. (TGT-21654)
-* 활동 페이지에 at.js(버전 0.9.1 이상) 또는 mbox.js(버전 61 이상)가 로드된 경우 추적 서버가 필요하지 않음을 알리기 위해 A4T([!UICONTROL Analytics for Target]) 보고 기능을 사용하는 모든 활동의 [!UICONTROL 목표 및 설정] 페이지에 도구 설명이 추가되었습니다. (TGT-22607)
+* Added a tool tip on the [!UICONTROL Goals &amp; Settings] page of all activities using [!UICONTROL Analytics for Target] (A4T) reporting informing users that a tracking server is not required if the activity&#39;s pages have at.js (version 0.9.1 or later) loaded. (TGT-22607)
 * 이제 사용자가 전체 지표 이름을 보기 위해 각 지표를 확장하지 않아도 지표 이름이 [!UICONTROL 목표 및 설정] 페이지에 표시됩니다. 이를 통해 사용자는 지표를 보다 빠르고 효율적으로 편집할 수 있습니다. (TGT-21276)
 * 이제 다른 기준과 마찬가지로 [!DNL Recommendations] 포함 규칙을 사용자 지정 기준(CSV를 통해 업로드됨)에 적용할 수 있습니다. (TGT-21896)
 * 특히, 폴더를 생성 또는 관리하고 오퍼를 만들 때 [!UICONTROL 오퍼] 페이지의 사용자 인터페이스가 개선되고 보다 편리해졌습니다. (TGT-22509 및 TGT-22187)
@@ -1799,7 +1787,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1"> <p> <span class="codeph"> at.js</span> 버전 0.9.4 </p> </td> 
    <td colname="col2"> <p>2017년 1월 18일 </p> <p> <span class="codeph">at.js</span> 버전 0.9.4에는 다음 변경 사항이 포함되어 있습니다. </p> <p> 
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
-      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> 이제 mbox 이름에는 <span class="codeph">mbox.js</span>를 사용하는 mbox 이름에 대한 이름 지정 요구 사항과 일치하도록 하기 위해 앰퍼샌드(&amp;)를 비롯한 특수 문자가 포함될 수 있습니다 . (TNT-26144) </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 구성</a>을 참조하십시오. </p> </li> 
+      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> mbox 이름에는 앰퍼샌드( &amp; )를 비롯한 특수 문자가 포함될 수 있습니다. (TNT-26144) </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 구성</a>을 참조하십시오. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p><span class="codeph">at.js</span>에서 HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 <span class="codeph">secureOnly</span> 설정이 추가되었습니다. 이 설정은 기본값이 False이고 <span class="codeph">targetGlobalSettings</span>를 통해 대체할 수 있는 고급 설정입니다 . (TNT-26183) </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>를 참조하십시오. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p><span class="codeph">at.js</span> 버전 0.9.3 및 이전 버전에서 <span class="wintitle">레거시 브라우저 지원</span> 옵션을 사용할 수 있습니다. 이 옵션은 <span class="codeph">at.js</span> 버전 0.9.4에서 제거되었습니다. </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">at.js 구성</a>을 참조하십시오. </p> </li> 
      </ul> </p> <p>각 버전의 <span class="codeph">at.js</span> 변경 사항에 대한 자세한 내용은 <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">at.js 버전 세부 사항</a>을 참조하십시오 . </p> </td> 
@@ -2011,7 +1999,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1"> <p> <span class="codeph"> at.js</span> 버전 0.9.2 </p> </td> 
    <td colname="col2"> <p>2016년 9월 21일 </p> <p> <span class="codeph"> at.js</span> 버전 0.9.2를 사용할 수 있습니다. </p> <p> 
      <ul id="ul_0778A9049C9D48A7B6CB4B79A95F0F4C"> 
-      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Device Graph 옵트아웃을 활성화하거나 비활성화하는 <span class="codeph">optoutEnabled</span> 설정이 추가되었습니다. 이 설정이 <span class="codeph">true</span>로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 베타 버전입니다. 이 설정은 기본적으로 <span class="codeph">false</span>로 설정되지만 Device Graph를 사용하는 경우에는 <span class="codeph">true</span>로 설정되어야 합니다. 비슷한 옵션이 <span class="codeph">mbox.js</span> v61에 포함되어 있습니다. </p> </li> 
+      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Device Graph 옵트아웃을 활성화하거나 비활성화하는 <span class="codeph">optoutEnabled</span> 설정이 추가되었습니다. 이 설정이 <span class="codeph">true</span>로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 베타 버전입니다. 이 설정은 기본적으로 <span class="codeph">false</span>로 설정되지만 Device Graph를 사용하는 경우에는 <span class="codeph">true</span>로 설정되어야 합니다.</p> </li> 
       <li id="li_663462C0680049F89CA8FE1853F31807"> <p>알림 메커니즘에 대한 <span class="codeph">CustomEvent</span> 지원이 추가되었습니다. 이전에는 <span class="codeph">at.js</span> 이벤트 알림 메커니즘을 <span class="codeph">document.addEventListener()</span>와 같은 표준 DOM API를 통해 사용할 수 없었습니다. 이제<span class="codeph"> document.addEventListener()</span>를 사용하여 요청 이벤트 및 콘텐츠 렌더링 이벤트와 같은 <span class="codeph">at.js</span> 이벤트에 가입할 수 있습니다. </p> </li> 
       <li id="li_3FB2914F8D2F4AFFAA9B4622E8CA1EFF"> <p>VEC(시각적 경험 작성기)에서 만든 오퍼와 관련된 문제가 수정되었습니다. 이 릴리스 이전에 Target은 선택기를 숨기고, 모든 선택기가 선택될 때만 숨김을 해제했습니다. <span class="codeph">at.js</span> 0.9.2 Target은 일치하는 선택기가 확인되면 바로 숨김을 해제합니다. </p> </li> 
      </ul> </p> <p>자세한 내용은 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">at.js 버전 세부 사항</a>을 참조하십시오 . </p> </td> 
@@ -2272,8 +2260,7 @@ Adobe Target Standard/Premium 16.5.1(2016년 5월 19일) 릴리스에는 다음�
       <li id="li_19045C86E1524649B56F82416934EF13">콘텐츠 라이브러리 사용 </li> 
       <li id="li_8E89F3691A6F4400A2DFDFE5186DFA83">프로필 스크립트 사용 </li> 
       <li id="li_2EBB2B61BFA24F5FB858C0551AB20F70">계정 기본 설정 지정 </li> 
-      <li id="li_E1886818C7BF4F36B07EC293F1A45911">시각적 경험 작성기 모드 이해 </li> 
-      <li id="li_F74D2BA5ACD04595B658955A489602E5">mbox.js 구성 및 구현 </li> 
+      <li id="li_E1886818C7BF4F36B07EC293F1A45911">시각적 경험 작성기 모드 이해 </li>  
       <li id="li_A87B876298344B2987BDC5FFD5580EC0">Target 사용자 만들기 및 관리 </li> 
       <li id="li_F90E1083444E4DBAA8C406AC293C0FD6">성공 지표 설정 </li> 
      </ul> </p> </td> 
@@ -2307,12 +2294,6 @@ A4T 프로비저닝 프로세스가 개선되었습니다.
 
 at.js는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 Target용 구현 라이브러리입니다.
 
-at.js는 Adobe Target 구현을 위한 mbox.js를 대신합니다.
-
->[!NOTE]
->
->at.js는 mbox.js를 대신하지만 mbox.js는 계속 지원될 예정입니다. 대부분의 사용자에게 at.js는 mbox.js보다 나은 이점을 제공합니다. 이 기회에 at.js를 테스트해 보고 페이지에서 구현을 변경해 보십시오.
-
 여러 가지 이점 중에서 at.js는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 보안을 강화하고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다.
 
 at.js에는 target.js에 포함된 구성 요소도 포함되어 있으므로 더 이상 target.js를 호출할 필요가 없습니다.
@@ -2322,8 +2303,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 * Visual Experience Composer 리디렉션은 작동하지 않습니다.
 * 버전 8 이전의 Internet Explorer 버전은 지원되지 않습니다.
 * 비동기식 구현은 Test&amp;Target 및 SiteCatalyst 플러그인과 같은 이전 통합이 작동되지 않을 수 있음을 의미합니다.
-* mbox.js 개체 및 메서드를 참조하는 Target 플러그인은 지원되지 않습니다.
-* 모든 Target 호출은 XMLHTTPRequest를 통해 수행되고 컨텐츠는 JSON을 통해 반환됩니다.
+* 모든 Target 호출은 XMLHTTPRequest를 통해 수행되고 콘텐츠는 JSON을 통해 반환됩니다.
 
 ### Adobe Target Standard/Premium 16.4.1 수정 사항(2016년 5월 5일) {#section_70552F61E83140C7B4D2A245198B630E}
 
@@ -2425,13 +2405,12 @@ at.js를 구현할 때는 다음에 유의하십시오.
  <tbody> 
   <tr> 
    <td colname="col1"> <p>우선 검토: </p> <p>새 Target 구현 라이브러리, at.js </p> </td> 
-   <td colname="col2"> <p> <p>참고: 이 "우선 검토" 제공 서비스는 API 다운로드를 통해 사용할 수 있습니다. 이 서비스는 향후 릴리스에서 Target 인터페이스를 통해 사용할 수 있게 됩니다. 당분간은 at.js 라이브러리를 다운로드하고, 사용 환경에서 테스트하고, 프로덕션 Target 구현에 배포할 수 있습니다. </p> </p> <p> at.js는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 Target용 구현 라이브러리입니다. </p> <p> at.js는 Adobe Target 구현을 위한 mbox.js를 대신합니다. </p> <p> <p>참고: at.js는 mbox.js를 대신하며 대부분의 사용자들은 at.js를 통해 mbox.js보다 나은 기능을 활용할 수 있지만 mbox.js는 계속 지원될 예정입니다. 이 기회에 at.js를 테스트해 보고 페이지에서 구현을 변경해 보십시오. </p> </p> <p>여러 가지 이점 중에서 at.js는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 보안을 강화하고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. </p> <p>at.js에는 target.js에 포함된 구성 요소도 포함되어 있으므로 더 이상 target.js를 호출할 필요가 없습니다. </p> <p>at.js를 구현할 때는 다음에 유의하십시오. </p> <p> 
+   <td colname="col2"> <p> <p>참고: 이 "우선 검토" 제공 서비스는 API 다운로드를 통해 사용할 수 있습니다. 이 서비스는 향후 릴리스에서 Target 인터페이스를 통해 사용할 수 있게 됩니다. 당분간은 at.js 라이브러리를 다운로드하고, 사용 환경에서 테스트하고, 프로덕션 Target 구현에 배포할 수 있습니다. </p> </p> <p> at.js는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 Target용 구현 라이브러리입니다. </p></p> <p>여러 가지 이점 중에서 at.js는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 보안을 강화하고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. </p> <p>at.js에는 target.js에 포함된 구성 요소도 포함되어 있으므로 더 이상 target.js를 호출할 필요가 없습니다. </p> <p>at.js를 구현할 때는 다음에 유의하십시오. </p> <p> 
      <ul id="ul_8C50C669AA7B4464A5FDECFCFD8662ED"> 
       <li id="li_6065B208480D46178055B40A2654E0C6">Visual Experience Composer 리디렉션은 작동하지 않습니다. </li> 
       <li id="li_A2FABD3C21994511A45DED84283E526E">버전 8 이전의 Internet Explorer 버전은 지원되지 않습니다. </li> 
-      <li id="li_04499B391F784B89B09A1D6329B1C790">비동기식 구현은 Test&amp;Target 및 SiteCatalyst 플러그인과 같은 이전 통합이 작동되지 않을 수 있음을 의미합니다. </li> 
-      <li id="li_D3C00EF206154038A54F53CA40B34DC3"> mbox.js 개체 및 메서드를 참조하는 Target 플러그인은 지원되지 않습니다. </li> 
-     </ul> </p> <p>설명이 필요하면 <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17" format="dita" scope="local">at.js 구현</a>을 참조하십시오. </p> </td> 
+      <li id="li_04499B391F784B89B09A1D6329B1C790">비동기식 구현은 Test&amp;Target 및 SiteCatalyst 플러그인과 같은 이전 통합이 작동되지 않을 수 있음을 의미합니다. </li>  
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 종속적 성공 지표 </td> 
@@ -2840,21 +2819,13 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p>시각적 경험 작성기를 사용하지 않고 활동을 만듭니다. 대신, 양식을 통해 위치 및 오퍼를 선택합니다. 이 옵션을 사용하면 Target Standard 활동이 시각적 경험 작성기에서 작동하지 않는 이메일, 모바일 앱, 키오스크 및 기타 위치로 전달될 수 있습니다. </p> <p><a href="../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">양식 기반 경험 작성기</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>새 mbox.js </p> </td> 
-   <td colname="col2"> <p> 버전 58의 mbox.js는 Target 호출이 수행되기 전에 Experience Cloud 방문자 ID 서비스가 준비되도록 합니다. 따라서 Profiles 및 Audiences 핵심 서비스를 통해 공유되는 잠재고객 데이터를 동일한 조회 시에 사용할 수 있습니다. 그렇지만 Target이 서비스 반환을 기다리는 동안 페이지가 깜박거릴 수 있으므로 업그레이드하기 전에 전체 QA를 진행하는 것이 중요합니다. 이 mbox.js 버전은 API를 통해서만 사용할 수 있습니다. </p></td> 
-  </tr> 
-  <tr> 
    <td colname="col1"> 구성 가능한 성공 지표 </td> 
    <td colname="col2"> <p> 세분화된 옵션을 사용하여 성공 지표를 카운트하는 방법을 결정할 수 있습니다. 옵션에는 노출당 지표 카운트 또는 방문자당 한 번 카운트, 활동에 사용자를 유지할지 또는 제거할지를 선택하는 옵션이 포함됩니다. 이러한 옵션은 Target Classic에서 사용할 수 있는 성공 지표에 대한 "고급 옵션"과 같습니다. </p> <p>자세한 내용은 <a href="../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local">성공 지표</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 개선 사항: 경험 타깃팅 경험 제한이 제거되었습니다. </td> 
    <td colname="col2"> 경험 타깃팅에서 이전에 적용되던 10개의 경험 제한이 제거되었습니다. </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> Mbox.js 관리 및 편집 옵션 </td> 
-   <td colname="col2"> <p>이제 모든 mbox.js 구성 및 편집 기능을 Target Standard 내에서 사용할 수 있습니다. 더 이상 Target Classic에서 수정할 필요가 없습니다. </p> <p><a href="https://marketing-beta.adobe.com/kr/resources/help/target/ov/r_advanced_mboxjs_settings.html" format="https" scope="external">고급 mbox.js 설정</a>을 참조하십시오 . </p> </td> 
-  </tr> 
+  </tr>  
   <tr> 
    <td colname="col1"> 3rdPartyId 데이터에 대한 실시간 프로필 동기화 </td> 
    <td colname="col2"> 이제 사이트 방문자가 세션 중간에 로그인하고 3rdpartyId를 얻으면 3rdPartyId에 연결되어 있는 이전에 로드된 모든 프로필 속성을 즉시 사용할 수 있게 됩니다. 자세한 내용은 <a href="../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E" format="dita" scope="local"> 방문자 프로필 </a>. </td> 
@@ -2876,7 +2847,6 @@ target/r_release-notes-2015.xml
 
 * Target의 보고 소스로 Analytics를 사용하는 방식이 이제 XT 활동에 대해 지원됩니다.
 * 활동이 활성화되었을 때 Analytics에 표시된 제어 경험이 변경되도록 하는 문제가 수정되었습니다.
-* 새로 프로비저닝된 사용자가 mbox.js를 다운로드할 때 target.js의 활성화에 영향을 미치는 문제가 수정되었습니다.
 * 잠재고객/세그먼트 생성 동안 URL의 # 다음에 나온 값이 경로의 일부로 간주되던 문제가 해결되었습니다.
 
 **알려진 문제**
@@ -3106,14 +3076,6 @@ target/r_release-notes-2015.xml
   <tr> 
    <td colname="col1"> <p class="premium">새 활동 유형: 권장 사항 </p> </td> 
    <td colname="col2"> <p>권장 사항 활동은 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다. </p> <p>권장 사항은 Target Premium 솔루션의 일부로 사용할 수 있습니다. Target Premium 라이센스가 없는 Target Standard에는 포함되어 있지 않습니다. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> mbox.js v56 </td> 
-   <td colname="col2"> <p> 
-     <ul id="ul_4D4AEAC314964ECFA6C3A2669233060F"> 
-      <li id="li_F71CE15AD70E4A6E9216521E8AE2B102"> 전역 mbox로의 매개 변수 전달을 지원하기 위한 Premium Recommendations의 변경 사항 </li> 
-      <li id="li_11F777D04DE04B848F681997C6458C8B"> target.js 로드 호출에 5초의 시간 제한이 추가됩니다. 드문 경우지만 파일이 로드되지 않을 경우 페이지는 렌더링되지만 Target Standard 활동은 표시되지 않습니다. </li> 
-     </ul> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3495,17 +3457,9 @@ target/r_release-notes-2014.xml
 * 테스트의 활성 기간이 2일 미만일 때 그래프가 기본적으로 시간별 결과를 표시하도록 개선되었습니다.
 * 동기화되지 않은 활동을 복사하지 못하게 하는 문제가 수정되었습니다.
 * 위치에 대한 드롭다운 메뉴에 키보드 입력 기능이 추가되었습니다.
-* Target Standard에서 다운로드한 [!DNL mbox.js] 파일 이름이 [!DNL mboxEditor.at.js]로 바뀌는 문제가 수정되었습니다.
-
 * 활동에 사용된 오퍼를 삭제할 때 표시되는 오류 메시지가 개선되었습니다.
 
 ### Adobe Target Standard 1.1(2013년 10월 18일) {#section_79FA6A61D2284D41A34F00014A342F07}
-
-이 릴리스에는 다음과 같은 기능이 포함됩니다.
-
-| 기능 | 설명 |
-|---|---|
-| Target Standard 내 [!DNL mbox.js] 다운로드 | The [!DNL mbox.js] file can now be downloaded directly from **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** in the Target Standard interface. 이전에는 Target Advanced 내에서 파일을 다운로드하거나 계정 담당자 또는 컨설턴트가 제공해야 했습니다. |
 
 이 릴리스에는 다음과 같은 수정 사항 및 개선 사항이 포함됩니다.
 
