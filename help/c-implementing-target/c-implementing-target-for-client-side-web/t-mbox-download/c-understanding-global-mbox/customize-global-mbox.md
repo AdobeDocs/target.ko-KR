@@ -1,55 +1,45 @@
 ---
-keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
-description: at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
+keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
+description: at.js에 대한 글로벌 mbox 사용자 지정에 도움이 되는 정보입니다.
 title: 글로벌 mbox 사용자 지정
 feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 97%
+source-wordcount: '160'
+ht-degree: 59%
 
 ---
 
 
 # 글로벌 mbox 사용자 지정{#customize-a-global-mbox}
 
-at.js 및 mbox.js 둘 다에 대해 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
+at.js에 대한 글로벌 mbox 사용자 지정에 도움이 되는 정보입니다.
 
-1. mbox.js를 편집합니다.
+1. 관리 **** > **[!UICONTROL 구현을 클릭합니다]**.
 
-   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Disable **[!UICONTROL Page load enabled (Auto create global mbox)]**, then add the name of the custom global mbox that you would like to use to deliver activities from [!DNL Target].
 
-   * mbox.js의 경우 **[!UICONTROL mbox.js 설정 편집을 클릭합니다]**.
-   * [!DNL at.js]의 경우 구현 방법 아래에서 **[!UICONTROL at.js]**&#x200B;를 선택한 후 **[!UICONTROL mbox.js 설정 편집]**&#x200B;을 클릭합니다.
+   이 사용자 지정 mbox도 클릭 추적에 사용됩니다.
 
-   ![](assets/step-1-edit-mboxjs.png)
+   ![custom-global-mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/assets/custom-global-mbox.png)
 
-1. [!DNL mbox.js] 또는 [!DNL at.js]를 편집합니다.
+1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   **[!UICONTROL 글로벌 mbox를 자동으로 만들기]**&#x200B;를 비활성화한 후 [!DNL Target Standard/Premium]에서 활동을 전달하는 데 사용할 사용자 지정 글로벌 mbox의 이름을 추가합니다. 이 사용자 지정 mbox도 클릭 추적에 사용됩니다.
+1. Implement the [!DNL at.js] library on your site.
 
-   ![](assets/step-2-edit-mboxjs-or-atjs.png)
-
-   완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-1. 사이트에서 [!DNL mbox.js] 또는 [!DNL at.js] 라이브러리를 구현합니다.
-
-* mbox.js에 대해서는 [mbox.js 구현](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
-* at.js에 대해서는 [at.js 구현](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)을 참조하십시오.
+   자세한 [내용은 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) 배포 방법을 참조하십시오.
 
 1. 전환 시간을 릴리스에 맞춰 지정합니다.
 
-   [!DNL Target Standard/Premium] Standard/Premium에서 진행될 모든 활동에 대해 글로벌 mbox 사용을 시작할 준비가 되면 이 단계를 계속 진행할 수 있습니다.
+   [!DNL Target] Standard/Premium에서 진행될 모든 활동에 대해 글로벌 mbox 사용을 시작할 준비가 되면 이 단계를 계속 진행할 수 있습니다.
 
    위의 2단계에서 사용되는 이름과 일치하도록 사용자 지정 글로벌 mbox의 이름을 업데이트합니다.
-
-   ![](assets/step-4-time-the-transition-with-your-release.png)
 
    >[!IMPORTANT]
    >
    >저장하면 계정 동기화에 있는 모든 활동이 이 mbox와 동기화됩니다. 이 mbox가 사용자의 사이트에 없는 경우 모든 활동이 더 이상 작동하지 않습니다.
 
-   **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
