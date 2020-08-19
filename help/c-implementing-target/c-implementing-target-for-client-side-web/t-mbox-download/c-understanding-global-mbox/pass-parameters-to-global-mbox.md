@@ -7,25 +7,25 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 97%
+source-wordcount: '381'
+ht-degree: 73%
 
 ---
 
 
 # 글로벌 mbox에 매개 변수 전달{#pass-parameters-to-a-global-mbox}
 
-글로벌 mbox에 매개 변수를 전달하는 데에는 JavaScript targetPageParams 함수가 사용됩니다. 이 함수는 추가적인 타깃팅/컨텍스트 정보가 Target으로 전달되는 모든 상황에서 필요합니다.
+글로벌 mbox에 매개 변수를 전달하는 데에는 JavaScript `targetPageParams` 함수가 사용됩니다. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
 
-예를 들어, 권장 사항 활동에서 보고 있는 현재 제품 또는 카테고리를 표현하려면 매개 변수를 사용하십시오.
+For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
-JavaScript 함수를 호출하는 코드는 글로벌 mbox가 mbox.js의 일부로 실행되는지, 아니면 수동으로 페이지 코드에 포함되는지에 상관없이 페이지에 있는 글로벌 mbox의 앞에 와야 합니다.
+전역 mbox가 at.js의 일부로서 실행되거나 페이지 코드에 수동으로 포함되는지 여부에 따라 JavaScript 함수를 호출하는 코드가 페이지의 글로벌 mbox 앞에 와야 합니다.
 
 >[!NOTE]
 >
->글로벌 mbox뿐만 아니라 페이지의 모든 mbox에 매개 변수를 추가하려면 [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) 함수를 사용하십시오(at.js만 해당).
+>If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function.
 
 다음 방법 중 하나로 `target-global-mbox` 함수를 사용하여 `targetPageParams()`에 매개 변수를 전달할 수 있습니다.
 
