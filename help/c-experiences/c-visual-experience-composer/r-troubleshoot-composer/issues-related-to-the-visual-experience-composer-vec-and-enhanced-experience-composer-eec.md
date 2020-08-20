@@ -5,17 +5,39 @@ title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 98%
+source-wordcount: '1253'
+ht-degree: 74%
 
 ---
 
 
 # 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
-특정 상황에서 VEC(시각적 경험 작성기) 및 EEC(고급 경험 작성기)에서 표시 문제가 발생하는 경우가 있습니다.
+특정 조건에서 VEC(Visual Experience Composer) 및 EEC(Enhanced Experience Composer)에서 표시 문제와 기타 문제가 발생하는 경우가 있습니다.
+
+## 최근에 발표된 Google Chrome SameSite 쿠키 실행 정책은 VEC와 EEC에 어떤 영향을 줍니까? {#samesite}
+
+최신 변경 사항(2020년 8월)을 통해 Chrome 80+ 브라우저 버전을 사용하는 모든 사용자는 다음을 수행할 수 있습니다.
+
+* 사이트의 암호로 보호된 페이지에서 VEC(VEC Helper 확장 설치 및 사용 안 함)를 사용할 수 *없습니다* . 이것은 사이트 로그인 쿠키가 타사 쿠키로 간주되며 로그인 요청과 함께 전송되지 않기 때문입니다. 유일한 예외는 고객 사이트 로그인 쿠키가 이미 SameSite 매개 변수를 &quot;none&quot;으로 설정한 경우입니다.
+* 활동을 편집하는 동안 라이브러리를 다운로드할 *수 없습니다* [!DNL Target] (활동이 사이트에 아직 있지 않은 경우). 이는 다운로드 호출이 고객 도메인에서 안전한 Adobe 도메인으로 수행되고 인증되지 않은 것으로 거부되기 때문입니다.
+* 쿠키를 위한 SameSite 특성을 설정할 수 없기 때문에 EEC는 모든 사용자에 대해 *작동하지* 않습니다 `adobemc.com domain`. 이 속성이 없으면 브라우저가 이러한 쿠키를 거부하여 EEC가 실패합니다.
+
+Adobe이 업데이트된 VEC 도우미 확장을 Google Chrome Store에 제출했습니다. 이 확장 기능은 필요한 경우 쿠키 속성을 `SameSite="none"` 덮어써서 속성을 설정합니다. 업데이트된 [익스텐션은 여기에서 확인할 수 있습니다](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+### 대체 요소 및 해결 방법
+
+다음 옵션 중 하나를 사용하여 VEC와 EEC가 예상대로 계속 작동하도록 하십시오.
+
+* 업데이트된 [VEC 도우미 확장 프로그램을 다운로드하여 사용합니다](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+* Mozilla Firefox 브라우저를 사용합니다. Firefox에서는 아직 이 정책을 시행하지 않습니다.
+* Chrome을 계속 사용하지만 플래그를 &quot;Disabled&quot;로 `chrome://flags/#same-site-by-default-cookies` 설정합니다.
+
+   >[!NOTE]
+   >
+   >쿠키에 이미 서버에서 &quot;Lax&quot; 또는 &quot;Strict&quot;로 설정된 SameSite 특성이 있는 경우 이 *수준으로는 충분하지 않습니다* .
 
 ## Target이 여러 수준의 iframe을 지원합니까?
 
