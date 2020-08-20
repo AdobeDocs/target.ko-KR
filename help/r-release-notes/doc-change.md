@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1922'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 20일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 추가되었습니다.&quot;최근에 발표된 Google Chrome SameSite 쿠키 실행 정책은 VEC 및 EEC에 어떤 영향을 줍니까?&quot; |
+|  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 다음 텍스트가 업데이트되었습니다.&quot;두 개 이상의 요소를 선택하는 경우 참가자가 선택한 요소 중 하나를 클릭하면 클릭이 계산됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오. 한 페이지에서 여러 요소를 클릭하여 한 항목을 계산하려면 여러 요소와 일치하도록 CSS 요소 선택기를 편집합니다.&quot; |
+|  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.9.1(2020년 9월 2일) 릴리스에 대한 정보가 추가되었습니다. |
 | 8월 14일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | Recommendations 활동의 QA에 대한 알려진 문제가 추가되었습니다. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | 반환된 컨텐츠에서 태그를 사용하고 사용하는 경우 HTML 컨텐츠가 대신 `serverState` 사용할 수 있도록 `<script>` 하는 텍스트 `<\/script>` 가 추가되었습니다 `</script>`. |
 | 8월 12일 | [Target UI 이해](/help/c-intro/understand-the-target-ui.md) | 새 주제입니다.  |
