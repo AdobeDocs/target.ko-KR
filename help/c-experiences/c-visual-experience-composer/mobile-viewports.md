@@ -5,10 +5,10 @@ title: 반응형 경험을 위한 모바일 뷰포트
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 69%
+source-wordcount: '1443'
+ht-degree: 67%
 
 ---
 
@@ -119,6 +119,10 @@ Save your CSS breakpoints in [!DNL Target] so you can preview your experiences f
    If you use the [Enhanced Experience Composer](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) and choose an operating system, [!DNL Target] emulates that device when you view the page. If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+>[!NOTE]
+>
+>사용 중인 모바일 뷰포트를 삭제하려고 하면 다음 메시지가 표시됩니다.&quot;이 뷰포트는 현재 하나 이상의 활동과 연결되어 있습니다. 삭제하기 전에 해당 활동에서 뷰포트를 제거해야 합니다.&quot;
 
 ## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
