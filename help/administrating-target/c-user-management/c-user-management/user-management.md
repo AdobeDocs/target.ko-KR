@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '893'
 ht-degree: 48%
 
 ---
@@ -24,7 +24,7 @@ You can add users and manage their permissions in the [!DNL Adobe Admin Console]
 >[!UICONTROL 속성 및 권한 기능은 ] Premium 솔루션의 일부로 사용할 수 있습니다. [!DNL Target] 이 기능은 [!DNL Target] Premium 라이센스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
 >You can tell whether your organization has a Standard or Premium license by clicking the [!UICONTROL Administration] link at the top of the [!DNL Target] UI.
 >
->* **[!DNL Target]표준 고객**:[ [!UICONTROL 관리]] 탭([!UICONTROL 속성]탭 **[!UICONTROL 아님)이 표시되는 경우(]** 속성 [!DNL Target] 탭)에는표준 라이선스가 있습니다. [!DNL Target Standard 고객은 이 문서의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
+>* **[!DNL Target]표준 고객**:[ [!UICONTROL 관리]] 탭([!UICONTROL 속성]탭 **[!UICONTROL 아님)이 표시되는 경우(]** 속성 [!DNL Target] 탭)에는표준 라이선스가 있습니다. [!DNL Target] Standard 고객은 이 문서의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
    >
    >
 * **[!DNL Target]프리미엄 고객**:[ [!UICONTROL 사용자] ] 탭 및 [!UICONTROL 속성] 탭([[!UICONTROL 관리] > [속성]])이 표시되면 [!DNL Target] 조직에프리미엄 라이선스가 있는 것입니다. [!DNL Target] Premium 고객은 [엔터프라이즈 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md) 및 [엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
