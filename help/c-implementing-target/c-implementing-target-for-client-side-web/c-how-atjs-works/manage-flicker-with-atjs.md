@@ -6,10 +6,10 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 
 
 0으로 설정된 불투명도는 깜박임을 방지하기 위해 페이지 컨텐츠를 숨기지만, 브라우저가 여전히 페이지를 렌더링하고 CSS, 이미지 등과 같은 필요한 모든 자산을 로드합니다.
 
-구현에서 불투명도 0이 작동하지 않는 경우 `bodyHiddenStyle`을 사용자 지정하여 깜박임을 관리하고 `body {visibility:hidden !important}`로 설정할 수도 있습니다. body `{opacity:0 !important`} 또는 `body {visibility:hidden !important}` 중 특정 환경에 가장 적합한 것을 사용할 수 있습니다.
+구현에서 불투명도 0이 작동하지 않는 경우 `bodyHiddenStyle`을 사용자 지정하여 깜박임을 관리하고 `body {visibility:hidden !important}`로 설정할 수도 있습니다. You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
 
 다음 그림에서는 at.js 1.*x*&#x200B;와 at.js 2.x의 본문 숨기기와 본문 표시 호출을 보여줍니다.
 
