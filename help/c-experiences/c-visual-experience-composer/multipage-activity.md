@@ -6,7 +6,7 @@ feature: vec
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 938001261bdba5cb0437c1d5e02789af1b232154
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# 다중 페이지 활동{#multipage-activity}을 참조하십시오
+# 다중 페이지 활동{#multipage-activity}
 
 다중 페이지 활동을 사용하면 각 페이지별로 다른 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 작성할 수 있습니다.
 
