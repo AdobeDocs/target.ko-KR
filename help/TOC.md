@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
 workflow-type: tm+mt
-source-wordcount: '1443'
-ht-degree: 90%
+source-wordcount: '1479'
+ht-degree: 88%
 
 ---
 
@@ -29,10 +29,17 @@ ht-degree: 90%
    + [이전 릴리스에 대한 릴리스 노트](r-release-notes/release-notes-for-previous-releases.md)
 + 소개 {#introduction}
    + [ Target 소개](c-intro/intro.md)
-   + [Adobe Target 환영 키트](/help/c-intro/target-welcome-kit.md)
    + [Adobe Experience Cloud에서 Target에 액세스](c-intro/target-access-from-mac.md)
    + [Target 주요 개념](c-intro/target-key-concepts.md)
    + [Target UI 이해](/help/c-intro/understand-the-target-ui.md)
+   + Adobe Target 환영 키트 {#welcome}
+      + [Adobe Target 환영 키트 개요](/help/c-intro/target-welcome-kit.md)
+      + [1장:소개](/help/c-intro/target-welcome-kit-1.md)
+      + [2장:Adobe Target](/help/c-intro/target-welcome-kit-2.md)
+      + [3장:테스트 및 개인화 아이디어 개발](/help/c-intro/target-welcome-kit-3.md)
+      + [4장:Target 사용 팁](/help/c-intro/target-welcome-kit-4.md)
+      + [5장:테스트 및 개인화 활동에 대한 영감](/help/c-intro/target-welcome-kit-5.md)
+      + [6장:간편한 위험 요소](/help/c-intro/target-welcome-kit-6.md)
    + [용어 설명](c-intro/glossary.md)
    + [Adobe Target 작동 방식](c-intro/how-target-works.md)
    + [교육 및 인증](c-intro/training-and-certification.md)
