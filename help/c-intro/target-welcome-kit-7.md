@@ -4,9 +4,9 @@ description: Adobe Target 환영 키트 - 7장
 title: Adobe Target 환영 키트 - 7장
 feature: intro
 translation-type: tm+mt
-source-git-commit: 021d714ce4db25f019069ea7ecf49ac44b2b3b06
+source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
 workflow-type: tm+mt
-source-wordcount: '1689'
+source-wordcount: '1688'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ A/B 테스트 설정 워크플로우의 두 번째 단계에서 [자동 Target](
 
 ## 활동 계획자로 활동 계획
 
-다음 Activity Planner를 독립형 PDF로 포함했습니다(아래 참조). 이 PDF를 저장하여 여러 번 다시 사용할 수 있습니다. 유효 활동을 실행하려면 계획자의 각 영역을 작성해야 합니다. 테스트 및 개인화 활동에 대한 아이디어를 개발하는 경우 이 툴을 사용할 수 있습니다.
+Adobe는 [Adobe Target 활동 계획자](/help/assets/activity-planner.pdf) (Activity Planner)를 단일 PDF로 포함시켜 여러 번 저장하고 사용할 수 있습니다. 유효 활동을 실행하려면 계획자의 각 영역을 작성해야 합니다. 테스트 및 개인화 활동에 대한 아이디어를 개발하는 경우 이 툴을 사용할 수 있습니다.
 
 ![Adobe Target 활동 플래너](/help/c-intro/assets/activity-planner.png)
 
