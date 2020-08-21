@@ -6,10 +6,10 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '3978'
-ht-degree: 86%
+ht-degree: 85%
 
 ---
 
@@ -406,7 +406,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
    * 기존 확장(예: AngularJS 확장)은 `registerExtension()` 접근 방식을 사용하도록 업데이트해야 합니다.
 
-* 새 at.js notification] API.
+* at.js 알림 API가 새로 추가되었습니다.
 
    이 알림 시스템의 목표는 페이지에서 [!DNL at.js]가 수행하는 작업과 문제가 발생하는 경우를 보다 잘 이해할 수 있도록 하는 것입니다. VEC에서 나타나는 일반적인 문제는 IT 릴리스가 페이지를 변경하고, VEC 선택기가 중단되고, 테스트가 더 이상 콘텐츠를 올바르게 배달하지 못하는 것입니다. 이 알림 시스템의 목표는 이 배달 문제를 페이지에 알려서 개발자들이 이 정보에 액세스하고, [!DNL Adobe Analytics]와 같은 시스템에 전달하고, 테스트가 중단된 비즈니스 소유자에게 경고를 보낼 수 있도록 하는 것입니다.
 
