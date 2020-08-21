@@ -5,7 +5,7 @@ title: 다변량 테스트 만들기
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 97%
@@ -39,7 +39,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >이전 그림에서 [!UICONTROL 작업 공간 선택] 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.]
+   >이전 그림에서 [!UICONTROL 작업 공간 선택] 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.
 
 1. (조건부) Target Premium 고객인 경우 [작업 공간을 선택](/help/administrating-target/c-user-management/property-channel/property-channel.md)합니다.
 
@@ -100,7 +100,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
    ![](assets/estimator2.png)
 
-1. 이 **[!UICONTROL 다음]**&#x200B;을 클릭하여 [!UICONTROL 타깃팅] 페이지로 이동합니다.]
+1. 이 **[!UICONTROL 다음]**&#x200B;을 클릭하여 [!UICONTROL 타깃팅] 페이지로 이동합니다.
 
 1. 활동을 시작할 자격 있는 방문자의 대상 및 비율을 선택합니다.
 
