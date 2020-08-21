@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '2276'
 ht-degree: 93%
@@ -75,7 +75,7 @@ window.targetGlobalSettings = {
 
 1. **[!DNL Launch]를 통해 사전 승인된[!DNL Target]태그(또는 이전에 승인된[!DNL Target]의 데이터 주체):** [!DNL Target] 태그는 예상대로 동의 및 기능을 위해 유지되지 않습니다.
 1. **[!DNL Target]태그가 사전 승인되지 않으며`bodyHidingEnabled`가 FALSE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 동의를 받은 후 [!DNL Target]을 호출하여 데이터 주체(방문자)에 대해 개인화된 콘텐츠를 사용할 수 있습니다. 동의 전에는 기본 콘텐츠만 사용할 수 있으므로 페이지의 모든 부분을 포함하는 스플래시 페이지나 개인화된 콘텐츠와 같은 적절한 전략을 활용하는 것이 중요합니다. 이를 통해 데이터 주체(방문자)에 대해 일관성을 유지할 수 있습니다.
-1. **[!DNL Target]태그가 사전 승인되지 않으며`bodyHidingEnabled`가 TRUE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 그러나 `bodyHidingEnabled`가 true로 설정되어 있으므로 `bodyHiddenStyle`은 태그가 실행될 때까지 페이지에 어떤 콘텐츠가 숨겨져 있는지 나타냅니다(또는 데이터 주체에서 선택 기능을 거부하며, 이 경우 기본 콘텐츠가 표시됨). [!DNL Target] 기본적으로 `bodyHiddenStyle`이 `body { opacity:0;`으로 설정되어 HTML 본문 태그를 숨깁니다. 권장되는 페이지 구성은 아래에 제시되어 있습니다. 따라서 동의 관리자 대화 상자를 제외한 페이지의 전체 본문을 숨기며, 이는 페이지의 콘텐츠를 한 개의 컨테이너에 넣고 동의 관리자 대화 상자를 별도의 컨테이너에 넣어 실행됩니다. 이 설정은 페이지 콘텐츠 컨테이너만 숨기도록 [!DNL Target]을 구성합니다. 이러한 설정을 구성하는 방법에 대한 자세한 내용은 [ Launch 설명서](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)를 참조하십시오.
+1. **[!DNL Target]태그가 사전 승인되지 않으며`bodyHidingEnabled`가 TRUE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 그러나 `bodyHidingEnabled`가 true로 설정되어 있으므로 `bodyHiddenStyle`은 태그가 실행될 때까지 페이지에 어떤 콘텐츠가 숨겨져 있는지 나타냅니다(또는 데이터 주체에서 선택 기능을 거부하며, 이 경우 기본 콘텐츠가 표시됨). [!DNL Target] By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 권장되는 페이지 구성은 아래에 제시되어 있습니다. 따라서 동의 관리자 대화 상자를 제외한 페이지의 전체 본문을 숨기며, 이는 페이지의 콘텐츠를 한 개의 컨테이너에 넣고 동의 관리자 대화 상자를 별도의 컨테이너에 넣어 실행됩니다. 이 설정은 페이지 콘텐츠 컨테이너만 숨기도록 [!DNL Target]을 구성합니다. 이러한 설정을 구성하는 방법에 대한 자세한 내용은 [ Launch 설명서](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)를 참조하십시오.
 
    시나리오 3에 대한 권장 페이지 설정은 다음과 같습니다.
 
