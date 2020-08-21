@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '993'
 ht-degree: 77%
 
 ---
@@ -54,7 +54,7 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 
 ## 고객 속성 이름
 
-**제한**: 128자.
+**제한**:피드 또는 API를 통해 250자.
 
 ## 고객 속성 앨리어스 ID
 
