@@ -5,7 +5,7 @@ title: 디자인 만들기
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 95%
@@ -115,7 +115,7 @@ ht-degree: 95%
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(../target/products.html#recs설정 > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능) |
 | `[YOUR_MBOX_NAME]` | 양식 기반 Recommendations의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response)입니다. |
-| `[ENTITY_ID`] | 카탈로그에 있는 항목의 `entity.id`입니다. |
+| `[ENTITY_ID` | 카탈로그에 있는 항목의 `entity.id`입니다. |
 | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
 
 알고리즘이 실행되고 결과가 나오면, 응답은 다음과 같은 모습이어야 합니다.
