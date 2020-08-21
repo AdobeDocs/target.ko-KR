@@ -5,10 +5,10 @@ title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
 workflow-type: tm+mt
-source-wordcount: '1253'
-ht-degree: 74%
+source-wordcount: '1282'
+ht-degree: 72%
 
 ---
 
@@ -26,6 +26,10 @@ ht-degree: 74%
 * 쿠키를 위한 SameSite 특성을 설정할 수 없기 때문에 EEC는 모든 사용자에 대해 *작동하지* 않습니다 `adobemc.com domain`. 이 속성이 없으면 브라우저가 이러한 쿠키를 거부하여 EEC가 실패합니다.
 
 Adobe이 업데이트된 VEC 도우미 확장을 Google Chrome Store에 제출했습니다. 이 확장 기능은 필요한 경우 쿠키 속성을 `SameSite="none"` 덮어써서 속성을 설정합니다. 업데이트된 [익스텐션은 여기에서 확인할 수 있습니다](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+사이트 쿠키의 경우 이름별로 쿠키를 지정해야 합니다. 쿠키 [!UICONTROL 슬라이더를] 켜진 위치로 전환한 다음 이름별로 쿠키를 지정합니다.
+
+![VEC 도우미 확장](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
 
 ### 대체 요소 및 해결 방법
 
