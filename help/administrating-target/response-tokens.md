@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -285,7 +285,7 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 </script>
 ```
 
-## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5} ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 ![자습서 배지](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 다음 비디오를 시청하여 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 학습하십시오.
 
