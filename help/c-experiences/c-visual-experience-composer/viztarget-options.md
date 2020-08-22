@@ -6,9 +6,9 @@ feature: vec
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '2404'
+source-wordcount: '2403'
 ht-degree: 95%
 
 ---
@@ -200,7 +200,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    CSS 편집기에는 현재 세션에 대한 세부 사항만 표시됩니다. 변경 사항을 저장한 다음 편집기를 다시 열면 동일한 요소를 다시 선택하더라도 이전 변경 사항에 대한 세부 사항이 편집기에 표시되지 않습니다.
 
-   >[!I중요]
+   >[!IMPORTANT]
    >
    >CSS 편집기를 사용하여 배경 이미지를 적용할 수 있지만 깜박임이 발생할 수 있습니다. 배포하기 전에 변경 사항을 테스트합니다.
 
