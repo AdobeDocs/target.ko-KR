@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target 환영 키트 - 9장
-title: Adobe Target 환영 키트 - 9장
+description: Adobe Target 환영 키트 - 9장 - 다음 단계 및 리소스
+title: Adobe Target 환영 키트 - 9장 - 다음 단계 및 리소스
 feature: intro
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Adobe는 최적화 및 개인화에 대한 더 많은 지식을 얻을 수 있�
 
 * **Adobe Target Tutorials**:기본 사항을 배우거나 기술을 세밀하게 조정할 수 있습니다. Adobe Target [Tutorials 페이지를 참조하십시오](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html).
 * **Adobe Target 온디맨드 트레이닝**:Adobe에서 제공하는 다양한 Target 과정을 살펴보십시오. Adobe [교육 및 자습서](https://helpx.adobe.com/learning.html?promoid=KAUDK) 페이지를 참조하십시오.
-* **Adobe Target 비디오:** 폭동은 성공 사례 및 솔루션 기능을 보기 위해 [!DNL Target] 비디오를 시청합니다. See [Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md)
+* **Adobe Target 비디오:** Pocket은 성공 사례 및 솔루션 기능을 보기 위해 [!DNL Target] 비디오를 시청합니다. See [Training videos for Adobe Target Standard and Premium](/help/c-intro/target-standard-premium-training-videos.md)
 * **웨비나 시리즈**:Adobe Target 기본 사항. Adobe Target 사용자와의 최적화에 대한 기본 사항을 소개하는 고객 성공 웨비나 시리즈에 참여하십시오. See [Target Basics Webinar Series](/help/cmp-resources-and-contact-information.md#concept_11902FAC95C64479AABE020557A7EEE4).
 * **Adobe 고객 지원 센터 근무 시간**:&quot;Office Hours&quot;는 Adobe 고객 지원 팀이 주도하는 이니셔티브입니다. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. See [Adobe Customer Care Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7).
 * **Adobe Summit**:디지털 마케터를 위한 올해의 가장 큰 전문 이벤트 참석
@@ -45,6 +45,6 @@ Adobe는 최적화 및 개인화에 대한 더 많은 지식을 얻을 수 있�
 * **블로그**:최신 뉴스, 팁 및 성공 스토리를 [Target 블로그에서 확인할 수 있습니다](https://blog.adobe.com/en/2020/07/29/adobe-target-announces-enhanced-analytics-measurement-for-ai-powered-testing-and-personalization.html#gs.di9df5).
 * **Experience League**:경험 비즈니스를 시작하고 Target 커뮤니티와 교류하며 원하는 답변을 찾는 데 필요한 가이드, 이벤트 및 트레이닝을 살펴볼 수 있습니다. Adobe [Experience League 홈 페이지를 참조하십시오](https://experienceleague.adobe.com/#home).
 * **Adobe Target 인증**:새로운 Adobe Target 시험을 통해 Adobe 공인 전문가 자격을 획득합니다. 여기에서 시험 또는 교육 과정을 예약합니다. See [Training and certification](/help/c-intro/training-and-certification.md).
-* **Adobe Target 릴리스 노트**:각 [!DNL Target Standard] 및 릴리스의 기능, 개선 사항 및 수정 사항에 대한 [!DNL Target Premium] 정보입니다. 또한 Target API, SDK, JavaScript 라이브러리(at.js) 및 기타 플랫폼 변경 사항에 대한 릴리스 노트도 포함되어 있습니다(해당되는 경우). See [Target release notes (current)](/help/r-release-notes/release-notes.md).
+* **Adobe Target 릴리스 노트**:각 및 릴리스의 기능, 개선 사항 및 수정 사항 [!DNL Target Standard] 에 대한 [!DNL Target Premium] 정보입니다. 또한 Target API, SDK, JavaScript 라이브러리(at.js) 및 기타 플랫폼 변경 사항에 대한 릴리스 노트도 포함되어 있습니다(해당되는 경우). See [Target release notes (current)](/help/r-release-notes/release-notes.md).
 * **Adobe Target 뉴스레터**:제품 업데이트 및 향후 계획, 개인화 및 최적화 팁과 기법, 고객 성공 사례, 예정된 이벤트, 인기 블로그 게시물 등에 대해 알아보십시오. Target [인사이더 뉴스레터를 참조하십시오](/help/r-release-notes/target-insider-newsletter.md).
 
