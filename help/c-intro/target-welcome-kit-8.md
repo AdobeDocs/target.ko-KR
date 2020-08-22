@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target 환영 키트 - 제8장
-title: Adobe Target 환영 키트 - 제8장
+description: Adobe Target 환영 키트 - 8장 - 활동 결과 전달
+title: Adobe Target 환영 키트 - 8장 - 활동 결과 전달
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 8장:활동 결과 전달
 
-활동을 실행하고 멋진 결과를 얻는다면 해당 결과를 조직과 공유해야 합니다. 고객 수 증가, 매출 증가, 콜센터 통화 감소, 평균 주문 가격 상승 등의 효과를 얻을 수 있습니다. 최적화 및 개인화를 통해 비즈니스에 맞게 얻을 수 있는 이점을 이해 관계자에게 보여주십시오 [!DNL Target].
+활동을 실행하고 멋진 결과를 얻는다면 해당 결과를 조직과 공유해야 합니다. 고객 수 증가, 매출 증가, 콜센터 통화 감소, 평균 주문 가격 상승 등으로 비용을 절감할 수 있을 것입니다. 최적화 및 개인화를 통해 비즈니스에 맞게 얻을 수 있는 이점을 이해 관계자에게 보여줍니다 [!DNL Target].
 
 이러한 결과를 전달하면 스토리를 전달하는 것처럼 손쉽게 접근할 수 있습니다. 테스트 또는 개인화된 테스트 내용과 그 이유와 그 결과에 대해 재미있고 명확하게 설명할 수 있습니다. 결과를 검토하고 있는 사용자의 언어와 용어를 사용하십시오.
 
