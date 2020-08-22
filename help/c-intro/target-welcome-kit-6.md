@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target 환영 키트 - 6장
-title: Adobe Target 환영 키트 - 6장
+description: Adobe Target 환영 키트 - 6장 - 간편한 잠재적 함정
+title: Adobe Target 환영 키트 - 6장 - 간편한 잠재적 함정
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,9 @@ ht-degree: 0%
 
 이제 최적화 및 개인화 프로그램을 시작하는 데 있어 좋은 점은 잠시 동안 작업해 온 사람들이 이미 쉽게 범할 수 있는 많은 실수를 발견했다는 것입니다. 이러한 함정에 대해 알면 여러분은 그것들을 쉽게 피하고 고칠 수 있습니다.
 
-자세한 내용은 [10가지 일반적인 A/B 테스트 문제와 이를 피하는 방법을](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) 참조하십시오. 이 문서에 제시된 아이디어 외에도 이 짧은 목록을 가까이 유지하여 이러한 일반적인 테스트 및 개인화 문제를 방지하거나 수정할 수 있습니다.
+>[!NOTE]
+>
+>자세한 내용은 [10가지 일반적인 A/B 테스트 문제와 이를 피하는 방법을](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) 참조하십시오. 이 문서에 제시된 아이디어 외에도 이 짧은 목록을 가까이 유지하여 이러한 일반적인 테스트 및 개인화 문제를 방지하거나 수정할 수 있습니다.
 
 | 위험 | 솔루션 |
 | --- | --- |
