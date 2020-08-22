@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target 환영 키트 - 7장
-title: Adobe Target 환영 키트 - 7장
+description: Adobe Target 시작 키트 - 7장 - 첫 번째 Target 활동 만들기 및 실행
+title: Adobe Target 시작 키트 - 7장 - 첫 번째 Target 활동 만들기 및 실행
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1688'
+source-wordcount: '1716'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # 7장:첫 번째 Target 활동 만들기 및 실행
 
-이제 첫 활동을 시작할 준비가 되셨습니까 [!DNL Target]? 좋아요 웹 사이트, 모바일 사이트 또는 모바일 앱에 대한 활동이 매우 복잡하지는 않지만 빠른 ROI를 제공하고 테스트 및 개인화에 사용할 수 있는 잠재력 [!DNL Target] 을 설파합니다. 조직 및 해당 포커스에 따라 첫 번째 활동이 있는 세 가지 다른 경로 중 하나로 이동하는 것을 고려할 수 있습니다.
+이제 첫 활동을 시작할 준비가 되셨습니까 [!DNL Target]? 좋아요 웹 사이트, 모바일 사이트 또는 모바일 앱에 대한 활동이 매우 복잡하지는 않지만 빠른 ROI를 제공할 수 있으며 테스트 및 개인화에 사용할 수 있는 잠재력 [!DNL Target] 에 대해 설레는 효과를 얻을 수 있습니다. 조직 및 해당 포커스에 따라 첫 번째 활동이 있는 세 가지 다른 경로 중 하나로 이동하는 것을 고려할 수 있습니다.
 
 그러나 첫 번째 활동의 핵심은 매출, 클릭스루, 양식 제출, 등록 완료 등과 같이 개선하려는 비즈니스 지표의 기준을 설정하는 것입니다. A/B 테스트에서는 현재 경험이나 오퍼를 &quot;제어&quot;로 사용하고 해당 경험이나 오퍼의 변형이 이에 대해 미치는 영향을 측정할 수 있습니다. 그러나 대부분의 개인화 활동을 통해 개인화된 버전의 경험을 런칭하기 전에 현재 경험의 성능을 확인하는 것이 좋습니다. 개인화의 효과를 측정할 수 있습니다.
 
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 경로 3:개별 방문자에 맞게 개인화할 수 있는 AI 및 자동화 적용
 
-A/B 테스트 설정 워크플로우의 두 번째 단계에서 [자동 Target](/help/c-activities/auto-target-to-optimize.md) 을 선택하면 AI 기반 활동을 설정하여 각 방문자에게 최상의 경험을 제공할 수 있습니다. 첫 번째 활동과 함께 자동 Target을 사용하는 것은 다른 방문자에 대해 어떤 경험이 반응할지 모르는 경우 매우 유용합니다. 자동 Target 기능을 사용하면 머신 러닝을 통해 실시간으로 예측 속성을 평가하고 점수를 매길 수 있으며 전달할 경험을 결정할 때 가장 중요한 방문자 특성을 파악할 수 있습니다.
+A/B 테스트 설정 워크플로우의 두 번째 단계에서 [자동 Target](/help/c-activities/auto-target-to-optimize.md) 을 선택하면 AI 기반 활동을 설정하여 각 방문자에게 최상의 경험을 제공할 수 있습니다. 첫 번째 활동과 함께 자동 Target을 사용하는 것은 다른 방문자에 대해 어떤 경험이 반응할지 모르는 경우 매우 유용합니다. 자동 Target을 사용하면 머신 러닝을 통해 실시간으로 예측 속성을 평가하고 점수를 매길 수 있으며 전달할 경험을 결정할 때 가장 중요한 방문자 특성을 파악할 수 있습니다.
 
 예:여러 휴대폰 브랜드와 모델을 판매하는 텔코사의 경우 자동화와 머신 러닝을 기반으로 다양한 4가지 경험 또는 상품을 자사의 홈페이지 또는 모바일 앱 시작 화면에서 확인할 수 있는 자동 Target을 활용할 수 있습니다.
 
@@ -52,7 +52,9 @@ A/B 테스트 설정 워크플로우의 두 번째 단계에서 [자동 Target](
 
 ## 활동 계획자로 활동 계획
 
-Adobe는 [Adobe Target 활동 계획자](/help/assets/activity-planner.pdf) (Activity Planner)를 단일 PDF로 포함시켜 여러 번 저장하고 사용할 수 있습니다. 유효 활동을 실행하려면 계획자의 각 영역을 작성해야 합니다. 테스트 및 개인화 활동에 대한 아이디어를 개발하는 경우 이 툴을 사용할 수 있습니다.
+Adobe는 [Adobe Target 활동 계획자](/help/assets/activity-planner.pdf) (Activity Planner)를 단일 PDF로 포함시켜 여러 번 저장하고 사용할 수 있습니다. 링크를 클릭하여 PDF 파일을 봅니다. 마우스 오른쪽 버튼을 클릭하여 PDF 파일을 다운로드합니다.
+
+유효 활동을 실행하려면 계획자의 각 영역을 작성해야 합니다. 테스트 및 개인화 활동에 대한 아이디어를 개발하는 경우 이 툴을 사용할 수 있습니다.
 
 ![Adobe Target 활동 플래너](/help/c-intro/assets/activity-planner.png)
 
