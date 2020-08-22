@@ -6,9 +6,9 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '3978'
+source-wordcount: '3977'
 ht-degree: 85%
 
 ---
@@ -175,7 +175,7 @@ Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 일반 �
 
 또한 이 릴리스에서는 Target이 리디렉션 URL에서 발생하는 매개 변수로 리디렉션 URL 매개 변수를 무시할 수 있는 문제를 수정합니다.
 
->[! 참고]
+>[!NOTE]
 >
 >GDPR에 대한 Adobe 옵트인 지원이 필요한 경우 현재 at.js 1.7.0 또는 2.1.0을 사용해야 합니다.<br>모든 버전의 목록에 대해서는 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오.
 
