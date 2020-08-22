@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target 환영 키트 - 5장
-title: Adobe Target 환영 키트 - 5장
+description: Adobe Target 환영 키트 - 5장 - 테스트 및 개인화 활동에 대한 영감
+title: Adobe Target 환영 키트 - 5장 - 테스트 및 개인화 활동에 대한 영감
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1039'
 ht-degree: 0%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 0%
 
 ## 아이디어 5:변환에 필요한 터치 수를 줄일 수 있습니다.
 
-모바일 활동을 통해 추진하려는 비즈니스 목표 및 KPI를 파악할 수 있습니다. 그런 다음 모바일 경험을 디자인하여 고객에게 이러한 목표를 달성하는 데 있어 가장 저항이 적은 경로를 제공할 수 있습니다. 전환은 세 번의 터치 내에 발생해야 하지만 가능하면 두 번의 터치로 하는 것을 목표로 해야 합니다.
+모바일 활동을 통해 추진하려는 비즈니스 목표 및 KPI를 파악할 수 있습니다. 그런 다음 모바일 경험을 디자인하여 고객에게 이러한 목표를 달성하는 데 있어 가장 저항이 적은 경로를 제공할 수 있습니다. 전환은 세 번의 접촉 내에 이루어져야 하지만 가능한 한 두 번의 터치로 컨텐츠를 줄이는 것을 목표로 합니다.
 
 ## 아이디어 6:방문자를 막다른 골목으로 안내하지 마십시오.
 
