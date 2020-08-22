@@ -5,9 +5,9 @@ title: 시각적 경험 작성기에 관련된 문제 해결
 feature: vec
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '777'
 ht-degree: 97%
 
 ---
@@ -47,7 +47,7 @@ To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]
 >다음 정보 외에 Google Chrome용 [Adobe Target VEC Helper 브라우저 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 사용할 수 있습니다.
 
 
->[!Note]
+>[!NOTE]
 >
 >이러한 플러그인은 VEC 편집 컨텍스트에서만 사용해야 합니다.
 >
