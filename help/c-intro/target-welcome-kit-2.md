@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Adobe Target 환영 키트 - 제2장
-title: Adobe Target 환영 키트 - 제2장
+description: Adobe Target 환영 키트 - 2장 - Target 개요
+title: Adobe Target 환영 키트 - 2장 - Target 개요
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2494'
+source-wordcount: '2504'
 ht-degree: 16%
 
 ---
@@ -28,12 +28,12 @@ ht-degree: 16%
 
 | 활동 유형 | 세부 사항 |
 | --- | --- |
-| 경험 타깃팅(XT) | 사용자 정의 규칙 및 기준을 기반으로 특정 사용자에게 컨텐츠를 전달할 수 있습니다. **[!UICONTROL 경험 타깃팅은]** 고객이 가치 있고 경험의 반향을 잘 알고 있는 경우 특정 경험이나 컨텐츠를 특정 대상자에게 타깃팅하는 데 유용합니다. [추가 정보](/help/c-activities/t-experience-target/experience-target.md). |
-| A/B 테스트 | 웹 사이트 또는 기타 디지털 고객 접점의 두 개 이상의 다양한 경험 또는 오퍼를 비교하여 사전 지정된 테스트 기간 동안 주요 비즈니스 측정이 가장 개선되는 변화를 확인합니다. A/B 테스트는 새로운 웹 페이지 레이아웃, 다양한 사이트 탐색 방법 또는 복사, 이미지 및 클릭유도문안 버튼과 같은 디지털 경험의 개별 요소에 대한 완전히 다른 처리와 같은 큰 변경에 적합합니다. [추가 정보](/help/c-activities/t-test-ab/test-ab.md). |
-| MVT(다변량 테스트) | 페이지 또는 디지털 경험에 있는 요소의 가능한 모든 변형 조합을 비교할 수 있습니다. 예를 들어 세 개의 다른 배경 이미지, 두 가지 사본 변형, 두 개의 서로 다른 단추 색상 등이 있습니다. MVT는 특정 대상에 가장 적합한 조합을 결정하고 결과에 가장 영향을 주는 요소를 결정합니다. [추가 정보](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
+| A/B 테스트 | 웹 사이트 또는 기타 디지털 고객 접점의 두 개 이상의 다양한 경험 또는 오퍼를 비교하여 사전 지정된 테스트 기간 동안 주요 비즈니스 측정이 가장 개선되는 변화를 확인합니다. A/B 테스트는 새로운 웹 페이지 레이아웃, 다양한 사이트 탐색 방법, 복사, 이미지 및 클릭유도문안 버튼과 같은 디지털 경험의 개별 요소에 대한 완전히 다른 처리와 같은 큰 변경에 적합합니다. [추가 정보](/help/c-activities/t-test-ab/test-ab.md). |
 | 자동 할당 | 두 개 이상의 경험 중에서 가장 성과가 좋은 경험을 식별하고 우승자에게 더 많은 트래픽을 자동으로 재할당하여 테스트를 계속 실행하고 학습하면서 전환율을 높입니다. 강력한 인공 지능(AI) [!DNL Adobe Sensei]사용 [추가 정보](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| 자동 Target<br>(Premium) | Adobe Sensei AI를 활용하여 개인 고객 프로필 [!DNL Target] 과 비슷한 프로파일을 사용한 이전 방문자의 행동을 기반으로 각 방문자에게 최상의 경험을 확인하고 전달할 수 있습니다. 자동 Target을 통해 규모에 맞게 개인화할 수 있습니다. |
+| 자동 Target<br>(Premium) | Adobe Sensei AI를 활용하여 개인 고객 프로필 [!DNL Target] 과 비슷한 프로파일을 사용한 이전 방문자의 행동을 기반으로 각 방문자에게 최상의 경험을 확인하고 전달할 수 있습니다. 자동 Target을 통해 규모에 맞게 개인화할 수 있습니다. [추가 정보](/help/c-activities/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | 오퍼에서 다양한 이미지, 복사 및 기타 요소의 조합을 검토하여 방문자당 전환율 또는 매출 증가와 같은 비즈니스 목표를 달성하는 데 가장 효과적인 조합을 각 방문자에게 전달하는 데 사용되는 고급 기계 학습 알고리즘 및 자동화 기능을 사용할 수 있습니다. [!DNL Adobe Sensei] [추가 정보](/help/c-activities/t-automated-personalization/automated-personalization.md). |
+| 경험 타깃팅(XT) | 사용자 정의 규칙 및 기준을 기반으로 특정 사용자에게 컨텐츠를 전달할 수 있습니다. **[!UICONTROL 경험 타깃팅은]** 고객이 가치 있고 경험의 반향을 잘 알고 있는 경우 특정 경험이나 컨텐츠를 특정 대상자에게 타깃팅하는 데 유용합니다. [추가 정보](/help/c-activities/t-experience-target/experience-target.md). |
+| MVT(다변량 테스트) | 페이지 또는 디지털 경험에 있는 요소의 가능한 모든 변형 조합을 비교할 수 있습니다. 예를 들어 세 개의 다른 배경 이미지, 두 가지 사본 변형, 두 개의 서로 다른 단추 색상 등이 있습니다. MVT는 특정 대상에 가장 적합한 조합을 결정하고 결과에 가장 영향을 주는 요소를 결정합니다. [추가 정보](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
 | Recommendations<br>(Premium) | Adobe Sensei AI를 사용하면 고객의 이전 활동과 다른 고객의 행동에 따라 고객의 관심을 끌 수 있는 제품 또는 컨텐츠를 자동으로 제안할 수 있습니다. [추가 정보](/help/c-recommendations/recommendations.md). |
 
 ## 채널
