@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1685'
 ht-degree: 38%
 
 ---
@@ -146,7 +146,7 @@ ht-degree: 38%
 
 * **유형**:부울
 * **기본값**:false
-* **설명**:at.js가 HTTPS만 사용해야 하는지 또는 페이지 프로토콜을 기반으로 HTTP와 HTTPS 간을 전환할 수 있도록 허용되어야 하는지를 나타냅니다.
+* **설명**:at.js가 HTTPS만 사용하는지 또는 페이지 프로토콜을 기반으로 HTTP와 HTTPS 간을 전환할 수 있는지 여부를 나타냅니다.
 
 ### selectorsPollingTimeout
 
@@ -473,7 +473,7 @@ Consider the following when using `serverState`:
 
 * 오퍼를 `serverState `적용할 때 at.js는 고려 `pageLoadEnabled` 및 `viewsEnabled` 설정(예: 설정이 false인 경우 페이지 로드 오퍼가 적용되지 `pageLoadEnabled` 않습니다.
 
-   이 설정을 켜려면 UICONTROL 관리 > 구현 > 편집 > 페이지 로드 **[활성화에서 전환을 활성화합니다]**.
+   이 설정을 활성화하려면 [관리] > [ **[!UICONTROL 구현]] > [[!UICONTROL 편집]]>[!UICONTROL 페이지 로드]**&#x200B;활성화에서 전환을 활성화합니다.
 
    ![페이지 로드 활성화 설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
