@@ -6,9 +6,9 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '960'
 ht-degree: 97%
 
 ---
@@ -82,7 +82,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    ![마우스를 가리켜서 경험 제외](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   또는 관련 경험에 대한 확인란을 선택한 다음, 대화 상자의 오른쪽 맨 위에 있는 **[UICONTROL 제외]** 아이콘을 클릭하여 경험을 묶음으로 제외/포함할 수 있습니다. 하나 이상의 경험을 선택하면 [!UICONTROL 제외] 아이콘이 표시됩니다.
+   또는 관련 경험에 대한 확인란을 선택한 다음, 대화 상자의 오른쪽 맨 위에 있는 **[!UICONTROL 제외]** 아이콘을 클릭하여 경험을 묶음으로 제외/포함할 수 있습니다. 하나 이상의 경험을 선택하면 [!UICONTROL 제외] 아이콘이 표시됩니다.
 
    ![경험을 묶음으로 제외](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
