@@ -5,10 +5,10 @@ title: Adobe Target의 성공 지표
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 53%
+source-wordcount: '1129'
+ht-degree: 48%
 
 ---
 
@@ -57,7 +57,7 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 ## 고급 설정 {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-고급 설정을 사용하여 성공을 측정하는 방법을 관리할 수 있습니다. 옵션에는 노출당 지표 카운트 또는 방문자당 한 번 카운트, 활동에 사용자를 유지할지 또는 제거할지를 선택하는 옵션이 포함됩니다.
+고급 설정을 사용하여 성공을 측정하는 방법을 관리할 수 있습니다. 옵션에는 종속성 추가, 사용자를 활동에 유지할지 또는 제거할지 여부, 참가자당 한 번 또는 모든 노출에서 지표를 계산할지 여부 선택 등이 포함됩니다.
 
 고급 [!UICONTROL 설정] 옵션에 액세스하려면 **[!UICONTROL 세로 줄임표]** > **[!UICONTROL 고급 설정]**&#x200B;을클릭합니다.
 
@@ -67,21 +67,27 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 >
 >[!DNL Adobe Analytics]를 보고 소스로 사용하는 경우 설정은 [!DNL Analytics] 서버에서 관리됩니다. The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-고급 설정을 사용하여 종속적 성공 지표를 만들고, 방문자가 먼저 다른 지표에 도달하는 경우에만 지표를 1씩 증분할 수도 있습니다.
+### 종속성 추가
+
+고급 설정을 사용하여 종속 성공 지표를 만들 수 있습니다. 방문자가 다른 지표에 먼저 도달한 경우에만 하나의 지표를 증가시킵니다.
 
 ![종속성 추가](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 예를 들어, 방문자가 전환하기 전에 해당 오퍼를 클릭하거나 특정 페이지에 도달한 경우에만 테스트 전환이 유효할 수 있습니다.
 
-종속적 성공 지표는 A/B 테스트, 자동화된 개인화, 경험 타깃팅 및 다변량 테스트 활동에서 지원됩니다. 권장 사항 활동은 현재 종속적 성공 지표를 지원하지 않습니다.
+Dependency functionality is *not* supported for the following:
 
->[!NOTE]
->
->종속적 성공 지표는 다음과 같은 경우에 전환되지 않습니다.
->
->* metric1이 metric2에 종속되고 metric2가 metric1에 종속되는 순환 종속성을 만드는 경우 두 지표 모두 전환될 수 없습니다.
->* 자동화된 개인화 활동은 전환 지표에 도달할 때 사용자를 해제하고 활동을 다시 시작하므로, 전환 지표에 종속되는 모든 지표가 전환되지 않습니다.
+* [!UICONTROL 권장 사항 활동. ] 이 기능은 다른 모든 활동 유형에 대해 지원됩니다.
+* If you use [Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+* &quot;페이지 확인함&quot; 지표 유형
+* VEC(시각적 경험 작성기) 활동에 대한 &quot;요소를 클릭함&quot; 지표 유형
 
+종속적 성공 지표는 다음과 같은 경우에 전환되지 않습니다.
+
+* metric1이 metric2에 종속되고 metric2가 metric1에 종속되는 순환 종속성을 만드는 경우 두 지표 모두 전환될 수 없습니다.
+* 자동화된 개인화 활동은 전환 지표에 도달할 때 사용자를 해제하고 활동을 다시 시작하므로, 전환 지표에 종속되는 모든 지표가 전환되지 않습니다.
+
+### 사용자가 이 목표 지표에 도달한 후에 어떤 상황이 진행됩니까?
 
 고급 설정을 사용하여 사용자가 목표 지표에 도달한 후에 발생하는 결과를 결정합니다. 다음 표에는 사용 가능한 옵션이 나와 있습니다:
 
@@ -94,6 +100,14 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 >[!NOTE]
 >
 >지표를 [!UICONTROL 증가 카운트 옵션 중 하나(위에 언급된)로] 구성하는 경우, 지표 카운트는 참가자당 한 번만 올바르게 증가합니다. 지표 카운트는 방문 수준에서 모든 새 세션에 대해 방문당 한 번씩 증가합니다.
+
+### 카운트는 어떻게 증분됩니까:
+
+원하는 동작을 선택합니다.
+
+* 참가자당 한 번
+* 모든 노출 시(페이지 새로 고침 제외)
+* 노출 시마다
 
 ## 교육 비디오: 활동 지표
 
