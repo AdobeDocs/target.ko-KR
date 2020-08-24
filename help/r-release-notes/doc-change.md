@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1932'
+source-wordcount: '1939'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 24일 | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | &quot;고급 설정&quot; 섹션이 업데이트되었습니다. |
 | 8월 21일 | [Adobe Target 환영 키트 개요](/help/c-intro/target-welcome-kit.md) | 새 아티클 및 하위 주제입니다. |
 | 8월 20일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 추가되었습니다.&quot;최근에 발표된 Google Chrome SameSite 쿠키 실행 정책은 VEC 및 EEC에 어떤 영향을 줍니까?&quot; |
 |  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 다음 텍스트가 업데이트되었습니다.&quot;두 개 이상의 요소를 선택하는 경우 참가자가 선택한 요소 중 하나를 클릭하면 클릭이 계산됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오. 한 페이지에서 여러 요소를 클릭하여 한 항목을 계산하려면 여러 요소와 일치하도록 CSS 요소 선택기를 편집합니다.&quot; |
