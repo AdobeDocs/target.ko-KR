@@ -5,7 +5,7 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -43,7 +43,7 @@ AP(자동화된 개인화) 활동에서는 오퍼에 대해 특정 대상을 지
 
 1. 원하는 오퍼를 선택하고 해당 오퍼를 볼 수 있는 대상을 선택합니다.
 
-   단일 오퍼에 대한 타깃팅을 설정하려면 원하는 오퍼 위를 마우스로 가리킨 다음 **[!UICONTORL 타깃팅]** 아이콘을 클릭합니다.
+   단일 오퍼에 대한 타깃팅을 설정하려면 원하는 오퍼 위를 마우스로 가리킨 다음 **[!UICONTROL 타깃팅]** 아이콘을 클릭합니다.
 
    여러 오퍼에 대한 타깃팅을 설정하려면 원하는 오퍼에 대한 확인란을 선택한 다음 목록의 오른쪽 상단에 표시되는 **[!UICONTROL 타깃팅] 아이콘을 클릭합니다.
 
