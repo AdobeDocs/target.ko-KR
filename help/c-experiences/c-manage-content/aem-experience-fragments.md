@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 14%
+source-wordcount: '1100'
+ht-degree: 15%
 
 ---
 
@@ -26,7 +26,7 @@ Information about using experience fragments created in [!DNL Adobe Experience M
 
 Using experience fragments created in [!DNL AEM] in [!DNL Target] activities lets you combine the ease-of-use and power of [!DNL AEM] with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.
 
-[!DNL AEM] 모든 콘텐츠와 자산을 한 곳에 모아 개인화 전략을 실현합니다. [!DNL AEM] 코드를 작성하지 않고도 한 위치에서 데스크탑, 태블릿 및 모바일 디바이스용 컨텐츠를 손쉽게 제작할 수 있습니다. 모든 디바이스에 맞는 페이지를 제작할 필요가 없습니다. [!DNL AEM] 컨텐츠를 사용하여 각 경험을 자동으로 조정할 수 있습니다.
+[!DNL AEM] 모든 콘텐츠와 자산을 중앙에서 통합하여 개인화 전략에 도움이 됩니다. [!DNL AEM] 코드를 작성하지 않고도 한 위치에서 데스크탑, 태블릿 및 모바일 디바이스용 컨텐츠를 손쉽게 제작할 수 있습니다. 모든 디바이스에 맞는 페이지를 제작할 필요가 없습니다. [!DNL AEM] 컨텐츠를 사용하여 각 경험을 자동으로 조정할 수 있습니다.
 
 [!DNL Target] 행동, 컨텍스트 및 오프라인 변수를 결합하는 규칙 기반의 머신 러닝 방식과 AI 기반의 머신 러닝 방식을 결합하여 개인화된 경험을 규모에 맞게 제공할 수 있습니다. With [!DNL Target] you can easily set up and run [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
 
@@ -34,7 +34,7 @@ Experience fragments represent a huge step forward to link the content/experienc
 
 ## 요구 사항 {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-You must be provisioned with the experience fragments functionality within [!DNl Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
+You must be provisioned with the experience fragments functionality within [!DNL Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
 
 * [!DNL Adobe Experience Manager] 6.4(또는 이상).
 * [!DNL Adobe Experience Manager] 6.3 SP2 이상
@@ -131,7 +131,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 **양식 기반 경험 작성기를 사용하여 경험 조각을 소비하려면**
 
-1. 양식 기반 경험 작성기에서 경험을 만들거나 편집하는 동안 [!DN페이지]에서 [컨텐츠](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)를 삽입할 위치를 선택한 다음 경험 조각 [!DNL AEM] 변경 **[!UICONTROL 을 선택하여 경험 조각]**  및 조각 선택 목록을 표시합니다.
+1. 양식 기반 [!DNL Target]경험 작성기에서 경험을 만들거나 편집하는 동안 [페이지](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)에서 [!DNL AEM] 컨텐츠를 삽입할 위치를 선택한 다음 경험 조각 **[!UICONTROL 변경]** 을 선택하여 [경험 조각 [!UICONTROL 선택]] 및 [경험 조각 선택] 목록을 표시합니다.
 
    ![](assets/experience_fragment_list.png)
 
