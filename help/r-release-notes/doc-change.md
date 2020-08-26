@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
+source-git-commit: 965449574d5f07ba9e8ca27dd5b7828be6954828
 workflow-type: tm+mt
-source-wordcount: '1939'
+source-wordcount: '1948'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 26일 | [Adobe Analytics과 Target Recommendations 사용](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 새 주제입니다.  |
 | 8월 24일 | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | &quot;고급 설정&quot; 섹션이 업데이트되었습니다. |
 | 8월 21일 | [Adobe Target 환영 키트 개요](/help/c-intro/target-welcome-kit.md) | 새 아티클 및 하위 주제입니다. |
 | 8월 20일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 추가되었습니다.&quot;최근에 발표된 Google Chrome SameSite 쿠키 실행 정책은 VEC 및 EEC에 어떤 영향을 줍니까?&quot; |
