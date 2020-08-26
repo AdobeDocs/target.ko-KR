@@ -4,9 +4,9 @@ description: 행동 데이터 소스로 Adobe Analytics을 사용하면 클라�
 title: Adobe Analytics과 Target Recommendations 사용
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '877'
 ht-degree: 2%
 
 ---
@@ -95,10 +95,10 @@ Recommendations [에서 기준을](/help/c-recommendations/c-algorithms/create-n
    >이 단계를 수행하기 전에 [!DNL Adobe Analytics] 팀과 상의하십시오.
 
    * **유형**:FTP
-   * **호스트**:xxx.yyy.com
-   * **경로**:Target 클라이언트 코드
-   * **사용자 이름**:xxxyyy
-   * **암호**:xxxxxxxxx
+   * **호스트**: `xxx.yyy.com`
+   * **경로**:클라이언트 [!DNL Target] 코드
+   * **사용자 이름**:사용자 이름 지정
+   * **암호**:암호 지정
 
    스크린샷은 참조용으로만 사용됩니다. 배포의 자격 증명이 다릅니다. 이 단계를 수행하는 동안 [!DNL Adobe Analytics] 팀 또는 고객 지원 센터에 문의하십시오.
 
