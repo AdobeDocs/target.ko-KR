@@ -6,7 +6,7 @@ feature: reference general
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -59,9 +59,9 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 
 Target에 대한 세션 외에 Analytics, Campaign, AEM(Adobe Experience Manager), Primetime, Adobe Core Services, Audience Manager 등 기타 Adobe 솔루션에 대한 다른 세션이 있습니다.
 
-## Adobe 고객 지원 문의 {#reference_ACA3391A00EF467B87930A450050077C}
+## Adobe 고객 지원{#reference_ACA3391A00EF467B87930A450050077C}에 문의하십시오 
 
-발생할 수 있는 모든 문제의 해결을 돕도록 클라이언트 지원팀이 준비되어 있습니다. 이 페이지에는 해결 방법을 더 신속하게 찾기 위해 클라이언트 지원팀에 문의할 때 필요한 정보가 나와 있습니다.
+발생할 수 있는 모든 문제의 해결을 돕도록 고객 지원팀이 준비되어 있습니다. 이 페이지에는 해결 방법을 더 신속하게 찾기 위해 고객 지원팀에 문의할 때 필요한 정보가 나와 있습니다.
 
 ### 기본 정보 {#section_CC8B206F58D6495C9372D5C0D4055CF6}
 
