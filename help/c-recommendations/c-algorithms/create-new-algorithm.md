@@ -4,9 +4,9 @@ title: 기준 만들기
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '3605'
+source-wordcount: '3615'
 ht-degree: 98%
 
 ---
@@ -89,6 +89,8 @@ ht-degree: 98%
 1. Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
 
    [!UICONTROL Analytics]를 선택한 경우 원하는 보고서 세트를 선택합니다.
+
+   자세한 내용은 Target Recommendations과 [함께 Adobe Analytics 사용을 참조하십시오](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 1. **[!UICONTROL 콘텐츠]** 규칙을 설정합니다.
 
