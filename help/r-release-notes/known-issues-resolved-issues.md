@@ -5,10 +5,10 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
+source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 88%
+source-wordcount: '3521'
+ht-degree: 85%
 
 ---
 
@@ -122,6 +122,12 @@ Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 위의 알려진 문제가 해결되면 다음 섹션으로 이동되고, 필요한 경우 다른 메모가 더 추가됩니다.
+
+### Google Chrome 버전 80+를 사용할 때 VEC(Visual Experience Composer) 또는 EEC(Enhanced Experience Composer)에서 페이지가 로드되지 않음
+
+이 알려진 문제는 Chrome 버전 80부터 시작되는 SameSite 특성 없이 쿠키의 기본 동작을 변경하는 Google의 결정과 관련이 있습니다. 크롬을 변경하기 전에 SameSite 특성이 &quot;SameSite=None&quot;으로 설정된 모든 쿠키의 기본값은 &quot;SameSite=Lax&quot;로 설정되었으며, 이렇게 하면 쿠키가 GET 및 POST 요청에 전송되는 방식이 변경됩니다. SameSite [Updates를 참조하십시오](https://www.chromium.org/updates/same-site).
+
+자세한 내용 및 수정 사항은 &quot;최근에 발표된 Google Chrome SameSite 쿠키 실행 정책이 VEC 및 EEC에 어떤 영향을 줍니까?&quot;를 참조하십시오. in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### 사용자 지정 경험을 제어로 사용할 때 자동 타겟 활동에 대한 그래프 보고서가 렌더링되지 않습니다.
 
