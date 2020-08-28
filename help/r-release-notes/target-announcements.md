@@ -5,7 +5,7 @@ title: Target 공지
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -48,4 +48,4 @@ McKinsey Digital은 &quot;지난 5년간 소비자 및 비즈니스 디지털 �
 
 ## Adobe Target 스킬 빌더:개발자 채팅, Adobe Target의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
-2020년 8월 30일에 mbox.js의 사용 중단 사태가 임박하자 David Son, Adobe Target 제품 관리자는 최근 개발자 채팅을 열어 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 이후 30일 동안 웨비나 레코딩 [을 볼 수 있습니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+2021년 1월 18일에 mbox.js의 사용 중단 사태가 임박하자 David Son, Adobe Target 제품 관리자는 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 이후 30일 동안 웨비나 레코딩 [을 볼 수 있습니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
