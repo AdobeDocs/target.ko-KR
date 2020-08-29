@@ -5,10 +5,10 @@ title: Adobe Target VEC(시각적 경험 작성기) Helper 확장 프로그램
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: c77561696c35a5890c10591fc1014d812485f0f8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 94%
+source-wordcount: '663'
+ht-degree: 85%
 
 ---
 
@@ -23,8 +23,9 @@ Google Chrome용 [!DNL Adobe Target] VEC(시각적 경험 작성기) Helper 브�
 * 웹 사이트가 iframe으로 되어 있습니다.
 * at.js 라이브러리가 아직 웹 사이트에서 구현되지 않았습니다.
 * 고객의 QA 및/또는 스테이지 사이트를 외부 세계(사이트가 내부적임)에서 사용할 수 없습니다.
+* 향상된 SameSite 쿠키 실행 정책과 함께 Google Chrome 80+을 사용하고 있습니다. 자세한 내용은 최근 발표된 Google [Chrome SameSite 쿠키 집행 정책이 VEC 및 EEC에 어떤 영향을 줍니까](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-Chrome용 VEC Helper 브라우저 확장 프로그램은 고객이 현재 [!DNL Target][!UICONTROL 고급 경험 작성기]나, Requestly와 같은 확장 프로그램에 의존하고 있는 사이트 로딩 문제를 해결합니다.
+The VEC Helper browser extension for Chrome solves site-loading issues for which customers now rely on the [!DNL Target] [!UICONTROL Enhanced Experience Composer] or third-party extensions, such as Requestly.
 
 VEC Helper 확장 프로그램을 사용하는 이점:
 
