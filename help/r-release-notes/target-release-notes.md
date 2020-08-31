@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: 405715f1ee1afd1d298dc7f1ef0cd3599620cbca
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 13%
+source-wordcount: '802'
+ht-degree: 11%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**최근 업데이트: 2020년 8월 20일**
+**최근 업데이트: 2020년 8월 31일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -39,23 +39,27 @@ ht-degree: 13%
 * **Target 공지**:Target Spuit Builder 세션, 개발자 채팅, 웨비나 및 Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.9.1(2020년 9월 2일)
+## Target Standard/Premium 20.8.1(2020년 9월 2일)
 
 이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
 
-* 조직을 전환한 후 새 **[!UICONTROL 관리]** 페이지를 로드할 때 오류가 표시되는 문제를 해결했습니다. (TGT-37730)
-* 잘못된 클라이언트 코드가 **[!UICONTROL 관리 > 구현]** 페이지에 표시되던 표시 문제를 수정했습니다. (TGT-37849)
-* 때때로 사용자가 VEC를 성공적으로 로드한 후 **[!UICONTROL VEC]** (Visual Experience Composer)의 편집 기능을 사용할 수 없는 문제를 수정했습니다. (TGT-37162)
-* 조직을 전환한 후 때때로 사용자가 **[!UICONTROL 관리 > 구현]** 페이지에서 at.js를 다운로드할 수 없는 문제를 해결했습니다. (TGT-37668)
-* 장시간 동안 경험이 &quot; **[!UICONTROL 결과]** &quot;를 표시하는 XT(경험 타깃팅) 활동의 문제를 수정했습니다. (TGT-37684)
+* 조직을 전환한 후 새 [!UICONTROL 관리] 페이지를 로드할 때 오류가 표시되는 문제를 해결했습니다. (TGT-37730)
+* 잘못된 클라이언트 코드가 [!UICONTROL 관리 > 구현] 페이지에 표시되던 표시 문제를 수정했습니다. (TGT-37849)
+* 때때로 사용자가 VEC를 성공적으로 로드한 후 [!UICONTROL VEC] (Visual Experience Composer)의 편집 기능을 사용할 수 없는 문제를 수정했습니다. (TGT-37162)
+* VEC 도우미 확장이 설치되어 있어도 VEC 및 EEC(Enhanced Experience Composer)에서 페이지를 로드할 수 없는 문제를 해결했습니다. 이는 Google Chrome 80+의 변경 때문입니다. 업데이트된 VEC [도우미 확장을 다운로드합니다](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md). (TGT-37893)
+* 조직을 전환한 후 때때로 사용자가 [!UICONTROL 관리 > 구현] 페이지에서 at.js를 다운로드할 수 없는 문제를 해결했습니다. (TGT-37668)
+* 이제 사용자가 다운로드 단추를 여러 번 클릭하는 경우 여러 요청을 전송할 수 없도록 로드 중에 at.js 다운로드 단추 [!DNL Target] 가 비활성화됩니다. (TGT-37633)
+* 장시간 동안 경험이 &quot; [!UICONTROL 결과] &quot;를 표시하는 XT(경험 타깃팅) 활동의 문제를 수정했습니다. (TGT-37684)
 * 키보드 전용 사용자를 위한 탐색 및 기능이 개선되었습니다. (TGT-34479 및 TGT-34473)
 * 보조 기술을 사용하는 사용자에게 도움이 되는 레이블을 UI에 추가했습니다. (TGT-34480)
 * 활동에 현재 사용되는 모바일 뷰포트를 삭제할 때 오류 메시지가 개선되었습니다. 이제 오류 메시지가 표시됩니다.&quot;이 뷰포트는 현재 하나 이상의 활동과 연결되어 있습니다. 삭제하기 전에 해당 활동에서 뷰포트를 제거해야 합니다.&quot; (TGT-37030)
 * 페이지에서 둘 이상의 요소와 일치하는 css 선택기에서 클릭 추적을 허용하는 VEC에 지원을 추가했습니다. (TGT-37323)
-* 특정 사용자가 **[!UICONTROL 활동]** 목록을 표시하지 못하는 문제를 해결했습니다. 다음 오류 메시지가 표시되었습니다.&quot;URL제안을 가져올 수 없습니다.&quot; Adobe 백엔드 시스템의 FirstName(FirstName/r/n)에서 캐리지 리턴을 사용하는 사용자에 대해 오류가 발생했습니다. (TGT-37330)
-* 작업 공간 이름(Enterprise용 **[!UICONTROL Adobe Admin Console에]** 지정)에 아포스트로피가 포함되어 있는 경우 사용자가 **[!UICONTROL 활동]**&#x200B;페이지를 표시할 수 없는 문제를 해결했습니다. (TGT-37709)
-* 이제 사용자가 다운로드 단추를 여러 번 클릭하는 경우 여러 요청을 전송할 수 없도록 로드 중에 at.js 다운로드 단추 [!DNL Target] 가 비활성화됩니다. (TGT-37633)
+* 특정 사용자가 [!UICONTROL 활동] 목록을 표시하지 못하는 문제를 해결했습니다. 다음 오류 메시지가 표시되었습니다.&quot;URL제안을 가져올 수 없습니다.&quot; Adobe 백엔드 시스템의 FirstName(FirstName/r/n)에서 캐리지 리턴을 사용하는 사용자에 대해 오류가 발생했습니다. (TGT-37330)
+* 작업 공간 이름(Enterprise용 [!UICONTROL Adobe Admin Console에] 지정)에 아포스트로피가 포함되어 있는 경우 사용자가 [!UICONTROL 활동]페이지를 표시할 수 없는 문제를 해결했습니다. (TGT-37709)
+* 보고서 세트가 이미 지정된 [!UICONTROL 경우에도 오류 메시지가 사용자에게 보고서 세트를 선택하라고 잘못 알렸던 최적화 및 전환 지표를 선택하는] 동안 자동 할당 활동의 문제를 수정했습니다. (TGT-37689)
+* 타깃팅 페이지로 이동한 후 [!UICONTROL 돌아온 후 종종 목표 및 설정] 페이지의 지표가 [!UICONTROL 비어 있는] 문제를 해결했습니다. (TGT-37691)
 * 기준에 대해 잘못된 최종 수정 값을 발생시키는 문제를 [!DNL Recommendations] 수정했습니다. (TGT-37666)
+* mbox 이름 대신 mbox 드롭다운 목록에 mbox ID가 표시되는 문제를 해결했습니다. (TGT-37739)
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
