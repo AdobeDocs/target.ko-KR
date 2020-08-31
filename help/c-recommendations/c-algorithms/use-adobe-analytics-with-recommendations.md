@@ -4,9 +4,9 @@ description: 행동 데이터 소스로 Adobe Analytics을 사용하면 클라�
 title: Adobe Analytics과 Target Recommendations 사용
 feature: criteria
 translation-type: tm+mt
-source-git-commit: a6cdecbe6acb0b34edb036894c55a2dd2298ee6e
+source-git-commit: 250256e44044262adca2736a519cd48b938f3b40
 workflow-type: tm+mt
-source-wordcount: '877'
+source-wordcount: '988'
 ht-degree: 2%
 
 ---
@@ -148,3 +148,16 @@ Recommendations [에서 기준을](/help/c-recommendations/c-algorithms/create-n
    ![매핑 섹션](/help/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+## FAQ
+
+다음과 같은 FAQ를 사용하는 [!DNL Analytics] 것이 좋습니다. [!DNL Target]
+
+### mbox 호출 내에서 `entity.id` 및 `entity.categoryId` 값을 전달해야 [!DNL Target] 합니까?
+
+예. 이러한 두 값은 여전히 필요합니다. 이 문서에서 설명한 대로 나머지 속성은 [!DNL Analytics] 피드를 통해 전달할 수 있습니다.
+
+### 개체 매개 변수가 피드 접근 방법을 사용하여 프로필 속성과 일치하는 동적 포함 규칙을 사용할 수 [!DNL Analytics] 있습니까?
+
+네, 가능합니다. 이 방법은 독립 실행형 사용 시 [!DNL Target] 비슷합니다. 그러나 이 경우 타이밍 인자에 대해 주의를 기울여야 합니다. 프로필 변수와 일치해야 하는 엔티티 변수는 페이지에서 훨씬 나중에 나타날 수 있는 데이터 레이어에 따라 달라집니다.
+
