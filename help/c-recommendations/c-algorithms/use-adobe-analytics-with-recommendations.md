@@ -4,10 +4,10 @@ description: 행동 데이터 소스로 Adobe Analytics을 사용하면 클라�
 title: Adobe Analytics과 Target Recommendations 사용
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 9bf30d6397fefdc85e51e2bd431ba163b10f6c09
+source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
 workflow-type: tm+mt
-source-wordcount: '761'
-ht-degree: 1%
+source-wordcount: '1030'
+ht-degree: 3%
 
 ---
 
@@ -26,7 +26,7 @@ Recommendations [에서 기준을](/help/c-recommendations/c-algorithms/create-n
 >
 >이 두 개의 단추가 계정에 표시되지 않으면 [고객 지원 센터에 문의하십시오](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-## 사용 사례
+## Target의 Analytics 데이터에 대한 사용 사례
 
 권장 사항에 대한 행동 데이터 소스 [!DNL Analytics] 로 사용하면 모든 개체 매개 변수를 사용하여 개체 페이지에 태그를 지정할 필요 없이 특정 사용 사례를 배포할 수 [!DNL Target] 있습니다. 특정 전제 조건을 충족해야 하지만 &quot;제품 변수&quot;의 사용 가능 여부는 해당 기능이 완벽하게 작동되려면 가장 중요합니다. 일반 eVar 및 Prop로는 이 핸드셰이크가 [!DNL Analytics] 및 사이 [!DNL Target]에 자동으로 발생하기에 충분하지 않습니다.
 
@@ -39,7 +39,7 @@ Recommendations [에서 기준을](/help/c-recommendations/c-algorithms/create-n
 
 다음 섹션에서는 이 기능을 [!DNL Analytics] 측면에서 구현하는 데 도움이 됩니다.
 
-### 전제 조건:Analytics의 제품 변수
+### 전제 조건:Analytics에서 제품 변수 설정
 
 제품 변수 [!DNL Analytics] 를 필요한 속성과 함께 구현해야 합니다 [!DNL Target Recommendations].
 
@@ -57,9 +57,83 @@ Recommendations [에서 기준을](/help/c-recommendations/c-algorithms/create-n
 
 어떤 데이터 소스를 사용할지 빠르게 결정하려면, 사용자가 매일 생성하는 많은 유기적 데이터가 있고 내역 데이터에 그다지 의존할 필요가 없는 경우, 행동 데이터 소스로 [!DNL Target] mbox를 사용하는 것이 적절할 수 있습니다. 최근 생성된 유기적 데이터의 가용성이 부족한 경우, [!DNL Analytics] 데이터를 기반으로 처리하려는 경우, 행동 데이터 소스 [!DNL Analytics] 로 사용하는 것이 적절합니다.
 
-### 고객 지원 센터에 연락하여 데이터 피드 만들기
+### 배포 단계
 
-모든 사전 이수 조건이 적절하다고 가정할 경우 [고객](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 지원 센터에 연락하여 데이터 피드를 생성하도록 하십시오.
+모든 전제 조건이 충족된다고 가정할 경우, Adobe Target Recommendations 팀이 다음 작업을 수행해야 합니다.
+
+>[중요]
+>
+>아래 단계는 실례에 사용됩니다. Recommendations 팀의 구성원은 현재 이러한 단계를 수행해야 합니다. [자세한 내용은 고객 지원 센터에 문의하십시오.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+
+1. 에서 [!DNL Target]관리 **** > **[!UICONTROL 구현을]** 클릭하여 클라이언트 코드를 [!DNL Target] 획득합니다.
+
+   ![클라이언트 코드](/help/c-recommendations/c-algorithms/assets/client-code.png)
+
+1. 보고서 세트를 [!DNL Analytics] 획득합니다.
+
+   프로덕션 [!DNL Analytics] 사이트 보고서 세트를 사용합니다. 배포된 사이트를 추적하는 보고서 [!DNL Recommendations] 세트입니다.
+
+1. 에서 관리 [!DNL Analytics]> 데이터 피드 **[!UICONTROL 를]** 클릭합니다 ****.
+
+   ![설정 > 데이터 피드](/help/c-recommendations/c-algorithms/assets/data-feed.png)
+
+1. Click **[!UICONTROL Add]** to create a new feed.
+
+   ![피드 추가](/help/c-recommendations/c-algorithms/assets/add-feed.png)
+
+1. 피드 정보 입력:
+
+   * **이름**:제품 피드 다시 작성
+   * **보고서 세트**:사전 결정된 보고서 세트
+   * **이메일**:관리자 사용자의 적절한 주소 지정
+   * **피드 간격**:원하는 간격 선택
+   * **처리 지연**:지연이 없습니다.
+   * **시작 및 종료 날짜**:연속 피드
+
+   ![피드 정보 섹션](/help/c-recommendations/c-algorithms/assets/feed-information.png)
+
+1. Fill in the details in the **[!UICONTROL Destination]** section:
+
+   >[!NOTE]
+   > 
+   >이 단계를 수행하기 전에 [!DNL Adobe Analytics] 팀과 상의하십시오.
+
+   * **유형**:FTP
+   * **호스트**: `xxx.yyy.com`
+   * **경로**:클라이언트 [!DNL Target] 코드
+   * **사용자 이름**:사용자 이름 지정
+   * **암호**:암호 지정
+
+   스크린샷은 참조용으로만 사용됩니다. 배포의 자격 증명이 다릅니다. 이 단계를 수행하는 동안 [!DNL Adobe Analytics] 팀 또는 고객 지원 센터에 문의하십시오.
+
+   ![대상 섹션](/help/c-recommendations/c-algorithms/assets/destination.png)
+
+1. 데이터 열 **[!UICONTROL 정의를]** 입력합니다.
+
+   * **압축 형식**:Gzip
+   * **패키징 유형**: 단일 파일
+   * **매니페스트:** 파일 마침
+
+      ![압축 형식, 패키징 유형 및 매니페스트 설정](/help/c-recommendations/c-algorithms/assets/compression.png)
+
+   * **포함된 열**:
+
+      >[!IMPORTANT]
+      >
+      >열은 여기에 설명된 것과 동일한 순서로 추가해야 합니다. 다음 순서로 열을 선택하고 각 열에 대해 **[!UICONTROL 추가를]** 클릭합니다.
+
+      * hit_time_gmt
+      * visid_high
+      * visid_low
+      * event_list
+      * product_list
+      * visit_num
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+   ![데이터 열 정의 섹션](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
+
+이렇게 하면 [!DNL Analytics] 측면의 설정이 완료됩니다. 이제 행동 데이터의 지속적인 공급을 위해 이러한 변수를 [!DNL Target] 나란히 매핑할 때입니다.
 
 ## Target에서 구현
 
