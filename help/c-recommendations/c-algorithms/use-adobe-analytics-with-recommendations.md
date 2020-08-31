@@ -4,9 +4,9 @@ description: 행동 데이터 소스로 Adobe Analytics을 사용하면 클라�
 title: Adobe Analytics과 Target Recommendations 사용
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1024'
 ht-degree: 3%
 
 ---
@@ -59,11 +59,11 @@ Recommendations [에서 기준을](/help/c-recommendations/c-algorithms/create-n
 
 ### 배포 단계
 
-모든 전제 조건이 충족된다고 가정할 경우, Adobe Target Recommendations 팀이 다음 작업을 수행해야 합니다.
+모든 전제 조건이 충족되었다고 가정할 경우, 다음 작업은 [!DNL Adobe Target Recommendations] 팀에서 수행해야 합니다.
 
->[중요]
+>[!IMPORTANT]
 >
->아래 단계는 실례에 사용됩니다. Recommendations 팀의 구성원은 현재 이러한 단계를 수행해야 합니다. [자세한 내용은 고객 지원 센터에 문의하십시오.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+>아래 단계는 실례만을 위한 것입니다. 팀원은 [!DNL Recommendations] 현재 이러한 단계를 수행해야 합니다. [자세한 내용은 고객 지원 센터에 문의하십시오.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 1. 에서 [!DNL Target]관리 **** > **[!UICONTROL 구현을]** 클릭하여 클라이언트 코드를 [!DNL Target] 획득합니다.
 
