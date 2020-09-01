@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 405715f1ee1afd1d298dc7f1ef0cd3599620cbca
+source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
 workflow-type: tm+mt
 source-wordcount: '802'
 ht-degree: 11%
@@ -58,7 +58,7 @@ ht-degree: 11%
 * 작업 공간 이름(Enterprise용 [!UICONTROL Adobe Admin Console에] 지정)에 아포스트로피가 포함되어 있는 경우 사용자가 [!UICONTROL 활동]페이지를 표시할 수 없는 문제를 해결했습니다. (TGT-37709)
 * 보고서 세트가 이미 지정된 [!UICONTROL 경우에도 오류 메시지가 사용자에게 보고서 세트를 선택하라고 잘못 알렸던 최적화 및 전환 지표를 선택하는] 동안 자동 할당 활동의 문제를 수정했습니다. (TGT-37689)
 * 타깃팅 페이지로 이동한 후 [!UICONTROL 돌아온 후 종종 목표 및 설정] 페이지의 지표가 [!UICONTROL 비어 있는] 문제를 해결했습니다. (TGT-37691)
-* 기준에 대해 잘못된 최종 수정 값을 발생시키는 문제를 [!DNL Recommendations] 수정했습니다. (TGT-37666)
+* 기준에 대해 잘못된 최종 수정 값을 초래했던 문제를 [!DNL Recommendations] 수정했습니다. (TGT-37666)
 * mbox 이름 대신 mbox 드롭다운 목록에 mbox ID가 표시되는 문제를 해결했습니다. (TGT-37739)
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
