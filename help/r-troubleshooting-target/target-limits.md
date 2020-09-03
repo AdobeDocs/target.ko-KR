@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1012'
 ht-degree: 77%
 
 ---
@@ -65,6 +65,10 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 * **HTTP 방법을 사용한 각 업로드에 대한 최대 파일 크기**:100MB.
 * **FTP 방법을 사용한 각 업로드에 대한 최대 파일 크기**:4GB
 * **가입이 허용된 속성 수**:5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
+
+## 엔티티
+
+하드 코딩되거나 루프를 통해 디자인에서 참조할 수 있는 최대 개체 수는 99개입니다.
 
 ## 엔티티 사용자 지정 속성
 
