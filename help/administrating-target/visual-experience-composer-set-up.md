@@ -5,7 +5,7 @@ title: Adobe Target 시각적 경험 컴포저 구성
 feature: administration general
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
 source-wordcount: '694'
 ht-degree: 51%
@@ -37,7 +37,7 @@ Visual Experience [!UICONTROL Composer] 구성 페이지에 액세스하려면 *
 
 [!UICONTROL 시각적 경험 작성기]에서 사용되는 기본 URL을 설정합니다. 이것은 홈 페이지와 같이 각 새 활동에 대한 경험을 설정할 때마다 사용되는 기본 페이지입니다. 기본 URL을 설정하지 않은 경우, 활동을 만들 때 각 활동의 URL을 입력해야 합니다.
 
-### 고급 경험 작성기 활성화
+### 고급 경험 작성기 활성화 {#eec}
 
 iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 향상된 버전과 호환되지 않을 수 있습니다. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
 
@@ -104,6 +104,6 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하고, 제품 전반의 사용자 경험을 개선하기 위해 다시 설계되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
