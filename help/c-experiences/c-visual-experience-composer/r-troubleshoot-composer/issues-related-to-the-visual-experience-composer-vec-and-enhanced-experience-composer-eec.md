@@ -5,10 +5,10 @@ title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 38a4e9577614e7a956b043956353d55f8e8200ef
+source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
 workflow-type: tm+mt
-source-wordcount: '1282'
-ht-degree: 72%
+source-wordcount: '1370'
+ht-degree: 68%
 
 ---
 
@@ -25,11 +25,11 @@ ht-degree: 72%
 * 활동을 편집하는 동안 라이브러리를 다운로드할 *수 없습니다* [!DNL Target] (활동이 사이트에 아직 있지 않은 경우). 이는 다운로드 호출이 고객 도메인에서 안전한 Adobe 도메인으로 수행되고 인증되지 않은 것으로 거부되기 때문입니다.
 * 쿠키를 위한 SameSite 특성을 설정할 수 없기 때문에 EEC는 모든 사용자에 대해 *작동하지* 않습니다 `adobemc.com domain`. 이 속성이 없으면 브라우저가 이러한 쿠키를 거부하여 EEC가 실패합니다.
 
-Adobe이 업데이트된 VEC 도우미 확장을 Google Chrome Store에 제출했습니다. 이 확장 기능은 필요한 경우 쿠키 속성을 `SameSite="none"` 덮어써서 속성을 설정합니다. 업데이트된 [익스텐션은 여기에서 확인할 수 있습니다](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+Adobe이 업데이트된 VEC 도우미 확장을 Google Chrome Store에 제출했습니다. 이 확장 기능은 필요한 경우 쿠키 속성을 `SameSite="none"` 덮어써서 속성을 설정합니다. 업데이트된 [익스텐션은 여기에서 확인할 수 있습니다](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). VEC 도우미 확장 설치 및 사용에 대한 자세한 내용은 [Visual Experience Composer 도우미 확장을 참조하십시오](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-사이트 쿠키의 경우 이름별로 쿠키를 지정해야 합니다. 쿠키 [!UICONTROL 슬라이더를] 켜진 위치로 전환한 다음 이름별로 쿠키를 지정합니다.
+사이트 쿠키의 경우 이름별로 쿠키를 지정해야 합니다. 쿠키  슬라이더를 켜진 위치로 전환한 다음 이름 및 쿠키 도메인별로 쿠키를 지정합니다. 쿠키 이름은 &quot;mbox&quot;이고 쿠키 도메인은 mbox를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: `mycompany.com`. 자세한 내용은 [Experience Cloud 인터페이스 사용자 안내서의](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target 쿠키를 *참조하십시오*.
 
-![VEC 도우미 확장](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookie-name.png)
+![VEC 도우미 확장에서 쿠키 전환](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
 ### 대체 요소 및 해결 방법
 
