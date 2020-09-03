@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# mbox.js 라이브러리 버전별 Target 페이지 호출 방법{#target-page-methods-by-mbox-js-library-version}을 참조하십시오
+# mbox.js 라이브러리 버전별 Target 페이지 호출 방법을 참조하십시오 {#target-page-methods-by-mbox-js-library-version}
 
 Target이 페이지의 호출을 수행하고 호출에 응답하는 방식은 사용 중인 Target 라이브러리 버전, Experience Cloud 방문자 ID 구현이 존재하는지 여부, 방문자 ID가 있는지 여부에 따라 다릅니다.
 
