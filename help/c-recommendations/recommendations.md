@@ -5,9 +5,9 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '930'
 ht-degree: 59%
 
 ---
@@ -53,7 +53,7 @@ ht-degree: 59%
 | 용어 | 정의 |
 | --- | --- |
 | 활동 | 컨텐츠를 특정 대상에 맞게 개인화하고 페이지 디자인을 테스트할 수 [!DNL Target] 있는 활동 [!DNL Recommendations] 는 사용 가능한 여러 활동 유형 중 하나에 불과합니다 [!DNL Target]. 자세한 내용은 [Target 활동 유형을 참조하십시오](/help/c-activities/target-activities-guide.md). |
-| 엔티티 | 엔티티는 추천할 항목을 나타냅니다. 개체에는 제품, 컨텐트(기사, 슬라이드 쇼, 이미지, 동영상, tv 프로그램), 작업 목록, 레스토랑 등과 같은 것이 될 수 있습니다.자세한 내용은 [개체를 참조하십시오](/help/c-recommendations/c-products/products.md). |
+| 엔티티 | 엔티티는 추천할 항목을 나타냅니다. 엔티티는 제품, 컨텐츠(기사, 슬라이드 쇼, 이미지, 동영상, tv 프로그램), 취업 목록, 레스토랑 등과 같은 모든 것을 사용할 수 있습니다. For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
 | 피드 | 피드는 개체를 가져오는 데 사용됩니다 [!DNL Recommendations]. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다. 자세한 내용은 [피드](/help/c-recommendations/c-products/feeds.md)를 참조하십시오. |
 | 카탈로그 | 카탈로그는 전체 제품 세트(엔티티)를 나타냅니다. 카탈로그에는 여러 컬렉션이 포함될 수 있으며 이는 제품을 논리 버킷으로 구성하는 방법입니다. |
 | 컬렉션 | 컬렉션은 단일 제품 카테고리와 같이 유사하거나 관련된 항목 집합을 의미합니다. 그러나 어떤 항목이든 특정 가격 범위나 색상 또는 특정 지역에서 관심을 가질 수 있는 항목 등, 비즈니스에 의미가 있는 카테고리로 그룹화할 수 있습니다. For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
