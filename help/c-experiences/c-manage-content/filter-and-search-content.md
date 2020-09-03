@@ -13,7 +13,7 @@ ht-degree: 100%
 ---
 
 
-# 컨텐츠 검색 및 스마트 컬렉션 만들기{#search-content-and-create-smart-collections}를 참조하십시오
+# 컨텐츠 검색 및 스마트 컬렉션 만들기를 참조하십시오 {#search-content-and-create-smart-collections}
 
 키워드로 자산을 검색하고, 검색 결과를 사용하여 자동으로 업데이트되는 스마트 컬렉션이라는 검색 폴더를 저장하십시오.
 
