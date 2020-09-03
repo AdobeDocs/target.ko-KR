@@ -14,7 +14,7 @@ ht-degree: 100%
 ---
 
 
-# [!DNL Target] JavaScript 라이브러리{#understand-the-target-javascript-libraries} 이해
+# [!DNL Target] JavaScript 라이브러리 이해 {#understand-the-target-javascript-libraries}
 
 웹 페이지에서 [!DNL Target] 라이브러리(at.js 또는 mbox.js)를 참조하여 [!DNL Target]을 구현합니다.
 
