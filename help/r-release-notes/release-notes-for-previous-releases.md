@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 9faed3d7fa8659c04059486a23bbb3957a0f5e27
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '29011'
-ht-degree: 89%
+source-wordcount: '29297'
+ht-degree: 88%
 
 ---
 
@@ -23,6 +23,40 @@ Target Standard/Premium, Target 플랫폼 및 Target Javascript 라이브러리(
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 노트(현재)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 노트 - 2020
+
+### at.js 2.3.2(2020년 7월 24일)
+
+at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항이 포함되어 있습니다.
+
+* 스크립트나 코드가 창 또는 문서에 기본 속성을 추가할 때의 버그를 수정했습니다.
+
+### Target Standard/Premium 20.7.1(2020년 7월 27일)
+
+이 릴리스에는 다음과 같은 변경 사항이 포함됩니다.
+
+#### [!UICONTROL 관리] 섹션 UI 새로 고침
+
+새로운 기술 스택을 사용하여 전체 [!DNL Target] UI를 점진적으로 재작성하고 있어 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반의 사용자 경험을 향상시키고 있습니다. 새로 고친 첫 번째 섹션은 [!UICONTROL 설정] 섹션으로서, 이름이 [!UICONTROL 관리로 변경되었습니다].
+
+이 새로 고침의 일부로, 다음과 같은 [!UICONTROL 관리] 섹션의 페이지를 사용하여 많은 작업을 쉽게 수행할 수 있습니다.
+
+* 구현 탭( [!UICONTROL 관리] > 구현)에서 최신 at.js 파일을&#x200B;**** **[!UICONTROL 다운로드합니다]**.
+* at.js 설정을 사용자 정의하고 변경 사항을 쉽게 검토할 수 있습니다(**[!UICONTROL 관리]** > **[!UICONTROL 구현]**).
+* 기본 통화 및 표준 시간대, 보고에서 제외되도록 IP와 같은 향상된 보고 설정을 수정합니다. (**[!UICONTROL 관리]** > **[!UICONTROL 보고]**)
+* 개인 정보 보호를 위해 방문자 IP 주소 난독화(**[!UICONTROL 관리]** > **[!UICONTROL 구현]**)
+* Adobe Admin Console(**[!UICONTROL 관리]** > **[!UICONTROL 사용자]**)에서 관리하기 전에 작업 공간당 사용자 및 해당 역할의 기존 목록을 확인합니다.
+* 관리 섹션에서 모든 테이블을 검색하고 [!UICONTROL 필터링합니다] .
+
+자세한 내용은 Target 관리 [개요를 참조하십시오](/help/administrating-target/administrating-target.md).
+
+#### 개선 사항, 수정 사항 및 변경 사항
+
+이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
+
+* 새로 고친 후 사이트 환경 설정을 유지할 수 없는 문제를 해결했습니다. (TGT-37239)
+* SVG(Scalable Vector Graphics) 이미지 [!UICONTROL 에서] 이후 [!UICONTROL 삽입 >] 이미지기능이 제대로 작동하지 않는 문제를 해결했습니다. (TGT-37242)
+* 초안 활동을 삭제할 수 없는 [!UICONTROL 게시자] 역할을 가진 사용자의 문제를 수정했습니다. (TGT-37358)
+* 모든 내 작업 영역을 선택할 때 사용자가 활동 [!UICONTROL 을 편집할 수 없는] 문제를 수정했습니다. (TGT-37276)
 
 ### Target Standard/Premium 20.5.1(2020년 6월 17일)
 
@@ -230,7 +264,7 @@ Target Standard/Premium 20.1.1 릴리스는 유지 관리 버전이며 백엔드
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| ![프리미엄 배지](/help/assets/premium.png) 사용자 기반 Recommendations<br>(2019년 10월 24일) | 각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목을 일반적으로 &quot;권장 사항&quot;이라고 합니다.<br>이 기준을 통해 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 추천 목록은 방문자의 최근 활동에 가중치가 적용되며 세션 중에 업데이트되며 방문자가 사이트를 검색할 때 더욱 개인화됩니다.<br>자세한 내용은 [기준/알고리즘의 &quot;사용자 기반 Recommendations&quot;을 참조하십시오](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
+| ![프리미엄 배지](/help/assets/premium.png) 사용자 기반 Recommendations<br>(2019년 10월 24일) | 각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목을 일반적으로 &quot;권장 사항&quot;이라고 합니다.<br>이 기준을 통해 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 추천 목록은 방문자의 최근 활동에 가중치가 적용되며 세션 중에 업데이트되며 방문자가 사이트를 검색할 때 더욱 개인화됩니다.<br>자세한 내용은 기준/알고리즘의 &quot;사용자 기반 Recommendations&quot; [을 참조하십시오](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
 **Adobe Experience Cloud 내비게이션**
 
