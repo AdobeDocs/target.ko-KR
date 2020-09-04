@@ -5,10 +5,10 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3657'
-ht-degree: 82%
+source-wordcount: '3704'
+ht-degree: 81%
 
 ---
 
@@ -44,6 +44,10 @@ ht-degree: 82%
 ### 페이지 게재 {#page-delivery}
 
 URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게재](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)에 추가하면 추가 공백이 규칙에 접두사로 추가됩니다. 이것은 사소한 문제이며 대상-정의 작성 및 오퍼 게재에 영향을 주지 않습니다. (TGT-35920)
+
+### QA 미리 보기 링크
+
+계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 활동 QA 미리 보기 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도하면 작동합니다. 이 문제가 계속 발생하지 않도록 하기 위해 더 이상 활발하게 사용되지 않는 저장된 활동을 보관합니다. (TNT-37294)
 
 ### Recommendations 활동에 대한 QA 모드
 
