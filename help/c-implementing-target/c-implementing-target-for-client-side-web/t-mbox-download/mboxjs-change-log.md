@@ -6,10 +6,10 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '2320'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -147,9 +147,9 @@ Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글�
 
 이 버전에서는 다음과 같은 부분이 변경되었습니다.
 
-* Target Standard에 대해 자동 생성된 글로벌 mbox 응답이 더 이상 document.write()를 사용하거나 <div> 요소를 생성하지 않습니다.
+* Target Standard에 대해 자동 생성된 글로벌 mbox 응답이 더 이상 document.write()를 사용하거나 `<div>` 요소를 생성하지 않습니다.
 
-   따라서 mbox.js 파일이 페이지의 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 섹션에 있는 마지막 항목이 될 필요가 없습니다. 이 새 버전으로 업그레이드할 때는 강력한 QA가 권장됩니다.
+   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. 이 새 버전으로 업그레이드할 때는 강력한 QA가 권장됩니다.
 
    이러한 변경 사항 때문에 일부 오퍼 유형을 전달할 때의 동작이 달라질 수 있습니다. 다음은 고려해야 하는 특정 조건입니다.
 
@@ -227,7 +227,7 @@ IE 수정 사항으로 버전 53을 수정합니다.
 
 **릴리스 날짜:** 2014년 9월 30일
 
-document.write에서 AJAX에 대한 전역 mbox 구현이 변경되었습니다. 따라서 mbox.js 파일이 페이지의 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 섹션에 있는 마지막 항목이 될 필요가 없습니다. 이 버전은 API를 통해서만 사용할 수 있습니다. 클라이언트는 이를 다운로드한 후 이 mbox.js 파일을 사용할 수 있습니다. 이 구현에 따라 일부 사이트 경험 컨텐츠가 깜박거리므로 사용자 사이트에서 이러한 통합을 확인하십시오.
+document.write에서 AJAX에 대한 전역 mbox 구현이 변경되었습니다. 따라서 mbox.js 파일이 페이지의 `<head>` 섹션에 있는 마지막 항목이 될 필요가 없습니다. 이 버전은 API를 통해서만 사용할 수 있습니다. 클라이언트는 이를 다운로드한 후 이 mbox.js 파일을 사용할 수 있습니다. 이 구현에 따라 일부 사이트 경험 컨텐츠가 깜박거리므로 사용자 사이트에서 이러한 통합을 확인하십시오.
 
 ## mbox 버전 53
 
