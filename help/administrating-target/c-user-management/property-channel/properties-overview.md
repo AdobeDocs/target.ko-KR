@@ -6,10 +6,10 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -158,7 +158,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       자세한 내용은 *다이내믹 태그 관리 제품 설명서*&#x200B;의 [글로벌 매개 변수 - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target)을 참조하십시오.
 
-   * **targetPageParams() 함수를 통해:** at.js 또는 mbox.js 참조 위에서 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 태그에 다음 코드를 배치하십시오.
+   * **targetPageParams() 함수를 통해 다음을 수행합니다.** at.js 또는 mbox.js 참조 위의 `<head>` 태그에 다음 코드를 배치합니다.
 
       ![](assets/property_token_1.png)
 
@@ -205,7 +205,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
 >[!NOTE]
 >
->관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오에 있는 정보는 일반적으로 정확합니다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하고, 제품 전반의 사용자 경험을 개선하기 위해 다시 설계되었습니다. 다음 비디오에 있는 정보는 일반적으로 정확합니다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 ### Target 작업 영역 구성 방법(6:55) 자습서 ![배지](/help/assets/tutorial.png)
 
