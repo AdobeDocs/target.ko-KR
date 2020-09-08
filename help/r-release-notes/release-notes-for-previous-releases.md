@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
 source-wordcount: '29297'
 ht-degree: 88%
@@ -1941,7 +1941,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 권장 사항: 기준 집합 시퀀싱 </td> 
-   <td colname="col2"> <p>방문자에게 제공되는 권장 사항을 보다 강력하게 제어하기 위해 최대 5개의 미리 만든 기준 집합을 단일 경험에서 사용합니다. </p> <p>자세한 내용은 <a href="../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE" format="dita" scope="local"> 기준 시퀀스 만들기 </a>. </p> </td> 
+   <td colname="col2"> <p>방문자에게 제공되는 권장 사항을 보다 강력하게 제어하기 위해 최대 5개의 미리 만든 기준 집합을 단일 경험에서 사용합니다. </p> <p>자세한 내용은 <a href="/help/c-recommendations/c-algorithms/create-criteria-sequence.md"> Create Criteria Sequences </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 권장 사항: 외부 프로모션 삽입 </td> 
