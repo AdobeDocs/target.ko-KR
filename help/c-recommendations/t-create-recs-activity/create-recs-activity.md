@@ -5,10 +5,10 @@ title: 권장 사항 활동 만들기
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: d5a48db0c954871269714ef32d0545ed4898660f
+source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
 workflow-type: tm+mt
 source-wordcount: '1150'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -84,8 +84,8 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
       일부 기준은 [!DNL Recommendations]에서 제공됩니다. 사용자와 팀이 고유의 사용자 지정 기준을 만들 수도 있습니다.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 새 기준 만들기에 대한 내용은 [기준 만들기](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
-   * 기준을 시퀀스로 그룹화할 수도 있습니다. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 자세한 내용은 [기준 시퀀스 만들기](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE)를 참조하십시오.
+   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 새 기준 만들기에 대한 내용은 [기준 만들기](../../c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
+   * 기준을 시퀀스로 그룹화할 수도 있습니다. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 자세한 [내용은 기준](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) 시퀀스 만들기를 참조하십시오.
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. [디자인](/help/c-recommendations/c-design-overview/design-overview.md)을 선택합니다.
