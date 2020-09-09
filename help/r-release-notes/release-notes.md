@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 26%
+source-wordcount: '1095'
+ht-degree: 25%
 
 ---
 
@@ -36,6 +36,12 @@ ht-degree: 26%
 
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+## Target Standard/Premium 20.8.2(2020년 9월 10일)
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| 기준 시퀀스 내의 추천 슬롯 제어 | 이제 기준 시퀀스를 사용하면 각 권장 사항 기준에 의해 수행되는 슬롯 수를 제어할 수 있으므로 다른 유형의 항목이나 다른 알고리즘 논리를 혼합하고 일치시킬 수 있습니다.<br>자세한 내용은 [기준 시퀀스](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) 만들기를 참조하십시오. |
 
 ## Target Standard/Premium 20.8.1(2020년 9월 2일)
 
