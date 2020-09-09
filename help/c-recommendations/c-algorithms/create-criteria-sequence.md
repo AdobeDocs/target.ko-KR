@@ -5,10 +5,10 @@ title: 기준 시퀀스 만들기
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
+source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 57%
+source-wordcount: '1106'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ ht-degree: 57%
 
    수직 시장 및 페이지 유형을 함께 사용하여 저장된 기준 시퀀스를 분류할 수 있습니다. 이렇게 하면 다른 [!UICONTROL 권장 사항] 활동에 대한 시퀀스를 좀 더 쉽게 다시 사용할 수 있습니다.
 
-## 기준 시퀀스 만들기
+## 시퀀스 만들기 {#sequence}
 
 시퀀스 순서는 디자인이 채워지는 순서를 정의합니다. 기준 1에 디자인을 채울 권장 사항이 충분하지 않으면 나머지 슬롯은 기준 2로 채워집니다.
 
@@ -84,9 +84,25 @@ ht-degree: 57%
 
 1. On the [!UICONTROL Select Criteria] screen, select a criteria.
 
+   검색 상자 및 필터 드롭다운을 사용하여 원하는 기준을 찾을 수 있습니다.
+
    ![기준 선택](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
 1. **[!UICONTROL 추가를 클릭합니다]**.
+
+1. (선택 사항) &quot; **[!UICONTROL 켜짐&quot; 위치로 전환된]** 항목의 수를 제한하고 항목 수(1과 50 사이)를 지정합니다.
+
+   ![반환된 항목 수 제한](/help/c-recommendations/c-algorithms/assets/limit-number.png)
+
+   반환되는 항목 수 제한 [!UICONTROL 옵션의 값을] 이해하는 데 도움이 되도록 다음 사용 사례를 고려하십시오.
+
+   * **사용 사례 1**:단일 권장 사항 트레이에 여러 종류의 항목을 혼합하려는 경우 예를 들어, 겉옷(자켓)과 윗옷(셔츠, 티셔츠)을 혼합하여 표시하려고 합니다. 이를 위해서는 컬렉션의 디자인 슬롯에서 원하는 모든 잠재적 제품 유형을 포함하는 활동을 이용하십시오. 그런 다음 기준을 제한하는 정적 필터로 첫 번째 기준을 설정하고 기준을 가장 바깥옷만 포함하도록 제한하는 정적 필터로 두 번째 기준을 설정합니다. 마지막으로 기준 시퀀스에 두 기준을 추가하고 첫 번째 기준을 2개의 슬롯으로 제한합니다.
+
+      권장 사항 트레이는 사이트에서 다음과 같이 표시될 수 있습니다.
+
+      ![주요 제품 추천 트레이](/help/c-recommendations/c-algorithms/assets/featured-products.png)
+
+   * **사용 사례 2**:대체 항목과 보조 항목을 모두 혼합해야 합니다. 조회한/본 알고리즘을 사용하고 권장 항목을 현재 항목 카테고리로 제한하는 동적 필터를 사용하도록 한 기준을 설정합니다. 두 번째 기준을 설정하여 보고/구입한 알고리즘을 사용하고 현재 항목의 카테고리와 일치하지 않는 권장 항목만 포함하는 동적 필터를 사용하십시오. 마지막으로 두 기준을 모두 시퀀스에 추가하고 첫 번째 기준을 2개의 슬롯으로 제한합니다.
 
 1. 시퀀스에 기준을 계속 추가합니다. 시퀀스에 최대 5개의 기준을 추가할 수 있습니다.
 
@@ -115,8 +131,6 @@ ht-degree: 57%
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    기준 시퀀스가 기준 목록에 나타납니다.
-
-   ![](assets/CriteriaSequenceCard.png)
 
    권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
 
