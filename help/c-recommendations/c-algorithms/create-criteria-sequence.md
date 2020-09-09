@@ -5,7 +5,7 @@ title: 기준 시퀀스 만들기
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -132,7 +132,7 @@ ht-degree: 43%
 
    기준 시퀀스가 기준 목록에 나타납니다.
 
-   권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
+   권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.
 
 ## 교육 비디오: 추천에서 기준 만들기(12:33) ![자습서 배지](/help/assets/tutorial.png)
 
