@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2141'
 ht-degree: 30%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 9월 9일 | [활동 QA 북마클릿](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2에서 사용할 JavaScript 코드를 추가했습니다.*x*&#x200B;에는 사용할 수 없습니다. |
 | 9월 3일 | [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 쿠키 이름 및 도메인에 대한 정보가 포함된 &quot;VEC 도우미 브라우저 익스텐션 가져오기 및 설치&quot; 섹션을 업데이트했습니다. |
 |  | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | &quot;최근에 발표된 Google Chrome SameSite 쿠키 실행 정책이 VEC 및 EEC에 어떤 영향을 줍니까?&quot; 업데이트 섹션을 참조하십시오. |
 | 9월 2일 | [릴리스 노트](/help/r-release-notes/release-notes.md): 20.8.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
