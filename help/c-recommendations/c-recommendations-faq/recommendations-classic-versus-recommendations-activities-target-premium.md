@@ -5,7 +5,7 @@ title: 권장 사항 Classic과 Target Premium의 권장 사항 활동 비교
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,7 +52,7 @@ ht-degree: 100%
 
 기준은 업계 카테고리, 페이지 유형 및 구현 별로 사전 구성 및 정렬됩니다. 예를 들어, 제품 페이지에서 사용할 목적으로 소매 카테고리에 적용되는 기준을 찾아 특정 카테고리(`entity.categoryID` 매개 변수로 정의되는 카테고리) 내의 제품을 표시할 수 있습니다.
 
-기준 사용 및 작성에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
+기준 사용 및 작성에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.
 
 ## 워크플로우 {#section_76B4A26297BF422382DE2C79A2713D3C}
 
