@@ -5,10 +5,10 @@ title: 사용자 지정 기준 업로드
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -54,10 +54,10 @@ ht-degree: 98%
    키를 기반으로 기준을 지정하는 방법에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)를 참조하십시오.
 1. **[!UICONTROL 콘텐츠]** 규칙을 설정합니다.
 
-   콘텐츠 규칙은 권장 항목 수로 디자인을 채우지 못할 경우에 발생하는 결과를 결정합니다. 예를 들어, 디자인에 5개 항목에 대한 공간이 있지만 기준을 따를 경우 3개의 항목만 권장되는 경우 나머지 공간을 비워 두거나 백업 권장 사항을 사용하여 추가 공간을 채울 수 있습니다. 적절한 전환 옵션을 선택합니다. 자세한 내용은 [컨텐츠 설정](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)을 참조하십시오.
+   콘텐츠 규칙은 권장 항목 수로 디자인을 채우지 못할 경우에 발생하는 결과를 결정합니다. 예를 들어, 디자인에 5개 항목에 대한 공간이 있지만 기준을 따를 경우 3개의 항목만 권장되는 경우 나머지 공간을 비워 두거나 백업 권장 사항을 사용하여 추가 공간을 채울 수 있습니다. 적절한 전환 옵션을 선택합니다. 자세한 내용은 [콘텐츠 설정을 지정합니다](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 1. **[!UICONTROL 포함 규칙]**&#x200B;을 설정합니다.
 
-   포함 규칙을 사용하여 권장 사항에 표시할 항목 범위를 좁힐 수 있습니다. [포함 규칙](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)을 참조하십시오. 1. **[!UICONTROL CSV 파일의 위치]**&#x200B;를 선택합니다.
+   포함 규칙을 사용하여 권장 사항에 표시할 항목 범위를 좁힐 수 있습니다. See [Specify inclusion rules](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). 1. **[!UICONTROL CSV 파일의 위치]**&#x200B;를 선택합니다.
 
    CSV 파일을 성공적으로 업로드하려면 형식이 올바르게 지정되어야 합니다. **[!UICONTROL CSV 템플릿 다운로드]**&#x200B;를 클릭하여 올바른 형식의 CSV 파일을 가져옵니다.
 
