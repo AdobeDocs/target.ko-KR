@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4efaf7ce039aabb26fc130e541fb6057115a3c7e
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '852'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**최근 업데이트: 2020년 8월 31일**
+**최근 업데이트: 2020년 9월 9일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -38,6 +38,12 @@ ht-degree: 11%
    >
 * **Target 공지**:Target Spuit Builder 세션, 개발자 채팅, 웨비나 및 Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
 
+
+## Target Standard/Premium 20.8.2(2020년 9월 10일)
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| 기준 시퀀스 내의 추천 슬롯 제어 | 이제 기준 시퀀스를 사용하면 각 권장 사항 기준에 의해 수행되는 슬롯 수를 제어할 수 있으므로 다른 유형의 항목이나 다른 알고리즘 논리를 혼합하고 일치시킬 수 있습니다.<br>자세한 내용은 [기준 시퀀스](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) 만들기를 참조하십시오. |
 
 ## Target Standard/Premium 20.8.1(2020년 9월 2일)
 
