@@ -5,7 +5,7 @@ title: Adobe Target Recommendations
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -44,7 +44,7 @@ ht-degree: 59%
 | 시청 중인 내용과 유사한 미디어 콘텐츠를 추천하여 방문자가 여러분의 미디어 사이트에서 보내는 시간을 늘립니다. | &quot;이 항목을 보고 다른 항목도 본 사람&quot; 기준을 사용하여 다른 비디오를 제안하는 권장 사항을 생성합니다. |
 | 또한 은행의 저축 제도에 대한 정보를 본 고객이 IRA 계좌에 대해서도 읽도록 제안합니다. | &quot;이 항목을 보고 다른 항목도 구입한 사람&quot; 기준을 사용하여, 권장 사항에 있는 첫 번째 제품을 표시하지 않고 고객이 한 제품을 본 후에 구입한 다른 제품을 표시합니다. |
 
-이러한 기준 및 기타 [!DNL Recommendations] 기준에 대한 자세한 내용은 [기준](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750)을 참조하십시오.
+이러한 기준 및 기타 [!DNL Recommendations] 기준에 대한 자세한 내용은 [기준](../c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.
 
 ## 용어
 
