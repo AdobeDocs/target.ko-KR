@@ -5,7 +5,7 @@ title: 백업 권장 사항 사용
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 100%
@@ -46,4 +46,4 @@ ht-degree: 100%
 
 일반적으로 백업 권장 사항의 사용은 초기 설정 중 구현 팀과 논의하는 과정의 일부입니다. 구현 후 백업 권장 사항 설정을 변경하려면 계정 관리자에게 문의하십시오.
 
-부분 디자인 렌더링 사용( [컨텐츠 설정](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96) 참조)이 사용되도록 설정되어 있지 않고 템플릿이 표시되지 않으면 대신 백업 권장 사항이나 기본 컨텐츠가 표시됩니다.
+부분 디자인 렌더링 사용( [컨텐츠 설정](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) 참조)이 사용되도록 설정되어 있지 않고 템플릿이 표시되지 않으면 대신 백업 권장 사항이나 기본 컨텐츠가 표시됩니다.
