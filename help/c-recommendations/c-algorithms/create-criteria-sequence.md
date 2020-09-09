@@ -5,7 +5,7 @@ title: 기준 시퀀스 만들기
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -118,7 +118,7 @@ ht-degree: 43%
 
    가능한 한 많은 슬롯이 채워지지만 디자인 템플릿에는 나머지 슬롯의 빈 공간이 포함될 수 있습니다.
 
-1. (선택 사항) **[!UICONTROL 백업 Recommendations]** 토글을 &quot;설정&quot; 위치로 슬라이스합니다.
+1. (선택 사항) **[!UICONTROL 백업 Recommendations]** 전환을 &quot;켜기&quot; 위치로 밀십시오.
 
    사이트에서 가장 많이 본 제품을 임의 선택하여 디자인에 남아 있는 빈 슬롯을 채웁니다.
 
