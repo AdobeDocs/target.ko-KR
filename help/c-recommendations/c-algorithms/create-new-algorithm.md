@@ -4,39 +4,45 @@ title: 기준 만들기
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '3615'
-ht-degree: 98%
+source-wordcount: '3759'
+ht-degree: 91%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 기준 만들기{#create-criteria}
 
-기준은 Recommendations 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
+기준은 [!UICONTROL 권장 사항] 활동의 컨텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
 
-## 기준 만들기{#task_8A9CB465F28D44899F69F38AD27352FE}를 참조하십시오 
+## 새 기준 만들기
 
-기준은 [!DNL Recommendations] 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
+다음 섹션에서는 새 기준을 만드는 방법을 설명합니다.
+
+### 새 기준 만들기 화면에 액세스
 
 [!UICONTROL 새 기준 만들기] 화면에 도달하는 여러 방법이 있습니다. 일부 화면 옵션은 화면에 도달하는 방법에 따라 달라집니다.
 
-* [!DNL Recommendations] 활동을 만드는 경우 **[!UICONTROL 기준 선택]** 화면에서 [!UICONTROL 새로 만들기]를 클릭합니다. 다른 [!DNL Recommendations] 활동과 함께 사용할 새 기준을 저장하는 선택 사항이 있습니다.
-* [!DNL Recommendations] 활동을 편집하는 경우 페이지에서 [!UICONTROL 권장 사항 위치] 상자를 클릭하고 **[!UICONTROL 기준 변경]**&#x200B;을 선택합니다. [!UICONTROL 선택 기준] 화면에서 **[!UICONTROL 새로 만들기를 클릭합니다]**. 다른 [!DNL Recommendations] 활동과 함께 사용할 새 기준을 저장하는 선택 사항이 있습니다.
-* **[!UICONTROL 권장 사항]** > **[!UICONTROL 기준]** 라이브러리 화면에서 **[!UICONTROL 기준 만들기]**&#x200B;를 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!DNL Recommendations] 활동에 사용 가능해집니다.
+* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. 여기서 만드는 기준은 자동으로 모든 [!DNL Recommendations] 활동에 사용 가능해집니다.
+* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. 다른 [!DNL Recommendations] 활동과 함께 사용할 새 기준을 저장하는 선택 사항이 있습니다.
+* [!DNL Recommendations] 활동을 편집하는 경우 페이지에서 [!UICONTROL 권장 사항 위치] 상자를 클릭하고 **[!UICONTROL 기준 변경]**&#x200B;을 선택합니다. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. 다른 [!DNL Recommendations] 활동과 함께 사용할 새 기준을 저장하는 선택 사항이 있습니다.
 
-1. **[!UICONTROL 기준 만들기]** 또는 **[!UICONTROL 새로 만들기]**&#x200B;를 클릭합니다.
+다음 단계에서는 첫 번째 방법을 사용하여 새 기준 [!UICONTROL 만들기] 화면에 액세스한다고 가정합니다.[ **[!UICONTROL Recommendations]** ] > [ **[!UICONTROL 기준]** 라이브러리] 화면
 
-   ![기준 만들기 단추](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. Recommendations **[!UICONTROL >]** 기준을 클릭합니다 ****.
 
-1. **[!UICONTROL 기준 만들기]**&#x200B;를 선택합니다.
+1. 기준 **[!UICONTROL 만들기]** > 기준 **[!UICONTROL 만들기를 클릭합니다]**.
 
    ![새 기준 만들기](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+
+### 기본 정보 섹션 채우기
 
 1. **[!UICONTROL 기준 이름]**&#x200B;을 입력합니다.
 
    기준을 설명하는 데 사용되는 &quot;내부&quot; 이름입니다. 예를 들어, &quot;최고 마진 제품&quot; 기준을 호출하려고 하지만 제목이 공개적으로 표시되는 것을 원하지 않을 수 있습니다. 공개 제목을 설정하려면 다음 단계를 참조하십시오.
+
+   ![기본 정보 섹션](/help/c-recommendations/c-algorithms/assets/basic-information.png)
 
 1. 이 기준을 사용하는 모든 권장 사항에 대한 페이지에 표시할 공개 **[!UICONTROL 표시 제목]**&#x200B;을 입력합니다.
 
@@ -44,7 +50,7 @@ ht-degree: 98%
 
 1. 기준에 대한 간단한 **[!UICONTROL 설명]**&#x200B;을 입력합니다.
 
-   설명은 기준을 식별하는 데 도움이 되어야 하며 기준의 용도에 대한 정보를 포함할 수 있습니다.
+   설명은 기준을 식별하는 데 도움이 되며 기준의 용도에 대한 정보를 포함할 수 있습니다.
 
 1. **[!UICONTROL 업계 카테고리]**&#x200B;를 선택합니다.
 
@@ -72,7 +78,11 @@ ht-degree: 98%
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
+### 데이터 소스 옵션 지정
+
 1. 표시할 권장 사항을 결정할 때 사용할 사용 가능한 내역 사용자 동작 데이터의 시간 범위를 결정하려면 **[!UICONTROL 데이터 범위]**&#x200B;를 설정합니다.
+
+   ![데이터 범위 슬라이더](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    사이트에 많은 트래픽이 발생하고 동작이 자주 변경되는 경우 더 짧은 데이터 기간을 선택하십시오. 더 짧은 기간을 사용하면 [!DNL Recommendations]가 시장 및 비즈니스의 변화에 보다 신속하게 대응할 수 있습니다. 예를 들어, 기간이 더 짧다는 것은 방문자가 신학기 쇼핑 또는 크리스마스와 같은 시즌 쇼핑을 시작할 때 [!DNL Recommendations]에서 방문자 동작의 변화를 감지하고 해당 쇼핑 시즌에 적합한 항목을 추천할 수 있다는 것을 의미합니다.
 
@@ -86,45 +96,63 @@ ht-degree: 98%
    * 1개월
    * 2개월
 
-1. Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+
+   ![행동 데이터 소스 섹션](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    [!UICONTROL Analytics]를 선택한 경우 원하는 보고서 세트를 선택합니다.
 
-   자세한 내용은 Target Recommendations과 [함께 Adobe Analytics 사용을 참조하십시오](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   자세한 내용은 아래 [Adobe Analytics](#analytics) 및 Target Recommendations과 [함께 Adobe Analytics 사용을 참조하십시오](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-1. **[!UICONTROL 콘텐츠]** 규칙을 설정합니다.
+### 콘텐츠 설정 지정
 
-   콘텐츠 규칙은 권장 항목 수로 디자인을 채우지 못할 경우에 발생하는 결과를 결정합니다. 예를 들어, 디자인에 5개 항목에 대한 공간이 있지만 기준을 따를 경우 3개의 항목만 권장되는 경우 나머지 공간을 비워 두거나 백업 권장 사항을 사용하여 추가 공간을 채울 수 있습니다.
+[!UICONTROL 콘텐츠] 규칙을 설정합니다.
 
-   적절한 전환 옵션을 선택합니다.
+콘텐츠 규칙은 권장 항목 수로 디자인을 채우지 못할 경우에 발생하는 결과를 결정합니다. 예를 들어, 디자인에 5개 항목에 대한 공간이 있지만 기준을 따를 경우 3개의 항목만 권장되는 경우 나머지 공간을 비워 두거나 백업 권장 사항을 사용하여 추가 공간을 채울 수 있습니다.
 
-   * [!UICONTROL 부분 디자인 렌더링 활성화]
-   * [!UICONTROL 백업 권장 사항 표시]
-   * [!UICONTROL 이전에 구입한 항목 권장]
+![컨텐츠 섹션](/help/c-recommendations/c-algorithms/assets/content.png)
 
-   이 설정은 `productPurchasedId`를 기준으로 합니다. 카약처럼 일반적으로 한 번만 구매하는 항목을 판매하는 경우에 유용합니다. 샴푸나 기타 개인용 항목과 같이 사람들이 다시 구매하러 오는 항목을 판매하는 경우, 이 옵션을 비활성화해야 합니다.
+1. (선택 사항) **[!UICONTROL 부분 디자인 렌더링]** 전환 효과를 &quot;설정&quot; 위치로 밀면
 
-1. **[!UICONTROL 포함 규칙]**&#x200B;을 설정합니다.
+   가능한 한 많은 슬롯이 채워지지만 디자인 템플릿에는 나머지 슬롯의 빈 공간이 포함될 수 있습니다.
+
+1. (선택 사항) [백업 **[!UICONTROL 표시] Recommendations]** 전환을 &quot;켜기&quot; 위치로 밀십시오.
+
+   사이트에서 가장 많이 본 제품을 임의 선택하여 디자인에 남아 있는 빈 슬롯을 채웁니다.
+
+   자세한 내용은 백업 권장 [사항 사용을 참조하십시오](/help/c-recommendations/c-algorithms/backup-recs.md).
+
+1. (조건부) 이전 단계에서 **[!UICONTROL 백업 Recommendations]** 표시를 선택한 경우 백업 권장 사항에 **[!UICONTROL 포함 규칙 적용을 활성화할 수 있습니다]**.
 
    포함 규칙은 권장 사항에 포함할 항목을 결정합니다. 사용 가능한 옵션은 수직 시장에 따라 다릅니다.
 
    자세한 내용은 [포함 규칙](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079)을 참조하십시오.
 
-1. **[!UICONTROL 속성 가중치]**&#x200B;를 구성합니다.
+1. (선택 사항) 이전에 구입한 항목 **[!UICONTROL 권장]** 사항을 &quot;설정&quot; 위치로 끕니다.
 
-   여러 규칙을 추가하여 콘텐츠 카탈로그에 대한 중요한 설명 또는 메타데이터를 기준으로 알고리즘을 &quot;살짝 변경&quot;할 수 있습니다. 예를 들어, 권장 사항에 더 자주 표시되도록 세일 중인 항목에 더 높은 가중치를 적용할 수 있습니다.
+   이 설정은 `productPurchasedId`를 기준으로 합니다. 카약처럼 일반적으로 한 번만 구매하는 항목을 판매하는 경우에 유용합니다. 샴푸나 기타 개인용 항목과 같이 사람들이 다시 구매하러 오는 항목을 판매하는 경우, 이 옵션을 비활성화해야 합니다.
 
-   [속성 가중치](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)를 참조하십시오.
+### 포함 규칙 지정
 
-1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+![포함 규칙](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
-   새 [!UICONTROL 권장 사항] 활동을 만들거나 기존 항목을 편집하는 경우 기본적으로 **[!UICONTROL 나중에 사용하기 위해 기준 저장]** 확인란이 선택됩니다. 다른 활동에서 해당 기준을 사용하지 않으려면 저장하기 전에 이 확인란을 선택 취소합니다.
+For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Adobe Analytics
+### 속성 가중치 지정
+
+여러 규칙을 추가하여 콘텐츠 카탈로그에 대한 중요한 설명 또는 메타데이터를 기준으로 알고리즘을 &quot;살짝 변경&quot;할 수 있습니다. 예를 들어, 권장 사항에 더 자주 표시되도록 세일 중인 항목에 더 높은 가중치를 적용할 수 있습니다.
+
+[속성 가중치](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42)를 참조하십시오.
+
+완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+새 [!UICONTROL 권장 사항] 활동을 만들거나 기존 항목을 편집하는 경우 기본적으로 **[!UICONTROL 나중에 사용하기 위해 기준 저장]** 확인란이 선택됩니다. 다른 활동에서 해당 기준을 사용하지 않으려면 저장하기 전에 이 확인란을 선택 취소합니다.
+
+### Adobe Analytics {#analytics}
 
 기준이 [!DNL Adobe Analytics]을 동작 데이터 소스로 사용하는 경우 기준 가용성의 시간은 선택한 보고서 세트 및 전환 창이 다른 모든 기준에 사용되었는지 여부에 따라 달라집니다.
 
-* **1회성 보고서 세트 설정**: 보고서 세트가 지정된 데이터 범위 전환 확인 기간과 함께 처음 사용되는 경우, [!DNL Target Recommendations]은 2~7일 동안 [!DNL Analytics]에서 선택한 보고서 세트에 대한 동작 데이터를 완전히 다운로드할 수 있습니다. 이 기간은 [!DNL Analytics] 시스템 로드에 따라 다릅니다.
+* **1회성 보고서 세트 설정**: 보고서 세트가 지정된 데이터 범위 전환 확인 기간과 함께 처음 사용되는 경우, [!DNL Target Recommendations]은 2~7일 동안 [!DNL Analytics]에서 선택한 보고서 세트에 대한 동작 데이터를 완전히 다운로드할 수 있습니다. This time frame is dependent on the [!DNL Analytics] system load.
 * **이미 사용 가능한 보고서 세트를 사용하는 새 기준 또는 편집된 기준**: 새 기준을 만들거나 기존 기준을 편집할 때 선택한 보고서 세트를 선택한 데이터 범위와 같거나 그보다 적은 데이터 범위를 갖는 [!DNL Target Recommendations]에서 이미 사용한 경우 데이터를 즉시 사용할 수 있으며 일회성 설정이 필요하지 않습니다. 이러한 경우, 또는 선택한 보고서 세트나 데이터 범위를 수정하지 않고 알고리즘 설정이 편집된 경우 알고리즘이 12시간 이내에 실행되거나 재실행됩니다.
 * **지속적인 알고리즘 실행**: 데이터는 매일 [!DNL Analytics]에서 [!DNL Target Recommendations]으로 이동합니다. 예를 들어 [!UICONTROL 관심도 보기] 추천의 경우, 사용자가 제품을 볼 때 제품-보기 추적 호출이 실시간에 가깝게 [!DNL Analytics]에 전달됩니다. [!DNL Analytics] 데이터가 다음 날 일찍 [!DNL Target]에 푸시되고 [!DNL Target]이 12시간 이내에 알고리즘을 실행합니다.
 
