@@ -5,15 +5,15 @@ title: Adobe Target Recommendations의 기준
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 74%
+source-wordcount: '1636'
+ht-degree: 73%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 기준{#criteria}
+# ![PREMIUM](/help/assets/premium.png) 기준
 
 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.
 
@@ -87,7 +87,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 | 최상위 판매자 | 가장 많이 완료된 주문에 포함된 항목. 단일 주문에서 여러 개의 동일한 항목은 하나의 주문으로 계산됩니다. |
 | 가장 많이 본 항목 | 가장 자주 표시되는 항목 또는 미디어. |
 | 최근에 본 항목/미디어 | 방문자가 최근에 본 항목입니다. 이 기준을 사용하는 경우 Target 디자인을 업데이트하여 표시하는 데 필요한 이전에 본 항목이 충분하지 않다면 빈 권장 사항이 표시되는 경우를 처리해야 합니다. |
-| 사용자 기반 Recommendations | 각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목을 일반적으로 &quot;권장 사항&quot;이라고 합니다.<br>이 기준을 통해 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 권장 사항 목록은 방문자의 최근 활동에 가중치가 적용되며 세션 중에 업데이트되고 사용자가 사이트를 검색할 때 더욱 개인화됩니다.<br>뷰와 구매 모두 권장 항목을 결정하는 데 사용됩니다. 지정한 권장 사항 키(예: 현재 항목)는 선택한 포함 규칙 필터를 적용하는 데 사용됩니다. 예를 들어 다음 작업을 수행할 수 있습니다.<ul><li>특정 기준에 맞지 않는 항목(재고가 없는 제품, 30일 전에 게시된 문서, R 등급 영화 등)을 제외합니다.</li><li>포함된 항목을 단일 카테고리 또는 현재 카테고리로 제한</li></ul> |
+| 사용자 기반 Recommendations | 각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목을 일반적으로 &quot;권장 사항&quot;이라고 합니다.<br>이 기준을 통해 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 권장 사항 목록은 방문자의 최근 활동에 가중치가 적용되며, 세션 중에 업데이트되고 사용자가 사이트를 검색할 때 더욱 개인화됩니다.<br>뷰와 구매 모두 권장 항목을 결정하는 데 사용됩니다. 지정한 권장 사항 키(예: 현재 항목)는 선택한 포함 규칙 필터를 적용하는 데 사용됩니다. 예를 들어 다음 작업을 수행할 수 있습니다.<ul><li>특정 기준에 맞지 않는 항목(재고가 없는 제품, 30일 전에 게시된 문서, R 등급 영화 등)을 제외합니다.</li><li>포함된 항목을 단일 카테고리 또는 현재 카테고리로 제한</li></ul> |
 
 >[!NOTE]
 >
@@ -107,10 +107,10 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 ![알고리즘 정보 탭](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-**[!UICONTROL 알고리즘 사용]** 탭을 클릭하여 선택한 기준을 참조하는 활동 목록을 표시합니다. 카드에 활성 및 비활성 활동이 나열됩니다. 라이브 활동 또는 활동 없음 드롭다운 목록을 클릭하여 해당 기준을 참조하는 전체 활동 목록을 표시합니다. 활동 링크를 클릭하여 편집할 활동을 열 수 있습니다.
+**[!UICONTROL 알고리즘 사용]** 탭을 클릭하여 선택한 기준을 참조하는 활동 목록을 표시합니다. 이 카드에는 활성, 비활성 및 초안 활동이 나열됩니다. 라이브 활동/비활성 활동/초안 활동 드롭다운 목록을 클릭하여 해당 기준을 참조하는 전체 활동 목록을 봅니다. 활동 링크를 클릭하여 편집할 활동을 열 수 있습니다.
 
 ![알고리즘 사용 탭](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->현재 [!UICONTROL 알고리즘 사용] 기능은 Recommendations 활동에서만 지원됩니다. 이 기능은 현재 오퍼로 [권장 사항을 포함하는 XT(A/B 테스트 및 경험 타깃팅) 활동에 대해 지원되지 않습니다](/help/c-recommendations/recommendations-as-an-offer.md).
+>현재 [!UICONTROL 알고리즘 사용] 기능은 Recommendations 활동에서만 지원됩니다. 이 기능은 현재 오퍼로 [권장 사항을 포함하는 A/B 테스트, 자동 할당, 자동 Target 및 경험 타깃팅(XT) 활동에 대해 지원되지 않습니다](/help/c-recommendations/recommendations-as-an-offer.md).
