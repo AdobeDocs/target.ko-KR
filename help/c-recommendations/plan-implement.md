@@ -5,7 +5,7 @@ title: 권장 사항 계획 및 구현
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -26,7 +26,7 @@ ht-degree: 96%
 | 단계 | 정보 | 세부 사항 |
 |--- |--- |--- |
 | ![1단계](/help/c-recommendations/assets/step1_red.png) | JavaScript 라이브러리 | 각 페이지는 at.js 버전 0.9.1(또는 이상) 또는 mbox.js 버전 55(또는 이상)을 참조해야 합니다. 이 구현 단계는 Target 활동이 사용될 모든 페이지에서 필요하며, 제품 또는 카테고리 ID와 같은 키를 포함할 수 있습니다.<BR>at.js에 대해서는 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오.<br>mbox.js에 대한 자세한 내용은 [mbox.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)을 참조하십시오. |
-| ![2단계](/help/c-recommendations/assets/step2_red.png) | 키 | 키는 권장 사항에 표시되는 제품 또는 콘텐츠의 유형을 결정합니다. 예를 들어, 제품 카테고리가 키일 수 있습니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)를 참조하십시오. |
+| ![2단계](/help/c-recommendations/assets/step2_red.png) | 키 | 키는 권장 사항에 표시되는 제품 또는 콘텐츠의 유형을 결정합니다. 예를 들어, 제품 카테고리가 키일 수 있습니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)를 참조하십시오. |
 | ![3단계](/help/c-recommendations/assets/step3_red.png) | 속성 | 속성은 표시할 제품에 대한 보다 구체적인 정보를 제공합니다. 예를 들어, 특정 가격 범위 내 제품을 표시하거나 재고 임계값을 충족하는 항목을 표시할 수 있습니다. 속성은 mbox에서 또는 [피드](/help/c-recommendations/c-products/feeds.md).<br>[포함 규칙[지정](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)]을 참조하십시오. |
 | ![4단계](/help/c-recommendations/assets/step4_red.png) | 제외 | 제외는 권장 사항에 표시되지 않는 특정 항목을 결정합니다.<br>[제외](/help/c-recommendations/c-products/exclusions.md)를 참조하십시오. |
 | ![5단계](/help/c-recommendations/assets/step5_red.png) | 구매 세부 사항 | 구매 세부 사항에서는 구매한 항목과 구매가 완료된 주문에 대한 정보를 제공합니다. |
@@ -151,7 +151,7 @@ function targetPageParams() {
 
 ## 카테고리 페이지 {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
-카테고리 페이지에서는 해당 카테고리 내의 제품 또는 콘텐츠로 권장 사항을 제한할 수 있습니다. 카테고리 페이지를 설정하려면 페이지에서 사용되는 키를 설정합니다. 키에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B)를 참조하십시오.
+카테고리 페이지에서는 해당 카테고리 내의 제품 또는 콘텐츠로 권장 사항을 제한할 수 있습니다. 카테고리 페이지를 설정하려면 페이지에서 사용되는 키를 설정합니다. 키에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)를 참조하십시오.
 
 ```
 function targetPageParams() { 
