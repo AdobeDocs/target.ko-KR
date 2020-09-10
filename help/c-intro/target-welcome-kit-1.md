@@ -4,7 +4,7 @@ description: Adobe Target 환영 키트 - 1장 - 소개
 title: Adobe Target 환영 키트 - 1장 - 소개
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -29,3 +29,4 @@ ht-degree: 0%
 이제 올바른 방식으로 사용할 수 있도록 하겠습니다.
 
 이를 지원하기 위해 Adobe는 첫 번째 활동을 준비하고 시작하는 데 도움이 되는 주요 정보, 툴 및 리소스를 제공하는 이 환영 키트를 [!DNL Target] 만들었습니다. 이러한 컨텐츠는 성공적인 최적화 및 개인화 프로그램을 구축하기 위한 기반을 제공합니다.
+
