@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1097'
 ht-degree: 25%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 25%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| 기준 시퀀스 내의 추천 슬롯 제어 | 이제 기준 시퀀스를 사용하면 각 권장 사항 기준에 의해 수행되는 슬롯 수를 제어할 수 있으므로 다른 유형의 항목이나 다른 알고리즘 논리를 혼합하고 일치시킬 수 있습니다.<br>자세한 내용은 [기준 시퀀스](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) 만들기를 참조하십시오. |
+| ![프리미엄 배지](/help/assets/premium.png) 기준 시퀀스 내의 추천 슬롯 제어 | 이제 기준 시퀀스를 사용하면 각 권장 사항 기준에 의해 수행되는 슬롯 수를 제어할 수 있으므로 다른 유형의 항목이나 다른 알고리즘 논리를 혼합하고 일치시킬 수 있습니다.<br>자세한 내용은 [기준 시퀀스](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) 만들기를 참조하십시오. |
 
 ## Target Standard/Premium 20.8.1(2020년 9월 2일)
 
