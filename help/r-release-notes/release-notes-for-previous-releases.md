@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '29291'
+source-wordcount: '29263'
 ht-degree: 88%
 
 ---
@@ -834,7 +834,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>권장 사항 </p> </td> 
-   <td colname="col2"> <p>이제 최근에 본 항목 기준이 주어진 <a href="../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">환경</a>에 따른 결과를 반환합니다 . 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 각 사이트에는 해당 사이트에서 최근에 본 항목만 표시됩니다. 방문자가 동일한 환경에 속한 두 사이트 간에 전환하는 경우 방문자에게 두 사이트에서 최근에 본 동일한 항목이 표시됩니다. </p> <p>자세한 내용은 <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B" format="dita" scope="local">권장 사항 키를 기반으로 권장 사항 만들기</a>를 참조하십시오. (RECS-5865) </p> </td> 
+   <td colname="col2"> <p>이제 최근에 본 항목 기준이 주어진 <a href="../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">환경</a>에 따른 결과를 반환합니다 . 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 각 사이트에는 해당 사이트에서 최근에 본 항목만 표시됩니다. 방문자가 동일한 환경에 속한 두 사이트 간에 전환하는 경우 방문자에게 두 사이트에서 최근에 본 동일한 항목이 표시됩니다. </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1035,7 +1035,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
      <ul id="ul_7A6F2398ADE846EF8A7A3110C2736BF7"> 
       <li id="li_66BFF016564749B298B88F6B9638B64E"> <p>가장 많이 본 항목 </p> </li> 
       <li id="li_937FE5C40ED8471391B282D1ACE8C133"> <p>최상위 판매자 </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B" format="dita" scope="local">권장 사항 키를 기반으로 권장 사항 만들기</a>에서 "사용자 지정 속성"을 참조하십시오. </p> </td> 
+     </ul> </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>대상자 </p> </td> 
