@@ -5,10 +5,10 @@ title: 사용자 지정 기준 업로드
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 66b3c42181daf582c9b3bee1f83a2229b823c5c3
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 66%
+source-wordcount: '1893'
+ht-degree: 65%
 
 ---
 
@@ -49,11 +49,13 @@ ht-degree: 66%
 
    설명은 기준을 식별하는 데 도움이 되며 기준의 용도에 대한 정보를 포함할 수 있습니다.
 
-1. **[!UICONTROL 업계 카테고리]**&#x200B;를 선택합니다.
+1. 추천 활동의 목표를 기반으로 산업 수직을 선택합니다.
 
-   * [!UICONTROL 소매/Ecommerce]
-   * [!UICONTROL 리드 생성/B2B/금융 서비스]
-   * [!UICONTROL 미디어/게시]
+   | 업계 카테고리 | 목표 |
+   |--- |--- |
+   | 소매/Ecommerce | 구매를 발생시키는 전환 |
+   | 리드 생성/B2B/금융 서비스 | 구매가 없는 전환 |
+   | 미디어/게시 | 참여 |
 
    기타 기준 옵션은 선택한 수직 시장에 따라 달라집니다.
 
