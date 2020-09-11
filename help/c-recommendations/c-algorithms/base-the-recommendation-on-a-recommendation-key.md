@@ -3,9 +3,9 @@ keywords: recommendation key;recommendation logic;current category;custom attrib
 description: 키를 기반으로 하는 Recommendations은 방문자 행동 컨텍스트를 사용하여 Adobe Target Recommendations 활동의 관련 결과를 보여줍니다.
 title: 권장 사항 키 를 기반으로 권장 사항 만들기
 feature: criteria
-mini-toc-levels: 3
+mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: 21c8e39669925e8fd26d7f64ea7dfe95f28795bf
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 70%
