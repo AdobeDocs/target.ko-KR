@@ -4,7 +4,7 @@ description: 특수 다중 값 연산자를 사용하는 Adobe Target Recommenda
 title: Adobe Target Recommendations에서 다중 값 속성을 사용한 작업
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 0%
@@ -72,7 +72,6 @@ function targetPageParams() {
 >[!NOTE]
 >
 >다중 값 속성에 대한 동적 일치 지원은 현재 하나의 값을 왼쪽 다중 값 오른쪽과 비교할 때 프로필 속성 일치 또는 매개 변수(mbox) 속성 일치 규칙을 사용하는 기준에서만 사용할 수 있습니다. 다중 값 속성은 현재 프로모션, 엔티티 속성 일치 또는 포함 규칙 왼쪽의 목록에 대해 지원되지 않습니다.
-
 
 ### 예:최근에 본 항목 제외
 
