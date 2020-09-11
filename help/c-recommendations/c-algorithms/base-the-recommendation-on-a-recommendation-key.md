@@ -5,10 +5,10 @@ title: 권장 사항 키 를 기반으로 권장 사항 만들기
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 70%
+source-wordcount: '2889'
+ht-degree: 69%
 
 ---
 
@@ -231,7 +231,20 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 방문자의 기록(여러 세션)을 사용하여 디자인의 슬롯 수에 따라 방문자가 마지막으로 본 *x*&#x200B;개 항목을 표시합니다.
 
-이제 최근에 본 항목 기준이 주어진 [환경](/help/administrating-target/hosts.md)에 따른 결과를 반환합니다. 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 각 사이트에는 해당 사이트에서 최근에 본 항목만 표시됩니다. 방문자가 동일한 환경에 속한 두 사이트 간에 전환하는 경우 방문자에게 두 사이트에서 최근에 본 동일한 항목이 표시됩니다.
+The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 각 사이트에는 해당 사이트에서 최근에 본 항목만 표시됩니다. 방문자가 동일한 환경에 속한 두 사이트 간에 전환하는 경우 방문자에게 두 사이트에서 최근에 본 동일한 항목이 표시됩니다.
+
+>[!NOTE]
+>
+>You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+
+최근에 본 항목/미디어는 특정 속성이 있는 항목만 표시되도록 필터링 할 수 있습니다.
+
+* 최근에 본 항목 기준은 권장 사항에 있는 다른 기준처럼 구성이 가능합니다.
+* 다른 기준과 동일한 방법으로 [컬렉션](/help/c-recommendations/c-products/collections.md), [제외](/help/c-recommendations/c-products/exclusions.md) 및 [포함](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)(가격 및 재고에 대한 특별한 규칙 포함)을 사용할 수 있습니다.
+
+가능한 사용 사례는 다음과 같습니다.
+
+여러 가지 비즈니스를 하는 다국적 기업에는 여러 디지털 속성을 갖는 방문자 보기 항목이 있을 수 있습니다. 이 경우 항목을 본 각각의 속성에 대해서만 표시하도록 최근에 본 항목을 제한할 수 있습니다. 이렇게 하면 최근에 본 항목이 다른 디지털 속성의 사이트에 표시되지 않습니다.
 
 #### 사이트에서 사용할 위치
 
@@ -239,7 +252,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 >[!NOTE]
 >
->최근에 본 항목은 활동에 대한 제외 전역 설정과 선택한 컬렉션 설정을 모두 준수합니다. 항목이 전역 제외에 의해 제외되거나 선택한 컬렉션에 포함되지 않은 경우 표시되지 않습니다. 따라서 최근에 본 항목 기준을 사용할 때는 일반적으로 &quot;모든 컬렉션&quot; 설정을 사용해야 합니다.
+>[!UICONTROL 최근에 본 항목은] 활동에 대해 선택한 컬렉션 설정과 글로벌 설정을 모두 따릅니다. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
 
 ## 추천 논리
 
