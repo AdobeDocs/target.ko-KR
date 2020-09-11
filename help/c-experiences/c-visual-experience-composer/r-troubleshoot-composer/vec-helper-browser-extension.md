@@ -5,10 +5,10 @@ title: Adobe Target VEC(시각적 경험 작성기) Helper 확장 프로그램
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
 workflow-type: tm+mt
-source-wordcount: '847'
-ht-degree: 58%
+source-wordcount: '880'
+ht-degree: 56%
 
 ---
 
@@ -35,6 +35,9 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
 * X-Frame-Options 및 Content-Security-Policy와 같은 모든 iframe 버스팅 헤더가 웹 사이트에서 암묵적으로 제거됩니다. 이를 수행하기 위해 더 이상 복잡한 Requestly 규칙을 만들 필요가 없습니다.
 * 웹 페이지에 아직 [!DNL Target] at.js JavaScript 라이브러리가 포함되어 있지 않은 경우 확장 프로그램을 사용하여 라이브러리를 주입할 수 있으므로 웹 사이트에 대한 경험을 작성할 수 있습니다. 그런 다음 활동을 만들고 미리 보기 링크를 사용하여 QA를 수행할 수 있습니다.
+
+   EEC(Enhanced Experience Composer)를 사용하는 동안 익스텐션은 at.js에서 주입되지 않지만 SameSite 쿠키 기능은 여전히 있습니다. 웹 페이지에서 at.js를 삽입하려면 EEC를 끕니다.
+
 * [모바일 뷰포트는](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) EEC( [!UICONTROL Enhanced Experience Composer] )가 없어도 지원됩니다.
 * [!DNL Target]을 처음 사용하는 고객은 IT 개발자가 아직 웹 사이트에서 [!DNL Target]을 구현하지 않았더라도 확장 프로그램을 사용하여 [!DNL Target]을 실험해 볼 수 있습니다.
 * 이제 여러 고객의 웹 사이트 및 [!DNL Target] 계정을 제공하는 파트너는 타사 도구에서 여러 규칙을 관리하는 대신 VEC 로드를 지원하는 단일 메커니즘을 보유합니다.
