@@ -5,10 +5,10 @@ title: 기준 시퀀스 만들기
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 43%
+source-wordcount: '1148'
+ht-degree: 44%
 
 ---
 
@@ -64,9 +64,17 @@ ht-degree: 43%
 
    설명은 기준 시퀀스를 식별하는 데 도움이 되며 해당 용도에 대한 정보를 포함할 수 있습니다.
 
-1. **[!UICONTROL 수직 시장]**&#x200B;을 선택합니다.
+1. 추천 활동의 목표를 기반으로 산업 수직을 선택합니다.
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | 업계 카테고리 | 목표 |
+   |--- |--- |
+   | 소매/Ecommerce | 구매를 발생시키는 전환 |
+   | 리드 생성/B2B/금융 서비스 | 구매가 없는 전환 |
+   | 미디어/게시 | 참여 |
+
+   기본 수직 시장이 자동으로 표시됩니다.
+
+   기타 기준 옵션은 선택한 수직 시장에 따라 달라집니다.
 
 1. **[!UICONTROL 페이지 유형]**&#x200B;을 선택합니다.
 
