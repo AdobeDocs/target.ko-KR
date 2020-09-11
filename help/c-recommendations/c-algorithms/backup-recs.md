@@ -1,21 +1,21 @@
 ---
 keywords: recommendation;backup;back up
-description: 백업 권장 사항 기능을 사용할 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
+description: Adobe Target에서 백업 권장 사항 기능을 사용하는 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐트를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 title: 백업 권장 사항 사용
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 백업 권장 사항 사용{#use-a-backup-recommendation}
 
-백업 권장 사항 기능을 사용할 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
+Adobe Target에서 백업 권장 사항 기능을 사용하는 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐트를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 
 백업 권장 사항을 사용하지 않을 경우 권장 사항에 디스플레이를 채우기에 충분한 항목이 없으면 시스템은 사용자에게 기본 컨텐츠를 표시합니다.
 
