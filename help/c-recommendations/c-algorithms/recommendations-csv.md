@@ -5,7 +5,7 @@ title: 사용자 지정 기준 업로드
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
@@ -39,7 +39,7 @@ ht-degree: 63%
 
 1. (조건부) 포함 규칙 [섹션에 정보를](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) 입력합니다.
 
-1. (조건부 속성 가중치 섹션의 정보를 [입력합니다](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) .
+1. (조건부) 속성 가중치 섹션에서 [정보를](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) 입력합니다.
 
 1. CSV **[!UICONTROL 업로드]** 섹션에서 **[!UICONTROL CSV]** 파일의위치를 선택합니다.
 
