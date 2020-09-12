@@ -5,7 +5,7 @@ title: 기준 만들기
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -81,7 +81,7 @@ Adobe Target  Recommendations [!UICONTROL 의] 기준은 [!UICONTROL Recommendat
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](#similarity).
 
-## 데이터 소스
+## 데이터 소스 {#data-source}
 
 1. 표시할 권장 사항을 결정할 때 사용할 사용 가능한 내역 사용자 동작 데이터의 시간 범위를 결정하려면 **[!UICONTROL 데이터 범위]**&#x200B;를 설정합니다.
 
@@ -224,7 +224,7 @@ Content rules determine what happens if the number of recommended items does not
 
 For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-## 속성 가중치
+## 속성 가중치 {#weighting}
 
 특정 항목이 더 잘 표시되도록 컨텐츠 카탈로그에 대한 중요 정보 또는 메타데이터를 기반으로 하는 알고리즘을 &quot;이동&quot;하는 여러 규칙을 추가할 수 있습니다.
 
