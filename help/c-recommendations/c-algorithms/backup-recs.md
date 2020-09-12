@@ -1,14 +1,14 @@
 ---
 keywords: recommendation;backup;back up
 description: Adobe Target에서 백업 권장 사항 기능을 사용하는 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐트를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
-title: 백업 권장 사항 사용
+title: 백업 권장 사항 사용 adobe target Recommendations
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 90%
+source-wordcount: '523'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 90%
 Adobe Target에서 백업 권장 사항 기능을 사용하는 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐트를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 
 백업 권장 사항을 사용하지 않을 경우 권장 사항에 디스플레이를 채우기에 충분한 항목이 없으면 시스템은 사용자에게 기본 컨텐츠를 표시합니다.
+
+>[!NOTE]
+>
+>[부분 디자인 렌더링 [및 백업 Recommendations](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) 표시] 옵션을 함께 또는 별도로 사용할 때 [!UICONTROL 관찰할 결과를 설명하는 표 등 [만들기] 기준] 항목의 [!UICONTROL 컨텐츠 섹션에 추가 정보가] 포함됩니다.
 
 백업 권장 사항 기능은 항상 사이트에서 가장 많이 본 항목을 사용하여 알고리즘의 데이터가 사용된 후 나머지 슬롯을 채웁니다. 예를 들어, 템플릿이 권장된 5개 항목을 표시하도록 구성되었고 *구매 친화성* 알고리즘을 사용하고 있지만 데이터가 5개 슬롯 중 2개만 채울 수 있는 경우 백업 권장 사항 기능은 가장 많이 본 항목으로 다른 세 개의 슬롯을 채웁니다.
 
