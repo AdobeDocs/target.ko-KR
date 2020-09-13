@@ -1,21 +1,22 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
-title: 사용자 지정 엔티티 속성
+title: Adobe Target의 사용자 지정 엔티티 속성
 feature: entities
+mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 95%
+source-wordcount: '1377'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 사용자 지정 엔티티 속성{#custom-entity-attributes}
 
-단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
+Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
 
 ## 제한 {#limits}
 
@@ -33,15 +34,11 @@ ht-degree: 95%
 
 단일 값을 사용하는 사용자 지정 엔티티 속성은 단일 값 사전 정의 엔티티 속성과 동일한 방식으로 형성됩니다.
 
-```
-entity.genre=genre1
-```
+`entity.genre=genre1`
 
 다중 값 사용자 지정 엔티티 속성은 올바른 JSON 배열로 전송해야 합니다.
 
-```
-entity.genre=[“genre1”, “genre2”]
-```
+`entity.genre=[“genre1”, “genre2”]`
 
 [!DNL Recommendations]에서 지원하는 올바른 JSON 배열의 예:
 
@@ -104,7 +101,7 @@ function targetPageParams() {
 
 ![](assets/multi-value_example_excel.png)
 
-[!DNL .csv] 형식으로 변환할 때 스프레드시트 소프트웨어는 셀 콘텐츠 둘레에 큰따옴표를 추가하여 셀 내의 쉼표가 셀 구분 기호로 작동하지 않도록 합니다. 또한 사용자 지정 다중 값 속성에 포함하는 JSON 문자열 값의 둘레에도 큰 따옴표를 추가합니다. 이는 원시 파일에서 바로 작업하는 것을 불편하게 할 수 있습니다. 예:
+.csv 형식으로 변환할 때 스프레드시트 소프트웨어는 셀 컨텐츠 둘레에 큰 따옴표를 추가하여 셀 내의 쉼표가 셀 구분 기호로 작동하지 않도록 합니다. 또한 사용자 지정 다중 값 속성에 포함하는 JSON 문자열 값의 둘레에도 큰 따옴표를 추가합니다. 이는 원시 파일에서 바로 작업하는 것을 불편하게 할 수 있습니다. 예:
 
 * 스프레드시트: `["1","2","3"]`
 * 원시: `"[""1"",""2"",""3""]"`
@@ -131,8 +128,7 @@ function targetPageParams() {
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
-using the Delivery and Save entities APIs.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
 
 ## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
@@ -140,27 +136,118 @@ using the Delivery and Save entities APIs.
 
 다음 예에서 규칙은 `message contains abc`.
 
-사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
-
-사례 2: `entity.genre = ["abcde","de","ef"]`. 하나의 값이 `abc`.
+* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
+* 사례 2: `entity.genre = ["abcde","de","ef"]`. 하나의 값이 `abc`.
 
 부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어, 연산자가 `notEquals`인 경우 결과는 어느 값이든 일치하면 *false*&#x200B;가 됩니다.
 
-알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 연산자 동작에 대해서는 아래 표를 참조하십시오.
+알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 연산자 행동에 대해서는 다음 섹션을 참조하십시오.
 
-| 연산자 | 동작 | 예 |
-|--- |--- |--- |
-| 다음과 같음 | 어떤 속성 값이든 입력 값과 같으면 결과는 true가 됩니다. | `genre equals abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.<br>사례 3: `entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 false입니다. |
-| 다음과 같지 않음 | 입력 값과 같은 속성 값이 없으면 결과는 true가 됩니다. | `genre not equals abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.<br>사례 3: `entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 true입니다. |
-| 다음 포함 | 속성 중 어떤 값이든 입력 값을 포함하면 결과는 true가 됩니다. | `genre contains abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이 `abc`. |
-| 다음을 포함하지 않음 | 속성 중 입력 값을 포함하는 값이 없으면 결과는 true가 됩니다. | `genre does not contain abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이`abc`. |
-| 다음으로 시작 | 속성 중 어떤 값이든 입력 값으로 시작하면 결과는 true가 됩니다. | `genre starts with abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이 `abc`.<br>사례 3: `entity.genre = ["ab", "de", "abc"]`. 하나의 값이 `abc`로 시작하므로 결과는 true입니다(목록에서 첫 번째 요소일 필요는 없음). |
-| 다음으로 끝남 | 속성 중 어떤 값이든 입력 값으로 끝나면 결과는 true가 됩니다. | `genre ends with abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["deabc", "de", "ef"]`. 하나의 값이 `abc`. |
-| 다음보다 크거나 같음(숫자 값만 해당) | 속성 값이 double로 변환됩니다. 규칙을 실행하는 동안 변환할 수 없는 속성은 건너뜁니다.<br>처리 후, 어떤 속성 값이든 입력 값보다 크거나 같으면 결과는 true가 됩니다. | `price greater than or equal to 100`<br>사례 1: `entity.price = ["10", "20", "45"]`. 100보다 크거나 같은 값이 없으므로 결과는 false입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.<br>사례 2: `entity.price = ["100", "101", "90", "80"]`. 두 값이 100보다 크거나 같으므로 결과는 true입니다. |
-| 다음보다 작거나 같음(숫자 값만 해당) | 속성 값이 double로 변환됩니다. 규칙을 실행하는 동안 변환할 수 없는 속성은 건너뜁니다.<br>처리 후, 어떤 속성 값이든 입력 값보다 작거나 같으면 결과는 true가 됩니다. | `price less than or equal to 100`<br>사례 1: `entity.price = ["101", "200", "141"]`. 100보다 작거나 같은 값이 없으므로 결과는 false입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.<br>사례 2: `entity.price = ["100", "101", "90", "80"]`. 두 값이 100보다 작거나 같으므로 결과는 true입니다. |
-| 동적으로 일치(항목 기반 알고리즘에서만 사용 가능) | 어떤 속성 값이든 입력 값과 일치하면 결과는 true가 됩니다. | `genre matches abc`<br> 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`. |
-| 동적으로 일치하지 않음(항목 기반 알고리즘에서만 사용 가능) | 어떤 속성 값이든 입력 값과 일치하면 결과는 false가 됩니다. | `genre does not match abc`<br>사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.<br>사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`. |
-| 동적 범위(항목 기반 알고리즘에서만 사용 가능, 숫자 값만 해당) | 어떤 숫자 속성 값이든 지정된 범위 내에 있으면 결과는 true가 됩니다. | `price dynamically ranges in 80% to 120% of 100`<br>사례 1: `entity.price = ["101", "200", "125"]`. `101`이 100의 80%~120% 범위에 있으므로 결과는 true입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.<br>사례 2: `entity.price = ["130", "191", "60", "75"]`. 100의 80%~120% 범위에 있는 값이 없으므로 결과는 false입니다. |
+### 다음과 같음
+
+어떤 속성 값이든 입력 값과 같으면 결과는 true가 됩니다.
+
+예: `genre equals abc`
+
+* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
+* 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
+* Case 3: `entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 false입니다.
+
+### 다음과 같지 않음
+
+입력 값과 같은 속성 값이 없으면 결과는 true가 됩니다.
+
+예: `genre not equals abc`
+
+* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
+* 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
+* Case 3: `entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 true입니다.
+
+### 다음 포함
+
+속성 중 어떤 값이든 입력 값을 포함하면 결과는 true가 됩니다.
+
+예: `genre contains abc`
+
+* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
+* 사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이 `abc`.
+
+### 다음을 포함하지 않음
+
+속성 중 입력 값을 포함하는 값이 없으면 결과는 true가 됩니다.
+
+예: `genre does not contain abc`
+
+* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
+* 사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이`abc`.
+
+### 다음으로 시작
+
+속성 중 어떤 값이든 입력 값으로 시작하면 결과는 true가 됩니다.
+
+예: `genre starts with abc`
+
+* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
+* 사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이 `abc`.
+* Case 3: `entity.genre = ["ab", "de", "abc"]`. 하나의 값이 `abc`로 시작하므로 결과는 true입니다(목록에서 첫 번째 요소일 필요는 없음).
+
+### 다음으로 끝남
+
+속성 중 어떤 값이든 입력 값으로 끝나면 결과는 true가 됩니다.
+
+예: `genre ends with abc`
+
+* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
+* 사례 2: `entity.genre = ["deabc", "de", "ef"]`. 하나의 값이 `abc`.
+
+### 다음보다 크거나 같음(숫자 값만 해당)
+
+속성 값이 double로 변환됩니다. 규칙을 실행하는 동안 변환할 수 없는 속성은 건너뜁니다.
+
+처리 후, 어떤 속성 값이든 입력 값보다 크거나 같으면 결과는 true가 됩니다.
+
+예: `price greater than or equal to 100`
+
+* 사례 1: `entity.price = ["10", "20", "45"]`. 100보다 크거나 같은 값이 없으므로 결과는 false입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.
+* 사례 2: `entity.price = ["100", "101", "90", "80"]`. 두 값이 100보다 크거나 같으므로 결과는 true입니다.
+
+### 다음보다 작거나 같음(숫자 값만 해당)
+
+속성 값이 double로 변환됩니다. 규칙을 실행하는 동안 변환할 수 없는 속성은 건너뜁니다.
+
+처리 후, 어떤 속성 값이든 입력 값보다 작거나 같으면 결과는 true가 됩니다.
+
+예: `price less than or equal to 100`
+
+* 사례 1: `entity.price = ["101", "200", "141"]`. 100보다 작거나 같은 값이 없으므로 결과는 false입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.
+* 사례 2: `entity.price = ["100", "101", "90", "80"]`. 두 값이 100보다 작거나 같으므로 결과는 true입니다.
+
+### 동적으로 일치(항목 기반 알고리즘에서만 사용 가능)
+
+어떤 속성 값이든 입력 값과 일치하면 결과는 true가 됩니다.
+
+예: `genre matches abc`
+
+* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
+* 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
+
+### 동적으로 일치하지 않음(항목 기반 알고리즘에서만 사용 가능)
+
+어떤 속성 값이든 입력 값과 일치하면 결과는 false가 됩니다.
+
+예: `genre does not match abc`
+
+* 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
+* 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
+
+### 동적 범위(항목 기반 알고리즘에서만 사용 가능, 숫자 값만 해당)
+
+숫자 속성 값이 지정된 범위 내에 있으면 true가 됩니다.
+
+예: `price dynamically ranges in 80% to 120% of 100`
+
+* 사례 1: `entity.price = ["101", "200", "125"]`. `101`이 100의 80%~120% 범위에 있으므로 결과는 true입니다. 값 `de`는 double로 변환할 수 없으므로 건너뜁니다.
+* 사례 2: `entity.price = ["130", "191", "60", "75"]`. 100의 80%~120% 범위에 있는 값이 없으므로 결과는 false입니다.
 
 >[!NOTE]
 >
@@ -168,7 +255,7 @@ using the Delivery and Save entities APIs.
 
 ## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-다중 값 속성은 디자인에서 참조할 때 쉼표로 구분된 목록으로 표시됩니다.
+여러 값 속성은 디자인에서 참조할 때 쉼표로 구분된 목록으로 표시됩니다.
 
 예:
 
