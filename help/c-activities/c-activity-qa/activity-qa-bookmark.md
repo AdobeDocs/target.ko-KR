@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 11%
@@ -45,6 +45,12 @@ javascript:(
 )();
 ```
 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+예:
+
+`https://www.mysite.com/?at_preview_token=`
+
 ## at.js 2에 대한 활동 QA 북마클릿.*x*
 
 at.js 1과 대조됩니다.*x*, at.js 2.*x* a는 타사 쿠키를 지원하지 않으며, QA 모드는 퍼스트 파티 도메인에 대해서만 고정됩니다(at.js에서 설정한 퍼스트 파티 쿠키를 통해). 따라서 at.js 2에서 가능합니다.*x*, QA 모드 세션은 클라이언트 쪽에서만 관리되며 QA 모드 쿠키가 Target으로 전송되지 않습니다.
@@ -70,8 +76,3 @@ javascript:(
 
 브라우저의 도구 모음에서 북마클릿을 클릭합니다.
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
-
-예:
-
-`https://www.mysite.com/?at_preview_token=`
