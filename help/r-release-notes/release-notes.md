@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '1097'
-ht-degree: 25%
+source-wordcount: '1185'
+ht-degree: 24%
 
 ---
 
@@ -36,6 +36,12 @@ ht-degree: 25%
 
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+## Target Standard/Premium 20.8.3(2020년 9월 15일)
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| ![자동 Target 활동에 대한 프리미엄 배지](/help/assets/premium.png) Analytics(A4T) 지원 | [!UICONTROL 이제 자동 Target] 활동이 Target에 [대한 분석을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 통해 [!UICONTROL 자동 Target] 앙상블 머신 러닝 알고리즘을 사용하여 프로필, 동작 및 컨텍스트에 따라 각 방문자에 대해 최상의 경험을 선택할 수 있습니다.<br>A/B 테스트 및 경험 [타깃팅 활동에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정됩니다.<br>자세한 내용은 [활동 생성에서 자동 할당 및 자동 Target 활동에 대한 Target(A4T) 지원을](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 참조하십시오 **. |
 
 ## Target Standard/Premium 20.8.2(2020년 9월 10일)
 
