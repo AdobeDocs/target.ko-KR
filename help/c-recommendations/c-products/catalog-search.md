@@ -5,9 +5,9 @@ title: Adobe Target의 카탈로그 검색
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 21%
 
 ---
@@ -70,7 +70,7 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
 
 고급 검색 [!UICONTROL 을] 사용하여 검색 결과를 더 세분화하거나 검색 결과를 [컬렉션](/help/c-recommendations/c-products/collections.md) 또는 [제외로 저장할 수](/help/c-recommendations/c-products/exclusions.md)있습니다.
 
-1. 고급 **[!UICONTROL 검색을 클릭합니다]**.
+1. 고급 **[!UICONTROL 검색]** 링크를 클릭합니다.
 
    ![고급 검색 페이지](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ ID, 이름, 메시지, 카테고리 등 개별 항목의 세부 사항을 보면
 
 ## 카탈로그 새로 고침
 
-첫 번째 피드를 업로드할 때 카탈로그의 색인이 자동으로 만들어지고 지정된 일정에 따라 새로 고쳐집니다.
+첫 번째 피드를 업로드할 때 카탈로그의 색인이 자동으로 만들어지고 [지정된 일정에 따라 새로 고쳐집니다](/help/c-recommendations/c-products/feeds.md#steps).
 
 피드 파일, API 또는 mbox 업데이트를 통해 업데이트가 수신되면 카탈로그가 자동으로 새로고침됩니다. 업데이트는 일반적으로 한 시간 내에 완료됩니다. 업데이트가 진행 중인 경우 가장 최근 업데이트가 시작된 시간이 표시됩니다. 진행 중인 업데이트가 없으면 가장 최근 업데이트가 시작되고 완료된 시간이 표시됩니다.
 
@@ -118,7 +118,7 @@ ID, 이름, 메시지, 카테고리 등 개별 항목의 세부 사항을 보면
 
 1. 고급 [검색을 수행합니다](#advanced-search).
 
-1. (선택 사항) 다른 이름으로 **[!UICONTROL 저장을]**&#x200B;클릭한 다음 **[!UICONTROL 컬렉션]** 또는 **[!UICONTROL 제외를]**&#x200B;클릭합니다.
+1. 다른 이름으로 **[!UICONTROL 저장을]**&#x200B;클릭한 다음 **[!UICONTROL 컬렉션]** 또는 **[!UICONTROL 제외를]**&#x200B;클릭합니다.
 
    ![다른 이름으로 저장 옵션](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -149,6 +149,8 @@ ID, 이름, 메시지, 카테고리 등 개별 항목의 세부 사항을 보면
    ![필터 링크 수정](/help/c-recommendations/c-products/assets/modify-filters.png)
 
 1. 원하는 검색 패싯(ID, 이름, 메시지 등)을 선택합니다.
+
+   ![필터 추가](/help/c-recommendations/c-products/assets/add-filters.png)
 
 추가적인 필터 패싯은 현재 세션에서만 사용할 수 있습니다.
 
