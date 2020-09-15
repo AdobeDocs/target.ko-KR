@@ -7,9 +7,9 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1271'
 ht-degree: 46%
 
 ---
@@ -63,8 +63,8 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | 활동 유형 | A4T와 호환 가능 | 해당하는 경우 메모 |
 |--- |--- |--- |
 | 수동 트래픽 분할을 사용하는 A/B 활동 | 예 |  |
-| 자동 할당을 사용하는 A/B 활동 | 예 | 자동 [할당 활동에 대한 Target(A4T) 지원을 참조하십시오](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
-| 자동 타겟을 사용하는 A/B 활동 | 아니오 |  |
+| 자동 할당을 사용하는 A/B 활동 | 예 | 자동 [할당 및 자동 Target 활동에 대한 Target(A4T) 지원을 참조하십시오](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
+| 자동 타겟을 사용하는 A/B 활동 | 예 | 자동 [할당 및 자동 Target 활동에 대한 Target(A4T) 지원을 참조하십시오](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
 | 경험 타깃팅(XT) | 예 |  |
 | 다변량 테스트(MVT) | 예 | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
 | 자동화된 개인화(AP) 활동 | 아니오 |  |
