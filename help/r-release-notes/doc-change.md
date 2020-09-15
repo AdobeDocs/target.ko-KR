@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 30%
+source-wordcount: '2275'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 9월 15일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 자동 Target 활동에 대한 Target(A4T)용 분석을 포함하는 Target Standard/Premium 20.8.3 릴리스에 대한 정보가 추가되었습니다. 이전 릴리스에서 자동 할당 활동에 대한 지원이 추가되었습니다. |
+|  | [자동 할당 및 자동 Target 활동에 대한 Target(A4T) 분석 지원](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). | 자동 Target 활동에서 A4T 지원에 대한 정보가 추가되었습니다. |
+|  | [활동 QA 북마클릿](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 비어 있는 값이 있는 매개 변수를 사용하여 사이트의 페이지를 로드하여 수동으로 QA 모드에서 자신을 강제로 나오게 하는 방법이 at.js 1에 적용됨을 나타내는 `at_preview_token` 텍스트가 업데이트되었습니다.*x*&#x200B;에만 사용할 수 있습니다. |
+|  | [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md) | 전체 주제가 업데이트되었습니다. |
 | 9월 10일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 다음과 같은 새로운 기능을 포함하는 Target Standard/Premium 20.9.2 릴리스에 대한 정보가 추가되었습니다.기준 시퀀스 내에서 추천 슬롯을 제어합니다. |
 |  | [기준 시퀀스 만들기](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | &quot;반환된 항목 수 제한&quot; 기능에 대한 정보가 추가되었습니다. |
 | 9월 9일 | [활동 QA 북마클릿](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2에서 사용할 JavaScript 코드를 추가했습니다.*x*&#x200B;에는 사용할 수 없습니다. |
