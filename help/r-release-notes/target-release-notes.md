@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
 workflow-type: tm+mt
-source-wordcount: '854'
+source-wordcount: '942'
 ht-degree: 11%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**최근 업데이트: 2020년 9월 9일**
+**최근 업데이트: 2020년 9월 15일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -38,6 +38,12 @@ ht-degree: 11%
    >
 * **Target 공지**:Target Spuit Builder 세션, 개발자 채팅, 웨비나 및 Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
 
+
+## Target Standard/Premium 20.8.3(2020년 9월 15일)
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| ![자동 Target 활동에 대한 프리미엄 배지](/help/assets/premium.png) Analytics(A4T) 지원 | [!UICONTROL 이제 자동 Target] 활동이 Target에 [대한 분석을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 통해 [!UICONTROL 자동 Target] 앙상블 머신 러닝 알고리즘을 사용하여 프로필, 동작 및 컨텍스트에 따라 각 방문자에 대해 최상의 경험을 선택할 수 있습니다.<br>A/B 테스트 및 경험 [타깃팅 활동에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정됩니다.<br>자세한 내용은 [활동 생성에서 자동 할당 및 자동 Target 활동에 대한 Target(A4T) 지원을](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 참조하십시오 **. |
 
 ## Target Standard/Premium 20.8.2(2020년 9월 10일)
 
