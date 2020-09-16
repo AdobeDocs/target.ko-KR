@@ -1,14 +1,14 @@
 ---
 keywords: exclusions
-description: 항목이 추천되지 않도록 하려면 Adobe Target에서 제외 목록을 만드십시오.
+description: 제품 또는 컨텐츠가 방문자 [!DNL Adobe Target Recommendations] 에게 권장되지 않도록 제외를 만듭니다.
 title: Adobe Target의 제외
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 83%
+source-wordcount: '490'
+ht-degree: 55%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 83%
 
 제품 또는 컨텐츠가 방문자에게 추천되지 않도록 [!DNL Adobe Target Recommendations] 하려면 제외를 만듭니다.
 
-제외는 방문자에게 권장되지 않는 제품 또는 컨텐츠의 하위 집합입니다. 예를 들어, 제품이나 컨텐츠가 중단되거나 본질적으로 민감한 권장 사항에 표시되지 않도록(예: 모든 연령에 적합하지 않은 등급이 있는 동영상) 제외를 사용할 수 있습니다.
+제외는 방문자에게 권장되지 않는 제품 또는 컨텐츠의 하위 집합입니다. 예를 들어, 제품이나 컨텐츠가 중단되거나 본질적으로 민감한 권장 사항에 표시되지 않도록(예를 들어, 컨텐츠 등급을 기준으로 모든 것에 적합하지 않은 등급이 있는 동영상) 제외를 사용할 수 있습니다.
+
+전체 계정에서 제외를 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -47,17 +49,27 @@ ht-degree: 83%
 
 ## 고급 검색을 사용하여 제외 만들기
 
-카탈로그 검색 페이지의 고급 검색([!UICONTROL 권장 사항] > [!UICONTROL 카탈로그 검색] > [!UICONTROL 고급 검색])을 사용하여 제외를 만들 수도 있습니다. 
+You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![다른 이름으로 저장](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![다른 이름으로 저장 대화 상자](/help/c-recommendations/c-products/assets/save-as.png)
 
-예를 들어 &quot;id > 포함&quot;을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] > [!UICONTROL 제외]를 클릭할 수 있습니다. 자세한 내용은 [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md#save-as)을 참조하십시오.
+예를 들어 &quot;id > 포함&quot;을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] > [!UICONTROL 제외]를 클릭할 수 있습니다.
 
 >[!IMPORTANT]
 >
->고급 검색 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 제외를 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 제외할 의도로 제외를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 제외됩니다. &quot;Holiday&quot;를 포함하는 제품은 제외되지 않습니다.
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 제외를 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 제외할 의도로 제외를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 제외됩니다. &quot;Holiday&quot;를 포함하는 제품은 제외되지 않습니다.
 
-## 교육 비디오: 추천에서 컬렉션 및 제외 만들기(7:05) ![자습서 배지](/help/assets/tutorial.png)
+## 제외 편집, 복사 또는 삭제
+
+목록에서 원하는 제외를 마우스로 가리킨 다음 해당 아이콘을 클릭합니다.편집, 복사 또는 삭제
+
+![제외에 대해 아이콘 표시](/help/c-recommendations/c-products/assets/hover-exclusions.png)
+
+기존 제외를 복사하여 이후에 수정할 수 있는 중복 제외를 만들 수 있습니다. 이를 통해 유사한 제외를 손쉽게 만들 수 있습니다.
+
+전체 계정에서 제외를 사용할 수 있습니다. 제외를 삭제하기 전에 이것을 고려하는지 확인하십시오. 삭제된 제외는 복구할 수 없습니다.
+
+## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
