@@ -5,10 +5,10 @@ title: Adobe Target의 컬렉션
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 69%
+source-wordcount: '868'
+ht-degree: 61%
 
 ---
 
@@ -79,17 +79,29 @@ ht-degree: 69%
 >
 >고급 검색 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 컬렉션을 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 반환할 의도로 카탈로그를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 반환됩니다. &quot;Holiday&quot;를 포함하는 제품은 반환되지 않습니다. 
 
+## 컬렉션 편집, 복사 또는 삭제
+
+목록에서 원하는 컬렉션 위로 마우스를 가져간 다음 해당 아이콘을 클릭합니다.편집, 복사 또는 삭제
+
+![컬렉션에 대해 아이콘 표시](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+기존 컬렉션을 복사하여 복제 컬렉션을 만든 다음 수정할 수 있습니다. 이를 통해 유사한 제외를 손쉽게 만들 수 있습니다.
+
+컬렉션은 전체 계정에서 사용할 수 있습니다. 컬렉션을 삭제하기 전에 이를 고려해야 합니다. 삭제된 컬렉션은 복구할 수 없습니다.
+
 ## Recommendations 활동에서 컬렉션 사용
 
 1. 위에 언급된 방법 중 하나를 사용하여 컬렉션을 만듭니다.
 
 1. 활동 **[!UICONTROL 을]** 클릭하고 [새 Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) 활동을 만들거나 기존 활동을 편집합니다.
 
-1. 경험 **[!UICONTROL 페이지]** (3부 안내 워크플로우 중 2단계)에서 권장 사항을 배치한 위치를 클릭한 다음 컬렉션 **[!UICONTROL 변경]**&#x200B;을 클릭합니다.
+1. 기준과 디자인을 선택하면 원하는 컬렉션을 선택하는 [!UICONTROL 옵션] 페이지가 표시됩니다.
+
+   ![컬렉션 선택 옵션](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. (조건부) 기존 컬렉션 설정을 변경하려면 **[!UICONTROL 경험]** 페이지(3부 안내 작업 과정의 2단계)에서 권장 사항을 배치한 위치를 클릭하고 컬렉션 **[!UICONTROL 변경]**&#x200B;을 클릭한 다음 원하는 컬렉션을 선택합니다.
 
    ![컬렉션 변경 옵션](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. 컬렉션 **[!UICONTROL 추가]** 페이지에서 원하는 컬렉션을 선택합니다.
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
