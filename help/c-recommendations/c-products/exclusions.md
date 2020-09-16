@@ -5,23 +5,25 @@ title: Adobe Target의 제외
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 83%
 
 ---
 
 
 # 제외{#exclusions}
 
-항목이 추천되지 않도록 하려면 제외 목록을 만드십시오.
+제품 또는 컨텐츠가 방문자에게 추천되지 않도록 [!DNL Adobe Target Recommendations] 하려면 제외를 만듭니다.
+
+제외는 방문자에게 권장되지 않는 제품 또는 컨텐츠의 하위 집합입니다. 예를 들어, 제품이나 컨텐츠가 중단되거나 본질적으로 민감한 권장 사항에 표시되지 않도록(예: 모든 연령에 적합하지 않은 등급이 있는 동영상) 제외를 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
 >정적 및 동적 제외 규칙은 마케팅 활동에 도움이 될 수 있는 강력한 기능입니다. 자세한 정보, 예 및 사용 사례 시나리오가 필요하면 [동적 및 정적 포함 규칙 사용](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하십시오.
 
-**제외 만들기:**
+## 제외 만들기
 
 1. **[!UICONTROL 권장 사항]** > **[!UICONTROL 제외]**&#x200B;를 클릭하여 기존 제외 목록을 표시합니다.
 
@@ -49,7 +51,7 @@ ht-degree: 99%
 
 ![다른 이름으로 저장](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-예를 들어 &quot;id > 포함&quot;을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] > [!UICONTROL 제외]를 클릭할 수 있습니다. 자세한 내용은 [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md)을 참조하십시오.
+예를 들어 &quot;id > 포함&quot;을 사용하여 검색을 작성한 후 [!UICONTROL 다른 이름으로 저장] > [!UICONTROL 제외]를 클릭할 수 있습니다. 자세한 내용은 [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md#save-as)을 참조하십시오.
 
 >[!IMPORTANT]
 >
