@@ -5,10 +5,10 @@ title: 디자인 만들기
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 39%
+source-wordcount: '988'
+ht-degree: 33%
 
 ---
 
@@ -36,7 +36,11 @@ ht-degree: 39%
 
 활동 작성 프로세스 동안 VEC(Visual Experience Composer) 내에서 또는 활동 생성 외부의 디자인 라이브러리에서 디자인을 만들 수 있습니다. 다음 섹션에서는 라이브러리에서 디자인을 만들고 있지만 단계는 비슷하다고 가정합니다.
 
-## 기본 디자인을 기반으로 디자인 제작
+## 디자인 제작
+
+기본 디자인을 기반으로 디자인을 만들거나 사용자 정의 디자인을 만들 수 있습니다.
+
+### 기본 디자인을 기반으로 디자인 제작
 
 1. Recommendations **[!UICONTROL >]** 디자인을 **[!UICONTROL 클릭하여]** 디자인 [!UICONTROL 라이브러리를] 표시합니다.
 
@@ -56,9 +60,9 @@ ht-degree: 39%
 
 1. (조건부) 원하는 대로 디자인 **[!UICONTROL 코드를]**&#x200B;편집합니다.
 
-   권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 [](https://velocity.apache.org)https://velocity.apache.org에서 알 수 있습니다.
+   권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 https://velocity.apache.org [및 Velocity를](https://velocity.apache.org) 사용하여 [디자인 사용자](/help/c-recommendations/c-design-overview/customizing-a-template.md)지정에서 찾을 수 있습니다.
 
-   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 수행할 수 있도록 <div> 태그로 래핑되어 있습니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다.
+   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 수행할 수 있도록 <div> 태그로 래핑되어 있습니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. HTML 코드 [!UICONTROL 가 아닌] 코드를 사용하려면 HTML 디자인 전환을 &quot;해제&quot; 위치로 밀십시오.
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ ht-degree: 39%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 사용자 지정 디자인 만들기
+### 사용자 지정 디자인 만들기
 
 1. Recommendations **[!UICONTROL >]** 디자인을 **[!UICONTROL 클릭하여]** 디자인 [!UICONTROL 라이브러리를] 표시합니다.
 
@@ -81,6 +85,18 @@ ht-degree: 39%
    자세한 내용은 위의 4단계의 정보를 참조하십시오.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+## 디자인 편집, 복사 또는 삭제
+
+기본 디자인은 편집하거나 복사할 수 없습니다.기본 디자인만 복사할 수 있습니다.
+
+디자인 라이브러리에서 원하는 디자인 위로 [!UICONTROL 마우스를 가져간] 다음 해당 아이콘을 클릭합니다.편집, 복사 또는 삭제
+
+![디자인의 마우스로 아이콘 표시](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+기존 디자인을 복사하여 수정 가능한 중복 디자인을 만들 수 있습니다. 이를 통해 유사한 디자인을 손쉽게 만들 수 있습니다.
+
+전체 계정에서 디자인을 사용할 수 있습니다. 디자인을 삭제하기 전에 이를 고려해야 합니다. 삭제된 디자인은 복구할 수 없습니다.
 
 ## JSON 예 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
