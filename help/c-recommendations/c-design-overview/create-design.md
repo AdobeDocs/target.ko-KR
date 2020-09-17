@@ -5,10 +5,10 @@ title: 디자인 만들기
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '854'
+ht-degree: 39%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 95%
 
 디자인은 페이지에 권장 사항이 어떻게 나타나는지를 정의합니다.
 
-기본 디자인을 사용하거나 사용자 지정 디자인을 만들어 [!UICONTROL 권장 사항] 디자인을 만들 수 있습니다. **[!UICONTROL 권장 사항 > 디자인]** 화면에는 기본 디자인 카드와 사용자가 만든 모든 디자인이 표시됩니다. 기본 디자인은 편집하거나 삭제할 수 없습니다.
+기본 디자인을 사용하거나 사용자 지정 디자인을 만들어 [!UICONTROL 권장 사항] 디자인을 만들 수 있습니다. [ **[!UICONTROL Recommendations] > [디자인]** ] 화면은 기본 디자인 카드와 계정에서 만들어진 디자인을 모두 표시합니다.
 
-1. **[!UICONTROL 권장 사항 > 디자인]** 화면에서 만들려는 디자인에 대한 카드 위로 마우스를 가져갑니다.
+디자인 작업 시 다음 정보를 염두에 두십시오.
+
+* 기본 디자인을 사용하여 권장 사항 디자인을 만들거나 사용자 정의 디자인을 만들 수 있습니다.
+* 기본 디자인은 편집하거나 삭제할 수 없습니다.
+* 사용자 정의 디자인을 편집, 복사 또는 삭제할 수 있습니다.
+* 기본 디자인을 기반으로 디자인을 만들려면 먼저 디자인을 복사한 다음 사본을 편집해야 합니다.
+
+다음 그림은 기본 1 x 4 디자인을 보여줍니다.
+
+![1 x 4 기본 디자인](/help/c-recommendations/c-design-overview/assets/default-design.png)
+
+다음 그림은 사용자 정의 디자인을 보여줍니다.
+
+![맞춤형 디자인](/help/c-recommendations/c-design-overview/assets/custom-design.png)
+
+활동 작성 프로세스 동안 VEC(Visual Experience Composer) 내에서 또는 활동 생성 외부의 디자인 라이브러리에서 디자인을 만들 수 있습니다. 다음 섹션에서는 라이브러리에서 디자인을 만들고 있지만 단계는 비슷하다고 가정합니다.
+
+## 기본 디자인을 기반으로 디자인 제작
+
+1. Recommendations **[!UICONTROL >]** 디자인을 **[!UICONTROL 클릭하여]** 디자인 [!UICONTROL 라이브러리를] 표시합니다.
+
+   ![디자인 라이브러리](/help/c-recommendations/c-design-overview/assets/design-library.png)
+
+1. 만들 디자인의 카드 위에 마우스를 놓고 **[!UICONTROL 복사]** 아이콘을 클릭합니다.
 
    ![](assets/Card_CopyDesign.png)
 
-1. 기존 디자인을 복사하고 편집하려면 **[!UICONTROL 복사]** 아이콘을 클릭합니다.
-
-   또는
-
-   사용자 지정 디자인을 만들려면 **[!UICONTROL 권장 사항 > 디자인]** 화면에서 **[!UICONTROL 디자인 만들기]**&#x200B;를 클릭합니다.
+   디자인 [!UICONTROL 만들기] 대화 상자가 표시됩니다.
 
    ![](assets/createDesign.png)
 
-1. **[!UICONTROL 컨텐츠 이름]**&#x200B;을 추가합니다.
+1. [ **[!UICONTROL 정보]** ] 패널에서 **[!UICONTROL 내용 이름]** 및 선택 사항 미리 보기 이미지를 추가하여 디자인 카드에 표시합니다.
 
-   기본 디자인을 사용하면 디자인 이름과 &quot;복사본&quot;이 **[!UICONTROL 컨텐츠 이름]** 필드에 나타납니다. 이름을 편집할 수 있습니다. 1. (선택 사항): 디자인 카드에 표시할 이미지를 선택하려면 클릭합니다.
-1. 디자인 **[!UICONTROL 코드]**&#x200B;를 편집합니다.
+   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. 이름을 편집할 수 있습니다. 디자인 카드에 표시할 이미지를 선택할 수도 있습니다.
+
+1. (조건부) 원하는 대로 디자인 **[!UICONTROL 코드를]**&#x200B;편집합니다.
 
    권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 [](https://velocity.apache.org)https://velocity.apache.org에서 알 수 있습니다.
 
@@ -46,16 +66,33 @@ ht-degree: 95%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
+## 사용자 지정 디자인 만들기
+
+1. Recommendations **[!UICONTROL >]** 디자인을 **[!UICONTROL 클릭하여]** 디자인 [!UICONTROL 라이브러리를] 표시합니다.
+
+1. 디자인 **[!UICONTROL 만들기를 클릭합니다]**.
+
+   기존 디자인을 기반으로 새 사용자 정의 디자인을 만들려면 원하는 디자인 위로 마우스를 가져간 다음 [!UICONTROL 복사] 아이콘을 클릭합니다. 그런 다음 복사본을 편집하여 새로운 사용자 정의 디자인을 만들 수 있습니다.
+
+1. 컨텐츠 이름 **[!UICONTROL 과]** 선택 사항 미리 보기 이미지를 추가합니다.
+
+1. (조건부) 원하는 대로 디자인 **[!UICONTROL 코드를]**&#x200B;편집합니다.
+
+   자세한 내용은 위의 4단계의 정보를 참조하십시오.
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
 ## JSON 예 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-다음 예는 양식 기반 편집기를 통해 활동을 구성할 때 JSON 응답을 반환하는 방법을 보여줍니다.
+다음 예는 양식 기반 편집기를 통해 활동을 구성할 때 JSON 응답을 반환할 수 있는 방법을 보여줍니다.
 
-1. 디자인 라이브러리나 양식 기반 워크플로우 내에서 디자인을 만듭니다. 시각적 경험 작성기(VEC) 워크플로우에서 이 작업을 수행하려 하면 클릭 추적을 위해 `<div>`&lt;div>로 래핑된 HTML 디자인 이외의 다른 것은 만들 수 없습니다.
+1. 디자인 라이브러리 또는 양식 기반의 워크플로우에서 디자인을 만들 수 있습니다. If you attempt to do this inside the Visual Experience Composer (VEC) workflow you cannot create anything other than an HTML design, which is wrapped in a `<div>` for click tracking purposes.
+
 1. &quot;HTML 디자인&quot; 선택 사항이 꺼져 있는지 확인합니다.
 
    ![](assets/html_design_toggle.png)
 
-1. 다음 코드는 디자인에 붙여 넣을 수 있는 내용의 예입니다.
+1. 다음 코드는 디자인에 붙여넣을 수 있는 방법의 예입니다.
 
    ```
        #* 
@@ -84,24 +121,22 @@ ht-degree: 95%
        }  
    ```
 
-1. 이 디자인을 사용하는 양식 기반의 권장 사항 활동을 설정합니다.
+1. Set up a form-based [!DNL Recommendations] activity that uses this design.
 
-   1. 활동 페이지로 이동합니다.
-   1. **[!UICONTROL 활동 만들기]**&#x200B;를 클릭합니다.
-   1. **[!UICONTROL 권장 사항]**&#x200B;을 선택합니다.
-   1. **[!UICONTROL 경험 작성기 선택]**&#x200B;에서 **[!UICONTROL 양식]**&#x200B;을 선택합니다.
-
+   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. Click **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
+   1. 경험 **[!UICONTROL 컴포저]**&#x200B;선택 아래에서 **[!UICONTROL 양식]**&#x200B;을 선택한 다음 **[!UICONTROL 다음을]**&#x200B;클릭합니다.
    1. 위치 아래에 &quot;Sample_Recs_Response&quot;라는 텍스트를 입력합니다.
    1. **[!UICONTROL 기본 컨텐츠]** 아래에서 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 권장 사항 추가]**&#x200B;를 클릭합니다.
    1. 페이지 유형을 선택합니다. 이 유형은 그 다음 화면의 초기 필터링을 결정합니다.
    1. 기준 카드를 선택한 후, **[!UICONTROL 다음을 클릭합니다]**.
-   1. 이전 단계에서 만든 디자인을 선택한 다음, **[!UICONTROL 저장을 클릭합니다]**.
+   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
    1. 설정 프로세스를 완료합니다.
    1. **[!UICONTROL 비활성]** 옆의 오른쪽 화살표를 클릭한 다음, **[!UICONTROL 활성화]**&#x200B;를 선택합니다.
 
 1. 활동이 설정되고 활성화된 후 깨끗한 JSON 응답을 다시 가져오는 샘플 요청을 설정할 수 있습니다.
 
-   활동을 저장하는 시점부터, Target은 선택한 기준 구성을 지원하는 모델을 만들어야 합니다. 요소의 수에 따라 시간이 다소 걸릴 수 있습니다. 모델이 만들어지면 결과가 표시됩니다.
+   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. 요소의 수에 따라 시간이 다소 걸릴 수 있습니다. 모델이 만들어지면 결과가 표시됩니다.
 
    예:
 
@@ -111,18 +146,18 @@ ht-degree: 95%
 
    where
 
-| 매개 변수 | 값 |
-|--- |--- |
-| `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(../target/products.html#recs설정 > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능) |
-| `[YOUR_MBOX_NAME]` | 양식 기반 Recommendations의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response)입니다. |
-| `[ENTITY_ID` | 카탈로그에 있는 항목의 `entity.id`입니다. |
-| `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
+   | 매개 변수 | 값 |
+   |--- |--- |
+   | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(../target/products.html#recs설정 > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능) |
+   | `[YOUR_MBOX_NAME]` | 양식 기반 Recommendations의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response)입니다. |
+   | `[ENTITY_ID` | 카탈로그에 있는 항목의 `entity.id`입니다. |
+   | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
 
 알고리즘이 실행되고 결과가 나오면, 응답은 다음과 같은 모습이어야 합니다.
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## 추가 JSON Object 팁 및 요령 {#section_C305673C68944749969DB239E3221DC2}
+## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
 
 다음 구문으로 디자인을 설정하여 간단한 쉼표로 구분된 항목 목록만 다시 전송할 수도 있습니다.
 
@@ -130,7 +165,7 @@ ht-degree: 95%
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-또는 응답에서 추가 정보를 전송할 수도 있습니다. 다음 코드 파일은 연결된 슬롯(순서)이 있는 엔티티 ID보다 훨씬 더 많은 내용을 반환하는 더 복잡한 예입니다. 이 디자인 예는 반환된 항목과 연결된 활동 세부 사항, Target 프로필 세부 사항(해당하는 경우) 및 기타 `entity.attributes`도 반환합니다.
+또는 응답에서 추가 정보를 전송할 수도 있습니다. 다음 코드 파일은 연결된 슬롯(순서)이 있는 엔티티 ID보다 훨씬 더 많은 내용을 반환하는 더 복잡한 예입니다. This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
 ```
     {   
