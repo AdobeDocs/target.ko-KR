@@ -5,10 +5,10 @@ title: 디자인 만들기
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 33%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 33%
 
    권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 https://velocity.apache.org [및 Velocity를](https://velocity.apache.org) 사용하여 [디자인 사용자](/help/c-recommendations/c-design-overview/customizing-a-template.md)지정에서 찾을 수 있습니다.
 
-   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 수행할 수 있도록 <div> 태그로 래핑되어 있습니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. HTML 코드 [!UICONTROL 가 아닌] 코드를 사용하려면 HTML 디자인 전환을 &quot;해제&quot; 위치로 밀십시오.
+   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 수행할 수 있도록 `<div>` 태그로 래핑되어 있습니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. HTML 코드 [!UICONTROL 가 아닌] 코드를 사용하려면 HTML 디자인 전환을 &quot;해제&quot; 위치로 밀십시오.
 
    >[!NOTE]
    >
