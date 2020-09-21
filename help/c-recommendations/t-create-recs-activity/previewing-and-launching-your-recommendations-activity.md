@@ -5,10 +5,10 @@ title: 'Adobe Target Recommendations 오퍼이 포함된 Recommendations, A/B �
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '1398'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 19%
 
 ## 알고리즘을 실행하는 데 얼마나 걸립니까?
 
-기준이 포함된 활동을 저장한 후에는 선택한 수집, 기준, 디자인 및 판촉 행사에 따라 권장 사항을 [!DNL Target] 계산합니다. 이 계산은 수행하는 데 시간이 걸리고 기간은 선택한 Recommendation 논리, 데이터 범위, 카탈로그의 항목 수, 고객이 생성한 동작 데이터 및 선택한 동작 데이터 소스에 따라 달라집니다.
+기준이 포함된 활동을 저장한 후 선택한 수집, 기준, 디자인 및 판촉 행사에 따라 권장 사항을 [!DNL Target] 계산합니다. 이 계산은 수행하는 데 어느 정도의 시간이 걸리고, 선택한 권장 사항 논리, 데이터 범위, 카탈로그에 있는 항목 수, 고객이 생성한 행동 데이터 양, 그리고 선택한 행동 데이터 소스에 따라 시간차가 다릅니다.
 
 동작 데이터 소스는 다음과 같이 처리 시간에 가장 큰 영향을 줍니다.
 
@@ -75,11 +75,11 @@ QA 링크를 사용하면 페이지에서 권장 사항을 미리 볼 수 있습
 
 >[!NOTE]
 >
->Target QA 모드는 &quot;고정&quot;이며 쿠키에 저장됩니다. QA 모드를 종료하지 않으면 사이트 전체에서 QA 결과가 계속 표시됩니다. QA 모드를 종료하려면 [북마클릿을 사용합니다](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* Target QA 모드는 &quot;고정&quot;이며 쿠키에 저장됩니다. QA 모드를 종료하지 않으면 사이트 전체에서 QA 결과가 계속 표시됩니다. QA 모드를 종료하려면 [북마클릿을 사용합니다](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+   >
+   >
+* QA 모드에서 사이트를 검색해도 프로필의 [!UICONTROL 최근 본 항목] 또는 [!UICONTROL 최근에 구입한 항목에 영향을 주지 않습니다].&quot; 이러한 행동은 생산 행동 데이터의 의도하지 않은 오염을 피하기 위해 디자인에 의해 발생한다. 최근에 본 항목 [!UICONTROL 또는] 사용자 기반 Recommendations [!UICONTROL 의] 기준에서 결과를 미리 보려면 먼저 QA 모드 외부에서 사이트를 탐색한 다음 동일한 세션을 사용하여 QA 모드 링크를 엽니다.
 
->[!NOTE]
->
->QA 모드에서 사이트를 검색해도 프로필의 [!UICONTROL 최근 본 항목] 또는 [!UICONTROL 최근 구입한 항목]&quot;에 영향을 주지 않습니다. 이 동작은 프로덕션 동작 데이터의 의도하지 않은 오염을 방지하기 위해 디자인에서 발생합니다. 최근에 본 항목 [!UICONTROL 또는] 사용자 기반 Recommendations  기준의 결과를 미리 보려면 먼저 QA 모드 외부에서 사이트를 탐색한 다음 동일한 세션을 사용하여 QA 모드 링크를 엽니다.
 
 ## CSV 다운로드를 사용하여 권장 사항 미리 보기
 
