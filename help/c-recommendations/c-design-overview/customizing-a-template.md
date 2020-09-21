@@ -1,21 +1,21 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: 공개 소스인 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정할 수 있습니다.
+description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe Target Recommendations의 추천 디자인을 사용자 요구에 맞게 변경할 수 있습니다.
 title: Velocity를 사용하여 디자인 사용자 지정
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 65%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Velocity를 사용하여 디자인 사용자 지정{#customize-a-design-using-velocity}
 
-공개 소스인 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정할 수 있습니다.
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## 속도 개요 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -130,10 +130,10 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 1. 더미 변수를 선언하고 임의의 정수 또는 이중 값으로 초기화합니다.
 1. 사용할 엔티티 속성이 비어 있지 않은지 확인하십시오(Target Recommendations의 템플릿 구문 분석기가 템플릿을 확인하고 저장하는 데 필요).
-1. 1단계에서 만든 더미 변수의 `parseInt` 또 `parseDouble` 는 메서드로 entity 속성을 전달하여 문자열을 정수 또는 double 값으로 변환합니다
+1. 1단계에서 만든 더미 변수의 `parseInt` 또 `parseDouble` 는 메서드에 entity 속성을 전달하여 문자열을 정수 또는 double 값으로 변환합니다.
 1. 수학 연산을 수행하거나 새 숫자 값을 비교합니다.
 
-**예:할인 가격 계산**
+### 예:할인 가격 계산
 
 할인 적용을 위해 항목의 표시된 가격을 $0.99까지 줄이려는 경우 다음 방법을 사용하여 이 결과를 얻을 수 있습니다.
 
@@ -148,7 +148,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**예:항목 등급을 기준으로 표시할 별 수 선택**
+### 예:항목 등급을 기준으로 표시할 별 수 선택
 
 항목의 평균 고객 평점을 기준으로 적절한 수의 별을 표시하려고 한다고 가정합니다. 다음 방법을 사용하여 이 결과를 얻을 수 있습니다.
 
@@ -173,7 +173,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-**예:항목 길이를 기준으로 시간 및 분 단위 계산(분)**
+### 예:항목 길이를 기준으로 시간 및 분 단위 계산(분)
 
 동영상 길이를 분 단위로 저장하지만 시간 및 분 단위로 표시하려고 한다고 가정합니다. 다음 방법을 사용하여 이 결과를 얻을 수 있습니다.
 
