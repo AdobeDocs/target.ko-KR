@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: 권장 사항 디자인에 대한 FAQ 목록
+description: Adobe Target 추천 디자인에 대한 FAQ(자주 묻는 질문) 목록
 title: 디자인 FAQ
 feature: designs
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 디자인 FAQ {#design-faq}
 
-권장 사항 디자인에 대한 FAQ 목록
+List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
 
 ## 권장 품목 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시할 수 있습니까?
 
 기본적으로 디자인 템플릿에서 반환되는 숫자 값(예: `entity.value`) 은 소수점 뒤에 0이 표시되지 않습니다. 예를 들어, 항목이 $35.00인 경우 `entity.value`은 35와 같으며 $35.00이 아닌 35만 페이지에 표시됩니다.
 
-이 문제를 해결하기 위해 두 가지 옵션을 사용할 수 있습니다.
+이 문제를 해결하기 위해 두 가지 옵션을 사용할 수 있습니다:
 
 * 속도 스크립팅 또는 Javascript를 사용하여 반환된 값에 서식을 적용할 수 있습니다.
 
@@ -37,7 +37,7 @@ ht-degree: 100%
 
 ## 즉시 업데이트를 받으려면 디자인을 어떻게 변경해야 합니까? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-현재 사용 중인 디자인을 변경하면 업데이트하는 데 시간이 걸립니다. 디자인을 즉시 변경하려면 새 디자인을 만들고 캠페인에서 해당 디자인을 선택한 다음 권장 사항을 저장합니다.
+현재 사용 중인 디자인을 변경하면 업데이트하는 데 시간이 걸립니다. 디자인을 즉시 변경하려면 새 디자인을 만들고 활동에서 선택하고 권장 사항을 저장합니다.
 
 ## 디자인에서 표시할 주요 정보를 캡처할 수 있습니까? 예: 주요 제품 카테고리를 표시하려는 경우 Velocity 디자인에서 해당 값을 어떻게 코딩할 수 있습니까? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -49,7 +49,7 @@ ht-degree: 100%
 
 ## 기존 개체 값을 빈 값으로 바꾸려면 어떻게 해야 합니까? 예를 들어 판촉 행사가 끝나면 항목의 entity.message를 지워야 합니다. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-JavaScript 줄바꿈 없는 공백으로 보내면 이와 같이 되는 것 같습니다. 개발자가 값으로 `\u00A0`을 보내게 하십시오. 예: `entity.message=\u00A0`. Null 대신 아무런 값이 표시되지 않는 경우 해당 값이 기본값이 되는 것으로 간주할 수 있습니다.
+JavaScript 비분리 공백으로 보내면 이렇게 할 수 있습니다. 개발자가 값으로 `\u00A0`을 보내게 하십시오. 예: `entity.message=\u00A0`. Null 대신 아무런 값이 표시되지 않는 경우 해당 값이 기본값이 되는 것으로 간주할 수 있습니다.
 
 ## 권장 사항 디자인에서 프로필 스크립트를 사용할 수 있습니까? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
