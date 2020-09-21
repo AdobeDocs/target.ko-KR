@@ -5,10 +5,10 @@ title: 권장 사항 활동 만들기
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 92%
+source-wordcount: '1303'
+ht-degree: 78%
 
 ---
 
@@ -49,9 +49,15 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   사이트 방문자는 권장 사항에 맞는 경우에만 권장 컨텐츠를 보게 됩니다. 권장 사항에 맞지 않는 방문자는 기본 컨텐츠를 보게 됩니다.
+
    ![권장 사항 옵션](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   요소를 권장 사항으로 바꾸면 현재 콘텐츠가 삭제되고 권장 사항으로 바뀝니다.
+   * **[!UICONTROL Recommendations으로 교체]**:요소를 권장 사항으로 바꾸면 현재 컨텐츠가 삭제되고 권장 사항으로 대체됩니다. 방문자가 사이트를 방문하고 권장 사항을 평가할 때 기존 컨텐츠 대신 지정된 영역에서 권장 항목을 볼 수 있습니다.
+   * **[!UICONTROL 앞에 Recommendations 삽입]**:선택한 요소 앞에 권장 사항을 삽입하면 권장 컨텐츠가 해당 요소 앞에 배치됩니다. 페이지 구성에 따라 선택한 요소의 위나 왼쪽에 권장 사항이 표시됩니다.
+   * **[!UICONTROL 뒤에 Recommendations 삽입]**:선택한 요소 뒤에 권장 사항을 삽입하면 권장 컨텐츠가 해당 요소 뒤에 배치됩니다. 페이지 구성에 따라, 권장 사항은 선택한 요소의 아래 또는 오른쪽에 표시됩니다.
+
+   선택 **[!UICONTROL 확장]** 옵션을 사용하면 선택한 위치(상위 컨테이너)를 확장하여 원하는 페이지 요소를 보다 쉽게 식별하고 포함할 수 있습니다.
 
 1. 페이지 유형을 선택합니다.
 
@@ -70,7 +76,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
 1. [기준](/help/c-recommendations/c-algorithms/algorithms.md)을 하나 이상 선택합니다.
 
-   기준은 각 기준에 대한 정보를 표시하는 카드로 표시됩니다. 기본적으로 [!UICONTROL 기준 선택] 화면에 사용자의 수직 시장과 호환되는 기준과 선택한 페이지 유형이 표시됩니다. 이러한 옵션을 변경하여 다른 기준을 표시할 수 있습니다.
+   기준은 각 기준에 대한 정보를 표시하는 카드로 표시됩니다. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. 이러한 옵션을 변경하여 다른 기준을 표시할 수 있습니다.
 
    >[!NOTE]
    >
@@ -90,7 +96,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. [디자인](/help/c-recommendations/c-design-overview/design-overview.md)을 선택합니다.
 
-   디자인은 페이지에서 위치의 모양을 결정하는 템플릿입니다. [!DNL Target]에는 사전 구성된 디자인이 포함되어 있습니다. 사용자 고유의 사용자 지정 디자인을 만들 수도 있습니다. 자세한 내용은 [디자인 만들기](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) 및 [디자인 사용자 지정](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)을 참조하십시오.
+   디자인은 페이지에서 위치의 모양을 결정하는 템플릿입니다. [!DNL Target] 에는 미리 구성된 여러 가지 디자인이 포함되어 있습니다. 사용자 고유의 사용자 지정 디자인을 만들 수도 있습니다. 자세한 내용은 [디자인 만들기](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) 및 [디자인 사용자 지정](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)을 참조하십시오.
 
    ![디자인 선택 대화 상자](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -105,6 +111,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    권장 사항에 프로모션을 추가할 수 있는 옵션이 있습니다. 전면 및 후속 프로모션을 추가하는 방법에 대한 자세한 내용은 [프로모션 추가](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    VEC 화면은 페이지에 권장 사항 디자인을 표시합니다.
@@ -158,7 +165,8 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    * 활동 활성화
    * 활동 편집
-   * Experience Cloud 보드에 활동 고정
+   * Experience Cloud 피드에 활동 공유
+   * 활동 QA
    * 경험 URL 보기
    * 데이터 다운로드
    * 제어 경험이 표시되는 활동 참여자의 비율 변경
@@ -166,6 +174,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
    * 디자인 코드 보기
 
 1. (선택 사항) [!UICONTROL 보고서] 페이지를 열어 [!DNL Recommendations] 활동의 성과를 보여 주는 보고서를 확인합니다.
+
 1. (선택 사항) [!UICONTROL 충돌] 페이지를 열어 발생할 수 있는 [활동 충돌](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)을 봅니다.
 
    활동 충돌은 여러 활동이 동일한 페이지로 콘텐츠를 전달하도록 설정되어 있을 때 발생하며, 이로 인해 예상치 못한 콘텐츠가 표시될 수 있습니다.
