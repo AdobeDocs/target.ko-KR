@@ -5,10 +5,10 @@ title: Adobe Target(A4T)의 보고 소스로 Adobe Analytics을 구현하기 전
 feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 75fa021c00940c87cf4b2bfa0e2875bb396079a1
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 57%
+source-wordcount: '903'
+ht-degree: 52%
 
 ---
 
@@ -23,7 +23,7 @@ Several changes occur in your data collection process when enabling [!DNL Analyt
 
 >[!IMPORTANT]
 >
->A4T를 사용하려면 먼저 계정을 통합용으로 공급하도록 요청해야 합니다. [이 양식](https://www.adobe.com/go/audiences_kr)을 사용하여 제공을 요청합니다.
+>A4T를 사용하려면 먼저 계정을 통합용으로 공급하도록 요청해야 합니다. 프로비저닝을 요청하려면 [Marketing Cloud 통합 규정 양식을](https://www.adobe.com/go/audiences_kr) 사용하십시오.
 
 이 A4T 통합에서는 A4T와 함께 리디렉션 오퍼를 사용할지 여부에 따라 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다.
 
@@ -82,3 +82,15 @@ When troubleshooting, be sure to confirm that the supplemental ID is present on 
 기본적으로 at.js, [!DNL Experience Cloud Visitor ID Service] 및 appMeasurement.js가 페이지에 있을 경우 위에 설명된 대로 올바른 보충 ID가 페이지에 포함되어 있으면 [!DNL Analytics] 및 [!DNL Target]은 백엔드에서 보고 및 분석 목적을 위해 이벤트를 올바르게 연결합니다. A4T가 제대로 작동하도록 하기 위해 추가 작업을 관리 및 수행할 필요가 없습니다.
 
 하지만 보고 목적으로 [!DNL Target]과 관련된 분석 데이터를 언제, 어떻게 [!DNL Analytics]로 보낼 것인지를 세부적으로 제어하려는 경우도 있습니다. 내부 용도로 활용하는 사내 분석 도구가 있을 수도 있지만, 사내 분석 제품을 통해 [!DNL Analytics]로 분석 데이터를 전송하여 조직의 다른 구성원이 [!DNL Analytics]를 시각적 보고 소스로 계속 활용할 수 있도록 하려는 경우도 있습니다. 자세한 내용은 *타겟 분석 구현*&#x200B;의 [7단계: 모든 사이트 페이지에서 at.js 또는 mbox.js 참조](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)를 참조하십시오.
+
+## 공유 대상
+
+Marketing Cloud 통합 프로비저닝 양식 [을 채우는 동안 &quot;프로비저닝을 요청하는 기능](https://www.adobe.com/go/audiences_kr)을 [!UICONTROL 찾는 기능&quot; 아래에 나열된] 공유 대상[!UICONTROL 옵션에 대한 다음 중요한 정보]에 주의하십시오.
+
+![양식 요청](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
+
+공유 대상 [!UICONTROL 을 요청할 때]Target [!UICONTROL 및] Adobe Audience Manager [!UICONTROL (AAM)이] 정보를 공유할 수 있도록 합니다(이 경우 대상).
+
+>[!IMPORTANT]
+>
+>이러한 [!UICONTROL Target] 와 AAM의 통합은 추가 비용이 동반됩니다. AAM의 각 [!UICONTROL Target] 콜에 대해 청구됩니다.
