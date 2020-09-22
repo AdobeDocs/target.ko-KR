@@ -6,10 +6,10 @@ feature: client-side
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 57%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 100%
 
 * **[Adobe Launch를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Launch는 Adobe의 차세대 태그 관리 플랫폼이며, Adobe Target을 구현하는 기본 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
 * **[태그 관리자를 사용하지 않고 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**: 태그 관리자(Adobe Launch 또는 다이내믹 태그 관리)를 사용하지 않고 Target을 구현할 수 있습니다.
-* **[다이내믹 태그 관리를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**: Adobe의 이전 태그 관리자인 Adobe DTM(다이내믹 태그 관리)을 사용하여 Target을 구현할 수 있습니다. Adobe Launch는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 최신 방법입니다. 새로운 Target 구현의 경우, Launch를 사용하십시오.
+* **[다이내믹 태그 관리를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**:Adobe DTM(다이내믹 태그 관리), Adobe의 기존 태그 관리자를 사용하여 Target을 구현할 수 있습니다. Adobe Launch는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 최신 방법입니다. 새로운 Target 구현의 경우, Launch를 사용하십시오.
+* **타사 태그 관리자를 사용하여 Target 구현**: [Adobe](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 론치가 Target을 구현하는 데 선호되는 방법입니다.그러나 Tealium, Ensihten, Google Tag 등과 같은 타사 태그 관리자를 사용하여 Target을 구현할 수도 있습니다. Launch를 사용할 때의 이점 목록은 Target Launch 확장 [을 사용하여 at.js를 구현하는 이점을 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304).
+
+   그러나 태그 관리자 없이 Target을 구현하는 방법을 알고 있는 경우 사이트 코드에서 at.js를 하드 코딩하는 대신 타사 태그 관리자로 쉽게 구현할 수 있습니다.
+
+   다음은 타사 태그 관리자로 Target을 구현하는 데 도움이 되는 두 가지 관련 주제입니다.
+
+   * [구현하기 전에](/help/c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
+   * [태그 관리자 없이 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+
+   자세한 내용은 타사 태그 관리자의 설명서를 확인하십시오.
 
 SPA(단일 페이지 애플리케이션)를 사용할 때 Target을 구현하려면 [단일 페이지 애플리케이션 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)을 참조하십시오.
