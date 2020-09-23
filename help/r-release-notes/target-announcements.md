@@ -5,9 +5,9 @@ title: Target 공지
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
+source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '320'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,6 @@ Target Skinning Builder 세션, 개발자 채팅, 웨비나, Target 커피 브�
 ## Adobe, &quot;개인화 엔진 부문 Gartner Magic Quadrant&quot;에서 리더로 선정
 
 Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 평가 결과,비전의 완전성과 실행 능력. [Adobe 블로그에서 확인할 수 있습니다](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
-
-## 웨비나:인공 지능과 Adobe Target을 사용한 개인화 전략
-
-* **오전 8시 - 9시(PDT)**
-* **2020년 8월 13일 목요일**
-
-[이 웨비나를 등록하십시오](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
 
 ## 웨비나:HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법
 
