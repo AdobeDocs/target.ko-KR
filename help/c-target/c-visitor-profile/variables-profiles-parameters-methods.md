@@ -6,10 +6,10 @@ feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
 workflow-type: tm+mt
-source-wordcount: '559'
-ht-degree: 93%
+source-wordcount: '562'
+ht-degree: 92%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 93%
 | user.daysSinceLastVisit |  |
 | user.browser | 사용자 에이전트 |
 | user.header | mbox 요청 헤더 데이터의 모든 `user.header` 프로필이 내장되어 있습니다. |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-forwarded-for&#39;) | 방문자가 켜져 있는 네트워크 연결의 공개 IP 주소입니다.<br>예를 들어 [whatismyip.com](https://www.whatismyip.com/)/과 같은 여러 가지 방법으로 주소를 얻을 수 있습니다. IP 주소는 10., 192.168. 또는 172.으로 시작하는 NAT 주소(내부 주소)가 아닙니다. |
+| user.header(&#39;x-forwarded-for&#39;) | 방문자가 켜져 있는 네트워크 연결의 공개 IP 주소입니다.<br>예를 들어 [whatismyip.com](https://www.whatismyip.com/)/과 같은 여러 가지 방법으로 주소를 얻을 수 있습니다. IP 주소는 10., 192.168. 또는 172.으로 시작하는 NAT 주소(내부 주소)가 아닙니다.<br>참고:user.header(&#39;x-cluster-client-ip&#39;)는 더 이상 사용되지 않습니다. |
 | user.header(&#39;host&#39;) | 웹 사이트 호스트 이름 |
 | user.header(&#39;cookie&#39;) | 방문자 쿠키 데이터 |
 | user.header(&#39;user-agent&#39;) | 방문자 브라우저 사용자-에이전트 |
