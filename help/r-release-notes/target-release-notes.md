@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
+source-git-commit: b33925332c18bd3fcd27e3b0776018a0c957f278
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 11%
+source-wordcount: '427'
+ht-degree: 18%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 11%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**최근 업데이트: 2020년 9월 15일**
+**최근 업데이트: 2020년 9월 23일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시간에 따라 이러한 페이지의 정보가 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -39,39 +39,13 @@ ht-degree: 11%
 * **Target 공지**:Target Spuit Builder 세션, 개발자 채팅, 웨비나 및 Target Coffee Break 세션 등 예정된 이벤트에 대한 자세한 내용은 Target 공지 페이지를 참조하십시오. 자세한 내용은 [Target 공지를 참조하십시오](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.8.3(2020년 9월 15일)
+## Target Standard/Premium 20.9.1(2020년 9월 30일)
 
-| 기능 | 세부 사항 |
-| --- | --- |
-| ![자동 Target 활동에 대한 프리미엄 배지](/help/assets/premium.png) Analytics(A4T) 지원 | [!UICONTROL 이제 자동 Target] 활동이 Target에 [대한 분석을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 통해 [!UICONTROL 자동 Target] 앙상블 머신 러닝 알고리즘을 사용하여 프로필, 동작 및 컨텍스트에 따라 각 방문자에 대해 최상의 경험을 선택할 수 있습니다.<br>A/B 테스트 및 경험 [타깃팅 활동에 사용하기 위해 A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) 를 이미 구현한 경우 모두 설정됩니다.<br>자세한 내용은 [활동 생성에서 자동 할당 및 자동 Target 활동에 대한 Target(A4T) 지원을](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 참조하십시오 **. |
+이 유지 관리 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
 
-## Target Standard/Premium 20.8.2(2020년 9월 10일)
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| ![프리미엄 배지](/help/assets/premium.png) 기준 시퀀스 내의 추천 슬롯 제어 | 이제 기준 시퀀스를 사용하면 각 권장 사항 기준에 의해 수행되는 슬롯 수를 제어할 수 있으므로 다른 유형의 항목이나 다른 알고리즘 논리를 혼합하고 일치시킬 수 있습니다.<br>자세한 내용은 [기준 시퀀스](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) 만들기를 참조하십시오. |
-
-## Target Standard/Premium 20.8.1(2020년 9월 2일)
-
-이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
-
-* 조직을 전환한 후 새 [!UICONTROL 관리] 페이지를 로드할 때 오류가 표시되는 문제를 해결했습니다. (TGT-37730)
-* 잘못된 클라이언트 코드가 [!UICONTROL 관리 > 구현] 페이지에 표시되던 표시 문제를 수정했습니다. (TGT-37849)
-* 때때로 사용자가 VEC를 성공적으로 로드한 후 [!UICONTROL VEC] (Visual Experience Composer)의 편집 기능을 사용할 수 없는 문제를 수정했습니다. (TGT-37162)
-* VEC 도우미 확장이 설치되어 있어도 VEC 및 EEC(Enhanced Experience Composer)에서 페이지를 로드할 수 없는 문제를 해결했습니다. 이는 Google Chrome 80+의 변경 때문입니다. 업데이트된 VEC [도우미 확장을 다운로드합니다](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md). (TGT-37893)
-* 조직을 전환한 후 때때로 사용자가 [!UICONTROL 관리 > 구현] 페이지에서 at.js를 다운로드할 수 없는 문제를 해결했습니다. (TGT-37668)
-* 이제 사용자가 다운로드 단추를 여러 번 클릭하는 경우 여러 요청을 전송할 수 없도록 로드 중에 at.js 다운로드 단추 [!DNL Target] 가 비활성화됩니다. (TGT-37633)
-* 장시간 동안 경험이 &quot; [!UICONTROL 결과] &quot;를 표시하는 XT(경험 타깃팅) 활동의 문제를 수정했습니다. (TGT-37684)
-* 키보드 전용 사용자를 위한 탐색 및 기능이 개선되었습니다. (TGT-34479 및 TGT-34473)
-* 보조 기술을 사용하는 사용자에게 도움이 되는 레이블을 UI에 추가했습니다. (TGT-34480)
-* 활동에 현재 사용되는 모바일 뷰포트를 삭제할 때 오류 메시지가 개선되었습니다. 이제 오류 메시지가 표시됩니다.&quot;이 뷰포트는 현재 하나 이상의 활동과 연결되어 있습니다. 삭제하기 전에 해당 활동에서 뷰포트를 제거해야 합니다.&quot; (TGT-37030)
-* 페이지에서 둘 이상의 요소와 일치하는 css 선택기에서 클릭 추적을 허용하는 VEC에 지원을 추가했습니다. (TGT-37323)
-* 특정 사용자가 [!UICONTROL 활동] 목록을 표시하지 못하는 문제를 해결했습니다. 다음 오류 메시지가 표시되었습니다.&quot;URL제안을 가져올 수 없습니다.&quot; Adobe 백엔드 시스템의 FirstName(FirstName/r/n)에서 캐리지 리턴을 사용하는 사용자에 대해 오류가 발생했습니다. (TGT-37330)
-* 작업 공간 이름(Enterprise용 [!UICONTROL Adobe Admin Console에] 지정)에 아포스트로피가 포함되어 있는 경우 사용자가 [!UICONTROL 활동]페이지를 표시할 수 없는 문제를 해결했습니다. (TGT-37709)
-* 보고서 세트가 이미 지정된 [!UICONTROL 경우에도 오류 메시지가 사용자에게 보고서 세트를 선택하라고 잘못 알렸던 최적화 및 전환 지표를 선택하는] 동안 자동 할당 활동의 문제를 수정했습니다. (TGT-37689)
-* 타깃팅 페이지로 이동한 후 [!UICONTROL 돌아온 후 종종 목표 및 설정] 페이지의 지표가 [!UICONTROL 비어 있는] 문제를 해결했습니다. (TGT-37691)
-* 기준에 대해 잘못된 최종 수정 값을 초래했던 문제를 [!DNL Recommendations] 수정했습니다. (TGT-37666)
-* mbox 이름 대신 mbox 드롭다운 목록에 mbox ID가 표시되는 문제를 해결했습니다. (TGT-37739)
+* 키보드 전용 사용자를 위한 탐색 및 기능이 개선되었습니다. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
+* 보조 기술을 사용하는 사용자에게 도움이 되는 레이블을 UI에 추가했습니다. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
+* UI의 이미지 및 텍스트에 대한 텍스트 및 색상 대비를 개선했습니다. (TGT-34513)
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
