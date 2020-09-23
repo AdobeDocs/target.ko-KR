@@ -3,10 +3,10 @@ keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;suc
 description: 다변량 테스트의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 title: 지표 설정
 feature: mvt
-solution: Target,standard
+solution: Target
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 99%
