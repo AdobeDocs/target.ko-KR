@@ -3,10 +3,10 @@ keywords: experience targeting;xt;metrics;set metrics;goal metric;activity setti
 description: Adobe Target XT(경험 타깃팅) 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 title: 지표 설정
 feature: xt
-solution: Target,standard
+solution: Target
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 99%
