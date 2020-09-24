@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '723'
 ht-degree: 11%
 
 ---
@@ -60,6 +60,12 @@ Java SDK는 쿠키, 세션 및 솔루션(예: [!DNL Adobe Experience Cloud] , [!
 
 * **캐시를 통해 성능을 최적화할 수 있는 프리페치 및 알림 지원**:JavaSDK를 사용하여 Java 서버에 대한 서버 호출을 최소화하고 애플리케이션 성능을 최적화할 목적으로 경험을 검색하고 Java 서버에 로컬로 캐시할 수 [!DNL Target] 있습니다.
 * **VEC에서 만든 활동을 검색할 수 있는 기능**:서버측에서 VEC에서 만든 활동을 검색합니다. VEC에서 만든 활동이 포함된 응답에는 개인화해야 하는 페이지의 일부만을 미리 숨기는 데 사용할 수 있는 선택기가 있습니다. 이를 통해 [Google PageRank](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) 시스템에서 높은 점수를 얻을 수 있는 중요한 KPI인 페이지의 [첫 번째 콘텐츠 페인트](https://en.wikipedia.org/wiki/PageRank) 지표를 최적화할 수 있습니다.
+
+## Adobe Target 개발자
+
+링크: [Adobe Target 개발자](http://developers.adobetarget.com/)
+
+Adobe Target 개발자 사이트를 통해 클라이언트측 애플리케이션, 서버측 애플리케이션, 모바일 앱, IoT 등을 [!DNL Target] 구현할 수 있습니다. 또한 데이터를 타사 솔루션으로 내보낼 수도 있습니다. [!DNL Target]
 
 ## Target Recommendations API
 
