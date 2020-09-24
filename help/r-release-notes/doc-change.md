@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 29%
+source-wordcount: '2396'
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 9월 24일 | [활동 QA 북마클릿](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2에 대한 활동 QA 북마클릿을 위한 코드를 업데이트했습니다.*x*&#x200B;에는 사용할 수 없습니다. |
-|  | [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md#faq) | FAQ 섹션이 추가되었습니다. |
+|  | [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md#faq) | 숫자 값이 있는 사용자 지정 속성 검색에 대한 참고가 추가되었습니다. |
+|  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;숫자 값이 있는 사용자 지정 속성을 검색할 때 카탈로그 검색에 올바른 결과가 표시되지 않는 이유는 무엇입니까?&quot; |
 |  | [Target 작동 방식](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | &quot;에지 네트워크&quot;에 나열된 Target 클러스터 및 Target 중앙 클러스터 위치를 업데이트했습니다. |
 | 9월 23일 | [Analytics 추적 서버 사용](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | 전체 주제를 브라우저 개발자 도구 [!DNL Adobe Experience Platform Debugger] 및 브라우저의 정보로 업데이트했습니다. |
 |  | [프로필 및 변수 용어집](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | &quot;user.header(&#39;x-forwarded-for&#39;)&quot; 행이 &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot;가 더 이상 사용되지 않았음을 나타내도록 업데이트되었습니다. |
