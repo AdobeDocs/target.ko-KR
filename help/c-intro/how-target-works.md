@@ -1,5 +1,5 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
 description: Adobe Target은 JavaScript 라이브러리 at.js 또는 mbox.js 중 하나를 통해 웹 사이트와 통합
 title: Adobe Target 작동 방식
 feature: intro
@@ -7,15 +7,15 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
 workflow-type: tm+mt
-source-wordcount: '2346'
-ht-degree: 94%
+source-wordcount: '2398'
+ht-degree: 82%
 
 ---
 
 
-# Adobe Target 작동 방식{#how-adobe-target-works}
+# Adobe Target 작동 방식
 
 Target JavaScript 라이브러리(at.js 및 mbox.js)와 Target에 포함된 다양한 활동 유형에 대한 정보를 포함하여 Adobe Target 작동 방식에 대한 정보입니다.
 
@@ -89,31 +89,51 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
-## 에지 네트워크 {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-에지(Edge)는 콘텐츠를 요청하는 최종 사용자가 세계 어디에 있든지 상관없이 최적의 응답 시간을 보장하는 지리적으로 분산된 서비스 아키텍처입니다.
+&quot;에지(Edge)&quot;는 컨텐츠를 요청하는 최종 사용자가 전세계 위치에 관계없이 최적의 응답 시간을 보장하는 지리적으로 분산된 서비스 아키텍처입니다.
 
-응답 시간을 개선하기 위해, 에지 환경은 활동 로직과 캐시된 프로필 및 오퍼 정보만 호스팅합니다. 활동 및 콘텐츠 데이터베이스, [!DNL Analytics] 데이터, API 및 마케터 사용자 인터페이스는 Adobe의 중앙 데이터 환경에 수용됩니다. 그러면 업데이트가 에지 노드로 전송됩니다. 중앙 환경 및 에지 노드는 자동으로 동기화되어 캐시된 활동 데이터를 계속 업데이트합니다. 1:1 모델링도 각 에지에 저장되므로 이러한 더 복잡한 요청도 에지에서 처리될 수 있습니다.
+응답 시간을 개선하기 위해 Target Edges는 활동 논리, 캐시된 프로필 및 오퍼 정보만 호스팅합니다.
 
-각 에지 노드에는 사용자의 콘텐츠 요청에 응답하고, 해당 요청에 대한 분석 데이터를 추적하는 데 필요한 모든 정보가 있습니다. 사용자 요청은 가장 가까운 에지 노드로 전달됩니다.
+Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. 그런 다음 업데이트가 Target 가장자리에 전송됩니다. Central Clusters 및 Edge Clusters는 캐시된 활동 데이터를 지속적으로 업데이트하기 위해 자동으로 동기화됩니다. 모든 1:1 모델링은 각 가장자리에도 저장되므로 이러한 더 복잡한 요청도 가장자리에서 처리할 수 있습니다.
 
-![핵심 에지 사이트 및 에지 사이트 매핑](assets/edge_network.png)
+각 에지 클러스터에는 사용자의 컨텐츠 요청에 응답하고 해당 요청에 대한 분석 데이터를 추적하는 데 필요한 모든 정보가 있습니다. 사용자 요청은 가장 가까운 에지 클러스터로 라우팅됩니다.
 
-이 이미지의 소스는 [Adobe Target 보안 개요](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서입니다.
+자세한 내용은 [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서를 참조하십시오.
 
-Adobe Target 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센터에 호스팅됩니다. 관리 서버는 런던, 싱가포르를 포함하여 오레곤, 버지니아 등 미국 전역의 여러 지역에서 Adobe 소유 데이터 센터 내에 호스팅됩니다. Edge Server는 런던에 있는 Amazon AWS 데이터 센터, 중국 홍콩 SAR, 싱가포르, 도쿄 및 시드니의 Adobe 소유 서버 및 Adobe 임대 서버에 호스팅됩니다.
+The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
-관리 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 있습니다. 에지 사이트 위치에는 데이터 수집 센터만 있습니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
+중앙 클러스터 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 포함됩니다. Edge Cluster 위치에는 데이터 수집 센터만 포함됩니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
 
-한 위치에서 모든 타깃팅 요청에 응답하기보다는, 방문자에게 가장 가까운 에지 환경에서 요청을 처리하는 것이 네트워크/인터넷 이동 시간의 영향을 완화합니다.
+고객 사이트 활동 데이터는 7개의 Edge Clusters에서 가장 가까운 위치에 의해 수집되며 고객의 사전 결정된 Central Cluster 대상(3개 위치 중 하나)으로 전달됩니다.Oregon, Dublin, Singapore)을 참조하십시오. 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다(위치에는 중앙 클러스터 위치 및 버지니아, 암스테르담, 시드니, 도쿄 및 홍콩 포함).
+
+단일 위치에서 모든 타깃팅 요청에 응답하는 대신 요청은 방문자와 가장 가까운 에지 클러스터에 의해 처리되므로 네트워크/인터넷 여행 시간의 영향을 완화합니다.
+
+Amazon 웹 서비스(AWS)에서 호스팅되는 Target 중앙 클러스터는 다음 위치에 있습니다.
+
+* 오리건, 미국
+* 더블린, 아일랜드
+* 싱가포르
+
+AWS에서 호스팅되는 Target 에지 클러스터는 다음 위치에 있습니다.
+
+* 인도 뭄바이
+* 도쿄, 일본
+* 버지니아, 미국
+* 오리건, 미국
+* 오스트레일리아 시드니
+* 더블린, 아일랜드
+* 싱가포르
+
+이 [!DNL Target Recommendations] 서비스는 오리건주의 [!DNL Adobe] 데이터 센터에서 호스팅됩니다.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target]은 현재 중국에는 에지 네트워크가 없기 때문에 중국 [!DNL Target] 고객의 경우 최종 사용자 성능이 계속 제한됩니다. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] 현재 중국에는 Edge Cluster가 없으며 중국 고객의 경우 최종 사용자 성능이 계속 제한됩니다. [!DNL Target] Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-원하는 경우 Target 가장자리 노트를할 허용 목록에 추가하다 수 있습니다. 자세한 내용은 [Target 가장자리 노드허용 목록에 추가하다를 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
+원하는 경우 Target 에지 클러스터를허용 목록에 추가하다 지정할 수 있습니다. 자세한 내용은 [Target 가장자리 노드허용 목록에 추가하다를 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
-## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe에서는 타깃팅 인프라의 가용성 및 성능을 가능한 한 신뢰할 수 있도록 만들고 있습니다. 하지만 최종 사용자의 브라우저와 Adobe의 서버 간 통신 실패로 인해 콘텐츠 전달이 중단될 수 있습니다.
 
