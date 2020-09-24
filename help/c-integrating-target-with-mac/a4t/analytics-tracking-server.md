@@ -1,14 +1,14 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: 이전 버전의 at.js나 mbox.js를 사용하는 경우 Analytics for Target(A4T)을 사용하는 활동용으로 Analytics 추적 서버를 지정해야 합니다.
 title: Analytics 추적 서버 사용을 참조하십시오
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 24%
+source-wordcount: '698'
+ht-degree: 27%
 
 ---
 
@@ -44,6 +44,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    * **CNAME 구현**: `sstats.adobe.com` 는 https(secure) 요청에 대한 CNAME 퍼스트 파티 추적 서버의 예입니다. `stats.adobe.com` 는 http(비보안) 페이지에 대한 CNAME 자사 요청의 예입니다.
 
 1.  필드의 전체 컨텐츠를 복사합니다. 
+
 1. 활동의 **[!UICONTROL 목표 및 설정]****[!UICONTROL 화면에 있는]**&#x200B;보고 설정&#x200B;**[!UICONTROL 섹션에서 추적 서버 정보를 추적 서버]** 필드에 붙여넣으십시오.
 
    >[!NOTE]
@@ -69,4 +70,12 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
    * **퍼스트 파티 추적 서버**:요청의 호스트 이름이 현재 사용 중인 도메인과 일치하는 경우 퍼스트 파티 추적 서버입니다. 예를 들어, 사용 중인 경우 `adobe.com`퍼스트 파티 추적 서버 `adobe.com` 가 됩니다.
    * **타사 추적 서버**:타사 추적 서버는 일반적으로 회사 `[company].sc.omtrdc.net` 가 회사의 이름이지만 항상 이 서버로 끝나는 서버입니다 `sc.omtrdc.net`.
    * **CNAME 구현**: `sstats.adobe.com` 는 https(secure) 요청에 대한 CNAME 퍼스트 파티 추적 서버의 예입니다. `stats.adobe.com` 는 http(비보안) 페이지에 대한 CNAME 자사 요청의 예입니다.
+
+1.  필드의 전체 컨텐츠를 복사합니다. 
+
+1. 활동의 **[!UICONTROL 목표 및 설정]****[!UICONTROL 화면에 있는]**&#x200B;보고 설정&#x200B;**[!UICONTROL 섹션에서 추적 서버 정보를 추적 서버]** 필드에 붙여넣으십시오.
+
+   >[!NOTE]
+   >
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
