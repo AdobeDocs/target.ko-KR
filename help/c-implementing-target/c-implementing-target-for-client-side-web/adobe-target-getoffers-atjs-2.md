@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 998579315ce8390cc9e2eb25434be19337724526
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1223'
 ht-degree: 95%
 
 ---
@@ -268,7 +268,7 @@ adobe.target.getOffers({
 
 이 예제에서는 `prefetch > mboxes`를 사용하지만 `execute > mboxes`를 사용할 수도 있습니다. `getOffers()`에서 미리 가져오기 작업을 실행하는 경우 `applyOffers()` 호출에서도 미리 가져오기 작업을 실행해야 합니다.
 
-## 호출 `getOffers()` 을 호출하여 pageLoad
+## 페이지 로드 `getOffers()` 를 수행하기 위한 호출
 
 다음 예는 at.js 2에서 getOffers()를 사용하여 pageLoad를 수행하는 방법을 보여줍니다.*x*
 
