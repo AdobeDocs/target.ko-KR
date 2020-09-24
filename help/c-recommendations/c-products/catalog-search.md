@@ -5,9 +5,9 @@ title: Adobe Target의 카탈로그 검색
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1016'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,12 @@ To access the [!UICONTROL Catalog Search] page, click **[!UICONTROL Recommendati
    검색 자동 완성 기능을 사용할 수 있습니다. 다음 그림에서 &quot;bik&quot;를 입력하면 &quot;bike&quot;라는 단어가 포함된 모든 제품이 반환됩니다.
 
    ![검색 자동 완성](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >숫자 값이 있는 사용자 지정 속성에 대해 카탈로그 검색을 수행할 때 결과는 사용자 지정 속성을 숫자 값 대신 문자열 유형으로 처리합니다.
+   >
+   >현재, 고객이 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면, 유형을 문자열에서 숫자로 변경해야 하는 속성을 참조하는 고객 문제를 [엽니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) .
 
 1. 필터를 사용하여 원하는 제품을 찾을 수도 있습니다. 다음 예에서 [!UICONTROL 컬렉션 패싯을 확장하고 &quot;자전거] 도구&quot;를 선택하면 카탈로그에 있는 모든 자전거 도구가 표시됩니다.
 
@@ -170,12 +176,3 @@ ID, 이름, 메시지, 카테고리 등 개별 항목의 세부 사항을 보면
 
 변경 사항은 현재 세션에만 적용됩니다.
 
-## FAQ {#faq}
-
-카탈로그 검색 기능에 대한 도움말은 다음 FAQ를 [!UICONTROL 참조하십시오] .
-
-### 숫자 값이 있는 사용자 지정 속성을 검색할 때 카탈로그 검색에 올바른 결과가 표시되지 않는 이유는 무엇입니까?
-
-숫자 값이 있는 사용자 지정 속성에 대해 카탈로그 검색을 수행할 때 결과는 사용자 지정 속성을 숫자 값 대신 문자열 유형으로 처리합니다.
-
-현재, 고객이 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면, 유형을 문자열에서 숫자로 변경해야 하는 속성을 참조하는 고객 문제를 [엽니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) .
