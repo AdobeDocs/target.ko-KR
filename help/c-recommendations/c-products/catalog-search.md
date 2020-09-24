@@ -5,10 +5,10 @@ title: Adobe Target의 카탈로그 검색
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 21%
+source-wordcount: '1050'
+ht-degree: 19%
 
 ---
 
@@ -169,3 +169,13 @@ ID, 이름, 메시지, 카테고리 등 개별 항목의 세부 사항을 보면
    활성 섹션에서 비활성 섹션으로 이동할 열 옆에 있는 삭제 아이콘( x)을 클릭할 수도 있습니다.
 
 변경 사항은 현재 세션에만 적용됩니다.
+
+## FAQ {#faq}
+
+카탈로그 검색 기능에 대한 도움말은 다음 FAQ를 [!UICONTROL 참조하십시오] .
+
+### 숫자 값이 있는 사용자 지정 속성을 검색할 때 카탈로그 검색에 올바른 결과가 표시되지 않는 이유는 무엇입니까?
+
+숫자 값이 있는 사용자 지정 속성에 대해 카탈로그 검색을 수행할 때 결과는 사용자 지정 속성을 숫자 값 대신 문자열 유형으로 처리합니다.
+
+현재, 고객이 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면, 유형을 문자열에서 숫자로 변경해야 하는 속성을 참조하는 고객 문제를 [엽니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) .
