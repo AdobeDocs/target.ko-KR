@@ -5,10 +5,10 @@ title: Adobe Target Recommendations FAQ
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 84%
+source-wordcount: '2019'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 84%
 # ![PREMIUM](/help/assets/premium.png) 권장 사항 FAQ{#recommendations-faq}
 
 Adobe Target Recommendations 활동에 대한 FAQ(FAQ) 목록
+
+## 숫자 값이 있는 사용자 지정 속성을 검색할 때 카탈로그 검색에 올바른 결과가 표시되지 않는 이유는 무엇입니까?
+
+숫자 값이 있는 사용자 지정 속성에 대해 카탈로그 검색을 수행할 때 결과는 사용자 지정 속성을 숫자 값 대신 문자열 유형으로 처리합니다.
+
+현재, 고객이 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면, 유형을 문자열에서 숫자로 변경해야 하는 속성을 참조하는 고객 문제를 [엽니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) .
 
 ## 내 카탈로그에 있는 항목에 대한 업데이트를 내 사이트에 반영하는 데 얼마나 걸립니까?
 
