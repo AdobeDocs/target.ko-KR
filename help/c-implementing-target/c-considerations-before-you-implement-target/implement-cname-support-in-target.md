@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 2%
@@ -34,8 +34,7 @@ Perform the following steps to request CNAME support in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* Adobe 인증 기관인 DigiCert는 이 단계가 완료될 때까지 인증서를 발급할 수 없습니다. 따라서 Adobe은 이 단계가 완료될 때까지 CNAME 구현에 대한 요청을 이행할 수 없습니다.
-
+   >Adobe 인증 기관인 DigiCert는 이 단계가 완료될 때까지 인증서를 발급할 수 없습니다. 따라서 Adobe은 이 단계가 완료될 때까지 CNAME 구현에 대한 요청을 이행할 수 없습니다.
 
 1. [CNAME 지원을 요청하는 Adobe 클라이언트 지원 티켓을](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) 열 때 이 양식을 작성하고 포함시키십시오 [](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
@@ -133,7 +132,7 @@ ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.
    mboxedge38.tt.omtrdc.net: *  subject: C=US; ST=California; L=San Jose; O=Adobe Systems Incorporated; CN=target.example.com
    ```
 
-1. 다음과 같이 새로운 DNS CNAME을 다른 말림 요청과 함께 확인합니다 `CN=target.example.com`.
+1. 다음과 같이 새로운 DNS CNAME을 다른 말림 요청과 함께 확인합니다. `CN=target.example.com`
 
    ```
    curl -sSv https://target.example.com 2>&1 | grep subject:
