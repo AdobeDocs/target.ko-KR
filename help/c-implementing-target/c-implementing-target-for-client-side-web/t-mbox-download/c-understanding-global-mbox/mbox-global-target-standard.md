@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 52%
@@ -45,6 +45,6 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 다음 FAQ를 사용하여 전역 mbox 구현 문제를 해결할 수 있습니다.
 
-### 글로벌 mbox가 로드되지 않거나 페이지 로드 시 글로벌 mbox 로드가 느려지는 이유는 무엇입니까?*
+### 글로벌 mbox가 로드되지 않거나 페이지 로드 시 글로벌 mbox 로드가 느려지는 이유는 무엇입니까?
 
 at.js 참조가 페이지의 첫 번째 JavaScript 호출인지 확인하십시오. 이 문제에 대한 다른 해결 방법은 [글로벌 mbox FAQ를 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).
