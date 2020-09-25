@@ -1,14 +1,14 @@
 ---
 keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
 description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffer(options) 함수 정보입니다.
-title: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffer(options) 함수 정보입니다.
+title: adobe.target.getOffer(옵션)
 feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '455'
 ht-degree: 97%
 
 ---
