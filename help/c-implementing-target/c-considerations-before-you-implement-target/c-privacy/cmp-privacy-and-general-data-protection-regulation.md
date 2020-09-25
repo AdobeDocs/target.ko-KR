@@ -1,14 +1,14 @@
 ---
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: 유럽연합 일반 데이터 보호 규칙(GDPR), 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 사용자의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
-title: 유럽연합 일반 데이터 보호 규칙(GDPR), 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 사용자의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
+title: 개인 정보 보호 및 데이터 보호 규정
 feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
 workflow-type: tm+mt
-source-wordcount: '2276'
+source-wordcount: '2250'
 ht-degree: 93%
 
 ---
