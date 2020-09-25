@@ -1,14 +1,14 @@
 ---
 keywords: Targeting;target library;library
 description: 사전 빌드된 타깃팅 규칙을 기반으로 사용자를 타깃팅하십시오.
-title: 타겟 라이브러리
+title: Adobe Target 대상의 Target 라이브러리 옵션
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 100%
+source-wordcount: '183'
+ht-degree: 96%
 
 ---
 
