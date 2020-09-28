@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 90%
 
 ---
@@ -70,7 +70,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 다중 값 속성에는 최대 500개의 값을 포함할 수 있습니다.
 
-**targetPageParams 사용**
+### targetPageParams 사용
 
 다음 예는 `targetPageParams`를 사용하는 방법을 보여줍니다.
 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**CSV 사용**
+### CSV 사용
 
 텍스트 편집기를 사용하여 CSV 파일을 원시 형식으로 관리하거나 스프레드시트 소프트웨어를 사용할 수 있습니다.
 
@@ -108,7 +108,7 @@ function targetPageParams() {
 
 원시 카탈로그 CSV 파일을 직접 편집할 때는 주의하십시오.
 
-**API 사용**
+### API 사용
 
 배달 API를 사용하여 mbox 매개 변수에 다중 값 특성을 이스케이프된 JSON 배열이 포함된 문자열 값으로 전달할 수 있습니다.
 
@@ -261,7 +261,6 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 디자인에서 `entity.genre=["genre1","genre2"]`가 `$entity<N>.genre`로 참조되는 경우 결과는 `genre1, genre2`입니다.
 
->[!MORELIKETHIS]
->
->* [엔티티 속성](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## 관련 항목:
 
+* [엔티티 속성](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
