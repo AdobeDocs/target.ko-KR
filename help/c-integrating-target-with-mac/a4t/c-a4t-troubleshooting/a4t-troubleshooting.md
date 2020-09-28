@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
+source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 95%
+source-wordcount: '741'
+ht-degree: 90%
 
 ---
 
@@ -81,6 +81,12 @@ Target Standard/Premium에 표시되는 보고서 세트 목록은 Analytics를 
 
 * **at.js 1.x**:호출에서 보조 ID는 매개 변수 [!DNL Target] 에 `mboxMCSDID` 포함됩니다. [!DNL Analytics] 호출에서는 보조 ID가 `sdid` 매개 변수에 포함되어 있습니다.
 * **at.js 2.x**:보충 ID는 HTTP 헤더에서 의 값으로 반환됩니다 `experienceCloud.analytics.supplementalDataId`.
+
+보충 ID를 검사하는 가장 쉬운 방법은 Adobe Experience Platform 디버거를 사용하는 것입니다.
+
+디버거를 설치하지 않은 경우 Adobe Experience Platform 디버거 [소개를 참조하십시오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+
+![디버거](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
 [!DNL Target] 호출에 보조 데이터 ID가 없다면 [!DNL at.js]나 [!DNL mbox.js] 전에 [!DNL VisitorAPI.js] 파일을 로드했는지 확인하십시오. [!DNL Analytics] 호출에 보조 데이터 ID가 없다면 [!DNL Target] 호출 전에 [!DNL Analytics] 호출이 발생하는지 확인하십시오.
 
