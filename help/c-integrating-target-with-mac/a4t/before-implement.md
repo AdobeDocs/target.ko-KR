@@ -5,7 +5,7 @@ title: Adobe Target(A4T)의 보고 소스로 Adobe Analytics을 구현하기 전
 feature: a4t implementation
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 75fa021c00940c87cf4b2bfa0e2875bb396079a1
+source-git-commit: 2619e4fb3b8548d8186e23127968ea395b07c525
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 52%
@@ -75,7 +75,7 @@ Hits that contain data from [!DNL Analytics] and [!DNL Target] contain a supplem
 * 방문자 ID 서비스가 구현됨
 * 이 통합을 지원하는 [!DNL mbox.js] 버전이 구현됨
 
-When troubleshooting, be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
+When [troubleshooting](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
 
 ## 클라이언트 측 분석 로깅 {#client-side}
 
