@@ -5,7 +5,7 @@ title: 엔티티 속성
 feature: entities
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: ed4f132dbf1ac8614f4aac8bd29b39b3dfbce2fe
+source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 88%
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # ![PREMIUM](/help/assets/premium.png) 엔티티 속성{#entity-attributes}
 
-개체 속성을 사용하여 제품 또는 콘텐트 정보를 다음 위치에 ∂ 전달합니다.
+Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
 
 [!DNL Recommendations] 알고리즘에 사용되는 `productId` 또는 `productPurchasedId` (코드라고 함 `entity.id` )을 전송합니다.
 
