@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '2396'
+source-wordcount: '2420'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 9월 29일 | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#section_75002584FA63456D8D9086172925DD8D) | at.js 1.x 및 at.js 2.x에서 보충 ID를 검사하는 방법에 대한 정보가 추가되었습니다. |
 | 9월 24일 | [활동 QA 북마클릿](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2에 대한 활동 QA 북마클릿을 위한 코드를 업데이트했습니다.*x*&#x200B;에는 사용할 수 없습니다. |
 |  | [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md#faq) | 숫자 값이 있는 사용자 지정 속성 검색에 대한 참고가 추가되었습니다. |
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;숫자 값이 있는 사용자 지정 속성을 검색할 때 카탈로그 검색에 올바른 결과가 표시되지 않는 이유는 무엇입니까?&quot; |
