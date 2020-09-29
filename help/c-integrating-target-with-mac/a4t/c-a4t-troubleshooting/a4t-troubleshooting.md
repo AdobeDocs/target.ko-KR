@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '755'
 ht-degree: 90%
 
 ---
@@ -80,7 +80,7 @@ Target Standard/Premium에 표시되는 보고서 세트 목록은 Analytics를 
 특히 방문자가 경험을 사용할 자격이 있는 페이지에서 구현을 검토하고, 보조 데이터 ID가 [!DNL Target] 및 [!DNL Analytics] 호출에서 일치하는지 확인하십시오.
 
 * **at.js 1.x**:호출에서 보조 ID는 매개 변수 [!DNL Target] 에 `mboxMCSDID` 포함됩니다. [!DNL Analytics] 호출에서는 보조 ID가 `sdid` 매개 변수에 포함되어 있습니다.
-* **at.js 2.x**:보충 ID는 HTTP 헤더에서 의 값으로 반환됩니다 `experienceCloud.analytics.supplementalDataId`.
+* **at.js 2.x**:호출에서 보조 ID는 [!DNL Target] HTTP 헤더에서 의 값으로 반환됩니다 `experienceCloud.analytics.supplementalDataId`. [!DNL Analytics] 호출에서는 보조 ID가 `sdid` 매개 변수에 포함되어 있습니다.
 
 보충 ID를 검사하는 가장 쉬운 방법은 Adobe Experience Platform 디버거를 사용하는 것입니다.
 
