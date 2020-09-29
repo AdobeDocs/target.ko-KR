@@ -6,18 +6,19 @@ breadcrumb-title: Target Guide
 user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
+type: Documentation
 translation-type: tm+mt
-source-git-commit: e31e21d4485dfd0357898e1e2d3e47c730876226
+source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
 workflow-type: tm+mt
 source-wordcount: '1509'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
 
-# Adobe Target 도움말 {#using}
+# Adobe Target 가이드 {#using}
 
-+ [Adobe Target 제품 설명서](target-home.md)
++ [Adobe Target 가이드 홈](target-home.md)
 + Target 릴리스 노트 {#release-notes}
    + [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md)
    + [Target 릴리스 노트(현재)](r-release-notes/release-notes.md)
