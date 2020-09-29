@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: e846109c476f98b4adc09d8b9dd2c2ef039b5ef7
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 15%
+source-wordcount: '1118'
+ht-degree: 14%
 
 ---
 
@@ -145,6 +145,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * [!DNL Target] 현재 10분마다 경험 조각을 가져올 수 있습니다. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. You cannot edit the experience fragment in [!DNL Target].
 * JSON 오퍼를 경험 조각으로 가져올 수 [!DNL Target]있습니다. 하지만 이러한 오퍼는 HTML 오퍼로 가져옵니다. JSON 오퍼(경험 조각)는 현재 [!DNL Target] UI에서 완전히 지원되지 않습니다.
+* Adobe IO를 사용하여 경험 조각을 만들 수 없습니다. 위에 설명된 대로 AEM을 사용하여 경험 조각을 만들어야 합니다.
 
 ## Training video: Using AEM experience fragments with Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
