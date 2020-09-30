@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 92f5953a96b92175784600d1b04a23ec4d7152ec
+source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
 workflow-type: tm+mt
-source-wordcount: '1185'
-ht-degree: 24%
+source-wordcount: '1237'
+ht-degree: 23%
 
 ---
 
@@ -36,6 +36,14 @@ ht-degree: 24%
 
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+## Target Standard/Premium 20.9.1(2020년 9월 30일)
+
+이 유지 관리 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
+
+* 키보드 전용 사용자를 위한 탐색 및 기능이 개선되었습니다. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
+* 보조 기술을 사용하는 사용자에게 도움이 되는 레이블을 UI에 추가했습니다. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
+* UI의 이미지 및 텍스트에 대한 텍스트 및 색상 대비를 개선했습니다. (TGT-34513)
 
 ## Target Standard/Premium 20.8.3(2020년 9월 15일)
 
