@@ -6,7 +6,7 @@ seo-description: Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 
 feature: landing
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
+source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 61%
@@ -20,7 +20,7 @@ ht-degree: 61%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트:2020년 9월 30일 ([변경된 내용 참조](r-release-notes/doc-change.md))**
+**마지막 업데이트:2020년 10월 1일 ([변경된 내용](r-release-notes/doc-change.md)참조)**
 
 >[!NOTE]
 >
