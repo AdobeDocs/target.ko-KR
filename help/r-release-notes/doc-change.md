@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
+source-git-commit: 20ecf93ec1ee9adbe2fce50d4d18c1471b69c8aa
 workflow-type: tm+mt
-source-wordcount: '2482'
+source-wordcount: '2492'
 ht-degree: 29%
 
 ---
@@ -22,7 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 9월 20일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target 및 분석을 통해 규모에 맞게 조정 가능한 개인화</li></ul> |
+| 10월 1일 | [성공에 필요한 트래픽 예측](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | FAQ 섹션이 추가되었습니다. |
+| 9월 30일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target 및 분석을 통해 규모에 맞게 조정 가능한 개인화</li></ul> |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 20.9.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 20.8.1(2020년 9월 2일)
