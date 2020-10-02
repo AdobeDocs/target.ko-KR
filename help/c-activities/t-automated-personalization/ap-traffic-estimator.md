@@ -6,9 +6,9 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
+source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 24%
 
 ---
@@ -69,4 +69,4 @@ Remember that [!DNL Target] randomly serves experiences until the personalizatio
 
 특정 상황에서 트래픽이 너무 커서 개인화된 모델이 빌드될 수 있지만 트래픽은 개인화된 모델과 임의 간에 의미 있는 차이가 없음을 나타낼 수 [!DNL Target] 있습니다. 모델이 내장된 [!DNL Target] 후 테스트되더라도 모델이 무작위보다 크게 뛰어난 것은 아니므로 배포되지 않습니다.
 
-모델이 무작위보다 좋지 않은 이유는 오퍼가 서로 크게 다르지 않기 때문일 수 있습니다. 이러한 경우 오퍼를 시각적으로 좀 더 다르게 만들거나 컨텐츠 자체를 변경하여 오퍼의 차이점을 높일 수 있습니다.
+모델이 무작위보다 좋지 않은 이유는 오퍼가 서로 크게 다르지 않기 때문일 수 있습니다. 이 경우 메시지가 유사한 경우 오퍼를 시각적으로 더 다르게 만들거나 메시지 자체를 변경해 볼 수 있습니다.
