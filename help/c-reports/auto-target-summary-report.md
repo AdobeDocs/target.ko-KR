@@ -1,41 +1,50 @@
 ---
-keywords: reports;auto-target;auto target;AT
-description: 자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
+keywords: reports;auto-target;auto target;AT;report
+description: Adobe Target의 자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
 title: Auto-Target 요약 보고서
 feature: reports
 subtopic: Multivariate Test
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 65%
+source-wordcount: '666'
+ht-degree: 57%
 
 ---
 
 
-# Auto-Target 요약 보고서를 참조하십시오{#auto-target-summary-report}
+# ![PREMIUM](/help/assets/premium.png) 자동 Target 요약 보고서{#auto-target-summary-report}
 
-자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
+Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].
 
-자동 Target 요약 보고서를 표시하려면:
+>[!NOTE]
+>
+>[!UICONTROL 자동 타겟]은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Standard]Target Premium 라이센스가 없는 [에는 포함되어 있지 않습니다](/help/c-intro/intro.md#premium).
 
-1. 활동  페이지에서 원하는 자동 Target 활동을 클릭합니다.
+자동 [!UICONTROL Target 요약 보고서를 표시하려면] :
 
-   많은 활동이 있는 경우 유형, 상태, 속성, 보고 소스, 경험 작성기, 지표 유형 및 활동 소스 드롭다운 목록에서 옵션을 선택하여 목록을 필터링할 수 있습니다.
+1. 활동  페이지에서 원하는 [!UICONTROL 자동 Target] 활동을 클릭합니다.
 
-1. [!UICONTROL 보고서] 탭을 클릭합니다.
+   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+
+1. 보고서 [!UICONTROL 탭을] 클릭하고 원하는 아이콘을 클릭합니다.
+
+   * 표 보기
+   * 그래프 보기
+   * 자동화된 세그먼트
+   * 중요 속성
 
 ## 표 보기
 
-다음 그림은 자동 Target 사용 시 &quot;테이블 보기&quot;에서 일반적인 요약 보고서가 어떻게 나타나는지 보여줍니다.
+다음 그림은 [!UICONTROL 자동 Target] 활동 보고서의 보고서를 볼 때 표  보기에서 일반적인 요약 보고서의 모습을 보여줍니다.
 
 ![자동 Target 테이블 보기 보고서](/help/c-reports/assets/at-table-view.png)
 
-자동 타겟 보고서를 해석할 때 필요한 몇 가지 팁과 고려 사항:
+Some tips and considerations as you interpret your [!UICONTROL Auto-Target] reports:
 
-* 표의 다양한 행은 활동 성과를 이해하는 데 도움이 됩니다.
+* 표의 다양한 행은 활동 성능을 이해하는 데 도움이 됩니다.
 
    * 보고 페이지에 있는 표에서 맨 위의 두 행에는 통제군(즉, 임의로 제공된 경험)에 지정된 방문자와 개인화 알고리즘에 지정된 방문자 간의 A/B 테스트의 결과가 표시됩니다. 이 정보를 사용하여 무작위로 제공된 통제군과 비교하여 개인화 알고리즘이 어떻게 수행되었는지를 측정할 수 있습니다.
    * 나머지 행은 경험 수준의 결과를 보여줍니다. 각 경험에 대해서는, 해당 경험이 임의로 제공되는 통제 경험으로서 표시된 방문자의 평균 응답과 경험이 개인화 알고리즘을 사용하는 것으로 표시된 방문자의 평균 응답 간 비교가 있습니다.
@@ -46,13 +55,13 @@ ht-degree: 65%
    * 이 경우 모든 경험을 위해 모델을 만드는 활동의 속도를 높이기 위해 아직 만들어지지 않은 모델이 있는 경험에 추가 트래픽이 전송됩니다.
    * 개인화를 시작하려면 모델이 빌드된 경험(녹색 확인 표시)이 두 개 이상 있어야 합니다.
 
-* 경험 A의 전환율을 경험 B의 전환율과 비교하는 것은 자동 타겟에서 적절한 비교가 아닙니다. 문제는 지능적인 방식으로 제공될 때와 임의 방식(다시 말해 통제군 사용)으로 제공될 때 중 언제 경험 A가 더 나은 성과를 보이는가 하는 것입니다. 또한 개인화 알고리즘은 개별 경험이 아니라 전체 활동에 대한 성공 지표에 대해 최적화하려고 시도하므로 마케터는 개별 경험의 상승도 해석에 대해 주의해야 합니다.
+* Comparing the conversion rate of experience A with that of experience B is not the right comparison in [!UICONTROL Auto-Target]. 문제는 지능적인 방식으로 제공될 때와 임의 방식(다시 말해 통제군 사용)으로 제공될 때 중 언제 경험 A가 더 나은 성과를 보이는가 하는 것입니다. 또한 개인화 알고리즘은 개별 경험이 아니라 전체 활동에 대한 성공 지표에 대해 최적화하려고 시도하므로 마케터는 개별 경험의 상승도 해석에 대해 주의해야 합니다.
 * 상승도가 가장 높은 경험은 모집단 내에서 분화가 가장 큰 것으로 이해할 수 있습니다. 즉, 알고리즘이 해당 특정 경험을 가장 좋아하는 세그먼트를 찾은 것입니다.
 * 표의 다양한 열에는 방문 횟수, 전환율, 평균 리프트 및 신뢰 수준, 신뢰도가 표시됩니다. 자세한 내용은 [평균 리프트, 리프트 경계 및 신뢰 구간](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)을 참조하십시오.
 
 ## 그래프 보기
 
-다음 그림은 자동 Target 사용 시 &quot;그래프 보기&quot;에서 일반적인 요약 보고서가 어떻게 나타나는지 보여줍니다.
+다음 그림은 자동 Target [!UICONTROL 활동 보고서를 볼 때] 그래프 보기에서  일반적인 요약 보고서가 어떻게 나타나는지 보여줍니다.
 
 ![자동 Target 그래프 보기 보고서](/help/c-reports/assets/at-graph-view.png)
 
@@ -62,7 +71,7 @@ ht-degree: 65%
 
 ## 자동화된 세그먼트
 
-자동화된 세그먼트 아이콘을 클릭합니다. 이 보고서는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 어떻게 다르게 반응하는지를 보여줍니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.
+자동화된 세그먼트 [!UICONTROL 아이콘을] 클릭합니다. 이 보고서는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 어떻게 다르게 반응하는지를 보여줍니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.
 
 ![자동화된 세그먼트 아이콘](/help/c-reports/assets/icon-automated-sements.png)
 
@@ -70,7 +79,7 @@ ht-degree: 65%
 
 ## 중요 속성
 
-중요 속성 아이콘을 클릭합니다. 이 보고서는 다양한 활동에서 모델이 개인화하는 방식에 대해 서로 다른 속성이 더 중요하거나 덜 중요한 방법을 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
+중요 속성 [!UICONTROL 아이콘을] 클릭합니다. 이 보고서는 다양한 활동에서 모델이 개인화하는 방식에 대해 서로 다른 속성이 더 중요하거나 덜 중요한 방법을 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
 
 ![중요 속성 아이콘](/help/c-reports/assets/icon-important-attributes.png)
 
