@@ -5,7 +5,7 @@ title: Adobe Target Recommendations FAQ
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -198,3 +198,4 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 * 부분 템플릿 렌더링이 비활성화되어 템플릿을 채울 수 있는 결과가 충분하지 않습니다.
 
    일반적으로 동적 포함 규칙이 있으면 발생 가능한 결과에서 많은 항목을 적극적으로 필터링합니다. 이 문제를 방지하려면 백업을 활성화하고 백업 포함 규칙을 적용하지 않고 필터링이 덜 까다로운 기준을 순서대로 사용하지 마십시오.
+
