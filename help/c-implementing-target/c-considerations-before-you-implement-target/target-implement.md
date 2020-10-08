@@ -2,11 +2,11 @@
 keywords: document.write;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox
 description: 웹 페이지에서 Target 라이브러리(at.js 또는 mbox.js)를 참조하여 Target을 구현합니다.
 title: Target JavaScript 라이브러리 이해
-feature: null
+feature: implementation general
 topic: Target
 uuid: c8a254c9-afc9-4a55-be01-788c11bef7cc
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
 workflow-type: tm+mt
 source-wordcount: '601'
 ht-degree: 100%
