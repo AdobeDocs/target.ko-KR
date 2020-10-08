@@ -5,9 +5,9 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
+source-git-commit: 4abd3678914c3866b08f56c5594df285cd903e08
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3794'
 ht-degree: 80%
 
 ---
@@ -129,7 +129,7 @@ Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표
 
 ### 자동 Target 보고(#at-metrics)
 
-9월 15일, 오후 2:30부터 [!DNL Adobe Target Premium] 사용자의 [!UICONTROL 자동 Target] 보고에 영향을 주는 문제가 해결되었습니다.(PDT) - 10월 6일 오전 9시 25분(PDT). 영향을 받은 전환 지표에 대한 보고서(&quot;페이지를[!UICONTROL 보았습니다]&quot; 또는 &quot;mbox에서[!UICONTROL 클릭함]&quot;)를 보면 전환율이 잘못 보고됩니다. 현재 알려진 배달 문제가 없습니다.
+9월 15일, 오후 2:30부터 [!DNL Adobe Target Premium] 사용자의 [!UICONTROL 자동 Target] 보고에 영향을 주는 문제가 해결되었습니다.(PDT) - 10월 6일 오전 9시 25분(PDT). 영향을 받은 전환 지표에 대한 보고서를 볼 때(페이지를 [!UICONTROL 보았음]&quot; 또는 &quot;mbox에서[!UICONTROL 클릭함]&quot; 옵션을 사용하여 구성됨) 전환율이 잘못 보고됩니다. 현재 알려진 배달 문제가 없습니다.
 
 보고서를 다시 동기화하고 수정하려면:
 
