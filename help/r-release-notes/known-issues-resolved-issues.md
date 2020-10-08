@@ -5,9 +5,9 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: d3d9ef5cd18668d913fd1f890d71ca954957424b
 workflow-type: tm+mt
-source-wordcount: '3704'
+source-wordcount: '3708'
 ht-degree: 81%
 
 ---
@@ -24,22 +24,6 @@ ht-degree: 81%
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
-
-### 보고
-
-현재 전환은 사용된 고객에 따라 다르게 증가합니다.
-
-예를 들어 동일한 방문자의 경우 전환 카운트가 &quot;참가자당 한 번:&quot;을 증가하도록 설정된 경우
-
-* 대상:방문 수준 전환에 대한 &quot;모든 적격한 방문자&quot;는 한 번만 증가합니다. 이는 예상 행동입니다.
-* 대상:방문 수준 전환에 대한 &quot;새 방문자&quot;는 한 번만 증가시키지 않고 매번 잘못 증가합니다. 이는 예상 동작이 아닙니다.
-
-전환 카운트가 &quot;모든 노출 시:&quot;로 증가하도록 설정된 경우
-
-* 대상:방문자 수준 전환에 대한 &quot;모든 적격한 방문자&quot;는 매번 증가하지 않고 한 번만 잘못 증가시킵니다. 이는 예상 동작이 아닙니다.
-* 대상:방문자 수준 전환을 위한 &quot;새 방문자&quot;가 매번 증가합니다. 이는 예상 행동입니다.
-
-이 문제는 [!DNL Target] 보고에만 관련되어 있습니다. Target [!UICONTROL (A4T) 보고를 위해] Analytics를 사용할 때는 문제가 되지 않습니다.
 
 ### 페이지 게재 {#page-delivery}
 
@@ -142,6 +126,24 @@ Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 위의 알려진 문제가 해결되면 다음 섹션으로 이동되고, 필요한 경우 다른 메모가 더 추가됩니다.
+
+### 보고
+
+현재 전환은 사용된 고객에 따라 다르게 증가합니다.
+
+예를 들어 동일한 방문자의 경우 전환 카운트가 &quot;참가자당 한 번:&quot;을 증가하도록 설정된 경우
+
+* 대상:방문 수준 전환에 대한 &quot;모든 적격한 방문자&quot;는 한 번만 증가합니다. 이는 예상 행동입니다.
+* 대상:방문 수준 전환에 대한 &quot;새 방문자&quot;는 한 번만 증가시키지 않고 매번 잘못 증가합니다. 이는 예상 동작이 아닙니다.
+
+전환 카운트가 &quot;모든 노출 시:&quot;로 증가하도록 설정된 경우
+
+* 대상:방문자 수준 전환에 대한 &quot;모든 적격한 방문자&quot;는 매번 증가하지 않고 한 번만 잘못 증가시킵니다. 이는 예상 동작이 아닙니다.
+* 대상:방문자 수준 전환을 위한 &quot;새 방문자&quot;가 매번 증가합니다. 이는 예상 행동입니다.
+
+이 문제는 [!DNL Target] 보고에만 관련되어 있습니다. Target [!UICONTROL (A4T) 보고를 위해] Analytics를 사용할 때는 문제가 되지 않습니다.
+
+이 문제가 해결되었습니다.
 
 ### Google Chrome 버전 80+를 사용할 때 VEC(Visual Experience Composer) 또는 EEC(Enhanced Experience Composer)에서 페이지가 로드되지 않음
 
