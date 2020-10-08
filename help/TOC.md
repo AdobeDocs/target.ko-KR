@@ -1,22 +1,22 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Adobe Target 가이드
+user-guide-title: Adobe Target 안내서
 breadcrumb-title: Target Guide
 user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 37f2faf8f82286d909f813fd7cc349c3e769bb4d
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1511'
 ht-degree: 86%
 
 ---
 
 
-# Adobe Target 가이드 {#using}
+# Adobe Target 안내서 {#using}
 
 + [Adobe Target 가이드 홈](target-home.md)
 + Target 릴리스 노트 {#release-notes}
@@ -166,6 +166,7 @@ ht-degree: 86%
       + [릴리스 노트 - Target Node.js SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)
       + [릴리스 노트 - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md)
       + [Target의 이전 API에서 Adobe I/O로 전환](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+   + [하이브리드 구현](/help/c-implementing-target/hybrid-implementation.md)
    + 이메일: Target 구현 {#implement-email}
       + [이메일: Target 구현 개요](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [이미지용 Adbox 만들기](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
