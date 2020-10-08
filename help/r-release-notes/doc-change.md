@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
+source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
 workflow-type: tm+mt
-source-wordcount: '2505'
+source-wordcount: '2537'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 8일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 다음과 같은 해결된 문제가 추가되었습니다.<ul><li>[자동 Target 보고](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>다음 문제를 알려진 문제 섹션에서 해결된 문제 섹션으로 옮겼습니다.<ul><li>[보고](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
+|  | [하이브리드 구현](/help/c-implementing-target/hybrid-implementation.md) | 새 주제입니다.  |
 | 10월 7일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.10.1 릴리스에 대한 정보가 추가되었습니다. |
 | 10월 1일 | [성공에 필요한 트래픽 예측](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | FAQ 섹션이 추가되었습니다. |
 | 9월 30일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target 및 분석을 통해 규모에 맞게 조정 가능한 개인화</li></ul> |
