@@ -2,15 +2,15 @@
 product: target
 audience: end-user
 user-guide-title: Adobe Target 안내서
-breadcrumb-title: Target Guide
-user-guide-description: Learn how to tailor and personalize your customers' experience so you can maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
+breadcrumb-title: Target 안내서
+user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있도록 고객의 경험을 맞춤화 및 개인화하는 방법을 살펴볼 수 있습니다.
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 1e550d57f482cb4a4f08485b33afcd0db18674c6
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '1511'
+source-wordcount: '1548'
 ht-degree: 86%
 
 ---
@@ -178,7 +178,7 @@ ht-degree: 86%
       + [구현하기 전에](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target 구현](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [사용자 권한 요구 사항](c-integrating-target-with-mac/a4t/account-reqs.md)
-      + [활동 만들기](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [Analytics를 보고 소스로 사용하는 활동 만들기](c-integrating-target-with-mac/a4t/campaign-creation.md)
       + [Analytics 추적 서버 사용](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T 보고](c-integrating-target-with-mac/a4t/reporting.md)
       + Analytics 및 Target 통합 문제 해결(A4T) {#troubleshoot-a4t}
