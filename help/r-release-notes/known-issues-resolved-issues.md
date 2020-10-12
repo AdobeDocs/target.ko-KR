@@ -5,15 +5,15 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2092247f235233d9628dc001a5e898df0aa9da8c
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '3793'
-ht-degree: 80%
+source-wordcount: '3898'
+ht-degree: 77%
 
 ---
 
 
-# 알려진 문제 및 해결된 문제{#known-issues-and-resolved-issues}
+# 알려진 문제 및 해결된 문제
 
 이 릴리스의 Target에 대한 알려진 문제 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 
@@ -24,6 +24,12 @@ ht-degree: 80%
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
+
+### 자동 할당 및 자동 Target 활동에 대한 Target(A4T) 지표 분석
+
+현재 알려진 문제는 [!DNL Target] UI에서 사용자가 자동 할당 및 [!UICONTROL 자동 Target] 활동에서 최적화를 위한 기본 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있도록 해주는 [!UICONTROL 것입니다] . 전환 지표가 지원됩니다.참여 및 매출 지표는 지원되지 *않습니다* . 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 만들어지지 않습니다(Target UI에서 현재 지원되지 않는 목표 지표를 선택할 수 있더라도).
+
+지원 및 지원되지 않는 목표 지표의 목록은 Analytics를 보고 소스로 사용하는 활동 [만들기에서 지원되는 목표 지표](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 를 참조하십시오 **. (TNT-38409)
 
 ### 페이지 게재 {#page-delivery}
 
