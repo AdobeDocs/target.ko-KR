@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2610'
 ht-degree: 29%
 
 ---
@@ -24,6 +24,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 10월 12일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 인증 [토큰을 생성해야 하는 권한 수준을 나타내기 위해 디버깅 도구와](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) 함께 사용할 인증 토큰을 검색합니다. |
 |  | [프로필 API 설정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 인증 토큰을 생성해야 하는 권한 수준을 나타내도록 항목을 업데이트했습니다. |
+|  | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 자동 Target을 사용하여 실제 성공 스토리가 추가되었습니다. |
 |  | [유사한 페이지에 동일한 경험 포함](/help/c-experiences/c-visual-experience-composer/temtest.md) | 전체 도메인에서 동일한 활동을 렌더링하는 방법을 설명하는 섹션이 추가되었습니다. |
 | 10월 8일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | 다음과 같은 해결된 문제가 추가되었습니다.<ul><li>[자동 Target 보고](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>다음 문제를 알려진 문제 섹션에서 해결된 문제 섹션으로 옮겼습니다.<ul><li>[보고](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [하이브리드 구현](/help/c-implementing-target/hybrid-implementation.md) | 새 주제입니다.  |
