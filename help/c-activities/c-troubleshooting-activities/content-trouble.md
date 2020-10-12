@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 67%
+source-wordcount: '1386'
+ht-degree: 60%
 
 ---
 
@@ -25,9 +25,21 @@ ht-degree: 67%
 
 mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. 그러나 콘텐츠 전달을 디버깅할 때 유용한 세부 정보로 이동하지는 않습니다. 사용자 활동이 페이지에 나타나지 않거나 원치 않는 콘텐츠가 나타나면 mboxTrace를 사용하여 페이지를 자세히 검사하고 디버깅하십시오.
 
-## 디버깅 도구에 사용할 인증 토큰 검색 {#section_BED130298E794D1FA229DB7C3358BA54}
+## Retrieve the authorization token to use with debugging tools {#section_BED130298E794D1FA229DB7C3358BA54}
 
 mboxTrace 및 mboxDebug는 캠페인 데이터 및 프로필 데이터를 외부 당사자에게 노출할 수 있으므로 인증 토큰이 필요합니다. 인증 토큰은 [!DNL Target] UI에서 검색할 수 있습니다. 토큰은 6시간 동안 유효합니다.
+
+인증 토큰을 생성하려면 다음 사용자 권한 중 하나가 있어야 합니다.
+
+* 적어도 [!UICONTROL 편집기] 권한(또는 [!UICONTROL 승인자])
+
+   고객에 대한 자세한 내용은 [!DNL Target Standard] 사용자 [에서 역할 및 권한](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 지정을 *참조하십시오*. 고객에 대한 자세한 내용은 [!DNL Target Premium] 엔터프라이즈 권한 [구성을 참조하십시오](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* 작업 공간/제품 프로필 수준에서 관리자 역할
+
+   작업 영역은 [!DNL Target Premium] 고객에게만 제공됩니다. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+* 제품 수준의 관리자 권한( [!DNL Adobe Target] 시스템 관리자 권한)
 
 인증 토큰을 검색하려면 다음을 수행하십시오.
 
@@ -66,7 +78,7 @@ mboxTrace enables you to receive trace information attached to [!DNL Target] res
 * **Unmatched**: 요청이 이 호출에서 해당 세그먼트 또는 타겟에 자격을 부여하지 않았습니다.
 * **Matched**: 요청이 지정된 세그먼트 또는 타겟에 자격을 부여했습니다.
 
-**권장 사항 페이지에서 mboxTrace 사용**: 권장 사항이 있는 페이지에 mboxTrace를 쿼리 매개 변수로 추가하면 페이지의 권장 사항 디자인이 mboxTrace 세부 정보 창으로 바뀝니다. 이 창에는 다음을 비롯하여 권장 사항에 대한 자세한 정보가 표시됩니다.
+**추천 페이지에서 mboxTrace 사용**:추천이 있는 페이지에 mboxTrace를 쿼리 매개 변수로 추가하면 페이지의 Recommendations 디자인이 mboxTrace 세부 정보 창으로 바뀝니다. 이 창에는 다음을 비롯한 권장 사항에 대한 자세한 정보가 표시됩니다.
 
 * 반환된 권장 사항 및 요청된 권장 사항
 * 사용된 키 및 권장 사항을 생성하는지 여부
@@ -116,7 +128,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. 대신 *`orderConfirmPage`* 호출을 사용하십시오.
 
-## 활동 우선 순위 확인 {#section_3D0DD07240F0465BAF655D0804100AED}
+## Check activity priority {#section_3D0DD07240F0465BAF655D0804100AED}
 
 Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
@@ -130,7 +142,7 @@ Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
 mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
-## Target 쿠키가 설정되지 않습니다.{#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target cookie does not get set {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 
