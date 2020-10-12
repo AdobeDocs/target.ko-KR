@@ -1,19 +1,20 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+description: Adobe Target의 자동 Target은 고급 머신 러닝을 사용하여 고성능의 마케터가 정의한 여러 경험 중에서 선택하여 컨텐츠를 개인화하고 전환율을 높일 수 있습니다. 자동 타겟은 개별 고객 프로필 및 유사한 프로필을 갖는 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
 title: 자동 타겟
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 85%
+source-wordcount: '3744'
+ht-degree: 83%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 자동 타겟{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) 자동 타겟
 
 [!UICONTROL 자동 타겟]은 콘텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택합니다. 자동 타겟은 개별 고객 프로필 및 유사한 프로필을 갖는 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
 
@@ -21,11 +22,19 @@ ht-degree: 85%
 >
 >[!UICONTROL 자동 타겟]은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다. 이 라이센스에서 제공하는 고급 기능에 대한 자세한 내용은 [Target Premium](/help/c-intro/intro.md)을 참조하십시오.
 
+## 자동 Target을 사용한 실제 성공 사례 {#success}
+
+최근 주요 의류 소매업체는 10개의 제품 카테고리 기반 경험(무작위 제어 포함)이 포함된 [!UICONTROL 자동 Target] 활동을 사용하여 각 방문자에게 올바른 컨텐츠를 전달했습니다. &quot;[!UICONTROL 장바구니에]추가&quot;가 기본 최적화 지표로 선택되었습니다. 타깃팅된 경험들은 평균 29.09%의 상승률을 보였다. 자동 [!UICONTROL Target] 모델을 빌드한 후 활동이 90%의 개인화된 경험으로 설정되었습니다.
+
+10일 만에 170만 달러 이상의 리프트 뚫렸다.
+
+지속적인 읽기를 통해 자동 [!UICONTROL Target을] 사용하여 조직의 상승도와 매출을 높이는 방법을 살펴볼 수 있습니다.
+
+## 개요 {#section_972257739A2648AFA7E7556B693079C9}
+
 [3단계 안내 워크플로우를 사용하여 A/B 활동을 작성](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)하는 동안 [!UICONTROL 개인화된 경험에 대한 자동 타겟] 선택 사항을 사용하여 트래픽을 할당하도록 선택할 수 있습니다.
 
 ![개인화된 경험에 대한 자동 타겟](/help/c-activities/assets/auto-target-ui-new.png)
-
-## 개요 {#section_972257739A2648AFA7E7556B693079C9}
 
 A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하면 한 번의 클릭으로 마케터가 정의한 일련의 경험들을 기반으로 개인화하는 기계 학습을 활용할 수 있습니다. [!UICONTROL 자동 타겟은 각 방문자에 대해 표시할 경험을 결정함으로써, 기존의 A/B 테스트나 자동 할당에 비해 최대 최적화를 제공하도록 설계되었습니다. ] 목표가 단일 승자를 찾는 것인 A/B 활동과는 달리, [!UICONTROL 자동 타겟]은 주어진 방문자에 대해(방법 프로필과 기타 상황 정보를 기반으로) 최고의 경험을 자동으로 결정하여 높은 수준으로 개인화된 경험을 제공합니다.
 
@@ -117,7 +126,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 * 이 지표는 전환이나 매출을 기반으로 할 수 있습니다(구체적으로는 방문당 매출액).
 
-**알고리즘이[!DNL Analytics]를 데이터 소스나 보고 끝점으로 사용하는 것을 지원하지 않습니다.**
+**알고리즘이 [!DNL Analytics]를 데이터 소스나 보고 끝점으로 사용하는 것을 지원하지 않습니다.**
 
 **Target은 방문자에 대한 정보를 자동으로 수집하여 개인화 모델을 구축합니다.**
 
@@ -241,7 +250,7 @@ AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/au
 
 활동은 경우에 따라 예상대로 수행되지 않을 수 있습니다. 여기에서는 [!UICONTROL 자동 타겟] 및 일부 제안된 해결 방법을 사용할 때 발생할 수 있는 몇 가지 잠재적인 어려움에 대해 설명합니다.
 
-**[!UICONTROL 자동 타겟]활동에서 모델을 만드는 데 시간이 너무 오래 걸립니다.**
+**[!UICONTROL 자동 타겟] 활동에서 모델을 만드는 데 시간이 너무 오래 걸립니다.**
 
 [!UICONTROL 자동 타겟] 활동에 있는 경험 수, 사이트에 대한 트래픽, 선택한 성공 지표 등 모델을 만드는 데 드는 예상 시간을 줄일 수 있는 몇 가지 활동 설정 변경 사항이 있습니다.
 
@@ -252,7 +261,7 @@ AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/au
 * 활동에서 삭제할 수 있는 경험이 있습니까? 활동에 있는 경험의 수를 줄이면 모델을 만드는 시간이 줄어듭니다.
 * 이 활동이 더 성공할 트래픽이 더 높은 페이지가 있습니까? 활동 위치에서 트래픽과 전환이 더 많을수록 모델이 더 빨리 만들어집니다.
 
-**내[!UICONTROL 자동 타겟]활동이 상승도를 생성하지 않습니다.**
+**내 [!UICONTROL 자동 타겟] 활동이 상승도를 생성하지 않습니다.**
 
 AP 활동에서 상승도를 생성하는 데에는 4가지 필요한 요소가 있습니다.
 
