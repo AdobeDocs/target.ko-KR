@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2684'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 13일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 2020년 11월 10일로 예정된 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target의 디바이스 내 의사 결정을 통해 지연 없이 개인화 및 테스트</li></ul> |
+|  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 2020년 11월 10일로 예정된 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target의 디바이스 내 의사 결정을 통해 지연 없이 개인화 및 테스트</li></ul> |
 | 10월 12일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 인증 [토큰을 생성해야 하는 권한 수준을 나타내기 위해 디버깅 도구와](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) 함께 사용할 인증 토큰을 검색합니다. |
 |  | [프로필 API 설정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 인증 토큰을 생성해야 하는 권한 수준을 나타내도록 항목을 업데이트했습니다. |
 |  | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 자동 Target을 사용하여 실제 성공 스토리가 추가되었습니다. |
