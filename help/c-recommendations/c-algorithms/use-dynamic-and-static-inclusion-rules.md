@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 35%
+source-wordcount: '2100'
+ht-degree: 34%
 
 ---
 
@@ -59,20 +59,6 @@ Adobe Target에서 기준 및 판촉 행사에 대한 포함 규칙 만들기와
 예를 들어 다음 예제와 같이 현재 항목의 브랜드와 일치하는 항목만 권장합니다.
 
 브랜드 랜딩 페이지의 mbox가 반환되는 `entity.brand=Nike`경우 Nike 제품만 반환되고 해당 페이지에 표시됩니다. 마찬가지로 아디다스 브랜드 랜딩 페이지에서 아디다스 제품만 반환됩니다. 이러한 유형의 동적 포함 규칙을 사용할 경우 사용자는 각 브랜드 이름에 맞게 컬렉션이나 정적 필터를 지정하는 대신 모든 브랜드 페이지에 걸쳐 관련 브랜드 결과를 반환하는 하나의 추천 규칙만 지정해야 합니다.
-
-사용 가능한 연산자:
-
-* equals
-* 다음과 같지 않음
-* 다음 사이
-* 다음 포함
-* 다음을 포함하지 않음
-* 다음으로 시작
-* 다음으로 끝남
-* 값이 있음
-* 값이 없음
-* 다음보다 크거나 같음
-* 다음보다 작거나 같음
 
 #### 프로필 속성 일치
 
