@@ -5,9 +5,9 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 31bbee408ef4490ecd3a66223e895802ba9f88e5
+source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
 workflow-type: tm+mt
-source-wordcount: '3900'
+source-wordcount: '3897'
 ht-degree: 77%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 77%
 
 ### 자동 할당 및 자동 Target 활동에 대한 Target(A4T) 지표 분석
 
-현재 알려진 문제는 [!DNL Target] UI에서 사용자가 자동 할당 및 [!UICONTROL 자동 Target] 활동에서 최적화를 위한 기본 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있도록 해주는 [!UICONTROL 것입니다] . 전환 지표가 지원됩니다.참여 및 매출 지표는 지원되지 *않습니다* . 참여 또는 매출 목표 지표(예: 주문)를 선택하면 최적화 모델이 빌드되지 않습니다(현재 지원되지 않는 목표 지표를 선택할 수 있는 UI도 [!DNL Target] 마찬가지입니다).
+현재 알려진 문제는 [!DNL Target] UI에서 사용자가 자동 할당 및 [!UICONTROL 자동 Target] 활동에서 최적화를 위한 기본 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있도록 해주는 [!UICONTROL 것입니다] . 전환 지표가 지원됩니다.참여 및 매출 지표는 지원되지 *않습니다* . 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 빌드되지 않습니다(현재 [!DNL Target] UI에서 지원되지 않는 목표 지표를 선택할 수 있더라도).
 
 지원 및 지원되지 않는 목표 지표의 목록은 Analytics를 보고 소스로 사용하는 활동 [만들기에서 지원되는 목표 지표](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 를 참조하십시오 **. (TNT-38409)
 
