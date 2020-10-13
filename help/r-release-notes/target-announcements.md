@@ -5,9 +5,9 @@ title: Target 공지
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 12ba12efe4ece2bde6e20f0078fefd346332ea6f
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '592'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,17 @@ Target Skinning Builder 세션, 개발자 채팅, 웨비나, Target 커피 브�
 ## Adobe, &quot;개인화 엔진 부문 Gartner Magic Quadrant&quot;에서 리더로 선정
 
 Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 평가 결과,비전의 완전성과 실행 능력. [Adobe 블로그에서 확인할 수 있습니다](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+
+## 웨비나:Adobe Target의 디바이스 내 의사 결정을 통해 지연 없이 개인화 및 테스트
+
+점점 더 많은 마케터, 제품 소유자 및 개발자는 사이트, 앱 등 고객과 교류하는 모든 곳에서 전반적인 고객 경험을 최적화해야 합니다. 데이터 분산 및 복잡한 구현이 가능한 여러 툴로 인해 많은 작업이 수월해집니다.
+
+이 라이브 웨비나에서 Adobe Target 제품 전문가와 함께 지연 없이 디바이스에서 실행되어야 하는 중요한 경험 최적화 의사 결정이 새로운 활용 사례를 여는 동시에 고객을 위한 사이트 성능을 향상시킬 수 있는 방법을 논의합니다.
+
+* **2020년 11월 10일 화요일**
+* **10am PT | CT 12pm | ET 1pm**
+
+[이 흥미로운 이벤트에 등록하십시오.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## 웨비나:Adobe Target 및 분석을 통해 규모에 맞게 조정 가능한 개인화
 
@@ -40,7 +51,7 @@ Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시
 
 ## 웨비나:HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법
 
-* **앞으로 30일 동안 여기를 클릭하여 웨비나 레코딩을 볼 수[있습니다](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **앞으로 30일 동안 여기를 클릭하여 웨비나 레코딩을 볼 수 [있습니다](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital은 &quot;지난 5년간 소비자 및 비즈니스 디지털 채택이 8주 만에 급증했다고 보고했습니다.&quot; *
 
