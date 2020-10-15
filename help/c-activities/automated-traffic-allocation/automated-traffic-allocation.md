@@ -6,10 +6,10 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '3335'
-ht-degree: 78%
+source-wordcount: '3368'
+ht-degree: 76%
 
 ---
 
@@ -82,7 +82,9 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 | ![4라운드](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **4라운드**: 이 라운드 동안 트래픽의 80%가 경험 C와 D에 할당됩니다(각각 40%). 트래픽의 20%는 무작위로 할당됩니다. 이것은 A, B, C 및 D가 각각 트래픽의 5%를 받음을 의미합니다. 이 라운드 동안 경험 C는 잘 수행됩니다.<ul><li>알고리즘에서는 경험 C가 전환율이 가장 높아서(각 활동의 세로 눈금에 로 표시됨) 경험 C가 다음 라운드로 이동하도록 선택됩니다.</li><li>알고리즘에서 경험 D는 나머지 경험의 Bernstein 95% 신뢰 구간에 대한 상한이 가장 높으므로 경험 D도 순방향으로 이동하도록 선택됩니다.</li></ul>경험 C와 D가 순방향으로 이동합니다. |
 | ![n라운드](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **라운드 n**: 활동이 진행되면서 성과가 좋은 경험이 나타나기 시작하고 우승 경험이 나올 때까지 프로세스가 계속됩니다. 전환율이 가장 높은 경험의 신뢰 구간이 다른 경험의 신뢰 구간과 겹치지 않으면 이 경험에 우승자 레이블이 지정되고 [배지가 활동의 페이지에 표시](/help/c-activities/automated-traffic-allocation/determine-winner.md)되고 활동 목록에도 표시됩니다.<ul><li>알고리즘에서는 경험 C를 분명한 승자로 선택합니다</li></ul>이 시점에서 알고리즘은 트래픽의 80%를 경험 C에 제공하지만, 트래픽의 20%는 계속해서 모든 경험(A, B, C 및 D)에 무작위로 제공됩니다. 통틀어 C는 트래픽의 85%를 받습니다. 승자의 신뢰 구간이 다시 겹치기 시작하는 있기 힘든 이벤트에서는 알고리즘이 위의 라운드 4 동작으로 되돌아갑니다.<br>**중요**: 프로세스에서 이전에 승자를 수동으로 선택한 경우에는 잘못된 경험을 선택하기 쉬웠을 것입니다. 따라서 알고리즘이 가장 성과가 좋은 경험을 결정할 때까지 기다리는 것이 좋습니다. |
 
-활동에 경험이 두 개만 있는 경우 Target이 신뢰도 90%인 경험을 찾기 전까지는 두 경험이 모두 동일한 트래픽을 받습니다. 이 시점에서 트래픽의 70%는 승자에게 할당되고 30%는 패자에게 할당됩니다. 해당 경험이 95% 신뢰도에 도달하면 트래픽의 100%가 승자에게 할당되고 0%가 패자에게 할당됩니다.
+>[!NOTE]
+>
+>활동에 두 개의 경험만 있는 경우, 두 경험 모두 75%의 신뢰도가 있는 우승 경험을 찾을 때까지 동일한 트래픽을 [!DNL Target] 받습니다. 이때 트래픽의 2/3이 우승자에게 할당되고 1/3이 패자에게 할당됩니다. 그 후에는 경험이 95% 신뢰도에 도달하면 트래픽의 90%가 우승자에게 할당되고 10%가 패자에게 할당됩니다. 장기적으로 잘못된 긍정(즉, 일부 탐색을 유지)을 피하기 위해 &quot;손실&quot; 경험으로 전송되는 일부 트래픽을 항상 유지 관리합니다.
 
 After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
