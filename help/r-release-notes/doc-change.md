@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '2684'
-ht-degree: 29%
+source-wordcount: '2700'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 14일 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 두 개의 경험만 있는 자동 할당 활동에 대한 트래픽 할당에 대한 참고가 추가되었습니다. |
 | 10월 13일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 2020년 11월 10일로 예정된 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target의 디바이스 내 의사 결정을 통해 지연 없이 개인화 및 테스트</li></ul> |
 |  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 2020년 11월 10일로 예정된 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target의 디바이스 내 의사 결정을 통해 지연 없이 개인화 및 테스트</li></ul> |
 | 10월 12일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 인증 [토큰을 생성해야 하는 권한 수준을 나타내기 위해 디버깅 도구와](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) 함께 사용할 인증 토큰을 검색합니다. |
