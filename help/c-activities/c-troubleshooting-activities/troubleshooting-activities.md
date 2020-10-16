@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -109,7 +109,7 @@ Target에서 사용자로 추가된 후 활동을 만들려면 승인자 역할�
 
 ## Mbox.js가 헤드 및 본문에서 모든 후속 코드를 표시하고 있습니다.
 
-**유효성 검사:** 소스를 보고 </body> 태그를 닫기 전에 mbox.js 파일 다음에 선언이 오는지 판별하십시오.
+**유효성 검사:** 소스를 보고 `</body>` 태그를 닫기 전에 mbox.js 파일 다음에 선언이 오는지 판별하십시오.
 
 **옵션:**
 
