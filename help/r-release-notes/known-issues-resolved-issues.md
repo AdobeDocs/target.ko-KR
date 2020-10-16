@@ -5,7 +5,7 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -240,7 +240,7 @@ Adobe I/O에서 v1 버전의 오퍼 API는 Target을 통해 생성된 모든 오
 
 이 문제가 해결되었습니다.
 
-### at.js
+### at.js {#at-js-2}
 
 at.js 버전 1.0으로 업그레이드한 후 at.js 및 Visitor API 2.2.0 간의 상호 작용으로 인해 Mbox가 Microsoft Explorer 11 브라우저에서 실행되지 않습니다. 이 문제는 at.js 버전 0.9.6 이상에 영향을 미칩니다. (TNT-27600)
 
@@ -252,7 +252,7 @@ API 2.3.0 이상 릴리스에서 해결됨
 
 2018년 11월에 수정됨
 
-### at.js
+### at.js {#at-js-3}
 
 at.js 버전 1.6.0을 사용하는 경우, Analytics for Target (A4T) 리디렉션이 발생하지만 활동 자격이 없습니다.
 
@@ -294,7 +294,7 @@ Firefox 및 Internet Explorer에서 코드 편집기로 작업하는 동안 3단
 
 이 문제는 Target 18.5.1(2018년 5월 22일) 릴리스에서 수정되었습니다.
 
-### at.js
+### at.js {#at-js-4}
 
 쿠키를 저장할 때 사용해야 하는 최상위 도메인을 추출하는 알고리즘이 at.js 버전 0.9.6에서 변경되었습니다. 이러한 변경으로 인해 쿠키를 IP를 사용하는 주소에 저장할 수 없습니다. 대부분의 경우 IP 주소는 테스트 용도로 사용되지만, 해결 방법으로 DNS 항목을 사용하거나, 로컬 상자에서 호스트 파일을 조정하거나, targetGlobalSettings() at.js 함수를 사용하여 IP 주소를 지원하는 코드 조각을 삽입할 수 있습니다.
 
@@ -335,7 +335,7 @@ Firefox 및 Internet Explorer에서 코드 편집기로 작업하는 동안 3단
 
 두 번째 문제는 Target 17.6.1 릴리스(2017년 6월)에서 수정되었습니다.
 
-### at.js
+### at.js {#at-js-5}
 
 Target 17.4.1(2017년 4월 27일) 릴리스 이후부터 VEC(시각적 경험 작성기)에서 이미지 삽입 작업을 사용하면 at.js 라이브러리를 사용할 때 오퍼 콘텐츠가 전달되지 않습니다.
 
@@ -355,7 +355,7 @@ Target 17.4.3 핫픽스에서 수정되었습니다.
 
 Target 17.4.3 핫픽스에서 수정되었습니다.
 
-### at.js
+### at.js {#at-js-6}
 
 VEC(시각적 경험 작성기) 및 at.js를 사용할 때 이동 및 재배열 작업을 수행하면 오퍼가 전달되지 않았습니다.
 
@@ -379,7 +379,7 @@ Target 17.4.1 릴리스(2017년 4월 27일)에서 수정되었습니다.
 
 이 문제는 Recommendations 릴리스(2018년 3월 22일) 이후에 수정되었습니다. Recommendations 릴리스 이후에 entity.id가 mbox 요청에 전달되지 않은 경우 Target에서 엔티티 기반 다이내믹 규칙을 건너뜁니다.
 
-### at.js
+### at.js {#at-js-7}
 
 사용자가 at.js 설정을 업데이트한 후 구현 세부 사항 페이지에서 at.js를 다운로드하려고 하면 at.js 대신 mbox.js가 다운로드됩니다. (TGT-23069)
 
