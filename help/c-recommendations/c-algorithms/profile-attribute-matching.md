@@ -4,9 +4,9 @@ description: 사용자 프로필의 값과 항목(엔티티)을 비교하여 Ado
 title: Adobe Target Recommendations의 동적 포함 규칙에서 프로필 속성별 필터링
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '655'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 5%
 항목(엔티티)과 사용자 프로필 [!DNL Adobe Target] [!DNL Recommendations] 의 값을 비교하여 동적으로 필터링합니다.
 
 크기 또는 [!UICONTROL 즐겨찾기] 브랜드와 같이 방문자의 프로필에 저장된 값과 일치하는 권장 사항을 표시하려면 프로필 속성 일치를 사용합니다.
+
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
 다음 시나리오에서는 프로필 속성 일치를 사용할 수 [!UICONTROL 있는 방법을 보여줍니다].
 
@@ -72,7 +76,7 @@ else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'larg
 
 ![mbox 호출 크기](/help/c-recommendations/c-algorithms/assets/size.png)
 
-권장 사항 기준을 만들 때 필터링 규칙 [!UICONTROL 추가를]클릭한 다음 [!UICONTROL 프로필 속성 일치를 선택합니다].
+권장 사항 기준을 만들 때 필터링 규칙 **[!UICONTROL 추가를]**&#x200B;클릭한 다음 **[!UICONTROL 프로필 속성 일치를 선택합니다]**.
 
 ![프로필 속성 일치 일러스트레이션](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'larg
 
 그런 다음 프로필 속성 일치에 대해 &quot;user.size&quot;에 저장된 값/텍스트를 &quot;size&quot; &quot;equals&quot;를 선택할 수 있습니다.
 
+![크기 예](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 프로필 속성 규칙이 빌드되면 방문자의 저장된 프로필 속성과 일치하지 않는 속성이 있는 모든 권장 사항을 필터링합니다.
 
 ### 크기에 따라 항목 추천
 
-프로필 속성 일치가 권장 사항에 영향을 주는 방법에 대한 시각적 예를 보려면 팬을 판매하는 웹 사이트를 고려하십시오.
+프로필 속성 일치가 권장 사항에 영향을 주는 방법에 대한 시각적 예를 보려면 전기 팬을 판매하는 웹 사이트를 생각해 보십시오.
 
 방문자가 이 웹 사이트에서 팬의 다양한 이미지를 클릭하면 각 페이지는 이미지의 팬 크기가 작은지 또는 큼인지에 따라 `entity.size` 매개 변수의 값을 설정합니다.
 
