@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 617333f8f243896bf581d7362b6f320ad9f3e7a9
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1563'
 ht-degree: 86%
 
 ---
@@ -384,7 +384,12 @@ ht-degree: 86%
       + [기준 시퀀스 만들기](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [권장 사항 키 ](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)를 기반으로 권장 사항 만들기
       + [사용자 지정 기준 업로드](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [동적 및 정적 포함 규칙 사용](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+      + Dynamic and static inclusion rules {#dynamic-static}
+         + [동적 및 정적 포함 규칙 사용](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [엔티티 속성 일치](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [프로필 속성 일치](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [매개 변수 일치](/help/c-recommendations/c-algorithms/parameter-matching.md)
+         + [정적 필터](/help/c-recommendations/c-algorithms/static-value.md)
       + [백업 권장 사항 사용](c-recommendations/c-algorithms/backup-recs.md)
       + [다중 값 특성을 사용한 작업](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Recommendations과 Adobe Analytics 사용](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
