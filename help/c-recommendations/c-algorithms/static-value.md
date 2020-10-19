@@ -4,32 +4,19 @@ description: Adobe Target Recommendations의 포함 규칙을 사용하여 필�
 title: Adobe Target Recommendations의 포함 규칙에서 정적 값별로 필터링
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 75%
+source-wordcount: '160'
+ht-degree: 73%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 정적 필터
 
-Adobe Target Recommendations의 포함 규칙을 사용하여 필터링할 정적 값을 하나 이상 수동으로 입력합니다.
+포함 규칙을 사용하여 필터링할 하나 이상의 정적 값을 수동으로 [!DNL Adobe Target] 입력합니다 [!DNL Recommendations].
 
 예를 들어, MPAA 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 컨텐츠만 추천합니다.
-
-사용 가능한 연산자:
-
-* equals
-* 다음과 같지 않음
-* 다음 포함
-* 다음을 포함하지 않음
-* 다음으로 시작
-* 다음으로 끝남
-* 값이 있음
-* 값이 없음
-* 다음보다 크거나 같음
-* 다음보다 작거나 같음
 
 >[!NOTE]
 >
