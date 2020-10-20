@@ -4,10 +4,10 @@ description: 사용자 프로필의 값과 항목(엔티티)을 비교하여 Ado
 title: Adobe Target Recommendations의 동적 포함 규칙에서 프로필 속성별 필터링
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 5%
+source-wordcount: '473'
+ht-degree: 7%
 
 ---
 
@@ -35,6 +35,8 @@ ht-degree: 5%
 
 For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. 이러한 규칙을 사용할 때, 방문자가 특정 브랜드의 육상용 반바지를 보고 있다면 해당 사용자가 자주 이용하는 브랜드(방문자 프로필의 `profile.favoritebrand`에 저장된 값)와 일치하는 권장 사항만 표시됩니다.
 
+![즐겨 사용하는 브랜드](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
+
 ```
 Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
@@ -46,47 +48,12 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 다음 예와 같이 포함 규칙을 사용하여 구직 방문자의 프로필에서 직무 목록까지의 위치를 일치시킬 수 있습니다.
 
+![사용자 구/군/시](/help/c-recommendations/c-algorithms/assets/city.png)
+
 ```
 Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
-
-### 방문자의 크기와 일치하는 옷 추천
-
-예를 들어 방문자 프로필에 설정된 옷 크기와 일치하는 옷을 추천합니다.
-
-제품 페이지는 mbox 호출 `entity.size` 을 전송합니다(아래 그림에서 빨간색 화살표).
-
-방문자가 방문한 마지막 페이지에서 [프로필](/help/c-target/c-visitor-profile/profile-parameters.md) 속성과 값을 캡처하는 프로필 스크립트를 만들 수 있습니다.
-
-예:
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-프로필 스크립트는 이름이 지정된 mbox의 `entity.size` 값을 캡처하고 이 값 `target-global-mbox` 을 프로필 속성 `user.size` (아래 그림에서 파란색 화살표)으로 반환합니다.
-
-![mbox 호출 크기](/help/c-recommendations/c-algorithms/assets/size.png)
-
-권장 사항 기준을 만들 때 필터링 규칙 **[!UICONTROL 추가를]**&#x200B;클릭한 다음 **[!UICONTROL 프로필 속성 일치를 선택합니다]**.
-
-![프로필 속성 일치 일러스트레이션](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-프로필을 불러온 `user.size` 경우 mbox 호출( [!DNL Target])에서 프로필 스크립트 이름(`size``user.size`)에 전달된 값과 일치하도록 규칙을 설정할 때 일치하는 항목을 찾기 위해 드롭다운에 표시됩니다.
-
-그런 다음 프로필 속성 일치에 대해 &quot;user.size&quot;에 저장된 값/텍스트를 &quot;size&quot; &quot;equals&quot;를 선택할 수 있습니다.
-
-![크기 예](/help/c-recommendations/c-algorithms/assets/example-size.png)
-
-프로필 속성 규칙이 빌드되면 방문자의 저장된 프로필 속성과 일치하지 않는 속성이 있는 모든 권장 사항을 필터링합니다.
 
 ### 크기에 따라 항목 추천
 
