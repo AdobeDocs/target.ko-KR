@@ -1,11 +1,16 @@
 ---
-source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
-translation-type: ht
+source-git-commit: 1911fc7f9fb82d57a995184e904fb993646ad2c1
+workflow-type: tm+mt
+translation-type: tm+mt
+source-wordcount: '509'
+ht-degree: 73%
 
 ---
 # 기여 문서
 
-Matt가 PR을 테스트 중입니다.
+| EXL-PR | EXL | 미리 보기 | 활성화 | 게시됨 | 도움말 |
+|--- |--- |--- |--- |--- |--- |
+| [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/lastBuild/) | [![빌드 상태](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/lastBuild) | [미리 보기 URL](https://experienceleague.corp.adobe.com/docs/target/using/target-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [라이브 URL](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=en) | [Authoring 안내서](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Adobe는 Adobe 커뮤니티는 물론 설명서 팀이 아닌 Adobe 직원들의 기여도 환영합니다.
 
@@ -15,13 +20,13 @@ Adobe는 Adobe 커뮤니티는 물론 설명서 팀이 아닌 Adobe 직원들의
 
 ## Adobe 컨텐츠에 대한 귀하의 기여에 대해
 
-[Adobe Docs Contributor 안내서](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+Adobe 문서 작성자 [가이드를 참조하십시오](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 기여하는 방식은 사용자의 신분과 사용자가 기여하고 싶은 변경 내용의 종류에 따라 다릅니다.
 
 ### 약간의 변경 사항
 
-선의로 작은 업데이트를 제공하려면 해당 문서 페이지를 방문하여 문서에서 문서용 GitHub 소스로 이동하는 **편집** 링크를 클릭하십시오. 그런 다음 GitHub UI를 사용하여 업데이트를 만들면 됩니다. 자세한 내용은 일반 [Adobe Docs Contributor 안내서](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+선의로 작은 업데이트를 제공하려면 해당 문서 페이지를 방문하여 문서에서 문서용 GitHub 소스로 이동하는 **편집** 링크를 클릭하십시오. 그런 다음 GitHub UI를 사용하여 업데이트를 만들면 됩니다. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 이 리포트의 설명서 및 코드 샘플에 대해 사용자가 제출하는 약간의 수정 또는 설명은 Adobe 사용 약관의 적용을 받습니다.
 
@@ -43,14 +48,14 @@ If you submit a pull request with significant changes to documentation and code 
 
 커뮤니티 기여자는 기본 편집에 GitHub UI를 사용하거나 리포지토리를 포크하여 크게 기여할 수 있습니다.
 
-자세한 내용은 [Adobe Docs Contributor 안내서](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html)를 참조하십시오.
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## Markdown을 사용하여 주제 서식을 지정하는 방법
 
 이 리포지토리의 모든 문서는 GitHub 버전의 Markdown을 사용합니다. Markdown에 익숙하지 않은 경우 다음을 참조하십시오.
 
-* [Markdown 기본 사항](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [인쇄 가능 Markdown 치트시트](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [마케팅 기본 사항](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [인쇄용 마크다운 시트](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## 레이블
 
