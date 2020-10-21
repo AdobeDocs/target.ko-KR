@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 252bea6810e54c0592a14559874f872e39ae261d
 workflow-type: tm+mt
-source-wordcount: '3744'
+source-wordcount: '3731'
 ht-degree: 83%
 
 ---
@@ -125,8 +125,6 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 **알고리즘이 지속적으로 하나의 목표 지표에 대해 최적화됩니다.**
 
 * 이 지표는 전환이나 매출을 기반으로 할 수 있습니다(구체적으로는 방문당 매출액).
-
-**알고리즘이 [!DNL Analytics]를 데이터 소스나 보고 끝점으로 사용하는 것을 지원하지 않습니다.**
 
 **Target은 방문자에 대한 정보를 자동으로 수집하여 개인화 모델을 구축합니다.**
 
