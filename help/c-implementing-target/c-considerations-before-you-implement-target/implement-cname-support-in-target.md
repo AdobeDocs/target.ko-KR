@@ -6,9 +6,9 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1212'
 ht-degree: 2%
 
 ---
@@ -145,5 +145,5 @@ ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.
 ## 알려진 제한 사항
 
 * CNAME과 at.js 1.x가 있는 경우 QA 모드는 타사 쿠키를 기반으로 하므로 고정되지 않습니다. 해결 방법은 탐색하는 각 URL에 미리 보기 매개 변수를 추가하는 것입니다. CNAME과 at.js 2.x가 있는 경우 QA 모드가 고정됩니다.
-* 현재 이 `overrideMboxEdgeServer` 설정은 CNAME에서 제대로 작동하지 않습니다. 요청 `false` 실패를 방지하기 위해 이 값을 설정해야 합니다.
+* 현재 이 `overrideMboxEdgeServer` 설정은 at.js 1.8.2 및 at.js 2.3.1 이전의 at.js 버전을 사용할 때 CNAME에서 제대로 작동하지 않습니다. 이전 버전의 at.js를 사용 중인 경우 요청이 실패하지 않도록 이 설정이 `false` 되어 있어야 합니다. 또는 at.js [를 최신 지원 버전으로](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 업데이트하는 것이 좋습니다.
 * CNAME을 사용하는 경우 Target 호출에 대한 쿠키 헤더 크기가 증가할 가능성이 커집니다. 쿠키 크기를 8KB 이하로 유지하는 것이 좋습니다.
