@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '2716'
+source-wordcount: '2746'
 ht-degree: 28%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 22일 | [CNAME 및 Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | at.js 버전 1.8.2 및 2.3.1에서 CNAME 지원에 대한 수정 사항에 대한 정보가 추가되었습니다. |
+|  | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | at.js 버전 1.8.2 및 2.3.1에서 CNAME 지원에 대한 수정 사항에 대한 정보가 추가되었습니다. |
 | 10월 15일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.10.1 릴리스(2020년 10월 27일)의 베타 버전 노트를 업데이트했습니다. |
 | 10월 14일 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 두 개의 경험만 있는 자동 할당 활동에 대한 트래픽 할당에 대한 참고가 추가되었습니다. |
 | 10월 13일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 2020년 11월 10일로 예정된 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target의 디바이스 내 의사 결정을 통해 지연 없이 개인화 및 테스트</li></ul> |
