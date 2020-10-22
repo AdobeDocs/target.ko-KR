@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '803'
-ht-degree: 10%
+source-wordcount: '869'
+ht-degree: 9%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 10%
 * Target UI가 [웹 컨텐츠 액세서빌러티 지침](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 레벨 A 및 AA 성공 기준(WCAG 2.0 AA)을 준수하도록 하기 위해 업데이트가 수행되었습니다. (TGT-34384 및 TGT-24679)
 * CSP(Content Security Policy)가 개선되었습니다. (TGT-37035)
 * CNAME을 사용하는 고객을 위한 매개 변수로 클라이언트 코드를 지정하는 방법을 도입했습니다. (TNT-38571)
-
+* [!DNL Adobe Experience Cloud] 설명서를 찾습니다 [!DNL Experience League]. 10월 동안 모든 릴리스 노트, 기사, 비디오 및 자습서는 현재 위치에서 로 이동하게 `docs.adobe.com` 됩니다 [!DNL Experience League]. 이렇게 하면 모든 학습, 자가 도움말, 역량 강화 및 커뮤니티 콘텐츠가 한 곳에서 제공됩니다. 이 변경 사항이 발생하면 모든 링크가 리디렉션되므로 아무 작업도 수행할 필요가 없습니다 [!DNL Experience League]. 교정이 시작되면 릴리스 노트를 업데이트할 예정입니다.
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
