@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1674'
+source-wordcount: '1698'
 ht-degree: 38%
 
 ---
@@ -128,7 +128,7 @@ ht-degree: 38%
 * **기본값**:true(at.js 버전 1.6.2부터 시작)
 * **설명**:도메인 또는 `<clientCode>.tt.omtrdc.net` 도메인을 사용해야 하는지 여부를 `mboxedge<clusterNumber>.tt.omtrdc.net` 나타냅니다.
 
-   If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. 현재 CNAME에서 작동하지 [않음](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   If this value is true, `mboxedge<clusterNumber>.tt.omtrdc.net` domain will be saved to a cookie. 현재 at.js 1.8.2 및 at.js 2.3.1 이전의 at.js 버전을 사용할 때 [CNAME에서](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) 작동하지 않습니다. 문제가 되는 경우 at.js [](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 를 최신 지원 버전으로 업데이트하는 것이 좋습니다.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -467,13 +467,13 @@ Consider the following when using `serverState`:
    * 페이지 로드 시 실행되는 VEC 생성 활동
    * 미리 반입된 뷰
 
-      보기 및 at.js API [!DNL Target] 를 사용하는 SPA의 경우, at.js v2.2는 서버측에서 프리페치된 모든 뷰에 대한 컨텐츠를 캐시하고 각 보기가 트리거되는 즉시 이를 적용하여 Target에 대한 추가 컨텐츠 페치 호출을 실행하지 `triggerView()` `triggerView()`않고 다시 적용합니다.
+      보기 및 at.js API [!DNL Target] `triggerView()` `triggerView()`를 사용하는 SPA의 경우 at.js v2.2는 서버측에서 프리페치된 모든 뷰에 대한 컨텐츠를 캐시하고 각 보기가 트리거되는 즉시 Target에 대한 추가 컨텐츠 페치 호출을 실행하지 않고 적용합니다.
 
    * **참고**: 현재, 서버측에서 검색한 mbox는 에서 지원되지 않습니다 `serverState`.
 
 * 오퍼를 `serverState `적용할 때 at.js는 고려 `pageLoadEnabled` 및 `viewsEnabled` 설정(예: 설정이 false인 경우 페이지 로드 오퍼가 적용되지 `pageLoadEnabled` 않습니다.
 
-   이 설정을 활성화하려면 [관리] > [ **[!UICONTROL 구현]] > [[!UICONTROL 편집]]>[!UICONTROL 페이지 로드]**&#x200B;활성화에서 전환을 활성화합니다.
+   이 설정을 활성화하려면 [관리] > [ **[!UICONTROL 구현] ] > [ [!UICONTROL 편집] ]  > [!UICONTROL 페이지 로드]**&#x200B;활성화에서 전환을 활성화합니다.
 
    ![페이지 로드 활성화 설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
