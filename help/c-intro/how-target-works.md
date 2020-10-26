@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
+source-wordcount: '2403'
 ht-degree: 82%
 
 ---
@@ -99,7 +99,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 각 에지 클러스터에는 사용자의 컨텐츠 요청에 응답하고 해당 요청에 대한 분석 데이터를 추적하는 데 필요한 모든 정보가 있습니다. 사용자 요청은 가장 가까운 에지 클러스터로 라우팅됩니다.
 
-자세한 내용은 [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서를 참조하십시오.
+자세한 내용은 [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서를 참조하십시오.
 
 The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
@@ -108,6 +108,8 @@ The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data 
 고객 사이트 활동 데이터는 7개의 Edge Clusters에서 가장 가까운 위치에 의해 수집되며 고객의 사전 결정된 Central Cluster 대상(3개 위치 중 하나)으로 전달됩니다.Oregon, Dublin, Singapore)을 참조하십시오. 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다(위치에는 중앙 클러스터 위치 및 버지니아, 암스테르담, 시드니, 도쿄 및 홍콩 포함).
 
 단일 위치에서 모든 타깃팅 요청에 응답하는 대신 요청은 방문자와 가장 가까운 에지 클러스터에 의해 처리되므로 네트워크/인터넷 여행 시간의 영향을 완화합니다.
+
+![Target 서버 맵 유형](/help/c-intro/assets/target-servers.png)
 
 Amazon 웹 서비스(AWS)에서 호스팅되는 Target 중앙 클러스터는 다음 위치에 있습니다.
 
