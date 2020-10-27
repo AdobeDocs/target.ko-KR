@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1397'
 ht-degree: 17%
 
 ---
@@ -77,11 +77,9 @@ Target용 [분석으로 알려진 Adobe Target과 Adobe Analytics 간의 통합�
 이 통합을 통해 다음을 수행할 수 있습니다.
 
 * 자동 [할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)의 여러 무장 강도적 기능을 사용하여 트래픽을 유도하여 성공적인 경험 확보
-* 자동 [Target](/help/c-activities/auto-target-to-optimize.md)의 앙상블 머신 러닝 알고리즘을 사용하여 프로필, 동작 및 컨텍스트에 따라 각 방문자에게 최상의 경험을 선택할 수 있습니다
+* 자동 [Target](/help/c-activities/auto-target-to-optimize.md)의 앙상블 머신 러닝 알고리즘을 사용하여 [!DNL Adobe Analytics] 목표 지표와 풍부한 보고 및 분석 기능을 사용하면서 프로필, 행동 및 상황에 따라 각 방문자에 대해 최상의 경험을 선택할 수 [!DNL Adobe Analytics]있습니다.
 
-모두 [!DNL Adobe Analytics] 목표 지표와 [!DNL Adobe Analytics]풍부한 보고 및 분석 기능을 사용하는 동안 가능합니다.
-
-A/B 테스트 및 경험 타깃팅 활동과 [함께 사용할 수 있도록 A4T를 이미](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)구현한 경우 추가 설정이 필요하지 않으므로 바로 시작할 수 있습니다.
+A/B 테스트 및 경험 타깃팅 활동에 사용할 수 있도록 A4T를 [구현했는지 확인하십시오](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). 사용 중인 경우 `analyticsLogging = client_side`값을 `sessionId` 전달해야 합니다 [!DNL Analytics]. 자세한 내용은 [Adobe Target 배달 API 안내서의 Target용](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) Adobe Analytics(A4T) *을 참조하십시오.*
 
 시작하려면 다음 단계를 따르십시오. 
 
