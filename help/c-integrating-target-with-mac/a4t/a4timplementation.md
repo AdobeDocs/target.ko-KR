@@ -5,10 +5,10 @@ title: Analytics for Target 구현
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 62%
+source-wordcount: '904'
+ht-degree: 49%
 
 ---
 
@@ -43,21 +43,21 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 마이그레이션에 대해서는 [Analytics 구현 안내서에서 JavaScript용 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 로 마이그레이션을 *참조하십시오*.
 
-## 5단계: at.js 또는 mbox.js 다운로드하여 업데이트
+## 5단계:at.js 다운로드 및 업데이트
 
-프로덕션 계정을 사용하여 필요한 at.js 또는 mbox.js 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 이 코드를 수정할 필요가 없습니다.
+프로덕션 계정을 사용하여 필요한 버전의 at.js를 구현하거나 마이그레이션해야 합니다. 이 코드를 수정할 필요가 없습니다.
 
 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
-## 6단계: at.js 또는 mbox.js 호스팅
+## 6단계:at.js 호스팅
 
-이전에 at.js나 mbox.js를 배포한 경우에는 기존 파일을 업데이트된 버전으로 대체할 수 있습니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
+이전에 at.js를 배포한 경우 기존 파일을 업데이트된 버전으로 바꿀 수 있습니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
 그렇지 않으면, JavaScript 파일용 AppMeasurement 및 방문자 ID 서비스와 함께 이 파일을 호스트할 수 있습니다. 이러한 파일은 사이트의 모든 페이지에서 액세스할 수 있는 웹 서버에 호스트되어야 합니다. 다음 단계에서 이 파일에 대한 경로가 필요합니다.
 
-## 7단계: 모든 사이트 페이지에서 at.js 또는 mbox.js 참조 {#step7}
+## Step 7: Reference at.js on all site pages {#step7}
 
-각 페이지의 태그에 다음 코드 행을 추가하여 VisitorAPI.js 아래에 at.js 또는 mbox.js를 포함합니다.
+각 페이지의 태그에 다음 코드 행을 추가하여 VisitorAPI.js 아래에 at.js를 포함하십시오.
 
 at.js의 경우:
 
@@ -66,14 +66,7 @@ at.js의 경우:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-mbox.js의 경우:
-
-```
-<script language="JavaScript" type="text/javascript"
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
-```
-
-VisitorAPI.js가 at.js 또는 mbox.js보다 먼저 로드되어야 합니다. 기존 at.js 또는 mbox.js 파일을 업데이트하는 경우 로드 순서를 확인해야 합니다.
+VisitorAPI.js가 at.js보다 먼저 로드되어야 합니다.기존 at.js 또는 mbox.js 파일을 업데이트하는 경우 로드 순서를 확인해야 합니다.
 
 The way the out-of-the-box settings are configured for [!DNL Target] and [!DNL Analytics] integration from an implementation perspective is to use the SDID that is passed from the page to stitch the [!DNL Target] and [!DNL Analytics] request together on the backend automatically for you.
 
@@ -98,7 +91,7 @@ window.targetGlobalSettings = {
 }
 ```
 
-그런 다음 데이터 삽입 API를 통해 페이로드를 [Analytics로 전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+그런 다음 데이터 삽입 API를 통해 페이로드를 [Analytics로 전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 자동 할당 [!UICONTROL 및] 자동 Target  작업의 경우 sessionId도 전달해야 합니다. 자세한 내용은 [Adobe Target 배달 API 안내서의 Target용](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) Adobe Analytics(A4T) *을 참조하십시오.*
 
 글로벌 설정을 원하지 않고 더 많은 요구 방식이 필요한 경우 at.js 함수 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)를 사용하면 **analyticsLogging: &quot;client_side&quot;**&#x200B;를 전달하여 이를 수행할 수 있습니다. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
