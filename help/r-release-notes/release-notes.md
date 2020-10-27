@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
 workflow-type: tm+mt
 source-wordcount: '950'
 ht-degree: 26%
@@ -34,7 +34,7 @@ ht-degree: 26%
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## Target Standard/Premium 20.10.1(2020년 10월 28일)
+## Target Standard/Premium 20.10.1(2020년 10월 27일)
 
 이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
 
