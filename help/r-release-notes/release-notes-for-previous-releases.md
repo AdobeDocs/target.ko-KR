@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '29830'
+source-wordcount: '29837'
 ht-degree: 86%
 
 ---
@@ -23,6 +23,14 @@ Target Standard/Premium, Target 플랫폼 및 Target Javascript 라이브러리(
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 노트(현재)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 노트 - 2020
+
+### Target Standard/Premium 20.9.1(2020년 9월 30일)
+
+이 유지 관리 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
+
+* 키보드 전용 사용자를 위한 탐색 및 기능이 개선되었습니다. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
+* 보조 기술을 사용하는 사용자에게 도움이 되는 레이블을 UI에 추가했습니다. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
+* UI의 이미지 및 텍스트에 대한 텍스트 및 색상 대비를 개선했습니다. (TGT-34513)
 
 ### Target Standard/Premium 20.8.3(2020년 9월 15일)
 
@@ -272,21 +280,17 @@ Target Standard/Premium 20.1.1 릴리스는 유지 관리 버전이며 백엔드
 
 * @hisham-hassan의 오픈 소스 기여도로 인해 프록시 구성에 대한 지원이 추가되었습니다.
 
-자세한 내용은 릴리스 [노트 - Target Java SDK를 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
-
 ### Target Java SDK 버전 1.0.1(2019년 11월 11일)
 
 버전 1.0.1에서 다음 문제가 해결되었습니다.
 
 * 방문자 API 쿠키가 없는 경우에도 보충 데이터 ID를 Target 요청에 전송합니다.
 
-자세한 내용은 릴리스 [노트 - Target Java SDK를 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
-
 ### Target 플랫폼(2019년 10월 31일)
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| Java SDK | Java SDK를 사용하여 [!DNL Target] [!DNL Target] 서버측을 배포할 수 있습니다. 이 Java SDK를 사용하면 [!DNL Target] , [!DNL Adobe Experience Cloud] 및 [!DNL Adobe Experience Cloud Identity Service]같은 다른 [!DNL Adobe Analytics]솔루션과 손쉽게 통합할 수 있습니다 [!DNL Adobe Audience Manager].<br>Java SDK는 Adobe 전달 API를 [!DNL Target] 통해 통합할 때 모범 사례를 도입하고 복잡성을 제거하여 엔지니어링 팀이 비즈니스 로직에 집중할 수 있도록 합니다. 다음은 Adobe가 최신 버전에서 소개하고 있는 주목할 만한 기능입니다.<ul><li>캐싱을 통해 성능을 최적화할 수 있는 프리페치 및 알림 지원</li><li>웹 페이지와 서버측 모두에서 [!DNL Target] 의 하이브리드 통합이 있는 경우 성능 최적화를 지원합니다. at.js 2.2가 더 이상 경험을 검색하기 위한 추가 서버 호출을 하지 않도록 서버 측을 통해 검색되는 경험으로 채워지는 설정 `serverState` 을 소개합니다. 이 방법은 페이지 로드 성능을 최적화합니다.</li><li>새 배달 API에서 가능한 Java SDK를 통해 VEC에서 만든 활동 검색 지원</li><li>개발자가 [Target Java SDK에 기여할 수 있도록 오픈 소스로 제공됩니다](https://github.com/adobe/target-java-sdk).</li></ul>자세한 내용은 릴리스 [노트 - Target Java SDK를 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).<br>새로운 Target Java SDK를 사용한 Adobe 기술 블로그 - [서버측 최적화의 Target Java SDK에 대해 자세히 알아보십시오](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2). |
+| Java SDK | Java SDK를 사용하여 [!DNL Target] [!DNL Target] 서버측을 배포할 수 있습니다. 이 Java SDK를 사용하면 [!DNL Target] , [!DNL Adobe Experience Cloud] 및 [!DNL Adobe Experience Cloud Identity Service]같은 다른 [!DNL Adobe Analytics]솔루션과 손쉽게 통합할 수 있습니다 [!DNL Adobe Audience Manager].<br>Java SDK는 Adobe 전달 API를 [!DNL Target] 통해 통합할 때 모범 사례를 도입하고 복잡성을 제거하여 엔지니어링 팀이 비즈니스 로직에 집중할 수 있도록 합니다. 다음은 Adobe가 최신 버전에서 소개하고 있는 주목할 만한 기능입니다.<ul><li>캐싱을 통해 성능을 최적화할 수 있는 프리페치 및 알림 지원</li><li>웹 페이지와 서버측 모두에서 [!DNL Target] 의 하이브리드 통합이 있는 경우 성능 최적화를 지원합니다. at.js 2.2가 더 이상 경험을 검색하기 위한 추가 서버 호출을 하지 않도록 서버 측을 통해 검색되는 경험으로 채워지는 설정 `serverState` 을 소개합니다. 이 방법은 페이지 로드 성능을 최적화합니다.</li><li>새 배달 API에서 가능한 Java SDK를 통해 VEC에서 만든 활동 검색 지원</li><li>개발자가 [Target Java SDK에 기여할 수 있도록 오픈 소스로 제공됩니다](https://github.com/adobe/target-java-sdk).</li></ul>새로운 Target Java SDK를 사용한 Adobe 기술 블로그 - [서버측 최적화의 Target Java SDK에 대해 자세히 알아보십시오](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2). |
 
 ### Target Standard/Premium 19.10.2(2019년 10월 31일)
 
@@ -337,8 +341,8 @@ Target Standard/Premium 20.1.1 릴리스는 유지 관리 버전이며 백엔드
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| Node.js SDK 버전 1.0 | Target Node.js SDK를 사용하면 Target 서버측을 배포할 수 있습니다.<br>이 Node.js SDK는 Target을 Adobe Experience Cloud ID 서비스, Adobe Analytics 및 Adobe Audience Manager과 같은 다른 Experience Cloud 솔루션과 쉽게 통합할 수 있도록 도와줍니다.<br>Node.js SDK는 Adobe 전달 API를 통해 Adobe Target과 통합할 때 비즈니스 로직에 집중할 수 있도록 모범 사례를 도입하고 복잡성을 제거합니다. 다음은 Adobe가 최신 버전에서 소개하고 있는 주목할 만한 기능입니다.<ul><li>캐싱을 통해 성능을 최적화할 수 있는 프리페치 및 알림 지원</li><li>웹 페이지와 서버측 모두에서 Target이 하이브리드 방식으로 통합된 경우 성능을 최적화할 수 있습니다. at.js 2.2가 더 이상 경험을 검색할 추가 서버 호출을 하지 않도록 서버측을 통해 검색되는 경험으로 채워지는 설정 `serverState` 을 소개합니다. 이 방법은 페이지 로드 성능을 최적화합니다.</li><li> 새로운 배달 API에서 가능한 Node.js SDK를 통해 VEC에서 만든 활동을 검색하는 기능이 지원됩니다.</li><li>개발자가 Node.js SDK에 기여할 수 있도록 오픈 소싱됩니다.</li></ul><br>자세한 내용은 릴리스 [노트 - Target Node.js SDK를 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md). |
-| 배달 API | 완전히 새로운 전달 API 끝점(/v1/delivery)이 프로덕션에서 사용할 수 있습니다. 주목할 만한 기능은 다음과 같습니다.<ul><li>하나 이상의 mbox에 대한 경험을 검색할 수 있는 하나의 종점입니다.</li><li>API를 통해 VEC 생성 활동을 검색합니다.</li><li>단일 페이지 애플리케이션(SPA) 및 모바일 애플리케이션에 사용되는 보기라는 완전히 새로운 객체에 대한 지원</li></ul><br>자세한 내용은 릴리스 [노트 - Target 서버측 API를 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md). |
+| Node.js SDK 버전 1.0 | Target Node.js SDK를 사용하면 Target 서버측을 배포할 수 있습니다.<br>이 Node.js SDK는 Target을 Adobe Experience Cloud ID 서비스, Adobe Analytics 및 Adobe Audience Manager과 같은 다른 Experience Cloud 솔루션과 쉽게 통합할 수 있도록 도와줍니다.<br>Node.js SDK는 Adobe 전달 API를 통해 Adobe Target과 통합할 때 비즈니스 로직에 집중할 수 있도록 모범 사례를 도입하고 복잡성을 제거합니다. 다음은 Adobe가 최신 버전에서 소개하고 있는 주목할 만한 기능입니다.<ul><li>캐싱을 통해 성능을 최적화할 수 있는 프리페치 및 알림 지원</li><li>웹 페이지와 서버측 모두에서 Target이 하이브리드 방식으로 통합된 경우 성능을 최적화할 수 있습니다. at.js 2.2가 더 이상 경험을 검색할 추가 서버 호출을 하지 않도록 서버측을 통해 검색되는 경험으로 채워지는 설정 `serverState` 을 소개합니다. 이 방법은 페이지 로드 성능을 최적화합니다.</li><li> 새로운 배달 API에서 가능한 Node.js SDK를 통해 VEC에서 만든 활동을 검색하는 기능이 지원됩니다.</li><li>개발자가 Node.js SDK에 기여할 수 있도록 오픈 소싱됩니다.</li></ul> |
+| 배달 API | 완전히 새로운 전달 API 끝점(/v1/delivery)이 프로덕션에서 사용할 수 있습니다. 주목할 만한 기능은 다음과 같습니다.<ul><li>하나 이상의 mbox에 대한 경험을 검색할 수 있는 하나의 종점입니다.</li><li>API를 통해 VEC 생성 활동을 검색합니다.</li><li>단일 페이지 애플리케이션(SPA) 및 모바일 애플리케이션에 사용되는 보기라는 완전히 새로운 객체에 대한 지원을 제공합니다.</li></ul> |
 
 ### Target Standard/Premium 19.9.2(2019년 9월 30일)
 
