@@ -1,22 +1,22 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Adobe Target 서버측 전달 API, Node.js SDK 및 Target Recommendations API에 대한 정보입니다.
+description: Adobe Target 서버측 전달 API, SDK 및 Target Recommendations API에 대한 정보입니다.
 title: Adobe Target 서버측 전달 API, Node.js SDK 및 Target Recommendations API에 대한 정보입니다.
 feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 21%
+source-wordcount: '388'
+ht-degree: 20%
 
 ---
 
 
 # 서버 측: Target 구현{#server-side-implement-target}
 
-서버측 전달 API, Node.js SDK 및 API에 대한 [!DNL Adobe Target] [!DNL Target Recommendations] 정보입니다.
+서버측 전달 API, SDK 및 API에 대한 [!DNL Adobe Target] [!DNL Target Recommendations] 정보입니다.
 
 다음 프로세스는 [!DNL Target]의 서버 측 구현 시 발생합니다.
 
@@ -26,6 +26,10 @@ ht-degree: 21%
 1. 서버가 클라이언트 장치에 제공할 경험을 결정합니다.
 
 브라우저에 경험을 표시할 필요가 없습니다. 이 경험은 이메일 또는 키오스크, 음성 지원, 기타 비시각적 경험 또는 비브라우저 기반 장치를 통해 표시될 수 있습니다. 서버가 클라이언트와 [!DNL Target] 사이에 존재하기 때문에 제어력과 보안이 필요하거나 서버에서 실행하려는 복잡한 백엔드 프로세스가 있는 경우에 이러한 유형의 구현이 이상적입니다.
+
+>[!NOTE]
+>
+>첫 번째 방문자는 클라이언트 쪽에서만 초기화할 수 있습니다. 첫 번째 방문자는 서버측에서 초기화할 *수* 없습니다.
 
 다음 섹션에서는 다양한 API 및 NodeJS SDK에 대한 자세한 정보를 제공합니다.
 
