@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '2872'
+source-wordcount: '2889'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 28일 | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 첫 번째 방문자는 서버측에서 아니라 클라이언트측에서 초기화할 수 있다는 내용의 참고가 추가되었습니다. |
 | 10월 27일 | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 새로운 *[Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/)* 포털에 대한 링크가 추가되었습니다. |
 |  | [Analytics를 보고 소스로 사용하는 활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | 사용 중인 경우 자동 Target 활동 `analyticsLogging = client_side`에서 Analytics를 보고 소스(A4T)로 사용할 `sessionId` [!DNL Analytics] 때 값을 전달해야 한다는 정보가 추가되었습니다. |
 |  | [Analytics for Target 구현](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | 를 사용하여 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동을 `analyticsLogging = client_side`하려면 sessionId도 전달해야 한다는 내용의 정보가추가되었습니다. |
