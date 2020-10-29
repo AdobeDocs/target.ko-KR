@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: f782d5498c3aa3bc436cb6cfa2a4eb2f96f37b3e
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 | 키 | 유형 | 필수 | 설명 |
 |--- |--- |--- |--- |
-| mbox | 문자열 | 예 | Mbox 이름 |
+| mbox | 문자열 | 예 | mbox <br>**이름**:페이지에서 이미 실행된 mbox 이름으로 trackEvent() 호출이 실행되는 경우 trackEvent()의 SDID가 재설정되며 페이지의 Target 호출과 다릅니다. 그러나 다른 mbox 이름으로 trackEvent() 호출을 실행하면 페이지의 페이지 로드 요청/triggerView() 호출과 일치하는 trackEvent() 호출&#39; SDID가 유지됩니다. |
 | selector | 문자열 | 아니오 | HTML 요소를 찾는 데 사용되는 CSS 선택기입니다. 이벤트 리스너는 발견된 요소에 첨부됩니다. |
 | 유형 | 문자열 | 아니오 | 등록된 이벤트 유형을 나타냅니다. HTML 알려진 이벤트(예: click, mousedown 등)일 수도 있고 사용자 지정 HTML 이벤트일 수도 있습니다. |
 | preventDefault | 부울 | 아니오 | 이벤트 리스너 콜백에서 `event.preventDefault()`를 사용할지 여부를 나타냅니다. 기본값은 false입니다.<br>**참고**: `form[submit] and `a[click]`만 지원됩니다. 복잡성 및 지원할 시나리오 양이 많기 때문에 기타 시나리오는 지원되지 않습니다. |
