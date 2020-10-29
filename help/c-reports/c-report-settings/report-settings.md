@@ -5,10 +5,10 @@ title: 보고서 설정
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
 workflow-type: tm+mt
-source-wordcount: '1887'
-ht-degree: 69%
+source-wordcount: '1891'
+ht-degree: 68%
 
 ---
 
@@ -119,7 +119,7 @@ Information to help you set the elements you want to appear in your report in [!
 보고서 날짜는 다음과 같이 제한됩니다.
 
 * 보고서의 시작 날짜는 지난 2년 이내여야 합니다.
-* 일일 보고서는 100일로 제한됩니다.
+* 오퍼 그룹 보고서는 현재 날짜로부터 99일로 제한됩니다.
 * 시간별 보고서는 15일로 제한됩니다.
 
 ## 설정{#section_D99CE462107D45CABE0960F820E1E972}의 지침을 완료하여 이 설정을 변경할 수 있습니다 
