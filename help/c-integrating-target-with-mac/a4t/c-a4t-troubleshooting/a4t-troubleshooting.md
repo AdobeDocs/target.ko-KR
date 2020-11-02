@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 84%
 
 ---
 
@@ -73,9 +73,13 @@ A4T 활동을 만들기 전에 올바른 권한이 있는지 확인하십시오.
 
 ## 필요한 보고서가 표시되지 않습니다. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Target Standard/Premium에 표시되는 보고서 세트 목록은 Analytics를 Target의 보고 소스로 사용할 수 있도록 구성된 보고서 세트 목록입니다. 따라서 사용하고 있는 일부 보고서 세트가 표시되지 않을 수 있습니다. 찾고 있는 보고서 세트가 표시되지 않는다면 고객 지원팀에 연락하여 해당 보고서 세트를 활성화하십시오.
+Target Standard/Premium에 표시되는 보고서 세트 목록은 Analytics를 Target의 보고 소스로 사용할 수 있도록 구성된 보고서 세트 목록입니다. 따라서 사용하고 있는 일부 보고서 세트가 표시되지 않을 수 있습니다.
 
-## 보고서에 예상만큼 많은 데이터가 표시되지 않습니다. {#section_75002584FA63456D8D9086172925DD8D}
+또한 여러 보고 소스를 사용하는 경우 보고서 세트는 Target의 기본 보고 소스 설정에도 있어야 합니다. 그렇지 않으면 보고서 세트가 나타나지 않습니다.
+
+여전히 찾고 있는 보고서 세트가 표시되지 않으면 클라이언트 지원팀에 문의하여 활성화하도록 해야 합니다.
+
+## 보고서에 예상한 만큼의 데이터가 표시되지 않습니다. {#section_75002584FA63456D8D9086172925DD8D}
 
 특히 방문자가 경험을 사용할 자격이 있는 페이지에서 구현을 검토하고, 보조 데이터 ID가 [!DNL Target] 및 [!DNL Analytics] 호출에서 일치하는지 확인하십시오.
 
