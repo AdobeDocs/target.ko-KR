@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 84%
+source-wordcount: '781'
+ht-degree: 80%
 
 ---
 
@@ -71,13 +71,13 @@ A4T 활동을 만들기 전에 올바른 권한이 있는지 확인하십시오.
 
 이러한 지표는 음수이지만, 상승도는 Target 보고서에서 양수인 것처럼 표시됩니다. 예를 들어, 낮은 바운스 비율이 필요하더라도 상승도가 가장 높은 우승자로 높은 바운스 비율이 표시됩니다. 이러한 지표 및 유사 지표에 유의하여 보고서를 기준으로 수치를 높일지 또는 줄일지 결정을 내려야 합니다.
 
-## 필요한 보고서가 표시되지 않습니다. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-Target Standard/Premium에 표시되는 보고서 세트 목록은 Analytics를 Target의 보고 소스로 사용할 수 있도록 구성된 보고서 세트 목록입니다. 따라서 사용하고 있는 일부 보고서 세트가 표시되지 않을 수 있습니다.
+The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). 따라서 사용하고 있는 일부 보고서 세트가 표시되지 않을 수 있습니다.
 
-또한 여러 보고 소스를 사용하는 경우 보고서 세트는 Target의 기본 보고 소스 설정에도 있어야 합니다. 그렇지 않으면 보고서 세트가 나타나지 않습니다.
+또한, 여러 보고 소스를 사용하는 경우 보고서 세트가 기본 보고 소스 세트( [!DNL Target] 그렇지 않으면 보고서 세트가 표시되지 않습니다.
 
-여전히 찾고 있는 보고서 세트가 표시되지 않으면 클라이언트 지원팀에 문의하여 활성화하도록 해야 합니다.
+If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
 
 ## 보고서에 예상한 만큼의 데이터가 표시되지 않습니다. {#section_75002584FA63456D8D9086172925DD8D}
 
