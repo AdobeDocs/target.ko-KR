@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 85dc58da0425bfbbea2b2892ab617152c0184d0b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 59%
@@ -113,7 +113,7 @@ VEC( [!UICONTROL Visual Experience Composer] )를 [!DNL Adobe Target] 사용하�
 
    * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다.
 
-   * **[!UICONTROL 개인화된 경험을 위한 자동 타깃팅]**: [!DNL Target] 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 여러 경험을 파악하고 방문자의 개별 고객 프로파일과 과거 유사 방문자의 행동을 바탕으로 방문자에게 가장 적합한 경험을 제공하여 컨텐츠를 개인화하고 전환율을 높일 수 있습니다. 자세한 내용은 자동 [Target을 참조하십시오](/help/c-activities/auto-target-to-optimize.md).
+   * **[!UICONTROL 개인화된 경험을 위한 자동 타깃팅]**: [!DNL Target] 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 여러 경험을 파악하고 방문자의 개별 고객 프로파일과 과거 유사 방문자의 행동을 바탕으로 방문자에게 가장 적합한 경험을 제공하여 컨텐츠를 개인화하고 전환율을 높일 수 있습니다. 자세한 내용은 자동 [Target을 참조하십시오](/help/c-activities/auto-target/auto-target-to-optimize.md).
    You can also click **[!UICONTROL Add]** to add another experience to the activity.
 
 1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
