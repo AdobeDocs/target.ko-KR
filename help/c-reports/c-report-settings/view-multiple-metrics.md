@@ -5,7 +5,7 @@ title: Adobe Target을 사용하여 보고서에서 여러 지표 보기
 feature: report settings
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 61%
@@ -19,7 +19,7 @@ ht-degree: 61%
 
 보고서에서 여러 지표로 작업할 때는 다음 정보를 유념하십시오.
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
+* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
 * You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
 * 여러 지표를 선택한 경우 보고서를 CSV로 다운로드하는 데 [](/help/c-reports/downloading-data-in-csv-file.md)다운로드 선택 사항을 사용할 수 없습니다. [!UICONTROL 다운로드] 선택 사항을 활성화하려면 하나의 지표만 선택해야 합니다.
 * You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
