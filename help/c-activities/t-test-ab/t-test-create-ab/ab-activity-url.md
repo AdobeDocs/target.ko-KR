@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: activity url;url;different url
 description: 활동 URL은 테스트에 사용되는 페이지를 결정하며 테스트가 디자인될 때 열립니다.
 title: 활동 URL
 feature: ab
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 93%
