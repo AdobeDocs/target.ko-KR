@@ -4,7 +4,7 @@ description: Adobe Target 시작 키트 - 7장 - 첫 번째 Target 활동 만들
 title: Adobe Target 시작 키트 - 7장 - 첫 번째 Target 활동 만들기 및 실행
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -32,7 +32,7 @@ ht-degree: 0%
 
 ## 경로 3:개별 방문자에 맞게 개인화할 수 있는 AI 및 자동화 적용
 
-A/B 테스트 설정 워크플로우의 두 번째 단계에서 [자동 Target](/help/c-activities/auto-target-to-optimize.md) 을 선택하면 AI 기반 활동을 설정하여 각 방문자에게 최상의 경험을 제공할 수 있습니다. 첫 번째 활동과 함께 자동 Target을 사용하는 것은 다른 방문자에 대해 어떤 경험이 반응할지 모르는 경우 매우 유용합니다. 자동 Target을 사용하면 머신 러닝을 통해 실시간으로 예측 속성을 평가하고 점수를 매길 수 있으며 전달할 경험을 결정할 때 가장 중요한 방문자 특성을 파악할 수 있습니다.
+A/B 테스트 설정 워크플로우의 두 번째 단계에서 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) 을 선택하면 AI 기반 활동을 설정하여 각 방문자에게 최상의 경험을 제공할 수 있습니다. 첫 번째 활동과 함께 자동 Target을 사용하는 것은 다른 방문자에 대해 어떤 경험이 반응할지 모르는 경우 매우 유용합니다. 자동 Target을 사용하면 머신 러닝을 통해 실시간으로 예측 속성을 평가하고 점수를 매길 수 있으며 전달할 경험을 결정할 때 가장 중요한 방문자 특성을 파악할 수 있습니다.
 
 예:여러 휴대폰 브랜드와 모델을 판매하는 텔코사의 경우 자동화와 머신 러닝을 기반으로 다양한 4가지 경험 또는 상품을 자사의 홈페이지 또는 모바일 앱 시작 화면에서 확인할 수 있는 자동 Target을 활용할 수 있습니다.
 
