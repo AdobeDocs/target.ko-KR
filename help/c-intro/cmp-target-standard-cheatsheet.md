@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 98%
@@ -64,7 +64,7 @@ at.js는 최신의 가장 뛰어난 JavaScript 라이브러리입니다. mbox.js
 
 **개인화 수준을 활동의 필수 부분으로 사용하여 활동을 수행할 수 있습니까?**
 
-자동 [Target 옵션을](/help/c-activities/auto-target-to-optimize.md) 확인하십시오.
+자동 [Target 옵션을](/help/c-activities/auto-target/auto-target-to-optimize.md) 확인하십시오.
 
 **내 요구에 가장 잘 맞는 활동 유형을 어떻게 알 수 있습니까?**
 
@@ -120,7 +120,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 **방금 생성한 활동을 미리 보고 QA를 수행하려면 어떻게 해야 합니까?**
 
-QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)을 사용하십시오. 활동이 라이브 상태가 된 후에 의도에 맞으며 테스트한 대로 작동되도록 하려면 QA 팀과 링크를 공유하고, 보고 작업을 비롯한 활동을 완전히 테스트할 수도 있습니다.
+QA를 수행하려면 [강력한 QA 모드 기능](/help/c-activities/c-activity-qa/activity-qa.md)을 사용하십시오. 활동이 라이브 상태가 된 후에 의도에 맞으며 테스트한 대로 작동되도록 하려면 QA 팀과 링크를 공유하고, 보고 작업을 비롯한 활동을 완전히 테스트할 수도 있습니다.
 
 **Target의 의사 결정 능력을 사용하여 SPA(단일 페이지 애플리케이션) 또는 서버 측 통합에 사용할 수 있는 경험/오퍼를 받으려면 어떻게 해야 합니까?**
 
@@ -167,7 +167,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](../c-activities/c-activity-qa
 
 * [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [고객 속성](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [대상자](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [대상자](/help/c-integrating-target-with-mac/mmp.md)
 
 ## 경험{#section_5959536B8D6A4BEA8FAA1273338F3451}을 참조하십시오 
 
@@ -277,7 +277,7 @@ Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그
 
 * [고객 속성](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [대상자](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [대상자](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **여러 사용자 세그먼트에 대해 보고 기능을 분류할 수 있습니까?**
