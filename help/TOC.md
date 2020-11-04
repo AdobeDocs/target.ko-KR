@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
-source-wordcount: '1555'
+source-wordcount: '1565'
 ht-degree: 86%
 
 ---
@@ -218,7 +218,10 @@ ht-degree: 86%
       + [자동 할당 활동 만들기](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner.md)
       + [자동 할당을 사용하면 수동 테스트보다 테스트 결과를 더 빠르게 얻고 매출을 높일 수 있습니다](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + [자동 타깃팅](c-activities/auto-target-to-optimize.md)
+   + 자동 타깃팅 {#auto-target}
+      + [자동 Target 개요](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [자동 Target 활동 만들기](/help/c-activities/auto-target/create-auto-target.md)
+      + [자동 Target 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + 자동화된 개인화 {#automated-personalization}
       + [자동화된 개인화 개요](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest 알고리즘](c-activities/t-automated-personalization/algo-random-forest.md)
