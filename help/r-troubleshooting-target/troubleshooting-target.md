@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 97%
+source-wordcount: '433'
+ht-degree: 96%
 
 ---
 
@@ -27,11 +27,19 @@ ht-degree: 97%
 * [Target 최적화 및 개인화 FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [활동 문제 해결](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] (AT)
+### A/B 테스트
 
 * [9가지 공통 A/B 테스트의 문제점 및 이러한 문제점을 방지하는 방법](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)을 참조하십시오
 * [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [개인화된 경험에 대한 자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)
+
+### 자동 할당
+
+* [자동 할당 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+
+### 자동 타겟
+
+* [자동 Target 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### AP(자동화된 개인화)
 
