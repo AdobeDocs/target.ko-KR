@@ -5,7 +5,7 @@ title: 개인화 통찰력 보고서
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 64%
@@ -53,8 +53,8 @@ Because the goal of the [!UICONTROL Personalization Insights] reports is to unde
 
 AP 또는 자동 Target 모델에 사용되는 [!UICONTROL 개인화 인사이트] 보고서에는 두 가지 유형의 속성이 표시됩니다.
 
-* **Target에 의해 자동으로 수집된 속성:**[!DNL Target] 기본 데이터 세트를 사용하여 개인화 인사이트에 반영된 AP 및 AT 활동에 개인화 알고리즘을 작성합니다. 데이터 유형, 예제 속성 및 [!UICONTROL 개인화 통찰력] 이름 지정 규칙에 대해서는 [Target의 개인화 알고리즘에 대한 데이터 수집](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)을 참조하십시오. 이러한 속성을 고려하지만 개별 활동 모델은 최종 모델에서 이러한 속성을 모두 사용하지 않을 수 있습니다.
-* **Target에 전달된 속성:** [Target의 개인화 알고리즘을 위한 데이터 업로드](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6)를 참조하십시오.
+* **Target에 의해 자동으로 수집된 속성:**[!DNL Target] 기본 데이터 세트를 사용하여 개인화 인사이트에 반영된 AP 및 AT 활동에 개인화 알고리즘을 작성합니다. 데이터 유형, 예제 속성 및 [!UICONTROL 개인화 통찰력] 이름 지정 규칙에 대해서는 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. 이러한 속성을 고려하지만 개별 활동 모델은 최종 모델에서 이러한 속성을 모두 사용하지 않을 수 있습니다.
+* **Target에 전달된 속성:** [Target의 개인화 알고리즘을 위한 데이터 업로드](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
 
 [!DNL Target] AP 및 AT 활동에서 개인화 알고리즘을 구축하는 데 사용되는 기본 데이터 세트를 [!DNL Target] 보완하기 위해 추가 데이터를 전달하는 다양한 방법을 제공합니다.
 
