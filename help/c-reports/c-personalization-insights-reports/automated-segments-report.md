@@ -5,7 +5,7 @@ title: 자동화된 세그먼트 보고서
 feature: reports
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
@@ -40,7 +40,7 @@ ht-degree: 92%
 
 ## 자동화된 세그먼트 보고서 액세스 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
@@ -145,7 +145,7 @@ AP 및 AT 활동은 오퍼마다 한 개의 모델(AP의 경우)과 경험마다
 * 특정 오퍼/경험에 모델이 빌드되지 않았거나 모델이 다른 오퍼/경험보다 일부 오퍼/경험이 빠르게 빌드된 활동의 볼륨이 작습니다.
 * 방문자가 볼 수 있는 오퍼/경험을 제한하는 특정 오퍼에 대한 타깃팅 규칙입니다.
 
-**[!UICONTROL 자동화된 세그먼트]및[!UICONTROL 중요 속성]보고서가 CSV 다운로드와 동일합니까?**
+**[!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성] 보고서가 CSV 다운로드와 동일합니까?**
 
 아니요, UI 보고서에는 선택 정보가 포함되어 있습니다. CSV 다운로드에 추가 세부 사항이 포함되어 있습니다. 자동화된 세그먼트 인사이트 보고서 다운로드에는 UI에 포함된 최상위 세그먼트 외에 그러한 세그먼트가 오퍼 또는 경험에 대해 수행된 방식과 함께 추가 자동화 세그먼트가 포함되어 있습니다. 중요 속성 보고서에는 상위 100개 방문자 속성과 상대적 중요도가 포함되어 있지만, UI에는 상위 10개 방문자 속성만 포함되어 있습니다.
 
@@ -157,7 +157,7 @@ AP 및 AT 활동은 오퍼마다 한 개의 모델(AP의 경우)과 경험마다
 
 [!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 Adobe 연구 팀이 게시한 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
 
-**[!UICONTROL 자동화된 세그먼트]보고서의 총 방문자 트래픽 데이터가 AP 또는 AT 요약/성과 보고서와 일치하지 않는 이유는 무엇입니까?**
+**[!UICONTROL 자동화된 세그먼트] 보고서의 총 방문자 트래픽 데이터가 AP 또는 AT 요약/성과 보고서와 일치하지 않는 이유는 무엇입니까?**
 
 [!UICONTROL 개인화 인사이트] 보고서에는 Target의 개인화 모델에서 선택한 컨텐츠를 본 방문자만 포함됩니다(즉, 전체 승자 모델에서 제공하는 제어 트래픽 또는 트래픽을 고려하지 않음). 이 트래픽 유형을 &quot;개인화된&quot; 트래픽이라고 합니다. AP/AT의 요약 성능 보고서에는 제어 트래픽과 &quot;타깃팅&quot; 트래픽이 포함되어 있습니다. 타깃팅된 트래픽에는 개인화된 트래픽뿐만 아니라, 전체 승자 모델을 사용하여 제공된 트래픽과 학습을 계속하는 데 사용되는 임의로 제공된 일부 트래픽이 포함되어 있습니다.
 
