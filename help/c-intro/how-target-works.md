@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -59,7 +59,7 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 ### AT(자동 Target)
 
-자세한 내용은 [자동 타겟](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)을 참조하십시오.
+자세한 내용은 [자동 타겟](/help/c-activities/auto-target-to-optimize.md)을 참조하십시오.
 
 자동 타겟은 콘텐츠를 개인화하고 변환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택하고, 개별 고객 프로필과 이 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.
 
