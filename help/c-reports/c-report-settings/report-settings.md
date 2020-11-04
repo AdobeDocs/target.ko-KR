@@ -5,7 +5,7 @@ title: 보고서 설정
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 68%
@@ -265,7 +265,7 @@ You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then 
 
 계산 방법론 선택 사항을 사용하여 작업할 때에는 다음 주의 사항을 고려하십시오.
 
-* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 자동 타겟은 방문자 수로 그래프를 그릴 수 없는 유일한 활동 유형입니다.
+* For [Auto-Target activities](/help/c-activities/auto-target/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 자동 타겟은 방문자 수로 그래프를 그릴 수 없는 유일한 활동 유형입니다.
 * For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
 ## 활동에 16개 이상의 경험이 있는 그래프 작업
