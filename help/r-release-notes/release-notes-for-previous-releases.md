@@ -1,12 +1,12 @@
 ---
 keywords: Release notes
-description: Target Standard/Premium, Target 플랫폼 및 Target Javascript 라이브러리(at.js)에 대한 릴리스 노트를 포함하여 이전 Target 릴리스에 대한 릴리스 노트입니다. 릴리스 노트는 릴리스의 연도/월을 사용하여 내림차순으로 표시됩니다.
+description: ' 릴리스 노트는 릴리스의 연도/월을 사용하여 내림차순으로 표시됩니다.'
 title: 이전 릴리스에 대한 릴리스 노트
 feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '29837'
 ht-degree: 86%
@@ -1085,7 +1085,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>AP(자동화된 개인화) 및 자동 타깃팅 활동 </p> </td> 
-   <td colname="col2"> <p>AP(자동화된 개인화) 및 자동 타깃팅 활동에서 트래픽 비율을 좀 더 효과적으로 할당하는 데 도움이 되는 추가 지침을 UI 및 도움말에서 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="../c-activities/auto-target-to-optimize.md#section_AB3656F71D2D4C67A55A24B38092958F" format="dita" scope="local">트래픽 할당 결정</a> 및 <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">자동화된 개인화 활동 작성</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>AP(자동화된 개인화) 및 자동 타깃팅 활동에서 트래픽 비율을 좀 더 효과적으로 할당하는 데 도움이 되는 추가 지침을 UI 및 도움말에서 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">트래픽 할당 결정</a> 및 <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">자동화된 개인화 활동 작성</a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>권장 사항: 사용자 지정 기준에 대한 포함 규칙, 컬렉션 및 제외 </p> </td> 
@@ -1311,8 +1311,8 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1" class="premium"> <p>자동 타겟 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>이제 자동 타깃팅 활동이 세그먼트 수준 보고를 지원합니다. (TGT-22777) </p> <p>자세한 내용은 <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">맞춤형 경험 자동 타겟</a>을 참조하십시오 . </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>자동 타깃팅 활동의 제어 백분율을 변경할 수 있습니다. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>자세한 내용은 <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">맞춤형 경험 자동 타겟</a>을 참조하십시오 . </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>이제 자동 타깃팅 활동이 세그먼트 수준 보고를 지원합니다. (TGT-22777) </p> <p>자세한 내용은 <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">맞춤형 경험 자동 타겟</a>을 참조하십시오 . </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>자동 타깃팅 활동의 제어 백분율을 변경할 수 있습니다. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>자세한 내용은 <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">맞춤형 경험 자동 타겟</a>을 참조하십시오 . </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1489,7 +1489,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>QA 모드 </p> </td> 
-   <td colname="col2"> <p>절대 변경되지 않는 미리 보기 링크, 선택적 대상 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고를 사용하여 간편한 활동 QA를 수행할 수 있습니다. </p> <p>자세한 내용은 <a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local"> 활동 QA </a>. </p> </td> 
+   <td colname="col2"> <p>절대 변경되지 않는 미리 보기 링크, 선택적 대상 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고를 사용하여 간편한 활동 QA를 수행할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local"> 활동 QA </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1553,7 +1553,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>자동 타겟 </p> </td> 
-   <td colname="col2"> <p>이제 모든 Target Premium 고객이 자동 타깃팅을 사용할 수 있습니다. </p> <p>자동 타깃팅은 고급 시스템 학습을 사용하여 여러 개의 고성능 마케터 정의 경험을 식별하고, 콘텐츠를 개별화하고 전환을 진행하기 위해 비슷한 프로필을 갖는 이전 방문자의 개별 고객 프로필 및 행동을 기준으로 각 방문자에게 맞춤형 경험을 제공합니다. </p> <p>안내가 있는 3단계 워크플로우를 사용하여 A/B 활동을 만드는 동안 <span class="wintitle">개인화된 경험에 대한 자동 타깃팅</span> 옵션을 사용하여 트래픽을 할당하도록 선택할 수 있습니다. </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>자세한 내용은 <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">맞춤형 경험 자동 타겟</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p>이제 모든 Target Premium 고객이 자동 타깃팅을 사용할 수 있습니다. </p> <p>자동 타깃팅은 고급 시스템 학습을 사용하여 여러 개의 고성능 마케터 정의 경험을 식별하고, 콘텐츠를 개별화하고 전환을 진행하기 위해 비슷한 프로필을 갖는 이전 방문자의 개별 고객 프로필 및 행동을 기준으로 각 방문자에게 맞춤형 경험을 제공합니다. </p> <p>안내가 있는 3단계 워크플로우를 사용하여 A/B 활동을 만드는 동안 <span class="wintitle">개인화된 경험에 대한 자동 타깃팅</span> 옵션을 사용하여 트래픽을 할당하도록 선택할 수 있습니다. </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>자세한 내용은 <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">맞춤형 경험 자동 타겟</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> 보고 </td> 
-   <td colname="col2"> <p><b>다중 목표/지표 보기: </b>이제 A/B 및 XT(경험 타깃팅) 활동에서 여러 지표를 볼 수 있습니다. 단, A/B <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">자동 할당</a> 및 A/B <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">자동 타겟</a> 활동은 제외합니다. </p> <p>자세한 내용은 <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">한 보고서의 여러 지표 보기</a>를 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p><b>다중 목표/지표 보기: </b>이제 A/B 및 XT(경험 타깃팅) 활동에서 여러 지표를 볼 수 있습니다. 단, A/B <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local">자동 할당</a> 및 A/B <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">자동 타겟</a> 활동은 제외합니다. </p> <p>자세한 내용은 <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">한 보고서의 여러 지표 보기</a>를 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1987,7 +1987,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>우선 검토</b> </p> A/B 활동의 자동 타깃팅 </td> 
-   <td colname="col2"> <p> <p>참고: 이 "우선 검토" 제공은 테스트 및 피드백을 위해 이 릴리스의 일부 고객에 대해 활성화됩니다. </p> </p> <p>올바른 방문자에게 올바른 경험을 제공하기 위해 A/B 테스트에서 경험을 자동으로 타깃팅합니다. </p> <p>자세한 내용은 <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">맞춤형 경험 자동 타겟</a>을 참조하십시오 . </p> </td> 
+   <td colname="col2"> <p> <p>참고: 이 "우선 검토" 제공은 테스트 및 피드백을 위해 이 릴리스의 일부 고객에 대해 활성화됩니다. </p> </p> <p>올바른 방문자에게 올바른 경험을 제공하기 위해 A/B 테스트에서 경험을 자동으로 타깃팅합니다. </p> <p>자세한 내용은 <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">맞춤형 경험 자동 타겟</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2518,7 +2518,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 | 기능 | 설명 |
 |---|---|
-| 비율별 활동 항목 타깃팅. | 이제 [A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 및 [다변량](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 활동에 대한 항목 수를 방문자 또는 대상 구성원의 백분율로 제한할 수 있습니다. 예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다. |
+| 비율별 활동 항목 타깃팅. | 이제 [A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 및 [다변량](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 활동에 대한 항목 수를 방문자 또는 대상 구성원의 백분율로 제한할 수 있습니다. 예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다. |
 | 자동 할당에서 매출, 주문 및 참여 지원 | 이제 자동 할당을 선택하고 A/B 활동의 목표로 매출(RPV), 주문 및 참여 지표를 선택할 수 있습니다. 이전에는 전환 지표만 지원되었습니다. [자동화된 트래픽 할당](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오. |
 | 소스별 필터링 | 이제 활동이 생성된 소스별로 활동 목록을 필터링할 수 있습니다. 선택 항목은 Adobe Target 및 Adobe Experience Manager입니다. [활동](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. |
 | 향상된 자동화된 맞춤설정 성능 | 자동화된 맞춤설정이 많은 수의 오퍼/위치 조합에 대해 더 나은 성능을 제공하도록 재디자인되었습니다. |
@@ -2584,7 +2584,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
   </tr> 
   <tr> 
    <td colname="col1"> <p> 성공 지표 보고서 다운로드 </p> </td> 
-   <td colname="col2"> <p> 최종 활동 목표만 포함하는 보고서가 아니라 모든 성공 지표가 표시된 단일 csv 파일을 다운로드합니다. </p> <p><a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local">보고서</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> 최종 활동 목표만 포함하는 보고서가 아니라 모든 성공 지표가 표시된 단일 csv 파일을 다운로드합니다. </p> <p><a href="/help/c-reports/reports.md" format="dita" scope="local">보고서</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3053,7 +3053,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p> A/B 테스트 및 경험 타깃팅: 세 단계의 활동 만들기 흐름 </p> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local">A/B</a> 및 <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local">경험 타깃팅</a> 활동을 4개가 아닌 3개의 단계로 만듭니다. 이러한 변경을 통해 이러한 활동을 만드는 프로세스가 자동화된 개인화 및 다변량 테스트를 비롯한 다른 활동 유형의 워크플로우와 좀 더 비슷해졌습니다. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local">A/B</a> 및 <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local">경험 타깃팅</a> 활동을 4개가 아닌 3개의 단계로 만듭니다. 이러한 변경을 통해 이러한 활동을 만드는 프로세스가 자동화된 개인화 및 다변량 테스트를 비롯한 다른 활동 유형의 워크플로우와 좀 더 비슷해졌습니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>보고 소스로 Analytics를 사용하는 방식은 대부분의 활동 유형에서 사용 가능합니다. </p> </td> 
