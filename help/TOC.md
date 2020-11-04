@@ -8,10 +8,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
-ht-degree: 87%
+source-wordcount: '1555'
+ht-degree: 86%
 
 ---
 
@@ -205,7 +205,7 @@ ht-degree: 87%
       + [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md)
       + [일반적인 A/B 테스트 문제와 이를 방지하는 방법 10가지](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + A/B 테스트 만들기 {#create}
-         + [테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [대상 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
@@ -214,7 +214,8 @@ ht-degree: 87%
          + [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [A/B 테스트의 여러 경험 대상](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 자동 할당 {#auto-allocate}
-      + [자동 할당](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [자동 할당 개요](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [자동 할당 활동 만들기](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner.md)
       + [자동 할당을 사용하면 수동 테스트보다 테스트 결과를 더 빠르게 얻고 매출을 높일 수 있습니다](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [자동 타깃팅](c-activities/auto-target-to-optimize.md)
