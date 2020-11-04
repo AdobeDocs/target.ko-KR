@@ -7,10 +7,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 63%
+source-wordcount: '267'
+ht-degree: 51%
 
 ---
 
@@ -45,13 +45,11 @@ For more information, see [Organizations and account linking](https://docs.adobe
 
 ### Analytics 보고서 세트에 대한 액세스 구성
 
-Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. 보고서를 볼 수 없는 경우 이러한 그룹 중 하나에 소속된 구성원인지 확인하십시오.
+지정된 보고서 세트에서 A4T를 사용하려면 해당 보고서 세트에 액세스할 수 있어야 합니다. Admin Console에서 [!UICONTROL 액세스]권한을 얻으려면 [!DNL Analytics] 제품 프로필을 클릭한 다음 권한 [!UICONTROL 탭을] 클릭합니다. 그러면 프로필에서 액세스할 수 있는 보고서 세트를 볼 수 있습니다. 액세스할 보고서 세트가 제품 프로필에 나열된 보고서 중 [!DNL Target] 하나인지 확인하십시오.
 
-자세한 내용은 [제품 프로필 및 그룹을 참조하십시오](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+다음 그림은 모든 보고서 세트에 액세스할 수 있는 제품 프로필의 예입니다.
 
-### 웹 서비스 액세스 그룹에 대한 액세스 구성
-
-[!DNL Analytics]를 Target의 [!DNL Target]에 대한 보고 소스로 사용하려면 [!DNL Analytics]의 웹 서비스 액세스 그룹에 속해 있어야 합니다.
+![Admin Console 권한 탭](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
