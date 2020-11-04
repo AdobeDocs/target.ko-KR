@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 82%
@@ -40,7 +40,7 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 ### A/B 테스트
 
-자세한 내용은 [A/B 테스트 만들기](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)를 참조하십시오.
+자세한 내용은 [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)를 참조하십시오.
 
 기본 A/B 테스트에 표시되는 콘텐츠는 각 경험에 대해 선택하는 백분율에 따라 활동에 지정하는 자산으로부터 무작위로 선택됩니다. 이러한 트래픽 무작위 분할의 결과, 초기 트래픽을 많이 사용한 후에야 비율이 안정됩니다. 예를 들어 두 개의 경험을 만드는 경우 시작 경험이 무작위로 선택됩니다. 트래픽이 거의 없다면 방문자 비율이 하나의 경험으로 기울어질 수 있습니다. 트래픽이 증가함에 따라 이러한 비율은 더 비슷해지게 됩니다.
 
@@ -59,7 +59,7 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 ### AT(자동 Target)
 
-자세한 내용은 [자동 타겟](/help/c-activities/auto-target-to-optimize.md)을 참조하십시오.
+자세한 내용은 [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)을 참조하십시오.
 
 자동 타겟은 콘텐츠를 개인화하고 변환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택하고, 개별 고객 프로필과 이 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.
 
