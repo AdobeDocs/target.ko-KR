@@ -6,7 +6,7 @@ feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
@@ -28,13 +28,13 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 &quot;보기&quot;에 대해 더 설명하기 위해 React에 구현된 이러한 가상의 온라인 전자 상거래 사이트를 탐색하고 몇 가지 &quot;보기&quot; 예를 살펴보겠습니다. 아래 링크를 클릭하여 새 브라우저 탭에서 이 사이트를 엽니다.
 
-**링크:[홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
+**링크: [홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
 
 ![홈 사이트](/help/c-experiences/assets/home.png)
 
 홈 사이트로 이동하면 사이트에서 판매되는 최신 제품과 부활절 판매를 홍보하는 영웅 이미지가 바로 표시됩니다. 이 경우 보기는 전체 홈 사이트로 정의할 수 있습니다. 아래의 Adobe Target 보기 구현 섹션에서 이에 대해 자세히 설명할 예정이므로 이것은 기록해 두면 편리합니다.
 
-**링크:[제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
+**링크: [제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![제품 사이트](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 추가 로드 단추를 클릭하여 사이트에서 더 많은 제품을 탐색하려 합니다. 이 경우에는 웹 사이트 URL은 변경되지 않습니다. 그러나 여기에서 &quot;보기&quot;는 위에 표시된 두 번째 제품 행만 나타낼 수 있습니다. 보기 이름은 &quot;PRODUCTS-PAGE-2&quot;이라고 할 수 있습니다.
 
-**링크:[체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
+**링크: [체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![체크아웃 페이지](/help/c-experiences/assets/checkout.png)
 
@@ -84,7 +84,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    이제 가상의 전자 상거래 SPA에 대해 React에서 `triggerView()` 함수를 호출하는 방법에 대한 몇 가지 사용 사례를 살펴보겠습니다.
 
-   **링크:[홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
+   **링크: [홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **링크:[제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
+   **링크: [제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
 
    이제 좀 더 복잡한 예를 살펴보겠습니다. 마케터는 사용자가 추가 로드 단추를 클릭한 후 가격 레이블 색상을 빨간색으로 변경함으로써 제품의 두 번째 행을 개인화하려고 합니다.
 
@@ -144,7 +144,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
    }
    ```
 
-   **링크:[체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **링크: [체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![React 체크아웃](/help/c-experiences/assets/react6.png)
 
@@ -343,11 +343,11 @@ adobe.target.getOffers({
 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 예 |
 | [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) | 예 |
 | [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 아니오 |
-| [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 아니오 |
+| [자동 타깃팅](/help/c-activities/auto-target/auto-target-to-optimize.md) | 아니오 |
 | [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md) | 아니오 |
 | [권장 사항](/help/c-recommendations/recommendations.md) | 아니오 |
 
-**at.js 2.x를 설치하고 사이트에`triggerView()`를 구현한 경우, SPA VEC가 자동 타겟을 지원하지 않는데 어떻게 자동 타겟 A/B 활동을 실행합니까?**
+**at.js 2.x를 설치하고 사이트에 `triggerView()`를 구현한 경우, SPA VEC가 자동 타겟을 지원하지 않는데 어떻게 자동 타겟 A/B 활동을 실행합니까?**
 
 자동 타겟 A/B 활동을 사용하려는 경우, VEC의 페이지 로드 이벤트에서 실행되도록 모든 작업을 이동하면 됩니다. 각 작업 위로 마우스를 가져간 다음 [!UICONTROL 페이지 로드 이벤트로 이동] 단추를 클릭하십시오. 이 과정이 완료되면, 다음 단계에서 트래픽 할당 방법을 위해 자동 타겟을 선택할 수 있습니다.
 
