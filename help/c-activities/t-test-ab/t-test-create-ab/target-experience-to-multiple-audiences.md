@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 98%
@@ -32,7 +32,7 @@ A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃
 
 이 경우 필요한 것은 지역별 경험 버전이므로 지리 기반이 아닌 통제군에 대해 지리 기반의 타깃팅 경험을 테스트할 수 있습니다.
 
-1. [평소대로 A/B 활동을 만듭니다.](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
+1. [평소대로 A/B 활동을 만듭니다.](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 
    여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상을 선택합니다.
 
