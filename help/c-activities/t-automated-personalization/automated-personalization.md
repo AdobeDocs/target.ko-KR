@@ -6,10 +6,10 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 98%
+source-wordcount: '1020'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 98%
 
 [!UICONTROL 자동 타겟]과 마찬가지로, [!UICONTROL 자동화된 개인화]는 선구적인 데이터 과학 앙상블 방법인 Random Forest 알고리즘을 방문자에게 표시할 최상의 경험을 결정하는 기본 개인화 알고리즘으로 사용합니다. [!UICONTROL 자동화된 개인화는 테스트의 검색 단계에서 유용할 수 있습니다. ] 또한 다양한 방문자를 타깃팅할 때 기계 학습을 통해 가장 효과적인 컨텐츠를 확인하는 데도 유용합니다. 시간이 지남에 따라 이 알고리즘은 가장 효과적인 컨텐츠를 예측하는 방법을 학습하며 목표를 달성할 가능성이 가장 높은 컨텐츠를 표시합니다.
 
-[!UICONTROL 자동화된 개인화]가 [!UICONTROL 자동 타겟]과 어떻게 다른지에 대한 자세한 내용은 [개인화된 경험에 대한 자동 타겟](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)을 참조하십시오.
+To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
 
 마케터는 VEC([!UICONTROL 시각적 경험 작성기])를 사용하여 컨텐츠를 가리킨 후 클릭한 다음 해당 영역에 대한 추가 컨텐츠 선택 사항을 시각적으로 만들고 선택할 수 있는 파일을 사이트에서 구현합니다. 그런 후에 이 알고리즘은 시스템이 방문자에 대해 가지고 있는 모든 행동 데이터를 기준으로 각 방문자에게 전달할 컨텐츠를 자동으로 결정하며 개인화된 경험을 제공합니다. [!UICONTROL 자동화된 개인화]는 방문자 동작의 변경에 맞춰 조정될 수 있으므로 지속적인 상승도 및 개인화를 제공하기 위해 설정된 종료 날짜 없이 실행될 수 있습니다. 이를 &quot;상시 설정&quot; 모드라고도 합니다. 마케터는 최적화를 통해 확인된 상승도를 실현하기 전에, 표준 A/B 활동의 결과를 구현하기 위한 표준 작업 순서에 해당하는 테스트 실행, 결과 분석, 승자 전달 과정을 진행할 필요가 없습니다.
 
