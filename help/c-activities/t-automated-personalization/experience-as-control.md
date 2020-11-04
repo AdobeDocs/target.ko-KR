@@ -6,7 +6,7 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
@@ -16,7 +16,7 @@ ht-degree: 100%
 
 # ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택
 
-AP([자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md)) 또는 AT([자동 타겟](/help/c-activities/auto-target-to-optimize.md)) 활동을 작성하는 동안 제어로 사용할 특정 경험이나 임의로 제공된 경험을 선택할 수 있습니다.
+AP([자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md)) 또는 AT([자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)) 활동을 작성하는 동안 제어로 사용할 특정 경험이나 임의로 제공된 경험을 선택할 수 있습니다.
 
 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 제어 트래픽을 관련 경험으로 라우팅할 수 있습니다. 그런 다음 해당 제어의 제어 트래픽에 대해 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다.
 
