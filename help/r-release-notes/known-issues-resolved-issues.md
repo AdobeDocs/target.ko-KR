@@ -5,7 +5,7 @@ title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -48,7 +48,7 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 다음은 리디렉션 오퍼에 대한 알려진 문제입니다.
 
 * 경우에 따라 A4T(타겟 분석)로 구성된 활동에서 리디렉션 오퍼를 사용할 때 제한된 수의 고객이 트래픽 분포에서 높은 차이를 보고했습니다. Adobe 엔지니어가 현재 이 문제를 해결하기 위해 노력하고 있습니다.
-* at.js 구현의 리디렉션 활동으로 인해 미리 보기 URL이 루프에 들어가게 됩니다(오퍼가 반복적으로 전달됨). 대신 [QA 모드](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)를 사용하여 미리 보기와 QA를 수행할 수 있습니다. 이 문제는 오퍼의 실제 전달에는 영향을 주지 않습니다. (TGT-23019)
+* at.js 구현의 리디렉션 활동으로 인해 미리 보기 URL이 루프에 들어가게 됩니다(오퍼가 반복적으로 전달됨). 대신 [QA 모드](/help/c-activities/c-activity-qa/activity-qa.md)를 사용하여 미리 보기와 QA를 수행할 수 있습니다. 이 문제는 오퍼의 실제 전달에는 영향을 주지 않습니다. (TGT-23019)
 
 ### VEC 내에서 페이지 로드 취소 {#cancel}
 
