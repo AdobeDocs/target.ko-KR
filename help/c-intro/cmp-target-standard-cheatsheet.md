@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '2908'
+source-wordcount: '2903'
 ht-degree: 98%
 
 ---
@@ -64,7 +64,7 @@ at.js는 최신의 가장 뛰어난 JavaScript 라이브러리입니다. mbox.js
 
 **개인화 수준을 활동의 필수 부분으로 사용하여 활동을 수행할 수 있습니까?**
 
-[자동 타겟으로 A/B 테스트](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) 선택 사항을 확인하십시오.
+자동 [Target 옵션을](/help/c-activities/auto-target-to-optimize.md) 확인하십시오.
 
 **내 요구에 가장 잘 맞는 활동 유형을 어떻게 알 수 있습니까?**
 
