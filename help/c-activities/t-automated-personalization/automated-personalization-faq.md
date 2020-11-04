@@ -5,7 +5,7 @@ title: 자동화된 개인화 FAQ
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -19,7 +19,7 @@ ht-degree: 85%
 
 ## 제어로 사용할 특정 환경을 지정할 수 있습니까?
 
-AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/automated-personalization.md)) 또는 AT([자동 타겟](/help/c-activities/auto-target-to-optimize.md)) 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다.
+AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/automated-personalization.md)) 또는 AT([자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)) 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다.
 
 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 해당 경험의 제어 트래픽에 대해 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다.
 
@@ -31,7 +31,7 @@ AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/au
 
 ## 자동화된 개인화 활동을 설정하는 우수 사례는 무엇입니까? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* 트래픽이 낮은 페이지를 개인화하거나 개인화하는 경험의 구조를 변경하려는 경우, 자동화된 개인화 대신 자동 타겟 사용을 고려해 보십시오. 자세한 내용은 [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md).
+* 트래픽이 낮은 페이지를 개인화하거나 개인화하는 경험의 구조를 변경하려는 경우, 자동화된 개인화 대신 자동 타겟 사용을 고려해 보십시오. 자세한 내용은 [자동 타깃팅](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * 자동화된 개인화 활동에서 사용하려고 계획 중인 오퍼와 위치 간에 A/B 활동을 완료하여 위치 및 오퍼가 최적화 목표에 영향을 주는지 확인해 보십시오. A/B 활동이 상당한 차이를 보이지 않는 경우, 자동화된 개인화도 향상되지 않을 가능성이 높습니다.
 
    * A/B…N 테스트에 경험 간 통계적으로 중요한 차이가 없다면, 고려 중인 오퍼들이 서로 충분히 다르지 않거나, 선택한 위치가 성공 지표에 영향을 주지 않거나, 최적화 목표가 선택한 오퍼의 영향을 받기에는 전환 단계에서 너무 먼 것일 수 있습니다.
@@ -79,7 +79,7 @@ AP 활동에서 상승도를 생성하는 데에는 4가지 필요한 요소가 
 
 ### 자동화된 개인화는 어떻게 내 활동의 트래픽을 할당합니까? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-자동화된 개인화는 각 모델을 위해 만들어진 가장 최신 [랜덤 포레스트](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) 모델을 기반으로 가장 높게 예측된 성공 지표가 있는 경험으로 방문자를 보냅니다. 이러한 예측은 방문자의 특정 정보와 방문 컨텍스트를 기반으로 합니다.
+자동화된 개인화는 각 모델을 위해 만들어진 가장 최신 [랜덤 포레스트](/help/c-activities/t-automated-personalization/algo-random-forest.md) 모델을 기반으로 가장 높게 예측된 성공 지표가 있는 경험으로 방문자를 보냅니다. 이러한 예측은 방문자의 특정 정보와 방문 컨텍스트를 기반으로 합니다.
 
 예를 들어, AP 활동에 각각 두 개의 오퍼가 있는 두 개의 위치가 있다고 가정합니다. 첫 번째 위치에서 오퍼 A는 특정 방문자에 대한 예측 전환율이 3%이고 오퍼 B는 예측 전환율이 1%입니다. 두 번째 위치에서 오퍼 C는 동일한 방문자에 대한 예측 전환율이 2%이고 오퍼 D는 예측 전환율이 5%입니다. 따라서 자동화된 개인화를 통해 이 방문자에게는 오퍼 A와 오퍼 D를 사용하는 경험이 제공됩니다.
 
