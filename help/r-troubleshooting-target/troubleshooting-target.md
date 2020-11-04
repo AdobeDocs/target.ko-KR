@@ -6,7 +6,7 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 97%
@@ -31,7 +31,7 @@ ht-degree: 97%
 
 * [9가지 공통 A/B 테스트의 문제점 및 이러한 문제점을 방지하는 방법](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)을 참조하십시오
 * [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-* [개인화된 경험에 대한 자동 타겟](/help/c-activities/auto-target-to-optimize.md)
+* [개인화된 경험에 대한 자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)
 
 ### AP(자동화된 개인화)
 
