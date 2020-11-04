@@ -5,9 +5,9 @@ title: 자동화된 개인화 FAQ
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1962'
 ht-degree: 85%
 
 ---
@@ -31,7 +31,7 @@ AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/au
 
 ## 자동화된 개인화 활동을 설정하는 우수 사례는 무엇입니까? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* 트래픽이 낮은 페이지를 개인화하거나 개인화하는 경험의 구조를 변경하려는 경우, 자동화된 개인화 대신 자동 타겟 사용을 고려해 보십시오. 자세한 내용은 [개인화된 경험에 대한 자동 타겟](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)을 참조하십시오.
+* 트래픽이 낮은 페이지를 개인화하거나 개인화하는 경험의 구조를 변경하려는 경우, 자동화된 개인화 대신 자동 타겟 사용을 고려해 보십시오. 자세한 내용은 [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md).
 * 자동화된 개인화 활동에서 사용하려고 계획 중인 오퍼와 위치 간에 A/B 활동을 완료하여 위치 및 오퍼가 최적화 목표에 영향을 주는지 확인해 보십시오. A/B 활동이 상당한 차이를 보이지 않는 경우, 자동화된 개인화도 향상되지 않을 가능성이 높습니다.
 
    * A/B…N 테스트에 경험 간 통계적으로 중요한 차이가 없다면, 고려 중인 오퍼들이 서로 충분히 다르지 않거나, 선택한 위치가 성공 지표에 영향을 주지 않거나, 최적화 목표가 선택한 오퍼의 영향을 받기에는 전환 단계에서 너무 먼 것일 수 있습니다.
