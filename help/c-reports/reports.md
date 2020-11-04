@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 64%
@@ -26,7 +26,7 @@ Reports provide information about the progress and results of your [!DNL Adobe T
 
    예를 들어, [!UICONTROL 유형] 드롭다운 목록에서 [!UICONTROL A/B 테스트]와 [!UICONTROL 경험 타깃팅]을 선택하고 [!UICONTROL 상태] 드롭다운 목록에서 [!UICONTROL 라이브]를 선택하여 활성 상태에 있는 A/B 테스트 및 경험 타깃팅 활동만 표시할 수도 있습니다.
 
-   다음 그림은 두 가지 유형이 선택된 [!UICONTROL 유형] 드롭다운 목록을 보여줍니다. [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting]. A/B 테스트의 세 가지 유형(수동, [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)및 [자동 타겟](/help/c-activities/auto-target-to-optimize.md))이 기본적으로 선택됩니다. 필요에 따라 하나 이상의 유형을 선택 취소할 수 있습니다.
+   다음 그림은 두 가지 유형이 선택된 [!UICONTROL 유형] 드롭다운 목록을 보여줍니다. [!UICONTROL A/B Test] and [!UICONTROL Experience Targeting]. A/B 테스트의 세 가지 유형(수동, [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)및 [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md))이 기본적으로 선택됩니다. 필요에 따라 하나 이상의 유형을 선택 취소할 수 있습니다.
 
    ![유형별 보고서 필터링](/help/c-reports/assets/report_filters-new.png)
 
@@ -61,7 +61,7 @@ Reports provide information about the progress and results of your [!DNL Adobe T
 
    | 보고서 유형 | 보기 |
    | --- | --- |
-   | [자동 타깃팅](/help/c-activities/auto-target-to-optimize.md) | 자동화된 **[!UICONTROL 세그먼트]** 또는 **[!UICONTROL 중요 속성]** 아이콘을 클릭합니다.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.</li></ul> |
+   | [자동 타깃팅](/help/c-activities/auto-target/auto-target-to-optimize.md) | 자동화된 **[!UICONTROL 세그먼트]** 또는 **[!UICONTROL 중요 속성]** 아이콘을 클릭합니다.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) shows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.</li></ul> |
    | [](/help/c-activities/t-automated-personalization/automated-personalization.md)자동화된 개인화(AP) | [ [Automated Personalization 요약] 보고서](/help/c-reports/reports-ap.md)외에 **[!UICONTROL 자동화된 세그먼트]** 또는 **[!UICONTROL 중요 속성]** 아이콘을 클릭할 수있습니다.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.</li></ul> |
    | [](/help/c-activities/c-multivariate-testing/multivariate-testing.md)다변량 테스트(MVT) | 경험 성과 보고서 [외에도](/help/c-reports/experience-performance-report.md)위치 기여도 [](/help/c-reports/location-contribution-report.md) 아이콘을 클릭하여 보고서를 변경하여 위치별 기여도를 표시할 수 있습니다. |
 
@@ -73,7 +73,7 @@ Reports provide information about the progress and results of your [!DNL Adobe T
 |--- |--- |
 | [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) | [!DNL Target]에 사용된 상승도 및 신뢰도와 통계적 접근 방식을 이해하려면 [A/B 테스트 계획](/help/c-activities/t-test-ab/sample-size-determination.md)을 참조하십시오. |
 | [자동 할당 보고서 해석](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 향상도 및 신뢰도를 포함한 중요한 지표를 검사하여 [!UICONTROL 자동 할당] A/B 활동의 결과를 [!DNL Target] UI에 해석합니다. |
-| [자동 Target](/help/c-activities/auto-target-to-optimize.md) (AT) | AT 활동과 관련된 [!UICONTROL 요약] 보고서에 대한 정보입니다. 자세한 내용은 [자동 타겟 요약 보고서](/help/c-reports/auto-target-summary-report.md)를 참조하십시오.<br>AT 및 AP 활동에 대한 두 개의 [!UICONTROL 개인화 통찰력 보고서]인 [!UICONTROL 자동화된 세그먼트] 보고서와 [!UICONTROL 중요 속성] 보고서에 대한 정보입니다. 자세한 내용은 [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)를 참조하십시오. |
+| [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) (AT) | AT 활동과 관련된 [!UICONTROL 요약] 보고서에 대한 정보입니다. 자세한 내용은 [자동 타겟 요약 보고서](/help/c-reports/auto-target-summary-report.md)를 참조하십시오.<br>AT 및 AP 활동에 대한 두 개의 [!UICONTROL 개인화 통찰력 보고서]인 [!UICONTROL 자동화된 세그먼트] 보고서와 [!UICONTROL 중요 속성] 보고서에 대한 정보입니다. 자세한 내용은 [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)를 참조하십시오. |
 | [](/help/c-activities/t-automated-personalization/automated-personalization.md)자동화된 개인화(AP) | AP 활동의 두 개의 [!UICONTROL 자동화된 개인화 요약] 보고서인 [!UICONTROL 활동 수준] 보고서 및 [!UICONTROL 오퍼 수준] 보고서에 대한 정보. 자세한 내용은 [자동화된 개인화 요약 보고서](/help/c-reports/reports-ap.md)를 참조하십시오.<br>AT 및 AP 활동에 대한 두 개의 [!UICONTROL 개인화 통찰력 보고서]인 [!UICONTROL 자동화된 세그먼트] 보고서와 [!UICONTROL 중요 속성] 보고서에 대한 정보입니다. 자세한 내용은 [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)를 참조하십시오. |
 | [](/help/c-activities/c-multivariate-testing/multivariate-testing.md)다변량 테스트(MVT) | MVT 활동에 대한 두 개 보고서인 [!UICONTROL 경험 성과] 보고서와 및 [!UICONTROL 위치 기여도] 보고서에 대한 정보입니다. 자세한 내용은 [경험 성과 보고서](/help/c-reports/experience-performance-report.md) (MVT)와 [위치 기여도 보고서](/help/c-reports/location-contribution-report.md) (MVT)를 참조하십시오. |
 | [Adobe Target용 보고 소스로서의 Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | [!DNL Adobe Analytics]를 [!DNL Target]을 위한 보고 소스로 사용하는 것에 대한 정보입니다. A4T를 통해 [!DNL Target] 활동에 대한 [!DNL Analytics] 보고서에 액세스할 수 있습니다. 자세한 내용은 [Analytics for Target(A4T) 보고](/help/c-reports/analytics-for-target-a4t-reporting.md)를 참조하십시오. |
