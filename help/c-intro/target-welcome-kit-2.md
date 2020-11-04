@@ -4,7 +4,7 @@ description: Adobe Target 환영 키트 - 2장 - Target 개요
 title: Adobe Target 환영 키트 - 2장 - Target 개요
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '2504'
 ht-degree: 16%
@@ -30,7 +30,7 @@ ht-degree: 16%
 | --- | --- |
 | A/B 테스트 | 웹 사이트 또는 기타 디지털 고객 접점의 두 개 이상의 다양한 경험 또는 오퍼를 비교하여 사전 지정된 테스트 기간 동안 주요 비즈니스 측정이 가장 개선되는 변화를 확인합니다. A/B 테스트는 새로운 웹 페이지 레이아웃, 다양한 사이트 탐색 방법, 복사, 이미지 및 클릭유도문안 버튼과 같은 디지털 경험의 개별 요소에 대한 완전히 다른 처리와 같은 큰 변경에 적합합니다. [추가 정보](/help/c-activities/t-test-ab/test-ab.md). |
 | 자동 할당 | 두 개 이상의 경험 중에서 가장 성과가 좋은 경험을 식별하고 우승자에게 더 많은 트래픽을 자동으로 재할당하여 테스트를 계속 실행하고 학습하면서 전환율을 높입니다. 강력한 인공 지능(AI) [!DNL Adobe Sensei]사용 [추가 정보](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
-| 자동 Target<br>(Premium) | Adobe Sensei AI를 활용하여 개인 고객 프로필 [!DNL Target] 과 비슷한 프로파일을 사용한 이전 방문자의 행동을 기반으로 각 방문자에게 최상의 경험을 확인하고 전달할 수 있습니다. 자동 Target을 통해 규모에 맞게 개인화할 수 있습니다. [추가 정보](/help/c-activities/auto-target-to-optimize.md). |
+| 자동 Target<br>(Premium) | Adobe Sensei AI를 활용하여 개인 고객 프로필 [!DNL Target] 과 비슷한 프로파일을 사용한 이전 방문자의 행동을 기반으로 각 방문자에게 최상의 경험을 확인하고 전달할 수 있습니다. 자동 Target을 통해 규모에 맞게 개인화할 수 있습니다. [추가 정보](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | 오퍼에서 다양한 이미지, 복사 및 기타 요소의 조합을 검토하여 방문자당 전환율 또는 매출 증가와 같은 비즈니스 목표를 달성하는 데 가장 효과적인 조합을 각 방문자에게 전달하는 데 사용되는 고급 기계 학습 알고리즘 및 자동화 기능을 사용할 수 있습니다. [!DNL Adobe Sensei] [추가 정보](/help/c-activities/t-automated-personalization/automated-personalization.md). |
 | 경험 타깃팅(XT) | 사용자 정의 규칙 및 기준을 기반으로 특정 사용자에게 컨텐츠를 전달할 수 있습니다. **[!UICONTROL 경험 타깃팅은]** 고객이 가치 있고 경험의 반향을 잘 알고 있는 경우 특정 경험이나 컨텐츠를 특정 대상자에게 타깃팅하는 데 유용합니다. [추가 정보](/help/c-activities/t-experience-target/experience-target.md). |
 | MVT(다변량 테스트) | 페이지 또는 디지털 경험에 있는 요소의 가능한 모든 변형 조합을 비교할 수 있습니다. 예를 들어 세 개의 다른 배경 이미지, 두 가지 사본 변형, 두 개의 서로 다른 단추 색상 등이 있습니다. MVT는 특정 대상에 가장 적합한 조합을 결정하고 결과에 가장 영향을 주는 요소를 결정합니다. [추가 정보](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
@@ -42,7 +42,7 @@ ht-degree: 16%
 
 | 채널 | 세부 사항 |
 | --- | --- |
-| 웹 사이트 | [!DNL Target] 방문자 및 고객 참여도를 향상시키고 전환율을 높이며 매출을 높이기 위해 여러 페이지, 단일 페이지 애플리케이션(SPA) 및 모바일 웹 사이트의 페이지에서 A/B 테스트, Multivariate Testing, 경험 타깃팅, 자동 할당, 자동 Target, Automated Personalization 및 Recommendations 활동을 실행하는 데 사용할 수 있습니다. |
+| 웹 사이트 | [!DNL Target] 다중 페이지, 단일 페이지 애플리케이션(SPA) 및 모바일 웹 사이트의 페이지에서 A/B 테스트, Multivariate Testing, 경험 타깃팅, 자동 할당, 자동 Target, Automated Personalization 및 Recommendations 활동을 실행하여 방문자 및 고객 참여도를 향상시키고 전환율을 높이며 매출을 높일 수 있습니다. |
 | 모바일 웹 | [!DNL Target] 모바일 웹 사이트 페이지에서 웹 사이트에서 실행하는 모든 동일한 활동 유형을 실행하는 데 사용할 수 있으므로 방문자와 고객 참여도를 비슷하게 향상시키고 전환율을 높이며 매출을 높일 수 있습니다. |
 | 모바일 앱 | [!DNL Target] 사용자 행동과 모바일 컨텍스트에 따라 모바일 앱 경험을 테스트하고 개인화할 수 있습니다. [!DNL Target] 인터랙티브한 테스트뿐만 아니라 경험 타깃팅 및 AI 기반의 개인화를 통해 고객의 참여를 유도하고 전환율을 높일 수 있습니다. 모바일 앱 [!DNL Target] 에서 사용하려면 Adobe Mobile Services SDK를 사용해야 합니다. |
 | IoT/Everywhere | [!DNL Target] 브라우저가 없거나 JavaScript 코드를 사용하지 않는 접점의 기존 웹 사이트, 모바일 사이트 및 모바일 앱에서 사용하는 활동에 동일한 테스트 및 개인화 기능을 사용할 수 있도록 서버측 구현을 제공합니다. 예를 들어 키오스크, 셋톱 박스, 게임 콘솔, 음성 도우미 및 기타 비전통적인 접점을 테스트 및 개인화할 수 있습니다. |
@@ -71,13 +71,13 @@ ht-degree: 16%
 
 ## 활동 제작 툴
 
-[!DNL Target] 테스트 및 개인화 활동을 설정하는 세 가지 주요 방법, VEC( [!UICONTROL Visual Experience Composer] ), [!UICONTROL 양식 기반 Experience Composer]및 [!UICONTROL 단일 페이지 응용 프로그램(SPA) Visual Experience Composer를 제공합니다]. 두 단계 모두 경험 정의, 대상 선택 또는 정의, 활동 결과를 측정할 1차 및 2차 성공 지표 선택 등 3단계의 활동 설정 프로세스를 안내합니다.
+[!DNL Target] 테스트 및 개인화 활동, VEC( [!UICONTROL Visual Experience Composer] ), [!UICONTROL 양식 기반 Experience Composer]및 [!UICONTROL 단일 페이지 애플리케이션(SPA) Visual Experience Composer를 설정하는 세 가지 주요 방법을 제공합니다]. 두 단계 모두 경험 정의, 대상 선택 또는 정의, 활동 결과를 측정할 1차 및 2차 성공 지표 선택 등 3단계의 활동 설정 프로세스를 안내합니다.
 
 | 도구 | 세부 사항 |
 | --- | --- |
 | VEC(시각적 경험 작성기) | 사이트 컨텍스트에서 개인화된 경험과 오퍼를 손쉽게 제작하고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. You can create experiences and offers for [!DNL Target] activities by dragging and dropping, swapping, and modifying the layout and content of a web page (or offer) or mobile web page. [추가 정보](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md). |
 | [!UICONTROL 양식 기반 경험 작성기] | Visual Experience Composer를 사용할 수 없거나 실용적이지 않을 때 A/B 테스트, 경험 타깃팅, Automated Personalization 및 Recommendations 활동에 사용할 수 있는 경험을 만드는 데 유용한 비시각적 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다. [추가 정보](/help/c-experiences/form-experience-composer.md). |
-| [!UICONTROL SPA(단일 페이지 애플리케이션) Visual Experience Composer] | SPA용 VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같이 인기 있는 프레임워크의 A/B 테스트 및 경험 타깃팅(XT) 활동을 만드는 데 사용할 수 있습니다. [추가 정보](/help/c-experiences/spa-visual-experience-composer.md). |
+| [!UICONTROL 단일 페이지 애플리케이션(SPA) Visual Experience Composer] | SPA용 VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같이 인기 있는 프레임워크의 A/B 테스트 및 경험 타깃팅(XT) 활동을 만드는 데 사용할 수 있습니다. [추가 정보](/help/c-experiences/spa-visual-experience-composer.md). |
 
 ## 거버넌스 및 제어
 
