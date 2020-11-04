@@ -5,15 +5,15 @@ title: 다변량 테스트
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1441'
 ht-degree: 91%
 
 ---
 
 
-# Multivariate test{#multivariate-test}
+# 다변량 테스트 개요
 
 [!DNL Adobe Target]의 MVT([!UICONTROL Multivariate Testing])는 페이지 요소에 있는 오퍼의 조합을 비교하여 특정 대상에 가장 적합한 조합을 결정하고 활동의 성공에 가장 큰 영향을 미치는 요소를 식별합니다.
 
