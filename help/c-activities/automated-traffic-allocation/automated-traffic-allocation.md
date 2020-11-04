@@ -6,19 +6,19 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
 workflow-type: tm+mt
-source-wordcount: '3368'
-ht-degree: 76%
+source-wordcount: '3369'
+ht-degree: 75%
 
 ---
 
 
-# 자동 할당{#auto-allocate}
+# 자동 할당 개요
 
 자동 할당은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습하는 동안 전환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.
 
-[안내가 있는 3단계 워크플로우를 사용하여 A/B 활동을 만들](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) 때 [!UICONTROL 최고 경험에 자동 할당] 선택 사항을 선택할 수 있습니다.
+While creating an A/B activity using the three-step guided workflow, you can choose the [!UICONTROL Auto-Allocate to best experience] option.
 
 ## 과제 {#section_85D5A03637204BACA75E19646162ACFF}
 
