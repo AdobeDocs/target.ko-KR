@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -20,7 +20,7 @@ Target Automated Personalization 활동에 대한 경험 미리 보기 URL을 �
 
 >[!NOTE]
 >
->Automated Personalization에 대한 경험 미리 보기 URL은 활동 QA 모드와 다릅니다. 활동 QA 모드에서는 다른 유형의 활동에 대한 활동 URL을 만들 수 있습니다. 자세한 내용은 [활동 QA](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40)를 참조하십시오.
+>Automated Personalization에 대한 경험 미리 보기 URL은 활동 QA 모드와 다릅니다. 활동 QA 모드에서는 다른 유형의 활동에 대한 활동 URL을 만들 수 있습니다. 자세한 내용은 [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md)를 참조하십시오.
 >
 >AP 활동에 대한 경험 미리 보기 URL은 at.js 1.x를 사용하는 경우에만 사용할 수 있습니다.AP 활동에 대한 경험 미리 보기 URL은 현재 at.js 2.x에서 지원되지 않습니다.
 
