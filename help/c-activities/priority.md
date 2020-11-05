@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 87%
@@ -29,7 +29,7 @@ Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적
    방문자가 A/B 테스트나 다변량 테스트에 이미 있다면 이 방문자는 전환할 때까지 해당 테스트에 속합니다. 방문자가 이전에 경험 타깃팅 활동에 있었다면 해당 활동에 다시 속해야 합니다. 대상 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
 
 1. 방문자가 대응하는 모든 활동 및 경험에 대한 콘텐츠가 페이지에 반환됩니다.
-1. 각 활동의 콘텐츠가 서로 다른 [CSS 선택기](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)를 참조한다면 모든 콘텐츠가 표시됩니다.
+1. 각 활동의 콘텐츠가 서로 다른 [CSS 선택기](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)를 참조한다면 모든 콘텐츠가 표시됩니다.
 
    겹치거나 중복되는 CSS 선택기가 있는 경우 우선순위가 가장 높은 활동 콘텐츠가 표시됩니다. 페이지에서 실행되는 모든 활동의 결과는 카운트되고 보고서에 반영됩니다.
 
@@ -90,7 +90,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 
 >[!NOTE]
 >
->설정에 따라 우선순위 값은 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다. 자세한 내용은 [활동 설정](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)을 참조하십시오.
+>설정에 따라 우선순위 값은 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다. 자세한 내용은 [활동 설정](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)을 참조하십시오.
 
 **비전역 Target 요청을 사용하는 두 개의 Target 클래식 캠페인**
 
