@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 80%
@@ -22,7 +22,7 @@ ht-degree: 80%
 
 ## 자동 생성된 글로벌 mbox 사용 {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-at.js 구성 시 [글로벌 mbox를 자동으로 만들기](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) 설정을 활성화하면 at.js가 페이지 로드 시 불투명도 설정을 변경하여 플리커(깜박임)를 관리합니다. at.js가 로드되면 at.js는 요소의 불투명도 설정을 `<body>`&quot;0&quot;으로 변경하여 방문자가 처음에 페이지를 볼 수 있도록 합니다. Target에서 응답을 받은 후 또는 Target 요청에 오류가 감지되면 at.js가 불투명도를 &quot;1&quot;로 재설정합니다. 이렇게 하면 활동의 컨텐츠가 적용된 후에만 방문자에게 페이지가 표시됩니다.
+at.js 구성 시 [글로벌 mbox를 자동으로 만들기](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) 설정을 활성화하면 at.js가 페이지 로드 시 불투명도 설정을 변경하여 플리커(깜박임)를 관리합니다. at.js가 로드되면 at.js는 요소의 불투명도 설정을 `<body>`&quot;0&quot;으로 변경하여 방문자가 처음에 페이지를 볼 수 있도록 합니다. Target에서 응답을 받은 후 또는 Target 요청에 오류가 감지되면 at.js가 불투명도를 &quot;1&quot;로 재설정합니다. 이렇게 하면 활동의 컨텐츠가 적용된 후에만 방문자에게 페이지가 표시됩니다.
 
 at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 불투명도를 0으로 설정합니다. Target의 응답을 받은 후 at.js는 HTML BODY 불투명도를 1로 재설정합니다.
 
