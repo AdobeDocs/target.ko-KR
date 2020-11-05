@@ -5,7 +5,7 @@ title: 라이브러리에서 컨텐츠 작업
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -19,7 +19,7 @@ ht-degree: 96%
 
 1. **[!UICONTROL 오퍼]**&#x200B;를 클릭하고 **[!UICONTROL 코드 오퍼]** 또는 **[!UICONTROL 이미지 오퍼]** 탭을 선택한 후 작업할 자산을 찾습니다.
 
-   오퍼 라이브러리를 검색하고 스마트 컬렉션을 만드는 방법에 대한 자세한 내용은 [컨텐츠 필터링 및 검색](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)을 참조하십시오.
+   오퍼 라이브러리를 검색하고 스마트 컬렉션을 만드는 방법에 대한 자세한 내용은 [컨텐츠 필터링 및 검색](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)을 참조하십시오.
 
 1. 작업할 항목 위로 마우스를 가져간 후 작업을 선택합니다. 액세스하여 아래의 작업 중 일부를 수행하려면 먼저 선택 아이콘(확인 표시)을 클릭한 다음 원하는 작업(예: 삭제)을 선택해야 합니다.
 
