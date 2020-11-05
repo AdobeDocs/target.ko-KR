@@ -6,7 +6,7 @@ feature: audiences
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
@@ -47,7 +47,7 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 1. (선택 사항) **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 대상에 대한 추가 규칙을 설정합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-대상의 [정의 세부 사항 팝업 카드](../../../c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)에 규칙 섹션의 매개 변수 이름이 표시됩니다. 필터링에 사용된 mbox에 대한 참조가 없습니다.
+대상의 [정의 세부 사항 팝업 카드](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)에 규칙 섹션의 매개 변수 이름이 표시됩니다. 필터링에 사용된 mbox에 대한 참조가 없습니다.
 
 >[!NOTE]
 >
