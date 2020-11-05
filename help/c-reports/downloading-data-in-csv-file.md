@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '673'
 ht-degree: 83%
@@ -57,7 +57,7 @@ ht-degree: 83%
 
 * 주문 플래그(중복 또는 예외적인 주문)
 
-   데이터의 마지막 월을 사용하여 평균 주문 값에서 +/- 3 이상의 표준 편차를 보이는 경우 이 주문은 극단적인 것으로 플래그가 지정됩니다(계산한 시간에 최대 포인트). 활동이 한 시간 동안 실행되었거나 15건의 주문이 발생하면, 어느 쪽이 먼저인지 상관없이 예외적인 주문을 제외하게 됩니다. 자세한 내용은 [예외적인 주문 제외](../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)를 참조하십시오.
+   데이터의 마지막 월을 사용하여 평균 주문 값에서 +/- 3 이상의 표준 편차를 보이는 경우 이 주문은 극단적인 것으로 플래그가 지정됩니다(계산한 시간에 최대 포인트). 활동이 한 시간 동안 실행되었거나 15건의 주문이 발생하면, 어느 쪽이 먼저인지 상관없이 예외적인 주문을 제외하게 됩니다. 자세한 내용은 [예외적인 주문 제외](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)를 참조하십시오.
 
 * 제품 ID
 
