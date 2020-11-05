@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 14%
@@ -20,7 +20,7 @@ Information about using experience fragments created in [!DNL Adobe Experience M
 
 >[!NOTE]
 >
->이 기능을 사용하려면 [!DNL Adobe Experience Manager] ([!DNL AEM]) 고객이어야 합니다. 자세한 내용은 아래의 [요구 사항](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
+>이 기능을 사용하려면 [!DNL Adobe Experience Manager] ([!DNL AEM]) 고객이어야 합니다. 자세한 내용은 아래의 [요구 사항](/help/c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
 
 ## 개요 {#section_95A91830530F493B81C5C9CDB9B783EA}
 
@@ -98,11 +98,11 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 >[!NOTE]
 >
->To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
+>To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
 
 **VEC를 사용하여 경험 조각을 소비하려면**
 
-1. 에서 [!DNL Target]Visual Experience Composer [에서 경험을 만들거나 편집하는 동안](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)컨텐츠를 삽입할 페이지의 위치를 클릭한 다음 원하는 옵션을 선택하여 경험 조각 [!DNL AEM] 선택 목록을 [!UICONTROL 표시합니다] .
+1. 에서 [!DNL Target]Visual Experience Composer [에서 경험을 만들거나 편집하는 동안](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)컨텐츠를 삽입할 페이지의 위치를 클릭한 다음 원하는 옵션을 선택하여 경험 조각 [!DNL AEM] 선택 목록을 [!UICONTROL 표시합니다] .
 
    * [!UICONTROL 다음 항목 전에 삽입]
    * [!UICONTROL 다음 항목 뒤에 삽입]
@@ -122,16 +122,16 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    다양한 활동 유형의 구성에 대한 자세한 내용은 다음 항목을 참조하십시오.
 
    * **A/B 테스트:** [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **자동 할당:** [자동 할당](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **자동 할당:** [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **자동 Target:**[자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md)
-   * **AP(자동화된 개인화):**[자동화된 개인화 활동 작성](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **경험 타깃팅(XT):** [경험 타깃팅 활동 만들기](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **다변량 테스트(MVT):** [다변량 테스트 만들기](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **권장 사항:** [권장 사항 활동 만들기](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+   * **AP(자동화된 개인화):**[자동화된 개인화 활동 작성](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **경험 타깃팅(XT):** [경험 타깃팅 활동 만들기](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **다변량 테스트(MVT):** [다변량 테스트 만들기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
+   * **권장 사항:** [권장 사항 활동 만들기](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 **양식 기반 경험 작성기를 사용하여 경험 조각을 소비하려면**
 
-1. 양식 기반 [!DNL Target]경험 작성기에서 경험을 만들거나 편집하는 동안 [페이지](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)에서 [!DNL AEM] 컨텐츠를 삽입할 위치를 선택한 다음 경험 조각 **[!UICONTROL 변경]** 을 선택하여 [경험 조각 [!UICONTROL 선택]] 및 [경험 조각 선택] 목록을 표시합니다.
+1. 양식 기반 [!DNL Target]경험 작성기에서 경험을 만들거나 편집하는 동안 [페이지](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)에서 [!DNL AEM] 컨텐츠를 삽입할 위치를 선택한 다음 경험 조각 **[!UICONTROL 변경]** 을 선택하여 [경험 조각 [!UICONTROL 선택]] 및 [경험 조각 선택] 목록을 표시합니다.
 
    ![](assets/experience_fragment_list.png)
 
