@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 61%
@@ -125,7 +125,7 @@ You can shorten the amount of time the [!DNL Target] variable persists down to a
 The following list explains reasons why the same visitor could be counted in multiple experiences in [!DNL Analytics]:
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
-* If the visitor is using the `mbox3rdPartyId`, when the anonymous visitor is merged with his or her 3rd-party ID profile, [!DNL Target] could put the visitor into a different experience to match up with the 3rd-party ID. 자세한 내용은 [mbox3rdPartyID에 대한 실시간 프로필 동기화](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)를 참조하십시오.
+* If the visitor is using the `mbox3rdPartyId`, when the anonymous visitor is merged with his or her 3rd-party ID profile, [!DNL Target] could put the visitor into a different experience to match up with the 3rd-party ID. 자세한 내용은 [mbox3rdPartyID에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732)를 참조하십시오.
 * [!DNL Analytics] 는 이러한 장치를 추적하는 방법과 다른 방법으로 동일한 방문자와 다른 장치를 [!DNL Target] 추적할 수 있습니다.의 타사 ID 설정 [!DNL Target] 은 Analytics와 다릅니다.
 
 ## A4T가 가상 보고서 세트를 지원합니까?
