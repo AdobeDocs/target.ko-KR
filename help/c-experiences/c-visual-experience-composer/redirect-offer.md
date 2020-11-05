@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
@@ -24,7 +24,7 @@ ht-degree: 100%
 
 리디렉션 오퍼에는 다음과 같은 몇 가지 제한 사항이 있습니다.
 
-* A4T를 사용하는 활동의 리디렉션 오퍼에 대해서는 구현이 특정 최소 요구 사항을 충족해야 합니다. 또한 사용자가 알아야 하는 중요한 정보도 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)를 참조하십시오.
+* A4T를 사용하는 활동의 리디렉션 오퍼에 대해서는 구현이 특정 최소 요구 사항을 충족해야 합니다. 또한 사용자가 알아야 하는 중요한 정보도 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)를 참조하십시오.
 * 양식 기반 경험 작성기를 사용하는 경우, 리디렉션 오퍼는 페이지의 일부인 mbox에서 사용하지 않아야 합니다. 리디렉션 오퍼는 HTML `<head>`의 일부인 스크립트 태그에서만 사용해야 합니다. 글로벌 mbox에 대해 항상 자동 만들기를 사용하고 리디렉션 오퍼를 설정하는 것이 좋습니다.
 
 >[!NOTE]
