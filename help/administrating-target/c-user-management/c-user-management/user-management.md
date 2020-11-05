@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '893'
 ht-degree: 48%
@@ -68,14 +68,14 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 모든 사용자 관리는 [!DNL Adobe Admin Console for Enterprise]에서 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
 
-1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 사용자]** > 사용자 **[!UICONTROL 를 클릭하여]** 새 사용자를 만들거나 기존 사용자를 편집합니다.
+1. [Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 사용자]** > 사용자 **[!UICONTROL 를 클릭하여]** 새 사용자를 만들거나 기존 사용자를 편집합니다.
 1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## Create user groups {#user-groups}
 
 개발자, 분석가, 마케터, 경영진 등과 같은 사용자 그룹을 만든 다음 여러 Adobe 제품 및 작업 공간에서 권한을 지정할 수 있습니다. 새 팀 구성원에게 다른 Adobe 제품에 대한 모든 적절한 권한을 지정하면 특정 사용자 그룹에 팀 구성원을 쉽게 추가할 수 있습니다.
 
-1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]** 을 클릭하여새 사용자 그룹을 만들거나 기존 그룹을 편집합니다.
+1. [Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 사용자]** > **[!UICONTROL 사용자 그룹]** 을 클릭하여새 사용자 그룹을 만들거나 기존 그룹을 편집합니다.
 1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## Specify roles and permissions {#roles-permissions}
@@ -84,7 +84,7 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 시스템 관리자 사용자는 시스템에 사용자를 추가해야 합니다. 사용자는 자동으로 추가되지 않습니다. They are invited by email from the [!DNL Experience Cloud] and must confirm their email addresses before their accounts are registered.
 
-1. [Admin Console](../../../administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 제품]**&#x200B;을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
+1. [Admin Console](/help/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL 제품]**&#x200B;을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
 
    ![제품 탭](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
@@ -121,6 +121,6 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 >[!NOTE]
 >
->관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하며 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+>관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하고, 제품 전반의 사용자 경험을 개선하기 위해 다시 설계되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
