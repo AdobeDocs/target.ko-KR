@@ -6,7 +6,7 @@ feature: ab
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
 workflow-type: tm+mt
 source-wordcount: '850'
 ht-degree: 63%
@@ -34,7 +34,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
    >
    >사용 가능한 활동 유형은 [!DNL Target] 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL 권장 사항]은 [Target Premium 기능](/help/c-intro/intro.md#premium)입니다.
    >
-   >다양한 활동 유형에 대한 자세한 내용은 [활동](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 및 [Target 활동 안내서](/help/c-activities/target-activities-guide.md)를 참조하십시오.
+   >다양한 활동 유형에 대한 자세한 내용은 [활동](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 및 [Target 활동 안내서](/help/c-activities/target-activities-guide.md)를 참조하십시오.
 
 1. 필요한 경우 **[!UICONTROL 시각적(기본값)]**&#x200B;을 선택합니다.
 
@@ -48,7 +48,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >이전 그림에서 [!UICONTROL 작업 공간 선택](/help/administrating-target/c-user-management/property-channel/property-channel.md) 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >이전 그림에서 [[!UICONTROL 작업 공간 선택]](/help/administrating-target/c-user-management/property-channel/property-channel.md) 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
 
 1. (조건부) [Target Premium 고객](/help/c-intro/intro.md#premium)인 경우 [작업 공간](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
@@ -81,7 +81,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    새 활동을 만든 후에 [!UICONTROL 시각적 경험 작성기] 왼쪽에 두 개의 탭(경험 A 및 경험 B)이 표시됩니다. 경험 A는 제어 경험입니다. 포커스는 경험 B 탭에 놓이므로 원하는 대로 수정할 수 있습니다. 경험 B는 테스트에 추가할 수 있는 대체 경험입니다. 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
 
-   [!UICONTROL 시각적 경험 작성기]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](../../../c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. 경험 B를 수정하려면 3단계부터 시작하십시오.
+   [!UICONTROL 시각적 경험 작성기]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. 경험 B를 수정하려면 3단계부터 시작하십시오.
 
 1. **[!UICONTROL 시각적 경험 작성기]**&#x200B;의 맨 위에서 [!UICONTROL 타깃팅]을 클릭하여 3단계 안내가 워크플로우에서 다음 단계로 이동합니다.
 
@@ -109,7 +109,7 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    * **[!UICONTROL 수동(기본값)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다. 
 
-   * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. [자동화된 트래픽 할당](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
+   * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. [자동화된 트래픽 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
 
    * **[!UICONTROL 개인화된 경험을 위한 자동 타깃팅]**: [!DNL Target] 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 여러 경험을 파악하고 방문자의 개별 고객 프로파일과 과거 유사 방문자의 행동을 바탕으로 방문자에게 가장 적합한 경험을 제공하여 컨텐츠를 개인화하고 전환율을 높일 수 있습니다. 자세한 내용은 자동 [Target을 참조하십시오](/help/c-activities/auto-target/auto-target-to-optimize.md).
    You can also click **[!UICONTROL Add]** to add another experience to the activity.
