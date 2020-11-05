@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '473'
 ht-degree: 99%
@@ -54,7 +54,7 @@ ht-degree: 99%
    규칙을 사용하면 대상을 사이트 방문자의 하위 집합으로 제한할 수 있습니다.
 1. 규칙 유형을 선택합니다.
 
-   각 규칙 유형에는 고유한 매개 변수가 있습니다. 각 유형의 대상 규칙을 구성하는 방법에 대한 자세한 내용은 [대상 카테고리](../../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)를 참조하십시오.
+   각 규칙 유형에는 고유한 매개 변수가 있습니다. 각 유형의 대상 규칙을 구성하는 방법에 대한 자세한 내용은 [대상 카테고리](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)를 참조하십시오.
 1. 규칙 매개 변수를 정의합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
