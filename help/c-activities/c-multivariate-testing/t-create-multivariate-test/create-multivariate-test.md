@@ -5,7 +5,7 @@ title: 다변량 테스트 만들기
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 97%
@@ -29,7 +29,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
    >
    >사용 가능한 활동 유형은 Target 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL 자동화된 개인화]는 [Target Premium](/help/c-intro/intro.md#premium) 기능입니다.
    >
-   >[!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/c-activities/target-activities-guide.md)을 참조하십시오.
+   >[!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/c-activities/target-activities-guide.md)을 참조하십시오.
 
 1. 필요한 경우 **[!UICONTROL 시각적(기본값)]**&#x200B;을 선택합니다.
 
@@ -43,7 +43,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
 1. (조건부) Target Premium 고객인 경우 [작업 공간을 선택](/help/administrating-target/c-user-management/property-channel/property-channel.md)합니다.
 
-1. 테스트할 페이지의 [URL을 지정](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. 테스트할 페이지의 [URL을 지정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
    | - | 빼기 |
    | @ | 로그인 |
 
-1. [각 위치에 오퍼를 만듭니다](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [각 위치에 오퍼를 만듭니다](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
    ![텍스트/HTML 편집 대화 상자](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
@@ -88,7 +88,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
    ![경험 제외](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
-1. [트래픽 견적 도구를 사용하여](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) 테스트 계획의 가능성을 테스트합니다.
+1. [트래픽 견적 도구를 사용하여](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) 테스트 계획의 가능성을 테스트합니다.
 
    ![트래픽 표시기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
@@ -110,11 +110,11 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
    >[!NOTE]
    >
-   >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
+   >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-1. [테스트 요약을 검토하고](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 원하는 대로 변경한 후, **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. [테스트 요약을 검토하고](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 원하는 대로 변경한 후, **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
-1. [테스트에 대한 목표 및 설정을 지정](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)합니다.
+1. [테스트에 대한 목표 및 설정을 지정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)합니다.
 
 1. **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭하여 활동을 만듭니다.
 
