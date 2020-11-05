@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '659'
 ht-degree: 69%
@@ -31,7 +31,7 @@ ht-degree: 69%
 
 * 가장 많은 전환을 생성하는 랜딩 페이지 찾기
 
-올바른 설정을 결정하는 방법은 [비 JavaScript 기반 구현](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+올바른 설정을 결정하는 방법은 [비 JavaScript 기반 구현](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
 ## Create a redirector {#redirector}
 
@@ -66,10 +66,10 @@ ht-degree: 69%
    1. *보안 모범 사례*:리디렉터에 사용된 도메인이 위에 허용 목록에추가된 표시된 대로 표시되는지 확인합니다. 도메인이 아닌를 사용하는 경우, Adobe은 악성 행위자가 리디렉터를 사용하여 잠재적으로 악성 도메인으로 리디렉션하는 것을 방지하기 위해 해당 도메인에 대한 모든 호출을 차단합니다허용 목록에추가된.
    1. 리디렉터 URL을 브라우저에 삽입하고 새로 고칩니다.
    1. 계정에 로그인하고 mbox 목록을 새로 고친 후 새 리디렉터가 mbox로 나열되는지 확인합니다.
-1. 하나의 광고에 대해 서로 다른 대상을 테스트할 경우 각 버전에 대해 [리디렉션 오퍼](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)를 만듭니다.
+1. 하나의 광고에 대해 서로 다른 대상을 테스트할 경우 각 버전에 대해 [리디렉션 오퍼](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)를 만듭니다.
 1. 캠페인을 만듭니다.
 
-   목표를 충족하는 올바른 설정을 알려면 [비JavaScript 기반 구현](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)을 참조하십시오.
+   목표를 충족하는 올바른 설정을 알려면 [비JavaScript 기반 구현](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)을 참조하십시오.
 1. 캠페인에 대한 QA를 완료합니다.
 
    리디렉터 URL이 포함된 `<a href>`를 사용하여 더미 페이지를 만듭니다. 예:
