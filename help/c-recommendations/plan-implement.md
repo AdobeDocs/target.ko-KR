@@ -5,7 +5,7 @@ title: 권장 사항 계획 및 구현
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 6ad358c8a8fcbed390b7460b93e4ea5e41e2ba2f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -111,7 +111,7 @@ function targetPageParams() {
 }
 ```
 
-다양한 유형의 페이지에서 사용할 수 있는 코드에 대한 예가 더 필요하면 [페이지 유형에 따른 구현](../c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
+다양한 유형의 페이지에서 사용할 수 있는 코드에 대한 예가 더 필요하면 [페이지 유형에 따른 구현](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC).
 
 ## 페이지 유형에 따른 구현 {#reference_DE38BB07BD3C4511B176CDAB45E126FC}
 
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 예를 들어, 제품 페이지에서 표시하고 싶은 권장 사항 유형이 범주 페이지 또는 홈 페이지와는 다를 수 있습니다. 각 페이지에 대해 mbox 호출 전에 특정 함수를 실행하여 적절한 권장 사항을 표시할 수 있습니다.
 
-예제의 속성에 대한 내용은 [엔티티 속성](../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)을 참조하십시오.
+예제의 속성에 대한 내용은 [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)을 참조하십시오.
 
 유효한 JSON 형식이 필요합니다.
 
@@ -130,11 +130,11 @@ function targetPageParams() {
 권장 사항을 포함하는 모든 페이지에는 [!DNL at.js] 또는 [!DNL mbox.js] 참조가 필요합니다. 권장 사항이 있는 모든 페이지에 다음 참조 중 하나를 추가하십시오.
 
 ```
-<script src="../at.js /></script>
+<script src="/help/at.js /></script>
 ```
 
 ```
-<script src="../mbox.js /></script>
+<script src="/help/mbox.js /></script>
 ```
 
 이 구현에는 다음이 필요합니다.
@@ -143,9 +143,9 @@ function targetPageParams() {
 
 * [!DNL mbox.js]에는 [!DNL target.js]에 대한 참조가 포함되어야 합니다([!DNL at.js]에는 [!DNL target.js]에 대한 참조가 필요하지 않음).
 
-[!DNL at.js] 구현에 대한 자세한 내용은 [at.js를 배포하는 방법](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)을 참조하십시오.
+[!DNL at.js] 구현에 대한 자세한 내용은 [at.js를 배포하는 방법](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md#topic_ECF2D3D1F3384E2386593A582A978556)을 참조하십시오.
 
-[!DNL mbox.js] 구현에 대한 자세한 내용은 [mbox.js 구현](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
+[!DNL mbox.js] 구현에 대한 자세한 내용은 [mbox.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
 
 두 Target Javascript 라이브러리의 차이점에 대한 자세한 내용은 [at.js의 이점](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits)을 참조하십시오.
 
@@ -198,8 +198,8 @@ function targetPageParams() {
 
 감사 페이지에서는 추가 품목을 권장하지 않으면서 주문 합계 및 주문 ID를 표시하고, 구입한 제품을 표시할 수 있습니다. 두 번째 mbox를 구현하여 주문 정보를 캡처할 수 있습니다.
 
-* at.js를 사용하는 경우 [변환 추적](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
-* mbox.js를 사용 중이라면 [주문 확인 mbox 만들기 - mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)를 참조하십시오.
+* at.js를 사용하는 경우 [변환 추적](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* mbox.js를 사용 중이라면 [주문 확인 mbox 만들기 - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md#task_0036D5F6C062442788BB55E872816D82)를 참조하십시오.
 
 ## 설정{#concept_C1E1E2351413468692D6C21145EF0B84}의 지침을 완료하여 이 설정을 변경할 수 있습니다 
 
