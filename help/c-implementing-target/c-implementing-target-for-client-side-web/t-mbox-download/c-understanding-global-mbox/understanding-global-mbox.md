@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: d8f48c94-6487-437b-828f-f9be7da58f48
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 86%
@@ -28,6 +28,6 @@ ht-degree: 86%
 | 일반 mbox는 일반적으로 컨텐츠를 `<DIV>` 태그로 둘러싸고 있습니다. | 글로벌 mbox는 &quot;비어 있는&quot; 상태이며 컨텐츠를 둘러싸지 않습니다. |
 | 한 활동의 컨텐츠만 일반 mbox에서 전달할 수 있습니다. | 여러 활동의 컨텐츠를 글로벌 mbox에 대한 하나의 응답으로 전달할 수 있습니다. |
 
-여러 활동이 글로벌 mbox 또는 여러 일반 mbox를 통해 전달되는 경우 [!DNL Target]에서는 [활동이 웹 페이지에 전달되는 우선순위를 결정](../../../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)합니다.
+여러 활동이 글로벌 mbox 또는 여러 일반 mbox를 통해 전달되는 경우 [!DNL Target]에서는 [활동이 웹 페이지에 전달되는 우선순위를 결정](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)합니다.
 
-추가적인 페이지 수준 데이터를 [!DNL Target] 함수를 사용하여 글로벌 mbox와 함께 `targetPageParams`에 전송할 수 있습니다. 이것은 mbox 매개 변수 기능과 비슷합니다. 자세한 내용은 [글로벌 Mbox에 매개 변수 전달](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)을 참조하십시오.
+추가적인 페이지 수준 데이터를 [!DNL Target] 함수를 사용하여 글로벌 mbox와 함께 `targetPageParams`에 전송할 수 있습니다. 이것은 mbox 매개 변수 기능과 비슷합니다. 자세한 내용은 [글로벌 Mbox에 매개 변수 전달](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md#concept_33362A04146C4E3C8E7089B65F38B5E5)을 참조하십시오.
