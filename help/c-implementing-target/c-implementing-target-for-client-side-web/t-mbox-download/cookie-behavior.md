@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1565'
 ht-degree: 99%
@@ -27,7 +27,7 @@ See also [Delete the Target cookie](/help/c-implementing-target/c-considerations
 
 ## 퍼스트 파티 또는 타사 쿠키를 사용하는 경우 {#section_F71B29420C004A7FA3B1921E619B326E}
 
-사이트 설정에 따라 사용할 쿠키가 결정됩니다. 퍼스트 파티 및 타사 쿠키를 이해하면 Target이 작동하는 방식을 이해하는 데 도움이 됩니다. 자세한 내용은 [Adobe Target 작동 방식](../../../c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584)을 참조하십시오.
+사이트 설정에 따라 사용할 쿠키가 결정됩니다. 퍼스트 파티 및 타사 쿠키를 이해하면 Target이 작동하는 방식을 이해하는 데 도움이 됩니다. 자세한 내용은 [Adobe Target 작동 방식](/help/c-intro/how-target-works.md#concept_459AB4DEE7364A9290C2FD405DC29584)을 참조하십시오.
 
 쿠키에 대한 주요 사용 사례로는 다음 세 가지가 있습니다.
 
@@ -142,4 +142,4 @@ Apple의 메시지:
 | 영향을 받는 기능 | 세부 사항 |
 |--- |--- |
 | 옵트아웃 지원 | Apple의 WebKit 변경 사항 추적에서는 옵트아웃 지원을 중단합니다.<br>Target 옵트아웃은 `clientcode.tt.omtrdc.net` 도메인의 쿠키를 사용합니다. 자세한 내용은.[개인 정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)를 참조하십시오.<br>Target은 두 개의 옵트아웃을 지원합니다.<ul><li>클라이언트당 하나(클라이언트는 옵트아웃 링크를 관리합니다.)</li><li>Adobe를 통해, 모든 고객용으로 모든 Target 기능에서 사용자를 옵트아웃하는 하나</li></ul>두 방법 모두 타사 쿠키를 사용합니다. |
-| 타겟 활동 | 고객은 Target 계정에 대한 자신의 [프로필 라이프타임 길이](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)를 최대 90일까지 선택할 수 있습니다. 문제는 계정의 프로필 라이프타임이 30일보다 길고, 고객의 도메인이 사이트 간에 사용자를 추적하는 것으로 표시되었기 때문에 퍼스트 파티 쿠키가 삭제되는 경우 Safari 방문자에 대한 동작이 Target의 다음 영역에서 영향을 받는다는 것입니다.<br>**Target 보고서&#x200B;**: Safari 사용자가 활동에 들어갔다가, 30일 후에 재방문한 다음, 전환하는 경우, 해당 사용자는 2명의 방문자와 하나의 전환으로 카운트됩니다.<br>이 동작은 Analytics를 보고 소스로 사용(A4T)하는 활동에 대해 동일합니다.<br>**프로필 및 활동 멤버십**:<ul><li>퍼스트 파티 쿠키가 만료되면 프로필 데이터가 지워집니다.</li><li>퍼스트 파티 쿠키가 만료되면 활동 멤버십이 지워집니다.</li><li> 타사 쿠키 구현을 사용하거나 퍼스트 파티 쿠키와 타사 쿠키 구현을 사용을 사용하는 계정의 경우 Target이 Safari에서 작동하지 않습니다. 이 동작은 새로운 동작이 아닙니다. Safari가 얼마 동안 타사 쿠키를 허용하지 않았습니다.</li></ul><br>**제안&#x200B;**: 고객 도메인이 세션 간 방문자를 추적하는 도메인으로 표시될 수 있다는 걱정이 있다면 Target에서 프로필 라이프타임을 30일 이하로 설정하는 것이 가장 안전합니다. 그러면 사용자가 Safari 및 기타 모든 브라우저에서 유사하게 추적됩니다. |
+| 타겟 활동 | 고객은 Target 계정에 대한 자신의 [프로필 라이프타임 길이](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md)를 최대 90일까지 선택할 수 있습니다. 문제는 계정의 프로필 라이프타임이 30일보다 길고, 고객의 도메인이 사이트 간에 사용자를 추적하는 것으로 표시되었기 때문에 퍼스트 파티 쿠키가 삭제되는 경우 Safari 방문자에 대한 동작이 Target의 다음 영역에서 영향을 받는다는 것입니다.<br>**Target 보고서**: Safari 사용자가 활동에 들어갔다가, 30일 후에 재방문한 다음, 전환하는 경우, 해당 사용자는 2명의 방문자와 하나의 전환으로 카운트됩니다.<br>이 동작은 Analytics를 보고 소스로 사용(A4T)하는 활동에 대해 동일합니다.<br>**프로필 및 활동 멤버십**:<ul><li>퍼스트 파티 쿠키가 만료되면 프로필 데이터가 지워집니다.</li><li>퍼스트 파티 쿠키가 만료되면 활동 멤버십이 지워집니다.</li><li> 타사 쿠키 구현을 사용하거나 퍼스트 파티 쿠키와 타사 쿠키 구현을 사용을 사용하는 계정의 경우 Target이 Safari에서 작동하지 않습니다. 이 동작은 새로운 동작이 아닙니다. Safari가 얼마 동안 타사 쿠키를 허용하지 않았습니다.</li></ul><br>**제안**: 고객 도메인이 세션 간 방문자를 추적하는 도메인으로 표시될 수 있다는 걱정이 있다면 Target에서 프로필 라이프타임을 30일 이하로 설정하는 것이 가장 안전합니다. 그러면 사용자가 Safari 및 기타 모든 브라우저에서 유사하게 추적됩니다. |
