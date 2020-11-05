@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '827'
 ht-degree: 64%
@@ -45,8 +45,8 @@ Reports provide information about the progress and results of your [!DNL Adobe T
    >
    >경험 결과는 적어도 한 명 이상의 참여자가 경험을 본 후에야 표시됩니다.
 
-1. (선택 사항) 원하는 대로 [보고서를 구성합니다](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA).
-1. (선택 사항) Excel 및 기타 도구에서 분석할 [보고서를 CSV 형식으로 다운로드](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)합니다.
+1. (선택 사항) 원하는 대로 [보고서를 구성합니다](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA).
+1. (선택 사항) Excel 및 기타 도구에서 분석할 [보고서를 CSV 형식으로 다운로드](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)합니다.
 
    다음 옵션을 사용할 수 있습니다.
 
@@ -82,4 +82,4 @@ Reports provide information about the progress and results of your [!DNL Adobe T
 
 지정된 IP 주소의 방문자가 보고서에서 계산되지 않도록 차단할 수 있습니다. 예를 들어 내부 방문자의 보고 데이터를 차단하는 것이 유용합니다.
 
-[Client Care에 문의하여 IP 필터를 설정하십시오. ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 이 필터링은 Target(A4T) [용](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) Analytics를 보고 소스로 사용하는 경우에는 적용되지 않습니다.
+[Client Care에 문의하여 IP 필터를 설정하십시오. ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 이 필터링은 Target(A4T) [용](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) Analytics를 보고 소스로 사용하는 경우에는 적용되지 않습니다.
