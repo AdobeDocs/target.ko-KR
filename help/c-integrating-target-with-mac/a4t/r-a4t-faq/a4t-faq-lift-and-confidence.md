@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 50%
@@ -20,7 +20,7 @@ ht-degree: 50%
 
 ## A4T에 대해 오프라인 계산을 수행할 수 있습니까? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 자세한 내용은 [신뢰 수준 및 신뢰 구간](../../../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)의 &quot;Analytics for Target(A4T)에 사용할 오프라인 계산 수행&quot;을 참조하십시오.
+A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 자세한 내용은 [신뢰 수준 및 신뢰 구간](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)의 &quot;Analytics for Target(A4T)에 사용할 오프라인 계산 수행&quot;을 참조하십시오.
 
 ## 상승도는 어떻게 계산됩니까? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
