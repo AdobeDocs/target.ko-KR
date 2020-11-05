@@ -5,7 +5,7 @@ title: 권장 사항 Classic과 Target Premium의 권장 사항 활동 비교
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,14 +52,14 @@ ht-degree: 100%
 
 기준은 업계 카테고리, 페이지 유형 및 구현 별로 사전 구성 및 정렬됩니다. 예를 들어, 제품 페이지에서 사용할 목적으로 소매 카테고리에 적용되는 기준을 찾아 특정 카테고리(`entity.categoryID` 매개 변수로 정의되는 카테고리) 내의 제품을 표시할 수 있습니다.
 
-기준 사용 및 작성에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.
+기준 사용 및 작성에 대한 자세한 내용은 [기준](/help/c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.
 
 ## 워크플로우 {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 [!DNL Recommendations] 워크플로우가 단순해졌습니다. 복잡한 양식을 채우는 대신 다음 작업을 수행하는 시각적 워크플로우를 수행합니다.
 
 1. 기준을 선택합니다.
-1. 사전 구성된 [디자인](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. 사전 구성된 [디자인](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. 결과 권장 사항을 미리 봅니다.
 
 ## 시각적 미리 보기 {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
