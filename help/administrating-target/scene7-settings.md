@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 25%
@@ -24,7 +24,7 @@ Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL
 
 If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. 이 서비스는 이미지 대체 기능이 필요한 워크플로우의 고객이 사용할 수 있습니다.
 
-If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. 이 설정이 구성되면 VEC( [Visual Experience Composer)와 양식 기반 Experience Composer 모두에서 이미지 오퍼를 교체/변경하는 옵션을 사용할 수 있습니다](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
+If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. 이 설정이 구성되면 VEC( [Visual Experience Composer)와 양식 기반 Experience Composer 모두에서 이미지 오퍼를 교체/변경하는 옵션을 사용할 수 있습니다](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
 활동 생성 중에 오퍼 또는 사용자 지정 코드에서 직접 공개 이미지 URL을 참조하려면 이미지를 사용자 고유의 웹 서버에 배포하고 코드에서 자체 URL을 사용해야 합니다. There is no way to obtain the published URL of an image uploaded into the [!DNL Experience Cloud] to consume directly or outside of targeting workflows using [!DNL Target]. 이 기능이 계약에 따라 허용되지는 않습니다.
 
