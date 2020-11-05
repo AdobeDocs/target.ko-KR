@@ -6,7 +6,7 @@ feature: xt
 solution: Target
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: a37753336786efdde392c8c7cd2c546aac79dd12
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '316'
 ht-degree: 99%
@@ -18,10 +18,10 @@ ht-degree: 99%
 
 XT(경험 타깃팅) 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 
-성공 지표에 대한 자세한 내용은  [성공 지표](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
+성공 지표에 대한 자세한 내용은  [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 
 1. 활동의 목표를 지정합니다.
-1. [성공 지표](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
+1. [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
 
    ![성공 지표 선택](/help/c-activities/t-experience-target/t-xt-create/assets/ab_metrics-new.png)
 
@@ -40,7 +40,7 @@ XT(경험 타깃팅) 활동의 지표를 사용하여 방문이 성공적으로 
 
    예상한 데이터를 가져오기 위해서는 성공 지표를 올바르게 구성해야 합니다.
 
-   자세한 내용은 [성공 지표](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
+   자세한 내용은 [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 1. (선택 사항) 추가 지표를 추가합니다.
 1. 지표 설정이 끝나면 **[!UICONTROL 계속]**을 클릭합니다.
 이름을 지정하거나 지표의 이름을 바꾸는 경우 다음 문자가 허용되지 않습니다.
