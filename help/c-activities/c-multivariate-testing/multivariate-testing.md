@@ -5,7 +5,7 @@ title: 다변량 테스트
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 91%
@@ -31,7 +31,7 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
 
 ![](assets/multivariate.png)
 
-생성할 수 있는 조합의 수로 인해 A/B 테스트에 비해 다변량 테스트에는 더 많은 시간과 트래픽이 필요합니다. 페이지에서 충분한 트래픽을 수신해야 각 경험에 대해 통계상으로 유효한 결과를 얻을 수 있습니다. 유용한 결과를 얻으려면 페이지에 수신되는 트래픽의 양을 파악하고 필요한 결과를 얻기 위한 적절한 시간에 대해 최적의 조합 수를 테스트해야 합니다. Target의 [트래픽 견적 도구](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)는 트래픽을 사용한 테스트를 디자인하는 데 유용합니다. 트래픽 견적 도구를 사용하기 전에, 사이트에서 일반적으로 수신하는 노출 수 및 전환 수를 보여주는 적절한 통계가 있어야 합니다. 일 단위로 트래픽 수준을 고려합니다. 활동에 경험이 많을수록 활동에 더 많은 트래픽을 포함하거나 활동을 더 오랫동안 실행해야 합니다. 트래픽 양이 아주 많지 않을 경우에는 적은 수의 조합을 테스트해야 합니다. 그렇지 않으면 의미있는 테스트 결과를 얻는 데 필요한 기간이 너무 길어 유용하지 않을 수 있습니다.
+생성할 수 있는 조합의 수로 인해 A/B 테스트에 비해 다변량 테스트에는 더 많은 시간과 트래픽이 필요합니다. 페이지에서 충분한 트래픽을 수신해야 각 경험에 대해 통계상으로 유효한 결과를 얻을 수 있습니다. 유용한 결과를 얻으려면 페이지에 수신되는 트래픽의 양을 파악하고 필요한 결과를 얻기 위한 적절한 시간에 대해 최적의 조합 수를 테스트해야 합니다. Target의 [트래픽 견적 도구](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)는 트래픽을 사용한 테스트를 디자인하는 데 유용합니다. 트래픽 견적 도구를 사용하기 전에, 사이트에서 일반적으로 수신하는 노출 수 및 전환 수를 보여주는 적절한 통계가 있어야 합니다. 일 단위로 트래픽 수준을 고려합니다. 활동에 경험이 많을수록 활동에 더 많은 트래픽을 포함하거나 활동을 더 오랫동안 실행해야 합니다. 트래픽 양이 아주 많지 않을 경우에는 적은 수의 조합을 테스트해야 합니다. 그렇지 않으면 의미있는 테스트 결과를 얻는 데 필요한 기간이 너무 길어 유용하지 않을 수 있습니다.
 
 ## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -85,7 +85,7 @@ Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각
 * [VEC(시각적 경험 작성기)](/help/c-experiences/experiences.md)를 사용하여 A/B 워크플로우에서 경험을 구축합니다. 사용자 지정 코드를 사용하거나 HTML, WYSIWYG 또는 모든 조합을 편집할 수 있습니다.
 * 활동이 끝나면(샘플 크기 계산기에 따라) 스프레드시트를 통해 결과를 실행하여 다른 세부 사항을 얻습니다.
 
-추가적인 고려 사항 및 우수 사례를 알려면 [다변량 테스트 우수 사례](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)를 참조하십시오.
+추가적인 고려 사항 및 우수 사례를 알려면 [다변량 테스트 우수 사례](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)를 참조하십시오.
 
 ## 교육 비디오:
 
