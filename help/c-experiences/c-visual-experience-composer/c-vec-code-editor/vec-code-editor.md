@@ -7,7 +7,7 @@ subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 페이지 수정 사항을 보고 추가로 수정(CSS 선택기, 순Mbox 및 사용자 지정 코드)할 수 있는 수정 사항 페이지에 대한 정보입니다.
 
-수정 사항 페이지에는 VEC(시각적 경험 작성기)에서 수행한 페이지의 모든 변경 사항이 표시되며, 페이지의 각 요소를 클릭하고 [작업을 선택하여 추가로 변경할 수 있습니다](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 각 변경 사항은 [!UICONTROL 수정 사항] 목록에서 별도의 작업 또는 요소로 표시됩니다. CSS 선택기, Mbox 및 사용자 지정 코드 수정 유형을 포함하여 수정 사항을 추가할 수도 있습니다.
+수정 사항 페이지에는 VEC(시각적 경험 작성기)에서 수행한 페이지의 모든 변경 사항이 표시되며, 페이지의 각 요소를 클릭하고 [작업을 선택하여 추가로 변경할 수 있습니다](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 각 변경 사항은 [!UICONTROL 수정 사항] 목록에서 별도의 작업 또는 요소로 표시됩니다. CSS 선택기, Mbox 및 사용자 지정 코드 수정 유형을 포함하여 수정 사항을 추가할 수도 있습니다.
 
 ## 수정 사항 개요 {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -69,7 +69,7 @@ ht-degree: 100%
 
    >[!NOTE]
    >
-   >양식 기반 경험 작성기에서 수정 사항 패널을 열려면 HTML 오퍼를 작성하거나 편집하십시오. 자세한 내용은 [양식 기반 경험 작성기](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)를 참조하십시오.
+   >양식 기반 경험 작성기에서 수정 사항 패널을 열려면 HTML 오퍼를 작성하거나 편집하십시오. 자세한 내용은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)를 참조하십시오.
 
    [!UICONTROL 수정 사항] 페이지가 열리고 왼쪽의 시각적 모드와 오른쪽의 수정 사항 패널 사이에 화면이 분할됩니다. [!UICONTROL 고정] 아이콘을 클릭하여 수정 사항 패널을 Target UI의 측면에 세로로 또는 하단에 가로로 고정할 수 있습니다. 다음 그림에 있는 경험 A에는 이전 수정 사항이 없습니다.
 
@@ -191,7 +191,7 @@ ht-degree: 100%
 
 * 사용자 지정 코드에서 사용할 Adobe Target 경험 템플릿을 추가하십시오. Target 경험 템플릿은 공통된 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력으로 사전 코딩된 샘플입니다. 이러한 경험 템플릿은 VEC 또는 양식 기반 경험 작성기를 통해 공통 사용 사례를 실행할 시작점으로 개발자 및 마케터에게 무료로 제공됩니다. 사용 사례에는 Lightbox, 회전 메뉴, 카운트다운 등이 포함됩니다.
 
-   자세한 내용은 [경험 템플릿](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)을 참조하십시오.
+   자세한 내용은 [경험 템플릿](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)을 참조하십시오.
 
 ## 사용자 지정 코드 우수 사례 {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -246,7 +246,7 @@ Target은 &quot;CDQID&quot; 값을 사용하는 새 요소 ID를 Target으로 �
 
 다시 말해, 텍스트가 있는 요소를 추가하면, 다른 텍스트로 해당 요소를 편집하는 별도의 작업에서 수정 사항 패널에 두 작업이 모두 별도의 요소로 표시됩니다. 요소를 편집한 경우 편집된 텍스트를 포함하고 여러분이 만든 원본을 수정하는 새 요소가 만들어진 것입니다. 만약 원래 요소를 삭제하면 편집된 텍스트는 편집된 요소를 찾을 수 없으며 표시되지 않습니다. 두 번째 요소는 요소 목록에는 남아 있지만, 변경되는 요소가 더 이상 존재하지 않으므로 이 요소는 페이지에 영향을 주지 않습니다.
 
-***스크립트에서`document.write`을 사용하여 만든 요소가 기대한 위치에 표시되지 않습니다.***
+***스크립트에서 `document.write`을 사용하여 만든 요소가 기대한 위치에 표시되지 않습니다.***
 
 스크립트는 비동기적으로 실행됩니다. 이로 인해 `document.write` 작업이 종종 페이지의 잘못된 위치에 나타납니다. 따라서 사용자 지정 코드에서 작성된 스크립트에서는 `document.write`를 사용하지 않는 것이 좋습니다.
 
