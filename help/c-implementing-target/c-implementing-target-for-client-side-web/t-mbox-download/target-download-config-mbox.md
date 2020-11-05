@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 94%
@@ -25,7 +25,7 @@ Target Standard 및 Premium은 수정된 버전의 Adobe Target mbox.js 파일�
 1. **[!UICONTROL mbox.js 다운로드]**&#x200B;를 클릭하고 프롬프트에 따라 파일을 저장합니다.
 1. (조건부) [!DNL mbox.js] 버전 60 이상을 사용하는 경우, mbox가 로드되어 응답형 사이트에서 깜박임이 줄어들 때까지 기본적으로 페이지 컨텐츠를 자동으로 숨기도록 라이브러리를 구성할 수 있습니다.
 
-   자세한 내용은 [mbox.js 고급 설정](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C)에서 &quot;페이지 로드 플리커 억제&quot;를 참조하십시오.
+   자세한 내용은 [mbox.js 고급 설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C)에서 &quot;페이지 로드 플리커 억제&quot;를 참조하십시오.
 
 1. 웹 사이트에서 [!DNL mbox.js] 참조를 만듭니다.
 
