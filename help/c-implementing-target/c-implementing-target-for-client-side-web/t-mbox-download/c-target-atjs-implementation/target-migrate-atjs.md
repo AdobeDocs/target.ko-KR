@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '828'
 ht-degree: 98%
@@ -20,7 +20,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
 
 다음 단계를 사용하여 [!DNL mbox.js]에서 [!DNL at.js]로 마이그레이션하고 마이그레이션을 확인하십시오.
 
-1. 조직의 [브라우저 지원](../../../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) 요구 사항을 파악합니다.
+1. 조직의 [브라우저 지원](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) 요구 사항을 파악합니다.
 1. 웹 사이트의 현재 [!DNL mbox.js] 구현이 [!DNL at.js]에서 지원하지 않는 기능을 제공하는지 확인합니다. 
 
    구현을 감사할 때 다음을 찾아보십시오.
@@ -39,7 +39,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    >
    >앞의 표에 언급된 다양한 함수에 대한 자세한 내용은 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.
 
-   **[!DNL mbox.js]파일에 대한 사용자 지정 사항이 있습니까?**
+   **[!DNL mbox.js] 파일에 대한 사용자 지정 사항이 있습니까?**
 
    * mboxParameters()
    * mboxSupported()
@@ -47,9 +47,9 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    * 추가 JavaScript
    * 기타 위치
 
-   대부분의 [mbox.js 개체 및 메서드](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)(예: `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` 등)는 지원되지 않습니다. 다른 방법으로 원하는 작업을 수행할 수도 있습니다.
+   대부분의 [mbox.js 개체 및 메서드](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)(예: `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` 등)는 지원되지 않습니다. 다른 방법으로 원하는 작업을 수행할 수도 있습니다.
 
-   **웹 페이지에[!DNL mbox.js]가 있습니까?**
+   **웹 페이지에 [!DNL mbox.js]가 있습니까?**
 
    동일한 웹 페이지에서 [!DNL at.js] 및 [!DNL mbox.js]를 둘 다 사용할 수는 없습니다. 그러나 동일한 웹 사이트의 두 개의 다른 페이지에서 두 개의 자바스크립트 라이브러리를 사용할 수 있습니다.
 
@@ -64,7 +64,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    * AEM
    * Data Workbench
 
-   레거시 통합 중 일부는 [!DNL at.js]에서 지원되지 않습니다. 자세한 내용은 [통합](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 페이지를 참조하십시오.
+   레거시 통합 중 일부는 [!DNL at.js]에서 지원되지 않습니다. 자세한 내용은 [통합](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 페이지를 참조하십시오.
 
    **[!DNL Target]을 타사 도구와 통합하려고 합니까?**
 
@@ -74,7 +74,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    * Click-tale
    * 기타
 
-   [!DNL at.js]를 사용하도록 이러한 통합을 조정해야 할 수 있습니다. 자세한 내용은 [통합](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 페이지를 참조하십시오.
+   [!DNL at.js]를 사용하도록 이러한 통합을 조정해야 할 수 있습니다. 자세한 내용은 [통합](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 페이지를 참조하십시오.
 
    **태그 관리자를 사용합니까?**
 
@@ -83,7 +83,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    * Tealium
    * Signal/BrightTag
 
-   자세한 내용은 [at.js 통합](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)을 참조하십시오.
+   자세한 내용은 [at.js 통합](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)을 참조하십시오.
 
    >[!NOTE]
    >
@@ -94,8 +94,8 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    다음은 [!DNL at.js]가 예상대로 작동하는지 확인하기 위해 테스트하는 동안 수행할 수 있는 몇 가지 작업입니다.
 
    * 모든 현재 활동이 새 자바스크립트 라이브러리에서 작동하는지 확인합니다.
-   * 모든 [통합](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 및 [플러그인](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)이 예상대로 작동하는지 확인합니다.
-   * [!DNL at.js]에 사용 가능한 접근 방식으로 [디버깅](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)할 때 문제가 없는지 확인합니다.
+   * 모든 [통합](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 및 [플러그인](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)이 예상대로 작동하는지 확인합니다.
+   * [!DNL at.js]에 사용 가능한 접근 방식으로 [디버깅](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)할 때 문제가 없는지 확인합니다.
 
 **at.js로 마이그레이션할 때의 발생할 수 있는 문제** at.js로의 마이그레이션을 수행한 후 일부 고객들이 다음과 같은 문제점을 신고했습니다.
 
@@ -120,6 +120,6 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    HTML > BODY > DIV:nth-of-type(1)
    ```
 
-   코드 편집기를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [코드 편집기](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
+   코드 편집기를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [코드 편집기](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* 이제 모든 mbox는 비동기이므로 실행된 순서대로 페이지 렌더링을 차단하거나 반환되지 않습니다. 자세한 내용은 [at.js 제한 사항](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)을 참조하십시오.
+* 이제 모든 mbox는 비동기이므로 실행된 순서대로 페이지 렌더링을 차단하거나 반환되지 않습니다. 자세한 내용은 [at.js 제한 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)을 참조하십시오.
