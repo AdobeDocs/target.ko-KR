@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 97%
@@ -34,7 +34,7 @@ Target을 사용할 수 있는 페이지에서 XT([!UICONTROL 경험 타깃팅])
    >
    >사용 가능한 활동 유형은 Target 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL 자동화된 개인화]는 [Target Premium](/help/c-intro/intro.md#premium) 기능입니다.
    >
-   >[!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/c-activities/target-activities-guide.md)을 참조하십시오.
+   >[!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/c-activities/target-activities-guide.md)을 참조하십시오.
 
 1. 필요한 경우 **[!UICONTROL 시각적(기본값)]**&#x200B;을 선택합니다.
 
@@ -52,7 +52,7 @@ Target을 사용할 수 있는 페이지에서 XT([!UICONTROL 경험 타깃팅])
 
 1. (조건부) Target Premium 고객인 경우 [작업 공간을 선택](/help/administrating-target/c-user-management/property-channel/property-channel.md)합니다.
 
-1. [활동 URL](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)을 지정한 후, **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. [활동 URL](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90)을 지정한 후, **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    계정이 [기본 URL로 구성](/help/administrating-target/visual-experience-composer-set-up.md)된 경우 기본적으로 해당 URL이 표시됩니다. 필요한 경우 기본값에서 다른 URL로 변경할 수 있습니다.
 
@@ -81,4 +81,4 @@ Target을 사용할 수 있는 페이지에서 XT([!UICONTROL 경험 타깃팅])
 
    단계별 지침은 [경험 추가](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md)를 참조하십시오.
 
-1. 활동에 대한 [목표 및 설정](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)을 지정합니다.
+1. 활동에 대한 [목표 및 설정](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)을 지정합니다.
