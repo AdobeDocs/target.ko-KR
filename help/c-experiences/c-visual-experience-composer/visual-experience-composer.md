@@ -4,7 +4,7 @@ title: Adobe Target VEC(시각적 경험 작성기)
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -54,7 +54,7 @@ On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience 
 >
 >마우스로 가리키기 상태가 JavaScript에 따라 다를 경우 **[!UICONTROL JavaScript 비활성화]**&#x200B;가 선택되어 있지 않은지 확인하십시오. JavaScript 요소를 편집하려면 JavaScript를 활성화해야 합니다.
 
-VEC에서 사용할 수 있는 옵션에 대한 자세한 내용은 [시각적 경험 작성기 선택 사항](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)을 참조하십시오.
+VEC에서 사용할 수 있는 옵션에 대한 자세한 내용은 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)을 참조하십시오.
 
 페이지를 로드하는 동안(또는 페이지 로드가 실패한 후) 페이지에서 일부 수정 작업을 수행하거나 VEC에서 페이지 로드를 취소할 수 있습니다. 자세한 내용은 다음 문서를 참조하십시오.
 
@@ -133,7 +133,7 @@ VEC 내에서 페이지 로드를 취소하려면 페이지가 로드되는 동�
 
 ### 근무 시간:Visual Experience Composer ![자습서 배지](/help/assets/tutorial.png)
 
-이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
+이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
 
 * VEC 작동 방식
 * VEC에서 일반적인 문제가 발생하지 않도록 하는 방법
