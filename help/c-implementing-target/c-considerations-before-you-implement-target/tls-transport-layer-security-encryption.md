@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 61%
@@ -32,7 +32,7 @@ TLS(전송 계층 보안)는 네트워크를 통해 데이터를 안전하게 �
 
 Adobe는 단계적으로 고객을 TLS1.2.로 전환합니다. 이미 1.2 규격 도메인을 사용하는 고객은 별도로 변경할 필요 없이 TLS 1.2로 전환됩니다. 대부분의 고객 도메인은 이미 TLS 1.2를 지원합니다.그러나 도메인이 TLS 1.2를 지원하지 않는 경우 이러한 도메인은 오늘과 같은 TLS 1.1에 보관됩니다(2020년 3월까지).
 
-이 마이그레이션 단계 중에는 문제가 발생하지 않아야 합니다. VEC가 이전에 작업하던 사이트 로드를 중지한 경우 이 마이그레이션을 가능한 원인으로 인용한 [Client Care 티켓을 여십시오](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+이 마이그레이션 단계 중에는 문제가 발생하지 않아야 합니다. VEC가 이전에 작업하던 사이트 로드를 중지한 경우 이 마이그레이션을 가능한 원인으로 인용한 [Client Care 티켓을 여십시오](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 그러나 TLS 1.2를 지원하지 않고 TSL 1.1을 사용하는 고객 중 하나인 경우 도메인/인프라를 TLS 1.2로 이동할 계획입니다. 2020년 3월 1일까지 TLS 1.1 프로토콜을 계속 지원할 예정입니다. 2020년 3월 1일부터 Target은 향상된 경험 컴포저 기능을 통해 VEC에 사용할 TLS 1.1 프로토콜을 지원하지 않습니다.
 
@@ -58,7 +58,7 @@ Adobe는 단계적으로 고객을 TLS1.2.로 전환합니다. 이미 1.2 규격
 * Target 보고서의 방문자 수는 방문자 수가 잠재적으로 약간 줄어들 수 있습니다.
 * TLS 1.2를 지원하지 않는 이전 디바이스 또는 브라우저를 대상으로 하기 위해 특별히 만들어진 대상을 변경해야 할 수 있습니다. 이러한 디바이스 및 브라우저로의 배달이 더 이상 작동하지 않습니다.
 
-For more details about supported browsers and their versions, see [Supported Browsers](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
+For more details about supported browsers and their versions, see [Supported Browsers](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
 ## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
 
@@ -70,7 +70,7 @@ For more details about supported browsers and their versions, see [Supported Bro
 
 ## Access to Experience Cloud Solutions interfaces {#section_748870ADE77B4CBEB18518DC784E64E5}
 
-Target Standard/Premium 인터페이스에서 이미 [최신 웹 브라우저](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)를 요구하고 있으므로 문제는 예상되지 않습니다. Target에 연결할 수 없는 경우 브라우저를 최신 버전으로 업그레이드해야 합니다.
+Target Standard/Premium 인터페이스에서 이미 [최신 웹 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)를 요구하고 있으므로 문제는 예상되지 않습니다. Target에 연결할 수 없는 경우 브라우저를 최신 버전으로 업그레이드해야 합니다.
 
 ## How to check which TLS version your browser uses {#section_44716DA2CEFF492BABD95AE32B1A3FC6}
 
@@ -91,7 +91,7 @@ Google Chrome을 사용하여 웹 사이트에서 TLS 버전을 확인하려면 
 
 ## TLS 버전 1.2 이하를 지원하는 브라우저에서의 예상 동작 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-이 섹션에서는 at.js 또는 mbox.js 구현을 사용하는 경우에만 1.2 이하에서 TLS 버전을 지원하는 브라우저에서 예상되는 내용을 설명합니다. 비교를 위해 이 섹션에서는 TLS 1.2를 지원하는 브라우저에서 예상되는 사항에 대해서도 설명합니다.
+이 섹션에서는 at.js 또는 mbox.js 구현을 사용하는 경우에만 1.2 이하에서 TLS 버전을 지원하는 브라우저에서 예상되는 내용을 설명합니다. 비교를 위해 이 섹션에서는 TLS 1.2를 지원하는 브라우저에서 예상되는 사항에 대해 설명합니다.
 
 ### 중앙 끝점
 
