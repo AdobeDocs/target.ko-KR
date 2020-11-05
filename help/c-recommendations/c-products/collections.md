@@ -5,7 +5,7 @@ title: Adobe Target의 컬렉션
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 61%
@@ -47,7 +47,7 @@ ht-degree: 61%
 
    ![커서 아래 아이콘을 사용합니다.편집, 복사 및 삭제](/help/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 컬렉션][](/help/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
+   [!UICONTROL 컬렉션][](/help/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
 
 1. **[!UICONTROL 컬렉션 만들기]**&#x200B;를 클릭합니다.
 
