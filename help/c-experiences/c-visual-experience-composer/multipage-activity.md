@@ -6,7 +6,7 @@ feature: vec
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 938001261bdba5cb0437c1d5e02789af1b232154
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
@@ -20,13 +20,13 @@ ht-degree: 100%
 
 예를 들어, 특정 금액을 초과하는 구매 항목을 무료로 배송하는 오퍼를 테스트할 수 있습니다. 해당 페이지가 랜딩 페이지, 카테고리 페이지 및 특정 제품 페이지에 나타나되, 각 페이지 유형에서 다른 위치에 다른 크기로 표시되도록 할 수 있습니다. 홈페이지에 눈에 띄는 오퍼를 표시한 다음, 다른 관련 페이지에서 더 작은 오퍼로 해당 오퍼를 보강할 수도 있습니다.
 
-다중 페이지 활동을 사용하여 데스크톱 사이트와 비응답형 모바일 사이트용으로 서로 다른 레이아웃을 정의할 수도 있습니다. 사이트에 [!DNL m.mysite.com] 대신 [!DNL `www.mysite.com`]과 같은 별도의 모바일 사이트가 있는 경우 대신 [다중 페이지 활동](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 만들고 [!DNL m.mysite.com]을 별도의 페이지로 추가한 다음, 모바일 편집을 적용하여 동일한 경험에서 데스크탑 버전과 모바일 버전을 적절하게 변경해야 합니다. 응답형 모바일 사이트의 경우 [모바일 경험 편집](../../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)을 사용하십시오.
+다중 페이지 활동을 사용하여 데스크톱 사이트와 비응답형 모바일 사이트용으로 서로 다른 레이아웃을 정의할 수도 있습니다. 사이트에 [!DNL m.mysite.com] 대신 [!DNL `www.mysite.com`]과 같은 별도의 모바일 사이트가 있는 경우 대신 [다중 페이지 활동](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 만들고 [!DNL m.mysite.com]을 별도의 페이지로 추가한 다음, 모바일 편집을 적용하여 동일한 경험에서 데스크탑 버전과 모바일 버전을 적절하게 변경해야 합니다. 응답형 모바일 사이트의 경우 [모바일 경험 편집](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)을 사용하십시오.
 
 >[!NOTE]
 >
->다중 페이지 활동은 동일한 오퍼가 여러 페이지에서 다른 모양을 갖는 활동용으로 디자인되었습니다. 오퍼가 모든 페이지에 동일하게 표시된다면 [템플릿 테스트](../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)가 더 효율적입니다.
+>다중 페이지 활동은 동일한 오퍼가 여러 페이지에서 다른 모양을 갖는 활동용으로 디자인되었습니다. 오퍼가 모든 페이지에 동일하게 표시된다면 [템플릿 테스트](/help/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781)가 더 효율적입니다.
 
-다중 페이지 테스트의 각 페이지에 대해 템플릿 규칙을 지정할 수 있습니다. 예를 들어, 다중 페이지 테스트의 카테고리 페이지에 템플릿 규칙을 적용하여 홈페이지와 모든 카테고리 페이지에서 다중 페이지 테스트를 실행할 수 있습니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [유사한 페이지에 동일한 경험 포함](../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
+다중 페이지 테스트의 각 페이지에 대해 템플릿 규칙을 지정할 수 있습니다. 예를 들어, 다중 페이지 테스트의 카테고리 페이지에 템플릿 규칙을 적용하여 홈페이지와 모든 카테고리 페이지에서 다중 페이지 테스트를 실행할 수 있습니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [유사한 페이지에 동일한 경험 포함](/help/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
 테스트에 페이지를 추가하려면 다음을 수행하십시오.
 
