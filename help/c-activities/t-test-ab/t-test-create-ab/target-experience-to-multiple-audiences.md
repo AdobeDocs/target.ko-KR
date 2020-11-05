@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 98%
@@ -44,7 +44,7 @@ A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃
 
    ![](assets/exp-versions.png)
 
-   대상이 아직 존재하지 않는 경우 [대상 만들기](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
+   대상이 아직 존재하지 않는 경우 [대상 만들기](/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
 
    방문자가 둘 이상의 대상에 적격인 경우, 모든 대상을 위한 콘텐츠가 반환되고 목록의 마지막 콘텐츠가 페이지에서 실제로 렌더링됩니다.
 
