@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: f3877d05d583bdb4690a2638efd874bbfff6154e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 70%
@@ -21,7 +21,7 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 방법입니다. 다음 정보는 Adobe Launch를 사용하여 Target을 구현할 때 적용할 수 없습니다.
+>[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 방법입니다. 다음 정보는 Adobe Launch를 사용하여 Target을 구현할 때 적용할 수 없습니다.
 
 구현 [!UICONTROL 페이지에] 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 구현을]**&#x200B;클릭합니다.
 
@@ -118,10 +118,10 @@ Instructions to download the library using the [!DNL Target] interface or the Do
 
 >[!NOTE]
 >
->* [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 방법입니다. 다음 정보는 Adobe Launch를 사용하여 Target을 구현할 때 적용할 수 없습니다.
+>* [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 방법입니다. 다음 정보는 Adobe Launch를 사용하여 Target을 구현할 때 적용할 수 없습니다.
    >
    >
-* Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
+* Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
 
 
 ### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
@@ -173,7 +173,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
 
    >[!IMPORTANT]
    >
-   >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
+   >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
 
    이 URL을 로드하면 사용자 지정된 [!DNL at.js] 파일의 다운로드가 시작됩니다.
 
@@ -181,7 +181,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
 
 at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현되어야 합니다.
 
-[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)나 [다이내믹 태그 관리](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96)같은 태그 관리자를 사용하지 않는 일반적인 Target 구현은 다음 모습과 같습니다.
+[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)나 [다이내믹 태그 관리](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96)같은 태그 관리자를 사용하지 않는 일반적인 Target 구현은 다음 모습과 같습니다.
 
 ```
 <!doctype html> 
