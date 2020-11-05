@@ -6,7 +6,7 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3977'
 ht-degree: 85%
@@ -228,7 +228,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 * `at-request-succeeded` 이벤트 세부 사항에 리디렉션 플래그가 들어 있습니다. 이 플래그는 페이지가 다른 URL로 리디렉션되는지 여부를 확인하는 데 사용할 수 있습니다. URL을 알아보려면 `at-content-rendering-redirect`에 가입합니다. (TNT-29834)
 * false로 설정한 경우 런타임 예외로 인해 `window.targetGlobalSettings.enabled`에 오류가 발생하는 문제가 해결되었습니다. (TNT-29829)
 * 글로벌 mbox 요청 실행에 사용자 지정 코드를 사용하고 본문 숨기기를 사용하는 경우 VEC(시각적 경험 작성기)에서 로드하는 동안 페이지에 오류가 발생하는 문제가 해결되었습니다. (TNT-29795)
-* `screenOrientation`, `devicePixelRatio` 및 `webGLRenderer`에 대한 지원을 추가했습니다. 이러한 새로운 Target 요청 매개 변수는 iPhone X 및 기타 최신 장치 검색에 사용됩니다. 자세한 내용은 [모바일](../../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)을 참조하십시오. (TNT-29781)
+* `screenOrientation`, `devicePixelRatio` 및 `webGLRenderer`에 대한 지원을 추가했습니다. 이러한 새로운 Target 요청 매개 변수는 iPhone X 및 기타 최신 장치 검색에 사용됩니다. 자세한 내용은 [모바일](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)을 참조하십시오. (TNT-29781)
 * AAM(Adobe Audience Manager) 위치 힌트가 가끔씩 전송되지 않은 문제가 해결되었습니다. (TNT-29695)
 * 이를 지원하는 브라우에서 at.js 1.5.0이 선택기 폴링을 위해 MutationObserver로 전환됩니다. at.js 1.0.0 이전의 버전은 MutationObserver polyfill을 사용했으며, 이는 문제가 있는 것으로 입증되었습니다. polyfill 문제를 방지하기 위해 버전 1.5.0에서 다음 의사 코드를 사용하여 사용할 예약 메커니즘을 결정합니다.
 
@@ -264,13 +264,13 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 * at.js의 이벤트 및 클릭 추적 기능이 개선되었습니다. at.js는 `navigator.sendBeacon()`을 사용하여 이벤트 추적 데이터를 전송하고, `navigator.sendBeacon()`이 지원되지 않을 때 동기 XHR로 대체됩니다. 이 대체 항목은 주로 Internet Explorer 10 및 11과 일부 Safari 버전에 영향을 줍니다. Safari는 향후 iOS 11.3 릴리스에서 `navigator.sendBeacon()`을 추가로 지원할 예정입니다.
 * 이제 페이지가 백그라운드 탭에서 열릴 때도 at.js가 오퍼를 렌더링할 수 있습니다. 백그라운드 탭의 브라우저 조절 동작으로 인해 `requestAnimationFrame()`이 비활성화될 때 일부 Target 고객에서 문제가 발생합니다.
 * 이번 릴리스에서는 Chrome CPU 프로필 검사 시 호출 스택 단축을 비롯하여 여러 가지 성능이 개선되었습니다.
-* at.js 1.3.0은 더 이상 Microsoft Internet Explorer 9에서 콘텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 [지원되는 브라우저](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 `XMLHttpRequest`를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다.
+* at.js 1.3.0은 더 이상 Microsoft Internet Explorer 9에서 콘텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 `XMLHttpRequest`를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다.
 
 ## at.js 버전 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
 이제 [!DNL at.js] 버전 1.2.3을 사용할 수 있습니다.
 
-* JSON 오퍼에 대한 지원을 추가합니다. JSON은 양식 기반 경험 작성기를 사용하여 만든 활동에서만 지원됩니다. 현재 JSON을 사용하는 유일한 방법은 직접 API 호출을 통해서입니다. 자세한 내용은 [JSON 오퍼 만들기](../../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)를 참조하십시오.
+* JSON 오퍼에 대한 지원을 추가합니다. JSON은 양식 기반 경험 작성기를 사용하여 만든 활동에서만 지원됩니다. 현재 JSON을 사용하는 유일한 방법은 직접 API 호출을 통해서입니다. 자세한 내용은 [JSON 오퍼 만들기](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)를 참조하십시오.
 
 ## at.js 버전 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
@@ -308,7 +308,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 다음 개선 사항 및 수정 사항이 [!DNL at.js] 버전 1.1에 포함되어 있습니다.
 
-* 응답 토큰 처리가 추가되었습니다. 자세한 내용은 [응답 토큰](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)을 참조하십시오.
+* 응답 토큰 처리가 추가되었습니다. 자세한 내용은 [응답 토큰](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)을 참조하십시오.
 * `document.currentScript polyfill`이 Angular 1.X를 방해하지 않도록 문제가 해결되었습니다.
 * 클릭 추적이 가시성 속성을 방해하지 않도록 하는 데 필요한 변경이 수행되었습니다. 클릭 추적 요소가 `at-element-click-tracking` 대신 `at-element-marker` CSS 클래스로 표시됩니다.
 
@@ -326,7 +326,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 * 활동 전달 중 사용자 지정 이벤트에 대한 버그/오류가 보고됩니다.
 * Microsoft Internet Explorer 11의 성능 문제가 해결되었습니다.
 * 일부 웹 사이트에 오류를 발생하는 `getOffer()` 함수가 수정되었습니다.
-* Target 라이브러리를 비동기식으로 로드하십시오. 자세한 내용은 [at.js FAQ](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)를 참조하십시오.
+* Target 라이브러리를 비동기식으로 로드하십시오. 자세한 내용은 [at.js FAQ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769)를 참조하십시오.
 
 ## at.js 버전 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -342,7 +342,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 다음 개선 사항 및 수정 사항이 [!DNL at.js] 버전 0.9.6에 포함되어 있습니다.
 
-* A4T에 대해 리디렉션 오퍼가 지원됩니다. [!DNL at.js] 버전 0.9.6을 다운로드하여 설치한 후에는 [!DNL Adobe Analytics]를 [!DNL Target]에 대한 보고 소스로 사용하는(A4T) 활동에서 리디렉션 오퍼를 사용할 수 있습니다. [!DNL at.js] 버전 0.9.6 외에, 리디렉션 오퍼 및 A4T를 사용하기 위해 구현이 충족해야 하는 다른 최소 요구 사항도 있습니다. 자세한 내용 및 알고 있어야 하는 추가 중요한 정보는 [리디렉션 오퍼 - A4T FAQ](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)를 참조하십시오.
+* A4T에 대해 리디렉션 오퍼가 지원됩니다. [!DNL at.js] 버전 0.9.6을 다운로드하여 설치한 후에는 [!DNL Adobe Analytics]를 [!DNL Target]에 대한 보고 소스로 사용하는(A4T) 활동에서 리디렉션 오퍼를 사용할 수 있습니다. [!DNL at.js] 버전 0.9.6 외에, 리디렉션 오퍼 및 A4T를 사용하기 위해 구현이 충족해야 하는 다른 최소 요구 사항도 있습니다. 자세한 내용 및 알고 있어야 하는 추가 중요한 정보는 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)를 참조하십시오.
 * 방문자 API가 페이지에 있고 [!DNL at.js] 설정이 너무 적극적이었던 `visitorApiTimeout` 0.9.6 이전에는 Target에서 [!DNL Target] 요청에 MCID 데이터를 전송하지 않는 상황이 발생할 수 있었습니다. 이로 인해 A4T를 사용할 때 [!DNL Analytics]에서 연결되지 않은 히트 발생과 같은 문제가 나타날 수 있습니다.
 
    이 동작은 [!DNL at.js]이 1ms로 설정되어 있더라도 Target은 SDID, 추적 서버 및 고객 ID를 수집한 후 Target 요청에 전송하려고 하므로 `visitorApiTimeout` 0.9.6에서 변경되었습니다.
@@ -361,7 +361,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 * 이제 mbox 이름에는 mbox.js를 사용하는 mbox 이름에 대한 이름 지정 요구 사항과 일치하도록 하기 위해 앰퍼샌드(&amp;)를 비롯한 특수 문자가 포함될 수 있습니다.
 
-   허용 가능한 특수 문자 목록이 필요하면 [at.js 구성](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)을 참조하십시오.
+   허용 가능한 특수 문자 목록이 필요하면 [at.js 구성](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)을 참조하십시오.
 
 * at.js에서 HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 `secureOnly` 설정이 추가되었습니다. 이 설정은 기본값이 False이고 `targetGlobalSettings`를 통해 대체할 수 있는 고급 설정입니다.
 * at.js 버전 0.9.3 및 이전 버전에서 [!UICONTROL 레거시 브라우저 지원] 옵션을 사용할 수 있습니다. 이 옵션은 at.js 버전 0.9.4에서 제거되었습니다.
