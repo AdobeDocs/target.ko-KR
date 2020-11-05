@@ -7,7 +7,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 46%
@@ -45,7 +45,7 @@ Every metric is included, including any customer or calculated metrics that are 
 
 A4T를 사용하려면 다음 사항을 염두에 두십시오.
 
-* 보고 소스 [!DNL Analytics] 로 사용하려면 사용자와 사용자 회사 [!DNL Target]모두 액세스 [!DNL Analytics] 및 액세스 권한을 가지고 있어야 합니다 [!DNL Target]. [솔루션이 필요할 경우 계정 담당자에게 문의하십시오.](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)
+* 보고 소스 [!DNL Analytics] 로 사용하려면 사용자와 사용자 회사 [!DNL Target]모두 액세스 [!DNL Analytics] 및 액세스 권한을 가지고 있어야 합니다 [!DNL Target]. [솔루션이 필요할 경우 계정 담당자에게 문의하십시오.](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)
 * 보고 소스는 각 활동에 대해 설정됩니다. [!DNL Target] 을 사용하여 데이터를 계속 수집하며, 데이터를 계속 사용할 수 있습니다. 단, [!DNL Target] 데이터를 통해 수집된 데이터를 기반으로 하는 활동을 선호할 경우 사용할 수 [!DNL Target]있습니다.
 * 두 보고 소스 중 하나를 사용해야 합니다. 두 소스 모두에서 한 활동에 대한 데이터를 수집할 수 없습니다.
 * When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. 그러나 목표 지표는 mbox 호출을 기반으로 할 수 있습니다. For example, you can use Target&#39;s out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code.
@@ -124,7 +124,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 ### Analytics/Target 통합(A4T)(40:33) ![자습서 배지](/help/assets/tutorial.png)
 
-이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
+이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
 
 * 통합이 작동하도록 설정하고 작동하는지 확인하는 방법
 * 통합 작동 방식
