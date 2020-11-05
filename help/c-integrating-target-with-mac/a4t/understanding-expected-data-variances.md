@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -36,7 +36,7 @@ A4T를 사용하면 활동에 대한 Analytics 및 Target 보고는 모두 Analy
 
 * 모든 방문자에게 특정 페이지를 공개하는 자동 할당 활동을 만든다고 가정합니다. 자동 할당 활동은 A4T를 지원하지 않으므로 모든 활동 데이터를 [!DNL Target]에서 수집합니다. [!DNL Target] 보고의 활동 방문자가 동일한 기간에 대한 [!DNL Analytics] 보고에서 해당 페이지 방문자와 일치해야 한다고 예상할 수도 있습니다. 이 시나리오에서는 아래에 설명된 분산이 예상됩니다.
 
-   A4T를 지원하는 전체 활동 유형 목록에 대해서는 [지원되는 활동 유형](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)을 참조하십시오.
+   A4T를 지원하는 전체 활동 유형 목록에 대해서는 [지원되는 활동 유형](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)을 참조하십시오.
 
 ## A4T를 *사용하지 않을* 때 예상되는 데이터 분산 {#expected-not-using-a4t}
 
