@@ -5,7 +5,7 @@ title: 시각적 경험 작성기 및 고급 경험 작성기 문제 해결
 feature: vec
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 100%
@@ -21,7 +21,7 @@ VEC는 Adobe Target의 주요 기능 중 하나입니다. VEC는 마케터와 �
 
 EEC는 Target 구현을 포함하지 않는 iframe 버스팅 사이트 또는 페이지의 경험을 편집하는 데 도움이 되는 VEC의 확장입니다. VEC에서 페이지를 여는 데 문제가 있으면 EEC을 사용해 보십시오.
 
-VEC 및 EEC에 대한 내용은 [경험](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+VEC 및 EEC에 대한 내용은 [경험](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 일부 문제는 VEC 및 EEC에 모두 영향을 주며 일부 문제는 둘 중 하나에만 영향을 줍니다. 자세한 정보를 보려면 해당 페이지를 검토하십시오.
 
