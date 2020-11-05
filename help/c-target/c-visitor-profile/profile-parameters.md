@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -107,7 +107,7 @@ if (mbox.name == 'Track_Interest') {
 
 ## Target이 프로필 스크립트를 비활성화하는 특정 상황 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] 실행하는 데 시간이 너무 오래 소요되거나 지침이 너무 많은 경우 같은 특정 상황에서 프로필 스크립트를 자동으로 비활성화합니다.
+[!DNL Target] 실행하는 데 시간이 너무 오래 소요되거나 지침이 너무 많은 경우 같은 특정 상황에서는 프로필 스크립트를 자동으로 비활성화합니다.
 
 프로필 스크립트를 비활성화하는 경우, 아래 그림과 같이 Target UI의 프로필 스크립트 옆에 노란색 경고 아이콘이 표시됩니다.
 
@@ -122,7 +122,7 @@ if (mbox.name == 'Track_Interest') {
 * 정의되지 않은 변수가 참조되었습니다.
 * 올바르지 않은 값이 참조되었습니다. 적절한 유효성 검사를 수행하지 않고 URL 값 및 기타 사용자가 입력한 데이터를 참조할 때 이런 일이 종종 발생합니다.
 * 너무 많은 JavaScript 명령어가 사용되었습니다. Target에서는 스크립트당 JavaScript 명령어 개수를 2,000개로 제한하지만 JavaScript를 수동으로 읽어서는 이것을 간단히 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 &quot;새로운&quot; 호출을 100개의 명령어로 처리합니다. 즉, 모든 함수를 호출하면 100개의 명령이 소비됩니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
-* 아래의 [우수 사례](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) 섹션에서 강조 표시된 항목을 따르지 않습니다.
+* 아래의 [우수 사례](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) 섹션에서 강조 표시된 항목을 따르지 않습니다.
 
 ## 우수 사례 {#best}
 
@@ -179,7 +179,7 @@ if (mbox.name == 'Track_Interest') {
 
 **이 프로필 스크립트를 사용하여 데이터 계층에 있는 페이지에서 정보를 캡처할 수 있습니까?**
 
-프로필 스크립트는 서버 측을 실행하므로 페이지를 직접 읽을 수 없습니다. 데이터는 mbox 요청 또는 데이터를 Target으로 가져오는 다른 방법을 통해 [](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 전달해야 합니다. 데이터가 Target에 있으면 프로필 스크립트는 mbox 매개 변수 또는 프로필 매개 변수로 데이터를 읽을 수 있습니다.
+프로필 스크립트는 서버 측을 실행하므로 페이지를 직접 읽을 수 없습니다. 데이터는 mbox 요청 또는 데이터를 Target으로 가져오는 다른 방법을 통해 [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17) 전달해야 합니다. 데이터가 Target에 있으면 프로필 스크립트는 mbox 매개 변수 또는 프로필 매개 변수로 데이터를 읽을 수 있습니다.
 
 ## 스크립트 프로필 매개 변수에 대해 JavaScript 참조
 
@@ -254,7 +254,7 @@ else if (mbox.param("adobeQA"))
 | `landing.url`, `landing.protocol`, `landing.query`, 및 `landing.param` | 페이지의 값과 비슷하지만 랜딩 페이지용입니다. |
 | `mbox.name` | 활성 mbox 이름입니다. |
 | `mbox.param(‘<par_name>’)` | 활성 mbox에서 제공된 이름의 mbox 매개 변수입니다. |
-| `profile.get(‘<par_name>’)` | `<par_name>`이라는 이름으로 클라이언트가 생성한 사용자 프로필 매개 변수입니다. 예를 들어 사용자가 &quot;gender&quot;라는 프로필 매개 변수를 설정하면 &quot;profile.gender&quot;를 사용하여 값을 추출할 수 있습니다. 현재 방문자에 대해 설정된 &quot;`profile.<par_name>`&quot; 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. 함수 호출 `profile.get(<par_name>)` 으로 적격입니다. |
+| `profile.get(‘<par_name>’)` | `<par_name>`이라는 이름으로 클라이언트가 생성한 사용자 프로필 매개 변수입니다. 예를 들어 사용자가 &quot;gender&quot;라는 프로필 매개 변수를 설정하면 &quot;profile.gender&quot;를 사용하여 값을 추출할 수 있습니다. 현재 방문자에 대해 설정된 &quot;`profile.<par_name>`&quot; 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. 함수 호출 `profile.get(<par_name>)` 로 적격입니다. |
 | `user.get(‘<par_name>’)` | 현재 방문자에 대해 설정된 &quot;`user.<par_name>`&quot; 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. |
 | `user.categoryAffinity` | 가장 적합한 카테고리의 이름을 반환합니다. |
 | `user.categoryAffinities` | 가장 적합한 카테고리가 있는 배열을 반환합니다. |
