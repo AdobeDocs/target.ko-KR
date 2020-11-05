@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1508'
 ht-degree: 37%
@@ -38,7 +38,7 @@ Consider the following information as your work with customer attributes and [!D
    >[!DNL at.js] (모든 버전) 또는 [!DNL mbox.js] 버전 58 이상이 필요합니다.
 
 * [!DNL Adobe] 은 CRM 데이터베이스의 고객 속성(방문자 프로필) 데이터의 100%가 컨텐츠에 [!DNL Experience Cloud] 업로드되므로 타깃팅에 사용할 수 있음을 보장하지 않습니다 [!DNL Target]. 현재 설계에서는 적은 양의 데이터(대규모 프로덕션 배치의 최대 0.1%까지)가 온보딩되지 않을 가능성이 있습니다.
-* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 자세한 내용은 [방문자 프로필 라이프타임을 참조하십시오](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
+* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. 자세한 내용은 [방문자 프로필 라이프타임을 참조하십시오](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * If the `vst.*` parameters are the only thing identifying the visitor, the existing &quot;authenticated&quot; profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). The profile will come into play only if `authState` is changed to AUTHENTICATED (1).
 
    For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won&#39;t fetch the profile that might have been created through a Customer Attributes import. If the desired behavior is to fetch the authenticated profile, the `vst.myDataSource.authState` must have the value of 1 (AUTHENTICATED).
@@ -86,7 +86,7 @@ Detailed instructions for completing each of the following tasks can be found in
    데이터 파일은 업로드 요구 사항을 준수해야 하며 100MB를 초과할 수 없습니다. 파일이 너무 크거나 반복적으로 업로드해야 하는 데이터가 있는 경우 대신 FTP를 통해 파일을 업로드할 수 있습니다.
 
    * **HTTPS:** .csv 데이터 파일을 드래그 앤 드롭하거나 **[!UICONTROL 찾아보기를]** 클릭하여 파일 시스템에서 업로드할 수 있습니다.
-   * **FTP:** FTP 링크를 클릭하여 FTP를 통해 파일을 [업로드합니다](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. Specify the password, then click **[!UICONTROL Done]**.
+   * **FTP:** FTP 링크를 클릭하여 FTP를 통해 [파일을 업로드합니다](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. Specify the password, then click **[!UICONTROL Done]**.
 
    이제 CSV/ZIP/GZIP 파일을 FTP 서버로 전송하십시오. 이 파일 전송이 성공한 후 동일한 이름과 .fin 확장명을 가진 새 파일을 만듭니다. 이 빈 파일을 서버로 전송합니다. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
