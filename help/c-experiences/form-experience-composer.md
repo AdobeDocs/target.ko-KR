@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%
@@ -41,11 +41,11 @@ ht-degree: 79%
    >
    >활동을 만드는 동안 수동으로 입력된 위치를 만들면 새 위치가 자동으로 만들어지지 않습니다. 위치 이름은 활동 컨텍스트에서만 저장됩니다. 컨텐츠 전달 호출이 있을 때 위치가 만들어집니다. 만들어진 위치 다음에 다른 활동에서 대상 등을 만드는 데 사용할 수 있게 됩니다. 을 클릭합니다.
 
-1. **[!UICONTROL 대상 개선 추가]**&#x200B;를 클릭한 다음, 이 활동에 대해 하나 이상의 [대상](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을 선택합니다.
+1. **[!UICONTROL 대상 개선 추가]**&#x200B;를 클릭한 다음, 이 활동에 대해 하나 이상의 [대상](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을 선택합니다.
 
    ![](assets/location_refinements_2.png)
 
-   양식 기반 경험 작성기에서 세분화가 전체 대상 기능으로 대체되었습니다. 기존 활동에 대한 세분화 내용은 [활동 전용 대상](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)으로 마이그레이션되었습니다.
+   양식 기반 경험 작성기에서 세분화가 전체 대상 기능으로 대체되었습니다. 기존 활동에 대한 세분화 내용은 [활동 전용 대상](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)으로 마이그레이션되었습니다.
 1. 해당 위치에 표시할 콘텐츠 유형을 선택합니다.
 
    ![](assets/form_content.png)
@@ -100,8 +100,8 @@ ht-degree: 79%
 1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [경험 타깃팅 활동 만들기](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [권장 사항 활동 만들기](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [경험 타깃팅 활동 만들기](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [권장 사항 활동 만들기](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## 교육 비디오: 양식 기반 작성기 ![자습서 배지](/help/assets/tutorial.png)
 
