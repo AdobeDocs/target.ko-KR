@@ -5,10 +5,10 @@ title: 디자인 만들기
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '989'
+ht-degree: 32%
 
 ---
 
@@ -164,7 +164,7 @@ ht-degree: 0%
 
    | 매개 변수 | 값 |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(../target/products.html#recs설정 > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능) |
+   | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(/help/target/products.html#recs설정 > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능) |
    | `[YOUR_MBOX_NAME]` | 양식 기반 Recommendations의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response)입니다. |
    | `[ENTITY_ID` | 카탈로그에 있는 항목의 `entity.id`입니다. |
    | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
