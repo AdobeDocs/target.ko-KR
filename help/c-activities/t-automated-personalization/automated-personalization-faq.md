@@ -5,7 +5,7 @@ title: 자동화된 개인화 FAQ
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -36,7 +36,7 @@ AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/au
 
    * A/B…N 테스트에 경험 간 통계적으로 중요한 차이가 없다면, 고려 중인 오퍼들이 서로 충분히 다르지 않거나, 선택한 위치가 성공 지표에 영향을 주지 않거나, 최적화 목표가 선택한 오퍼의 영향을 받기에는 전환 단계에서 너무 먼 것일 수 있습니다.
 
-* 자동화된 개인화 활동에서 개인화모델을 만드는 데 걸리는 시간을 감지할 수 있도록 반드시  [트래픽 견적 도구](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)를 사용하십시오.
+* 자동화된 개인화 활동에서 개인화모델을 만드는 데 걸리는 시간을 감지할 수 있도록 반드시  [트래픽 견적 도구](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)를 사용하십시오.
 * 목표를 기반으로 활동을 시작하기 전에 통제와 타깃팅 간의 할당을 결정하십시오.
 
    활동 목표와 선택한 제어 유형에 따라 고려할 시나리오가 세 가지가 있습니다.
@@ -75,7 +75,7 @@ AP 활동에서 상승도를 생성하는 데에는 4가지 필요한 요소가 
 
 가장 좋은 작업 방침은 먼저 단순하고 개인화되지 않은 A/B 테스트를 사용하여 활동 경험을 구성하는 콘텐츠와 위치가 전체 응답률에 정말로 영향을 주는지 확인하는 것입니다. 반드시 미리 샘플 크기를 계산하여, 적당한 상승도를 확인하고 실행을 중단하거나 변경하지 않고도 지정된 시간 동안 A/B 테스트를 실행하기에 충분한 전원이 있는지 확인하십시오. A/B 테스트 결과에 경험들 중 하나 이상에서 통계적으로 의미 있는 상승도가 나타난다면 개인화된 활동이 작동할 확률이 큽니다. 물론, 개인화는 경험의 전체 응답률에 차이가 없는 경우에도 작동할 수 있습니다. 일반적으로, 문제는 통계적 중요도를 갖는 것으로 감지되기에 충분히 큰 영향을 최적화 목록에 주지 않는 오퍼/위치에서 기인합니다.
 
-자세한 내용은 [자동화된 개인화 문제 해결](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)을 참조하십시오.
+자세한 내용은 [자동화된 개인화 문제 해결](/help/c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA)을 참조하십시오.
 
 ### 자동화된 개인화는 어떻게 내 활동의 트래픽을 할당합니까? {#section_4369364F77804E0D9B78BEE551DA5659}
 
@@ -89,7 +89,7 @@ AP 활동에서 상승도를 생성하는 데에는 4가지 필요한 요소가 
 
 ### 모델이 만들어지기까지 얼마나 기다려야 합니까? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
-일반적으로 활동에서 모델을 만드는 데 걸리는 시간은 선택된 활동 위치에 대한 트래픽과 활동 성공 지표에 따라 다릅니다. 활동에서 모델을 만드는 데 걸리는 예상 시간을 결정하려면 [트래픽 견적 도구](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)를 사용하십시오.
+일반적으로 활동에서 모델을 만드는 데 걸리는 시간은 선택된 활동 위치에 대한 트래픽과 활동 성공 지표에 따라 다릅니다. 활동에서 모델을 만드는 데 걸리는 예상 시간을 결정하려면 [트래픽 견적 도구](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)를 사용하십시오.
 
 ### 내 활동 내에 모델 하나가 만들어져 있습니다. 해당 경험에 대한 방문이 개인화됩니까? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
