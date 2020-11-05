@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 80%
@@ -26,7 +26,7 @@ Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크,
 * 선택적으로 준수하는 대상 조건. 대상 조건을 충족하지 않고도 마케터가 타깃팅 기준을 테스트하거나 타깃팅 기준을 무시하여 경험의 모양을 QA할 수 있습니다.
 * 지표가 예상대로 증가하고 있는지, 그리고 QA 보고서 데이터가 프로덕션 보고(비A4T 보고의 경우)와 별도로 유지되는지를 마케터가 확인할 수 있도록 QA 보고가 생성됩니다.
 * 격리 또는 전달 기준을 충족하는 다른 라이브 활동과 함께 경험을 미리 보는 기능(페이지/Target 요청/대상).
-* 전체 사용자 경험을 QA할 수 있습니다. QA 링크로 사이트에 한 번 액세스한 다음, 활동 QA 동안 전체 사이트를 탐색할 수 있습니다. 세션을 종료하거나 [QA Target 북마클릿](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을 사용하여 활동 QA를 강제로 해제하기 전까지는 활동 QA에 남아 있습니다. 이 기능은 특히 여러 웹 페이지에 걸친 활동이 있는 경우에 유용합니다.
+* 전체 사용자 경험을 QA할 수 있습니다. QA 링크로 사이트에 한 번 액세스한 다음, 활동 QA 동안 전체 사이트를 탐색할 수 있습니다. 세션을 종료하거나 [QA Target 북마클릿](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을 사용하여 활동 QA를 강제로 해제하기 전까지는 활동 QA에 남아 있습니다. 이 기능은 특히 여러 웹 페이지에 걸친 활동이 있는 경우에 유용합니다.
 
    >[!NOTE]
    >
@@ -50,7 +50,7 @@ Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크,
 
       이 설정을 &quot;끔&quot;으로 전환하는 경우, 다음을 고려하십시오.
 
-      * 테스트하는 활동과 다른 라이브 활동 사이에 충돌이 있는 경우, [일반 우선순위 규칙](../../c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)이 적용됩니다. 이로 인해 QA하려는 활동이 표시되지 않을 수 있습니다.
+      * 테스트하는 활동과 다른 라이브 활동 사이에 충돌이 있는 경우, [일반 우선순위 규칙](/help/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)이 적용됩니다. 이로 인해 QA하려는 활동이 표시되지 않을 수 있습니다.
       * 표시된 활동에 대한 지표 증가가 QA 보고 환경에서만 발생합니다.
 
 1. **[!UICONTROL 완료]**&#x200B;를 클릭하여 변경 내용을 저장합니다.
@@ -66,17 +66,17 @@ Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크,
 
 ## 고려 사항 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* [!UICONTROL 활동 QA] 링크는 자동화된 개인화(AP)를 제외한 모든 활동 유형의 [!UICONTROL 개요] 페이지에 표시됩니다. AP 활동을 위한 [미리 보기 링크](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)를 사용할 수 있습니다.
+* [!UICONTROL 활동 QA] 링크는 자동화된 개인화(AP)를 제외한 모든 활동 유형의 [!UICONTROL 개요] 페이지에 표시됩니다. AP 활동을 위한 [미리 보기 링크](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC)를 사용할 수 있습니다.
 * 계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 활동 QA 미리 보기 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도하면 작동합니다. 이 문제가 계속 발생하지 않도록 하려면 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오.
 * 활동 QA URL은 Analytics를 보고 소스로 사용(A4T)하는 활동에서 사용할 수 있습니다. 활동 QA를 사용하여 QA를 수행하는 동안 생성된 히트는 활동이 라이브 상태가 된 후에도 활동의 데이터가 흐르는 보고서 세트에 제공됩니다.
 * 활동 QA에서는 종료 일자가 지난 보관된 활동용 콘텐츠를 표시하지 않습니다. 종료된 활동을 비활성화하는 경우 활동 QA 사용을 위해 활동을 다시 저장해야 합니다.
 * Target Standard/Premium에 가져온 활동(예를 들어, Target Classic에서 가져옴)은 QA URL을 지원하지 않습니다.
 * 자동 할당, 자동 타겟 및 권장 사항 활동에서 모델은 작업 QA에서 수집한 방문 횟수의 영향을 받지 않습니다.
-* 활동 QA는 고정되어 있으므로 활동 QA에서 웹 사이트를 탐색한 후 일반 방문자처럼 사이트를 볼 수 있으려면 먼저 Target 세션이 만료되거나 Target에서 사용자를 활동 QA로부터 해제해야 합니다. 활동 QA를 해제하려면 [Target QA 북마클릿](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을 사용하십시오.
+* 활동 QA는 고정되어 있으므로 활동 QA에서 웹 사이트를 탐색한 후 일반 방문자처럼 사이트를 볼 수 있으려면 먼저 Target 세션이 만료되거나 Target에서 사용자를 활동 QA로부터 해제해야 합니다. 활동 QA를 해제하려면 [Target QA 북마클릿](/help/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)을 사용하십시오.
 
    값이 비어 있는 `at_preview_token` 매개 변수로 사이트의 페이지를 로드하여(예: `https://www.mysite.com/?at_preview_token=`) 수동으로 나올 수도 있습니다.
 
-* 활동을 작성할 때 &quot;URL은&quot;을 지정한 경우([양식 기반 작성기의 개선](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기의 페이지 전달 선택 사항](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)) 활동 QA가 URL 매개 변수를 추가하므로 QA URL이 작동하지 않습니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
+* 활동을 작성할 때 &quot;URL은&quot;을 지정한 경우([양식 기반 작성기의 개선](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기의 페이지 전달 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)) 활동 QA가 URL 매개 변수를 추가하므로 QA URL이 작동하지 않습니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
 * at.js 1이 있는 경우&#x200B;*x*&#x200B;또는 mbox.js, Safari 또는 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우 활동 QA 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리 보기 매개 변수를 추가해야 합니다. CNAME을 구현한 경우에도 [마찬가지입니다](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
 * 활동에서 여러 경험 대상을 사용하는 경우(예를 들어, 동일한 활동에 포함된 미국 및 영국 사이트), QA 링크가 4개의 조합(경험 A/미국 사이트, 경험 A/영국 사이트, 경험 B/미국 사이트, 경험 B/영국 사이트)에 대해 생성되지 않습니다. 두 개의 QA 링크(경험 A와 경험 B)만 생성되고, 사용자는 페이지를 보려면 적절한 대상에 대한 자격이 있어야 합니다. 영국 QA 담당자는 미국 사이트를 볼 수 없습니다.
 * 모든 `at_preview` 매개 변수와 값이 이미 URL로 인코딩되어 있습니다. 대부분의 경우 모두 예상대로 작동합니다. 하지만, 일부 고객의 로드 밸런서나 웹 서버에서는 쿼리 문자열 매개 변수를 다시 인코딩하려고 시도할 수 있습니다.
