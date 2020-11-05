@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -52,7 +52,7 @@ ht-degree: 96%
 
 이 숫자는 테스트를 다시 실행할 경우 결과가 중복될 가능성을 나타냅니다. 신뢰도가 99.995% 이상이면 신뢰도는 100.00%로 반올림됩니다.
 
-[신뢰 수준 및 신뢰 구간](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)을 참조하십시오.
+[신뢰 수준 및 신뢰 구간](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)을 참조하십시오.
 
 ## 소매 데이터 {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ ht-degree: 96%
 
 ## 신뢰도 계산 및 오프라인 수행 방법 {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-[다운로드한 CSV 보고서](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다.
+[다운로드한 CSV 보고서](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다.
 
 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
@@ -122,7 +122,7 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 
 예를 들어, 방문자별 페이지 보기 횟수로 최적화하는 경우, 지정된 기간(예: 2일) 동안 방문자별로 총 페이지 보기 횟수의 샘플을 내보냅니다(수천 데이터 포인트만 있으면 됩니다.). 그런 다음 각 값을 제곱하고 이 제곱들의 총합을 구합니다(여기서 연산 순서가 매우 중요합니다.). 그런 다음 이 &quot;제곱합&quot; 값은 Complete Confidence Calculator에서 사용됩니다. 이 값에 해당 스프레드시트의 &quot;수입&quot; 섹션을 사용하십시오.
 
-**[!DNL Analytics]데이터 내보내기 기능을 사용하여 다음을 수행하십시오.**
+**[!DNL Analytics] 데이터 내보내기 기능을 사용하여 다음을 수행하십시오.**
 
 1. [!DNL Adobe Analytics]에 로그인합니다.
 1. **[!UICONTROL 도구]** > **[!UICONTROL Data Warehouse]**&#x200B;를 클릭합니다.
