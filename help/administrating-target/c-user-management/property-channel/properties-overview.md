@@ -6,7 +6,7 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 68%
@@ -48,7 +48,7 @@ For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], acce
 
 새 [!UICONTROL 속성] 기능을 사용하기 시작할 때 [!DNL Adobe Admin Console for Enterprise]에서 모든 사용자 관리를 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
 
-1. [Admin Console에서](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) 페이지 상단에 있는 **[!UICONTROL 사용자]** 탭 > **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하여 새로운 사용자를 생성하거나 기존 사용자를 편집합니다.
+1. [Admin Console에서](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE) 페이지 상단에 있는 **[!UICONTROL 사용자]** 탭 > **[!UICONTROL 사용자 추가]**&#x200B;를 클릭하여 새로운 사용자를 생성하거나 기존 사용자를 편집합니다.
 1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 2단계. Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -118,7 +118,7 @@ Organizations can begin taking advantage of Enterprise permissions functionality
    * **설명:** 속성에 대한 선택적 설명을 지정합니다.
    * **채널:**&#x200B;속성에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API(예를 들어 셋톱 박스 또는 PlayStation 콘솔)를 선택합니다.
 
-1. **[!UICONTROL 복사를]** 클릭하여 다음 [5의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사합니다.at_property 매개 변수를 포함하도록 구현을 업데이트합니다](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. **[!UICONTROL 복사를]** 클릭하여 다음 [5의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사합니다.at_property 매개 변수를 포함하도록 구현을 업데이트합니다](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
@@ -128,9 +128,9 @@ Organizations can begin taking advantage of Enterprise permissions functionality
 
 To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
-**`at_property`매개 변수 코드를 획득하려면:**
+**`at_property` 매개 변수 코드를 획득하려면:**
 
-1. (조건부) [4. 속성 만들기](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD)의 단계를 수행하면서 생성하고 클립보드에 저장한 구현 코드를 사용하고 2단계를 계속 진행합니다.
+1. (조건부) [4. 속성 만들기](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_E8F2C92BE0F4466AB87604059C9CF3FD)의 단계를 수행하면서 생성하고 클립보드에 저장한 구현 코드를 사용하고 2단계를 계속 진행합니다.
 
    또는
 
