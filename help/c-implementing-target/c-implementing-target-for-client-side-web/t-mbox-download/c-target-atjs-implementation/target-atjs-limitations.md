@@ -5,7 +5,7 @@ title: at.js 제한 사항
 feature: null
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -25,18 +25,18 @@ at.js와 mbox.js 간에 약간의 차이가 있습니다. 이 섹션에는 at.js
 
 ## 통합 및 플러그인 {#section_D92E31170176406AAC7B5005F03D3425}
 
-[!DNL mbox.js] 내의 일부 함수는 [!DNL at.js]에서 사용할 수 없습니다. 내부 [mbox.js 개체 및 메서드](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537)(예: `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` 및 기타)는 더 이상 [!DNL at.js] (예: `mboxFactoryDefault`)에서 지원하지 않습니다. 이것은 [!DNL at.js] &quot;해킹&quot;을 통해 장기적으로 구현을 심각하게 손상하여 업그레이드를 불가능하게 할 수 있는 지원되지 않는 기능을 개발하지 못하도록 디자인되었습니다. 유일하게 노출되는 메서드는 이 설명서의 API 페이지에서 다룹니다. 이 때문에
+[!DNL mbox.js] 내의 일부 함수는 [!DNL at.js]에서 사용할 수 없습니다. 내부 [mbox.js 개체 및 메서드](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (예: `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` 및 기타)는 더 이상 [!DNL at.js] (예: `mboxFactoryDefault`)에서 지원하지 않습니다. 이것은 [!DNL at.js] &quot;해킹&quot;을 통해 장기적으로 구현을 심각하게 손상하여 업그레이드를 불가능하게 할 수 있는 지원되지 않는 기능을 개발하지 못하도록 디자인되었습니다. 유일하게 노출되는 메서드는 이 설명서의 API 페이지에서 다룹니다. 이 때문에
 
-* 다른 Adobe 솔루션과 이전의 페이지 기반 [통합](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)은 작동하지 않을 수 있으므로 최신 서버 측 통합으로 업그레이드해야 합니다.
-* [mbox.js용으로 개발된 사용자 지정 플러그인](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)은 [!DNL at.js]용으로 업데이트하지 않으면 작동하지 않을 수 있습니다.
+* 다른 Adobe 솔루션과 이전의 페이지 기반 [통합](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39)은 작동하지 않을 수 있으므로 최신 서버 측 통합으로 업그레이드해야 합니다.
+* [mbox.js용으로 개발된 사용자 지정 플러그인](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)은 [!DNL at.js]용으로 업데이트하지 않으면 작동하지 않을 수 있습니다.
 
-   테스트의 일부로서 어떤 [플러그인](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)이든 반드시 포함하십시오.
+   테스트의 일부로서 어떤 [플러그인](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)이든 반드시 포함하십시오.
 
 ## 비동기 고려 사항 {#section_B586360A3DD34E2995AE25A18E3FB953}
 
 이제 모든 mbox는 비동기이므로 실행된 순서대로 페이지 렌더링을 차단하거나 반환되지 않습니다.
 
-* [양식 기반 경험 작성기](../../../../c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22)에서 글로벌 mbox를 사용하는 경우 HTML 오퍼에 `<script>`, `<style>` 및 `<link>` 태그만 포함되어 있는지 확인해야 합니다.
+* [양식 기반 경험 작성기](/help/c-experiences/experiences.md#section_3643394BD424463C8768F2907DEBCC22)에서 글로벌 mbox를 사용하는 경우 HTML 오퍼에 `<script>`, `<style>` 및 `<link>` 태그만 포함되어 있는지 확인해야 합니다.
 
    전달 중에 [!DNL at.js]는 글로벌 mbox 오퍼를 적용할 때 다른 모든 HTML 태그를 필터링합니다. 글로벌 mbox 오퍼는 DIV, SPAN 등을 허용하지 않는 HTML HEAD에 적용됩니다. 예를 들면, `<div>` 태그는 HTML BODY 내부에서만 사용할 수 있으므로 `<div>test</div>`를 적용할 수 없습니다.
 
