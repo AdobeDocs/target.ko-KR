@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 96%
@@ -51,7 +51,7 @@ Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!D
 * **느린 페이지:** [!DNL Target] 호출이 페이지 위쪽에 있고 [!DNL Analytics] 호출은 일반적으로 페이지 아래쪽에 있으므로 페이지가 느리게 로드되면 [!DNL Target] 호출이 발생한 후, [!DNL Analytics] 호출 이전에 방문자가 페이지를 떠날 가능성이 높아집니다. 이러한 현상은 연결이 종종 더 느려지는 모바일 웹 사이트에서 특히 문제가 될 수 있습니다.
 * **페이지 오류:** JavaScript 오류 또는 각 터치포인트가 개시되지 않는 다른 시나리오가 있는 경우(Experience Cloud ID 서비스, Target 및 Analytics) 부분 데이터가 발생합니다.
 * **[!DNL Target]활동의 리디렉션 오퍼:** A4T를 사용하는 활동의 리디렉션 오퍼에 대해서는 구현이 특정 최소 요구 사항을 충족해야 합니다. 또한 사용자가 알아야 하는 중요한 정보도 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)를 참조하십시오.
-* **이전 버전의 라이브러리:** 작년에 Adobe는 데이터가 가능한 한, 효율적으로 전송될 수 있게 하도록 JavaScript 라이브러리([!DNL appMeasurement.js], `at.js/mbox.js` 및 `visitorAPI.js`)를 일부 개선했습니다. 구현 요구 사항에 대해 자세히 알려면 [구현하기 전에](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)를 참조하십시오.
+* **이전 버전의 라이브러리:** 작년에 Adobe는 데이터가 가능한 한, 효율적으로 전송될 수 있게 하도록 JavaScript 라이브러리([!DNL appMeasurement.js], `at.js/mbox.js` 및 `visitorAPI.js`)를 일부 개선했습니다. 구현 요구 사항에 대해 자세히 알려면 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)를 참조하십시오.
 
 ## 부분 데이터를 줄이는 우수 사례는 무엇입니까? {#section_065C38501527451C8058278054A1818D}
 
