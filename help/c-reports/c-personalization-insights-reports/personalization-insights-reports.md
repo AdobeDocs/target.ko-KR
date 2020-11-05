@@ -5,7 +5,7 @@ title: 개인화 통찰력 보고서
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 64%
@@ -30,7 +30,7 @@ ht-degree: 64%
 * [!UICONTROL 개인화 인사이트] 보고서는 보고서 지표 [!UICONTROL 드롭다운 목록에서] 주요 [!UICONTROL 목표를 선택한 경우에만] 사용할수있습니다.
    >
    >
-* 개인화 통찰력 보고서는 [기본 환경](../../administrating-target/hosts.md)에서만 지원됩니다.
+* 개인화 통찰력 보고서는 [기본 환경](/help/administrating-target/hosts.md)에서만 지원됩니다.
    >
    >
 * [!UICONTROL 개인화 인사이트] 보고서는 [!UICONTROL 라이브] 상태에 있고 활성화되었으며 최소 15일 동안 트래픽을 받은 활동에 대해서만 생성됩니다.
