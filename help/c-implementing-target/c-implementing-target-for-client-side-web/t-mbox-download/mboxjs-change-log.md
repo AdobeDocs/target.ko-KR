@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2320'
 ht-degree: 98%
@@ -22,11 +22,11 @@ ht-degree: 98%
 >
 >모든 mbox.js 사용자가 버전 57 이상으로 업그레이드하는 것이 좋습니다. 일부 사용자의 경우 `target.js`를 로드할 수 없을 때 시간 초과 문제가 발생했습니다. 버전 57에서는 해당 문제가 해결되었습니다. 그러나 [!DNL Experience Cloud Visitor ID] 서비스를 사용하는 경우에는 버전 58 이상이 필요합니다.
 
-Target이 페이지의 호출에 응답하는 방식은 사용 중인 Target 라이브러리 버전, 방문자 ID 구현이 존재하는지 여부, 방문자 ID가 있는지 여부에 따라 다릅니다. 자세한 내용은 [라이브러리 버전별 Target 호출 응답](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)을 참조하십시오.
+Target이 페이지의 호출에 응답하는 방식은 사용 중인 Target 라이브러리 버전, 방문자 ID 구현이 존재하는지 여부, 방문자 ID가 있는지 여부에 따라 다릅니다. 자세한 내용은 [라이브러리 버전별 Target 호출 응답](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)을 참조하십시오.
 
 >[!NOTE]
 >
->mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 mbox.js에서 at.js로 마이그레이션해야 합니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
+>mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 mbox.js에서 at.js로 마이그레이션해야 합니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
 
 ## mbox.js 버전 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ window.targetGlobalSettings = {
 
 * V60 비동기 호출
 
-   방문자 ID 서비스에서 v60을 사용하는 경우 모든 mbox 호출이 비동기적으로 수행됩니다. 이것은 mbox가 항상 작동했던 방식에서 달라진 것이므로 이 버전으로 업그레이드할 경우 주의하십시오. [ 설명서의 ](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)비동기 고려 사항[!DNL at.js] 섹션을 검토하여 몇 가지 위험 요소를 이해하십시오([!DNL at.js]에서도 비동기 호출이 사용됨)을 검토하십시오.
+   방문자 ID 서비스에서 v60을 사용하는 경우 모든 mbox 호출이 비동기적으로 수행됩니다. 이것은 mbox가 항상 작동했던 방식에서 달라진 것이므로 이 버전으로 업그레이드할 경우 주의하십시오. [ 설명서의 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)비동기 고려 사항[!DNL at.js] 섹션을 검토하여 몇 가지 위험 요소를 이해하십시오([!DNL at.js]에서도 비동기 호출이 사용됨)을 검토하십시오.
 * 새 방문자 시나리오에서 깜박임이 발생할 수 있음
 
    방문자 ID 서비스에서 v58~v60을 사용할 경우 mbox 호출이 실행되기 전에 방문자 ID가 설정되기를 (또는 시간 초과가 발생할 때까지) 기다립니다. 이러한 현상은 새 방문자의 첫 번째 페이지 로드에서 발생합니다.
