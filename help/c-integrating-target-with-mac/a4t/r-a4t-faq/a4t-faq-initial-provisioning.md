@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
@@ -28,7 +28,7 @@ ht-degree: 100%
 
 ## 내 Target 계정에 A4T가 활성화되었는지 어떻게 알 수 있습니까? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
-Analytics 활동을 정의할 때 보고서 세트를 선택하려면 Analytics 사용자 계정과 Target 사용자 계정 둘 다 필요합니다. 문서에 설명된 대로 사용자 계정을 구성해야 합니다. 자세한 내용은 [사용자 권한 요구 사항](../../../c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)을 참조하십시오.
+Analytics 활동을 정의할 때 보고서 세트를 선택하려면 Analytics 사용자 계정과 Target 사용자 계정 둘 다 필요합니다. 문서에 설명된 대로 사용자 계정을 구성해야 합니다. 자세한 내용은 [사용자 권한 요구 사항](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)을 참조하십시오.
 
 Analytics 및 Target에 액세스할 수 있는 Experience Cloud 그룹 중 하나에 소속되어 있고 모든 보고서 세트에 대해 액세스 권한이 있는 경우에는 Analytics를 사용하여 A/B 테스트를 만들 수 있는 선택 사항이 **[!UICONTROL 활동 만들기 아래에 표시됩니다]**.
 
