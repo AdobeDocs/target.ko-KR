@@ -5,7 +5,7 @@ title: 보고서 설정
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 68%
@@ -94,17 +94,17 @@ Information to help you set the elements you want to appear in your report in [!
 
 ## 보고서 지표 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-**[!UICONTROL 보고서 지표]** 드롭다운 목록을 클릭하면 다른 [성공 지표](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)나 여러 지표를 선택하여 그래프 및 차트로 표시할 수 있습니다.
+**[!UICONTROL 보고서 지표]** 드롭다운 목록을 클릭하면 다른 [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)나 여러 지표를 선택하여 그래프 및 차트로 표시할 수 있습니다.
 
 기본적으로, 기본 지표는 활동을 작성할 때 성공 지표 설정에서 결정됩니다. 설정을 변경하고 활동을 다시 저장하면 보고에 대한 기본 지표가 업데이트됩니다.
 
-보고서에서 볼 여러 지표를 선택하는 방법에 대한 자세한 내용은 [보고서에서 여러 지표 보기](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7)를 참조하십시오.
+보고서에서 볼 여러 지표를 선택하는 방법에 대한 자세한 내용은 [보고서에서 여러 지표 보기](/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7)를 참조하십시오.
 
 ## 대상자 {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 [!UICONTROL 대상] 드롭다운 목록을 클릭하면 보고서에 대해 표시된 대상을 변경할 수 있습니다.
 
-자세한 내용은 [대상](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을 참조하십시오.
+자세한 내용은 [대상](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을 참조하십시오.
 
 ## 날짜 범위 {#section_A410A768403C4E01891F95CB357E63ED}
 
@@ -149,7 +149,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 환경
 
-보고서에 사용할 환경(호스트 그룹)을 선택합니다. 자세한 내용은 [호스트](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
+보고서에 사용할 환경(호스트 그룹)을 선택합니다. 자세한 내용은 [호스트](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
 
 ### 보고 데이터 재설정
 
@@ -161,7 +161,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 예외적인 값 제외
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 자세한 내용은 [예외적인 주문 제외](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)를 참조하십시오.
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 자세한 내용은 [예외적인 주문 제외](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)를 참조하십시오.
 
 ## 다운로드 {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -169,7 +169,7 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ![다운로드 아이콘](/help/c-reports/c-report-settings/assets/download-icon.png)
 
-자세한 내용은 [CSV 파일로 데이터 다운로드](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)를 참조하십시오.
+자세한 내용은 [CSV 파일로 데이터 다운로드](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)를 참조하십시오.
 
 ## 새로 고침 {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -194,7 +194,7 @@ Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and grap
 
 보고서는 활동과 연결된 상승도 한계와 신뢰 수준을 이해하는 유용한 몇 가지 데이터 포인트와 시각화 표현을 포함합니다. 이러한 항목들을 포함하는 것은 승자를 보다 정확하게 판별하는 데 도움이 됩니다.
 
-자세한 내용은 [평균 리프트, 리프트 경계 및 신뢰 구간](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)을 참조하십시오.
+자세한 내용은 [평균 리프트, 리프트 경계 및 신뢰 구간](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)을 참조하십시오.
 
 다음 사항을 고려하십시오.
 
