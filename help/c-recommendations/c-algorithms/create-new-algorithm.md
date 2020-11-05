@@ -5,7 +5,7 @@ title: 기준 만들기
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -75,7 +75,7 @@ Adobe Target  Recommendations [!UICONTROL 의] 기준은 [!UICONTROL Recommendat
 
 1. **[!UICONTROL 권장 사항 논리]**&#x200B;를 선택합니다.
 
-   권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](../../c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.
+   권장 사항 논리 선택 사항에 대한 자세한 내용은 [기준](/help/c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.
 
    >[!NOTE]
    >
