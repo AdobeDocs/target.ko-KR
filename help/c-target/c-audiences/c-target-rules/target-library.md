@@ -5,7 +5,7 @@ title: Adobe Target 대상의 Target 라이브러리 옵션
 feature: audiences
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '183'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 사전 빌드된 타깃팅 규칙을 기반으로 사용자를 타깃팅하십시오.
 
-[타겟 라이브러리] 카테고리의 사전 빌드된 대상은 이전 대상으로서, 다른 카테고리에 있습니다. 자세한 내용 및 우수 사례에 대해서는 [타겟 및 대상 FAQ](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
+[타겟 라이브러리] 카테고리의 사전 빌드된 대상은 이전 대상으로서, 다른 카테고리에 있습니다. 자세한 내용 및 우수 사례에 대해서는 [타겟 및 대상 FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상자]** > **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
