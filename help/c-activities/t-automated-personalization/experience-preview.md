@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -26,7 +26,7 @@ Target Automated Personalization 활동에 대한 경험 미리 보기 URL을 �
 
 경험 미리 보기 URL을 사용하여 별도의 QA 활동을 만들지 않고도 다양한 브라우저와 환경에서 팀 멤버와 경험을 공유하고 QA 경험을 공유할 수 있습니다. 이 기능은 사이트가 복잡한 경우나 보안 정책 때문에 해당 사이트를 시뮬레이터에서 볼 수 없는 경우에 특히 유용합니다.
 
-1. [자동화된 개인화 활동](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)을 만들거나 해당 활동을 클릭하여 엽니다.
+1. [자동화된 개인화 활동](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)을 만들거나 해당 활동을 클릭하여 엽니다.
 
    경험을 미리 보기 위해 활동이 라이브 상태일 필요는 없습니다.
 1. 활동 요약 페이지에서 세 개의 세로 점을 클릭한 후 **[!UICONTROL 경험 URL 보기]**&#x200B;를 클릭합니다.
