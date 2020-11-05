@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -60,7 +60,7 @@ AAM에서 원래 만들어진 대상과 작업할 때 AAM에서 나중에 삭제
 
 ![활동 > 대상 정의](assets/audience_definition_list.png)
 
-해당하는 경우 해당 대상을 참조하는 다른 활동을 확인하려면 [!UICONTROL 대상 사용량] 탭을 클릭하십시오. 대상을 편집할 때 이 방법으로 다른 활동에 실수로 영향을 주는 일을 피할 수 있습니다. 정보에는 [라이브 활동], [비활성 활동], [보관된 활동] 및 [활동 동기화]가 포함됩니다. 이 기능은 모든 대상(라이브러리 대상과 [활동 전용 대상](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483))에 사용할 수 있습니다.
+해당하는 경우 해당 대상을 참조하는 다른 활동을 확인하려면 [!UICONTROL 대상 사용량] 탭을 클릭하십시오. 대상을 편집할 때 이 방법으로 다른 활동에 실수로 영향을 주는 일을 피할 수 있습니다. 정보에는 [라이브 활동], [비활성 활동], [보관된 활동] 및 [활동 동기화]가 포함됩니다. 이 기능은 모든 대상(라이브러리 대상과 [활동 전용 대상](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483))에 사용할 수 있습니다.
 
 대상이 다른 대상과 결합되고 결합된 대상이 활동을 작성하는 데 사용되는 경우, 두 대상 모두에 대한 사용 정보에 새로 작성된 해당 활동이 나열됩니다.
 
