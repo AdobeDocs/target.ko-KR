@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 80%
@@ -33,7 +33,7 @@ ht-degree: 80%
 
 * [!DNL Target]에서 [!DNL Analytics]로의 분류 호출이 실패했습니다.
 
-   도움이 필요하면 [고객 지원팀에 문의하십시오.](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+   도움이 필요하면 [고객 지원팀에 문의하십시오.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ ht-degree: 80%
 
 ## A4T를 시작한 이후 내 Analytics 데이터에 부풀려진 방문 또는 방문자 카운트가 표시됩니다. {#section_4BE374E573D44FB7918611699B74F58E}
 
-자세한 내용은 [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)를 참조하십시오.
+자세한 내용은 [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)를 참조하십시오.
 
 ## 매출액 지표의 예상 상승도에 올바른 데이터가 표시되지 않습니다. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -51,7 +51,7 @@ ht-degree: 80%
 
 ## Analytics 보고서에 활동이 표시되지 않습니다. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다. Analytics 추적 서버를 올바로 설정하려면 [Analytics 추적 서버 사용](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
+A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다. Analytics 추적 서버를 올바로 설정하려면 [Analytics 추적 서버 사용](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
 
 >[!NOTE]
 >
@@ -94,4 +94,4 @@ If you still don&#39;t see the report suite you are looking for, contact [Client
 
 [!DNL Target] 호출에 보조 데이터 ID가 없다면 [!DNL at.js]나 [!DNL mbox.js] 전에 [!DNL VisitorAPI.js] 파일을 로드했는지 확인하십시오. [!DNL Analytics] 호출에 보조 데이터 ID가 없다면 [!DNL Target] 호출 전에 [!DNL Analytics] 호출이 발생하는지 확인하십시오.
 
-자세한 내용은 [Analytics for Target 구현](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A)이나 [고객 지원](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
+자세한 내용은 [Analytics for Target 구현](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A)이나 [고객 지원](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
