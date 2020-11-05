@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '426'
 ht-degree: 98%
@@ -20,13 +20,13 @@ ht-degree: 98%
 
 >[!NOTE]
 >
->기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
+>기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
 [!UICONTROL 대상] 상자에서 편집 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭하십시오.
 
 ![대상 바꾸기 선택 사항](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-기본적으로 모든 방문자는 대상입니다. 그러나 대상을 변경할 수 있습니다. 대상 라이브러리에서 대상을 선택하거나 활동 전용 대상을 만들 수 있습니다. 대상 라이브러리에는 Target의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나, [새 대상을 만들거나](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), [활동 전용 대상을 만들](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) 수 있습니다. 특정 대상 타깃팅이 없는 A/B 테스트의 경우, 기본값인 모든 방문자를 선택하십시오.
+기본적으로 모든 방문자는 대상입니다. 그러나 대상을 변경할 수 있습니다. 대상 라이브러리에서 대상을 선택하거나 활동 전용 대상을 만들 수 있습니다. 대상 라이브러리에는 Target의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나, [새 대상을 만들거나](/help/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), [활동 전용 대상을 만들](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) 수 있습니다. 특정 대상 타깃팅이 없는 A/B 테스트의 경우, 기본값인 모든 방문자를 선택하십시오.
 
 아래와 같이, [!UICONTROL 대상 선택] 대화 상자에서 원하는 대상을 마우스로 가리켜서 대상을 편집하거나 복사할 수도 있습니다. 기존 대상과 유사한 대상을 만들려는 경우 대상을 복사하면 유용합니다. 대상의 복사본을 만들어 편집한 다음, 새 대상으로 저장할 수 있습니다. 이 마우스로 가리키는 기능은 다른 활동 유형에서도 사용할 수 있습니다.
 
@@ -44,7 +44,7 @@ ht-degree: 98%
 
 ![대상 비율](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-Target에서 [트래픽을 자동으로 할당](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)하도록 선택할 수도 있습니다.
+Target에서 [트래픽을 자동으로 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)하도록 선택할 수도 있습니다.
 
 ## 교육 비디오
 
@@ -73,4 +73,4 @@ Target에서 [트래픽을 자동으로 할당](../../../c-activities/automated-
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-자세한 내용은 [대상](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)을 참조하십시오.
+자세한 내용은 [대상](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)을 참조하십시오.
