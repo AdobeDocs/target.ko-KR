@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 92%
@@ -49,7 +49,7 @@ ht-degree: 92%
    이 시점에서는 연결할 자격이 있는 그룹이 아직 설정되어 있지 않습니다.
 1. 원할 경우 [!DNL Adobe Experience Cloud]를 소개하는 비디오를 시청하십시오.
 1. 본인의 새 권한을 확인하고 제품에 액세스하려면 [!DNL Adobe Experience Cloud]에서 로그아웃했다가 다시 로그인하십시오.
-1. 다음 단계로 계속하여 [자신에게 승인자 역할을 지정](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)합니다.
+1. 다음 단계로 계속하여 [자신에게 승인자 역할을 지정](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)합니다.
 
 ## 자신에게 승인자 역할을 지정{#task_15CAA437A71444E2932B333D5E66A3C7}을 참조하십시오 
 
