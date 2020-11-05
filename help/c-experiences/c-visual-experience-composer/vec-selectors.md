@@ -6,7 +6,7 @@ feature: vec
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -28,7 +28,7 @@ MDN(Mozilla Developer Network)의 [Selectors](https://developer.mozilla.org/en-U
 >
 >요소 클래스는 A/B 테스트, 자동화된 개인화 및 다변량 테스트 활동에서 선택기로 사용할 수 있습니다.
 
-CSS 선택기를 사용할 시점과 고유한 ID를 사용할 시점에 대해서는 [시각적 경험 작성기 우수 사례 및 제한 사항](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)을 참조하십시오.
+CSS 선택기를 사용할 시점과 고유한 ID를 사용할 시점에 대해서는 [시각적 경험 작성기 우수 사례 및 제한 사항](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)을 참조하십시오.
 
 ## Adobe Target에서 요소용 선택기를 생성하는 방법 {#section_D89D954BCBFB486CA081BE183776A475}
 
