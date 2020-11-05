@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 85%
@@ -23,7 +23,7 @@ ht-degree: 85%
 >* 사용자가 웹 사이트에서 구매를 수행하는 경우, 보고 작업을 위해 A4T(Analytics for Target)를 사용하더라도 주문 확인 mbox를 구현하는 것이 좋습니다.
    >
    >
-* at.js 1에 대한 주문 확인 mbox를 만들 수도 있습니다.*x* ;하지만 [!DNL at.js] 기본 방법입니다. 자세한 내용은 [전환 추적](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)을 참조하십시오.
+* at.js 1에 대한 주문 확인 mbox를 만들 수도 있습니다.*x* ;하지만 [!DNL at.js] 기본 방법입니다. 자세한 내용은 [전환 추적](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)을 참조하십시오.
    >
    >
 * at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` 더 이상 지원되지 않습니다. at.js 2를 사용한 주문 확인을 위해.*x*, 다음의 추적 관련 API를 사용하십시오. [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) 및 [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
