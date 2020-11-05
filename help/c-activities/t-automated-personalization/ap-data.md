@@ -5,7 +5,7 @@ title: Adobe Target의 개인화 알고리즘에 대한 데이터 수집
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 97%
@@ -19,7 +19,7 @@ Target은 자동으로 다양한 데이터를 수집하고 사용하여 AP(자�
 
 Target 개인화 알고리즘에 대한 자세한 내용은 [Random Forest 알고리즘](/help/c-activities/t-automated-personalization/algo-random-forest.md)을 참조하십시오.
 
-다음 표는 마케터가 작업을 수행하지 않고도 기본적으로 자동화된 개인화와 자동 타겟을 통해 수집된 데이터와, [개인화 인사이트 보고서](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)에서 이러한 속성을 표시하는 데 사용된 이름 지정 규칙을 보여 줍니다. 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [Target의 개인화 알고리즘을 위한 데이터 업로드](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
+다음 표는 마케터가 작업을 수행하지 않고도 기본적으로 자동화된 개인화와 자동 타겟을 통해 수집된 데이터와, [개인화 인사이트 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)에서 이러한 속성을 표시하는 데 사용된 이름 지정 규칙을 보여 줍니다. 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [Target의 개인화 알고리즘을 위한 데이터 업로드](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
 
 | 데이터 유형 | 설명 | 데이터 유형 이름 지정 규칙 | 예제 속성 |
 | --- | --- | --- | --- |
