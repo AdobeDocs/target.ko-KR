@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -53,11 +53,11 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 >[!NOTE]
 >
->속성을 다중 값에서 단일 값으로 변경하려면 카탈로그를 삭제하고 수정된 제품 데이터를 업로드해야 합니다. 카탈로그를 삭제해도 제품 ID와 연결된 이전 데이터는 삭제되지 않습니다. 자세한 내용은 *Adobe Recommendations Classic* 설명서의 [시스템에서 모든 항목 삭제](../../assets/adobe-recommendations-classic.pdf)를 참조하십시오.
+>속성을 다중 값에서 단일 값으로 변경하려면 카탈로그를 삭제하고 수정된 제품 데이터를 업로드해야 합니다. 카탈로그를 삭제해도 제품 ID와 연결된 이전 데이터는 삭제되지 않습니다. 자세한 내용은 *Adobe Recommendations Classic* 설명서의 [시스템에서 모든 항목 삭제](/help/assets/adobe-recommendations-classic.pdf)를 참조하십시오.
 
 **제한 사항**:
 
-* 사용자 지정 엔티티 속성에는 사전 정의된 엔티티 속성 이름을 사용할 수 없습니다. [엔티티 속성](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)을 참조하십시오.
+* 사용자 지정 엔티티 속성에는 사전 정의된 엔티티 속성 이름을 사용할 수 없습니다. [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)을 참조하십시오.
 * `entity.environment` 속성은 시스템에 의해 예약되어 있으므로 사용자 지정 엔티티 속성에 사용할 수 없습니다. `entity.environment`, 피드 또는 API를 사용하여 `targetPageParams`를 전달하려고 시도하는 것은 무시됩니다.
 * 배열에 단일 값 유형이 포함되어야 합니다. 혼합 값 배열(`["AB",1,true]`)은 지원되지 않습니다.
 * 중첩 JSON 배열(`[10,12,[1,2,3]]`)을 포함하는 다중 값 속성은 단일 값 속성으로 처리됩니다.
@@ -263,4 +263,4 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 ## 관련 항목:
 
-* [엔티티 속성](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
