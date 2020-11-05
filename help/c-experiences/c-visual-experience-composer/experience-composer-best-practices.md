@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -22,11 +22,11 @@ ht-degree: 97%
 
 ## 우수 사례 {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**mbox.js 버전 57 이상 및 at.js의 경우 페이지의`<head>`섹션 맨 위에 mbox.js 또는 at.js 참조를 배치하십시오.**
+**mbox.js 버전 57 이상 및 at.js의 경우 페이지의 `<head>` 섹션 맨 위에 mbox.js 또는 at.js 참조를 배치하십시오.**
 
 방문자 API 서비스를 사용하는 경우 mbox.js 또는 at.js 위에 방문자 API 스크립트를 배치하십시오.
 
-**버전 57 이전의 mbox.js 버전에 대해서는, mbox.js 코드를 페이지의`<head>`섹션에서 가능한 아래쪽에 배치하십시오.**
+**버전 57 이전의 mbox.js 버전에 대해서는, mbox.js 코드를 페이지의 `<head>` 섹션에서 가능한 아래쪽에 배치하십시오.**
 
 그 후에는 추가적인 선언 없이 `<head>` 섹션의 끝에 mbox.js를 배치하십시오. 그러지 않으면 스크립트나 링크 태그가 `<body>` 섹션으로 이동합니다.
 
@@ -99,9 +99,9 @@ target.js에 의한 경험 적용 전에 수정 사항이 적용되지 않으면
 
 다시 말해, 텍스트가 있는 요소를 추가하면, 다른 텍스트로 해당 요소를 편집하는 별도의 작업에서 코드 편집기에 두 작업이 모두 별도의 요소로 표시됩니다. 요소를 편집한 경우 편집된 텍스트를 포함하고 여러분이 만든 원본을 수정하는 새 요소가 만들어진 것입니다. 만약 원래 요소를 삭제하면 편집된 텍스트는 편집된 요소를 찾을 수 없으며 표시되지 않습니다. 두 번째 요소는 요소 목록에는 남아 있지만, 변경되는 요소가 더 이상 존재하지 않으므로 이 요소는 페이지에 영향을 주지 않습니다.
 
-[시각적 경험 작성기에 사용된 요소 선택기](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)를 참조하십시오.
+[시각적 경험 작성기에 사용된 요소 선택기](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)를 참조하십시오.
 
-**리치 텍스트 편집기를 사용하여 텍스트 요소에 스타일을 지정할 때`<b>`및`<i>`태그를 사용하십시오.**
+**리치 텍스트 편집기를 사용하여 텍스트 요소에 스타일을 지정할 때 `<b>` 및 `<i>` 태그를 사용하십시오.**
 
 * 굵은 텍스트를 표시하려면 `<strong>`보다는 `<b>`를 사용하십시오.
 * 기울임체 텍스트를 표시하려면 `<em>`보다는 `<i>`를 사용하십시오.
@@ -112,7 +112,7 @@ target.js에 의한 경험 적용 전에 수정 사항이 적용되지 않으면
 
 특정 양식 필드는 제출을 위한 필수 사항일 수 있으며, 따라서 해당 양식 필드를 제거하면 제출에 영향을 줄 수 있습니다.
 
-**스크립트 내에`mboxCreate`을 포함하지 마십시오.**
+**스크립트 내에 `mboxCreate`을 포함하지 마십시오.**
 
 `mboxCreate`은 `document.write`을 사용하므로 스크립트에 `mboxCreate`을 포함하지 않는 것이 좋습니다. 대신, `mboxDefine` 및 `mboxUpdate`를 동일한 목적에 사용하십시오.
 
@@ -151,7 +151,7 @@ target.js에 의한 경험 적용 전에 수정 사항이 적용되지 않으면
 
 이 예에서는 VEC에서 전체 앵커 요소가 선택되어 있어서 타깃팅이 수행되는 경우 다른 요소에 부정적인 영향을 줍니다.
 
-**JavaScript 코드에`top`또는`self`변수를 사용하지 마십시오.**
+**JavaScript 코드에 `top` 또는 `self` 변수를 사용하지 마십시오.**
 
 고급 경험 작성기가 활성화되어 있으면 top 및 self 변수를 업데이트하여 iframe 버스팅을 비활성화합니다. 사용자 지정 JavaScript 코드 대신 iframe 버스팅을 추가하려면 X-frame-options 헤더를 사용하십시오.
 
@@ -190,7 +190,7 @@ target.js에 의한 경험 적용 전에 수정 사항이 적용되지 않으면
 
 **이동 기능은 z-색인을 지원하지 않습니다.**
 
-z-색인 기능이 없으므로 이동된 요소는 다른 요소의 맨 위에서 이동할 수 없습니다. 자세한 내용은 [제한 사항](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)을 참조하십시오.
+z-색인 기능이 없으므로 이동된 요소는 다른 요소의 맨 위에서 이동할 수 없습니다. 자세한 내용은 [제한 사항](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)을 참조하십시오.
 
 **요소를 다시 정렬하는 것은 클릭 추적에 영향을 줍니다.**
 
@@ -198,7 +198,7 @@ z-색인 기능이 없으므로 이동된 요소는 다른 요소의 맨 위에�
 
 이 문제는 활동 컨텐츠를 전달하기 위한 코드와 클릭을 추적하기 위한 코드가 모두 페이지에 전달되는 동일한 코드 조각에 포함되어 있기 때문에 발생합니다. 다른 페이지로 이동하고 클릭 추적을 설정한다면, 활동 컨텐츠 코드와 클릭 추적 코드가 해당 페이지에 전달됩니다. 클릭 추적 페이지의 페이지 구조가 테스트가 실행되는 페이지와 유사하다면, 테스트 컨텐츠가 클릭 추적 페이지에 표시될 수도 있습니다.
 
-**mbox인`<div>`에서는 요소 삽입이 작동하지 않을 수 있습니다.**
+**mbox인 `<div>`에서는 요소 삽입이 작동하지 않을 수 있습니다.**
 
 mbox에 오퍼가 포함된 경우 mbox가 잘못 구현되면 요소를 삽입하는 것이 insertAfter가 아니라 insertBefore로 표시될 수 있습니다.
 
