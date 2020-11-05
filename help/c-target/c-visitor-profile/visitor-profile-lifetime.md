@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 83%
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 기본적으로 방문자 프로필은 해당 방문자가 14일 동안 활동이 없으면 만료됩니다. 이 프로필 라이프타임은 연장할 수 있습니다.
 
-[추가적인 비용 없이 프로필 라이프타임을 연장하려면 Client Care나 Adobe 컨설턴트](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에게 문의하십시오. 라이프타임은 90일 이내로 설정할 수 있습니다.
+[추가적인 비용 없이 프로필 라이프타임을 연장하려면 Client Care나 Adobe 컨설턴트](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에게 문의하십시오. 라이프타임은 90일 이내로 설정할 수 있습니다.
 
 사용 중인 [!DNL Target] JavaScript 라이브러리([!DNL at.js] 또는 [!DNL mbox.js])는 새 파일을 다운로드할 필요가 있는지를 결정합니다.
 
