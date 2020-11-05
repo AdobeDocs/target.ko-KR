@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 86%
@@ -38,7 +38,7 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 ### 자동화된 개인화
 
-[자동화된 개인화](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)는 고급 기계 학습 알고리즘을 제공하여 개인별 경험 및 디지털 경험에 대한 향상된 전환 속도를 가능하게 합니다.
+[자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)는 고급 기계 학습 알고리즘을 제공하여 개인별 경험 및 디지털 경험에 대한 향상된 전환 속도를 가능하게 합니다.
 
 자동화된 개인화(이전의 Test&amp;Target 1:1)는 사이트에서 방문자 활동을 기록하여 콘텐츠를 유사한 방문자에게 타깃팅할 수 있도록 방문자들에 대한 프로필을 빌드합니다. 개인 및 모집단 전체와 관련해서 콘텐츠에 대한 응답을 추적한 다음 정교한 모델링 방법을 통해 해당 방문자에 대해 알고 있는 모든 사항을 고려하여 각 개인을 자동으로 타깃팅합니다.
 
@@ -50,7 +50,7 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 ### 권장 사항
 
-[권장 사항 활동은 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. ](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
+[권장 사항 활동은 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. ](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
 권장 사항은 사이트에서의 고객의 활동에 따라 고객에게 제품을 제안하는 방법을 결정합니다. 예:
 
@@ -79,13 +79,13 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 ### Enterprise 사용자 권한
 
-[엔터프라이즈 사용자 권한](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 기능을 사용하면 서로 다른 프로젝트(&quot;제품 프로필&quot;이라고 함)를 만들어 [!DNL Adobe Admin Console for Enterprise]각각의 프로젝트에 대한 사용자의 액세스 권한을 제어하는 단일 사용자에 대해 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과, 고객은 지역, 환경(개발/단계/제품), 채널 또는 기타 사용자 지정 기준을 기반으로 사용자에 대한 보기, 편집, 승인 및 게시 액세스 권한을 제한할 수 있습니다.
+[엔터프라이즈 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 기능을 사용하면 서로 다른 프로젝트(&quot;제품 프로필&quot;이라고 함)를 만들어 [!DNL Adobe Admin Console for Enterprise]각각의 프로젝트에 대한 사용자의 액세스 권한을 제어하는 단일 사용자에 대해 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과, 고객은 지역, 환경(개발/단계/제품), 채널 또는 기타 사용자 지정 기준을 기반으로 사용자에 대한 보기, 편집, 승인 및 게시 액세스 권한을 제한할 수 있습니다.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 [!DNL Recommendations Classic]은 웹 사이트에서의 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시할 수 있습니다. 권장 사항을 사용하면 고객에게 모르는 제품을 안내하여 웹 사이트에서의 판매량을 늘릴 수 있습니다.
 
-자세한 내용은 [권장 사항 Classic 설명서](../assets/adobe-recommendations-classic.pdf)를 참조하십시오.
+자세한 내용은 [권장 사항 Classic 설명서](/help/assets/adobe-recommendations-classic.pdf)를 참조하십시오.
 
 ## Experience League: Adobe Target 시작 키트 {#kit}
 
