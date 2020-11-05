@@ -5,7 +5,7 @@ title: Adobe Target 고객의 기간 옵션
 feature: audiences
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 특정 기간에 사이트를 방문하는 사용자를 타깃팅하는 시작/종료 날짜 및 시간을 추가할 수 있습니다. 또한 주/요일 분할 선택 사항을 설정하여 대상 타깃팅을 위한 반복 패턴을 만들 수도 있습니다.
 
-예를 들어, [결합한 임시 대상 기능](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 사용하는 경우 블랙 프라이데이 이전 3일 동안에 특정 콘텐츠에 돈을 덜 쓰는 대상과 블랙 프라이데이 이후에 다른 콘텐츠에 돈을 덜 쓰는 대상을 타깃팅할 수 있습니다.
+예를 들어, [결합한 임시 대상 기능](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 사용하는 경우 블랙 프라이데이 이전 3일 동안에 특정 콘텐츠에 돈을 덜 쓰는 대상과 블랙 프라이데이 이후에 다른 콘텐츠에 돈을 덜 쓰는 대상을 타깃팅할 수 있습니다.
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상자]** > **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭합니다.
 1. 대상자의 이름을 지정합니다.
