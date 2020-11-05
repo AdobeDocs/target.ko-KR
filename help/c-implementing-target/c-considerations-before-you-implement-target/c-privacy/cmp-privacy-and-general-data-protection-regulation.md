@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 93%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 선택 기능을 사용할 때 고려해야 할 세 가지 시나리오가 있습니다.
 
-1. **[!DNL Launch]를 통해 사전 승인된[!DNL Target]태그(또는 이전에 승인된[!DNL Target]의 데이터 주체):** [!DNL Target] 태그는 예상대로 동의 및 기능을 위해 유지되지 않습니다.
-1. **[!DNL Target]태그가 사전 승인되지 않으며`bodyHidingEnabled`가 FALSE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 동의를 받은 후 [!DNL Target]을 호출하여 데이터 주체(방문자)에 대해 개인화된 콘텐츠를 사용할 수 있습니다. 동의 전에는 기본 콘텐츠만 사용할 수 있으므로 페이지의 모든 부분을 포함하는 스플래시 페이지나 개인화된 콘텐츠와 같은 적절한 전략을 활용하는 것이 중요합니다. 이를 통해 데이터 주체(방문자)에 대해 일관성을 유지할 수 있습니다.
-1. **[!DNL Target]태그가 사전 승인되지 않으며`bodyHidingEnabled`가 TRUE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 그러나 `bodyHidingEnabled`가 true로 설정되어 있으므로 `bodyHiddenStyle`은 태그가 실행될 때까지 페이지에 어떤 콘텐츠가 숨겨져 있는지 나타냅니다(또는 데이터 주체에서 선택 기능을 거부하며, 이 경우 기본 콘텐츠가 표시됨). [!DNL Target] By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 권장되는 페이지 구성은 아래에 제시되어 있습니다. 따라서 동의 관리자 대화 상자를 제외한 페이지의 전체 본문을 숨기며, 이는 페이지의 콘텐츠를 한 개의 컨테이너에 넣고 동의 관리자 대화 상자를 별도의 컨테이너에 넣어 실행됩니다. 이 설정은 페이지 콘텐츠 컨테이너만 숨기도록 [!DNL Target]을 구성합니다. 이러한 설정을 구성하는 방법에 대한 자세한 내용은 [ Launch 설명서](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)를 참조하십시오.
+1. **[!DNL Launch]를 통해 사전 승인된 [!DNL Target] 태그(또는 이전에 승인된 [!DNL Target]의 데이터 주체):** [!DNL Target] 태그는 예상대로 동의 및 기능을 위해 유지되지 않습니다.
+1. **[!DNL Target] 태그가 사전 승인되지 않으며 `bodyHidingEnabled`가 FALSE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 동의를 받은 후 [!DNL Target]을 호출하여 데이터 주체(방문자)에 대해 개인화된 콘텐츠를 사용할 수 있습니다. 동의 전에는 기본 콘텐츠만 사용할 수 있으므로 페이지의 모든 부분을 포함하는 스플래시 페이지나 개인화된 콘텐츠와 같은 적절한 전략을 활용하는 것이 중요합니다. 이를 통해 데이터 주체(방문자)에 대해 일관성을 유지할 수 있습니다.
+1. **[!DNL Target] 태그가 사전 승인되지 않으며 `bodyHidingEnabled`가 TRUE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 그러나 `bodyHidingEnabled`가 true로 설정되어 있으므로 `bodyHiddenStyle`은 태그가 실행될 때까지 페이지에 어떤 콘텐츠가 숨겨져 있는지 나타냅니다(또는 데이터 주체에서 선택 기능을 거부하며, 이 경우 기본 콘텐츠가 표시됨). [!DNL Target] By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 권장되는 페이지 구성은 아래에 제시되어 있습니다. 따라서 동의 관리자 대화 상자를 제외한 페이지의 전체 본문을 숨기며, 이는 페이지의 콘텐츠를 한 개의 컨테이너에 넣고 동의 관리자 대화 상자를 별도의 컨테이너에 넣어 실행됩니다. 이 설정은 페이지 콘텐츠 컨테이너만 숨기도록 [!DNL Target]을 구성합니다. 이러한 설정을 구성하는 방법에 대한 자세한 내용은 [ Launch 설명서](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)를 참조하십시오.
 
    시나리오 3에 대한 권장 페이지 설정은 다음과 같습니다.
 
@@ -121,7 +121,7 @@ Target과 관련된 유럽연합 일반 데이터 보호 규칙(GDPR), 캘리포
 
 ### [!DNL Adobe]는 데이터 주체/사용자 요청에 대응하여 고객이 어떤 정보를 삭제할 수 있도록 허용할 계획입니까? {#section_4B51D00924EC4166B2442218B69214F0}
 
-[!DNL Target] 내의 개별 방문자와 관련된 정보는 [!DNL Target] 방문자 프로필 내에 포함되어 있습니다. [!DNL Target]을 사용하면 고객이 본인의 방문자 프로필에서 ID와 연결된 모든 데이터를 삭제할 수 있습니다. 프로필 데이터 [!DNL Target] 저장소 예시는 [방문자 프로필](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)을 참조하십시오.
+[!DNL Target] 내의 개별 방문자와 관련된 정보는 [!DNL Target] 방문자 프로필 내에 포함되어 있습니다. [!DNL Target]을 사용하면 고객이 본인의 방문자 프로필에서 ID와 연결된 모든 데이터를 삭제할 수 있습니다. 프로필 데이터 [!DNL Target] 저장소 예시는 [방문자 프로필](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)을 참조하십시오.
 
 특정 개인을 식별하지 않는 집계 또는 익명화 데이터(예: 보고 데이터) 또는 특정 개인과 관련이 없는 데이터(예: 콘텐츠 데이터)는 사용자 삭제 요청 범위를 벗어납니다.
 
@@ -296,7 +296,7 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 
 ### Target이 IP 난독화를 지원합니까? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target]은 사용자가 IP 난독화를 GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 유사 IP 탐지를 지원합니다. 자세한 내용은 [개인 정보](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)를 참조하십시오.
+[!DNL Target]은 사용자가 IP 난독화를 GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 유사 IP 탐지를 지원합니다. 자세한 내용은 [개인 정보](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)를 참조하십시오.
 
 ### 데이터가 제3자에게 공유되거나 판매되지 않도록 하려면 어떤 조치가 필요합니까?
 
