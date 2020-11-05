@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -94,7 +94,7 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-환경에 대한 자세한 내용은 [호출](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
+환경에 대한 자세한 내용은 [호출](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
 
 ## 내 A/B 또는 MVT 활동에서 내 경험 간에 트래픽이 분리된 이유는 무엇입니까? {#uneven}
 
