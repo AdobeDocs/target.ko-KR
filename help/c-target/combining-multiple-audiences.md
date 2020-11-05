@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 99%
@@ -30,7 +30,7 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
 3단계 안내가 있는 워크플로우 동안 활동의 [!UICONTROL Target] 페이지에서 결합된 임시 대상을 만들 수 있습니다.
 
-1. [타겟](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 페이지에서 **[!UICONTROL 활동]**&#x200B;을 만드는 동안 3개의 세로 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
+1. [타겟](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) 페이지에서 **[!UICONTROL 활동]**&#x200B;을 만드는 동안 3개의 세로 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
 
    ![단계 결과](assets/edit_audience.png)
 
@@ -82,7 +82,7 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
 지표 타깃팅에서 사용할 결합된 임시 대상을 활동의 [!UICONTROL 목표 및 설정] 페이지에서 만들어 수 있습니다. 예를 들어, 결합된 대상을 사용하여 전환을 기반으로 타깃팅을 만들려면 다음을 수행하십시오.
 
-1.   [활동](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만들 때 **[!UICONTROL 목표 및 설정]** 페이지에서 성공 지표에 대한 **[!UICONTROL 전환]**&#x200B;을 선택한 다음, mbox 확인함&#x200B;**[!UICONTROL 을 작업으로 선택합니다.]**
+1.   [활동](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만들 때 **[!UICONTROL 목표 및 설정]** 페이지에서 성공 지표에 대한 **[!UICONTROL 전환]**&#x200B;을 선택한 다음, mbox 확인함&#x200B;**[!UICONTROL 을 작업으로 선택합니다.]**
 1. **[!UICONTROL mbox 검색]** 필드에서 원하는 mbox를 선택합니다.
 
    ![](assets/combine_multiple_audiences4.png)
@@ -92,17 +92,17 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
    ![](assets/combine_multiple_audiences5.png)
 
-1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
+1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
 
 ## 보고에서 사용할 결합된 대상 만들기 {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 보고에서 사용할 결합된 임시 대상을 활동의 [!UICONTROL 목표 및 설정] 페이지에서 만들어 수 있습니다.
 
-1. [활동](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만들 때, **[!UICONTROL 목표 및 설정]** 페이지에서 **[!UICONTROL 보고 대상]** 아래의 [!UICONTROL 대상 추가] 아이콘을 클릭하여 [!UICONTROL 대상 선택] 페이지를 표시합니다.
+1. [활동](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만들 때, **[!UICONTROL 목표 및 설정]** 페이지에서 **[!UICONTROL 보고 대상]** 아래의 [!UICONTROL 대상 추가] 아이콘을 클릭하여 [!UICONTROL 대상 선택] 페이지를 표시합니다.
 
    ![](assets/combine_multiple_audiences6.png)
 
-1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
+1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
 
 ## 활동을 편집할 때 결합된 대상 만들기 {#section_364A12CE96E04B61B7C18113AA586C2C}
 
@@ -122,4 +122,4 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
    ![대상 변경](/help/c-target/assets/combine_multiple_audiences8.png)
 
-1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
+1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
