@@ -6,7 +6,7 @@ feature: ap
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2039'
 ht-degree: 97%
@@ -93,7 +93,7 @@ ht-degree: 97%
 
 1. (조건부) **[!UICONTROL 오퍼]**&#x200B;를 클릭하여 콘텐츠를 선택하고 이를 보고 그룹에 지정하거나 특정 방문자만 타깃팅으로 한 특정 오퍼를 볼 수 있도록 합니다.
 
-   자세한 내용은 [자동화된 개인화의 오퍼 보고 그룹](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)을 참조하십시오.
+   자세한 내용은 [자동화된 개인화의 오퍼 보고 그룹](/help/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C)을 참조하십시오.
 
    위치별로 오퍼를 필터링하려면 [!UICONTROL 위치] 목록을 사용하십시오. [!UICONTROL 보고서 그룹] 목록을 사용하여 보고 그룹별로 오퍼를 필터링합니다. 또한 [!UICONTROL 보고 그룹] 목록을 사용하여 [!UICONTROL 지정되지 않은 오퍼]를 필터링하면 현재 보고 그룹에 지정되지 않은 오퍼에 보고 그룹을 지정할 수 있습니다.
 
@@ -107,7 +107,7 @@ ht-degree: 97%
 
    보고 그룹이 Target에서 모델이 구축되는 방식에 영향을 미친다는 사실을 이해하는 것이 중요합니다. 따라서 활동이 라이브 상태인 동안 오퍼를 바꾸거나 새 오퍼를 추가하려는 경우에만 보고 그룹을 사용하는 것이 좋습니다. 새 오퍼가 라이브 활동에 도입될 경우 기존의 유사한 오퍼가 있는 그룹에 새 오퍼를 추가하면 시스템에서 해당 그룹의 다른 오퍼에 대해 이미 수집된 데이터를 사용하여 새 오퍼를 학습할 수 있게 됩니다. 모든 오퍼를 단일 보고 그룹에 넣어서는 안 됩니다.
 
-   특정 대상에게 오퍼를 타깃팅하는 방법에 대한 내용은 [AP 오퍼 타깃팅](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)을 참조하십시오.
+   특정 대상에게 오퍼를 타깃팅하는 방법에 대한 내용은 [AP 오퍼 타깃팅](/help/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E)을 참조하십시오.
 
 1. (조건부) **[!UICONTROL 제외 그룹]**&#x200B;을 클릭하여 활동에서 제외할 요소의 조합을 선택합니다.
 
@@ -171,4 +171,4 @@ ht-degree: 97%
 
 **[!UICONTROL 만들기]**&#x200B;를 클릭하면 활동 요약이 표시됩니다. **경험 미리 보기**&#x200B;를 클릭하여 전달 시 경험이 어떻게 표시될지를 미리 볼 수 있습니다. 사이트의 AP 경험에 대한 링크를 보고 공유하여 Target의 시각적 경험 작성기 외부에서 경험을 &quot;실제로 미리 보는&quot; 데 사용할 수 있는 팝업이 나타납니다. 미리 보기를 공유하려면 메시지에서 링크를 공유해야 합니다. URL에 메시지의 링크에서 페이지에 액세스할 때만 페이지를 올바르게 표시하는 매개 변수가 포함되어 있으므로 링크를 클릭한 다음, 페이지에서 직접 URL을 복사할 수 없습니다.
 
-보고에 대한 내용은 [자동화된 개인화 보고서](../../c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A)를 참조하십시오.
+보고에 대한 내용은 [자동화된 개인화 보고서](/help/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A)를 참조하십시오.
