@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9910bee403061c87f8a38c10b7ada6df76ec30b0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3369'
 ht-degree: 75%
@@ -41,8 +41,8 @@ Target의 일반 A/B 테스트에는 도전군과 통제군의 쌍별 비교만 
 ## 자동 할당 대 A/B 또는 자동화된 개인화 사용 시점 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * 활동을 처음부터 최적화하고 가장 성과가 좋은 경험을 가능한 한 빨리 식별하려면 **자동 할당**&#x200B;을 사용하십시오. 성과가 좋은 경험을 더 자주 제공하면 전반적인 활동 성과가 높아집니다.
-* 사이트를 최적화하기 전에 모든 경험의 성과를 파악하려면 표준 **[A/B 테스트](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**&#x200B;를 사용하십시오. A/B 테스트에서는 사용자의 모든 경험에 대해 등급을 매길 수 있는 반면에 자동 트래픽 할당에서는 성과가 가장 높은 경험을 찾긴 하지만 낮은 경험들 간의 구별을 보장하지는 않습니다.
-*  개별 프로필 속성을 기반으로 예측하는 기계 학습 모델과 같이 최상위 복잡성에 대한 최적화 알고리즘을 원하는 경우 [자동화된 개인화](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)를 사용하십시오. 자동 트래픽 할당은 경험의 종합적인 행동을 살펴보며(표준 A/B 테스트처럼), 방문자를 구분하지는 않습니다.
+* 사이트를 최적화하기 전에 모든 경험의 성과를 파악하려면 표준 **[A/B 테스트](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)**&#x200B;를 사용하십시오. A/B 테스트에서는 사용자의 모든 경험에 대해 등급을 매길 수 있는 반면에 자동 트래픽 할당에서는 성과가 가장 높은 경험을 찾긴 하지만 낮은 경험들 간의 구별을 보장하지는 않습니다.
+*  개별 프로필 속성을 기반으로 예측하는 기계 학습 모델과 같이 최상위 복잡성에 대한 최적화 알고리즘을 원하는 경우 [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)를 사용하십시오. 자동 트래픽 할당은 경험의 종합적인 행동을 살펴보며(표준 A/B 테스트처럼), 방문자를 구분하지는 않습니다.
 
 ## 핵심적인 이점 {#section_0913BF06F73C4794862561388BBDDFF0}
 
