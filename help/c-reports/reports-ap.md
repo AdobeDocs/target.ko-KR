@@ -5,7 +5,7 @@ title: 자동화된 개인화 요약 보고서
 feature: reports
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 71%
@@ -35,7 +35,7 @@ Specialized reports are available to users of [!UICONTROL Automated Personalizat
 
 ![활동 수준 보고서](/help/c-reports/assets/box_plot_ap.png)
 
-상승도, 신뢰도, 트렌드, 지속 기간 등을 포함하여 A/B 테스트에 대한 결과 해석의 표준 규칙이 여전히 적용됩니다. 결과 해석에 대한 자세한 내용은 [전환율에 대하여](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)를 참조하십시오.
+상승도, 신뢰도, 트렌드, 지속 기간 등을 포함하여 A/B 테스트에 대한 결과 해석의 표준 규칙이 여전히 적용됩니다. 결과 해석에 대한 자세한 내용은 [전환율에 대하여](/help/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)를 참조하십시오.
 
 ## Offer Level report {#section_CAA6409879E349C6906E2BE8156D87A1}
 
