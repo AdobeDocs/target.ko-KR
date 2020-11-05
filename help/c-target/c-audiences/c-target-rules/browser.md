@@ -6,7 +6,7 @@ feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 99%
@@ -47,9 +47,9 @@ ht-degree: 99%
 
 1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
-   * **유형:** 특정 브라우저를 타깃팅하거나 제외합니다. [유형](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)을 참조하십시오.
-   * **언어:** 특정 언어를 사용하도록 설정된 특정 브라우저를 타깃팅하거나 제외합니다. [언어](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)를 참조하십시오.
-   * **버전:** 특정 브라우저 버전을 타깃팅하거나 제외합니다. [버전](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)을 참조하십시오.
+   * **유형:** 특정 브라우저를 타깃팅하거나 제외합니다. [유형](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)을 참조하십시오.
+   * **언어:** 특정 언어를 사용하도록 설정된 특정 브라우저를 타깃팅하거나 제외합니다. [언어](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)를 참조하십시오.
+   * **버전:** 특정 브라우저 버전을 타깃팅하거나 제외합니다. [버전](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)을 참조하십시오.
 
 1. (선택 사항) **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 대상에 대한 추가 규칙을 설정합니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
