@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 19036a1d-941c-4d31-8c7b-f50c86996b1c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 90%
@@ -24,13 +24,13 @@ ht-degree: 90%
 
 | 통합 | 세부 사항 |
 |--- |--- |
-| Analytics for Target (A4T) | [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](../../../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)를 참조하십시오. |
+| Analytics for Target (A4T) | [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)를 참조하십시오. |
 | 프로필 및 대상(P&amp;A) | 핵심 [서비스 사용자](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 안내서의 *대상을 참조하십시오*. |
 | Experience Cloud ID 서비스 | [Adobe Experience Cloud ID 서비스 설명서](https://docs.adobe.com/content/help/en/id-service/using/home.html)를 참조하십시오. |
-| Adobe Launch | Launch는 Adobe의 차세대 태그 관리 플랫폼이며 Adobe Target을 구현하는 데 권장되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.  [Adobe Launch를 사용하여 Target 구현](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)을 참조하십시오. |
-| DTM(다이내믹 태그 관리) | See the [Best Practices for Implementing Target Using Dynamic Tag Management guide](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).   중요: [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 최신 방법입니다. 새로운 Target 구현의 경우, Launch를 사용하십시오. 다음은 DTM 구현을 사용하는 기존 클라이언트를 위한 가이드입니다.   DTM 통합을 사용할 때 다음 사항을 고려하십시오. <ul><li>라이브러리 관리: at.js를 사용하려면 &quot;사용자 지정&quot; 호스팅 옵션을 사용하십시오. &quot;자동&quot; 관리는 현재 지원되지 않습니다. </li></ul> |
+| Adobe Launch | Launch는 Adobe의 차세대 태그 관리 플랫폼이며 Adobe Target을 구현하는 데 권장되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.  [Adobe Launch를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)을 참조하십시오. |
+| DTM(다이내믹 태그 관리) | See the [Best Practices for Implementing Target Using Dynamic Tag Management guide](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).   중요: [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 최신 방법입니다. 새로운 Target 구현의 경우, Launch를 사용하십시오. 다음은 DTM 구현을 사용하는 기존 클라이언트를 위한 가이드입니다.   DTM 통합을 사용할 때 다음 사항을 고려하십시오. <ul><li>라이브러리 관리: at.js를 사용하려면 &quot;사용자 지정&quot; 호스팅 옵션을 사용하십시오. &quot;자동&quot; 관리는 현재 지원되지 않습니다. </li></ul> |
 | Adobe Experience Manager(AEM) 클라우드 서비스 | AEM 클라우드 서비스를 사용하면 AEM 작업 과정 내에서 A/B 테스트 및 경험 타깃팅 활동을 작성할 수 있습니다. FP-11577 이상의 Adobe Experience Manager 6.2로 at.js를 지원합니다. 자세한 정보는 [Adobe Target 통합](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)을 참조하고 AEM 버전을 선택하십시오. |
-| AEM 경험 구성요소 | Target 활동에 AEM에서 만든 경험 구성요소를 사용하면 AEM의 편의성과 기능을 Target의 강력한 AI(Automated Intelligence) 및 기계 학습(ML) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.  AEM에서는 모든 콘텐츠 및 자산을 중앙 위치에 가져와서 개인화 전략을 실행합니다. AEM을 사용하면 코드를 작성하지 않고도 한 위치에서 데스크톱, 태블릿 및 휴대 장치의 콘텐츠를 쉽게 만들 수 있습니다. 모든 장치를 위해 페이지를 만들 필요가 없이, 컨텐츠를 사용하여 각 경험이 자동으로 조정됩니다.  [AEM 경험 구성요소](../../../c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8)를 참조하십시오. |
+| AEM 경험 구성요소 | Target 활동에 AEM에서 만든 경험 구성요소를 사용하면 AEM의 편의성과 기능을 Target의 강력한 AI(Automated Intelligence) 및 기계 학습(ML) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.  AEM에서는 모든 콘텐츠 및 자산을 중앙 위치에 가져와서 개인화 전략을 실행합니다. AEM을 사용하면 코드를 작성하지 않고도 한 위치에서 데스크톱, 태블릿 및 휴대 장치의 콘텐츠를 쉽게 만들 수 있습니다. 모든 장치를 위해 페이지를 만들 필요가 없이, 컨텐츠를 사용하여 각 경험이 자동으로 조정됩니다.  [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8)를 참조하십시오. |
 
 ## 지원되지 않는 통합 {#section_8EFCAED418DC42E0B07F95924819EAC2}
 
