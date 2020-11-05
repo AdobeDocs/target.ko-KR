@@ -5,7 +5,7 @@ title: A/B 테스트를 얼마 동안 실행해야 합니까?
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -21,7 +21,7 @@ A successful [!UICONTROL A/B Test] activity requires an adequate number of visit
 
 >[!IMPORTANT]
 >
->활동을 조기에 중지하면 A/B 테스트를 수행할 때 발생할 수 있는 10가지 중요한 문제 중 하나가 됩니다. 자세한 내용은 일반적인 [A/B 테스트 문제와 이를 방지하는 방법을 참조하십시오](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>활동을 조기에 중지하면 A/B 테스트를 수행할 때 발생할 수 있는 10가지 중요한 문제 중 하나가 됩니다. 자세한 내용은 일반적인 [A/B 테스트 문제와 이를 방지하는 방법을 참조하십시오](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 [!DNL Target] 활동의 샘플 크기가 커서 전환 목표를 달성할 수 있는 도구를 제공합니다.자동 할당.
 
@@ -37,7 +37,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL 자동 할당은 이러�
 
 [!UICONTROL 자동 할당] 기능을 사용하는 경우 [!DNL Target]에서는 활동이 충분히 신뢰할 수 있는 최소 전환 수에 도달하기 전까지 활동의 페이지 상단에 &quot;아직 우승자 없음&quot; 배지가 표시됩니다. [!DNL Target] 그런 다음 활동 페이지의 맨 위에 배지를 표시하여 우승 경험을 선언합니다.
 
-For more information, see [Auto-Allocate overview](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Adobe Target 샘플 크기 계산기 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
