@@ -5,7 +5,7 @@ title: Adobe Target Recommendations FAQ
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -66,7 +66,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox에 카테고리 ID가 있는 위치를 사용하는 경우 기준 선택기는 적용 가능한 모든 기준을 포함합니다.
 
-Target에는 알고리즘 선택기의 지능적 필터링을 제어하는 [호환되지 않는 기준 필터링](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) 설정이 있습니다.
+Target에는 알고리즘 선택기의 지능적 필터링을 제어하는 [호환되지 않는 기준 필터링](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) 설정이 있습니다.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 ## 피드 업로드를 위한 CSV 파일의 최대 크기는 얼마입니까? {#section_20F1AF4839A447B9889B246D6E873538}
 
-피드의 CSV 파일 업로드에 대한 행 수 또는 파일 크기에는 엄격한 제한이 없습니다. 그러나 파일 업로드 프로세스 중 실패를 방지하기 위해 CSV 파일 크기를 1GB로 제한하는 것이 좋습니다. 파일 크기가 1GB를 초과하는 경우 이상적으로 여러 피드 파일로 분할해야 합니다. 사용자 지정 속성 컬럼의 최대 수는 100개이며 사용자 지정 속성은 4096자로 제한됩니다. 필요한 열의 길이에 대한 추가 제한은 [Target 제한 사항 페이지](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)에서 참조할 수 있습니다.
+피드의 CSV 파일 업로드에 대한 행 수 또는 파일 크기에는 엄격한 제한이 없습니다. 그러나 파일 업로드 프로세스 중 실패를 방지하기 위해 CSV 파일 크기를 1GB로 제한하는 것이 좋습니다. 파일 크기가 1GB를 초과하는 경우 이상적으로 여러 피드 파일로 분할해야 합니다. 사용자 지정 속성 컬럼의 최대 수는 100개이며 사용자 지정 속성은 4096자로 제한됩니다. 필요한 열의 길이에 대한 추가 제한은 [Target 제한 사항 페이지](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1)에서 참조할 수 있습니다.
 
 ## 엔티티를 동적으로 제외할 수 있습니까?
 
