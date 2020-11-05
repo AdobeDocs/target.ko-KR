@@ -5,7 +5,7 @@ title: 경험 추가
 feature: ab
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9213d4c09cd6fa8cf76ca5325d1bcf3c12ad72f1
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 90%
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 VEC(시각적 경험 작성기)가 페이지에서 경험을 추가 및 편집하기 위한 시각적 인터페이스를 제공합니다.
 
-경험에 대한 자세한 내용은 [경험](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
+경험에 대한 자세한 내용은 [경험](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
 
 1. **[!UICONTROL 경험 추가]**&#x200B;를 클릭합니다.
 
