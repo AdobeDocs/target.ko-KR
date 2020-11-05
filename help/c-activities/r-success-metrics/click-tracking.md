@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 95%
@@ -76,7 +76,7 @@ A/B 테스트, XT(경험 타깃팅), AP(자동화된 개인화) 및 MVT(다변�
 
    자세한 내용은 *시각적 경험 작성기 선택 사항*&#x200B;에서 [DOM 경로를 사용하여 요소 탐색](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)을 참조하십시오.
 
-* 페이지에서 컨텐츠를 변경하지 않을 수 있는 클릭 수를 추적하기 위해 다른 페이지로 이동할 수 있습니다. 이 다른 페이지는 [다중 페이지 기능](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 사용하는 활동에 포함되어야 하며, [!DNL at.js] 또는 [!DNL mbox.js]가 구현되어야 합니다.
+* 페이지에서 컨텐츠를 변경하지 않을 수 있는 클릭 수를 추적하기 위해 다른 페이지로 이동할 수 있습니다. 이 다른 페이지는 [다중 페이지 기능](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 사용하는 활동에 포함되어야 하며, [!DNL at.js] 또는 [!DNL mbox.js]가 구현되어야 합니다.
 * 둘 이상의 요소를 선택하는 경우 참여자가 선택된 요소 중 하나를 클릭하면 해당 클릭은 카운트됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오. 한 페이지에서 여러 요소를 클릭하여 한 항목을 계산하려면 CSS 요소 선택기를 편집하여 여러 요소와 일치시킵니다.
 * 추적할 요소의 수준을 선택해야 합니다. 예를 들어, 단추를 지정할 때 단추 텍스트가 아닌 링크를 선택해야 합니다.
 * 클릭 이벤트는 클릭이 진행된 동일한 페이지에 있는 [!DNL Target]으로 전송됩니다.
