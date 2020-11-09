@@ -3,11 +3,8 @@ keywords: implementation;mbox.js;dom manipulation library;target.js;visual exper
 description: 기술 담당자가 mbox.js 구현과 이 구현이 사이트에 미칠 수 있는 영향을 이해하는 데 도움이 되는 정보입니다.
 title: mbox.js가 수행하는 작업
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '304'
 ht-degree: 100%
