@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '779'
 ht-degree: 80%
 
 ---
@@ -88,7 +88,7 @@ If you still don&#39;t see the report suite you are looking for, contact [Client
 
 보충 ID를 검사하는 가장 쉬운 방법은 Adobe Experience Platform 디버거를 사용하는 것입니다.
 
-디버거를 설치하지 않은 경우 Adobe Experience Platform 디버거 [소개를 참조하십시오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+디버거를 설치하지 않은 경우 Adobe Experience Platform 디버거 [소개를 참조하십시오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
 ![디버거](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
