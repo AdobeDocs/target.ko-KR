@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 82%
+source-wordcount: '180'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 �
 
 라이브러리 구성을 빠르게 보고, 요청을 검토하여 사용자 지정 매개 변수가 올바르게 전달되고 있는지 확인한 다음, 콘솔 로깅을 켜고, Target 요청을 모두 비활성화할 수 있습니다. Experience Cloud를 인증하면 강력한 Mbox 추적 도구를 사용하여 활동 및 대상 자격과 방문자 프로필을 검사할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Cloud Debugger 확장 프로그램 설명서](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)를 검토하십시오. Target의 특정 정보는 [도구](https://docs.adobe.com/content/help/en/debugger/using/tools.html) 섹션에서 찾을 수 있습니다.
+자세한 내용은 [Adobe Experience Cloud Debugger 확장 프로그램 설명서](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)를 검토하십시오. Target의 특정 정보는 [도구](https://experienceleague.adobe.com/docs/debugger/using/tools.html) 섹션에서 찾을 수 있습니다.
 
 ## 교육 비디오
 
