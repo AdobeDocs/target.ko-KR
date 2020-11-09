@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2652'
 ht-degree: 94%
 
 ---
@@ -91,7 +91,7 @@ at.js 1.0.0 릴리스를 사용하면 Target 라이브러리를 비동기적으�
 
 at.js를 비동기적으로 로드하려면 다음을 수행하십시오.
 
-* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. 자세한 내용은 [Launch를 사용하여 웹 사이트에서 Experience Cloud](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 구현 [자습서의 Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) 추가단원을참조하십시오.
+* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. 자세한 내용은 [Launch를 사용하여 웹 사이트에서 Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 구현 [자습서의 Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) 추가단원을참조하십시오.
 * at.js를 로드하는 스크립트 태그에 비동기 속성을 추가하여 at.js를 비동기로 로드할 수도 있습니다. 다음과 같은 코드를 사용해야 합니다.
 
    ```
@@ -111,7 +111,7 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 페이지(또는 지정된 부분)를 숨긴 다음 at.js 및 글로벌 요청이 완전히 로드된 후에 표시하는 사전에 숨기는 코드 조각을 사용하여 플리커를 방지할 수 있습니다. at.js를 로드하기 전에 코드 조각을 추가해야 합니다.
 
-비동기 Launch 구현을 통해 at.js를 배포하는 경우, Launch를 사용하여 웹 사이트에서 Experience Cloud 구현 자습서의 &quot; [Target 미리 숨김 조각](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 추가&quot; 섹션에 설명된 대로, 시작 내장 코드 앞 [에 사전 숨김 코드 조각을 포함해야 합니다](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+비동기 Launch 구현을 통해 at.js를 배포하는 경우, Launch를 사용하여 웹 사이트에서 Experience Cloud 구현 자습서의 &quot; [Target 미리 숨김 조각](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 추가&quot; 섹션에 설명된 대로, 시작 내장 코드 앞 [에 사전 숨김 코드 조각을 포함해야 합니다](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 동기 DTM 구현을 통해 at.js를 배포하는 경우 페이지 상단에서 트리거된 페이지 로드 규칙을 통해 사전에 숨기는 코드 조각을 추가할 수 있습니다.
 
