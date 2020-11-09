@@ -3,10 +3,8 @@ keywords: Target Standard;Recommendations;Target Premium;Automated Personalizati
 description: Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에 대한 수익을 극대화하도록 고객의 환경을 재단하고 개인화하는 데 필요한 모든 것을 제공하는 Adobe Experience Cloud 솔루션입니다.
 title: Adobe Target 소개
 feature: intro
-topic: Advanced
-uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 86%
