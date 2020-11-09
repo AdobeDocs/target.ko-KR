@@ -3,9 +3,8 @@ keywords: Targeting;AP reports;automated personalization reports;auto-target;aut
 description: 두 개의 전문 보고서는 AP(자동화된 개인화)와 AT(자동 타겟) 활동인 자동화된 세그먼트와 중요 속성 보고서의 사용자가 사용할 수 있습니다.
 title: 개인화 통찰력 보고서
 feature: reports
-uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 64%
