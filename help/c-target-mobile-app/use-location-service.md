@@ -5,10 +5,10 @@ title: 위치 서비스 사용
 feature: mobile implementation
 topic: Target
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 4%
+source-wordcount: '160'
+ht-degree: 0%
 
 ---
 
@@ -19,6 +19,6 @@ ht-degree: 4%
 
 Adobe Experience Platform 위치 서비스(위치 서비스)는 위치 정보를 가진 모바일 앱이 유연한 관심 영역 데이터베이스(POI)와 함께 사용하기 쉬운 리치 SDK 인터페이스를 사용하여 위치 컨텍스트를 이해할 수 있도록 해주는 지리적 위치 서비스입니다.
 
-Target과 함께 위치 서비스를 사용하여 [Adobe Experience Platform Launch의](https://docs.adobe.com/content/help/en/launch/using/overview.html) 규칙을 활용하여 위치 데이터를 Adobe Target SDK 이벤트에 첨부할 수 있습니다.
+Target과 함께 위치 서비스를 사용하여 [Adobe Experience Platform Launch의](https://experienceleague.adobe.com/docs/launch/using/overview.html) 규칙을 활용하여 위치 데이터를 Adobe Target SDK 이벤트에 첨부할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Platform 위치 서비스 안내서의 Adobe Target과 함께 위치 서비스](https://docs.adobe.com/content/help/en/places/using/use-places-with-other-solutions/places-target/places-target.html) 사용을 참조하십시오 [](https://docs.adobe.com/content/help/en/places/using/home.html).
+자세한 내용은 [Adobe Experience Platform 위치 서비스 안내서의 Adobe Target과 함께 위치 서비스](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) 사용을 참조하십시오 [](https://experienceleague.adobe.com/docs/places/using/home.html).
