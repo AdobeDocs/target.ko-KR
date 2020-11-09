@@ -4,9 +4,9 @@ description: Adobe Target 환영 키트 - 4장 - Target 사용 팁
 title: Adobe Target 환영 키트 - 4장 - Target 사용 팁
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2882'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Adobe는 많은 [!DNL Target] 사용자와의 작업을 기반으로 솔루션�
 
 예를 들어 판매 시점(POS) 시스템의 구매 데이터를 방문자 프로필에 연결할 수 있습니다. 이를 위해서는 최대 200개의 오프라인 변수가 있는 CSV 파일을 만든 다음 파일 업로드를 통해 직접 업로드하거나 FTP를 사용하여 파일을 정기적으로 호스팅하고 예약하면 됩니다. [!DNL Adobe Experience Cloud] 고객 속성 [!DNL Adobe Experience Cloud]이 생성되면 분석, 테스트 및 개인화를 위해 사용할 수 있는 [!DNL Experience Cloud] 솔루션 [!DNL Adobe Analytics] 과 [!DNL Target] 같은 곳에 매핑할 수 있습니다.
 
-단계별 지침 [은 사용자](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) 지정 속성을 참조하십시오.
+단계별 지침 [은 사용자](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) 지정 속성을 참조하십시오.
 
 **유용한 정보**:다양한 기술 [!DNL Target] 과 잘 연동되는 개방적이고 독립적인 플랫폼이므로 CRM을 추가하거나 다양한 방식으로 데이터를 구입할 수 있습니다. 조직에 가장 적합한 방법을 선택할 수 있습니다.
 
