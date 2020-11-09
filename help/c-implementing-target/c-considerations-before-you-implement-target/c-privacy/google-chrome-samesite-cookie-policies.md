@@ -3,11 +3,8 @@ keywords: google;samesite;cookies;chrome 80;ietf
 description: Google Chrome 버전 80부터 도입되는 Adobe Target 및 SameSite IETF 표준에 대한 정보입니다.
 title: Adobe Target 및 Google의 SameSite 쿠키 정책
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
-uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 7%
@@ -114,4 +111,4 @@ Google Chrome 80개 이상의 사용자를 위해 [!DNL Target] 계속 작업해
 
 ## 결론
 
-업계에서 소비자의 안전한 웹 제작을 위해 진일보한 결과, 최종 사용자의 보안 및 개인 정보 보호를 보장하는 방식으로 고객 [!DNL Adobe] 이 개인화된 경험을 전달할 수 있도록 최선을 다하고 있습니다. 전술한 모범 사례를 따르고 Google Chrome의 새로운 SameSite 쿠키 정책 [!DNL Target] 을 준수하는 일만 있으면 됩니다.
+업계에서 소비자의 안전한 웹 제작을 위해 진일보한 결과, 최종 사용자의 보안 및 개인 정보 보호를 보장하는 방식으로 고객이 개인화된 경험을 전달할 수 있도록 최선을 다하고 [!DNL Adobe] 있습니다. 전술한 모범 사례를 따르고 Google Chrome의 새로운 SameSite 쿠키 정책 [!DNL Target] 을 준수하는 일만 있으면 됩니다.
