@@ -3,11 +3,8 @@ keywords: Visual Experience Composer;VEC;carousel
 description: 이 주제에서는 시각적 경험 작성기(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여줍니다.
 title: 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기
 feature: vec
-subtopic: Multivariate Test
-topic: Standard
-uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
