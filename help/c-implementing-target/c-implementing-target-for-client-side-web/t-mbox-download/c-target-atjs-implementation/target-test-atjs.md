@@ -4,9 +4,9 @@ title: 비프로덕션 환경에 at.js 배포
 feature: null
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '368'
 ht-degree: 92%
 
 ---
@@ -22,7 +22,7 @@ DTM을 사용하는 경우 Adobe Target 도구 구성에 at.js를 쉽게 저장�
 
 라이브러리를 저장한 후 DTM 전환 도구를 사용하여 프로덕션 코드에 대해 테스트하십시오. 이를 통해 Adobe 컨설턴트는 사용자를 쉽게 지원할 수 있습니다.
 
-자세한 정보는 *다이내믹 태그 관리를 사용하여 Adobe Target을 구현하기 위한 우수 사례* 가이드에서 [옵션 3: DTM을 통해 호스팅된 Target 자바스크립트 라이브러리를 사용하여 수동으로 Target 구현](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)을 참조하십시오.
+자세한 정보는 *다이내믹 태그 관리를 사용하여 Adobe Target을 구현하기 위한 우수 사례* 가이드에서 [옵션 3: DTM을 통해 호스팅된 Target 자바스크립트 라이브러리를 사용하여 수동으로 Target 구현](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)을 참조하십시오.
 
 ## &quot;Requestly&quot; Chrome 확장을 사용하여 다른 파일에 매핑
 
