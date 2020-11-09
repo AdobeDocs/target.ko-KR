@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;st
 description: A/B 테스트는 대부분의 디지털 마케팅 최적화 프로그램의 중추를 형성하며 마케터가 최적화 및 타깃팅된 경험을 방문자와 고객에게 제공하는 데 도움이 됩니다. 이 섹션에서는 Adobe Target에서 A/B 테스트를 수행할 때 기업이 가장 많이 이용해야 하는 위험 요소 중 9가지에 대해 간략하게 설명합니다. 또한 여기에는 회사가 테스트 노력을 통해 더 많은 ROI를 달성하고 보고된 A/B 테스트 결과를 더욱 신뢰할 수 있도록 이러한 위험을 방지하는 방법도 포함되어 있습니다.
 title: 9가지 공통 A/B 테스트 위험 및 방지 방법
 feature: ab
-uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 88%
