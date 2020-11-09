@@ -3,9 +3,8 @@ keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Adobe Target Recommendations 오퍼이 포함된 Recommendations, A/B 테스트 또는 경험 타깃팅(XT) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기할 것입니다. Target Recommendations은 권장 사항을 미리 볼 수 있는 다양한 방법을 제공합니다. '
 title: 'Adobe Target Recommendations 오퍼이 포함된 Recommendations, A/B 테스트 또는 경험 타깃팅(XT) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기할 것입니다. Target Recommendations은 권장 사항을 미리 볼 수 있는 다양한 방법을 제공합니다. '
 feature: recs creation
-subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
