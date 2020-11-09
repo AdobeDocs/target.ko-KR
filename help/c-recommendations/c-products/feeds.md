@@ -5,9 +5,9 @@ title: Adobe Target Recommendations의 피드
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2518'
 ht-degree: 84%
 
 ---
@@ -210,7 +210,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Analytics 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니다. For more information about this classification file, see [About classifications](https://docs.adobe.com/content/help/en/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 권장 사항에서 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용자 안내서를 따르십시오.
+Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니다. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. 권장 사항에서 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용자 안내서를 따르십시오.
 
 >[!IMPORTANT]
 >
