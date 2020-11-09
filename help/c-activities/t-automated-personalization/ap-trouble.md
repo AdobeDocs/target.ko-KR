@@ -2,9 +2,8 @@
 description: 활동은 경우에 따라 예상대로 수행되지 않을 수 있습니다. 여기에서는 자동화된 개인화 및 일부 제안된 해결 방법을 사용할 때 발생할 수 있는 몇 가지 잠재적인 어려움에 대해 설명합니다.
 title: 자동화된 개인화 문제 해결
 feature: ap
-uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 94%
