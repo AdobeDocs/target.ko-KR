@@ -3,9 +3,8 @@ keywords: content library;assets;annotate;copy;delete asset;download asset;edit 
 description: 라이브러리에 있는 자산에 대해 수행할 수 있는 작업이 많습니다.
 title: 라이브러리에서 컨텐츠 작업
 feature: offers
-uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 97%
