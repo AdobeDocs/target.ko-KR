@@ -3,10 +3,8 @@ keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orpha
 description: Analytics를 보고 소스로 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 데 도움이 되는 정보입니다.
 title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화
 feature: a4t troubleshooting
-topic: Standard
-uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 97%
