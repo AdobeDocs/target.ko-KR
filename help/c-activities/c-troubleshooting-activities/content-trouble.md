@@ -3,11 +3,8 @@ keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;t
 description: 페이지에 예상 컨텐츠가 표시되지 않으면 Adobe Target에서 컨텐츠 전달을 디버깅하는 몇 가지 단계를 수행할 수 있습니다.
 title: Adobe Target에서 컨텐츠 전달 문제 해결
 feature: activities
-subtopic: Multivariate Test
-topic: Standard
-uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 60%
