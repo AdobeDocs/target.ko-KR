@@ -3,10 +3,8 @@ keywords: at.js;debug at.js;adobe Experience Cloud debugger;experience cloud deb
 description: Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 대한 정보이며 Target 구현을 빠르고 쉽게 이해할 수 있습니다.
 title: Adobe Experience Cloud Debugger를 사용하여 at.js 디버그
 feature: troubleshooting general
-topic: Target
-uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '180'
 ht-degree: 83%
