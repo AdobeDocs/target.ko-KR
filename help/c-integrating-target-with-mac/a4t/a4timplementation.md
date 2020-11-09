@@ -5,9 +5,9 @@ title: Analytics for Target 구현
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '900'
+source-wordcount: '894'
 ht-degree: 49%
 
 ---
@@ -33,15 +33,15 @@ User account requirements must be met before you can create an [!DNL Analytics]-
 
 방문자 ID 서비스를 통해 [!DNL Adobe Experience Cloud] 솔루션에서 사용자를 식별할 수 있습니다. 필요한 Experience Cloud 방문자 ID 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
-See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
+See [Implement the Experience Cloud ID Service for Target](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
 
 ## 4단계: AppMeasurement for JavaScript 또는 s_code의 AppMeasurement 업데이트
 
 필요한 appMeasurement.js 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
-새 구현에 대해서는 [Analytics 구현 안내서의 JavaScript 구현 개요를](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 참조하십시오 **.
+새 구현에 대해서는 [Analytics 구현 안내서의 JavaScript 구현 개요를](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) 참조하십시오 **.
 
-마이그레이션에 대해서는 [Analytics 구현 안내서에서 JavaScript용 AppMeasurement](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 로 마이그레이션을 *참조하십시오*.
+마이그레이션에 대해서는 [Analytics 구현 안내서에서 JavaScript용 AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) 로 마이그레이션을 *참조하십시오*.
 
 ## 5단계:at.js 다운로드 및 업데이트
 
