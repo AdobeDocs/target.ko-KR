@@ -3,9 +3,8 @@ keywords: product;collections
 description: 엔티티는 Adobe Target 사용 중에 권장할 항목을 참조합니다. 엔티티는 제품, 콘텐츠(문서, 슬라이드쇼, 이미지, 동영상 및 TV 프로그램 등), 구인 및 구직 정보, 식당 등 어떤 것이든 될 수 있습니다.
 title: Adobe Target의 엔티티
 feature: entities
-uuid: 1940dd31-b416-413e-aa6c-babbc8883d47
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '116'
 ht-degree: 100%
