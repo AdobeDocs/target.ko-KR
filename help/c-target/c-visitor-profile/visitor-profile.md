@@ -3,11 +3,8 @@ keywords: Overview and Reference
 description: 방문자 프로필에는 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방식에 대한 정보가 포함되어 있습니다.
 title: 방문자 프로필
 feature: visitor profiles
-subtopic: Getting Started
-topic: Standard
-uuid: 09ffd9ca-5544-4ea1-bb0c-b20e42e6bcf6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 100%
