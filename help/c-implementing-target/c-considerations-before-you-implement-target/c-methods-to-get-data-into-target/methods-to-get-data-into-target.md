@@ -3,11 +3,8 @@ keywords: implement;implementing;setting up;setup;page parameter;tomcat;url enco
 description: 페이지 매개 변수, 인페이지 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 비롯하여 데이터를 Target에 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
 title: 데이터를 Target에 가져오는 방법
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
-uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1936'
 ht-degree: 97%
