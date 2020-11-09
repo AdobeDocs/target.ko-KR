@@ -3,10 +3,8 @@ keywords: visual experience composer options;experience composer options;experie
 description: Adobe Target VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다.
 title: Adobe Target VEC(시각적 경험 작성기) 선택 사항
 feature: vec
-topic: Standard
-uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 95%
