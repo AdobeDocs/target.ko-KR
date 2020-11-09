@@ -5,9 +5,9 @@ title: Adobe Target VEC(시각적 경험 작성기) Helper 확장 프로그램
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '878'
 ht-degree: 56%
 
 ---
@@ -66,7 +66,7 @@ The VEC Helper browser extension for Chrome solves site-loading issues for which
 
    * SameSite=None 속성 브라우저 수정 사항에 대한 자세한 내용은 &quot;최근에 발표된 Google Chrome SameSite 쿠키 실행 정책이 VEC 및 EEC에 어떤 영향을 줍니까?&quot;를 참조하십시오. in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * 쿠키 이름은 &quot;mbox&quot;이고 쿠키 도메인은 mbox를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: `mycompany.com`. 자세한 내용은 [Experience Cloud 인터페이스 사용자 안내서의](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target 쿠키를 *참조하십시오*.
+   * 쿠키 이름은 &quot;mbox&quot;이고 쿠키 도메인은 mbox를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: `mycompany.com`. 자세한 내용은 [Experience Cloud 인터페이스 사용자 안내서의](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target 쿠키를 *참조하십시오*.
 
 ## 참고
 
