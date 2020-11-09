@@ -3,10 +3,8 @@ keywords: target user interface;user interface;ui
 description: Adobe Target 사용자 인터페이스 이해
 title: Target UI 이해
 feature: intro
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '792'
 ht-degree: 28%
@@ -22,7 +20,7 @@ UI 상단에 있는 헤더에는 솔루션의 다양한 기능을 탐색하고, 
 
 ![Target 헤더](/help/c-intro/assets/target-header.png)
 
-왼쪽의 탭을 통해 다양한 기능에 액세스할 수 [!DNL Target]있으며, 나중에 논의하겠습니다. 탭으로 이동하기 전에 오른쪽에 있는 옵션에 대해 토론해 보겠습니다.
+왼쪽 탭을 통해 다양한 기능을 이용할 수 [!DNL Target]있으며 나중에 논의하겠습니다. 탭으로 이동하기 전에 오른쪽에 있는 옵션에 대해 토론해 보겠습니다.
 
 ## 조직
 
