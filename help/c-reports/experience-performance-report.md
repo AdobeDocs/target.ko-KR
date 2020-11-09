@@ -3,9 +3,8 @@ keywords: multivariate test;mvt;experience performance report
 description: 경험 성과 보고서는 활동에서 각 경험의 성과를 보여줍니다. 이 보고서에는 참여자 수, 전환율, 상승도, 신뢰도에 대한 정보가 포함됩니다.
 title: 경험 성과 보고서(MVT)
 feature: reports
-uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '325'
 ht-degree: 99%
