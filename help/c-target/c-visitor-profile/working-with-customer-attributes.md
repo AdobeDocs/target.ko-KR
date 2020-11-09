@@ -3,11 +3,8 @@ keywords: customer relationship management;customer record service;crs;crm;mbox3
 description: Adobe Experience Cloud 사람 핵심 서비스의 고객 특성을 사용하여 Adobe Target에서 컨텐츠 타깃팅을 위한 CRM(고객 관계 관리) 데이터베이스의 기업 고객 데이터를 사용하는 방법에 대한 정보입니다.
 title: Adobe Target의 고객 속성
 feature: visitor profiles
-subtopic: Getting Started
-topic: Standard
-uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 37%
