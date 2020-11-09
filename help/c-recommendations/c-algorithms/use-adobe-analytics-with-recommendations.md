@@ -4,9 +4,9 @@ description: 행동 데이터 소스로 Adobe Analytics을 사용하면 클라�
 title: Adobe Analytics과 Target Recommendations 사용
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1022'
 ht-degree: 3%
 
 ---
@@ -49,7 +49,7 @@ Recommendations [에서 기준을](/help/c-recommendations/c-algorithms/create-n
 >
 >컨텐트 사이트일 경우 해당 컨텐트에 대한 관련 속성 및 &quot;제품&quot;으로 취급되어야 합니다(예:작성자 이름, 게시 날짜, 컨텐츠 제목, 릴리스 월 등) 는 특성으로 전달되어야 합니다. 카테고리 수준 또는 카테고리 유형의 세부기간은 사용 사례 요구 사항에 따라 비즈니스에 의해 결정됩니다.
 
-제품 변수 설정 방법에 대한 자세한 내용은 [Analytics 구현 안내서에서](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html) 제품 *을 참조하십시오*. 해당 설명서의 일부 메모는 배포하려는 팀의 재량이 필요합니다(예:카테고리). 이 활동을 하기 전에 항상 Adobe과 상의하는 것이 좋습니다.
+제품 변수 설정 방법에 대한 자세한 내용은 [Analytics 구현 안내서에서](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) 제품 *을 참조하십시오*. 해당 설명서의 일부 메모는 배포하려는 팀의 재량이 필요합니다(예:카테고리). 이 활동을 하기 전에 항상 Adobe과 상의하는 것이 좋습니다.
 
 ### 고려 사항
 
