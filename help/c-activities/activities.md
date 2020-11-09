@@ -3,10 +3,8 @@ keywords: activities list;activities;activity;activity types;edit activity;activ
 description: Adobe Target의 활동을 통해 특정 고객에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다
 title: Adobe Target의 활동을 통해 특정 대상에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다.
 feature: activities
-topic: Standard
-uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 97%
