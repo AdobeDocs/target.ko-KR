@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 92%
+source-wordcount: '402'
+ht-degree: 93%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 92%
 
 [!DNL Adobe Admin Console]에서 시스템 관리자가 귀하를 참여할 수 있도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행합니다.
 
-자세한 내용은 [Experience Cloud 및 핵심 서비스 도움말에서 Experience Cloud 사용자 및 제품](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) 관리를 참조하십시오 **.
+자세한 내용은 [Experience Cloud 및 핵심 서비스 도움말에서 Experience Cloud 사용자 및 제품](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 관리를 참조하십시오 **.
 
 시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다. 
 
