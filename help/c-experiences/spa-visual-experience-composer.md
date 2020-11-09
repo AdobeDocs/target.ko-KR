@@ -3,10 +3,8 @@ keywords: spa vec;react;angular;react.js;spa visual experience composer;spa expe
 description: Adobe Target에서 SPA(단일 페이지 앱)용 VEC(시각적 경험 작성기)를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같은 가장 인기 있는 프레임워크의 활동을 작성하는 데 사용할 수 있습니다.
 title: SPA(단일 페이지 앱) 시각적 경험 작성기
 feature: spa vec
-topic: Standard
-uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
