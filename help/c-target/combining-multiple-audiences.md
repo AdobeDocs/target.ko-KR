@@ -3,10 +3,8 @@ keywords: audience;audience rules;combine audiences;exclusion;add exclusion;excl
 description: 즉석에서 여러 대상(Adobe Experience Cloud 대상 및 Target 대상 포함)을 조합하여 애드혹 대상을 만듭니다. 제외 규칙을 만들고 규칙에서 대상을 제외할 수도 있습니다.
 title: Adobe Target에서 여러 대상 결합
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 99%
