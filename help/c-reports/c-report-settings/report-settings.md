@@ -3,9 +3,8 @@ keywords: Target;reports;report settings;preset;target preset;metric;audience;da
 description: Adobe Target 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 title: 보고서 설정
 feature: report settings
-uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 68%
