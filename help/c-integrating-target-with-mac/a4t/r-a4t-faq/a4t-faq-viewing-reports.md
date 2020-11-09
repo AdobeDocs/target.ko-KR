@@ -6,9 +6,9 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1992'
+source-wordcount: '1986'
 ht-degree: 61%
 
 ---
@@ -20,7 +20,7 @@ This topic contains answers to questions that are frequently asked about viewing
 
 ## Can I view my Target activity data in Analysis Workspace? {#workspace}
 
-활동 및 경험 [!DNL Analysis Workspace] 을 분석하는 데 사용할 수 [!DNL Target] 있습니다. Target용 [분석 패널에서는](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 최대 3개의 성공 지표에 대한 상승도와 신뢰도를 볼 수 있습니다. 표 및 시각화를 사용하여 더 깊이 이해할 수도 있습니다.
+활동 및 경험 [!DNL Analysis Workspace] 을 분석하는 데 사용할 수 [!DNL Target] 있습니다. Target용 [분석 패널에서는](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) 최대 3개의 성공 지표에 대한 상승도와 신뢰도를 볼 수 있습니다. 표 및 시각화를 사용하여 더 깊이 이해할 수도 있습니다.
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
@@ -53,7 +53,7 @@ A4T 보고에서 지표를 표준화하기 위한 몇 가지 옵션이 있습니
 
 [!DNL Reports & Analytics] 동일한 터치 속성 모델을 &quot;활동 노출 횟수&quot; 및 &quot;활동 전환&quot;에 적용하는 반면, 차원 지속성 [!DNL Analysis Workspace] 으로 부풀려질 수 있는 원시 지표를 [!DNL Target] 표시합니다.
 
-To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. 열 설정 톱니바퀴를 클릭하고, [!UICONTROL 기본값이 아닌 속성 모델]을 활성화한 다음 [!UICONTROL Same Touch]를 선택하여 모델을 적용할 수 있습니다. Analytics 도구 안내서의 [속성 IQ 개요에서](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) 속성에 대한 *자세한 내용을 살펴보십시오*.
+To evaluate accurate [!UICONTROL Activity Impressions] and [!UICONTROL Activity Conversions] metrics in [!DNL Analysis Workspace], ensure that both metrics have [!UICONTROL Same Touch] attribution models applied. 열 설정 톱니바퀴를 클릭하고, [!UICONTROL 기본값이 아닌 속성 모델]을 활성화한 다음 [!UICONTROL Same Touch]를 선택하여 모델을 적용할 수 있습니다. Analytics 도구 안내서의 [속성 IQ 개요에서](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) 속성에 대한 *자세한 내용을 살펴보십시오*.
 
 ## 마케터가 활동을 설정할 때 Analytics 지표를 선택하는 경우 &quot;활동 전환&quot;은 무엇을 의미합니까? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -108,7 +108,7 @@ You might see [!DNL Target] variables sent to [!DNL Analytics] after the expirat
 
 전환 전에 두 경험을 모두 보았으므로 두 경험 모두 주문에 대한 &quot;크레딧&quot;을 받습니다. 그러나 주문은 시스템에서 하나만 발생했고 합계에 이렇게 반영됩니다. For [!DNL Target] reporting, because you aren’t putting a [!DNL Target] activity against another activity to see which is more successful, it doesn’t matter that all activities the user saw got credit. 지금은 단일 활동 내 두 항목의 결과를 비교하고 있으며, 사용자는 동일한 활동에서 서로 다른 경험을 확인할 수 없으므로 주문 크레딧의 교차 오염에 대해 걱정할 필요가 없습니다.
 
-For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
+For more information, see [Conversion Variables (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Analytics와 Analytics for Target(A4T)에서 고유 방문자 수 지표에 대해 숫자를 서로 다르게 계산하는 이유는 무엇입니까? {#section_0C3B648AB54041F9A2AA839D51791883}
 
