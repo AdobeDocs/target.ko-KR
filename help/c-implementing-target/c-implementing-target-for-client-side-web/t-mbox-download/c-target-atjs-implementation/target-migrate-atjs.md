@@ -3,10 +3,8 @@ keywords: Target;at.js;migrate to at.js;readiness;audit at.js;integrate at.js
 description: mbox.js에서 at.js로 마이그레이션하는 것은 간단한 프로세스입니다.
 title: mbox.js에서 at.js로 마이그레이션하는 방법
 feature: null
-topic: Standard
-uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '826'
 ht-degree: 99%
