@@ -3,9 +3,8 @@ keywords: mbox functions
 description: mbox.js를 사용하여 구현할 때 사용할 mbox.js 함수 목록입니다.
 title: mbox.js 함수
 feature: null
-uuid: f503bc44-a664-4d09-82dc-80a1198ad9d0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '105'
 ht-degree: 100%
