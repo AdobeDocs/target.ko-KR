@@ -3,11 +3,8 @@ keywords: Overview and Reference
 description: 기본적으로, 방문자 프로필은 14일 동안 저장됩니다. 이 프로필 라이프타임은 연장할 수 있습니다.
 title: 방문자 프로필 라이프타임
 feature: visitor profiles
-subtopic: Getting Started
-topic: Standard
-uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 83%
