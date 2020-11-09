@@ -6,9 +6,9 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '879'
 ht-degree: 95%
 
 ---
@@ -20,7 +20,7 @@ Adobe Target의 대상은 타깃팅된 활동에서 콘텐츠 및 경험을 보�
 
 대상은 타깃팅이 가능한 모든 곳에서 사용됩니다. 활동을 타깃팅할 때 [!UICONTROL 대상] 목록에서 재사용 가능한 대상을 선택하고, [활동별 대상을 만들고](/help/c-target/creating-activity-only-audience.md) 타깃팅하거나, [여러 대상을 결합](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 임시 대상을 만들 수 있습니다.
 
-또한 [!DNL Adobe Target] 및 기타 [!DNL Experience Cloud] 솔루션에서는 실시간 타깃팅 및 개인화에 [!DNL Analytics]에서 수집한 대상 데이터를 사용할 수도 있습니다. 핵심 [서비스 사용자](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) 안내서의 *대상을 참조하십시오*.
+또한 [!DNL Adobe Target] 및 기타 [!DNL Experience Cloud] 솔루션에서는 실시간 타깃팅 및 개인화에 [!DNL Analytics]에서 수집한 대상 데이터를 사용할 수도 있습니다. 핵심 [서비스 사용자](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) 안내서의 *대상을 참조하십시오*.
 
 [!DNL Target]에서는 두 가지 유형의 대상을 정의합니다.
 
