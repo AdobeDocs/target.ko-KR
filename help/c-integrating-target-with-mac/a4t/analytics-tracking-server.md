@@ -3,9 +3,8 @@ keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Ex
 description: 이전 버전의 at.js나 mbox.js를 사용하는 경우 Analytics for Target(A4T)을 사용하는 활동용으로 Analytics 추적 서버를 지정해야 합니다.
 title: Analytics 추적 서버 사용을 참조하십시오
 feature: a4t general
-uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '696'
 ht-degree: 27%
