@@ -5,10 +5,10 @@ title: Adobe Launch를 사용하여 Target 구현을 참조하십시오
 feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 80%
+source-wordcount: '464'
+ht-degree: 81%
 
 ---
 
@@ -25,9 +25,9 @@ Launch는 Adobe의 차세대 태그 관리 플랫폼이며 Adobe Target을 구�
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| [Adobe Target 확장 자습서를 사용하여 Target 구현](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | 이 자습서에서는 Launch를 사용하여 웹 사이트에서 Adobe Target을 구현하는 단계별 지침을 제공합니다. 다뤄지는 주제에는 at.js JavaScript 라이브러리 추가, 글로벌 mbox 실행, 매개 변수 추가 및 다른 솔루션과의 통합이 있습니다. 이 문서는 다른 Adobe Experience Cloud 솔루션뿐만 아니라 Adobe Launch를 구현하는 방법도 보여주는 더 광범위한 자습서의 일부입니다. |
-| [Adobe Launch 설명서](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | 관련 고객 경험을 수행하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배치하고 관리하는 방법에 대한 정보입니다. |
-| [Adobe Target 익스텐션 설명서](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Launch를 사용하여 Target을 구현하는 방법에 대한 정보입니다. |
+| [Adobe Target 확장 자습서를 사용하여 Target 구현](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | 이 자습서에서는 Launch를 사용하여 웹 사이트에서 Adobe Target을 구현하는 단계별 지침을 제공합니다. 다뤄지는 주제에는 at.js JavaScript 라이브러리 추가, 글로벌 mbox 실행, 매개 변수 추가 및 다른 솔루션과의 통합이 있습니다. 이 문서는 다른 Adobe Experience Cloud 솔루션뿐만 아니라 Adobe Launch를 구현하는 방법도 보여주는 더 광범위한 자습서의 일부입니다. |
+| [Adobe Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | 관련 고객 경험을 수행하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배치하고 관리하는 방법에 대한 정보입니다. |
+| [Adobe Target 익스텐션 설명서](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Launch를 사용하여 Target을 구현하는 방법에 대한 정보입니다. |
 
 ## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
