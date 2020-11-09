@@ -6,10 +6,10 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3977'
-ht-degree: 85%
+source-wordcount: '3975'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 85%
 >
 >Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오.
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 는 at.js로 업그레이드하는 것이 좋습니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 카탈로그에서 업그레이드로 사용할 수 [!DNL Launch] 있습니다. 자세한 내용은 [Experience Platform Launch 사용 안내서](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 의 익스텐션 업그레이드 *를 참조하십시오*.
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 는 at.js로 업그레이드하는 것이 좋습니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 카탈로그에서 업그레이드로 사용할 수 [!DNL Launch] 있습니다. 자세한 내용은 [Experience Platform Launch 사용 안내서](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 의 익스텐션 업그레이드 *를 참조하십시오*.
 
 ## at.js 2.3.2(2020년 7월 24일)
 
