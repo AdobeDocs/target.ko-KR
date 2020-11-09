@@ -3,9 +3,8 @@ keywords: Targeting
 description: 활동 개요 페이지의 충돌 탭에는 사이트에 있는 활동 충돌들이 표시됩니다.
 title: 활동 충돌
 feature: vec
-uuid: 0e53ef60-2f71-4b34-9383-1de5cf5d3ab5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 100%
