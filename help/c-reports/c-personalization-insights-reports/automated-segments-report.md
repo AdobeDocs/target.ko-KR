@@ -3,9 +3,8 @@ keywords: Targeting;AP reports;automated personalization reports;auto-target;aut
 description: Adobe Target에서 Automated Personalization(AP) 및 자동 Target(AT) 활동 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 자동화된 세그먼트 보고서에 대한 정보입니다.
 title: 자동화된 세그먼트 보고서
 feature: reports
-uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
