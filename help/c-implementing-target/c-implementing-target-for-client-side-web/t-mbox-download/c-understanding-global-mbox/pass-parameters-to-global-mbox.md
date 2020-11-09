@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 73%
+source-wordcount: '379'
+ht-degree: 74%
 
 ---
 
@@ -33,7 +33,7 @@ For example, in a [!DNL Recommendations] activity, use the parameters to represe
 * JSON 개체
 * 앰퍼샌드로 구분된 목록
 
-이 세 가지 방법을 사용하여 매개 변수가 올바로 전달되고 있는지 확인하십시오. [Adobe Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html)를 사용하여 매개 변수 전달을 확인할 수도 있습니다.
+이 세 가지 방법을 사용하여 매개 변수가 올바로 전달되고 있는지 확인하십시오. [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)를 사용하여 매개 변수 전달을 확인할 수도 있습니다.
 
 페이지에 글로벌 mbox를 추가하려면 먼저 JavaScript 함수를 정의해야 합니다. 이름은 `targetPageParams`여야 합니다.
 
