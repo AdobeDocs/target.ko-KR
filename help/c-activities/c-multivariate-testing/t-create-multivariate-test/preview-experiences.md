@@ -2,10 +2,8 @@
 description: 다변량 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 title: 다변량 테스트에 대한 경험 미리 보기
 feature: mvt
-topic: Standard
-uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
