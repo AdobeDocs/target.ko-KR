@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 93%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ ht-degree: 93%
 
    적절한 SDK를 다운로드하는 방법에 대한 지침은
 
-   * **iOS:**[Mobile Services iOS 도움말을](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) 시작하기 전에 *시작하십시오*.
-   * **Android:**[Mobile Services](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) Android 도움말에서 시작하기 **&#x200B;전에
+   * **iOS:**[Mobile Services iOS 도움말을](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) 시작하기 전에 *시작하십시오*.
+   * **Android:**[Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) Android 도움말에서 시작하기 **&#x200B;전에
 
 1. **URL 체계 설정:** 미리 보기 링크는 URL 체계를 사용하여 앱을 엽니다. 미리 보기에 대해 고유한 URL 체계를 지정해야 합니다.
 
