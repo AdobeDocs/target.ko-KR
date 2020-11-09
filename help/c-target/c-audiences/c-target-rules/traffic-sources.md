@@ -3,9 +3,8 @@ keywords: Targeting;traffic sources;target traffic sources;target search engine;
 description: Adobe Target에서 사이트를 안내하는 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅할 대상을 만듭니다.
 title: Adobe Target 대상의 트래픽 소스 옵션
 feature: audiences
-uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 96%
