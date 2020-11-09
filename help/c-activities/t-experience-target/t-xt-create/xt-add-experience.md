@@ -3,10 +3,8 @@ keywords: create experience;experience create;priority;audience;experience;visua
 description: Adobe Target VEC(시각적 경험 작성기)는 XT(경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 title: '경험 만들기 '
 feature: xt
-topic: Advanced,Standard,Classic
-uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 93%
