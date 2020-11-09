@@ -3,11 +3,8 @@ keywords: global mbox;target classic;use global mbox from target classic
 description: 기본적으로, Target Standard에서는 target-global-mbox라는 글로벌 mbox를 만들어 Target Standard에서 만들어진 활동들 실행하는 데 사용합니다. 하지만, 이미 페이지에서 레거시 구현에 대한 mbox를 만든 경우, Target Standard 활동에 이 mbox를 사용할 수 있습니다.
 title: 이전 구현에서 글로벌 mbox를 사용
 feature: null
-subtopic: Getting Started
-topic: Standard
-uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 52%
