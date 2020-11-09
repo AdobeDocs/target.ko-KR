@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redir
 description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(A4T)할 때의 리디렉션 오퍼 사용에 대한 FAQ 답변을 제공합니다.
 title: 리디렉션 오퍼 - A4T FAQ
 feature: a4t troubleshooting
-topic: Standard
-uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 94%
