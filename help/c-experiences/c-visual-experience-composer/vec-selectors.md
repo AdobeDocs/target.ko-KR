@@ -3,10 +3,8 @@ keywords: Experience Targeting;Landing Page Test
 description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
 title: 시각적 경험 작성기에 사용된 요소 선택기
 feature: vec
-topic: Standard
-uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
