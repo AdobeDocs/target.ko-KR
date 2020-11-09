@@ -3,11 +3,8 @@ keywords: Mobile Web Experience Editor
 description: 이 주제에는 MVT 테스트를 디자인할 때 발생할 수 있는 몇 가지 문제를 해결하기 위한 제안 사항이 포함되어 있습니다.
 title: 다변량 테스트 문제 해결
 feature: mvt
-subtopic: Mobile Viewports
-topic: Standard
-uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '165'
 ht-degree: 100%
