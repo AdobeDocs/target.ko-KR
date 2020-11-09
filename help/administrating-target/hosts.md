@@ -3,10 +3,8 @@ keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;re
 description: 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
 title: 호스트
 feature: hosts and environments
-topic: Standard
-uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1079'
 ht-degree: 27%
@@ -122,10 +120,10 @@ You can also create a denylist that specifies hosts (domains) than cannot send [
 * at.js 또는 mbox.js 참조를 포함하여 요청이 [!DNL Target] 올바른지 확인합니다.
 * Try browsing to one of the [!DNL Target] requests on the host. It&#39;s possible that no [!DNL Target] request on the host was ever rendered in a browser.
 
-**[!UICONTROL 호스트]목록에 임의 도메인이나 알 수 없는 도메인이 표시됩니다.**
+**[!UICONTROL 호스트] 목록에 임의 도메인이나 알 수 없는 도메인이 표시됩니다.**
 
 A domain appears in this list if a request to [!DNL Target] is made from the domain. 대체로 스파이더 엔진, 언어 번역기 사이트 또는 로컬 디스크 드라이브에서 도메인을 볼 수 있습니다. 나열된 도메인이 팀에서 사용하는 도메인이 아닌 경우 [!UICONTROL 삭제]를 클릭하여 제거할 수 있습니다.
 
-**내[!DNL Target]요청이 /* no display - unauthorized mbox host */를 반환합니다.**
+**내 [!DNL Target] 요청이 /* no display - unauthorized mbox host */를 반환합니다.**
 
 If a [!DNL Target] request is made on an unauthorized host, the request will respond with /* no display - unauthorized mbox host */.
