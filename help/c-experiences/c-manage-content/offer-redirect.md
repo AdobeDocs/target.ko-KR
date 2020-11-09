@@ -6,9 +6,9 @@ feature: offers
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '560'
 ht-degree: 96%
 
 ---
@@ -63,7 +63,7 @@ ht-degree: 96%
 
 이 비디오에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 
-* [Experience Cloud 자산 라이브러리](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html)와 Target 컨텐츠 라이브러리 간 연결
+* [Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)와 Target 컨텐츠 라이브러리 간 연결
 * 사용자 지정 HTML 오퍼
 * 시각적 경험 작성기의 사용자 지정 HTML 오퍼
 
