@@ -3,11 +3,8 @@ keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: '응답 토큰을 사용하면 디버깅하거나 타사 시스템(예: Clicktale)과 통합하는 데 사용할 Target 관련 정보(활동 세부 정보, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
 title: Adobe Target의 응답 토큰
 feature: response tokens
-subtopic: Getting Started
-topic: Standard
-uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
