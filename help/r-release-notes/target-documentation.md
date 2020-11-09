@@ -5,9 +5,9 @@ title: Target 공지
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '453'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 2%
 | 설명서 유형 | 설명 |
 | --- | --- |
 | [Adobe Target 제품 설명서](/help/target-home.md)<br>(이 안내서) | 사용자 인터페이스를 통한 상호 작용에 초점을 맞춘 개요 정보, 단계 및 스크린샷 [!DNL Target] . 이 안내서에서는 &quot;gotchas&quot;를 비롯한 사용 가능한 모든 작업 및 옵션에 대해 설명합니다. UI 작업을 위한 가장 자세한 [!DNL Target] 리소스입니다. |
-| [Adobe Target 자습서](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) | 다양한 구성 요소를 학습하는 데 유용한 비디오 및 자습서입니다 [!DNL Target]. |
+| [Adobe Target 자습서](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) | 다양한 구성 요소를 학습하는 데 유용한 비디오 및 자습서입니다 [!DNL Target]. |
 | [Adobe Experience League Target 콘텐트 라이브러리](https://guided.adobe.com/#recommended/solutions/target) | 페이지에서 제공하는 기능을 강조 표시하는 방법 비디오 및 자습서 [!DNL Target] 의 [!DNL Adobe Target Experience League] 모음입니다. |
 | [Adobe Experience Platform Launch Target 설명서](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | 차세대 태그 관리 플랫폼 [!DNL Target] 을 사용한 구현 [!DNL Adobe Experience Platform Launch]에 대한 [!DNL Adobe]정보입니다. 구현하기 위한 기본 방법입니다 [!DNL Target]. |
 | [Adobe 고객 지원 센터 운영시간](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Adobe 고객 지원 팀이 주도하는 이니셔티브인 &quot;Office Hours&quot;에 대한 정보입니다. These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
