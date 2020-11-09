@@ -3,11 +3,8 @@ keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
 description: AdBox 또는 리디렉터 사용과 같이 비JavaScript 상황에서 Target을 구현하는 방법에 대한 정보입니다.
 title: '이메일: Target 구현'
 feature: email implementation
-subtopic: Getting Started
-topic: Standard
-uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '423'
 ht-degree: 82%
