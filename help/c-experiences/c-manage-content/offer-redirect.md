@@ -3,10 +3,8 @@ keywords: redirect offer;create redirect offer;add html offer;Pass all URL param
 description: 브라우저가 새 페이지로 리디렉션되는 Adobe Target의 리디렉션 오퍼에 대한 정보입니다.
 title: 리디렉션 오퍼 만들기
 feature: offers
-topic: Standard
-uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '560'
 ht-degree: 96%
