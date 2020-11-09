@@ -3,10 +3,8 @@ keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto
 description: Adobe Target의 시각적 경험 작성기를 사용하여 Target이 활성화된 페이지에서 직접 자동 할당 A/B 테스트 활동을 만들고 Target 내의 페이지 부분을 수정할 수 있습니다.
 title: 자동 Target 활동 만들기
 feature: ab
-topic: Advanced,Standard,Classic
-uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: fb4f43eef067a24f58ab8b53a7c8aa9c09392c9e
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 57%
