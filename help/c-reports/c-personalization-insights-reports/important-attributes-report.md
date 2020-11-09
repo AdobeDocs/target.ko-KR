@@ -3,9 +3,8 @@ keywords: Targeting;AP reports;automated personalization reports;auto-target;aut
 description: 중요 속성 보고서에 대한 정보이며 두 전문 보고서 중 하나는 자동화된 개인 설정(AP) 및 Auto-Target(AT) 활동의 사용자가 사용할 수 있습니다.
 title: 중요 속성 보고서
 feature: reports
-uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 94%
