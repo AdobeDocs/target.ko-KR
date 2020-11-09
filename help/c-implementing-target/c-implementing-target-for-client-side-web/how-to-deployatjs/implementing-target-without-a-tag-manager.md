@@ -3,11 +3,8 @@ keywords: implement target;implementation;implement at.js;tag manager
 description: 태그 관리자(Adobe Launch 또는 동적 태그 관리)를 사용하지 않고 Adobe Target을 구현하는 방법에 대한 정보입니다.
 title: 태그 관리자 없이 Target 구현
 feature: implementation general
-subtopic: Getting Started
-topic: Standard
-uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1539'
 ht-degree: 70%
