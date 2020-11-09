@@ -3,9 +3,8 @@ keywords: multivariate test;mvt;mvt plan;multivariate test plan
 description: 성공적인 테스트를 위해서는 Adobe Target의 다변량 테스트에 몇 가지 계획이 필요합니다.
 title: Adobe Target에서 다변량 테스트 계획
 feature: mvt
-uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 97%
