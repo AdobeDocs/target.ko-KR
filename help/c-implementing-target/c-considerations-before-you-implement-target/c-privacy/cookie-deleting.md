@@ -2,10 +2,8 @@
 description: 모든 경험의 유효성을 확인할 수 있도록 Target 브라우저 쿠키를 삭제합니다.
 title: Adobe Target 쿠키 삭제
 feature: privacy and security
-topic: Standard
-uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 5%
