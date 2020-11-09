@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1391'
 ht-degree: 17%
 
 ---
@@ -145,4 +145,4 @@ A/B 테스트 및 경험 타깃팅 활동에 사용할 수 있도록 A4T를 [구
 * [!UICONTROL 자동차 Target] 모델은 평소처럼 24시간마다 트레이닝을 받습니다. 그러나 전환 이벤트 데이터는 6-24시간 [!DNL Analytics] 에 더 지연됩니다. 이러한 지연은 트래픽 분포를 통해 기록된 최신 이벤트 [!DNL Target] 가 추적된다는 것을 의미합니다 [!DNL Analytics]. 활동이 처음 활성화된 후 처음 48시간 이내에 가장 큰 효과를 가져옵니다.5일이 지난 후 활동의 성능은 전환 [!DNL Analytics] 동작을 보다 면밀하게 반영합니다. 대부분의 트래픽이 활동 수명 후 처음 5일 이내에 발생하는 단기 활동에 대해 [!UICONTROL 자동 Target] 대신 [!UICONTROL 자동 할당] 사용을 고려해야 합니다.
 * 자동 Target [!DNL Analytics] 활동  의 데이터 소스로 사용할 경우 세션이 6시간이 지난 후 종료된 것으로 간주됩니다. 6시간 후 발생하는 전환은 카운트되지 않습니다.
 
-자세한 내용은 [분석 도구 안내서의 속성 모델 및 조회 창](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) 을 *참조하십시오*.
+자세한 내용은 [분석 도구 안내서의 속성 모델 및 조회 창](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) 을 *참조하십시오*.
