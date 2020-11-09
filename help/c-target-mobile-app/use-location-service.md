@@ -3,9 +3,8 @@ keywords: mobile app;mobile app location;target mobile app;mobile target locatio
 description: 이 항목은 Adobe Target에서 Adobe Experience Platform 위치 서비스를 사용하는 방법에 대한 개요입니다.
 title: 위치 서비스 사용
 feature: mobile implementation
-topic: Target
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
