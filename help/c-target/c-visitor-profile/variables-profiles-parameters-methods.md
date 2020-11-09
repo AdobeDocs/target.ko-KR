@@ -3,10 +3,8 @@ keywords: variables;profiles;parameters;built in profiles;methods;url variables;
 description: 이 페이지에는 프로필 스크립트에 유용한 프로필, 변수 및 매개 변수가 나열됩니다.
 title: 프로필 및 변수 용어집
 feature: visitor profiles
-topic: Standard
-uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '562'
 ht-degree: 92%
