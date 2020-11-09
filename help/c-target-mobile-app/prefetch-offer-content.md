@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 62%
+source-wordcount: '233'
+ht-degree: 63%
 
 ---
 
@@ -27,5 +27,5 @@ iOS 및 Android Mobile SDK에서 프리페치 방법을 사용할 때는 다음 
 
 미리 가져오기 방법, 공용 클래스 및 코드 샘플을 포함한 자세한 내용은 다음을 참조하십시오.
 
-* **iOS:** [iOS에서 프리페치](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) 제공 컨텐츠는 *Mobile Services iOS SDK 도움말에서 확인할 수 있습니다*.
-* **Android:** [Android에서](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) 프리페치 제공 내용은 *Mobile Services Android SDK 도움말에서 확인할 수 있습니다*.
+* **iOS:** [iOS에서 프리페치](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) 제공 컨텐츠는 *Mobile Services iOS SDK 도움말에서 확인할 수 있습니다*.
+* **Android:** [Android에서](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) 프리페치 제공 내용은 *Mobile Services Android SDK 도움말에서 확인할 수 있습니다*.
