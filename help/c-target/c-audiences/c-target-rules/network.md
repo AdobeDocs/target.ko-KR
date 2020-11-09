@@ -3,9 +3,8 @@ keywords: Targeting;network;target network;isp;domain name;connection speed;targ
 description: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만들 수 있습니다.
 title: Adobe Target 고객의 네트워크 옵션
 feature: audiences
-uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 98%
