@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1111'
 ht-degree: 14%
 
 ---
@@ -77,7 +77,7 @@ Experience fragments are created in [!DNL AEM]. 자세한 내용은 다음 문�
 버전에 따라 [!DNL AEM] 단계별 지침을 보려면 다음 링크를 참조하십시오.
 
 * **[!DNL AEM]6.3**: [](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.3 *설명서에서 Target으로 경험 조각* 내보내기
-* **[!DNL AEM]6.4**: [](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4 *설명서에서 Target으로 경험 조각* 내보내기
+* **[!DNL AEM]6.4**: [](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4 *설명서에서 Target으로 경험 조각* 내보내기
 * **[!DNL AEM]6.5**: [](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.5 *설명서에서 Target으로 경험 조각* 내보내기
 
 ## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
@@ -157,4 +157,4 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 >
 >4:54에서 [!DNL AEM] 설명한 종료 기능이 제거되었습니다.
 
-자세한 내용은 [AEM Sites 비디오 및 Tutorials](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) 페이지의 Adobe Target과 ** 함께 경험 조각 사용을 참조하십시오.
+자세한 내용은 [AEM Sites 비디오 및 Tutorials](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) 페이지의 Adobe Target과 ** 함께 경험 조각 사용을 참조하십시오.
