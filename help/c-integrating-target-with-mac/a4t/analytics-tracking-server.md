@@ -5,9 +5,9 @@ title: Analytics 추적 서버 사용을 참조하십시오
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '696'
 ht-degree: 27%
 
 ---
@@ -31,7 +31,7 @@ To ensure that data from [!DNL Target] goes to the correct location in [!DNL Ana
 
 1. 활동을 만드는 페이지에서 활동을 엽니다 [!DNL Adobe Experience Platform Debugger].
 
-   디버거를 설치하지 않은 경우 Adobe Experience Platform 디버거 [소개를 참조하십시오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+   디버거를 설치하지 않은 경우 Adobe Experience Platform 디버거 [소개를 참조하십시오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
