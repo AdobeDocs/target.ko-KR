@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 98%
 
 ---
@@ -237,7 +237,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 **사용자가 보유할 수 있는 모든 장치에서 일관되게 동일한 경험이 전달되도록 하려면 어떻게 해야 합니까?**
 
-Co-op의 기능을 통해 사용자의 여러 장치를 결정적으로 및 확률적으로 연결할 수 있도록 하는 [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html)를 확인해보십시오. 
+Co-op의 기능을 통해 사용자의 여러 장치를 결정적으로 및 확률적으로 연결할 수 있도록 하는 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html)를 확인해보십시오. 
 
 Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그를 사용하여 기능을 활성화할 수 있습니다. 또한 보고 기능도 이제 방문자 대신 사용자를 반영합니다. 이 기능을 일부 지역에서는 사용할 수 없으므로 Adobe 담당자에게 이 기능에 대해 문의하십시오.
 
