@@ -3,10 +3,8 @@ keywords: content security policy;csp;at.js;whitelist;allowlist;flicker;pre-hide
 description: Adobe Target at.js 2.1 이상 버전을 사용할 때 추가해야 하는 CSP(Content Security Policy) 지시문에 대한 정보입니다.
 title: CSP(컨텐츠 보안 정책)
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
