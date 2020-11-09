@@ -3,9 +3,8 @@ keywords: Targeting;experience;add experience;experience add
 description: Adobe Target의 VEC(시각적 경험 작성기)가 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
 title: 경험 추가
 feature: ab
-uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '457'
 ht-degree: 90%
