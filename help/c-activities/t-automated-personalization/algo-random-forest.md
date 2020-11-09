@@ -3,9 +3,8 @@ keywords: Targeting
 description: 자동화된 개인화와 자동 타겟 모두에서 사용되는 Target의 주 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 Ensemble 방식에서는 Constituent 학습 알고리즘에서 얻을 수 있는 것보다 더 나은 예측 성과를 얻기 위해 여러 학습 알고리즘을 사용합니다. 자동화된 개인화의 Random Forest 알고리즘은 학습 시 다수의 의사 결정 트리를 만들어 운용되는 분류 또는 회귀 방법입니다.
 title: Random Forest 알고리즘
 feature: ap
-uuid: 35e4ca00-5c53-4fea-b0ef-0fb51c0f8184
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1456'
 ht-degree: 99%
