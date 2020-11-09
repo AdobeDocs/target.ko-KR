@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
 
    >[!NOTE]
    >
-   >현재, 태그 관리자를 사용하여 [!DNL Target]을 배포하고 있지 않다면 고려해볼 때가 되었습니다. Adobe의 [다이내믹 태그 관리](https://dtm.adobe.com)는 [!DNL Target] 고객에게 무료이며, 권장되는 [!DNL Target] 배포 방법입니다. 자세한 내용은 [다이내믹 태그 관리를 사용하여 Adobe Target을 구현하기 위한 우수 사례](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html)를 참조하십시오.
+   >현재, 태그 관리자를 사용하여 [!DNL Target]을 배포하고 있지 않다면 고려해볼 때가 되었습니다. Adobe의 [다이내믹 태그 관리](https://dtm.adobe.com)는 [!DNL Target] 고객에게 무료이며, 권장되는 [!DNL Target] 배포 방법입니다. 자세한 내용은 [다이내믹 태그 관리를 사용하여 Adobe Target을 구현하기 위한 우수 사례](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)를 참조하십시오.
 
 1. 현재의 모든 작업 및 통합이 예상대로 작동하는지 확인하십시오.
 
