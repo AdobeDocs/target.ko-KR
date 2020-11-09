@@ -3,10 +3,8 @@ keywords: traffic estimator;automated personalization;ap
 description: 트래픽 견적 도구는 Adobe Target 활동이 성공할 수 있는 충분한 트래픽이 있는지 여부를 알 수 있는 피드백을 제공합니다.
 title: 성공에 필요한 트래픽 예측
 feature: ap
-topic: Standard
-uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 24%
