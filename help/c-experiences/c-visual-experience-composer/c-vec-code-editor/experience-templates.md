@@ -3,11 +3,8 @@ keywords: experience template;custom code;banner;lightbox;carousel;countdown;rib
 description: 사용자 지정 코드에서 사용할 Adobe Target 경험 템플릿 정보. Target 경험 템플릿은 공통된 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력으로 사전 코딩된 샘플입니다.
 title: 경험 템플릿
 feature: vec
-subtopic: Code Editor
-topic: Standard
-uuid: 4344996f-6729-41c0-98dd-be5fcef1df85
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '469'
 ht-degree: 87%
