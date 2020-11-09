@@ -3,10 +3,8 @@ keywords: registerExtension;registerextension;register extension;at.js;functions
 description: Adobe Target at.js JavaScript 라이브러리에 대한 registerExtension() 함수 정보입니다.
 title: registerExtension() - at.js 1.x
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '249'
 ht-degree: 98%
