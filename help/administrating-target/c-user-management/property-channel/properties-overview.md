@@ -3,10 +3,8 @@ keywords: add user;project;user group;properties;workspace;manage property;prope
 description: Adobe Target 구현에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, at_property 매개 변수를 포함하도록 Target 구현을 업데이트하고, 역할 및 권한을 지정하는 데 필요한 작업에 대한 정보입니다.
 title: Enterprise 권한 구성
 feature: user management
-subtopic: Getting Started
-uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1474'
 ht-degree: 68%
