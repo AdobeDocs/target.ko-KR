@@ -2,10 +2,8 @@
 description: 클라이언트측 웹용 Adobe Target 구현에 대한 정보입니다.
 title: 클라이언트측 웹용 Adobe Target 구현
 feature: client-side
-topic: Standard
-uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '107'
 ht-degree: 100%
