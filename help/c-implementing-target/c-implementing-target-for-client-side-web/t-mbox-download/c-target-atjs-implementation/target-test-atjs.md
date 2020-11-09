@@ -2,9 +2,8 @@
 description: at.js를 비프로덕션 환경에 안전하게 배포하는 방법에 대한 정보입니다.
 title: 비프로덕션 환경에 at.js 배포
 feature: null
-uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 92%
