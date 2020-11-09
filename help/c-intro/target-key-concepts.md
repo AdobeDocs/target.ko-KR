@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1515'
+source-wordcount: '1513'
 ht-degree: 98%
 
 ---
@@ -103,7 +103,7 @@ An *경험*&#x200B;은 특정 조건이 충족될 경우 표시되는 콘텐츠�
 |--- |--- |
 | 재사용 가능한 대상 | 재사용 가능한 대상은 활동용으로 선택할 수 있습니다. 이러한 대상 중 하나를 변경하면 이 대상을 사용하는 모든 활동에 대해 대상이 변경됩니다. |
 | 사용자 지정 세그먼트 | 사용자 지정 세그먼트(캠페인별 세그먼트라고도 함)는 Target Classic에서 캠페인에 따라 다릅니다. 캠페인의 일부로 생성되며 다른 캠페인에서 다시 사용할 수 없습니다. |
-| 공유 대상 | 대상은 [!DNL Adobe Experience Cloud] 솔루션에서 공유할 수 있습니다. See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
+| 공유 대상 | 대상은 [!DNL Adobe Experience Cloud] 솔루션에서 공유할 수 있습니다. See [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) for examples. |
 
 방문자 프로필에서 어떻게 사이트 방문자에 대한 정보를 추적하는지에 대해서는 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)을 참조하십시오.
 
