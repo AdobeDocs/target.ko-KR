@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 92%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 92%
 
 모바일 앱에서 Target을 사용하려면 위치 및 성공 지표를 만드십시오.
 
-이 섹션에는 앱용 템플릿으로 사용할 수 있는 샘플 코드가 포함되어 있습니다. 이 섹션의 샘플에는 iOS용 코드가 포함되어 있습니다. 동일한 패턴이 Android에 적용됩니다. Android 관련 구문은 [](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html)Experience Cloud용 Android SDK 4.x 솔루션 가이드에서 찾을 수 있습니다.
+이 섹션에는 앱용 템플릿으로 사용할 수 있는 샘플 코드가 포함되어 있습니다. 이 섹션의 샘플에는 iOS용 코드가 포함되어 있습니다. 동일한 패턴이 Android에 적용됩니다. Android 관련 구문은 [](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/target-main.html)Experience Cloud용 Android SDK 4.x 솔루션 가이드에서 찾을 수 있습니다.
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
 
 앱에서 Target 위치를 만들고 요청을 수행하려면 다음 두 가지 기본 메서드를 사용할 수 있습니다.
 
