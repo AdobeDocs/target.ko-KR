@@ -6,9 +6,9 @@ feature: privacy and security
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '887'
+source-wordcount: '883'
 ht-degree: 54%
 
 ---
@@ -53,13 +53,13 @@ Target JavaScript 라이브러리 외에 ECID(Experience Cloud ID) 라이브러�
 
    ECID 라이브러리는 Experience Cloud 핵심 솔루션에 대한 개인 식별 프레임워크를 활성화합니다. ECID 라이브러리를 사용하면 영구 및 고유 식별자를 할당하여 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다. ECID 라이브러리는 자주 업데이트되므로 구현에 영향을 주는 모든 ITP 관련 변경 사항을 완화할 수 있습니다.
 
-   ITP 2.x의 경우 [ECID 라이브러리 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) 를 활용하여 완화할 수 있어야 합니다.
+   ITP 2.x의 경우 [ECID 라이브러리 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 를 활용하여 완화할 수 있어야 합니다.
 
 1. Adobe의 CNAME을 사용하고 Adobe Analytics의 관리 인증서 프로그램에 등록합니다.
 
    ECID Library 4.3.0+를 설치한 후 Adobe Analytics의 CNAME 및 관리 인증서 프로그램을 활용할 수 있습니다. 이 프로그램을 사용하면 자사 쿠키에 대한 자사 인증서를 무료로 구현할 수 있습니다. Leveraging CNAME will help [!DNL Target] customers mitigate the impact of ITP 2.x.
 
-   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
+   If you are not leveraging CNAME, you can start the process by talking with your account representative and enrolling in the [Adobe Managed Certificate Program](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program).
 
 CNAME을 활용하기 위해 Target JavaScript 라이브러리를 ECID Library v4.3.0+와 함께 배포하고 Adobe 관리 인증서 프로그램에 등록하면, ITP 관련 변경에 대한 강력하고 장기적인 완화 계획을 갖게 됩니다.
 
