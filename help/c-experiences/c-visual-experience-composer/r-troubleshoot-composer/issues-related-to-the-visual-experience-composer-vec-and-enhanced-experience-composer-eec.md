@@ -5,10 +5,10 @@ title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해�
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 68%
+source-wordcount: '1368'
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 68%
 
 Adobe이 업데이트된 VEC 도우미 확장을 Google Chrome Store에 제출했습니다. 이 확장 기능은 필요한 경우 쿠키 속성을 `SameSite="none"` 덮어써서 속성을 설정합니다. 업데이트된 [익스텐션은 여기에서 확인할 수 있습니다](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). VEC 도우미 확장 설치 및 사용에 대한 자세한 내용은 [Visual Experience Composer 도우미 확장을 참조하십시오](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-사이트 쿠키의 경우 이름별로 쿠키를 지정해야 합니다. 쿠키  슬라이더를 켜진 위치로 전환한 다음 이름 및 쿠키 도메인별로 쿠키를 지정합니다. 쿠키 이름은 &quot;mbox&quot;이고 쿠키 도메인은 mbox를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: `mycompany.com`. 자세한 내용은 [Experience Cloud 인터페이스 사용자 안내서의](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target 쿠키를 *참조하십시오*.
+사이트 쿠키의 경우 이름별로 쿠키를 지정해야 합니다. 쿠키  슬라이더를 켜진 위치로 전환한 다음 이름 및 쿠키 도메인별로 쿠키를 지정합니다. 쿠키 이름은 &quot;mbox&quot;이고 쿠키 도메인은 mbox를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: `mycompany.com`. 자세한 내용은 [Experience Cloud 인터페이스 사용자 안내서의](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target 쿠키를 *참조하십시오*.
 
 ![VEC 도우미 확장에서 쿠키 전환](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
