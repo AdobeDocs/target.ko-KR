@@ -3,10 +3,8 @@ keywords: mobile app;mobile app send data;target mobile app;mobile custom user d
 description: 위치 또는 사용자에 대한 추가 정보를 이름-값 쌍으로 Target에 보낼 수 있습니다.
 title: iOS - 사용자 지정 사용자 데이터 전송
 feature: mobile implementation
-topic: Target
-uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 100%
