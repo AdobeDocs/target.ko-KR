@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1508'
+source-wordcount: '1494'
 ht-degree: 37%
 
 ---
@@ -23,7 +23,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 ## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[핵심 서비스의](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) 고객 속성 [!DNL People] 은 [!DNL Adobe Experience Cloud] 해당 서비스의 일부이며 [!DNL Experience Cloud] 기업에 고객 데이터를플랫폼으로 전달하는 도구를 제공합니다.
+[핵심 서비스의](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) 고객 속성 [!DNL People] 은 [!DNL Adobe Experience Cloud] 해당 서비스의 일부이며 [!DNL Experience Cloud] 기업에 고객 데이터를플랫폼으로 전달하는 도구를 제공합니다.
 
 [!DNL Experience Cloud]로 온보딩되는 데이터는 모든 [!DNL Experience Cloud] 워크플로우에 사용할 수 있습니다. [!DNL Target] 이 데이터를 사용하여 특성을 기반으로 돌아온 고객을 타깃팅합니다. [!DNL Adobe Analytics]는 이러한 속성을 사용하며, 분석 및 세그멘테이션에 사용될 수 있습니다.
 
@@ -31,7 +31,7 @@ Enterprise customer data collected through multiple sources and stored inside CR
 
 Consider the following information as your work with customer attributes and [!DNL Target]:
 
-* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL People] core service. For more information, see &quot;Prerequisites for uploading Customer Attributes&quot; in [Customer attributes](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) in the *Experience Cloud and Core Services Product documentation*.
 
    >[!NOTE]
    >
@@ -61,7 +61,7 @@ Consider the following information as your work with customer attributes and [!D
 
 ![crm 워크플로우](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud and Core Services Product Documentation*.
 
 1. 데이터 파일 만들기.
 
@@ -86,7 +86,7 @@ Detailed instructions for completing each of the following tasks can be found in
    데이터 파일은 업로드 요구 사항을 준수해야 하며 100MB를 초과할 수 없습니다. 파일이 너무 크거나 반복적으로 업로드해야 하는 데이터가 있는 경우 대신 FTP를 통해 파일을 업로드할 수 있습니다.
 
    * **HTTPS:** .csv 데이터 파일을 드래그 앤 드롭하거나 **[!UICONTROL 찾아보기를]** 클릭하여 파일 시스템에서 업로드할 수 있습니다.
-   * **FTP:** FTP 링크를 클릭하여 FTP를 통해 [파일을 업로드합니다](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. Specify the password, then click **[!UICONTROL Done]**.
+   * **FTP:** FTP 링크를 클릭하여 FTP를 통해 [파일을 업로드합니다](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. Specify the password, then click **[!UICONTROL Done]**.
 
    이제 CSV/ZIP/GZIP 파일을 FTP 서버로 전송하십시오. 이 파일 전송이 성공한 후 동일한 이름과 .fin 확장명을 가진 새 파일을 만듭니다. 이 빈 파일을 서버로 전송합니다. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
@@ -102,7 +102,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. 가입 구성 및 속성 소스 활성화.
 
-   **[!UICONTROL 구독 추가]**&#x200B;를 클릭하고 이러한 속성을 구독할 솔루션을 선택합니다. [가입을 구성하면](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) 솔루션 간의 데이터 흐름을 [!DNL Experience Cloud] 설정할 수 있습니다. 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
+   **[!UICONTROL 구독 추가]**&#x200B;를 클릭하고 이러한 속성을 구독할 솔루션을 선택합니다. [가입을 구성하면](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html) 솔루션 간의 데이터 흐름을 [!DNL Experience Cloud] 설정할 수 있습니다. 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
 
    ![솔루션 구성](/help/c-target/c-visitor-profile/assets/solution.png)
 
@@ -144,11 +144,11 @@ Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPagePa
 
 ### Experience Cloud ID 서비스 사용
 
-Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속성을 사용하도록 고객 ID 및 인증 상태를 설정해야 합니다. For more information, see [Customer IDs and Authentication State](https://docs.adobe.com/content/help/en/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
+Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속성을 사용하도록 고객 ID 및 인증 상태를 설정해야 합니다. For more information, see [Customer IDs and Authentication State](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) in the *Experience Cloud Identity Service Help*.
 
 [!DNL Target]에서 고객 속성을 사용하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-* [고객 속성 소스를 만들고](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloud 제품 문서에서 데이터 파일 *업로드*
+* [고객 속성 소스를 만들고](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloud 제품 문서에서 데이터 파일 *업로드*
 *  *디지털 마케팅 블로그*&#x200B;의 [Customer Attributes: The More You Know, The Better You Connect(고객 속성: 더 많이 알수록 더 쉬워지는 연결)](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
