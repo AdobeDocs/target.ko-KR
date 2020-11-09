@@ -3,10 +3,8 @@ keywords: order confirmation;orderConfirmPage
 description: 주문 확인 mbox는 사이트의 주문에 대한 세부 사항을 기록하고 매출 및 주문을 기준으로 보고할 수 있도록 합니다. 또한 주문 확인 mbox는 "제품 x를 구입한 사람이 제품 y도 구입함"과 같은 권장 사항 알고리즘을 유도할 수도 있습니다.
 title: 주문 확인 mbox 만들기 - mbox.js
 feature: null
-subtopic: Getting Started
-uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '306'
 ht-degree: 85%
