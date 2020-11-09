@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 ## SDK를 배포하는 데 사용해야 합니까? 아니면 SDK를 사용하지 않고 배포할 수 있습니까 [!DNL Adobe Experience Platform Launch] [!DNL Launch]?
 
-SDK는 [Adobe Marketing Cloud git에서 사용할 수 있습니다](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). Launch를 사용하지 [않는](https://docs.adobe.com/content/help/en/launch/using/overview.html)경우 자체 설정 파일을 관리하고 앱에서 관리해야 합니다.
+SDK는 [Adobe Marketing Cloud git에서 사용할 수 있습니다](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). Launch를 사용하지 [않는](https://experienceleague.adobe.com/docs/launch/using/overview.html)경우 자체 설정 파일을 관리하고 앱에서 관리해야 합니다.
 
 ## 현재 어떤 SDK가 제공됩니까?
 
