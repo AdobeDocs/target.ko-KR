@@ -4,9 +4,8 @@ description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용�
 title: Adobe Target의 사용자 지정 엔티티 속성
 feature: entities
 mini-toc-levels: 3
-uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
