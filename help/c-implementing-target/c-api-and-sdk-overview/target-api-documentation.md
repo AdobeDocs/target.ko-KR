@@ -3,10 +3,8 @@ keywords: api;adobe i/o
 description: Target의 이전 API에서 Adobe I/O의 새 API로 전환하는 데 도움이 되는 정보입니다.
 title: Target의 이전 API에서 Adobe I/O로 전환
 feature: server-side
-topic: Standard
-uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 93%
