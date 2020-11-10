@@ -3,10 +3,8 @@ keywords: custom parameters;target custom parameters;targetpageparams;targeting 
 description: 사용자 지정 매개 변수는 mbox 매개 변수입니다. 임의의 mbox 매개 변수를 mbox에 전달하거나 targetPageParams 함수를 사용하는 경우 이러한 매개 변수는 대상에서 사용할 수 있도록 여기에 표시됩니다.
 title: 'Adobe Target의 사용자 정의 매개 변수 '
 feature: audiences
-topic: Standard
-uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 90%
