@@ -3,9 +3,8 @@ keywords: cloud instances;public suffix list;public suffix;cookie;first-party co
 description: 클라우드 기반 인스턴스를 사용하여 Adobe Target을 테스트할 때 고객이 직면하는 문제에 대한 정보입니다.
 title: Target에서 클라우드 기반 인스턴스 사용
 feature: client-side
-uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 95%
