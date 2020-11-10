@@ -3,10 +3,8 @@ keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
 description: Adobe Target 미리 가져오기 기능은 iOS 및 Android Mobile SDK를 사용하여 서버 응답을 캐시하여 가능한 한 적은 시간에 오퍼 컨텐츠를 가져옵니다.
 title: 오퍼 컨텐츠 미리 가져오기
 feature: mobile implementation
-topic: Advanced,Standard,Classic
-uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 63%
