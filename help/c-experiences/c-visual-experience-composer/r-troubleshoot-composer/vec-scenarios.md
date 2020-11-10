@@ -3,9 +3,8 @@ keywords: Recommendations
 description: 이 주제의 시나리오에서는 페이지에 적용된 변경 내용이 경험을 표시하는 Target의 기능에 어떻게 영향을 주는지를 보여줍니다.
 title: 페이지 수정 시나리오
 feature: vec
-uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
