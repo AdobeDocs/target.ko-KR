@@ -2,10 +2,8 @@
 description: 다변량 테스트는 여러 개의 경험을 비교하기 때문에 의미있는 결과를 제공하는 데 필요한 트래픽의 양을 파악하는 것이 중요합니다. 트래픽 견적 도구는 테스트되는 경험의 수 및 페이지에 대한 통계를 사용하여 성공적인 테스트에 필요한 테스트 기간과 트래픽의 양을 예상합니다.
 title: 성공적인 테스트에 필요한 트래픽 예측
 feature: mvt
-topic: Standard
-uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 100%
