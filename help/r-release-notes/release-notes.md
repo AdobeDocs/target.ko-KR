@@ -3,10 +3,8 @@ keywords: Release notes;new features;releases;updates;update;release;enhancement
 description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
 title: 'Adobe Target 릴리스 노트(현재) '
 feature: release notes
-topic: Recommendations
-uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '948'
 ht-degree: 27%
