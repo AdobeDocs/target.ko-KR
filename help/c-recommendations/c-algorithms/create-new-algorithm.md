@@ -3,9 +3,8 @@ keywords: criteria;algorithm;industry vertical;page type;recommendation key;reco
 description: 기준은 Adobe Recommendations 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
 title: 기준 만들기
 feature: criteria
-uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
