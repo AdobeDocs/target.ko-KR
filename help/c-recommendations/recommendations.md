@@ -3,9 +3,8 @@ keywords: Recommendations;Recommendations criteria;recommendations algorithms;re
 description: Adobe Target의 Recommendations 활동은 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 관심을 끌 수 있는 제품 또는 컨텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 title: Adobe Target Recommendations
 feature: recommendations general
-uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
