@@ -3,9 +3,8 @@ keywords: creating custom criteria;algorithms;criteria;recommendations criteria;
 description: 권장 사항을 사용자 지정하려면 CSV 파일을 업로드합니다.
 title: 사용자 지정 기준 업로드
 feature: criteria
-uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
