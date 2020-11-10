@@ -4,10 +4,8 @@ description: 국가, 시/도, 도시, 우편 번호, DMA 또는 이동통신사�
 title: Adobe Target 대상의 지역 옵션
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 88%
@@ -149,7 +147,7 @@ AOL이 트래픽을 프록시하는 방법 때문에 국가 수준에서만 타�
 
 푸에르토리코, 홍콩 및 기타 지역은 &quot;국가&quot; 값으로 취급됩니다.
 
-**활동이 지리 위치 타깃팅 기능으로 타깃팅될 때 우편번호와 같은 정보를[!DNL Target]캡처(및 저장)합니까?**
+**활동이 지리 위치 타깃팅 기능으로 타깃팅될 때 우편번호와 같은 정보를 [!DNL Target] 캡처(및 저장)합니까?**
 
 아니요, 세션 [!DNL Target] 기간 동안 지리 데이터만 사용하면 데이터가 무시됩니다.
 
