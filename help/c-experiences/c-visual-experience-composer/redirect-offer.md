@@ -2,11 +2,8 @@
 description: 컨텐츠를 동일한 페이지에 표시하지 않고 방문자를 다른 페이지로 보내려면 이 선택 사항을 사용하십시오.
 title: URL로 리디렉션
 feature: vec
-subtopic: Multivariate Test
-topic: Standard
-uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
