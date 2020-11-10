@@ -3,9 +3,8 @@ keywords: environmental data;session data;geo data;geographical data;device data
 description: Adobe Target은 자동으로 다양한 데이터를 수집하고 사용하여 AP(자동화된 개인화) 및 AT(자동 타겟) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 "교육 레코드"(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
 title: Adobe Target의 개인화 알고리즘에 대한 데이터 수집
 feature: ap
-uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 97%
