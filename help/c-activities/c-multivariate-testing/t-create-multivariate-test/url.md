@@ -3,9 +3,8 @@ keywords: Targeting
 description: 활동 URL은 MVT(다변량 테스트)에 사용되는 페이지를 결정하며 테스트가 Adobe Target에 디자인될 때 열립니다.
 title: 활동 URL
 feature: mvt
-uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '286'
 ht-degree: 93%
