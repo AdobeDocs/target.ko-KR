@@ -3,11 +3,8 @@ keywords: Click tracking;track clicks;clicks;AppMeasurement
 description: Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있습니다.
 title: 클릭 추적
 feature: success metrics
-subtopic: Getting Started
-topic: Standard
-uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '877'
 ht-degree: 95%
