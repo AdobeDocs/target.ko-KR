@@ -3,9 +3,8 @@ keywords: Recommendations
 description: AP(자동화된 개인화) 활동은 한 페이지의 여러 오퍼를 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 title: Adobe Target 시각적 경험 작성기에서 AP(자동화된 개인화) 활동에 대한 미리 보기 환경
 feature: ap
-uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '256'
 ht-degree: 100%
