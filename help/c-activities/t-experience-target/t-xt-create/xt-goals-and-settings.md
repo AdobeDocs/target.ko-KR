@@ -3,10 +3,8 @@ keywords: activity settings;experience targeting goals and settings;xt goals and
 description: 목표 및 설정 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
 title: 목표 및 설정
 feature: xt
-topic: Standard
-uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 97%
