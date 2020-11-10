@@ -3,12 +3,11 @@ keywords: recommendations;frequently asked questions;faq
 description: Adobe Target 추천 디자인에 대한 FAQ(자주 묻는 질문) 목록
 title: 디자인 FAQ
 feature: designs
-uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '394'
+ht-degree: 87%
 
 ---
 
