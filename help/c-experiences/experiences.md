@@ -3,10 +3,8 @@ keywords: experience;visual experience composer;enhanced experience composer;for
 description: 경험은 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 결정합니다.
 title: 경험 및 오퍼
 feature: experiences
-topic: Standard
-uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '337'
 ht-degree: 100%
