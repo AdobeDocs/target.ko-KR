@@ -3,10 +3,8 @@ keywords: contact;legal;technical support;tech support;support;service;capabilit
 description: Target 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 Target에 대한 도움이 필요할 때 Adobe에 문의하는 방법에 대한 정보입니다.
 title: 리소스 및 연락처 정보
 feature: reference general
-topic: Standard
-uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -119,7 +117,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 ### 피드백 {#section_8154D6D712054220A90D85FA8E92933E}
 
-이 솔루션과 관련된 모든 제안이나 피드백을 환영합니다. 향상된 아이디어와 제안을 [Adobe Target 경험 리그 커뮤니티에 추가할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Click the [!UICONTROL Ideas] tab.
+이 솔루션과 관련된 모든 제안이나 피드백을 환영합니다. 향상된 아이디어와 제안을 [Adobe Target Experience League 커뮤니티에 추가할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community). Click the [!UICONTROL Ideas] tab.
 
 ### 법적 정보 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
