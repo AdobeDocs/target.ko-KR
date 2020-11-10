@@ -3,11 +3,8 @@ keywords: implementation;api;profile;profile api settings;authentication token
 description: Adobe Target API를 통해 일괄 업데이트를 위한 인증을 활성화 또는 비활성화하고 프로필 인증 토큰을 생성합니다.
 title: Adobe Target의 프로필 API 설정
 feature: api
-subtopic: Getting Started
-topic: Standard
-uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 37%
