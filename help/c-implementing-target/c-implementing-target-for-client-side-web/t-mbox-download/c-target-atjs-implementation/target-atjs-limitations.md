@@ -3,9 +3,8 @@ keywords: visual experience composer limitations;browser support;integrations;pl
 description: at.js와 mbox.js 간에 약간의 차이가 있습니다. 이 섹션에는 at.js 사용 시 성공하는 데 도움이 되도록 몇 가지 차이점과 제한 사항이 나와 있습니다.
 title: at.js 제한 사항
 feature: null
-uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
