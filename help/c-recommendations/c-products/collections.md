@@ -3,9 +3,8 @@ keywords: collection;Targeting
 description: 컬렉션은 추천에 적합한 Adobe Target의 제품 또는 항목 세트입니다.
 title: Adobe Target의 컬렉션
 feature: entities
-uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '868'
 ht-degree: 61%
