@@ -3,9 +3,8 @@ keywords: visitor profile;target visitor profile
 description: Adobe Target에서특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
 title: Adobe Target 대상의 방문자 프로필 옵션
 feature: audiences
-uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '222'
 ht-degree: 94%
