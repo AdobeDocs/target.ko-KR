@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;classification
 description: 이 주제에서는 분류와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 분류 - A4T FAQ
 feature: a4t troubleshooting
-topic: Standard
-uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '238'
 ht-degree: 67%
