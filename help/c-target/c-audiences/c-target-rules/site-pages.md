@@ -3,10 +3,8 @@ keywords: site pages;target site pages;targeting;current page;target current pag
 description: 사이트의 특정 페이지에 있는 방문자를 타깃팅할 수 있습니다.
 title: Adobe Target 대상의 사이트 페이지 옵션
 feature: audiences
-topic: Standard
-uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 43%
