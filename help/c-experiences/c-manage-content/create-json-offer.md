@@ -3,10 +3,8 @@ keywords: remote offer;create remote offer
 description: 양식 기반 경험 작성기에서 사용할 오퍼 라이브러리에 JSON을 만드십시오.
 title: JSON 오퍼 만들기
 feature: offers
-topic: Standard
-uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
