@@ -1,10 +1,11 @@
 ---
+keywords: automated personalization;offers
 description: 자동화된 개인화 활동에서는 오퍼에 대해 특정 대상을 지정할 수 있습니다.
 title: Target 자동화된 개인화 오퍼
 feature: ap
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a4b510308394110bb267665ca39d54e2ea781f3d
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
