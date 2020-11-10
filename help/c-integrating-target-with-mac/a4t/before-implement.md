@@ -3,9 +3,8 @@ keywords: Recommendations
 description: Analytics를 Target(A4T)의 보고 소스로 설정할 때 데이터 수집 프로세스에 몇 가지 변경 사항이 발생합니다.
 title: Adobe Target(A4T)의 보고 소스로 Adobe Analytics을 구현하기 전에
 feature: a4t implementation
-uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '901'
 ht-degree: 52%
