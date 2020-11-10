@@ -3,9 +3,8 @@ keywords: Recommendations;settings;preferences;industry vertical;filter incompat
 description: 권장 사항 활동을 작성하기 전에 알아야 할 사항.
 title: 권장 사항 계획 및 구현
 feature: recommendations general
-uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
