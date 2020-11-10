@@ -3,10 +3,8 @@ keywords: form-based experience composer;form-based composer;refinements
 description: 양식 기반 경험 작성기는 시각적이지 않은 경험 생성 방식을 제공합니다.
 title: 양식 기반 경험 작성기
 feature: form-based composer
-topic: Standard
-uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%
