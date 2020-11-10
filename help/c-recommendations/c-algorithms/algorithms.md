@@ -3,9 +3,8 @@ keywords: recommendations;recommendations activity;criteria;algorithm;recommenda
 description: Adobe Target의 기준은 미리 결정된 방문자 행동을 기반으로 추천할 제품 또는 컨텐츠를 결정하는 규칙입니다.
 title: Adobe Target Recommendations의 기준
 feature: criteria
-uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 53%
