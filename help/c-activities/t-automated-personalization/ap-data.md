@@ -4,21 +4,21 @@ description: Adobe Target은 자동으로 다양한 데이터를 수집하고 �
 title: Adobe Target의 개인화 알고리즘에 대한 데이터 수집
 feature: ap
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 2b31d26bab2f2b702947c907c1d6966e5d0f20e3
 workflow-type: tm+mt
-source-wordcount: '1755'
-ht-degree: 97%
+source-wordcount: '1754'
+ht-degree: 91%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Target의 개인화 알고리즘을 위한 데이터 수집{#data-collection-for-the-target-personalization-algorithms}
+# ![PREMIUM](/help/assets/premium.png) Target의 개인화 알고리즘을 위한 데이터 수집
 
-Target은 자동으로 다양한 데이터를 수집하고 사용하여 AP(자동화된 개인화) 및 AT(자동 타겟) 활동에서 개인화 알고리즘을 만듭니다. 방문자가 AP나 AT 활동을 시작하면 정보의 스냅숏이 일련의 &quot;교육 레코드&quot;(개인화 알고리즘이 학습할 방문자 데이터)에 전달됩니다.
+[!DNL Adobe Target] 다양한 데이터를 자동으로 수집 및 사용하여 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target(AT) 활동에 개인화 알고리즘을] 작성합니다. 방문자가 AP 또는 AT 활동에 입장하면 정보의 스냅숏이 &quot;교육 레코드&quot; 집합(개인화 알고리즘에서 배울 방문자 데이터)으로 전달됩니다.
 
-Target 개인화 알고리즘에 대한 자세한 내용은 [Random Forest 알고리즘](/help/c-activities/t-automated-personalization/algo-random-forest.md)을 참조하십시오.
+To learn more about the Target personalization algorithms, see [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-다음 표는 마케터가 작업을 수행하지 않고도 기본적으로 자동화된 개인화와 자동 타겟을 통해 수집된 데이터와, [개인화 인사이트 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)에서 이러한 속성을 표시하는 데 사용된 이름 지정 규칙을 보여 줍니다. 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [Target의 개인화 알고리즘을 위한 데이터 업로드](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
+The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [Target의 개인화 알고리즘을 위한 데이터 업로드](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
 
 | 데이터 유형 | 설명 | 데이터 유형 이름 지정 규칙 | 예제 속성 |
 | --- | --- | --- | --- |
