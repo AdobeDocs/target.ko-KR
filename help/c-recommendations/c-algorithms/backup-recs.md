@@ -3,9 +3,8 @@ keywords: recommendation;backup;back up
 description: Adobe Target에서 백업 권장 사항 기능을 사용하는 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐트를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 title: 백업 권장 사항 사용 adobe target Recommendations
 feature: criteria
-uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '523'
 ht-degree: 83%
