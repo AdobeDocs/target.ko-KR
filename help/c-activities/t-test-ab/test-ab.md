@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-targe
 description: 수동 A/B 테스트 활동은 두 개 이상의 웹 사이트 컨텐츠 버전을 비교하여 사전 지정된 테스트 기간 동안 전환율을 가장 잘 개선하는 버전을 확인합니다.
 title: A/B 테스트 개요
 feature: ab
-uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
