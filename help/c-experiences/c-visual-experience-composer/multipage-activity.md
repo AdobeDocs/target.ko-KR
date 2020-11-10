@@ -3,10 +3,8 @@ keywords: multi-page;journey testing;multipage activity
 description: 다중 페이지 활동을 사용하면 각 페이지별로 다른 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 작성할 수 있습니다.
 title: 다중 페이지 활동
 feature: vec
-topic: Advanced
-uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 100%
