@@ -3,11 +3,8 @@ keywords: implement;implementing;rfi;request for information
 description: Adobe Target 구현을 준비할 때 완료해야 하는 작업과 수집해야 하는 정보가 있습니다.
 title: Adobe Target 구현 준비
 feature: implementation pre-reqs
-subtopic: Getting Started
-topic: Standard
-uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '268'
 ht-degree: 100%
