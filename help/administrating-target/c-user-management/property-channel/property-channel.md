@@ -3,10 +3,8 @@ keywords: workspaces;manage property;permissions;product configuration;product p
 description: 속성을 만들고 속성 및 권한을 사용하는 방법에 대한 정보. Target 관리자는 이 기능을 사용하여 Target에서 개별 작업 공간(제품 프로필)을 만든 다음, 사용자에게 이 작업 공간을 기반으로 하는 개별 페이지, 속성 또는 웹 사이트에 대한 서로 다른 역할 및 권한을 지정할 수 있습니다.
 title: Enterprise 사용자 권한
 feature: user management
-subtopic: Getting Started
-uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
