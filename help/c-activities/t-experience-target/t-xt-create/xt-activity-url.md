@@ -3,9 +3,8 @@ keywords: Targeting
 description: 활동 URL은 경험 타깃팅 활동에 사용되고 활동을 디자인할 때 Adobe Target VEC(시각적 경험 작성기) 또는 양식 기반 경험 작성기에서 열리는 페이지를 결정합니다.
 title: 활동 URL
 feature: xt
-uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
