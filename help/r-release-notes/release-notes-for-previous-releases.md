@@ -3,10 +3,8 @@ keywords: Release notes
 description: Target Standard/Premium, Target 플랫폼 및 Target Javascript 라이브러리(at.js)에 대한 릴리스 노트를 포함하여 이전 Target 릴리스에 대한 릴리스 노트입니다. 릴리스 노트는 릴리스의 연도/월을 사용하여 내림차순으로 표시됩니다.
 title: 이전 릴리스에 대한 릴리스 노트
 feature: release notes
-topic: Recommendations
-uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '29813'
 ht-degree: 86%
