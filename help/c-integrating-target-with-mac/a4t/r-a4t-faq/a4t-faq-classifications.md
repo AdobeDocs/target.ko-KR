@@ -4,10 +4,10 @@ description: 이 주제에서는 분류와 Analytics를 Target(A4T)의 보고 �
 title: 분류 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 403a56da912fa143cf6c20b078c0bba63c6f4420
 workflow-type: tm+mt
-source-wordcount: '238'
-ht-degree: 67%
+source-wordcount: '244'
+ht-degree: 65%
 
 ---
 
@@ -28,6 +28,7 @@ TNT 변수의 문자열 형식은 `activityID:experienceID:targettype|event`입�
 * Event = 0은 경험 입장을 나타냅니다.
 * Event = 1은 경험 방문을 나타냅니다.
 * Event = 2는 활동 노출을 나타냅니다.
+* 이벤트 = 3-32766은 분석 성공 지표 ID를 나타냅니다.
 * Event = 32767은 활동 전환을 나타냅니다.
 
 You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). 엔지니어링 서비스에 참여하여 클릭스트림 데이터 피드와 함께 조회 테이블로서 이 파일을 얻을 수도 있습니다.
