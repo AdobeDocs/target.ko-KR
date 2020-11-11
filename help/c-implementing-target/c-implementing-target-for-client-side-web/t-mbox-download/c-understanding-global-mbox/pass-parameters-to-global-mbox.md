@@ -1,20 +1,20 @@
 ---
 keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
-description: 글로벌 mbox에 매개 변수를 전달하는 데에는 JavaScript targetPageParams 함수가 사용됩니다. 이 함수는 추가적인 타깃팅/컨텍스트 정보가 Target으로 전달되는 모든 상황에서 필요합니다.
+description: 글로벌 mbox에 매개 변수를 전달하는 데에는 JavaScript targetPageParams 함수가 사용됩니다. 이는 추가적인 타깃팅/컨텍스트 정보를 Adobe Target에 전달해야 하는 모든 시나리오에서 필요합니다.
 title: 글로벌 mbox에 매개 변수 전달
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '379'
-ht-degree: 74%
+source-wordcount: '381'
+ht-degree: 65%
 
 ---
 
 
 # 글로벌 mbox에 매개 변수 전달{#pass-parameters-to-a-global-mbox}
 
-글로벌 mbox에 매개 변수를 전달하는 데에는 JavaScript `targetPageParams` 함수가 사용됩니다. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
+The JavaScript `targetPageParams` function is used to pass parameters to the global mbox in [!DNL Adobe Target]. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
 
 For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
@@ -34,7 +34,7 @@ For example, in a [!DNL Recommendations] activity, use the parameters to represe
 
 페이지에 글로벌 mbox를 추가하려면 먼저 JavaScript 함수를 정의해야 합니다. 이름은 `targetPageParams`여야 합니다.
 
-**쿼리 문자열**
+## 쿼리 문자열
 
 ```
 p1=v1&p2=v2&p3=hello%20world
@@ -72,7 +72,7 @@ p1=v1&p2=v2&p3=hello%20world
 * p2=v2
 * p3=hello world
 
-**배열**
+## 배열
 
 ```
 <!--window.-->targetPageParams = function() { 
@@ -88,7 +88,7 @@ p1=v1&p2=v2&p3=hello%20world
 * b=2
 * c=hello world
 
-**JSON**
+## JSON
 
 JSON은 매개 변수를 전달하는 강력한 방법입니다. Target에서는 JSON 개체를 사용하여 복잡한 구조를 단순한 매개 변수로 병합합니다.
 
@@ -113,5 +113,5 @@ JSON은 매개 변수를 전달하는 강력한 방법입니다. Target에서는
 
 * a=1
 * b=2
-* `profile.age`=26
+* `profile.memberStatus`= 금
 * `profile.country.city`=San Francisco
