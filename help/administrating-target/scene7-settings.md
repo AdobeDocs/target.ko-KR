@@ -4,10 +4,10 @@ description: Target Standard를 Adobe Dynamic Media Classic과 통합하여 콘�
 title: Dynamic Media Classic 통합 구성 통합
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 76ab5aef33f5e9c5de08b33e83e459b588bb0fba
+source-git-commit: 44d6cd2dcc71a84d4526aaf38ee606ffb0a97fb5
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 16%
+source-wordcount: '378'
+ht-degree: 18%
 
 ---
 
@@ -20,11 +20,13 @@ ht-degree: 16%
 >
 >Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.
 
-If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials.
+If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. 이 서비스는 이미지 대체 기능이 필요한 워크플로우의 고객이 사용할 수 있습니다.
 
+<!-- 
 >[!NOTE]
 >
->신규 고객 또는 신규 사용자에 대한 제한된 무료 [!DNL Dynamic Media Classic] 계정 [!DNL Adobe Target] 은 더 이상 지원되지 않습니다. 기존 로그인 자격 증명은 평소대로 작동합니다.
+>A restricted-use, free [!DNL Dynamic Media Classic] account for [!DNL Adobe Target] is no longer supported for new customers or new users. Existing sign-in credentials work as usual. 
+-->
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. 이 설정이 구성되면 VEC( [Visual Experience Composer)와 양식 기반 Experience Composer 모두에서 이미지 오퍼를 교체/변경하는 옵션을 사용할 수 있습니다](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
