@@ -4,9 +4,9 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target �
 title: Target 공지
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -30,21 +30,6 @@ Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시
 * **오전 10시(태평양 표준시) | 12 오후 CST | 오후 1시 EST**
 
 [이 흥미로운 이벤트에 등록하십시오.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
-
-## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
-
-* **2020년 11월 11일 수요일**
-* **오전 8시(태평양 표준시)**
-
-Adobe 전문가가 아래 주제에 대한 인사이트와 전문성을 공유할 선임 [!DNL Adobe Target] 제품 관리자인 David Son이 될 것입니다.
-
-* 디바이스 내 의사 결정
-* At.js
-* 모바일
-* AEP 웹 SDK
-* API
-
-[여기에 등록.](https://adobe.ly/2H3MBX9)
 
 ## 웨비나:HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법
 
