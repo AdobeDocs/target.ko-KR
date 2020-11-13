@@ -4,10 +4,10 @@ description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Prem
 title: 'Adobe Target 릴리스 노트(현재) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '948'
-ht-degree: 27%
+source-wordcount: '974'
+ht-degree: 26%
 
 ---
 
@@ -31,6 +31,12 @@ ht-degree: 27%
 
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+## at.js 2.3.3(2020년 11월 13일)
+
+at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항이 포함되어 있습니다.
+
+* mbox 클릭 추적 및 A4T 관련 문제를 수정했습니다.
 
 ## Target Standard/Premium 20.10.1(2020년 10월 27일)
 
