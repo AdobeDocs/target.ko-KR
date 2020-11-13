@@ -4,10 +4,10 @@ description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Prem
 title: 'Adobe Target 릴리스 노트(현재) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: fd3ab8737cd79da7bc14cc0236d07a024d6e85bc
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 26%
+source-wordcount: '918'
+ht-degree: 27%
 
 ---
 
@@ -44,7 +44,7 @@ at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항이 
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [디바이스 내 의사 결정](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 디바이스 내 의사 결정 기능을 사용하면 마케터와 제품 개발자 모두 사용자의 디바이스 내에서, 모든 채널에서 거의 지연 없이 머신 러닝 기반의 개인화를 전달할 수 있습니다.<br>고객 인사이트와 사용자 만족도에 따라 업무 속도와 성능이 중요합니다.<br>장치 내 의사 결정 기능을 사용하면 A/B 테스트 및 경험 타깃팅(XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 장치에 로드되는 &quot;최적화 객체:&quot; JSON 객체로 컴파일할 수 있습니다. 또한 디바이스 내 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되므로 [!DNL Target] 사용자는 신속한 분석과 빠른 경험 반복을 경험할 수 있습니다.<br>자세한 내용은 *[Adobe Target SDK 가이드에서](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* 장치 내 의사 결정 *소개를 참조하십시오*.<br>**지금 라이브 웨비나에 등록하십시오.** Adobe Target 제품 전문가와 함께 지연 없이 디바이스에서 실행되어야 하는 중요한 경험 최적화 의사 결정이 새로운 활용 사례를 여는 동시에 고객을 위한 사이트 성능을 향상시킬 수 있는 방법을 논의합니다.<ul><li>2020년 11월 10일</li><li>오전 10시 PT / 오후 12시 CT / 오후 1시 ET</li><li>[여기에서 등록](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| [디바이스 내 의사 결정](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 디바이스 내 의사 결정 기능을 사용하면 마케터와 제품 개발자 모두 사용자의 디바이스 내에서, 모든 채널에서 거의 지연 없이 머신 러닝 기반의 개인화를 전달할 수 있습니다.<br>고객 인사이트와 사용자 만족도에 따라 업무 속도와 성능이 중요합니다.<br>장치 내 의사 결정 기능을 사용하면 A/B 테스트 및 경험 타깃팅(XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 장치에 로드되는 &quot;최적화 객체:&quot; JSON 객체로 컴파일할 수 있습니다. 또한 디바이스 내 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되므로 [!DNL Target] 사용자는 신속한 분석과 빠른 경험 반복을 경험할 수 있습니다.<br>자세한 내용은 *[Adobe Target SDK 가이드에서](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* 장치 내 의사 결정 *소개를 참조하십시오*. |
 
 이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
 
