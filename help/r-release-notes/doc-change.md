@@ -4,9 +4,9 @@ description: 이 페이지에는 Adobe Target 설명서에 대한 중요한 변�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2940'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 13년 11월 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.3.3에 대한 정보가 추가되었습니다. |
 | 10년 11월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 11월 11일로 예정된 Adobe Target 커뮤니티 Q&amp;A 커피 휴식에 대한 정보가 추가되었습니다. |
 | 3년 11월 | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 다음 문제 해결 항목을 업데이트했습니다.&quot;필요한 보고서 세트가 표시되지 않습니다.&quot; |
 | 10월 28일 | [서버 측: Target 구현](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 첫 번째 방문자는 서버측에서 아니라 클라이언트측에서 초기화할 수 있다는 내용의 참고가 추가되었습니다. |
