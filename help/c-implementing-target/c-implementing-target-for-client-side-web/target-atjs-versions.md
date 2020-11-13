@@ -1,18 +1,18 @@
 ---
-keywords: at.js releases;at.js versions
-description: at.js의 각 버전 변경 사항에 대한 세부 사항.
+keywords: at.js releases;at.js versions;release notes
+description: at.js의 각 버전의 변경 사항에 대한 세부 정보
 title: at.js 버전 세부 사항
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 40cf05566f8872b14f02811e18e12e2a955d1545
 workflow-type: tm+mt
-source-wordcount: '3975'
-ht-degree: 86%
+source-wordcount: '4003'
+ht-degree: 85%
 
 ---
 
 
-# at.js 버전 세부 사항{#at-js-version-details}을 참조하십시오 
+# at.js 버전 세부 사항
 
 [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다.
 
@@ -21,6 +21,12 @@ ht-degree: 86%
 >Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오.
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 는 at.js로 업그레이드하는 것이 좋습니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 카탈로그에서 업그레이드로 사용할 수 [!DNL Launch] 있습니다. 자세한 내용은 [Experience Platform Launch 사용 안내서](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) 의 익스텐션 업그레이드 *를 참조하십시오*.
+
+## at.js 2.3.3(2020년 11월 13일)
+
+at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항이 포함되어 있습니다.
+
+* mbox 클릭 추적 및 A4T 관련 문제를 수정했습니다.
 
 ## at.js 2.3.2(2020년 7월 24일)
 
