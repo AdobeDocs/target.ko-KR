@@ -4,9 +4,9 @@ description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(
 title: 보고서 보기 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2214'
 ht-degree: 55%
 
 ---
@@ -138,11 +138,11 @@ Changing the traffic allocation percentage in an activity after activation can c
 
 ## A4T를 사용하는 자동 Target 활동에서 Analytics와 전환 크레딧에서 어떻게 방문이 계산됩니까?
 
-방문자가 자격을 얻거나, 컨텐츠를 보거나, A4T 활동을 통해 전환할 때 [!DNL Target] 이벤트 데이터를 로 보내 [!DNL Analytics]페이지에서 발생하는 전환 이벤트 및 기타 클릭 스트림 이벤트를 관련 [!DNL Analytics] [!DNL Target] 활동 및 경험으로 연결할 수 있습니다.
+방문자가 자격을 얻거나, 컨텐츠를 보거나, A4T 활동에서 전환하면 [!DNL Target] 이벤트 데이터를 로 보내 [!DNL Analytics]페이지에서 발생하는 전환 이벤트 및 기타 클릭 스트림 이벤트를 관련 [!DNL Analytics] [!DNL Target] 활동 및 경험으로 연결할 수 있습니다.
 
 보고서를 볼 때 주의해야 할 몇 가지 [!DNL Analytics] 사항이 있습니다.
 
-* 일반적으로 보고 창은 항상 활동의 시작 날짜부터 시작해야 합니다.
+* 일반적으로 보고 창은 활동의 시작 날짜부터 시작해야 합니다.
 * 보고서 창 밖에서 전환이 발생하면 전환이 표시되지 않습니다 [!DNL Analytics].
-* 자동 [!UICONTROL Target] 활동에 대한 트래픽의 &quot;타깃팅된&quot; 부분에서 방문자는 한 세션과 다른 경험을 볼 수 있습니다. 예를 들어, 방문자의 프로필 또는 컨텍스트가 변경되었으며 [!DNL Target]기계 학습 알고리즘은 새 경험에서 전환할 가능성이 더 높다고 판단합니다. 이것은 경험이 방문 간에 방문자에게 고정되는 일반적인 A/B 테스트 활동과 다릅니다.
-* 방문자가 방문 간에 여러 경험을 보는 경우 모든 전환은 방문자가 마지막으로 본 경험으로 항상 귀속됩니다.하지만 방문 카운트는 방문자가 본 각 경험에 대해 증가합니다. 이렇게 하면 보고서에서 &quot;타깃팅된&quot; 차원 아래의 경험을 볼 때 경험당 전환율을 인위적으로 낮출 수 [!DNL Adobe Analytics] 있습니다.
+* 자동 Target  활동에 대한 트래픽의 &quot;타깃팅된&quot; 부분에서 방문자는 한 세션부터 다음 세션까지의 다른 경험을 볼 수 있습니다. 예를 들어 프로필 또는 컨텍스트가 변경되고 머신 러닝 알고리즘이 새 경험 [!DNL Target]에서 전환할 가능성이 높다고 결정하는 경우 방문자가 경험에서 경험으로 이동할 때 본 각 경험에 대한 방문 카운트가 증가합니다. 이것은 경험이 방문 간에 방문자에게 고정되는 일반적인 A/B 테스트 활동과 다릅니다.
+* 방문자가 방문 간에 여러 경험을 보는 경우 모든 전환은 항상 방문자가 마지막으로 본 경험으로 인한 것입니다. 언급했듯이 방문 개수는 방문자가 본 각 경험에 대해 증가합니다. 이렇게 하면 보고서에서 &quot;타깃팅된&quot; 차원 아래의 경험을 볼 때 경험당 전환율을 인위적으로 낮출 수 [!DNL Adobe Analytics] 있습니다.
