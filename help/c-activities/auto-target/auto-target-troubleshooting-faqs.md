@@ -1,13 +1,13 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Adobe Target의 자동 Target 문제 해결 및 FAQ
 title: 자동 Target 문제 해결 및 FAQ
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 76%
+source-wordcount: '1830'
+ht-degree: 71%
 
 ---
 
@@ -33,9 +33,19 @@ ht-degree: 76%
 
 * 활동을 실행하는 중에는 경험을 크게 변경하지 마십시오.
 
-### 보고서 날짜 범위가 변경되는 경우 해당 경험 업데이트를 위한 모델이 만들어짐을 나타내는 확인 표시가 있습니까?
+### 모델이 빌드될 때까지 90(Control)/10(Targeted) 분할이 있는 자동 Target을 사용하는 것이 권장됩니까?
 
-아니요, 모델 생성에 대한 확인 표시는 지금까지 만들어진 모델만 보여줍니다. 돌아가서 모델이 완료된 때를 확인할 수 있는 방법은 없습니다.
+최적의 트래픽 할당은 달성하고자 하는 사항에 따라 달라집니다.
+
+가능한 많은 트래픽을 개인화하는 것이 목표인 경우 활동의 평생 동안 90%의 타깃팅과 10%의 제어를 유지할 수 있습니다. 사용자 지정 알고리즘과 컨트롤의 성능을 비교한 실험을 실행하는 것이 목표인 경우, 50/50 분할이 활동 수명 동안 가장 적합합니다.
+
+방문자가 타깃팅된 경험과 제어 경험 간을 전환하지 않도록 활동의 수명 동안 트래픽 할당 분할을 유지하는 것이 좋습니다.
+
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### 방문자가 [!UICONTROL 자동 타겟] 활동을 보지 않고 전환하는 경우 활동에서 전환이 카운트됩니까?
 
