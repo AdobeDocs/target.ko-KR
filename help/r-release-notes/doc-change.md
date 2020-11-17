@@ -4,10 +4,10 @@ description: 이 페이지에는 Adobe Target 설명서에 대한 중요한 변�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '2994'
-ht-degree: 29%
+source-wordcount: '3020'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 17년 11월 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;방문자가 A4T를 사용하는 자동 Target 활동에서 서로 다른 방문에서 타깃팅된 경험과 제어된 경험 간을 전환할 수 있습니까?&quot; |
 |  | [자동 Target 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;모델이 빌드될 때까지 90(Control)/10(Targeted) 분할이 있는 자동 Target을 사용하는 것이 권장됩니까?&quot; |
+|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;A4T를 사용하는 자동 Target 활동에서 Analytics와 전환 크레딧에서 어떻게 방문이 계산됩니까?&quot; |
 | 13년 11월 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.3.3에 대한 정보가 추가되었습니다. |
 | 10년 11월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 11월 11일로 예정된 Adobe Target 커뮤니티 Q&amp;A 커피 휴식에 대한 정보가 추가되었습니다. |
 | 3년 11월 | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 다음 문제 해결 항목을 업데이트했습니다.&quot;필요한 보고서 세트가 표시되지 않습니다.&quot; |
