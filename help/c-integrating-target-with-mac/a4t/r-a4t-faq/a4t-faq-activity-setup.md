@@ -4,10 +4,10 @@ description: 이 주제에서는 활동 설정과 Analytics를 Target의 보고 
 title: 활동 설정 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 35%
+source-wordcount: '432'
+ht-degree: 42%
 
 ---
 
@@ -47,10 +47,3 @@ visitorId가 방문 간 방문자에 대해 변경되지 않는다고 가정할 
 
 * 트래픽의 타깃팅된 &quot;버킷&quot;에 참여한 후, 기계 학습 모델에서 새 방문에 대해 다른 경험이 적절하다고 판단하는 경우 방문자를 방문에서 방문으로 다른 경험으로 보낼 수 있습니다.
 * 경험 할당은 방문자 visitorId의 결정적 의사 임의 해시를 기반으로 하므로 트래픽의 &quot;버킷&quot; 컨트롤에 할당되면 방문자는 항상 동일한 경험을 보게 됩니다.
-
-## 모델이 빌드될 때까지 90(Control)/10(Targeted) 분할이 있는 자동 Target 및 A4T에 사용자 정의 모델을 사용하는 것이 권장됩니까?
-
-최적의 트래픽 할당은 달성하고자 하는 사항에 따라 달라집니다.
-
-가능한 많은 트래픽을 개인화하는 것이 목표인 경우 활동의 평생 동안 90%의 타깃팅과 10%의 제어를 유지할 수 있습니다. 사용자 지정 알고리즘과 컨트롤의 효과를 비교하는 실험을 실행하는 것이 목표인 경우 50/50 분할이 가장 적합합니다.
-
