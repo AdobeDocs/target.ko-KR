@@ -4,15 +4,15 @@ description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(
 title: 보고서 보기 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '1986'
-ht-degree: 61%
+source-wordcount: '2177'
+ht-degree: 56%
 
 ---
 
 
-# 보고서 보기 - A4T FAQ{#view-reports-a-t-faq}
+# 보고서 보기 - A4T FAQ
 
 This topic contains answers to questions that are frequently asked about viewing reports when using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
@@ -135,3 +135,16 @@ The following list explains reasons why the same visitor could be counted in mul
 Changing the traffic allocation percentage in an activity after activation can cause inconsistent reporting in [!DNL Analytics] because the change impacts only new visitors. 재방문자는 영향을 받지 않습니다.
 
 활성화 이후 비율을 변경하는 대신 기존 활동을 중지한 다음 새 활동을 만드는 것이 우수 사례로 권장됩니다. 새 활동에 대한 보고는 새 방문자로 시작되며, 재방문자의 데이터로 인해 일관되지 않은 보고 문제가 발생하지는 않습니다.
+
+## A4T를 사용하는 자동 Target 활동에서 Analytics와 전환 크레딧에서 어떻게 방문이 계산됩니까?
+
+방문자가 활동을 위해 자격이 부여되면 모든 전환 크레딧이 향후 해당 활동에 연결됩니다.
+
+다음 사항을 고려하십시오.
+
+* 전환이 분석 창 외부에서 발생하면 보고서에 전환이 표시되지 않습니다. 보고 창은 활동의 시작 날짜부터 시작해야 합니다.
+* 활동이 제공하는 컨텐츠가 표시되지 않더라도 방문자 카운트를 증가시키지 않는 방문자는 활동 [!DNL Analytics]에서 제공한 컨텐츠를 볼 수 있습니다.
+* 방문자가 다른 방문에서 여러 경험에 대해 자격이 되는 경우 전환 크레딧은 마지막으로 본 경험으로 적용됩니다.
+* 활동에 대한 초기 항목이 분석 창 이전에 발생하는 경우 이후 방문 및 전환은 여전히 분석 창에 계산됩니다. 그러나 이 경우 보고서가 기울어질 수 [!DNL Analytics] 있습니다.
+* 활동은 추가되고 목록 변수로 작용합니다.그러나 경험은 덮어쓰기되지만 전환에 대한 크레딧은 마지막으로 본 경험으로 적용됩니다.
+* 방문자가 후속 방문에서 활동을 다시 시작하는 경우 한 명의 방문자가 두 개의 다른 경험에 대한 방문을 늘릴 수 있습니다.
