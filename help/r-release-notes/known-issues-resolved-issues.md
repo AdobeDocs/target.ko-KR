@@ -4,17 +4,17 @@ description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
 workflow-type: tm+mt
-source-wordcount: '3895'
-ht-degree: 78%
+source-wordcount: '3957'
+ht-degree: 76%
 
 ---
 
 
 # 알려진 문제 및 해결된 문제
 
-이 릴리스의 Target에 대한 알려진 문제 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
+알려진 문제에 대한 정보입니다 [!DNL Adobe Target]. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 
 >[!NOTE]
 >
@@ -127,6 +127,12 @@ Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표
 ### &quot;처리&quot; 레이블을 표시하는 이미지 오퍼
 
 오퍼 페이지의 이미지 오퍼에는 이미지가 업로드된 후 몇 시간 동안 &quot;처리&quot; 레이블이 유지되는 경우가 있습니다. 대부분의 경우 레이블에만 문제가 발생합니다.이미지 오퍼는 여전히 활동에 사용할 수 있으며 배달됩니다. 그러나 일부 경우에는 컨텐츠 바꾸기 > 이미지 작업에 이미지 오퍼를 사용할 수 없을 수도 있습니다. 이러한 경우 이미지 오퍼를 다시 업로드하고 몇 시간 후에 이미지 오퍼를 교체할 수 있는지 확인해야 합니다. (TGT-37458)
+
+### 보고 - 다운로드 가능한 .csv 보고서와 Target UI에 표시된 보고서의 데이터가 일치하지 않습니다.
+
+활동에 둘 이상의 지표가 사용되는 경우 .csv 파일로 다운로드하기 위해 생성된 보고서가 일치하지 않습니다. 다운로드 가능한 보고서는 보고서 설정만을 기반으로 생성되며 사용된 다른 지표에 대해 동일한 값을 고려합니다.
+
+진실의 근원은 항상 [!DNL Target] UI에 표시되는 보고서입니다.
 
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
