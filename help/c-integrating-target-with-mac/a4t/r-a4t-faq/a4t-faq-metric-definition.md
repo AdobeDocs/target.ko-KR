@@ -4,15 +4,15 @@ description: 이 주제에서는 지표 정의와 Analytics를 Target(A4T)의 �
 title: 지표 정의 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '262'
-ht-degree: 100%
+source-wordcount: '367'
+ht-degree: 65%
 
 ---
 
 
-# 지표 정의 - A4T FAQ{#metric-definitions-a-t-faq}
+# 지표 정의 - A4T FAQ
 
 이 주제에서는 지표 정의와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
@@ -20,9 +20,15 @@ ht-degree: 100%
 
 기본적으로 방문자가 마지막으로 활동과 상호 작용한 후 90일이 지나면 해당 활동이 만료됩니다. 이 기간은 필요에 따라 ClientCare에서 조정할 수 있습니다. 이 설정값은 모든 활동에 적용되지만 하나의 사례에 맞게 조정하지 않아야 합니다.
 
-## Target에 있는 성공 지표의 고급 옵션을 A4T에 사용할 수 있습니까? {#section_F060E3438F4144258BB95813EDEABDAA}
+## 목표 지표를 구성하는 동안 고급 설정 옵션에 액세스할 수 없는 이유는 무엇입니까? {#adv-settings}
 
-이 옵션은 현재 A4T에서 사용할 수 없습니다.
+보고 소스(A4T) [!UICONTROL 로 사용하는 활동에는 고급 설정] [!DNL Analytics] 옵션을 사용할 수 없습니다.
+
+A4T를 사용하는 활동의 경우 목표 지표는 항상 &quot;[!UICONTROL 증분 카운트 및 사용자 활동]유지&quot; 및 &quot;[!UICONTROL 모든 노출]시&quot; 설정을 사용합니다. 이 설정은 *구성할 수 없습니다* .
+
+A4T 이외의 활동의 경우 [고급 설정 옵션을](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) 사용하여 성공을 측정하는 방법을 관리할 수 있습니다. 옵션에는 종속성 추가, 사용자를 활동에 유지할지 또는 제거할지 여부, 참가자당 한 번 또는 모든 노출에서 지표를 계산할지 여부 선택 등이 포함됩니다. 아래와 같이 세로 줄임표 > [!UICONTROL 고급 설정을] 클릭하여 A4T 이외의 활동에서 고급 설정 옵션에 액세스합니다.
+
+![고급 설정](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
 
 ## 계산된 지표는 무엇이며 이전에 사용했던 SiteCatalyst:Event mbox를 어떻게 대체합니까? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
