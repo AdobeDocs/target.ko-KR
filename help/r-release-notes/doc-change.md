@@ -4,9 +4,9 @@ description: 이 페이지에는 Adobe Target 설명서에 대한 중요한 변�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3093'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 24년 11월 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음과 같은 알려진 문제가 추가되었습니다.<ul><li>[보고 - 다운로드 가능한 .csv 보고서와 Target UI에 표시된 보고서의 데이터가 일치하지 않습니다.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>다음과 같은 해결된 문제가 추가되었습니다.<ul><li>[A4T(Analytics for Target) 보고](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [지표 정의 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;목표 지표를 구성하는 동안 고급 설정 옵션에 액세스할 수 없는 이유는 무엇입니까?&quot; |
+|  | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md) | A4T를 사용하는 활동에 대한 메모의 텍스트를 조정했습니다. |
 | 17년 11월 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;방문자가 A4T를 사용하는 자동 Target 활동에서 서로 다른 방문에서 타깃팅된 경험과 제어된 경험 간을 전환할 수 있습니까?&quot; |
 |  | [자동 Target 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;모델이 빌드될 때까지 90(Control)/10(Targeted) 분할이 있는 자동 Target을 사용하는 것이 권장됩니까?&quot; |
 |  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;A4T를 사용하는 자동 Target 활동에서 Analytics와 전환 크레딧에서 어떻게 방문이 계산됩니까?&quot; |
