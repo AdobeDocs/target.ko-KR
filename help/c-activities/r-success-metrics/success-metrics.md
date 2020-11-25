@@ -4,15 +4,15 @@ description: Adobe Target에서 성공 지표는 활동의 성공을 측정하�
 title: Adobe Target의 성공 지표
 feature: success metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '1129'
-ht-degree: 48%
+source-wordcount: '1138'
+ht-degree: 47%
 
 ---
 
 
-# 성공 지표{#success-metrics}
+# 성공 지표
 
 In [!DNL Adobe Target] success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a [!DNL Target] activity.
 
@@ -28,7 +28,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->보고 소스 [(A4T)로](/help/c-integrating-target-with-mac/a4t/a4t.md) Analytics를 사용하는 활동에 대한 기본 동작은 &quot;[!UICONTROL 참가자당]1회&quot;와 함께 &quot;사용자 활동[!UICONTROL 유지&quot;입니다].
+>Analytics [를 보고 소스](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)로 사용하는 활동의 경우 목표 지표는 항상 &quot;[!UICONTROL 증분 카운트 및 사용자 활동]유지&quot; 및 &quot;[!UICONTROL 모든 노출]시&quot; 설정을 사용합니다. 이 설정은 *구성할 수 없습니다* .
 
 다음과 같은 성공 지표를 사용할 수 있습니다.
 
