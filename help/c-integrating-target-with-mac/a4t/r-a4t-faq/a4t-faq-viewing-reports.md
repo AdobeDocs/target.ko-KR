@@ -4,10 +4,10 @@ description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(
 title: 보고서 보기 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 55%
+source-wordcount: '2280'
+ht-degree: 53%
 
 ---
 
@@ -31,6 +31,12 @@ For detailed information and examples, open the [Analytics &amp; Target: Best Pr
 [!DNL Target]에 보내진 [!DNL Analytics] 변수에는 기본 90일 만료 기간이 있습니다. (참고:필요한 경우 고객 지원 센터에서 이 만료 기간을 조정할 수 있습니다.) 방문자가 이 만료 기간 동안 사이트를 탐색하면 많은 [!DNL Target] 활동의 일부이며 이 모든 활동이 차원에서 수집됩니다.
 
 따라서 히트에 나타낼 활동을 세그먼트화하면 해당 활동의 일부인 모든 경험과 해당 히트에 지속적인 다른 경험 *을* 얻게 됩니다.
+
+## 목표 지표를 구성하는 동안 고급 설정에 액세스할 수 없는 이유는 무엇입니까?
+
+보고 소스(A4T) [!DNL Analytics] 로 사용하는 활동의 경우 목표 지표는 항상 &quot;[!UICONTROL 증분 카운트 및 사용자 활동]유지&quot; 및 &quot;모든 노출[!UICONTROL 시]&quot; 설정을 사용합니다. 이 설정은 *구성할 수 없습니다* .
+
+자세한 내용은 &quot;목표 지표를 구성하는 동안 고급 설정 옵션에 액세스할 수 없는 이유는 무엇입니까?&quot;를 참조하십시오. in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## 방문자, 방문 또는 활동 노출 수를 표준화 지표(예: 계산 방법)로 사용해야 합니까? {#metrics}
 
