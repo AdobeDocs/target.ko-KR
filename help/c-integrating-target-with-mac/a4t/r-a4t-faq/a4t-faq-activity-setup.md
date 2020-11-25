@@ -4,10 +4,10 @@ description: 이 주제에서는 활동 설정과 Analytics를 Target의 보고 
 title: 활동 설정 - A4T FAQ
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 42%
+source-wordcount: '498'
+ht-degree: 36%
 
 ---
 
@@ -19,6 +19,12 @@ This topic contains answers to questions that are frequently asked about activit
 ## 어느 활동 유형이 보고 소스로서 Analytics(A4T)를 지원합니까?{#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 전체 목록이 필요하면 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)에서 &quot;지원되는 활동 유형&quot;을 참조하십시오.
+
+## 목표 지표를 구성하는 동안 고급 설정에 액세스할 수 없는 이유는 무엇입니까?
+
+보고 소스(A4T) [!DNL Analytics] 로 사용하는 활동의 경우 목표 지표는 항상 &quot;[!UICONTROL 증분 카운트 및 사용자 활동]유지&quot; 및 &quot;모든 노출[!UICONTROL 시]&quot; 설정을 사용합니다. 이 설정은 *구성할 수 없습니다* .
+
+자세한 내용은 &quot;목표 지표를 구성하는 동안 고급 설정 옵션에 액세스할 수 없는 이유는 무엇입니까?&quot;를 참조하십시오. in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## 방금 활동을 만들었습니다. 수신되는 데이터가 표시되지 않는 이유는 무엇입니까? {#section_9F8092BE4225442896F926540292F221}
 
