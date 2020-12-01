@@ -4,9 +4,9 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target �
 title: Target 공지
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
 workflow-type: tm+mt
-source-wordcount: '417'
+source-wordcount: '402'
 ht-degree: 0%
 
 ---
@@ -24,16 +24,15 @@ Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시
 
 점점 더 많은 마케터, 제품 소유자 및 개발자는 사이트, 앱 등 고객과 교류하는 모든 곳에서 전반적인 고객 경험을 최적화해야 합니다. 데이터 분산 및 복잡한 구현이 가능한 여러 툴로 인해 많은 작업이 수월해집니다.
 
-이 라이브 웨비나에서 Adobe Target 제품 전문가와 함께 지연 없이 디바이스에서 실행되어야 하는 중요한 경험 최적화 의사 결정이 새로운 활용 사례를 여는 동시에 고객을 위한 사이트 성능을 향상시킬 수 있는 방법을 논의합니다.
+이 녹화된 웨비나에서는 Adobe Target 제품 전문가들이 지연 없이 디바이스에서 실행되어야 하는 중요한 경험 최적화 의사 결정을 내림으로써 새로운 활용 사례를 여는 동시에 고객의 사이트 성능을 향상시킬 수 있는 방법을 설명합니다.
 
-* **2020년 11월 10일 화요일**
-* **오전 10시(태평양 표준시) | 12 오후 CST | 오후 1시 EST**
+>[!VIDEO](https://video.tv.adobe.com/v/328148)
 
 [이 흥미로운 이벤트에 등록하십시오.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## 웨비나:HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법
 
-* **웨비나 레코딩을 보려면 여기를 [클릭하십시오](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **웨비나 [레코딩을 보려면 여기를 클릭하십시오](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital은 &quot;지난 5년간 소비자 및 비즈니스 디지털 채택이 8주 만에 급증했다고 보고했습니다.&quot; *
 
@@ -49,4 +48,6 @@ McKinsey Digital은 &quot;지난 5년간 소비자 및 비즈니스 디지털 �
 
 ## Adobe Target 스킬 빌더:개발자 채팅, Adobe Target의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
-2021년 1월 18일에 mbox.js의 사용 중단 사태가 임박하자 David Son, Adobe Target 제품 관리자는 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다. 웨비나 레코딩은 여기에서 [볼 수 있습니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+2021년 1월 18일에 mbox.js의 사용 중단 사태가 임박하자 David Son, Adobe Target 제품 관리자는 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 논의했습니다.
+
+[웨비나 레코딩을 여기에서](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)확인하십시오.
