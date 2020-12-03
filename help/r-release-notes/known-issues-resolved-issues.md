@@ -4,9 +4,9 @@ description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 translation-type: tm+mt
-source-git-commit: f80a1c3e27eee3310da69a92b8ffe0e0d94f9796
+source-git-commit: 16a626878cab97dd81b22d3d2a170df80a025afb
 workflow-type: tm+mt
-source-wordcount: '4326'
+source-wordcount: '4327'
 ht-degree: 70%
 
 ---
@@ -73,7 +73,7 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 * API를 통해 생성된 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다. (TGT-35777)
 * API를 통해 생성된 Recommendations 활동은 사용자 인터페이스에서 볼 수 있지만 API를 통해서만 편집할 수 있습니다.
 * 기준 목록(카드) 보기에 표시된 사용자 지정 기준 피드 상태는 10분마다 새로 고침되며 특수한 상황에서 10분 이상 걸릴 수 있습니다. 사용자 지정 기준 편집 보기에 표시된 상태를 실시간으로 가져오며 상태는 항상 최신입니다. (TGT-35896, TGT-36173)
-* 기준 및 디자인 카드에는 사용 중인 활동의 수가 올바로 표시되지 않습니다. AB 활동에서 기준 또는 디자인을 사용하는 경우, 활동은 고려되지 않으며 카드는 디자인/기준이 실제로 사용되지 않음을 보여줄 수 있습니다.
+* 기준 및 디자인 카드에는 사용 중인 활동의 수가 올바로 표시되지 않습니다. A/B 활동에서 기준이나 디자인을 사용하는 경우, 활동에 디자인이나 기준을 사용하더라도 디자인이 사용되지 않음을 카드에서 잘못 보여줄 수 있습니다.
 
 ### MVT(다변량 테스트) 활동
 
