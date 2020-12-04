@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.targe
 title: adobe.target.trackEvent(옵션)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 78%
@@ -33,13 +33,13 @@ ht-degree: 78%
 
 ## 예
 
-```
+```javascript
 <a href="https://asite.com">click me!</a> 
 ```
 
 여기에 `trackEvent`을 지정하기 위한 javaScript 코드가 추가됩니다.
 
-```
+```javascript
 <script> 
 $('a').click(function(event){ 
   adobe.target.trackEvent({'mbox':'homePageHero'}) 
@@ -49,7 +49,7 @@ $('a').click(function(event){
 
 또는:
 
-```
+```javascript
 adobe.target.trackEvent({ 
     "mbox": "clicked-cta", 
     "params": { 
