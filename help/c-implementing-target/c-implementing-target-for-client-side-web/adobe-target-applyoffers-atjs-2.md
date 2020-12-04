@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.targe
 title: adobe.target.applyOffers(options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '791'
 ht-degree: 95%
@@ -73,7 +73,7 @@ ht-degree: 95%
 
 ## applyOffers() 호출 예
 
-```
+```javascript
 adobe.target.applyOffers({response:{
   "execute": {
     "pageLoad": {
@@ -110,7 +110,7 @@ adobe.target.applyOffers({response:{
 
 ## `getOffers()` 및 `applyOffers()`가 Promise 기반이므로 이 함수를 사용하는 Promise 체인 호출 예
 
-```
+```javascript
 adobe.target.getOffers({...})
 .then(response => adobe.target.applyOffers({ response: response }))
 .then(() => console.log("Success"))
