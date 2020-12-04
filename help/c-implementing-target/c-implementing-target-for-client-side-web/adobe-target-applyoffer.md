@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.targe
 title: adobe.target.applyOffer(옵션)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# adobe.target.applyOffer(옵션) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
+# adobe.target.applyOffer(옵션)
 
 이 함수는 응답 컨텐츠를 적용하는 데 사용됩니다.
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 다음 예제는 `getOffer` 및 `applyOffer`를 함께 사용하는 방법을 보여 줍니다.
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "mbox",   
   "success": function(offers) {           
