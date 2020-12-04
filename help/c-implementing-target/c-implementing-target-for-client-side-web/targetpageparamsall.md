@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript 라이브러리에 대한 targetPageP
 title: targetPageParamsAll()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '141'
 ht-degree: 87%
@@ -28,7 +28,7 @@ ht-degree: 87%
 
 Ampersand-delimited 목록(값은 URL으로 인코딩되어야 함):
 
-```
+```javascript
 function targetPageParamsAll() { 
     return "param1=value1&param2=value2&p3=hello%20world"; 
 }
@@ -36,7 +36,7 @@ function targetPageParamsAll() {
 
 배열(값은 URL으로 인코딩될 필요가 없음):
 
-```
+```javascript
 targetPageParamsAll = function() { 
      return ["a=1", "b=2", "c=hello world"]; 
 };
@@ -44,7 +44,7 @@ targetPageParamsAll = function() {
 
 JSON(값은 URL으로 인코딩될 필요가 없음):
 
-```
+```javascript
 targetPageParamsAll = function() { 
   return { 
     "a": 1, 
