@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.targe
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 92%
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 활동 노출 횟수 및 기타 지표를 늘리기 위해 Target 백엔드로 알림을 전송하는 `triggerView()` 호출.
 
-```
+```javascript
 adobe.target.triggerView("homeView")
 ```
 
@@ -38,6 +38,6 @@ adobe.target.triggerView("homeView")
 
 노출 계산을 위해 Target 백엔드에 전송된 알림을 전송하지 않은 `triggerView()` 호출.
 
-```
+```javascript
 adobe.target.triggerView("homeView", {page: false})
 ```
