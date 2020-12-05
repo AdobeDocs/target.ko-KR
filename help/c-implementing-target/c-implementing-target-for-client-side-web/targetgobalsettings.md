@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGloba
 title: targetGlobalSettings()
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '1698'
 ht-degree: 38%
@@ -192,7 +192,7 @@ This function can be defined before at.js is loaded or in **[!UICONTROL Administ
 
 라이브러리 헤더 필드에는 자유 형식 JavaScript를 입력할 수 있습니다. 사용자 지정 코드는 다음 예제와 유사해야 합니다.
 
-```
+```javascript
 window.targetGlobalSettings = {  
    timeout: 200, // using custom timeout  
    visitorApiTimeout: 500, // using custom API timeout  
@@ -228,7 +228,7 @@ window.targetGlobalSettings = {
 
 다음 예제에서는 데이터 공급자가 동기화 실행을 사용하는 위치를 보여 줍니다.
 
-```
+```javascript
 var syncDataProvider = { 
   name: "simpleDataProvider", 
   version: "1.0.0", 
@@ -248,7 +248,7 @@ at.js가 `window.targetGlobalSettings.dataProviders`를 처리하면 Target 요�
 
 다음은 Target 요청에 추가하려는 매개 변수를 Bluekai, Demandbase 등과 같은 서드 파티 서비스에서 가져오는 경우의 예입니다.
 
-```
+```javascript
 var blueKaiDataProvider = { 
    name: "blueKai", 
    version: "1.0.0", 
@@ -271,7 +271,7 @@ at.js가 `window.targetGlobalSettings.dataProviders`를 처리한 후에 Target 
 
 다음 예제에서는 데이터 공급자를 사용하여 날씨 API 데이터를 수집하고 Target 요청에 매개 변수로 전송합니다. Target 요청에는 `country` 및 `weatherCondition`과 같은 추가 매개 변수가 사용됩니다.
 
-```
+```javascript
 var weatherProvider = { 
       name: "weather-api", 
       version: "1.0.0", 
@@ -323,7 +323,7 @@ at.js 2.3.0+는 배달된 Target 오퍼을 적용할 때 페이지 DOM에 첨부
 
 at.js 2.3.0+ 로딩 전에 SCRIPT 및 STYLE 원본을 `targetGlobalSettings.cspScriptNonce` in `targetGlobalSettings.cspStyleNonce` 과 이에 따라 설정해야 합니다. 아래 예를 참조하십시오.
 
-```
+```javascript
 ...
 <head>
  <script nonce="<script_nonce_value>">
@@ -355,7 +355,7 @@ window.targetGlobalSettings = {
 
 이 작동 방식을 보다 잘 이해하려면 아래 코드 예제를 통해 서버에 게시해 주십시오. 이 코드에서는 사용자가 [Target Node.js SDK를 사용하고 있다고 가정합니다](https://github.com/adobe/target-nodejs-sdk).
 
-```
+```javascript
 // First, we fetch the offers via Target Node.js SDK API, as usual
 const targetResponse = await targetClient.getOffers(options);
 // A successfull response will contain Target Delivery API request and response objects, which we need to set as serverState
