@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.targe
 title: adobe.target.getOffer(옵션)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '455'
 ht-degree: 97%
@@ -30,7 +30,7 @@ ht-degree: 97%
 
 getOffer()와 함께 매개 변수 추가 및 성공 처리를 위해 applyOffer() 사용
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -51,7 +51,7 @@ adobe.target.getOffer({
 
 getOffer()와 함께 매개 변수 및 프로필 매개 변수 추가, 성공 처리를 위해 applyOffer() 사용
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "target-global-mbox", 
   "params": { 
@@ -76,7 +76,7 @@ getOffer()와 함께 사용자 지정 시간 초과 및 사용자 지정 성공 
 
 &quot;YOUR_OWN_CUSTOM_HANDLING_FUNCTION&quot;은 고객이 정의하는 함수의 자리 표시자입니다.
 
-```
+```javascript
 adobe.target.getOffer({     
   "mbox": "target-global-mbox",   
   "success": function(offer) { 
@@ -102,7 +102,7 @@ adobe.target.getOffer({
 
 ## 예
 
-```
+```javascript
 { 
     "sessionId": "1444512212156-384616", 
     "tntId": "1444512212156-384616.17_35", 
