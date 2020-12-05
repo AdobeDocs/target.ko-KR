@@ -4,7 +4,7 @@ description: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 �
 title: at.js 사용자 지정 이벤트
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '577'
 ht-degree: 96%
@@ -40,7 +40,7 @@ mbox 요청 또는 오퍼가 실패하거나 성공하는 경우를 알려주는
 
 ## 사용 {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
-```
+```javascript
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) { 
   console.log('Event', event); 
 });
