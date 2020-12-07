@@ -4,7 +4,7 @@ description: 프로필 속성을 사용하여 두 개 이상의 활동을 비교
 title: 프로필 스크립트를 사용하여 상호 배타적인 활동 테스트
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 81%
@@ -29,7 +29,7 @@ ht-degree: 81%
 
 방문자를 각각 다른 활동이 표시되는 그룹으로 정렬하려면 프로필 속성을 만들어야 합니다. 프로필 속성은 방문자를 둘 이상 그룹의 하나로 정렬할 수 있습니다. &quot;twogroups&quot;라는 프로필 속성을 설정하려면 다음 스크립트를 만드십시오.
 
-```
+```javascript
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
     if (ran_number <= 49) { 
@@ -60,7 +60,7 @@ After you create the profile attribute, set up the first activity to target the 
 
 예를 들어 그룹을 4개 만들려면 다음 JavaScript를 사용하십시오.
 
-```
+```javascript
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
     if (ran_number <= 24) { 
@@ -87,7 +87,7 @@ if (!user.get('fourgroups')) {
 
 예를 들어 방문자를 동일한 그룹 3개에 배치하려면 다음 코드를 사용하십시오.
 
-```
+```javascript
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
     if (ran_number <= 32.33) { 
