@@ -4,7 +4,7 @@ description: Adobe Analytics를 Target(A4T)의 보고 소스로 구현할 때 �
 title: Analytics for Target 구현
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 49%
@@ -60,7 +60,7 @@ See [Implement the Experience Cloud ID Service for Target](https://experiencelea
 
 at.js의 경우:
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ However, if you want more control on how and when to send analytics data related
 
 예:
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 이 설정에는 전역 효과가 있습니다. 즉, at.js에 의한 모든 호출에는 요청 내에 전송된 **analyticsLogging: &quot;client_side&quot;**&#x200B;가 있으며 모든 요청마다 Analytics 페이로드가 반환됩니다. [!DNL Target] 이 기능이 설정되면 반환되는 페이로드의 형식은 다음과 같이 나타납니다.
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ window.targetGlobalSettings = {
 
 예:
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ adobe.target.getOffers({
 
 응답은 다음과 같습니다.
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
