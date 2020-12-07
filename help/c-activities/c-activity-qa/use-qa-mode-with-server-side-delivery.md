@@ -4,7 +4,7 @@ description: 서버 측 전달과 함께 QA URL을 사용하여, 변경되지 �
 title: 활동 QA 및 서버 측 전달 사용
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
@@ -20,7 +20,7 @@ ht-degree: 88%
 
 다음 코드 샘플은 서버 측 호출의 활동 QA를 보여 줍니다.
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
