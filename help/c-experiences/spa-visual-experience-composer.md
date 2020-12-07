@@ -4,7 +4,7 @@ description: Adobe Target에서 SPA(단일 페이지 앱)용 VEC(시각적 경�
 title: SPA(단일 페이지 앱) 시각적 경험 작성기
 feature: spa vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
@@ -88,7 +88,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    마케터는 전체 홈 사이트에서 A/B 테스트를 실행하려는 경우 URL에서 추출할 수 있는 &quot;홈&quot; 보기의 이름을 지정할 수 있습니다.
 
-   ```
+   ```javascript
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
    
@@ -119,7 +119,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    ![React 제품](/help/c-experiences/assets/react4.png)
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -150,7 +150,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    이제 마케터는 빠른 배달을 선택했을 때 단추 색상을 두 배달 선택 사항 모두에 대해 파란색으로 유지하는 것과 대조적으로 색상을 파란색에서 빨간색으로 변경하는 것이 전환을 더 끌어올릴 수 있을지 여부를 확인하기 위해 A/B 테스트를 실행할 수 있습니다.
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -293,7 +293,7 @@ at.js 2.x의 일반적인 워크플로우는 사이트가 로드될 때 사이�
 
 at.js 2.x에서 지원되는 새로운 `getOffers()` 및 `applyOffers()` 함수를 사용할 수 있습니다.
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
   prefetch: {
