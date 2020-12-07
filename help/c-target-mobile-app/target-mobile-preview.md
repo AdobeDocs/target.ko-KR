@@ -4,7 +4,7 @@ description: 모바일 미리 보기 링크를 사용하여 모바일 앱 활동
 title: Adobe Target Mobile에서 모바일 미리 보기 링크 사용
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 94%
@@ -49,7 +49,7 @@ ht-degree: 94%
 
    다음 코드 조각은 예제입니다.
 
-   ```
+   ```javascript
    - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
                 options:(NSDictionary<NSString *,id> *)options { 
    
@@ -63,7 +63,7 @@ ht-degree: 94%
 
    **Android:** 앱에서 호출자가 이전 단계에서 지정된 URL 체계로 리소스를 열도록 요청받으면 `Config.trackAdobeDeepLink(URL);`을 호출합니다.
 
-   ```
+   ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
         Intent appLinkIntent = getIntent(); 
         String appLinkAction = appLinkIntent.getAction(); 
@@ -78,7 +78,7 @@ ht-degree: 94%
 
    모바일 미리 보기가 Android에 대해 작동되도록 하려면 [!DNL AndroidManifest.xml]에 다음 코드 조각도 추가해야 합니다.
 
-   ```
+   ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
