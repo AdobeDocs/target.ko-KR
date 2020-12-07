@@ -4,7 +4,7 @@ description: 이메일을 권장 사항과 통합하는 방법에 대한 정보�
 title: 이메일에 권장 사항 통합
 feature: recommendations general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 91%
@@ -28,7 +28,7 @@ ht-degree: 91%
 
 다음 코드는 샘플 API 게재 요청입니다.
 
-```
+```javascript
 curl -X POST \ 
   'https://clientcode.tt.omtrdc.net/rest/v1/mbox/?client=clientcode' \ 
   -H 'authorization: Bearer 3423614b-4843-4664-83c4-c6c3f6c8869b' \ 
