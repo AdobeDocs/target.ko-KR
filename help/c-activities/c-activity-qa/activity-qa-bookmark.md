@@ -4,7 +4,7 @@ description: Adobe Target QA 북마클릿을 사용하여 Target이 QA 모드에
 title: Adobe Target용 활동 QA 북마클릿
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 11%
@@ -26,7 +26,7 @@ Because [QA mode](/help/c-activities/c-activity-qa/activity-qa.md) is sticky, af
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         if (window.location.href.indexOf('?') != -1) {
@@ -55,7 +55,7 @@ at.js 1과 대조됩니다.*x*, at.js 2.*x* a는 타사 쿠키를 지원하지 �
 
 To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser&#39;s Bookmarks Toolbar:
 
-```
+```javascript
 javascript:(
     function () {
         var AT_QA_MODE = 'at_qa_mode=';
