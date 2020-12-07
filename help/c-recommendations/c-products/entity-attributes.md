@@ -4,7 +4,7 @@ description: 개체 특성을 사용하여 제품 또는 컨텐츠 정보를 Ado
 title: 엔티티 속성
 feature: entities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 88%
@@ -40,7 +40,7 @@ Use entity attributes to pass product or content information to [!DNL Adobe Targ
 
 모든 개체 매개 변수 속성은 대소문자를 구분합니다.
 
-```
+```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
  
 mboxCreate('productPage', 
@@ -120,7 +120,7 @@ Singe 값만 사용합니다.
 
 예를 들어 다음 코드에서 Womens 카테고리는 일부 하위 카테고리로 구분됩니다.
 
-```
+```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
@@ -223,7 +223,7 @@ mbox 호출이 알고리즘에 대한 행동 데이터 카운터를 증분하지
 
 아래 예제에서 첫 번째 mbox 호출은 카탈로그 및 행동 데이터를 업데이트합니다. 두 번째 mbox 호출은 카탈로그만 업데이트합니다.
 
-```
+```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
