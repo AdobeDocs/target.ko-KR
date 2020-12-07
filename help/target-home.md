@@ -5,10 +5,10 @@ description: Target 안내서의 홈 페이지를 봅니다.
 seo-description: Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 Adobe Experience Cloud 솔루션입니다.
 feature: landing
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: e1d0ac580eb33d3cb3d177b6b7aa3a91e72e62e5
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '703'
+ht-degree: 62%
 
 ---
 
@@ -19,13 +19,15 @@ ht-degree: 63%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜: 2020년 11월 24일([변경 사항 보기](r-release-notes/doc-change.md))**
+**마지막 업데이트:2020년 12월 7일 ( [변경된 내용](r-release-notes/doc-change.md) 참조)**
 
 >[!NOTE]
 >
->**Adobe, 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정**
+>Adobe Target은 최근 다음과 같은 보고서에서 리더로 임명되었다.
 >
->Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 평가 결과,비전의 완전성과 실행 능력. [Adobe 블로그에서 확인할 수 있습니다](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+>**[경험 최적화 플랫폼을 위한 Forrester wave 보고서](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target은 &#39;포레스터 웨이브&#39;에서 리더로 선정되었습니다.경험 최적화 플랫폼, 2020년 4분기 보고서
+>
+>**[Gartner Magic Quadrant에서 개인화 엔진 개발](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target은 2020년 발표된 3분기 &quot;개인화 엔진 부문 Gartner Magic Quadrant&quot;에서 다시 리더로 선정되었습니다.
 
 다음 섹션에서는 일반적인 직무에 따라 의도된 대상별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
