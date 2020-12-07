@@ -4,7 +4,7 @@ description: Adobe Experience Cloud 사람 핵심 서비스의 고객 특성을 
 title: Adobe Target의 고객 속성
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 37%
@@ -131,7 +131,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPageParams()` method. The value of `mbox3rdPartyId` should be set to the customer ID that was present in the CSV data file.
 
-```
+```javascript
 <script type="text/javascript">
             function targetPageParams() {
                return 'mbox3rdPartyId=2000578';
@@ -156,7 +156,7 @@ You might encounter the following issues when working with customer attributes a
 >
 >문제 1과 2는 이 지역의 약 60%의 문제를 야기합니다. 문제 3은 약 30%의 문제를 야기합니다. 문제 4는 약 5%의 문제를 야기합니다. 나머지 5%는 기타 문제로 인해 발생합니다.
 
-### 문제 1:프로필이 너무 커서 고객 속성이 제거됩니다
+### Issue 1: Customer attributes are removed because the profile is too large
 
 사용자 프로필의 특정 필드에 대해 문자 제한이 없지만 프로필이 64K보다 커지면 다시 64K보다 작아질 때까지 가장 오래된 속성을 제거하여 잘립니다.
 
