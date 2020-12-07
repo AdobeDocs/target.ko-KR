@@ -4,7 +4,7 @@ description: 페이지 수정 사항을 보고 추가로 수정(CSS 선택기, �
 title: 수정 사항
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -113,7 +113,7 @@ ht-degree: 100%
 
    예를 들어, 요소의 색상을 변경하려는 경우 다음과 같습니다.
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ ht-degree: 100%
 
    예를 들어, 오버레이 요소를 위한 클래스를 정의하려는 경우 다음과 같습니다.
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ ht-degree: 100%
 
    예를 들어, 위에 정의된 CSS 클래스를 사용하는 오버레이 `<div>`를 작성하려면 다음 HTML 코드 조각을 사용하십시오.
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * DOM Ready 시 교체, jQuery 사용
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ ht-degree: 100%
 
 * DOM Ready 시 교체, jQuery 없음(Internet Explorer 8을 지원하지 않음)
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ ht-degree: 100%
 
    이 작업의 장점은 교체가 DOM Ready보다 일찍 발생한다는 것입니다. 플러그인은 사전 숨기기 및 표시를 처리하며, 요소에 ID가 필요합니다.
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ ht-degree: 100%
 
 * 기존 매개 변수, `s_tnt` 매개 변수(Analytics에 대한 이전 통합용), 레퍼러 매개 변수 및 mbox 세션을 전달하는 사용자 지정 리디렉션
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ ht-degree: 100%
 
 예:
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>
