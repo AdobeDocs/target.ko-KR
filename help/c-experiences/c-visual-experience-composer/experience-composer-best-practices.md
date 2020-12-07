@@ -4,7 +4,7 @@ description: 다음 우수 사례는 경험이 예상대로 작동하도록 하�
 title: 시각적 경험 작성기 우수 사례 및 제한 사항
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -135,7 +135,7 @@ target.js에 의한 경험 적용 전에 수정 사항이 적용되지 않으면
 
 예를 들어 코드가 다음과 같은 경우에는 VEC에서 Shopping Cart란 텍스트를 타깃팅할 수 없습니다.
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ target.js에 의한 경험 적용 전에 수정 사항이 적용되지 않으면
 
 웹 사이트에서 iframe 버스팅 기술을 끄고 더미 페이지의 iframe 내에서 웹 사이트가 예상대로 열리는지 확인하십시오. 예:
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ mbox에 오퍼가 포함된 경우 mbox가 잘못 구현되면 요소를 삽입�
 
 예를 들어, 페이지에 다음 내용이 포함된 경우,
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ mbox 요소에서 이미지를 교체한 다음, mbox 요소 크기에 따라 �
 
 *잘못된 코드:*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ mbox 요소에서 이미지를 교체한 다음, mbox 요소 크기에 따라 �
 
 *올바른 코드:*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ mbox 요소에서 이미지를 교체한 다음, mbox 요소 크기에 따라 �
 
 일부 더미 텍스트와 함께 &#39;customHeaderMessage&#39; div 내부에 앵커 요소를 추가합니다.
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ mbox 요소에서 이미지를 교체한 다음, mbox 요소 크기에 따라 �
 
 이미지 삽입 후 모습은 다음과 같습니다.
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 
