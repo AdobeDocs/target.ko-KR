@@ -4,7 +4,7 @@ description: 이 주제에서는 시각적 경험 작성기(VEC)에서 편집할
 title: 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -20,7 +20,7 @@ ht-degree: 100%
 
 1. 정적 HTML 자리 표시자를 만듭니다.
 
-   ```
+   ```html
    <ul>
    <li class="show"> slide 1 </li>
    <li class="hidden"> slide 2 </li>
