@@ -4,7 +4,7 @@ description: 이 섹션에서는 PostHoc 세그멘테이션을 위해 Adobe Anal
 title: Adobe Analytics으로 Adobe Target 활동 정보 보내기
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '366'
 ht-degree: 30%
@@ -27,13 +27,13 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    If you include a string like the following in your experience content, [!DNL Target] returns the activity information that you can send to [!DNL Analytics]:
 
-   ```
+   ```javascript
    ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}
    ```
 
    경험 json 코드의 텍스트를 다음 예와 같이 다른 것으로 바꾸십시오.
 
-   ```
+   ```javascript
    { 
      "tntVal": ${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}", 
      "title":"Welcome Message", 
@@ -45,7 +45,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    This string delivers a number (such as 115110:0:0) in the response from [!DNL Target]. 이것은 활동 ID, 경험 ID 및 트래픽 유형을 나타냅니다. 다음은 샘플 응답입니다 [!DNL Target].
 
-   ```
+   ```javascript
    { 
      "tntVal": 115110:0:0", 
      "title":"Welcome Message", 
@@ -65,7 +65,7 @@ This section describes how to send [!DNL Target] mobile app activity information
 
    예를 들어 `targetLoadRequest` 호출의 콜백에서 이 호출을 실행할 수 있습니다.
 
-   ```
+   ```javascript
    [ADBMobile trackAction:@"Welcome Screen"  
          data:@{@"&&tnt" : tntVal from response}];
    ```
