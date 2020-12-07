@@ -5,7 +5,7 @@ title: Adobe Target의 사용자 지정 엔티티 속성
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 90%
@@ -73,7 +73,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 다음 예는 `targetPageParams`를 사용하는 방법을 보여줍니다.
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ function targetPageParams() {
 
 배달 API를 사용하여 mbox 매개 변수에 다중 값 특성을 이스케이프된 JSON 배열이 포함된 문자열 값으로 전달할 수 있습니다.
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
