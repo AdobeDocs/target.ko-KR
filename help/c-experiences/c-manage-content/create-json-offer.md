@@ -4,7 +4,7 @@ description: 양식 기반 경험 작성기에서 사용할 오퍼 라이브러�
 title: JSON 오퍼 만들기
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -45,7 +45,7 @@ JSON은 양식 기반 경험 작성기를 사용하여 만든 활동에서만 �
 
 다음은 한 예입니다.
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 성공 콜백에 전달된 작업은 개체의 배열입니다. 다음 컨텐츠가 있는 단일 JSON 오퍼가 있다고 가정하면,
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ adobe.target.getOffer({
 
 작업 배열의 구조는 다음과 같습니다.
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ JSON 오퍼를 추출하려면 작업을 반복하고 `setJson` 작업을 통해
 
 다음 JSON 오퍼가 웹 페이지에 전달된다고 가정하겠습니다.
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ JSON 오퍼를 추출하려면 작업을 반복하고 `setJson` 작업을 통해
 
 다음 코드는 &quot;인사말&quot; 속성에 액세스하는 방법을 보여줍니다.
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 
