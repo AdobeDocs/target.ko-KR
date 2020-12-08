@@ -1,13 +1,13 @@
 ---
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
+description: 사이트 및 프리 프로덕션 환경을 구성하여 Adobe Target에서 손쉽게 관리하고 리포팅할 수 있습니다.
 title: 호스트
 feature: hosts and environments
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1079'
-ht-degree: 27%
+source-wordcount: '1082'
+ht-degree: 26%
 
 ---
 
