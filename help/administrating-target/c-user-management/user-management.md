@@ -1,13 +1,13 @@
 ---
 keywords: add user;manage user;user permissions
-description: Target Standard에서 사용자를 관리하고 Target Premium에서 Enterprise 속성 및 권한을 관리하는 방법에 대한 정보입니다.
+description: Adobe Target Standard의 사용자 관리 및 Adobe Target Premium의 엔터프라이즈 속성 및 권한 관리에 대한 정보입니다.
 title: 사용자 관리
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 25%
+source-wordcount: '228'
+ht-degree: 18%
 
 ---
 
