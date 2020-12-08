@@ -1,13 +1,13 @@
 ---
 keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
-description: 쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
+description: 사이트 및 프리 프로덕션 환경을 구성하여 Adobe Target에서 손쉽게 관리하고 리포팅할 수 있습니다.
 title: 환경
 feature: hosts and environments
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 67%
+source-wordcount: '657'
+ht-degree: 65%
 
 ---
 
