@@ -1,13 +1,13 @@
 ---
 keywords: automated traffic allocation;targeting;auto-allocate
-description: 자동 할당은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.
+description: Adobe Target의 자동 할당 활동은 두 개 이상의 경험에서 우승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 전환율을 높이기 위해 우승자에게 더 많은 트래픽을 자동으로 재할당합니다.
 title: 자동 할당을 사용하면 수동 테스트보다 테스트 결과를 더 빠르게 얻고 매출을 높일 수 있습니다
 feature: auto-allocate
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 5%
+source-wordcount: '551'
+ht-degree: 0%
 
 ---
 
