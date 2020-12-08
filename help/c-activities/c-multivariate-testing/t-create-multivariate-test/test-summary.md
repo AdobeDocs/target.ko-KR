@@ -1,13 +1,13 @@
 ---
 keywords: Overview and Reference
-description: 테스트 요약은 다변량 테스트에 대한 시각적 개요를 제공합니다.
+description: 테스트 요약에서는 Adobe Target 다변수 테스트에 대한 시각적 개요를 제공합니다.
 title: 테스트 요약
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 87%
 
 ---
 
