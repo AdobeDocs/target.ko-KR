@@ -1,11 +1,11 @@
 ---
 description: 다변량 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
-title: 다변량 테스트에 대한 경험 미리 보기
+title: 다변량 테스트에 대한 경험 미리 보기 Adobe Target에서
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '192'
 ht-degree: 100%
 
 ---
