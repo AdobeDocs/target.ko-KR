@@ -1,13 +1,13 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Target UI에서 표시를 보고 자동 할당 A/B 활동에서 승자를 결정합니다.
+description: Adobe Target UI에서 지표를 보고 자동 할당 A/B 활동의 우승자를 결정합니다.
 title: 승자 결정
 feature: auto-allocate
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 49%
+source-wordcount: '1110'
+ht-degree: 48%
 
 ---
 
