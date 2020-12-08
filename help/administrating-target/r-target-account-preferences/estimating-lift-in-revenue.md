@@ -1,13 +1,13 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측할 수 있습니다.
+description: Adobe Target은 모든 사용자가 우승 경험을 보는 경우 달성할 매출 증가를 예측할 수 있습니다.
 title: 매출 상승도 평가
 feature: administration general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 100%
+source-wordcount: '505'
+ht-degree: 96%
 
 ---
 
