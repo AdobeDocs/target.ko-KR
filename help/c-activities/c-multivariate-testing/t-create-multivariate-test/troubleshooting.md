@@ -1,20 +1,20 @@
 ---
 keywords: Mobile Web Experience Editor
-description: 이 주제에는 MVT 테스트를 디자인할 때 발생할 수 있는 몇 가지 문제를 해결하기 위한 제안 사항이 포함되어 있습니다.
+description: 이 항목에서는 Adobe Target에서 MVT 테스트를 디자인할 때 발생할 수 있는 일부 문제를 해결하기 위한 제안을 제공합니다.
 title: 다변량 테스트 문제 해결
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 77%
 
 ---
 
 
 # 다변량 테스트 문제 해결{#troubleshoot-multivariate-tests}
 
-이 주제에는 MVT 테스트를 디자인할 때 발생할 수 있는 몇 가지 문제를 해결하기 위한 제안 사항이 포함되어 있습니다.
+이 항목에서는 Adobe Target에서 MVT 테스트를 디자인할 때 발생할 수 있는 일부 문제를 해결하기 위한 제안을 제공합니다.
 
 * 활동을 편집할 때 Analytics 기반 지표를 사용하며 보고서 세트가 로드되지 않는 경우(회전기 표시) 해당 지표를 Target 지표로 전환한 다음, 다시 Analytics 기반 지표로 전환하십시오. 이제 보고서 세트가 로드됩니다.
 * 이미 실행 중인 테스트를 변경하는 경우 테스트 및 해당 데이터를 재설정할 수 있습니다.
