@@ -4,9 +4,9 @@ description: Target Spuit Builder 세션, 개발자 채팅, 웨비나, Target �
 title: Target 공지
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시
 이 녹화된 웨비나에서는 Adobe Target 제품 전문가들이 지연 없이 디바이스에서 실행되어야 하는 중요한 경험 최적화 의사 결정을 내림으로써 새로운 활용 사례를 여는 동시에 고객의 사이트 성능을 향상시킬 수 있는 방법을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[이 흥미로운 이벤트에 등록하십시오.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## 웨비나:HSBC가 Adobe Target 및 AI를 활용하여 개인화를 신속하게 최적화하고 규모에 맞게 전달하는 방법
 
