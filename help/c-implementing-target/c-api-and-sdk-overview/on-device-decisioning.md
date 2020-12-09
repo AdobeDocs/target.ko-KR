@@ -4,9 +4,9 @@ description: '장치 내 의사 결정 기능을 사용하면 Adobe Target Edge 
 title: 디바이스 내 의사 결정
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ ht-degree: 0%
 * 장치 내 의사 결정에 필요한 키 구성이 포함된 샘플 Node.JS SDK 코드를 표시합니다.
 * 브라우저에서 결과 표시
 
-이 비디오 끝까지 다음을 수행할 수 있습니다.
-
-* 디바이스 내 의사 결정 및 이점 설명
-* 장치에서 직접 의사 결정 사용 [!DNL Target]
-* 장치 내 의사 결정 시 사용할 양식 기반 컴포저 활동 만들기
-* [Adobe Target SDK 설명서를 방문하여 장치 내 의사 결정에 필요한 SDK 구성에 대한 자세한 내용](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* 디바이스 내 의사 결정 기능을 사용하여 전달되는 컨텐츠에 대한 최종 사용자 경험 이해
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+비디오 및 자습서에 대한 자세한 내용은 [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) 가이드를 참조하십시오.
