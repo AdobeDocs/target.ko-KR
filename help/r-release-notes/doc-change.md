@@ -4,9 +4,9 @@ description: 이 페이지에는 Adobe Target 설명서에 대한 중요한 변�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '3115'
+source-wordcount: '3120'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 9년 12월 | [디바이스 내 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 새 주제입니다.  |
 | 1년 12월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | &quot;Adobe Target의 디바이스 내 의사 결정을 통해 지연 없이 개인화 및 테스트&quot;를 위한 웨비나 녹화가 포함되었습니다. |
 | 24년 11월 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음과 같은 알려진 문제가 추가되었습니다.<ul><li>[보고 - 다운로드 가능한 .csv 보고서와 Target UI에 표시된 보고서의 데이터가 일치하지 않습니다.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>다음과 같은 해결된 문제가 추가되었습니다.<ul><li>[A4T(Analytics for Target) 보고](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [지표 정의 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;목표 지표를 구성하는 동안 고급 설정 옵션에 액세스할 수 없는 이유는 무엇입니까?&quot; |
