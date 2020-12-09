@@ -4,10 +4,10 @@ description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Prem
 title: 'Adobe Target 릴리스 노트(현재) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 27%
+source-wordcount: '905'
+ht-degree: 28%
 
 ---
 
@@ -44,7 +44,7 @@ at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항이 
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [디바이스 내 의사 결정](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 디바이스 내 의사 결정 기능을 사용하면 마케터와 제품 개발자 모두 사용자의 디바이스 내에서, 모든 채널에서 거의 지연 없이 머신 러닝 기반의 개인화를 전달할 수 있습니다.<br>고객 인사이트와 사용자 만족도에 따라 업무 속도와 성능이 중요합니다.<br>장치 내 의사 결정 기능을 사용하면 A/B 테스트 및 경험 타깃팅(XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 장치에 로드되는 &quot;최적화 객체:&quot; JSON 객체로 컴파일할 수 있습니다. 또한 디바이스 내 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되므로 [!DNL Target] 사용자는 신속한 분석과 빠른 경험 반복을 경험할 수 있습니다.<br>자세한 내용은 *[Adobe Target SDK 가이드에서](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* 장치 내 의사 결정 *소개를 참조하십시오*.<br>다음은 녹화된 웨비나를 시청하십시오. [Adobe Target에서 디바이스 의사 결정](https://video.tv.adobe.com/v/328148?quality=12&autoplay=true&learn=on&captions=kor) |
+| [디바이스 내 의사 결정](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 디바이스 내 의사 결정 기능을 사용하면 마케터와 제품 개발자 모두 사용자의 디바이스 내에서, 모든 채널에서 거의 지연 없이 머신 러닝 기반의 개인화를 전달할 수 있습니다.<br>고객 인사이트와 사용자 만족도에 따라 업무 속도와 성능이 중요합니다.<br>장치 내 의사 결정 기능을 사용하면 A/B 테스트 및 경험 타깃팅(XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 장치에 로드되는 &quot;최적화 객체:&quot; JSON 객체로 컴파일할 수 있습니다. 또한 디바이스 내 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되므로 [!DNL Target] 사용자는 신속한 분석과 빠른 경험 반복을 경험할 수 있습니다.<br>자세한 내용은 *[장치 내 의사 결정을 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
 
 이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
 
