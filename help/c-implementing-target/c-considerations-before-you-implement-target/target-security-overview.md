@@ -4,15 +4,15 @@ description: 데이터 및 Adobe Target 경험의 보안을 강화하기 위해 
 title: Target 보안 개요
 feature: privacy and security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: e05ac05a5cbf8da42f7e16d472d1adfd280c85c3
 workflow-type: tm+mt
 source-wordcount: '157'
-ht-degree: 94%
+ht-degree: 92%
 
 ---
 
 
-# Target 보안 개요{#target-security-overview}
+# Target 보안 개요
 
 데이터 및 Adobe Target 경험의 보안을 강화하기 위해 Adobe에서 구현한 심층적인 접근 방식 및 보안 절차에 대한 정보입니다.
 
