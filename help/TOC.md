@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있도록 고객의 경험을 맞춤화 및 개인화하는 방법을 살펴볼 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1567'
 ht-degree: 86%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 86%
    + 서버 측: Target 구현 {#server-side}
       + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target의 이전 API에서 Adobe I/O로 전환](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+      + [디바이스 내 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [하이브리드 구현](/help/c-implementing-target/hybrid-implementation.md)
    + 이메일: Target 구현 {#implement-email}
       + [이메일: Target 구현 개요](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
