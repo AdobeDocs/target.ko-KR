@@ -75,7 +75,7 @@ at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션�
 
 ## 내 웹 서버가 내 URL에서 이러한 매개 변수를 제거하고 있습니다.어떻게 해야 합니까? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
+이러한 매개 변수( `adobe_mc_sdid` 및 `adobe_mc_ref`)를 사용하려면 IT 팀과 함께 작업해야 허용 목록에추가된 합니다.
 
 ## 리디렉션 활동에 A4T를 사용하고 있지 않고 이러한 추가 매개 변수를 내 URL에 추가하지 않으려면 어떻게 합니까? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -89,11 +89,11 @@ A4T와 리디렉션 오퍼를 사용하는 경우, Target에서는 `adobe_mc_ref
 
 방문자 API에서 `adobe_mc_sdid` 값을 디코딩하려 할 때 이러한 이중 인코딩이 발생하면 SDID 값이 추출되지 않고 새 SDID가 생성됩니다. 결국 잘못된 SDID 값이 Target과 Analytics에 전송되고, Analytics 보고서에서는 리디렉션에 대한 분할이 균일하지 않게 나타납니다.
 
-We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
+IT 팀에 문의하여 이러한 값이 어떤 방식으로든 변형되지 않도록 `adobe_mc_ref` 및 `adobe_mc_sdid`허용 목록에추가된이 되도록 하는 것이 좋습니다.
 
 ## 참조 URL을 새 페이지에 전달해야 하는 이유는 무엇입니까? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
+방문자가 리디렉션 활동이 라이브되는 홈 페이지(`www.mysite.com/index.html`)에 대한 링크를 클릭하고 새 페이지(`www.mysite.com/index2.html`)로 리디렉션한다고 가정해 보십시오.[!DNL `www.google.com`]
 
 이전이라면 새 페이지에 대한 [!DNL Analytics] 요청에서 [!DNL `www.mysite.com/index.html`]이 아니라 [!DNL `www.google.com`]을 참조 URL로 보고했을 것입니다. 이로 인해 참조 URL과 관련하여 [!DNL Analytics]에 정확하지 않은 보고가 발생했습니다(예를 들어 마케팅 채널 보고서에서). 보고서는 [!DNL `www.google.com`]을 통해 이 사이트에 왔다는 실제 정보를 잃어버린 것입니다.
 
