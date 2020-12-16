@@ -1,7 +1,7 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
 description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 Adobe Target VEC(Visual Experience Composer)를 구성합니다.
-title: Adobe Target 시각적 경험 컴포저 구성
+title: Adobe Target Visual Experience Composer 구성
 feature: administration general
 translation-type: tm+mt
 source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
@@ -12,11 +12,11 @@ ht-degree: 51%
 ---
 
 
-# Visual Experience Composer 구성
+# 시각적 경험 작성기 구성
 
-일반 설정, [!DNL Adobe Target] 모바일 [!UICONTROL 뷰포트 구성 및 CSS 선택기] 를 지정하여 VEC(Visual Experience Composer)를 구성합니다.
+일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)를 구성합니다.
 
-Visual Experience [!UICONTROL Composer] 구성 페이지에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL Visual Experience Composer를 클릭합니다].**
+[!UICONTROL Visual Experience Composer] 구성 페이지에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL Visual Experience Composer]를 클릭합니다.**
 
 >[!NOTE]
 >
@@ -38,32 +38,32 @@ Visual Experience [!UICONTROL Composer] 구성 페이지에 액세스하려면 *
 
 ### 고급 경험 작성기 활성화 {#eec}
 
-iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 향상된 버전과 호환되지 않을 수 있습니다. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
+iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 향상된 버전과 호환되지 않을 수 있습니다. 원래 [!UICONTROL Visual Experience Composer]로 되돌리려면 이 옵션을 선택 해제합니다. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
 
 자세한 내용은 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
-You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
+활동 수준에서 [!UICONTROL 향상된 경험 작성기]를 활성화할 수도 있습니다.
 
 ### 혼합 콘텐츠 로드
 
-Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+[!UICONTROL 향상된 경험 작성기](EEC)를 사용하여 웹 사이트를 여는 동안 혼합 컨텐츠를 활성화합니다. 이 옵션을 활성화하면 [!DNL Target] 프록시 서버를 통해 정적 리소스를 로드하는 추가 오버헤드가 발생하지 않습니다.
 
 이 옵션은 다음과 같은 경우에 유용합니다.
 
 * CSP(Content Security Policy) 헤더를 통해 EEC가 활성화된 프록시 서버를 사용하지 않고도 혼합 컨텐츠를 로드할 수 있습니다.
-* HTTP 웹 사이트는 프록시를 통해 JavaScript, 이미지 등을 로드하는 데 시간이 걸리는 EEC의 로드 시간이 증가합니다.
+* HTTP 웹 사이트는 프록시를 통해 JavaScript, 이미지 등을 로드하는 데 시간이 더 걸리는 EEC의 로드 시간이 증가합니다.
 
 ### 활동 흐름 다이어그램에서 경험 스냅샷 생성
 
 경험 스냅샷을 활성화하면 활동 워크플로우 다이어그램에서 경험에 대한 썸네일이 생성됩니다. 스냅샷을 비활성화하면 일부 사용자의 경우 성능이 더 빨라질 수 있습니다.
 
-## ![프리미엄 배지](/help/assets/premium.png) 모바일 뷰포트 구성
+## ![프리미엄 ](/help/assets/premium.png) 배지모바일 뷰포트 구성
 
 경험을 미리 볼 때 사용할 장치를 추가할 수 있습니다. 각 장치에는 연결된 대상이 있습니다.
 
 ![모바일 뷰포트 구성 섹션](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click [!UICONTROL Save].
+**[!UICONTROL 추가]**&#x200B;를 클릭하고 모바일 뷰포트의 설명형 이름을 지정하고 너비와 높이를 지정한 다음 원하는 운영 체제를 선택한 다음 [!UICONTROL 저장]을 클릭합니다.
 
 모바일 뷰포트를 추가하는 방법에 대한 내용은 [모바일 뷰포트 구성](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)을 참조하십시오.
 
@@ -93,7 +93,7 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->Overriding the setting per activity is not available in [!UICONTROL Automated Personalization] and [!UICONTROL Multivariate Testing] activities.  선택기에 대한 추가 정보는 ](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기[를 참조하십시오.
+>활동당 설정을 재정의할 수 없습니다. [!UICONTROL Automated Personalization] 및 [!UICONTROL Multivariate Testing] 활동에서 사용할 수 없습니다.  선택기에 대한 추가 정보는 ](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기[를 참조하십시오.
 
 ## 교육 비디오:계정 기본 설정(7:33) ![개요 배지](/help/assets/overview.png)
 
@@ -103,6 +103,6 @@ Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, 
 
 >[!NOTE]
 >
->관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하고, 제품 전반의 사용자 경험을 개선하기 위해 다시 설계되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전의 [!UICONTROL 설치])가 향상된 성능을 제공하고, 새 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반의 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
