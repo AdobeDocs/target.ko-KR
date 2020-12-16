@@ -20,7 +20,7 @@ TLS에 대한 추가적으로 중요한 정보는 [TLS(전송 계층 보안) 암
 
 ## [!DNL Target] Standard/Premium 인터페이스 {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-The [!DNL Target] interface supports the following browsers and devices:
+[!DNL Target] 인터페이스는 다음 브라우저 및 장치를 지원합니다.
 
 | 장치 유형 | 브라우저 버전 |
 |--- |--- |
@@ -41,5 +41,5 @@ The [!DNL Target] interface supports the following browsers and devices:
 
 * [!DNL at.js] 구현의 경우, [!DNL Target]은 Internet Explorer 이전 버전 및 위에 나열된 브라우저의 이전 버전에서 기본 콘텐츠를 표시합니다. [!DNL mbox.js] 구현의 경우 [!DNL Target]은 콘텐츠를 렌더링하려고 시도하지만 성공하지 못할 수 있습니다.
 * Internet Explorer에서는 알 수 없는 모든 요소(예: 사용자 지정 요소)를 동일한 요소 유형으로 취급합니다. 따라서 사용자 지정 요소에서는 배달이 작동하지 않습니다.
-* [!DNL Target] 은 quirks 모드를 사용하여 위에 나열되지 않은 브라우저와 브라우저에서 기본 [컨텐트를 표시합니다](https://en.wikipedia.org/wiki/Quirks_mode). at.js에는 표준 모드에서 렌더링되는 문서 형식(예: `<!DOCTYPE html>`)이 필요합니다.
+* [!DNL Target] 는 위 목록에 없는 브라우저와 quirks 모드를 사용하는 브라우저에 기본  [컨텐트를 표시합니다](https://en.wikipedia.org/wiki/Quirks_mode). at.js에는 표준 모드에서 렌더링되는 문서 형식(예: `<!DOCTYPE html>`)이 필요합니다.
 * Adobe Delivery 인프라는 2018년 9월 12일 이후에 TLS 1.0 장치 및 브라우저를 지원하지 않도록 보호됩니다. 이러한 변경의 전반적 영향에 대해 이해하려면 [TLS(전송 계층 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)을 참조하십시오.
