@@ -1,6 +1,6 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: 데이터를 .csv 형식으로 다운로드하여 Adobe Target을 사용하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 신속하게 가져올 수 있습니다.
+description: Adobe Target을 사용하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 데이터를 신속하게 가져올 수 있도록 데이터를 .csv 형식으로 다운로드합니다.
 title: Adobe Target을 사용하여 CSV 파일로 데이터 다운로드
 feature: reports
 translation-type: tm+mt
@@ -41,11 +41,11 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->CSV 보고서에는 원시 데이터만 포함되며 방문자당 매출, 리프트 또는 A/B 테스트에 사용되는 신뢰도와 같은 계산된 지표는 포함되지 않습니다. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>CSV 보고서에는 원시 데이터만 포함되며 방문자당 매출, 리프트 또는 A/B 테스트에 사용된 신뢰도와 같은 계산된 지표는 포함되지 않습니다. 이러한 계산된 지표를 계산하려면 Target [완전한 신뢰도 계산기](/help/assets/complete_confidence_calculator.xlsx) Excel 파일을 다운로드하여 활동 값을 입력하거나 Target](/help/assets/statistical-calculations.pdf)에 사용되는 [통계 계산을 검토하십시오.
 
 ## 주문 세부 사항을 CSV로 내보내기 {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-주문 세부 사항 보고서는 다음을 포함한 주문에 대한 정보를 보여줍니다.
+주문 상세 정보 보고서는 다음을 포함한 주문에 대한 정보를 보여줍니다.
 
 * 주문 날짜 및 시간
 * 주문 수량(mbox 주문하기를 삽입한 경우)
