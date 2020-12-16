@@ -14,7 +14,7 @@ ht-degree: 52%
 
 # 이전 구현에서 글로벌 mbox를 사용{#use-a-global-mbox-from-a-legacy-implementation}
 
-By default, [!DNL Target] creates a global mbox called target-global-mbox, which is used to run activities created in [!DNL Target]. 하지만, 이미 페이지에서 이전 구현을 위한 mbox를 만든 경우, [!DNL Target] 활동에 이 mbox를 사용할 수 있습니다.
+기본적으로 [!DNL Target]은 [!DNL Target]에서 만든 활동을 실행하는 데 사용되는 target-global-mbox라는 글로벌 mbox를 만듭니다. 하지만, 이미 페이지에서 이전 구현을 위한 mbox를 만든 경우, [!DNL Target] 활동에 이 mbox를 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -22,26 +22,26 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 [!DNL Target]와 레거시 구현 둘 다에 기존 글로벌 mbox를 사용하려면, 몇 개의 매개 변수를 설정해야 합니다.
 
-1. Go to [!DNL Target], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. [!DNL Target]으로 이동한 다음 **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 
-   By default, **[!UICONTROL Page load enabled (Auto-create global mbox]** is enabled, and the custom global mbox is named `target-global-mbox`.
+   기본적으로 **[!UICONTROL 페이지 로드가 활성화되어 있습니다(글로벌 mbox]** 자동 만들기 기능이 활성화되어 있고 사용자 지정 글로벌 mbox의 이름은 `target-global-mbox`입니다.
 
-1. If you want to use an existing mbox, disable **[!UICONTROL Page load enabled (Auto-create global mbox]**, and specify the name of a previously created global mbox in the **[!UICONTROL Global Mbox]** field.
+1. 기존 mbox를 사용하려면 **[!UICONTROL 페이지 로드가 활성화됨(글로벌 mbox]** 자동 만들기)을 비활성화하고 **[!UICONTROL 글로벌 mbox]** 필드에 이전에 만든 글로벌 mbox의 이름을 지정합니다.
 
-   The [!UICONTROL Global Mbox] drop-down lists all mboxes in your account. 아직 존재하지 않는 mbox를 사용하려면 mbox를 만듭니다.
+   [!UICONTROL 글로벌 mbox] 드롭다운에는 계정의 모든 mbox가 나열됩니다. 아직 존재하지 않는 mbox를 사용하려면 mbox를 만듭니다.
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    계정에 대한 mbox.js 설정이 업데이트됩니다.
 
-1. 새로운 at.js 파일을 다운로드하여 사이트에서 참조합니다.
+1. 새 at.js 파일을 다운로드하여 사이트에서 참조합니다.
 
    모든 기존 활동은 이전에 만들어서 구현한 활동을 포함하여, 지정된 글로벌 mbox를 사용하도록 업데이트됩니다.
 
 ## 글로벌 mbox 구현 문제 해결
 
-다음 FAQ를 사용하여 전역 mbox 구현 문제를 해결할 수 있습니다.
+다음 FAQ를 사용하여 글로벌 mbox 구현 문제를 해결할 수 있습니다.
 
 ### 글로벌 mbox가 로드되지 않거나 페이지 로드 시 글로벌 mbox 로드가 느려지는 이유는 무엇입니까?
 
-at.js 참조가 페이지의 첫 번째 JavaScript 호출인지 확인하십시오. 이 문제에 대한 다른 해결 방법은 [글로벌 mbox FAQ를 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).
+at.js 참조가 페이지에서 첫 번째 JavaScript 호출인지 확인합니다. 이 문제에 대한 다른 해결 방법은 [글로벌 mbox FAQ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)를 참조하십시오.
