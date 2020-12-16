@@ -14,7 +14,7 @@ ht-degree: 88%
 
 # at.js 작동 방식{#how-at-js-works}
 
-To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
+[!DNL Adobe Target] 클라이언트측을 구현하려면 at.js JavaScript 라이브러리를 사용해야 합니다.
 
 클라이언트측 [!DNL Adobe Target]의 구현에서 [!DNL Target]은 활동과 연관된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, VEC([시각적 경험 작성기](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)) 또는 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)인 비-시각적 인터페이스를 사용하여 테스트 및 개인화 경험을 만들 수 있습니다.
 
@@ -24,7 +24,7 @@ To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript 
 
 자세한 내용은 [Target JavaScript 라이브러리](/help/c-intro/how-target-works.md#libraries)를 참조하십시오.
 
-In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. 또한 Experience Cloud 핵심 서비스로서 다이내믹 태그 관리(활성화), 대상 및 방문자 ID 서비스가 구현되었습니다.
+아래 표시된 [!DNL Target] 구현에서 다음 [!DNL Adobe Experience Cloud] 솔루션이 구현됩니다.분석, Target 및 Audience Manager 또한 Experience Cloud 핵심 서비스로서 다이내믹 태그 관리(활성화), 대상 및 방문자 ID 서비스가 구현되었습니다.
 
 ## at.js 1의 차이점은 무엇입니까?*x* 및 at.js 2.x 워크플로우 다이어그램의 차이점은 무엇입니까?
 
@@ -48,7 +48,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | 3 | 모든 구성된 매개 변수(MCID, SDID 및 고객 ID)를 포함하는 페이지 로드 요청이 이루어집니다. |
 | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 대상 라이브러리의 적절한 대상(예: Adobe Analytics, Audience Management 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 묶음 프로세스를 통해 프로필 저장소로 전송됩니다. |
 | 5 | [!DNL Target]에서는 URL 요청 매개 변수 및 프로필 데이터를 기반으로 현재 페이지 및 미래 보기를 위해 방문자에게 반환할 활동 및 경험을 결정합니다. |
-| 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>현재 페이지의 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다.<br>SPA의 사용자 작업으로 인해 표시되는 보기의 타깃팅된 컨텐츠는 브라우저에 캐시되므로 뷰를 통해 트리거할 때 추가 서버 호출 없이 즉시 적용할 수 있습니다 `triggerView()`. |
+| 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>현재 페이지의 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다.<br>SPA에서 사용자 작업으로 인해 표시되는 보기에 대한 타깃팅된 컨텐츠는 브라우저에 캐시되므로 뷰를 통해 트리거할 때 추가 서버 호출 없이 즉시 적용할 수 있습니다 `triggerView()`. |
 | 7 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 8 | 타깃팅된 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다.그런 다음 <br>Analytics 데이터는 Analytics for Target (A4T) 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
 
@@ -60,7 +60,7 @@ In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe
 | --- | --- |
 | 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
 | 2 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
-| 3 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 1 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
 | 5 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
@@ -71,7 +71,7 @@ at.js 2.x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experie
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-자세한 [내용은 at.js 2.x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식 이해를 참조하십시오.
+자세한 내용은 [at.js 2.x의 작동 방식 이해](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)를 참조하십시오.
 
 ## at.js 1.x 다이어그램
 
@@ -80,7 +80,7 @@ at.js 2.x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experie
 | 단계 | 설명 | 호출 | 설명 |
 |--- |--- |--- |--- |
 | 1 | 사용자가 인증되면 호출에서 [!DNL Experience Cloud ID] (MCID)를 반환합니다. 다른 호출은 고객 ID를 동기화합니다. | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다. |
-| 3 | 모든 구성된 매개 변수, MCID, SDID 및 고객 ID(선택 사항)를 포함하는 글로벌 mbox 요청이 이루어집니다. | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 [!UICONTROL 대상 라이브러리]의 적절한 대상(예: [!DNL Adobe Analytics], [!DNL Audience Manager] 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 배치 프로세스를 통해 [!DNL Profile Store]로 전송됩니다. |
+| 1 | 모든 구성된 매개 변수, MCID, SDID 및 고객 ID(선택 사항)를 포함하는 글로벌 mbox 요청이 이루어집니다. | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 [!UICONTROL 대상 라이브러리]의 적절한 대상(예: [!DNL Adobe Analytics], [!DNL Audience Manager] 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 배치 프로세스를 통해 [!DNL Profile Store]로 전송됩니다. |
 | 5 | [!DNL Target]에서는 URL, mbox 매개 변수 및 프로필 데이터를 기반으로 방문자에게 반환할 활동 및 경험을 결정합니다. | 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>경험은 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 7 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. | 8 | [!DNL Target] 데이터는 SDID를 통해 [!DNL Analytics] 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다.<br>[!DNL Analytics]그런 다음  데이터는 [!DNL Analytics] (A4T) 보고서를 통해 [!DNL Target]및 [!DNL Analytics for Target] 모두에서 볼 수 있게 됩니다. |
 
