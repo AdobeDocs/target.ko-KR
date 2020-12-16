@@ -49,7 +49,7 @@ ht-degree: 93%
 
 >[!NOTE]
 >
->CPA에 적용되는 데이터에 액세스하고 삭제하면 GDPR과 동일한 프로세스가 따릅니다.
+>CPA에 적용되는 데이터에 액세스하고 삭제하면 GDPR과 동일한 프로세스가 적용됩니다.
 
 ## Adobe Target 및 [!DNL Experience Platform Launch] 선택 {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -73,7 +73,7 @@ window.targetGlobalSettings = {
 
 1. **[!DNL Launch]를 통해 사전 승인된 [!DNL Target] 태그(또는 이전에 승인된 [!DNL Target]의 데이터 주체):** [!DNL Target] 태그는 예상대로 동의 및 기능을 위해 유지되지 않습니다.
 1. **[!DNL Target] 태그가 사전 승인되지 않으며 `bodyHidingEnabled`가 FALSE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 동의를 받은 후 [!DNL Target]을 호출하여 데이터 주체(방문자)에 대해 개인화된 콘텐츠를 사용할 수 있습니다. 동의 전에는 기본 콘텐츠만 사용할 수 있으므로 페이지의 모든 부분을 포함하는 스플래시 페이지나 개인화된 콘텐츠와 같은 적절한 전략을 활용하는 것이 중요합니다. 이를 통해 데이터 주체(방문자)에 대해 일관성을 유지할 수 있습니다.
-1. **[!DNL Target] 태그가 사전 승인되지 않으며 `bodyHidingEnabled`가 TRUE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 그러나 `bodyHidingEnabled`가 true로 설정되어 있으므로 `bodyHiddenStyle`은 태그가 실행될 때까지 페이지에 어떤 콘텐츠가 숨겨져 있는지 나타냅니다(또는 데이터 주체에서 선택 기능을 거부하며, 이 경우 기본 콘텐츠가 표시됨). [!DNL Target] By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. 권장되는 페이지 구성은 아래에 제시되어 있습니다. 따라서 동의 관리자 대화 상자를 제외한 페이지의 전체 본문을 숨기며, 이는 페이지의 콘텐츠를 한 개의 컨테이너에 넣고 동의 관리자 대화 상자를 별도의 컨테이너에 넣어 실행됩니다. 이 설정은 페이지 콘텐츠 컨테이너만 숨기도록 [!DNL Target]을 구성합니다. 이러한 설정을 구성하는 방법에 대한 자세한 내용은 [ Launch 설명서](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)를 참조하십시오.
+1. **[!DNL Target] 태그가 사전 승인되지 않으며 `bodyHidingEnabled`가 TRUE:** 태그는 고객으로부터 동의가 수집된 후에만 실행됩니다. [!DNL Target] 동의하기 전에는 기본 콘텐츠만 사용할 수 있습니다. 그러나 `bodyHidingEnabled`가 true로 설정되어 있으므로 `bodyHiddenStyle`은 태그가 실행될 때까지 페이지에 어떤 콘텐츠가 숨겨져 있는지 나타냅니다(또는 데이터 주체에서 선택 기능을 거부하며, 이 경우 기본 콘텐츠가 표시됨). [!DNL Target] 기본적으로 `bodyHiddenStyle`은(는) `body { opacity:0;}`로 설정되어 HTML 본문 태그를 숨깁니다. 권장되는 페이지 구성은 아래에 제시되어 있습니다. 따라서 동의 관리자 대화 상자를 제외한 페이지의 전체 본문을 숨기며, 이는 페이지의 콘텐츠를 한 개의 컨테이너에 넣고 동의 관리자 대화 상자를 별도의 컨테이너에 넣어 실행됩니다. 이 설정은 페이지 콘텐츠 컨테이너만 숨기도록 [!DNL Target]을 구성합니다. 이러한 설정을 구성하는 방법에 대한 자세한 내용은 [ Launch 설명서](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)를 참조하십시오.
 
    시나리오 3에 대한 권장 페이지 설정은 다음과 같습니다.
 
@@ -143,11 +143,11 @@ Target과 관련된 유럽연합 일반 데이터 보호 규칙(GDPR), 캘리포
 
 GDPR 및 CCPA로 인해 변경되는 것은 동의를 받아야 하는 시점이 아닌 동의를 받는 방법입니다. 각 고객의 동의 전략은 자체적인 데이터 수집 및 사용 약관과 개인정보 보호정책에 따라 다릅니다. 동의 관리는 지원되지 않으며 GDPR 및 CCPA용 [!DNL Target]을 통해 수행해서는 안 됩니다.
 
-현재 [!DNL Adobe]는 동의 관리 솔루션을 제공하지 않지만, 새로운 요구 사항의 일부를 해결하기 위해 시장에서 여러 가지 도구가 개발되고 있습니다. For more information on privacy tools in general, including consent managers, see the [2017 Privacy Tech Vendor Report](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) on the *International Association of Privacy Professionals (iaap)* website.
+현재 [!DNL Adobe]는 동의 관리 솔루션을 제공하지 않지만, 새로운 요구 사항의 일부를 해결하기 위해 시장에서 여러 가지 도구가 개발되고 있습니다. 동의 관리자를 비롯한 일반적인 개인 정보 보호 도구에 대한 자세한 내용은 *국제 개인 정보 보호 전문가 협회(iaap)* 웹 사이트의 [2017 개인 정보 기술 공급업체 보고서](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf)를 참조하십시오.
 
 [!DNL Target]은 [!DNL Launch]를 통해 동의 관리 전략을 지원하는 데 옵트인 기능을 제공합니다. 선택 기능을 통해 고객이 태그를 실행하는 방법과 시기를 제어할 수 있습니다. [!DNL Target] 또한 [!DNL Launch]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Launch]를 사용하여 선택 기능을 관리하는 것이 좋습니다. [!DNL Launch]에는 동의 전략의 일부로 활용할 수 있는 [!DNL Target] 실행 전에 페이지에서 선택한 요소를 숨기기 위한 세부적인 제어 기능이 추가로 있습니다.
 
-For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). 또한 위의 *Adobe Target 및 Experience Platform Launch 옵트인* 섹션도 참조하십시오.
+GDPR, CPA 및 [!DNL Launch]에 대한 자세한 내용은 [Adobe 개인 정보 보호 JavaScript 라이브러리 및 GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html)을 참조하십시오. 또한 위의 *Adobe Target 및 Experience Platform Launch 옵트인* 섹션도 참조하십시오.
 
 ### AdobePrivacy.js가 GDPR API에 정보를 제출합니까? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -298,4 +298,4 @@ For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy Ja
 
 ### 데이터가 제3자에게 공유되거나 판매되지 않도록 하려면 어떤 조치가 필요합니까?
 
-Target은 고객이 Target에서 제3자에게 직접 데이터를 공유 또는 판매할 수 있는 권한이 없으므로 Target에 대한 판매 수신을 거부할 수 없습니다.
+Target은 고객이 Target에서 제3자에게 직접 데이터를 공유 또는 판매할 수 있는 권한이 없으므로 Target 판매를 거부할 수 없습니다.
