@@ -14,9 +14,9 @@ ht-degree: 17%
 
 # Target 개요 관리{#administer-target}
 
-VEC(Visual Experience Composer), 보고, Scene7 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 관리하는 데 도움이 되는 정보입니다. [!DNL Adobe Target]
+VEC(Visual Experience Composer), 보고, Scene7 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다.
 
-To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
+[!UICONTROL 관리] 메뉴 항목에 액세스하려면 상단 메뉴 막대에서 **[!UICONTROL 관리]**&#x200B;를 클릭한 다음 왼쪽에서 원하는 탭을 클릭합니다.
 
 * [시각적 경험 작성기](/help/administrating-target/visual-experience-composer-set-up.md)
 * [보고](/help/administrating-target/reporting.md)
