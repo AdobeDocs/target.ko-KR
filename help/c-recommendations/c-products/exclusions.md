@@ -1,6 +1,6 @@
 ---
 keywords: exclusions
-description: 제품 또는 컨텐츠가 방문자 [!DNL Adobe Target Recommendations] 에게 권장되지 않도록 제외를 만듭니다.
+description: 제품 또는 컨텐츠가 방문자에게 추천되지 않도록 하려면  [!DNL Adobe Target Recommendations] 에서 제외를 만드십시오.
 title: Adobe Target의 제외
 feature: entities
 translation-type: tm+mt
@@ -14,17 +14,17 @@ ht-degree: 45%
 
 # 제외{#exclusions}
 
-제품 또는 컨텐츠가 방문자에게 추천되지 않도록 [!DNL Adobe Target Recommendations] 하려면 제외를 만듭니다. 제외는 방문자에게 권장되지 않는 제품 또는 컨텐츠의 하위 집합입니다.
+제품 또는 컨텐츠가 방문자에게 추천되지 않도록 하려면 [!DNL Adobe Target Recommendations]에서 제외를 만드십시오. 제외는 방문자에게 권장되지 않는 제품 또는 컨텐츠의 하위 집합입니다.
 
-전체 계정에서 제외를 사용할 수 있습니다. 컬렉션과 달리, [!UICONTROL Recommendations] 활동을 만들 때 각 경험에 대한 특정 컬렉션을 지정하는 경우 계정의 모든 활동에 제외가 적용됩니다. 활동을 만드는 동안 제외 그룹을 할당할 수 있는 옵션이 없습니다.
+제외는 전체 계정에서 사용할 수 있습니다. [!UICONTROL Recommendations] 활동을 만들 때 각 경험에 대한 특정 컬렉션을 지정하는 컬렉션과 달리, 제외는 계정의 모든 활동에 적용됩니다. 활동을 만드는 동안 제외 그룹을 할당할 수 있는 옵션이 없습니다.
 
-제외 사항을 사용하는 경우가 있을 수 있습니다.
+제외를 사용하는 몇 가지 예는 다음과 같습니다.
 
 * 중단된 제품
-* 가을/겨울 카탈로그가 이제 온라인상에 소개되어야 하는 유일한 카탈로그입니다. 여름 카탈로그의 모든 항목은 더 이상 구매할 수 없습니다.
-* 대부분의 페이지/화면에서 권장하는 것이 부적절한 항목(성인 제품, NC-17 동영상 등)
-* 불완전한 메타데이터 필드가 있는 제품(축소판, 가격 또는 기타 중요한 메타데이터 누락)
-* 권장해서는 안 되는 제품(SKU가 구매가 가능한 항목이 아니지만 시스템에 있는 SKU이거나 실제로 주문하지 않고 구매를 시뮬레이션하는 QA 팀의 허위 SKU일 수 있음)
+* 가을/겨울 카탈로그는 이제 온라인상에서 볼 수 있는 유일한 카탈로그입니다. 여름 카탈로그의 모든 항목은 더 이상 구매할 수 없습니다.
+* 대부분의 페이지/화면에서 권장하기에 부적절한 항목(성인 제품, NC-17 동영상 등)
+* 불완전한 메타데이터 필드가 있는 제품(축소판, 가격 또는 기타 중요한 메타데이터 없음)
+* 권장해서는 안 되는 제품(SKU가 특정 용도로 시스템에 존재하지만 구매 가능 항목이 아니거나 실제로 어떤 것을 주문하지 않고 구매를 시뮬레이션하기 위해 QA 팀이 허위 SKU일 수 있음)
 
 >[!IMPORTANT]
 >
@@ -54,7 +54,7 @@ ht-degree: 45%
 
 ## 고급 검색을 사용하여 제외 만들기
 
-You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+[카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md#save-as) 페이지( [!UICONTROL Recommendations] > [!UICONTROL 카탈로그 검색] > [!UICONTROL 고급 검색])에서 [!UICONTROL 고급 검색]을 사용하여 제외를 만들 수도 있습니다.
 
 ![다른 이름으로 저장 대화 상자](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -62,7 +62,7 @@ You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalo
 
 >[!IMPORTANT]
 >
->The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 제외를 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 제외할 의도로 제외를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 제외됩니다. &quot;Holiday&quot;를 포함하는 제품은 제외되지 않습니다.
+>[!UICONTROL 고급 검색] 기능은 대소문자를 구분하지 않습니다.그러나 배달 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 제외를 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 제외할 의도로 제외를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 제외됩니다. &quot;Holiday&quot;를 포함하는 제품은 제외되지 않습니다.
 
 ## 제외 편집, 복사 또는 삭제
 
@@ -70,11 +70,11 @@ You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalo
 
 ![제외에 대해 아이콘 표시](/help/c-recommendations/c-products/assets/hover-exclusions.png)
 
-기존 제외를 복사하여 이후에 수정할 수 있는 중복 제외를 만들 수 있습니다. 이를 통해 유사한 제외를 손쉽게 만들 수 있습니다.
+기존 제외를 복사하여 복제 제외를 만든 다음 수정할 수 있습니다. 이렇게 하면 비슷한 제외를 덜 노력으로 만들 수 있습니다.
 
-전체 계정에서 제외를 사용할 수 있습니다. 제외를 삭제하기 전에 이것을 고려하는지 확인하십시오. 삭제된 제외는 복구할 수 없습니다.
+전체 계정에서 제외를 사용할 수 있습니다. 제외를 삭제하기 전에 이를 고려해야 합니다. 삭제된 제외는 복구할 수 없습니다.
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## 교육 비디오:Recommendations에서 컬렉션 및 제외 만들기(7:05) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
