@@ -50,7 +50,7 @@ ht-degree: 88%
 
 ## 정확도 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-지리 기반의 타깃팅의 정확도는 몇 가지 요인에 의존합니다. WiFi 연결은 셀룰러 네트워크(무선 통신망)보다 더 정확합니다. 방문자가 셀룰러 데이터 연결을 사용하는 경우 지역 조회의 정확도에는 위치, [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)와의 제공자 데이터 관계 및 기타 요인의 영향을 받을 수 있습니다. 셀 타워 기반 네트워크 연결은 유선 또는 WiFi 연결보다 정확도가 떨어질 수 있습니다. 또한 방문자의 IP 주소는 자신의 ISP 위치에 매핑될 수 있으므로 방문자의 실제 위치와 동일하지 않을 수도 있습니다. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+지리 기반의 타깃팅의 정확도는 몇 가지 요인에 의존합니다. WiFi 연결은 셀룰러 네트워크(무선 통신망)보다 더 정확합니다. 방문자가 셀룰러 데이터 연결을 사용하는 경우 지역 조회의 정확도에는 위치, [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester)와의 제공자 데이터 관계 및 기타 요인의 영향을 받을 수 있습니다. 셀 타워 기반 네트워크 연결은 유선 또는 WiFi 연결보다 정확도가 떨어질 수 있습니다. 또한 방문자의 IP 주소는 자신의 ISP 위치에 매핑될 수 있으므로 방문자의 실제 위치와 동일하지 않을 수도 있습니다. 일부 모바일 지리적 위치 문제는 [지리적 위치 API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)를 사용하여 해결할 수 있습니다.
 
 다음 표는 유선 또는 WiFi 인터넷 연결을 위한 [DigitalEnvoy](https://www.digitalelement.com/solutions/)의 IP 기반 지리 정보의 정확도를 보여줍니다. DigitalEnvoy는 해당 산업 분야의 보다 정확한 데이터를 제공합니다. 전역 정확도는 국가 수준에서 99.9%가 넘고, 구/군/시 수준에서는 최대 97%에 이릅니다. 정확도 정보는 셀 타워 기반 네트워크에 적용되지 않습니다.
 
@@ -116,7 +116,7 @@ ht-degree: 88%
 
 **모바일 장치에서 지리 기반의 타깃팅은 어떻게 작동합니까?**
 
-방대한 모바일 장치 사용자가 WiFi를 통해 콘텐츠에 액세스합니다. 즉, Target의 IP 기반, 지리 기반의 타깃팅이 데스크톱만큼 정확합니다. 기지국 기반의 연결은 방문자의 IP 주소가 신호를 선택하는 기지국을 기준으로 하므로 덜 정확할 수 있습니다. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+방대한 모바일 장치 사용자가 WiFi를 통해 콘텐츠에 액세스합니다. 즉, Target의 IP 기반, 지리 기반의 타깃팅이 데스크톱만큼 정확합니다. 기지국 기반의 연결은 방문자의 IP 주소가 신호를 선택하는 기지국을 기준으로 하므로 덜 정확할 수 있습니다. 일부 모바일 지리적 위치 문제는 [지리적 위치 API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API)를 사용하여 해결할 수 있습니다.
 
 **지리 기능은 AOL에서 온 방문자를 어떻게 처리합니까?**
 
@@ -141,17 +141,17 @@ AOL이 트래픽을 프록시하는 방법 때문에 국가 수준에서만 타�
 
 >[!NOTE]
 >
->`mboxOverride.browserIp` 은 at.js 1.jx *에서만* 지원됩니다. 이 기능은 at.js 2에서 지원되지 않습니다.*x*&#x200B;에는 사용할 수 없습니다.
+>`mboxOverride.browserIp` 은 at.js 1.jxonly에서 ** 지원됩니다. 이 기능은 at.js 2에서 지원되지 않습니다.*x*&#x200B;에는 사용할 수 없습니다.
 
 **푸에르토리코 및 홍콩과 같은 지역은 어떻게 지역 타깃팅 구조에 매핑됩니까?**
 
 푸에르토리코, 홍콩 및 기타 지역은 &quot;국가&quot; 값으로 취급됩니다.
 
-**활동이 지리 위치 타깃팅 기능으로 타깃팅될 때 우편번호와 같은 정보를 [!DNL Target] 캡처(및 저장)합니까?**
+**활동이 지역  [!DNL Target] 위치 타깃팅 기능으로 타깃팅될 때 우편번호와 같은 정보를 캡처(및 저장)합니까?**
 
-아니요, 세션 [!DNL Target] 기간 동안 지리 데이터만 사용하면 데이터가 무시됩니다.
+아니요, [!DNL Target]은 세션 기간에 대해서만 지역 데이터를 사용하고 데이터는 무시됩니다.
 
-## 교육 비디오:대상 자습서 ![배지 만들기](/help/assets/tutorial.png)
+## 교육 비디오:대상 만들기 ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 
