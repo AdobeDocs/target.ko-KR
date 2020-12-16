@@ -18,11 +18,11 @@ ht-degree: 76%
 
 ## Adobe Target에 로그인 및 기본 보기 설정
 
-1. Adobe Experience Cloud에 [로그인합니다](https://experience.adobe.com/).
+1. [Adobe Experience Cloud](https://experience.adobe.com/)에 로그인합니다.
 
-1. 탐색 막대에서 **[!UICONTROL 앱 아이콘]** 을 클릭한 다음 **[!UICONTROL Target을 클릭합니다]**.
+1. 탐색 막대에서 **[!UICONTROL 앱 아이콘]**&#x200B;을 클릭한 다음 **[!UICONTROL Target]**&#x200B;을 클릭합니다.
 
-   주 창의 [!DNL Target] 패널을 클릭하여 [!DNL Target] (또는 액세스 권한이 있는 다른 [!DNL Adobe Experience Cloud] 솔루션)에 액세스할 수도 있습니다.
+   기본 창에서 [!DNL Target] 패널을 클릭하여 [!DNL Target](또는 액세스 권한이 있는 다른 [!DNL Adobe Experience Cloud] 솔루션)에 액세스할 수도 있습니다.
 
    ![애플리케이션 아이콘](/help/c-intro/assets/appmenu-new.png)
 
@@ -32,11 +32,11 @@ ht-degree: 76%
 
 ## Target UI {#language}에 대한 기본 언어 변경
 
-1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
+1. [!DNL Adobe Experience Cloud ] 또는 [!DNL Target]에 로그인한 후 프로필 아바타를 클릭한 다음 **[!UICONTROL 환경 설정 편집]**&#x200B;을 클릭합니다.
 
    ![프로필 편집](/help/c-intro/assets/change-language.png)
 
-1. Adobe 계정 **[!UICONTROL 을 클릭하여]** [!DNL Adobe] 프로필에 액세스합니다.
+1. **[!UICONTROL Adobe 계정]**&#x200B;을 클릭하여 [!DNL Adobe] 프로필에 액세스합니다.
 
    ![Adobe 계정](/help/c-intro/assets/adobe-account.png)
 
@@ -48,7 +48,7 @@ ht-degree: 76%
 
 1. 첫 번째(기본) 언어를 선택한 다음 원하는 경우 두 번째 언어를 선택합니다.
 
-   UI는 다음 언어로 사용할 수 있습니다. [!DNL Target] 하지만, 알림은 다음과 같은 다양한 언어로 사용할 수 있습니다.
+   [!DNL Target] UI는 다음 언어로 사용할 수 있습니다.알림은 다음 언어로 사용할 수 있습니다.
 
    * 영어
    * 스페인어
