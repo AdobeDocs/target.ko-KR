@@ -26,7 +26,7 @@ ht-degree: 89%
 
    Experience Cloud에서 Mobile Services를 열고 **[!UICONTROL 앱 설정 관리]** > **[!UICONTROL SDK Target 옵션]**&#x200B;으로 이동합니다.
 
-   Target 클라이언트 코드 및 시간 제한 시간을 추가합니다. 클라이언트 코드는 계정 또는 회사에 고유합니다. 시간 제한은 기본 컨텐츠를 표시하기 전에 Target이 응답을 기다리는 시간(초)입니다. Adobe Mobile Services의 앱 설정 관리 페이지에서 **[!UICONTROL HTTPS 사용]** 옵션이 선택되어 있는지 확인합니다. HTTPS가 활성화되지 않으면 Target 서버를허용 목록에 추가하다하지 않는 한 iOS9+의 모든 호출이 차단됩니다.
+   Target 클라이언트 코드 및 시간 제한 시간을 추가합니다. 클라이언트 코드는 계정 또는 회사에 고유합니다. 시간 제한은 기본 컨텐츠를 표시하기 전에 Target이 응답을 기다리는 시간(초)입니다. Adobe Mobile Services의 앱 설정 관리 페이지에서 **[!UICONTROL HTTPS 사용]** 옵션이 선택되어 있는지 확인합니다. HTTPS가 활성화되지 않은 경우 Target 서버를허용 목록에 추가하다하지 않는 한 iOS9+의 모든 호출이 차단됩니다.
 
    ![](assets/mobile-clientcode.png)
 
