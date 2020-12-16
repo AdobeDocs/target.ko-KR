@@ -1,6 +1,6 @@
 ---
 keywords: settings;priority
-description: Adobe Target은 사용 중인 Target 인터페이스 및 활동 생성 기능(Visual Experience Composer 또는 Form Based Composer)에 따라 페이지에 다르게 전달할 활동(또는 활동)을 결정합니다.
+description: Adobe Target은 사용 중인 Target 인터페이스 및 활동 만들기 기능(Visual Experience Composer 또는 Form Based Composer)에 따라 페이지에 다르게 전달할 활동(또는 활동)을 결정합니다.
 title: Adobe Target의 우선 순위
 feature: activities
 translation-type: tm+mt
@@ -16,7 +16,7 @@ ht-degree: 87%
 
 Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동을 다르게 결정합니다.
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## 글로벌 Target 요청만 사용하여 Target Standard/Premium Visual Experience Composer만 또는 양식 기반 컴포저{#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 회사에서 Target Standard/Premium 및 시각적 경험 작성기만을 사용한다면, 동일한 호출에 대해 여러 활동의 콘텐츠가 반환할 수 있습니다. 활동은 다음 결정 플로우를 사용하여 전달됩니다.
 
@@ -48,8 +48,8 @@ Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적
 
 회사가 Target Standard/Premiumand의 양식 기반 작성기와 Target Standard/Premium 시각적 경험 작성기를 사용한다면, 여러 시각적 경험 작성기 활동의 콘텐츠를 전달할 수 있지만 양식 기반 워크플로우의 활동은 한 활동의 콘텐츠만 전달할 수 있습니다. 활동 전달은 다음 결정 플로우를 사용하여 결정됩니다.
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL.
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
+1. Target 서버 호출은 [!DNL Target] 요청 및 URL에 대한 정보와 함께 Target에 전달됩니다.
+1. Target Classic 및 Standard는 해당 [!DNL Target] 요청에서 실행되는 모든 활동을 가져옵니다.
 1. Target이 방문자를 활동에 대응시키려고 시도합니다.
 
    방문자가 A/B 테스트나 다변량 테스트에 이미 있다면 이 방문자는 전환할 때까지 해당 테스트에 속합니다. 방문자가 이전에 경험 타깃팅 활동에 있었다면 해당 활동에 다시 속해야 합니다. 대상 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
@@ -65,16 +65,16 @@ Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적
 
 타깃팅된 두 활동의 우선순위가 서로 같다면, 가장 최근에 본 활동이 표시됩니다. 방문자가 해당 페이지를 처음 방문했다면 가장 최근에 활성화된 활동이 표시됩니다.
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 비전역 Target 요청이 있는 Target Standard/Premium 양식 기반 컴포저 {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >이 정보는 Target Classic에서 생성된 실행 중인 모든 캠페인에도 적용됩니다.
 
-If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. 활동 전달은 다음 결정 플로우를 사용하여 결정됩니다.
+회사에서 양식 기반 컴포저에서 글로벌 [!DNL Target] 요청 이외의 [!DNL Target] 요청을 사용하는 경우 한 활동에서만 호출당 컨텐츠를 반환할 수 있습니다. 활동 전달은 다음 결정 플로우를 사용하여 결정됩니다.
 
-1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
-1. [!DNL Target] 해당 요청에서 실행되는 모든 활동을 [!DNL Target] 가져옵니다.
+1. [!DNL Target] 서버 호출은 [!DNL Target] 요청 및 URL에 대한 정보와 함께 [!DNL Target]에 옵니다.
+1. [!DNL Target] 해당 요청에서 실행되는 모든 활동을  [!DNL Target] 가져옵니다.
 1. [!DNL Target] 방문자를 가장 높은 우선 순위 활동에 일치시키려는 시도.
 
    방문자가 A/B 테스트나 다변량 테스트에 이미 있다면 이 방문자는 전환할 때까지 해당 테스트에 속합니다. 방문자가 이전에 경험 타깃팅 활동에 있었다면 해당 활동에 다시 속해야 합니다. 대상 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
@@ -90,7 +90,7 @@ If your company uses [!DNL Target] requests other than the global [!DNL Target] 
 >
 >설정에 따라 우선순위 값은 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다. 자세한 내용은 [활동 설정](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02)을 참조하십시오.
 
-**비전역 Target 요청을 사용하는 두 개의 Target 클래식 캠페인**
+**2개의 Target Classic 캠페인이 비전역 Target 요청을 사용합니다.**
 
 * 캠페인 1: homePageHero, offer1, 우선순위 높음
 * 캠페인 2: homePageHero, offer2, 우선순위 낮음
