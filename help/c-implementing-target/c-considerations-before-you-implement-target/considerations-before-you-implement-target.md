@@ -29,4 +29,4 @@ Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
 - [지원되는 브라우저](supported-browsers.md)
 - [TLS(전송 계층 보안) 암호화 변경 사항](tls-transport-layer-security-encryption.md)
 - [CNAME 및 Adobe Target](implement-cname-support-in-target.md)
-- [Target 에지 노드 허용 목록에 추가하다](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [허용 목록에 추가하다 Target 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
