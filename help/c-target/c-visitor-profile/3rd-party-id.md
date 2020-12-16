@@ -33,11 +33,11 @@ mbox3rdPartyID는 회사의 충성도 프로그램을 위한 멤버십 ID와 같
 
 >[!NOTE]
 >
->인증된(로그인) 사용자와 인증되지 않은 사용자를 구별하려면 mbox3rdPartyID 대신 ECID(Adobe Experience Cloud ID)를 사용하십시오. 사용자가 mbox3rdPartyID와 연결되면 로그아웃한 후에도 사용자와 연결된 상태로 유지됩니다.
+>인증된(로그인) 사용자와 인증되지 않은 사용자를 구별하려면 mbox3rdPartyID 대신 Adobe Experience Cloud ID(ECID)를 사용하십시오. 사용자가 mbox3rdPartyID에 연결되면 로그아웃한 후에도 사용자와 연결된 상태로 유지됩니다.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] mbox3rdPartyId를 기반으로 프로필을 병합하고 여전히 활동 정보를 가지고 있더라도 [!DNL Adobe Experience Cloud] ID(EDID)가 변경되는 경우(예: 방문자가 장치를 변경하는 경우) [!DNL Target] 목표를 추적하지 않습니다. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] mbox3rdPartyId를 기반으로  [!DNL Adobe Experience Cloud] 프로필을 병합하고 여전히 활동 정보를 가지고 있더라도  [!DNL Target] ID(EDID)가 변경되는 경우(예: 방문자가 장치를 변경하는 경우) 목표는 추적되지 않습니다. 동일한 EDID(동일한 디바이스를 사용하여 페이지에 액세스하는 방문자)로 식별되는 방문자의 경우 [!DNL Analytics for Target](A4T)는 예상대로 작동해야 합니다.
 
 ## 고려 사항 {#considerations}
 
