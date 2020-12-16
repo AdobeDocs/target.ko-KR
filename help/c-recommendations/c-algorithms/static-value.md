@@ -1,7 +1,7 @@
 ---
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;static;static filter
 description: Adobe Target Recommendations의 포함 규칙을 사용하여 필터링할 정적 값을 하나 이상 수동으로 입력합니다.
-title: Adobe Target Recommendations의 포함 규칙에서 정적 값별로 필터링
+title: Adobe Target Recommendations의 포함 규칙에 있는 정적 값별로 필터링
 feature: criteria
 translation-type: tm+mt
 source-git-commit: f8311dbc91b74977a11dc9b97a70465ab4493b93
@@ -12,9 +12,9 @@ ht-degree: 48%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 정적 필터
+# ![](/help/assets/premium.png) 자동 필터
 
-포함 규칙을 사용하여 필터링할 하나 이상의 정적 값을 수동으로 [!DNL Adobe Target] 입력합니다 [!DNL Recommendations].
+[!DNL Adobe Target] [!DNL Recommendations]의 포함 규칙을 사용하여 필터링할 정적 값을 수동으로 하나 이상 입력합니다.
 
 예를 들어 MPA(Motion Picture Association) 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 컨텐츠만 권장합니다.
 
@@ -26,7 +26,7 @@ ht-degree: 48%
 
 ## G 또는 PG 등급 콘텐츠 추천
 
-MPA 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 컨텐츠만(&quot;R&quot; 및 &quot;NC17&quot; 컨텐츠 제외) 추천하기 위해 정적 값이 있는 포함 규칙을 만들려면 아래 표시된 대로 &quot;무비 등급 같음 g 등급&quot; 및 &quot;무비 등급 같음 pg 등급&quot; 필터링 규칙을 만들 수 있습니다.
+MPA 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 컨텐츠만 권장하기 위해 정적 값이 포함된 포함 규칙을 만들려면(&quot;R&quot; 및 &quot;NC17&quot; 콘텐츠 제외), 아래에서 보듯이 동영상 등급 같음 &quot;g 등급&quot; 및 &quot;동영상 등급 같음 pg 등급&quot; 필터링 규칙을 만들 수 있습니다.
 
-![무비 등급 예제](/help/c-recommendations/c-algorithms/assets/movies.png)
+![동영상 등급 예](/help/c-recommendations/c-algorithms/assets/movies.png)
 
