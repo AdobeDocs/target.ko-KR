@@ -32,7 +32,7 @@ ht-degree: 98%
 
 ![](assets/locationcontributionbottom.png)
 
-## 교육 비디오: MVT 테스트 만들기 ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오: MVT 테스트 만들기  ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 작성하는 방법을 보여줍니다. 위치 기여도 보고서는 8:45부터 설명됩니다.
 
