@@ -38,7 +38,7 @@ ht-degree: 100%
 
 자세한 내용은 [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 &quot;부분 데이터에 기여하는 것은 무엇입니까?&quot;를 참조하십시오.
 
-## 부분 데이터 히트가 있습니다. 내 데이터를 정리하려면 어떤 작업을 수행합니까? {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## 부분 데이터 히트가 있습니다. 내 데이터를 정리하려면 어떤 작업을 수행합니까?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 보고서에서 이전 부분 데이터를 제외하도록 가상 보고서 세트를 작성할 수 있습니다.
 
