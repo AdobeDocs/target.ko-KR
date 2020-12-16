@@ -12,7 +12,7 @@ ht-degree: 97%
 ---
 
 
-# adobe.target.getOffer(옵션)
+# adobe.target.getOffer(options)
 
 이 함수는 Target 오퍼를 가져오는 요청을 실행합니다.
 
@@ -24,7 +24,7 @@ ht-degree: 97%
 | params | 개체 | 아니오 | Mbox 매개 변수입니다. 다음 구조를 가진 키 - 값 쌍의 개체입니다.<br>`{ "param1": "value1", "param2": "value2"}` |
 | 성공 | 함수 | 예 | 서버에서 응답을 받았을 때 실행할 콜백입니다. 성공 콜백 함수는 오퍼 개체의 배열을 나타내는 단일 매개 변수를 수신합니다. 다음은 성공 콜백 예입니다.<br>`function handleSuccess(response){......}`<br>자세한 내용은 아래의 &quot;응답&quot;을 참조하십시오. |
 | 오류 | 함수 | 예 | 오류가 발생한 경우 실행할 콜백입니다. 오류가 있는 것으로 간주되는 몇 가지 경우가 있습니다.<ul><li>HTTP 상태 코드가 200 정상이 아닙니다.</li><li>응답을 구문 분석할 수 없습니다. 예를 들어, JSON이 잘못 구성되었거나 JSON 대신 HTML이 구성되었습니다.</li><li>응답에 &quot;오류&quot; 키가 포함되어 있습니다. 예를 들어, 요청을 제대로 처리할 수 없다는 예외가 에지에서 발생했습니다. mbox가 차단되어 컨텐츠를 검색할 수 없는 등의 경우 오류가 발생했습니다. 오류 콜백 함수는 두 개의 매개 변수(status 및 error)를 수신합니다. 다음은 오류 콜백 예제입니다. `function handleError(status, error){......}`</li></ul>자세한 내용은 오류 응답을 참조하십시오. |
-| timeout | 숫자 | 아니오 | 시간 초과(밀리 초)입니다. 지정하지 않으면 at.js의 기본 시간 초과가 사용됩니다.<br>기본 시간 초과는 관리 > 구현의 [!DNL Target] UI에서 설정할 수 [!UICONTROL 있습니다]. |
+| timeout | 숫자 | 아니오 | 시간 초과(밀리 초)입니다. 지정하지 않으면 at.js의 기본 시간 초과가 사용됩니다.<br>기본 시간 초과는 [관리] > [ [!DNL Target] 구현] 아래의  [!UICONTROL UI에서 설정할 수 있습니다]. |
 
 ## 예 {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
@@ -89,7 +89,7 @@ adobe.target.getOffer({
 });
 ```
 
-## 응답 {#section_CF9FD236EF794620BCBF84EB80160183}
+## 응답  {#section_CF9FD236EF794620BCBF84EB80160183}
 
 성공 콜백에 전달되는 응답 매개 변수는 작업의 배열입니다. 작업은 개체로, 일반적으로 다음 형식을 갖습니다.
 
