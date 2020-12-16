@@ -92,4 +92,4 @@ ht-degree: 92%
 
 고객 속성이 `crs.get('<Datasource Name>.<Attribute name>')`.
 
-이러한 속성이 프로필 스크립트에서 토큰으로 사용되거나 프로필 스크립트가 없어도 오퍼에서 직접 토큰으로 사용될 수도 있습니다. 토큰은 `${crs.datasourceName.attributeName}` 형식이어야 합니다. API 호출에서 공백이 제거되어야 `datasourceName` 합니다.
+이러한 속성이 프로필 스크립트에서 토큰으로 사용되거나 프로필 스크립트가 없어도 오퍼에서 직접 토큰으로 사용될 수도 있습니다. 토큰은 `${crs.datasourceName.attributeName}` 형식이어야 합니다. `datasourceName`의 공백은 API 호출에서 제거되어야 합니다.
