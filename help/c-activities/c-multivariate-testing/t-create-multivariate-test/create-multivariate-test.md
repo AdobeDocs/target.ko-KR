@@ -20,7 +20,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
 다음 [!UICONTROL MVT(다변량 테스트)]는 페이지 우선 보고서를 사용합니다. 즉, 테스트가 해당 페이지에 대해 디자인한 경험을 사용하여 특정 URL에서 실행됩니다.
 
-1. Click **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**.
+1. **[!UICONTROL 활동 만들기]** > **[!UICONTROL 다변수 테스트]**&#x200B;를 클릭합니다.
 
    ![다변량 테스트 만들기](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -117,7 +117,7 @@ Target 가리키고 클릭 편집기를 사용하여 모든 위치를 선택하�
 
 1. **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭하여 활동을 만듭니다.
 
-## 교육 비디오:다변수 테스트 만들기(9:25) ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오:다변량 테스트 만들기(9:25) ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 계획하고 작성하는 방법을 보여줍니다.
 
