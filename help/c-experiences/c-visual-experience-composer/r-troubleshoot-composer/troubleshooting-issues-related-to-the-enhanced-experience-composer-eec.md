@@ -18,7 +18,7 @@ ht-degree: 71%
 
 ## EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다. (EEC만 해당) {#section_D29E96911D5C401889B5EACE267F13CF}
 
-이 문제는 다음 IP 주소를 허용 목록에 추가로 해결할 수 있습니다. 이 IP 주소는 향상된 경험 작성기 프록시에 사용되는 Adobe의 서버용이며, 활동 편집에만 필요합니다. 사이트 방문자는 이러한 IP 주소가 필요하지 허용 목록에추가된 않습니다.
+이 문제는 다음 IP 주소를 허용 목록에 추가로 해결할 수 있습니다. 이 IP 주소는 향상된 경험 작성기 프록시에 사용되는 Adobe의 서버용이며, 활동 편집에만 필요합니다. 사이트 방문자에게 이러한 IP 주소가 필요하지 허용 목록에추가된 않습니다.
 
 IT 팀에 다음 IP 주소를 허용 목록에 추가하다 지정하도록 요청합니다.
 
@@ -38,15 +38,15 @@ Target에 다음 오류 메시지가 표시될 수 있습니다.
 
 * **문제:**&#x200B;웹 사이트 도메인(ISP)에서 고급 경험 작성기를 차단하고 있습니다.
 
-   **해결 방법:** 위에 나열된 IP 주소허용 목록에 추가하다를합니다.
+   **해결 방법:** 위에 나열된 IP 주소를 허용 목록에 추가하다 표시합니다.
 
-* **문제:** IP 주소가 TLS 버전 1.2를 허용 목록에추가된 지원하지만 웹 사이트에서 지원하지 않습니다. Target은 현재 기본 구성 1.2를 사용합니다. Target 18.4.1(2018년 4월 25일) 이전에는 기본 구성이 지원되는 TLS 1.0입니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항을 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **문제: IP 주소** 는 TLS 버전 1.2를 허용 목록에추가된 지원하지 않지만 웹 사이트는 현재 기본 구성 1.2를 사용합니다. Target 18.4.1(2018년 4월 25일) 이전에는 기본 구성이 지원되는 TLS 1.0이 이전에 지원됩니다. 자세한 내용은  [TLS(전송 레이어 보안) 암호화 변경 사항을 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
    **해결 방법:**(고급 시각적 경험 작성기가 TLS 1.2를 사용하는 사이트의 보안 페이지에 로드되지 않습니다.) 질문을 참조하십시오.
 
 ## EEC가 TLS 1.0를 사용하는 사이트의 보안 페이지에 로드되지 않습니다. (EEC만 해당) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-위에 설명된 &quot;고급 시각적 경험 작성기가 내 사이트의 보안 페이지에 로드되지 않습니다.&quot; 오류 메시지가 표시될 수 있습니다. if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+위에 설명된 &quot;고급 시각적 경험 작성기가 내 사이트의 보안 페이지에 로드되지 않습니다.&quot; 오류 메시지가 표시될 수 있습니다. 위의 IP 주소가 TLS 버전 1.2를 지원하지 허용 목록에추가된 않지만 웹 사이트가 TLS 버전 1.2를 지원하지 않는 경우 Target은 현재 기본 구성인 1.2를 사용합니다. Target 18.4.1(2018년 4월 25일) 이전에는 기본 구성이 지원되는 TLS 1.0이 이전에 지원됩니다. 자세한 내용은 [TLS(전송 레이어 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)을 참조하십시오. .
 
 Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음을 수행하십시오(다른 브라우저에도 유사한 단계가 있음).
 
