@@ -17,13 +17,13 @@ ht-degree: 88%
 이미지 오퍼 목록에 항목을 추가하거나 제거할 수 있습니다.
 
 1. **[!UICONTROL 오퍼]**&#x200B;를 클릭하고 **[!UICONTROL 이미지 오퍼]** 탭을 선택합니다.
-1. Click **[!UICONTROL Create]** > **[!UICONTROL Files]**.
+1. **[!UICONTROL 만들기]** > **[!UICONTROL 파일]**&#x200B;을 클릭합니다.
 1. 추가할 항목을 선택하고 **[!UICONTROL 열기]**&#x200B;를 클릭합니다.
 1. 항목의 파일 이름을 필요에 따라 편집하고 **[!UICONTROL 업로드]**&#x200B;를 클릭합니다.
 
    항목이 라이브러리에 업로드됩니다.
 
-## 교육 비디오: 콘텐츠 저장소 ![개요 배지](/help/assets/overview.png)
+## 교육 비디오: 콘텐츠 저장소  ![개요 배지](/help/assets/overview.png)
 
 이 비디오에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 
