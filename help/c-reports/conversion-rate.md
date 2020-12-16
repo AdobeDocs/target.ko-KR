@@ -102,11 +102,11 @@ ht-degree: 96%
 * **샘플 크기:** 샘플이 성장하면 구간이 축소되거나 좁아집니다. 보고서가 성공 지표의 실제 값에 더 가까워지고 있음을 의미하므로 이것은 바람직합니다.
 * **표준 편차 감소:** 매일 전환되는 방문자 수 또는 숫자가 유사하거나 AOV가 유사한 경우 등 결과가 더 유사하면 표준 편차가 감소합니다.
 
-## 신뢰도 계산 및 오프라인 수행 방법 {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## 신뢰도 계산 및 오프라인 수행 방법  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 [다운로드한 CSV 보고서](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다.
 
-To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+이러한 계산된 지표를 계산하려면 Target [완전한 신뢰도 계산기](/help/assets/complete_confidence_calculator.xlsx) Excel 파일을 다운로드하여 활동 값을 입력하거나 Target](/help/assets/statistical-calculations.pdf)에 사용되는 [통계 계산을 검토하십시오.
 
 >[!NOTE]
 >
