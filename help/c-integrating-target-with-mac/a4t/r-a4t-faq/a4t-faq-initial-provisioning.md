@@ -40,14 +40,14 @@ Analytics 및 Target에 액세스할 수 있는 Experience Cloud 그룹 중 하�
 * 동일한 Experience Cloud 회사에 Analytics 회사 로그인을 여러 번 사용하는 경우 마지막으로 로그인한 Analytics 회사는 Target 계정에 연결되어 통합될 수 있어야 합니다.
 * Experience Cloud에 몇 시간 동안 로그인되어 있는 상태일 경우 Analytics 세션이 만료될 수 있습니다. 로그아웃했다가 로그인한 후 다시 시도하십시오.
 
-## Target에 Analytics 선택 사항이 표시되지 않는 이유는 무엇입니까? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Target에 Analytics 선택 사항이 표시되지 않는 이유는 무엇입니까?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 참조하십시오. 이 문제의 근본 원인은 같습니다.
 
-## Analytics에 A4T 보고서가 표시되지 않는 이유는 무엇입니까? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Analytics에 A4T 보고서가 표시되지 않는 이유는 무엇입니까?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 참조하십시오. 이 문제의 근본 원인은 같습니다.
 
-## Target에 있는 내 보고서가 비어 있는 이유는 무엇입니까? {#section_3837104757464CB488C5A83014A669A1}
+## Target에 있는 내 보고서가 비어 있는 이유는 무엇입니까?  {#section_3837104757464CB488C5A83014A669A1}
 
 위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 참조하십시오. 이 문제의 근본 원인은 같습니다.
