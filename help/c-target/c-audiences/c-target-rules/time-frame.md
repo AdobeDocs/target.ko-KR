@@ -52,7 +52,7 @@ ht-degree: 96%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 교육 비디오:대상 ![개요 배지 만들기](/help/assets/overview.png)
+## 교육 비디오:대상 만들기 ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 
