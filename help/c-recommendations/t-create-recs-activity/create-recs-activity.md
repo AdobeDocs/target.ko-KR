@@ -16,7 +16,7 @@ ht-degree: 78%
 
 Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target 시각적 경험 작성기(VEC)를 사용하십시오.
 
-1. Click **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**.
+1. **[!UICONTROL 활동 만들기]** > **[!UICONTROL Recommendations]**&#x200B;를 클릭합니다.
 
    ![권장 사항 활동 만들기](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
@@ -32,7 +32,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >The [!UICONTROL [Choose Workplace]](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.
+   >이전 그림에서 [!UICONTROL [작업 공간 선택]](/help/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.
 
 1. (조건부) [Target Premium 고객](/help/c-intro/intro.md#premium)인 경우 [작업 공간](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
@@ -46,17 +46,17 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    [!UICONTROL 다음]을 클릭하면 VEC가 열리고 페이지가 표시됩니다. 현재 요소를 권장 사항으로 바꾸거나 권장 사항을 삽입할 수 있습니다.
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. 페이지에서 요소를 클릭한 다음 해당 요소가 있는 위치에서 권장 사항을 사용할 수 있으면 **[!UICONTROL Recommendations]**, **[!UICONTROL Recommendations Before]** 삽입 또는 **[!UICONTROL Recommendations After]** 삽입을 클릭합니다.
 
    사이트 방문자는 권장 사항에 맞는 경우에만 권장 컨텐츠를 보게 됩니다. 권장 사항에 맞지 않는 방문자는 기본 컨텐츠를 보게 됩니다.
 
    ![권장 사항 옵션](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL Recommendations으로 교체]**:요소를 권장 사항으로 바꾸면 현재 컨텐츠가 삭제되고 권장 사항으로 대체됩니다. 방문자가 사이트를 방문하고 권장 사항을 평가할 때 기존 컨텐츠 대신 지정된 영역에서 권장 항목을 볼 수 있습니다.
-   * **[!UICONTROL 앞에 Recommendations 삽입]**:선택한 요소 앞에 권장 사항을 삽입하면 권장 컨텐츠가 해당 요소 앞에 배치됩니다. 페이지 구성에 따라 선택한 요소의 위나 왼쪽에 권장 사항이 표시됩니다.
-   * **[!UICONTROL 뒤에 Recommendations 삽입]**:선택한 요소 뒤에 권장 사항을 삽입하면 권장 컨텐츠가 해당 요소 뒤에 배치됩니다. 페이지 구성에 따라, 권장 사항은 선택한 요소의 아래 또는 오른쪽에 표시됩니다.
+   * **[!UICONTROL Recommendations으로 바꾸기]**:요소를 recommendations로 바꾸면 현재 컨텐츠가 삭제되고 권장 사항으로 바뀝니다. 방문자가 사이트를 방문하여 권장 사항을 평가할 때 기존 컨텐츠 대신 지정된 영역에서 권장 항목을 볼 수 있습니다.
+   * **[!UICONTROL 앞에 Recommendations 삽입]**:선택한 요소 앞에 권장 사항을 삽입하면 권장 내용이 해당 요소 앞에 배치됩니다. 페이지 구성에 따라 선택한 요소의 위나 왼쪽에 권장 사항이 표시됩니다.
+   * **[!UICONTROL 뒤에 Recommendations 삽입]**:선택한 요소 뒤에 권장 사항을 삽입하면 해당 요소 뒤에 권장 컨텐츠가 배치됩니다. 페이지 구성에 따라, 권장 사항은 선택한 요소의 아래 또는 오른쪽에 표시됩니다.
 
-   선택 **[!UICONTROL 확장]** 옵션을 사용하면 선택한 위치(상위 컨테이너)를 확장하여 원하는 페이지 요소를 보다 쉽게 식별하고 포함할 수 있습니다.
+   **[!UICONTROL 선택 영역 확장]** 옵션을 사용하면 선택한 위치(상위 컨테이너)를 확장하여 원하는 페이지 요소를 쉽게 식별하고 포함할 수 있습니다.
 
 1. 페이지 유형을 선택합니다.
 
@@ -75,7 +75,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
 1. [기준](/help/c-recommendations/c-algorithms/algorithms.md)을 하나 이상 선택합니다.
 
-   기준은 각 기준에 대한 정보를 표시하는 카드로 표시됩니다. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. 이러한 옵션을 변경하여 다른 기준을 표시할 수 있습니다.
+   기준은 각 기준에 대한 정보를 표시하는 카드로 표시됩니다. 기본적으로 [!UICONTROL 기준 선택] 화면에는 업계 세로와 호환되는 기준 및 이전 단계에서 선택한 페이지 유형이 표시됩니다. 이러한 옵션을 변경하여 다른 기준을 표시할 수 있습니다.
 
    >[!NOTE]
    >
@@ -89,13 +89,13 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
       일부 기준은 [!DNL Recommendations]에서 제공됩니다. 사용자와 팀이 고유의 사용자 지정 기준을 만들 수도 있습니다.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. 새 기준 만들기에 대한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
-   * 기준을 시퀀스로 그룹화할 수도 있습니다. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria Sequence]**. 자세한 [내용은 기준](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) 시퀀스 만들기를 참조하십시오.
+   * 새 기준을 만들려면 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 만들기]**&#x200B;를 클릭한 다음 새 기준에 대한 정보를 입력합니다. 새 기준 만들기에 대한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
+   * 기준을 시퀀스로 그룹화할 수도 있습니다. 새 기준 시퀀스를 만들려면 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**&#x200B;를 클릭합니다. 자세한 내용은 [기준 시퀀스 만들기](/help/c-recommendations/c-algorithms/create-criteria-sequence.md)를 참조하십시오.
 
 1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 1. [디자인](/help/c-recommendations/c-design-overview/design-overview.md)을 선택합니다.
 
-   디자인은 페이지에서 위치의 모양을 결정하는 템플릿입니다. [!DNL Target] 에는 미리 구성된 여러 가지 디자인이 포함되어 있습니다. 사용자 고유의 사용자 지정 디자인을 만들 수도 있습니다. 자세한 내용은 [디자인 만들기](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) 및 [디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)을 참조하십시오.
+   디자인은 페이지에서 위치의 모양을 결정하는 템플릿입니다. [!DNL Target] 여러 가지 미리 구성된 디자인을 포함합니다. 사용자 고유의 사용자 지정 디자인을 만들 수도 있습니다. 자세한 내용은 [디자인 만들기](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) 및 [디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59)을 참조하십시오.
 
    ![디자인 선택 대화 상자](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
@@ -178,6 +178,6 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    활동 충돌은 여러 활동이 동일한 페이지로 콘텐츠를 전달하도록 설정되어 있을 때 발생하며, 이로 인해 예상치 못한 콘텐츠가 표시될 수 있습니다.
 
-## 교육 비디오: 추천 활동 만들기(7:15) ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오: 추천 활동 만들기(7:15)  ![자습서 배지](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
