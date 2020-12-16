@@ -56,7 +56,7 @@ ht-degree: 97%
 
    `&lt; > # % &quot; { } | \\ ^ \[\] \``
 
-   다른 모든 문자는 URL로 인코딩해야 합니다. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
+   다른 모든 문자는 URL로 인코딩해야 합니다. 표준은 아래 그림과 같이 다음 형식( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) )을 지정합니다.
 
    ![](assets/ietf1.png)
 
@@ -334,7 +334,7 @@ Experience Cloud ID(ECID) 구현이 필요합니다.
 
 ### 코드 예
 
-Details can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
+자세한 내용은 [고객 속성 소스를 만들고 데이터 파일](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)에 업로드하십시오.
 
 ### 관련 정보 링크
 
