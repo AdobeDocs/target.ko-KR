@@ -14,13 +14,13 @@ ht-degree: 70%
 
 # 태그 관리자 없이 Target 구현{#implement-target-without-a-tag-manager}
 
-태그 관리자(또는)를 사용하지 [!DNL Adobe Target] 않고 구현하는[!DNL Adobe Launch] 방법에 대한 [!DNL Dynamic Tag Manager]정보입니다.
+태그 관리자([!DNL Adobe Launch] 또는 [!DNL Dynamic Tag Manager])를 사용하지 않고 [!DNL Adobe Target] 구현에 대한 정보입니다.
 
 >[!NOTE]
 >
 >[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 방법입니다. 다음 정보는 Adobe Launch를 사용하여 Target을 구현할 때 적용할 수 없습니다.
 
-구현 [!UICONTROL 페이지에] 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 구현을]**&#x200B;클릭합니다.
+[!UICONTROL 구현] 페이지에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 
 이 페이지에서 다음 설정을 지정할 수 있습니다.
 
@@ -51,11 +51,11 @@ ht-degree: 70%
 
 >[!NOTE]
 >
->이러한 설정은 모든 .js 라이브러리에 [!DNL Target] 적용됩니다. 구현 방법  섹션에서 변경 작업을 수행한 후 라이브러리를 다운로드하고 구현에서 업데이트해야 합니다.
+>이러한 설정은 모든 [!DNL Target] .js 라이브러리에 적용됩니다. [!UICONTROL 구현 메서드] 섹션에서 변경 작업을 수행한 후 라이브러리를 다운로드하고 구현에서 업데이트해야 합니다.
 
 | 설정 | 설명 |
 | --- | --- |
-| 페이지 로드 활성화(전역 mbox 자동 만들기) | 각 페이지 로드 시 자동으로 실행할 at.js 파일에 글로벌 mbox 호출을 포함할지 여부를 선택하십시오. |
+| 페이지 로드 활성화(글로벌 mbox 자동 만들기) | 각 페이지 로드 시 자동으로 실행할 at.js 파일에 글로벌 mbox 호출을 포함할지 여부를 선택하십시오. |
 | 글로벌 mbox | 글로벌 mbox의 이름을 선택하십시오. 기본적으로 이 이름은 target-global-mbox입니다.<br>at.js를 사용하는 mbox 이름에 앰퍼샌드(&amp;)를 포함한 특수 문자를 사용할 수 있습니다. |
 | 시간 초과(초) | 정의된 기간 내에 [!DNL Target]이 컨텐츠에 응답하지 않으면 서버 호출 제한 시간이 초과되어 기본 컨텐츠가 표시됩니다. 방문자 세션 동안 추가 호출이 계속 시도됩니다. 기본값은 5초입니다.<br>at.js 라이브러리는 `XMLHttpRequest`에서 시간 제한 설정을 사용합니다. 시간 제한은 요청이 시작되면 시작되고 [!DNL Target]이 서버의 응답을 받으면 중지됩니다. 자세한 내용은 Mozilla Developer Network의 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)을 참조하십시오.<br>응답을 받기 전에 지정된 시간 제한이 초과되면, 기본 컨텐츠가 표시되고, 모든 데이터 수집은 [!DNL Target] 에지에서 발생하므로 방문자는 활동의 참가자로 카운트될 수 있습니다. 요청이 [!DNL Target] 에지에 도달하면 방문자가 카운트됩니다.<br>시간 제한 설정을 구성할 때에는 다음 사항을 고려하십시오.<ul><li>값이 너무 낮으면, 방문자가 활동의 참가자로 카운트될 수 있음에도 불구하고 사용자에게 대부분의 시간 동안 기본 컨텐츠가 표시될 수 있습니다.</li><li>값이 너무 높으면, 확장된 기간 동안 본문 숨기기를 사용하는 경우 방문자에게 웹 페이지의 빈 영역이 표시되거나 빈 페이지가 표시될 수 있습니다.</li></ul>mbox 응답 시간을 자세히 알아보려면 브라우저의 개발자 도구에서 네트워크 탭을 살펴보십시오. 타사 웹 성과 모니터링 도구(예: Catchpoint)를 사용할 수도 있습니다.<br>**참고**: [visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 설정은 [!DNL Target]이 너무 오랫동안 방문자 API 응답을 기다리지 않도록 해줍니다. 이 설정과 여기에 설명된 at.js에 대한 시간 초과 설정은 서로 영향을 주지 않습니다. |
 | 프로필 라이프타임 | 이 설정은 방문자 프로필이 저장되어 있는 기간을 결정합니다. 기본적으로, 프로필은 2주 동안 저장됩니다. 최대 90일까지 연장할 수 있습니다.<br>프로필 라이프타임 설정을 변경하려면 [고객 지원팀](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)에 문의하십시오. |
@@ -64,17 +64,17 @@ ht-degree: 70%
 
 >[!IMPORTANT]
 >
->Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오.
+>Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전 중 하나의 최신 버전으로 업그레이드하십시오.
 
-원하는 at.js 버전을 다운로드하려면 해당 **[!UICONTROL 다운로드]** 단추를 클릭합니다.
+원하는 at.js 버전을 다운로드하려면 적절한 **[!UICONTROL 다운로드]** 단추를 클릭합니다.
 
-at.js 설정을 편집하려면 원하는 at.js 버전 **[!UICONTROL 옆에]** 있는 편집을 클릭합니다.
+at.js 설정을 편집하려면 원하는 at.js 버전 옆에 있는 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
 
 >[!IMPORTANT]
 >
->이러한 기본 설정을 변경하기 전에 현재 구현에 영향을 주지 않도록 [클라이언트](/help/cmp-resources-and-contact-information.md) 지원 센터에 문의하십시오.
+>이러한 기본 설정을 변경하기 전에 현재 구현에 영향을 주지 않도록 [Client Care](/help/cmp-resources-and-contact-information.md)에 문의하십시오.
 
-위에 설명한 설정 외에 다음 특정 at.js 설정도 사용할 수 있습니다.
+위에 설명한 설정 외에도 at.js 설정에는 다음 사항도 사용할 수 있습니다.
 
 | 설정 | 설명 |
 |--- |--- |
@@ -85,17 +85,17 @@ at.js 설정을 편집하려면 원하는 at.js 버전 **[!UICONTROL 옆에]** �
 
 API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성화하고 프로필 인증 토큰을 생성합니다.
 
-For more information, see [Profile API settings](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+자세한 내용은 [프로필 API 설정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)을 참조하십시오.
 
 ### 디버거 도구
 
-고급 디버깅 도구를 사용할 인증 토큰을 [!DNL Target] 생성합니다. Click **[!UICONTROL Generate New Authentication Token]**.
+고급 [!DNL Target] 디버깅 도구를 사용할 인증 토큰을 생성합니다. **[!UICONTROL 새 인증 토큰 생성]**&#x200B;을 클릭합니다.
 
 ![새 인증 토큰 생성](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### 개인 정보 보호
 
-이러한 설정을 통해 해당 데이터 개인 정보 보호 법 [!DNL Target] 을 준수할 수 있습니다.
+이러한 설정을 사용하면 해당 데이터 개인 정보 보호 법률에 따라 [!DNL Target]을(를) 사용할 수 있습니다.
 
 방문자 IP 주소 난독화 드롭다운 목록에서 원하는 설정을 선택합니다.
 
@@ -107,34 +107,34 @@ For more information, see [Profile API settings](/help/c-implementing-target/c-c
 
 >[!NOTE]
 >
->레거시 브라우저 지원 옵션은 at.js 버전 0.9.3 및 이전 버전에서 사용할 수 있었습니다. 이 선택 사항은 at.js 버전 0.9.4에서 제거되었습니다. at.js에서 지원하는 브라우저 목록이 필요하면 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)를 참조하십시오.<br>이전 브라우저는 CORS(Cross Origin Resource Sharing)를 완전히 지원하지는 않는 오래된 브라우저입니다. 이러한 브라우저에는 버전 11 이전의 Internet Explorer 브라우저와 Safari 버전 6 및 그 이전 버전이 포함됩니다. 기존 브라우저 지원이 비활성화된 경우, Target은 이러한 브라우저의 보고서에서 컨텐츠를 전달하거나 방문자 수를 계산하지 않았습니다. 이 옵션을 활성화한 경우, 좋은 고객 경험을 제공하기 위해 이전 브라우저에서 품질 보증을 수행하는 것이 좋습니다.
+>레거시 브라우저 지원 옵션은 at.js 버전 0.9.3 및 이전 버전에서 사용할 수 있었습니다. 이 선택 사항은 at.js 버전 0.9.4에서 제거되었습니다. at.js에서 지원하는 브라우저 목록이 필요하면 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)를 참조하십시오.<br>이전 브라우저는 CORS(Cross Origin Resource Sharing)를 완전히 지원하지는 않는 오래된 브라우저입니다. 이러한 브라우저에는 버전 11 이전의 Internet Explorer 브라우저와 Safari 버전 6 및 그 이전 버전이 포함됩니다. 레거시 브라우저 지원을 비활성화한 경우 Target은 이러한 브라우저의 보고서에 컨텐츠를 전달하거나 방문자 수를 계산하지 않았습니다. 이 옵션을 활성화한 경우 좋은 고객 경험을 제공하기 위해 이전 브라우저에서 품질 보증을 수행하는 것이 좋습니다.
 
 ## at.js 다운로드{#concept_1E1F958F9CCC4E35AD97581EFAF659E2}를 참조하십시오 
 
-Instructions to download the library using the [!DNL Target] interface or the Download API.
+[!DNL Target] 인터페이스 또는 다운로드 API를 사용하여 라이브러리를 다운로드하는 지침입니다.
 
 >[!NOTE]
 >
 >* [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 방법입니다. 다음 정보는 Adobe Launch를 사용하여 Target을 구현할 때 적용할 수 없습니다.
    >
    >
-* Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전을 최신 버전으로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
+* Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전 중 하나의 최신 버전으로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
 
 
-### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
+### Target 인터페이스 {#section_1F5EE401C2314338910FC57F9592894E}을(를) 사용하여 at.js를 다운로드합니다.
 
 [!DNL Target] 인터페이스에서 [!DNL at.js]를 다운로드하려면 다음을 수행하십시오.
 
-1. 관리 **** > **[!UICONTROL 구현을 클릭합니다]**.
-1. 구현 [!UICONTROL 방법] 섹션에서 원하는 at.js 버전 옆에 있는 **[!UICONTROL 다운로드]** 단추를 클릭합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
+1. [!UICONTROL 구현 메서드] 섹션에서 원하는 at.js 버전 옆의 **[!UICONTROL 다운로드]** 단추를 클릭합니다.
 
-### Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Target 다운로드 API {#section_C0D9D2A9068144708D08526BA5CA10D0}를 사용하여 at.js를 다운로드합니다.
 
 API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십시오.
 
 1. 클라이언트 코드를 가져옵니다.
 
-   Your client code is available at the top of the **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** page of the [!DNL Target] interface.
+   클라이언트 코드는 [!DNL Target] 인터페이스의 **[!UICONTROL 관리]** > **[!UICONTROL 구현]** 페이지의 맨 위에 있습니다.
 
 1. 관리 번호를 가져옵니다.
 
@@ -144,7 +144,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   Replace `client code` with the client code from Step 1.
+   `client code`을 1단계의 클라이언트 코드로 바꿉니다.
 
    이 URL을 로드한 결과는 다음 예와 유사해야 합니다.
 
@@ -164,9 +164,9 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
    https://admin<varname>admin number</varname>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code</varname>&version=<version number>
    ```
 
-   * Replace `admin number` with your admin number.
-   * Replace `client code` with the client code from Step 1.
-   * Replace `version number` with the desired at.js version number (for example, 2.2).
+   * `admin number`을(를) 관리자 번호로 바꿉니다.
+   * `client code`을 1단계의 클라이언트 코드로 바꿉니다.
+   * `version number`을(를) 원하는 at.js 버전 번호로 바꿉니다(예: 2.2).
 
    >[!IMPORTANT]
    >
@@ -174,7 +174,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
 
    이 URL을 로드하면 사용자 지정된 [!DNL at.js] 파일의 다운로드가 시작됩니다.
 
-## at.js implementation {#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## at.js 구현 {#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현되어야 합니다.
 
@@ -235,13 +235,13 @@ at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현�
 다음 중요 참고 사항을 고려하십시오.
 
 * HTML5 Doctype(예: `<!doctype html>`)을 사용해야 합니다. 지원되지 않거나 이전 버전의 doctypes으로 Target이 요청을 작성할 수 없습니다.
-* 사전 연결 및 미리 가져오기는 웹 페이지 로드 속도를 높일 수 있는 옵션입니다. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Administration]** > **[!UICONTROL Implementation] page.
+* 사전 연결 및 미리 가져오기는 웹 페이지 로드 속도를 높일 수 있는 옵션입니다. 이러한 구성을 사용하는 경우 `<client code>`을(를) 자신의 클라이언트 코드로 바꾸십시오. 이 코드는 **[!UICONTROL 관리]** > **[!UICONTROL 구현] 페이지에서 얻을 수 있습니다.
 * 데이터 계층이 있는 경우 at.js가 로드되기 전에 페이지의 `<head>`에 가능한 많은 항목을 정의하는 것이 최적입니다. 이 배치는 개인화를 위해 Target에서 이 정보를 활용할 수 있는 최대 기능을 제공합니다.
 * `targetPageParams()`, `targetPageParamsAll()`, Data Providers, `targetGlobalSettings()`와 같은 특수 Target 함수는 데이터 계층 뒤, at.js 로드 전에 정의해야 합니다. 또한 이러한 값은 [!UICONTROL at.js 설정 편집] 페이지의 [!UICONTROL 라이브러리 헤더] 섹션에 저장되며 at.js 라이브러리 자체의 일부로 저장될 수 있습니다. 이러한 함수에 대한 자세한 정보는 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * jQuery와 같은 JavaScript 헬퍼 라이브러리를 사용하는 경우 Target 경험을 작성할 때 Target 앞에 포함시키면 구문 및 메서드를 활용할 수 있습니다.
 * 페이지의 `<head>`에 at.js를 포함합니다.
 
-## Track conversions {#task_E85D2F64FEB84201A594F2288FABF053}
+## 전환 추적 {#task_E85D2F64FEB84201A594F2288FABF053}
 
 주문 확인 mbox는 사이트의 주문에 대한 세부 사항을 기록하고 매출 및 주문을 기준으로 보고할 수 있도록 합니다. 또한 주문 확인 mbox는 &quot;제품 x를 구입한 사람이 제품 y도 구입함&quot;과 같은 권장 사항 알고리즘을 유도할 수도 있습니다.
 
