@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# adobe.target.applyOffer(옵션)
+# adobe.target.applyOffer(options)
 
 이 함수는 응답 컨텐츠를 적용하는 데 사용됩니다.
 
