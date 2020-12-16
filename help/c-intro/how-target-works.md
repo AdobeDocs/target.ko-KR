@@ -86,33 +86,33 @@ Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험
 
 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
-## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## 에지 네트워크 {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-&quot;에지(Edge)&quot;는 컨텐츠를 요청하는 최종 사용자가 전세계 위치에 관계없이 최적의 응답 시간을 보장하는 지리적으로 분산된 서비스 아키텍처입니다.
+&quot;에지(Edge)&quot;는 컨텐츠를 요청하는 최종 사용자가 세계 어디에 있든지 상관없이 최적의 응답 시간을 보장하는 지리적으로 분산된 서비스 아키텍처입니다.
 
-응답 시간을 개선하기 위해 Target Edges는 활동 논리, 캐시된 프로필 및 오퍼 정보만 호스팅합니다.
+응답 시간을 개선하기 위해 Target Edge는 활동 로직, 캐시된 프로필 및 오퍼 정보만 호스팅합니다.
 
-Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. 그런 다음 업데이트가 Target 가장자리에 전송됩니다. Central Clusters 및 Edge Clusters는 캐시된 활동 데이터를 지속적으로 업데이트하기 위해 자동으로 동기화됩니다. 모든 1:1 모델링은 각 가장자리에도 저장되므로 이러한 더 복잡한 요청도 가장자리에서 처리할 수 있습니다.
+활동 및 컨텐츠 데이터베이스, [!DNL Analytics] 데이터, API 및 마케터 사용자 인터페이스는 Adobe의 Central 클러스터에 수용됩니다. 그런 다음 업데이트가 Target 가장자리에 전송됩니다. Central Clusters 및 Edge Clusters는 캐시된 활동 데이터를 지속적으로 업데이트하기 위해 자동으로 동기화됩니다. 모든 1:1 모델링은 각 가장자리에도 저장되므로 이러한 더 복잡한 요청도 가장자리에서 처리할 수 있습니다.
 
 각 에지 클러스터에는 사용자의 컨텐츠 요청에 응답하고 해당 요청에 대한 분석 데이터를 추적하는 데 필요한 모든 정보가 있습니다. 사용자 요청은 가장 가까운 에지 클러스터로 라우팅됩니다.
 
 자세한 내용은 [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서를 참조하십시오.
 
-The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
+[!DNL Adobe Target] 솔루션은 전 세계 Adobe 소유 및 Adobe에서 임대한 데이터 센터에 호스팅됩니다.
 
 중앙 클러스터 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 포함됩니다. Edge Cluster 위치에는 데이터 수집 센터만 포함됩니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
 
-고객 사이트 활동 데이터는 7개의 Edge Clusters에서 가장 가까운 위치에 의해 수집되며 고객의 사전 결정된 Central Cluster 대상(3개 위치 중 하나)으로 전달됩니다.Oregon, Dublin, Singapore)을 참조하십시오. 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다(위치에는 중앙 클러스터 위치 및 버지니아, 암스테르담, 시드니, 도쿄 및 홍콩 포함).
+고객 사이트 활동 데이터는 7개의 Edge Clusters에서 가장 근접한 자가 수집하여 고객의 사전 결정된 Central 클러스터 대상(3개 위치 중 하나)으로 전달됩니다.처리를 위한 오레곤, 더블린, 싱가포르). 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다(위치에는 중앙 클러스터 위치 및 버지니아, 암스테르담, 시드니, 도쿄 및 홍콩 등이 포함됩니다.).
 
-단일 위치에서 모든 타깃팅 요청에 응답하는 대신 요청은 방문자와 가장 가까운 에지 클러스터에 의해 처리되므로 네트워크/인터넷 여행 시간의 영향을 완화합니다.
+단일 위치에서 모든 타깃팅 요청에 응답하는 대신, 요청은 방문자와 가장 가까운 에지 클러스터에 의해 처리되므로 네트워크/인터넷 여행 시간의 영향을 완화합니다.
 
 ![Target 서버 맵 유형](/help/c-intro/assets/target-servers.png)
 
-Amazon 웹 서비스(AWS)에서 호스팅되는 Target 중앙 클러스터는 다음 위치에 있습니다.
+AWS(Amazon Web Services)에서 호스팅되는 Target Central 클러스터 위치는 다음과 같습니다.
 
 * 오리건, 미국
 * 더블린, 아일랜드
-* 싱가포르
+* 싱가포르 공화국
 
 AWS에서 호스팅되는 Target 에지 클러스터는 다음 위치에 있습니다.
 
@@ -122,17 +122,17 @@ AWS에서 호스팅되는 Target 에지 클러스터는 다음 위치에 있습�
 * 오리건, 미국
 * 오스트레일리아 시드니
 * 더블린, 아일랜드
-* 싱가포르
+* 싱가포르 공화국
 
-이 [!DNL Target Recommendations] 서비스는 오리건주의 [!DNL Adobe] 데이터 센터에서 호스팅됩니다.
+[!DNL Target Recommendations] 서비스는 오리건 주의 [!DNL Adobe] 데이터 센터에서 호스팅됩니다.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 현재 중국에는 Edge Cluster가 없으며 중국 고객의 경우 최종 사용자 성능이 계속 제한됩니다. [!DNL Target] Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] 현재 중국에는 Edge Cluster가 없으며 중국 고객의 경우 최종 사용자 성능이 계속  [!DNL Target] 제한됩니다. 방화벽과 국가 내 Edge Clusters가 없기 때문에 [!DNL Target]이(가) 배포된 사이트의 경험이 렌더링되지 않고 페이지 로드가 영향을 받습니다. 또한 마케터는 [!DNL Target] 작성 UI를 사용할 때 지연을 경험할 수 있습니다.
 
-원하는 경우 Target 에지 클러스터를허용 목록에 추가하다 지정할 수 있습니다. 자세한 내용은 [Target 가장자리 노드허용 목록에 추가하다를 참조하십시오](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
+원하는 경우 Target 에지 클러스터를 허용 목록에 추가하다 선택할 수 있습니다. 자세한 내용은 [허용 목록에 추가하다 Target 가장자리 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)를 참조하십시오.
 
-## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe에서는 타깃팅 인프라의 가용성 및 성능을 가능한 한 신뢰할 수 있도록 만들고 있습니다. 하지만 최종 사용자의 브라우저와 Adobe의 서버 간 통신 실패로 인해 콘텐츠 전달이 중단될 수 있습니다.
 
@@ -194,7 +194,7 @@ Google에서는 한 예로 &quot;사이트의 원본 페이지를 로드한 키�
 
 ## 보트 {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. 보트에 의해 생성된 것으로 식별된 트래픽은 SEO 가이드라인과 일치하도록 일반 사용자와 같은 콘텐츠를 계속 제공합니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 다소 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
+Adobe Target은 [DeviceAtlas](https://deviceatlas.com/)를 사용하여 알려진 보트를 감지합니다. 보트에 의해 생성된 것으로 식별된 트래픽은 SEO 가이드라인과 일치하도록 일반 사용자와 같은 콘텐츠를 계속 제공합니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 다소 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
 
 특히 알려진 보트 트래픽 Target의 경우 다음이 불가능합니다.
 
