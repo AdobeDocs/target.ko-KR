@@ -147,7 +147,7 @@ Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글�
 
 * Target Standard에 대해 자동 생성된 글로벌 mbox 응답이 더 이상 document.write()를 사용하거나 `<div>` 요소를 생성하지 않습니다.
 
-   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. 이 새 버전으로 업그레이드할 때는 강력한 QA가 권장됩니다.
+   이렇게 하면 mbox.js 파일이 페이지의 `<head>`에 있는 마지막 항목이 될 필요가 없습니다. 이 새 버전으로 업그레이드할 때는 강력한 QA가 권장됩니다.
 
    이러한 변경 사항 때문에 일부 오퍼 유형을 전달할 때의 동작이 달라질 수 있습니다. 다음은 고려해야 하는 특정 조건입니다.
 
