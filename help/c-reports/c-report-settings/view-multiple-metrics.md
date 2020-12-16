@@ -18,10 +18,10 @@ ht-degree: 61%
 
 보고서에서 여러 지표로 작업할 때는 다음 정보를 유념하십시오.
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
-* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* 여러 지표를 보는 기능은 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md), [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) 및 [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md)(XT) 활동에만 사용할 수 있습니다.
+* Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)에 대해 [Analytics를 사용하는 활동에 대해서는 보고서에 20개 이상의 지표를 추가할 수 없습니다. A4T를 사용하지 않는 *A1/>이(가) 아닌 활동에 대한 보고서에 활동에 있는 만큼 지표를 추가할 수 있습니다.*
 * 여러 지표를 선택한 경우 보고서를 CSV로 다운로드하는 데 [](/help/c-reports/downloading-data-in-csv-file.md)다운로드 선택 사항을 사용할 수 없습니다. [!UICONTROL 다운로드] 선택 사항을 활성화하려면 하나의 지표만 선택해야 합니다.
-* You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
+* 2015년 7월 [!DNL Target] 릴리스(2015년 7월 30일) 전에 만든 활동에 대한 여러 지표를 볼 수 없습니다.
 
 **보고서에 표시할 지표를 여러 개 선택하려면 다음을 수행하십시오.**
 
@@ -42,10 +42,10 @@ ht-degree: 61%
 
    [!UICONTROL 표시된 지표] 목록에 지표가 하나 이상 있어야 합니다.
 
-   [!UICONTROL 표시된 지표] 목록에서 지표를 원하는 순서로 드래그하여 놓아 지표들을 다시 정렬할 수 있습니다. The selected order will be reflected in the [!UICONTROL Table View] and [!UICONTROL Graph View]. [!UICONTROL 표시된 지표] 목록에서 지표를 제거하려면 지표를 마우스 포인터로 가리킨 다음, **X** 아이콘을 클릭하십시오.
+   [!UICONTROL 표시된 지표] 목록에서 지표를 원하는 순서로 드래그하여 놓아 지표들을 다시 정렬할 수 있습니다. 선택한 순서는 [!UICONTROL 테이블 보기] 및 [!UICONTROL 그래프 보기]에 반영됩니다. [!UICONTROL 표시된 지표] 목록에서 지표를 제거하려면 지표를 마우스 포인터로 가리킨 다음, **X** 아이콘을 클릭하십시오.
 
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-1. (Conditional) While viewing the report in the [!UICONTROL Table View], hover your mouse pointer on any metric&#39;s column header to display a blue arrow. 이 화살표를 클릭하여 해당 지표에 대한 [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도]를 표시하도록 표를 확장하십시오.
+1. (조건부) [!UICONTROL 테이블 보기]에서 보고서를 보는 동안 지표의 열 머리글에 마우스 포인터를 올려 놓아 파란색 화살표를 표시합니다. 이 화살표를 클릭하여 해당 지표에 대한 [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도]를 표시하도록 표를 확장하십시오.
 
    ![](assets/multiple_metrics_table.png)
 
