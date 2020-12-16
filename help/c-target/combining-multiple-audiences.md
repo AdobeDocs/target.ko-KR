@@ -112,7 +112,7 @@ AND와 OR 연산자를 사용하여 최대 10개의 대상을 결합할 수 있�
 
    원하는 활동을 클릭하여 연 다음, **[!UICONTROL 활동 편집을 클릭합니다]**.
 
-1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. **[!UICONTROL 구성]** > **[!UICONTROL 대상]** > **[!UICONTROL 복수 대상]**&#x200B;을 클릭합니다.
 
    ![구성 > 대상 > 여러 대상](/help/c-target/assets/combine_multiple_audiences7.png)
 
