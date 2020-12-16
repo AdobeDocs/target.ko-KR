@@ -23,7 +23,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 한 페이지에서 다른 페이지로 이동할 때(페이지 다시 로드 없이) 웹 사이트(특별히 단일 페이지 앱)가 매개 변수를 자르거나, 실제로 매개 변수를 제거할 경우 Target 기능이 중단되고 Target 라이브러리가 로드되지 않습니다.
 이 문제점을 방지하려면 이러한 두 매개 변수를 자르거나 제거하지 않아야 합니다.
 
-## 내 페이지가 EEC에서 열리지 않거나 느리게 로드됩니다. VEC에서 활동 또는 경험이 느리게 로드됩니다. (VEC만 해당) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## 내 페이지가 EEC에서 열리지 않거나 느리게 로드됩니다. VEC에서 활동 또는 경험이 느리게 로드됩니다. (VEC만 해당)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 몇 가지 문제가 Target 경험 작성기의 페이지 성능에 영향을 줄 수 있습니다. 일반적인 몇 가지 문제는 다음과 같습니다.
 
@@ -33,7 +33,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 고급 경험 작성기에서 문제가 발생할 경우 고급 경험 작성기를 끄고 시각적 경험 작성기를 대신 사용합니다.
 
-To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+향상된 경험 작성기를 비활성화하려면 **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]**&#x200B;로 이동하여 **[!UICONTROL 향상된 경험 작성기 사용]** 옵션을 해제합니다.
 
 일부 사용자의 경우 콘솔에 다음과 같은 오류 메시지가 표시됩니다.
 
@@ -109,7 +109,7 @@ To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]
 
 확장을 설정한 후 Target을 엽니다. 이제 고급 경험 작성기가 비활성화되더라도 페이지가 시각적 경험 작성기에 로드됩니다.
 
-## VEC(VEC 전용)에 내 페이지가 표시되지 않습니다. {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## VEC(VEC 전용)에 내 페이지가 표시되지 않습니다.  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * 브라우저가 지원되지 않습니다.
 * 브라우저가 보안 사이트에서 비보안 페이지를 차단하고 있습니다.
@@ -120,6 +120,6 @@ To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]
 
 이 설정이 활성화되어 있는지 확인한 다음, 웹 사이트에서 mbox.js를 다운로드하여 업데이트하십시오.
 
-## 찾아보기 모드를 사용할 때 VEC가 손상된 것으로 나타납니다. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 찾아보기 모드를 사용할 때 VEC가 손상된 것으로 나타납니다. (VEC만 해당)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 찾아보기 모드를 사용하는 동안 target.js가 없거나 frame-buster 헤더를 포함하는 URL에 액세스하면 시각적 경험 작성기가 중단된 것으로 나타납니다. 브라우저 보안 때문에, Target이 탐색한 URL에 액세스할 수 없습니다.
