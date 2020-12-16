@@ -1,6 +1,6 @@
 ---
 keywords: Targeting
-description: 활동 URL은 Adobe Target MVT(Multivariate Test)에서 사용되는 페이지를 결정하며, 테스트가 Adobe Target에서 디자인될 때 열립니다.
+description: 활동 URL은 Adobe Target MVT(Multivariate Test)에 사용되는 페이지를 결정하며 테스트가 Adobe Target에서 디자인될 때 열립니다.
 title: 활동 URL
 feature: mvt
 translation-type: tm+mt
@@ -22,7 +22,7 @@ ht-degree: 84%
 >
 >[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서, [!DNL `https://www.adobe.com`]과 [!DNL `http://www.adobe.com`]은 모두 같습니다.
 
-By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
+기본적으로 [!UICONTROL VEC(Visual Experience Composer])는 [Visual Experience Composer 설정](/help/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
 
 VEC가 열린 후 다른 페이지를 표시하려면 **[!UICONTROL 구성]** 아이콘을 클릭하고 **[!UICONTROL 페이지 배달]**&#x200B;을 선택한 다음 URL를 지정합니다.
 
