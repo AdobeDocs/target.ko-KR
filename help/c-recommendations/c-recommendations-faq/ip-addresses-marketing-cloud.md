@@ -30,5 +30,5 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->For the complete, most up-to-date list, see [IP Addresses used in the Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
+>전체 최신 목록을 보려면 Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html)에 사용된 [IP 주소를 참조하십시오.
 
