@@ -14,15 +14,15 @@ ht-degree: 65%
 
 # 글로벌 mbox에 매개 변수 전달{#pass-parameters-to-a-global-mbox}
 
-The JavaScript `targetPageParams` function is used to pass parameters to the global mbox in [!DNL Adobe Target]. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
+JavaScript `targetPageParams` 함수는 매개 변수를 [!DNL Adobe Target]의 전역 mbox에 전달하는 데 사용됩니다. 이것은 추가적인 타게팅/컨텍스트 정보를 [!DNL Target]으로 전달하려는 모든 시나리오에서 필요합니다.
 
-For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
+예를 들어 [!DNL Recommendations] 활동에서는 매개 변수를 사용하여 현재 보고 있는 제품 또는 범주를 나타냅니다.
 
-전역 mbox가 at.js의 일부로서 실행되거나 페이지 코드에 수동으로 포함되는지 여부에 따라 JavaScript 함수를 호출하는 코드가 페이지의 글로벌 mbox 앞에 와야 합니다.
+글로벌 mbox가 at.js의 일부로서 실행되거나 페이지 코드에 수동으로 포함되는지 여부에 따라 JavaScript 함수를 호출하는 코드가 페이지의 글로벌 mbox 앞에 와야 합니다.
 
 >[!NOTE]
 >
->If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function.
+>전역 mbox뿐만 아니라 페이지의 모든 mbox에 매개 변수를 추가하려면 [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) 함수를 사용하십시오.
 
 다음 방법 중 하나로 `target-global-mbox` 함수를 사용하여 `targetPageParams()`에 매개 변수를 전달할 수 있습니다.
 
@@ -113,5 +113,5 @@ JSON은 매개 변수를 전달하는 강력한 방법입니다. Target에서는
 
 * a=1
 * b=2
-* `profile.memberStatus`= 금
+* `profile.memberStatus`금색
 * `profile.country.city`=San Francisco
