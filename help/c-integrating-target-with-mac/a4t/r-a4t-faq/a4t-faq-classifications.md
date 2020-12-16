@@ -14,7 +14,7 @@ ht-degree: 65%
 
 # 분류 - A4T FAQ{#classifications-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+이 주제에는 분류에 대해 자주 묻는 질문과 [!DNL Analytics]을(를) [!DNL Target](A4T)의 보고 소스로 사용하는 질문에 대한 답변이 포함되어 있습니다.
 
 ## 분류 가져오기를 사용하여 분류를 다운로드한 후 post-tnt-action 값을 활동 이름과 일치시키는 방법은 무엇입니까?{#section_6045DAC488B248418F430E663C38D001}
 
@@ -24,11 +24,11 @@ This topic contains answers to questions that are frequently asked about classif
 
 TNT 변수의 문자열 형식은 `activityID:experienceID:targettype|event`입니다.
 
-* targettype = 0(control/random) 또는 1( [!UICONTROL 타깃팅됨)으로 자동 할당] 및 [!UICONTROL 자동 Target] 활동을수행합니다.
+* [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동에 대한 targettype = 0(control/random) 또는 1(타깃팅됨)입니다.
 * Event = 0은 경험 입장을 나타냅니다.
 * Event = 1은 경험 방문을 나타냅니다.
 * Event = 2는 활동 노출을 나타냅니다.
-* 이벤트 = 3-32766은 분석 성공 지표 ID를 나타냅니다.
+* 이벤트 = 3-32766은 분석 성공 지표 id를 나타냅니다.
 * Event = 32767은 활동 전환을 나타냅니다.
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). 엔지니어링 서비스에 참여하여 클릭스트림 데이터 피드와 함께 조회 테이블로서 이 파일을 얻을 수도 있습니다.
+[브라우저 가져오기](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) 또는 [FTP 가져오기](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html)를 사용하여 UI에서 자주 분류 파일을 가져올 수 있습니다. 엔지니어링 서비스에 참여하여 클릭스트림 데이터 피드와 함께 조회 테이블로서 이 파일을 얻을 수도 있습니다.
