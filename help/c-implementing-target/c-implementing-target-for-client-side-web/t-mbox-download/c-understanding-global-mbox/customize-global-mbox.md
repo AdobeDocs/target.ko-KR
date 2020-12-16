@@ -1,6 +1,6 @@
 ---
 keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
-description: at.js에 대한 글로벌 mbox 사용자 지정에 도움이 되는 정보입니다.
+description: at.js에 대한 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
 title: 글로벌 mbox 사용자 지정
 feature: null
 translation-type: tm+mt
@@ -14,11 +14,11 @@ ht-degree: 59%
 
 # 글로벌 mbox 사용자 지정{#customize-a-global-mbox}
 
-at.js에 대한 글로벌 mbox 사용자 지정에 도움이 되는 정보입니다.
+at.js에 대한 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
 
-1. 관리 **** > **[!UICONTROL 구현을 클릭합니다]**.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 
-1. Disable **[!UICONTROL Page load enabled (Auto create global mbox)]**, then add the name of the custom global mbox that you would like to use to deliver activities from [!DNL Target].
+1. **[!UICONTROL 페이지 로드 사용 안 함(글로벌 mbox 자동 만들기)]**, [!DNL Target]에서 활동을 전달하는 데 사용할 사용자 지정 글로벌 mbox의 이름을 추가합니다.
 
    이 사용자 지정 mbox도 클릭 추적에 사용됩니다.
 
@@ -26,9 +26,9 @@ at.js에 대한 글로벌 mbox 사용자 지정에 도움이 되는 정보입니
 
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-1. Implement the [!DNL at.js] library on your site.
+1. 사이트에서 [!DNL at.js] 라이브러리를 구현합니다.
 
-   자세한 [내용은 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md) 배포 방법을 참조하십시오.
+   자세한 내용은 [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)를 배포하는 방법을 참조하십시오.
 
 1. 전환 시간을 릴리스에 맞춰 지정합니다.
 
