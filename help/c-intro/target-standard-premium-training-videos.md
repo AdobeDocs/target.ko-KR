@@ -32,12 +32,12 @@ Target Standard 및 Target Premium을 최대한 활용하는 데 도움이 되�
 
 ## Adobe Target - 자습서 및 비디오
 
-A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
+[Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 페이지에서 사용할 수 있는 Target의 기능을 강조하는 사용법 비디오 및 자습서 모음입니다.
 
 ![Experience League 비디오](/help/c-intro/assets/experience-league.png)
 
 ## Adobe Target 자습서 {#tutorials}
 
-Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) page.
+[!DNL Target] 개념 및 도구에 대한 비디오 소개를 [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) 페이지에서 사용할 수 있습니다.
 
 ![Adobe Target 자습서](/help/c-intro/assets/adobe-target-tutorials-new.png)
