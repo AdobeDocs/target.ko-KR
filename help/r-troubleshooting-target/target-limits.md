@@ -60,9 +60,9 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 
 ## 고객 속성, 업로드
 
-* **HTTP 방법을 사용한 각 업로드에 대한 최대 파일 크기**:100MB.
-* **FTP 방법을 사용한 각 업로드에 대한 최대 파일 크기**:4GB
-* **가입이 허용된 속성 수**:5 for [!DNL Target Standard] and 200 for [!DNL Target Premium].
+* **HTTP 메서드를 사용하여 각 업로드에 대한 최대 파일 크기**:100MB.
+* **FTP 방법을 사용하여 각 업로드에 대한 최대 파일 크기**:4GB.
+* **구독할 수 있는 속성 수**:5  [!DNL Target Standard] 및 200 [!DNL Target Premium]으로
 
 ## 엔티티
 
@@ -70,7 +70,7 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 
 ## 엔티티 사용자 지정 속성
 
-최대 100개의 사용자 지정 엔티티 속성을 포함할 수 있습니다
+최대 100개의 사용자 지정 개체 속성을 포함할 수 있습니다.
 
 **제한**:최대 문자 길이는 언어에 따라 다릅니다.
 
@@ -126,9 +126,9 @@ AP(자동화된 개인화) 활동당 30,000개 경험.
 
 웹 브라우저 제한으로 인해 요청이 축소되지 않는 한 이러한 제한이 적용됩니다.
 
-배치 배달 API를 사용하는 경우 배치 요청당 최대 50mbox가 제한됩니다.
+배치 배달 API를 사용하는 경우 일괄 처리 요청당 최대 50mbox가 제한됩니다.
 
-모바일 서비스 SDK에서 [배치 배달 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)를 사용하는 경우 50개의 mbox 매개 변수, 50개의 프로필 매개 변수 및 50개의 다른 매개 변수 유형에 대한 제한은 API 자체의 제한입니다. 배치 배달 API를 사용하여 이들 번호를 더 많이 포함하는 요청을 보낼 수 없습니다. 요청에 이러한 제한보다 많은 수가 포함된 경우 API는 다음 오류 메시지를 반환합니다.
+모바일 서비스 SDK에서 [배치 배달 API](https://developers.adobetarget.com/api/#server-side-batch-delivery)를 사용하는 경우 50개의 mbox 매개 변수, 50개의 프로필 매개 변수 및 50개의 다른 매개 변수 유형에 대한 제한은 API 자체의 제한입니다. 배치 배달 API를 사용하여 이들 번호를 더 많이 포함하는 요청을 보낼 수 없습니다. 요청에 이러한 제한보다 많은 부분이 포함된 경우 API는 다음 오류 메시지를 반환합니다.
 
 &quot;mboxParameters 수는 50개를 초과할 수 없습니다.&quot;
 
@@ -204,7 +204,7 @@ mbox v2 일괄 처리:
 
 **계정당 총 프로필 스크립트 권장 한도**:2,000
 
-**프로필 스크립트 복잡성을 제한하는 Recommendations**:프로필 스크립트는 제한된 수의 지침을 실행할 수 있습니다. 자세한 내용은 프로필 속성의 [우수](/help/c-target/c-visitor-profile/profile-parameters.md#best) 사례 *를 참조하십시오*.
+**프로필 스크립트 복잡성을 제한하는 Recommendations**:프로필 스크립트는 제한된 수의 지침을 실행할 수 있습니다. 자세한 내용은 *프로필 특성*&#x200B;의 [우수 사례](/help/c-target/c-visitor-profile/profile-parameters.md#best)를 참조하십시오.
 
 ## 속성
 
