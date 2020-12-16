@@ -1,6 +1,6 @@
 ---
 keywords: Target;reports;report settings;extreme orders;extreme values
-description: Adobe Target의 영향을 받는 보고서에서 예외적인 값을 제외하여 몇 가지 비정상적인 주문이 활동 결과에 영향을 주지 않도록 할 수 있습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
+description: 일부 비정상적인 주문이 활동 결과에 영향을 주지 않도록 Adobe Target에서 영향을 주는 보고서에서 예외적인 값을 제외할 수 있습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
 title: Adobe Target 보고서에서 예외적인 값 제외
 feature: report settings
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 73%
 
 # 예외적인 값 제외
 
-You can exclude extreme values from affecting reports in [!DNL Adobe Target] so a few unusual orders don&#39;t affect your activity results. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
+[!DNL Adobe Target]에서 보고서에 영향을 주는 예외적인 값을 제외하여 몇 가지 비정상적인 주문이 활동 결과에 영향을 주지 않도록 합니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
 
 >[!NOTE]
 >
@@ -26,7 +26,7 @@ You can exclude extreme values from affecting reports in [!DNL Adobe Target] so 
 
 예를 들어, RPV를 사용할 때 예외적인 값 필터가 종종 유용합니다. RPV는 전환율과 평균 주문 가격을 결합하고, 이러한 지표들의 변동성을 종종 노출합니다. RPV를 사용하고 주문이 정상적으로 배포되지 않는 것으로 파악되는 경우, 예외적인 주문 필터를 적용하면 정상적인 결과가 더 많이 표시됩니다.
 
-값이 예외적인 것으로 표시되면 예외적인 항목을 제외하고, 주문 가격은 마지막 달 동안 경험의 평균 주문 가격으로 대체됩니다. The order is also marked as extreme in the [!UICONTROL Order Details] report and in the CSV download for daily results.
+값이 예외적인 것으로 표시되면 예외적인 항목을 제외하고, 주문 가격은 마지막 달 동안 경험의 평균 주문 가격으로 대체됩니다. 이 주문은 [!UICONTROL 주문 세부 사항] 보고서와 일별 결과에 대한 CSV 다운로드에서도 극단으로 표시됩니다.
 
 **보고서에서 예외적인 값을 제외하려면**
 
@@ -35,5 +35,5 @@ You can exclude extreme values from affecting reports in [!DNL Adobe Target] so 
 
    ![단계 결과](assets/exclude_extreme_values.png)
 
-1. 필요에 따라 **[!UICONTROL 예외값]** 제외를 &quot;켜짐&quot; 또는 &quot;꺼짐&quot; 위치로 끕니다.
+1. 원하는 대로 **[!UICONTROL 예외값 제외]** 전환을 &quot;켜기&quot; 또는 &quot;끄기&quot; 위치로 끕니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
