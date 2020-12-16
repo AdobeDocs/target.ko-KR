@@ -27,9 +27,9 @@ AdBox 광고 및 리디렉터는 모든 종류의 활동에 사용할 수 있습
 | AdBox | 여러 가지 이미지를 광고에 반환 | 광고 컨텐츠를 변경하기 위해 | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | 리디렉션 오퍼 | 이미지의 URL |
 | 리디렉터 | 방문자를 다른 웹 페이지로 리디렉션 | 광고의 랜딩 페이지를 변경하기 위해 | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | 리디렉션 오퍼 | 페이지의 URL |
 
-## 보안 모범 사례 {#security}
+## 보안 우수 사례 {#security}
 
-리디렉터를 사용하면 Open Redirect Vulnerability 위험에 노출될 수 있습니다. 제3자가 리디렉터 링크를 무단으로 사용하지 않도록 하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target은 리디렉션을 허용할 도메인을에 허용 목록에 추가하다 사용합니다. 자세한 내용은 호스트 [에서 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#allowlist) 만들기를 *참조하십시오*.
+리디렉터를 사용하면 오픈 리디렉션 취약성 위험에 노출될 수 있습니다. 제3자에 의한 리디렉터 링크의 무단 사용을 방지하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target에서는 리디렉션을 허용 목록에 추가하다 허용하려는 도메인을에 호스트를 사용합니다. 자세한 내용은 ](/help/administrating-target/hosts.md#allowlist)호스트&#x200B;*의 Target[에 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록 만들기를 참조하십시오.*
 
 ## 제한 {#section_38F559DCF1324271926608BCD4AB1227}
 
