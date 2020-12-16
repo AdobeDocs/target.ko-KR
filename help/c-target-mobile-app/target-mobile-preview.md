@@ -30,8 +30,8 @@ ht-degree: 94%
 
    적절한 SDK를 다운로드하는 방법에 대한 지침은
 
-   * **iOS:**[Mobile Services iOS 도움말을](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) 시작하기 전에 *시작하십시오*.
-   * **Android:**[Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) Android 도움말에서 시작하기 **&#x200B;전에
+   * **iOS:** [Mobile ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) Services iOS 도움말을  *시작하기 전에*.
+   * **Android:** [Mobile ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) Services Android 도움말을  *시작하기 전에*.
 
 1. **URL 체계 설정:** 미리 보기 링크는 URL 체계를 사용하여 앱을 엽니다. 미리 보기에 대해 고유한 URL 체계를 지정해야 합니다.
 
