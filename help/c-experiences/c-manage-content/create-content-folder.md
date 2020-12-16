@@ -17,7 +17,7 @@ ht-degree: 99%
 오퍼 라이브러리에서 항목을 보관할 폴더를 만듭니다.
 
 1. **[!UICONTROL 오퍼]**&#x200B;를 클릭한 다음 **[!UICONTROL 코드 오퍼]** 또는 **[!UICONTROL 이미지 오퍼]** 탭을 적절하게 선택합니다.
-1. Click **[!UICONTROL Create]** > **[!UICONTROL Folder]**.
+1. **[!UICONTROL 만들기]** > **[!UICONTROL 폴더]**&#x200B;를 클릭합니다.
 1. 다음 필드를 채웁니다.
 
    | 필드 | 설명 |
