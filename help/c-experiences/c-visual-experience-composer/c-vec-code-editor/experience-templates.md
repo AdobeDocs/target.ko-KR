@@ -32,7 +32,7 @@ ht-degree: 87%
 
 ![](assets/exp-template-banner-carousel.png)
 
-## 배너 카운트다운 {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
+## 배너 카운트다운  {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 [배너 카운트다운 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)은 중앙 카운트다운이 있는 대형 배너이며, 일반적으로 홈페이지 및 랜딩 페이지나 기타 대량 입력 페이지에서 사용됩니다.
 
@@ -44,7 +44,7 @@ ht-degree: 87%
 
 ![](assets/exp-template-button-builder.png)
 
-## 카운트다운이 있는 Lightbox {#section_E1177C52F1294EA5AC48312727CD3DF4}
+## 카운트다운이 있는 Lightbox  {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 [카운트다운이 있는 Lightbox 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)은 중앙 카운트다운이 있는 lightbox 오버레이 팝업이며, 일반적으로 홈페이지 및 랜딩 페이지나 기타 대량 입력 페이지에서 사용됩니다.
 
