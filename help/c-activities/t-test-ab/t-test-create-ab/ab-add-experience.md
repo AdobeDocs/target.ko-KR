@@ -30,7 +30,7 @@ VEC(시각적 경험 작성기)가 페이지에서 경험을 추가 및 편집�
 
    페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 경험 작성기를 사용하여 변경할 수 있습니다.
 
-   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   Target Classic(이전 Test&amp;Target)을 사용하여 페이지에 [!DNL Target] 요청을 만든 경우 해당 [!DNL Target] 요청은 요청 이름을 표시하는 요소로 나타나며 다른 모든 요소처럼 수정할 수 있습니다.
 
    표시된 페이지의 요소에서 수행하여 경험을 변경할 수 있는 작업 목록은 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
 
@@ -93,7 +93,7 @@ A/B 테스트에서 환경을 복사할 수 있으므로 처음부터 환경을 
 
 ![경험 삭제 선택 사항](/help/c-activities/t-test-ab/t-test-create-ab/assets/delete-experience.png)
 
-## Training video: Using the Visual Experience Composer ![Tutorial badge](/help/assets/tutorial.png)
+## 교육 비디오:Visual Experience Composer ![자습서 배지 사용](/help/assets/tutorial.png)
 
 아래 비디오에서는 시각적 경험 작성기 선택 사항 사용에 대한 정보를 제공합니다. (7:17)
 
