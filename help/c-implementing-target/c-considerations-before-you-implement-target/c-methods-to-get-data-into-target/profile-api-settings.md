@@ -16,18 +16,18 @@ ht-degree: 37%
 
 Adobe Target API를 통해 일괄 업데이트를 위한 인증을 활성화 또는 비활성화하고 프로필 인증 토큰을 생성합니다.
 
-[!DNL Adobe Target] 개별 사용자에 대해 프로필을 만들고 유지 관리합니다. This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit; however, you can update a profile individually or in bulk via API.
+[!DNL Adobe Target] 개별 사용자에 대해 프로필을 만들고 유지 관리합니다. 이 프로필은 [!DNL Target] 에지 클러스터에 저장되며 방문할 때마다 실시간으로 업데이트됩니다.하지만 API를 통해 개별적으로 또는 대량으로 프로파일을 업데이트할 수 있습니다.
 
 추가 보안을 위해 벌크 업데이트 API 호출 시 요청의 헤더에서 전달할 올바른 액세스 토큰을 요구할 수 있습니다.
 
 **Target UI를 사용하여 인증을 요구하고 액세스 토큰을 생성하려면 다음을 수행하십시오.**
 
-1. 관리 **** > **[!UICONTROL 구현을 클릭합니다]**.
-1. 프로필 **[!UICONTROL API]** 아래의 **[!UICONTROL 인증 필요]** 슬라이드를 활성화되거나 비활성화된 위치로 전환합니다.
+1. **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL 프로필 API]** 아래에서 **[!UICONTROL 인증 필요]** 를 활성화되거나 비활성화된 위치로 전환합니다.
 
    ![](assets/profile_api_settings.png)
 
-1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Profile Authentication Token]**.
+1. (조건부) 인증 요구 사항을 활성화한 경우 **[!UICONTROL 새 프로필 인증 토큰 생성]**&#x200B;을 클릭합니다.
 
    ![](assets/profile_api_settings_2.png)
 
@@ -35,22 +35,22 @@ Adobe Target API를 통해 일괄 업데이트를 위한 인증을 활성화 또
 
    인증 토큰을 생성하려면 다음 사용자 권한 중 하나가 있어야 합니다.
 
-   * 적어도 [!UICONTROL 편집기] 권한(또는 [!UICONTROL 승인자])
+   * [!UICONTROL 편집기] 권한(또는 [!UICONTROL 승인자]) 이상
 
-      고객에 대한 자세한 내용은 [!DNL Target Standard] 사용자 [에서 역할 및 권한](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 지정을 *참조하십시오*. 고객에 대한 자세한 내용은 [!DNL Target Premium] 엔터프라이즈 권한 [구성을 참조하십시오](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+      [!DNL Target Standard] 고객에 대한 자세한 내용은 *사용자*&#x200B;의 [역할 및 권한 지정](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 참조하십시오. [!DNL Target Premium] 고객에 대한 자세한 내용은 [기업 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)을 참조하십시오.
 
    * 작업 공간/제품 프로필 수준에서 관리자 역할
 
-      작업 영역은 [!DNL Target Premium] 고객에게만 제공됩니다. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+      작업 공간은 [!DNL Target Premium] 고객에게만 제공됩니다. 자세한 내용은 [엔터프라이즈 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)을 참조하십시오.
 
-   * 제품 수준의 관리자 권한( [!DNL Adobe Target] 시스템 관리자 권한)
+   * [!DNL Adobe Target] 제품 수준에서 관리자 권한(Sysadmin 권한)
    >[!NOTE]
    >
    >API를 통해 프로필 인증 토큰을 생성할 수도 있습니다. 자세한 내용은 [Adobe Target 개발자 웹 사이트](https://developers.adobetarget.com/)에서 [프로필](https://developers.adobetarget.com/api/#profiles)을 참조하십시오.
 
 1. 토큰을 복사하고 &quot;Authorization&quot; : &quot;Bearer &quot; 형식으로 요청 헤더에 포함합니다.
 
-Click [!UICONTROL Generate New Profile Authentication Token] to regenerate the token as needed.
+필요한 경우 [!UICONTROL 새 프로필 인증 토큰 생성]을 클릭하여 토큰을 다시 생성합니다.
 
 >[!IMPORTANT]
 >
