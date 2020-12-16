@@ -86,7 +86,7 @@ ht-degree: 98%
 * 리디렉션 URL 유형
 * 절대 또는 상대 URL
 
-## 교육 비디오: 콘텐츠 저장소 ![개요 배지](/help/assets/overview.png)
+## 교육 비디오: 콘텐츠 저장소  ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에는 오퍼 관리에 대한 정보가 포함되어 있습니다.
 
