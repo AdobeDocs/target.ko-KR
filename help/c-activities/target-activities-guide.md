@@ -18,7 +18,7 @@ Adobe Target의 다양한 활동 유형(권장 사항 제외)을 설명하는 �
 
 >[!NOTE]
 >
->For the best experience and to share with others, download the interactive [Adobe Target Activities Guide PDF](/help/assets/activities_guide_82817.pdf).
+>최상의 경험과 다른 사람과 공유하려면 대화형 [Adobe Target 활동 안내서 PDF](/help/assets/activities_guide_82817.pdf)를 다운로드하십시오.
 
 ## 활동 유형별 역할 {#section_4ECAACC68723402EB3649033190E1BBC}
 
