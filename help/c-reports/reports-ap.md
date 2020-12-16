@@ -1,6 +1,6 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Adobe Target의 Automated Personalization 활동 사용자는 전문 보고서를 이용할 수 있습니다.
+description: Adobe Target에서 Automated Personalization 활동을 하는 사용자는 특별 보고서를 사용할 수 있습니다.
 title: 자동화된 개인화 요약 보고서
 feature: reports
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 71%
 
 # ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 요약 보고서{#automated-personalization-summary-reports}
 
-Specialized reports are available to users of [!UICONTROL Automated Personalization] activities in [!DNL Adobe Target].
+[!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] 활동 사용자가 전문 보고서를 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -28,7 +28,7 @@ Specialized reports are available to users of [!UICONTROL Automated Personalizat
 
 [!UICONTROL 자동화된 개인화]는 다음 보고서를 제공합니다.
 
-## Activity Level report {#section_6F72FC5C790B4492B3DCECBFFA971337}
+## 활동 수준 보고서 {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
 [!UICONTROL 활동 수준] 보고서에서는 [!UICONTROL 자동화된 개인화] 알고리즘을 사용하는 합계 성과를 무작위로 제공된 컨텐츠(통제 컨텐츠)에 비교합니다.
 
@@ -36,11 +36,11 @@ Specialized reports are available to users of [!UICONTROL Automated Personalizat
 
 상승도, 신뢰도, 트렌드, 지속 기간 등을 포함하여 A/B 테스트에 대한 결과 해석의 표준 규칙이 여전히 적용됩니다. 결과 해석에 대한 자세한 내용은 [전환율에 대하여](/help/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)를 참조하십시오.
 
-## Offer Level report {#section_CAA6409879E349C6906E2BE8156D87A1}
+## 오퍼 수준 보고서 {#section_CAA6409879E349C6906E2BE8156D87A1}
 
 랜덤 포레스트 경험에 대한 [!UICONTROL 오퍼 수준] 보고서는 알고리즘이 적용된 각 오퍼의 성과를 무작위로 제공된 동일한 오퍼(통제 오퍼)에 비교합니다. 따라서 이 보기에서 오퍼는 서로 비교되지 않습니다.
 
-Click the experience algorithm (Random Forest or control) to view the [!UICONTROL Offer Level] report.
+경험 알고리즘(임의 포리스트 또는 제어)을 클릭하여 [!UICONTROL 오퍼 수준] 보고서를 봅니다.
 
 ![](assets/ap_OfferLevelRpt.png)
 
@@ -52,16 +52,16 @@ Click the experience algorithm (Random Forest or control) to view the [!UICONTRO
 
 ## 자동화된 세그먼트
 
-자동화된 세그먼트 [!UICONTROL 아이콘을] 클릭합니다. 이 보고서는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 어떻게 다르게 반응하는지를 보여줍니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.
+[!UICONTROL 자동화된 세그먼트] 아이콘을 클릭합니다. 이 보고서는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 어떻게 다르게 반응하는지를 보여줍니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.
 
 ![자동화된 세그먼트 아이콘](/help/c-reports/assets/icon-automated-sements-ap.png)
 
-자세한 내용은 [자동화된 세그먼트 보고서를 참조하십시오](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
+자세한 내용은 [자동화된 세그먼트 보고서](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)를 참조하십시오.
 
 ## 중요 속성
 
-중요 속성 [!UICONTROL 아이콘을] 클릭합니다. 이 보고서는 다양한 활동에서 모델이 개인화하는 방식에 대해 서로 다른 속성이 더 중요하거나 덜 중요한 방법을 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
+[!UICONTROL 중요 특성] 아이콘을 클릭합니다. 이 보고서는 다양한 활동에서 모델이 개인화하기로 결정하는 방식에 대해 서로 다른 속성이 더 중요하거나 덜 중요한 방법을 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
 
 ![중요 속성 아이콘](/help/c-reports/assets/icon-important-attributes-ap.png)
 
-자세한 내용은 [중요 속성 보고서를 참조하십시오](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+자세한 내용은 [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)를 참조하십시오.
