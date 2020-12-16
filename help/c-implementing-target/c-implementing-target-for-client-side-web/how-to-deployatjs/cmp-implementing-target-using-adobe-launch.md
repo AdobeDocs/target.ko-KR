@@ -1,6 +1,6 @@
 ---
 keywords: implement;implementing;implementation;adobe launch;launch;race;redirect;experience platform launch
-description: Adobe Experience Platform Launch은 Adobe의 차세대 태그 관리 플랫폼으로 Adobe Target을 구현하는 데 선호되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
+description: Adobe Experience Platform Launch은 Adobe의 차세대 태그 관리 플랫폼으로 Adobe Target을 구현하는 데 가장 선호되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
 title: Adobe Launch를 사용하여 Target 구현을 참조하십시오
 feature: implementation with launch
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 81%
 
 # Adobe Launch를 사용하여 Target 구현을 참조하십시오{#implement-target-using-adobe-launch}
 
-Adobe Experience Platform Launch은 Adobe의 차세대 태그 관리 플랫폼으로 Adobe Target을 구현하는 데 선호되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
+Adobe Experience Platform Launch은 Adobe의 차세대 태그 관리 플랫폼으로 Adobe Target을 구현하는 데 가장 선호되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
 
 ## Adobe Launch를 사용하여 Target 구현{#topic_5234DDAEB0834333BD6BA1B05892FC25}을 참조하십시오 
 
@@ -26,9 +26,9 @@ Launch는 Adobe의 차세대 태그 관리 플랫폼이며 Adobe Target을 구�
 |--- |--- |
 | [Adobe Target 확장 자습서를 사용하여 Target 구현](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | 이 자습서에서는 Launch를 사용하여 웹 사이트에서 Adobe Target을 구현하는 단계별 지침을 제공합니다. 다뤄지는 주제에는 at.js JavaScript 라이브러리 추가, 글로벌 mbox 실행, 매개 변수 추가 및 다른 솔루션과의 통합이 있습니다. 이 문서는 다른 Adobe Experience Cloud 솔루션뿐만 아니라 Adobe Launch를 구현하는 방법도 보여주는 더 광범위한 자습서의 일부입니다. |
 | [Adobe Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | 관련 고객 경험을 수행하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배치하고 관리하는 방법에 대한 정보입니다. |
-| [Adobe Target 익스텐션 설명서](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Launch를 사용하여 Target을 구현하는 방법에 대한 정보입니다. |
+| [Adobe Target 확장 설명서](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Launch를 사용하여 Target을 구현하는 방법에 대한 정보입니다. |
 
-## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Target 시작 확장 {#section_48B3F938B6F8491DAF798E0DB54EF304}을 사용하여 at.js를 구현하는 이점
 
 Adobe Launch를 사용하여 at.js를 구현하는 경우에만 다음과 같은 이점이 있습니다. 따라서 DTM이 아닌 Adobe Launch를 사용하거나 at.js를 수동으로 구현하는 것이 좋습니다.
 
