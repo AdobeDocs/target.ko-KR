@@ -12,7 +12,7 @@ ht-degree: 78%
 ---
 
 
-# adobe.target.trackEvent(옵션)
+# adobe.target.trackEvent(options)
 
 이 함수는 클릭 및 전환과 같은 사용자 작업을 보고하라는 요청을 실행하며, 응답에 있는 활동을 전달하지는 않습니다.
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 | 키 | 유형 | 필수 | 설명 |
 |--- |--- |--- |--- |
-| mbox | 문자열 | 예 | mbox <br>**이름**:페이지에서 이미 실행된 mbox 이름으로 trackEvent() 호출이 실행되는 경우 trackEvent()의 SDID가 재설정되며 페이지의 Target 호출과 다릅니다. 그러나 다른 mbox 이름으로 trackEvent() 호출을 실행하면 페이지의 페이지 로드 요청/triggerView() 호출과 일치하는 trackEvent() 호출의 SDID가 유지됩니다. |
+| mbox | 문자열 | 예 | mbox 이름&#x200B;<br>**참고**:trackEvent() 호출이 페이지에서 이미 실행된 mbox 이름으로 실행되는 경우 trackEvent()의 SDID가 재설정되며 페이지의 Target 호출과 다릅니다. 그러나 다른 mbox 이름으로 trackEvent() 호출을 실행하면 trackEvent() 호출의 SDID가 페이지의 페이지 로드 요청/triggerView() 호출과 일관되게 유지됩니다. |
 | selector | 문자열 | 아니오 | HTML 요소를 찾는 데 사용되는 CSS 선택기입니다. 이벤트 리스너는 발견된 요소에 첨부됩니다. |
 | 유형 | 문자열 | 아니오 | 등록된 이벤트 유형을 나타냅니다. HTML 알려진 이벤트(예: click, mousedown 등)일 수도 있고 사용자 지정 HTML 이벤트일 수도 있습니다. |
 | preventDefault | 부울 | 아니오 | 이벤트 리스너 콜백에서 `event.preventDefault()`를 사용할지 여부를 나타냅니다. 기본값은 false입니다.<br>**참고**: `form[submit] and `a[click]`만 지원됩니다. 복잡성 및 지원할 시나리오 양이 많기 때문에 기타 시나리오는 지원되지 않습니다. |
