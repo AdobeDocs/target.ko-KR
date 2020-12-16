@@ -59,7 +59,7 @@ at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리�
 
 * 단일 페이지 앱/MVC 프레임워크용으로 특별히 디자인된 함수
 
-## 교육 비디오: at.js - 이점 및 구현 우수 사례 ![개요 배지](/help/assets/overview.png)
+## 교육 비디오: at.js - 이점 및 구현 우수 사례  ![개요 배지](/help/assets/overview.png)
 
 이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](/help/cmp-resources-and-contact-information.md)&quot; 기록입니다.
 
