@@ -25,9 +25,9 @@ ht-degree: 90%
 
    대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+   이 옵션이 [!UICONTROL 관리] > [!UICONTROL 보고](기본값)에서 활성화되지 않으면 우선 순위를 지정합니다.낮음, 중간 또는 높음.
 
-   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
+   세부적으로 분류된 우선 순위를 사용하려면 [!UICONTROL 관리] > [!UICONTROL 보고]를 클릭한 다음 [!UICONTROL 세부적으로 지정된 우선 순위 활성화] 옵션을 &quot;설정&quot; 위치로 전환합니다.
 
    이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 * [다변량 테스트](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [권장 사항](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## 교육 비디오: 활동 설정 ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오: 활동 설정  ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에는 활동 설정에 대한 정보가 포함되어 있습니다.
 
