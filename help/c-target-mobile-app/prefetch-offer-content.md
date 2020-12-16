@@ -21,9 +21,9 @@ ht-degree: 63%
 iOS 및 Android Mobile SDK에서 프리페치 방법을 사용할 때는 다음 제한 사항을 고려하십시오.
 
 * 미리 가져오기 콘텐츠는 실행 간에는 지속되지 않으며, 애플리케이션이 상주하는 동안 또는 `clearPrefetchCache()` 메서드가 호출될 때까지 캐시됩니다.
-* 프리페치 기능은 [!UICONTROL Automated Personalization] 또는 [!UICONTROL Recommendations] 활동 유형에 대해 자동 할당 [!UICONTROL 및] 자동 Target [!UICONTROL 트래픽 할당 방법, 또는] [](/help/c-recommendations/recommendations-as-an-offer.md)활동 유형에 대해, 또는 Flash/B 또는 XT 활동 내에서 A/B 또는 Xt활동 내에 있는 권장 사항에 대해서는 지원되지 않습니다.
+* 프리페치 기능은 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 트래픽 할당 메서드, [!UICONTROL Automated Personalization] 또는 [!UICONTROL Recommendations] 활동 유형 또는 A/B 또는 XT 활동](/help/c-recommendations/recommendations-as-an-offer.md)의 권장 사항에 대해 지원되지 않습니다.[
 
 미리 가져오기 방법, 공용 클래스 및 코드 샘플을 포함한 자세한 내용은 다음을 참조하십시오.
 
-* **iOS:** [iOS에서 프리페치](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) 제공 컨텐츠는 *Mobile Services iOS SDK 도움말에서 확인할 수 있습니다*.
-* **Android:** [Android에서](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) 프리페치 제공 내용은 *Mobile Services Android SDK 도움말에서 확인할 수 있습니다*.
+* **iOS:**  [Mobile Services iOS SDK 도움말의 ](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) iOS에서  *콘텐츠를 프리페치합니다*.
+* **Android:**  [Mobile Services Android SDK 도움말의 ](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) Android에서  *컨텐츠를 프리페치합니다*.
