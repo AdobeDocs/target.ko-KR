@@ -26,7 +26,7 @@ ht-degree: 93%
 
    페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 VEC를 사용하여 변경할 수 있습니다. 요소에서 수행하여 경험을 변경할 수 있는 작업 목록은 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
 
-   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   [!DNL Target Classic]을 사용하여 페이지에 [!DNL Target] 요청을 만든 경우 해당 [!DNL Target] 요청은 요청 이름을 표시하는 요소로 나타나며 다른 모든 요소처럼 수정할 수 있습니다.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ ht-degree: 93%
    >
    >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-   대상을 만들 때 위치를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
+   대상을 만들 때 위치를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. [!UICONTROL 사용자 지정](대상자 만들기 > 규칙 추가 > 사용자 지정)에서 위치를 선택한 다음 원하는 매개 변수를 지정합니다.
 
    >[!NOTE]
    >
