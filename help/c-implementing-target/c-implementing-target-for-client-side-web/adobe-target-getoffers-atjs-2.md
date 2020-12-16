@@ -30,7 +30,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->아래 나열된 모든 필드에 대해 허용되는 유형에 대한 자세한 내용은 [배달 API 설명서를](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 참조하십시오.
+>아래 나열된 모든 필드에 적합한 유형에 대한 자세한 내용은 [배달 API 설명서](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)을 참조하십시오.
 
 | 필드 이름 | 필수? | 제한 | 설명 |
 | --- | --- | --- | --- |
@@ -85,7 +85,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getOffers()를 호출하여 전달된 매개 변수와 프로필 매개 변수를 사용하여 최신 보기를 검색합니다.
+## 전달된 매개 변수 및 프로필 매개 변수를 사용하여 최신 보기를 검색하려면 getOffers()를 호출합니다.
 
 ```javascript
 adobe.target.getOffers({
@@ -106,7 +106,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getOffers()를 호출하여 전달된 매개 변수와 프로필 매개 변수가 있는 mbox를 검색합니다.
+## 전달된 매개 변수와 프로필 매개 변수가 포함된 mbox를 검색하려면 getOffers()를 호출합니다.
 
 ```javascript
 adobe.target.getOffers({
@@ -185,7 +185,7 @@ adobe.target.getOffers({
 }
 ```
 
-그러면 페이로드를 [데이터 삽입 API를 통해 Adobe Analytics으로 전달할 수 있습니다](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+페이로드를 [데이터 삽입 API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)를 통해 Adobe Analytics으로 전달할 수 있습니다.
 
 ## getOffers() 및 applyOffers()를 통해 여러 mbox에서 데이터를 가져와 렌더링합니다. {#multiple}
 
@@ -268,7 +268,7 @@ adobe.target.getOffers({
 
 ## getOffers()를 호출하여 pageLoad를 수행합니다.
 
-다음 예는 at.js 2에서 getOffers()를 사용하여 pageLoad를 수행하는 방법을 보여줍니다.*x*
+다음 예제에서는 at.js 2에서 getOffers()를 사용하여 pageLoad를 수행하는 방법을 보여 줍니다.*x*
 
 ```javascript
 adobe.target.getOffers({
