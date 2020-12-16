@@ -20,7 +20,7 @@ ht-degree: 92%
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>사용 가능한 모든 Target 메서드 목록은 [모바일 설명서](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html)를 참조하십시오.
 
 앱에서 Target 위치를 만들고 요청을 수행하려면 다음 두 가지 기본 메서드를 사용할 수 있습니다.
 
