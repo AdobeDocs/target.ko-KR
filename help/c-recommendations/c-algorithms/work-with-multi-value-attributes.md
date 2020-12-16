@@ -1,7 +1,7 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
 description: 특수 다중 값 연산자를 사용하는 Adobe Target Recommendations의 다중 값 필드 작업에 대한 정보입니다.
-title: Adobe Target Recommendations에서 다중 값 속성을 사용한 작업
+title: Adobe Target Recommendations에서 다중 값 특성을 사용한 작업
 feature: criteria
 translation-type: tm+mt
 source-git-commit: af7e7d1fa0e1d56f86d63187a10b3b8f31ca62c8
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 # 다중 값 특성을 사용한 작업
 
-다중 값 필드로 작업하려는 경우가 있습니다. 다음 예를 생각해 보십시오.
+다중 값 필드로 작업할 수도 있습니다. 다음 예를 생각해 보십시오.
 
-* 사용자에게 동영상을 제공합니다. 주어진 영화에는 여러 명의 배우가 나온다.
-* 콘서트 티켓을 팔아요 주어진 사용자는 여러 개의 즐겨찾기 밴드를 가지고 있습니다.
-* 옷을 팔아요 셔츠는 여러 사이즈로 제공됩니다.
+* 사용자에게 동영상을 제공합니다. 주어진 영화에는 여러 명의 배우들이 있다.
+* 콘서트 티켓을 팔아요. 주어진 사용자는 여러 개의 즐겨찾기 밴드를 가지고 있습니다.
+* 옷을 팔아요 셔츠는 여러 크기로 제공됩니다.
 
-이러한 시나리오에서 권장 사항을 처리하려면 다중 값 데이터를 특수 다중 값 연산자로 전달하고 [!DNL Target Recommendations] 사용할 수 있습니다.
+이러한 시나리오에서 권장 사항을 처리하려면 다중 값 데이터를 [!DNL Target Recommendations]에 전달하고 특수 다중 값 연산자를 사용할 수 있습니다.
 
-다중 값 데이터 [!DNL Recommendations] 를 식별하려면 아래 코드 샘플에서와 같이 JSON 배열로 전송해야 합니다.
+[!DNL Recommendations]이(가) 다중 값 데이터를 식별할 수 있도록 하려면 아래 코드 샘플에서와 같이 JSON 배열로 전송해야 합니다.
 
 ## JavaScript에서 다중 값 매개 변수 전달
 
@@ -41,9 +41,9 @@ function targetPageParams() {
 }
 ```
 
-자세한 내용은 사용자 지정 엔티티 [속성에서 다중 값 속성](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) 구현을 *참조하십시오*.
+자세한 내용은 *사용자 지정 개체 특성*&#x200B;의 [다중 값 특성 구현](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)을 참조하십시오.
 
-## CSV 파일에 다중 값 엔티티 속성 전달
+## CSV 파일에 다중 값 엔티티 특성 전달
 
 ```
 ## RECSRecommendations Upload File,,,,,,,,,,,,,,,,,,,
@@ -60,22 +60,22 @@ function targetPageParams() {
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-엔티티 속성, 프로필 속성 또는 mbox 매개 변수가 위의 형식에 따라 다중 값으로 제공되면 필드가 다중 값임을 [!DNL Recommendations] 자동으로 알려줍니다.
+개체 특성, 프로필 속성 또는 mbox 매개 변수가 위의 형식에 따라 다중 값으로 제공되면 [!DNL Recommendations] 은 필드가 다중 값임을 자동으로 알려줍니다.
 
 다음 연산자는 다중 값 엔티티, 프로필 및 mbox 속성에 사용할 수 있습니다.
 
 * [!UICONTROL 목록에 포함]
 * [!UICONTROL 목록에 포함되지 않음]
 
-## 포함 규칙에서 다중 값 속성 사용
+## 포함 규칙에서 다중 값 특성을 사용한 작업
 
 >[!NOTE]
 >
->다중 값 속성에 대한 동적 일치 지원은 현재 하나의 값을 왼쪽 다중 값 오른쪽과 비교할 때 프로필 속성 일치 또는 매개 변수(mbox) 속성 일치 규칙을 사용하는 기준에서만 사용할 수 있습니다. 다중 값 속성은 현재 프로모션, 엔티티 속성 일치 또는 포함 규칙 왼쪽의 목록에 대해 지원되지 않습니다.
+>다중 값 속성에 대한 동적 일치 지원은 현재 단일 값을 왼쪽 다중 값 오른쪽과 비교할 때 프로필 속성 일치 또는 매개 변수(mbox) 속성 일치 규칙을 사용할 때만 조건에 사용할 수 있습니다. 다중 값 속성은 현재 프로모션, 엔티티 속성 일치 또는 포함 규칙 왼쪽의 목록에 대해 지원되지 않습니다.
 
 ### 예:최근에 본 항목 제외
 
-사용자의 최근 10개 시청된 영화에 있는 동영상이 권장되지 않도록 한다고 가정합니다. 먼저, 마지막으로 본 10개의 동영상을 JSON 배열로 추적하기 `user.lastWatchedMovies` 위해 호출된 프로필 스크립트를 작성하십시오. 그런 다음 다음 다음 포함 규칙을 사용하여 항목을 제외할 수 있습니다.
+사용자의 최근 10개 시청 비디오에 있는 동영상이 권장되지 않도록 한다고 가정합니다. 먼저 `user.lastWatchedMovies`이라는 프로필 스크립트를 작성하여 마지막으로 본 10개의 동영상을 JSON 배열로 추적합니다. 그런 다음 다음 다음 포함 규칙을 사용하여 항목을 제외할 수 있습니다.
 
 ```
 `Profile Attribute Matching`
@@ -97,7 +97,7 @@ function targetPageParams() {
 
 ### 예:사용자 즐겨찾기에서 항목 추천
 
-밴드 재생이 사용자가 가장 좋아하는 밴드 중 하나인 경우에만 콘서트 입장권만 추천하려고 한다고 가정해 봅시다. 먼저 사용자의 즐겨찾기 밴드가 포함된 프로필 변수 `profile.favoriteBands` 가 있는지 확인합니다. 그런 다음, 카탈로그에 콘서트에서 공연하는 아티스트가 포함된 속성 `entity.artistPerforming` 이 있는지 확인하십시오. 그런 다음 다음 다음 포함 규칙을 사용할 수 있습니다.
+밴드 재생이 사용자가 가장 좋아하는 밴드 중 하나인 경우에만 콘서트에 티켓을 추천한다고 가정합니다. 먼저 사용자의 즐겨찾기 밴드가 포함된 `profile.favoriteBands`이라는 프로필 변수가 있는지 확인합니다. 그런 다음 카탈로그에 콘서트에서 공연하는 아티스트가 포함된 `entity.artistPerforming` 특성이 있는지 확인합니다. 그런 다음 다음 다음 포함 규칙을 사용할 수 있습니다.
 
 ```
 `Profile Attribute Matching`
@@ -119,7 +119,7 @@ function targetPageParams() {
 
 ### 예:사용자의 즐겨찾기에서 항목을 추천하는 기준 API 만들기
 
-모든 기준과 같은 다중 값 필터링 규칙을 사용하는 기준은 Adobe I/O API를 통해 만들 수 있습니다. mbox 매개 변수 목록에 개체 속성이 들어 있는 기준 `id` 을 만드는 예제 API 호출 `favorites` 은 다음과 같습니다.
+모든 기준과 같은 다중 값 필터링 규칙을 사용하는 기준은 Adobe I/O API를 통해 만들 수 있습니다. 개체 특성 `id`이(가) mbox 매개 변수 목록 `favorites`에 포함되어 있는 기준을 만들기 위한 예제 API 호출입니다.
 
 ```
 curl -X POST \
