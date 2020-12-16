@@ -1,6 +1,6 @@
 ---
 keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
-description: 개체 특성을 사용하여 제품 또는 컨텐츠 정보를 Adobe Target Recommendations으로 전달합니다.
+description: 개체 특성을 사용하여 제품 또는 콘텐트 정보를 Adobe Target Recommendations에 전달합니다.
 title: 엔티티 속성
 feature: entities
 translation-type: tm+mt
@@ -14,13 +14,13 @@ ht-degree: 88%
 
 # ![PREMIUM](/help/assets/premium.png) 엔티티 속성{#entity-attributes}
 
-Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
+개체 특성을 사용하여 제품 또는 콘텐트 정보를 [!DNL Adobe Target Recommendations]에 전달합니다.
 
-[!DNL Recommendations] 알고리즘에 사용되는 `productId` 또는 `productPurchasedId` (코드라고 함 `entity.id` )을 전송합니다.
+[!DNL Recommendations] 알고리즘에 사용되는  `productId` 또 `productPurchasedId` 는 코드 `entity.id` 에 사용되는 or(코드라고 함)을 전송합니다.
 
 >[!NOTE]
 >
->* `entity.id` 은 주문 확인 `productPurchasedId` 페이지로 전송된 것과 Adobe Analytics 제품 보고서에 `productId` 사용된 것과 일치해야 합니다.
+>* `entity.id` 는 주문 확인  `productPurchasedId` 페이지 및 Adobe Analytics 제품 보고서에  `productId` 사용된 것과 일치해야 합니다.
    >
    >
 * 제공된 엔티티 속성값은 61일 후 만료됩니다. 이것은 각 엔티티 속성의 최신 값이 카탈로그의 각 항목에 대해 매월 최소 한 번씩 Target Recommendations에 전달되도록 해야 함을 의미합니다.
@@ -28,11 +28,11 @@ Use entity attributes to pass product or content information to [!DNL Adobe Targ
 
 대부분의 사전 정의된 매개 변수는 단일 값만 허용하므로, 새 값이 이전 값을 덮어씁니다. `categoryId` 매개 변수에는 해당 제품을 포함하는 각 카테고리의 쉼표 구분 값 목록이 사용됩니다. 새 `categoryId` 값이 기존 값을 덮어쓰지 않지만, 대신 엔티티 업데이트(250자 제한) 중에 첨부됩니다.
 
-일반적으로 표시 정보 mbox는 at.js 1을 사용하는 경우 다음 예와 유사할 수 있습니다.*x* with `mboxCreate`.
+일반적으로 표시 정보 mbox는 at.js 1을 사용하는 경우 다음 예와 비슷합니다.*xwith*  `mboxCreate`.
 
 >[!NOTE]
 >
->* at.js 2를 사용하는 경우&#x200B;*x*, `mboxCreate` (다음 예에서 사용됨)는 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations에 전달하려면&#x200B;*x*, targetPageParams를 [사용하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). 예를 들어 Recommendations [을 계획 및 구현하십시오](/help/c-recommendations/plan-implement.md).
+>* at.js 2를 사용하는 경우&#x200B;*x*,  `mboxCreate` (다음 예에서 사용됨)는 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations으로 전달하려면&#x200B;*x*, targetPageParams를  [사용하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). 예를 보려면 [Recommendations](/help/c-recommendations/plan-implement.md)계획 및 구현을 참조하십시오.
 
 >
 
