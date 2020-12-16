@@ -18,7 +18,7 @@ ht-degree: 90%
 
 MDN(Mozilla Developer Network)의 [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
 
-계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. [ **[!UICONTROL 관리] > [Visual Experience Composer]**]를 클릭한 다음 원하는 CSS 선택기를 선택합니다.
+계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. **[!UICONTROL 관리 > Visual Experience Composer]**&#x200B;를 클릭한 다음 원하는 CSS 선택기를 선택합니다.
 
 ![](assets/css_selectors.png)
 
