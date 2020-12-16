@@ -1,6 +1,6 @@
 ---
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
-description: A/B 테스트에 성공하려면 전환율을 향상시키기 위해 적절한 수의 방문자(샘플 크기)가 필요하지만 A/B 테스트를 실행하는 기간을 어떻게 알 수 있습니까? 이 문서에서는 자동 할당 활동과 Adobe Target 샘플 크기 계산기에 대한 정보를 제공하여 귀하의 활동에 목표를 달성할 수 있는 충분한 수의 방문자가 있는지 확인합니다.
+description: A/B 테스트에 성공하려면 전환율을 향상시키기 위해 적절한 수의 방문자(샘플 크기)가 필요하지만 A/B 테스트를 실행하는 기간을 어떻게 알 수 있습니까? 이 문서에는 활동에 목표를 달성할 수 있는 충분한 수의 방문자가 있는지 확인하는 데 도움이 되는 자동 할당 활동 및 Adobe Target 샘플 크기 계산기에 대한 정보가 포함되어 있습니다.
 title: A/B 테스트를 얼마 동안 실행해야 합니까?
 feature: ab
 translation-type: tm+mt
@@ -14,41 +14,41 @@ ht-degree: 75%
 
 # A/B 테스트를 얼마 동안 실행해야 합니까?
 
-A successful [!UICONTROL A/B Test] activity requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
+성공적인 [!UICONTROL A/B 테스트] 활동에는 전환율을 높이기 위한 적절한 방문자 수(샘플 크기)가 필요하지만 A/B 테스트를 실행하는 데 얼마나 걸었는지 어떻게 알 수 있습니까? 이 문서에서는 [!UICONTROL 자동 할당] 활동 및 [!UICONTROL Adobe Target] 샘플 크기 계산기에 대한 정보를 제공하여 활동에 목표를 달성할 수 있는 충분한 수의 방문자가 있는지 확인합니다.
 
 오퍼들 중 하나의 성과가 활동의 처음 몇 일 내에 다른 오퍼보다 훨씬 더 낫거나 훨씬 나쁘면 활동을 중지하려는 마음이 생길 수 있습니다. 그러나 관찰 수가 낮으면 낮은 방문자 수에 대해 전환율 평균을 내므로 뜻밖에 양수 상승도나 음수 상승도가 관찰될 가능성이 높습니다. 활동이 더 많은 데이터 포인트를 수집함에 따라, 전환율이 해당하는 실제 장기간 값에 수렴합니다.
 
 >[!IMPORTANT]
 >
->활동을 조기에 중지하면 A/B 테스트를 수행할 때 발생할 수 있는 10가지 중요한 문제 중 하나가 됩니다. 자세한 내용은 일반적인 [A/B 테스트 문제와 이를 방지하는 방법을 참조하십시오](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>활동을 빨리 중지시키는 것은 A/B 테스트를 수행할 때 먹이가 될 수 있는 10가지 중요한 문제 중 하나입니다. 자세한 내용은 [일반적인 A/B 테스트 함정 10개 및 이를 피하는 방법을 참조하십시오](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 [!DNL Target] 활동의 샘플 크기가 커서 전환 목표를 달성할 수 있는 도구를 제공합니다.자동 할당.
 
 ## 자동 할당 {#auto-allocate}
 
-An [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+[자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 활동은 두 개 이상의 경험 중에서 우승자를 식별하고, 테스트가 계속 실행되고 학습하는 동안 전환을 증가시키기 위해 우승자에게 더 많은 트래픽을 자동으로 재할당하는 A/B 테스트 유형입니다.
 
 표준 A/B 테스트에는 기본 비용이 있습니다. 각 경험의 성과를 측정하고 분석을 통해 가장 성과가 좋은 경험을 알아내는 데 트래픽을 사용해야 합니다. 일부 경험이 다른 경험에 비해 성과가 더 좋다는 것을 인지한 후에도 트래픽 분배가 고정적으로 유지됩니다. 또한 샘플 크기를 알아내는 것도 복잡하며, 활동의 전체 과정을 실행해야 승자에 대해 작업할 수 있습니다. 이 모든 일을 수행한 후에도 여전히 식별된 승자가 실제 승자가 아닐 가능성도 있습니다.
 
-The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL 자동 할당은 이러한 비용과 우승 경험을 알아내는 데 드는 오버헤드를 줄여줍니다. ] [!UICONTROL 자동 할당 기능에서는 모든 경험의 목표 지표 성과를 모니터링하고, 성과가 좋은 경험에는 비례하여 더 많은 새 참여자를 보냅니다. ] 다른 경험을 탐색하도록 충분한 트래픽이 예약되어 있습니다. 활동이 여전히 실행 중임에도 불구하고, 결과상의 활동에 대한 이점을 볼 수 있습니다.최적화는 학습과 병행합니다.
+솔루션은 [!UICONTROL 자동 할당]입니다. [!UICONTROL 자동 할당은 이러한 비용과 우승 경험을 알아내는 데 드는 오버헤드를 줄여줍니다. ] [!UICONTROL 자동 할당 기능에서는 모든 경험의 목표 지표 성과를 모니터링하고, 성과가 좋은 경험에는 비례하여 더 많은 새 참여자를 보냅니다. ] 다른 경험을 탐색하도록 충분한 트래픽이 예약되어 있습니다. 활동이 여전히 실행 중임에도 불구하고, 결과상의 활동에 대한 이점을 볼 수 있습니다.최적화는 학습과 병행합니다.
 
 [!UICONTROL 자동 할당은 활동을 끝까지 수행하여 승자를 완전히 판별할 때까지 기다리게 하기보다는 방문자를 성과가 우승 경험으로 점차적으로 이동시킵니다. ] 덜 성공적인 경험으로 보내졌을 활동 참여자가 잠재적으로 우승 경험으로 표시되므로 더 빠른 성과 향상(상승도)의 혜택을 얻을 수 있습니다.
 
 [!UICONTROL 자동 할당] 기능을 사용하는 경우 [!DNL Target]에서는 활동이 충분히 신뢰할 수 있는 최소 전환 수에 도달하기 전까지 활동의 페이지 상단에 &quot;아직 우승자 없음&quot; 배지가 표시됩니다. [!DNL Target] 그런 다음 활동 페이지의 맨 위에 배지를 표시하여 우승 경험을 선언합니다.
 
-For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+자세한 내용은 [자동 할당 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)를 참조하십시오.
 
 ## Adobe Target 샘플 크기 계산기 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. 수동 A/B 테스트는 고정된 지평선 테스트이므로 계산기가 매우 유용합니다. 자동 할당 [!UICONTROL 활동은] 자동 할당 [!UICONTROL 이 우승자를 선언하므로 계산기를 사용하여] 선택 사항입니다. 이 계산기는 필요한 샘플 크기의 대략적인 견적을 제공합니다. 계산기 사용 방법에 대한 자세한 내용을 계속 확인하십시오.
+[!UICONTROL 자동 할당]이 아닌 수동 [!UICONTROL A/B 테스트] 활동을 사용하도록 선택하는 경우 [!DNL Target] 샘플 크기 계산기를 사용하면 성공적인 테스트에 필요한 샘플 크기를 결정할 수 있습니다. 수동 A/B 테스트는 고정 수평선 테스트이므로 계산기가 매우 유용합니다. ]자동 할당[!UICONTROL  활동에 계산기를 사용하면 &lt;a2/>자동 할당[!UICONTROL 이 우승자를 선언하므로 선택 사항입니다. ] 이 계산기는 필요한 샘플 크기의 대략적인 견적을 제공합니다. 계산기 사용 방법에 대한 자세한 내용을 계속 확인하십시오.
 
-Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+A/B 테스트를 설정하기 전에 Adobe Target [샘플 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html)에 액세스하십시오.
 
 ![Adobe Target 샘플 크기 계산기](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
-A/B 테스트를 수행하기 전에 결과를 평가하기 전에 활동을 실행해야 하는 시간을 설정하려면 적절한 샘플 크기(방문자 수)를 결정해야 합니다. 통계적 중요도가 달성될 때까지 활동을 모니터링하면 신뢰 구간이 너무 과소 평가되어 테스트를 신뢰할 수 없게 됩니다. 이러한 결과 때문에 통계적으로 유의미한 결과가 감지되는 경우 테스트가 중지되고 승자가 선언됩니다. 그러나 결과가 통계적으로 유의미하지 않다면 테스트는 계속될 것이고, 이러한 절차는 긍정 오류(false positive) 비율을 증가시키는 긍정적인 결과를 매우 편애하는 것이므로, 테스트의 유효한 유의 수준이 왜곡됩니다.
+A/B 테스트를 수행하기 전에 결과를 평가하기 전에 활동을 실행해야 하는 시간을 설정하려면 적절한 샘플 크기(방문자 수)를 결정하는 것이 중요합니다. 통계적 중요도가 달성될 때까지 활동을 모니터링하면 신뢰 구간이 너무 과소 평가되어 테스트가 신뢰할 수 없게 됩니다. 이러한 결과 때문에 통계적으로 유의미한 결과가 감지되는 경우 테스트가 중지되고 승자가 선언됩니다. 그러나 결과가 통계적으로 유의미하지 않다면 테스트는 계속될 것이고, 이러한 절차는 긍정 오류(false positive) 비율을 증가시키는 긍정적인 결과를 매우 편애하는 것이므로, 테스트의 유효한 유의 수준이 왜곡됩니다.
 
-이로 인해 많은 긍정 오류(false positive)가 발생하여 장기간 실행에서 예측된 상승도를 제공하지 않는 오퍼가 구현될 수 있습니다. 낮은 리프트는 만족스럽지 못한 결과이지만 더 심각한 결과는 시간이 지남에 따라 정확히 예측하지 못하는 것이 실질적으로 조직의 신뢰를 손상시키는 것이다.
+이로 인해 많은 긍정 오류(false positive)가 발생하여 장기간 실행에서 예측된 상승도를 제공하지 않는 오퍼가 구현될 수 있습니다. 낮은 리프트는 만족스럽지 않은 결과이지만, 더 심각한 결과를 얻는 것은 시간이 지남에 따라, 향상도를 정확히 예측하지 못하는 것이 연습으로서 조직의 신뢰를 손상시키는 것이다.
 
 이 문서에서는 샘플 크기가 결정될 때 균형을 맞춰야 하는 요소들에 대해 설명하고 적절한 샘플 크기 예측을 위한 스프레드시트 계산기를 소개합니다. A/B 테스트가 시작되기 전에 샘플 크기 계산기(위에 제공된 링크)를 사용하여 샘플 크기를 계산하면 통계 표준을 준수하는 고품질의 A/B 테스트를 항상 실행할 수 있습니다.
 
@@ -68,13 +68,13 @@ A/B 테스트의 경우, 통계적 유의도, 통계적 검증력, 확실히 감
 
 ![](assets/outcomes.png)
 
-긍정 오류(false positive) 또는 부정 오류(false negative)가 발생하지 않는 것이 좋지만, 통계적 테스트에서 이것은 보장할 수 없습니다. 관찰된 트렌드가 기본 전환율을 대표하지 않을 가능성은 항상 있습니다. 예를 들어, 동전 던지기의 앞면이나 뒷면이 더 그럴 가능성이 있는지 알아보기 위한 테스트에서, 비록 공평한 동전이 있더라도, 당신은 우연히 10개의 면에 10개의 앞면을 얻을 수 있다. 통계적 유의도 및 검증력은 긍정 오류(false positive)와 부정 오류(false negative) 비율을 결정하는 데 도움이 되며, 지정된 테스트에 대해 이러한 비율을 합리적인 수준으로 유지할 수 있도록 해줍니다.
+긍정 오류(false positive) 또는 부정 오류(false negative)가 발생하지 않는 것이 좋지만, 통계적 테스트에서 이것은 보장할 수 없습니다. 관찰된 트렌드가 기본 전환율을 대표하지 않을 가능성은 항상 있습니다. 예를 들어, 동전의 앞면이나 뒷면이 더 가능성이 있는지 보기 위한 테스트에서, 비록 공평한 동전이 있어도, 당신은 우연히 10개의 면에 10개의 머리를 얻을 수 있었다. 통계적 유의도 및 검증력은 긍정 오류(false positive)와 부정 오류(false negative) 비율을 결정하는 데 도움이 되며, 지정된 테스트에 대해 이러한 비율을 합리적인 수준으로 유지할 수 있도록 해줍니다.
 
 ### 통계적 유의도 {#section_8230FB9C6D1241D8B1786B72B379C3CD}
 
-테스트의 중요도 수준은 실제 차이가 없는 경우 테스트가 두 개의 서로 다른 오퍼 간의 전환율에 상당한 차이를 보고하는지 여부를 결정합니다. 이를 긍정 오류(false positive) 또는 제1종 과오라고 합니다. 중요도 레벨은 사용자가 지정한 임계값이며, 잘못된 양수에 대한 허용치와 테스트에 포함되어야 하는 방문자 수 간의 상쇄 유형입니다.
+테스트의 중요도 수준은 실제 차이가 없는 경우 테스트가 두 개의 서로 다른 오퍼 간 전환율의 중요한 차이를 보고하는지 여부를 결정합니다. 이를 긍정 오류(false positive) 또는 제1종 과오라고 합니다. 중요도 레벨은 사용자가 지정한 임계값이며, false 양수에 대한 허용치와 테스트에 포함되어야 하는 방문자 수 간의 상쇄 수준입니다.
 
-A/B 테스트를 시작할 때에는 두 오퍼의 전환율이 모두 동일하다고 가정합니다. 그런 다음 관찰된 결과의 확률을 이 가정을 기반으로 계산합니다. If this probability (the p-value) is smaller than some predefined threshold (the significance level), [!DNL Target] concludes that the initial assumption--that both offers have the same conversion rate--is incorrect and, therefore, the conversion rates of A and B are statistically different at the given significance level.
+A/B 테스트를 시작할 때에는 두 오퍼의 전환율이 모두 동일하다고 가정합니다. 그런 다음 관찰된 결과의 확률을 이 가정을 기반으로 계산합니다. 이 가능성(p-값)이 사전 정의된 일부 임계값(중요도 레벨)보다 작은 경우, [!DNL Target]은 두 오퍼가 동일한 전환율을 가지고 있다는 초기 가정이 잘못되어 A와 B의 전환율은 주어진 중요도 수준에서 통계적으로 다릅니다.
 
 A/B 테스트에서 일반적으로 사용되는 유의 수준은 5%이며 이는 95% 신뢰 수준에 해당합니다(신뢰 수준 = 100% - 유의 수준). 신뢰 수준 95%는 테스트를 수행할 때마다, 오퍼 간 차이가 없더라도 통계적으로 유의미한 상승도를 감지할 확률이 5% 있음을 의미합니다.
 
@@ -140,9 +140,9 @@ A/B 테스트의 통계적 검증력은 특정 규모의 전환율에서 실제 
 
 ### 방문당 수입(RPV) 지표 {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-방문당 수입(RPV)을 지표로 사용할 때 RPV는 주문당 수익과 전환율의 곱(RPV = 수익 / 방문자# = (주문당 수익 * 주문#) / 방문자# = 주문당 수익 * (방문자# * CTR) / 방문자# = 주문당 수익 * CTR)이고 각각은 자체 변화가 있으므로 추가적인 변화 소스가 추가됩니다. 전환율의 차이는 수학 모델을 사용하여 직접 계산할 수 있지만 주문당 매출액의 변화는 활동에 따라 다릅니다. 따라서 과거 활동에서 이러한 변화에 대한 지식을 사용하거나 몇 일 동안 A/B 테스트를 실행하여 매출에서의 변화를 예측할 수 있습니다. 분산은 CSV 다운로드 파일에 있는 판매 합계, 판매 제곱 및 방문자 수의 값에서 계산됩니다. 이 설정이 완료되면 스프레드시트를 사용하여 테스트를 완료하는 데 필요한 시간을 계산합니다.
+방문당 수입(RPV)을 지표로 사용할 때 RPV는 주문당 수익과 전환율의 곱(RPV = 수익 / 방문자# = (주문당 수익 * 주문#) / 방문자# = 주문당 수익 * (방문자# * CTR) / 방문자# = 주문당 수익 * CTR)이고 각각은 자체 변화가 있으므로 추가적인 변화 소스가 추가됩니다. 전환율의 변화는 수학 모델을 사용하여 직접 예상할 수 있지만 주문당 매출액의 변화는 활동에 따라 다릅니다. 따라서 이전 활동에서 이러한 변화에 대한 지식을 사용하거나 며칠 동안 A/B 테스트를 실행하여 매출에서 변화를 예상합니다. 변화는 CSV 다운로드 파일에 있는 판매 합계, 판매 제곱 합계 및 방문자 수의 값에서 계산됩니다. 이 설정이 완료되면 스프레드시트를 사용하여 테스트를 완료하는 데 필요한 시간을 계산합니다.
 
-샘플 크기 계산기(위에 제공된 링크)는 RPV 지표를 구성하는 데 도움이 될 수 있습니다. When you open the calculator, you&#39;ll see a tab labeled [!UICONTROL RPV Metric]. RPV 버전의 계산기를 사용할 때에는 다음 정보가 필요합니다.
+샘플 크기 계산기(위에 제공된 링크)는 RPV 지표를 구성하는 데 도움이 될 수 있습니다. 계산기를 열면 [!UICONTROL RPV 지표] 레이블이 지정된 탭이 표시됩니다. RPV 버전의 계산기를 사용할 때에는 다음 정보가 필요합니다.
 
 * 통제 오퍼에 대한 방문자 수
 * 통제 오퍼에 대한 총 수익
@@ -153,14 +153,14 @@ A/B 테스트의 통계적 검증력은 특정 규모의 전환율에서 실제 
 
    예외적인 주문 필터가 선택되었는지 확인하십시오.
 
-일반적으로 RPV를 지표로 사용하는 경우 동일한 수준의 측정 향상도에 대해 동일한 통계적 신뢰 수준을 달성하려면 20-30%가 더 오래 필요합니다. 이것은 RPV가 전환당 다른 주문 크기의 추가된 변화를 가지고 있기 때문입니다. 이는 최종 비즈니스 의사 결정을 기준으로 할 지표로 직선 전환율과 RPV 중에서 선택할 때 고려해야 할 사항입니다.
+일반적으로 RPV를 지표로 사용하는 경우 동일한 측정 수준 향상도에 대해 동일한 통계적 신뢰 수준을 달성하려면 20-30%의 시간이 더 필요합니다. 이것은 RPV가 전환당 다른 주문 크기의 분산이 추가되기 때문입니다. 이는 최종 비즈니스 의사 결정을 기준으로 할 지표로 직선 전환율과 RPV 중에서 선택할 때 고려해야 할 사항입니다.
 
-## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
+## 여러 오퍼를 비교하는 수정 사항 {#section_1474113764224D0B85472D8B023CCA15}
 
 두 오퍼를 비교할 때마다 긍정 오류(false positive)를 얻을 확률(전환율에 차이가 없는 경우에도 통계적으로 유의미한 차이를 관찰하여)은 유의 수준과 동일합니다. 예를 들어, 5개의 오퍼 A/B/C/D/E가 있고 A가 통제 오퍼라면, 개의 비교가 수행되고(통제와 B, 통제와 C, 통제와 D, 통제와 E), 신뢰 수준이 95%일 때에도 긍정 오류(false positive)의 확률은 18.5%입니다. Pr(긍정 오류가 하나 이상) = 1 - Pr(긍정 오류가 없음) = 1 - 0.954 = 18.5%이기 때문입니다. 긍정 오류(false positive)는 대안과 통제 간에 사실상 차이가 없을 때 통제가 대안보다 낫다고 보고되거나 대안이 통제보다 낫다고 보고되는 것 중 하나로 정의되는 컨텍스트에서 발생합니다.
 
 ## 결론 {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-By using an [!UICONTROL Auto-Allocate] activity, [!DNL Target] identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. [!UICONTROL 자동 지정을 통해 추측 작업을 제거하는 동시에 변환 목표를 쉽게 달성할 수 있습니다.]
+[!UICONTROL 자동 할당] 활동을 사용하여 [!DNL Target]은 두 개 이상의 경험 중 우승자를 식별하고 테스트가 계속 실행되고 학습하는 동안 전환율을 높이기 위해 우승자에게 더 많은 트래픽을 자동으로 재할당합니다. [!UICONTROL 자동 지정을 통해 추측 작업을 제거하는 동시에 변환 목표를 쉽게 달성할 수 있습니다.]
 
 이 문서에 소개된 샘플 크기 계산기(위에 제공된 링크)를 사용하고 이 계산기에서 제안하는 시간 동안 테스트가 실행되도록 하면, 여러분이 특정 테스트에 대해 적절하다고 결정한 긍정 오류(false positive)와 부정 오류(false negative) 비율을 따르는 고품질의 A/B 테스트를 항상 수행할 수 있습니다. 이렇게 하면 테스트가 일관되며 찾고 있는 상승도를 확실히 감지할 수 있습니다.
