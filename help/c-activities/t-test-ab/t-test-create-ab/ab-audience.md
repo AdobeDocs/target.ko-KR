@@ -48,7 +48,7 @@ Target에서 [트래픽을 자동으로 할당](/help/c-activities/automated-tra
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Adobe Target에서 대상 사용(6:21) ![개요 배지](/help/assets/overview.png)
+### Adobe Target에서 대상 사용(6:21)  ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상을 사용하는 방법을 설명합니다.
 
