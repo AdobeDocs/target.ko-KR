@@ -20,7 +20,7 @@ ht-degree: 99%
 >
 >이 주제에는 `mboxSession`과 `mboxPC`에 대한 정보가 포함되어 있습니다. 구현 우수 사례에 따라 쿠키 데이터를 사용하여 민감한 정보인 `mboxSession` 또는 `mboxPC`를 링크하거나 저장하지 않도록 권장합니다.
 
-See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
+[Target 쿠키 삭제](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md)를 참조하십시오.
 
 ## 퍼스트 파티 또는 타사 쿠키를 사용하는 경우 {#section_F71B29420C004A7FA3B1921E619B326E}
 
