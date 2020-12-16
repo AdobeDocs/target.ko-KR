@@ -121,6 +121,6 @@ ht-degree: 98%
 
 ![추천 오퍼 상태](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 교육 비디오:오퍼 ![개요 배지로 사용](/help/assets/overview.png)
+## 교육 비디오:Recommendations을 오퍼 ![개요 배지](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
