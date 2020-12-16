@@ -16,7 +16,7 @@ ht-degree: 95%
 
 Adobe Analytics를 보고 소스(A4T)로 사용하도록 Target Standard에서 활동을 구성할 수 있습니다.
 
-For detailed information about setting up Analytics as the data source for Target, see [Adobe Analytics as the Reporting Source for Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Analytics를 Target의 데이터 소스로 설정하는 방법에 대한 자세한 내용은 [Adobe Analytics을 Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md)의 보고 소스로 참조하십시오.
 
 Analytics를 보고 소스로 사용하는 활동을 설정하기 전에 방문자당 매출액(RPV) 향상 또는 장바구니 클릭 수 증가 등과 같이 활동 목표를 설정합니다. 캠페인의 최종 성공 지표를 선택합니다. Analytics에서 언제든지 추가 지표를 선택할 수 있지만 이 테스트를 적용할 특정 지표는 지정해야 합니다.
 
