@@ -78,7 +78,7 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 ### Enterprise 사용자 권한
 
-[엔터프라이즈 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 기능을 사용하면 서로 다른 프로젝트(&quot;제품 프로필&quot;이라고 함)를 만들어 [!DNL Adobe Admin Console for Enterprise]각각의 프로젝트에 대한 사용자의 액세스 권한을 제어하는 단일 사용자에 대해 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과, 고객은 지역, 환경(개발/단계/제품), 채널 또는 기타 사용자 지정 기준을 기반으로 사용자에 대한 보기, 편집, 승인 및 게시 액세스 권한을 제한할 수 있습니다.
+[Enterprise 사용자 ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 권한 기능을 사용하면 서로 다른 프로젝트(&quot;제품 프로필&quot;이라고 함)를 만들어  [!DNL Adobe Admin Console for Enterprise]각 프로젝트에 대한 사용자의 액세스 권한을 제어하는 단일 사용자에 대해 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과 지역, 환경(개발/단계/prod), 채널 또는 기타 사용자 지정 기준을 기반으로 사용자에 대한 보기, 편집, 승인 및 게시 액세스를 제한할 수 있습니다.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -88,9 +88,9 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 
 ## Experience League: Adobe Target 시작 키트 {#kit}
 
-이 시작 키트를 사용하여 Adobe Target에서 최적화 및 개인화 프로그램을 구축하십시오! It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
+이 시작 키트를 사용하여 Adobe Target에서 최적화 및 개인화 프로그램을 구축하십시오! 간단한 빠른 승인과 장기 최적화 전략을 통해 처음 [!DNL Adobe Target] 활동을 준비하고 시작하는 데 도움이 되는 주요 정보, 툴 및 리소스가 포함되어 있습니다.
 
-[Adobe Target 환영 키트](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target 시작 키트](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## 교육 비디오:활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
 
