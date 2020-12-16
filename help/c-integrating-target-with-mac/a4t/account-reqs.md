@@ -29,25 +29,25 @@ ht-degree: 49%
 
 [!DNL Analytics] 및 [!DNL Target] 사용자 계정이 Adobe ID에 연결되어 있어야 합니다.
 
-For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+자세한 내용은 [조직 및 계정 연결](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html)을 참조하십시오.
 
 ### Experience Cloud 그룹 멤버십 구성
 
 하나 이상의 [!DNL Experience Cloud] 그룹의 구성원으로서 [!DNL Analytics] 및 [!DNL Target]에 액세스할 수 있어야 합니다.
 
-자세한 내용은 Experience Cloud 사용자 및 제품 [관리를 참조하십시오](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure access to the [!DNL Analytics] report suite:
+[!DNL Analytics] 보고서 세트에 대한 액세스 권한 구성:
 
-지정된 보고서 세트에서 A4T를 사용하려면 해당 보고서 세트에 액세스할 수 있어야 합니다.
+지정된 보고서 세트에서 A4T를 사용하려면 해당 보고서 세트에 대한 액세스 권한이 있어야 합니다.
 
-1. Admin Console **[!UICONTROL 에서]**[!DNL Analytics] 제품 프로필을 클릭한 다음 권한 **[!UICONTROL 탭을]** 클릭합니다.
+1. **[!UICONTROL Admin Console]**&#x200B;에서 [!DNL Analytics] 제품 프로필을 클릭한 다음 **[!UICONTROL 권한]** 탭을 클릭합니다.
 
    그러면 프로필에서 액세스할 수 있는 보고서 세트를 볼 수 있습니다.
 
-1. 액세스할 보고서 세트가 사용자가 속한 제품 프로필에 나열된 보고서 중 [!DNL Target] 하나인지 확인합니다.
+1. [!DNL Target]에서 액세스할 보고서 세트가 속해 있는 제품 프로필에 나열된 보고서 세트 중 하나인지 확인합니다.
 
    다음 그림은 모든 보고서 세트에 액세스할 수 있는 제품 프로필의 예입니다.
 
