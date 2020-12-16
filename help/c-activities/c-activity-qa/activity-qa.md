@@ -1,6 +1,6 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Adobe Target QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 엔드 투 엔드 활동 QA를 손쉽게 수행할 수 있습니다.
+description: Adobe Target QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고와 함께 종단 간 활동 QA를 손쉽게 수행할 수 있습니다.
 title: 활동 QA
 feature: qa
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 # 활동 QA {#activity-qa}
 
-Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 엔드 투 엔드 활동 QA를 손쉽게 수행할 수 있습니다.
+Adobe Target에서 QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고와 함께 종단 간 활동 QA를 손쉽게 수행할 수 있습니다.
 
 ## 개요 {#section_11B761A522A14E61978275772210A4C2}
 
@@ -28,7 +28,7 @@ Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크,
 
    >[!NOTE]
    >
-   >버전 2를 사용하는 at.js 구현의 경우 마찬가지입니다.*x* 이상 at.js 1.*x* 및 mbox.js 구현. 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
+   >버전 2를 사용하는 at.js 구현의 경우 마찬가지입니다.*xor* 이상. at.js 1.*xand mbox.js 구현* 에서 이것은 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
 
 ## QA URL 액세스 및 공유 {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -44,7 +44,7 @@ Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크,
 
       이 설정을 &quot;끔&quot; 위치로 전환할 경우, 링크를 클릭하면 자격 여부에 관계없이 경험이 표시됩니다. QA를 수행할 때, 대상 타깃팅을 따라야 되는지, 따르지 않아도 되는지 사이에 전환할 수 있습니다.
 
-   * **다른 모든 활동에 대한 기본 컨텐츠 표시:** 이 옵션이 &quot;설정&quot; 위치로 전환되면 다른 모든 활동에 대해 기본 컨텐츠가 표시됩니다. 예를 들어 동일한 페이지/[!DNL Target] 요청에서 다른 모든 라이브 활동을 고려하지 않고 미리 보기가 격리되어 표시됩니다.
+   * **다른 모든 활동에 대한 기본 컨텐츠 표시:** 이 옵션이 &quot;설정&quot; 위치로 전환되면 다른 모든 활동에 대한 기본 컨텐츠가 표시됩니다(예: 동일한 페이지/[!DNL Target] 요청에서 다른 모든 라이브 활동을 고려하지 않고 미리 보기가 격리되어 표시됩니다).
 
       이 설정을 &quot;끔&quot;으로 전환하는 경우, 다음을 고려하십시오.
 
@@ -58,7 +58,7 @@ Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크,
 
    각 활동 링크 URL(경험 A, 경험 B 등을 위한 URL)을 사용하면 해당 경험에서 사용자 경험을 시작할 수 있습니다. 경험에 대해 생성된 URL을 클릭한 다음, 일반적인 사이트 탐색을 진행하여 여러 페이지(여러 페이지가 있는 경우)의 경험들을 볼 수 있습니다. 경험이 여러 페이지(템플릿 테스트 또는 다중 페이지 테스트)에 걸쳐 있는 경우에도 경험당 하나의 URL만 생성됩니다. 
 
-   활동 QA가 결합되어 있으므로 사이트를 탐색하여 다른 페이지를 볼 수 있습니다. 버전 2를 사용하는 at.js 구현의 경우 이 값이 true입니다.*x* 이상 at.js 1.*x* 및 mbox.js 구현. 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
+   활동 QA가 결합되어 있으므로 사이트를 탐색하여 다른 페이지를 볼 수 있습니다. 버전 2를 사용하는 at.js 구현의 경우 이것은 true입니다.*xor* 이상. at.js 1.*xand mbox.js 구현* 에서 이것은 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
 
 1. 활동 링크 URL에서 생성된 보고서를 보려면 활동의 **[!UICONTROL 보고서]** 페이지를 클릭하고 **[!UICONTROL 설정]** 아이콘(![](assets/icon_gear.png))을 클릭한 다음, **[!UICONTROL 환경]** 드롭다운 목록에서 **[!UICONTROL QA 모드]**&#x200B;를 선택하십시오.
 
@@ -75,7 +75,7 @@ Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크,
    값이 비어 있는 `at_preview_token` 매개 변수로 사이트의 페이지를 로드하여(예: `https://www.mysite.com/?at_preview_token=`) 수동으로 나올 수도 있습니다.
 
 * 활동을 작성할 때 &quot;URL은&quot;을 지정한 경우([양식 기반 작성기의 개선](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기의 페이지 전달 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)) 활동 QA가 URL 매개 변수를 추가하므로 QA URL이 작동하지 않습니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
-* at.js 1이 있는 경우&#x200B;*x*&#x200B;또는 mbox.js, Safari 또는 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우 활동 QA 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리 보기 매개 변수를 추가해야 합니다. CNAME을 구현한 경우에도 [마찬가지입니다](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
+* at.js 1이 있는 경우&#x200B;*x* 또는 mbox.js, Safari 또는 타사 쿠키를 차단하는 다른 브라우저를 사용하면 활동 QA 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리 보기 매개 변수를 추가해야 합니다. [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)을(를) 구현한 경우에도 마찬가지입니다.
 * 활동에서 여러 경험 대상을 사용하는 경우(예를 들어, 동일한 활동에 포함된 미국 및 영국 사이트), QA 링크가 4개의 조합(경험 A/미국 사이트, 경험 A/영국 사이트, 경험 B/미국 사이트, 경험 B/영국 사이트)에 대해 생성되지 않습니다. 두 개의 QA 링크(경험 A와 경험 B)만 생성되고, 사용자는 페이지를 보려면 적절한 대상에 대한 자격이 있어야 합니다. 영국 QA 담당자는 미국 사이트를 볼 수 없습니다.
 * 모든 `at_preview` 매개 변수와 값이 이미 URL로 인코딩되어 있습니다. 대부분의 경우 모두 예상대로 작동합니다. 하지만, 일부 고객의 로드 밸런서나 웹 서버에서는 쿼리 문자열 매개 변수를 다시 인코딩하려고 시도할 수 있습니다.
 
@@ -83,14 +83,14 @@ Adobe Target의 QA URL을 사용하여 변경되지 않는 미리 보기 링크,
 
    모든 미리 보기 매개 변수가 어떤 방식으로든 변형되지 않도록 IT 팀에 허용 목록에추가된 문의하는 것이 좋습니다.
 
-   다음 표에는 도메인에 있을 수 허용 목록에추가된 있는 매개 변수가 나와 있습니다.
+   다음 표에는 도메인에 사용할 수 허용 목록에추가된 있는 매개 변수가 나와 있습니다.
 
    | 매개 변수 | 유형 | 값 | 설명 |
    |--- |--- |--- |--- |
    | `at_preview_token` | 암호화된 문자열 | 필수, 기본값 없음 | QA 모드에서 실행할 수 있는 캠페인 ID 목록이 들어 있는 암호화된 엔티티입니다. |
    | `at_preview_index` | 문자열 | Empty | 매개 변수의 형식은 `<campaignIndex>` 또는 `<campaignIndex>_< experienceIndex>`<br>입니다.두 색인이 모두 1로 시작합니다. |
    | `at_preview_listed_activities_only` | 부울(true/false) | 기본값: false | &quot;true&quot;면 `at_preview_index` 매개 변수에 지정된 모든 캠페인이 처리됩니다.<br>&quot;false&quot;이면 페이지의 모든 캠페인이 미리 보기 토큰에 지정되지 않았더라도 처리됩니다. |
-   | `at_preview_evaluate_as_true_audience_ids` | 문자열 | Empty | Underscore-separated (&quot;_&quot;) list of segmentId-s that should always (at targetting and reporting level) be evaluated as &quot;true&quot; in the scope of the [!DNL Target] request. |
+   | `at_preview_evaluate_as_true_audience_ids` | 문자열 | 비어 있음 | 항상(타깃팅 및 보고 수준) [!DNL Target] 요청 범위에서 &quot;true&quot;로 평가되어야 하는 segmentId-s 목록(&quot;_&quot;). |
    | `_AT_Debug` | 문자열 | 창 또는 콘솔 | 콘솔 로깅 또는 새 창입니다. |
    | `adobe_mc_ref` |  |  | 기본 페이지의 참조 URL을 새 페이지에 전달합니다. `AppMeasurement.js` 버전 2.1 이상에서 사용하는 경우 [!DNL Adobe Analytics]는 이 매개 변수값을 새 페이지의 참조 URL로 사용합니다. |
    | `adobe_mc_sdid` |  |  | Analytics for Target(A4T)이 기본 페이지의 Target 요청을 새 페이지의 Analytics 요청과 함께 &quot;결합&quot;하도록 기본 페이지의 SDID([!DNL Supplemental Data Id])와 [!DNL Experience Cloud Org Id]를 새 페이지에 전달합니다. |
