@@ -1,6 +1,6 @@
 ---
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Adobe Target 다변량 테스트의 지표를 사용하여 방문이 성공했는지 확인할 수 있습니다.
+description: Adobe Target 다변량 테스트의 지표를 사용하여 방문이 성공적인 시기를 결정할 수 있습니다.
 title: 지표 설정
 feature: mvt
 solution: Target
@@ -55,7 +55,7 @@ ht-degree: 94%
    | `-` | 빼기 |
    | `@` | 로그인 |
 
-## 교육 비디오: 활동 지표(7:43) ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오: 활동 지표(7:43)  ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에는 성공 지표 사용에 대한 정보가 포함되어 있습니다.
 
