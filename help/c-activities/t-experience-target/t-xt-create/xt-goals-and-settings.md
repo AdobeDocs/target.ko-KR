@@ -38,9 +38,9 @@ ht-degree: 97%
 
 대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-관리에서 이 옵션이 활성화되지 않은 경우(기본값) 우선 순위를 지정합니다.낮음, 중간 또는 높음
+관리에서 이 옵션이 활성화되지 않은 경우(기본값) 우선 순위를 지정합니다.낮음, 중간 또는 높음.
 
-To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+세부적으로 분류된 우선 순위를 사용하려면 **[!UICONTROL 관리]** > **[!UICONTROL 보고]**&#x200B;를 클릭한 다음 세부 지정됨 우선 순위 활성화 옵션을 &quot;설정&quot; 위치로 전환합니다.
 
 이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 
