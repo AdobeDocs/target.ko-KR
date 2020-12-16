@@ -19,7 +19,7 @@ VEC는 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만�
 
 VEC는 [!DNL Adobe Target]의 주요 기능 중 하나입니다. VEC를 통해 마케터와 디자이너가 시각적 인터페이스를 사용하여 콘텐츠를 만들고 변경할 수 있습니다. 코드를 직접 편집하지 않고도 많은 디자인을 작성할 수 있습니다. 또한 작성기에서 사용 가능한 편집 선택 사항을 사용하여 HTML 및 JavaScript를 편집할 수도 있습니다.
 
-On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
+Target **[!UICONTROL 관리]** > **[!UICONTROL Visual Experience Composer]** 탭에서 기본 Visual Experience Composer URL을 입력할 수 있습니다.
 
 ![기본 VEC URL 설정](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -130,7 +130,7 @@ VEC 내에서 페이지 로드를 취소하려면 페이지가 로드되는 동�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### 근무 시간:Visual Experience Composer ![자습서 배지](/help/assets/tutorial.png)
+### 업무 시간:Visual Experience Composer ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
 
