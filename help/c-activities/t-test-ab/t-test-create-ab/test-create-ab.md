@@ -14,17 +14,17 @@ ht-degree: 63%
 
 # A/B 테스트 만들기
 
-Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to create your [!UICONTROL A/B Test] activity directly on a [!DNL Target]-enabled page and to modify portions of the page within [!DNL Target].
+[!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer](VEC)를 사용하여 [!UICONTROL A/B 테스트] 활동을 [!DNL Target] 사용 페이지에서 직접 만들고 [!DNL Target] 내 페이지의 부분을 수정합니다.
 
 >[!NOTE]
 >
->수동(기본값) [!UICONTROL A/B 테스트] 활동(이 섹션에 설명됨) 외에, 다음 두 가지 추가 [!DNL Target] 유형의 [!UICONTROL A/B 테스트] 활동을 제공합니다. [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target].
+>수동(기본값) [!UICONTROL A/B 테스트] 활동(이 섹션에 설명됨) 외에 [!DNL Target]는 두 가지 추가 유형의 [!UICONTROL A/B 테스트] 활동을 제공합니다.[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target].
 >
->A/ [B 테스트 개요에서 A/B 테스트 활동](/help/c-activities/t-test-ab/test-ab.md#types) 유형을 *참조하십시오*.
+>*A/B 테스트 개요*&#x200B;의 [A/B 테스트 활동 유형](/help/c-activities/t-test-ab/test-ab.md#types)을 참조하십시오.
 
-수동 [!UICONTROL A/B 테스트] 활동을 만들려면
+수동 [!UICONTROL A/B 테스트] 활동을 만들려면:
 
-1. From the **[!UICONTROL Activities]** list, click **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**.
+1. **[!UICONTROL 활동]** 목록에서 **[!UICONTROL 활동 만들기]** > **[!UICONTROL A/B 테스트]**&#x200B;를 클릭합니다.
 
    ![활동 만들기 드롭다운 목록](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_select-new.png)
 
@@ -38,15 +38,15 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    ![A/B 테스트 활동 만들기](/help/c-activities/t-test-ab/t-test-create-ab/assets/create-ab.png)
 
-   If you prefer to use the [!UICONTROL Form-Based Experience Composer], select [!UICONTROL Form]. 자세한 내용은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 참조하십시오.
+   [!UICONTROL 양식 기반 경험 작성기]를 사용하려면 [!UICONTROL 양식]을 선택합니다. 자세한 내용은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 참조하십시오.
 
    >[!NOTE]
    >
-   >VEC 및 [!UICONTROL 양식 기반 Experience Composer]외에도 [!DNL Target] 단일 페이지 애플리케이션 VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/c-experiences/experiences.md)를 참조하십시오.
+   >VEC 및 [!UICONTROL 양식 기반 Experience Composer] 외에 [!DNL Target]는 단일 페이지 응용 프로그램 VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/c-experiences/experiences.md)를 참조하십시오.
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >이전 그림에서 [[!UICONTROL 작업 공간 선택]](/help/administrating-target/c-user-management/property-channel/property-channel.md) 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. Your organization has a [!UICONTROL Target Standard] license if you do not see this option.
+   >이전 그림에서 [[!UICONTROL 작업 공간 선택]](/help/administrating-target/c-user-management/property-channel/property-channel.md) 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 옵션이 표시되지 않으면 조직에 [!UICONTROL Target Standard] 라이선스가 있습니다.
 
 1. (조건부) [Target Premium 고객](/help/c-intro/intro.md#premium)인 경우 [작업 공간](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
@@ -89,9 +89,9 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    흐름 다이어그램은 활동의 대상을 선택하고, 경험을 설정하는 단계를 안내합니다.
 
-1. 대상  상자에서 편집 아이콘(세 개의 세로 줄임표)을 클릭하고 대상 **[!UICONTROL 대체를]**&#x200B;클릭한 다음 [활동의 대상을](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) 선택합니다.
+1. [!UICONTROL 대상] 상자에서 편집 아이콘(세 개의 세로 줄임표)을 클릭하고 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭한 다음 [활동을 위해 대상](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)을 선택합니다.
 
-   By default, the audience is set to [!UICONTROL All Visitors].
+   기본적으로 대상은 [!UICONTROL 모든 방문자]로 설정됩니다.
 
 1. 활동을 입력하려는 자격 있는 방문자의 비율을 선택합니다.
 
@@ -109,24 +109,24 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] to 
 
    * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. [자동화된 트래픽 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
 
-   * **[!UICONTROL 개인화된 경험을 위한 자동 타깃팅]**: [!DNL Target] 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 여러 경험을 파악하고 방문자의 개별 고객 프로파일과 과거 유사 방문자의 행동을 바탕으로 방문자에게 가장 적합한 경험을 제공하여 컨텐츠를 개인화하고 전환율을 높일 수 있습니다. 자세한 내용은 자동 [Target을 참조하십시오](/help/c-activities/auto-target/auto-target-to-optimize.md).
-   You can also click **[!UICONTROL Add]** to add another experience to the activity.
+   * **[!UICONTROL 개인화된 경험을 위한 자동 타깃팅]**: [!DNL Target] 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 여러 경험을 식별한 다음 개별 고객 프로필 및 유사한 방문자의 과거 행동을 기반으로 방문자에게 가장 적합한 경험을 제공하여 컨텐츠를 개인화하고 전환율을 높일 수 있습니다. 자세한 내용은 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md)을 참조하십시오.
+   **[!UICONTROL 추가]**&#x200B;를 클릭하여 활동에 다른 경험을 추가할 수도 있습니다.
 
-1. When you are satisfied with your audience, experience choices, and traffic allocation choices, click **[!UICONTROL Next]** to move to the third step of the three-step guided workflow.
+1. 대상, 경험 선택 및 트래픽 할당 선택 사항에 만족하면 **[!UICONTROL 다음]**&#x200B;을 클릭하여 3단계 안내 워크플로우의 세 번째 단계로 이동합니다.
 
 1. 활동에 대한 [목표 및 설정](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)을 지정합니다.
 
    ![A/B 활동 설정](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
-1. 저장 **[!UICONTROL 및 닫기]** 또는 **[!UICONTROL 저장을 클릭합니다]**.
+1. **[!UICONTROL 저장 및 닫기]** 또는 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-After you create the activity, the [!UICONTROL Overview] tab shows information about the activity, including a diagram of your activity.
+활동을 만든 후 [!UICONTROL 개요] 탭에는 활동 다이어그램을 포함하여 활동에 대한 정보가 표시됩니다.
 
-## Training video: Creating A/B Tests (8:36) ![Tutorial badge](/help/assets/tutorial.png)
+## 교육 비디오:A/B 테스트 만들기(8:36) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에서는 [!DNL Target]의 안내가 있는 3단계 워크플로우를 사용하여 A/B 테스트를 만드는 방법을 보여 줍니다.
 
-* A/ [!UICONTROL B 테스트] 활동을 [!DNL Adobe Target]
+* [!DNL Adobe Target]에서 [!UICONTROL A/B 테스트] 활동을 만듭니다.
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
 >[!VIDEO](https://video.tv.adobe.com/v/17391)
