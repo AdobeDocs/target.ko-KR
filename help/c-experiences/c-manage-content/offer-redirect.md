@@ -35,7 +35,7 @@ ht-degree: 96%
 **리디렉션 오퍼를 만들려면:**
 
 1. **[!UICONTROL 오퍼]**&#x200B;를 클릭한 다음, **[!UICONTROL 코드 오퍼]** 탭을 선택합니다.
-1. Click **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**.
+1. **[!UICONTROL 만들기]** > **[!UICONTROL 리디렉션 오퍼]**&#x200B;를 클릭합니다.
 1. 오퍼 이름을 입력합니다.
 1. 재지정할 고유 컨텐츠 또는 대상의 URL을 입력하십시오. 절대 URL을 사용해야 합니다.
 
