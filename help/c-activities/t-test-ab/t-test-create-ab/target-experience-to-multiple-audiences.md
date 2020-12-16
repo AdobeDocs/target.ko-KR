@@ -34,7 +34,7 @@ A/B 활동에서 동일한 경험의 버전들을 서로 다른 대상에 타깃
 
    여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상을 선택합니다.
 
-1. Select the experience, then click **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. 경험을 선택한 다음 **[!UICONTROL 구성]** > **[!UICONTROL 대상]** > **[!UICONTROL 복수 대상]**&#x200B;을 클릭합니다.
 
    ![여러 대상 선택 사항](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
