@@ -30,7 +30,7 @@ ht-degree: 69%
 
 올바른 설정을 결정하는 방법은 [비 JavaScript 기반 구현](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Create a redirector {#redirector}
+## 리디렉터 {#redirector} 만들기
 
 리디렉터를 사용하기 전에 먼저 리디렉터를 만들어야 합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 69%
 
    * 여기서 `yourclientcode`는 회사의 클라이언트 코드입니다. 회사의 클라이언트 코드는 모두 소문자이고 특수 문자를 포함하지 않습니다.
 
-      Your client code is available at the top of the [!UICONTROL Administration > Implementation] page of the [!DNL Target] interface.
+      클라이언트 코드는 [!DNL Target] 인터페이스의 [!UICONTROL 관리 > 구현] 페이지의 맨 위에 있습니다.
 
    * `redirectorlink_456` 은 캠페인 및 테스트에서 사용할 계정에 나타나는 리디렉터 mbox의 이름입니다.
 
@@ -53,14 +53,14 @@ ht-degree: 69%
 
    * 여기서 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm`은 기본 대상입니다.
 
-      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
+      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. [HTML URL 인코딩 참조](https://www.w3schools.com/tags/ref_urlencode.asp)를 사용하여 URL을 빠르게 인코딩할 수 있습니다.
 
       >[!IMPORTANT]
       >
-      >리디렉터를 사용하면 개방형 리디렉션 취약점의 위험에 노출될 수 있습니다. 제3자가 리디렉터 링크를 무단으로 사용하지 않도록 하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target은 리디렉션을 허용할 도메인을에 허용 목록에 추가하다 사용합니다. 자세한 내용은 호스트 [에서 Target으로 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록](/help/administrating-target/hosts.md#allowlist) 만들기를 *참조하십시오*.
+      >리디렉터를 사용하면 오픈 리디렉션 취약성 위험에 노출될 수 있습니다. 제3자에 의한 리디렉터 링크의 무단 사용을 방지하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target에서는 리디렉션을 허용 목록에 추가하다 허용하려는 도메인을에 호스트를 사용합니다. 자세한 내용은 ](/help/administrating-target/hosts.md#allowlist)호스트&#x200B;*의 Target[에 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록 만들기를 참조하십시오.*
 
 1. 리디렉터의 유효성을 확인합니다.
-   1. *보안 모범 사례*:리디렉터에 사용된 도메인이 위에 허용 목록에추가된 표시된 대로 표시되는지 확인합니다. 도메인이 아닌를 사용하는 경우, Adobe은 악성 행위자가 리디렉터를 사용하여 잠재적으로 악성 도메인으로 리디렉션하는 것을 방지하기 위해 해당 도메인에 대한 모든 호출을 차단합니다허용 목록에추가된.
+   1. *보안 모범 사례*:리디렉터에 사용된 도메인이 위에 표시된 대로 허용 목록에추가된 설정되어 있는지 확인합니다. 도메인이 아닌를 사용하는 경우, Adobe은 악성 허용 목록에추가된 행위자가 리디렉터를 사용하여 잠재적으로 악성 도메인으로 리디렉션하는 것을 방지하기 위해 해당 도메인에 대한 모든 호출을 차단합니다.
    1. 리디렉터 URL을 브라우저에 삽입하고 새로 고칩니다.
    1. 계정에 로그인하고 mbox 목록을 새로 고친 후 새 리디렉터가 mbox로 나열되는지 확인합니다.
 1. 하나의 광고에 대해 서로 다른 대상을 테스트할 경우 각 버전에 대해 [리디렉션 오퍼](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)를 만듭니다.
@@ -87,7 +87,7 @@ ht-degree: 69%
 
 1. 전체 리디렉터 URL을 광고 대상으로 디스플레이 광고 네트워크에 제출합니다.
 
-## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
+## 리디렉터를 사용하여 클릭당 비용 및 클릭당 매출 {#concept_3078EF48E9C44B34992D62AAB9628853} 전달
 
 리디렉터를 사용하여 클릭당 비용과 클릭당 수익을 전달하는 방법에 대한 정보입니다.
 
@@ -97,7 +97,7 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->Best practice is to determine the cost value using the **Score per visit** engagement metric.
+>가장 좋은 방법은 **방문당 점수** 참여 지표를 사용하여 비용 값을 결정하는 것입니다.
 
 `&mboxPageValue=-value`를 URL에 추가합니다. 음수입니다.
 
@@ -114,7 +114,7 @@ https://<your_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox/​page?mbox=r
 
 >[!NOTE]
 >
->Best practice is to determine the revenue value using the **Score per visit** engagement metric.
+>가장 좋은 방법은 **방문당 점수** 참여 지표를 사용하여 매출 값을 결정하는 것입니다.
 
 `&mboxPageValue=value`를 URL에 추가합니다.
 
