@@ -1,6 +1,6 @@
 ---
 keywords: recommendations;frequently asked questions;faq
-description: Adobe Target 추천 디자인에 대한 FAQ(자주 묻는 질문) 목록
+description: Adobe Target 권장 사항 디자인에 대한 FAQ(자주 묻는 질문) 목록입니다.
 title: 디자인 FAQ
 feature: designs
 translation-type: tm+mt
@@ -14,7 +14,7 @@ ht-degree: 87%
 
 # ![PREMIUM](/help/assets/premium.png) 디자인 FAQ {#design-faq}
 
-List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
+[!DNL Adobe Target] 추천 디자인에 대한 FAQ(자주 묻는 질문) 목록
 
 ## 권장 품목 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시할 수 있습니까?
 
@@ -38,7 +38,7 @@ List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendati
 
 현재 사용 중인 디자인을 변경하면 업데이트하는 데 시간이 걸립니다. 디자인을 즉시 변경하려면 새 디자인을 만들고 활동에서 선택하고 권장 사항을 저장합니다.
 
-## 디자인에서 표시할 주요 정보를 캡처할 수 있습니까? 예: 주요 제품 카테고리를 표시하려는 경우 Velocity 디자인에서 해당 값을 어떻게 코딩할 수 있습니까? {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## 디자인에서 표시할 주요 정보를 캡처할 수 있습니까? 예: 주요 제품 카테고리를 표시하려는 경우 Velocity 디자인에서 해당 값을 어떻게 코딩할 수 있습니까?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 `$key. *`값`*`매개 변수가 디자인에서 표시할 주요 제품 정보 대부분을 캡처합니다. 예: 주요 제품 썸네일을 표시하려면 `$key.thumbnailURL`을 사용합니다.
 
@@ -48,7 +48,7 @@ List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendati
 
 ## 기존 개체 값을 빈 값으로 바꾸려면 어떻게 해야 합니까? 예를 들어 판촉 행사가 끝나면 항목의 entity.message를 지워야 합니다. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-JavaScript 비분리 공백으로 보내면 이렇게 할 수 있습니다. 개발자가 값으로 `\u00A0`을 보내게 하십시오. 예: `entity.message=\u00A0`. Null 대신 아무런 값이 표시되지 않는 경우 해당 값이 기본값이 되는 것으로 간주할 수 있습니다.
+JavaScript 줄바꿈 없는 공백으로 보내면 이렇게 되는 것 같습니다. 개발자가 값으로 `\u00A0`을 보내게 하십시오. 예: `entity.message=\u00A0`. Null 대신 아무런 값이 표시되지 않는 경우 해당 값이 기본값이 되는 것으로 간주할 수 있습니다.
 
 ## 권장 사항 디자인에서 프로필 스크립트를 사용할 수 있습니까? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
