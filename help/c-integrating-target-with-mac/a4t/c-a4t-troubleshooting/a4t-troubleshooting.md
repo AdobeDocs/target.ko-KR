@@ -46,7 +46,7 @@ ht-degree: 80%
 
 상승도 및 신뢰도 세부 정보는 Analytics에서 사용할 수 없습니다. 하지만 Target 보고서에서는 사용할 수 있습니다.
 
-## Analytics 보고서에 활동이 표시되지 않습니다. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Analytics 보고서에 활동이 표시되지 않습니다.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다. Analytics 추적 서버를 올바로 설정하려면 [Analytics 추적 서버 사용](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
 
@@ -54,7 +54,7 @@ A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다.
 >
 >Adobe Analytics를 활동의 보고 소스로 사용하는 경우, mbox.js 버전 61 이상 또는 at.js 버전 0.9.1 이상을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. mbox.js 또는 at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]에 보냅니다. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
 
-## 내 Analytics 세그먼트가 Target에 표시되지 않습니다. {#section_DEE87F1557834F448E99381D3D02EEEF}
+## 내 Analytics 세그먼트가 Target에 표시되지 않습니다.  {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 A4T 활동을 만들기 전에 올바른 권한이 있는지 확인하십시오.
 
@@ -62,30 +62,30 @@ A4T 활동을 만들기 전에 올바른 권한이 있는지 확인하십시오.
 * 하나 이상의 Experience Cloud 그룹의 구성원으로서 Analytics 및 Target에 액세스할 수 있어야 합니다.
 * 왼쪽 탐색 메뉴의 [마케팅 앱] 섹션에 Analytics 및 Target이 표시되는지 확인하십시오.
 
-## 보고서에서 바운스 비율, 바운스 및 퇴장 지표가 양수로 표시됩니다. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## 보고서에서 바운스 비율, 바운스 및 퇴장 지표가 양수로 표시됩니다.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 이는 알려진 문제입니다.
 
 이러한 지표는 음수이지만, 상승도는 Target 보고서에서 양수인 것처럼 표시됩니다. 예를 들어, 낮은 바운스 비율이 필요하더라도 상승도가 가장 높은 우승자로 높은 바운스 비율이 표시됩니다. 이러한 지표 및 유사 지표에 유의하여 보고서를 기준으로 수치를 높일지 또는 줄일지 결정을 내려야 합니다.
 
-## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## 필요한 보고서 세트가 표시되지 않습니다.{#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). 따라서 사용하고 있는 일부 보고서 세트가 표시되지 않을 수 있습니다.
+[!DNL Target Standard/Premium]에 나타나는 보고서 세트 목록은 [!DNL Analytics]에 대해 [!DNL Target](A4T)의 보고 소스로 구성된 보고서 세트 목록입니다. 따라서 사용하고 있는 일부 보고서 세트가 표시되지 않을 수 있습니다.
 
-또한, 여러 보고 소스를 사용하는 경우 보고서 세트가 기본 보고 소스 세트( [!DNL Target] 그렇지 않으면 보고서 세트가 표시되지 않습니다.
+또한 여러 보고 소스를 사용하는 경우 보고서 세트가 [!DNL Target]의 기본 보고 소스 설정에도 있어야 합니다.그렇지 않으면 보고서 세트가 표시되지 않습니다.
 
-If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
+여전히 찾고 있는 보고서 세트가 표시되지 않으면 [클라이언트 지원](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하여 활성화하십시오.
 
 ## 보고서에 예상한 만큼의 데이터가 표시되지 않습니다. {#section_75002584FA63456D8D9086172925DD8D}
 
 특히 방문자가 경험을 사용할 자격이 있는 페이지에서 구현을 검토하고, 보조 데이터 ID가 [!DNL Target] 및 [!DNL Analytics] 호출에서 일치하는지 확인하십시오.
 
-* **at.js 1.x**:호출에서 보조 ID는 매개 변수 [!DNL Target] 에 `mboxMCSDID` 포함됩니다. [!DNL Analytics] 호출에서는 보조 ID가 `sdid` 매개 변수에 포함되어 있습니다.
-* **at.js 2.x**:호출에서 보조 ID는 [!DNL Target] HTTP 헤더에서 의 값으로 반환됩니다 `experienceCloud.analytics.supplementalDataId`. [!DNL Analytics] 호출에서는 보조 ID가 `sdid` 매개 변수에 포함되어 있습니다.
+* **at.js 1.x**:호출에서  [!DNL Target] 보충 ID는 매개 변수에  `mboxMCSDID` 포함됩니다. [!DNL Analytics] 호출에서는 보조 ID가 `sdid` 매개 변수에 포함되어 있습니다.
+* **at.js 2.x**:호출에서  [!DNL Target] 보충 ID는 HTTP 헤더에서 의 값으로 반환됩니다 `experienceCloud.analytics.supplementalDataId`. [!DNL Analytics] 호출에서는 보조 ID가 `sdid` 매개 변수에 포함되어 있습니다.
 
-보충 ID를 검사하는 가장 쉬운 방법은 Adobe Experience Platform 디버거를 사용하는 것입니다.
+보충 ID를 검사하는 가장 쉬운 방법은 Adobe Experience Platform Debugger를 사용하는 것입니다.
 
-디버거를 설치하지 않은 경우 Adobe Experience Platform 디버거 [소개를 참조하십시오](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+디버거를 설치하지 않은 경우 [Adobe Experience Platform 디버거 소개](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)를 참조하십시오.
 
 ![디버거](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
