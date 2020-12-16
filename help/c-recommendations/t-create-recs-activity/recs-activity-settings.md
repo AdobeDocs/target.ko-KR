@@ -14,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) 권장 사항 활동 설정{#recommendations-activity-settings}
 
-Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
+[!DNL Adobe Target]에서 [!UICONTROL Recommendations] 활동을 설명하고 제어하는 데 사용할 수 있는 설정에 대한 정보입니다.
 
 ![권장 사항 목표 및 설정 페이지](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ Information about the settings you can use to describe and control a [!UICONTROL
 `-`
 `@`
 
-[!UICONTROL 권장 사항 Classic]의 다른 활동에 이미 존재하는 [!UICONTROL 권장 사항] 활동 이름을 지정하는 경우 새 활동이 새 이름으로 다시 동기화됩니다. 새 이름을 고유하게 만들기 위해 원래 이름에 타임스탬프가 추가됩니다. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
+[!UICONTROL 권장 사항 Classic]의 다른 활동에 이미 존재하는 [!UICONTROL 권장 사항] 활동 이름을 지정하는 경우 새 활동이 새 이름으로 다시 동기화됩니다. 새 이름을 고유하게 만들기 위해 원래 이름에 타임스탬프가 추가됩니다. 이 새 이름은 [!DNL Target Standard/Premium] 및 [!UICONTROL Recommendations Classic]에 모두 표시됩니다.
 
 ## 목표
 
@@ -55,7 +55,7 @@ Information about the settings you can use to describe and control a [!UICONTROL
 
 ## 보고 설정
 
-* **보고 소스:** 보고 소스를 선택합니다. [!DNL Adobe Target] 또는 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). 활동이 라이브로 전환된 후에는 보고 소스를 변경하지 마십시오. 활동이 라이브로 전환된 후에 보고 소스를 변경하면 보고가 일관되지 않습니다.
+* **보고 소스:** 보고 소스를 선택합니다. [!DNL Adobe Target] 또는  [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). 활동이 라이브로 전환된 후에는 보고 소스를 변경하지 마십시오. 활동이 라이브로 전환된 후에 보고 소스를 변경하면 보고가 일관되지 않습니다.
 * **목표 지표:** 활동이 성공적인지를 결정하는 성공 지표를 선택합니다.
 * **추가 지표:**&#x200B;보고서에서 사용할 추가 성공 지표를 구성하십시오.
 * **보고 대상:**&#x200B;보고서를 필터링할 때 사용할 수 있는 대상을 정의합니다.
