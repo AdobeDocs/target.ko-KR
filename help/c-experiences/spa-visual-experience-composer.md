@@ -66,7 +66,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    ![구현 세부 사항 대화 상자](/help/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x는 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 통해 배포할 수도 있습니다. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
+   [!UICONTROL 관리 > 구현]에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. at.js 2.x는 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 통해 배포할 수도 있습니다. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
 
 1. at.js 2.x의 최신 함수인 [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)를 사이트에 구현합니다.
 
@@ -276,7 +276,7 @@ at.js 2.x의 일반적인 워크플로우는 사이트가 로드될 때 사이�
 그러면 마케터는 VEC를 통해 다음의 A/B 활동을 실행합니다.
 
 * `http://www.telecom.com/home`에 표시할 매개 변수 &quot;`loggedIn= false`&quot;를 사용하는 대상에 대해 &quot;첫째 달 무료&quot; 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged Out Home입니다.
-* &quot;무료 전화를 받을 수 있습니다!&quot;가 포함된 A/B 활동 `http://www.telecom.com/loggedIn/home`에 표시할 매개 변수 &quot;`loggedIn=true`&quot;를 사용하는 대상에 대해 &quot;무료 전화를 사용할 수 있습니다!&quot; 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged In Hero Offer입니다.
+* A/B activity with the “You are eligible for a free phone!” `http://www.telecom.com/loggedIn/home`에 표시할 매개 변수 &quot;`loggedIn=true`&quot;를 사용하는 대상에 대해 &quot;무료 전화를 사용할 수 있습니다!&quot; 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged In Hero Offer입니다.
 
 이제 다음 사용자 흐름을 고려해 보십시오.
 
@@ -391,9 +391,9 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 다음 사항이 변경되었습니다.
 
 * URL 아래 있는 홈 보기에서 배경색을 변경했습니다. [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 제품 보기에서 URL 아래에 있는 단추 색상을 변경했습니다.[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
+위의 예를 염두에 두고, 다음을 포함하도록 [!UICONTROL 페이지 배달] 설정을 구성하면 어떻게 됩니까?at.js 2가 있는 SPA의 [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
 
 ![페이지 전달 대화 상자](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -403,19 +403,19 @@ With the example above in mind, what would happen when we configure [!UICONTROL 
 
 **사용자 여정 1**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* 사용자가 [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/)로 직접 이동합니다.
 * at.js 2.*x*&#x200B;는 Edge에 대한 쿼리를 수행하여 다음 URL에 대해 활동을 실행해야 하는지 확인합니다. [/#/https://target.enablementadobe.com/react/demo/](https://target.enablementadobe.com/react/demo/#/)#/
 * 6단계에서 Target Edge는 브라우저 내에서 캐시되도록 홈 및 제품 보기에 대한 작업을 반환합니다.
 
 **결과**: 사용자는 홈 보기에서 녹색 배경색을 보게 됩니다. 사용자가 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products로 이동하면 해당 작업이 제품 보기 아래의 브라우저에서 캐시되므로 단추의 파란색 배경색이 표시됩니다.
 
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+참고:[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)로 이동하는 사용자가 페이지 로드를 트리거하지 않았습니다.
 
 **사용자 여정 2**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 사용자가 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)로 직접 이동합니다.
 * at.js 2.*x*&#x200B;는 Edge에 대한 쿼리를 수행하여 다음 URL에 대해 활동을 실행해야 하는지 확인합니다. [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products.
-* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)에 대해 자격이 있는 활동이 없습니다.
 * 적합한 활동이 없으므로 트리거할 at.js 2.*x*&#x200B;에 대해 캐시되는 작업 및 보기가 없습니다.
 
 **결과**: 제품 보기에 대해 정의하고 SPA VEC를 통해 제품 보기에 작업을 수행한 경우에도 `triggerView()` 페이지 전달 설정에서 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products를 포함한 규칙을 만들지 않았기 때문에 예상한 작업이 표시되지 않습니다.
@@ -440,4 +440,4 @@ Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/pr
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
+자세한 내용은 Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)에서 [단일 페이지 응용 프로그램(SPA VEC)에 대해 시각적 경험 작성기 사용(VEC)을 참조하십시오.
