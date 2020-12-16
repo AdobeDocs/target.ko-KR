@@ -12,13 +12,13 @@ ht-degree: 71%
 ---
 
 
-# ![프리미엄](/help/assets/premium.png) 자동 Target 문제 해결 및 FAQ
+# ![](/help/assets/premium.png) PremiumTarget 문제 해결 및 FAQ
 
-의 자동 Target에 대한 문제 해결 및 FAQ( [!UICONTROL FAQ] ) [!DNL Adobe Target].
+[!DNL Adobe Target]의 [!UICONTROL 자동 Target]에 대한 문제 해결 및 FAQ(FAQ)를 참조하십시오.
 
 ## 자동 타겟 FAQ {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-자동 [!UICONTROL Target] 활동 시 다음 FAQ와 답변을 참조하십시오.
+[!UICONTROL 자동 Target] 활동 시 다음 FAQ 및 답변을 참조하십시오.
 
 ### [!UICONTROL 자동 타겟] 활동을 설정하는 우수 사례는 무엇입니까?
 
@@ -33,13 +33,13 @@ ht-degree: 71%
 
 * 활동을 실행하는 중에는 경험을 크게 변경하지 마십시오.
 
-### 모델이 빌드될 때까지 90(Control)/10(Targeted) 분할이 있는 자동 Target을 사용하는 것이 권장됩니까?
+### 모델이 빌드될 때까지 90(컨트롤)/10(타깃팅됨) 분할이 있는 자동 Target을 사용하는 것이 권장됩니까?
 
-최적의 트래픽 할당은 달성하고자 하는 사항에 따라 달라집니다.
+최적의 트래픽 할당은 달성하고자 하는 내용에 따라 달라집니다.
 
-가능한 많은 트래픽을 개인화하는 것이 목표인 경우 활동의 평생 동안 90%의 타깃팅과 10%의 제어를 유지할 수 있습니다. 사용자 지정 알고리즘과 컨트롤의 성능을 비교한 실험을 실행하는 것이 목표인 경우, 50/50 분할이 활동 수명 동안 가장 적합합니다.
+가능한 많은 트래픽을 개인화하는 것이 목표인 경우 활동 수명 동안 90%의 타깃팅된 컨텐츠와 10%의 제어를 유지할 수 있습니다. 사용자 지정 알고리즘이 제어와 얼마나 잘 수행하는지를 비교하는 실험을 실행하는 것이 목표인 경우 활동의 수명 동안 50/50 분할이 가장 적합합니다.
 
-방문자가 타깃팅된 경험과 제어 경험 간을 전환하지 않도록 활동의 수명 동안 트래픽 할당 분할을 유지하는 것이 좋습니다.
+가장 좋은 방법은 활동 수명 동안 트래픽 할당 분할을 유지하여 방문자가 타깃팅된 경험과 제어 경험 간에 전환하지 않도록 하는 것입니다.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
@@ -72,15 +72,15 @@ A/B 테스트 결과에 경험들 중 하나 이상에서 통계적으로 의미
 
 ### 모델이 만들어지기까지 얼마나 기다려야 합니까? {#how-long}
 
-The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
+모델이 [!UICONTROL 자동 Target] 활동에 빌드하는 데 걸리는 시간은 일반적으로 선택된 활동 위치에 대한 트래픽과 활동 성공 지표와 연관된 전환율에 따라 달라집니다.
 
-[!UICONTROL 자동 Target] 는 해당 경험에 대해 최소 50개의 전환이 있을 때까지 주어진 경험에 대한 맞춤형 모델을 만들지 않습니다. 또한, 빌드된 모델의 품질이 부족한 경우(오프라인 평가에 의해 &quot;테스트&quot; 데이터 대기 중(AUC라고 [하는 지표 사용)에 따라 모델](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)이 트래픽을 개인화된 방식으로 제공하는 데 사용되지 않습니다.
+[!UICONTROL 자동 ] 타게팅은 해당 경험에 대해 최소 50개의 전환이 있을 때까지 주어진 경험에 대한 개인화된 모델을 구축하지 않습니다. 또한 내장 모델의 품질이 부족한 경우(오프라인 평가에 의해 &quot;테스트&quot; 데이터를 보류하는 경우, AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)라고 하는 지표를 사용하여 [에 의해 판단됨) 이 모델은 트래픽을 개인화된 방식으로 제공하는 데 사용되지 않습니다.
 
-자동 [!UICONTROL Target의 모델]구성에 대해 염두에 두어야 할 몇 가지 더 자세한 사항은 다음과 같습니다.
+[!UICONTROL 자동 Target]의 모델 작성에 대해 주의해야 할 몇 가지 추가 사항:
 
-* 활동이 라이브되면 [!UICONTROL 자동 Target] 는 모델을 빌드하려고 할 때(즉, 트래픽을 제어하고 알고리즘에 의해 과도하게 제공되는 일부 데이터 포함) 임의로 제공된 데이터의 마지막 45일 동안의 데이터를 고려합니다.
-* 방문당 [!UICONTROL 매출이 성공 지표인] 경우, 이러한 활동은 일반적으로 전환율과 비교하여 방문 수익에 있는 높은 데이터 분산 때문에 모델을 만드는 데 더 많은 데이터가 필요합니다.
-* 모델은 경험을 기준으로 구축되므로 한 경험을 다른 경험으로 교체하면 개인화된 모델을 다시 빌드하기 전에 새로운 경험에 대해 충분한 트래픽(즉, 50개 이상의 전환)을 수집해야 합니다.
+* 활동이 라이브되면, 모델 작성을 시도할 때 [!UICONTROL 자동 Target]은(는) 임의로 제공된 데이터의 마지막 45일 수를 고려합니다(즉, 트래픽 제어, 알고리즘에서 제공하는 추가 임의적 데이터 포함).
+* [!UICONTROL 방문당 매출액]이 성공 지표인 경우 이러한 활동은 일반적으로 전환 비율과 비교하여 방문 매출에서 일반적으로 존재하는 높은 데이터 변화량 때문에 모델을 만드는 데 더 많은 데이터가 필요합니다.
+* 모델은 경험별로 구축되므로 한 경험을 다른 경험으로 대체하면 맞춤형 모델을 재구축하려면 새로운 경험에 대해 충분한 트래픽(즉, 50개 이상의 전환)을 수집해야 합니다.
 
 ### 내 활동에 모델 하나가 만들어져 있습니다. 해당 경험에 대한 방문이 개인화됩니까?
 
@@ -98,15 +98,15 @@ AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/au
 
 자세한 내용은 [특정 환경을 제어로 사용](/help/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오.
 
-### 자동 Target 활동을 통해 중간에 목표 지표를 변경할 수 있습니까? {#change-metric}
+### 자동 Target 활동을 통해 중간에 목표 지표를 변경할 수 있습니까?{#change-metric}
 
-활동을 진행하는 동안 목표 지표를 변경하는 것이 좋습니다. UI를 사용하는 활동 중에 목표 지표를 변경할 수는 있지만 항상 새 활동을 시작해야 합니다. [!DNL Target] 실행 후 활동에서 목표 지표를 변경하면 발생하는 사항에 대해 보증하지 않습니다.
+활동을 진행하는 동안 목표 지표를 변경하는 것이 좋습니다. [!DNL Target] UI를 사용하는 활동 중에 목표 지표를 변경할 수는 있지만 항상 새 활동을 시작해야 합니다. 실행 후 활동에서 목표 지표를 변경하면 발생하는 결과에 대해 보증하지 않습니다.
 
-이 권장 사항은 보고 소스로 [!UICONTROL 자동 할당], [!UICONTROL 자동 Target]및 [!UICONTROL Automated Personalization] 활동에 [!DNL Target] 적용됩니다 [!DNL Analytics] . 이활동은또는 (A4T)를 사용하는활동에 적용됩니다.
+이 권장 사항은 보고 소스로 [!DNL Target] 또는 [!DNL Analytics](A4T)을 사용하는 [!UICONTROL 자동 할당], [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
 
 ### 자동 Target 활동을 실행하는 동안 보고서 데이터 재설정 옵션을 사용할 수 있습니까?
 
-자동 Target [!UICONTROL 활동에 대해] 보고서 데이터 [!UICONTROL 재설정 옵션] 은사용하지 않는 것이 좋습니다. 보이는 보고 데이터를 제거하지만 이 옵션은 [!UICONTROL 자동 Target] 모델에서 모든 교육 레코드를 제거하지 않습니다. 자동 Target [!UICONTROL 활동에 대해 보고서 데이터] 재설정 [!UICONTROL 옵션] 을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고:이 지침은 자동 할당 [!UICONTROL 및] Automated Personalization  활동에도 적용됩니다.)
+[!UICONTROL 자동 Target] 활동에 대해 [!UICONTROL 보고서 데이터 재설정] 옵션을 사용하는 것은 권장되지 않습니다. 보이는 보고 데이터를 제거하지만 이 옵션은 [!UICONTROL 자동 Target] 모델에서 모든 교육 레코드를 제거하지 않습니다. [!UICONTROL 자동 Target] 활동에 대해 [!UICONTROL 보고서 데이터 재설정] 옵션을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화합니다. (참고:이 지침은 [!UICONTROL 자동 할당] 및 [!UICONTROL Automated Personalization] 활동에도 적용됩니다.)
 
 ## [!UICONTROL 자동 타겟] 문제 해결 {#section_23995AB813F24525AF294D20A20875C8}
 
