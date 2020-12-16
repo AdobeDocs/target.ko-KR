@@ -23,7 +23,7 @@ Target을 사용할 수 있는 페이지에서 XT([!UICONTROL 경험 타깃팅])
 
 **XT 활동을 만들려면 다음을 수행하십시오.**
 
-1. From the [!UICONTROL Activities] list, click **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**.
+1. [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** > **[!UICONTROL 경험 타깃팅]**&#x200B;을 클릭합니다.
 
    ![활동 만들기 > 경험 타깃팅](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
