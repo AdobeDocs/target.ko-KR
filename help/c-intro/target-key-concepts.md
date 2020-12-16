@@ -80,7 +80,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 예를 들어, 웹 페이지는 방문자가 전에 사이트에 왔었는지 여부에 따라 두 오퍼 중 하나를 표시할 수 있습니다.
 
-An *경험*&#x200B;은 특정 조건이 충족될 경우 표시되는 콘텐츠를 결정합니다.
+*경험*&#x200B;은 특정 조건이 충족될 경우 표시되는 콘텐츠를 결정합니다.
 
 ## 대상자{#section_3F32DA46BDF947878DD79DBB97040D01}
 
@@ -100,7 +100,7 @@ An *경험*&#x200B;은 특정 조건이 충족될 경우 표시되는 콘텐츠�
 |--- |--- |
 | 재사용 가능한 대상 | 재사용 가능한 대상은 활동용으로 선택할 수 있습니다. 이러한 대상 중 하나를 변경하면 이 대상을 사용하는 모든 활동에 대해 대상이 변경됩니다. |
 | 사용자 지정 세그먼트 | 사용자 지정 세그먼트(캠페인별 세그먼트라고도 함)는 Target Classic에서 캠페인에 따라 다릅니다. 캠페인의 일부로 생성되며 다른 캠페인에서 다시 사용할 수 없습니다. |
-| 공유 대상 | 대상은 [!DNL Adobe Experience Cloud] 솔루션에서 공유할 수 있습니다. See [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) for examples. |
+| 공유 대상 | 대상은 [!DNL Adobe Experience Cloud] 솔루션에서 공유할 수 있습니다. 예를 보려면 [대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html)을 참조하십시오. |
 
 방문자 프로필에서 어떻게 사이트 방문자에 대한 정보를 추적하는지에 대해서는 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)을 참조하십시오.
 
@@ -108,7 +108,7 @@ An *경험*&#x200B;은 특정 조건이 충족될 경우 표시되는 콘텐츠�
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 활동 유형(9:03) ![개요 배지](/help/assets/overview.png)
+### 활동 유형(9:03)  ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다.
 
