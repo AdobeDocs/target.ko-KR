@@ -22,14 +22,14 @@ ht-degree: 95%
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
-| selector | 문자열 | 아니오 | [!DNL Target]이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD. |
+| selector | 문자열 | 아니오 | [!DNL Target]이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. 선택기가 제공되지 않으면 [!DNL Target]에서는 사용할 HTML 요소가 HTML HEAD라고 가정합니다. |
 | 응답 | 개체 | 예 | `getOffers()`의 응답 개체.<br>아래의 &quot;요청&quot; 표를 참조하십시오. |
 
 ## 응답
 
 >[!NOTE]
 >
->아래 나열된 모든 필드에 대해 허용되는 유형에 대한 자세한 내용은 [배달 API 설명서를](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 참조하십시오.
+>아래 나열된 모든 필드에 적합한 유형에 대한 자세한 내용은 [배달 API 설명서](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)을 참조하십시오.
 
 | 필드 이름 | 설명 |
 | --- | --- |
