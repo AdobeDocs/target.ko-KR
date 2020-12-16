@@ -1,7 +1,7 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
-title: Adobe Target의 사용자 지정 엔티티 속성
+title: Adobe Target의 사용자 지정 개체 특성
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
@@ -15,7 +15,7 @@ ht-degree: 90%
 
 # ![PREMIUM](/help/assets/premium.png) 사용자 지정 엔티티 속성{#custom-entity-attributes}
 
-Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
+[!DNL Adobe Target Recommendations]의 단일 및 다중 값 사용자 지정 개체 속성을 사용하여 카탈로그의 항목에 대한 추가 정보를 정의합니다.
 
 ## 제한 {#limits}
 
@@ -25,7 +25,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 
 다중 값 엔티티 사용자 지정 속성은 최대 500개의 값을 포함할 수 있습니다. 각 개별값은 100자로 제한됩니다. 모든 값에 걸친 총 문자 수는 단일 값 엔티티 사용자 지정 속성의 최대 길이에 대한 제한을 준수해야 합니다(위 참조).
 
-## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
+## 사용자 지정 엔터티 특성 값 {#section_313331A9F8194A89B5EDD89363018651}
 
 사용자 지정 엔티티 속성은 단일 값 또는 다중 값을 포함할 수 있습니다. 엔티티 속성 값은 제품 보기에 표시됩니다.
 
@@ -61,7 +61,7 @@ Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recom
 * 배열에 단일 값 유형이 포함되어야 합니다. 혼합 값 배열(`["AB",1,true]`)은 지원되지 않습니다.
 * 중첩 JSON 배열(`[10,12,[1,2,3]]`)을 포함하는 다중 값 속성은 단일 값 속성으로 처리됩니다.
 
-## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## 다중 값 특성 구현 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 다중 값 사용자 지정 엔티티 속성은 피드(CSV), `targetPageParams`, 배달 API 및 엔티티 저장 API를 사용하여 제품을 업로드할 때 지원됩니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열([])은 값이 없는 것으로 처리됩니다.
 
@@ -109,7 +109,7 @@ function targetPageParams() {
 
 ### API 사용
 
-배달 API를 사용하여 mbox 매개 변수에 다중 값 특성을 이스케이프된 JSON 배열이 포함된 문자열 값으로 전달할 수 있습니다.
+mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케이프된 JSON 배열이 포함된 문자열 값으로 전달할 수 있습니다.
 
 ```javascript
 "execute": {
@@ -127,9 +127,9 @@ function targetPageParams() {
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
+배달 및 개체 저장 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](http://developers.adobetarget.com/api/recommendations)을 참조하십시오.
 
-## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
+## 다중 값 특성이 있는 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 다중 값 사용자 지정 속성에 연산자를 적용할 때, 목록에 있는 하나 이상의 값이 연산(부울 *or*)을 통과하는 경우 결과는 *true*&#x200B;가 됩니다.
 
@@ -150,7 +150,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 * 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
 * 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
-* Case 3: `entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 false입니다.
+* 사례 3:`entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 false입니다.
 
 ### 다음과 같지 않음
 
@@ -160,7 +160,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 * 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
 * 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
-* Case 3: `entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 true입니다.
+* 사례 3:`entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 true입니다.
 
 ### 다음 포함
 
@@ -188,7 +188,7 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 
 * 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
 * 사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이 `abc`.
-* Case 3: `entity.genre = ["ab", "de", "abc"]`. 하나의 값이 `abc`로 시작하므로 결과는 true입니다(목록에서 첫 번째 요소일 필요는 없음).
+* 사례 3:`entity.genre = ["ab", "de", "abc"]`. 하나의 값이 `abc`로 시작하므로 결과는 true입니다(목록에서 첫 번째 요소일 필요는 없음).
 
 ### 다음으로 끝남
 
@@ -252,9 +252,9 @@ See the [Adobe Recommendations API documentation](http://developers.adobetarget.
 >
 >*Double*&#x200B;은 Java 데이터 유형입니다. 숫자 값이 필요한 연산자의 경우, double로 변환하면 숫자가 아닌 값은 결과에서 고려되지 않습니다.
 
-## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## 디자인의 다중 값 특성 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-여러 값 속성은 디자인에서 참조할 때 쉼표로 구분된 목록으로 표시됩니다.
+다중 값 속성은 디자인에서 참조할 때 쉼표로 구분된 목록으로 표시됩니다.
 
 예:
 
