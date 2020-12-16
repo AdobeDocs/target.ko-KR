@@ -14,11 +14,11 @@ ht-degree: 91%
 
 # ![PREMIUM](/help/assets/premium.png) Target의 개인화 알고리즘을 위한 데이터 수집
 
-[!DNL Adobe Target] 다양한 데이터를 자동으로 수집 및 사용하여 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target(AT) 활동에 개인화 알고리즘을] 작성합니다. 방문자가 AP 또는 AT 활동에 입장하면 정보의 스냅숏이 &quot;교육 레코드&quot; 집합(개인화 알고리즘에서 배울 방문자 데이터)으로 전달됩니다.
+[!DNL Adobe Target] 다양한 데이터를 자동으로 수집 및 사용하여  [!UICONTROL Automated Personalization] (AP) 및  [!UICONTROL 자동 Target] (AT) 활동에서 개인화 알고리즘을 작성합니다. 방문자가 AP 또는 AT 활동에 입장하면 정보 스냅숏이 &quot;교육 레코드&quot; 집합(개인화 알고리즘이 배울 방문자 데이터)으로 전달됩니다.
 
-To learn more about the Target personalization algorithms, see [Random Forest Algorithm](/help/c-activities/t-automated-personalization/algo-random-forest.md).
+Target 개인화 알고리즘에 대한 자세한 내용은 [임의 포리스트 알고리즘](/help/c-activities/t-automated-personalization/algo-random-forest.md)을 참조하십시오.
 
-The following table shows the data collected by [!UICONTROL Automated Personalization] and [!UICONTROL Auto-Target] by default, without the marketer having to do anything, as well as the naming convention used to indicate these attributes in [Personalization Insights Reports](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [Target의 개인화 알고리즘을 위한 데이터 업로드](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
+다음 표는 마케터가 아무 작업을 하지 않아도 기본적으로 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 Target]에서 수집된 데이터와 [개인화 인사이트 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767)에서 이러한 속성을 나타내는 데 사용되는 이름 지정 규칙을 보여줍니다. 언제든지 입력 데이터 세트를 늘릴 수 있습니다. 추가 데이터를 업로드하는 방법에 대한 자세한 내용은 [Target의 개인화 알고리즘을 위한 데이터 업로드](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
 
 | 데이터 유형 | 설명 | 데이터 유형 이름 지정 규칙 | 예제 속성 |
 | --- | --- | --- | --- |
@@ -53,7 +53,7 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 
 ## 환경 데이터 {#env}
 
-| Attribute name | 속성 설명 | 샘플값 |
+| 속성 이름 | 속성 설명 | 샘플값 |
 | --- | --- | --- |
 | 브라우저 - 요일 | 방문자가 활동에 액세스한 요일입니다. | 0~6.<br>(0: 일요일) |
 | 브라우저 - 시간 | 방문자가 활동에 액세스한 시간입니다. | 0~23<br>(0: 자정) |
@@ -74,7 +74,7 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 
 ## 지역 데이터 {#geo}
 
-| Attribute name | 속성 설명 | 샘플값 |
+| 속성 이름 | 속성 설명 | 샘플값 |
 | --- | --- | --- |
 | 지역 - 도시 | 방문자가 활동에 액세스한 도시입니다. | San Francisco |
 | 지역 - 국가 | 방문자가 활동에 액세스한 국가입니다. | 독일 |
@@ -90,7 +90,7 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 
 ## 세션 데이터 {#session}
 
-| Attribute name | 속성 설명 | 샘플값 |
+| 속성 이름 | 속성 설명 | 샘플값 |
 | --- | --- | --- |
 | 방문자 프로필 - 활동 라이프타임 주문 가격 | 특정 활동에 대한 모든 방문/세션의 모든 주문 가격의 합계를 지정합니다. | 이중 |
 | 방문자 프로필 - 활동 라이프타임 사이트에서 보낸 시간 | 현재 세션을 제외하고 방문자가 사이트에서 보낸 총 시간을 지정하고, 세션이 만료되면 업데이트됩니다. | 더블, 밀리초 |
@@ -99,10 +99,10 @@ The following table shows the data collected by [!UICONTROL Automated Personaliz
 | 방문자 프로필 - 첫 번째 방문 | 사용자가 Target과 상호 작용한 첫 번째 방문 시간을 지정합니다. | 더블, 밀리초 |
 | 방문자 프로필 - 마지막 방문 이후의 시간 | 이 특정 활동에 대한 마지막 방문 이후의 시간을 지정합니다. | 더블(정수 양수만) 1, 2, 3 등 |
 | 방문자 프로필 - 위치/콘텐츠의 노출 횟수 | 특정 활동의 특정 위치/콘텐츠 조합에 대한 노출 횟수를 지정합니다. | 더블(정수 양수만) 1, 2, 3 등 |
-| 방문자 프로필 - 마지막 타겟 상호 작용 | Target과의 마지막 상호 작용 시간을 지정합니다. Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | 더블, 밀리초 |
+| 방문자 프로필 - 마지막 타겟 상호 작용 | Target과의 마지막 상호 작용 시간을 지정합니다. [!DNL Target]의 현재 구현이 각 요청에 대한 프로필을 업데이트하므로 상호 작용은 모든 [!DNL Target] 요청에서 발생합니다. | 더블, 밀리초 |
 | 방문자 프로필 - 활동 전에 본 페이지 수 | 현재 방문/세션을 포함하여 방문자가 활동에 들어갈 때까지의 총 페이지 보기 횟수(노출 횟수)를 지정합니다. | 더블(정수 양수만) 1, 2, 3 등 |
 | 방문자 프로필 - 현재 방문의 페이지 보기 | 방문자가 활동에 들어갈 때까지 현재 방문/세션에 페이지 보기 횟수를 지정합니다. 정확하게 말하면 노출 횟수입니다. 이러한 노출 횟수는 실제 페이지 보기 횟수가 아니라, 요청이 Target에 도달한 횟수입니다. Target은 사용자가 콘텐츠를 받지 못하거나 보지 않은 다른 이유 또는 시간 초과를 구별하지 못합니다. | 더블(정수 양수만) |
-| 방문자 프로필 - 현재 방문 시작 | Target에서 현재 방문/세션이 시작된 시간을 지정합니다. Target에서 방문은 활동을 입력하지 않고 시작할 수 있습니다. All that is required is a call to any [!DNL Target] request. 방문자가 활동을 입력하고 스냅샷을 가져올 때까지 시간이 걸릴 수 있습니다. | 더블, 밀리초 |
+| 방문자 프로필 - 현재 방문 시작 | Target에서 현재 방문/세션이 시작된 시간을 지정합니다. Target에서 방문은 활동을 입력하지 않고 시작할 수 있습니다. 필요한 모든 것은 [!DNL Target] 요청에 대한 호출입니다. 방문자가 활동을 입력하고 스냅샷을 가져올 때까지 시간이 걸릴 수 있습니다. | 더블, 밀리초 |
 | 방문자 프로필 - 최근 방문 시작일 | Target에서 최근 방문/세션이 시작된 시간을 지정합니다. 이 속성은 세션이 만료되면 업데이트됩니다.<br>방문자의 첫 번째 세션인 경우 `LAST_SESSION_START = 0.`이 됩니다. | 더블, 밀리초 |
 | 방문자 프로필 - 처음 활동을 시작할 때 가장 최근 방문한 이후 시간 | 이전 세션과 사용자가 활동을 시작하고 스냅숏이 수행되는 시간 사이의 기간을 지정합니다. | 더블, 밀리초 |
 | 방문자 프로필 - 활동 입력 전 방문 시간 | Target과의 마지막 상호 작용과 현재 방문이 시작된 시간의 차이를 지정합니다. 이 속성은 사용자가 활동을 시작하고 스냅숏이 수행될 때까지 방문/세션 기간으로 간주될 수 있습니다.<br>[!DNL Target]세션 시작 시간과 마지막 업데이트 시간이 동일한 호출에 의해 트리거되면 음수 값이 발생합니다. 음수 값은 0로 간주해야 합니다. | 더블, 밀리초 |
