@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # 권장 사항 키 를 기반으로 권장 사항 만들기
 
-Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+키를 기반으로 하는 Recommendations은 방문자 동작 컨텍스트를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] 활동에 관련 결과를 표시합니다.
 
 권장 사항 유형에는 다음 두 가지가 있습니다.
 
@@ -24,14 +24,14 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 
 각 기준은 자체 탭에 정의됩니다. 트래픽은 여러 기준 테스트에 고르게 분할됩니다. 즉, 두 개의 기준이 있으면 트래픽이 이러한 두 기준 간에 동일하게 분할됩니다. 두 개의 기준과 두 개의 디자인이 있는 경우 트래픽이 네 개의 조합 간에 균일하게 분할됩니다. 또한 비교를 위해 기본 콘텐츠를 보는 사이트 방문자의 비율도 지정할 수 있습니다. 그러한 경우, 지정한 비율의 방문자는 기본 콘텐츠를 보고 나머지 방문자는 기준 및 디자인 조합 간에 분할됩니다.
 
-1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
+1. 새 기준을 만들거나 기존 기준을 선택하고 **[!UICONTROL 편집]**&#x200B;을 클릭합니다.
+1. 권장 사항 키를 변경하려면 [!UICONTROL 권장 사항 키] 드롭다운 목록에서 새 키를 선택한 다음 **[!UICONTROL 저장]** 또는 **[!UICONTROL 업데이트]**&#x200B;를 클릭합니다.
 
    다른 논리가 다른 권장 사항 키에 매핑되므로 다른 권장 사항이 다른 유형의 페이지에 배치될 수 있습니다. 각 권장 사항 키에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 ## 권장 사항 키
 
-권장 사항 키 [!UICONTROL 드롭다운 목록에서 다음] 권장 사항 키를 사용할 수 있습니다.
+다음 권장 사항 키는 [!UICONTROL 권장 사항 키] 드롭다운 목록에서 사용할 수 있습니다.
 
 ### 현재 항목 {#current-item}
 
@@ -72,7 +72,7 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 * 단일 카테고리 페이지입니다.
 * null 검색 결과 페이지는 사용하지 마십시오.
 
-### 사용자 지정 속성 {#custom}
+### 사용자 지정 속성  {#custom}
 
 권장 사항은 방문자 프로필에 저장된 항목에 따라 결정되며, user.*x* 또는 profile.*x* 속성을 사용합니다.
 
@@ -82,7 +82,7 @@ Recommendations based on keys use visitor behavior context to show relevant resu
 
 자신만의 사용자 지정 기준 출력의 맨 위에서 실시간 필터링을 수행할 수 있습니다. 예를 들어, 권장 사항 항목을 방문자가 선호하는 카테고리 또는 브랜드의 항목으로만 제한할 수 있습니다. 이렇게 하면 오프라인 계산을 실시간 필터링과 결합할 수 있습니다.
 
-This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. 이 작업에서는 데이터 과학자 및 연구의 힘을 Adobe의 유효성이 증명된 전달, 런타임 필터링, A/B 테스트, 타깃팅, 보고, 통합 등과 결합합니다.
+이 기능은 [!DNL Target]을(를) 사용하여 오프라인에서 계산된 추천 또는 사용자 지정 선별된 목록 위에 개인화를 추가할 수 있음을 의미합니다. 이 작업에서는 데이터 과학자 및 연구의 힘을 Adobe의 유효성이 증명된 전달, 런타임 필터링, A/B 테스트, 타깃팅, 보고, 통합 등과 결합합니다.
 
 사용자 지정 기준에 포함 규칙을 추가하면 기존의 정적 권장 사항이 방문자의 관심 사항을 기반으로 하는 동적 권장 사항으로 변경됩니다.
 
@@ -172,7 +172,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 홈 페이지, 내 계정 페이지, 오프사이트 광고
 * 제품 페이지 또는 구매와 관련된 페이지에서는 사용하지 마십시오.
 
-### 마지막으로 본 항목 {#last-viewed}
+### 마지막으로 본 항목  {#last-viewed}
 
 고유의 각 방문자가 본 마지막 항목에 의해 권장 사항이 결정됩니다. 이 항목은 자동으로 캡처되므로 페이지에서 어떠한 값도 전달할 필요가 없습니다.
 
@@ -189,7 +189,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 * 홈 페이지, 내 계정 페이지, 오프사이트 광고
 * 제품 페이지 또는 구매와 관련된 페이지에서는 사용하지 마십시오.
 
-### 가장 많이 본 항목 {#most-viewed}
+### 가장 많이 본 항목  {#most-viewed}
 
 즐겨찾는 카테고리에 사용된 것과 동일한 방법을 사용하여, 가장 자주 본 항목에 의해 권장 사항이 결정됩니다.
 
@@ -213,7 +213,7 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * 홈 페이지 또는 랜딩 페이지 및 오프사이트와 같은 일반 페이지.
 
-### 인기도 {#popularity}
+### 인기도  {#popularity}
 
 사이트에서의 항목의 인기도에 의해 권장 사항이 결정됩니다. 인기도에는 최상위 판매자와 mbox 데이터별 가장 많이 본 항목이 포함되며 Adobe Analytics를 사용하는 경우 제품 보고서에서 사용할 수 있는 모든 지표가 포함됩니다. 항목은 선택한 권장 사항 논리에 따라 등급이 매겨집니다.
 
@@ -227,15 +227,15 @@ This functionality means that you can use [!DNL Target] to add personalization o
 
 * 홈 페이지 또는 랜딩 페이지 및 오프사이트와 같은 일반 페이지.
 
-### 최근에 본 항목 {#recently-viewed}
+### 최근에 본 항목  {#recently-viewed}
 
 방문자의 기록(여러 세션)을 사용하여 디자인의 슬롯 수에 따라 방문자가 마지막으로 본 *x*&#x200B;개 항목을 표시합니다.
 
-The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 각 사이트에는 해당 사이트에서 최근에 본 항목만 표시됩니다. 방문자가 동일한 환경에 속한 두 사이트 간에 전환하는 경우 방문자에게 두 사이트에서 최근에 본 동일한 항목이 표시됩니다.
+최근 본 항목 기준은 지정된 [환경](/help/administrating-target/hosts.md)에 해당하는 결과를 반환합니다. 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 각 사이트에는 해당 사이트에서 최근에 본 항목만 표시됩니다. 방문자가 동일한 환경에 속한 두 사이트 간에 전환하는 경우 방문자에게 두 사이트에서 최근에 본 동일한 항목이 표시됩니다.
 
 >[!NOTE]
 >
->You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+>백업 권장 사항에 대해 [!UICONTROL 최근에 본 항목] 기준을 사용할 수 없습니다.
 
 최근에 본 항목/미디어는 특정 속성이 있는 항목만 표시되도록 필터링 할 수 있습니다.
 
@@ -252,13 +252,13 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 >[!NOTE]
 >
->[!UICONTROL 최근에 본 항목은] 활동에 대해 선택한 컬렉션 설정과 글로벌 설정을 모두 따릅니다. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
+>[!UICONTROL 최근에 본 항목] 은 활동에 대해 선택된 컬렉션 설정과 글로벌 설정을 모두 고려합니다. 항목이 글로벌 제외에 의해 제외되거나 선택한 컬렉션에 포함되지 않은 경우 표시되지 않습니다.따라서 [!UICONTROL 최근에 본 항목] 기준을 사용할 때 &quot;모든 컬렉션&quot; 설정이 일반적으로 사용됩니다.
 
 ## 추천 논리
 
 [!DNL Target Recommendations]에서는 정교한 알고리즘을 사용하여 방문자의 작업이 활동에 설정된 기준에 적합한 경우를 판별합니다. 사용 가능한 권장 사항 논리 선택 사항은 권장 사항 키가 판별합니다.
 
-권장 사항 논리  드롭다운 목록에서 다음 권장 사항 논리(기준)를 사용할 수 있습니다.
+다음 권장 사항 논리(기준)는 [!UICONTROL 권장 사항 논리] 드롭다운 목록에서 사용할 수 있습니다.
 
 ### 비슷한 속성을 갖는 항목/미디어 {#similar-attributes}
 
@@ -268,7 +268,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 컨텐츠 유사성을 사용하여 권장 사항을 생성하는 것은 특히 새 항목에 효과적입니다. 이 항목은 본 사람, 본 사람 및 이전 행동을 기반으로 한 기타 논리를 사용하여 권장 사항에 나타나지 않을 가능성이 높습니다. 또한 콘텐츠 유사성을 사용하여 과거 구입 내역 또는 기타 기록 데이터가 없는 새 방문자를 위한 유용한 권장 사항을 생성할 수도 있습니다.
 
-자세한 내용은 [컨텐츠 유사성을 참조하십시오](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+자세한 내용은 [컨텐트 유사성](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)을 참조하십시오.
 
 이 로직은 다음 권장 사항 키와 함께 사용할 수 있습니다.
 
@@ -281,7 +281,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 사이트에서 가장 자주 보는 항목 또는 미디어를 표시합니다.
 
-이 논리를 사용하면 사이트에서 가장 많이 본 항목을 기반으로 권장 사항을 표시하여 다른 항목에 대한 전환을 높일 수 있습니다. 예를 들어, 미디어 사이트는 방문자가 추가 비디오를 보도록 유도하기 위해 가장 많이 본 비디오에 대한 권장 사항을 홈 페이지에 표시할 수 있습니다.
+이 논리를 사용하면 사이트에서 가장 많이 본 항목을 기반으로 권장 사항을 표시하여 다른 항목에 대한 전환을 늘릴 수 있습니다. 예를 들어 미디어 사이트는 방문자가 추가 비디오를 보도록 유도하기 위해 가장 많이 본 비디오에 대한 권장 사항을 홈 페이지에 표시할 수 있습니다.
 
 이 로직은 다음 권장 사항 키와 함께 사용할 수 있습니다.
 
@@ -296,7 +296,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 이 논리는 이 제품을 구입한 후 구매한 다른 제품을 반환합니다.지정한 제품은 결과 세트에 포함되지 않습니다.
 
-이 논리를 사용하면 장바구니 요약 페이지에 다른 구매자도 구매한 항목을 표시하는 권장 사항을 표시하여 크로스셀링 기회를 늘릴 수 있습니다. 예를 들어 방문자가 정장을 구입하는 경우, 권장은 넥타이, 드레스 신발, 커프링크 등 다른 방문자와 함께 구매한 추가 항목을 표시할 수 있습니다. 방문자가 구매를 검토할 때 추가 권장 사항을 제공합니다.
+이 논리를 사용하면 장바구니 요약 페이지에 다른 구매자도 구매한 품목을 표시하는 권장 사항을 표시하여 교차 판매 기회를 높일 수 있습니다. 예를 들어 방문자가 소송을 구입하는 경우, 추천에는 넥타이, 드레스 신발, 커프링크 등 다른 방문자가 양복과 함께 구매한 추가 항목이 표시될 수 있습니다. 방문자가 구입을 검토할 때 추가 권장 사항을 제공합니다.
 
 이 로직은 다음 권장 사항 키와 함께 사용할 수 있습니다.
 
@@ -312,7 +312,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 이 논리는 이 항목을 본 후 구매한 다른 제품을 반환합니다.지정한 제품은 결과 세트에 포함되지 않습니다.
 
-이 논리를 사용하면 제품 페이지에 권장 사항을 표시하여 교차 판매 기회를 늘릴 수 있습니다. 예를 들어, 다른 방문자가 구매한 항목을 본 항목을 표시하는 것입니다. 예를 들어 방문자가 낚싯대를 보고 있는 경우, 권장 사항은 태클 상자, 황새, 낚시 도구와 같이 다른 방문자가 구매한 추가 항목을 표시할 수 있습니다. 방문자가 사이트를 탐색할 때 추가 구매 추천을 제공합니다.
+이 논리를 사용하면 제품 페이지에 권장 사항을 표시하여 교차 판매 기회를 늘릴 수 있습니다. 예를 들어 다른 방문자가 구매한 항목을 본 항목을 표시하는 것입니다. 예를 들어 방문자가 낚싯대를 보고 있는 경우 권장 사항은 태클 상자, 리더 및 낚시 도구와 같이 다른 방문자가 구입한 추가 항목을 표시할 수 있습니다. 방문자가 사이트를 탐색할 때 추가 구매 추천을 제공합니다.
 
 이 로직은 다음 권장 사항 키와 함께 사용할 수 있습니다.
 
@@ -326,9 +326,9 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 지정한 항목을 본 것과 동일한 세션에서 가장 자주 본 항목을 추천합니다.
 
-이 논리는 이 항목을 본 후 본 다른 제품을 반환합니다.지정한 제품은 결과 세트에 포함되지 않습니다.
+이 논리는 이 항목을 본 후에 본 다른 제품을 반환합니다.지정한 제품은 결과 세트에 포함되지 않습니다.
 
-이 논리는 항목을 본 다른 방문자가 열람한 항목을 추천하여 추가 전환 기회를 만들 수 있도록 해줍니다. 예를 들어 사이트에서 도로 자전거를 보는 방문자는 자전거 헬멧과 자전거 키트, 잠금 장치 등을 볼 수 있습니다. 매출을 높이는 데 도움이 되는 다른 제품을 제안하는 이 로직을 사용하여 권장 사항을 만들 수 있습니다.
+이 논리를 사용하면 항목을 본 다른 방문자도 열람한 항목을 추천하여 추가 전환 기회를 만들 수 있습니다. 예를 들어 사이트에서 도로 자전거를 보는 방문자는 자전거 헬멧이나 자전거 키트, 잠금 장치 등을 볼 수 있습니다. 매출을 높이는 데 도움이 되는 다른 제품을 제안하는 이 논리를 사용하여 권장 사항을 만들 수 있습니다.
 
 이 로직은 다음 권장 사항 키와 함께 사용할 수 있습니다.
 
@@ -344,7 +344,7 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 예를 들어 매우 강력한 친화성을 설정하고 디자인에 5개의 항목이 포함되어 있으며 그중 세 개 항목이 연결 임계값의 강도를 충족하는 경우, 최소 강도 요구 사항을 충족하지 않는 두 항목은 권장 사항에 표시되지 않고 정의된 백업 항목으로 교체됩니다. 친화성이 가장 강한 항목부터 표시됩니다.
 
-예를 들어 온라인 소매업체는 이후 방문자가 지난 세션 동안 관심을 보인 항목을 추천할 수 있습니다. 각 방문자의 세션에 대한 활동이 캡처되어 최근 및 빈도 모델에 따라 관련성을 계산합니다. 이 방문자가 사이트를 방문하면 사이트 관련성이 사이트의 이전 작업을 기반으로 권장 사항을 표시하는 데 사용됩니다.
+예를 들어 온라인 소매점은 방문자가 지난 세션 동안 관심을 보인 후속 방문의 항목을 권장할 수 있습니다. 각 방문자의 세션에 대한 활동이 캡처되어 최신성 및 빈도 모델을 기반으로 관련성을 계산합니다. 이 방문자가 사이트를 방문하면 사이트 선호도가 사이트의 이전 작업을 기반으로 권장 사항을 표시하는 데 사용됩니다.
 
 제품 컬렉션과 사이트 행동이 다양한 일부 고객의 경우 사이트 친화성을 낮게 설정하면 더 좋은 결과를 얻을 수도 있습니다.
 
@@ -357,9 +357,9 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 ### 최상위 판매자 {#top-sellers}
 
-가장 완료된 주문에 포함된 품목을 표시합니다. 단일 주문에서 여러 개의 동일한 항목은 하나의 주문으로 계산됩니다.
+가장 완료된 주문에 포함된 항목을 표시합니다. 단일 주문에서 여러 개의 동일한 항목은 하나의 주문으로 계산됩니다.
 
-이 논리를 사용하면 사이트에서 가장 많이 판매하는 항목에 대한 권장 사항을 만들어 전환율과 매출을 높일 수 있습니다. 이 논리는 사이트를 처음 방문하는 방문자에게 특히 적합합니다.
+이 논리를 사용하면 사이트에서 최상위 판매 항목에 대한 권장 사항을 만들어 전환율과 매출을 높일 수 있습니다. 이 논리는 사이트를 처음 방문하는 방문자에게 특히 적합합니다.
 
 이 로직은 다음 권장 사항 키와 함께 사용할 수 있습니다.
 
@@ -368,15 +368,15 @@ The Recently Viewed Items criteria returns results specific to a given [environm
 
 ### 사용자 기반 Recommendations {#user-based}
 
-각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목을 일반적으로 &quot;권장 사항&quot;이라고 합니다.
+각 방문자의 탐색, 보기 및 구매 내역을 기준으로 항목을 권장합니다. 이러한 항목은 일반적으로 &quot;권장 사항&quot;이라고 합니다.
 
-이 기준을 통해 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 권장 사항 목록은 방문자의 최근 활동에 가중치가 적용되며, 세션 중에 업데이트되고 사용자가 사이트를 검색할 때 더욱 개인화됩니다.
+이 기준을 사용하면 신규 방문자와 재방문자 모두에게 개인화된 컨텐츠와 경험을 제공할 수 있습니다. 추천 목록은 방문자의 최근 활동에 가중치가 적용되며 세션 중에 업데이트되고 사용자가 사이트를 탐색할 때 보다 개인화됩니다.
 
 뷰와 구매 모두 권장 항목을 결정하는 데 사용됩니다. 선택한 포함 규칙 필터를 적용하는 데 지정된 권장 사항 키(예: 현재 항목)가 사용됩니다.
 
 예를 들어 다음 작업을 수행할 수 있습니다.
 
-* 특정 기준에 맞지 않는 항목(재고가 없는 제품, 30일 전에 게시된 문서, R 등급 영화 등)을 제외합니다.
+* 특정 기준에 맞지 않는 항목(재고가 없는 제품, 30일 전에 게시된 기사, R 등급 영화 등)을 제외합니다.
 * 포함된 항목을 단일 카테고리 또는 현재 카테고리로 제한합니다.
 
 이 로직은 다음 권장 사항 키와 함께 사용할 수 있습니다.
