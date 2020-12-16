@@ -44,7 +44,7 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
+| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
 | `<label>` | `<p>` |
 
 #### 배경색
@@ -57,7 +57,7 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
 [!UICONTROL 스타일] 패널을 사용하여 선택한 요소의 기존 스타일 값을 보거나 편집할 수 있습니다. 스타일을 추가할 수도 있습니다.
 
-To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+[!UICONTROL 스타일] 패널에 액세스하려면 VEC 내에서 페이지 요소를 클릭한 다음 **[!UICONTROL 편집]** > **[!UICONTROL 스타일]**&#x200B;을 클릭합니다.
 
 [!UICONTROL 스타일] 패널이 VEC 오른쪽에 표시됩니다. 이 패널에는 선택한 요소를 편집하거나 선택한 요소에 추가할 수 있는 스타일 목록이 포함되어 있습니다. CSS(Cascading Style Sheet)를 사용하는 데 익숙하거나 개발자로부터 코드를 받은 경우 실시간 CSS 편집기를 사용하면 변경 사항을 보고 스타일을 추가할 수 있습니다.
 
@@ -114,7 +114,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    여백은 양수 및 음수 값을 지원합니다.
 
-   Target은 rem, pc, em 등의 다른 크기 단위도 지원합니다. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target은 rem, pc, em 등의 다른 크기 단위도 지원합니다. 이러한 장치에 대한 자세한 내용은 [웹 스타일 시트 CSS 팁 및 기법](https://www.w3.org/Style/Examples/007/units.en.html)을 참조하십시오.
 
 * **패딩**
 
@@ -124,7 +124,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    패딩은 폭 조절을 0부터 지원합니다.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   또한 Target은 [기타 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)를 지원합니다(예: rem, pc, em 등).
 
 * **테두리**
 
@@ -138,11 +138,11 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    테두리는 폭 조절을 0부터 지원합니다.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   또한 Target은 [기타 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)를 지원합니다(예: rem, pc, em 등).
 
 * **위치**
 
-   선택한 요소를 해당 현재 위치에서 이동합니다. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   선택한 요소를 해당 현재 위치에서 이동합니다. 요소의 위쪽, 아래쪽, 왼쪽, 오른쪽 및 [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 위치를 변경할 수 있습니다.
 
    [!UICONTROL 정적] 드롭다운 목록을 클릭하여 다음 위치 옵션 중에서 선택합니다.
 
@@ -159,7 +159,7 @@ To access the [!UICONTROL Styles] panel, click a page element from within the VE
 
    위치는 양수 및 음수 값을 지원합니다.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   또한 Target은 [기타 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)를 지원합니다(예: rem, pc, em 등).
 
 * **크기**
 
@@ -316,7 +316,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 **참고:** 인라인 요소의 크기를 조정할 수 없습니다.
 
-#### 이동 {#move}
+#### 이동  {#move}
 
 페이지에서 요소를 이동합니다. [!UICONTROL 재정렬] 옵션과 달리, [!UICONTROL 이동] 기능은 다른 요소를 이동하여 해당 요소가 이동될 공간을 만들지 않습니다. 화살표 키를 사용하여 이동을 미세 조정하십시오. (예정된 개선 사항: 이동된 요소가 다른 요소 뒤에 숨겨지지 않도록 지원됩니다.)
 
