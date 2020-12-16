@@ -26,26 +26,26 @@ ht-degree: 94%
 * [!UICONTROL 개인화 인사이트 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. ] 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
    >
    >
-* [!UICONTROL 개인화 인사이트] 보고서는 보고서 지표 [!UICONTROL 드롭다운 목록에서] 주요 [!UICONTROL 목표를 선택한 경우에만] 사용할수있습니다.
+* [!UICONTROL 개인화 ] 통찰력 보고서는 보고서 지표 드롭다운 목록에서  [!UICONTROL 주요 ] 목표를 선택한 경우에만  [!UICONTROL 사용할 ] 수있습니다.
    >
    >
 * 개인화 통찰력 보고서는 [기본 환경](/help/administrating-target/hosts.md)에서만 지원됩니다.
    >
    >
-* [!UICONTROL 개인화 인사이트] 보고서는 [!UICONTROL 라이브] 상태에 있고 활성화되었으며 최소 15일 동안 트래픽을 받은 활동에 대해서만 생성됩니다.
+* [!UICONTROL 개인화 ] 통찰력 보고서는   최소 15일 동안 활성화되고 트래픽을 받은 라이브 활동에 대해서만 생성됩니다.
 
 
 다른 활동에서 다른 속성은 모델이 개인화를 결정하는 방법에 대해 더 중요하거나 덜 중요합니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
 
 ## 중요 속성 보고서 액세스 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음 목록에서 원하는 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) 활동을 클릭합니다.
 
    활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
 
 1. **[!UICONTROL 보고서를 클릭합니다]**.
 
-   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. 두 개의 추가 아이콘은 두 개의 개인화 인사이트 보고서인 자동화된 세그먼트 및 중요 속성 보고서를 나타냅니다. Auto-Target에는 [!UICONTROL 요약] 보고서의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다.
+   [Automated Personalization 요약](/help/c-reports/reports-ap.md) 또는 [자동 Target 요약](/help/c-reports/auto-target-summary-report.md) 보고서가 표시됩니다. 이 보고서는 첫 번째 화면 아이콘으로 활동의 성과에 대한 정보를 제공합니다. 두 개의 추가 아이콘은 두 개의 개인화 인사이트 보고서인 자동화된 세그먼트 및 중요 속성 보고서를 나타냅니다. Auto-Target에는 [!UICONTROL 요약] 보고서의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다.
 
    ![](assets/personalization_insights.png)
 
