@@ -16,11 +16,11 @@ ht-degree: 69%
 
 경험 타깃팅 및 대상에 대한 FAQ 목록
 
-## Target은 타깃팅에서 URL을 어떻게 평가합니까? {#url}
+## Target은 타깃팅에서 URL을 어떻게 평가합니까?{#url}
 
-Target은 활동을 만들 때 대상 URL 타깃팅을 사용할지 또는 대상을 만들 때 URL 타깃팅을 사용할지 여부에 따라 URL을 다르게 평가합니다.
+Target은 활동을 만들 때 대상자 URL 타깃팅을 사용하는지 또는 대상을 만들 때 URL 타깃팅을 사용하는지에 따라 URL을 다르게 평가합니다.
 
-다음 URL을 고려하십시오.
+다음 URL을 고려합니다.
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
@@ -30,7 +30,7 @@ Target은 활동을 만들 때 대상 URL 타깃팅을 사용할지 또는 대�
 
 ![페이지 배달 URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-대상 URL 타깃팅이 정확한 URL 일치를 찾습니다. URL이 일치하는 경우 Target은 추가 로직을 고려하지 않습니다. 위 URL에서 활동이 실행되도록 설정된 경우 대상 URL 타깃팅이 쿼리 `www.example.com`에 관계없이 URL이 다음 URL에 일치합니다.
+대상 URL 타깃팅은 정확한 URL 일치를 찾습니다. URL이 일치하면 Target에서 추가 로직을 고려하지 않습니다. 위 URL에서 활동이 `www.example.com`에서 실행되도록 설정된 경우 대상 URL 타깃팅이 쿼리에 관계없이 URL이 다음 URL과 일치합니다.
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -40,26 +40,26 @@ URL에 대한 대상 타깃팅을 넘어 쿼리에 사용할 수 있는 특정 �
 
 ### URL 타깃팅
 
-대상을 만드는 동안 URL 타깃팅을 적용하려면 규칙 추가를 클릭하고 사이트 페이지를 클릭하고 첫 번째 드롭다운 목록에서 옵션을 선택합니다(현재 페이지, 이전 페이지 또는 랜딩 페이지). 두 번째 드롭다운 목록에서 URL을 선택하고 원하는 URL 평가자를 지정한 다음 원하는 URL을 지정합니다.
+대상을 만드는 동안 URL 타게팅을 적용하려면 규칙 추가를 클릭하고 사이트 페이지를 클릭하고 첫 번째 드롭다운 목록(현재 페이지, 이전 페이지 또는 랜딩 페이지)에서 옵션을 선택하고 두 번째 드롭다운 목록에서 URL을 선택한 다음 원하는 URL 평가자를 지정합니다.
 
 ![사이트 페이지 > 현재 페이지 > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 URL 타깃팅은 URL을 규칙 세트로 변환하여 다음을 평가합니다.
 
 * URL 도메인 = `example.com`
-* 경로 = path1/path2/path3
+* Path = path1/path2/path3
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## 복잡한 URL 문자열을 만들 때 전체 URL을 [!DNL Target] 평가합니까?
+## 복잡한 URL 문자열을 만들 때 [!DNL Target]은 전체 URL을 평가합니까?
 
-URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하는 경우 HTTP는 첫 번째 매개 변수 이름을 고려하고 동일한 이름의 후속 매개 변수를 무시합니다.
+URL 문자열에 동일한 매개 변수 이름을 두 번 이상 사용하는 경우 HTTP는 첫 번째 매개 변수 이름을 고려하고 동일한 이름의 후속 매개 변수를 무시합니다.
 
 예를 들어 다음 URL 문자열에서
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-매개 변수의 첫 번째 `Category` 인스턴스가 평가되고 두 번째 `Category` 매개 변수는 무시됩니다.
+`Category` 매개 변수의 첫 번째 인스턴스가 평가되고 두 번째 `Category` 매개 변수는 무시됩니다.
 
 아래와 같이 단일 카테고리와 연결된 여러 값이 있는 것이 좋습니다.
 
@@ -75,7 +75,7 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 기본적으로 트래픽은 경험 간에 균등하게 분할됩니다. 그러나 각 경험에 대해 백분율 타겟을 지정할 수도 있습니다. 이런 경우, 무작위 숫자가 생성되고 이 숫자를 사용하여 표시할 경험이 선택됩니다. 결과로 얻은 비율은 지정한 타겟과 정확하게 일치하지 않을 수도 있지만 더 많은 트래픽이 일어나면 경험이 타겟 목표에 더 가깝게 분할되어야 한다는 것을 의미합니다.
 
-## 사용자가 여러 개의 적절한 대상이 있는 여러 경험을 포함하는 활동에 적합한 경우 어느 경험이 표시됩니까? {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## 사용자가 여러 개의 적절한 대상이 있는 여러 경험을 포함하는 활동에 적합한 경우 어느 경험이 표시됩니까?  {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 사용자는 활동의 [!UICONTROL 타겟] 페이지에 표시되는 첫 번째 경험/대상에 대한 자격이 있습니다.
 
@@ -93,7 +93,7 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 일부 Target 대상은 &quot;새 방문자&quot; 및 &quot;재방문자&quot;와 같이 사전에 정의되어 있습니다. 이렇게 사전 정의된 대상은 사용자가 이름을 바꿀 수 없습니다.
 
-## 일부 프로필 매개 변수가 Target 사용자 인터페이스에 표시되지 않는 이유는 무엇입니까? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## 일부 프로필 매개 변수가 Target 사용자 인터페이스에 표시되지 않는 이유는 무엇입니까?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target]의 mbox 호출당 고유한 프로필 속성 제한은 50개입니다. [!DNL Target]에 50개가 넘는 프로필 속성을 전달해야 하는 경우 [!UICONTROL 프로필 업데이트] API 방법을 사용하여 전달할 수 있습니다. 자세한 내용은 Adobe Target API 설명서의 [프로필 업데이트](https://developers.adobetarget.com/api/#authentication-tokens)를 참조하십시오.
 
@@ -101,7 +101,7 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 자동화된 개인화 활동은 세션당 한 번씩 평가됩니다. 특정 경험에 적합한 활성 세션이 있고 이제 여기에 새 오퍼가 추가되었다면, 사용자는 이전에 표시된 오퍼와 함께 새 콘텐츠를 보게 됩니다. 이 사용자는 이전에 이 경험에 대해 자격이 있었으므로 세션 지속 기간 동안 계속 해당 경험을 보게 됩니다. 모든 단일 페이지 방문에서 이 경험을 평가하려는 경우에는 경험 타깃팅(XT) 활동 유형으로 변경해야 합니다.
 
-## API를 통해 생성된 대상의 변경 사항이 Target UI에 반영되지 않는 이유는 무엇입니까? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## API를 통해 생성된 대상의 변경 사항이 Target UI에 반영되지 않는 이유는 무엇입니까?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 오퍼 및 프로필 스크립트와 달리 Target Standard를 통해 작성된 대상에 대해 API에서 변경한 사항은 현재 Target UI에 다시 동기화되지 않습니다.
 
@@ -115,7 +115,7 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 | --- | --- | --- |
 | 1.0 | equals 1 | true |
 | 1 | equalsIgnoreCase 1.0 | true |
-| 1.230 | equals 1 | true |
+| 1.230 | 같음 1 | true |
 | 1.500 | equals 1.5 | true |
 | 1.200 | is less than 2 | true |
 | 2 | is greater than 3.0 | false |
