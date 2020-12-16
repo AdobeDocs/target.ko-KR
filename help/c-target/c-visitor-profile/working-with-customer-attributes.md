@@ -1,26 +1,26 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: Adobe Experience Cloud People 핵심 서비스의 고객 속성을 사용하여 Adobe Target의 컨텐츠 타깃팅을 위해 고객 관계 관리(CRM) 데이터베이스의 기업 고객 데이터를 사용하는 방법에 대한 정보입니다.
+description: Adobe Experience Cloud People 서비스의 고객 속성을 사용하여 Adobe Target의 컨텐츠 타깃팅을 위해 고객 관계 관리(CRM) 데이터베이스의 기업 고객 데이터를 사용하는 방법에 대한 정보입니다.
 title: Adobe Target의 고객 속성
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1488'
 ht-degree: 37%
 
 ---
 
 
-# 고객 속성{#customer-attributes}을 참조하십시오.
+# 고객 속성
 
-[!DNL Adobe Enterprise Cloud People] 핵심 서비스의 고객 특성을 사용하여 [!DNL Adobe Target]의 컨텐츠를 타깃팅하기 위해 CRM(고객 관계 관리) 데이터베이스의 기업 고객 데이터를 사용하는 방법에 대한 정보입니다.
+[!DNL Adobe Enterprise Cloud People] 서비스의 고객 특성을 사용하여 [!DNL Adobe Target]의 컨텐츠 타깃팅을 위해 CRM(Customer Relationship Management) 데이터베이스의 기업 고객 데이터를 사용하는 방법에 대한 정보입니다.
 
-여러 소스를 통해 수집되고 CRM 데이터베이스 내에 저장된 기업 고객 데이터를 [!DNL Target]에서 사용하여 고객에게 가장 연관성이 높은 컨텐츠를 전략적으로 제공할 수 있으며, 특히 재방문 고객을 집중적으로 파악할 수 있습니다. [!DNL People] 핵심 서비스(이전 프로필 및 대상)의 대상 및 고객 속성은 테스트 및 최적화와 함께 데이터 수집 및 분석을 가져와서 데이터 및 통찰력을 실행 가능하게 합니다.
+여러 소스를 통해 수집되고 CRM 데이터베이스 내에 저장된 기업 고객 데이터를 [!DNL Target]에서 사용하여 고객에게 가장 연관성이 높은 컨텐츠를 전략적으로 제공할 수 있으며, 특히 재방문 고객을 집중적으로 파악할 수 있습니다. [!DNL People] 서비스(이전 프로필 및 대상)의 대상 및 고객 속성은 테스트 및 최적화와 함께 데이터 수집 및 분석을 가져와서 데이터 및 통찰력을 실행 가능하게 합니다.
 
 ## 고객 속성 개요 {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) 핵심  [!DNL People] 서비스의 고객  [!DNL Adobe Experience Cloud] 속성은 [!DNL Experience Cloud] 의 일부이며 기업에 고객 데이터를 플랫폼에 전달하는 도구를제공합니다.
+[서비스](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) 의 고객  [!DNL People] 속성은 해당 제품 [!DNL Adobe Experience Cloud] 의 일부이며 기업에 고객 데이터를 플랫폼에 전달하는 도구를  [!DNL Experience Cloud] 제공합니다.
 
 [!DNL Experience Cloud]로 온보딩되는 데이터는 모든 [!DNL Experience Cloud] 워크플로우에 사용할 수 있습니다. [!DNL Target] 특성을 기반으로 돌아온 고객을 타깃팅하기 위해 이 데이터를 사용합니다. [!DNL Adobe Analytics]는 이러한 속성을 사용하며, 분석 및 세그멘테이션에 사용될 수 있습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 37%
 
 다음 정보를 고객 속성 및 [!DNL Target] 작업을 통해 고려합니다.
 
-* [!DNL People] 핵심 서비스에서 [!UICONTROL 고객 속성] 기능을 사용하려면 먼저 충족해야 하는 몇 가지 사전 요구 사항이 있습니다. 자세한 내용은 *Experience Cloud 및 핵심 서비스 제품 설명서의*&#x200B;고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)에서 &quot;고객 속성을 업로드하기 위한 사전 요구 사항&quot;을 참조하십시오.[
+* [!DNL People] 서비스에서 [!UICONTROL 고객 속성] 기능을 사용하려면 먼저 충족해야 하는 몇 가지 전제 조건 요구 사항이 있습니다. 자세한 내용은 *Experience Cloud 서비스 및 관리 설명서*&#x200B;의 [고객 속성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0)에서 &quot;고객 속성을 업로드하기 위한 사전 요구 사항&quot;을 참조하십시오.
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ ht-degree: 37%
 
 * `mbox3rdPartyID`에서 더하기 기호(+)와 슬래시(/)는 보낼 수 없습니다.
 
-## 사람 핵심 서비스에서 고객 속성에 액세스
+## 사람 서비스에서 고객 속성에 액세스
 
 1. [!DNL Adobe Experience Cloud]에서 메뉴 아이콘( ![메뉴 아이콘](/help/c-target/c-visitor-profile/assets/menu-icon.png))을 클릭한 다음 **[!UICONTROL 사람]**&#x200B;을 클릭합니다.
 
@@ -58,7 +58,7 @@ ht-degree: 37%
 
 ![crm 워크플로우](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-다음 각 작업을 완료하기 위한 자세한 지침은 [고객 속성 소스 만들기 및 *Experience Cloud 및 핵심 서비스 제품 문서*&#x200B;의 데이터 파일](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)에 있습니다.
+다음 각 작업을 완료하기 위한 자세한 지침은 [고객 속성 소스 만들기 및 *Experience Cloud 서비스 및 관리 설명서*&#x200B;의 데이터 파일](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)에 있습니다.
 
 1. 데이터 파일 만들기.
 
@@ -145,7 +145,7 @@ Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속�
 
 [!DNL Target]에서 고객 속성을 사용하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-* [고객 속성 소스를 만들고 ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloud 제품 문서에서 데이터  *파일을 업로드합니다.*
+* [고객 속성 소스를 만들고 ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) Experience Cloud 서비스 및 관리 문서 *에서 데이터 파일을 업로드합니다.*
 *  *디지털 마케팅 블로그*&#x200B;의 [Customer Attributes: The More You Know, The Better You Connect(고객 속성: 더 많이 알수록 더 쉬워지는 연결)](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 고객이 자주 발생하는 문제 {#section_BE0F70E563F64294B17087DE2BC1E74C}
