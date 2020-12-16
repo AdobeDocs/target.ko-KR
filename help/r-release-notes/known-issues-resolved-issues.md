@@ -14,7 +14,7 @@ ht-degree: 70%
 
 # 알려진 문제 및 해결된 문제
 
-알려진 문제에 대한 정보입니다 [!DNL Adobe Target]. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
+[!DNL Adobe Target]의 알려진 문제에 대한 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
 
 >[!NOTE]
 >
@@ -26,9 +26,9 @@ ht-degree: 70%
 
 ### 자동 할당 및 자동 Target 활동에 대한 Target(A4T) 지표 분석
 
-현재 알려진 문제는 [!DNL Target] UI에서 사용자가 자동 할당 및 [!UICONTROL 자동 Target] 활동에서 최적화를 위한 기본 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있도록 해주는 [!UICONTROL 것입니다] . 전환 지표가 지원됩니다.참여 및 매출 지표는 지원되지 *않습니다* . 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 빌드되지 않습니다(현재 [!DNL Target] UI에서 지원되지 않는 목표 지표를 선택할 수 있더라도).
+현재 알려진 문제가 [!DNL Target] UI에 있습니다. 이 문제로 인해 사용자는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동에서 최적화를 위한 기본 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있습니다. 전환 지표가 지원됩니다.참여 및 매출 지표는 *지원되지 않음*&#x200B;입니다. 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 구축되지 않습니다(현재 [!DNL Target] UI에서 지원되지 않는 목표 지표를 선택할 수 있지만).
 
-지원 및 지원되지 않는 목표 지표의 목록은 Analytics를 보고 소스로 사용하는 활동 [만들기에서 지원되는 목표 지표](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 를 참조하십시오 **. (TNT-38409)
+지원되는 및 지원되지 않는 목표 지표의 목록은 *Analytics를 보고 소스*&#x200B;로 사용하는 활동 만들기[지원되는 목표 지표](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)를 참조하십시오. (TNT-38409)
 
 ### 페이지 게재 {#page-delivery}
 
@@ -73,7 +73,7 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 * API를 통해 생성된 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다. (TGT-35777)
 * API를 통해 생성된 Recommendations 활동은 사용자 인터페이스에서 볼 수 있지만 API를 통해서만 편집할 수 있습니다.
 * 기준 목록(카드) 보기에 표시된 사용자 지정 기준 피드 상태는 10분마다 새로 고침되며 특수한 상황에서 10분 이상 걸릴 수 있습니다. 사용자 지정 기준 편집 보기에 표시된 상태를 실시간으로 가져오며 상태는 항상 최신입니다. (TGT-35896, TGT-36173)
-* 기준 및 디자인 카드에는 사용 중인 활동의 수가 올바로 표시되지 않습니다. A/B 활동에서 기준이나 디자인을 사용하는 경우, 활동에 디자인이나 기준을 사용하더라도 디자인이 사용되지 않음을 카드에서 잘못 보여줄 수 있습니다. (TGT-36621, TGT-37217)
+* 기준 및 디자인 카드는 사용 중인 활동의 수를 정확하게 표시하지 않습니다. A/B 활동에서 기준이나 디자인을 사용하는 경우 활동에서 디자인 또는 기준을 사용하더라도 카드에는 디자인 또는 기준이 사용되지 않음을 잘못 보여줄 수 있습니다. (TGT-36621, TGT-37217)
 
 ### MVT(다변량 테스트) 활동
 
@@ -113,23 +113,23 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 ### Analytics for Target (A4T)
 
-Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표에 &quot;동일한 터치&quot; Attribution IQ 모델을 적용하여 정확한 카운트를 확인하십시오. 기본이 [아닌 속성 모델을](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)적용하려면 지표를 마우스 오른쪽 단추로 클릭하여 열 설정 > 기본이 아닌 속성 모델 사용 **설정 > 동일한 터치 모델**&#x200B;선택 이 모델이 적용되지 않으면 지표가 부풀려집니다.
+Analysis Workspace에서 Target 활동 노출 횟수 및 전환을 사용할 때 지표에 &quot;동일한 터치&quot; Attribution IQ 모델을 적용하여 정확한 카운트를 확인하십시오. [기본이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)을 적용하려면 지표를 **열 설정 수정 > 기본이 아닌 속성 모델 사용 활성화 > 동일한 터치 모델**&#x200B;에 마우스 오른쪽 단추로 클릭합니다. 이 모델이 적용되지 않으면 지표가 부풀려집니다.
 
-현재 모든 Analytics 패키지에는 Attribution IQ에 이 모델을 추가할 수 있습니다. Attribution IQ에 액세스할 수 없는 경우 보고 및 분석의 A4T 데이터를 사용하십시오.
+현재 모든 Analytics 패키지에는 Attribution IQ으로 이 모델을 추가할 수 있습니다. Attribution IQ에 대한 액세스 권한이 없는 경우 보고 및 분석의 A4T 데이터를 사용하십시오.
 
 ### Target API
 
 고객은 Adobe I/O에서 A/B 활동 API의 v3 버전을 통해 자동 할당 활동에 대한 CRUD 작업을 수행할 수 없습니다.
 
-### GEO 타깃팅
+### 지역 타깃팅
 
-2020년 5월 10일에 GEO 공급자 파일이 업데이트되었으며, 이러한 파일이 일치하지 않습니다. 예를 들어 쉼표를 포함하는 일부 값이 추가되었습니다.하지만 기존 대상의 값은 쉼표가 없습니다. 이 변경 사항으로 인해 모든 배달 서버가 영향을 받지 않았습니다. 따라서 이러한 값을 사용하는 대상이 2020년 5월 10일부터 7월 22일 사이에 올바른 방문자를 모두 적격한 것이 아닐 수 있습니다.
+2020년 5월 10일에 GEO 공급자 파일이 업데이트되어 일부 불일치가 발생했습니다. 예를 들어 쉼표를 포함하는 일부 값이 추가되었습니다.그러나 기존 대상의 값에 쉼표가 없습니다. 이 변경 사항으로 인해 배달 서버 중 일부가 영향을 받는 것은 아닙니다. 따라서 이러한 값을 사용하는 대상이 2020년 5월 10일부터 7월 22일 사이에 올바른 방문자를 모두 적격하지 않았을 수 있습니다.
 
-### 보고 - 다운로드 가능한 .csv 보고서와 Target UI에 표시된 보고서의 데이터가 일치하지 않습니다. {#csv}
+### 보고 - 다운로드 가능한 .csv 보고서에 있는 데이터와 Target UI에 표시된 보고서에 대한 데이터가 일치하지 않습니다. {#csv}
 
-활동에 둘 이상의 지표가 사용되는 경우 .csv 파일로 다운로드하기 위해 생성된 보고서가 일치하지 않습니다. 다운로드 가능한 보고서는 보고서 설정만을 기반으로 생성되며 사용된 다른 지표에 대해 동일한 값을 고려합니다.
+활동에 둘 이상의 지표를 사용하는 경우 .csv 파일로 다운로드하기 위해 생성된 보고서가 일치하지 않습니다. 다운로드 가능한 보고서는 보고서 설정만을 기반으로 생성되며 사용된 다른 지표에 대해 동일한 값을 고려합니다.
 
-진실의 근원은 항상 [!DNL Target] UI에 표시되는 보고서입니다.
+진실의 소스는 항상 [!DNL Target] UI에 표시되는 보고서입니다.
 
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
@@ -137,7 +137,7 @@ Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표
 
 ### &quot;처리&quot; 레이블을 표시하는 이미지 오퍼
 
-오퍼 페이지의 이미지 오퍼에는 이미지가 업로드된 후 몇 시간 동안 &quot;처리&quot; 레이블이 유지되는 경우가 있습니다. 대부분의 경우 레이블에만 문제가 발생합니다.이미지 오퍼는 여전히 활동에 사용할 수 있으며 배달됩니다. (MCUI-10264, TGT-37458)
+오퍼 페이지의 이미지 오퍼는 이미지가 업로드된 후 몇 시간 동안 &quot;처리&quot; 레이블을 유지할 수 있습니다. 대부분의 경우 레이블에만 문제가 발생합니다.이미지 오퍼는 여전히 활동에 사용할 수 있으며 배달됩니다. (MCUI-10264, TGT-37458)
 
 이 문제는 Target Standard/Premium 20.10.1 릴리스에서 해결되었습니다.
 
@@ -145,18 +145,18 @@ Analysis Workspace에서 Target 활동 노출 및 전환을 사용할 때 지표
 
 A4T와 관련된 다음 문제가 해결되었습니다.
 
-* A4T 보고서에 예상치 않은 트래픽 분할 또는 인위적으로 부풀려진 전환을 표시하는 [!DNL Analytics] 목표 지표를 사용한 A4T 활동에 영향을 주는 문제
+* A4T 보고서에 예기치 않은 트래픽 분할이나 인위적으로 부풀려진 전환을 표시하는 원인이 되었던 [!DNL Analytics] 목표 지표를 사용한 A4T 활동에 영향을 준 문제
 
    이 문제는 다음 조건에서 A4T 보고에 영향을 주었습니다.
 
-   * 이 활동은 2020년 9월 15일부터 11월 5일(오전 4시 PST) 사이에 생성되거나 저장되었습니다.
-   * 활동에 목표 지표로 선택된 [!DNL Analytics] 지표가 있었습니다.
+   * 2020년 9월 15일부터 11월 5일(오전 4시) 사이에 활동이 생성되거나 저장되었습니다.
+   * 활동에 목표 지표로 선택된 [!DNL Analytics] 지표가 있습니다.
 
-   [!DNL Target] 이 시간 동안 트래픽을 올바르게 분할할 수 있습니다. 하지만 활동 설정에서 50/50 분할이 예를 들어 A4T 보고서에서 90/10 분할로 나타날 수 있습니다.
+   [!DNL Target] 이 시간 동안 트래픽을 올바르게 분할할 수 있습니다. 하지만 활동 설정에서 50/50의 분할이 예를 들어 A4T 보고서에서 90/10 분할로 나타날 수 있습니다.
 
-   영향을 받은 활동의 경우, 올바른 트래픽 분할은 11월 5일(오전 4시) 이후 활동에 처음 방문하는 사람에게 표시됩니다. 이 시간 이후에 만들거나 저장한 새 활동은 트래픽 분할을 올바르게 보고합니다.
+   영향을 받는 활동의 경우 11월 5일(오전 4시) 이후 활동에 처음 방문하는 사람에게 올바른 트래픽 분할이 표시됩니다. 이 시간 이후에 만들거나 저장한 새 활동은 트래픽 분할을 올바르게 보고합니다.
 
-* A4T 보고서가 낮은 전환율을 보고하거나 포함하지 않는 [!DNL Target] 목표 지표를 사용하여 A4T 활동에 영향을 준 문제
+* A4T 보고서가 낮은 전환율 또는 아무 전환도 보고하지 않게 하는 [!DNL Target] 목표 지표를 사용하는 A4T 활동에 영향을 준 문제.
 
    >[!NOTE]
    >
@@ -164,49 +164,49 @@ A4T와 관련된 다음 문제가 해결되었습니다.
 
    이 문제는 다음 조건에서 A4T 보고에 영향을 주었습니다.
 
-   * A4T 활동은 2020년 9월 22일부터 11월 11일(오후 2시 30분 PST) 사이에 라이브되었습니다.
-   * 활동에 목표 지표로 선택된 [!DNL Target] 지표가 있습니다.
-   * 방문자가 활동에 대한 목표 이벤트를 히트했을 때(예: 요소를 [!UICONTROL 클릭함]) 전환 이벤트와 일치하는 낮은 우선 순위가 A4T가 아닌 활동이 있었습니다. A4T 활동이 A4T 활동과 동일한 지표로 구성되었거나 &quot;임의의 mbox&quot; 지표로 구성된 경우 이 문제가 발생할 수 있습니다.
+   * A4T 활동은 2020년 9월 22일부터 11월 11일(오후 2시 30분) 사이에 라이브되었습니다.
+   * 활동에는 목표 지표로 선택된 [!DNL Target] 지표가 있습니다.
+   * 방문자가 활동(예:[!UICONTROL 요소])를 클릭한 경우 전환 이벤트와 일치하는 A4T가 아닌 활동이 우선순위가 낮았습니다. A4T 활동이 A4T 활동과 동일한 지표로 구성되었거나 &quot;임의의 mbox&quot; 지표로 구성된 경우 이 문제가 발생할 수 있습니다.
 
-   이 문제는 2020년 9월 22일부터 11월 11일(오후 2시 30분 PST) 사이의 A4T 활동에 대한 보고에 영향을 주었습니다. 영향을 받은 A4T 활동에 대한 보고는 이 날짜 범위를 벗어나는 전환을 올바르게 표시합니다. A4T 이외의 활동에 대한 보고는 영향을 받지 않았습니다.
+   이 문제는 2020년 9월 22일부터 11월 11일(오후 2시 30분 PST) 사이에 있었던 A4T 활동에 대한 보고에 영향을 주었습니다. 영향을 받은 A4T 활동에 대한 보고는 이 날짜 범위를 벗어나는 전환을 올바르게 표시합니다. A4T가 아닌 활동에 대한 보고는 영향을 받지 않았습니다.
 
-추가 질문이 있는 경우 고객 성공 관리자(CSM) 또는 [Adobe 고객 지원 센터에 문의하십시오](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). (CSO 20201110016)
+추가 질문 사항이 있는 경우 고객 성공 관리자(CSM) 또는 [Adobe 고객 지원 센터](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오. (CSO 20201110016)
 
 ### 자동 Target 보고 {#at-metrics}
 
-9월 15일, 오후 2:30부터 [!DNL Adobe Target Premium] 사용자의 [!UICONTROL 자동 Target] 보고에 영향을 주는 문제가 해결되었습니다.(PDT) - 10월 6일 오전 9시 25분(PDT). 영향을 받은 전환 지표에 대한 보고서를 볼 때(&quot;페이지를[!UICONTROL 보았습니다]&quot; 또는 &quot;mbox에서[!UICONTROL 클릭함]&quot; 옵션을 사용하여 구성됨) 전환율이 잘못 보고됩니다. 현재 알려진 배달 문제가 없습니다.
+9월 15일 오후 2:30부터 [!DNL Adobe Target Premium] 사용자의 [!UICONTROL 자동 Target]에 영향을 주는 문제가 해결되었습니다.(PDT) - 10월 6일 오전 9시 25분(PDT). 영향을 받은 전환 지표에 대한 보고서를 볼 때(&quot;[!UICONTROL 페이지] 보기&quot; 또는 &quot;[!UICONTROL mbox]&quot; 옵션을 클릭함) 전환율이 잘못 보고됩니다. 현재 알려진 배달 문제가 없습니다.
 
-보고서를 다시 동기화하고 수정하려면:
+보고를 다시 동기화하고 수정하려면:
 
-1. 영향을 받은 [!UICONTROL 자동 Target 활동을 복사하고] 저장합니다.
-1. 새로 저장한 활동을 활성화합니다(영향을 받은 활동이 라이브된 경우).
-1. 원본(영향을 받은) 활동을 삭제합니다.
+1. 영향을 받은 [!UICONTROL 자동 Target] 활동을 복사하고 저장합니다.
+1. 새로 저장한 활동을 활성화합니다(영향을 받는 활동이 라이브된 경우).
+1. 원본(영향을 받는) 활동을 삭제합니다.
 
 (TGT-38522, CSO 20201006007)
 
 ### 보고 {#conversions-audiences}
 
-현재 전환은 사용된 고객에 따라 다르게 증가합니다.
+현재 전환은 사용된 고객을 기준으로 다르게 증가합니다.
 
-예를 들어 동일한 방문자의 경우 전환 카운트가 &quot;참가자당 한 번:&quot;을 증가하도록 설정된 경우
+예를 들어 동일한 방문자에 대해 전환 카운트가 &quot;참가자당 한 번:&quot;이라는 증가하도록 설정되어 있는 경우
 
-* 대상:방문 수준 전환에 대한 &quot;모든 적격한 방문자&quot;는 한 번만 증가합니다. 이는 예상 행동입니다.
+* 대상:방문 수준 전환에 대한 &quot;모든 적격한 방문자&quot;는 한 번만 증가합니다. 이는 예상되는 동작입니다.
 * 대상:방문 수준 전환에 대한 &quot;새 방문자&quot;는 한 번만 증가시키지 않고 매번 잘못 증가합니다. 이는 예상 동작이 아닙니다.
 
-전환 카운트가 &quot;모든 노출 시:&quot;로 증가하도록 설정된 경우
+전환 카운트가 &quot;모든 노출 시:&quot;를 증가하도록 설정된 경우
 
 * 대상:방문자 수준 전환에 대한 &quot;모든 적격한 방문자&quot;는 매번 증가하지 않고 한 번만 잘못 증가시킵니다. 이는 예상 동작이 아닙니다.
-* 대상:방문자 수준 전환을 위한 &quot;새 방문자&quot;가 매번 증가합니다. 이는 예상 행동입니다.
+* 대상:방문자 수준 전환을 위한 &quot;새 방문자&quot;는 매번 증가합니다. 이는 예상되는 동작입니다.
 
-이 문제는 [!DNL Target] 보고에만 관련되어 있습니다. Target [!UICONTROL (A4T) 보고를 위해] Analytics를 사용할 때는 문제가 되지 않습니다.
+이 문제는 [!DNL Target] 보고에만 관련되어 있습니다. Target](A4T) 보고에 [!UICONTROL Analytics를 사용할 때는 문제가 되지 않습니다.
 
 이 문제가 해결되었습니다.
 
-### Google Chrome 버전 80+를 사용할 때 VEC(Visual Experience Composer) 또는 EEC(Enhanced Experience Composer)에서 페이지가 로드되지 않음
+### Google Chrome 버전 80+을 사용할 때 VEC(Visual Experience Composer) 또는 EEC(Enhanced Experience Composer)에서 로드되지 않는 페이지
 
-이 알려진 문제는 Chrome 버전 80부터 시작되는 SameSite 특성 없이 쿠키의 기본 동작을 변경하는 Google의 결정과 관련이 있습니다. 크롬을 변경하기 전에 SameSite 특성이 &quot;SameSite=None&quot;으로 설정된 모든 쿠키의 기본값은 &quot;SameSite=Lax&quot;로 설정되었으며, 이렇게 하면 쿠키가 GET 및 POST 요청에 전송되는 방식이 변경됩니다. SameSite [Updates를 참조하십시오](https://www.chromium.org/updates/same-site).
+이 알려진 문제는 Chrome 버전 80부터 SameSite 특성 없이 쿠키의 기본 동작을 변경하는 Google의 결정과 관련이 있습니다. 크롬을 변경하기 전에 SameSite 특성이 &quot;SameSite=None&quot;으로 설정된 모든 쿠키의 기본값이 변경되었으며, 이제 이 쿠키는 &quot;SameSite=Lax&quot;로 기본값이 지정되며, 이렇게 하면 GET 및 POST 요청에 쿠키가 전송되는 방식이 변경됩니다. [SameSite 업데이트](https://www.chromium.org/updates/same-site)를 참조하십시오.
 
-자세한 내용 및 수정 사항은 &quot;최근에 발표된 Google Chrome SameSite 쿠키 실행 정책이 VEC 및 EEC에 어떤 영향을 줍니까?&quot;를 참조하십시오. in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+자세한 내용 및 수정 사항은 &quot;최근에 발표된 Google Chrome SameSite 쿠키 실행 정책이 VEC 및 EEC에 미치는 영향은 무엇입니까?&quot;를 참조하십시오. in [Visual Experience Composer 및 향상된 Experience Composer와 관련된 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)에 있습니다.
 
 ### 사용자 지정 경험을 제어로 사용할 때 자동 타겟 활동에 대한 그래프 보고서가 렌더링되지 않습니다.
 
@@ -222,7 +222,7 @@ mbox.js 라이브러리는 Handlebars 및 Mustache와 같은 클라이언트 측
 
 ### 구현: 글로벌 Mbox를 자동으로 만들기
 
-On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
+구현 탭([!UICONTROL 관리 > 구현])에서 새로 제공된 테넌트에 대해 기본적으로 [!UICONTROL 전역 mbox 자동 만들기] 필드는 &quot;false&quot;입니다.
 
 프로비저닝 후 처음으로 mbox.js가 다운로드되면 다운로드된 mbox.js 파일 및 [!UICONTROL  백엔드에서 ]글로벌 Mbox를 자동으로 만들기[!DNL Target] 필드가 &quot;true&quot;로 설정되지만, UI의 [!UICONTROL 구현] 페이지에는 페이지를 새로 고칠 때까지 계속 &quot;false&quot;로 표시됩니다(페이지를 새로 고친 후 상태는 &quot;true&quot;로 표시됨).
 
@@ -234,17 +234,17 @@ GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러
 
 ### 보고 및 예외적인 주문
 
-2019년 11월 25일부터 2020년 4월 26일까지, 한 Target 서버에서 매출 기반 보고서 지표(AOV, RPV)에서 예외적인 주문 값을 계산하는 문제를 경험했습니다. 2019년 12월 19일부터 2020년 4월 23일까지 다른 서버에서 동일한 문제가 발생했습니다. 이 문제는 모든 Target 서버 또는 모든 Target 고객에게 영향을 주지 않았습니다.
+2019년 11월 25일부터 2020년 4월 26일까지, 한 Target 서버에서 매출 기반 보고서 지표(AOV, RPV)에 예외적인 주문 값이 카운트되는 문제를 경험했습니다. 2019년 12월 19일부터 2020년 4월 23일까지 다른 서버에서 동일한 문제가 발생했습니다. 이 문제는 모든 Target 서버 또는 모든 Target 고객에게 영향을 주지 않았습니다.
 
-다음의 경우 *영향을 받지* 않았습니다.
+다음의 경우 *에 영향을 받지 않았습니다.*
 
 * Target 구현에서 서로 다른 서버를 사용합니다.
 * 보고서에서 예외적인 주문을 제외하지 않았습니다.
 * 전환 지표를 사용하여 활동을 측정했습니다.
-* Target 활동에서는 Target(A4T)에 Analytics를 사용합니다.
+* Target 활동에서는 Target(A4T)에 대해 Analytics를 사용합니다.
 * APAC 지역에 있습니다.
 
-이 문제가 Target 보고에 영향을 미치는지 확인하려면 [클라이언트 지원팀에 문의하십시오](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+이 문제가 Target 보고에 영향을 미치는지 확인하려면 [클라이언트 지원](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)에 문의하십시오.
 
 ### Recommendations
 
