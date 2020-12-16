@@ -14,7 +14,7 @@ ht-degree: 68%
 
 # 보고서 설정{#report-settings}
 
-Information to help you set the elements you want to appear in your report in [!DNL Adobe Target]. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
+[!DNL Adobe Target]의 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 
 보고서를 표시하려면 다음을 수행하십시오.
 
@@ -25,7 +25,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ## Target 사전 설정 {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
-이제 개별 활동의 보고서를 원하는 대로 구성한 후(지표, 날짜 범위, 대상, 고급 설정 등) 그러한 보고서의 여러 사전 설정을 최대 10개까지 저장할 수 있습니다. All [!DNL Target] users can display, edit, and delete the various presets, regardless of who created them.
+이제 개별 활동의 보고서를 원하는 대로 구성한 후(지표, 날짜 범위, 대상, 고급 설정 등) 그러한 보고서의 여러 사전 설정을 최대 10개까지 저장할 수 있습니다. 모든 [!DNL Target] 사용자는 다양한 사전 설정을 만든 사람에 관계없이 표시, 편집 및 삭제할 수 있습니다.
 
 개별 활동의 보고서를 원하는 대로 구성한 다음 해당 구성을 기본/즐겨 찾는 사전 설정으로 저장할 수도 있습니다. 해당 활동 보고서를 볼 때마다 표시되는 보기입니다.
 
@@ -43,8 +43,8 @@ Information to help you set the elements you want to appear in your report in [!
 
    ![새 사전 설정 대화 상자](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
-1. Review the information in the **[!UICONTROL Filters]** and **[!UICONTROL Settings]** sections to ensure that the report is configured as desired, then specify the **[!UICONTROL Preset Name]** (up to 50 characters).
-1. (Conditional) If you want this to be your default/favorite report view, slide the **[!UICONTROL Set as default preset]** toggle to the On position.
+1. **[!UICONTROL 필터]** 및 **[!UICONTROL 설정]** 섹션의 정보를 검토하여 보고서가 원하는 대로 구성되어 있는지 확인한 다음 **[!UICONTROL 사전 설정 이름]**(최대 50자)을 지정합니다.
+1. (조건부) 이 보고서를 기본/즐겨찾기 보고서 보기로 만들려면 **[!UICONTROL 기본 사전 설정으로 설정]** 을 켜기 위치로 끕니다.
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 ### 다른 사전 설정 선택
@@ -77,7 +77,7 @@ Information to help you set the elements you want to appear in your report in [!
 
    ![보고서 기본값 삭제](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. 삭제를 **[!UICONTROL 다시]** 클릭하여 삭제를 확인합니다(삭제된 사전 설정은 복구할 수 없음).
+1. **[!UICONTROL 삭제]**&#x200B;를 다시 클릭하여 삭제를 확인합니다(삭제된 사전 설정은 복구할 수 없음).
 
 ### 사전 설정 오류 처리
 
@@ -89,7 +89,7 @@ Information to help you set the elements you want to appear in your report in [!
 * 하나 이상의 지표가 삭제되었지만 사전 설정된 정의에서 참조됩니다. 예를 들어, 활동에서 하나 이상의 지표를 삭제한 다음 지표를 새로 추가할 수 있습니다.
 * 하나 이상의 호스트 그룹(환경)이 존재하지 않지만 사전 설정된 정의에서 참조됩니다.
 * 사전 설정이 작성된 후에 하나 이상의 경험이 삭제되었지만 사전 설정된 정의에서 참조됩니다.
-* 참조된 엔티티가 있지만 사전 설정 정의가 의미상 변경되는 방식으로 업데이트되었으므로 사전 설정이 의미상 잘못되었습니다. 예를 들어 처음에 &quot;Revenue on Chrome&quot;이라는 사전 설정된 이름을 만들었다고 가정해 보겠습니다. 나중에 활동을 업데이트하여 수입 대신 전환 지표를 측정합니다. 활동 정의에 대한 이 업데이트는 사전 설정 정의를 의미상으로 무효화합니다.
+* 참조된 엔티티가 있지만 사전 설정 정의가 의미상 변경되는 방식으로 업데이트되었으므로 사전 설정이 의미상 잘못되었습니다. 예를 들어 처음에 &quot;Revenue on Chrome&quot;이라는 사전 설정된 이름을 만들었다고 가정해 보겠습니다. 나중에 활동을 업데이트하여 수입 대신 전환 지표를 측정합니다. 활동 정의에 대한 이 업데이트는 사전 설정 정의를 의미있게 무효화합니다.
 
 ## 보고서 지표 {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -111,14 +111,14 @@ Information to help you set the elements you want to appear in your report in [!
 
 ![달력](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-보고서에 대한 새로운 **[!UICONTROL 시작]** 및 **[!UICONTROL 종료]** 날짜를 선택하십시오. You can also use the **[!UICONTROL From start of Activity]** and **[!UICONTROL Till end of Activity]** check boxes.
+보고서에 대한 새로운 **[!UICONTROL 시작]** 및 **[!UICONTROL 종료]** 날짜를 선택하십시오. **[!UICONTROL 활동 시작]** 및 **[!UICONTROL 활동 종료 시까지]** 확인란을 사용할 수도 있습니다.
 
 **[!UICONTROL 사용자 지정 날짜]**&#x200B;를 클릭하여 사전 정의된 날짜 범위인 최근 7일, 최근 15일 또는 최근 30일을 선택합니다. 이러한 사전 정의된 날짜 범위는 순환 범위입니다. 시작 날짜가 선택한 일 수보다 작은 경우, 달력에 시작 날짜부터 범위가 표시되지만, 시작 날짜가 활동 기간이 늘어날 때 선택한 일 수보다 오래되면 롤링됩니다.
 
 보고서 날짜는 다음과 같이 제한됩니다.
 
 * 보고서의 시작 날짜는 지난 2년 이내여야 합니다.
-* 오퍼 그룹 보고서는 현재 날짜로부터 99일로 제한됩니다.
+* 오퍼 그룹 보고서는 오늘부터 99일로 제한됩니다.
 * 시간별 보고서는 15일로 제한됩니다.
 
 ## 설정{#section_D99CE462107D45CABE0960F820E1E972}의 지침을 완료하여 이 설정을 변경할 수 있습니다 
@@ -144,7 +144,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 제어
 
-리프트 계산 및 비교할 때 사용할 제어 경험을 선택합니다.
+리프트 계산 및 비교 시 사용할 제어 경험을 선택합니다.
 
 ### 환경
 
@@ -152,7 +152,7 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 보고 데이터 재설정
 
-보고 데이터를 재설정하여 이전 데이터를 제거합니다. 현재 방문자는 활동에 남아 있습니다.  This option is available only for those with [!UICONTROL Approver] permissions.
+보고 데이터를 재설정하여 이전 데이터를 제거합니다. 현재 방문자는 활동에 남아 있습니다.  이 옵션은 [!UICONTROL 승인자] 권한이 있는 사람에게만 사용할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -160,11 +160,11 @@ Information to help you set the elements you want to appear in your report in [!
 
 ### 예외적인 값 제외
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. 자세한 내용은 [예외적인 주문 제외](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)를 참조하십시오.
+[!UICONTROL 예외적 값 제외] 토글은 매출액 및 참여 지표 유형의 활동에만 적용됩니다. 자세한 내용은 [예외적인 주문 제외](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA)를 참조하십시오.
 
 ## 다운로드 {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
-Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv] format for quick import into Excel, Access, or other data analysis programs.
+**[!UICONTROL 다운로드]** 아이콘을 클릭하여 보고서 데이터를 [!DNL .csv] 형식으로 다운로드하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 빠르게 가져옵니다.
 
 ![다운로드 아이콘](/help/c-reports/c-report-settings/assets/download-icon.png)
 
@@ -172,9 +172,9 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ## 새로 고침 {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and graph view without refreshing the entire page, its configuration, or its date range.
+전체 페이지, 구성 또는 날짜 범위를 새로 고치지 않고 보고서의 테이블 및 그래프 보기를 새로 고치려면 **[!UICONTROL 새로 고침]** 아이콘을 클릭합니다.
 
-## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## 추가 옵션 {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 [!UICONTROL 활동 편집] 및 [!UICONTROL 경험 URL 보기] 옵션에 액세스하려면 추가 옵션 아이콘(3개의 수직 줄임표)을 클릭하십시오.
 
@@ -184,10 +184,10 @@ Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and grap
 
 ![옵션 아이콘 보기](/help/c-reports/c-report-settings/assets/view-options.png)
 
-* **테이블 보기**:테이블 **[!UICONTROL 보기]** 아이콘을 클릭하여 보고서를 표로 봅니다.
-* **그래프 보기**:그래프 **[!UICONTROL 보기]** 아이콘을 클릭하여 보고서를 그래프로 표시합니다.
-* **자동화된 세그먼트**: (AP(Automated Personalization) 및 자동 Target(AT) 활동에만 사용 가능) **[!UICONTROL 자동화된 세그먼트] 아이콘을 클릭하여 [자동화된 세그먼트 보고서를 봅니다](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
-* **중요 속성**:(Automated Personalization(AP) 및 자동 Target(AT) 활동에만 사용할 수 있습니다.) **[!UICONTROL 중요 속성] 아이콘을 클릭하여 [중요 속성 보고서를 봅니다](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+* **테이블 보기**:테이블  **[!UICONTROL 보기]** 아이콘을 클릭하여 보고서를 표로 봅니다.
+* **그래프 보기**:그래프  **[!UICONTROL 보기]** 아이콘을 클릭하여 보고서를 그래프로 표시합니다.
+* **자동화된 세그먼트**:(AP) 및 자동 Target(AT) 활동에만 사용 가능) **[!UICONTROL 자동화된 세그먼트] 아이콘을 클릭하여 [자동화된 세그먼트 보고서](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)를 봅니다.
+* **중요 속성**:(AP(Automated Personalization) 및 자동 Target(AT) 활동에만 사용할 수 있습니다.) [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)을 보려면 **[!UICONTROL 중요 속성] 아이콘을 클릭합니다.
 
 ## 평균 상승도, 상승도 한계 및 신뢰 구간{#section_0D87615B1D3344B3858BA494EEBC16FB}을 참조하십시오 
 
@@ -218,7 +218,7 @@ Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and grap
 
 그래프 보기에서 보고서를 볼 때만 사용할 수 있습니다.
 
-&quot;실행 평균&quot;은 누적 방문자로 나눈 누적 전환(보고 창의 시작에서 그래프에 표시되는 날짜까지)을 반영합니다.
+&quot;실행 평균&quot;은 누적 방문자로 나눈 누적 전환(보고 창의 시작부터 그래프에 표시된 날짜까지)을 반영합니다.
 
 원하는 그래프 보기를 선택하십시오.
 
@@ -235,9 +235,9 @@ Click the **[!UICONTROL Refresh]** icon to refresh a report&#39;s table and grap
 
 그래프 보기에서 보고서를 볼 때만 사용할 수 있습니다.
 
-보고서에서 그래프에 대한 계산 방법론을 선택할 수 있습니다. Note that this is not supported for [!UICONTROL Automated Personalization] (AP) activities.
+보고서에서 그래프에 대한 계산 방법론을 선택할 수 있습니다. 이 기능은 [!UICONTROL Automated Personalization](AP) 활동에는 지원되지 않습니다.
 
-To access the [!UICONTROL Counting Methodology] option, while viewing a report in graph mode, click the **[!UICONTROL My Primary Goal]** drop-down, then select the counting methodology.
+그래프 모드에서 보고서를 보는 동안 [!UICONTROL 계산 방법론] 옵션에 액세스하려면 **[!UICONTROL 내 기본 목표]** 드롭다운을 클릭한 다음 계산 방법을 선택합니다.
 
 계산 방법론은 위에서 설명한 [!UICONTROL 설정] 대화 상자에서 선택한 방법론과 같습니다.
 
@@ -245,7 +245,7 @@ To access the [!UICONTROL Counting Methodology] option, while viewing a report i
 
 기본적으로 그래프는 [!UICONTROL 일별] 모드로 작성됩니다.
 
-You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
+[!UICONTROL 일별] 드롭다운 목록을 클릭한 다음 누적 옵션을 선택하여 모드를 변경할 수 있습니다.
 
 ![누적](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
@@ -257,15 +257,15 @@ You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then 
 
 그래프가 작성되는 기본 순서는 다음과 같습니다.
 
-* **A/B 테스트(자동 할당 및 Automated Personalization 포함)**:경험 제작 순서(내림차순)
+* **A/B 테스트(자동 할당 및 Automated Personalization 포함)**:경험 작성 순서(내림차순)
 * **경험 타깃팅(XT)**:활동의 경험 순서.
-* **MVT(다변량 테스트)**:경험 이름별로 알파벳 순
-* **Recommendations**:경험 제작 순서(내림차순)
+* **다변량 테스트(MVT)**:경험 이름별로 알파벳순으로 표시됩니다.
+* **Recommendations**:경험 작성 순서(내림차순)
 
 계산 방법론 선택 사항을 사용하여 작업할 때에는 다음 주의 사항을 고려하십시오.
 
-* For [Auto-Target activities](/help/c-activities/auto-target/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. 자동 타겟은 방문자 수로 그래프를 그릴 수 없는 유일한 활동 유형입니다.
-* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
+* [자동 Target 활동](/help/c-activities/auto-target/auto-target-to-optimize.md)의 경우 계산 방법으로 &quot;방문자&quot;를 선택할 수 있는 옵션이 없습니다. 자동 타겟은 방문자 수로 그래프를 그릴 수 없는 유일한 활동 유형입니다.
+* [Analytics를 보고 소스(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)로 사용하는 활동의 경우 방문자, 방문 또는 임프레션을 누적 플로팅할 수 없습니다.
 
 ## 활동에 16개 이상의 경험이 있는 그래프 작업
 
