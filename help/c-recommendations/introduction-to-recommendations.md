@@ -41,7 +41,7 @@ Adobe는 소매점에서 사용하는 모든 종류의 추천에 대해 알고 �
 * **게임**: 게임 업체는 콘솔 내의 사용자에게 게임과 콘텐츠를 추천하기 위해 [!DNL Target]을 사용합니다.
 * **B2B 판매**: [B2B 업체는 Target를 사용하여 B2B 잠재 고객에게 비디오, 백서 및 블로그 게시물을 추천하고 다운로드를 제공하며 기존 고객을 지원합니다](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **여행**: [독일의 한 여행책자는 Target을 이용해 호텔을 추천하고 여행자들에게 더 많은 호텔을 추천한다](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **여행**: [독일의 한 여행 책자는 Target을 이용하여 호텔과 더 많은 여행자들을 추천한다](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
 * **소매**: [선도적인 BB 소매업체는 Target를 사용하여 브라우저와 모바일에서 방문자가 재방문할 수 있는 상위 카테고리와 제품을 추천합니다](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
 
@@ -129,7 +129,7 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 ![추천 활동을 구성하는 요소(대상, 기준 및 디자인)를 보여주는 일러스트레이션](/help/c-recommendations/assets/intro-12.png)
 
-기본적으로 [!DNL Target]에는 14개의 내장된 대상, 42개의 내장된 기준 및 10개의 내장된 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 이 섹션에서는 어떤 항목을 추천할 지에 대한 기준을 정의하는 데 중점을 둡니다.
+기본적으로 [!DNL Target]에는 14개의 내장된 대상, 42개의 내장된 기준 및 10개의 내장된 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. [!DNL Target]에서 대상](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) 작성에 대한 이전 [웨비나를 제공했습니다. 이 섹션에서는 어떤 항목을 추천할 지에 대한 기준을 정의하는 데 중점을 둡니다.
 
 Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화를 위한 메뉴와 같습니다.
 
