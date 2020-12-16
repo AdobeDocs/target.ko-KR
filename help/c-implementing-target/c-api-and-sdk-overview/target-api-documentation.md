@@ -38,7 +38,7 @@ Target API 문서에 대한 자세한 정보는 [Target API 및 NodeJS SDK](/hel
 
 권장 사항 Classic API는 이 타임라인의 영향을 받지 않습니다.
 
-## 동등한 메서드 {#section_DDB42CCC172545B09CB728D794CC466B}
+## 동등한 메서드  {#section_DDB42CCC172545B09CB728D794CC466B}
 
 다음 표에는 이전 API 메서드와 동등한 새 Target API 메서드가 나와 있습니다. 새 API는 이전 API에서 제공하는 XML 응답과 비교할 때 JSON을 반환합니다.
 
@@ -66,6 +66,6 @@ Target API 문서에 대한 자세한 정보는 [Target API 및 NodeJS SDK](/hel
 
 예외가 필요한 경우 Customer Success Manager에게 문의하십시오.
 
-## 도움말 {#section_591F850E2B7A4342B1C233693425415C}
+## 도움말  {#section_591F850E2B7A4342B1C233693425415C}
 
 질문이 있거나 Adobe I/O에서 새 Target API로 전환하는 데 도움이 필요한 경우 Adobe Target 고객 지원팀(tt-support@adobe.com)에 문의하십시오.
