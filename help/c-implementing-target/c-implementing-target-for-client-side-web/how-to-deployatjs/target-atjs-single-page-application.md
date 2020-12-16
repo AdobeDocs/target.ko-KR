@@ -70,7 +70,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    먼저 at.js 2.x를 설치해야 합니다. 이 at.js 버전은 SPA를 염두에 두고 개발되었습니다. 이전 at.js 및 mbox.js 버전은 Adobe Target 보기와 SPA용 VEC를 지원하지 않습니다.
 
-   Download at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x는 Adobe Launch를 통해 배포할 수도 있습니다. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
+   [!UICONTROL 관리 > 구현]에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. at.js 2.x는 Adobe Launch를 통해 배포할 수도 있습니다. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
 
 1. 사이트에서 at.js 2.x의 최신 함수인 `triggerView()`를 구현합니다.
 
@@ -210,7 +210,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 | --- | --- |
 | 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
 | 2 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
-| 3 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 1 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
 | 5 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
@@ -274,50 +274,50 @@ document.addEventListener("at-view-end", function(e) {
 
 ## 구현 우수 사례 {#bp}
 
-at.js 2.x API를 사용하면 다양한 방식으로 구현을 사용자 정의할 수 있지만, 이 프로세스 동안 올바른 작업 순서를 따라야 합니다. [!DNL Target]
+at.js 2.x API를 사용하면 다양한 방식으로 [!DNL Target] 구현을 사용자 정의할 수 있지만, 이 프로세스 동안 올바른 작업 순서를 따라야 합니다.
 
-다음 정보에서는 브라우저에서 단일 페이지 애플리케이션을 처음 로드할 때 따라야 하는 작업 순서와 이후에 발생하는 모든 보기 변경에 대해 설명합니다.
+다음 정보에서는 브라우저에서 단일 페이지 애플리케이션을 처음 로드할 때 다음에 수행해야 하는 작업 순서와 이후에 발생하는 모든 보기 변경에 대해 설명합니다.
 
 ### 초기 페이지 로드에 대한 작업 순서
 
 | 단계 | Action | 세부 사항 |
 | --- | --- | --- |
-| 1 | VisitorAPI JS 로드 | 이 라이브러리는 방문자에게 ECID를 할당합니다. 이 ID는 나중에 웹 페이지의 다른 [!DNL Adobe] 솔루션에 사용됩니다. |
-| 2 | at.js 2.x 로드 | at.js 2.x는 [!DNL Target] 요청 및 뷰를 구현하는 데 사용하는 모든 필요한 API를 로드합니다. |
-| 3 | 요청 [!DNL Target] 실행 | 데이터 레이어가 있는 경우 요청을 실행하기 [!DNL Target] 전에 전송해야 하는 중요한 데이터를 로드하는 것이 [!DNL Target] 좋습니다. 이를 통해 타깃팅에 사용할 데이터 `targetPageParams` 를 보낼 수 있습니다. 이 API 호출에서 실행 > pageLoad 및 프리페치 > 보기를 요청해야 합니다. 을 설정하고 `pageLoadEnabled` `viewsEnabled`설정한 경우 두 단계 모두 실행 > pageLoad 및 prefetch > 보기 횟수는 2단계에서 자동으로 발생합니다.그렇지 않은 경우 `getOffers()` API를 사용하여 이 요청을 해야 합니다. |
-| 4 | 호출 `triggerView()` | 3단계에서 시작한 [!DNL Target] 요청은 페이지 로드 실행과 보기 모두에 대한 경험을 반환할 수 있으므로, 요청이 반환되고 오퍼를 캐시에 적용하는 것을 마친 `triggerView()` [!DNL Target] 후 호출되도록 하십시오. 보기당 한 번만 이 단계를 실행해야 합니다. |
-| 5 | 페이지 보기 [!DNL Analytics] 비콘 호출 | 이 비콘은 3단계 및 4단계와 연관된 SDID를 데이터 연결 [!DNL Analytics] 에 보냅니다. |
-| 6 | 추가 문의 `triggerView({"page": false})` | 이는 보기 변경 없이 페이지에서 특정 구성 요소를 다시 렌더링할 수 있는 SPA 프레임워크의 선택 단계입니다. 이러한 경우 SPA 프레임워크에서 구성 요소를 다시 렌더링한 후 경험이 다시 [!DNL Target] 적용되도록 하려면 이 API를 불러와야 합니다. SPA 보기에서 경험이 지속되도록 하기 위해 이 단계를 원하는 만큼 [!DNL Target] 실행할 수 있습니다. |
+| 1 | VisitorAPI JS 로드 | 이 라이브러리는 방문자에게 ECID를 할당해야 합니다. 이 ID는 나중에 웹 페이지의 다른 [!DNL Adobe] 솔루션에 의해 사용됩니다. |
+| 2 | at.js 2.x 로드 | at.js 2.x는 [!DNL Target] 요청 및 보기를 구현하는 데 사용하는 모든 필수 API를 로드합니다. |
+| 1 | [!DNL Target] 요청 실행 | 데이터 레이어가 있는 경우 [!DNL Target] 요청을 실행하기 전에 [!DNL Target]으로 보내야 하는 중요 데이터를 로드하는 것이 좋습니다. 이렇게 하면 `targetPageParams`을(를) 사용하여 타깃팅에 사용할 데이터를 보낼 수 있습니다. 이 API 호출에서 [프리페치] > [보기]는 물론 [실행] > [pageLoad]를 요청해야 합니다. `pageLoadEnabled` 및 `viewsEnabled`을 설정한 경우, 두 단계 모두 실행 > pageLoad 및 prefetch > 보기 횟수는 자동으로 2단계에서 발생합니다.그렇지 않은 경우 `getOffers()` API를 사용하여 이 요청을 해야 합니다. |
+| 4 | 호출 `triggerView()` | 3단계에서 시작한 [!DNL Target] 요청은 보기 뿐만 아니라 페이지 로드 실행에 대한 경험을 반환할 수 있으므로 [!DNL Target] 요청이 반환되고 오퍼가 캐시에 적용된 것을 마친 후 `triggerView()`이(가) 호출되는지 확인하십시오. 이 단계를 뷰당 한 번만 실행해야 합니다. |
+| 5 | [!DNL Analytics] 페이지 보기 비콘을 호출합니다. | 이 비콘은 데이터 결제를 위해 3단계 및 4단계와 연결된 SDID를 [!DNL Analytics]으로 보냅니다. |
+| 6 | 추가 `triggerView({"page": false})` 호출 | 이는 보기 변경 사항이 발생하지 않으면서 페이지에서 특정 구성 요소를 다시 렌더링할 수 있는 SPA 프레임워크의 선택 단계입니다. 이러한 경우 SPA 프레임워크에서 구성 요소를 다시 렌더링한 후 [!DNL Target] 경험이 다시 적용되도록 하려면 이 API를 불러와야 합니다. 이 단계를 SPA 보기에서 [!DNL Target] 경험이 지속되도록 하기 위해 여러 번 실행할 수 있습니다. |
 
 ### SPA 보기 변경에 대한 작업 순서(전체 페이지 다시 로드 없음)
 
-| 단계 | Action | 세부 사항 |
+| 단계 | 작업 | 세부 사항 |
 | --- | --- | --- |
-| 1 | 호출 `visitor.resetState()` | 이 API를 사용하면 SDID가 로드되는 새 보기에 대해 다시 생성됩니다. |
-| 2 | API를 호출하여 캐시 `getOffers()` 업데이트 | 이 보기는 이 보기 변경으로 현재 방문자가 더 많은 활동에 대한 자격을 얻거나 활동에서 [!DNL Target] 자격을 박탈할 가능성이 있는 경우 취할 수 있는 선택 단계입니다. 이 시점에서 추가적인 타깃팅 기능을 사용하도록 추가 데이터 [!DNL Target] 를 보내도록 선택할 수도 있습니다. |
-| 3 | 호출 `triggerView()` | 2단계를 실행한 경우 요청을 [!DNL Target] 기다렸다가 이 단계를 실행하기 전에 오퍼를 캐시에 적용해야 합니다. 보기당 한 번만 이 단계를 실행해야 합니다. |
-| 4 | 호출 `triggerView()` | 2단계를 실행하지 않은 경우 1단계를 완료함과 동시에 이 단계를 실행할 수 있습니다. 2단계 및 3단계를 실행한 경우 이 단계를 건너뛰어야 합니다. 보기당 한 번만 이 단계를 실행해야 합니다. |
-| 5 | 페이지 보기 [!DNL Analytics] 비콘 호출 | 이 비콘은 데이터 스티칭에 대해 2단계, 3단계 및 4단계와 연관된 SDID를 [!DNL Analytics] 전송합니다. |
-| 6 | 추가 문의 `triggerView({"page": false})` | 이는 보기 변경 없이 페이지에서 특정 구성 요소를 다시 렌더링할 수 있는 SPA 프레임워크의 선택 단계입니다. 이러한 경우 SPA 프레임워크에서 구성 요소를 다시 렌더링한 후 경험이 다시 [!DNL Target] 적용되도록 하려면 이 API를 불러와야 합니다. SPA 보기에서 경험이 지속되도록 하기 위해 이 단계를 원하는 만큼 [!DNL Target] 실행할 수 있습니다. |
+| 1 | 호출 `visitor.resetState()` | 이 API는 SDID가 로드될 때 새 보기에 대해 다시 생성됩니다. |
+| 2 | `getOffers()` API를 호출하여 캐시 업데이트 | 이 보기 변경으로 인해 현재 방문자에게 더 많은 [!DNL Target] 활동에 대한 자격을 부여하거나 활동에서 자격을 박탈할 가능성이 있는 경우 이것은 선택 단계입니다. 이 시점에서 추가적인 타깃팅 기능을 사용하도록 추가 데이터를 [!DNL Target]에 보내도록 선택할 수도 있습니다. |
+| 1 | 호출 `triggerView()` | 2단계를 실행한 경우 [!DNL Target] 요청을 기다렸다가 이 단계를 실행하기 전에 오퍼를 캐시에 적용해야 합니다. 이 단계를 뷰당 한 번만 실행해야 합니다. |
+| 4 | 호출 `triggerView()` | 2단계를 실행하지 않은 경우 1단계를 완료하는 대로 이 단계를 실행할 수 있습니다. 2단계와 3단계를 실행한 경우 이 단계를 건너뛰어야 합니다. 이 단계를 뷰당 한 번만 실행해야 합니다. |
+| 5 | [!DNL Analytics] 페이지 보기 비콘을 호출합니다. | 이 비콘은 데이터 스티칭에 대해 2단계, 3단계 및 4단계와 연관된 SDID를 [!DNL Analytics]으로 보냅니다. |
+| 6 | 추가 `triggerView({"page": false})` 호출 | 이는 보기 변경 사항이 발생하지 않으면서 페이지에서 특정 구성 요소를 다시 렌더링할 수 있는 SPA 프레임워크의 선택 단계입니다. 이러한 경우 SPA 프레임워크에서 구성 요소를 다시 렌더링한 후 [!DNL Target] 경험이 다시 적용되도록 하려면 이 API를 불러와야 합니다. 이 단계를 SPA 보기에서 [!DNL Target] 경험이 지속되도록 하기 위해 여러 번 실행할 수 있습니다. |
 
 ## 교육 비디오
 
 다음 비디오에는 추가 정보가 포함되어 있습니다.
 
-### at.js 2.x 작동 방식 이해 ![개요 배지](/help/assets/overview.png)
+### at.js 2.x 작동 방식 이해  ![개요 배지](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-자세한 [내용은 at.js 2.x 작동](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 방식 이해를 참조하십시오.
+자세한 내용은 [at.js 2.x의 작동 방식 이해](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)를 참조하십시오.
 
-### SPA Tutorial 배지에서 at.js 2.x ![구현](/help/assets/tutorial.png)
+### SPA ![자습서 배지](/help/assets/tutorial.png)에서 at.js 2.x 구현
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-자세한 [내용은 단일 페이지 애플리케이션(SPA)에서 Adobe Target의 at.js 2.x 구현을](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) 참조하십시오.
+자세한 내용은 [단일 페이지 응용 프로그램(SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html)에서 Adobe Target at.js 2.x 구현을 참조하십시오.
 
-### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
+### Adobe Target ![자습서 배지](/help/assets/tutorial.png)에서 SPA용 VEC 사용
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
+자세한 내용은 Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)에서 [단일 페이지 응용 프로그램(SPA VEC)에 대해 시각적 경험 작성기 사용(VEC)을 참조하십시오.
