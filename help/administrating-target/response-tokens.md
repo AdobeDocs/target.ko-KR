@@ -1,6 +1,6 @@
 ---
 keywords: response tokens;tokens;plugins;plug-ins;at.js;response
-description: '응답 토큰을 사용하면 디버깅이나 타사 시스템(예: Clicktale)과의 통합에 사용할 Adobe Target 관련 정보(활동 세부 정보, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
+description: '응답 토큰을 사용하면 디버깅하거나 타사 시스템(예: Clicktale)과 통합하는 데 사용할 Adobe Target 관련 정보(활동 정보, 사용자 프로필 정보, 지역 정보 등)를 자동으로 출력할 수 있습니다'
 title: Adobe Target의 응답 토큰
 feature: response tokens
 translation-type: tm+mt
@@ -14,9 +14,9 @@ ht-degree: 77%
 
 # 응답 토큰{#response-tokens}
 
-Response tokens let you automatically output information specific to [!DNL Target] (activity details, user profile information, geo information, and so forth) to use in debugging or integrating with 3rd-party systems (such as Clicktale).
+응답 토큰을 사용하면 디버깅하거나 타사 시스템(예: Clicktale)과 통합하는 데 사용할 [!DNL Target](활동 세부 사항, 사용자 프로필 정보, 지역 정보 등)에 대한 정보를 자동으로 출력할 수 있습니다.
 
-응답 토큰을 사용하면 활용할 변수를 선택한 다음 Target 응답의 일부로 전송할 수 있습니다. 이렇게 하려면 스위치를 사용하여 변수를 활성화하면 해당 변수가 Target 응답과 함께 보내지며, 네트워크 호출에서 유효성을 검사할 수 있습니다. Response tokens work in [!UICONTROL Preview] mode as well.
+응답 토큰을 사용하면 활용할 변수를 선택한 다음 Target 응답의 일부로 변수를 보낼 수 있습니다. 이 작업을 수행하려면 스위치를 사용하여 변수를 활성화하면 해당 변수가 Target 응답과 함께 전송되고 이를 네트워크 호출에서 확인할 수 있습니다. 응답 토큰은 [!UICONTROL 미리 보기] 모드에서도 작동합니다.
 
 플러그인과 응답 토큰 간의 중요한 차이는 플러그인이 전달 시 실행되는 JavaScript를 페이지에 전달하는 반면, 응답 토큰은 이벤트 수신자를 사용하여 읽고 작업할 수 있는 개체를 전달한다는 것입니다. 자세한 내용은 [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) 및 이 문서의 뒷부분에 나오는 예를 참조하십시오. 응답 토큰 접근 방식은 더 안전하며 타사 통합을 보다 쉽게 개발하고 유지 관리할 수 있도록 허용해야 합니다.
 
@@ -35,7 +35,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    자세한 내용은 [at.js 다운로드](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오.
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
+1. [!DNL Target]에서 **[!UICONTROL 관리]** > **[!UICONTROL 응답 토큰]**&#x200B;을 클릭합니다.
 
    ![](assets/response_tokens-new.png)
 
@@ -45,7 +45,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
    | 유형 | 매개 변수 | 참고 |
    |--- |--- |--- |
-   | 내장 프로필 | `profile.activeActivities` | 방문자가 자격을 갖는 일련의 `activityIds`를 반환합니다. 사용자가 자격을 갖게 됨에 따라 증가합니다. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
+   | 내장 프로필 | `profile.activeActivities` | 방문자가 자격을 갖는 일련의 `activityIds`를 반환합니다. 사용자가 자격을 갖게 됨에 따라 증가합니다. 예를 들어 두 개의 다른 활동을 제공하는 [!DNL Target] 요청이 있는 페이지에서 두 번째 요청에는 두 개의 활동이 모두 포함됩니다. |
    |  | `profile.isFirstSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
    |  | `profile.isNewSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
    |  | `profile.daysSinceLastVisit` | 방문자가 마지막으로 방문한 이후 경과한 일수를 반환합니다. |
@@ -56,7 +56,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
    |  | `profile.categoryAffinities` | 방문자의 상위 5개 카테고리의 배열을 문자열로 반환합니다. |
    | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | 현재 활동의 세부 사항입니다. &quot;option&quot;은 &quot;offer&quot;와 같습니다. |
    | 지역 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 활동에서 지역 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [지역](/help/c-target/c-audiences/c-target-rules/geo.md)을 참조하십시오. |
-   | 트래픽 할당 방법<br>(자동 Target [!UICONTROL 및] Automated Personalization [!UICONTROL 활동에만] 적용됩니다.) | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고 방문자가 &quot;타깃팅된&quot; 트래픽 배포로부터 경험을 받은 경우 1을 반환합니다. |
+   | 트래픽 할당 방법<br>(자동 Target] 및 [!UICONTROL Automated Personalization] 활동에만 적용)[!UICONTROL  | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고 방문자가 &quot;타깃팅된&quot; 트래픽 배포로부터 경험을 받은 경우 1을 반환합니다. |
    |  | `experience.trafficAllocationType` | &quot;control&quot; 또는 &quot;targeted&quot;를 반환합니다. |
 
    사용자 프로필 속성 및 고객 속성도 목록에 표시됩니다.
@@ -65,9 +65,9 @@ Response tokens let you automatically output information specific to [!DNL Targe
    >
    >특수 문자가 있는 매개 변수는 목록에 표시되지 않습니다. 영숫자 문자 및 밑줄만 지원됩니다.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (조건부) 프로필 매개 변수를 응답 토큰으로 사용하지만 매개 변수가 [!DNL Target] 요청을 통해 전달되지 않아 Target UI에 로드되지 않은 경우 [!UICONTROL 응답 토큰 추가] 단추를 사용하여 UI에 프로필을 추가할 수 있습니다.
 
-   응답 **[!UICONTROL 토큰]**&#x200B;추가를 클릭하고 토큰 이름을 입력한 다음 활성화를 **[!UICONTROL 클릭합니다]**.
+   **[!UICONTROL 응답 토큰 추가]**&#x200B;를 클릭하고 토큰 이름을 입력한 다음 **[!UICONTROL 활성화]**&#x200B;를 클릭합니다.
 
    ![](assets/response_token_create.png)
 
@@ -130,15 +130,15 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 **사이트의 일부 페이지에서 at.js 1.1(또는 이상)을 사용하고 있지만 다른 페이지에서는 mbox.js를 사용 중이라면 어떻게 됩니까?**
 
-Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
+응답 토큰은 [!DNL at.js] Target 응답에 전달되지만 [!DNL mbox.js] 응답에는 전달되지 않습니다.
 
 **Target Classic 플러그인과 응답 토큰이 동시에 활성화될 수 있습니까?**
 
 플러그인과 응답 토큰을 동시에 사용할 수는 있지만 플러그인은 향후에 더 이상 사용되지 않습니다.
 
-**응답 토큰이 모든 [!DNL Target] 응답을 통해 전달됩니까 아니면 활동을 제공하는 [!DNL Target] 응답으로만 전달됩니까?**
+**응답 토큰이 모든 응답을  [!DNL Target] 통해 제공됩니까 아니면 활동을 제공하는  [!DNL Target] 응답을 통해서만 제공됩니까?**
 
-Response tokens are delivered only through [!DNL Target] responses delivering an activity.
+응답 토큰은 활동을 제공하는 [!DNL Target] 응답만 전달됩니다.
 
 **내 Target Classic 플러그인에는 JavaScript가 포함되어 있습니다. 응답 토큰을 사용하여 해당 기능을 복제하려면 어떻게 해야 합니까?**
 
@@ -230,7 +230,7 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 </script>
 ```
 
-## 디버깅(ttMeta 플러그인과 유사) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## 디버깅(ttMeta 플러그인과 유사)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 디버깅 목적의 ttMeta 플러그인과 동등한 기능은 HTML 페이지에 다음 코드를 추가하여 만들 수 있습니다.
 
@@ -288,6 +288,6 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 
 >[!NOTE]
 >
->관리 [!DNL Target]  메뉴 UI(이전 [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 단축하고, 제품 전반의 사용자 경험을 개선하기 위해 다시 설계되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다를 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전의 [!UICONTROL 설치])가 향상된 성능을 제공하고, 새 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반의 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
