@@ -99,7 +99,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 **시각적 경험 작성기(VEC)를 사용하여 기본 콘텐츠를 제외하려면 다음을 수행하십시오.**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
+1. [AP 활동 ](/help/c-activities/t-automated-personalization/create-ap-activity.md)을 만들거나 편집하는 동안 대체할 컨텐츠를 선택하고 클릭하여 **[!UICONTROL 텍스트/HTML]**, **[!UICONTROL 이미지 변경]** 또는 **[!UICONTROL 배경색 변경]**&#x200B;에 액세스합니다.
 1. 대화 상자에서 새 콘텐츠를 작성하고 기본 콘텐츠의 오른쪽에 있는 **포함**&#x200B;을 선택 취소합니다(또는 콘텐츠 선택 화면에서 기본 이미지/비디오를 선택 취소합니다.).
 
    [!UICONTROL 포함] 확인란은 콘텐츠/오퍼 유형에 따라 약간 다른 위치에 표시됩니다.
