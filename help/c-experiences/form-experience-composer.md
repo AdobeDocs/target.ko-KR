@@ -31,13 +31,13 @@ ht-degree: 79%
 1. 활동의 이름을 지정합니다.
 1. 위치를 선택합니다.
 
-   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. 해당 위치 중 하나를 선택합니다. target.js를 통해 전달된 글로벌 위치를 선택하려면 &quot;target-global-mbox&quot;를 선택합니다.
+   [!UICONTROL 위치 선택] 상자를 클릭하면 사용 가능한 위치 목록이 나타납니다. 해당 위치 중 하나를 선택합니다. target.js를 통해 전달된 글로벌 위치를 선택하려면 &quot;target-global-mbox&quot;를 선택합니다.
 
-   여기에 나열되지 않은 위치를 입력할 수도 있습니다. 이 방식은 mbox가 페이지에서 아직 만들어졌거나 열람되지 않은 경우에 유용할 수 있습니다. 위치의 이름을 입력합니다. 아직 없는 위치를 입력할 때는 주의하십시오. 철자 또는 대소문자가 mbox 호출이 수행될 때의 철자 및 대소문자와 일치하지 않으면 활동이 전달되지 않습니다. 수동으로 입력한 위치는 사용 가능한 위치 목록에 저장됩니다. 다음에 수동으로 입력한 위치를 선택하려고 하면 해당 활동에 대한 위치 [!UICONTROL 선택] 드롭다운 목록에서 사용할 수 있습니다.
+   여기에 나열되지 않은 위치를 입력할 수도 있습니다. 이 방식은 mbox가 페이지에서 아직 만들어졌거나 열람되지 않은 경우에 유용할 수 있습니다. 위치의 이름을 입력합니다. 아직 없는 위치를 입력할 때는 주의하십시오. 철자 또는 대소문자가 mbox 호출이 수행될 때의 철자 및 대소문자와 일치하지 않으면 활동이 전달되지 않습니다. 수동으로 입력한 위치는 사용 가능한 위치 목록에 저장됩니다. 다음에 수동으로 입력한 위치를 선택하려고 하면 해당 활동에 대한 [!UICONTROL 위치 선택] 드롭다운 목록에서 사용할 수 있습니다.
 
    >[!NOTE]
    >
-   >활동을 만드는 동안 수동으로 입력된 위치를 만들면 새 위치가 자동으로 만들어지지 않습니다. 위치 이름은 활동 컨텍스트에서만 저장됩니다. 컨텐츠 전달 호출이 있을 때 위치가 만들어집니다. 만들어진 위치 다음에 다른 활동에서 대상 등을 만드는 데 사용할 수 있게 됩니다. 을 클릭합니다.
+   >활동을 만드는 동안 수동으로 입력한 위치를 만들면 새 위치가 자동으로 만들어지지 않습니다. 위치 이름은 활동 컨텍스트에만 저장됩니다. 이 위치는 컨텐츠 전달 호출이 있을 때 만들어집니다. 만드는 위치 다음에 다른 활동에서, 대상자 만들기 등에 사용할 수 있게 됩니다. 을 클릭합니다.
 
 1. **[!UICONTROL 대상 개선 추가]**&#x200B;를 클릭한 다음, 이 활동에 대해 하나 이상의 [대상](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을 선택합니다.
 
@@ -94,14 +94,14 @@ ht-degree: 79%
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
-1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
+1. (선택 사항, AB 활동, Automated Personalization 및 경험 타깃팅의 경우) 추가 위치에 대해 이 프로세스를 반복하려면 **[!UICONTROL 위치 추가]**&#x200B;를 클릭하고 위치와 컨텐츠를 구성합니다.
+1. **[!UICONTROL 다음]**&#x200B;을 클릭한 다음 활동 유형에 대해 평소대로 활동 생성 단계를 완료합니다.
 
 * [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [경험 타깃팅 활동 만들기](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [권장 사항 활동 만들기](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## 교육 비디오: 양식 기반 작성기 ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오: 양식 기반 작성기  ![자습서 배지](/help/assets/tutorial.png)
 
 다음 비디오에서는 양식 기반 작성기 데모를 제공합니다.
 
