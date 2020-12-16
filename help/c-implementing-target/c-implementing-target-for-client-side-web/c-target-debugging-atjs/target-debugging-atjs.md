@@ -24,11 +24,11 @@ Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 �
 
 다음 동영상은 디버깅 절차를 안내합니다.
 
-### Adobe Experience Cloud Debugger 확장 프로그램 추가 ![개요 배지](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
+### Adobe Experience Cloud Debugger 확장 프로그램 추가  ![개요 배지](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Adobe Experience Cloud Debugger를 사용한 기본 Target 디버깅 ![개요 배지](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
