@@ -89,7 +89,7 @@ at.js 1.0.0 릴리스를 사용하면 Target 라이브러리를 비동기적으�
 
 at.js를 비동기적으로 로드하려면 다음을 수행하십시오.
 
-* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. 자세한 내용은 [Launch를 사용하여 웹 사이트에서 Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 구현 [자습서의 Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) 추가단원을참조하십시오.
+* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. 자세한 내용은 [Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) 튜토리얼을 사용하여 웹 사이트에서 Experience Cloud 구현의 [Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 단원을 참조하십시오.
 * at.js를 로드하는 스크립트 태그에 비동기 속성을 추가하여 at.js를 비동기로 로드할 수도 있습니다. 다음과 같은 코드를 사용해야 합니다.
 
    ```
@@ -109,7 +109,7 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 페이지(또는 지정된 부분)를 숨긴 다음 at.js 및 글로벌 요청이 완전히 로드된 후에 표시하는 사전에 숨기는 코드 조각을 사용하여 플리커를 방지할 수 있습니다. at.js를 로드하기 전에 코드 조각을 추가해야 합니다.
 
-비동기 Launch 구현을 통해 at.js를 배포하는 경우, Launch를 사용하여 웹 사이트에서 Experience Cloud 구현 자습서의 &quot; [Target 미리 숨김 조각](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 추가&quot; 섹션에 설명된 대로, 시작 내장 코드 앞 [에 사전 숨김 코드 조각을 포함해야 합니다](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+비동기 Launch 구현을 통해 at.js를 배포하는 경우, [Launch 튜토리얼](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html)을 사용하여 웹 사이트에서 Experience Cloud 구현 섹션의 [Target 사전 숨기기 조각](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 섹션에 설명된 대로 시작 포함 코드 앞에 사전 숨김 조각을 페이지에 직접 포함해야 합니다.
 
 동기 DTM 구현을 통해 at.js를 배포하는 경우 페이지 상단에서 트리거된 페이지 로드 규칙을 통해 사전에 숨기는 코드 조각을 추가할 수 있습니다.
 
@@ -203,7 +203,7 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 이 경고 메시지가 표시되는 경우 가능한 근본 원인은 다음과 같습니다.
 
-* 페이지가 동적으로 빌드되고 있으며 at.js가 요소를 찾을 수 없습니다.
+* 페이지가 동적으로 빌드되고 있으며 at.js는 요소를 찾을 수 없습니다.
 * 느린 네트워크로 인해 페이지가 천천히 빌드되고 있으며 at.js는 DOM에서 선택기를 찾을 수 없습니다.
 * 활동이 실행 중인 페이지 구조가 변경되었습니다. 시각적 경험 작성기(VEC)에서 활동을 다시 열 경우 경고 메시지가 표시됩니다. 필요한 모든 요소를 찾을 수 있도록 활동을 업데이트해야 합니다.
 * 기본 페이지가 단일 페이지 애플리케이션(SPA)의 일부이거나 이 페이지에 페이지 아래쪽에 나타나는 요소가 있는데, [!DNL at.js] &quot;선택기 폴링 메커니즘&quot;이 해당 요소를 찾을 수 없습니다. `selectorsPollingTimeout`을 늘리는 것이 도움이 될 수 있습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
@@ -223,7 +223,7 @@ HTTPS를 통해 페이지를 로드한 경우에만 JavaScript를 통해 보안�
 
 Target이 제대로 사용자를 추적할 수 있는지 보장하기 위해 그리고 쿠키가 클라이언트 측에서 생성되므로 Target에서 이러한 플래그 중 하나를 사용하지 않습니다.
 
-## at.js가 네트워크 요청을 얼마나 자주 실행합니까? {#section_57C5235DF7694AF093A845D73EABADFD}
+## at.js가 네트워크 요청을 얼마나 자주 실행합니까?  {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Adobe Target은 서버 측에서 모든 의사 결정을 실행합니다. 즉, at.js는 페이지가 다시 로드되거나 at.js 공용 API가 호출될 때마다 네트워크 요청을 실행합니다.
 
@@ -231,7 +231,7 @@ Adobe Target은 서버 측에서 모든 의사 결정을 실행합니다. 즉, a
 
 at.js는 장기간 HTML BODY 또는 기타 DOM 요소를 사전에 숨기지 않으려고 시도하지만 이는 네트워크 조건 및 활동 설정에 따라 다릅니다. at.js에서는 본문 숨기기 CSS 스타일을 사용자 지정하는 데 사용할 수 있는 [설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)을 제공하므로 전체 HTML BODY를 공백으로 남기지 않고 페이지의 일부만 미리 숨길 수 있습니다. 이러한 부분에는 &quot;개인화&quot;해야 하는 DOM 요소가 포함될 것으로 예상됩니다.
 
-## 사용자가 활동 자격이 있는 평균 시나리오의 이벤트 순서는 무엇입니까? {#section_56E6F448E901403FB77DF02F44C44452}
+## 사용자가 활동 자격이 있는 평균 시나리오의 이벤트 순서는 무엇입니까?  {#section_56E6F448E901403FB77DF02F44C44452}
 
 at.js 요청은 비동기 `XMLHttpRequest`이므로 다음 단계를 실행합니다.
 
@@ -251,11 +251,11 @@ at.js 요청은 비동기 `XMLHttpRequest`이므로 다음 단계를 실행합�
 
 at.js는 페이지의 렌더링을 차단하지 않습니다. 사용자는 Target에서 사용자 지정할 요소를 나타내는 페이지에서 일부 영역이 비어 있는 것을 볼 수 있습니다. 적용할 콘텐츠에 SCRIPT 또는 IMG와 같은 원격 자산이 포함되지 않은 경우 모든 것을 빠르게 렌더링해야 합니다.
 
-## 완전히 캐시된 페이지는 위의 시나리오에 어떻게 영향을 줍니까? 페이지의 나머지 콘텐츠를 로드한 후에 활동 콘텐츠가 눈에 더욱 잘 띄게 표시될 수 있습니까? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## 완전히 캐시된 페이지는 위의 시나리오에 어떻게 영향을 줍니까? 페이지의 나머지 콘텐츠를 로드한 후에 활동 콘텐츠가 눈에 더욱 잘 띄게 표시될 수 있습니까?  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 사용자의 위치에 가까운 CDN에 페이지가 캐시되지만 Target 엣지 근처에 없는 경우 해당 사용자에게 지연이 표시될 수 있습니다. Target 에지는 전역에 걸쳐 있으므로 대부분의 경우 문제가 되지 않습니다.
 
-## 대표 이미지가 표시되고 잠시 지연된 뒤 교체될 수 있습니까? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## 대표 이미지가 표시되고 잠시 지연된 뒤 교체될 수 있습니까?  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 다음 시나리오를 고려하십시오.
 
