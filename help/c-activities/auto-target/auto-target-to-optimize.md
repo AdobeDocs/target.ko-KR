@@ -1,6 +1,6 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
-description: Adobe Target의 자동 Target은 고급 머신 러닝을 사용하여 고성능의 마케터가 정의한 여러 경험 중에서 선택하여 컨텐츠를 개인화하고 전환율을 높일 수 있습니다. 자동 타겟은 개별 고객 프로필 및 유사한 프로필을 갖는 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
+description: Adobe Target의 자동 Target은 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 경험 중에서 선택하여 컨텐츠를 개인화하고 전환을 유도합니다. 자동 타겟은 개별 고객 프로필 및 유사한 프로필을 갖는 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
 title: 자동 Target 개요
 feature: auto-target
 translation-type: tm+mt
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 자동 Target 개요
+# ![](/help/assets/premium.png) PremiumaUto-Target 개요
 
 [!UICONTROL 자동 타겟]은 콘텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택합니다. 자동 타겟은 개별 고객 프로필 및 유사한 프로필을 갖는 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
 
@@ -20,15 +20,15 @@ ht-degree: 86%
 >
 >[!UICONTROL 자동 타겟]은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다. 이 라이센스에서 제공하는 고급 기능에 대한 자세한 내용은 [Target Premium](/help/c-intro/intro.md)을 참조하십시오.
 >
->[!UICONTROL Target용] 분석(A4T)은 자동 Target [!UICONTROL 활동을] 지원합니다. 자세한 내용은 Analytics [를 보고 소스로 사용하는 활동 만들기를 참조하십시오](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
+>[!UICONTROL Target] (A4T)용 분석은 자동 타게팅  [!UICONTROL 활동을 ] 지원합니다. 자세한 내용은 [Analytics를 보고 소스로 사용하는 활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)를 참조하십시오.
 
-## 자동 Target을 사용한 실제 성공 사례 {#success}
+## 자동 Target {#success}을(를) 사용한 실제 성공 사례
 
-최근 주요 의류 소매업체는 10개의 제품 카테고리 기반 경험(무작위 제어 포함)이 포함된 [!UICONTROL 자동 Target] 활동을 사용하여 각 방문자에게 올바른 컨텐츠를 전달했습니다. &quot;[!UICONTROL 장바구니에]추가&quot;가 기본 최적화 지표로 선택되었습니다. 타깃팅된 경험들은 평균 29.09%의 상승률을 보였다. 자동 [!UICONTROL Target] 모델을 빌드한 후 활동이 90%의 개인화된 경험으로 설정되었습니다.
+주요 의류 판매업체는 최근 10개의 제품 카테고리 기반 경험(임의화된 제어 포함)이 포함된 [!UICONTROL 자동 Target] 활동을 사용하여 각 방문자에게 올바른 컨텐츠를 전달했습니다. &quot;[!UICONTROL 장바구니에 추가]&quot;가 기본 최적화 지표로 선택되었습니다. 타깃팅된 경험의 평균 상승률은 29.09%였습니다. [!UICONTROL 자동 Target] 모델을 빌드한 후 활동이 90%의 개인화된 경험으로 설정되었습니다.
 
-10일 만에 170만 달러 이상의 리프트 뚫렸다.
+10일 만에 170만 달러 이상의 리프트 효과가 나왔다.
 
-지속적인 읽기를 통해 자동 [!UICONTROL Target을] 사용하여 조직의 상승도와 매출을 높이는 방법을 살펴볼 수 있습니다.
+[!UICONTROL 자동 Target]을 사용하여 조직의 상승도와 매출을 높이는 방법을 계속 읽으십시오.
 
 ## 개요 {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,15 +44,15 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 ## 고려 사항
 
-There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
+[!UICONTROL 자동 Target]을(를) 사용할 때 고려해야 할 몇 가지 중요한 사항이 있습니다.
 
 * 특정 활동을 [!UICONTROL 자동 타겟]에서 자동화된 개인화로 전환하거나 그 반대로 전환할 수 없습니다.
 * 활동이 라이브 상태가 된 후에는 수동 트래픽 할당(기존 A/B 테스트)에서 [!UICONTROL 자동 타겟]으로 전환하거나 그 반대로 전환할 수 없습니다.
-* 하나의 모델은 개인화된 전략과 무작위로 제공되는 트래픽의 성과를 식별하여 모든 트래픽을 전체적인 우승 경험으로 보내는 것입니다. 이 모델은 히트와 전환을 기본 환경에서만 고려합니다.
+* 하나의 모델은 개인화된 전략의 성과 무작위로 제공되는 트래픽에 대한 성과를 식별하기 위해 구축되며, 모든 트래픽을 전체 우승 경험으로 전송합니다. 이 모델은 기본 환경에서만 히트 및 전환을 고려합니다.
 
-   두 번째 모델 세트의 트래픽은 각 모델링 그룹(AP) 또는 경험(AT)에 대해 작성됩니다. 이러한 각 모델에 대해 모든 환경에서 히트 및 전환을 고려합니다.
+   두 번째 모델 세트의 트래픽은 각 모델링 그룹(AP) 또는 경험(AT)에 대해 작성됩니다. 이러한 각 모델의 경우 모든 환경에서 히트 수 및 전환을 고려합니다.
 
-   따라서 요청은 환경에 관계없이 동일한 모델로 제공되지만 트래픽의 복수는 기본 환경에서 생성되어야 식별된 전체 우승 경험이 실제 행동과 일치하는지 확인합니다.
+   따라서 요청은 환경에 상관없이 동일한 모델로 제공되지만, 트래픽의 복수는 기본 환경에서 생성되어야 식별된 전체 우승 경험이 실제 행동과 일치하는지 확인합니다.
 
 * 최소 두 개의 경험을 사용해야 합니다.
 
@@ -162,7 +162,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 
 자세한 내용은 [보고서](/help/c-reports/reports.md) 섹션의 [자동 타겟 요약 보고서](/help/c-reports/auto-target-summary-report.md)를 참조하십시오.
 
-## 교육 비디오:자동 Target 활동 개요 ![배지 이해](/help/assets/overview.png)
+## 교육 비디오:자동 Target 활동 이해 ![개요 배지](/help/assets/overview.png)
 
 다음 비디오에서는 [!UICONTROL 자동 타겟] A/B 활동을 설정하는 방법을 설명합니다.
 
