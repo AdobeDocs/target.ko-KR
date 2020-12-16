@@ -73,7 +73,7 @@ ht-degree: 98%
 
 * `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
 
-* `womens-clothing`: 5 (+5)
+* `womens-clothing`:5 (+5)
 
 * `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
 
@@ -87,7 +87,7 @@ ht-degree: 98%
 
 * `accessories`: 3.3 (6.5/2)
 
-* `womens-clothing`: 2.5 (5/2)
+* `womens-clothing`:2.5 (5/2)
 
 * `jewelry`: 2.3 (4.5/2)
 
@@ -131,7 +131,7 @@ ht-degree: 98%
    * 네 번째 카테고리
    * 다섯 번째 카테고리
 
-   &quot;즐겨찾기 카테고리&quot; 및 &quot;첫 번째 카테고리&quot; 옵션은 동일합니다.
+   &quot;즐겨찾기 카테고리&quot; 및 &quot;첫 번째 카테고리&quot; 옵션은 같습니다.
 
 1. 평가기를 선택합니다.
 
