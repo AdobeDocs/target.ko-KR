@@ -4,10 +4,10 @@ description: Adobe Target의 자동 Target 문제 해결 및 FAQ
 title: 자동 Target 문제 해결 및 FAQ
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 18dbc90f52c9a23713577c4cda4ac87a5b69edd2
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 71%
+source-wordcount: '1902'
+ht-degree: 68%
 
 ---
 
@@ -143,3 +143,9 @@ AP 활동에서 상승도를 생성하는 데에는 4가지 필요한 요소가 
 [!UICONTROL 자동 타겟] 활동에서는 전환 지표(최적화 목표든 게시 목표든)가 전환되면 사용자는 경험에서 해제되고 활동이 다시 시작됩니다.
 
 예를 들어, 전환 지표(C1)와 추가적인 지표(A1)가 있는 활동이 있습니다. A1은 C1에 종속적입니다. 방문자가 처음으로 활동을 시작하고 A1 및 C1을 전환하기 위한 기준이 전환되지 않은 경우 지표 A1은 성공 지표 종속성으로 인해 전환되지 않습니다. 방문자가 C1을 전환한 후에 A1을 전환하는 경우, C1이 전환되는 즉시 방문자가 해제되므로 A1은 여전히 전환되지 않습니다.
+
+### 자동 Target 활동에서 단일 경험을 제거하면 어떻게 됩니까?
+
+[!DNL Target] 경험당 하나의 모델을 구축하므로 한 경험을 제거하면 하나 [!DNL Target] 의 모델이 더 적게 만들어지고 다른 경험에 대한 모델에는 영향을 주지 않습니다.
+
+예를 들어 8개의 경험이 있는 [!UICONTROL 자동 Target] 활동이 있고 하나의 경험의 성능이 마음에 들지 않는다고 가정합니다. 해당 경험을 제거할 수 있으며 7개의 남은 경험에 대한 모델에 영향을 주지 않습니다.
