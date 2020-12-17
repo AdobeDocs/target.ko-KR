@@ -4,15 +4,15 @@ description: Adobe "Analytics for Target"(A4T)은 Analytics 변환 지표와 대
 title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 feature: a4t general
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 46%
+source-wordcount: '1306'
+ht-degree: 45%
 
 ---
 
 
-# Adobe Target용 보고 소스로서의 Adobe Analytics(A4T){#adobe-analytics-as-the-reporting-source-for-adobe-target-a-t}
+# Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 
 [!DNL Adobe Analytics for Target] (A4T)는  [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 활동을 만들 수 있는 솔루션 간 통합입니다. A4T 통합을 사용하면 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다. 활동의 보고 소스로 [!DNL Analytics]을 사용하는 경우 해당 활동에 대한 모든 보고 및 세그멘테이션은 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
 
@@ -73,7 +73,8 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 | AEM 6.1(또는 이하) 클라우드 서비스 통합 | 아니오 |  |
 | AEM 6.2(또는 이상 버전) 클라우드 서비스 통합 | 예 | 자세한 내용은 [!DNL Adobe Experience Manager] 6.2 설명서의 [Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)과 통합을 참조하십시오. |
 | 리디렉션 오퍼를 사용하는 모든 활동 | 예 | A4T에서 리디렉션 오퍼를 사용하기 위한 보다 엄격한 최소 요구 사항이 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오. |
-| Node.JS | 예 |  |
+| Node.JS | 예 | 자세한 내용은 *Adobe Target SDK* 안내서의 [Node.js SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk)을 참조하십시오. |
+| Java SDK | 예 | 자세한 내용은 *Adobe Target* SDK 안내서의 [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk)를 참조하십시오. |
 
 모든 활동 유형은 아직 A4T를 지원하지 않으므로 `orderConfirmPage` mbox와 같은 중요한 전환 mbox를 유지하거나 구현하는 것이 좋습니다.
 
