@@ -2,9 +2,9 @@
 keywords: Administration;approver role;approver
 description: 이 섹션에는 Adobe Target 관리자가 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후 수행해야 하는 첫 번째 단계들이 포함되어 있습니다.
 title: 관리자의 첫 단계
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 93%
