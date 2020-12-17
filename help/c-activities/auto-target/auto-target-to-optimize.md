@@ -2,9 +2,9 @@
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 description: Adobe Target의 자동 Target은 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 경험 중에서 선택하여 컨텐츠를 개인화하고 전환을 유도합니다. 자동 타겟은 개별 고객 프로필 및 유사한 프로필을 갖는 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
 title: 자동 Target 개요
-feature: auto-target
+feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '2014'
 ht-degree: 86%
