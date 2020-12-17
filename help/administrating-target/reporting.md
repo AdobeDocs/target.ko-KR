@@ -2,9 +2,9 @@
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
 description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 Adobe Target VEC(Visual Experience Composer)를 구성합니다.
 title: Adobe Target에서 보고 구성
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 32%
