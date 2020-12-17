@@ -2,9 +2,9 @@
 keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Adobe Target에서 손쉽게 관리하고 분리된 보고를 위해 사이트와 프리 프로덕션 환경을 구성할 수 있습니다.
 title: 호스트
-feature: hosts and environments
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '1082'
 ht-degree: 26%
