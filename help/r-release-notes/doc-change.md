@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: '3165'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 16년 12월 | [자동 Target 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;자동 Target 활동에서 단일 경험을 제거하면 어떻게 됩니까?&quot; |
 | 9년 12월 | [디바이스에서 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 새 주제입니다.  |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 문제를 알려진 문제 섹션에서 해결된 문제 섹션으로 옮겼습니다.&quot;&quot;처리 중&quot; 레이블을 표시하는 이미지 오퍼입니다.&quot; |
 | 1년 12월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | &quot;Adobe Target의 디바이스에서 의사 결정을 내림하여 지연 없이 개인화 및 테스트&quot;를 위한 웨비나 녹화를 포함했습니다. |
