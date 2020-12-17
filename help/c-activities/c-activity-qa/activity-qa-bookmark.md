@@ -2,9 +2,9 @@
 keywords: qa;preview;bookmarklet;preview links
 description: Adobe Target QA 북마클릿을 사용하여 Target을 강제로 QA 모드에서 해제시키는 데 도움이 되는 정보입니다.
 title: Adobe Target용 활동 QA 북마클릿
-feature: qa
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 11%
