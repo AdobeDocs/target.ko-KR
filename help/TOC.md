@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있도록 고객의 경험을 맞춤화 및 개인화하는 방법을 살펴볼 수 있습니다.
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '1567'
-ht-degree: 86%
+source-wordcount: '1570'
+ht-degree: 85%
 
 ---
 
@@ -200,6 +200,7 @@ ht-degree: 86%
       + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
       + [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md)
       + [일반적인 A/B 테스트 문제와 이를 방지하는 방법 10가지 문제](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [A/A 테스트](/help/c-activities/t-test-ab/aa-testing.md)
       + A/B 테스트 만들기 {#create}
          + [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
