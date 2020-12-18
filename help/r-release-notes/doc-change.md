@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '3188'
+source-wordcount: '3194'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 18년 12월 | [A/A 테스트](/help/c-activities/t-test-ab/aa-testing.md) | 새 주제입니다.  |
 | 17년 12월 | [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Java SDK가 A4T를 지원함을 나타내기 위해 테이블을 업데이트했습니다. |
 | 16년 12월 | [자동 Target 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;자동 Target 활동에서 단일 경험을 제거하면 어떻게 됩니까?&quot; |
 | 9년 12월 | [디바이스에서 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 새 주제입니다.  |
