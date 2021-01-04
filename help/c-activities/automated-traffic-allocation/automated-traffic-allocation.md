@@ -1,20 +1,20 @@
 ---
-keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
-description: Adobe Target의 자동 할당 활동은 두 개 이상의 경험 중에서 우승자를 식별하고 테스트가 계속 실행되고 학습하는 동안 전환을 증가시키기 위해 우승자에게 더 많은 트래픽을 자동으로 재할당합니다.
+keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation;auto-allocate;auto allocate
+description: Adobe Target의 자동 할당 활동은 두 개 이상의 경험 중에서 우승자를 식별하고 테스트가 계속 실행되고 학습하는 동안 전환율을 높이기 위해 우승자에게 더 많은 트래픽을 자동으로 재할당합니다.
 title: 자동 할당
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '3374'
-ht-degree: 74%
+source-wordcount: '3377'
+ht-degree: 73%
 
 ---
 
 
 # 자동 할당 개요
 
-자동 할당은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습하는 동안 전환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.
+[!DNL Adobe Target]의 자동 할당 활동은 두 개 이상의 경험 중에서 우승자를 식별하고, 테스트가 계속 실행되고 학습하는 동안 전환을 증가시키기 위해 우승자에게 더 많은 트래픽을 자동으로 재할당합니다.
 
 3단계 안내 작업 과정을 사용하여 A/B 활동을 만드는 동안 [!UICONTROL 최적의 경험에 자동 할당] 옵션을 선택할 수 있습니다.
 
