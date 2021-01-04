@@ -1,13 +1,13 @@
 ---
 keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
-description: Adobe Target의 시각적 경험 작성기를 사용하여 Target이 활성화된 페이지에서 직접 A/B 테스트 자동 할당 활동을 만들고 Target 내의 페이지 부분을 수정할 수 있습니다.
+description: Adobe Target의 VEC(Visual Experience Composer)를 사용하여 Target이 활성화된 페이지에서 직접 자동 Target A/B 테스트 활동을 만들고 Target 내의 페이지 부분을 수정할 수 있습니다.
 title: 자동 Target 활동 만들기
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 57%
+source-wordcount: '897'
+ht-degree: 59%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 57%
 [!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer](VEC)를 사용하여 [!UICONTROL 자동 Target] [!UICONTROL A/B 테스트] 활동을 [!DNL Target] 사용 가능한 페이지에서 직접 만들고 [!DNL Target] 내 페이지의 부분을 수정합니다.
 
 >[!NOTE]
+>
+>[!UICONTROL 자동 타겟]은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다. 이 라이센스에서 제공하는 고급 기능에 대한 자세한 내용은 [Target Premium](/help/c-intro/intro.md)을 참조하십시오.
 >
 >[!UICONTROL 자동 Target] [!UICONTROL A/B 테스트] 활동(이 문서에 설명됨) 외에 [!DNL Target]는 두 가지 추가 유형의 [!UICONTROL A/B 테스트] 활동을 제공합니다.[!UICONTROL 수동(기본값)] 및 [!UICONTROL 자동 할당].
 >
