@@ -4,17 +4,17 @@ description: 서버 측 게재와 함께 Adobe Target QA URL을 사용하여 변
 title: 활동 QA 및 서버 측 전달 사용
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 80%
+source-wordcount: '384'
+ht-degree: 72%
 
 ---
 
 
-# 활동 QA 및 서버 측 전달 사용{#use-activity-qa-with-server-side-delivery}
+# 활동 QA 및 서버 측 전달 사용
 
-서버 측 전달과 함께 QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그멘테이션된 상태를 유지하는 QA 보고를 수행할 수 있습니다.
+[!DNL Adobe Target]의 서버측 게재와 함께 QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 대상 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고와 함께 종단 간 활동 QA를 손쉽게 수행할 수 있습니다.
 
 활동 QA의 표준 구현에서 `pageUrl` 매개 변수를 통해 `qa_mode` 매개 변수 전달을 지원합니다. 이 방법은 표준/ajax [!DNL Target] 호출에 유용합니다. 그러나 서버 간 호출의 경우 `pageUrl`을 사용할 수 없는 모바일 SDK 사례에는 적합한 방법이 아닙니다.
 
