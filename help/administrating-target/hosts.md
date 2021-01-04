@@ -4,17 +4,17 @@ description: Adobe Target에서 손쉽게 관리하고 분리된 보고를 위�
 title: 호스트
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 26%
+source-wordcount: '1083'
+ht-degree: 25%
 
 ---
 
 
 # 호스트{#hosts}
 
-쉽게 관리하고 개별적으로 보고하려면 사이트와 사전 프로덕션 환경을 구성하십시오.
+사이트와 프리 프로덕션 환경을 구성하여 [!DNL Adobe Target]에서 손쉽게 관리하고 별도로 보고할 수 있습니다.
 
 호스트 관리의 기본 목적은 비활성화 상태 컨텐츠가 실수로 웹 사이트에 나타나지 않도록 하는 것입니다. 호스트 관리를 사용하면 보고서 데이터를 [environment](/help/administrating-target/environments.md)로 분리할 수도 있습니다.
 
