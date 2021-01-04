@@ -4,7 +4,7 @@ description: Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target
 title: Target 공지
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -54,6 +54,6 @@ McKinsey Digital은 &quot;8주 내에 소비자 및 비즈니스 디지털 채�
 
 ## Adobe Target 스킬 빌더:개발자 채팅, Adobe Target의 mbox.js를 at.js {#skill-builder}로 마이그레이션
 
-2021년 1월 18일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자 David Son은 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션함으로써 얻을 수 있는 이점에 대해 논의했습니다.
+2021년 3월 31일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자 David Son은 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션함으로써 얻을 수 있는 이점에 대해 논의했습니다.
 
 [여기에서 웨비나 레코딩을 봅니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
