@@ -1,21 +1,22 @@
 ---
-description: 다변량 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
-title: 다변량 테스트에 대한 경험 미리 보기 Adobe Target에서
-feature: mvt
+keywords: multivariate;mvt;preview;experiences
+description: Adobe Target의 다변수 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험으로 페이지를 미리 보는 것이 유용합니다.
+title: Adobe Target에서 다변수 테스트를 위한 경험 미리 보기
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 69%
 
 ---
 
 
 # 다변량 테스트에 대한 경험 미리 보기{#preview-experiences-for-a-multivariate-test}
 
-다변량 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
+[!DNL Adobe Target]의 [!UICONTROL 다변량 테스트]는 한 페이지의 여러 경험을 비교하므로 각 경험으로 페이지를 미리 보는 것이 유용합니다.
 
-1. 경험 작성기에서 **[!UICONTROL 미리 보기]**&#x200B;를 클릭합니다.
+1. VEC(Visual Experience Composer)에서 **[!UICONTROL 미리 보기]**&#x200B;를 클릭합니다.
 
    모든 경험 목록이 표시됩니다.
 
