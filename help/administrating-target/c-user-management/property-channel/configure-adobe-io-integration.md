@@ -1,13 +1,13 @@
 ---
 keywords: integration;roles;user permissions;admin console
-description: Adobe Target에서 원하는 역할을 가진 모든 작업 공간에 기존 Adobe I/O 통합 액세스 권한을 부여하는 것과 관련된 정보입니다.
+description: Adobe Target에서 원하는 역할을 가진 모든 작업 영역에 대한 기존 Adobe I/O 통합 액세스 권한 부여
 title: Adobe Target에서 작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 88%
+source-wordcount: '613'
+ht-degree: 85%
 
 ---
 
