@@ -4,9 +4,9 @@ description: Adobe Target QA URL을 사용하여 변경되지 않는 미리 보�
 title: 활동 QA
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1529'
 ht-degree: 80%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 80%
 
 # 활동 QA {#activity-qa}
 
-Adobe Target에서 QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고와 함께 종단 간 활동 QA를 손쉽게 수행할 수 있습니다.
+[!DNL Adobe Target]의 QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 종단 간 활동 QA를 손쉽게 수행할 수 있습니다.
 
 ## 개요 {#section_11B761A522A14E61978275772210A4C2}
 
