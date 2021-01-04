@@ -1,12 +1,12 @@
 ---
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
-description: Adobe Target 관리자가 Target에서 별도의 작업 영역(제품 프로필)을 만든 다음 이러한 작업 영역을 기반으로 개별 페이지, 속성 또는 웹 사이트에 대해 다른 역할 및 권한을 사용자에게 할당할 수 있는 속성 및 권한 기능 사용 및 속성 관련 정보입니다.
+description: Adobe Target 관리자가 Target에서 별도의 작업 영역(제품 프로필)을 만든 다음 이러한 작업 영역을 기반으로 개별 페이지, 속성 또는 웹 사이트에 대해 서로 다른 역할 및 권한을 사용자에게 할당할 수 있는 속성 및 권한 기능을 사용하여 속성을 만듭니다.
 title: Enterprise 사용자 권한
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '3054'
+source-wordcount: '3052'
 ht-degree: 79%
 
 ---
