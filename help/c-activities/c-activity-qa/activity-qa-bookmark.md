@@ -4,7 +4,7 @@ description: Adobe Target QA 북마클릿을 사용하여 Target을 강제로 QA
 title: Adobe Target용 활동 QA 북마클릿
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 ---
 
 
-# 활동 QA 북마클릿{#activity-qa-bookmarklet}
+# 활동 QA 북마클릿
 
 [!DNL Target] QA 북마클릿을 사용하여 [!DNL Target]을(를) 강제로 QA 모드에서 해제하도록 하는 데 도움이 되는 정보입니다.
 
