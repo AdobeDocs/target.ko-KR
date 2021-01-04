@@ -1,20 +1,20 @@
 ---
 keywords: Administration;approver role;approver
-description: 이 섹션에는 Adobe Target 관리자가 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후 수행해야 하는 첫 번째 단계들이 포함되어 있습니다.
+description: Adobe Target 관리자는 이메일로 Adobe Experience Cloud에 초대장을 받은 후 첫 번째 단계를 수행해야 합니다.
 title: 관리자의 첫 단계
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 93%
+source-wordcount: '399'
+ht-degree: 84%
 
 ---
 
 
-# 관리자의 첫 단계{#administrator-first-steps}
+# 관리자의 첫 단계
 
-이 섹션에는 [!DNL Target] 관리자가 [!DNL Adobe Experience Cloud]에 대한 이메일 초대장을 받은 후 수행해야 하는 첫 번째 단계들이 포함되어 있습니다.
+이 문서에는 [!DNL Adobe Target] 관리자가 [!DNL Adobe Experience Cloud]에게 이메일로 보낸 초대를 받은 후 수행해야 하는 첫 번째 단계가 포함되어 있습니다.
 
 ## Target에 초대 받기 {#task_3E0817630774431983FAA3D2CB2E75BD}
 
