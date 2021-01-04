@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
-source-wordcount: '3194'
+source-wordcount: '3220'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2021년 1월 4일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target이 2021년 1월 18일부터 2021년 3월 31일까지 mbox.js를 더 이상 지원하지 않는 날짜를 변경했습니다. |
 | 18년 12월 | [A/A 테스트](/help/c-activities/t-test-ab/aa-testing.md) | 새 주제입니다.  |
 | 17년 12월 | [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Java SDK가 A4T를 지원함을 나타내기 위해 테이블을 업데이트했습니다. |
 | 16년 12월 | [자동 Target 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;자동 Target 활동에서 단일 경험을 제거하면 어떻게 됩니까?&quot; |
@@ -93,7 +94,7 @@ ht-degree: 28%
 | --- | --- | --- |
 | 8월 31일 | [Recommendations과 함께 Adobe Analytics 사용](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | FAQ 섹션이 추가되었습니다. |
 | 8월 28일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음을 업데이트했습니다.<ul><li>알려진 문제 섹션에 추가되었습니다.&quot;보고 - 현재 전환은 사용된 고객을 기준으로 다르게 증가합니다.&quot;</li><li>해결된 문제 섹션에 추가되었습니다.&quot;Google Chrome 버전 80+을 사용할 때 VEC(Visual Experience Composer) 또는 EEC(Enhanced Experience Composer)에서 페이지가 로드되지 않습니다.&quot;</li></ul> |
-|  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | mbox.js의 사용 중단 날짜가 2020년 8월 30일에서 2021년 1월 18일로 변경되었습니다. |
+|  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | mbox.js의 사용 중단 날짜가 2020년 8월 30일에서 2021년 1월 18일로 변경되었습니다. 2020년 3월 31일로 변경되었습니다. |
 | 8월 26일 | [Target Recommendations과 함께 Adobe Analytics 사용](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md) | 새 주제입니다.  |
 | 8월 24일 | [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) | &quot;고급 설정&quot; 섹션이 업데이트되었습니다. |
 | 8월 21일 | [Adobe Target 시작 키트 개요](/help/c-intro/target-welcome-kit.md) | 새 아티클 및 하위 주제입니다. |
