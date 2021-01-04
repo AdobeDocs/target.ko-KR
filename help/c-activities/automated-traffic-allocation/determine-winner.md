@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Adobe Target UI에서 향상도 및 신뢰도를 포함한 중요한 지표를 검사하여 자동 할당 A/B 활동의 결과를 해석합니다.
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+description: 향상도 및 신뢰도를 포함한 중요한 지표를 검사하여 Adobe Target에서 A/B 자동 할당 활동의 결과를 해석합니다.
 title: 자동 할당 보고서 해석
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1112'
 ht-degree: 47%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 47%
 
 # 자동 할당 보고서 해석 {#determine-a-winner}
 
-Target UI에서 향상도 및 신뢰도를 포함한 중요한 지표를 검사하여 자동 할당 A/B 활동의 결과를 해석합니다.
+상승도와 신뢰도를 포함한 중요한 표시기를 검사하여 [!UICONTROL Adobe Target] A/B 활동의 결과를 해석합니다.
 
 많은 마케터가 결과가 명확한 승자를 표시하기 전에 가장 성과가 좋은 경험을 조급하게 선언합니다. 이제 승자를 결정하는 것이 쉬워졌습니다.
 
