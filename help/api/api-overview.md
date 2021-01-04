@@ -4,9 +4,9 @@ description: 관리, 전달, 보고 및 프로필 API를 비롯한 Adobe Target 
 title: Adobe Target API 개요
 feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '248'
 ht-degree: 1%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Adobe Target API 개요
 
-[!DNL Adobe Target] API는 유형에 따라 그룹화할 수 있습니다.
+[!DNL Adobe Target] API는 다음 유형에 따라 그룹화할 수 있습니다.관리, 전달, 보고 및 프로필 API.
 
 | API 유형 | 이 기능을 통해 얻을 수 있는 이점 | 다운로드 링크 | 기타 유용한 링크 |
 | --- | --- | --- |--- |
