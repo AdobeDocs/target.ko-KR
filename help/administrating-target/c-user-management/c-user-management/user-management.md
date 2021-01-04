@@ -1,12 +1,12 @@
 ---
 keywords: add user;manage user;user permissions
-description: Adobe Target에 사용자를 추가하고 Adobe Admin Console에서 해당 권한을 관리할 수 있습니다.
+description: Adobe Target에 사용자를 추가하고 Adobe Admin Console에서 해당 권한을 관리합니다.
 title: 사용자
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 46%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 # 사용자{#users}
 
-사용자를 추가하고 해당 권한을 [!DNL Adobe Admin Console]에서 관리할 수 있습니다.
+사용자를 추가하고 해당 권한을 [!DNL Adobe Admin Console]에서 관리합니다.
 
 >[!NOTE]
 >
