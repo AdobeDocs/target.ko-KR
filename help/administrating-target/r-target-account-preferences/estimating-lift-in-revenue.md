@@ -1,24 +1,24 @@
 ---
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
-description: Adobe Target은 모든 사용자가 우승 경험을 보는 경우 달성할 매출 리프트를 예측할 수 있습니다.
+description: 모든 사용자가 우승 경험을 보는 경우 달성해야 할 매출 증가를 예상하려면 Adobe Target을 사용합니다.
 title: 매출 상승도 평가
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 96%
+source-wordcount: '506'
+ht-degree: 90%
 
 ---
 
 
 # 매출 상승도 평가{#estimate-lift-in-revenue}
 
-Target은 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측할 수 있습니다.
+모든 사용자가 우승 경험을 보는 경우 달성할 매출 리프트를 예상하려면 [!DNL Adobe Target]을 사용합니다.
 
 >[!NOTE]
 >
->예상 상승도는 현재 경험 타깃팅(XT) 활동에 사용할 수 없습니다.
+>현재 [!UICONTROL 경험 타깃팅](XT) 활동에는 예상 리프트를 사용할 수 없습니다.
 
 예상 상승도 기능은 기본적으로 꺼져 있으며, 계정 환경 설정에서 활성화할 수 있습니다. Experience Cloud 관리자 사용자만 이 기능을 활성화하거나 비활성화할 수 있습니다. 예상되는 상승도가 비활성화되면 해당 필드가 인터페이스에 표시되지 않습니다. 이 기능을 비활성화해도 예상치에 사용되는 데이터를 비롯한 어떤 데이터도 손실되지 않습니다. 예상치는 기능의 활성화 여부와 관계없이 수집되는 데이터를 기준으로 합니다.
 
