@@ -4,7 +4,7 @@ description: Target 기능에 대해 학습하는 데 도움이 되는 추가 �
 title: 리소스 및 연락처 정보
 feature: reference general
 translation-type: tm+mt
-source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
@@ -121,7 +121,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 ### 법적 정보 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2020 Adobe Systems Incorporated. All Rights Reserved.
+* © 2021 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
 [Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
