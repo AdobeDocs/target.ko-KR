@@ -1,20 +1,20 @@
 ---
 keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library;swap image
-description: Adobe Target은 Adobe Dynamic Media Classic과 통합하여 콘텐츠 라이브러리에 디지털 자산 관리(DAM)를 제공할 수 있습니다.
+description: Adobe Target은 Adobe Dynamic Media Classic(이전 Scene7)과 통합하여 콘텐츠 라이브러리에 DAM(Digital Asset Management)을 제공할 수 있습니다.
 title: Dynamic Media Classic 통합 구성 통합
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '382'
 ht-degree: 18%
 
 ---
 
 
-# Scene7 구성 {#scene-settings}
+# Scene7 구성
 
-[!DNL Target] 을 컨텐츠 라이브러리 [!DNL Adobe Dynamic Media Classic] 에서 디지털 자산 관리(DAM)를 제공하기 위해 [!UICONTROL 와 통합할 수 있습니다].
+[!DNL Adobe Target] 컨텐츠 라이브러리에서  [!DNL Adobe Dynamic Media Classic] (이전 Scene7)과 통합하여 DAM(Digital Asset Management)을 제공할 수  [!UICONTROL 있습니다].
 
 >[!NOTE]
 >
