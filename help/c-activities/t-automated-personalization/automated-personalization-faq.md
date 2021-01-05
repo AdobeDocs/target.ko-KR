@@ -1,18 +1,18 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
 description: 자동화된 개인화(AP)에 대한 FAQ 목록
 title: 자동화된 개인화 FAQ
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1963'
 ht-degree: 85%
 
 ---
 
 
-# ![](/help/assets/premium.png) Premium 자동화된 개인화 FAQ{#automated-personalization-faq}
+# ![](/help/assets/premium.png) Premium 자동화된 개인화 FAQ
 
 자동화된 개인화(AP)에 대한 FAQ 목록
 
@@ -53,7 +53,7 @@ AP([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/au
 
 ## FAQ
 
-자동 할당 활동을 할 때 다음 FAQ와 답변을 참조하십시오.
+[!UICONTROL Automated Personalization] 활동 시 다음 FAQ 및 답변을 참조하십시오.
 
 ### 자동화된 개인화의 제한 사항은 무엇입니까? {#section_08BA09ED51B547299963C94FE6417CFA}
 
