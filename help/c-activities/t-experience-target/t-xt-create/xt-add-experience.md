@@ -1,20 +1,20 @@
 ---
 keywords: create experience;experience create;priority;audience;experience;visual experience composer
-description: Adobe Target VEC(시각적 경험 작성기)는 XT(경험 타깃팅) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
+description: Adobe Target의 Adobe Target VEC(Visual Experience Composer)는 XT(Experience Targeting) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 title: '경험 만들기 '
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 93%
+source-wordcount: '971'
+ht-degree: 88%
 
 ---
 
 
-# 경험 만들기{#create-experience}
+# 경험 타깃팅(XT) 활동에 경험 만들기
 
-[!UICONTROL 시각적 경험 작성기(VEC)]는 [!UICONTROL XT(경험 타깃팅)] 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
+[!DNL Adobe Target]의 [!UICONTROL VEC(Visual Experience Composer])는 [!UICONTROL 경험 타깃팅](XT) 활동에서 페이지의 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 
 1. 변경할 요소를 선택하고 원하는 대로 변경합니다.
 
