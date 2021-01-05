@@ -1,10 +1,10 @@
 ---
-keywords: traffic estimator;automated personalization;ap
+keywords: traffic estimator;automated personalization;ap;estimate traffic
 description: 트래픽 견적 도구는 Adobe Target 활동이 성공하기에 충분한 트래픽이 있는지 여부를 알 수 있는 피드백을 제공합니다.
 title: 성공에 필요한 트래픽 예측
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '731'
 ht-degree: 24%
@@ -12,7 +12,7 @@ ht-degree: 24%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 성공에 필요한 트래픽 예측{#estimate-the-traffic-required-for-success}
+# ![PREMIUM](/help/assets/premium.png) 성공에 필요한 트래픽 예측
 
 [!UICONTROL 트래픽 견적 도구]에서는 [!DNL Adobe Target] 활동이 성공하기에 충분한 트래픽이 있는지 여부를 알 수 있는 피드백을 제공합니다.
 
