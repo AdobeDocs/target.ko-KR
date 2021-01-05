@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: 캡처 점수 참여 지표는 방문자가 캠페인의 첫 번째 표시 Target 요청을 처음 본 시점부터 사이트에서 방문한 페이지에 할당된 값을 기준으로 집계된 점수를 계산합니다.
+description: Adobe Target의 캡처 점수 참여 지표는 방문자가 캠페인의 첫 번째 디스플레이 Target 요청을 처음 본 시점부터 사이트에서 방문한 페이지에 할당된 값을 기준으로 집계된 점수를 계산합니다.
 title: 캡처 점수
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 51%
+source-wordcount: '768'
+ht-degree: 50%
 
 ---
 
 
-# 캡처 점수{#capture-score}
+# 캡처 점수
 
-캡처 점수 참여 지표는 방문자가 캠페인의 첫 번째 표시 [!DNL Target] 요청을 처음 본 시점부터 사이트에서 방문한 페이지에 할당된 값을 기준으로 집계된 점수를 계산합니다.
+[!DNL Adobe Target]의 캡처 점수 참여 지표는 방문자가 캠페인의 첫 번째 표시 [!DNL Target] 요청을 처음 본 시점부터 사이트에서 방문한 페이지에 할당된 값을 기준으로 집계된 점수를 계산합니다.
 
 다음 예에서는 고양이 이미지가 있는 경험과 개 이미지가 있는 경험 등 두 가지 경험을 테스트하는 캠페인에서 점수 참여가 계산되는 방식을 보여 줍니다.
 
@@ -28,7 +28,7 @@ ht-degree: 51%
 
 ![](assets/example_score2.png)
 
-**페이지 점수 할당**
+## 페이지 점수 할당
 
 페이지의 가치에 따라 사이트의 임의 페이지에 값을 할당할 수 있습니다. 예를 들어 요리 사이트는 경험 섹션보다 특집 기사 페이지의 광고를 더 비싼 값으로 판매할 수 있습니다. 따라서 특집 기사가 경험 섹션보다 더 귀중합니다. 페이지 점수를 통해 방문의 전체 &quot;값&quot;을 전개할 수 있으므로 많은 특집 기사를 읽는 사람이 경험만 찾아보는 사람보다 더 많은 &quot;포인트&quot;를 받습니다.
 
