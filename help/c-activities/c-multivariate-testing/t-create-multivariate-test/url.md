@@ -1,10 +1,10 @@
 ---
-keywords: Targeting
+keywords: Multivariate Tests;activity url
 description: 활동 URL은 Adobe Target MVT(Multivariate Test)에 사용되는 페이지를 결정하며 테스트가 Adobe Target에서 디자인될 때 열립니다.
 title: 활동 URL
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 84%
