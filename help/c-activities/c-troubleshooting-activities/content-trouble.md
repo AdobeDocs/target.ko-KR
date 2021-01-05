@@ -2,9 +2,9 @@
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: 페이지에 예상되는 컨텐츠가 표시되지 않으면 Adobe Target에서 컨텐츠 제공을 디버깅하는 몇 가지 단계를 수행할 수 있습니다.
 title: Adobe Target에서 컨텐츠 전달 문제 해결
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1386'
 ht-degree: 60%
@@ -12,7 +12,7 @@ ht-degree: 60%
 ---
 
 
-# 콘텐츠 전달 문제 해결{#troubleshoot-content-delivery}
+# 콘텐츠 전달 문제 해결
 
 페이지에 예상되는 콘텐츠가 표시되지 않으면 몇 가지 단계를 진행하여 콘텐츠 제공을 디버깅할 수 있습니다.
 
