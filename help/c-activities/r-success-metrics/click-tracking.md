@@ -1,20 +1,20 @@
 ---
 keywords: Click tracking;track clicks;clicks;AppMeasurement
-description: Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있습니다.
+description: Adobe Target을 사용하면 모든 요소의 클릭을 성공 지표로 추적할 수 있습니다.
 title: 클릭 추적
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 95%
+source-wordcount: '875'
+ht-degree: 92%
 
 ---
 
 
-# 클릭 추적{#click-tracking}
+# 클릭 추적
 
-Target에서 요소에 대한 클릭 수를 성공 지표로 추적할 수 있습니다.
+[!DNL Adobe Target] 모든 요소의 클릭을 성공 지표로 추적할 수 있습니다.
 
 >[!NOTE]
 >
