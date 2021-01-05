@@ -1,40 +1,40 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest;residual variance;error variance;lifetime value
-description: 자동화 개인화 활동 워크플로우는 다른 활동 유형의 워크플로우와 다릅니다.
+keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+description: Adobe Target의 Automated Personalization 활동 워크플로우는 다른 활동 유형의 워크플로우에 따라 다릅니다.
 title: 자동화된 개인화 활동 만들기
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2039'
-ht-degree: 97%
+source-wordcount: '2040'
+ht-degree: 92%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 활동 만들기{#create-an-automated-personalization-activity}
+# ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 활동 만들기
 
-자동화 개인화 활동 워크플로우는 다른 활동 유형의 워크플로우와 다릅니다.
+[!DNL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동 워크플로우는 다른 활동 유형의 워크플로우에 따라 다릅니다.
 
-1. 타겟 표준 활동 목록에서 **[!UICONTROL 활동 만들기]** > **[!UICONTROL Automated Personalization]**&#x200B;를 클릭합니다.
+1. [!DNL Target] [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** > **[!UICONTROL Automated Personalization]**&#x200B;을 클릭합니다.
 
    ![활동 만들기: 자동화된 맞춤설정](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. VEC(시각적 경험 작성기)를 사용하려면 **[!UICONTROL 시각적(기본값)]**&#x200B;을 클릭합니다.
+1. [!UICONTROL Visual Experience Composer](VEC)을 사용하려면 **[!UICONTROL 시각적(기본값)]**&#x200B;을 클릭합니다.
 
    ![자동화된 맞춤설정 활동 만들기 대화 상자](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   양식 기반 경험 작성기를 사용하려면 [!UICONTROL 양식을 선택합니다]. 자세한 내용은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 참조하십시오.
+   [!UICONTROL 양식 기반 경험 작성기]를 사용하려면 [!UICONTROL 양식]을 선택합니다. 자세한 내용은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 참조하십시오.
 
    >[!NOTE]
    >
-   >Target은 VEC 및 양식 기반 경험 작성기 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/c-experiences/experiences.md)를 참조하십시오.
+   >VEC 및 [!UICONTROL 양식 기반 Experience Composer] 외에도 [!DNL Target]는 [!UICONTROL 단일 페이지 응용 프로그램 VEC] 및 모바일 앱용 VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/c-experiences/experiences.md)를 참조하십시오.
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
    >이전 그림에서 [!UICONTROL 작업 공간 선택] 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.
 
-1. (조건부) Target Premium 고객인 경우 [작업 공간을 선택](/help/administrating-target/c-user-management/property-channel/property-channel.md)합니다.
+1. (조건부) [!DNL Target] 프리미엄 고객인 경우 [작업 공간](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
 1. 활동 URL을 확인하거나 입력한 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
@@ -44,7 +44,7 @@ ht-degree: 97%
 
    지정된 URL의 페이지가 시각적 경험 작성기에서 열립니다.
 
-1. 활동의 이름을 지정하려면 이름 필드를 클릭하고 활동 이름을 입력합니다.
+1. 활동의 이름을 지정하려면 **[!UICONTROL 이름]** 필드를 클릭하고 활동 이름을 입력합니다.
 
    ![이름 필드](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
