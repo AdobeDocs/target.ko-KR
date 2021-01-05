@@ -1,20 +1,20 @@
 ---
-keywords: automated personalization;Audiences;ensemble;random forest
-description: 자동화된 개인화(AP)는 컨텐츠를 개인화하고 상승도를 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결합니다.
+keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
+description: Automated Personalization(AP) 활동은 오퍼나 메시지를 조합하고, 컨텐츠를 개인화하고 리프트를 유도하기 위해 고급 기계 학습을 사용하여 개별 고객 프로파일을 기반으로 각 방문자에게 다양한 오퍼 변형을 일치시킵니다.
 title: 자동화된 개인화
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 97%
+source-wordcount: '1027'
+ht-degree: 89%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 자동화된 개인화{#automated-personalization}
+# ![](/help/assets/premium.png) Premiuma자동화된 개인화 (AP)
 
-[!UICONTROL 자동화된 개인화] (AP)는 컨텐츠를 개인화하고 상승도를 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결합니다.
+[!UICONTROL Automated Personalization] (AP) 활동은 오퍼나 메시지를  [!DNL Adobe Target] 결합하고, 컨텐츠를 개인화하고 리프트를 촉진하기 위해 고급 기계 학습을 사용하여 개별 고객 프로파일을 기반으로 각 방문자에게 다양한 오퍼 변형을 일치시킵니다.
 
 >[!NOTE]
 >
