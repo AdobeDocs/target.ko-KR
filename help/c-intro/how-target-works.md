@@ -1,13 +1,13 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
 description: Adobe Target은 JavaScript 라이브러리 at.js 또는 mbox.js 중 하나를 통해 웹 사이트와 통합
 title: Adobe Target 작동 방식
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '2403'
-ht-degree: 82%
+source-wordcount: '2438'
+ht-degree: 79%
 
 ---
 
@@ -18,10 +18,11 @@ Target JavaScript 라이브러리(at.js 및 mbox.js)와 Target에 포함된 다�
 
 ## Target JavaScript 라이브러리 {#libraries}
 
-Adobe Target은 JavaScript 라이브러리 at.js 또는 mbox.js 중 하나를 통해 웹 사이트와 통합됩니다
+Adobe Target은 JavaScript 라이브러리를 통해 웹 사이트와 통합됩니다.
 
 * **at.js:** [at.js 라이브러리](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)는 Target의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 권장되는 구현 라이브러리이며 새 기능으로 자주 업데이트됩니다. 모든 고객이 구현하거나 [at.js 최신 버전으로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)하는 것이 좋습니다.
-* **mbox.js:** mbox.js 라이브러리는 Target의 새 구현 라이브러리입니다. mbox.js 라이브러리는 계속 지원되지만 기능 업데이트는 제공되지 않을 예정입니다.
+* **Adobe Experience Platform 웹 SDK:**  [Adobe Experience Platform 웹 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK는 고객이  [!DNL Adobe Experience Cloud] Edge 네트워크 [!DNL Experience Cloud] 를  [!DNL Adobe Experience Platform] 통해 다양한 서비스와 상호 작용할 수 있도록 하는 새로운 클라이언트측 JavaScript 라이브러리입니다.
+* **mbox.js:**[ mbox.js 라이브러리는 Target의 새 구현 라이브러리입니다. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) mbox.js 라이브러리는 2021년 3월 31일까지 계속 지원되지만 기능 업데이트는 없습니다.
 
 >[!IMPORTANT]
 >
