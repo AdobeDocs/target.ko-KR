@@ -4,10 +4,10 @@ description: 프로필 값과 활동 정보를 HTML 또는 JSON 오퍼에 직접
 title: 오퍼에 동적 데이터 전달
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -57,7 +57,7 @@ mbox로 전달된 프로필 매개 변수의 경우 `${profile.parameter}` 구�
 
 `${user.parameter}`
 
-Recommendations 디자인에서 동적 속성을 사용할 때 동적 값이 제대로 렌더링되려면 달러 기호(&#39;$&#39;) 앞에 백슬래시(&#39;\&#39;)를 삽입해야 합니다. `\${user.endpoint.lastViewedEntity}`
+Recommendations 디자인에서 동적 속성을 사용할 때는 동적 값이 제대로 렌더링되도록 달러 기호( $) 앞에 백슬래시( \ )를 삽입해야 합니다.`\${user.endpoint.lastViewedEntity}`
 
 이러한 변수는 서버 쪽의 값으로 대체되므로 제대로 표시되려면 따옴표나 다른 JavaScript가 필요합니다.
 
