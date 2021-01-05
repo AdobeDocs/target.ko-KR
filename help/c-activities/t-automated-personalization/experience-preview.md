@@ -2,9 +2,9 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: Target Automated Personalization 활동에 대한 경험 미리 보기 URL을 생성하여 활동이 미리 보기 및 QA 목적으로 라이브되기 전에 사이트에서 직접 경험 컨텐츠를 볼 수 있습니다. 특정 경험을 강제로 볼 수 있도록 타깃팅을 무시하려면 미리 보기 URL을 무시합니다.
 title: 경험 미리 보기 URL을 사용하여 Automated Personalization 활동 미리 보기
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 64%
@@ -12,7 +12,7 @@ ht-degree: 64%
 ---
 
 
-# ![미리 ](/help/assets/premium.png) 보기 URL을 사용하여 Automated Personalization 활동 검토{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![미리 ](/help/assets/premium.png) 보기 URL을 사용하여 Automated Personalization 활동 검토
 
 Target Automated Personalization 활동에 대한 경험 미리 보기 URL을 생성하여 활동이 미리 보기 및 QA 목적으로 라이브되기 전에 사이트에서 직접 경험 컨텐츠를 볼 수 있습니다. 특정 경험을 강제로 볼 수 있도록 타깃팅을 무시하려면 미리 보기 URL을 무시합니다.
 
