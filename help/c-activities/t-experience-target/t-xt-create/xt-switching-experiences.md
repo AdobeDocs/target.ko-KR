@@ -2,9 +2,9 @@
 keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: 프로필이 발전함에 따라 방문자가 XT(경험 타깃팅) 활동에서 경험 간을 전환하는 방법에 대한 정보입니다.
 title: 경험 타깃팅에서 경험 전환
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# 경험 타깃팅에서 경험 전환{#switching-experiences-in-experience-targeting}
+# 경험 타깃팅에서 경험 전환
 
 프로필이 발전함에 따라 방문자가 XT(경험 타깃팅) 활동에서 경험 간을 전환하는 방법에 대한 정보입니다.
 
