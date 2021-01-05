@@ -1,9 +1,10 @@
 ---
+keywords: Experience Targeting;xt;create
 description: Target을 사용할 수 있는 페이지에서 XT(경험 타깃팅) 활동을 만들고 Adobe Target 내에서 해당 페이지의 부분을 수정하려면 시각적 경험 작성기를 사용하십시오.
 title: 경험 타깃팅 활동 만들기
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 97%
