@@ -2,22 +2,21 @@
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Adobe Target XT(경험 타깃팅) 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 title: 지표 설정
-feature: xt
-solution: Target
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 99%
+source-wordcount: '321'
+ht-degree: 89%
 
 ---
 
 
-# 지표 설정{#set-metrics}
+# 경험 타깃팅(XT) 활동에서 지표 설정
 
-XT(경험 타깃팅) 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
+[!DNL Adobe Target] [!UICONTROL 경험 타깃팅](XT) 활동에서 지표를 사용하여 방문이 성공했는지 여부를 결정할 수 있습니다.
 
-성공 지표에 대한 자세한 내용은  [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
+성공 지표에 대한 자세한 내용은 [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 
 1. 활동의 목표를 지정합니다.
 1. [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
