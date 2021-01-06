@@ -4,9 +4,9 @@ description: Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target
 title: Target 공지
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -16,24 +16,17 @@ ht-degree: 0%
 
 Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target 커피 브레이크 세션을 비롯한 예정된 이벤트에 대한 공지 및 정보입니다.
 
-## 경험 최적화 플랫폼을 위한 Forrester Wave 리포트에서 리더로 Adobe 선정
-
-&quot;The Forrester Wave:경험 최적화 플랫폼, 2020년 4분기 보고서(Adobe Target Premium) Adobe은 현재 제공 중인 솔루션 및 시장 입지 카테고리에서 추천 및 플랫폼 경험 기준으로 참여하는 모든 벤더 중에서 가장 높은 점수를 받았습니다. 또한 Target Premium은 경험 최적화 기법 혁신 및 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 이 보고서는 22개 기준을 바탕으로 10개의 경험 최적화 플랫폼 제공업체를 정밀하게 평가합니다.
-
-[Adobe 블로그](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)에서 이 정보를 참조하십시오.
-
-## Adobe, Gartner Magic Quadrant에서 개인화 엔진 부문 리더로 선정
-
-Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 조사 결과 15개 부문에서 벤더를 평가했으며, 그 기준은 2개였습니다.비전의 완전성과 실행의 능력.
-
-[Adobe 블로그에서 이 정보를 참조하십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+| 연구 서비스 | 세부 사항 |
+| --- | --- |
+| Forrester | Adobe은 경험 최적화 플랫폼을 위한 Forrester wave 보고서에서 리더로 선정되었습니다.<br>&quot;The Forrester Wave:경험 최적화 플랫폼, 2020년 4분기 보고서(Adobe Target Premium) Adobe은 현재 제공 중인 솔루션 및 시장 입지 카테고리에서 추천 및 플랫폼 경험 기준으로 참여하는 모든 벤더 중에서 가장 높은 점수를 받았습니다. 또한 Target Premium은 경험 최적화 기법 혁신 및 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 이 보고서는 22개 기준을 바탕으로 10개의 경험 최적화 플랫폼 제공업체를 정밀하게 평가합니다.<br>Adobe 블로그에서  [확인할 수 있습니다](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
+| Gartner | Adobe은 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정되었습니다.<br>Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 조사 결과 15개 부문에서 벤더를 평가했으며, 그 기준은 2개였습니다.비전의 완전성과 실행의 능력.<br>[Adobe 블로그에서 이 정보를 참조하십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
 ## 웨비나:규모에 맞게 개인화 성공:Forrester Wave, 경험 최적화 플랫폼 조사 결과
 
 * **1월 19일 화요일**
 * **오전 8시 PT | 오전 10시 CT | 동부시간 오전 11시**
 * **기간:60분**
-* **[여기에서 등록](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998)**
+* **[여기에서 등록하십시오](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998).**
 
 고객 경험을 규모에 맞게 최적화할 수 있는 기능은 이제 고객의 다이내믹한 요구 사항과 새로운 디지털 방문자의 급등을 충족하기 위해 매우 중요합니다. 디지털 자산 전반에 [!DNL Adobe Target]과 같은 경험 최적화 플랫폼을 배포하여 고객에게 적합한 경험을 적시에 신속하게 결정하고 제공하여 수동 및 AI 기반의 행동 타깃팅, 테스트 및 추천 기능을 활용할 수 있습니다. Forrester의 수석 애널리스트인 James McCormick와 함께 The Forrester Wave, 경험 최적화 플랫폼, 2020년 4분기에 발표된 주요 결과에 대해 논의합니다.
 
@@ -53,7 +46,7 @@ Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시
 
 ## 웨비나:HSBC가 Adobe Target 및 AI를 활용하여 개인화를 규모에 맞게 신속하게 최적화하고 전달하는 방법
 
-* **웨비나 레코딩을 보려면  [여기를 클릭하십시오](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **[여기에서 웨비나 레코딩을 봅니다](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital은 &quot;8주 내에 소비자 및 비즈니스 디지털 채택의 5년 앞당겨진 결과&quot;라고 보고했습니다. *
 
@@ -71,4 +64,4 @@ McKinsey Digital은 &quot;8주 내에 소비자 및 비즈니스 디지털 채�
 
 2021년 3월 31일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자 David Son은 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션함으로써 얻을 수 있는 이점에 대해 논의했습니다.
 
-[여기에서 웨비나 레코딩을 봅니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+* **[여기에서 웨비나 레코딩을 봅니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
