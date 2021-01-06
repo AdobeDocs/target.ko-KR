@@ -1,38 +1,43 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
-description: Adobe Target은 JavaScript 라이브러리 at.js 또는 mbox.js 중 하나를 통해 웹 사이트와 통합
+keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+description: Adobe Experience Platform 웹 SDK, Target JavaScript 라이브러리(at.js 및 mbox.js) 및 Target에서 만들 수 있는 다양한 활동 유형을 비롯하여 Adobe Target이 작동하는 방식에 대한 정보입니다.
 title: Adobe Target 작동 방식
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
 workflow-type: tm+mt
-source-wordcount: '2438'
-ht-degree: 79%
+source-wordcount: '2530'
+ht-degree: 70%
 
 ---
 
 
 # Adobe Target 작동 방식
 
-Target JavaScript 라이브러리(at.js 및 mbox.js)와 Target에 포함된 다양한 활동 유형에 대한 정보를 포함하여 Adobe Target 작동 방식에 대한 정보입니다.
+[!DNL Adobe Experience Platform Web SDK], [!DNL Target] JavaScript 라이브러리(at.js 및 mbox.js)에 대한 정보 및 Target을 사용하여 만들 수 있는 다양한 활동 유형에 대한 정보 등 [!DNL Adobe Target]이 작동하는 방식에 대한 정보입니다.
 
-## Target JavaScript 라이브러리 {#libraries}
+## Target 플랫폼 웹 SDK 및 JavaScript 라이브러리 {#libraries}
 
-Adobe Target은 JavaScript 라이브러리를 통해 웹 사이트와 통합됩니다.
+Adobe Target은 [!DNL AEP Web SDK] 또는 JavaScript 라이브러리를 통해 웹 사이트와 통합됩니다.
 
+* **Adobe Experience Platform 웹 SDK:** AEP  [웹 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK는 고객이  [!DNL Adobe Experience Cloud] Edge 네트워크 [!DNL Experience Cloud] 를 통해 다양한 서비스 [!DNL Target]  [!DNL Adobe Experience Platform] (포함)와 상호 작용할 수 있도록 하는 새로운 클라이언트측 JavaScript 라이브러리입니다. [!DNL Target] 관련 정보는 [Target 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)를 참조하십시오.
 * **at.js:** [at.js 라이브러리](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)는 Target의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 권장되는 구현 라이브러리이며 새 기능으로 자주 업데이트됩니다. 모든 고객이 구현하거나 [at.js 최신 버전으로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)하는 것이 좋습니다.
-* **Adobe Experience Platform 웹 SDK:**  [Adobe Experience Platform 웹 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK는 고객이  [!DNL Adobe Experience Cloud] Edge 네트워크 [!DNL Experience Cloud] 를  [!DNL Adobe Experience Platform] 통해 다양한 서비스와 상호 작용할 수 있도록 하는 새로운 클라이언트측 JavaScript 라이브러리입니다.
-* **mbox.js:**[ mbox.js 라이브러리는 Target의 새 구현 라이브러리입니다. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) mbox.js 라이브러리는 2021년 3월 31일까지 계속 지원되지만 기능 업데이트는 없습니다.
+* **mbox.js:**[ mbox.js 라이브러리는 Target의 새 구현 라이브러리입니다. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) mbox.js 라이브러리는 2021년 3월 31일까지 지원되지만 기능 업데이트는 없습니다.
 
 >[!IMPORTANT]
 >
->모든 고객은 at.js로 마이그레이션하는 것이 좋습니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오
+>모든 고객은 [!DNL AEP Web SDK] 또는 최신 버전의 at.js로 마이그레이션해야 합니다. 자세한 내용은 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 또는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
 
-사이트의 모든 페이지에서 Target JavaScript 라이브러리 파일을 참조해야 합니다. 예를 들어, 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Launch 태그 관리자](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 사용하는 것이 좋습니다.
+사이트의 모든 페이지에서 [!DNL AEP Web SDK] 또는 at.js를 참조해야 합니다. 예를 들어 글로벌 헤더에 이러한 항목 중 하나를 추가할 수 있습니다. 또는 [Adobe 플랫폼 시작](https://experienceleague.adobe.com/docs/launch/using/overview.html)을 사용하는 것이 좋습니다.
 
-방문자가 Target에 대해 최적화된 페이지를 요청할 때마다, 방문자에게 서비스로 제공할 콘텐츠를 결정하기 위해 타깃팅 시스템으로 요청이 전송됩니다. 이 프로세스는 실시간으로 발생하며, 페이지가 로드될 때마다 콘텐츠 요청이 이루어지고 각 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 또한 각 사이트 방문자가 응답하고, 상호 작용하고, 궁극적으로 가장 구매할 것 같은 콘텐츠를 제공하여 응답률, 획득률 및 매출을 최적화합니다.
+다음 리소스는 AEP 웹 SDK 또는 at.js를 구현하는 데 도움이 됩니다.
 
-Target에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험의 일부입니다. 각 경험은 페이지에 여러 요소를 포함할 수 있습니다.
+* [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
+* [Adobe Launch를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+
+방문자가 [!DNL Target]에 맞게 최적화된 페이지를 요청할 때마다 방문자에게 제공할 컨텐츠를 결정하기 위해 요청이 타깃팅 시스템으로 전송됩니다. 이 프로세스는 페이지가 로드될 때마다, 컨텐트에 대한 요청이 이루어지고 시스템에 의해 이행될 때마다 실시간으로 발생합니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 또한 각 사이트 방문자가 응답하고, 상호 작용하고, 궁극적으로 가장 구매할 것 같은 콘텐츠를 제공하여 응답률, 획득률 및 매출을 최적화합니다.
+
+[!DNL Target]에서 페이지의 각 요소는 전체 페이지에 대한 단일 경험의 일부입니다. 각 경험은 페이지에 여러 요소를 포함할 수 있습니다.
 
 방문자에게 표시되는 콘텐츠는 사용자가 작성하는 활동의 유형에 따라 다릅니다.
 
