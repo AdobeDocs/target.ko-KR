@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target 커피 브레이크 세션을 비롯한 예정된 이벤트에 대한 정보입니다.
+description: Adobe Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target 커피 브레이크 세션을 비롯한 예정된 이벤트에 대한 정보입니다.
 title: Target 공지
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
+source-git-commit: c129430e038d7179846761cf946c437d079e26ee
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Target 공지 및 이벤트
 
-Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target 커피 브레이크 세션을 비롯한 예정된 이벤트에 대한 공지 및 정보입니다.
+Adobe Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target 커피 브레이크 세션을 비롯한 예정된 이벤트에 대한 공지 및 정보입니다.
 
 ## Adobe Target 인식
 
