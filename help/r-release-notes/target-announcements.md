@@ -1,12 +1,12 @@
 ---
-keywords: announcements;skill builder;developer chat;coffee break;events
+keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
 description: Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target 커피 브레이크 세션을 비롯한 예정된 이벤트에 대한 정보입니다.
 title: Target 공지
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 5a296355f8ef111c79e06b5bf153203d538aa90b
+source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '677'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,14 @@ ht-degree: 0%
 
 Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target 커피 브레이크 세션을 비롯한 예정된 이벤트에 대한 공지 및 정보입니다.
 
+## Adobe Target 인식
+
+Adobe Target은 Forrester와 Gartner가 시장 리더로 최근에 인증한 바 있습니다.
+
 | 연구 서비스 | 세부 사항 |
 | --- | --- |
-| Forrester | Adobe은 경험 최적화 플랫폼을 위한 Forrester wave 보고서에서 리더로 선정되었습니다.<br>&quot;The Forrester Wave:경험 최적화 플랫폼, 2020년 4분기 보고서(Adobe Target Premium) Adobe은 현재 제공 중인 솔루션 및 시장 입지 카테고리에서 추천 및 플랫폼 경험 기준으로 참여하는 모든 벤더 중에서 가장 높은 점수를 받았습니다. 또한 Target Premium은 경험 최적화 기법 혁신 및 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 이 보고서는 22개 기준을 바탕으로 10개의 경험 최적화 플랫폼 제공업체를 정밀하게 평가합니다.<br>Adobe 블로그에서  [확인할 수 있습니다](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
-| Gartner | Adobe은 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정되었습니다.<br>Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 조사 결과 15개 부문에서 벤더를 평가했으며, 그 기준은 2개였습니다.비전의 완전성과 실행의 능력.<br>[Adobe 블로그에서 이 정보를 참조하십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+| Forrester | **Adobe은 경험 최적화 플랫폼을 위한 Forrester wave 보고서에서 리더로 선정되었습니다.**<br>&quot;The Forrester Wave:경험 최적화 플랫폼, 2020년 4분기 보고서(Adobe Target Premium) Adobe은 현재 제공 중인 솔루션 및 시장 입지 카테고리에서 추천 및 플랫폼 경험 기준으로 참여하는 모든 벤더 중에서 가장 높은 점수를 받았습니다. 또한 Target Premium은 경험 최적화 기법 혁신 및 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 이 보고서는 22개 기준을 바탕으로 10개의 경험 최적화 플랫폼 제공업체를 정밀하게 평가합니다.<br>Adobe 블로그에서  [확인할 수 있습니다](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
+| Gartner | **Adobe은 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정되었습니다.**<br> Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 조사 결과 15개 부문에서 벤더를 평가했으며, 그 기준은 2개였습니다.비전의 완전성과 실행의 능력.<br>[Adobe 블로그에서 이 정보를 참조하십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
 ## 웨비나:규모에 맞게 개인화 성공:Forrester Wave, 경험 최적화 플랫폼 조사 결과
 
