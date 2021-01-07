@@ -1,20 +1,20 @@
 ---
 keywords: Visual Experience Composer;VEC;carousel
-description: 이 주제에서는 시각적 경험 작성기(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여줍니다.
+description: 이 항목에서는 Adobe Target VEC(Visual Experience Composer)에서 편집할 수 있는 Carousel을 만드는 방법을 보여 줍니다.
 title: 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '148'
-ht-degree: 100%
+source-wordcount: '150'
+ht-degree: 74%
 
 ---
 
 
-# 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기{#creating-carousels-that-work-in-the-visual-experience-composer}
+# 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기
 
-이 주제에서는 시각적 경험 작성기(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여줍니다.
+이 항목에서는 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 편집할 수 있는 Carousel을 만드는 방법을 보여 줍니다.
 
 아래 단계를 사용하면 [!DNL Target]에서는 항상 선택한 슬라이드가 몇 초 후에 시각적 경험 작성기에서 변경되더라도 선택한 슬라이드에 올바른 슬라이드에 대한 &#39;선택기&#39;가 있다는 것을 알고 있습니다.
 
