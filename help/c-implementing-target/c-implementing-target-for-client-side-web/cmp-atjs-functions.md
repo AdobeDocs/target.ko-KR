@@ -2,9 +2,9 @@
 keywords: at.js;functions;javascript library
 description: Adobe Target의 at.js JavaScript 라이브러리와 함께 사용할 수 있는 함수 목록.
 title: Adobe Target at.js 함수
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 100%
