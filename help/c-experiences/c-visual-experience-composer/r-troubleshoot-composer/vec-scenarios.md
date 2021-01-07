@@ -1,20 +1,20 @@
 ---
 keywords: Recommendations
-description: 이 주제의 시나리오에서는 페이지에 적용된 변경 내용이 경험을 표시하는 Target의 기능에 어떻게 영향을 주는지를 보여줍니다.
+description: 이 항목의 시나리오에서는 페이지 변경 사항이 Adobe Target의 경험 표시 기능에 어떤 영향을 미치는지 보여줍니다.
 title: 페이지 수정 시나리오
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 100%
+source-wordcount: '522'
+ht-degree: 92%
 
 ---
 
 
-# 페이지 수정 시나리오 {#page-modification-scenarios}
+# 페이지 수정 시나리오
 
-이 주제의 시나리오에서는 페이지에 적용된 변경 내용이 경험을 표시하는 Target의 기능에 어떻게 영향을 주는지를 보여줍니다.
+이 항목의 시나리오에서는 페이지 변경 사항이 Adobe Target의 경험 표시 기능에 어떤 영향을 미치는지 보여줍니다.
 
 Target 선택기는 경험을 표시할 위치를 결정합니다. 페이지를 Target 외부에서 수정하는 경우, 변경 사항은 경험을 표시하는 Target의 기능에 영향을 줄 수 있습니다.
 
