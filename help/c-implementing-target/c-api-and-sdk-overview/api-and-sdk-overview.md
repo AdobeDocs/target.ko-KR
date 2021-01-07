@@ -4,7 +4,7 @@ description: Adobe Target 서버측 전달 API, SDK 및 Target Recommendations A
 title: Adobe Target 서버측 전달 API, Node.js SDK 및 Target Recommendations API에 대한 정보입니다.
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
@@ -12,7 +12,7 @@ ht-degree: 20%
 ---
 
 
-# 서버 측: Target 구현{#server-side-implement-target}
+# 서버 측: Target 구현
 
 [!DNL Adobe Target] 서버측 전달 API, SDK 및 [!DNL Target Recommendations] API에 대한 정보입니다.
 
