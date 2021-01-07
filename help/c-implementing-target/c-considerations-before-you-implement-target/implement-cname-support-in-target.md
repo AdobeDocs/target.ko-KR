@@ -2,9 +2,9 @@
 keywords: client care;cname;certificate program;canonical name;cookies;certificate;amc;adobe managed certificate;digicert;domain control validation;dcv
 description: Adobe Target에서 CNAME(표준 이름) 지원을 구현하기 위한 Adobe Client Care 작업 정보입니다.
 title: CNAME 및 Adobe Target
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 677d5ed16377fc32b4506ca736084319e5643e67
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1210'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 ---
 
 
-# CNAME 및 Adobe Target {#cname-and-adobe-target}
+# CNAME 및 Adobe Target
 
 Adobe 클라이언트 지원 팀에 대한 지침으로 [!DNL Adobe Target]에서 CNAME(표준 이름) 지원을 구현합니다. 광고 차단 문제 또는 ITP 관련 쿠키 정책을 처리하기 위해 CNAME을 사용하여 Adobe이 소유한 도메인이 아닌 고객이 소유한 도메인에 대한 호출을 수행합니다.
 
