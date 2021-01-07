@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: 특정 조건에서 EEC에 문제가 발생하는 경우가 있습니다.
+description: 특정 조건에서 Adobe Target EEC(Enhanced Experience Composer)에서 디스플레이 문제가 발생하는 경우가 있습니다.
 title: 고급 경험 작성기 관련 문제 해결
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 71%
+source-wordcount: '432'
+ht-degree: 63%
 
 ---
 
 
-# 고급 경험 작성기 관련 문제 해결{#troubleshooting-issues-related-to-the-enhanced-experience-composer}
+# 향상된 경험 작성기와 관련된 문제 해결
 
-특정 조건에서 EEC에 문제가 발생하는 경우가 있습니다.
+특정 조건 아래의 [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer](EEC)에서 디스플레이 문제가 발생하는 경우가 있습니다.
 
 ## EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다. (EEC만 해당) {#section_D29E96911D5C401889B5EACE267F13CF}
 
