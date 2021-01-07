@@ -1,20 +1,20 @@
 ---
 keywords: activities;activity;activity types;edit activity;edit;draft
-description: 활동을 초안 양식으로 저장하는 작업을 포함하여 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
+description: 활동을 초안 양식으로 저장하는 것을 포함하여 Adobe Target에서 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
 title: 활동 편집 또는 초안으로 저장
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1111'
-ht-degree: 100%
+source-wordcount: '1115'
+ht-degree: 96%
 
 ---
 
 
-# 활동 편집 또는 초안으로 저장{#edit-an-activity-or-save-as-draft}
+# 활동 편집 또는 초안으로 저장
 
-활동을 초안 양식으로 저장하는 작업을 포함하여 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
+초안 양식으로 활동 저장을 포함하여 [!DNL Adobe Target]에서 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
 
 Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습니다. 프로세스는 선택한 방법에 따라 달라집니다.
 
