@@ -1,23 +1,22 @@
 ---
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
+description: Adobe Target A/B 활동에서 지표를 사용하여 방문이 성공적인 시기를 결정할 수 있습니다.
 title: 지표 설정
-feature: ab
-solution: Target
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 99%
+source-wordcount: '314'
+ht-degree: 86%
 
 ---
 
 
-# 지표 설정{#set-metrics}
+# 지표 설정
 
-A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
+[!DNL Adobe Target] A/B 활동에서 지표를 사용하여 방문이 성공했는지 여부를 결정할 수 있습니다.
 
-성공 지표에 대한 자세한 내용은  [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
+성공 지표에 대한 자세한 내용은 [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 
 1. 활동의 목표를 지정합니다.
 1. [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
