@@ -2,9 +2,9 @@
 keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: Adobe Experience Manager(AEM)에서 만든 경험 조각을 Adobe Target 활동에서 사용하여 최적화 또는 개인화를 지원하는 방법에 대한 정보입니다.
 title: Adobe Target의 AEM(Adobe Experience Manager) 경험 조각
-feature: aem
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1111'
 ht-degree: 14%
@@ -12,7 +12,7 @@ ht-degree: 14%
 ---
 
 
-# AEM 경험 구성요소{#aem-experience-fragments}
+# AEM 경험 구성요소
 
 최적화 또는 개인화를 돕기 위해 [!DNL Target] 활동에서 [!DNL Adobe Experience Manager](AEM)에서 만든 경험 조각을 사용하는 방법에 대한 정보입니다.
 
