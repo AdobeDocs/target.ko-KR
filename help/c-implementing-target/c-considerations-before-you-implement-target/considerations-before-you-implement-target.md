@@ -2,19 +2,19 @@
 keywords: implement;implementing
 description: Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
 title: 구현하기 전에
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 362fbc25a41d73e05bcc0a4034963ee3f5fbd847
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 96%
+source-wordcount: '111'
+ht-degree: 90%
 
 ---
 
 
-# 구현하기 전에{#before-you-implement}
+# 구현하기 전에
 
-Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
+[!DNL Adobe Target]을(를) 구현하기 전에 고려해야 할 사항입니다.
 
 이 섹션에는 개발자가 수집해야 하는 구현, 개인 정보 고려 사항, 쿠키 관련 설명, Target으로 데이터를 가져오는 다양한 방법 목록, 보안 고려 사항 및 TLS(전송 계층 보안) 암호화 관련 정보가 포함되어 있습니다.
 
