@@ -1,13 +1,13 @@
 ---
 keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
-description: A/B 테스트에 성공하려면 전환율을 향상시키기 위해 적절한 수의 방문자(샘플 크기)가 필요하지만 A/B 테스트를 실행하는 기간을 어떻게 알 수 있습니까? 이 문서에는 활동에 목표를 달성할 수 있는 충분한 수의 방문자가 있는지 확인하는 데 도움이 되는 자동 할당 활동 및 Adobe Target 샘플 크기 계산기에 대한 정보가 포함되어 있습니다.
+description: Adobe Target에서 성공적인 A/B 테스트를 수행하려면 전환율을 높이기 위해 적절한 수의 방문자(샘플 크기)가 있어야 하지만 A/B 테스트를 실행하는 데 얼마나 걸었는지 어떻게 알 수 있습니까? 이 문서에는 활동에 목표를 달성할 수 있는 충분한 수의 방문자가 있는지 확인하는 데 도움이 되는 자동 할당 활동 및 Adobe Target 샘플 크기 계산기에 대한 정보가 포함되어 있습니다.
 title: A/B 테스트를 얼마 동안 실행해야 합니까?
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3102'
-ht-degree: 75%
+source-wordcount: '3105'
+ht-degree: 74%
 
 ---
 
