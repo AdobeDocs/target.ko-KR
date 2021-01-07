@@ -1,9 +1,10 @@
 ---
+keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: 모든 경험의 유효성을 확인할 수 있도록 Target 브라우저 쿠키를 삭제합니다.
 title: Adobe Target 쿠키 삭제
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 5%
@@ -11,9 +12,9 @@ ht-degree: 5%
 ---
 
 
-# Target 쿠키 삭제{#delete-the-target-cookie}
+# Target 쿠키 삭제
 
-테스트하는 동안 모든 경험의 유효성을 검사할 수 있도록 [!DNL Target] 브라우저 쿠키(mbox)를 삭제할 수 있습니다.
+테스트하는 동안 모든 경험의 유효성을 검사할 수 있도록 [!DNL Adobe Target] 브라우저 쿠키(mbox)를 삭제할 수 있습니다.
 
 [!DNL Target] 쿠키(mbox)가 없는 경우 새 방문자로 간주되어 새 경험이 표시됩니다. 모든 브라우저 쿠키를 삭제하지 않고 mbox를 삭제하는 방법에는 여러 가지가 있습니다.
 
