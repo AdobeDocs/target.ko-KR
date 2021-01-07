@@ -2,9 +2,9 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Adobe Target at.js 1.*x*에서 at.js 버전 2.0.0으로 업그레이드하는 방법에 대한 자세한 정보
 title: Adobe Target at.js 버전 1*x*에서 at.js 버전 2*x*로 업그레이드되었습니다.*x*
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '2749'
 ht-degree: 92%
