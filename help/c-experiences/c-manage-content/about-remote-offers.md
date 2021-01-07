@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달할 Target 외부의 컨텐츠를 호스팅하려면 원격 오퍼를 사용하십시오. 이 콘텐츠는 편의성이나 보안상의 이유로 콘텐츠 관리 시스템이나 다른 시스템에 있을 수 있습니다.
+description: 원격 오퍼를 사용하여 Target이 참조하고 사용자의 웹 사이트에 전달하는 Adobe Target 외부의 컨텐츠를 호스팅할 수 있습니다. 이 콘텐츠는 편의성이나 보안상의 이유로 콘텐츠 관리 시스템이나 다른 시스템에 있을 수 있습니다.
 title: 원격 오퍼 만들기
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
 
-# 원격 오퍼 만들기{#create-remote-offers}
+# 원격 오퍼 만들기
 
-Target에서 참조하고 Target을 통해 사용자의 웹 사이트에 전달할 Target 외부의 컨텐츠를 호스팅하려면 원격 오퍼를 사용하십시오. 이 콘텐츠는 편의성이나 보안상의 이유로 콘텐츠 관리 시스템이나 다른 시스템에 있을 수 있습니다.
+원격 오퍼를 사용하여 이 참조하고 사용자의 웹 사이트에 전달하는 컨텐츠를 [!DNL Adobe Target]Target 외부에 호스팅합니다. 이 콘텐츠는 편의성이나 보안상의 이유로 콘텐츠 관리 시스템이나 다른 시스템에 있을 수 있습니다.
 
 >[!NOTE]
 >
