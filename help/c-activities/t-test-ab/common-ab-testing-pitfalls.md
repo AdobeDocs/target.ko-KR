@@ -1,20 +1,20 @@
 ---
 keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;statistically difference;statistical;statistical power;traffic allocation;allocation;
-description: A/B 테스트는 대부분의 디지털 마케팅 최적화 프로그램의 중추를 형성하며 마케터가 최적화 및 타깃팅된 경험을 방문자와 고객에게 제공하는 데 도움이 됩니다. 이 섹션에서는 Adobe Target에서 A/B 테스트를 수행할 때 회사가 가장 중요하게 고려해야 하는 9가지 위험 요소에 대해 설명합니다. 또한 여기에는 회사가 테스트 노력을 통해 더 많은 ROI를 달성하고 보고된 A/B 테스트 결과를 더욱 신뢰할 수 있도록 이러한 위험을 방지하는 방법도 포함되어 있습니다.
+description: Adobe Target의 A/B 테스트는 대부분의 디지털 마케팅 최적화 프로그램의 중추적인 역할을 하므로 마케터는 방문자 및 고객에게 최적화된 타깃팅된 경험을 제공할 수 있습니다. 이 섹션에서는 Adobe Target에서 A/B 테스트를 수행할 때 회사가 가장 중요하게 고려해야 하는 9가지 위험 요소에 대해 설명합니다. 또한 여기에는 회사가 테스트 노력을 통해 더 많은 ROI를 달성하고 보고된 A/B 테스트 결과를 더욱 신뢰할 수 있도록 이러한 위험을 방지하는 방법도 포함되어 있습니다.
 title: 9가지 공통 A/B 테스트 위험 및 방지 방법
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '3918'
-ht-degree: 88%
+source-wordcount: '3922'
+ht-degree: 87%
 
 ---
 
 
-# 일반적인 A/B 테스트 문제와 이를 방지하는 방법{#nine-common-a-b-testing-pitfalls-and-how-to-avoid-them}
+# 일반적인 A/B 테스트 문제와 이를 방지하는 방법 10가지 문제
 
-A/B 테스트는 대부분의 디지털 마케팅 최적화 프로그램의 중추를 형성하며 마케터가 최적화 및 타깃팅된 경험을 방문자와 고객에게 제공하는 데 도움이 됩니다. 이 섹션에서는 A/B 테스트를 수행할 때 기업이 가장 중요하게 생각하는 위험 요소 중 10가지에 대한 개요를 설명합니다. 또한 여기에는 회사가 테스트 노력을 통해 더 많은 ROI를 달성하고 보고된 A/B 테스트 결과를 더욱 신뢰할 수 있도록 이러한 위험을 방지하는 방법도 포함되어 있습니다.
+[!DNL Adobe Target]의 A/B 테스트는 대부분의 디지털 마케팅 최적화 프로그램의 중추적인 역할을 하므로 마케터는 방문자 및 고객에게 최적화된 타깃팅된 경험을 제공할 수 있습니다. 이 섹션에서는 A/B 테스트를 수행할 때 기업이 가장 중요하게 생각하는 위험 요소 중 10가지에 대한 개요를 설명합니다. 또한 여기에는 회사가 테스트 노력을 통해 더 많은 ROI를 달성하고 보고된 A/B 테스트 결과를 더욱 신뢰할 수 있도록 이러한 위험을 방지하는 방법도 포함되어 있습니다.
 
 ## 피트폴 1:중요도 레벨 {#section_55F5577A13C6470BA1417C2B735C6B1D} 효과를 무시합니다.
 
