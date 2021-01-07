@@ -1,20 +1,20 @@
 ---
 keywords: form-based experience composer;form-based composer;refinements
-description: 양식 기반 경험 작성기는 시각적이지 않은 경험 생성 방식을 제공합니다.
+description: Adobe Target 양식 기반 경험 작성기는 비시각적 경험을 만듭니다.
 title: 양식 기반 경험 작성기
-feature: form-based composer
+feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 79%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
 
 # 양식 기반 경험 작성기{#form-based-experience-composer}
 
-양식 기반 경험 작성기는 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 A/B 테스트, 경험 타깃팅, 자동화된 개인화 및 권장 사항 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
+[!DNL Adobe Target] [!UICONTROL 양식 기반 경험 작성기]는 시각적 경험 작성기를 사용할 수 없거나 실용적이지 않은 경우 A/B 테스트, 경험 타깃팅, Automated Personalization 및 Recommendations 활동에 사용할 경험을 만드는 데 유용한 비시각적 경험과 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
 
 권장 사항 활동을 만드는 경우에는 경험이 없습니다. 기준 및 디자인을 선택합니다. 여러 기준 또는 디자인을 선택하는 경우, Target은 자동으로 경험을 생성합니다.
 
