@@ -1,19 +1,20 @@
 ---
-description: 컨텐츠를 동일한 페이지에 표시하지 않고 방문자를 다른 페이지로 보내려면 이 선택 사항을 사용하십시오.
+kewords: redirect;redirect url;send to different page
+description: 동일한 페이지에 컨텐츠를 표시하지 않고 다른 페이지로 방문자를 보내려면 Adobe Target의 [URL로 리디렉션] 옵션을 사용합니다.
 title: URL로 리디렉션
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '416'
-ht-degree: 100%
+source-wordcount: '426'
+ht-degree: 87%
 
 ---
 
 
-# URL로 리디렉션{#redirect-to-a-url}
+# URL로 리디렉션
 
-컨텐츠를 동일한 페이지에 표시하지 않고 방문자를 다른 페이지로 보내려면 이 선택 사항을 사용하십시오.
+동일한 페이지에 컨텐츠를 표시하지 않고 다른 페이지로 방문자를 보내려면 [!DNL Adobe Target]에서 [!UICONTROL URL]로 리디렉션 옵션을 사용합니다.
 
 한 페이지 내의 컨텐츠 일부만 변경하는 대신, 완전히 다른 두 페이지를 테스트할 수 있습니다. 이 경우 A/B 테스트는 페이지 A와 페이지 B를 비교합니다. 하나는 기본 페이지 A를 가리키고 다른 페이지 B로 리디렉션되는 두 개의 경험이 있는 A/B 테스트 캠페인을 설정합니다. 경험에 대한 문자 레이블을 클릭하면 표시되는 경험 작업 메뉴에서 **[!UICONTROL URL로 리디렉션]**&#x200B;을 선택하고 페이지 B의 URL을 지정합니다. 오퍼는 방문자를 다른 페이지로 리디렉션하도록 구성됩니다.
 
