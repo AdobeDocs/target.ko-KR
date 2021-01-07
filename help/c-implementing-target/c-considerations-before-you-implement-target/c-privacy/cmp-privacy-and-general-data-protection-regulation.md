@@ -2,19 +2,19 @@
 keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: 유럽연합 일반 데이터 보호 규칙(GDPR), 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 사용자의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
 title: 개인 정보 보호 및 데이터 보호 규정
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '2250'
-ht-degree: 93%
+source-wordcount: '2248'
+ht-degree: 91%
 
 ---
 
 
-# 개인 정보 보호 및 데이터 보호 규정 {#privacy-and-general-data-protection-regulation-gdpr}
+# 개인 정보 보호 및 데이터 보호 규정
 
-유럽연합 일반 데이터 보호 규칙(GDPR), 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 사용자의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.
+유럽 연합의 개인 정보 보호 규정(GDPR), 캘리포니아 소비자 개인 정보 보호 법(CPA) 및 기타 국제 개인 정보 보호 요구 사항에 대한 정보, 그리고 이러한 규정이 귀하의 조직과 [!DNL Adobe Target]에 미치는 영향을 파악합니다.
 
 ## 개인 정보 보호 및 일반 데이터 보호 규칙(GDPR) 개요 {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
