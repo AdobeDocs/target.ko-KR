@@ -1,20 +1,20 @@
 ---
 keywords: activity url;url;different url
-description: 활동 URL은 테스트에 사용되는 페이지를 결정하며 테스트가 디자인될 때 열립니다.
+description: 활동 URL은 테스트에 사용되는 페이지를 결정하며 Adobe Target을 사용하여 테스트를 디자인할 때 열립니다.
 title: 활동 URL
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 93%
+source-wordcount: '296'
+ht-degree: 78%
 
 ---
 
 
-# 활동 URL{#activity-url}
+# 활동 URL
 
-활동 URL은 테스트에 사용되는 페이지를 결정하며 테스트가 디자인될 때 열립니다.
+활동 URL은 테스트에 사용되는 페이지를 결정하며 Adobe Target을 사용하여 테스트를 디자인할 때 열립니다.
 
 활동을 만들 때 메시지가 표시되면 활동 URL을 지정하십시오. 전체 URL(`https://` 포함)을 입력하고 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 
