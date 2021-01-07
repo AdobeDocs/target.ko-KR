@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;create remote offer
-description: 양식 기반 경험 작성기에서 사용할 오퍼 라이브러리에 JSON을 만드십시오.
+description: 양식 기반 경험 작성기에서 사용할 수 있도록 Adobe Target의 오퍼 라이브러리에서 JSON 오퍼를 만듭니다.
 title: JSON 오퍼 만들기
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 91%
 
 ---
 
 
 # JSON 오퍼 만들기{#create-json-offers}
 
-양식 기반 경험 작성기에서 사용할 오퍼 라이브러리에 JSON을 만드십시오.
+[!UICONTROL 양식 기반 경험 작성기]에서 사용할 JSON 오퍼를 [!DNL Adobe Target]의 [!UICONTROL 오퍼 라이브러리]에서 만듭니다.
 
 JSON 오퍼는 SPA 프레임워크이나 서버 측 통합에서 소비할 JSON 형식의 오퍼를 전송하는 데 Target의 의사 결정이 있어야 하는 사용 사례를 가능하게 하는 양식 기반 활동에서 사용할 수 있습니다.
 
