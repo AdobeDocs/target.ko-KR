@@ -2,9 +2,9 @@
 keywords: settings;priority
 description: Adobe Target은 사용 중인 Target 인터페이스 및 활동 만들기 기능(Visual Experience Composer 또는 Form Based Composer)에 따라 페이지에 다르게 전달할 활동(또는 활동)을 결정합니다.
 title: Adobe Target의 우선 순위
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1167'
 ht-degree: 87%
@@ -12,7 +12,7 @@ ht-degree: 87%
 ---
 
 
-# 우선 순위{#priority}
+# 우선순위
 
 Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동을 다르게 결정합니다.
 
