@@ -1,16 +1,20 @@
 ---
+keywords: experience cloud debugger;mbox trace
+description: Adobe Experience Cloud Debugger를 사용하여 Adobe Target을 디버깅합니다.
 title: Experience Cloud Debugger를 사용하여 Target 디버그
-feature: null
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
 workflow-type: tm+mt
-source-wordcount: '58'
-ht-degree: 41%
+source-wordcount: '70'
+ht-degree: 34%
 
 ---
 
 
 # Experience Cloud Debugger를 사용하여 Target 디버그
+
+[!DNL Adobe Experience Cloud Debugger]을(를) 사용하여 [!DNL Adobe Target]을(를) 디버깅합니다.
 
 ## 확장 추가
 
@@ -26,6 +30,6 @@ ht-degree: 41%
 
 ## 추가 리소스
 
-+ [Chrome Store의 Adobe Experience Cloud 디버거](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [문제 해결 Target 도움말 설명서](/help/r-troubleshooting-target/troubleshooting-target.md)
++ [Chrome Store의 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
++ [Target 도움말 문제 해결 설명서](/help/r-troubleshooting-target/troubleshooting-target.md)
 + [Experience Cloud Debugger 비디오 사용 방법](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
