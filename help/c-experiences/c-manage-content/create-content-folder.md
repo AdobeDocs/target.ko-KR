@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: 오퍼 라이브러리에서 항목을 보관할 폴더를 만듭니다.
+description: Adobe Target의 오퍼 라이브러리에 항목을 저장할 폴더를 만듭니다.
 title: 오퍼 폴더 만들기
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 99%
+source-wordcount: '388'
+ht-degree: 92%
 
 ---
 
 
-# 오퍼 폴더 만들기{#create-offer-folder}
+# 오퍼 폴더 만들기
 
-오퍼 라이브러리에서 항목을 보관할 폴더를 만듭니다.
+Adobe Target의 오퍼 라이브러리에 항목을 저장할 폴더를 만듭니다.
 
 1. **[!UICONTROL 오퍼]**&#x200B;를 클릭한 다음 **[!UICONTROL 코드 오퍼]** 또는 **[!UICONTROL 이미지 오퍼]** 탭을 적절하게 선택합니다.
 1. **[!UICONTROL 만들기]** > **[!UICONTROL 폴더]**&#x200B;를 클릭합니다.
