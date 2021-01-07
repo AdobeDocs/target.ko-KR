@@ -2,9 +2,9 @@
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
 description: Adobe Target 서버측 전달 API, SDK 및 Target Recommendations API에 대한 정보입니다.
 title: Adobe Target 서버측 전달 API, Node.js SDK 및 Target Recommendations API에 대한 정보입니다.
-feature: server-side
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '386'
 ht-degree: 20%
