@@ -2,9 +2,9 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: 모바일 뷰포트를 통해 다양한 크기의 화면에서 Adobe Target 활동이 어떻게 표시되는지 미리 볼 수 있습니다.
 title: 반응형 경험을 위한 모바일 보기 포트
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 67%
@@ -12,9 +12,9 @@ ht-degree: 67%
 ---
 
 
-# 응답형 경험을 위한 모바일 보기 포트{#mobile-viewports-for-responsive-experiences}
+# 반응형 경험을 위한 모바일 보기 포트
 
-모바일 뷰포트를 통해 다양한 크기의 화면에서 [!DNL Target] 활동이 어떻게 표시되는지 미리 볼 수 있습니다.
+모바일 뷰포트를 통해 다양한 크기의 화면에서 [!DNL Adobe Target] 활동이 어떻게 표시되는지 미리 볼 수 있습니다.
 
 모바일 뷰어 미리 보기 기능은 다양한 장치, 창 또는 화면 크기에서 제대로 렌더링되는 응답형 사이트를 위해 설계되었습니다. 반응형 사이트는 데스크톱, 랩톱, 태블릿 또는 휴대폰 등 모든 화면 크기에 맞게 자동으로 조정되고 조정됩니다.
 
