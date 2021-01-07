@@ -1,20 +1,20 @@
 ---
 keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
-description: 라이브러리에 있는 자산에 대해 수행할 수 있는 작업이 많습니다.
+description: Adobe Target의 라이브러리에 있는 자산에 대해 수행할 수 있는 작업은 여러 가지가 있습니다.
 title: 라이브러리에서 컨텐츠 작업
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 97%
+source-wordcount: '515'
+ht-degree: 90%
 
 ---
 
 
-# 라이브러리에서 컨텐츠 작업{#work-with-content-in-the-library}
+# 라이브러리에서 컨텐츠 작업
 
-콘텐츠 라이브러리에 있는 자산에 수행할 수 있는 작업에 대한 정보입니다.
+[!DNL Adobe Target]의 콘텐트 라이브러리에서 자산에 대해 수행할 수 있는 작업에 대한 정보입니다.
 
 1. **[!UICONTROL 오퍼]**&#x200B;를 클릭하고 **[!UICONTROL 코드 오퍼]** 또는 **[!UICONTROL 이미지 오퍼]** 탭을 선택한 후 작업할 자산을 찾습니다.
 
