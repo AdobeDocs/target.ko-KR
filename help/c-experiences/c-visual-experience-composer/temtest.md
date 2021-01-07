@@ -2,9 +2,9 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Adobe Target의 페이지 템플릿을 사용하여 페이지에 구조를 제공하거나 페이지에 유사한 요소가 포함되어 있는 경우 유사한 구조화된 페이지 요소의 변형을 테스트합니다.
 title: Adobe Target을 사용하여 유사한 페이지에 동일한 경험 포함
-feature: experiences
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 38%
