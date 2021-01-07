@@ -1,20 +1,20 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: 페이지 매개 변수, 인페이지 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 비롯하여 데이터를 Target에 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
+description: 페이지 매개 변수, 페이지 내 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 포함하여 Adobe Target으로 데이터를 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
 title: 데이터를 Target에 가져오는 방법
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
-ht-degree: 97%
+ht-degree: 93%
 
 ---
 
 
-# 데이터를 Target에 가져오는 방법{#methods-to-get-data-into-target}
+# 데이터를 Target에 가져오는 방법
 
-페이지 매개 변수, 인페이지 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 비롯하여 데이터를 Target에 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
+페이지 매개 변수, 내부 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 포함하여 데이터를 [!DNL Adobe Target]에 가져오는 데 사용할 수 있는 여러 방법에 대한 정보입니다.
 
 ## 페이지 매개 변수(&quot;mbox 매개 변수&quot;라고도 함){#section_5A297816173C4FE48DC4FE03860CB42B}
 
