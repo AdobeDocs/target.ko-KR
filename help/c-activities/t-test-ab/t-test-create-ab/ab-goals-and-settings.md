@@ -1,21 +1,20 @@
 ---
 keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
-description: 목표 및 설정 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
+description: Adobe Target의 [목표 및 설정] 페이지에서 테스트 목표에 대한 정보를 입력합니다.
 title: 목표 및 설정
-feature: ab
-snippet: y
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1260'
-ht-degree: 96%
+source-wordcount: '1264'
+ht-degree: 93%
 
 ---
 
 
-# 목표 및 설정 {#goals-and-settings}
+# 목표 및 설정
 
-목표 및 설정 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
+[!DNL Adobe Target]의 목표 및 설정 페이지는 테스트 목표에 대한 정보를 입력하는 곳입니다.
 
 사용 가능한 설정은 Target 또는 [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md)를 데이터 소스로 사용하는지에 따라 다릅니다.
 
