@@ -1,20 +1,20 @@
 ---
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
-description: 다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. 시각적 경험 작성기(VEC)를 사용할 때 알아야 하는 기타 팁과 제한 사항도 있습니다.
+description: 다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. Adobe Target에서 VEC(Visual Experience Composer)를 사용할 때 알아야 하는 다른 팁과 제한 사항도 있습니다.
 title: 시각적 경험 작성기 우수 사례 및 제한 사항
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 97%
+source-wordcount: '2452'
+ht-degree: 95%
 
 ---
 
 
-# 시각적 경험 작성기 우수 사례 및 제한 사항{#visual-experience-composer-best-practices-and-limitations}
+# 시각적 경험 작성기 우수 사례 및 제한 사항
 
-다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. 시각적 경험 작성기(VEC)를 사용할 때 알아야 하는 기타 팁과 제한 사항도 있습니다.
+다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. [!DNL Adobe Target]에서 VEC(Visual Experience Composer)를 사용할 때 알아야 하는 다른 팁과 제한 사항도 있습니다.
 
 이 우수 사례를 따르면 디자인하는 경험에 예기치 않은 문제점이 발생할 가능성이 줄어듭니다.
 
