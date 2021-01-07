@@ -1,20 +1,20 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: 대상은 활동에 입력된 사이트 방문자를 판별합니다.
+description: 대상은 Adobe Target 활동에 입력하는 사이트 방문자를 결정합니다.
 title: 대상 선택
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
 
-# 대상 선택{#select-audience}
+# 대상 선택
 
-대상은 활동에 입력된 사이트 방문자를 판별합니다.
+대상은 [!DNL Adobe Target] 활동에 입력할 사이트 방문자를 결정합니다.
 
 >[!NOTE]
 >
