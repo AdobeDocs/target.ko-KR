@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
-description: 특정 조건에서 VEC에 문제가 발생하는 경우가 있습니다.
+description: 특정 조건에서 Adobe Target VEC(Visual Experience Composer)에서 디스플레이 문제가 발생하는 경우가 있습니다.
 title: 시각적 경험 작성기에 관련된 문제 해결
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 97%
+source-wordcount: '779'
+ht-degree: 92%
 
 ---
 
 
-# 시각적 경험 작성기에 관련된 문제 해결{#troubleshooting-issues-related-to-the-visual-experience-composer}
+# Visual Experience Composer와 관련된 문제 해결
 
-특정 조건에서 VEC에 문제가 발생하는 경우가 있습니다.
+특정 조건 아래의 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 디스플레이 문제가 발생하는 경우가 있습니다.
 
 ## VEC(시각적 경험 작성기)에서 웹 사이트를 열면 Target 라이브러리가 로드되지 않습니다. (VEC만 해당) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
