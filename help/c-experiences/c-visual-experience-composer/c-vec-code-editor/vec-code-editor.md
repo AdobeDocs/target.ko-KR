@@ -1,22 +1,22 @@
 ---
 keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: 페이지 수정 사항을 보고 추가로 수정(CSS 선택기, 순Mbox 및 사용자 지정 코드)할 수 있는 수정 사항 페이지에 대한 정보입니다.
+description: 페이지 수정 사항을 보고 추가 수정(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가할 수 있는 Adobe Target의 수정 페이지에 대한 정보입니다.
 title: 수정 사항
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 100%
+source-wordcount: '2107'
+ht-degree: 95%
 
 ---
 
 
 # 수정 사항{#modifications}
 
-페이지 수정 사항을 보고 추가로 수정(CSS 선택기, 순Mbox 및 사용자 지정 코드)할 수 있는 수정 사항 페이지에 대한 정보입니다.
+페이지 수정 내용을 보고 추가 수정(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가할 수 있는 [!DNL Adobe Target]의 수정 페이지에 대한 정보입니다.
 
-수정 사항 페이지에는 VEC(시각적 경험 작성기)에서 수행한 페이지의 모든 변경 사항이 표시되며, 페이지의 각 요소를 클릭하고 [작업을 선택하여 추가로 변경할 수 있습니다](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 각 변경 사항은 [!UICONTROL 수정 사항] 목록에서 별도의 작업 또는 요소로 표시됩니다. CSS 선택기, Mbox 및 사용자 지정 코드 수정 유형을 포함하여 수정 사항을 추가할 수도 있습니다.
+수정 페이지는 VEC(Visual Experience Composer)에서 페이지에 수행된 모든 변경 사항을 보여주며 페이지의 각 요소를 클릭하고 작업](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)을 선택하여 추가 변경을 수행할 수 있도록 해줍니다. [ 각 변경 사항은 [!UICONTROL 수정 사항] 목록에서 별도의 작업 또는 요소로 표시됩니다. CSS 선택기, Mbox 및 사용자 지정 코드 수정 유형을 포함하여 수정 사항을 추가할 수도 있습니다.
 
 ## 수정 사항 개요 {#section_EE27E7572AA74397BBDED563B2B3D509}
 
