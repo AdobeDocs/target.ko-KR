@@ -1,20 +1,20 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: 이미지 오퍼 목록에 항목을 추가할 수 있습니다.
+description: Adobe Target의 이미지 오퍼 목록에 항목을 추가할 수 있습니다.
 title: 업로드 컨텐츠
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 88%
+source-wordcount: '111'
+ht-degree: 65%
 
 ---
 
 
-# 업로드 컨텐츠{#upload-content}
+# 업로드 컨텐츠
 
-이미지 오퍼 목록에 항목을 추가하거나 제거할 수 있습니다.
+[!DNL Adobe Target]의 이미지 오퍼 목록에서 항목을 추가하거나 제거할 수 있습니다.
 
 1. **[!UICONTROL 오퍼]**&#x200B;를 클릭하고 **[!UICONTROL 이미지 오퍼]** 탭을 선택합니다.
 1. **[!UICONTROL 만들기]** > **[!UICONTROL 파일]**&#x200B;을 클릭합니다.
