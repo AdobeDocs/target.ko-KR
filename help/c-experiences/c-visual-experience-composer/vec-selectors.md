@@ -2,9 +2,9 @@
 keywords: Experience Targeting;Landing Page Test
 description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
 title: 시각적 경험 작성기에 사용된 요소 선택기
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -12,7 +12,7 @@ ht-degree: 90%
 ---
 
 
-# 시각적 경험 작성기에 사용된 요소 선택기를 참조하십시오{#element-selectors-used-in-the-visual-experience-composer}
+# 시각적 경험 작성기에 사용된 요소 선택기
 
 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
 
