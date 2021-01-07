@@ -2,11 +2,11 @@
 keywords: tls;tls 1.0;transport layer security;encryption;tls 1.1;tls 1.2
 description: Adobe 및 Target에서 TLS(전송 계층 보안)를 사용하여 가장 높은 보안 표준을 유지 관리하고 고객 데이터의 안전을 강화하는 방법과 관련된 변경 사항에 대한 정보입니다.
 title: TLS(전송 계층 보안) 암호화 변경 사항
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '1233'
+source-wordcount: '1230'
 ht-degree: 61%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # TLS(전송 계층 보안) 암호화 변경 사항{#tls-transport-layer-security-encryption-changes}
 
-Adobe 및 Adobe Target에서 TLS(Transport Layer Security)를 사용하여 최고 보안 표준을 유지하고 고객 데이터의 보안을 높이는 방법에 대한 변경 정보입니다.
+[!DNL Adobe] 및 [!DNL Adobe Target]에서 TLS(전송 레이어 보안)를 사용하여 최고 수준의 보안 표준을 유지하고 고객 데이터의 안전을 높이는 방법에 대한 변경 정보입니다.
 
 TLS(전송 계층 보안)는 네트워크를 통해 데이터를 안전하게 교환해야 하는 웹 브라우저 및 애플리케이션에서 현재 사용되는 가장 널리 배포된 보안 프로토콜입니다. Adobe는 이전 프로토콜의 서비스를 종료해야 하는 보안 준수 표준을 사용하며 최신 버전 및 보안 버전을 사용하기 위해 TLS 1.2의 사용을 권장합니다.
 
