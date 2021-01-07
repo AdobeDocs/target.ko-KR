@@ -2,19 +2,19 @@
 keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Adobe Target VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다.
 title: Adobe Target VEC(시각적 경험 작성기) 선택 사항
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '2403'
-ht-degree: 95%
+ht-degree: 94%
 
 ---
 
 
-# 시각적 경험 작성기 선택 사항{#visual-experience-composer-options}을 참조하십시오
+# 시각적 경험 작성기 선택 사항
 
-VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
 
 ## VEC 선택 사항
 
