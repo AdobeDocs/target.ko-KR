@@ -2,11 +2,11 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: Adobe Target API를 통해 일괄 업데이트를 위한 인증을 활성화 또는 비활성화하고 프로필 인증 토큰을 생성합니다.
 title: Adobe Target의 프로필 API 설정
-feature: api
+feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 37%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 37%
 
 # 프로필 API 설정
 
-Adobe Target API를 통해 일괄 업데이트를 위한 인증을 활성화 또는 비활성화하고 프로필 인증 토큰을 생성합니다.
+[!DNL Adobe Target] API를 통해 일괄 업데이트에 대한 인증을 활성화 또는 비활성화하고 프로필 인증 토큰을 생성합니다.
 
 [!DNL Adobe Target] 개별 사용자에 대해 프로필을 만들고 유지 관리합니다. 이 프로필은 [!DNL Target] 에지 클러스터에 저장되며 방문할 때마다 실시간으로 업데이트됩니다.하지만 API를 통해 개별적으로 또는 대량으로 프로파일을 업데이트할 수 있습니다.
 
