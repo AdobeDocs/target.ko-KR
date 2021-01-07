@@ -1,19 +1,20 @@
 ---
+keywords: activity change log;change log
 description: 변경 로그는 활동을 변경한 사람과 변경한 시간에 대한 기록을 제공합니다.
 title: Adobe Target의 활동 변경 로그
 feature: activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 93%
+source-wordcount: '100'
+ht-degree: 77%
 
 ---
 
 
-# 활동 변경 로그{#activity-change-log}
+# 활동 변경 로그
 
-변경 로그는 활동을 변경한 사람과 변경한 시간에 대한 기록을 제공합니다.
+[!DNL Adobe Target]의 변경 로그는 활동을 변경한 사람과 변경 사항이 발생한 시기에 대한 레코드를 제공합니다.
 
 1. 활동을 열고 **[!UICONTROL 변경 로그]**&#x200B;를 클릭합니다.
 
