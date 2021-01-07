@@ -2,19 +2,19 @@
 keywords: implement;implementing;rfi;request for information
 description: Adobe Target 구현을 준비할 때 완료해야 하는 작업과 수집해야 하는 정보가 있습니다.
 title: Adobe Target 구현 준비
-feature: implementation pre-reqs
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '268'
-ht-degree: 100%
+source-wordcount: '267'
+ht-degree: 94%
 
 ---
 
 
-# Target 구현 준비 {#prepare-to-implement-target}
+# Target 구현 준비
 
-Target 구현을 준비할 때 완료해야 하는 작업과 수집해야 하는 정보가 있습니다.
+완료해야 할 작업과 [!DNL Adobe Target] 구현을 준비할 때 수집해야 하는 정보가 있습니다.
 
 다음 지침을 따르고 제공된 설문지를 작성하면 혼자 구현하든, Adobe Consulting과 함께 구현(권장)하든, Target을 구현하는 데 도움이 됩니다.
 
