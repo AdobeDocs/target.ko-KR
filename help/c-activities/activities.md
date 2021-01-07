@@ -2,19 +2,19 @@
 keywords: activities list;activities;activity;activity types;edit activity;activity actions;activity attribute;activity list filter;activity limitations;personalize;personalization
 description: Adobe Target의 활동을 통해 특정 대상에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다
 title: Adobe Target의 활동을 통해 특정 대상에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다.
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2094'
+source-wordcount: '2092'
 ht-degree: 97%
 
 ---
 
 
-# 활동{#activities}
+# 활동
 
-Adobe Target의 활동을 통해 특정 대상에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다.
+[!DNL Adobe Target]의 활동을 사용하면 특정 대상에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다.
 
 예를 들어 여성의 여름 신발에 대한 정보를 강조 표시하는 페이지와 보다 일반적인 여름 의류를 강조 표시하는 랜딩 페이지 등 두 개의 다른 랜딩 페이지를 테스트하는 활동을 디자인할 수 있습니다. 활동은 이러한 각 랜딩 페이지가 표시되는 시기를 제어하는 조건과 보다 성공적인 페이지를 확인하는 지표를 결정합니다. 특정 날짜 사이 등의 특정 조건이 충족될 때 시작되고 종료되거나 활동이 승인될 때 시작되고 비활성화될 때 종료되도록 활동이 구성됩니다.
 
