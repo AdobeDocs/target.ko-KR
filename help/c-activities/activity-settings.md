@@ -1,20 +1,20 @@
 ---
-keywords: Goal &Settings;objective;priority;duration
-description: 활동의 목표, 우선순위 및 지속 기간을 관리하려면 활동 설정을 사용하십시오.
+keywords: Goal & Settings;objective;priority;duration
+description: Adobe Target의 활동 설정을 사용하여 활동의 목표, 우선순위 및 기간을 관리할 수 있습니다.
 title: 활동 설정
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 90%
+source-wordcount: '404'
+ht-degree: 83%
 
 ---
 
 
-# 활동 설정{#activity-settings}
+# 활동 설정
 
-활동의 목표, 우선순위 및 지속 기간을 관리하려면 활동 설정을 사용하십시오.
+활동의 목표, 우선순위 및 기간을 관리하려면 [!DNL Adobe Target]의 [!UICONTROL 활동 설정]을 사용합니다.
 
 1. 활동의 목표에 대한 메모를 입력합니다.
 
