@@ -2,9 +2,9 @@
 keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: 일부 브라우저의 경우 보안 컨텐츠가 비보안 컨텐츠와 혼합된 경우 페이지 표시를 차단합니다.
 title: 브라우저에서 혼합 컨텐츠 사용
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 34%
@@ -12,7 +12,7 @@ ht-degree: 34%
 ---
 
 
-# 브라우저에서 혼합 컨텐츠 활성화{#enabling-mixed-content-in-your-browser}
+# 브라우저에서 혼합 컨텐츠 사용
 
 동일한 웹 페이지를 표시하도록 HTTPS(보안) *와* HTTP(안전하지 않은) 컨텐츠가 모두 로드되고 초기 요청이 HTTPS를 통해 보안이 설정된 경우 혼합 컨텐츠가 발생합니다.
 
