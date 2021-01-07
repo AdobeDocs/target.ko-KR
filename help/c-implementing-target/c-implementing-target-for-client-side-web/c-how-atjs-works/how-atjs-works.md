@@ -2,9 +2,9 @@
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: at.js를 사용하여 자동 생성된 글로벌 mbox에 대해 전송하거나 수집한 호출 및 정보의 플로우를 표시하는 Adobe Target 시스템 다이어그램입니다.
 title: Adobe Target at.js JavaScript 라이브러리의 작동 방식
-feature: client-side
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
@@ -12,7 +12,7 @@ ht-degree: 88%
 ---
 
 
-# at.js 작동 방식{#how-at-js-works}
+# at.js 작동 방식
 
 [!DNL Adobe Target] 클라이언트측을 구현하려면 at.js JavaScript 라이브러리를 사용해야 합니다.
 
