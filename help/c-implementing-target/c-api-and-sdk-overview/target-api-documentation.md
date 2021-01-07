@@ -1,18 +1,18 @@
 ---
 keywords: api;adobe i/o
-description: Target의 이전 API에서 Adobe I/O의 새 API로 전환하는 데 도움이 되는 정보입니다.
+description: Adobe Target 기존 API에서 Adobe I/O의 새로운 API로 전환하는 데 도움이 되는 정보입니다.
 title: Target의 이전 API에서 Adobe I/O로 전환
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 93%
+source-wordcount: '600'
+ht-degree: 90%
 
 ---
 
 
-# Target의 이전 API에서 Adobe I/O로 전환{#transition-from-target-legacy-apis-to-adobe-i-o}
+# Target의 이전 API에서 Adobe I/O로 전환
 
 Target의 이전 API에서 Adobe I/O의 새 API로 전환하는 데 도움이 되는 정보입니다.
 
