@@ -1,20 +1,20 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리하려면 오퍼 라이브러리를 사용하십시오.
+description: Adobe Target의 오퍼 라이브러리를 사용하여 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리할 수 있습니다.
 title: 오퍼
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 98%
+source-wordcount: '480'
+ht-degree: 91%
 
 ---
 
 
 # 오퍼{#offers}
 
-코드 오퍼 및 이미지 오퍼 컨텐츠를 관리하려면 오퍼 라이브러리를 사용하십시오.
+[!DNL Adobe Target]의 오퍼 라이브러리를 사용하여 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리합니다.
 
 >[!NOTE]
 >
