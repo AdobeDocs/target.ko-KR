@@ -2,9 +2,9 @@
 keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: Adobe Target 애플리케이션 및 콘텐츠 전달은 다양한 브라우저 및 장치에서 테스트되었습니다.
 title: 지원되는 브라우저
-feature: reference general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 81%
@@ -12,7 +12,7 @@ ht-degree: 81%
 ---
 
 
-# 지원되는 브라우저{#supported-browsers}
+# 지원되는 브라우저
 
 [!DNL Adobe Target] 애플리케이션 및 콘텐츠 전달은 광범위한 브라우저 및 장치에서 테스트되었습니다.
 
