@@ -1,20 +1,20 @@
 ---
-keywords: Targeting;analytics;tracking server
-description: Adobe Analytics를 보고 소스(A4T)로 사용하도록 Target Standard에서 활동을 구성할 수 있습니다.
+keywords: Targeting;analytics;tracking server;analytics for target;a4t
+description: Adobe Analytics을 보고 소스(A4T)로 사용하도록 Adobe Target Standard에서 활동을 구성할 수 있습니다.
 title: Analytics 데이터 사용
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '536'
-ht-degree: 95%
+source-wordcount: '533'
+ht-degree: 89%
 
 ---
 
 
-# Analytics 데이터 사용{#using-analytics-data}
+# Analytics 데이터 사용
 
-Adobe Analytics를 보고 소스(A4T)로 사용하도록 Target Standard에서 활동을 구성할 수 있습니다.
+[!DNL Adobe Target]에서 [!DNL Adobe Analytics]을 보고 소스(A4T)로 사용하도록 활동을 구성할 수 있습니다.
 
 Analytics를 Target의 데이터 소스로 설정하는 방법에 대한 자세한 내용은 [Adobe Analytics을 Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md)의 보고 소스로 참조하십시오.
 
