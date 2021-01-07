@@ -2,19 +2,19 @@
 keywords: security;security practices
 description: 데이터 및 Adobe Target 경험의 보안을 강화하기 위해 Adobe에서 구현한 심층적인 접근 방식 및 보안 절차에 대한 정보입니다.
 title: Target 보안 개요
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: e05ac05a5cbf8da42f7e16d472d1adfd280c85c3
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 92%
+source-wordcount: '154'
+ht-degree: 80%
 
 ---
 
 
 # Target 보안 개요
 
-데이터 및 Adobe Target 경험의 보안을 강화하기 위해 Adobe에서 구현한 심층적인 접근 방식 및 보안 절차에 대한 정보입니다.
+데이터의 보안 및 [!DNL Adobe Target] 경험을 강화하기 위해 [!DNL Adobe]에서 구현한 심층 접근 방식 및 보안 절차에 대한 정보입니다.
 
 Adobe에서는 디지털 경험에 대한 보안을 매우 중요하게 생각합니다. 보안 정책은 내부 소프트웨어 개발 및 운영 프로세스와 도구에 깊이 뿌리 내려 있으며, 편리하게 인시던트를 방지, 감지 및 대응하기 위해 복합 기능 팀에 의해 엄격하게 준수되고 있습니다.
 
