@@ -1,20 +1,20 @@
 ---
 keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
-description: 경험은 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 결정합니다.
+description: Adobe Target의 경험은 방문자가 활동에 대한 대상 기준을 충족할 때 표시되는 컨텐츠를 결정합니다.
 title: 경험 및 오퍼
-feature: experiences
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 100%
+source-wordcount: '341'
+ht-degree: 89%
 
 ---
 
 
-# 경험 및 오퍼{#experiences-and-offers}
+# 경험 및 오퍼
 
-경험은 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 결정합니다.
+[!DNL Adobe Target]의 경험은 방문자가 활동에 대한 대상 기준을 충족할 때 표시되는 컨텐츠를 결정합니다.
 
 경험은 구매 단계 또는 다른 논리적 페이지 순서를 구성하는 페이지, 전체 웹 페이지 또는 페이지 세트에 있는 오퍼, 이미지, 텍스트, 단추, 비디오, 이러한 여러 요소의 조합일 수 있습니다. 음성 도우미, 고객 서비스 스크립트 또는 음료 자판기의 개인화된 향에 대한 답변일 수도 있습니다. [!DNL Target] 활동에서 경험을 테스트하거나 개인화합니다.
 
