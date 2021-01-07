@@ -1,18 +1,20 @@
 ---
-keywords: apple;ITP;intelligent tracking prevention
+keywords: apple;ITP;intelligent tracking prevention;experience cloud id;ecid
 description: ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.x에 대한 Adobe Target 지원에 대한 정보입니다.
 title: Adobe Target 및 Apple ITP 지원
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 54%
+source-wordcount: '897'
+ht-degree: 53%
 
 ---
 
 
 # Apple ITP(Intelligent Tracking Prevention) 2.x
+
+ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.x에 대한 [!DNL Adobe Target] 지원에 대한 정보입니다.
 
 ITP(Intelligent Tracking Prevention)는 Safari 사용자의 개인 정보를 보호하는 Apple의 이니셔티브입니다. 2017년에 있었던 ITP의 첫 번째 릴리스에서는 타사 쿠키의 사용을 타깃팅했습니다. 실제로 Apple은 타사 쿠키를 완전히 차단했습니다. 타사 쿠키는 일반적으로 방문자를 추적하고 방문자 데이터를 수집하는 데 사용되기 때문에 광고 기술 및 마테크(martech) 기업의 심각한 문제 요소였습니다. 이제 Apple은 Safari 내에서 타사 쿠키가 사용되는 방법에 대해 제한 사항을 적용하려고 합니다.
 
