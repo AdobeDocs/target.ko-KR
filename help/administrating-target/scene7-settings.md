@@ -4,17 +4,17 @@ description: Adobe Target은 Adobe Dynamic Media Classic(이전 Scene7)과 통�
 title: Dynamic Media Classic 통합 구성 통합
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 2e80c972e432ce97596c856dd396b8f1be05a61a
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '385'
 ht-degree: 18%
 
 ---
 
 
-# Scene7 구성
+# Dynamic Media Classic(이전 Scene7) 구성
 
-[!DNL Adobe Target] 컨텐츠 라이브러리에서  [!DNL Adobe Dynamic Media Classic] (이전 Scene7)과 통합하여 DAM(Digital Asset Management)을 제공할 수  [!UICONTROL 있습니다].
+[!DNL Adobe Target] 컨텐츠 라이브러리에  [!DNL Adobe Dynamic Media Classic] (이전 [!DNL Scene7])의 DAM(Digital Asset Management)을 제공할 수  [!UICONTROL 있습니다].
 
 >[!NOTE]
 >
