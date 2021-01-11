@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
 workflow-type: tm+mt
-source-wordcount: '3248'
+source-wordcount: '3268'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 11년 1월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 1월 13일 Adobe Target 커뮤니티 Q&amp;A 커피 휴가에 대한 정보 및 등록 정보가 추가되었습니다. |
 | 6년 1월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 라이브 웨비나에 대한 정보 및 등록 정보를 추가했습니다.<ul><li>규모에 맞게 개인화 성공:&quot;Forrester Wave, 경험 최적화 플랫폼&quot;에서 주요 결과를 얻었습니다.</li></ul> |
 | 1월 4일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target이 2021년 1월 18일부터 2021년 3월 31일까지 mbox.js를 더 이상 지원하지 않는 날짜를 변경했습니다. |
 | 18년 12월 | [A/A 테스트](/help/c-activities/t-test-ab/aa-testing.md) | 새 주제입니다.  |
