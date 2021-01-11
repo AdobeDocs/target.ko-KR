@@ -4,9 +4,9 @@ description: Adobe Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 
 title: Target 공지
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c129430e038d7179846761cf946c437d079e26ee
+source-git-commit: 0c3077bee7d15517dbbc0964730672bc8a7fdb70
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '785'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,21 @@ Adobe Target은 Forrester와 Gartner가 시장 리더로 최근에 인증한 바
 | --- | --- |
 | Forrester | **Adobe은 경험 최적화 플랫폼을 위한 Forrester wave 보고서에서 리더로 선정되었습니다.**<br>&quot;The Forrester Wave:경험 최적화 플랫폼, 2020년 4분기 보고서(Adobe Target Premium) Adobe은 현재 제공 중인 솔루션 및 시장 입지 카테고리에서 추천 및 플랫폼 경험 기준으로 참여하는 모든 벤더 중에서 가장 높은 점수를 받았습니다. 또한 Target Premium은 경험 최적화 기법 혁신 및 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 이 보고서는 22개 기준을 바탕으로 10개의 경험 최적화 플랫폼 제공업체를 정밀하게 평가합니다.<br>Adobe 블로그에서  [확인할 수 있습니다](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe은 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정되었습니다.**<br> Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 조사 결과 15개 부문에서 벤더를 평가했으며, 그 기준은 2개였습니다.비전의 완전성과 실행의 능력.<br>[Adobe 블로그에서 이 정보를 참조하십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+
+## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
+
+* **1월 13일 수요일**
+* **오전 8시 PT | 오전 10시 CT | 동부시간 오전 11시**
+* **기간:60분**
+* 자세한 내용은 **[여기를 클릭하십시오](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/%EF%B8%8Fupcoming-in-2021-at-community-q-amp-a-coffee-break-1-13-21-8am/td-p/388109)**
+
+Adobe는 Adobe Target의 선임 제품 관리자인 Robert Calangiu와 함께하며, Adobe Target 커뮤니티에 참여하여 Adobe의 전문 분야에 관한 Adobe Target 관련 질문에 대해 여러분과 직접 대화를 나눌 것입니다.
+
+* Target 설정 및 관리 UI
+* A4T 통합
+* AEM 통합
+* 일반 Adobe Target UI
+* 이 이벤트[에 등록하는 동안 포함하는 질문에 대한 답변(선택 사항이지만)](https://www.adobeeventsonline.com/Webinar/2021/TargetCoffeeJan/lp/)
 
 ## 웨비나:규모에 맞게 개인화 성공:Forrester Wave, 경험 최적화 플랫폼 조사 결과
 
