@@ -2,9 +2,9 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Adobe Target에서 Automated Personalization 활동을 하는 사용자는 특별 보고서를 사용할 수 있습니다.
 title: 자동화된 개인화 요약 보고서
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '388'
 ht-degree: 71%
