@@ -2,9 +2,9 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문서의 중요한 변경 내용이 나열됩니다.
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ec8aa3c2f6eca3c1f8002526cc2d2f15365f9671
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '3283'
 ht-degree: 28%
@@ -56,7 +56,7 @@ ht-degree: 28%
 | 10월 14일 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 두 개의 경험만 있는 자동 할당 활동에 대한 트래픽 할당에 대한 메모를 추가했습니다. |
 | 10월 13일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 2020년 11월 10일로 예정된 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target의 디바이스에서 의사 결정을 내림으로써 지연 없이 개인화 및 테스트</li></ul> |
 |  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 2020년 11월 10일로 예정된 다음 라이브 웨비나에 대한 정보가 추가되었습니다.<ul><li>Adobe Target의 디바이스에서 의사 결정을 내림으로써 지연 없이 개인화 및 테스트</li></ul> |
-| 10월 12일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 인증 토큰을 생성해야 하는 권한 수준을 나타내기 위해 디버깅 도구[에 사용할 인증 토큰을 검색합니다.](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) |
+| 10월 12일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | 인증 토큰을 생성해야 하는 권한 수준을 나타내기 위해 디버깅 도구](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54)에 사용할 인증 토큰을 검색합니다.[ |
 |  | [프로필 API 설정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | 인증 토큰을 생성해야 하는 권한 수준을 나타내도록 항목을 업데이트했습니다. |
 |  | [자동 타깃팅](/help/c-activities/auto-target/auto-target-to-optimize.md) | 자동 Target을 사용하여 실제 성공 스토리가 추가되었습니다. |
 |  | [유사한 페이지에 동일한 경험 포함](/help/c-experiences/c-visual-experience-composer/temtest.md) | 전체 도메인에서 동일한 활동을 렌더링하는 방법을 설명하는 섹션이 추가되었습니다. |
