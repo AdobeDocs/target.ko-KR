@@ -4,7 +4,7 @@ description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Prem
 title: 'Adobe Target 릴리스 노트(현재) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '963'
 ht-degree: 26%
@@ -34,8 +34,8 @@ mbox.js는 현재 지원되지만(2021년 3월 31일까지) 2017년 7월 이후�
 
 at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 포함합니다.
 
-* 전달 API customerId에 통합 프로필/플랫폼 ID 지원을 추가합니다.
-* 잘못된 스타일 태그 삽입 수정
+* 통합 프로필/플랫폼 ID에 대한 지원을 배달 API customerId에 추가합니다.
+* 잘못된 스타일 태그 삽입이 수정되었습니다.
 
 ## Target Standard/Premium 20.10.1(2020년 10월 27일)
 
