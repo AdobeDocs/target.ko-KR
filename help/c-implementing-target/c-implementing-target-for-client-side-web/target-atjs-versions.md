@@ -4,7 +4,7 @@ description: 각 Adobe Target at.js 버전의 변경 사항에 대한 세부 정
 title: at.js 버전 세부 사항
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
 workflow-type: tm+mt
 source-wordcount: '4034'
 ht-degree: 84%
@@ -26,8 +26,8 @@ ht-degree: 84%
 
 at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 포함합니다.
 
-* 전달 API customerId에 통합 프로필/플랫폼 ID 지원을 추가합니다.
-* 잘못된 스타일 태그 삽입 수정
+* 통합 프로필/플랫폼 ID에 대한 지원을 배달 API customerId에 추가합니다.
+* 잘못된 스타일 태그 삽입이 수정되었습니다.
 
 ## at.js 2.3.3(2020년 11월 13일)
 
