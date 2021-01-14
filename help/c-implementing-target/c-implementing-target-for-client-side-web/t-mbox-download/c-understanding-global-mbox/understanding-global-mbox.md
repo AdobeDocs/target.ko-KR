@@ -2,9 +2,9 @@
 keywords: global mbox;implement mbox.js;implement at.js
 description: 글로벌 mbox에 대한 정보. Adobe Target 구현의 각 웹 페이지 맨 위에 있는 단일 서버 호출을 참조하는 데 사용되는 이름입니다.
 title: 글로벌 mbox 이해
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '208'
 ht-degree: 86%
@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# 글로벌 mbox 이해{#understand-the-global-mbox}
+# 글로벌 mbox 이해
 
 [!DNL Adobe Target] 구현에서 각 웹 페이지의 맨 위에서 수행된 단일 서버 호출을 참조하는 데 사용되는 이름인 글로벌 mbox에 대한 정보입니다.
 
