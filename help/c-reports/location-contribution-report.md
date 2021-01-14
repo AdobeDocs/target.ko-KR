@@ -2,9 +2,9 @@
 keywords: mvt;multivariate test;location contribution report
 description: 위치 기여도 보고서는 각 요소 및 각 오퍼의 성과를 보여줍니다.
 title: 위치 기여도 보고서(MVT)
-feature: null
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 98%
