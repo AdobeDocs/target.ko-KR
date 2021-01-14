@@ -2,9 +2,9 @@
 keywords: contact;legal;technical support;tech support;support;service;capability;billing;feedback
 description: Target 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 Target에 대한 도움이 필요할 때 Adobe에 문의하는 방법에 대한 정보입니다.
 title: 리소스 및 연락처 정보
-feature: reference general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 79%
