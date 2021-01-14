@@ -2,9 +2,9 @@
 keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
 description: 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
 title: 권장 사항 Classic과 Target Premium의 권장 사항 활동 비교
-feature: recommendations general
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
