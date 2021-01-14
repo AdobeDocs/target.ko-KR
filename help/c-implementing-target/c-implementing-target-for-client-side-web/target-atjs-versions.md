@@ -4,10 +4,10 @@ description: 각 Adobe Target at.js 버전의 변경 사항에 대한 세부 정
 title: at.js 버전 세부 사항
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '4003'
-ht-degree: 85%
+source-wordcount: '4034'
+ht-degree: 84%
 
 ---
 
@@ -21,6 +21,13 @@ ht-degree: 85%
 >Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전 중 하나의 최신 버전으로 업그레이드하십시오.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch는 at.js를 업그레이드할 때 사용하는 기본 방법입니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 [!DNL Launch] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *Experience Platform Launch 사용 안내서*&#x200B;의 [확장 업그레이드](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)를 참조하십시오.
+
+## at.js 2.4.0(2021년 1월 14일)
+
+at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 포함합니다.
+
+* 전달 API customerId에 통합 프로필/플랫폼 ID 지원을 추가합니다.
+* 잘못된 스타일 태그 삽입 수정
 
 ## at.js 2.3.3(2020년 11월 13일)
 
