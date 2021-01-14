@@ -2,9 +2,9 @@
 keywords: promotions;front promotions;back promotions;promotions type;list of items;promote by attribute;promote a collection
 description: 프로모션된 항목을 추가하고 Adobe Target 권장 사항 디자인에서 해당 배치를 제어합니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
 title: Adobe Target 권장 사항 디자인에 프로모션을 추가합니다.
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 180a8064019e8d4a44db13923aad7422f67ccf3f
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 60%
