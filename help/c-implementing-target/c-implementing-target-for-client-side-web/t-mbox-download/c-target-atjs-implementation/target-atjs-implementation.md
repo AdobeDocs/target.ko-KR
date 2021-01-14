@@ -2,9 +2,9 @@
 keywords: Target Standard;at.js;implementation
 description: at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 Adobe Target용 구현 라이브러리입니다.
 title: mbox.js에서 at.js로 마이그레이션
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# mbox.js에서 at.js로 마이그레이션{#migrate-from-mbox-js-to-at-js}
+# mbox.js에서 at.js로 마이그레이션
 
 at.js 라이브러리는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 [!DNL Adobe Target]용 구현 라이브러리입니다.
 
