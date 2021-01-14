@@ -2,9 +2,9 @@
 keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;entity attribute matching
 description: 잠재적인 추천 항목 풀을 사용자가 상호 작용한 특정 항목과 비교하여 Adobe Target Recommendations에서 동적으로 필터링합니다.
 title: Adobe Target Recommendations의 동적 포함 규칙의 엔티티 속성 일치별 필터링
-feature: criteria
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '511'
 ht-degree: 0%
