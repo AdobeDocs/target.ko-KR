@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '3283'
+source-wordcount: '3292'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 14년 1월 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.4.0에 대한 정보가 추가되었습니다. |
 | 12년 1월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.1.1 릴리스(2021년 1월 19일)에 대한 프리릴리스 정보가 추가되었습니다. |
 | 11년 1월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 1월 13일 Adobe Target 커뮤니티 Q&amp;A 커피 휴가에 대한 정보 및 등록 정보가 추가되었습니다. |
 | 6년 1월 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 라이브 웨비나에 대한 정보 및 등록 정보를 추가했습니다.<ul><li>규모에 맞게 개인화 성공:&quot;Forrester Wave, 경험 최적화 플랫폼&quot;에서 주요 결과를 얻었습니다.</li></ul> |
