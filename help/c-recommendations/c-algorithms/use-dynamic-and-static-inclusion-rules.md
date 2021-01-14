@@ -2,10 +2,10 @@
 keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
 description: 기준 및 프로모션을 위해 Adobe Target Recommendations에서 포함 규칙을 만들고 더 나은 결과를 얻기 위해 동적 또는 정적 필터링 규칙을 추가하는 방법에 대한 정보입니다.
 title: Adobe Target Recommendations에서 동적 및 정적 포함 규칙 사용
-feature: criteria
+feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1062'
 ht-degree: 35%
