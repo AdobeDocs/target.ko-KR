@@ -2,9 +2,9 @@
 keywords: visual experience composer limitations;browser support;integrations;plugins;asynchronous considerations
 description: at.js와 mbox.js 간에 약간의 차이가 있습니다. 이 섹션에는 at.js 사용 시 성공하는 데 도움이 되도록 몇 가지 차이점과 제한 사항이 나와 있습니다.
 title: at.js 제한 사항
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '427'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# at.js 제한 사항{#at-js-limitations}
+# at.js 제한 사항
 
 at.js와 mbox.js 간에 약간의 차이가 있습니다. 이 섹션에는 at.js 사용 시 성공하는 데 도움이 되도록 몇 가지 차이점과 제한 사항이 나와 있습니다.
 
