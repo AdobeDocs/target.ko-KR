@@ -2,9 +2,9 @@
 keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
 description: at.js에 대한 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
 title: 글로벌 mbox 사용자 지정
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 59%
@@ -12,7 +12,7 @@ ht-degree: 59%
 ---
 
 
-# 글로벌 mbox 사용자 지정{#customize-a-global-mbox}
+# 글로벌 mbox 사용자 지정
 
 at.js에 대한 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
 
