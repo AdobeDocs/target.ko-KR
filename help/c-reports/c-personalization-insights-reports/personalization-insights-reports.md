@@ -2,9 +2,9 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: 두 개의 전문 보고서는 AP(자동화된 개인화)와 AT(자동 타겟) 활동인 자동화된 세그먼트와 중요 속성 보고서의 사용자가 사용할 수 있습니다.
 title: 개인화 통찰력 보고서
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 64%
@@ -69,7 +69,7 @@ AP 또는 자동 Target 모델에 사용되는 [!UICONTROL 개인화 인사이�
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-자세한 내용은 Adobe Target[에서 개인화 인사이트 보고서 사용을 참조하십시오.](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)
+자세한 내용은 Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)에서 개인화 인사이트 보고서 사용을 참조하십시오.[
 
 ## Adobe 블로그
 
