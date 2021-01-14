@@ -4,9 +4,9 @@ description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Prem
 title: 'Adobe Target 릴리스 노트(현재) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 531e147d99bbc73414f790d66a3633bd1de8f50f
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '963'
 ht-degree: 26%
 
 ---
@@ -30,11 +30,12 @@ mbox.js는 현재 지원되지만(2021년 3월 31일까지) 2017년 7월 이후�
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## at.js 2.3.3(2020년 11월 13일)
+## at.js 2.4.0(2021년 1월 14일)
 
 at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 포함합니다.
 
-* mbox 클릭 추적 및 A4T와 관련된 문제를 수정했습니다.
+* 전달 API customerId에 통합 프로필/플랫폼 ID 지원을 추가합니다.
+* 잘못된 스타일 태그 삽입 수정
 
 ## Target Standard/Premium 20.10.1(2020년 10월 27일)
 
@@ -48,7 +49,7 @@ at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 
 
 * [!UICONTROL Total] 행에 대해 [!DNL Auto-Target]보고 시 [!UICONTROL 평균 리프트 신뢰 구간] 및 [!UICONTROL 신뢰]이 표시되지 않는 문제를 해결했습니다. 모든 개별 경험에 대해 올바로 표시되는 측정입니다. (TGT-37301)
 * 9월 15일, 오후 2:30부터 [!DNL Adobe Target Premium] 사용자의 [!UICONTROL 자동 Target] 보고에 영향을 주는 문제를 수정했습니다.(PDT) - 10월 6일 오전 9시 25분(PDT). 영향을 받은 전환 지표에 대한 보고서를 볼 때(&quot;[!UICONTROL 페이지] 보기&quot; 또는 &quot;[!UICONTROL mbox]&quot; 옵션을 클릭함) 전환율이 잘못 보고됩니다. 현재 알려진 배달 문제가 없습니다. 보고를 다시 동기화하고 수정하는 방법에 대한 자세한 내용은 *알려진 문제 및 해결된 문제*&#x200B;의 *해결된 문제*&#x200B;에서 [자동 Target 보고](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)를 참조하십시오.
-* [!UICONTROL 카탈로그 검색] 테이블 및 [!UICONTROL 마지막 업데이트 위치] 필터에 선택 가능한 [!UICONTROL 마지막 업데이트 위치&lt;a1/> 열이 추가되었습니다. ] 이 개선 사항은 각 개별 항목이 마지막으로 업데이트된 시기를 확인하기 위해 열 필요가 없고 항목이 마지막으로 업데이트된 날짜별로 필터링할 수 있으므로 시간과 노력을 절약할 수 있습니다.
+* [!UICONTROL 카탈로그 검색] 테이블 및 [!UICONTROL 마지막 업데이트 위치] 필터에 선택 가능한 [!UICONTROL 마지막 업데이트 위치] 열이 추가되었습니다. 이 개선 사항은 각 개별 항목이 마지막으로 업데이트된 시기를 확인하기 위해 열 필요가 없고 항목이 마지막으로 업데이트된 날짜별로 필터링할 수 있으므로 시간과 노력을 절약할 수 있습니다.
 
    ![마지막 업데이트된 열 및 필터 일러스트레이션](/help/r-release-notes/assets/column-and-filter.png)
 
