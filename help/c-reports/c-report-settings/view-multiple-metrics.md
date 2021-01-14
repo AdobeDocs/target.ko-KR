@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;multiple metrics;metrics;shown metrics;hidden metrics
 description: Adobe Target을 사용하여 보고서에서 볼 지표를 여러 개 선택합니다.
 title: Adobe Target을 사용하여 보고서에서 여러 지표 보기
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 61%
