@@ -2,9 +2,9 @@
 keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: 여러 설정을 사용하여 Adobe Target에서 권장 사항 활동을 설명하고 제어할 수 있습니다.
 title: Adobe Target의 권장 사항 활동 설정
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 89%
