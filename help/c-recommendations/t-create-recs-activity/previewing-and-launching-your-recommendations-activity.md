@@ -2,9 +2,9 @@
 keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Adobe Target Recommendations 오퍼이 포함된 Recommendations, A/B 테스트 또는 경험 타깃팅(XT) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기를 원할 수 있습니다. Target Recommendations은 권장 사항을 미리 볼 수 있는 다양한 방법을 제공합니다. '
 title: 'Adobe Target Recommendations 오퍼이 포함된 Recommendations, A/B 테스트 또는 경험 타깃팅(XT) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기를 원할 수 있습니다. Target Recommendations은 권장 사항을 미리 볼 수 있는 다양한 방법을 제공합니다. '
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
@@ -128,7 +128,7 @@ CSV 파일을 다운로드합니다. 권장 항목을 보려면 엽니다.
 1. 새 활동을 활성화합니다.
 1. 이전 활동을 비활성화합니다.
 
-동일한 활동에서 내역 보고 결과를 유지해야 하는 경우 대체 방법을 사용할 수 있으며, 이렇게 하면 추천 가용성에 대한 일시적인 중단을 초래할 수 있습니다.
+동일한 활동에서 내역 보고 결과를 유지해야 하는 경우 대체 방법을 사용할 수 있으며, 이렇게 하면 권장 사항 가용성에 대한 일시적인 중단을 초래할 수 있습니다.
 
 1. 수정할 활동 및 기준을 복제합니다.
 1. 복제된 활동 및 기준을 변경하고 알고리즘이 결과를 생성할 때까지 기다립니다.
