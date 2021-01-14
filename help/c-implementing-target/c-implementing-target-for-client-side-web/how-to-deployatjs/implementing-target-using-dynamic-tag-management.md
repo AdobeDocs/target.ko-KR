@@ -2,9 +2,9 @@
 keywords: implement;implementing;implementation;tag manager;dtm;at.js;dynamic tag management
 description: Adobe DTM은 Adobe의 기존 태그 관리자입니다.
 title: DTM을 사용한 Target 구현
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 92%
@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# DTM을 사용한 Target 구현{#implement-target-using-dynamic-tag-management-dtm}
+# DTM을 사용한 Target 구현
 
 Adobe DTM은 Adobe의 기존 태그 관리자입니다.
 
