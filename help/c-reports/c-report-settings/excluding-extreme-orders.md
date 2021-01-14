@@ -2,9 +2,9 @@
 keywords: Target;reports;report settings;extreme orders;extreme values
 description: 일부 비정상적인 주문이 활동 결과에 영향을 주지 않도록 Adobe Target에서 영향을 주는 보고서에서 예외적인 값을 제외할 수 있습니다. 비정상적인 주문의 예로, 개인 유니폼을 구매하는 개별 쇼핑객 대신 전체 팀용으로 유니폼을 구매하는 코치가 있을 수 있습니다.
 title: Adobe Target 보고서에서 예외적인 값 제외
-feature: report settings
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 73%
