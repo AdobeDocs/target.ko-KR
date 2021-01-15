@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있도록 고객의 경험을 맞춤화 및 개인화하는 방법을 살펴볼 수 있습니다.
 translation-type: tm+mt
-source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
+source-git-commit: fb6edb18e19faf6e1aab0878d0e9a6e0d5a0703a
 workflow-type: tm+mt
-source-wordcount: '1570'
+source-wordcount: '1575'
 ht-degree: 85%
 
 ---
@@ -88,6 +88,7 @@ ht-degree: 85%
       + [CNAME 및 Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + 클라이언트 측 웹: Target 구현 {#client-side}
       + [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+      + [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js 작동 방식 {#at-js}
          + [at.js 작동 방식 개요](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
          + [at.js에서 플리커를 관리하는 방법](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
