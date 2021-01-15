@@ -4,10 +4,10 @@ description: Adobe Experience Platform 웹 SDK, Target JavaScript 라이브러�
 title: Adobe Target 작동 방식
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 1b426e0b2004e729ba75d218a9b6ccd5195449cd
+source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
 workflow-type: tm+mt
-source-wordcount: '2530'
-ht-degree: 70%
+source-wordcount: '2504'
+ht-degree: 71%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 70%
 
 Adobe Target은 [!DNL AEP Web SDK] 또는 JavaScript 라이브러리를 통해 웹 사이트와 통합됩니다.
 
-* **Adobe Experience Platform 웹 SDK:** AEP  [웹 ](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) SDK는 고객이  [!DNL Adobe Experience Cloud] Edge 네트워크 [!DNL Experience Cloud] 를 통해 다양한 서비스 [!DNL Target]  [!DNL Adobe Experience Platform] (포함)와 상호 작용할 수 있도록 하는 새로운 클라이언트측 JavaScript 라이브러리입니다. [!DNL Target] 관련 정보는 [Target 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)를 참조하십시오.
+* **Adobe Experience Platform 웹 SDK:** AEP  [웹 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK는 고객이  [!DNL Adobe Experience Cloud] Edge 네트워크 [!DNL Experience Cloud] 를 통해 다양한 서비스 [!DNL Target]  [!DNL Adobe Experience Platform] (포함)와 상호 작용할 수 있도록 하는 새로운 클라이언트측 JavaScript 라이브러리입니다.
 * **at.js:** [at.js 라이브러리](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)는 Target의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 권장되는 구현 라이브러리이며 새 기능으로 자주 업데이트됩니다. 모든 고객이 구현하거나 [at.js 최신 버전으로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)하는 것이 좋습니다.
 * **mbox.js:**[ mbox.js 라이브러리는 Target의 새 구현 라이브러리입니다. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) mbox.js 라이브러리는 2021년 3월 31일까지 지원되지만 기능 업데이트는 없습니다.
 
 >[!IMPORTANT]
 >
->모든 고객은 [!DNL AEP Web SDK] 또는 최신 버전의 at.js로 마이그레이션해야 합니다. 자세한 내용은 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) 또는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
+>모든 고객은 [!DNL AEP Web SDK] 또는 최신 버전의 at.js로 마이그레이션해야 합니다. 자세한 내용은 [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 또는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
 
 사이트의 모든 페이지에서 [!DNL AEP Web SDK] 또는 at.js를 참조해야 합니다. 예를 들어 글로벌 헤더에 이러한 항목 중 하나를 추가할 수 있습니다. 또는 [Adobe 플랫폼 시작](https://experienceleague.adobe.com/docs/launch/using/overview.html)을 사용하는 것이 좋습니다.
 
