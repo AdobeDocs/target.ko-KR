@@ -4,7 +4,7 @@ description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Prem
 title: 'Adobe Target 릴리스 노트(현재) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
 source-wordcount: '943'
 ht-degree: 27%
