@@ -4,7 +4,7 @@ description: 웹 페이지에서 Target 라이브러리(at.js 또는 mbox.js)를
 title: Target JavaScript 라이브러리 이해
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 76%
