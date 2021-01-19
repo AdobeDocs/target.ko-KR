@@ -4,10 +4,10 @@ description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '4296'
-ht-degree: 70%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,15 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 
 ### Recommendations
 
-다음은 Recommendations 활동에 대한 알려진 문제입니다.
+다음은 [!UICONTROL Recommendations] 활동의 알려진 문제입니다.
+
+* 현재 활성 판촉 행사가 있는 [!UICONTROL Recommendation] 활동을 복사할 때 복제 활동의 모든 변경 사항도 원래 활동에 영향을 주고 그 반대의 경우도 마찬가지입니다. (TGT-39155)
+
+   임시 해결 방법으로:
+
+   * 활동 프로모션 비활성화
+   * 활동 복제
+   * 각 활동에서 다시 판촉 행사 활성화
 
 * 피드나 API를 통해 업데이트를 받지 못한 후 60일이 지나면 엔티티가 올바르게 만료됩니다. 그러나 만료된 엔티티는 만료 후 카탈로그 검색 색인에서 제거되지 않습니다. (IRI-857)
 * 기준 및 디자인에 대한 &quot;사용 정보&quot; 오버레이는 A/B 및 Experience 타깃팅 활동의 사용을 반영하지 않습니다(TGT-34331).
