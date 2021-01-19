@@ -4,10 +4,10 @@ description: Adobe Target의 활동 및 기타 요소에 영향을 미치는 문
 title: 제한
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 76cdf65fcfe89a149c9dccd725328d22d4f74363
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 76%
+source-wordcount: '1038'
+ht-degree: 73%
 
 ---
 
@@ -194,9 +194,7 @@ mbox v2 일괄 처리:
 
 ## productPurchasedId 매개 변수
 
-**제한**: 쉼표로 구분된 값당 47자.
-
-더 긴 값은 시스템에 의해 잘립니다.
+**제한**:쉼표로 구분된 값당 47자, 총 250자. 47자를 초과하는 개별 값은 시스템에 의해 잘릴 수 있습니다. 전체 길이가 250자를 초과할 경우 400자 오류가 발생할 수 있습니다.
 
 ## 프로필 스크립트
 
