@@ -1,20 +1,20 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 정보입니다.
 title: 제한
-feature: Recommendations
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 76cdf65fcfe89a149c9dccd725328d22d4f74363
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '1038'
-ht-degree: 73%
+source-wordcount: '1035'
+ht-degree: 71%
 
 ---
 
 
-# 제한{#limits}
+# 제한
 
-Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 정보입니다.
+Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 [!DNL Adobe Target]의 활동 및 기타 요소에 영향을 줍니다.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 �
 >
 >권장됨으로 지정된 제한에 근접했거나 이를 초과하면 성능이 저하될 수 있습니다. 하나의 활동에 많은 대상, 타겟 및 경험이 모두 있는 경우와 같이 활동이 매우 복잡해도 인터페이스 로드가 느려질 수 있습니다.
 >
->매우 복잡한 활동은 Adobe 컨설턴트와 함께 검토해야 하며 프로덕션 상태에 들어가기 전에 제한된 환경에서 테스트해야 합니다.
+>매우 복잡한 활동은 제작으로 출시되기 전에 [!DNL Adobe] 컨설팅을 통해 검토하고 제한된 환경에서 테스트해야 합니다.
 
 ## 활동
 
