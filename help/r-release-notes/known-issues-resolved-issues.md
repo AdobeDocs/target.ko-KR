@@ -4,10 +4,10 @@ description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입�
 title: Adobe Target의 알려진 문제 및 해결된 문제
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '4337'
+ht-degree: 69%
 
 ---
 
@@ -67,7 +67,7 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 
 다음은 [!UICONTROL Recommendations] 활동의 알려진 문제입니다.
 
-* 현재 활성 판촉 행사가 있는 [!UICONTROL Recommendation] 활동을 복사할 때 복제 활동의 모든 변경 사항도 원래 활동에 영향을 주고 그 반대의 경우도 마찬가지입니다. (TGT-39155)
+* 활성 판촉으로 [!UICONTROL 권장 사항] 활동을 복사할 때 현재 복제 활동의 모든 변경 사항도 원래 활동에 영향을 주고 그 반대의 경우도 마찬가지입니다. (TGT-39155)
 
    임시 해결 방법으로:
 
