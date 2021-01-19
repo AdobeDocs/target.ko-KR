@@ -4,10 +4,10 @@ description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Prem
 title: 'Adobe Target 릴리스 노트(현재) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 27%
+source-wordcount: '852'
+ht-degree: 36%
 
 ---
 
@@ -28,7 +28,25 @@ ht-degree: 27%
 >
 mbox.js는 현재 지원되지만(2021년 3월 31일까지) 2017년 7월 이후로 이 라이브러리에 기능 업데이트를 제공하지 않았습니다. 모든 고객을 [!UICONTROL Adobe Experience Platform Web SDK] 또는 at.js로 이동하면 엔지니어 및 지원 직원이 새로운 기능을 제공하고 Adobe에서 기대하는 지원을 제공할 수 있게 됩니다.
 
+(괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## Target Standard/Premium 21.1.1(2021년 1월 19일)
+
+이 유지 관리 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
+
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+* [!UICONTROL 자동 Target] 활동에서 [!UICONTROL Analytics를 보고 소스](A4T)로 사용할 때 [!DNL Adobe Analytics] 지표를 선택할 때 경고를 추가했습니다. [!UICONTROL 자동 ] 타게팅 모델은 이진(전환 기반) 지표와 작동하도록 최적화되었습니다. 매출과 같은 연속 지표를 선택하면 차선의 결과가 있을 수 있으며 [!UICONTROL 개인화 인사이트] 보고서가 정확하지 않을 수 있습니다. (TGT-38926)
+* A4T를 사용하는 [!UICONTROL 자동 Target] 활동에 대한 [!UICONTROL 자동 Target 요약] 보고서에 상태 아이콘을 추가했습니다. 보고서에서 각 경험 옆에 있는 녹색 확인 아이콘은 해당 경험에 대해 개인화된 기계 학습 모델이 생성되었음을 나타냅니다. 시계 아이콘은 모델을 만들 수 있는 충분한 트래픽이 제공되지 않았음을 나타냅니다. (TGT-38925)
+* A4T 및 [!DNL Analytics] 전환 지표를 사용하는 [!UICONTROL 자동 Target] 활동에 대한 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성] 보고서가 생성되고 [!DNL Target]을 보고 소스로 사용할 때와 동일하게 보입니다. (TGT-38931)
+* [!UICONTROL Recommendations] [!UICONTROL 컬렉션] 목록에 환경 필터링 옵션을 추가했습니다. (TGT-38353)
+* 잘못된 제품 수가 [!UICONTROL Recommendations] 컬렉션에 표시되는 문제를 해결했습니다. (TGT-39162)
+* [!UICONTROL 마지막으로 업데이트된] 필터를 [!UICONTROL Recommendations] [!UICONTROL 카탈로그 검색]에 추가했습니다. (TGT-38340)
+* 업계 수직 변경 후 [!UICONTROL 시퀀스 만들기] 페이지가 중단되는 [!UICONTROL Recommendations]의 문제를 수정했습니다. (TGT-38160)
+* Device Co-op이 활성화되어 있고 사용자가 [!DNL Target]에서 보고 소스로 [!DNL Analytics](A4T)로 변경된 경우 활동이 저장되지 않는 문제를 해결했습니다. (TGT-38163)
+* 사용자가 [!UICONTROL Automated Personalization](AP) 활동의 오퍼에서 대상을 제거하지 못했던 문제를 수정했습니다. (TGT-39058)
+* 일부 고객의 [!UICONTROL 대상 정보] 카드에 잘못된 시간 프레임(시작 및 종료 날짜)이 표시되는 문제를 수정했습니다. (TGT-39150)
+* 일부 고객이 [!UICONTROL 기본 작업 공간]의 활동 목록을 볼 수 없는 문제를 수정했습니다. (TGT-38526)
 
 ## at.js 2.4.0(2021년 1월 14일)
 
@@ -36,27 +54,6 @@ at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 
 
 * 통합 프로필/플랫폼 ID에 대한 지원을 배달 API customerId에 추가합니다.
 * 잘못된 스타일 태그 삽입이 수정되었습니다.
-
-## Target Standard/Premium 20.10.1(2020년 10월 27일)
-
-이 릴리스에는 다음과 같은 새로운 기능이 포함됩니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| [디바이스에서 의사 결정](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 디바이스 내 의사 결정을 통해 마케터와 제품 개발자 모두 디바이스 내에서 거의 지연 없이 모든 채널에서 실험을 바탕으로 머신 러닝 기반의 개인화를 전달할 수 있습니다.<br>고객 인사이트와 사용자 만족도에서 속도와 성능이 중요합니다.<br>장치 내 의사 결정을 사용하면 A/B 테스트 및 경험 타깃팅(XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 장치에 로드되는 &quot;최적화 객체:&quot; JSON 객체로 컴파일할 수 있습니다. 또한 디바이스에서 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되므로 [!DNL Target] 사용자는 신속한 분석과 빠른 경험 반복을 경험할 수 있습니다.<br>자세한 내용은 *장치 [내 의사 결정을 참조하십시오](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md). |
-
-이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함됩니다.
-
-* [!UICONTROL Total] 행에 대해 [!DNL Auto-Target]보고 시 [!UICONTROL 평균 리프트 신뢰 구간] 및 [!UICONTROL 신뢰]이 표시되지 않는 문제를 해결했습니다. 모든 개별 경험에 대해 올바로 표시되는 측정입니다. (TGT-37301)
-* 9월 15일, 오후 2:30부터 [!DNL Adobe Target Premium] 사용자의 [!UICONTROL 자동 Target] 보고에 영향을 주는 문제를 수정했습니다.(PDT) - 10월 6일 오전 9시 25분(PDT). 영향을 받은 전환 지표에 대한 보고서를 볼 때(&quot;[!UICONTROL 페이지] 보기&quot; 또는 &quot;[!UICONTROL mbox]&quot; 옵션을 클릭함) 전환율이 잘못 보고됩니다. 현재 알려진 배달 문제가 없습니다. 보고를 다시 동기화하고 수정하는 방법에 대한 자세한 내용은 *알려진 문제 및 해결된 문제*&#x200B;의 *해결된 문제*&#x200B;에서 [자동 Target 보고](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)를 참조하십시오.
-* [!UICONTROL 카탈로그 검색] 테이블 및 [!UICONTROL 마지막 업데이트 위치] 필터에 선택 가능한 [!UICONTROL 마지막 업데이트 위치] 열이 추가되었습니다. 이 개선 사항은 각 개별 항목이 마지막으로 업데이트된 시기를 확인하기 위해 열 필요가 없고 항목이 마지막으로 업데이트된 날짜별로 필터링할 수 있으므로 시간과 노력을 절약할 수 있습니다.
-
-   ![마지막 업데이트된 열 및 필터 일러스트레이션](/help/r-release-notes/assets/column-and-filter.png)
-
-* Target UI가 [웹 컨텐츠 접근성 지침](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 레벨 A 및 AA 성공 기준(WCAG 2.0 AA)을 준수하도록 하기 위해 업데이트가 수행되었습니다. (TGT-34384 및 TGT-24679)
-* CSP(Content Security Policy)가 개선되었습니다. (TGT-37035)
-* CNAME을 사용하는 고객을 위한 매개 변수로 클라이언트 코드를 지정하는 방법을 도입했습니다. (TNT-38571)
-* [!DNL Adobe Experience Cloud] 설명서는 다음으로  [!DNL Experience League]이동합니다. 10월 중에 모든 릴리스 노트, 기사, 비디오 및 자습서가 현재 위치 `docs.adobe.com`에서 [!DNL Experience League]로 이동합니다. 이렇게 하면 모든 학습, 자가 도움말, 지원 및 커뮤니티 콘텐츠를 한 곳에서 제공할 수 있습니다. 이 변경 사항이 발생하면 모든 링크가 [!DNL Experience League]으로 리디렉션되므로 필요한 작업이 없습니다. 컷오버가 시작되면 릴리스 노트를 업데이트합니다.
 
 ## 추가 릴리스 노트 및 버전 세부 정보
 
