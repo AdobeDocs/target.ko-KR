@@ -4,10 +4,10 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '3292'
-ht-degree: 28%
+source-wordcount: '3387'
+ht-degree: 29%
 
 ---
 
@@ -15,6 +15,15 @@ ht-degree: 28%
 # 설명서 변경 내용{#documentation-changes}
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서에 대한 중요한 변경 내용이 나와 있습니다.
+
+## Adobe Target Standard/Premium 21.1.1(2021년 1월 19일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 19년 1월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target 21.1.1 릴리스(2021년 1월 19일)에 대한 정보가 추가되었습니다. |
+|  | [제한](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID` 매개 변수의 텍스트가 업데이트되었습니다. |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 활성 판촉으로 [!UICONTROL 권장 사항] 활동을 복사할 때 알려진 문제가 추가되었습니다. 복제 활동의 모든 변경 사항은 원본 활동에도 영향을 주고 그 반대의 경우도 마찬가지입니다. 임시 해결 방법이 포함되어 있습니다. |
+|  | [릴리스 노트](/help/r-release-notes/release-notes.md): 21.1.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 20.10.1(2020년 10월 28일)
 
