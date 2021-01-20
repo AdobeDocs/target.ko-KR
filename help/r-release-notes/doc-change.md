@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3395'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 20년 1월 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 새 주제입니다.  |
 | 19년 1월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target 21.1.1 릴리스(2021년 1월 19일)에 대한 정보가 추가되었습니다. |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID` 매개 변수의 텍스트가 업데이트되었습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 활성 판촉으로 [!UICONTROL 권장 사항] 활동을 복사할 때 알려진 문제가 추가되었습니다. 복제 활동의 모든 변경 사항은 원본 활동에도 영향을 주고 그 반대의 경우도 마찬가지입니다. 임시 해결 방법이 포함되어 있습니다. |
