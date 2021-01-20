@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: Adobe Target의 카탈로그 검색은 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다.
-title: Adobe Target의 카탈로그 검색
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: Recommendations 카탈로그 검색을 사용하여 제품 또는 컨텐츠를 찾고, 컬렉션이나 제외를 만들고, 카탈로그에서 항목을 제거하는 방법 등을 알아보십시오.
+title: Recommendations 카탈로그 검색을 사용하는 방법
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 20%
+source-wordcount: '1031'
+ht-degree: 17%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 카탈로그 검색 {#catalog-search}
+# ![PREMIUMCatalog ](/help/assets/premium.png) 검색
 
-[!UICONTROL 카탈로그 검색] 페이지에서는 카탈로그에서 제품 또는 컨텐트를 찾는 데 도움이 됩니다.
+[!DNL Adobe Recommendations]의 [!UICONTROL 카탈로그 검색] 페이지에서는 카탈로그에서 제품 또는 컨텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고, 검색 결과를 컬렉션이나 제외에 저장하고, 필터 패싯을 추가하고, 테이블의 열을 수정하고, 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.
 
 카탈로그는 전체 제품 세트(엔티티)를 의미합니다. 카탈로그에는 여러 컬렉션이 포함될 수 있으며 이는 제품을 논리 버킷으로 구성하는 방법입니다.
+
+## 카탈로그 검색 액세스
 
 [!UICONTROL 카탈로그 검색] 페이지에 액세스하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL 카탈로그 검색]**&#x200B;을 클릭합니다.
 
 ![카탈로그 검색 페이지](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경할 수 있습니다.컬렉션 또는 제외에 검색 결과 저장표에서 열을 추가, 제거 또는 재정렬하고 새 검색 패싯을 [!UICONTROL 필터] 패널에 추가합니다.
 
 ## 항목 검색
 
@@ -61,7 +61,7 @@ ht-degree: 20%
    >
    >숫자 값을 사용하여 사용자 지정 속성에 대해 카탈로그 검색을 수행하면 결과가 사용자 지정 속성을 숫자 값 대신 문자열 유형으로 처리합니다.
    >
-   >현재, 고객이 속성 유형을 변경할 수 있는 기능이 없습니다. [이(가) 문자열을 숫자로 변경해야 하는 특성을 참조하는 고객 문제](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)를 엽니다.
+   >현재 속성 유형을 변경할 수 있는 기능이 없습니다. [이(가) 문자열을 숫자로 변경해야 하는 특성을 참조하는 고객 문제](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)를 엽니다.
 
 1. 필터를 사용하여 원하는 제품을 찾을 수도 있습니다. 다음 예에서 [!UICONTROL 컬렉션] 패싯을 확장하고 &quot;자전거 도구&quot;를 선택하면 카탈로그에 있는 모든 자전거 도구가 표시됩니다.
 
@@ -153,7 +153,7 @@ ht-degree: 20%
 
    ![필터 링크 수정](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. 원하는 검색 패싯(ID, 이름, 메시지 등)을 선택합니다.
+1. 원하는 검색 패싯(ID, 이름, 메시지 등)을 선택한 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    ![필터 추가](/help/c-recommendations/c-products/assets/add-filters.png)
 
