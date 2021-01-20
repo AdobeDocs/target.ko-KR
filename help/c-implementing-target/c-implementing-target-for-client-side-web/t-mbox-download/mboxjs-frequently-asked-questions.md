@@ -4,10 +4,10 @@ description: mbox.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 title: mbox.js FAQ
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 98%
+source-wordcount: '398'
+ht-degree: 80%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 98%
 # mbox.js 자주 묻는 질문{#mbox-js-frequently-asked-questions}
 
 mbox.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
+
+>[!IMPORTANT]
+>
+>**mbox.js 수명 종료**:2021년 3월 31일부터 mbox.js 라이브러리는 더 이상 지원되지  [!DNL Adobe Target] 않습니다. 2021년 3월 31일 이후 mbox.js에서 수행된 모든 호출이 정상적으로 실패하며 기본 컨텐츠를 제공하여 [!DNL Target] 활동이 있는 페이지에 영향을 줍니다.
+>
+>사이트에서 발생할 수 있는 문제를 방지하려면 모든 고객이 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. 자세한 내용은 [개요:클라이언트측 웹](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)에 대한 Target을 구현합니다.
 
 ## 페이지 로드 시 mbox.js의 영향은 어떤 것입니까? {#section_90B3B94FE0BF4B369577FCB97B67F089}
 
