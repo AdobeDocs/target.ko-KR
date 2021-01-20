@@ -5,10 +5,10 @@ description: Target 안내서의 홈 페이지를 봅니다.
 seo-description: Adobe Target은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 Adobe Experience Cloud 솔루션입니다.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '703'
+ht-degree: 62%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트:2021년 1월 19일 ( [변경된 내용](r-release-notes/doc-change.md)  참조)**
+**마지막 업데이트:2021년 1월 20일 ( [변경된 내용](r-release-notes/doc-change.md)  참조)**
 
 >[!NOTE]
 >
