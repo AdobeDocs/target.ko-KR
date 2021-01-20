@@ -4,10 +4,10 @@ description: 기술 담당자가 mbox.js 구현과 이 구현이 사이트에 �
 title: mbox.js가 수행하는 작업
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '304'
-ht-degree: 100%
+source-wordcount: '377'
+ht-degree: 80%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 100%
 # mbox.js가 수행하는 작업{#what-mbox-js-does}
 
 기술 담당자가 mbox.js 구현과 이 구현이 사이트에 미칠 수 있는 영향을 이해하는 데 도움이 되는 정보입니다.
+
+>[!IMPORTANT]
+>
+>**mbox.js 수명 종료**:2021년 3월 31일부터 mbox.js 라이브러리는 더 이상 지원되지  [!DNL Adobe Target] 않습니다. 2021년 3월 31일 이후 mbox.js에서 수행된 모든 호출이 정상적으로 실패하며 기본 컨텐츠를 제공하여 [!DNL Target] 활동이 있는 페이지에 영향을 줍니다.
+>
+>사이트에서 발생할 수 있는 문제를 방지하려면 모든 고객이 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. 자세한 내용은 [개요:클라이언트측 웹](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)에 대한 Target을 구현합니다.
 
 Target Standard에는 [!DNL mbox.js] 버전 58 이상이 필요합니다. [!DNL mbox.js]를 다운로드하고 업데이트하는 방법에 대한 지침은 [Mbox 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
 
