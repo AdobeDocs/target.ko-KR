@@ -1,14 +1,14 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
-title: Adobe Target의 사용자 지정 개체 특성
+title: 사용자 지정 엔티티 속성
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 4fb3603946850092ff2db47e2ad319ab84ff9261
 workflow-type: tm+mt
-source-wordcount: '1379'
-ht-degree: 90%
+source-wordcount: '1376'
+ht-degree: 91%
 
 ---
 
