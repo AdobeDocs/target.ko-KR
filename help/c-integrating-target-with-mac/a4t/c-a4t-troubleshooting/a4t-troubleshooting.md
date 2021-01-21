@@ -4,10 +4,10 @@ description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 �
 title: Analytics 및 Target 통합 문제 해결(A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: d6ee46899813049c1fad7a358f800702730b3c2d
+source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
 workflow-type: tm+mt
-source-wordcount: '880'
-ht-degree: 71%
+source-wordcount: '779'
+ht-degree: 80%
 
 ---
 
@@ -38,15 +38,6 @@ ht-degree: 71%
 >
 >&quot;지정되지 않음&quot;으로 나열된 경우 데이터는 손실되지 않으며, 분류가 실행된 후 적절한 활동이나 경험에 적절하게 지정됩니다.
 
-## A4T 활동 보고서에는 &quot;지정되지 않음&quot; 이벤트가 많은 행이 포함됩니다.{#added_unspecified_events}
-
-데이터를 표시하는 데 사용하는 지표에 따라 항상 지정되지 않은 이벤트 행이 표시됩니다.\
-Target 전용 지표를 사용하는 경우 &quot;지정되지 않음&quot; 행이 표시되지 않습니다.
-보다 일반적인 지표를 사용하는 경우 해당 행이 보고서에 다시 나타납니다.
-
-&quot;지정되지 않음&quot; 라인 항목에 Target 관련 정보가 없습니다(예: 방문자/방문/노출 횟수 없음).\
-보고서에서 Target을 표시하지 않는 유일한 방법은 해당 페이지에서 보낸 모든 요청에 대해를 설정하는 것입니다. 이것은 의미가 없습니다.
-
 ## A4T를 시작한 이후 내 Analytics 데이터에 부풀려진 방문 또는 방문자 카운트가 표시됩니다. {#section_4BE374E573D44FB7918611699B74F58E}
 
 자세한 내용은 [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)를 참조하십시오.
@@ -55,7 +46,7 @@ Target 전용 지표를 사용하는 경우 &quot;지정되지 않음&quot; 행�
 
 상승도 및 신뢰도 세부 정보는 Analytics에서 사용할 수 없습니다. 하지만 Target 보고서에서는 사용할 수 있습니다.
 
-## Analytics 보고서에 활동이 표시되지 않습니다. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Analytics 보고서에 활동이 표시되지 않습니다.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다. Analytics 추적 서버를 올바로 설정하려면 [Analytics 추적 서버 사용](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
 
