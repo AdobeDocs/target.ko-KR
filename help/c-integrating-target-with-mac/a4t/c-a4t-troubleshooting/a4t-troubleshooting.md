@@ -4,10 +4,10 @@ description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 �
 title: Analytics 및 Target 통합 문제 해결(A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '987'
+ht-degree: 63%
 
 ---
 
@@ -32,11 +32,25 @@ ht-degree: 80%
 
    도움이 필요하면 [고객 지원팀에 문의하십시오.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
+&quot;Target에 대한 분석&quot; 차원으로 &quot;지정되지 않음&quot; 행을 분류하고 활동 ID로 구성되어 있지 않은 경우, 모든 것이 올바르게 분류됨을 의미합니다.  활동 ID가 여기에 나열되면 분류 문제를 나타내는 역할을 합니다.
+
 >[!NOTE]
 >
 >때로 데이터가 보고서에 올바로 표시되지만, 분류를 완료하지 않은 새 활동이 추가되었기 때문에 &quot;지정되지 않음&quot;으로 다시 되돌려집니다. 일반적으로 처음 저장한 후 보고서를 분류하는 데 24~72시간 정도가 소요됩니다.
 >
 >&quot;지정되지 않음&quot;으로 나열된 경우 데이터는 손실되지 않으며, 분류가 실행된 후 적절한 활동이나 경험에 적절하게 지정됩니다.
+
+
+## A4T 활동 보고서에는 &quot;지정되지 않음&quot; 이벤트가 많은 행이 포함됩니다.{#added_unspecified_events}
+
+데이터를 표시하는 데 사용하는 지표에 따라 보고서에 &quot;지정되지 않음&quot; 이벤트 행이 표시될 수 있습니다.
+
+일반적으로 이 행은 Target에 한정되지 않는 보고서에서 일반적인 지표(예: 페이지 보기 횟수, 방문 횟수, 고유 방문자 수 등)를 선택하는 경우 표시됩니다.
+이 경우 &quot;지정되지 않음&quot; 행은 Target 활동과 연결되지 않은 모든 페이지 보기, 방문 및 고유 방문자를 포함합니다.
+해당 행에는 Target 관련 정보가 없습니다(예: 방문자, 방문 또는 노출 횟수 없음). 자세한 내용은 *Analytics 기술 노트*&#x200B;의 보고](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en)에서 [&quot;지정되지 않음,&quot; &quot;없음&quot;, &quot;없음&quot;, &quot;기타&quot; 및 &quot;알 수 없음&quot;을 참조하십시오.
+
+보고서에서 Target 특정 지표를 선택하면 &quot;지정되지 않음&quot; 행이 표시되지 않습니다.
+보고서에 모두 포함되지 않는 유일한 방법은 해당 페이지에서 보낸 모든 요청에 대해 Target 호출을 설정하는 것입니다. 이 요청은 일반적이거나 필요하지 않습니다.
 
 ## A4T를 시작한 이후 내 Analytics 데이터에 부풀려진 방문 또는 방문자 카운트가 표시됩니다. {#section_4BE374E573D44FB7918611699B74F58E}
 
@@ -46,7 +60,7 @@ ht-degree: 80%
 
 상승도 및 신뢰도 세부 정보는 Analytics에서 사용할 수 없습니다. 하지만 Target 보고서에서는 사용할 수 있습니다.
 
-## Analytics 보고서에 활동이 표시되지 않습니다.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Analytics 보고서에 활동이 표시되지 않습니다. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다. Analytics 추적 서버를 올바로 설정하려면 [Analytics 추적 서버 사용](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
 
