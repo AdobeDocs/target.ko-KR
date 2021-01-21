@@ -4,7 +4,7 @@ description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 �
 title: Analytics 및 Target 통합 문제 해결(A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: aeb18e5e27e821769e22e1fb4c36d2abb46c2950
+source-git-commit: d6ee46899813049c1fad7a358f800702730b3c2d
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 71%
@@ -40,11 +40,12 @@ ht-degree: 71%
 
 ## A4T 활동 보고서에는 &quot;지정되지 않음&quot; 이벤트가 많은 행이 포함됩니다.{#added_unspecified_events}
 
-데이터를 표시하는 데 사용하는 지표에 따라 항상 지정되지 않은 이벤트 행이 표시됩니다.
+데이터를 표시하는 데 사용하는 지표에 따라 항상 지정되지 않은 이벤트 행이 표시됩니다.\
+Target 전용 지표를 사용하는 경우 &quot;지정되지 않음&quot; 행이 표시되지 않습니다.
+보다 일반적인 지표를 사용하는 경우 해당 행이 보고서에 다시 나타납니다.
 
-Target 전용 지표를 사용하는 경우 &quot;지정되지 않음&quot; 행이 표시되지 않습니다. 보다 일반적인 지표를 사용하는 경우 해당 행이 보고서에 다시 나타납니다.
-
-&quot;지정되지 않음&quot; 라인 항목에 Target 관련 정보가 없습니다(예: 방문자/방문/노출 횟수 없음). 보고서에서 Target을 표시하지 않는 유일한 방법은 해당 페이지에서 보낸 모든 요청에 대해를 설정하는 것입니다. 이것은 의미가 없습니다.
+&quot;지정되지 않음&quot; 라인 항목에 Target 관련 정보가 없습니다(예: 방문자/방문/노출 횟수 없음).\
+보고서에서 Target을 표시하지 않는 유일한 방법은 해당 페이지에서 보낸 모든 요청에 대해를 설정하는 것입니다. 이것은 의미가 없습니다.
 
 ## A4T를 시작한 이후 내 Analytics 데이터에 부풀려진 방문 또는 방문자 카운트가 표시됩니다. {#section_4BE374E573D44FB7918611699B74F58E}
 
