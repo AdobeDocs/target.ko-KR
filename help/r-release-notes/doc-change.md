@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
 workflow-type: tm+mt
-source-wordcount: '3395'
+source-wordcount: '3442'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 29%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 21년 1월 | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 새 섹션이 추가되었습니다.&quot;A4T 활동 보고서에는 &quot;지정되지 않음&quot; 이벤트가 많은 행이 포함됩니다.&quot; |
+|  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 다음 섹션 업데이트:&quot;Analytics 보고서에 &quot;지정되지 않음&quot;이 표시되는 이유는 무엇입니까? 어떤 의미입니까?&quot; |
 | 20년 1월 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 새 주제입니다.  |
 | 19년 1월 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | Target 21.1.1 릴리스(2021년 1월 19일)에 대한 정보가 추가되었습니다. |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID` 매개 변수의 텍스트가 업데이트되었습니다. |
