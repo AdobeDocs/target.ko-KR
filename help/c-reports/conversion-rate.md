@@ -4,9 +4,9 @@ description: 각 경험에 대한 전환율, 상승도, 신뢰도(통계적 중�
 title: 전환율
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2146'
 ht-degree: 72%
 
 ---
@@ -186,7 +186,7 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 >
 >일반적으로 계수는 쿠키 및 세션 활동에 의해 결정됩니다. 하지만 활동의 최종 전환 지점에 도달한 후 활동을 다시 시작하는 경우에는 활동에 대한 새 방문 및 새 참여자로 간주됩니다. PCID 및 `sessionID` 값이 변경되지 않는 경우에도 마찬가지입니다.
 
-## Target이 학생의 테스트 테스트를 사용하는 이유는 무엇입니까?{#t-test}
+## Target에서 학생의 테스트 사용을 권장하는 이유는 무엇입니까?{#t-test}
 
 A/B 테스트는 하나 이상의 대체 경험에서 제어 변형(경험이라고도 함)에 있는 일부 비즈니스 지표의 평균 값을 해당 지표의 평균 값과 비교하는 실험입니다.
 
