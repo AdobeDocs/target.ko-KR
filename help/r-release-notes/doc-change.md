@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '3454'
+source-wordcount: '3455'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 29%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 22년 1월 | [전환율](/help/c-reports/conversion-rate.md#t-test) | 다음 섹션이 추가되었습니다.&quot;Target이 학생의 테스트 결과를 사용하는 이유는 무엇입니까?&quot; |
+| 22년 1월 | [전환율](/help/c-reports/conversion-rate.md#t-test) | 다음 섹션이 추가되었습니다.&quot;Target에서 학생의 테스트 사용을 권장하는 이유는 무엇입니까?&quot; |
 | 21년 1월 | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 새 섹션이 추가되었습니다.&quot;A4T 활동 보고서에는 &quot;지정되지 않음&quot; 이벤트가 많은 행이 포함됩니다.&quot; |
 |  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 다음 섹션 업데이트:&quot;Analytics 보고서에 &quot;지정되지 않음&quot;이 표시되는 이유는 무엇입니까? 어떤 의미입니까?&quot; |
 | 20년 1월 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 새 주제입니다.  |
