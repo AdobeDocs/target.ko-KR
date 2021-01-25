@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Adobe Target 소개
 feature: intro
 translation-type: tm+mt
-source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
+source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 86%
+source-wordcount: '918'
+ht-degree: 85%
 
 ---
 
@@ -81,6 +81,10 @@ Target Premium은 다음 프리미엄 기능을 포함하고 있습니다.
 [Enterprise 사용자 ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 권한 기능을 사용하면 서로 다른 프로젝트(&quot;제품 프로필&quot;이라고 함)를 만들어  [!DNL Adobe Admin Console for Enterprise]각 프로젝트에 대한 사용자의 액세스 권한을 제어하는 단일 사용자에 대해 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과 지역, 환경(개발/단계/prod), 채널 또는 기타 사용자 지정 기준을 기반으로 사용자에 대한 보기, 편집, 승인 및 게시 액세스를 제한할 수 있습니다.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] 은(는) 레거시 제품입니다. 최상의 [!DNL Recommendations] 경험을 얻으려면 위에 설명된 [!DNL Adobe Target Premium]에서 사용할 수 있는 [!DNL Recommendations] 활동으로 업그레이드하십시오.
 
 [!DNL Recommendations Classic]은 웹 사이트에서의 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시할 수 있습니다. 권장 사항을 사용하면 고객에게 모르는 제품을 안내하여 웹 사이트에서의 판매량을 늘릴 수 있습니다.
 
