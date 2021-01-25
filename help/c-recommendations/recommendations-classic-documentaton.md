@@ -4,10 +4,10 @@ description: Adobe Recommendations Classic 설명서입니다.
 title: Adobe Recommendations Classic 설명서입니다.
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: e43cb56ebe80e2df83b3c2a75dd90e28bf3870ff
+source-git-commit: 552e5fb844e2b8a93973e6ce1ce138ea5fa0d12f
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 82%
+source-wordcount: '101'
+ht-degree: 76%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 82%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] 은(는) 레거시 제품입니다. 최상의 [!DNL Recommendations] 경험을 얻으려면 [Adobe Target Premium](/help/c-intro/intro.md)에서 사용할 수 있는 [!DNL Recommendations] 활동으로 업그레이드하십시오.
+>[!DNL Recommendations Classic] 은 기존 제품이며 더 이상 신규 고객에게 라이선스가 부여되지 않습니다. 최상의 [!DNL Recommendations] 경험을 얻으려면 [Adobe Target Premium](/help/c-intro/intro.md)에서 사용할 수 있는 [!DNL Recommendations] 활동으로 업그레이드하십시오.
 
 권장 사항을 사용하면 고객에게 모르는 제품을 안내하여 웹 사이트에서의 판매량을 늘릴 수 있습니다.
 
