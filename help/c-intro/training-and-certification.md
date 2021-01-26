@@ -2,9 +2,9 @@
 keywords: training;certification;target;online courses;courses;class;classes
 description: Adobe 교육 서비스는 Adobe Target을 비롯한 Adobe 제품 및 솔루션에 대한 수업 및 인증을 제공합니다.
 title: Adobe Target을 비롯한 Adobe 제품 및 솔루션에 대한 트레이닝 및 인증
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '91'
 ht-degree: 48%
