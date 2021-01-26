@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: Adobe Analytics를 보고 소스(A4T)로 사용하도록 Target Standard/Premium에서 활동을 구성할 수 있습니다.
 title: A4T를 보고 소스로 사용하는 활동 만들기
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1394'
 ht-degree: 17%
 
 ---
@@ -132,7 +132,7 @@ A/B 테스트 및 경험 타깃팅 활동](/help/c-integrating-target-with-mac/a
 
 * 활동이 활성화된 후에는 보고 소스를 [!DNL Analytics]에서 [!DNL Target](으)로 또는 그 반대로 변경할 수 없습니다.
 * 계산된 지표는 기본 목표 지표로 지원되지 않지만 사용자 지정 이벤트를 기본 목표 지표로 선택하는 대신 원하는 결과를 얻을 수 있는 경우가 많습니다. 예를 들어 &quot;방문자당 양식 완료&quot;와 같은 지표에 대해 최적화하려면 &quot;양식 완료&quot;에 해당하는 사용자 지정 이벤트를 기본 목표 지표로 선택합니다. [!DNL Target] 방문당 전환 지표를 자동으로 정규화하여 불규칙한 트래픽 배포를 고려하므로 계산된 지표를 사용하여 표준화를 수행할 필요가 없습니다.
-* [!DNL Target] Auto-AllocateA4T 구현에서 &quot;동일한 터치&quot;  [!UICONTROL 속성 ] 모델을 사용합니다.
+* [!DNL Target] 자동 할당 기능에서 &quot;동일한 터치&quot; 속성  [!UICONTROL 모델을 ] 사용합니다.Target(A4T)에 대한 분석.
 
 #### 자동 할당
 
@@ -141,6 +141,6 @@ A/B 테스트 및 경험 타깃팅 활동](/help/c-integrating-target-with-mac/a
 #### 자동 타겟
 
 * [!UICONTROL 자동차 ] 타게트모델은 평소대로 24시간마다 계속해서 훈련합니다. 그러나 [!DNL Analytics]에서 오는 전환 이벤트 데이터는 6-24시간 추가 지연이 발생합니다. 이러한 지연은 [!DNL Target]에 의한 트래픽 분배가 [!DNL Analytics]에 기록된 최신 이벤트를 추적합니다. 활동이 처음 활성화된 후 처음 48시간 이내에 가장 큰 효과를 가져옵니다.5일이 경과된 후 활동의 성능은 [!DNL Analytics] 전환 동작을 보다 자세히 반영합니다. 대부분의 트래픽이 활동 수명 후 처음 5일 이내에 발생하는 단기 활동에 대해 [!UICONTROL 자동 Target] 대신 [!UICONTROL 자동 할당]을 사용하는 것이 좋습니다.
-* [!DNL Analytics]자동 Target] 활동에 대한 데이터 소스로 &lt;a0/>을(를) 사용하는 경우 6시간이 경과하면 세션이 종료된 것으로 간주됩니다. [!UICONTROL  6시간 후에 발생하는 전환은 카운트되지 않습니다.
+* [!DNL Analytics]자동 Target] 활동에 대한 데이터 소스로 [!UICONTROL 을(를) 사용하는 경우 6시간이 경과하면 세션이 종료된 것으로 간주됩니다. 6시간 후에 발생하는 전환은 카운트되지 않습니다.
 
 자세한 내용은 *분석 도구 안내서*&#x200B;에서 [속성 모델 및 전환 창](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)을 참조하십시오.
