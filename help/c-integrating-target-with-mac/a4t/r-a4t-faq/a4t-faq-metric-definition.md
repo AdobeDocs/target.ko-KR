@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;metric;metric definitions
 description: 이 주제에서는 지표 정의와 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 지표 정의 - A4T FAQ
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '367'
 ht-degree: 65%
