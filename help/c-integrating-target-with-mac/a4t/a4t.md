@@ -2,9 +2,9 @@
 keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Adobe "Analytics for Target"(A4T)은 Analytics 변환 지표와 대상 세그먼트를 기반으로 활동을 생성할 수 있도록 해주는 교차 솔루션 통합입니다. 이 통합에서는 Analytics 보고서를 사용하여 결과를 검사할 수 있습니다. 활동의 보고 소스로 Analytics를 사용하는 경우 해당 활동의 모든 보고 및 세그멘테이션은 Analytics 데이터 수집을 기반으로 합니다.
 title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1306'
 ht-degree: 45%
@@ -46,7 +46,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 * 보고 소스는 각 활동에 대해 설정됩니다. [!DNL Target] 는 보고에 사용할 데이터를 계속 수집하며,  [!DNL Target] 데이터를 통해 수집된 데이터를 기반으로 하는 활동을 원하는 경우에는 데이터를 계속 사용할 수 있습니다 [!DNL Target].
 * 두 보고 소스 중 하나를 사용해야 합니다. 두 소스 모두에서 한 활동에 대한 데이터를 수집할 수 없습니다.
 * A4T를 사용할 때 활동에 사용할 수 있는 모든 성공 지표는 [!DNL Analytics] 지표입니다. 그러나 목표 지표는 mbox 호출을 기반으로 할 수 있습니다. 예를 들어 [!DNL Analytics] 클릭 추적 코드를 구현하지 않고도 A4T에서 Target의 기본 클릭 추적 기능을 사용할 수 있습니다.
-* [!DNL Target] UI에서 A4T 활동의 보고를 볼 때 [!DNL Analytics] 데이터가 표시됩니다. 예를 들어 [!DNL Target]에서 [!UICONTROL 방문자] 지표를 사용하는 경우 [!DNL Target] [!UICONTROL  &lt;a7/>방문자] 지표가 아닌 [!DNL Analytics] [!UICONTROL 방문자] 지표를 사용합니다(현재 [!UICONTROL 참여자]). 이 차이는 기본 트래픽 지표([!UICONTROL 방문자], [!UICONTROL 방문 횟수], [!UICONTROL 페이지 보기 횟수]) 및 전환 지표에 특히 중요합니다.
+* [!DNL Target] UI에서 A4T 활동의 보고를 볼 때 [!DNL Analytics] 데이터가 표시됩니다. 예를 들어 [!DNL Target]에서 [!UICONTROL 방문자] 지표를 사용하는 경우 [!DNL Target] [!UICONTROL  방문자] 지표가 아닌 [!DNL Analytics] [!UICONTROL 방문자] 지표를 사용합니다(현재 [!UICONTROL 참여자]). 이 차이는 기본 트래픽 지표([!UICONTROL 방문자], [!UICONTROL 방문 횟수], [!UICONTROL 페이지 보기 횟수]) 및 전환 지표에 특히 중요합니다.
 * 기존 [!DNL Target] 활동은 계속 [!DNL Target] 데이터 수집을 사용하며 A4T 활성화의 영향을 받지 않습니다.
 * 보고 소스로 [!DNL Analytics]을(를) 사용할 때는 mbox 기반 지표를 하나만 사용할 수 있습니다.
 * [!DNL Target]에서 [!DNL Analytics]로 서버 간 호출은 활동 및 경험 정보를 [!DNL Analytics]에 전송합니다. 이 통합으로 인해 [!DNL Target] 또는 [!DNL Analytics]에 대한 추가 서버 호출이 발생하지 않습니다.
