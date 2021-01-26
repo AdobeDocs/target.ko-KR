@@ -2,10 +2,10 @@
 keywords: Analytics as reporting source;a4t;A4T;requirements
 description: Adobe Target(A4T)에서 Adobe Analytics 기반 활동을 만들기 위한 사용자 계정 요구 사항입니다.
 title: 사용자 권한 요구 사항
-feature: a4t implementation
+feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 49%
