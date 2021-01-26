@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(A4T)할 때의 보고서 보기에 대한 FAQ 답변을 제공합니다.
 title: 보고서 보기 - A4T FAQ
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 52%
@@ -95,22 +95,22 @@ A4T 보고에서 지표를 표준화하기 위한 몇 가지 옵션이 있습니
 
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 사용자가 3월 1일에 다시 돌아와서 새 활동인 ABC를 봅니다. 사용자는 또 다섯 페이지를 봅니다. 활동 XYZ가 여전히 지속성을 통해 사용자를 따라가고 있으며 이 사용자에게 ABC 세트가 생기고 보고에 두 개의 라인 항목이 표시됩니다.
 
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 3 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 3 |
 
 그런 다음, 사용자는 4월 1일에 다시 돌아와서 다른 5개의 페이지를 보고 구매를 수행합니다. 첫 번째 eVar 값의 90일 만료가 4월 1일에 재설정되므로 보고에서 확인할 수 있습니다. 그리고 사용자에게 표시되는 모든 Target 활동이 전환 크레딧을 받지만 총 전환 수는 중복이 제거되어 계산됩니다.
 
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 | 주문 |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 3 |
-| 합계 | 2 | 20년 | 1 | 3 | 1 |
+| XYZ | 3 | 20 | 4 | 1 | 3 |
+| ABC | 3 | 10 | 2 | 1 | 1 |
+| 합계 | 2 | 20년 | 3 | 1 | 1 |
 
 전환 전에 두 경험을 모두 보았으므로 두 경험 모두 주문에 대한 &quot;크레딧&quot;을 받습니다. 그러나 주문은 시스템에서 하나만 발생했고 합계에 이렇게 반영됩니다. [!DNL Target] 보고의 경우, 더 성공적인 작업을 보기 위해 다른 활동에 [!DNL Target] 활동을 게시하지 않으므로 사용자가 본 모든 활동이 크레딧을 받든 상관 없습니다. 지금은 단일 활동 내 두 항목의 결과를 비교하고 있으며, 사용자는 동일한 활동에서 서로 다른 경험을 확인할 수 없으므로 주문 크레딧의 교차 오염에 대해 걱정할 필요가 없습니다.
 
