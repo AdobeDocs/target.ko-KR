@@ -2,9 +2,9 @@
 keywords: Overview and Reference;act
 description: Adobe Target의 기능 및 성능을 이해하는 데 도움이 되는 주요 개념에 대한 정보입니다.
 title: Target 주요 개념
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1513'
 ht-degree: 98%
