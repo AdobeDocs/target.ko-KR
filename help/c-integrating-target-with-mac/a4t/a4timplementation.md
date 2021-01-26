@@ -2,9 +2,9 @@
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Adobe Analytics를 Target(A4T)의 보고 소스로 구현할 때 몇 가지 단계가 필요합니다.
 title: Analytics for Target 구현
-feature: a4t implementation
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 49%
@@ -69,7 +69,7 @@ VisitorAPI.js를 at.js보다 먼저 로드해야 합니다.기존 at.js 또는 m
 
 구현 관점에서 [!DNL Target] 및 [!DNL Analytics] 통합에 대해 기본 설정을 구성하는 방법은 페이지에서 전달된 SDID를 사용하여 [!DNL Target] 및 [!DNL Analytics] 요청을 자동으로 백엔드에서 결합하는 것입니다.
 
-그러나 보고용으로 [!DNL Target]과(와) 관련된 분석 데이터를 [!DNL Analytics]에 전송하는 방법과 시기를 더 잘 제어하고 싶고 [!DNL Target] 및 [!DNL Analytics]이(가) SDID를 통해 분석 데이터를 자동으로 연결하는 기본 설정으로 옵트인하기를 원하지 않는 경우 **analyticsLogging = client_side** 창을 통해 &lt;a6/>를 설정할 수 있습니다..targetGlobalSettings **.** 참고: 2.1 이하의 버전은 이 방법을 지원하지 않습니다.
+그러나 보고용으로 [!DNL Target]과(와) 관련된 분석 데이터를 [!DNL Analytics]에 전송하는 방법과 시기를 더 잘 제어하고 싶고 [!DNL Target] 및 [!DNL Analytics]이(가) SDID를 통해 분석 데이터를 자동으로 연결하는 기본 설정으로 옵트인하기를 원하지 않는 경우 **analyticsLogging = client_side** 창을 통해 **를 설정할 수 있습니다..targetGlobalSettings**. 참고: 2.1 이하의 버전은 이 방법을 지원하지 않습니다.
 
 예:
 
