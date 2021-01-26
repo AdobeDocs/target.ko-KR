@@ -4,10 +4,10 @@ description: Target Standard/Premium 릴리스 노트, Target 플랫폼 및 Targ
 title: 이전 릴리스에 대한 릴리스 노트
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: b1c320a409ab43d9acc0adf5ed711c2b2514507c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '30548'
+ht-degree: 84%
 
 ---
 
@@ -23,6 +23,24 @@ Target Standard/Premium 릴리스 노트, Target 플랫폼 및 Target Javascript
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 노트 - 2021
+
+### Target Standard/Premium 21.1.1(2021년 1월 19일)
+
+이 유지 관리 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
+
+괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+* [!UICONTROL 자동 Target] 활동에서 [!UICONTROL Analytics를 보고 소스](A4T)로 사용할 때 [!DNL Adobe Analytics] 지표를 선택할 때 경고를 추가했습니다. [!UICONTROL 자동 ] 타게팅 모델은 이진(전환 기반) 지표와 작동하도록 최적화되었습니다. 매출과 같은 연속 지표를 선택하면 차선의 결과가 있을 수 있으며 [!UICONTROL 개인화 인사이트] 보고서가 정확하지 않을 수 있습니다. (TGT-38926)
+* A4T를 사용하는 [!UICONTROL 자동 Target] 활동에 대한 [!UICONTROL 자동 Target 요약] 보고서에 상태 아이콘을 추가했습니다. 보고서에서 각 경험 옆에 있는 녹색 확인 아이콘은 해당 경험에 대해 개인화된 기계 학습 모델이 생성되었음을 나타냅니다. 시계 아이콘은 모델을 만들 수 있는 충분한 트래픽이 제공되지 않았음을 나타냅니다. (TGT-38925)
+* A4T 및 [!DNL Analytics] 전환 지표를 사용하는 [!UICONTROL 자동 Target] 활동에 대한 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성] 보고서가 생성되고 [!DNL Target]을 보고 소스로 사용할 때와 동일하게 보입니다. (TGT-38931)
+* [!UICONTROL Recommendations] [!UICONTROL 컬렉션] 목록에 환경 필터링 옵션을 추가했습니다. (TGT-38353)
+* 잘못된 제품 수가 [!UICONTROL Recommendations] 컬렉션에 표시되는 문제를 해결했습니다. (TGT-39162)
+* [!UICONTROL 마지막으로 업데이트된] 필터를 [!UICONTROL Recommendations] [!UICONTROL 카탈로그 검색]에 추가했습니다. (TGT-38340)
+* 업계 수직 변경 후 [!UICONTROL 시퀀스 만들기] 페이지가 중단되는 [!UICONTROL Recommendations]의 문제를 수정했습니다. (TGT-38160)
+* Device Co-op이 활성화되어 있고 사용자가 [!DNL Target]에서 보고 소스로 [!DNL Analytics](A4T)로 변경된 경우 활동이 저장되지 않는 문제를 해결했습니다. (TGT-38163)
+* 사용자가 [!UICONTROL Automated Personalization](AP) 활동의 오퍼에서 대상을 제거하지 못했던 문제를 수정했습니다. (TGT-39058)
+* 일부 고객의 [!UICONTROL 대상 정보] 카드에 잘못된 시간 프레임(시작 및 종료 날짜)이 표시되는 문제를 수정했습니다. (TGT-39150)
+* 일부 고객이 [!UICONTROL 기본 작업 공간]의 활동 목록을 볼 수 없는 문제를 수정했습니다. (TGT-38526)
 
 ### at.js 2.4.0(2021년 1월 14일)
 
