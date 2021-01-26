@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Adobe Target 시작 키트 - 4장 - Target 사용 팁
 title: Adobe Target 시작 키트 - 4장 - Target 사용 팁
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2880'
 ht-degree: 0%
@@ -68,9 +68,9 @@ ht-degree: 0%
 
 Target Standard를 사용하십니까? 읽기 전용, 편집자 및 승인자 역할을 가진 사용자를 위해 [3가지 수준의 액세스](/help/administrating-target/c-user-management/c-user-management/user-management.md)을 여전히 할당할 수 있습니다.
 
-## 팁 6:고객 경로의 각 페이지에서 오퍼를 테스트하여 고객 여정 전반에 걸쳐 수행하는 방식을 살펴볼 수 있습니다.
+## 팁 6:여정의 각 페이지에서 오퍼를 테스트하여 고객 여정에서 오퍼가 수행되는 방식을 알아봅니다.
 
-웹 사이트의 여러 페이지에서 이루어지는 고객 여정 동안 무료 배송 등의 오퍼가 어떻게 수행되는지 확인할 수 있습니다.
+웹 사이트의 여러 페이지에서 이루어지는 고객 여정 동안 무료 배송 등의 오퍼가 수행되는 방식을 확인할 수 있습니다.
 
 단계별 지침은 [여러 페이지 작업](/help/c-experiences/c-visual-experience-composer/multipage-activity.md)을 참조하십시오.
 
@@ -86,7 +86,7 @@ Target Standard를 사용하십니까? 읽기 전용, 편집자 및 승인자 �
 
 새로운 단추 색상과 같은 다양한 웹 페이지를 만들어 동일한 템플릿을 공유하는 모든 페이지에 자동으로 적용합니다. 페이지를 지정하거나 웹 사이트의 모든 유사한 페이지에 변형을 적용할 수 있습니다.
 
-단계별 지침은 비슷한 페이지[에 동일한 경험 포함을 참조하십시오.](/help/c-experiences/c-visual-experience-composer/temtest.md)
+단계별 지침은 비슷한 페이지](/help/c-experiences/c-visual-experience-composer/temtest.md)에 동일한 경험 포함을 참조하십시오.[
 
 ## 팁 9:일회성 대상을 만들어 대상자 라이브러리의 불필요한 부분을 줄일 수 있습니다.
 
