@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Adobe Target 시작 키트 - 5장 - 테스트 및 개인화 활동에 대한 영감
 title: Adobe Target 시작 키트 - 5장 - 테스트 및 개인화 활동에 대한 영감
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ## 아이디어 1:고객 여정 개인화 테스트
 
-비즈니스 목표를 달성하면서 웹 사이트 방문자의 마음을 사로잡는 맞춤형 크리에이티브 경로 및 브랜딩 경험을 만들어 전환율과 매출을 높일 수 있습니다. 정적인 경험 또는 임의로 전달되는 경험과 비교하여 개인화된 여정을 테스트할 수 있습니다. [!DNL Adobe Audience Manager]의 제2자 및 제3자 데이터를 사용하여 개인화된 고객을 찾아 만들어 개인화를 강화할 수 있습니다.
+비즈니스 목표를 달성하면서 웹 사이트 방문자의 마음을 사로잡는 맞춤형 크리에이티브 여정 및 브랜드 경험을 만들어 전환율과 매출을 높일 수 있습니다. 정적인 경험 또는 임의로 전달되는 경험과 비교하여 개인화된 여정을 테스트합니다. [!DNL Adobe Audience Manager]의 제2자 및 제3자 데이터를 사용하여 개인화된 고객을 찾아 만들어 개인화를 강화할 수 있습니다.
 
-고객을 식별한 후 사용자 경험 테스트와 시장 조사를 수행하여 고객이 반응을 하게 만드는 요인을 파악한 다음 고객 여정 내에서 고객을 대상으로 한 경험을 그에 맞게 개발할 수 있습니다.
+이러한 고객을 식별한 후 사용자 경험 테스트와 시장 조사를 수행하여 고객이 응답하도록 확신하는 요소를 학습하고 여정 내에서 고객을 대상으로 하는 경험을 그에 맞게 개발할 수 있습니다.
 
 예를 들어, 한 텔레커뮤니케이션 업체의 &quot;진지한 게임&quot; 대상에 속하는 방문자가 해당 회사의 웹 사이트를 방문하면 게이머를 매료시키는 카피 및 이미지와 고속 인터넷 오퍼를 포함하는 경험을 제공할 수 있습니다.
 
