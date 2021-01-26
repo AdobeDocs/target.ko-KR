@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4t;provisioning;provisioning;adobe Experience Cloud
 description: 이 주제에서는 Target의 보고 소스로 사용되는 Analytics(A4T)에 대한 사용 권한을 제공하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 title: 초기 사용 권한 제공 - A4T FAQ
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 100%
