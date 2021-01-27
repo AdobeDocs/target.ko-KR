@@ -4,7 +4,7 @@ description: 원격 오퍼를 사용하여 외부 컨텐츠를 호스팅할 수 
 title: 원격 오퍼 만들기
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 52%
@@ -78,11 +78,11 @@ ht-degree: 52%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-### 리디렉션 URL 유형:캐시됨 또는 동적 {#url-type}
+## 리디렉션 URL 유형:캐시됨 또는 동적 {#url-type}
 
 다음 정보는 두 옵션 간의 차이점을 이해하는 데 도움이 됩니다.
 
-#### 캐시된 URL
+### 캐시된 URL
 
 캐시된 원격 오퍼의 컨텐츠는 [!DNL Target]에서 제공됩니다.
 
@@ -92,7 +92,7 @@ ht-degree: 52%
 
 캐시된 원격 오퍼에 대한 절대 또는 상대 URL을 지정할 수 있습니다.
 
-#### 동적 URL
+### 동적 URL
 
 다이내믹 원격 오퍼는 [!DNL Target]이 아니라 컨텐츠 관리 시스템이나 다른 시스템에서 제공됩니다.
 
