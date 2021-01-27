@@ -1,44 +1,67 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Adobe Target의 오퍼 라이브러리를 사용하여 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리할 수 있습니다.
+description: 코드 및 이미지 오퍼는 어떻게 관리합니까?
 title: 오퍼
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
 workflow-type: tm+mt
-source-wordcount: '480'
-ht-degree: 91%
+source-wordcount: '483'
+ht-degree: 40%
 
 ---
 
 
-# 오퍼{#offers}
+# 오퍼
 
-[!DNL Adobe Target]의 오퍼 라이브러리를 사용하여 코드 오퍼 및 이미지 오퍼 컨텐츠를 관리합니다.
+코드 오퍼 및 이미지 오퍼 컨텐츠를 관리하려면 [!DNL Adobe Target]에서 [!UICONTROL 오퍼] 라이브러리를 사용합니다.
 
->[!NOTE]
->
->2017년 1월 릴리스에서는 [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) 및 API를 통해 만들어진 오퍼가 [!DNL Target Standard/Premium] 사용자 인터페이스에 표시됩니다. 이 방법을 사용하여 지난 2년 동안(2015년 1월 이후) 업데이트된 오퍼가 표시됩니다. 초기 동기화는 조직에 있는 사용자가 처음 [!UICONTROL 오퍼] 페이지를 열 때 수행됩니다. 초기 동기화 시간은 데이터 양에 따라 다릅니다. 초기 동기화가 완료되면 데이터가 점점 더 많이 동기화됩니다. 이 릴리스 이전에 코드와 이미지가 동일한 폴더에 있었다면 [!DNL Target]에서 이 코드와 이미지를 두 개의 중복 폴더로 분할합니다. 업데이트 날짜 및 시간은 폴더를 마이그레이션한 시간을 나타내며 원래 폴더를 만든 날짜는 반영하지 않습니다.
+1. 라이브러리를 열려면 **[!UICONTROL 오퍼]**&#x200B;를 클릭하십시오.
 
-라이브러리를 열려면 **[!UICONTROL 오퍼]**&#x200B;를 클릭하십시오. 이 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다.
+   이 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다.
 
-[!UICONTROL 오퍼] 페이지의 오른쪽에는 유형별로 오퍼를 볼 수 있는 두 개의 탭, 코드 오퍼와 이미지 오퍼가 있습니다.
+   [!UICONTROL 오퍼] 페이지에는 오른쪽을 따라 2개의 탭이 있습니다.유형별로 오퍼를 볼 수 있는 [!UICONTROL 코드 오퍼] 및 [!UICONTROL 이미지 오퍼]를 제공합니다.
 
-![](assets/offers_page.png)
+   ![코드 오퍼 및 이미지 오퍼 탭을 보여주는 오퍼 페이지](/help/c-experiences/c-manage-content/assets/offers-page.png)
 
-유형(HTML 오퍼, 리디렉션 오퍼, 원격 오퍼 또는 폴더)과 소스(Adobe Target, Adobe Target Classic, Adobe Experience Manager, Adobe Mobile Services 또는 API)별로 오퍼를 필터링할 수 있습니다.
+1. (선택 사항) **[!UICONTROL 유형]** 드롭다운 목록을 클릭하여 유형(HTML 오퍼, [경험 조각](/help/c-experiences/c-manage-content/aem-experience-fragments.md), [리디렉션 오퍼](/help/c-experiences/c-manage-content/offer-redirect.md), [원격 오퍼](/help/c-experiences/c-manage-content/about-remote-offers.md), [JSON 오퍼](/help/c-experiences/c-manage-content/create-json-offer.md) 및 &lt;aa9/> 10/>폴더](/help/c-experiences/c-manage-content/create-content-folder.md)).[
 
-![](assets/offers_filter.png)
+   ![](assets/offers_filter.png)
 
-원하는 항목을 마우스로 가리킨 다음, [편집] 또는 [복사] 아이콘을 클릭하여 폴더나 오퍼를 편집하거나 복사할 수 있습니다.
+1. (선택 사항) 소스(Adobe Target, Adobe Target Classic 및 Adobe Experience Manager)별로 오퍼를 필터링하려면 **[!UICONTROL 소스]** 드롭다운 목록을 클릭합니다.
 
-![](assets/offer-picker-large.png)
+1. (선택 사항) [!UICONTROL 코드 오퍼] 탭에서 원하는 오퍼 또는 폴더 위로 마우스를 가져간 다음 원하는 아이콘을 클릭하여 추가 작업을 수행합니다.
+
+   ![코드 오퍼 선택 사항](assets/offer-picker-large.png)
+
+   옵션은 다음과 같습니다.
+
+   * 보기(자세한 내용은 아래 [오퍼 정의 보기](#section_6B059DD121434E6292CAB393507D010E)를 참조하십시오.)
+   * 편집
+   * 복사
+   * 이동(예: 하나 이상의 항목을 폴더로 이동하려면 원하는 항목에 대한 **[!UICONTROL 이동]** 아이콘을 클릭하고 원하는 폴더를 클릭한 다음 **[!UICONTROL 드롭]**&#x200B;을 클릭합니다.)
+   * 삭제
+
+   사용 권한에 따라 일부 옵션에 대한 아이콘이 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL 옵저버] 권한을 가진 사용자는 [!UICONTROL 복사] 옵션을 사용할 권한이 없습니다.
+
+1. (선택 사항) [!UICONTROL 이미지 오퍼] 탭에서 원하는 이미지 오퍼 또는 폴더 위로 마우스를 가져간 다음 원하는 아이콘을 클릭하여 추가 작업을 수행합니다.
+
+   ![이미지 오퍼 선택 사항](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
+
+   옵션은 다음과 같습니다.
+
+   * 선택
+   * 다운로드
+   * 속성 보기
+   * 편집
+   * 주석 달기
+   * 복사
 
 ## 오퍼 정의 보기 {#section_6B059DD121434E6292CAB393507D010E}
 
-오퍼를 열지 않고도 오퍼 라이브러리의 팝업 카드에서 오퍼 정의 세부 사항을 볼 수 있습니다.
+오퍼를 열지 않고 [!UICONTROL 오퍼] 라이브러리에서 팝업 카드에 대한 오퍼 정의 세부 사항을 볼 수 있습니다.
 
-예를 들어 컨텐츠 목록의 오퍼를 마우스로 가리킨 다음, 정보 아이콘을 클릭하여 HTML 오퍼에 대한 다음의 오퍼 정의 카드에 액세스합니다.
+예를 들어 HTML 오퍼에 대한 다음 오퍼 정의 카드는 [!UICONTROL 컨텐트] 목록에서 오퍼를 마우스로 가리키고 정보 아이콘을 클릭하여 액세스합니다.
 
 ![](assets/offer-card-html.png)
 
@@ -51,7 +74,7 @@ ht-degree: 91%
 * 오퍼 경로
 * 마지막 수정 날짜
 
-각 오퍼의 정의 팝업 카드에서 코드 오퍼를 참조하는 활동을 보려면 [!UICONTROL 오퍼 사용량] 탭을 클릭하십시오. 이 기능은 이미지 오퍼에는 적용되지 않습니다. 오퍼를 편집할 때 이 방법으로 다른 활동에 영향을 주는 일을 피할 수 있습니다. 정보에는 라이브 활동 및 비활성 활동이 포함됩니다.
+각 오퍼의 정의 팝업 카드에서 코드 오퍼를 참조하는 활동을 보려면 [!UICONTROL 오퍼 사용량] 탭을 클릭하십시오. 이 기능은 이미지 오퍼에는 적용되지 않습니다. 오퍼를 편집할 때 이 방법으로 다른 활동에 영향을 주는 일을 피할 수 있습니다. 정보에는 [!UICONTROL 라이브 활동] 및 [!UICONTROL 비활성 활동]이 포함됩니다.
 
 ![](assets/offer-card-usage.png)
 
@@ -68,7 +91,7 @@ ht-degree: 91%
 * 오퍼 경로
 * 마지막 수정 날짜
 * 리디렉션 URL
-* 모든 URL 매개 변수 포함(켜기 또는 끄기)
+* 모든 URL 매개 변수 포함(설정 또는 해제)
 * mbox 세션 ID 전달(켜기 또는 끄기)
 
 다음 오퍼 정의 카드는 원격 오퍼용입니다.
