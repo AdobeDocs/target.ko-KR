@@ -4,10 +4,10 @@ description: Adobe Target 양식 기반 경험 작성기는 비시각적 경험�
 title: 양식 기반 경험 작성기
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 72%
+source-wordcount: '772'
+ht-degree: 68%
 
 ---
 
@@ -21,14 +21,18 @@ ht-degree: 72%
 1. **[!UICONTROL 활동 만들기]**&#x200B;를 클릭한 후 만들려는 활동 유형을 선택합니다.
 
    양식 기반 경험 작성기는 A/B 테스트, 경험 타깃팅, 자동화된 개인화 및 권장 사항 활동에 사용할 수 있습니다.
-1. **[!UICONTROL 새 활동]** 대화 상자에서 [!UICONTROL 양식 기반 경험 작성기]를 선택합니다.
+1. [!UICONTROL 활동 만들기] 대화 상자에서 **[!UICONTROL 양식 기반 경험 작성기]**&#x200B;를 선택합니다.
+
+1. (조건부) 작업 영역과 속성을 선택합니다.
+
+1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
    양식 기반 경험 작성기가 열립니다.
 
    ![](assets/location_refinements.png)
 
    권장 사항 활동을 만드는 경우에는 화면이 달라집니다. 권장 사항 활동에는 경험이 포함되지 않습니다.
-1. 활동의 이름을 지정합니다.
+1. &quot;[!UICONTROL 제목이 없는 활동]&quot;을 클릭하여 활동의 이름을 지정합니다.
 1. 위치를 선택합니다.
 
    [!UICONTROL 위치 선택] 상자를 클릭하면 사용 가능한 위치 목록이 나타납니다. 해당 위치 중 하나를 선택합니다. target.js를 통해 전달된 글로벌 위치를 선택하려면 &quot;target-global-mbox&quot;를 선택합니다.
@@ -64,9 +68,9 @@ ht-degree: 72%
 
    **경험 구성요소 변경:** 경험 구성요소를 선택합니다.
 
-   **리디렉션 오퍼 변경:** 리디렉션 오퍼를 선택합니다.
+   **리디렉션 오퍼 변경:** 리디렉션 오퍼를 선택합니다. 자세한 내용은 [리디렉션 오퍼 만들기](/help/c-experiences/c-manage-content/offer-redirect.md)를 참조하십시오.
 
-   **원격 오퍼 변경:** 원격 오퍼를 선택합니다.
+   **원격 오퍼 변경:** 원격 오퍼를 선택합니다. 자세한 내용은 [원격 오퍼 만들기](/help/c-experiences/c-manage-content/about-remote-offers.md)를 참조하십시오.
 
    **HTML 오퍼 만들기:**
 
