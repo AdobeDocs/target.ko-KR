@@ -4,10 +4,10 @@ description: 원격 오퍼를 사용하여 외부 컨텐츠를 호스팅할 수 
 title: 원격 오퍼 만들기
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 52%
+source-wordcount: '998'
+ht-degree: 49%
 
 ---
 
@@ -29,6 +29,9 @@ ht-degree: 52%
 * 양식
 * 계산기
 * 이자율 업데이트
+* 전자 메일
+* 키오스크
+* 음성 도우미
 
 ## 코드 오퍼 페이지에서 원격 오퍼 만들기
 
@@ -103,6 +106,8 @@ ht-degree: 52%
 ## 활동에서 원격 오퍼 사용
 
 [!UICONTROL 양식 기반 경험 작성기]를 사용하여 원격 오퍼를 적용해야 합니다. 현재 VEC를 사용하여 원격 오퍼를 적용할 수 없습니다.
+
+[!DNL Adobe Target] [!UICONTROL 양식 기반 경험 컴포저]는 [!UICONTROL A/B 테스트], [!UICONTROL 경험 타게팅](XT), [!UICONTROL Automated Personalization](AP)에서 사용할 경험을 만드는 데 유용한 비시각적 경험과 오퍼 만들기 인터페이스입니다. 및 시각적 경험 작성기를 사용할 수 없거나 사용할 수 없는 경우 [!UICONTROL Recommendations] 활동. 예를 들어 [!UICONTROL 양식 기반 경험 작성기]를 사용하여 원격 오퍼를 사용하는 경험을 만들 수 있습니다.
 
 1. [!UICONTROL 양식 기반 경험 작성기]에서 활동을 만들거나 편집합니다.
 
