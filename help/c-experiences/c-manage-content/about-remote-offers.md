@@ -4,9 +4,9 @@ description: 원격 오퍼를 사용하여 외부 컨텐츠를 호스팅할 수 
 title: 원격 오퍼 만들기
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1047'
 ht-degree: 49%
 
 ---
@@ -156,3 +156,13 @@ ht-degree: 49%
 | 오퍼에 JavaScript가 포함될 수 있음 | 예 | 예 |
 | 오퍼 URL | 절대 또는 상대 | 상대 |
 | 요청 컴퓨터 | Adobe 서버 | 방문자 쿠키가 저장되어 있는 방문자 컴퓨터 |
+
+## 교육 비디오:양식 기반 컴포저 ![자습서 배지](/help/assets/tutorial.png)
+
+이 비디오에서는 원격 오퍼를 만드는 데 사용할 수 있는 양식 기반 컴포저의 데모를 제공합니다.
+
+* 양식 기반 경험 작성기를 사용하여 활동 만들기
+* 언제 양식 기반 경험 작성기를 사용하고 언제 시각적 경험 작성기를 사용할지 이해
+* 개선을 통해 위치 타깃팅
+
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
