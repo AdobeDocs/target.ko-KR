@@ -4,10 +4,10 @@ description: 원격 오퍼를 사용하여 외부 컨텐츠를 호스팅할 수 
 title: 원격 오퍼 만들기
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: f99d8a106fb0cfc88ad1beb1e5ada03550423999
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 58%
+source-wordcount: '934'
+ht-degree: 52%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 58%
 
 >[!NOTE]
 >
->원격 오퍼는 오퍼 > 코드 오퍼 페이지 또는 [Forms 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)에서 만들 수 있습니다. VEC(Visual Experience Composer)에서는 원격 오퍼를 만들 수 없습니다. 컨텐츠는 [!DNL Target] 요청 위치에 삽입되므로 글로벌 [!DNL Target] 요청에 적합하지 않을 가능성이 큽니다.
+>원격 오퍼는 [!UICONTROL 오퍼] > [!UICONTROL 코드 오퍼] 페이지 또는 [Forms 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)에서 만들 수 있습니다. VEC(Visual Experience Composer)에서는 원격 오퍼를 만들거나 적용할 수 없습니다. 컨텐츠는 [!DNL Target] 요청 위치에 삽입되므로 글로벌 [!DNL Target] 요청에 적합하지 않을 가능성이 큽니다.
 >
 >[!DNL Target Classic]에는 유사한 기능으로, [!UICONTROL 사이트의 오퍼] 및 [!UICONTROL Test&amp;Target 외부의 오퍼]가 포함되어 있었습니다.
 
@@ -78,11 +78,11 @@ ht-degree: 58%
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## 리디렉션 URL 유형:캐시됨 또는 동적 {#url-type}
+### 리디렉션 URL 유형:캐시됨 또는 동적 {#url-type}
 
 다음 정보는 두 옵션 간의 차이점을 이해하는 데 도움이 됩니다.
 
-### 캐시된 URL
+#### 캐시된 URL
 
 캐시된 원격 오퍼의 컨텐츠는 [!DNL Target]에서 제공됩니다.
 
@@ -92,13 +92,31 @@ ht-degree: 58%
 
 캐시된 원격 오퍼에 대한 절대 또는 상대 URL을 지정할 수 있습니다.
 
-### 동적 URL
+#### 동적 URL
 
 다이내믹 원격 오퍼는 [!DNL Target]이 아니라 컨텐츠 관리 시스템이나 다른 시스템에서 제공됩니다.
 
 방문자가 원격 오퍼를 포함하는 경험이 있는 사이트를 로드할 때마다 [!DNL Target]에서 컨텐츠를 주기적으로 캐시한 다음 전달하는 것을 원치 않을 수도 있습니다. 대신 컨텐츠를 호스팅하는 시스템을 호출하고, 반환된 오퍼가 각 사용자에 대해 동적(또는 다른)이 될 수 있도록 특정 정보를 전달할 수 있습니다. 예를 들어, 사용자가 다이내믹 원격 오퍼가 있는 경험이 포함된 신용 카드 웹 사이트에 로그인하는 경우, 사용자 계정 정보를 얻기 위해 URL에 매개 변수를 전달할 수 있습니다. 그러면 웹 사이트에서는 계좌 잔고와 같은 사용자별 정보를 제공할 수 있습니다.
 
 **[!UICONTROL 매개 변수 추가]**&#x200B;를 클릭하여 하나 이상의 [!DNL Target] 요청이나 요청 매개 변수를 추가할 수 있습니다.
+
+## 활동에서 원격 오퍼 사용
+
+[!UICONTROL 양식 기반 경험 작성기]를 사용하여 원격 오퍼를 적용해야 합니다. 현재 VEC를 사용하여 원격 오퍼를 적용할 수 없습니다.
+
+1. [!UICONTROL 양식 기반 경험 작성기]에서 활동을 만들거나 편집합니다.
+
+   단계별 지침은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 참조하십시오.
+
+1. 원하는 위치를 지정하고 필요에 따라 대상 세부 조정을 추가합니다.
+
+1. **[!UICONTROL 컨텐트]** 섹션에서 드롭다운 목록을 클릭한 다음 **[!UICONTROL 원격 오퍼 변경]**&#x200B;을 클릭합니다.
+
+   ![원격 오퍼 변경 옵션](/help/c-experiences/c-manage-content/assets/change-remote-offer.png)
+
+1. [!UICONTROL 원격 오퍼 선택] 대화 상자에서 원하는 원격 오퍼를 선택한 다음 **[!UICONTROL 완료]**&#x200B;를 클릭합니다.
+
+1. 활동 구성을 완료합니다.
 
 ## 원격 오퍼 사용 우수 사례 {#section_7718512D08E14121B6F6B8C38134F4BC}
 
