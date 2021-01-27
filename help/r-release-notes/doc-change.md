@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: dfd6739ca16006295f247c962ad2758da92bee9e
+source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
 workflow-type: tm+mt
-source-wordcount: '3469'
+source-wordcount: '3480'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,8 @@ ht-degree: 29%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 27년 1월 | [리디렉션 오퍼 만들기](/help/c-experiences/c-manage-content/offer-redirect.md) | 주제가 업데이트됨. |
+|  | [원격 오퍼 만들기](/help/c-experiences/c-manage-content/about-remote-offers.md) | 주제가 업데이트됨. |
 | 26년 1월 | [전환율](/help/c-reports/conversion-rate.md) | Target이 학생의 테스트 결과에서 &quot;제곱합&quot;을 사용하는 방법을 명확히 했습니다. |
 | 22년 1월 | [전환율](/help/c-reports/conversion-rate.md#t-test) | 다음 섹션이 추가되었습니다.&quot;Target에서 학생의 테스트 사용을 권장하는 이유는 무엇입니까?&quot; |
 | 21년 1월 | [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 새 섹션이 추가되었습니다.&quot;A4T 활동 보고서에는 &quot;지정되지 않음&quot; 이벤트가 많은 행이 포함됩니다.&quot; |
