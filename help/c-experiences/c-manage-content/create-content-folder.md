@@ -4,9 +4,9 @@ description: 오퍼 라이브러리에 폴더를 만들려면 어떻게 합니�
 title: 오퍼 폴더 만들기
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 16%
 
 ---
@@ -62,13 +62,15 @@ Adobe Target 오퍼 라이브러리에 폴더를 만들어 코드 오퍼, 이미
 
    사용자 및 다른 사용자가 목록 보기에서 폴더의 위치를 다시 정렬할 수 있도록 지정합니다.
 
-1. (선택 사항) [!UICONTROL 카드 보기]와 [!UICONTROL 목록 보기] 간을 전환하려면 콘텐트 라이브러리의 오른쪽 상단에 있는 [!UICONTROL 카드 보기] 아이콘 또는 [!UICONTROL 목록 보기] 아이콘을 클릭합니다. [!UICONTROL 목록 보기]를 볼 때 [!UICONTROL 설정 보기]를 사용하여 열을 추가로 구성할 수도 있습니다.
-
-   다음 그림은 [!UICONTROL 목록 보기]를 볼 때 사용할 수 있는 옵션을 보여줍니다.
-
-   ![목록 보기 옵션](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
+
+### 카드 보기와 목록 보기 간 전환
+
+[!UICONTROL 카드 보기]와 [!UICONTROL 목록 보기] 간을 전환하려면 콘텐트 라이브러리의 오른쪽 상단에 있는 [!UICONTROL 카드 보기] 아이콘 또는 [!UICONTROL 목록 보기] 아이콘을 클릭합니다. [!UICONTROL 목록 보기]를 볼 때 [!UICONTROL 설정 보기]를 사용하여 열을 추가로 구성할 수도 있습니다.
+
+다음 그림은 [!UICONTROL 목록 보기]를 볼 때 사용할 수 있는 옵션을 보여줍니다.
+
+![목록 보기 옵션](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### 이미지 오퍼 선택 사항
 
