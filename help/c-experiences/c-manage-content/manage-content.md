@@ -4,10 +4,10 @@ description: 코드 및 이미지 오퍼는 어떻게 관리합니까?
 title: 오퍼
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 40%
+source-wordcount: '525'
+ht-degree: 37%
 
 ---
 
@@ -44,6 +44,8 @@ ht-degree: 40%
 
    사용 권한에 따라 일부 옵션에 대한 아이콘이 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL 옵저버] 권한을 가진 사용자는 [!UICONTROL 복사] 옵션을 사용할 권한이 없습니다.
 
+   오퍼 및 폴더에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [자산 라이브러리의 콘텐트 사용](/help/c-experiences/c-manage-content/assets-working.md)을 참조하십시오.
+
 1. (선택 사항) [!UICONTROL 이미지 오퍼] 탭에서 원하는 이미지 오퍼 또는 폴더 위로 마우스를 가져간 다음 원하는 아이콘을 클릭하여 추가 작업을 수행합니다.
 
    ![이미지 오퍼 선택 사항](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ ht-degree: 40%
    * 편집
    * 주석 달기
    * 복사
+
+   오퍼 및 폴더에 대해 수행할 수 있는 작업에 대한 자세한 내용은 [자산 라이브러리의 콘텐트 사용](/help/c-experiences/c-manage-content/assets-working.md)을 참조하십시오.
 
 ## 오퍼 정의 보기 {#section_6B059DD121434E6292CAB393507D010E}
 
