@@ -4,10 +4,10 @@ description: 각 Adobe Target at.js 버전의 변경 사항에 대한 세부 정
 title: at.js 버전 세부 사항
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
+source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
 workflow-type: tm+mt
-source-wordcount: '4034'
-ht-degree: 84%
+source-wordcount: '4069'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 
 
 at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 포함합니다.
 
-* mbox 클릭 추적 및 A4T와 관련된 문제를 수정했습니다.
+* mbox 클릭 추적 및 A4T와 관련된 문제를 수정했습니다. 0n-클릭으로 Target은 올바른 mbox 및 mbox 매개 변수를 사용하여 배달 API 호출을 실행했습니다. 그러나 SDID가 [!DNL Analytics] 호출의 SDID와 일치하지 않으므로 히트 스티칭과 전환이 없습니다. (TNT-38372)
 
 ## at.js 2.3.2(2020년 7월 24일)
 
