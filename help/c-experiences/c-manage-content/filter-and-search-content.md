@@ -1,13 +1,13 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: 키워드로 자산을 검색하고, 검색 결과를 사용하여 자동으로 업데이트되는 스마트 컬렉션이라는 검색 폴더를 저장하십시오.
+description: 키워드로 자산을 검색하고 검색 폴더를 저장하려면 어떻게 합니까?
 title: 컨텐츠 검색 및 스마트 컬렉션 만들기
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 94%
 
 ---
 
@@ -18,10 +18,7 @@ ht-degree: 100%
 
 이 섹션에는 다음 정보가 포함됩니다.
 
-* [키워드로 자산 검색](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [스마트 컬렉션 저장](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## 키워드로 자산 검색 {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## 키워드 {#section_2465A71BC95942588F586B1EC8B9E5DB}로 자산 검색
 
 1. **[!UICONTROL 오퍼]** > **[!UICONTROL 이미지 오퍼]**&#x200B;를 클릭하여 [!UICONTROL 자산 라이브러리]에 액세스합니다.
 
@@ -37,7 +34,7 @@ ht-degree: 100%
 
 1. 검색 상자에 찾으려는 자산의 키워드를 입력한 다음 Enter 키를 누릅니다.
 
-## 스마트 컬렉션 저장  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## 스마트 컬렉션 저장 {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 스마트 컬렉션이라는 저장된 검색을 만들어 유사한 검색을 수행할 때 시간을 절약할 수 있습니다. 저장된 검색은 검색 결과를 사용하여 자동으로 업데이트되는 스마트 컬렉션을 생성합니다.
 
