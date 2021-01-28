@@ -1,13 +1,13 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Adobe Target의 HTML 또는 JSON 오퍼에 프로필 값과 활동 정보를 직접 표시할 수 있습니다.
+description: 프로필 값과 활동 정보를 HTML 또는 JSON 오퍼에 직접 어떻게 전달할 수 있습니까?
 title: 오퍼에 동적 데이터 전달
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 88%
+source-wordcount: '491'
+ht-degree: 81%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 88%
 * 방문자가 `keyword=world` `cup`을 사용하여 랜딩 페이지에 도달합니다. 오퍼에 *World cup* 용어를 표시합니다.
 * (1) 방문자의 장바구니에 추가된 마지막 항목(Nike Air Max 1000s), (2) 방문자의 색상 선호도(검정), (3) 방문자가 즐겨찾는 신발 이외의 카테고리(후드) 등의 정보로 권장 사항 레이블을 개인화합니다. 예: &quot;이 멋진 &#39;검정&#39; &#39;후드&#39;에 &#39;Nike Air Max 1000s&#39;를 착용하십시오.&quot;
 
-## 기술적 장점
+## 기술적 이점
 
 사용자 특정 환경 설정, 동작, 상태 등은 사용자의 프로필에 저장될 수 있으므로 다음 방문 시 이 메시지를 반복 표시할 수 있습니다. 다이내믹 오퍼를 사용하면 모든 방문자에 대해 개인화된 메시지를 표시하는 활동 내에서 단일 오퍼를 설정할 수 있어 더 큰 규모의 확장이 가능합니다. 방문자의 의도가 바뀌면 웹 사이트 콘텐츠에 그러한 변경 내용이 자동으로 반영됩니다.
 
@@ -52,11 +52,17 @@ Recommendations 디자인에 대해서는 [디자인 개요](/help/c-recommendat
 
 ## 구현
 
-mbox로 전달된 프로필 매개 변수의 경우 `${profile.parameter}` 구문을 사용하고, 프로필 스크립트로 만든 프로필 매개 변수의 경우 다음 구문을 사용합니다.
+mbox로 전달된 프로필 매개 변수의 경우 다음 구문을 사용합니다.
+
+`${profile.parameter}`
+
+프로필 스크립트에서 만든 프로필 매개 변수의 경우 다음 구문을 사용합니다.
 
 `${user.parameter}`
 
-Recommendations 디자인에서 동적 속성을 사용할 때는 동적 값이 제대로 렌더링되도록 달러 기호( $) 앞에 백슬래시( \ )를 삽입해야 합니다.`\${user.endpoint.lastViewedEntity}`
+[!DNL Recommendations] 디자인에서 동적 속성을 사용할 때는 동적 값이 제대로 렌더링되도록 달러 기호( $) 앞에 백슬래시( \ )를 삽입해야 합니다.
+
+`\${user.endpoint.lastViewedEntity}`
 
 이러한 변수는 서버 쪽의 값으로 대체되므로 제대로 표시되려면 따옴표나 다른 JavaScript가 필요합니다.
 
