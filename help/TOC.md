@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있도록 고객의 경험을 맞춤화 및 개인화하는 방법을 살펴볼 수 있습니다.
 translation-type: tm+mt
-source-git-commit: 3202b1d73e9657c843dc225c2161b4524d442b84
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '1583'
-ht-degree: 85%
+source-wordcount: '1579'
+ht-degree: 84%
 
 ---
 
@@ -344,7 +344,7 @@ ht-degree: 85%
       + [원격 오퍼 만들기](c-experiences/c-manage-content/about-remote-offers.md)
       + [JSON 오퍼 만들기](c-experiences/c-manage-content/create-json-offer.md)
       + [라이브러리의 콘텐츠 사용](c-experiences/c-manage-content/assets-working.md)
-      + [콘텐츠 검색 및 스마트 컬렉션 만들기](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [컨텐츠 검색](c-experiences/c-manage-content/filter-and-search-content.md)
       + [오퍼에 동적 데이터 전달](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM 경험 구성요소](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 보고서 {#reports}
