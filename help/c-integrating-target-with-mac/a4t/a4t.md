@@ -4,9 +4,9 @@ description: Adobe "Analytics for Target"(A4T)은 Analytics 변환 지표와 대
 title: Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1300'
 ht-degree: 45%
 
 ---
@@ -60,8 +60,8 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 | 활동 유형 | A4T와 호환 가능 | 해당하는 경우 메모 |
 |--- |--- |--- |
 | 수동 트래픽 분할을 사용하는 A/B 활동 | 예 |  |
-| 자동 할당을 사용하는 A/B 활동 | 예 | 자동 할당 및 자동 Target 활동에 대한 [Target(A4T) 지원 분석](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)을 참조하십시오. |
-| 자동 타겟을 사용하는 A/B 활동 | 예 | 자동 할당 및 자동 Target 활동에 대한 [Target(A4T) 지원 분석](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)을 참조하십시오. |
+| 자동 할당을 사용하는 A/B 활동 | 예 | 자동 할당 및 자동 Target 활동에 대한 [A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. |
+| 자동 타겟을 사용하는 A/B 활동 | 예 | 자동 할당 및 자동 Target 활동에 대한 [A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. |
 | 경험 타깃팅(XT) | 예 |  |
 | 다변량 테스트(MVT) | 예 | [!UICONTROL 요소 기여도] 보고서를 가져오려면 mbox 기반 목표 지표 목표가 필요합니다.  [!UICONTROL 요소 기여도] 보고서는 현재 [!DNL Analytics] 지표를 지원하지 않습니다. |
 | 자동화된 개인화(AP) 활동 | 아니오 |  |
