@@ -4,9 +4,9 @@ description: 문제 해결 항목, FAQ 및 기타 유용한 항목을 포함하�
 title: Adobe Target 문제 해결
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '437'
 ht-degree: 96%
 
 ---
@@ -43,6 +43,7 @@ ht-degree: 96%
 
 * [자동화된 개인화 FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [자동화된 개인화 문제 해결](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [자동화된 개인화 요약 보고서](/help/c-reports/reports-ap.md)
 
 ### 다변량 테스트(MVT)
 
