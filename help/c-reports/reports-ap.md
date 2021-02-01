@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: Adobe Target에서 Automated Personalization 활동을 하는 사용자는 특별 보고서를 사용할 수 있습니다.
+description: Automated Personalization 요약 보고서는 어떻게 사용합니까?
 title: 자동화된 개인화 요약 보고서
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 71%
+source-wordcount: '626'
+ht-degree: 42%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 요약 보고서{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 요약 보고서
 
 [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] 활동 사용자가 전문 보고서를 사용할 수 있습니다.
 
@@ -24,9 +24,14 @@ ht-degree: 71%
 
    많은 활동이 있는 경우 [!UICONTROL 유형] 드롭다운 목록에서 [!UICONTROL 자동화된 개인화]를 선택하여 목록을 필터링할 수 있습니다.
 
-1. (선택 사항) 사용 가능한 모든 성공 지표로 구분된 요약 보기(예를 들어 통제 트래픽과 타깃팅된 트래픽 비교)를 다운로드하려면 [!UICONTROL 다운로드] 아이콘을 클릭하십시오.
+1. (선택 사항) 사용 가능한 모든 성공 지표로 구분된 요약 보기(예를 들어 통제 트래픽과 타깃팅된 트래픽 비교)를 다운로드하려면 **[!UICONTROL 다운로드]** 아이콘을 클릭하십시오.
 
 [!UICONTROL 자동화된 개인화]는 다음 보고서를 제공합니다.
+
+* 활동 수준
+* 오퍼 수준
+* 자동화된 세그먼트
+* 중요 속성
 
 ## 활동 수준 보고서 {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -49,6 +54,16 @@ ht-degree: 71%
 >[!NOTE]
 >
 >시계 아이콘은 알고리즘 모델이 여전히 빌드 중임을 나타냅니다. 확인 표시 아이콘은 기본 알고리즘이 설정되었음을 나타냅니다.
+
+## 활동 수준과 오퍼 수준 보고서 간의 데이터 차이
+
+**[!UICONTROL 활동 ] 수준 보고서**:활동 수준 보고서에  [!UICONTROL 기록된 방문] 은 제어 경험에 대한 방문 수와&quot;타깃팅된&quot; 트래픽 타깃팅된 트래픽에는 탐색 트래픽과 개인화된 트래픽이 혼합되어 포함됩니다.
+
+**오퍼 수준 보고서**:오퍼 수준 보고서에  [!UICONTROL 기록된 ] 노출 횟수는 각 오퍼에 대한 노출 횟수를 캡처합니다. 따라서 위치가 두 개 이상인 활동에서 모든 보고 그룹의 [!UICONTROL 오퍼 수준] 보고서에 기록된 총 방문 수는 [!UICONTROL 활동 수준] 보고서의 제어 또는 타깃팅된 트래픽에 대해 기록된 방문 횟수의 배수와 같습니다. 기본 컨텐츠가 사용 가능한 옵션이었던 위치에서 발생하는 기본 컨텐츠의 노출 횟수는 &quot;기본 컨텐츠&quot; 오퍼 그룹에 기록됩니다. 보고 그룹에 할당되지 않은 오퍼의 임프레션은 &quot;그룹화되지 않음&quot; 오퍼 그룹에 기록됩니다.
+
+>[!NOTE]
+
+[!UICONTROL 오퍼 수준] 보고서에 기록된 노출 횟수는 [!UICONTROL 활동 수준] 보고서에 기록된 방문 횟수의 정확한 정수가 아닐 수 있습니다. 이는 인터넷을 통한 데이터 트래픽 보고 시 발생하는 사소한 불일치 때문입니다(일반적인 불일수는 5% 미만). 따라서 활동이 활성화된 후에 활동에서 사용할 수 있는 위치 수가 변경된 경우 노출 수는 정확한 배수가 되지 않습니다.
 
 ## 자동화된 세그먼트
 
