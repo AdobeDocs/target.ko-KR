@@ -4,9 +4,9 @@ description: Adobe Target의 자동 할당 활동은 두 개 이상의 경험 �
 title: 자동 할당
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3373'
 ht-degree: 73%
 
 ---
@@ -136,7 +136,7 @@ A/B 테스트는 장기간에 걸친 결과를 분석하므로 위와 같은 요
 
 ### Target(A4T)용 분석은 자동 할당 활동을 지원합니까?
 
-예. 자세한 내용은 *활동 만들기*&#x200B;에서 자동 할당 활동에 대한 [Target(A4T)에 대한 분석 지원](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)을 참조하십시오.
+예. 자세한 내용은 [자동 할당 및 자동 Target 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오.
 
 ### 재방문자는 성과가 좋은 경험에 자동으로 재할당됩니까?
 
