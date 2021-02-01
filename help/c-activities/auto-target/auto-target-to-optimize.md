@@ -4,9 +4,9 @@ description: Adobe Target의 자동 Target은 고급 머신 러닝을 사용하�
 title: 자동 Target 개요
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2016'
 ht-degree: 85%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >[!UICONTROL 자동 타겟]은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다. 이 라이센스에서 제공하는 고급 기능에 대한 자세한 내용은 [Target Premium](/help/c-intro/intro.md)을 참조하십시오.
 >
->[!UICONTROL Target] (A4T)용 분석은 자동 타게팅  [!UICONTROL 활동을 ] 지원합니다. 자세한 내용은 [Analytics를 보고 소스로 사용하는 활동 만들기](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)를 참조하십시오.
+>[!UICONTROL Target] (A4T)용 분석은 자동 타게팅  [!UICONTROL 활동을 ] 지원합니다. 자세한 내용은 [자동 할당 및 자동 Target 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오.
 
 ## 자동 Target {#success}을(를) 사용한 실제 성공 사례
 
