@@ -4,17 +4,17 @@ description: Automated Personalization 요약 보고서는 어떻게 사용합�
 title: 자동화된 개인화 요약 보고서
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 43%
+source-wordcount: '633'
+ht-degree: 42%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 요약 보고서
 
-[!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] 활동 사용자가 전문 보고서를 사용할 수 있습니다.
+[!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] 활동 사용자는 특수 요약 보고서를 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ ht-degree: 43%
 **오퍼 수준 보고서**:오퍼 수준 보고서에  [!UICONTROL 기록된 ] 노출 횟수는 각 오퍼에 대한 노출 횟수를 캡처합니다. 따라서 위치가 두 개 이상인 활동에서 모든 보고 그룹의 [!UICONTROL 오퍼 수준] 보고서에 기록된 총 방문 수는 [!UICONTROL 활동 수준] 보고서의 제어 또는 타깃팅된 트래픽에 대해 기록된 방문 횟수의 배수와 같습니다. 기본 컨텐츠가 사용 가능한 옵션이었던 위치에서 발생하는 기본 컨텐츠의 노출 횟수는 &quot;기본 컨텐츠&quot; 오퍼 그룹에 기록됩니다. 보고 그룹에 할당되지 않은 오퍼의 임프레션은 &quot;그룹화되지 않음&quot; 오퍼 그룹에 기록됩니다.
 
 >[!NOTE]
-
-[!UICONTROL 오퍼 수준] 보고서에 기록된 노출 횟수는 [!UICONTROL 활동 수준] 보고서에 기록된 방문 횟수의 정확한 정수가 아닐 수 있습니다. 이는 인터넷을 통한 데이터 트래픽 보고 시 발생하는 사소한 불일치 때문입니다(일반적인 불일수는 5% 미만). 따라서 활동이 활성화된 후에 활동에서 사용할 수 있는 위치 수가 변경된 경우 노출 수는 정확한 배수가 되지 않습니다.
+>
+>[!UICONTROL 오퍼 수준] 보고서에 기록된 노출 횟수는 [!UICONTROL 활동 수준] 보고서에 기록된 방문 횟수의 정확한 정수가 아닐 수 있습니다. 이는 인터넷을 통한 데이터 트래픽 보고 시 발생하는 사소한 불일치 때문입니다(일반적인 불일수는 5% 미만). 따라서 활동이 활성화된 후에 활동에서 사용할 수 있는 위치 수가 변경된 경우 노출 수는 정확한 배수가 되지 않습니다.
