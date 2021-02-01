@@ -4,9 +4,9 @@ description: Target Standard/Premium 릴리스 노트, Target 플랫폼 및 Targ
 title: 이전 릴리스에 대한 릴리스 노트
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: b1c320a409ab43d9acc0adf5ed711c2b2514507c
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '30548'
+source-wordcount: '30538'
 ht-degree: 84%
 
 ---
@@ -84,7 +84,7 @@ at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| ![프리미엄 ](/help/assets/premium.png) 배지 자동 Target 활동에 대한 Target(A4T) 지원 분석 | [!UICONTROL 이제 자동 ] 타깃팅 활동이 Target에  [대한 분석을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 통해  [!UICONTROL 자동 ] Targetensemble 기계 학습 알고리즘을 사용하여 프로필, 동작 및 컨텍스트에 따라 각 방문자에 대해 최상의 경험을 선택할 수 있습니다.<br>A/B 테스트 및 경험 타깃팅 활동 [에 사용하기 위해 이미 A4](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) T를 구현한 경우 모두 설정되었습니다.<br>자세한 내용은  [활동 생성에서 자동 할당 및 자동 Target 활동에 대한 Target(A4T) ](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 지원을  *참조하십시오*. |
+| ![프리미엄 ](/help/assets/premium.png) 배지 자동 Target 활동에 대한 Target(A4T) 지원 분석 | [!UICONTROL 이제 자동 ] 타깃팅 활동이 Target에  [대한 분석을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 통해  [!UICONTROL 자동 ] Targetensemble 기계 학습 알고리즘을 사용하여 프로필, 동작 및 컨텍스트에 따라 각 방문자에 대해 최상의 경험을 선택할 수 있습니다.<br>A/B 테스트 및 경험 타깃팅 활동 [에 사용하기 위해 이미 A4](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) T를 구현한 경우 모두 설정되었습니다.<br>자세한 내용은 자동 할당  [및 자동 Target 활동에 대한 A4T 지원을 참조하십시오](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 
 ### Target Standard/Premium 20.8.2(2020년 9월 10일)
 
@@ -152,7 +152,7 @@ at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| Analytics for Target (A4T) [!UICONTROL 자동 할당] 활동 지원 | [!UICONTROL 자동 할당 ] 활동은 이제 Target에  [대한 분석을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 사용하면  [!UICONTROL Adobe 분석] 목표 지표 및/또는  [!UICONTROL Adobe ] 분석 보고 및 분석 기능을 사용하는 동시에 자동   Allocatemulti의 무장 강도 기능을 사용하여 트래픽을 유도하여 성공적인 경험으로 유도할 수 있습니다.<br>A/B 테스트 및 경험 타깃팅 활동 [에 사용하기 위해 이미 A4](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) T를 구현한 경우 모두 설정되었습니다.<br>자세한 내용은  [활동 만들기에서 자동 할당 활동에 대한 Target(A4T) ](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) 지원을  *참조하십시오*. |
+| Analytics for Target (A4T) [!UICONTROL 자동 할당] 활동 지원 | [!UICONTROL 자동 할당 ] 활동은 이제 Target에  [대한 분석을 지원합니다](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>이 통합을 사용하면  [!UICONTROL Adobe 분석] 목표 지표 및/또는  [!UICONTROL Adobe ] 분석 보고 및 분석 기능을 사용하는 동시에 자동   Allocatemulti의 무장 강도 기능을 사용하여 트래픽을 유도하여 성공적인 경험으로 유도할 수 있습니다.<br>A/B 테스트 및 경험 타깃팅 활동 [에 사용하기 위해 이미 A4](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) T를 구현한 경우 모두 설정되었습니다.<br>자세한 내용은 자동 할당  [및 자동 Target 활동에 대한 A4T 지원을 참조하십시오](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | 자동 Target 및 Automated Personalization 활동에 대한 트래픽 할당 방법에 대한 응답 토큰 | 두 개의 [응답 토큰](/help/administrating-target/response-tokens.md)이 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동에 추가되어 방문자가 &quot;제어&quot; 또는 &quot;타깃팅된&quot; 트래픽에 할당된 결과로 특정 경험을 받았는지 여부를 결정할 수 있습니다.<ul><li>`experience.trafficAllocationId` 방문자가 &quot;제어&quot; 트래픽에서 경험을 받으면 0을 반환하고 방문자가 &quot;타깃팅된&quot; 트래픽 배포로부터 경험을 받은 경우 1을 반환합니다.</li><li>`experience.trafficAllocationType` &quot;control&quot; 또는 &quot;targeted&quot;를 반환합니다.</li></ul>제어권 대 타깃팅된 트래픽에 대한 자세한 내용은 [Automated Personalization 또는 자동 Target 활동에 대한 컨트롤 선택](/help/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오. |
 | [!UICONTROL 게시 ] 역할 | 이 새 역할은 현재 [!UICONTROL 옵저버] 역할과 유사합니다(활동을 볼 수는 있지만 만들거나 편집할 수는 없습니다). 그러나 [!UICONTROL 게시자] 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오. <ul><li>**Target Standard 사용자**: [사용자](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 의 역할 및 권한을  *지정합니다*.</li><li>**Target Premium 사용자**: [6단계:엔터프라이즈 권한 ](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80) 구성에서 역할 및  *권한을 지정합니다*.</li></ul> |
 | [!DNL Analysis Workspace]<br>2020년 6월 25일에 A4T 지원 | [!UICONTROL 이제 Target] (A4T)에 대한 분석이 지원됩니다 [!DNL Analysis Workspace]. [!UICONTROL Target(A4T) 패널]을 사용하면 [!DNL Analysis Workspace]에서 [!DNL Adobe Target] 활동 및 경험을 분석할 수 있습니다.<br>자세한 내용은  [Analytics 도구 안내서](/help/c-integrating-target-with-mac/a4t/reporting.md) 의 A4T 보고 및 Target용  *분석(A4T) 패널* 에서  [ ](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html)   ** Analytics 도구를 참조하십시오. |
