@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3488'
 ht-degree: 29%
 
 ---
@@ -99,7 +99,7 @@ ht-degree: 29%
 |  | [프로필 및 변수 용어집](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | &quot;user.header(&#39;x-forwarded-for&#39;)&quot;가 더 이상 사용되지 않음을 나타내도록 &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; 행을 업데이트했습니다. |
 |  | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 20.9.1(2020년 9월 30일) 릴리스에 대한 정보가 추가되었습니다. |
 | 9월 15일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 자동 Target 활동에 대한 Target(A4T) 지원을 포함하는 Target Standard/Premium 20.8.3 릴리스에 대한 정보가 추가되었습니다. 이전 릴리스에서 자동 할당 활동에 대한 지원이 추가되었습니다. |
-|  | [자동 할당 및 자동 Target 활동에 대한 Target(A4T) 분석 지원](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). | 자동 Target 활동에서 A4T 지원에 대한 정보가 추가되었습니다. |
+|  | [자동 할당 및 자동 Target 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 자동 Target 활동에서 A4T 지원에 대한 정보가 추가되었습니다. |
 |  | [활동 QA 북마클릿](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | 값이 비어 있는 `at_preview_token` 매개 변수를 사용하여 사이트에서 페이지를 로드하여 QA 모드에서 수동으로 자신을 강제로 나오게 하는 방법이 at.js 1에 적용됨을 나타내는 텍스트가 업데이트되었습니다.*x*&#x200B;에만 사용할 수 있습니다. |
 |  | [카탈로그 검색](/help/c-recommendations/c-products/catalog-search.md) | 전체 주제가 업데이트되었습니다. |
 | 9월 10일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | 다음과 같은 새로운 기능을 포함하는 Target Standard/Premium 20.9.2 릴리스에 대한 정보가 추가되었습니다.기준 시퀀스 내에서 추천 슬롯을 제어합니다. |
