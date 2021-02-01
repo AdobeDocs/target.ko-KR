@@ -4,9 +4,9 @@ description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문�
 title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3491'
 ht-degree: 29%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 29%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2월 1일 | [자동화된 개인화 요약 보고서](/help/c-reports/reports-ap.md) | 새 섹션이 추가되었습니다.&quot;활동 수준과 오퍼 수준 보고서 간의 데이터 차이점&quot; |
+| 2월 1일 | [자동화된 개인화 요약 보고서](/help/c-reports/reports-ap.md) | 새 섹션이 추가되었습니다.&quot;FAQ&quot; |
 | 27년 1월 | [리디렉션 오퍼 만들기](/help/c-experiences/c-manage-content/offer-redirect.md) | 주제가 업데이트됨. |
 |  | [원격 오퍼 만들기](/help/c-experiences/c-manage-content/about-remote-offers.md) | 주제가 업데이트됨. |
 | 26년 1월 | [전환율](/help/c-reports/conversion-rate.md) | Target이 학생의 테스트 결과에서 &quot;제곱합&quot;을 사용하는 방법을 명확히 했습니다. |
