@@ -4,9 +4,9 @@ description: Automated Personalization 요약 보고서는 어떻게 사용합�
 title: 자동화된 개인화 요약 보고서
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '632'
 ht-degree: 43%
 
 ---
@@ -73,7 +73,7 @@ ht-degree: 43%
 
 ## FAQ
 
-### 활동 수준과 오퍼 수준 보고서 간에 데이터가 다릅니까?
+### 활동 수준과 오퍼 수준 보고서 간에 데이터가 다른 이유는 무엇입니까?
 
 **[!UICONTROL 활동 ] 수준 보고서**:활동 수준 보고서에  [!UICONTROL 기록된 방문] 은 제어 경험에 대한 방문 수와&quot;타깃팅된&quot; 트래픽 타깃팅된 트래픽에는 탐색 트래픽과 개인화된 트래픽이 혼합되어 포함됩니다.
 
