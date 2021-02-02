@@ -1,13 +1,13 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4t;A4T;Analytics를 Target의 보고 소스로 사용
 description: 자동 Target 및 자동 할당 활동에 A4T를 사용할 수 있습니까?
 title: 자동 할당 및 자동 Target 활동에 대한 A4T 지원
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 1%
+source-wordcount: '838'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,8 @@ A/B 테스트 및 경험 타깃팅 활동](/help/c-integrating-target-with-mac/a
 
    * [!UICONTROL 최적의 경험에 자동 할당]
    * [!UICONTROL 개인화된 경험을 위한 자동 타깃팅]
+
+   ![트래픽 할당 방법 옵션:수동, 자동 할당 및 자동 Target](/help/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
 
    자세한 내용 및 단계별 지침은 [자동 할당 활동 만들기](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) 및 [자동 Target 활동 만들기](/help/c-activities/auto-target/create-auto-target.md)를 참조하십시오.
 
