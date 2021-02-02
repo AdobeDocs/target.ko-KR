@@ -4,9 +4,9 @@ description: 자동 Target 및 자동 할당 활동에 A4T를 사용할 수 있�
 title: 자동 할당 및 자동 Target 활동에 대한 A4T 지원
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '853'
 ht-degree: 2%
 
 ---
@@ -36,10 +36,14 @@ A/B 테스트 및 경험 타깃팅 활동](/help/c-integrating-target-with-mac/a
 
 1. **[!UICONTROL 목표 및 설정]** 페이지에서 **[!UICONTROL 보고 소스]**&#x200B;에 대해 **[!UICONTROL Adobe Analytics]**&#x200B;을 선택하고 원하는 최적화 목표에 해당하는 보고서 세트를 선택합니다.
 
+   ![목표 및 설정 페이지의 보고 소스 섹션](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. 기본 목표 지표를 선택합니다.
 
    * [!DNL Adobe Target]을(를) 사용하여 최적화 목표를 지정하려면 **[!UICONTROL 전환]**&#x200B;을 선택합니다.
    * **[!UICONTROL 분석 지표 사용]**&#x200B;을 선택한 다음 최적화 목표로 사용할 [!DNL Analytics]의 지표를 선택합니다. 기본적으로 [!DNL Analytics] 전환 지표나 [!DNL Analytics] 사용자 지정 이벤트를 사용할 수 있습니다.
+
+   자세한 내용은 아래 [지원되는 목표 지표](#supported)를 참조하십시오.
 
 1. 활동을 저장하고 활성화합니다.
 
@@ -51,7 +55,7 @@ A/B 테스트 및 경험 타깃팅 활동](/help/c-integrating-target-with-mac/a
 
 1. [!DNL Adobe Analytics] 지표 선택에 따라 **[!UICONTROL 보고서]** 탭을 사용하여 활동의 보고를 봅니다. 보고 데이터를 심층적이고 자세히 세그먼트화하려면 **[!UICONTROL Analytics]**&#x200B;에서 보기를 클릭합니다.
 
-## 지원되는 목표 지표
+## 지원되는 목표 지표 {#supported}
 
 [!UICONTROL A4] Tfor  [!UICONTROL Auto-] Allocateand  [!UICONTROL Auto-] Targetlet에서는 다음 지표 유형을 최적화를 위한 기본 목표 지표로 선택할 수 있습니다.
 
