@@ -1,13 +1,13 @@
 ---
-keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+keywords: 자동 할당;A/B 테스트;자동 할당 활동;새 a/b 활동;자동 할당;최고의 경험에 자동 할당;할당;자동 할당;자동 할당;자동 할당
 description: Adobe Target의 VEC(Visual Experience Composer)를 사용하여 Target이 활성화된 페이지에서 직접 A/B 테스트 자동 할당 활동을 만들고 Target 내의 페이지 부분을 수정할 수 있습니다.
 title: 자동 할당 활동 만들기
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 59%
+source-wordcount: '916'
+ht-degree: 56%
 
 ---
 
@@ -119,6 +119,10 @@ ht-degree: 59%
 1. 활동에 대한 [목표 및 설정](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)을 지정합니다.
 
    ![A/B 활동 설정](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >이 활동과 함께 [Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)에 대한 분석을 사용하려면 [A4T 지원 자동 할당 및 자동 Target 활동에 대한 중요 정보](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)를 참조하십시오.
 
 1. **[!UICONTROL 저장 및 닫기]** 또는 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
