@@ -1,13 +1,13 @@
 ---
-keywords: activity change log;change log
+keywords: 작업 변경 로그;변경 로그
 description: 변경 로그는 활동을 변경한 사람과 변경한 시간에 대한 기록을 제공합니다.
-title: Adobe Target의 활동 변경 로그
-feature: activities
+title: 활동 변경 로그
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 77%
+source-wordcount: '102'
+ht-degree: 78%
 
 ---
 
