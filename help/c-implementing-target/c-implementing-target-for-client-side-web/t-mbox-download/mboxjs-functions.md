@@ -1,13 +1,13 @@
 ---
-keywords: mbox functions
+keywords: mbox 함수
 description: mbox.js를 사용하여 구현할 때 사용할 mbox.js 함수 목록입니다.
 title: mbox.js 함수
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 58%
+source-wordcount: '180'
+ht-degree: 59%
 
 ---
 
