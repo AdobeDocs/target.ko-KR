@@ -1,12 +1,12 @@
 ---
-keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;dynamic;parameter matching
+keywords: 포함 규칙;포함 기준;권장 사항;프로모션;동적 필터링;동적 필터링;매개 변수 일치
 description: 항목(엔티티)을 요청(API 또는 mbox)의 값과 비교하여 Adobe Target Recommendations에서 동적으로 필터링합니다.
-title: Adobe Target Recommendations의 동적 포함 규칙의 매개 변수 일치 필터링
+title: Target Recommendations의 동적 포함 규칙에서 매개 변수 일치별 필터링
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '318'
+source-wordcount: '329'
 ht-degree: 10%
 
 ---
