@@ -1,12 +1,12 @@
 ---
-keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
+keywords: 수입 상승도;수입;수입의 상승도 예상;상승도 계산;예상 값
 description: 모든 사용자가 우승 경험을 보는 경우 달성해야 할 매출 증가를 예상하려면 Adobe Target을 사용합니다.
-title: 매출 상승도 평가
+title: 매출 리프트 예측
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '517'
 ht-degree: 90%
 
 ---
