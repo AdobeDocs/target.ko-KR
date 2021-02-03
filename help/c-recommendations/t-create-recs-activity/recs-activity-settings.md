@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
+keywords: 권장 사항;설정;이름;목표;우선순위;지속 기간;보고 설정;기타 메타데이터
 description: 여러 설정을 사용하여 Adobe Target에서 권장 사항 활동을 설명하고 제어할 수 있습니다.
-title: Adobe Target의 권장 사항 활동 설정
+title: 권장 사항 활동 설정
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 89%
+source-wordcount: '391'
+ht-degree: 90%
 
 ---
 
