@@ -1,12 +1,12 @@
 ---
-keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
+keywords: multi-value;attributes;recommendations;multi-value;multi-value;multi-value
 description: 특수 다중 값 연산자를 사용하는 Adobe Target Recommendations의 다중 값 필드 작업에 대한 정보입니다.
-title: Adobe Target Recommendations에서 다중 값 특성을 사용한 작업
+title: Target Recommendations에서 다중 값 특성 작업
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 0%
 
 ---
