@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
 description: Adobe Target 시작 키트 - 4장 - Target 사용 팁
-title: Adobe Target 시작 키트 - 4장 - Target 사용 팁
+title: 환영 키트 - 4장 - Target 사용 팁
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2880'
+source-wordcount: '2887'
 ht-degree: 0%
 
 ---
