@@ -1,13 +1,13 @@
 ---
-keywords: adobe.target.getOffer;getOffer;getoffer;get offer;at.js;functions;function
+keywords: adobe.target.오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;at.js;함수;함수
 description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.getOffer(options) 함수 정보입니다.
-title: adobe.target.getOffer(옵션)
+title: Adobe.Target.Getoffer(Options)
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '455'
-ht-degree: 97%
+source-wordcount: '463'
+ht-degree: 96%
 
 ---
 
