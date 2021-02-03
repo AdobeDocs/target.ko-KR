@@ -1,13 +1,13 @@
 ---
-keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
+keywords: 시각적 경험 컴포저;기본 url;향상된 경험 작성기;eec;혼합 컨텐트;경험 스냅숏;모바일 보기 포트;css 선택;visual experience composer;visual experience composer;css
 description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 Adobe Target VEC(Visual Experience Composer)를 구성합니다.
-title: Adobe Target Visual Experience Composer 구성
+title: Visual Experience Composer(Vec) 구성
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 51%
+source-wordcount: '712'
+ht-degree: 50%
 
 ---
 
