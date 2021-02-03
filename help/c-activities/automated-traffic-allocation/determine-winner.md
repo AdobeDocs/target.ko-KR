@@ -1,13 +1,13 @@
 ---
-keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience;auto-allocate;auto allocate
+keywords: 자동 트래픽 할당;타깃팅;수상자;통계적 보장;신뢰;결정 승자;리프트;신뢰도;기본값;기본 경험;자동 할당
 description: 향상도 및 신뢰도를 포함한 중요한 지표를 검사하여 Adobe Target에서 A/B 자동 할당 활동의 결과를 해석합니다.
 title: 자동 할당 보고서 해석
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1112'
-ht-degree: 47%
+source-wordcount: '1130'
+ht-degree: 46%
 
 ---
 
