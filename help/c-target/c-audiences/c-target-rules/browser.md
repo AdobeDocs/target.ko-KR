@@ -1,12 +1,12 @@
 ---
-keywords: browser options;type;browser type;browser language;language;version;browser version
+keywords: 브라우저 선택 사항;유형;브라우저 유형;브라우저 언어;언어;버전;브라우저 버전
 description: Adobe Target에서 페이지를 방문할 때 특정 브라우저나 특정 브라우저 선택 사항을 사용하는 타겟 사용자에 대한 대상을 만들 수 있습니다.
-title: Adobe Target 대상의 브라우저 옵션
-feature: audiences
+title: 브라우저 옵션 대상
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '648'
+source-wordcount: '656'
 ht-degree: 99%
 
 ---
