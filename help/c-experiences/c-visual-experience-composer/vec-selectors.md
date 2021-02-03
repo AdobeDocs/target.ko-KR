@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;Landing Page Test
+keywords: 경험 타깃팅;랜딩 페이지 테스트
 description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
-title: 시각적 경험 작성기에 사용된 요소 선택기
+title: 시각적 경험 작성기에 사용된 요소 선택기 (VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 90%
+source-wordcount: '412'
+ht-degree: 91%
 
 ---
 
