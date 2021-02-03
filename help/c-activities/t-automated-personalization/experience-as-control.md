@@ -1,14 +1,14 @@
 ---
-keywords: experience;control;automated personalization;auto-target
+keywords: 경험;제어;자동화된 개인화;자동 타겟
 description: Adobe Target에서 AP(자동화된 개인화) 또는 자동 타겟 활동을 작성하는 동안 제어로 사용할 경험을 선택합니다.
-title: Adobe Target에서 특정 환경을 제어로 사용
+title: 특정 경험을 제어로 사용
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '753'
-ht-degree: 100%
+source-wordcount: '755'
+ht-degree: 99%
 
 ---
 
