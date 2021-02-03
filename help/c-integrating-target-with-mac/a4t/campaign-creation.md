@@ -1,12 +1,12 @@
 ---
 keywords: a4t;A4T;Analytics를 Target의 보고 소스로 사용
 description: Adobe Analytics를 보고 소스(A4T)로 사용하도록 Target Standard/Premium에서 활동을 구성할 수 있습니다.
-title: A4T를 보고 소스로 사용하는 활동 만들기
+title: A4T를 사용하는 활동 만들기
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '649'
 ht-degree: 37%
 
 ---
