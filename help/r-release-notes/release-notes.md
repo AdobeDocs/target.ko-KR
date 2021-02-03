@@ -1,13 +1,13 @@
 ---
-keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
-description: 이러한 릴리스 노트는 Adobe Target Standard 및 Target Premium 릴리스 각각에 대한 기능, 개선 사항, 수정 사항 및 알려진 문제에 대한 정보를 제공합니다.
-title: 'Adobe Target 릴리스 노트(현재) '
+keywords: 릴리스 정보;새 기능;릴리스;업데이트;업데이트;릴리스;개선 사항;개선 사항;수정 사항;버그 수정;업데이트
+description: 현재 릴리스에는 어떤 새로운 기능이 포함되어 있습니까?
+title: 릴리스 노트(현재)
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 44%
+source-wordcount: '694'
+ht-degree: 40%
 
 ---
 
