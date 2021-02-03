@@ -1,12 +1,12 @@
 ---
-keywords: recommendations design;create design;copy design
+keywords: 권장 사항 디자인;디자인 만들기;디자인 복사
 description: 디자인은 페이지에 권장 사항이 어떻게 나타나는지를 정의합니다.
 title: 디자인 만들기
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '995'
 ht-degree: 32%
 
 ---
