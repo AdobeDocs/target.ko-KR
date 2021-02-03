@@ -1,13 +1,13 @@
 ---
-keywords: visual experience composer;vec;wysiwyg
+keywords: 시각적 경험 컴포저;vec;wysiwyg
 description: Adobe Target의 시각적 경험 작성기(VEC) 사용에 대한 정보.
-title: Adobe Target VEC(시각적 경험 작성기)
+title: 시각적 경험 작성기(VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1378'
-ht-degree: 95%
+source-wordcount: '1381'
+ht-degree: 94%
 
 ---
 
