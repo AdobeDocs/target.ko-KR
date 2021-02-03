@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: 개요 및 참조
 description: 방문자 프로필에는 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방식에 대한 정보가 포함되어 있습니다.
 title: 방문자 프로필
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '103'
+source-wordcount: '106'
 ht-degree: 100%
 
 ---
