@@ -1,13 +1,13 @@
 ---
-keywords: recommendations design;template;create design;delivery;output
+keywords: 권장 사항 디자인;템플릿;디자인 만들기;전달;출력
 description: Adobe Target Recommendations의 디자인은 권장 사항이 페이지에 표시되는 방식을 정의합니다. 디자인은 방문자의 참여, 전환 및 매출을 개선하기 위해 권장 사항의 레이아웃 및 형식을 정의합니다.
 title: 디자인 개요
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 22%
+source-wordcount: '198'
+ht-degree: 25%
 
 ---
 
