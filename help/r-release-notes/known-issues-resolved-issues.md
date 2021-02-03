@@ -1,12 +1,12 @@
 ---
-keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: 이 릴리스의 Adobe Target에 대한 알려진 문제 정보입니다. 또한 해결된 문제에 대한 정보도 포함되어 있습니다.
-title: Adobe Target의 알려진 문제 및 해결된 문제
-feature: known issues
+keywords: 알려진 문제;해결된 문제;릴리스 정보;버그;문제;수정
+description: 알려진 문제 및 해결된 문제는 어디에서 찾을 수 있습니까?
+title: 알려진 문제 및 해결된 문제
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '4359'
+source-wordcount: '4355'
 ht-degree: 69%
 
 ---
