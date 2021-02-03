@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementing;rfi;request for information
+keywords: 구현;구현;rfi;정보 요청
 description: Adobe Target 구현을 준비할 때 완료해야 하는 작업과 수집해야 하는 정보가 있습니다.
-title: Adobe Target 구현 준비
+title: 구현 준비
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 94%
+source-wordcount: '271'
+ht-degree: 93%
 
 ---
 
