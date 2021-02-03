@@ -1,12 +1,12 @@
 ---
-keywords: audience;propensity;profile attribute;compare;comparison;create audience;creating audience
+keywords: 대상;성향;프로필 속성;비교하기;비교;대상 만들기;대상 작성
 description: 타겟 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
-title: 프로필 속성 비교 대상 만들기 Adobe Target에서
-feature: audiences
+title: 프로필 속성 비교 대상 만들기
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '436'
 ht-degree: 99%
 
 ---
