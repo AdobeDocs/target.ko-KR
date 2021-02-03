@@ -1,13 +1,13 @@
 ---
-keywords: Implementation;mbox.js non javascript;mbox;adbox
+keywords: 구현;mbox.js 비JavaScript;mbox;adbox
 description: AdBox를 사용하여 오프라인 구현에서 Adobe Target을 사용하여 이미지를 제공합니다.
-title: Adobe Target을 사용하여 이미지에 대한 Adbox 만들기
-feature: email implementation
+title: 이미지용 Adbox 만들기
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 77%
+source-wordcount: '311'
+ht-degree: 80%
 
 ---
 
