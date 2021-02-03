@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;frequently asked questions;faq;target mobile app
+keywords: 모바일 앱;FAQ;대상 모바일 앱
 description: 모바일 앱용 Adobe Target 관련 FAQ
-title: 모바일 앱용 Adobe Target에 대한 FAQ
-feature: mobile implementation
+title: 모바일 앱용 Target에 대한 FAQ
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '300'
 ht-degree: 0%
 
 ---
