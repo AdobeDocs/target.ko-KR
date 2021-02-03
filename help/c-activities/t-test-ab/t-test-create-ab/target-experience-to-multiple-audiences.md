@@ -1,12 +1,12 @@
 ---
-keywords: multiple audiences;experience versions;target experience versions
+keywords: 여러 대상;경험 버전;target 경험 버전
 description: Adobe Target A/B 활동에서 동일한 경험의 버전을 다른 대상에 타깃팅할 수 있습니다. 시각적 경험 작성기 또는 양식 기반 경험 작성기에서는 한 경험에 대해 여러 대상을 설정할 수 있습니다.
 title: A/B 테스트의 여러 경험 버전
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '614'
 ht-degree: 93%
 
 ---
