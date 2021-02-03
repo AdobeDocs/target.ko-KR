@@ -1,12 +1,12 @@
 ---
-keywords: multivariate test;mvt;mvt plan;multivariate test plan
+keywords: 다변량 테스트;mvt;mvt 계획;다변량 테스트 계획
 description: 성공적인 테스트를 위해서는 Adobe Target의 다변량 테스트에 몇 가지 계획이 필요합니다.
-title: Adobe Target에서 다변량 테스트 계획
+title: 다변량 테스트 계획
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '293'
 ht-degree: 97%
 
 ---
