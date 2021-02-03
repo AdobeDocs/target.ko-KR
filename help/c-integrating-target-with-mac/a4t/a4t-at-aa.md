@@ -4,7 +4,7 @@ description: 자동 Target 및 자동 할당 활동에 A4T를 사용할 수 있�
 title: 자동 할당 및 자동 Target 활동에 대한 A4T 지원
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 2%
