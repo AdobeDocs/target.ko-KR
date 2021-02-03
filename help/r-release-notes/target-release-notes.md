@@ -1,12 +1,12 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease
-description: 최신 또는 예정된 DNL Adobe Target 릴리스의 기능, 개선 사항 및 수정 사항에 대한 정보를 제공하는 릴리스 노트입니다.
-title: Adobe Target 프리릴리스 노트
+keywords: 릴리스 정보;릴리스;업데이트;향후 릴리스;개선 사항;새 기능;수정 사항;업데이트;출시전 릴리스
+description: 다음 릴리스에는 어떤 기능이 포함되어 있습니까?
+title: 출시 전 노트
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '493'
 ht-degree: 27%
 
 ---
