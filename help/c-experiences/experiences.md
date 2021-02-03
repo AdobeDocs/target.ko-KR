@@ -1,13 +1,13 @@
 ---
-keywords: experience;visual experience composer;enhanced experience composer;form based experience composer;form composer;visual composer;experience composer;mixed content;iframe;iframe busting;bust iframe;x-frame-options;x frame options;cross origin;cross origin issues;authentication workflow
+keywords: ;시각적 경험 작성기;향상된 경험 작성기;양식 기반 경험 작성기;양식 작성기;시각적 컴포저;시각적 컴포저;경험 컴포저;혼합 컨텐트;iframe;istering;iframe busting;x-frame-options;x-frame-options;x frame options;cross origin issues;authentication workflow
 description: Adobe Target의 경험은 방문자가 활동에 대한 대상 기준을 충족할 때 표시되는 컨텐츠를 결정합니다.
 title: 경험 및 오퍼
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '341'
-ht-degree: 89%
+source-wordcount: '376'
+ht-degree: 80%
 
 ---
 
