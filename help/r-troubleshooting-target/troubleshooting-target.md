@@ -1,12 +1,12 @@
 ---
-keywords: troubleshoot target;troubleshooting target
+keywords: target 문제 해결;target 문제해결
 description: 문제 해결 항목, FAQ 및 기타 유용한 항목을 포함하여 Adobe Target에서 발생할 수 있는 문제들을 해결하는 데 도움이 되는 주제 목록입니다.
-title: Adobe Target 문제 해결
+title: 문제 해결
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '437'
+source-wordcount: '439'
 ht-degree: 96%
 
 ---
