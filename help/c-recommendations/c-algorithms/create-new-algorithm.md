@@ -1,13 +1,13 @@
 ---
-keywords: criteria;algorithm;industry vertical;page type;recommendation key;recommendation logic;logic;data range;behavior data source;partial design;backup recommendations;inclusion rules;attribute weighting;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: 기준;알고리즘;업계 세로;페이지 유형;권장 사항 키;권장 사항;논리;데이터 범위;행동 데이터 소스;부분 디자인;백업 권장 사항;포함 규칙;현재 카테고리;사용자 지정 속성;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;마지막으로 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목
 description: 기준은 Adobe Recommendations 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오.
 title: 기준 만들기
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2422'
-ht-degree: 66%
+source-wordcount: '2477'
+ht-degree: 64%
 
 ---
 
