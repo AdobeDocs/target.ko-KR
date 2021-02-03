@@ -1,13 +1,13 @@
 ---
-keywords: inclusion rules;inclusion criteria;recommendations;promotion;promotions;dynamic filtering;static;static filter
+keywords: 포함 규칙;포함 기준;권장 사항;프로모션;동적 필터링;정적 필터;포함 규칙;포함 기준;권장 사항;promotion;promotion;promotions;dynamic filtering;static filter
 description: Adobe Target Recommendations의 포함 규칙을 사용하여 필터링할 정적 값을 하나 이상 수동으로 입력합니다.
 title: Adobe Target Recommendations의 포함 규칙에 있는 정적 값별로 필터링
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '213'
-ht-degree: 48%
+source-wordcount: '225'
+ht-degree: 46%
 
 ---
 
