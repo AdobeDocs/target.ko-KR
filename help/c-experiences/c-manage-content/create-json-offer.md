@@ -1,13 +1,13 @@
 ---
-keywords: remote offer;create remote offer
+keywords: 원격 오퍼;원격 오퍼 만들기
 description: JSON 오퍼는 어떻게 생성합니까?
-title: JSON 오퍼 만들기
+title: JSON 오퍼 만들기를 참조하십시오
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 57%
+source-wordcount: '388'
+ht-degree: 58%
 
 ---
 
