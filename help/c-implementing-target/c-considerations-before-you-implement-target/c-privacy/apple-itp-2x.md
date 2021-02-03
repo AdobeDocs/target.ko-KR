@@ -1,13 +1,13 @@
 ---
-keywords: apple;ITP;intelligent tracking prevention;experience cloud id;ecid
+keywords: apple;ITP;지능적 추적 방지;experience cloud id;ecid
 description: ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.x에 대한 Adobe Target 지원에 대한 정보입니다.
-title: Adobe Target 및 Apple ITP 지원
+title: Target 및 Apple ITP 지원
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 53%
+source-wordcount: '905'
+ht-degree: 52%
 
 ---
 
