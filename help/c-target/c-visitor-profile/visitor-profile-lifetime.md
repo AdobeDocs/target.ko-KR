@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: 개요 및 참조
 description: 기본적으로, 방문자 프로필은 14일 동안 저장됩니다. 이 프로필 라이프타임은 연장할 수 있습니다.
 title: 방문자 프로필 라이프타임
-feature: visitor profiles
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '312'
+source-wordcount: '315'
 ht-degree: 83%
 
 ---
