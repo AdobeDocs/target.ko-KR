@@ -1,13 +1,13 @@
 ---
-keywords: content;update content;assets;upload content;upload asset
+keywords: 컨텐츠;컨텐츠 업데이트;자산;업로드 컨텐츠;자산 업로드
 description: 이미지 오퍼로 사용할 이미지를 업로드하려면 어떻게 합니까?
-title: 업로드 컨텐츠
+title: 콘텐트 업로드
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 15%
+source-wordcount: '223'
+ht-degree: 17%
 
 ---
 
