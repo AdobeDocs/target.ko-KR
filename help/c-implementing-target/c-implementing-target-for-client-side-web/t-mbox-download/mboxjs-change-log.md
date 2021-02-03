@@ -1,12 +1,12 @@
 ---
-keywords: mbox.js changes;mbox.js versions
+keywords: mbox.js 변경 사항;mbox.js 버전
 description: 이 페이지에는 각 mbox.js 버전에 대한 변경 사항이 표시됩니다.
 title: mbox.js 버전 세부 정보
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2393'
+source-wordcount: '2397'
 ht-degree: 95%
 
 ---
