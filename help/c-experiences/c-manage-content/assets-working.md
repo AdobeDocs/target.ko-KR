@@ -1,13 +1,13 @@
 ---
-keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
+keywords: 컨텐츠 라이브러리;자산;주석 달기;복사;자산 삭제;자산 다운로드;컨텐츠 편집;카드 공유;컨텐츠 속성 보기
 description: 콘텐트 라이브러리의 에셋을 사용하여 작업하는 방법
-title: 라이브러리에서 컨텐츠 작업
+title: 라이브러리에서 콘텐트 사용
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 37%
+source-wordcount: '743'
+ht-degree: 38%
 
 ---
 
