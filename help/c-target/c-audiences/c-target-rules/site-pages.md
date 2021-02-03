@@ -1,13 +1,13 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: 사이트 페이지;대상 사이트 페이지;타깃팅;현재 페이지;대상 현재 페이지;이전 페이지;대상 이전 페이지;대상 이전 페이지;대상 랜딩 페이지;대상 랜딩 페이지;http 헤더
 description: 사이트의 특정 페이지에 있는 방문자를 타깃팅할 수 있습니다.
-title: Adobe Target 대상의 사이트 페이지 옵션
-feature: audiences
+title: 대상의 사이트 페이지 옵션
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 43%
+source-wordcount: '883'
+ht-degree: 42%
 
 ---
 
