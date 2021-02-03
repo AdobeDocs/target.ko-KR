@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
+keywords: 타깃팅;네트워크;타겟 네트워크;isp;도메인 이름;연결 속도;타겟 isp;타겟 도메인 이름;타겟 연결 속도
 description: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만들 수 있습니다.
-title: Adobe Target 고객의 네트워크 옵션
-feature: audiences
+title: 대상의 네트워크 옵션
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '497'
 ht-degree: 98%
 
 ---
