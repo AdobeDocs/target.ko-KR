@@ -1,13 +1,13 @@
 ---
-keywords: multivariate;mvt;preview;experiences
+keywords: 다변수;mvt;미리 보기;경험
 description: Adobe Target의 다변수 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험으로 페이지를 미리 보는 것이 유용합니다.
-title: Adobe Target에서 다변수 테스트를 위한 경험 미리 보기
+title: MVT(다변수 테스트용 경험 미리 보기)
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 69%
+source-wordcount: '200'
+ht-degree: 68%
 
 ---
 
