@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations;intro;introduction;webinar;demo
+keywords: Recommendations;소개;소개;웨비나;데모
 description: Adobe Target Recommendations 소개 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
-title: Adobe Target의 추천 활동 소개
+title: Recommendations 활동 소개
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2129'
+source-wordcount: '2131'
 ht-degree: 96%
 
 ---
