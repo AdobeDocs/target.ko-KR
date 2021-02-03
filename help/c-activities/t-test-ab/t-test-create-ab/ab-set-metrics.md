@@ -1,13 +1,13 @@
 ---
-keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
+keywords: A/B;활동 지표;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
 description: Adobe Target A/B 활동에서 지표를 사용하여 방문이 성공적인 시기를 결정할 수 있습니다.
 title: 지표 설정
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 86%
+source-wordcount: '330'
+ht-degree: 87%
 
 ---
 
