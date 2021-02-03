@@ -1,13 +1,13 @@
 ---
-keywords: mbox;mbox3rdPartyId;profile syncing;profile synch;PCID
-description: '실시간 프로필에 대한 정보 '
-title: Adobe Target의 mbox3rdPartyId에 대한 실시간 프로필 동기화
-feature: visitor profiles
+keywords: mbox;mbox 타사 Id;프로필 동기화;프로파일 동기화;PCID
+description: 실시간 프로필에 대한 정보
+title: Mbox3Rdpartyid에 대한 실시간 프로필 동기화
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 81%
+source-wordcount: '525'
+ht-degree: 80%
 
 ---
 
