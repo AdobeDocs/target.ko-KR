@@ -1,12 +1,12 @@
 ---
-keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-target;auto-allocate
+keywords: AB;A/B;AB...n;비교 경험;타깃팅;비교 내용;자동 대상;자동 할당
 description: 수동 A/B 테스트 활동은 두 개 이상의 웹 사이트 컨텐츠 버전을 비교하여 사전 지정된 테스트 기간 동안 전환율을 가장 향상시킬 수 있는 버전을 확인합니다.
 title: A/B 테스트 개요
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '765'
 ht-degree: 38%
 
 ---
