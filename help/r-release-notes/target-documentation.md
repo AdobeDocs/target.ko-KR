@@ -1,12 +1,12 @@
 ---
-keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
-description: Adobe Target 설명서는 사용자 인터페이스, SKD 및 API에 대한 개요, 자습서 및 가이드를 비롯한 다양한 형식으로 제공됩니다.
-title: Target 공지
+keywords: adobe target;target;documentation;api;api;sdk;sdk;tutorials;doc;documentation
+description: Target 설명서는 어디에서 찾을 수 있습니까?
+title: 설명서 개요
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '449'
 ht-degree: 2%
 
 ---
