@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app process;target mobile app;mobile target locations;mobile app success metrics
+keywords: 모바일 앱;모바일 앱 프로세스;Target 모바일 앱;모바일 타겟 위치;모바일 앱 성공 지표
 description: 모바일 앱 최적화 및 개인화에 Target을 사용할 수 있습니다.
-title: 모바일 앱을 위한 Target 기능에 대해 자세히 알아보십시오
-feature: mobile implementation
+title: 모바일 앱용 Target
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 95%
+source-wordcount: '132'
+ht-degree: 96%
 
 ---
 
