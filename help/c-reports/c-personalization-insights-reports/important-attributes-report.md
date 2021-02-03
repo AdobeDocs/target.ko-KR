@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;faq;frequently asked questions;important attributes
+keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
 description: 중요 속성 보고서에 대한 정보이며 두 전문 보고서 중 하나는 자동화된 개인 설정(AP) 및 Auto-Target(AT) 활동의 사용자가 사용할 수 있습니다.
 title: 중요 속성 보고서
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1629'
+source-wordcount: '1651'
 ht-degree: 94%
 
 ---
