@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
+keywords: 추천;추천 활동;기준;추천 키;사용자 지정 키;업계 수직;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어 게시
 description: Adobe Target의 기준은 미리 결정된 방문자 행동을 기반으로 추천할 제품 또는 컨텐츠를 결정하는 규칙입니다.
-title: Adobe Target Recommendations의 기준
+title: Recommendations Target 기준
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 53%
+source-wordcount: '1079'
+ht-degree: 52%
 
 ---
 
