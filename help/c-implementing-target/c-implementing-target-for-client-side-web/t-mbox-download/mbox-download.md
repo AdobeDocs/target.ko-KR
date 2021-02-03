@@ -1,13 +1,13 @@
 ---
-keywords: implementation;mbox;download mbox.js;download api;mbox.js api
+keywords: 구현;mbox;다운로드 mbox.js;다운로드 api;mbox.js api
 description: Adobe Target Standard 또는 Target Premium을 사용하려면 코드 한 줄을 추가하여 mbox.js를 호출합니다.
 title: mbox.js 구현
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 52%
+source-wordcount: '264'
+ht-degree: 50%
 
 ---
 
