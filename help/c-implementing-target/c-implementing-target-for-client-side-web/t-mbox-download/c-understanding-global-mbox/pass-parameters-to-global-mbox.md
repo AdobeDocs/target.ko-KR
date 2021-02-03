@@ -1,12 +1,12 @@
 ---
-keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
+keywords: 글로벌 mbox 매개 변수;targetPageParams;쿼리 문자열;배열;json;dtm;다이내믹 태그 관리
 description: 글로벌 mbox에 매개 변수를 전달하는 데에는 JavaScript targetPageParams 함수가 사용됩니다. 이는 추가적인 타깃팅/컨텍스트 정보를 Adobe Target에 전달해야 하는 모든 시나리오에서 필요합니다.
 title: 글로벌 mbox에 매개 변수 전달
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '393'
 ht-degree: 65%
 
 ---
