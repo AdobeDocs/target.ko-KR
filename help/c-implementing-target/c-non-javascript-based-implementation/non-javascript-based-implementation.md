@@ -1,13 +1,13 @@
 ---
-keywords: Implementation;mbox.js non javascript;adbox;redirector;mbox
+keywords: 구현;mbox.js 비javascript;adbox;리디렉터;mbox
 description: AdBox 또는 리디렉터 사용과 같이 비JavaScript 상황에서 Target을 구현하는 방법에 대한 정보입니다.
-title: '이메일: Target 구현'
-feature: email implementation
+title: 이메일 구현
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 82%
+source-wordcount: '429'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ AdBox 광고 및 리디렉터는 모든 종류의 활동에 사용할 수 있습
 
 ## 보안 우수 사례 {#security}
 
-리디렉터를 사용하면 오픈 리디렉션 취약성 위험에 노출될 수 있습니다. 제3자에 의한 리디렉터 링크의 무단 사용을 방지하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target에서는 리디렉션을 허용 목록에 추가하다 허용하려는 도메인을에 호스트를 사용합니다. 자세한 내용은 ](/help/administrating-target/hosts.md#allowlist)호스트&#x200B;*의 Target[에 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록 만들기를 참조하십시오.*
+리디렉터를 사용하면 오픈 리디렉션 취약성 위험에 노출될 수 있습니다. 제3자에 의한 리디렉터 링크의 무단 사용을 방지하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target에서는 리디렉션을 허용 목록에 추가하다 허용하려는 도메인을에 호스트를 사용합니다. 자세한 내용은 *호스트*&#x200B;의 Target](/help/administrating-target/hosts.md#allowlist)에 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록 만들기를 참조하십시오.[
 
 ## 제한 {#section_38F559DCF1324271926608BCD4AB1227}
 
