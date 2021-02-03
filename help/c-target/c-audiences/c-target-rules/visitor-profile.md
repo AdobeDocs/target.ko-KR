@@ -1,13 +1,13 @@
 ---
-keywords: visitor profile;target visitor profile
+keywords: 방문자 프로필;대상 방문자 프로필
 description: Adobe Target에서특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
-title: Adobe Target 대상의 방문자 프로필 옵션
-feature: audiences
+title: 대상의 방문자 프로필 옵션
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 94%
+source-wordcount: '225'
+ht-degree: 95%
 
 ---
 
