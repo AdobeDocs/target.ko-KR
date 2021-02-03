@@ -1,13 +1,13 @@
 ---
-keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;send notifications;notifications;at.js;functions;function
+keywords: adobe.target.알림 보내기;알림전송;알림 보내기;알림 보내기;알림;at.js;함수;함수
 description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.sendNotifications(options) 함수 정보입니다.
-title: adobe.target.sendNotifications(options)
+title: Adobe.Target.Sendnotifications(Options)
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 100%
+source-wordcount: '621'
+ht-degree: 99%
 
 ---
 
