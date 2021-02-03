@@ -1,13 +1,13 @@
 ---
-keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
+keywords: 비보안;보안;비보안;크롬;문제 해결;vec;시각적 경험 작성기;비보안;http;https;firefox;internet explorer
 description: 일부 브라우저의 경우 보안 컨텐츠가 비보안 컨텐츠와 혼합된 경우 페이지 표시를 차단합니다.
 title: 브라우저에서 혼합 컨텐츠 사용
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 34%
+source-wordcount: '574'
+ht-degree: 35%
 
 ---
 
