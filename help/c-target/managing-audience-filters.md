@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;audience filter;audiences;filter
+keywords: 타깃팅;대상 필터;대상;필터
 description: Adobe Target의 대상 필터(또는 대상)는 특정 특성이나 특성 집합을 공유하는 방문자 그룹입니다.
-title: Adobe Target에서 보고할 대상 필터
-feature: audiences
+title: 보고용 대상 필터
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
-ht-degree: 80%
+source-wordcount: '484'
+ht-degree: 81%
 
 ---
 
