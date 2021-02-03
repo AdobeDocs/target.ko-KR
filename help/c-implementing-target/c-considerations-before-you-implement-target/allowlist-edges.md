@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
+keywords: 구현;허용 목록;흰색 목록;허용 목록에 추가하다허용 목록;가장자리;가장자리;implementation;implementation;whitelist;white list;;edge;edges
 description: 허용 목록에 추가하다 Adobe Target 에지 노드
-title: 허용 목록에 추가하다 Adobe Target 에지 노드
+title: Target 에지 허용 목록에 추가하다 노드
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
