@@ -1,13 +1,13 @@
 ---
-keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk;
+keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk
 description: 이 섹션에서는 PostHoc 세그멘테이션을 위해 Adobe Target 모바일 앱 활동 정보를 Adobe Analytics으로 전송하는 방법에 대해 설명합니다.
-title: Adobe Analytics으로 Adobe Target 활동 정보 보내기
-feature: mobile implementation
+title: Adobe Analytics으로 활동 정보 보내기
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '366'
-ht-degree: 30%
+source-wordcount: '373'
+ht-degree: 29%
 
 ---
 
