@@ -1,13 +1,13 @@
 ---
-keywords: recommendation;backup;back up
+keywords: 권장 사항;백업;백업
 description: Adobe Target에서 백업 권장 사항 기능을 사용하는 경우 권장 항목이 충분하지 않은 권장 사항은 기본 컨텐트를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
-title: 백업 권장 사항 사용 adobe target Recommendations
+title: Target Recommendations에서 백업 권장 사항 사용
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '523'
-ht-degree: 83%
+source-wordcount: '526'
+ht-degree: 82%
 
 ---
 
