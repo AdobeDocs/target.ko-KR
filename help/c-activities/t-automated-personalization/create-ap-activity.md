@@ -1,12 +1,12 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;residual variance;error variance;lifetime value
+keywords: 자동화된 개인화;앱;대상;앙상블;임의 포리스트;잔존 분산;오류 차이;라이프타임 값
 description: Adobe Target의 Automated Personalization 활동 워크플로우는 다른 활동 유형의 워크플로우에 따라 다릅니다.
-title: 자동화된 개인화 활동 만들기
+title: Automated Personalization 활동 만들기
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2040'
+source-wordcount: '2053'
 ht-degree: 92%
 
 ---
