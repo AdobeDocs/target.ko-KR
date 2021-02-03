@@ -1,12 +1,12 @@
 ---
-keywords: security;security practices
+keywords: 보안;보안 정책
 description: 데이터 및 Adobe Target 경험의 보안을 강화하기 위해 Adobe에서 구현한 심층적인 접근 방식 및 보안 절차에 대한 정보입니다.
-title: Target 보안 개요
+title: 보안 개요
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '156'
 ht-degree: 80%
 
 ---
