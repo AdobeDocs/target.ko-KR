@@ -1,13 +1,13 @@
 ---
-keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
+keywords: 시간대;시작 날짜;종료 날짜;시작/종료 날짜;시간대;타깃팅 일정;주 분할;일 분할;분할
 description: 특정 기간에 사이트를 방문하는 사용자를 타깃팅하는 시작/종료 날짜 및 시간을 추가할 수 있습니다. 또한 주/요일 분할 선택 사항을 설정하여 대상 타깃팅을 위한 반복 패턴을 만들 수도 있습니다.
-title: Adobe Target 고객의 기간 옵션
-feature: audiences
+title: 대상의 기간 옵션
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 96%
+source-wordcount: '425'
+ht-degree: 97%
 
 ---
 
