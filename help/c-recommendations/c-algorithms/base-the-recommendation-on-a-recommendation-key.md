@@ -1,14 +1,14 @@
 ---
-keywords: recommendation key;recommendation logic;current category;custom attribute;last purchased item;last viewed item;most viewed item;most viewed item;favorite category;popularity;recently viewed item;last purchased;last viewed;most viewed;favorite;recently viewed
+keywords: 추천 키;권장 논리;현재 카테고리;사용자 지정 특성;마지막으로 본 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾는 항목;인기 항목;최근에 본 항목;마지막으로 본 항목;마지막으로 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목
 description: 키를 기반으로 하는 Recommendations은 방문자 행동 컨텍스트를 사용하여 Adobe Target Recommendations 활동의 관련 결과를 보여줍니다.
-title: 권장 사항 키 를 기반으로 권장 사항 만들기
+title: 권장 사항 키를 기반으로 권장 사항 만들기를 참조하십시오
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2889'
-ht-degree: 69%
+source-wordcount: '2924'
+ht-degree: 68%
 
 ---
 
