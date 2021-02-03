@@ -1,21 +1,21 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
+keywords: 중복 제거;중복 제거 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼를 허용하지 않음;제외;기본 컨텐트;제외 그룹
 description: Adobe Target AP(자동화된 개인화) 활동에서 제외 그룹을 만들고, 중복 오퍼를 제외하고, 특정 경험을 제외하고, 기본 콘텐츠를 제외하여 제외를 관리합니다.
 title: 제외 관리
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 94%
+source-wordcount: '981'
+ht-degree: 92%
 
 ---
 
 
 # ![프리미엄 배지](/help/assets/premium.png) 예외 관리
 
-제외 그룹을 만들고, 중복 오퍼를 제외하며, 특정 경험을 제외하고, [!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 활동에서 기본 컨텐츠를 제외하여 제외를 관리합니다.][!UICONTROL 
+제외 그룹을 만들고, 중복 오퍼를 제외하며, 특정 경험을 제외하고, [!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 활동에서 기본 컨텐츠를 제외하여 제외를 관리합니다.
 
 ## 제외 그룹 만들기 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
