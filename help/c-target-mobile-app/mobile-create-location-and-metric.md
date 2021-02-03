@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
+keywords: 모바일 앱;모바일 앱 위치;target 모바일 앱;모바일 target 위치;모바일 앱 성공 지표
 description: 모바일 앱에서 Target을 사용하려면 위치 및 성공 지표를 만드십시오.
-title: iOS - Target 위치 및 성공 지표 만들기
-feature: mobile implementation
+title: IOS - Target 위치 및 성공 지표 만들기
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 92%
+source-wordcount: '399'
+ht-degree: 91%
 
 ---
 
