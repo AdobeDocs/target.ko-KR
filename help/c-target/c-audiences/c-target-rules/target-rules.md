@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
+keywords: 타깃팅;타겟 카테고리;타겟 조건;audience manager;사용자 지정 프로필 매개 변수;방문자 프로필;사용자 지정 사용자 매개 변수;타겟 규칙
 description: 몇 가지 카테고리 중 어느 것에 대해서든 타깃팅할 수 있습니다. 각 카테고리는 각 카테고리에 대한 타깃팅 규칙(또는 그룹)을 만들 수 있는 탭으로 사용됩니다.
 title: 대상의 카테고리
-feature: audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '386'
 ht-degree: 98%
 
 ---
