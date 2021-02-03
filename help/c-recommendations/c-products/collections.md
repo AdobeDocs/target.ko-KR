@@ -1,12 +1,12 @@
 ---
-keywords: collection;Targeting
+keywords: 컬렉션;타깃팅
 description: 컬렉션은 추천에 적합한 Adobe Target의 제품 또는 항목 세트입니다.
-title: Adobe Target의 컬렉션
+title: 컬렉션
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 61%
 
 ---
