@@ -1,13 +1,13 @@
 ---
-keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
+keywords: 쿠키;쿠키;삭제 쿠키;대상 쿠키;google chrome;mozilla firefox;microsoft edge;safari
 description: 모든 경험의 유효성을 확인할 수 있도록 Target 브라우저 쿠키를 삭제합니다.
-title: Adobe Target 쿠키 삭제
+title: Target 쿠키 삭제
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 5%
+source-wordcount: '424'
+ht-degree: 6%
 
 ---
 
