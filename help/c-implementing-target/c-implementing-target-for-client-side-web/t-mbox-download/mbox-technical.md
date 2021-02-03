@@ -1,13 +1,13 @@
 ---
-keywords: implementation;mbox.js;dom manipulation library;target.js;visual experience composer;iframe;angular sites;single page applications;single page app;SPA
+keywords: 구현;mbox.js;dom 조작 라이브러리;target.js;시각적 경험 작성기;iframe;angular 사이트;단일 페이지 애플리케이션;단일 페이지 앱;SPA
 description: 기술 담당자가 mbox.js 구현과 이 구현이 사이트에 미칠 수 있는 영향을 이해하는 데 도움이 되는 정보입니다.
-title: mbox.js가 수행하는 작업
-feature: null
+title: mbox.js의 역할
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 80%
+source-wordcount: '396'
+ht-degree: 81%
 
 ---
 
