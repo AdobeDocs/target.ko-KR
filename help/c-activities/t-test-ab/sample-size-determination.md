@@ -1,13 +1,13 @@
 ---
-keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate;calculator
+keywords: AB;A/B;AB...n;샘플 크기;샘플 크기 계산기;자동 할당;자동 할당;calculator
 description: Adobe Target에서 성공적인 A/B 테스트를 수행하려면 전환율을 높이기 위해 적절한 수의 방문자(샘플 크기)가 있어야 하지만 A/B 테스트를 실행하는 데 얼마나 걸었는지 어떻게 알 수 있습니까? 이 문서에는 활동에 목표를 달성할 수 있는 충분한 수의 방문자가 있는지 확인하는 데 도움이 되는 자동 할당 활동 및 Adobe Target 샘플 크기 계산기에 대한 정보가 포함되어 있습니다.
-title: A/B 테스트를 얼마 동안 실행해야 합니까?
+title: A/B 테스트를 실행하는 데 얼마나 걸립니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3105'
-ht-degree: 74%
+source-wordcount: '3118'
+ht-degree: 73%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 74%
 
 ## Adobe Target 샘플 크기 계산기 {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-[!UICONTROL 자동 할당]이 아닌 수동 [!UICONTROL A/B 테스트] 활동을 사용하도록 선택하는 경우 [!DNL Target] 샘플 크기 계산기를 사용하면 성공적인 테스트에 필요한 샘플 크기를 결정할 수 있습니다. 수동 A/B 테스트는 고정 수평선 테스트이므로 계산기가 매우 유용합니다. ]자동 할당[!UICONTROL  활동에 계산기를 사용하면 &lt;a2/>자동 할당[!UICONTROL 이 우승자를 선언하므로 선택 사항입니다. ] 이 계산기는 필요한 샘플 크기의 대략적인 견적을 제공합니다. 계산기 사용 방법에 대한 자세한 내용을 계속 확인하십시오.
+[!UICONTROL 자동 할당]이 아닌 수동 [!UICONTROL A/B 테스트] 활동을 사용하도록 선택하는 경우 [!DNL Target] 샘플 크기 계산기를 사용하면 성공적인 테스트에 필요한 샘플 크기를 결정할 수 있습니다. 수동 A/B 테스트는 고정 수평선 테스트이므로 계산기가 매우 유용합니다. [!UICONTROL 자동 할당] 활동에 계산기를 사용하면 [!UICONTROL 자동 할당]이 우승자를 선언하므로 선택 사항입니다. 이 계산기는 필요한 샘플 크기의 대략적인 견적을 제공합니다. 계산기 사용 방법에 대한 자세한 내용을 계속 확인하십시오.
 
 A/B 테스트를 설정하기 전에 Adobe Target [샘플 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html)에 액세스하십시오.
 
