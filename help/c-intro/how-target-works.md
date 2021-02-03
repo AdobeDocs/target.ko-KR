@@ -1,13 +1,13 @@
 ---
-keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;seo;search engine optimization;edge clusters, central clusters;at.js;mbox.js;
+keywords: Adobe Experience Platform 웹 SDK;aep 웹 sdk;aep sdk;seo;검색 엔진 최적화;Edge 클러스터, 중앙 클러스터;at.js;mbox.js;
 description: Adobe Experience Platform 웹 SDK, Target JavaScript 라이브러리(at.js 및 mbox.js) 및 Target에서 만들 수 있는 다양한 활동 유형을 비롯하여 Adobe Target이 작동하는 방식에 대한 정보입니다.
-title: Adobe Target 작동 방식
+title: Target 작동 방식
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bffda8c3461998767a002d66fd9340252237ae5d
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2504'
-ht-degree: 71%
+source-wordcount: '2523'
+ht-degree: 70%
 
 ---
 
