@@ -1,12 +1,12 @@
 ---
-keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
+keywords: target 문제 해결;target 문제 해결;기본 컨텐츠;테스트가 라이브가 아님;활동이 라이브가 아님;타깃팅이 작동하지 않음;이전 경험이 표시됩니다;활동을 만들 수 없습니다;활동을 만들 수 없습니다;활동 만들기;페이지 구조가 변경됨;페이지 구조가 수정됨;오류 메시지;프로필 스크립트 삭제 오류;ajax가 작동하지 않음
 description: Adobe Target 활동이 사이트에 표시되지 않는 경우 이러한 문제 해결 제안을 통해 해결 방법을 찾을 수 있습니다.
 title: 활동 문제 해결
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '801'
+source-wordcount: '842'
 ht-degree: 77%
 
 ---
