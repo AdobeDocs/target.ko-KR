@@ -1,12 +1,12 @@
 ---
-keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
+keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 삽입;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 교체;오퍼 바꾸기; 이미지 교체;이미지 바꾸기;항목 제거;항목 삭제;항목 숨기기;항목 숨김;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 네비게이션;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행
 description: Adobe Target VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다.
-title: Adobe Target VEC(시각적 경험 작성기) 선택 사항
+title: VEC(Visual Experience Composer) 옵션
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2478'
 ht-degree: 94%
 
 ---
