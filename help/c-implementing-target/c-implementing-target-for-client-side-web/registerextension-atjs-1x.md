@@ -1,13 +1,13 @@
 ---
-keywords: registerExtension;registerextension;register extension;at.js;functions;function;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
+keywords: 확장 등록;확장 등록;등록 확장;at.js;함수;함수;클라이언트 코드;서버 도메인;globalMbox 이름;globalMbox 자동 생성;시간 초과
 description: Adobe Target at.js JavaScript 라이브러리에 대한 registerExtension() 함수 정보입니다.
-title: registerExtension() - at.js 1.x
+title: Regresextension() - at.js 1.x
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 98%
+source-wordcount: '261'
+ht-degree: 97%
 
 ---
 
