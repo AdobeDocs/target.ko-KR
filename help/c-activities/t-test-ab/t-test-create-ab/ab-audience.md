@@ -1,12 +1,12 @@
 ---
-keywords: audience;select audience;choose audience;Selectors
+keywords: 대상;대상 선택;대상 선택;선택기
 description: 대상은 Adobe Target 활동에 입력하는 사이트 방문자를 결정합니다.
 title: 대상 선택
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 92%
 
 ---
