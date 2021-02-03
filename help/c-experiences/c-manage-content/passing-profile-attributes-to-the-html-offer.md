@@ -1,12 +1,12 @@
 ---
-keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
+keywords: 동적 데이터;자산;데이터;오퍼;개인화된 오퍼;개인 오퍼;토큰 바꾸기
 description: 프로필 값과 활동 정보를 HTML 또는 JSON 오퍼에 직접 어떻게 전달할 수 있습니까?
 title: 오퍼에 동적 데이터 전달
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '502'
 ht-degree: 81%
 
 ---
