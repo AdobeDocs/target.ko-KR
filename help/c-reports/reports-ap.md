@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report;faq
+keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;활동 수준 보고서;오퍼 수준 보고서;오퍼 상세 보고서;faq
 description: Automated Personalization 요약 보고서는 어떻게 사용합니까?
 title: 자동화된 개인화 요약 보고서
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 24680f707928201b9390c0e71e54fc549c81e165
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 42%
+source-wordcount: '649'
+ht-degree: 41%
 
 ---
 
