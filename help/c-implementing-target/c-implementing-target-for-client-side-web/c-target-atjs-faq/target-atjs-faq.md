@@ -1,12 +1,12 @@
 ---
-keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
+keywords: at.js faq;at.js 자주 묻는 질문;faq;깜박임;로더;페이지 로더;교차 도메인;파일 크기;파일크기;x-domain;at.js 및 mbox.js;x 전용;교차 도메인;safari;단일 페이지 앱;누락된 선택기;선택기;단일 페이지 애플리케이션;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip 주소;httponly;HttpOnly;보안;ip;쿠키 도메인
 description: Adobe Target at.js JavaScript 라이브러리에 대해 자주 묻는 질문과 대답(FAQ)입니다.
-title: Adobe Target at.js FAQ
+title: at.js FAQ
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2698'
 ht-degree: 94%
 
 ---
