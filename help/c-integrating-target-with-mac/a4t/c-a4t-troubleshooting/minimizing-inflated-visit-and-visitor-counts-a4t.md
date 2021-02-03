@@ -1,12 +1,12 @@
 ---
-keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orphaned;virtual report suite;phantom;troubleshooting;unstitched;inflated;unspecified
+keywords: 부분 데이터;부분적 데이터;A4T;불일치;analytics for target;고립됨;가상 보고서 세트;가상;문제 해결;분리됨;부풀려짐;미지정
 description: Analytics를 보고 소스로 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 데 도움이 되는 정보입니다.
-title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화
+title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화의 "부분 데이터를 줄이는 우수 사례는 무엇입니까?"를 참조하십시오
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1363'
 ht-degree: 97%
 
 ---
