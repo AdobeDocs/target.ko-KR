@@ -1,13 +1,13 @@
 ---
-keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
+keywords: 컨텐츠;폴더 만들기;자산;폴더 이동;폴더 복사;폴더 삭제;폴더 다운로드;폴더
 description: 오퍼 라이브러리에 폴더를 만들려면 어떻게 합니까?
 title: 오퍼 폴더 만들기
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 18%
+source-wordcount: '258'
+ht-degree: 22%
 
 ---
 
