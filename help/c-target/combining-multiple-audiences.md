@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;combine audiences;exclusion;add exclusion;exclude;combining audiences;adhoc audience;ad hoc audience
+keywords: 대상;대상 규칙;대상 결합;제외;제외 추가;제외하기;대상 결합하기;임시 대상;애드혹 대상
 description: 즉석에서 여러 대상(Adobe Experience Cloud 대상 및 Target 대상 포함)을 조합하여 애드혹 대상을 만듭니다. 제외 규칙을 만들고 규칙에서 대상을 제외할 수도 있습니다.
-title: Adobe Target에서 여러 대상 결합
-feature: audiences
+title: 여러 대상 결합
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '907'
 ht-degree: 99%
 
 ---
