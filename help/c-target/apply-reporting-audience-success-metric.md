@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;audience;reporting;success metric
+keywords: 타깃팅;대상;보고;성공 지표
 description: Adobe Target에서 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
-title: Adobe Target의 성공 지표에 보고 대상 적용
-feature: success metrics
+title: 성공 지표에 보고 대상 적용
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 97%
 
 ---
 
