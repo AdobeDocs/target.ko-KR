@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app sdk;target mobile app;mobile target sdk;mobile app sdk;enable target in sdk
+keywords: 모바일 앱;모바일 앱 SDK;target 모바일 앱;모바일 target sdk;모바일 앱 SDK;SDK에서 Target 사용
 description: 앱에 Adobe Mobile Services SDK를 추가합니다.
 title: SDK에서 Target 사용
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 89%
+source-wordcount: '250'
+ht-degree: 90%
 
 ---
 
