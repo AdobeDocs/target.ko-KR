@@ -1,13 +1,13 @@
 ---
-keywords: Goal & Settings;objective;priority;duration
+keywords: 목표 및 설정;목표;우선순위;기간
 description: Adobe Target의 활동 설정을 사용하여 활동의 목표, 우선순위 및 기간을 관리할 수 있습니다.
 title: 활동 설정
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '409'
+ht-degree: 82%
 
 ---
 
