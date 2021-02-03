@@ -1,12 +1,12 @@
 ---
-keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
+keywords: 사용자 추가;프로젝트;사용자 그룹;속성;작업 공간;속성 관리;속성;at_property;역할;권한
 description: Adobe Target 구현에 사용자 추가;작업 영역, 사용자 그룹 및 속성 만들기;at_property 매개 변수를 포함하도록 Target 구현을 업데이트합니다.역할 및 권한을 지정합니다.
 title: Enterprise 권한 구성
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1482'
 ht-degree: 66%
 
 ---
