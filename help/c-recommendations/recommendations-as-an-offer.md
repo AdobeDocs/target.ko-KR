@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;offer
+keywords: 권장 사항;오퍼
 description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
-title: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
+title: Recommendations을 A/B 테스트(자동 할당 및 자동 Target 포함) 및 경험 타깃팅(XT) 활동의 오퍼로 사용
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 98%
+source-wordcount: '557'
+ht-degree: 95%
 
 ---
 
