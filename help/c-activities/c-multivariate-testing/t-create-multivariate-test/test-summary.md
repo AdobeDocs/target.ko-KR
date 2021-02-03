@@ -1,18 +1,18 @@
 ---
-keywords: summary
+keywords: 요약
 description: 테스트 요약에서는 Adobe Target 다변수 테스트에 대한 시각적 개요를 제공합니다.
 title: 테스트 요약
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 75%
+source-wordcount: '106'
+ht-degree: 72%
 
 ---
 
 
-# 테스트 요약 (다변량 테스트)
+# 테스트 요약(다변량 테스트)
 
 테스트 요약은 [!DNL Adobe Target] [!UICONTROL 다변수 테스트]에 대한 시각적 개요를 제공합니다.
 
