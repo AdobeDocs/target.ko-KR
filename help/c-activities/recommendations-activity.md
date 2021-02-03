@@ -4,9 +4,9 @@ description: Adobe Target의 Recommendations 활동은 이전 사용자 활동 �
 title: 권장 사항 활동
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '88'
+source-wordcount: '89'
 ht-degree: 47%
 
 ---
