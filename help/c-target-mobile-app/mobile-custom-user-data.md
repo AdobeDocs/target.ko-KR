@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app send data;target mobile app;mobile custom user data;mobile app custom data
+keywords: 모바일 앱;모바일 앱 데이터 전송;target 모바일 앱;모바일 사용자 지정 사용자 데이터;모바일 앱 사용자 지정 데이터
 description: 위치 또는 사용자에 대한 추가 정보를 이름-값 쌍으로 Target에 보낼 수 있습니다.
-title: iOS - 사용자 지정 사용자 데이터 전송
-feature: mobile implementation
+title: IOS - 사용자 지정 사용자 데이터 보내기
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '339'
+ht-degree: 98%
 
 ---
 
