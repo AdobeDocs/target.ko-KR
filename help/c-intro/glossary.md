@@ -1,11 +1,11 @@
 ---
 description: 용어 정의입니다.
-title: Adobe Target 용어
+title: 용어 설명
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2291'
+source-wordcount: '2289'
 ht-degree: 98%
 
 ---
