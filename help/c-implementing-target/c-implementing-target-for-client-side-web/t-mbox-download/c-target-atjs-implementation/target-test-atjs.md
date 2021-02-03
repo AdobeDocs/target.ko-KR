@@ -1,13 +1,13 @@
 ---
-keywords: at.js;non-production;non production;deploy
+keywords: at.js;비-프로덕션;비-프로덕션;배포
 description: at.js를 비프로덕션 환경에 안전하게 배포하는 방법에 대한 정보입니다.
-title: at.js를 비프로덕션 환경에 배포
+title: 비프로덕션 환경에 at.js 배포
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 90%
+source-wordcount: '373'
+ht-degree: 91%
 
 ---
 
