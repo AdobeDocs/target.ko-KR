@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementation;at.js;adobe experience platform web sdk;aep web sdk
+keywords: 구현;at.js;adobe experience platform web sdk;aep web sdk
 description: at.js를 사용하여 클라이언트측 웹용 Adobe Target 구현에 대한 정보입니다.
 title: 클라이언트측 웹용 Adobe Target 구현
 feature: at.js
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 20%
+source-wordcount: '341'
+ht-degree: 18%
 
 ---
 
