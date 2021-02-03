@@ -1,12 +1,12 @@
 ---
-keywords: reports;download reports;csv;success metrics;order details
+keywords: 보고서;보고서 다운로드;csv;성공 지표;주문 세부 사항
 description: Adobe Target을 사용하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 데이터를 신속하게 가져올 수 있도록 데이터를 .csv 형식으로 다운로드합니다.
-title: Adobe Target을 사용하여 CSV 파일로 데이터 다운로드
+title: CSV 파일로 데이터 다운로드
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '678'
 ht-degree: 83%
 
 ---
