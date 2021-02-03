@@ -4,7 +4,7 @@ description: Adobe Target의 VEC(Visual Experience Composer)를 사용하여 Tar
 title: 자동 Target 활동 만들기
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '940'
 ht-degree: 56%
