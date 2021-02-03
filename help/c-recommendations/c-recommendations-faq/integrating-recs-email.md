@@ -1,12 +1,12 @@
 ---
-keywords: email;ESP;email service provider;rawbox;delivery API;download-only template;email template;batch processing;build-time email
+keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;배달 API;다운로드 전용 템플릿;이메일 템플릿;일괄처리;작성 시간 이메일
 description: 이메일을 권장 사항과 통합하는 방법에 대한 정보입니다.
-title: 이메일에 권장 사항 통합
+title: 이메일에 Recommendations 통합
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1459'
+source-wordcount: '1475'
 ht-degree: 91%
 
 ---
