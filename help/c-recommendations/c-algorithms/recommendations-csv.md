@@ -1,13 +1,13 @@
 ---
-keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
+keywords: 사용자 지정 기준 만들기;알고리즘;기준;권장 사항 기준;csv;ftp;csv 업로드
 description: 권장 사항을 사용자 지정하려면 CSV 파일을 업로드합니다.
 title: 사용자 지정 기준 업로드
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '687'
-ht-degree: 63%
+source-wordcount: '698'
+ht-degree: 64%
 
 ---
 
