@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
+keywords: 타깃팅;트래픽 소스;트래픽 소스 타깃팅;검색 엔진 타깃팅;검색 엔진;랜딩 페이지;랜딩 페이지 타깃팅;참조 랜딩 페이지
 description: Adobe Target에서 사이트를 안내하는 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅할 대상을 만듭니다.
-title: Adobe Target 대상의 트래픽 소스 옵션
-feature: audiences
+title: 대상의 트래픽 소스 옵션
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '252'
+ht-degree: 97%
 
 ---
 
