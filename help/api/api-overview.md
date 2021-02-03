@@ -1,12 +1,12 @@
 ---
-keywords: api;apis;admin api;delivery api;reporting api;profile api
+keywords: api;api;관리 api;배달 api;보고 api;profile api
 description: 관리, 전달, 보고 및 프로필 API를 비롯한 Adobe Target API에 대한 정보입니다.
 title: Adobe Target API 개요
-feature: APIs/SDKss/SDKs
+feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
