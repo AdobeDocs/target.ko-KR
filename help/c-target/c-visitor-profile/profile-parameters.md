@@ -1,13 +1,13 @@
 ---
-keywords: Profile script;profile script attributes;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
+keywords: 프로필 스크립트;프로필 스크립트 특성;프로필 스크립트 모범 사례;디버그;디버깅;스크립트;프로필 스크립트;특성;특성;매개 변수;profile script;profile script attributes;parameter;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
 description: 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 Adobe Target 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
-title: Adobe Target의 프로필 속성
-feature: visitor profiles
+title: 프로필 속성
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 78%
+source-wordcount: '2460'
+ht-degree: 77%
 
 ---
 
