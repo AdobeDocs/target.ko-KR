@@ -1,12 +1,12 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits;updates;update
-description: 이 페이지에는 릴리스 순으로 정렬된 Adobe Target 문서의 중요한 변경 내용이 나열됩니다.
-title: Adobe Target 제품 설명서의 내용이 변경되었습니다.
+keywords: 대상 설명서 변경 로그;설명서 업데이트;새 주제;편집;업데이트;update
+description: 설명서는 어떻게 변경되었습니까?
+title: 설명서 변경 내용
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3488'
+source-wordcount: '3487'
 ht-degree: 29%
 
 ---
