@@ -1,12 +1,12 @@
 ---
-keywords: hybrid deployment;hybrid;sever-side;serverside;server side;client-side;clientside;client side;hybrid implementation
+keywords: 하이브리드 배포;하이브리드;서버측;서버측;서버측;클라이언트측;클라이언트측;클라이언트측;클라이언트측;하이브리드 구현
 description: Adobe Target은 개인화를 위한 고유한 하이브리드 배포 모델을 제공하며 클라이언트측과 서버측 구현을 혼합합니다.
 title: 하이브리드 구현
-feature: hybrid implementation
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '86'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
