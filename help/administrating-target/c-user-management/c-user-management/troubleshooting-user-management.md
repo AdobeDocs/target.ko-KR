@@ -1,13 +1,13 @@
 ---
-keywords: troubleshoot target;troubleshooting target;users;user management
+keywords: target 문제 해결;target 문제 해결;사용자;사용자 관리
 description: Adobe Target의 사용자 관리에 대한 문제 해결 정보입니다.
-title: Adobe Target의 사용자 관리 문제 해결
+title: 사용자 관리 문제 해결
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '75'
-ht-degree: 25%
+source-wordcount: '79'
+ht-degree: 32%
 
 ---
 
