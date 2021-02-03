@@ -1,13 +1,13 @@
 ---
-keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
+keywords: 다변량;mvt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;수입;참여
 description: Adobe Target 다변량 테스트의 지표를 사용하여 방문이 성공적인 시기를 결정할 수 있습니다.
 title: 지표 설정
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '317'
-ht-degree: 85%
+source-wordcount: '331'
+ht-degree: 86%
 
 ---
 
