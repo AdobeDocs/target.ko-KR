@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;mobile app location;target mobile app;mobile target locations;location service;adobe experience cloud location service;pois;points of interest;sdk;location
+keywords: 모바일 앱;모바일 앱 위치;대상 모바일 앱;모바일 대상 위치;위치 서비스;adobe experience cloud 위치 서비스;pois;관심 영역;sdk;location
 description: 이 항목은 Adobe Target에서 Adobe Experience Platform 위치 서비스를 사용하는 방법에 대한 개요입니다.
 title: 위치 서비스 사용
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '184'
 ht-degree: 0%
 
 ---
@@ -20,4 +20,4 @@ Adobe Experience Platform 위치 서비스(위치 서비스)는 위치 정보를
 
 Target과 함께 위치 서비스를 사용하여 [Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)의 규칙을 활용하여 위치 데이터를 Adobe Target SDK 이벤트에 첨부할 수 있습니다.
 
-자세한 내용은 [Adobe Experience Platform 위치 서비스 안내서](https://experienceleague.adobe.com/docs/places/using/home.html)에서 [Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html)과 함께 위치 서비스 사용&lt;a3/>을 참조하십시오.
+자세한 내용은 [Adobe Experience Platform 위치 서비스 안내서](https://experienceleague.adobe.com/docs/places/using/home.html)에서 [Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html)과 함께 위치 서비스 사용을 참조하십시오.
