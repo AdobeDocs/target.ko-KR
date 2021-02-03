@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
+keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;타겟;대상
 description: 경험 타깃팅 및 대상에 대한 FAQ 목록
 title: Target 및 대상 FAQ
-feature: audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 69%
+source-wordcount: '942'
+ht-degree: 68%
 
 ---
 
