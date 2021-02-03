@@ -1,11 +1,11 @@
 ---
 description: Target이 페이지의 호출을 수행하고 호출에 응답하는 방식은 사용 중인 Target 라이브러리 버전, Experience Cloud 방문자 ID 구현이 존재하는지 여부, 방문자 ID가 있는지 여부에 따라 다릅니다.
-title: mbox.js 라이브러리 버전별 Target 페이지 방법
+title: mbox.js 라이브러리 버전별 페이지 방법
 feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '939'
 ht-degree: 92%
 
 ---
