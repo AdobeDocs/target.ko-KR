@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;create audience;creating audience
+keywords: 대상;대상 규칙;대상 만들기;대상 생성
 description: 사용자 지정된 대상을 만들어 활동에서 사용할 수 있도록 Target 라이브러리에 저장할 수 있습니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수 있습니다.
-title: Target에서 대상 작성
-feature: audiences
+title: 대상자 만들기
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '478'
 ht-degree: 99%
 
 ---
