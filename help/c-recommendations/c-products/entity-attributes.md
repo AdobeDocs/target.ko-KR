@@ -1,12 +1,12 @@
 ---
-keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
+keywords: 엔티티;엔티티 속성;Recommendations로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
 description: 개체 특성을 사용하여 제품 또는 콘텐트 정보를 Adobe Target Recommendations에 전달합니다.
-title: 엔티티 속성
+title: 엔티티 속성을 참조하십시오
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1019'
+source-wordcount: '1043'
 ht-degree: 88%
 
 ---
