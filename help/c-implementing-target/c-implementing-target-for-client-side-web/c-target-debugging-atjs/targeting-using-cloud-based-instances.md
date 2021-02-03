@@ -1,13 +1,13 @@
 ---
-keywords: cloud instances;public suffix list;public suffix;cookie;first-party cookie;1st-party cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
+keywords: 클라우드 인스턴스;공용 접미어 목록;공용 접미어;쿠키;퍼스트 파티 쿠키;자사 쿠키;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
 description: 클라우드 기반 인스턴스를 사용하여 Adobe Target을 테스트할 때 고객이 직면하는 문제에 대한 정보입니다.
-title: Target에서 클라우드 기반 인스턴스 사용
+title: 클라우드 기반 인스턴스 사용
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 95%
+source-wordcount: '161'
+ht-degree: 94%
 
 ---
 
