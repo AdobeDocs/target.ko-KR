@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
+keywords: faq;자주 묻는 질문;analytics for target;a4T;활동 설정
 description: 이 주제에서는 활동 설정과 Analytics를 Target의 보고 소스로 사용(A4T)하는 것과 관련하여 자주 묻는 질문에 대한 답을 제공합니다.
 title: 활동 설정 - A4T FAQ
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '509'
 ht-degree: 36%
 
 ---
