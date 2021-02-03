@@ -1,12 +1,12 @@
 ---
-keywords: catalog search;catalog;search;exclusion;collection;filter
+keywords: 카탈로그 검색;카탈로그;검색;제외;컬렉션;필터
 description: Recommendations 카탈로그 검색을 사용하여 제품 또는 컨텐츠를 찾고, 컬렉션이나 제외를 만들고, 카탈로그에서 항목을 제거하는 방법 등을 알아보십시오.
-title: Recommendations 카탈로그 검색을 사용하는 방법
+title: Recommendations 카탈로그 검색 사용 방법
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '1038'
 ht-degree: 17%
 
 ---
