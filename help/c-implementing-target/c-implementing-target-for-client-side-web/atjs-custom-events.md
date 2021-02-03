@@ -1,12 +1,12 @@
 ---
-keywords: custom events;at.js;request failed;request succeeded;content rendering failed;content rendering succeeded;library loaded;request start;content rendering start;content rendering no offers;content rendering rediret
+keywords: 사용자 지정 이벤트;at.js;요청 실패;요청 성공;콘텐츠 렌더링 실패;콘텐츠 렌더링 성공;라이브러리 로드됨;요청 시작;콘텐츠 렌더링 시작;콘텐츠 렌더링 오퍼 없음;콘텐츠 렌더링 리디렉션
 description: Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트 정보입니다.
 title: at.js 사용자 지정 이벤트
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '604'
 ht-degree: 96%
 
 ---
