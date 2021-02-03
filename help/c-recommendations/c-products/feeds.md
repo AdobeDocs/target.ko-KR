@@ -1,12 +1,12 @@
 ---
-keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
+keywords: 추천 피드;피드;SAINT;ftp;csv;classifications;analytics 분류
 description: 피드를 사용하여 Adobe Target Recommendations으로 개체를 가져옵니다. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
-title: Adobe Target Recommendations의 피드
+title: Recommendations Target의 피드
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2518'
+source-wordcount: '2526'
 ht-degree: 84%
 
 ---
