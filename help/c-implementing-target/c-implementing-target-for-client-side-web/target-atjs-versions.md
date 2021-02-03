@@ -1,12 +1,12 @@
 ---
-keywords: at.js releases;at.js versions;release notes
+keywords: at.js 릴리스;at.js 버전;릴리스 노트
 description: 각 Adobe Target at.js 버전의 변경 사항에 대한 세부 정보
 title: at.js 버전 세부 사항
 feature: at.js
 translation-type: tm+mt
-source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '4069'
+source-wordcount: '4075'
 ht-degree: 83%
 
 ---
