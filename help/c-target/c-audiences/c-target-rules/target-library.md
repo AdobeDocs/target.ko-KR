@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target library;library
+keywords: 타깃팅;타겟 라이브러리;라이브러리
 description: 사전 빌드된 타깃팅 규칙을 기반으로 사용자를 타깃팅하십시오.
-title: Adobe Target 대상의 Target 라이브러리 옵션
-feature: audiences
+title: 타겟 라이브러리 대상의 옵션
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 96%
+source-wordcount: '185'
+ht-degree: 98%
 
 ---
 
