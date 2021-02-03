@@ -1,13 +1,13 @@
 ---
-keywords: mboxDefine;mboxdefine;mbox define;mboxUpdate;mboxupdate;mbox update;at.js;functions;function
+keywords: mbox 정의;mbox 정의;mbox 정의;mbox업데이트;mbox 업데이트;mbox 업데이트;at.js;함수;함수
 description: Adobe Target at.js JavaScript 라이브러리에 대한 mboxDefine() 및 mboxUpdate() 함수 정보입니다.
-title: mboxDefine() 및 mboxUpdate() - at.js 1.x
+title: Mboxdefine() 및 Mboxupdate() - at.js 1.x
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 100%
+source-wordcount: '186'
+ht-degree: 97%
 
 ---
 
