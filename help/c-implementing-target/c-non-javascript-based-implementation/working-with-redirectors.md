@@ -1,12 +1,12 @@
 ---
-keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
+keywords: 구현;mbox.js 비Javascript;리디렉터;클릭당 비용;클릭당 수익
 description: 리디렉터는 테스트에서 mbox를 사용하는 것과 비슷한 방법으로 사용됩니다.
-title: 리디렉터 작업
-feature: email implementation
+title: 리디렉터와 작업
+feature: Implement Email
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '670'
 ht-degree: 69%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 69%
 
       >[!IMPORTANT]
       >
-      >리디렉터를 사용하면 오픈 리디렉션 취약성 위험에 노출될 수 있습니다. 제3자에 의한 리디렉터 링크의 무단 사용을 방지하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target에서는 리디렉션을 허용 목록에 추가하다 허용하려는 도메인을에 호스트를 사용합니다. 자세한 내용은 ](/help/administrating-target/hosts.md#allowlist)호스트&#x200B;*의 Target[에 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록 만들기를 참조하십시오.*
+      >리디렉터를 사용하면 오픈 리디렉션 취약성 위험에 노출될 수 있습니다. 제3자에 의한 리디렉터 링크의 무단 사용을 방지하려면 &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하다 표시하는 것이 좋습니다. Target에서는 리디렉션을 허용 목록에 추가하다 허용하려는 도메인을에 호스트를 사용합니다. 자세한 내용은 *호스트*&#x200B;의 Target](/help/administrating-target/hosts.md#allowlist)에 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록 만들기를 참조하십시오.[
 
 1. 리디렉터의 유효성을 확인합니다.
    1. *보안 모범 사례*:리디렉터에 사용된 도메인이 위에 표시된 대로 허용 목록에추가된 설정되어 있는지 확인합니다. 도메인이 아닌를 사용하는 경우, Adobe은 악성 허용 목록에추가된 행위자가 리디렉터를 사용하여 잠재적으로 악성 도메인으로 리디렉션하는 것을 방지하기 위해 해당 도메인에 대한 모든 호출을 차단합니다.
