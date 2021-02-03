@@ -1,12 +1,12 @@
 ---
-keywords: at.js integration;supported integrations;unsupported integrations;third party integrations
+keywords: at.js 통합;지원되는 통합;지원되지 않는 통합;타사 통합
 description: Target과의 통합과 at.js 관련 지원 상태에 대한 정보입니다.
-title: at.js 통합
+title: at.js 통합을 참조하십시오
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '551'
+source-wordcount: '560'
 ht-degree: 91%
 
 ---
