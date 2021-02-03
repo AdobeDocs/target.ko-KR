@@ -1,20 +1,20 @@
 ---
-keywords: Experience Targeting;xt;activity url;url
+keywords: 경험 타깃팅;xt;activity url;url
 description: 활동 URL은 Adobe Target 경험 타깃팅 활동에 사용되는 페이지를 결정하며 활동이 디자인될 때 VEC(Visual Experience Composer) 또는 양식 기반 경험 작성기에서 열립니다.
 title: 활동 URL
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 66%
+source-wordcount: '286'
+ht-degree: 65%
 
 ---
 
 
 # 경험 타깃팅(XT) 활동의 활동 URL
 
-[!UICONTROL 활동 URL]은 [!DNL Adobe Target] [!UICONTROL 경험 타깃팅](XT) 활동에 사용되는 페이지를 결정하며 활동이 디자인되었습니다.][!UICONTROL 
+[!UICONTROL 활동 URL]은 [!DNL Adobe Target] [!UICONTROL 경험 타깃팅](XT) 활동에 사용되는 페이지를 결정하며 활동이 디자인되었습니다.
 
 1. [XT 활동을 만드는](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) 동안 메시지가 표시되면 활동 URL을 지정합니다. 전체 URL(`https://` 포함)을 입력하고 **[!UICONTROL 활동 만들기]**&#x200B;를 클릭합니다.
 
