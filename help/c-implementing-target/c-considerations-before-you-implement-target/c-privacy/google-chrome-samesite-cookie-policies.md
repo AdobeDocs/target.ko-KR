@@ -1,12 +1,12 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Google Chrome 버전 80부터 도입되는 Adobe Target 및 SameSite IETF 표준에 대한 정보입니다.
-title: Adobe Target 및 Google의 SameSite 쿠키 정책
+title: Google의 Samesite 쿠키 정책
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2033'
+source-wordcount: '2035'
 ht-degree: 7%
 
 ---
@@ -46,7 +46,7 @@ Chrome 80부터 웹 개발자는 웹 사이트에서 사용할 수 있는 쿠키
 
 이러한 모든 의미와 함께 [!DNL Target]이 쿠키를 사용하는 방법을 살펴보겠습니다. 먼저 [!DNL Target]을(를) 사용하려면 사이트에 [!DNL Target] JavaScript 라이브러리를 설치해야 합니다. 이렇게 하면 사이트를 방문하는 사용자의 브라우저에 퍼스트 파티 쿠키를 배치할 수 있습니다. 사용자가 웹 사이트와 상호 작용할 때 JavaScript 라이브러리를 통해 사용자의 행동 및 관심 데이터를 [!DNL Target]에 전달할 수 있습니다. [!DNL Target] JavaScript 라이브러리는 자사 쿠키를 사용하여 사용자의 행동 및 관심 데이터에 매핑할 사용자에 대한 식별 정보를 추출합니다. 그런 다음 이 데이터를 [!DNL Target]에서 사용하여 개인화 활동을 강화합니다.
 
-또한 Target은 (경우에 따라) 제3자 쿠키를 사용합니다. 다른 도메인에 존재하는 여러 웹 사이트를 소유하고 있고 해당 웹 사이트에서의 사용자 여정을 추적하려는 경우 도메인 간 추적을 활용하여 타사 쿠키를 사용할 수 있습니다. [!DNL Target] JavaScript 라이브러리에서 도메인 간 추적을 활성화하면 계정이 타사 쿠키를 사용하기 시작합니다. 사용자가 한 도메인에서 다른 도메인으로 이동할 때 브라우저는 [!DNL Target]의 백엔드 서버와 통신하며 이 프로세스에서는 타사 쿠키가 만들어져 사용자의 브라우저에 배치됩니다. 사용자의 브라우저에 상주하는 제3자 쿠키를 통해 [!DNL Target]은 단일 사용자에 대해 다른 도메인에 일관된 경험을 제공할 수 있습니다.
+또한 Target은 (경우에 따라) 제3자 쿠키를 사용합니다. 다른 도메인에 존재하는 여러 웹 사이트를 소유하고 있고 해당 웹 사이트에서 사용자 여정을 추적하려는 경우 도메인 간 추적을 활용하여 타사 쿠키를 사용할 수 있습니다. [!DNL Target] JavaScript 라이브러리에서 도메인 간 추적을 활성화하면 계정이 타사 쿠키를 사용하기 시작합니다. 사용자가 한 도메인에서 다른 도메인으로 이동할 때 브라우저는 [!DNL Target]의 백엔드 서버와 통신하며 이 프로세스에서는 타사 쿠키가 만들어져 사용자의 브라우저에 배치됩니다. 사용자의 브라우저에 상주하는 제3자 쿠키를 통해 [!DNL Target]은 단일 사용자에 대해 다른 도메인에 일관된 경험을 제공할 수 있습니다.
 
 ## Google의 새로운 쿠키 레서피
 
