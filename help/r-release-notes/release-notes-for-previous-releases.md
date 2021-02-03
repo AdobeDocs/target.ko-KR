@@ -1,13 +1,13 @@
 ---
-keywords: Release notes
-description: Target Standard/Premium 릴리스 노트, Target 플랫폼 및 Target Javascript 라이브러리(at.js)에 대한 릴리스 노트 등 이전 Adobe Target 릴리스에 대한 릴리스 노트입니다. 릴리스 노트는 릴리스의 연도/월을 사용하여 내림차순으로 표시됩니다.
+keywords: 릴리스 노트
+description: 이전 릴리스에 대한 정보는 어디에서 찾을 수 있습니까?
 title: 이전 릴리스에 대한 릴리스 노트
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '30538'
-ht-degree: 84%
+source-wordcount: '30512'
+ht-degree: 85%
 
 ---
 
