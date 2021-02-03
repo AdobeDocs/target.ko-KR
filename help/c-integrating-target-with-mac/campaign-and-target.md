@@ -1,13 +1,13 @@
 ---
-keywords: Overview and Reference
+keywords: 개요 및 참조
 description: Target과 Adobe Campaign 통합을 통해 이메일 컨텐츠를 최적화합니다.
-title: Adobe Campaign과 Target 통합
+title: Adobe Campaign과 통합
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 44%
+source-wordcount: '377'
+ht-degree: 45%
 
 ---
 
