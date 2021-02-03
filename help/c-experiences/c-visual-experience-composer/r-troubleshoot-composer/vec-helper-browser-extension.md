@@ -1,12 +1,12 @@
 ---
-keywords: vec;visual experience composer; vec;iframe;extension;browser
+keywords: vec;시각적 경험 작성기; vec;iframe;확장 프로그램;브라우저
 description: Adobe VEC(시각적 경험 작성기) Helper 브라우저 확장 프로그램을 사용하여 VEC에서 웹 사이트를 안정적으로 로드함으로써 경험을 빠르게 작성 및 QA하기 위한 정보입니다.
-title: Adobe Target VEC(시각적 경험 작성기) Helper 확장 프로그램
+title: VEC(Visual Experience Composer) 도우미 확장
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '884'
 ht-degree: 56%
 
 ---
@@ -47,7 +47,7 @@ Chrome용 VEC 도우미 브라우저 익스텐션은 고객이 이제 [!DNL Targ
 1. **[!UICONTROL Chrome에 추가 > 확장 프로그램 추가]**&#x200B;를 클릭합니다.
 1. [!DNL Target]에서 VEC를 엽니다.
 1. 확장 프로그램을 사용하려면 VEC 또는 [QA 모드](/help/c-activities/c-activity-qa/activity-qa.md)에 있는 동안 Chrome 브라우저의 도구 모음에서 VEC Helper 브라우저 확장 프로그램 아이콘(![VEC Helper 아이콘](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))을 클릭합니다.
-1. (조건부) 웹 페이지에 아직 [!DNL Target] at.js JavaScript 라이브러리가 포함되어 있지 않은 경우 **[!UICONTROL Target 삽입]** 라이브러리 삽입&lt;a1/>을 &quot;설정&quot; 위치로 전환합니다.
+1. (조건부) 웹 페이지에 아직 [!DNL Target] at.js JavaScript 라이브러리가 포함되어 있지 않은 경우 **[!UICONTROL Target 삽입]** 라이브러리 삽입을 &quot;설정&quot; 위치로 전환합니다.
 
    다음 그림은 [!UICONTROL Target 라이브러리 삽입] 설정이 활성화된 VEC Helper를 보여줍니다.
 
