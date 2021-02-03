@@ -1,13 +1,13 @@
 ---
-keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
+keywords: 브라우저;사전 요구 사항;요구 사항;internet explorer;chrome;firefox;safari;android;surface
 description: Adobe Target 애플리케이션 및 콘텐츠 전달은 다양한 브라우저 및 장치에서 테스트되었습니다.
 title: 지원되는 브라우저
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 81%
+source-wordcount: '309'
+ht-degree: 82%
 
 ---
 
