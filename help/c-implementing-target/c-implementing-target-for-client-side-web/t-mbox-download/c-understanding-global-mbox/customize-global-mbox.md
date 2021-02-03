@@ -1,13 +1,13 @@
 ---
-keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
+keywords: 전역 mbox;사용자 지정;글로벌 mbox;edit at.js;at.js;implement at.js
 description: at.js에 대한 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
 title: 글로벌 mbox 사용자 지정
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '160'
-ht-degree: 59%
+source-wordcount: '170'
+ht-degree: 55%
 
 ---
 
