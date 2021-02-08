@@ -1,13 +1,14 @@
 ---
 keywords: at.js 통합;지원되는 통합;지원되지 않는 통합;타사 통합
-description: Target과의 통합과 at.js 관련 지원 상태에 대한 정보입니다.
-title: at.js 통합을 참조하십시오
+description: Target(A4T)용 분석, Experience Cloud ID 서비스 등을 비롯하여 Adobe Target at.js에서 지원되는(지원되지 않음) 통합을 참조하십시오.
+title: at.js는 어떤 통합을 지원합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 91%
+source-wordcount: '575'
+ht-degree: 86%
 
 ---
 
