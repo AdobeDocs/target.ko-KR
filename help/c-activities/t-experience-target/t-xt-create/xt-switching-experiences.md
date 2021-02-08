@@ -1,13 +1,13 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: 프로필이 발전함에 따라 방문자가 XT(경험 타깃팅) 활동에서 경험 간을 전환하는 방법에 대한 정보입니다.
-title: 경험 타깃팅에서 경험 전환
+keywords: 우선순위;경험 작성;우선순위;경험;대상;경험;경험 전환;시각적 경험 작성기
+description: 프로필의 진화에 따라 방문자가 Adobe Target XT(Experience Targeting) 활동에서 경험 간을 전환하는 방법을 알아봅니다.
+title: 방문자가 경험 타깃팅 활동에서 경험을 전환할 수 있습니까?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 96%
 
 ---
 
