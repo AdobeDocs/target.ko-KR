@@ -1,12 +1,12 @@
 ---
-keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation;auto-allocate;auto allocate
-description: Adobe Target의 자동 할당 활동은 두 개 이상의 경험 중에서 우승자를 식별하고 테스트가 계속 실행되고 학습하는 동안 전환율을 높이기 위해 우승자에게 더 많은 트래픽을 자동으로 재할당합니다.
-title: 자동 할당
+keywords: 자동 트래픽 할당;타깃팅;증분 카운트 및 사용자를 활동에 유지;트래픽 할당;자동 할당;자동 할당
+description: 두 개 이상의 경험 중에서 우승자를 식별하고 우승자에게 더 많은 트래픽을 자동으로 재할당하는 Adobe Target의 자동 할당 활동을 사용하는 방법에 대해 알아보십시오.
+title: 자동 할당 활동이란 무엇입니까?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3373'
+source-wordcount: '3386'
 ht-degree: 73%
 
 ---
