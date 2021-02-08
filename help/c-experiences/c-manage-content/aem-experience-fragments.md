@@ -1,12 +1,12 @@
 ---
 keywords: 경험;json;aem;adobe experience manager;adobe target으로 내보내기;경험 조각;조각;XF
-description: Target 활동에서 AEM 경험 조각을 사용하려면 어떻게 해야 합니까?
-title: AEM(Adobe Experience Manager) 경험 구성요소
+description: Adobe Target 활동에서 AEM 경험 조각을 사용하는 방법을 알아봅니다. 사용이 간편하고 강력한 AEM 기능과 Target의 강력한 AI 및 ML 기능을 결합할 수 있습니다.
+title: AEM(Adobe Experience Manager) 경험 조각을 어떻게 사용합니까?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1132'
 ht-degree: 14%
 
 ---
