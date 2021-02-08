@@ -1,13 +1,13 @@
 ---
 keywords: 작업 변경 로그;변경 로그
-description: 변경 로그는 활동을 변경한 사람과 변경한 시간에 대한 기록을 제공합니다.
-title: 활동 변경 로그
+description: Adobe Target의 활동 변경 로그에 액세스하여 활동을 변경한 사람과 변경 사항이 발생한 시기를 확인할 수 있습니다.
+title: 활동 변경 로그는 어떻게 볼 수 있습니까?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 78%
+source-wordcount: '113'
+ht-degree: 53%
 
 ---
 
