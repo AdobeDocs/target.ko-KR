@@ -1,12 +1,12 @@
 ---
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;동적 필터링;동적 필터링;매개 변수 일치
-description: 항목(엔티티)을 요청(API 또는 mbox)의 값과 비교하여 Adobe Target Recommendations에서 동적으로 필터링합니다.
-title: Target Recommendations의 동적 포함 규칙에서 매개 변수 일치별 필터링
+description: 요청(API 또는 mbox)의 값과 항목(엔티티)을 비교하여 Adobe Target Recommendations에서 동적으로 필터링하는 방법을 알아보십시오.
+title: Recommendations 활동에서 매개 변수 일치를 기준으로 필터링하려면 어떻게 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 10%
 
 ---
