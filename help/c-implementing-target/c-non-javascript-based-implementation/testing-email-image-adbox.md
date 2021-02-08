@@ -1,13 +1,14 @@
 ---
 keywords: email;adbox;email image adbox
-description: Adobe Target을 사용하여 이메일에 있는 이미지를 동적으로 테스트하고 이메일을 열면 해당 이미지를 즉각적으로 변경할 수 있습니다.
-title: 이메일 이미지 Adbox 테스트
+description: Adobe Target을 사용하여 이메일의 이미지를 동적으로 테스트하고 이메일을 열면 해당 이미지를 신속하게 변경하는 방법을 살펴봅니다.
+title: 이메일 이미지 Adbox를 테스트하려면 어떻게 합니까?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '415'
-ht-degree: 93%
+source-wordcount: '422'
+ht-degree: 90%
 
 ---
 
