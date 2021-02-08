@@ -1,13 +1,13 @@
 ---
 keywords: 대상;대상 규칙;대상 만들기;대상 작성;대상 타깃팅;보고 대상;보고서 대상;세그먼트;사용자 지정 프로필 매개 변수;대상 정의;대상 목록
-description: Adobe Target의 대상은 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정합니다.
-title: 대상자 만들기
+description: Adobe Target에서 대상 페이지를 사용하는 방법과 대상 세부 사항 및 사용 정보가 포함된 대상 정의 카드를 보는 방법을 알아봅니다.
+title: 대상 목록을 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 95%
+source-wordcount: '911'
+ht-degree: 92%
 
 ---
 
