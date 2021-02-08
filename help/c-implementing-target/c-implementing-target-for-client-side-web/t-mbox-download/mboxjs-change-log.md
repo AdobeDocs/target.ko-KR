@@ -1,13 +1,14 @@
 ---
 keywords: mbox.js 변경 사항;mbox.js 버전
-description: 이 페이지에는 각 mbox.js 버전에 대한 변경 사항이 표시됩니다.
-title: mbox.js 버전 세부 정보
+description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
+title: mbox.js의 각 버전에 포함되는 것은?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2397'
-ht-degree: 95%
+source-wordcount: '2420'
+ht-degree: 94%
 
 ---
 
