@@ -1,13 +1,14 @@
 ---
 keywords: 보안;보안 정책
-description: 데이터 및 Adobe Target 경험의 보안을 강화하기 위해 Adobe에서 구현한 심층적인 접근 방식 및 보안 절차에 대한 정보입니다.
-title: 보안 개요
+description: Adobe이 데이터 및 Adobe Target 경험의 보안을 강화하는 데 사용하는 절차에 대해 알아봅니다. Adobe Target 보안 개요 백서를 다운로드합니다.
+title: Target은 내 데이터의 보안을 어떻게 처리합니까?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 80%
+source-wordcount: '165'
+ht-degree: 63%
 
 ---
 
