@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;네트워크;타겟 네트워크;isp;도메인 이름;연결 속도;타겟 isp;타겟 도메인 이름;타겟 연결 속도
-description: 네트워크 세부 사항을 기반으로 하여 Adobe Target에서 대상을 만들 수 있습니다.
-title: 대상의 네트워크 옵션
+description: ISP, 도메인 이름 및 연결 속도와 같은 네트워크 세부 사항을 기반으로 Adobe Target에서 대상을 만드는 방법을 알아봅니다.
+title: 네트워크 옵션에 따라 방문자를 Target할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 98%
+source-wordcount: '510'
+ht-degree: 94%
 
 ---
 
