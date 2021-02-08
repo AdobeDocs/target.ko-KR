@@ -1,13 +1,13 @@
 ---
 keywords: 여러 대상;경험 버전;target 경험 버전
-description: Adobe Target A/B 활동에서 동일한 경험의 버전을 다른 대상에 타깃팅할 수 있습니다. 시각적 경험 작성기 또는 양식 기반 경험 작성기에서는 한 경험에 대해 여러 대상을 설정할 수 있습니다.
-title: A/B 테스트의 여러 경험 버전
+description: Adobe Target A/B 활동에서 동일한 경험의 버전을 다른 대상에 타깃팅하는 방법을 알아봅니다.
+title: A/B 활동에서 여러 경험 버전을 사용할 수 있습니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 93%
+source-wordcount: '598'
+ht-degree: 91%
 
 ---
 
