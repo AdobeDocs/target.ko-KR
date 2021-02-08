@@ -1,13 +1,13 @@
 ---
 keywords: analytics for target;a4t;보고 소스로 분석
-description: Analytics를 Target(A4T)의 보고 소스로 사용하면 Target 활동에 대한 Analytics 보고서에 액세스할 수 있습니다.
-title: A4T 보고
+description: Target(A4T)에 Analytics를 사용하는 방법을 알아봅니다. A4T는 Analytics 지표 및 대상 세그먼트를 사용하는 Target 활동에 대한 Analytics 보고서에 대한 액세스 권한을 제공합니다.
+title: A4T에서 보고를 사용하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 36%
+source-wordcount: '688'
+ht-degree: 32%
 
 ---
 
