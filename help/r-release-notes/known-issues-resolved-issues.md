@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '4374'
-ht-degree: 68%
+source-wordcount: '4419'
+ht-degree: 67%
 
 ---
 
@@ -79,7 +79,7 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 * 피드나 API를 통해 업데이트를 받지 못한 후 60일이 지나면 엔티티가 올바르게 만료됩니다. 그러나 만료된 엔티티는 만료 후 카탈로그 검색 색인에서 제거되지 않습니다. (IRI-857)
 * 기준 및 디자인에 대한 &quot;사용 정보&quot; 오버레이는 A/B 및 Experience 타깃팅 활동의 사용을 반영하지 않습니다(TGT-34331).
 * A/B 및 Experience 타깃팅 활동의 Recommendations 오퍼는 Recommendations 트레이의 시각적 미리 보기를 표시하지 않습니다(TGT-33426).
-* API를 통해 생성된 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다. (TGT-35777)
+* API를 통해 만든 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다. 마찬가지로 Target UI에서 이러한 항목을 만든 후 나중에 API를 통해 편집하는 경우 이러한 변경 사항은 Target UI에 반영되지 않습니다. API를 통해 편집한 항목은 수정 내용이 손실되지 않도록 API를 통해 계속 편집해야 합니다.  (TGT-35777)
 * API를 통해 생성된 Recommendations 활동은 사용자 인터페이스에서 볼 수 있지만 API를 통해서만 편집할 수 있습니다.
 * 기준 목록(카드) 보기에 표시된 사용자 지정 기준 피드 상태는 10분마다 새로 고침되며 특수한 상황에서 10분 이상 걸릴 수 있습니다. 사용자 지정 기준 편집 보기에 표시된 상태를 실시간으로 가져오며 상태는 항상 최신입니다. (TGT-35896, TGT-36173)
 * 기준 및 디자인 카드는 사용 중인 활동의 수를 정확하게 표시하지 않습니다. A/B 활동에서 기준이나 디자인을 사용하는 경우 활동에서 디자인 또는 기준을 사용하더라도 카드에는 디자인 또는 기준이 사용되지 않음을 잘못 보여줄 수 있습니다. (TGT-36621, TGT-37217)
