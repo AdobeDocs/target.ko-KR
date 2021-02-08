@@ -1,12 +1,12 @@
 ---
 keywords: 설정;우선순위
-description: Adobe Target은 사용 중인 Target 인터페이스 및 활동 만들기 기능(Visual Experience Composer 또는 Form Based Composer)에 따라 페이지에 다르게 전달할 활동(또는 활동)을 결정합니다.
-title: 우선순위
+description: 어떤 Target 인터페이스와 사용 중인 활동 만들기 기능에 따라 Adobe Target에서 페이지에 다르게 전달할 활동(또는 활동)을 결정하는 방법에 대해 알아보십시오.
+title: Target은 다른 활동에 우선 순위를 어떻게 지정합니까?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1168'
 ht-degree: 87%
 
 ---
