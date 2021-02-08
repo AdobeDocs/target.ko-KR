@@ -1,13 +1,13 @@
 ---
 keywords: 방문자 프로필;대상 방문자 프로필
-description: Adobe Target에서특정 프로필 매개 변수를 충족하는 방문자를 타깃팅할 대상을 만듭니다.
-title: 대상의 방문자 프로필 옵션
+description: Adobe Target에서 대상을 만들어 새 방문자 또는 돌아온 방문자, 카테고리 친화성 등과 같은 특정 프로필 매개 변수를 충족하는 방문자를 타게팅하는 방법을 알아봅니다.
+title: 특정 프로필 매개 변수를 충족하는 방문자를 Target할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '242'
+ht-degree: 83%
 
 ---
 
