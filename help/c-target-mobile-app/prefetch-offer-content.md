@@ -1,13 +1,14 @@
 ---
 keywords: 오퍼;프리페치;iOS;android;sdk;mobile;mobile sdk
-description: Adobe Target 미리 가져오기 기능은 iOS 및 Android Mobile SDK를 사용하여 서버 응답을 캐시하여 가능한 한 적은 시간에 오퍼 컨텐츠를 가져옵니다.
-title: 프리패치 오퍼 콘텐츠
+description: iOS 및 Android Mobile SDK의 Adobe Target 프리페치 기능을 사용하여 서버 응답을 캐시하여 가능한 한 몇 번 오퍼 컨텐츠를 가져올 수 있습니다.
+title: 모바일 앱용 오퍼 컨텐츠를 프리페치할 수 있습니까?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 60%
+source-wordcount: '247'
+ht-degree: 47%
 
 ---
 
