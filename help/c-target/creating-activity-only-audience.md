@@ -1,13 +1,13 @@
 ---
 keywords: 대상;대상 규칙;대상 만들기;대상 생성;활동 전용;활동전용;임시
-description: Adobe Target 내에서 활동을 만들 때 안내가 있는 3단계 워크플로우에서 활동 전용 대상을 만듭니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 대상 라이브러리에 저장되지는 않습니다.
-title: 활동 전용 대상자 만들기
+description: 대상 라이브러리에 저장되지 않고 현재 활동에서 한 번에 사용할 수 있는 활동 전용 대상을 Adobe Target에서 만드는 방법을 알아봅니다.
+title: 한 번만 사용할 대상자를 만들 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 99%
+source-wordcount: '398'
+ht-degree: 91%
 
 ---
 
