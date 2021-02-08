@@ -1,13 +1,13 @@
 ---
 keywords: 요약
-description: 테스트 요약에서는 Adobe Target 다변수 테스트에 대한 시각적 개요를 제공합니다.
-title: 테스트 요약
+description: Adobe Target에서 MVT 활동에 대한 시각적 개요를 제공하는 MVT(다변량 테스트) 활동의 요약을 봅니다.
+title: MVT(Multivariate Test) 활동의 요약을 보려면 어떻게 해야 합니까?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 72%
+source-wordcount: '120'
+ht-degree: 62%
 
 ---
 
