@@ -1,12 +1,13 @@
 ---
 keywords: 구현;허용 목록;흰색 목록;허용 목록에 추가하다허용 목록;가장자리;가장자리;implementation;implementation;whitelist;white list;;edge;edges
-description: 허용 목록에 추가하다 Adobe Target 에지 노드
-title: Target 에지 허용 목록에 추가하다 노드
+description: Adobe Target 가장자리허용 목록에 추가하다를 표시하는 데 도움이 되는 호스트 목록을 봅니다(최종 사용자가 최적의 응답 시간을 보장하는 지리적으로 분산된 서비스 노드).
+title: Target 에지 노드를허용 목록에 추가하다는 어떻게 합니까?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '125'
+source-wordcount: '145'
 ht-degree: 0%
 
 ---
