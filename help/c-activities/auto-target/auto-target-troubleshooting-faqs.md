@@ -1,12 +1,12 @@
 ---
 keywords: 자동 타겟;타깃팅;트래픽 할당;FAQ;문제 해결;문제 해결;트래픽
-description: Adobe Target의 자동 Target 문제 해결 및 FAQ
-title: 자동 Target 문제 해결 및 FAQ
+description: Adobe Target에서 자동 Target 활동에 대한 문제 해결 항목 및 FAQ를 참조하십시오.
+title: 자동 Target 활동을 어떻게 해결할 수 있습니까?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---
