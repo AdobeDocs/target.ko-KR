@@ -1,13 +1,13 @@
 ---
 keywords: 프로필 스크립트;프로필 스크립트 특성;상호 배타적인 활동
-description: 프로필 속성을 사용하여 두 개 이상의 활동을 비교하되 동일한 방문자가 각 활동에 참여하지 못하도록 하는 테스트를 설정할 수 있습니다.
-title: 프로필 스크립트를 사용하여 상호 배타적인 활동 테스트
+description: 프로필 속성을 사용하여 여러 활동을 비교하지만 동일한 방문자가 각 활동에 참여하지 않도록 하는 테스트를 Adobe Target에서 설정하는 방법을 알아봅니다.
+title: 프로필 스크립트를 사용하여 상호 배타적인 활동을 테스트할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 80%
+source-wordcount: '698'
+ht-degree: 76%
 
 ---
 
