@@ -1,13 +1,13 @@
 ---
 keywords: 경험 타깃팅;xt;activity url;url
-description: 활동 URL은 Adobe Target 경험 타깃팅 활동에 사용되는 페이지를 결정하며 활동이 디자인될 때 VEC(Visual Experience Composer) 또는 양식 기반 경험 작성기에서 열립니다.
-title: 활동 URL
+description: Experience Targeting 활동이 Adobe Target을 사용하여 디자인될 때 여는 테스트와 테스트에 사용되는 페이지를 결정하는 활동 URL을 지정하는 방법에 대해 알아보십시오.
+title: 경험 타깃팅(XT) 활동에서 활동 URL은 무엇입니까?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '286'
-ht-degree: 65%
+source-wordcount: '291'
+ht-degree: 63%
 
 ---
 
