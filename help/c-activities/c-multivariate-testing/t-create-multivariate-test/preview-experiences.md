@@ -1,12 +1,12 @@
 ---
 keywords: 다변수;mvt;미리 보기;경험
-description: Adobe Target의 다변수 테스트는 한 페이지의 여러 경험을 비교하므로 각 경험으로 페이지를 미리 보는 것이 유용합니다.
-title: MVT(다변수 테스트용 경험 미리 보기)
+description: VEC(Visual Experience Composer)를 사용하여 Adobe Target의 MVT(다변수 테스트) 활동에서 각 경험을 미리 보는 방법을 알아봅니다.
+title: MVT(다변량 테스트)에 대한 경험을 미리 보는 방법
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '201'
 ht-degree: 68%
 
 ---
