@@ -1,12 +1,12 @@
 ---
 keywords: 고객 관계 관리;고객 레코드 서비스;crs;crm;mbox3rdpartyid;고객 속성;타깃팅;csv;crm;adobe experience cloud people
-description: Adobe Experience Cloud People 서비스의 고객 속성을 사용하여 Adobe Target의 컨텐츠 타깃팅을 위해 고객 관계 관리(CRM) 데이터베이스의 기업 고객 데이터를 사용하는 방법에 대한 정보입니다.
-title: 고객 속성
+description: Adobe Target에서 컨텐츠 타깃팅을 위해 CRM(customer relationship management) 데이터베이스의 기업 고객 데이터를 사용하는 방법을 알아봅니다.
+title: 고객 속성은 무엇이며 이를 어떻게 사용합니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1504'
+source-wordcount: '1502'
 ht-degree: 37%
 
 ---
