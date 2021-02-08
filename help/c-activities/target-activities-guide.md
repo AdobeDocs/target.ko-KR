@@ -1,13 +1,13 @@
 ---
 keywords: 활동 안내서;활동;활동;활동 유형;활동 작업
-description: Adobe Target의 다양한 활동 유형(권장 사항 제외)을 설명하는 대화형 PDF를 다운로드하십시오.
-title: 활동 유형
+description: Adobe Target의 다양한 활동 유형을 설명하는 인터랙티브한 PDF를 다운로드합니다.
+title: Target에서 사용할 수 있는 활동 유형은 무엇입니까?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1467'
-ht-degree: 97%
+ht-degree: 96%
 
 ---
 
