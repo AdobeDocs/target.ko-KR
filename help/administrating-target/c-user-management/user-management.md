@@ -1,13 +1,14 @@
 ---
 keywords: 사용자 추가;사용자 관리;사용자 권한
-description: Adobe Target Standard에서 사용자를 관리하고 Adobe Target Premium에서 엔터프라이즈 속성 및 권한을 관리할 수 있습니다.
-title: 사용자 관리
+description: Adobe Target Standard에서 사용자를 관리하고 Adobe Target Premium에서 엔터프라이즈 속성 및 권한을 관리하는 방법을 알아봅니다.
+title: 사용자 관리를 구성하려면 어떻게 합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '232'
-ht-degree: 20%
+source-wordcount: '239'
+ht-degree: 19%
 
 ---
 
