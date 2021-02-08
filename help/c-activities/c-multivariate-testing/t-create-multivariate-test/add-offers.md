@@ -1,13 +1,13 @@
 ---
 keywords: mvt;다변수 테스트;오퍼;조합
-description: Adobe Target의 VEC(시각적 경험 작성기)를 사용하여 MVT(다변량 테스트)에 포함할 오퍼를 만듭니다.
-title: MVT(다변량 테스트)에서 조합 만들기
+description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하여 MVT(Multivariate Test)에 포함할 오퍼를 만드는 방법을 알아봅니다.
+title: MVT(다변량 테스트)에서 조합을 만들려면 어떻게 합니까?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 93%
+source-wordcount: '511'
+ht-degree: 88%
 
 ---
 
