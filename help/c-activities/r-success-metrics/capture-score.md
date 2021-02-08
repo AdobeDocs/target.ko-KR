@@ -1,13 +1,13 @@
 ---
-keywords: capture score;score
-description: Adobe Target의 캡처 점수 참여 지표는 방문자가 캠페인의 첫 번째 디스플레이 Target 요청을 처음 본 시점부터 사이트에서 방문한 페이지에 할당된 값을 기준으로 집계된 점수를 계산합니다.
-title: 캡처 점수
+keywords: 캡처 점수;점수
+description: 사이트에서 방문한 페이지에 할당된 값을 기반으로 집계된 점수를 계산하는 Adobe Target의 캡처 점수 참여 지표에 대해 알아봅니다.
+title: 캡처 점수 지표란 무엇입니까?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 50%
+source-wordcount: '765'
+ht-degree: 51%
 
 ---
 
