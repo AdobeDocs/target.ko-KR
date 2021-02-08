@@ -1,13 +1,14 @@
 ---
 keywords: mbox.js faq;mbox.js 자주 묻는 질문;document.write;tt.omtrdc.net;파서 차단
-description: mbox.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
-title: mbox.js FAQ
+description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
+title: Target mbox.js에 대한 몇 가지 FAQ는 무엇입니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '408'
-ht-degree: 80%
+source-wordcount: '433'
+ht-degree: 73%
 
 ---
 
