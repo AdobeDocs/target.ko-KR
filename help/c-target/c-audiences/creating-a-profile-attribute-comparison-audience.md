@@ -1,13 +1,13 @@
 ---
 keywords: 대상;성향;프로필 속성;비교하기;비교;대상 만들기;대상 작성
-description: 타겟 대상 라이브러리에 대한 두 프로필 속성 또는 활동 전용 대상의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
-title: 프로필 속성 비교 대상 만들기
+description: Target 대상 라이브러리 또는 활동 전용 대상의 2개의 프로필 속성을 비교하기 위해 대상을 정의하는 방법을 알아봅니다.
+title: 대상에서 사용할 2개의 프로필 속성을 비교할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 99%
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 
