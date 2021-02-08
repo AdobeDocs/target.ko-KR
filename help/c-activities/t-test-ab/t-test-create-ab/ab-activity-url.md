@@ -1,13 +1,13 @@
 ---
-keywords: activity url;url;different url
-description: 활동 URL은 테스트에 사용되는 페이지를 결정하며 Adobe Target을 사용하여 테스트를 디자인할 때 열립니다.
-title: 활동 URL
+keywords: 활동 url;url;다른 url
+description: 테스트에 사용되고 Adobe Target을 사용하여 테스트를 디자인할 때 열리는 페이지를 결정하는 활동 URL을 지정하는 방법에 대해 알아보십시오.
+title: A/B 활동에서 활동 URL은 무엇입니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 78%
+source-wordcount: '314'
+ht-degree: 73%
 
 ---
 
