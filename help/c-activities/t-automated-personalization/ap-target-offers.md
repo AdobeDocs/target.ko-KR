@@ -1,14 +1,14 @@
 ---
 keywords: 자동화된 개인화;오퍼;대상;대상;타깃팅 규칙;타깃팅
-description: 자동화된 개인화 활동에서는 오퍼에 대해 특정 대상을 지정할 수 있습니다.
-title: 'Automated Personalization 오퍼 '
+description: Adobe Target에서 AP(Automated Personalization) 활동을 사용하여 특정 대상자에게 개별 오퍼를 타깃팅하는 방법을 알아봅니다.
+title: Automated Personalization에서 제공하는 Target은 어떻게 할 수 있습니까?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: '372'
+ht-degree: 87%
 
 ---
 
