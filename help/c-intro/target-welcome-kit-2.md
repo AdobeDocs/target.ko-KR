@@ -1,12 +1,12 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target 시작 키트 - 2장 - Target 개요
-title: 환영 키트 - 2장 개요
+description: Adobe Target을 한 차원 높은 수준으로 살펴보십시오. 사용 가능한 활동, 채널, 구현, 통합 등에 대해 알아봅니다.
+title: Target에 대한 고급 소개는 어디에서 찾을 수 있습니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2510'
+source-wordcount: '2520'
 ht-degree: 16%
 
 ---
