@@ -1,13 +1,13 @@
 ---
-keywords: targeting;collisions;conflicts
-description: Adobe Target의 활동 개요 페이지에 있는 충돌 탭에는 사이트에서 발생한 활동이 나열됩니다.
-title: 활동 충돌
+keywords: 타게팅;충돌;충돌;conflicts;conflicts
+description: 컨텐츠를 동일한 페이지로 전달하도록 여러 활동을 설정하면 충돌이 발생합니다. Adobe Target 사용 시 충돌을 피하는 방법을 알아봅니다.
+title: 활동 충돌을 피하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 83%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
