@@ -1,13 +1,13 @@
 ---
 keywords: 타게팅;성공;전환 지표;페이지 점수 지표;페이지 보기 지표;매출 지표;사이트 체류 시간;예상 값;고급 설정;고급 설정;종속;증분 카운트 및 사용자 유지;증분 카운트 및 사용자 유지;다시 입력 허용;증분 카운트, 해제 사용자 및 재입력 허용;증분 카운트, 사용자 및 막대
-description: Adobe Target에서 성공 지표는 활동의 성공을 측정하는 데 사용되는 매개 변수입니다. 성공 지표에는 타겟 활동에 주어진 경험 또는 오퍼의 성공을 결정할 수 있는 주요 비즈니스 정책이 포함되어 있습니다.
-title: 성공 지표를 참조하십시오
+description: 활동의 성공을 확인하는 데 도움이 되는 Adobe Target의 성공 지표에 대해 알아봅니다. 성공 지표에는 전환, 매출, 페이지 보기, 사용자 지정 점수 및 사이트에서 보낸 시간이 포함됩니다.
+title: 성공 지표란?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 46%
+source-wordcount: '1173'
+ht-degree: 44%
 
 ---
 
