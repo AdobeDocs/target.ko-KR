@@ -1,13 +1,14 @@
 ---
-keywords: global mbox;target classic;use global mbox from target classic
-description: 기본적으로, Target Standard에서는 target-global-mbox라는 글로벌 mbox를 만들어 Target Standard에서 만들어진 활동들 실행하는 데 사용합니다. 하지만, 이미 페이지에서 레거시 구현에 대한 mbox를 만든 경우, Target Standard 활동에 이 mbox를 사용할 수 있습니다.
-title: 이전 구현에서 글로벌 mbox를 사용
+keywords: 글로벌 mbox;target classic;target classic의 글로벌 mbox 사용
+description: 기존 구현을 위해 페이지에 글로벌 mbox를 이미 만든 경우 Adobe Target 활동에 기존 글로벌 mbox를 사용하는 방법을 알아봅니다.
+title: 기존 구현에서 글로벌 mbox를 사용할 수 있습니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '309'
-ht-degree: 50%
+source-wordcount: '303'
+ht-degree: 36%
 
 ---
 
