@@ -1,13 +1,13 @@
 ---
-keywords: 권장 사항
-description: Analytics를 Target(A4T)의 보고 소스로 설정할 때 데이터 수집 프로세스에 몇 가지 변경 사항이 발생합니다.
-title: Analytics를 보고 소스(A4T)로 구현하기 전에
+keywords: Recommendations
+description: 이 통합을 구현하기 전에 Analytics for Target(A4T)의 구현 요구 사항과 고려해야 할 사항에 대해 알아봅니다.
+title: A4T를 구현하기 전에 무엇을 알아야 합니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '898'
-ht-degree: 52%
+source-wordcount: '896'
+ht-degree: 50%
 
 ---
 
