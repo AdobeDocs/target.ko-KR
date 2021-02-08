@@ -1,12 +1,12 @@
 ---
 keywords: multi-value;attributes;recommendations;multi-value;multi-value;multi-value
-description: 특수 다중 값 연산자를 사용하는 Adobe Target Recommendations의 다중 값 필드 작업에 대한 정보입니다.
-title: Target Recommendations에서 다중 값 특성 작업
+description: Adobe Target Recommendations에서 여러 배우를 사용하여 동영상을 추천할 때와 같이 특수한 다중 값 연산자를 사용하여 여러 값 필드를 사용하는 방법을 알아봅니다.
+title: Recommendations에서 다중 값 속성을 사용할 수 있습니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
