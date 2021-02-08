@@ -1,13 +1,13 @@
 ---
 keywords: 개요 및 참조
-description: 방문자 프로필에는 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방식에 대한 정보가 포함되어 있습니다.
-title: 방문자 프로필
+description: 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방법에 대한 정보가 포함된 방문자 프로필에 대해 자세히 알아보십시오.
+title: 방문자 프로필이란 무엇입니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '106'
-ht-degree: 100%
+source-wordcount: '112'
+ht-degree: 78%
 
 ---
 
