@@ -1,13 +1,13 @@
 ---
 keywords: 개요 및 참조;작업
-description: Target을 이해하고 사용하려면 어떻게 해야 합니까?
-title: 주요 개념
+description: Adobe Target의 기본 사항을 살펴보십시오. Target, 활동 유형 및 기타 기능을 알기 좋은 곳입니다.
+title: Target은 어떻게 사용합니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1507'
-ht-degree: 98%
+source-wordcount: '1525'
+ht-degree: 96%
 
 ---
 
