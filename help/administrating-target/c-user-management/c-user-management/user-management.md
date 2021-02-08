@@ -1,12 +1,13 @@
 ---
-keywords: add user;manage user;user permissions
-description: Adobe Target에 사용자를 추가하고 Adobe Admin Console에서 해당 권한을 관리합니다.
-title: 사용자
+keywords: 사용자 추가;사용자 관리;사용자 권한
+description: Adobe Admin Console을 사용하여 Adobe Target에서 바로 사용자와 권한을 관리하는 방법을 알아봅니다.
+title: 사용자를 추가하고 권한을 관리하려면 어떻게 해야 합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '892'
+source-wordcount: '910'
 ht-degree: 46%
 
 ---
