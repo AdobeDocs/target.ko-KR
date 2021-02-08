@@ -1,13 +1,14 @@
 ---
 keywords: mbox 생성;mbox 생성;mbox 만들기;at.js;함수;함수
-description: Adobe Target at.js JavaScript 라이브러리에 대한 mboxCreate(mbox,params) 함수 정보입니다.
-title: Mboxcreate(Mbox,Params) - at.js 1.x
+description: Adobe Target at.js JavaScript 라이브러리에 대한 mboxCreate() 함수를 사용하여 mboxDefault 클래스 이름을 가진 가장 가까운 DIV에 오퍼를 적용합니다. (at.js 1.x)
+title: mboxCreate() 함수를 사용하려면 어떻게 합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '191'
-ht-degree: 97%
+source-wordcount: '204'
+ht-degree: 85%
 
 ---
 
