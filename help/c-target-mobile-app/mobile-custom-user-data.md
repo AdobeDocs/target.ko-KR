@@ -1,13 +1,14 @@
 ---
 keywords: 모바일 앱;모바일 앱 데이터 전송;target 모바일 앱;모바일 사용자 지정 사용자 데이터;모바일 앱 사용자 지정 데이터
-description: 위치 또는 사용자에 대한 추가 정보를 이름-값 쌍으로 Target에 보낼 수 있습니다.
-title: IOS - 사용자 지정 사용자 데이터 보내기
+description: 사용자 지정 대상을 작성하는 데 도움이 되는 이름-값 쌍으로 위치 또는 사용자에 대한 추가 정보를 Adobe Target으로 보내는 방법을 알아봅니다.
+title: iOS 앱에서 사용자 지정 사용자 데이터를 어떻게 전송합니까?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 98%
+source-wordcount: '353'
+ht-degree: 90%
 
 ---
 
