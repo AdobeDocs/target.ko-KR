@@ -1,13 +1,13 @@
 ---
 keywords: 자동 개인화;오퍼;보고;그룹;reporting group
-description: Adobe Target의 Automated Personalization(AP) 활동에서 보고 그룹 사용에 대한 정보입니다.
-title: AP(Automated Personalization) 활동의 오퍼 보고 그룹
+description: Adobe Target Automated Personalization 활동에서 오퍼 보고 그룹을 사용하는 방법을 알아봅니다. 보고 그룹을 사용하는 Target은 각 보고 그룹에 대해 하나의 개인화 모델만 만듭니다.
+title: Automated Personalization 활동에서 오퍼 보고 그룹을 사용할 수 있습니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 63%
+source-wordcount: '448'
+ht-degree: 61%
 
 ---
 
