@@ -1,13 +1,14 @@
 ---
 keywords: 모바일 앱;모바일 앱 위치;target 모바일 앱;모바일 target 위치;모바일 앱 성공 지표
-description: 모바일 앱에서 Target을 사용하려면 위치 및 성공 지표를 만드십시오.
-title: IOS - Target 위치 및 성공 지표 만들기
+description: Adobe Target을 사용하여 앱을 개인화하고 최적화할 수 있도록 iOS 앱에서 위치 및 성공 지표를 만드는 방법을 소개하는 샘플 코드를 확인할 수 있습니다.
+title: iOS 앱에서 Target 위치 및 성공 지표를 만들려면 어떻게 합니까?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 91%
+source-wordcount: '420'
+ht-degree: 83%
 
 ---
 
