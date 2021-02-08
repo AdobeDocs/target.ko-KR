@@ -1,13 +1,13 @@
 ---
 keywords: 경험 타깃팅;랜딩 페이지 테스트
-description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다.
-title: 시각적 경험 작성기에 사용된 요소 선택기 (VEC)
+description: '요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현식입니다. Adobe Target VEC(Visual Experience Composer)에서 요소 선택기를 사용하는 방법을 알아봅니다. '
+title: VEC(Visual Experience Composer)에서 요소 선택기를 사용할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 91%
+source-wordcount: '428'
+ht-degree: 82%
 
 ---
 
