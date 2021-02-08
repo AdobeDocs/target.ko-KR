@@ -1,13 +1,14 @@
 ---
 keywords: at.js 릴리스;at.js 버전;단일 페이지 앱;spa;크로스 도메인;cross-도메인
-description: Adobe Target at.js 1.*x*에서 at.js 버전 2.0.0으로 업그레이드하는 방법에 대한 자세한 정보
-title: at.js 버전 1.x에서 버전 2.x로 업그레이드
+description: Adobe Target at.js 1.x에서 at.js 2.x로 업그레이드하는 방법을 살펴보십시오.시스템 흐름 다이어그램을 살펴보고, 새 함수와 사용되지 않는 함수 등에 대해 알아봅니다.
+title: at.js 버전 1.x에서 버전 2.x로 업그레이드하려면 어떻게 합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2757'
-ht-degree: 92%
+source-wordcount: '2770'
+ht-degree: 91%
 
 ---
 
