@@ -1,13 +1,13 @@
 ---
-keywords: form-based experience composer;form-based composer;refinements
-description: Adobe Target 양식 기반 경험 작성기는 비시각적 경험을 만듭니다.
-title: 양식 기반 경험 작성기
+keywords: 양식 기반 경험 작성기;양식 기반 작성기;세분화
+description: 비시각적 경험을 만들기 위해 Adobe Target 양식 기반 경험 작성기를 사용하는 방법을 알아봅니다. VEC를 사용할 수 없거나 사용할 수 없는 경우 이 컴포저를 사용합니다.
+title: 양식 기반 Experience Composer는 어떻게 사용합니까?
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 68%
+source-wordcount: '801'
+ht-degree: 66%
 
 ---
 
