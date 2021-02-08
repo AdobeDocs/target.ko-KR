@@ -1,12 +1,12 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target 환영 키트 - 3장 - 테스트 및 개인화 아이디어 개발
-title: 환영 키트 - 3장 - 테스트 및 개인화 아이디어 개발
+description: Adobe Target에서 활동을 창출하기 전에 테스트 및 개인화 아이디어를 향상시키기 위한 검증된 프로세스를 요약한 6단계를 살펴볼 수 있습니다.
+title: 테스트 및 개인화 아이디어를 어떻게 개발할 수 있습니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
