@@ -1,13 +1,13 @@
 ---
-keywords: multi-page;journey testing;multipage activity
-description: Adobe Target의 여러 페이지 활동을 사용하면 각 페이지에 맞는 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 만들 수 있습니다.
-title: 다중 페이지 활동
+keywords: 다중 페이지;여정 테스트;다중 페이지 활동
+description: Adobe Target에서 여러 페이지 활동을 만드는 방법을 살펴보고 각 페이지에 맞는 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 만들 수 있습니다.
+title: 여러 페이지 활동을 만들려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '364'
-ht-degree: 87%
+source-wordcount: '378'
+ht-degree: 85%
 
 ---
 
