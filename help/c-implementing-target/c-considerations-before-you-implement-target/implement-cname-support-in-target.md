@@ -1,13 +1,14 @@
 ---
 keywords: 클라이언트 지원;CNAME;인증서 프로그램;표준 이름;쿠키;인증서;amc;adobe 관리 인증서;디지커드;도메인 제어 유효성 검사;dcv
-description: Adobe Target에서 CNAME(표준 이름) 지원을 구현하기 위한 Adobe Client Care 작업 정보입니다.
-title: CNAME
+description: Adobe 클라이언트 지원팀과 협력하여 Adobe Target에서 CNAME(표준 이름) 지원을 구현하여 광고 차단 문제 또는 ITP 관련 쿠키 정책을 처리합니다.
+title: Target에서 CNAME을 어떻게 사용합니까?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1225'
-ht-degree: 2%
+source-wordcount: '1237'
+ht-degree: 0%
 
 ---
 
