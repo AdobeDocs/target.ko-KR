@@ -1,13 +1,13 @@
 ---
 keywords: 콘텐트 라이브러리;자산;검색;필터
-description: 키워드로 자산을 검색하려면 어떻게 해야 합니까?
-title: 컨텐츠 검색
+description: Adobe Target 오퍼 라이브러리에서 코드 및 이미지 오퍼를 검색하는 방법을 알아봅니다.
+title: 오퍼 라이브러리에서 컨텐츠를 검색하려면 어떻게 해야 합니까?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '259'
+ht-degree: 12%
 
 ---
 
