@@ -1,13 +1,13 @@
 ---
 keywords: 제외
-description: 제품 또는 컨텐츠가 방문자에게 추천되지 않도록 하려면  [!DNL Adobe Target Recommendations] 에서 제외를 만드십시오.
-title: 제외
+description: Adobe Target Recommendations에서 제품 또는 컨텐츠가 방문자에게 권장되지 않도록 제외하는 방법을 알아봅니다.
+title: Recommendations 활동에서 제외는 어떻게 사용합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 45%
+source-wordcount: '607'
+ht-degree: 44%
 
 ---
 
