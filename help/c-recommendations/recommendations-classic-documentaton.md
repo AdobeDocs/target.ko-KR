@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations Classic
-description: Adobe Recommendations Classic 설명서입니다.
-title: Adobe Recommendations Classic 설명서
+description: 기존 Adobe Recommendations Classic 문서의 PDF를 다운로드합니다.
+title: Adobe Recommendations Classic의 설명서를 어디에서 찾을 수 있습니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '103'
-ht-degree: 72%
+source-wordcount: '114'
+ht-degree: 62%
 
 ---
 
