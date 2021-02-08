@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;자동 대상;자동 대상;자동 대상;사용 권한;adobe target;
-description: Target 소개
+description: Adobe Target Standard 및 Adobe Target Premium의 기본 사항을 살펴보십시오. Target Premium에는 표준 제품에서 사용할 수 없는 고급 기능이 포함되어 있습니다.
 landing-page-description: 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있습니다.
-title: 소개
+title: Target 소개
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '925'
-ht-degree: 82%
+source-wordcount: '945'
+ht-degree: 80%
 
 ---
 
