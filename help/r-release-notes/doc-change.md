@@ -1,12 +1,12 @@
 ---
 keywords: 대상 설명서 변경 로그;설명서 업데이트;새 주제;편집;업데이트;update
-description: 설명서는 어떻게 변경되었습니까?
-title: 설명서 변경 내용
+description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 변경 사항을 항상 최신 상태로 유지할 수 있습니다.
+title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3487'
+source-wordcount: '3500'
 ht-degree: 29%
 
 ---
