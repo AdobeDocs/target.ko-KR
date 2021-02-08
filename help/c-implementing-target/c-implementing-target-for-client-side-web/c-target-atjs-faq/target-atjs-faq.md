@@ -1,13 +1,14 @@
 ---
 keywords: at.js faq;at.js 자주 묻는 질문;faq;깜박임;로더;페이지 로더;교차 도메인;파일 크기;파일크기;x-domain;at.js 및 mbox.js;x 전용;교차 도메인;safari;단일 페이지 앱;누락된 선택기;선택기;단일 페이지 애플리케이션;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip 주소;httponly;HttpOnly;보안;ip;쿠키 도메인
-description: Adobe Target at.js JavaScript 라이브러리에 대해 자주 묻는 질문과 대답(FAQ)입니다.
-title: at.js FAQ
+description: Adobe Target at.js JavaScript 라이브러리에 대한 질문과 답변을 확인할 수 있습니다.
+title: at.js에 대한 일반적인 질문과 답변은 무엇입니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2698'
-ht-degree: 94%
+source-wordcount: '2703'
+ht-degree: 93%
 
 ---
 
