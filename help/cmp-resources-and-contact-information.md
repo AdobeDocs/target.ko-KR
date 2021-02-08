@@ -1,13 +1,13 @@
 ---
 keywords: 연락처;법률;기술 지원;기술 지원;지원;서비스;기능;청구;피드백
-description: Target 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 Target에 대한 도움이 필요할 때 Adobe에 문의하는 방법에 대한 정보입니다.
-title: 리소스 및 연락처 정보
+description: Target에 대한 도움이 필요한 경우 Adobe Target 기능과 Adobe에 연락하는 방법에 대한 자세한 내용을 살펴볼 수 있는 추가 리소스를 살펴볼 수 있습니다.
+title: Target 관련 리소스와 연락처 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 79%
+source-wordcount: '1230'
+ht-degree: 76%
 
 ---
 
