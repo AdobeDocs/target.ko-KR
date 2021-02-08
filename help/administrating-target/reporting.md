@@ -1,13 +1,14 @@
 ---
 keywords: 보고서;보고서;보고;Experience Cloud 솔루션;표준 시간대;통화;제외 IP;예상 매출 상승률;매출 증가;세밀한 조정이 적용된 우선 순위;보고서;보고;보고;경험 클라우드 솔루션;표준 시간대;통화;통화;제외 IP;매출 증가율;매출 증가율;매출 증가율;세밀한 지정
-description: 전체 Target 계정에 적용되는 Adobe Target 보고에 사용할 일반 설정을 구성합니다. 보고에 사용할 Adobe Experience Cloud 솔루션(Target 또는 Analytics), 보고에 사용할 표준 시간대 및 통화 형식, 보고에서 제외할 IP 주소, 보고에 예상 매출액 상승도와 세밀하게 분류된 우선 순위를 표시할지 여부를 구성할 수 있습니다.
-title: 보고 구성
+description: Target 또는 Adobe Analytics을 보고 소스로 사용하고, 기본 표준 시간대 및 통화 형식을 지정하고, 보고에서 제외할 IP 주소를 추가하는 등
+title: Target에서 보고를 구성하려면 어떻게 합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 29%
+source-wordcount: '698'
+ht-degree: 30%
 
 ---
 
