@@ -1,12 +1,12 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target 환영 키트 - 8장 - 활동 결과 전달
-title: 환영 키트 - 8장 - 활동 결과 전달
+description: Adobe Target 활동과 성공을 전달하는 데 도움이 되도록 개요 결과 템플릿을 사용하십시오.
+title: Target 활동의 결과를 조직과 어떻게 공유할 수 있습니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
