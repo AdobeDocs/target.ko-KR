@@ -1,13 +1,14 @@
 ---
 keywords: 구현;구현
-description: Adobe Target 사용을 시작하기 전에 먼저 사이트에서 구현하고, 몇 가지 기본 개념과 용어를 이해하고, Target이 어떻게 작동하고 인프라와 통합되는지를 숙지하고, Target 시스템에서 어떻게 방문자를 추적하는지 이해해야 합니다.
-title: 구현
+description: 사이트에서 Adobe Target을 구현하는 방법을 알아봅니다. 전역 설정, 구현 방법(AEP Web SDK 또는 at.js) 등을 설정합니다.
+title: 내 사이트에서 Target을 구현하려면 어떻게 합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 28%
+source-wordcount: '143'
+ht-degree: 2%
 
 ---
 
