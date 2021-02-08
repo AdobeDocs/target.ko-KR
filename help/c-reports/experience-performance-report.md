@@ -1,13 +1,13 @@
 ---
 keywords: 다변량 테스트;mvt;경험 성과 보고서
-description: 경험 성과 보고서는 활동에서 각 경험의 성과를 보여줍니다. 이 보고서에는 참여자 수, 전환율, 상승도, 신뢰도에 대한 정보가 포함됩니다.
-title: 경험 성과 보고서(MVT)
+description: 활동에서 각 경험이 수행되는 방식을 보여주는 Adobe Target 경험 타깃팅 활동에 대한 경험 성과 보고서를 사용하는 방법에 대해 알아봅니다.
+title: 다변수 테스트에 경험 성능 보고서를 사용하려면 어떻게 해야 합니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 99%
+source-wordcount: '333'
+ht-degree: 89%
 
 ---
 
