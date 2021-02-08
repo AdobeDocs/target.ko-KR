@@ -1,13 +1,13 @@
 ---
-keywords: Multivariate Tests;troubleshoot;troubleshooting;mvt
-description: 이 항목에서는 Adobe Target에서 MVT 테스트를 디자인할 때 발생할 수 있는 몇 가지 문제를 해결하기 위한 제안을 제공합니다.
-title: 다변량 테스트 문제 해결
+keywords: 다변수 테스트;문제 해결;문제 해결;mvt
+description: 제안 솔루션과 함께 Adobe Target에서 MVT(Multivariate Test) 활동을 사용할 때 발생할 수 있는 잠재적인 문제를 살펴볼 수 있습니다.
+title: 다변량 테스트 문제를 어떻게 해결합니까?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 45%
+source-wordcount: '176'
+ht-degree: 42%
 
 ---
 
