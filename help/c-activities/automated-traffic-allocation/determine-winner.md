@@ -1,12 +1,12 @@
 ---
 keywords: 자동 트래픽 할당;타깃팅;수상자;통계적 보장;신뢰;결정 승자;리프트;신뢰도;기본값;기본 경험;자동 할당
-description: 향상도 및 신뢰도를 포함한 중요한 지표를 검사하여 Adobe Target에서 A/B 자동 할당 활동의 결과를 해석합니다.
-title: 자동 할당 보고서 해석
+description: 상승도와 신뢰도를 포함한 중요한 지표를 검사하여 Adobe Target에서 A/B 자동 할당 활동의 결과를 해석하는 방법을 알아봅니다.
+title: 자동 할당 보고서를 어떻게 해석합니까?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1136'
 ht-degree: 46%
 
 ---
