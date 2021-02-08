@@ -1,13 +1,14 @@
 ---
 keywords: 시각적 경험 컴포저;기본 url;향상된 경험 작성기;eec;혼합 컨텐트;경험 스냅숏;모바일 보기 포트;css 선택;visual experience composer;visual experience composer;css
-description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 Adobe Target VEC(Visual Experience Composer)를 구성합니다.
-title: Visual Experience Composer(Vec) 구성
+description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 Adobe Target VEC(Visual Experience Composer)를 구성하는 방법에 대해 알아보십시오.
+title: VEC(Visual Experience Composer)를 구성하려면 어떻게 합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '712'
-ht-degree: 50%
+source-wordcount: '718'
+ht-degree: 49%
 
 ---
 
