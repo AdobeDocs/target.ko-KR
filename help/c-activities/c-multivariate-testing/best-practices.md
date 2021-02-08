@@ -1,13 +1,13 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 우수 사례;mvt 우수 사례;mvt 조합;mvt 보고서
-description: Adobe Target에서 다변량 테스트 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 데 도움이 되는 팁입니다.
-title: Adobe Target을 사용한 다변량 테스트 모범 사례
+description: Adobe Target에서 다변수 테스트 활동을 만들고 실행할 때 발생할 수 있는 성능 향상, 문제 방지 및 알려진 문제를 수정하는 방법에 대해 알아보십시오.
+title: 다변수 테스트에 대한 우수 사례는?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '629'
-ht-degree: 95%
+source-wordcount: '627'
+ht-degree: 91%
 
 ---
 
