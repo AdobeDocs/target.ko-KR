@@ -1,13 +1,13 @@
 ---
 keywords: 트래픽 견적 도구;자동 개인화;ap;estimate 트래픽
-description: 트래픽 견적 도구는 Adobe Target 활동이 성공하기에 충분한 트래픽이 있는지 여부를 알 수 있는 피드백을 제공합니다.
-title: 성공에 필요한 트래픽 예측
+description: Adobe Target Automated Personalization 활동이 성공할 수 있는 충분한 트래픽이 있는지 확인할 수 있는 트래픽 견적 도구를 사용하는 방법에 대해 알아보십시오.
+title: Automated Personalization 활동에 필요한 트래픽은 얼마입니까?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 23%
+source-wordcount: '746'
+ht-degree: 22%
 
 ---
 
