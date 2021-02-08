@@ -1,12 +1,12 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target 시작 키트 - 1장 - 소개
-title: 환영 키트 - 1장 - 소개
+description: Adobe Target을 사용하여 최적화 및 개인화 프로그램을 바로 시작할 수 있습니다. Adobe Target Welcome Kit은 출발점이 좋습니다.
+title: Target을 시작하려면 어떻게 해야 합니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '376'
 ht-degree: 0%
 
 ---
