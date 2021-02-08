@@ -4,9 +4,9 @@ description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '3500'
+source-wordcount: '3522'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 8일 | [타겟 모바일 미리 보기](/help/c-target-mobile-app/target-mobile-preview.md) | Adobe Mobile SDK 버전 4용 AndroidManifest.xml 파일에 추가해야 하는 코드 조각을 추가했습니다. |
 | 2월 1일 | [자동화된 개인화 요약 보고서](/help/c-reports/reports-ap.md) | 새 섹션이 추가되었습니다.&quot;FAQ&quot; |
 | 27년 1월 | [리디렉션 오퍼 만들기](/help/c-experiences/c-manage-content/offer-redirect.md) | 주제가 업데이트됨. |
 |  | [원격 오퍼 만들기](/help/c-experiences/c-manage-content/about-remote-offers.md) | 주제가 업데이트됨. |
