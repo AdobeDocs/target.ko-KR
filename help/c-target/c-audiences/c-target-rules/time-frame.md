@@ -1,13 +1,13 @@
 ---
 keywords: 시간대;시작 날짜;종료 날짜;시작/종료 날짜;시간대;타깃팅 일정;주 분할;일 분할;분할
-description: 특정 기간에 사이트를 방문하는 사용자를 타깃팅하는 시작/종료 날짜 및 시간을 추가할 수 있습니다. 또한 주/요일 분할 선택 사항을 설정하여 대상 타깃팅을 위한 반복 패턴을 만들 수도 있습니다.
-title: 대상의 기간 옵션
+description: 시작/종료 날짜 및 시간을 사용하여 특정 기간 동안 사이트를 방문하는 사용자를 타깃팅하는 방법을 알아봅니다. 주 및 일 분할 옵션을 설정할 수도 있습니다.
+title: 특정 시간에 사이트를 방문한 방문자를 Target으로 표시할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
