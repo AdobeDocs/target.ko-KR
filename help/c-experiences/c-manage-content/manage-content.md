@@ -1,12 +1,12 @@
 ---
-keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: 코드 및 이미지 오퍼는 어떻게 관리합니까?
-title: 오퍼
+keywords: 컨텐츠;자산;컨텐츠 관리;오퍼;자산 관리;선택 모드 들어가기;선택 모드
+description: Adobe Target에서 오퍼 라이브러리를 사용하여 코드 및 이미지 오퍼를 관리하는 방법을 알아봅니다.
+title: 코드 및 이미지 오퍼는 어떻게 관리합니까?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '552'
 ht-degree: 37%
 
 ---
