@@ -1,13 +1,13 @@
 ---
-keywords: Create A/B;A/B test;A/B activity;new a/b activity;create a/b
-description: Adobe Target의 시각적 경험 작성기를 사용하여 Target이 활성화된 페이지에서 직접 A/B 테스트 활동을 만들고 Target 내의 페이지 부분을 수정할 수 있습니다.
-title: A/B 테스트 만들기
+keywords: A/B;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
+description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하여 Target 사용 페이지에서 직접 A/B 테스트 활동을 만드는 방법을 알아봅니다.
+title: A/B 테스트를 만들려면 어떻게 합니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '850'
-ht-degree: 63%
+source-wordcount: '864'
+ht-degree: 61%
 
 ---
 
