@@ -1,13 +1,14 @@
 ---
 keywords: 개요 및 참조;webkit
-description: 쿠키 동작은 퍼스트 파티 쿠키, 퍼스트 파티 쿠키가 포함된 타사 쿠키 또는 타사 쿠키만인지 여부에 따라 다릅니다.
-title: mbox.js 쿠키
+description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
+title: mbox.js 쿠키에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1642'
-ht-degree: 94%
+source-wordcount: '1652'
+ht-degree: 92%
 
 ---
 
