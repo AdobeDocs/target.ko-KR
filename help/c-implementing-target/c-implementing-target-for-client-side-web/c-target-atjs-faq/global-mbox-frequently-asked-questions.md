@@ -1,13 +1,14 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;global;global mbox
-description: 글로벌 mbox에 대한 FAQ 목록
-title: 글로벌 mbox FAQ
+keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;글로벌;글로벌 mbox
+description: Adobe Target 글로벌 mbox에 대한 질문과 답변을 확인할 수 있습니다.
+title: 글로벌 Mbox에 대한 Faq는 무엇입니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 100%
+source-wordcount: '314'
+ht-degree: 93%
 
 ---
 
