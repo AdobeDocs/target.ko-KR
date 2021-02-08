@@ -1,13 +1,13 @@
 ---
 keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
-description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe Target Recommendations의 추천 디자인을 사용자 정의할 수 있습니다.
-title: Velocity를 사용하여 디자인 맞춤화
+description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe Target Recommendations에서 추천 디자인을 사용자 정의하는 방법을 살펴봅니다.
+title: Velocity를 사용하여 디자인을 어떻게 사용자 지정할 수 있습니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 61%
+source-wordcount: '1027'
+ht-degree: 60%
 
 ---
 
