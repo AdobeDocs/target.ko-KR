@@ -1,13 +1,13 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: 동일한 페이지에 컨텐츠를 표시하지 않고 다른 페이지로 방문자를 보내려면 Adobe Target의 [URL로 리디렉션] 옵션을 사용합니다.
-title: URL로 리디렉션
+description: 동일한 페이지에 컨텐트를 표시하지 않고 다른 페이지로 방문자를 보내려면 Adobe Target에서 [URL로 리디렉션] 옵션을 사용하는 방법을 알아봅니다.
+title: 페이지를 다른 URL로 리디렉션할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 87%
+source-wordcount: '434'
+ht-degree: 84%
 
 ---
 
