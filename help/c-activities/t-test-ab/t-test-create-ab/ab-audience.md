@@ -1,13 +1,13 @@
 ---
 keywords: 대상;대상 선택;대상 선택;선택기
 description: 대상은 Adobe Target 활동에 입력하는 사이트 방문자를 결정합니다.
-title: 대상 선택
+title: Target A/B 활동에서 대상을 선택하려면 어떻게 합니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 92%
+source-wordcount: '444'
+ht-degree: 90%
 
 ---
 
