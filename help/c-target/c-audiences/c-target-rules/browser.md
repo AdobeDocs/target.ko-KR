@@ -1,13 +1,13 @@
 ---
 keywords: 브라우저 선택 사항;유형;브라우저 유형;브라우저 언어;언어;버전;브라우저 버전
-description: Adobe Target에서 페이지를 방문할 때 특정 브라우저나 특정 브라우저 선택 사항을 사용하는 타겟 사용자에 대한 대상을 만들 수 있습니다.
-title: 브라우저 옵션 대상
+description: Adobe Target에서 대상을 만들어 페이지를 방문할 때 특정 브라우저 또는 특정 브라우저 옵션을 사용하는 사용자를 타게팅하는 방법을 알아봅니다.
+title: 브라우저 유형을 기반으로 방문자를 Target할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 99%
+source-wordcount: '662'
+ht-degree: 94%
 
 ---
 
