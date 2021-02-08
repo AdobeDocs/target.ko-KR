@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;타겟 카테고리;타겟 조건;audience manager;사용자 지정 프로필 매개 변수;방문자 프로필;사용자 지정 사용자 매개 변수;타겟 규칙
-description: 몇 가지 카테고리 중 어느 것에 대해서든 타깃팅할 수 있습니다. 각 카테고리는 각 카테고리에 대한 타깃팅 규칙(또는 그룹)을 만들 수 있는 탭으로 사용됩니다.
-title: 대상의 카테고리
+description: 브라우저, 지역, 네트워크, 운영 체제, 방문자 프로필 등의 카테고리를 사용하여 컨텐츠를 타깃팅하는 방법을 알아봅니다.
+title: 대상 카테고리는 무엇입니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 98%
+source-wordcount: '380'
+ht-degree: 92%
 
 ---
 
