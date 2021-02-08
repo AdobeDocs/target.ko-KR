@@ -1,13 +1,14 @@
 ---
 keywords: 환경;문제 해결;우수 사례;ubox;리디렉션;리디렉션;화이트 리스트;차단 목록에 추가하다블랙 리스트;허용 목록에 추가하다;환경;문제 해결;우수 사례;ubox;redirections;redirect;whitelist;blacklist;blacklist;
-description: Adobe Target에서 손쉽게 관리하고 분리된 보고를 위해 사이트와 프리 프로덕션 환경을 구성할 수 있습니다.
-title: 환경
+description: Adobe Target의 환경을 사용하여 손쉽게 관리하고 분리된 보고를 위해 사이트와 프리 프로덕션 환경을 구성하는 방법을 알아봅니다.
+title: 환경이란 무엇이며 어떻게 사용합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 64%
+source-wordcount: '682'
+ht-degree: 63%
 
 ---
 
