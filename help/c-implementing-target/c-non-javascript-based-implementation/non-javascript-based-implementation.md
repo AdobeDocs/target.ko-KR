@@ -1,13 +1,14 @@
 ---
 keywords: 구현;mbox.js 비javascript;adbox;리디렉터;mbox
-description: AdBox 또는 리디렉터 사용과 같이 비JavaScript 상황에서 Target을 구현하는 방법에 대한 정보입니다.
-title: 이메일 구현
+description: AdBox 또는 리디렉터 사용과 같이 비 JavaScript 시나리오에서 Adobe Target을 구현하는 방법을 알아봅니다.
+title: 이메일에 대한 Target은 어떻게 구현합니까?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 81%
+source-wordcount: '436'
+ht-degree: 77%
 
 ---
 
