@@ -1,13 +1,14 @@
 ---
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;전역 설정;at.js;functions;clientCode;serverDomain;cookiedomain;cookieddomain;cookiedomain;crossDomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenSettings 스타일;defaultContentVisibleStyle;bodyHiddenStyle;bodyHiddenEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServer;optoutEnabled;optout;optout;selectorsPollingTimeout;dataProviders;Providers 하이브리드 개인화;deviceIdLifetime
-description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수 정보입니다.
-title: Targetglobalsettings()
+description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGlobalSettings() 함수를 사용하여 Target UI 또는 REST API를 사용하는 대신 설정을 재정의합니다.
+title: targetGlobalSettings() 함수를 사용하려면 어떻게 합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1736'
-ht-degree: 37%
+source-wordcount: '1753'
+ht-degree: 36%
 
 ---
 
