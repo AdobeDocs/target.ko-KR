@@ -1,13 +1,13 @@
 ---
 keywords: 동적 데이터;자산;데이터;오퍼;개인화된 오퍼;개인 오퍼;토큰 바꾸기
-description: 프로필 값과 활동 정보를 HTML 또는 JSON 오퍼에 직접 어떻게 전달할 수 있습니까?
-title: 오퍼에 동적 데이터 전달
+description: Adobe Target 오퍼에 동적 데이터를 전달하는 방법을 알아봅니다. 동적 오퍼를 사용하고 예와 구현 정보를 보려는 이유를 보여주는 비즈니스 사례를 탐색합니다.
+title: 동적 데이터를 오퍼에 어떻게 전달합니까?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 81%
+source-wordcount: '518'
+ht-degree: 78%
 
 ---
 
