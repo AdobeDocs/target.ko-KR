@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
-description: 중요 속성 보고서에 대한 정보이며 두 전문 보고서 중 하나는 자동화된 개인 설정(AP) 및 Auto-Target(AT) 활동의 사용자가 사용할 수 있습니다.
-title: 중요 속성 보고서
+description: 개인화 모델에 영향을 준 상위 속성과 상대적 중요도를 보여주는 Adobe Target의 중요 속성 보고서를 사용하는 방법을 알아봅니다.
+title: 중요한 속성 보고서란?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 94%
+source-wordcount: '1656'
+ht-degree: 92%
 
 ---
 
