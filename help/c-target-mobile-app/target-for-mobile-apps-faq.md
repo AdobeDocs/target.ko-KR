@@ -1,12 +1,13 @@
 ---
 keywords: 모바일 앱;FAQ;대상 모바일 앱
-description: 모바일 앱용 Adobe Target 관련 FAQ
-title: 모바일 앱용 Target에 대한 FAQ
+description: 모바일 앱용 Adobe Target에 대한 질문과 답변을 확인할 수 있습니다.
+title: 모바일 앱용 Target에 대한 Faq는 무엇입니까?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '300'
+source-wordcount: '306'
 ht-degree: 0%
 
 ---
