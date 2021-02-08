@@ -1,13 +1,13 @@
 ---
 keywords: 대상;대상 규칙;대상 만들기;대상 생성
-description: 사용자 지정된 대상을 만들어 활동에서 사용할 수 있도록 Target 라이브러리에 저장할 수 있습니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수 있습니다.
-title: 대상자 만들기
+description: 사용자 지정된 대상을 만들고 활동에 사용할 수 있도록 Adobe Target 대상 라이브러리에 저장하는 방법을 알아봅니다.
+title: 대상을 빌드하려면 어떻게 해야 합니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 99%
+source-wordcount: '464'
+ht-degree: 94%
 
 ---
 
