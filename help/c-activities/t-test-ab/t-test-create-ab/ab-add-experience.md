@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;경험;경험 추가;경험 추가
-description: Adobe Target의 Adobe Target VEC(Visual Experience Composer)는 페이지에서 경험을 편집하기 위한 시각적 인터페이스를 제공합니다.
-title: 경험 추가를 참조하십시오
+description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하는 방법을 알아봅니다. VEC는 페이지에서 경험을 추가하고 편집하기 위한 시각적 인터페이스를 제공합니다.
+title: Target A/B 활동에서 경험을 추가하려면 어떻게 합니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 82%
+source-wordcount: '481'
+ht-degree: 79%
 
 ---
 
