@@ -1,13 +1,14 @@
 ---
 keywords: 확장 등록;확장 등록;등록 확장;at.js;함수;함수;클라이언트 코드;서버 도메인;globalMbox 이름;globalMbox 자동 생성;시간 초과
-description: Adobe Target at.js JavaScript 라이브러리에 대한 registerExtension() 함수 정보입니다.
-title: Regresextension() - at.js 1.x
+description: 특정 확장을 등록하려면 Adobe Target at.js JavaScript 라이브러리에 registerExtension() 함수를 사용합니다. (at.js 1.x)
+title: registerExtension() 함수를 사용하려면 어떻게 합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 97%
+source-wordcount: '271'
+ht-degree: 90%
 
 ---
 
