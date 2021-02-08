@@ -1,12 +1,12 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target 시작 키트 - 7장 - 첫 번째 Target 활동 만들기 및 실행
-title: 환영 키트 - 7장 - 첫 번째 Target 활동 만들기 및 실행
+description: Adobe Target에서 처음 활동을 시작하여 ROI를 극대화할 수 있습니다.
+title: Target에서 내 첫 활동을 만들어야 해. 어디서 시작합니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
