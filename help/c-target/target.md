@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;대상;백분율 타겟
-description: 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅하는 데 Adobe Target의 대상을 사용합니다.
-title: 대상자
+description: Adobe Target에서 고객을 사용하여 특정 고객에게 다양한 컨텐츠 및 경험을 타깃팅하여 웹 마케팅 활동을 최적화하는 방법을 살펴볼 수 있습니다.
+title: 대상을 사용하여 특정 세그먼트에 서로 다른 컨텐츠를 Target할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '355'
-ht-degree: 99%
+source-wordcount: '357'
+ht-degree: 89%
 
 ---
 
