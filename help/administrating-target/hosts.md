@@ -1,13 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
-description: Adobe Target에서 손쉽게 관리하고 분리된 보고를 위해 사이트와 프리 프로덕션 환경을 구성할 수 있습니다.
-title: 호스트
+keywords: 호스트;호스트;호스트 그룹;문제 해결;우수 사례;ubox;리디렉션;리디렉션;화이트 리스트;;차단 목록에 추가하다 blacklist;host;hosts;
+description: Adobe Target에서 손쉽게 관리하고 분리된 보고를 위해 웹 사이트와 사전 제작 환경을 구성하는 방법을 살펴볼 수 있습니다.
+title: 주최자는 무엇이며 주최자는 어떻게 사용합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1083'
-ht-degree: 25%
+source-wordcount: '1108'
+ht-degree: 24%
 
 ---
 
