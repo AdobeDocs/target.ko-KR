@@ -1,13 +1,13 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;리디렉션;리디렉션 오퍼;adobe-mc-sdid;adobe_mc_ref
-description: 이 주제에서는 Analytics를 Target의 보고 소스로 사용(A4T)할 때의 리디렉션 오퍼 사용에 대한 FAQ 답변을 제공합니다.
-title: 리디렉션 오퍼 - A4T FAQ를 참조하십시오
+description: Analytics for Target(A4T)를 사용할 때 리디렉션 오퍼를 사용하는 것과 관련된 질문에 대한 답변을 찾습니다. A4T를 사용하면 Target 활동에 Analytics 보고를 사용할 수 있습니다.
+title: A4T의 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 94%
+source-wordcount: '1228'
+ht-degree: 91%
 
 ---
 
