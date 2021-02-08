@@ -1,12 +1,12 @@
 ---
 keywords: 자동 트래픽 할당;타깃팅;자동 할당;자동 할당
-description: Adobe Target의 자동 할당 활동은 두 개 이상의 경험 중에서 우승자를 식별하고 테스트가 계속 실행되고 학습하는 동안 전환을 증가시키기 위해 우승자에게 더 많은 트래픽을 자동으로 재할당합니다.
-title: 자동 할당을 사용하면 수동 테스트보다 테스트 결과를 빠르게 얻고 매출을 향상시킬 수 있습니다.
+description: Adobe Target의 자동 할당 활동은 두 개 이상의 경험 중에서 우승자를 식별하고 우승자에게 더 많은 트래픽을 자동으로 재할당하는 방법을 알아봅니다.
+title: 활동을 자동으로 할당하면 결과를 빠르게 얻고 매출을 향상시킬 수 있습니까?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '544'
 ht-degree: 0%
 
 ---
