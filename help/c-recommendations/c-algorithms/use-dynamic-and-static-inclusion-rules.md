@@ -1,13 +1,13 @@
 ---
 keywords: 포함 규칙;포함 기준;권장 사항;새 기준 만들기;프로모션;판촉;동적 필터링;동적;비어 있는 값;필터링 규칙 무시;정적 필터;값으로 필터링;엔티티 속성 일치;프로필 속성 일치;매개 변수 일치;값으로 필터링 정적 필터
-description: 기준 및 프로모션을 위해 Adobe Target Recommendations에서 포함 규칙을 만들고 더 나은 결과를 얻기 위해 동적 또는 정적 필터링 규칙을 추가하는 방법에 대한 정보입니다.
-title: Target Recommendations에서 동적 및 정적 포함 규칙 사용
+description: 기준 및 프로모션을 위해 Adobe Target Recommendations에서 포함 규칙을 만드는 방법을 알아봅니다. 동적 또는 정적 필터링 규칙을 추가하여 더 나은 결과를 얻을 수 있습니다.
+title: Recommendations에서 동적 및 정적 포함 규칙을 어떻게 사용합니까?
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1099'
 ht-degree: 38%
 
 ---
