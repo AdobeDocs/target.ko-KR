@@ -3,8 +3,9 @@ keywords: at.js;2.0;1.x;쿠키
 description: Adobe Target at.js 2.x 및 at.js 1.x에서 쿠키를 처리하는 방법에 대한 자세한 내용
 title: at.js 쿠키
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1821'
 ht-degree: 98%
