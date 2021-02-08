@@ -1,13 +1,13 @@
 ---
 keywords: 부분 데이터;부분적 데이터;A4T;불일치;analytics for target;고립됨;가상 보고서 세트;가상;문제 해결;분리됨;부풀려짐;미지정
-description: Analytics를 보고 소스로 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 데 도움이 되는 정보입니다.
-title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화의 "부분 데이터를 줄이는 우수 사례는 무엇입니까?"를 참조하십시오
+description: Target(A4t)에 대한 Analytics를 사용할 때 부풀려진 방문 및 방문자 카운트의 효과를 최소화하는 방법을 알아봅니다. "부분 데이터"가 무엇이며 이를 줄이는 방법을 알아봅니다.
+title: A4T에서 부풀려진 방문 및 방문자 수를 어떻게 최소화합니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 97%
+source-wordcount: '1375'
+ht-degree: 94%
 
 ---
 
