@@ -1,13 +1,13 @@
 ---
 keywords: 변수;프로필;매개 변수;내장 프로필;메서드;URL 변수;지역 프로필;타사 프로필;mbox 변수;캠페인 변수;고객 속성
-description: 이 페이지에는 프로필 스크립트에 유용한 프로필, 변수 및 매개 변수가 나열됩니다.
-title: 프로필 및 변수 용어집
+description: Adobe Target의 프로필 스크립트에서 유용한 다양한 프로필, 변수 및 매개 변수 목록을 봅니다.
+title: Target에서 사용되는 프로필, 변수 및 매개 변수는 무엇입니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '592'
+ht-degree: 88%
 
 ---
 
