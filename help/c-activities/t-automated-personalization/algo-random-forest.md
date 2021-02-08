@@ -1,13 +1,13 @@
 ---
 keywords: 임의 포리스트;의사 결정 트리;ap;Automated Personalization
-description: 자동화된 개인화와 자동 타겟 모두에서 사용되는 Target의 주 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 Ensemble 방식에서는 Constituent 학습 알고리즘에서 얻을 수 있는 것보다 더 나은 예측 성과를 얻기 위해 여러 학습 알고리즘을 사용합니다. 자동화된 개인화의 Random Forest 알고리즘은 학습 시 다수의 의사 결정 트리를 만들어 운용되는 분류 또는 회귀 방법입니다.
-title: Random Forest 알고리즘
+description: Adobe Target에서 Automated Personalization(AP) 및 자동 Target 활동 모두에서 무작위 포리스트 알고리즘을 사용하는 방법을 알아봅니다.
+title: Target은 임의 포리스트 알고리즘을 어떻게 사용합니까?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 97%
+source-wordcount: '1419'
+ht-degree: 95%
 
 ---
 
