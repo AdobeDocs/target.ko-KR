@@ -1,13 +1,13 @@
 ---
 keywords: 활동 목록;활동;활동;활동 유형;편집 활동;활동 작업;활동 속성;활동 목록 필터;활동 제한;개인화;activities list;activation list;activation limits;personalization
-description: Adobe Target의 활동을 통해 특정 대상에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트할 수 있습니다
-title: 특정 대상에 맞게 컨텐츠 개인화 및 페이지 디자인 테스트
+description: Adobe Target의 활동을 통해 특정 대상에 맞게 컨텐츠를 개인화하고 페이지 디자인을 테스트하는 방법을 알아봅니다
+title: Target을 사용하여 컨텐츠를 개인화하고 페이지 디자인을 테스트하려면 어떻게 해야 합니까?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2105'
-ht-degree: 97%
+source-wordcount: '2109'
+ht-degree: 96%
 
 ---
 
