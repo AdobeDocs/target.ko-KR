@@ -1,12 +1,13 @@
 ---
 keywords: gdpr;eu;유럽연합;개인 정보;faq;자주 묻는 질문;캘리포니아 소비자 개인 정보 보호법;ccpa;개인 정보;데이터 보호;옵트 아웃;옵트 아웃;정부;규정
-description: 유럽 연합(GDPR), 캘리포니아 소비자 개인 정보 보호 법(CPA) 및 기타 국제 개인 정보 보호 요구 사항에 대한 정보, 그리고 이러한 규정이 귀하의 조직 및 Adobe Target에 미치는 영향에 대한 정보를 제공합니다.
-title: 개인 정보 보호 및 데이터 보호 규정
+description: Target 및 유럽 연합(GDPR), 캘리포니아 소비자 개인 정보 보호 법(CPA) 및 기타 개인 정보 보호 요구 사항에 대해 살펴볼 수 있습니다.
+title: Target은 개인정보 보호 및 데이터 보호 규정을 어떻게 처리합니까?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2270'
+source-wordcount: '2265'
 ht-degree: 90%
 
 ---
