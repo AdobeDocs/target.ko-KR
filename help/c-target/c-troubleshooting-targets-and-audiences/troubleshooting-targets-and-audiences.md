@@ -1,13 +1,13 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;타겟;대상
-description: 경험 타깃팅 및 대상에 대한 FAQ 목록
-title: Target 및 대상 FAQ
+description: Adobe Target 활동에 사용된 경험 타깃팅 및 대상에 대한 FAQ를 참조하십시오.
+title: Target 및 대상에 대한 질문과 답변을 어디에서 찾을 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 68%
+source-wordcount: '953'
+ht-degree: 66%
 
 ---
 
