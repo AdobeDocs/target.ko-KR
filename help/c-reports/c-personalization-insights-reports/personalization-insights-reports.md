@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;자동화된 세그먼트;faq;자주 묻는 질문;중요 속성
-description: 두 개의 전문 보고서는 AP(자동화된 개인화)와 AT(자동 타겟) 활동인 자동화된 세그먼트와 중요 속성 보고서의 사용자가 사용할 수 있습니다.
-title: 개인화 통찰력 보고서
+description: Automated Personalization(AP) 및 자동 Target(AT) 활동에 대한 전문 보고서(자동화된 세그먼트 및 중요 속성)를 사용하는 방법을 알아봅니다.
+title: 개인화 인사이트 보고서를 어떻게 사용합니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '740'
-ht-degree: 65%
+source-wordcount: '743'
+ht-degree: 61%
 
 ---
 
