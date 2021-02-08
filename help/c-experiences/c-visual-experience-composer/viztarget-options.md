@@ -1,13 +1,13 @@
 ---
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 삽입;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 교체;오퍼 바꾸기; 이미지 교체;이미지 바꾸기;항목 제거;항목 삭제;항목 숨기기;항목 숨김;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 네비게이션;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행
-description: Adobe Target VEC(시각적 경험 작성기)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 선택 사항이 표시됩니다.
-title: VEC(Visual Experience Composer) 옵션
+description: Adobe Target의 VEC(Visual Experience Composer)에서 사용할 수 있는 옵션을 살펴보십시오. 요소를 클릭하면 해당 요소에 사용할 수 있는 옵션이 표시됩니다.
+title: VEC(Visual Experience Composer) 옵션은 어떻게 사용합니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2478'
-ht-degree: 94%
+source-wordcount: '2480'
+ht-degree: 93%
 
 ---
 
