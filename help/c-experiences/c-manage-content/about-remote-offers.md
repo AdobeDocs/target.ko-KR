@@ -1,13 +1,13 @@
 ---
 keywords: 원격 오퍼;원격 오퍼 선택 행렬;캐시된 컨텐츠;동적 컨텐트;url 유형
-description: 원격 오퍼를 사용하여 외부 컨텐츠를 호스팅할 수 있습니까?
-title: 원격 오퍼 만들기
+description: Adobe Target에서 원격 오퍼를 사용하여 외부 컨텐츠(CMS 또는 기타 시스템의 컨텐츠)를 호스트하는 방법을 알아봅니다. 원격 오퍼를 사용할 수 있는 이유를 알아봅니다.
+title: 원격 오퍼는 어떻게 생성합니까?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 49%
+source-wordcount: '1082'
+ht-degree: 47%
 
 ---
 
