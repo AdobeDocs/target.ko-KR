@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;오퍼;미리 보기;시작;상태;기준;알고리즘
-description: Adobe Target Recommendations 오퍼을 포함하는 Recommendations, A/B 테스트 또는 경험 타깃팅(XT) 활동을 만든 후 활동을 시작하기 전에 결과를 사용할 수 있도록 미리 보기를 수행해야 합니다. Target Recommendations은 권장 사항을 미리 볼 수 있는 다양한 방법을 제공합니다.
-title: Recommendations 활동 미리 보기 및 실행
+description: '활동을 시작하기 전에 결과를 사용할 수 있도록 Adobe Target Recommendations 활동을 미리 보는 방법을 알아봅니다. '
+title: Recommendations 활동을 미리 보고 시작하려면 어떻게 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 16%
+source-wordcount: '1350'
+ht-degree: 17%
 
 ---
 
