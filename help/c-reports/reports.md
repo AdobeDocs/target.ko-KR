@@ -1,13 +1,13 @@
 ---
-keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
-description: 보고서는 Adobe Target 활동의 성과에 대한 정보를 제공합니다
-title: 보고서
+keywords: 보고서;블록 ip 주소;IP 주소의 블록 방문자;다운로드 보고서;csv;reporting
+description: Adobe Target의 보고 기능을 사용하여 활동 성능을 검사하는 방법을 알아봅니다. 데이터를 기반으로 보다 현명한 의사 결정을 하여 ROI를 높일 수 있습니다.
+title: 보고서를 보려면 어떻게 합니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '827'
-ht-degree: 64%
+source-wordcount: '860'
+ht-degree: 61%
 
 ---
 
