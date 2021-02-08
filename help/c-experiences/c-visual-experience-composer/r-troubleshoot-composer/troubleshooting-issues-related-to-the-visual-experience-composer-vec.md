@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
-description: 특정 조건에서 Adobe Target VEC(Visual Experience Composer)에서 디스플레이 문제가 발생하는 경우가 있습니다.
-title: 시각적 경험 작성기에 관련된 문제 해결
+keywords: 타깃팅;시각적 경험 작성기;vec;문제 해결 시각적 경험 작성기;문제 해결;tls;tls 1.2
+description: 특정 조건에서 Adobe Target VEC(Visual Experience Composer)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
+title: Visual Experience Composer와 관련된 문제를 해결하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 92%
+source-wordcount: '798'
+ht-degree: 89%
 
 ---
 
