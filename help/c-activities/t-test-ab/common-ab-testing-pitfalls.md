@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;실수;함정;실수;착오;pitfall;중요도;통계적 차이;통계적 능력;통계적 능력;트래픽 할당;n;prograves;pitfall;featance;winner;통계적 차이;statistic power;traffic allocation;allocation
-description: Adobe Target의 A/B 테스트는 대부분의 디지털 마케팅 최적화 프로그램의 중추적인 역할을 하므로 마케터는 방문자 및 고객에게 최적화된 타깃팅된 경험을 제공할 수 있습니다. 이 섹션에서는 Adobe Target에서 A/B 테스트를 수행할 때 회사가 가장 중요하게 고려해야 하는 9가지 위험 요소에 대해 설명합니다. 또한 여기에는 회사가 테스트 노력을 통해 더 많은 ROI를 달성하고 보고된 A/B 테스트 결과를 더욱 신뢰할 수 있도록 이러한 위험을 방지하는 방법도 포함되어 있습니다.
-title: 9가지 공통 A/B 테스트 위험 및 방지 방법
+description: Adobe Target 및 기타 테스트 솔루션에서 A/B 테스트를 수행할 때 회사에서 수행하는 가장 일반적인 문제와 실수를 피하는 방법을 알아봅니다.
+title: 일반적인 A/B 테스트 오류를 방지하려면 어떻게 해야 합니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3940'
+source-wordcount: '3885'
 ht-degree: 86%
 
 ---
