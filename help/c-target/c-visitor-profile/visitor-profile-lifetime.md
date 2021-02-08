@@ -1,13 +1,13 @@
 ---
 keywords: 개요 및 참조
-description: 기본적으로, 방문자 프로필은 14일 동안 저장됩니다. 이 프로필 라이프타임은 연장할 수 있습니다.
-title: 방문자 프로필 라이프타임
+description: Adobe Target에서 방문자 프로필이 만료되는 시기(기본적으로 14일)에 대해 자세히 알아보십시오. Adobe 클라이언트 지원팀에 연락하여 프로필 라이프타임을 연장할 수 있습니다.
+title: 방문자 프로필 라이프타임은 무엇이며 연장할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 83%
+source-wordcount: '334'
+ht-degree: 73%
 
 ---
 
