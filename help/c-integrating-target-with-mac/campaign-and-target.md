@@ -1,13 +1,13 @@
 ---
 keywords: 개요 및 참조
-description: Target과 Adobe Campaign 통합을 통해 이메일 컨텐츠를 최적화합니다.
-title: Adobe Campaign과 통합
+description: Adobe Campaign과 함께 Adobe Target을 사용하여 이메일 컨텐츠를 최적화하는 방법을 살펴볼 수 있습니다.
+title: Target을 Adobe Campaign과 통합하려면 어떻게 해야 합니까?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 45%
+source-wordcount: '385'
+ht-degree: 40%
 
 ---
 
