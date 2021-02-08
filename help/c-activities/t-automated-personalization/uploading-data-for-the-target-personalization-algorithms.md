@@ -1,13 +1,13 @@
 ---
 keywords: Automated Personalization;ap;업로드 데이터;오프라인 데이터;개인화 알고리즘;자동 대상;자동 타겟;모범 사례
-description: CRM 정보 또는 고객 이탈률 점수와 같은 오프라인 데이터는 Adobe Target Automated Personalization(AP) 활동에서 개인화 모델을 구축할 때 매우 유용할 수 있습니다.
-title: 개인화 알고리즘에 대한 데이터 업로드
+description: Adobe Target Automated Personalization(AP) 활동에서 개인화 모델을 작성할 때 CRM 정보와 같은 오프라인 데이터를 업로드하는 방법을 알아봅니다.
+title: 개인화 알고리즘에 대한 데이터를 어떻게 업로드할 수 있습니까?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 76%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
