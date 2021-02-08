@@ -1,12 +1,12 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target 시작 키트 - 9장 - 다음 단계 및 리소스
-title: 환영 키트 - 9장 - 다음 단계 및 리소스
+description: Adobe Target에서 첫 번째 활동을 만듭니다. 다음 단계 이 문서를 사용하여 추가 리소스, 교육 자습서 및 사용 방법 비디오에 대한 링크를 찾을 수 있습니다.
+title: Target을 보다 효과적으로 사용할 수 있는 추가 리소스는 어디에서 찾을 수 있습니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '720'
 ht-degree: 0%
 
 ---
