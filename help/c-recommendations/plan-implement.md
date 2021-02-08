@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
-description: 권장 사항 활동을 작성하기 전에 알아야 할 사항.
-title: 권장 사항 계획 및 구현
+keywords: 권장 사항;설정;환경 설정;업계 카테고리;호환되지 않는 기준 필터링;기본 호스트 그룹;썸네일 기본 url;Recommendations API 토큰
+description: 'Adobe Target에서 Recommendations 활동을 구현하는 방법을 알아봅니다. 구현이 필요한 사전 요구 사항을 충족하는지 확인합니다. '
+title: Recommendations 활동을 구현하려면 어떻게 해야 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1592'
-ht-degree: 96%
+source-wordcount: '1619'
+ht-degree: 95%
 
 ---
 
