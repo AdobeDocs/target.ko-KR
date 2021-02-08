@@ -1,12 +1,13 @@
 ---
 keywords: 서버측;서버측;sdk;sdk;s;on-device;decision;on-device;decision;on device;ondevice;0 latency;near-zero;node.js
-description: 장치 내 의사 결정 기능을 사용하면 Adobe Target Edge Network에 대한 네트워크 요청을 차단하지 않고도 서버에 Adobe Target A/B 및 XT(Experience Targeting) 활동을 캐시하고 0분 이내에 메모리 내 의사 결정을 수행하는 기능을 사용할 수 있습니다.
-title: 장치 내 의사 결정
+description: 장치 내 의사 결정을 사용하여 서버에 Target A/B 및 MVT 활동을 캐시하여 0에 가까운 지연 시간에 메모리 내 의사 결정을 수행하는 방법을 알아봅니다.
+title: 장치 내 의사 결정 소개
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
