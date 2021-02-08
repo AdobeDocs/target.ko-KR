@@ -1,13 +1,13 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;부풀려짐;방문;방문자;부분 히트;고립됨;고아;partial-hit
-description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때 부풀려진 방문 및 방문자 카운트와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
-title: 부풀려진 방문 및 방문자 카운트 - A4T FAQ
+description: Analytics for Target(A4T)를 사용할 때 부풀려진 방문 및 방문자 수에 대한 질문에 대한 답변을 찾습니다. "부분 데이터"를 최소화하는 방법을 알아봅니다.
+title: A4T를 사용하여 부풀려진 방문 및 방문자 수에 대한 Faq는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 94%
 
 ---
 
