@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;대상;보고;성공 지표
-description: Adobe Target에서 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
-title: 성공 지표에 보고 대상 적용
+description: 보고 대상을 위해 사용자를 자격이 있는 Adobe Target에서 성공 지표를 선택하는 방법에 대해 알아보십시오.
+title: 성공 지표에 보고 대상자를 적용할 수 있습니까?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 97%
+source-wordcount: '297'
+ht-degree: 90%
 
 ---
 
