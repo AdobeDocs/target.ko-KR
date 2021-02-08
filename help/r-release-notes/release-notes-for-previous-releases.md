@@ -1,13 +1,13 @@
 ---
 keywords: 릴리스 노트
-description: 이전 릴리스에 대한 정보는 어디에서 찾을 수 있습니까?
-title: 이전 릴리스에 대한 릴리스 노트
+description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항 및 수정 사항 목록을 확인하십시오.
+title: 이전 릴리스에는 어떤 기능이 포함되어 있습니까?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '30512'
-ht-degree: 85%
+source-wordcount: '30521'
+ht-degree: 84%
 
 ---
 
