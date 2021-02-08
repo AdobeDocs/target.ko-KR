@@ -1,13 +1,13 @@
 ---
 keywords: Target;보고서;보고서 설정;여러 지표;지표;표시 지표;숨겨진 지표;;reports;report settings;multiple metrics;metrics;showled metrics;hidden metrics
-description: Adobe Target을 사용하여 보고서에서 볼 지표를 여러 개 선택합니다.
-title: 보고서에서 여러 지표 보기를 참조하십시오
+description: Adobe Target을 사용하여 보고서에서 볼 여러 지표를 선택하는 방법에 대해 알아보십시오.
+title: 보고서에서 여러 지표를 보려면 어떻게 합니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 62%
+source-wordcount: '433'
+ht-degree: 59%
 
 ---
 
