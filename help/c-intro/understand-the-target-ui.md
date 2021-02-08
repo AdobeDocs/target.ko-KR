@@ -1,13 +1,13 @@
 ---
 keywords: 대상 사용자 인터페이스;사용자 인터페이스;ui
-description: 유저 인터페이스(UI)는 어떻게 사용합니까?
-title: 사용자 인터페이스 이해
+description: 사용자 인터페이스에 익숙해지고 Target을 최대한 활용할 수 있도록 보다 심층적인 정보에 대한 링크를 찾을 수 있습니다.
+title: Target UI는 어떻게 사용합니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 28%
+source-wordcount: '817'
+ht-degree: 27%
 
 ---
 
