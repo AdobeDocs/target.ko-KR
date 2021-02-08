@@ -1,13 +1,13 @@
 ---
 keywords: qa;미리 보기;북마클릿;미리 보기 링크
-description: Adobe Target QA 북마클릿을 사용하여 Target을 강제로 QA 모드에서 해제시키는 데 도움이 되는 정보입니다.
-title: 활동 QA 북마클릿
+description: Adobe Target QA 북마클릿을 사용하여 Target을 강제로 QA 모드에서 해제시키는 방법을 알아봅니다.
+title: 활동 QA 북마클릿을 어떻게 사용합니까?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 14%
+source-wordcount: '267'
+ht-degree: 13%
 
 ---
 
