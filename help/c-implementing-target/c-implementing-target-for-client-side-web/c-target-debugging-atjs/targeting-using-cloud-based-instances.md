@@ -1,13 +1,14 @@
 ---
 keywords: 클라우드 인스턴스;공용 접미어 목록;공용 접미어;쿠키;퍼스트 파티 쿠키;자사 쿠키;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: 클라우드 기반 인스턴스를 사용하여 Adobe Target을 테스트할 때 고객이 직면하는 문제에 대한 정보입니다.
-title: 클라우드 기반 인스턴스 사용
+description: 클라우드 기반의 인스턴스를 사용하여 Adobe Target을 테스트하거나 개념 증명 용도로 사용할 때 발생하는 문제(솔루션 관련)를 살펴보십시오.
+title: 클라우드 기반 인스턴스와 Target을 사용할 수 있습니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '161'
-ht-degree: 94%
+source-wordcount: '170'
+ht-degree: 81%
 
 ---
 
