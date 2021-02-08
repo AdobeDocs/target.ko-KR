@@ -1,13 +1,13 @@
 ---
 keywords: A/B;활동 지표;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-description: Adobe Target A/B 활동에서 지표를 사용하여 방문이 성공적인 시기를 결정할 수 있습니다.
-title: 지표 설정
+description: Adobe Target A/B 활동에서 지표를 지정하여 전환, 매출 및 참여와 같은 성공적인 방문 시기를 결정하는 방법을 알아봅니다.
+title: A/B 활동에서 목표 지표를 설정하려면 어떻게 합니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 87%
+source-wordcount: '348'
+ht-degree: 82%
 
 ---
 
