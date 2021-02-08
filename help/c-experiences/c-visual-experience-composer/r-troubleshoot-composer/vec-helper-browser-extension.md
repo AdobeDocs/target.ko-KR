@@ -1,13 +1,13 @@
 ---
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 프로그램;브라우저
-description: Adobe VEC(시각적 경험 작성기) Helper 브라우저 확장 프로그램을 사용하여 VEC에서 웹 사이트를 안정적으로 로드함으로써 경험을 빠르게 작성 및 QA하기 위한 정보입니다.
-title: VEC(Visual Experience Composer) 도우미 확장
+description: 일부 웹 사이트가 VEC(Visual Experience Composer)에서 안정적으로 열리지 않는 이유를 알아봅니다. VEC 도우미 브라우저 익스텐션을 사용하면 VEC 내에서 웹 사이트를 안전하게 로드할 수 있습니다.
+title: VEC(Visual Experience Composer) 도우미 확장을 사용하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 56%
+source-wordcount: '890'
+ht-degree: 52%
 
 ---
 
