@@ -1,13 +1,13 @@
 ---
 keywords: 자동화된 개인화;앱;대상;앙상블;임의 포리스트;잔존 분산;오류 차이;라이프타임 값
-description: Adobe Target의 Automated Personalization 활동 워크플로우는 다른 활동 유형의 워크플로우에 따라 다릅니다.
-title: Automated Personalization 활동 만들기
+description: VEC(Visual Experience Composer)를 사용하여 Adobe Target에서 Automated Personalization(AP) 활동을 만드는 방법을 알아봅니다.
+title: Automated Personalization 활동을 만들려면 어떻게 합니까?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 92%
+source-wordcount: '2057'
+ht-degree: 91%
 
 ---
 
