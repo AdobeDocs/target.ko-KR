@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;frequently asked questions;faq
-description: Adobe Target 권장 사항 디자인에 대한 FAQ(자주 묻는 질문) 목록입니다.
-title: 디자인 FAQ
+keywords: 권장 사항;자주 묻는 질문;faq
+description: Adobe Target Recommendations 디자인에 대한 질문과 답변(FAQ) 목록을 검토하십시오.
+title: Target Recommendations의 디자인 질문에 대한 답변은 어디에서 확인할 수 있습니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 87%
+source-wordcount: '412'
+ht-degree: 84%
 
 ---
 
