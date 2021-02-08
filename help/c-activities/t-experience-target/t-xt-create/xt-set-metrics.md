@@ -1,13 +1,13 @@
 ---
-keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Adobe Target XT(경험 타깃팅) 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
-title: 지표 설정
+keywords: 경험 타깃팅;xt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
+description: Adobe Target Experience Targeting 활동에서 지표를 지정하여 전환, 매출 및 참여와 같은 성공적인 방문 시기를 결정하는 방법에 대해 학습합니다.
+title: 경험 타깃팅 활동에서 목표 지표를 설정하려면 어떻게 합니까?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 89%
+source-wordcount: '353'
+ht-degree: 80%
 
 ---
 
