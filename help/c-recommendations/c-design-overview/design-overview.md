@@ -1,13 +1,13 @@
 ---
 keywords: 권장 사항 디자인;템플릿;디자인 만들기;전달;출력
-description: Adobe Target Recommendations의 디자인은 권장 사항이 페이지에 표시되는 방식을 정의합니다. 디자인은 방문자의 참여, 전환 및 매출을 개선하기 위해 권장 사항의 레이아웃 및 형식을 정의합니다.
-title: 디자인 개요
+description: Adobe Target Recommendations에서 디자인을 사용하여 권장 사항이 페이지에 표시되는 방식을 정의하는 방법을 알아봅니다(1X4, 1X6, 2X2 등).
+title: Recommendations에서 디자인을 어떻게 사용합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '198'
-ht-degree: 25%
+ht-degree: 24%
 
 ---
 
