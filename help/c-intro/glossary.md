@@ -1,12 +1,12 @@
 ---
-description: 용어 정의입니다.
-title: 용어 설명
+description: Adobe Target에서 사용하는 다양한 용어가 의미하는 것은? Target을 얻는 데 도움이 되는 일반 용어에 대한 정의를 찾습니다.
+title: Target에 사용된 용어와 정의는 어디에서 찾을 수 있습니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2289'
-ht-degree: 98%
+source-wordcount: '2316'
+ht-degree: 97%
 
 ---
 
