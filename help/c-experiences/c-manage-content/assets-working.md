@@ -1,13 +1,13 @@
 ---
 keywords: 컨텐츠 라이브러리;자산;주석 달기;복사;자산 삭제;자산 다운로드;컨텐츠 편집;카드 공유;컨텐츠 속성 보기
-description: 콘텐트 라이브러리의 에셋을 사용하여 작업하는 방법
-title: 라이브러리에서 콘텐트 사용
+description: Adobe Target 오퍼 라이브러리에서 코드 및 이미지 오퍼를 관리하는 방법을 알아봅니다. 오퍼의 세부 사항을 보는 방법과 오퍼를 편집, 복사, 이동 또는 삭제하는 방법을 알아봅니다.
+title: 오퍼 라이브러리의 콘텐츠는 어떻게 작업합니까?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 38%
+source-wordcount: '767'
+ht-degree: 37%
 
 ---
 
