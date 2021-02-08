@@ -1,12 +1,12 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;권장 사항;특수 문자;속성 가중치;콘텐츠 유사성
-description: Adobe Target Recommendations 활동에 대한 FAQ의 목록입니다.
-title: Target Recommendations FAQ
+description: Adobe Target Recommendations 활동에 대한 질문과 답변 목록을 봅니다.
+title: Target Recommendations에 대한 질문과 답변을 어디에서 찾을 수 있습니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2031'
+source-wordcount: '2041'
 ht-degree: 80%
 
 ---
