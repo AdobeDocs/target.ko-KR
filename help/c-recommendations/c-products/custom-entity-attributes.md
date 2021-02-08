@@ -1,14 +1,14 @@
 ---
 keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
-description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
-title: 사용자 지정 엔티티 속성
+description: 단일 및 다중 값 사용자 정의 개체 속성을 사용하여 Adobe Target Recommendations 카탈로그의 항목에 대한 추가 정보를 정의하는 방법을 알아봅니다.
+title: 사용자 지정 개체 특성을 사용하려면 어떻게 합니까?
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 91%
+source-wordcount: '1401'
+ht-degree: 89%
 
 ---
 
