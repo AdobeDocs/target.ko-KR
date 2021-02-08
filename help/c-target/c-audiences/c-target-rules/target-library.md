@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;타겟 라이브러리;라이브러리
-description: 사전 빌드된 타깃팅 규칙을 기반으로 사용자를 타깃팅하십시오.
-title: 타겟 라이브러리 대상의 옵션
+description: 사전 빌드된 기존 대상을 사용하여 방문자를 타게팅하는 방법에 대해 알아보십시오. 성능을 개선하기 위해 새 대상 범주를 사용하는 것이 좋습니다.
+title: 사전 빌드된 타깃팅 규칙을 기반으로 방문자를 Target할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 98%
+source-wordcount: '202'
+ht-degree: 85%
 
 ---
 
