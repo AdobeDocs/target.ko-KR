@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;운영 체제 타깃팅;운영 체제;OS 타깃팅;OS;Linux 타깃팅;Linux;Windows 타깃팅;windows;macintosh 타깃팅;macintosh;mac;mac 타깃팅;win;win 타깃팅
-description: 특정 운영 체제를 사용하는 방문자를 타깃팅할 수 있습니다.
-title: 운영 체제 대상의 옵션
+description: 특정 운영 체제(Linux, Macintosh 또는 Windows)를 사용하는 방문자를 타게팅하는 방법을 알아봅니다.
+title: 운영 체제를 기반으로 방문자를 Target할 수 있습니까?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 97%
+source-wordcount: '129'
+ht-degree: 82%
 
 ---
 
