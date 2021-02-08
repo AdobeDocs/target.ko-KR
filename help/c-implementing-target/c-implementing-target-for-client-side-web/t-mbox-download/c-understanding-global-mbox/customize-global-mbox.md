@@ -1,13 +1,14 @@
 ---
 keywords: 전역 mbox;사용자 지정;글로벌 mbox;edit at.js;at.js;implement at.js
-description: at.js에 대한 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
-title: 글로벌 mbox 사용자 지정
+description: Adobe Target의 관리-구현 페이지에서 at.js에 대한 글로벌 mbox를 사용자 지정하는 방법을 알아봅니다.
+title: 글로벌 mbox를 사용자 정의하려면 어떻게 합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 55%
+source-wordcount: '179'
+ht-degree: 50%
 
 ---
 
