@@ -1,13 +1,13 @@
 ---
 keywords: Analytics 추적 서버;A4T;분석 세그먼트;보고서 세트;잘못된 데이터;고립됨;sdid;VisitorAPI.js;mboxMCSDID;phantom;지정되지 않음
-description: 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때 발생하는 몇 가지 일반적인 문제에 대해 설명합니다.
-title: 분석 및 Target 통합 문제 해결(A4T)
+description: Target(A4T)용 Analytics를 사용할 때 고객이 경험하는 일반적인 문제를 살펴봅니다.
+title: Analytics 및 Target 통합 문제 해결 방법(A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 63%
+source-wordcount: '995'
+ht-degree: 61%
 
 ---
 
