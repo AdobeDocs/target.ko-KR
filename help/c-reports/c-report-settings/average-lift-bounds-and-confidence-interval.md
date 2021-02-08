@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-description: 보고서에는 우승자를 보다 정확하게 결정할 수 있도록 Adobe Target 활동과 연관된 리프트 바운드 및 신뢰 수준을 이해하는 데 도움이 되는 몇 가지 데이터 포인트 및 시각화 표시가 포함되어 있습니다.
-title: 평균 상승도, 상승도 한계 및 신뢰 구간
+keywords: Target;보고서;보고서 설정;환경;상승도;상승도 한계;분산;신뢰도;통제
+description: 활동의 리프트 바운드 및 신뢰 수준을 이해하는 데 도움이 되는 데이터 포인트 및 시각화 표현을 포함하는 Adobe Target 보고서를 해석하는 방법을 알아봅니다.
+title: 평균 리프트, 리프트 경계 및 신뢰 구간을 보려면 어떻게 해야 합니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 73%
+source-wordcount: '817'
+ht-degree: 72%
 
 ---
 
