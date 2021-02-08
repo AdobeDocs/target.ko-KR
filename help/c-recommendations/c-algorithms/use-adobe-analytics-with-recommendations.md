@@ -1,12 +1,12 @@
 ---
-keywords: behavioral data source;analytics;recommendations;criteria;product variables
-description: 행동 데이터 소스로 Adobe Analytics을 사용하면 클라이언트는 Adobe Recommendations의 Analytics에서 제공하는 보기 기반 및/또는 구매 기반 행동 데이터를 사용할 수 있습니다.
-title: Target Recommendations과 함께 Adobe Analytics 사용
+keywords: 행동 데이터 소스;분석;권장 사항;기준;제품 변수
+description: Adobe Analytics을 행동 데이터 소스로 사용하여 Target Recommendations의 Analytics에서 제공하는 보기 기반 및/또는 구매 기반 행동 데이터를 사용하는 방법을 알아봅니다.
+title: Target Recommendations과 함께 Adobe Analytics을 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1035'
 ht-degree: 3%
 
 ---
