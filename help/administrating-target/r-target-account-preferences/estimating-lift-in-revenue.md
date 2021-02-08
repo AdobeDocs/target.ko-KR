@@ -1,13 +1,14 @@
 ---
 keywords: 수입 상승도;수입;수입의 상승도 예상;상승도 계산;예상 값
-description: 모든 사용자가 우승 경험을 보는 경우 달성해야 할 매출 증가를 예상하려면 Adobe Target을 사용합니다.
-title: 매출 리프트 예측
+description: 모든 방문자에게 우승한 경험이 표시되는 경우 테스트 중에 트렌드가 지속되는 경우 달성할 수 있는 리프트를 예상합니다.
+title: 매출 향상도는 어떻게 예상합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 90%
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 
