@@ -1,14 +1,14 @@
 ---
 keywords: 보고 소스로 분석;a4t;A4T;요구 사항
-description: Adobe Target(A4T)에서 Adobe Analytics 기반 활동을 만들기 위한 사용자 계정 요구 사항입니다.
-title: 사용자 권한 요구 사항
+description: Analytics for Target(A4T)를 사용하여 Adobe Target에서 Adobe Analytics 기반 활동을 만드는 데 필요한 사용자 계정 요구 사항을 구성하는 방법을 알아봅니다.
+title: A4T에 필요한 사용자 권한 요구 사항은 무엇입니까?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 47%
+source-wordcount: '280'
+ht-degree: 38%
 
 ---
 
