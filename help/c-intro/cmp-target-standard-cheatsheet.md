@@ -1,13 +1,13 @@
 ---
 keywords: Target Standard;faq;자주 묻는 질문;치트 시트;치트시트
-description: Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보로 연결되는 링크 목록입니다.
-title: 최적화 및 개인화 FAQ
+description: 자세한 내용은 정보 및 링크와 함께 Adobe Target의 기능 사용에 대한 FAQ를 참조하십시오.
+title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2909'
-ht-degree: 97%
+source-wordcount: '2917'
+ht-degree: 96%
 
 ---
 
