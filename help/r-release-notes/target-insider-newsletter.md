@@ -1,12 +1,12 @@
 ---
 keywords: 참가자 뉴스레터;제품 업데이트;팁 및 기법;이벤트;고객 성공;블로그;블로그;백서
-description: Adobe Target Insider 월별 뉴스레터는 어디에서 찾을 수 있습니까?
-title: 내부자 뉴스레터
+description: Adobe Target에 대한 최신 뉴스 보기 향후 이벤트, 고객 성공 사례, 전문가의 정보 및 팁 등에 대한 정보를 확인할 수 있습니다.
+title: Adobe Target Insider Newsletter 소개
 feature: Release Notes, Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2132'
+source-wordcount: '2150'
 ht-degree: 41%
 
 ---
