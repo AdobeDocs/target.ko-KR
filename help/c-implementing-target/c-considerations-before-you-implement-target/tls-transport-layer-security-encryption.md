@@ -1,13 +1,14 @@
 ---
 keywords: tls;tls 1.0;전송 레이어 보안;암호화;tls 1.1;tls 1.2
-description: Adobe 및 Target에서 TLS(전송 계층 보안)를 사용하여 가장 높은 보안 표준을 유지 관리하고 고객 데이터의 안전을 강화하는 방법과 관련된 변경 사항에 대한 정보입니다.
-title: TLS(전송 계층 보안) 암호화 변경 사항
+description: Target이 TLS(Transport Layer Security) 프로토콜을 사용하여 최고 보안 표준을 유지하고 고객 데이터의 보안을 강화하는 방법을 알아봅니다.
+title: Target은 TLS를 사용하여 보안을 제공합니까?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '1238'
-ht-degree: 61%
+ht-degree: 58%
 
 ---
 
