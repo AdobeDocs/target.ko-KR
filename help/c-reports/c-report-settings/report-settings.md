@@ -1,13 +1,13 @@
 ---
 keywords: Target;보고서;보고서 설정;사전 설정;target 사전 설정;지표;대상;날짜 범위;설정;다운로드;표 보기;그래프 보기;평균 리프트;리프트;리프트 경계;신뢰 구간;신뢰도;위치 기여도;평균 실행;방법론 계산
-description: Adobe Target 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
-title: 보고서 설정
+description: 지표, 대상, 날짜 범위 등을 포함하여 Adobe Target에서 보고서 설정을 구성하는 방법을 알아봅니다.
+title: 보고서 설정을 구성하려면 어떻게 합니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1922'
-ht-degree: 69%
+source-wordcount: '1918'
+ht-degree: 68%
 
 ---
 
