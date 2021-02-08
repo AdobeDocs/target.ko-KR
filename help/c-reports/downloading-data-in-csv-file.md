@@ -1,13 +1,13 @@
 ---
 keywords: 보고서;보고서 다운로드;csv;성공 지표;주문 세부 사항
-description: Adobe Target을 사용하여 Excel, Access 또는 기타 데이터 분석 프로그램으로 데이터를 신속하게 가져올 수 있도록 데이터를 .csv 형식으로 다운로드합니다.
-title: CSV 파일로 데이터 다운로드
+description: Excel, Access 또는 기타 데이터 분석 프로그램으로 빠르게 가져올 수 있도록 Adobe Target 활동에서 CVS 형식으로 데이터를 다운로드하는 방법을 살펴봅니다.
+title: 보고서 데이터를 CSV 파일로 다운로드하려면 어떻게 합니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 83%
+source-wordcount: '686'
+ht-degree: 82%
 
 ---
 
