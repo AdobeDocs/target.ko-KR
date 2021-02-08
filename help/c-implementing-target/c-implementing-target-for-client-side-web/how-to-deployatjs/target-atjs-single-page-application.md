@@ -1,12 +1,13 @@
 ---
 keywords: 단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현;spa;at.js 2.x;at.js;단일 페이지 애플리케이션;단일 페이지 앱;spa;SPA
-description: Adobe Target at.js 2.x를 사용하여 SPA(단일 페이지 애플리케이션)를 구현하기 위한 정보입니다.
-title: 단일 페이지 애플리케이션 구현
+description: Adobe Target at.js 2.x를 사용하여 단일 페이지 애플리케이션(SPA)에 대한 Target을 구현하는 방법을 알아봅니다.
+title: SPA(단일 페이지 애플리케이션)에 대한 Target을 구현할 수 있습니까?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2769'
+source-wordcount: '2777'
 ht-degree: 73%
 
 ---
@@ -208,9 +209,9 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
 | 단계 | 세부 사항 |
 | --- | --- |
-| 3 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
+| 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
 | 2 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
-| 3 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 1 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
 | 5 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
@@ -293,7 +294,7 @@ at.js 2.x API를 사용하면 다양한 방식으로 [!DNL Target] 구현을 사
 
 | 단계 | 작업 | 세부 사항 |
 | --- | --- | --- |
-| 3 | 호출 `visitor.resetState()` | 이 API는 SDID가 로드될 때 새 보기에 대해 다시 생성됩니다. |
+| 1 | 호출 `visitor.resetState()` | 이 API는 SDID가 로드될 때 새 보기에 대해 다시 생성됩니다. |
 | 2 | `getOffers()` API를 호출하여 캐시 업데이트 | 이 보기 변경으로 인해 현재 방문자에게 더 많은 [!DNL Target] 활동에 대한 자격을 부여하거나 활동에서 자격을 박탈할 가능성이 있는 경우 이것은 선택 단계입니다. 이 시점에서 추가적인 타깃팅 기능을 사용하도록 추가 데이터를 [!DNL Target]에 보내도록 선택할 수도 있습니다. |
 | 1 | 호출 `triggerView()` | 2단계를 실행한 경우 [!DNL Target] 요청을 기다렸다가 이 단계를 실행하기 전에 오퍼를 캐시에 적용해야 합니다. 이 단계를 뷰당 한 번만 실행해야 합니다. |
 | 4 | 호출 `triggerView()` | 2단계를 실행하지 않은 경우 1단계를 완료하는 대로 이 단계를 실행할 수 있습니다. 2단계와 3단계를 실행한 경우 이 단계를 건너뛰어야 합니다. 이 단계를 뷰당 한 번만 실행해야 합니다. |
