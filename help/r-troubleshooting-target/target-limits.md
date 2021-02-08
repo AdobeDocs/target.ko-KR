@@ -1,13 +1,13 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
-description: Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 정보입니다.
-title: 제한
+keywords: 문자 제한;mbox 매개 변수;배치 배달 api;프로필 매개 변수;제한;프로필 프로필;최대;제한;제한;문자;우수 사례;순서;주문 합계;mbox3rdPartyID;category;categoryID;문제 해결
+description: 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등) 목록 보기 정보입니다.
+title: 문자 제한 및 기타 제한 사항(오퍼 크기, 대상, 프로필, 값, 매개 변수 등) 목록 검토 정보입니다.
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 71%
+source-wordcount: '1086'
+ht-degree: 67%
 
 ---
 
