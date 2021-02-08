@@ -1,13 +1,13 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;sitecatalyst;캠페인>레서피;test&target;통합
-description: 이 주제에서는 기존 SiteCatalyst-Test&Target 통합과 Analytics를 Target(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
-title: 기존 Sitecatalyst에서 Test&Library로의 통합 - A4T FAQ
+description: Test&Target 통합에 대한 기존 SiteCatalyst과 Target에 대한 Analytics(A4T) 사용에 대해 자주 묻는 질문에 대한 답변을 찾습니다.
+title: Sitecatalyst에서 Test&Target로의 통합에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '182'
-ht-degree: 95%
+source-wordcount: '179'
+ht-degree: 80%
 
 ---
 
