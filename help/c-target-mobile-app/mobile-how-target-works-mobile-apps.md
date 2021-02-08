@@ -1,12 +1,13 @@
 ---
-description: Adobe Mobile SDK는 Target 서버에 접속하여 다른 데이터 포인트와 함께 컨텐츠를 가져와서 사용자에게 적합한 경험을 보여줍니다.
-title: 모바일 앱에서의 Target 작동 방식
+description: Adobe Mobile SDK를 사용하여 모바일 앱 방문자에게 최적의 경험을 제공하는 방법을 살펴보십시오.
+title: 모바일 앱에서 Target은 어떻게 작동합니까?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '195'
-ht-degree: 100%
+source-wordcount: '189'
+ht-degree: 86%
 
 ---
 
