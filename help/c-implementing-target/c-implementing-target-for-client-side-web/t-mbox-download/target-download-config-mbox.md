@@ -1,13 +1,14 @@
 ---
 keywords: 구현;Mbox;mbox.js;mbox.js 다운로드;mbox.js 구성
-description: Target Standard 및 Premium은 수정된 버전의 Adobe Target mbox.js 파일을 사용합니다.
-title: mbox.js 다운로드
+description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
+title: Target mbox.js 라이브러리를 어떻게 다운로드합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 68%
+source-wordcount: '286'
+ht-degree: 58%
 
 ---
 
