@@ -1,13 +1,14 @@
 ---
 keywords: mbox 함수
-description: mbox.js를 사용하여 구현할 때 사용할 mbox.js 함수 목록입니다.
-title: mbox.js 함수
+description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
+title: mbox.js는 어떤 함수를 지원합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 59%
+source-wordcount: '200'
+ht-degree: 47%
 
 ---
 
