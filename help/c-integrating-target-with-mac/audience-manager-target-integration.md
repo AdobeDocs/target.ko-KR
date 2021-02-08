@@ -1,12 +1,12 @@
 ---
-keywords: segments;audiences;aam;audience manager;adobe audience manager;integrate;integration
-description: Target/Audience Manager 통합을 사용하여 Audience Manager 세그먼트를 Adobe Target으로 보낼 수 있습니다.
-title: AAM(Adobe Audience Manager)과 Target 통합
+keywords: 세그먼트;대상;aam;audience manager;adobe audience manager;integrate;integration
+description: Target/Audience Manager 통합을 사용하여 Audience Manager(AAM) 세그먼트를 Adobe Target으로 전송하는 방법을 알아봅니다.
+title: AAM(Adobe Audience Manager)과 Target을 통합하려면 어떻게 합니까?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
