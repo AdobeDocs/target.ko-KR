@@ -1,13 +1,14 @@
 ---
 keywords: 모바일 앱;모바일 앱 SDK;target 모바일 앱;모바일 target sdk;모바일 앱 SDK;SDK에서 Target 사용
-description: 앱에 Adobe Mobile Services SDK를 추가합니다.
-title: SDK에서 Target 사용
+description: 모바일 앱에 Adobe Mobile Services SDK를 추가하는 방법에 대해 학습합니다.
+title: Adobe Mobile SDK에서 Target을 활성화하려면 어떻게 합니까?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 90%
+source-wordcount: '259'
+ht-degree: 81%
 
 ---
 
