@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.트리거뷰;트리거뷰;트리거 뷰;트리거 뷰;at.js;함수;함수;이름 보기;네임 보기;이름 보기
-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.triggerView (viewName, options) 함수 정보입니다.
-title: Adobe.Target.Triggerview(보기 이름, 옵션) - at.js 2.x
+description: SPA(단일 페이지 애플리케이션)에서 사용할 수 있도록 Adobe Target at.js JavaScript 라이브러리에 대해 adobe.target.triggerView() 함수를 사용합니다. (at.js 2.x)
+title: adobe.target.triggerView() 함수를 사용하려면 어떻게 합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '276'
-ht-degree: 91%
+source-wordcount: '284'
+ht-degree: 84%
 
 ---
 
 
-# adobe.target.triggerView(viewName, options) - at.js 2.x
+# adobe.target.triggerView (viewName, options) - at.js 2.x
 
 이 함수는 새 페이지를 로드할 때마다 또는 페이지의 구성 요소가 다시 렌더링될 때 호출할 수 있습니다. 시각적 경험 작성기(VEC)를 사용하여 A/B 테스트 및 경험 타깃팅(XT) 활동을 만들려면 단일 페이지 애플리케이션(SPA)에 대해 `adobe.target.triggerView()`를 구현해야 합니다. 사이트에서 `adobe.target.triggerView()`가 구현되지 않으면 SPA에 VEC를 활용할 수 없습니다. 자세한 내용은 [단일 페이지 애플리케이션 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)을 참조하십시오.
 
