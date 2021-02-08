@@ -1,12 +1,12 @@
 ---
 keywords: 엔티티;엔티티 속성;Recommendations로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
-description: 개체 특성을 사용하여 제품 또는 콘텐트 정보를 Adobe Target Recommendations에 전달합니다.
-title: 엔티티 속성을 참조하십시오
+description: 개체 속성을 사용하여 제품 또는 컨텐츠 정보를 Adobe Target Recommendations에 전달하는 방법을 알아봅니다.
+title: 개체 속성을 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1050'
 ht-degree: 88%
 
 ---
