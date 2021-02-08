@@ -1,12 +1,12 @@
 ---
 keywords: 공지 사항;스킬 빌더;개발자 채팅;커피 브레이크;이벤트;forrester;gartner;webinar
-description: 예정된 이벤트와 웨비나는 어디에서 찾을 수 있습니까?
-title: 공지 및 이벤트
+description: 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등 Adobe Target 이벤트에 대한 공지 사항을 읽고 등록할 수 있습니다.
+title: Target 공지 사항 및 이벤트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
