@@ -1,13 +1,14 @@
 ---
 keywords: 구현;구현하기;설정하기;설정;페이지 매개 변수;tomcat;url 인코딩;인페이지 프로필 속성;mbox 매개 변수;인페이지 프로필 속성;스크립트 프로필 속성;벌크 프로필 업데이트 API;단일 파일 업데이트 API;고객 속성;데이터 공급자;dataprovider;데이터공급자
-description: 페이지 매개 변수, 페이지 내 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 포함하여 Adobe Target으로 데이터를 가져오는 데 사용할 수 있는 다양한 방법에 대한 정보입니다.
-title: Target에 데이터를 가져오는 방법
+description: 데이터를 Target(페이지 매개 변수, 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 단일 및 벌크 프로필 업데이트 API, 고객 속성)로 가져올 수 있습니다.
+title: 데이터를 Target으로 가져오려면 어떻게 해야 합니까?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 93%
+source-wordcount: '1956'
+ht-degree: 94%
 
 ---
 
