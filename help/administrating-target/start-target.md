@@ -1,13 +1,14 @@
 ---
 keywords: 관리;승인자 역할;승인자
-description: Adobe Target 관리자는 이메일로 Adobe Experience Cloud에 초대장을 받은 후 첫 번째 단계를 수행해야 합니다.
-title: 관리자의 첫 단계
+description: Adobe Target 관리자가 Adobe Experience Cloud에 이메일로 보낸 초대를 받은 후 첫 번째 작업을 수행합니다.
+title: Target 관리는 어디에서 시작합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '403'
-ht-degree: 84%
+source-wordcount: '408'
+ht-degree: 83%
 
 ---
 
