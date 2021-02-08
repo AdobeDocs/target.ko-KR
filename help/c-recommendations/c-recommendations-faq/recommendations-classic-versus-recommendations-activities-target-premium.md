@@ -1,13 +1,13 @@
 ---
 keywords: 권장 사항;권장 사항 알고리즘;권장 사항 활동;recommendations classic
-description: 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
-title: Target Premium의 Recommendations Classic 및 Recommendations 활동
+description: Target Premium에서 기존 Recommendations Classic 활동과 Recommendations 활동 간의 차이점을 이해하는 데 도움이 되는 정보를 검토하십시오.
+title: Target Premium에서 Recommendations Classic과 Recommendations의 차이점은 무엇입니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 95%
 
 ---
 
