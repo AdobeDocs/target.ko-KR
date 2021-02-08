@@ -1,13 +1,13 @@
 ---
 keywords: 활동 설정;A/B 목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
-description: Adobe Target의 [목표 및 설정] 페이지에서 테스트 목표에 대한 정보를 입력합니다.
-title: 목표 및 설정
+description: Adobe Target에서 목표 및 설정 페이지를 사용하여 A/B 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.
+title: Target A/B 활동에서 목표 및 설정을 어떻게 지정합니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 93%
+source-wordcount: '1330'
+ht-degree: 92%
 
 ---
 
