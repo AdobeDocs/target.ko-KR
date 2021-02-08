@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;experience targeting;xt;landing page;landing page campaign
-description: 경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
-title: 경험 타깃팅
+keywords: 타깃팅;경험 타깃팅;xt;랜딩 페이지;랜딩 페이지 캠페인
+description: Adobe Target에서 경험 타깃팅(XT) 활동을 사용하여 마케터가 정의한 규칙 및 기준을 기반으로 특정 대상자에게 컨텐츠를 전달하는 방법을 살펴볼 수 있습니다.
+title: 경험 타깃팅(XT) 활동이란 무엇입니까?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 100%
+source-wordcount: '506'
+ht-degree: 93%
 
 ---
 
