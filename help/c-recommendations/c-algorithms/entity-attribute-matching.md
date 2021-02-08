@@ -1,12 +1,12 @@
 ---
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;동적 필터링;동적 필터링;개체 특성 일치
-description: 잠재적인 추천 항목 풀을 사용자가 상호 작용한 특정 항목과 비교하여 Adobe Target Recommendations에서 동적으로 필터링합니다.
-title: Target Recommendations의 동적 포함 규칙에서 엔티티 속성 일치별 필터링
+description: 잠재적인 항목 풀을 사용자가 상호 작용한 특정 항목과 비교하여 Adobe Target Recommendations에서 동적으로 필터링하는 방법을 알아봅니다.
+title: Recommendations 활동에서 개체 속성 일치별로 필터링하려면 어떻게 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '524'
 ht-degree: 0%
 
 ---
