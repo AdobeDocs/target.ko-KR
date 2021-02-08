@@ -1,12 +1,12 @@
 ---
 keywords: 자동 할당;A/B 테스트;자동 할당 활동;새 a/b 활동;자동 할당;최고의 경험에 자동 할당;할당;자동 할당;자동 할당;자동 할당
-description: Adobe Target의 VEC(Visual Experience Composer)를 사용하여 Target이 활성화된 페이지에서 직접 A/B 테스트 자동 할당 활동을 만들고 Target 내의 페이지 부분을 수정할 수 있습니다.
-title: 자동 할당 활동 만들기
+description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하여 Target 사용 페이지에서 직접 A/B 테스트 자동 할당 활동을 만드는 방법을 알아봅니다.
+title: 자동 할당 활동을 만들려면 어떻게 합니까?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '916'
+source-wordcount: '913'
 ht-degree: 56%
 
 ---
