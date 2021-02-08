@@ -1,13 +1,13 @@
 ---
 keywords: 권장 사항;오퍼
-description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations
-title: Recommendations을 A/B 테스트(자동 할당 및 자동 Target 포함) 및 경험 타깃팅(XT) 활동의 오퍼로 사용
+description: A/B 테스트(자동 할당 및 자동 Target 포함) 및 경험 타깃팅(XT) 활동에서 Adobe Recommendations을 오퍼로 사용하는 방법을 알아봅니다.
+title: 다른 활동 유형에서 Recommendations을 오퍼로 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 95%
+source-wordcount: '556'
+ht-degree: 92%
 
 ---
 
