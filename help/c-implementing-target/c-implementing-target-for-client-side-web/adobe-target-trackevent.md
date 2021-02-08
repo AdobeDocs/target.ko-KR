@@ -1,18 +1,19 @@
 ---
 keywords: adobe.target.이벤트 추적;이벤트 추적;이벤트 추적;이벤트 추적;at.js;함수;함수;기본값 방지;기본 방지;기본 방지
-description: Adobe Target at.js JavaScript 라이브러리에 대한 adobe.target.trackEvent(options) 함수 정보입니다.
-title: Adobe.Target.Trackevent(Options)
+description: Adobe Target at.js JavaScript 라이브러리에 대해 adobe.target.trackEvent() 함수를 사용하여 사이트에서 클릭 및 전환과 같은 사용자 작업을 보고하라는 요청을 실행합니다.
+title: adobe.target.trackEvent() 함수를 어떻게 사용합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 79%
+source-wordcount: '329'
+ht-degree: 70%
 
 ---
 
 
-# adobe.target.trackEvent(options)
+# adobe.target.trackEvent(옵션)
 
 이 함수는 클릭 및 전환과 같은 사용자 작업을 보고하라는 요청을 실행하며, 응답에 있는 활동을 전달하지는 않습니다.
 
