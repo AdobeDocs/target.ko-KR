@@ -1,12 +1,12 @@
 ---
 keywords: a/b;a/a;aa;
-description: Adobe Target을 사용하여 사이트에서 A/A 테스트를 수행하기 전에 A/A 테스트가 무엇인지, A/A 테스트를 수행할 수 있는 이유, 테스트 실행 시간 및 결과 해석 방법을 이해하는 것이 중요합니다.
-title: A/A 테스트
+description: A/A 테스트의 정의, A/A 테스트를 수행하려는 이유, 테스트를 실행해야 하는 시간, 결과를 해석하는 방법을 알아봅니다.
+title: A/A 테스트란 무엇입니까?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '909'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
