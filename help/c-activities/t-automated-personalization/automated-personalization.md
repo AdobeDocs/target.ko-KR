@@ -1,13 +1,13 @@
 ---
-keywords: automated personalization;ap;audiences;ensemble;random forest;multi-armed bandit;thompson sampling;ml;machine learning
-description: Automated Personalization(AP) 활동은 오퍼나 메시지를 조합하고, 컨텐츠를 개인화하고 리프트를 유도하기 위해 고급 기계 학습을 사용하여 개별 고객 프로파일을 기반으로 각 방문자에게 다양한 오퍼 변형을 일치시킵니다.
-title: 자동화된 개인화
+keywords: 자동화된 개인화;ap;audiences;앙상블;임의 포리스트;다중 무장 강도;톰슨 샘플링;ml;기계 학습
+description: 각 방문자에게 다양한 오퍼 변형을 일치시키기 위해 고급 기계 학습을 사용하는 Adobe Target의 Automated Personalization(AP) 활동을 사용하는 방법에 대해 알아보십시오.
+title: Automated Personalization(AP) 활동이란 무엇입니까?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1027'
-ht-degree: 89%
+source-wordcount: '1032'
+ht-degree: 88%
 
 ---
 
