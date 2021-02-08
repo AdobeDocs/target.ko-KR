@@ -1,13 +1,13 @@
 ---
 keywords: 보고서;자동 타겟;자동 타겟;AT;보고서
-description: Adobe Target의 자동 Target 요약 보고서를 해석하는 방법에 대한 정보입니다.
-title: 자동 Target 요약 보고서
+description: Adobe Target에서 자동 Target 요약 보고서를 해석하는 방법을 알아봅니다. 이 보고서에서 자동화된 세그먼트 및 중요 속성 보고서로 전환할 수 있습니다.
+title: 자동 Target 요약 보고서를 어떻게 사용합니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 56%
+source-wordcount: '690'
+ht-degree: 54%
 
 ---
 
