@@ -1,13 +1,14 @@
 ---
 keywords: 구현;구현
-description: Adobe Target을 구현하기 전에 고려해야 할 사항입니다.
-title: 구현하기 전에
+description: Adobe Target을 구현하기 전에 고려해야 할 사항을 알아야 합니다.
+title: 구현하기 전에 무엇을 알아야 합니까?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 90%
+source-wordcount: '117'
+ht-degree: 76%
 
 ---
 
