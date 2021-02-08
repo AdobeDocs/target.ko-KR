@@ -1,13 +1,14 @@
 ---
 keywords: 모바일 앱;모바일 앱 프로세스;Target 모바일 앱;모바일 타겟 위치;모바일 앱 성공 지표
-description: 모바일 앱 최적화 및 개인화에 Target을 사용할 수 있습니다.
-title: 모바일 앱용 Target
+description: 반복적인 테스트, 규칙 기반의 개인화 및 AI 기반의 개인화를 통해 Adobe Target을 모바일 앱 최적화 및 개인화에 사용하는 방법을 살펴볼 수 있습니다.
+title: 모바일 앱에서 Target을 사용할 수 있습니까?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 96%
+source-wordcount: '145'
+ht-degree: 77%
 
 ---
 
