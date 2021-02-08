@@ -1,13 +1,13 @@
 ---
 keywords: Experience Cloud;로그인;언어;기본 ui 언어;기본 언어
-description: Adobe Experience Cloud에서 Target에 액세스하려면 어떻게 합니까?
-title: Adobe Experience Cloud에서 Target 액세스
+description: Adobe Experience Cloud에서 Target에 액세스하고, 기본 보기를 설정하고, Target UI 및 설명서의 언어를 변경하는 방법에 대해 알아보십시오.
+title: Adobe Experience Cloud에서 Target에 액세스하려면 어떻게 합니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 69%
+source-wordcount: '419'
+ht-degree: 67%
 
 ---
 
