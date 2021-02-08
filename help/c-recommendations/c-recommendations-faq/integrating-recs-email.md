@@ -1,13 +1,13 @@
 ---
 keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;배달 API;다운로드 전용 템플릿;이메일 템플릿;일괄처리;작성 시간 이메일
-description: 이메일을 권장 사항과 통합하는 방법에 대한 정보입니다.
-title: 이메일에 Recommendations 통합
+description: Target 배달 API, rawbox 템플릿, 다운로드 전용 템플릿 사용을 포함하여 Adobe Target Recommendations과 이메일을 통합하는 방법을 알아봅니다.
+title: Recommendations을 이메일과 통합하려면 어떻게 해야 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 91%
+source-wordcount: '1490'
+ht-degree: 89%
 
 ---
 
