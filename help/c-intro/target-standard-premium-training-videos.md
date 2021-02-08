@@ -1,13 +1,13 @@
 ---
 keywords: 교육 비디오;youtube;비디오;비디오 교육;자습서;자습서;비디오
 description: Target Standard 및 Target Premium을 최대한 활용하는 데 도움이 되는 교육 비디오를 시청해 보십시오.
-title: 교육 비디오
+title: Target 교육 비디오는 어디에서 찾을 수 있습니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 67%
+source-wordcount: '169'
+ht-degree: 63%
 
 ---
 
