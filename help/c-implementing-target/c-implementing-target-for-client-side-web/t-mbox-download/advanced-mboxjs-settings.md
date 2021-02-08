@@ -1,13 +1,14 @@
 ---
-keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
-description: mbox.js 설정 페이지에서 여러 설정을 지정하는 데 도움이 되는 정보입니다.
-title: mbox.js 구성
+keywords: 고급 mbox.js 설정;클라이언트;서버 도메인;xdomain;압축 수준;클라이언트 세션 ID 지원;secureOnly;클라이언트 pc id 지원;페이지 전달;참조 url;트래픽 수준;트래픽 기간;mboxParameters() 함수 본문;mboxSupported() 함수 본문;mboxCookieDomain() 함수 본문;추가 JavaScript;SiteCatalyst 플러그인;mbox.js를 자동 압축 해제 JavaScript;깜박임;본문 숨김;본문 숨기기
+description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
+title: Target mbox.js 라이브러리를 구성하려면 어떻게 합니까?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 74%
+source-wordcount: '472'
+ht-degree: 70%
 
 ---
 
