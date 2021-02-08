@@ -1,12 +1,12 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target 시작 키트 - 4장 - Target 사용 팁
-title: 환영 키트 - 4장 - Target 사용 팁
+description: 테스트 및 개인화 노력의 일환으로 Adobe Target을 사용하는 방법에 대한 Adobe 전문가 패널에서 팁을 확인할 수 있습니다.
+title: Target 사용에 대한 팁과 트릭은 어디에서 찾을 수 있습니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
