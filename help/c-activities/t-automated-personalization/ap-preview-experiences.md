@@ -1,13 +1,13 @@
 ---
 keywords: Automated Personalization;ap;preview;exclude experience;
-description: AP(자동화된 개인화) 활동은 한 페이지의 여러 오퍼를 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
-title: VEC(Visual Experience Composer)에서 Automated Personalization 경험 미리 보기
+description: VEC(Visual Experience Composer)를 사용하여 Adobe Target의 Automated Personalization(AP) 활동에서 각 경험을 미리 보는 방법을 알아봅니다.
+title: VEC에서 Automated Personalization 경험을 미리 보려면 어떻게 해야 합니까?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 55%
+source-wordcount: '259'
+ht-degree: 47%
 
 ---
 
