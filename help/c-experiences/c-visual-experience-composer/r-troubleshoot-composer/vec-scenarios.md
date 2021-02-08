@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: 이 항목의 시나리오에서는 페이지 변경 사항이 Adobe Target의 경험 표시 기능에 어떤 영향을 미치는지 보여줍니다.
-title: 페이지 수정 시나리오
+description: VEC(Visual Experience Composer)에서 페이지의 변경 내용이 Adobe Target의 경험 표시 기능에 어떤 영향을 미치는지 보여 주는 일반적인 시나리오를 살펴봅니다.
+title: 몇 가지 일반적인 페이지 수정 시나리오란 무엇입니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 92%
+source-wordcount: '532'
+ht-degree: 90%
 
 ---
 
