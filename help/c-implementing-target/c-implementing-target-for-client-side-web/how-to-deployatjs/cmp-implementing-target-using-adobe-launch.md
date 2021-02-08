@@ -1,13 +1,14 @@
 ---
 keywords: 구현;구현;adobe launch;launch;race;redirect;experience platform launch
-description: Adobe Experience Platform Launch은 Adobe의 차세대 태그 관리 플랫폼으로 Adobe Target을 구현하는 데 가장 선호되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
-title: Adobe Launch를 사용하여 구현을 참조하십시오
+description: Adobe Target 구현에 선호하는 방법인 Adobe Experience Platform Launch을 사용하여 Adobe Target at.js 라이브러리를 구현하는 방법을 알아봅니다.
+title: Adobe 시작을 사용하여 Target을 구현하려면 어떻게 합니까?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 79%
+source-wordcount: '454'
+ht-degree: 76%
 
 ---
 
