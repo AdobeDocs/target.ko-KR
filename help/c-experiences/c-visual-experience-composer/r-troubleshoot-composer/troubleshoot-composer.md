@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: 특정 상황에서 VEC(시각적 경험 작성기) 및 EEC(고급 경험 작성기)에서 표시 문제가 발생하는 경우가 있습니다.
-title: 시각적 경험 작성기 및 고급 경험 작성기 문제 해결
+keywords: 타게팅;시각적 경험 컴포저;향상된 시각적 경험 컴포저;vec;문제 해결 시각적 경험 컴포저;문제 해결;eec;강화된 경험 컴포저;tls;tls 1.2
+description: 특정 조건에서 VEC(Visual Experience Composer) 및 EEC(Enhanced Experience Composer)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
+title: Visual Experience Composer 및 향상된 Experience Composer의 문제를 어떻게 해결합니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 91%
+source-wordcount: '248'
+ht-degree: 70%
 
 ---
 
