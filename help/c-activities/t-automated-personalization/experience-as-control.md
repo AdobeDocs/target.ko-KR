@@ -1,14 +1,14 @@
 ---
 keywords: 경험;제어;자동화된 개인화;자동 타겟
-description: Adobe Target에서 AP(자동화된 개인화) 또는 자동 타겟 활동을 작성하는 동안 제어로 사용할 경험을 선택합니다.
-title: 특정 경험을 제어로 사용
+description: Adobe Target에서 Automated Personalization(AP) 또는 자동 Target 활동을 만들 때 제어로 사용할 경험을 선택하는 방법을 알아봅니다.
+title: AP 활동에서 특정 경험을 제어로 사용하려면 어떻게 해야 합니까?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 99%
+source-wordcount: '765'
+ht-degree: 95%
 
 ---
 
