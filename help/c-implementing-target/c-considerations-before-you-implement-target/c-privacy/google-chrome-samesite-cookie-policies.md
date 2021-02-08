@@ -1,13 +1,14 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
-description: Google Chrome 버전 80부터 도입되는 Adobe Target 및 SameSite IETF 표준에 대한 정보입니다.
-title: Google의 Samesite 쿠키 정책
+description: Adobe Target에서 Google Chrome 버전 80에 도입된 SameSite IETF 표준을 처리하는 방법과 이러한 정책을 준수하기 위해 필요한 작업을 알아봅니다.
+title: Target은 Google의 샘플 쿠키 정책을 어떻게 처리합니까?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 7%
+source-wordcount: '2050'
+ht-degree: 6%
 
 ---
 
