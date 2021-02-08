@@ -1,13 +1,13 @@
 ---
 keywords: 타겟 지정
-description: 각 경험에 대한 전환율, 상승도, 신뢰도(통계적 중요도) 및 신뢰 구간이 보고됩니다.
-title: 전환율
+description: Adobe Target이 각 경험에 대한 전환율, 향상도, 신뢰도(통계적 중요도) 및 신뢰 구간을 표시하고 계산하는 방법을 알아봅니다.
+title: 전환율, 상승도 및 신뢰도 수준은 어떻게 볼 수 있습니까?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2173'
-ht-degree: 71%
+source-wordcount: '2187'
+ht-degree: 70%
 
 ---
 
