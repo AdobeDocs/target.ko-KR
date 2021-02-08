@@ -1,12 +1,12 @@
 ---
 keywords: adobe target;target;documentation;api;api;sdk;sdk;tutorials;doc;documentation
-description: Target 설명서는 어디에서 찾을 수 있습니까?
-title: 설명서 개요
+description: 온라인 도움말, 자습서, 비디오 및 개발자 설명서(SDK, API 및 JavaScript 라이브러리)가 포함된 Adobe Target 문서에 액세스합니다.
+title: Target 설명서는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
