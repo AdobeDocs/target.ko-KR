@@ -1,14 +1,14 @@
 ---
 keywords: 추천 키;권장 논리;현재 카테고리;사용자 지정 특성;마지막으로 본 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾는 항목;인기 항목;최근에 본 항목;마지막으로 본 항목;마지막으로 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목
-description: 키를 기반으로 하는 Recommendations은 방문자 행동 컨텍스트를 사용하여 Adobe Target Recommendations 활동의 관련 결과를 보여줍니다.
-title: 권장 사항 키를 기반으로 권장 사항 만들기를 참조하십시오
+description: 방문자 행동 컨텍스트를 사용하여 Adobe Target Recommendations 활동에 관련 결과를 표시하는 키를 기반으로 권장 사항을 사용하는 방법을 알아봅니다.
+title: 권장 사항 키를 기반으로 권장 사항을 만들려면 어떻게 합니까?
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 68%
+source-wordcount: '2932'
+ht-degree: 67%
 
 ---
 
