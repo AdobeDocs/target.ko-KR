@@ -1,12 +1,12 @@
 ---
-keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: 페이지 수정 사항을 보고 추가 수정(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가할 수 있는 Adobe Target의 수정 페이지에 대한 정보입니다.
-title: 수정 사항
+keywords: css 선택기;사용자 지정 코드;코드 편집기;모바일 웹 경험 편집기
+description: Adobe Target의 [수정] 패널을 사용하여 페이지 수정 내용을 보고 추가 수정(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가하는 방법을 알아보십시오.
+title: 페이지를 수정할 수 있는 작업은 무엇입니까?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2123'
 ht-degree: 95%
 
 ---
