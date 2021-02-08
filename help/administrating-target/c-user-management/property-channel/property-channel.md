@@ -1,12 +1,13 @@
 ---
 keywords: 작업 공간;속성 관리;권한;제품 구성;제품 프로필;역할;프로젝트
-description: Adobe Target 관리자가 Target에서 별도의 작업 영역(제품 프로필)을 만든 다음 이러한 작업 영역을 기반으로 개별 페이지, 속성 또는 웹 사이트에 대해 서로 다른 역할 및 권한을 사용자에게 할당할 수 있는 속성 및 권한 기능을 사용하여 속성을 만듭니다.
-title: Enterprise 사용자 권한
+description: 별도의 작업 영역(제품 프로필)을 만든 다음 개별 페이지, 속성 또는 웹 사이트에 대해 다양한 역할 및 권한을 사용자에게 할당하는 방법을 알아보십시오.
+title: 엔터프라이즈 사용자 권한은 무엇이며 어떻게 사용합니까?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3053'
 ht-degree: 79%
 
 ---
