@@ -1,12 +1,12 @@
 ---
 keywords: 활동;활동;활동 유형;활동 편집;편집;초안
-description: 활동을 초안 양식으로 저장하는 것을 포함하여 Adobe Target에서 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
-title: 활동 편집 또는 초안으로 저장
+description: 활동을 초안 양식으로 저장하는 것을 포함하여 Adobe Target에서 기존 활동을 편집할 수 있는 다양한 방법에 대해 알아봅니다.
+title: 활동을 편집하거나 초안으로 저장하려면 어떻게 합니까?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1126'
 ht-degree: 95%
 
 ---
