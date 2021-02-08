@@ -1,13 +1,13 @@
 ---
 keywords: 컨텐츠;폴더 만들기;자산;폴더 이동;폴더 복사;폴더 삭제;폴더 다운로드;폴더
 description: 오퍼 라이브러리에 폴더를 만들려면 어떻게 합니까?
-title: 오퍼 폴더 만들기
+title: Adobe Target 오퍼 라이브러리에서 코드, 이미지 오퍼와 다른 폴더를 저장할 폴더를 만드는 방법을 알아봅니다.
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 22%
+source-wordcount: '277'
+ht-degree: 20%
 
 ---
 
