@@ -1,13 +1,13 @@
 ---
 keywords: 원격 오퍼;원격 오퍼 만들기
-description: JSON 오퍼는 어떻게 생성합니까?
-title: JSON 오퍼 만들기를 참조하십시오
+description: 양식 기반 Experience Composer에서 사용할 수 있도록 Adobe Target에서 JSON 오퍼를 만드는 방법을 알아봅니다. JSON 오퍼는 SPA 프레임워크 또는 서버측 통합에 유용합니다.
+title: JSON 오퍼는 어떻게 생성합니까?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 58%
+source-wordcount: '411'
+ht-degree: 54%
 
 ---
 
