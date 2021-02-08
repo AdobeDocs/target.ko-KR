@@ -1,12 +1,12 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target 환영 키트 - 6장 - 간편한 잠재적 함정
-title: 환영 키트 - 6장 - 쉬운 위험 요소
+description: 테스트 및 개인화 전략의 일부로 Adobe Target을 사용할 때 동일하지 않도록 다른 사람의 실수를 배울 수 있습니다.
+title: Target 사용 시 일반적인 실수는 무엇이며 어떻게 하면 이러한 실수를 피할 수 있습니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
