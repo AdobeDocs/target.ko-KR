@@ -1,14 +1,14 @@
 ---
 keywords: 타깃팅;a4t;지역;지리 기반의 타깃팅;지리 기반의 타깃팅 정확도;국가;주/시/도;도시;우편 번호;dma;이동통신사;도시 코드;지역 코드;국가 코드;대도시 코드;프로필 스크립트;지리 기반의 타깃팅 프로필 스크립트;지리 기반의 타깃팅 모바일
-description: 국가, 시/도, 도시, 우편 번호, DMA 또는 이동통신사를 포함하여 지리적 위치를 기반으로 하는 사용자를 타깃팅하려면 Adobe Target 대상을 사용합니다.
-title: 대상의 지역 옵션
+description: 국가, 구/군/시, 우편 번호 등을 비롯한 지리적 위치에 따라 사용자를 타깃팅하기 위해 Adobe Target 고객을 만드는 방법을 알아봅니다.
+title: 방문자 기반 위치를 Target으로 지정할 수 있습니까?
 feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '970'
-ht-degree: 88%
+source-wordcount: '971'
+ht-degree: 85%
 
 ---
 
