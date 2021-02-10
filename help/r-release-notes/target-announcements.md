@@ -4,10 +4,10 @@ description: 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비
 title: Target 공지 사항 및 이벤트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 1%
 
 ---
 
@@ -25,20 +25,20 @@ Adobe Target은 Forrester와 Gartner가 시장 리더로 최근에 인증한 바
 | Forrester | **Adobe은 경험 최적화 플랫폼을 위한 Forrester wave 보고서에서 리더로 선정되었습니다.**<br>&quot;The Forrester Wave:경험 최적화 플랫폼, 2020년 4분기 보고서(Adobe Target Premium) Adobe은 현재 제공 중인 솔루션 및 시장 입지 카테고리에서 추천 및 플랫폼 경험 기준으로 참여하는 모든 벤더 중에서 가장 높은 점수를 받았습니다. 또한 Target Premium은 경험 최적화 기법 혁신 및 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 이 보고서는 22개 기준을 바탕으로 10개의 경험 최적화 플랫폼 제공업체를 정밀하게 평가합니다.<br>Adobe 블로그에서  [확인할 수 있습니다](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe은 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정되었습니다.**<br> Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 조사 결과 15개 부문에서 벤더를 평가했으며, 그 기준은 2개였습니다.비전의 완전성과 실행의 능력.<br>[Adobe 블로그에서 이 정보를 참조하십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## 웨비나:규모에 맞게 개인화 성공:Forrester Wave, 경험 최적화 플랫폼 조사 결과
+## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
 
-* **1월 19일 화요일**
-* **오전 8시 PT | 오전 10시 CT | 동부시간 오전 11시**
-* **기간:60분**
-* **[여기에서 등록하십시오](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998).**
+* **2월 24일 수요일**
+* **오전 9시(태평양 표준시) | 오전 11시 CST | 12 정오 EST**
+* **지속 시간 60분**
+* **[추가 정보](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
 
-고객 경험을 규모에 맞게 최적화할 수 있는 기능은 이제 고객의 다이내믹한 요구 사항과 새로운 디지털 방문자의 급등을 충족하기 위해 매우 중요합니다. 디지털 자산 전반에 [!DNL Adobe Target]과 같은 경험 최적화 플랫폼을 배포하여 고객에게 적합한 경험을 적시에 신속하게 결정하고 제공하여 수동 및 AI 기반의 행동 타깃팅, 테스트 및 추천 기능을 활용할 수 있습니다. Forrester의 수석 애널리스트인 James McCormick와 함께 The Forrester Wave, 경험 최적화 플랫폼, 2020년 4분기에 발표된 주요 결과에 대해 논의합니다.
+Adobe Target 수석 제품 관리자 Rob Hornick이 참여할 예정입니다. Rob은 Target과 그의 전문 분야에 관한 당신의 질문에 답할 것이다:
 
-이 웨비나에서는 다음과 같은 내용을 살펴볼 수 있습니다.
-
-* 개인화 및 경험 최적화 도구의 발전을 이끌어내는 업계 트렌드
-* 선도적인 경험 최적화 플랫폼의 주요 기능
-* 비즈니스 효과를 극대화하기 위해 고객 경험을 규모에 맞게 최적화하기 위한 모범 사례
+* Recommendations
+* 자동 할당
+* 자동 타겟
+* 자동화된 개인화
+* 기계 학습 및 인공 지능
 
 ## 웨비나:Adobe Target의 디바이스에서 의사 결정을 내림으로써 지연 없이 개인화 및 테스트
 
