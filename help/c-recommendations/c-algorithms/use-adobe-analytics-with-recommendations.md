@@ -4,10 +4,10 @@ description: Adobe Analytics을 행동 데이터 소스로 사용하여 Target R
 title: Target Recommendations과 함께 Adobe Analytics을 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
 workflow-type: tm+mt
-source-wordcount: '1035'
-ht-degree: 3%
+source-wordcount: '766'
+ht-degree: 0%
 
 ---
 
@@ -57,83 +57,7 @@ Recommendations에서 [기준](/help/c-recommendations/c-algorithms/create-new-a
 
 사용할 데이터 소스를 신속하게 결정하려면 사용자가 매일 생성하는 유기적 데이터가 많고 내역 데이터에 많은 종속성이 필요하지 않은 경우 행동 데이터 소스로 [!DNL Target] mbox를 사용하는 것이 좋습니다. 최근 생성된 유기적 데이터의 사용 가능성이 적은 경우, [!DNL Analytics] 데이터를 고려하려는 경우 행동 데이터 소스로 [!DNL Analytics]을(를) 사용하는 것이 좋습니다.
 
-### 배포 단계
-
-모든 사전 이수 과정을 적절히 활용한다고 가정할 때 [!DNL Adobe Target Recommendations] 팀에서 다음 작업을 수행해야 합니다.
-
->[!IMPORTANT]
->
->아래 단계는 실례만을 위한 것입니다. [!DNL Recommendations] 팀의 구성원은 현재 다음 단계를 수행해야 합니다. [자세한 내용은 고객 지원 센터에 문의하십시오.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
-
-1. [!DNL Target]에서 **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭하여 [!DNL Target] 클라이언트 코드를 가져옵니다.
-
-   ![클라이언트 코드](/help/c-recommendations/c-algorithms/assets/client-code.png)
-
-1. [!DNL Analytics] 보고서 세트를 가져옵니다.
-
-   [!DNL Analytics] 프로덕션 사이트 보고서 세트를 사용합니다. 이 보고서 세트는 [!DNL Recommendations]이(가) 배포된 사이트를 추적하는 보고서 세트입니다.
-
-1. [!DNL Analytics]에서 **[!UICONTROL 관리]** > **[!UICONTROL 데이터 피드]**&#x200B;를 클릭합니다.
-
-   ![설정 > 데이터 피드](/help/c-recommendations/c-algorithms/assets/data-feed.png)
-
-1. **[!UICONTROL 추가]**&#x200B;를 클릭하여 새 피드를 만듭니다.
-
-   ![피드 추가](/help/c-recommendations/c-algorithms/assets/add-feed.png)
-
-1. 피드 정보 채우기:
-
-   * **이름**:제품 피드 다시 작성
-   * **보고서 세트**:미리 결정된 보고서 세트
-   * **이메일**:관리자 사용자의 적절한 주소 지정
-   * **피드 간격**:원하는 간격 선택
-   * **처리 지연**:지연이 없습니다.
-   * **시작 및 종료 날짜**:연속 피드
-
-   ![피드 정보 섹션](/help/c-recommendations/c-algorithms/assets/feed-information.png)
-
-1. **[!UICONTROL 대상]** 섹션의 세부 사항을 입력합니다.
-
-   >[!NOTE]
-   > 
-   >이 단계를 수행하려면 먼저 [!DNL Adobe Analytics] 팀과 상의하십시오.
-
-   * **유형**:FTP
-   * **호스트**: `xxx.yyy.com`
-   * **경로**:클라이언트  [!DNL Target] 코드
-   * **사용자 이름**:사용자 이름 지정
-   * **암호**:암호 지정
-
-   스크린샷은 참조용으로만 사용됩니다. 배포에는 다른 자격 증명이 있습니다. 이 단계를 수행하는 동안 [!DNL Adobe Analytics] 팀 또는 고객 지원 센터에 문의하십시오.
-
-   ![대상 섹션](/help/c-recommendations/c-algorithms/assets/destination.png)
-
-1. **[!UICONTROL 데이터 열]** 정의를 채웁니다.
-
-   * **압축 형식**:Gzip
-   * **패키징 유형**:단일 파일
-   * **매니페스트:** 완료 파일
-
-      ![압축 형식, 패키징 유형 및 매니페스트 설정](/help/c-recommendations/c-algorithms/assets/compression.png)
-
-   * **포함된 열**:
-
-      >[!IMPORTANT]
-      >
-      >여기에 설명된 것과 동일한 순서로 열을 추가해야 합니다. 다음 순서로 열을 선택하고 각 열에 대해 **[!UICONTROL 추가]**&#x200B;를 클릭합니다.
-
-      * hit_time_gmt
-      * visid_high
-      * visid_low
-      * event_list
-      * product_list
-      * visit_num
-
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
-
-   ![데이터 열 정의 섹션](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
-
-이 경우 [!DNL Analytics]쪽에 설정된 설정이 완료됩니다. 이제 행동 데이터의 지속적인 공급을 위해 이러한 변수를 [!DNL Target] 측에 매핑할 때입니다.
+이제 행동 데이터의 지속적인 공급을 위해 이러한 변수를 [!DNL Target] 측에 매핑할 때입니다.
 
 ## Target에서 구현
 
