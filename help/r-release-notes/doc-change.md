@@ -4,7 +4,7 @@ description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bbf50435926b1ec5e9d85e8cf7cd6e50a370f876
+source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
 workflow-type: tm+mt
 source-wordcount: '3626'
 ht-degree: 28%
@@ -20,7 +20,7 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2월 11일 | ![Target 작동 방식](/help/c-intro/how-target-works.md) | &quot;보트&quot; 섹션이 업데이트되었습니다. |
+| 2월 11일 | [Target 작동 방식](/help/c-intro/how-target-works.md) | &quot;보트&quot; 섹션이 업데이트되었습니다. |
 | 2월 10일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 2021년 2월 24일 수요일에 Adobe Target Community Q&amp;A Coffee Break에 대한 정보가 추가되었습니다. |
 | 2월 8일 | [타겟 모바일 미리 보기](/help/c-target-mobile-app/target-mobile-preview.md) | Adobe Mobile SDK 버전 4용 AndroidManifest.xml 파일에 추가해야 하는 코드 조각을 추가했습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음과 같은 알려진 문제를 명확히 했습니다.<ul><li>API를 통해 만든 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다. 마찬가지로 Target UI에서 이러한 항목을 만든 후 나중에 API를 통해 편집하는 경우 이러한 변경 사항은 Target UI에 반영되지 않습니다. API를 통해 편집한 항목은 수정 내용이 손실되지 않도록 API를 통해 계속 편집해야 합니다.</li></ul> |
