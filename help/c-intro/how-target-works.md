@@ -4,10 +4,10 @@ description: Target JavaScript 라이브러리(at.js 및 AEP Web SDK), Adobe 데
 title: Target은 어떻게 작동합니까?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 70%
+source-wordcount: '2559'
+ht-degree: 69%
 
 ---
 
@@ -200,7 +200,13 @@ Google에서는 한 예로 &quot;사이트의 원본 페이지를 로드한 키�
 
 ## 보트 {#bots}
 
-Adobe Target은 [DeviceAtlas](https://deviceatlas.com/)를 사용하여 알려진 보트를 감지합니다. 보트에 의해 생성된 것으로 식별된 트래픽은 SEO 가이드라인과 일치하도록 일반 사용자와 같은 콘텐츠를 계속 제공합니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 다소 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
+Adobe Target은 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/) 지표 &quot;isRobot&quot;를 사용하여 요청 헤더에 전달된 사용자 에이전트 문자열을 기반으로 알려진 보트를 감지합니다.
+
+>[!NOTE]
+>
+> [!DNL Server Side] 요청의 경우 [요청의 &quot;Context&quot; 노드](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)에 전달된 값이 보트 감지를 위한 사용자 에이전트 문자열보다 우선합니다.
+
+보트에 의해 생성된 것으로 식별된 트래픽은 SEO 가이드라인과 일치하도록 일반 사용자와 같은 콘텐츠를 계속 제공합니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 다소 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
 
 특히 알려진 보트 트래픽 Target의 경우 다음이 불가능합니다.
 
