@@ -4,9 +4,9 @@ description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
-source-wordcount: '3626'
+source-wordcount: '3641'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 16일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 프리릴리스 노트에서 오퍼 제한 크기에 대한 텍스트가 업데이트되었습니다. |
 | 2월 11일 | [Target 작동 방식](/help/c-intro/how-target-works.md) | &quot;보트&quot; 섹션이 업데이트되었습니다. |
 | 2월 10일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 2021년 2월 24일 수요일에 Adobe Target Community Q&amp;A Coffee Break에 대한 정보가 추가되었습니다. |
 | 2월 8일 | [타겟 모바일 미리 보기](/help/c-target-mobile-app/target-mobile-preview.md) | Adobe Mobile SDK 버전 4용 AndroidManifest.xml 파일에 추가해야 하는 코드 조각을 추가했습니다. |
