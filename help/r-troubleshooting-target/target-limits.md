@@ -5,10 +5,10 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 65%
+source-wordcount: '1086'
+ht-degree: 64%
 
 ---
 
@@ -159,7 +159,7 @@ ht-degree: 65%
    * 프로필 매개 변수 값은 null일 수 없습니다.
    * 프로필 매개 변수 값 최대 길이 256
 
-   **배달 API 끝점**
+   **배달 API 끝점**:
 
    * mbox 매개 변수 50
    * mbox 매개 변수 이름 최대 길이 128
@@ -194,11 +194,11 @@ ht-degree: 65%
 
 ### 오퍼 크기
 
-* **제한**: 오퍼에는 다음 크기가 적용됩니다.
+다음 크기 제한이 오퍼에 적용됩니다.
 
-   * HTML 오퍼에는 256KB.
-   * UI의 시각적 오퍼에는 64KB.
-   * API에는 512KB.
+* HTML 오퍼에는 256KB.
+* UI의 시각적 오퍼에는 64KB.
+* API에는 512KB.
 
    글로벌 mbox를 사용하는 경우 이 제한은 페이지에 대해 반환되는 전체 콘텐츠 세트에 해당됩니다. 오퍼 크기를 제한하면 페이지 로드 시간이 향상됩니다. 이 제한을 초과하는 경우 다음 메시지가 나타납니다.
 
