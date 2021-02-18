@@ -4,10 +4,10 @@ description: Adobe Target 및 Adobe Analytics 솔루션에서 A4T(Target)용 Ana
 title: Target(A4T)에 대한 분석을 구현하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '919'
-ht-degree: 47%
+source-wordcount: '918'
+ht-degree: 48%
 
 ---
 
@@ -32,15 +32,15 @@ ht-degree: 47%
 
 방문자 ID 서비스를 통해 [!DNL Adobe Experience Cloud] 솔루션에서 사용자를 식별할 수 있습니다. 필요한 Experience Cloud 방문자 ID 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
-*Experience Cloud 방문자 ID 서비스* 설명서의 [Target](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html)에 대한 Experience Cloud ID 서비스 구현을 참조하십시오.
+*Experience Cloud 방문자 ID 서비스* 설명서의 [Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)에 대한 Experience Cloud ID 서비스 구현을 참조하십시오.
 
 ## 4단계: AppMeasurement for JavaScript 또는 s_code의 AppMeasurement 업데이트
 
 필요한 appMeasurement.js 버전을 구현하거나 이 버전으로 마이그레이션해야 합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
-새 구현에 대해서는 *Analytics 구현 안내서*&#x200B;의 [JavaScript 구현 개요](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html)를 참조하십시오.
+새 구현에 대해서는 *Analytics 구현 안내서*&#x200B;의 [JavaScript 구현 개요](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html)를 참조하십시오.
 
-마이그레이션에 대해서는 *Analytics 구현 안내서*&#x200B;에서 [JavaScript용 AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html)로 마이그레이션을 참조하십시오.
+마이그레이션에 대해서는 *Analytics 구현 안내서*&#x200B;에서 [JavaScript용 AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)로 마이그레이션을 참조하십시오.
 
 ## 5단계:at.js 다운로드 및 업데이트
 
