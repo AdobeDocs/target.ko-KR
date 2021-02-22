@@ -2,23 +2,23 @@
 keywords: 비보안;보안;비보안;크롬;문제 해결;vec;시각적 경험 작성기;비보안;http;https;firefox;internet explorer
 description: 일부 브라우저의 경우 보안 컨텐츠가 비보안 컨텐츠와 혼합된 경우 페이지 표시를 차단합니다. Chrome, Firefox 및 Edge에서 혼합 컨텐츠를 사용하는 방법에 대해 학습합니다.
 title: 브라우저에서 혼합 컨텐츠를 사용하려면 어떻게 해야 합니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 33%
+source-wordcount: '592'
+ht-degree: 25%
 
 ---
 
 
 # 브라우저에서 혼합 컨텐츠 사용
 
-동일한 웹 페이지를 표시하도록 HTTPS(보안) *와* HTTP(안전하지 않은) 컨텐츠가 모두 로드되고 초기 요청이 HTTPS를 통해 보안이 설정된 경우 혼합 컨텐츠가 발생합니다.
+초기 요청이 HTTPS를 통해 보안을 설정하지만 웹 페이지를 표시하기 위해 HTTPS *및* HTTP 컨텐츠가 로드되는 경우 혼합 컨텐츠가 발생합니다. HTTPS 컨텐츠는 안전합니다. HTTP 내용이 안전하지 않습니다.
 
 보안 컨텐츠가 안전하지 않은 컨텐츠와 섞여 있는 경우 최신 브라우저에서 페이지 표시를 차단하거나 경고 메시지를 표시할 수 있습니다.
 
-[!DNL Target]의 [!UICONTROL Visual Experience Composer](VEC)가 혼합 컨텐츠가 들어 있는 페이지를 열려고 하면 HTTP 사이트 또는 혼합 호출(HTTPS 및 HTTP)이 있는 사이트를 열 수 있도록 브라우저에서 차단을 비활성화하는 방법을 보여주는 메시지가 표시됩니다.
+[!DNL Target]의 [!UICONTROL Visual Experience Composer](VEC)가 혼합 내용이 포함된 페이지를 열려고 하면 경고 메시지가 표시됩니다. 이 메시지는 브라우저에서 차단을 비활성화하는 방법을 알려줍니다. 차단 기능을 비활성화하면 HTTP 사이트 또는 혼합 호출(HTTPS 및 HTTP)이 있는 사이트를 열 수 있습니다.
 
 ![혼합 컨텐츠 경고](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -26,7 +26,7 @@ ht-degree: 33%
 
 브라우저의 보안 설정이 혼합 컨텐츠나 비보안(HTTP) 컨텐츠가 보안(HTTPS) 페이지나 프레임(예: VEC)으로 로드되는 것을 차단할 수 있습니다. 브라우저의 보안 설정을 비활성화하지 않으려면 HTTPS 웹 사이트가 있어야 합니다.
 
-웹 사이트가 비보안(HTTP) 도메인에서 실행 중인 경우에는 VEC이 활성 상태 혼합 컨텐츠를 로드하는 것을 허용해야 합니다.
+웹 사이트가 비보안(HTTP) 도메인에서 실행 중인 경우 VEC가 활성 혼합 컨텐츠를 로드하도록 허용해야 합니다.
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ ht-degree: 33%
 
 보안 연결을 통해 사이트를 방문하는 경우 Chrome에서는 웹 페이지의 컨텐츠가 안전하게 전송되었는지 확인합니다.
 
-Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가 있음](https://support.google.com/chrome/answer/1342714?hl=en)을 참조하십시오.
+Google Chrome 도움말의 &quot;[이 페이지에 안전하지 않은 내용](https://support.google.com/chrome/answer/1342714?hl=en)&quot;이(가) 있습니다.
 
 최신 버전의 Chrome(버전 79.0.3945.117 이상)에서 VEC를 사용하는 경우 사이트 설정을 업데이트해야 합니다. 사이트 방문자가 이러한 단계를 완료할 필요가 없습니다.
 
-1. 잠금 또는 주의 아이콘을 클릭한 다음 **[!UICONTROL 사이트 설정]**&#x200B;을 클릭합니다.
+1. 잠금(주의) 아이콘을 클릭한 다음 **[!UICONTROL 사이트 설정]**&#x200B;을 클릭합니다.
 
    ![사이트 설정](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
@@ -63,7 +63,7 @@ Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가
 
 1. 검색 막대에서 `block_active`을 입력합니다.
 
-   ![Firefox 블록 활성 설정](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Firefox 블록_활성 설정](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
 1. ` **[!UICONTROL security.mixed_content.block_active_content]**`를 두 번 클릭합니다.
 
@@ -71,7 +71,7 @@ Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가
 
    ![Firefox 보안](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-이 설정을 변경한 후 컴퓨터를 다시 시작하는 것이 좋습니다.
+이 설정을 변경한 후 컴퓨터를 다시 시작합니다.
 
 ## Microsoft Edge에서 혼합 컨텐츠 사용
 
@@ -79,7 +79,7 @@ Google Chrome 도움말에서 [이 페이지에 안전하지 않은 콘텐츠가
 
 최신 버전의 Edge에서 VEC를 사용하는 경우 사이트 설정을 업데이트해야 합니다. 사이트 방문자가 이러한 단계를 완료할 필요가 없습니다.
 
-1. 잠금 또는 주의 아이콘을 클릭한 다음 **[!UICONTROL 사이트 권한]**&#x200B;을 클릭합니다.
+1. 잠금(주의) 아이콘을 클릭한 다음 **[!UICONTROL 사이트 권한]**&#x200B;을 클릭합니다.
 
    ![Microsoft Edge의 사이트 권한](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
