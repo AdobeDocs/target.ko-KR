@@ -4,10 +4,10 @@ description: Target(A4T)용 분석을 사용하여 Analytics 전환 지표 및 �
 title: Target(A4T)용 Analytics 소개
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 115b2fde3d66f55f1397685e42cb9756007936d5
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 41%
+source-wordcount: '1283'
+ht-degree: 42%
 
 ---
 
@@ -36,7 +36,7 @@ ht-degree: 41%
 
 계산된 지표를 비롯한 모든 [!DNL Analytics] 지표는 [!DNL Target] 및 [!DNL Analytics]의 [!UICONTROL Target 활동] 보고서에서 사용할 수 있습니다. 마찬가지로 [!DNL Analytics]에서 사용할 수 있는 모든 세그먼트는 두 솔루션 모두에 적용할 수 있습니다. 활동이 시작된 후 또는 활동이 완료된 후에도 [!DNL Target]의 보고서에 지표나 대상을 적용할 수 있습니다.
 
-[!DNL Analytics]에 내장되어 있는 고객 또는 계산된 지표를 포함하여 모든 지표가 포함됩니다.
+[!DNL Analytics]에 내장되어 있는 사용자 지정 지표나 계산된 지표를 포함하여 모든 지표가 포함됩니다.
 
 분류 기간 후에 데이터는 웹 사이트에서 수집되고 약 1시간 후에 보고서에 표시됩니다. 보고서에 있는 모든 지표, 세그먼트, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
 
@@ -51,7 +51,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 * 보고 소스로 [!DNL Analytics]을(를) 사용할 때는 mbox 기반 지표를 하나만 사용할 수 있습니다.
 * [!DNL Target]에서 [!DNL Analytics]로 서버 간 호출은 활동 및 경험 정보를 [!DNL Analytics]에 전송합니다. 이 통합으로 인해 [!DNL Target] 또는 [!DNL Analytics]에 대한 추가 서버 호출이 발생하지 않습니다.
 
-   경우에 따라 [!DNL Target]에서 [!DNL Analytics]로의 분류 호출이 실패할 수 있으며 활동이 [!DNL Analytics]에 데이터를 표시하지 않을 수 있습니다. 이러한 경우 [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)을 참조하십시오. 추가 지원을 위해 [클라이언트 지원 센터](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)에 문의할 수도 있습니다.
+   경우에 따라 [!DNL Target]에서 [!DNL Analytics]까지의 분류가 실패하여 활동이 [!DNL Analytics]에 데이터를 표시하지 않을 수 있습니다. 이러한 경우 [Analytics 및 Target 통합 문제 해결(A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)을 참조하십시오. 추가 지원을 위해 [클라이언트 지원 센터](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)에 문의할 수도 있습니다.
 
 ## 지원되는 활동 유형 {#section_F487896214BF4803AF78C552EF1669AA}
 
