@@ -2,11 +2,11 @@
 keywords: 대상 설명서 변경 로그;설명서 업데이트;새 주제;편집;업데이트;update
 description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 변경 사항을 항상 최신 상태로 유지할 수 있습니다.
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
-feature: Release Notes
+feature: 릴리스 노트
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3661'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 22일 | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 다음 FAQ가 업데이트되었습니다.<ul><li>Analysis Workspace에서 세그먼트를 적용할 수 있는 위치는 어디입니까?</li></ul> |
 | 2월 16일 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | 프리릴리스 노트에서 오퍼 제한 크기에 대한 텍스트가 업데이트되었습니다. |
 | 2월 11일 | [Target 작동 방식](/help/c-intro/how-target-works.md) | &quot;보트&quot; 섹션이 업데이트되었습니다. |
 | 2월 10일 | [Target 공지 및 이벤트](/help/r-release-notes/target-announcements.md) | 2021년 2월 24일 수요일에 Adobe Target Community Q&amp;A Coffee Break에 대한 정보가 추가되었습니다. |
