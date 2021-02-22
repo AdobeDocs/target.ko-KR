@@ -2,12 +2,12 @@
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 프로그램;브라우저
 description: 일부 웹 사이트가 VEC(Visual Experience Composer)에서 안정적으로 열리지 않는 이유를 알아봅니다. VEC 도우미 브라우저 익스텐션을 사용하면 VEC 내에서 웹 사이트를 안전하게 로드할 수 있습니다.
 title: VEC(Visual Experience Composer) 도우미 확장을 사용하려면 어떻게 합니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 52%
+source-wordcount: '885'
+ht-degree: 51%
 
 ---
 
@@ -32,10 +32,10 @@ Chrome용 VEC 도우미 브라우저 익스텐션은 고객이 이제 [!DNL Targ
 
 ## VEC Helper 확장 프로그램을 사용하는 이점
 
-* X-Frame-Options 및 Content-Security-Policy와 같은 모든 iframe 버스팅 헤더가 웹 사이트에서 암묵적으로 제거됩니다. 이를 수행하기 위해 더 이상 복잡한 Requestly 규칙을 만들 필요가 없습니다.
+* X-Frame-Options 및 Content-Security-Policy와 같은 모든 iframe 버스팅 헤더가 웹 사이트에서 암묵적으로 제거됩니다. 더 이상 복잡한 요청 규칙을 만들 필요가 없습니다.
 * 웹 페이지에 아직 [!DNL Target] at.js JavaScript 라이브러리가 포함되어 있지 않은 경우 확장 프로그램을 사용하여 라이브러리를 주입할 수 있으므로 웹 사이트에 대한 경험을 작성할 수 있습니다. 그런 다음 활동을 만들고 미리 보기 링크를 사용하여 QA를 수행할 수 있습니다.
 
-   EEC(Enhanced Experience Composer)를 사용하는 동안 익스텐션은 at.js를 삽입하지 않지만 SameSite 쿠키 기능은 여전히 있습니다. 웹 페이지에서 at.js를 삽입하려면 EEC를 끕니다.
+   EEC(Enhanced Experience Composer)를 사용하면 확장 기능이 at.js에서 주입되지 않지만 SameSite 쿠키 기능은 여전히 제공됩니다. 웹 페이지에서 at.js를 삽입하려면 EEC를 끕니다.
 
 * [모바일 ](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) 뷰포트는  [!UICONTROL 향상된 경험 작성기] (EEC)가 없어도 지원됩니다.
 * [!DNL Target]을 처음 사용하는 고객은 IT 개발자가 아직 웹 사이트에서 [!DNL Target]을 구현하지 않았더라도 확장 프로그램을 사용하여 [!DNL Target]을 실험해 볼 수 있습니다.
@@ -47,7 +47,7 @@ Chrome용 VEC 도우미 브라우저 익스텐션은 고객이 이제 [!DNL Targ
 1. **[!UICONTROL Chrome에 추가 > 확장 프로그램 추가]**&#x200B;를 클릭합니다.
 1. [!DNL Target]에서 VEC를 엽니다.
 1. 확장 프로그램을 사용하려면 VEC 또는 [QA 모드](/help/c-activities/c-activity-qa/activity-qa.md)에 있는 동안 Chrome 브라우저의 도구 모음에서 VEC Helper 브라우저 확장 프로그램 아이콘(![VEC Helper 아이콘](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))을 클릭합니다.
-1. (조건부) 웹 페이지에 아직 [!DNL Target] at.js JavaScript 라이브러리가 포함되어 있지 않은 경우 **[!UICONTROL Target 삽입]** 라이브러리 삽입을 &quot;설정&quot; 위치로 전환합니다.
+1. (조건부) 웹 페이지에 아직 [!DNL Target] at.js JavaScript 라이브러리가 포함되어 있지 않으면 **[!UICONTROL Target 삽입]** 라이브러리 삽입을 &quot;설정&quot; 위치로 전환합니다.
 
    다음 그림은 [!UICONTROL Target 라이브러리 삽입] 설정이 활성화된 VEC Helper를 보여줍니다.
 
@@ -72,7 +72,7 @@ Chrome용 VEC 도우미 브라우저 익스텐션은 고객이 이제 [!DNL Targ
 * 구현 시 [!DNL Target]at.js 라이브러리를 사용해야 합니다. 확장 프로그램에 mbox.js 구현을 사용할 수는 없습니다.
 * 확장 프로그램의 [!UICONTROL Target 라이브러리 주입] 플래그는 기본적으로 꺼져 있습니다. [!DNL Target]용으로 아직 구현되지 않은 사이트에서 VEC를 사용하려는 경우 이 플래그를 활성화할 수 있습니다.
 
-   이 플래그는 글로벌 설정이며, VEC에서 연 모든 웹 사이트에 대해 활성화되어 있거나 비활성화되어 있습니다. 예를 들어 이 플래그를 &quot;on&quot;으로 설정하고 at.js로 이미 구현된 웹 사이트를 열면 at.js가 이미 로드되었음을 알리는 메시지가 표시됩니다. 대부분의 고객은 이미 at.js를 자신의 페이지에 구현하고 있으며 기본 설정인 &quot;off&quot;를 사용할 것으로 예상됩니다.
+   이 플래그는 전역 설정입니다. VEC에서 연 모든 웹 사이트에 대해 활성화되어 있거나 비활성화되어 있습니다. 예를 들어 이 플래그를 &quot;on&quot;으로 설정하고 at.js로 이미 구현된 웹 사이트를 열면 at.js가 이미 로드되었음을 알리는 메시지가 표시됩니다. Adobe은 대부분의 고객이 이미 페이지에 at.js를 구현했으며 기본 설정인 &quot;off&quot;를 사용할 것으로 예측합니다.
 
 * 익스텐션은 [!UICONTROL 관리 > 구현]의 [!DNL Target UI]에서 사용할 수 있는 최신 버전의 at.js를 로드합니다.
 * [QA 모드](/help/c-activities/c-activity-qa/activity-qa.md)에서 확장 프로그램을 사용하여 at.js를 주입하는 경우 다른 Chrome 탭이 열려 있어야 합니다. 이 Chrome 탭은 활동을 만든 조직과 동일한 [!DNL Adobe Experience Cloud] 조직으로 인증되어야 합니다.
