@@ -4,9 +4,9 @@ description: 지표 정의 및 Analytics for Target(A4T) 사용에 대한 질문
 title: A4T를 사용하여 지표 정의에 대한 정보를 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 58%
 
 ---
