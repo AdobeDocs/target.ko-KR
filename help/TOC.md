@@ -4,9 +4,9 @@ breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있도록 고객의 경험을 맞춤화 및 개인화하는 방법을 살펴볼 수 있습니다.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: dc8d7b90915e35f60c7f17a47e43f0be55a96d68
+source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1586'
 ht-degree: 84%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 84%
       + [8장:활동 결과 전달](/help/c-intro/target-welcome-kit-8.md)
       + [9장:다음 단계 및 리소스](/help/c-intro/target-welcome-kit-9.md)
    + [용어 설명](c-intro/glossary.md)
-   + [Adobe Target 작동 방식](c-intro/how-target-works.md)
+   + [Target 작동 방식](c-intro/how-target-works.md)
    + [교육 및 인증](c-intro/training-and-certification.md)
    + [Adobe Target Standard 및 Premium 교육 비디오](c-intro/target-standard-premium-training-videos.md)
    + [Target 최적화 및 개인화 FAQ](c-intro/cmp-target-standard-cheatsheet.md)
