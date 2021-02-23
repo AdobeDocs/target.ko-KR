@@ -1,41 +1,41 @@
 ---
-keywords: Adobe Experience Platform 웹 SDK;aep 웹 sdk;aep sdk;seo;검색 엔진 최적화;Edge 클러스터, 중앙 클러스터;at.js;mbox.js;
+keywords: Adobe Experience Platform 웹 SDK;aep 웹 sdk;aep sdk;검색 엔진 최적화;seo;edge 클러스터, 중앙 클러스터;at.js;mbox.js;
 description: Target JavaScript 라이브러리(at.js 및 AEP Web SDK), Adobe 데이터 센터 및 SEO 테스트에 대한 정보를 포함하여 Adobe Target이 작동하는 방식에 대해 알아봅니다.
 title: Target은 어떻게 작동합니까?
-feature: Overview
+feature: 개요
 translation-type: tm+mt
-source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
+source-git-commit: 8853551d2266836f4fe662c0882ba2af669d5a62
 workflow-type: tm+mt
-source-wordcount: '2559'
-ht-degree: 69%
+source-wordcount: '2592'
+ht-degree: 36%
 
 ---
 
 
 # Adobe Target 작동 방식
 
-[!DNL Adobe Experience Platform Web SDK], [!DNL Target] JavaScript 라이브러리(at.js 및 mbox.js)에 대한 정보 및 Target을 사용하여 만들 수 있는 다양한 활동 유형에 대한 정보 등 [!DNL Adobe Target]이 작동하는 방식에 대한 정보입니다.
+[!DNL Adobe Experience Platform Web SDK] 및 JavaScript 라이브러리(at.js 및 mbox.js)에 대한 정보를 포함하여 [!DNL Adobe Target]의 작동 방식을 알아봅니다. 이 문서에서는 Target을 사용하여 만들 수 있는 다양한 활동 유형도 소개합니다. 또한 Target 에지 네트워크, 검색 엔진 최적화(SEO) 및 Target에서 보트를 검색하는 방법에 대해 살펴볼 수 있습니다.
 
 ## Target 플랫폼 웹 SDK 및 JavaScript 라이브러리 {#libraries}
 
-Adobe Target은 [!DNL AEP Web SDK] 또는 JavaScript 라이브러리를 통해 웹 사이트와 통합됩니다.
+[!DNL Adobe Target] 또는 JavaScript 라이브러리를 사용하여 웹  [!DNL AEP Web SDK] 사이트와 통합합니다.
 
-* **Adobe Experience Platform 웹 SDK:** AEP  [웹 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK는 고객이  [!DNL Adobe Experience Cloud] Edge 네트워크 [!DNL Experience Cloud] 를 통해 다양한 서비스 [!DNL Target]  [!DNL Adobe Experience Platform] (포함)와 상호 작용할 수 있도록 하는 새로운 클라이언트측 JavaScript 라이브러리입니다.
-* **at.js:** [at.js 라이브러리](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)는 Target의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 권장되는 구현 라이브러리이며 새 기능으로 자주 업데이트됩니다. 모든 고객이 구현하거나 [at.js 최신 버전으로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)하는 것이 좋습니다.
+* **Adobe Experience Platform 웹 SDK:** AEP  [웹 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK는 새로운 클라이언트측 JavaScript 라이브러리입니다. AEP 웹 SDK를 통해 [!DNL Adobe Experience Cloud] 고객이 [!DNL AEP] 에지 네트워크를 통해 [!DNL Experience Cloud]([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. Adobe에서는 모든 새 [!DNL Target] 고객이 [!DNL AEP Web SDK]을(를) 구현할 것을 권장합니다.
+* **at.js:** at.js 라이브러리 [는 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) 용 구현  [!DNL Target]라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe에서는 at.js를 사용하는 모든 고객이 자신의 구현을 최신 버전의 at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)로 업데이트할 것을 권장합니다.[
 * **mbox.js:**[ mbox.js 라이브러리는 Target의 새 구현 라이브러리입니다. ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) mbox.js 라이브러리는 2021년 3월 31일까지 지원되지만 기능 업데이트는 없습니다.
 
 >[!IMPORTANT]
 >
 >모든 고객은 [!DNL AEP Web SDK] 또는 최신 버전의 at.js로 마이그레이션해야 합니다. 자세한 내용은 [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 또는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
 
-사이트의 모든 페이지에서 [!DNL AEP Web SDK] 또는 at.js를 참조해야 합니다. 예를 들어 글로벌 헤더에 이러한 항목 중 하나를 추가할 수 있습니다. 또는 [Adobe 플랫폼 시작](https://experienceleague.adobe.com/docs/launch/using/overview.html)을 사용하는 것이 좋습니다.
+사이트의 모든 페이지에서 [!DNL AEP Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 전역 헤더에 추가할 수 있습니다. 또는 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)을 사용하여 [!DNL Target]를 구현하십시오.
 
-다음 리소스는 AEP 웹 SDK 또는 at.js를 구현하는 데 도움이 됩니다.
+다음 리소스에는 AEP 웹 SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
 * [Adobe Launch를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-방문자가 [!DNL Target]에 맞게 최적화된 페이지를 요청할 때마다 방문자에게 제공할 컨텐츠를 결정하기 위해 요청이 타깃팅 시스템으로 전송됩니다. 이 프로세스는 페이지가 로드될 때마다, 컨텐트에 대한 요청이 이루어지고 시스템에 의해 이행될 때마다 실시간으로 발생합니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 또한 각 사이트 방문자가 응답하고, 상호 작용하고, 궁극적으로 가장 구매할 것 같은 콘텐츠를 제공하여 응답률, 획득률 및 매출을 최적화합니다.
+방문자가 [!DNL Target]에 대해 최적화된 페이지를 요청할 때마다 요청이 타깃팅 시스템으로 전송됩니다. 이 요청은 해당 방문자에게 제공할 컨텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 이루어집니다. 페이지가 로드될 때마다 컨텐트에 대한 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 컨텐츠는 각 사이트 방문자가 응답하고 상호 작용하며 궁극적으로 구매할 가능성이 가장 큰 컨텐츠가 제공됩니다. 개인화된 컨텐츠를 통해 응답률, 취득률 및 매출을 극대화할 수 있습니다.
 
 [!DNL Target]에서 페이지의 각 요소는 전체 페이지에 대한 단일 경험의 일부입니다. 각 경험은 페이지에 여러 요소를 포함할 수 있습니다.
 
@@ -45,7 +45,7 @@ Adobe Target은 [!DNL AEP Web SDK] 또는 JavaScript 라이브러리를 통해 �
 
 자세한 내용은 [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)를 참조하십시오.
 
-기본 A/B 테스트에 표시되는 콘텐츠는 각 경험에 대해 선택하는 백분율에 따라 활동에 지정하는 자산으로부터 무작위로 선택됩니다. 이러한 트래픽 무작위 분할의 결과, 초기 트래픽을 많이 사용한 후에야 비율이 안정됩니다. 예를 들어 두 개의 경험을 만드는 경우 시작 경험이 무작위로 선택됩니다. 트래픽이 거의 없다면 방문자 비율이 하나의 경험으로 기울어질 수 있습니다. 트래픽이 증가함에 따라 이러한 비율은 더 비슷해지게 됩니다.
+기본 A/B 테스트에 표시되는 컨텐츠는 활동에 지정한 경험에서 임의로 선택됩니다. 각 경험에 대한 트래픽 할당 비율을 할당할 수 있습니다. 이러한 트래픽 무작위 분할의 결과로 비율이 계산되기 전에 초기 트래픽의 양이 상당히 증가할 수 있습니다. 예를 들어 두 개의 경험을 만드는 경우 시작 경험이 무작위로 선택됩니다. 트래픽이 거의 없다면 방문자 비율이 하나의 경험으로 기울어질 수 있습니다. 트래픽이 증가하면 비율이 균일화됩니다.
 
 각 경험에 대해 비율 타겟을 지정할 수 있습니다. 이런 경우, 무작위 숫자가 생성되고 이 숫자를 사용하여 표시할 경험이 선택됩니다. 결과로 얻은 비율은 지정한 타겟과 정확하게 일치하지 않을 수도 있지만 더 많은 트래픽이 일어나면 경험이 타겟 목표에 더 가깝게 분할되어야 한다는 것을 의미합니다.
 
@@ -58,19 +58,19 @@ Adobe Target은 [!DNL AEP Web SDK] 또는 JavaScript 라이브러리를 통해 �
 
 자세한 내용은 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
 
-자동 할당은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.
+자동 할당은 두 개 이상의 경험 중에서 우승자를 식별합니다. 자동 할당은 테스트가 계속 실행되고 학습하는 동안 전환 증가를 위해 우승 경험에 더 많은 트래픽을 자동으로 재할당하므로
 
 ### AT(자동 Target)
 
 자세한 내용은 [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)을 참조하십시오.
 
-자동 타겟은 콘텐츠를 개인화하고 변환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택하고, 개별 고객 프로필과 이 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.
+자동 Target은 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 경험 중에서 선택할 수 있습니다. 자동 Target은 각 방문자에게 가장 맞춤화된 경험을 제공합니다. 경험 배달은 개별 고객 프로파일과 비슷한 프로파일을 가진 이전 방문자의 행동을 기반으로 합니다. 자동 Target을 사용하여 컨텐츠를 개인화하고 전환을 촉진합니다.
 
 ### AP(자동화된 개인화)
 
 자세한 내용은 [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)를 참조하십시오.
 
-자동화된 개인화(AP)는 콘텐츠를 개인화하고 상승도를 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결합니다.
+Automated Personalization(AP)는 오퍼 또는 메시지를 결합하고 고급 기계 학습을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시킵니다. 경험 전달은 컨텐츠를 개인화하고 향상도를 높일 수 있는 개별 고객 프로파일을 기반으로 합니다.
 
 ### 경험 타깃팅(XT)
 
@@ -84,7 +84,7 @@ Adobe Target은 [!DNL AEP Web SDK] 또는 JavaScript 라이브러리를 통해 �
 
 자세한 내용은 [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)를 참조하십시오.
 
-다변량 테스트(MVT)는 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다.
+Multivariate Testing(MVT)는 페이지에 있는 요소의 오퍼 조합을 비교하여 특정 대상에 가장 적합한 조합을 결정합니다. MVT는 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
 
 ### 권장 사항
 
@@ -108,19 +108,19 @@ Adobe Target은 [!DNL AEP Web SDK] 또는 JavaScript 라이브러리를 통해 �
 
 중앙 클러스터 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 포함됩니다. Edge Cluster 위치에는 데이터 수집 센터만 포함됩니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
 
-고객 사이트 활동 데이터는 7개의 Edge Clusters에서 가장 근접한 자가 수집하여 고객의 사전 결정된 Central 클러스터 대상(3개 위치 중 하나)으로 전달됩니다.처리를 위한 오레곤, 더블린, 싱가포르). 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다(위치에는 중앙 클러스터 위치 및 버지니아, 암스테르담, 시드니, 도쿄 및 홍콩 등이 포함됩니다.).
+고객 사이트 활동 데이터는 7개의 Edge 클러스터 중 가장 근접한 곳에서 수집됩니다. 이 데이터는 고객이 미리 지정한 중앙 클러스터 대상(다음 3개 위치 중 하나)으로 보내집니다.처리를 위한 오레곤, 더블린, 싱가포르). 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다. Edge 클러스터 위치에는 중앙 클러스터 위치, 버지니아, 암스테르담, 시드니, 도쿄 및 홍콩이 포함됩니다.
 
-단일 위치에서 모든 타깃팅 요청에 응답하는 대신, 요청은 방문자와 가장 가까운 에지 클러스터에 의해 처리되므로 네트워크/인터넷 여행 시간의 영향을 완화합니다.
+단일 위치의 모든 타깃팅 요청에 대응하는 대신, 요청은 방문자와 가장 가까운 에지 클러스터에 의해 처리됩니다. 이 프로세스는 네트워크/인터넷 출장에 따른 영향을 완화하는 데 도움이 됩니다.
 
 ![Target 서버 맵 유형](/help/c-intro/assets/target-servers.png)
 
-AWS(Amazon Web Services)에서 호스팅되는 Target Central 클러스터 위치는 다음과 같습니다.
+AWS(Amazon Web Services)에서 호스팅되는 Target Central 클러스터, 다음이 포함됩니다.
 
 * 오리건, 미국
 * 더블린, 아일랜드
 * 싱가포르 공화국
 
-AWS에서 호스팅되는 Target 에지 클러스터는 다음 위치에 있습니다.
+AWS에서 호스팅되는 Target Edge Clusters에는 다음이 포함됩니다.
 
 * 인도 뭄바이
 * 도쿄, 일본
@@ -134,15 +134,15 @@ AWS에서 호스팅되는 Target 에지 클러스터는 다음 위치에 있습�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 현재 중국에는 Edge Cluster가 없으며 중국 고객의 경우 최종 사용자 성능이 계속  [!DNL Target] 제한됩니다. 방화벽과 국가 내 Edge Clusters가 없기 때문에 [!DNL Target]이(가) 배포된 사이트의 경험이 렌더링되지 않고 페이지 로드가 영향을 받습니다. 또한 마케터는 [!DNL Target] 작성 UI를 사용할 때 지연을 경험할 수 있습니다.
+>[!DNL Adobe Target] 현재 중국에는 Edge Cluster가 없으며 중국 고객의 경우 최종 사용자 성능이 계속  [!DNL Target] 제한됩니다. 방화벽과 국가 내 Edge Clusters가 없기 때문에 [!DNL Target]이(가) 배포된 사이트의 경험에 영향을 줄 수 있습니다. 경험은 렌더링 속도가 느려질 수 있고 페이지 로드에 영향을 줄 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI를 사용할 때 지연을 경험할 수 있습니다.
 
 원하는 경우 Target 에지 클러스터를 허용 목록에 추가하다 선택할 수 있습니다. 자세한 내용은 [허용 목록에 추가하다 Target 가장자리 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)를 참조하십시오.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-Adobe에서는 타깃팅 인프라의 가용성 및 성능을 가능한 한 신뢰할 수 있도록 만들고 있습니다. 하지만 최종 사용자의 브라우저와 Adobe의 서버 간 통신 실패로 인해 콘텐츠 전달이 중단될 수 있습니다.
+Adobe에서는 타깃팅 인프라의 가용성 및 성능을 가능한 한 신뢰할 수 있도록 만들고 있습니다. 그러나 최종 사용자의 브라우저와 Adobe 서버 간의 통신 실패로 인해 컨텐츠 전달이 중단될 수 있습니다.
 
-서비스 중단 및 연결 문제가 생기지 않도록 보호하려면, 모든 위치가 사용자의 브라우저가 [!DNL Target]에 연결할 수 없을 경우 나타나는 기본 콘텐츠(클라이언트가 정의함)를 포함하도록 설정하십시오.
+서비스 중단 및 연결 문제를 방지하기 위해 모든 위치가 기본 컨텐츠(클라이언트가 정의함)를 포함하도록 설정됩니다. 이 기본 컨텐츠는 사용자의 브라우저가 [!DNL Target]에 연결할 수 없을 때 표시됩니다.
 
 사용자의 브라우저가 정의된 제한 시간 내(기본적으로 15초)에 연결할 수 없는 경우 페이지에 변경 사항이 적용되지 않습니다. 이 시간 초과 임계값에 도달하면 기본 위치 콘텐츠가 표시됩니다.
 
@@ -157,7 +157,7 @@ Adobe에서는 성능을 최적화 및 보호함으로써 사용자 경험을 �
 
 [!DNL Adobe Target]은 테스트를 위한 검색 엔진 지침을 따릅니다.
 
-Google에서는 사용자 테스트를 권장하고 있으며 A/B 및 다변량 테스트가 몇 가지 간단한 지침을 따르는 한 자연 검색 엔진 순위를 손상시키지 않을 것이라고 해당 설명서에 기술했습니다.
+Google은 사용자 테스트를 권장합니다. Google은 문서에 A/B 및 Multivariate Testing이 특정 지침을 따를 경우 유기적 검색 엔진 등급을 훼손하지 않는다고 명시하고 있습니다.
 
 자세한 내용은 다음 Google 리소스를 참조하십시오.
 
@@ -166,27 +166,27 @@ Google에서는 사용자 테스트를 권장하고 있으며 A/B 및 다변량 
 
 지침은 [Google 웹마스터 센터 블로그](https://webmasters.googleblog.com/2012/08/website-testing-google-search.html) 게시물에 나와 있습니다. 게시 날짜가 2012년까지 거슬러 올라가지만, 이 문제에 대한 Google의 최신 성명서이며 지침도 아직 적절합니다.
 
-* **클로킹 없음** - 클로킹(Cloaking)은 사용자와 검색 엔진 봇을 명확히 구별하여 양측에 의도적으로 서로 다른 콘텐츠를 공급함으로써 사용자에게 표시하는 콘텐츠 세트와 검색 엔진 봇에게 표시하는 콘텐츠 세트를 달리하는 것입니다.
+* **숨김 없음**:숨김에는 사용자에게 하나의 컨텐츠 세트와 검색 엔진 보트 세트의 다른 컨텐츠 세트가 표시됩니다. 클로킹은 특별히 보트를 식별하여 다른 컨텐츠를 의도적으로 제공한 방식으로 수행됩니다.
 
-   플랫폼인 Target은 검색 엔진 봇을 사용자와 동일하게 처리하도록 구성되었습니다. 이것은 봇이 임의로 선택되는 경우 실행 중인 테스트에 포함될 수 있으며, 테스트 변형을 &quot;볼&quot; 수 있음을 의미합니다.
+   플랫폼인 Target은 검색 엔진 봇을 사용자와 동일하게 처리하도록 구성되었습니다. 그 결과, 보트를 임의로 선택하고 테스트 변형을 &quot;보기&quot;할 경우 보트는 활동에 포함될 수 있습니다.
 
-* **rel=&quot;canonical&quot; 사용** - 때로 다양한 변형에 대한 다양한 URL을 사용하여 A/B 테스트를 설정해야 합니다. 이러한 경우, 모든 변형은 원래(통제) URL을 참조하는 `rel="canonical"` 태그를 포함해야 합니다. 예를 들어, Adobe가 각 변형에 대해 서로 다른 URL을 사용하여 홈 페이지를 테스트하는 경우 홈 페이지에 대한 다음 대표(canonical) 태그는 각 변형에 대해 `<head>` 태그 안으로 들어갈 것입니다.
+* **rel=&quot;canonical&quot;** 사용:경우에 따라 변형에 대해 다른 URL을 사용하여 A/B 테스트를 설정해야 합니다. 이러한 경우, 모든 변형은 원래(통제) URL을 참조하는 `rel="canonical"` 태그를 포함해야 합니다. 예를 들어 Adobe이 각 변형에 대해 서로 다른 URL을 사용하여 홈 페이지를 테스트한다고 가정해 봅니다. 홈 페이지에 대한 다음 표준 태그는 각 변형에 대해 `<head>` 태그로 이동합니다.
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **302(임시) 리디렉션 사용** - 테스트에서 변형 페이지에 개별 URL이 사용되는 경우, Google에서는 302 리디렉션을 사용하여 트래픽을 테스트 변형으로 전달하는 것을 권장합니다. 검색 엔진은 이를 통해 리디렉션이 일시적인 것이며 테스트가 실행 중인 동안에만 실행될 것이라는 것을 알게 됩니다.
+* **302(임시) 리디렉션 사용**:테스트의 변형 페이지에 별도의 URL을 사용하는 경우 Google에서는 302 리디렉션을 사용하여 트래픽을 테스트 변형으로 보내는 것이 좋습니다. 302 리디렉션은 리디렉션이 일시적이며 테스트가 실행되는 동안에만 활성화됨을 검색 엔진에 알립니다.
 
-   302 리디렉션은 서버 측 리디렉션이며 대부분의 최적화 제공자와 함께 Target은 클라이언트측 기능을 사용합니다. 따라서 이것은 Target이 Google의 권장 사항을 완전히 준수하지 않는 영역입니다. 그러나 매우 일부 테스트에는 영향을 줍니다. Target을 통해 테스트를 실행하는 이 표준 접근 방식은 단일 URL 내 콘텐츠 변경을 필요로 하므로 리디렉션이 필요하지 않습니다. 클라이언트가 여러 URL을 사용하여 테스트 변형을 표현해야 하는 경우가 있습니다. 이러한 경우 Target에서는 리디렉션이 301인지 또는 302인지를 명시적으로 나타내지 않는 JavaScript `window.location` 명령을 사용하여 사용자에게 테스트 변형을 표시합니다.
+   302 리디렉션은 서버 측 리디렉션이며 대부분의 최적화 제공자와 함께 Target은 클라이언트측 기능을 사용합니다. 따라서 이것은 Target이 Google의 권장 사항을 완전히 준수하지 않는 영역입니다. 하지만 이러한 방법은 테스트 중 극히 일부에만 영향을 줍니다. Target을 통해 테스트를 실행하는 이 표준 접근 방식은 단일 URL 내 콘텐츠 변경을 필요로 하므로 리디렉션이 필요하지 않습니다. 클라이언트가 테스트 변형을 나타내기 위해 여러 URL을 사용해야 하는 경우가 있습니다. 이러한 경우 Target은 JavaScript `window.location` 명령을 사용합니다. 이 명령은 사용자가 변형을 테스트하도록 지시하며, 리디렉션이 301 또는 302인지 여부를 명시적으로 표시하지 않습니다.
 
-   Adobe는 검색 엔진 지침에 완전히 부합하는 실행 가능한 해결 방법을 계속 찾겠지만, 테스트를 위해 별도의 URL을 사용해야 하는 클라이언트를 위해, 위에 언급된 대표(canonical ) 태그를 적절히 구현하면 이러한 접근 방식과 연관된 위험이 완화된다고 확신하고 있습니다.
+   Adobe은 검색 엔진 지침에 맞게 실행 가능한 솔루션을 계속 찾습니다. 테스트를 위해 개별 URL을 사용해야 하는 클라이언트의 경우, Adobe은 표준 태그를 적절히 구현하면 이 접근 방식과 관련된 위험을 완화시킬 수 있다고 확신합니다.
 
-* **필요한 동안만 실험 실행** - Adobe에서는 &quot;필요한 동안&quot;을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. Target에서는 테스트가 이 시점에 도달했을 때를 판별하는 [우수 사례를 제공합니다](https://docs.adobe.com/content/target-microsite/testcalculator.html). 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로우에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
+* **필요한** 경우에만 실험을 실행합니다.Adobe은 통계적 중요성을 깨닫기 위해 시간이 걸리는 한 &quot;필요한 한&quot;이라고 생각한다. Target에서는 테스트가 이 시점에 도달했을 때를 판별하는 [우수 사례를 제공합니다](https://docs.adobe.com/content/target-microsite/testcalculator.html). Adobe에서는 우승 테스트의 하드 코딩된 구현을 테스트 작업 과정에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
 
-   Target 플랫폼을 사용하여 가장 성과가 좋은 테스트를 &quot;게시&quot;하는 것은 영구적인 해결 방법으로 권장되지 않지만, 가장 성과가 좋은 테스트를 테스트 내내 100%의 사용자에 대해 게시하는 한 가장 성과가 좋은 테스트를 하드코딩하는 프로세스가 완료된 동안 이 접근 방식을 사용할 수 있습니다.
+   Target 플랫폼을 사용하여 우승 테스트를 &quot;게시&quot;하는 것은 영구 솔루션으로 권장되지 않습니다. 우승 테스트가 100% 사용자 중 100%에 대해 게시된 경우 우승 테스트를 하드 코딩하는 프로세스가 완료되는 동안 이 방법을 사용할 수 있습니다.
 
-   테스트가 변경한 사항을 고려하는 것도 중요합니다. 페이지에 있는 단추나 기타 부수적인 비텍스트 기반 항목의 색상을 단순히 업데이트하는 것은 자연 순위에는 영향을 주지 않습니다. 하지만, 텍스트 변경 사항은 하드코딩해야 합니다.
+   테스트가 변경한 사항을 고려하는 것도 중요합니다. 페이지에서 단추나 기타 텍스트가 아닌 항목의 색상을 업데이트하면 유기 등급에 영향을 주지 않습니다. 하지만, 텍스트 변경 사항은 하드코딩해야 합니다.
 
-   또한 테스트 중인 페이지의 액세서빌러티를 고려하는 것도 중요합니다. 이메일 캠페인 전용 랜딩 페이지와 같은 페이지가 검색 엔진에 액세스할 수 없고 자연 검색에서 1위를 하도록 설계되지 않은 경우에는 위의 고려 사항이 적용되지 않습니다.
+   또한 테스트 중인 페이지의 액세서빌러티를 고려하는 것도 중요합니다. 검색 엔진에서 페이지에 액세스할 수 없고 첫 번째 위치에서 유기적 검색의 등급을 지정하도록 설계되지 않은 경우 위의 고려 사항 중 어느 것도 적용되지 않습니다. 예: 이메일 캠페인에 대한 전용 랜딩 페이지입니다.
 
 Google에서는 이러한 지침을 따르는 것이 &quot;테스트에서 검색 결과에 있는 여러분의 사이트에 영향을 거의 주지 않거나 전혀 주지 않는다&quot;고 명시합니다.
 
@@ -196,7 +196,7 @@ Google에서는 이 지침 외에도 콘텐츠 실험 도구에 대해 설명서
 
 Google에서는 한 예로 &quot;사이트의 원본 페이지를 로드한 키워드가 사용자에게 표시되는 조합과 관련이 없을 경우 Google은 해당 사이트를 Google 색인에서 제외할 수 있다&quot;고 명시하고 있습니다.
 
-테스트 변형 내 원래 콘텐츠의 의미를 실수로 변경하기는 어려울 것으로 생각되지만, 페이지의 키워드 테마에 유의하고 해당 테마를 유지하는 것이 좋습니다. 특히 관련 키워드를 추가하거나 삭제하는 등의 페이지 콘텐츠 변경은 자연 검색에서 URL에 대한 순위 변경을 초래할 수 있습니다. 테스트 프로토콜의 일부로서 SEO 파트너를 이용하는 것이 좋습니다.
+Adobe은 테스트 변형 내에서 원본 컨텐츠의 의미를 의도치 않게 변경하는 것이 어렵다고 생각합니다. 그러나 Adobe은 페이지에서 키워드 테마를 인지하고 이러한 테마를 유지 관리할 것을 권장합니다. 특히 관련 키워드를 추가하거나 삭제하는 등의 페이지 콘텐츠 변경은 자연 검색에서 URL에 대한 순위 변경을 초래할 수 있습니다. Adobe은 테스트 프로토콜의 일부로 SEO 파트너와 교류하는 것을 권장합니다.
 
 ## 보트 {#bots}
 
@@ -204,9 +204,9 @@ Adobe Target은 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tes
 
 >[!NOTE]
 >
-> [!DNL Server Side] 요청의 경우 [요청의 &quot;Context&quot; 노드](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)에 전달된 값이 보트 감지를 위한 사용자 에이전트 문자열보다 우선합니다.
+> [!DNL Server-Side] 요청의 경우 [요청의 &quot;Context&quot; 노드](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)에 전달된 값이 보트 감지를 위한 사용자 에이전트 문자열보다 우선합니다.
 
-보트에 의해 생성된 것으로 식별된 트래픽은 SEO 가이드라인과 일치하도록 일반 사용자와 같은 콘텐츠를 계속 제공합니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 다소 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
+보트가 생성하는 것으로 식별되는 트래픽은 여전히 컨텐츠를 제공합니다. 보트는 Target이 SEO 지침에 따라 있는지 확인하기 위해 일반 사용자로 취급됩니다. 보트 트래픽을 사용하면 일반 사용자로 취급되는 경우 A/B 테스트 또는 개인화 알고리즘을 왜곡할 수 있습니다. 따라서 알려진 보트가 Target 활동에서 감지되면 트래픽은 다소 다르게 처리됩니다. 보트 트래픽을 제거하면 사용자 활동을 보다 정확하게 측정할 수 있습니다.
 
 특히 알려진 보트 트래픽 Target의 경우 다음이 불가능합니다.
 
