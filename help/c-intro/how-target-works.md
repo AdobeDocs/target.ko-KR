@@ -4,7 +4,7 @@ description: Target JavaScript 라이브러리(at.js 및 AEP Web SDK), Adobe 데
 title: Target은 어떻게 작동합니까?
 feature: 개요
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 30%
@@ -28,7 +28,7 @@ ht-degree: 30%
 >
 >모든 고객은 [!DNL AEP Web SDK] 또는 최신 버전의 at.js로 마이그레이션해야 합니다. 자세한 내용은 [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 또는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
 
-사이트의 모든 페이지에서 [!DNL AEP Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 전역 헤더에 추가할 수 있습니다. 또는 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)을 사용하여 [!DNL Target]를 구현하십시오.
+사이트의 모든 페이지에서 [!DNL AEP Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 전역 헤더에 추가할 수 있습니다. 또는 [Adobe Platform launch](https://experienceleague.adobe.com/docs/launch/using/overview.html)을 사용하여 [!DNL Target]를 구현하십시오.
 
 다음 리소스에는 AEP 웹 SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
@@ -56,7 +56,7 @@ ht-degree: 30%
 
 ### 자동 할당
 
-자동 할당은 두 개 이상의 경험 중에서 우승자를 식별합니다. 자동 할당은 테스트가 계속 실행되고 학습하는 동안 전환 증가를 위해 우승 경험에 더 많은 트래픽을 자동으로 재할당하므로
+자동 할당은 두 개 이상의 경험 중에서 우승자를 식별합니다. 자동 할당은 성공 경험에 더 많은 트래픽을 자동으로 재할당하므로 테스트가 계속 실행되고 학습하는 동안 전환을 늘리는 데 도움이 됩니다.
 
 자세한 내용은 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
 
@@ -134,7 +134,7 @@ Multivariate Testing(MVT)는 페이지에 있는 요소의 오퍼 조합을 비�
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 현재 중국에 Edge Cluster가 없으며 중국 고객의 경우 방문자 성능이 계속  [!DNL Target] 제한됩니다. 방화벽과 국가 내 Edge Clusters가 없기 때문에 [!DNL Target]이(가) 배포된 사이트의 경험에 영향을 줄 수 있습니다. 경험은 렌더링 속도가 느려질 수 있고 페이지 로드에 영향을 줄 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI를 사용할 때 지연을 경험할 수 있습니다.
+>[!DNL Adobe Target] 현재 중국에 Edge Cluster가 없으며 중국 고객의 경우 방문자 성능이  [!DNL Target] 제한됩니다. 방화벽과 국가 내 Edge Clusters가 없기 때문에 [!DNL Target]이(가) 배포된 사이트의 경험에 영향을 줄 수 있습니다. 경험은 렌더링 속도가 느려질 수 있고 페이지 로드에 영향을 줄 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI를 사용할 때 지연을 경험할 수 있습니다.
 
 원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가하다할 수 있습니다. 자세한 내용은 [허용 목록에 추가하다 Target 가장자리 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)를 참조하십시오.
 
@@ -176,7 +176,7 @@ Google은 사용자 테스트를 권장합니다. Google은 문서에 A/B 및 Mu
 
 * **302(임시) 리디렉션 사용**:테스트의 변형 페이지에 별도의 URL을 사용하는 경우 Google에서는 302 리디렉션을 사용하여 트래픽을 테스트 변형으로 보내는 것이 좋습니다. 302 리디렉션은 리디렉션이 일시적이며 테스트가 실행되는 동안에만 활성화됨을 검색 엔진에 알립니다.
 
-   302 리디렉션은 서버측 리디렉션으로, 대부분의 최적화 공급자와 함께 [!DNL Target]은 클라이언트측 기능을 사용합니다. 따라서 이 영역은 [!DNL Target]이(가) Google의 권장 사항과 완전히 호환되지 않는 영역입니다. 하지만 이러한 방법은 테스트 중 극히 일부에만 영향을 줍니다. 단일 URL 내의 콘텐츠를 변경하도록 [!DNL Target] 호출을 통해 테스트를 실행하는 표준 방식이므로 리디렉션이 필요하지 않습니다. 클라이언트가 테스트 변형을 나타내기 위해 여러 URL을 사용해야 하는 경우가 있습니다. 이러한 경우 [!DNL Target]은 JavaScript `window.location` 명령을 사용합니다. 이 명령은 사용자가 변형을 테스트하도록 지시하며, 리디렉션이 301 또는 302인지 여부를 명시적으로 표시하지 않습니다.
+   302 리디렉션은 서버측 리디렉션으로, 대부분의 최적화 공급자와 함께 [!DNL Target]은 클라이언트측 기능을 사용합니다. 따라서 리디렉션은 [!DNL Target]이 Google의 권장 사항과 완전히 호환되지 않는 영역입니다. 하지만 이러한 방법은 테스트 중 극히 일부에만 영향을 줍니다. 단일 URL 내의 콘텐츠를 변경하도록 [!DNL Target] 호출을 통해 테스트를 실행하는 표준 방식이므로 리디렉션이 필요하지 않습니다. 클라이언트가 테스트 변형을 나타내기 위해 여러 URL을 사용해야 하는 경우가 있습니다. 이러한 경우 [!DNL Target]은 JavaScript `window.location` 명령을 사용합니다. 이 명령은 사용자가 변형을 테스트하도록 지시하며, 리디렉션이 301 또는 302인지 여부를 명시적으로 표시하지 않습니다.
 
    Adobe은 검색 엔진 지침에 맞게 실행 가능한 솔루션을 계속 찾습니다. 테스트를 위해 개별 URL을 사용해야 하는 클라이언트의 경우, Adobe은 표준 태그를 적절히 구현하면 이 접근 방식과 관련된 위험을 완화시킬 수 있다고 확신합니다.
 
