@@ -2,12 +2,12 @@
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
 description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하여 Target이 활성화된 페이지에서 MVT(Multivariate Test)를 바로 만드는 방법에 대해 알아보십시오.
 title: 다변량 테스트를 만들려면 어떻게 합니까?
-feature: Multivariate Tests
+feature: 다변량 테스트
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 90%
+source-wordcount: '569'
+ht-degree: 88%
 
 ---
 
@@ -56,18 +56,14 @@ ht-degree: 90%
 
    ![활동 이름 필드](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   다음 문자는 활동 이름에서 허용되지 않습니다.
+   활동 이름은 다음 문자로 시작할 수 없습니다.
 
    | 문자 | 설명 |
    |--- |--- |
-   | / | 슬래시 |
-   | ? | 물음표 |
-   | # | 숫자 기호 |
-   | : | 콜론 |
-   | = | 다음과 같음 |
-   | + | 플러스 |
-   | - | 빼기 |
-   | @ | 로그인 |
+   | `=` | 다음과 같음 |
+   | `+` | 플러스 |
+   | `-` | 빼기 |
+   | `@` | 로그인 |
 
 1. [각 위치에 오퍼를 만듭니다](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
