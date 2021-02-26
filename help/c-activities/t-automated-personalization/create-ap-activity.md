@@ -2,11 +2,11 @@
 keywords: 자동화된 개인화;앱;대상;앙상블;임의 포리스트;잔존 분산;오류 차이;라이프타임 값
 description: VEC(Visual Experience Composer)를 사용하여 Adobe Target에서 Automated Personalization(AP) 활동을 만드는 방법을 알아봅니다.
 title: Automated Personalization 활동을 만들려면 어떻게 합니까?
-feature: Automated Personalization
+feature: 자동화된 개인화
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2053'
 ht-degree: 91%
 
 ---
@@ -48,18 +48,14 @@ ht-degree: 91%
 
    ![이름 필드](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   다음 문자는 활동 이름에서 허용되지 않습니다.
+   활동 이름은 다음 문자로 시작할 수 없습니다.
 
    | 문자 | 설명 |
    |--- |--- |
-   | / | 슬래시 |
-   | ? | 물음표 |
-   | # | 숫자 기호 |
-   | : | 콜론 |
-   | = | 다음과 같음 |
-   | + | 플러스 |
-   | - | 빼기 |
-   | @ | 로그인 |
+   | `=` | 다음과 같음 |
+   | `+` | 플러스 |
+   | `-` | 빼기 |
+   | `@` | 로그인 |
 
 1. 다음 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)에 설명된 대로 페이지 요소를 수정합니다.
 
