@@ -1,13 +1,13 @@
 ---
 keywords: 릴리스 정보;새 기능;릴리스;업데이트;업데이트;릴리스;개선 사항;개선 사항;수정 사항;버그 수정;업데이트
-description: SDK, API 및 JavaScript 라이브러리를 비롯한 Adobe Target의 현재 릴리스에 포함된 새로운 기능, 향상된 기능 및 수정 사항에 대해 알아봅니다.
+description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Target의 최신 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 내용에 대해 알아봅니다.
 title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
-feature: Release Notes
+feature: 릴리스 노트
 translation-type: tm+mt
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 39%
+source-wordcount: '716'
+ht-degree: 42%
 
 ---
 
