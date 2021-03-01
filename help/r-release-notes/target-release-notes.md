@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 비롯한 Adobe Target�
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 노트
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: ddc357197f6a182865c5f06930de747c143c7c38
 workflow-type: tm+mt
-source-wordcount: '365'
-ht-degree: 25%
+source-wordcount: '437'
+ht-degree: 21%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트 날짜: 2021년 2월 17일**
+**마지막 업데이트 날짜: 2021년 1월 3일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시기에 따라 이러한 페이지의 정보가 같을 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -32,7 +32,7 @@ ht-degree: 25%
 
 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-* 허용되는 오퍼 크기를 늘렸습니다.
+* 허용되는 오퍼 크기를 늘렸습니다(TGT-38304).
 
    | 유형 | 이전 제한 | 새 제한 |
    | --- | --- | --- |
@@ -40,9 +40,11 @@ ht-degree: 25%
    | Target UI에서 제공하는 시각적 오퍼 | 64KB | 각 경험에 대해 1024KB |
    | API를 통해 | 512KB | 1024KB |
 
+* [!UICONTROL 개인화 ] 인사이트 [!UICONTROL  자동 Target] (AT) 및  [!UICONTROL Automated Personalization] (AP) 활동에 대한 보고서가 이제 매일 생성됩니다. 지난 15일, 30일 및 60일 동안 [!UICONTROL 자동화된 세그먼트] 또는 [!UICONTROL 중요 특성]을 제공하는 보고서를 선택할 수 있습니다. 다른 조회 창 설정을 매일 실행할 수 있도록 45일 및 90일 옵션이 제거되었습니다. (TGT-39472)
 * 고객이 활동의 [!UICONTROL 목표 및 설정] 페이지에서 [!UICONTROL 종속성 편집]을(를) 클릭할 때 현재 종속성이 표시되지 않는 문제를 해결했습니다. (TGT-39340)
 * 작업 영역의 [!UICONTROL 대상 라이브러리]를 새로 고칠 때 발생하는 문제를 수정했습니다. 새로 고침 전에 현재 선택된 작업 영역의 대상이 표시됩니다. 새로 고친 후 [!UICONTROL 기본 작업 영역]과 해당 대상이 표시됩니다. 이제 현재 작업 공간과 해당 대상은 새로 고침 후에도 유지됩니다. (TGT-38871)
 * [!UICONTROL Recommendations] 활동을 복사하고 나중에 기준 시퀀스를 변경하여 원래 활동을 편집할 때 발생하는 문제를 수정했습니다. 원래 활동의 기준 순서의 변경 사항도 복사된 활동에 잘못 적용되었습니다. (TGT-39155)
+* [!UICONTROL Recommendations] 제외에 대해 잘못된 개수의 제품이 표시되는 문제를 해결했습니다. (TGT-39599)
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
