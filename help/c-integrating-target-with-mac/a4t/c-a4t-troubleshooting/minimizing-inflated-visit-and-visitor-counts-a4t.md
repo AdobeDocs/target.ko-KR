@@ -4,10 +4,10 @@ description: Target(A4t)에 대한 Analytics를 사용할 때 부풀려진 방�
 title: A4T에서 부풀려진 방문 및 방문자 수를 어떻게 최소화합니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 94%
+source-wordcount: '1372'
+ht-degree: 82%
 
 ---
 
@@ -19,9 +19,9 @@ Analytics를 보고 소스로 사용할 때 부풀려진 방문 및 방문자 �
 >[!IMPORTANT]
 >2016년 11월 14일부터 Adobe Analytics에서 타겟 분석(A4T)을 사용하는 고객에 대해 일부 데이터가 처리되는 방식이 변경되었습니다. 이러한 변경 때문에 Adobe Target 데이터가 Adobe Analytics용 데이터 모델에 더 적합해질 수 있습니다 . 이러한 변경은 A4T를 사용하는 모든 고객을 위해 롤아웃되었습니다. 이러한 변경은 특히 Target 활동이 실행 중일 때 일부 고객이 방문자 수가 부풀려졌다는 사실을 알게 되는 문제를 해결합니다.
 >
->참고로 이 변경은 소급 적용되지 않습니다. 기록 보고서에 부풀려진 수가 표시되어 보고서에서 제외하고 싶은 경우, 아래 설명된 대로 가상 보고서 세트를 만들 수 있습니다.
+>이 변경은 소급 적용되지 않습니다. 기록 보고서에 부풀려진 수가 표시되어 보고서에서 제외하고 싶은 경우, 아래 설명된 대로 가상 보고서 세트를 만들 수 있습니다.
 >
->또한 부풀려진 수를 최소화하는 데 도움이 되도록 여러 JavaScript 라이브러리가 업데이트되었습니다. 다음 라이브러리 버전 이상으로 업그레이드하는 것이 좋습니다.
+>또한 여러 JavaScript 라이브러리가 업데이트되어 부풀려진 카운트를 최소화할 수 있습니다. Adobe에서는 다음 라이브러리 버전(또는 최신 버전)으로 업그레이드할 것을 권장합니다.
 >
 >* Experience Cloud 방문자 ID 서비스: visitorAPI.js 버전 2.3.0 이상
 >* Adobe Analytics: appMeasurement.js 버전 2.1.
@@ -33,21 +33,21 @@ mbox.js 라이브러리는 A4T를 사용하는 리디렉션 오퍼를 지원하�
 
 ## 변경 사항{#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-[!DNL Adobe Analytics]를 사용하여 [!DNL Target] 활동을 측정할 때(A4T라고 함) [!DNL Analytics]에서는 페이지에 [!DNL Target] 활동이 없을 때 사용할 수 없는 추가 데이터를 수집합니다. 이것은 [!DNL Target] 활동이 페이지 맨 위에서 호출을 실행하지만 [!DNL Analytics]는 일반적으로 페이지 맨 아래에서 해당 데이터 수집 호출을 실행하기 때문입니다. 지금까지의 A4T 구현에서는 [!DNL Target] 활동이 활성 상태가 될 때마다 이 추가 데이터를 포함했습니다. 앞으로는 [!DNL Target]과 [!DNL Analytics] 태그가 모두 실행된 경우에만 이 추가 데이터를 포함하게 됩니다.
+[!DNL Adobe Analytics]을(를) 사용하여 [!DNL Target] 활동(A4T라고 함)을 측정하는 경우 [!DNL Analytics]는 페이지에 [!DNL Target] 활동이 없을 때 사용할 수 없는 추가 데이터를 수집합니다. 이것은 [!DNL Target] 활동이 페이지 맨 위에서 호출을 실행하지만 [!DNL Analytics]는 일반적으로 페이지 맨 아래에서 해당 데이터 수집 호출을 실행하기 때문입니다. A4T 구현에서 현재까지 Adobe은 [!DNL Target] 활동이 활성 상태일 때마다 이 추가 데이터를 포함합니다. 앞으로 Adobe에는 [!DNL Target] 및 [!DNL Analytics] 태그가 모두 실행되었을 때만 이 추가 데이터가 포함됩니다.
 
 ## Adobe가 이 변경 작업을 수행하는 이유는 무엇입니까? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!DNL Target] 태그가 실행되지만 [!DNL Analytics] 태그는 실행되지 않은 경우, [!DNL Analytics] 활동이 없으면 [!DNL Target]에서 캡처되지 않을 수 있는 &quot;부분 데이터&quot;(경우에 따라 &quot;연결되지 않은 히트&quot;라고도 함)가 기록됩니다. 이 부분 데이터를 [!DNL Analytics] 보고에 포함하면 추가 정보가 제공되지만, 실행 중인 [!DNL Target] 활동이 없는 기간의 기록 데이터와 불일치하게 됩니다. 이렇게 되면 시간에 따른 트렌드를 분석하는 [!DNL Analytics] 사용자의 경우 문제가 발생할 수 있습니다. [!DNL Analytics]에서 데이터 일관성을 유지하기 위해 모든 부분 데이터를 제외할 것입니다.
+Adobe는 데이터 정확성 및 품질에 자부심을 갖고 있습니다. [!DNL Target] 태그가 실행되지만 [!DNL Analytics] 태그가 실행되지 않으면, Adobe은 [!DNL Analytics]에 의해 캡처되지 않을 &quot;부분 데이터&quot;(&quot;봉합되지 않은 히트&quot;라고도 함)를 기록합니다. [!DNL Target] 활동이 없습니다. 이 부분 데이터를 [!DNL Analytics] 보고에 포함하면 추가 정보가 제공되지만, 실행 중인 [!DNL Target] 활동이 없는 기간의 기록 데이터와 불일치하게 됩니다. 이렇게 되면 시간에 따른 트렌드를 분석하는 [!DNL Analytics] 사용자의 경우 문제가 발생할 수 있습니다. [!DNL Analytics]에서 데이터의 일관성을 유지하기 위해 Adobe은 모든 부분 데이터를 제외합니다.
 
 ## 부분 데이터에 기여하는 것은 무엇입니까? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
-[!DNL Analytics]에 있는 높은 비율의 부분 데이터가 있는 고객이 일부 확인되었습니다. 이로 인해 잘못된 구현이 진행될 수 있지만 타당한 원인도 있습니다.
+Adobe에서 [!DNL Analytics]의 일부 데이터 비율이 높은 일부 고객을 보았습니다. 이로 인해 잘못된 구현이 진행될 수 있지만 타당한 원인도 있습니다.
 
 부분 데이터에 대한 확인된 원인은 다음과 같습니다.
 
 * **잘못 정렬된 보고서 세트 ID(구현):** 활동 설정 동안 지정된 보고서 세트가 테스트가 전달된 페이지의 보고서 세트와 일치하지 않습니다. 데이터가 [!DNL Analytics] 서버에서 조정될 수 없으므로 부분 데이터처럼 보입니다.
 * **느린 페이지:** [!DNL Target] 호출이 페이지 위쪽에 있고 [!DNL Analytics] 호출은 일반적으로 페이지 아래쪽에 있으므로 페이지가 느리게 로드되면 [!DNL Target] 호출이 발생한 후, [!DNL Analytics] 호출 이전에 방문자가 페이지를 떠날 가능성이 높아집니다. 이러한 현상은 연결이 종종 더 느려지는 모바일 웹 사이트에서 특히 문제가 될 수 있습니다.
-* **페이지 오류:** JavaScript 오류 또는 각 터치포인트가 개시되지 않는 다른 시나리오가 있는 경우(Experience Cloud ID 서비스, Target 및 Analytics) 부분 데이터가 발생합니다.
+* **페이지 오류:** 각 터치포인트가 실행되지 않는 JavaScript 오류 또는 기타 시나리오가 있는 경우(Experience Cloud ID 서비스, Target 및 분석), 부분 데이터 결과가 표시됩니다.
 * **[!DNL Target]활동의 리디렉션 오퍼:** A4T를 사용하는 활동의 리디렉션 오퍼에 대해서는 구현이 특정 최소 요구 사항을 충족해야 합니다. 또한 사용자가 알아야 하는 중요한 정보도 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58)를 참조하십시오.
 * **이전 버전의 라이브러리:** 작년에 Adobe는 데이터가 가능한 한, 효율적으로 전송될 수 있게 하도록 JavaScript 라이브러리([!DNL appMeasurement.js], `at.js/mbox.js` 및 `visitorAPI.js`)를 일부 개선했습니다. 구현 요구 사항에 대해 자세히 알려면 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543)를 참조하십시오.
 
