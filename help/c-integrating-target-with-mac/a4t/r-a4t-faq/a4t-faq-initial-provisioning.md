@@ -4,17 +4,17 @@ description: Target 활동에 Analytics 보고를 사용할 수 있는 Target(A4
 title: A4T 초기 프로비저닝에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 92%
+source-wordcount: '489'
+ht-degree: 68%
 
 ---
 
 
 # 초기 프로비저닝 - A4T FAQ{#initial-provisioning-a-t-faq}
 
-이 주제에서는 Target의 보고 소스로 사용되는 Analytics(A4T)에 대한 사용 권한을 제공하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
+이 주제에는 [!DNL Adobe Target](A4T)의 보고 소스로 [!DNL Adobe Analytics]을(를) 프로비저닝하는 것에 대해 자주 묻는 질문에 대한 답변이 포함되어 있습니다.
 
 ## 다중 페이지 A4T 활동을 설정하려면 어떻게 해야 합니까?
 
@@ -28,7 +28,7 @@ ht-degree: 92%
 
 Analytics 활동을 정의할 때 보고서 세트를 선택하려면 Analytics 사용자 계정과 Target 사용자 계정 둘 다 필요합니다. 문서에 설명된 대로 사용자 계정을 구성해야 합니다. 자세한 내용은 [사용자 권한 요구 사항](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)을 참조하십시오.
 
-Analytics 및 Target에 액세스할 수 있는 Experience Cloud 그룹 중 하나에 소속되어 있고 모든 보고서 세트에 대해 액세스 권한이 있는 경우에는 Analytics를 사용하여 A/B 테스트를 만들 수 있는 선택 사항이 **[!UICONTROL 활동 만들기 아래에 표시됩니다]**.
+Analytics 및 Target에 대한 액세스 권한이 있는 하나 이상의 Experience Cloud 그룹의 구성원이고 모든 보고서 세트에 대한 액세스 권한이 있으면 **[!UICONTROL 활동 만들기]** 아래에 Analytics를 사용하여 A/B 테스트를 만드는 옵션이 표시됩니다.
 
 제공 문제가 발생할 경우 A4T가 올바르게 제공되어 있는지 확인하십시오.
 
@@ -36,13 +36,13 @@ Analytics 및 Target에 액세스할 수 있는 Experience Cloud 그룹 중 하�
 
 이러한 문제가 발생하면 다음 사항을 확인하십시오.
 
-* Analytics 계정과 Target 계정이 Experience Cloud에서 연결되어 있는지 확인합니다.
-* 동일한 Experience Cloud 회사에 Analytics 회사 로그인을 여러 번 사용하는 경우 마지막으로 로그인한 Analytics 회사는 Target 계정에 연결되어 통합될 수 있어야 합니다.
+* Analytics 및 Target 계정이 Experience Cloud에 연결되어 있는지 확인합니다.
+* 일부 고객은 동일한 Experience Cloud 회사에서 여러 Analytics 회사 로그인을 사용합니다. 여러 로그인을 사용하는 경우 마지막으로 로그인한 Analytics 회사가 통합을 위해 Target 계정에 연결된 회사인지 확인하십시오.
 * Experience Cloud에 몇 시간 동안 로그인되어 있는 상태일 경우 Analytics 세션이 만료될 수 있습니다. 로그아웃했다가 로그인한 후 다시 시도하십시오.
 
 ## Target에 Analytics 선택 사항이 표시되지 않는 이유는 무엇입니까?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 참조하십시오. 이 문제의 근본 원인은 같습니다.
+위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 위. 이 문제의 근본 원인은 같습니다.
 
 ## Analytics에 A4T 보고서가 표시되지 않는 이유는 무엇입니까?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
