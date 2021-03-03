@@ -5,10 +5,10 @@ title: A4T에 필요한 사용자 권한 요구 사항은 무엇입니까?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 38%
+source-wordcount: '313'
+ht-degree: 36%
 
 ---
 
@@ -39,9 +39,7 @@ ht-degree: 38%
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-[!DNL Analytics] 보고서 세트에 대한 액세스 권한 구성:
-
-지정된 보고서 세트에서 A4T를 사용하려면 해당 보고서 세트에 대한 액세스 권한이 있어야 합니다.
+지정된 보고서 세트에서 A4T를 사용하려면 해당 보고서 세트에 대한 액세스 권한이 있어야 하며 [!DNL Web Services Access] 그룹에 대한 액세스 권한을 부여해야 합니다.
 
 1. **[!UICONTROL Admin Console]**&#x200B;에서 [!DNL Analytics] 제품 프로필을 클릭한 다음 **[!UICONTROL 권한]** 탭을 클릭합니다.
 
@@ -52,6 +50,11 @@ ht-degree: 38%
    다음 그림은 모든 보고서 세트에 액세스할 수 있는 제품 프로필의 예입니다.
 
    ![Admin Console 권한 탭](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+
+1. [!UICONTROL 웹 서비스 액세스] 그룹에 대한 액세스를 구성합니다.
+
+   [!DNL Analytics]을(를) [!DNL Target]의 보고 소스로 사용하려면 [!UICONTROL 웹 서비스 액세스] 그룹에 액세스해야 합니다.[!DNL Analytics]
+
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
