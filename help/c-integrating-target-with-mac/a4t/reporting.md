@@ -4,21 +4,21 @@ description: Target(A4T)에 Analytics를 사용하는 방법을 알아봅니다.
 title: A4T에서 보고를 사용하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '688'
-ht-degree: 32%
+source-wordcount: '689'
+ht-degree: 30%
 
 ---
 
 
 # A4T 보고{#a-t-reporting}
 
-[!DNL Analytics]을(를) [!DNL Target](A4T)의 보고 소스로 사용하면 [!DNL Target] 활동에 대한 [!DNL Analytics] 보고서에 액세스할 수 있습니다.
+[!DNL Adobe Analytics]을(를) [!DNL Adobe Target](A4T)의 보고 소스로 사용하면 [!DNL Target] 활동에 대한 [!DNL Analytics] 보고서에 액세스할 수 있습니다.
 
 [!DNL Analytics] 및 [!DNL Target] 모두에서 활동에 대한 보고서를 볼 수 있습니다.
 
-[!DNL Target]에 대해 [!DNL Analytics]을(를) 사용하는 최상의 보고 방법을 보려면 이 Adobe Spark 페이지](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)를 방문하십시오.[
+[!DNL Target]에 대해 [!DNL Analytics]을(를) 사용하는 최상의 보고 방법을 보려면 이 Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)을 방문하십시오.[
 
 ## 개요 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -66,7 +66,7 @@ ht-degree: 32%
 
    [!DNL Analytics]에 내장되어 있는 사용자 지정 지표나 계산된 지표를 포함하여 모든 지표를 사용할 수 있습니다.
 
-   수치 증가가 실제로 불필요하더라도 증가되는 모든 숫자는 보고서에서 양수로 표시됩니다. 예를 들어, 낮은 바운스 비율이 필요하더라도 상승도가 가장 높은 우승자로 높은 바운스 비율이 표시됩니다. 이러한 지표 및 유사 지표에 유의하여 보고서를 기준으로 수치를 높일지 또는 줄일지 결정을 내려야 합니다.
+   증가가 필요하지 않은 경우에도 증가되는 모든 숫자는 보고서에서 양수로 표시됩니다. 예를 들어, 낮은 바운스 비율이 필요하더라도 상승도가 가장 높은 우승자로 높은 바운스 비율이 표시됩니다. 이러한 지표 및 유사 지표에 유의하여 보고서를 기준으로 수치를 높일지 또는 줄일지 결정을 내려야 합니다.
 
 활동이 시작된 후 또는 테스트가 완료된 후에도 [!DNL Target]의 보고서에 지표나 대상을 적용할 수 있습니다. 측정할 사항을 사전에 정확히 알 필요는 없습니다.
 
