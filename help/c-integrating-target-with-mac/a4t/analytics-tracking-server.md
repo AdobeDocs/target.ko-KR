@@ -4,29 +4,29 @@ description: 'at.js 또는 mbox.js의 이전 버전을 사용하는 경우 Targe
 title: Analytics 추적 서버를 어떻게 사용합니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 22%
+source-wordcount: '705'
+ht-degree: 20%
 
 ---
 
 
 # Analytics 추적 서버 사용을 참조하십시오
 
-at.js 또는 mbox.js의 이전 버전을 사용하는 경우 [!DNL Target](A4T)에 [!DNL Analytics]을(를) 사용하는 활동에 대한 Analytics 추적 서버를 지정해야 합니다.
+at.js 또는 mbox.js의 이전 버전을 사용하는 경우 [!DNL Adobe Target](A4T)에 [!DNL Adobe Analytics]을(를) 사용하는 활동에 대한 Analytics 추적 서버를 지정해야 합니다.
 
 >[!NOTE]
 >
->활동의 보고 소스로 [!DNL Analytics]을 사용하는 경우 mbox.js 버전 61(이상) 또는 at.js 버전 0.9.1(이상)를 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. mbox.js 또는 at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]에 보냅니다. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
+>mbox.js 버전 61 이상 또는 at.js 버전 0.9.1(이상)을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. mbox.js 또는 at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]에 보냅니다. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
 >
 >[!DNL Target] 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전 중 하나의 최신 버전으로 업그레이드하십시오. 자세한 내용은 [at.js 버전 세부 정보](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)를 참조하십시오.
 
-[!DNL Target]의 데이터가 [!DNL Analytics]의 올바른 위치로 이동하도록 하려면 A4T에서 [!DNL Target]의 모든 Modstats 호출에서 Analytics 추적 서버를 전송해야 합니다. 여러 추적 서버를 사용하는 구현의 경우 [!DNL Adobe Experience Platform Debugger] 또는 브라우저의 개발자 도구를 사용하여 활동에 대한 올바른 추적 서버를 확인할 수 있습니다.
+[!DNL Target]의 데이터가 [!DNL Analytics]의 올바른 위치로 이동하도록 하려면 A4T에서 [!DNL Target]의 모든 Modstats 호출에서 Analytics 추적 서버를 전송해야 합니다. 여러 추적 서버를 사용하는 구현의 경우 [!DNL Adobe Experience Platform Debugger] 또는 브라우저의 개발자 도구를 사용하여 활동에 대한 올바른 추적 서버를 확인합니다.
 
 ## Adobe Experience Platform Debugger를 사용하여 Analytics 추적 서버 가져오기
 
-올바른 추적 서버를 선택하도록 하기 위해 활동이 전달될 페이지에 이 디버그가 표시됩니다. 각 계정에 대해 기본 추적 서버를 지정할 수도 있습니다. 고객 지원 센터에 문의하여 기본값을 지정하거나 수정하십시오.
+디버거는 올바른 추적 서버를 선택할 수 있도록 활동이 제공되는 페이지에서 확인해야 합니다. 각 계정에 대해 기본 추적 서버를 지정할 수도 있습니다. 고객 지원 센터에 문의하여 기본값을 지정하거나 수정하십시오.
 
 1. 활동을 만드는 페이지에서 [!DNL Adobe Experience Platform Debugger]을 엽니다.
 
@@ -48,7 +48,7 @@ at.js 또는 mbox.js의 이전 버전을 사용하는 경우 [!DNL Target](A4T)�
 
    >[!NOTE]
    >
-   >[!UICONTROL 추적 서버] 필드를 사용할 수 있게 하려면 [!UICONTROL Analytics를 보고 소스]로 선택해야 합니다.
+   >[!UICONTROL 추적 서버] 필드를 사용할 수 있도록 하려면 [!UICONTROL Analytics를 보고 소스]로 선택합니다.
 
 ## 브라우저의 개발자 도구를 사용하여 Analytics 추적 서버 가져오기
 
@@ -76,5 +76,5 @@ at.js 또는 mbox.js의 이전 버전을 사용하는 경우 [!DNL Target](A4T)�
 
    >[!NOTE]
    >
-   >[!UICONTROL 추적 서버] 필드를 사용할 수 있게 하려면 [!UICONTROL Analytics를 보고 소스]로 선택해야 합니다.
+   >[!UICONTROL 추적 서버] 필드를 사용할 수 있도록 하려면 [!UICONTROL Analytics를 보고 소스]로 선택합니다.
 
