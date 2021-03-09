@@ -4,15 +4,15 @@ description: 개체 속성을 사용하여 제품 또는 컨텐츠 정보를 Ado
 title: 개체 속성을 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 88%
+source-wordcount: '1064'
+ht-degree: 87%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) 엔티티 속성{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) 엔티티 속성
 
 개체 특성을 사용하여 제품 또는 콘텐트 정보를 [!DNL Adobe Target Recommendations]에 전달합니다.
 
@@ -86,7 +86,7 @@ Singe 값만 사용합니다.
 
 이 필수 매개 변수는 제품을 식별합니다. 항목을 인식하고 그에 대한 데이터를 공유하려면 다양한 제품에 사용된 모든 [!DNL Adobe Experience Cloud] 제품([!DNL Analytics] 포함)에서 이 영숫자 ID가 동일해야 합니다.
 
-`entity.id` 값에는 REST API 호출에 전달될 때 URL 인코딩이 필요한 슬래시, 앰퍼샌드, 물음표, 백분율 기호, 쉼표 또는 기타 구두점 문자를 사용할 수 없습니다. 하이픈 및 밑줄은 허용됩니다. `entity.id` 값에 올바르지 않은 구두점을 포함하면 일부 [!DNL Recommendations] 기능에 오류가 발생합니다.
+`entity.id`*값에는 REST API 호출에 전달될 때 URL 인코딩이 필요한 슬래시, 앰퍼샌드, 물음표, 백분율 기호, 쉼표 또는 기타 구두점 문자를 사용할 수 없습니다.* 하이픈 및 밑줄은 허용됩니다. `entity.id` 값에 올바르지 않은 구두점을 포함하면 일부 [!DNL Recommendations] 기능에 오류가 발생합니다.
 
 예: `'entity.id=67833'`
 
@@ -179,6 +179,8 @@ mbox 배달의 경우 키에 가장 긴 속성 이름이 사용됩니다. 연결
 항목의 가격 또는 값을 정의합니다.
 
 예: `'entity.value=15.99'`
+
+entity.value는 십진수 형식만 지원합니다(예: 15.99). 쉼표 형식(15,99)은 지원되지 않습니다.
 
 ### entity.margin
 
