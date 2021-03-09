@@ -2,13 +2,13 @@
 keywords: 문자 제한;mbox 매개 변수;배치 배달 api;프로필 매개 변수;제한;프로필 프로필;최대;제한;제한;문자;우수 사례;순서;주문 합계;mbox3rdPartyID;category;categoryID;문제 해결
 description: 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등) 목록 보기 정보입니다.
 title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까?
-feature: Troubleshooting
+feature: 문제 해결
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 64%
+source-wordcount: '1090'
+ht-degree: 63%
 
 ---
 
@@ -192,13 +192,13 @@ ht-degree: 64%
 
 * **권장 제한**: 총 50,000개의 오퍼.
 
-### 오퍼 크기
+### 오퍼 크기 {#offer-size}
 
 다음 크기 제한이 오퍼에 적용됩니다.
 
-* HTML 오퍼에는 256KB.
-* UI의 시각적 오퍼에는 64KB.
-* API에는 512KB.
+* HTML 오퍼에는 1024KB.
+* UI에서 제공하는 시각적 오퍼에 대해 1024KB(각 경험에 대해)입니다.
+* API에는 1024KB.
 
    글로벌 mbox를 사용하는 경우 이 제한은 페이지에 대해 반환되는 전체 콘텐츠 세트에 해당됩니다. 오퍼 크기를 제한하면 페이지 로드 시간이 향상됩니다. 이 제한을 초과하는 경우 다음 메시지가 나타납니다.
 
