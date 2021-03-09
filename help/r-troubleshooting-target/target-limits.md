@@ -5,7 +5,7 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 63%
@@ -53,7 +53,7 @@ ht-degree: 63%
 
 ## categoryId 매개 변수
 
-* **제한**: 128자.
+* **제한**: 250자.
 
 ## 고객 속성
 
