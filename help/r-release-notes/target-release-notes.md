@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 비롯한 Adobe Target�
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 노트
 translation-type: tm+mt
-source-git-commit: ddc357197f6a182865c5f06930de747c143c7c38
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
 source-wordcount: '437'
-ht-degree: 21%
+ht-degree: 22%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 21%
 >
 >Adobe에서는 모든 고객이 사이트에서 발생할 수 있는 문제를 방지하기 위해 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션할 것을 권장합니다. 자세한 내용은 [개요:클라이언트측 웹](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)에 대한 Target을 구현합니다.
 
-## Target Standard/Premium 21.2.1(2021년 3월 9일 및 10일)
+## Target Standard/Premium 21.2.1(2021년 3월 9일)
 
 이 유지 관리 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
