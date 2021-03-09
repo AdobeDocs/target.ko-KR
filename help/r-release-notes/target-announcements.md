@@ -2,12 +2,12 @@
 keywords: 공지 사항;스킬 빌더;개발자 채팅;커피 브레이크;이벤트;forrester;gartner;webinar
 description: 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등 Adobe Target 이벤트에 대한 공지 사항을 읽고 등록할 수 있습니다.
 title: Target 공지 사항 및 이벤트는 어디에서 찾을 수 있습니까?
-feature: Release Notes
+feature: 릴리스 노트
 translation-type: tm+mt
-source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '541'
+ht-degree: 0%
 
 ---
 
@@ -24,21 +24,6 @@ Adobe Target은 Forrester와 Gartner가 시장 리더로 최근에 인증한 바
 | --- | --- |
 | Forrester | **Adobe은 경험 최적화 플랫폼을 위한 Forrester wave 보고서에서 리더로 선정되었습니다.**<br>&quot;The Forrester Wave:경험 최적화 플랫폼, 2020년 4분기 보고서(Adobe Target Premium) Adobe은 현재 제공 중인 솔루션 및 시장 입지 카테고리에서 추천 및 플랫폼 경험 기준으로 참여하는 모든 벤더 중에서 가장 높은 점수를 받았습니다. 또한 Target Premium은 경험 최적화 기법 혁신 및 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 이 보고서는 22개 기준을 바탕으로 10개의 경험 최적화 플랫폼 제공업체를 정밀하게 평가합니다.<br>Adobe 블로그에서  [확인할 수 있습니다](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe은 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정되었습니다.**<br> Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 조사 결과 15개 부문에서 벤더를 평가했으며, 그 기준은 2개였습니다.비전의 완전성과 실행의 능력.<br>[Adobe 블로그에서 이 정보를 참조하십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
-## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
-
-* **2월 24일 수요일**
-* **오전 9시(태평양 표준시) | 오전 11시 CST | 12 정오 EST**
-* **지속 시간 60분**
-* **[추가 정보](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
-
-Adobe Target 수석 제품 관리자 Rob Hornick이 참여할 예정입니다. Rob은 Target과 그의 전문 분야에 관한 당신의 질문에 답할 것이다:
-
-* Recommendations
-* 자동 할당
-* 자동 타겟
-* 자동화된 개인화
-* 기계 학습 및 인공 지능
 
 ## 웨비나:Adobe Target의 디바이스에서 의사 결정을 내림으로써 지연 없이 개인화 및 테스트
 
