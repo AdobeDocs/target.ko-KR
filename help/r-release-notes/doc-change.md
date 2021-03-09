@@ -4,9 +4,9 @@ description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 노트
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
 workflow-type: tm+mt
-source-wordcount: '3715'
+source-wordcount: '3740'
 ht-degree: 29%
 
 ---
@@ -14,14 +14,15 @@ ht-degree: 29%
 
 # 설명서 변경 내용
 
-이 페이지에는 [!DNL Adobe Target] 제품 설명서에 대한 중요한 변경 내용이 나와 있습니다.
+이 페이지에는 [!DNL Adobe Target] 제품 설명서에 대한 중요한 변경 사항이 나열됩니다.
 
 ## Adobe Target Standard/Premium 21.2.1(2021년 3월 9일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 3월 9일 | [제한](/help/r-troubleshooting-target/target-limits.md#offer-size) | 허용되는 오퍼 크기 제한을 업데이트했습니다. |
+| 3월 9일 | [제한](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>허용되는 오퍼 크기 제한을 업데이트했습니다.</li><li>categoryId 매개 변수의 문자 제한을 수정했습니다.</li></ul> |
 |  | [허용 목록에 추가하다 Target 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | [!DNL Target] 가장자리 IP 주소를 업데이트했습니다. |
+|  | [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md) | entity.value가 10진수 형식이어야 함을 나타내는 텍스트가 추가되었습니다(예: 15,99가 아닌 15.99). |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 21.2.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 21.1.1(2021년 1월 19일)
