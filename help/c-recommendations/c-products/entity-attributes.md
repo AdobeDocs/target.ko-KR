@@ -4,10 +4,10 @@ description: 개체 속성을 사용하여 제품 또는 컨텐츠 정보를 Ado
 title: 개체 속성을 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
+source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
 workflow-type: tm+mt
-source-wordcount: '1064'
-ht-degree: 87%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -23,16 +23,16 @@ ht-degree: 87%
 >* `entity.id` 는 주문 확인  `productPurchasedId` 페이지 및 Adobe Analytics 제품 보고서에  `productId` 사용된 것과 일치해야 합니다.
    >
    >
-* 제공된 엔티티 속성값은 61일 후 만료됩니다. 이것은 각 엔티티 속성의 최신 값이 카탈로그의 각 항목에 대해 매월 최소 한 번씩 Target Recommendations에 전달되도록 해야 함을 의미합니다.
+* 제공된 엔티티 속성값은 61일 후 만료됩니다. 이 만료는 카탈로그의 각 항목에 대해 최소한 한 달에 한 번 이상 Target Recommendations에 각 개체 속성의 최신 값이 전달되도록 해야 함을 의미합니다.
 
 
 대부분의 사전 정의된 매개 변수는 단일 값만 허용하므로, 새 값이 이전 값을 덮어씁니다. `categoryId` 매개 변수에는 해당 제품을 포함하는 각 카테고리의 쉼표 구분 값 목록이 사용됩니다. 새 `categoryId` 값이 기존 값을 덮어쓰지 않지만, 대신 엔티티 업데이트(250자 제한) 중에 첨부됩니다.
 
-일반적으로 표시 정보 mbox는 at.js 1을 사용하는 경우 다음 예와 비슷합니다.*xwith*  `mboxCreate`.
+일반적으로 표시 정보 mbox는 at.js 1을 사용하는 경우 다음 예와 같습니다.*xwith*  `mboxCreate`.
 
 >[!NOTE]
 >
->* at.js 2를 사용하는 경우&#x200B;*x*,  `mboxCreate` (다음 예에서 사용됨)는 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations으로 전달하려면&#x200B;*x*, targetPageParams를  [사용하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). 예를 보려면 [Recommendations](/help/c-recommendations/plan-implement.md)계획 및 구현을 참조하십시오.
+>* at.js 2를 사용하는 경우&#x200B;*x*,  `mboxCreate` (다음 예에서 사용됨)는 더 이상 지원되지 않습니다. at.js 2를 사용하여 제품 또는 컨텐츠 정보를 Recommendations으로 전달하려면&#x200B;*x*, targetPageParams를  [사용하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). 예를 보려면 [Recommendations](/help/c-recommendations/plan-implement.md) 계획 및 구현을 참조하십시오.
 
 >
 
@@ -102,7 +102,7 @@ Singe 값만 사용합니다.
 
 다중 값(쉼표로 구분된 목록)을 지원합니다.
 
-현재 페이지의 카테고리. 여기에는 카디건 하위 섹션의 하위와 같은 여러 카테고리가 포함될 수 있습니다(예 - 여성, 여성:스웨터, 여성:스웨터:카디건). 여러 카테고리는 쉼표로 구분해야 합니다.
+현재 페이지의 카테고리. entity.categoryID에는 카디건 하위 섹션(예: 여성, 여성:스웨터, 여성:스웨터:카디건)과 같은 여러 카테고리가 포함될 수 있습니다. 여러 카테고리는 쉼표로 구분해야 합니다.
 
 `categoryId`는 250자로 제한됩니다.
 
@@ -118,7 +118,7 @@ Singe 값만 사용합니다.
 
 카테고리 기반 권장 사항의 경우 쉼표를 사용해서 카테고리값을 구분합니다. 쉼표로 구분되는 모든 값은 카테고리가 됩니다. 콜론(:)과 같은 기타 구분 기호를 사용하여 카테고리 값 내의 하위 카테고리를 구분하도록 정의할 수도 있습니다.
 
-예를 들어 다음 코드에서 Womens 카테고리는 일부 하위 카테고리로 구분됩니다.
+예를 들어 다음 코드에서는 여성 카테고리가 여러 하위 카테고리로 나누어집니다.
 
 ```javascript
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
@@ -166,11 +166,11 @@ mbox 배달의 경우 키에 가장 긴 속성 이름이 사용됩니다. 연결
 
 예: `'entity.inventory=1'`
 
-**빈 재고 속성 처리:** 전달에 대한 포함 규칙, 컬렉션 규칙 또는 기준 설정이 `entity.inventory` > 0 또는 `entity.inventory` = 0이고 제품에 재고가 설정되어 있지 않은 경우, [!DNL Target]이 이를 TRUE로 평가하고 재고가 설정되지 않은 제품을 포함합니다. 이 작업은 기본적으로 수행되었으므로 재고가 설정되지 않은 제품이 권장 결과에 표시됩니다.
+**빈 재고 속성 처리:** 배달을 위해,  `entity.inventory` > 0 또는  `entity.inventory` = 0의 포함 규칙, 수집 규칙 또는 기준 설정이 있고 제품에 재고가 설정되지 않은 경우, 이 값을 TRUE로  [!DNL Target] 평가하고 재고가 설정되지 않은 제품을 포함합니다. 따라서 재고가 설정되지 않은 제품이 추천 결과에 표시됩니다.
 
 마찬가지로, 글로벌 제외 규칙이 `entity.inventory` = 0으로 설정되어 있고 `entity.inventory`가 설정되지 않은 경우 [!DNL Target]은 이 규칙을 TRUE로 평가하고 제품을 제외합니다.
 
-**알려진 문제:** 재고 값 속성을 설정하지 않았기 때문에 제품 검색이 전달과 일치하지 않습니다. 예를 들어 `entity.inventory` = 0인 규칙의 경우, 제품 검색 결과에 재고 값이 설정되지 않은 제품이 표시되지 않습니다.
+**알려진 문제:** 재고 값 속성을 설정하지 않았기 때문에 제품 검색이 전달과 일치하지 않습니다. 예를 들어 `entity.inventory` = 0인 규칙의 경우 제품 검색에서 재고 값이 설정되지 않은 제품이 표시되지 않습니다.
 
 ### entity.value
 
@@ -194,12 +194,12 @@ entity.value는 십진수 형식만 지원합니다(예: 15.99). 쉼표 형식(1
 
 다중 값(JSON 배열)을 지원합니다.
 
-항목에 대한 추가 정보를 제공하는 최대 100개의 사용자 지정 변수를 정의합니다. 각 사용자 지정 속성에 대해 미사용 속성 이름을 지정할 수 있습니다. 예를 들어, 책 또는 동영상을 정의하기 위해 `entity.genre`라는 사용자 지정 속성을 만들 수 있습니다. 또는 티켓 공급업체는 행사 장소 또는 스포츠 경기의 원정팀이나 콘서트의 서막같이 보조 참여자에 대한 속성을 만들 수 있습니다.
+항목에 대한 추가 정보를 제공하는 최대 100개의 사용자 지정 변수를 정의합니다. 각 사용자 지정 속성에 대해 미사용 속성 이름을 지정할 수 있습니다. 예를 들어 `entity.genre`이라는 사용자 지정 속성을 만들어 책 또는 동영상을 정의할 수 있습니다. 티켓 공급업체는 스포츠 경기의 방문팀이나 콘서트의 오프닝 액션과 같이 보조 공연자를 위한 이벤트 장소의 속성을 만들 수 있습니다.
 
 제한 사항:
 
 * 사용자 지정 엔티티 속성에는 사전 정의된 엔티티 속성 이름을 사용할 수 없습니다. 
-* entity.environment 속성은 시스템에 의해 예약되어 있으므로 사용자 지정 엔티티 속성에 사용할 수 없습니다. targetPageParams, 피드 또는 API를 사용하여 entity.environment를 전달하려고 하면 무시됩니다.
+* entity.environment 속성은 시스템에 의해 예약되어 있으므로 사용자 지정 엔티티 속성에 사용할 수 없습니다. targetPageParams, 피드 또는 API를 사용하여 entity.environment를 전달하려는 시도는 무시됩니다.
 
 예:
 
@@ -223,7 +223,7 @@ mbox 호출이 알고리즘에 대한 행동 데이터 카운터를 증분하지
 
 예: `'entity.event.detailsOnly=true'`
 
-아래 예제에서 첫 번째 mbox 호출은 카탈로그 및 행동 데이터를 업데이트합니다. 두 번째 mbox 호출은 카탈로그만 업데이트합니다.
+아래 예에서 첫 번째 mbox 호출은 카탈로그 및 행동 데이터를 업데이트합니다. 두 번째 mbox 호출은 카탈로그만 업데이트합니다.
 
 ```javascript
 mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 'entity.inventory = 4' )
