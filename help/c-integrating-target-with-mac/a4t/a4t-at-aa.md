@@ -4,10 +4,10 @@ description: Analytics를 보고 소스(A4T)로 사용하는 Adobe Target에서 
 title: A4T는 자동 할당 및 자동 Target 활동을 지원합니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 3%
+source-wordcount: '964'
+ht-degree: 2%
 
 ---
 
@@ -41,7 +41,7 @@ A/B 테스트 및 경험 타깃팅 활동](/help/c-integrating-target-with-mac/a
 1. 기본 목표 지표를 선택합니다.
 
    * [!DNL Adobe Target]을(를) 사용하여 최적화 목표를 지정하려면 **[!UICONTROL 전환]**&#x200B;을 선택합니다.
-   * **[!UICONTROL 분석 지표 사용]**&#x200B;을 선택한 다음 최적화 목표로 사용할 [!DNL Analytics]의 지표를 선택합니다. 기본적으로 [!DNL Analytics] 전환 지표나 [!DNL Analytics] 사용자 지정 이벤트를 사용할 수 있습니다.
+   * **[!UICONTROL Analytics 지표 사용]**&#x200B;을 선택한 다음 최적화 목표로 사용할 [!DNL Analytics]의 지표를 선택합니다. 기본적으로 [!DNL Analytics] 전환 지표나 [!DNL Analytics] 사용자 지정 이벤트를 사용할 수 있습니다.
 
    자세한 내용은 아래 [지원되는 목표 지표](#supported)를 참조하십시오.
 
@@ -96,3 +96,11 @@ A/B 테스트 및 경험 타깃팅 활동](/help/c-integrating-target-with-mac/a
 * [!UICONTROL 자동 Target] 활동의 데이터 소스로 [!DNL Analytics]을(를) 사용할 때 6시간이 경과하면 세션이 종료됩니다. 6시간 후 발생하는 전환은 계산되지 않습니다.
 
 자세한 내용은 *분석 도구 안내서*&#x200B;에서 [속성 모델 및 전환 창](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)을 참조하십시오.
+
+## 자습서:자동 Target 활동에 대해 Analysis Workspace에서 A4T 보고서를 설정하는 방법 {#tutorial}
+
+풍부한 분석 기능은 [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace]에서 사용할 수 있지만, 자동 Target 활동을 올바로 해석하려면 기본 [!UICONTROL Target] 패널에 대한 분석을 몇 가지 수정해야 합니다. 이러한 수정은 실험 활동(수동 A/B와 [!UICONTROL 자동 할당])과 개인화 활동([!UICONTROL 자동 Target])의 차이로 인해 필요합니다.
+
+이 자습서에서는 [!UICONTROL 작업 공간]에서 [!UICONTROL 자동 Target] 활동을 분석하기 위한 권장 수정 사항을 안내합니다.
+
+자세한 내용은 *Adobe Target Tutorials*&#x200B;의 자동 Target 활동에 대해 Analysis Workspace에서 A4T 보고서를 설정하는 방법을 참조하십시오](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html).[
