@@ -4,10 +4,10 @@ description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 노트
 translation-type: tm+mt
-source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '3740'
-ht-degree: 29%
+source-wordcount: '3767'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 3월 12일 | [자동 할당 및 자동 Target 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 다음과 같은 새로운 자습서가 추가되었습니다.<ul><li>자동 Target 활동에 대해 Analysis Workspace에서 A4T 보고서를 설정하는 방법</li></ul> |
 | 3월 9일 | [제한](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>허용되는 오퍼 크기 제한을 업데이트했습니다.</li><li>categoryId 매개 변수의 문자 제한을 수정했습니다.</li></ul> |
 |  | [허용 목록에 추가하다 Target 에지 노드](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | [!DNL Target] 가장자리 IP 주소를 업데이트했습니다. |
 |  | [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md) | entity.value가 10진수 형식이어야 함을 나타내는 텍스트가 추가되었습니다(예: 15,99가 아닌 15.99). |
