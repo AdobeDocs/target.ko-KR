@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b14736a6f49e4276c94490f2fa435a87f8d365ae
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '145'
 ht-degree: 100%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 100%
 ## Contributor 라이센스 계약
 
 본 프로젝트에 대한 모든 타사 기여는 서명된 기여자 라이센스를 동반해야 합니다. 이를 통해 Adobe는 귀하의 기여를 프로젝트의 일부로서
-재배포할 수 있는 권한을 얻게 됩니다. [SOME LINK](아직 링크 없음)에서 CLA에 서명하십시오. Adobe CLA는 한 번만 제출하면 되므로 이전에 제출한 적이 있다면 언제든지 해당 제품을 이용할 수 있을 것입니다.
+재배포할 수 있는 권한을 얻게 됩니다. Adobe CLA는 한 번만 제출하면 되므로 이전에 제출한 적이 있다면 언제든지 해당 제품을 이용할 수 있을 것입니다.
 
 ## 수칙 검토
 
