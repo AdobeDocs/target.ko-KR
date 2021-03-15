@@ -4,10 +4,10 @@ description: Analytics for Target(A4T)을 사용할 때 보고서 보기에 대�
 title: A4T로 보고서 보기에 대한 질문에 대한 답변을 찾으시겠습니까?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
 workflow-type: tm+mt
-source-wordcount: '2405'
-ht-degree: 40%
+source-wordcount: '2434'
+ht-degree: 39%
 
 ---
 
@@ -55,6 +55,8 @@ A4T 보고에서 지표를 표준화하기 위한 몇 가지 옵션이 있습니
 * 위 지표는 사용자가 활동에 대한 자격을 얻고 [!DNL Target]에서 컨텐츠가 반환될 때 트리거됩니다. 이는 사용자가 반드시 오퍼를 보았다는 것을 의미하지는 않습니다. 활동 경험이 스크롤해야 볼 수 있는 부분에 있고 사용자가 페이지를 아래로 스크롤하지 않는 경우 [!DNL Target]에서 오퍼를 제공했지만 사용자는 볼 수 없습니다.
 * 동일한 활동의 동일한 페이지에 여러 개의 mbox 호출이 있는 경우가 아니라면 [!UICONTROL 활동 노출 수]([!DNL Target]으로 측정) 및 [!UICONTROL 인스턴스 수]([!DNL Analytics]로 측정)는 동일합니다. 이로 인해 다중 [!UICONTROL 활동 노출 수]가 계산되지만, 인스턴스의 경우 단일 [!UICONTROL 인스턴스]만 계산됩니다.
 
+자세한 내용은 *Adobe Target Tutorials*&#x200B;의 자동 Target 활동에 대해 Analysis Workspace에서 A4T 보고서를 설정하는 방법을 참조하십시오](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html).[
+
 ## Analysis Workspace에서 보고 및 분석보다 &quot;활동 노출&quot; 및 &quot;활동 전환&quot;이 높은 이유는 무엇입니까?{#sametouch}
 
 [!DNL Reports & Analytics] &quot;활동 노출 수&quot; 및 &quot;활동 전환&quot;에 동일한 터치 속성 모델을 적용하는 반면, 차원 지속성 때문에 부풀려질 수 있는 원시 지표를  [!DNL Analysis Workspace]  [!DNL Target] 표시합니다.
@@ -91,7 +93,7 @@ A4T 보고에서 지표를 표준화하기 위한 몇 가지 옵션이 있습니
 
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 3 | 3 |
 
 사용자가 2월 1일에 재방문하여 5개의 페이지를 더 보았지만, Target 활동은 더 이상 보지 않았고, 원래 활동도 더 이상 활성 상태가 아닙니다. 활동은 더 이상 활성 상태가 아니지만 eVar 지속성을 통해 여전히 사용자를 따라 가고 있습니다. 이제 데이터는 다음과 같습니다.
 
@@ -103,16 +105,16 @@ A4T 보고에서 지표를 표준화하기 위한 몇 가지 옵션이 있습니
 
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 1 |
+| ABC | 3 | 5 | 3 | 1 |
 
 그런 다음, 사용자는 4월 1일에 다시 돌아와서 다른 5개의 페이지를 보고 구매를 수행합니다. 해당 첫 번째 eVar 값의 90일 만료는 4월 1일에 재설정되므로, 보고에 표시됩니다. 그리고 사용자에게 표시되는 모든 Target 활동이 전환 크레딧을 받지만 총 전환 수는 중복이 제거되어 계산됩니다.
 
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 | 주문 |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 1 | 1 |
-| 합계 | 2 | 20년 | 1 | 1 | 1 |
+| XYZ | 1 | 20 | 4 | 3 | 3 |
+| ABC | 3 | 10 | 2 | 1 | 1 |
+| 합계 | 2 | 20년 | 3 | 3 | 1 |
 
 전환 전에 두 경험이 모두 확인되었으므로 두 경험 모두 주문에 대해 &quot;크레딧이&quot; 제공됩니다. 그러나 주문은 시스템에서 하나만 발생했고 합계에 이렇게 반영됩니다. [!DNL Target] 보고의 경우, 더 성공적인 작업을 보기 위해 다른 활동에 [!DNL Target] 활동을 게시하지 않으므로 사용자가 본 모든 활동이 크레딧을 받든 상관 없습니다. 단일 활동 내에서 두 항목의 결과를 비교합니다.사용자는 동일한 활동에서 서로 다른 경험을 볼 수 없으므로 주문 크레딧의 상호 오염에 대해 걱정할 필요가 없습니다.
 
