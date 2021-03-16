@@ -5,17 +5,17 @@ title: adobe.target.applyOffer() 함수를 어떻게 사용합니까?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 86%
+source-wordcount: '177'
+ht-degree: 72%
 
 ---
 
 
 # adobe.target.applyOffer(옵션)
 
-이 함수는 응답 컨텐츠를 적용하는 데 사용됩니다.
+이 함수는 [!DNL Adobe Target]과 함께 응답 컨텐츠를 적용하는 데 사용됩니다.
 
 >[!NOTE]
 >
@@ -26,8 +26,8 @@ ht-degree: 86%
 | 키 | 유형 | 필수 | 설명 |
 |--- |--- |--- |--- |
 | mbox | 문자열 | 예 | Mbox 이름<br>at.js 1.3.0(및 이후 버전)을 사용하면 Target에서 mbox 키를 사용하도록 강제 적용합니다. 이 키는 과거에는 필요했지만 현재 Target에서는 이 키를 적용하여 적절한 유효성 검사가 수행되는지와 고객이 함수를 올바르게 사용하고 있는지를 확인합니다. |
-| selector | 문자열 또는 DOM 요소 | 아니오 | Target이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. 선택기를 제공하지 않으면 Target은 사용되는 HTML 요소를 HTML HEAD로 간주합니다. |
-| 있습니까 | 배열 | 예 | 요소에 적용되어야 하는 배열 작업입니다. |
+| selector | 문자열 또는 DOM 요소 | 아니오 | Target이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. 선택기가 제공되지 않으면 Target에서는 HTML 요소가 HTML HEAD을 사용해야 한다고 가정합니다. |
+| 오퍼 | 배열 | 예 | 요소에 적용되어야 하는 배열 작업입니다. |
 
 ## 예 {#section_D8D6A17B73DE4542937CDB687193A5CC}
 
