@@ -5,9 +5,9 @@ title: at.js의 각 버전에 포함되는 것은?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: bd8f1082cf6b1ce3542a222858c4e09abe7f9afe
 workflow-type: tm+mt
-source-wordcount: '4085'
+source-wordcount: '4104'
 ht-degree: 83%
 
 ---
@@ -77,6 +77,7 @@ at.js의 이번 릴리스에는 다음 개선 사항 및 수정 사항이 포함
 * Adobe Analytics 코드가 페이지 요소에 없을 때 클릭 추적이 Analytics for Target(A4T)의 전환을 보고하지 않았던 문제를 수정했습니다.
 * 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4 및 at.js 2.2를 모두 사용할 때 성능이 개선되었습니다.
 * 이전에는 at.js가 경험을 가져오기 전에 ECID에서 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 향상되었습니다.
+* 기본 오퍼의 이벤트 토큰이 보낸 알림에 포함되지 않는 잘못된 프리페치 보기 처리를 수정했습니다.
 
    >[!NOTE]
    >
