@@ -5,9 +5,9 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1094'
 ht-degree: 63%
 
 ---
@@ -218,7 +218,7 @@ ht-degree: 63%
 
 ## 프로필 스크립트
 
-* **활성 프로필 스크립트의 권장 제한**:300년
+* **활성 프로필 스크립트의 권장 제한(활성화된 스크립트)**:300년
 
 * **계정당 총 프로필 스크립트 권장 한도**:2,000
 
