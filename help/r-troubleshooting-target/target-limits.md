@@ -5,10 +5,10 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 63%
+source-wordcount: '1152'
+ht-degree: 60%
 
 ---
 
@@ -76,6 +76,8 @@ ht-degree: 63%
 ### 엔티티 수
 
 * 하드 코딩되거나 루프를 통해 디자인에서 참조할 수 있는 최대 개체 수는 99개입니다.
+* 최상의 성능을 위해 권장되는 한도는 환경당 1,000,000개 항목 및 모든 환경에서 10,000,000개 항목 미만의 카탈로그를 유지하는 것입니다.
+* 최대 제한은 환경당 10,000,000개 항목 및 모든 환경에 걸쳐 100,000,000개 항목입니다. 환경당 1,000,000~10,000,000개의 항목이 있는 경우 [!UICONTROL 카탈로그 검색] UI의 성능에 영향을 줍니다. [!DNL Target Recommendations]그러나 추천 제품 및 전달 방식은 계속 유지됩니다.
 
 ### 엔티티 사용자 지정 속성
 
