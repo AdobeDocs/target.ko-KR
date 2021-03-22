@@ -2,13 +2,13 @@
 keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답 토큰;tokens;plugins;plug-ins;at.js;response
 description: '디버깅 및 타사 시스템(예: Clicktale)과의 통합에 사용하기 위해 Adobe Target 출력 관련 정보에 응답 토큰을 사용하는 방법을 알아봅니다.'
 title: 응답 토큰이란 무엇이며 이를 어떻게 사용합니까?
-feature: Administration & Configuration
-role: Administrator
+feature: 관리 및 구성
+role: 관리자
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 77%
+source-wordcount: '1575'
+ht-degree: 76%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 77%
 
 >[!NOTE]
 >
->응답 토큰은 at.js 1.1 이상에서 사용할 수 있습니다. mbox.js에서는 응답 토큰이 지원되지 않습니다.
+>응답 토큰은 at.js 1.1 이상에서 사용할 수 있습니다.
 
 | 사용 중인 Target 라이브러리 | 제안 작업 |
 |--- |--- |
 | at.js | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js에는 존재하지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인의 경우 전달되더라도 실패합니다. 자세한 내용은 [at.js 제한 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)을 참조하십시오. |
-| mbox.js | 플러그인은 mbox.js를 사용할 때 계속 지원 및 전달됩니다.<br>그러나 mbox.js 및 플러그인을 사용하는 고객은 at.js와 응답 토큰으로 이동하는 것이 좋습니다. mbox.js에 비해 at.js를 사용할 때의 장점에 대한 자세한 내용은 [at.js FAQ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)를 참조하십시오. 마이그레이션에 대해서는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)을 참조하십시오.<br>Target Classic의 사용 중단(2017년 11월) 이후에는 고객 지원팀에 연락하여 기존 플러그인을 편집하거나 비활성화해야 할 수 있습니다. Target Classic 사용이 중단되기 전에 해당 플러그인을 검사하여 원치 않는 플러그인은 비활성화했어야 합니다.<br>Target Standard/Premium에서는 새 플러그인을 만들 수 없습니다. 대신 응답 토큰을 사용하십시오.<br>이전 SiteCatalyst 플러그인은 비활성화하여 [Adobe Target용 보고 소스로서의 Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)로 교체해야 합니다. ttMeta 플러그인은 비활성화하고 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)로 교체해야 합니다. |
+| mbox.js | mbox.js를 사용할 때 플러그인은 계속 지원되고 전달됩니다.<br>그러나 mbox.js 및 플러그인을 사용하는 고객은 at.js와 응답 토큰으로 이동하는 것이 좋습니다. mbox.js에 비해 at.js를 사용할 때의 장점에 대한 자세한 내용은 [at.js FAQ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)를 참조하십시오. 마이그레이션에 대해서는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)을 참조하십시오.<br>Target Classic의 사용 중단(2017년 11월) 이후에는 고객 지원팀에 연락하여 기존 플러그인을 편집하거나 비활성화해야 할 수 있습니다. Target Classic 사용이 중단되기 전에 해당 플러그인을 검사하여 원치 않는 플러그인은 비활성화했어야 합니다.<br>Target Standard/Premium에서는 새 플러그인을 만들 수 없습니다. 대신 응답 토큰을 사용하십시오.<br>이전 SiteCatalyst 플러그인은 비활성화하여 [Adobe Target용 보고 소스로서의 Adobe Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T)로 교체해야 합니다. ttMeta 플러그인은 비활성화하고 [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj)로 교체해야 합니다. |
 
 ## 응답 토큰 사용 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
