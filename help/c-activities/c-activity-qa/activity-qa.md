@@ -2,11 +2,11 @@
 keywords: qa;미리 보기;미리 보기 링크;adobe target;target
 description: Adobe Target QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 엔드 투 엔드 활동 QA를 손쉽게 수행하는 방법을 살펴볼 수 있습니다.
 title: QA 활동을 어떻게 합니까?
-feature: Activities
+feature: 활동
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1542'
+source-wordcount: '1539'
 ht-degree: 79%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 79%
 
    >[!NOTE]
    >
-   >버전 2를 사용하는 at.js 구현의 경우 마찬가지입니다.*xor* 이상. at.js 1.*xand mbox.js 구현* 에서 이것은 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
+   >버전 2를 사용하는 at.js 구현의 경우 마찬가지입니다.*xor* 이상. at.js 1.*ximplementation* 은 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
 
 ## QA URL 액세스 및 공유 {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -58,7 +58,7 @@ ht-degree: 79%
 
    각 활동 링크 URL(경험 A, 경험 B 등을 위한 URL)을 사용하면 해당 경험에서 사용자 경험을 시작할 수 있습니다. 경험에 대해 생성된 URL을 클릭한 다음, 일반적인 사이트 탐색을 진행하여 여러 페이지(여러 페이지가 있는 경우)의 경험들을 볼 수 있습니다. 경험이 여러 페이지(템플릿 테스트 또는 다중 페이지 테스트)에 걸쳐 있는 경우에도 경험당 하나의 URL만 생성됩니다. 
 
-   활동 QA가 결합되어 있으므로 사이트를 탐색하여 다른 페이지를 볼 수 있습니다. 버전 2를 사용하는 at.js 구현의 경우 이것은 true입니다.*xor* 이상. at.js 1.*xand mbox.js 구현* 에서 이것은 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
+   활동 QA가 결합되어 있으므로 사이트를 탐색하여 다른 페이지를 볼 수 있습니다. 버전 2를 사용하는 at.js 구현의 경우 이것은 true입니다.*xor* 이상. at.js 1.*ximplementation* 은 방문자의 브라우저가 타사 쿠키를 차단하지 않는 경우에만 적용됩니다.
 
 1. 활동 링크 URL에서 생성된 보고서를 보려면 활동의 **[!UICONTROL 보고서]** 페이지를 클릭하고 **[!UICONTROL 설정]** 아이콘(![](assets/icon_gear.png))을 클릭한 다음, **[!UICONTROL 환경]** 드롭다운 목록에서 **[!UICONTROL QA 모드]**&#x200B;를 선택하십시오.
 
