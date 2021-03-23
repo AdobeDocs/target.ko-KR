@@ -2,12 +2,12 @@
 keywords: 대상 설명서 변경 로그;설명서 업데이트;새 주제;편집;업데이트;update
 description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 변경 사항을 항상 최신 상태로 유지할 수 있습니다.
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
-feature: 릴리스 노트
+feature: 릴리스 정보
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '3848'
-ht-degree: 28%
+source-wordcount: '3866'
+ht-degree: 29%
 
 ---
 
@@ -20,6 +20,8 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 3월 23일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | at.js 버전 2.4.1에 대한 릴리스 노트가 추가되었습니다. |
+|  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.4.1에 대한 릴리스 노트가 추가되었습니다. |
 | 3월 22일 | [권장 사항 피드 처리 서버에서 사용하는 IP 주소](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | IP 주소 목록이 업데이트되었습니다. |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | &quot;엔티티&quot; 아래의 &quot;엔티티 수&quot; 섹션을 업데이트했습니다. |
 |  | [지역](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 2에 대한 정보가 추가되었습니다.*&quot;다른 위치에서 온 사용자로 내 활동을 테스트하려면 어떻게 합니까?&quot;를* 참조하십시오. |
