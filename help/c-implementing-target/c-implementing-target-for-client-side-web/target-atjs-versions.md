@@ -5,9 +5,9 @@ title: at.js의 각 버전에 포함되는 것은?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: dbf38b7801ea6268c64ab323cc04258839fe6f48
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '4150'
+source-wordcount: '4147'
 ht-degree: 82%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 82%
 
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
-* targetPageParams가 mbox 요청에 포함되는 문제를 수정했습니다. targetPageParams는 pageLoad 요청에만 포함되어야 합니다. (TNT-40247)
+* `targetPageParams`이(가) mbox 요청에 포함되는 문제를 해결했습니다. `targetPageParams` 는  `pageLoad` 요청에만 포함되어야 합니다. (TNT-40247)
 * 최적화된 창 및 [!DNL Adobe Experience Platform Launch] 확장에서 참조하는 문서 글로벌. (TNT-37124)
 
 ## at.js 2.4.0(2021년 1월 14일)
