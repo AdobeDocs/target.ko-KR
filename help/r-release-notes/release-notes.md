@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
 feature: 릴리스 노트
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '590'
-ht-degree: 38%
+source-wordcount: '618'
+ht-degree: 36%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 38%
 >사이트에서 발생할 수 있는 문제를 방지하기 위해 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션합니다. 자세한 내용은 [개요:클라이언트측 웹](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)에 대한 Target을 구현합니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## Recommendations 피드 처리 서버의 IP 주소 변경 사항(2021년 3월 16일)
+
+[!DNL Target Recommendations] 피드 처리 서버 IP 주소가 2021년 3월 16일에 업데이트되었습니다. 자세한 내용은 Recommendations 피드 처리 서버에서 사용하는 [IP 주소](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)를 참조하십시오.
 
 ## Target Standard/Premium 21.2.1(2021년 3월 9일)
 
