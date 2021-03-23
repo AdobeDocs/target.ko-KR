@@ -4,9 +4,9 @@ description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 노트
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
 workflow-type: tm+mt
-source-wordcount: '3790'
+source-wordcount: '3848'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,10 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 3월 22일 | [권장 사항 피드 처리 서버에서 사용하는 IP 주소](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | IP 주소 목록이 업데이트되었습니다. |
+|  | [제한](/help/r-troubleshooting-target/target-limits.md) | &quot;엔티티&quot; 아래의 &quot;엔티티 수&quot; 섹션을 업데이트했습니다. |
+|  | [지역](/help/c-target/c-audiences/c-target-rules/geo.md) | at.js 2에 대한 정보가 추가되었습니다.*&quot;다른 위치에서 온 사용자로 내 활동을 테스트하려면 어떻게 합니까?&quot;를* 참조하십시오. |
+|  | [릴리스 노트](/help/r-release-notes/release-notes.md): 21.2.1 | 다음 섹션이 추가되었습니다. <ul><li>Recommendations 피드 처리 서버의 IP 주소 변경 사항(2021년 3월 16일)</li></ul> |
 | 3월 19일 | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | 다음 FAQ가 추가되었습니다.<ul><li>활동이 비활성화된 후에도 더 많은 노출 횟수를 계속 볼 수 있는 이유는 무엇입니까?</li></ul> |
 | 3월 12일 | [자동 할당 및 자동 Target 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 다음과 같은 새로운 자습서가 추가되었습니다.<ul><li>자동 Target 활동에 대해 Analysis Workspace에서 A4T 보고서를 설정하는 방법</li></ul> |
 | 3월 9일 | [제한](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>허용되는 오퍼 크기 제한을 업데이트했습니다.</li><li>categoryId 매개 변수의 문자 제한을 수정했습니다.</li></ul> |
