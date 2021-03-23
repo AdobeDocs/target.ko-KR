@@ -4,10 +4,10 @@ description: Adobe Recommendations 피드 처리 서버에서 시작된 IP 주�
 title: Recommendations 피드 처리 서버가 사용하는 IP 주소는 무엇입니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 13%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ Adobe 서버에서 시작된 IP 주소를 허용하도록 방화벽을 구성하
 
 [!DNL Target] [!UICONTROL 권장 ] 사항 활동은 고객의 FTP 서버에 액세스할 때 다음 IP 주소를 사용합니다.
 
-| CIDR 표기법 |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 [!DNL Target] [!UICONTROL Recommendations] API는 다음 IP 주소를 사용합니다.
 
-| CIDR 표기법 |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 >[!NOTE]
 >
