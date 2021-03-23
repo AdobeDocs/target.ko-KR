@@ -4,31 +4,30 @@ description: Adobe Recommendations 피드 처리 서버에서 시작된 IP 주�
 title: Recommendations 피드 처리 서버가 사용하는 IP 주소는 무엇입니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: b43db79ef75851921636e33e47bac5a906aed6b6
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 15%
+source-wordcount: '128'
+ht-degree: 11%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 권장 사항 피드 처리 서버에서 사용하는 IP 주소
 
-Adobe 서버에서 시작된 IP 주소를 허용하도록 방화벽을 구성하는 데 도움이 되도록 오리건 데이터 센터의 [!DNL Adobe Target] [!DNL Recommendations] 피드 처리 서버에 사용된 IP 주소 목록.
+Adobe 서버에서 시작된 IP 주소를 허용하도록 방화벽을 구성하는 데 도움이 되는 [!DNL Adobe Target] [!DNL Recommendations] 피드 처리 서버에 사용된 IP 주소 목록.
 
-[!DNL Target] [!UICONTROL 권장 ] 사항 활동은 고객의 FTP 서버에 액세스할 때 오리건 데이터 센터에서 다음 IP 주소를 사용합니다(아래 링크를 통해 최신 정보를 확인하십시오).
+[!DNL Target] [!UICONTROL 권장 ] 사항 활동은 고객의 FTP 서버에 액세스할 때 다음 IP 주소를 사용합니다(최신 정보는 아래 링크를 확인하십시오).
 
-| CIDR 표기법 | 시작 IP | 종료 IP |
-|---|---|---|
-| 192.243.242.0/24 | 192.243.242.0 | 192.243.242.255 |
+44.241.237.28
 
-[!DNL Target] [!UICONTROL Recommendations ] API는 오리건 데이터 센터에서 다음 IP 주소를 사용합니다(아래 링크를 통해 최신 정보를 확인하십시오).
+44.232.167.82
 
-| CIDR 표기법 | 시작 IP | 종료 IP |
-|---|---|---|
-| 192.243.224.0/20 | 192.243.224.0 | 192.243.239.255 |
+52.41.252.205
 
->[!NOTE]
->
->전체 최신 목록을 보려면 Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html)에 사용된 [IP 주소를 참조하십시오.
+[!DNL Target] [!UICONTROL Recommendations ] API는 다음 IP 주소를 사용합니다(최신 정보는 아래 링크를 확인하십시오).
 
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
