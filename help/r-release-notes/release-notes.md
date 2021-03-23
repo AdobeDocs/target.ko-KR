@@ -2,11 +2,11 @@
 keywords: 릴리스 정보;새 기능;릴리스;업데이트;업데이트;릴리스;개선 사항;개선 사항;수정 사항;버그 수정;업데이트
 description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Target의 최신 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 내용에 대해 알아봅니다.
 title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
-feature: 릴리스 노트
+feature: 릴리스 정보
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '673'
 ht-degree: 36%
 
 ---
@@ -23,6 +23,14 @@ ht-degree: 36%
 >사이트에서 발생할 수 있는 문제를 방지하기 위해 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션합니다. 자세한 내용은 [개요:클라이언트측 웹](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)에 대한 Target을 구현합니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## at.js 2.4.1(2021년 3월 23일)
+
+at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
+
+* targetPageParams가 mbox 요청에 포함되는 문제를 수정했습니다. targetPageParams는 pageLoad 요청에만 포함되어야 합니다. (TNT-40247)
+* 최적화된 창 및 [!DNL Adobe Experience Platform Launch] 확장에서 참조하는 문서 글로벌. (TNT-37124)
+* 보안 취약점을 해결하기 위해 빌드 및 테스트 종속성을 업그레이드했습니다.
 
 ## Recommendations 피드 처리 서버의 IP 주소 변경 사항(2021년 3월 16일)
 
