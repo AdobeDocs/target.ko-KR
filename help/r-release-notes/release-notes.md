@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
 feature: 릴리스 정보
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 8dc0e5084834102e387492eb4668761382e699f3
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 37%
+source-wordcount: '678'
+ht-degree: 36%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 37%
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 * `targetPageParams`이(가) mbox 요청에 포함되는 문제를 해결했습니다. `targetPageParams` 는  `pageLoad` 요청에만 포함되어야 합니다. (TNT-40247)
-* 최적화된 창 및 [!DNL Adobe Experience Platform Launch] 확장에서 참조하는 문서 글로벌. (TNT-37124)
+* platform launch 전역 개체 종속성을 해당 개체에 대한 직접 참조로 대체하여 A[!DNL dobe Experience Platform Launch] 확장의 문서 및 창 글로벌 개체 관련 문제를 수정했습니다. (TNT-37124)
 
 ## Recommendations 피드 처리 서버의 IP 주소 변경 사항(2021년 3월 16일)
 
