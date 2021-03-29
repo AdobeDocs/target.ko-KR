@@ -4,10 +4,10 @@ description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '3890'
-ht-degree: 29%
+source-wordcount: '3911'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 29%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 3월 29일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 추가된 새 FAQ:<ul><li>한 명의 방문자에 대해 최근에 본 항목을 기반으로 한 권장 사항이 여러 장치에서 지속됩니까?</li></ul> |
 | 3월 23일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | at.js 버전 2.4.1에 대한 릴리스 노트가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.4.1에 대한 릴리스 노트가 추가되었습니다. |
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음 FAQ가 업데이트되었습니다.<ul><li>내 카탈로그에 있는 항목에 대한 업데이트가 내 사이트에 반영되는 데 얼마나 걸립니까?</li></ul> |
