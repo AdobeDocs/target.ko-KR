@@ -4,10 +4,10 @@ description: Adobe Recommendations 피드 처리 서버에서 시작된 IP 주�
 title: Recommendations 피드 처리 서버가 사용하는 IP 주소는 무엇입니까?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
+source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -16,21 +16,15 @@ ht-degree: 10%
 
 Adobe 서버에서 시작된 IP 주소를 허용하도록 방화벽을 구성하는 데 도움이 되는 [!DNL Adobe Target] [!DNL Recommendations] 피드 처리 서버에 사용된 IP 주소 목록.
 
-[!DNL Target] [!UICONTROL 권장 ] 사항 활동은 고객의 FTP 서버에 액세스할 때 다음 IP 주소를 사용합니다.
+[!DNL Target] [!UICONTROL 권장 ] 사항 활동은 고객의 FTP 서버에 액세스할 때 다음과 같은 AWS 호스트를 사용합니다.
 
-44.241.237.28
+| 위치 | 호스트 |
+| --- | --- |
+| 오리건 주 | `44.241.237.28` |
+| 오리건 주 | `44.232.167.82` |
+| 오리건 주 | `52.41.252.205` |
 
-44.232.167.82
-
-52.41.252.205
-
-[!DNL Target] [!UICONTROL Recommendations] API는 다음 IP 주소를 사용합니다.
-
-44.241.237.28
-
-44.232.167.82
-
-52.41.252.205
+[!DNL Target] [!UICONTROL 또한 ] RecommendationsAPI는 동일한 AWS 호스트를 사용합니다.
 
 >[!NOTE]
 >
