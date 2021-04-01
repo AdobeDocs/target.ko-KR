@@ -1,18 +1,18 @@
 ---
-cloud: experience-cloud
+cloud: Experience Cloud
 product: target
 solution: Target
 audience: end-user
-type: Documentation
+type: 설명서
 git-repo: https://git.corp.adobe.com/AdobeDocs/target.ko-KR
 index: true
-role: Business Practitioner
-level: Intermediate
+role: 비즈니스 전문가
+level: 중간
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 3f3c0227df7700537c30a3dcd651cc802db59448
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 100%
+source-wordcount: '115'
+ht-degree: 97%
 
 ---
 
