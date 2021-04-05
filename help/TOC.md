@@ -4,9 +4,9 @@ breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있도록 고객의 경험을 맞춤화 및 개인화하는 방법을 살펴볼 수 있습니다.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1578'
 ht-degree: 84%
 
 ---
@@ -311,7 +311,6 @@ ht-degree: 84%
       + [프로필 및 변수 용어집](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Target 및 대상 FAQ {#faq-audiences}
       + [Target 및 대상 FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [지표, 대상 및 보고서 공유 - A4T FAQ](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + 경험 및 오퍼 {#experiences}
    + [경험 및 오퍼 개요](c-experiences/experiences.md)
    + 시각적 경험 작성기(VEC)  {#vec}
