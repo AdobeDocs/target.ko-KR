@@ -1,16 +1,16 @@
 ---
 keywords: Adobe Experience Platform 웹 SDK;aep 웹 sdk;aep sdk;검색 엔진 최적화;검색 엔진 최적화;seo;edge 클러스터, 중앙 클러스터;at.js;mbox.js;
-description: Target JavaScript 라이브러리(at.js 및 AEP Web SDK), Adobe 데이터 센터 및 SEO 테스트에 대한 정보를 포함하여 Adobe Target이 작동하는 방식에 대해 알아봅니다.
+description: Target JavaScript 라이브러리(at.js 및 AEP Web SDK), Adobe 데이터 센터 및 SEO 테스트에 대한 정보를 비롯하여 Adobe Target이 작동하는 방식을 살펴볼 수 있습니다.
 title: Target은 어떻게 작동합니까?
 feature: 개요
+exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '2570'
+source-wordcount: '2574'
 ht-degree: 30%
 
 ---
-
 
 # Adobe Target 작동 방식
 
@@ -33,7 +33,7 @@ ht-degree: 30%
 다음 리소스에는 AEP 웹 SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Adobe Launch를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Launch을 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 방문자가 [!DNL Target]에 대해 최적화된 페이지를 요청할 때마다 요청이 타깃팅 시스템으로 전송됩니다. 이 요청은 해당 방문자에게 제공할 컨텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 이루어집니다. 페이지가 로드될 때마다 컨텐트에 대한 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 컨텐츠는 각 사이트 방문자가 응답하거나 상호 작용하거나 궁극적으로 구매할 가능성이 가장 큰 컨텐츠가 제공됩니다. 개인화된 컨텐츠를 통해 응답률, 취득률 및 매출을 극대화할 수 있습니다.
 
@@ -48,9 +48,9 @@ ht-degree: 30%
 각 경험에 대해 비율 타겟을 지정할 수 있습니다. 이런 경우, 무작위 숫자가 생성되고 이 숫자를 사용하여 표시할 경험이 선택됩니다. 결과로 얻은 비율은 지정한 타겟과 정확하게 일치하지 않을 수도 있지만 더 많은 트래픽이 일어나면 경험이 타겟 목표에 더 가깝게 분할되어야 한다는 것을 의미합니다.
 
 1. 고객이 서버에서 페이지를 요청하고 브라우저에 표시합니다.
-2. 고객 브라우저에 퍼스트 파티 쿠키를 설정하여 고객 행동을 저장합니다.
-3. 페이지가 타깃팅 시스템을 호출합니다.
-4. 활동의 규칙에 따라 콘텐츠가 표시됩니다.
+1. 고객 브라우저에 퍼스트 파티 쿠키를 설정하여 고객 행동을 저장합니다.
+1. 페이지가 타깃팅 시스템을 호출합니다.
+1. 활동의 규칙에 따라 콘텐츠가 표시됩니다.
 
 자세한 내용은 [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)를 참조하십시오.
 
@@ -112,7 +112,7 @@ Multivariate Testing(MVT)는 페이지에 있는 요소의 오퍼 조합을 비�
 
 단일 위치의 모든 타깃팅 요청에 대응하는 대신, 요청은 방문자와 가장 가까운 에지 클러스터에 의해 처리됩니다. 이 프로세스는 네트워크/인터넷 출장에 따른 영향을 완화시켜 줍니다.
 
-![Target 서버 맵 유형](/help/c-intro/assets/target-servers.png)
+![서로 다른 유형의 Target 서버를 보여주는 맵](/help/c-intro/assets/target-servers.png)
 
 [!DNL Target] AWS(Amazon Web Services)에서 호스팅되는 Central Clusters에는 다음이 포함됩니다.
 
