@@ -1,16 +1,16 @@
 ---
-keywords: faq;자주 묻는 질문;analytics for target;세그먼트;a4T;보고서 공유
+keywords: Faq,Faq,Target에 대한 분석,세그먼트,A4T,보고서 공유
 description: Analytics for Target(A4T)를 사용할 때 지표, 대상 및 보고서 공유에 대한 FAQ를 찾습니다. A4T를 사용하면 Adobe Target 활동에 Analytics 보고를 사용할 수 있습니다.
 title: A4T에서 지표, 대상 및 보고서를 공유하는 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 7546db1b78825b969f5639b26c0d6a3e5319dd3a
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 70%
+source-wordcount: '254'
+ht-degree: 66%
 
 ---
-
 
 # 지표, 대상 및 보고서 공유 - A4T FAQ{#share-metrics-audiences-and-reports-a-t-faq}
 
