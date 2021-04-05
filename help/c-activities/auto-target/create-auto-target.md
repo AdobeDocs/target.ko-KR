@@ -3,14 +3,14 @@ keywords: 자동 타겟 만들기;A/B 테스트;자동 타겟 활동;새 a/b 활
 description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하여 자동 Target A/B 테스트 활동을 Target이 활성화된 페이지에서 직접 만드는 방법을 알아봅니다.
 title: 자동 Target 활동을 만들려면 어떻게 합니까?
 feature: 자동 타겟
+exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
-source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
+source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
 workflow-type: tm+mt
-source-wordcount: '933'
-ht-degree: 55%
+source-wordcount: '930'
+ht-degree: 48%
 
 ---
-
 
 # ![](/help/assets/premium.png) PREMIUMC자동 Target 활동 만들기
 
@@ -20,7 +20,7 @@ ht-degree: 55%
 >
 >[!UICONTROL 자동 타겟]은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다. 이 라이센스에서 제공하는 고급 기능에 대한 자세한 내용은 [Target Premium](/help/c-intro/intro.md)을 참조하십시오.
 >
->[!UICONTROL 자동 Target] [!UICONTROL A/B 테스트] 활동(이 문서에 설명됨) 외에 [!DNL Target]는 두 가지 추가 유형의 [!UICONTROL A/B 테스트] 활동을 제공합니다.[!UICONTROL 수동(기본값)] 및 [!UICONTROL 자동 할당].
+>[!UICONTROL 자동 Target] [!UICONTROL A/B 테스트] 활동(이 문서에 설명됨) 외에 [!DNL Target]는 다른 두 유형의 [!UICONTROL A/B 테스트] 활동을 제공합니다.[!UICONTROL 수동(기본값)] 및 [!UICONTROL 자동 할당].
 >
 >*A/B 테스트 개요*&#x200B;의 [A/B 테스트 활동 유형](/help/c-activities/t-test-ab/test-ab.md#types)을 참조하십시오.
 
@@ -73,9 +73,9 @@ ht-degree: 55%
    | `-` | 빼기 |
    | `@` | 로그인 |
 
-1. 페이지의 요소를 변경하여 새 경험을 만듭니다.
+1. 페이지의 요소를 변경하여 경험을 만듭니다.
 
-   새 활동을 만든 후에 [!UICONTROL 시각적 경험 작성기] 왼쪽에 두 개의 탭(경험 A 및 경험 B)이 표시됩니다. 경험 A는 제어 경험입니다. 포커스는 경험 B 탭에 놓이므로 원하는 대로 수정할 수 있습니다. 경험 B는 테스트에 추가할 수 있는 대체 경험입니다. 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
+   활동을 만든 후 [!UICONTROL Visual Experience Composer]에 두 개의 탭이 왼쪽에 표시됩니다.경험 A와 경험 B. 경험 A는 제어 경험입니다. 원하는 대로 수정할 수 있는 경험 B 탭에 중점을 둡니다. 경험 B는 테스트에 추가할 수 있는 대체 경험입니다. 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
 
    [!UICONTROL 시각적 경험 작성기]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](/help/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)를 참조하십시오. 경험 B를 수정하려면 3단계부터 시작하십시오.
 
@@ -101,15 +101,15 @@ ht-degree: 55%
 
    동일한 대상에 대해 여러 경험을 표시할 수 있습니다. 다이어그램에 선택한 대상과 활동에 추가한 경험이 표시됩니다. 
 
-   원하는 트래픽 할당 방법을 선택합니다. [!UICONTROL 자동 Target] 활동을 만들려면 **[!UICONTROL 개인화된 경험에 대해 자동 타깃팅을 선택합니다]**.
+   원하는 트래픽 할당 방법을 선택합니다. [!UICONTROL 자동 Target] 활동을 만들려면 **[!UICONTROL 개인화된 경험에 대한 자동 Target]**&#x200B;을 선택합니다.
 
    트래픽 할당의 3가지 유형은 아래에 설명되어 있습니다.
 
    * **[!UICONTROL 수동(기본값)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다. 자세한 내용은 [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)를 참조하십시오.
 
-   * **[!UICONTROL 최고 경험에 자동 할당]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [자동 할당 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)를 참조하십시오.
+   * **[!UICONTROL 최적의 경험에 자동 할당]**:대부분의 활동 참여자는 자동으로 성과가 높은 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [자동 할당 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)를 참조하십시오.
 
-   * **[!UICONTROL 개인화된 경험을 위한 자동 타깃팅]**: [!DNL Target] 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 여러 경험을 식별한 다음 개별 고객 프로필 및 유사한 방문자의 과거 행동을 기반으로 방문자에게 가장 적합한 경험을 제공하여 컨텐츠를 개인화하고 전환율을 높일 수 있습니다.
+   * **[!UICONTROL 개인화된 경험을 위한 자동 Target]**: [!DNL Target] 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 여러 경험을 식별한 다음 개별 고객 프로필 및 유사한 방문자의 과거 행동을 기반으로 방문자에게 가장 적합한 경험을 제공하여 컨텐츠를 개인화하고 전환율을 높일 수 있습니다.
    **[!UICONTROL 추가]**&#x200B;를 클릭하여 활동에 다른 경험을 추가할 수도 있습니다.
 
 1. 대상, 경험 선택 및 트래픽 할당 선택 사항에 만족하면 **[!UICONTROL 다음]**&#x200B;을 클릭하여 3단계 안내 워크플로우의 세 번째 단계로 이동합니다.
