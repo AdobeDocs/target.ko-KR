@@ -2,15 +2,15 @@
 keywords: 공지 사항;스킬 빌더;개발자 채팅;커피 브레이크;이벤트;forrester;gartner;webinar
 description: 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등 Adobe Target 이벤트에 대한 공지 사항을 읽고 등록할 수 있습니다.
 title: Target 공지 사항 및 이벤트는 어디에서 찾을 수 있습니까?
-feature: 릴리스 노트
+feature: 릴리스 정보
+exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # Target 공지 및 이벤트
 
@@ -51,6 +51,6 @@ McKinsey Digital은 &quot;8주 내에 소비자 및 비즈니스 디지털 채�
 
 ## Adobe Target 스킬 빌더:개발자 채팅, Adobe Target의 mbox.js를 at.js {#skill-builder}로 마이그레이션
 
-2021년 3월 31일에 mbox.js의 사용 중단 사태가 임박하면서 Adobe Target 제품 관리자 David Son은 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션함으로써 얻을 수 있는 이점에 대해 논의했습니다.
+2021년 3월 31일 mbox.js의 사용 중단 기능으로 Adobe Target 제품 관리자 David Son은 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션함으로써 얻을 수 있는 이점에 대해 논의했습니다.
 
 * **[여기에서 웨비나 레코딩을 봅니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
