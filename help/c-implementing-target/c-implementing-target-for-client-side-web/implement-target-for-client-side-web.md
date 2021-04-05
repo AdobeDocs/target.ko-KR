@@ -4,14 +4,14 @@ description: Adobe Experience Platform 웹 SDK(AEP Web SDK) 또는 Target at.js 
 title: 클라이언트측 웹용 Target을 구현하는 방법
 feature: at.js
 role: Developer
+exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 17%
+source-wordcount: '360'
+ht-degree: 18%
 
 ---
-
 
 # 개요: 클라이언트측 웹용 Target 구현
 
@@ -24,7 +24,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**mbox.js 수명 종료**:2021년 3월 31일부터 mbox.js 라이브러리는 더 이상 지원되지  [!DNL Adobe Target] 않습니다. 2021년 3월 31일 이후 mbox.js에서 수행된 모든 호출이 정상적으로 실패하며 기본 컨텐츠를 제공하여 [!DNL Target] 활동이 있는 페이지에 영향을 줍니다. 사이트에서 발생할 수 있는 문제를 방지하려면 모든 고객이 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다.
+>**mbox.js 수명 종료**:2021년 3월 31일부터 mbox.js 라이브러리를 더 이상  [!DNL Adobe Target] 지원하지 않습니다. 2021년 3월 31일 이후 mbox.js에서 수행된 모든 호출이 정상적으로 실패하며 기본 컨텐츠를 제공하여 [!DNL Target] 활동이 있는 페이지에 영향을 줍니다. 사이트에서 발생할 수 있는 문제를 방지하려면 모든 고객이 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다.
 >
 >* **Adobe Experience Platform 웹 SDK**:Adobe Experience Platform  [!UICONTROL 웹 ] SDK를 사용하면 Adobe Experience Edge Network를  [!DNL Experience Cloud] (포함)에서 다양한 서비스와 상호 작용할  [!DNL Target]수 있습니다. [!DNL Adobe Experience Platform Web SDK]으로 마이그레이션하도록 선택하는 경우 *웹 SDK 안내서*&#x200B;에서 [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)란?을 참조하십시오.
    >
