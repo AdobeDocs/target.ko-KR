@@ -5,9 +5,9 @@ title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
 workflow-type: tm+mt
-source-wordcount: '678'
+source-wordcount: '677'
 ht-degree: 36%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 36%
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 * `targetPageParams`이(가) mbox 요청에 포함되는 문제를 해결했습니다. `targetPageParams` 는  `pageLoad` 요청에만 포함되어야 합니다. (TNT-40247)
-* platform launch 전역 개체 종속성을 해당 개체에 대한 직접 참조로 대체하여 A[!DNL dobe Experience Platform Launch] 확장의 문서 및 창 글로벌 개체 관련 문제를 수정했습니다. (TNT-37124)
+* platform launch 전역 개체 종속성을 해당 개체에 대한 직접 참조로 대체하여 [!DNL Adobe Experience Platform Launch] 확장의 문서 및 창 글로벌 개체 관련 문제를 수정했습니다. (TNT-37124)
 
 ## Recommendations 피드 처리 서버의 IP 주소 변경 사항(2021년 3월 16일)
 
