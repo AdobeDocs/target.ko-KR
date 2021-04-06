@@ -1,36 +1,36 @@
 ---
-keywords: 개요 및 참조;작업
-description: Adobe Target의 기본 사항을 살펴보십시오. Target, 활동 유형 및 기타 기능을 알기 좋은 곳입니다.
+keywords: 개요 및 참조;활동 유형;소개
+description: Adobe Target의 기본 사항을 살펴보십시오. 이 문서에서는 Target, 활동 유형 및 기타 기능에 대해 설명합니다.
 title: Target은 어떻게 사용합니까?
-feature: Overview
+feature: 개요
+exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 96%
+source-wordcount: '1528'
+ht-degree: 83%
 
 ---
 
+# Target 주요 개념
 
-# Target 주요 개념{#target-key-concepts}
-
-Adobe Target의 기능 및 성능을 이해하는 데 도움이 되는 주요 개념에 대한 정보입니다.
+[!DNL Adobe Target]의 기능 및 기능을 이해하는 데 도움이 되는 주요 개념에 대한 정보입니다.
 
 ## 활동 및 테스트 {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 활동은 사이트 방문자가 접할 수 있는 경험을 결정합니다.
 
-예를 들어 여성의 여름 신발에 대한 정보를 강조 표시하는 페이지와 보다 일반적인 여성 의류를 강조 표시하는 페이지 등 두 개의 다른 랜딩 페이지를 테스트하는 활동을 디자인할 수 있습니다. 활동은 이러한 각 랜딩 페이지가 표시되는 시기를 제어하는 조건과 보다 성공적인 페이지를 확인하는 지표를 결정합니다. 특정 날짜 사이 등의 특정 조건이 충족될 때 시작되고 종료되거나 활동이 승인될 때 시작되고 비활성화될 때 종료되도록 활동이 구성됩니다.
+예를 들어 여성의 여름 신발에 대한 정보를 강조 표시하는 페이지와 보다 일반적인 여성 의류를 강조 표시하는 페이지 등 두 개의 다른 랜딩 페이지를 테스트하는 활동을 디자인할 수 있습니다. 활동은 이러한 각 랜딩 페이지가 표시되는 시기를 제어하는 조건과 보다 성공적인 페이지를 확인하는 지표를 결정합니다. 특정 조건이 충족되면 활동이 시작되고 종료되도록 구성됩니다. 이러한 조건에는 특정 날짜 사이의 활동을 시작 및 종료하거나 활동이 승인될 때 시작되고 비활성화될 때 종료되는 것이 포함될 수 있습니다.
 
-활동을 디자인할 때는 신중하게 계획해야 합니다. 활동이 시작되는 시기와 지속되는 기간을 결정하십시오. 그런 후에 오퍼를 표시하고 각 오퍼에 대상을 할당합니다.
+활동을 디자인할 때 신중하게 계획합니다. 활동이 시작되는 시기와 지속되는 기간을 결정합니다. 그런 후에 오퍼를 표시하고 각 오퍼에 대상을 할당합니다.
 
-Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자세한 내용을 알 수 있는 링크와 함께 각 활동 유형에 대한 개요를 제공합니다. 목적에 가장 적합한 활동 유형을 선택하는 데 도움이 되도록 [Adobe Target 활동 안내서](/help/c-activities/target-activities-guide.md)를 만들었습니다.
+Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자세한 내용을 알 수 있는 링크와 함께 각 활동 유형에 대한 개요를 제공합니다. 목적에 가장 적합한 활동 유형을 더 잘 선택할 수 있도록 Target 팀은 [Adobe Target 활동 안내서](/help/c-activities/target-activities-guide.md)도 만들었습니다.
 
 | 활동 유형 | 설명 |
 |--- |--- |
 | [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) | A/B 테스트에서는 웹 사이트 콘텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간에 전환율이 가장 많이 향상된 버전을 확인합니다.<br>**참고:** 이제 [A/B 테스트 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
 | [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 자동 할당은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.<br>**참고:** 이제 [자동 지정 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
-| [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 자동 타겟은 콘텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 식별하고, 개별 고객 프로필과, 이 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.<br>**참고:** 이제 [자동 타겟 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
+| [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | 자동 Target은 고급 머신 러닝을 사용하여 마케터가 정의한 성과가 높은 여러 경험을 식별합니다. 자동 Target 활동은 컨텐츠를 개인화하고 전환을 유도하기 위해 개별 고객 프로파일과 비슷한 프로파일을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.<br>**참고:** 이제 [자동 타겟 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
 | [Analytics 데이터 사용](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md)(A4T) | [!DNL Adobe Analytics]를 보고 소스로 사용하도록 활동을 구성할 수 있습니다. 이 활동 유형을 사용하려면 [!DNL Adobe Experience Cloud] 계정을 [!DNL Analytics]와 [!DNL Target] 모두에 연결해야 합니다. |
 | [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | 다변량 테스트(MVT)는 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
 | [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) | 경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.<br>**참고:** 이제 [경험 타깃팅 활동 내에 권장 사항](/help/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이센스](/help/c-intro/intro.md#premium)가 있어야 합니다. |
@@ -50,11 +50,11 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 위치는 대상과 결합하여 고객에게 타깃팅 정보에 대한 선택 사항을 거의 무제한으로 제공합니다. 예를 들어, 방문자가 이전에 사이트를 방문한 적이 없는 경우 신규 고객용 할인 쿠폰을 표시할 수 있습니다. 마찬가지로, 페이지가 재방문 고객에게 더 최적화된 오퍼를 표시하도록 변경될 수도 있습니다.
 
-또한 위치를 사용하여 방문자의 웹 사이트 진행 상황을 추적하거나 방문자가 장바구니에 항목 추가, 구입 완료 등의 특정 성공 지표를 완료하는지 여부를 추적할 수도 있습니다.
+위치를 사용하여 웹 사이트를 통해 방문자의 진행 상태를 추적할 수도 있습니다. 위치를 사용하여 방문자가 장바구니에 항목을 추가하거나 구매를 완료하는 등 특정 성공 지표를 완료하는지 여부를 추적할 수도 있습니다.
 
 ## 경험 및 페이지 디자인 {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-레서피라고도 하는 경험은 페이지에 표시되는 콘텐츠를 정의하며, 뿐만 아니라 링크와 같은 기타 페이지 요소도 정의합니다.
+레서피라고도 하는 경험은 페이지에 표시되는 컨텐츠와 링크와 같은 다른 페이지 요소를 정의합니다.
 
 경험은 특정 타깃팅 조건이 충족되면 특정 위치에 어떤 오퍼가 표시될지 결정합니다. 예를 들어 경험은 재방문자가 사이트를 방문할 경우 페이지 맨 위에 2일 배송 오퍼가 표시되는 것을 결정하기도 하고, 처음 온 방문자가 페이지를 볼 때 동일한 위치에 10% 할인이 나타나는 것을 결정하기도 합니다.
 
