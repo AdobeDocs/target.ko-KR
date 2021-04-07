@@ -1,11 +1,11 @@
 ---
-keywords: 구현;구현;설정;스크립트 프로필 특성
+keywords: 구현;구현;설정;스크립트 프로필 특성;implementation;setting up;script profile attributes
 description: 스크립트 프로필 속성을 사용하여 데이터를 Target에 가져올 수 있습니다.
 title: 스크립트 프로필 속성을 사용하여 Target에 데이터를 가져오려면 어떻게 해야 합니까?
 feature: 구현
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 83%
