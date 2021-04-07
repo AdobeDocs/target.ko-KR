@@ -4,8 +4,9 @@ description: 벌크 프로필 업데이트 API를 사용하여 Target에 데이�
 title: 벌크 프로필 업데이트 API를 사용하여 Target에 데이터를 가져오려면 어떻게 합니까?
 feature: 구현
 role: Developer
+exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 82%
