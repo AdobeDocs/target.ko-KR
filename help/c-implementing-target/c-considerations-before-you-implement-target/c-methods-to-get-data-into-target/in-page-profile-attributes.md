@@ -4,8 +4,9 @@ description: 페이지 내 프로필 속성을 사용하여 Target에 데이터�
 title: 페이지 내 프로필 속성을 사용하여 데이터를 Target으로 가져오려면 어떻게 합니까?
 feature: 구현
 role: Developer
+exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '280'
 ht-degree: 56%
