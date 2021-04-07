@@ -4,8 +4,9 @@ description: 스크립트 프로필 속성을 사용하여 데이터를 Target�
 title: 스크립트 프로필 속성을 사용하여 Target에 데이터를 가져오려면 어떻게 해야 합니까?
 feature: 구현
 role: Developer
+exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
 workflow-type: tm+mt
 source-wordcount: '282'
 ht-degree: 83%
