@@ -5,10 +5,10 @@ title: 페이지 매개 변수를 사용하여 데이터를 Target으로 가져�
 feature: 구현
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -22,20 +22,20 @@ ht-degree: 49%
 
 페이지 매개 변수는 서버 호출을 통해 문자열 이름/값 쌍으로 Target에 전달됩니다. 매개 변수 이름과 값은 사용자 지정할 수 있습니다(특정 용도로 &quot;예약된 이름&quot;도 있음).
 
-### 예:
+### 예
 
 * `page=productPage`
 
 * `categoryId=homeLoans`
 
-## 사용 사례 예
+## 활용 사례 예
 
 * **제품 페이지**:본 특정 제품에 대한 정보 보내기(이 방법은 Recommendations 작동 방식)
 * **주문 세부 정보**:주문 수집을 위해 주문 ID, orderTotal 등 보내기
 * **카테고리 친화성**: 특정 사이트 카테고리에 대한 사용자의 친화성에 대한 지식을 구축하기 위해 본 카테고리 정보를 Target에 보냅니다.
 * **타사 데이터**: 날씨 타깃팅 제공자, 계정 데이터(예: DemandBase), 인구 데이터(예: Experian) 등과 같은 타사 데이터 소스의 정보를 보냅니다.
 
-## 방법 장점
+## 방법의 이점
 
 데이터는 실시간으로 Target으로 전송되며 데이터가 들어오는 데이터를 호출하는 동일한 서버에서 사용할 수 있습니다.
 
@@ -57,7 +57,7 @@ ht-degree: 49%
 
    ![](assets/ietf2.png)
 
-## 코드 예
+## 코드 예제
 
 targetPageParamsAll(매개 변수를 페이지의 모든 mbox 호출에 추가합니다.):
 
@@ -71,7 +71,7 @@ mboxCreate 코드에 있는 매개 변수:
 
 `<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
-## 관련 정보 링크
+## 관련 정보에 대한 링크
 
 권장 사항: [페이지 유형에 따른 구현](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
 
