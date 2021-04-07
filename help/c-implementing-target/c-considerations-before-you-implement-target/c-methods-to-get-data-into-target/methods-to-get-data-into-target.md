@@ -6,10 +6,10 @@ feature: 구현
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 90%
+source-wordcount: '1082'
+ht-degree: 86%
 
 ---
 
@@ -22,154 +22,18 @@ ht-degree: 90%
 | 메서드 | 세부 사항 |
 | --- | --- |
 | [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>페이지 매개 변수(&quot;mbox 매개 변수&quot;라고도 함) | 페이지 매개 변수는 나중에 사용할 수 있도록 방문자 프로필에 저장되지 않은 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다.<br>페이지 매개 변수는 나중에 타깃팅 용도로 지정할 수 있도록 방문자의 프로필에 저장할 필요가 없는 추가적인 페이지 데이터를 Target에 전송하는 데 유용합니다. 대신 이 값은 페이지나, 특정 페이지에서 사용자가 취하는 행동을 설명하는 데 사용됩니다. |
-| 인페이지 프로필 속성(&quot;mbox 내 프로필 속성&quot;이라고도 함) | 인페이지 프로필 속성은 나중에 사용할 수 있도록 방문자 프로필에 저장된 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다.<br>인페이지 프로필 속성을 사용하면 나중에 타깃팅 및 세그멘테이션을 수행할 수 있도록 사용자별 데이터를 Target의 프로필에 저장할 수 있습니다. |
-| 스크립트 프로필 속성 | 스크립트 프로필 속성은 Target 솔루션에 정의된 이름/값 쌍입니다. 서버 호출에 대해 Target 서버에서 JavaScript 코드 조각을 실행하여 값을 결정합니다.<br>사용자는 mbox 호출에 대해 실행되는 작은 코드 조각을 작성한 다음 대상 및 활동 멤버십에 대해 방문자를 평가합니다. |
-| 데이터 공급자 | 데이터 제공업체는 제3자의 데이터를 Target으로 쉽게 전달할 수 있는 기능입니다. |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br>인페이지 프로필 속성(&quot;mbox 내 프로필 속성&quot;이라고도 함) | 인페이지 프로필 속성은 나중에 사용할 수 있도록 방문자 프로필에 저장된 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다.<br>인페이지 프로필 속성을 사용하면 나중에 타깃팅 및 세그멘테이션을 수행할 수 있도록 사용자별 데이터를 Target의 프로필에 저장할 수 있습니다. |
+| [스크립트 프로필 속성](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | 스크립트 프로필 속성은 Target 솔루션에 정의된 이름/값 쌍입니다. 서버 호출에 대해 Target 서버에서 JavaScript 코드 조각을 실행하여 값을 결정합니다.<br>사용자는 mbox 호출에 대해 실행되는 작은 코드 조각을 작성한 다음 대상 및 활동 멤버십에 대해 방문자를 평가합니다. |
+| [데이터 공급자](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | 데이터 제공업체는 제3자의 데이터를 Target으로 쉽게 전달할 수 있는 기능입니다. |
 | 벌크 프로필 업데이트 API | API를 통해 많은 방문자에 대한 방문자 프로필 업데이트를 사용하여 Target에 .csv 파일을 보냅니다. 각 방문자 프로필은 하나의 호출에서 여러 개의 인페이지 프로필 속성으로 업데이트할 수 있습니다. |
 | 벌크 프로필 업데이트 API | 벌크 프로필 업데이트 API와 거의 동일하지만 한 번에 하나의 방문자 프로필이 .csv 파일이 아닌 API 호출에서 한 번에 업데이트됩니다. |
 | 고객 속성 | 고객 속성을 사용하면 FTP를 통해 방문자 프로필 데이터를 Experience Cloud에 업로드할 수 있습니다. 업로드했으면 Adobe Analytics 및 Adobe Target의 데이터를 활용합니다. |
 
-## 인페이지 프로필 속성(&quot;mbox 내 프로필 속성&quot;이라고도 함) {#section_57E1C161AA7B444689B40B6F459302B6}
 
-인페이지 프로필 속성은 나중에 사용할 수 있도록 방문자 프로필에 저장된 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다.
 
-인페이지 프로필 속성을 사용하면 나중에 타깃팅 및 세그멘테이션을 수행할 수 있도록 사용자별 데이터를 Target의 프로필에 저장할 수 있습니다.
 
-### 형식
 
-인페이지 프로필 속성은 서버 호출을 통해 속성 이름 앞에 접두사 &quot;profile.&quot;을 사용하는 문자열 이름/값 쌍으로 Target에 전달됩니다.
 
-속성 이름과 값은 사용자 지정할 수 있습니다(특정 용도로 &quot;예약된 이름&quot;도 있음).
-
-예:
-
-* `profile.membershipLevel=silver`
-* `profile.visitCount=3`
-
-### 사용 사례 예
-
-**로그인 정보**: 사용자의 로그인을 기준으로 비PII(개인 식별 정보) 데이터를 Target에 공유합니다. 멤버십 상태, 주문 히스토리 등이 이러한 정보일 수 있습니다.
-
-**스토어 정보**: 이 사용자의 기본 설정 위치가 되는 스토어를 추적합니다.
-
-**이전 상호 작용**: 향후 개인화할 때 알려주기 위해 이전에 사이트에서 수행한 작업을 추적합니다.
-
-### 방법 장점
-
-데이터는 실시간으로 Target에 전송되며 이 데이터가 들어오는 동일한 서버 호출에서 사용할 수 있습니다.
-
-### 주의 사항
-
-페이지 코드 업데이트가 필요합니다(직접 또는 태그 관리 시스템 사용).
-
-속성 및 값은 서버 호출에 표시되므로 방문자가 값을 볼 수 있습니다. 크레딧 범위와 같은 정보나 기타 개인적일 수 있는 정보를 공유하는 경우 이 방법은 최고의 접근 방식이 아닐 수 있습니다.
-
-### 코드 예
-
-targetPageParamsAll(속성을 페이지의 모든 mbox 호출에 추가합니다.):
-
-`function targetPageParamsAll() { return "profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-targetPageParams(속성을 페이지의 글로벌 mbox에 추가합니다.):
-
-`function targetPageParams() { return profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-mboxCreate 코드에 있는 속성:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); </script>`
-
-### 관련 정보 링크
-
-[프로필 속성](/help/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201)
-
-[방문자 프로필](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)
-
-## 스크립트 프로필 속성 {#section_3E27B58C841448C38BDDCFE943984F8D}
-
-스크립트 프로필 속성은 Target 솔루션에 정의된 이름/값 쌍입니다. 서버 호출에 대해 Target 서버에서 JavaScript 코드 조각을 실행하여 값을 결정합니다.
-
-사용자는 mbox 호출에 대해 실행되는 작은 코드 조각을 작성한 다음 대상 및 활동 멤버십에 대해 방문자를 평가합니다.
-
-### 형식
-
-스크립트 프로필 속성은 Target의 대상 섹션에서 만들어집니다. 모든 속성 이름은 유효하며, 값은 Target 사용자가 작성한 JavaScript 함수의 결과입니다. 인페이지 프로필 속성과 구분할 수 있도록 속성 이름에는 Target에서 자동으로 &quot;user. &quot;가 접두사로 지정됩니다.
-
-코드 조각은 Rhino JS 언어로 작성되며 토큰 및 기타 값을 참조할 수 있습니다.
-
-### 사용 사례 예
-
-**장바구니 포기**: 방문자가 장바구니에 도달하면 프로필 스크립트를 1로 설정합니다. 방문자가 전환하면 0으로 재설정합니다. 값이 1이면 방문자의 장바구니에 항목이 있습니다.
-
-**방문 카운트**: 모든 신규 방문에서 카운트가 1씩 증가하여 방문자가 사이트를 재방문하는 빈도를 추적합니다.
-
-### 방법 장점
-
-페이지 코드 업데이트가 필요하지 않습니다.
-
-대상 및 활동 멤버십 결정 전에 실행되므로 이러한 프로필 스크립트 속성은 단일 서버 호출의 멤버십에 영향을 줄 수 있습니다.
-
-매우 활발히 실행될 수 있습니다. 스크립트당 많은 수의 명령어를 실행할 수 있습니다.
-
-### 주의 사항
-
-JavaScript 지식이 필요합니다.
-
-프로필 스크립트의 실행 순서는 보장할 수 없으므로 서로 의존할 수 없습니다.
-
-디버깅하기가 어려울 수 있습니다.
-
-### 코드 예
-
-프로필 스크립트는 매우 유연합니다.
-
-`user.purchase_recency: var dayInMillis = 3600 * 24 * 1000; if (mbox.name == 'orderThankyouPage') {  user.setLocal('lastPurchaseTime', new Date().getTime()); } var lastPurchaseTime = user.getLocal('lastPurchaseTime'); if (lastPurchaseTime) {  return ((new Date()).getTime()-lastPurchaseTime)/dayInMillis; }`
-
-### 관련 정보 링크
-
-[프로필 스크립트 속성](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)의 프로필 스크립트 정보 카드 보기 섹션을 참조하십시오
-
-## 데이터 공급자 {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
-
-데이터 제공업체는 제3자의 데이터를 Target으로 쉽게 전달할 수 있는 기능입니다.
-
-참고: 데이터 공급자는 at.js 1.3 이상이 필요합니다.
-
-### 형식
-
-`window.targetGlobalSettings.dataProviders` 설정은 데이터 공급자의 배열입니다.
-
-각 데이터 공급자 구조에 대한 자세한 내용은 [데이터 공급자](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)를 참조하십시오.
-
-### 사용 사례 예
-
-날씨 서비스, DMP 또는 사용자 지정 웹 서비스와 같은 타사로부터 데이터를 수집합니다. 그런 다음, 이 데이터를 사용하여 대상, Target 콘텐츠를 작성하고 방문자 프로필을 보강할 수 있습니다.
-
-### 방법 장점
-
-이 설정을 사용하여 고객은 Demandbase, BlueKai 및 사용자 지정 서비스와 같은 서드 파티 데이터 공급자로부터 데이터를 수집하고, 글로벌 mbox의 mbox 매개 변수가 요청할 때 Target으로 데이터를 전달할 수 있습니다.
-
-비동기 및 동기 요청을 통해 여러 공급자로부터 데이터를 수집하도록 지원합니다.
-
-이 접근 방식을 사용하면 각 공급자에 대해 독립적인 시간 제한을 포함하여 페이지 성능에 미치는 영향을 제한하면서, 기본 페이지 콘텐츠의 깜박임을 쉽게 관리할 수 있습니다
-
-### 주의 사항
-
-`window.targetGlobalSettings.dataProviders`에 추가된 데이터 공급자가 비동기 상태인 경우 병렬로 실행됩니다. 방문자 API 요청은 최소 대기 시간을 허용하기 위해 `window.targetGlobalSettings.dataProviders`에 추가된 함수와 함께 실행됩니다.
-
-at.js는 데이터를 캐시하려고 하지 않습니다. 데이터 공급자는 데이터를 한 번만 가져오는 경우 데이터가 캐시되는지 확인해야 하고, 공급자 함수가 호출될 때 두 번째 호출을 위해 캐시 데이터를 제공해야 합니다.
-
-### 코드 예
-
-[데이터 공급자](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)에서 몇 가지 예를 볼 수 있습니다.
-
-### 관련 정보 링크
-
-문서: [데이터 공급자](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
-
-### 교육 비디오:
-
-* [Adobe Target에서 데이터 공급자 사용](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Adobe Target에서 데이터 공급자 구현](https://helpx.adobe.com/kr/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## 벌크 프로필 업데이트 API {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
