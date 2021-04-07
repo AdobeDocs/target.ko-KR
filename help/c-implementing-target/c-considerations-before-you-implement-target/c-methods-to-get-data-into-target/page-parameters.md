@@ -4,8 +4,9 @@ description: 페이지 매개 변수를 사용하여 Target에 데이터를 가�
 title: 페이지 매개 변수를 사용하여 데이터를 Target으로 가져오려면 어떻게 해야 합니까?
 feature: 구현
 role: Developer
+exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: d9cfdf397fb4f4d9d1f5632b4fec828edd95444e
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 45%
@@ -78,4 +79,3 @@ mboxCreate 코드에 있는 매개 변수:
 주문 확인: [전환 추적](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
 
 카테고리 친화성: [카테고리 친화성](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
-
