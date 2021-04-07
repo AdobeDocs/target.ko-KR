@@ -2,90 +2,32 @@
 keywords: 구현;구현하기;설정하기;설정;페이지 매개 변수;tomcat;url 인코딩;인페이지 프로필 속성;mbox 매개 변수;인페이지 프로필 속성;스크립트 프로필 속성;벌크 프로필 업데이트 API;단일 파일 업데이트 API;고객 속성;데이터 공급자;dataprovider;데이터공급자
 description: 데이터를 Target(페이지 매개 변수, 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 단일 및 벌크 프로필 업데이트 API, 고객 속성)로 가져올 수 있습니다.
 title: 데이터를 Target으로 가져오려면 어떻게 해야 합니까?
-feature: Implementation
+feature: 구현
 role: Developer
+exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1956'
-ht-degree: 94%
+source-wordcount: '1864'
+ht-degree: 90%
 
 ---
 
+# 메서드 개요
 
-# 데이터를 Target에 가져오는 방법
+데이터를 [!DNL Adobe Target]에 가져오는 데 사용할 수 있는 여러 방법에 대한 정보입니다.
 
-페이지 매개 변수, 내부 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 벌크 프로필 업데이트 API, 단일 프로필 업데이트 API 및 고객 속성을 포함하여 데이터를 [!DNL Adobe Target]에 가져오는 데 사용할 수 있는 여러 방법에 대한 정보입니다.
+사용 가능한 방법에는 다음이 포함됩니다.
 
-## 페이지 매개 변수(&quot;mbox 매개 변수&quot;라고도 함){#section_5A297816173C4FE48DC4FE03860CB42B}
-
-페이지 매개 변수는 나중에 사용할 수 있도록 방문자 프로필에 저장되지 않은 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다.
-
-페이지 매개 변수는 나중에 타깃팅 용도로 지정할 수 있도록 방문자의 프로필에 저장할 필요가 없는 추가적인 페이지 데이터를 Target에 전송하는 데 유용합니다. 대신 이 값은 페이지나, 특정 페이지에서 사용자가 취하는 행동을 설명하는 데 사용됩니다.
-
-### 형식
-
-페이지 매개 변수는 서버 호출을 통해 문자열 이름/값 쌍으로 Target에 전달됩니다. 매개 변수 이름과 값은 사용자 지정할 수 있습니다(특정 용도로 &quot;예약된 이름&quot;도 있음).
-
-예:
-
-* `page=productPage`
-
-* `categoryId=homeLoans`
-
-### 사용 사례 예
-
-**제품 페이지**: 표시된 특정 제품에 대한 정보를 보냅니다(권장 사항 작동 방식).
-
-**주문 세부 사항**: 주문 수집을 위해 주문 ID, orderTotal 등을 보냅니다.
-
-**카테고리 친화성**: 특정 사이트 카테고리에 대한 사용자의 친화성에 대한 지식을 구축하기 위해 본 카테고리 정보를 Target에 보냅니다.
-
-**타사 데이터**: 날씨 타깃팅 제공자, 계정 데이터(예: DemandBase), 인구 데이터(예: Experian) 등과 같은 타사 데이터 소스의 정보를 보냅니다.
-
-### 방법 장점
-
-데이터는 실시간으로 Target에 전송되며 이 데이터가 들어오는 동일한 서버 호출에서 사용할 수 있습니다.
-
-### 주의 사항
-
-* 페이지 코드 업데이트가 필요합니다(직접 또는 태그 관리 시스템 사용).
-* 후속 페이지/서버 호출에서 타깃팅을 위해 데이터를 사용해야 하는 경우 프로필 스크립트로 변환해야 합니다.
-* 쿼리 문자열에는 [IETF(Internet Engineering Task Force) 표준](https://www.ietf.org/rfc/rfc3986.txt)에 대한 문자만 포함될 수 있습니다 .
-
-   IETF 사이트에서 언급된 것 외에도, Target은 쿼리 문자열에 다음과 같은 문자를 허용합니다.
-
-   `&lt; > # % &quot; { } | \\ ^ \[\] \``
-
-   다른 모든 문자는 URL로 인코딩해야 합니다. 표준은 아래 그림과 같이 다음 형식( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) )을 지정합니다.
-
-   ![](assets/ietf1.png)
-
-   또는 간단하게 전체 목록을 지정합니다.
-
-   ![](assets/ietf2.png)
-
-### 코드 예
-
-targetPageParamsAll(매개 변수를 페이지의 모든 mbox 호출에 추가합니다.):
-
-`function targetPageParamsAll() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-targetPageParams(매개 변수를 페이지의 글로벌 mbox에 추가합니다.):
-
-`function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-mboxCreate 코드에 있는 매개 변수:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
-
-### 관련 정보 링크
-
-권장 사항: [페이지 유형에 따른 구현](/help/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
-
-주문 확인: [전환 추적](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
-
-카테고리 친화성: [카테고리 친화성](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
+| 메서드 | 세부 사항 |
+| --- | --- |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>페이지 매개 변수(&quot;mbox 매개 변수&quot;라고도 함) | 페이지 매개 변수는 나중에 사용할 수 있도록 방문자 프로필에 저장되지 않은 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다.<br>페이지 매개 변수는 나중에 타깃팅 용도로 지정할 수 있도록 방문자의 프로필에 저장할 필요가 없는 추가적인 페이지 데이터를 Target에 전송하는 데 유용합니다. 대신 이 값은 페이지나, 특정 페이지에서 사용자가 취하는 행동을 설명하는 데 사용됩니다. |
+| 인페이지 프로필 속성(&quot;mbox 내 프로필 속성&quot;이라고도 함) | 인페이지 프로필 속성은 나중에 사용할 수 있도록 방문자 프로필에 저장된 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다.<br>인페이지 프로필 속성을 사용하면 나중에 타깃팅 및 세그멘테이션을 수행할 수 있도록 사용자별 데이터를 Target의 프로필에 저장할 수 있습니다. |
+| 스크립트 프로필 속성 | 스크립트 프로필 속성은 Target 솔루션에 정의된 이름/값 쌍입니다. 서버 호출에 대해 Target 서버에서 JavaScript 코드 조각을 실행하여 값을 결정합니다.<br>사용자는 mbox 호출에 대해 실행되는 작은 코드 조각을 작성한 다음 대상 및 활동 멤버십에 대해 방문자를 평가합니다. |
+| 데이터 공급자 | 데이터 제공업체는 제3자의 데이터를 Target으로 쉽게 전달할 수 있는 기능입니다. |
+| 벌크 프로필 업데이트 API | API를 통해 많은 방문자에 대한 방문자 프로필 업데이트를 사용하여 Target에 .csv 파일을 보냅니다. 각 방문자 프로필은 하나의 호출에서 여러 개의 인페이지 프로필 속성으로 업데이트할 수 있습니다. |
+| 벌크 프로필 업데이트 API | 벌크 프로필 업데이트 API와 거의 동일하지만 한 번에 하나의 방문자 프로필이 .csv 파일이 아닌 API 호출에서 한 번에 업데이트됩니다. |
+| 고객 속성 | 고객 속성을 사용하면 FTP를 통해 방문자 프로필 데이터를 Experience Cloud에 업로드할 수 있습니다. 업로드했으면 Adobe Analytics 및 Adobe Target의 데이터를 활용합니다. |
 
 ## 인페이지 프로필 속성(&quot;mbox 내 프로필 속성&quot;이라고도 함) {#section_57E1C161AA7B444689B40B6F459302B6}
 
@@ -188,7 +130,7 @@ JavaScript 지식이 필요합니다.
 
 ## 데이터 공급자 {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
 
-데이터 공급자는 타사의 데이터를 Target에 쉽게 전달할 수 있는 기능입니다.
+데이터 제공업체는 제3자의 데이터를 Target으로 쉽게 전달할 수 있는 기능입니다.
 
 참고: 데이터 공급자는 at.js 1.3 이상이 필요합니다.
 
@@ -273,7 +215,7 @@ CRM 또는 기타 내부 시스템은 페이지 구현에서 프로필 데이터
 
 ## 벌크 프로필 업데이트 API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-한 방문자 프로필은 벌크 프로필 업데이트 API와 거의 동일하지만, .csv 파일을 사용하는 대신 API 호출에서 일렬로 한 번에 업데이트됩니다.
+벌크 프로필 업데이트 API와 거의 동일하지만 한 번에 하나의 방문자 프로필이 .csv 파일이 아닌 API 호출에서 한 번에 업데이트됩니다.
 
 ### 형식
 
