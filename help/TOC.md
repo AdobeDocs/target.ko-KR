@@ -4,10 +4,10 @@ breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있도록 고객의 경험을 맞춤화 및 개인화하는 방법을 살펴볼 수 있습니다.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
+source-git-commit: eed38aac559016fb96cb9030e8880c04af98bbb7
 workflow-type: tm+mt
-source-wordcount: '1578'
-ht-degree: 84%
+source-wordcount: '1579'
+ht-degree: 76%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 84%
    + [Target 주요 개념](c-intro/target-key-concepts.md)
    + [Target UI 이해](/help/c-intro/understand-the-target-ui.md)
    + Adobe Target 시작 키트 {#welcome}
-      + [Adobe Target 시작 키트 개요](/help/c-intro/target-welcome-kit.md)
+      + [Target 시작 키트 개요](/help/c-intro/target-welcome-kit.md)
       + [1장:소개](/help/c-intro/target-welcome-kit-1.md)
-      + [2장:Adobe Target 개요](/help/c-intro/target-welcome-kit-2.md)
+      + [2장:Target 개요](/help/c-intro/target-welcome-kit-2.md)
       + [3장:테스트 및 개인화 아이디어 개발](/help/c-intro/target-welcome-kit-3.md)
       + [4장:Target 사용 팁](/help/c-intro/target-welcome-kit-4.md)
       + [5장:테스트 및 개인화 활동에 대한 영감](/help/c-intro/target-welcome-kit-5.md)
@@ -44,15 +44,15 @@ ht-degree: 84%
    + [용어 설명](c-intro/glossary.md)
    + [Target 작동 방식](c-intro/how-target-works.md)
    + [교육 및 인증](c-intro/training-and-certification.md)
-   + [Adobe Target Standard 및 Premium 교육 비디오](c-intro/target-standard-premium-training-videos.md)
+   + [ Target Standard 및 Premium 교육 비디오](c-intro/target-standard-premium-training-videos.md)
    + [Target 최적화 및 개인화 FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target 관리 {#administer}
-   + [Target 개요 관리](administrating-target/administrating-target.md)
+   + [Target 관리 개요](administrating-target/administrating-target.md)
    + [관리자의 첫 단계](administrating-target/start-target.md)
    + [시각적 경험 작성기 구성](/help/administrating-target/visual-experience-composer-set-up.md)
    + 보고 {#reporting}
       + [보고 구성](/help/administrating-target/reporting.md)
-      + [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오
+      + [매출 리프트 계산](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
    + [Scene7 구성](administrating-target/scene7-settings.md)
    + [구현](/help/administrating-target/implementation.md)
    + [호스트](administrating-target/hosts.md)
@@ -101,7 +101,7 @@ ht-degree: 84%
             + [Adobe Launch를 사용하여 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [태그 관리자 없이 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
             + [DTM을 사용한 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-            + [단일 페이지 애플리케이션 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+            + [단일 페이지 애플리케이션에 대한 Target 구현(SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js 함수 {#functions-overview}
             + [at.js 함수 개요](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
             + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
@@ -132,22 +132,22 @@ ht-degree: 84%
             + [mbox.js에서 at.js로 마이그레이션하는 방법](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
             + [at.js 제한 사항](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
             + [at.js 플러그인](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
-            + [비프로덕션 환경에 at.js 배포](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
+            + [at.js를 비프로덕션 환경에 배포](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
          + [mbox.js가 수행하는 작업](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
          + [mbox.js 구성](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
          + [mbox.js 다운로드](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
          + [mbox.js 라이브러리 버전별 Target 페이지 방법](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
          + [주문 확인 mbox 만들기 - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [mbox.js 자주 묻는 질문](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
+         + [mbox.js FAQ](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
          + [mbox.js 함수](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
          + [mbox.js 쿠키](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)
          + [mbox.js 버전 세부 정보](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
       + 글로벌 mbox 이해 {#global-mbox}
          + [글로벌 mbox 개요 이해](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [글로벌 mbox 사용자 지정](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
-         + [이전 구현에서 글로벌 mbox를 사용](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
-         + [글로벌 mbox에 매개 변수 전달](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
-         + [글로벌 mbox 자주 묻는 질문](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+         + [기존 구현의 글로벌 mbox 사용](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/mbox-global-target-standard.md)
+         + [전역 mbox에 매개 변수 전달](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)
+         + [글로벌 mbox FAQ](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
    + 모바일 앱용 Target {#mobile-apps}
       + [모바일 앱을 위한 Target 개요](c-target-mobile-app/target-mobile-app.md)
       + [모바일 앱에서의 Target 작동 방식](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
@@ -169,8 +169,8 @@ ht-degree: 84%
       + [이미지용 Adbox 만들기](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
       + [이메일 이미지 Adbox 테스트](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [리디렉터 작업](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
-+ Adobe Target과 Experience Cloud 통합 {#integrate}
-   + Adobe Target용 보고 소스로서의 Adobe Analytics(A4T) {#a4t}
++  Target과 Experience Cloud 통합{#integrate}
+   + Target용 보고 소스로서의 Adobe Analytics(A4T) {#a4t}
       + [A4T 개요](c-integrating-target-with-mac/a4t/a4t.md)
       + [구현하기 전에](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target 구현](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -212,7 +212,7 @@ ht-degree: 84%
          + [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [대상 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [Analytics 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
+         + [분석 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [A/B 테스트의 여러 경험 대상](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 자동 할당 {#auto-allocate}
@@ -229,9 +229,9 @@ ht-degree: 84%
       + [Random Forest 알고리즘](c-activities/t-automated-personalization/algo-random-forest.md)
       + [자동화된 개인화 활동 만들기](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Target의 개인화 알고리즘을 위한 데이터 업로드](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
-      + [Target의 개인화 알고리즘에 대한 데이터 수집](c-activities/t-automated-personalization/ap-data.md)
+      + [Target의 개인화 알고리즘을 위한 데이터 수집](c-activities/t-automated-personalization/ap-data.md)
       + [성공에 필요한 트래픽 예측](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [자동화된 개인화 테스트를 위한 경험 미리 보기](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Automated Personalization 테스트를 위한 경험 미리 보기](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [자동화된 개인화 오퍼 타깃팅](c-activities/t-automated-personalization/ap-target-offers.md)
       + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)
       + [자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택](c-activities/t-automated-personalization/experience-as-control.md)
@@ -280,7 +280,7 @@ ht-degree: 84%
 + 대상자 {#audiences}
    + [대상 개요](c-target/target.md)
    + 대상자 만들기 {#create-audiences}
-      + [선택 사항에서](c-target/c-audiences/audiences.md)
+      + [대상 만들기 개요](c-target/c-audiences/audiences.md)
       + [Target에서 대상 작성](c-target/c-audiences/create-audience.md)
       + 대상의 카테고리 {#categories-audiences}
          + [대상의 카테고리 개요](c-target/c-audiences/c-target-rules/target-rules.md)
@@ -322,29 +322,29 @@ ht-degree: 84%
       + 수정 사항 {#modifications}
          + [수정 사항 개요](c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
          + [경험 템플릿](c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md)
-      + [시각적 경험 작성기에 사용된 요소 선택기](c-experiences/c-visual-experience-composer/vec-selectors.md)
-      + [응답형 경험을 위한 모바일 뷰포트](c-experiences/c-visual-experience-composer/mobile-viewports.md)
+      + [시각적 경험 작성기에서 사용되는 요소 선택기](c-experiences/c-visual-experience-composer/vec-selectors.md)
+      + [반응형 경험을 위한 모바일 뷰 포트](c-experiences/c-visual-experience-composer/mobile-viewports.md)
       + [시각적 경험 작성기 우수 사례 및 제한 사항](c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
       + 시각적 경험 작성기 문제 해결 {#troubleshoot-composer}
          + [시각적 경험 작성기 문제 해결 개요](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [시각적 경험 작성기 및 향상된 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [시각적 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [향상된 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-         + [브라우저에서 혼합 콘텐츠 사용](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+         + [브라우저에서 혼합 컨텐츠 사용](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [페이지 수정 시나리오](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL로 리디렉션](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [시각적 경험 작성기에서 작동하는 회전 메뉴 만들기](c-experiences/c-visual-experience-composer/vec-carousels.md)
+      + [Visual Experience Composer에서 작동하는 Carousel 만들기](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [양식 기반 경험 작성기](c-experiences/form-experience-composer.md)
    + [SPA(단일 페이지 앱) 시각적 경험 작성기](c-experiences/spa-visual-experience-composer.md)
    + 오퍼 {#offers}
       + [오퍼 개요](c-experiences/c-manage-content/manage-content.md)
       + [오퍼 폴더 만들기](c-experiences/c-manage-content/create-content-folder.md)
-      + [콘텐츠 업로드](c-experiences/c-manage-content/assets-upload.md)
+      + [콘텐트 업로드](c-experiences/c-manage-content/assets-upload.md)
       + [리디렉션 오퍼 만들기](c-experiences/c-manage-content/offer-redirect.md)
       + [원격 오퍼 만들기](c-experiences/c-manage-content/about-remote-offers.md)
       + [JSON 오퍼 만들기](c-experiences/c-manage-content/create-json-offer.md)
-      + [라이브러리의 콘텐츠 사용](c-experiences/c-manage-content/assets-working.md)
+      + [라이브러리에서 콘텐츠 작업](c-experiences/c-manage-content/assets-working.md)
       + [컨텐츠 검색](c-experiences/c-manage-content/filter-and-search-content.md)
       + [오퍼에 동적 데이터 전달](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM 경험 구성요소](c-experiences/c-manage-content/aem-experience-fragments.md)
@@ -352,7 +352,7 @@ ht-degree: 84%
    + [보고서 개요](c-reports/reports.md)
    + 보고서 설정 {#settings}
       + [보고서 설정 개요](c-reports/c-report-settings/report-settings.md)
-      + [평균 상승도, 상승도 한계 및 신뢰 구간](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
+      + [평균 리프트, 리프트 경계 및 신뢰 구간](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [보고서에서 여러 지표 보기](c-reports/c-report-settings/view-multiple-metrics.md)
       + [예외적인 값 제외](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [Auto-Target 요약 보고서](c-reports/auto-target-summary-report.md)
@@ -404,7 +404,7 @@ ht-degree: 84%
       + [권장 사항 활동 만들기](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [기준 선택](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md)
-      + [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [Recommendations 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [Recommendations 활동 미리 보기 및 실행](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [오퍼로서의 Recommendations](c-recommendations/recommendations-as-an-offer.md)
    + FAQ {#recommendations-faq}
