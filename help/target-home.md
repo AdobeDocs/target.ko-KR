@@ -3,14 +3,14 @@ keywords: Target;홈;인기 항목;adobe target;standard;premium;대상 설명�
 title: Target 설명서는 어디에서 찾을 수 있습니까?
 description: Adobe Target을 사용하여 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법을 살펴볼 수 있습니다.
 feature: 개요
+exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 45%
 
 ---
-
 
 # [!DNL Adobe Target] 안내서
 
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트:2021년 3월 29일 ( [변경된 내용](r-release-notes/doc-change.md)  참조)**
+**마지막 업데이트:2021년 4월 8일 ( [변경된 내용](r-release-notes/doc-change.md)  참조)**
 
 >[!NOTE]
 >
