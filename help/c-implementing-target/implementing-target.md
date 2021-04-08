@@ -5,14 +5,14 @@ landing-page-description: Adobe Target을 사용하려면 먼저 사이트에서
 title: Target은 어떻게 구현합니까?
 feature: 구현
 role: Developer
+exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: 12cc95aca08621a52d5ab99d5ebcc23962caccb5
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 27%
 
 ---
-
 
 # Target 구현
 
