@@ -5,9 +5,9 @@ title: 성공적인 활동에 필요한 트래픽은 얼마입니까?
 feature: 자동화된 개인화
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 14%
 
 ---
@@ -65,7 +65,7 @@ ht-degree: 14%
 
 [!UICONTROL 트래픽 견적 도구]에서 작업할 때 다음 FAQ를 고려하십시오.
 
-### AP 활동에 충분한 트래픽이 있는 경우 [!DNL Target]이(가) 맞춤형 모델을 구축하지 않는 이유는 무엇입니까?
+### AP 활동에 트래픽이 충분해도 맞춤형 모델이 만들어지지 않는 이유는 무엇입니까?
 
 특정 상황에서는 트래픽이 너무 커서 맞춤형 모델이 만들어지지만 트래픽은 [!DNL Target]에 개인화된 모델과 임의 간에 의미 있는 차이가 없음을 알려줄 수 있습니다. 모델이 [!DNL Target]에 내장되어 테스트되었지만 모델이 임의 모델보다 좋지 않기 때문에 배포되지 않습니다.
 
