@@ -4,14 +4,14 @@ description: 기준 및 프로모션을 위해 Adobe Target Recommendations에�
 title: Recommendations에서 동적 및 정적 포함 규칙을 어떻게 사용합니까?
 feature: Recommendations
 mini-toc-levels: 3
+exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1100'
 ht-degree: 38%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 동적 및 정적 포함 규칙 사용{#use-dynamic-and-static-inclusion-rules}
 
@@ -91,7 +91,7 @@ ht-degree: 38%
 
 | 작업 | 사용 가능한 경우 | 세부 사항 |
 |--- |--- |--- |
-| [!UICONTROL 이 필터링 규칙 무시] | [!UICONTROL 프로필 속성 ] [!UICONTROL 일치 및 매개 변수 일치] | 이것은 [!UICONTROL 프로필 속성 일치] 및 [!UICONTROL 매개 변수 일치]에 대한 기본 작업입니다.<br>이 선택 사항은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 어떤 값도 전달하지 않는 경우, 결과를 반환하는 대신 빈 값으로 세 번째 규칙을 무시할 수 있습니다. |
+| [!UICONTROL 이 필터링 규칙 무시] | [!UICONTROL 프로필 속성 ] 일치 및  [!UICONTROL 매개 변수 일치] | 이것은 [!UICONTROL 프로필 속성 일치] 및 [!UICONTROL 매개 변수 일치]에 대한 기본 작업입니다.<br>이 선택 사항은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 어떤 값도 전달하지 않는 경우, 결과를 반환하는 대신 빈 값으로 세 번째 규칙을 무시할 수 있습니다. |
 | [!UICONTROL 이 기준에 대한 결과를 표시하지]<br> 않음(기준만) | [!UICONTROL 엔티티 속성 일치],  [!UICONTROL 프로필 속성 일치] 및  [!UICONTROL 매개 변수 일치] | [!UICONTROL 개체 특성 일치]에 대한 기본 작업입니다.<br>이 작업은 이 옵션을 추가하기 전에 빈 값을  [!DNL Target] 처리하는 방법입니다.이 기준에 대한 결과가 표시되지 않습니다. |
 | [!UICONTROL 항목을 홍보하지<br> 않음(판촉 행사 전용)] | [!UICONTROL 엔티티 속성 일치],  [!UICONTROL 프로필 속성 일치] 및  [!UICONTROL 매개 변수 일치] | [!UICONTROL 개체 특성 일치]에 대한 기본 작업입니다.<br>이 작업은 이 옵션을 추가하기 전에 빈 값을  [!DNL Target] 처리하는 방법입니다.이 기준에 대한 결과가 표시되지 않습니다. |
 | [!UICONTROL 정적 값 사용] | [!UICONTROL 엔티티 속성 일치],  [!UICONTROL 프로필 속성 일치] 및  [!UICONTROL 매개 변수 일치] | 값이 비어 있으면 정적 값을 사용하도록 선택할 수 있습니다. |
