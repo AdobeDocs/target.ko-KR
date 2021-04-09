@@ -3,14 +3,14 @@ keywords: 대상 설명서 변경 로그;설명서 업데이트;새 주제;편�
 description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 변경 사항을 항상 최신 상태로 유지할 수 있습니다.
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
+exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '3911'
-ht-degree: 28%
+source-wordcount: '3926'
+ht-degree: 29%
 
 ---
-
 
 # 설명서 변경 내용
 
@@ -20,6 +20,7 @@ ht-degree: 28%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 9년 4월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.4.1 릴리스에 대한 프리릴리스 정보 추가(2021년 4월 19일) |
 | 3월 29일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 추가된 새 FAQ:<ul><li>한 명의 방문자에 대해 최근에 본 항목을 기반으로 한 권장 사항이 여러 장치에서 지속됩니까?</li></ul> |
 | 3월 23일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | at.js 버전 2.4.1에 대한 릴리스 노트가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.4.1에 대한 릴리스 노트가 추가되었습니다. |
