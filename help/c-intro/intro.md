@@ -4,14 +4,14 @@ description: Adobe Target Standard 및 Adobe Target Premium의 기본 사항에 
 landing-page-description: 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있습니다.
 title: Target은 무슨 프로그램입니까?
 feature: 개요
+exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: 345b0f805ef65364b891f6754f4aaf78c163f334
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 43%
 
 ---
-
 
 #  Target 소개
 
