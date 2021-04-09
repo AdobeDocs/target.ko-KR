@@ -3,16 +3,16 @@ keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;배달 API;다�
 description: Target 배달 API, rawbox 템플릿, 다운로드 전용 템플릿 사용을 포함하여 Adobe Target Recommendations과 이메일을 통합하는 방법을 알아봅니다.
 title: Recommendations을 이메일과 통합하려면 어떻게 해야 합니까?
 feature: Recommendations
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 89%
+source-wordcount: '1548'
+ht-degree: 86%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 이메일에 Recommendations 통합{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) 이메일에 Recommendations 통합
 
 이메일을 권장 사항과 통합하는 방법에 대한 정보입니다.
 
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | 요청에 대한 일치 항목이 없고 `mboxDefault` 매개 변수가 지정되지 않은 경우`mboxNoRedirect`가 지정되지 않습니다. |
 | `Invalid mbox name:= MBOX_NAME` | `mbox` 매개 변수에 부적합한 문자가 포함되어 있음을 나타냅니다. |
 | `Mbox name [MBOX_NAME] is too long` | `mbox` 매개 변수가 250자를 초과함을 나타냅니다. |
+
+## 옵션 1 및 2에 대한 용량 지침 {#capacity}
+
+다음 용량 지침은 배달 API 및 rawbox 이메일 템플릿 옵션에 적용됩니다.
+
+* 요청은 초당 1,000개 요청 또는 일일 트래픽이 가장 많은 25배 낮은 비율로 제한됩니다.
+* 분당 요청 200회 단계의 트래픽 경사
+
+더 높은 비율 제한을 사용하려면 계정 관리자에게 문의하십시오.
 
 ## 옵션 3: 다운로드 전용 템플릿 사용 {#section_518C279AF0094BE780F4EA40A832A164}
 
