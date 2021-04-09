@@ -5,9 +5,9 @@ title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '3926'
+source-wordcount: '3938'
 ht-degree: 29%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 29%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 9년 4월 | [Target 릴리스 노트(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.4.1 릴리스에 대한 프리릴리스 정보 추가(2021년 4월 19일) |
+|  | [이메일에 권장 사항 통합](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | 다음 섹션이 추가되었습니다.&quot;옵션 1 및 2에 대한 용량 가이드라인&quot; |
 | 3월 29일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 추가된 새 FAQ:<ul><li>한 명의 방문자에 대해 최근에 본 항목을 기반으로 한 권장 사항이 여러 장치에서 지속됩니까?</li></ul> |
 | 3월 23일 | [릴리스 노트](/help/r-release-notes/release-notes.md) | at.js 버전 2.4.1에 대한 릴리스 노트가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.4.1에 대한 릴리스 노트가 추가되었습니다. |
