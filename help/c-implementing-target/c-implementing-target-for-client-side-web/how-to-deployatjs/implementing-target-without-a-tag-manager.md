@@ -6,10 +6,10 @@ feature: 서버측 구현
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 45e4489348c490aaa43007656fb994e3d01b9c3f
+source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
 workflow-type: tm+mt
-source-wordcount: '1625'
-ht-degree: 54%
+source-wordcount: '1697'
+ht-degree: 51%
 
 ---
 
@@ -44,6 +44,7 @@ ht-degree: 54%
 | [!UICONTROL 클라이언트 코드] | 클라이언트 코드는 Target API를 사용할 때 종종 필요한 클라이언트별 문자 시퀀스입니다. |
 | [!UICONTROL IMS 조직 ID] | 이 ID는 구현을 [!DNL Adobe Experience Cloud] 계정에 연결합니다. |
 | [!UICONTROL 장치 내 의사 결정] | 장치 내 의사 결정을 활성화하려면 전환 단계를 &quot;설정&quot; 위치로 밀십시오.<br>장치 내 의사 결정을 사용하면 서버에 A/B 및 경험 타깃팅(XT) 캠페인을 캐시하고 0에 가까운 지연으로 메모리 내 의사 결정을 수행할 수 있습니다. 자세한 내용은 *Adobe Target SDK* 안내서의 [장치 내 의사 결정 소개](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)을 참조하십시오. |
+| [!UICONTROL 아티팩트에 있는 기존의 모든 장치 내 의사 결정 자격 활동을 포함합니다.] | (조건부) 장치 내 의사 결정을 활성화하면 이 옵션이 표시됩니다.<br>장치 내 의사 결정을 위한 자격이 되는 모든 라이브 Target 활동을 아티팩트에 자동으로 포함하려면 전환을 &quot;켜기&quot; 위치로 밀십시오.<br>이 토글을 끄면 생성된 규칙 가공물에 포함되려면 모든 장치 내 의사 결정 활동을 다시 만들고 활성화해야 합니다. |
 
 ## 구현 방법
 
