@@ -4,10 +4,10 @@ breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있도록 고객의 경험을 맞춤화 및 개인화하는 방법을 살펴볼 수 있습니다.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: c9c42f176c39e4eaf909074eb6eadc09236391e1
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 76%
+source-wordcount: '1614'
+ht-degree: 75%
 
 ---
 
@@ -99,6 +99,10 @@ ht-degree: 76%
       + Adobe Experience Platform 웹 SDK 구현 {#aep-implementation}
          + [AEP 웹 SDK 개요](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + at.js 구현 {#at-js-implementation}
+         + 장치 내 의사 결정 {#on-device-decisioning}
+            + [장치 내 의사 결정 개요](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+            + [장치 내 의사 결정을 위한 지원 기능](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [장치 내 의사 결정 규칙 아티팩트](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
          + at.js 작동 방식 {#at-js}
             + [at.js 작동 방식 개요](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [at.js에서 플리커를 관리하는 방법](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
