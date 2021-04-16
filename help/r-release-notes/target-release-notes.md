@@ -5,10 +5,10 @@ title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 24%
+source-wordcount: '429'
+ht-degree: 22%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 24%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트 날짜: 2021년 4월 9일**
+**마지막 업데이트 날짜: 2021년 4월 16일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 노트](release-notes.md)를 참조하십시오. 릴리스 시기에 따라 이러한 페이지의 정보가 같을 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -52,6 +52,15 @@ ht-degree: 24%
    * 목록에
 
 * 권장 사항 제외를 만드는 동안 환경을 변경한 후 요청이 실패하는 경우 로드가 제한적으로 로드되는 문제를 해결했습니다. (TGT-39948)
+
+## at.js 버전 2.5.0(2021년 4월 19일)
+
+at.js의 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* at.js에 대한 장치 내 의사 결정 지원
+* Automated Personalization 활동에 대한 링크 지원 미리 보기
+
+또한 이 릴리스에서는 Microsoft Internet Explorer 10 이상 버전에 대한 지원도 제거되었습니다.
 
 ## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
