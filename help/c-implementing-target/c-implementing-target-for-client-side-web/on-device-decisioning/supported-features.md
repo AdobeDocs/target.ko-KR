@@ -4,10 +4,11 @@ description: 장치 내 의사 결정을 위해 지원되는 기능에 대해 �
 title: 장치 내 의사 결정에서 지원되는 기능
 feature: at.js
 role: Developer
+exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 62a3b387445977a1bdcd2cf45306c8ff032fca50
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 11%
 
 ---
@@ -53,11 +54,43 @@ ht-degree: 11%
 
 지역 기반 대상의 장치 내 의사 결정 활동에 대한 최소 지연을 유지하려면 [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 호출에 지리적 값을 직접 제공할 것을 Adobe이 권장합니다. 요청의 컨텍스트에서 지역 개체를 설정합니다. 이것은 브라우저에서 각 방문자의 위치를 확인하는 방법을 의미합니다. 예를 들어 구성한 서비스를 사용하여 IP-지역 조회를 수행할 수 있습니다. Google Cloud와 같은 일부 호스팅 제공업체는 각 `HttpServletRequest`에 있는 사용자 정의 헤더를 통해 이 기능을 제공합니다.
 
-(출시 코드)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				city: "SAN FRANCISCO", 
+				countryCode: "US", 
+				stateCode: "CA", 
+				latitude: 37.75, 
+				longitude: -122.4 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 그러나 서버에서 IP-to-Geo 조회를 수행할 수 없지만 여전히 지리 기반 대상이 포함된 [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 요청에 대해 장치 내 의사 결정을 수행하려는 경우 이 또한 지원됩니다. 이 접근 방식의 단점은 각 `getOffers` 호출에 지연을 추가하는 원격 IP-지역 조회를 사용한다는 것입니다. 이 지연은 서버 쪽 의사 결정이 있는 `getOffers` 호출보다 작아야 합니다. 이 지연은 서버 가까이에 있는 CDN을 히트하기 때문입니다. 방문자의 IP 주소의 지역 위치를 검색하기 위해 SDK에 대한 요청 컨텍스트의 지역 개체에 &quot;ipAddress&quot; 필드만 제공합니다. &quot;ipAddress&quot; 외에 다른 필드가 제공되는 경우, [!DNL Target] SDK는 해결을 위해 지리적 위치 메타데이터를 가져오지 않습니다.
 
-(출시 코드)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				ipAddress: "127.0.0.1" 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 ### 할당 방법
 
