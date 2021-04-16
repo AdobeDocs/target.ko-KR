@@ -2,15 +2,15 @@
 keywords: 릴리스 노트
 description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항 및 수정 사항 목록을 확인하십시오.
 title: 이전 릴리스에는 어떤 기능이 포함되어 있습니까?
-feature: Release Notes
+feature: 릴리스 정보
+exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
 workflow-type: tm+mt
-source-wordcount: '30521'
+source-wordcount: '30831'
 ht-degree: 84%
 
 ---
-
 
 # 이전 릴리스{#release-notes-for-previous-releases}에 대한 릴리스 노트
 
@@ -23,6 +23,37 @@ Target Standard/Premium 릴리스 노트, Target 플랫폼 및 Target Javascript
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 노트 - 2021
+
+### at.js 2.4.1(2021년 3월 23일)
+
+at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
+
+* `targetPageParams`이(가) mbox 요청에 포함되는 문제를 해결했습니다. `targetPageParams` 는  `pageLoad` 요청에만 포함되어야 합니다. (TNT-40247)
+* platform launch 전역 개체 종속성을 해당 개체에 대한 직접 참조로 대체하여 [!DNL Adobe Experience Platform Launch] 확장의 문서 및 창 글로벌 개체 관련 문제를 수정했습니다. (TNT-37124)
+
+### Recommendations 피드 처리 서버의 IP 주소 변경 사항(2021년 3월 16일)
+
+[!DNL Target Recommendations] 피드 처리 서버 IP 주소가 2021년 3월 16일에 업데이트되었습니다. 자세한 내용은 Recommendations 피드 처리 서버에서 사용하는 [IP 주소](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)를 참조하십시오.
+
+### Target Standard/Premium 21.2.1(2021년 3월 9일)
+
+이 유지 관리 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
+
+괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+
+* 허용되는 오퍼 크기를 늘렸습니다(TGT-38304).
+
+   | 유형 | 이전 제한 | 새 제한 |
+   | --- | --- | --- |
+   | HTML | 256KB | 1024KB |
+   | Target UI에서 제공하는 시각적 오퍼 | 64KB | 각 경험에 대해 1024KB |
+   | API를 통해 | 512KB | 1024KB |
+
+* [!UICONTROL 개인화 ] 통찰력 [!UICONTROL 의 자동 Target] (AT) 및  [!UICONTROL Automated Personalization] (AP) 활동에 대한 보고서가 이제 매일 생성됩니다. 지난 15일, 30일 및 60일 동안 [!UICONTROL 자동화된 세그먼트] 또는 [!UICONTROL 중요 특성]을 제공하는 보고서를 선택할 수 있습니다. 다른 전환 확인 창 설정을 매일 실행할 수 있도록 45일 및 90일 옵션이 제거되었습니다. (TGT-39472)
+* 고객이 활동의 [!UICONTROL 목표 및 설정] 페이지에서 [!UICONTROL 종속성 편집]을(를) 클릭할 때 현재 종속성이 표시되지 않는 문제를 해결했습니다. (TGT-39340)
+* 작업 영역의 [!UICONTROL 대상 라이브러리]를 새로 고칠 때 발생하는 문제를 수정했습니다. 새로 고침 전에 현재 선택된 작업 영역의 대상이 표시됩니다. 새로 고친 후 [!UICONTROL 기본 작업 영역]과 해당 대상이 표시됩니다. 이제 현재 작업 공간과 해당 대상은 새로 고침 후에도 유지됩니다. (TGT-38871)
+* [!UICONTROL Recommendations] 활동을 복사하고 나중에 기준 시퀀스를 변경하여 원래 활동을 편집할 때 발생하는 문제를 수정했습니다. 원래 활동의 기준 순서의 변경 사항도 복사된 활동에 잘못 적용되었습니다. (TGT-39155)
+* [!UICONTROL Recommendations] 제외에 대해 잘못된 개수의 제품이 표시되는 문제를 해결했습니다. (TGT-39599)
 
 ### Target Standard/Premium 21.1.1(2021년 1월 19일)
 
