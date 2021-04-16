@@ -4,11 +4,12 @@ description: at.js 라이브러리를 사용하여 장치 내 의사 결정을 �
 title: 장치 내 의사 결정은 at.js JavaScript 라이브러리에서 어떻게 작동합니까?
 feature: at.js
 role: Developer
+exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
 workflow-type: tm+mt
-source-wordcount: '3419'
-ht-degree: 5%
+source-wordcount: '3496'
+ht-degree: 7%
 
 ---
 
@@ -69,28 +70,22 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 다음 목록은 다이어그램의 번호에 해당합니다.
 
-1. [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)에서 검색됩니다.
-1. at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.
-
-   at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다.
-
-1. at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다.
-1. 페이지 로드 요청은 (ECID, 고객 ID, 사용자 지정 매개 변수, 사용자 프로필 등)과 같이 구성된 모든 매개 변수를 포함하는 것입니다.
-1. 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다.
-
-   프로필 저장소는 대상 라이브러리에서 자격이 있는 대상(예: [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] 등에서 공유된 대상)을 요청합니다.
-
-   고객 속성은 묶음 프로세스를 통해 프로필 저장소로 전송됩니다.
-
-1. 프로필 스토어는 대상 자격 조건 및 버킷으로 활동을 필터링하는 데 사용됩니다.
-1. 결과 컨텐츠는 라이브 [!DNL Target] 활동에서 경험이 결정된 후에 선택됩니다.
-1. at.js 라이브러리는 렌더링해야 하는 경험과 연결된 페이지의 해당 요소를 숨깁니다.
-1. at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다.
-1. at.js 라이브러리는 Target 에지 네트워크에서 경험을 렌더링하기 위해 DOM을 조작합니다.
-1. 경험은 방문자에게 렌더링됩니다.
-1. 전체 웹 페이지가 로드됩니다.
-1. [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다.
-1. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다.
+| 단계 | 설명 |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html?lang=en)에서 검색됩니다. |
+| 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>   at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
+| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 4 | 페이지 로드 요청은 (ECID, 고객 ID, 사용자 지정 매개 변수, 사용자 프로필 등)과 같이 구성된 모든 매개 변수를 포함하는 것입니다. |
+| 5 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다.<br>프로필 저장소는 대상 라이브러리에서 자격이 있는 대상자(예: 공유 대상  [!DNL Adobe Analytics]등) [!DNL Adobe Audience Manager]를 요청합니다.<br>고객 속성은 묶음 프로세스를 통해 프로필 저장소로 전송됩니다. |
+| 6 | 프로필 스토어는 대상 자격 조건 및 버킷으로 활동을 필터링하는 데 사용됩니다. |
+| 7 | 결과 컨텐츠는 라이브 [!DNL Target] 활동에서 경험이 결정된 후에 선택됩니다. |
+| 8 | at.js 라이브러리는 렌더링해야 하는 경험과 연결된 페이지의 해당 요소를 숨깁니다. |
+| 9 | at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다. |
+| 10 | at.js 라이브러리는 Target 에지 네트워크에서 경험을 렌더링하기 위해 DOM을 조작합니다. |
+| 11 | 경험은 방문자에게 렌더링됩니다. |
+| 12 | 전체 웹 페이지가 로드됩니다. |
+| 13 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. |
+| 14 | 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
 
 ### 온디바이스 전용
 
@@ -98,7 +93,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 디바이스에서 의사 결정을 내릴 수 있는 모든 활동을 포함하는 캐시된 규칙 아티팩트로 의사 결정을 내림으로써 경험 및 개인화 활동을 빠른 속도로 전달할 수 있습니다.
 
-장치에서 의사 결정을 할 수 있는 활동에 대한 자세한 내용은 지원되는 기능 섹션을 참조하십시오.
+장치 내 의사 결정을 위한 자격이 되는 활동에 대한 자세한 내용은 [장치 내 의사 결정에서 지원되는 기능](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)을 참조하십시오.
 
 이 의사 결정 방법은 [!DNL Target]의 결정이 필요한 모든 페이지에서 성능이 매우 중요한 경우에만 사용해야 합니다. 또한 이 의사 결정 방법을 선택하면 장치에서 의사 결정을 할 수 없는 [!DNL Target] 활동이 전달되거나 실행되지 않습니다. at.js 라이브러리 2.5+는 결정을 내릴 캐시된 규칙 아티팩트만 찾도록 구성되어 있습니다.
 
@@ -112,21 +107,20 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 >
 >[!DNL Adobe Target] 관리 서버는 장치 내 의사 결정에 적합한 모든 활동을 평가하고, JSON 규칙 아티팩트를 생성하고, 이를 Akamai CDN에 전파합니다. Akamai CDN에 전파될 새 JSON 규칙 아티팩트를 출력하기 위한 업데이트를 지속적으로 활동이 모니터링됩니다.
 
-1. [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다.
-1. at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.
-
-   at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다.
-
-1. at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다.
-1. at.js 라이브러리는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다.
-1. Akamai CDN이 JSON 규칙 아티팩트와 응답합니다.
-1. JSON 규칙 아티팩트는 방문자의 브라우저에서 로컬로 캐시됩니다.
-1. at.js 라이브러리는 JSON 규칙 아티팩트를 해석하고 경험 검색 결정을 실행하며 테스트된 요소를 숨깁니다.
-1. at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다.
-1. at.js 라이브러리는 캐시된 JSON 규칙 아티팩트에서 경험을 렌더링하기 위해 DOM을 조작합니다.
-1. 경험은 방문자에게 렌더링됩니다.
-1. 전체 웹 페이지가 로드됩니다.
-1. [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics][!DNL Analytics] 데이터는 for  (A4T) 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다.[!DNL Target]
+| 단계 | 설명 |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
+| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 4 | at.js 라이브러리는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다. |
+| 5 | Akamai CDN이 JSON 규칙 아티팩트와 응답합니다. |
+| 6 | JSON 규칙 아티팩트는 방문자의 브라우저에서 로컬로 캐시됩니다. |
+| 7 | at.js 라이브러리는 JSON 규칙 아티팩트를 해석하고 경험 검색 결정을 실행하며 테스트된 요소를 숨깁니다. |
+| 8 | at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다. |
+| 9 | at.js 라이브러리는 캐시된 JSON 규칙 아티팩트에서 경험을 렌더링하기 위해 DOM을 조작합니다. |
+| 10 | 경험은 방문자에게 렌더링됩니다. |
+| 11 | 전체 웹 페이지가 로드됩니다. |
+| 12 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics][!DNL Analytics] 데이터는 for  (A4T) 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다.[!DNL Target] |
 
 다음 다이어그램은 방문자의 후속 페이지 히트 또는 재방문에 대한 방문자, 브라우저, at.js 2.5+ 및 캐시된 JSON 규칙 가공물 간의 상호 작용을 보여 줍니다. JSON 규칙 아티팩트는 이미 캐시되어 브라우저에서 사용할 수 있으므로, 차단 네트워크 호출 없이 즉시 결정됩니다. 이 흐름 다이어그램은 후속 페이지 탐색 또는 돌아온 방문자를 캡처합니다.
 
@@ -138,19 +132,18 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 >
 >[!DNL Adobe Target] 관리 서버는 장치 내 의사 결정에 적합한 모든 활동을 평가하고, JSON 규칙 아티팩트를 생성하고, 이를 Akamai CDN에 전파합니다. Akamai CDN에 전파될 새 JSON 규칙 아티팩트를 출력하기 위한 업데이트를 지속적으로 활동이 모니터링됩니다.
 
-1. [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다.
-1. at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.
-
-   at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다.
-
-1. at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다.
-1. at.js 라이브러리는 JSON 규칙 아티팩트를 해석하고 메모리 내에서 결정을 실행하여 경험을 검색합니다.
-1. 테스트된 요소는 숨겨집니다.
-1. at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다.
-1. at.js 라이브러리는 캐시된 JSON 규칙 아티팩트에서 경험을 렌더링하기 위해 DOM을 조작합니다.
-1. 경험은 방문자에게 렌더링됩니다.
-1. 전체 웹 페이지가 로드됩니다.
-1. [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다.
+| 단계 | 설명 |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
+| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 4 | at.js 라이브러리는 JSON 규칙 아티팩트를 해석하고 메모리 내에서 결정을 실행하여 경험을 검색합니다. |
+| 5 | 테스트된 요소는 숨겨집니다. |
+| 6 | at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다. |
+| 7 | at.js 라이브러리는 캐시된 JSON 규칙 아티팩트에서 경험을 렌더링하기 위해 DOM을 조작합니다. |
+| 8 | 경험은 방문자에게 렌더링됩니다. |
+| 9 | 전체 웹 페이지가 로드됩니다. |
+| 10 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
 
 ### 하이브리드
 
@@ -172,24 +165,23 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 >
 >[!DNL Adobe Target] 관리 서버는 장치 내 의사 결정에 적합한 모든 활동을 평가하고, JSON 규칙 아티팩트를 생성하고, 이를 Akamai CDN에 전파합니다. Akamai CDN에 전파될 새 JSON 규칙 아티팩트를 출력하기 위한 업데이트를 지속적으로 활동이 모니터링됩니다.
 
-1. [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다.
-1. at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.
-
-   at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다.
-
-1. at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다.
-1. 페이지 로드 요청은 Adobe Target Edge Network에 수행됩니다. 여기에는 ECID, 고객 ID, 사용자 지정 매개 변수, 사용자 프로필 등의 모든 구성 매개 변수가 포함됩니다.
-1. 이와 동시에 at.js는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다.
-1. (Adobe Target Edge Network) 프로필 스크립트가 실행된 다음 프로필 스토어로 피드됩니다. 프로필 저장소는 대상 라이브러리에서 자격이 있는 대상(예: [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] 등에서 공유된 대상)을 요청합니다.
-1. Akamai CDN이 JSON 규칙 아티팩트와 응답합니다.
-1. 프로필 스토어는 대상 자격 조건 및 버킷으로 활동을 필터링하는 데 사용됩니다.
-1. 결과 컨텐츠는 라이브 [!DNL Target] 활동에서 경험이 결정된 후에 선택됩니다.
-1. at.js 라이브러리는 렌더링해야 하는 경험과 연결된 페이지의 해당 요소를 숨깁니다.
-1. at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다.
-1. at.js 라이브러리는 Target 에지 네트워크에서 경험을 렌더링하기 위해 DOM을 조작합니다.
-1. 경험은 방문자에게 렌더링됩니다.
-1. 전체 웹 페이지가 로드됩니다.
-1. [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다.
+| 단계 | 설명 |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
+| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 4 | 페이지 로드 요청은 Adobe Target Edge Network에 수행됩니다. 여기에는 ECID, 고객 ID, 사용자 지정 매개 변수, 사용자 프로필 등의 모든 구성 매개 변수가 포함됩니다. |
+| 5 | 이와 동시에 at.js는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다. |
+| 6 | (Adobe Target Edge Network) 프로필 스크립트가 실행된 다음 프로필 스토어로 피드됩니다. 프로필 저장소는 대상 라이브러리에서 자격이 있는 대상(예: [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] 등에서 공유된 대상)을 요청합니다. |
+| 7 | Akamai CDN이 JSON 규칙 아티팩트와 응답합니다. |
+| 8 | 프로필 스토어는 대상 자격 조건 및 버킷으로 활동을 필터링하는 데 사용됩니다. |
+| 9 | 결과 컨텐츠는 라이브 [!DNL Target] 활동에서 경험이 결정된 후에 선택됩니다. |
+| 10 | at.js 라이브러리는 렌더링해야 하는 경험과 연결된 페이지의 해당 요소를 숨깁니다. |
+| 11 | at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다. |
+| 12 | at.js 라이브러리는 Target 에지 네트워크에서 경험을 렌더링하기 위해 DOM을 조작합니다. |
+| 13 | 경험은 방문자에게 렌더링됩니다. |
+| 14 | 전체 웹 페이지가 로드됩니다. |
+| 15 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
 
 다음 다이어그램은 방문자, 브라우저, at.js 2.5+ 및 후속 페이지 탐색 또는 재방문에 대한 캐시된 JSON 규칙 가공물 간의 상호 작용을 보여 줍니다. 이 다이어그램에서는 다음 페이지 탐색 또는 방문 재방문에 대해 장치에서 결정하는 사용 사례에만 초점을 둡니다. 특정 페이지에 대해 라이브되는 활동에 따라 서버측 호출을 수행하여 서버측 결정을 실행할 수 있습니다.
 
@@ -201,20 +193,19 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 >
 >[!DNL Adobe Target] 관리 서버는 장치 내 의사 결정에 적합한 모든 활동을 평가하고, JSON 규칙 아티팩트를 생성하고, 이를 Akamai CDN에 전파합니다. Akamai CDN에 전파될 새 JSON 규칙 아티팩트를 출력하기 위한 업데이트를 지속적으로 활동이 모니터링됩니다.
 
-1. [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다.
-1. at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.
-
-   at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다.
-
-1. at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다.
-1. 경험을 검색하도록 요청합니다.
-1. at.js 라이브러리는 JSON 규칙 아티팩트가 이미 캐싱되었음을 확인하고 경험을 검색하기 위해 메모리 내 결정을 실행합니다.
-1. 테스트된 요소는 숨겨집니다.
-1. at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다.
-1. at.js 라이브러리는 캐시된 JSON 규칙 아티팩트에서 경험을 렌더링하기 위해 DOM을 조작합니다.
-1. 경험은 방문자에게 렌더링됩니다.
-1. 전체 웹 페이지가 로드됩니다.
-1. [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다.
+| 단계 | 설명 |
+| --- | --- |
+| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
+| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 4 | 경험을 검색하도록 요청합니다. |
+| 5 | at.js 라이브러리는 JSON 규칙 아티팩트가 이미 캐싱되었음을 확인하고 경험을 검색하기 위해 메모리 내 결정을 실행합니다. |
+| 6 | 테스트된 요소는 숨겨집니다. |
+| 7 | at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다. |
+| 8 | at.js 라이브러리는 캐시된 JSON 규칙 아티팩트에서 경험을 렌더링하기 위해 DOM을 조작합니다. |
+| 9 | 경험은 방문자에게 렌더링됩니다. |
+| 10 | 전체 웹 페이지가 로드됩니다. |
+| 11 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
 
 ## 장치 내 의사 결정을 활성화하려면 어떻게 합니까?
 
@@ -258,6 +249,8 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
    * [!UICONTROL 서버측 전용]
    * [!UICONTROL 온디바이스 전용]
    * [!UICONTROL 하이브리드]
+
+   ![at.js 설정 패널 편집](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/global-settings.png)
 
 ### 전역 설정
 
