@@ -4,14 +4,14 @@ description: mbox 요청이나 오퍼가 실패하거나 성공할 때 알림을
 title: at.js 사용자 지정 이벤트는 어떻게 사용합니까?
 feature: at.js
 role: Developer
+exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 92%
+source-wordcount: '656'
+ht-degree: 87%
 
 ---
-
 
 # at.js 사용자 지정 이벤트
 
@@ -38,6 +38,7 @@ mbox 요청 또는 오퍼가 실패하거나 성공하는 경우를 알려주는
 | mbox | 문자열 | mbox 이름 |
 | message | 문자열 | 발생한 사항, 오류 메시지 등과 같이 사람이 읽을 수 있는 설명을 포함합니다. |
 | tracking | 개체 | `sessionId` 및 `deviceId`를 포함합니다. 일부 경우에 `deviceId`이 에지 서버에서 검색할 수 없기 때문에 [!DNL Target]가 누락될 수 있습니다. |
+| 유형 | 문자열 | **장치 내 의사 결정 가공물 성공**<br>&#x200B;상수:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>문자열 값: `artifactDownloadSucceeded`<br>설명:장치 내 의사 결정 아티팩트가 성공적으로 다운로드될 때 호출됩니다.<br>**장치 내 의사 결정 아티팩트가**<br>&#x200B;실패상수: `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>문자열 값: `artifactDownloadFailed`<br>설명:장치 내 의사 결정 아티팩트를 다운로드하지 못할 때 호출됩니다. |
 
 ## 사용 {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
