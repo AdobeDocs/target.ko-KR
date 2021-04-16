@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
 workflow-type: tm+mt
-source-wordcount: '3497'
+source-wordcount: '3499'
 ht-degree: 7%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 7%
 
 >[!NOTE]
 >
->장치 내 의사 결정은 Target Standard/Premium 21.4.1 릴리스(2021년 4월 19일)에서 릴리스될 예정입니다.
+>장치 내 의사 결정 기능은 Target Standard/Premium 21.4.1 릴리스(2021년 4월 19일)에서 릴리스될 예정입니다.
 
 버전 2.5부터 at.js는 장치 내 의사 결정을 제공합니다. 장치 내 의사 결정을 사용하면 [!DNL Adobe Target] 에지 네트워크에 대한 차단 네트워크 요청 없이 메모리 내 의사 결정을 수행하도록 브라우저에서 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) 및 [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md)(XT) 활동을 캐시할 수 있습니다.
 
@@ -197,7 +197,7 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | 경험을 검색하도록 요청합니다. |
 | 5 | at.js 라이브러리는 JSON 규칙 아티팩트가 이미 캐싱되었음을 확인하고 경험을 검색하기 위해 메모리 내 결정을 실행합니다. |
 | 6 | 테스트된 요소는 숨겨집니다. |
