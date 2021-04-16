@@ -1,14 +1,14 @@
 ---
-keywords: 구현;javascript 라이브러리;js;atjs;장치 내 의사 결정;장치 의사 결정
+keywords: 구현;javascript 라이브러리;js;atjs;장치 내 의사 결정;장치 의사 결정;at.js
 description: at.js 라이브러리를 사용하여 장치 내 의사 결정을 수행하는 방법에 대해 알아봅니다.
 title: 장치 내 의사 결정은 at.js JavaScript 라이브러리에서 어떻게 작동합니까?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3497'
 ht-degree: 7%
 
 ---
@@ -109,7 +109,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 | 단계 | 설명 |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
 | 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | at.js 라이브러리는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다. |
@@ -134,7 +134,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 | 단계 | 설명 |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
 | 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | at.js 라이브러리는 JSON 규칙 아티팩트를 해석하고 메모리 내에서 결정을 실행하여 경험을 검색합니다. |
@@ -197,7 +197,7 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | 경험을 검색하도록 요청합니다. |
 | 5 | at.js 라이브러리는 JSON 규칙 아티팩트가 이미 캐싱되었음을 확인하고 경험을 검색하기 위해 메모리 내 결정을 실행합니다. |
 | 6 | 테스트된 요소는 숨겨집니다. |
