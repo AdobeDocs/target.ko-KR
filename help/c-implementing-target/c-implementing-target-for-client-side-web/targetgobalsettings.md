@@ -4,14 +4,14 @@ description: Adobe Target at.js JavaScript 라이브러리에 대한 targetGloba
 title: targetGlobalSettings() 함수를 사용하려면 어떻게 합니까?
 feature: at.js
 role: Developer
+exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1753'
-ht-degree: 36%
+source-wordcount: '2233'
+ht-degree: 28%
 
 ---
-
 
 # targetGlobalSettings()
 
@@ -72,6 +72,45 @@ ht-degree: 36%
 * **유형**:아래의  [데이터 공급자](#data-providers) 를 참조하십시오.
 * **기본값**:아래의  [데이터 공급자](#data-providers) 를 참조하십시오.
 * **설명**:아래의  [데이터 공급자](#data-providers) 를 참조하십시오.
+
+### decisionMethod {#on-device-decisioning}
+
+* **유형**: 문자열
+* **기본값**:서버측
+* **기타 값**:장치 내, 하이브리드
+* **설명**:아래의 의사 결정 방법을 참조하십시오.
+
+**의사 결정 방법**
+
+장치에서 직접 의사 결정을 할 때, Target은 at.js가 경험을 전달하는 방법을 지시하는 [!UICONTROL 의사 결정 방법]이라는 새로운 설정을 소개합니다. `decisioningMethod`에는 다음 값이 3개 있습니다.서버측 전용, 장치 전용 및 하이브리드 `decisioningMethod`이(가) `targetGlobalSettings()`에서 설정되면 모든 [!DNL Target] 결정에 대한 기본 의사 결정 방식 역할을 합니다.
+
+[!UICONTROL 서버측 전용]:
+
+[!UICONTROL 서버측 전용] 은 at.js 2.5+가 구현되어 웹 속성에 배포될 때 기본적으로 설정되어 있는 기본 의사 결정 방식입니다.
+
+기본 구성으로 [!UICONTROL 서버측 전용]을 사용하는 것은 차단 서버 호출을 포함하는 [!DNL Target] 에지 네트워크에서 모든 결정을 한다는 것을 의미합니다. 이 접근 방식에서는 증분 지연을 도입할 수 있지만, [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP) 및 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) 활동을 포함하는 Target의 기계 학습 기능을 적용할 수 있는 등 상당한 이점을 제공합니다.
+
+또한 다양한 세션과 채널에서 지속되는 Target의 사용자 프로필을 사용하여 개인화된 경험을 강화하면 비즈니스에 강력한 결과를 제공할 수 있습니다.
+
+마지막으로 [!UICONTROL 서버측 전용]을 사용하면 Adobe Experience Cloud을 사용하고 Audience Manager 및 Adobe Analytics 세그먼트를 통해 타깃팅할 수 있는 대상을 미세 조정할 수 있습니다.
+
+[!UICONTROL 온디바이스 전용]:
+
+[!UICONTROL 온디바이스는 ] 온디바이드 의사 결정이 웹 페이지 전체에서 사용되어야 하는 경우 at.js 2.5+에서 설정해야 하는 의사 결정 방식입니다.
+
+디바이스에서 의사 결정을 내릴 수 있는 모든 활동을 포함하는 캐시된 규칙 아티팩트로 의사 결정을 내림으로써 경험 및 개인화 활동을 빠른 속도로 전달할 수 있습니다.
+
+장치에서 의사 결정을 할 수 있는 활동에 대한 자세한 내용은 지원되는 기능 섹션을 참조하십시오.
+
+이 의사 결정 방법은 [!DNL Target]의 결정이 필요한 모든 페이지에서 성능이 매우 중요한 경우에만 사용해야 합니다. 또한 이 의사 결정 방법을 선택하면 장치에서 의사 결정을 할 수 없는 [!DNL Target] 활동이 전달되거나 실행되지 않습니다. at.js 라이브러리 2.5+는 결정을 내릴 캐시된 규칙 아티팩트만 찾도록 구성되어 있습니다.
+
+하이브리드:
+
+[!UICONTROL Adobe Target Edge 네트워크에 대한 네트워크 호출이 필요한 ] 장치 내 의사 결정 및 활동을 모두 실행할 때 at.js 2.5+에서 설정해야 하는 의사 결정 방법을 하이브리드합니다.
+
+장치 내 의사 결정 활동과 서버측 활동을 모두 관리하는 경우 페이지에 [!DNL Target]을(를) 배포하고 프로비저닝하는 방법을 생각하면 다소 복잡하고 지루할 수 있습니다. 의사 결정 방법으로 하이브리드 경우 [!DNL Target]은 서버측 실행이 필요한 작업과 장치 내 의사 결정만 실행할 시기를 Adobe Target Edge 네트워크에 서버 호출을 지정해야 하는 시기를 알고 있습니다.
+
+JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또는 장치 내 의사 결정 활동을 가지고 있는지 알리는 메타데이터가 포함되어 있습니다. 이 의사 결정 방법을 사용하면 신속하게 전달하려는 활동이 장치 내 의사 결정을 통해 이루어지며 보다 강력한 ML 기반의 개인화가 필요한 활동에 대해 이러한 활동이 Adobe Target Edge 네트워크를 통해 이루어집니다.
 
 ### defaultContentHiddenStyle
 
