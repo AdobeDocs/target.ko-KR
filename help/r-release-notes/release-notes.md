@@ -5,9 +5,9 @@ title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '625'
+source-wordcount: '632'
 ht-degree: 35%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 35%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| at.js에 대한 장치 내 의사 결정 지원 | 디바이스 내 의사 결정을 통해 마케터와 개발자는 0분 지연 시간에 사용자의 브라우저에서 실험과 개인화를 전달할 수 있습니다.<br>자세한 내용은 at.js [에 대한 장치 내 의사 결정을 참조하십시오.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| at.js<br>(발표할 날짜)에 대한 장치 내 의사 결정 지원 | 디바이스 내 의사 결정을 통해 마케터와 개발자는 0분 지연 시간에 사용자의 브라우저에서 실험과 개인화를 전달할 수 있습니다.<br>자세한 내용은 at.js [에 대한 장치 내 의사 결정을 참조하십시오.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
 | ![엔티티 필터링 규칙에 대한 ](/help/assets/premium.png) PremiumList 기반 연산자 | [!DNL Target Recommendations] 엔티티 필터링 규칙에 대한 새 목록 기반 연산자를 지원합니다. (TGT-39234)<br>새로 추가된 연산자는 다음과 같습니다.<br><ul><li>목록에 포함</li><li>목록에 포함되지 않음</li><li>목록에</li><li>목록에</li><li>목록에</li><li>목록에</li></ul>자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)의 &quot;사용 가능한 연산자&quot;를 참조하십시오. |
 
 이 릴리스에는 다음 수정 사항이 포함되어 있습니다.
@@ -41,7 +41,7 @@ ht-degree: 35%
 * 속성이 잘못된 작업 영역에 매핑되는 문제를 수정했습니다. (TGT-39869)
 * 권장 사항 제외를 만드는 동안 환경을 변경한 후 요청이 실패하는 경우 로드가 제한적으로 로드되는 문제를 해결했습니다. (TGT-39948)
 
-## at.js 버전 2.5.0(2021년 4월 19일)
+## at.js 버전 2.5.0(발표할 날짜)
 
 at.js의 이번 릴리스에는 다음과 같은 개선 사항 및 변경 사항이 포함되어 있습니다.
 
