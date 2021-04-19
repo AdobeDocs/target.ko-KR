@@ -5,9 +5,9 @@ title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12
+source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
 workflow-type: tm+mt
-source-wordcount: '3952'
+source-wordcount: '4138'
 ht-degree: 29%
 
 ---
@@ -15,6 +15,20 @@ ht-degree: 29%
 # 설명서 변경 내용
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서에 대한 중요한 변경 사항이 나열됩니다.
+
+## Adobe Target Standard/Premium 21.4.1(2021년 4월 19일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 2021년 4월 19일 | [디바이스에서 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 다음과 같은 새 아티클이 추가되었습니다.<ul><li>[디바이스에서 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[장치 내 의사 결정을 위한 지원 기능](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[장치 내 의사 결정 규칙 아티팩트](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | `decisioningMethod`에 대한 정보가 추가되었습니다. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 다음을 추가했습니다.<ul><li>`decisioningMethod` 키에 대한 정보입니다.</li><li>&quot;getCallOffers()가 장치에서 의사 결정을 내리는 예&quot;입니다.</li></ul> |
+|  | [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 다음과 같은 정보가 추가되었습니다.<ul><li>장치 내 의사 결정 아티팩트에 성공했습니다.</li><li>장치 내 의사 결정 아티팩트에 실패했습니다.</li></ul> |
+|  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.5.0에 대한 정보가 추가되었습니다. |
+|  | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | [!UICONTROL Automated Personalization] 활동에 대한 미리 보기 링크 지원이 [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)와 함께 추가되었습니다. |
+|  | [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 다음 새 연산자에 대한 정보가 추가되었습니다.<ul><li>목록에 포함</li><li> 목록에 포함되지 않음</li><li>목록에</li><li>목록에</li><li>목록에</li><li>목록에</li></ul> |
+|  | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud 서비스 및* 관리 가이드) | &quot;세션 ID&quot;에 대한 추가 정보가 추가되었습니다. |
+|  | [릴리스 노트](/help/r-release-notes/release-notes.md): 21.4.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe Target Standard/Premium 21.2.1(2021년 3월 9일)
 
