@@ -5,10 +5,10 @@ title: Target을 사용하여 컨텐츠를 개인화하고 페이지 디자인�
 feature: 활동
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 96%
+source-wordcount: '2102'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 | URL | URL은 이름 아래에 더 밝은 텍스트로 표시됩니다.<br>활동용 URL은 활동이 표시되는 위치를 나타냅니다. 이 URL을 사용하면 활동을 빠르게 식별하고 특정 페이지에서 이미 테스트가 실행 중인지 여부를 판별하는 데 도움이 됩니다.<br>테스트가 여러 URL에서 실행되는 경우에는 링크에 추가로 사용된 URL의 수가 표시됩니다. 해당 활동에 대한 전체 URL 목록을 보려면 링크를 클릭하십시오.<br>URL을 기준으로 검색할 수 있습니다. 검색 상자 옆에 있는 드롭다운 목록을 사용하고 [!UICONTROL 검색 URL]을 선택하십시오. |
 | 상태 | 활동의 상태는 다음 중 하나일 수 있습니다.<ul><li>**라이브**: 활동이 현재 실행 중입니다.</li><li>**초안**: 활동 설정이 시작되었지만 아직 활동을 실행할 준비가 되지 않았습니다.</li><li>**예약됨**: 지정된 시작 날짜 및 시간에 도달하면 활동이 활성화되도록 준비되었습니다.</li><li>**비활성**: 활동이 일시 정지되었거나 비활성화되었습니다.</li><li>**동기화 중**: 활동이 저장되었으며 Target 배달 네트워크에 동기화되고 있습니다.</li><li>**종료**: 활동의 지정한 종료 날짜 및 시간이 완료되어 활동이 더 이상 지원되지 않습니다.</li><li>**보관됨**: 활동이 보관되었습니다. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.</li></ul>**참고**: API 방법을 사용하여 UI 외부에서의 활동 활성화와 같은 특정 작업을 수행하면 업데이트가 UI로 전파되는 데 최대 10분이 걸릴 수 있습니다. |
 | 소스 | 활동이 만들어진 위치를 보여줍니다.<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>AEM(Adobe Experience Manager)</li><li>AMS(Adobe Mobile Services)</li></ul> |
+| 장치 내 의사 결정 자격 조건 | 장치 내 의사 결정 자격 조건을 갖춘 활동을 만든 후, 활동의 개요 페이지에 장치 내 의사 결정 자격 조건을 나타내는 레이블이 표시됩니다.<br>이 레이블은 활동이 항상 장치 내 결정을 통해 전달된다는 것을 의미하지 않습니다. at.js 2.5.0+이 장치 내 의사 결정을 사용하도록 구성된 경우에만 이 활동이 장치에서 실행됩니다. at.js 2.5.0+이 온디바이스를 사용하도록 구성되어 있지 않은 경우, 이 활동은 at.js에서 만들어진 서버 호출을 통해 여전히 전달됩니다.<br>장치  [내 의사 결정을 참조하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
 | 속성 | 활동에 대한 [속성](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 표시합니다. |
 | 수입의 예상 상승도 | 대상의 100%에게 가장 성과가 좋은 경험이 표시되는 경우 수입의 예상되는 증가를 보여줍니다.<br>다음 공식을 사용하여 계산됩니다.<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>이 숫자는 압축 양식에서 소수 앞에 한 자릿수만 있으면 최대 소수 첫째 자리로 반올림됩니다. 예를 들어 $1.6M, $60K, $900, $8.5K, $205K와 같습니다.<br>승자를 확정하기에 충분한 데이터가 없거나 예상 비용이 없는 활동의 경우 이 열에 &quot;---&quot;이 표시됩니다.<br>자세한 내용은 [매출 상승도 평가](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오. |
 | 마지막 업데이트 날짜 | 활동이 마지막으로 업데이트된 날짜와 업데이트한 사람. |
@@ -108,6 +109,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 |--- |--- |
 | 유형 | A/B 테스트: [수동](/help/c-activities/t-test-ab/test-ab.md), [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 및 [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md)<br>[다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Recommendations](/help/c-recommendations/recommendations.md) |
 | 상태 | 라이브<br>초안<br>예약됨<br>비활성<br>동기화 중<br>종료<br>보관됨 |
+| 장치 내 의사 결정 자격 조건 | 예<br>아니요 |
 | 보고 소스 | Target<br>Analytics |
 | 경험 작성기 | 시각적<br>양식 기반 |
 | 지표 유형 | 변환<br>수입<br>참여 |
@@ -117,16 +119,10 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 선택한 열 제목에 따라 활동을 오름차순으로 나열하는 방식과 내림차순으로 나열하는 방식 간을 전환하려면 다음 열 제목 중 하나를 클릭하십시오.
 
-* 활동 이름
-* 활동 유형
+* 유형
+* 이름
 
 ![활동 목록 오름차순](/help/c-activities/assets/activities_list_ascending.png)
-
-## 팁과 트릭 {#section_F77F30A246A14B538D9363B7F3639F97}
-
-다양한 기능에 대해 자세히 알아보고 Adobe Target을 최대한 활용하여 시도해야 하는 이유를 확인하십시오. 팁과 트릭 기능에서는 비디오, 사용 사례, 블로그, 설명서 등에 연결된 링크를 제공합니다.
-
-팁과 트릭 기능은 활동 목록 페이지에 정기적으로 표시됩니다. 팁을 읽거나 닫으면 다음 팁을 사용할 수 있을 때까지 다시 표시되지 않습니다. 도움말 아이콘 > [!UICONTROL 오늘의 팁 사용 안 함]을 클릭하여 모든 팁이 표시되지 않도록 선택적으로 비활성화할 수 있습니다.
 
 ![오늘의 팁 비활성화](/help/c-activities/assets/tip-disable-new.png)
 
