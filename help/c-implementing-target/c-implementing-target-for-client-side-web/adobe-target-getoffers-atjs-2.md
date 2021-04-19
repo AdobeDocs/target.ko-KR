@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: 82c66de1d4a6680392b7e73759dc824c4df22d2f
 workflow-type: tm+mt
-source-wordcount: '1254'
+source-wordcount: '1252'
 ht-degree: 89%
 
 ---
 
-# adobe.target.getOffers(options) - at.js 2.x
+# adobe.target.getOffers() - at.js 2.x
 
 이 함수를 사용하면 여러 mbox를 전달하여 여러 오퍼를 검색할 수 있습니다. 또한 활성 활동의 모든 보기에 대해 여러 오퍼를 검색할 수 있습니다.
 
@@ -87,7 +87,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getOffers()를 호출하여 장치 내 의사 결정
+## getCallOffers()를 사용하여 장치 내 의사 결정
 
 ```javascript
 adobe.target.getOffers({ 
