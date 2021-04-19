@@ -5,9 +5,9 @@ title: at.js의 각 버전에 포함되는 것은?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '4182'
+source-wordcount: '4185'
 ht-degree: 81%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 81%
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch는 at.js를 업그레이드할 때 사용하는 기본 방법입니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 [!DNL Launch] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *Experience Platform Launch 사용 안내서*&#x200B;의 [확장 업그레이드](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)를 참조하십시오.
 
-## at.js 2.5.0(2021년 4월 19일)
+## at.js 2.5.0(발표할 날짜)
 
 at.js의 이번 릴리스에는 다음과 같은 개선 사항 및 변경 사항이 포함되어 있습니다.
 
