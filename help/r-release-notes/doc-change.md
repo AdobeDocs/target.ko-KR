@@ -5,9 +5,9 @@ title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: c92d17d23f0eed6b32ec6ad6218c0d8824ef365b
 workflow-type: tm+mt
-source-wordcount: '4144'
+source-wordcount: '4155'
 ht-degree: 29%
 
 ---
@@ -26,6 +26,7 @@ ht-degree: 29%
 |  | [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | 다음과 같은 정보가 추가되었습니다.<ul><li>장치 내 의사 결정 아티팩트에 성공했습니다.</li><li>장치 내 의사 결정 아티팩트에 실패했습니다.</li></ul> |
 |  | [활동](/help/c-activities/activities.md) | 장치 내 의사 결정에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.5.0에 대한 정보가 추가되었습니다. |
+|  | [태그 관리자 없이 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 장치 내 의사 결정에 대한 정보가 추가되었습니다. |
 |  | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | [!UICONTROL Automated Personalization] 활동에 대한 미리 보기 링크 지원이 [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)와 함께 추가되었습니다. |
 |  | [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 다음 새 연산자에 대한 정보가 추가되었습니다.<ul><li>목록에 포함</li><li> 목록에 포함되지 않음</li><li>목록에</li><li>목록에</li><li>목록에</li><li>목록에</li></ul> |
 |  | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud 서비스 및* 관리 가이드) | &quot;세션 ID&quot;에 대한 추가 정보가 추가되었습니다. |
