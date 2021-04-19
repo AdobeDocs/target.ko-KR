@@ -3,14 +3,14 @@ keywords: qa;미리 보기;미리 보기 링크;adobe target;target
 description: Adobe Target QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 엔드 투 엔드 활동 QA를 손쉽게 수행하는 방법을 살펴볼 수 있습니다.
 title: QA 활동을 어떻게 합니까?
 feature: 활동
+exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '1539'
-ht-degree: 79%
+source-wordcount: '1546'
+ht-degree: 78%
 
 ---
-
 
 # 활동 QA {#activity-qa}
 
@@ -21,6 +21,9 @@ ht-degree: 79%
 활동 QA를 사용하면 활동을 라이브로 실행하기 전에 Target 활동을 완전히 테스트할 수 있습니다. 활동 QA 기능에는 다음과 같은 것들이 포함되어 있습니다.
 
 * 경험 또는 활동에 수행된 업데이트에 상관없이 변경되지 않고 재생성이 필요 없는, 팀 구성원과 공유하는 링크가 있습니다. 이렇게 하면 전체 사용자 경험에서 활동을 완전히 테스트할 수 있습니다.
+
+   [!UICONTROL Automated Personalization] 활동에 대한 미리 보기 링크 지원이 [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)와 함께 추가되었습니다.
+
 * 선택적으로 준수하는 대상 조건. 대상 조건을 충족하지 않고도 마케터가 타깃팅 기준을 테스트하거나 타깃팅 기준을 무시하여 경험의 모양을 QA할 수 있습니다.
 * 지표가 예상대로 증가하고 있는지, 그리고 QA 보고서 데이터가 프로덕션 보고(비A4T 보고의 경우)와 별도로 유지되는지를 마케터가 확인할 수 있도록 QA 보고가 생성됩니다.
 * 격리 또는 전달 기준을 충족하는 다른 라이브 활동과 함께 경험을 미리 보는 기능(페이지/Target 요청/대상).
@@ -32,7 +35,7 @@ ht-degree: 79%
 
 ## QA URL 액세스 및 공유 {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. 활동의 [!UICONTROL 개요] 페이지(자동화된 개인화를 제외한 모든 유형)에서 **[!UICONTROL 활동 QA]** 링크를 클릭합니다.
+1. 활동의 [!UICONTROL 개요] 페이지에서 **[!UICONTROL 활동 QA]** 링크를 클릭합니다.
 
    ![활동 QA 링크](assets/qa_link.png)
 
