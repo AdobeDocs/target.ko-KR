@@ -6,14 +6,18 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3506'
 ht-degree: 7%
 
 ---
 
 # at.js에 대한 장치 내 의사 결정
+
+>[!NOTE]
+>
+>장치 내 의사 결정은 예정된 [at.js 2.5.0 릴리스](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)와 함께 사용할 수 있습니다. 곧 발표할 날짜입니다.
 
 버전 2.5.0부터 at.js는 장치 내 의사 결정을 제공합니다. 장치 내 의사 결정을 사용하면 [!DNL Adobe Target] 에지 네트워크에 대한 차단 네트워크 요청 없이 메모리 내 의사 결정을 수행하도록 브라우저에서 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) 및 [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md)(XT) 활동을 캐시할 수 있습니다.
 
@@ -107,7 +111,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | at.js 라이브러리는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다. |
 | 5 | Akamai CDN이 JSON 규칙 아티팩트와 응답합니다. |
 | 6 | JSON 규칙 아티팩트는 방문자의 브라우저에서 로컬로 캐시됩니다. |
@@ -132,7 +136,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 | --- | --- |
 | 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | at.js 라이브러리는 JSON 규칙 아티팩트를 해석하고 메모리 내에서 결정을 실행하여 경험을 검색합니다. |
 | 5 | 테스트된 요소는 숨겨집니다. |
 | 6 | at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다. |
@@ -163,9 +167,9 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 
 | 단계 | 설명 |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | 페이지 로드 요청은 Adobe Target Edge Network에 수행됩니다. 여기에는 ECID, 고객 ID, 사용자 지정 매개 변수, 사용자 프로필 등의 모든 구성 매개 변수가 포함됩니다. |
 | 5 | 이와 동시에 at.js는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다. |
 | 6 | (Adobe Target Edge Network) 프로필 스크립트가 실행된 다음 프로필 스토어로 피드됩니다. 프로필 저장소는 대상 라이브러리에서 자격이 있는 대상(예: [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] 등에서 공유된 대상)을 요청합니다. |
@@ -191,9 +195,9 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 
 | 단계 | 설명 |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | 경험을 검색하도록 요청합니다. |
 | 5 | at.js 라이브러리는 JSON 규칙 아티팩트가 이미 캐싱되었음을 확인하고 경험을 검색하기 위해 메모리 내 결정을 실행합니다. |
 | 6 | 테스트된 요소는 숨겨집니다. |
