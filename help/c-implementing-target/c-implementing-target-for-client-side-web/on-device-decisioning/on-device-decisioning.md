@@ -1,29 +1,25 @@
 ---
-keywords: 구현;javascript 라이브러리;js;atjs;장치 내 의사 결정;장치 의사 결정;at.js
+keywords: 구현;javascript 라이브러리;js;장치 내 의사 결정;장치 의사 결정;at.js;온-장치;on-device
 description: at.js 라이브러리를 사용하여 장치 내 의사 결정을 수행하는 방법에 대해 알아봅니다.
 title: 장치 내 의사 결정은 at.js JavaScript 라이브러리에서 어떻게 작동합니까?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 2d09d6231bdcb24f4444a63deefa714a459eec31
+source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
 workflow-type: tm+mt
-source-wordcount: '3499'
+source-wordcount: '3491'
 ht-degree: 7%
 
 ---
 
-# 디바이스에서 의사 결정
+# at.js에 대한 장치 내 의사 결정
 
->[!NOTE]
->
->장치 내 의사 결정 기능은 Target Standard/Premium 21.4.1 릴리스(2021년 4월 19일)에서 릴리스될 예정입니다.
-
-버전 2.5부터 at.js는 장치 내 의사 결정을 제공합니다. 장치 내 의사 결정을 사용하면 [!DNL Adobe Target] 에지 네트워크에 대한 차단 네트워크 요청 없이 메모리 내 의사 결정을 수행하도록 브라우저에서 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) 및 [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md)(XT) 활동을 캐시할 수 있습니다.
+버전 2.5.0부터 at.js는 장치 내 의사 결정을 제공합니다. 장치 내 의사 결정을 사용하면 [!DNL Adobe Target] 에지 네트워크에 대한 차단 네트워크 요청 없이 메모리 내 의사 결정을 수행하도록 브라우저에서 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) 및 [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md)(XT) 활동을 캐시할 수 있습니다.
 
 [!DNL Target] 또한 실시간 서버 호출을 통해 원하는 대로 정확하게 원하는 경험을 제공하고 머신 러닝 기반의 개인화 활동(ML 기반의)을 통해 최신 경험을 제공할 수 있습니다. 즉, 성능이 가장 중요한 경우 장치 내 의사 결정을 사용하도록 선택할 수 있습니다. 그러나 가장 관련성이 높은 최신 경험 및 ML 기반의 경험이 필요한 경우 서버 호출을 대신 수행할 수 있습니다.
 
-## 이점은 무엇입니까?
+## 장치 내 의사 결정의 이점은 무엇입니까?
 
 디바이스 내 의사 결정의 이점:
 
@@ -56,7 +52,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 ### 서버측 전용
 
-[!UICONTROL 서버측 전용] 은 at.js 2.5+가 구현되어 웹 속성에 배포될 때 기본적으로 설정되어 있는 기본 의사 결정 방식입니다.
+[!UICONTROL 서버측] 은 at.js 2.5.0+이 웹 속성에 구현되어 배포될 때 기본적으로 설정되어 있는 기본 의사 결정 방식입니다.
 
 기본 구성으로 [!UICONTROL 서버측 전용]을 사용하는 것은 차단 서버 호출을 포함하는 [!DNL Target] 에지 네트워크에서 모든 결정을 한다는 것을 의미합니다. 이 접근 방식에서는 증분 지연을 도입할 수 있지만, [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP) 및 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) 활동을 포함하는 Target의 기계 학습 기능을 적용할 수 있는 등 상당한 이점을 제공합니다.
 
@@ -64,7 +60,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 마지막으로 [!UICONTROL 서버측 전용]을 사용하면 Adobe Experience Cloud을 사용하고 Audience Manager 및 Adobe Analytics 세그먼트를 통해 타깃팅할 수 있는 대상을 미세 조정할 수 있습니다.
 
-다음 다이어그램은 방문자, 브라우저, at.js 2.5+ 및 Adobe Target Edge 네트워크 간의 상호 작용을 보여 줍니다. 이 흐름 다이어그램은 새 방문자 및 돌아온 방문자를 캡처합니다.
+다음 다이어그램은 방문자, 브라우저, at.js 2.5.0+ 및 Adobe Target Edge 네트워크 간의 상호 작용을 보여 줍니다. 이 흐름 다이어그램은 새 방문자 및 돌아온 방문자를 캡처합니다.
 
 ![서버측 전용 흐름 다이어그램](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/server-side-only.png)
 
@@ -89,15 +85,15 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 ### 온디바이스 전용
 
-[!UICONTROL 온디바이스는 ] 온디바이드 의사 결정이 웹 페이지 전체에서 사용되어야 하는 경우 at.js 2.5+에서 설정해야 하는 의사 결정 방식입니다.
+[!UICONTROL 온디바이스는 ] 온디바이드 의사 결정이 웹 페이지 전체에서 사용되어야 하는 경우 at.js 2.5.0+에서 설정해야 하는 의사 결정 방식입니다.
 
 디바이스에서 의사 결정을 내릴 수 있는 모든 활동을 포함하는 캐시된 규칙 아티팩트로 의사 결정을 내림으로써 경험 및 개인화 활동을 빠른 속도로 전달할 수 있습니다.
 
 장치 내 의사 결정을 위한 자격이 되는 활동에 대한 자세한 내용은 [장치 내 의사 결정에서 지원되는 기능](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)을 참조하십시오.
 
-이 의사 결정 방법은 [!DNL Target]의 결정이 필요한 모든 페이지에서 성능이 매우 중요한 경우에만 사용해야 합니다. 또한 이 의사 결정 방법을 선택하면 장치에서 의사 결정을 할 수 없는 [!DNL Target] 활동이 전달되거나 실행되지 않습니다. at.js 라이브러리 2.5+는 결정을 내릴 캐시된 규칙 아티팩트만 찾도록 구성되어 있습니다.
+이 의사 결정 방법은 [!DNL Target]의 결정이 필요한 모든 페이지에서 성능이 매우 중요한 경우에만 사용해야 합니다. 또한 이 의사 결정 방법을 선택하면 장치에서 의사 결정을 할 수 없는 [!DNL Target] 활동이 전달되거나 실행되지 않습니다. at.js 라이브러리 2.5.0+은 결정을 내릴 캐시된 규칙 아티팩트만 찾도록 구성되어 있습니다.
 
-다음 다이어그램은 방문자, 브라우저, at.js 2.5+ 및 Akamai CDN 간의 상호 작용을 보여 줍니다. Akamai CDN은 방문자의 첫 번째 방문에 대한 규칙 아티팩트를 캐시합니다. 새 방문자에 대한 첫 번째 페이지 방문의 경우 Akamai CDN에서 JSON 규칙 아티팩트를 다운로드하여 방문자의 브라우저에 로컬로 캐시해야 합니다. JSON 규칙 아티팩트가 다운로드된 후 네트워크 호출 차단 없이 즉시 결정이 수행됩니다. 다음 흐름 다이어그램은 새 방문자를 캡처합니다.
+다음 다이어그램은 방문자, 브라우저, at.js 2.5.0+ 및 Akamai CDN 간의 상호 작용을 보여 줍니다. Akamai CDN은 방문자의 첫 번째 방문에 대한 규칙 아티팩트를 캐시합니다. 새 방문자에 대한 첫 번째 페이지 방문의 경우 Akamai CDN에서 JSON 규칙 아티팩트를 다운로드하여 방문자의 브라우저에 로컬로 캐시해야 합니다. JSON 규칙 아티팩트가 다운로드된 후 네트워크 호출 차단 없이 즉시 결정이 수행됩니다. 다음 흐름 다이어그램은 새 방문자를 캡처합니다.
 
 ![장치 전용 흐름 다이어그램](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only.png)
 
@@ -109,7 +105,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 | 단계 | 설명 |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
 | 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | at.js 라이브러리는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다. |
@@ -122,7 +118,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 | 11 | 전체 웹 페이지가 로드됩니다. |
 | 12 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics][!DNL Analytics] 데이터는 for  (A4T) 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다.[!DNL Target] |
 
-다음 다이어그램은 방문자의 후속 페이지 히트 또는 재방문에 대한 방문자, 브라우저, at.js 2.5+ 및 캐시된 JSON 규칙 가공물 간의 상호 작용을 보여 줍니다. JSON 규칙 아티팩트는 이미 캐시되어 브라우저에서 사용할 수 있으므로, 차단 네트워크 호출 없이 즉시 결정됩니다. 이 흐름 다이어그램은 후속 페이지 탐색 또는 돌아온 방문자를 캡처합니다.
+다음 다이어그램은 방문자의 후속 페이지 히트 또는 재방문에 대한 방문자, 브라우저, at.js 2.5.0+ 및 캐시된 JSON 규칙 가공물 간의 상호 작용을 보여 줍니다. JSON 규칙 아티팩트는 이미 캐시되어 브라우저에서 사용할 수 있으므로, 차단 네트워크 호출 없이 즉시 결정됩니다. 이 흐름 다이어그램은 후속 페이지 탐색 또는 돌아온 방문자를 캡처합니다.
 
 ![후속 페이지 탐색 및 반복 방문을 위한 장치 내 흐름 다이어그램](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-only-subsequent.png)
 
@@ -136,7 +132,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 | --- | --- |
 | 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | at.js 라이브러리는 JSON 규칙 아티팩트를 해석하고 메모리 내에서 결정을 실행하여 경험을 검색합니다. |
 | 5 | 테스트된 요소는 숨겨집니다. |
 | 6 | at.js 라이브러리에는 방문자가 볼 수 있도록 페이지의 나머지 부분을 로드할 수 있도록 본문이 표시됩니다. |
@@ -147,13 +143,13 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 ### 하이브리드
 
-[!UICONTROL Adobe Target Edge 네트워크에 대한 네트워크 호출이 필요한 ] 장치 내 의사 결정 및 활동을 모두 실행할 때 at.js 2.5+에서 설정해야 하는 의사 결정 방법을 하이브리드합니다.
+[!UICONTROL Adobe Target Edge 네트워크에 대한 네트워크 호출이 필요한 ] 장치 내 의사 결정 및 활동 모두 실행 시 at.js 2.5.0+에서 설정해야 하는 의사 결정 방법을 하이브리드합니다.
 
 장치 내 의사 결정 활동과 서버측 활동을 모두 관리하는 경우 페이지에 [!DNL Target]을(를) 배포하고 프로비저닝하는 방법을 생각하면 다소 복잡하고 지루할 수 있습니다. 의사 결정 방법으로 하이브리드 경우 [!DNL Target]은 서버측 실행이 필요한 작업과 장치 내 의사 결정만 실행할 시기를 Adobe Target Edge 네트워크에 서버 호출을 지정해야 하는 시기를 알고 있습니다.
 
 JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또는 장치 내 의사 결정 활동을 가지고 있는지 알리는 메타데이터가 포함되어 있습니다. 이 의사 결정 방법을 사용하면 신속하게 전달하려는 활동이 장치 내 의사 결정을 통해 이루어지며 보다 강력한 ML 기반의 개인화가 필요한 활동에 대해 이러한 활동이 Adobe Target Edge 네트워크를 통해 이루어집니다.
 
-다음 다이어그램은 처음 페이지를 방문하는 신규 방문자를 위한 방문자, 브라우저, at.js 2.5+, Akamai CDN 및 Adobe Target Edge Network 간의 상호 작용을 보여줍니다. 이 다이어그램에서 테이크아웃은 JSON 규칙 아티팩트를 Adobe Target Edge 네트워크를 통해 비동기식으로 다운로드하는 것입니다.
+다음 다이어그램은 처음 페이지를 방문하는 신규 방문자를 위한 방문자, 브라우저, at.js 2.5.0+, Akamai CDN 및 Adobe Target Edge Network 간의 상호 작용을 보여줍니다. 이 다이어그램에서 테이크아웃은 JSON 규칙 아티팩트를 Adobe Target Edge 네트워크를 통해 비동기식으로 다운로드하는 것입니다.
 
 이 방법을 사용하면 많은 활동을 포함할 수 있는 가공물의 크기가 의사 결정 지연에 부정적인 영향을 주지 않습니다. JSON 규칙 아티팩트를 동기적으로 다운로드하고 이후 결정을 내리면 지연에 부정적인 영향을 줄 수 있으며 일관되지 않을 수 있습니다. 따라서 하이브리드 의사 결정 방법은 새 방문자에 대한 의사 결정을 항상 서버측 호출로 하고 JSON 규칙 아티팩트가 동시에 캐싱될 때 권장되는 최상의 방법입니다. 이후 모든 페이지 방문 및 재방문 횟수에 대해 JSON 규칙 아티팩트를 통해 캐시 및 메모리 내 결정을 합니다.
 
@@ -167,7 +163,7 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 
 | 단계 | 설명 |
 | --- | --- |
-| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
 | 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | 페이지 로드 요청은 Adobe Target Edge Network에 수행됩니다. 여기에는 ECID, 고객 ID, 사용자 지정 매개 변수, 사용자 프로필 등의 모든 구성 매개 변수가 포함됩니다. |
@@ -183,7 +179,7 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 | 14 | 전체 웹 페이지가 로드됩니다. |
 | 15 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 대상 데이터는 SDID를 통해 [!DNL Analytics] 데이터와 일치하고 [!DNL Analytics] 보고 저장소로 처리됩니다. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
 
-다음 다이어그램은 방문자, 브라우저, at.js 2.5+ 및 후속 페이지 탐색 또는 재방문에 대한 캐시된 JSON 규칙 가공물 간의 상호 작용을 보여 줍니다. 이 다이어그램에서는 다음 페이지 탐색 또는 방문 재방문에 대해 장치에서 결정하는 사용 사례에만 초점을 둡니다. 특정 페이지에 대해 라이브되는 활동에 따라 서버측 호출을 수행하여 서버측 결정을 실행할 수 있습니다.
+다음 다이어그램은 후속 페이지 탐색 또는 재방문에 대한 방문자, 브라우저, at.js 2.5.0+ 및 캐시된 JSON 규칙 가공물 간의 상호 작용을 보여 줍니다. 이 다이어그램에서는 다음 페이지 탐색 또는 방문 재방문에 대해 장치에서 결정하는 사용 사례에만 초점을 둡니다. 특정 페이지에 대해 라이브되는 활동에 따라 서버측 호출을 수행하여 서버측 결정을 실행할 수 있습니다.
 
 ![후속 페이지 탐색 및 반복 방문을 위한 하이브리드 흐름 다이어그램](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/hybrid-subsequent.png)
 
@@ -209,7 +205,7 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 
 ## 장치 내 의사 결정을 활성화하려면 어떻게 합니까?
 
-장치 내 의사 결정은 At.js 2.5+를 사용하는 모든 [!DNL Target] 고객에게 제공됩니다.
+장치 내 의사 결정은 At.js 2.5.0+을 사용하는 모든 [!DNL Target] 고객에게 제공됩니다.
 
 장치 내 의사 결정을 활성화하려면:
 
@@ -233,10 +229,10 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 >
 >Adobe Target SDK를 초기화하여 장치 내 의사 결정을 사용하려면 먼저 전환을 활성화해야 합니다. 규칙 가공물은 먼저 장치 내 의사 결정을 위해 Akamai CDN을 생성하여 전파해야 합니다. 전파에는 첫 번째 규칙 아티팩트가 생성 및 Akamai CDN에 전파되는 데 5~10분이 걸릴 수 있습니다.
 
-## 장치 내 의사 결정을 사용하도록 at.js 2.5+를 구성하려면 어떻게 합니까?
+## 장치 내 의사 결정을 사용하도록 at.js 2.5.0+을 구성하려면 어떻게 합니까?
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 구현]** > **[!UICONTROL 계정 세부 정보]**&#x200B;를 클릭합니다.
-1. **[!UICONTROL 구현 메서드]** > **[!UICONTROL 기본 구현 메서드]**&#x200B;에서 at.js 버전 옆에 있는 **[!UICONTROL 편집]**&#x200B;을 클릭합니다(at.js 2.5 이상이어야 함).
+1. **[!UICONTROL 구현 메서드]** > **[!UICONTROL 기본 구현 메서드]**&#x200B;에서 at.js 버전 옆에 있는 **[!UICONTROL 편집]**&#x200B;을 클릭합니다(at.js 2.5.0 이상).
 
    ![기본 구현 방법 설정 편집](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/main-implementation-method.png)
 
@@ -274,7 +270,7 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 
 ### 사용자 지정된 설정
 
-`window.targetGlobalSettings`에서 `decisioningMethod`을 설정했지만 사용 사례에 따라 각 Adobe Target 결정에 대해 `decisioningMethod`을(를) 재정의하려는 경우 At.js2.5+의 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 호출에 `decisioningMethod`을(를) 지정하여 이 절차를 수행할 수 있습니다.
+`window.targetGlobalSettings`에서 `decisioningMethod`을 설정했지만 사용 사례에 따라 각 Adobe Target 결정에 대해 `decisioningMethod`을(를) 재정의하려는 경우 At.js2.5.0+의 [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 호출에 `decisioningMethod`을(를) 지정하여 이 절차를 수행할 수 있습니다.
 
 ```javascript
 adobe.target.getOffers({ 
@@ -295,7 +291,7 @@ adobe.target.getOffers({
 
 >[!NOTE]
 >
->getOffers() 호출의 의사 결정 메서드로 &quot;on-device&quot; 또는 &quot;hybrid&quot;를 사용하려면 전역 설정에 `decisioningMethod`이(가) &quot;on-device&quot; 또는 &quot;hybrid&quot;인지 확인하십시오. at.js 라이브러리 2.5+는 페이지에 로드된 후 즉시 JSON 규칙 아티팩트를 다운로드하고 캐시할 것인지를 알아야 합니다. 전역 설정에 대한 의사 결정 메서드가 &quot;서버측&quot;으로 설정되어 있고 &quot;장치에서 온-장치&quot; 또는 &quot;하이브리드&quot; 의사 결정 메서드가 getOffers() 호출로 전달되는 경우, at.js 2.5+에는 JSON 규칙 아티팩트가 캐시되어 장치 내 결정을 실행하지 않습니다.
+>getOffers() 호출의 의사 결정 메서드로 &quot;on-device&quot; 또는 &quot;hybrid&quot;를 사용하려면 전역 설정에 `decisioningMethod`이(가) &quot;on-device&quot; 또는 &quot;hybrid&quot;인지 확인하십시오. at.js 라이브러리 2.5.0+은 페이지에 로드된 후 즉시 JSON 규칙 아티팩트를 다운로드하고 캐시할 것인지 알아야 합니다. 전역 설정에 대한 의사 결정 메서드가 &quot;서버측&quot;으로 설정되어 있고 &quot;장치에서 온-장치&quot; 또는 &quot;하이브리드&quot; 의사 결정 메서드가 getOffers() 호출로 전달되는 경우, at.js 2.5.0+에는 장치 내 결정을 실행하기 위해 캐시된 JSON 규칙 아티팩트가 없습니다.
 
 ### 가공물 캐시 TTL
 
@@ -309,7 +305,7 @@ adobe.target.getOffers({
 
 ![장치 내 의사 결정 활동의 개요 페이지에 있는 적격한 레이블.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/on-device-decisioning-eligible-label.png)
 
-이 레이블은 활동이 항상 장치 내 결정을 통해 전달된다는 것을 의미하지 않습니다. at.js 2.5+가 장치 내 의사 결정을 사용하도록 구성된 경우에만 이 활동이 장치에서 실행됩니다. at.js 2.5+가 장치에서 사용하도록 구성되어 있지 않은 경우, 이 활동은 at.js에서 만들어진 서버 호출을 통해 여전히 전달됩니다.
+이 레이블은 활동이 항상 장치 내 결정을 통해 전달된다는 것을 의미하지 않습니다. at.js 2.5.0+이 장치 내 의사 결정을 사용하도록 구성된 경우에만 이 활동이 장치에서 실행됩니다. at.js 2.5.0+이 온디바이스를 사용하도록 구성되어 있지 않은 경우, 이 활동은 at.js에서 만들어진 서버 호출을 통해 여전히 전달됩니다.
 
 [!UICONTROL 장치 내 의사 결정 자격 조건] 필터를 통해 [!UICONTROL 활동] 페이지에 적격한 장치 내 의사 결정 관련 모든 활동을 필터링할 수 있습니다.
 
@@ -319,7 +315,7 @@ adobe.target.getOffers({
 >
 >장치 내 의사 결정 자격이 있는 활동을 만들고 활성화한 후에는 생성 및 Akamai CDN 프레젠테이션의 Point of Presence로 전파되는 규칙 아티팩트에 포함되기 전에 5~10분이 걸릴 수 있습니다.
 
-## 내 장치 내 의사 결정 활동이 At.js 2.5+?를 통해 전달되도록 하는 절차 요약
+## 내 장치 내 의사 결정 활동이 At.js 2.5.0을 통해 전달되도록 하는 단계 요약
 
 1. Adobe Target UI에 액세스하고 **[!UICONTROL 관리]** > **[!UICONTROL 구현]** > **[!DNL Account Details]**&#x200B;으로 이동하여 **[!UICONTROL 장치 내 의사 결정]** 전환을 활성화합니다.
 1. **&quot;[!UICONTROL 가공물]&quot;** 토글에서 검증된 모든 기존 장치 내 의사 결정 활동 포함
@@ -328,4 +324,4 @@ adobe.target.getOffers({
 
 1. 장치 내 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)에서 지원하는 [활동 유형을 만들고 활성화하고 장치 내 의사 결정이 적절한지 확인합니다.
 1. at.js 설정 UI를 통해 **[!UICONTROL 의사 결정 메서드]**&#x200B;를 **[!UICONTROL &quot;Hybrid&quot;]** 또는 **[!UICONTROL &quot;장치에서 On-device 전용&quot;]**&#x200B;으로 설정합니다.
-1. At.js 2.5+를 다운로드하여 페이지에 배포합니다.
+1. At.js 2.5.0+을 다운로드하여 페이지에 배포합니다.
