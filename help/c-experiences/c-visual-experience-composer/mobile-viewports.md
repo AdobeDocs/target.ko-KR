@@ -2,7 +2,7 @@
 keywords: 반응형;모바일 뷰포트;뷰포트;장치;모바일;반응형 웹 디자인;rewd
 description: 모바일 뷰포트를 통해 다양한 크기의 화면에서 Adobe Target 활동이 어떻게 표시되는지 확인할 수 있습니다. 널리 사용되는 디바이스 뷰포트 크기 및 해상도 목록을 확인합니다.
 title: 반응형 경험에 모바일 뷰포트를 사용하려면 어떻게 해야 합니까?
-feature: 시각적 경험 작성기(VEC)
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt

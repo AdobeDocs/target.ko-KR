@@ -2,8 +2,8 @@
 keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답 토큰;tokens;plugins;plug-ins;at.js;response
 description: '디버깅 및 타사 시스템(예: Clicktale)과의 통합에 사용하기 위해 Adobe Target 출력 관련 정보에 응답 토큰을 사용하는 방법을 알아봅니다.'
 title: 응답 토큰이란 무엇이며 이를 어떻게 사용합니까?
-feature: 관리 및 구성
-role: 관리자
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: 릴리스 정보;릴리스;업데이트;향후 릴리스;개선 사항;새 기능;수정 사항;업데이트;출시전 릴리스
 description: SDK, API 및 JavaScript 라이브러리를 비롯한 Adobe Target의 향후 릴리스에 포함된 새로운 기능, 향상된 기능 및 수정 사항에 대해 살펴볼 수 있습니다.
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
-feature: 릴리스 정보
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

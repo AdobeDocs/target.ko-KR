@@ -2,8 +2,8 @@
 keywords: 호스트;호스트;호스트 그룹;문제 해결;우수 사례;ubox;리디렉션;리디렉션;화이트 리스트;;차단 목록에 추가하다 blacklist;host;hosts;
 description: Adobe Target에서 손쉽게 관리하고 분리된 보고를 위해 웹 사이트와 사전 제작 환경을 구성하는 방법을 살펴볼 수 있습니다.
 title: 주최자는 무엇이며 주최자는 어떻게 사용합니까?
-feature: 관리 및 구성
-role: 관리자
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

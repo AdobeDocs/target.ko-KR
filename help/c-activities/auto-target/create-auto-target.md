@@ -2,7 +2,7 @@
 keywords: 자동 타겟 만들기;A/B 테스트;자동 타겟 활동;새 a/b 활동;자동 타겟;개인화된 경험을 위한 자동 타겟;개인화된;최적화
 description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하여 자동 Target A/B 테스트 활동을 Target이 활성화된 페이지에서 직접 만드는 방법을 알아봅니다.
 title: 자동 Target 활동을 만들려면 어떻게 합니까?
-feature: 자동 타겟
+feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
 source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e

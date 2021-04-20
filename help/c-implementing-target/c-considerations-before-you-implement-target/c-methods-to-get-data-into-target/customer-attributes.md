@@ -2,7 +2,7 @@
 keywords: 구현;구현;설정;사용자 특성
 description: 고객 특성을 활용하여 데이터를 Target으로 가져올 수 있습니다.
 title: 고객 속성을 사용하여 데이터를 Target으로 가져오려면 어떻게 해야 합니까?
-feature: 구현
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt

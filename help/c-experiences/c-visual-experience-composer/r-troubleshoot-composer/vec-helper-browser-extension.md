@@ -2,7 +2,7 @@
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 프로그램;브라우저
 description: 일부 웹 사이트가 VEC(Visual Experience Composer)에서 안정적으로 열리지 않는 이유를 알아봅니다. VEC 도우미 브라우저 익스텐션을 사용하면 VEC 내에서 웹 사이트를 안전하게 로드할 수 있습니다.
 title: VEC(Visual Experience Composer) 도우미 확장을 사용하려면 어떻게 합니까?
-feature: 시각적 경험 작성기(VEC)
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt

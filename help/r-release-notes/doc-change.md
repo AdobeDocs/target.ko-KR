@@ -2,7 +2,7 @@
 keywords: 대상 설명서 변경 로그;설명서 업데이트;새 주제;편집;업데이트;update
 description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 변경 사항을 항상 최신 상태로 유지할 수 있습니다.
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
-feature: 릴리스 정보
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

@@ -2,7 +2,7 @@
 keywords: Adobe Experience Platform 웹 SDK;aep 웹 sdk;aep sdk;검색 엔진 최적화;검색 엔진 최적화;seo;edge 클러스터, 중앙 클러스터;at.js;mbox.js;
 description: Target JavaScript 라이브러리(at.js 및 AEP Web SDK), Adobe 데이터 센터 및 SEO 테스트에 대한 정보를 비롯하여 Adobe Target이 작동하는 방식을 살펴볼 수 있습니다.
 title: Target은 어떻게 작동합니까?
-feature: 개요
+feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
 source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e

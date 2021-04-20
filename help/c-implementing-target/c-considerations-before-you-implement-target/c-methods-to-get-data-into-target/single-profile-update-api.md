@@ -2,7 +2,7 @@
 keywords: 구현;구현;설정;단일 프로파일 업데이트
 description: 단일 프로필 업데이트 API를 사용하여 Target에 데이터를 가져옵니다.
 title: 단일 프로필 업데이트 API를 사용하여 Target에 데이터를 가져오려면 어떻게 합니까?
-feature: 구현
+feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: 구현;구현;설정;페이지 매개 변수
 description: 페이지 매개 변수를 사용하여 Target에 데이터를 가져옵니다.
 title: 페이지 매개 변수를 사용하여 데이터를 Target으로 가져오려면 어떻게 해야 합니까?
-feature: 구현
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt

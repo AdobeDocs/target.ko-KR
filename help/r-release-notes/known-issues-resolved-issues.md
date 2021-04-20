@@ -2,7 +2,7 @@
 keywords: 알려진 문제;해결된 문제;릴리스 정보;버그;문제;수정
 description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 문제에 대한 정보를 찾습니다. 문제가 해결되면 해결된 섹션으로 이동합니다.
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
-feature: 릴리스 노트
+feature: Release Notes
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

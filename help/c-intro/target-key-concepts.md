@@ -2,7 +2,7 @@
 keywords: 개요 및 참조;활동 유형;소개
 description: Adobe Target의 기본 사항을 살펴보십시오. 이 문서에서는 Target, 활동 유형 및 기타 기능에 대해 설명합니다.
 title: Target은 어떻게 사용합니까?
-feature: 개요
+feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9

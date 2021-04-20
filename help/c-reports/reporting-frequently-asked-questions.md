@@ -2,7 +2,7 @@
 keywords: 문제 해결;지표 불일치;FAQ;보고서;새 방문자;새 방문자;재방문자;재방문자;재방문 방문;새 방문
 description: Adobe Target 보고에 대한 질문과 대답의 목록을 살펴보십시오.
 title: Target 보고에 대한 질문에 대한 답변은 어디에서 찾을 수 있습니까?
-feature: 보고서
+feature: Reports
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

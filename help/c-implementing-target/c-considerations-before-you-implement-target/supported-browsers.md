@@ -2,7 +2,7 @@
 keywords: 브라우저;사전 요구 사항;요구 사항;internet explorer;chrome;firefox;safari;android;surface
 description: Adobe Target이 인터페이스와 컨텐츠 전달을 위해 지원하는 인터넷 브라우저를 살펴보십시오.
 title: Target은 어떤 브라우저를 지원합니까?
-feature: 구현
+feature: Implementation
 role: Developer
 translation-type: tm+mt
 source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814

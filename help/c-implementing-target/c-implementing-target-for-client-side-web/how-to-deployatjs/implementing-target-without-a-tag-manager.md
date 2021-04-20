@@ -2,7 +2,7 @@
 keywords: 대상;구현;at.js;구현 태그 관리자;장치 내 의사 결정;on device decision on
 description: 설정(계정 세부 사항, 구현 방법 등)을 지정하는 방법을 알아봅니다. 태그 관리자를 사용하지 않고 Adobe Target at.js 라이브러리를 구현합니다.
 title: 태그 관리자 없이 Target을 구현할 수 있습니까?
-feature: 서버측 구현
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: 릴리스 노트
 description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항 및 수정 사항 목록을 확인하십시오.
 title: 이전 릴리스에는 어떤 기능이 포함되어 있습니까?
-feature: 릴리스 정보
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
 source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12

@@ -2,7 +2,7 @@
 keywords: document.write;target;implement;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox;adobe experience platform web sdk;aep web sdk
 description: 웹 페이지에서 Target 라이브러리(at.js 또는 mbox.js)를 참조하여 Adobe Target을 구현합니다.
 title: Target JavaScript 라이브러리 이해
-feature: 구현
+feature: Implementation
 translation-type: tm+mt
 source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
 workflow-type: tm+mt

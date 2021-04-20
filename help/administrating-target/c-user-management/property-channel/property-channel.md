@@ -2,8 +2,8 @@
 keywords: 작업 공간;속성 관리;권한;제품 구성;제품 프로필;역할;프로젝트
 description: 별도의 작업 영역(제품 프로필)을 만든 다음 개별 페이지, 속성 또는 웹 사이트에 대해 다양한 역할 및 권한을 사용자에게 할당하는 방법을 알아보십시오.
 title: 엔터프라이즈 사용자 권한은 무엇이며 어떻게 사용합니까?
-feature: 관리 및 구성
-role: 관리자
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

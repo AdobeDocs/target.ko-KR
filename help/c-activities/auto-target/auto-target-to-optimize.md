@@ -2,7 +2,7 @@
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결
 description: Target의 자동 Target 활동이 고객 프로필 및 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 맞춤화된 경험을 제공하는 방법을 알아봅니다.
 title: 자동 Target 활동이란 무엇입니까?
-feature: 자동 타겟
+feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
 source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d

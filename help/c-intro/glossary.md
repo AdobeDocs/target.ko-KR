@@ -1,7 +1,7 @@
 ---
 description: Adobe Target에서 사용하는 다양한 용어가 의미하는 것은? Target을 얻는 데 도움이 되는 일반 용어에 대한 정의를 찾습니다.
 title: Target에 사용된 용어와 정의는 어디에서 찾을 수 있습니까?
-feature: 개요
+feature: Overview
 translation-type: tm+mt
 source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt

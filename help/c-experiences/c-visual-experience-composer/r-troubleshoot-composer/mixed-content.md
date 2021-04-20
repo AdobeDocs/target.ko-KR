@@ -2,7 +2,7 @@
 keywords: 비보안;보안;비보안;크롬;문제 해결;vec;시각적 경험 작성기;비보안;http;https;firefox;internet explorer
 description: 일부 브라우저의 경우 보안 컨텐츠가 비보안 컨텐츠와 혼합된 경우 페이지 표시를 차단합니다. Chrome, Firefox 및 Edge에서 혼합 컨텐츠를 사용하는 방법에 대해 학습합니다.
 title: 브라우저에서 혼합 컨텐츠를 사용하려면 어떻게 해야 합니까?
-feature: 시각적 경험 작성기(VEC)
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt

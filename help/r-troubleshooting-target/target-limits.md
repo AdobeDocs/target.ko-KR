@@ -2,7 +2,7 @@
 keywords: 문자 제한;mbox 매개 변수;배치 배달 api;프로필 매개 변수;제한;프로필 프로필;최대;제한;제한;문자;우수 사례;순서;주문 합계;mbox3rdPartyID;category;categoryID;문제 해결
 description: 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등) 목록 보기 정보입니다.
 title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까?
-feature: 문제 해결
+feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
 source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
