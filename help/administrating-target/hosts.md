@@ -2,16 +2,16 @@
 keywords: 호스트;호스트;호스트 그룹;문제 해결;우수 사례;ubox;리디렉션;리디렉션;화이트 리스트;;차단 목록에 추가하다 blacklist;host;hosts;
 description: Adobe Target에서 손쉽게 관리하고 분리된 보고를 위해 웹 사이트와 사전 제작 환경을 구성하는 방법을 살펴볼 수 있습니다.
 title: 주최자는 무엇이며 주최자는 어떻게 사용합니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 22%
 
 ---
-
 
 # 호스트
 
@@ -64,7 +64,7 @@ ht-degree: 22%
 
 [!UICONTROL 호스트] 목록을 검색하려면 [!UICONTROL 호스트 검색] 상자에 검색어를 입력합니다.
 
-## Target 요청을 Target으로 보낼 수 있는 호스트를 지정하는 허용 목록을 만듭니다.{#allowlist}
+## [!DNL Target] 요청을 [!DNL Target]에 보낼 수 있는 호스트를 지정하는 허용 목록을 만듭니다. {#allowlist}
 
 [!DNL Target] 요청을 [!DNL Target]에 보낼 수 있는 호스트(도메인)를 지정하는를 만들 허용 목록에 추가하다 수 있습니다. 요청을 생성하는 다른 모든 호스트는 주석 처리된 인증 오류 응답을 가져옵니다. 기본적으로 [!DNL Target] 요청을 포함하는 모든 호스트는 [!UICONTROL 프로덕션] 환경에서 [!DNL Target]에 등록되며 모든 활성 및 승인된 활동에 액세스할 수 있습니다. 이 방법을 원하지 않으면 대신를 사용하여 [!DNL Target] 요청을 수행할 수 있는 특정 호스트를 기록하고 [!DNL Target] 컨텐츠를 수신할 수 허용 목록에 추가하다 있습니다. 모든 호스트는 [!UICONTROL 호스트] 목록에 계속 표시되며, 환경에서는 이러한 호스트를 그룹화하고 각 호스트에 다른 수준을 할당하는 데 사용할 수 있습니다(예: 호스트가 활성 및/또는 비활성 활동을 볼 수 있는지 여부).
 
