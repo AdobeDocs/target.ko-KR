@@ -1,19 +1,19 @@
 ---
 keywords: 구현;at.js;adobe experience platform web sdk;aep web sdk
-description: Adobe Experience Platform 웹 SDK(AEP Web SDK) 또는 Target at.js JavaScript 라이브러리를 사용하여 클라이언트측 웹용 Adobe Target을 구현하는 방법을 알아봅니다.
-title: 클라이언트측 웹용 Target을 구현하는 방법
+description: Adobe [!DNL Target] for client-side web using the Adobe Experience Platform Web SDK  (AEP Web SDK) or the [!DNL Target] at.js JavaScript 라이브러리를 구현하는 방법을 알아봅니다.
+title: 클라이언트측 웹용으로 [!DNL Target] 구현하려면 어떻게 합니까?
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 18%
+source-wordcount: '340'
+ht-degree: 17%
 
 ---
 
-# 개요: 클라이언트측 웹용 Target 구현
+# 개요:클라이언트측 웹에 대해 [!DNL Target] 구현
 
 클라이언트측 [!DNL Adobe Target]의 구현에서 [!DNL Target]은 활동과 연관된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, [시각적 경험 작성기](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 또는 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)인 비시각적 인터페이스를 사용하여 활동 및 개인화 경험을 만들 수 있습니다.
 
