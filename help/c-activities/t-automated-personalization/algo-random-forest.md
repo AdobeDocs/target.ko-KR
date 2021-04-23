@@ -1,16 +1,16 @@
 ---
 keywords: 임의 포리스트;의사 결정 트리;ap;Automated Personalization
-description: Adobe Target에서 Automated Personalization(AP) 및 자동 Target 활동 모두에서 무작위 포리스트 알고리즘을 사용하는 방법을 알아봅니다.
-title: Target은 임의 포리스트 알고리즘을 어떻게 사용합니까?
-feature: Automated Personalization
+description: Adobe [!DNL Target] 이 Automated Personalization(AP) 및 자동 Target 활동 모두에서 임의 포리스트 알고리즘을 사용하는 방법을 알아봅니다.
+title: 임의 포리스트 알고리즘을 사용하려면 어떻게 해야 합니까? [!DNL Target] 무작위 포리스트 알고리즘을 사용합니까?
+feature: 자동화된 개인화
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 95%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Random Forest 알고리즘
 
