@@ -1,16 +1,16 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;화이트 리스트;허용 목록;;향상된 시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;eec;향상된 경험 작성기;tls;tls 1.2
-description: 특정 조건에서 Adobe Target VEC(Visual Experience Composer) 및 EEC(Enhanced Experience Composer)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
+description: 특정 조건에서 Adobe [!DNL Target] VEC(Visual Experience Composer) 및 EEC(Enhanced Experience Composer)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
 title: Visual Experience Composer 및 향상된 Experience Composer와 관련된 문제를 해결하려면 어떻게 해야 합니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 65%
+source-wordcount: '1404'
+ht-degree: 64%
 
 ---
-
 
 # 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결
 
@@ -42,7 +42,7 @@ Adobe에서 업데이트된 VEC Helper 확장을 Google Chrome Store에 제출�
    >
    >쿠키에 이미 서버에서 &quot;Lax&quot; 또는 &quot;Strict&quot;로 설정된 SameSite 특성이 있는 경우 이 값은 *a1/>이(가) 충분하지 않습니다.*
 
-## Target이 여러 수준의 iframe을 지원합니까?
+## [!DNL Target]은(는) 다중 수준 iframe을 지원합니까?
 
 Target은 여러 수준의 iframe를 지원하지 않습니다. 웹 사이트가 하위 iframe이 있는 iframe을 로드하는 경우 타겟 라이브러리(at.js 및 mbox.js)는 상위 iframe과만 상호 작용합니다. 타겟 라이브러리는 하위 iframe과 상호 작용하지 않습니다.
 
@@ -52,7 +52,7 @@ Target은 여러 수준의 iframe를 지원하지 않습니다. 웹 사이트가
 
 이 문제는 URL에 # 문자가 포함된 경우에 발생할 수 있습니다. 이 문제를 해결하려면 시각적 경험 작성기에서 찾아보기 모드로 전환했다가 다시 작성 모드로 전환하십시오. 회전자가 사라지고 페이지가 로드됩니다.
 
-## CSP(콘텐츠 보안 정책) 헤더가 웹 사이트의 Target 라이브러리를 차단합니다. (VEC 및 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
+## CSP(Content Security Policy) 헤더가 내 웹 사이트의 [!DNL Target] 라이브러리를 차단합니다. (VEC 및 EEC) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 웹 사이트의 CSP 헤더가 Target 라이브러리를 차단할 경우, 웹 사이트가 로드되더라도 편집할 수 없으면 Target 라이브러리가 차단되지 않았는지 확인하십시오.
 
