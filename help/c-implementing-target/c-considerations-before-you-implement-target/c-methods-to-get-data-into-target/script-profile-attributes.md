@@ -1,14 +1,14 @@
 ---
 keywords: 구현;구현;설정;스크립트 프로필 특성;implementation;setting up;script profile attributes
-description: 스크립트 프로필 속성을 사용하여 데이터를 Target에 가져올 수 있습니다.
-title: 스크립트 프로필 속성을 사용하여 Target에 데이터를 가져오려면 어떻게 해야 합니까?
-feature: Implementation
+description: 스크립트 프로필 특성을 사용하여 데이터를 [!DNL Target] 에 가져옵니다.
+title: '스크립트 프로필 속성을 사용하여 데이터를 가져오려면 어떻게 합니까? [!DNL Target] '
+feature: 구현
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '280'
 ht-degree: 83%
 
 ---
