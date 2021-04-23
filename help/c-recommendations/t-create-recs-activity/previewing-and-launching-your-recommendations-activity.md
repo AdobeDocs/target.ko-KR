@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;오퍼;미리 보기;시작;상태;기준;알고리즘
-description: '활동을 시작하기 전에 결과를 사용할 수 있도록 Adobe Target Recommendations 활동을 미리 보는 방법을 알아봅니다. '
+description: '활동을 시작하기 전에 결과를 사용할 수 있도록 Adobe [!DNL Target] Recommendations 활동을 미리 보는 방법을 알아봅니다. '
 title: Recommendations 활동을 미리 보고 시작하려면 어떻게 합니까?
 feature: Recommendations
+exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 17%
 
 ---
-
 
 # Recommendations 활동 미리 보기 및 실행
 
@@ -128,7 +128,7 @@ CSV 파일을 다운로드합니다. 권장 항목을 보려면 엽니다.
 1. 새 활동을 활성화합니다.
 1. 이전 활동을 비활성화합니다.
 
-동일한 활동에서 내역 보고 결과를 유지해야 하는 경우 대체 방법을 사용할 수 있으며, 이렇게 하면 권장 사항 가용성에 대한 일시적인 중단을 초래할 수 있습니다.
+동일한 활동에서 내역 보고 결과를 유지해야 하는 경우 대체 방법을 사용할 수 있으며, 이렇게 하면 추천 가용성에 대한 일시적인 중단을 초래할 수 있습니다.
 
 1. 수정할 활동 및 기준을 복제합니다.
 1. 복제된 활동 및 기준을 변경하고 알고리즘이 결과를 생성할 때까지 기다립니다.
