@@ -1,19 +1,19 @@
 ---
 keywords: mobile;tntVal;analytics;adobe analytics;integration;sdk;mobile sdk
-description: 애드혹 세그멘테이션을 위해 Adobe Target 모바일 앱 활동 정보를 Adobe Analytics으로 전송하는 방법에 대해 알아봅니다.
+description: 애드혹 세그멘테이션을 위해 Adobe [!DNL Target] 모바일 앱 활동 정보를 Adobe Analytics으로 보내는 방법에 대해 알아봅니다.
 title: 모바일 앱 활동 정보를 Analytics로 보낼 수 있습니까?
-feature: Implement Mobile
+feature: 모바일 구현
 role: Developer
+exl-id: 33812f14-320f-40c3-8234-d6006fb4d6bc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '376'
+source-wordcount: '377'
 ht-degree: 29%
 
 ---
 
-
-# Adobe Analytics에 활동 정보 보내기{#send-activity-information-to-adobe-analytics}
+# Adobe Analytics에 활동 정보 보내기
 
 이 섹션에서는 임시 세그멘테이션을 위해 [!DNL Target] 모바일 앱 활동 정보를 Adobe [!DNL Analytics]으로 전송하는 방법에 대해 설명합니다.
 
@@ -74,4 +74,3 @@ ht-degree: 29%
    >[!NOTE]
    >
    >`&&tnt`는 Mobile SDK에서 예약된 이벤트 키입니다. [!DNL Analytics]에서 `tntVal` 변수의 사후 분류는 웹에서 하는 것과 동일한 방식으로 모바일 SDK에서 작동합니다(JavaScript). [!DNL Analytics]에서 정보가 처리되면 [!DNL Analytics] 인터페이스에 활동 및 경험 이름이 표시됩니다.
-
