@@ -1,16 +1,16 @@
 ---
 keywords: 문제 해결;지표 불일치;FAQ;보고서;새 방문자;새 방문자;재방문자;재방문자;재방문 방문;새 방문
-description: Adobe Target 보고에 대한 질문과 대답의 목록을 살펴보십시오.
-title: Target 보고에 대한 질문에 대한 답변은 어디에서 찾을 수 있습니까?
-feature: Reports
+description: Adobe [!DNL Target] 보고에 대한 질문과 대답의 목록을 살펴보십시오.
+title: '보고 관련 질문에 대한 답변은 어디에서 찾을 수 있습니까? [!DNL Target] '
+feature: 보고서
+exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 23%
+source-wordcount: '1219'
+ht-degree: 24%
 
 ---
-
 
 # 보고 FAQ
 
