@@ -2,15 +2,15 @@
 keywords: 고객 관계 관리;고객 레코드 서비스;crs;crm;mbox3rdpartyid;고객 속성;타깃팅;csv;crm;adobe experience cloud people
 description: Adobe Target에서 컨텐츠 타깃팅을 위해 CRM(customer relationship management) 데이터베이스의 기업 고객 데이터를 사용하는 방법을 알아봅니다.
 title: 고객 속성은 무엇이며 이를 어떻게 사용합니까?
-feature: Audiences
+feature: 대상자
+exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1502'
-ht-degree: 37%
+source-wordcount: '1501'
+ht-degree: 36%
 
 ---
-
 
 # 고객 속성
 
@@ -52,7 +52,7 @@ ht-degree: 37%
 
    ![고객 속성 탭](/help/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
-## Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}에 대한 고객 속성 워크플로
+## [!DNL Target] {#section_00DAE94DA9BA41398B6FD170BC7D38A3}에 대한 고객 속성 워크플로
 
 아래 그림과 같이 다음 단계를 완료하여 [!DNL Target]에서 CRM 데이터를 사용하십시오.
 
@@ -111,7 +111,7 @@ ht-degree: 37%
    * FTP 메서드를 사용하는 각 업로드의 최대 파일 크기는 4GB입니다.
    * 가입이 허용되는 속성 수는 [!DNL Target Standard]의 경우 5개이고 [!DNL Target Premium]의 경우 200개입니다.
 
-##  Target에서 고객 속성 사용 {#section_107E3A0F0EC7478E82E6DBD17B30B756}
+## [!DNL Target] {#section_107E3A0F0EC7478E82E6DBD17B30B756}에서 고객 특성 사용
 
 다음과 같은 방법으로 [!DNL Target]에서 고객 속성을 사용할 수 있습니다.
 
