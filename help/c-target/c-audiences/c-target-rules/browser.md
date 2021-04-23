@@ -1,18 +1,18 @@
 ---
 keywords: 브라우저 선택 사항;유형;브라우저 유형;브라우저 언어;언어;버전;브라우저 버전
-description: Adobe Target에서 대상을 만들어 페이지를 방문할 때 특정 브라우저 또는 특정 브라우저 옵션을 사용하는 사용자를 타게팅하는 방법을 알아봅니다.
-title: 브라우저 유형을 기반으로 방문자를 Target할 수 있습니까?
-feature: Audiences
+description: Adobe [!DNL Target] 에서 대상을 만들어 페이지를 방문할 때 특정 브라우저 또는 특정 브라우저 옵션을 사용하는 사용자를 타게팅하는 방법을 알아봅니다.
+title: '브라우저 유형을 기준으로 방문자를 지정할 수 있습니까? [!DNL Target] '
+feature: 대상자
+exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 94%
+source-wordcount: '661'
+ht-degree: 95%
 
 ---
 
-
-# 브라우저{#browser}
+# 브라우저
 
 페이지를 방문할 때 특정 브라우저나 특정 브라우저 선택 사항을 사용하는 사용자를 타깃팅할 수 있습니다.
 
