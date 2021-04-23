@@ -1,18 +1,18 @@
 ---
 keywords: 타깃팅;트래픽 소스;트래픽 소스 타깃팅;검색 엔진 타깃팅;검색 엔진;랜딩 페이지;랜딩 페이지 타깃팅;참조 랜딩 페이지
-description: Adobe Target에서 대상을 만들어 사이트를 참조하는 검색 엔진 또는 랜딩 페이지를 기준으로 방문자를 타게팅하는 방법을 알아봅니다.
-title: 검색 엔진 또는 참조 사이트를 기반으로 방문자를 Target할 수 있습니까?
-feature: Audiences
+description: Adobe [!DNL Target] 에서 대상을 만들어 사이트를 참조하는 검색 엔진 또는 랜딩 페이지를 기준으로 방문자를 타게팅하는 방법을 알아봅니다.
+title: '검색 엔진 또는 참조 사이트를 기반으로 한 방문자를 사용할 수 있습니까? [!DNL Target] '
+feature: 대상자
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 86%
 
 ---
 
-
-# 트래픽 소스 {#traffic-sources}
+# 트래픽 소스
 
 사이트를 안내하는 검색 엔진 또는 랜딩 페이지에 따라 방문자를 타깃팅할 대상을 만듭니다.
 
