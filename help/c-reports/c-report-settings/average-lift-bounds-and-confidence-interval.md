@@ -1,16 +1,16 @@
 ---
 keywords: Target;보고서;보고서 설정;환경;상승도;상승도 한계;분산;신뢰도;통제
-description: 활동의 리프트 바운드 및 신뢰 수준을 이해하는 데 도움이 되는 데이터 포인트 및 시각화 표현을 포함하는 Adobe Target 보고서를 해석하는 방법을 알아봅니다.
+description: 활동의 리프트 바운드 및 신뢰 수준을 이해하는 데 도움이 되는 데이터 포인트 및 시각화 표현을 포함하는 Adobe [!DNL Target] 보고서를 해석하는 방법을 알아봅니다.
 title: 평균 리프트, 리프트 경계 및 신뢰 구간을 보려면 어떻게 해야 합니까?
-feature: Reports
+feature: 보고서
+exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '817'
-ht-degree: 72%
+ht-degree: 73%
 
 ---
-
 
 # 평균 상승도, 상승도 한계 및 신뢰 구간
 
@@ -34,7 +34,7 @@ ht-degree: 72%
 
 ### 리프트 경계
 
-상승도의 95% 신뢰 구간입니다. 평균 상승도 이하 범위로 표시됩니다. 이러한 리프트 범위를 계산하는 방법에 대한 예를 보려면 아래 [예제 계산](#example)을 참조하십시오.
+상승도의 95% 신뢰 구간입니다. 평균 상승도 이하 범위로 표시됩니다. 이러한 리프트 범위를 계산하는 방법에 대한 예를 보려면 아래 [계산 예](#example)를 참조하십시오.
 
 ### 상자 플롯 그래프
 
