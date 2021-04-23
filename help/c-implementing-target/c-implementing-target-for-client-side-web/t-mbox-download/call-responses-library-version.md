@@ -5,14 +5,14 @@ feature: at.js
 role: Developer
 exl-id: a0f7b956-7855-4165-b34c-33d81a8fac55
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 88%
 
 ---
 
-# mbox.js 라이브러리 버전별 Target 페이지 호출 방법{#target-page-methods-by-mbox-js-library-version}
+# mbox.js 라이브러리 버전별 Target 페이지 방법
 
 Target이 페이지의 호출을 수행하고 호출에 응답하는 방식은 사용 중인 Target 라이브러리 버전, Experience Cloud 방문자 ID 구현이 존재하는지 여부, 방문자 ID가 있는지 여부에 따라 다릅니다.
 
