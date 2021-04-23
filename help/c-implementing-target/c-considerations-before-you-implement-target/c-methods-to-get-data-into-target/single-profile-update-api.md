@@ -1,14 +1,14 @@
 ---
 keywords: 구현;구현;설정;단일 프로파일 업데이트
-description: 단일 프로필 업데이트 API를 사용하여 Target에 데이터를 가져옵니다.
-title: 단일 프로필 업데이트 API를 사용하여 Target에 데이터를 가져오려면 어떻게 합니까?
-feature: Implementation
+description: 단일 프로필 업데이트 API를 사용하여 [!DNL Target] 에 데이터를 가져옵니다.
+title: 단일 프로필 업데이트 API를 사용하여 데이터를  [!DNL Target] 에 가져오려면 어떻게 합니까?
+feature: 구현
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '195'
+source-wordcount: '193'
 ht-degree: 45%
 
 ---
