@@ -1,17 +1,17 @@
 ---
 keywords: 클라이언트 지원;CNAME;인증서 프로그램;표준 이름;쿠키;인증서;amc;adobe 관리 인증서;디지커드;도메인 제어 유효성 검사;dcv
-description: Adobe 클라이언트 지원팀과 협력하여 Adobe Target에서 CNAME(표준 이름) 지원을 구현하여 광고 차단 문제 또는 ITP 관련 쿠키 정책을 처리합니다.
+description: Adobe 클라이언트 지원팀과 협력하여 Adobe [!DNL Target] 에서 CNAME(표준 이름) 지원을 구현하여 광고 차단 문제 또는 ITP 관련 쿠키 정책을 처리합니다.
 title: Target에서 CNAME을 어떻게 사용합니까?
-feature: Privacy & Security
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1160'
 ht-degree: 2%
 
 ---
-
 
 # CNAME 및 Adobe Target
 
@@ -79,7 +79,7 @@ ht-degree: 2%
 
 아니요. [!DNL Target]에는 별도의 호스트 이름과 인증서가 필요합니다.
 
-### 현재 구현된 Target이 ITP 2.x에 영향을 받습니까?
+### 현재 구현된 [!DNL Target]이(가) ITP 2.x의 영향을 받습니까?
 
 Safari 브라우저에서 [!DNL Target] JavaScript 라이브러리가 있는 웹 사이트로 이동합니다. `analytics.company.com` 등 CNAME 컨텍스트에서 설정된 [!DNL Target] 쿠키가 표시되는 경우 ITP 2.x의 영향을 받지 않습니다.
 
