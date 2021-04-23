@@ -1,16 +1,16 @@
 ---
 keywords: 홍보;전진 프로모션;전진 프로모션 유형;항목 목록;속성별 홍보;컬렉션 홍보
-description: Adobe Target Recommendations 디자인에서 홍보된 항목을 추가하고 위치를 제어하는 방법을 알아봅니다. 정적 및 동적 프로모션을 추가할 수 있습니다.
+description: Adobe [!DNL Target] Recommendations 디자인에서 홍보된 항목을 추가하고 해당 항목의 배치를 제어하는 방법에 대해 알아보십시오. 정적 및 동적 프로모션을 추가할 수 있습니다.
 title: Recommendations 디자인에 프로모션을 추가하려면 어떻게 해야 합니까?
 feature: Recommendations
+exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 56%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 프로모션 추가
 
