@@ -1,13 +1,13 @@
 ---
 keywords: 공지 사항;스킬 빌더;개발자 채팅;커피 브레이크;이벤트;forrester;gartner;webinar
-description: 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등 Adobe Target 이벤트에 대한 공지 사항을 읽고 등록할 수 있습니다.
-title: Target 공지 사항 및 이벤트는 어디에서 찾을 수 있습니까?
-feature: Release Notes
+description: 공지 사항을 읽고 기술 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 비롯한 Adobe [!DNL Target] 이벤트에 등록합니다.
+title: ' [!DNL Target] 공지 및 이벤트는 어디에서 찾을 수 있습니까?'
+feature: 릴리스 정보
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Adobe Target은 Forrester와 Gartner가 시장 리더로 최근에 인증한 바
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## 웨비나:HSBC가 Adobe Target 및 AI를 활용하여 개인화를 규모에 맞게 신속하게 최적화하고 전달하는 방법
+## 웨비나:HSBC가 Adobe [!DNL Target] 및 AI를 활용하여 개인화를 규모에 맞게 신속하게 최적화하고 전달하는 방법
 
 * **[여기에서 웨비나 레코딩을 봅니다](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -49,7 +49,7 @@ McKinsey Digital은 &quot;8주 내에 소비자 및 비즈니스 디지털 채�
 
 *맥킨지 기사:&quot;[COVID-19 복구는 디지털](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, 2020년 5월
 
-## Adobe Target 스킬 빌더:개발자 채팅, Adobe Target의 mbox.js를 at.js {#skill-builder}로 마이그레이션
+## Adobe [!DNL Target] 스킬 빌더:개발자 채팅, Adobe [!DNL Target]의 mbox.js를 at.js {#skill-builder}로 마이그레이션
 
 2021년 3월 31일 mbox.js의 사용 중단 기능으로 Adobe Target 제품 관리자 David Son은 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션함으로써 얻을 수 있는 이점에 대해 논의했습니다.
 
