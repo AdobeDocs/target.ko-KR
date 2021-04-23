@@ -3,16 +3,16 @@ keywords: 권장 사항;설정;이름;목표;우선순위;지속 기간;보고 �
 description: Adobe Target에서 Recommendations 활동을 설명하고 제어하는 데 사용되는 설정을 구성하는 방법을 알아봅니다.
 title: Recommendations 활동 설정을 구성하려면 어떻게 합니까?
 feature: Recommendations
+exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '398'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 권장 사항 활동 설정{#recommendations-activity-settings}
+# ![PREMIUM](/help/assets/premium.png) 권장 사항 활동 설정
 
 [!DNL Adobe Target]에서 [!UICONTROL Recommendations] 활동을 설명하고 제어하는 데 사용할 수 있는 설정에 대한 정보입니다.
 
