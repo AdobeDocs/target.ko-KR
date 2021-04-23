@@ -1,16 +1,16 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target을 사용하여 최적화 및 개인화 프로그램을 바로 시작할 수 있습니다. Adobe Target Welcome Kit은 출발점이 좋습니다.
+description: Adobe Target을 사용하여 최적화 및 개인화 프로그램을 바로 시작할 수 있습니다. Adobe [!DNL Target] 시작 키트는 좋은 출발점입니다.
 title: Target을 시작하려면 어떻게 해야 합니까?
-feature: Overview
+feature: 개요
+exl-id: c7943c6d-03c9-439c-9e1a-1ad805c18073
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
 
 ---
-
 
 # 1장:소개
 
@@ -29,4 +29,3 @@ ht-degree: 0%
 이제 올바른 방식으로 사용할 수 있도록 하겠습니다.
 
 이를 지원하기 위해 첫 번째 [!DNL Target] 활동을 준비하고 시작하는 데 도움이 되는 주요 정보, 도구 및 리소스가 포함된 이 환영 키트를 만들었습니다. 장기적으로 이러한 컨텐츠는 성공적인 최적화 및 개인화 프로그램을 구축하기 위한 기반을 제공합니다.
-
