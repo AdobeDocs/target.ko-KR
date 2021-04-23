@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;at.js;함수;함수
-description: Adobe Target at.js 라이브러리에 대한 adobe.target.getOffer() 함수 및 해당 옵션을 사용하여 Target 오퍼을 가져오기 위한 요청을 실행합니다.
+description: Adobe [!DNL Target] at.js library to fire requests to get a [!DNL Target] 오퍼에 대해 adobe.target.getOffer() 함수 및 해당 옵션을 사용합니다.
 title: adobe.target.getOffer() 함수를 어떻게 사용합니까?
 feature: at.js
 role: Developer
+exl-id: 3448fdaa-b5f6-465d-8858-1dfe214bd8c4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 91%
+source-wordcount: '467'
+ht-degree: 93%
 
 ---
-
 
 # adobe.target.getOffer(옵션)
 
