@@ -1,19 +1,19 @@
 ---
 keywords: 구현;mbox.js 비Javascript;리디렉터;클릭당 비용;클릭당 수익
-description: Adobe Target 활동에서 mbox를 사용하는 방식과 유사하게 이메일 구현에서 리디렉터를 사용하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 활동에서 mbox를 사용하는 방식과 유사하게 이메일 구현에서 리디렉터를 사용하는 방법을 알아봅니다.
 title: 리디렉터와 어떻게 작업합니까?
-feature: Implement Email
+feature: 이메일 구현
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '681'
 ht-degree: 66%
 
 ---
 
-
-# 리디렉터 작업{#work-with-redirectors}
+# 리디렉터 작업
 
 리디렉터는 테스트에서 mbox를 사용하는 것과 비슷한 방법으로 사용됩니다.
 
