@@ -1,16 +1,16 @@
 ---
 keywords: 자동 트래픽 할당;타깃팅;자동 할당;자동 할당
-description: Adobe Target의 자동 할당 활동은 두 개 이상의 경험 중에서 우승자를 식별하고 우승자에게 더 많은 트래픽을 자동으로 재할당하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 의 자동 할당 활동이 둘 이상의 경험 중에서 우승자를 식별하고 우승자에게 더 많은 트래픽을 자동으로 재할당하는 방법을 알아봅니다.
 title: 활동을 자동으로 할당하면 결과를 빠르게 얻고 매출을 향상시킬 수 있습니까?
-feature: Auto-Allocate
+feature: 자동 할당
+exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
 
 ---
-
 
 # 자동 할당을 사용하면 수동 테스트보다 테스트 결과를 빠르게 얻고 매출을 높일 수 있습니다
 
@@ -47,4 +47,3 @@ ht-degree: 0%
 ## 시작하기
 
 첫 번째 [!UICONTROL 자동 할당] 활동을 시작할 준비가 되셨습니까? [여기에서](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 자세히 알아보십시오.
-
