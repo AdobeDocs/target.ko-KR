@@ -2,18 +2,18 @@
 keywords: target 문제 해결;target 문제 해결;사용자;사용자 관리
 description: Adobe Target의 사용자 관리에 대한 문제 해결 정보입니다.
 title: 사용자 관리 문제를 어떻게 해결할 수 있습니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: 4848b811-04f8-4857-8309-f5d3f9086197
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '84'
+source-wordcount: '86'
 ht-degree: 30%
 
 ---
 
-
-# 사용자 관리 문제 해결{#troubleshoot-user-management}
+# 사용자 관리 문제 해결
 
 Adobe Target의 사용자 관리에 대한 문제 해결 정보입니다.
 
