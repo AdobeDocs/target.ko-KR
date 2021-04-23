@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;실수;함정;실수;착오;pitfall;중요도;통계적 차이;통계적 능력;통계적 능력;트래픽 할당;n;prograves;pitfall;featance;winner;통계적 차이;statistic power;traffic allocation;allocation
-description: Adobe Target 및 기타 테스트 솔루션에서 A/B 테스트를 수행할 때 회사에서 수행하는 가장 일반적인 문제와 실수를 피하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 및 기타 테스트 솔루션에서 A/B 테스트를 수행할 때 회사가 저지르는 가장 일반적인 함정과 실수를 피하는 방법을 알아봅니다.
 title: 일반적인 A/B 테스트 오류를 방지하려면 어떻게 해야 합니까?
-feature: A/B Tests
+feature: A/B 테스트
+exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3885'
+source-wordcount: '3887'
 ht-degree: 86%
 
 ---
-
 
 # 일반적인 A/B 테스트 문제와 이를 방지하는 방법 10가지 문제
 
@@ -173,4 +173,3 @@ A/B 테스트에서 마케터는 종종 95%의 신뢰 수준을 사용합니다.
 * 테스트를 시작하기 전에 샘플 크기(방문자 수)를 계산합니다.
 * 테스트를 중지하려면 먼저 계산된 샘플 크기에 도달할 때까지 기다립니다.
 * 테스트 후 세그멘테이션을 수행하거나 둘 이상의 대안 오퍼를 평가할 때 Bonferroni 보정과 같은 방법을 사용하여 신뢰 수준을 조정합니다.
-
