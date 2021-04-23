@@ -1,14 +1,14 @@
 ---
 keywords: 고급 mbox.js 설정;클라이언트;서버 도메인;xdomain;압축 수준;클라이언트 세션 ID 지원;secureOnly;클라이언트 pc id 지원;페이지 전달;참조 url;트래픽 수준;트래픽 기간;mboxParameters() 함수 본문;mboxSupported() 함수 본문;mboxCookieDomain() 함수 본문;추가 JavaScript;SiteCatalyst 플러그인;mbox.js를 자동 압축 해제 JavaScript;깜박임;본문 숨김;본문 숨기기
 description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
-title: Target mbox.js 라이브러리를 구성하려면 어떻게 합니까?
+title: ' [!DNL Target] mbox.js 라이브러리를 구성하려면 어떻게 합니까?'
 feature: at.js
 role: Developer
 exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '472'
 ht-degree: 71%
 
 ---
