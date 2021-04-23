@@ -1,18 +1,18 @@
 ---
 keywords: 보고서;블록 ip 주소;IP 주소의 블록 방문자;다운로드 보고서;csv;reporting
-description: Adobe Target의 보고 기능을 사용하여 활동 성능을 검사하는 방법을 알아봅니다. 데이터를 기반으로 보다 현명한 의사 결정을 하여 ROI를 높일 수 있습니다.
+description: Adobe [!DNL Target] 의 보고 기능을 사용하여 활동의 성능을 검사하는 방법을 알아봅니다. 데이터를 기반으로 보다 현명한 의사 결정을 하여 ROI를 높일 수 있습니다.
 title: 보고서를 보려면 어떻게 합니까?
-feature: Reports
+feature: 보고서
+exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '860'
 ht-degree: 61%
 
 ---
 
-
-# 보고서{#reports}
+# 보고서
 
 보고서는 데이터를 기반으로 의사 결정을 내리는 데 도움이 되는 [!DNL Adobe Target] 활동의 진행 상황과 결과에 대한 정보를 제공합니다. 보고서 데이터를 사용하면 활동을 종료할 시점을 결정하고, 우승한 오퍼의 경험을 보여주고, 다음 작업을 결정하는 데 필요한 통찰력이나 교훈을 제공할 수 있습니다.
 
