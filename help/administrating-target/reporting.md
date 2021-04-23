@@ -1,17 +1,17 @@
 ---
 keywords: 보고서;보고서;보고;Experience Cloud 솔루션;표준 시간대;통화;제외 IP;예상 매출 상승률;매출 증가;세밀한 조정이 적용된 우선 순위;보고서;보고;보고;경험 클라우드 솔루션;표준 시간대;통화;통화;제외 IP;매출 증가율;매출 증가율;매출 증가율;세밀한 지정
-description: Target 또는 Adobe Analytics을 보고 소스로 사용하고, 기본 표준 시간대 및 통화 형식을 지정하고, 보고에서 제외할 IP 주소를 추가하는 등
+description: 보고 소스로  [!DNL Target]  또는 Adobe Analytics을 사용하고, 기본 표준 시간대 및 통화 형식을 지정하고, 보고에서 제외할 IP 주소를 추가하는 등
 title: Target에서 보고를 구성하려면 어떻게 합니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 30%
 
 ---
-
 
 # Target에서 보고 구성
 
@@ -55,7 +55,7 @@ ht-degree: 30%
 
 보고에 사용할 통화를 지정합니다.
 
-## Target 보고 데이터에서 제외할 IP
+## 보고 데이터 [!DNL Target]에서 제외할 IP
 
 보고 데이터에서 제외할 IP 주소를 지정합니다. 예를 들어 내부 회사 주소를 제외하는 것은 보고 데이터가 웹 사이트의 고객 상호 작용을 반영하도록 하는 좋은 방법입니다.
 
