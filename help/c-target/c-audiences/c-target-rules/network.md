@@ -1,18 +1,18 @@
 ---
 keywords: 타깃팅;네트워크;타겟 네트워크;isp;도메인 이름;연결 속도;타겟 isp;타겟 도메인 이름;타겟 연결 속도
-description: ISP, 도메인 이름 및 연결 속도와 같은 네트워크 세부 사항을 기반으로 Adobe Target에서 대상을 만드는 방법을 알아봅니다.
-title: 네트워크 옵션에 따라 방문자를 Target할 수 있습니까?
-feature: Audiences
+description: ISP, 도메인 이름 및 연결 속도와 같은 네트워크 세부 사항을 기반으로 Adobe [!DNL Target] 에서 대상을 만드는 방법을 알아봅니다.
+title: '네트워크 옵션에 따라 방문자를 지정할 수 있습니까? [!DNL Target] '
+feature: 대상자
+exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '509'
 ht-degree: 94%
 
 ---
 
-
-# 네트워크{#network}
+# 네트워크
 
 네트워크 세부 사항을 기반으로 대상을 만들 수 있습니다.
 
