@@ -1,16 +1,16 @@
 ---
 keywords: qa;서버 측;서버-측;미리 보기;미리 보기 링크
-description: 서버 측 게재와 함께 Adobe Target QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고 등과 함께 종단 간 활동 QA를 손쉽게 수행하는 방법을 살펴볼 수 있습니다.
+description: Adobe [!DNL Target] 서버측 게재와 함께 QA URL을 사용하여 변경되지 않는 미리 보기 링크, 선택적 고객 타깃팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고와 함께 종단 간 활동 QA를 수행하는 방법을 알아봅니다.
 title: 서버측 게재에서 활동 QA를 수행할 수 있습니까?
-feature: Activities
+feature: 활동
+exl-id: eb6965be-92a6-452d-ac01-7ae1533239cc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '397'
 ht-degree: 70%
 
 ---
-
 
 # 활동 QA 및 서버 측 전달 사용
 
