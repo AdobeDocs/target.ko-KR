@@ -1,18 +1,18 @@
 ---
 keywords: 타깃팅;대상 필터;대상;필터
-description: Adobe Target에서 대상 필터를 사용하여 특정 특성 또는 특성 집합을 공유하는 방문자 그룹의 데이터를 보는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 에서 대상 필터를 사용하여 특정 특성이나 특성 집합을 공유하는 방문자 그룹의 데이터를 보는 방법을 알아봅니다.
 title: 보고에 대상 필터를 사용할 수 있습니까?
-feature: Audiences
+feature: 대상자
+exl-id: af8dae97-4b10-4edb-a0e6-0d8daf2f0d22
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 79%
 
 ---
 
-
-# 보고용 대상 필터{#audience-filters-for-reporting}
+# 보고용 대상 필터
 
 대상 필터(또는 대상)는 특정 특성이나 일련의 특성을 공유하는 방문자 그룹입니다.
 
@@ -38,4 +38,3 @@ ht-degree: 79%
 | 필요한 경우 여러 대상자 결합 | [여러 대상 결합](/help/c-target/combining-multiple-audiences.md) |
 | 활동의 목표 및 설정 페이지에서 대상 적용 | A/B 테스트:[목표 및 설정](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>경험 타깃팅:[목표 및 설정](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>다변량 테스트: [목표 및 설정](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations:[Recommendations 활동 설정](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>활동 설정:[활동 설정](/help/c-activities/activity-settings.md) |
 | 대상 필터에 대한 정보가 있는 보고서 보기 | [보고서 설정](/help/c-reports/c-report-settings/report-settings.md) |
-
