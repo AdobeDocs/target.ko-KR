@@ -1,16 +1,16 @@
 ---
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;동적 필터링;동적 필터링;프로필 특성 일치
-description: 항목(엔티티)을 사용자 프로필의 값과 비교하여 Adobe Target Recommendations에서 동적으로 필터링하는 방법을 알아봅니다.
+description: 항목(엔터티)을 사용자 프로필의 값과 비교하여 Adobe [!DNL Target] Recommendations에서 동적으로 필터링하는 방법을 알아봅니다.
 title: Recommendations 활동에서 프로필 속성 일치별로 필터링하려면 어떻게 합니까?
 feature: Recommendations
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
-
 
 # ![PREMIUMProfile 속성 ](/help/assets/premium.png) 일치
 
