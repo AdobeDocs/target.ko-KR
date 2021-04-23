@@ -1,17 +1,17 @@
 ---
 keywords: 보안;보안 정책
-description: Adobe이 데이터 및 Adobe Target 경험의 보안을 강화하는 데 사용하는 절차에 대해 알아봅니다. Adobe Target 보안 개요 백서를 다운로드합니다.
-title: Target은 내 데이터의 보안을 어떻게 처리합니까?
-feature: Privacy & Security
+description: Adobe이 데이터 및 Adobe의 보안을 강화하는 데 사용하는 절차 [!DNL Target] experience. Download the Adobe [!DNL Target] 보안 개요 백서에 대해 알아봅니다.
+title: '내 데이터의 보안을 어떻게 처리합니까? [!DNL Target] '
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: be93072f-2c21-40fa-8648-513348afacc8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 63%
+source-wordcount: '160'
+ht-degree: 65%
 
 ---
-
 
 # Target 보안 개요
 
