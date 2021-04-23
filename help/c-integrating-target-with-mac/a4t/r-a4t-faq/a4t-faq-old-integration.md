@@ -1,16 +1,16 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;sitecatalyst;캠페인>레서피;test&target;통합
-description: Test&Target 통합에 대한 기존 SiteCatalyst과 Target에 대한 Analytics(A4T) 사용에 대해 자주 묻는 질문에 대한 답변을 찾습니다.
+description: Test&Target 통합에 대한 이전 SiteCatalyst과 Analytics for [!DNL Target] (A4T)을 사용하여 자주 묻는 질문에 대한 답변을 찾습니다.
 title: Test&Target 통합에 대한 SiteCatalyst에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
+exl-id: cd16b08b-e58e-4208-95b5-97c5eb441fb7
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '180'
+source-wordcount: '179'
 ht-degree: 49%
 
 ---
-
 
 # 기존 SiteCatalyst-Test&amp;Target 통합 - A4T FAQ
 
