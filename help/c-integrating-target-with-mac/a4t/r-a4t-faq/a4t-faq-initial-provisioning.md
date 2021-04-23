@@ -1,18 +1,18 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4t;사용 권한 제공;사용 권한 제공;adobe Experience Cloud
-description: Target 활동에 Analytics 보고를 사용할 수 있는 Target(A4T)용 Analytics를 제공하는 것에 대해 자주 묻는 질문에 대한 답변을 찾습니다.
+description: ' [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] 활동 제공에 대해 Analytics를 제공하는 것에 대해 자주 묻는 질문에 대한 답변을 찾습니다.'
 title: A4T 초기 프로비저닝에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
+exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '476'
+ht-degree: 66%
 
 ---
 
-
-# 초기 프로비저닝 - A4T FAQ{#initial-provisioning-a-t-faq}
+# 초기 사용 권한 제공 - A4T FAQ
 
 이 주제에는 [!DNL Adobe Target](A4T)의 보고 소스로 [!DNL Adobe Analytics]을(를) 프로비저닝하는 것에 대해 자주 묻는 질문에 대한 답변이 포함되어 있습니다.
 
@@ -24,7 +24,7 @@ ht-degree: 68%
 
 * Analytics 지표를 추적할 사이트의 나머지 페이지에 대해서는 해당 페이지에서 Analytics를 구현합니다. 그러한 페이지에서 Target을 구현할 필요는 없습니다. 해당 페이지 간에 캡처된 Analytics 지표는 이전 글머리 기호에서 해당 방문자에 첨부된 Target 정보를 기반으로 사용자가 처음에 자격을 부여한 Target 활동에 자동으로 연결됩니다.
 
-## 내 Target 계정에 A4T가 활성화되었는지 어떻게 알 수 있습니까? {#section_4437D284448F4313BF953D4B6EDBACA6}
+## 내 [!DNL Target] 계정에서 A4T가 활성화되어 있는지 어떻게 알 수 있습니까?{#section_4437D284448F4313BF953D4B6EDBACA6}
 
 Analytics 활동을 정의할 때 보고서 세트를 선택하려면 Analytics 사용자 계정과 Target 사용자 계정 둘 다 필요합니다. 문서에 설명된 대로 사용자 계정을 구성해야 합니다. 자세한 내용은 [사용자 권한 요구 사항](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083)을 참조하십시오.
 
@@ -48,6 +48,6 @@ Analytics 및 Target에 대한 액세스 권한이 있는 하나 이상의 Exper
 
 위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 참조하십시오. 이 문제의 근본 원인은 같습니다.
 
-## Target에 있는 내 보고서가 비어 있는 이유는 무엇입니까?  {#section_3837104757464CB488C5A83014A669A1}
+## [!DNL Target]에 있는 보고서가 왜 비어 있습니까?{#section_3837104757464CB488C5A83014A669A1}
 
 위의 &quot;내 보고서 세트가 로드되지 않는 이유는 무엇입니까?&quot;를 참조하십시오. 이 문제의 근본 원인은 같습니다.
