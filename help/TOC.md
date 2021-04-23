@@ -1,12 +1,12 @@
 ---
-user-guide-title: Adobe Target 안내서
+user-guide-title: Adobe [!DNL Target] 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 고객의 경험을 맞춤화 및 개인화하여 매출을 극대화하는 방법을 살펴볼 수 있습니다.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1607'
+source-wordcount: '1606'
 ht-degree: 74%
 
 ---
