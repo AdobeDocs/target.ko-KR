@@ -1,18 +1,18 @@
 ---
 keywords: 권장 사항;권장 사항 알고리즘;권장 사항 활동;recommendations classic
-description: Target Premium에서 기존 Recommendations Classic 활동과 Recommendations 활동 간의 차이점을 이해하는 데 도움이 되는 정보를 검토하십시오.
-title: Target Premium에서 Recommendations Classic과 Recommendations의 차이점은 무엇입니까?
+description: ' [!DNL Target] Premium에서 기존 Recommendations Classic 활동과 Recommendations 활동 간의 차이점을 이해하는 데 도움이 되는 정보를 검토하십시오.'
+title: ' [!DNL Target] Premium에서 Recommendations Classic과 Recommendations의 차이점은 무엇입니까?'
 feature: Recommendations
+exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '663'
-ht-degree: 95%
+source-wordcount: '661'
+ht-degree: 94%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Recommendations Classic과 Target Premium의 권장 사항 활동 비교{#recommendations-classic-versus-recommendations-activities-in-target-premium}
+# ![Premium](/help/assets/premium.png) 에서 Premium Classic과 Recommendations  [!DNL Target] 활동 비교
 
 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
 
@@ -76,4 +76,3 @@ ht-degree: 95%
 [!DNL Target]의 [!DNL Recommendations]에서는 [!DNL Target] 및 [!DNL Experience Cloud]가 제공하는 기능을 활용하는 향상된 보고 기능을 제공합니다. 따라서 이러한 기능을 활용하지 않고 결과와 비교하여 [!DNL Recommendations]로 제공된 상승도를 단순히 표시하는 대신 [!DNL Recommendations] 활동에 대한 전체 정보를 볼 수 있습니다.
 
 ![](assets/overview_report.png)
-
