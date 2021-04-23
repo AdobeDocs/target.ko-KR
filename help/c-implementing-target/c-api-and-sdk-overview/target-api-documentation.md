@@ -1,19 +1,19 @@
 ---
 keywords: api;adobe i/o
-description: Adobe Target Classic API에서 Adobe I/O의 새로운 API로 전환하는 방법을 알아봅니다.
-title: 기존 API에서 Adobe I/O으로 어떻게 전환합니까?
-feature: Implement Server-side
+description: Adobe [!DNL Target] 클래식 레거시 API에서 Adobe I/O의 새 API로 전환하는 방법을 알아봅니다.
+title: 기존 API에서 Adobe I/O으로 전환하려면 어떻게 합니까?
+feature: 서버측 구현
 role: Developer
+exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
-
-# Target의 이전 API에서 Adobe I/O로 전환
+# [!DNL Target] 기존 API에서 Adobe I/O으로 전환
 
 Target의 이전 API에서 Adobe I/O의 새 API로 전환하는 데 도움이 되는 정보입니다.
 
