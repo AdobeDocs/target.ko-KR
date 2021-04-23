@@ -1,18 +1,18 @@
 ---
 keywords: Adobe Experience Platform 웹 SDK;aep 웹 sdk;aep sdk;검색 엔진 최적화;검색 엔진 최적화;seo;edge 클러스터, 중앙 클러스터;at.js;mbox.js;
-description: Target JavaScript 라이브러리(at.js 및 AEP Web SDK), Adobe 데이터 센터 및 SEO 테스트에 대한 정보를 비롯하여 Adobe Target이 작동하는 방식을 살펴볼 수 있습니다.
-title: Target은 어떻게 작동합니까?
-feature: Overview
+description: Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript 라이브러리(at.js 및 AEP 웹 SDK), Adobe 데이터 센터 및 SEO 테스트 방법을 알아봅니다.
+title: ' [!DNL Target] 어떻게 작동합니까?'
+feature: 개요
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2574'
+source-wordcount: '2565'
 ht-degree: 30%
 
 ---
 
-# Adobe Target 작동 방식
+# Adobe [!DNL Target]의 작동 방식
 
 [!DNL Adobe Experience Platform Web SDK] 및 JavaScript 라이브러리(at.js 및 mbox.js)에 대한 정보를 포함하여 [!DNL Adobe Target]의 작동 방식을 알아봅니다. 또한 이 문서에서는 [!DNL Target]을 사용하여 만들 수 있는 다양한 활동 유형을 소개합니다. 또한 [!DNL Target] 에지 네트워크, 검색 엔진 최적화(SEO) 및 [!DNL Target]에서 보트를 감지하는 방법에 대해 알 수 있습니다.
 
