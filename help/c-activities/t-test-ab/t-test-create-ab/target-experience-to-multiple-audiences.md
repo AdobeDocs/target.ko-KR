@@ -1,16 +1,16 @@
 ---
 keywords: 여러 대상;경험 버전;target 경험 버전
-description: Adobe Target A/B 활동에서 동일한 경험의 버전을 다른 대상에 타깃팅하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] A/B 활동에서 동일한 경험의 버전을 다른 대상에 타깃팅하는 방법을 알아봅니다.
 title: A/B 활동에서 여러 경험 버전을 사용할 수 있습니까?
-feature: A/B Tests
+feature: A/B 테스트
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 91%
 
 ---
-
 
 # A/B 테스트의 여러 경험 대상
 
@@ -53,4 +53,3 @@ ht-degree: 91%
 * 상호 배타적인 대상을 선택합니다. 활동이 VEC에서 만들어진 경우, 방문자가 둘 이상의 대상과 일치하면 각 대상을 위한 콘텐츠가 반환되고, 마지막에 나열된 대상의 콘텐츠가 페이지에서 표시됩니다.
 * 다이어그램에 정의된 활동 진입 대상은 AND 조건을 사용하여 경험 대상과 결합됩니다. 활동을 시작하려면 방문자가 활동 대상과 경험 대상 중 하나에 대해 적격이어야 합니다.
 * 보고서에 대해 세그먼트와 동일한 대상을 추가합니다. 이렇게 하면 높은 수준의 경험 A 및 B에서 테스트 결과를 확인하고, &quot;브라우저 언어 jp_JP&quot;에 대해서만 더 낮은 수준의 경험 A 및 B에서 테스트 결과를 확인하는 데 도움이 됩니다. 이 방식은 Analytics 기반 보고서가 아닌 Target 기반 보고서에서 작동합니다.
-
