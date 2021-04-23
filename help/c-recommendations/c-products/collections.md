@@ -1,18 +1,18 @@
 ---
 keywords: 컬렉션;타깃팅
-description: Adobe Target Recommendations에서 컬렉션을 사용하는 방법을 알아봅니다. 컬렉션은 권장 사항에 적합한 제품 또는 항목 세트입니다.
+description: Adobe [!DNL Target] Recommendations에서 컬렉션을 사용하는 방법을 알아봅니다. 컬렉션은 권장 사항에 적합한 제품 또는 항목 세트입니다.
 title: Recommendations 활동에서 컬렉션을 어떻게 사용합니까?
 feature: Recommendations
+exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 60%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 컬렉션 {#collections}
+# ![PREMIUM](/help/assets/premium.png) 컬렉션
 
 컬렉션은 권장 사항에 적합한 제품 또는 항목 세트입니다. 컬렉션은 해당 컬렉션의 일부가 될 항목이 충족해야 하는 조건을 지정하여 정의됩니다.
 
