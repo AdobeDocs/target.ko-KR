@@ -1,17 +1,17 @@
 ---
 keywords: 구현;at.js;Javascript 라이브러리
-description: Adobe Experience Platform Launch을 사용하거나 태그 관리자 없이 Adobe Target at.js JavaScript 라이브러리를 배포하는 방법에 대해 알아보십시오.
+description: Adobe Experience Platform Launch을 사용하거나 태그 관리자 없이 Adobe [!DNL Target] at.js JavaScript 라이브러리를 배포하는 방법에 대해 알아보십시오.
 title: at.js를 배포하려면 어떻게 해야 합니까?
-feature: Implement Server-side
+feature: 서버측 구현
 role: Developer
+exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '309'
 ht-degree: 49%
 
 ---
-
 
 # at.js를 배포하는 방법
 
@@ -24,7 +24,7 @@ ht-degree: 49%
 * **[다이내믹 태그 관리를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**:Adobe의 레거시 태그 관리자인 DTM(다이내믹 태그 관리)을 사용하여 Target을 구현할 수 있습니다. Adobe Launch는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 최신 방법입니다. 새로운 Target 구현의 경우, Launch를 사용하십시오.
 * **타사 태그 관리자를 사용하여 Target 구현**: [Adobe ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 실행은 Target 구현에 선호되는 방법입니다.그러나 Tealium, Ensihten, Google Tag 등과 같은 타사 태그 관리자를 사용하여 Target을 구현할 수도 있습니다. Launch 사용에 대한 이점 목록은 [Target 시작 확장](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304)을 사용하여 at.js를 구현하는 이점을 참조하십시오.
 
-   그러나 태그 관리자 없이 Target을 구현하는 방법을 알고 있는 경우 사이트 코드에서 at.js를 하드 코딩하는 대신 타사 태그 관리자로 쉽게 구현할 수 있습니다.
+   그러나 태그 관리자 없이 Target을 구현하는 방법을 알고 있다면 사이트 코드에서 at.js를 하드 코딩하는 대신 타사 태그 관리자로 쉽게 구현할 수 있습니다.
 
    다음은 제3자 태그 관리자를 사용하여 Target을 구현하는 데 도움이 되는 두 가지 관련 주제입니다.
 
