@@ -2,17 +2,17 @@
 keywords: Target Standard;faq;자주 묻는 질문;치트 시트;치트시트
 description: 자세한 내용은 정보 및 링크와 함께 Adobe Target의 기능 사용에 대한 FAQ를 참조하십시오.
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
-feature: Overview
+feature: 개요
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 96%
 
 ---
 
-
-# Target 최적화 및 개인화 FAQ{#target-optimization-and-personalization-faq}
+# Target 최적화 및 개인화 FAQ
 
 Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보로 연결되는 링크 목록입니다.
 
