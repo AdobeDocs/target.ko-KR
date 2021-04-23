@@ -1,16 +1,16 @@
 ---
 keywords: 다변량;mvt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;수입;참여
-description: Adobe Target 다변수 테스트 활동에서 지표를 지정하여 전환, 매출 및 참여와 같은 성공적인 방문 시기를 결정하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 다변수 테스트 활동에서 지표를 지정하여 전환, 매출 및 참여와 같은 방문이 성공적인 시기를 결정하는 방법을 알아봅니다.
 title: MVT(다변수 테스트) 활동에서 목표 지표를 설정하려면 어떻게 합니까?
-feature: Multivariate Tests
+feature: 다변량 테스트
+exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '352'
 ht-degree: 80%
 
 ---
-
 
 # 다변수 테스트에 대한 지표 설정
 
