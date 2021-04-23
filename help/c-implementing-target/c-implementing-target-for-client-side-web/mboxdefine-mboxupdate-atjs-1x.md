@@ -1,17 +1,17 @@
 ---
 keywords: mbox 정의;mbox 정의;mbox 정의;mbox업데이트;mbox 업데이트;mbox 업데이트;at.js;함수;함수
-description: Adobe Target at.js JavaScript 라이브러리에 대한 mboxDefine() 및 mboxUpdate() 함수를 사용하여 mbox를 정의하거나 업데이트합니다. (at.js 1.x)
+description: Adobe [!DNL Target] at.js JavaScript 라이브러리에 대한 mboxDefine() 및 mboxUpdate() 함수를 사용하여 mbox를 정의하거나 업데이트합니다. (at.js 1.x)
 title: mboxDefine() 및 mboxUpdate() 함수를 어떻게 사용합니까?
 feature: at.js
 role: Developer
+exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
-
 
 # mboxDefine() 및 mboxUpdate() - at.js 1.x
 
