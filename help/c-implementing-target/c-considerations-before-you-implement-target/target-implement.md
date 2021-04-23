@@ -1,18 +1,18 @@
 ---
 keywords: document.write;target;implement;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox;adobe experience platform web sdk;aep web sdk
-description: 웹 페이지에서 Target 라이브러리(at.js 또는 mbox.js)를 참조하여 Adobe Target을 구현합니다.
-title: Target JavaScript 라이브러리 이해
-feature: Implementation
+description: 웹 페이지에서 Adobe [!DNL Target] by referencing the [!DNL Target] 라이브러리(at.js 또는 mbox.js)를 구현합니다.
+title: ' [!DNL Target]  JavaScript 라이브러리 이해 '
+feature: 구현
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '476'
 ht-degree: 23%
 
 ---
 
 
-# Target JavaScript 라이브러리 이해
+# [!DNL Target] JavaScript 라이브러리 이해 
 
 웹 페이지에서 [!DNL Adobe Target] 라이브러리(Adobe Experience Platform 웹 SDK 또는 at.js)를 참조하여 [!DNL Adobe Target]을 구현합니다.
 
@@ -20,7 +20,7 @@ ht-degree: 23%
 >
 >mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 2021년 3월 31일 이전에 mbox.js에서 at.js 또는 [!UICONTROL Adobe Experience Platform 웹 SDK]로 마이그레이션해야 합니다. 자세한 내용은 [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) 또는 [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)에서 at.js로 마이그레이션을 참조하십시오.
 
-## Target JavaScript 라이브러리 {#section_40117C78C2F84FECAC4F1BA40CC4F171} 간 차이
+## [!DNL Target] JavaScript 라이브러리 {#section_40117C78C2F84FECAC4F1BA40CC4F171} 간의 차이
 
 다음 표에서는 [!DNL Target] JavaScript 라이브러리 간의 차이점을 설명합니다.
 
