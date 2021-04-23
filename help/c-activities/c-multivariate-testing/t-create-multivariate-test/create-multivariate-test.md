@@ -1,18 +1,18 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
-description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하여 Target이 활성화된 페이지에서 MVT(Multivariate Test)를 바로 만드는 방법에 대해 알아보십시오.
+description: Adobe [!DNL Target] 에서 VEC(Visual Experience Composer)를 사용하여 [!DNL Target] 사용 가능한 페이지에서 바로 MVT(Multivariate Test)를 만드는 방법을 알아봅니다.
 title: 다변량 테스트를 만들려면 어떻게 합니까?
-feature: Multivariate Tests
+feature: 다변량 테스트
+exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '569'
+source-wordcount: '568'
 ht-degree: 88%
 
 ---
 
-
-# 다변량 테스트 만들기{#create-a-multivariate-test}
+# 다변량 테스트 만들기
 
 [!DNL Adobe Target]의 [!UICONTROL VEC(시각적 경험 작성기)]를 사용하면 Target을 사용할 수 있는 페이지에 대한 테스트 권한을 쉽게 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 쉽게 수정할 수 있습니다.
 
