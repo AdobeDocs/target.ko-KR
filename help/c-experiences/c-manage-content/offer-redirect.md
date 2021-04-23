@@ -1,16 +1,16 @@
 ---
 keywords: 리디렉션 오퍼;리디렉션 오퍼 만들기;html 오퍼 추가;리디렉션에서 모든 URL 매개 변수 전달;리디렉션에서 mboxSessionId 전달(리디렉션이 다른 도메인으로 진행될 경우에만 필요함)
-description: '브라우저에서 새 페이지로 리디렉션되도록 Adobe Target에서 리디렉션 오퍼를 만드는 방법을 알아봅니다. '
+description: 'Adobe [!DNL Target] 에서 리디렉션 오퍼를 만들어 브라우저에서 새 페이지로 리디렉션되는 방법을 알아봅니다. '
 title: 리디렉션 오퍼를 만들려면 어떻게 합니까?
-feature: Experiences and Offers
+feature: 경험 및 오퍼
+exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1190'
+source-wordcount: '1192'
 ht-degree: 47%
 
 ---
-
 
 # 리디렉션 오퍼 만들기
 
