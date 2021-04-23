@@ -1,16 +1,16 @@
 ---
 keywords: 다중 페이지;여정 테스트;다중 페이지 활동
-description: Adobe Target에서 여러 페이지 활동을 만드는 방법을 살펴보고 각 페이지에 맞는 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 만들 수 있습니다.
+description: Adobe [!DNL Target] 에서 여러 페이지 활동을 만드는 방법을 알아봅니다. 각 페이지에 맞는 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 만들 수 있습니다.
 title: 여러 페이지 활동을 만들려면 어떻게 합니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 85%
 
 ---
-
 
 # 다중 페이지 활동
 
@@ -46,4 +46,3 @@ ht-degree: 85%
    이 메뉴를 사용하여 페이지의 이름을 바꾸거나, 다중 페이지 활동 내에서 리디렉션 테스트를 수행하거나, 페이지를 삭제하십시오.
 
 1. 시각적 경험 작성기를 사용하여 각 페이지에서 오퍼가 표시되는 방식을 디자인합니다.
-
