@@ -1,16 +1,16 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: 테스트 및 개인화 전략의 일부로 Adobe Target을 사용할 때 동일하지 않도록 다른 사람의 실수를 배울 수 있습니다.
-title: Target 사용 시 일반적인 실수는 무엇이며 어떻게 하면 이러한 실수를 피할 수 있습니까?
-feature: Overview
+description: 테스트 및 개인화 전략의 일부로 Adobe [!DNL Target] 을 사용할 때 동일한 실수를 하지 않도록 다른 사람의 실수를 통해 학습합니다.
+title: ' [!DNL Target] 을 사용할 때 일반적인 실수는 무엇이며, 어떻게 하면 이러한 실수를 피할 수 있습니까?'
+feature: 개요
+exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
-
 
 # 6장:간편한 위험 요소
 
