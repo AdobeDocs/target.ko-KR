@@ -1,16 +1,16 @@
 ---
 keywords: A/B;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하여 Target 사용 페이지에서 직접 A/B 테스트 활동을 만드는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 에서 VEC(Visual Experience Composer)를 사용하여 [!DNL Target] 사용 가능한 페이지에서 직접 A/B 테스트 활동을 만드는 방법을 알아봅니다.
 title: A/B 테스트를 만들려면 어떻게 합니까?
-feature: A/B Tests
+feature: A/B 테스트
+exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '861'
+source-wordcount: '860'
 ht-degree: 60%
 
 ---
-
 
 # A/B 테스트 만들기
 
