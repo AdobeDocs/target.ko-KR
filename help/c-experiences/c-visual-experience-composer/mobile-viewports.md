@@ -1,16 +1,16 @@
 ---
 keywords: 반응형;모바일 뷰포트;뷰포트;장치;모바일;반응형 웹 디자인;rewd
-description: 모바일 뷰포트를 통해 다양한 크기의 화면에서 Adobe Target 활동이 어떻게 표시되는지 확인할 수 있습니다. 널리 사용되는 디바이스 뷰포트 크기 및 해상도 목록을 확인합니다.
+description: 모바일 뷰포트를 사용하면 Adobe [!DNL Target] 활동이 다양한 크기의 화면에서 어떻게 표시되는지 확인할 수 있습니다. 널리 사용되는 디바이스 뷰포트 크기 및 해상도 목록을 확인합니다.
 title: 반응형 경험에 모바일 뷰포트를 사용하려면 어떻게 해야 합니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
+exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 translation-type: tm+mt
-source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1165'
 ht-degree: 34%
 
 ---
-
 
 # 반응형 경험을 위한 모바일 뷰 포트
 
@@ -38,14 +38,14 @@ ht-degree: 34%
 |---|---|---|
 | iPhone12 | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Mini | 360 x 780 | 1080 x 2340 |
-| iPhone 11 Pro | 390 x 844 | 1170 x 2532 |
+| iPhone 12 Pro | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Pro Max | 428 x 926 | 1248 x 2778 |
 | iPhone SE | 214 x 379 | 640 x 1136 |
 | iPhone 11 Pro Max | 414 x 896 | 1242 x 2688 |
 | iPhone 11 Xs Max | 414 x 896 | 1242 x 2688 |
 | iPhone11 | 414 x 896 | 828 x 1792 |
 | iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
+| iPhone 12 Pro | 375 x 812 | 1125 x 2436 |
 | iPhone 11 X | 375 x 812 | 1125 x 2436 |
 | iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
 | iPhone X | 375 x 812 | 1125 x 2436 |
