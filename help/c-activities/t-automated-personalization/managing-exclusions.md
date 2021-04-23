@@ -1,17 +1,17 @@
 ---
 keywords: 중복 제거;중복 제거 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼를 허용하지 않음;제외;기본 컨텐트;제외 그룹
-description: Adobe Target Automated Personalization(AP) 활동에서 제외 사항을 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 컨텐츠를 제외합니다.
+description: Adobe [!DNL Target] Automated Personalization(AP) 활동에서 제외를 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 컨텐츠를 제외합니다.
 title: Automated Personalization 활동에서 제외는 어떻게 관리합니까?
-feature: Automated Personalization
+feature: 자동화된 개인화
 solution: Target,Analytics
+exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 89%
+source-wordcount: '987'
+ht-degree: 90%
 
 ---
-
 
 # ![프리미엄 배지](/help/assets/premium.png) 예외 관리
 
