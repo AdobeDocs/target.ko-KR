@@ -1,18 +1,18 @@
 ---
 keywords: 타깃팅;대상;백분율 타겟
-description: Adobe Target에서 고객을 사용하여 특정 고객에게 다양한 컨텐츠 및 경험을 타깃팅하여 웹 마케팅 활동을 최적화하는 방법을 살펴볼 수 있습니다.
-title: 대상을 사용하여 특정 세그먼트에 서로 다른 컨텐츠를 Target할 수 있습니까?
-feature: Audiences
+description: Adobe [!DNL Target] 에서 대상을 사용하여 특정 대상에 서로 다른 컨텐츠와 경험을 타깃팅하여 웹 마케팅 활동을 최적화하는 방법을 알아봅니다.
+title: '대상을 사용하여 특정 세그먼트에 다른 컨텐츠를 사용하려면 어떻게 해야 합니까? [!DNL Target] '
+feature: 대상자
+exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '357'
-ht-degree: 89%
+source-wordcount: '356'
+ht-degree: 90%
 
 ---
 
-
-# 대상자{#audiences}
+# 대상자
 
 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅하는 데 대상을 사용합니다.
 
