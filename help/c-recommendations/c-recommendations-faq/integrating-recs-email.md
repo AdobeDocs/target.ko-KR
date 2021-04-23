@@ -1,13 +1,13 @@
 ---
 keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;배달 API;다운로드 전용 템플릿;이메일 템플릿;일괄처리;작성 시간 이메일
-description: Target 배달 API, rawbox 템플릿, 다운로드 전용 템플릿 사용을 포함하여 Adobe Target Recommendations과 이메일을 통합하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] Recommendations, including using the [!DNL Target] 배달 API, rawbox 템플릿 및 다운로드 전용 템플릿과 이메일을 통합하는 방법을 알아봅니다.
 title: Recommendations을 이메일과 통합하려면 어떻게 해야 합니까?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1540'
 ht-degree: 86%
 
 ---
@@ -78,7 +78,7 @@ rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 제공업체)�
 * 이 경우 응답은 mboxDefault 매개 변수 값으로 설정됩니다. 이 매개 변수에 대해서는 아래 설명을 참조하십시오.
 * 이메일 제공업체는 이 경우에 사용할 기본 권장 사항 HTML 블록을 제공해야 합니다.
 
-### Target 서버는 시간 초과되고 데이터 없이 반환됩니다
+### [!DNL Target] 서버는 시간이 초과되고 데이터 없이 반환됩니다.
 
 * 이 경우 Target 서버는 다음 컨텐츠를 반환합니다.
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(선택 사항) | 1 | 기본적으로 호출자는 제공품 컨텐츠를 찾을 수 없을 때 리디렉션됩니다. 기본 작동을 비활성화하려면 사용하십시오. |  |
 | `mbox3rdPartyId` | *xxx* | 프로필 타깃팅에 사용할 사용자 고유의 사용자 지정 방문자 ID가 있는 경우 이 옵션을 사용하십시오. |  |
 
-### 잠재적 Target 서버 응답
+### 잠재적 [!DNL Target] 서버 응답
 
 | 응답 | 설명 |
 |--- |--- |
