@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.트리거뷰;트리거뷰;트리거 뷰;트리거 뷰;at.js;함수;함수;이름 보기;네임 보기;이름 보기
-description: SPA(단일 페이지 애플리케이션)에서 사용할 수 있도록 Adobe Target at.js JavaScript 라이브러리에 대해 adobe.target.triggerView() 함수를 사용합니다. (at.js 2.x)
+description: SPA(단일 페이지 응용 프로그램)에서 사용할 Adobe [!DNL Target] at.js JavaScript 라이브러리에 대해 adobe.target.triggerView() 함수를 사용합니다. (at.js 2.x)
 title: adobe.target.triggerView() 함수를 사용하려면 어떻게 합니까?
 feature: at.js
 role: Developer
+exl-id: 619d5166-d1d9-49a6-9807-338544782e66
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 84%
 
 ---
-
 
 # adobe.target.triggerView (viewName, options) - at.js 2.x
 
