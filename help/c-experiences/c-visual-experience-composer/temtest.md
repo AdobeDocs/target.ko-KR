@@ -1,16 +1,16 @@
 ---
 keywords: 템플릿 테스트;템플릿;유사한 페이지의 동일한 경험;템플릿 테스트
-description: Adobe Target VEC(Visual Experience Composer)를 사용하여 유사한 구조화되거나 동일한 템플릿 요소를 포함하는 여러 페이지에 동일한 경험을 포함하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] VEC(Visual Experience Composer)를 사용하여 유사한 구조화되어 있거나 동일한 템플릿 요소를 포함하는 여러 페이지에 동일한 경험을 포함하는 방법을 알아봅니다.
 title: 유사한 페이지에 동일한 경험을 포함할 수 있습니까?
-feature: Experiences and Offers
+feature: 경험 및 오퍼
+exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '620'
 ht-degree: 39%
 
 ---
-
 
 # 유사한 페이지에 동일한 경험 포함
 
