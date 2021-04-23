@@ -1,16 +1,16 @@
 ---
 keywords: spa vec;반응;각;react.js;spa 시각적 경험 작성기;spa 경험 작성기 선택 사항;단일 페이지 앱;단일-페이지-앱;spa;모바일 경험 선택 사항;Target 보기
-description: Adobe Target에서 SPA VEC를 사용하여 지속적인 개발 의존성 없이 직접 SPA에서 테스트를 작성하고 컨텐츠를 개인화하는 방법을 살펴봅니다.
+description: Adobe [!DNL Target] 에서 SPA VEC를 사용하여 지속적인 개발 종속성이 없는 IT 방식으로 SPA에서 테스트를 작성하고 컨텐츠를 개인화하는 방법을 알아봅니다.
 title: 단일 페이지 앱 VEC(Visual Experience Composer)를 어떻게 사용합니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3700'
 ht-degree: 92%
 
 ---
-
 
 # SPA(단일 페이지 앱) 시각적 경험 작성기
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 최신 릴리스에서는 SPA용 VEC를 도입했습니다. SPA용 VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같이 인기 있는 프레임워크의 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) 및 [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md) (XT) 활동을 만드는 데 사용할 수 있습니다.
 
-## Adobe Target 보기 및 단일 페이지 애플리케이션
+## Adobe [!DNL Target] 보기 및 단일 페이지 애플리케이션
 
 SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA 경험을 함께 구성하는 시각적 요소의 논리 그룹)을 활용합니다. 따라서 SPA는 사용자 상호 작용을 기반으로 하여 URL 대신 보기를 통해 전환으로 간주할 수 있습니다. &quot;보기&quot;는 일반적으로 전체 사이트를 나타내거나 사이트 내의 그룹화된 시각적 요소를 나타낼 수 있습니다.
 
@@ -56,7 +56,7 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 이제 마케터는 빠른 배달을 선택했을 때 단추 색상을 두 배달 선택 사항 모두에 대해 파란색으로 유지하는 것과 대조적으로 색상을 파란색에서 빨간색으로 변경하는 것이 전환을 더 끌어올릴 수 있을지 여부를 확인하기 위해 A/B 테스트를 실행할 수 있습니다.
 
-## Adobe Target 보기 구현
+## Adobe [!DNL Target] 보기 구현
 
 Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개념을 활용하여 마케터가 VEC를 통해 SPA에서 A/B 및 XT 테스트를 실행하도록 지원할 수 있습니다. 이렇게 하려면 일회용 개발자 설정이 필요합니다. 이 설정을 수행하는 절차를 살펴보겠습니다.
 
