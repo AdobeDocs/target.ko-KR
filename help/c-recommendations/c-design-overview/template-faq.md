@@ -1,18 +1,18 @@
 ---
 keywords: 권장 사항;자주 묻는 질문;faq
-description: Adobe Target Recommendations 디자인에 대한 질문과 답변(FAQ) 목록을 검토하십시오.
-title: Target Recommendations의 디자인 질문에 대한 답변은 어디에서 확인할 수 있습니까?
+description: Adobe [!DNL Target] Recommendations 디자인에 대한 질문과 답변(FAQ) 목록을 검토하십시오.
+title: ' [!DNL Target] Recommendations에 대한 디자인 질문에 대한 답변은 어디에서 볼 수 있습니까?'
 feature: Recommendations
+exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
-ht-degree: 84%
+source-wordcount: '411'
+ht-degree: 85%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 디자인 FAQ {#design-faq}
+# ![PREMIUM](/help/assets/premium.png) 디자인 FAQ
 
 [!DNL Adobe Target] 추천 디자인에 대한 FAQ(자주 묻는 질문) 목록
 
