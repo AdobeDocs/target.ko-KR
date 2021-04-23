@@ -1,22 +1,22 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;타겟;대상
-description: Adobe Target 활동에 사용된 경험 타깃팅 및 대상에 대한 FAQ를 참조하십시오.
+description: Adobe [!DNL Target] 활동에 사용된 경험 타깃팅 및 대상에 대한 FAQ를 봅니다.
 title: Target 및 대상에 대한 질문과 답변을 어디에서 찾을 수 있습니까?
-feature: Audiences
+feature: 대상자
+exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 66%
+source-wordcount: '948'
+ht-degree: 62%
 
 ---
 
-
-# Target 및 대상 FAQ{#targets-and-audiences-faq}
+# Target 및 대상 FAQ
 
 경험 타깃팅 및 대상에 대한 FAQ 목록
 
-## Target은 타깃팅에서 URL을 어떻게 평가합니까?{#url}
+## [!DNL Target]은 타깃팅의 URL을 어떻게 평가합니까?{#url}
 
 Target은 활동을 만들 때 대상자 URL 타깃팅을 사용하는지 또는 대상을 만들 때 URL 타깃팅을 사용하는지에 따라 URL을 다르게 평가합니다.
 
@@ -65,7 +65,7 @@ URL 문자열에 동일한 매개 변수 이름을 두 번 이상 사용하는 �
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438,C000047`
 
-## 대상을 작성할 때 Target 라이브러리 아래의 사전 작성 대상이 다른 범주 아래에 표시되는 이유는 무엇입니까? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
+## 대상을 작성할 때 [!DNL Target] 라이브러리 아래의 사전 작성 대상이 다른 범주 아래에 표시되는 이유는 무엇입니까? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
 타겟 라이브러리 카테고리의 사전 빌드된 대상은 이전 대상으로서, 다른 카테고리에 있습니다. 일례로, 이전 타겟 라이브러리 > 새 방문자 수 대상에는 이에 대응하는 업데이트된 상대(방문자 프로필 > 새 방문자)가 있습니다.
 
@@ -83,7 +83,7 @@ URL 문자열에 동일한 매개 변수 이름을 두 번 이상 사용하는 �
 
 ![](assets/audiences_order.png)
 
-## Target, Adobe Audience Manager(AAM) 및 핵심 서비스의 대상 라이브러리에 있는 동일한 대상의 이름이 서로 다른 이유는 무엇입니까? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
+## 핵심 서비스의 [!DNL Target], Adobe Audience Manager(AAM) 및 대상 라이브러리의 동일한 대상자 이름이 다른 이유는 무엇입니까?{#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
 [!DNL Target]의 대상 이름은 고유합니다. 그러나 [!DNL AAM]과 [!DNL Audience Library]에서는 여러 대상(서로 다른 폴더에 있을 경우)에 대해 동일한 이름을 사용할 수 있습니다. [!DNL Target]에 [!DNL AAM] 또는 [!DNL Audience Library] 대상에 해당하는 대상 이름이 발생하면 [!DNL Target]은 해당 이름에 &quot;#&lt;number>&quot;를 추가합니다.
 
@@ -93,7 +93,7 @@ URL 문자열에 동일한 매개 변수 이름을 두 번 이상 사용하는 �
 
 일부 Target 대상은 &quot;새 방문자&quot; 및 &quot;재방문자&quot;와 같이 사전에 정의되어 있습니다. 이렇게 사전 정의된 대상은 사용자가 이름을 바꿀 수 없습니다.
 
-## 일부 프로필 매개 변수가 Target 사용자 인터페이스에 표시되지 않는 이유는 무엇입니까?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## 모든 프로필 매개 변수가 [!DNL Target] 사용자 인터페이스에 표시되지 않는 이유는 무엇입니까?{#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target]의 mbox 호출당 고유한 프로필 속성 제한은 50개입니다. [!DNL Target]에 50개가 넘는 프로필 속성을 전달해야 하는 경우 [!UICONTROL 프로필 업데이트] API 방법을 사용하여 전달할 수 있습니다. 자세한 내용은 Adobe Target API 설명서의 [프로필 업데이트](https://developers.adobetarget.com/api/#authentication-tokens)를 참조하십시오.
 
@@ -101,7 +101,7 @@ URL 문자열에 동일한 매개 변수 이름을 두 번 이상 사용하는 �
 
 자동화된 개인화 활동은 세션당 한 번씩 평가됩니다. 특정 경험에 적합한 활성 세션이 있고 이제 여기에 새 오퍼가 추가되었다면, 사용자는 이전에 표시된 오퍼와 함께 새 콘텐츠를 보게 됩니다. 이 사용자는 이전에 이 경험에 대해 자격이 있었으므로 세션 지속 기간 동안 계속 해당 경험을 보게 됩니다. 모든 단일 페이지 방문에서 이 경험을 평가하려는 경우에는 경험 타깃팅(XT) 활동 유형으로 변경해야 합니다.
 
-## API를 통해 생성된 대상의 변경 사항이 Target UI에 반영되지 않는 이유는 무엇입니까?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## API를 통해 만든 대상을 변경하면 [!DNL Target] UI에 반영되지 않는 이유는 무엇입니까?{#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 오퍼 및 프로필 스크립트와 달리 Target Standard를 통해 작성된 대상에 대해 API에서 변경한 사항은 현재 Target UI에 다시 동기화되지 않습니다.
 
