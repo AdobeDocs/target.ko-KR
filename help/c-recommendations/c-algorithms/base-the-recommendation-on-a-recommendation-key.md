@@ -1,17 +1,17 @@
 ---
 keywords: 추천 키;권장 논리;현재 카테고리;사용자 지정 특성;마지막으로 본 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾는 항목;인기 항목;최근에 본 항목;마지막으로 본 항목;마지막으로 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목
-description: 방문자 행동 컨텍스트를 사용하여 Adobe Target Recommendations 활동에 관련 결과를 표시하는 키를 기반으로 권장 사항을 사용하는 방법을 알아봅니다.
+description: 방문자 행동 컨텍스트를 사용하여 Adobe [!DNL Target] Recommendations 활동에 관련 결과를 표시하는 키를 기반으로 권장 사항을 사용하는 방법을 알아봅니다.
 title: 권장 사항 키를 기반으로 권장 사항을 만들려면 어떻게 합니까?
 feature: Recommendations
 mini-toc-levels: 2
+exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2932'
 ht-degree: 67%
 
 ---
-
 
 # 권장 사항 키 를 기반으로 권장 사항 만들기
 
