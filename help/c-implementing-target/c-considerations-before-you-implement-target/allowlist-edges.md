@@ -1,19 +1,19 @@
 ---
 keywords: 구현;허용 목록;흰색 목록;허용 목록에 추가하다허용 목록;가장자리;가장자리;implementation;implementation;whitelist;white list;;edge;edges
-description: Adobe Target 가장자리허용 목록에 추가하다를 표시하는 데 도움이 되는 호스트 목록을 봅니다(최종 사용자가 최적의 응답 시간을 보장하는 지리적으로 분산된 서비스 노드).
-title: Target 에지 노드를허용 목록에 추가하다는 어떻게 합니까?
-feature: Privacy & Security
+description: Adobe [!DNL Target] 가장자리허용 목록에 추가하다를 표시하는 데 도움이 되는 호스트 목록을 봅니다(최종 사용자의 최적 응답 시간을 보장하는 지리적으로 분산된 서비스 노드).
+title: '가장자리 노드허용 목록에 추가하다는 어떻게 합니까? [!DNL Target] '
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 translation-type: tm+mt
-source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 7%
+source-wordcount: '246'
+ht-degree: 6%
 
 ---
 
-
-# 허용 목록에 추가하다 Target 에지 노드
+# 허용 목록에 추가하다 [!DNL Target] 에지 노드
 
 [!DNL Adobe Target] 가장자리를 허용 목록에 추가하다 표시하는 데 도움이 되는 최신 호스트 목록 및 정보.
 
@@ -21,7 +21,7 @@ ht-degree: 7%
 
 원하는 경우 [!DNL Target] 가장자리 노드를 허용 목록에 추가하다 표시할 수 있습니다.
 
-## Target 가장자리의 NAT(네트워크 주소 변환) IP 주소
+## [!DNL Target] 가장자리의 NAT(네트워크 주소 변환) IP 주소
 
 [!DNL Target] 가장자리의 송신 IP 주소 목록입니다. 서비스허용 목록에 추가하다에 대한 Target 도달을 계획하는 경우 이 IP를하십시오.
 
@@ -49,8 +49,3 @@ ht-degree: 7%
 | Edge36 (시드니) | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
 | Edge37 (아일랜드) | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>52.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
 | Edge38(싱가포르) | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
-
-
-
-
-
