@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Adobe Analytics;Analytics 기반 활동;Analytics 보고서 세트;보고서 세트;Analytics Target 통합;보고서 세트 구성
-description: Adobe Target 및 Adobe Analytics 솔루션에서 A4T(Target)용 Analytics를 구현하는 데 필요한 단계를 수행합니다.
-title: Target(A4T)에 대한 분석을 구현하려면 어떻게 합니까?
+description: Analytics for [!DNL Target] (A4T) in your Adobe [!DNL Target]  및 Adobe Analytics 솔루션을 구현하는 데 필요한 단계를 수행합니다.
+title: ' [!DNL Target] (A4T)에 대한 Analytics를 구현하려면 어떻게 합니까?'
 feature: Analytics for Target (A4T)
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '881'
 ht-degree: 29%
 
 ---
 
-
-# Analytics for Target 구현{#analytics-for-target-implementation}
+# [!DNL Target] 구현을 위한 분석
 
 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target](A4T)의 보고 소스로 구현할 때에는 몇 가지 단계가 필요합니다.
 
@@ -168,4 +168,3 @@ Adobe에서는 구현을 간소화하고 시스템 간의 불일치를 정렬할
 
 * **[!UICONTROL 활동당]** 을 선택하면  [!DNL Target] 각 활동을 만들  [!DNL Analytics] 때 중에서 선택할 수 있습니다.
 * **[!UICONTROL Adobe]**&#x200B;에서는 만들어지는 모든 활동에 대해 [!DNL Analytics]Analytics를 보고 소스로 설정합니다.
-
