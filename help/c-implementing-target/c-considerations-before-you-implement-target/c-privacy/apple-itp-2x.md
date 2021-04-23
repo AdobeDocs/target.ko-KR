@@ -1,17 +1,17 @@
 ---
 keywords: apple;ITP;지능적 추적 방지;experience cloud id;ecid
-description: Safari 사용자의 개인 정보를 보호하려는 Adobe Target과 Apple Intelligent Tracking Prevention(ITP) 이니셔티브의 영향에 대해 알아봅니다.
-title: Target은 Apple ITP 지원을 어떻게 처리합니까?
-feature: Privacy & Security
+description: Safari 사용자의 개인 정보를 보호하려는 Adobe [!DNL Target] 과 Apple Intelligent Tracking Prevention(ITP) 이니셔티브의 영향에 대해 알아봅니다.
+title: ' [!DNL Target] Apple ITP 지원은 어떻게 처리합니까?'
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 51%
+source-wordcount: '912'
+ht-degree: 50%
 
 ---
-
 
 # Apple ITP(Intelligent Tracking Prevention) 2.x
 
@@ -27,7 +27,7 @@ ITP(Intelligent Tracking Prevention)는 Safari 사용자의 개인 정보를 보
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | 7일 만료 시간을 1일로 크게 단축했습니다.<br>2019년 4월 24일 릴리스 |
 | [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | localStorage를 채택하거나 JavaScript `Document.referrer property` 사용과 같은 여러 해결 방법을 제거했습니다.<br>2019년 9월 23일 릴리스. |
 
-## Adobe Target 고객에게 어떤 영향을 미칩니까? {#impact}
+## Adobe [!DNL Target] 고객으로서 제게 미치는 영향은 무엇입니까?{#impact}
 
 [!DNL Target]은 [!DNL Target]이 방문자에게 실시간 개인화를 제공할 수 있도록 페이지에 배포할 JavaScript 라이브러리를 제공합니다. 3개의 target JavaScript 라이브러리([at. js 1.`document.cookie` API를 통해 방문자의 브라우저에 클라이언트측 [!DNL Target] 쿠키를 배치하는 x, at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) 및 [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)). 그 결과, [!DNL Target] 쿠키는 Apple의 ITP 2.x의 영향을 받으며, 7일(ITP 2.1의 경우) 후(ITP 2.2 및 ITP 2.3의 경우) 후에 만료됩니다.
 
