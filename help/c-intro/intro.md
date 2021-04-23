@@ -1,15 +1,15 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;자동 대상;자동 대상;자동 대상;사용 권한;adobe target;
-description: Adobe Target Standard 및 Adobe Target Premium의 기본 사항에 대해 알아봅니다. Target Premium에는 표준 제품에서 사용할 수 없는 고급 기능이 포함되어 있습니다.
+description: Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium의 기본 사항에는 표준 제품에서 사용할 수 없는 고급 기능이 포함되어 있습니다.
 landing-page-description: 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있습니다.
 title: Target은 무슨 프로그램입니까?
-feature: Overview
+feature: 개요
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '947'
-ht-degree: 43%
+source-wordcount: '939'
+ht-degree: 41%
 
 ---
 
@@ -90,7 +90,7 @@ Target Premium에는 다음 기능이 포함되어 있습니다.
 
 자세한 내용은 [권장 사항 Classic 설명서](/help/assets/adobe-recommendations-classic.pdf)를 참조하십시오.
 
-## Experience League: Adobe Target 시작 키트 {#kit}
+## Experience League:Adobe [!DNL Target] 시작 키트 {#kit}
 
 이 환영 키트를 사용하여 [!DNL Adobe Target]에서 최적화 및 개인화 프로그램을 구축할 수 있습니다. 환영 키트에는 첫 번째 [!DNL Target] 활동을 준비하고 시작하는 데 도움이 되는 주요 정보, 도구 및 리소스가 포함되어 있습니다. 이 키트에는 단기 빠른 승인과 장기 최적화 전략에 대한 아이디어가 포함되어 있습니다.
 
