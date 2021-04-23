@@ -1,19 +1,19 @@
 ---
 keywords: at.js;at.js 디버그;adobe Experience Cloud debugger;experience cloud debugger;mbox 추적;mbox 강조 표시;디버그;디버깅
-description: Adobe Experience Cloud Debugger를 사용하여 라이브러리 구성을 보고, 요청을 검사하며, 콘솔 로깅을 켜거나 Target 호출 요청을 비활성화하는 등 다양한 작업을 할 수 있습니다.
+description: Adobe Experience Cloud Debugger를 사용하여 라이브러리 구성을 보고, 요청을 검사하며, 콘솔 로깅을 켜거나 [!DNL Target] 호출 요청 등을 비활성화할 수 있습니다.
 title: Adobe Experience Cloud Debugger를 사용하여 at.Js를 어떻게 디버그합니까?
 feature: at.js
 role: Developer
+exl-id: 764155e2-e55d-4637-8da3-44f70f3aa2a7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '201'
+source-wordcount: '202'
 ht-degree: 69%
 
 ---
 
-
-# Adobe Experience Cloud Debugger를 사용하여 at.js 디버그{#debug-at-js-using-the-adobe-experience-cloud-debugger}
+# Adobe Experience Cloud Debugger를 사용하여 at.js 디버그
 
 Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 대한 정보이며 Target 구현을 빠르고 쉽게 이해할 수 있습니다.
 
@@ -29,7 +29,7 @@ Adobe Experience Cloud Debugger 확장 프로그램을 사용하는 방법에 �
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Adobe Experience Cloud Debugger를 사용한 기본 Target 디버깅 ![개요 배지](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Adobe Experience Cloud Debugger를 사용한 기본 Adobe Target 디버깅 ![개요 배지](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
