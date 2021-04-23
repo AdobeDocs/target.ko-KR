@@ -1,17 +1,17 @@
 ---
 keywords: 개인 정보 보호;ip 주소;지리 특성;수신 거부;옵트아웃;정보 보호;정부 규정;규정;gdpr;ccpa
-description: Adobe Target이 IP 주소 수집 및 처리, 수신 거부 지침 등 해당 데이터 개인 정보 보호 법률을 준수하는 방법을 알아봅니다.
-title: Target은 개인정보 보호 문제를 어떻게 처리합니까?
-feature: Privacy & Security
+description: Adobe [!DNL Target] 이 IP 주소의 수집 및 처리, 옵트아웃 지침 등 해당 데이터 개인 정보 보호 법을 준수하는 방법을 알아봅니다.
+title: ' [!DNL Target] 개인정보 보호 문제는 어떻게 처리합니까?'
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: fb632923-fa36-4553-88a6-f27860472eb6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 70%
 
 ---
-
 
 # 개인 정보 보호
 
