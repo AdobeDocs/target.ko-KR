@@ -1,16 +1,16 @@
 ---
 keywords: 동적 데이터;자산;데이터;오퍼;개인화된 오퍼;개인 오퍼;토큰 바꾸기
-description: Adobe Target 오퍼에 동적 데이터를 전달하는 방법을 알아봅니다. 동적 오퍼를 사용하고 예와 구현 정보를 보려는 이유를 보여주는 비즈니스 사례를 탐색합니다.
+description: 동적 데이터를 Adobe [!DNL Target] 오퍼에 전달하는 방법을 알아봅니다. 동적 오퍼를 사용하고 예와 구현 정보를 보려는 이유를 보여주는 비즈니스 사례를 탐색합니다.
 title: 동적 데이터를 오퍼에 어떻게 전달합니까?
-feature: Experiences and Offers
+feature: 경험 및 오퍼
+exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 77%
 
 ---
-
 
 # 오퍼에 동적 데이터 전달
 
