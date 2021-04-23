@@ -1,16 +1,16 @@
 ---
 keywords: 엔티티;엔티티 속성;Recommendations로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
-description: 개체 속성을 사용하여 제품 또는 컨텐츠 정보를 Target Recommendations에 전달하는 방법을 알아봅니다.
+description: 개체 특성을 사용하여 제품 또는 컨텐트 정보를 [!DNL Target] Recommendations에 전달하는 방법을 알아봅니다.
 title: 개체 속성을 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
+exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 translation-type: tm+mt
-source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1079'
 ht-degree: 55%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 엔티티 속성
 
