@@ -2,15 +2,15 @@
 keywords: target 문제 해결;target 문제해결
 description: 문제 해결 항목, FAQ(자주 묻는 질문) 및 기타 유용한 항목을 포함하여 Adobe Target에서 문제를 해결하는 데 도움이 되는 항목 목록을 검토하십시오.
 title: Target 문제를 어떻게 해결합니까?
-feature: Troubleshooting
+feature: 문제 해결
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
-
 
 # Target 문제 해결
 
@@ -56,7 +56,7 @@ ht-degree: 90%
 * [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analytics 및 Target 통합(A4T)
+## 분석 및 [!DNL Target] 통합(A4T)
 
 * [Analytics와 Target의 통합 문제 해결](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 동영상입니다. [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
