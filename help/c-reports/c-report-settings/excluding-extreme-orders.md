@@ -1,16 +1,16 @@
 ---
 keywords: Target;보고서;보고서 설정;예외적인 주문;예외적인 값
-description: 몇 가지 비정상적인 주문이 활동 결과에 영향을 주지 않도록 Adobe Target에서 영향을 주는 보고서에서 예외적인 값을 제외하는 방법을 알아봅니다.
+description: 일부 비정상적인 주문이 활동 결과에 영향을 주지 않도록 Adobe [!DNL Target] 의 영향을 받는 보고서에서 예외적인 값을 제외하는 방법을 알아봅니다.
 title: 보고서에서 예외적인 값을 제외하려면 어떻게 합니까?
-feature: Reports
+feature: 보고서
+exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
-
 
 # 예외적인 값 제외
 
