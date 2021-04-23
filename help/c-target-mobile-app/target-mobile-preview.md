@@ -1,19 +1,19 @@
 ---
 keywords: qa;미리 보기;미리보기 링크;모바일;모바일 미리보기
 description: 모바일 미리 보기 링크를 사용하여 모바일 앱 활동에 대한 엔드 투 엔드 QA를 수행합니다. 특별한 테스트 장치 없이 다른 경험에 자신을 등록할 수 있습니다.
-title: Target Mobile에서 모바일 미리 보기 링크를 사용하려면 어떻게 합니까?
-feature: Implement Mobile
+title: 모바일 미리 보기 링크는  [!DNL Target] Mobile에서 어떻게 사용합니까?
+feature: 모바일 구현
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '610'
 ht-degree: 82%
 
 ---
 
-
-# Target 모바일 미리 보기{#target-mobile-preview}
+# Target 모바일 미리 보기
 
 모바일 미리 보기 링크를 사용하여 모바일 앱 활동에 대한 간단한 종단 간 QA를 수행하고 특별한 테스트 장치 없이 장치에서 다양한 경험을 직접 등록할 수 있습니다.
 
