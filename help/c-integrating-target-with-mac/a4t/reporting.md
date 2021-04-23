@@ -1,18 +1,18 @@
 ---
 keywords: target;a4t;analytics as reporting source;analytics
-description: Target(A4T)에 Analytics를 사용하는 방법을 알아봅니다. A4T는 Analytics 지표 및 대상 세그먼트를 사용하는 Target 활동에 대한 Analytics 보고서에 대한 액세스 권한을 제공합니다.
+description: 'Analytics 지표 및 대상 세그먼트를 사용하는 활동에 Analytics를 사용하는 방법을 알아봅니다. [!DNL Target] (A4T). A4T provides access to Analytics reports for [!DNL Target] '
 title: A4T에서 보고를 사용하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
+exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
 translation-type: tm+mt
-source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '690'
+source-wordcount: '678'
 ht-degree: 28%
 
 ---
 
-
-# A4T 보고{#a-t-reporting}
+# A4T 보고
 
 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target](A4T)의 보고 소스로 사용하면 [!DNL Target] 활동에 대한 [!DNL Analytics] 보고서에 액세스할 수 있습니다.
 
@@ -57,7 +57,7 @@ ht-degree: 28%
 
 자세한 정보 및 예를 보려면 [분석 및 Target을 엽니다.Adobe Experience League에서 제공하는 분석](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) 자습서에 대한 우수 사례
 
-## Target의 보고서 {#section_C0D1F17F88374B6690BF904D7B83B42E}
+## [!DNL Target] {#section_C0D1F17F88374B6690BF904D7B83B42E}의 보고서
 
 [!DNL Analytics]이(가) 보고 소스로 사용되면 [!DNL Target]의 보고서에 [!DNL Analytics]에서 수집된 데이터가 표시됩니다. 보고서는 다른 [!DNL Target] 보고서와 다소 다릅니다.
 
@@ -76,7 +76,7 @@ ht-degree: 28%
 
 활동을 만드는 중에 [!UICONTROL 설정] 페이지에서 활동의 목표를 지정해야 합니다. 이 목표는 보고서의 기본 지표가 되며 지표 선택기에서 첫 번째 옵션으로 항상 표시됩니다. 일반 Target 활동에서와 같이 보고용 세그먼트를 선택할 수는 없습니다. [!DNL Analytics]이(가) 있는 테스트에서는 [!DNL Target] 대상이 아닌 [!DNL Adobe Analytics] 세그먼트를 사용합니다.
 
-## Target(A4T) {#section_33A97A691F3A45D497DAF57A844388F0} 분석에 대한 오프라인 계산 수행
+## Adobe Target(A4T) {#section_33A97A691F3A45D497DAF57A844388F0}에 대한 Analytics에 대한 오프라인 계산 수행
 
 A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 
 
