@@ -1,18 +1,18 @@
 ---
 keywords: 다변수;mvt;미리 보기;경험
-description: VEC(Visual Experience Composer)를 사용하여 Adobe Target의 MVT(다변수 테스트) 활동에서 각 경험을 미리 보는 방법을 알아봅니다.
+description: VEC(Visual Experience Composer)를 사용하여 Adobe [!DNL Target] 의 MVT(다변수 테스트) 활동에서 각 경험을 미리 보는 방법을 알아봅니다.
 title: MVT(다변량 테스트)에 대한 경험을 미리 보는 방법
-feature: Multivariate Tests
+feature: 다변량 테스트
+exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
-
-# 다변량 테스트에 대한 경험 미리 보기{#preview-experiences-for-a-multivariate-test}
+# 다변량 테스트에 대한 경험 미리 보기
 
 [!DNL Adobe Target]의 [!UICONTROL 다변량 테스트]는 한 페이지의 여러 경험을 비교하므로 각 경험으로 페이지를 미리 보는 것이 유용합니다.
 
@@ -37,4 +37,3 @@ ht-degree: 68%
    기본적으로 모든 경험은 다변량 테스트에 포함됩니다. 제외된 경험을 포함하려면 제외된 경험을 선택하고 **[!UICONTROL 포함을 클릭합니다]**.
 
 변경을 수행할 수 있도록 **[!UICONTROL 미리 보기 모드 종료]**&#x200B;를 클릭하여 경험 작성기로 돌아가거나 **[!UICONTROL 계속]**&#x200B;을 클릭하여 테스트 요약으로 이동합니다.
-
