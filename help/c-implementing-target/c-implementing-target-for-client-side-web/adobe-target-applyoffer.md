@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.오퍼적용;오퍼 적용;오퍼적용;오퍼 적용;at.js;함수;함수
-description: 응답 컨텐츠를 적용하려면 Adobe Target at.js JavaScript 라이브러리에 대해 adobe.target.applyOffer() 함수를 사용합니다.
+description: 응답 컨텐츠를 적용하려면 Adobe [!DNL Target] at.js JavaScript 라이브러리에 adobe.target.applyOffer() 함수를 사용합니다.
 title: adobe.target.applyOffer() 함수를 어떻게 사용합니까?
 feature: at.js
 role: Developer
+exl-id: d230d48f-0d6c-4f55-96a0-681dd31e8d16
 translation-type: tm+mt
-source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '177'
-ht-degree: 72%
+source-wordcount: '175'
+ht-degree: 73%
 
 ---
-
 
 # adobe.target.applyOffer(옵션)
 
