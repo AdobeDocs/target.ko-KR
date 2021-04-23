@@ -1,23 +1,23 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;글로벌;글로벌 mbox
-description: Adobe Target 글로벌 mbox에 대한 질문과 답변을 확인할 수 있습니다.
+description: Adobe [!DNL Target] 글로벌 mbox에 대한 질문과 답변을 읽을 수 있습니다.
 title: 글로벌 Mbox에 대한 Faq는 무엇입니까?
 feature: at.js
 role: Developer
+exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 93%
+source-wordcount: '312'
+ht-degree: 85%
 
 ---
 
-
-# 글로벌 mbox 자주 묻는 질문{#global-mbox-frequently-asked-questions}
+# 글로벌 mbox FAQ
 
 글로벌 mbox에 대한 FAQ 목록
 
-## Target 계정이 여러 도메인에 걸쳐 설정된 경우 둘 이상의 글로벌 mbox를 가질 수 있습니까? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## 내 [!DNL Target] 계정이 여러 도메인에 설정된 경우 글로벌 mbox를 두 개 이상 사용할 수 있습니까?{#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 계정에서는 하나의 글로벌 mbox만 지원됩니다.
 
@@ -25,7 +25,7 @@ ht-degree: 93%
 
 [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)를 사용하여 페이지에서 매개 변수를 전달한 다음, [!UICONTROL 시각적 경험 작성기] (VEC)의 &quot;URL 구성&quot; 섹션에서 또는 양식 기반 경험 작성기에서 매개 변수를 &quot;개선&quot;으로 추가하여 해당 매개 변수를 선택할 수도 있습니다.
 
-## Target 글로벌 mbox에 대한 수입 데이터를 전달하려면 어떻게 합니까? {#section_17AEA933BADA4D169CCEDF5833C41306}
+## 매출 데이터를 [!DNL Target] 글로벌 mbox에 어떻게 전달합니까?{#section_17AEA933BADA4D169CCEDF5833C41306}
 
 target-global-mbox에 대한 수입 및 주문 정보를 수집하려면 &quot;mbox 매개 변수&quot;를 Target으로 보내야 합니다. 이 매개 변수는 Target에 추가 정보를 보내는 데 사용되는 이름/값 쌍입니다. Target은 수입 데이터를 채우기 위해 이 매개 변수(예약된 이름)를 자동으로 검색합니다.
 
