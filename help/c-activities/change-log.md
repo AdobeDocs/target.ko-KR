@@ -1,16 +1,16 @@
 ---
 keywords: 작업 변경 로그;변경 로그
-description: Adobe Target의 활동 변경 로그에 액세스하여 활동을 변경한 사람과 변경 사항이 발생한 시기를 확인할 수 있습니다.
+description: Adobe [!DNL Target] 에서 활동의 변경 로그에 액세스하여 활동을 변경한 사람과 변경 사항이 발생한 시기를 기록합니다.
 title: 활동 변경 로그는 어떻게 볼 수 있습니까?
-feature: Activities
+feature: 활동
+exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
-
 
 # 활동 변경 로그
 
