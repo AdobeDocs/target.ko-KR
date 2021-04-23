@@ -1,18 +1,18 @@
 ---
 keywords: 자동 트래픽 할당;타깃팅;수상자;통계적 보장;신뢰;결정 승자;리프트;신뢰도;기본값;기본 경험;자동 할당
-description: 상승도와 신뢰도를 포함한 중요한 지표를 검사하여 Adobe Target에서 A/B 자동 할당 활동의 결과를 해석하는 방법을 알아봅니다.
+description: 상승도와 신뢰도를 포함한 중요한 지표를 검사하여 Adobe [!DNL Target] 에서 자동 할당 A/B 활동의 결과를 해석하는 방법을 알아봅니다.
 title: 자동 할당 보고서를 어떻게 해석합니까?
-feature: Auto-Allocate
+feature: 자동 할당
+exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 46%
 
 ---
 
-
-# 자동 할당 보고서 해석 {#determine-a-winner}
+# 자동 할당 보고서 해석
 
 상승도와 신뢰도를 포함한 중요한 표시기를 검사하여 [!UICONTROL Adobe Target] A/B 활동의 결과를 해석합니다.
 
@@ -76,4 +76,3 @@ A/B 활동의 끝에서 자동 할당은 결정된 승자에 5%의 유효한 긍
 
 * 자동 할당은 가장 성과가 좋은 경험이 60% 신뢰도를 모은 후에만 신뢰도 표시를 시작합니다. 이러한 신뢰 수준은 일반적으로 일반 A/B 테스트가 완료되는 데 걸리는 시간의 약 절반 후에 나타납니다(보장되지는 않지만). 일반적인 A/B 테스트를 실행하는 시간을 확인하려면 [샘플 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html):&quot;기준선 전환율&quot;, &quot;리프트&quot;, &quot;리프트&quot; 및 &quot;신뢰도&quot;의 95%의 플러그인 컨트롤의 전환율 일반적으로 신뢰도는 각 경험이 경험당 필요한 샘플을 50% 이상 축적하면 표시를 시작합니다. 이것으로 신뢰도 표시가 시작되는 시기를 알 수 있습니다.
 * 보고서가 보드 전체에서 0%를 표시한다면 활동이 너무 이른 것일 수 있습니다.
-
