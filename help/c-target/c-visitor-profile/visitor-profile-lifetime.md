@@ -2,17 +2,17 @@
 keywords: 개요 및 참조
 description: Adobe Target에서 방문자 프로필이 만료되는 시기(기본적으로 14일)에 대해 자세히 알아보십시오. Adobe 클라이언트 지원팀에 연락하여 프로필 라이프타임을 연장할 수 있습니다.
 title: 방문자 프로필 라이프타임은 무엇이며 연장할 수 있습니까?
-feature: Audiences
+feature: 대상자
+exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 73%
 
 ---
 
-
-# 방문자 프로필 라이프타임{#visitor-profile-lifetime}
+# 방문자 프로필 라이프타임
 
 기본적으로 방문자 프로필은 해당 방문자가 14일 동안 활동이 없으면 만료됩니다. 이 프로필 라이프타임은 연장할 수 있습니다.
 
