@@ -1,23 +1,23 @@
 ---
 keywords: 구현;구현;adobe launch;launch;race;redirect;experience platform launch
-description: Adobe Target 구현에 선호하는 방법인 Adobe Experience Platform Launch을 사용하여 Adobe Target at.js 라이브러리를 구현하는 방법을 알아봅니다.
-title: Adobe 시작을 사용하여 Target을 구현하려면 어떻게 합니까?
-feature: Implement Server-side
+description: Adobe [!DNL Target]을 구현하는 데 선호하는 방법인 Adobe Experience Platform Launch을 사용하여 Adobe [!DNL Target] at.js 라이브러리를 구현하는 방법을 알아봅니다.
+title: Adobe 시작을 사용하여  [!DNL Target] 을 구현하려면 어떻게 합니까?
+feature: 서버측 구현
 role: Developer
+exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 76%
+source-wordcount: '450'
+ht-degree: 75%
 
 ---
 
-
-# Adobe Launch를 사용하여 Target 구현을 참조하십시오
+# Adobe 시작을 사용하여 [!DNL Target] 구현
 
 Adobe Experience Platform Launch은 Adobe의 차세대 태그 관리 플랫폼으로 Adobe Target을 구현하는 데 가장 선호되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
 
-## Adobe Launch를 사용하여 Target 구현{#topic_5234DDAEB0834333BD6BA1B05892FC25}을 참조하십시오 
+## Adobe 시작 {#topic_5234DDAEB0834333BD6BA1B05892FC25}을(를) 사용하여 [!DNL Target] 구현
 
 Launch는 Adobe의 차세대 태그 관리 플랫폼이며 Adobe Target을 구현하는 데 권장되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
 
@@ -29,7 +29,7 @@ Launch는 Adobe의 차세대 태그 관리 플랫폼이며 Adobe Target을 구�
 | [Adobe Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | 관련 고객 경험을 수행하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배치하고 관리하는 방법에 대한 정보입니다. |
 | [Adobe Target 확장 설명서](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Launch를 사용하여 Target을 구현하는 방법에 대한 정보입니다. |
 
-## Target 시작 확장 {#section_48B3F938B6F8491DAF798E0DB54EF304}을 사용하여 at.js를 구현하는 이점
+## [!DNL Target] 시작 확장 {#section_48B3F938B6F8491DAF798E0DB54EF304}을 사용하여 at.js를 구현하는 이점
 
 Adobe Launch를 사용하여 at.js를 구현하는 경우에만 다음과 같은 이점이 있습니다. 따라서 DTM이 아닌 Adobe Launch를 사용하거나 at.js를 수동으로 구현하는 것이 좋습니다.
 
