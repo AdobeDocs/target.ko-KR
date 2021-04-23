@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations
-description: 이 통합을 구현하기 전에 Analytics for Target(A4T)의 구현 요구 사항과 고려해야 할 사항에 대해 알아봅니다.
+description: 이 통합을 구현하기 전에  [!DNL Target] (A4T)에 대한 Analytics의 구현 요구 사항과 고려해야 할 사항에 대해 알아봅니다.
 title: A4T를 구현하기 전에 무엇을 알아야 합니까?
 feature: Analytics for Target (A4T)
+exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '883'
 ht-degree: 34%
 
 ---
 
-
-# 구현하기 전에{#before-you-implement}
+# 구현하기 전에
 
 [!DNL Adobe Target](A4T)의 보고 소스로 [!DNL Adobe Analytics]을(를) 활성화할 때 데이터 수집 프로세스에서 몇 가지 변경 사항이 발생합니다.
 
