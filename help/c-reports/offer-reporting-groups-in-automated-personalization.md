@@ -1,18 +1,18 @@
 ---
 keywords: 자동 개인화;오퍼;보고;그룹;reporting group
-description: Adobe Target Automated Personalization 활동에서 오퍼 보고 그룹을 사용하는 방법을 알아봅니다. 보고 그룹을 사용하는 Target은 각 보고 그룹에 대해 하나의 개인화 모델만 만듭니다.
+description: Adobe [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] 에서 오퍼 보고 그룹을 사용하여 각 보고 그룹에 대해 하나의 개인화 모델만 만드는 방법을 알아봅니다.
 title: Automated Personalization 활동에서 오퍼 보고 그룹을 사용할 수 있습니까?
-feature: Reports
+feature: 보고서
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 61%
+source-wordcount: '441'
+ht-degree: 63%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 자동화된 개인화의 오퍼 보고 그룹{#offer-reporting-groups-in-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) 자동화된 개인화의 오퍼 보고 그룹
 
 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)(AP) 활동에서 보고 그룹을 사용하는 방법에 대한 정보입니다.
 
@@ -53,4 +53,3 @@ ht-degree: 61%
    선택한 오퍼를 지정할 새 보고 그룹을 생성하려면 **[!UICONTROL 새로 만들기]**&#x200B;를 선택하고 새 보고 그룹의 이름을 지정한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
    ![](assets/ap_reporting_groups.png)
-
