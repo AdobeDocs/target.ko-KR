@@ -1,17 +1,17 @@
 ---
-description: Adobe Target에서 사용하는 다양한 용어가 의미하는 것은? Target을 얻는 데 도움이 되는 일반 용어에 대한 정의를 찾습니다.
+description: Adobe [!DNL Target] 에 사용되는 서로 다른 용어는 무엇입니까? 일반 용어에 대한 정의를 찾아 자세히 알아보십시오 [!DNL Target].
 title: Target에 사용된 용어와 정의는 어디에서 찾을 수 있습니까?
-feature: Overview
+feature: 개요
+exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2470'
 ht-degree: 90%
 
 ---
 
-
-# 용어 설명{#glossary}
+# 용어 설명
 
 용어 정의입니다.
 
