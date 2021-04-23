@@ -1,19 +1,19 @@
 ---
 keywords: 쿠키;쿠키;삭제 쿠키;대상 쿠키;google chrome;mozilla firefox;microsoft edge;safari
-description: 경험의 유효성을 확인할 수 있도록 Target 브라우저 쿠키를 삭제하는 방법을 알아봅니다.
-title: Target 쿠키를 삭제하려면 어떻게 합니까?
-feature: Privacy & Security
+description: 경험의 유효성을 확인할 수 있도록  [!DNL Target] 브라우저 쿠키를 삭제하는 방법을 알아봅니다.
+title: ' [!DNL Target] 쿠키를 삭제하려면 어떻게 합니까?'
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: f2bc079e-593a-4689-a7cd-dfc6f86f6bb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 1%
+source-wordcount: '423'
+ht-degree: 0%
 
 ---
 
-
-# Target 쿠키 삭제
+# [!DNL Target] 쿠키 삭제
 
 테스트하는 동안 모든 경험의 유효성을 검사할 수 있도록 [!DNL Adobe Target] 브라우저 쿠키(mbox)를 삭제할 수 있습니다.
 
@@ -23,7 +23,7 @@ ht-degree: 1%
 >
 >다음 지침은 나열된 브라우저 및 버전에 대해 올바르게 제공됩니다. 특정 브라우저 또는 버전에 대한 지침을 인터넷에서 검색합니다.
 
-## Google Chrome에서 Target 쿠키 삭제
+## Google Chrome에서 [!DNL Target] 쿠키 삭제
 
 버전 84.0.4147.105
 
@@ -33,7 +33,7 @@ ht-degree: 1%
 1. **모든 쿠키 및 사이트 데이터 보기**&#x200B;를 클릭합니다.
 1. `adobe.com` 섹션을 확장하고 **mbox** 쿠키를 선택한 다음 삭제 아이콘(X)을 클릭합니다.
 
-## Mozilla Firefox에서 Target 쿠키 삭제
+## Mozilla Firefox에서 [!DNL Target] 쿠키 삭제
 
 버전 79.0
 
@@ -56,7 +56,7 @@ ht-degree: 1%
 1. **쿠키** 섹션을 확장한 다음 `https://experience.adobe.com`를 클릭합니다.
 1. **mbox** 쿠키를 마우스 오른쪽 단추로 클릭한 다음 **삭제**&#x200B;를 클릭합니다.
 
-## Microsoft Edge에서 Target 쿠키 삭제
+## Microsoft Edge에서 [!DNL Target] 쿠키 삭제
 
 버전 84.0.522.52
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 1. **모든 쿠키 및 사이트 데이터 보기**&#x200B;를 클릭합니다.
 1. `adobe.com` 섹션을 확장하고 **mbox** 쿠키를 선택한 다음 삭제 아이콘(X)을 클릭합니다.
 
-## Apple Safari에서 Target 쿠키 삭제
+## Apple Safari에서 [!DNL Target] 쿠키 삭제
 
 버전 13.1.2
 
