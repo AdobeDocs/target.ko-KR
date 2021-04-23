@@ -1,18 +1,18 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;부풀려짐;방문;방문자;부분 히트;고립됨;고아;partial-hit
-description: Analytics for Target(A4T)를 사용할 때 부풀려진 방문 및 방문자 수에 대한 질문에 대한 답변을 찾습니다. "부분 데이터"를 최소화하는 방법을 알아봅니다.
+description: Analytics for [!DNL Target] (A4T)을 사용할 때 부풀려진 방문 및 방문자 수에 대한 질문에 대한 답변을 찾습니다. "부분 데이터"를 최소화하는 방법을 알아봅니다.
 title: A4T를 사용하여 부풀려진 방문 및 방문자 수에 대한 Faq는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
+exl-id: e936b1f6-dc72-4ab2-9bb5-169d1710edbe
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 63%
+source-wordcount: '658'
+ht-degree: 61%
 
 ---
 
-
-# 부풀려진 방문 및 방문자 카운트 - A4T FAQ{#inflated-visit-and-visitor-counts-a-t-faq}
+# 부풀려진 방문 및 방문자 카운트 - A4T FAQ
 
 이 주제에서는 Analytics를 Target(A4T)의 보고 소스로 사용할 때 부풀려진 방문 및 방문자 카운트와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
@@ -50,12 +50,12 @@ ht-degree: 63%
 
 부분 데이터 히트를 최소화하기 위해 수행할 수 있는 절차도 있습니다. 자세한 내용은 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 &quot;부분 데이터를 줄이는 우수 사례는 무엇입니까?&quot;를 참조하십시오.
 
-## 부분 데이터 히트 데이터가 보고에서 제거되면 중요한 Target 또는 분석 데이터가 손실되지 않습니까?{#section_EBC39E8A0F6A40E58F51E776936F7D9E}
+## 부분 데이터 히트 데이터가 보고에서 제거되면 중요한 [!DNL Target] 또는 Analytics 데이터가 손실되지 않습니까?{#section_EBC39E8A0F6A40E58F51E776936F7D9E}
 
 [!DNL Analytics] 보고에서 부분 데이터를 포함하면 추가 정보가 제공되지만 실행 중인 [!DNL Target] 활동이 없는 기간의 내역 데이터와 불일치가 생성됩니다. 부분 히트 데이터를 포함하면 시간에 따른 트렌드를 분석하는 [!DNL Analytics] 사용자에게 문제가 발생할 수 있습니다.
 
 부분 데이터 히트를 최소화하기 위해 수행할 수 있는 절차가 있습니다. 자세한 내용은 in [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)의 &quot;부분 데이터를 줄이는 우수 사례는 무엇입니까?&quot;를 참조하십시오.
 
-## 부분 데이터 히트를 초래할 수 있는 특정 유형의 Target 활동이 있습니까? {#section_69837442A9B84366BEFDA4588B31E574}
+## 부분 데이터 히트를 유발할 가능성이 높은 특정 유형의 [!DNL Target] 활동이 있습니까?{#section_69837442A9B84366BEFDA4588B31E574}
 
 리디렉션 오퍼에서는 즉시 사용자를 다른 페이지에 보냅니다. 이것은 [!DNL Analytics] 호출이 첫 번째 페이지에서 실행되지 않음을 의미합니다.
