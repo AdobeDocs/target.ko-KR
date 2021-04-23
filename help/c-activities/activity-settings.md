@@ -1,16 +1,16 @@
 ---
 keywords: 목표 및 설정;목표;우선순위;기간
-description: Adobe Target의 활동 설정을 사용하여 활동의 목표, 우선순위 및 기간을 관리하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 에서 활동 설정을 사용하여 활동의 목표, 우선순위 및 기간을 관리하는 방법에 대해 알아봅니다.
 title: 활동 설정을 어떻게 지정합니까?
-feature: Activities
+feature: 활동
+exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 80%
 
 ---
-
 
 # 활동 설정
 
