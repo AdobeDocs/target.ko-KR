@@ -4,16 +4,16 @@ description: Adobe Target에서 at.js JavaScript 라이브러리의 1.x 및 2.x 
 title: at.js에서 사용할 수 있는 기능은 무엇입니까?
 feature: at.js
 role: Developer
+exl-id: a386e478-16f4-4bf6-9771-6b1e75f2e362
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '542'
 ht-degree: 94%
 
 ---
 
-
-# at.js 함수를 참조하십시오{#at-js-functions}
+# at.js 함수
 
 Adobe Target at.js JavaScript 라이브러리와 함께 사용할 수 있는 함수 목록. 자세한 내용 및 예를 보려면 함수 열의 링크를 클릭합니다.
 
@@ -33,4 +33,3 @@ Adobe Target at.js JavaScript 라이브러리와 함께 사용할 수 있는 함
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | 특정 확장 기능을 등록하는 표준 방법을 제공합니다.<br>**참고:** 이 함수는 at.js 버전 1.*x*&#x200B;에만 사용할 수 있습니다. 이 함수는 at.js 2.x의 릴리스에서 더 이상 사용되지 않으며, at.js 2.x에서 사용하는 경우 기본 콘텐츠를 반환합니다. |
 | [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | at.js 사용자 지정 이벤트는 mbox 요청 또는 오퍼가 실패하거나 성공하면 알려줍니다. |
 | [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at.js 2.1.0) | 이 함수는 `adobe.target.applyOffer()` 또는 `adobe.target.applyOffers()`를 사용하지 않고 경험을 렌더링할 때 Target Edge에 알림을 보냅니다.<br>**참고**: 이 함수는 at.js 2.1.0에서 처음 소개되었으며, 2.1.0 이상 버전에서 사용할 수 있습니다. |
-
