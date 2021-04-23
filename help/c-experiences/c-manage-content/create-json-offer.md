@@ -1,18 +1,18 @@
 ---
 keywords: 원격 오퍼;원격 오퍼 만들기
-description: 양식 기반 Experience Composer에서 사용할 수 있도록 Adobe Target에서 JSON 오퍼를 만드는 방법을 알아봅니다. JSON 오퍼는 SPA 프레임워크 또는 서버측 통합에 유용합니다.
+description: 양식 기반 경험 작성기에서 사용할 Adobe [!DNL Target] 에서 JSON 오퍼를 만드는 방법을 알아봅니다. JSON 오퍼는 SPA 프레임워크 또는 서버측 통합에 유용합니다.
 title: JSON 오퍼는 어떻게 생성합니까?
-feature: Experiences and Offers
+feature: 경험 및 오퍼
+exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
+source-wordcount: '413'
 ht-degree: 54%
 
 ---
 
-
-# JSON 오퍼 만들기{#create-json-offers}
+# JSON 오퍼 만들기
 
 [!UICONTROL 양식 기반 경험 작성기]에서 사용할 JSON 오퍼를 [!DNL Adobe Target]의 [!UICONTROL 오퍼 라이브러리]에서 만듭니다.
 
@@ -138,4 +138,3 @@ adobe.target.getOffer({
 **[!UICONTROL 유형]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL JSON]** 확인란을 선택하여 JSON 오퍼 유형에 따라 [!UICONTROL 오퍼] 라이브러리를 필터링할 수 있습니다.
 
 ![](assets/offer-json-filter.png)
-
