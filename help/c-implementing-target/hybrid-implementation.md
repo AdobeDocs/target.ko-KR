@@ -1,17 +1,17 @@
 ---
 keywords: 하이브리드 배포;하이브리드;서버측;서버측;서버측;클라이언트측;클라이언트측;클라이언트측;클라이언트측;하이브리드 구현
 description: 클라이언트측과 서버측 구현을 혼합하여 개인화를 위한 Adobe Target의 고유한 하이브리드 배포 모델에 대해 알아봅니다.
-title: 하이브리드 Target 구현이란 무엇입니까?
-feature: Implementation
+title: 하이브리드 [!DNL Target] 구현이란 무엇입니까?
+feature: 구현
 role: Developer
+exl-id: af898360-217f-4c90-ac26-e80735e4dd20
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '103'
 ht-degree: 0%
 
 ---
-
 
 # 하이브리드 구현
 
