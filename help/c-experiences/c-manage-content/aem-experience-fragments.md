@@ -1,16 +1,16 @@
 ---
 keywords: 경험;json;aem;adobe experience manager;adobe target으로 내보내기;경험 조각;조각;XF
-description: Adobe Target 활동에서 AEM 경험 조각을 사용하는 방법을 알아봅니다. 사용이 간편하고 강력한 AEM 기능과 Target의 강력한 AI 및 ML 기능을 결합할 수 있습니다.
+description: Adobe [!DNL Target] 활동에서 AEM 경험 조각을 사용하는 방법을 알아봅니다. AEM의 사용 편이성 및 강력한 기능과 강력한 AI 및 ML 기능을 [!DNL Target]에 통합할 수 있습니다.
 title: AEM(Adobe Experience Manager) 경험 조각을 어떻게 사용합니까?
-feature: Experiences and Offers
+feature: 경험 및 오퍼
+exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '1132'
 ht-degree: 14%
 
 ---
-
 
 # AEM 경험 구성요소
 
@@ -78,7 +78,7 @@ ht-degree: 14%
 * **[!DNL AEM]6.4**: [경험 조각을 ](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4 *설명서로* 타깃팅합니다.
 * **[!DNL AEM]6.5**: [경험 조각을 ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.5  *설명서로 내보내기타깃팅합니다* .
 
-## Target 활동에서 경험 조각 사용 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## [!DNL Target] 활동 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}에서 경험 조각 사용
 
 이전 작업을 수행한 후 경험 조각은 [!DNL Target]의 [!UICONTROL 오퍼] 페이지에 표시됩니다.
 
