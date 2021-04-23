@@ -1,18 +1,18 @@
 ---
 keywords: 사용자 지정 매개 변수;타겟 사용자 지정 매개 변수;targetpageparams;타깃팅 mbox 매개 변수
-description: 대상에 사용하기 위해 사용자 지정 매개 변수를 Adobe Target에 전달하는 방법을 알아봅니다.
-title: 사용자 지정 매개 변수를 기반으로 방문자를 Target할 수 있습니까?
-feature: Audiences
+description: 대상에 사용하기 위해 사용자 지정 매개 변수를 Adobe [!DNL Target] 에 전달하는 방법을 알아봅니다.
+title: '사용자 지정 매개 변수를 기반으로 방문자를 지정할 수 있습니까? [!DNL Target] '
+feature: 대상자
+exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 84%
+source-wordcount: '410'
+ht-degree: 85%
 
 ---
 
-
-# 사용자 지정 매개 변수{#custom-parameters}
+# 사용자 지정 매개 변수
 
 사용자 지정 매개 변수는 mbox 매개 변수입니다. 임의의 mbox 매개 변수를 mbox에 전달하거나 targetPageParams 함수를 사용하는 경우 이러한 매개 변수는 대상에서 사용할 수 있도록 여기에 표시됩니다.
 
