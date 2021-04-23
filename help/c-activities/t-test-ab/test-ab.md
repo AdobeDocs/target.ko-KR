@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB...n;비교 경험;타깃팅;비교 내용;자동 대상;자동 할당
-description: Adobe Target - 수동, 자동 할당 및 자동 Target에서 다양한 유형의 A/B 테스트 활동에 대해 알아보십시오. 귀하에게 딱 맞는 제품을 선택하십시오.
+description: Adobe [!DNL Target] - 수동, 자동 할당 및 자동 Target에서 다양한 유형의 A/B 테스트 활동에 대해 알아보십시오. 귀하에게 딱 맞는 제품을 선택하십시오.
 title: Target에서 사용할 수 있는 A/B 활동 유형은 무엇입니까?
-feature: A/B Tests
+feature: A/B 테스트
+exl-id: e8ff8994-a0a9-4fc7-8fcb-e3a1b7697604
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 38%
 
 ---
-
 
 # A/B 테스트 개요
 
