@@ -1,19 +1,19 @@
 ---
 keywords: 타겟 페이지 매개변수;타겟 페이지 매개변수;페이지 매개 변수;페이지 매개변수;페이지 매개변수;페이지 매개변수;at.js;함수;함수
-description: Adobe Target at.js JavaScript 라이브러리에 대한 targetPageParams() 함수를 사용하여 요청 코드 외부에서 전역 mbox에 매개 변수를 첨부합니다.
+description: Adobe [!DNL Target] at.js JavaScript 라이브러리에 대한 targetPageParams() 함수를 사용하여 요청 코드 외부에서 전역 mbox에 매개 변수를 첨부합니다.
 title: targetPageParams() 함수를 사용하려면 어떻게 합니까?
 feature: at.js
 role: Developer
+exl-id: 0772b400-626c-45d8-a4b5-a12691978cf3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '168'
 ht-degree: 72%
 
 ---
 
-
-# targetPageParams() {#reference_B235C9F6DA79449ABE3E23F914FEABAE}
+# targetPageParams()
 
 이 방법을 사용하면 요청 코드의 외부에서 글로벌 mbox에 매개 변수를 첨부할 수 있습니다.
 
