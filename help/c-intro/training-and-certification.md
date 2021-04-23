@@ -1,18 +1,18 @@
 ---
 keywords: 교육;인증;대상;온라인 과정;교육 과정;클래스;certification;target;online course;class;classes
-description: Adobe 트레이닝 서비스에서 제공하는 Adobe Target 강의 및 인증을 찾아보십시오.
+description: Adobe 트레이닝 서비스에서 제공하는 Adobe [!DNL Target] 클래스와 인증을 찾아보십시오.
 title: 교육 및 인증 수업은 어디에서 찾을 수 있습니까?
-feature: Overview
+feature: 개요
+exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 47%
+ht-degree: 48%
 
 ---
 
-
-# 교육 및 인증{#training-and-certification}
+# 교육 및 인증
 
 Adobe 교육 서비스는 Adobe Target을 비롯한 Adobe 제품 및 솔루션에 대한 수업 및 인증을 제공합니다.
 
@@ -24,4 +24,3 @@ Adobe 교육 서비스는 Adobe Target을 비롯한 Adobe 제품 및 솔루션�
 |---|---|
 | 유럽, 중동 및 아프리카 | [ats_emea@adobe.com](mailto:ats_emea@adobe.com) |
 | 아시아 태평양 | [ats_apac@adobe.com](mailto:ats_apac@adobe.com) |
-
