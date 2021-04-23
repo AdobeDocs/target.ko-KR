@@ -1,16 +1,16 @@
 ---
 keywords: 자동화된 개인화;ap;audiences;앙상블;임의 포리스트;다중 무장 강도;톰슨 샘플링;ml;기계 학습
-description: 각 방문자에게 다양한 오퍼 변형을 일치시키기 위해 고급 기계 학습을 사용하는 Adobe Target의 Automated Personalization(AP) 활동을 사용하는 방법에 대해 알아보십시오.
+description: 각 방문자에게 다양한 오퍼 변형을 일치시키기 위해 고급 기계 학습을 사용하는 Adobe [!DNL Target] 에서 Automated Personalization(AP) 활동을 사용하는 방법에 대해 알아보십시오.
 title: Automated Personalization(AP) 활동이란 무엇입니까?
-feature: Automated Personalization
+feature: 자동화된 개인화
+exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 88%
+source-wordcount: '1033'
+ht-degree: 89%
 
 ---
-
 
 # ![](/help/assets/premium.png) Premiuma자동화된 개인화 (AP)
 
