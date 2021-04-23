@@ -1,14 +1,14 @@
 ---
 keywords: 구현;구현;설정;사용자 특성
-description: 고객 특성을 활용하여 데이터를 Target으로 가져올 수 있습니다.
-title: 고객 속성을 사용하여 데이터를 Target으로 가져오려면 어떻게 해야 합니까?
-feature: Implementation
+description: 고객 특성을 사용하여 [!DNL Target] 에 데이터를 가져옵니다.
+title: '고객 속성을 사용하여 데이터를 가져오려면 어떻게 해야 합니까? [!DNL Target] '
+feature: 구현
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '223'
 ht-degree: 51%
 
 ---
