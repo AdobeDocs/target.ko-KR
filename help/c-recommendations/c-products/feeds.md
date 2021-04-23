@@ -1,18 +1,18 @@
 ---
 keywords: 추천 피드;피드;SAINT;ftp;csv;classifications;analytics 분류
-description: 피드가 CSV 파일, Google 제품 검색 피드 형식 및 Analytics 제품 분류를 사용하여 개체를 Adobe Target Recommendations으로 가져오는 방법을 알아봅니다.
-title: Target Recommendations에서 피드를 사용하려면 어떻게 해야 합니까?
+description: 피드가 CSV 파일, Google 제품 검색 피드 형식 및 Analytics 제품 분류를 사용하여 Adobe [!DNL Target] Recommendations으로 개체를 가져오는 방법을 알아봅니다.
+title: ' [!DNL Target] Recommendations에서 피드를 사용하려면 어떻게 합니까?'
 feature: Recommendations
+exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2522'
 ht-degree: 83%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 피드{#feeds}
+# ![PREMIUM](/help/assets/premium.png) 피드
 
 [!DNL Adobe Target Recommendations]에 가져온 엔티티를 가져오려면 피드를 사용하십시오. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다.
 
