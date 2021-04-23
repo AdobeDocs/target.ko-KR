@@ -1,17 +1,17 @@
 ---
 keywords: 보고 소스로 분석;a4t;A4T;요구 사항
-description: Analytics for Target(A4T)를 사용하여 Adobe Target에서 Adobe Analytics 기반 활동을 만드는 데 필요한 사용자 계정 요구 사항을 구성하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T)에서 Adobe Analytics 기반 활동을 만드는 데 필요한 사용자 계정 요구 사항을 구성하는 방법을 알아봅니다.
 title: A4T에 필요한 사용자 권한 요구 사항은 무엇입니까?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
+exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 translation-type: tm+mt
-source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '307'
 ht-degree: 36%
 
 ---
-
 
 # 사용자 권한 요구 사항
 
@@ -56,6 +56,6 @@ ht-degree: 36%
    [!DNL Analytics]을(를) [!DNL Target]의 보고 소스로 사용하려면 [!UICONTROL 웹 서비스 액세스] 그룹에 액세스해야 합니다.[!DNL Analytics]
 
 
-## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
+## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
 
 추가적인 권한이 필요하지 않습니다.
