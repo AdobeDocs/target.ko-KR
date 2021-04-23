@@ -1,14 +1,14 @@
 ---
 keywords: 단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현;spa;at.js 2.x;at.js;단일 페이지 애플리케이션;단일 페이지 앱;spa;SPA
-description: Adobe Target at.js 2.x를 사용하여 단일 페이지 애플리케이션(SPA)에 대한 Target을 구현하는 방법을 알아봅니다.
-title: SPA(단일 페이지 애플리케이션)에 대한 Target을 구현할 수 있습니까?
-feature: Implement Server-side
+description: SPA(단일 페이지 응용 프로그램에 대해 Adobe [!DNL Target] at.js 2.x to implement [!DNL Target] 을 사용하는 방법에 대해 알아보십시오.
+title: 단일 페이지 응용 프로그램(SPA)에 대해 [!DNL Target] 을 구현할 수 있습니까?
+feature: 서버측 구현
 role: Developer
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '2777'
-ht-degree: 73%
+source-wordcount: '2770'
+ht-degree: 72%
 
 ---
 
@@ -27,7 +27,7 @@ at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같
 * 오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.
 * 간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 SPA에서 VEC를 통해 A/B 및 경험 타깃팅(XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.
 
-## Adobe Target 보기 및 단일 페이지 애플리케이션
+## Adobe [!DNL Target] 보기 및 단일 페이지 애플리케이션
 
 SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA 경험을 함께 구성하는 시각적 요소의 논리 그룹)을 활용합니다. 따라서 SPA는 사용자 상호 작용을 기반으로 하여 URL 대신 보기를 통해 전환으로 간주할 수 있습니다. &quot;보기&quot;는 일반적으로 전체 사이트를 나타내거나 사이트 내의 그룹화된 시각적 요소를 나타낼 수 있습니다.
 
@@ -63,7 +63,7 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 이제 마케터는 빠른 배달을 선택했을 때 단추 색상을 두 배달 선택 사항 모두에 대해 파란색으로 유지하는 것과 대조적으로 색상을 파란색에서 빨간색으로 변경하는 것이 전환을 더 끌어올릴 수 있을지 여부를 확인하기 위해 A/B 테스트를 실행할 수 있습니다.
 
-## Adobe Target 보기 구현
+## Adobe [!DNL Target] 보기 구현
 
 Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개념을 활용하여 마케터가 VEC를 통해 SPA에서 A/B 및 XT 테스트를 실행하도록 지원할 수 있습니다. 이렇게 하려면 일회용 개발자 설정이 필요합니다. 이 설정을 수행하는 절차를 살펴보겠습니다.
 
@@ -209,9 +209,9 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
 | 단계 | 세부 사항 |
 | --- | --- |
-| 3 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
+| 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
 | 2 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
-| 3 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 1 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
 | 5 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
@@ -283,7 +283,7 @@ at.js 2.x API를 사용하면 다양한 방식으로 [!DNL Target] 구현을 사
 
 | 단계 | Action | 세부 사항 |
 | --- | --- | --- |
-| 3 | VisitorAPI JS 로드 | 이 라이브러리는 방문자에게 ECID를 할당해야 합니다. 이 ID는 나중에 웹 페이지의 다른 [!DNL Adobe] 솔루션에 의해 사용됩니다. |
+| 1 | VisitorAPI JS 로드 | 이 라이브러리는 방문자에게 ECID를 할당해야 합니다. 이 ID는 나중에 웹 페이지의 다른 [!DNL Adobe] 솔루션에 의해 사용됩니다. |
 | 2 | at.js 2.x 로드 | at.js 2.x는 [!DNL Target] 요청 및 보기를 구현하는 데 사용하는 모든 필수 API를 로드합니다. |
 | 1 | [!DNL Target] 요청 실행 | 데이터 레이어가 있는 경우 [!DNL Target] 요청을 실행하기 전에 [!DNL Target]으로 보내야 하는 중요 데이터를 로드하는 것이 좋습니다. 이렇게 하면 `targetPageParams`을(를) 사용하여 타깃팅에 사용할 데이터를 보낼 수 있습니다. 이 API 호출에서 [프리페치] > [보기]는 물론 [실행] > [pageLoad]를 요청해야 합니다. `pageLoadEnabled` 및 `viewsEnabled`을 설정한 경우, 두 단계 모두 실행 > pageLoad 및 prefetch > 보기 횟수는 자동으로 2단계에서 발생합니다.그렇지 않은 경우 `getOffers()` API를 사용하여 이 요청을 해야 합니다. |
 | 4 | 호출 `triggerView()` | 3단계에서 시작한 [!DNL Target] 요청은 보기 뿐만 아니라 페이지 로드 실행에 대한 경험을 반환할 수 있으므로 [!DNL Target] 요청이 반환되고 오퍼가 캐시에 적용된 것을 마친 후 `triggerView()`이(가) 호출되는지 확인하십시오. 이 단계를 뷰당 한 번만 실행해야 합니다. |
@@ -294,9 +294,9 @@ at.js 2.x API를 사용하면 다양한 방식으로 [!DNL Target] 구현을 사
 
 | 단계 | 작업 | 세부 사항 |
 | --- | --- | --- |
-| 3 | 호출 `visitor.resetState()` | 이 API는 SDID가 로드될 때 새 보기에 대해 다시 생성됩니다. |
+| 1 | 호출 `visitor.resetState()` | 이 API는 SDID가 로드될 때 새 보기에 대해 다시 생성됩니다. |
 | 2 | `getOffers()` API를 호출하여 캐시 업데이트 | 이 보기 변경으로 인해 현재 방문자에게 더 많은 [!DNL Target] 활동에 대한 자격을 부여하거나 활동에서 자격을 박탈할 가능성이 있는 경우 이것은 선택 단계입니다. 이 시점에서 추가적인 타깃팅 기능을 사용하도록 추가 데이터를 [!DNL Target]에 보내도록 선택할 수도 있습니다. |
-| 3 | 호출 `triggerView()` | 2단계를 실행한 경우 [!DNL Target] 요청을 기다렸다가 이 단계를 실행하기 전에 오퍼를 캐시에 적용해야 합니다. 이 단계를 뷰당 한 번만 실행해야 합니다. |
+| 1 | 호출 `triggerView()` | 2단계를 실행한 경우 [!DNL Target] 요청을 기다렸다가 이 단계를 실행하기 전에 오퍼를 캐시에 적용해야 합니다. 이 단계를 뷰당 한 번만 실행해야 합니다. |
 | 4 | 호출 `triggerView()` | 2단계를 실행하지 않은 경우 1단계를 완료하는 대로 이 단계를 실행할 수 있습니다. 2단계와 3단계를 실행한 경우 이 단계를 건너뛰어야 합니다. 이 단계를 뷰당 한 번만 실행해야 합니다. |
 | 5 | [!DNL Analytics] 페이지 보기 비콘을 호출합니다. | 이 비콘은 데이터 스티칭에 대해 2단계, 3단계 및 4단계와 연관된 SDID를 [!DNL Analytics]으로 보냅니다. |
 | 6 | 추가 `triggerView({"page": false})` 호출 | 이는 보기 변경 사항이 발생하지 않으면서 페이지에서 특정 구성 요소를 다시 렌더링할 수 있는 SPA 프레임워크의 선택 단계입니다. 이러한 경우 SPA 프레임워크에서 구성 요소를 다시 렌더링한 후 [!DNL Target] 경험이 다시 적용되도록 하려면 이 API를 불러와야 합니다. 이 단계를 SPA 보기에서 [!DNL Target] 경험이 지속되도록 하기 위해 여러 번 실행할 수 있습니다. |
