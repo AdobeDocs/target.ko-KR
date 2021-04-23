@@ -1,18 +1,18 @@
 ---
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
-description: 개인화 모델에 영향을 준 상위 속성과 상대적 중요도를 보여주는 Adobe Target의 중요 속성 보고서를 사용하는 방법을 알아봅니다.
+description: 개인화 모델에 영향을 준 상위 속성과 상대적 중요도에 영향을 미치는 상위 속성을 보여주는 Adobe [!DNL Target] 에서 중요 속성 보고서를 사용하는 방법을 알아봅니다.
 title: 중요한 속성 보고서란?
-feature: Reports
+feature: 보고서
+exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1656'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 중요 속성 보고서{#important-attributes-report}
+# ![PREMIUM](/help/assets/premium.png) 중요 속성 보고서
 
 중요 속성 보고서에 대한 정보이며 두 전문 보고서 중 하나는 자동화된 개인 설정(AP) 및 Auto-Target(AT) 활동의 사용자가 사용할 수 있습니다.
 
