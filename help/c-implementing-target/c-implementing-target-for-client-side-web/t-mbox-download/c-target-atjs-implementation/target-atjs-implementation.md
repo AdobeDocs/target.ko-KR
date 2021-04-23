@@ -1,17 +1,17 @@
 ---
 keywords: Target Standard;at.js;구현
-description: 일반적인 웹 구현과 SPA(Single Page Applications)를 위해 설계된 Adobe Target의 새로운 구현 라이브러리인 at.js로 마이그레이션하는 방법을 알아봅니다.
+description: 일반적인 웹 구현과 SPA(단일 페이지 애플리케이션)를 위해 설계된 Adobe [!DNL Target] 용 새 구현 라이브러리인 at.js로 마이그레이션하는 방법에 대해 알아봅니다.
 title: mbox.js에서 at.js로 마이그레이션하려면 어떻게 해야 합니까?
 feature: at.js
 role: Developer
+exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 91%
 
 ---
-
 
 # mbox.js에서 at.js로 마이그레이션
 
