@@ -1,13 +1,13 @@
 ---
 keywords: Target;홈;인기 항목;adobe target;standard;premium;대상 설명서;adobe target 설명서;home;popular topics;adobe target documentation
-title: Target 설명서는 어디에서 찾을 수 있습니까?
-description: Adobe Target을 사용하여 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법을 살펴볼 수 있습니다.
-feature: Overview
+title: ' [!DNL Target] 설명서를 어디에서 찾을 수 있습니까?'
+description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법을 살펴볼 수 있습니다.
+feature: 개요
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '697'
 ht-degree: 45%
 
 ---
