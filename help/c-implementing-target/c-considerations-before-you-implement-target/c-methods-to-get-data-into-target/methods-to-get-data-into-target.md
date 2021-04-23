@@ -1,15 +1,15 @@
 ---
 keywords: 구현;구현하기;설정하기;설정;페이지 매개 변수;tomcat;url 인코딩;인페이지 프로필 속성;mbox 매개 변수;인페이지 프로필 속성;스크립트 프로필 속성;벌크 프로필 업데이트 API;단일 파일 업데이트 API;고객 속성;데이터 공급자;dataprovider;데이터공급자
-description: 데이터를 Target(페이지 매개 변수, 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 단일 및 벌크 프로필 업데이트 API, 고객 속성)로 가져올 수 있습니다.
+description: 데이터를 [!DNL Target] (페이지 매개 변수, 프로필 속성, 스크립트 프로필 속성, 데이터 공급자, 단일 및 벌크 프로필 업데이트 API, 고객 속성)에 가져옵니다.
 title: 데이터를 Target으로 가져오려면 어떻게 해야 합니까?
-feature: Implementation
+feature: 구현
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 61%
+source-wordcount: '361'
+ht-degree: 62%
 
 ---
 
