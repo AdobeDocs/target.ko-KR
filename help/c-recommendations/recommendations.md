@@ -1,18 +1,18 @@
 ---
 keywords: Recommendations;Recommendations 기준;추천 알고리즘;추천 활동;기준;권장 사항 타게팅;recommendations;recommendations targeting
-description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 컨텐츠를 자동으로 표시하는 Adobe Target의 Recommendations 활동에 대해 학습합니다.
-title: Recommendations Target 소개
+description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 컨텐츠를 자동으로 표시하는 Adobe [!DNL Target] 의 Recommendations 활동에 대해 알아봅니다.
+title: ' [!DNL Target] Recommendations 소개'
 feature: Recommendations
+exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '929'
 ht-degree: 58%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 권장 사항{#recommendations}
+# ![PREMIUM](/help/assets/premium.png) 권장 사항
 
 [!DNL Adobe Target Recommendations] 활동은 이전 사용자 활동, 기본 설정 또는 기타 기준을 기반으로 방문자의 관심을 끌 수 있는 제품, 서비스 또는 컨텐츠를 자동으로 표시합니다. [!DNL Target Recommendations] 방문자가 모르는 관련 항목으로 안내하는 데 도움이 됩니다. [!DNL Recommendations] 방문자에게 적절한 시기에 적절한 컨텐츠를 제공할 수 있습니다.
 
