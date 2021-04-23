@@ -1,18 +1,18 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;상승도;ad hoc;report builder;신뢰도
-description: Analytics for Target(A4T)을 사용할 때 상승도 및 신뢰도에 대한 질문에 대한 답변을 찾을 수 있습니다. A4T를 사용하면 Target 활동에 Analytics 보고를 사용할 수 있습니다.
+description: ' [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 활동에 Analytics를 사용할 때 상승도와 신뢰도에 대한 질문에 대한 답변을 찾습니다.'
 title: A4T를 사용하여 상승도와 신뢰도에 대한 정보를 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
+exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 41%
 
 ---
 
-
-# 상승도 및 신뢰도 - A4T FAQ{#lift-and-confidence-a-t-faq}
+# 상승도 및 신뢰도 - A4T FAQ
 
 이 주제에는 [!DNL Adobe Target](A4T)의 보고 소스로 [!DNL Adobe Analytics]을(를) 사용할 때 상승도와 신뢰도에 대해 자주 묻는 질문에 대한 답변이 포함되어 있습니다.
 
