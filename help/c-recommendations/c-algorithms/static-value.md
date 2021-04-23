@@ -1,16 +1,16 @@
 ---
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;동적 필터링;정적 필터;포함 규칙;포함 기준;권장 사항;promotion;promotion;promotions;dynamic filtering;static filter
-description: Adobe Target Recommendations의 포함 규칙을 사용하여 필터링할 하나 이상의 정적 값을 수동으로 입력하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] Recommendations에서 포함 규칙을 사용하여 필터링할 정적 값을 수동으로 입력하는 방법을 알아봅니다.
 title: Recommendations 활동에서 정적 값별로 필터링하려면 어떻게 합니까?
 feature: Recommendations
+exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '227'
-ht-degree: 45%
+ht-degree: 46%
 
 ---
-
 
 # ![](/help/assets/premium.png) 자동 필터
 
@@ -26,7 +26,6 @@ ht-degree: 45%
 
 ## G 또는 PG 등급 콘텐츠 추천
 
-MPA 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 컨텐츠만 권장하기 위해 정적 값이 포함된 포함 규칙을 만들려면(&quot;R&quot; 및 &quot;NC17&quot; 콘텐츠 제외), 아래에서 보듯이 동영상 등급 같음 &quot;g 등급&quot; 및 &quot;동영상 등급 같음 pg 등급&quot; 필터링 규칙을 만들 수 있습니다.
+MPA 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 컨텐츠만 권장하기 위해 정적 값이 포함된 포함 규칙을 만들려면(이하 &quot;R&quot; 및 &quot;NC17&quot; 콘텐츠 제외), 아래에서 보듯이 &quot;동영상 등급 같음&quot; 및 &quot;동영상 등급 같음&quot; 필터링 규칙을 만들 수 있습니다.
 
 ![동영상 등급 예](/help/c-recommendations/c-algorithms/assets/movies.png)
-
