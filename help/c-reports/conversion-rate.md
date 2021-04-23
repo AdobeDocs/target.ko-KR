@@ -1,16 +1,16 @@
 ---
 keywords: 타겟 지정
-description: Adobe Target이 각 경험에 대한 전환율, 향상도, 신뢰도(통계적 중요도) 및 신뢰 구간을 표시하고 계산하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 이 각 경험에 대한 전환율, 상승도, 신뢰도(통계적 중요도) 및 신뢰 구간을 표시하고 계산하는 방법을 알아봅니다.
 title: 전환율, 상승도 및 신뢰도 수준은 어떻게 볼 수 있습니까?
-feature: Reports
+feature: 보고서
+exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 70%
+ht-degree: 69%
 
 ---
-
 
 # 전환율
 
@@ -112,7 +112,7 @@ ht-degree: 70%
 >
 >이 계산기는 Target 기반 보고용이며 A4T 보고에 사용되지 않습니다.
 
-## Analytics for Target (A4T)에 사용할 오프라인 계산 수행{#section_B34BD016C8274C97AC9564F426B9607E}
+## Adobe Target(A4T) {#section_B34BD016C8274C97AC9564F426B9607E}에 대한 Analytics에 대한 오프라인 계산 수행
 
 A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 
 
@@ -186,7 +186,7 @@ A4T의 경우 연속 변수(2진 지표가 아님)를 위한 학생 t 검증(t-t
 >
 >일반적으로 계수는 쿠키 및 세션 활동에 의해 결정됩니다. 하지만 활동의 최종 전환 지점에 도달한 후 활동을 다시 시작하는 경우에는 활동에 대한 새 방문 및 새 참여자로 간주됩니다. PCID 및 `sessionID` 값이 변경되지 않는 경우에도 마찬가지입니다.
 
-## Target에서 학생의 테스트 사용을 권장하는 이유는 무엇입니까?{#t-test}
+## [!DNL Target]에서 학생의 테스트 사용을 권장하는 이유는 무엇입니까?{#t-test}
 
 A/B 테스트는 하나 이상의 대체 경험에서 제어 변형(경험이라고도 함)에 있는 일부 비즈니스 지표의 평균 값을 해당 지표의 평균 값과 비교하는 실험입니다.
 
