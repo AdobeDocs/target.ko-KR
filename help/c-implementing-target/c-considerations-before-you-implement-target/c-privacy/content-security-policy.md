@@ -1,17 +1,17 @@
 ---
 keywords: 컨텐트 보안 정책;csp;at.js;허용 목록;;깜박임;사전 숨기기;사전 숨기기;사전 숨기기;사전 숨기기;prehiding
 description: Adobe Target 사용 시 추가해야 하는 CSP(Content Security Policy) 지문에 대해 알아봅니다.
-title: Target은 CSP(Content Security Policy)를 어떻게 처리합니까?
-feature: Privacy & Security
+title: ' [!DNL Target] CSP(Content Security Policy)를 어떻게 처리합니까?'
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '99'
 ht-degree: 0%
 
 ---
-
 
 # CSP(Content Security Policy) 지시문
 
