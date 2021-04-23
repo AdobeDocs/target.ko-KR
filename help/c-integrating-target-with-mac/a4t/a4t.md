@@ -1,18 +1,18 @@
 ---
 keywords: a4t;analytics;analytics for target;analytics 보고 소스;target용 보고 소스로서의 adobe analytics
-description: Target(A4T)용 분석을 사용하여 Analytics 전환 지표 및 대상 세그먼트를 기반으로 활동을 만들고 Analytics 보고서를 사용하여 결과를 검사합니다.
-title: Target(A4T)용 Analytics 소개
+description: Analytics for [!DNL Target] (A4T)을 사용하여 Analytics 전환 지표 및 대상 세그먼트를 기반으로 활동을 만들고 Analytics 보고서를 사용하여 결과를 검사합니다.
+title: Analytics for [!DNL Target] (A4T)은 무엇입니까?
 feature: Analytics for Target (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 40%
+source-wordcount: '1268'
+ht-degree: 39%
 
 ---
 
-
-# Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)
+# Adobe Analytics을 Adobe [!DNL Target](A4T)의 보고 소스로 사용
 
 [!DNL Adobe Analytics for Target] (A4T)는  [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 활동을 만들 수 있는 솔루션 간 통합입니다. A4T 통합을 사용하면 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다. 활동의 보고 소스로 [!DNL Analytics]을 사용하는 경우 해당 활동에 대한 모든 보고 및 세그멘테이션은 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
 
@@ -110,7 +110,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 
 다음 비디오에는 이 항목에서 설명하는 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Target 분석(A4T)(4:32) ![개요 배지](/help/assets/overview.png)
+### Adobe Target용 분석(A4T)(4:32) ![개요 배지](/help/assets/overview.png)
 
 이 비디오에서는 [!DNL Target]의 보고 소스로 [!DNL Analytics]을 사용하여 최적화 프로그램의 분석을 실행하는 방법을 설명합니다.
 
@@ -120,7 +120,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### 분석/Target 통합(A4T)(40:33) ![자습서 배지](/help/assets/tutorial.png)
+### Analytics / Adobe Target 통합(A4T)(40:33) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
 
