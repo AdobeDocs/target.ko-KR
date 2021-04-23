@@ -2,17 +2,17 @@
 keywords: mbox;mbox 타사 Id;프로필 동기화;프로파일 동기화;PCID
 description: 멤버십 ID 또는 조직의 충성도 프로그램과 같은 조직의 방문자 ID인 mbox3rdPartyId를 사용하는 방법에 대해 알아보십시오.
 title: mbox3rdPartyId에 대한 실시간 프로필 동기화를 사용하려면 어떻게 합니까?
-feature: Audiences
+feature: 대상자
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 76%
 
 ---
 
-
-# mbox3rdPartyId에 대한 실시간 프로필 동기화{#real-time-profile-syncing-for-mbox-rdpartyid}
+# mbox3rdPartyId에 대한 실시간 프로필 동기화
 
 mbox3rdPartyID는 회사의 충성도 프로그램을 위한 멤버십 ID와 같은 회사의 방문자 ID입니다.
 
