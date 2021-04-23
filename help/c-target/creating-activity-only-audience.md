@@ -1,18 +1,18 @@
 ---
 keywords: 대상;대상 규칙;대상 만들기;대상 생성;활동 전용;활동전용;임시
-description: 대상 라이브러리에 저장되지 않고 현재 활동에서 한 번에 사용할 수 있는 활동 전용 대상을 Adobe Target에서 만드는 방법을 알아봅니다.
+description: 대상 라이브러리에 저장되지 않고 현재 활동에서 한 번에 사용하기 위한 Adobe [!DNL Target] 에서 활동 전용 대상을 만드는 방법을 알아봅니다.
 title: 한 번만 사용할 대상자를 만들 수 있습니까?
-feature: Audiences
+feature: 대상자
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 91%
 
 ---
 
-
-# 활동 전용 대상 만들기{#create-an-activity-only-audience}
+# 활동 전용 대상 만들기
 
 활동을 만들 때 안내가 있는 3단계 워크플로우에서 활동 전용 대상을 만듭니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 [!UICONTROL 대상 라이브러리]에 저장되지는 않습니다.
 
@@ -52,4 +52,3 @@ ht-degree: 91%
 * 활동 전용 대상의 상태는 [!UICONTROL 사용됨] 또는 [!UICONTROL 사용되지 않음]입니다. 사용되지 않음 활동 전용 대상은 활동을 저장할 때까지 표시됩니다. 사용되지 않음 상태로 두고 활동을 저장하려고 하면 사용되지 않음 활동 전용 대상은 삭제된다는 사실을 알리는 경고 메시지가 표시됩니다.
 * 대상을 열지 않고 대상 선택기에서 액세스한 팝업 카드에서 대상 정의 세부 사항을 볼 수 있습니다.
 * You can [여러 대상을 결합](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 활동 전용 대상을 만들 수 있습니다.
-
