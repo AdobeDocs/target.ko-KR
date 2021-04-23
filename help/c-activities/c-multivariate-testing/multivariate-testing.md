@@ -1,16 +1,16 @@
 ---
 keywords: 다변량 테스트;mvt;full factorial;mvt 또는 a/b;multivariate-variate a/b;트래픽 견적 도구;mvt;mvt;mvt:consideration;multivariate-factorial;partial-factorial;full-factorial
-description: Adobe Target에서 Multivariate Testing(MVT)를 사용하여 페이지에 있는 요소의 오퍼 조합을 비교하여 성과가 가장 좋은 조합을 판별하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 에서 Multivariate Testing(MVT)를 사용하여 페이지의 요소에 있는 오퍼의 조합을 비교하여 성과가 가장 좋은 조합을 판별하는 방법을 알아봅니다.
 title: 다변량 테스트란 무엇입니까?
-feature: Multivariate Tests
+feature: 다변량 테스트
+exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1461'
-ht-degree: 88%
+source-wordcount: '1462'
+ht-degree: 87%
 
 ---
-
 
 # 다변량 테스트 개요
 
