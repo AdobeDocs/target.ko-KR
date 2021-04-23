@@ -2,18 +2,18 @@
 keywords: 설정;설정;설정;설정;관리
 description: 환경 설정, 구현, 사용자 관리, 속성, Scene7 구성, 호스트 관리 및 응답 토큰을 포함하여 Adobe Target을 설정합니다.
 title: Target은 어떻게 관리합니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 13%
+source-wordcount: '96'
+ht-degree: 10%
 
 ---
 
-
-# Target 개요 관리{#administer-target}
+# [!DNL Target] 개요 관리
 
 VEC(Visual Experience Composer), 보고, Scene7 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다.
 
