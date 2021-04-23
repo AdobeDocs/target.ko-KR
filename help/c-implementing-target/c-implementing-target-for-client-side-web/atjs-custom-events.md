@@ -1,14 +1,14 @@
 ---
 keywords: 사용자 지정 이벤트;at.js;요청 실패;요청 성공;콘텐츠 렌더링 실패;콘텐츠 렌더링 성공;라이브러리 로드됨;요청 시작;콘텐츠 렌더링 시작;콘텐츠 렌더링 오퍼 없음;콘텐츠 렌더링 리디렉션
-description: mbox 요청이나 오퍼가 실패하거나 성공할 때 알림을 받을 Adobe Target at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트를 사용합니다.
+description: mbox 요청이나 오퍼가 실패하거나 성공할 때 알림을 받을 Adobe [!DNL Target] at.js JavaScript 라이브러리에 대한 사용자 지정 이벤트를 사용합니다.
 title: at.js 사용자 지정 이벤트는 어떻게 사용합니까?
 feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 87%
 
 ---
