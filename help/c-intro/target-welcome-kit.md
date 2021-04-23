@@ -1,18 +1,18 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target을 처음 사용하시나요? Adobe Target 시작 키트를 사용하여 바로 시작할 수 있습니다.
+description: Adobe Target을 처음 사용하시나요? Adobe [!DNL Target] 시작 키트로 바로 시작할 수 있습니다.
 title: Target 시작하기
-feature: Overview
+feature: 개요
+exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 0%
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
-
-# Adobe Target 시작 키트
+# Adobe [!DNL Target] 시작 키트
 
 Adobe Target에 오신 것을 환영합니다.
 
