@@ -1,14 +1,14 @@
 ---
 keywords: 구현;구현;설정;벌크 프로파일 업데이트
-description: 벌크 프로필 업데이트 API를 사용하여 Target에 데이터를 가져옵니다.
-title: 벌크 프로필 업데이트 API를 사용하여 Target에 데이터를 가져오려면 어떻게 합니까?
-feature: Implementation
+description: 벌크 프로필 업데이트 API를 사용하여  [!DNL Target] 에 데이터를 가져옵니다.
+title: 벌크 프로필 업데이트 API를 사용하여 데이터를 [!DNL Target] 에 가져오려면 어떻게 합니까?
+feature: 구현
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt
-source-git-commit: 20daf4510e754d77cd16be64770105932178fec5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '379'
+source-wordcount: '377'
 ht-degree: 82%
 
 ---
