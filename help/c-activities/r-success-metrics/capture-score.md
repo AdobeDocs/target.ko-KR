@@ -1,16 +1,16 @@
 ---
 keywords: 캡처 점수;점수
-description: 사이트에서 방문한 페이지에 할당된 값을 기반으로 집계된 점수를 계산하는 Adobe Target의 캡처 점수 참여 지표에 대해 알아봅니다.
+description: 사이트에서 방문한 페이지에 할당된 값을 기준으로 집계된 점수를 계산하는 Adobe [!DNL Target] 의 캡처 점수 참여 지표에 대해 알아봅니다.
 title: 캡처 점수 지표란 무엇입니까?
-feature: Success Metrics
+feature: 성공 지표를 참조하십시오
+exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '766'
 ht-degree: 51%
 
 ---
-
 
 # 캡처 점수
 
