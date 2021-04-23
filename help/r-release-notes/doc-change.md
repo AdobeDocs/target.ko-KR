@@ -1,14 +1,14 @@
 ---
 keywords: 대상 설명서 변경 로그;설명서 업데이트;새 주제;편집;업데이트;update
-description: Adobe Target 제품 설명서에 대한 중요한 추가 사항과 변경 사항을 항상 최신 상태로 유지할 수 있습니다.
+description: Adobe [!DNL Target] 제품 설명서에 대한 중요한 추가 사항 및 변경 사항을 항상 최신 상태로 두십시오.
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
-feature: Release Notes
+feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '902'
-ht-degree: 32%
+source-wordcount: '898'
+ht-degree: 30%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 32%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서에 대한 중요한 변경 사항이 나열됩니다.
 
-## Adobe Target Standard/Premium 21.4.1(2021년 4월 19일)
+## Adobe [!DNL Target] Standard/Premium 21.4.1(2021년 4월 19일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -32,7 +32,7 @@ ht-degree: 32%
 |  | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud 서비스 및* 관리 가이드) | &quot;세션 ID&quot;에 대한 추가 정보가 추가되었습니다. |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 21.4.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
-## Adobe Target Standard/Premium 21.2.1(2021년 3월 9일)
+## Adobe [!DNL Target] Standard/Premium 21.2.1(2021년 3월 9일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -54,7 +54,7 @@ ht-degree: 32%
 |  | [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md) | entity.value가 10진수 형식이어야 함을 나타내는 텍스트가 추가되었습니다(예: 15,99가 아닌 15.99). |
 |  | [릴리스 노트](/help/r-release-notes/release-notes.md): 21.2.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 노트에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
-## Adobe Target Standard/Premium 21.1.1(2021년 1월 19일)
+## Adobe [!DNL Target] Standard/Premium 21.1.1(2021년 1월 19일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
