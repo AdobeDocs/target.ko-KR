@@ -1,17 +1,17 @@
 ---
 keywords: 시스템 다이어그램;flicker;at.js;구현;javascript 라이브러리;js;atjs
-description: 시스템 다이어그램을 포함하여 Target at.js JavaScript 라이브러리가 어떻게 작동하는지를 확인하여 페이지가 로드될 때 워크플로우를 이해할 수 있습니다.
+description: 페이지 로드로서 워크플로우를 이해하는 데 도움이 되는 시스템 다이어그램을 포함하여 [!DNL Target] at.js JavaScript 라이브러리가 작동하는 방식을 알아봅니다.
 title: at.js Javascript 라이브러리는 어떻게 작동합니까?
 feature: at.js
 role: Developer
+exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1113'
 ht-degree: 85%
 
 ---
-
 
 # at.js 작동 방식
 
@@ -59,9 +59,9 @@ ht-degree: 85%
 
 | 단계 | 세부 사항 |
 | --- | --- |
-| 3 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
+| 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
 | 2 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
-| 3 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 1 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
 | 5 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
@@ -80,7 +80,7 @@ at.js 2.x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experie
 
 | 단계 | 설명 | 호출 | 설명 |
 |--- |--- |--- |--- |
-| 3 | 사용자가 인증되면 호출에서 [!DNL Experience Cloud ID] (MCID)를 반환합니다. 다른 호출은 고객 ID를 동기화합니다. | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다. |
+| 1 | 사용자가 인증되면 호출에서 [!DNL Experience Cloud ID] (MCID)를 반환합니다. 다른 호출은 고객 ID를 동기화합니다. | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다. |
 | 1 | 모든 구성된 매개 변수, MCID, SDID 및 고객 ID(선택 사항)를 포함하는 글로벌 mbox 요청이 이루어집니다. | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 [!UICONTROL 대상 라이브러리]의 적절한 대상(예: [!DNL Adobe Analytics], [!DNL Audience Manager] 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 배치 프로세스를 통해 [!DNL Profile Store]로 전송됩니다. |
 | 5 | [!DNL Target]에서는 URL, mbox 매개 변수 및 프로필 데이터를 기반으로 방문자에게 반환할 활동 및 경험을 결정합니다. | 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>경험은 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 7 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. | 8 | [!DNL Target] 데이터는 SDID를 통해 [!DNL Analytics] 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다.<br>[!DNL Analytics]그런 다음  데이터는 [!DNL Analytics] (A4T) 보고서를 통해 [!DNL Target]및 [!DNL Analytics for Target] 모두에서 볼 수 있게 됩니다. |
