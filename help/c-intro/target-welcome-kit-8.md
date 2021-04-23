@@ -1,16 +1,16 @@
 ---
 keywords: 시작 키트;대상 시작 키트;시작;시작;시작 키트;시작 키트;시작;시작 키트;시작;시작 키트;시작;시작;시작;시작;시작
-description: Adobe Target 활동과 성공을 전달하는 데 도움이 되도록 개요 결과 템플릿을 사용하십시오.
-title: Target 활동의 결과를 조직과 어떻게 공유할 수 있습니까?
-feature: Overview
+description: Adobe [!DNL Target] 활동과 성공을 알리는 데 도움이 되도록 개요 결과 템플릿을 사용하십시오.
+title: 내 [!DNL Target] 활동 결과를 내 조직과 어떻게 공유할 수 있습니까?
+feature: 개요
+exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '218'
 ht-degree: 0%
 
 ---
-
 
 # 8장:활동 결과 전달
 
