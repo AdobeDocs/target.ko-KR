@@ -1,18 +1,18 @@
 ---
 description: Adobe Mobile SDK를 사용하여 모바일 앱 방문자에게 최적의 경험을 제공하는 방법을 살펴보십시오.
-title: 모바일 앱에서 Target은 어떻게 작동합니까?
-feature: Implement Mobile
+title: 모바일 앱에서 작업 방법 [!DNL Target] 은 무엇입니까?
+feature: 모바일 구현
 role: Developer
+exl-id: 1a5f34dc-932d-47c7-b730-6d1658343fb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
-
-# 모바일 앱에서의 Target 작동 방식{#how-target-works-in-mobile-apps}
+# 모바일 앱에서 [!DNL Target]의 작동 방식
 
 Adobe Mobile SDK는 Target 서버에 접속하여 다른 데이터 포인트와 함께 컨텐츠를 가져와서 사용자에게 적합한 경험을 보여줍니다.
 
@@ -33,4 +33,3 @@ A *[성공 지표](/help/c-activities/r-success-metrics/success-metrics.md#refer
 **SDK에서의 Target 작동 방식 이해**
 
 ![](assets/how-target-mobile-works.png)
-
