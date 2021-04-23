@@ -2,18 +2,18 @@
 keywords: 작업 공간;속성 관리;권한;제품 구성;제품 프로필;역할;프로젝트
 description: 별도의 작업 영역(제품 프로필)을 만든 다음 개별 페이지, 속성 또는 웹 사이트에 대해 다양한 역할 및 권한을 사용자에게 할당하는 방법을 알아보십시오.
 title: 엔터프라이즈 사용자 권한은 무엇이며 어떻게 사용합니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3018'
 ht-degree: 58%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 엔터프라이즈 사용자 권한{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) 엔터프라이즈 사용자 권한
 
 기업 사용자 권한은 [!DNL Adobe Target]에 대한 기업 전체 사용자 액세스를 공식적으로 관리하는 수단입니다. 사용자를 [!DNL Target]에 추가하고, 역할에 따라 권한을 할당하고, 여러 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 영역을 만듭니다. 사용자에게 [!UICONTROL Observer], [!UICONTROL Editor] 또는 [!UICONTROL 승인자]의 역할을 할당할 수 있습니다.
 
@@ -296,7 +296,7 @@ ht-degree: 58%
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### 업무 시간:Target 프리미엄 작업 영역
+### 업무 시간:[!DNL Target] 프리미엄 작업 영역
 
 이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 기록입니다.
 
