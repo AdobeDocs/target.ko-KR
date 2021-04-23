@@ -2,18 +2,18 @@
 keywords: 사용자 추가;프로젝트;사용자 그룹;속성;작업 공간;속성 관리;속성;at_property;역할;권한
 description: Adobe Target에 사용자를 추가하는 방법에 대해 알아봅니다.작업 영역, 사용자 그룹 및 속성 만들기;구현 업데이트;역할 및 권한을 지정합니다.
 title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1482'
 ht-degree: 66%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 엔터프라이즈 권한 구성{#configure-enterprise-permissions}
+# ![PREMIUM](/help/assets/premium.png) 엔터프라이즈 권한 구성
 
 [!DNL Target] 구현에 사용자를 추가하는 데 필요한 작업에 대한 정보;작업 영역, 사용자 그룹 및 속성 만들기;`at_property` 매개 변수를 포함하도록 [!DNL Target] 구현을 업데이트합니다.역할 및 권한을 지정합니다.
 
@@ -206,7 +206,7 @@ ht-degree: 66%
 >
 >[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전의 [!UICONTROL 설치])가 향상된 성능을 제공하고, 새 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반의 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확합니다.그러나 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
 
-### Target 작업 영역 구성 방법(6:55) ![자습서 배지](/help/assets/tutorial.png)
+### Adobe Target 작업 영역을 구성하는 방법(6:55) ![자습서 배지](/help/assets/tutorial.png)
 
 이 비디오에서는 작업 공간을 만드는 방법을 설명합니다.
 
