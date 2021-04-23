@@ -1,16 +1,16 @@
 ---
 keywords: multi-value;attributes;recommendations;multi-value;multi-value;multi-value
-description: Adobe Target Recommendations에서 여러 배우를 사용하여 동영상을 추천할 때와 같이 특수한 다중 값 연산자를 사용하여 여러 값 필드를 사용하는 방법을 알아봅니다.
+description: 예를 들어 여러 배우로 동영상을 추천할 때 Adobe [!DNL Target] Recommendations에서 특수한 다중 값 연산자를 사용하여 다중 값 필드로 작업하는 방법을 알아봅니다.
 title: Recommendations에서 다중 값 속성을 사용할 수 있습니까?
 feature: Recommendations
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
-
 
 # 다중 값 특성을 사용한 작업
 
