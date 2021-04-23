@@ -1,17 +1,17 @@
 ---
 keywords: 구현;api;profile;api settings;authentication token
-description: Adobe Target API를 통해 일괄 업데이트를 위한 인증을 구성하고 프로필 인증 토큰을 생성하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] API를 통해 일괄 업데이트에 대한 인증을 구성하고 프로필 인증 토큰을 생성하는 방법을 알아봅니다.
 title: 프로필 API 설정을 사용하여 일괄 업데이트를 활성화하거나 비활성화하려면 어떻게 합니까?
-feature: APIs/SDKs
+feature: API/SDK
 role: Developer
+exl-id: 6346e11b-0853-47f1-9706-69e8635a6f25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 36%
+source-wordcount: '328'
+ht-degree: 35%
 
 ---
-
 
 # 프로필 API 설정
 
