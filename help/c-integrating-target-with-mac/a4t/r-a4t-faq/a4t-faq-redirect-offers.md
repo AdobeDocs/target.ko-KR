@@ -1,22 +1,22 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;리디렉션;리디렉션 오퍼;adobe-mc-sdid;adobe_mc_ref
-description: Analytics for Target(A4T)를 사용할 때 리디렉션 오퍼를 사용하는 것과 관련된 질문에 대한 답변을 찾습니다. A4T를 사용하면 Target 활동에 Analytics 보고를 사용할 수 있습니다.
+description: ' [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 활동에 Analytics를 사용할 때 리디렉션 오퍼 사용에 대한 질문에 대한 답변을 찾습니다.'
 title: A4T의 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1218'
 ht-degree: 69%
 
 ---
-
 
 # 리디렉션 오퍼 - A4T FAQ
 
 이 주제에는 [!DNL Adobe Target](A4T)의 보고 소스로 [!DNL Adobe Analytics]을(를) 사용할 때 리디렉션 오퍼를 사용하는 것에 대해 자주 묻는 질문에 대한 답변이 포함되어 있습니다.
 
-## Analytics for Target(A4T)에서 리디렉션 오퍼를 지원합니까? {#section_46B8B03ED4D542C6AD875F5F61176298}
+## Adobe Target(A4T)용 분석은 리디렉션 오퍼를 지원합니까?{#section_46B8B03ED4D542C6AD875F5F61176298}
 
 예, 구현에서 [!DNL at.js]을 사용하는 경우 그러나 Analytics를 보고 소스로 사용하는 활동에서 [리디렉션 오퍼](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)를 사용하기 위해서는 구현이 아래 나열된 최소 요구 사항을 충족해야 합니다.
 
