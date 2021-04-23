@@ -1,16 +1,16 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;지표;지표 정의
-description: 지표 정의 및 Analytics for Target(A4T) 사용에 대한 질문에 대한 답변을 찾습니다. A4T를 사용하면 Adobe Target 활동과 함께 분석 보고를 사용할 수 있습니다.
+description: 지표 정의 및 [!DNL Target] (A4T). A4T lets you use Analytics reporting with Adobe [!DNL Target] 활동에 대한 Analytics 사용에 대한 질문에 대한 답변을 찾습니다.
 title: A4T를 사용하여 지표 정의에 대한 정보를 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
+exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 39%
+source-wordcount: '367'
+ht-degree: 40%
 
 ---
-
 
 # 지표 정의 - A4T FAQ
 
