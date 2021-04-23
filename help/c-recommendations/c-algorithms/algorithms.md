@@ -1,16 +1,16 @@
 ---
 keywords: 추천;추천 활동;기준;추천 키;사용자 지정 키;업계 수직;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어 게시
-description: Adobe Target Recommendations에서 기준을 사용하는 방법을 알아봅니다. 기준은 미리 결정된 방문자 행동 세트를 기반으로 추천할 컨텐츠를 결정하는 규칙입니다.
-title: Target Recommendations에서 기준을 어떻게 사용합니까?
+description: Adobe [!DNL Target] Recommendations에서 기준을 사용하는 방법을 알아봅니다. 기준은 미리 결정된 방문자 행동 세트를 기반으로 추천할 컨텐츠를 결정하는 규칙입니다.
+title: ' [!DNL Target] Recommendations에서 기준을 어떻게 사용합니까?'
 feature: Recommendations
+exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 52%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 기준
 
