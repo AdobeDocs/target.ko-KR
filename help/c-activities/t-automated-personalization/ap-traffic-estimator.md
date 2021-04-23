@@ -1,13 +1,13 @@
 ---
 keywords: 트래픽 견적 도구;자동 개인화;ap;예측 트래픽;자동 타겟
-description: Adobe Target 트래픽 견적 도구를 사용하여 Automated Personalization 활동이 성공할 수 있는 충분한 트래픽이 있는지 확인합니다.
+description: Adobe [!DNL Target] 트래픽 견적 도구를 사용하여 Automated Personalization 활동이 성공할 수 있는 충분한 트래픽이 있는지 확인합니다.
 title: 성공적인 활동에 필요한 트래픽은 얼마입니까?
-feature: Automated Personalization
+feature: 자동화된 개인화
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '752'
 ht-degree: 14%
 
 ---
