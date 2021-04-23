@@ -1,29 +1,29 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;vec;문제 해결 시각적 경험 작성기;문제 해결;tls;tls 1.2
-description: 특정 조건에서 Adobe Target VEC(Visual Experience Composer)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
+description: 특정 조건에서 Adobe [!DNL Target] VEC(Visual Experience Composer)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
 title: Visual Experience Composer와 관련된 문제를 해결하려면 어떻게 해야 합니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 89%
+source-wordcount: '800'
+ht-degree: 87%
 
 ---
-
 
 # Visual Experience Composer와 관련된 문제 해결
 
 특정 조건 아래의 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 디스플레이 문제가 발생하는 경우가 있습니다.
 
-## VEC(시각적 경험 작성기)에서 웹 사이트를 열면 Target 라이브러리가 로드되지 않습니다. (VEC만 해당) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Visual Experience Composer에서 웹 사이트를 열면 [!DNL Target] 라이브러리가 로드되지 않습니다. (VEC만 해당) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 매개 변수(`mboxEdit=1` 및 `mboxDisable=1`)를 추가합니다.
 
 한 페이지에서 다른 페이지로 이동할 때(페이지 다시 로드 없이) 웹 사이트(특별히 단일 페이지 앱)가 매개 변수를 자르거나, 실제로 매개 변수를 제거할 경우 Target 기능이 중단되고 Target 라이브러리가 로드되지 않습니다.
 이 문제점을 방지하려면 이러한 두 매개 변수를 자르거나 제거하지 않아야 합니다.
 
-## 내 페이지가 EEC에서 열리지 않거나 느리게 로드됩니다. VEC에서 활동 또는 경험이 느리게 로드됩니다. (VEC만 해당)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## 내 페이지가 EEC에서 열리지 않거나 느리게 로드됩니다. VEC에서 활동 또는 경험이 느리게 로드됩니다. (VEC만 해당) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 몇 가지 문제가 Target 경험 작성기의 페이지 성능에 영향을 줄 수 있습니다. 일반적인 몇 가지 문제는 다음과 같습니다.
 
