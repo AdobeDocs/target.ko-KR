@@ -5,9 +5,9 @@ title: ' [!DNL Target] 어떻게 작동합니까?'
 feature: 개요
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
 workflow-type: tm+mt
-source-wordcount: '2565'
+source-wordcount: '2564'
 ht-degree: 30%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 [!DNL Adobe Experience Platform Web SDK] 및 JavaScript 라이브러리(at.js 및 mbox.js)에 대한 정보를 포함하여 [!DNL Adobe Target]의 작동 방식을 알아봅니다. 또한 이 문서에서는 [!DNL Target]을 사용하여 만들 수 있는 다양한 활동 유형을 소개합니다. 또한 [!DNL Target] 에지 네트워크, 검색 엔진 최적화(SEO) 및 [!DNL Target]에서 보트를 감지하는 방법에 대해 알 수 있습니다.
 
-## Target 플랫폼 웹 SDK 및 JavaScript 라이브러리 {#libraries}
+## [!DNL Target] 플랫폼 웹 SDK 및 JavaScript 라이브러리  {#libraries}
 
 [!DNL Target] 또는 JavaScript 라이브러리를 사용하여 웹  [!DNL AEP Web SDK] 사이트와 통합합니다.
 
@@ -41,7 +41,7 @@ ht-degree: 30%
 
 방문자에게 표시되는 콘텐츠는 사용자가 작성하는 활동의 유형에 따라 다릅니다.
 
-### A/B 테스트
+### [!UICONTROL A/B 테스트]
 
 기본 A/B 테스트에 표시되는 컨텐츠는 활동에 지정한 경험에서 임의로 선택됩니다. 각 경험에 대한 트래픽 할당 비율을 할당할 수 있습니다. 이러한 트래픽 무작위 분할의 결과로 비율이 계산되기 전에 초기 트래픽의 양이 상당히 증가할 수 있습니다. 예를 들어 두 개의 경험을 만드는 경우 시작 경험이 무작위로 선택됩니다. 트래픽이 거의 없다면 방문자 비율이 하나의 경험으로 기울어질 수 있습니다. 트래픽이 증가하면 비율이 균일화됩니다.
 
@@ -54,19 +54,19 @@ ht-degree: 30%
 
 자세한 내용은 [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)를 참조하십시오.
 
-### 자동 할당
+### [!UICONTROL 자동 할당]
 
-자동 할당은 두 개 이상의 경험 중에서 우승자를 식별합니다. 자동 할당은 성공 경험에 더 많은 트래픽을 자동으로 재할당하므로 테스트가 계속 실행되고 학습하는 동안 전환을 늘리는 데 도움이 됩니다.
+[!UICONTROL 자동 할당] 은 둘 이상의 경험 중에서 우승자를 식별합니다. [!UICONTROL 자동 할당] 은 우승한 경험에 더 많은 트래픽을 자동으로 재할당하므로 테스트가 계속 실행되고 학습하는 동안 전환을 늘리는 데 도움이 됩니다.
 
-자세한 내용은 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
+자세한 내용은 [[!UICONTROL 자동 할당]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오.
 
-### AT(자동 Target)
+### [!UICONTROL 자동 Target] (AT)
 
 자동 Target은 고급 머신 러닝을 사용하여 성과가 높은 마케터가 정의한 경험 중에서 선택할 수 있습니다. 자동 Target은 각 방문자에게 가장 맞춤화된 경험을 제공합니다. 경험 배달은 개별 고객 프로파일과 비슷한 프로파일을 가진 이전 방문자의 행동을 기반으로 합니다. 자동 Target을 사용하여 컨텐츠를 개인화하고 전환을 촉진합니다.
 
 자세한 내용은 [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)을 참조하십시오.
 
-### AP(자동화된 개인화)
+### 자동화된 개인화(AP)
 
 Automated Personalization(AP)는 오퍼 또는 메시지를 결합하고 고급 기계 학습을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시킵니다. 경험 전달은 컨텐츠를 개인화하고 향상도를 높일 수 있는 개별 고객 프로파일을 기반으로 합니다.
 
@@ -86,7 +86,7 @@ Multivariate Testing(MVT)는 페이지에 있는 요소의 오퍼 조합을 비�
 
 자세한 내용은 [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499)를 참조하십시오.
 
-### Recommendations
+### [!UICONTROL 권장 사항]
 
 권장 사항 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
@@ -213,6 +213,6 @@ Adobe [!DNL Target]은 [DeviceAtlas](https://deviceatlas.com/device-data/user-ag
 * 방문자 프로필 만들기 또는 검색
 * 모든 프로필 속성 로깅 또는 프로필 스크립트 실행
 * Adobe Audience Manager(AAM) 세그먼트 조회(해당하는 경우)
-* Recommendations, 자동 Target, Automated Personalization 또는 자동 할당 활동에 대한 맞춤형 컨텐츠를 모델링 및 제공하는 데 보트 트래픽을 사용합니다.
+* Recommendations, 자동 Target, Automated Personalization 또는 [!UICONTROL 자동 할당] 활동에 대한 맞춤형 컨텐츠를 모델링 및 제공하는 데 보트 트래픽을 사용합니다.
 * 보고를 위한 활동 방문 로그
 * [!DNL Adobe Experience Cloud] 플랫폼으로 전송할 로그 데이터
