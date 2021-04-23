@@ -1,16 +1,16 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;권장 사항;특수 문자;속성 가중치;콘텐츠 유사성
-description: Adobe Target Recommendations 활동에 대한 질문과 답변 목록을 봅니다.
-title: Target Recommendations에 대한 질문과 답변을 어디에서 찾을 수 있습니까?
+description: Adobe [!DNL Target] Recommendations 활동에 대한 질문과 답변 목록을 봅니다.
+title: ' [!DNL Target] Recommendations에 대한 질문과 답변을 어디에서 찾을 수 있습니까?'
 feature: Recommendations
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2694'
-ht-degree: 40%
+source-wordcount: '2691'
+ht-degree: 39%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 권장 사항 FAQ
 
@@ -130,7 +130,7 @@ Target에서 [!UICONTROL 호환] 확인란이 표시되지 않는 특수한 경�
 
 ![](assets/content_similarity_example.png)
 
-## Target에서 권장 사항이 때때로 표시되지 않는 이유는 무엇입니까? {#section_DB3F40673AED42228E407C05437D99E9}
+## 때때로 [!DNL Target]에서 권장 사항을 표시할 수 없는 이유는 무엇입니까?{#section_DB3F40673AED42228E407C05437D99E9}
 
 때로는 Target에서 사용 가능한 권장 사항 수가 적어서 권장 사항이 표시되지 않을 수 있습니다.
 
@@ -223,5 +223,3 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 방문자가 한 장치에서 활성화한 다음 몇 분 후에 다른 장치에서 활성화되는 경우에도 이러한 동작이 계속 발생합니다. 첫 번째 장치의 세션이 30분 동안 만료되지 않으며 프로필 상태가 영구 상태로 기록되고 처리되기 전에 최대 5분까지 지연될 수 있습니다. 이 동작을 테스트할 때 세션이 만료되고 프로필이 저장될 때까지 35분이 소요됩니다.
 
 방문자에게 동시에 두 개의 활성 세션이 없는 경우 최근 한 장치에서 본 항목은 세션이 종료된 한 다른 장치에서 최근에 본 항목을 업데이트합니다. 이 비헤이비어를 테스트할 때 세션이 35분 동안 만료되도록 허용합니다.
-
-
