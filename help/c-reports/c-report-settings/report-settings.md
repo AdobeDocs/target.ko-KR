@@ -2,17 +2,17 @@
 keywords: Target;보고서;보고서 설정;사전 설정;target 사전 설정;지표;대상;날짜 범위;설정;다운로드;표 보기;그래프 보기;평균 리프트;리프트;리프트 경계;신뢰 구간;신뢰도;위치 기여도;평균 실행;방법론 계산
 description: 지표, 대상, 날짜 범위 등을 포함하여 Adobe Target에서 보고서 설정을 구성하는 방법을 알아봅니다.
 title: 보고서 설정을 구성하려면 어떻게 합니까?
-feature: Reports
+feature: 보고서
+exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1918'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---
 
-
-# 보고서 설정{#report-settings}
+# 보고서 설정
 
 [!DNL Adobe Target]의 보고서에 표시할 요소를 설정하는 데 도움이 되는 정보입니다. 보고서 설정은 나중에 사용할 수 있도록 저장할 수 있습니다.
 
@@ -290,4 +290,3 @@ ht-degree: 68%
 경험 R에 대한 그래프 선을 표시하고 경험 P에 대한 선은 표시하지 않으려 한다고 가정하십시오. 경험 P의 이름을 클릭하여 선택을 취소한 다음, 경험 R의 이름을 클릭하여 아래와 같이 선택할 수 있습니다.
 
 ![](assets/graph_3.png)
-
