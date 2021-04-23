@@ -1,22 +1,22 @@
 ---
 keywords: 설정;우선순위
-description: 어떤 Target 인터페이스와 사용 중인 활동 만들기 기능에 따라 Adobe Target에서 페이지에 다르게 전달할 활동(또는 활동)을 결정하는 방법에 대해 알아보십시오.
-title: Target은 다른 활동에 우선 순위를 어떻게 지정합니까?
-feature: Activities
+description: Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] 인터페이스 및 사용 중인 활동 생성 기능에 대해 알아봅니다.
+title: '다른 활동에 우선 순위를 어떻게 지정합니까? [!DNL Target] '
+feature: 활동
+exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 87%
+source-wordcount: '1149'
+ht-degree: 88%
 
 ---
-
 
 # 우선순위
 
 Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적 경험 작성기 또는 양식 기반 작성기)에 따라 페이지에 전달할 활동을 다르게 결정합니다.
 
-## 글로벌 Target 요청만 사용하여 Target Standard/Premium Visual Experience Composer만 또는 양식 기반 컴포저{#section_4A0A317DFED345649B58B0CB5B410C8B}
+## 글로벌 [!DNL Target] 요청만 사용하여 Target Standard/Premium Visual Experience Composer만 해당 또는 양식 기반 컴포저{#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 회사에서 Target Standard/Premium 및 시각적 경험 작성기만을 사용한다면, 동일한 호출에 대해 여러 활동의 콘텐츠가 반환할 수 있습니다. 활동은 다음 결정 플로우를 사용하여 전달됩니다.
 
@@ -40,7 +40,7 @@ Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적
    * 하나의 활동에만 대상 타깃팅이 있을 경우 해당 활동이 표시됩니다.
    * 모든 활동에 타깃팅이 있거나 없으면 먼저 승인된 활동이 표시됩니다.
 
-## Target Standard/Premium 양식 기반 작성기 및 Target Standard/Premium 시각적 경험 작성기 {#section_4620253E1CE942DD830724C7822B175F}
+## Target Standard/Premium 양식 기반 컴포저 및 [!DNL Target] Standard/Premium Visual Experience Composer {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -65,7 +65,7 @@ Target은 사용 중인 Target 인터페이스와 활동 작성 기능(시각적
 
 타깃팅된 두 활동의 우선순위가 서로 같다면, 가장 최근에 본 활동이 표시됩니다. 방문자가 해당 페이지를 처음 방문했다면 가장 최근에 활성화된 활동이 표시됩니다.
 
-## 비전역 Target 요청이 있는 Target Standard/Premium 양식 기반 컴포저 {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## 비전역 [!DNL Target] 요청이 있는 Target Standard/Premium 양식 기반 컴포저 {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
