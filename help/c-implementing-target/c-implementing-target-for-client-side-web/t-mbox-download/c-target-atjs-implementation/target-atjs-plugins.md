@@ -1,17 +1,17 @@
 ---
 keywords: at.js 플러그인;지원되는 플러그인;지원되지 않는 플러그인;ttMeta;ttmeta;mbox 추적
 description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
-title: at.js Target에서 지원되지 않는 레거시 플러그인은 무엇입니까?
+title: ' [!DNL Target] at.js에서 지원되지 않는 기존 플러그인은 무엇입니까?'
 feature: at.js
 role: Developer
+exl-id: 1d858f5b-58dc-4181-9cb5-aa6b22011abc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '239'
 ht-degree: 82%
 
 ---
-
 
 # at.js 플러그인
 
