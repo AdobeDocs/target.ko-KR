@@ -3,16 +3,16 @@ keywords: 기준;알고리즘;업계 세로;페이지 유형;권장 사항 키;�
 description: 활동에 가장 적합한 권장 사항을 표시하도록 Adobe Recommendations 활동의 컨텐츠를 제어하는 기준을 만드는 방법을 알아봅니다.
 title: Recommendations에서 기준을 만들려면 어떻게 합니까?
 feature: Recommendations
+exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2485'
+source-wordcount: '2486'
 ht-degree: 63%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 기준 만들기{#create-criteria}
+# ![PREMIUM](/help/assets/premium.png) 기준 만들기
 
 [!UICONTROL Adobe Target] [!UICONTROL Recommendations]의 기준은 [!UICONTROL Recommendations] 활동의 내용을 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오. 이러한 기준은 방문자의 행동을 사용하여 표시할 컨텐츠 또는 제품을 결정합니다.
 
