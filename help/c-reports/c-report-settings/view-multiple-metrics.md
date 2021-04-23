@@ -2,17 +2,17 @@
 keywords: Target;보고서;보고서 설정;여러 지표;지표;표시 지표;숨겨진 지표;;reports;report settings;multiple metrics;metrics;showled metrics;hidden metrics
 description: Adobe Target을 사용하여 보고서에서 볼 여러 지표를 선택하는 방법에 대해 알아보십시오.
 title: 보고서에서 여러 지표를 보려면 어떻게 합니까?
-feature: Reports
+feature: 보고서
+exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '434'
 ht-degree: 59%
 
 ---
 
-
-# 보고서에서 여러 지표 보기{#view-multiple-metrics-in-a-report}
+# 보고서에서 여러 지표 보기
 
 여러 지표를 선택하여 [!DNL Adobe Target] 보고서에서 볼 수 있습니다.
 
@@ -54,4 +54,3 @@ ht-degree: 59%
 1. (조건부) 그래프 보기에서 보고서를 보는 동안 드롭다운 목록에서 표시할 개별 지표를 선택할 수 있습니다.
 
    ![](assets/multiple_metrics_graph.png)
-
