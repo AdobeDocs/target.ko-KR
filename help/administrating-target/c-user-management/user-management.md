@@ -1,19 +1,19 @@
 ---
 keywords: 사용자 추가;사용자 관리;사용자 권한
-description: Adobe Target Standard에서 사용자를 관리하고 Adobe Target Premium에서 엔터프라이즈 속성 및 권한을 관리하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premium에서 사용자를 관리하는 방법을 알아봅니다.
 title: 사용자 관리를 구성하려면 어떻게 합니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: 3bf0c23c-7382-43d2-af54-734221063872
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 19%
+source-wordcount: '230'
+ht-degree: 20%
 
 ---
 
-
-# 사용자 관리{#user-management}
+# 사용자 관리
 
 [!DNL Target] Standard에서 사용자 관리 및 [!DNL Target] Premium의 [!UICONTROL Properties] 및 [!UICONTROL Permissions]에 대한 정보입니다.
 
@@ -40,4 +40,3 @@ ht-degree: 19%
 다음 그림은 [!DNL Target] Premium 계정에 대한 [!UICONTROL 관리] 페이지를 보여줍니다. [!UICONTROL 속성] 및 [!UICONTROL 사용자] 탭을 모두 사용할 수 있습니다.
 
 ![관리 탭](/help/administrating-target/assets/premium.png)
-
