@@ -1,16 +1,16 @@
 ---
 keywords: 타깃팅;eec;시각적 경험 작성기;EEC 문제 해결;문제점 해결
-description: 특정 조건에서 Adobe Target EEC(Enhanced Experience Composer)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
+description: 특정 조건에서 Adobe [!DNL Target] EEC(Enhanced Experience Composer)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
 title: 향상된 경험 작성기와 관련된 문제를 해결하려면 어떻게 합니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
+exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 61%
+source-wordcount: '452'
+ht-degree: 62%
 
 ---
-
 
 # 향상된 경험 작성기와 관련된 문제 해결
 
