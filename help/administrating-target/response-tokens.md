@@ -1,19 +1,19 @@
 ---
 keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답 토큰;tokens;plugins;plug-ins;at.js;response
-description: '디버깅 및 타사 시스템(예: Clicktale)과의 통합에 사용하기 위해 Adobe Target 출력 관련 정보에 응답 토큰을 사용하는 방법을 알아봅니다.'
+description: '디버깅 및 타사 시스템(예: Clicktale)과의 통합에 사용하기 위해 Adobe [!DNL Target] 특정 정보를 출력하는에서 응답 토큰을 사용하는 방법을 알아봅니다.'
 title: 응답 토큰이란 무엇이며 이를 어떻게 사용합니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1573'
 ht-degree: 76%
 
 ---
 
-
-# 응답 토큰{#response-tokens}
+# 응답 토큰
 
 응답 토큰을 사용하면 디버깅하거나 타사 시스템(예: Clicktale)과 통합하는 데 사용할 [!DNL Target](활동 세부 사항, 사용자 프로필 정보, 지역 정보 등)에 대한 정보를 자동으로 출력할 수 있습니다.
 
