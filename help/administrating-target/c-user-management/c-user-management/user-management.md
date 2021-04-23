@@ -2,18 +2,18 @@
 keywords: 사용자 추가;사용자 관리;사용자 권한
 description: Adobe Admin Console을 사용하여 Adobe Target에서 바로 사용자와 권한을 관리하는 방법을 알아봅니다.
 title: 사용자를 추가하고 권한을 관리하려면 어떻게 해야 합니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '910'
+source-wordcount: '913'
 ht-degree: 46%
 
 ---
 
-
-# 사용자{#users}
+# 사용자
 
 사용자를 추가하고 해당 권한을 [!DNL Adobe Admin Console]에서 관리합니다.
 
@@ -107,7 +107,7 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 절차에 따라 
 
 자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제공 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
 
-## 교육 비디오:Target 작업 영역 구성 방법 ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오:Adobe Target 작업 영역 구성 방법 ![자습서 배지](/help/assets/tutorial.png)
 
 학습 목표:
 
