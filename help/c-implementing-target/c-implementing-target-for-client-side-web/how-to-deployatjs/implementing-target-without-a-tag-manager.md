@@ -1,19 +1,19 @@
 ---
 keywords: 대상;구현;at.js;구현 태그 관리자;장치 내 의사 결정;on device decision on
-description: 설정(계정 세부 사항, 구현 방법 등)을 지정하는 방법을 알아봅니다. 태그 관리자를 사용하지 않고 Adobe Target at.js 라이브러리를 구현합니다.
-title: 태그 관리자 없이 Target을 구현할 수 있습니까?
-feature: Implement Server-side
+description: 설정(계정 세부 사항, 구현 방법 등)을 지정하는 방법을 알아봅니다. 태그 관리자를 사용하지 않고 Adobe [!DNL Target] at.js 라이브러리를 구현하려면.
+title: 태그 관리자 없이 [!DNL Target] 를 구현할 수 있습니까?
+feature: 서버측 구현
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: 20337e6e54108502b6397c73580b898cc91ebd9b
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1697'
+source-wordcount: '1692'
 ht-degree: 51%
 
 ---
 
-# 태그 관리자 없이 Target 구현
+# 태그 관리자 없이 [!DNL Target] 구현
 
 태그 관리자([!DNL Adobe Experience Platform Launch] 또는 [!DNL Dynamic Tag Manager])를 사용하지 않고 [!DNL Adobe Target] 구현에 대한 정보입니다.
 
@@ -124,14 +124,14 @@ API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성
 * Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전 중 하나의 최신 버전으로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
 
 
-### Target 인터페이스 {#section_1F5EE401C2314338910FC57F9592894E}을(를) 사용하여 at.js를 다운로드합니다.
+### [!DNL Target] 인터페이스 {#section_1F5EE401C2314338910FC57F9592894E}를 사용하여 at.js를 다운로드합니다.
 
 [!DNL Target] 인터페이스에서 [!DNL at.js]를 다운로드하려면 다음을 수행하십시오.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 1. [!UICONTROL 구현 메서드] 섹션에서 원하는 at.js 버전 옆의 **[!UICONTROL 다운로드]** 단추를 클릭합니다.
 
-### Target 다운로드 API {#section_C0D9D2A9068144708D08526BA5CA10D0}를 사용하여 at.js를 다운로드합니다.
+### [!DNL Target] 다운로드 API {#section_C0D9D2A9068144708D08526BA5CA10D0}를 사용하여 at.js를 다운로드합니다.
 
 API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십시오.
 
