@@ -1,19 +1,19 @@
 ---
 keywords: at.js 릴리스;at.js 버전;단일 페이지 앱;spa;크로스 도메인;cross-도메인
-description: Adobe Target at.js 1.x에서 at.js 2.x로 업그레이드하는 방법을 살펴보십시오.시스템 흐름 다이어그램을 살펴보고, 새 함수와 사용되지 않는 함수 등에 대해 알아봅니다.
+description: Adobe [!DNL Target] at.js 1.x에서 at.js 2.x로 업그레이드하는 방법을 알아봅니다.시스템 흐름 다이어그램을 살펴보고, 새 함수와 사용되지 않는 함수 등에 대해 알아봅니다.
 title: at.js 버전 1.x에서 버전 2.x로 업그레이드하려면 어떻게 합니까?
 feature: at.js
 role: Developer
+exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2770'
 ht-degree: 91%
 
 ---
 
-
-# at.js 1.*x*&#x200B;에서 at.js 2.*x*&#x200B;로 업그레이드 {#upgrading-from-atjs-1x-to-atjs-200}
+# at.js 1.*x*&#x200B;에서 at.js 2.*x*&#x200B;로 업그레이드
 
 [!DNL Adobe Target]의 최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.
 
@@ -46,7 +46,7 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 
 | 호출 | 세부 사항 |
 | --- | --- |
-| 3 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
+| 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
 | 2 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
 | 1 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
