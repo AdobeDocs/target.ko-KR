@@ -1,16 +1,16 @@
 ---
 keywords: 행동 데이터 소스;분석;권장 사항;기준;제품 변수
-description: Adobe Analytics을 행동 데이터 소스로 사용하여 Target Recommendations의 Analytics에서 제공하는 보기 기반 및/또는 구매 기반 행동 데이터를 사용하는 방법을 알아봅니다.
-title: Target Recommendations과 함께 Adobe Analytics을 사용하려면 어떻게 해야 합니까?
+description: Adobe Analytics을 행동 데이터 소스로 사용하여 Analytics의  [!DNL Target] Recommendations에서 보기 기반 및/또는 구매 기반 행동 데이터를 사용하는 방법을 알아봅니다.
+title: 'Adobe Analytics을 Recommendations과 함께 사용하려면 어떻게 해야 합니까? [!DNL Target] '
 feature: Recommendations
+exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 translation-type: tm+mt
-source-git-commit: 87877502d25fe8da830f70126820d1ca825ebc9d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 0%
+source-wordcount: '765'
+ht-degree: 1%
 
 ---
-
 
 # Recommendations과 함께 Adobe Analytics 사용
 
@@ -85,7 +85,6 @@ Recommendations에서 [기준](/help/c-recommendations/c-algorithms/create-new-a
 
 예. 이 두 값은 여전히 필요합니다. 이 문서에서 설명한 대로 나머지 속성은 [!DNL Analytics] 피드를 통해 전달할 수 있습니다.
 
-### [!DNL Analytics] 피드 접근 방식을 사용하여 개체 매개 변수가 프로필 속성과 일치하는 동적 포함 규칙을 사용할 수 있습니까?
+### [!DNL Analytics] 피드 접근 방법을 사용하여 개체 매개 변수가 프로필 속성과 일치하는 동적 포함 규칙을 사용할 수 있습니까?
 
 네, 가능합니다. 이 메서드는 [!DNL Target] 독립 실행형 사용 시 유사합니다. 그러나 이 경우 시간 요소에 대해 유의해야 합니다. 프로필 변수와 일치해야 하는 엔티티 변수는 페이지에서 훨씬 나중에 나타날 수 있는 데이터 레이어에 따라 달라집니다.
-
