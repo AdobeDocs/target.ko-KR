@@ -1,21 +1,21 @@
 ---
 keywords: 서버측;서버측;sdk;sdk;s;on-device;decision;on-device;decision;on device;ondevice;0 latency;near-zero;node.js
-description: 장치 내 의사 결정을 사용하여 서버에 Target A/B 및 MVT 활동을 캐시하여 0에 가까운 지연 시간에 메모리 내 의사 결정을 수행하는 방법을 알아봅니다.
+description: 장치 내 의사 결정을 사용하여 서버에 [!DNL Target] A/B 및 MVT 활동을 캐시하여 0에 가까운 지연으로 메모리 내 의사 결정을 수행하는 방법을 알아봅니다.
 title: 장치 내 의사 결정 소개
-feature: Implement Server-side
+feature: 서버측 구현
 role: Developer
+exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
-
 # 디바이스에서 의사 결정
 
-장치 내 의사 결정에서는 [!DNL Adobe Target] 에지 네트워크에 대한 네트워크 요청을 차단하지 않고 서버에 [!DNL Adobe Target] [!UICONTROL  &lt;a/B 테스트] 및 [!UICONTROL 경험 타깃팅](XT) 활동을 캐시하고 거의 0에 메모리 내 의사 결정을 수행하는 기능을 제공합니다.
+장치 내 의사 결정은 [!DNL Adobe Target] 에지 네트워크에 대한 네트워크 요청을 차단하지 않고 서버에 [!DNL Adobe Target] [!UICONTROL  &lt;a/B 테스트] 및 [!UICONTROL 경험 타깃팅](XT) 활동을 캐시하고 거의 0에 가까운 지연에 메모리 내 의사 결정을 수행하는 기능을 제공합니다.
 
 자세한 내용은 *[Adobe Target SDK 설명서](https://adobetarget-sdks.gitbook.io/docs/)*&#x200B;의 [장치 내 의사 결정 소개](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)를 참조하십시오.
 
