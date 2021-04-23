@@ -1,18 +1,18 @@
 ---
 keywords: Analytics 추적 서버;A4T;분석 세그먼트;보고서 세트;잘못된 데이터;고립됨;sdid;VisitorAPI.js;mboxMCSDID;phantom;지정되지 않음
-description: Target(A4T)용 Analytics를 사용할 때 고객이 경험하는 일반적인 문제를 살펴봅니다.
-title: Analytics 및 Target 통합 문제 해결 방법(A4T)
+description: Analytics for [!DNL Target] (A4T)을 사용하여 고객이 경험하는 일반적인 문제를 살펴봅니다.
+title: Analytics 및 [!DNL Target] 통합 문제 해결 방법(A4T)
 feature: Analytics for Target (A4T)
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1000'
 ht-degree: 42%
 
 ---
 
-
-# Analytics 및 Target 통합 문제 해결(A4T)
+# Analytics 및 [!DNL Target] 통합 문제 해결(A4T)
 
 이 주제에서는 [!DNL Adobe Target](A4T)의 보고 소스로 [!DNL Adobe Analytics]을(를) 사용할 때 발생하는 몇 가지 일반적인 문제에 대해 설명합니다.
 
