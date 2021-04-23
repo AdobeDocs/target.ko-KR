@@ -1,18 +1,18 @@
 ---
 keywords: 개요 및 참조
-description: Adobe Campaign과 함께 Adobe Target을 사용하여 이메일 컨텐츠를 최적화하는 방법을 살펴볼 수 있습니다.
-title: Target을 Adobe Campaign과 통합하려면 어떻게 해야 합니까?
-feature: Integrations
+description: Adobe Campaign에서 Adobe [!DNL Target] 을 사용하여 이메일 컨텐츠를 최적화하는 방법을 알아봅니다.
+title: Adobe Campaign과 [!DNL Target] 을 통합하려면 어떻게 합니까?
+feature: 통합
+exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 40%
+source-wordcount: '382'
+ht-degree: 37%
 
 ---
 
-
-# Adobe Campaign과 Target 통합{#integrate-target-with-adobe-campaign}
+# Adobe Campaign과 [!DNL Target] 통합
 
 [!DNL Adobe Campaign]과 함께 [!DNL Target]을 사용하여 이메일 컨텐츠를 최적화합니다.
 
@@ -58,7 +58,7 @@ Target은 다음과 같은 데이터를 추적할 수 있습니다.
 
 통합의 [!DNL Campaign] 부분을 설정하기 전에 [!DNL Target]에서 활동을 시작합니다.
 
-## Adobe Campaign 이메일에 Target 오퍼 포함 {#section_B201BBE27A704E18AF0D553F35695837}
+## Adobe Campaign 이메일 {#section_B201BBE27A704E18AF0D553F35695837}에 [!DNL Target] 오퍼 포함
 
 1. [!DNL Adobe Campaign]에서 이메일을 만듭니다.
 1. 이메일 속성에서 **[!UICONTROL 포함]** > **[!UICONTROL Adobe Target에서 제공하는 동적 이미지]**&#x200B;를 클릭합니다.
