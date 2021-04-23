@@ -1,17 +1,17 @@
 ---
 keywords: 구현;구현
-description: 사이트에서 Adobe Target을 구현하는 방법을 알아봅니다. 전역 설정, 구현 방법(AEP Web SDK 또는 at.js) 등을 설정합니다.
-title: 내 사이트에서 Target을 구현하려면 어떻게 합니까?
-feature: Administration & Configuration
+description: 사이트에서 Adobe [!DNL Target] 을 구현하는 방법을 알아봅니다. 전역 설정, 구현 방법(AEP Web SDK 또는 at.js) 등을 설정합니다.
+title: 내 사이트에서  [!DNL Target] 을 어떻게 구현합니까?
+feature: 관리 및 구성
 role: Administrator
+exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '143'
 ht-degree: 2%
 
 ---
-
 
 # 구현
 
