@@ -1,19 +1,19 @@
 ---
 keywords: 고리버들;at.js;구현;비동기적;비동기적;동기적;동기
-description: 페이지 또는 앱을 로드하는 동안 at.js 및 Adobe Target이 깜박임을 방지하는 방법(활동 컨텐츠로 대체되기 전에 기본 컨텐츠가 일시적으로 표시)을 알아보십시오.
+description: 페이지 또는 앱을 로드하는 동안 at.js 및 Adobe [!DNL Target] 깜박임을 방지하는 방법(활동 컨텐츠로 대체되기 전에 기본 컨텐츠가 일시적으로 표시)을 알아보십시오.
 title: at.js Flicker는 어떻게 관리합니까?
 feature: at.js
 role: Developer
+exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 76%
 
 ---
 
-
-# at.js에서 플리커를 관리하는 방법{#how-at-js-manages-flicker}
+# at.js에서 플리커를 관리하는 방법
 
 페이지 또는 앱 로드 중 Target at.js JavaScript 라이브러리가 어떻게 플리커를 방지하는지에 대한 정보입니다.
 
