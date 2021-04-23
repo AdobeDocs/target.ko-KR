@@ -1,16 +1,16 @@
 ---
 keywords: mvt;다변수 테스트;오퍼;조합
-description: Adobe Target에서 VEC(Visual Experience Composer)를 사용하여 MVT(Multivariate Test)에 포함할 오퍼를 만드는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 에서 VEC(Visual Experience Composer)를 사용하여 MVT(Multivariate Test)에 포함할 오퍼를 만드는 방법을 알아봅니다.
 title: MVT(다변량 테스트)에서 조합을 만들려면 어떻게 합니까?
-feature: Multivariate Tests
+feature: 다변량 테스트
+exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
-
 
 # 조합 만들기
 
@@ -65,4 +65,3 @@ VEC를 사용하여 오퍼를 만들고 편집하는 방법에 대한 자세한 
 * 테스트할 요소가 3개 이상 있어야 합니다. 요소 수가 더 적은 경우 일련의 A/B 테스트.
 * 각 요소의 대체 요소가 서로 완전히 다른 것이 좋습니다.
 * 필수 사항은 아니지만, 각 요소에 동일한 개수의 대체 항목을 사용하는 것이 좋습니다.
-
