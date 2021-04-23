@@ -1,19 +1,19 @@
 ---
 keywords: 구현;mbox.js;dom 조작 라이브러리;target.js;시각적 경험 작성기;iframe;angular 사이트;단일 페이지 애플리케이션;단일 페이지 앱;SPA
 description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
-title: Target mbox.js 라이브러리는 무엇을 합니까?
+title: ' [!DNL Target] mbox.js 라이브러리는 어떻게 합니까?'
 feature: at.js
 role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '410'
 ht-degree: 74%
 
 ---
 
-# mbox.js가 수행하는 작업{#what-mbox-js-does}
+# mbox.js가 수행하는 작업
 
 기술 담당자가 mbox.js 구현과 이 구현이 사이트에 미칠 수 있는 영향을 이해하는 데 도움이 되는 정보입니다.
 
