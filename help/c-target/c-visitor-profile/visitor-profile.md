@@ -2,17 +2,17 @@
 keywords: 개요 및 참조
 description: 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방법에 대한 정보가 포함된 방문자 프로필에 대해 자세히 알아보십시오.
 title: 방문자 프로필이란 무엇입니까?
-feature: Audiences
+feature: 대상자
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 78%
 
 ---
 
-
-# 방문자 프로필{#visitor-profiles}
+# 방문자 프로필
 
 방문자 프로필에는 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방식에 대한 정보가 포함되어 있습니다.
 
