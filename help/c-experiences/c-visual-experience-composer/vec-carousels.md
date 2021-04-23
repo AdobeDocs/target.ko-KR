@@ -1,16 +1,16 @@
 ---
 keywords: 시각적 경험 작성기;VEC;캐러셀
-description: Adobe Target VEC(Visual Experience Composer)에서 편집할 수 있는 Carousel을 만드는 방법을 알아봅니다.
+description: Adobe [!DNL Target] VEC(Visual Experience Composer)에서 편집할 수 있는 Carousel을 만드는 방법을 알아봅니다.
 title: Visual Experience Composer에서 Carousel을 만들려면 어떻게 합니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
+exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 70%
+source-wordcount: '157'
+ht-degree: 71%
 
 ---
-
 
 # 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기
 
