@@ -1,18 +1,18 @@
 ---
 keywords: 사이트 페이지;대상 사이트 페이지;타깃팅;현재 페이지;대상 현재 페이지;이전 페이지;대상 이전 페이지;대상 이전 페이지;대상 랜딩 페이지;대상 랜딩 페이지;http 헤더
-description: 사이트의 특정 페이지에 있는 Adobe Target을 사용하여 방문자를 타게팅하는 방법을 알아봅니다.
-title: 사이트 페이지를 기준으로 방문자를 Target할 수 있습니까?
-feature: Audiences
+description: 사이트의 특정 페이지에 있는 Adobe [!DNL Target] 을 사용하여 방문자를 타게팅하는 방법을 알아봅니다.
+title: '사이트 페이지를 기준으로 방문자를 지정할 수 있습니까? [!DNL Target] '
+feature: 대상자
+exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '889'
 ht-degree: 42%
 
 ---
 
-
-# 사이트 페이지{#site-pages}
+# 사이트 페이지
 
 사이트의 특정 페이지에 있는 방문자를 타깃팅할 수 있습니다.
 
