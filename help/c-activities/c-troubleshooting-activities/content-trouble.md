@@ -2,15 +2,15 @@
 keywords: mbox 디버그;mbox 문제 해결;mbox 문제;깜박임;mboxDebug;mboxTrace;토큰;디버거;우선순위;활동 우선순위;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst 구매 mbox;최상위 판매;최상위 판매자
 description: 페이지에 예상 컨텐츠가 표시되지 않는 경우 문제 해결을 위한 제안을 찾습니다. Adobe Target에서 컨텐츠 전달을 디버깅하는 방법을 알아봅니다.
 title: 컨텐츠 전달 문제를 어떻게 해결할 수 있습니까?
-feature: Activities
+feature: 활동
+exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1413'
+source-wordcount: '1415'
 ht-degree: 60%
 
 ---
-
 
 # 콘텐츠 전달 문제 해결
 
@@ -173,7 +173,7 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타깃팅 및 Target 활�
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### 기본 Target 디버깅 ![자습서 배지](/help/assets/tutorial.png)
+### 기본 Adobe Target 디버깅 ![자습서 배지](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
