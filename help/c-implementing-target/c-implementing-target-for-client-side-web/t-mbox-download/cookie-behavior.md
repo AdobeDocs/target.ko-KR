@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1652'
 ht-degree: 92%
 
 ---
 
-# mbox.js 쿠키{#mbox-js-cookies}
+# mbox.js 쿠키
 
 쿠키 동작은 퍼스트 파티 쿠키, 퍼스트 파티 쿠키가 포함된 타사 쿠키 또는 타사 쿠키만인지 여부에 따라 다릅니다.
 
@@ -117,7 +117,7 @@ ht-degree: 92%
 | check | 방문자가 쿠키를 지원하는지 여부를 확인하는 간단한 테스트 값입니다. 방문자가 페이지를 요청할 때마다 설정합니다. |
 | disable | 방문자의 로드 시간이 mbox.js 파일에 구성된 시간을 초과하는 경우 설정됩니다. 기본적으로 1시간 동안 지속됩니다. |
 
-## Apple WebKit 추적 변경 사항으로 인한 Safari 방문자 Target에 미치는 영향 {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
+## Apple WebKit 추적 변경 사항으로 인해 Safari 방문자의 [!DNL Target]에 미치는 영향 {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
 
 **Adobe Target 추적은 어떻게 작동합니까?**
 
