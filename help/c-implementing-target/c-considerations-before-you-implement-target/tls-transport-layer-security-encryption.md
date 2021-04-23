@@ -1,21 +1,21 @@
 ---
 keywords: tls;tls 1.0;전송 레이어 보안;암호화;tls 1.1;tls 1.2
-description: Target이 TLS(Transport Layer Security) 프로토콜을 사용하여 최고 보안 표준을 유지하고 고객 데이터의 보안을 강화하는 방법을 알아봅니다.
-title: Target은 TLS를 사용하여 보안을 제공합니까?
-feature: Privacy & Security
+description: ' [!DNL Target] 에서 TLS(Transport Layer Security) 프로토콜을 사용하여 최고 보안 표준을 유지하고 고객 데이터의 보안을 높이는 방법을 알아봅니다.'
+title: 'TLS를 사용하여 보안을 제공하려면 어떻게 합니까? [!DNL Target] '
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1238'
+source-wordcount: '1237'
 ht-degree: 58%
 
 ---
 
+# TLS(전송 계층 보안) 암호화 변경 사항
 
-# TLS(전송 계층 보안) 암호화 변경 사항{#tls-transport-layer-security-encryption-changes}
-
-[!DNL Adobe] 및 [!DNL Adobe Target]에서 TLS(전송 레이어 보안)를 사용하여 최고 수준의 보안 표준을 유지하고 고객 데이터의 안전을 높이는 방법에 대한 변경 정보입니다.
+[!DNL Adobe] 및 [!DNL Adobe Target]에서 TLS(전송 레이어 보안)를 사용하여 최고 수준의 보안 표준을 유지하고 고객 데이터의 보안을 높이는 방법에 대한 변경 정보입니다.
 
 TLS(전송 계층 보안)는 네트워크를 통해 데이터를 안전하게 교환해야 하는 웹 브라우저 및 애플리케이션에서 현재 사용되는 가장 널리 배포된 보안 프로토콜입니다. Adobe는 이전 프로토콜의 서비스를 종료해야 하는 보안 준수 표준을 사용하며 최신 버전 및 보안 버전을 사용하기 위해 TLS 1.2의 사용을 권장합니다.
 
@@ -59,7 +59,7 @@ Adobe는 단계적으로 고객을 TLS1.2.로 전환합니다. 이미 1.2 규격
 
 지원되는 브라우저 및 해당 버전에 대한 자세한 내용은 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100)를 참조하십시오.
 
-## Adobe Target API {#section_88797FA5434049EC89F908853CC76903}
+## Adobe [!DNL Target] API {#section_88797FA5434049EC89F908853CC76903}
 
 2020년 3월 1일부터 Target API는 더 이상 TLS 1.1 암호화를 지원하지 않습니다. API에 액세스하는 고객은 자신들에게 영향이 없는지 확인해야 합니다.
 
