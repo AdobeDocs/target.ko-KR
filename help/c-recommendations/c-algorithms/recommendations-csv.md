@@ -1,18 +1,18 @@
 ---
 keywords: 사용자 지정 기준 만들기;알고리즘;기준;권장 사항 기준;csv;ftp;csv 업로드
-description: Adobe Target Recommendations에서 CSV 파일을 업로드하여 권장 사항을 사용자 지정하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] Recommendations에서 CSV 파일을 업로드하여 권장 사항을 사용자 지정하는 방법을 알아봅니다.
 title: Recommendations에서 사용자 지정 기준을 어떻게 업로드합니까?
 feature: Recommendations
+exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 61%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 사용자 지정 기준 업로드{#upload-custom-criteria}
+# ![PREMIUM](/help/assets/premium.png) 사용자 지정 기준 업로드
 
 권장 사항을 사용자 지정하려면 CSV 파일을 업로드합니다.
 
