@@ -1,16 +1,16 @@
 ---
 keywords: 경험 만들기;경험 생성;우선순위;대상;경험;시각적 경험 작성기
-description: Adobe Target VEC(Visual Experience Composer)를 사용하여 XT(Experience Targeting) 활동에서 페이지에서 경험을 만들고 편집하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] VEC(Visual Experience Composer)를 사용하여 XT(경험 타깃팅) 활동에서 페이지에서 경험을 만들고 편집하는 방법을 알아봅니다.
 title: 경험 타깃팅 활동에서 경험을 만들려면 어떻게 합니까?
-feature: Experience Targeting
+feature: 경험 타깃팅
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 87%
 
 ---
-
 
 # 경험 타깃팅(XT) 활동에 경험 만들기
 
