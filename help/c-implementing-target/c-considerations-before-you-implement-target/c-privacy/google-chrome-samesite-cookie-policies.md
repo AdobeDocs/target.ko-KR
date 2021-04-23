@@ -1,17 +1,17 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
-description: Adobe Target에서 Google Chrome 버전 80에 도입된 SameSite IETF 표준을 처리하는 방법과 이러한 정책을 준수하기 위해 필요한 작업을 알아봅니다.
-title: Target은 Google의 샘플 쿠키 정책을 어떻게 처리합니까?
-feature: Privacy & Security
+description: Adobe [!DNL Target] 이 Google Chrome 버전 80에서 도입된 SameSite IETF 표준을 처리하는 방법과 이러한 정책을 준수하기 위해 필요한 작업을 알아봅니다.
+title: 'Google의 샘플 쿠키 정책은 어떻게 처리합니까? [!DNL Target] '
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2050'
+source-wordcount: '2048'
 ht-degree: 6%
 
 ---
-
 
 # Google Chrome samesite 쿠키 정책
 
@@ -19,7 +19,7 @@ Google은 2020년 초에 출시될 예정인 Chrome 80부터 시작하는 사용
 
 Chrome 80부터 웹 개발자는 웹 사이트에서 사용할 수 있는 쿠키를 명시적으로 지정해야 합니다. 이것은 구글이 웹에서의 개인정보 보호와 보안을 개선하기 위해 계획하고 있는 많은 공지 중 첫 번째이다.
 
-페이스북이 사생활이나 보안과 관련하여 인기 있는 자리에 있다는 사실을 고려하면, 애플과 현재 구글과 같은 다른 주요 선수들은 프라이버시와 보안 챔피언으로서 새로운 신분을 만들 기회를 재빨리 이용해 왔다. 애플은 올해 초 ITP 2.1과 최근 ITP 2.2를 통해 쿠키 정책 변경 사항을 발표함으로써 이 팩을 선도했다. ITP 2.1에서는 애플은 완전히 타사 쿠키를 차단하며 브라우저에서 만든 쿠키를 7일간 보관한다. ITP 2.2에서는 쿠키가 하루만 보관됩니다. 구글의 이번 발표는 애플처럼 공격적이지는 않지만, 같은 최종 목표를 향한 첫 번째 단계이다. Apple의 정책에 대한 자세한 내용은 [ITP(Apple Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)을 참조하십시오.
+개인정보 및 보안과 관련하여 Facebook이 주목을 받고 있다는 사실을 고려하면, Apple과 현재 Google과 같은 다른 주요 플레이어는 개인정보 보호 및 보안 챔피언으로서 새로운 신분을 만들 수 있는 기회를 재빨리 이용해 왔다. 애플은 올해 초 ITP 2.1과 최근 ITP 2.2를 통해 쿠키 정책 변경 사항을 발표함으로써 이 팩을 선도했다. ITP 2.1에서는 애플은 완전히 타사 쿠키를 차단하며 브라우저에서 만든 쿠키를 7일간 보관한다. ITP 2.2에서는 쿠키가 하루만 보관됩니다. 구글의 이번 발표는 애플처럼 공격적이지는 않지만, 같은 최종 목표를 향한 첫 번째 단계이다. Apple의 정책에 대한 자세한 내용은 [ITP(Apple Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)을 참조하십시오.
 
 ## 쿠키란 무엇이며 어떻게 사용됩니까?
 
@@ -43,7 +43,7 @@ Chrome 80부터 웹 개발자는 웹 사이트에서 사용할 수 있는 쿠키
 
 쿠키는 사용자 경험과 강력한 광고를 향상시키지만, CSRF(Cross-Site Request 위조) 공격과 같은 보안 취약점도 유발할 수 있습니다. 예를 들어 사용자가 은행 사이트에 로그인하여 신용 카드 대금을 내고 로그아웃하지 않고 사이트를 나간 다음 동일한 세션에서 악성 사이트로 이동하면 CSRF 공격이 발생할 수 있습니다. 악성 사이트에는 페이지가 로드될 때 실행하는 은행 사이트로 요청하는 코드가 포함될 수 있습니다. 사용자가 여전히 은행 사이트로 인증되므로 세션 쿠키를 사용하여 CSRF 공격을 실행하여 사용자의 은행 계좌에서 자금 전송 이벤트를 시작할 수 있습니다. 이는 사이트를 방문할 때마다 모든 쿠키가 HTTP 요청에 첨부되기 때문입니다. 그리고 이러한 보안 문제 때문에 Google은 이제 이러한 문제를 완화하려고 시도하고 있습니다.
 
-## Target은 쿠키를 어떻게 사용합니까?
+## [!DNL Target]은 쿠키를 어떻게 사용합니까?
 
 이러한 모든 의미와 함께 [!DNL Target]이 쿠키를 사용하는 방법을 살펴보겠습니다. 먼저 [!DNL Target]을(를) 사용하려면 사이트에 [!DNL Target] JavaScript 라이브러리를 설치해야 합니다. 이렇게 하면 사이트를 방문하는 사용자의 브라우저에 퍼스트 파티 쿠키를 배치할 수 있습니다. 사용자가 웹 사이트와 상호 작용할 때 JavaScript 라이브러리를 통해 사용자의 행동 및 관심 데이터를 [!DNL Target]에 전달할 수 있습니다. [!DNL Target] JavaScript 라이브러리는 자사 쿠키를 사용하여 사용자의 행동 및 관심 데이터에 매핑할 사용자에 대한 식별 정보를 추출합니다. 그런 다음 이 데이터를 [!DNL Target]에서 사용하여 개인화 활동을 강화합니다.
 
@@ -94,7 +94,7 @@ Adobe은 보안 및 개인 정보 보호에 대한 업계 최신 모범 사례�
 | at.js 1.*x* 크로스 도메인 추적이 활성화되어 있는지 확인하십시오. | 효과 없음. | 사이트에 대해 HTTPS 프로토콜을 활성화해야 합니다.<br>[!DNL Target] 를 사용하여 사용자를 추적하고 Google을 사용하려면 제3자 쿠키가  `SameSite = None` 있어야 하며 보안 플래그가 있어야 합니다. 보안 플래그를 사용하려면 사이트가 HTTPS 프로토콜을 사용해야 합니다. |
 | at.js 2.*x* | 효과 없음. | 효과 없음. |
 
-## Target은 무엇을 해야 합니까?
+## [!DNL Target]은(는) 무엇을 해야 합니까?
 
 그렇다면 새로운 Google Chrome 80+ SameSite 쿠키 정책을 준수하는 데 Adobe 플랫폼에서 어떻게 해야 합니까?
 
