@@ -1,18 +1,18 @@
 ---
 keywords: css 선택기;사용자 지정 코드;코드 편집기;모바일 웹 경험 편집기
-description: Adobe Target의 [수정] 패널을 사용하여 페이지 수정 내용을 보고 추가 수정(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가하는 방법을 알아보십시오.
+description: Adobe [!DNL Target] 의 [수정] 패널을 사용하여 페이지 수정을 보고 추가 수정(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가하는 방법에 대해 알아보십시오.
 title: 페이지를 수정할 수 있는 작업은 무엇입니까?
-feature: Visual Experience Composer (VEC)
+feature: 시각적 경험 작성기(VEC)
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 95%
 
 ---
 
-
-# 수정 사항{#modifications}
+# 수정 사항
 
 페이지 수정 내용을 보고 추가 수정(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가할 수 있는 [!DNL Adobe Target]의 수정 페이지에 대한 정보입니다.
 
