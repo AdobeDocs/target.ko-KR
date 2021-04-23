@@ -1,16 +1,16 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Adobe Target 다변수 테스트 활동이 성공하기에 충분한 트래픽이 있는지 확인할 수 있는 트래픽 견적 도구를 사용하는 방법에 대해 알아보십시오.
+description: 성공적인 Adobe [!DNL Target] 다변수 테스트 활동에 대한 충분한 트래픽이 있는지 확인할 수 있는 트래픽 견적 도구를 사용하는 방법에 대해 알아보십시오.
 title: MVT(다변수 테스트) 활동에 필요한 트래픽은 얼마입니까?
-feature: Multivariate Tests
+feature: 다변량 테스트
+exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '502'
 ht-degree: 92%
 
 ---
-
 
 # 성공적인 테스트에 필요한 트래픽 예측
 
@@ -61,4 +61,3 @@ ht-degree: 92%
    트래픽 견적 도구가 트래픽이 충분하다고 표시할 때까지 수치를 조정한 후 그에 따라 테스트를 디자인하십시오.
 
    ![](assets/estimatorok.png)
-
