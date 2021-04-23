@@ -1,16 +1,16 @@
 ---
 keywords: Recommendations;소개;소개;웨비나;데모
-description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 컨텐츠를 자동으로 표시하는 Adobe Target의 Recommendations 활동에 대해 학습합니다.
+description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 컨텐츠를 자동으로 표시하는 Adobe [!DNL Target] 의 Recommendations 활동에 대해 알아봅니다.
 title: Recommendations 활동이란 무엇입니까?
 feature: Recommendations
+exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2117'
-ht-degree: 95%
+source-wordcount: '2115'
+ht-degree: 94%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 추천 소개
 
@@ -57,7 +57,7 @@ Adobe는 소매점에서 사용하는 모든 종류의 추천에 대해 알고 �
 * **정교한 모델**: 카탈로그 및 상호 작용 이벤트에서 수백만 개의 항목을 파악. [!DNL Target]은 10년 이상의 경험을 바탕으로 한 정교한 기계 학습 기능을 갖추고 있으며 매년 수십 억 건의 추천을 처리합니다.
 * **사용자 컨텍스트**: 추천이 적시에 적절한 사용자에게 제공되도록 함. 누군가 방금 본 비디오나 누군가가 방금 장바구니에 추가한 셔츠를 추천하고 싶지 않을 것입니다. Target의 풍부한 사용자 프로필을 추천에 사용하여 개인화를 보장할 수 있습니다.
 
-## Target 추천 구현
+## [!DNL Target] Recommendations 구현
 
 전략과 함께 시작하십시오.
 
@@ -195,6 +195,6 @@ Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화
 
 위에서 설명한 추천 단계에 표시된 작업을 완료하면 최종 추천이 표시됩니다. [!DNL Target]에서 제품 내 데모를 시청하려면 아래 링크를 클릭하십시오. *Adobe Target 기본 사항 웨비나*&#x200B;에서 9시에 시작됩니다.
 
-## Adobe Target 기본 사항 웨비나: Recommendations 소개 {#intro-to-recs}
+## Adobe [!DNL Target] 기본 웨비나:Recommendations 소개 {#intro-to-recs}
 
 [추천 소개](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
