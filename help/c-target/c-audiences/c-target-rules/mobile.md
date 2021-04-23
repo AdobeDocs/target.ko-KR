@@ -1,18 +1,18 @@
 ---
 keywords: 타깃팅;모바일;target 모바일;deviceatlas;iPhone;iPhone 모델;장치 atlas;displaywidth;디스플레이 너비;디스플레이 높이;장치 유형;displayheight;휴대폰;태블릿;태블릿;장치 모델
-description: Adobe Target에서 모바일 디바이스, 디바이스 유형, 디바이스 공급업체, 화면 크기(픽셀 단위) 등과 같은 매개 변수를 기반으로 모바일 디바이스를 대상으로 고객을 지정하는 방법을 살펴봅니다.
-title: 모바일 옵션을 기반으로 방문자를 Target할 수 있습니까?
-feature: Audiences
+description: Adobe [!DNL Target] 에서 대상을 만들어 모바일 장치, 장치 유형, 장치 공급업체, 화면 크기(픽셀 단위) 등과 같은 매개 변수를 기반으로 모바일 장치를 타깃팅하는 방법을 알아봅니다.
+title: '모바일 옵션을 기준으로 방문자를 지정할 수 있습니까? [!DNL Target] '
+feature: 대상자
+exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 93%
 
 ---
 
-
-# 모바일{#mobile}
+# 모바일
 
 모바일 장치, 장치 유형, 장치 공급업체, 화면 치수(픽셀) 등의 매개 변수를 기반으로 하는 모바일 장치를 타깃팅할 대상을 만듭니다.
 
