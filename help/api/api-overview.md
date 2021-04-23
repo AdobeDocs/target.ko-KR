@@ -1,19 +1,19 @@
 ---
 keywords: api;api;관리 api;배달 api;보고 api;profile api
-description: 관리, 전달, 보고 및 프로필 API를 비롯한 Adobe Target API를 찾습니다.
-title: Target API 및 SDK 설명서는 어디에서 찾을 수 있습니까?
-feature: APIs/SDKs
+description: 관리, 배달, 보고 및 프로필 API를 비롯한 Adobe [!DNL Target] API를 찾습니다.
+title: ' [!DNL Target] API 및 SDK 설명서를 어디에서 찾을 수 있습니까?'
+feature: API/SDK
 role: Developer
+exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '262'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
 
-
-# Adobe Target API 개요
+# Adobe [!DNL Target] API 개요
 
 [!DNL Adobe Target] API는 다음 유형에 따라 그룹화할 수 있습니다.관리, 전달, 보고 및 프로필 API.
 
