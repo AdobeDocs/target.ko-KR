@@ -1,16 +1,16 @@
 ---
 keywords: 참가자 뉴스레터;제품 업데이트;팁 및 기법;이벤트;고객 성공;블로그;블로그;백서
 description: Adobe Target에 대한 최신 뉴스 보기 향후 이벤트, 고객 성공 사례, 전문가의 정보 및 팁 등에 대한 정보를 확인할 수 있습니다.
-title: Adobe Target Insider Newsletter 소개
-feature: Release Notes, Overview
+title: Adobe [!DNL Target] 내부자 뉴스레터란 무엇입니까?
+feature: 릴리스 노트, 개요
+exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2150'
+source-wordcount: '2152'
 ht-degree: 41%
 
 ---
-
 
 # Target 인사이더 뉴스레터
 
@@ -28,7 +28,7 @@ Adobe Target Insider 뉴스 레터를 통해 최적화된 상태로 유지하는
 | 문제 | 세부 사항 |
 |--- |--- |
 | [2019년 12월 (Vol. 2, Issue 12)](https://expleague.azureedge.net/assets/target/2019_12_Target_Newsletter_Dec_2019.html) | Adobe Target 팀에서 올해 종료가 임박했음을 확인함에 따라 2019년에 발생한 모든 것을 돌이켜 보면 만족스럽습니다. 이 특별한 연말 발행에서는 놀라운 고객과 전문의들의 일부를 인식하고 그 해의 월별 하이라이트를 제공하기 위해 이 작업을 진행하겠습니다. |
-| [2019년 11월(2권, 11호](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | 당신에게 흥미로운 소식이 있습니다! 첫 번째, Forrester는 &quot;The Forrester Wave:디지털 인텔리전스 플랫폼, 2019년 4분기 새로운 오픈 소스 Node.js SDK 및 강력한 새로운 사용자 기반 Recommendations 알고리즘을 출시했습니다. 또한 Adobe Target 전문가가 공유하는 개인화 및 최적화를 위한 멋진 팁을 얻을 수 있습니다. 그런 다음, 소셜 미디어 영향력 행사자인 골디 챈이 최근 2회의 LinkedIn 라이브 세션에서 Adobe Target의 Jason Hickey와 나를 인터뷰했다. Adobe의 제이미 브라이턴은 데이터 관리와 데이터 프라이버시를 경쟁 차별화 요소로 사용하기 위한 도구에 대해 의견을 표했다. 마지막으로 모바일 앱 개발자는 최종 모바일 앱 스킬 빌더에 참석할 수 있습니다. |
+| [2019년 11월(2권, 11호](https://expleague.azureedge.net/assets/target/2019_11_Target_Newsletter_Nov_2019.html) | 당신에게 흥미로운 소식이 있습니다! 첫 번째, Forrester는 &quot;The Forrester Wave:디지털 인텔리전스 플랫폼, 2019년 4분기 새로운 오픈 소스 Node.js SDK 및 강력한 새로운 사용자 기반 Recommendations 알고리즘을 출시했습니다. 또한 Adobe Target 전문가가 공유하는 개인화 및 최적화를 위한 멋진 팁을 얻을 수 있습니다. 그런 다음, 소셜 미디어 영향력 행사자인 Goldie Chan이 최근 두 번의 LinkedIn Live 세션에서 Adobe Target의 Jason Hickey와 나를 인터뷰했다. Adobe의 제이미 브라이턴은 데이터 관리와 데이터 프라이버시를 경쟁 차별화 요소로 사용하기 위한 도구에 대해 의견을 표했다. 마지막으로 모바일 앱 개발자는 최종 모바일 앱 스킬 빌더에 참석할 수 있습니다. |
 | [2019년 10월(2권, 10호)](https://expleague.azureedge.net/assets/target/2019_10_Target_Newsletter_Oct_2019.html) | 이번 달 호에, 우리는 당신이 잘 해낼 수 있는 많은 콘텐트를 가지고 있다. 온라인 뉴스 퍼블리셔 McClatchy의 Wendy Melemen으로부터 개인화 및 최적화 팁을 얻을 수 있습니다. 모바일 앱 개발자를 위한 향후 무료 스킬 빌더 가상 랩에 등록하여 참석하십시오. Adobe Target과 Adobe Campaign을 통합하면 얻을 수 있는 이점을 살펴볼 수 있습니다. 또한 강력한 개인화 프로그램을 구축하기 위한 재생 가이드인 경험 개인화를 위한 Winning Playbook을 다운로드할 수 있습니다. 마지막으로 업계 선도적인 개인화 솔루션을 신속하게 사용할 수 있도록 도움을 주는 리소스를 보려면 Experience League에서 제공하는 Adobe Target을 참조하십시오. |
 | 2019년 9월 | 이번 달에는 뉴스레터가 게시되지 않았습니다. |
 | [2019년 8월(2권, 8호)](https://expleague.azureedge.net/assets/target/2019_08_Target_Newsletter_Aug_2019.html) | 학교들이 다시 세션을 시작하는 동안 Adobe Target 팀에서 제공하는 학습 기회를 강조하기 위한 것이 이 문제에서만 옳은 것으로 보입니다. Adobe Target Mobile 스킬 빌더 랩에 등록하여 모바일 앱을 개인화하는 방법을 학습할 수 있습니다. Adobe 인사이더 투어에서 북아메리카 4개 도시에서 우리를 직접 만나보세요. 사용자 진도에 맞게 학습할 수 있는 온라인 교육 과정의 개선된 Experience League 선택 과정을 살펴보십시오. 그런 다음 Target(A4T) 통합을 위해 Analytics를 사용해야 하는 매력적인 이유를 읽어보십시오. 마지막으로 Adobe가 Google 및 Apple의 최신 쿠키 정책을 준수하는 데 도움이 되는 방법을 확인하십시오. |
