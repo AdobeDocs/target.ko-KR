@@ -1,19 +1,19 @@
 ---
 keywords: at.js;2.0;1.x;쿠키
-description: Adobe Target at.js 2.x 및 at.js 1.x에서 쿠키를 처리하는 방법에 대한 자세한 내용
+description: Adobe [!DNL Target] at.js 2.x 및 at.js 1.x가 쿠키를 처리하는 방법에 대한 자세한 내용
 title: at.js 쿠키
 feature: at.js
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
-
-# at.js 쿠키 {#at-js-cookies}
+# at.js 쿠키
 
 at.js 2.x 및 at.js 1.*x* 쿠키 동작에 대한 정보.
 
@@ -124,11 +124,11 @@ at.js에서 `mboxSession ID`를 생성합니다. 첫 번째 위치 요청은 `mb
 | check | 방문자가 쿠키를 지원하는지 여부를 확인하는 간단한 테스트 값입니다. 방문자가 페이지를 요청할 때마다 설정합니다. |
 | disable | 방문자의 로드 시간이 mbox.js 파일에 구성된 시간을 초과하는 경우 설정됩니다. 기본적으로 1시간 동안 지속됩니다. |
 
-## Apple WebKit 추적 변경 사항으로 인한 Safari 방문자 Target에 미치는 영향
+## Apple WebKit 추적 변경 사항으로 인해 Safari 방문자의 [!DNL Target]에 미치는 영향
 
 다음 사항에 주의하십시오.
 
-### Adobe Target 추적은 어떻게 작동합니까?
+### Adobe [!DNL Target] 추적은 어떻게 작동합니까?
 
 | 쿠키 | 세부 사항 |
 |--- |--- |
