@@ -1,18 +1,18 @@
 ---
 keywords: 대상;대상 규칙;대상 결합;제외;제외 추가;제외하기;대상 결합하기;임시 대상;애드혹 대상
-description: 여러 대상(Adobe Experience Cloud 대상 및 Target 대상 포함)을 신속하게 결합하여 애드혹 대상을 만드는 방법을 알아보십시오.
+description: 여러 대상(Adobe Experience Cloud 대상 및 [!DNL Target] 대상자 포함)을 신속하게 결합하여 애드혹 대상을 만드는 방법을 알아봅니다.
 title: 여러 대상을 결합하여 새 대상을 만들 수 있습니까?
-feature: Audiences
+feature: 대상자
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 95%
 
 ---
 
-
-# 여러 대상 결합{#combine-multiple-audiences}
+# 여러 대상 결합
 
 즉석에서 여러 대상(Adobe Experience Cloud 대상 및 Target 대상 포함)을 조합하여 애드혹 대상을 만듭니다. 제외 규칙을 만들고 규칙에서 대상을 제외할 수도 있습니다.
 
