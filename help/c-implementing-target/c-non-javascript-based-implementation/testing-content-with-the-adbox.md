@@ -2,18 +2,18 @@
 keywords: 구현;mbox.js 비JavaScript;mbox;adbox
 description: AdBox를 사용하여 Adobe Target을 사용하여 오프라인 구현에서 이미지를 제공합니다. AdBox는 mbox와 비슷하지만 JavaScript 대신 URL로 제어됩니다.
 title: 이미지의 Adbox를 만들려면 어떻게 합니까?
-feature: Implement Email
+feature: 이메일 구현
 role: Developer
+exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 74%
+source-wordcount: '330'
+ht-degree: 73%
 
 ---
 
-
-# 이미지용 Adbox 만들기{#create-an-adbox-for-an-image}
+# 이미지용 Adbox 만들기
 
 AdBox를 사용하여 Adobe Target을 사용하여 오프라인 구현에서 이미지를 제공합니다.
 
