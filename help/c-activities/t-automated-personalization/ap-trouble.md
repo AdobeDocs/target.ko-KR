@@ -2,17 +2,17 @@
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: 제안 솔루션과 함께 Adobe Target에서 AP(Automated Personalization) 활동을 사용하는 동안 직면할 수 있는 잠재적인 문제를 살펴보십시오.
 title: Automated Personalization 문제를 어떻게 해결합니까?
-feature: Automated Personalization
+feature: 자동화된 개인화
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 91%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 문제 해결{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 문제 해결
 
 활동은 경우에 따라 예상대로 수행되지 않을 수 있습니다. 여기에서는 자동화된 개인화 및 일부 제안된 해결 방법을 사용할 때 발생할 수 있는 몇 가지 잠재적인 어려움에 대해 설명합니다.
 
@@ -58,4 +58,3 @@ AP 활동에서 전환 지표(최적화 목표 또는 사후 목표)가 전환�
 
 * 새 탭에서 미리 보기를 볼 수 없는 경우(브라우저 캐시로 인해) 2~3번 새로 고치거나 링크를 복사한 후 새 브라우저나 새 세션에서 엽니다.
 * 컨텐츠를 변경하고 팀 동료와 새 링크를 공유한 경우 경험 URL 링크를 재생성하십시오.
-
