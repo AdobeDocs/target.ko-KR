@@ -1,15 +1,15 @@
 ---
 keywords: adobe.target.오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;at.js;함수;함수
-description: Adobe Target at.js 라이브러리에 대한 adobe.target.getOffers() 함수 및 해당 옵션을 사용하여 여러 Target 오퍼을 가져오기 위한 요청을 실행합니다. (at.js 2.x)
+description: Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] 오퍼에 대해 adobe.target.getOffers() 함수 및 해당 옵션을 사용합니다. (at.js 2.x)
 title: adobe.target.getOffers() 함수를 어떻게 사용합니까?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: 82c66de1d4a6680392b7e73759dc824c4df22d2f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1252'
-ht-degree: 89%
+source-wordcount: '1242'
+ht-degree: 90%
 
 ---
 
