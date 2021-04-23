@@ -1,16 +1,16 @@
 ---
 keywords: target 문제 해결;target 문제 해결;기본 컨텐츠;테스트가 라이브가 아님;활동이 라이브가 아님;타깃팅이 작동하지 않음;이전 경험이 표시됩니다;활동을 만들 수 없습니다;활동을 만들 수 없습니다;활동 만들기;페이지 구조가 변경됨;페이지 구조가 수정됨;오류 메시지;프로필 스크립트 삭제 오류;ajax가 작동하지 않음
-description: Adobe Target 활동이 사이트에 나타나지 않으면 문제 해결 제안을 찾습니다.
+description: Adobe [!DNL Target] 활동이 사이트에 표시되지 않으면 문제 해결 제안을 찾습니다.
 title: 활동 문제를 어떻게 해결할 수 있습니까?
-feature: Activities
+feature: 활동
+exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 78%
+source-wordcount: '834'
+ht-degree: 77%
 
 ---
-
 
 # 활동 문제 해결
 
@@ -22,7 +22,7 @@ ht-degree: 78%
 
 다음 섹션은 추천 해결 방법에서 발생할 수 있는 문제를 포함합니다.
 
-## Target UI를 사용하여 활동을 만들었지만 API를 통해 업데이트할 수 없습니다.
+## [!DNL Target] UI를 사용하여 활동을 만들었지만 API를 통해 업데이트할 수 없습니다.
 
 Target UI를 사용하여 만든 활동은 Target UI를 통해 업데이트해야 합니다. API를 통해 생성된 활동은 API를 통해 업데이트해야 합니다. 예를 들어 원래 API를 사용하여 활동을 만들었지만 나중에 Target UI를 통해 활동을 편집하는 경우 일부 변경 사항이 업데이트되지 않습니다. 모든 변경 사항은 백 엔드에 저장되며 다른 API 호출을 수행하여 업데이트할 수 있습니다.
 
@@ -69,7 +69,7 @@ Target UI를 사용하여 만든 활동은 Target UI를 통해 업데이트해�
 * 다른 브라우저를 사용해 보십시오.
 * 비공개/시크릿 모드를 사용하십시오.
 
-## 최근 Target에 추가되었지만 활동을 만들 수 없습니다.
+## 최근에 [!DNL Target]에 추가되었지만 활동을 만들 수 없습니다.
 
 **유효성 검사:** 활동 만들기를 클릭하십시오. 이 선택 사항을 사용할 수 없다면, 활동을 만들기에 충분한 권한이 없을 가능성이 큽니다.
 
@@ -141,6 +141,6 @@ Target에서 사용자로 추가된 후 활동을 만들려면 승인자 역할�
 
 **참고:**[!DNL Target] 이름은 동일하지만 매개 변수가 다른 여러 개의 ajax 호출의 경우 동일한 페이지에서 작동하지 않습니다. 첫 번째 호출만 수행됩니다.
 
-## Target API를 사용하여 활동을 활성화했지만 Target UI에 [!UICONTROL 비활성] 상태가 표시됩니다.
+## [!DNL Target] API를 사용하여 활동을 활성화했지만 이 활동은 [!DNL Target] UI에 [!UICONTROL 비활성]의 상태를 보여줍니다.
 
 Target API를 사용하여 UI 외부에서의 활동 활성화와 같은 특정 작업을 수행하면 업데이트가 UI로 전파되는 데 최대 10분이 걸릴 수 있습니다.
