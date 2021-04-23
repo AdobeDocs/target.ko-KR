@@ -1,18 +1,18 @@
 ---
 keywords: 대상 사용자 인터페이스;사용자 인터페이스;ui
 description: 사용자 인터페이스에 익숙해지고 Target을 최대한 활용할 수 있도록 보다 심층적인 정보에 대한 링크를 찾을 수 있습니다.
-title: Target UI는 어떻게 사용합니까?
-feature: Overview
+title: ' [!DNL Target] UI는 어떻게 사용합니까?'
+feature: 개요
+exl-id: ce4c72b2-b635-406b-9830-650816445a64
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '816'
 ht-degree: 27%
 
 ---
 
-
-# Target UI 이해
+# [!DNL Target] UI 이해
 
 사용자 인터페이스는 [!DNL Adobe Target]을(를) 최대한 활용할 수 있도록 논리적이고 사용자 친화적인 형식으로 정렬됩니다. 다음 개요는 [!DNL Target]에 익숙해지는 데 도움이 되며 자세한 정보 및 단계별 지침을 위한 링크를 제공합니다.
 
@@ -38,7 +38,7 @@ ht-degree: 27%
 
 ## 도움말
 
-도움말 아이콘을 사용하면 정보, 비디오, 블로그 등에 액세스하여 [!DNL Target]을 보다 효과적으로 사용할 수 있습니다. 지원 티켓을 만들거나, 지원 전화 번호를 찾거나, Twitter를 통해 질문하거나, [!DNL Target]에 대한 피드백을 제공하여 Adobe가 어떤 작업을 하고 있는지 알 수 있습니다.
+도움말 아이콘을 사용하면 정보, 비디오, 블로그 등에 액세스하여 [!DNL Target]을 보다 효과적으로 사용할 수 있습니다. 지원 티켓을 만들거나, 지원 전화 번호를 찾거나, Twitter을 통해 질문하거나, [!DNL Target]에 대한 피드백을 제공하여 Adobe가 어떤 작업을 하고 있는지 알 수 있습니다.
 
 ![도움말](/help/c-intro/assets/help.png)
 
