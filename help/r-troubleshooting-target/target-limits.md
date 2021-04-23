@@ -2,16 +2,16 @@
 keywords: 문자 제한;mbox 매개 변수;배치 배달 api;프로필 매개 변수;제한;프로필 프로필;최대;제한;제한;문자;우수 사례;순서;주문 합계;mbox3rdPartyID;category;categoryID;문제 해결
 description: 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등) 목록 보기 정보입니다.
 title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까?
-feature: Troubleshooting
+feature: 문제 해결
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
+source-wordcount: '1162'
 ht-degree: 59%
 
 ---
-
 
 # 제한
 
@@ -234,7 +234,7 @@ ht-degree: 59%
 
 * **제한**: 활동당 50개의 보고 대상/세그먼트.
 
-## Target UI의 스크립트 프로필 입력 상자
+## [!DNL Target] UI의 스크립트 프로필 입력 상자
 
 * **권장 제한**: 2,000자.
 
@@ -273,4 +273,3 @@ ht-degree: 59%
 * **권장 제한**:타깃팅 규칙 값당 2,500자.
 * **권장 제한**: 타깃팅 규칙 전체의 대상당 30,000개의 고유 값.
 * **권장 제한**: 활동당 100,000개의 고유한 타깃팅 규칙 값.
-
