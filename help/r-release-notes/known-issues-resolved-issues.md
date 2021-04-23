@@ -2,15 +2,15 @@
 keywords: 알려진 문제;해결된 문제;릴리스 정보;버그;문제;수정
 description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 문제에 대한 정보를 찾습니다. 문제가 해결되면 해결된 섹션으로 이동합니다.
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
-feature: Release Notes
+feature: 릴리스 정보
+exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 translation-type: tm+mt
-source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '4374'
+source-wordcount: '4373'
 ht-degree: 58%
 
 ---
-
 
 # 알려진 문제 및 해결된 문제
 
@@ -24,7 +24,7 @@ ht-degree: 58%
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
 
-### 자동 할당 및 자동 Target 활동에 대한 Target(A4T) 지표 분석
+### 자동 할당 및 자동 Target 활동에 대한 Adobe Target(A4T) 지표 분석
 
 [!DNL Target] UI를 사용하면 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동에서 최적화를 위한 기본 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있습니다. 전환 지표가 지원됩니다.참여 및 매출 지표는 *지원되지 않음*&#x200B;입니다. 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 구축되지 않습니다.
 
@@ -120,7 +120,7 @@ MVT 활동에서 지표 확인 시 테이블 및 그래프에 표시되는 우�
 
 성공 지표가 모든 임프레션에서 증가하도록 설정되면 Target은 방문자가 이 성공 지표를 방문할 때마다 방문자를 다시 카운트합니다. 그런 다음 Target은 성공 지표 &quot;멤버십&quot;을 0으로 재설정하여 다음 노출 시 다시 카운트될 수 있도록 합니다. 따라서 다른 지표에 이 지표가 먼저 표시되어야 하는 경우 Target은 사용자가 첫 번째 지표를 보았음을 인식하지 않습니다.
 
-### Analytics for Target (A4T)
+### [!DNL Target]에 대한 분석(A4T)
 
 Analysis Workspace에서 Target 활동 노출 횟수 및 전환을 사용할 때 지표에 &quot;동일한 터치&quot; Attribution IQ 모델을 적용하여 정확한 카운트를 확인하십시오. [기본이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)을 적용하려면 지표를 **열 설정 수정 > 기본이 아닌 속성 모델 사용 활성화 > 동일한 터치 모델**&#x200B;에 마우스 오른쪽 단추로 클릭합니다. 이 모델이 적용되지 않으면 지표가 부풀려집니다.
 
@@ -134,7 +134,7 @@ Analysis Workspace에서 Target 활동 노출 횟수 및 전환을 사용할 때
 
 2020년 5월 10일 Adobe에서 GEO 공급자 파일이 업데이트되어 일부 불일치가 발생했습니다. 예를 들어 쉼표를 포함하는 일부 값이 추가되었습니다.그러나 기존 대상의 값에 쉼표가 없습니다. 이 변경 사항으로 인해 모든 Adobe 배달 서버가 영향을 받지 않았습니다. 따라서 이러한 값을 사용하는 대상이 2020년 5월 10일부터 7월 22일 사이에 올바른 방문자를 모두 적격하지 않았을 수 있습니다.
 
-### 보고 - 다운로드 가능한 .csv 보고서에 있는 데이터와 Target UI에 표시된 보고서에 대한 데이터가 일치하지 않습니다. {#csv}
+### 보고 - 다운로드 가능한 .csv 보고서에 있는 데이터와 [!DNL Target] UI에 표시된 보고서에 대한 데이터가 일치하지 않습니다. {#csv}
 
 활동에 둘 이상의 지표를 사용하는 경우 .csv 파일로 다운로드하기 위해 생성된 보고서가 일치하지 않습니다. 다운로드 가능한 보고서는 보고서 설정만을 기반으로 생성되며 사용된 다른 지표에 대해 동일한 값을 고려합니다.
 
@@ -150,7 +150,7 @@ Analysis Workspace에서 Target 활동 노출 횟수 및 전환을 사용할 때
 
 이 문제는 Target Standard/Premium 20.10.1 릴리스에서 해결되었습니다.
 
-### A4T(Analytics for Target) 보고
+### Adobe Target(A4T) 보고 분석
 
 A4T와 관련된 다음 문제가 해결되었습니다.
 
@@ -237,7 +237,7 @@ mbox.js 라이브러리는 Handlebars 및 Mustache와 같은 클라이언트 측
 
 at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false`로 다운로드됩니다. mbox.js를 처음 다운로드하면 global\_mbox\_autocreate가 &quot;true&quot;로 설정되고 at.js도 `global_mbox_autocreate = true`로 다운로드됩니다. (TGT-15929)
 
-### Target API의 엔터프라이즈 권한 지원 {#api}
+### [!DNL Target] API {#api}의 엔터프라이즈 권한 지원
 
 GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러리의 Target UI에서 생성된 코드 오퍼가 기본 작업 공간에 표시될 수 있습니다. 이 문제는 2019년 3월 첫 주에 수정됩니다. 이 수정 사항이 적용되면 API에서 가져올 때 코드 오퍼가 적합한 작업 공간에 표시됩니다. 이 문제는 API에서 만든 오퍼에 영향을 주지 *않습니다*. 예를 들어 API에서 생성된 코드 오퍼는 GET API를 사용하여 가져오든 아니면 Target UI 내에서 가져오든 간에 생성될 때 작업 공간에 표시됩니다.
 
@@ -348,7 +348,7 @@ Firefox 및 Internet Explorer에서 코드 편집기로 작업하는 동안 3단
 
 이 문제는 at.js 버전 1.2에서 해결되었습니다.
 
-### Target Premium에 대한 엔터프라이즈 사용자 권한
+### [!DNL Target] Premium에 대한 Enterprise 사용자 권한
 
 엔터프라이즈 권한 마이그레이션의 일부로, 모든 Target Premium 사용자 관리가 Adobe Target UI에서 Adobe Admin Console로 이동되었습니다.
 
@@ -439,7 +439,7 @@ Target 17.3.1 릴리스(2017년 3월 30일)에서 수정되었습니다.
 
 Recommendations 17.2.2.0 릴리스(2017년 3월 6일)에서 수정되었습니다.
 
-### A4T(Analytics for Target) 보고
+### Adobe Target(A4T) 보고 분석
 
 보고 지표가 전환되면 보고서가 업데이트되지 않습니다. 이 문제는 UI에만 영향을 줍니다. 보고 데이터 수집 또는 전달에는 영향을 미치지 않습니다. (TGT-22970)
 
