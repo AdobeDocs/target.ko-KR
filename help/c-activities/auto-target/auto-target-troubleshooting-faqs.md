@@ -2,15 +2,15 @@
 keywords: 자동 타겟;타깃팅;트래픽 할당;FAQ;문제 해결;문제 해결;트래픽
 description: Adobe Target에서 자동 Target 활동에 대한 문제 해결 항목 및 FAQ를 참조하십시오.
 title: 자동 Target 활동을 어떻게 해결할 수 있습니까?
-feature: Auto-Target
+feature: 자동 타겟
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 68%
 
 ---
-
 
 # ![](/help/assets/premium.png) PremiumTarget 문제 해결 및 FAQ
 
@@ -33,7 +33,7 @@ ht-degree: 68%
 
 * 활동을 실행하는 중에는 경험을 크게 변경하지 마십시오.
 
-### 모델이 빌드될 때까지 90(컨트롤)/10(타깃팅됨) 분할이 있는 자동 Target을 사용하는 것이 권장됩니까?
+### 모델이 빌드될 때까지 90(제어)/10(타깃팅됨) 분할이 있는 자동 [!DNL Target]을 사용하는 것이 좋습니까?
 
 최적의 트래픽 할당은 달성하고자 하는 내용에 따라 달라집니다.
 
@@ -149,4 +149,3 @@ AP 활동에서 상승도를 생성하는 데에는 4가지 필요한 요소가 
 [!UICONTROL 자동 타겟] 활동에서는 전환 지표(최적화 목표든 게시 목표든)가 전환되면 사용자는 경험에서 해제되고 활동이 다시 시작됩니다.
 
 예를 들어, 전환 지표(C1)와 추가적인 지표(A1)가 있는 활동이 있습니다. A1은 C1에 종속적입니다. 방문자가 처음으로 활동을 시작하고 A1 및 C1을 전환하기 위한 기준이 전환되지 않은 경우 지표 A1은 성공 지표 종속성으로 인해 전환되지 않습니다. 방문자가 C1을 전환한 후에 A1을 전환하는 경우, C1이 전환되는 즉시 방문자가 해제되므로 A1은 여전히 전환되지 않습니다.
-
