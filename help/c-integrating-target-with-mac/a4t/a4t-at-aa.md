@@ -1,16 +1,16 @@
 ---
 keywords: a4t;A4T;Analytics를 Target의 보고 소스로 사용
-description: Analytics를 보고 소스(A4T)로 사용하는 Adobe Target에서 자동 할당 및 자동 Target 활동을 만드는 방법을 알아봅니다.
+description: Analytics를 보고 소스(A4T)로 사용하는 Adobe [!DNL Target] 에서 자동 할당 및 자동 Target 활동을 만드는 방법을 알아봅니다.
 title: A4T는 자동 할당 및 자동 Target 활동을 지원합니까?
 feature: Analytics for Target (A4T)
+exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
 translation-type: tm+mt
-source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '964'
+source-wordcount: '963'
 ht-degree: 2%
 
 ---
-
 
 # 자동 할당 및 자동 Target 활동에 대한 A4T 지원
 
