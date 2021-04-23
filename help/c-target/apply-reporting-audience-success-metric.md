@@ -1,18 +1,18 @@
 ---
 keywords: 타깃팅;대상;보고;성공 지표
-description: 보고 대상을 위해 사용자를 자격이 있는 Adobe Target에서 성공 지표를 선택하는 방법에 대해 알아보십시오.
+description: 보고 대상자에 대해 사용자를 자격이 있는 Adobe [!DNL Target] 에서 성공 지표를 선택하는 방법을 알아봅니다.
 title: 성공 지표에 보고 대상자를 적용할 수 있습니까?
-feature: Success Metrics
+feature: 성공 지표를 참조하십시오
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 90%
 
 ---
 
-
-# 성공 지표에 보고 대상 적용{#apply-a-reporting-audience-to-a-success-metric}
+# 성공 지표에 보고 대상 적용
 
 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
 
@@ -34,4 +34,3 @@ ht-degree: 90%
 보고에서 세그멘테이션을 보려면 활동의 보고서에 있는 대상 드롭다운 목록에서 원하는 대상을 선택하십시오.
 
 ![](assets/reporting_audience_dropdown.png)
-
