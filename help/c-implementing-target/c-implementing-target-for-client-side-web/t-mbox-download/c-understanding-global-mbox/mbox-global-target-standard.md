@@ -1,17 +1,17 @@
 ---
 keywords: 글로벌 mbox;target classic;target classic의 글로벌 mbox 사용
-description: 기존 구현을 위해 페이지에 글로벌 mbox를 이미 만든 경우 Adobe Target 활동에 기존 글로벌 mbox를 사용하는 방법을 알아봅니다.
+description: 기존 구현에 대해 페이지에 글로벌 mbox를 이미 만든 경우 Adobe [!DNL Target] 활동에 기존 글로벌 mbox를 사용하는 방법을 알아봅니다.
 title: 기존 구현에서 글로벌 mbox를 사용할 수 있습니까?
 feature: at.js
 role: Developer
+exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '303'
 ht-degree: 36%
 
 ---
-
 
 # 기존 구현의 글로벌 mbox 사용
 
