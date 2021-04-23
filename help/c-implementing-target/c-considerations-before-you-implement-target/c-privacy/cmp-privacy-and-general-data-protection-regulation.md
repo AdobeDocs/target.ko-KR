@@ -1,17 +1,17 @@
 ---
 keywords: gdpr;eu;유럽연합;개인 정보;faq;자주 묻는 질문;캘리포니아 소비자 개인 정보 보호법;ccpa;개인 정보;데이터 보호;옵트 아웃;옵트 아웃;정부;규정
-description: Target 및 유럽 연합(GDPR), 캘리포니아 소비자 개인 정보 보호 법(CPA) 및 기타 개인 정보 보호 요구 사항에 대해 살펴볼 수 있습니다.
-title: Target은 개인정보 보호 및 데이터 보호 규정을 어떻게 처리합니까?
-feature: Privacy & Security
+description: ' [!DNL Target] 과 EU(General Data Protection Regulation), GDPR(California Consumer Privacy Act) 및 기타 개인 정보 보호 요구 사항에 대해 알아보십시오.'
+title: ' [!DNL Target] 개인정보 보호 및 데이터 보호 규정은 어떻게 처리합니까?'
+feature: 개인 정보 및 보안
 role: Developer
+exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2265'
-ht-degree: 90%
+source-wordcount: '2260'
+ht-degree: 88%
 
 ---
-
 
 # 개인 정보 보호 및 데이터 보호 규정
 
@@ -52,7 +52,7 @@ ht-degree: 90%
 >
 >CPA에 적용되는 데이터에 액세스하고 삭제하면 GDPR과 동일한 프로세스가 적용됩니다.
 
-## Adobe Target 및 [!DNL Experience Platform Launch] 선택 {#section_6F7B53F5E40C4425934627B653E831B0}
+## Adobe [!DNL Target] 및 [!DNL Experience Platform Launch] 옵트인 {#section_6F7B53F5E40C4425934627B653E831B0}
 
 [!DNL Target]은 [!DNL Launch]를 통해 동의 관리 전략을 지원하는 데 도움이 되는 선택 기능 지원을 제공합니다. 선택 기능을 통해 고객이 태그를 실행하는 방법과 시기를 제어할 수 있습니다. [!DNL Target] 또한 [!DNL Launch]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Target] at.js 라이브러리에서 옵트인을 사용하는 기능을 활성화하려면 `targetGlobalSettings`를 사용하고 `optinEnabled=true` 설정을 추가해야 합니다. [!DNL Launch]에서는 [!DNL Launch] Extension 설치 보기의 [!UICONTROL GDPR 옵트인] 드롭다운 목록에서 &quot;활성화&quot;를 선택해야 합니다. 자세한 내용은 [Launch 설명서](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 참조하십시오.
 
@@ -160,7 +160,7 @@ GDPR, CPA 및 [!DNL Launch]에 대한 자세한 내용은 [Adobe 개인 정보 �
 
 예를 들어 [!DNL Target]은 해당 ID를 저장하는 쿠키를 삭제하지만, [!DNL Adobe Audience Manager](AAM)은 타사 쿠키에 저장된 Demdex ID를 삭제하지 않습니다.
 
-### Target GDPR 또는 CCPA 요청에 포함해야 하는 정보는 무엇입니까? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### [!DNL Target] GDPR 또는 CPA 요청에 어떤 정보를 포함해야 합니까?{#section_D29A4744AE6344E68AD7710B185FD6D0}
 
 중앙 개인 정보 서비스의 요구 사항 외에 [!DNL Target]에 유효한 GDPR 또는 CCPA 메시지는 다음과 같습니다.
 
@@ -201,7 +201,7 @@ GDPR, CPA 및 [!DNL Launch]에 대한 자세한 내용은 [Adobe 개인 정보 �
 }
 ```
 
-### GDPR API를 통해 Target에서 예상할 수 있는 응답 유형은 무엇입니까? {#section_F67263D2A72B4641A47CE36729CCAE8F}
+### GDPR API를 통해 [!DNL Target]에서 어떤 유형의 응답을 예상할 수 있습니까?{#section_F67263D2A72B4641A47CE36729CCAE8F}
 
 | 요청 상태 | Target 응답 메시지 | 시나리오 |
 |--- |--- |--- |
@@ -210,7 +210,7 @@ GDPR, CPA 및 [!DNL Launch]에 대한 자세한 내용은 [Adobe 개인 정보 �
 | 완료 | 적용할 수 없음 - 사용자 컨텍스트를 찾을 수 없음 | 특정 방문자 또는 데이터 주제에 대한 GDPR 또는 CCPA 요청에 제공된 ID가 Target 프로필 저장소에 없습니다.<br>이 결과는 Target에서 지원하지 않는 네임스페이스 ID 유형을 제출하려고 시도하는 경우에도 반환됩니다(지원되는 ID에 대해서는 위 참조). |
 | 오류 | 오류 메시지(세부 사항은 오류 유형에 따라 다름) | 요청한 데이터 주제 프로필을 가져오거나 삭제하는 중에 오류가 발생했습니다.<br>액세스 요청을 위해 Azure에 업로드하는 동안 오류가 발생했습니다. |
 
-### Target은 액세스 요청에 대해 GDPR API로 어떤 응답을 보냅니까? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### 액세스 요청을 위해 [!DNL Target]이(가) GDPR API로 보내는 응답은 무엇입니까?{#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 데이터 액세스 요청에 대한 응답에는 해당 방문자에 대한 [!DNL Target] 프로필의 요약이 포함되어 있습니다. 이렇게 반환된 내용이 [!DNL Experience Cloud] GDPR API로 전송되고 데이터 관리자에게 응답이 전송됩니다.
 
@@ -293,7 +293,7 @@ GDPR, CPA 및 [!DNL Launch]에 대한 자세한 내용은 [Adobe 개인 정보 �
 >
 >이는 설명을 위해 짧게 만든 버전의 [!DNL Target] 프로필 JSON입니다. [!DNL Target] 프로필의 여러 필드는 표준이 아닙니다. 반환되는 내용은 해당 방문자 프로필에 포함된 정보에 따라 다릅니다.
 
-### Target이 IP 난독화를 지원합니까? {#section_428907B0CD9842D9B245B38C66A53C6A}
+### [!DNL Target]은(는) IP 난독화를 지원합니까?{#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target]은 사용자가 IP 난독화를 GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 유사 IP 탐지를 지원합니다. 자세한 내용은 [개인 정보](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)를 참조하십시오.
 
