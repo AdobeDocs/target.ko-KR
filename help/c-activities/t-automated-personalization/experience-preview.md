@@ -1,16 +1,16 @@
 ---
 keywords: 경험 미리 보기;경험 URL;URL 생성;경험 URL 보기
-description: Adobe Target Automated Personalization 활동에 대한 경험 미리 보기 URL을 사용하여 활동이 라이브되기 전에 사이트에서 직접 경험 컨텐츠를 보는 방법을 알아봅니다.
+description: 활동이 라이브되기 전에 Adobe [!DNL Target] Automated Personalization 활동에 대한 경험 미리 보기 URL을 사용하여 사이트에서 직접 경험 컨텐츠를 보는 방법을 알아봅니다.
 title: Automated Personalization 활동에서 경험 미리 보기 URL을 어떻게 사용할 수 있습니까?
-feature: Automated Personalization
+feature: 자동화된 개인화
+exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '784'
 ht-degree: 65%
 
 ---
-
 
 # ![미리 ](/help/assets/premium.png) 보기 URL을 사용하여 Automated Personalization 활동 검토
 
