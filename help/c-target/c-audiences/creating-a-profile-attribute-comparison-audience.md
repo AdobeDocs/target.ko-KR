@@ -1,18 +1,18 @@
 ---
 keywords: 대상;성향;프로필 속성;비교하기;비교;대상 만들기;대상 작성
-description: Target 대상 라이브러리 또는 활동 전용 대상의 2개의 프로필 속성을 비교하기 위해 대상을 정의하는 방법을 알아봅니다.
+description: 대상을 정의하여  [!DNL Target] 대상 라이브러리 또는 활동 전용 대상의 두 프로필 속성을 비교하는 방법을 알아봅니다.
 title: 대상에서 사용할 2개의 프로필 속성을 비교할 수 있습니까?
-feature: Audiences
+feature: 대상자
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
 
 ---
 
-
-# 프로필 속성 비교 대상 만들기{#create-a-profile-attribute-comparison-audience}
+# 프로필 속성 비교 대상 만들기
 
 타겟 [대상 라이브러리](/help/c-target/c-audiences/audiences.md)에 대한 두 프로필 속성 또는 [활동 전용 대상](/help/c-target/creating-activity-only-audience.md)의 두 프로필 속성을 비교할 대상을 정의합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
 
