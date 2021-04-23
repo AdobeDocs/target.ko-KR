@@ -1,16 +1,16 @@
 ---
 keywords: adobe target;target;documentation;api;api;sdk;sdk;tutorials;doc;documentation
-description: 온라인 도움말, 자습서, 비디오 및 개발자 설명서(SDK, API 및 JavaScript 라이브러리)가 포함된 Adobe Target 문서에 액세스합니다.
+description: 온라인 도움말, 자습서, 비디오 및 개발자 설명서(SDK, API 및 JavaScript 라이브러리)를 비롯한 Adobe [!DNL Target] 문서에 액세스합니다.
 title: Target 설명서는 어디에서 찾을 수 있습니까?
-feature: Release Notes
+feature: 릴리스 정보
+exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 2%
+source-wordcount: '466'
+ht-degree: 3%
 
 ---
-
 
 # Target 설명서 개요
 
