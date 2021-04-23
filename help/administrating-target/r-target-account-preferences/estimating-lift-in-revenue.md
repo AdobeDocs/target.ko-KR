@@ -2,18 +2,18 @@
 keywords: 수입 상승도;수입;수입의 상승도 예상;상승도 계산;예상 값
 description: 모든 방문자에게 우승한 경험이 표시되는 경우 테스트 중에 트렌드가 지속되는 경우 달성할 수 있는 리프트를 예상합니다.
 title: 매출 향상도는 어떻게 예상합니까?
-feature: Administration & Configuration
+feature: 관리 및 구성
 role: Administrator
+exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 88%
 
 ---
 
-
-# 매출 상승도 평가{#estimate-lift-in-revenue}
+# 매출 상승도 평가
 
 모든 사용자가 우승 경험을 보는 경우 달성할 매출 리프트를 예상하려면 [!DNL Adobe Target]을 사용합니다.
 
