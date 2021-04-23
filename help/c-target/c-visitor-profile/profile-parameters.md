@@ -1,18 +1,18 @@
 ---
 keywords: 프로필 스크립트;프로필 스크립트 특성;프로필 스크립트 모범 사례;디버그;디버깅;스크립트;프로필 스크립트;특성;특성;매개 변수;profile script;profile script attributes;parameter;profile script best practices;debug;debugging;scripts;profile scripts;attributes;attribute;parameter
-description: Adobe Target 활동에서 사용할 수 있는 정보에 대한 정보를 제공하기 위해 방문자의 프로필에 저장되는 방문자별 속성에 대해 알아봅니다.
+description: Adobe [!DNL Target] 활동에 사용할 수 있는 정보에 대한 정보를 제공하기 위해 방문자의 프로필에 저장되는 방문자별 속성에 대해 알아봅니다.
 title: 프로필 속성이란?
-feature: Audiences
+feature: 대상자
+exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2453'
 ht-degree: 76%
 
 ---
 
-
-# 프로필 속성{#profile-attributes}
+# 프로필 속성
 
 프로필 속성은 방문자와 관련된 매개 변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
 
