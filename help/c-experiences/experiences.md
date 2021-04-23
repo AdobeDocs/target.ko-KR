@@ -1,16 +1,16 @@
 ---
 keywords: ;시각적 경험 작성기;향상된 경험 작성기;양식 기반 경험 작성기;양식 작성기;시각적 컴포저;시각적 컴포저;경험 컴포저;혼합 컨텐트;iframe;istering;iframe busting;x-frame-options;x-frame-options;x frame options;cross origin issues;authentication workflow
 description: Adobe Experience Composer - VEC(Visual Experience Composer), 양식 기반 Experience Composer 및 단일 페이지 Visual Experience Composer에 대해 자세히 알아보십시오.
-title: Target이 제공하는 경험 작곡가는 무엇입니까?
-feature: Experiences and Offers
+title: ' [!DNL Target] 오퍼는 어떤 경험 작곡가에게 제공됩니까?'
+feature: 경험 및 오퍼
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 79%
+source-wordcount: '383'
+ht-degree: 78%
 
 ---
-
 
 # 경험 및 오퍼
 
