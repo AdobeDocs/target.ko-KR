@@ -1,16 +1,16 @@
 ---
 keywords: qa;미리 보기;북마클릿;미리 보기 링크
-description: Adobe Target QA 북마클릿을 사용하여 Target을 강제로 QA 모드에서 해제시키는 방법을 알아봅니다.
+description: Adobe [!DNL Target] QA bookmarklet to force [!DNL Target] 을 사용하여 QA 모드에서 나가는 방법을 알아봅니다.
 title: 활동 QA 북마클릿을 어떻게 사용합니까?
-feature: Activities
+feature: 활동
+exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 13%
+source-wordcount: '262'
+ht-degree: 14%
 
 ---
-
 
 # 활동 QA 북마클릿
 
@@ -73,4 +73,3 @@ javascript:(
 ## 활동 QA 북마클릿 사용
 
 브라우저의 도구 모음에서 북마클릿을 클릭합니다.
-
