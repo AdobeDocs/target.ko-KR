@@ -1,16 +1,16 @@
 ---
 keywords: 분석 추적 서버;A4T;Adobe Experience Cloud 디버거;Adobe Experience Platform 디버거;보고 소스;개발자 도구
-description: 'at.js 또는 mbox.js의 이전 버전을 사용하는 경우 Target(A4T)용 Analytics를 사용하는 활동에 대한 Analytics 추적 서버를 지정하는 방법에 대해 학습합니다. '
+description: '이전 버전의 at.js 또는 mbox.js를 사용하는 경우  [!DNL Target] (A4T)에 Analytics를 사용하는 활동에 대한 Analytics 추적 서버를 지정하는 방법에 대해 학습합니다. '
 title: Analytics 추적 서버를 어떻게 사용합니까?
 feature: Analytics for Target (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # Analytics 추적 서버 사용을 참조하십시오
 
@@ -77,4 +77,3 @@ at.js 또는 mbox.js의 이전 버전을 사용하는 경우 [!DNL Adobe Target]
    >[!NOTE]
    >
    >[!UICONTROL 추적 서버] 필드를 사용할 수 있도록 하려면 [!UICONTROL Analytics를 보고 소스]로 선택합니다.
-
