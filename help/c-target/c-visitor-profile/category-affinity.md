@@ -1,22 +1,22 @@
 ---
 keywords: 친화성;카테고리 친화성
-description: Adobe Target에서 카테고리 관련성에 대해 알아봅니다. 카테고리를 자동으로 캡처하고 카테고리에 대한 사용자의 관련성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있습니다.
+description: 카테고리 관련성에 대해 알아보십시오. Adobe [!DNL Target] 에서는 사용자가 방문하는 카테고리를 자동으로 캡처하고 카테고리에 대한 사용자의 관련성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있습니다.
 title: 카테고리 관련성이란 무엇입니까?
-feature: Audiences
+feature: 대상자
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '811'
 ht-degree: 94%
 
 ---
 
-
-# 카테고리 친화성{#category-affinity}
+# 카테고리 친화성
 
 카테고리 친화성 기능을 사용하여 자동으로 사용자가 방문하는 카테고리를 캡처하고 카테고리에 대한 사용자의 친화성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있습니다. 이 기능은 해당 정보에 대해 행동할 가능성이 가장 큰 방문자를 타겟으로 콘텐츠를 지정합니다.
 
-## Target에 카테고리 친화성 정보 전달 {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## 카테고리 친화성 정보를 [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}에 전달
 
 사용자가 사이트를 방문할 때마다 방문자와 관련된 프로필 매개 변수가 [!DNL Target]의 데이터베이스에 기록됩니다. 이 데이터는 사용자의 쿠키에 연결되어 있습니다. 특히 유용한 한 가지 매개 변수는 `user.categoryId`로, 제품 페이지에서 지정된 mbox 매개 변수입니다. 방문자가 계속 탐색하거나 다른 세션을 위해 재방문할 때 특정 사용자가 보는 제품 카테고리를 기록할 수 있습니다. 또한 임의의 mbox(중첩된 mbox 포함)에서 mbox 매개 변수 `user.categoryId`나 URL 매개 변수 `user.categoryId`로서 또는 글로벌 mbox를 사용하는 Target 페이지 매개 변수로 카테고리 정보를 전달하여 카테고리 정보를 기록할 수도 있습니다. 자세한 내용은 계정 담당자에게 문의하십시오.
 
