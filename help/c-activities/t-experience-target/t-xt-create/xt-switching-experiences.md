@@ -1,16 +1,16 @@
 ---
 keywords: 우선순위;경험 작성;우선순위;경험;대상;경험;경험 전환;시각적 경험 작성기
-description: 프로필의 진화에 따라 방문자가 Adobe Target XT(Experience Targeting) 활동에서 경험 간을 전환하는 방법을 알아봅니다.
+description: 프로필이 진화함에 따라 방문자가 Adobe [!DNL Target] XT(경험 타깃팅) 활동에서 경험 간을 전환하는 방법에 대해 알아보십시오.
 title: 방문자가 경험 타깃팅 활동에서 경험을 전환할 수 있습니까?
-feature: Experience Targeting
+feature: 경험 타깃팅
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 96%
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
-
 
 # 경험 타깃팅에서 경험 전환
 
@@ -72,4 +72,3 @@ ht-degree: 96%
    방문자가 둘 이상의 대상에 대해 자격이 있을 수 있는 시나리오를 염두에 두는 것이 중요합니다. 예를 들어, 하나는 &quot;미국&quot;을 대상으로 하고, 다른 하나는 &quot;뉴욕&quot;을 대상으로 하는 두 가지 경험이 있는 경우 뉴욕에 있는 방문자는 두 대상에 대한 자격을 모두 가질 수 있습니다. 따라서 Target UI에서 &quot;미국&quot; 경험보다 먼저 &quot;뉴욕&quot; 경험이 정의되어 있는지 확인해야 합니다. 이렇게 하면 다음 예와 같이 더 많이 타깃팅된 &quot;뉴욕&quot; 경험의 우선순위가 더 높습니다.
 
    ![우선 순위 뉴욕 > 미국](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
