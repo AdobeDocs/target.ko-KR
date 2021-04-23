@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.알림 보내기;알림전송;알림 보내기;알림 보내기;알림;at.js;함수;함수
-description: applyOffer를 사용하지 않고 환경이 렌더링될 때 at.js용 adobe.target.sendNotifications()를 사용하여 Target 가장자리에 알림을 전송할 수 있습니다. (at.js.2.1 +)
+description: applyOffer를 사용하지 않고 경험이 렌더링될 때 at.js용 adobe.target.sendNotifications()를 사용하여 [!DNL Target] edge에 알림을 보냅니다. (at.js.2.1 +)
 title: adobe.target.sendNotifications() 함수를 어떻게 사용합니까?
 feature: at.js
 role: Developer
+exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '634'
 ht-degree: 95%
 
 ---
-
 
 # adobe.target.sendNotifications(options)
 
