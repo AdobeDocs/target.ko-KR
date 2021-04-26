@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 7%
+source-wordcount: '3747'
+ht-degree: 6%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | at.js 라이브러리는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다. |
 | 5 | Akamai CDN이 JSON 규칙 아티팩트와 응답합니다. |
 | 6 | JSON 규칙 아티팩트는 방문자의 브라우저에서 로컬로 캐시됩니다. |
@@ -134,7 +134,7 @@ Adobe Target JS SDK는 고객이 결정을 위한 데이터의 최신 성능과 
 
 | 단계 | 설명 |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
 | 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | at.js 라이브러리는 JSON 규칙 아티팩트를 해석하고 메모리 내에서 결정을 실행하여 경험을 검색합니다. |
@@ -169,7 +169,7 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 | --- | --- |
 | 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 3 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
+| 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | 페이지 로드 요청은 Adobe Target Edge Network에 수행됩니다. 여기에는 ECID, 고객 ID, 사용자 지정 매개 변수, 사용자 프로필 등의 모든 구성 매개 변수가 포함됩니다. |
 | 5 | 이와 동시에 at.js는 가장 가까운 Akamai CDN에서 방문자에게 JSON 규칙 아티팩트를 검색하도록 요청합니다. |
 | 6 | (Adobe Target Edge Network) 프로필 스크립트가 실행된 다음 프로필 스토어로 피드됩니다. 프로필 저장소는 대상 라이브러리에서 자격이 있는 대상(예: [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] 등에서 공유된 대상)을 요청합니다. |
@@ -195,7 +195,7 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 
 | 단계 | 설명 |
 | --- | --- |
-| 3 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
+| 1 | [!DNL Experience Cloud Visitor ID]은(는) [Adobe Experience Cloud Identity Service](https://experienceleague.adobe.com/docs/id-service/using/home.html)에서 검색됩니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js 라이브러리는 페이지에 구현된 선택적 사전 숨기기 조각을 사용하여 비동기식으로 로드할 수도 있습니다. |
 | 1 | at.js 라이브러리는 깜박거리는 것을 방지하기 위해 몸을 숨깁니다. |
 | 4 | 경험을 검색하도록 요청합니다. |
@@ -329,3 +329,63 @@ adobe.target.getOffers({
 1. 장치 내 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)에서 지원하는 [활동 유형을 만들고 활성화하고 장치 내 의사 결정이 적절한지 확인합니다.
 1. at.js 설정 UI를 통해 **[!UICONTROL 의사 결정 메서드]**&#x200B;를 **[!UICONTROL &quot;Hybrid&quot;]** 또는 **[!UICONTROL &quot;장치에서 On-device 전용&quot;]**&#x200B;으로 설정합니다.
 1. At.js 2.5.0+을 다운로드하여 페이지에 배포합니다.
+
+## 문제 해결
+
+장치 내 의사 결정 문제를 해결하려면 다음 단계를 완료하십시오.
+
+1. at.js에 대한 콘솔 로그 활성화
+1. 브라우저의 [네트워크] 탭에서 규칙 아티팩트 다운로드 확인
+1. at.js 사용자 지정 이벤트를 사용하여 규칙 아티팩트 다운로드 확인
+
+다음 섹션에서는 각 단계에 대해 자세히 설명합니다.
+
+### 1단계:at.js에 대한 콘솔 로그 활성화
+
+URL 매개 변수 `mboxDebug=1`을 추가하면 at.js가 브라우저의 콘솔에서 메시지를 인쇄할 수 있습니다.
+
+모든 메시지에는 편리한 개요를 위해 접두사 &quot;AT:&quot;가 포함되어 있습니다. 가공물이 성공적으로 로드되었는지 확인하려면 콘솔 로그에 다음과 유사한 메시지가 포함되어야 합니다.
+
+```
+AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
+AT: LD.ArtifactProvider artifact received - status=200
+```
+
+다음 그림은 콘솔 로그에 이러한 메시지를 보여 줍니다.
+
+![가공물 메시지가 있는 콘솔 로그](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
+
+### 2단계:브라우저의 [네트워크] 탭에서 규칙 아티팩트 다운로드 확인
+
+브라우저의 네트워크 탭을 엽니다.
+
+예를 들어 Google Chrome에서 개발 도구를 열려면 다음을 수행하십시오.
+
+1. Ctrl+Shift+J(Windows) 또는 Command+Option+J(Mac)를 누릅니다.
+1. 네트워크 탭으로 이동합니다.
+1. &quot;rules.json&quot; 키워드로 호출을 필터링하여 아티팩트 규칙 파일만 표시되도록 합니다.
+
+   또한 &quot;/delivery|rules.json/&quot;로 필터링하여 모든 [!DNL Target] 호출 및 artifact rules.json을 표시할 수 있습니다.
+
+   ![Google Chrome의 네트워크 탭](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
+
+### at.js 사용자 지정 이벤트를 사용하여 규칙 아티팩트 다운로드 확인
+
+at.js 라이브러리는 2개의 새로운 사용자 지정 이벤트를 전달하여 장치 내 의사 결정을 지원합니다.
+
+* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
+* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
+
+구독하면 응용 프로그램에서 이러한 사용자 정의 이벤트를 수신하여 객체 규칙 파일 다운로드에 성공하거나 실패할 때 작업을 수행할 수 있습니다.
+
+다음 예는 객체 다운로드 성공 및 실패 이벤트를 수신하는 코드 샘플을 보여 줍니다.
+
+```javascript
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
+  console.log("Artifact successfully downloaded", e.detail);
+}, false);
+
+document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
+  console.log("Artifact failed to download", e.detail);
+}, false);
+```
