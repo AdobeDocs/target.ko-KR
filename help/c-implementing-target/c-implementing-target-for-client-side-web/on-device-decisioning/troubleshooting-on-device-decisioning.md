@@ -5,22 +5,16 @@ title: at.js JavaScript 라이브러리에서 장치 내 의사 결정 문제를
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # at.js에 대한 장치 내 의사 결정 문제 해결
 
-at.js JavaScript 라이브러리를 사용하여 Adobe Target의 장치 내 의사 결정 문제를 해결하려면 다음 단계를 수행하십시오.
-
-1. at.js에 대한 콘솔 로그 활성화
-1. 브라우저의 [네트워크] 탭에서 규칙 아티팩트 다운로드 확인
-1. at.js 사용자 지정 이벤트를 사용하여 규칙 아티팩트 다운로드 확인
-
-다음 섹션에서는 각 단계에 대해 자세히 설명합니다.
+at.js JavaScript 라이브러리를 사용하여 [!DNL Adobe Target]의 장치 내 의사 결정 문제를 해결하려면 다음 단계를 완료하십시오.
 
 ## 1단계:at.js에 대한 콘솔 로그 활성화
 
