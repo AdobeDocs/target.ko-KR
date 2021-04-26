@@ -6,9 +6,9 @@ feature: 개인 정보 및 보안
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 2%
    >
    >Adobe의 인증 기관인 DigiCert는 이 단계가 완료될 때까지 인증서를 발급할 수 없습니다. 따라서 이 단계가 완료될 때까지 [!DNL Adobe]은(는) CNAME 구현에 대한 요청을 이행할 수 없습니다.
 
-1. [CNAME ](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) 지원을 요청하는 Adobe 클라이언트 지원 티켓을  [열 때 이 양식을 작성하고 포함시킵니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+1. [CNAME ](/help/assets/FPC_Request_Form.xlsx) 지원을 요청하는 Adobe 클라이언트 지원 티켓을  [열 때 이 양식을 작성하고 포함시킵니다](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
    * Adobe [!DNL Target] 클라이언트 코드:
    * SSL 인증서 호스트 이름(예:`target.example.com target.example.org`):
