@@ -5,10 +5,10 @@ title: Target 문제를 어떻게 해결합니까?
 feature: 문제 해결
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '445'
-ht-degree: 89%
+source-wordcount: '451'
+ht-degree: 88%
 
 ---
 
@@ -136,6 +136,10 @@ ht-degree: 89%
 ## 모바일 앱
 
 * [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+
+## 디바이스에서 의사 결정
+
+* [at.js에 대한 장치 내 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
 
 ## 보고
 
