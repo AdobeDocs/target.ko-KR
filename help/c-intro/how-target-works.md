@@ -5,9 +5,9 @@ title: ' [!DNL Target] 어떻게 작동합니까?'
 feature: 개요
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
-source-git-commit: 6b13753c7254891bcf66003d69938ef90195bc78
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '2564'
+source-wordcount: '2563'
 ht-degree: 30%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 30%
 다음 리소스에는 AEP 웹 SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=en#configure-the-aep-web-sdk-extension)
-* [Adobe Experience Platform Launch을 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Launch을  [!DNL Target] 사용한 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 방문자가 [!DNL Target]에 대해 최적화된 페이지를 요청할 때마다 요청이 타깃팅 시스템으로 전송됩니다. 이 요청은 해당 방문자에게 제공할 컨텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 이루어집니다. 페이지가 로드될 때마다 컨텐트에 대한 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 컨텐츠는 각 사이트 방문자가 응답하거나 상호 작용하거나 궁극적으로 구매할 가능성이 가장 큰 컨텐츠가 제공됩니다. 개인화된 컨텐츠를 통해 응답률, 취득률 및 매출을 극대화할 수 있습니다.
 
