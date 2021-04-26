@@ -5,7 +5,7 @@ title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 30%
@@ -20,7 +20,7 @@ ht-degree: 30%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 4월 26일에 출시됩니다 | [at.js에 대한 장치 내 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 문제 해결 섹션이 추가되었습니다. |
+| 4월 26일에 출시됩니다 | [at.js에 대한 장치 내 의사 결정 문제 해결](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | 새 주제입니다.  |
 | 19년 4월 | [디바이스에서 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | 다음과 같은 새 아티클이 추가되었습니다.<ul><li>[디바이스에서 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[장치 내 의사 결정을 위한 지원 기능](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[장치 내 의사 결정 규칙 아티팩트](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | `decisioningMethod`에 대한 정보가 추가되었습니다. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | 다음을 추가했습니다.<ul><li>`decisioningMethod` 키에 대한 정보입니다.</li><li>&quot;getCallOffers()가 장치에서 의사 결정을 내리는 예&quot;입니다.</li></ul> |
