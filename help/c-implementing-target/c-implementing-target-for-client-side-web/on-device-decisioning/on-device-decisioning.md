@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
 workflow-type: tm+mt
-source-wordcount: '3747'
+source-wordcount: '3748'
 ht-degree: 6%
 
 ---
@@ -369,7 +369,7 @@ AT: LD.ArtifactProvider artifact received - status=200
 
    ![Google Chrome의 네트워크 탭](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
 
-### at.js 사용자 지정 이벤트를 사용하여 규칙 아티팩트 다운로드 확인
+### 3단계:at.js 사용자 지정 이벤트를 사용하여 규칙 아티팩트 다운로드 확인
 
 at.js 라이브러리는 2개의 새로운 사용자 지정 이벤트를 전달하여 장치 내 의사 결정을 지원합니다.
 
