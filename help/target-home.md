@@ -5,10 +5,10 @@ description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화�
 feature: 개요
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
+source-git-commit: 25192c5e36bb823660f3fec8115d4cdfe7bd5995
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 45%
+source-wordcount: '717'
+ht-degree: 43%
 
 ---
 
@@ -18,7 +18,13 @@ ht-degree: 45%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트:2021년 4월 26일 ( [변경된 내용](r-release-notes/doc-change.md)  참조)**
+## Adobe Summit:디지털 경험 컨퍼런스
+
+[Adobe Summit에 대한 자세한 내용을 보려면 여기를 클릭하십시오!](https://business.adobe.com/summit/adobe-summit.html)
+
+![Summit 세션](/help/assets/summit-2021.png)
+
+**마지막 업데이트:2021년 4월 27일 ( [변경된 내용](r-release-notes/doc-change.md)  참조)**
 
 >[!NOTE]
 >
