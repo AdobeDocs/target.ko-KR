@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
 workflow-type: tm+mt
-source-wordcount: '1819'
-ht-degree: 97%
+source-wordcount: '1827'
+ht-degree: 96%
 
 ---
 
@@ -112,7 +112,7 @@ at.js에서 `mboxSession ID`를 생성합니다. 첫 번째 위치 요청은 `mb
 | 쿠키 이름 | mbox. |
 | 쿠키 도메인 | 컨텐츠를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: `mycompany.com`. |
 | 서버 도메인 | `clientcode.tt.omtrdc.net`( 계정에 대해 클라이언트 코드 사용) |
-| 쿠키 지속 시간 | 쿠키는 마지막 로그인부터 2년 동안 방문자의 브라우저에 유지됩니다. 쿠키 지속 시간은 변경할 수 없습니다. |
+| 쿠키 지속 시간 | 쿠키는 마지막 로그인부터 2년 동안 방문자의 브라우저에 유지됩니다.<br>설정 `deviceIdLifetime` 은  [at.js 버전 2.3.1 이상에서 사용할 수 있습니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오. |
 | P3P 정책 | 쿠키는 대부분의 브라우저에서 기본 설정으로 요구되는 P3P 정책을 사용하여 게시됩니다. P3P 정책은 쿠키를 제공하는 사람과 정보 사용 방법을 브라우저에 알립니다. |
 
 쿠키는 방문자가 캠페인을 경험하는 방식을 관리하기 위해 많은 값을 유지합니다.
