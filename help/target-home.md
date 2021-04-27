@@ -5,9 +5,9 @@ description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화�
 feature: 개요
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 25192c5e36bb823660f3fec8115d4cdfe7bd5995
+source-git-commit: 8ae55b82d4c733ce27277ec64e0188637ca96baa
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '724'
 ht-degree: 43%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 43%
 ## Adobe Summit:디지털 경험 컨퍼런스
 
 [Adobe Summit에 대한 자세한 내용을 보려면 여기를 클릭하십시오!](https://business.adobe.com/summit/adobe-summit.html)
+
+모든 시간(태평양 일광 절약 시간(PDT) -7 GMT.
 
 ![Summit 세션](/help/assets/summit-2021.png)
 
