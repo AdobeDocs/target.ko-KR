@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 95%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 95%
 | Request > notifications > view > key | 문자열 | 아니오 | `<=` 512자. | 키 보기. API를 통해 보기에 설정된 키입니다. |
 | Request > notifications > view > state | 문자열 | 아니오 |  | 상태 토큰 보기. |
 
-**참고**: `Request > notifications > mbox > name`에 사용할 수 있는 문자는 다음과 같습니다.
+**참고**:다음 문자는  ** 사용할 수 없습니다  `Request > notifications > mbox > name`.
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
