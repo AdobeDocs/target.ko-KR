@@ -1,32 +1,32 @@
 ---
-keywords: 릴리스 정보;새 기능;릴리스;업데이트;업데이트;릴리스;개선 사항;개선 사항;수정 사항;버그 수정;업데이트
+keywords: 릴리스 정보;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트
 description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Target의 최신 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 내용에 대해 알아봅니다.
-title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
-feature: Release Notes
+title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
+feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
 source-wordcount: '632'
-ht-degree: 35%
+ht-degree: 59%
 
 ---
 
-# Target 릴리스 노트(현재)
+# Target 릴리스 정보 (현재)
 
-이 릴리스 노트에서는 각 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스의 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 또한 Target API, SDK, JavaScript 라이브러리(at.js) 및 기타 플랫폼 변경 사항에 대한 릴리스 노트도 포함되어 있습니다(해당되는 경우).
+이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 Target API, SDK, JavaScript 라이브러리(at.js) 및 기타 플랫폼 변경 사항에 대한 릴리스 정보도 포함됩니다.
 
 >[!IMPORTANT]
 >
->**mbox.js 수명 종료**:2021년 3월 31일부터 mbox.js 라이브러리를 더 이상  [!DNL Adobe Target] 지원하지 않습니다. 2021년 3월 31일 이후 mbox.js에서 수행된 모든 호출이 정상적으로 실패하며 기본 컨텐츠를 제공하여 [!DNL Target] 활동이 있는 페이지에 영향을 줍니다.
+>**mbox.js 수명 종료**:2021년 3월 31일부터 mbox.js 라이브러리를 더 이상  [!DNL Adobe Target] 지원하지 않습니다. 2021년 3월 31일 이후, mbox.js로부터의 모든 호출은 정상적으로 실패하고 기본 콘텐츠를 제공하여 [!DNL Target] 활동이 실행되는 페이지에 영향을 미칩니다.
 >
->사이트에서 발생할 수 있는 문제를 방지하기 위해 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션합니다. 자세한 내용은 [개요:클라이언트측 웹](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)에 대한 Target을 구현합니다.
+>이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하여 사이트에 문제가 발생하지 않도록 하십시오. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
-(괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+(괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
 ## Target Standard/Premium 21.4.1(2021년 4월 19일)
 
-이 릴리스에는 다음과 같은 새로운 기능과 개선 사항이 포함됩니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
+이 릴리스에는 다음과 같은 새로운 기능과 개선 사항이 포함됩니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
@@ -50,21 +50,21 @@ at.js의 이번 릴리스에는 다음과 같은 개선 사항 및 변경 사항
 
 또한 이 릴리스에서는 Microsoft Internet Explorer 10 이상 버전에 대한 지원도 제거되었습니다.
 
-## 추가 릴리스 노트 및 버전 세부 정보
+## 추가 릴리스 정보 및 버전 세부 정보
 
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
-## 설명서 변경 내용, 이전 릴리스 노트 및 Experience Cloud 릴리스 노트
+## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
 각 릴리스에 대한 노트 이외에 다음 리소스에서 추가 정보를 제공합니다.
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| 설명서 변경 내용 | 이 릴리스 노트에 포함되지 않은 이 안내서의 업데이트에 대한 자세한 정보를 봅니다.<br>자세한 내용은 [설명서 변경 내용](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)을 참조하십시오. |
-| 이전 릴리스에 대한 릴리스 노트 | 이전 릴리스의 Target Standard 및 Target Premium에서 새로운 기능 및 향상된 기능에 대한 정보를 확인하세요.<br>자세한 내용은 [이전 릴리스에 대한 릴리스 노트](/help/r-release-notes/release-notes-for-previous-releases.md)를 참조하십시오. |
-| Adobe Experience Cloud 릴리스 노트 | Adobe Experience Cloud 솔루션에 대한 최신 릴리스 노트를 표시합니다.<br>자세한 내용은  [Experience Cloud 릴리스 노트를 참조하십시오](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html). |
+| 설명서 변경 내용 | 이 릴리스 정보에 포함되지 않은 이 안내서의 업데이트에 대한 자세한 정보를 제공합니다.<br>자세한 내용은 [설명서 변경 내용](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)을 참조하십시오. |
+| 이전 릴리스에 대한 릴리스 정보 | 이전 릴리스의 Target Standard 및 Target Premium에서 새로운 기능 및 향상된 기능에 대한 정보를 확인하십시오.<br>자세한 내용은 [이전 릴리스에 대한 릴리스 정보](/help/r-release-notes/release-notes-for-previous-releases.md)를 참조하십시오. |
+| Adobe Experience Cloud 릴리스 정보 | Adobe Experience Cloud 솔루션에 대한 최신 릴리스 정보를 표시합니다.<br>자세한 내용은 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko_KR)을 참조하십시오. |
 
 ## 사전 릴리스 정보 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
@@ -72,5 +72,5 @@ at.js의 이번 릴리스에는 다음과 같은 개선 사항 및 변경 사항
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| Adobe 우선 순위 제품 업데이트 | Target 및 기타 Adobe Experience Cloud 솔루션에 대한 향후 제품 개선 사항에 대한 사전 알림을 받으려면 Adobe 우선순위 제품 업데이트(<br>[](https://www.adobe.com/subscription/priority-product-update.html)https://www.adobe.com/subscription/priority-product-update.html)에 등록하십시오. |
-| 향후 릴리스 노트 | 사전 릴리스 정보를 포함하여 이번 달 Target 릴리스에 대한 자세한 내용은 [Target 릴리스 노트 - 사전 릴리스](/help/r-release-notes/target-release-notes.md) 페이지를 참조하십시오. |
+| Adobe 우선순위 제품 업데이트 | Target 및 기타 Adobe Experience Cloud 솔루션에 대한 향후 제품 개선 사항에 대한 사전 알림을 받으려면 Adobe 우선순위 제품 업데이트(<br>[](https://www.adobe.com/kr/subscription/priority-product-update.html)https://www.adobe.com/kr/subscription/priority-product-update.html)에 등록하십시오. |
+| 향후 릴리스 정보 | 사전 릴리스 정보를 포함하여 이번 달 Target 릴리스에 대한 자세한 내용은 [Target 릴리스 정보 - 사전 릴리스](/help/r-release-notes/target-release-notes.md) 페이지를 참조하십시오. |
