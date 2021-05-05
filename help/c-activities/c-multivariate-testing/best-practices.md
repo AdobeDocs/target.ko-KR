@@ -1,20 +1,20 @@
 ---
-keywords: mvt;다변량 테스트;다변량 테스트 우수 사례;mvt 우수 사례;mvt 조합;mvt 보고서
-description: Adobe Target에서 다변수 테스트 활동을 만들고 실행할 때 발생할 수 있는 성능 향상, 문제 방지 및 알려진 문제를 수정하는 방법에 대해 알아보십시오.
-title: 다변수 테스트에 대한 우수 사례는?
-feature: Multivariate Tests
-translation-type: tm+mt
+keywords: mvt;다변량 테스트;다변량 테스트 모범 사례;mvt 모범 사례;mvt 조합;mvt 보고서
+description: 성능을 개선하고, 문제를 방지하고, Adobe Target에서 다변량 테스트 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하는 방법을 배웁니다.
+title: 다변량 테스트의 모범 사례는 무엇입니까?
+feature: 다변량 테스트
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
 
-# 다변량 테스트 우수 사례
+# 다변량 테스트 모범 사례
 
-[!DNL Adobe Target]에서 [!UICONTROL Multivariate Test](MVT) 활동을 만들고 실행할 때 발생할 수 있는 성능 향상, 문제 방지 및 알려진 문제를 수정하는 데 도움이 되는 팁입니다.
+. [!UICONTROL 다변량 테스트] (MVT) 활동( [!DNL Adobe Target]에서)을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 데 도움이 되는 팁입니다.
 
 ## 계획 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -35,25 +35,25 @@ ht-degree: 91%
 
    테스트에서 각 위치와 오퍼를 좀 더 편리한 이름으로 바꿀 수 있습니다. 각 위치에 있는 오퍼의 수는 위치 헤더에 나타납니다. 편리한 이름을 지정하면 보고서를 검사할 때 오퍼를 쉽게 식별할 수 있습니다.
 
-* 미리 보기 기능을 활용하여 불필요한 콘텐츠 조합을 방지할 수 있습니다. 
+* 미리보기 기능을 활용하여 불필요한 콘텐츠 조합을 방지할 수 있습니다.
 
    테스트에서 생성된 모든 경험을 검토한 후에 적용합니다. 요청이 상반되거나(예: 동일한 경험에서 20% 할인과 19달러 할인) 디자인이 부적절한(예: 배경과 글꼴이 동일한 색상) 조합이 없어야 합니다.
 
-* [트래픽 견적 도구](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)를 사용하여 페이지에 수신되는 트래픽 양에 맞게 테스트를 디자인할 수 있습니다.
+* [트래픽 견적 도구](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md) 를 사용하여 페이지에 수신되는 트래픽 양에 맞게 테스트를 디자인할 수 있습니다.
 
    트래픽 견적을 사용할 때 테스트 구성에 녹색 표시등이 나타나야 원하는 결과를 얻을 수 있습니다.
 * 각 요소의 대체 요소가 서로 완전히 다른 것이 좋습니다.
 
 ## 분석 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* [위치 기여도 보고서](/help/c-reports/location-contribution-report.md)를 자주 사용하여 각 위치와 오퍼의 성과를 모니터링합니다.
+* [위치 기여도 보고서](/help/c-reports/location-contribution-report.md) 를 자주 사용하여 각 위치와 오퍼의 성과를 모니터링합니다.
 * [경험 성과 보고서](/help/c-reports/experience-performance-report.md)에서 최고 성과 5개와 최저 성과 5개 필터를 사용하여 표시되는 데이터를 결정합니다.
 
    [!UICONTROL 모두] 필터를 사용하면 원하는 정보를 추출하기 어려우며 일부 경험은 그래프에 표시되지 않을 수 있습니다. 성과가 가장 높은 경험 5개 또는 가장 낮은 경험 5개에 포함되지 않은 특정 경험을 확인하려는 경우에는 [!UICONTROL 모두] 필터를 사용합니다.
 
 ## 추가 작업 {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
-* [!DNL Target]에서는 라이브 활동을 편집할 수 있지만 진행 중인 활동을 편집하면 테스트가 재설정될 수 있습니다. 따라서 보고서가 일부 변경 사항을 인식하지 못할 수도 있습니다. HTML 오퍼 변경은 오퍼 라이브러리에서만 수행하는 것이 안전합니다.
+* [!DNL Target] 에서는 라이브 활동을 편집할 수 있지만 진행 중인 활동을 편집하면 테스트가 재설정될 수 있습니다. 따라서 보고서가 일부 변경 사항을 인식하지 못할 수도 있습니다. HTML 오퍼 변경은 오퍼 라이브러리에서만 수행하는 것이 안전합니다.
 
    경험 이름 및 보고서를 재설정하는 특정 작업은 다음과 같습니다.
 
