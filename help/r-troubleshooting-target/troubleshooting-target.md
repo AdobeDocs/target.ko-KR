@@ -1,14 +1,14 @@
 ---
 keywords: target 문제 해결;target 문제해결
-description: 문제 해결 항목, FAQ(자주 묻는 질문) 및 기타 유용한 항목을 포함하여 Adobe Target에서 문제를 해결하는 데 도움이 되는 항목 목록을 검토하십시오.
-title: Target 문제를 어떻게 해결합니까?
+description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용한 주제를 포함하여 Adobe Target의 문제를 해결하는 데 도움이 되는 주제 목록을 검토하십시오.
+title: Target 문제를 해결하려면 어떻게 합니까?
 feature: 문제 해결
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 88%
+ht-degree: 97%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 88%
 
 ### 자동 타겟
 
-* [자동 Target 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [자동 타겟 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### AP(자동화된 개인화)
 
@@ -47,7 +47,7 @@ ht-degree: 88%
 
 ### 다변량 테스트(MVT)
 
-* [다변량 테스트 우수 사례](/help/c-activities/c-multivariate-testing/best-practices.md)
+* [다변량 테스트 모범 사례](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [다변량 테스트 문제 해결](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [성공적인 테스트에 필요한 트래픽 예측](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
@@ -59,7 +59,7 @@ ht-degree: 88%
 ## 분석 및 [!DNL Target] 통합(A4T)
 
 * [Analytics와 Target의 통합 문제 해결](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 동영상입니다. [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
+* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다. [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
 * A4T FAQ(자주 묻는 질문)
    * [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [초기 사용 권한 제공 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -122,7 +122,7 @@ ht-degree: 88%
 * [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [at.js 제한 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 동영상입니다. [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오.
+* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다. [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)을 참조하십시오.
 
 ### mbox.js
 
@@ -135,7 +135,7 @@ ht-degree: 88%
 
 ## 모바일 앱
 
-* [모바일 앱용 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [모바일 앱을 위한 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## 디바이스에서 의사 결정
 
@@ -166,6 +166,6 @@ ht-degree: 88%
 
 * [Target 최적화 및 개인화 FAQ](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
-* [시각적 경험 작성기 우수 사례 및 제한 사항](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
+* [시각적 경험 작성기 모범 사례 및 제한 사항](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 동영상입니다. [시각적 경험 작성기(VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 참조하십시오.
+* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다. [시각적 경험 작성기(VEC)](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 참조하십시오.
