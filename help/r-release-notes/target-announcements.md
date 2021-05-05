@@ -1,5 +1,5 @@
 ---
-keywords: 공지 사항;스킬 빌더;개발자 채팅;커피 브레이크;이벤트;forrester;gartner;webinar
+keywords: 알림;스킬 빌더;개발자 채팅;coffee break;이벤트;forrester;gartner;웨비나
 description: 공지 사항을 읽고 기술 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 비롯한 Adobe [!DNL Target] 이벤트에 등록합니다.
 title: ' [!DNL Target] 공지 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: 릴리스 정보
@@ -8,49 +8,49 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 0%
+ht-degree: 85%
 
 ---
 
-# Target 공지 및 이벤트
+# Target 알림 및 이벤트
 
-Adobe Target 스킬 빌더 세션, 개발자 채팅, 웨비나 및 Target 커피 브레이크 세션을 비롯한 예정된 이벤트에 대한 공지 및 정보입니다.
+Adobe Target 스킬 빌더 세션, 개발자 채팅, 웨비나, Target Coffee Break 세션 등 예정된 이벤트에 대한 공지 및 정보입니다.
 
-## Adobe Target 인식
+## Adobe Target에 대한 인식
 
-Adobe Target은 Forrester와 Gartner가 시장 리더로 최근에 인증한 바 있습니다.
+Adobe Target은 최근 Forrester와 Gartner에서 모두 시장 리더로 인정을 받았습니다.
 
-| 연구 서비스 | 세부 사항 |
+| 검색 서비스 | 세부 사항 |
 | --- | --- |
-| Forrester | **Adobe은 경험 최적화 플랫폼을 위한 Forrester wave 보고서에서 리더로 선정되었습니다.**<br>&quot;The Forrester Wave:경험 최적화 플랫폼, 2020년 4분기 보고서(Adobe Target Premium) Adobe은 현재 제공 중인 솔루션 및 시장 입지 카테고리에서 추천 및 플랫폼 경험 기준으로 참여하는 모든 벤더 중에서 가장 높은 점수를 받았습니다. 또한 Target Premium은 경험 최적화 기법 혁신 및 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 이 보고서는 22개 기준을 바탕으로 10개의 경험 최적화 플랫폼 제공업체를 정밀하게 평가합니다.<br>Adobe 블로그에서  [확인할 수 있습니다](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
-| Gartner | **Adobe은 개인화 엔진 부문 Gartner Magic Quadrant에서 리더로 선정되었습니다.**<br> Adobe은 2020년 발표된 3분기 Gartner Magic Quadrant에서 리더로 다시 선정되었습니다. Gartner Magic Quadrant의 개인화 엔진 조사 결과 15개 부문에서 벤더를 평가했으며, 그 기준은 2개였습니다.비전의 완전성과 실행의 능력.<br>[Adobe 블로그에서 이 정보를 참조하십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+| Forrester | **Adobe는 경험 최적화 플랫폼을 위한 Forrester wave 보고서의 리더로 선정되었습니다.**<br> Adobe는 이 분야의 Adobe 제품인 Adobe Target Premium에 대해 &quot;Forrester Wave: Experience Optimization Platforms, Q4 2020&quot; 보고서에서 유일한 리더로 명명되었습니다. Adobe는 현재 오퍼링 및 시장 참여 범주와 권장 사항 및 플랫폼 경험 기준에서 모든 참여 공급업체 중 가장 높은 점수를 받았습니다. Target Premium 또한 경험 최적화 기술 혁신과 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 보고서는 22개 기준에서 10개의 경험 최적화 플랫폼 제공자에 대한 철저히 평가를 기반으로 한 것입니다.<br>자세한 내용은 [Adobe 블로그](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)를 읽어보십시오. |
+| Gartner | **Adobe는 개인화 엔진을 위한 Gartner Magic Quadrant의 리더로 다시 선정했습니다.**<br> Adobe Target은 제 3회 Gartner Magic Quadrant for Personalization Engines, 2020년 보고서에서 다시 한 번 리더로 선정되었습니다. Gartner Magic Quadrant for Personalization Engines는 비전의 완전성과 실행 능력의 두 가지 범주로 분류되는 15가지 기준에 걸쳐 공급업체를 평가했습니다.<br>[자세한 내용은 Adobe 블로그를 읽어보십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## 웨비나:Adobe Target의 디바이스에서 의사 결정을 내림으로써 지연 없이 개인화 및 테스트
+## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
-무엇보다 마케터, 제품 소유자 및 개발자는 사이트, 앱 등 고객과 교류하는 모든 곳에서 전반적인 고객 경험을 최적화하는 업무를 담당하고 있습니다. 분산된 데이터와 복잡한 구현을 필요로 하는 다양한 툴로 문제를 해결할 수 있습니다.
+그 어느 때보다 마케터, 제품 소유자 및 개발자들은 사이트, 앱, 그리고 고객과 연결되는 모든 곳에서 전체적인 고객 경험을 최적화해야 하는 과제를 안고 있습니다. 데이터 사일로와 복잡한 구현이 포함된 여러 툴을 사용해도 이런 과제가 줄어들지 않습니다.
 
-이 녹화된 웨비나에서는 Adobe Target 제품 전문가가 지연 없이 바로 실행되도록 중요한 경험 최적화 의사 결정을 장치에서 이동하여 새로운 사용 사례를 여는 방법과 고객의 사이트 성능을 개선하는 방법에 대해 설명합니다.
+이 기록된 웨비나에서 Adobe Target 제품 전문가들은 중요한 환경 최적화 결정을 디바이스에서 대기 시간 없이 로컬로 실행하기 위해 이동함으로써 고객의 사이트 성능을 향상시키는 동시에 흥미로운 새로운 사용 사례를 어떻게 활용할 수 있는지에 대해 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
 ## 웨비나:HSBC가 Adobe [!DNL Target] 및 AI를 활용하여 개인화를 규모에 맞게 신속하게 최적화하고 전달하는 방법
 
-* **[여기에서 웨비나 레코딩을 봅니다](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **[여기서 웨비나 녹화 보기](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
-McKinsey Digital은 &quot;8주 내에 소비자 및 비즈니스 디지털 채택의 5년 앞당겨진 결과&quot;라고 보고했습니다. *
+McKinsey Digital은 &quot;소비자 및 비즈니스 디지털 채택에서 약 8주 만에 5년 연속 증가했습니다.&quot;라고 보고했습니다. *
 
-소비자의 요구 사항이 급속도로 진화하고 있고 HSBC는 Adobe Target와의 최적화를 통해 새로운 고객 여정을 신속하게 테스트하고 개인화하여 특정 개발 및 출시 기간을 6개월에서 1주일로 단축했습니다.
+소비자 수요는 빠르게 발전하고 있으며 HSBC는 Adobe Target과 함께 최적화를 채택하여 새로운 고객 여정을 신속하게 테스트하고 개인화함으로써 특정 개발 및 출시를 6개월에서 1주로 단축했습니다.
 
-이 웨비나에서는 Adobe 및 HSBC에 가입하여 다음과 같은 사항을 살펴볼 수 있습니다.
+Adobe 및 HSBC의 다음 웨비나에 가입하십시오.
 
-* HSBC의 최적화 및 개인화 노력이 조직의 신속한 변화를 이끌어내는 방법
-* AI 및 분석으로 노력을 가속화하고 명확하고 중요한 비즈니스 효과를 제공하는 방법
-* HSBC가 3000개 이상의 활동을 제공하는 대규모 프로그램을 성공적으로 구축한 방법
+* HSBC의 최적화 및 개인화 노력이 조직의 빠른 변화를 이끄는 방법
+* AI 및 Analytics가 노력을 가속화하고 명확하고 중대한 비즈니스 영향을 제공하는 방법
+* HSBC가 3000개 이상의 활동을 제공하는 규모로 성공적인 프로그램을 구축한 방법
 
-*맥킨지 기사:&quot;[COVID-19 복구는 디지털](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)&quot;, 2020년 5월
+*McKinsey 문서: “[COVID-19 복구는 디지털 방식](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),” 2020년 5월
 
 ## Adobe [!DNL Target] 스킬 빌더:개발자 채팅, Adobe [!DNL Target]의 mbox.js를 at.js {#skill-builder}로 마이그레이션
 
 2021년 3월 31일 mbox.js의 사용 중단 기능으로 Adobe Target 제품 관리자 David Son은 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션함으로써 얻을 수 있는 이점에 대해 논의했습니다.
 
-* **[여기에서 웨비나 레코딩을 봅니다](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+* **[여기서 웨비나 녹화 보기](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
