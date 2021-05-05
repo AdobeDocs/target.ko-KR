@@ -8,13 +8,13 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
 # 시스템 상태 업데이트 및 사전 알림
 
-[!UICONTROL Adobe 시스템 상태] 페이지와 사전 알림을 사용하여 [!DNL Adobe] 제품과 [!DNL Adobe Experience Cloud] 솔루션을 최신으로 유지할 수 있습니다. 사전 알림은 중단 이벤트 및 유지 관리 이벤트를 알려줍니다.
+[!UICONTROL Adobe 시스템 상태] 페이지와 사전 알림을 사용하여 [!DNL Adobe] 제품과 [!DNL Adobe Experience Cloud] 솔루션을 최신으로 유지할 수 있습니다. 사전 알림은 중단 이벤트 및 유지 관리 이벤트를 알려 줍니다.
 
 ## 시스템 상태 업데이트
 
@@ -30,7 +30,7 @@ ht-degree: 88%
 
 페이지 맨 위에는 진행 중인 유지보수 이벤트에 대한 정보가 포함되며 개별 솔루션 업데이트를 구독하는 링크가 제공됩니다.
 
-위의 그림에서 [!DNL Adobe Analytics], [!DNL Adobe Target] 및 [!DNL Adobe Campaign]은 유지 관리 업데이트를 수행하고 있었습니다. 다른 모든 제품 및 솔루션은 정상적으로 작동하고 있었습니다. [!DNL Target]을 사용할 때 문제가 발생하는 경우 항상 이 페이지를 확인하는 것이 좋습니다.
+위의 그림에서 [!DNL Adobe Analytics], [!DNL Adobe Target] 및 [!DNL Adobe Campaign] 은 유지 관리 업데이트를 수행하고 있었습니다. 다른 모든 제품 및 솔루션은 정상적으로 작동하고 있었습니다. [!DNL Target]을 사용할 때 문제가 발생하는 경우 항상 이 페이지를 확인하는 것이 좋습니다.
 
 월별 [!DNL Target] 릴리스 동안 항상 제품 내 알림이 표시되지만 때때로 작은 업데이트가 진행되며 이 페이지에 표시됩니다.
 
