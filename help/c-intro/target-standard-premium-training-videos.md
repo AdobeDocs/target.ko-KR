@@ -1,5 +1,5 @@
 ---
-keywords: 교육 비디오;youtube;비디오;비디오 교육;자습서;자습서;비디오
+keywords: 교육 비디오;youtube;비디오;비디오 교육;튜토리얼;튜토리얼;비디오
 description: ' [!DNL Target] Standard and [!DNL Target] Premium을 최대한 활용할 수 있도록 교육 비디오를 시청하십시오.'
 title: 교육 비디오 [!DNL Target] 는 어디에서 찾을 수 있습니까?
 feature: 개요
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 44%
+ht-degree: 78%
 
 ---
 
@@ -21,7 +21,7 @@ Target Standard 및 Target Premium을 최대한 활용하는 데 도움이 되�
 * Experience Cloud 및 일반 기능
 * 활동 만들기
 * 대상 및 타깃팅
-* 자산 관리
+* 에셋 관리
 * 설정 및 환경 설정
 * 구현 및 문제 해결
 * 마케팅 사용 사례
@@ -32,12 +32,12 @@ Target Standard 및 Target Premium을 최대한 활용하는 데 도움이 되�
 
 ## Adobe [!DNL Target] - Tutorials 및 비디오
 
-[Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 페이지에서 사용할 수 있는 Target의 기능을 강조하는 사용법 비디오 및 자습서 모음입니다.
+Target의 기능을 강조 표시하는 방법 비디오 및 튜토리얼 컬렉션은 [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) 페이지에 나와 있습니다.
 
 ![Experience League 비디오](/help/c-intro/assets/experience-league.png)
 
 ## Adobe [!DNL Target] Tutorials {#tutorials}
 
-[!DNL Target] 개념 및 도구에 대한 비디오 소개를 [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) 페이지에서 사용할 수 있습니다.
+다음 [!DNL Target] 개념 및 도구에 대한 비디오 소개는 [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ko_KR) 페이지에서 확인할 수 있습니다.
 
-![Adobe Target 자습서](/help/c-intro/assets/adobe-target-tutorials-new.png)
+![Adobe Target 튜토리얼](/help/c-intro/assets/adobe-target-tutorials-new.png)
