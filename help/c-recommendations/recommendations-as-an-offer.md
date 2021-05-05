@@ -1,33 +1,33 @@
 ---
-keywords: 권장 사항;오퍼
-description: A/B 테스트(자동 할당 및 자동 Target 포함) 및 경험 타깃팅(XT) 활동에서 Adobe Recommendations을 오퍼로 사용하는 방법을 알아봅니다.
-title: 다른 활동 유형에서 Recommendations을 오퍼로 사용하려면 어떻게 해야 합니까?
+keywords: Recommendations;오퍼
+description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations를 사용하는 방법에 대해 알아봅니다.
+title: 다른 활동 유형에서 Recommendations를 제안으로 사용하는 방법은 무엇입니까?
 feature: Recommendations
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) 오퍼로서의 Recommendations
 
-이제 [!UICONTROL A/B 테스트] ([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 포함)와 [!UICONTROL 경험 타깃팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+이제 [!UICONTROL A/B 테스트] ( [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]포함)와 [!UICONTROL 경험 타깃팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
-이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해줍니다.
+이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해 줍니다.
 
 * 동일한 활동에서 권장 사항 및 비권장 사항 콘텐츠를 테스트하고 타깃팅할 수 있습니다.
 * 권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다.
 * [!UICONTROL 자동 할당]을 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동 푸시할 수 있습니다.
 * [!UICONTROL 자동 타겟]을 사용하여 방문자를 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
 
-시작하려면 [!UICONTROL 시각적 경험 작성기]를 사용하여 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅] 활동을 만들고, [!UICONTROL 다음 항목 앞에 삽입], [!UICONTROL 다음 항목 뒤에 삽입] 또는 [!UICONTROL 다음으로 바꾸기] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
+시작하려면 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅] 활동을 만들고( [!UICONTROL 시각적 경험 작성기] 사용), [!UICONTROL 다음 항목 앞에 삽입], [!UICONTROL 다음 항목 뒤에 삽입], [!UICONTROL 다음으로 바꾸기] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
 
 ## A/B 테스트 또는 XT 활동에서 오퍼로서 권장 사항 추가
 
-1. 시각적 경험 작성기(VEC)를 사용하여 안내가 있는 3단계 워크플로우를 시작하여 [A/B 테스트](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 또는 [경험 타깃팅](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT) 활동을 만듭니다.
+1. 시각적 경험 작성기(VEC)를 사용하여 안내가 있는 3단계 워크플로를 시작하여 [A/B 테스트](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 또는 [경험 타깃팅](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) (XT) 활동을 만듭니다.
 
    >[!NOTE]
    >
@@ -35,7 +35,7 @@ ht-degree: 92%
 
 1. [경험](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)을 만드는 동안 권장 사항을 오퍼로 추가할 요소를 클릭하고 **[!UICONTROL 다음 항목 앞에 삽입]**, **[!UICONTROL 다음 항목 뒤에 삽입]** 또는 **[!UICONTROL 다음으로 바꾸기]** 작업을 선택한 다음, [!UICONTROL 권장 사항]을 선택합니다.
 
-   다음 그림은 [!UICONTROL 다음 항목 뒤에 삽입 > 권장 사항] 선택 사항을 보여줍니다.
+   다음 그림은 [!UICONTROL 다음 항목 뒤에 삽입 > 권장 사항] 선택 사항을 보여 줍니다.
 
    ![오퍼로서 권장 사항 삽입](/help/c-recommendations/assets/replace-after-recommendations.png)
 
@@ -58,7 +58,7 @@ ht-degree: 92%
    * 필요에 따라 [전면 프로모션 및 후면 프로모션](/help/c-recommendations/t-create-recs-activity/adding-promotions.md) 선택 사항을 구성합니다.
 
 1. [!UICONTROL 저장]을 클릭합니다.
-1. 안내가 있는 3가지 부분 워크플로우를 사용하여 A/B 테스트 또는 XT 활동 구성을 완료합니다.
+1. 안내가 있는 3가지 부분 워크플로를 사용하여 A/B 테스트 또는 XT 활동 구성을 완료합니다.
 
 ## 권장 사항 오퍼의 구성 편집
 
@@ -84,7 +84,7 @@ ht-degree: 92%
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 편집
 
-1. [!UICONTROL 수정 사항] 아이콘 **(`</>`)**&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. [!UICONTROL 수정 사항] 아이콘  **( `</>` )** 을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
 1. 원하는 작업을 마우스로 가리킨 다음, **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 
    ![수정 사항 패널](/help/c-recommendations/assets/recs-offer-modifications.png)
@@ -106,7 +106,7 @@ ht-degree: 92%
 
 ### 수정 사항 패널을 사용하여 권장 사항 오퍼 삭제
 
-1. [!UICONTROL 수정 사항] 아이콘 **( &lt;/> )**&#x200B;을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
+1. [!UICONTROL 수정 사항] 아이콘 **( &lt;/> )** 을 클릭하여 [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) 창을 표시합니다.
 1. 원하는 작업을 마우스로 가리킨 다음, [!UICONTROL 삭제] 아이콘을 클릭합니다.
 
    ![삭제 아이콘](/help/c-recommendations/assets/recs-offer-delete.png)
@@ -121,6 +121,6 @@ ht-degree: 92%
 
 ![추천 오퍼 상태](/help/c-recommendations/assets/recs-offer-status.png)
 
-## 교육 비디오:Recommendations을 오퍼 ![개요 배지](/help/assets/overview.png)
+## 교육 비디오: 오퍼로서의 Recommendations ![개요 배지](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
