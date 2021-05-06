@@ -5,7 +5,7 @@ description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화�
 feature: 개요
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 95%
@@ -18,7 +18,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] 은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜: 2021년 5월 5일([변경 사항 보기](r-release-notes/doc-change.md))**
+**마지막 업데이트 날짜: 2021년 5월 6일([변경 사항 보기](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
