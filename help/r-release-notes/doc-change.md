@@ -5,10 +5,10 @@ title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 68%
+source-wordcount: '1044'
+ht-degree: 63%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 68%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 5월 6일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>내 사이트에 반영될 [!UICONTROL Recommendations] 활동, 오퍼, 프로모션 또는 기준 설정의 구성을 변경하는 데 얼마나 걸립니까?</li><li>사용자가 받는 권장 사항 *에 제품 A를 클릭하고 제품 B를 구입하는 등의 사용자 행동이 반영되는 데 얼마나 걸립니까?*</li><li>사용자 행동(예: 제품 A 클릭 및 제품 B 구입)이 권장 사항 *기타* 사용자가 받는 경우 얼마나 걸립니까?</li></ul> |
 | 5월 5일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 2021년 5월 12일 수요일 오전 8시에 열리는 Adobe Target 커뮤니티 Q&amp;A 커피 휴대에 대한 정보가 추가되었습니다.(GMT-7). |
 | 4월 27일 | [쿠키 설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | 쿠키 지속 시간(`deviceIdLifetime` 설정)이 at.js 버전 2.3.1 이상에서 오버라이드됨을 나타내는 항목을 업데이트했습니다. |
 |  | [Adobe Target 가이드](/help/target-home.md) | Adobe Summit에 대한 정보가 추가되었습니다. |
