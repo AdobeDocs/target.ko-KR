@@ -6,10 +6,10 @@ feature: 서버측 구현
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '270'
-ht-degree: 0%
+source-wordcount: '301'
+ht-degree: 22%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 0%
 
 자세한 내용은 *[Adobe Target SDK 설명서](https://adobetarget-sdks.gitbook.io/docs/)*&#x200B;의 [장치 내 의사 결정 소개](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)를 참조하십시오.
 
-## 웨비나:Adobe Target의 디바이스에서 의사 결정을 내림으로써 지연 없이 개인화 및 테스트
+## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
-무엇보다 마케터, 제품 소유자 및 개발자는 사이트, 앱 등 고객과 교류하는 모든 곳에서 전반적인 고객 경험을 최적화하는 업무를 담당하고 있습니다. 분산된 데이터와 복잡한 구현을 필요로 하는 다양한 툴로 문제를 해결할 수 있습니다.
+그 어느 때보다 마케터, 제품 소유자 및 개발자들은 사이트, 앱, 그리고 고객과 연결되는 모든 곳에서 전체적인 고객 경험을 최적화해야 하는 과제를 안고 있습니다. 데이터 사일로와 복잡한 구현이 포함된 여러 툴을 사용해도 이런 과제가 줄어들지 않습니다.
 
 이 녹화된 웨비나에서는 [!DNL Adobe Target] 제품 전문가가 디바이스에서 0에 가까운 지연으로 로컬에서 실행할 수 있는 중요한 경험 최적화 의사 결정이 새로운 활용 사례를 여는 동시에 고객의 사이트 성능을 향상시키는 방법을 설명합니다.
 
@@ -41,4 +41,8 @@ ht-degree: 0%
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
-추가 비디오 및 자습서는 [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) 안내서를 참조하십시오.
+추가 비디오 및 자습서는 [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ko_KR) 안내서를 참조하십시오.
+
+## Adobe 기술 블로그 - 파트 1:에지 플랫폼에서 실험 및 개인화를 위해 [!DNL Adobe Target] NodeJS SDK를 실행합니다(Akamai Edge Workers).
+
+[블로그 게시물에 액세스하려면 여기를 클릭하십시오](https://medium.com/adobetech/part-1-run-adobe-target-nodejs-sdk-for-experimentation-and-personalization-on-edge-platforms-4d8660964ed9).
