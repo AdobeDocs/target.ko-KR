@@ -1,15 +1,15 @@
 ---
-keywords: 글로벌 mbox 매개 변수;targetPageParams;쿼리 문자열;배열;json;dtm;다이내믹 태그 관리
+keywords: 전역 mbox 매개 변수;targetPageParams;쿼리 문자열;배열;json;dtm
 description: targetPageParams 함수를 사용하여 추가 타게팅 또는 컨텍스트 정보를 Adobe [!DNL Target] 글로벌 mbox에 전달하는 방법에 대해 알아보십시오.
 title: 글로벌 mbox에 매개 변수를 전달하려면 어떻게 합니까?
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 63%
+source-wordcount: '382'
+ht-degree: 60%
 
 ---
 
