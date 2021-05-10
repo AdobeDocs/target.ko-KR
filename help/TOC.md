@@ -4,10 +4,10 @@ breadcrumb-title: Target 안내서
 user-guide-description: 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 고객의 경험을 맞춤화 및 개인화하여 매출을 극대화하는 방법을 살펴볼 수 있습니다.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 89%
+ht-degree: 88%
 
 ---
 
@@ -110,9 +110,9 @@ ht-degree: 89%
             + [at.js 통합](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md)
          + at.js를 배포하는 방법 {#deploy-at-js}
             + [at.js를 배포하는 방법](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)
-            + [Adobe Launch를 사용하여 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+            + [platform launch을 사용하여 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
             + [태그 관리자 없이 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
-            + [DTM을 사용한 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
+            + [DTM(다이내믹 태그 관리자)을 사용하여 Target 구현](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
             + [단일 페이지 애플리케이션에 대한 Target 구현(SPA)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
          + at.js 함수 {#functions-overview}
             + [at.js 함수 개요](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
