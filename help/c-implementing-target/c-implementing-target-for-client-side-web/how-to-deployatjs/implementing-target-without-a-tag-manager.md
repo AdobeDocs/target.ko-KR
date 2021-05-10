@@ -6,16 +6,16 @@ feature: 서버측 구현
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 51%
+source-wordcount: '1687'
+ht-degree: 52%
 
 ---
 
 # 태그 관리자 없이 [!DNL Target] 구현
 
-태그 관리자([!DNL Adobe Experience Platform Launch] 또는 [!DNL Dynamic Tag Manager])를 사용하지 않고 [!DNL Adobe Target] 구현에 대한 정보입니다.
+태그 관리자([!DNL Adobe Experience Platform Launch])를 사용하지 않고 [!DNL Adobe Target] 구현에 대한 정보입니다.
 
 >[!NOTE]
 >
@@ -181,7 +181,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
 
 at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현되어야 합니다.
 
-[Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 또는 [다이내믹 태그 관리](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96)와 같은 태그 관리자를 사용하지 않는 일반적인 Target 구현은 다음과 같습니다.
+[Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)과 같은 태그 관리자를 사용하지 않는 일반적인 Target 구현은 다음과 같습니다.
 
 ```
 <!doctype html> 
