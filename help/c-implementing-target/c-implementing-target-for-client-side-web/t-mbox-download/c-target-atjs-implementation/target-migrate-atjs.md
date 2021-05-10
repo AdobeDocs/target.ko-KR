@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 96%
+source-wordcount: '856'
+ht-degree: 92%
 
 ---
 
@@ -77,7 +77,7 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
 
    **태그 관리자를 사용합니까?**
 
-   * 다이내믹 태그 관리
+   * Adobe Experience Platform Launch
    * Ensighten
    * Tealium
    * Signal/BrightTag
@@ -86,7 +86,11 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
 
    >[!NOTE]
    >
-   >현재, 태그 관리자를 사용하여 [!DNL Target]을 배포하고 있지 않다면 고려해볼 때가 되었습니다. Adobe의 [다이내믹 태그 관리](https://dtm.adobe.com)는 [!DNL Target] 고객에게 무료이며, 권장되는 [!DNL Target] 배포 방법입니다. 자세한 내용은 [다이내믹 태그 관리를 사용하여 Adobe Target을 구현하기 위한 우수 사례](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html)를 참조하십시오.
+   >현재, 태그 관리자를 사용하여 [!DNL Target]을 배포하고 있지 않다면 고려해볼 때가 되었습니다.
+   >
+   >[!DNL Platform Launch] 는 다음세대 태그 관리 플랫폼 [!DNL Adobe] 으로 구현하기 위한 기본 방법입니다 [!DNL Adobe Target]. [!DNL Platform Launch] 고객은 연관성 있는 고객 경험을 향상시키는 데 필요한 분석, 마케팅 및 광고 태그를 간단하게 배포 및 관리할 수 있습니다.
+   >
+   >자세한 내용은 [구현 [!DNL Target] using [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 참조하십시오.
 
 1. 현재의 모든 작업 및 통합이 예상대로 작동하는지 확인하십시오.
 
