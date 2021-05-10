@@ -6,9 +6,9 @@ feature: 관리 및 구성
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
 translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1454'
 ht-degree: 66%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 66%
 | 2. 작업 공간(제품 프로필) 만들기 | [!DNL Adobe Admin Console for Enterprise] |
 | 3. 사용자 그룹 만들기(선택 사항) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. 속성 만들기 | [!DNL Target] UI |
-| 5: `at_property` 매개 변수를 포함하도록 구현 업데이트 | [!DNL Target] UI, at.js 함수, [!DNL Adobe Launch] 또는 [!DNL Dynamic Tag Management] |
+| 5: `at_property` 매개 변수를 포함하도록 구현 업데이트 | [!DNL Target] UI, at.js 함수 또는  [!DNL Adobe Experience Platform Launch] |
 | 6: 역할 및 권한 지정 | [!DNL Adobe Admin Console for Enterprise] |
 
 [!DNL Adobe Admin Console for Enterprise]에서 수행되는 작업의 경우 다음 단계에 따라 콘솔에 액세스합니다.
@@ -150,12 +150,6 @@ ht-degree: 66%
    * **[!DNL Adobe Launch]의 &quot;전역 매개 변수&quot;를 통해:**
 
       자세한 내용은 *Adobe Experience Platform Launch* 설명서의 [전역 Target 매개 변수](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) 추가를 참조하십시오.
-
-   * **[!DNL Dynamic Tag Management]의 &quot;전역 매개 변수&quot;를 통해:**
-
-      ![](assets/property_token_2.png)
-
-      자세한 내용은 *다이내믹 태그 관리 제품 설명서*&#x200B;의 [글로벌 매개 변수 - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target)을 참조하십시오.
 
    * **targetPageParams() 함수 사용:** at.js 또는 mbox.js 참조  `<head>` 위의 태그에 다음 코드를 배치합니다.
 
