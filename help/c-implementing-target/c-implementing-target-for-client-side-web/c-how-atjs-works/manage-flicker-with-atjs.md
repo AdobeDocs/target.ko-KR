@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 관련 HTML 요소가 [!DNL Target]에 의해 개인화된 후 표시되는 사전에 숨기는(pre-hiding) 코드 조각을 사용하여 플리커(깜박임)를 방지할 수 있습니다. 
 
-at.js는 페이지에 직접 포함하거나 태그 관리자(Adobe 시작, DTM) 등을 통해 비동기적으로 로드할 수 있습니다.
+at.js는 페이지에 직접 포함되거나 태그 관리자(예: [!DNL Adobe Experience Platform Launch])를 통해 비동기적으로 로드할 수 있습니다.
 
 at.js가 페이지에 포함되어 있는 경우 at.js를 로드하기 전에 조각을 추가해야 합니다. 비동기적으로 로드되는 태그 관리자를 통해 at.js를 로드하는 경우 태그 관리자를 로드하기 전에 코드 조각을 추가해야 합니다. 태그 관리자가 동기적으로 로드되면 스크립트가 at.js 앞에 태그 관리자 내에 포함될 수 있습니다.
 
