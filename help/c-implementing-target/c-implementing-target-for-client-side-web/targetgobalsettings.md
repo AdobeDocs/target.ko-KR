@@ -6,18 +6,16 @@ feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2221'
-ht-degree: 28%
+source-wordcount: '2200'
+ht-degree: 31%
 
 ---
 
 # targetGlobalSettings()
 
 [!DNL Target] Standard/Premium UI에서 설정을 구성하거나 REST API를 사용하는 대신 `targetGlobalSettings()`를 사용하여 at.js 라이브러리의 설정을 무시할 수 있습니다.
-
-사용 사례로 일부 설정을 재정의하려는 경우, 특히 at.js가 DTM([!DNL Dynamic Tag Management])을 통해 전달되는 경우를 들 수 있습니다.
 
 ## 설정{#section_42C759AE9B524A43B8659018677224B8}의 지침을 완료하여 이 설정을 변경할 수 있습니다 
 
@@ -218,7 +216,7 @@ JSON 규칙 아티팩에는 at.js에 mbox가 실행 중인 서버측 활동 또�
 
 * **유형**:부울
 * **기본값**:true
-* **설명**:이 옵션이 활성화되면 페이지 로드 시 반환해야 하는 보기를 자동으로 검색합니다. 보기는 at.js 2에서 지원됩니다.*x*&#x200B;에만 사용할 수 있습니다.
+* **설명**:이 옵션이 활성화되면 페이지 로드 시 반환해야 하는 보기를 자동으로 검색합니다. 보기는 at.js 2에서 지원됩니다.*x* 에만 사용할 수 있습니다.
 
 ### visitorApiTimeout
 
@@ -382,7 +380,7 @@ window.targetGlobalSettings = {
 
 ## 하이브리드 개인화 {#server-state}
 
-`serverState` 은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있는 at.js v2.2+에서 사용할 수 있는 설정입니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 모두 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 제공함을 의미합니다. `serverState` 는 at.js v2.2+에서 서버 측에서 가져온 컨텐츠에서 바로 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다.
+`serverState` 은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있는 at.js v2.2+에서 사용할 수 있는 설정입니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 사용하고 있으며, 서버측에서 배달 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+에서 서버측에서 가져온 콘텐츠에서 직접 경험을 적용하고 서비스되는 페이지의 일부로 클라이언트에 반환할 수 있는 기능을 제공합니다.
 
 ### 전제 조건
 
