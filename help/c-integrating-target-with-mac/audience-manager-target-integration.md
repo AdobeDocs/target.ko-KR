@@ -5,15 +5,20 @@ title: AAM(Adobe Audience Manager)과 [!DNL Target] 을 통합하려면 어떻�
 feature: 통합
 exl-id: 6dd93d39-c4f6-4048-9433-76ddc6763bfd
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
 workflow-type: tm+mt
-source-wordcount: '74'
+source-wordcount: '69'
 ht-degree: 1%
 
 ---
 
-# Adobe Audience Manager(AAM)과 [!DNL Target] 통합
+# [!DNL Target]과 [!DNL Adobe Audience Manager] 통합(AAM)
 
 [!DNL Target]/[!DNL Audience Manager] 통합을 사용하여 [!DNL Audience Manager] 세그먼트를 [!DNL Target]에 보낼 수 있습니다.
 
-자세한 내용은 *Audience Manager 사용자 안내서*&#x200B;의 [Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)과 Audience Manager 통합을 참조하십시오.
+자세한 내용은 *[!DNL Audience Manager]사용자 안내서*&#x200B;의 [Integrate [!DNL Audience Manager] with [!DNL Target]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)을 참조하십시오.
+
+## 비디오:[!DNL Target]과 [!DNL Adobe Audience Manager] 통합(3:06)
+
+>[!VIDEO](https://video.tv.adobe.com/v/35151)
+
