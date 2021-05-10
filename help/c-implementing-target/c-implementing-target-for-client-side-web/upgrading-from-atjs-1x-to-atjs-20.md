@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 91%
+source-wordcount: '2765'
+ht-degree: 92%
 
 ---
 
-# at.js 1.*x*&#x200B;에서 at.js 2.*x*&#x200B;로 업그레이드
+# at.js 1.*x* 에서 at.js 2.*x*&#x200B;로 업그레이드
 
 [!DNL Adobe Target]의 최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.
 
@@ -289,7 +289,7 @@ Target에서 타사 쿠키가 `<CLIENTCODE>.tt.omtrdc.net`에 저장됩니다. �
 
 그러나 at.js 2.*x*&#x200B;에서는 HTTP GET이 더 이상 사용되지 않고 대신 HTTP POST를 사용합니다. 이제 HTTP POST가 at.js 2.*x*&#x200B;를 통해 Target Edge 서버에 JSON 페이로드를 전송하는데 사용됩니다. 이것은 브라우저가 타사 쿠키를 지원하는지 여부를 확인하는 리디렉션 요청이 이제 중단됨을 의미합니다. 이것은 HTTP GET 요청은 멱등 트랜잭션이 아니지만 HTTP POST는 비멱등이어서 임의로 반복되면 안 되기 때문입니다. 따라서 at.js 2.*x*&#x200B;의 도메인 간 추적은 더 이상 지원되지 않습니다. at.js 1.*x*&#x200B;는 도메인 간 추적을 위한 기본 지원을 제공합니다.
 
-크로스 도메인 추적을 사용하려면 at.js 2와 함께 [ECID 라이브러리 v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)을 설치해야 합니다.*x*&#x200B;에서 지원되지 않습니다. ECID 라이브러리는 도메인 간에 방문자를 식별하는 데 사용되는 영구 ID를 관리하기 위해 존재합니다.
+크로스 도메인 추적을 사용하려면 at.js 2와 함께 [ECID 라이브러리 v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko_KR)을 설치해야 합니다.*x*&#x200B;에서 지원되지 않습니다. ECID 라이브러리는 도메인 간에 방문자를 식별하는 데 사용되는 영구 ID를 관리하기 위해 존재합니다.
 
 >[!NOTE]
 >
@@ -364,7 +364,6 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 | Adobe Launch 확장 프로그램 | [예](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | 디버거 | 예 |
 | Auditor | at.js 2.*x*&#x200B;에 대한 규칙이 아직 업데이트되지 않음 |
-| DTM(다이내믹 태그 관리자) | 예 |
 | 옵트인 | 아니오. [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)에 대한 옵트인 지원은 [at.js 버전 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)에서 지원됩니다. |
 | Adobe Target에서 제공하는 AEM 고급 개인화 | 아니오 |
 
