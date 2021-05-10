@@ -1,13 +1,13 @@
 ---
-keywords: document.write;target;implement;target;implement;implement target;dtm;dynamic tag management;at.js;mbox.js;target.js;mbox;adobe experience platform web sdk;aep web sdk
+keywords: document.write;target;implement;target;implement target;dtm;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: 웹 페이지에서 Adobe [!DNL Target] by referencing the [!DNL Target] 라이브러리(at.js 또는 mbox.js)를 구현합니다.
 title: ' [!DNL Target]  JavaScript 라이브러리 이해 '
 feature: 구현
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 23%
+source-wordcount: '473'
+ht-degree: 24%
 
 ---
 
