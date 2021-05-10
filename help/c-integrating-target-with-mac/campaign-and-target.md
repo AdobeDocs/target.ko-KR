@@ -5,10 +5,10 @@ title: Adobe Campaign과 [!DNL Target] 을 통합하려면 어떻게 합니까?
 feature: 통합
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 37%
+source-wordcount: '367'
+ht-degree: 30%
 
 ---
 
@@ -16,16 +16,16 @@ ht-degree: 37%
 
 [!DNL Adobe Campaign]과 함께 [!DNL Target]을 사용하여 이메일 컨텐츠를 최적화합니다.
 
-이메일 컨텐츠를 최적화하려면(예: 여성 수신자와 남성 수신자에 대해 다른 오퍼를 표시하는 경우) [!DNL Target]에서 리디렉션 오퍼를 만든 다음 [!DNL Adobe Campaign]을 사용하여 이메일 오퍼를 관리할 수 있습니다.
+이메일 컨텐츠를 최적화하기 위해 [!DNL Target]에서 리디렉션 오퍼를 만든 다음 [!DNL Adobe Campaign]을 사용하여 이메일 오퍼를 관리할 수 있습니다. 예를 들어 여성 수신자와 남성 수신자에게 서로 다른 오퍼를 표시할 수 있습니다.
 
 이메일이 열리면 통합이 발생합니다. 고객이 이메일을 열면 [!DNL Target]에 대한 호출이 수행되고 동적 버전의 컨텐츠가 표시됩니다. 컨텐츠는 모든 브라우저에서 지원되는 정적 이미지로 구성됩니다. [!DNL Target] 대상 또는 세션 수준에서 오퍼에 대한 반응을 추적하고 해당 데이터를 보고서에서 사용할 수  [!DNL Target] 있습니다.
 
-Target은 다음과 같은 데이터를 추적할 수 있습니다.
+[!DNL Target] 다음 데이터를 추적할 수 있습니다.
 
 * 사용자 에이전트
 * IP 주소
 * 지리적 위치
-* Target에서 방문자 ID와 연관된 세그먼트(법적 승인 조건)
+* [!DNL Target]의 방문자 ID와 연결된 세그먼트(법적 승인 필요)
 * [!DNL Campaign] Datamart의 데이터
 
 몇 가지 제한 사항은 다음과 같습니다.
@@ -34,16 +34,15 @@ Target은 다음과 같은 데이터를 추적할 수 있습니다.
 * 추적은 [!DNL Adobe Campaign]에 통합되지 않습니다.
 * 사용자 경험이 통합되지 않습니다.
 
-   통합의 다른 부분을 설정하려면 [!DNL Target] 및 [!DNL Campaign] 모두를 사용해야 합니다.
+[!DNL Target] 및 [!DNL Campaign] 모두 사용하여 통합의 다른 부분을 설정합니다.
 
-   * [!DNL Target]의 rawbox 및 경험
-   >[!NOTE]
-   >
-   >rawbox 및 [!DNL Target]을 사용하는 경우 Target](/help/administrating-target/hosts.md#allowlist)에 mbox 호출을 전송할 수 있는 호스트를 지정하는 허용 목록 만들기 아래의 중요 보안 알림을 참조하십시오.[
-
-   * [!DNL Campaign]의 배달
-
-
+    * raw 상자 및 [!DNL Target]
+    
+     경험인>[!NOTE]
+    >
+    When using a rawbox and [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target] (/help/administrating-target/hosts.md#allowlist).
+    
+    * 전달 시간 [!DNL Campaign]
 
 ## 시작하기 전에 {#section_FF19BF1BCA064260930BF6C141313B0E}
 
@@ -52,13 +51,14 @@ Target은 다음과 같은 데이터를 추적할 수 있습니다.
 * 2개 이상의 [!DNL Target] 리디렉션 오퍼
 
    [리디렉션 오퍼 만들기](/help/c-experiences/c-manage-content/offer-redirect.md)를 참조하십시오.
-* 각 오퍼 및 원하는 [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md)에 대한 경험이 포함된 Target 활동
+
+* 각 오퍼에 대한 경험과 원하는 [성공 지표](/help/c-activities/r-success-metrics/success-metrics.md)에 대한 경험이 있는 [!DNL Target] 활동.
 
    [URL로 리디렉션](/help/c-experiences/c-visual-experience-composer/redirect-offer.md)을 참조하십시오.
 
 통합의 [!DNL Campaign] 부분을 설정하기 전에 [!DNL Target]에서 활동을 시작합니다.
 
-## Adobe Campaign 이메일 {#section_B201BBE27A704E18AF0D553F35695837}에 [!DNL Target] 오퍼 포함
+## [!DNL Adobe Campaign] 전자 메일 {#section_B201BBE27A704E18AF0D553F35695837}에 [!DNL Target] 오퍼를 포함합니다.
 
 1. [!DNL Adobe Campaign]에서 이메일을 만듭니다.
 1. 이메일 속성에서 **[!UICONTROL 포함]** > **[!UICONTROL Adobe Target에서 제공하는 동적 이미지]**&#x200B;를 클릭합니다.
@@ -70,3 +70,7 @@ Target은 다음과 같은 데이터를 추적할 수 있습니다.
 1. [!DNL Experience Cloud]의 리소스에 액세스할 수 있도록 [!DNL Adobe Experience Cloud]에 사용되는 외부 계정을 지정합니다.
 
 자세한 내용은 [!DNL Adobe Campaign] 설명서를 참조하십시오.
+
+## 비디오:[!DNL Target]과(와) [!DNL Campaign] 통합
+
+>[!VIDEO](https://video.tv.adobe.com/v/35149)
