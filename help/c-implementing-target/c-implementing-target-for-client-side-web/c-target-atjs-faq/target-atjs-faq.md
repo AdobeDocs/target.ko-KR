@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 92%
+source-wordcount: '2687'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ at.js 1.0.0 릴리스를 사용하면 Target 라이브러리를 비동기적으�
 
 at.js를 비동기적으로 로드하려면 다음을 수행하십시오.
 
-* 권장되는 방법은 Adobe Launch 또는 Adobe DTM(Dynamic Tag Manager)과 같은 태그 관리자를 사용하는 것입니다. 자세한 내용은 [Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) 튜토리얼을 사용하여 웹 사이트에서 Experience Cloud 구현의 [Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 단원을 참조하십시오.
+* 권장 방법은 [!DNL Adobe Experience Platform Launch]을 통해 합니다. 자세한 내용은 [Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) 튜토리얼을 사용하여 웹 사이트에서 Experience Cloud 구현의 [Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) 단원을 참조하십시오.
 * at.js를 로드하는 스크립트 태그에 비동기 속성을 추가하여 at.js를 비동기로 로드할 수도 있습니다. 다음과 같은 코드를 사용해야 합니다.
 
    ```
@@ -118,7 +118,7 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 ## at.js가 Adobe Experience Manager 통합(AEM)과 호환됩니까?{#section_6177AE10542344239753764C6165FDDC}
 
-FP-11577을 사용하는 [!DNL Adobe Experience Manager] 6.2(또는 이상)에서는 이제 [!UICONTROL Adobe Target 클라우드 서비스] 통합을 통해 [!DNL at.js] 구현을 지원합니다. 자세한 내용은 *Adobe Experience Manager 6.2* 설명서에서 [기능 팩](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) 및 [Adobe Target과 통합](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html)을 참조하십시오.
+FP-11577을 사용하는 [!DNL Adobe Experience Manager] 6.2(또는 이상)에서는 이제 [!UICONTROL Adobe Target 클라우드 서비스] 통합을 통해 [!DNL at.js] 구현을 지원합니다. 자세한 [내용은](https://docs.adobe.com/docs/ko_KR/aem/6-2/release-notes/feature-packs.html) [Adobe Experience Manager 6.2](https://docs.adobe.com/docs/ko_KR/aem/6-2/administer/integration/marketing-cloud/target.html) 설명서에서 *기능 팩 및 Adobe Target과 통합을* 참조하십시오.
 
 ## at.js{#section_4D78AAAE73C24E578C974743A3C65919}를 사용하여 페이지 로드 플리커를 방지하려면 어떻게 합니까? 
 
