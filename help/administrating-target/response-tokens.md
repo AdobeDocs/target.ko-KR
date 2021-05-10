@@ -6,10 +6,10 @@ feature: 관리 및 구성
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 76%
+source-wordcount: '1498'
+ht-degree: 74%
 
 ---
 
@@ -95,30 +95,6 @@ ht-degree: 76%
 </html>
 ```
 
-다음 지침은 Adobe 다이내믹 태그 관리자(DTM)를 사용하여 [!DNL at.js] 사용자 지정 이벤트 핸들러를 추가하는 방법을 보여줍니다.
-
-1. DTM에 로그인합니다.
-1. 해당 속성으로 이동합니다.
-1. Target 도구를 엽니다.
-
-   DTM은 기본적으로 at.js를 지원하지 않으므로 코드 편집기를 사용해야 합니다.
-
-1. 코드 편집기에서 [!DNL at.js]에 다음 코드를 추가합니다.
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-모든 항목이 하나의 파일에 있기를 바란다면 다음 코드 조각을 라이브러리 바닥글 [at.js 설정 페이지](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)에 추가할 수 있습니다.
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
 ## 응답 토큰 FAQ {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **응답 토큰을 활성화하거나 비활성화하는 데 필요한 역할은 무엇입니까?**
@@ -133,7 +109,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) {
 
 응답 토큰은 [!DNL at.js] Target 응답에 전달되지만 [!DNL mbox.js] 응답에는 전달되지 않습니다.
 
-**Target Classic 플러그인과 응답 토큰이 동시에 활성화될 수 있습니까?**
+**[!DNL Target Classic] 플러그인과 응답 토큰이 동시에 활성화될 수 있습니까?**
 
 플러그인과 응답 토큰을 동시에 사용할 수는 있지만 플러그인은 향후에 더 이상 사용되지 않습니다.
 
@@ -165,7 +141,7 @@ Target은 토큰을 자동으로 해제하지 않습니다. 프로필 스크립�
 
 Target은 정기적으로 속성을 새로 고칩니다. 사용하도록 설정되지 않는 속성은 다음번에 새로 고침할 때 제거됩니다. 그러나 설정되어 있는데 제거된 속성이 있는 경우(예를 들어, 토큰으로 사용된 프로필 스크립트를 제거한 경우) 해제하기 전까지는 해당 스크립트가 속성 목록에서 제거되지 않습니다. 속성이 삭제되거나 이름이 변경되었을 때 해제된 속성만 목록에서 제거됩니다.
 
-## at.js를 통해 Google 애널리틱스에 데이터 전송 {#section_04AA830826D94D4EBEC741B7C4F86156}
+## at.js {#section_04AA830826D94D4EBEC741B7C4F86156}를 통해 Google Analytics으로 데이터 보내기
 
 at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리틱스에 데이터를 전송할 수 있습니다.
 
@@ -231,7 +207,7 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 </script>
 ```
 
-## 디버깅(ttMeta 플러그인과 유사)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## 디버깅(ttMeta 플러그인과 유사) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 디버깅 목적의 ttMeta 플러그인과 동등한 기능은 HTML 페이지에 다음 코드를 추가하여 만들 수 있습니다.
 
@@ -283,7 +259,7 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 </script>
 ```
 
-## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 ![자습서 배지](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 ![튜토리얼 배지](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 다음 비디오를 시청하여 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 Target에서 타사 시스템으로 프로필 정보를 공유하는 방법을 학습하십시오.
 
