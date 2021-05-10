@@ -5,10 +5,10 @@ title: ' [!DNL Target] Recommendations에 대한 질문과 답변을 어디에�
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
-source-wordcount: '2940'
-ht-degree: 55%
+source-wordcount: '2995'
+ht-degree: 54%
 
 ---
 
@@ -241,3 +241,9 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 이 동작은 방문자가 한 장치에서 활성화한 다음 몇 분 후에 다른 장치에서 활성화되는 경우에도 발생합니다. 첫 번째 장치의 세션이 30분 동안 만료되지 않으며 프로필 상태가 영구 상태로 기록되고 처리되기 전에 최대 5분까지 지연될 수 있습니다. 이 동작을 테스트할 때 세션이 만료되고 프로필이 저장될 때까지 35분이 소요됩니다.
 
 방문자에게 동시에 두 개의 활성 세션이 없는 경우 최근 한 장치에서 본 항목은 세션이 종료된 한 다른 장치에서 최근에 본 항목을 업데이트합니다. 이 비헤이비어를 테스트할 때 세션이 35분 동안 만료되도록 허용합니다.
+
+## [!DNL Recommendations Premium]의 [!DNL Adobe Recommendations Classic]에서 만든 알고리즘을 사용할 수 있습니까?
+
+[!DNL Recommendations Classic]에서 만든 알고리즘은 [!DNL Recommendations Premium]에서 지원되지 않습니다. [!DNL Target Premium];에서 기존 알고리즘을 사용할 수 있습니다.그러나 알고리즘은 [!DNL Target Premium] UI에서 활동을 비활성화하거나 삭제할 때 동기화 문제를 만들 수 있습니다. 두 솔루션 간 차이에 대한 자세한 내용은  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)의 [[!DNL Recommendations Classic] versus [!DNL Recommendations] 활동을 참조하십시오.
+
+
