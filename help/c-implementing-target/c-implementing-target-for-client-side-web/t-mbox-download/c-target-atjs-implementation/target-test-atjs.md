@@ -4,26 +4,18 @@ description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Ad
 title: at.js를 비프로덕션 환경에 배포하려면 어떻게 합니까?
 feature: at.js
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 82%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
-
 
 # at.js를 비프로덕션 환경에 배포
 
 at.js를 비프로덕션 환경에 안전하게 배포하는 기법에 대한 정보.
-
-## DTM 스테이징에 배포
-
-DTM을 사용하는 경우 Adobe Target 도구 구성에 at.js를 쉽게 저장할 수 있습니다.
-
-라이브러리를 저장한 후 DTM 전환 도구를 사용하여 프로덕션 코드에 대해 테스트하십시오. 이를 통해 Adobe 컨설턴트는 사용자를 쉽게 지원할 수 있습니다.
-
-자세한 정보는 *다이내믹 태그 관리를 사용하여 Adobe Target을 구현하기 위한 우수 사례* 가이드에서 [옵션 3: DTM을 통해 호스팅된 Target 자바스크립트 라이브러리를 사용하여 수동으로 Target 구현](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html)을 참조하십시오.
 
 ## &quot;Requestly&quot; Chrome 확장을 사용하여 다른 파일에 매핑
 
