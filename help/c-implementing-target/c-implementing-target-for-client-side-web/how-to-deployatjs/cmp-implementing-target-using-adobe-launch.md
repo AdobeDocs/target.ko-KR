@@ -1,37 +1,35 @@
 ---
-keywords: 구현;구현;adobe launch;launch;race;redirect;experience platform launch
+keywords: 구현;구현;adobe 론치;시작;레이스;리디렉션;경험 platform launch;platform launch
 description: Adobe [!DNL Target]을 구현하는 데 선호하는 방법인 Adobe Experience Platform Launch을 사용하여 Adobe [!DNL Target] at.js 라이브러리를 구현하는 방법을 알아봅니다.
 title: Adobe 시작을 사용하여  [!DNL Target] 을 구현하려면 어떻게 합니까?
 feature: 서버측 구현
 role: Developer
 exl-id: 7cc1d3ab-4a68-4454-95b0-04fa547a6d9e
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
-source-wordcount: '450'
-ht-degree: 75%
+source-wordcount: '350'
+ht-degree: 6%
 
 ---
 
-# Adobe 시작을 사용하여 [!DNL Target] 구현
+# [!DNL Adobe Platform Launch]을(를) 사용하여 [!DNL Target] 구현
 
-Adobe Experience Platform Launch은 Adobe의 차세대 태그 관리 플랫폼으로 Adobe Target을 구현하는 데 가장 선호되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
+[!DNL Adobe Experience Platform Launch] 는 다음세대 태그 관리 플랫폼 [!DNL Adobe] 으로 구현하기 위한 기본 방법입니다 [!DNL Adobe Target]. [!DNL Platform Launch] 고객은 연관성 있는 고객 경험을 향상시키는 데 필요한 분석, 마케팅 및 광고 태그를 간단하게 배포 및 관리할 수 있습니다.
 
-## Adobe 시작 {#topic_5234DDAEB0834333BD6BA1B05892FC25}을(를) 사용하여 [!DNL Target] 구현
+## [!DNL Platform Launch] {#topic_5234DDAEB0834333BD6BA1B05892FC25}를 사용하여 [!DNL Target] 구현
 
-Launch는 Adobe의 차세대 태그 관리 플랫폼이며 Adobe Target을 구현하는 데 권장되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
-
-다음 표에는 Launch에 대한 자세한 정보를 얻을 수 있는 여러 소스가 나열되어 있습니다.
+다음 표는 [!DNL Platform Launch]에 대한 자세한 정보를 볼 수 있는 다양한 소스를 보여 줍니다.
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| [Adobe Target 확장 자습서를 사용하여 Target 구현](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) | 이 자습서에서는 Launch를 사용하여 웹 사이트에서 Adobe Target을 구현하는 단계별 지침을 제공합니다. 다뤄지는 주제에는 at.js JavaScript 라이브러리 추가, 글로벌 mbox 실행, 매개 변수 추가 및 다른 솔루션과의 통합이 있습니다. 이 문서는 다른 Adobe Experience Cloud 솔루션뿐만 아니라 Adobe Launch를 구현하는 방법도 보여주는 더 광범위한 자습서의 일부입니다. |
-| [Adobe Launch 설명서](https://experienceleague.adobe.com/docs/launch/using/intro/get-started/quick-start.html) | 관련 고객 경험을 수행하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배치하고 관리하는 방법에 대한 정보입니다. |
-| [Adobe Target 확장 설명서](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Launch를 사용하여 Target을 구현하는 방법에 대한 정보입니다. |
+| [ [!DNL Target] Adobe Target  [!UICONTROL Extension 자습서를 사용하여 구현]](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#implement-solutions) | 이 자습서에서는 [!DNL Platform Launch]이(가) 있는 웹 사이트에서 [!DNL Target]을(를) 구현하는 단계별 지침을 제공합니다. 다뤄지는 주제에는 at.js JavaScript 라이브러리 추가, 글로벌 mbox 실행, 매개 변수 추가 및 다른 솔루션과의 통합이 있습니다. 이 문서는 [!DNL Platform Launch] 및 기타 [!DNL Adobe Experience Cloud] 솔루션을 구현하는 방법을 보여주는 더 큰 자습서의 일부입니다. |
+| [[!DNL Adobe Platform Launch] 설명서](https://experienceleague.adobe.com/docs/launch/using/get-started/quick-start.html#get-started) | 관련 고객 경험을 향상시키는 데 필요한 분석, 마케팅 및 광고 태그 배포 및 관리에 대한 정보입니다. |
+| [ [!DNL Target] Adobe Extension 설명서](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | [!DNL Platform Launch]을(를) 사용하여 [!DNL Target] 구현에 대한 정보입니다. |
 
-## [!DNL Target] 시작 확장 {#section_48B3F938B6F8491DAF798E0DB54EF304}을 사용하여 at.js를 구현하는 이점
+## [!DNL Target] [!DNL Platform Launch] 확장 {#section_48B3F938B6F8491DAF798E0DB54EF304}을 사용하여 at.js를 구현하는 이점
 
-Adobe Launch를 사용하여 at.js를 구현하는 경우에만 다음과 같은 이점이 있습니다. 따라서 DTM이 아닌 Adobe Launch를 사용하거나 at.js를 수동으로 구현하는 것이 좋습니다.
+다음 이점은 at.js를 구현하는 데 [!DNL Platform Launch]을 사용하는 경우에만 적용됩니다. 이러한 이유로 [!DNL Adobe]은 at.js의 수동 구현이 아니라 [!DNL Platform Launch]을 사용하는 것이 좋습니다.
 
-* **Analytics 및 Target 경쟁 조건 해결:** Analytics 호출이 Target 호출 전에 실행될 수 있으므로, Target 호출은 Analytics 호출에 연결되지 않습니다. 이로 인해 잘못된 데이터가 발생할 수 있습니다. 0.6.0부터 Target Launch Extension에서 Analytics 신호 호출은 Target 호출이 성공했는지에 관계없이 완료될 때까지 대기합니다. 이로 인해 데이터 불일치가 발생했을 수 있습니다.
-* **잘못된 리디렉션 오퍼 처리 방지:** 페이지에 Target과 Analytics가 있고 Target에 의해 리디렉션 오퍼가 실행된 경우, 사용자가 다른 URL로 리디렉션되기 때문에 Analytics 추적기가 요청을 실행하지 말아야 할 때 요청을 실행하는 상황이 발생할 수 있습니다. Launch를 통해 Target 및 Analytics를 구현하는 경우 이 문제가 발생하지 않습니다. Launch를 사용하면 Target은 Analytics에 Analytics 비콘 요청을 중단하도록 지시합니다.
+* **문제  [!DNL Adobe Analytics] 해결  [!DNL Target] 및** 경합 조건: [!DNL Analytics] 호출 전에  [!DNL Target] 호출을 실행할 수  [!DNL Target] 있으므로 호출 [!DNL Analytics] 을 호출로 연결할 수없습니다. 이 시퀀스는 잘못된 데이터를 초래할 수 있습니다. 0.6.0부터 시작하여 [!DNL Platform Launch] 확장은 [!DNL Analytics] 비콘 호출이 완료되거나, 성공하거나, 수행하지 않을 때까지 [!DNL Target] 비콘 호출이 대기하도록 합니다. [!DNL Platform Launch]을(를) 사용하면 고객이 수동으로 구현할 때 경험할 수 있는 데이터 불일치 문제를 해결할 수 있습니다.
+* **잘못된 리디렉션 오퍼 처리 방지:** 페이지가  [!DNL Target] 있고 [!DNL Analytics] 에 의해 실행되는 리디렉션 오퍼가 있는  [!DNL Target]경우, 추적기가 요청을 실행하지 않을 때(사용자가 다른 URL로 리디렉션되기 때문)  [!DNL Analytics] 요청을 실행하는 상황을 경험할 수 있습니다. [!DNL Platform Launch]을(를) 통해 [!DNL Target] 및 [!DNL Analytics]을(를) 구현하는 경우 이 문제가 발생하지 않습니다. [!DNL Platform Launch]을 사용하여 [!DNL Target]은 [!DNL Analytics]에게 [!DNL Analytics] 비콘 요청을 중단하도록 지시합니다.
