@@ -5,10 +5,10 @@ title: Adobe Campaign과 [!DNL Target] 을 통합하려면 어떻게 합니까?
 feature: 통합
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
+source-git-commit: 2a78828c0d04add812a73ea04f4b3927d3dbc392
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 30%
+source-wordcount: '382'
+ht-degree: 35%
 
 ---
 
@@ -36,14 +36,13 @@ ht-degree: 30%
 
 [!DNL Target] 및 [!DNL Campaign] 모두 사용하여 통합의 다른 부분을 설정합니다.
 
-* raw 상자 및 [!DNL Target]
+* 원시 상자 및 [!DNL Target]의 경험
 
 >[!NOTE]
 >
->경험인
->When using a rawbox and [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target] (/help/administrating-target/hosts.md#allowlist).
-    
-* 전달 시간 [!DNL Campaign]
+>rawbox 및 [!DNL Target]을 사용하는 경우 [Target으로 mbox 호출을 보내도록 승인된 호스트를 지정하는 허용 목록 생성](/help/administrating-target/hosts.md#allowlist) 아래의 중요 보안 알림을 참조하십시오.
+
+* [!DNL Campaign]의 배달
 
 ## 시작하기 전에 {#section_FF19BF1BCA064260930BF6C141313B0E}
 
