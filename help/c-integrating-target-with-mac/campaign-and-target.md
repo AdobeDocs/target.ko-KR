@@ -36,13 +36,14 @@ ht-degree: 30%
 
 [!DNL Target] 및 [!DNL Campaign] 모두 사용하여 통합의 다른 부분을 설정합니다.
 
-    * raw 상자 및 [!DNL Target]
+* raw 상자 및 [!DNL Target]
+
+>[!NOTE]
+>
+>경험인
+>When using a rawbox and [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target] (/help/administrating-target/hosts.md#allowlist).
     
-     경험인>[!NOTE]
-    >
-    When using a rawbox and [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target] (/help/administrating-target/hosts.md#allowlist).
-    
-    * 전달 시간 [!DNL Campaign]
+* 전달 시간 [!DNL Campaign]
 
 ## 시작하기 전에 {#section_FF19BF1BCA064260930BF6C141313B0E}
 
