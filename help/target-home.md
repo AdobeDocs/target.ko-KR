@@ -4,8 +4,7 @@ title: ' [!DNL Target] 설명서를 어디에서 찾을 수 있습니까?'
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법을 살펴볼 수 있습니다.
 feature: 개요
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 95%
@@ -18,7 +17,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] 은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜: 2021년 5월 10일([변경 사항 보기](r-release-notes/doc-change.md))**
+**마지막 업데이트 날짜: 2021년 5월 12일([변경 사항 보기](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -69,12 +68,12 @@ ht-degree: 95%
 
 - [Target 관리](administrating-target/administrating-target.md): 사용자를 추가하고 [!DNL Target] 계정을 구성하는 방법을 설명합니다.
 
-## 분석가  {#analysts}
+## 분석가 {#analysts}
 
 - [대상](c-target/target.md): 타깃팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
 - [보고서](c-reports/reports.md): 활동의 성과를 해석하는 방법을 설명합니다.
 
-## QA 엔지니어  {#qa}
+## QA 엔지니어 {#qa}
 
 - [활동](c-activities/activities.md): [!DNL Target] 활동을 설정, 관리 및 QA하는 방법을 설명합니다.
 
