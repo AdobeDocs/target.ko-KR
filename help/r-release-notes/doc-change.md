@@ -4,11 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서에 대한 중요한 추가 사
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-translation-type: tm+mt
-source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 60%
+source-wordcount: '1119'
+ht-degree: 59%
 
 ---
 
@@ -20,7 +19,8 @@ ht-degree: 60%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 5월 10일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;[!DNL Recommendations Premium]의 [!DNL Adobe Recommendations Classic]에서 만든 알고리즘을 사용할 수 있습니까?&quot; |
+| 5월 12일 | [[!DNL Target] 릴리스 노트(베타 버전)](/help/r-release-notes/target-release-notes.md) | 다음에 대한 베타 버전 정보가 추가되었습니다.<ul><li>Adobe Experience Platform 웹 SDK(2021년 5월 17일</li><li>Target Standard Premium 21.5.2</li></ul> |
+| 5월 10일 | [[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.&quot;[!DNL Recommendations Premium]의 [!DNL Adobe Recommendations Classic]에서 만든 알고리즘을 사용할 수 있습니까?&quot; |
 |  | [구현 [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | [!DNL Adobe Dynamic Tag Manager]은(는) 더 이상 지원되지 않음을 나타냅니다. 대신 [!DNL Adobe]은 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)로 구현하는 것이 좋습니다. |
 | 5월 6일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>내 사이트에 반영될 [!UICONTROL Recommendations] 활동, 오퍼, 프로모션 또는 기준 설정의 구성을 변경하는 데 얼마나 걸립니까?</li><li>사용자가 받는 권장 사항 *에 제품 A를 클릭하고 제품 B를 구입하는 등의 사용자 행동이 반영되는 데 얼마나 걸립니까?*</li><li>사용자 행동(예: 제품 A 클릭 및 제품 B 구입)이 권장 사항 *기타* 사용자가 받는 경우 얼마나 걸립니까?</li></ul> |
 |  | [디바이스에서 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adobe 기술 블로그에서 다음 블로그 게시물에 링크를 추가했습니다.<ul><li>1부:에지 플랫폼에서 실험 및 개인화를 위해 Adobe Target NodeJS SDK 실행(Akamai Edge Workers)</li></ul> |
