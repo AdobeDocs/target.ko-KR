@@ -5,19 +5,14 @@ title: 장치 내 의사 결정은 at.js JavaScript 라이브러리에서 어떻
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 7f1db24e902c4b06c2035a94924abfe2d254bf25
 workflow-type: tm+mt
-source-wordcount: '3506'
+source-wordcount: '3491'
 ht-degree: 7%
 
 ---
 
 # at.js에 대한 장치 내 의사 결정
-
->[!NOTE]
->
->장치 내 의사 결정은 예정된 [at.js 2.5.0 릴리스](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)와 함께 사용할 수 있습니다. 곧 발표할 날짜입니다.
 
 버전 2.5.0부터 at.js는 장치 내 의사 결정을 제공합니다. 장치 내 의사 결정을 사용하면 [!DNL Adobe Target] 에지 네트워크에 대한 차단 네트워크 요청 없이 메모리 내 의사 결정을 수행하도록 브라우저에서 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md) 및 [경험 타깃팅](/help/c-activities/t-experience-target/experience-target.md)(XT) 활동을 캐시할 수 있습니다.
 
