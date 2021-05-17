@@ -4,11 +4,10 @@ description: ' [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!D
 title: A4T의 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 69%
+source-wordcount: '1355'
+ht-degree: 62%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 69%
 
 이 주제에는 [!DNL Adobe Target](A4T)의 보고 소스로 [!DNL Adobe Analytics]을(를) 사용할 때 리디렉션 오퍼를 사용하는 것에 대해 자주 묻는 질문에 대한 답변이 포함되어 있습니다.
 
-## Adobe Target(A4T)용 분석은 리디렉션 오퍼를 지원합니까?{#section_46B8B03ED4D542C6AD875F5F61176298}
+## Adobe Target(A4T)용 분석은 리디렉션 오퍼를 지원합니까? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 예, 구현에서 [!DNL at.js]을 사용하는 경우 그러나 Analytics를 보고 소스로 사용하는 활동에서 [리디렉션 오퍼](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)를 사용하기 위해서는 구현이 아래 나열된 최소 요구 사항을 충족해야 합니다.
 
@@ -24,7 +23,7 @@ ht-degree: 69%
 >
 >A4T에서 리디렉션을 사용하는 제한된 고객 수가 연결되지 않은 적중률 비율이 높아지는 알려진 문제가 해결되었습니다. [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)를 참조하십시오.
 
-## A4T에서 리디렉션 오퍼를 사용하기 위한 최소 요구 사항은 무엇입니까?{#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
+## A4T에서 리디렉션 오퍼를 사용하기 위한 최소 요구 사항은 무엇입니까? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 구현은 다음 최소 요구 사항을 충족해야 합니다.
 
@@ -95,7 +94,7 @@ A4T와 리디렉션 오퍼를 사용하는 경우, Target에서는 `adobe_mc_ref
 
 Adobe은 IT 팀에 `adobe_mc_ref` 및 `adobe_mc_sdid`이 허용 목록에추가된 어떠한 방식으로도 변형되지 않도록 하려면 이 값을 구성하는 것이 좋습니다.
 
-## 참조 URL을 새 페이지로 전달해야 하는 이유는 무엇입니까?{#section_91AB8B0891F6416CBF7E973DCAF54EB5}
+## 참조 URL을 새 페이지로 전달해야 하는 이유는 무엇입니까? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
 방문자가 리디렉션 활동이 라이브되는 홈 페이지(`www.mysite.com/index.html`)에 대한 링크를 클릭하고 새 페이지(`www.mysite.com/index2.html`)로 리디렉션한다고 가정합니다.[!DNL `www.google.com`]
 
@@ -106,3 +105,23 @@ Adobe은 IT 팀에 `adobe_mc_ref` 및 `adobe_mc_sdid`이 허용 목록에추가�
 ## 내가 사용자 지정/HTML 리디렉션 오퍼를 사용할 수 있습니까? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 아니요, [!DNL Analytics]를 보고 소스로 사용(A4T)하는 활동에는 내장 리디렉션 오퍼를 사용해야 합니다. [!DNL Target]의 관점에서 HTML 오퍼는 불투명합니다. [!DNL Target]은 HTML의 특정 부분이 리디렉션을 인스턴스화하는 JavaScript를 포함한다는 것을 알 수 없습니다.
+
+## [!DNL Adobe Experience Platform Web SDK] 지원 리디렉션 오퍼가 A4T에 제공됩니까? {#platform}
+
+다음 FAQ에서는 A4T 사용 및 [!DNL Platform Web SDK]으로 리디렉션 오퍼에 대한 자세한 정보를 제공합니다.
+
+>[!NOTE]
+>
+>이 문서에서 설명한 [!DNL Adobe Experience Platform Web SDK] 구현의 A4T 지원은 [!DNL Platform Web SDK] 버전 2.5.0 릴리스(2021년 5월 24일)와 함께 사용할 수 있게 될 예정입니다.
+
+### Analytics for Target(A4T)에서 리디렉션 오퍼를 지원합니까?
+
+예. 플랫폼 웹 SDK를 통한 A4T는 [리디렉션 오퍼](/help/c-experiences/c-manage-content/offer-redirect.md)를 지원합니다.
+
+### [!UICONTROL Visual Experience Composer](VEC) 및 [!UICONTROL 양식 기반 Experience Composer]가 지원됩니까?
+
+예. 내장된 리디렉션 오퍼를 사용하는 경우 [[!UICONTROL Visual Experience Composer]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC) 및 [[!UICONTROL 양식 기반 Experience Composer]](/help/c-experiences/form-experience-composer.md)가 지원됩니다.
+
+### [!DNL Platform Web SDK]에서 사용자 지정/HTML 리디렉션 오퍼를 사용할 수 있습니까?
+
+아니요. A4T를 사용하는 활동에 대해 내장 리디렉션 오퍼를 사용해야 합니다. [!DNL Target] 관점에서 HTML 오퍼는 불투명합니다.[!DNL Target]은(는) 리디렉션을 인스턴스화하는 특정 HTML 부분에 JavaScript가 포함되어 있는지 알 수 없습니다.
