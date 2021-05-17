@@ -5,11 +5,10 @@ title: ' [!DNL Target] 어떤 브라우저를 지원합니까?'
 feature: 구현
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '307'
-ht-degree: 54%
+source-wordcount: '341'
+ht-degree: 44%
 
 ---
 
@@ -34,7 +33,7 @@ TLS에 대한 자세한 내용은 [TLS(전송 레이어 보안) 암호화 변경
 
 | 장치 유형 | 브라우저 버전 |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 및 10. 에뮬레이션 모드에서 테스트되었습니다.<br>**참고**: at.js 1.3.0 이상 버전은 더 이상 Microsoft Internet Explorer 9에서 컨텐츠 전달을 지원하지 않습니다.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome(최신, 빼기 1)</li><li>Firefox(최신, 최신 - 1)</li></ul> |
+| Windows | <ul><li>Microsoft Internet Explorer 9 및 10. 에뮬레이션 모드에서 테스트되었습니다.<br>**참고**:IE 9에서의 컨텐츠 배달은 더 이상 at.js 1.3.0(이상)에서 지원되지 않습니다. IE 10, 11 및 모든 이전 버전에 대한 컨텐츠 배달은 at.js 2.5.0 이상 버전에서 더 이상 지원되지 않습니다.</li><li>Internet Explorer 11 <br>**참고**:IE 10, 11 및 모든 이전 버전에 대한 컨텐츠 배달은 at.js 2.5.0 이상 버전에서 더 이상 지원되지 않습니다.</li><li>Microsoft Edge</li><li>Chrome(최신, 빼기 1)</li><li>Firefox(최신, 최신 - 1)</li></ul> |
 | Mac | <ul><li>Apple Safari(최신)<br>**참고**:Safari가 자사 및 타사 쿠키를 처리하는 방법에 대한 자세한 내용은 [Target 쿠키](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md)를 참조하십시오.</li><li>Firefox(최신, 최신 - 1)</li><li>Chrome(최신, 빼기 1)</li></ul> |
 | 모바일/태블릿 | <ul><li>Apple iOS(최신)</li><li>Android 장치 및 태블릿(Android 4 이상)</li><li>Microsoft Surface(Windows 8.1)</li></ul> |
 
