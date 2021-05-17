@@ -4,19 +4,22 @@ description: 이 통합을 구현하기 전에  [!DNL Target] (A4T)에 대한 An
 title: A4T를 구현하기 전에 무엇을 알아야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 34%
+source-wordcount: '897'
+ht-degree: 31%
 
 ---
 
-# 구현하기 전에
+# at.js를 사용하여 Target(A4T)에 대한 Analytics를 구현하기 전에
 
 [!DNL Adobe Target](A4T)의 보고 소스로 [!DNL Adobe Analytics]을(를) 활성화할 때 데이터 수집 프로세스에서 몇 가지 변경 사항이 발생합니다.
 
-이 통합의 사용 여부를 결정하기 전에, 다음 섹션을 검토하여 보고 프로세스에 미치는 영향을 고려하십시오.
+이 통합을 사용하기 전에 다음 섹션을 검토하여 보고 프로세스에 미치는 영향을 고려하십시오.
+
+>[!NOTE]
+>
+>이 아티클은 at.js 구현에만 적용됩니다.
 
 ## 구현 요구 사항 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -39,7 +42,7 @@ A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합�
 A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
 
 * [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js 버전 2.3.0
-* [!DNL Adobe Target]: at.js 버전 1.6.2
+* [!DNL Adobe Target]: at.js  버전 1.6.2
 
    **참고:** mbox.js 라이브러리는 A4T를 사용하는 리디렉션 오퍼를 지원하지 않습니다. 구현에서 at.js를 사용해야 합니다.
 
