@@ -4,11 +4,10 @@ description: 각 Adobe 버전 [!DNL Target] at.js JavaScript 라이브러리의 
 title: at.js의 각 버전에 포함되는 것은?
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '4184'
-ht-degree: 81%
+source-wordcount: '4181'
+ht-degree: 89%
 
 ---
 
@@ -23,54 +22,54 @@ ht-degree: 81%
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch는 at.js를 업그레이드할 때 사용하는 기본 방법입니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 [!DNL Launch] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *Experience Platform Launch 사용 안내서*&#x200B;의 [확장 업그레이드](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)를 참조하십시오.
 
-## at.js 2.5.0(발표할 날짜)
+## at.js 2.5.0(2021년 5월 13일)
 
-at.js의 이번 릴리스에는 다음과 같은 개선 사항 및 변경 사항이 포함되어 있습니다.
+이 at.js의 릴리스에는 다음과 같은 개선 사항 및 변경 사항이 포함되어 있습니다.
 
-* [at.js에 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 대한 장치 내 의사 결정 지원.
-* [미리 ](/help/c-activities/c-activity-qa/activity-qa.md) 보기 링크Automated Personalization 활동 지원
+* at.js에 대한 [온디바이스 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 지원
+* 자동화된 개인화 활동에 대한 [링크 미리보기](/help/c-activities/c-activity-qa/activity-qa.md) 지원
 
-또한 이 릴리스에서는 Microsoft Internet Explorer 10 이상 버전에 대한 지원도 제거되었습니다.
+이 릴리스는 또한 Microsoft Internet Explorer 10 이상의 버전에 대한 지원을 제거합니다.
 
 ## at.js 2.4.1(2021년 3월 23일)
 
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
-* `targetPageParams`이(가) mbox 요청에 포함되는 문제를 해결했습니다. `targetPageParams` 는  `pageLoad` 요청에만 포함되어야 합니다. (TNT-40247)
+* mbox 요청에 포함되는 `targetPageParams`에 관한 문제가 해결되었습니다. `targetPageParams`은 `pageLoad` 요청에만 포함되어야 합니다. (TNT-40247)
 * 최적화된 창 및 [!DNL Adobe Experience Platform Launch] 확장에서 참조하는 문서 글로벌. (TNT-37124)
 
 ## at.js 2.4.0(2021년 1월 14일)
 
-at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 포함합니다.
+at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.
 
-* 통합 프로필/플랫폼 ID에 대한 지원을 배달 API customerId에 추가합니다.
-* 잘못된 스타일 태그 삽입이 수정되었습니다.
+* API customerIds 제공에 통합 프로필/플랫폼 ID 지원을 추가합니다.
+* 잘못된 스타일 태그 삽입을 해결합니다.
 
 ## at.js 2.3.3(2020년 11월 13일)
 
-at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 포함합니다.
+at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.
 
 * mbox 클릭 추적 및 A4T와 관련된 문제를 수정했습니다. 0n-클릭으로 Target은 올바른 mbox 및 mbox 매개 변수를 사용하여 배달 API 호출을 실행했습니다. 그러나 SDID가 [!DNL Analytics] 호출의 SDID와 일치하지 않으므로 히트 스티칭과 전환이 없습니다. (TNT-38372)
 
 ## at.js 2.3.2(2020년 7월 24일)
 
-at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 포함합니다.
+at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.
 
-* 스크립트나 코드가 윈도우 또는 문서에 기본 속성을 추가하는 버그를 수정했습니다.
+* 스크립트 또는 코드가 창 또는 문서에 기본 속성을 추가할 때의 버그를 해결했습니다.
 
 ## at.js 1.8.2(2020년 6월 15일)
 
-at.js의 이 릴리스는 유지 관리 릴리스이며 다음 수정 사항을 포함합니다.
+at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.
 
-* at.js 1, CNAME 및 가장자리 재정의를 사용할 때 발생하는 문제가 해결되었습니다.*xmir* 이 서버 도메인을 잘못 생성하여 요청을  [!DNL Target] 실패할 수 있습니다. (TNT-35064)
+* CNAME 및 에지 재정의 at.js 1을 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35064)
 
 ## at.js 2.3.1 릴리스(2020년 6월 15일)
 
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 * [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 통해 `deviceIdLifetime` 설정을 재정의할 수 있게 했습니다. (TNT-36349)
-* at.js 2에서 CNAME 및 가장자리 재정의를 사용할 때 발생하는 문제가 해결되었습니다.*xmir* 이 서버 도메인을 잘못 생성하여 요청을  [!DNL Target] 실패할 수 있습니다. (TNT-35065)
-* [!DNL Target] [!DNL Launch] 확장 v2 및 [!DNL Adobe Analytics] [!DNL Launch] 확장 기능을 사용할 때 [!DNL Target] 호출이 지연되는 문제가 해결되었습니다. [!DNL Analytics]`sendBeacon` (TNT-36407, TNT-35990, TNT-36000)
+* CNAME 및 에지 재정의 at.js 2를 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35065)
+* [!DNL Target] [!DNL Launch] 확장 v2 및 [!DNL Adobe Analytics] [!DNL Launch] 확장을 사용할 때 [!DNL Target] 이 [!DNL Analytics] `sendBeacon` 호출을 지연시키는 문제를 해결했습니다. (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js 버전 2.3.0(2020년 3월 25일)
 
@@ -92,21 +91,21 @@ at.js의 이번 릴리스에는 다음 개선 사항 및 수정 사항이 포함
 
 * Adobe Analytics 코드가 페이지 요소에 없을 때 클릭 추적이 Analytics for Target(A4T)의 전환을 보고하지 않았던 문제를 수정했습니다.
 * 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4 및 at.js 2.2를 모두 사용할 때 성능이 개선되었습니다.
-* 이전에는 at.js가 경험을 가져오기 전에 ECID에서 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 향상되었습니다.
+* 이전에는 at.js가 경험을 가져오기 전에 ECID가 두 번의 차단 호출을 했습니다. 이것이 한 번의 호출로 줄어들어 성능이 크게 향상되었습니다.
 * 기본 오퍼의 이벤트 토큰이 보낸 알림에 포함되지 않는 잘못된 프리페치 보기 처리를 수정했습니다.
 
    >[!NOTE]
    >
    >이 향상된 성능을 활용할 수 있도록 ECID Launch Extension을 v4.4로 업그레이드하십시오.
 
-* at.js 버전 2.2에서는 `serverState`이라는 새 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 모두 사용하고 서버측에서 제공 API 또는 Target SDK를 모두 사용하여 경험을 제공함을 의미합니다. `serverState` 는 at.js v2.2+에서 서버 측에서 가져온 컨텐츠에서 바로 경험을 적용하고 제공되는 페이지의 일부로 클라이언트로 돌아오는 기능을 제공합니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)의 &quot;serverState&quot;를 참조하십시오.
+* at.js 버전 2.2에서는 `serverState`이라는 새 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 사용하고 있으며, 서버측에서 배달 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+에서 서버측에서 가져온 콘텐츠에서 직접 경험을 적용하고 서비스되는 페이지의 일부로 클라이언트에 반환할 수 있는 기능을 제공합니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)의 &quot;serverState&quot;를 참조하십시오.
 
 ## at.js 버전 1.8.0(2019년 10월 10일)
 
 at.js의 이번 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
 
 * 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4 및 at.js 1.8을 모두 사용할 때의 성능이 개선되었습니다.
-* 이전에는 at.js가 경험을 가져오기 전에 ECID에서 두 개의 차단 호출을 수행했습니다. 이는 단일 호출로 감소하여 성능이 크게 향상되었습니다.
+* 이전에는 at.js가 경험을 가져오기 전에 ECID가 두 번의 차단 호출을 했습니다. 이것이 한 번의 호출로 줄어들어 성능이 크게 향상되었습니다.
 
 >[!NOTE]
 >
@@ -119,15 +118,15 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
 * Visual Experience Composer(VEC)의 목표 및 설정 페이지에서 클릭 추적 지표를 사용할 때 여러 개의 비콘이 실행되는 문제를 해결했습니다. (TNT-32812)
-* `triggerView()`이 오퍼를 두 번 이상 렌더링하지 않는 문제를 해결했습니다. (TNT-32780)
-* `triggerView()`이 요청에서 MCID(Marketing Cloud ID) 정보가 포함되어 있는지 확인하는 문제를 해결했습니다. (TNT-32776)
+* `triggerView()` 이 오퍼를 두 번 이상 렌더링하지 않는 문제를 해결했습니다. (TNT-32780)
+* `triggerView()` 이 요청에서 MCID(Marketing Cloud ID) 정보가 포함되어 있는지 확인하는 문제를 해결했습니다. (TNT-32776)
 * 저장된 보기가 없는 경우에도 `triggerView()` 알림이 실행되지 않는 문제를 해결했습니다. (TNT-32614)
 * URL에 잘못된 형식의 쿼리 문자열 매개 변수가 포함되어 있을 때 decodeURIcomponent를 사용하여 오류가 발생하는 문제를 해결했습니다. (TNT-32710)
 * 이제 `Navigator.sendBeacon()` API를 통해 전송된 배달 요청의 컨텍스트에서 비콘 플래그가 &#39;true&#39;로 설정됩니다. (TNT-32683)
 * 일부 고객의 웹 사이트에서 추천 오퍼가 표시되지 않는 문제를 해결했습니다. 고객이 배달 API 호출에서 오퍼 콘텐츠를 볼 수 있지만 오퍼가 웹 사이트에 적용되지 않았습니다. (TNT-32680)
 * 여러 경험에서 클릭 추적이 예상대로 작동되지 않는 문제를 해결했습니다. (TNT-32644)
 * 첫 번째 지표 렌더링이 실패한 후 at.js에서 두 번째 지표를 적용하지 못했던 문제를 해결했습니다. (TNT-32628)
-* 요청 페이로드가 쿼리 매개 변수 또는 요청 페이로드에 존재하지 않는 `targetPageParams` 함수를 사용하여 `mboxThirdPartyId`을 전달할 때 발생하는 문제를 해결했습니다. (TNT-32613)
+* 요청 페이로드가 쿼리 매개 변수 또는 요청 페이로드에 존재하지 않는 `mboxThirdPartyId` 함수를 사용하여 `targetPageParams` 을 전달할 때 발생하는 문제를 해결했습니다. (TNT-32613)
 * Chromium 기반 브라우저(Google Chrome 포함)에서 디스플레이 및 클릭 알림 응답이 차단되는 문제를 해결했습니다. (TNT-32290)
 
 ## at.js 버전 2.1.0(2019년 6월 3일)
@@ -152,7 +151,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
-(괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+(괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
 * 특정 고객에 대해 JavaScript 예외가 발생한 DOM 폴링 코드의 경합 조건을 수정했습니다. (TNT-31869)
 * 보기가 렌더링되었다는 알림이 클릭 추적 이벤트 핸들러에서 분리되었습니다. 처음에는 렌더링된 보기에 속하는 클릭 이벤트 핸들러를 첨부할 수 없는 경우 Target에서 알림을 보내지 않았습니다. 이제 Target에서 클릭 요소를 찾을 수 없는 경우에도 보기 알림을 보냅니다. (TNT-31969)
@@ -164,7 +163,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 유지보수 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.
 
-(괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+(괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
 * 특정 고객에 대해 JavaScript 예외가 발생한 DOM 폴링 코드의 경합 조건을 수정했습니다. (TNT-31869)
 
@@ -190,7 +189,7 @@ at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.
 * mboxDefine
 * registerExtension()
 
-자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)와 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.
+자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 및 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.
 
 >[!NOTE]
 >
@@ -299,7 +298,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 이제 [!DNL at.js] 버전 1.2.3을 사용할 수 있습니다.
 
-* JSON 오퍼에 대한 지원을 추가합니다. JSON은 양식 기반 경험 작성기를 사용하여 만든 활동에서만 지원됩니다. 현재 JSON을 사용하는 유일한 방법은 직접 API 호출을 통해서입니다. 자세한 내용은 [JSON 오퍼 만들기](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)를 참조하십시오.
+* JSON 오퍼에 대한 지원을 추가합니다. JSON은 양식 기반 경험 작성기를 사용하여 만든 활동에서만 지원됩니다. 현재 JSON을 사용하는 유일한 방법은 직접 API 호출을 통해서입니다. [JSON 오퍼 만들기](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)를 참조하십시오.
 
 ## at.js 버전 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
