@@ -1,40 +1,70 @@
 ---
-keywords: A4T;Adobe Analytics;Analytics 기반 활동;Analytics 보고서 세트;보고서 세트;Analytics Target 통합;보고서 세트 구성
+keywords: A4T;Adobe Analytics;;분석 기반 활동;분석 보고서 세트;보고서 세트;분석 Target 통합;보고서 세트 구성;at.js;atjs;adobe experience platform web sdk;aep web sdk;platform web sdk
 description: Analytics for [!DNL Target] (A4T) in your Adobe [!DNL Target]  및 Adobe Analytics 솔루션을 구현하는 데 필요한 단계를 수행합니다.
 title: ' [!DNL Target] (A4T)에 대한 Analytics를 구현하려면 어떻게 합니까?'
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: efa796edf3cd4da718fdcb0dbfd3d6f635ebf401
 workflow-type: tm+mt
-source-wordcount: '881'
-ht-degree: 29%
+source-wordcount: '1156'
+ht-degree: 23%
 
 ---
 
 # [!DNL Target] 구현을 위한 분석
 
-[!DNL Adobe Analytics]을(를) [!DNL Adobe Target](A4T)의 보고 소스로 구현할 때에는 몇 가지 단계가 필요합니다.
+[!DNL Adobe Analytics]을(를) [!DNL Adobe Target](A4T)의 보고 소스로 구현할 때에는 몇 가지 단계가 필요합니다. 이 프로세스는 A4T를 [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)로 구현하는지 또는 at.js와 함께 구현하는지에 따라 달라집니다.
 
-## 구현 단계 {#section_73961BAD5BB4430A95E073DE5C026277}
+## Adobe Experience Platform 웹 SDK 구현을 위한 구현 단계 {#platform}
 
-다음 섹션에서는 이 통합을 사이트에 배포하는 데 필요한 단계에 대해 설명합니다.
+>[!NOTE]
+>
+>이 문서에서 설명한 [!DNL Adobe Experience Platform Web SDK] 구현의 A4T 지원은 [!DNL Platform Web SDK] 버전 2.5.0 릴리스(2021년 5월 24일)와 함께 사용할 수 있게 될 예정입니다.
 
-## 1단계: Analytics 및 Target 제공 요청
+다음 섹션에서는 플랫폼 웹 SDK를 사용할 계획인 경우 이 통합을 사이트에 배포하는 데 필요한 단계에 대해 설명합니다.
+
+### 1단계:[!DNL Analytics] 및 [!DNL Target]에 대한 프로비저닝 요청
+
+A4T를 구현하기 전에 [!DNL Analytics] 및 [!DNL Target]에 대한 프로비저닝을 받아야 합니다. [이 양식을 사용하여 제공을 요청합니다](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES).
+
+### 2단계: 사용자 권한 설정
+
+[!DNL Target]에서 [!DNL Analytics]을(를) 기반으로 활동을 만들려면 사용자 계정 요구 사항을 충족해야 합니다. [사용자 권한 요구 사항](/help/c-integrating-target-with-mac/a4t/account-reqs.md)을 참조하십시오.
+
+### 3단계:Edge 구성 만들기
+
+Edge 구성 도구를 사용하여 [!DNL Adobe Experience Platform Launch]을(를) 사용하여 Edge 구성을 만듭니다. [[!DNL Analytics] and [!DNL Target] 가장자리 구성 설정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)을 구성합니다.
+
+### 4단계:플랫폼 웹 SDK 설치 및 구성
+
+[!DNL Target] 경험 배달을 시작하고 추적 및 분석을 위해 [!DNL Analytics]을 적용하려면 사이트 페이지에서 플랫폼 웹 SDK를 [설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 및 [구성합니다.](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html)
+
+### 5단계:A4T 사용 옵션 활성화
+
+[!DNL Target] UI에서 **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]**&#x200B;를 클릭한 다음 **[!UICONTROL 활동당 선택]** 또는 **[!UICONTROL Adobe Analytics]**&#x200B;을 선택합니다.
+
+* **[!UICONTROL 활동당]** 을 선택하면  [!DNL Target] 각 활동을 만들  [!DNL Analytics] 때 중에서 선택할 수 있습니다.
+* **[!UICONTROL Adobe]**&#x200B;에서는 만들어지는 모든 활동에 대해 [!DNL Analytics]Analytics를 보고 소스로 설정합니다.
+
+## at.js 구현을 위한 구현 단계{#section_73961BAD5BB4430A95E073DE5C026277}
+
+다음 섹션에서는 at.js를 사용할 계획인 경우 이 통합을 사이트에 배포하는 데 필요한 단계에 대해 설명합니다.
+
+### 1단계: Analytics 및 Target 제공 요청
 
 [!DNL Target]의 보고 소스로 [!DNL Analytics]을(를) 구현한 후에는 [!DNL Analytics] 및 [!DNL Target]에 대한 프로비저닝을 받아야 합니다. [이 양식을 사용하여 제공을 요청합니다](http://www.adobe.com/go/audiences).
 
-## 2단계: 사용자 권한 설정
+### 2단계: 사용자 권한 설정
 
 [!DNL Target]에서 [!DNL Analytics] 기반 활동을 만들려면 사용자 계정 요구 사항을 충족해야 합니다. [사용자 권한 요구 사항](/help/c-integrating-target-with-mac/a4t/account-reqs.md)을 참조하십시오.
 
-## 3단계: Experience Cloud 방문자 ID 서비스 구현
+### 3단계: Experience Cloud 방문자 ID 서비스 구현
 
 방문자 ID 서비스를 통해 [!DNL Adobe Experience Cloud] 솔루션에서 사용자를 식별할 수 있습니다. Experience Cloud 방문자 ID의 필수 버전을 구현하거나 이 버전으로 마이그레이션합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
 *Experience Cloud 방문자 ID 서비스* 설명서의 [Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html)에 대한 Experience Cloud ID 서비스 구현을 참조하십시오.
 
-## 4단계: AppMeasurement for JavaScript 또는 s_code의 AppMeasurement 업데이트
+### 4단계: AppMeasurement for JavaScript 또는 s_code의 AppMeasurement 업데이트
 
 필수 버전의 appMeasurement.js를 구현하거나 마이그레이션합니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
@@ -42,19 +72,19 @@ ht-degree: 29%
 
 마이그레이션에 대해서는 *Analytics 구현 안내서*&#x200B;에서 [JavaScript용 AppMeasurement](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html)로 마이그레이션을 참조하십시오.
 
-## 5단계:at.js 다운로드 및 업데이트
+### 5단계:at.js 다운로드 및 업데이트
 
 프로덕션 계정을 사용하여 필요한 버전의 at.js를 구현하거나 마이그레이션합니다. 이 코드를 수정할 필요가 없습니다.
 
 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
-## 6단계:at.js 호스팅
+### 6단계:at.js 호스팅
 
 이전에 at.js를 배포한 경우 기존 파일을 업데이트된 버전으로 바꿀 수 있습니다. 자세한 내용은 [구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md)의 &quot;구현 요구 사항&quot;을 참조하십시오.
 
 그렇지 않으면, JavaScript 파일용 AppMeasurement 및 방문자 ID 서비스와 함께 이 파일을 호스트할 수 있습니다. 이러한 파일은 사이트의 모든 페이지에서 액세스할 수 있는 웹 서버에 호스트되어야 합니다. 다음 단계에서 이 파일에 대한 경로가 필요합니다.
 
-## 7단계:모든 사이트 페이지 {#step7}의 at.js 참조
+### 7단계:모든 사이트 페이지의 at.js 참조 {#step7}
 
 각 페이지의 태그에 다음 코드 행을 추가하여 VisitorAPI.js 아래에 at.js를 포함하십시오.
 
@@ -150,21 +180,25 @@ adobe.target.getOffers({
 
 페이로드를 [데이터 삽입 API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)를 통해 [!DNL Analytics]에 전달할 수 있습니다.
 
-## 8단계: 구현의 유효성 검사 {#step8}
+### 8단계: 구현의 유효성 검사 {#step8}
 
 JavaScript 라이브러리를 업데이트한 후 페이지를 로드하여 호출의 `mboxMCSDID`[!DNL Target] 매개 변수 값이 page-view 호출의 `sdid`[!DNL Analytics] 매개 변수 값과 일치하는지 확인하십시오.
 
 호출 순서를 항상 예측할 수 없는 단일 페이지 애플리케이션(SPA)에서 이러한 값이 일치하는지 확인하는 것이 특히 중요합니다.
 
-**참고:** A4T가 올바르게 작동하려면 이러한 값의 일치가 필요합니다.
+>[!NOTE]
+>
+>A4T가 올바르게 작동하려면 이러한 값의 일치가 필요합니다.
 
-## 9단계: (선택 사항) 이전 통합 코드 제거
+### 9단계: (선택 사항) 이전 통합 코드 제거
 
 Adobe에서는 구현을 간소화하고 시스템 간의 불일치를 정렬할 필요가 없도록 이전 통합을 제거하는 것이 좋습니다. 이전 SC에 배포한 모든 코드를 T&amp;T 통합으로 제거할 수 있습니다(예: `mboxLoadSCPlugin`).
 
-## 10단계: Analytics를 Target의 보고 소스로 사용하기 위한 선택 사항 활성화
+### 10단계: Analytics를 Target의 보고 소스로 사용하기 위한 선택 사항 활성화
 
 [!DNL Target]에서 **[!UICONTROL 관리 > Visual Experience Composer]**&#x200B;를 클릭하고 **[!UICONTROL 활동당 선택]** 또는 **[!UICONTROL Adobe Analytics]**&#x200B;을 선택하여 옵션을 활성화합니다.
 
 * **[!UICONTROL 활동당]** 을 선택하면  [!DNL Target] 각 활동을 만들  [!DNL Analytics] 때 중에서 선택할 수 있습니다.
 * **[!UICONTROL Adobe]**&#x200B;에서는 만들어지는 모든 활동에 대해 [!DNL Analytics]Analytics를 보고 소스로 설정합니다.
+
+
