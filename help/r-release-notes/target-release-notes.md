@@ -4,7 +4,7 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7eb44049a954f1f18c1e4a52d455d352d0fcfdf0
+source-git-commit: 031512e205fc26dd51ad5d586d8a68bbe0a26484
 workflow-type: tm+mt
 source-wordcount: '413'
 ht-degree: 60%
@@ -38,7 +38,7 @@ ht-degree: 60%
 
 [!DNL Platform Web SDK]의 이번 릴리스에는 [!DNL Target] 리디렉션에 대한 [!UICONTROL Target](A4T)에 대한 분석이 포함됩니다.
 
-## [!DNL Target Standard/Premium] 21.5.1(2021년 5월 25일)
+## [!DNL Target Standard/Premium] 21.5.1(2021년 6월 8일)
 
 릴리스 날짜가 다가오면 컨텐츠가 추가됩니다.
 
