@@ -1,14 +1,13 @@
 ---
 keywords: 알림;스킬 빌더;개발자 채팅;coffee break;이벤트;forrester;gartner;웨비나
-description: 공지 사항을 읽고 기술 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 비롯한 Adobe [!DNL Target] 이벤트에 등록합니다.
-title: ' [!DNL Target] 공지 및 이벤트는 어디에서 찾을 수 있습니까?'
+description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 포함한 Adobe  [!DNL Target]  이벤트에 등록하십시오.
+title: ' [!DNL Target]  알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: 릴리스 정보
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: c9fcd9c2806c9af5b6a64170d89585fe4036059e
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 76%
+source-wordcount: '536'
+ht-degree: 100%
 
 ---
 
@@ -25,20 +24,6 @@ Adobe Target은 최근 Forrester와 Gartner에서 모두 시장 리더로 인정
 | Forrester | **Adobe는 경험 최적화 플랫폼을 위한 Forrester wave 보고서의 리더로 선정되었습니다.**<br> Adobe는 이 분야의 Adobe 제품인 Adobe Target Premium에 대해 &quot;Forrester Wave: Experience Optimization Platforms, Q4 2020&quot; 보고서에서 유일한 리더로 명명되었습니다. Adobe는 현재 오퍼링 및 시장 참여 범주와 권장 사항 및 플랫폼 경험 기준에서 모든 참여 공급업체 중 가장 높은 점수를 받았습니다. Target Premium 또한 경험 최적화 기술 혁신과 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 보고서는 22개 기준에서 10개의 경험 최적화 플랫폼 제공자에 대한 철저히 평가를 기반으로 한 것입니다.<br>자세한 내용은 [Adobe 블로그](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)를 읽어보십시오. |
 | Gartner | **Adobe는 개인화 엔진을 위한 Gartner Magic Quadrant의 리더로 다시 선정했습니다.**<br> Adobe Target은 제 3회 Gartner Magic Quadrant for Personalization Engines, 2020년 보고서에서 다시 한 번 리더로 선정되었습니다. Gartner Magic Quadrant for Personalization Engines는 비전의 완전성과 실행 능력의 두 가지 범주로 분류되는 15가지 기준에 걸쳐 공급업체를 평가했습니다.<br>[자세한 내용은 Adobe 블로그를 읽어보십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
-
-* 2021년 5월 12일 수요일
-* 오전 8시(GMT-7)
-* 자세한 내용은 [여기를 클릭하십시오](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-5-12-21-8am-pt-shannon/td-p/405341)
-
-[!DNL Adobe Target]의 그룹 제품 관리자인 Shannon Hamilton이 [!DNL Target] 커뮤니티에 로그인하여 그녀의 전문 지식과 관련된 질문에 답변합니다.
-
-* 통합
-* 통합 프로파일
-* AEP(Target Adobe Experience Platform) 통합
-* 다른 Adobe 솔루션과 포인트 통합
-* 핵심 UI 워크플로우
-
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
 그 어느 때보다 마케터, 제품 소유자 및 개발자들은 사이트, 앱, 그리고 고객과 연결되는 모든 곳에서 전체적인 고객 경험을 최적화해야 하는 과제를 안고 있습니다. 데이터 사일로와 복잡한 구현이 포함된 여러 툴을 사용해도 이런 과제가 줄어들지 않습니다.
@@ -47,7 +32,7 @@ Adobe Target은 최근 Forrester와 Gartner에서 모두 시장 리더로 인정
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## 웨비나:HSBC가 Adobe [!DNL Target] 및 AI를 활용하여 개인화를 규모에 맞게 신속하게 최적화하고 전달하는 방법
+## 웨비나: HSBC가 Adobe [!DNL Target]과 AI를 활용하여 규모에 맞게 신속하게 개인화를 최적화하고 제공하는 방법
 
 * **[여기서 웨비나 녹화 보기](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -63,8 +48,8 @@ Adobe 및 HSBC의 다음 웨비나에 가입하십시오.
 
 *McKinsey 문서: “[COVID-19 복구는 디지털 방식](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),” 2020년 5월
 
-## Adobe [!DNL Target] 스킬 빌더:개발자 채팅, Adobe [!DNL Target]의 mbox.js를 at.js {#skill-builder}로 마이그레이션
+## Adobe [!DNL Target] 스킬 빌더: 개발자 채팅, Adobe [!DNL Target]의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
-2021년 3월 31일 mbox.js의 사용 중단 기능으로 Adobe Target 제품 관리자 David Son은 최근 개발자 채팅을 주최하여 mbox.js를 at.js로 마이그레이션함으로써 얻을 수 있는 이점에 대해 논의했습니다.
+2021년 3월 31일에 mbox.js 사용이 중단됨에 따라, Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 진행하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 설명했습니다.
 
 * **[여기서 웨비나 녹화 보기](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
