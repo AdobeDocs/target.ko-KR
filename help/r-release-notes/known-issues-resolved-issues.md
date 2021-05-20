@@ -4,11 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
 workflow-type: tm+mt
-source-wordcount: '4373'
-ht-degree: 98%
+source-wordcount: '4409'
+ht-degree: 99%
 
 ---
 
@@ -24,7 +23,11 @@ ht-degree: 98%
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
 
-### 자동 할당 및 자동 Target 활동에 대한 Adobe Target(A4T) 지표 분석
+### [!UICONTROL 자동 Target] 활동을 보관하면 동기화 문제가 발생할 수 있습니다
+
+비활성 [!UICONTROL 자동 Target] 활동을 보관하려고 하면 동기화 문제가 발생할 수 있습니다. 이 문제가 해결될 때까지 [!UICONTROL 자동 Target] 활동을 보관하지 마십시오. [!UICONTROL 비활성] 상태에 둡니다. (TGT-40885)
+
+### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target(A4T) 분석
 
 [!DNL Target] UI를 통해 사용자는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동의 최적화를 위한 주요 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있습니다. 전환 지표가 지원되며 참여 및 매출 지표는 지원되지 *않습니다*. 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 구축되지 않습니다.
 
@@ -49,7 +52,7 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 * A4T(Analytics for Target)로 구성된 활동에서 리디렉션 오퍼를 사용할 때 제한된 수의 고객이 트래픽 분포에서 높은 차이를 보고했습니다.
 * at.js 구현의 리디렉션 활동으로 인해 미리보기 URL이 루프에 들어가게 됩니다(오퍼가 반복적으로 전달됨). 대신 [QA 모드](/help/c-activities/c-activity-qa/activity-qa.md) 를 사용하여 미리보기와 QA를 수행할 수 있습니다. 이 문제는 오퍼의 실제 전달에는 영향을 주지 않습니다. (TGT-23019)
 
-### VEC(시각적 경험 작성기) 내에서 페이지 로드 취소 {#cancel}
+### VEC(시각적 경험 작성기) 내에서 페이지 로드 취소  {#cancel}
 
 * 리디렉션 URL이 포함된 VEC 내에서 [!UICONTROL A/B 테스트] 또는 XT( [!UICONTROL Experience Targeting] ) 활동 로드를 취소할 때 현재 알려진 다음 문제가 나타납니다.
 
@@ -120,9 +123,9 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 성공 지표가 노출 시마다 증분되도록 설정되면 Target에서는 방문자가 이 성공 지표를 방문할 때마다 방문자를 다시 카운트합니다. 그런 다음 Target은 성공 지표 &quot;멤버십&quot;을 0으로 재설정하여 다음 노출 시 다시 카운트될 수 있도록 합니다. 따라서 해당 지표를 먼저 확인해야 하는 다른 지표가 있다고 해도, Target은 사용자가 첫 번째 지표를 확인했다는 사실을 절대 인식하지 못합니다.
 
-### [!DNL Target]에 대한 분석(A4T)
+### [!DNL Target](A4T)에 대한 Analytics
 
-Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko_KR)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
+Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko-KR)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
 
 현재 모든 Analytics 패키지는 속성 IQ를 사용하여 이 모델을 추가할 수 있습니다. 속성 IQ에 액세스할 수 없는 경우 Reports &amp; Analytics의 A4T 데이터를 사용하십시오.
 
@@ -134,7 +137,7 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
 2020년 5월 10일 Adobe는 GEO 공급자 파일을 업데이트했고, 그로 인해 일부 불일치가 발생했습니다. 예를 들어, 쉼표를 포함하는 일부 값이 추가되었지만 기존 대상에는 쉼표가 없습니다. 모든 Adobe 전달 서버가 이 변경의 영향을 받는 것은 아닙니다. 그 결과, 이러한 값을 사용하는 대상은 2020년 5월 10일에서 7월 22일 사이에 모든 올바른 방문자가 자격을 얻지 못했을 수 있습니다.
 
-### 보고 - 다운로드 가능한 .csv 보고서에 있는 데이터와 [!DNL Target] UI에 표시된 보고서에 대한 데이터가 일치하지 않습니다. {#csv}
+### 보고 - 다운로드 가능한 .csv 보고서의 데이터와 [!DNL Target] UI에 표시된 보고서의 데이터가 일치하지 않습니다. {#csv}
 
 활동이 둘 이상의 지표를 사용하는 경우 .csv 파일로 다운로드하기 위해 생성된 보고서가 일관성이 없습니다. 다운로드 가능한 보고서는 보고서 설정만을 기반으로 생성되며 사용된 다른 지표에 대해 동일한 값을 고려합니다.
 
@@ -150,7 +153,7 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
 이 문제는 Target Standard/Premium 20.10.1 릴리스에서 해결되었습니다.
 
-### Adobe Target(A4T) 보고 분석
+### Adobe Target(A4T) 보고에 대한 Analytics
 
 A4T와 관련된 다음과 같은 문제가 해결되었습니다.
 
@@ -237,7 +240,7 @@ mbox.js 라이브러리는 Handlebars 및 Mustache와 같은 클라이언트 측
 
 at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false` 로 다운로드됩니다. mbox.js를 처음 다운로드하면 global\_mbox\_autocreate가 &quot;true&quot;로 설정되고 at.js도 `global_mbox_autocreate = true`로 다운로드됩니다. (TGT-15929)
 
-### [!DNL Target] API {#api}의 엔터프라이즈 권한 지원
+### [!DNL Target] API의 엔터프라이즈 권한 지원  {#api}
 
 GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러리의 Target UI에서 생성된 코드 오퍼가 기본 작업 영역에 표시될 수 있습니다. 이 문제는 2019년 3월 첫 주에 수정됩니다. 이 수정 사항이 적용되면 API에서 가져올 때 코드 오퍼가 적합한 작업 영역에 표시됩니다. 이 문제는 API에서 만든 오퍼에 영향을 주지 *않습니다*. 예를 들어 API에서 생성된 코드 오퍼는 GET API를 사용하여 가져오든 아니면 Target UI 내에서 가져오든 간에 생성될 때 작업 영역에 표시됩니다.
 
@@ -348,7 +351,7 @@ Firefox 및 Internet Explorer에서 코드 편집기로 작업하는 동안 3단
 
 이 문제는 at.js 버전 1.2에서 해결되었습니다.
 
-### [!DNL Target] Premium에 대한 Enterprise 사용자 권한
+### [!DNL Target] Premium에 대한 엔터프라이즈 사용자 권한
 
 엔터프라이즈 권한 마이그레이션의 일부로, 모든 Target Premium 사용자 관리가 Adobe Target UI에서 Adobe Admin Console로 이동되었습니다.
 
@@ -439,7 +442,7 @@ Target 17.3.1 릴리스(2017년 3월 30일)에서 수정되었습니다.
 
 Recommendations 17.2.2.0 릴리스(2017년 3월 6일)에서 수정되었습니다.
 
-### Adobe Target(A4T) 보고 분석
+### Adobe Target(A4T) 보고에 대한 Analytics
 
 보고 지표가 전환되면 보고서가 업데이트되지 않습니다. 이 문제는 UI에만 영향을 줍니다. 보고 데이터 수집 또는 전달에는 영향을 미치지 않습니다. (TGT-22970)
 
