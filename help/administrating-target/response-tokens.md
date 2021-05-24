@@ -5,10 +5,10 @@ title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 29%
+source-wordcount: '1551'
+ht-degree: 28%
 
 ---
 
@@ -263,58 +263,6 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
   }); 
  
   function isEmpty(val) { 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
-</script>
-```
-
-## 디버깅(ttMeta 플러그인과 유사) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
-
-디버깅 목적의 ttMeta 플러그인과 동등한 기능은 HTML 페이지에 다음 코드를 추가하여 만들 수 있습니다.
-
-```javascript
-<script type="text/javascript" > 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
-    window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
- 
-    var tokens=e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
-     
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      window.ttMETA.push({ 
-        'CampaignName': token["activity.name"], 
-        'CampaignId' : token["activity.id"], 
-        'RecipeName': token["experience.name"], 
-        'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
-        'MboxName': e.detail.mbox}); 
-      console.log(ttMETA); 
-    }); 
-  }); 
- 
-  function isEmpty(val){ 
     return (val === undefined || val == null || val.length <= 0) ? true : false; 
   } 
  
