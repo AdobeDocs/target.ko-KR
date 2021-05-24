@@ -5,10 +5,10 @@ title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 28%
+source-wordcount: '1556'
+ht-degree: 27%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->응답 토큰은 [!DNL Adobe Experience Platform Web SDK] 버전 2.5.0 이상(2021년 5월 24일에 릴리스 예정) 및 at.js 버전 1.1 이상에서 사용할 수 있습니다.
+>응답 토큰은 [!DNL Adobe Experience Platform Web SDK] 버전 2.5.0 이상(2021년 6월 1일에 릴리스됨)과 at.js 버전 1.1 이상에서 사용할 수 있습니다.
 
 | Target SDK | 제안된 작업 |
 |--- |--- |
@@ -212,13 +212,13 @@ ht-degree: 28%
 
 [!DNL Target] 정기적으로 속성 새로 고침을 수행합니다. 전환되지 않은 속성은 다음 새로 고침 중에 제거됩니다. 그러나 이 설정되고 제거된 속성이 있는 경우 이 스크립트를 해제하기 전까지 해당 스크립트가 속성 목록에서 제거되지 않습니다. 예를 들어 토큰으로 사용된 프로필 스크립트를 제거했습니다. [!DNL Target] 가 삭제되거나 이름이 바뀐 경우 목록에서 전환된 속성만 제거합니다.
 
-## Platform Web SDK를 통해 Google Analytics에게 데이터 보내기
+## ![AEP ](/help/assets/platform.png) 배지: Platform Web SDK를 통해 Google Analytics에 데이터 보내기
 
 Google Analytics은 HTML 페이지에 다음 코드를 추가하여 Platform Web SDK 버전 2.5.0 이상을 통해 데이터를 전송할 수 있습니다.
 
 (코드 입력)
 
-## at.js를 통해 Google Analytics에 데이터 보내기 {#section_04AA830826D94D4EBEC741B7C4F86156}
+## ![at.js ](/help/assets/atjs.png) 배지: at.js를 통해 Google Analytics에 데이터 보내기 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리틱스에 데이터를 전송할 수 있습니다.
 
@@ -288,7 +288,7 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 
 다음 섹션에서는 디버깅 응답 토큰에 대한 정보를 제공합니다.
 
-### Google Analytics 및 디버깅
+### ![at.js ](/help/assets/atjs.png) 배지Google Analytics 및 디버깅
 
 다음 코드를 사용하면 Google Analytics을 사용하여 디버깅할 수 있습니다.
 
@@ -405,7 +405,7 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 </script>
 ```
 
-## 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 ![튜토리얼 배지](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.](/help/assets/atjs.png) js 교육 비디오:응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 다음 비디오에서는 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 [!DNL Target]에서 타사 시스템으로 프로필 정보를 공유하는 방법을 설명합니다.
 
