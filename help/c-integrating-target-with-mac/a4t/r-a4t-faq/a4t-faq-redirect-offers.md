@@ -4,7 +4,7 @@ description: Analytics for [!DNL Target] (A4T). A4T lets you use Analytics repor
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1361'
 ht-degree: 62%
@@ -112,7 +112,7 @@ Adobe은 IT 팀에 얘기해서 `adobe_mc_ref` 및 `adobe_mc_sdid` 이 값이 �
 
 >[!NOTE]
 >
->이 문서에 설명된 [!DNL Adobe Experience Platform Web SDK] 구현의 A4T 지원은 [!DNL Platform Web SDK] 버전 2.5.0 릴리스(2021년 5월 24일)에서 사용할 수 있습니다.
+>이 문서에 설명된 [!DNL Adobe Experience Platform Web SDK] 구현의 A4T 지원은 [!DNL Platform Web SDK] 버전 2.5.0 릴리스(2021년 6월 1일)에서 사용할 수 있습니다.
 
 ### Analytics for Target(A4T)에서 리디렉션 오퍼를 지원합니까?
 
