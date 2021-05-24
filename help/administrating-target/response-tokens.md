@@ -5,10 +5,10 @@ title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: bc72070470be18c842dede61ecbc2f06ac00c0d1
 workflow-type: tm+mt
-source-wordcount: '1556'
-ht-degree: 27%
+source-wordcount: '1601'
+ht-degree: 26%
 
 ---
 
@@ -76,7 +76,11 @@ ht-degree: 27%
 
 1. 활동을 만듭니다.
 
-## ![Handle 개체 클래스](/help/assets/platform.png) [!DNL Platform Web SDK] 를 사용하는 Adobe Experience Platform Web SDK 배지
+## 응답 수신 및 응답 토큰 읽기
+
+[!DNL Target] 응답을 수신하는 데 사용하는 프로세스와 응답 토큰 읽기 프로세스는 [!DNL Platform Web SDK] 구현이 있는지 여부에 따라 다릅니다.
+
+### ![Handle 개체 클래스](/help/assets/platform.png) [!DNL Platform Web SDK] 를 사용하는 Adobe Experience Platform Web SDK 배지
 
 메타데이터 개체와 데이터 개체가 있는 Handle 개체 클래스를 사용하여 [!DNL Target] 응답을 수신하고 응답 토큰을 읽습니다.
 
@@ -143,7 +147,7 @@ ht-degree: 27%
 | 메타 | 페이지에 전달되는 메타데이터. |
 | 데이터 | 페이지에 전달된 메타 데이터 값입니다. |
 
-## ![사용자 지정 ](/help/assets/atjs.png) 이벤트를 사용하는 at.js badgeat.js
+### ![사용자 지정 ](/help/assets/atjs.png) 이벤트를 사용하는 at.js badgeat.js
 
 [at.js 사용자 지정 이벤트](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)를 사용하여 응답을 수신하고 응답 토큰을 읽습니다.[!DNL Target]
 
@@ -212,13 +216,17 @@ ht-degree: 27%
 
 [!DNL Target] 정기적으로 속성 새로 고침을 수행합니다. 전환되지 않은 속성은 다음 새로 고침 중에 제거됩니다. 그러나 이 설정되고 제거된 속성이 있는 경우 이 스크립트를 해제하기 전까지 해당 스크립트가 속성 목록에서 제거되지 않습니다. 예를 들어 토큰으로 사용된 프로필 스크립트를 제거했습니다. [!DNL Target] 가 삭제되거나 이름이 바뀐 경우 목록에서 전환된 속성만 제거합니다.
 
-## ![AEP ](/help/assets/platform.png) 배지: Platform Web SDK를 통해 Google Analytics에 데이터 보내기
+## Google Analytics으로 데이터 보내기
+
+다음 섹션에서는 [!DNL Target] 데이터를 Google Analytics에게 전송하는 방법에 대해 설명합니다.
+
+### ![AEP ](/help/assets/platform.png) 배지: Platform Web SDK를 통해 Google Analytics에 데이터 보내기
 
 Google Analytics은 HTML 페이지에 다음 코드를 추가하여 Platform Web SDK 버전 2.5.0 이상을 통해 데이터를 전송할 수 있습니다.
 
 (코드 입력)
 
-## ![at.js ](/help/assets/atjs.png) 배지: at.js를 통해 Google Analytics에 데이터 보내기 {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js ](/help/assets/atjs.png) 배지: at.js를 통해 Google Analytics에 데이터 보내기 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리틱스에 데이터를 전송할 수 있습니다.
 
