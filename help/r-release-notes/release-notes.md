@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 95%
+source-wordcount: '639'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 >
 >**mbox.js 서비스 종료**: 2021년 3월 31일부터 [!DNL Adobe Target] 에서는 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2021년 3월 31일 이후, mbox.js로부터의 모든 호출은 정상적으로 실패하고 기본 콘텐츠를 제공하여 [!DNL Target] 활동이 실행되는 페이지에 영향을 미칩니다.
 >
->이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하여 사이트에 문제가 발생하지 않도록 하십시오. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
+>사이트에서 발생할 수 있는 문제를 방지하기 위해 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하십시오. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
@@ -30,7 +30,7 @@ ht-degree: 95%
 * at.js에 대한 [온디바이스 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 지원
 * 자동화된 개인화 활동에 대한 [링크 미리보기](/help/c-activities/c-activity-qa/activity-qa.md) 지원
 
-또한 이 릴리스에서는 Microsoft Internet Explorer 10, Internet Explorer 11 및 모든 이전 버전에 대한 지원이 제거되었습니다. Microsoft Edge는 at.js 2.5.0 이상에서 계속 지원됩니다.
+또한 Microsoft Internet Explorer 10, Internet Explorer 11 및 모든 이전 버전에 대한 지원도 제거됩니다. Microsoft Edge는 at.js 2.5.0 이상에서 계속 지원됩니다.
 
 ## Target Standard/Premium 21.4.1(2021년 4월 19일)
 
