@@ -1,13 +1,13 @@
 ---
 keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답
-description: '디버깅 및 타사 시스템(예: Clicktale)과의 통합에 사용하기 위해 Adobe [!DNL Target] 출력 관련 정보에 응답 토큰을 사용하는 방법을 알아봅니다.'
+description: Adobe [!DNL Target] 출력 관련 정보에서 응답 토큰을 사용하여 디버깅을 사용하고 타사 도구와 통합하는 방법을 알아봅니다.
 title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
+source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
 workflow-type: tm+mt
-source-wordcount: '1622'
+source-wordcount: '1628'
 ht-degree: 26%
 
 ---
@@ -22,16 +22,16 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->응답 토큰은 [!DNL Adobe Experience Platform Web SDK] 버전 2.5.0 이상(2021년 6월 1일에 릴리스됨)과 at.js 버전 1.1 이상에서 사용할 수 있습니다.
+>응답 토큰은 [!DNL Adobe Experience Platform Web SDK] 버전 2.6.0 이상(2021년 6월 1일에 릴리스됨)과 at.js 버전 1.1 이상에서 사용할 수 있습니다.
 
 | Target SDK | 제안된 작업 |
 |--- |--- |
-| [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Platform Web SDK 버전 2.5.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK를 다운로드하는 방법에 대한 자세한 내용은 *Platform Web SDK 개요* 안내서의 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)를 참조하십시오. 각 Platform Web SDK 버전의 새로운 기능에 대한 내용은 *Platform Web SDK 개요* 안내서의 [릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)를 참조하십시오. |
+| [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK를 다운로드하는 방법에 대한 자세한 내용은 *Platform Web SDK 개요* 안내서의 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)를 참조하십시오. 각 Platform Web SDK 버전의 새로운 기능에 대한 내용은 *Platform Web SDK 개요* 안내서의 [릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)를 참조하십시오. |
 | [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 [at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js에는 존재하지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인이 전달되지만 실패합니다. 자세한 내용은 [at.js 제한 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)을 참조하십시오. |
 
 ## 응답 토큰 사용 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
-1. Platform Web SDK 버전 2.5.0 이상 또는 at.js 버전 1.1 이상을 사용 중인지 확인하십시오.
+1. Platform Web SDK 버전 2.6.0 이상 또는 at.js 버전 1.1 이상을 사용 중인지 확인하십시오.
 
    자세한 내용을 확인하십시오:
 
@@ -176,7 +176,7 @@ ht-degree: 26%
 
 응답 토큰은 [!DNL Target] [!UICONTROL 관리자] 역할을 가진 사용자만 활성화하거나 비활성화할 수 있습니다.
 
-**[!DNL Platform Web SDK] 2.5.0(또는 이전 버전)을 실행 중이면 어떻게 됩니까?
+**[!DNL Platform Web SDK] 2.6.0(또는 이전 버전)을 실행 중이면 어떻게 됩니까?
 
 응답 토큰에 액세스할 수 없습니다.
 
@@ -222,9 +222,60 @@ ht-degree: 26%
 
 ### ![AEP ](/help/assets/platform.png) 배지: Platform Web SDK를 통해 Google Analytics에 데이터 보내기
 
-Google Analytics은 HTML 페이지에 다음 코드를 추가하여 Platform Web SDK 버전 2.5.0 이상을 통해 데이터를 전송할 수 있습니다.
+Google Analytics은 HTML 페이지에 다음 코드를 추가하여 Platform Web SDK 버전 2.6.0 이상을 통해 데이터를 전송할 수 있습니다.
 
-(코드 입력)
+>[!NOTE]
+>
+>응답 토큰 키 값 쌍이 `alloy(“sendEvent”` 개체 아래에 있는지 확인하십시오.
+
+```
+<script type="text/javascript"> 
+   (function(i, s, o, g, r, a, m) { 
+   i['GoogleAnalyticsObject'] = r; 
+   i[r] = i[r] || function() { 
+   (i[r].q = i[r].q || []).push(arguments) 
+   }, i[r].l = 1 * new Date(); 
+   
+   
+   a = s.createElement(o), 
+   m = s.getElementsByTagName(o)[0]; 
+   a.async = 1; 
+   a.src = g; 
+   m.parentNode.insertBefore(a, m) 
+   })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga'); 
+   ga('create', 'Google Client Id', 'auto'); 
+</script> 
+<script type="text/javascript">
+   alloy("sendEvent", {
+   
+   
+   })
+   .then(({ renderedPropositions, nonRenderedPropositions }) => {
+   // concatenate all the propositions
+   const propositions = [...renderedPropositions, ...nonRenderedPropositions];
+   // extractResponseTokens() extract the meta from item -> meta
+   const tokens = extractResponseTokens(propositions);
+   const activityNames = []; 
+   const experienceNames = []; 
+   const uniqueTokens = distinct(tokens); 
+   
+   
+   uniqueTokens.forEach(token => { 
+   activityNames.push(token["activity.name"]); 
+   experienceNames.push(token["experience.name"]); 
+   }); 
+   
+   
+   ga('send', 'event', { 
+   eventCategory: "target", 
+   eventAction: experienceNames, 
+   eventLabel: activityNames 
+   }); 
+   
+   
+   });
+</script>
+```
 
 ### ![at.js ](/help/assets/atjs.png) 배지: at.js를 통해 Google Analytics에 데이터 보내기 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
