@@ -5,10 +5,10 @@ title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
+source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 27%
+source-wordcount: '1622'
+ht-degree: 26%
 
 ---
 
@@ -84,7 +84,14 @@ ht-degree: 27%
 
 메타데이터 개체와 데이터 개체가 있는 Handle 개체 클래스를 사용하여 [!DNL Target] 응답을 수신하고 응답 토큰을 읽습니다.
 
-다음 코드 샘플은 [!DNL Platform Web SDK] 사용자 지정 이벤트 핸들러를 HTML 페이지에 바로 추가합니다.
+다음 응답 예제에서는 [!DNL Platform Web SDK] 사용자 지정 이벤트 핸들러를 HTML 페이지에 직접 추가합니다. 이 표에서는 코드에 사용된 개체에 대해 설명합니다.
+
+| 개체 | 정보 |
+| --- | --- |
+| 유형 - Personalization.decision | [!DNL Target] 또는 Offer decisioning 공급자가 결정을 했는지 여부. |
+| 의사 결정 공급자 - TGT | TGT-[!DNL Target]. [!DNL Target] 페이지에 응답 토큰 메타데이터 및 값을 제공합니다. |
+| 메타 | 페이지에 전달되는 메타데이터입니다. |
+| 데이터 | 페이지에 전달된 메타데이터의 값입니다. |
 
 ```html
 <html>
@@ -139,13 +146,6 @@ ht-degree: 27%
 
 </html>
 ```
-
-| 개체 | 정보 |
-| --- | --- |
-| 유형 - Personalization.decision | [!DNL Target] 그리고 Offer decisioning 데이터가 여기에 전달됩니다. |
-| 의사 결정 공급자 - TGT | TGT-[!DNL Target]. [!DNL Target] 페이지에 응답 토큰 메타데이터 및 값을 제공합니다. |
-| 메타 | 페이지에 전달되는 메타데이터. |
-| 데이터 | 페이지에 전달된 메타 데이터 값입니다. |
 
 ### ![사용자 지정 ](/help/assets/atjs.png) 이벤트를 사용하는 at.js badgeat.js
 
@@ -218,7 +218,7 @@ ht-degree: 27%
 
 ## Google Analytics으로 데이터 보내기
 
-다음 섹션에서는 [!DNL Target] 데이터를 Google Analytics에게 전송하는 방법에 대해 설명합니다.
+다음 섹션에서는 [!DNL Target] 데이터를 Google Analytics에게 전송하는 방법에 대해 설명합니다. 응답 토큰으로 전송된 데이터는 다른 타사 통합에도 전송될 수 있습니다.
 
 ### ![AEP ](/help/assets/platform.png) 배지: Platform Web SDK를 통해 Google Analytics에 데이터 보내기
 
