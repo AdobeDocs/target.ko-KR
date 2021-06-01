@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '1257'
-ht-degree: 77%
+source-wordcount: '1288'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 77%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 1일 | [CNAME 및 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 다음 FAQ가 추가되었습니다.<ul><li>CNAME이 있는 옵트아웃 링크를 사용하는 방법</li></ul> |
+|  | [개인정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | CNAME에 옵트아웃 링크를 사용하는 방법을 설명하도록 &quot;옵트아웃 링크&quot; 섹션이 업데이트되었습니다. |
 | 5월 27일 | [제한](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] API 호출에 대한 섹션이 추가되었습니다. 제한은 분당 50통화입니다. |
 | 5월 20일 | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adobe 기술 블로그에 다음 블로그 게시물에 대한 링크를 추가했습니다.<ul><li>Adobe 기술 블로그 - 2부:에지 플랫폼에서 실험 및 개인화를 위해 [!DNL Adobe Target] NodeJS SDK를 실행합니다(AWS Lambda@Edge)</li></ul> |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다. &quot;자동 Target] 활동을 보관하면 동기화 문제가 발생할 수 있습니다.&quot;[!UICONTROL  |
