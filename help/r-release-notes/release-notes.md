@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '639'
-ht-degree: 92%
+source-wordcount: '701'
+ht-degree: 84%
 
 ---
 
@@ -22,6 +22,15 @@ ht-degree: 92%
 >사이트에서 발생할 수 있는 문제를 방지하기 위해 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하십시오. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
+
+## ![Adobe Experience Platform 웹 SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 버전 2.6.0(2021년 6월 1일)
+
+이 [!DNL Platform Web SDK] 릴리스에는 다음에 대한 지원이 포함되어 있습니다.
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| [!UICONTROL Analytics for Target](A4T)로 리디렉션 지원 | 이제 Platform Web SDK는 [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md)를 사용할 때 [!DNL Target] 리디렉션을 지원합니다.<br>자세한 내용은  [Analytics 구현  [!DNL Target] 을 참조하십시오](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
+| 응답 토큰 | 이제 Platform Web SDK에서 [!DNL Target] 응답 토큰을 지원합니다.<br>자세한 내용은  [응답 토큰](/help/administrating-target/response-tokens.md)을 참조하십시오 . |
 
 ## at.js 버전 2.5.0(2021년 5월 13일)
 
