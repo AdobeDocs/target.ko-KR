@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
 workflow-type: tm+mt
-source-wordcount: '1334'
-ht-degree: 74%
+source-wordcount: '1349'
+ht-degree: 73%
 
 ---
 
@@ -25,6 +25,7 @@ ht-degree: 74%
 |  | [Analytics  [!DNL Target] for 구현](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform Web SDK] 구현을 위한 구현 단계</li></ul> |
 |  | [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform)를 참조하십시오 | A4T 및 Platform Web SDK에서 리디렉션 오퍼 사용에 대한 정보가 추가되었습니다. |
 |  | [응답 토큰](/help/administrating-target/response-tokens.md) | [!DNL Adobe Experience Platform Web SDK]과 함께 응답 토큰 사용에 대한 정보가 추가되었습니다. |
+|  | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Adobe Experience Platform 웹 SDK 2.6.0(2021년 6월 1일) 릴리스에 대한 정보가 추가되었습니다. |
 | 5월 27일 | [제한](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] API 호출에 대한 섹션이 추가되었습니다. 제한은 분당 50통화입니다. |
 | 5월 20일 | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Adobe 기술 블로그에 다음 블로그 게시물에 대한 링크를 추가했습니다.<ul><li>Adobe 기술 블로그 - 2부:에지 플랫폼에서 실험 및 개인화를 위해 [!DNL Adobe Target] NodeJS SDK를 실행합니다(AWS Lambda@Edge)</li></ul> |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다. &quot;자동 Target] 활동을 보관하면 동기화 문제가 발생할 수 있습니다.&quot;[!UICONTROL  |
