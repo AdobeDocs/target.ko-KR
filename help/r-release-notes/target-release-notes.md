@@ -4,9 +4,9 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '532'
+source-wordcount: '544'
 ht-degree: 43%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 43%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL Analytics for Target](A4T)로 리디렉션 지원 | 이제 Platform Web SDK는 A4T를 사용할 때 [!DNL Target] 리디렉션을 지원합니다. [!DNL Adobe Target]의 리디렉션 오퍼로 인해 브라우저가 새 페이지로 리디렉션됩니다. |
-| 응답 토큰 | 이제 Platform Web SDK에서 [!DNL Target] 응답 토큰을 지원합니다. 응답 토큰을 사용하면 [!DNL Adobe Target]에 관련된 정보를 브랜드의 웹 페이지에 자동으로 출력할 수 있습니다. 이 정보에는 활동, 오퍼, 경험, 사용자 프로필, 지역 정보 등에 대한 세부 사항이 포함될 수 있습니다. 이러한 세부 사항은 내부 또는 타사 시스템과 공유하거나 디버깅에 사용할 추가 응답 데이터를 제공합니다. |
+| [!UICONTROL Analytics for Target](A4T)로 리디렉션 지원 | 이제 Platform Web SDK는 A4T를 사용할 때 [!DNL Target] 리디렉션을 지원합니다. [!DNL Adobe Target]의 리디렉션 오퍼로 인해 브라우저가 새 페이지로 리디렉션됩니다.<br>자세한 내용은 리디렉션 오퍼 를 참조하십시오. |
+| 응답 토큰 | 이제 Platform Web SDK에서 [!DNL Target] 응답 토큰을 지원합니다.<br> 응답 토큰을 사용하면 브랜드의 웹 페이지 [!DNL Adobe Target] 에 대한 정보를 자동으로 출력할 수 있습니다. 이 정보에는 활동, 오퍼, 경험, 사용자 프로필, 지역 정보 등에 대한 세부 사항이 포함될 수 있습니다. 이러한 세부 사항은 내부 또는 타사 시스템과 공유하거나 디버깅에 사용할 추가 응답 데이터를 제공합니다.<br>자세한 내용은  [응답 토큰](/help/administrating-target/response-tokens.md)을 참조하십시오 . |
 
 ## [!DNL Target Standard/Premium] 21.5.1(2021년 6월 8일)
 
