@@ -5,9 +5,9 @@ title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1624'
 ht-degree: 26%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->응답 토큰은 [!DNL Adobe Experience Platform Web SDK] 버전 2.6.0 이상(2021년 6월 1일에 릴리스됨)과 at.js 버전 1.1 이상에서 사용할 수 있습니다.
+>응답 토큰은 [!DNL Adobe Experience Platform Web SDK] 버전 2.6.0 이상 및 at.js 버전 1.1 이상에서 사용할 수 있습니다.
 
 | Target SDK | 제안된 작업 |
 |--- |--- |
