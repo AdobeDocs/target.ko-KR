@@ -5,14 +5,14 @@ title: Target에서 CNAME을 어떻게 사용합니까?
 feature: 개인 정보 및 보안
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 0327f4450ad7b764b01091a106e3dfd3160ffbaf
+source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
 workflow-type: tm+mt
-source-wordcount: '1192'
-ht-degree: 2%
+source-wordcount: '1191'
+ht-degree: 1%
 
 ---
 
-# CNAME 및 Adobe Target
+# CNAME 및 Target
 
 [!DNL Adobe] Client Care에서 [!DNL Adobe Target]에 CNAME(정식 이름) 지원을 구현하기 위한 지침입니다. CNAME을 사용하여 광고 차단 문제 또는 ITP 관련(Intelligent Tracking Prevention) 쿠키 정책을 처리합니다. CNAME에서 호출은 [!DNL Adobe]이 소유한 도메인이 아니라 고객이 소유한 도메인을 호출합니다.
 
