@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 73%
+source-wordcount: '1374'
+ht-degree: 72%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 73%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 3일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 2021년 6월 9일 수요일 오전 8시에 열리는 Adobe Target 커뮤니티 Q&amp;A 커피브레이크에 대한 정보가 추가되었습니다.(PDT, GMT-7). |
 | 6월 1일 | [CNAME 및 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 다음 FAQ가 추가되었습니다.<ul><li>CNAME이 있는 옵트아웃 링크를 사용하는 방법</li></ul> |
 |  | [개인정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | CNAME에 옵트아웃 링크를 사용하는 방법을 설명하도록 &quot;옵트아웃 링크&quot; 섹션이 업데이트되었습니다. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Experience Platform Web SDK]에 대한 정보가 추가되었습니다. |
