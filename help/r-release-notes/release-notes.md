@@ -4,7 +4,7 @@ description: SDK, API 및 JavaScript 라이브러리를 포함한 현재 [!DNL A
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a63b123ed180a818de5338656781957931abd755
+source-git-commit: 8f3df191eb0588a7d40581065e5cc49c9313da7e
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 83%
@@ -23,7 +23,7 @@ ht-degree: 83%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
-## ![Adobe Experience Platform 웹 SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 버전 2.6.0(2021년 6월 1일)
+## ![Adobe Experience Platform 웹 SDK ](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 버전 2.5.0(2021년 6월 1일)
 
 이 [!DNL Platform Web SDK] 릴리스에는 다음에 대한 지원이 포함되어 있습니다.
 
