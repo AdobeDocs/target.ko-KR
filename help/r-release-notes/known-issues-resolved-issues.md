@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '4409'
-ht-degree: 99%
+source-wordcount: '4438'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 99%
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
+
+### [!DNL Adobe Experience Platform] 세그먼트 이름은  [!UICONTROL 중요 속성 보고서에 ] 표시되지 않습니다.
+
+[!DNL Adobe Experience Platform] 세그먼트 이름은  [!UICONTROL Automated Personalization] (AP) 및  [!UICONTROL 자동 Target] (AT) 활동에 대한 중요   속성 보고서에 표시되지 않습니다. (TOP-3813)
 
 ### [!UICONTROL 자동 Target] 활동을 보관하면 동기화 문제가 발생할 수 있습니다
 
