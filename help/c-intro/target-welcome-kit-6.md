@@ -1,14 +1,13 @@
 ---
-keywords: 시작 키트;대상 환영 키트;소개;소개;시작
-description: 테스트 및 개인화 전략의 일부로 Adobe [!DNL Target] 을 사용할 때 동일한 실수를 하지 않도록 다른 사람의 실수를 통해 학습합니다.
-title: ' [!DNL Target] 을 사용할 때 일반적인 실수는 무엇이며, 어떻게 하면 이러한 실수를 피할 수 있습니까?'
+keywords: 시작 키트, 대상 환영 키트, 소개, 소개, 시작
+description: Adobe  [!DNL Target] 을 테스트 및 개인화 전략의 일부로 사용할 때 같은 실수를 하지 않도록 다른 사람의 실수를 통해 배우십시오.
+title: ' [!DNL Target] 을 사용할 때 흔히 저지르는 실수는 무엇이며, 어떻게 피할 수 있습니까?'
 feature: 개요
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 91%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +21,7 @@ ht-degree: 91%
 
 | 위험 | 솔루션 |
 | --- | --- |
-| 트래픽이 부족하여 통계적으로 유의한 결과에 도달할 수 없음. | Adobe Target [표본 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html) 를 사용하여 테스트 실행 시간을 파악한 후 테스트를 실행하여 완료하십시오. |
+| 트래픽이 부족하여 통계적으로 유의한 결과에 도달할 수 없음. | Adobe Target [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 를 사용하여 테스트 실행 시간을 파악한 후 테스트를 실행하여 완료하십시오. |
 | 너무 작거나 눈에 띄지 않는 변경. | 화면으로부터 몇 피트 떨어진 곳에 서 있을 때 볼 수 있도록 변경 내용을 충분히 크게 만드십시오. |
 | 비즈니스 목표에 따라 활동을 조정하지 못함. | 우선 순위 지정 방법론에 대한 집중도를 높이고 해당 방법론을 내부 이해 당사자에게 전달하십시오. |
 | 테스트 백로그가 거의 없거나 없음. | 내부 이해 당사자에게 연락하여 주요 비즈니스 목표에 부합하는 테스트를 제출할 수 있도록 하십시오. |
@@ -30,7 +29,7 @@ ht-degree: 91%
 | 의사 결정에 도움이 되지 않는 활동 성공 지표 데이터 선택. | 모든 기본 테스트 지표를 문서화하고 추가 지표를 포함하여 추가 통찰력을 얻으십시오. |
 | 테스트 중에 결과에 영향을 줄 수 있는 변경 작업을 수행. | 예정된 프로모션 및 사이트 변경 일정을 유지하십시오. 충돌을 피하기 위해 [!DNL Target] 의 활동 시작을 명확히 전달하십시오. |
 | 활동을 시작할 때가 가까워 테스트 경험 또는 기준 변경. | 테스트 활동 프로세스 초기에 주요 이해 당사자에게 승인을 요청하십시오. |
-| 통계적으로 유의한 결과를 얻기 전에 활동을 완료. | Adobe [표본 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html)를 사용하여 테스트 기간을 확인하십시오. |
+| 통계적으로 유의한 결과를 얻기 전에 활동을 완료. | Adobe [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)를 사용하여 테스트 기간을 확인하십시오. |
 | [!DNL Target] 활동으로부터 부정적 또는 평범한 결과를 받음. | 활동이 테스트할 가치가 있는지 확인하십시오. |
 | 우수성이 검증된 경험을 하드 코딩하지 않음. | 활동 데이터를 사용하여 하드 코딩을 위한 승인을 얻으십시오. |
 | 테스트 팀 이외에는 결과를 공유하지 않음. | 런치앤런(Lunch &amp; Learn)을 포함하고 프로그램 대시보드를 개발하며, 이해 당사자 미팅을 예약하도록 커뮤니케이션을 확장하십시오. |
