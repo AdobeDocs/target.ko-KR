@@ -1,14 +1,13 @@
 ---
-keywords: 시작 키트;대상 환영 키트;소개;소개;시작
-description: 테스트 및 개인화 노력의 일환으로 Adobe [!DNL Target] 을(를) 사용하는 방법에 대한 Adobe 전문가 패널의 팁을 확인하십시오.
+keywords: 시작 키트, 대상 환영 키트, 소개, 소개, 시작
+description: 테스트 및 개인화 작업의 일부로 Adobe  [!DNL Target] 을 사용하는 방법에 대한 전문가 패널의 팁을 읽어 보십시오.
 title: Target을 사용하기 위한 팁과 요령은 어디에서 찾을 수 있습니까?
 feature: 개요
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -22,13 +21,13 @@ ht-degree: 98%
 
 예를 들어, 판매 시점 시스템의 구매 데이터를 방문자 프로필과 연결할 수 있습니다. 이렇게 하려면 최대 200개의 오프라인 변수가 있는 CSV 파일을 만들고 파일 업로드를 통해 [!DNL Adobe Experience Cloud] 에 직접 업로드하거나 FTP를 사용하여 정기적으로 파일을 호스트하고 업데이트하도록 예약하면 됩니다. 고객 특성이 [!DNL Adobe Experience Cloud]에 있으면 [!DNL Experience Cloud] 솔루션에 분석, 테스트 및 개인화에 사용할 수 있는 [!DNL Adobe Analytics] 및 [!DNL Target] 등을 매핑할 수 있습니다.
 
-단계별 지침은 [사용자 지정 속성](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=ko_KR) 을 참조하십시오.
+단계별 지침은 [사용자 지정 속성](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html?lang=ko-KR) 을 참조하십시오.
 
 **알아 둘 사항**: [!DNL Target] 은 다양한 기술과 잘 작동하는 개방적이고 독립적인 플랫폼이기 때문에 CRM 또는 구매한 데이터를 다양한 방법으로 추가할 수 있습니다. 즉, 조직에 가장 적합한 방법을 선택할 수 있습니다.
 
 자세한 내용은 [Target으로 데이터를 가져오는 방법](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md) 을 참조하십시오.
 
-## 팁 2:[!DNL Target] 대상과 다른 Adobe Experience Cloud 대상을 혼합하여 보다 심도 있게 개인화할 수 있습니다.
+## 팁 2: [!DNL Target] 대상을 다른 Adobe Experience Cloud 대상과 혼합하여 보다 심층적으로 개인화할 수 있습니다.
 
 다른 [!DNL Adobe Experience Cloud] 솔루션을 이용하는 대상을 혼합하면 고객에 대한 이해도가 훨씬 더 넓어질 뿐만 아니라 보다 심층적으로 개인화할 수 있습니다. 예를 들어, [!DNL Target] 은 실시간 대상 데이터를 제공하지만, [!DNL Adobe Analytics] 는 과거 대상 데이터를 제공합니다. 이 두 가지를 결합하면 고객의 비헤이비어가 일관되고 새로운 비헤이비어에 대해 행동할 기회가 있는 경우를 식별하는 데 도움이 될 수 있습니다. 활동을 생성할 때 &quot;모든 방문자&quot; 옆에 있는 드롭다운 메뉴를 클릭하기만 하면 됩니다. 그런 다음 최대 20명의 대상이 포함된 상자를 선택하고 &quot;여러 대상 결합&quot;을 클릭한 다음 &quot;저장&quot;을 클릭합니다.
 
@@ -36,13 +35,13 @@ ht-degree: 98%
 
 **알아 둘 사항**: [!DNL Adobe Audience Manager] 대상은 [!DNL Target] 에서 자동으로 사용할 수 있습니다. 그러나 [!DNL Adobe Analytics] 대상을 공유하려면 약간의 수동 설정이 필요합니다. [!DNL Analytics]의 대상 구축 프로세스 중에 &quot;Experience Cloud 대상으로 만들기&quot; 상자를 선택하면 됩니다. 그런 다음 [!DNL Target]에서 “Experience Cloud 대상 가져오기”를 클릭합니다.
 
-## 팁 3:[!DNL Target]에서 데이터를 내보내 타사 도구에 사용할 수 있습니다.
+## 팁 3: 제3자 도구에서 사용할 데이터를 [!DNL Target]에서 내보냅니다.
 
-응답 토큰을 사용하면 관리자는 [!DNL Target] 에서 서드파티 도구로 데이터를 쉽게 가져올 수 있습니다. 이 기능은 설문 조사 도구에서 수집된 데이터에 사용자 데이터를 추가하려는 경우에 유용합니다. 예를 들어, 설문 조사에서 한 모집단의 표본이 경험을 &quot;9&quot;로 채점하고 다른 표본이 경험을 &quot;4&quot;로 채점한 경우, 사용자 데이터를 사용하여 누가 경험 A를 보았고 누가 경험 B를 보았는지 확인할 수 있습니다. 응답 토큰을 사용하여 [!DNL Target] 데이터를 내부 데이터 웨어하우스로 내보낼 수도 있습니다. &quot;관리&quot;를 클릭한 다음 원하는 응답 토큰 옆의 스위치를 켜짐 위치로 전환하면 됩니다. 그런 다음 활동을 생성합니다. 그런 다음 데이터를 서드파티 공급업체로 전송할 수 있습니다. [!DNL Target] 에서 디버깅 도구를 사용하여 데이터를 내보내고 있는지 확인할 수 있습니다.
+응답 토큰을 사용하면 관리자는 [!DNL Target] 에서 제3자 도구로 데이터를 쉽게 가져올 수 있습니다. 이 기능은 설문 조사 도구에서 수집된 데이터에 사용자 데이터를 추가하려는 경우에 유용합니다. 예를 들어, 설문 조사에서 한 모집단의 표본이 경험을 &quot;9&quot;로 채점하고 다른 표본이 경험을 &quot;4&quot;로 채점한 경우, 사용자 데이터를 사용하여 누가 경험 A를 보았고 누가 경험 B를 보았는지 확인할 수 있습니다. 응답 토큰을 사용하여 [!DNL Target] 데이터를 내부 데이터 웨어하우스로 내보낼 수도 있습니다. &quot;관리&quot;를 클릭한 다음 원하는 응답 토큰 옆의 스위치를 켜짐 위치로 전환하면 됩니다. 그런 다음 활동을 생성합니다. 그런 다음 데이터를 제3자 공급업체로 전송할 수 있습니다. [!DNL Target] 에서 디버깅 도구를 사용하여 데이터를 내보내고 있는지 확인할 수 있습니다.
 
 단계별 지침은 [응답 토큰](/help/administrating-target/response-tokens.md) 을 참조하십시오.
 
-**유용한 힌트**: 관리자가 서드파티와 연결된 응답 토큰을 활성화하려면 개발자가 해당 서드파티와 파트너십을 설정해야 합니다.
+**유용한 힌트**: 관리자가 제3자와 연결된 응답 토큰을 활성화하려면 개발자가 해당 제3자와 파트너십을 설정해야 합니다.
 
 단계별 지침은 [응답 토큰](/help/administrating-target/response-tokens.md) 을 참조하십시오.
 
@@ -64,7 +63,7 @@ ht-degree: 98%
 
 자세한 내용은 [Enterprise 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md) 을 참조하십시오.
 
-**유용한 힌트**: 사용자를 추가할 때 서드파티 에이전시 직원의 경우와 같이 팀 구성원의 이름이 조직에 이전에 추가되지 않은 경우 이메일 주소와 암호를 입력하면 팀의 작업 영역에 참여할 수 있도록 이메일 초대장이 트리거됩니다.
+**유용한 힌트**: 사용자를 추가할 때 제3자 에이전시 직원의 경우와 같이 팀 구성원의 이름이 조직에 이전에 추가되지 않은 경우 이메일 주소와 암호를 입력하면 팀의 작업 영역에 참여할 수 있도록 이메일 초대장이 트리거됩니다.
 
 Target Standard를 사용 중이십니까? 읽기 전용, 편집자 및 승인자 역할을 가진 사용자에게 [세 가지 수준의 액세스 권한을 할당](/help/administrating-target/c-user-management/c-user-management/user-management.md) 할 수 있습니다!
 
@@ -80,7 +79,7 @@ Target Standard를 사용 중이십니까? 읽기 전용, 편집자 및 승인�
 
 경험 버전을 사용하면 원하는 수의 대상에 대해 변형으로 테스트를 한 번 실행할 수 있습니다. 예를 들어, 세 명의 다른 대상에 대해 각각 테스트를 실행하지 않고도 미국, 영국, 그리고 U.A.E.의 고객을 위한 이미지 및 환율 변동과 함께 무료 배송을 제공하는 배너 광고를 만들 수 있습니다.
 
-단계별 지침은 [A/B 테스트의 여러 경험 대상](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) 및 [Adobe Target의 경험 버전](https://helpx.adobe.com/kr/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) 을 참조하십시오.
+단계별 지침은 [A/B 테스트의 여러 경험 대상](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) 및 [Adobe Target의 경험 버전](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) 을 참조하십시오.
 
 ## 팁 8: 유사한 페이지에 활동 경험을 복제하여 시간을 절약하십시오.
 
@@ -110,7 +109,7 @@ Target Standard를 사용 중이십니까? 읽기 전용, 편집자 및 승인�
 * 페이지의 전환율은 얼마입니까?
 * 테스트가 완료되었다고 자신 있게 말할 수 있으려면 얼마나 오래 테스트를 실행해야 할 것으로 예상하십니까?
 
-**유용한 팁**: Target [표본 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html) 를 사용하여 성공적인 테스트에 필요한 표본 크기를 결정할 수 있습니다.
+**유용한 팁**: Target [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 를 사용하여 성공적인 테스트에 필요한 표본 크기를 결정할 수 있습니다.
 
 ## 팁 12: 더 간단한 테스트를 디자인하여 테스트를 만들고 구현할 수 있도록 하십시오.
 
