@@ -1,18 +1,17 @@
 ---
-keywords: 시작 키트;대상 환영 키트;소개;소개;시작
-description: Adobe [!DNL Target] 에서 처음 활동을 시작하여 투자에 대한 ROI를 확보할 수 있습니다.
+keywords: 시작 키트, 대상 환영 키트, 소개, 소개, 시작
+description: 이제 Adobe  [!DNL Target] 에서의 첫 번째 활동을 시작하여 투자 대비 ROI를 얻을 수 있습니다.
 title: Target에서 내 첫 번째 활동을 만들어야 합니다. 무엇부터 시작합니까?
 feature: 개요
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
-# 7장:첫 번째 [!DNL Target] 활동 만들기 및 실행
+# 7장: 첫 번째 [!DNL Target] 활동 만들기 및 실행
 
 그럼 [!DNL Target]에서 첫 번째 활동을 시작할 준비가 되셨습니까? 훌륭합니다. 웹 사이트, 모바일 사이트 또는 모바일 앱의 활동이 지나치게 복잡하지는 않지만 ROI를 신속하게 제공하고 [!DNL Target] 을 사용하여 테스트 및 개인화할 수 있는 가능성에 대해 알아보겠습니다. 조직과 조직의 포커스에 따라 첫 번째 활동으로 세 가지 경로 중 하나를 이동하는 것을 고려할 수 있습니다.
 
@@ -92,7 +91,7 @@ A/B 테스트 설정 워크플로의 두 번째 단계에서 [자동 타겟](/he
 
 테스트에서 통계적으로 유의한 결론을 도출하려면 일정 수의 방문자를 테스트 모집단에 넣어야 합니다. 생각해 보십시오. 만약 두 사람만 테스트에 참여한다면, 그 결과를 신뢰하겠습니까?
 
-[!DNL Target] 은 통계적 원칙에 의존하여 테스트 결과가 통계적으로 유효하다고 판단합니다. Adobe [표본 크기 계산기](https://docs.adobe.com/content/target-microsite/testcalculator.html) 를 사용하면 결과에 필요한 신뢰도에 따라 테스트 실행 시간을 결정할 수 있습니다. 계산기를 열고 사용하려면 이 상자에서 [!UICONTROL 자세히 알아보기] 링크를 클릭합니다.
+[!DNL Target] 은 통계적 원칙에 의존하여 테스트 결과가 통계적으로 유효하다고 판단합니다. Adobe [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 를 사용하면 결과에 필요한 신뢰도에 따라 테스트 실행 시간을 결정할 수 있습니다. 계산기를 열고 사용하려면 이 상자에서 [!UICONTROL 자세히 알아보기] 링크를 클릭합니다.
 
 ### 이 활동은 얼마나 중요한가?
 
@@ -106,6 +105,6 @@ A/B 테스트 설정 워크플로의 두 번째 단계에서 [자동 타겟](/he
 
 활동 결과는 종종 다음에 수행해야 할 작업에 대한 통찰력을 제공합니다. 경험의 변형이 매우 성공적이었다면 웹 사이트에 하드 코딩하는 것이 좋습니다. 이와 같은 성공을 다른 유사한 페이지에 적용할 수 있는 기회가 나타날 수 있습니다. 결과는 이 페이지의 고객 경험을 개선하기 위해 수행해야 할 더 많은 작업을 가리킬 수 있습니다. 이 영역을 사용하여 활동의 주요 학습을 문서화하고 이러한 학습을 기반으로 수행할 작업을 문서화합니다.
 
-## [!DNL Target]을(를) 열고 활동을 만들고 시작합니다.
+## [!DNL Target]을 열고 활동 만들기 및 시작
 
 Activity Planner를 작성했습니다. 이제 솔루션을 시작하고 활동을 구축해야 할 때입니다. [!DNL Target] 을 사용하면 [!UICONTROL Visual Experience Composer]에서 웹 페이지를 쉽게 수정할 수 있습니다.
