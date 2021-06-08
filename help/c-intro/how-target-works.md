@@ -1,18 +1,17 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;검색 엔진 최적화;검색 엔진 최적화;seo;에지 클러스터, 중앙 클러스터;at.js;mbox.js;
-description: Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript 라이브러리(at.js 및 AEP 웹 SDK), Adobe 데이터 센터 및 SEO 테스트 방법을 알아봅니다.
-title: ' [!DNL Target] 어떻게 작동합니까?'
+description: ' [!DNL Target] works, including information about the [!DNL Target]  JavaScript 라이브러리(at.js 및 AEP Web SDK), Adobe 데이터 센터 및 SEO 테스트에 대한 정보를 포함하여 Adobe Target의 작동 방식에 대해 알아보십시오.'
+title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: 개요
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2563'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
-# Adobe [!DNL Target]의 작동 방식
+# Adobe [!DNL Target] 작동 방식
 
 [!DNL Adobe Experience Platform Web SDK] 및 JavaScript 라이브러리(at.js 및 mbox.js)에 대한 정보를 포함하여 [!DNL Adobe Target] 의 작동 방식을 알아보십시오. 본 문서에서는 [!DNL Target]을 사용하여 작성할 수 있는 다양한 활동 유형도 소개합니다. [!DNL Target] 에지 네트워크, SEO(검색 엔진 최적화) 및 [!DNL Target] 이 봇을 탐지하는 방법에 대해서도 배울 수 있습니다.
 
@@ -28,12 +27,12 @@ ht-degree: 97%
 >
 >모든 고객은 [!DNL AEP Web SDK] 또는 at.js의 최신 버전으로 마이그레이션해야 합니다. 자세한 내용은 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 또는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
 
-사이트의 모든 페이지에서 [!DNL AEP Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ko_KR) 를 사용하여 [!DNL Target]을 구현하는 것을 고려하시오.
+사이트의 모든 페이지에서 [!DNL AEP Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ko-KR) 를 사용하여 [!DNL Target]을 구현하는 것을 고려하시오.
 
 다음 리소스에는 AEP Web SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko_KR#configure-the-aep-web-sdk-extension)
-* [Adobe Experience Platform Launch을  [!DNL Target] 사용한 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko-KR#configure-the-aep-web-sdk-extension)
+* [ [!DNL Target] Adobe Experience Platform Launch를 사용한 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 타겟팅 시스템으로 요청이 전송됩니다. 요청은 방문자에게 제공할 콘텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 발생합니다. 페이지가 로드될 때마다 콘텐츠 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 각 사이트 방문자가 응답하거나, 상호 작용하거나, 궁극적으로는 구매할 가능성이 가장 높은 콘텐츠가 제공됩니다. 개인화된 콘텐츠를 통해 응답률, 확보율 및 매출을 극대화할 수 있습니다.
 
@@ -56,23 +55,23 @@ ht-degree: 97%
 
 ### [!UICONTROL 자동 할당]
 
-[!UICONTROL 자동 할당은 둘 이상의 경험 중 우수성이 검증된 경험을 식별합니다. ] [!UICONTROL 자동 할당은 더 많은 트래픽을 자동으로 우수성이 검증된 경험에 재할당하여 테스트를 계속 실행하고 학습하는 동안 전환을 늘리는 데 도움이 됩니다.]
+[!UICONTROL 자동 할당]은 둘 이상의 경험 중 우수성이 검증된 경험을 식별합니다. [!UICONTROL 자동 할당]은 더 많은 트래픽을 자동으로 우수성이 검증된 경험에 재할당하여 테스트를 계속 실행하고 학습하는 동안 전환을 늘리는 데 도움이 됩니다.
 
 자세한 내용은 [[!UICONTROL 자동 할당]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 을 참조하십시오.
 
-### [!UICONTROL 자동 Target] (AT)
+### [!UICONTROL 자동 타겟](AT)
 
 자동 타겟은 고급 머신 러닝을 사용하여 여러 가지 고성능 마케터 정의 경험 중에서 선택합니다. 자동 타겟은 각 방문자에게 가장 적합한 경험을 제공합니다. 경험 전달은 개별 고객 프로필 및 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 합니다. 자동 타겟을 사용하면 콘텐츠를 개인화하고 전환할 수 있습니다.
 
 자세한 내용은 [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md) 을 참조하십시오.
 
-### 자동화된 개인화(AP)
+### [!UICONTROL 자동화된 개인화](AP)
 
 AP(자동화된 개인화)는 오퍼 또는 메시지를 결합하고 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼를 매칭합니다. 경험 전달은 콘텐츠를 개인화하고 리프트를 구동하기 위한 개별 고객 프로필을 기반으로 합니다.
 
 자세한 내용은 [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 를 참조하십시오.
 
-### 경험 타깃팅(XT)
+### [!UICONTROL 경험 타깃팅](XT)
 
 경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 
@@ -80,7 +79,7 @@ AP(자동화된 개인화)는 오퍼 또는 메시지를 결합하고 고급 머
 
 자세한 내용은 [경험 타겟팅](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) 을 참조하십시오.
 
-### 다변량 테스트(MVT)
+### [!UICONTROL 다변량 테스트](MVT)
 
 다변량 테스트(MVT)는 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. MVT는 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
 
@@ -112,7 +111,7 @@ AP(자동화된 개인화)는 오퍼 또는 메시지를 결합하고 고급 머
 
 단일 위치에서 모든 타겟팅 요청에 응답하는 대신 방문자와 가장 가까운 에지 클러스터에서 요청을 처리합니다. 이 프로세스는 네트워크/인터넷 이동 시간의 영향을 완화하는 데 도움이 됩니다.
 
-![서로 다른 유형의 Target 서버를 보여주는 맵](/help/c-intro/assets/target-servers.png)
+![서로 다른 유형의 Target 서버를 표시하는 맵](/help/c-intro/assets/target-servers.png)
 
 AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 중앙 클러스터는 다음과 같습니다.
 
@@ -180,7 +179,7 @@ Google은 사용자 테스트를 권장합니다. Google은 해당 설명서를 
 
    Adobe는 검색 엔진 지침에 완벽하게 부합할 수 있는 실행 가능한 솔루션을 계속 찾고 있습니다. 테스트를 위해 별도의 URL을 사용해야 하는 클라이언트의 경우, Adobe는 표준 태그의 적절한 구현이 이 접근법과 관련된 위험을 완화한다고 확신합니다.
 
-* **필요한 동안만 실험 실행**: Adobe에서는 &quot;필요한 동안&quot;을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. [!DNL Target] 에서는 테스트가 이 시점에 도달했을 때를 판별하는 [모범 사례](https://docs.adobe.com/content/target-microsite/testcalculator.html) 를 제공합니다. 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
+* **필요한 동안만 실험 실행**: Adobe에서는 &quot;필요한 동안&quot;을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. [!DNL Target] 에서는 테스트가 이 시점에 도달했을 때를 판별하는 [모범 사례](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 를 제공합니다. 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
 
    [!DNL Target] 플랫폼을 사용하여 가장 성과가 좋은 테스트를 &quot;게시&quot;하는 것은 영구적인 솔루션으로 권장되지 않습니다. 100% 시간 동안 사용자의 100%에 대해 가장 성과가 좋은 테스트가 게시되면 가장 성과가 좋은 테스트를 하드 코딩하는 프로세스가 완료되는 동안 이 접근 방식을 사용할 수 있습니다.
 
@@ -198,7 +197,7 @@ Google에서는 한 예로 &quot;사이트의 원본 페이지를 로드한 키�
 
 Adobe는 테스트 변형 내에서 원래 콘텐츠의 의미를 의도하지 않게 변경하기는 어렵다고 느끼고 있습니다. 그러나 페이지의 키워드 테마를 알고 해당 테마를 유지 관리하는 것이 좋습니다. 특히 관련 키워드를 추가하거나 삭제하는 등의 페이지 콘텐츠 변경은 자연 검색에서 URL에 대한 순위 변경을 초래할 수 있습니다. 테스트 프로토콜의 일부로서 SEO 파트너를 이용하는 것이 좋습니다.
 
-## 봇 {#bots}
+## 보트 {#bots}
 
 Adobe [!DNL Target] 은 [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/) 지표 &quot;isRobot&quot;을 사용하여 요청 헤더에 전달된 사용자 에이전트 문자열을 기반으로 알려진 봇을 탐지합니다.
 
@@ -213,6 +212,6 @@ Adobe [!DNL Target] 은 [DeviceAtlas](https://deviceatlas.com/device-data/user-a
 * 방문자 프로필 만들기 또는 검색
 * 모든 프로필 속성 로깅 또는 프로필 스크립트 실행
 * Adobe Audience Manager(AAM) 세그먼트 조회(해당하는 경우)
-* Recommendations, 자동 Target, Automated Personalization 또는 [!UICONTROL 자동 할당] 활동에 대한 맞춤형 컨텐츠를 모델링 및 제공하는 데 보트 트래픽을 사용합니다.
+* 권장 사항, 자동 타겟, 자동화된 개인화 또는 [!UICONTROL 자동 할당] 활동에 대해 개인화된 콘텐츠를 모델링하고 제공하는 데 봇 트래픽을 사용합니다.
 * 보고를 위한 활동 방문 로그
 * [!DNL Adobe Experience Cloud] 플랫폼으로 전송될 로그 데이터
