@@ -4,7 +4,7 @@ description: SDK, API 및 JavaScript 라이브러리를 포함한 현재 [!DNL A
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 58%
@@ -23,7 +23,7 @@ ht-degree: 58%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
-## Target Standard/Premium 21.6.1(2021년 6월 7일)
+## Target Standard/Premium 21.5.1(2021년 6월 7일)
 
 이 릴리스에는 다음 개선 사항이 포함됩니다.
 
