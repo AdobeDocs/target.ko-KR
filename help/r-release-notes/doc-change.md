@@ -4,7 +4,7 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
 workflow-type: tm+mt
 source-wordcount: '1504'
 ht-degree: 70%
@@ -15,14 +15,14 @@ ht-degree: 70%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## Adobe [!DNL Target] Standard/Premium 21.6.1(2021년 6월 7일)
+## Adobe [!DNL Target] Standard/Premium 21.5.1(2021년 6월 8일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 6월 8일 | [at.js를 사용하여 Analytics for Target(A4T)를 구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상이 [!DNL Adobe Audience Manager] (AAM) 매개 변수를 전달하기 위해 2.5.0 이전의 방문자 API 버전에서 더 이상 작동하지 않는다는 참고 설명이 추가되었습니다. |
 |  | [환경](/help/administrating-target/environments.md) | [!UICONTROL 활성 및 비활성 활동]을 지정하는 경우 이 환경의 호스트도 비활성 활동을 표시한다는 참고 설명을 추가했습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform] 세그먼트 이름은  [!UICONTROL 중요 속성 보고서에 ] 표시되지 않습니다.</li></ul> |
-| 6월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.6.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+| 6월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.5.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1(2021년 4월 19일)
 
