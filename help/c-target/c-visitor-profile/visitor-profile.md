@@ -1,14 +1,13 @@
 ---
 keywords: 개요 및 참조
-description: 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방법에 대한 정보가 포함된 방문자 프로필에 대해 자세히 알아보십시오.
+description: 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방식에 대한 정보가 포함된 방문자 프로필에 대해 자세히 알아보십시오.
 title: 방문자 프로필이란 무엇입니까?
 feature: 대상자
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 78%
+source-wordcount: '107'
+ht-degree: 40%
 
 ---
 
@@ -16,9 +15,11 @@ ht-degree: 78%
 
 방문자 프로필에는 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방식에 대한 정보가 포함되어 있습니다.
 
-Target이 Adobe Analytics 등의 다른 Adobe Marketing Suite 솔루션과 함께 사용되는 경우 Experience Cloud 대상은 솔루션 간에 방문자 정보를 공유합니다.
+[!DNL Adobe Target]을 [!DNL Adobe Analytics] 와 같은 다른 [!DNL Adobe Experience Cloud] 솔루션과 함께 사용하면 [!DNL Experience Cloud Audiences]이 솔루션 간에 방문자 정보를 공유합니다.
 
-기본적으로 Target 프로필 정보는 단일 퍼스트 파티 쿠키에 저장됩니다. 타사 쿠키도 지원하도록 구성을 쉽게 변경할 수 있습니다.
+기본적으로 [!DNL Target] 프로필 정보는 단일 자사 쿠키에 저장됩니다. 타사 쿠키도 지원하도록 구성을 쉽게 변경할 수 있습니다.
+
+다음 섹션에는 추가 정보가 포함됩니다.
 
 - [방문자 프로필 라이프타임](visitor-profile-lifetime.md)
 - [프로필 속성](profile-parameters.md)
