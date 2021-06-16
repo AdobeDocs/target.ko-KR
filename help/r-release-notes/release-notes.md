@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함한 현재 [!DNL A
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '615'
-ht-degree: 58%
+source-wordcount: '719'
+ht-degree: 50%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 58%
 >사이트에서 발생할 수 있는 문제를 방지하기 위해 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하십시오. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
+
+## Python SDK 1.0.0(2021년 6월 16일)
+
+이제 장치 내 의사 결정 기능이 포함된 새 [!DNL Adobe Target] Python SDK를 사용할 수 있습니다. 이 최신 추가 기능은 서버측 SDK의 [!DNL Target] 세트를 올립니다. 이 SDK는 [!DNL Target]과 통합하고 원하는 언어로 가치 창출 시간을 단축하는 데 도움이 됩니다. 시장은 자사 데이터가 중요한 쿠키가 없는 세상으로 바뀌고 있으므로 서버측 통합은 널리 사용되고 있습니다. Target SDK는 시장에서 가장 인기 있는 프로그래밍 언어(Python, Java, JavaScript, C# / .Net)로 사용할 수 있습니다.
+
+자세한 내용은 [Adobe Target SDK 안내서](https://adobetarget-sdks.gitbook.io/docs/)에서 [Python SDK 설명서](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)를 참조하십시오.
 
 ## Target Standard/Premium 21.5.1(2021년 6월 7일)
 
@@ -67,7 +73,7 @@ ht-degree: 58%
 |--- |--- |
 | 설명서 변경 내용 | 이 릴리스 정보에 포함되지 않은 이 안내서의 업데이트에 대한 자세한 정보를 제공합니다.<br>자세한 내용은 [설명서 변경 내용](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C)을 참조하십시오. |
 | 이전 릴리스에 대한 릴리스 정보 | 이전 릴리스의 Target Standard 및 Target Premium에서 새로운 기능 및 향상된 기능에 대한 정보를 확인하십시오.<br>자세한 내용은 [이전 릴리스에 대한 릴리스 정보](/help/r-release-notes/release-notes-for-previous-releases.md)를 참조하십시오. |
-| Adobe Experience Cloud 릴리스 정보 | Adobe Experience Cloud 솔루션에 대한 최신 릴리스 정보를 표시합니다.<br>자세한 내용은 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)을 참조하십시오. |
+| Adobe Experience Cloud 릴리스 정보 | Adobe Experience Cloud 솔루션에 대한 최신 릴리스 정보를 표시합니다.<br>자세한 내용은 [Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)을 참조하십시오. |
 
 ## 사전 릴리스 정보 {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
