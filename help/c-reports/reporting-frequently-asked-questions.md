@@ -4,22 +4,16 @@ description: Adobe [!DNL Target] 보고에 대한 FAQ 및 답변 목록을 살�
 title: '보고 관련 질문에 대한 답변은 어디에서 찾을 수 있습니까? [!DNL Target] '
 feature: 보고서
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 30%
+source-wordcount: '1219'
+ht-degree: 33%
 
 ---
 
 # 보고 FAQ
 
 [!DNL Adobe Target]의 보고에 대한 FAQ 목록
-
-## [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] 모델의 데이터는 얼마나 지속됩니까?
-
-[!UICONTROL Automated Personalization] (AP)와  [!UICONTROL 자동 ] 타겟 모델은 활동에 대한 최근 45일 동안의 사용자 행동(사용자 프로필, 노출 이벤트 및 전환 이벤트)에 대해 교육됩니다.
-
-[!UICONTROL Automated Personalization] (AP)와  [!UICONTROL 자동 ] 타겟 모델은 90일 동안 사용자 행동, 교육 레코드 및 모델 결정 데이터를 유지하여 인사이트 보고서를   생성합니다. 90일 후 교육 기록 및 모델 결정을 삭제합니다. [!UICONTROL Automated Personalization]  (AP)와  [!UICONTROL 자동 ] 타겟 모델은 또한 보고 목적으로 2년 동안 집계된 경험/오퍼 수준 노출 및 전환 데이터를 유지합니다. 이 데이터는 집계 수준 데이터만 포함하며 개별 수준 프로필 데이터는 포함하지 않습니다.
 
 ## 보고 Q&amp;A의 새 방문자 및 재방문자 지표는 어떻게 계산됩니까? {#methodology}
 
