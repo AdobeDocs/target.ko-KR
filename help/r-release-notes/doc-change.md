@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 29b8bf64b0ce4e7e830d9fff5341849799072dfa
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 70%
+source-wordcount: '1534'
+ht-degree: 69%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 70%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 16일 | [[!DNL Target] 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK 버전 1.0.0 릴리스에 대한 정보가 추가되었습니다. |
+|  | [보고 FAQ](/help/c-reports/reporting-frequently-asked-questions.md) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] 모델의 데이터는 얼마나 지속됩니까?</li></ul> |
 | 6월 8일 | [at.js를 사용하여 Analytics for Target(A4T)를 구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상이 [!DNL Adobe Audience Manager] (AAM) 매개 변수를 전달하기 위해 2.5.0 이전의 방문자 API 버전에서 더 이상 작동하지 않는다는 참고 설명이 추가되었습니다. |
 |  | [환경](/help/administrating-target/environments.md) | [!UICONTROL 활성 및 비활성 활동]을 지정하는 경우 이 환경의 호스트도 비활성 활동을 표시한다는 참고 설명을 추가했습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform] 세그먼트 이름은  [!UICONTROL 중요 속성 보고서에 ] 표시되지 않습니다.</li></ul> |
@@ -61,7 +63,7 @@ ht-degree: 70%
 |  | [태그 관리자 없이 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 온디바이스 의사 결정에 대한 정보가 추가되었습니다. |
 |  | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)와 함께 [!UICONTROL 자동화된 개인화] 활동에 대한 링크 미리보기 지원이 추가되었습니다. |
 |  | [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 다음 연산자에 대한 정보가 추가되었습니다.<ul><li>Is Contained In List</li><li> Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul> |
-|  | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=ko-KR)<br>(*Experience Cloud 서비스 및 관리* 가이드) | &quot;session ID&quot;에 대한 추가 정보가 추가되었습니다. |
+|  | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html)<br>(*Experience Cloud 서비스 및 관리* 가이드) | &quot;session ID&quot;에 대한 추가 정보가 추가되었습니다. |
 |  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.4.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.2.1(2021년 3월 9일)
