@@ -4,11 +4,10 @@ description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용�
 title: Target 문제를 해결하려면 어떻게 합니까?
 feature: 문제 해결
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: tm+mt
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 97%
+source-wordcount: '458'
+ht-degree: 98%
 
 ---
 
@@ -27,9 +26,9 @@ ht-degree: 97%
 
 ### A/B 테스트
 
-* [9가지 공통 A/B 테스트의 문제점 및 이러한 문제점을 방지하는 방법](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)을 참조하십시오
+* [9가지 공통 A/B 테스트 위험 및 방지 방법](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-* [개인화된 경험에 대한 자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)
+* [개인화된 경험에 대한 자동 타겟을 참조하십시오](/help/c-activities/auto-target/auto-target-to-optimize.md)
 
 ### 자동 할당
 
@@ -38,12 +37,14 @@ ht-degree: 97%
 ### 자동 타겟
 
 * [자동 타겟 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### AP(자동화된 개인화)
 
 * [자동화된 개인화 FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [자동화된 개인화 문제 해결](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [자동화된 개인화 요약 보고서](/help/c-reports/reports-ap.md)
+* [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 다변량 테스트(MVT)
 
@@ -51,12 +52,12 @@ ht-degree: 97%
 * [다변량 테스트 문제 해결](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [성공적인 테스트에 필요한 트래픽 예측](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### 권장 사항
+### Recommendations
 
 * [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## 분석 및 [!DNL Target] 통합(A4T)
+## Analytics 및 [!DNL Target] 통합(A4T)
 
 * [Analytics와 Target의 통합 문제 해결](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다. [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
@@ -65,7 +66,7 @@ ht-degree: 97%
    * [초기 사용 권한 제공 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
-   * [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오
+   * [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
    * [상승도 및 신뢰도 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [지표 정의 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [지표, 세그먼트 및 보고서 공유 - A4T FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
@@ -137,9 +138,9 @@ ht-degree: 97%
 
 * [모바일 앱을 위한 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
-## 디바이스에서 의사 결정
+## 온디바이스 의사 결정
 
-* [at.js에 대한 장치 내 의사 결정 문제 해결](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [at.js에 대한 온디바이스 의사 결정 문제 해결](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
 ## 보고
 
