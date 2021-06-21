@@ -1,14 +1,13 @@
 ---
-keywords: 권장 사항;권장 사항 기준;권장 사항 알고리즘;권장 사항 활동;기준;권장 사항 타깃팅;recs
-description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 컨텐츠를 자동으로 표시하는 Adobe [!DNL Target] 의 Recommendations 활동에 대해 알아봅니다.
-title: ' [!DNL Target] Recommendations 소개'
+keywords: 권장 사항;권장 사항 기준;권장 사항 알고리즘;권장 사항 활동;기준;권장 사항 타기팅;recs
+description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe  [!DNL Target] 의 권장 사항 활동에 대해 알아보십시오.
+title: ' [!DNL Target]  Recommendations이란 무엇입니까?'
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-translation-type: tm+mt
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -55,12 +54,12 @@ ht-degree: 97%
 | 엔티티 | 엔티티는 추천할 항목을 나타냅니다. 엔티티는 제품, 콘텐츠(예: 문서, 슬라이드쇼, 이미지, 비디오 및 TV 프로그램 등), 구인 및 구직 정보, 식당 등 어떤 것이든 될 수 있습니다. 자세한 내용은 [엔티티](/help/c-recommendations/c-products/products.md)를 참조하십시오. |
 | 피드 | 피드는 [!DNL Recommendations]로 엔티티를 가져오는 데 사용됩니다. 엔티티는 CSV 파일, Google 제품 검색 피드 형식 및/또는 Adobe Analytics 제품 분류를 사용하여 보낼 수 있습니다. 자세한 내용은 [피드](/help/c-recommendations/c-products/feeds.md)를 참조하십시오. |
 | 카탈로그 | 카탈로그는 전체 제품 세트(엔티티)를 나타냅니다. 카탈로그에는 제품을 논리 버킷으로 구성하는 여러 컬렉션이 포함될 수 있습니다. |
-| 컬렉션 | 컬렉션은 단일 제품 범주와 같이 유사하거나 관련된 항목 집합을 나타냅니다. 그러나 어떤 항목이든 특정 가격 범위나 색상 또는 특정 지역에서 관심을 가질 수 있는 항목 등, 비즈니스에 의미가 있는 카테고리로 그룹화할 수 있습니다. 자세한 내용은 [컬렉션](/help/c-recommendations/c-products/collections.md)을 참조하십시오. |
-| 기준 | 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.<br>기준의 몇 가지 예는 다음과 같습니다. <ul><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>이 항목을 보고 다른 항목도 본 사람</li><li>비슷한 속성을 갖는 항목</li><li>마지막으로 구매한 항목</li><li>즐겨찾는 카테고리</li></ul>  자세한 내용은 [기준](/help/c-recommendations/c-algorithms/algorithms.md)을 참조하십시오. |
+| 컬렉션 | 컬렉션은 단일 제품 범주와 같이 유사하거나 관련된 항목 집합을 나타냅니다. 그러나 어떤 항목이든 특정 가격 범위나 색상 또는 특정 지역에서 관심을 가질 수 있는 항목 등, 비즈니스에 의미가 있는 범주로 그룹화할 수 있습니다. 자세한 내용은 [컬렉션](/help/c-recommendations/c-products/collections.md)을 참조하십시오. |
+| 기준 | 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.<br>기준의 몇 가지 예는 다음과 같습니다. <ul><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>이 항목을 보고 다른 항목도 본 사람</li><li>비슷한 속성을 갖는 항목</li><li>마지막으로 구매한 항목</li><li>즐겨찾는 범주</li></ul>  자세한 내용은 [기준](/help/c-recommendations/c-algorithms/algorithms.md)을 참조하십시오. |
 | 디자인 | 디자인은 행, 열, 테이블 또는 그리드 같이 [!DNL Recommendations] 활동에서 권장 사항의 모양을 정의합니다. 이 문서 맨 위에 있는 그림은 4 x 1 디자인을 보여 줍니다. 자세한 내용은 [디자인 만들기](/help/c-recommendations/c-design-overview/create-design.md)를 참조하십시오. |
 | 위치 | 위치는 개인화 및 최적화를 위해 활동을 실행하는 웹 페이지, 모바일 앱 또는 이메일의 특정 콘텐츠 영역을 나타냅니다. |
-| 대상자 | 대상자는 대상 활동을 볼 수 있는 유사한 활동 참여자의 그룹입니다. 대상은 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. 대상 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅할 수 있습니다. 자세한 내용은 [대상](/help/c-target/target.md)을 참조하십시오. |
-| 오퍼로서의 Recommendations | A/B 테스트(자동 할당 및 자동 타겟 포함) 및 XT(경험 타깃팅) 활동 내에 권장 사항을 포함할 수 있는 기능입니다. 자세한 내용은 [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
+| 대상자 | 대상자는 대상 활동을 볼 수 있는 유사한 활동 참여자의 그룹입니다. 대상은 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. 대상 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타기팅할 수 있습니다. 자세한 내용은 [대상](/help/c-target/target.md)을 참조하십시오. |
+| 오퍼로서의 Recommendations | A/B 테스트(자동 할당 및 자동 타겟 포함) 및 XT(경험 타기팅) 활동 내에 권장 사항을 포함할 수 있는 기능입니다. 자세한 내용은 [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
 
 ## 교육 비디오: 활동 유형 ![개요 배지](/help/assets/overview.png)
 
