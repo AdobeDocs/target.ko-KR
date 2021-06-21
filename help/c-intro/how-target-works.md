@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;검색 엔진 최적화;검색 엔진 최적화;seo;에지 클러스터, 중앙 클러스터;at.js;mbox.js;
-description: ' [!DNL Target] works, including information about the [!DNL Target]  JavaScript 라이브러리(at.js 및 AEP Web SDK), Adobe 데이터 센터 및 SEO 테스트에 대한 정보를 포함하여 Adobe Target의 작동 방식에 대해 알아보십시오.'
+description: Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript 라이브러리(at.js 및 Experience Platform 웹 SDK), Adobe 데이터 센터 및 SEO 테스트 방법을 알아봅니다.
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: 개요
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
-source-wordcount: '2563'
-ht-degree: 99%
+source-wordcount: '2560'
+ht-degree: 95%
 
 ---
 
@@ -17,24 +17,24 @@ ht-degree: 99%
 
 ## [!DNL Target] Platform Web SDKs 및 JavaScript 라이브러리 {#libraries}
 
-[!DNL Target] 은 [!DNL AEP Web SDK] 또는 JavaScript 라이브러리를 사용하여 웹 사이트와 통합합니다.
+[!DNL Target] 은 [!DNL Experience Platform Web SDK] 또는 JavaScript 라이브러리를 사용하여 웹 사이트와 통합합니다.
 
-* **Adobe Experience Platform Web SDK:** [AEP Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 는 새로운 클라이언트측 JavaScript 라이브러리입니다. AEP Web SDK는 [!DNL Adobe Experience Cloud] 의 고객이 Edge Network를 통해 [!DNL Experience Cloud] ( [!DNL Target]포함)의 다양한 서비스와 [!DNL AEP] 상호 작용할 수 있도록 합니다. Adobe는 모든 신규 [!DNL Target] 고객에게 [!DNL AEP Web SDK]를 구현할 것을 권장합니다.
+* **Adobe Experience Platform Web SDK:**  [Experience Platform 웹 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK는 새로운 클라이언트측 JavaScript 라이브러리입니다. Experience Platform 웹 SDK를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform] Edge Network를 통해 [!DNL Experience Cloud]([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. Adobe는 모든 신규 [!DNL Target] 고객에게 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
 * **at.js:** [at.js 라이브러리](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) 는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)으로 구현을 업데이트할 것을 권장합니다.
-* **mbox.js:** [mbox.js 라이브러리](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) 는 [!DNL Target]의 레거시 구현 라이브러리입니다. mbox.js 라이브러리는 2021년 3월 31일까지 지원되지만 기능 업데이트는 없습니다.
+* **mbox.js:** [mbox.js 라이브러리](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) 는 [!DNL Target]의 레거시 구현 라이브러리입니다. mbox.js 라이브러리는 2021년 3월 31일 이후로 더 이상 지원되지 않습니다.
 
 >[!IMPORTANT]
 >
->모든 고객은 [!DNL AEP Web SDK] 또는 at.js의 최신 버전으로 마이그레이션해야 합니다. 자세한 내용은 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 또는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
+>모든 고객은 [!DNL Experience Platform Web SDK] 또는 at.js의 최신 버전으로 마이그레이션해야 합니다. 자세한 내용은 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 또는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
 
-사이트의 모든 페이지에서 [!DNL AEP Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ko-KR) 를 사용하여 [!DNL Target]을 구현하는 것을 고려하시오.
+사이트의 모든 페이지에서 [!DNL Experience Platform Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ko-KR) 를 사용하여 [!DNL Target]을 구현하는 것을 고려하시오.
 
-다음 리소스에는 AEP Web SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
+다음 리소스에는 Experience Platform 웹 SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko-KR#configure-the-aep-web-sdk-extension)
+* [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko-KR?lang=ko#configure-the-aep-web-sdk-extension)
 * [ [!DNL Target] Adobe Experience Platform Launch를 사용한 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
-방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 타겟팅 시스템으로 요청이 전송됩니다. 요청은 방문자에게 제공할 콘텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 발생합니다. 페이지가 로드될 때마다 콘텐츠 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타깃팅합니다. 각 사이트 방문자가 응답하거나, 상호 작용하거나, 궁극적으로는 구매할 가능성이 가장 높은 콘텐츠가 제공됩니다. 개인화된 콘텐츠를 통해 응답률, 확보율 및 매출을 극대화할 수 있습니다.
+방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 타기팅 시스템으로 요청이 전송됩니다. 요청은 방문자에게 제공할 콘텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 발생합니다. 페이지가 로드될 때마다 콘텐츠 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타기팅합니다. 각 사이트 방문자가 응답하거나, 상호 작용하거나, 궁극적으로는 구매할 가능성이 가장 높은 콘텐츠가 제공됩니다. 개인화된 콘텐츠를 통해 응답률, 확보율 및 매출을 극대화할 수 있습니다.
 
 [!DNL Target]에서 페이지의 각 요소는 전체 페이지를 위한 단일 경험의 일부입니다. 각 경험은 페이지에 여러 요소를 포함할 수 있습니다.
 
@@ -48,7 +48,7 @@ ht-degree: 99%
 
 1. 고객이 서버에서 페이지를 요청하고 브라우저에 표시합니다.
 1. 자사 쿠키가 고객 브라우저에 설정되어 고객 동작을 저장합니다.
-1. 페이지가 타깃팅 시스템을 호출합니다.
+1. 페이지가 타기팅 시스템을 호출합니다.
 1. 활동의 규칙에 따라 콘텐츠가 표시됩니다.
 
 자세한 내용은 [A/B 테스트 만들기](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 를 참조하십시오.
@@ -71,13 +71,13 @@ AP(자동화된 개인화)는 오퍼 또는 메시지를 결합하고 고급 머
 
 자세한 내용은 [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 를 참조하십시오.
 
-### [!UICONTROL 경험 타깃팅](XT)
+### [!UICONTROL 경험 타기팅](XT)
 
-경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
+경험 타기팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 
-지리 기반의 타깃팅을 포함한 경험 타깃팅은 특정 경험이나 콘텐츠를 특정 대상으로 타깃팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상에 다양한 콘텐츠 변형을 전달할 수 있습니다. 방문자가 사이트를 볼 때 XT(경험 타깃팅)는 방문자를 평가하여 설정된 기준을 총족하는지 여부를 판단합니다. 기준을 충족하면 적격 대상을 위해 디자인된 활동 및 경험을 시작하게 됩니다. 단일 활동 내에서 여러 대상에 대한 경험을 만들 수 있습니다.
+지리 기반의 타기팅을 포함한 경험 타기팅은 특정 경험이나 콘텐츠를 특정 대상으로 타기팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상에 다양한 콘텐츠 변형을 전달할 수 있습니다. 방문자가 사이트를 볼 때 XT(경험 타기팅)는 방문자를 평가하여 설정된 기준을 총족하는지 여부를 판단합니다. 기준을 충족하면 적격 대상을 위해 디자인된 활동 및 경험을 시작하게 됩니다. 단일 활동 내에서 여러 대상에 대한 경험을 만들 수 있습니다.
 
-자세한 내용은 [경험 타겟팅](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) 을 참조하십시오.
+자세한 내용은 [경험 타기팅](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) 을 참조하십시오.
 
 ### [!UICONTROL 다변량 테스트](MVT)
 
@@ -107,9 +107,9 @@ AP(자동화된 개인화)는 오퍼 또는 메시지를 결합하고 고급 머
 
 중앙 클러스터 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 있습니다. 에지 클러스터 위치에는 데이터 수집 센터만 있습니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
 
-고객 사이트 활동 데이터는 7개의 에지 클러스터 중 가장 가까운 곳에서 수집됩니다. 이 데이터는 처리를 위해 고객이 미리 결정한 중앙 클러스터 대상(다음 세 위치 중 하나: 오레곤, 더블린, 싱가포르)으로 이동합니다. 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다. 에지 클러스터 위치에는 중앙 클러스터 위치와 버지니아, 암스테르담, 시드니, 도쿄 및 홍콩이 포함됩니다.
+고객 사이트 활동 데이터는 7개의 에지 클러스터 중 가장 가까운 곳에서 수집됩니다. 이 데이터는 처리를 위해 고객이 미리 결정한 중앙 클러스터 대상(다음 세 위치 중 하나: 오레곤, 더블린, 싱가포르)으로 이동합니다. 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다. 에지 클러스터 위치에는 중앙 클러스터 위치와 버지니아, 뭄바이, 시드니 및 도쿄가 포함됩니다.
 
-단일 위치에서 모든 타겟팅 요청에 응답하는 대신 방문자와 가장 가까운 에지 클러스터에서 요청을 처리합니다. 이 프로세스는 네트워크/인터넷 이동 시간의 영향을 완화하는 데 도움이 됩니다.
+단일 위치에서 모든 타기팅 요청에 응답하는 대신 방문자와 가장 가까운 에지 클러스터에서 요청을 처리합니다. 이 프로세스는 네트워크/인터넷 이동 시간의 영향을 완화하는 데 도움이 됩니다.
 
 ![서로 다른 유형의 Target 서버를 표시하는 맵](/help/c-intro/assets/target-servers.png)
 
@@ -133,13 +133,13 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] 은 현재 중국에 에지 클러스터를 보유하고 있지 않으며, 방문자 실적은 중국의 [!DNL Target] 고객에 한정되어 있습니다. 국가 내에서 방화벽과 에지 클러스터 부족으로 인해 [!DNL Target] 이 배포된 사이트의 환경이 영향을 받을 수 있습니다. 경험을 렌더링하기 위해 속도가 느릴 수 있으며 페이지 로드에 영향을 미칠 수 있습니다. 또한, 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
+>[!DNL Adobe Target] 은 현재 중국에 에지 클러스터를 보유하고 있지 않으며, 방문자 실적은 중국의 [!DNL Target] 고객에 한정되어 있습니다. 국가 내에서 방화벽과 에지 클러스터 부족으로 인해 [!DNL Target] 이 배포된 사이트의 환경이 영향을 받을 수 있습니다. 경험을 렌더링하기 위해 속도가 느릴 수 있으며 페이지 로드에 영향을 미칠 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
 
 원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)를 참조하십시오.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-Adobe에서는 타깃팅 인프라의 가용성 및 성능을 가능한 한 신뢰할 수 있도록 만들고 있습니다. 하지만 방문자의 브라우저와 Adobe의 서버 간 통신 실패로 인해 콘텐츠 전달이 중단될 수 있습니다.
+Adobe에서는 타기팅 인프라의 가용성 및 성능을 가능한 한 신뢰할 수 있도록 만들고 있습니다. 하지만 방문자의 브라우저와 Adobe의 서버 간 통신 실패로 인해 콘텐츠 전달이 중단될 수 있습니다.
 
 서비스 중단 및 연결 문제를 방지하기 위해 모든 위치가 기본 콘텐츠(클라이언트에 의해 정의됨)를 포함하도록 설정됩니다. 사용자의 브라우저가 [!DNL Target]에 연결할 수 없는 경우 이 기본 내용이 표시됩니다.
 
@@ -181,7 +181,7 @@ Google은 사용자 테스트를 권장합니다. Google은 해당 설명서를 
 
 * **필요한 동안만 실험 실행**: Adobe에서는 &quot;필요한 동안&quot;을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. [!DNL Target] 에서는 테스트가 이 시점에 도달했을 때를 판별하는 [모범 사례](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 를 제공합니다. 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
 
-   [!DNL Target] 플랫폼을 사용하여 가장 성과가 좋은 테스트를 &quot;게시&quot;하는 것은 영구적인 솔루션으로 권장되지 않습니다. 100% 시간 동안 사용자의 100%에 대해 가장 성과가 좋은 테스트가 게시되면 가장 성과가 좋은 테스트를 하드 코딩하는 프로세스가 완료되는 동안 이 접근 방식을 사용할 수 있습니다.
+   [!DNL Target] 플랫폼을 사용하여 가장 성과가 좋은 테스트를 &quot;게시&quot;하는 것은 영구적인 솔루션으로 권장되지 않습니다. 100% 사용자 중 100%에 대해 채택 테스트가 게시되면 채택 테스트를 하드 코딩하는 프로세스가 완료되는 동안 이 방법을 사용할 수 있습니다.
 
    테스트가 변경한 사항을 고려하는 것도 중요합니다. 페이지에 있는 버튼이나 기타 부수적인 비텍스트 기반 항목의 색상을 단순히 업데이트하는 것은 자연 순위에는 영향을 주지 않습니다. 하지만, 텍스트 변경 사항은 하드코딩해야 합니다.
 
