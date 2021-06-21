@@ -1,18 +1,17 @@
 ---
-keywords: 권장 사항;권장 사항 알고리즘;권장 사항 활동;recommendations classic
-description: ' [!DNL Target] Premium에서 기존 Recommendations Classic 활동과 Recommendations 활동 간의 차이점을 이해하는 데 도움이 되는 정보를 검토하십시오.'
-title: ' [!DNL Target] Premium에서 Recommendations Classic과 Recommendations의 차이점은 무엇입니까?'
+keywords: 권장 사항, 권장 사항 알고리즘, 권장 사항 활동, recommendations classic
+description: 정보를 검토하면,  [!DNL Target]  Premium의 기존 Recommendations Classic과 Recommendations 활동의 차이점을 이해하는 데 도움이 됩니다.
+title: ' [!DNL Target]  Premium에서 Recommendations Classic과 Recommendations 간의 차이점은 무엇입니까?'
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '661'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ![Premium](/help/assets/premium.png) 에서 Premium Classic과 Recommendations  [!DNL Target] 활동 비교
+# ![PREMIUM](/help/assets/premium.png) Recommendations Classic과 [!DNL Target] Premium의 권장 사항 활동 비교
 
 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
 
@@ -30,16 +29,16 @@ ht-degree: 94%
 
 ## 오퍼로서의 Recommendations
 
-[!UICONTROL A/B 테스트] ( [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]포함)와 XT( [!UICONTROL 경험 타깃팅] ) 활동 내에 권장 사항을 포함할 수 있습니다.
+[!UICONTROL A/B 테스트] ( [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]포함)와 XT( [!UICONTROL 경험 타기팅] ) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해 줍니다.
 
-* 동일한 활동에서 권장 사항 및 비권장 사항 콘텐츠를 테스트하고 타깃팅할 수 있습니다.
+* 동일한 활동에서 권장 사항 및 비권장 사항 콘텐츠를 테스트하고 타기팅할 수 있습니다.
 * 권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다.
 * [!UICONTROL 자동 할당]을 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동 푸시할 수 있습니다.
 * [!UICONTROL 자동 타겟]을 사용하여 방문자를 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
 
-시작하려면 [!UICONTROL 시각적 경험] 작성기를 사용하여 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅] 활동을 만들고, [!UICONTROL 다음 항목 앞에 삽입], [!UICONTROL 다음 항목 뒤에 삽입], [!UICONTROL 다음으로 바꾸기] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
+시작하려면 [!UICONTROL 시각적 경험] 작성기를 사용하여 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타기팅] 활동을 만들고, [!UICONTROL 다음 항목 앞에 삽입], [!UICONTROL 다음 항목 뒤에 삽입], [!UICONTROL 다음으로 바꾸기] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
 
 자세한 내용은 [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오.
 
@@ -49,7 +48,7 @@ ht-degree: 94%
 
 ![](assets/overview_criteria.png)
 
-기준은 업계 카테고리, 페이지 유형 및 구현 별로 사전 구성 및 정렬됩니다. 예를 들어, 제품 페이지에서 사용할 목적으로 소매 카테고리에 적용되는 기준을 찾아 특정 카테고리( `entity.categoryID` 매개 변수로 정의되는 카테고리) 내의 제품을 표시할 수 있습니다.
+기준은 업계 카테고리, 페이지 유형 및 구현 별로 사전 구성 및 정렬됩니다. 예를 들어 제품 페이지에서 사용할 목적으로 소매 범주에 적용되는 기준을 찾아 특정 범주( `entity.categoryID` 매개 변수로 정의되는 범주) 내의 제품을 표시할 수 있습니다.
 
 기준 사용 및 작성에 대한 자세한 내용은 [기준](/help/c-recommendations/c-algorithms/algorithms.md)을 참조하십시오.
 
@@ -67,7 +66,7 @@ ht-degree: 94%
 
 ## 타겟 지정 {#section_93295EA0DBA14210B8518AF4802A459F}
 
-[!DNL Recommendations Classic]에는 6개의 타깃팅 선택 사항이 있었습니다. 권장 사항 활동은 Target의 전체 타깃팅 선택 사항을 사용합니다. [!DNL Target] 또는 기타 [!DNL Adobe Experience Cloud] 대상(예: [!DNL Audience Manager] 및 [!DNL Analytics])을 사용하여 대상을 정의한 다음, 각 디자인을 보게 되는 활동 참여자의 백분율과 통제군을 보게 되는 백분율을 선택하십시오.
+[!DNL Recommendations Classic]에는 6개의 타기팅 선택 사항이 있었습니다. 권장 사항 활동은 Target의 전체 타기팅 선택 사항을 사용합니다. [!DNL Target] 또는 기타 [!DNL Adobe Experience Cloud] 대상(예: [!DNL Audience Manager] 및 [!DNL Analytics])을 사용하여 대상을 정의한 다음, 각 디자인을 보게 되는 활동 참여자의 백분율과 통제군을 보게 되는 백분율을 선택하십시오.
 
 ![](assets/overview_targeting.png)
 
