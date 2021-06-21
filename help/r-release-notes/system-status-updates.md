@@ -1,14 +1,13 @@
 ---
 keywords: 시스템 업데이트;문제 해결;유지 관리;시스템 상태;상태 업데이트
-description: 시스템 업데이트 또는 루틴 유지 관리로 인해 발생할 수 있는 문제를 확인하는 데 도움이 되는 Adobe [!DNL Target] 의 현재 상태를 확인합니다.
-title: ' [!DNL Target] 과 기타 Adobe 제품의 상태를 어디에서 볼 수 있습니까?'
+description: Adobe  [!DNL Target] 의 현재 상태를 보고 시스템 업데이트 또는 일상적인 유지 관리로 인해 발생할 수 있는 문제를 확인할 수 있습니다.
+title: ' [!DNL Target]  및 기타 Adobe 제품의 상태를 볼 수 있는 곳은 어디입니까?'
 feature: 릴리스 정보
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
