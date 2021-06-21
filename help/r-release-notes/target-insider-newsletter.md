@@ -1,14 +1,13 @@
 ---
 keywords: Insider 뉴스레터;뉴스레터;제품 업데이트;팁과 요령;이벤트;고객 성공;블로그;블로그;백서;백서
 description: Adobe Target에 대한 최신 뉴스를 읽어 보십시오. 예정된 이벤트, 고객 성공 사례, 전문가로부터 받은 정보 및 팁 등에 대한 정보를 찾아보십시오.
-title: Adobe [!DNL Target] 내부자 뉴스레터란 무엇입니까?
+title: Adobe  [!DNL Target]  Insider 뉴스레터란 무엇입니까?
 feature: 릴리스 정보, 개요
 exl-id: 39623bf0-093f-418a-b8c8-c621e0a56b00
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2152'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +20,7 @@ Adobe Target Insider 뉴스 레터를 통해 최적화된 상태로 유지하는
 
 >[!IMPORTANT]
 >
->[등록하면 Adobe Target Insider 뉴스 레터를 자동으로 받을 수 있습니다](https://www.adobe.com/kr/subscription/adobe_target_newsletter.html).
+>[등록하면 Adobe Target Insider 뉴스 레터를 자동으로 받을 수 있습니다](https://www.adobe.com/subscription/adobe_target_newsletter.html).
 
 이전 뉴스레터가 누락된 경우 다음 링크를 클릭하여 다음이 누락되지 않았는지 확인하십시오.
 
@@ -33,7 +32,7 @@ Adobe Target Insider 뉴스 레터를 통해 최적화된 상태로 유지하는
 | 2019년 9월 | 이번 달에는 뉴스레터가 발행되지 않았습니다. |
 | [2019년 8월(2권, 8호)](https://expleague.azureedge.net/assets/target/2019_08_Target_Newsletter_Aug_2019.html) | 이번 호에서는 학교가 세션에 복귀함에 따라 Adobe Target 팀이 귀사의 성공을 위한 노력의 일환으로 제공하는 학습 기회를 강조하는 것이 적절해 보입니다. Adobe Target Mobile Skill Builder 랩에 등록하고 모바일 앱을 개인화하는 방법에 대해 알아 보십시오. Adobe Insider 투어에서 북미 4개 도시 중 한 곳에서 직접 만나보십시오. 자기 주도 방식의 온라인 코스인 새로워진 Experience League를 방문하십시오. 그런 다음 A4T(Analytics for Target) 통합을 사용해야 하는 설득력 있는 이유를 읽어 보십시오. 마지막으로, 당사의 브랜드가 Google과 Apple의 최신 쿠키 정책을 준수하도록 지원하는 방법에 대해 알아보십시오. |
 | [2019년 7월(2권, 7호)](https://expleague.azureedge.net/assets/target/2019_07_Target_Newsletter_July_2019.html) | 개인화 및 최적화에 대한 자세한 내용은 Adobe Target 고객, 분석가, 컨설턴트, 그리고 소중한 Target 기능을 사용하는 방법을 알려 주는 강사 등 전문가의 의견을 듣는 것입니다. 이달의 뉴스레터에서는 최적화 경력과 HSBC의 Sigi Bessesen으로부터 프로그램 조언을 얻으십시오. 2019 Gartner Magic Quadrant for Personalization Engines에서 Adobe의 리더 위치에 대해 읽어 보십시오. AARP에서 규모에 맞는 개인화에 대한 웹 세미나 및 모바일 앱 개발자를 위한 가상 랩 시리즈에 등록하십시오. 프로필 스크립트가 무엇인지, 그리고 이 강력한 대상 기능을 사용하는 방법을 배움으로써 마무리하십시오. |
-| [2019년 6월(2권, 6호)](https://expleague.azureedge.net/assets/target/2019_06_Target_Newsletter_June_2019.html) | 이번 달 콘텐츠가 풍부한 Adobe Target 뉴스레터를 자세히 살펴볼 준비가 되셨습니까? 이번 호에서는 대상을 세분화하기 위한 모범 사례, 호주의 Charles Sturt University가 어떻게 미래의 학생 여정을 개인화하고, 혁신적인 경험을 제공하기 위해 기술 스택을 혁신하는지에 대해 알아보십시오. Fortune지 선정 100대 금융 서비스 기관의 최적화 및 개인화 전문가 인터뷰 주요 내용을 읽어보십시오. Adobe Experience Cloud가 AI를 사용하여 고객 환경을 개인화하는 데 어떻게 도움이 되는지 알아보십시오. 그런 다음 Adobe Target 활동 설정의 활동 설정 부분을 완료하는 방법을 학습하여 전술적이고 실용적인 방법을 배우십시오. |
+| [2019년 6월(2권, 6호)](https://expleague.azureedge.net/assets/target/2019_06_Target_Newsletter_June_2019.html) | 이번 달 콘텐츠가 풍부한 Adobe Target 뉴스레터를 자세히 살펴볼 준비가 되셨습니까? 이번 호에서는 대상을 세분화하기 위한 모범 사례, 호주의 Charles Sturt University가 어떻게 미래의 학생 여정을 개인화하고, 혁신적인 경험을 제공하기 위해 기술 스택을 혁신하는지에 대해 알아보십시오. Fortune지 선정 100대 금융 서비스 기관의 최적화 및 개인화 전문가 인터뷰 주요 내용을 읽어 보십시오. Adobe Experience Cloud가 AI를 사용하여 고객 환경을 개인화하는 데 어떻게 도움이 되는지 알아보십시오. 그런 다음 Adobe Target 활동 설정의 활동 설정 부분을 완료하는 방법을 학습하여 전술적이고 실용적인 방법을 배우십시오. |
 | [2019년 5월(2권, 5호)](https://expleague.azureedge.net/assets/target/2019_05_Target_Newsletter_May_2019.html) | 이번 호에서는 Adobe Summit EMEA에서 방금 발표한 모바일 앱용 시각적 경험 작성기, Summit EMEA의 모든 훌륭한 개인화 트랙 세션에 대한 온라인 액세스, 개인화 지침, Adobe Target이 하루를 절약하는 개인화된 경험을 전달하는 방법에 대한 이야기, 개인화를 위해 AI를 사용하는 5가지 방법, Adobe Target을 통한 개인화된 모바일 앱 경험 구현 등을 중점적으로 다룹니다. |
 | [2019년 4월(2권, 4호)](https://expleague.azureedge.net/assets/target/2019_04_Target_Newsletter_Apr_2019.html) | 우리는 또 다른 Adobe Summit을 미국에서 개최합니다. 올해에는 17,000명 이상이 참석했습니다. 라스베가스에 있는 동안 이렇게 많은 고객들을 만나서 환상적이고 활력이 넘쳤습니다. 한 달도 안 돼 런던에서 열리는 Adobe Summit EMEA에서 빨리 같은 경험을 하고 싶습니다!<br>뉴스레터 이번 호에서는 지난 2년 동안의 주요 게시물, Thomson Reuters의 Steve Rude 최적화 프로그램 개발을 위한 모범 사례, 데이터 기반 경험 설계의 약속, 인포그래픽을 통해 경험 최적화 성과를 창출하는 방법, 수십 년 간의 모바일 설문 조사를 통해 얻은 결과 및 Adobe Target과 Adobe Analytics를 함께 사용하기 위한 모범 사례 등을 소개합니다. |
 | [2019년 3월(2권, 3호)](https://expleague.azureedge.net/assets/target/2019_03_Target_Newsletter_Mar_2019.html) | 이번 호에는 아주 많은 흥미로운 소식이 있습니다. 무엇보다도 AI와 최신 웹 및 최적화 프로그램을 위해 곧 제공될 업데이트된 온라인 자체 평가 도구에 대한 Adobe Target의 새로운 기능과 개선 사항에 대해 알아보십시오. 그런 다음 B2B 개인화 전문가인 SAP의 James Skay의 모범 사례를 확인하십시오. Adobe Summit에서 선택할 수 있는 개인화 트랙의 모든 환상적인 세션을 간단히 살펴보십시오. |
@@ -50,4 +49,4 @@ Adobe Target Insider 뉴스 레터를 통해 최적화된 상태로 유지하는
 | [2018년 4월(1권, 4호)](https://expleague.azureedge.net/assets/target/newsletter-2018-april.html) | 이 버전에서는 라스베이거스에서 개최된 Adobe Summit을 여러분이 다시 체험할 수 있도록 도와드리며 Adobe 팀원 및 여러분의 동료가 소중한 인맥을 이어갈 새로운 기회를 제공하는 Adobe Insider 둘러보기를 소개합니다. 그런 다음 Adobe Experience Business Excellence 수상에서 Adobe Target을 사용하여 개인화 성공 사례를 공유한 다섯 명의 최종 진출자의 글을 읽어 보겠습니다. 이 버전에서는 라스베이거스에서 개최된 Adobe Summit을 여러분이 다시 체험할 수 있도록 도와드리며 Adobe 팀원 및 여러분의 동료가 소중한 인맥을 이어갈 새로운 기회를 제공하는 Adobe Insider 둘러보기를 소개합니다. 그런 다음 Adobe Experience Business Excellence 수상에서 Adobe Target을 사용하여 개인화 성공 사례를 공유한 다섯 명의 최종 진출자의 글을 읽어 보겠습니다. |
 | [2018년 3월(1권, 3호)](https://expleague.azureedge.net/assets/target/newsletter-2018-march.html) | Adobe는 올해 Adobe Summit에서 방금 발표한 Adobe Target의 새로운 혁신적인 기능을 열심히 개발했습니다. Adobe Target에서 더 많은 가치를 얻는 데 도움이 되는 일부 자세한 기술 문서와 함께 이러한 기능에 대해 여기서 읽어 보십시오. |
 | [2018년 2월(1권, 2호)](https://expleague.azureedge.net/assets/target/newsletter-2018-february.html) | 이 버전에서는 Adobe Summit의 개인화 세션에 Cliff Notes 버전을 제공합니다. 살펴보고 세션을 선택하면 빅 이벤트에서 여러분을 만날 수 있을 것입니다. 또한 아래 문서에서 2018년 개인화 기능의 AI 상태 설문 조사를 알아보고 실행하십시오. 설문 조사를 완료해 주시면 감사의 선물로 스타벅스 커피를 받으실 수 있습니다. |
-| [2018년 1월(1권, 1호)](https://expleague.azureedge.net/assets/target/newsletter-2018-january.html) | Adobe Target Insider의 창간호입니다. 월간 뉴스레터는 Adobe Target 사용자에게 제공되는 뉴스와 리소스로 가득 차 있습니다. 이번 호에서는 개인화 기능이 2018년에 어떻게 발전할지에 대한 제 의견을 공유합니다. 한번 읽어보시기 바랍니다. |
+| [2018년 1월(1권, 1호)](https://expleague.azureedge.net/assets/target/newsletter-2018-january.html) | Adobe Target Insider의 창간호입니다. 월간 뉴스레터는 Adobe Target 사용자에게 제공되는 뉴스와 리소스로 가득 차 있습니다. 이번 호에서는 개인화 기능이 2018년에 어떻게 발전할지에 대한 제 의견을 공유합니다. 한번 읽어 보시기 바랍니다. |
