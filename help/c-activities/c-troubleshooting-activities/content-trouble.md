@@ -4,11 +4,10 @@ description: 페이지에 예상된 콘텐츠가 표시되지 않을 경우 문�
 title: 콘텐츠 전달 문제를 해결하려면 어떻게 합니까?
 feature: 활동
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: tm+mt
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
 source-wordcount: '1415'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -103,7 +102,7 @@ mboxDebug를 사용하려면 URL 끝에 mboxDebug 매개 변수를 추가합니�
 | `mboxDisable=1` | 페이지에서 mbox 비활성화 |
 | `mboxDebug=x-profile` | 프로필 세트 보기 |
 | `mboxDebug=x-time` | 각 [!DNL Target] 요청에 대한 응답 표시 |
-| `mboxOverride.browserIp=<Insert IP address>` | 지리 기반의 타깃팅 테스트<br>이 URL 매개 변수로 지리 기반의 타깃팅을 테스트합니다. IP 주소를 이 속성의 값으로 입력하면 Test&amp;Target의 지리 기반의 타깃팅은 캠페인에 설정된 지리 기반의 타깃팅 또는 세그먼테이션 세트에 대해 해당 IP 주소가 일치하는지 평가합니다. |
+| `mboxOverride.browserIp=<Insert IP address>` | 지리 기반의 타기팅 테스트<br>이 URL 매개 변수로 지리 기반의 타기팅을 테스트합니다. IP 주소를 이 속성의 값으로 입력하면 Test&amp;Target의 지리 기반의 타기팅은 캠페인에 설정된 지리 기반의 타기팅 또는 세그먼테이션 세트에 대해 해당 IP 주소가 일치하는지 평가합니다. |
 
 >[!NOTE]
 >
@@ -139,17 +138,17 @@ Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
 mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 [!DNL Target] 요청에 대한 비 JavaScript 콘텐츠를 실행합니다. 글로벌 [!DNL Target] 요청에 대한 `<script>` 태그 내의 JavaScript 콘텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 콘텐츠 전달 순서에 따라 글로벌 [!DNL Target] 요청에 대한 JavaScript 콘텐츠가 제대로 전달되고 렌더링될 수 있습니다.
 
-## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target 쿠키가 설정되지 않습니다.  {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ( [!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 
 ## 요소가 AEM 개인화에도 속하면 Target 콘텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
-DOM 요소가 Adobe Experience Manager(AEM) 개인화 타깃팅 및 Target 활동의 일부인 경우 Target 콘텐츠가 깜박이거나 표시되지 않을 수 있습니다.
+DOM 요소가 Adobe Experience Manager(AEM) 개인화 타기팅 및 Target 활동의 일부인 경우 Target 콘텐츠가 깜박이거나 표시되지 않을 수 있습니다.
 
 이를 해결하려면 Target이 실행 중인 페이지에서 AEM 개인화를 비활성화하면 됩니다.
 
-## 잘못된 URL로 인해 리디렉션 및 원격 오퍼가 전달에 실패했습니다.  {#section_7D09043B687F43B39DAEDF17D00375AC}
+## 잘못된 URL로 인해 리디렉션 및 원격 오퍼가 전달에 실패했습니다. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 리디렉션 또는 원격 오퍼가 잘못된 URL을 사용하는 경우 배달되지 않을 수 있습니다.
 
@@ -173,7 +172,7 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타깃팅 및 Target 활�
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### 기본 Adobe Target 디버깅 ![자습서 배지](/help/assets/tutorial.png)
+### 기본 Adobe 타겟 디버깅 ![튜토리얼 배지](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
