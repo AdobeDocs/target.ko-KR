@@ -1,14 +1,13 @@
 ---
 keywords: 교육;인증;target;온라인 교육 과정;교육 과정;클래스;클래스
-description: Adobe 트레이닝 서비스에서 제공하는 Adobe [!DNL Target] 클래스와 인증을 찾아보십시오.
+description: Adobe 교육 서비스에서 제공하는 Adobe  [!DNL Target]  클래스 및 인증을 찾으십시오.
 title: 교육 및 인증 클래스는 어디에서 찾을 수 있습니까?
 feature: 개요
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
