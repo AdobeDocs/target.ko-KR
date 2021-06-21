@@ -1,14 +1,13 @@
 ---
 keywords: Target Standard;faq;자주 묻는 질문;치트 시트;치트시트
-description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Target의 기능 사용에 대한 자주 묻는 질문 목록을 살펴 보십시오.
+description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Target의 기능 사용에 대한 자주 묻는 질문 목록을 살펴보십시오.
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: 개요
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2918'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +19,7 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 
 **다른 고객이 더 나은 결과를 위해 Adobe Target을 어떻게 활용하는지를 알려면 어떻게 해야 합니까?**
 
-다음은 [고객 성공 사례](https://www.adobe.com/kr/marketing-cloud/target/resources.html#x)의 일부에 불과합니다. 여러분과 같은 고객이 어떻게 Target을 활용하여 최적화 및 개인화를 향상시킴으로써 비즈니스 목표를 달성하는지 확인하십시오.
+다음은 [고객 성공 사례](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)의 일부에 불과합니다. 여러분과 같은 고객이 어떻게 Target을 활용하여 최적화 및 개인화를 향상시킴으로써 비즈니스 목표를 달성하는지 확인하십시오.
 
 이러한 사례 연구 일부에서는 Adobe Target Premium의 기능을 활용했습니다.
 
@@ -34,7 +33,7 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 
 **Target에서는 어떤 브라우저를 지원합니까?**
 
-자세한 내용은 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크톱/장치에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
+자세한 내용은 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
 
 ## Target JavaScript 라이브러리(at.js 및 mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
@@ -48,7 +47,7 @@ at.js는 최신의 가장 뛰어난 JavaScript 라이브러리입니다. mbox.js
 
 **제어 경험을 사용하는 동안 가장 성과가 좋은 경험과 성과가 나쁜 경험을 찾기 위해 통계적으로 엄격한 활동을 수행할 수 있습니까?**
 
-최상의 결과를 얻으려면 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (수동 타깃팅 선택 사항)와 [샘플 크기 계산기](/help/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) 를 함께 사용하십시오.
+최상의 결과를 얻으려면 [A/B 테스트](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (수동 타기팅 선택 사항)와 [샘플 크기 계산기](/help/c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) 를 함께 사용하십시오.
 
 **활동을 중지할 시기를 어떻게 알 수 있습니까?**
 
@@ -66,7 +65,7 @@ at.js는 최신의 가장 뛰어난 JavaScript 라이브러리입니다. mbox.js
 
 **내 요구에 가장 잘 맞는 활동 유형을 어떻게 알 수 있습니까?**
 
-Adobe Target에서 제공한 각 선택 사항이 적용되는 사례를 알려면 [Target 활동 안내서](/help/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) 를 읽어보십시오.
+Adobe Target에서 제공한 각 선택 사항이 적용되는 사례를 알려면 [Target 활동 안내서](/help/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1) 를 읽어 보십시오.
 
 [권장 사항 활동](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)도 고려해 보십시오.
 
@@ -90,7 +89,7 @@ Adobe Target에서 제공한 각 선택 사항이 적용되는 사례를 알려�
 
 **활동에 여러 목표를 생성했습니다. 목표 체인을 보고 및 분석 목적을 위한 단계로 만들 수 있습니까?**
 
-**예를 들어, 특정 단계에 대한 숫자를 추적할 수 있도록 사용자가 목표 A에 도달했을 때 목표 B를 고려하려고 합니다.**
+**예를 들어 특정 단계에 대한 숫자를 추적할 수 있도록 사용자가 목표 A에 도달했을 때 목표 B를 고려하려고 합니다.**
 
 Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강력한 방법이 있습니다. [다른 성공 지표에 대한 종속성을 추가](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B)하면 됩니다. 여러 가지 방법으로 지표를 결합하는 기능과 &quot;도달&quot; 및 &quot;도달 못 함&quot;과 같은 옵션을 사용하여 원하는 모든 조합을 만들 수 있습니다.
 
@@ -108,7 +107,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 활동을 활성화해야 합니다. 라이브 활동만 지정된 일정을 준수합니다. 종료 날짜에 도달하면 활동이 종료됨 상태로 전환됩니다.
 
-**타깃팅 단계만 변경하고, 안내가 있는 전체 3단계 워크플로(편집용)는 거치지 않을 수 있습니까?**
+**타기팅 단계만 변경하고, 안내가 있는 전체 3단계 워크플로(편집용)는 거치지 않을 수 있습니까?**
 
 [활동 개요 페이지에서 원하는 단계를 직접 입력](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 한 후 저장 및 닫기 선택 사항으로 해당 단계를 종료하여 쉽게 수행할 수 있습니다.
 
@@ -141,11 +140,11 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/c-activities/c-activity
 
 활동에 대해 로컬인 대상을 정의하려면 [활동 전용 대상 기능](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) 을 사용하십시오.
 
-**해당 위치를 기준으로 사용자를 타깃팅하려면 어떻게 해야 합니까?**
+**해당 위치를 기준으로 사용자를 타기팅하려면 어떻게 해야 합니까?**
 
 [지역 대상](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)을 사용해 보십시오. 이 기능의 정확성 수준에 대해 읽어 보십시오.
 
-**세션에서 페이지에 대한 일부 속성을 기준으로 사용자를 타깃팅할 수 있습니까?**
+**세션에서 페이지에 대한 일부 속성을 기준으로 사용자를 타기팅할 수 있습니까?**
 
 최상의 방법은 mbox와 [사용자 지정 대상](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B) 을 사용하여 적절한 경험을 전달하는 것입니다.
 
@@ -157,7 +156,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/c-activities/c-activity
 
 **적은 수의 방문자가 있는 활동을 시작할 수 있습니까?**
 
-[Target의 안내가 있는 3가지 부분 워크플로의 2단계(타깃팅 페이지)](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) 에서 사용할 수 있는 백분율 할당 컨트롤을 사용하여 어떤 방식으로 활동 설정을 시작할지 결정하십시오.
+[Target의 안내가 있는 3가지 부분 워크플로의 2단계(타기팅 페이지)](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) 에서 사용할 수 있는 백분율 할당 컨트롤을 사용하여 어떤 방식으로 활동 설정을 시작할지 결정하십시오.
 
 **또한 Adobe Analytics가 있으며 Target에서 이를 활용하려고 합니다. 두 가지 솔루션을 통합하여 어떤 핵심 기능을 얻을 수 있습니까?**
 
@@ -167,7 +166,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/c-activities/c-activity
 * [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 * [대상자](/help/c-integrating-target-with-mac/mmp.md)
 
-## 경험 을 참조하십시오 {#section_5959536B8D6A4BEA8FAA1273338F3451}
+## 경험 {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
 **공통된 구조를 갖는 여러 페이지에서 활동을 실행할 수 있습니까?**
 
@@ -203,7 +202,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/c-activities/c-activity
 
 [계정이 Scene7용으로 설정되어 있는지 확인](/help/administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5)하려면 Adobe에 문의하십시오. 제공된 경우 이미지를 쉽게 다른 이미지와 교환할 수 있습니다.
 
-**두 개의 서로 다른 경험(예: 고정 할인 및 비율별 할인) 간을 테스트하려고 하지만 경험을 적절히 타깃팅하려고 합니다(다른 국가에서 온 사람들을 위해 다른 로케일 텍스트 또는 다른 통화 표시). 이 작업을 어떻게 수행할 수 있습니까?**
+**두 개의 서로 다른 경험(예: 고정 할인 및 비율별 할인) 간을 테스트하려고 하지만 경험을 적절히 타기팅하려고 합니다(다른 국가에서 온 사람들을 위해 다른 로케일 텍스트 또는 다른 통화 표시). 이 작업을 어떻게 수행할 수 있습니까?**
 
 [여러 경험 버전 기능](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)을 사용하면 쉽게 원하는 테스트를 수행할 수 있습니다. 이러한 테스트에서 전달에 대한 뉘앙스를 이해해 보십시오.
 
@@ -213,7 +212,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/c-activities/c-activity
 
 CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 수정하거나 특정 오퍼를 신속하게 삭제할 수 있습니다.
 
-**일부 다이내믹 요소를 즉석에서 수정하거나 간단히 타사 솔루션을 호출하기 위해 JavaScript를 실험/활동의 일부로 전달하려고 합니다. 이 작업을 어떻게 수행할 수 있습니까?**
+**일부 다이내믹 요소를 즉석에서 수정하거나 간단히 서드파티 솔루션을 호출하기 위해 JavaScript를 실험/활동의 일부로 전달하려고 합니다. 이 작업을 어떻게 수행할 수 있습니까?**
 
 여러 방법 중 하나는 [사용자 지정 코드 편집기](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)를 사용하는 것입니다. 계속해서 JavaScript를 섹션에 입력하면 전달됩니다. 필요에 따라 헤드 또는 본문 맨 위에 JavaScript를 전달할 수 있는 옵션이 있습니다.
 
@@ -223,7 +222,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 ![](assets/vec2.png)
 
-**안내가 있는 3부분 워크플로, 2단계(타깃팅 페이지)에서 선택한 경험으로 이동할 수 있습니까?**
+**안내가 있는 3부분 워크플로, 2단계(타기팅 페이지)에서 선택한 경험으로 이동할 수 있습니까?**
 
 2단계에서 경험 이름 앞에 있는 썸네일을 클릭하면 선택한 경험이 표시됩니다.
 
@@ -235,7 +234,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 **사용자가 보유할 수 있는 모든 디바이스에서 일관되게 동일한 경험이 전달되도록 하려면 어떻게 해야 합니까?**
 
-Co-op의 기능을 통해 사용자의 여러 디바이스를 결정적으로 및 확률적으로 연결할 수 있도록 하는 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ko_KR) 를 확인해 보십시오.
+Co-op의 기능을 통해 사용자의 여러 디바이스를 결정적으로 및 확률적으로 연결할 수 있도록 하는 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ko-KR) 를 확인해 보십시오.
 
 Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그를 사용하여 기능을 활성화할 수 있습니다. 또한 보고 기능도 이제 방문자 대신 사용자를 반영합니다. 이 기능을 일부 지역에서는 사용할 수 없으므로 Adobe 담당자에게 이 기능에 대해 문의하십시오.
 
@@ -298,7 +297,7 @@ Target은 사용자가 이러한 대상을 추가할 때 이와 관련된 데이
 
 **보고서를 평가하기 위해 제어 경험을 변경하거나 방문자에서 방문으로 카운트 방법을 변경할 수 있습니까?**
 
-다음 [보고서 페이지의 설정 톱니바퀴](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)를 사용하여 이러한 변경 작업을 수행합니다. 이러한 설정을 잘 읽어보고 계산이 어떻게 다른지 이해하도록 하십시오.
+다음 [보고서 페이지의 설정 톱니바퀴](/help/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)를 사용하여 이러한 변경 작업을 수행합니다. 이러한 설정을 잘 읽어 보고 계산이 어떻게 다른지 이해하도록 하십시오.
 
 **보고서를 어떻게 해석해야 합니까?**
 
@@ -306,7 +305,7 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 ## 응답 토큰 {#section_C2A7118B4B62482A9D630C2212112A3D}
 
-**Google Analytics 또는 ClickTale 같은 타사 시스템과 통합하여 제공된 활동 정보를 분석을 위해 최종 사용자에게 전달할 수 있습니까?**
+**Google Analytics 또는 ClickTale 같은 서드파티 시스템과 통합하여 제공된 활동 정보를 분석을 위해 최종 사용자에게 전달할 수 있습니까?**
 
 이에 대한 해결 방법도 있습니다. [응답 토큰 기능](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)을 사용하면 됩니다.
 
@@ -318,7 +317,7 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **문제 해결 안내서가 있습니까?**
 
-문제로 인해 불편을 겪게 해드려서 죄송합니다. 많은 문제 해결 항목에 대한 링크는 [Target 문제 해결](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)을 참조하십시오.
+문제로 인해 불편을 겪게 해드려서 죄송합니다. [Target 문제 해결](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)을 확인하십시오.
 
 ## Target 모바일 앱 {#section_07BA89F2C38747158ECD5B153274AEAF}
 
