@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
 workflow-type: tm+mt
-source-wordcount: '1535'
-ht-degree: 69%
+source-wordcount: '1548'
+ht-degree: 68%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 69%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 24일 | [Target 릴리스 정보(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)의 사전 릴리스 노트가 업데이트되었습니다. |
 | 6월 16일 | [[!DNL Target] 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK 버전 1.0.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] 모델의 데이터는 얼마나 지속됩니까?</li></ul> |
 | 6월 8일 | [at.js를 사용하여 Analytics for Target(A4T)를 구현하기 전에](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상이 [!DNL Adobe Audience Manager] (AAM) 매개 변수를 전달하기 위해 2.5.0 이전의 방문자 API 버전에서 더 이상 작동하지 않는다는 참고 설명이 추가되었습니다. |
