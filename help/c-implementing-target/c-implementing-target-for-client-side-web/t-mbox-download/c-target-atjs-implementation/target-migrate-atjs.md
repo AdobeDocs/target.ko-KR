@@ -1,15 +1,14 @@
 ---
 keywords: Target;at.js;at.js로 마이그레이션;준비 상태;at.js 감사;at.js 통합
-description: 일반적인 웹 구현과 SPA(단일 페이지 애플리케이션)를 위해 설계된 Adobe [!DNL Target] 용 새 구현 라이브러리인 at.js로 마이그레이션하는 방법에 대해 알아봅니다.
+description: 일반적인 웹 구현과 단일 페이지 애플리케이션(SPA) 둘 다에 맞게 디자인된 새로운 Adobe [!DNL Target] 용 구현 라이브러리인 at.js로 마이그레이션하는 방법을 알아봅니다.
 title: mbox.js에서 at.js로 마이그레이션하는 방법
 feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 92%
+source-wordcount: '847'
+ht-degree: 91%
 
 ---
 
@@ -88,16 +87,16 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
    >
    >현재, 태그 관리자를 사용하여 [!DNL Target]을 배포하고 있지 않다면 고려해볼 때가 되었습니다.
    >
-   >[!DNL Platform Launch] 는 다음세대 태그 관리 플랫폼 [!DNL Adobe] 으로 구현하기 위한 기본 방법입니다 [!DNL Adobe Target]. [!DNL Platform Launch] 고객은 연관성 있는 고객 경험을 향상시키는 데 필요한 분석, 마케팅 및 광고 태그를 간단하게 배포 및 관리할 수 있습니다.
+   >[!DNL Platform Launch] 는 의 차세대 태그 관리 플랫폼 [!DNL Adobe] 이며, 가 구현에 선호되는 방법입니다  [!DNL Adobe Target]. [!DNL Platform Launch] 는 관련 고객 환경을 향상하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
    >
-   >자세한 내용은 [구현 [!DNL Target] using [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 참조하십시오.
+   >자세한 내용은 [구현 [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 참조하십시오. [!DNL Target] 
 
 1. 현재의 모든 작업 및 통합이 예상대로 작동하는지 확인하십시오.
 
    다음은 [!DNL at.js]가 예상대로 작동하는지 확인하기 위해 테스트하는 동안 수행할 수 있는 몇 가지 작업입니다.
 
    * 모든 현재 활동이 새 자바스크립트 라이브러리에서 작동하는지 확인합니다.
-   * 모든 [통합](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 및 [플러그인](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF)이 예상대로 작동하는지 확인합니다.
+   * 모든 [통합](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) 및 플러그인이 예상대로 작동하는지 확인합니다.
    * [!DNL at.js]에 사용 가능한 접근 방식으로 [디버깅](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)할 때 문제가 없는지 확인합니다.
 
 **at.js로 마이그레이션할 때의 발생할 수 있는 문제** at.js로의 마이그레이션을 수행한 후 일부 고객들이 다음과 같은 문제점을 신고했습니다.
@@ -125,4 +124,4 @@ mbox.js에서 [!DNL Adobe Target]의 at.js로 마이그레이션하는 절차는
 
    코드 편집기를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [코드 편집기](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* 이제 모든 mbox는 비동기이므로 실행된 순서대로 페이지 렌더링을 차단하거나 반환되지 않습니다. 자세한 내용은 [at.js 제한 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE)을 참조하십시오.
+* 이제 모든 mbox는 비동기이므로 실행된 순서대로 페이지 렌더링을 차단하거나 반환되지 않습니다.
