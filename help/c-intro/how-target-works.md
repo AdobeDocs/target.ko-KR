@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] works, including information about the [!DNL Ta
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: 개요
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2560'
+source-wordcount: '2532'
 ht-degree: 95%
 
 ---
@@ -20,12 +20,8 @@ ht-degree: 95%
 [!DNL Target] 은 [!DNL Experience Platform Web SDK] 또는 JavaScript 라이브러리를 사용하여 웹 사이트와 통합합니다.
 
 * **Adobe Experience Platform Web SDK:**  [Experience Platform 웹 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK는 새로운 클라이언트측 JavaScript 라이브러리입니다. Experience Platform 웹 SDK를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform] Edge Network를 통해 [!DNL Experience Cloud]([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. Adobe는 모든 신규 [!DNL Target] 고객에게 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
-* **at.js:** [at.js 라이브러리](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) 는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)으로 구현을 업데이트할 것을 권장합니다.
-* **mbox.js:** [mbox.js 라이브러리](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md) 는 [!DNL Target]의 레거시 구현 라이브러리입니다. mbox.js 라이브러리는 2021년 3월 31일 이후로 더 이상 지원되지 않습니다.
-
->[!IMPORTANT]
->
->모든 고객은 [!DNL Experience Platform Web SDK] 또는 at.js의 최신 버전으로 마이그레이션해야 합니다. 자세한 내용은 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 또는 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
+* **at.js:** at.js 라이브러리 는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)으로 구현을 업데이트할 것을 권장합니다.
+* **mbox.js:** mbox.js 라이브러리 는 [!DNL Target]의 레거시 구현 라이브러리입니다. mbox.js 라이브러리는 2021년 3월 31일 이후로 더 이상 지원되지 않습니다.
 
 사이트의 모든 페이지에서 [!DNL Experience Platform Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ko-KR) 를 사용하여 [!DNL Target]을 구현하는 것을 고려하시오.
 
