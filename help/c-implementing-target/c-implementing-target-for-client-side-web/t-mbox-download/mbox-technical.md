@@ -1,15 +1,14 @@
 ---
 keywords: 구현;mbox.js;dom 조작 라이브러리;target.js;시각적 경험 작성기;iframe;angular 사이트;단일 페이지 애플리케이션;단일 페이지 앱;SPA
-description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
-title: ' [!DNL Target] mbox.js 라이브러리는 어떻게 합니까?'
+description: Adobe Target의 이전 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 at.js 버전으로 마이그레이션합니다.
+title: ' [!DNL Target] mbox.js 라이브러리는 무엇을 합니까?'
 feature: at.js
 role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 74%
+source-wordcount: '299'
+ht-degree: 78%
 
 ---
 
@@ -19,22 +18,9 @@ ht-degree: 74%
 
 >[!IMPORTANT]
 >
->**mbox.js 수명 종료**:2021년 3월 31일부터 mbox.js 라이브러리를 더 이상  [!DNL Adobe Target] 지원하지 않습니다. 2021년 3월 31일 이후 mbox.js에서 수행된 모든 호출이 정상적으로 실패하며 기본 컨텐츠를 제공하여 [!DNL Target] 활동이 있는 페이지에 영향을 줍니다.
+>**mbox.js 서비스 종료**: 2021년 3월 31일부터 [!DNL Adobe Target] 에서는 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2021년 3월 31일 이후, mbox.js로부터의 모든 호출은 정상적으로 실패하고 기본 콘텐츠를 제공하여 [!DNL Target] 활동이 실행되는 페이지에 영향을 미칩니다.
 >
->사이트에서 발생할 수 있는 문제를 방지하려면 모든 고객이 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. 자세한 내용은 [개요:클라이언트측 웹](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)에 대한 Target을 구현합니다.
-
-Target Standard에는 [!DNL mbox.js] 버전 58 이상이 필요합니다. [!DNL mbox.js]를 다운로드하고 업데이트하는 방법에 대한 지침은 [Mbox 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420)을 참조하십시오.
-
-Target Standard의 경우 [!DNL mbox.js]는 다른 JavaScript 파일인 [!DNL target.js]를 호출합니다. [!DNL Target.js]는 Adobe에 의해 호스팅되며 Adobe에 의해 자동으로 업데이트됩니다. [!DNL target.js]를 업데이트하기 위해 수행해야 할 작업은 없으며 클라이언트별 사용자 지정 사항도 없습니다.
-
-[!DNL Target.js]는 페이지의 `<head>` 섹션에서 `target-global-mbox`라는 mbox를 만듭니다.
-
-[!DNL Target.js]는 [!DNL mbox.js]의 [!UICONTROL 추가 JavaScript] 필드에 추가된 JavaScript 코드 행에 의해 [!DNL mbox.js]에서 호출됩니다. [!DNL target.js]를 비활성화하는 유일한 방법은 이 코드 행을 포함하지 않는 것으로서, 이렇게 하면 [!DNL Target]을 비활성화하게 됩니다.
-
-[!DNL Target.js]는 [!DNL Target]에서 두 가지 기능이 있습니다.
-
-* DOM 조작
-* [!UICONTROL 시각적 경험 작성기]의 시각적 요소 활성화
+>이 날짜 이전에 모든 고객이 사이트에서 발생할 수 있는 문제를 방지하기 위해 새로운 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하는 것이 좋습니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
 ## DOM 조작 {#section_169F8D4C077948DCB4F891ABBB03FF63}
 
@@ -53,5 +39,3 @@ Target Standard의 경우 [!DNL mbox.js]는 다른 JavaScript 파일인 [!DNL ta
 ## Angular 사이트 및 단일 페이지 애플리케이션에 대한 고려 사항 {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 Angular 사이트 또는 단일 페이지 애플리케이션(SPA)에서 Target을 구현하는 경우 mbox.js 대신at.js 라이브러리를 사용해야 합니다.
-
-자세한 내용은 [at.js 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17)을 참조하십시오.
