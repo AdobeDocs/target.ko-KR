@@ -4,9 +4,9 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '4438'
+source-wordcount: '4390'
 ht-degree: 98%
 
 ---
@@ -100,7 +100,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 다음은 at.js의 알려진 문제입니다.
 
 * Adobe Analytics 코드가 페이지 요소(예: 버튼)에 없는 경우 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 Analytics for Target(A4T)에서 전환을 보고하지 않습니다. at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. 이 문제가 발생하는 경우 [최신 at.js 버전으로 업그레이드하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-* at.js 2.1.1 이하 버전(예: 기본 경험)을 사용하여 수정 없이 경험을 생성하는 경우 보고서, Analytics for Target(A4T), Adobe Analytics 또는 Google Analytics에서 경험이 계산되지 않을 수 있습니다. 또한 [ttMeta 플러그인](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) 이 제대로 작동하지 않을 수 있습니다.
+* at.js 2.1.1 이하 버전(예: 기본 경험)을 사용하여 수정 없이 경험을 생성하는 경우 보고서, Analytics for Target(A4T), Adobe Analytics 또는 Google Analytics에서 경험이 계산되지 않을 수 있습니다. 또한 ttMeta 플러그인 이 제대로 작동하지 않을 수 있습니다.
 
    해결 방법으로 경험 콘텐츠에 공백을 사용하십시오. (TNT-33366)
 
@@ -229,12 +229,6 @@ A4T와 관련된 다음과 같은 문제가 해결되었습니다.
 경험에 데이터가 없는 경우(방문 횟수 0) 자동 타겟 활동에 대한 그래프 보고서가 &quot;차등&quot; 모드(평균 리프트 및 일별 리프트)에 대해 렌더링되지 않습니다. 이러한 상황은 제어 경험이 사용자 지정으로 설정된 경우 활동의 초기 단계에서 발생할 수 있습니다. 다른 모드(평균 제어 실행 및 타기팅됨, 일별 제어 및 타기팅됨, 방문 횟수)에서는 제대로 작동합니다. 데이터가 있으면(방문 횟수가 0이 아님) 바로 보고서가 예상대로 렌더링됩니다.
 
 이 문제는 Target 19.7.1 릴리스에서 해결되었습니다.
-
-### mbox.js
-
-mbox.js 라이브러리는 Handlebars 및 Mustache와 같은 클라이언트 측 템플릿 언어를 지원하지 않습니다. at.js 라이브러리는 이러한 언어를 *지원합니다*.
-
-**참고**: mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 mbox.js에서 at.js로 마이그레이션해야 합니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
 
 ### 구현: 글로벌 Mbox를 자동으로 만들기
 
