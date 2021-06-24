@@ -1,15 +1,14 @@
 ---
 keywords: mbox.js 변경 사항;mbox.js 버전
-description: Adobe Target의 기존 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 버전의 at.js로 마이그레이션합니다.
-title: mbox.js의 각 버전에 포함되는 것은?
+description: Adobe Target의 이전 mbox.js 구현에 대해 알아봅니다. Adobe Experience Platform 웹 SDK(AEP 웹 SDK) 또는 최신 at.js 버전으로 마이그레이션합니다.
+title: mbox.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: 4e95de13-2848-497a-9d06-41e9cbd98b42
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2410'
-ht-degree: 81%
+source-wordcount: '2377'
+ht-degree: 84%
 
 ---
 
@@ -19,34 +18,34 @@ ht-degree: 81%
 
 >[!IMPORTANT]
 >
->**mbox.js 수명 종료**:2021년 3월 31일부터 mbox.js 라이브러리를 더 이상  [!DNL Adobe Target] 지원하지 않습니다. 2021년 3월 31일 이후 mbox.js에서 수행된 모든 호출이 정상적으로 실패하며 기본 컨텐츠를 제공하여 [!DNL Target] 활동이 있는 페이지에 영향을 줍니다.
+>**mbox.js 서비스 종료**: 2021년 3월 31일부터 [!DNL Adobe Target] 에서는 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2021년 3월 31일 이후, mbox.js로부터의 모든 호출은 정상적으로 실패하고 기본 콘텐츠를 제공하여 [!DNL Target] 활동이 실행되는 페이지에 영향을 미칩니다.
 >
->사이트에서 발생할 수 있는 문제를 방지하기 위해 이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션합니다. 자세한 내용은 [개요:클라이언트측 웹](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)에 대한 Target을 구현합니다.
+>이 날짜 이전에 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션하여 사이트에 문제가 발생하지 않도록 하십시오. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
 >[!NOTE]
 >
->Adobe에서는 모든 mbox.js 사용자가 버전 57 이상으로 업그레이드할 것을 권장합니다. 일부 사용자의 경우 `target.js`를 로드할 수 없을 때 시간 초과 문제가 발생했습니다. 버전 57에서는 해당 문제가 해결되었습니다. 그러나 [!DNL Experience Cloud Visitor ID] 서비스를 사용하는 경우에는 버전 58 이상이 필요합니다.
+>Adobe은 모든 mbox.js 사용자가 버전 57 이상으로 업그레이드할 것을 권장합니다. 일부 사용자의 경우 `target.js`를 로드할 수 없을 때 시간 초과 문제가 발생했습니다. 버전 57에서는 해당 문제가 해결되었습니다. 그러나 [!DNL Experience Cloud Visitor ID] 서비스를 사용하는 경우에는 버전 58 이상이 필요합니다.
 
 Target이 페이지의 호출에 응답하는 방식은 사용 중인 Target 라이브러리 버전, 방문자 ID 구현이 존재하는지 여부, 방문자 ID가 있는지 여부에 따라 다릅니다. 자세한 내용은 [라이브러리 버전별 Target 호출 응답](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0)을 참조하십시오.
 
 >[!NOTE]
 >
->mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 mbox.js에서 at.js로 마이그레이션해야 합니다. 자세한 내용은 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA)을 참조하십시오.
+>mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 mbox.js에서 at.js로 마이그레이션해야 합니다.
 
 ## mbox.js 버전 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
 **Target 릴리스:** 17.7.1
 
-이제 [!DNL mbox.js] 버전 63을 사용할 수 있습니다. 자세한 내용은 [mbox.js 다운로드](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)를 참조하십시오.
+이제 [!DNL mbox.js] 버전 63을 사용할 수 있습니다. 
 
 다음 개선 사항 및 수정 사항이 [!DNL mbox.js] 버전 63에 포함되어 있습니다.
 
-* `mboxDefine()`과 `mboxUpdate()`를 사용할 때 SDID 생성과 관련된 문제를 수정합니다. 이 문제는 페이지에 방문자 API가 있는 클라이언트에만 영향을 줍니다.
+* `mboxDefine()`과 `mboxUpdate()`를 사용할 때 SDID 생성과 관련된 문제를 수정합니다. 이 문제는 페이지에서 방문자 API가 있는 클라이언트에만 영향을 줍니다.
 
 ## mbox.js 버전 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * Google Chrome 브라우저에서 볼 때 리디렉션 활동에서 발생하는 깜박임 문제가 수정되었습니다.
-* mbox.js에서 HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 `secureOnly` 설정이 추가되었습니다. 이 설정은 기본적으로 False로 설정되는 고급 설정입니다.
+* mbox.js에서 HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 `secureOnly` 설정이 추가되었습니다. 이 설정은 기본값이 False인 고급 설정입니다.
 
 ## mbox.js 버전 61 {#section_F3B59C5578B64883AE013B9342151193}
 
@@ -71,7 +70,7 @@ mbox.js 버전 61에는 다음과 같은 향상된 기능이 포함되어 있습
 
 **릴리스 날짜:** 2016년 4월 21일
 
-기본적으로 페이지 컨텐츠는 숨겨지지 않습니다. 버전 60은 &quot;전역 mbox 자동 생성&quot; 옵션이 사용되도록 설정되어 있을 때만 페이지 컨텐츠를 숨깁니다. 또한 페이지 숨김을 위해 `display:none` 대신 CSS `opacity:0` 속성을 사용합니다. 이 속성은 응답형 사이트에 대한 적절한 배달을 보장하고 [!DNL at.js]에 맞춰 정렬합니다.
+기본적으로 페이지 컨텐츠는 숨겨지지 않습니다. 버전 60은 &quot;전역 mbox 자동 생성&quot; 옵션이 사용되도록 설정되어 있을 때만 페이지 컨텐츠를 숨깁니다. 또한 페이지 숨김을 위해 `display:none` 대신 CSS `opacity:0` 속성을 사용합니다. 이 속성은 응답형 사이트에 적절히 전달되며 [!DNL at.js]에 맞게 조정됩니다.
 
 다음 두 가지 설정을 사용하여 본문을 숨길 수 있습니다.
 
@@ -93,18 +92,18 @@ window.targetGlobalSettings = {
 </script>
 ```
 
-페이지 숨기기 기술은 스타일 태그를 사용하여 스타일을 추가 및 제거합니다. 이 기술은 페이지 숨김 코드가 실행된 후에도 사이트의 스타일이 변경되지 않도록 합니다.
+페이지 숨기기 기술은 스타일 태그를 사용하여 스타일을 추가 및 제거합니다. 이 기법은 페이지 숨김 코드가 실행된 후에도 사이트의 스타일이 변경되지 않도록 합니다.
 
-**DTM 사용자:** 이 기술은 Target UI에 위 구성을 저장할 방법이 없으므로 자동 가져오기 옵션을 사용할 수 없습니다. 위의 지침을 사용한 다음 [사용자 정의 호스팅] 옵션의 코드 상자에 내용을 붙여 넣어야 합니다.
+**DTM 사용자:**  이 기술을 사용하면 Target UI에 위 구성을 저장할 방법이 없으므로 자동 가져오기 옵션을 사용하지 못합니다. 위의 지침을 따른 후 컨텐츠를 사용자 지정 호스팅 옵션의 코드 상자에 붙여넣어야 합니다.
 
-또한 버전 60에서 Experience Cloud 방문자 ID 서비스를 위한 [!DNL visitorAPI.js] 파일이 존재하는 경우 AJAX 종단점을 통해 모든 mbox가 요청됩니다. 방문자 API 메서드는 비동기식이므로 이 프로세스가 필요합니다. 이 접근 방식의 한 가지 이점은 mbox 요청이 렌더링을 차단하지 않으므로 렌더링 시작 시간이 크게 단축된다는 것입니다. 그러나 이 방법은 모든 [!DNL Target] 오퍼 컨텐츠가 비동기식으로 실행되므로 모든 오퍼 코드를 그에 따라 작성해야 한다는 것을 의미합니다. `document.write`을 포함하는 오퍼와 초기 페이지 로드에서 실행된다고 가정하는 다른 코드는 예상대로 실행되지 않습니다.
+또한 버전 60에서 Experience Cloud 방문자 ID 서비스를 위한 [!DNL visitorAPI.js] 파일이 존재하는 경우 AJAX 종단점을 통해 모든 mbox가 요청됩니다. 방문자 API 메서드는 비동기적이므로 이 프로세스가 필요합니다. 이 접근 방식의 한 가지 이점은 mbox 요청이 렌더링을 차단하지 않으므로 렌더링 시작 시간이 크게 단축된다는 것입니다. 그러나 이 방법은 모든 [!DNL Target] 오퍼 컨텐츠가 비동기식으로 실행되므로 모든 오퍼 코드를 그에 따라 작성해야 합니다. `document.write` 을 포함하는 오퍼와 이것이 초기 페이지 로드 시 실행된다고 가정하는 다른 코드는 예상대로 실행되지 않습니다.
 
 * V60 비동기 호출
 
-   방문자 ID 서비스에서 v60을 사용하는 경우 모든 mbox 호출이 비동기적으로 수행됩니다. 이것은 mbox가 항상 작동했던 방식에서 달라진 것이므로 이 버전으로 업그레이드할 경우 주의하십시오. [ 설명서의 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953)비동기 고려 사항[!DNL at.js] 섹션을 검토하여 몇 가지 위험 요소를 이해하십시오([!DNL at.js]에서도 비동기 호출이 사용됨)을 검토하십시오.
+   방문자 ID 서비스에서 v60을 사용하는 경우 모든 mbox 호출이 비동기적으로 수행됩니다. 이것은 mbox가 항상 작동했던 방식에서 달라진 것이므로 이 버전으로 업그레이드할 경우 주의하십시오.
 * 새 방문자 시나리오에서 깜박임이 발생할 수 있음
 
-   방문자 ID 서비스에서 v58에서 v60을 사용할 때 mbox 호출은 시작하기 전에(또는 시간 초과가 발생할 때까지) 방문자 ID가 설정될 때까지 기다립니다. 이러한 현상은 새 방문자의 첫 번째 페이지 로드에서 발생합니다.
+   방문자 ID 서비스와 함께 v58~v60을 사용할 때 mbox 호출은 실행 전에(또는 시간 제한이 발생할 때까지) 방문자 ID가 설정될 때까지 기다립니다. 이러한 현상은 새 방문자의 첫 번째 페이지 로드에서 발생합니다.
 
 ## mbox.js 버전 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
@@ -142,7 +141,7 @@ window.targetGlobalSettings = {
 </script> 
 ```
 
-Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 mbox에 대한 비 JavaScript 컨텐츠를 실행합니다. 글로벌 mbox에 대한 `<script>` 태그 내의 JavaScript 콘텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 컨텐츠 전달 순서에 따라 글로벌 mbox에 대한 JavaScript 컨텐츠가 제대로 전달되고 렌더링될 수 있습니다.
+Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 mbox에 대한 비 JavaScript 컨텐츠를 실행합니다. 글로벌 mbox에 대한 `<script>` 태그 내의 JavaScript 콘텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 콘텐츠 전달 순서에 따라 글로벌 mbox에 대한 JavaScript 콘텐츠가 제대로 전달되고 렌더링될 수 있습니다.
 
 ## mbox.js 버전 57 {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
 
@@ -154,7 +153,7 @@ Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글�
 
 * Target Standard에 대해 자동 생성된 글로벌 mbox 응답이 더 이상 document.write()를 사용하거나 `<div>` 요소를 생성하지 않습니다.
 
-   이 변경 사항은 mbox.js 파일이 페이지의 `<head>`에 있는 마지막 항목이 될 필요가 없습니다. 이 새 버전으로 업그레이드할 때는 강력한 QA가 권장됩니다.
+   이 변경 사항으로 mbox.js 파일이 페이지의 `<head>`에서 마지막 항목이 될 필요가 없습니다. 이 새 버전으로 업그레이드할 때는 강력한 QA가 권장됩니다.
 
    이러한 변경 사항 때문에 일부 오퍼 유형을 전달할 때의 동작이 달라질 수 있습니다. 고려해야 하는 특정 조건은 다음과 같습니다.
 
@@ -165,7 +164,7 @@ Mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글�
 
       `<script src='external-url' async='true'></script>`
 
-      `async` 특성은 Internet Explorer에서 제한된 지원을 가집니다(자세한 내용은 다음 참조:[https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility))를 사용하여 이전 IE 버전을 사용하는 방문자를 이러한 타사 스크립트를 포함하는 테스트에서 제외해야 합니다.
+      `async` 속성은 Internet Explorer에서 지원이 제한되었습니다(자세한 내용은 다음과 같습니다.[https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility))에서 이전 IE 버전을 사용하는 방문자를 이러한 타사 스크립트를 포함하는 테스트에서 제외해야 합니다.
 
 * mbox.js의 Extra JavaScript 섹션에서 수행된 변경 때문에 버전 56에서 보고된 문제가 해결되었습니다. Extra JavaScript 섹션의 모든 코드를 전역 범위에서 다시 사용할 수 있습니다.
 
@@ -197,7 +196,7 @@ mbox.js 버전 57에는 다음과 같은 중요한 수정 사항도 포함되어
 이 버전에서는 다음과 같은 부분이 변경되었습니다.
 
 * 전역 mbox로의 매개 변수 전달을 지원하기 위한 Premium Recommendations의 변경 사항
-* target.js 로드 호출에 5초 시간 초과를 추가합니다. 드문 경우이지만 파일이 로드되지 않으면 페이지가 렌더링되고 Target Standard 활동이 표시되지 않습니다.
+* target.js 로드 호출에 5초 시간 제한을 추가합니다. 드문 경우이지만 파일이 로드되지 않으면 페이지가 렌더링되고 Target Standard 활동이 표시되지 않습니다.
 * &quot;extra JavaScript&quot;가 전역 mbox 이전에 실행되도록 이동됨
 
    v56+의 모든 설정은 네임스페이스됩니다. &quot;extra JavaScript&quot;에서 선언된 함수가 있는 경우 `window`를 접두사로 추가해야 합니다.
@@ -232,7 +231,7 @@ IE 수정 사항으로 버전 53을 수정합니다.
 
 **릴리스 날짜:** 2014년 9월 30일
 
-document.write에서 AJAX에 대한 전역 mbox 구현이 변경되었습니다. 이 변경 사항은 mbox.js 파일이 페이지의 `<head>` 섹션에 있는 마지막 항목이 될 필요가 없습니다. 이 버전은 API를 통해서만 사용할 수 있습니다. 클라이언트는 이를 다운로드한 후 이 mbox.js 파일을 사용할 수 있습니다. 이 구현에 따라 일부 사이트 경험 컨텐츠가 깜박거리므로 사용자 사이트에서 이러한 통합을 확인하십시오.
+document.write에서 AJAX에 대한 전역 mbox 구현이 변경되었습니다. 이 변경 사항으로 mbox.js 파일이 페이지의 `<head>` 섹션에서 마지막 항목이 될 필요가 없습니다. 이 버전은 API를 통해서만 사용할 수 있습니다. 클라이언트는 이를 다운로드한 후 이 mbox.js 파일을 사용할 수 있습니다. 이 구현에 따라 일부 사이트 경험 컨텐츠가 깜박거리므로 사용자 사이트에서 이러한 통합을 확인하십시오.
 
 ## mbox 버전 53
 
@@ -316,7 +315,7 @@ Experience Cloud 공유 방문자 ID 서비스에 대한 초기 지원을 추가
 
 * 트래픽 제한이 mbox.js가 활성화되어 있을 때에만 발생하도록 수정했습니다.
 
-   이 문제는 고객이 해당 mbox.js에 트래픽 제한을 설정하여 시간 제한 설정이 작동되지 않도록 하는 경우에 발생했습니다. Target 서버에서 적절한 응답을 기다리는 동안 페이지가 새로 고쳐집니다.
+   이 문제는 고객이 해당 mbox.js에 트래픽 제한을 설정하여 시간 제한 설정이 작동되지 않도록 하는 경우에 발생했습니다. 이로 인해 Target 서버의 양호한 응답을 기다리는 동안 페이지가 새로 고쳐졌습니다.
 
 * SiteCalyst 플러그인이 항상 Ajax 페쳐를 사용하도록 수정했습니다.
 
