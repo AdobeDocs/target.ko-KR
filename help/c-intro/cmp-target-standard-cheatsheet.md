@@ -4,9 +4,9 @@ description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Tar
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: 개요
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '2918'
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
@@ -34,14 +34,6 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 **Target에서는 어떤 브라우저를 지원합니까?**
 
 자세한 내용은 [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
-
-## Target JavaScript 라이브러리(at.js 및 mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**at.js 또는 mbox.js 중에서 어떻게 구현된 JavaScript 파일을 사용해야 합니까?**
-
-at.js는 최신의 가장 뛰어난 JavaScript 라이브러리입니다. mbox.js는 이전 버전입니다. 두 라이브러리 간의 차이점을 이해하려면 [at.js의 이점](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) 을 참조하십시오. 신규 고객은 모두 at.js를 사용해야 합니다.
-
-기존의 모든 mbox.js 고객은 at.js로 마이그레이션해야 합니다. 전환을 수행하기 전에 [mbox.js에서 at.js로 마이그레이션](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) 에 포함된 단계에 대해 자세히 알아보십시오.
 
 ## 활동 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
