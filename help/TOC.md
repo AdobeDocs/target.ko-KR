@@ -5,7 +5,7 @@ user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 �
 feature-set: Target
 source-git-commit: dc0eb0e12df78804bb4692afc40b0dac6b6e27d6
 workflow-type: tm+mt
-source-wordcount: '1604'
+source-wordcount: '1544'
 ht-degree: 98%
 
 ---
@@ -137,21 +137,6 @@ ht-degree: 98%
          + [at.js 버전 세부 사항](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
          + [at.js 1.x에서 at.js 2.x로 업그레이드](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
          + [at.js 쿠키](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
-      + mbox.js 구현(레거시) {#mbox-implement}
-         + [mbox.js 구현 개요](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
-         + mbox.js에서 at.js로 마이그레이션 {#migrate-mbox}
-            + [mbox.js에서 at.js로 마이그레이션 개요](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md)
-            + [mbox.js에서 at.js로 마이그레이션하는 방법](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md)
-            + [at.js 제한 사항](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
-            + [at.js 플러그인](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
-            + [비프로덕션 환경에 at.js 배포](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-test-atjs.md)
-         + [mbox.js가 수행하는 작업](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-technical.md)
-         + [mbox.js 구성](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md)
-         + [mbox.js 다운로드](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md)
-         + [Target mbox.js 라이브러리 버전별 페이지 호출 방법](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md)
-         + [주문 확인 mbox 만들기 - mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md)
-         + [mbox.js 자주 묻는 질문](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-         + [mbox.js 함수](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-functions.md)
       + 글로벌 mbox 이해 {#global-mbox}
          + [글로벌 mbox 이해 개요](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md)
          + [글로벌 mbox 사용자 지정](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md)
