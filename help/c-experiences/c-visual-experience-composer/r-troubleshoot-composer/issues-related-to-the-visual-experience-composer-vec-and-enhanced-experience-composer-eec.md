@@ -4,10 +4,10 @@ description: 특정 조건에서 Adobe [!DNL Target] VEC(시각적 경험 작성
 title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제를 해결하려면 어떻게 해야 합니까?
 feature: 시각적 경험 작성기(VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 63%
+source-wordcount: '1341'
+ht-degree: 60%
 
 ---
 
@@ -43,7 +43,7 @@ Adobe이 업데이트된 VEC Helper 확장을 Google Chrome 스토어에 제출�
 
 ## [!DNL Target]이 여러 수준의 iframe을 지원합니까?
 
-Target은 여러 수준의 iframe를 지원하지 않습니다. 웹 사이트가 하위 iframe이 있는 iframe을 로드하는 경우 타겟 라이브러리(at.js 및 mbox.js)는 상위 iframe과만 상호 작용합니다. 타겟 라이브러리는 하위 iframe과 상호 작용하지 않습니다.
+[!DNL Target] 은 여러 수준의 iframe을 지원하지 않습니다. 웹 사이트가 하위 iframe이 있는 iframe을 로드하는 경우 at.js는 상위 iframe과만 상호 작용합니다. [!DNL Target] 라이브러리는 하위 iframe과 상호 작용하지 않습니다.
 
 해결 방법으로, 하위 iframe의 URL을 사용하여 경험에 페이지를 추가할 수 있습니다.
 
