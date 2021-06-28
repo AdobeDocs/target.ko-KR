@@ -1,12 +1,12 @@
 ---
-keywords: document.write;target;구현;target 구현;dtm;at.js;mbox.js;target.js;mbox;adobe experience platform web sdk;aep web sdk
-description: 웹 페이지에서 Adobe [!DNL Target] by referencing the [!DNL Target] 라이브러리(at.js 또는 mbox.js)를 구현합니다.
+keywords: document.write;target;구현;target 구현;dtm;at.js;adobe experience platform web sdk;aep 웹 sdk;웹 sdk
+description: 웹 페이지에서 Adobe [!DNL Target] by referencing the [!DNL Target] JavaScript 라이브러리를 구현합니다.
 title: ' [!DNL Target]  JavaScript 라이브러리 이해 '
 feature: 구현
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 24%
+source-wordcount: '436'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 2021년 3월 31일 이전에 mbox.js에서 at.js 또는 [!UICONTROL Adobe Experience Platform Web SDK]로 마이그레이션해야 합니다.
+>mbox.js 라이브러리는 더 이상 개발되지 않습니다. 모든 고객은 2021년 3월 31일 이전에 at.js 또는 [!UICONTROL Adobe Experience Platform Web SDK]로 마이그레이션해야 합니다.
 
 ## [!DNL Target] JavaScript 라이브러리 간 차이점 {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
@@ -26,7 +26,7 @@ ht-degree: 24%
 | 라이브러리 참조 | 설명 |
 |--- |--- |
 | Adobe Experience Platform 웹 SDK | [!UICONTROL Adobe Experience Platform Web SDK]를 사용하면 Adobe Experience Edge 네트워크를 통해 [!DNL Experience Cloud]([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe Experience Platform Web SDK]으로 마이그레이션하도록 선택하는 경우 *웹 SDK 안내서*&#x200B;에서 [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)란?을 참조하십시오. |
-| at.js | at.js는 [!DNL [!DNL Target]] 구현을 위한 mbox.js를 대신합니다.<br>여러 가지 이점 중에서 at.js는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 보안을 강화하고, Google Chrome의 document.write 경고를 방지하며, 단일 페이지 애플리케이션에 대해 더 나은 구현 선택 사항을 제공합니다. |
+| at.js | at.js는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 보안을 강화하고, Google Chrome의 document.write 경고를 방지하며, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. |
 
 ## 페이지 로드 시간에 대한 at.js의 영향 {#section_16630CD0FF0A498EB596A51381366A5A}
 
