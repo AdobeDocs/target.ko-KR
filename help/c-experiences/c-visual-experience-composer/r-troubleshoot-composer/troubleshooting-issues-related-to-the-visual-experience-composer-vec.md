@@ -1,22 +1,21 @@
 ---
-keywords: 타깃팅;시각적 경험 작성기;vec;문제 해결 시각적 경험 작성기;문제 해결;tls;tls 1.2
-description: 특정 조건에서 Adobe [!DNL Target] VEC(Visual Experience Composer)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
-title: Visual Experience Composer와 관련된 문제를 해결하려면 어떻게 해야 합니까?
+keywords: 타깃팅;시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;tls;tls 1.2
+description: 특정 조건에서 Adobe [!DNL Target] VEC(시각적 경험 작성기)에서 발생하는 문제를 해결하는 방법을 알아봅니다.
+title: 시각적 경험 작성기와 관련된 문제를 해결하려면 어떻게 해야 합니까?
 feature: 시각적 경험 작성기(VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 87%
+ht-degree: 86%
 
 ---
 
-# Visual Experience Composer와 관련된 문제 해결
+# 시각적 경험 작성기에 관련된 문제 해결
 
-특정 조건 아래의 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 디스플레이 문제가 발생하는 경우가 있습니다.
+특정 조건에서 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC)에 문제가 발생하는 경우가 있습니다.
 
-## Visual Experience Composer에서 웹 사이트를 열면 [!DNL Target] 라이브러리가 로드되지 않습니다. (VEC만 해당) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## 시각적 경험 작성기에서 웹 사이트를 열면 [!DNL Target] 라이브러리가 로드되지 않습니다. (VEC만 해당) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 매개 변수(`mboxEdit=1` 및 `mboxDisable=1`)를 추가합니다.
 
@@ -33,7 +32,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 고급 경험 작성기에서 문제가 발생할 경우 고급 경험 작성기를 끄고 시각적 경험 작성기를 대신 사용합니다.
 
-향상된 경험 작성기를 비활성화하려면 **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]**&#x200B;로 이동하여 **[!UICONTROL 향상된 경험 작성기 사용]** 옵션을 해제합니다.
+고급 경험 작성기를 비활성화하려면 **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]**&#x200B;로 이동한 다음 **[!UICONTROL 고급 경험 작성기 활성화]** 옵션을 끄십시오.
 
 일부 사용자의 경우 콘솔에 다음과 같은 오류 메시지가 표시됩니다.
 
@@ -109,7 +108,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 확장을 설정한 후 Target을 엽니다. 이제 고급 경험 작성기가 비활성화되더라도 페이지가 시각적 경험 작성기에 로드됩니다.
 
-## VEC(VEC 전용)에 내 페이지가 표시되지 않습니다.  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## VEC(VEC 전용)에 내 페이지가 표시되지 않습니다. {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * 브라우저가 지원되지 않습니다.
 * 브라우저가 보안 사이트에서 비보안 페이지를 차단하고 있습니다.
@@ -118,8 +117,8 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 * 올바르지 않은 URL을 입력했습니다.
 * 계정 설정 페이지에 기본 URL을 입력하지 않았습니다.
 
-이 설정이 활성화되어 있는지 확인한 다음, 웹 사이트에서 mbox.js를 다운로드하여 업데이트하십시오.
+이 설정이 활성화되어 있는지 확인한 다음, 웹 사이트에서 at.js를 다운로드하여 업데이트하십시오.
 
-## 찾아보기 모드를 사용할 때 VEC가 손상된 것으로 나타납니다. (VEC만 해당)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 찾아보기 모드를 사용할 때 VEC가 손상된 것으로 나타납니다. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 찾아보기 모드를 사용하는 동안 target.js가 없거나 frame-buster 헤더를 포함하는 URL에 액세스하면 시각적 경험 작성기가 중단된 것으로 나타납니다. 브라우저 보안 때문에, Target이 탐색한 URL에 액세스할 수 없습니다.
