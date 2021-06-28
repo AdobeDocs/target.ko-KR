@@ -1,12 +1,11 @@
 ---
 keywords: mbox 정의;mbox 정의;mbox 정의;mbox업데이트;mbox 업데이트;mbox 업데이트;at.js;함수;함수
-description: Adobe [!DNL Target] at.js JavaScript 라이브러리에 대한 mboxDefine() 및 mboxUpdate() 함수를 사용하여 mbox를 정의하거나 업데이트합니다. (at.js 1.x)
-title: mboxDefine() 및 mboxUpdate() 함수를 어떻게 사용합니까?
+description: Adobe [!DNL Target] at.js JavaScript 라이브러리에 대해 mboxDefine() 및 mboxUpdate() 함수를 사용하여 mbox를 정의하거나 업데이트합니다. (at.js 1.x)
+title: mboxDefine() 및 mboxUpdate() 함수를 사용하려면 어떻게 합니까?
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '197'
 ht-degree: 86%
@@ -25,7 +24,7 @@ Adobe Target에서 mbox를 정의하고 업데이트합니다.
 
 ## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
-nodeId와 mbox 이름 사이에 내부 매핑을 만들되, 요청을 실행하지 마십시오. `mboxUpdate()`와 함께 사용됩니다. 주로 [!DNL mbox.js]에서 [!DNL at.js]로 간편하게 전환하기 위해 [!DNL at.js]에 내장되어 있습니다.
+nodeId와 mbox 이름 사이에 내부 매핑을 만들되, 요청을 실행하지 마십시오. `mboxUpdate()`와 함께 사용됩니다. 주로 [!DNL at.js]에서 [!DNL mbox.js]로 간편하게 전환하기 위해 [!DNL at.js]에 내장되어 있습니다.
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
