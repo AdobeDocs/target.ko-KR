@@ -1,24 +1,23 @@
 ---
 keywords: 클릭 추적;클릭 수 추적;클릭 수;AppMeasurement
-description: Adobe [!DNL Target] 을 사용하여 모든 요소의 클릭 수를 성공 지표로 추적하는 방법을 알아봅니다.
-title: 클릭 추적이란 무엇입니까?
-feature: 성공 지표를 참조하십시오
+description: Adobe [!DNL Target] 을 통해 요소에 대한 클릭 수를 성공 지표로 추적하는 방법을 알아봅니다.
+title: 클릭 추적이란?
+feature: 성공 지표
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '886'
-ht-degree: 91%
+source-wordcount: '885'
+ht-degree: 93%
 
 ---
 
 # 클릭 추적
 
-[!DNL Adobe Target] 모든 요소의 클릭을 성공 지표로 추적할 수 있습니다.
+[!DNL Adobe Target] 요소에 대한 클릭 수를 성공 지표로 추적할 수 있습니다.
 
 >[!NOTE]
 >
->양식 기반 활동의 위치로 사용될 경우 글로벌 Target 요청에서는 클릭 추적을 지원하지 않습니다.
+>클릭 추적이 양식 기반 활동에서 위치로 사용하는 경우 글로벌 Target 요청에서 지원되지 않습니다.
 
 ## 클릭 추적 설정 {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -73,8 +72,8 @@ A/B 테스트, XT(경험 타깃팅), AP(자동화된 개인화) 및 MVT(다변�
 
    자세한 내용은 *시각적 경험 작성기 선택 사항*&#x200B;에서 [DOM 경로를 사용하여 요소 탐색](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)을 참조하십시오.
 
-* 페이지에서 컨텐츠를 변경하지 않을 수 있는 클릭 수를 추적하기 위해 다른 페이지로 이동할 수 있습니다. 이 다른 페이지는 [다중 페이지 기능](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 사용하는 활동에 포함되어야 하며, [!DNL at.js] 또는 [!DNL mbox.js]가 구현되어야 합니다.
-* 둘 이상의 요소를 선택하는 경우 참여자가 선택된 요소 중 하나를 클릭하면 해당 클릭은 카운트됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오. 한 페이지에서 여러 요소를 클릭하여 하나의 항목을 카운트하려면 CSS 요소 선택기를 편집하여 여러 요소와 일치시킵니다.
+* 페이지에서 컨텐츠를 변경하지 않을 수 있는 클릭 수를 추적하기 위해 다른 페이지로 이동할 수 있습니다. 이 다른 페이지는  [다중 페이지 ](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) 기능 을 구현해야  [!DNL at.js] 합니다.
+* 둘 이상의 요소를 선택하는 경우 참여자가 선택된 요소 중 하나를 클릭하면 해당 클릭은 카운트됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오. 페이지에서 여러 요소를 클릭하여 한 항목을 계산하려면 CSS 요소 선택기를 여러 요소와 일치하도록 편집하십시오.
 * 추적할 요소의 수준을 선택해야 합니다. 예를 들어, 단추를 지정할 때 단추 텍스트가 아닌 링크를 선택해야 합니다.
 * 클릭 이벤트는 클릭이 진행된 동일한 페이지에 있는 [!DNL Target]으로 전송됩니다.
 * 클릭 추적 지표가 A4T 활동의 목표 지표인 경우, 지표를 추적하기 위해 방문자는 페이지가 로드되고 60초 이내에 이 요소를 클릭해야 합니다.
