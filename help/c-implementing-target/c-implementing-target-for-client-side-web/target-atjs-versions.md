@@ -1,12 +1,12 @@
 ---
 keywords: at.js 릴리스;at.js 버전;릴리스 노트
-description: 각 Adobe 버전 [!DNL Target] at.js JavaScript 라이브러리의 변경 사항에 대한 세부 정보를 봅니다.
-title: at.js의 각 버전에 포함되는 것은?
+description: Adobe [!DNL Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항을 봅니다.
+title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '4181'
+source-wordcount: '4143'
 ht-degree: 89%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 89%
 
 >[!IMPORTANT]
 >
->Target 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행하고 있는지 확인하려면 at.js의 주요 버전 중 하나의 최신 버전으로 업그레이드하십시오.
+>Target 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오.
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch는 at.js를 업그레이드할 때 사용하는 기본 방법입니다. 익스텐션 개발자는 익스텐션에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정할 수 있습니다. 이러한 업데이트는 새로운 버전의 익스텐션으로 패키지되어 [!DNL Launch] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *Experience Platform Launch 사용 안내서*&#x200B;의 [확장 업그레이드](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)를 참조하십시오.
+>[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch 는 at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Launch] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *Experience Platform Launch 사용 안내서*&#x200B;에서 [확장 업그레이드](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)를 참조하십시오.
 
 ## at.js 2.5.0(2021년 5월 13일)
 
@@ -36,7 +36,7 @@ ht-degree: 89%
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 * mbox 요청에 포함되는 `targetPageParams`에 관한 문제가 해결되었습니다. `targetPageParams`은 `pageLoad` 요청에만 포함되어야 합니다. (TNT-40247)
-* 최적화된 창 및 [!DNL Adobe Experience Platform Launch] 확장에서 참조하는 문서 글로벌. (TNT-37124)
+* [!DNL Adobe Experience Platform Launch] 확장에서 참조하는 최적화된 창 및 문서 전역. (TNT-37124)
 
 ## at.js 2.4.0(2021년 1월 14일)
 
@@ -49,7 +49,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.
 
-* mbox 클릭 추적 및 A4T와 관련된 문제를 수정했습니다. 0n-클릭으로 Target은 올바른 mbox 및 mbox 매개 변수를 사용하여 배달 API 호출을 실행했습니다. 그러나 SDID가 [!DNL Analytics] 호출의 SDID와 일치하지 않으므로 히트 스티칭과 전환이 없습니다. (TNT-38372)
+* mbox 클릭 추적 및 A4T와 관련된 문제가 해결되었습니다. 0n-클릭으로 Target이 올바른 mbox 및 mbox 매개 변수로 배달 API 호출을 실행했습니다. 그러나 SDID가 [!DNL Analytics] 호출의 SDID와 일치하지 않으므로 히트 결합 및 전환이 없습니다. (TNT-38372)
 
 ## at.js 2.3.2(2020년 7월 24일)
 
@@ -75,41 +75,41 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
-* 배달된 Target 오퍼을 적용할 때 페이지 DOM에 추가된 SCRIPT 및 STYLE 태그에서 Content Security 정책 원본을 설정할 수 있습니다. 고객은 at.js가 적용된 오퍼에서 해당 스크립트 및 스타일 태그 원본을 설정할 수 있도록 `targetGlobalSettings.cspScriptNonce` 및 `targetGlobalSettings.cspStyleNonce`을 설정할 수 있습니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)을 참조하십시오.
-* Google 태그 관리자 배포용 Google Closure 컴파일러를 사용하여 at.js를 컴파일할 때 발생하는 문제가 해결되었습니다.
-* 고객의 구현과의 충돌을 피하기 위해 at.js 확인 쿠키의 이름을 `check`에서 `at_check`로 변경했습니다.
+* 전달된 Target 오퍼을 적용할 때 SCRIPT에서 컨텐츠 보안 정책 임시 항목 및 페이지 DOM에 추가된 STYLE 태그 설정을 지원합니다. 고객은 적용된 오퍼에서 해당 스크립트 및 스타일 태그 임시 항목을 설정할 수 있도록 `targetGlobalSettings.cspScriptNonce` 및 `targetGlobalSettings.cspStyleNonce` 를 설정할 수 있습니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 를 참조하십시오.
+* Google Tag Manager 배포를 위해 Google Closure 컴파일러를 사용하여 at.js를 컴파일할 때 발생하는 문제를 해결했습니다.
+* 고객의 구현과 충돌을 방지하기 위해 at.js 확인 쿠키의 이름을 `check`에서 `at_check`로 변경했습니다.
 
 ## at.js 버전 1.8.1(2020년 3월 25일)
 
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
-* 고객의 구현과의 충돌을 피하기 위해 at.js 확인 쿠키의 이름을 `check`에서 `at_check`로 변경했습니다.
+* 고객의 구현과 충돌을 방지하기 위해 at.js 확인 쿠키의 이름을 `check`에서 `at_check`로 변경했습니다.
 
 ## at.js 버전 2.2.0(2019년 10월 10일)
 
-at.js의 이번 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
+at.js 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
 
-* Adobe Analytics 코드가 페이지 요소에 없을 때 클릭 추적이 Analytics for Target(A4T)의 전환을 보고하지 않았던 문제를 수정했습니다.
-* 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4 및 at.js 2.2를 모두 사용할 때 성능이 개선되었습니다.
+* Adobe Analytics 코드가 페이지 요소에 없을 때 클릭 추적이 Analytics for Target(A4T)에서 전환을 보고하지 않는 문제를 수정했습니다.
+* 웹 페이지에서 ECID(Experience Cloud ID 서비스) v4.4와 at.js 2.2를 모두 사용할 때 성능이 향상되었습니다.
 * 이전에는 at.js가 경험을 가져오기 전에 ECID가 두 번의 차단 호출을 했습니다. 이것이 한 번의 호출로 줄어들어 성능이 크게 향상되었습니다.
-* 기본 오퍼의 이벤트 토큰이 보낸 알림에 포함되지 않는 잘못된 프리페치 보기 처리를 수정했습니다.
+* 기본 오퍼의 이벤트 토큰이 전송된 알림에 포함되지 않는 잘못된 미리 가져오기 보기 처리가 수정되었습니다.
 
    >[!NOTE]
    >
-   >이 향상된 성능을 활용할 수 있도록 ECID Launch Extension을 v4.4로 업그레이드하십시오.
+   >ECID Launch 확장을 v4.4로 업그레이드하여 향상된 성능을 이용해 보십시오.
 
-* at.js 버전 2.2에서는 `serverState`이라는 새 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 사용하고 있으며, 서버측에서 배달 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+에서 서버측에서 가져온 콘텐츠에서 직접 경험을 적용하고 서비스되는 페이지의 일부로 클라이언트에 반환할 수 있는 기능을 제공합니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)의 &quot;serverState&quot;를 참조하십시오.
+* at.js 버전 2.2에서는 `serverState` 이라는 새로운 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 사용하고 있으며, 서버측에서 배달 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+에서 서버측에서 가져온 콘텐츠에서 직접 경험을 적용하고 서비스되는 페이지의 일부로 클라이언트에 반환할 수 있는 기능을 제공합니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)의 &quot;serverState&quot;를 참조하십시오.
 
 ## at.js 버전 1.8.0(2019년 10월 10일)
 
-at.js의 이번 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
+at.js 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
 
-* 웹 페이지에서 ECID(Experience Cloud ID Service) v4.4 및 at.js 1.8을 모두 사용할 때의 성능이 개선되었습니다.
+* 웹 페이지에서 ECID(Experience Cloud ID 서비스) v4.4와 at.js 1.8을 모두 사용할 때 성능이 향상되었습니다.
 * 이전에는 at.js가 경험을 가져오기 전에 ECID가 두 번의 차단 호출을 했습니다. 이것이 한 번의 호출로 줄어들어 성능이 크게 향상되었습니다.
 
 >[!NOTE]
 >
->이 향상된 성능을 활용할 수 있도록 ECID Launch Extension을 v4.4로 업그레이드하십시오.
+>ECID Launch 확장을 v4.4로 업그레이드하여 향상된 성능을 이용해 보십시오.
 
 ## at.js 버전 2.1.1(2019년 7월 24일)
 
@@ -175,7 +175,7 @@ at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같
 
 * 페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.
 * 오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.
-* 간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타깃팅(XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.
+* 간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타기팅(XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.
 
 at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.
 
@@ -323,7 +323,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 * `target="_blank"`인 링크에 대한 클릭 추적을 수행할 경우 새 탭에서 링크가 열리지 않도록 하는 문제가 수정되었습니다. (TNT-28072)
 * IP 주소를 쿠키 도메인으로 사용할 수 있습니다. (TNT-28002)
 * 글로벌 mbox 또는 기타 지역 mbox가 있는 리디렉션 오퍼에서 깜박임을 유발하던 문제가 수정되었습니다. (TNT-27978)
-* 찾아보기와 작성 간을 전환할 때 VEC 내에서 경험 타깃팅 활동 설정이 실패하는 문제가 수정되었습니다. (TNT-27942)
+* 찾아보기와 작성 간을 전환할 때 VEC 내에서 경험 타기팅 활동 설정이 실패하는 문제가 수정되었습니다. (TNT-27942)
 * 클릭 추적 요소에 대한 깜박임 스타일 클래스의 잘못된 처리가 수정되었습니다. (TNT-27896)
 * 전역 mbox 매개 변수가 모든 mbox 매개 변수와 혼합되도록 하는 문제가 수정되었습니다. (TNT-27846)
 * Handlebars, Mustache 및 기타 클라이언트 측 템플릿 라이브러리가 [!DNL at.js]에서 제대로 처리되도록 하는 데 필요한 변경이 수행되었습니다. (TNT-27831)
@@ -406,7 +406,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 **날짜:** 2016년 9월 21일
 
-* Device Graph 옵트아웃을 활성화하거나 비활성화하는 `optoutEnabled` 설정이 추가되었습니다. 이 설정이 `true`로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 베타 버전입니다. 이 설정은 기본적으로 `false`로 설정되지만 Device Graph를 사용하는 경우에는 `true`로 설정되어야 합니다. 비슷한 옵션이 mbox.js v61에 포함되어 있습니다.
+* Device Graph 옵트아웃을 활성화하거나 비활성화하는 `optoutEnabled` 설정이 추가되었습니다. 이 설정이 `true`로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 베타 버전입니다. 이 설정은 기본적으로 `false`로 설정되지만 Device Graph를 사용하는 경우에는 `true`로 설정되어야 합니다.
 * 알림 메커니즘에 대한 `CustomEvent` 지원이 추가되었습니다. 이전에는 at.js 이벤트 알림 메커니즘을 `document.addEventListener()`()와 같은 표준 DOM API를 통해 사용할 수 없었습니다. 이제는 `document.addEventListener()`를 사용하여 요청 이벤트 및 콘텐츠 렌더링 이벤트와 같은 at.js 이벤트에 가입할 수 있습니다.
 * VEC(시각적 경험 작성기)에서 만든 오퍼와 관련된 문제가 수정되었습니다. 이 릴리스 이전에 Target은 선택기를 숨기고, 모든 선택기가 선택될 때만 숨김을 해제했습니다. at.js 0.9.2 Target은 일치하는 선택기가 확인되면 바로 숨김을 해제합니다.
 
@@ -416,7 +416,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 * 서비스의 자체 시간 제한 시간과는 별개인 방문자 ID 서비스에 대한 시간 제한을 at.js에 제공합니다.
 * 일부 페이지에서는 at.js를 사용하고 다른 페이지에서는 mbox.js를 사용하여 구현에 영향을 미치던 0.9.0의 문제를 수정합니다.
-* Adobe Analytics를 활동의 보고 소스로 사용하는 경우, mbox.js 버전 61 이상 또는 at.js 버전 0.9.1 이상을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. mbox.js 또는 at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]에 보냅니다. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
+* Adobe Analytics를 활동의 보고 소스로 사용하는 경우, mbox.js 버전 61 이상 또는 at.js 버전 0.9.1 이상을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]에 보냅니다. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
 
 ## at.js 버전 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -434,7 +434,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
    * 기존 확장(예: AngularJS 확장)은 `registerExtension()` 접근 방식을 사용하도록 업데이트해야 합니다.
 
-* at.js 알림 API를 새로 추가했습니다.
+* 새 at.js 알림 API.
 
    이 알림 시스템의 목표는 페이지에서 [!DNL at.js]가 수행하는 작업과 문제가 발생하는 경우를 보다 잘 이해할 수 있도록 하는 것입니다. VEC에서 나타나는 일반적인 문제는 IT 릴리스가 페이지를 변경하고, VEC 선택기가 중단되고, 테스트가 더 이상 콘텐츠를 올바르게 배달하지 못하는 것입니다. 이 알림 시스템의 목표는 이 배달 문제를 페이지에 알려서 개발자들이 이 정보에 액세스하고, [!DNL Adobe Analytics]와 같은 시스템에 전달하고, 테스트가 중단된 비즈니스 소유자에게 경고를 보낼 수 있도록 하는 것입니다.
 
@@ -451,10 +451,6 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 [!DNL at.js]는 일반적인 웹 구현과 단일 페이지 애플리케이션 둘 다에 맞게 디자인된 새로운 [!DNL Target]용 구현 라이브러리입니다.
 
 [!DNL at.js]는 [!DNL Adobe Target]을 구현할 수 있도록 [!DNL mbox.js]를 대체합니다.
-
->[!NOTE]
->
->[!DNL at.js]는 [!DNL mbox.js]를 대신하지만 mbox.js는 계속 지원될 예정입니다. 대부분의 사용자에게 [!DNL at.js]는 [!DNL mbox.js]보다 나은 이점을 제공합니다. 이 기회에 [!DNL at.js]를 테스트해 보고 페이지에서 구현을 변경해 보십시오.
 
 여러 가지 이점 중에서 [!DNL at.js]는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 보안을 강화하고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다.
 
