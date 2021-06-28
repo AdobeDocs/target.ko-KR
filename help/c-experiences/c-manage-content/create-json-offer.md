@@ -1,36 +1,34 @@
 ---
 keywords: 원격 오퍼;원격 오퍼 만들기
 description: 양식 기반 경험 작성기에서 사용할 Adobe [!DNL Target] 에서 JSON 오퍼를 만드는 방법을 알아봅니다. JSON 오퍼는 SPA 프레임워크 또는 서버측 통합에 유용합니다.
-title: JSON 오퍼는 어떻게 생성합니까?
+title: JSON 오퍼를 만들려면 어떻게 합니까?
 feature: 경험 및 오퍼
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 54%
+source-wordcount: '403'
+ht-degree: 53%
 
 ---
 
 # JSON 오퍼 만들기
 
-[!UICONTROL 양식 기반 경험 작성기]에서 사용할 JSON 오퍼를 [!DNL Adobe Target]의 [!UICONTROL 오퍼 라이브러리]에서 만듭니다.
+[!UICONTROL 양식 기반 경험 작성기]에서 사용할 [!DNL Adobe Target]의 [!UICONTROL 오퍼 라이브러리]에 JSON 오퍼를 만드십시오.
 
-JSON 오퍼는 양식 기반 활동에 사용할 수 있으므로 SPA 프레임워크 또는 서버측 통합에서 사용할 목적으로 [!DNL Target]의 의사 결정이 JSON 형식으로 오퍼를 전송하기 위해 사용 사례가 필요합니다.
+JSON 오퍼는 SPA 프레임워크 또는 서버측 통합에서 소비할 JSON 형식의 오퍼를 전송하는 데 [!DNL Target] 의 의사 결정이 필요한 사용 사례를 가능하게 하는 양식 기반 활동에서 사용할 수 있습니다.
 
 ## JSON 고려 사항
 
 JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시오.
 
-* JSON 오퍼는 현재 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅](XT) 활동에만 사용할 수 있습니다.
+* JSON 오퍼는 현재 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 활동에만 사용할 수 있습니다.
 * JSON 오퍼는 [양식 기반 활동](/help/c-experiences/form-experience-composer.md)에서만 사용할 수 있습니다.
 * JSON 오퍼는 서버측 API, Mobile SDK 또는 NodeJS SDK를 사용할 때 바로 검색할 수 있습니다.
 * 브라우저에서 JSON 오퍼는 at.js 1.2.3(또는 이상)을 통해서&quot;만&quot;,  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)를 사용(`setJson` 작업을 사용하여 작업을 필터링함으로써)하여 검색할 수 있습니다.
 * JSON 오퍼는 문자열이 아닌 기본 JSON 개체로 제공됩니다. 이러한 개체의 소비자는 개체를 문자열로 처리하고 JSON 개체로 변환하도록 더 이상 요구받지 않습니다.
 * JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 코드를 작성해야 [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
-* mbox.js를 사용하는 경우 JSON 오퍼가 지원되지 않습니다.
 
-## JSON 오퍼 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A} 만들기
+## JSON 오퍼 만들기 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. **[!UICONTROL 오퍼]** > **[!UICONTROL 코드 오퍼]**&#x200B;를 클릭합니다.
 
@@ -46,7 +44,7 @@ JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시
 
 ## JSON 예 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
-JSON 오퍼는 [양식 기반 경험 컴포저](/help/c-experiences/form-experience-composer.md)를 사용하여 만든 활동에서만 지원됩니다. 현재 JSON 오퍼를 사용할 수 있는 유일한 방법은 직접적인 API 호출을 통하는 것입니다.
+JSON 오퍼는 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 사용하여 작성된 활동에서만 지원됩니다. 현재 JSON 오퍼를 사용할 수 있는 유일한 방법은 직접적인 API 호출을 통하는 것입니다.
 
 다음은 한 예입니다.
 
@@ -83,7 +81,7 @@ adobe.target.getOffer({
 ]
 ```
 
-JSON 오퍼를 추출하려면 작업을 반복하고 `setJson` 동작으로 작업을 찾은 다음 컨텐츠 배열을 반복하십시오.
+JSON 오퍼를 추출하려면 작업을 반복하고 `setJson` 작업을 사용하여 작업을 찾은 다음, 컨텐츠 배열을 반복합니다.
 
 ## 사용 사례 {#section_85B07907B51A43239C8E3498EF58B1E5}
 
@@ -135,6 +133,6 @@ adobe.target.getOffer({
 
 ## JSON 오퍼 유형별로 오퍼 필터링 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-**[!UICONTROL 유형]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL JSON]** 확인란을 선택하여 JSON 오퍼 유형에 따라 [!UICONTROL 오퍼] 라이브러리를 필터링할 수 있습니다.
+**[!UICONTROL 유형]** 드롭다운 목록을 클릭한 다음, **[!UICONTROL JSON]** 확인란을 선택하여 [!UICONTROL 오퍼] 라이브러리를 JSON 오퍼 유형별로 필터링할 수 있습니다.
 
 ![](assets/offer-json-filter.png)
