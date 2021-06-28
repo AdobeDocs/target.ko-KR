@@ -1,14 +1,13 @@
 ---
 keywords: at.js;2.0;1.x;쿠키
-description: Adobe [!DNL Target] at.js 2.x 및 at.js 1.x가 쿠키를 처리하는 방법에 대한 자세한 내용
+description: Adobe [!DNL Target] at.js 2.x 및 at.js 1.x에서 쿠키를 처리하는 방법에 대한 자세한 내용
 title: at.js 쿠키
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1828'
 ht-degree: 96%
 
 ---
@@ -112,7 +111,7 @@ at.js에서 `mboxSession ID`를 생성합니다. 첫 번째 위치 요청은 `mb
 | 쿠키 이름 | mbox. |
 | 쿠키 도메인 | 컨텐츠를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: `mycompany.com`. |
 | 서버 도메인 | `clientcode.tt.omtrdc.net`( 계정에 대해 클라이언트 코드 사용) |
-| 쿠키 지속 시간 | 쿠키는 마지막 로그인부터 2년 동안 방문자의 브라우저에 유지됩니다.<br>설정 `deviceIdLifetime` 은  [at.js 버전 2.3.1 이상에서 사용할 수 있습니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오. |
+| 쿠키 지속 시간 | 쿠키는 마지막 로그인부터 2년 동안 방문자 브라우저에 유지됩니다.<br>이  `deviceIdLifetime` 설정은  [at.js 버전 2.3.1 이상에서 재사용할 수 있습니다](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오. |
 | P3P 정책 | 쿠키는 대부분의 브라우저에서 기본 설정으로 요구되는 P3P 정책을 사용하여 게시됩니다. P3P 정책은 쿠키를 제공하는 사람과 정보 사용 방법을 브라우저에 알립니다. |
 
 쿠키는 방문자가 캠페인을 경험하는 방식을 관리하기 위해 많은 값을 유지합니다.
@@ -122,9 +121,9 @@ at.js에서 `mboxSession ID`를 생성합니다. 첫 번째 위치 요청은 `mb
 | session ID | 사용자 세션의 고유 ID입니다. 기본적으로 30분 동안 지속됩니다. |
 | pc ID | 방문자 브라우저의 반영구 ID입니다. 14일 동안 지속됩니다. |
 | check | 방문자가 쿠키를 지원하는지 여부를 확인하는 간단한 테스트 값입니다. 방문자가 페이지를 요청할 때마다 설정합니다. |
-| disable | 방문자의 로드 시간이 mbox.js 파일에 구성된 시간을 초과하는 경우 설정됩니다. 기본적으로 1시간 동안 지속됩니다. |
+| disable | 방문자의 로드 시간이 [!DNL Adobe Experience Platform Web SDK] 또는 at.js 파일에 구성된 시간을 초과하는 경우 설정됩니다. 기본적으로 1시간 동안 지속됩니다. |
 
-## Apple WebKit 추적 변경 사항으로 인해 Safari 방문자의 [!DNL Target]에 미치는 영향
+## Apple WebKit 추적 변경 사항으로 인한 Safari 방문자의 [!DNL Target]에 미치는 영향
 
 다음 사항에 주의하십시오.
 
