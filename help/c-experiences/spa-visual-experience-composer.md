@@ -1,13 +1,12 @@
 ---
 keywords: spa vec;반응;각;react.js;spa 시각적 경험 작성기;spa 경험 작성기 선택 사항;단일 페이지 앱;단일-페이지-앱;spa;모바일 경험 선택 사항;Target 보기
-description: Adobe [!DNL Target] 에서 SPA VEC를 사용하여 지속적인 개발 종속성이 없는 IT 방식으로 SPA에서 테스트를 작성하고 컨텐츠를 개인화하는 방법을 알아봅니다.
-title: 단일 페이지 앱 VEC(Visual Experience Composer)를 어떻게 사용합니까?
+description: Adobe [!DNL Target] 에서 SPA VEC를 사용하여 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화하는 방법을 알아봅니다.
+title: SPA VEC(단일 페이지 앱 시각적 경험 작성기)를 어떻게 사용합니까?
 feature: 시각적 경험 작성기(VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '3700'
+source-wordcount: '3699'
 ht-degree: 92%
 
 ---
@@ -62,7 +61,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
 1. at.js 2.x를 설치합니다.
 
-   먼저 at.js 2.x를 설치해야 합니다. 이 at.js 버전은 SPA를 염두에 두고 개발되었습니다. 이전 at.js 및 mbox.js 버전은 Adobe Target 보기와 SPA용 VEC를 지원하지 않습니다.
+   먼저 at.js 2.x를 설치해야 합니다. 이 at.js 버전은 SPA를 염두에 두고 개발되었습니다. 이전 at.js 및 버전은 Adobe Target 보기와 SPA용 VEC를 지원하지 않습니다.
 
    ![구현 세부 사항 대화 상자](/help/c-experiences/assets/imp-200.png)
 
@@ -370,7 +369,7 @@ adobe.target.getOffers({
 | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 예 |
 | [여러 활동 전달](/help/c-experiences/c-visual-experience-composer/multipage-activity.md) | 예 |
 
-## SPA VEC에 대한 페이지 전달 설정{#page-delivery-settings}
+## SPA VEC에 대한 페이지 전달 설정 {#page-delivery-settings}
 
 [!UICONTROL 페이지 전달] 설정을 사용하면 타겟 활동이 대상에 대해 자격을 부여하고 실행하는 시기를 결정하는 규칙을 구성할 수 있습니다.
 
@@ -391,9 +390,9 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 다음 사항이 변경되었습니다.
 
 * URL 아래 있는 홈 보기에서 배경색을 변경했습니다. [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
-* 제품 보기에서 URL 아래에 있는 단추 색상을 변경했습니다.[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* 제품 보기에서 URL 아래에 있는 단추 색상을 변경했습니다.[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)
 
-위의 예를 염두에 두고, 다음을 포함하도록 [!UICONTROL 페이지 배달] 설정을 구성하면 어떻게 됩니까?at.js 2가 있는 SPA의 [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
+위의 예를 염두에 두고, 다음을 포함하도록 [!UICONTROL 페이지 전달] 설정을 구성 할 때 발생하는 작업:at.js 2.[](https://target.enablementadobe.com/react/demo/#/)*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
 
 ![페이지 전달 대화 상자](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -415,7 +414,7 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 * 사용자가 [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)로 직접 이동합니다.
 * at.js 2.*x*&#x200B;는 Edge에 대한 쿼리를 수행하여 다음 URL에 대해 활동을 실행해야 하는지 확인합니다. [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products.
-* [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)에 대해 자격이 있는 활동이 없습니다.
+* [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)에 적합한 활동이 없습니다.
 * 적합한 활동이 없으므로 트리거할 at.js 2.*x*&#x200B;에 대해 캐시되는 작업 및 보기가 없습니다.
 
 **결과**: 제품 보기에 대해 정의하고 SPA VEC를 통해 제품 보기에 작업을 수행한 경우에도 `triggerView()` 페이지 전달 설정에서 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products를 포함한 규칙을 만들지 않았기 때문에 예상한 작업이 표시되지 않습니다.
@@ -440,4 +439,4 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-자세한 내용은 Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)에서 [단일 페이지 응용 프로그램(SPA VEC)에 대해 시각적 경험 작성기 사용(VEC)을 참조하십시오.
+자세한 내용은 Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)에서 [단일 페이지 애플리케이션(SPA VEC)에 시각적 경험 작성기 사용 을 참조하십시오.
