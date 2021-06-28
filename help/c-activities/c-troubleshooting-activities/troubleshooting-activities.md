@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 활동이 사이트에 나타나지 않는 경�
 title: 활동 문제를 해결하려면 어떻게 합니까?
 feature: 활동
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '780'
 ht-degree: 100%
 
 ---
@@ -103,15 +103,6 @@ Target에서 사용자로 추가된 후 활동을 만들려면 승인자 역할�
 * 위에서 설명한 대로 클래스 또는 동일한 수준의 요소들을 동적으로 수정하지 마십시오.
 
 페이지 수정이 Target의 표시 기능에 미치는 영향에 대한 자세한 내용은 [페이지 수정 시나리오](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB)를 참조하십시오.
-
-## Mbox.js가 헤드 및 본문에서 모든 후속 코드를 표시하고 있습니다.
-
-**유효성 검사:** 소스를 보고 `</body>` 태그를 닫기 전에 mbox.js 파일 다음에 선언이 오는지 판별하십시오.
-
-**옵션:**
-
-* mbox.js를 페이지의 `<head>` 섹션 내부에 마지막 항목으로 배치합니다.
-* 본문 내의 최상위 수준 요소에서 고유한 div ID를 사용합니다.
 
 ## 다른 활동이 동일한 페이지에서 실행 중입니다.
 
