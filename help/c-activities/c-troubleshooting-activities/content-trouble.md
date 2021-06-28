@@ -4,10 +4,10 @@ description: 페이지에 예상된 콘텐츠가 표시되지 않을 경우 문�
 title: 콘텐츠 전달 문제를 해결하려면 어떻게 합니까?
 feature: 활동
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1415'
-ht-degree: 100%
+source-wordcount: '1268'
+ht-degree: 97%
 
 ---
 
@@ -116,10 +116,6 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 자세한 내용은 [Adobe Experience Cloud 디버거를 사용하여 at.js 디버그](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)를 참조하십시오.
 
-## 전달 중 target.js가 로드되지 않는 경우 {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
-
-전달 중에 target.js가 로드되지 않으면 Mbox.js에서는 방문자에게 &quot;em-disabled&quot;라는 쿠키를 보냅니다. 이 쿠키는 Visual Experience Composer를 사용하여 만든 오퍼가 사이트에서 렌더링되지 못하게 합니다. 이 쿠키가 있는 방문자는 테스트 콘텐츠를 보지 못하고 해당 활동 보고서에서 카운트되지도 않습니다. 다른 모든 오퍼 콘텐츠(예: Target Classic의 캠페인)는 계속 로드됩니다. 이 쿠키의 수명은 로드 실패 시간부터 30분입니다.
-
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 *`SiteCatalyst: purchase`* 호출은 구매 알고리즘 트래픽 데이터에 사용할 수 없습니다. 대신 *`orderConfirmPage`* 호출을 사용합니다.
@@ -131,12 +127,6 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 ## 사용자 지정 코드가 Internet Explorer 8에서 예상한 결과를 생성하지 않습니다. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target에서는 더 이상 IE 8을 지원하지 않습니다.
-
-## 글로벌 [!DNL Target] 요청에 의해 전달된 JavaScript 콘텐츠가 mbox.js 사용 시 로드되지 않습니다. {#section_03EC9B9C410B4F52A7FCD81840311709}
-
-[!DNL mbox.js] 버전 58 이상으로 업그레이드하십시오.
-
-mbox.js 버전 58 이상에서는 HTML `BODY` 태그가 제공된 직후에 글로벌 [!DNL Target] 요청에 대한 비 JavaScript 콘텐츠를 실행합니다. 글로벌 [!DNL Target] 요청에 대한 `<script>` 태그 내의 JavaScript 콘텐츠는 `DOMContentLoaded` 이벤트가 실행된 이후에 실행됩니다. 이 콘텐츠 전달 순서에 따라 글로벌 [!DNL Target] 요청에 대한 JavaScript 콘텐츠가 제대로 전달되고 렌더링될 수 있습니다.
 
 ## Target 쿠키가 설정되지 않습니다.  {#section_77AFEB541C0B495EB67E29A4475DF960}
 
