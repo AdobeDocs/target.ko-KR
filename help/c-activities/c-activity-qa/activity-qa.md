@@ -1,13 +1,13 @@
 ---
-keywords: qa;qa 모드;활동 qa;qa url;qa url
+keywords: qa;qa 모드;활동 qa;qa url;qa url;미리 보기 url;url 미리 보기
 description: Adobe [!DNL Target] QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그멘테이션된 상태를 유지하는 QA 보고를 수행하는 방법을 알아봅니다.
 title: 활동을 QA하려면 어떻게 해야 합니까?
 feature: 활동
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 38%
+source-wordcount: '1785'
+ht-degree: 37%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 38%
 
 * [!UICONTROL Target QA 모드] UI는 다중 페이지 활동에 경험의 첫 번째 URL만 표시합니다. 여정 테스트를 만들고 URL1에서 URL2로 이동한다고 가정합니다. 그러나 URL2로 이동하려는 경우 URL1에 대해 제공된 모든 URL 매개 변수를 복사하여 URL1에 표시된 대로 &quot;?&quot;를 지정한 후 URL2에 적용합니다.
 
-## Target JavaScript 라이브러리 호환성
+## Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성
 
 [!DNL Target] 는 다음 JavaScript 라이브러리를 지원합니다.
 
@@ -113,6 +113,32 @@ ht-degree: 38%
 | [!UICONTROL 경험 타기팅](XT) | 예 | 예 | 예 |
 | [!UICONTROL 다변량 테스트](MVT) | 예 | 예 | 예 |
 | [!UICONTROL Recommendations] | 예 | 예 | 예 |
+
+## 미리 보기 URL {#preview}
+
+모든 [!DNL Target] 활동 유형에 대해 경험 미리 보기 URL을 생성할 수 있습니다. 미리 보기 URL을 사용하면 활동이 미리 보기 및 QA용으로 라이브되기 전에 사이트에서 직접 경험 콘텐츠를 볼 수 있습니다. 경험 미리 보기 URL은 타깃팅을 무시하여 특정 경험을 강제로 볼 수 있습니다.
+
+미리 보기 URL이 [!UICONTROL Automated Personalization] (AP) 활동을 사용하여 작동하는 방법에 대한 자세한 내용은 [경험 미리 보기 URL을 사용하여 Automated Personalization 활동 미리 보기](/help/c-activities/t-automated-personalization/experience-preview.md)를 참조하십시오.
+
+미리 보기 URL에 액세스하여 공유하려면 활동의 **[!UICONTROL 개요]** 페이지에서 **[!UICONTROL 활동 QA]** 링크를 클릭합니다.
+
+>[!NOTE]
+>
+>[!UICONTROL 활동 QA] 링크 및 미리 보기 URL은 [!DNL Target] AP 활동 이외의 모든 활동에 대해 동일합니다.
+
+다음 표는 다양한 활동 유형을 나열하고 미리 보기 URL 기능이 각 라이브러리나 API에 대해 지원되는지 여부를 나타냅니다.
+
+| 활동 유형 | at.js 1.x | at.js 2.x | Platform 웹 SDK | 배달 API | 관리 API |
+| --- | --- | --- | --- | --- | --- |
+| [!UICONTROL A/B 테스트] | 예 | 예 | 예 | 해당 사항 없음 | 예 |
+| [!UICONTROL 자동 할당] | 예 | 예 | 예 | 해당 사항 없음 | 예 |
+| [!UICONTROL 자동 타기팅] | 예 | 예 | 예 | 해당 사항 없음 | 예 |
+| [!UICONTROL 자동화된 개인화](AP) | 예 | 예 | 아니요 | 해당 사항 없음 | 예 |
+| [!UICONTROL 경험 타기팅](XT) | 예 | 예 | 예 | 해당 사항 없음 | 예 |
+| [!UICONTROL 다변량 테스트](MVT) | 예 | 예 | 예 | 해당 사항 없음 | 예 |
+| [!UICONTROL Recommendations] | 예 | 예 | 예 | 해당 사항 없음 | 예 |
+
+
 
 
 
