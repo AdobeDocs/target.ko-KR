@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] QA URL을 사용하여, 변경되지 않는 미
 title: 활동을 QA하려면 어떻게 해야 합니까?
 feature: 활동
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1785'
-ht-degree: 37%
+source-wordcount: '1760'
+ht-degree: 36%
 
 ---
 
@@ -94,7 +94,7 @@ ht-degree: 37%
 
 * [!UICONTROL Target QA 모드] UI는 다중 페이지 활동에 경험의 첫 번째 URL만 표시합니다. 여정 테스트를 만들고 URL1에서 URL2로 이동한다고 가정합니다. 그러나 URL2로 이동하려는 경우 URL1에 대해 제공된 모든 URL 매개 변수를 복사하여 URL1에 표시된 대로 &quot;?&quot;를 지정한 후 URL2에 적용합니다.
 
-## Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성
+## Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성 {#compatibility}
 
 [!DNL Target] 는 다음 JavaScript 라이브러리를 지원합니다.
 
@@ -128,18 +128,13 @@ ht-degree: 37%
 
 다음 표는 다양한 활동 유형을 나열하고 미리 보기 URL 기능이 각 라이브러리나 API에 대해 지원되는지 여부를 나타냅니다.
 
-| 활동 유형 | at.js 1.x | at.js 2.x | Platform 웹 SDK | 배달 API | 관리 API |
-| --- | --- | --- | --- | --- | --- |
-| [!UICONTROL A/B 테스트] | 예 | 예 | 예 | 해당 사항 없음 | 예 |
-| [!UICONTROL 자동 할당] | 예 | 예 | 예 | 해당 사항 없음 | 예 |
-| [!UICONTROL 자동 타기팅] | 예 | 예 | 예 | 해당 사항 없음 | 예 |
-| [!UICONTROL 자동화된 개인화](AP) | 예 | 예 | 아니요 | 해당 사항 없음 | 예 |
-| [!UICONTROL 경험 타기팅](XT) | 예 | 예 | 예 | 해당 사항 없음 | 예 |
-| [!UICONTROL 다변량 테스트](MVT) | 예 | 예 | 예 | 해당 사항 없음 | 예 |
-| [!UICONTROL Recommendations] | 예 | 예 | 예 | 해당 사항 없음 | 예 |
-
-
-
-
-
+| 활동 유형 | at.js 1.x | at.js 2.x | Platform 웹 SDK |
+| --- | --- | --- | --- |
+| [!UICONTROL A/B 테스트] | 예 | 예 | 예 |
+| [!UICONTROL 자동 할당] | 예 | 예 | 예 |
+| [!UICONTROL 자동 타기팅] | 예 | 예 | 예 |
+| [!UICONTROL 자동화된 개인화](AP) | 예 | 예 | 예 |
+| [!UICONTROL 경험 타기팅](XT) | 예 | 예 | 예 |
+| [!UICONTROL 다변량 테스트](MVT) | 예 | 예 | 예 |
+| [!UICONTROL Recommendations] | 예 | 예 | 예 |
 
