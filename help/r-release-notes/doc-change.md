@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
+source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1569'
 ht-degree: 68%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 68%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 29일 | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 다른 Target JavaScript 라이브러리를 사용할 때 활동 모드를 지원하는 활동 유형을 보여주는 호환성 매트릭스가 추가되었습니다. |
 | 6월 24일 | [Target 릴리스 정보(사전 릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)의 사전 릴리스 노트가 업데이트되었습니다. |
 | 6월 16일 | [[!DNL Target] 릴리스 노트(현재)](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK 버전 1.0.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] 모델의 데이터는 얼마나 지속됩니까?</li></ul> |
