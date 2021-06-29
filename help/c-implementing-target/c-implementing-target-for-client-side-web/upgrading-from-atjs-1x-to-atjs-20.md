@@ -5,10 +5,10 @@ title: at.js 버전 1.x에서 버전 2.x로 업그레이드하려면 어떻게 �
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2765'
-ht-degree: 92%
+source-wordcount: '2761'
+ht-degree: 91%
 
 ---
 
@@ -52,7 +52,7 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 | 5개 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
 
-## at.js 2.*x* {#deploy-atjs-200} 배포
+## at.js 2.*x* {#deploy-atjs-200}
 
 1. at.js 2.[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 확장 통해 at.js 2.*x* 배포
 
@@ -217,7 +217,7 @@ at.js 2.*x*&#x200B;에서는 더 이상 사용되지 않는 몇 가지 함수가
 
 `mboxCreate()`을 `getOffer()`나 `applyOffer()`로 대체하지 않는 고객의 경우 오퍼가 게재되지 않을 수 있습니다.
 
-### at.js 2.*x*&#x200B;는 at.js 1.*x*&#x200B;나 mbox.js와 다른 페이지에 있을 때 일부 페이지에서 사용할 수 있습니까?
+### at.js 2.*x*&#x200B;는 at.js 1.** xis를 다른 페이지에서 사용할 수 있습니까?
 
 예. 방문자 프로필은 서로 다른 버전 및 라이브러리를 사용하는 여러 페이지 간에 보존됩니다. 쿠키 형식은 동일합니다.
 
@@ -248,7 +248,7 @@ at.js 2.*x*&#x200B;에서는 더 이상 네트워크 호출에 “`target-global
 
 ### at.js에서 글로벌 mbox 이름이 문제가 됩니까?
 
-고객은 [!UICONTROL Target > 관리 > 구현 > at.js 설정 편집]을 통해 글로벌 mbox 이름을 지정할 수 있습니다. 이 설정은 [!DNL Target] Edge Server에서 execute > pageLoad를 [!DNL Target] UI에 나타나는 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버 측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox 이름을 사용하여 대상을 만들 수 있습니다. 또한 at.js 1.** 다음 그림에서 보듯이 mbox.js를 내보낼 수 있습니다.
+고객은 [!UICONTROL Target > 관리 > 구현 > at.js 설정 편집]을 통해 글로벌 mbox 이름을 지정할 수 있습니다. 이 설정은 [!DNL Target] Edge Server에서 execute > pageLoad를 [!DNL Target] UI에 나타나는 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버 측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox 이름을 사용하여 대상을 만들 수 있습니다. 또한 at.js 1.*x*&#x200B;에 대해 자세히 알아보십시오.
 
 ![at.js 수정 대화 상자](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -276,7 +276,7 @@ at.js 2.*x*&#x200B;에서는 더 이상 네트워크 호출에 “`target-global
 | 글로벌 mbox를 자동으로 만들기 | 예 |
 | 글로벌 mbox 이름 | 예 |
 
-### at.js 2.x {#cross-domain}에서 도메인 간 추적 지원
+### at.js 2.x 에서 도메인 간 추적 지원 {#cross-domain}
 
 도메인 간 추적을 통해 여러 도메인 간에 방문자를 연결할 수 있습니다. 각 도메인에 대해 새 쿠키를 만들어야 하기 때문에 방문자가 도메인에서 도메인으로 이동할 때 추적하기가 어렵습니다. 도메인 간 추적을 수행하기 위해 [!DNL Target]은 타사 쿠키를 사용하여 도메인 간에 방문자를 추적합니다. 이를 통해 사용자가 `siteA.com` 및 `siteB.com`에 이르는 Target 활동을 작성할 수 있으며, 방문자가 고유한 도메인을 탐색할 때 동일한 경험을 유지합니다. 이 기능은 Target의 타사 및 퍼스트 파티 쿠키 동작에 연결되어 있습니다.
 
