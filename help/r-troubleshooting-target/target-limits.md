@@ -5,10 +5,10 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
-source-wordcount: '1184'
-ht-degree: 98%
+source-wordcount: '1206'
+ht-degree: 97%
 
 ---
 
@@ -36,11 +36,11 @@ ht-degree: 98%
 
 * **권장 제한**: 10,000개의 활성 저장(및 종료되지 않은)된 활동.
 
-## Target API 호출
+## 타겟 API 호출
 
-* **제한**:분당 50회 전화.
+* **제한**: 관리, 보고 및 벌크 프로필 업데이트 API에 대한 분당 50회 호출. 이 제한은 배달 및 단일 프로필 업데이트 API에는 적용되지 않습니다.
 
-   분당 50개 이상의 API 호출을 수행하는 경우 [!DNL Target]은 &quot;503 HTTP status&quot; 오류 메시지를 반환합니다.
+   분당 50회 넘게 API를 호출하는 경우. [!DNL Target] &quot;503 HTTP 상태&quot; 오류 메시지를 반환합니다.
 
 ## 대상자
 
@@ -115,9 +115,9 @@ ht-degree: 98%
 
 ### 활동별 경험 수
 
-* **제한**: XT(경험 타기팅), A/B 테스트, MVT(다변량 테스트) 및 자동 타겟 활동당 2,000개 경험.
+* **제한**: XT (경험 타기팅), A/B 테스트, MVT (다변량 테스트) 및 자동 타겟 활동당 2,000개 경험.
 
-   AP(자동화된 개인화) 활동당 30,000개 경험.
+   AP (Automated Personalization) 활동당 30,000개 경험.
 
 ## mbox
 
