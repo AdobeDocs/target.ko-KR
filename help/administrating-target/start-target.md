@@ -1,12 +1,11 @@
 ---
 keywords: 관리;승인자 역할;승인자
-description: 첫 번째 작업 Adobe [!DNL Target] 관리자는 Adobe Experience Cloud에 이메일로 보낸 초대를 받은 후 수행해야 합니다.
-title: Target 관리는 어디에서 시작합니까?
+description: 첫 번째 작업 Adobe [!DNL Target] 관리자는 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후 수행해야 합니다.
+title: Target 관리를 시작하려면 어디서 시작해야 합니까?
 feature: 관리 및 구성
-role: Administrator
+role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '408'
 ht-degree: 82%
@@ -15,13 +14,13 @@ ht-degree: 82%
 
 # 관리자의 첫 단계
 
-이 문서에는 [!DNL Adobe Target] 관리자가 [!DNL Adobe Experience Cloud]에게 이메일로 보낸 초대를 받은 후 수행해야 하는 첫 번째 단계가 포함되어 있습니다.
+이 문서에는 [!DNL Adobe Target] 관리자가 [!DNL Adobe Experience Cloud]에 대한 이메일 초대장을 받은 후 수행해야 하는 첫 번째 단계들이 포함되어 있습니다.
 
-## [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}에 초대됨
+## [!DNL Target]에 초대 받기 {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 [!DNL Adobe Admin Console]에서 시스템 관리자가 귀하를 참여할 수 있도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행합니다.
 
-자세한 내용은 *Experience Cloud 및 핵심 서비스 도움말*&#x200B;의 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
+자세한 내용은 *Experience Cloud 및 핵심 서비스 도움말*&#x200B;에서 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다. 
 
@@ -49,7 +48,7 @@ ht-degree: 82%
 1. 본인의 새 권한을 확인하고 제품에 액세스하려면 [!DNL Adobe Experience Cloud]에서 로그아웃했다가 다시 로그인하십시오.
 1. 다음 단계로 계속하여 [자신에게 승인자 역할을 지정](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)합니다.
 
-## 자신에게 승인자 역할을 지정{#task_15CAA437A71444E2932B333D5E66A3C7}을 참조하십시오 
+## 자신에게 승인자 역할을 지정을 참조하십시오 {#task_15CAA437A71444E2932B333D5E66A3C7}
 
 [!DNL Adobe Experience Cloud] 가입 초대를 수락하고 로그인한 후에 Target이 [!DNL Experience Cloud] 계정에 추가되었는지 확인한 다음, [!UICONTROL 에서 자기 자신에게 ]승인자[!DNL Target] 역할을 지정하십시오.
 
