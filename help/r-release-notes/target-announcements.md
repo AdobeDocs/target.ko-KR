@@ -4,29 +4,49 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target]  알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: 릴리스 정보
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '602'
 ht-degree: 88%
 
 ---
 
 # Target 알림 및 이벤트
 
-[!DNL Adobe Target] Skill Builder 세션, 개발자 채팅, 웨비나 및 [!DNL Target] 커피 브레이크 세션을 포함하여 예정된 이벤트에 대한 공지 및 정보입니다.
+[!DNL Adobe Target] 스킬 빌더 세션, 개발자 채팅, 웨비나, 그리고 [!DNL Target] Coffee Break 세션을 포함하여 예정된 이벤트에 대한 공지와 정보입니다.
 
-## [!DNL Adobe Target] 인식
+## [!DNL Adobe Target]이 받은 인정
 
-[!DNL Adobe Target] Forrester와 Gartner가 시장 리더로 최근에 인정 받았습니다.
+포레스터와 가트너는 최근 시장 선도자로 [!DNL Adobe Target]을 선정했습니다.
 
 | 검색 서비스 | 세부 사항 |
 | --- | --- |
 | Forrester | **Adobe는 경험 최적화 플랫폼을 위한 Forrester wave 보고서의 리더로 선정되었습니다.**<br> Adobe는 이 분야의 Adobe 제품인 Adobe Target Premium에 대해 &quot;Forrester Wave: Experience Optimization Platforms, Q4 2020&quot; 보고서에서 유일한 리더로 명명되었습니다. Adobe는 현재 오퍼링 및 시장 참여 범주와 권장 사항 및 플랫폼 경험 기준에서 모든 참여 공급업체 중 가장 높은 점수를 받았습니다. Target Premium 또한 경험 최적화 기술 혁신과 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 보고서는 22개 기준에서 10개의 경험 최적화 플랫폼 제공자에 대한 철저히 평가를 기반으로 한 것입니다.<br>자세한 내용은 [Adobe 블로그](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)를 읽어 보십시오. |
 | Gartner | **Adobe는 개인화 엔진을 위한 Gartner Magic Quadrant의 리더로 다시 선정했습니다.**<br> Adobe Target은 제 3회 Gartner Magic Quadrant for Personalization Engines, 2020년 보고서에서 다시 한 번 리더로 선정되었습니다. Gartner Magic Quadrant for Personalization Engines는 비전의 완전성과 실행 능력의 두 가지 범주로 분류되는 15가지 기준에 걸쳐 공급업체를 평가했습니다.<br>[자세한 내용은 Adobe 블로그를 읽어 보십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
+## 웨비나: [!DNL Adobe Analytics] + [!DNL Adobe Target] 통합의 상당한 ROI, 통찰력 및 시간 절감 효과를 정량합니다.
+
+* **2021년 7월 20일 화요일**
+* **오전 8시 (PDT, UTC -7)**
+* **[자세한 내용을 알고 등록하려면 여기를 클릭하십시오](https://www.adobeeventsonline.com/Webinar/2021/Quantifying/).**
+
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크
+
+* **2021년 7월 21일 수요일**
+* **오전 8시 (PDT, UTC -7)**
+* **[자세한 내용을 알고 등록하려면 여기를 클릭하십시오](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+
+David Son, [!DNL Target] 수석 제품 관리자는 Dell의 전문 분야에 관한 질문에 답할 것입니다.
+
+* [!DNL Adobe Experience Platform Web SDK]
+* 온디바이스 의사 결정
+* at.js
+* 모바일
+* Target API
+
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
-무엇보다 마케터, 제품 소유자 및 개발자는 사이트, 앱 및 고객과 교류하는 그 밖의 모든 곳에서 전반적인 고객 경험을 최적화해야 합니다. 데이터 사일로와 복잡한 구현이 포함된 여러 툴을 사용해도 이런 과제가 줄어들지 않습니다.
+마케터와 제품 담당자, 개발자는 사이트, 인 앱 등 고객과 연결되는 모든 곳에서 전반적인 고객 경험을 최적화하는 업무를 그 어느 때보다도 많이 맡고 있습니다. 데이터 사일로와 복잡한 구현이 포함된 여러 툴을 사용해도 이런 과제가 줄어들지 않습니다.
 
 이 기록된 웨비나에서 Adobe Target 제품 전문가들은 중요한 환경 최적화 결정을 디바이스에서 대기 시간 없이 로컬로 실행하기 위해 이동함으로써 고객의 사이트 성능을 향상시키는 동시에 흥미로운 새로운 사용 사례를 어떻게 활용할 수 있는지에 대해 설명합니다.
 
