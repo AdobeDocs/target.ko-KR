@@ -4,10 +4,10 @@ title: ' [!DNL Target]  설명서는 어디에서 찾을 수 있습니까?'
 description: Adobe  [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: 개요
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 99%
+source-wordcount: '692'
+ht-degree: 96%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 99%
 
 [!DNL Adobe Target] 은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜:2021년 6월 29일( [변경 사항 보기](r-release-notes/doc-change.md) )**
+**마지막 업데이트 날짜: 2021년 7월 11일([변경 사항 보기](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ ht-degree: 99%
 
 - [Target 릴리스 정보](r-release-notes/release-notes.md): 현재 릴리스에 대한 정보, [!DNL Target]에 영향을 주는 알려진 문제에 대한 정보, 이 설명서의 중요 변경 사항 목록, 그리고 이전 릴리스 정보의 보관 정보가 포함되어 있습니다.
 - [Target 소개](c-intro/intro.md): [!DNL Target] 솔루션의 핵심 개념에 대해 설명합니다.
-- Adobe Experience Cloud와 Target 통합: [!DNL Target] 을 다른 [!DNL Experience Cloud] 솔루션( [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md), [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md) 등)과 통합하는 방법을 설명합니다.
+- Adobe Experience Cloud과 Target 통합: [!DNL Target]Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)용 Analytics, [Experience Cloud 대상](/help/c-integrating-target-with-mac/mmp.md) 및 [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)을 포함하여 다른 [!DNL Experience Cloud] 솔루션과 통합하는 방법을 설명합니다.[
 - [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ko-KR): Target을 최대한 활용할 수 있도록 튜토리얼 및 비디오를 제공합니다.
 - [Target 문제 해결](r-troubleshooting-target/troubleshooting-target.md): [!DNL Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 정보를 포함하여 이 안내서에 포함된 문제 해결 정보에 대한 링크를 제공합니다.
 - [모바일 앱용 Target](c-target-mobile-app/target-mobile-app.md): 모바일 앱 최적화 및 개인화에 [!DNL Target] 을 사용할 수 있는 방법을 설명합니다.
@@ -81,4 +81,4 @@ ht-degree: 99%
 
 | Adobe [!DNL Target] 솔루션 도움말 | [!DNL Adobe Experience Cloud] 리소스 |
 |--- |--- |
-| <ul><li>[Adobe Target 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium 권장 사항](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ko-KR)</li><li>[Target API 설명서](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[Experience Cloud 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ko-KR)</li><li>[Adobe 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target 학습 및 지원](https://helpx.adobe.com/support/target.html)</li><li>[Premium 권장 사항](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ko-KR)</li><li>[Target API 설명서](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[Experience Cloud 도움말 홈](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ko-KR)</li><li>[Adobe 교육 및 튜토리얼](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
