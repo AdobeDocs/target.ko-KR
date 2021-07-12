@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 95%
+source-wordcount: '1663'
+ht-degree: 94%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 95%
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ가 추가되었습니다. &quot;새로운 기사나 비디오만 추천하려면 어떻게 해야 합니까?&quot; |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | &quot;API 호출 Target&quot; 섹션의 텍스트가 업데이트되었습니다. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` 키에 대한 설명이 업데이트되었습니다. |
+|  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 나타내도록 1단계가 업데이트되었습니다. |
 |  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
 | 6월 29일 | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 다음과 같은 섹션이 추가되었습니다.<ul><li>Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성</li><li>미리 보기 URL</li></ul> |
 | 6월 24일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)의 사전 릴리스 노트가 업데이트되었습니다. |
