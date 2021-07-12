@@ -1,11 +1,11 @@
 ---
 keywords: 사용자 추가;프로젝트;사용자 그룹;속성;작업 공간;속성 관리;속성;at_property;역할;권한
-description: Adobe Target에 사용자를 추가하는 방법을 알아봅니다.작업 공간, 사용자 그룹 및 속성을 만듭니다.구현 업데이트역할 및 권한을 지정합니다.
+description: Adobe Target에 사용자를 추가하는 방법을 알아봅니다. 작업 공간, 사용자 그룹 및 속성을 만듭니다. 구현 업데이트 역할 및 권한을 지정합니다.
 title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
 feature: 관리 및 구성
-role: Administrator
+role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 66%
@@ -14,7 +14,7 @@ ht-degree: 66%
 
 # ![PREMIUM](/help/assets/premium.png) 엔터프라이즈 권한 구성
 
-사용자를 [!DNL Target] 구현에 추가하는 데 필요한 작업에 대한 정보입니다.작업 공간, 사용자 그룹 및 속성을 만듭니다.`at_property` 매개 변수를 포함하도록 [!DNL Target] 구현을 업데이트합니다.역할 및 권한을 지정합니다.
+사용자를 [!DNL Target] 구현에 추가하는 데 필요한 작업에 대한 정보입니다. 작업 공간, 사용자 그룹 및 속성을 만듭니다. `at_property` 매개 변수를 포함하도록 [!DNL Target] 구현을 업데이트합니다. 역할 및 권한을 지정합니다.
 
 >[!NOTE]
 >
@@ -116,13 +116,13 @@ ht-degree: 66%
    * **설명:** 속성에 대한 선택적 설명을 지정합니다.
    * **채널:**&#x200B;속성에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API(예를 들어 셋톱 박스 또는 PlayStation 콘솔)를 선택합니다.
 
-1. **[!UICONTROL 복사]**&#x200B;를 클릭하여 [5의 단계를 수행하는 동안 사용할 클립보드에 코드를 복사합니다.at_property 매개 변수](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)를 포함하도록 구현을 업데이트합니다.
+1. **[!UICONTROL 복사]**&#x200B;를 클릭하여 [5의 단계를 수행하는 동안 사용할 클립보드에 코드를 복사합니다. at_property 매개 변수](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)를 포함하도록 구현을 업데이트합니다.
 1. 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >속성 생성에 대한 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-## 5단계:at_property 매개 변수를 포함하도록 구현 업데이트 {#section_9B17A59807A94712BE642942442EBBC8}
+## 5단계: at_property 매개 변수를 포함하도록 구현 업데이트 {#section_9B17A59807A94712BE642942442EBBC8}
 
 [!DNL Target] 사용자 권한 기능을 사용하려면 [!DNL Target](Target 호출, api 호출 등)에 연결하는 모든 호출에 `at_property` 매개 변수를 추가해야 합니다.
 
@@ -162,7 +162,7 @@ ht-degree: 66%
 
       at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 및 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
-## 6단계:역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 1. Admin Console에서 **[!UICONTROL 제품]**&#x200B;을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
 
@@ -197,7 +197,7 @@ ht-degree: 66%
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전의 [!UICONTROL 설정])가 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확합니다.그러나 옵션은 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오가 곧 게시됩니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전의 [!UICONTROL 설정])가 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확합니다. 그러나 옵션은 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오가 곧 게시됩니다.
 
 ### Adobe Target 작업 공간을 구성하는 방법(6:55) ![자습서 배지](/help/assets/tutorial.png)
 
