@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  Recommendations 활동에 대해 자주 묻�
 title: ' [!DNL Target]  Recommendations에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
+source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 94%
+source-wordcount: '3129'
+ht-degree: 95%
 
 ---
 
@@ -245,21 +245,17 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 [!DNL Recommendations Classic]에서 만들어진 알고리즘은 [!DNL Recommendations Premium]에서 지원되지 않습니다. [!DNL Target Premium]에서 레거시 알고리즘을 사용할 수 있으나 [!DNL Target Premium] UI에서 오퍼 활동을 사용하지 않거나 삭제할 때 알고리즘이 동기화 문제를 일으킬 수 있습니다. 두 솔루션의 차이에 대한 자세한 정보는  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)의 [[!DNL Recommendations Classic] versus [!DNL Recommendations]  활동을 참조하십시오.
 
-## 60일 이하의 문서를 추천하려면 어떻게 해야 합니까? {#less-than-60}
+## 새로운 기사나 비디오만 추천하려면 어떻게 해야 합니까? {#recommend-new-articles}
 
-예를 들어 [!DNL Target] 고객은 60일 미만의 문서를 추천하기 위해 다음 방법을 사용했습니다.
+미디어 및 게시의 일부 고객은 권장 항목에 최신 문서 또는 비디오만 포함되도록 할 수 있습니다. 예를 들어 [!DNL Target] 고객은 60일 미만의 문서를 추천하기 위해 다음 방법을 사용했습니다.
 
-이 고객은 데이터 피드를 사용하지 않습니다. 문서에 대해 수집된 모든 데이터는 데이터 레이어에서 수집되며 페이지 보기 시 [!DNL Target]에 전달됩니다.
+1. 문서 게시 날짜를 YMDDD 형식으로 사용자 지정 엔티티 속성으로 전달합니다.
+1. 오늘 날짜에서 60일을 뺀 프로필 스크립트를 YYYYMMDD 형식으로 만듭니다.
+1. `publish date > today’s date minus 60 days`에 맞게 기준에 동적 포함 필터를 사용하십시오.
 
-이 고객은 다음 방법을 사용했습니다.
+### 게시 날짜를 사용자 지정 엔티티 속성으로 전달합니다.
 
-* 게시 날짜를 YYYYMMDD 형식으로 엔티티 매개 변수로 전달했습니다.
-* 오늘 날짜에서 60일을 뺀 프로필 스크립트 및 YYYYMMDD 형식도 만들었습니다.
-* `publish date > today’s date minus 60 days`이(가) 되도록 기준에 동적 포함 필터를 사용했습니다.
-
-이 고객은 다음 데이터 필드를 캡처했습니다.
-
-| 데이터 필드 | 예 |
+| 엔티티 속성 | 예 |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
@@ -267,16 +263,14 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 | publishDate | 20210113 |
 | publishDateDisplay | 2021년 1월 13일 |
 
-이 고객은 프로필 속성 일치를 사용하여 다음 포함 규칙을 사용했습니다.
-
-![샘플 포함 규칙](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
-이 고객은 다음 프로필 스크립트를 사용했습니다.
+### 프로필 스크립트를 구성합니다.
 
 ![샘플 프로필 스크립트](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
+### 포함 규칙을 구성합니다.
+
+![샘플 포함 규칙](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
 >[!NOTE]
 >
->이 예는 매개 변수 일치와 `priorDate60` 값을 mbox 매개 변수로 전달하는 방법으로 수행될 수도 있습니다.
-
-
+>이 예는 매개 변수 일치 를 사용하여 `priorDate60` 값을 mbox 매개 변수로 전달할 수도 있습니다.
