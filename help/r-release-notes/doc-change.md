@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
+source-git-commit: f6b475e4fa7cdad2e190dfbfecdc8e5335a524f5
 workflow-type: tm+mt
-source-wordcount: '1611'
-ht-degree: 96%
+source-wordcount: '1628'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 96%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 12월 7일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 얻을 수 있는 상당한 ROI, 통찰력 및 시간 절약 효과를 정량합니다.</li><li>[!DNL Adobe Target] 2021년 7월 21일 수요일 오전 8시에 커뮤니티 Q&amp;A 커피 브레이크가 열립니다. (PDT, GMT-7).</li></ul> |
+|  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ가 추가되었습니다. 60일 이내인 기사를 어떻게 추천할 수 있습니까? |
 |  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
 | 6월 29일 | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 다음과 같은 섹션이 추가되었습니다.<ul><li>Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성</li><li>미리 보기 URL</li></ul> |
 | 6월 24일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)의 사전 릴리스 노트가 업데이트되었습니다. |
