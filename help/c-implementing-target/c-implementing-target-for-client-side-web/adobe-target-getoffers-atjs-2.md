@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;오퍼 가져오기;at.js;함수;함수
-description: Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] 오퍼에 대해 adobe.target.getOffers() 함수 및 해당 옵션을 사용합니다. (at.js 2.x)
-title: adobe.target.getOffers() 함수를 어떻게 사용합니까?
+description: Adobe [!DNL Target] at.js library to fire requests to get multiple [!DNL Target] 오퍼에 adobe.target.getOffers() 함수 및 해당 옵션을 사용합니다. (at.js 2.x)
+title: adobe.target.getOffers() 함수를 사용하려면 어떻게 해야 합니까?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 90%
+source-wordcount: '1293'
+ht-degree: 85%
 
 ---
 
@@ -23,16 +22,16 @@ ht-degree: 90%
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
-| consumerId | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 보조 데이터 ID를 생성하는 데 사용됩니다. 이 키는 방문자별로 고유한 문자열입니다. |
-| decisionMethod | 문자열 | 아니오 | &quot;server-side&quot;, &quot;on-device&quot;, &quot;hybrid&quot; |
-| 요청 | 개체 | 예 | 아래의 &quot;요청&quot; 표를 참조하십시오. |
-| timeout | 숫자 | 아니오 | 요청 시간 제한. 지정하지 않으면 기본값 at.js 시간 제한이 사용됩니다. |
+| `consumerId` | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 SDID(Supplemental Data ID)를 생성하는 데 사용됩니다. 이 키는 방문자별로 고유한 문자열입니다.<br>를 사용할  `getOffers()`때 각 호출은 새 SDID를 생성합니다. 동일한 페이지에 여러 개의 mbox 요청이 있고 SDID를 보존하려는 경우(target-global-mbox 및 Adobe Analytics SDID의 SDID와 일치하도록) `consumerId` 매개 변수를 사용하십시오.<br>에  `getOffers()` mbox(&quot;mbox1&quot;, &quot;mbox2&quot; 및 &quot;mbox3&quot;로 이름이 지정됨)가 세 개 포함된 경우 다음을 포함합니다.  `consumerId: "mbox1, mbox2, mbox3"` 호출 `getOffers()` 에 속해 있어야 합니다. |
+| `decisioningMethod` | 문자열 | 아니오 | &quot;server-side&quot;, &quot;on-device&quot;, &quot;hybrid&quot; |
+| `request` | 개체 | 예 | 아래의 &quot;요청&quot; 표를 참조하십시오. |
+| `timeout` | 숫자 | 아니오 | 요청 시간 제한. 지정하지 않으면 기본값 at.js 시간 제한이 사용됩니다. |
 
 ## 요청
 
 >[!NOTE]
 >
->아래 나열된 모든 필드에 적합한 유형에 대한 자세한 내용은 [배달 API 설명서](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)을 참조하십시오.
+>아래 나열된 모든 필드에 허용되는 유형에 대한 자세한 내용은 [배달 API 설명서](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)를 참조하십시오.
 
 | 필드 이름 | 필수? | 제한 | 설명 |
 | --- | --- | --- | --- |
@@ -75,7 +74,7 @@ ht-degree: 90%
 | request > execute > mboxes > mbox > order > total | 아니오 | `>=` 0 | 지정된 주문 합계를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
 | request > execute > mboxes > mbox > order > purchasedProductIds | 아니오 | 빈 값 없음<br>각 값의 최대 길이 = 50<br>쉼표로 연결 및 구별<br>제품 ID 총 길이 `<=` 250 | 지정된 주문 구입 제품 ID를 사용하여 주어진 mbox에 대한 오퍼를 검색합니다. |
 
-## 모든 보기에 대해 getOffers()를 호출합니다.
+## 모든 보기에 대해 getOffers() 호출
 
 ```javascript
 adobe.target.getOffers({
@@ -87,7 +86,7 @@ adobe.target.getOffers({
 });
 ```
 
-## getCallOffers()를 사용하여 장치 내 의사 결정
+## getCallOffers() 를 사용하여 On-Device Decisioning 만들기
 
 ```javascript
 adobe.target.getOffers({ 
@@ -106,7 +105,7 @@ adobe.target.getOffers({
 }); 
 ```
 
-## 전달된 매개 변수 및 프로필 매개 변수를 사용하여 최신 보기를 검색하려면 getOffers()를 호출합니다.
+## 전달된 매개 변수 및 프로필 매개 변수를 사용하여 최신 보기를 검색하려면 getOffers()를 호출하십시오
 
 ```javascript
 adobe.target.getOffers({
@@ -127,7 +126,7 @@ adobe.target.getOffers({
 });
 ```
 
-## 전달된 매개 변수와 프로필 매개 변수가 포함된 mbox를 검색하려면 getOffers()를 호출합니다.
+## 전달된 매개 변수와 프로필 매개 변수를 사용하여 mbox를 검색하려면 getOffers()를 호출하십시오.
 
 ```javascript
 adobe.target.getOffers({
@@ -206,9 +205,9 @@ adobe.target.getOffers({
 }
 ```
 
-페이로드를 [데이터 삽입 API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)를 통해 Adobe Analytics으로 전달할 수 있습니다.
+그런 다음 [데이터 삽입 API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)를 통해 페이로드를 Adobe Analytics에 전달할 수 있습니다.
 
-## getOffers() 및 applyOffers()를 통해 여러 mbox에서 데이터를 가져와 렌더링합니다. {#multiple}
+## getOffers() 및 applyOffers()를 통해 여러 mbox에서 데이터를 가져와 렌더링합니다.  {#multiple}
 
 at.js 2.x를 사용하면 `getOffers()` API를 통해 여러 mbox를 가져올 수 있습니다. 여러 mbox에 대한 데이터를 가져온 다음 CSS 선택기에서 식별한 다른 위치에 데이터를 렌더링하는 데 `applyOffers()`를 사용할 수도 있습니다.
 
@@ -287,9 +286,9 @@ adobe.target.getOffers({
 
 이 예제에서는 `prefetch > mboxes`를 사용하지만 `execute > mboxes`를 사용할 수도 있습니다. `getOffers()`에서 미리 가져오기 작업을 실행하는 경우 `applyOffers()` 호출에서도 미리 가져오기 작업을 실행해야 합니다.
 
-## getOffers()를 호출하여 pageLoad를 수행합니다.
+## getOffers() 를 호출하여 pageLoad를 수행합니다
 
-다음 예제에서는 at.js 2에서 getOffers()를 사용하여 pageLoad를 수행하는 방법을 보여 줍니다.*x*
+다음 예는 at.js 2에서 getOffers()를 사용하여 pageLoad를 수행하는 방법을 보여줍니다.*x*
 
 ```javascript
 adobe.target.getOffers({
