@@ -4,7 +4,7 @@ description: Adobe  [!DNL Target]  Recommendations 활동에 대해 자주 묻�
 title: ' [!DNL Target]  Recommendations에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
+source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
 ht-degree: 95%
@@ -247,7 +247,7 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 ## 새로운 기사나 비디오만 추천하려면 어떻게 해야 합니까? {#recommend-new-articles}
 
-미디어 및 게시의 일부 고객은 권장 항목에 최신 문서 또는 비디오만 포함되도록 할 수 있습니다. 예를 들어 [!DNL Target] 고객은 60일 미만의 문서를 추천하기 위해 다음 방법을 사용했습니다.
+미디어 및 게시의 일부 고객은 권장 항목에 최신 문서 또는 비디오만 포함되도록 하려고 합니다. 예를 들어 [!DNL Target] 고객은 60일 미만의 문서를 추천하기 위해 다음 방법을 사용했습니다.
 
 1. 문서 게시 날짜를 YMDDD 형식으로 사용자 지정 엔티티 속성으로 전달합니다.
 1. 오늘 날짜에서 60일을 뺀 프로필 스크립트를 YYYYMMDD 형식으로 만듭니다.
