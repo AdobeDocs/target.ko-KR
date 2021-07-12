@@ -3,9 +3,9 @@ keywords: 환경;문제 해결;우수 사례;ubox;리디렉션;리디렉션;허�
 description: Adobe [!DNL Target] 에서 환경을 사용하여 쉽게 관리하고 개별적으로 보고하기 위해 사이트와 사전 프로덕션 환경을 구성하는 방법을 알아봅니다.
 title: 환경은 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
-role: Administrator
+role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 61%
