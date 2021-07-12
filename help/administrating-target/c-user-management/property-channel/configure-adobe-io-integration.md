@@ -1,17 +1,16 @@
 ---
 keywords: 통합;역할;사용자 권한;Admin Console
-description: Adobe Target에서 원하는 역할을 가진 모든 작업 영역에 기존 Adobe I/O 통합 액세스 권한을 부여하는 방법에 대해 알아보십시오.
-title: 작업 영역에 대한 Adobe I/O 액세스 권한을 부여하고 역할을 할당하려면 어떻게 해야 합니까?
-feature: Administration & Configuration
-role: Administrator
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: Adobe Target에서 원하는 역할을 가진 모든 작업 영역에 기존 Adobe I/O 통합 액세스 권한을 부여하는 방법을 알아봅니다.
+title: 작업 공간에 Adobe I/O 액세스 권한을 부여하고 역할을 할당하는 방법
+feature: 관리 및 구성
+role: Admin
+exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 83%
+source-wordcount: '623'
+ht-degree: 84%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) 작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당
 
@@ -23,7 +22,7 @@ ht-degree: 83%
 
 [!UICONTROL 엔터프라이즈 권한] 기능을 사용하면 팀 간의 최적화 프로그램을 효율적으로 확장할 수 있습니다. 이 기능은 [!DNL Target] UI에서 사용할 수 있었지만, 관리 API는 2019년 초까지 해당 지원을 받지 못했습니다. [!DNL Target] 2019년 2월 릴리스에서 Adobe는 통합 계정을 사용하여 조직에서 생성한 모든 작업 영역에 액세스할 수 있도록 관리 API를 업데이트했습니다. 따라서 이전에는 관리 API가 기본 작업 영역으로 제한되어 있었지만 2019년 2월 업데이트를 통해 [!UICONTROL 승인자] 액세스 권한이 있는 모든 작업 영역에 대한 액세스가 허용되었습니다.
 
-[!DNL Target] 2019년 9월 릴리스에서 [!DNL Target] [!UICONTROL 기업 권한]은 다음과 같은 액세스 제어를 고객에게 제공합니다.
+[!DNL Target] 2019년 9월 릴리스에서는 [!DNL Target] [!UICONTROL 엔터프라이즈 권한]이 고객에게 다음과 같은 액세스 제어를 제공합니다.
 
 * 통합을 적용할 수 있는 작업 영역을 선택할 수 있습니다.
 * Adobe I/O 통합에 [!UICONTROL 승인자], [!UICONTROL 편집자] 또는 [!UICONTROL 관찰자] 역할을 적용할 수 있습니다.
@@ -39,11 +38,11 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->이 작업이 수행되지 않으면 [!DNL Target] 2019년 9월 릴리스 이후 액세스 제어가 활성화되고 현재 설정된 방식으로 기본 작업 영역에 대한 액세스를 관찰할 수 있습니다. 통합을 미리 설정해도 부작용이 없습니다. 더 빨리 변경할수록 더 나은 결과를 얻을 수 있습니다. 조직에서 작업 영역 수에 따라 이 프로세스를 몇 번의 클릭만으로 원하는 역할이 있는 작업 영역에 기존 통합을 추가할 수 있습니다.
+>이 작업이 수행되지 않으면 [!DNL Target] 2019년 9월 릴리스 이후 액세스 제어가 활성화되고 현재 설정된 방식으로 기본 작업 영역에 대한 액세스를 관찰할 수 있습니다. 통합을 미리 설정해도 부작용이 없습니다. 더 빨리 변경할수록 더 나은 결과를 얻을 수 있습니다. 조직의 작업 공간 수에 따라 이 프로세스는 몇 번의 클릭만으로 원하는 역할을 가진 작업 영역에 기존 통합을 추가할 수 있습니다.
 
 **작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할을 할당하는 방법:**
 
-1. **[Adobe Admin Console](https://adminconsole.adobe.com)**&#x200B;을(를) 엽니다.
+1. **[Adobe Admin Console](https://adminconsole.adobe.com)**&#x200B;를 엽니다.
 
 1. **[!UICONTROL 제품]** 탭을 클릭한 다음 원하는 제품의 이름을 선택합니다.
 
@@ -66,4 +65,4 @@ ht-degree: 83%
    | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
    | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
    | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-   | 게시자 | 관찰자 역할과 유사합니다(활동을 볼 수는 있지만 만들거나 편집할 수는 없습니다). 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
+   | 게시자 | 관찰자 역할과 유사합니다(활동은 볼 수 있지만 만들거나 편집할 수 없음). 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
