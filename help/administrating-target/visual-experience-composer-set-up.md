@@ -1,33 +1,32 @@
 ---
-keywords: 시각적 경험 컴포저;기본 url;향상된 경험 작성기;eec;혼합 컨텐트;경험 스냅숏;모바일 보기 포트;css 선택;visual experience composer;visual experience composer;css
-description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 Adobe [!DNL Target] VEC(Visual Experience Composer)를 구성하는 방법에 대해 알아보십시오.
-title: VEC(Visual Experience Composer)를 구성하려면 어떻게 합니까?
+keywords: 시각적 경험 작성기;vec;기본 url;고급 경험 작성기;eec;혼합 콘텐츠;경험 스냅샷;모바일 뷰포트;css;css 선택기
+description: 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 Adobe [!DNL Target] VEC(시각적 경험 작성기)를 구성하는 방법을 알아봅니다.
+title: 시각적 경험 작성기(VEC)를 구성하려면 어떻게 합니까?
 feature: 관리 및 구성
-role: Administrator
+role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '719'
-ht-degree: 49%
+ht-degree: 50%
 
 ---
 
 # 시각적 경험 작성기 구성
 
-일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)를 구성합니다.
+일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기](VEC)를 구성합니다.
 
-[!UICONTROL Visual Experience Composer] 구성 페이지에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL Visual Experience Composer]를 클릭합니다.**
+[!UICONTROL 시각적 경험 작성기] 구성 페이지에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기].**
 
 >[!NOTE]
 >
 >이 페이지의 설정은 전체 [!DNL Target] 계정에 적용됩니다.
 
-![Visual Experience Composer 구성 페이지](/help/administrating-target/assets/vec.png)
+![시각적 경험 작성기 구성 페이지](/help/administrating-target/assets/vec.png)
 
 ## 일반 설정
 
-시각적 경험 작성기에 일반 설정을 지정할 수 있습니다.
+시각적 경험 작성기에 대한 일반 설정을 지정할 수 있습니다.
 
 ![일반 설정 섹션](/help/administrating-target/assets/general-settings.png)
 
@@ -39,32 +38,32 @@ ht-degree: 49%
 
 ### 고급 경험 작성기 활성화 {#eec}
 
-iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 향상된 버전과 호환되지 않을 수 있습니다. 원래 [!UICONTROL Visual Experience Composer]로 되돌리려면 이 옵션을 선택 해제합니다. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
+iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트는 고급 버전과 호환되지 않을 수 있습니다. 원래 [!UICONTROL 시각적 경험 작성기]로 되돌리려면 이 선택 사항을 선택 취소합니다. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
 
-자세한 내용은 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
+자세한 내용은 [ 시각적 경험 작성기 문제 해결 ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
-활동 수준에서 [!UICONTROL 향상된 경험 작성기]를 활성화할 수도 있습니다.
+활동 수준에서 [!UICONTROL 고급 경험 작성기]를 활성화할 수도 있습니다.
 
 ### 혼합 콘텐츠 로드
 
-[!UICONTROL 향상된 경험 작성기](EEC)를 사용하여 웹 사이트를 여는 동안 혼합 컨텐츠를 활성화합니다. 이 옵션을 활성화하면 [!DNL Target] 프록시 서버를 통해 정적 리소스를 로드하는 추가 오버헤드가 발생하지 않습니다.
+[!UICONTROL 고급 경험 작성기] (EEC)를 사용하여 웹 사이트를 여는 동안 혼합 콘텐츠를 사용합니다. 이 옵션을 활성화하면 [!DNL Target] 프록시 서버를 통해 정적 리소스를 로드하는 오버헤드가 발생하지 않습니다.
 
-이 옵션은 다음과 같은 경우에 유용합니다.
+이 옵션은 예를 들어 다음과 같은 경우에 유용합니다.
 
-* CSP(Content Security Policy) 헤더를 통해 EEC가 활성화된 프록시 서버를 사용하지 않고도 혼합 컨텐츠를 로드할 수 있습니다.
-* HTTP 웹 사이트는 프록시를 통해 JavaScript, 이미지 등을 로드하는 데 시간이 더 걸리는 EEC의 로드 시간이 증가합니다.
+* CSP(콘텐츠 보안 정책) 헤더를 사용하면 EEC가 활성화된 상태에서 프록시 서버를 사용하지 않고도 혼합된 콘텐츠를 로드할 수 있습니다.
+* HTTP 웹 사이트가 EEC에서 로드 시간이 늘어났지만, JavaScript, 이미지 등이 프록시를 통해 로드되는 시간이 오래 걸립니다.
 
 ### 활동 흐름 다이어그램에서 경험 스냅샷 생성
 
 경험 스냅샷을 활성화하면 활동 워크플로우 다이어그램에서 경험에 대한 썸네일이 생성됩니다. 스냅샷을 비활성화하면 일부 사용자의 경우 성능이 더 빨라질 수 있습니다.
 
-## ![프리미엄 ](/help/assets/premium.png) 배지모바일 뷰포트 구성
+## ![Premium ](/help/assets/premium.png) 배지모바일 뷰포트 구성
 
 경험을 미리 볼 때 사용할 장치를 추가할 수 있습니다. 각 장치에는 연결된 대상이 있습니다.
 
 ![모바일 뷰포트 구성 섹션](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-**[!UICONTROL 추가]**&#x200B;를 클릭하고 모바일 뷰포트의 설명형 이름을 지정하고 너비와 높이를 지정한 다음 원하는 운영 체제를 선택한 다음 [!UICONTROL 저장]을 클릭합니다.
+**[!UICONTROL 추가]**&#x200B;를 클릭하고, 모바일 뷰포트에 대한 수사적 이름을 지정하고, 너비와 높이를 지정한 다음 원하는 운영 체제를 선택하고 [!UICONTROL 저장]을 클릭합니다.
 
 모바일 뷰포트를 추가하는 방법에 대한 내용은 [모바일 뷰포트 구성](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md)을 참조하십시오.
 
@@ -88,15 +87,15 @@ iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집
 
 >[!NOTE]
 >
->정확성을 보장하기 위해 모든 작업을 수행했지만 클래스를 사용하면 오류가 발생할 수 있습니다. 어떤 옵션도 선택하지 않으면 정확도도 영향을 받습니다. 정확도 순서는 ID > 클래스 > 두 옵션을 모두 선택하지 않은 경우입니다. 항상 페이지를 테스트하여 선택기가 올바른지 확인해야 합니다.
+>정확도를 위한 모든 작업이 수행되었더라도 클래스를 사용하면 오류가 발생할 수 있습니다. 어떤 옵션도 선택하지 않으면 정확도도 영향을 받습니다. 정확도 순서는 ID > 클래스 > 두 옵션을 모두 선택하지 않은 경우입니다. 항상 페이지를 테스트하여 선택기가 올바른지 확인해야 합니다.
 
 활동별로 이 설정을 재정의할 수 있습니다. 설정 톱니바퀴 아이콘을 클릭한 다음, [!UICONTROL CSS 선택기]를 선택합니다. 이 기능은 여러 사이트가 서로 다르게 구성된 경우에 특히 유용합니다.
 
 >[!NOTE]
 >
->활동당 설정을 재정의할 수 없습니다. [!UICONTROL Automated Personalization] 및 [!UICONTROL Multivariate Testing] 활동에서 사용할 수 없습니다.  선택기에 대한 추가 정보는 ](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기[를 참조하십시오.
+>활동별로 이 설정을 재정의하는 기능을 [!UICONTROL Automated Personalization] 및 [!UICONTROL Multivariate Testing] 활동에서 사용할 수 없습니다.  선택기에 대한 추가 정보는 ](/help/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기[를 참조하십시오.
 
-## 교육 비디오:계정 기본 설정(7:33) ![개요 배지](/help/assets/overview.png)
+## 교육 비디오: 계정 환경 설정 (7:33) ![개요 배지](/help/assets/overview.png)
 
 이 비디오에는 계정 기본 설정에 대한 정보가 포함되어 있습니다.
 
@@ -104,6 +103,6 @@ iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전의 [!UICONTROL 설치])가 향상된 성능을 제공하고, 새 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반의 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확하다.그러나 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오가 곧 게시될 예정입니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전의 [!UICONTROL 설정])가 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확합니다. 그러나 옵션은 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오가 곧 게시됩니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
