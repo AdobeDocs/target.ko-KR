@@ -1,12 +1,11 @@
 ---
 keywords: 수입 상승도;수입;수입의 상승도 예상;상승도 계산;예상 값
-description: 모든 방문자에게 우승한 경험이 표시되는 경우 테스트 중에 트렌드가 지속되는 경우 달성할 수 있는 리프트를 예상합니다.
-title: 매출 향상도는 어떻게 예상합니까?
+description: 모든 방문자가 우승 경험을 보는 경우, 테스트 중에 트렌드가 지속되는 경우 달성할 수 있는 상승도를 예측합니다.
+title: 매출 상승도는 어떻게 예측합니까?
 feature: 관리 및 구성
-role: Administrator
+role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 88%
@@ -15,11 +14,11 @@ ht-degree: 88%
 
 # 매출 상승도 평가
 
-모든 사용자가 우승 경험을 보는 경우 달성할 매출 리프트를 예상하려면 [!DNL Adobe Target]을 사용합니다.
+모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측하려면 [!DNL Adobe Target] 을 사용하십시오.
 
 >[!NOTE]
 >
->현재 [!UICONTROL 경험 타깃팅](XT) 활동에는 예상 리프트를 사용할 수 없습니다.
+>예상 상승도는 현재 [!UICONTROL 경험 타깃팅] (XT) 활동에 사용할 수 없습니다.
 
 예상 상승도 기능은 기본적으로 꺼져 있으며, 계정 환경 설정에서 활성화할 수 있습니다. Experience Cloud 관리자 사용자만 이 기능을 활성화하거나 비활성화할 수 있습니다. 예상되는 상승도가 비활성화되면 해당 필드가 인터페이스에 표시되지 않습니다. 이 기능을 비활성화해도 예상치에 사용되는 데이터를 비롯한 어떤 데이터도 손실되지 않습니다. 예상치는 기능의 활성화 여부와 관계없이 수집되는 데이터를 기준으로 합니다.
 
