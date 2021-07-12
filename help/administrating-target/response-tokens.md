@@ -3,9 +3,9 @@ keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답
 description: Adobe [!DNL Target] 출력 관련 정보에서 응답 토큰을 사용하여 디버깅을 사용하고 타사 도구와 통합하는 방법을 알아봅니다.
 title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
-role: Administrator
+role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1644'
 ht-degree: 25%
@@ -39,8 +39,8 @@ ht-degree: 25%
 
    자세한 내용을 확인하십시오:
 
-   * **Platform 웹 SDK**:플랫폼  [웹 SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 개요 안내서에서  *SDK* 설치 를 참조하십시오.
-   * **at.js**:at. [js 다운로드](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오 .
+   * **Platform 웹 SDK**: 플랫폼  [웹 SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 개요 안내서에서  *SDK* 설치 를 참조하십시오.
+   * **at.js**: at. [js 다운로드](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2)를 참조하십시오 .
 
 1. [!DNL Target]에서 **[!UICONTROL 관리]** > **[!UICONTROL 응답 토큰]**&#x200B;을 클릭합니다.
 
@@ -190,7 +190,7 @@ ht-degree: 25%
 
 **[!DNL Target Classic] 플러그인과 응답 토큰이 동시에 활성화될 수 있습니까?**
 
-플러그인 및 응답 토큰을 동시에 사용할 수 있습니다.그러나 플러그인은 향후에 더 이상 사용되지 않습니다.
+플러그인 및 응답 토큰을 동시에 사용할 수 있습니다. 그러나 플러그인은 향후에 더 이상 사용되지 않습니다.
 
 **응답 토큰이 모든  [!DNL Target] 응답을 통해 전달됩니까, 아니면 활동을  [!DNL Target] 전달하는 응답만 통해 전달됩니까?**
 
@@ -468,12 +468,12 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 </script>
 ```
 
-## ![at.](/help/assets/atjs.png) js 교육 비디오:응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## ![at.](/help/assets/atjs.png) js 교육 비디오: 응답 토큰 및 at.js 사용자 지정 이벤트 {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 다음 비디오에서는 응답 토큰 및 at.js 사용자 지정 이벤트를 사용하여 [!DNL Target]에서 타사 시스템으로 프로필 정보를 공유하는 방법을 설명합니다.
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전의 [!UICONTROL 설정])가 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보가 올바릅니다.그러나 옵션은 약간 다른 위치에 있습니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전의 [!UICONTROL 설정])가 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 다시 디자인되었습니다. 다음 비디오의 정보가 올바릅니다. 그러나 옵션은 약간 다른 위치에 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
