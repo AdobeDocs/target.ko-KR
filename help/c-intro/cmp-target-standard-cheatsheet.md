@@ -4,9 +4,9 @@ description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Tar
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: 개요
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2755'
 ht-degree: 100%
 
 ---
@@ -223,12 +223,6 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **저는 이전 Target 클래식 사용자입니다. 특정 사용 사례에 내 mbox를 활용할 수 있습니까?**
 
 활성을 만들려면 [양식 기반 접근 방법](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 을 사용하십시오.
-
-**사용자가 보유할 수 있는 모든 디바이스에서 일관되게 동일한 경험이 전달되도록 하려면 어떻게 해야 합니까?**
-
-Co-op의 기능을 통해 사용자의 여러 디바이스를 결정적으로 및 확률적으로 연결할 수 있도록 하는 [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=ko-KR) 를 확인해 보십시오.
-
-Co-op에 있는 경우, 목표 및 설정 페이지에서의 간단한 플래그를 사용하여 기능을 활성화할 수 있습니다. 또한 보고 기능도 이제 방문자 대신 사용자를 반영합니다. 이 기능을 일부 지역에서는 사용할 수 없으므로 Adobe 담당자에게 이 기능에 대해 문의하십시오.
 
 **원하는 오퍼/경험이 표시되지 않고 대신 다른 활동이 표시되는 이유는 무엇입니까?**
 
