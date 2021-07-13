@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,14 +39,14 @@ ht-degree: 97%
 * [자동 타겟 문제 해결 및 FAQ](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 * [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
-### AP(자동화된 개인화)
+### AP (Automated Personalization)
 
-* [자동화된 개인화 FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [자동화된 개인화 문제 해결](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [자동화된 개인화 요약 보고서](/help/c-reports/reports-ap.md)
+* [Automated Personalization FAQ](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Automated Personalization 문제 해결](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Automated Personalization 요약 보고서](/help/c-reports/reports-ap.md)
 * [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
-### 다변량 테스트(MVT)
+### 다변량 테스트 (MVT)
 
 * [다변량 테스트 모범 사례](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [다변량 테스트 문제 해결](/help/c-activities/c-multivariate-testing/best-practices.md)
@@ -57,10 +57,10 @@ ht-degree: 97%
 * [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Analytics 및 [!DNL Target] 통합(A4T)
+## Analytics 및 [!DNL Target] 통합 (A4T)
 
 * [Analytics와 Target의 통합 문제 해결](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다. [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
+* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다. [Adobe Target용 보고 소스로서의 Adobe Analytics (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
 * A4T FAQ(자주 묻는 질문)
    * [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [초기 사용 권한 제공 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -72,7 +72,7 @@ ht-degree: 97%
    * [지표, 세그먼트 및 보고서 공유 - A4T FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
    * [부풀려진 방문 및 방문자 카운트 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [분류 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-   * [기존 SiteCatalyst-Test&amp;Target 통합 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
+   * [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
 ## 대상 및 타겟
 
