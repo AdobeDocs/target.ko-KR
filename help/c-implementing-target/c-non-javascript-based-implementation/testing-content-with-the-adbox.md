@@ -1,21 +1,20 @@
 ---
-keywords: 구현;mbox.js 비JavaScript;mbox;adbox
-description: AdBox를 사용하여 Adobe Target을 사용하여 오프라인 구현에서 이미지를 제공합니다. AdBox는 mbox와 비슷하지만 JavaScript 대신 URL로 제어됩니다.
-title: 이미지의 Adbox를 만들려면 어떻게 합니까?
+keywords: 구현;비Javascript;mbox;adbox
+description: Adobe Target을 사용하여 오프사이트 구현에서 이미지를 전달하려면 AdBox를 사용하십시오. AdBox는 mbox와 유사하지만 JavaScript 대신 URL로 제어됩니다.
+title: 이미지용 Adbox를 만들려면 어떻게 합니까?
 feature: 이메일 구현
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '330'
-ht-degree: 73%
+source-wordcount: '329'
+ht-degree: 72%
 
 ---
 
 # 이미지용 Adbox 만들기
 
-AdBox를 사용하여 Adobe Target을 사용하여 오프라인 구현에서 이미지를 제공합니다.
+Adobe Target을 사용하여 오프사이트 구현에서 이미지를 전달하려면 AdBox를 사용하십시오.
 
 AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다. AdBox는 &quot;광고&quot; mbox(또는 AdBox)를 자신의 Adobe 계정으로 로드하는 특별한 AdBox URL로 만들어집니다. 이 AdBox를 활동에서 mbox 대신 사용합니다. 이메일 또는 기타 비 자바스크립트 구현에서 직접 이미지 참조 대신 AdBox URL을 사용합니다.
 
@@ -31,7 +30,7 @@ AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다.
 
    * 여기서 `myClientCode`는 회사의 클라이언트 코드입니다. 회사의 클라이언트 코드는 모두 소문자이고 특수 문자를 포함하지 않습니다.
 
-      클라이언트 코드는 [!DNL Target] 인터페이스의 [!UICONTROL 관리 > 구현] 페이지 맨 위에 있습니다.
+      클라이언트 코드는 [!DNL Target] 인터페이스의 [!UICONTROL 관리 > 구현] 페이지의 맨 위에 있습니다.
 
    * 여기서 `image`는 호출 유형입니다. 이 경우 이미지입니다.
 
@@ -39,7 +38,7 @@ AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다.
 
    * 여기서 `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif`는 mbox의 기본 콘텐츠입니다. 이것은 이미지여야 합니다.
 
-      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. [HTML URL 인코딩 참조](https://www.w3schools.com/tags/ref_urlencode.asp)를 사용하여 URL을 빠르게 인코딩할 수 있습니다.
+      이것은 URL로 인코딩되어야 하고 절대 참조여야 합니다. [HTML URL 인코딩 참조](https://www.w3schools.com/tags/ref_urlencode.asp)를 사용하여 URL을 신속하게 인코딩할 수 있습니다.
 
 1. 각 대체 이미지에 대한 [리디렉션 오퍼](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)를 만듭니다.
 
