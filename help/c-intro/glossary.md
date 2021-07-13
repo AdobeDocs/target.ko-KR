@@ -3,9 +3,9 @@ description: Adobe  [!DNL Target] 에서 사용되는 다른 용어는 무엇을
 title: Target에서 사용되는 용어와 정의는 어디에서 찾을 수 있습니까?
 feature: 개요
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2417'
 ht-degree: 100%
 
 ---
@@ -227,10 +227,6 @@ mbox에서 방문자의 쿠키로 전달된 방문자별 매개 변수입니다.
 **mbox**
 
 마케팅 상자는 콘텐츠가 표시되고 방문자 행동이 기록되는 웹 페이지의 위치입니다. 일부 mbox에는 아무 것도 표시되지 않습니다. 이 mbox는 방문자의 웹 사이트 진행 상황을 추적하거나 방문자가 장바구니에 항목 추가, 구입 완료 등의 특정 성공 지표를 완료하는지 여부를 추적할 수 있습니다. 이러한 유형의 mbox 중 하나는 *전환 mbox*&#x200B;입니다.
-
-**mbox.js**
-
-16.3.1 이전에는 [!DNL Target] 에서 [!DNL mbox.js] 활동을 전달하고, 클릭 수를 추적하고, 대부분의 성공 지표를 추적하는 데 필요한 글로벌 mbox를 만들기 위해 [!DNL Adobe Target]Target에 [!DNL Target] 호출이 필요했습니다. 이 파일에는 모든 활동에 필요한 라이브러리가 들어 있으므로, 파일의 다른 활동별 버전을 유지 관리할 필요는 없습니다. . [!DNL at.js] 라이브러리는 [!DNL mbox.js] 을 구현할 수 있도록 [!DNL Target] 를 대체합니다.
 
 **mbox 매개 변수**
 
