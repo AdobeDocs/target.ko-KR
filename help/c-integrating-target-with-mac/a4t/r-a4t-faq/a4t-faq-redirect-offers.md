@@ -4,10 +4,10 @@ description: Analytics for [!DNL Target] (A4T). A4T lets you use Analytics repor
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 63%
+source-wordcount: '1298'
+ht-degree: 62%
 
 ---
 
@@ -31,8 +31,6 @@ ht-degree: 63%
 * Adobe Analytics: [!DNL appMeasurement.js] 버전 2.1.
 * Adobe Target: [!DNL at.js] 버전 1.6.2 이상.
 
-   [!DNL mbox.js] 라이브러리는 A4T를 사용하는 리디렉션 오퍼를 지원하지 않습니다. 구현에서 [!DNL at.js]를 사용해야 합니다.
-
 리디렉션 오퍼가 있는 페이지와 방문자가 리디렉션되어 도착하는 페이지 모두에 세 개의 라이브러리를 포함해야 합니다.
 
 ## A4T와 Analytics 간에 때때로 데이터가 일치하지 않는 이유는 무엇입니까?
@@ -50,10 +48,6 @@ at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션�
 기본(제어) 경험을 포함하여 활동의 모든 경험에 대해 리디렉션 오퍼를 사용하려는 한 가지 이유는 모든 경험에 동일한 조건을 적용하기 위해서입니다. 예를 들어 기본 경험에 리디렉션 오퍼가 없지만 다른 경험에 리디렉션 오퍼가 있는 경우 리디렉션 오퍼가 없는 경험의 속도가 고유한 이점이 있습니다. 리디렉션 오퍼는 테스트와 같은 임시 시나리오에만 권장됩니다. 리디렉션 오퍼는 개인화와 같은 영구 시나리오에 권장되지 않습니다. 우승자를 결정한 후 리디렉션을 제거하여 페이지 로드 성능을 개선해야 합니다.
 
 이 문제에 대한 자세한 내용은 [알려진 문제](/help/r-release-notes/known-issues-resolved-issues.md#redirect)의 &quot;리디렉션 오퍼&quot; 정보를 참조하십시오.
-
-## mbox.js JavaScript 라이브러리를 사용하는 경우 A4T에서 리디렉션 오퍼를 사용할 수 있습니까? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-[!DNL mbox.js] 라이브러리는 A4T를 사용하는 리디렉션 오퍼를 지원하지 않습니다. 구현에서 [!DNL at.js]를 사용해야 합니다.
 
 ## 시각적 경험 작성기(VEC)와 양식 기반 경험 작성기가 모두 지원됩니까? {#section_FDA26FE7909B48539DA770559E687677}
 
@@ -120,4 +114,4 @@ Adobe은 IT 팀에 얘기해서 `adobe_mc_ref` 및 `adobe_mc_sdid` 이 값이 �
 
 ### [!DNL Platform Web SDK]에 사용자 지정/HTML 리디렉션 오퍼를 사용할 수 있습니까?
 
-아니요, A4T를 사용하는 활동에는 내장 리디렉션 오퍼를 사용해야 합니다. [!DNL Target] 관점에서 HTML 오퍼는 불투명합니다.[!DNL Target]은(는) HTML의 특정 부분이 리디렉션을 인스턴스화하는 JavaScript를 포함한다는 것을 알 수 없습니다.
+아니요, A4T를 사용하는 활동에는 내장 리디렉션 오퍼를 사용해야 합니다. [!DNL Target] 관점에서 HTML 오퍼는 불투명합니다. [!DNL Target]은(는) HTML의 특정 부분이 리디렉션을 인스턴스화하는 JavaScript를 포함한다는 것을 알 수 없습니다.
