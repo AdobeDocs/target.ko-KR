@@ -1,11 +1,11 @@
 ---
 source-git-commit: 98e2d72b31baef3c1eb98628a0224d9402bf1739
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '170'
 ht-degree: 100%
 
 ---
-# MIT 라이센스
+# MIT 라이선스
 
 © Copyright 2021 Adobe. All rights reserved.
 
