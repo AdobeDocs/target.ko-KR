@@ -4,14 +4,14 @@ description: Analytics for [!DNL Target] (A4T)에 대한 구현 요구 사항과
 title: A4T를 구현하기 전에 무엇을 알아야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 29%
+source-wordcount: '879'
+ht-degree: 27%
 
 ---
 
-# at.js를 사용하여 Analytics for Target(A4T)를 구현하기 전에
+# at.js로 타겟 (A4T) 에 대한 분석을 구현하기 전
 
 [!DNL Adobe Target](A4T)의 보고 소스로 [!DNL Adobe Analytics]을(를) 설정할 때 데이터 수집 프로세스에 몇 가지 변경 사항이 발생합니다.
 
@@ -33,21 +33,19 @@ ht-degree: 29%
 
 A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합을 사용하려면 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
 
-* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js 버전 1.8.0
-* [!DNL Adobe Target](구현에 따라 다름): at.js 버전 0.9.1 또는 mbox.js 버전 61
+* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js 버전 1.8.0
+* [!DNL Adobe Target]: at.js  버전 0.9.1
 * Adobe Analytics: appMeasurement.js 버전 1.7.0
 
 ### A4T에서 리디렉션 오퍼를 사용할 경우 필요한 요구 사항
 
 A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
 
-* [!DNL Experience Cloud Visitor ID Service]:visitorAPI.js 버전 2.3.0
+* [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js 버전 2.3.0
 
    **참고:**  at.js 1.8.0 이상 버전은 더 이상  [!DNL Adobe Audience Manager] (AAM) 매개 변수를 전달하기 위해 2.5.0 이전 버전의 방문자 API에서 작동하지 않습니다.
 
 * [!DNL Adobe Target]: at.js  버전 1.6.2
-
-   **참고**:mbox.js 라이브러리는 A4T를 사용하는 리디렉션 오퍼를 지원하지 않습니다. 구현에서 at.js를 사용해야 합니다.
 
 * Adobe Analytics: appMeasurement.js 버전 2.1
 
@@ -78,7 +76,6 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 [!DNL Analytics] 및 [!DNL Target]의 데이터가 포함된 히트에 보충 데이터 ID가 들어 있습니다. 이 ID는 [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html)에서 `sdid` 매개 변수로 표시됩니다. 예: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. 이 ID는 다음 기준이 충족될 때 생성됩니다.
 
 * 방문자 ID 서비스가 구현됨
-* 이 통합을 지원하는 [!DNL mbox.js] 버전이 구현됨
 
 [문제 해결](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)에서는 보충 ID가 [!DNL Analytics] 히트에 있는지 확인하십시오.
 
@@ -86,7 +83,7 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 
 at.js, [!DNL Experience Cloud Visitor ID Service] 및 appMeasurement.js가 페이지에 있는 경우, 올바른 보충 ID가 페이지에 포함되어 있으면 [!DNL Analytics] 및 [!DNL Target] 는 백엔드에서 보고 및 분석 목적을 위해 이벤트를 올바르게 결합합니다. A4T가 제대로 작동하도록 하기 위해 추가 작업을 관리 및 수행할 필요가 없습니다.
 
-보고 목적으로 [!DNL Target]과 관련된 분석 데이터를 [!DNL Analytics]에 언제, 어떻게 보낼 것인지를 세부적으로 제어하려는 경우도 있습니다. 내부 용도로 사용하는 사내 분석 도구가 있을 수 있습니다. 그러나 사내 분석 제품을 통해 [!DNL Analytics]에 분석 데이터를 전송하여 조직의 다른 구성원이 [!DNL Analytics]을 계속 시각적 보고 소스로 사용할 수 있도록 하려는 경우도 있습니다. 자세한 내용은 *타겟 분석 구현*&#x200B;의 [7단계: 모든 사이트 페이지에서 at.js 또는 mbox.js 참조](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)를 참조하십시오.
+보고 목적으로 [!DNL Target]과 관련된 분석 데이터를 [!DNL Analytics]에 언제, 어떻게 보낼 것인지를 세부적으로 제어하려는 경우도 있습니다. 내부 용도로 사용하는 사내 분석 도구가 있을 수 있습니다. 그러나 사내 분석 제품을 통해 [!DNL Analytics]에 분석 데이터를 전송하여 조직의 다른 구성원이 [!DNL Analytics]을 계속 시각적 보고 소스로 사용할 수 있도록 하려는 경우도 있습니다. [7단계를 참조하십시오. 자세한 내용은 *Target 구현*&#x200B;에서 모든 사이트 페이지](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)에서 at.js를 참조하십시오.
 
 ## 공유 대상
 
