@@ -7,7 +7,7 @@ exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 99%
 
 * 활동을 실행하는 중에는 경험을 크게 변경하지 마십시오.
 
-### 모델이 빌드될 때까지 90(Control)/10(Targeted) 분할이 있는 [!UICONTROL 자동 Target]을 사용하는 것이 좋습니다.
+### 모델이 빌드될 때까지 90(제어)/10(목표값) 분할로 [!UICONTROL 자동 타켓]을 사용하는 것이 좋습니까?
 
 최적의 트래픽 할당 분할은 수행할 작업에 따라 달라집니다.
 
@@ -91,7 +91,7 @@ A/B 테스트 결과에 경험들 중 하나 이상에서 통계적으로 의미
 
 ### 제어로 사용할 특정 환경을 지정할 수 있습니까?
 
-AP( [자동화된 맞춤설정](/help/c-activities/t-automated-personalization/automated-personalization.md) ) 또는 AT( [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md) ) 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다.
+AP ([자동화된 맞춤설정](/help/c-activities/t-automated-personalization/automated-personalization.md)) 또는 AT ([자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md)) 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다.
 
 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 해당 경험의 제어 트래픽에 대해 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다.
 
