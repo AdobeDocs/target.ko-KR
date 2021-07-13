@@ -7,7 +7,7 @@ exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '2898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -79,7 +79,7 @@ Target Standard를 사용 중이십니까? 읽기 전용, 편집자 및 승인�
 
 경험 버전을 사용하면 원하는 수의 대상에 대해 변형으로 테스트를 한 번 실행할 수 있습니다. 예를 들어 세 명의 다른 대상에 대해 각각 테스트를 실행하지 않고도 미국, 영국, 그리고 U.A.E.의 고객을 위한 이미지 및 환율 변동과 함께 무료 배송을 제공하는 배너 광고를 만들 수 있습니다.
 
-단계별 지침은 [A/B 테스트의 여러 경험 대상](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) 및 [Adobe Target의 경험 버전](https://helpx.adobe.com/kr/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) 을 참조하십시오.
+단계별 지침은 [A/B 테스트의 여러 경험 대상](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) 및 [Adobe Target의 경험 버전](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) 을 참조하십시오.
 
 ## 팁 8: 유사한 페이지에 활동 경험을 복제하여 시간을 절약하십시오.
 
@@ -109,7 +109,7 @@ Target Standard를 사용 중이십니까? 읽기 전용, 편집자 및 승인�
 * 페이지의 전환율은 얼마입니까?
 * 테스트가 완료되었다고 자신 있게 말할 수 있으려면 얼마나 오래 테스트를 실행해야 할 것으로 예상하십니까?
 
-**유용한 팁**: Target [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 를 사용하여 성공적인 테스트에 필요한 표본 크기를 결정할 수 있습니다.
+**유용한 팁**: Target [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR) 를 사용하여 성공적인 테스트에 필요한 표본 크기를 결정할 수 있습니다.
 
 ## 팁 12: 더 간단한 테스트를 디자인하여 테스트를 만들고 구현할 수 있도록 하십시오.
 
