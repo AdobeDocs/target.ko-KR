@@ -1,5 +1,5 @@
 ---
-keywords: 릴리스 정보;릴리스;업데이트;향후 릴리스;향상;새로운 기능;수정;업데이트;사전 릴리스
+keywords: 릴리스 정보;릴리스;업데이트;향후 릴리스;향상;새로운 기능;수정;업데이트;프리릴리스
 description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Target의 예정된 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 내용에 대해 알아봅니다.
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
@@ -7,13 +7,13 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: b897829595ef1cdda28a995481fa1d2d5d1616f4
 workflow-type: tm+mt
 source-wordcount: '349'
-ht-degree: 65%
+ht-degree: 79%
 
 ---
 
-# Target 릴리스 정보(사전 릴리스)
+# Target 릴리스 정보(프리릴리스)
 
-이 문서에는 사전 릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
+이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
 **마지막 업데이트: 2021년 6월 24일**
 
@@ -32,9 +32,9 @@ ht-degree: 65%
 | 기능 | 세부 사항 |
 | --- | --- |
 | Analytics for Target (A4T) | 이제 [!DNL Analytics]를 보고 소스(A4T)로 사용하는 활동의 [!UICONTROL Reports] 페이지에서 &quot;[!UICONTROL View in Analytics]&quot; 링크를 클릭하면 [!DNL Analysis Workspace]가 열립니다. 이전에는 링크가 [!DNL Analytics] 보고를 열었습니다. (TGT-36959) |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | 다음 개선 사항은 [!DNL Recommendations] 인기도 알고리즘에 적용됩니다.<ul><li>[!DNL Target]이 동작 데이터 소스일 때 모든 인기도(가장 많이 본/최상위 판매자) 알고리즘에 6시간 &quot;전환 확인 기간&quot;(데이터 범위) 옵션을 사용할 수 있습니다. (이 전환 확인 기간은 *동작 데이터 소스인 경우*&#x200B;을 사용할 수 없습니다.)[!DNL Adobe Analytics]</li><li>선택한 경우, 다음 알고리즘은 약 3시간마다 실행되며(12시간이 아닌),<ul><li>가장 많이 본 항목</li><li>가장 많이 구입한 항목</li><li>카테고리별로 가장 많이 본 항목</li><li>가장 많이 구매된 카테고리</li><li>사용자 지정 속성으로 가장 많이 본 항목(groupBy 기능 사용)</li><li>사용자 지정 속성(groupBy 기능 사용)으로 가장 많이 구매됨</li></ul></ul>릴리스 날짜가 표시됩니다. (TOP-1086) |
+| ![프리미엄](/help/assets/premium.png) [!DNL Recommendations] | [!DNL Recommendations] 인기 알고리즘에 적용되는 개선 사항:<ul><li>[!DNL Target]이 동작 데이터 소스일 때 모든 인기도(가장 많이 본/최상위 판매자) 알고리즘에 6시간 &quot;전환 확인 기간&quot;(데이터 범위) 옵션을 사용할 수 있습니다. (이 룩백 창은 [!DNL Adobe Analytics]가 행동적 데이터 소스일 때 *못* 사용합니다.)</li><li>선택한 경우, 다음 알고리즘은 약 3시간마다 실행되며(12시간이 아닌),<ul><li>가장 많이 본 항목</li><li>최다 구매</li><li>범주별 최고 조회수</li><li>범주별 최다 구매</li><li>알고리즘 특성별 최고 조회수(groupBy 기능 사용)</li><li>알고리즘 특성별 최다 판매(groupBy 기능 사용)</li></ul></ul>릴리스 날짜가 표시됩니다. (TOP-1086) |
 
-## 사전 릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
+## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
 Target 및 기타 Adobe Experience Cloud 솔루션에 대한 향후 제품 개선 사항에 대한 사전 알림을 받으려면 Adobe 우선순위 제품 업데이트에 등록하십시오.
 
