@@ -5,10 +5,10 @@ title: at.js에 대한 일반적인 질문과 답변은 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2641'
-ht-degree: 75%
+source-wordcount: '2609'
+ht-degree: 74%
 
 ---
 
@@ -26,7 +26,7 @@ at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
 ![](assets/atjs_vesus_mboxjs.png)
 
-위에서 보듯이 mbox.js를 사용하는 페이지 콘텐츠는 [!DNL Target] 호출이 완료될 때까지 로드되지 않습니다. 반면에 at.js를 사용하는 페이지 콘텐츠는 [!DNL Target] 호출이 시작되면 로드가 시작되며 호출이 완료될 때까지 기다리지 않습니다.
+위에서 보듯이 mbox.js를 사용하는 페이지 콘텐츠는 [!DNL Target] 호출이 완료될 때까지 로드되지 않았습니다. 반면에 at.js를 사용하는 페이지 콘텐츠는 [!DNL Target] 호출이 시작되면 로드가 시작되며 호출이 완료될 때까지 기다리지 않습니다.
 
 ## at.js 및 mbox.js가 페이지 로드 시간에 미치는 영향을 무엇입니까? {#page-load}
 
@@ -131,7 +131,7 @@ at.js 파일은 다운로드 시 약 109KB입니다. 그러나 대부분의 서�
 
 at.js 구현은 단일 라이브러리([!DNL at.js])를 사용하는 반면, mbox.js 구현은 실제로 두 개의 라이브러리([!DNL mbox.js]와 [!DNL target.js])를 사용합니다. 따라서 공정한 비교는 at.js 대 mbox.js *와* `target.js`입니다. gzip으로 압축된 두 버전의 크기를 비교하면 at.js 버전 1.2는 34KB이고 mbox.js 버전 63은 26.2KB입니다. ``
 
-at.js는 mbox.js와 비교하여 훨씬 더 많은 DOM 구문 분석을 수행하므로 더 adfd큽니다. 이것은 at.js가 JSON 응답에 있는 &quot;원시&quot; 데이터를 가져오고 이를 이해해야 하기 때문에 필요합니다. mbox.js는 `document.write()`을 사용하고 모든 구문 분석은 브라우저가 수행합니다.
+at.js는 mbox.js와 비교하여 훨씬 더 많은 DOM 구문 분석을 수행하므로 더 adfd큽니다. 이것은 at.js가 JSON 응답에 있는 &quot;원시&quot; 데이터를 가져오고 이를 이해해야 하기 때문에 필요합니다. mbox.js에서 `document.write()`을 사용하고 모든 구문 분석은 브라우저가 수행했습니다.
 
 파일이 큼에도 불구하고 테스트를 해보면 mbox.js에 비해 at.js를 사용할 때 페이지가 더 빨리 로드됩니다. 또한 at.js는 추가적인 파일을 동적으로 로드하거나 `document.write`을 사용하지 않으므로 보안 관점에서 더 우수합니다.
 
@@ -145,13 +145,9 @@ at.js는 현재 jQuery의 일부를 사용하므로 at.js의 맨 위에 MIT 라�
 
 Safari 방문자를 지원하기 위해 더 나은 X-Domain이 &quot;비활성화&quot;(퍼스트 파티 쿠키만 설정)되거나 &quot;활성화&quot;(Safari에서 퍼스트 파티 쿠키만 설정하고 기타 브라우저에서는 퍼스트 파티 쿠키와 타사 쿠키 설정)됩니다.
 
-## at.js와 mbox.js를 나란히 실행할 수 있습니까? {#section_4DCAF38DBAEB430CA486FAEFAE0E0A29}
-
-동일한 페이지에서 실행할 수 없습니다. 그러나 [!DNL at.js]을 구현하고 테스트하는 동안 [!DNL at.js]의 유효성을 검사할 때까지 일부 페이지에서 [!DNL at.js] 를 실행하고 다른 페이지에서는 [!DNL mbox.js]를 실행할 수 있습니다.
-
 ## 단일 페이지 애플리케이션에서 [!DNL Target] VEC(시각적 경험 작성기)를 사용할 수 있습니까? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
 
-예. at.js 2.x를 사용하는 경우 SPA용 VEC를 사용할 수 있습니다.자세한 내용은 [단일 페이지(SPA) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오.
+예. at.js 2.x를 사용하는 경우 SPA용 VEC를 사용할 수 있습니다. 자세한 내용은 [단일 페이지(SPA) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오.
 
 ## at.js 구현에 Adobe Experience Cloud Debugger를 사용할 수 있습니까? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
