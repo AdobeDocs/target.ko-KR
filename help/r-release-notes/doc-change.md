@@ -4,16 +4,28 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 94%
+source-wordcount: '1803'
+ht-degree: 90%
 
 ---
 
 # 설명서 변경 내용
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
+
+## Adobe [!DNL Target] Standard/Premium 21.6.1(2021년 6월 30일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 12월 7일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 얻을 수 있는 상당한 ROI, 통찰력 및 시간 절약 효과를 정량합니다.</li><li>[!DNL Adobe Target] 2021년 7월 21일 수요일 오전 8시에 커뮤니티 Q&amp;A 커피 브레이크가 열립니다. (PDT, GMT-7).</li></ul> |
+|  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ가 추가되었습니다. &quot;새로운 기사나 비디오만 추천하려면 어떻게 해야 합니까?&quot; |
+|  | [제한](/help/r-troubleshooting-target/target-limits.md) | &quot;API 호출 Target&quot; 섹션의 텍스트가 업데이트되었습니다. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` 키에 대한 설명이 업데이트되었습니다. |
+|  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 나타내도록 1단계가 업데이트되었습니다. |
+|  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
+| 6월 30일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.6.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.5.1(2021년 6월 8일)
 
