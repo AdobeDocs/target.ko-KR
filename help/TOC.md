@@ -165,7 +165,7 @@ ht-degree: 99%
       + [이메일 이미지 Adbox 테스트](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [리디렉터 작업](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Target과 Experience Cloud 통합{#integrate}
-   + Target용 보고 소스로서의 Adobe Analytics(A4T){#a4t}
+   + Target용 보고 소스로서의 Adobe Analytics (A4T) {#a4t}
       + [A4T 개요](c-integrating-target-with-mac/a4t/a4t.md)
       + [구현하기 전에](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Analytics for Target 구현](c-integrating-target-with-mac/a4t/a4timplementation.md)
@@ -174,7 +174,7 @@ ht-degree: 99%
       + [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Analytics 추적 서버 사용을 참조하십시오](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [A4T 보고](c-integrating-target-with-mac/a4t/reporting.md)
-      + Analytics 및 Target 통합 문제 해결(A4T) {#troubleshoot-a4t}
+      + Analytics 및 Target 통합 문제 해결 (A4T) {#troubleshoot-a4t}
          + [A4T 문제 해결](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
       + A4T FAQ {#a4t-faq}
@@ -356,9 +356,9 @@ ht-degree: 99%
       + [자동화된 세그먼트 보고서](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [중요 속성 보고서](c-reports/c-personalization-insights-reports/important-attributes-report.md)
    + [Automated Personalization의 오퍼 보고 그룹](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [경험 성과 보고서(MVT)](c-reports/experience-performance-report.md)
-   + [위치 기여도 보고서(MVT)](c-reports/location-contribution-report.md)
-   + [A4T(Analytics for Target) 보고](c-reports/analytics-for-target-a4t-reporting.md)
+   + [경험 성과 보고서 (MVT)](c-reports/experience-performance-report.md)
+   + [위치 기여도 보고서 (MVT)](c-reports/location-contribution-report.md)
+   + [A4T (Analytics for Target) 보고](c-reports/analytics-for-target-a4t-reporting.md)
    + [전환율](c-reports/conversion-rate.md)
    + [CSV 파일로 데이터 다운로드](c-reports/downloading-data-in-csv-file.md)
    + [보고 FAQ](c-reports/reporting-frequently-asked-questions.md)
