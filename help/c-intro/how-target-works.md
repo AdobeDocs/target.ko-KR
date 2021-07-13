@@ -27,7 +27,7 @@ ht-degree: 95%
 
 다음 리소스에는 Experience Platform 웹 SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko-KR?lang=ko#configure-the-aep-web-sdk-extension)
+* [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko-KR#configure-the-aep-web-sdk-extension)
 * [ [!DNL Target] Adobe Experience Platform Launch를 사용한 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 타기팅 시스템으로 요청이 전송됩니다. 요청은 방문자에게 제공할 콘텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 발생합니다. 페이지가 로드될 때마다 콘텐츠 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타기팅합니다. 각 사이트 방문자가 응답하거나, 상호 작용하거나, 궁극적으로는 구매할 가능성이 가장 높은 콘텐츠가 제공됩니다. 개인화된 콘텐츠를 통해 응답률, 확보율 및 매출을 극대화할 수 있습니다.
@@ -61,23 +61,23 @@ ht-degree: 95%
 
 자세한 내용은 [자동 타겟](/help/c-activities/auto-target/auto-target-to-optimize.md) 을 참조하십시오.
 
-### [!UICONTROL 자동화된 개인화](AP)
+### [!UICONTROL Automated Personalization] (AP)
 
-AP(자동화된 개인화)는 오퍼 또는 메시지를 결합하고 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼를 매칭합니다. 경험 전달은 콘텐츠를 개인화하고 리프트를 구동하기 위한 개별 고객 프로필을 기반으로 합니다.
+AP (Automated Personalization)는 오퍼 또는 메시지를 결합하고 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼를 매칭합니다. 경험 전달은 콘텐츠를 개인화하고 리프트를 구동하기 위한 개별 고객 프로필을 기반으로 합니다.
 
-자세한 내용은 [자동화된 개인화](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 를 참조하십시오.
+자세한 내용은 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 를 참조하십시오.
 
-### [!UICONTROL 경험 타기팅](XT)
+### [!UICONTROL 경험 타기팅] (XT)
 
-경험 타기팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
+경험 타기팅 (XT) 에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 
-지리 기반의 타기팅을 포함한 경험 타기팅은 특정 경험이나 콘텐츠를 특정 대상으로 타기팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상에 다양한 콘텐츠 변형을 전달할 수 있습니다. 방문자가 사이트를 볼 때 XT(경험 타기팅)는 방문자를 평가하여 설정된 기준을 총족하는지 여부를 판단합니다. 기준을 충족하면 적격 대상을 위해 디자인된 활동 및 경험을 시작하게 됩니다. 단일 활동 내에서 여러 대상에 대한 경험을 만들 수 있습니다.
+지리 기반의 타기팅을 포함한 경험 타기팅은 특정 경험이나 콘텐츠를 특정 대상으로 타기팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상에 다양한 콘텐츠 변형을 전달할 수 있습니다. 방문자가 사이트를 볼 때 XT (경험 타기팅)는 방문자를 평가하여 설정된 기준을 총족하는지 여부를 판단합니다. 기준을 충족하면 적격 대상을 위해 디자인된 활동 및 경험을 시작하게 됩니다. 단일 활동 내에서 여러 대상에 대한 경험을 만들 수 있습니다.
 
 자세한 내용은 [경험 타기팅](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) 을 참조하십시오.
 
-### [!UICONTROL 다변량 테스트](MVT)
+### [!UICONTROL 다변량 테스트] (MVT)
 
-다변량 테스트(MVT)는 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. MVT는 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
+다변량 테스트 (MVT) 는 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. MVT는 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
 
 자세한 내용은 [다변량 테스트](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) 를 참조하십시오.
 
@@ -175,7 +175,7 @@ Google은 사용자 테스트를 권장합니다. Google은 해당 설명서를 
 
    Adobe는 검색 엔진 지침에 완벽하게 부합할 수 있는 실행 가능한 솔루션을 계속 찾고 있습니다. 테스트를 위해 별도의 URL을 사용해야 하는 클라이언트의 경우, Adobe는 표준 태그의 적절한 구현이 이 접근법과 관련된 위험을 완화한다고 확신합니다.
 
-* **필요한 동안만 실험 실행**: Adobe에서는 &quot;필요한 동안&quot;을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. [!DNL Target] 에서는 테스트가 이 시점에 도달했을 때를 판별하는 [모범 사례](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 를 제공합니다. 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
+* **필요한 동안만 실험 실행**: Adobe에서는 &quot;필요한 동안&quot;을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. [!DNL Target] 에서는 테스트가 이 시점에 도달했을 때를 판별하는 [모범 사례](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR) 를 제공합니다. 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
 
    [!DNL Target] 플랫폼을 사용하여 가장 성과가 좋은 테스트를 &quot;게시&quot;하는 것은 영구적인 솔루션으로 권장되지 않습니다. 100% 사용자 중 100%에 대해 채택 테스트가 게시되면 채택 테스트를 하드 코딩하는 프로세스가 완료되는 동안 이 방법을 사용할 수 있습니다.
 
@@ -207,7 +207,7 @@ Adobe [!DNL Target] 은 [DeviceAtlas](https://deviceatlas.com/device-data/user-a
 
 * 방문자 프로필 만들기 또는 검색
 * 모든 프로필 속성 로깅 또는 프로필 스크립트 실행
-* Adobe Audience Manager(AAM) 세그먼트 조회(해당하는 경우)
-* 권장 사항, 자동 타겟, 자동화된 개인화 또는 [!UICONTROL 자동 할당] 활동에 대해 개인화된 콘텐츠를 모델링하고 제공하는 데 봇 트래픽을 사용합니다.
+* Adobe Audience Manager (AAM) 세그먼트 조회(해당하는 경우)
+* 권장 사항, 자동 타겟, Automated Personalization 또는 [!UICONTROL 자동 할당] 활동에 대해 개인화된 콘텐츠를 모델링하고 제공하는 데 봇 트래픽을 사용합니다.
 * 보고를 위한 활동 방문 로그
 * [!DNL Adobe Experience Cloud] 플랫폼으로 전송될 로그 데이터
