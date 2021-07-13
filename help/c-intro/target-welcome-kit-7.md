@@ -7,7 +7,7 @@ exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ A/B 테스트 설정 워크플로의 두 번째 단계에서 [자동 타겟](/he
 
 테스트에서 통계적으로 유의한 결론을 도출하려면 일정 수의 방문자를 테스트 모집단에 넣어야 합니다. 생각해 보십시오. 만약 두 사람만 테스트에 참여한다면, 그 결과를 신뢰하겠습니까?
 
-[!DNL Target] 은 통계적 원칙에 의존하여 테스트 결과가 통계적으로 유효하다고 판단합니다. Adobe [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 를 사용하면 결과에 필요한 신뢰도에 따라 테스트 실행 시간을 결정할 수 있습니다. 계산기를 열고 사용하려면 이 상자에서 [!UICONTROL 자세히 알아보기] 링크를 클릭합니다.
+[!DNL Target] 은 통계적 원칙에 의존하여 테스트 결과가 통계적으로 유효하다고 판단합니다. Adobe [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR) 를 사용하면 결과에 필요한 신뢰도에 따라 테스트 실행 시간을 결정할 수 있습니다. 계산기를 열고 사용하려면 이 상자에서 [!UICONTROL 자세히 알아보기] 링크를 클릭합니다.
 
 ### 이 활동은 얼마나 중요한가?
 
