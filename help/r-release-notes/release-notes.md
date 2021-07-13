@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여  [!DNL Adobe T
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 100%
+source-wordcount: '661'
+ht-degree: 89%
 
 ---
 
@@ -23,24 +23,20 @@ ht-degree: 100%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
+## [!DNL Target Standard/Premium] 21.6.1(2021년 6월 30일)
+
+이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| Analytics for Target (A4T) | 이제 [!DNL Analytics]를 보고 소스(A4T)로 사용하는 활동의 [!UICONTROL Reports] 페이지에서 &quot;[!UICONTROL View in Analytics]&quot; 링크를 클릭하면 [!DNL Analysis Workspace]가 열립니다. 이전에는 링크가 [!DNL Analytics] 보고를 열었습니다. (TGT-36959) |
+| ![프리미엄](/help/assets/premium.png) [!DNL Recommendations] | [!DNL Recommendations] 인기 알고리즘에 적용되는 개선 사항:<ul><li>[!DNL Target]이 동작 데이터 소스일 때 모든 인기도(가장 많이 본/최상위 판매자) 알고리즘에 6시간 &quot;전환 확인 기간&quot;(데이터 범위) 옵션을 사용할 수 있습니다. (이 룩백 창은 [!DNL Adobe Analytics]가 행동적 데이터 소스일 때 *못* 사용합니다.)</li><li>선택한 경우, 다음 알고리즘은 약 3시간마다 실행되며(12시간이 아닌),<ul><li>가장 많이 본 항목</li><li>최다 구매</li><li>범주별 최고 조회수</li><li>범주별 최다 구매</li><li>알고리즘 특성별 최고 조회수(groupBy 기능 사용)</li><li>알고리즘 특성별 최다 판매(groupBy 기능 사용)</li></ul></ul>릴리스 날짜가 표시됩니다. (TOP-1086) |
+
 ## Python SDK 1.0.0(2021년 6월 16일)
 
 온 디바이스 결정 기능을 탑재한 새 [!DNL Adobe Target] Python SDK를 이제 이용할 수 있습니다. 이 최신 추가 기능은 서버측 SDK의 [!DNL Target] 제품군을 강화합니다. 이러한 SDK를 이용하면 [!DNL Target]과 통합할 수 있고 원하는 언어로 값까지 시간을 단축할 수 있습니다. 시장이 퍼스트파티 데이터가 귀중해지는 쿠키 없는 세상으로 전환하여 점점 더 많은 이들이 서버측 통합을 선택하고 있습니다. Target SDK는 시장에서 가장 인기 있는 프로그래밍 언어(Python, Java, JavaScript, C# / .Net)로 이용할 수 있습니다.
 
 자세한 내용은 [Adobe Target SDKs 안내서](https://adobetarget-sdks.gitbook.io/docs/)의 [Python SDK 설명서](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)를 참조하십시오.
-
-## Target Standard/Premium 21.5.1(2021년 6월 7일)
-
-이 릴리스에는 다음 개선 사항이 포함됩니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| ![Premium 배지](/help/assets/premium.png) [!DNL Recommendations] [!UICONTROL 카탈로그 검색] API | 검색 기준과 일치하는 항목을 식별하고 카탈로그의 관리를 단순화하려면 API를 통해 프로그래밍 방식으로 [!DNL Recommendations] 제품과 콘텐츠 카탈로그를 검색하십시오.<br>**제한과 참고 사항**:<ul><li>API를 통한 카탈로그 검색은 2,000,000개가 넘는 항목을 가진 환경에 대해서는 지원되지 않습니다.</li><li>API를 통한 카탈로그 검색 결과는 [!DNL Target] UI를 통한 카탈로그 검색 결과보다 더 빠르게 업데이트됩니다. [!DNL Target] UI의 카탈로그 검색은 최신 결과를 반영하는 데 시간이 더 걸릴 수 있습니다.</li></ul>자세한 내용은 *[!DNL Adobe Target][!DNL Recommendations] API* 안내서의 [엔티티 검색](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)을 참조하십시오. |
-
-이 릴리스 유지 보수 릴리스가 포함하는 수정 사항은 다음과 같습니다.
-
-* [!UICONTROL Audiences] 페이지를 참조할 때 기본 작업 영역이 다른 작업 영역으로 변경되는 문제를 수정했습니다. (TGT-38871)
-* 오류 메시지를 유발하는 [!UICONTROL 관리] > [!UICONTROL 구현]의 문제를 수정했습니다. 해당 오류 메시지 내용: &quot;전역 mbox가 동기화되지 않을 수 있습니다. 재저장을 해 보십시오.&quot;
 
 ## ![Adobe Experience Platform Web SDK 배지](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] 버전 2.5.0 (2021년 6월 1일)
 
@@ -49,15 +45,6 @@ ht-degree: 100%
 | 기능 | 세부 사항 |
 | --- | --- |
 | [!UICONTROL Analytics for Target] (A4T) 로 리디렉션 지원 | Platform Web SDK 가 이제 [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md) 를 사용할 때 [!DNL Target] 리디렉션을 지원합니다.<br>자세한 내용은 [Analytics for [!DNL Target] 구현](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)을 참조하십시오. |
-
-## at.js 버전 2.5.0(2021년 5월 13일)
-
-이 at.js의 릴리스에는 다음과 같은 개선 사항 및 변경 사항이 포함되어 있습니다.
-
-* at.js에 대한 [온디바이스 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 지원
-* Automated Personalization 활동에 대한 [링크 미리보기](/help/c-activities/c-activity-qa/activity-qa.md) 지원
-
-또한 이 릴리스에서는 Microsoft Internet Explorer 10, Internet Explorer 11, 그리고 그 이하 버전에 대한 지원이 제거되었습니다. Microsoft Edge는 at.js 2.5.0과 이후 버전에서 지속 지원됩니다.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
