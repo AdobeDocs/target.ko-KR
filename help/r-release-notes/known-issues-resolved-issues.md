@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '4390'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,15 +23,15 @@ ht-degree: 98%
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
 
-### [!DNL Adobe Experience Platform] 세그먼트 이름은  [!UICONTROL 중요 속성 보고서에 ] 표시되지 않습니다.
+### [!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.
 
-[!DNL Adobe Experience Platform] 세그먼트 이름은  [!UICONTROL Automated Personalization] (AP) 및  [!UICONTROL 자동 Target] (AT) 활동에 대한 중요   속성 보고서에 표시되지 않습니다. (TOP-3813)
+[!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타켓](AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
 
-### [!UICONTROL 자동 Target] 활동을 보관하면 동기화 문제가 발생할 수 있습니다
+### [!UICONTROL 자동 타겟] 활동은 동기화 문제를 일으킬 수 있습니다
 
-비활성 [!UICONTROL 자동 Target] 활동을 보관하려고 하면 동기화 문제가 발생할 수 있습니다. 이 문제가 해결될 때까지 [!UICONTROL 자동 Target] 활동을 보관하지 마십시오. [!UICONTROL 비활성] 상태에 둡니다. (TGT-40885)
+비활성 [!UICONTROL 자동 타겟] 활동을 보관하려는 시도는 동기화 문제를 일으킬 수 있습니다. 이 문제가 수정되기 전까지 [!UICONTROL 자동 타겟] 활동을 보관하지 마십시오. [!UICONTROL 비활성] 상태로 두십시오. (TGT-40885)
 
-### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target(A4T) 분석
+### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target (A4T) 분석
 
 [!DNL Target] UI를 통해 사용자는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동의 최적화를 위한 주요 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있습니다. 전환 지표가 지원되며 참여 및 매출 지표는 지원되지 *않습니다*. 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 구축되지 않습니다.
 
@@ -53,10 +53,10 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 
 다음은 리디렉션 오퍼에 대한 알려진 문제입니다.
 
-* A4T(Analytics for Target)로 구성된 활동에서 리디렉션 오퍼를 사용할 때 제한된 수의 고객이 트래픽 분포에서 높은 차이를 보고했습니다.
+* A4T (Analytics for Target) 로 구성된 활동에서 리디렉션 오퍼를 사용할 때 제한된 수의 고객이 트래픽 분포에서 높은 차이를 보고했습니다.
 * at.js 구현의 리디렉션 활동으로 인해 미리보기 URL이 루프에 들어가게 됩니다(오퍼가 반복적으로 전달됨). 대신 [QA 모드](/help/c-activities/c-activity-qa/activity-qa.md) 를 사용하여 미리보기와 QA를 수행할 수 있습니다. 이 문제는 오퍼의 실제 전달에는 영향을 주지 않습니다. (TGT-23019)
 
-### VEC(시각적 경험 작성기) 내에서 페이지 로드 취소  {#cancel}
+### VEC(시각적 경험 작성기) 내에서 페이지 로드 취소 {#cancel}
 
 * 리디렉션 URL이 포함된 VEC 내에서 [!UICONTROL A/B 테스트] 또는 XT( [!UICONTROL Experience Targeting] ) 활동 로드를 취소할 때 현재 알려진 다음 문제가 나타납니다.
 
@@ -91,7 +91,7 @@ URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게
 * 기준 목록(카드) 보기에 표시된 사용자 지정 기준 피드 상태는 10분마다 새로 고침되며 특수한 상황에서 10분 이상 걸릴 수 있습니다. 사용자 지정 기준 편집 보기에 표시된 상태를 실시간으로 가져오며 상태는 항상 최신입니다. (TGT-35896, TGT-36173)
 * 기준 및 설계 카드는 사용 중인 활동의 올바른 수를 표시하지 않습니다. 기준이나 설계가 A/B 활동에 사용된 경우, 카드는 설계나 기준이 활동에 사용된 경우에도 설계나 기준이 사용되지 않는다고 잘못 표시할 수 있습니다. (TGT-36621, TGT-37217)
 
-### MVT(다변량 테스트) 활동
+### MVT (다변량 테스트) 활동
 
 MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확인할 때 일관되지 않습니다. 사용자가 요약 보기에서 그래프 보기로 전환한 후 요약 보기로 다시 전환하고 지표를 변경한 후 그래프 보기로 다시 전환하면 이런 상황이 발생합니다. 이 문제가 발생해도 요약 보기에는 항상 올바른 승자가 표시됩니다. 사용자가 요약 보기 중간에 그래프 보기로 절대 전환하지 않으면 그래프 보기에 올바른 승자가 표시됩니다.
 
@@ -99,8 +99,8 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 다음은 at.js의 알려진 문제입니다.
 
-* Adobe Analytics 코드가 페이지 요소(예: 버튼)에 없는 경우 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 Analytics for Target(A4T)에서 전환을 보고하지 않습니다. at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. 이 문제가 발생하는 경우 [최신 at.js 버전으로 업그레이드하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-* at.js 2.1.1 이하 버전(예: 기본 경험)을 사용하여 수정 없이 경험을 생성하는 경우 보고서, Analytics for Target(A4T), Adobe Analytics 또는 Google Analytics에서 경험이 계산되지 않을 수 있습니다. 또한 ttMeta 플러그인 이 제대로 작동하지 않을 수 있습니다.
+* Adobe Analytics 코드가 페이지 요소(예: 버튼)에 없는 경우 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 Analytics for Target (A4T) 에서 전환을 보고하지 않습니다. at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. 이 문제가 발생하는 경우 [최신 at.js 버전으로 업그레이드하십시오](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* at.js 2.1.1 이하 버전(예: 기본 경험)을 사용하여 수정 없이 경험을 생성하는 경우 보고서, Analytics for Target (A4T), Adobe Analytics 또는 Google Analytics에서 경험이 계산되지 않을 수 있습니다. 또한 ttMeta 플러그인 이 제대로 작동하지 않을 수 있습니다.
 
    해결 방법으로 경험 콘텐츠에 공백을 사용하십시오. (TNT-33366)
 
@@ -127,7 +127,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 성공 지표가 노출 시마다 증분되도록 설정되면 Target에서는 방문자가 이 성공 지표를 방문할 때마다 방문자를 다시 카운트합니다. 그런 다음 Target은 성공 지표 &quot;멤버십&quot;을 0으로 재설정하여 다음 노출 시 다시 카운트될 수 있도록 합니다. 따라서 해당 지표를 먼저 확인해야 하는 다른 지표가 있다고 해도, Target은 사용자가 첫 번째 지표를 확인했다는 사실을 절대 인식하지 못합니다.
 
-### [!DNL Target](A4T)에 대한 Analytics
+### [!DNL Target](A4T) 에 대한 Analytics
 
 Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko-KR)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
 
@@ -157,9 +157,9 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
 이 문제는 Target Standard/Premium 20.10.1 릴리스에서 해결되었습니다.
 
-### Adobe Target(A4T) 보고에 대한 Analytics
+### Adobe Target (A4T) 보고에 대한 Analytics
 
-A4T와 관련된 다음과 같은 문제가 해결되었습니다.
+A4T 와 관련된 다음과 같은 문제가 해결되었습니다.
 
 * [!DNL Analytics] 목표 지표를 사용하여 A4T 활동에 영향을 준 문제로 인해 A4T 보고서가 예기치 않은 트래픽 분할 또는 인위적으로 부풀려진 전환을 보여 주었습니다.
 
@@ -238,7 +238,7 @@ A4T와 관련된 다음과 같은 문제가 해결되었습니다.
 
 at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false` 로 다운로드됩니다. mbox.js를 처음 다운로드하면 global\_mbox\_autocreate가 &quot;true&quot;로 설정되고 at.js도 `global_mbox_autocreate = true`로 다운로드됩니다. (TGT-15929)
 
-### [!DNL Target] API의 엔터프라이즈 권한 지원  {#api}
+### [!DNL Target] API의 엔터프라이즈 권한 지원 {#api}
 
 GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러리의 Target UI에서 생성된 코드 오퍼가 기본 작업 영역에 표시될 수 있습니다. 이 문제는 2019년 3월 첫 주에 수정됩니다. 이 수정 사항이 적용되면 API에서 가져올 때 코드 오퍼가 적합한 작업 영역에 표시됩니다. 이 문제는 API에서 만든 오퍼에 영향을 주지 *않습니다*. 예를 들어 API에서 생성된 코드 오퍼는 GET API를 사용하여 가져오든 아니면 Target UI 내에서 가져오든 간에 생성될 때 작업 영역에 표시됩니다.
 
@@ -313,9 +313,9 @@ API를 통해 삭제된 기본 작업 영역의 활동이 Target UI에 계속 �
 
 2018년 10월 25일 해결됨
 
-### 자동화된 개인화(AP) 오퍼 수준 보고
+### Automated Personalization (AP) 오퍼 수준 보고
 
-자동화된 개인화(AP) 활동의 보고서에서 타기팅된 경험을 클릭하면 현재 빈 결과와 함께 오류 메시지 또는 회전하는 아이콘이 표시됩니다. (TNT-30695)
+Automated Personalization (AP) 활동의 보고서에서 타기팅된 경험을 클릭하면 현재 빈 결과와 함께 오류 메시지 또는 회전하는 아이콘이 표시됩니다. (TNT-30695)
 
 2018년 9월 27일 해결됨
 
@@ -327,7 +327,7 @@ Firefox 및 Internet Explorer에서 코드 편집기로 작업하는 동안 3단
 
 ### 속성 프로모션 규칙을 사용하는 Recommendations 활동입니다
 
-속성 프로모션 규칙을 사용하는 Recommendations 활동을 편집하거나 복사하는 경우 저장을 클릭하면 &quot;누락된 필드 있음&quot; 오류가 표시됩니다 .
+속성 프로모션 규칙을 사용하는 Recommendations 활동을 편집하거나 복사하는 경우 저장을 클릭하면 &quot;누락된 필드 있음&quot; 오류가 표시됩니다.
 
 이 오류는 17.8.1 릴리스에서 수정되었습니다.
 
@@ -364,7 +364,7 @@ Firefox 및 Internet Explorer에서 코드 편집기로 작업하는 동안 3단
 
 17.6.2 릴리스의 문제는 2017년 6월 22일과 2017년 6월 29일 사이에 만들어졌거나 업데이트된 활동에 영향을 주었을 수 있습니다. 다음과 같은 활동이 영향을 받았습니다.
 
-* 경험 타기팅(XT)에서 재배열된 경험이 원래 오퍼로 복구되었습니다.
+* 경험 타기팅 (XT) 에서 재배열된 경험이 원래 오퍼로 복구되었습니다.
 * 활동에 로컬인 모든 세그먼트 규칙(대상 내에 저장되지 않음), 즉 조합된 대상, 위치 세분화 및 성공 지표에 대한 모든 규칙이 손실되었습니다.
 
 다른 활동은 영향을 받지 않았습니다.
@@ -378,7 +378,7 @@ Firefox 및 Internet Explorer에서 코드 편집기로 작업하는 동안 3단
 양식 기반 경험 작성기를 사용할 때 다음과 같은 알려진 문제가 보고되었습니다.
 
 * 자동으로 만든 글로벌 mbox(target-global-mbox) 이외의 mbox와 함께 양식 기반 경험 작성기를 사용한 다음, 참여 지표를 성공 지표로 선택하는 경우, 지표는 활동에 해당 mbox가 사용된 페이지에서만 증분됩니다. 예를 들어 mbox가 homepage\_mbox면 방문당 페이지 수 지표는 방문하는 동안 homepage\_mbox에 대한 히트 수가 됩니다. (TGT-22789)
-* 프로세스의 1단계 동안 양식 기반 경험 작성기를 사용할 때 경험 타기팅(XT) 활동에서 경험을 삭제할 경우 JavaScript 예외가 발생합니다. (TGT-24366)
+* 프로세스의 1단계 동안 양식 기반 경험 작성기를 사용할 때 경험 타기팅 (XT) 활동에서 경험을 삭제할 경우 JavaScript 예외가 발생합니다. (TGT-24366)
 
 첫 번째 문제는 Target 17.3.1 릴리스(2017년 3월)에서 수정되었습니다.
 
@@ -390,7 +390,7 @@ Target 17.4.1(2017년 4월 27일) 릴리스 이후부터 VEC(시각적 경험 �
 
 이 문제는 2017년 5월 22일에 릴리스된 at.js 버전 0.9.7에서 수정되었습니다.
 
-### 보고: A/B 및 경험 타기팅(XT) 활동
+### 보고: A/B 및 경험 타기팅 (XT) 활동
 
 4월 27일 PST, 오후 9시부터 5월 5일 오전 6시 사이에 &quot;페이지 확인함&quot; 전환 작업을 사용하는 지표로 생성 또는 편집한 A/B 및 XT 활동(다른 지표를 기준으로 하지 않음)이 전환을 잘못 기록했을 수 있습니다. 이 문제는 현재 해결되었지만 영향을 받는 기간 동안 이러한 활동에 대한 &quot;페이지 확인함&quot; 전환 작업에 대한 보고가 정확하지 않을 수 있으며, 이러한 오류는 수정할 수 없습니다. 이러한 활동에 대해 &quot;페이지 확인함&quot; 전환 작업을 기준으로 진행된 모든 의사 결정의 경우 영향을 받는 기간 전후에 기록된 데이터에만 의존하는 것이 좋습니다.
 
@@ -398,7 +398,7 @@ Target 17.4.1(2017년 4월 27일) 릴리스 이후부터 VEC(시각적 경험 �
 
 Target 17.4.3 핫픽스에서 수정되었습니다.
 
-### 오퍼: A/B 및 경험 타기팅(XT) 활동
+### 오퍼: A/B 및 경험 타기팅 (XT) 활동
 
 2개 이상의 경험이 있고 4월 28일 금요일(PT 오후 9시)과 5월 1일 월요일(PT 오후 9시 15분) 사이에 양식 기반 경험 작성기를 사용하여 생성 또는 편집된 A/B 및 XT 활동의 오퍼에 대한 전달 및 미리보기가 영향을 받았습니다. 기본 콘텐츠가 있는 오퍼만 표시되었습니다.
 
