@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] at.js JavaScript 라이브러리의 각 버전 
 title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '4143'
+source-wordcount: '4132'
 ht-degree: 89%
 
 ---
@@ -175,7 +175,7 @@ at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같
 
 * 페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.
 * 오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.
-* 간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타기팅(XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.
+* 간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타기팅 (XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.
 
 at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.
 
@@ -257,7 +257,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 * false로 설정한 경우 런타임 예외로 인해 `window.targetGlobalSettings.enabled`에 오류가 발생하는 문제가 해결되었습니다. (TNT-29829)
 * 글로벌 mbox 요청 실행에 사용자 지정 코드를 사용하고 본문 숨기기를 사용하는 경우 VEC(시각적 경험 작성기)에서 로드하는 동안 페이지에 오류가 발생하는 문제가 해결되었습니다. (TNT-29795)
 * `screenOrientation`, `devicePixelRatio` 및 `webGLRenderer`에 대한 지원을 추가했습니다. 이러한 새로운 Target 요청 매개 변수는 iPhone X 및 기타 최신 장치 검색에 사용됩니다. 자세한 내용은 [모바일](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89)을 참조하십시오. (TNT-29781)
-* AAM(Adobe Audience Manager) 위치 힌트가 가끔씩 전송되지 않은 문제가 해결되었습니다. (TNT-29695)
+* AAM (Adobe Audience Manager) 위치 힌트가 가끔씩 전송되지 않은 문제가 해결되었습니다. (TNT-29695)
 * 이를 지원하는 브라우에서 at.js 1.5.0이 선택기 폴링을 위해 MutationObserver로 전환됩니다. at.js 1.0.0 이전의 버전은 MutationObserver polyfill을 사용했으며, 이는 문제가 있는 것으로 입증되었습니다. polyfill 문제를 방지하기 위해 버전 1.5.0에서 다음 의사 코드를 사용하여 사용할 예약 메커니즘을 결정합니다.
 
    ```
@@ -387,7 +387,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 **날짜:** 2017년 1월 19일
 
-* 이제 mbox 이름에는 mbox.js를 사용하는 mbox 이름에 대한 이름 지정 요구 사항과 일치하도록 하기 위해 앰퍼샌드(&amp;)를 비롯한 특수 문자가 포함될 수 있습니다.
+* 이제 mbox 이름에는 앰퍼샌드( &amp; )를 비롯한 특수 문자가 포함될 수 있습니다. 
 
    허용 가능한 특수 문자 목록이 필요하면 [at.js 구성](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812)을 참조하십시오.
 
