@@ -1,15 +1,14 @@
 ---
-keywords: email;adbox;email image adbox
-description: Adobe [!DNL Target] 을 사용하여 이메일의 이미지를 동적으로 테스트하고, 누군가 이메일을 열 때 해당 이미지를 즉석에서 변경하는 방법을 살펴봅니다.
+keywords: 이메일;adbox;이메일 이미지 adbox
+description: Adobe [!DNL Target] 을 사용하여 이메일에서 이미지를 동적으로 테스트하고, 누군가 이메일을 열면 해당 이미지를 즉시 변경하는 방법을 알아봅니다.
 title: 이메일 이미지 Adbox를 테스트하려면 어떻게 합니까?
 feature: 이메일 구현
 role: Developer
 exl-id: 87a918d7-83dc-4277-821b-d90302c59736
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '423'
-ht-degree: 90%
+source-wordcount: '421'
+ht-degree: 89%
 
 ---
 
@@ -40,7 +39,7 @@ mboxPC={123456}” border=:"0"/>
 
 | 값 | 설명 |
 |--- |--- |
-| clientcode | 회사의 클라이언트 코드입니다. `clientCode='yourclientcode'`로 나열된 at.js 또는 mbox.js에서 찾으십시오. 모두 소문자이고 특수 문자를 포함하지 않습니다. |
+| clientcode | 회사의 클라이언트 코드입니다. `clientCode='yourclientcode'`으로 나열된 at.js에서 찾으십시오. 모두 소문자이고 특수 문자를 포함하지 않습니다. |
 | 이미지 | 오퍼 유형입니다. 그래픽 광고의 경우 항상 &quot;image&quot;이며 리디렉터의 경우에는 &quot;page&quot;입니다. |
 | email_header | adbox의 이름입니다. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | 필수. URL을 adbox의 적절한 기본 콘텐츠로 바꿉니다. 이것은 절대 참조이며 URL로 인코딩되어야 합니다. |
