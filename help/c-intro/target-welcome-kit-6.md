@@ -7,7 +7,7 @@ exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '412'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 | 위험 | 솔루션 |
 | --- | --- |
-| 트래픽이 부족하여 통계적으로 유의한 결과에 도달할 수 없음. | Adobe Target [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) 를 사용하여 테스트 실행 시간을 파악한 후 테스트를 실행하여 완료하십시오. |
+| 트래픽이 부족하여 통계적으로 유의한 결과에 도달할 수 없음. | Adobe Target [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR) 를 사용하여 테스트 실행 시간을 파악한 후 테스트를 실행하여 완료하십시오. |
 | 너무 작거나 눈에 띄지 않는 변경. | 화면으로부터 몇 피트 떨어진 곳에 서 있을 때 볼 수 있도록 변경 내용을 충분히 크게 만드십시오. |
 | 비즈니스 목표에 따라 활동을 조정하지 못함. | 우선 순위 지정 방법론에 대한 집중도를 높이고 해당 방법론을 내부 이해 당사자에게 전달하십시오. |
 | 테스트 백로그가 거의 없거나 없음. | 내부 이해 당사자에게 연락하여 주요 비즈니스 목표에 부합하는 테스트를 제출할 수 있도록 하십시오. |
