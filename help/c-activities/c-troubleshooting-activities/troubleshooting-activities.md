@@ -5,7 +5,7 @@ title: 활동 문제를 해결하려면 어떻게 합니까?
 feature: 활동
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
 ht-degree: 100%
 
