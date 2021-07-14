@@ -1,13 +1,13 @@
 ---
 keywords: 시작 키트, 대상 환영 키트, 소개, 소개, 시작
 description: 이제 Adobe  [!DNL Target] 에서의 첫 번째 활동을 시작하여 투자 대비 ROI를 얻을 수 있습니다.
-title: Target에서 내 첫 번째 활동을 만들어야 합니다. 무엇부터 시작합니까?
+title: Target에서 첫 번째 활동을 만들어야 합니다. 무엇부터 시작합니까?
 feature: 개요
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
 workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
