@@ -5,10 +5,10 @@ title: adobe.target.getOffers() 함수를 사용하려면 어떻게 해야 합�
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
+source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 84%
+source-wordcount: '1285'
+ht-degree: 85%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 84%
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
-| `consumerId` | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 SDID(Supplemental Data ID)를 생성하는 데 사용됩니다. 이 키(consumerId)는 고유하지 않습니다.<br>를 사용할  `getOffers()`때 각 호출은 새 SDID를 생성합니다. 동일한 페이지에 여러 개의 mbox 요청이 있고 SDID를 보존하려는 경우(target-global-mbox 및 Adobe Analytics SDID의 SDID와 일치하도록) `consumerId` 매개 변수를 사용하십시오.<br>에  `getOffers()` mbox(&quot;mbox1&quot;, &quot;mbox2&quot; 및 &quot;mbox3&quot;로 이름이 지정됨)가 세 개 포함된 경우 다음을 포함합니다.  `consumerId: "mbox1, mbox2, mbox3"` 호출 `getOffers()` 에 속해 있어야 합니다. |
+| `consumerId` | 문자열 | 아니오 | 기본값이 제공되지 않을 경우 기본값은 클라이언트의 글로벌 mbox입니다. 이 키는 A4T 통합에 사용되는 SDID(Supplemental Data ID)를 생성하는 데 사용됩니다.<br>를 사용할  `getOffers()`때 각 호출은 새 SDID를 생성합니다. 동일한 페이지에 여러 개의 mbox 요청이 있고 SDID를 보존하려는 경우(target-global-mbox 및 Adobe Analytics SDID의 SDID와 일치하도록) `consumerId` 매개 변수를 사용하십시오.<br>에  `getOffers()` mbox(&quot;mbox1&quot;, &quot;mbox2&quot; 및 &quot;mbox3&quot;로 이름이 지정됨)가 세 개 포함된 경우 다음을 포함합니다.  `consumerId: "mbox1, mbox2, mbox3"` 호출 `getOffers()` 에 속해 있어야 합니다. |
 | `decisioningMethod` | 문자열 | 아니오 | &quot;server-side&quot;, &quot;on-device&quot;, &quot;hybrid&quot; |
 | `request` | 개체 | 예 | 아래의 &quot;요청&quot; 표를 참조하십시오. |
 | `timeout` | 숫자 | 아니오 | 요청 시간 제한. 지정하지 않으면 기본값 at.js 시간 제한이 사용됩니다. |
