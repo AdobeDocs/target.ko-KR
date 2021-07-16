@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] at.js JavaScript 라이브러리의 각 버전 
 title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '4132'
-ht-degree: 89%
+source-wordcount: '4216'
+ht-degree: 87%
 
 ---
 
@@ -21,6 +21,16 @@ ht-degree: 89%
 >Target 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch 는 at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Launch] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *Experience Platform Launch 사용 안내서*&#x200B;에서 [확장 업그레이드](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)를 참조하십시오.
+
+## at.js 2.6.0(2021년 7월 16일)
+
+* at.js 설정 `secureOnly`이 `true`로 설정될 때마다 쿠키에 보안 속성이 추가되었습니다.
+* 이제 `triggerView()` 을 사용할 때 응답 토큰을 사용할 수 있습니다.
+* `CONTENT_RENDERING_NO_OFFERS` 이벤트와 관련된 문제가 해결되었습니다. 이제 이 이벤트는 [!DNL Target]에서 반환된 컨텐츠가 없을 때마다 올바르게 트리거됩니다.
+* [!DNL Anlytics for Target] (A4T) 요청을 사용할 때 클릭 지표 세부 사항이 올바르게  `prefetch` 반환됩니다.
+* UUID 생성은 더 이상 `Math.random()`을 사용하지 않지만 `window.crypto`에 의존합니다.
+* `sessionId` 쿠키 만료는 모든 네트워크 호출 시 올바르게 확장됩니다.
+* 이제 [!UICONTROL 단일 페이지 애플리케이션] (SPA) 보기 캐시 초기화가 올바르게 처리되고 `viewsEnable` 설정이 적용됩니다.
 
 ## at.js 2.5.0(2021년 5월 13일)
 
