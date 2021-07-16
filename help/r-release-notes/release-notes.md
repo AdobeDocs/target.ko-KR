@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여  [!DNL Adobe T
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 89%
+source-wordcount: '745'
+ht-degree: 79%
 
 ---
 
@@ -22,6 +22,16 @@ ht-degree: 89%
 >새로운 [!DNL Adobe Experience Platform Web SDK]의 가장 최근 , 또는 사이트에 문제가 발생할 가능성을 피하기 위해 at.js JavaScript 라이브러리로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
+
+## at.js 2.6.0(2021년 7월 16일)
+
+* at.js 설정 `secureOnly`이 `true`로 설정될 때마다 쿠키에 보안 속성이 추가되었습니다.
+* 이제 `triggerView()` 을 사용할 때 응답 토큰을 사용할 수 있습니다.
+* `CONTENT_RENDERING_NO_OFFERS` 이벤트와 관련된 문제가 해결되었습니다. 이제 이 이벤트는 [!DNL Target]에서 반환된 컨텐츠가 없을 때마다 올바르게 트리거됩니다.
+* [!DNL Anlytics for Target] (A4T) 요청을 사용할 때 클릭 지표 세부 사항이 올바르게  `prefetch` 반환됩니다.
+* UUID 생성은 더 이상 `Math.random()`을 사용하지 않지만 `window.crypto`에 의존합니다.
+* `sessionId` 쿠키 만료는 모든 네트워크 호출 시 올바르게 확장됩니다.
+* 이제 [!UICONTROL 단일 페이지 애플리케이션] (SPA) 보기 캐시 초기화가 올바르게 처리되고 `viewsEnable` 설정이 적용됩니다.
 
 ## [!DNL Target Standard/Premium] 21.6.1(2021년 6월 30일)
 
