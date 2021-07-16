@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '1803'
-ht-degree: 90%
+source-wordcount: '1834'
+ht-degree: 89%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 90%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 16월 7일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md)<br><br>[ 및 at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js2.6.0 릴리스에 대한 정보가 추가되었습니다. |
+|  | [[!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) 관련 문제 해결 | IP 주소 목록을으로 허용 목록에 추가하다 업데이트했습니다. |
 | 12월 7일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 얻을 수 있는 상당한 ROI, 통찰력 및 시간 절약 효과를 정량합니다.</li><li>[!DNL Adobe Target] 2021년 7월 21일 수요일 오전 8시에 커뮤니티 Q&amp;A 커피 브레이크가 열립니다. (PDT, GMT-7).</li></ul> |
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ가 추가되었습니다. &quot;새로운 기사나 비디오만 추천하려면 어떻게 해야 합니까?&quot; |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | &quot;API 호출 Target&quot; 섹션의 텍스트가 업데이트되었습니다. |
