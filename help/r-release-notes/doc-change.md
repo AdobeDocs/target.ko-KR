@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 89%
+source-wordcount: '1845'
+ht-degree: 98%
 
 ---
 
@@ -19,13 +19,14 @@ ht-degree: 89%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 16월 7일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md)<br><br>[ 및 at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js2.6.0 릴리스에 대한 정보가 추가되었습니다. |
+| 7월 19일 | [분류 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 이벤트 코드 -1 또는 65535에 대한 정보가 추가되었습니다. |
+| 7월 16일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md)<br><br>[ 및 at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js2.6.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [[!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) 관련 문제 해결 | IP 주소 목록을으로 허용 목록에 추가하다 업데이트했습니다. |
-| 12월 7일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 얻을 수 있는 상당한 ROI, 통찰력 및 시간 절약 효과를 정량합니다.</li><li>[!DNL Adobe Target] 2021년 7월 21일 수요일 오전 8시에 커뮤니티 Q&amp;A 커피 브레이크가 열립니다. (PDT, GMT-7).</li></ul> |
-|  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ가 추가되었습니다. &quot;새로운 기사나 비디오만 추천하려면 어떻게 해야 합니까?&quot; |
-|  | [제한](/help/r-troubleshooting-target/target-limits.md) | &quot;API 호출 Target&quot; 섹션의 텍스트가 업데이트되었습니다. |
+| 7월 12일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 중요 ROI, 인사이트 및 절약 시간을 수량화합니다.</li><li>[!DNL Adobe Target]커뮤니티 Q&amp;A Coffee Break는 2021년 7월 21일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다.</li></ul> |
+|  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ 추가: “새 기사나 비디오만 추천하려면 어떻게 합니까?” |
+|  | [제한](/help/r-troubleshooting-target/target-limits.md) | “타겟 API 호출” 섹션의 텍스트가 업데이트되었습니다. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` 키에 대한 설명이 업데이트되었습니다. |
-|  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 나타내도록 1단계가 업데이트되었습니다. |
+|  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 표시하도록 1단계가 업데이트되었습니다. |
 |  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
 | 6월 30일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.6.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
@@ -33,14 +34,14 @@ ht-degree: 89%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 12월 7일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 얻을 수 있는 상당한 ROI, 통찰력 및 시간 절약 효과를 정량합니다.</li><li>[!DNL Adobe Target] 2021년 7월 21일 수요일 오전 8시에 커뮤니티 Q&amp;A 커피 브레이크가 열립니다. (PDT, GMT-7).</li></ul> |
-|  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ가 추가되었습니다. &quot;새로운 기사나 비디오만 추천하려면 어떻게 해야 합니까?&quot; |
-|  | [제한](/help/r-troubleshooting-target/target-limits.md) | &quot;API 호출 Target&quot; 섹션의 텍스트가 업데이트되었습니다. |
+| 7월 12일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 중요 ROI, 인사이트 및 절약 시간을 수량화합니다.</li><li>[!DNL Adobe Target]커뮤니티 Q&amp;A Coffee Break는 2021년 7월 21일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다.</li></ul> |
+|  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ 추가: “새 기사나 비디오만 추천하려면 어떻게 합니까?” |
+|  | [제한](/help/r-troubleshooting-target/target-limits.md) | “타겟 API 호출” 섹션의 텍스트가 업데이트되었습니다. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` 키에 대한 설명이 업데이트되었습니다. |
-|  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 나타내도록 1단계가 업데이트되었습니다. |
+|  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 표시하도록 1단계가 업데이트되었습니다. |
 |  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
-| 6월 29일 | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 다음과 같은 섹션이 추가되었습니다.<ul><li>Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성</li><li>미리 보기 URL</li></ul> |
-| 6월 24일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)의 사전 릴리스 노트가 업데이트되었습니다. |
+| 6월 29일 | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 다음과 같은 섹션이 추가되었습니다.<ul><li>Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성</li><li>미리보기 URL</li></ul> |
+| 6월 24일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)에 대한 사전 릴리스 정보가 업데이트되었습니다. |
 | 6월 16일 | [[!DNL Target] 릴리스 정보(현재)](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK 버전 1.0.0 릴리스에 대한 추가 정보입니다. |
 |  | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] 모델에 대한 데이터는 얼마나 지속됩니까?</li></ul> |
 | 6월 8일 | [at.js로 타겟 (A4T) 에 대한 분석을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상의 버전은 [!DNL Adobe Audience Manager] (AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않는 점을 참고하십시오. |
