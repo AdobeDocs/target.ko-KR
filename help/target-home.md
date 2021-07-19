@@ -1,12 +1,12 @@
 ---
-keywords: Target;홈;주요 주제;adobe target;standard;premium;target 설명서;adobe target 설명서
+keywords: Target;홈;주요 주제;adobe target;standard;premium;target 설명서;adobe target 설명서;홈
 title: ' [!DNL Target]  설명서는 어디에서 찾을 수 있습니까?'
 description: Adobe  [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: 개요
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '693'
 ht-degree: 100%
 
 ---
