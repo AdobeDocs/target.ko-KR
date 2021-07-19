@@ -1,13 +1,13 @@
 ---
-keywords: faq;자주 묻는 질문;analytics for target;a4T;분류;분류;분류 가져오기;post-tnt-action
+keywords: faq;자주 묻는 질문;analytics for target;a4T;분류;분류;분류 가져오기;post-tnt-action;이벤트 코드
 description: 분류 및 Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 활동 사용에 대한 질문에 대한 답변을 찾습니다.
 title: A4T를 사용하여 분류에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 51%
+source-wordcount: '299'
+ht-degree: 46%
 
 ---
 
