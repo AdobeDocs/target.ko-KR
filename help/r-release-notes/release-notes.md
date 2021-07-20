@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여  [!DNL Adobe T
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
-source-wordcount: '745'
-ht-degree: 79%
+source-wordcount: '653'
+ht-degree: 87%
 
 ---
 
@@ -33,14 +33,13 @@ ht-degree: 79%
 * `sessionId` 쿠키 만료는 모든 네트워크 호출 시 올바르게 확장됩니다.
 * 이제 [!UICONTROL 단일 페이지 애플리케이션] (SPA) 보기 캐시 초기화가 올바르게 처리되고 `viewsEnable` 설정이 적용됩니다.
 
-## [!DNL Target Standard/Premium] 21.6.1(2021년 6월 30일)
+## [!DNL Target Standard/Premium] 21.6.1 (2021년 6월 30일)
 
 이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| Analytics for Target (A4T) | 이제 [!DNL Analytics]를 보고 소스(A4T)로 사용하는 활동의 [!UICONTROL Reports] 페이지에서 &quot;[!UICONTROL View in Analytics]&quot; 링크를 클릭하면 [!DNL Analysis Workspace]가 열립니다. 이전에는 링크가 [!DNL Analytics] 보고를 열었습니다. (TGT-36959) |
-| ![프리미엄](/help/assets/premium.png) [!DNL Recommendations] | [!DNL Recommendations] 인기 알고리즘에 적용되는 개선 사항:<ul><li>[!DNL Target]이 동작 데이터 소스일 때 모든 인기도(가장 많이 본/최상위 판매자) 알고리즘에 6시간 &quot;전환 확인 기간&quot;(데이터 범위) 옵션을 사용할 수 있습니다. (이 룩백 창은 [!DNL Adobe Analytics]가 행동적 데이터 소스일 때 *못* 사용합니다.)</li><li>선택한 경우, 다음 알고리즘은 약 3시간마다 실행되며(12시간이 아닌),<ul><li>가장 많이 본 항목</li><li>최다 구매</li><li>범주별 최고 조회수</li><li>범주별 최다 구매</li><li>알고리즘 특성별 최고 조회수(groupBy 기능 사용)</li><li>알고리즘 특성별 최다 판매(groupBy 기능 사용)</li></ul></ul>릴리스 날짜가 표시됩니다. (TOP-1086) |
+| [!UICONTROL Analytics for Target] (A4T) | [!DNL Analytics]보고 소스(A4T)로 사용하는 활동에서 [!UICONTROL 보고서] 페이지의 “[!UICONTROL 분석에서 보기]” 링크를 클릭하면 [!DNL Analysis Workspace]이(가) 열립니다. 이전에는 링크로 [!DNL Analytics] 보고서를 열 수 있었습니다. (TGT-36959) |
 
 ## Python SDK 1.0.0(2021년 6월 16일)
 
