@@ -4,10 +4,10 @@ description: 특정 조건에서 Adobe [!DNL Target] VEC(시각적 경험 작성
 title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제를 해결하려면 어떻게 해야 합니까?
 feature: 시각적 경험 작성기(VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 068cce681946382365049fdc69671cd011431201
+source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 50%
+source-wordcount: '1545'
+ht-degree: 48%
 
 ---
 
@@ -17,28 +17,38 @@ ht-degree: 50%
 
 ## Google Chrome SameSite 쿠키 적용 정책은 VEC 및 EEC에 어떻게 영향을 줍니까? {#samesite}
 
-Chrome 94 릴리스(2021년 9월 21일)에 대해 예정된 변경 사항에 따라 Chrome 94+ 브라우저 버전을 사용하는 모든 사용자에게 다음 변경 사항이 영향을 줍니다.
+다음 Chrome 릴리스를 사용할 때 VEC 및 EEC에 영향을 주는 변경 사항에 유의하십시오.
+
+**Chrome 94(2021년 9월 21일)**: Chrome 94 릴리스(2021년 9월 21일)에 대해 예정된 변경 사항에 따라 Chrome 94+ 브라우저 버전을 사용하는 모든 사용자에게 다음 변경 사항이 영향을 줍니다.
 
 * 명령줄 플래그 `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`이(가) 제거됩니다.
 
-Chrome 91 릴리스(2021년 5월 25일)에 대해 구현된 변경 사항으로 인해 다음 변경 사항이 Chrome 91+ 브라우저 버전을 사용하는 모든 사용자에게 영향을 줍니다.
+**Chrome 91(2021년 5월 25일)**: Chrome 91 릴리스(2021년 5월 25일)에 대해 구현된 변경 사항으로 인해 다음 변경 사항이 Chrome 91+ 브라우저 버전을 사용하는 모든 사용자에게 영향을 줍니다.
 
 * `#same-site-by-default-cookies` 및 `#cookies-without-same-site-must-be-secure` 플래그가 `chrome://flags`에서 제거되었습니다. 이제 이 동작은 기본적으로 활성화되어 있습니다.
 
-2020년 8월에 구현된 변경 사항으로 인해 Chrome 80+ 브라우저 버전을 사용하는 모든 사용자가
+**Chrome 80(2020년 8월)**: 2020년 8월에 구현된 변경 사항으로 인해 Chrome 80+ 브라우저 버전을 사용하는 모든 사용자가
 
 * *은(는) VEC Helper 확장 프로그램이 설치 및 활성화되어 있거나 없는 경우 해당 사이트의 암호로 보호된 페이지에서 VEC를 사용할 수 없습니다.* 사이트 로그인 쿠키는 타사 쿠키로 간주되며 로그인 요청을 통해 전송됩니다. 유일한 예외는 사이트 로그인 쿠키의 SameSite 매개 변수가 &quot;none&quot;으로 설정된 경우입니다.
 * 활동을 편집하는 동안 *이 [!DNL Target] 라이브러리를 다운로드할 수 없습니다(사이트에 없을 경우).* 이것은 고객 도메인에서 보안 Adobe 도메인으로 다운로드 호출이 수행되고 인증되지 않은 것으로 거부되기 때문입니다.
 * `adobemc.com domain`에서 쿠키에 대한 SameSite 속성을 설정할 수 없으므로 EEC는 모든 사용자에 대해 *이* 함수가 되지 않습니다. 이 속성이 없으면 브라우저가 이러한 쿠키를 거부하여 EEC가 실패합니다.
+
+### 차단된 쿠키를 확인합니다
 
 SameSite 쿠키 적용 정책으로 인해 차단된 쿠키를 확인하려면 Chrome에서 개발자 도구를 사용하십시오.
 
 1. 개발자 도구에 액세스하려면 Chrome에서 VEC를 보는 동안 Chrome > **[!UICONTROL 추가 도구]** > **[!UICONTROL 개발자 도구]**&#x200B;의 오른쪽 상단에 있는 **[!UICONTROL 줄임표]** 아이콘을 클릭합니다.
 1. **[!UICONTROL 네트워크]** 탭을 클릭한 다음 차단된 쿠키를 찾습니다.
 
+   >[!NOTE]
+   >
+   >**[!UICONTROL 쿠키가 차단됨]** 확인란을 사용하여 차단된 쿠키를 쉽게 찾을 수 있습니다.
+
    다음 그림은 차단된 쿠키를 보여줍니다.
 
    ![개발자 도구 > 차단된 쿠키가 표시된 네트워크 탭](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/chrome-developer-tools.png)
+
+### Google VEC Helper 확장 프로그램
 
 Adobe이 업데이트된 VEC Helper 확장을 Google Chrome 스토어에 제출했습니다. 이 확장은 필요한 경우 쿠키 속성을 덮어써서 `SameSite="none"` 속성을 설정합니다. 업데이트된 [확장은 여기](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)에 있습니다. VEC Helper 확장 프로그램 설치 및 사용에 대한 자세한 내용은 [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 참조하십시오.
 
