@@ -5,7 +5,7 @@ title: Target에 대한 리소스 및 연락처 정보는 어디에서 찾을 �
 feature: 릴리스 정보,개요
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1222'
 ht-degree: 100%
 
@@ -106,7 +106,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 * [고객 지원 팀에 직접 문의](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
 * [Experience Cloud 솔루션의 가용성 및 상태 확인](https://status.adobe.com/)
 
-예정된 제품 향상에 대한 미리 알림을 받으려면, Adobe 우선 순위 제품 업데이트에 등록하십시오.
+예정된 제품 향상에 대한 미리 알림을 받으려면 Adobe 우선 순위 제품 업데이트에 등록하십시오.
 
 [Adobe 우선순위 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)
 
@@ -123,8 +123,8 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 * © 2021 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Privacy Center](https://www.adobe.com/privacy.html)
+[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use_kr) | [Privacy Center](https://www.adobe.com/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. 업데이트된 정보/추가 서드파티 코드 정보는 [https://www.adobe.com/go/thirdparty](https://www.adobe.com/products/eula/third_party/)를 참조하십시오.
+All third-party trademarks are the property of their respective owners. 업데이트된 정보/추가 서드파티 코드 정보는 [https://www.adobe.com/go/thirdparty_kr](https://www.adobe.com/products/eula/third_party/)를 참조하십시오.
