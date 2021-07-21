@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 98%
+source-wordcount: '1876'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 7월 21일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>Google Chrome SameSite 쿠키 적용 정책은 VEC 및 EEC에 어떻게 영향을 줍니까?</li></ul> |
 | 7월 19일 | [분류 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 이벤트 코드 -1 또는 65535에 대한 정보가 추가되었습니다. |
 | 7월 16일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md)<br><br>[ 및 at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js2.6.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [[!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) 관련 문제 해결 | IP 주소 목록을으로 허용 목록에 추가하다 업데이트했습니다. |
@@ -28,7 +29,7 @@ ht-degree: 98%
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` 키에 대한 설명이 업데이트되었습니다. |
 |  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 표시하도록 1단계가 업데이트되었습니다. |
 |  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
-| 6월 30일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.6.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+| 6월 30일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.6.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.5.1(2021년 6월 8일)
 
@@ -41,13 +42,13 @@ ht-degree: 98%
 |  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 표시하도록 1단계가 업데이트되었습니다. |
 |  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
 | 6월 29일 | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 다음과 같은 섹션이 추가되었습니다.<ul><li>Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성</li><li>미리보기 URL</li></ul> |
-| 6월 24일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)에 대한 사전 릴리스 정보가 업데이트되었습니다. |
+| 6월 24일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)에 대한 프리릴리스 정보가 업데이트되었습니다. |
 | 6월 16일 | [[!DNL Target] 릴리스 정보(현재)](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK 버전 1.0.0 릴리스에 대한 추가 정보입니다. |
 |  | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] 모델에 대한 데이터는 얼마나 지속됩니까?</li></ul> |
 | 6월 8일 | [at.js로 타겟 (A4T) 에 대한 분석을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상의 버전은 [!DNL Adobe Audience Manager] (AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않는 점을 참고하십시오. |
 |  | [환경](/help/administrating-target/environments.md) | [!UICONTROL 활성 및 비활성 활동]을 지정하는 경우, 이 환경에서의 호스트도 비활성 활동을 표시하는 점을 참고하십시오. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.</li></ul> |
-| 6월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.5.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+| 6월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.5.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1(2021년 4월 19일)
 
@@ -86,8 +87,8 @@ ht-degree: 98%
 |  | [태그 관리자 없이 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | 온디바이스 의사 결정에 대한 정보가 추가되었습니다. |
 |  | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)와 함께 [!UICONTROL Automated Personalization] 활동에 대한 링크 미리보기 지원이 추가되었습니다. |
 |  | [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 다음 연산자에 대한 정보가 추가되었습니다.<ul><li>Is Contained In List</li><li> Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul> |
-|  | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=ko-KR)<br>(*Experience Cloud 서비스 및 관리* 가이드) | &quot;session ID&quot;에 대한 추가 정보가 추가되었습니다. |
-|  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.4.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+|  | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=ko-KR)<br>(*Experience Cloud 서비스 및 관리* 안내서) | &quot;session ID&quot;에 대한 추가 정보가 추가되었습니다. |
+|  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.4.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.2.1(2021년 3월 9일)
 
@@ -109,7 +110,7 @@ ht-degree: 98%
 | 3월 9일 | [제한](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>허용 가능한 오퍼 크기 제한을 업데이트했습니다.</li><li>categoryId 매개 변수에 대한 문자 제한을 수정했습니다.</li></ul> |
 |  | [Target 에지 노드를 허용 목록에 추가](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | [!DNL Target] 에지 IP 주소를 업데이트했습니다. |
 |  | [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md) | entity.value가 십진수 형식이어야 함을 나타내는 텍스트를 추가했습니다(예: 15,99가 아니라 15.99). |
-|  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.2.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+|  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.2.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.1.1(2021년 1월 19일)
 
@@ -132,4 +133,4 @@ ht-degree: 98%
 | 1월 19일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Target 21.1.1 릴리스(2021년 1월 19일)에 대한 정보가 추가되었습니다. |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID` 매개 변수에 대한 텍스트가 업데이트되었습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 활성 프로모션을 사용하여 [!UICONTROL 권장 사항] 활동을 복사할 때 알려진 문제가 추가되었습니다. 중복 활동의 변경 사항은 원래 활동에도 영향을 미치며, 그 반대의 경우도 마찬가지입니다. 임시 해결 방법이 포함되었습니다. |
-|  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.1.1 | 이 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+|  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.1.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
