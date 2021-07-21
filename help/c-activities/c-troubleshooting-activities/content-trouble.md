@@ -1,13 +1,13 @@
 ---
 keywords: mbox 디버그;mbox 문제 해결;mbox 문제;깜박임;mboxDebug;mboxTrace;토큰;디버거;우선순위;활동 우선순위;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst 구매 mbox;최상위 판매;최상위 판매자
-description: 페이지에 예상된 콘텐츠가 표시되지 않을 경우 문제를 해결하는 데 도움이 되는 제안을 찾으십시오. Adobe Target에서 콘텐츠 전송을 디버그하는 방법에 대해 알아 보십시오.
+description: 페이지에 예상된 콘텐츠가 표시되지 않을 경우 문제를 해결하는 데 도움이 되는 제안을 찾으십시오. Adobe Target에서 콘텐츠 전송을 디버그하는 방법에 대해 알아보십시오.
 title: 콘텐츠 전달 문제를 해결하려면 어떻게 합니까?
 feature: 활동
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1268'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 97%
 
 * 활동 또는 캠페인 코드를 주의깊게 확인합니다. 입력 또는 기타 오류로 인해 예상 콘텐츠가 표시되지 않을 수 있습니다.
 * mboxTrace 또는 mboxDebug를 사용하여 [!DNL Target] 요청 문제를 해결합니다.
-* [!DNL Target] 요청의 문제를 해결하려면, mboxDebug와 거의 동일한 정보를 제공하고 사용하기 쉬운 도구인 Adobe Experience Cloud Debugger를 사용하십시오.
+* [!DNL Target] 요청의 문제를 해결하려면 mboxDebug와 거의 동일한 정보를 제공하고 사용하기 쉬운 도구인 Adobe Experience Cloud Debugger를 사용하십시오.
 
 mboxDebug는 [!DNL Target] 요청이 실행되고 쿠키가 설정되는지 확인하도록 페이지에서 [!DNL Target] 을 설정하는 경우에 특히 유용합니다. 그러나 콘텐츠 전달을 디버깅할 때 유용한 세부 정보로 이동하지는 않습니다. 사용자 활동이 페이지에 나타나지 않거나 원치 않는 콘텐츠가 나타나면 mboxTrace를 사용하여 페이지를 자세히 검사하고 디버깅하십시오.
 
@@ -128,7 +128,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
-## Target 쿠키가 설정되지 않습니다.  {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ( [!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 
