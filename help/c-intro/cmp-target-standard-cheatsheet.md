@@ -5,7 +5,7 @@ title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 �
 feature: 개요
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2755'
 ht-degree: 100%
 
@@ -105,13 +105,13 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
-이 작업도 가능합니다. Simply [사용할 수 있는 저장 옵션을 사용하여 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+이 작업도 가능합니다.  [사용할 수 있는 저장 옵션을 사용하여 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다](/help/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 **방금 생성한 활동을 미리 보고 QA를 수행하려면 어떻게 해야 합니까?**
 
 QA를 수행하려면 [강력한 QA 모드 기능](/help/c-activities/c-activity-qa/activity-qa.md) 을 사용하십시오. 활동이 라이브 상태가 된 후에 의도에 맞으며 테스트한 대로 작동되도록 하려면 QA 팀과 링크를 공유하고, 보고 작업을 비롯한 활동을 완전히 테스트할 수도 있습니다.
 
-**Target의 의사 결정 능력을 사용하여 SPA(단일 페이지 애플리케이션) 또는 서버 측 통합에 사용할 수 있는 경험/오퍼를 받으려면 어떻게 해야 합니까?**
+**Target의 의사 결정 능력을 사용하여 SPA(단일 페이지 애플리케이션) 또는 서버측 통합에 사용할 수 있는 경험/오퍼를 받으려면 어떻게 해야 합니까?**
 
 [JSON 오퍼](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) 가 있는 [양식 기반 활동](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 의 기능을 사용하여 목표를 달성할 수 있습니다.
 
@@ -240,13 +240,13 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 **내 QA 프로세스에서 콘텐츠 전달이 발생하지 않는 이유는 무엇입니까?**
 
-사이트에 요소에 대한 다이내믹 ID, 중복 ID 또는 다이내믹 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 기본 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기](/help/administrating-target/visual-experience-composer-set-up.md#css)를 참조하십시오.
+사이트에 요소에 대한 다이내믹 ID, 중복 ID 또는 다이내믹 클래스가 있을 수 있습니다. 계정 수준(또는 도메인 또는 페이지에 고유한 문제인 경우 활동 수준)에서 사이트 환경 설정 옵션을 평가해야 할 수 있습니다. [CSS 선택기](/help/administrating-target/visual-experience-composer-set-up.md#css)를 참조하십시오.
 
 **원하는 오퍼/경험이 표시되지 않고 대신 다른 활동이 표시되는 이유는 무엇입니까?**
 
 [디버거](/help/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) 를 사용하고 [활동 충돌](/help/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)이 있는지 확인하십시오.
 
-**Target의 의사 결정 능력을 사용하여 SPA(단일 페이지 애플리케이션) 또는 서버 측 통합에 사용할 수 있는 경험/오퍼를 받을 수 있습니까?**
+**Target의 의사 결정 능력을 사용하여 SPA(단일 페이지 애플리케이션) 또는 서버측 통합에 사용할 수 있는 경험/오퍼를 받을 수 있습니까?**
 
 JSON 오퍼가 있는 [양식 기반 활동](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) [기능을](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) 사용하여 목표를 달성할 수 있습니다.
 
@@ -256,7 +256,7 @@ JSON 오퍼가 있는 [양식 기반 활동](/help/c-experiences/form-experience
 
 제품의 다음 측면을 확인하십시오.
 
-* [Target 분석(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
