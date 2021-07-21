@@ -4,9 +4,9 @@ description: 특정 조건에서 Adobe [!DNL Target] VEC(시각적 경험 작성
 title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제를 해결하려면 어떻게 해야 합니까?
 feature: 시각적 경험 작성기(VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
+source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 48%
 
 ---
@@ -19,6 +19,13 @@ ht-degree: 48%
 
 다음 Chrome 릴리스를 사용할 때 VEC 및 EEC에 영향을 주는 변경 사항에 유의하십시오.
 
+>[!NOTE]
+>
+>다음 변경 사항은 아래에 요약된 세 가지 업데이트 모두에 영향을 줍니다.
+>
+> * *은(는) VEC Helper 확장 프로그램이 설치 및 활성화되어 있거나 없는 경우 해당 사이트의 암호로 보호된 페이지에서 VEC를 사용할 수 없습니다.* 사이트 로그인 쿠키는 타사 쿠키로 간주되며 로그인 요청을 통해 전송됩니다. 유일한 예외는 사이트 로그인 쿠키의 SameSite 매개 변수가 &quot;none&quot;으로 설정된 경우입니다.
+
+
 **Chrome 94(2021년 9월 21일)**: Chrome 94 릴리스(2021년 9월 21일)에 대해 예정된 변경 사항에 따라 Chrome 94+ 브라우저 버전을 사용하는 모든 사용자에게 다음 변경 사항이 영향을 줍니다.
 
 * 명령줄 플래그 `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure`이(가) 제거됩니다.
@@ -29,7 +36,6 @@ ht-degree: 48%
 
 **Chrome 80(2020년 8월)**: 2020년 8월에 구현된 변경 사항으로 인해 Chrome 80+ 브라우저 버전을 사용하는 모든 사용자가
 
-* *은(는) VEC Helper 확장 프로그램이 설치 및 활성화되어 있거나 없는 경우 해당 사이트의 암호로 보호된 페이지에서 VEC를 사용할 수 없습니다.* 사이트 로그인 쿠키는 타사 쿠키로 간주되며 로그인 요청을 통해 전송됩니다. 유일한 예외는 사이트 로그인 쿠키의 SameSite 매개 변수가 &quot;none&quot;으로 설정된 경우입니다.
 * 활동을 편집하는 동안 *이 [!DNL Target] 라이브러리를 다운로드할 수 없습니다(사이트에 없을 경우).* 이것은 고객 도메인에서 보안 Adobe 도메인으로 다운로드 호출이 수행되고 인증되지 않은 것으로 거부되기 때문입니다.
 * `adobemc.com domain`에서 쿠키에 대한 SameSite 속성을 설정할 수 없으므로 EEC는 모든 사용자에 대해 *이* 함수가 되지 않습니다. 이 속성이 없으면 브라우저가 이러한 쿠키를 거부하여 EEC가 실패합니다.
 
