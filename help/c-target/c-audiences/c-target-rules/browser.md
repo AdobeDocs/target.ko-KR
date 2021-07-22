@@ -1,14 +1,13 @@
 ---
 keywords: 브라우저 선택 사항;유형;브라우저 유형;브라우저 언어;언어;버전;브라우저 버전
-description: Adobe [!DNL Target] 에서 대상을 만들어 페이지를 방문할 때 특정 브라우저 또는 특정 브라우저 옵션을 사용하는 사용자를 타게팅하는 방법을 알아봅니다.
-title: '브라우저 유형을 기준으로 방문자를 지정할 수 있습니까? [!DNL Target] '
+description: 페이지를 방문할 때 특정 브라우저나 특정 브라우저 선택 사항을 사용하는 사용자를 타깃팅하기 위해 [!DNL Adobe Target] 에서 대상을 만드는 방법을 알아봅니다.
+title: 브라우저 유형에 따라 방문자를 Target 할 수 있습니까?
 feature: 대상자
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 95%
+source-wordcount: '669'
+ht-degree: 76%
 
 ---
 
@@ -19,44 +18,45 @@ ht-degree: 95%
 다음 브라우저를 타깃팅할 수 있습니다.
 
 * Chrome
-* Microsoft Edge
 * Firefox
-* Opera
 * Safari
-* iPad
 * Internet Explorer
+* Microsoft Edge
+* Opera
+* iPad
 * iPhone|
 
 브라우저를 타깃팅하는 방법에는 두 가지가 있습니다.
 
-**사전에 만들어진 대상:**&#x200B;특정 브라우저를 사용하여 사이트를 방문하는 방문자만 타깃팅하려는 경우 사전에 만들어진 대상을 사용하십시오. 예를 들어 Chrome 확장 프로그램을 제공하는 경우 Chrome 사용자만 타깃팅할 수 있습니다.
+* **사전에 만들어진 대상:**&#x200B;특정 브라우저를 사용하여 사이트를 방문하는 방문자만 타깃팅하려는 경우 사전에 만들어진 대상을 사용하십시오. 예를 들어 Chrome 확장 프로그램을 제공하는 경우 Chrome 사용자만 타깃팅할 수 있습니다.
 
-1. 활동을 설정할 때 대상 드롭다운 목록에서 브라우저를 선택합니다.
+   1. 활동을 설정할 때 드롭다운 목록에서 브라우저를 선택합니다.
 
-   이 선택 사항은 활동을 지정된 브라우저를 사용하는 방문자에게만 타깃팅합니다.
+      이 선택 사항은 활동을 지정된 브라우저를 사용하는 방문자에게만 타깃팅합니다.
 
-**사용자 지정된 브라우저 대상 규칙:**&#x200B;사용자 지정된 대상을 이용하면 여러 브라우저를 타깃팅하거나 특정 브라우저, 브라우저 버전 또는 브라우저 언어에 대한 규칙 또는 제외를 설정할 수 있습니다. 이 기능은 브라우저 속성을 기반으로 캠페인을 타깃팅할 때 상당한 유연성을 제공합니다.
+      ![Chrome 사용자 Target](/help/c-target/c-audiences/c-target-rules/assets/target-chrome.png)
 
-1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상자]** > **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭합니다.
-1. 대상자의 이름을 지정합니다.
-1. **[!UICONTROL 규칙 추가]** > **[!UICONTROL 브라우저]**&#x200B;를 클릭합니다.
+* **사용자 지정된 브라우저 대상 규칙:**  사용자 지정된 대상을 사용하여 여러 브라우저를 타깃팅하거나 특정 브라우저, 브라우저 버전 또는 브라우저 언어에 대한 규칙 또는 제외를 설정할 수 있습니다. 이 기능은 브라우저 속성을 기반으로 활동을 타깃팅할 때 상당한 유연성을 제공합니다.
 
-   ![규칙 > 브라우저](assets/target_browser.png)
+   1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상자]** > **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭합니다.
+   1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
+   1. **[!UICONTROL 브라우저]**&#x200B;를 대상 빌더 창으로 끌어다 놓습니다.
 
-1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
+      ![규칙 > 브라우저](assets/target_browser.png)
 
-   * **유형:** 특정 브라우저를 타깃팅하거나 제외합니다. [유형](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)을 참조하십시오.
-   * **언어:** 특정 언어를 사용하도록 설정된 특정 브라우저를 타깃팅하거나 제외합니다. [언어](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)를 참조하십시오.
-   * **버전:** 특정 브라우저 버전을 타깃팅하거나 제외합니다. [버전](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)을 참조하십시오.
+   1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
-1. (선택 사항) **[!UICONTROL 규칙 추가]**&#x200B;를 클릭하고 대상에 대한 추가 규칙을 설정합니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+      * **유형:** 특정 브라우저를 타깃팅하거나 제외합니다. [유형](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56)을 참조하십시오.
+      * **언어:** 특정 언어를 사용하도록 설정된 특정 브라우저를 Target 또는 제외합니다. [언어](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1)를 참조하십시오.
+      * **버전:** 특정 브라우저 버전을 타깃팅하거나 제외합니다. [버전](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF)을 참조하십시오.
+   1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
+   1. **[!UICONTROL 완료를 클릭합니다]**.
 
-다음 예는 버전 10 또는 11에서 Internet Explorer 사용자를 포함하는 대상을 보여줍니다.
+   다음 예는 버전 91 또는 92에서 Microsoft Edge 사용자를 포함하는 대상을 보여줍니다.
 
-![Target IE 10 및 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+   ![Target Edge 91 또는 92](assets/target_edge.png)
 
-## 브라우저 옵션{#concept_221D8EEF53CC45AEACEB17CF336A3658}을 참조하십시오 
+## 브라우저 선택 사항 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
 브라우저 유형, 언어 또는 버전을 기반으로 활동 참여자를 타깃팅하거나 제외하십시오.
 
@@ -113,13 +113,11 @@ ht-degree: 95%
 * 다음보다 작음
 * 다음보다 작거나 같음
 
-버전 번호를 입력하십시오.
-
-텍스트 필드에는 주 버전만 입력할 수 있습니다. 지정된 버전은 해당 릴리스의 모든 부 버전이 포함되어 있습니다. 예를 들어, 버전 10을 지정하면 버전 10.1의 방문자가 포함됩니다.
+버전 번호를 입력하십시오. 텍스트 필드에는 주 버전만 입력할 수 있습니다. 지정된 버전은 해당 릴리스의 모든 부 버전이 포함되어 있습니다. 예를 들어 버전 10을 지정하는 경우 버전 10.1의 방문자도 포함됩니다.
 
 여러 선택 사항은 OR로 연결됩니다.
 
-## 교육 비디오: 대상 만들기  ![자습서 배지](/help/assets/tutorial.png)
+## 교육 비디오: 대상 만들기 ![튜토리얼 배지](/help/assets/tutorial.png)
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 
