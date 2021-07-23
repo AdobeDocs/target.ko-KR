@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 97%
+source-wordcount: '1920'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 7월 23일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 자세한 내용을 제공하기 위해 다음 섹션을 업데이트했습니다.<ul><li>Google Chrome SameSite 쿠키 적용 정책은 VEC 및 EEC에 어떻게 영향을 줍니까?</li></ul> |
+|  | [제한](/help/r-troubleshooting-target/target-limits.md) | 경험 아래에 &quot;경험당 수정 사항&quot; 섹션이 새로 추가되었습니다. |
 | 7월 21일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>Google Chrome SameSite 쿠키 적용 정책은 VEC 및 EEC에 어떻게 영향을 줍니까?</li></ul> |
 | 7월 19일 | [분류 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 이벤트 코드 -1 또는 65535에 대한 정보가 추가되었습니다. |
 | 7월 16일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md)<br><br>[ 및 at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js2.6.0 릴리스에 대한 정보가 추가되었습니다. |
