@@ -7,7 +7,7 @@ exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
 workflow-type: tm+mt
 source-wordcount: '3129'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 �
 
 >[!NOTE]
 >
->이 설정은 [!UICONTROL 시각적 경험 작성기] (VEC)에서 작성된 활동에만 적용됩니다. 이 설정은 양식 기반 경험 작성기에서 만들어진 활동에는 적용되지 않습니다([!DNL Target]에는 위치 컨텍스트가 없습니다).
+>이 설정은 [!UICONTROL 시각적 경험 작성기](VEC)에서 만들어진 활동에만 적용되고, 이 설정은 양식 기반 경험 작성기에서 만들어진 활동에는 적용되지 않습니다([!DNL Target]에는 위치 컨텍스트가 없습니다).
 
 [!UICONTROL 호환되지 않는 기준 필터링] 설정에 액세스하려면 [!UICONTROL 권장 사항] > [!UICONTROL 설정]을 클릭하십시오.
 
@@ -197,7 +197,7 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 제외 기능을 활성화하려면 `excludedIds` mbox 매개 변수를 사용합니다. 이 매개 변수는 쉼표로 구분된 엔티티 ID 목록을 가리킵니다. 예: `mboxCreate(..., "excludedIds=1,2,3,4,5")`. 권장 사항 요청 시 해당 값이 전송됩니다.
 
-제외는 현재 [!DNL Target] 호출에만 수행되며 항목은 `excludedIds` 값이 다시 전달되지 않는 한 추후 [!DNL Target] 호출에서 제외됩니다. 장바구니의 항목을 모든 페이지의 권장 사항에서 제외하려면, 모든 페이지의 `excludedIds` 값을 계속 전달하십시오.
+제외는 현재 [!DNL Target] 호출에만 수행되며 항목은 `excludedIds` 값이 다시 전달되지 않는 한 추후 [!DNL Target] 호출에서 제외됩니다. 장바구니의 항목을 모든 페이지의 권장 사항에서 제외하려면 모든 페이지의 `excludedIds` 값을 계속 전달하십시오.
 
 >[!NOTE]
 >
@@ -231,7 +231,7 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 방문자가 세션을 시작하는 경우, 세션 ID가 단일 에지 머신에 연결되며 임시 프로필 캐시는 이 에지 머신에 저장됩니다. 동일한 세션의 후속 요청에서는 최근에 본 항목을 포함해 이러한 프로필 캐시를 읽습니다.
 
-세션이 종료되면, 최근에 본 항목을 포함한 세션 상태는 동일한 지리적 에지의 보다 영구적인 프로필 스토리지로 유지됩니다.
+세션이 종료되면 최근에 본 항목을 포함한 세션 상태는 동일한 지리적 에지의 보다 영구적인 프로필 스토리지로 유지됩니다.
 
 새로운 세션이 동일한 MCID(Marketing Cloud ID), ECID(Experience Cloud ID), or CustomerID/mbox3rdPartyId를 통해 고객 프로필에 연결되어 있는 동안에는 다른 디바이스의 후속 세션이 이러한 최근에 본 항목에 액세스할 수 없습니다.
 
@@ -245,23 +245,23 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 [!DNL Recommendations Classic]에서 만들어진 알고리즘은 [!DNL Recommendations Premium]에서 지원되지 않습니다. [!DNL Target Premium]에서 레거시 알고리즘을 사용할 수 있으나 [!DNL Target Premium] UI에서 오퍼 활동을 사용하지 않거나 삭제할 때 알고리즘이 동기화 문제를 일으킬 수 있습니다. 두 솔루션의 차이에 대한 자세한 정보는  [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)의 [[!DNL Recommendations Classic] versus [!DNL Recommendations]  활동을 참조하십시오.
 
-## 새로운 기사나 비디오만 추천하려면 어떻게 해야 합니까? {#recommend-new-articles}
+## 새 기사나 비디오만 추천하려면 어떻게 합니까? {#recommend-new-articles}
 
-미디어 및 게시의 일부 고객은 권장 항목에 최신 문서 또는 비디오만 포함되도록 하려고 합니다. 예를 들어 [!DNL Target] 고객은 60일 미만의 문서를 추천하기 위해 다음 방법을 사용했습니다.
+미디어 및 출판 분야의 일부 고객은 추천 항목에 최신 기사 또는 비디오만 포함되기를 원합니다. 예를 들어 [!DNL Target] 고객은 60일 이내의 문서를 추천받기 위해 다음과 같은 방법을 사용했습니다.
 
-1. 문서 게시 날짜를 YMDDD 형식으로 사용자 지정 엔티티 속성으로 전달합니다.
-1. 오늘 날짜에서 60일을 뺀 프로필 스크립트를 YYYYMMDD 형식으로 만듭니다.
-1. `publish date > today’s date minus 60 days`에 맞게 기준에 동적 포함 필터를 사용하십시오.
+1. 기사 게시 날짜를 YYMMDDD 형식으로 사용자 지정 엔티티 속성으로 전달합니다.
+1. 오늘 날짜에서 60일을 뺀 프로필 스크립트를 YYYMMDD 형식으로 생성합니다.
+1. 기준에 동적 포함 필터를 사용합니다.`publish date > today’s date minus 60 days`
 
 ### 게시 날짜를 사용자 지정 엔티티 속성으로 전달합니다.
 
 | 엔티티 속성 | 예 |
 | --- | --- |
-| issueDate | 2021218 |
-| lastViewDate | 2021701 |
-| parentCategory | 논평 |
-| publishDate | 20210113 |
-| publishDateDisplay | 2021년 1월 13일 |
+| 발행일 | 2021218 |
+| 마지막으로 본 날짜 | 2021701 |
+| 상위 카테고리 | 댓글 |
+| 게시일 | 20210113 |
+| 게시일 표시 | 2021년 1월 13일 |
 
 ### 프로필 스크립트를 구성합니다.
 
@@ -273,4 +273,4 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 >[!NOTE]
 >
->이 예는 매개 변수 일치 를 사용하여 `priorDate60` 값을 mbox 매개 변수로 전달할 수도 있습니다.
+>이 예는 매개변수 일치를 사용하고 `priorDate60` 값을 mbox 매개변수로 전달하여 수행할 수도 있습니다.
