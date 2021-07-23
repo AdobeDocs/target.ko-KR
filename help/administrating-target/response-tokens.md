@@ -1,14 +1,14 @@
 ---
 keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답
-description: Adobe [!DNL Target] 출력 관련 정보에서 응답 토큰을 사용하여 디버깅을 사용하고 타사 도구와 통합하는 방법을 알아봅니다.
+description: ' [!DNL Adobe Target] 에서 응답 토큰을 사용하여 디버깅을 위한 정보를 출력하고 타사 도구와 통합하는 방법을 알아봅니다.'
 title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1644'
-ht-degree: 25%
+source-wordcount: '1642'
+ht-degree: 26%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 25%
 
 응답 토큰은 [!DNL Target] [!UICONTROL 관리자] 역할을 가진 사용자만 활성화하거나 비활성화할 수 있습니다.
 
-**[!DNL Platform Web SDK] 2.6.0(또는 이전 버전)을 실행 중이면 어떻게 됩니까?
+**[!DNL Platform Web SDK] 2.6.0(또는 이전 버전)을 실행 중이면 어떻게 됩니까?**
 
 응답 토큰에 액세스할 수 없습니다.
 
