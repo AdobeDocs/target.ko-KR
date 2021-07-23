@@ -122,7 +122,7 @@ ht-degree: 100%
 * [at.js FAQ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다. 
+* 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다.
 
 ## 알려진 문제
 
