@@ -5,10 +5,10 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1206'
-ht-degree: 100%
+source-wordcount: '1215'
+ht-degree: 99%
 
 ---
 
@@ -118,6 +118,10 @@ ht-degree: 100%
 * **제한**: XT (경험 타기팅), A/B 테스트, MVT (다변량 테스트) 및 자동 타겟 활동당 2,000개 경험.
 
    AP (Automated Personalization) 활동당 30,000개 경험.
+
+### 경험당 수정 사항
+
+* **제한**: 활동에서 경험당 50개
 
 ## mbox
 
