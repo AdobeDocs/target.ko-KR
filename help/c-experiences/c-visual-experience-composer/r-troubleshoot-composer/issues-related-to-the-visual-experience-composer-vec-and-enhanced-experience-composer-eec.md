@@ -4,9 +4,9 @@ description: 특정 조건에서 Adobe [!DNL Target] VEC(시각적 경험 작성
 title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제를 해결하려면 어떻게 해야 합니까?
 feature: 시각적 경험 작성기(VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 48%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 48%
 >
 >다음 변경 사항은 아래에 요약된 세 가지 업데이트 모두에 영향을 줍니다.
 >
-> * *은(는) VEC Helper 확장 프로그램이 설치 및 활성화되어 있거나 없는 경우 해당 사이트의 암호로 보호된 페이지에서 VEC를 사용할 수 없습니다.* 사이트 로그인 쿠키는 타사 쿠키로 간주되며 로그인 요청을 통해 전송됩니다. 유일한 예외는 사이트 로그인 쿠키의 SameSite 매개 변수가 &quot;none&quot;으로 설정된 경우입니다.
+> * *은(는) VEC Helper 확장 프로그램이 설치 및 활성화되어 있거나 없는 경우 사이트의 암호로 보호된 페이지에서 VEC를 사용할 수 없습니다.* 사이트 로그인 쿠키는 타사 쿠키로 간주되며 로그인 요청을 통해 전송됩니다. 유일한 예외는 사이트 로그인 쿠키가 이미 `none` 및 `Secure.`로 설정된 SameSite 매개 변수가 있는 경우입니다
 
 
 **Chrome 94(2021년 9월 21일)**: Chrome 94 릴리스(2021년 9월 21일)에 대해 예정된 변경 사항에 따라 Chrome 94+ 브라우저 버전을 사용하는 모든 사용자에게 다음 변경 사항이 영향을 줍니다.
@@ -36,7 +36,7 @@ ht-degree: 48%
 
 **Chrome 80(2020년 8월)**: 2020년 8월에 구현된 변경 사항으로 인해 Chrome 80+ 브라우저 버전을 사용하는 모든 사용자가
 
-* 활동을 편집하는 동안 *이 [!DNL Target] 라이브러리를 다운로드할 수 없습니다(사이트에 없을 경우).* 이것은 고객 도메인에서 보안 Adobe 도메인으로 다운로드 호출이 수행되고 인증되지 않은 것으로 거부되기 때문입니다.
+* 활동을 편집하는 동안 *이 [!DNL Target] 라이브러리를 다운로드할 수 없습니다(사이트에 없을 경우).* 이것은 고객 도메인에서 보안 [!DNL Adobe] 도메인으로 다운로드 호출이 수행되며 인증되지 않은 것으로 거부되기 때문입니다.
 * `adobemc.com domain`에서 쿠키에 대한 SameSite 속성을 설정할 수 없으므로 EEC는 모든 사용자에 대해 *이* 함수가 되지 않습니다. 이 속성이 없으면 브라우저가 이러한 쿠키를 거부하여 EEC가 실패합니다.
 
 ### 차단된 쿠키를 확인합니다
@@ -56,7 +56,7 @@ SameSite 쿠키 적용 정책으로 인해 차단된 쿠키를 확인하려면 C
 
 ### Google VEC Helper 확장 프로그램
 
-Adobe이 업데이트된 VEC Helper 확장을 Google Chrome 스토어에 제출했습니다. 이 확장은 필요한 경우 쿠키 속성을 덮어써서 `SameSite="none"` 속성을 설정합니다. 업데이트된 [확장은 여기](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)에 있습니다. VEC Helper 확장 프로그램 설치 및 사용에 대한 자세한 내용은 [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 참조하십시오.
+[!DNL Adobe] 가 업데이트된 VEC Helper 확장을 Google Chrome 스토어에 제출했습니다. 이 확장은 필요한 경우 쿠키 속성을 덮어써서 `SameSite="none"` 속성을 설정합니다. 업데이트된 [확장은 여기](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)에 있습니다. VEC Helper 확장 프로그램 설치 및 사용에 대한 자세한 내용은 [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 참조하십시오.
 
 고유한 사이트 쿠키의 경우 이름별로 쿠키를 지정해야 합니다.
 
@@ -74,7 +74,7 @@ Adobe이 업데이트된 VEC Helper 확장을 Google Chrome 스토어에 제출�
 
 * 업데이트된 [VEC Helper 확장 프로그램](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)을 다운로드하여 사용합니다.
 * Mozilla Firefox 브라우저를 사용합니다. Firefox가 이 정책을 아직 적용하지 않습니다.
-* 명령줄에서 2021년 9월 21일까지 Google Chrome을 실행하려면 다음 플래그를 사용하십시오. 9월 21일 이후에는 웹 사이트가 VEC에서 더 이상 작동하지 않습니다. Chrome 94로 업데이트하는 경우 웹 사이트에서 `SameSite=none` 및 `Secure`을(를) 사용하여 쿠키를 수동으로 생성해야 합니다.
+* 명령줄에서 2021년 9월 21일까지 Google Chrome을 실행하려면 다음 플래그를 사용하십시오. 9월 21일 이후에는 로그인 또는 쿠키 동의 팝업과 같은 쿠키가 필요한 기능이 VEC에서 더 이상 작동하지 않습니다. Chrome 94로 업데이트하는 경우 웹 사이트에서 `SameSite=none` 및 `Secure`을(를) 사용하여 쿠키를 수동으로 생성해야 합니다.
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
