@@ -31,7 +31,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 ### Target Standard/Premium 21.5.1(2021년 6월 7일)
 
-이 릴리스에는 다음 개선 사항이 포함됩니다.
+이번 릴리스에는 다음 개선 사항이 포함됩니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
@@ -57,18 +57,18 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 * at.js에 대한 [온디바이스 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 지원
 * Automated Personalization 활동에 대한 [링크 미리보기](/help/c-activities/c-activity-qa/activity-qa.md) 지원
 
-또한 이 릴리스에서는 Microsoft Internet Explorer 10, Internet Explorer 11, 그리고 그 이하 버전에 대한 지원이 제거되었습니다. Microsoft Edge는 at.js 2.5.0과 이후 버전에서 지속 지원됩니다.
+또한 이번 릴리스에서는 Microsoft Internet Explorer 10, Internet Explorer 11, 그리고 그 이하 버전에 대한 지원이 제거되었습니다. Microsoft Edge는 at.js 2.5.0과 이후 버전에서 지속 지원됩니다.
 
 ### Target Standard/Premium 21.4.1(2021년 4월 19일)
 
-이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
 | at.js<br>(발표될 날짜)에 대한 온디바이스 의사 결정 | 마케터와 개발자는 온디바이스 의사 결정을 통해 거의 0에 가까운 지연 시간에 사용자 브라우저에 대한 실험 및 개인화를 제공할 수 있습니다.<br>자세한 내용은 [at.js에 대한 온디바이스 의사 결정](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)을 참조하십시오. |
 | ![Premium](/help/assets/premium.png) 법인 필터링 규칙에 대한 목록 기반 연산자 | [!DNL Target Recommendations]는 법인 필터링 규칙에 대한 새로운 목록 기반 연산자. (TGT-39234)<br>새로 추가된 연산자는 다음과 같습니다.<br><ul><li>Is Contained In List</li><li>Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul>자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)의 &quot;사용 가능한 연산자&quot;를 참조하십시오. |
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 고객을 [!UICONTROL 모든 방문자] 로 변경한 후에 활동을 동기화할 수 없는 문제를 해결했습니다. (TGT-40259)
 * [!UICONTROL 복제 허용] 활동이 활성화되기는 했지만, [!UICONTROL Automated Personalization] 활동의 여러 위치에서 사용하는 경우에 제안을 복제할 수 없는 문제를 해결했습니다. (TGT-39567)
@@ -135,13 +135,13 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 ### Target Standard/Premium 20.10.1(2020년 10월 27일)
 
-이 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
 | [디바이스에서 의사 결정](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 디바이스에서 의사 결정을 통해 마케터와 제품 개발자는 사용자 디바이스 내에서 채널 간에 거의 0에 가까운 지연 시간에 실험 및 머신 러닝 기반 개인화를 제공할 수 있습니다.<br>속도 및 성능 문제 - 고객 인사이트 및 사용자 만족도.<br>디바이스에서 의사 결정을 통해 A/B 테스트 및 Experience Targeting (XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 디바이스에 로드되는 &quot;최적화 아티팩트:&quot; JSON 개체로 컴파일할 수 있습니다. 또한 디바이스에서 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되기 때문에 [!DNL Target] 사용자는 빠른 분석과 빠른 경험 반복을 얻을 수 있습니다.<br>자세한 내용은 *[디바이스에서 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)을 참조하십시오. |
 
-이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
 * 합계 행에 대한 보고에서 [!UICONTROL 평균 상승도 신뢰 구간] 및 [!UICONTROL 신뢰도가] 표시되지 않는 [!DNL Auto-Target] [!UICONTROL 문제를] 해결했습니다. 모든 개별 경험에 대해 측정이 올바르게 표시됩니다. (TGT-37301)
 * 9월 15일 오후 2시 30분(PDT)부터 10월 6일 오전 9시 25분(PDT)까지 [!DNL Adobe Target Premium] 사용자의 [!UICONTROL 자동 타겟] 보고에 영향을 미치는 문제를 해결했습니다. 영향을 받는 전환 지표에 대한 보고서(&quot;[!UICONTROL 페이지 보았음]&quot; 또는 &quot;[!UICONTROL mbox를 클릭함]&quot; 옵션을 사용하여 구성됨)를 볼 때 전환 속도가 잘못 보고됩니다. 현재 알려진 전달 문제는 없습니다. 보고를 다시 동기화하고 [수정하는 방법에](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) 대한 자세한 내용은 *알려진 문제 및 해결된 문제의* 해결된 문제 아래의 *자동 타겟 보고를* 참조하십시오.
@@ -176,7 +176,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 ### Target Standard/Premium 20.8.1(2020년 9월 2일)
 
-이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
 * 조직을 전환한 후 새 [!UICONTROL 관리] 페이지를 로드할 때 오류가 발생했던 문제를 해결했습니다. (TGT-37730)
 * 코드가 [!UICONTROL 관리 > 구현] 페이지에 잘못된 클라이언트가 표시되는 문제를 해결했습니다. (TGT-37849)
@@ -204,7 +204,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 ### Target Standard/Premium 20.7.1(2020년 7월 27일)
 
-이 릴리스에는 다음과 같은 변경 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 변경 사항이 포함됩니다.
 
 #### [!UICONTROL 관리] 섹션 UI 새로 고침
 
@@ -223,7 +223,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 #### 개선 사항, 수정 사항 및 변경 사항
 
-이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
 * 새로 고침 후 사이트 환경 설정이 유지되지 않는 문제를 해결했습니다. (TGT-37239)
 * 확장 가능한 벡터 그래픽(SVG) 이미지를 사용하여 [!UICONTROL 뒤에 삽입] > [!UICONTROL 이미지] 가 제대로 작동하지 않는 문제를 해결했습니다. (TGT-37242)
@@ -324,7 +324,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 ### Target Standard/Premium 20.4.1(2020년 5월 6일)
 
-이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
 * 대상에 대해 디바이스 및 브라우저 유형을 잘못 인증한 문제를 해결했습니다. (TGT-36266)
 * 963픽셀 미만의 화면에서 보고서 데이터를 볼 수 없는 문제를 해결했습니다. (TGT-36549)
@@ -349,7 +349,7 @@ Target at.js JavaScript 라이브러리의 다음 새 버전을 사용할 수 �
 
 ### Target Standard/Premium 20.2.1(2020년 3월 23일)
 
-이 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
 * 카탈로그 검색을 수행할 때 고객이 컬렉션을 선택할 수 없는 문제를 해결했습니다. (TGT-36230)
 * API를 통해 생성되었지만 Target UI에서 생성된 활동에서 참조되지 않은 기준이 UI에서 잘못 삭제될 수 있는 문제를 해결했습니다. (TGT-35917)
@@ -420,7 +420,7 @@ Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| Java SDK | [!DNL Target] Java SDK를 사용하여 [!DNL Target] 서버측을 배포할 수 있습니다. 이 Java SDK를 사용하면 [!DNL Target] 을 [!DNL Adobe Experience Cloud] , [!DNL Adobe Experience Cloud Identity Service] 및 [!DNL Adobe Analytics]와 같은 다른 [!DNL Adobe Audience Manager] 솔루션과 쉽게 통합할 수 있습니다.<br>Java SDK는 배달 API를 통해 [!DNL Target] 과 통합할 때 모범 사례를 소개하고 복잡성을 제거하여 엔지니어링 팀이 비즈니스 논리에 집중할 수 있도록 지원합니다. 다음은 최신 버전에서 소개한 주목할 만한 기능입니다.<ul><li>캐싱을 통해 성능을 최적화할 수 있는 프리페치 및 알림 지원.</li><li>웹 페이지와 서버측에서 [!DNL Target] 의 하이브리드 통합이 있을 때 성능 최적화 지원. `serverState` 라는 설정은 서버측에서 검색한 경험으로 채워져 더 이상 at.js 2.2에서 경험을 검색하기 위한 추가 서버 호출을 하지 않도록 하는 것입니다. 이 접근 방식은 페이지 로드 성능을 최적화합니다.</li><li>새로운 배달 API를 통해 가능해진 Java SDK를 통해 VEC 생성 활동을 검색할 수 있습니다.</li><li>개발자가 [Target Java SDK](https://github.com/adobe/target-java-sdk)에 기여할 수 있는 오픈 소스.</li></ul>Adobe Tech 블로그 - [새로운 Target Java SDK를 통해 서버측 최적화](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)에서 Target Java SDK에 대해 자세히 알아보십시오. |
+| Java SDK | [!DNL Target] Java SDK를 사용하여 [!DNL Target] 서버측을 배포할 수 있습니다. 이 Java SDK를 사용하면 [!DNL Target] 을 [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Cloud Identity Service] 및 [!DNL Adobe Analytics]와 같은 다른 [!DNL Adobe Audience Manager] 솔루션과 쉽게 통합할 수 있습니다.<br>Java SDK는 배달 API를 통해 [!DNL Target] 과 통합할 때 모범 사례를 소개하고 복잡성을 제거하여 엔지니어링 팀이 비즈니스 논리에 집중할 수 있도록 지원합니다. 다음은 최신 버전에서 소개한 주목할 만한 기능입니다.<ul><li>캐싱을 통해 성능을 최적화할 수 있는 프리페치 및 알림 지원.</li><li>웹 페이지와 서버측에서 [!DNL Target] 의 하이브리드 통합이 있을 때 성능 최적화 지원. `serverState` 라는 설정은 서버측에서 검색한 경험으로 채워져 더 이상 at.js 2.2에서 경험을 검색하기 위한 추가 서버 호출을 하지 않도록 하는 것입니다. 이 접근 방식은 페이지 로드 성능을 최적화합니다.</li><li>새로운 배달 API를 통해 가능해진 Java SDK를 통해 VEC 생성 활동을 검색할 수 있습니다.</li><li>개발자가 [Target Java SDK](https://github.com/adobe/target-java-sdk)에 기여할 수 있는 오픈 소스.</li></ul>Adobe Tech 블로그 - [새로운 Target Java SDK를 통해 서버측 최적화](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)에서 Target Java SDK에 대해 자세히 알아보십시오. |
 
 ### Target Standard/Premium 19.10.2(2019년 10월 31일)
 
@@ -490,15 +490,15 @@ Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔
 
 ### Target Standard/Premium 19.7.1(2019년 7월 24일) {#tgt-19-7-1}
 
-이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
 | 기능/향상 | 설명 |
 | --- | --- |
 | ![Premium 배지](/help/assets/premium.png)<br>A/B 테스트 및 XT(경험 타기팅) 활동의 권장 사항 | 권장 사항 오퍼(알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 결과 준비됨, 결과가 준비되지 않음 및 피드 장애 상태가 있습니다. (TGT-33649)<br>오퍼로서의 [Recommendations](/help/c-recommendations/recommendations-as-an-offer.md#status)를 참조하십시오. |
-| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR) 를 사용해야 합니다.<br>at.js 2.x에서 [도메인 간 추적 지원](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)을 참조하십시오. |
-| Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 소개했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 향후 ITP 릴리스를 완화할 수 있도록 Target의 JavaScript 라이브러리와 함께 [ECID library 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 를 배포하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>. [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)를 참조하십시오. |
+| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이번 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR) 를 사용해야 합니다.<br>at.js 2.x에서 [도메인 간 추적 지원](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)을 참조하십시오. |
+| Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 소개했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 향후 ITP 릴리스를 완화할 수 있도록 Target의 JavaScript 라이브러리와 함께 [ECID library 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) 를 배포하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>. [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)를 참조하십시오. |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -528,7 +528,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 ### Target Standard/Premium 19.6.1(2019년 6월 26일) {#tgt-19-6-1-historical}
 
-이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
@@ -548,7 +548,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 | --- | --- |
 | Adobe 옵트인 지원 | Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인정보 및 GDPR(일반 데이터 보호 규정)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)을 참조하십시오. |
 | 업계 표준의 CSP 규격 | at.js는 더 이상 eval()을 사용하여 JavaScript를 실행하지 않습니다. |
-| 클라이언트 측 분석 로깅 | 클라이언트 측이든 아니면 서버측이든 간에 분석 데이터를 Adobe Analytics에 전송하는 방법을 고객이 완벽하게 제어할 수 있도록 합니다.<br>자세한 내용은 [클라이언트 측 분석](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 로깅을 *참조하십시오*. |
+| 클라이언트측 분석 로깅 | 클라이언트측이든 아니면 서버측이든 간에 분석 데이터를 Adobe Analytics에 전송하는 방법을 고객이 완벽하게 제어할 수 있도록 합니다.<br>자세한 내용은 [클라이언트측 분석](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 로깅을 *참조하십시오*. |
 | 알림 보내기 | 경험이 `applyOffer()` 또는 `applyOffers()` 대신 코드로 렌더링될 때 개발자가 알림을 전송할 수 있습니다.<br>자세한 내용은 [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)를 참조하십시오. |
 | 파일 크기 감소 | at.js의 크기가 24%까지 줄어들었습니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at.js 다운로드 시간이 줄어듭니다. |
 | at.js 설명서 업데이트 | at.js 2.1.0 릴리스로 인해 업데이트된 모든 문서의 전체 목록은 2019년 6월 3일 [문서 변경 사항](/help/r-release-notes/doc-change.md)의 항목을 참조하십시오. |
@@ -561,7 +561,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| SPA VEC(Single Page App Visual Experience Composer) | SPA VEC에는 작업을 보다 빠르고 효율적으로 수행할 수 있도록 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>SPA에서 작업을 클릭하면 이 작업이 적용될 사이트의 요소가 강조 표시됩니다. 보기 아래에 만들어진 각 VEC 작업에는 정보, 편집, 이동 및 삭제 아이콘이 있습니다. 이 릴리스의 새로운 &quot;이동&quot; 기능을 사용하면 작업을 페이지 로드 이벤트나 수정 패널에 이미 있는 다른 보기로 이동할 수 있습니다. (TGT-33746)</li><li>페이지가 VEC에 로드되기 전에 또는 페이지가 완전히 로드되지 않은 경우에도 여러 작업을 수행할 수 있습니다(예: 사용자 지정 코드가 더 이상 작동하지 않음). 사이트가 로드되기 전에 편집할 수 없는 작업은 Target UI에서 비활성화됩니다. (TGT-33851 및 TGT-34149)</li></ul>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오. |
+| SPA VEC(Single Page App Visual Experience Composer) | SPA VEC에는 작업을 보다 빠르고 효율적으로 수행할 수 있도록 다음과 같은 개선 사항이 포함되어 있습니다.<ul><li>SPA에서 작업을 클릭하면 이 작업이 적용될 사이트의 요소가 강조 표시됩니다. 보기 아래에 만들어진 각 VEC 작업에는 정보, 편집, 이동 및 삭제 아이콘이 있습니다. 이번 릴리스의 새로운 &quot;이동&quot; 기능을 사용하면 작업을 페이지 로드 이벤트나 수정 패널에 이미 있는 다른 보기로 이동할 수 있습니다. (TGT-33746)</li><li>페이지가 VEC에 로드되기 전에 또는 페이지가 완전히 로드되지 않은 경우에도 여러 작업을 수행할 수 있습니다(예: 사용자 지정 코드가 더 이상 작동하지 않음). 사이트가 로드되기 전에 편집할 수 없는 작업은 Target UI에서 비활성화됩니다. (TGT-33851 및 TGT-34149)</li></ul>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오. |
 
 #### 개선 사항, 수정 및 변경 사항
 
@@ -569,7 +569,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 ### [!DNL Target] Standard/Premium 19.4.2(2019년 4월 30일) {#release-19-4-2}
 
-이 릴리스에는 다음의 기능, 변경 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음의 기능, 변경 및 개선 사항이 포함되었습니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
@@ -598,7 +598,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 ### [!DNL Target] Standard/Premium 19.4.1(2019년 4월 15일) {#release-19-4-1}
 
-이 릴리스는 유지보수 릴리스이며, 다음 변경 사항을 포함합니다.
+이번 릴리스는 유지보수 릴리스이며, 다음 변경 사항을 포함합니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
@@ -606,7 +606,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 #### [!DNL Target] Standard/Premium 19.3.1(2019년 3월 29일) {#release-19-3-1}
 
-이 릴리스에는 다음의 기능, 변경 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음의 기능, 변경 및 개선 사항이 포함되었습니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
@@ -643,11 +643,11 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 | 기능/향상 | 설명 |
 | --- | --- |
 | at.js 버전 2.0.0<br>2019년 2월 19일 | 이제 at.js 2.x를 사용할 수 있습니다.<br>최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.<br>at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같은 몇 가지 이점이 있습니다.<ul><li>페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.</li><li>오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.</li><li>간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타기팅 (XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.</li></ul>at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>다음 함수는 at.js 2.x의 도입으로 더 이상 사용되지 않습니다.<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 및 [at.js 함수](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.<br>**참고**: [일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)에 대한 Adobe 옵트인 지원이 필요한 경우, 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다. |
-| at.js 버전 1.7.0<br>2019년 2월 14일 | at.js 1.7.0을 사용할 수 있습니다.<br>이 릴리스는 Adobe 옵트인을 지원합니다. Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인정보 보호 및 일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)을 참조하십시오.<br>또한 이 릴리스에서는 Target이 리디렉션 URL에서 발생하는 매개 변수로 리디렉션 URL 매개 변수를 무시할 수 있는 문제를 수정합니다.<br>**참고**: GDPR에 대한 Adobe 옵트인 지원이 필요한 경우에는 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다.<br>모든 버전의 목록은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오. |
+| at.js 버전 1.7.0<br>2019년 2월 14일 | at.js 1.7.0을 사용할 수 있습니다.<br>이번 릴리스는 Adobe 옵트인을 지원합니다. Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인정보 보호 및 일반 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)을 참조하십시오.<br>또한 이번 릴리스에서는 Target이 리디렉션 URL에서 발생하는 매개 변수로 리디렉션 URL 매개 변수를 무시할 수 있는 문제를 수정합니다.<br>**참고**: GDPR에 대한 Adobe 옵트인 지원이 필요한 경우에는 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다.<br>모든 버전의 목록은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오. |
 
 ### [!DNL Target] Standard/Premium 19.2.1(2019년 2월 19일) {#target-19-2-1}
 
-이 릴리스에는 다음의 기능, 변경 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음의 기능, 변경 및 개선 사항이 포함되었습니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
@@ -672,7 +672,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 ### [!DNL Target] Standard/Premium 19.1.1(2019년 1월 22일) {#release-19-1-1-previous}
 
-이 릴리스에는 다음의 기능, 변경 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음의 기능, 변경 및 개선 사항이 포함되었습니다.
 
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
@@ -735,7 +735,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 ### Target Standard/Premium 18.10.1(2018년 10월 24일) {#section_FA37BF4E840B424E8BC4791D7234FE2A}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 (괄호로 묶인 문제 번호는 내부 Adobe용입니다.)
 
@@ -757,7 +757,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동에 대한 보고 소스 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> 관리 </span> &gt; <span class="wintitle"> 시각적 경험 작성기 </span>에서 활동의 보고 소스인 <span class="keyword"> Target </span> 또는 <span class="keyword"> Adobe Analytics </span>를 선택할 수 있습니다. 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다. </p> <p>이 릴리스부터 <span class="wintitle"> 환경 설정 </span> 또는 활동별로 보고 소스를 선택할 때 알아두어야 하는 몇 가지 중요한 작업 과정 고려 사항이 있습니다.</p></td> 
+   <td colname="col2"> <p><span class="wintitle"> 관리 </span> &gt; <span class="wintitle"> 시각적 경험 작성기 </span>에서 활동의 보고 소스인 <span class="keyword"> Target </span> 또는 <span class="keyword"> Adobe Analytics </span>를 선택할 수 있습니다. 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다. </p> <p>이번 릴리스부터 <span class="wintitle"> 환경 설정 </span> 또는 활동별로 보고 소스를 선택할 때 알아두어야 하는 몇 가지 중요한 작업 과정 고려 사항이 있습니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -803,7 +803,7 @@ target/r_release-notes-2018.xml
 
  -->
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 >[!NOTE]
 >
@@ -841,7 +841,7 @@ target/r_release-notes-2018.xml
 
 ### Target Standard/Premium 18.8.1(2018년 8월 21일) {#section_66A0030993D54565BE30E56AC9CAC1DA}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 >[!NOTE]
 >
@@ -891,7 +891,7 @@ target/r_release-notes-2018.xml
 
 ### Target Standard/Premium 18.7.1(2018년 7월 25일) {#section_A4A9C20EB677455F84FF0BA389F645E5}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 >[!NOTE]
 >
@@ -978,7 +978,7 @@ target/r_release-notes-2018.xml
 
 ### Target Standard/Premium 18.6.1(2018년 6월 20일) {#section_B63C660815B245DA9922BE33E03734A1}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 >[!NOTE]
 >
@@ -1016,7 +1016,7 @@ target/r_release-notes-2018.xml
 
 ### Target 플랫폼 변경 사항(2018년 6월 19일) {#section_0638BD69F3C640479A2A258AD78C0884}
 
-이 릴리스에는 다음 개선 사항이 포함됩니다.
+이번 릴리스에는 다음 개선 사항이 포함됩니다.
 
 >[!NOTE]
 >
@@ -1034,7 +1034,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 18.5.1(2018년 5월 22일) {#section_7C1427793C2A48DBAC39F8290717DC5B}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 >[!NOTE]
 >
@@ -1092,7 +1092,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 18.4.1(2018년 4월 25일) {#section_445DBC5402BA456BAF2D24AEA33A91C9}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 >[!NOTE]
 >
@@ -1147,7 +1147,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### at.js(2018년 4월 3일) {#section_932DF1004F4648668FE4984BFAF2EC49}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_76576D9D931B4DA99900F2C03175938E"> 
  <thead> 
@@ -1183,7 +1183,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 18.3.1(2018년 3월 20일) {#section_880706BE15544A03A2C951F267F4AEC5}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 >[!NOTE]
 >
@@ -1222,7 +1222,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col2"> <p>이제 자체 사용자 지정 기준 출력에 대해 실시간 필터링을 수행할 수 있습니다. 예를 들어 권장 사항 항목을 방문자가 선호하는 범주 또는 브랜드의 항목으로만 제한할 수 있습니다. 이렇게 하면 오프라인 계산을 실시간 필터링과 결합할 수 있습니다. </p> <p>사용자 지정 기준에 포함 규칙을 추가하면 기존의 정적 권장 사항이 방문자의 관심 사항을 기반으로 하는 동적 권장 사항으로 변경됩니다. </p> <p> 
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>이제 권장 사항의 다른 기준과 마찬가지로 사용자 지정 기준도 구성 가능합니다. </p> </li> 
-      <li id="li_AC201F0917BF465C985E8947635F762E"> <p>다른 기준과 동일한 방법으로 컬렉션, 제외 및 포함(가격 및 재고에 대한 특별한 규칙 포함)을 사용할 수 있습니다. 컬렉션 및 제외는 이미 지원되었습니다. 이 릴리스에는 포함 기능이 추가되었습니다. </p> </li> 
+      <li id="li_AC201F0917BF465C985E8947635F762E"> <p>다른 기준과 동일한 방법으로 컬렉션, 제외 및 포함(가격 및 재고에 대한 특별한 규칙 포함)을 사용할 수 있습니다. 컬렉션 및 제외는 이미 지원되었습니다. 이번 릴리스에는 포함 기능이 추가되었습니다. </p> </li> 
      </ul> </p> <p>자세한 내용은 <a href="/help/c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">기준</a>을 참조하십시오. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
@@ -1230,7 +1230,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col2"> <p>이제 특정 속성이 있는 항목만 표시되도록 최근에 본 항목을 필터링 할 수 있습니다. 예를 들어 여러 비즈니스를 운영하는 다국적 기업의 경우 여러 디지털 속성의 방문자 보기 항목이 있을 수 있습니다. 이 경우 항목을 본 각각의 속성에 대해서만 표시하도록 최근에 본 항목을 제한할 수 있습니다. 이렇게 하면 최근에 본 항목이 다른 디지털 속성의 사이트에 표시되지 않습니다. </p> <p> 
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>이제 권장 사항의 다른 기준과 마찬가지로 최근 조회 기준도 구성 가능합니다. </p> </li> 
-      <li id="li_85452C03F0924D4C8D854509F1293021"> <p>다른 기준과 동일한 방법으로 컬렉션, 제외 및 포함(가격 및 재고에 대한 특별한 규칙 포함)을 사용할 수 있습니다. 컬렉션 및 제외는 이미 지원되었습니다. 이 릴리스에는 포함 기능이 추가되었습니다. </p> </li> 
+      <li id="li_85452C03F0924D4C8D854509F1293021"> <p>다른 기준과 동일한 방법으로 컬렉션, 제외 및 포함(가격 및 재고에 대한 특별한 규칙 포함)을 사용할 수 있습니다. 컬렉션 및 제외는 이미 지원되었습니다. 이번 릴리스에는 포함 기능이 추가되었습니다. </p> </li> 
      </ul> </p> <p>자세한 내용은 <a href="/help/c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">기준</a>을 참조하십시오. </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
@@ -1249,7 +1249,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 18.2.1(2018년 2월 15일) {#section_837CBBB7A89D45D99855A8C5F5E7BFFB}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_1C7A462AE8D4492FA5555F060031F665"> 
  <thead> 
@@ -1272,7 +1272,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### 대상 플랫폼(2018년 1월 18일) {#section_F6A0DC31636D403F92BDB9DCE7A3F6ED}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_0F5BF9370E214302BDFE0AC2D66EC773"> 
  <thead> 
@@ -1295,7 +1295,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 18.1.1(2018년 1월 23일) {#section_3A2216543B064D6F82EC03E1F8AEC74D}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 >[!NOTE]
 >
@@ -1364,7 +1364,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### 대상 플랫폼(2017년 11월 8일) {#section_536B3C0F32ED441C8D82704B94F6AF7E}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_793CDDF1BD9E48BDBABBF6CD979BE186"> 
  <thead> 
@@ -1389,7 +1389,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 17.11.1(2017년 11월 8일) {#section_324A9B1DA0B14F5999FEE41F15B13A44}
 
-이 릴리스에는 다음 기능 및 개선 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
+이번 릴리스에는 다음 기능 및 개선 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
 
 <table id="table_6ADDF3552AD04666B76F2D3F457BB042"> 
  <thead> 
@@ -1419,7 +1419,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 17.10.1(2017년 10월 25일) {#section_EF74751744024C209A02F45322642D37}
 
-이 릴리스에는 다음 기능 및 개선 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
+이번 릴리스에는 다음 기능 및 개선 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
 
 <table id="table_307DF0CD143048BC9E419444C556B8FB"> 
  <thead> 
@@ -1496,7 +1496,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 17.9.1(2017년 9월 25일, 2017년 10월 12일) {#section_ECC5DD8B6ED443788B46F53E25FC896E}
 
-이 릴리스에는 다음 기능 및 개선 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
+이번 릴리스에는 다음 기능 및 개선 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
 
 <table id="table_0A8817F64F434875A485FD671C6988AB"> 
  <thead> 
@@ -1591,7 +1591,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_BA27A749A7A242478080F3D8E04148FC"> <p> 찾아보기와 작성 간을 전환할 때 VEC 내에서 경험 타기팅 활동 설정이 실패하는 문제가 수정되었습니다. (TNT-27942) </p> </li> 
       <li id="li_FA11ABA5B9CD435080426805C5359A51"> <p> 클릭 추적 요소에 대한 깜박임 스타일 클래스의 잘못된 처리가 수정되었습니다. (TNT-27896) </p> </li> 
       <li id="li_E2DFBAE52FCA4996BA083868CBFCCD10"> <p>전역 mbox 매개 변수가 모든 mbox 매개 변수와 혼합되도록 하는 문제가 수정되었습니다. (TNT-27846) </p> </li> 
-      <li id="li_B3153BBD66AA4D51AE81EF6C903CF78D"> <p>Handlebars, Mustache 및 기타 클라이언트 측 템플릿 라이브러리가 <span class="filepath"> at.js </span> 에서 제대로 처리되도록 하는 데 필요한 변경이 수행되었습니다. (TNT-27831) </p> </li> 
+      <li id="li_B3153BBD66AA4D51AE81EF6C903CF78D"> <p>Handlebars, Mustache 및 기타 클라이언트측 템플릿 라이브러리가 <span class="filepath"> at.js </span> 에서 제대로 처리되도록 하는 데 필요한 변경이 수행되었습니다. (TNT-27831) </p> </li> 
       <li id="li_B859939C1B5A4DF78CF8ADF236B88306"> <p><span class="codeph"> sdidParamExpiry </span> 가 제대로 초기화되어 방문자 API로 전달되도록 하는 데 필요한 변경이 수행되었습니다. <span class="codeph"> at.js 1.1.0 </span>에 추가된 회귀입니다. 이전 <span class="filepath"> at.js </span> 버전은 영향을 받지 않습니다. 리디렉션 오퍼 및 A4T를 사용하는 클라이언트에만 영향을 줍니다. (TNT-27791) </p> </li> 
       <li id="li_24A748DFB7824AE6AC7331B7EA940BFF"> <p>사용 중인 형식 속성과 관계없이 <span class="codeph"> SCRIPT </span> 가 실행되도록 하는 데 필요한 변경이 수행되었습니다. (TNT-27865) </p> </li> 
      </ul> </p> </td> 
@@ -1789,7 +1789,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>권장 사항: 기준 및 프로모션 </p> </td> 
-   <td colname="col2"> <p> 이제 프로필 속성 일치 및 매개 변수 일치를 기준으로 다이내믹 기준 및 프로모션을 만들 수 있습니다. </p> <p> <img src="assets/inclusion_rules.png" id="image_D136F75A5C2B428390FE231559AEC2D3" /> </p> <p> <p>참고: Target 17.6.1 릴리스(2017년 6월) 이전에 포함 규칙이 구성되는 방식을 잘 알고 있다면, 일부 선택 사항과 연산자가 변경되었음을 알 수 있을 것입니다. 선택한 선택 사항에 적용 가능한 연산자만 표시되고, 일부 연산자의 이름은 더 일관되고 직관적이게 변경되었습니다("일치"(matches)는 이제 "다음과 같음"(equals)임). 이 릴리스 이전에 만들어진 모든 기존 제외 규칙은 새 구조로 자동 마이그레이션됩니다. 여러분 쪽에서는 구조를 조정할 필요가 없습니다. </p> </p> </td> 
+   <td colname="col2"> <p> 이제 프로필 속성 일치 및 매개 변수 일치를 기준으로 다이내믹 기준 및 프로모션을 만들 수 있습니다. </p> <p> <img src="assets/inclusion_rules.png" id="image_D136F75A5C2B428390FE231559AEC2D3" /> </p> <p> <p>참고: Target 17.6.1 릴리스(2017년 6월) 이전에 포함 규칙이 구성되는 방식을 잘 알고 있다면 일부 선택 사항과 연산자가 변경되었음을 알 수 있을 것입니다. 선택한 선택 사항에 적용 가능한 연산자만 표시되고, 일부 연산자의 이름은 더 일관되고 직관적이게 변경되었습니다("일치"(matches)는 이제 "다음과 같음"(equals)임). 이번 릴리스 이전에 만들어진 모든 기존 제외 규칙은 새 구조로 자동 마이그레이션됩니다. 여러분 쪽에서는 구조를 조정할 필요가 없습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>VEC 코드 편집기 개선 사항 </p> </td> 
@@ -1829,7 +1829,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>권장 사항: 기준 및 프로모션 </p> </td> 
-   <td colname="col2"> <p><b>(2017년 6월 22일에 출시 예정)</b> 이제 프로필 속성 일치 및 매개 변수 일치를 기준으로 다이내믹 기준 및 프로모션을 만들 수 있습니다. </p> <p> <img src="assets/inclusion_rules.png" id="image_694305D969AF43F7822012F69614250C" /> </p> <p>자세한 내용은 <a href="/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> 동적 및 정적 포함 규칙 사용 </a>을 참조하십시오. </p> <p> <p>참고: Target 17.6.1 릴리스(2017년 6월) 이전에 포함 규칙이 구성되는 방식을 잘 알고 있다면, 일부 선택 사항과 연산자가 변경되었음을 알 수 있을 것입니다. 선택한 선택 사항에 적용 가능한 연산자만 표시되고, 일부 연산자의 이름은 더 일관되고 직관적이게 변경되었습니다("일치"(matches)는 이제 "다음과 같음"(equals)임). 이 릴리스 이전에 만들어진 모든 기존 제외 규칙은 새 구조로 자동 마이그레이션됩니다. 여러분 쪽에서는 구조를 조정할 필요가 없습니다. </p> </p> </td> 
+   <td colname="col2"> <p><b>(2017년 6월 22일에 출시 예정)</b> 이제 프로필 속성 일치 및 매개 변수 일치를 기준으로 다이내믹 기준 및 프로모션을 만들 수 있습니다. </p> <p> <img src="assets/inclusion_rules.png" id="image_694305D969AF43F7822012F69614250C" /> </p> <p>자세한 내용은 <a href="/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F" format="dita" scope="local"> 동적 및 정적 포함 규칙 사용 </a>을 참조하십시오. </p> <p> <p>참고: Target 17.6.1 릴리스(2017년 6월) 이전에 포함 규칙이 구성되는 방식을 잘 알고 있다면 일부 선택 사항과 연산자가 변경되었음을 알 수 있을 것입니다. 선택한 선택 사항에 적용 가능한 연산자만 표시되고, 일부 연산자의 이름은 더 일관되고 직관적이게 변경되었습니다("일치"(matches)는 이제 "다음과 같음"(equals)임). 이번 릴리스 이전에 만들어진 모든 기존 제외 규칙은 새 구조로 자동 마이그레이션됩니다. 여러분 쪽에서는 구조를 조정할 필요가 없습니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동 이름 지정 </p> </td> 
@@ -1844,7 +1844,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 17.4.1(2017년 4월 27일) {#section_24E6889AF1E0405497F6F77A407A9A46}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_9554D0094421417C88548BDC97B710F5"> 
  <thead> 
@@ -1896,7 +1896,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 17.3.1(2017년 3월 30일 - 업데이트 날짜: 2017년 4월 13일) {#section_5C13660A8AA34F35A9CBEFEEC88738D0}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_4BA8DA701BC64427957355E144570EFE"> 
  <thead> 
@@ -1908,7 +1908,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analytics for Target (A4T) </p> <p>리디렉션 오퍼 </p> </td> 
-   <td colname="col2"> <p><b>업데이트 날짜: 2017년 4월 13일</b> </p> <p>이제 보고 소스로 <span class="keyword"> Analytics </span> 를 사용하는 활동에서 리디렉션 오퍼를 사용할 수 있습니다. </p> <p>이러한 라이브러리는 리디렉션 오퍼가 있는 페이지 및 방문자가 리디렉션되는 페이지 둘 다에 포함되어야 합니다. 이렇게 변경하면, 해당 활동에 대한 보고 소스로 Analytics를 사용하는지에 관계없이, 방문자 ID 서비스가 사이트에서 구현될 경우 새 URL 매개 변수가 리디렉션 URL에 자동으로 추가됩니다. </p> <p>자세한 내용은 <a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> 리디렉션 오퍼 - A4T FAQ </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><b>업데이트 날짜: 2017년 4월 13일</b> </p> <p>이제 보고 소스로 <span class="keyword"> Analytics </span> 를 사용하는 활동에서 리디렉션 오퍼를 사용할 수 있습니다. </p> <p>이러한 라이브러리는 리디렉션 오퍼가 있는 페이지 및 방문자가 리디렉션되는 페이지 둘 다에 포함되어야 합니다. 이렇게 변경하면 해당 활동에 대한 보고 소스로 Analytics를 사용하는지에 관계없이, 방문자 ID 서비스가 사이트에서 구현될 경우 새 URL 매개 변수가 리디렉션 URL에 자동으로 추가됩니다. </p> <p>자세한 내용은 <a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">리디렉션 오퍼 - A4T FAQ</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>대상자 </p> </td> 
@@ -1999,7 +1999,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 17.1.1(2017년 1월 19일) {#section_88AFA2F54CF24DF7822CFEBB07DFABE2}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_4F7D4A71F5DF4E8782C7DBEEEF24AD04"> 
  <thead> 
@@ -2013,7 +2013,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1"> <p>콘텐츠/오퍼 </p> </td> 
    <td colname="col2"> <p>이제 오퍼에 대해 다음 개선 사항을 사용할 수 있습니다. </p> <p> 
      <ul id="ul_7D8E81443E0F48B6A0C1D1DF6F27D292"> 
-      <li id="li_EA529EF4EBC2416E9D3B9E7251E7AAAB"> <p>콘텐츠 페이지의 이름이 오퍼로 변경되었습니다. 또한 이미지 오퍼를 코드 오퍼와 분리하기 위해 오른쪽에 두 개의 탭이 제공됩니다. </p> <p>이 릴리스 이전에는 코드 및 이미지가 동일한 폴더에 들어 있으면 자동으로 2개의 중복된 폴더로 분할됩니다. </p> </li> 
+      <li id="li_EA529EF4EBC2416E9D3B9E7251E7AAAB"> <p>콘텐츠 페이지의 이름이 오퍼로 변경되었습니다. 또한 이미지 오퍼를 코드 오퍼와 분리하기 위해 오른쪽에 두 개의 탭이 제공됩니다. </p> <p>이번 릴리스 이전에는 코드 및 이미지가 동일한 폴더에 들어 있으면 자동으로 2개의 중복된 폴더로 분할됩니다. </p> </li> 
       <li id="li_9574FA6BDCFB4BAB938273BF7F4B21C8"> <p>Target Classic, AEM(Adobe Experience Manager), AMS(Adobe Mobile Services) 및 API를 통해 만든 오퍼는 이제 Target Standard/Premium 사용자 인터페이스에 표시됩니다. Target Classic에서 만든 오퍼를 Target Standard/Premium에서 편집할 수 있습니다. (TGT-15738) </p> <p> 이러한 방법을 사용하여 지난 2년 동안 업데이트된 오퍼가 Target Standard/Premium(즉, 2015년 1월 이후)에 표시됩니다. </p> </li> 
       <li id="li_CAD67C9EBB564525ABD2269D918275F8"> <p>이제 소스 및 유형별로 오퍼를 필터링할 수 있습니다. </p> </li> 
      </ul> </p> <p>자세한 내용은 <a href="/help/c-experiences/c-manage-content/manage-content.md#concept_17874A6FCBB743AA84C5988E8571CCF3" format="dita" scope="local"> 오퍼 </a>를 참조하십시오. </p> <p>지리적 위치 타기팅이 다음과 같이 개선되었습니다. </p> <p> 
@@ -2043,7 +2043,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col2"> <p>이제 Target 활동에 대해 다음 개선 사항을 사용할 수 있습니다. </p> <p> 
      <ul id="ul_436556860E6C4AEEB35411A02E78A199"> 
       <li id="li_5CC3B995D0AF4B658B3D6C3F6895AA41"> <p>이제 <span class="keyword"> Adobe Mobile Services </span> 에서 만든 활동이 <span class="keyword"> Target Standard/Premium </span> 사용자 인터페이스 내에 표시됩니다. (TGT-10806) </p> <p>자세한 내용은 <a href="/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03" format="dita" scope="local"> 활동 </a>을 참조하십시오. </p> </li> 
-      <li id="li_684F9FC5CF414F4A892E6495352B5939"> <p>이제 다변량 테스트를 작성할 때, 경고 수신을 확인한 후 분석에 오프라인 보고를 사용해야 한다면, 10% 이상의 경험을 테스트에서 제외할 수 있습니다. (TGT-21719) </p> <p>자세한 내용은 <a href="/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local"> 다변량 테스트에 대한 경험 미리보기 </a>를 참조하십시오. </p> </li> 
+      <li id="li_684F9FC5CF414F4A892E6495352B5939"> <p>이제 다변량 테스트를 작성할 때, 경고 수신을 확인한 후 분석에 오프라인 보고를 사용해야 한다면 10% 이상의 경험을 테스트에서 제외할 수 있습니다. (TGT-21719) </p> <p>자세한 내용은 <a href="/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28" format="dita" scope="local"> 다변량 테스트에 대한 경험 미리보기 </a>를 참조하십시오. </p> </li> 
       <li id="li_B2FC7414C76848B39AD6EA20EE483F06"> <p>이제 캠페인 ID가 각 활동의 개요 페이지에 표시됩니다. 따라서 API 및 문제 해결 작업이 편리해졌습니다. (TGT-20928) </p> </li> 
       <li id="li_5A9880AFE5FB46168D92255AA088B854"> <p>충돌 및 변경 로그 페이지의 디자인이 개선되었습니다. </p> </li> 
       <li id="li_1489EA6C30C94B2AB394189E5FAFF6F6"> <p>AP (Automated Personalization) 활동의 허용되는 최대 익명 오퍼 이름 길이가 30자에서 250자로 늘어났습니다. </p> </li> 
@@ -2077,7 +2077,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * [!DNL Recommendations] 에서 기본이 아닌 환경(호스트 그룹)에 대해 피드를 작성할 수 없는 문제가 해결되었습니다.
 * 활동 동기화 오류를 줄이기 위해 몇 가지 사항이 개선되었습니다.
@@ -2085,7 +2085,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 16.10.1(2016년 10월 25일) {#section_F76F7329FCAC452FB88F8BE0BA727044}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_F8C01B2A9F07443490DB3025AC3AAC2A"> 
  <thead> 
@@ -2097,7 +2097,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> 자동 할당: 승자 배지 </td> 
-   <td colname="col2"> <p>이제 A/B 자동 할당 활동에서 승자를 더 쉽게 판단할 수 있습니다. </p> <p>많은 마케터가 결과가 명확한 승자를 표시하기 전에 가장 성과가 좋은 경험을 조급하게 선언합니다. </p> <p><span class="wintitle"> 자동 트래픽 할당 </span> 기능을 사용하는 경우 <span class="keyword"> Target </span> 은 활동이 충분한 신뢰도로 최소 전환 횟수에 도달할 때까지 "아직 우승자 없음"을 나타내는 배지를 활동 페이지 맨 위에 표시합니다. 명백한 승자를 선언할 때에는 <span class="keyword"> Target </span> 에 "우승자: 경험 X"라고 표시됩니다. </p> <p>자세한 내용은 <a href="/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> 자동화된 트래픽 할당 </a> 및 <a href="/help/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> 우승자 결정 </a>을 참조하십시오. </p> <p> <p>참고: A/B 자동 할당 활동은 앞으로 A4T (Analytics for Target)에서 더 이상 지원되지 않을 예정입니다. 이 릴리스에서는 A4T가 활성화된 A/B 자동 할당 활동이 <span class="wintitle"> 수동 </span> 모드로 전환됩니다(동일한 트래픽 할당). </p> </p> </td> 
+   <td colname="col2"> <p>이제 A/B 자동 할당 활동에서 승자를 더 쉽게 판단할 수 있습니다. </p> <p>많은 마케터가 결과가 명확한 승자를 표시하기 전에 가장 성과가 좋은 경험을 조급하게 선언합니다. </p> <p><span class="wintitle"> 자동 트래픽 할당 </span> 기능을 사용하는 경우 <span class="keyword"> Target </span> 은 활동이 충분한 신뢰도로 최소 전환 횟수에 도달할 때까지 "아직 우승자 없음"을 나타내는 배지를 활동 페이지 맨 위에 표시합니다. 명백한 승자를 선언할 때에는 <span class="keyword"> Target </span> 에 "우승자: 경험 X"라고 표시됩니다. </p> <p>자세한 내용은 <a href="/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> 자동화된 트래픽 할당 </a> 및 <a href="/help/c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9" format="dita" scope="local"> 우승자 결정 </a>을 참조하십시오. </p> <p> <p>참고: A/B 자동 할당 활동은 앞으로 A4T (Analytics for Target)에서 더 이상 지원되지 않을 예정입니다. 이번 릴리스에서는 A4T가 활성화된 A/B 자동 할당 활동이 <span class="wintitle"> 수동 </span> 모드로 전환됩니다(동일한 트래픽 할당). </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 통신사별 Target 모바일 디바이스 </td> 
@@ -2117,7 +2117,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>우선 검토</b> </p> A/B 활동의 자동 타기팅 </td> 
-   <td colname="col2"> <p> <p>참고: 이 "우선 검토" 제공은 테스트 및 피드백을 위해 이 릴리스의 일부 고객에 대해 활성화됩니다. </p> </p> <p>올바른 방문자에게 올바른 경험을 제공하기 위해 A/B 테스트에서 경험을 자동으로 타기팅합니다. </p> <p>자세한 내용은 <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> 맞춤형 경험 자동 타겟 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> <p>참고: 이 "우선 검토" 제공은 테스트 및 피드백을 위해 이번 릴리스의 일부 고객에 대해 활성화됩니다. </p> </p> <p>올바른 방문자에게 올바른 경험을 제공하기 위해 A/B 테스트에서 경험을 자동으로 타기팅합니다. </p> <p>자세한 내용은 <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> 맞춤형 경험 자동 타겟 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2146,7 +2146,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 16.9.1(2016년 9월 22일) {#section_3CD20678B6254DE1A9BD41FDD2255DDD}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_FED049F97C054CA895E0AEA3F2B180BF"> 
  <thead> 
@@ -2177,7 +2177,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 **향상된 기능**
 
-이 릴리스에는 다음 개선 사항이 포함됩니다.
+이번 릴리스에는 다음 개선 사항이 포함됩니다.
 
 | 개선 사항 | 설명 |
 |---|---|
@@ -2201,9 +2201,9 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1"> <p> <span class="codeph"> at.js </span> 버전 0.9.2 </p> </td> 
    <td colname="col2"> <p>2016년 9월 21일 </p> <p> <span class="codeph"> at.js </span> 버전 0.9.2를 사용할 수 있습니다. </p> <p> 
      <ul id="ul_0778A9049C9D48A7B6CB4B79A95F0F4C"> 
-      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Device Graph 옵트아웃을 활성화하거나 비활성화하는 <span class="codeph"> optoutEnabled </span> 설정이 추가되었습니다. 이 설정이 <span class="codeph"> true </span> 로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 베타 버전입니다. 이 설정은 기본적으로 <span class="codeph"> false </span> 로 설정되지만 Device Graph를 사용하는 경우에는 <span class="codeph"> true </span> 로 설정되어야 합니다.</p> </li> 
+      <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Device Graph 옵트아웃을 활성화하거나 비활성화하는 <span class="codeph"> optoutEnabled </span> 설정이 추가되었습니다. 이 설정이 <span class="codeph"> true </span> 로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 Beta 버전입니다. 이 설정은 기본적으로 <span class="codeph"> false </span> 로 설정되지만 Device Graph를 사용하는 경우에는 <span class="codeph"> true </span> 로 설정되어야 합니다.</p> </li> 
       <li id="li_663462C0680049F89CA8FE1853F31807"> <p>알림 메커니즘에 대한 <span class="codeph"> CustomEvent </span> 지원이 추가되었습니다. 이전에는 <span class="codeph"> at.js </span> 이벤트 알림 메커니즘을 <span class="codeph"> document.addEventListener() </span>와 같은 표준 DOM API를 통해 사용할 수 없었습니다. 이제 <span class="codeph"> document.addEventListener() </span> 를 사용하여 요청 이벤트 및 콘텐츠 렌더링 이벤트와 같은 <span class="codeph"> at.js </span> 이벤트에 가입할 수 있습니다. </p> </li> 
-      <li id="li_3FB2914F8D2F4AFFAA9B4622E8CA1EFF"> <p>VEC(시각적 경험 작성기)에서 만든 오퍼와 관련된 문제가 수정되었습니다. 이 릴리스 이전에 Target은 선택기를 숨기고, 모든 선택기가 선택될 때만 숨김을 해제했습니다. <span class="codeph"> at.js </span> 0.9.2 Target은 일치하는 선택기가 확인되면 바로 숨김을 해제합니다. </p> </li> 
+      <li id="li_3FB2914F8D2F4AFFAA9B4622E8CA1EFF"> <p>VEC(시각적 경험 작성기)에서 만든 오퍼와 관련된 문제가 수정되었습니다. 이번 릴리스 이전에 Target은 선택기를 숨기고, 모든 선택기가 선택될 때만 숨김을 해제했습니다. <span class="codeph"> at.js </span> 0.9.2 Target은 일치하는 선택기가 확인되면 바로 숨김을 해제합니다. </p> </li> 
      </ul> </p> <p>자세한 내용은 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
@@ -2211,7 +2211,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 ### Target Standard/Premium 16.9.1(2016년 9월 22일) {#section_60ADF842E4A0424E8D2A81FB8B813A7A}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_896218AECE4C4EC691B76E79CC7DC356"> 
  <thead> 
@@ -2242,7 +2242,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 **향상된 기능**
 
-이 릴리스에는 다음 개선 사항이 포함됩니다.
+이번 릴리스에는 다음 개선 사항이 포함됩니다.
 
 | 개선 사항 | 설명 |
 |---|---|
@@ -2285,7 +2285,7 @@ Adobe Target Standard/Premium 16.8.1(2016년 8월 23일) 릴리스에는 다음�
 
 **향상된 기능**
 
-이 릴리스에는 다음 개선 사항이 포함됩니다.
+이번 릴리스에는 다음 개선 사항이 포함됩니다.
 
 <table id="table_E2E4BE72BD79413A821C6A6D1A3AB0F8"> 
  <thead> 
@@ -2394,7 +2394,7 @@ Adobe Target Standard/Premium 16.7.1(2016년 7월 21일) 릴리스에는 다음�
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 일부 고객이 시각적 경험 작성기 내에서 페이지를 편집하려고 할 때 흰색 화면이 표시되던 문제가 수정되었습니다.
 
@@ -2461,7 +2461,7 @@ Adobe Target Standard/Premium 16.5.1(2016년 5월 19일) 릴리스에는 다음�
       <li id="li_493CDC3BEA5F4EA0821B971579177E03">대상 사용 </li> 
       <li id="li_19045C86E1524649B56F82416934EF13">콘텐츠 라이브러리 사용 </li> 
       <li id="li_8E89F3691A6F4400A2DFDFE5186DFA83">프로필 스크립트 사용 </li> 
-      <li id="li_2EBB2B61BFA24F5FB858C0551AB20F70">계정 기본 설정 지정 </li> 
+      <li id="li_2EBB2B61BFA24F5FB858C0551AB20F70">계정 환경 설정 지정 </li> 
       <li id="li_E1886818C7BF4F36B07EC293F1A45911">시각적 경험 작성기 모드 이해 </li>  
       <li id="li_A87B876298344B2987BDC5FFD5580EC0">Target 사용자 만들기 및 관리 </li> 
       <li id="li_F90E1083444E4DBAA8C406AC293C0FD6">성공 지표 설정 </li> 
@@ -2523,7 +2523,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 ### Adobe [!DNL Target] Standard/Premium 16.4.1(2016년 4월 21일) {#section_C968860FAB81485BA12BD588F4ECA401}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_162CC5A0DB324B38A8A4252A18976686"> 
  <thead> 
@@ -2583,7 +2583,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * Visual Experience Composer가 Chrome에서 제대로 작동되지 않게 하는 Chrome 버전 48의 문제가 해결되었습니다. 이 수정 사항을 적용하려면 Chrome 버전 50으로 업데이트하십시오.
 
@@ -2595,7 +2595,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 ### Adobe [!DNL Target] Standard/Premium 16.3.1(2016년 3월 15일) {#section_A5A9B03A5CCD4213AD656BE722B5FF67}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_F2A89DF1EAB443B4B4C7E0BC6118384B"> 
  <thead> 
@@ -2644,7 +2644,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 ### Adobe [!DNL Target] Standard/Premium 16.2.1(2016년 2월 18일) {#section_47E5CEE2EED24CB3B71D7457673F3200}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 | 기능 | 설명 |
 |---|---|
@@ -2666,7 +2666,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 ### Adobe [!DNL Target] Standard/Premium 16.1.1(2016년 1월 28일) {#section_8BF7705B452C449F961AEFC568A0778C}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_8525ECC9B6D0435ABEF8C27F747B7A0C"> 
  <thead> 
@@ -2721,7 +2721,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 모든 AEM 기반 활동을 XT (경험 타기팅) 활동으로 발생시킨 문제를 수정했습니다. 이제 AEM은 A/B 및 XT 활동에 대해 올바른 활동 유형을 사용합니다.
 * 전환 지표가 아닌 지표를 자동으로 지정된 새 활동의 목표로 사용하는 옵션을 제거했습니다. 이러한 제한이 예정된 릴리스에서 해제됩니다.
@@ -2752,7 +2752,7 @@ target/r_release-notes-2015.xml
 
  -->
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_EE13D9B959DA4FB0AD6BC03FBF78AEF6"> 
  <thead> 
@@ -2791,7 +2791,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">권장 사항 </p> <p class="Premium">이전 구매 제외 </p> </td> 
-   <td colname="col2"> <p>이제 Target에서는 방문자 권장 사항에서 이전에 구입한 항목을 자동으로 제외합니다. 이 옵션은 기준에 따라 비활성화될 수 있습니다. </p> <p>이 릴리스 이전에 실행되던 활동에 사용된 기준을 포함하여 현재 모든 기본 기준에서 이 옵션이 활성화됩니다. 이전 구매를 제외하지 않으려면 해당 활동을 편집해야 합니다. </p> </td> 
+   <td colname="col2"> <p>이제 Target에서는 방문자 권장 사항에서 이전에 구입한 항목을 자동으로 제외합니다. 이 옵션은 기준에 따라 비활성화될 수 있습니다. </p> <p>이번 릴리스 이전에 실행되던 활동에 사용된 기준을 포함하여 현재 모든 기본 기준에서 이 옵션이 활성화됩니다. 이전 구매를 제외하지 않으려면 해당 활동을 편집해야 합니다. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">권장 사항 </p> <p> 속성 가중치 </p> </td> 
@@ -2844,7 +2844,7 @@ target/r_release-notes-2015.xml
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 글로벌 경험 작성기에서 모서리를 드래그해 사용자 지정 뷰포트 크기를 조정하지 못하도록 하는 문제가 해결되었습니다.
 
@@ -2856,7 +2856,7 @@ target/r_release-notes-2015.xml
 
 ### Adobe [!DNL Target] Standard/Premium 15.9.1(2015년 9월 30일) {#section_A54204291A99476688E8C0BD8255F93C}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_907A952F54084C2A9C61F10E2B7A7BFF"> 
  <thead> 
@@ -2919,7 +2919,7 @@ target/r_release-notes-2015.xml
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * Target 보고서 세트가 Analytics for Target에 대해 활성화된 이후에 Target 보고서 세트 선택기에 표시되지 않는 문제가 해결되었습니다.
 * URL로 활동을 검색하지 못하는 문제가 해결되었습니다.
@@ -2932,9 +2932,9 @@ target/r_release-notes-2015.xml
 
 ### Adobe [!DNL Target] Standard/Premium 15.8.1(2015년 8월 20일) {#section_1C26CB72316A404DB655EBE655F5B8C1}
 
-이 릴리스의 목표는 Target Classic과 동등한 기능을 제공하는 것입니다. 가장 일반적으로 사용되는 Target Classic의 기능을 이제 Target Standard에서도 사용할 수 있습니다.
+이번 릴리스의 목표는 Target Classic과 동등한 기능을 제공하는 것입니다. 가장 일반적으로 사용되는 Target Classic의 기능을 이제 Target Standard에서도 사용할 수 있습니다.
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_DF5B434D639345B4ACE2467B8966A908"> 
  <thead> 
@@ -2998,7 +2998,7 @@ target/r_release-notes-2015.xml
 
 ### Adobe [!DNL Target] Standard/Premium 15.7.1(2015년 7월 30일) {#section_9C888BFD04A94DD58616D3F67D209CCC}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_46FF5AF77D824ADC941B1E472234F05C"> 
  <thead> 
@@ -3045,7 +3045,7 @@ target/r_release-notes-2015.xml
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * Target의 보고 소스로 Analytics를 사용하는 방식이 이제 XT 활동에 대해 지원됩니다.
 * 활동이 활성화되었을 때 Analytics에 표시된 제어 경험이 변경되도록 하는 문제가 수정되었습니다.
@@ -3059,7 +3059,7 @@ target/r_release-notes-2015.xml
 
 ### Adobe [!DNL Target] Standard/Premium 15.6.1(2015년 6월 25일) {#section_43FEA310830E4E8E853FAB56B12B1301}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_C0B37E1730014ADA8C36310093F5C43A"> 
  <thead> 
@@ -3079,7 +3079,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Automated Personalization: 모델 상태의 시각적 표시 </p> </td> 
-   <td colname="col2"> <p> 예측 모델이 필수 품질 기준을 통과하고 유효한 것으로 간주되면, 준비된 상태로 인식되며, 오퍼 결정을 위한 개인화된 점수를 계산하는 데 사용됩니다. 모델이 준비되고 Target이 개인화된 콘텐츠를 전달할 수 있는 경우 시계 아이콘이 확인 표시로 변경됩니다. 상승도는 모델이 준비된 후에만 예측되므로 시각적 표시를 통해 적절한 기대 수준을 설정할 수 있습니다. 시각적 경험 작성기의 트래픽 견적 도구를 사용하여 모델이 준비 상태가 될 때를 나타내는 지침을 얻으십시오. </p></td> 
+   <td colname="col2"> <p> 예측 모델이 필수 품질 기준을 통과하고 유효한 것으로 간주되면 준비된 상태로 인식되며, 오퍼 결정을 위한 개인화된 점수를 계산하는 데 사용됩니다. 모델이 준비되고 Target이 개인화된 콘텐츠를 전달할 수 있는 경우 시계 아이콘이 확인 표시로 변경됩니다. 상승도는 모델이 준비된 후에만 예측되므로 시각적 표시를 통해 적절한 기대 수준을 설정할 수 있습니다. 시각적 경험 작성기의 트래픽 견적 도구를 사용하여 모델이 준비 상태가 될 때를 나타내는 지침을 얻으십시오. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Premium 권장 사항: 시각적 경험 작성기에서 찾아보기 및 탐색 </p> </td> 
@@ -3098,7 +3098,7 @@ target/r_release-notes-2015.xml
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 볼 수 없는 활동을 Target Classic에서 볼 수 있음을 나타내는 메시지가 추가되었습니다.
 * URL이 느리게 리디렉션되도록 하는 문제가 수정되었습니다.
@@ -3118,7 +3118,7 @@ target/r_release-notes-2015.xml
 
 ### Adobe [!DNL Target] Standard/Premium 15.5.1(2015년 5월 21일) {#section_FF0F959908784AF0906EFB9E8324F207}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_3985F758176F4884A94AFDFB78B24209"> 
  <thead> 
@@ -3198,7 +3198,7 @@ target/r_release-notes-2015.xml
    <td colname="col2"> <p> Target 보고서에 추가된 오퍼 감사 보고서를 내보내고 다운로드할 수 있습니다. </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> <p>베타: A4T 상승도 및 신뢰도 </p> </td> 
+   <td colname="col1"> <p>Beta: A4T 상승도 및 신뢰도 </p> </td> 
    <td colname="col2"> <p> 이제 Analytics의 표준 지표 및 사용자 지정 이벤트에 대해 상승도 및 신뢰도를 사용할 수 있습니다. </p> </td> 
   </tr> 
  </tbody> 
@@ -3206,7 +3206,7 @@ target/r_release-notes-2015.xml
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 대상 만들기에서 연산자를 변경하면 속성값이 변경되던 문제가 수정되었습니다.
 * 시각적 경험 작성기에서 사용자 지정 코딩된 지역 mbox를 선택할 수 있도록 개선되었습니다.
@@ -3215,7 +3215,7 @@ target/r_release-notes-2015.xml
 
 ### Adobe [!DNL Target] Standard/Premium 15.3.1(2015년 3월 26일) {#section_591371851693496C820175753F588E73}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_5A2F2058ACFB455E9F69484CA0C8D3DE"> 
  <thead> 
@@ -3247,14 +3247,14 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe Analytics에서 고객 속성 업로드 </p> </td> 
-   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 기업 고객 데이터를 캡처하는 Analytics 사용자는 이 데이터를 Experience Cloud에 업로드할 수 있습니다. </p> <p>데이터가 Experience Cloud에 업로드되면, 세그먼트 정의에 사용자 특성을 포함하는 대상 세그먼트를 Analytics에서 생성하여 Target으로 해당 대상을 공유하는 등의 작업을 할 수 있습니다. </p> <p> <p>참고: Target에서는 아직 원시 고객 속성을 직접 사용할 수 없습니다. </p> </p></td> 
+   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 기업 고객 데이터를 캡처하는 Analytics 사용자는 이 데이터를 Experience Cloud에 업로드할 수 있습니다. </p> <p>데이터가 Experience Cloud에 업로드되면 세그먼트 정의에 사용자 특성을 포함하는 대상 세그먼트를 Analytics에서 생성하여 Target으로 해당 대상을 공유하는 등의 작업을 할 수 있습니다. </p> <p> <p>참고: Target에서는 아직 원시 고객 속성을 직접 사용할 수 없습니다. </p> </p></td> 
   </tr> 
  </tbody> 
 </table>
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * Analytics for Target 기반 활동의 경우, 계산을 수행할 수 없는 Analytics 지표에 대해 상승도 및 신뢰도 열이 숨겨집니다.
 * 고급 경험 작성기에서 `charset` 메타태그의 짧은 형식이 인식되지 않던 문제를 수정했습니다.
@@ -3265,7 +3265,7 @@ target/r_release-notes-2015.xml
 
 ### Adobe [!DNL Target] 15.2.1(2015년 2월 19일) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_1558E5A5BAB64CC281C193F5A49E2ECE"> 
  <thead> 
@@ -3284,13 +3284,13 @@ target/r_release-notes-2015.xml
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 페이지를 재방문할 때 리디렉션 오퍼가 작동되지 않도록 하는 오류가 수정되었습니다.
 
 ### Adobe [!DNL Target] 15.1.1(2015년 1월 22일) {#section_059F9B41804B4FA58D05C4485EDF926D}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_5D4C3C5695BA4A88BC65E2721CFB073A"> 
  <thead> 
@@ -3325,7 +3325,7 @@ target/r_release-notes-2015.xml
 
 **수정 사항**
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * IE10에서 스크롤이 제대로 작동하지 않는 문제가 수정되었습니다.
 
@@ -3343,7 +3343,7 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] 14.10.1(2014년 10월 30일) {#section_D557CB331A004155B91CFE5B197076F3}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 | 기능 | 설명 |
 |---|---|
@@ -3352,14 +3352,14 @@ target/r_release-notes-2014.xml
 | Automated Personalization: RPV/AOV 지표에 대해 선택 및 보고 | 이제 Automated Personalization 경험 생성 흐름에서 RPV 및 AOV 지표를 선택할 수 있습니다. Automated Personalization 활동 생성에 대한 자세한 내용은 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9). |
 | 향상된 권한 제어 | 충분한 권한이 있는 사용자만 대상을 편집할 수 있습니다. |
 
-이 릴리스에는 다음 개선 사항이 포함됩니다.
+이번 릴리스에는 다음 개선 사항이 포함됩니다.
 
 * 개요 페이지에는 활동 목표가 표시됩니다.
 * HTML 편집 상자에 자바스크립트를 입력할 때 경고가 표시됩니다.
 
 ### Adobe [!DNL Target] 14.9.1(2014년 9월 19일) {#section_681F27FBFDFF46FE8A1A8E24A50A26F4}
 
-이 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 기능 및 개선 사항이 포함되었습니다.
 
 | 기능/향상 | 설명 |
 |---|---|
@@ -3367,7 +3367,7 @@ target/r_release-notes-2014.xml
 | 자동 대상 가져오기 | 사용자가 대상 목록을 열고 가져온 대상이 10분 이상 오래되면 배경에서 자동으로 대상을 가져옵니다. |
 | HTML 오퍼의 증가된 크기는 [!DNL Target Classic]에 동기화할 수 있습니다. | 이전의 64KB 제한을 256KB로 늘렸습니다. |
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * Firefox에서 비디오 오퍼를 올바로 전달할 수 없었던 문제를 수정했습니다.
 * 링크 편집에 대한 실행 취소가 Visual Experience Composer에서 실행 취소된 것으로 표시되지 않던 문제를 수정했습니다.
@@ -3376,7 +3376,7 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] 14.8.1(2014년 8월 21일) {#section_02D0DFA7A8D145B2B3FEFF83591243E1}
 
-이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
 | 기능/향상 | 설명 |
 |---|---|
@@ -3399,11 +3399,11 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] 14.6.1(2014년 6월 25일) {#section_A520F01EEE0A4C2CBB3F2A37E6DD6F83}
 
-이 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
 
 >[!NOTE]
 >
->이 릴리스 중 일부 기능은 [!DNL Target Premium] 솔루션의 일부로서만 사용할 수 있습니다.
+>이번 릴리스 중 일부 기능은 [!DNL Target Premium] 솔루션의 일부로서만 사용할 수 있습니다.
 
 <table id="table_A2A978B157D54E17BD7366ADC04C8FC9"> 
  <thead> 
@@ -3415,7 +3415,7 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> <span class="keyword"> Automated Personalization (Target Premium) </span> </td> 
-   <td colname="col2"> <p> <span class="keyword"> Automated Personalization는 </span> 고급 머신 러닝 알고리즘을 제공하여 개인별 경험 및 디지털 경험에 대한 향상된 전환 속도를 가능하게 합니다. </p> <p> <p>참고:  <span class="keyword"> Automated Personalization </span> 는 <span class="keyword"> Target Premium </span> 솔루션의 일부로 사용할 수 있습니다. . <span class="keyword"> Target Premium </span> 라이선스가 없는 <span class="keyword"> Target Standard </span> 에는 포함되어 있지 않습니다. <span class="keyword"> Target Standard </span> 또는 <span class="keyword"> Target Premium </span> 라이선스가 있을 경우 Adobe Experience Cloud에서 <span class="keyword"> Target </span> 카드를 사용하십시오. </p> </p> <p>사이트에서 한 파일을 구현하여 콘텐츠를 가리킨 후 클릭한 다음 해당 영역에 대한 추가 콘텐츠 선택 사항을 시각적으로 만들고 선택합니다. 그러면 모델링 시스템이 방문자에 대해 시스템의 모든 동작 데이터를 기반으로 각 개인에게 전달될 콘텐츠 부분을 자동으로 결정합니다. 이 기능은 각 방문자에게 개인별 환경을 제공합니다. 마케터는 테스트를 실행하고 결과를 분석할 필요가 없으며 최적화를 통해 확인된 리프트를 실현하기 전에 우승자를 전달합니다. </p> <p> <span class="keyword"> Automated Personalization </span> 는 다음을 제공합니다. </p> 
+   <td colname="col2"> <p> <span class="keyword"> Automated Personalization는 </span> 고급 머신 러닝 알고리즘을 제공하여 개인별 경험 및 디지털 경험에 대한 향상된 전환 속도를 가능하게 합니다. </p> <p> <p>참고: <span class="keyword"> Automated Personalization </span> 는 <span class="keyword"> Target Premium </span> 솔루션의 일부로 사용할 수 있습니다. . <span class="keyword"> Target Premium </span> 라이선스가 없는 <span class="keyword"> Target Standard </span> 에는 포함되어 있지 않습니다. <span class="keyword"> Target Standard </span> 또는 <span class="keyword"> Target Premium </span> 라이선스가 있을 경우 Adobe Experience Cloud에서 <span class="keyword"> Target </span> 카드를 사용하십시오. </p> </p> <p>사이트에서 한 파일을 구현하여 콘텐츠를 가리킨 후 클릭한 다음 해당 영역에 대한 추가 콘텐츠 선택 사항을 시각적으로 만들고 선택합니다. 그러면 모델링 시스템이 방문자에 대해 시스템의 모든 동작 데이터를 기반으로 각 개인에게 전달될 콘텐츠 부분을 자동으로 결정합니다. 이 기능은 각 방문자에게 개인별 환경을 제공합니다. 마케터는 테스트를 실행하고 결과를 분석할 필요가 없으며 최적화를 통해 확인된 리프트를 실현하기 전에 우승자를 전달합니다. </p> <p> <span class="keyword"> Automated Personalization </span> 는 다음을 제공합니다. </p> 
     <ul id="ul_9EF654B10FFA46169EE2E033683BA82E"> 
      <li id="li_8D201BF8F37B4B2489D039A0340E065E">2가지 머신 러닝 알고리즘: 
       <ul id="ul_E1DF69071C9047EEA692B5EF01176E4B"> 
@@ -3448,7 +3448,7 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] Standard/Premium 14.5(2014년 5월 28일) {#section_530EAB9376414D4989CA0740361DDCC2}
 
-이 릴리스에는 다음과 같은 버그 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 버그 수정 사항이 포함됩니다.
 
 * 경험 미리보기가 예상대로 작동되지 않았던 문제를 수정했습니다.
 
@@ -3456,7 +3456,7 @@ target/r_release-notes-2014.xml
 
 [Target Standard 1.7 릴리스 웨비나](https://my.adobeconnect.com/p1oabaz3cxi/)
 
-이 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
 
 <table id="table_11CD9EE0C9534FF19C9154784C4BFCF0"> 
  <thead> 
@@ -3487,7 +3487,7 @@ target/r_release-notes-2014.xml
 
 **버그 수정**
 
-이 릴리스에는 다음과 같은 버그 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 버그 수정 사항이 포함됩니다.
 
 * `target.js` 가 에지(Edge)로 압축되지 않던 문제를 수정했습니다.
 * 보고서에서 활동 행의 전환 카운트가 A/B 활동에 대해 표시되지 않던 문제를 수정했습니다.
@@ -3505,7 +3505,7 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] Standard/Premium 1.6(2014년 3월 17일) {#section_DB1319CDD8944F6FB749E525EB551017}
 
-이 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
 
 | 기능 | 설명 |
 |---|---|
@@ -3514,7 +3514,7 @@ target/r_release-notes-2014.xml
 
 **버그 수정**
 
-이 릴리스에는 다음과 같은 버그 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 버그 수정 사항이 포함됩니다.
 
 * 특정한 경우에 항목 제거와 HTML 편집 기능이 작동하지 않던 문제를 수정했습니다.
 
@@ -3533,7 +3533,7 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] Standard/Premium 1.5(2014년 2월 25일) {#section_5E9E3DDBCB82494AA62A21AC9282063F}
 
-이 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
 
 <table id="table_67115780726F48859DC8E46E34567DC3"> 
  <thead> 
@@ -3567,7 +3567,7 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] Standard/Premium 1.4(2016년 1월 20일) {#section_CD27AEE32B4F40BDAB422711B96739A5}
 
-이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
 <table id="table_9E303FF0CD954795A29369A6D4166DB5"> 
  <thead> 
@@ -3604,7 +3604,7 @@ target/r_release-notes-2014.xml
  </tbody> 
 </table>
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 링크 미리보기가 예상대로 표시되지 않도록 하던 문제가 해결되었습니다.
 
@@ -3619,7 +3619,7 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] Standard/Premium 1.3(2015년 11월 19일) {#section_D633ACA56FA941648219EB3748D814EC}
 
-이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
 | 기능 | 설명 |
 |---|---|
@@ -3627,7 +3627,7 @@ target/r_release-notes-2014.xml
 | Visual Experience Composer를 사용하여 요소를 다시 정렬합니다. | 시각적 경험 작성기를 사용하여 상위 요소 내에서 하위 요소를 재배열할 수 있습니다. |
 | 사이트에서 경험을 직접 미리 봅니다. | 활동을 저장하면 라이브 상태가 아니어도 사이트에서 직접 활동을 미리 볼 수 있습니다. 이를 통해 iFrame을 통해 제공하지 않고도 예상되는 표시 결과를 확인할 수 있습니다. 각 테스트 경험에 링크를 복사하여 브라우저에서 해당 경험을 보거나, 팀 구성원이 볼 수 있게 전송할 수 있습니다. 이러한 페이지를 보는 사용자는 보고서에서 카운트되지 않습니다. |
 
-이 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 경험 URL이 재설정된 경우 활동에서 클릭 추적 지표가 삭제되지 않는 문제가 수정되었습니다.
 * 경험을 탐색할 때 새로운 콘텐츠 표시 전에 기본 경험이 빠르게 깜빡이는 Experience Composer의 문제가 수정되었습니다.
@@ -3641,14 +3641,14 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] Standard/Premium 1.2(2013년 10월 31일) {#section_420B5E910D7341AA8DB059C8E1071D53}
 
-이 릴리스에는 네 가지 알려진 문제가 있습니다. 이 문제는 향후 업데이트를 통해 수정될 것입니다.
+이번 릴리스에는 네 가지 알려진 문제가 있습니다. 이 문제는 향후 업데이트를 통해 수정될 것입니다.
 
 * 일부 클러스터에서는 재사용 가능 오퍼를 편집할 경우 편집 사항이 mbox 외부에서 해당 오퍼를 사용하는 활동에 대한 고객 사이트에 반영되지 않을 수 있습니다.
 * mbox가 제어하지 않는 페이지 영역에서 이미지를 교환하면 404 오류가 발생할 수 있습니다.
 * 새 대상을 생성하거나 기존 대상을 편집 및 저장할 때 화면을 새로 고치거나 대상을 검색할 때까지 해당 대상이 대상 목록에 표시되지 않습니다.
 * Target Standard에서 HTML 오퍼를 삭제하면 Target Advanced에서 삭제되지 않습니다.
 
-이 릴리스에는 다음과 같은 수정 사항 및 개선 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항 및 개선 사항이 포함됩니다.
 
 * 일부 활동 및 경험이 Target Advanced와 제대로 동기화되지 못하게 하는 여러 문제가 수정되었습니다.
 * [!DNL target.js] 이 다른 스크립트를 페이지의 `<head>` 섹션 외부로 이동하는 문제가 수정되었습니다.
@@ -3663,7 +3663,7 @@ target/r_release-notes-2014.xml
 
 ### Adobe [!DNL Target] Standard/Premium 1.1(2013년 10월 18일) {#section_79FA6A61D2284D41A34F00014A342F07}
 
-이 릴리스에는 다음과 같은 수정 사항 및 개선 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 수정 사항 및 개선 사항이 포함됩니다.
 
 * 유효한 경험을 부분 활동에 추가한 후 첫 번째 동기화 시도에서 활동 동기화가 되지 않았던 문제를 수정했습니다.
 * 경험을 삭제하고 추가한 후 요약 보고서에서 500 오류가 발생했던 문제를 수정했습니다.
