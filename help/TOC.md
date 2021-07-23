@@ -6,7 +6,7 @@ feature-set: Target
 source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
 workflow-type: tm+mt
 source-wordcount: '1540'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 99%
       + Enterprise 사용자 권한 {#enterprise}
          + [Enterprise 사용자 권한](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 권한 구성](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [작업 영역에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
 + Target 구현 {#implement-target}
    + [Target 구현 개요](c-implementing-target/implementing-target.md)
    + 구현하기 전에 {#before-implement}
@@ -94,7 +94,7 @@ ht-degree: 99%
       + [지원되는 브라우저](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
       + [TLS(전송 계층 보안) 암호화 변경 사항](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME 및 Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
-   + 클라이언트 측 웹: Target 구현 {#client-side}
+   + 클라이언트측 웹: Target 구현 {#client-side}
       + [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
       + Adobe Experience Platform Web SDK 구현 {#aep-implementation}
          + [AEP 웹 SDK 개요](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
@@ -154,8 +154,8 @@ ht-degree: 99%
       + [오퍼 콘텐츠 미리 가져오기](c-target-mobile-app/prefetch-offer-content.md)
       + [모바일 앱을 위한 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
       + [위치 서비스 사용](/help/c-target-mobile-app/use-location-service.md)
-   + 서버 측: Target 구현 {#server-side}
-      + [서버 측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
+   + 서버측: Target 구현 {#server-side}
+      + [서버측: Target 구현 개요](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Target의 이전 API에서 Adobe I/O로 전환](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
       + [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [하이브리드 구현](/help/c-implementing-target/hybrid-implementation.md)
@@ -270,7 +270,7 @@ ht-degree: 99%
    + 활동 QA {#activity-qa}
       + [활동 QA 개요](c-activities/c-activity-qa/activity-qa.md)
       + [활동 QA 북마클릿](c-activities/c-activity-qa/activity-qa-bookmark.md)
-      + [활동 QA 및 서버 측 전달 사용](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
+      + [활동 QA 및 서버측 전달 사용](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + 대상자 {#audiences}
    + [대상 개요](c-target/target.md)
    + 대상자 만들기 {#create-audiences}
