@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;검색 엔진 최적화;검색 엔진 최적화;seo;에지 클러스터, 중앙 클러스터;at.js;mbox.js;
-description: Adobe [!DNL Target] works, including information about the [!DNL Target] JavaScript 라이브러리(at.js 및 Experience Platform 웹 SDK), Adobe 데이터 센터 및 SEO 테스트 방법을 알아봅니다.
+description: ' [!DNL Target] works, including information about the [!DNL Target] JavaScript 라이브러리(at.js 및 Experience Platform Web SDK), Adobe 데이터 센터 및 SEO 테스트에 대한 정보를 포함하여 Adobe Target의 작동 방식에 대해 알아보십시오.'
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: 개요
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 95%
 
 [!DNL Target] 은 [!DNL Experience Platform Web SDK] 또는 JavaScript 라이브러리를 사용하여 웹 사이트와 통합합니다.
 
-* **Adobe Experience Platform Web SDK:**  [Experience Platform 웹 ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK는 새로운 클라이언트측 JavaScript 라이브러리입니다. Experience Platform 웹 SDK를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform] Edge Network를 통해 [!DNL Experience Cloud]([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. Adobe는 모든 신규 [!DNL Target] 고객에게 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
-* **at.js:** at.js 라이브러리 는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)으로 구현을 업데이트할 것을 권장합니다.
-* **mbox.js:** mbox.js 라이브러리 는 [!DNL Target]의 레거시 구현 라이브러리입니다. mbox.js 라이브러리는 2021년 3월 31일 이후로 더 이상 지원되지 않습니다.
+* **Adobe Experience Platform Web SDK:** [Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 는 새로운 클라이언트측 JavaScript 라이브러리입니다. Experience Platform Web SDK는 [!DNL Adobe Experience Cloud] 의 고객이 Edge Network를 통해 [!DNL Experience Cloud] ([!DNL Target]포함)의 다양한 서비스와 [!DNL Experience Platform] 상호 작용할 수 있도록 합니다. Adobe는 모든 신규 [!DNL Target] 고객에게 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
+* **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)으로 구현을 업데이트할 것을 권장합니다.
+* **mbox.js:** mbox.js 라이브러리는 [!DNL Target]의 레거시 구현 라이브러리입니다. mbox.js 라이브러리는 2021년 3월 31일부터 더 이상 지원되지 않습니다.
 
 사이트의 모든 페이지에서 [!DNL Experience Platform Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ko-KR) 를 사용하여 [!DNL Target]을 구현하는 것을 고려하시오.
 
-다음 리소스에는 Experience Platform 웹 SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
+다음 리소스에는 Experience Platform Web SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko-KR#configure-the-aep-web-sdk-extension)
 * [ [!DNL Target] Adobe Experience Platform Launch를 사용한 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
@@ -103,7 +103,7 @@ AP (Automated Personalization)는 오퍼 또는 메시지를 결합하고 고급
 
 중앙 클러스터 위치에는 데이터 수집 센터와 데이터 처리 센터가 모두 있습니다. 에지 클러스터 위치에는 데이터 수집 센터만 있습니다. 개별 보고서는 특정 데이터 처리 센터로 지정됩니다.
 
-고객 사이트 활동 데이터는 7개의 에지 클러스터 중 가장 가까운 곳에서 수집됩니다. 이 데이터는 처리를 위해 고객이 미리 결정한 중앙 클러스터 대상(다음 세 위치 중 하나: 오레곤, 더블린, 싱가포르)으로 이동합니다. 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다. 에지 클러스터 위치에는 중앙 클러스터 위치와 버지니아, 뭄바이, 시드니 및 도쿄가 포함됩니다.
+고객 사이트 활동 데이터는 7개의 에지 클러스터 중 가장 가까운 곳에서 수집됩니다. 이 데이터는 처리를 위해 고객이 미리 결정한 중앙 클러스터 대상(다음 세 위치 중 하나: 오레곤, 더블린, 싱가포르)으로 이동합니다. 방문자 프로필 데이터는 사이트 방문자와 가장 가까운 에지 클러스터에 저장됩니다. 에지 클러스터 위치에는 중앙 클러스터 위치와 버지니아, 뭄바이, 시드니, 도쿄가 포함됩니다.
 
 단일 위치에서 모든 타기팅 요청에 응답하는 대신 방문자와 가장 가까운 에지 클러스터에서 요청을 처리합니다. 이 프로세스는 네트워크/인터넷 이동 시간의 영향을 완화하는 데 도움이 됩니다.
 
@@ -177,7 +177,7 @@ Google은 사용자 테스트를 권장합니다. Google은 해당 설명서를 
 
 * **필요한 동안만 실험 실행**: Adobe에서는 &quot;필요한 동안&quot;을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. [!DNL Target] 에서는 테스트가 이 시점에 도달했을 때를 판별하는 [모범 사례](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR) 를 제공합니다. 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로에 통합하고 적절한 리소스를 할당하는 것이 좋습니다.
 
-   [!DNL Target] 플랫폼을 사용하여 가장 성과가 좋은 테스트를 &quot;게시&quot;하는 것은 영구적인 솔루션으로 권장되지 않습니다. 100% 사용자 중 100%에 대해 채택 테스트가 게시되면 채택 테스트를 하드 코딩하는 프로세스가 완료되는 동안 이 방법을 사용할 수 있습니다.
+   [!DNL Target] 플랫폼을 사용하여 가장 성과가 좋은 테스트를 &quot;게시&quot;하는 것은 영구적인 솔루션으로 권장되지 않습니다. 100% 시간 동안 사용자의 100%에 대해 가장 성과가 좋은 테스트가 게시되면 가장 성과가 좋은 테스트를 하드 코딩하는 프로세스가 완료되는 동안 이 접근 방식을 사용할 수 있습니다.
 
    테스트가 변경한 사항을 고려하는 것도 중요합니다. 페이지에 있는 버튼이나 기타 부수적인 비텍스트 기반 항목의 색상을 단순히 업데이트하는 것은 자연 순위에는 영향을 주지 않습니다. 하지만, 텍스트 변경 사항은 하드코딩해야 합니다.
 
