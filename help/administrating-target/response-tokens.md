@@ -5,7 +5,7 @@ title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
 workflow-type: tm+mt
 source-wordcount: '1642'
 ht-degree: 26%
@@ -84,7 +84,7 @@ ht-degree: 26%
 
 [!DNL Target] 응답을 수신하는 데 사용하는 프로세스와 응답 토큰 읽기 프로세스는 [!DNL Platform Web SDK] 구현이 있는지 여부에 따라 다릅니다.
 
-### ![Handle 개체 클래스](/help/assets/platform.png) [!DNL Platform Web SDK] 를 사용하는 Adobe Experience Platform Web SDK 배지
+### ![Handle 개체 클래스](/help/assets/platform.png) [!DNL Platform Web SDK] 를 사용하는 Adobe Experience Platform Web SDK 배지 {#platform-web-sdk}
 
 메타데이터 개체와 데이터 개체가 있는 Handle 개체 클래스를 사용하여 [!DNL Target] 응답을 수신하고 응답 토큰을 읽습니다.
 
