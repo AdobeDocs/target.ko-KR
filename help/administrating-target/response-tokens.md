@@ -1,13 +1,13 @@
 ---
-keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답
+keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답;플랫폼 웹 sdk
 description: ' [!DNL Adobe Target] 에서 응답 토큰을 사용하여 디버깅을 위한 정보를 출력하고 타사 도구와 통합하는 방법을 알아봅니다.'
 title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: 관리 및 구성
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 46df34e8b486cbd5a21279fe960ab72b8b51ee71
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '1645'
 ht-degree: 26%
 
 ---
