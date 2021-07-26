@@ -5,9 +5,9 @@ title: Experience Platform 웹 SDK를 사용하여 어떻게 구현합니까?
 feature: AEP 웹 SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: f2f48f62c778ef4c57b6cf03a61fc64de53c22fa
+source-git-commit: 5b5a94c6dc586e12789de7465f42c483bf268de0
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '267'
 ht-degree: 4%
 
 ---
@@ -27,6 +27,6 @@ ht-degree: 4%
 
 | 주제 | 설명 |
 | --- | --- |
-| [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | [!DNL Adobe Target]의 QA URL을 사용하여, 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그멘테이션된 상태를 유지하는 QA 보고를 수행할 수 있습니다. [!UICONTROL 활동 ] QA를 사용하면 활동을  [!DNL Target] 실시간으로 실행하기 전에 활동을 완전히 테스트할 수 있습니다.<br>JavaScript  [라이브러리 QA  [!UICONTROL 호환성 Target ] 를 참조하십시오](/help/c-activities/c-activity-qa/activity-qa.md#compatibility). |
+| [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | [!DNL Adobe Target]의 QA URL을 사용하면 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그멘테이션된 상태를 유지하는 QA 보고를 수행할 수 있습니다. 활동을 라이브로 시작하기 전에 [!DNL Target] 활동을 완전히 테스트합니다.<br>JavaScript  [라이브러리 QA  [!UICONTROL 호환성 Target ] 를 참조하십시오](/help/c-activities/c-activity-qa/activity-qa.md#compatibility). |
 | [응답 토큰](/help/administrating-target/response-tokens.md) | 응답 토큰을 사용하면 Target 데이터를 Google Analytics 및 기타 타사 통합에 보낼 수 있습니다.<br>Platform  [Web SDK를 통해 Google Analytics에 데이터 보내기](/help/administrating-target/response-tokens.md#platform-web-sdk)를 참조하십시오. |
 
