@@ -55,7 +55,7 @@ ht-degree: 100%
 
 자세한 내용은 [[!UICONTROL 자동 할당]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 을 참조하십시오.
 
-### [!UICONTROL 자동 타겟](AT)
+### [!UICONTROL 자동 타겟] (AT)
 
 자동 타겟은 고급 머신 러닝을 사용하여 여러 가지 고성능 마케터 정의 경험 중에서 선택합니다. 자동 타겟은 각 방문자에게 가장 적합한 경험을 제공합니다. 경험 전달은 개별 고객 프로필 및 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 합니다. 자동 타겟을 사용하면 콘텐츠를 개인화하고 전환할 수 있습니다.
 
