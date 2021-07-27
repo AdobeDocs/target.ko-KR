@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 92c8637ac8c2ce925e0c16b726b76451a4691904
+source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
 workflow-type: tm+mt
-source-wordcount: '1956'
+source-wordcount: '1971'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 7월 27일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 다음 섹션이 추가되었습니다.<ul><li>이 안내서의 권장 설명서</li></ul> |
 | 7월 26일 | [](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) Adobe Experience Platform 웹 SDK 개요 안내서 *에서 Platform Web* SDK와 함께 Adobe Target사용 | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform 웹 SDK 시스템 다이어그램</li></ul> |
 | 7월 23일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 자세한 내용을 제공하기 위해 다음 섹션을 업데이트했습니다.<ul><li>Google Chrome SameSite 쿠키 적용 정책은 VEC 및 EEC에 어떻게 영향을 줍니까?</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | 경험 아래에 &quot;경험당 수정 사항&quot; 섹션이 새로 추가되었습니다. |
