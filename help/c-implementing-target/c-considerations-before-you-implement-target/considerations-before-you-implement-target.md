@@ -5,10 +5,10 @@ title: 구현하기 전에 무엇을 알아야 합니까?
 feature: 구현
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 65%
+source-wordcount: '117'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 65%
 
 >[!IMPORTANT]
 >
->at.js 또는 Adobe Experience Platform Web SDK에 대한 수정 사항은 Adobe 고객 지원 센터에서 지원하지 않습니다.
+>at.js 또는 [!DNL Adobe Experience Platform Web SDK]에 대한 수정 사항은 Adobe 고객 지원 센터에서 지원하지 않습니다.
 
 - [Target 구현 준비](prepare-to-implement-target.md)
 - [개인 정보 보호](c-privacy/privacy.md)
