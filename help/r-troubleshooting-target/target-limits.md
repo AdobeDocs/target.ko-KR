@@ -5,9 +5,9 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1322'
 ht-degree: 91%
 
 ---
@@ -62,7 +62,7 @@ ht-degree: 91%
 
 ## 콘텐츠 전달 {#content-delivery}
 
-* **제한**: 100개의 동시  [!DNL Target] 콘텐츠 전달 요청.
+* **제한**: 사용자 세션당  [!DNL Target] 100개의 동시 컨텐츠 전달 요청.
 
    고객이 지정된 사용자 세션에 대한 동시 [!DNL Target] 컨텐츠 전달 요청을 100개를 초과하는 경우 해당 사용자 세션에 대한 후속 요청이 모두 차단됩니다. 둘 이상의 요청은 둘 이상의 요청이 모두 [!DNL Target] 서버로 전송되어 응답이 수신되기 전에 동시에 이루어지는 것으로 간주됩니다. [!DNL Target] 동일한 세션에 대한 동시 요청을 순차적으로 처리합니다.
 
