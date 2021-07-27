@@ -5,7 +5,7 @@ title: Experience Platform 웹 SDK를 사용하여 어떻게 구현합니까?
 feature: AEP 웹 SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 0cfab8d09b74b3eb0ead33a0c37f9dab68a88305
+source-git-commit: eb3cae982ecb62f7745549562ea144228ad895fa
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 7%
@@ -23,7 +23,7 @@ ht-degree: 7%
 
 ## 이 안내서의 권장 설명서
 
-위에 언급된 [!DNL Platform Web SKD] 설명서 외에, 이 안내서의 항목에는 [!DNL Target] 기능 및 기능과 관련된 [!DNL Platform Web SDK] 관련 정보도 있습니다.
+위에 언급된 [!DNL Platform Web SDK] 설명서 외에, 이 안내서의 항목에는 [!DNL Target] 기능 및 기능과 관련된 [!DNL Platform Web SDK] 관련 정보도 있습니다.
 
 | 기능 | 설명/링크 |
 | --- | --- |
