@@ -5,10 +5,10 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,24 @@ ht-degree: 99%
 ## categoryId 매개 변수
 
 * **제한**: 250자.
+
+## 콘텐츠 전달 {#content-delivery}
+
+* **제한**: 100개의 동시  [!DNL Target] 콘텐츠 전달 요청.
+
+   고객이 지정된 사용자 세션에 대한 동시 [!DNL Target] 컨텐츠 전달 요청을 100개를 초과하는 경우 해당 사용자 세션에 대한 후속 요청이 모두 차단됩니다. 둘 이상의 요청은 둘 이상의 요청이 모두 [!DNL Target] 서버로 전송되어 응답이 수신되기 전에 동시에 이루어지는 것으로 간주됩니다. [!DNL Target] 동일한 세션에 대한 동시 요청을 순차적으로 처리합니다.
+
+* **오류 동작**:
+
+   * 배달 API 및 배치 Mbox v2:
+      * 오류 코드: HTTP 420에 너무 많은 요청
+      * 오류 메시지: &quot;세션 ID가 동일한 요청이 너무 많습니다.&quot;
+   * 기존 mbox API:
+      * &quot;세션 ID가 동일한 요청이 너무 많습니다.&quot; 주석이 있는 기본 컨텐츠
+   * at.js:
+      * 기본 콘텐츠가 표시됨
+
+
 
 ## 고객 속성
 
