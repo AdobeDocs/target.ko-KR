@@ -5,9 +5,9 @@ title: Experience Platform 웹 SDK를 사용하여 어떻게 구현합니까?
 feature: AEP 웹 SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
+source-git-commit: 28be06a329d017fd25d069986a0b7b047ddda206
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '447'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 6%
 * 포괄적인 정보는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html)
 * [!DNL Target]에 관한 정보는 [Target 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html)
 
-## 이 안내서의 권장 설명서
+## 권장 설명서
 
 위에 언급된 [!DNL Platform Web SDK] 설명서 외에, 이 안내서의 항목에는 [!DNL Target] 기능 및 기능과 관련된 [!DNL Platform Web SDK] 관련 정보도 있습니다.
 
@@ -32,5 +32,5 @@ ht-degree: 6%
 | [대상자](/help/c-target/target.md) | [!DNL Adobe Target]의 대상은 타깃팅된 활동에서 컨텐츠 및 경험을 보는 사용자를 결정합니다.<br>대상  [라이브러리 ](/help/c-target/c-audiences/audiences.md#use-list) 사용  [여러 대상 결합](/help/c-target/combining-multiple-audiences.md)을 참조하십시오. |
 | [리디렉션 오퍼 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오 | 리디렉션 오퍼로 인해 방문자의 브라우저가 새 페이지로 리디렉션됩니다.<br>A4T [에  [!DNL Adobe Experience Platform Web SDK] 대해 리디렉션 오퍼가 지원됩니까? 를 참조하십시오.](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [응답 토큰](/help/administrating-target/response-tokens.md) | 응답 토큰을 사용하면 Target 데이터를 Google Analytics 및 기타 타사 통합에 보낼 수 있습니다.<br>이  [작업을 수행하는 방법에 대한 코드 샘플을 보려면 Platform Web ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDK를 통해 Google Analytics에 데이터 보내기 를 참조하십시오. |
-| [단일 페이지 애플리케이션 구현](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) | [!UICONTROL Adobe Experience Platform 웹 ] SDK는 SPA(단일 페이지 애플리케이션)과 같은 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다.<br>이 항목은  *Platform Web SDK 개요 안내서* 에 있습니다. |
+| [Platform Web SDK ](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) 개요 안내서의  *단일 페이지 애플리케이션* 구현. | [!UICONTROL Adobe Experience Platform 웹 ] SDK는 SPA(단일 페이지 애플리케이션)과 같은 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. |
 | [TLS(전송 계층 보안) 암호화 변경 사항](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS(Transport Layer Security)는 가장 높은 보안 표준을 유지 관리하고 고객 데이터의 안전을 높이는 데 도움이 됩니다. |
