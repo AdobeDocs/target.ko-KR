@@ -5,10 +5,10 @@ title: ' [!DNL Target] 개인 정보 보호 문제를 어떻게 처리합니까?
 feature: 개인 정보 및 보안
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 65%
+source-wordcount: '728'
+ht-degree: 56%
 
 ---
 
@@ -18,21 +18,21 @@ ht-degree: 65%
 
 ## IP 주소 수집 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
-웹 사이트에 대한 방문자의 IP 주소가 Adobe Data Processing Center(DPC)로 전송됩니다. 방문자에 대한 네트워크 구성에 따라서는, 이 IP 주소가 꼭 방문자의 컴퓨터 IP 주소를 나타내지는 않습니다. 예를 들어 IP 주소가 NAT(Network Address Translation) 방화벽, HTTP 프록시 또는 인터넷 게이트웨이의 외부 IP 주소일 수 있습니다. Target은 사용자의 IP 주소 또는 PII(개인 식별이 가능한 정보)를 저장하지 않습니다. IP 주소는 세션 기간 동안(메모리 내, 지속되지 않음) Target에서만 사용됩니다.
+웹 사이트에 대한 방문자의 IP 주소가 Adobe Data Processing Center(DPC)로 전송됩니다. 방문자에 대한 네트워크 구성에 따라서는, 이 IP 주소가 꼭 방문자의 컴퓨터 IP 주소를 나타내지는 않습니다. 예를 들어 IP 주소가 NAT(Network Address Translation) 방화벽, HTTP 프록시 또는 인터넷 게이트웨이의 외부 IP 주소일 수 있습니다. Target은 사용자의 IP 주소 또는 PII(개인 식별이 가능한 정보)를 저장하지 않습니다. IP 주소는 세션 중에 Target이 사용해야 합니다(메모리 내, 지속되지 않음).
 
 ## IP 주소의 마지막 8진수 교체 {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
-Adobe는 Adobe Target에 대해 Adobe Client Care에서 활성화할 수 있는 새로운 “Privacy by Design” 설정을 개발했습니다. 이 설정을 활성화할 경우, 이 IP 주소가 Adobe에 의해 수집되면 즉시 IP 주소의 마지막 옥텟(마지막 부분)이 표시되지 않게 됩니다. 이러한 익명화는 선택 사항인 IP 주소의 지역 조회를 포함하여, IP 주소의 모든 처리 이전에 수행됩니다.
+Adobe는 Adobe Target에 대해 Adobe Client Care에서 활성화할 수 있는 새로운 “Privacy by Design” 설정을 개발했습니다. 이 설정을 활성화할 경우, 이 IP 주소가 Adobe에 의해 수집되면 즉시 IP 주소의 마지막 옥텟(마지막 부분)이 표시되지 않게 됩니다. 이러한 익명화는 IP 주소의 선택적 지역 조회 전에 포함하여 IP 주소를 처리하기 전에 수행됩니다.
 
 이 기능이 활성화되어 있으면 IP 주소가 충분히 익명으로 변경되므로 더 이상 개인 정보로 식별되지 않습니다. 결과적으로, Adobe Target은 개인 정보 수집을 허용하지 않는 국가의 데이터 개인 정보 보호 법률을 준수하며 사용할 수 있습니다. 도시 수준의 정보를 획득하는 것은 IP 주소 난독화의 영향을 크게 받을 수 있습니다. 지역 및 국가 수준의 정보를 획득하는 것은 IP 주소 난독화의 영향을 약간만 받아야 합니다.
 
 다음 설정을 사용할 수 있습니다.
 
-* 난독화 없음:Target은 IP 주소의 일부를 숨기지 않습니다.
-* 마지막 8진수:Target은 IP 주소의 마지막 8진수를 숨깁니다.
-* 전체 IP:Target은 전체 IP 주소를 숨깁니다.
+* 난독화 없음: Target은 IP 주소의 일부를 숨기지 않습니다.
+* 마지막 8진수: Target은 IP 주소의 마지막 8진수를 숨깁니다.
+* 전체 IP: Target은 전체 IP 주소를 숨깁니다.
 
-Target은 전체 IP 주소를 수신하여 지정된 대로 난독화(마지막 8진수나 전체 IP로 설정된 경우)합니다. 그러면 Target은 세션 기간 동안 난독화된 IP 주소를 메모리에 보관합니다.
+Target은 전체 IP 주소를 수신하여 지정된 대로 난독화(마지막 8진수나 전체 IP로 설정된 경우)합니다. 그러면 Target은 세션 중에 난독화된 IP 주소를 메모리에 보관합니다.
 
 >[!NOTE]
 >
@@ -61,6 +61,12 @@ https://my.cname.domain/optout?client=clientcode
 
 퍼스트 파티 쿠키 구현을 사용하더라도 제공된 옵트아웃은 타사 쿠키를 통해 설정됩니다. 클라이언트가 퍼스트 파티 쿠키만 사용하는 경우 Target은 옵트아웃 쿠키가 설정되어 있는지 여부를 확인합니다.
 
-## 개인 정보 보호 및 데이터 보호 규정
+## 기능 사용 데이터 수집 {#feature-usage}
+
+개별 기능 사용 데이터는 내부 [!DNL Adobe] 용도로 수집되어 [!DNL Target] 기능이 의도한 대로 작동하는지 또는 활용도가 낮은 기능을 식별하도록 합니다. 지연에 대한 다양한 측정이 수집되어 성능 문제를 해결합니다. 개인 데이터는 수집되지 않습니다.
+
+구성 파일에서 `telemetryEnabled`을 `false`로 설정하여 보고 사용 데이터를 옵트아웃할 수 있습니다.
+
+## 개인정보 보호 및 데이터 보호 규정
 
 유럽연합 일반 데이터 보호 규정 (GDPR), 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 조직 및 Adobe Target에 미치는 영향에 대한 정보는 [개인 정보 보호 및 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)을 참조하십시오.
