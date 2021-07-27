@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target]에서 [!UICONTROL Audiences] 목록을 사용
 title: 대상 목록을 사용하려면 어떻게 해야 합니까?
 feature: 대상자
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 31%
@@ -30,7 +30,7 @@ ht-degree: 31%
 
    [!DNL Target]에서는 [!DNL Target]을 보고 소스로 사용하는 경우에만 보고 대상을 구성할 수 있습니다. [ Adobe Analytics를 보고 소스](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)로 사용하는 경우에는 [!DNL Analytics]에서 보고 대상을 구성해야 합니다.
 
-## [!UICONTROL Audiences] 목록 사용
+## [!UICONTROL Audiences] 목록 사용 {#use-list}
 
 [!UICONTROL 대상자] 목록에 액세스하려면 맨 위 메뉴 막대에서 **[!UICONTROL 대상자]**&#x200B;를 클릭하십시오.
 
