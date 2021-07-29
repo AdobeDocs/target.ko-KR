@@ -5,10 +5,10 @@ title: ' [!DNL Target] 개인 정보 보호 문제를 어떻게 처리합니까?
 feature: 개인 정보 및 보안
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 56%
+source-wordcount: '669'
+ht-degree: 60%
 
 ---
 
@@ -60,12 +60,6 @@ https://my.cname.domain/optout?client=clientcode
 이 링크를 클릭하는 모든 방문자는 쿠키를 삭제하기 전까지 또는 2년 동안(어느 쪽이든 먼저 만족되는 조건 적용) 브라우징 세션에서 호출된 어떤 mbox 요청에도 포함되지 않습니다. 이 기능은 `disableClient`라는 방문자의 쿠키를 `clientcode.tt.omtrdc.net` 도메인에서 설정하면 작동합니다.
 
 퍼스트 파티 쿠키 구현을 사용하더라도 제공된 옵트아웃은 타사 쿠키를 통해 설정됩니다. 클라이언트가 퍼스트 파티 쿠키만 사용하는 경우 Target은 옵트아웃 쿠키가 설정되어 있는지 여부를 확인합니다.
-
-## 기능 사용 데이터 수집 {#feature-usage}
-
-개별 기능 사용 데이터는 내부 [!DNL Adobe] 용도로 수집되어 [!DNL Target] 기능이 의도한 대로 작동하는지 또는 활용도가 낮은 기능을 식별하도록 합니다. 지연에 대한 다양한 측정이 수집되어 성능 문제를 해결합니다. 개인 데이터는 수집되지 않습니다.
-
-구성 파일에서 `telemetryEnabled`을 `false`로 설정하여 보고 사용 데이터를 옵트아웃할 수 있습니다.
 
 ## 개인정보 보호 및 데이터 보호 규정
 
