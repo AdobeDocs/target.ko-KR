@@ -5,16 +5,16 @@ title: 글로벌 mbox를 사용자 지정하는 방법
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '181'
-ht-degree: 22%
+source-wordcount: '222'
+ht-degree: 18%
 
 ---
 
 # 글로벌 mbox 사용자 지정
 
-at.js에 대해 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
+at.js에 대해 [!DNL Adobe Target] 글로벌 mbox를 사용자 지정하는 데 도움이 되는 정보입니다.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
 
@@ -40,4 +40,5 @@ at.js에 대해 글로벌 mbox를 사용자 지정하는 데 도움이 되는 �
 
    >[!IMPORTANT]
    >
-   >계정 동기화에 있는 모든 활동이 이 mbox와 동기화됩니다. 이 mbox가 사용자의 사이트에 없는 경우 모든 활동이 더 이상 작동하지 않습니다.
+   >계정 동기화에 있는 모든 활동이 이 mbox와 동기화됩니다. 활동이 계속 작동하도록 글로벌 mbox가 사이트에 있는지 확인합니다. 이 mbox와 동기화하는 VEC(시각적 경험 작성기)를 사용하여 만든 영향을 받는 활동을 편집하고 다시 저장해야 합니다. 양식 기반 경험 작성기에서 만들었거나 API를 통해 만든 활동을 다시 저장할 필요가 없습니다.
+
