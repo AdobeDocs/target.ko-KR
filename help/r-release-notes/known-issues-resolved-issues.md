@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '4390'
-ht-degree: 100%
+source-wordcount: '4419'
+ht-degree: 99%
 
 ---
 
@@ -23,9 +23,13 @@ ht-degree: 100%
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
 
+### EEC(향상된 경험 작성기)가 PUT 요청을 지원하지 않습니다.
+
+EEC 관련 문제로 인해 현재 EEC가 PUT 요청을 지원하지 않으며, 504 시간 초과 오류가 발생합니다. (TGT-41493)
+
 ### [!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.
 
-[!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타켓] (AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
+[!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타켓](AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
 
 ### [!UICONTROL 자동 타겟] 활동은 동기화 문제를 일으킬 수 있습니다
 
@@ -127,7 +131,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 성공 지표가 노출 시마다 증분되도록 설정되면 Target에서는 방문자가 이 성공 지표를 방문할 때마다 방문자를 다시 카운트합니다. 그런 다음 Target은 성공 지표 &quot;멤버십&quot;을 0으로 재설정하여 다음 노출 시 다시 카운트될 수 있도록 합니다. 따라서 해당 지표를 먼저 확인해야 하는 다른 지표가 있다고 해도, Target은 사용자가 첫 번째 지표를 확인했다는 사실을 절대 인식하지 못합니다.
 
-### [!DNL Target] (A4T) 에 대한 Analytics
+### [!DNL Target](A4T) 에 대한 Analytics
 
 Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko-KR)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
 
