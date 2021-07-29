@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '1981'
-ht-degree: 94%
+source-wordcount: '2036'
+ht-degree: 92%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 94%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 7월 29일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피브레이크에 대한 정보가 추가되었습니다. 2021년 8월 11일 수요일 |
+|  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 글로벌 mbox를 사용자 지정한 후 VEC에서 만든 영향을 받는 활동을 편집하고 다시 저장해야 함을 나타내는 중요 참고가 업데이트되었습니다. |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>EEC(향상된 경험 작성기)가 PUT 요청을 지원하지 않습니다.</li></ul> |
 | 7월 27일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>권장 설명서</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>콘텐츠 전달</li></ul> |
-|  | [개인정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#feature-usage) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>기능 사용 데이터 수집</li></ul> |
 | 7월 26일 | [](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) Adobe Experience Platform 웹 SDK 개요 안내서 *에서 Platform Web* SDK와 함께 Adobe Target사용 | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform 웹 SDK 시스템 다이어그램</li></ul> |
 | 7월 23일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 자세한 내용을 제공하기 위해 다음 섹션을 업데이트했습니다.<ul><li>Google Chrome SameSite 쿠키 적용 정책은 VEC 및 EEC에 어떻게 영향을 줍니까?</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | 경험 아래에 &quot;경험당 수정 사항&quot; 섹션이 새로 추가되었습니다. |
