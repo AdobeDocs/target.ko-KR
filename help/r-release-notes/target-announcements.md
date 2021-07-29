@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target]  알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: 릴리스 정보
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 39bd28d7390781d4ac010f048d660fad10616a9d
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 100%
+source-wordcount: '581'
+ht-degree: 93%
 
 ---
 
@@ -26,17 +26,15 @@ ht-degree: 100%
 
 ## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break
 
-* **2021년 7월 21일 수요일**
+* **2021년 8월 11일 수요일**
 * **오전 8시 (PDT, UTC -7)**
-* **[여기를 클릭하여 자세한 내용을 살펴보고 등록하십시오](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-21-21-8am-pt-david-son/td-p/412171).**
+* **[여기를 클릭하여 자세한 내용을 살펴보고 등록하십시오](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
 
-[!DNL Target] 수석 제품 관리자인 David Son이 자신의 전문 지식을 바탕으로 관련 질문에 답변해 드립니다.
+[!DNL Adobe Target] 의 수석 솔루션 컨설턴트인 James McTiernan은 [!DNL Target] 내에서 자신의 전문 분야와 관련된 고객 질문에 응답할 것입니다.
 
-* [!DNL Adobe Experience Platform Web SDK]
-* 온디바이스 의사 결정
-* at.js
-* 모바일
-* Target API
+* Recommendations
+* A/B 및 MVT(다변량) 테스트
+* 개인화
 
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
