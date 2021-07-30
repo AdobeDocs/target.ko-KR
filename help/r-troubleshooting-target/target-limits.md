@@ -5,10 +5,10 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 90%
+source-wordcount: '1364'
+ht-degree: 86%
 
 ---
 
@@ -115,9 +115,15 @@ ht-degree: 90%
 
    다중 값 엔티티 사용자 지정 속성은 최대 500개의 값을 포함할 수 있습니다. 각 개별값은 100자로 제한됩니다. 모든 값에 걸친 총 문자 수는 단일 값 엔티티 사용자 지정 속성의 최대 길이에 대한 제한을 준수해야 합니다(위 참조).
 
-### entityID 매개 변수
+### entity.id
 
-* **제한**: 1,000자.
+* **구매 정보 수집이 필요한 구현의 제한**: 50자.
+
+   이 제한은 `productPurchasedId` mbox 매개 변수가 문자 수를 50으로 제한하는 entity.ids를 캡처하므로 적용됩니다.
+
+* **보기 기반 알고리즘만 필요한 구현의 제한:** 1,000자.
+
+   보기 기반 알고리즘 에는 보기/보기, 가장 많이 본 항목, 최근에 본 항목 등이 포함됩니다.
 
 ## excludedIds {#excludedid}
 
