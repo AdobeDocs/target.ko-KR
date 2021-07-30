@@ -5,10 +5,10 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 91%
+source-wordcount: '1320'
+ht-degree: 90%
 
 ---
 
@@ -243,7 +243,7 @@ ht-degree: 91%
 
 ## productPurchasedId 매개 변수
 
-* **제한**: 쉼표로 구분된 값당 47자, 총 250자. 47자를 초과하는 개별 값은 시스템에서 잘릴 수 있습니다. 총 길이가 250자를 초과하면 400개의 오류가 발생할 수 있습니다.
+* **제한**: 쉼표로 구분된 값당 50자, 총 250자. 50자보다 긴 개별 값은 시스템에 의해 잘립니다. 전체 길이가 250자를 초과하면 400개의 오류가 발생합니다.
 
 ## 프로필 스크립트
 
