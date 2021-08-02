@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
 workflow-type: tm+mt
-source-wordcount: '4419'
-ht-degree: 99%
+source-wordcount: '4480'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +23,16 @@ ht-degree: 99%
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
 
+### A4T를 사용하여 자동 할당 활동의 트래픽 배포 {#aa-a4t}
+
+경우에 따라 [!UICONTROL Analytics for Target](A4T)을 사용하여 [!UICONTROL 자동 할당] 활동의 트래픽 분배가 보고된 각 경험의 전환율에 따라 발생하는 트래픽과 다를 수 있습니다. 이러한 현상은 재방문자 트래픽이 많은 활동에 대해 더 자주 발생합니다. 영향을 받는 고객은 영향을 받는 활동에 대한 알림을 받게 됩니다. (TOP-131)
+
+### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target (A4T) 분석
+
+[!DNL Target] UI를 통해 사용자는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동의 최적화를 위한 주요 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있습니다. 전환 지표가 지원되며 참여 및 매출 지표는 지원되지 *않습니다*. 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 구축되지 않습니다.
+
+지원되는 목표 지표와 지원되지 않는 목표 지표의 목록은 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. (TNT-38409)
+
 ### EEC(향상된 경험 작성기)가 PUT 요청을 지원하지 않습니다.
 
 EEC 관련 문제로 인해 현재 EEC가 PUT 요청을 지원하지 않으며, 504 시간 초과 오류가 발생합니다. (TGT-41493)
@@ -34,12 +44,6 @@ EEC 관련 문제로 인해 현재 EEC가 PUT 요청을 지원하지 않으며, 
 ### [!UICONTROL 자동 타겟] 활동은 동기화 문제를 일으킬 수 있습니다
 
 비활성 [!UICONTROL 자동 타겟] 활동을 보관하려는 시도는 동기화 문제를 일으킬 수 있습니다. 이 문제가 수정되기 전까지 [!UICONTROL 자동 타겟] 활동을 보관하지 마십시오. [!UICONTROL 비활성] 상태로 두십시오. (TGT-40885)
-
-### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target (A4T) 분석
-
-[!DNL Target] UI를 통해 사용자는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동의 최적화를 위한 주요 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있습니다. 전환 지표가 지원되며 참여 및 매출 지표는 지원되지 *않습니다*. 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 구축되지 않습니다.
-
-지원되는 목표 지표와 지원되지 않는 목표 지표의 목록은 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. (TNT-38409)
 
 ### 페이지 게재 {#page-delivery}
 
