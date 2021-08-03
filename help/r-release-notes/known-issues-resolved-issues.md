@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4480'
-ht-degree: 98%
+source-wordcount: '4505'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,9 @@ ht-degree: 98%
 
 ### A4T를 사용하여 자동 할당 활동의 트래픽 배포 {#aa-a4t}
 
-경우에 따라 [!UICONTROL Analytics for Target](A4T)을 사용하여 [!UICONTROL 자동 할당] 활동의 트래픽 분배가 보고된 각 경험의 전환율에 따라 발생하는 트래픽과 다를 수 있습니다. 이러한 현상은 재방문자 트래픽이 많은 활동에 대해 더 자주 발생합니다. 영향을 받는 고객은 영향을 받는 활동에 대한 알림을 받게 됩니다. (TOP-131)
+경우에 따라 [!UICONTROL Analytics for Target](A4T)을 사용하여 [!UICONTROL 자동 할당] 활동의 트래픽 분배가 보고된 각 경험의 전환율에 따라 발생하는 트래픽과 다를 수 있습니다. 이러한 현상은 재방문자 트래픽이 많은 활동에 대해 더 자주 발생합니다. 영향을 받는 고객은 영향을 받는 활동에 대한 알림을 받게 됩니다.
+
+이 문제가 해결될 때까지 표준 [!DNL Target] 보고와 함께 [!UICONTROL 자동 할당]을 사용하거나 [!UICONTROL 자동 할당] 보고 대신 [!DNL Analytics] 보고 기능을 사용하여 표준 A/B 테스트를 사용하십시오. [!DNL Analytics] 보고 (TOP-131)
 
 ### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target (A4T) 분석
 
