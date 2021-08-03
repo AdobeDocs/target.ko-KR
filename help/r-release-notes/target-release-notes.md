@@ -4,9 +4,9 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '272'
+source-wordcount: '273'
 ht-degree: 74%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 74%
 
 이 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
-* mbox 매개 변수에 대한 제한이 100개의 매개 변수로 늘어났습니다. 이전 제한은 50개의 매개 변수입니다.
+* mbox 매개 변수에 대한 제한이 100개의 매개 변수로 늘어났습니다. 이전 제한은 50개의 매개 변수입니다. (TNT-41717)
 * `categoryId`에 대한 제한이 256자로 늘어났습니다. 이전 제한은 128자입니다.
 * 다음 [!DNL Adobe Audience Manager](AAM) 세부 정보가 배달 API에 추가되었습니다.
 
