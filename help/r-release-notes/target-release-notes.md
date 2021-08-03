@@ -4,9 +4,9 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '333'
 ht-degree: 61%
 
 ---
@@ -31,7 +31,7 @@ ht-degree: 61%
 
 * [!UICONTROL 양식 기반 경험 작성기]에서 만들어진 [!UICONTROL 자동 개인화] 활동에 대한 보고서가 보고서에서 삭제된 오퍼를 참조하도록 하는 문제를 해결했습니다. 이 문제로 인해 &quot;이 보고서에 대한 데이터를 검색하는 데 문제가 있습니다. 문제가 계속되면 Adobe Client Care에 문의하십시오.&quot; (TGT-41028)
 
-## Target 배달 API(결정 날짜)
+## Target 배달 API(2021년 8월 3일)
 
 이 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
