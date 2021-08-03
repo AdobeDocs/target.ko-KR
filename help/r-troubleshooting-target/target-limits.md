@@ -5,7 +5,7 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: 문제 해결
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 86%
@@ -58,7 +58,7 @@ ht-degree: 86%
 
 ## categoryId 매개 변수
 
-* **제한**: 250자.
+* **제한**: 256자.
 
 ## 콘텐츠 전달 {#content-delivery}
 
@@ -196,7 +196,7 @@ ht-degree: 86%
 
    **배달 API 끝점**:
 
-   * mbox 매개 변수 50
+   * mbox 매개 변수 100
    * mbox 매개 변수 이름 최대 길이 128
    * mbox 매개 변수 값은 null일 수 없음
    * mbox 매개 변수 값 5000
