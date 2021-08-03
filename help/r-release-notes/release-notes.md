@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여  [!DNL Adobe T
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 79%
+source-wordcount: '739'
+ht-degree: 77%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 79%
 * `categoryId`에 대한 제한이 256자로 늘어났습니다. 이전 제한은 128자입니다.
 * 다음 [!DNL Adobe Audience Manager](AAM) 세부 정보가 배달 API에 추가되었습니다.
 
-   * AAM UUID(Adobe Audience Manager 고유 사용자 ID)
-   * dataPartnerId
-   * dataPartnerUserId
+   * AAM UUID: 사용자를 고유하게 식별하는 데 사용되는 내부 AAM ID입니다.
+   * dataPartnerId: 데이터 파트너의 ID입니다.
+   * dataPartnerUserId: 데이터 파트너가 제공한 사용자 ID입니다.
 
    이전에는 배달 API에 `dcsLocationHint` 및 `blob`만 포함되었습니다. (TNT-41644)
 
