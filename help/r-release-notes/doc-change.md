@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
+source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2089'
 ht-degree: 91%
 
 ---
@@ -19,8 +19,9 @@ ht-degree: 91%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 3일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!DNL Target Standard/Premium] 21.8.1 릴리스(2021년 8월 4일)에 대한 정보가 추가되었습니다. |
 | 8월 2일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>A4T를 사용하여 자동 할당 활동의 트래픽 배포</li></ul> |
-|  | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 다음 Target 배달 API 릴리스에 대한 정보가 추가되었습니다. |
+|  | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!UICONTROL Target 배달 API] 릴리스에 대한 정보가 추가되었습니다. |
 | 7월 30일 | [제한](/help/r-troubleshooting-target/target-limits.md) | 다음 섹션이 업데이트되었습니다.<ul><li>entity.id</li><li>productPurchasedId 매개 변수</li></ul> |
 | 7월 29일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피브레이크에 대한 정보가 추가되었습니다. 2021년 8월 11일 수요일 |
 |  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 글로벌 mbox를 사용자 지정한 후 VEC에서 만든 영향을 받는 활동을 편집하고 다시 저장해야 함을 나타내는 중요 참고가 업데이트되었습니다. |
