@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여  [!DNL Adobe T
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
+source-git-commit: ade66cbef912bcf4de5d43aebf5c3bc79e92a30e
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 87%
+source-wordcount: '721'
+ht-degree: 79%
 
 ---
 
@@ -23,6 +23,20 @@ ht-degree: 87%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
+## Target 배달 API(2021년 8월 3일)
+
+이 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* mbox 매개 변수에 대한 제한이 100개의 매개 변수로 늘어났습니다. 이전 제한은 50개의 매개 변수입니다. (TNT-41717)
+* `categoryId`에 대한 제한이 256자로 늘어났습니다. 이전 제한은 128자입니다.
+* 다음 [!DNL Adobe Audience Manager](AAM) 세부 정보가 배달 API에 추가되었습니다.
+
+   * AAM UUID(Adobe Audience Manager 고유 사용자 ID)
+   * dataPartnerId
+   * dataPartnerUserId
+
+   이전에는 배달 API에 `dcsLocationHint` 및 `blob`만 포함되었습니다. (TNT-41644)
+
 ## at.js 2.6.0(2021년 7월 16일)
 
 * at.js 설정 `secureOnly`이 `true`로 설정될 때마다 쿠키에 보안 속성이 추가되었습니다.
@@ -35,11 +49,11 @@ ht-degree: 87%
 
 ## [!DNL Target Standard/Premium] 21.6.1 (2021년 6월 30일)
 
-이 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL Analytics for Target] (A4T) | [!DNL Analytics]보고 소스(A4T)로 사용하는 활동에서 [!UICONTROL 보고서] 페이지의 “[!UICONTROL 분석에서 보기]” 링크를 클릭하면 [!DNL Analysis Workspace]이(가) 열립니다. 이전에는 링크로 [!DNL Analytics] 보고서를 열 수 있었습니다. (TGT-36959) |
+| [!UICONTROL Analytics for Target] (A4T) | [!DNL Analytics]보고 소스(A4T)로 사용하는 활동에서 [!UICONTROL 보고서] 페이지의 “[!UICONTROL 분석에서 보기]” 링크를 클릭하면 [!DNL Analysis Workspace]가 열립니다. 이전에는 링크로 [!DNL Analytics] 보고서를 열 수 있었습니다. (TGT-36959) |
 
 ## Python SDK 1.0.0(2021년 6월 16일)
 
