@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
 workflow-type: tm+mt
-source-wordcount: '31324'
+source-wordcount: '31379'
 ht-degree: 100%
 
 ---
@@ -22,6 +22,14 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) 를 참조하십시오.
 
 ## 릴리스 정보 - 2021
+
+### [!DNL Target Standard/Premium] 21.6.1 (2021년 6월 30일)
+
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| [!UICONTROL Analytics for Target] (A4T) | [!DNL Analytics]보고 소스(A4T)로 사용하는 활동에서 [!UICONTROL 보고서] 페이지의 “[!UICONTROL 분석에서 보기]” 링크를 클릭하면 [!DNL Analysis Workspace]가 열립니다. 이전에는 링크로 [!DNL Analytics] 보고서를 열 수 있었습니다. (TGT-36959) |
 
 ### Python SDK 1.0.0(2021년 6월 16일)
 
