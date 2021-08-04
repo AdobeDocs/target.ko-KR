@@ -5,9 +5,9 @@ title: targetGlobalSettings() 함수를 사용하려면 어떻게 해야 합니�
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
+source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
 workflow-type: tm+mt
-source-wordcount: '2280'
+source-wordcount: '2317'
 ht-degree: 30%
 
 ---
@@ -155,7 +155,7 @@ ht-degree: 30%
 
 * **유형**: 부울
 * **기본값**: false
-* **설명**:  [!DNL Target] 은 를 통해 동의 관리 전략 [!DNL Adobe Platform Launch] 을 지원하는 데 도움이 되는 선택 기능 지원을 제공합니다. 선택 기능을 통해 고객이 태그를 실행하는 방법과 시기를 제어할 수 있습니다. [!DNL Target] 또한 [!DNL Platform Launch]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Target] at.js 라이브러리에서 옵트인을 사용하는 기능을 활성화하려면 `optinEnabled=true` 설정을 추가합니다. [!DNL Platform Launch]에서는 Launch Extension 설치 보기의 [!UICONTROL GDPR 옵트인] 드롭다운 목록에서 &quot;활성화&quot;를 선택해야 합니다. 자세한 내용은 [Platform launch 설명서](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 참조하십시오.
+* **설명**:  [!DNL Target] 은 를 통해 동의 관리 전략 [!DNL Adobe Platform Launch] 을 지원하는 데 도움이 되는 선택 기능 지원을 제공합니다. 선택 기능을 통해 고객이 태그를 실행하는 방법과 시기를 제어할 수 있습니다. [!DNL Target] 또한 [!DNL Platform Launch]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Target] at.js 라이브러리에서 옵트인을 사용하는 기능을 활성화하려면 `optinEnabled=true` 설정을 추가합니다. [!DNL Platform Launch]에서는 Launch Extension 설치 보기의 [!UICONTROL GDPR 옵트인] 드롭다운 목록에서 &quot;활성화&quot;를 선택해야 합니다. 자세한 내용은 [Platform launch 설명서](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 참조하십시오. 유럽 연합의 GDPR(General Data Protection Regulation) 및 CCPA(California Consumer Privacy Act)를 포함한 개인 정보 보호 및 데이터 보호 규정에 대한 자세한 내용은 [개인 정보 보호 및 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)을 참조하십시오.
 
 ### optoutEnabled
 
