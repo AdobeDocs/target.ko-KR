@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여  [!DNL Adobe T
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '619'
-ht-degree: 55%
+source-wordcount: '646'
+ht-degree: 67%
 
 ---
 
@@ -23,7 +23,11 @@ ht-degree: 55%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
-## [!DNL Target Standard/Premium] 21.8.1(2021년 8월 4일)
+## [!DNL Target Standard/Premium] 21.8.1 (날짜 미정)
+
+>[!NOTE]
+>
+>[!DNL Target Standard/Premium] 21.8.1 릴리스가 지연되었습니다. 2021년 8월 4일에 릴리스되지 않고 버전 21.8.1이 며칠 후에 릴리스됩니다. 사용 가능한 경우 자세한 내용을 확인하십시오.
 
 이 유지 관리 릴리스에는 다음과 같은 고객을 위한 변경 사항을 포함하여 많은 백엔드 개선 사항이 포함되어 있습니다.
 
@@ -43,15 +47,15 @@ ht-degree: 55%
 
    이전에는 배달 API에 `dcsLocationHint` 및 `blob`만 포함되었습니다. (TNT-41644)
 
-## at.js 2.6.0(2021년 7월 27일)
+## at.js 2.6.0 (2021년 7월 27일)
 
-* at.js 설정 `secureOnly`이 `true`로 설정될 때마다 쿠키에 보안 속성이 추가되었습니다.
-* 이제 `triggerView()` 을 사용할 때 응답 토큰을 사용할 수 있습니다.
-* `CONTENT_RENDERING_NO_OFFERS` 이벤트와 관련된 문제가 해결되었습니다. 이제 이 이벤트는 [!DNL Target]에서 반환된 컨텐츠가 없을 때마다 올바르게 트리거됩니다.
-* [!DNL Anlytics for Target] (A4T) 요청을 사용할 때 클릭 지표 세부 사항이 올바르게  `prefetch` 반환됩니다.
-* UUID 생성은 더 이상 `Math.random()`을 사용하지 않지만 `window.crypto`에 의존합니다.
-* `sessionId` 쿠키 만료는 모든 네트워크 호출 시 올바르게 확장됩니다.
-* 이제 [!UICONTROL 단일 페이지 애플리케이션] (SPA) 보기 캐시 초기화가 올바르게 처리되고 `viewsEnable` 설정이 적용됩니다.
+* at.js settings `secureOnly`가 `true`로 설정될 때마다 쿠키에 보안 속성이 추가됩니다.
+* 이제 `triggerView()`를 사용할 때 응답 토큰을 사용할 수 있습니다.
+* `CONTENT_RENDERING_NO_OFFERS` 이벤트와 관련된 문제가 해결되었습니다. 이제 [!DNL Target]에서 반환되는 내용이 없을 때 이 이벤트가 정상적으로 트리거됩니다.
+* `prefetch` 요청을 사용할 때 [!DNL Anlytics for Target](A4T) 클릭 메트릭 세부 사항이 정상적으로 반환됩니다.
+* UUID 생성이 더 이상 `Math.random()`을 사용하지 않고 `window.crypto`를 사용합니다.
+* 모든 네트워크 호출에서 `sessionId` 쿠키 만료가 정상적으로 연장됩니다.
+* 이제 [!UICONTROL 단일 페이지 애플리케이션](SPA) 보기 캐시 초기화가 정상적으로 처리되며 `viewsEnable` 설정이 적용됩니다.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
