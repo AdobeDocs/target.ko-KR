@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2138'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,8 @@ ht-degree: 93%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 5일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1 릴리스가 지연된다는 참고가 추가되었습니다. |
+|  | [자동 할당 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동을 통해 중간에 보고 소스를 변경할 수 있습니까?</li></ul> |
 | 8월 4일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` 설정에 대한 정보가 추가되었습니다. |
 | 8월 3일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!UICONTROL Target 배달 API] 릴리스에 대한 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!DNL Target Standard/Premium] 21.8.1 릴리스(2021년 8월 4일)에 대한 정보가 추가되었습니다. |
