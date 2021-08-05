@@ -1,13 +1,13 @@
 ---
 keywords: target 설명서 변경 로그, 설명서 업데이트, 새 주제, 편집, 업데이트, 업데이트
 description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 및 변경 사항을 최신 상태로 유지하십시오.
-title: Target 설명서 업데이트는 어디에서 볼 수 있습니까?
+title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 90%
+source-wordcount: '2108'
+ht-degree: 93%
 
 ---
 
@@ -15,17 +15,11 @@ ht-degree: 90%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## Adobe [!DNL Target] Standard/Premium 21.8.1(2021년 8월 4일)
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021년 6월 30일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 8월 4일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` 설정에 대한 정보가 추가되었습니다. |
-|  | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md): 21.8.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
-
-## Adobe [!DNL Target] Standard/Premium 21.6.1(2021년 6월 30일)
-
-| 날짜 | 주제 | 변경 사항 |
-| --- | --- | --- |
 | 8월 3일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!UICONTROL Target 배달 API] 릴리스에 대한 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!DNL Target Standard/Premium] 21.8.1 릴리스(2021년 8월 4일)에 대한 정보가 추가되었습니다. |
 | 8월 2일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>A4T를 사용하여 자동 할당 활동의 트래픽 배포</li></ul> |
@@ -37,12 +31,12 @@ ht-degree: 90%
 | 7월 27일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>권장 설명서</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>콘텐츠 전달</li></ul> |
 | 7월 26일 | [](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) Adobe Experience Platform 웹 SDK 개요 안내서 *에서 Platform Web* SDK와 함께 Adobe Target사용 | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform 웹 SDK 시스템 다이어그램</li></ul> |
-| 7월 23일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 자세한 내용을 제공하기 위해 다음 섹션을 업데이트했습니다.<ul><li>Google Chrome SameSite 쿠키 적용 정책은 VEC 및 EEC에 어떻게 영향을 줍니까?</li></ul> |
+| 7월 23일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 자세한 내용을 제공하기 위해 다음 섹션을 업데이트했습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | 경험 아래에 &quot;경험당 수정 사항&quot; 섹션이 새로 추가되었습니다. |
-| 7월 21일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>Google Chrome SameSite 쿠키 적용 정책은 VEC 및 EEC에 어떻게 영향을 줍니까?</li></ul> |
+| 7월 21일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
 | 7월 19일 | [분류 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 이벤트 코드 -1 또는 65535에 대한 정보가 추가되었습니다. |
-| 7월 16일 | [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md)<br><br>[ 및 at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js2.6.0 릴리스에 대한 정보가 추가되었습니다. |
-|  | [[!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) 관련 문제 해결 | IP 주소 목록을으로 허용 목록에 추가하다 업데이트했습니다. |
+| 7월 16일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.0 릴리스에 대한 정보가 추가되었습니다. |
+|  | [[!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) 관련 문제 해결 | 허용 목록에 추가할 IP 주소 목록이 업데이트되었습니다. |
 | 7월 12일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 중요 ROI, 인사이트 및 절약 시간을 수량화합니다.</li><li>[!DNL Adobe Target]커뮤니티 Q&amp;A Coffee Break는 2021년 7월 21일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다.</li></ul> |
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ 추가: “새 기사나 비디오만 추천하려면 어떻게 합니까?” |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | “타겟 API 호출” 섹션의 텍스트가 업데이트되었습니다. |
