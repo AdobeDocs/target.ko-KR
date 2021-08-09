@@ -5,16 +5,14 @@ title: ' [!DNL Target] Apple ITP 지원은 어떻게 처리합니까?'
 feature: 개인 정보 및 보안
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
 workflow-type: tm+mt
-source-wordcount: '910'
-ht-degree: 52%
+source-wordcount: '590'
+ht-degree: 38%
 
 ---
 
 # Apple ITP(Intelligent Tracking Prevention) 2.x
-
-ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.x를 지원하는 [!DNL Adobe Target] 정보.
 
 ITP(Intelligent Tracking Prevention)는 Safari 사용자의 개인 정보를 보호하는 Apple의 이니셔티브입니다. 2017년에 있었던 ITP의 첫 번째 릴리스에서는 타사 쿠키의 사용을 타깃팅했습니다. 실제로 Apple은 타사 쿠키를 완전히 차단했습니다. 타사 쿠키는 일반적으로 방문자를 추적하고 방문자 데이터를 수집하는 데 사용되기 때문에 광고 기술 및 마테크(martech) 기업의 심각한 문제 요소였습니다. 이제 Apple은 Safari 내에서 타사 쿠키가 사용되는 방법에 대해 제한 사항을 적용하려고 합니다.
 
@@ -24,11 +22,11 @@ ITP(Intelligent Tracking Prevention)는 Safari 사용자의 개인 정보를 보
 | --- | --- |
 | [ITP 2.1](https://webkit.org/blog/8613/intelligent-tracking-prevention-2-1/) | `document.cookie` API를 사용하여 브라우저에 배치된 클라이언트측 쿠키가 7일 만료로 설정됩니다.<br>2019년 2월 21일 릴리스 |
 | [ITP 2.2](https://webkit.org/blog/8828/intelligent-tracking-prevention-2-2/) | 7일 만료 시간을 1일로 크게 단축했습니다.<br>2019년 4월 24일 릴리스 |
-| [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | localStorage를 사용하거나 JavaScript `Document.referrer property` 사용과 같은 여러 해결 방법을 제거했습니다.<br>2019년 9월 23일 릴리스 |
+| [ITP 2.3](https://webkit.org/blog/9521/intelligent-tracking-prevention-2-3/) | localStorage를 사용하거나 JavaScript `Document.referrer property` 사용과 같은 여러 해결 방법을 제거했습니다.<br>2019년 9월 23일 릴리스<br>Safari 14, macOS Big Sur, Catalina, Mojave, iOS 14 및 iPadOS 14에서 릴리스된 ITP에 CNAME 클로킹 방어 기능을 제공합니다. 타사 CNAME에 의해 숨겨진 HTTP 응답으로 만든 모든 쿠키는 7일 후에 만료되도록 설정됩니다.<br>2020년 11월 12일 발표. |
 
 ## Adobe [!DNL Target] 고객으로서 제게 어떤 영향을 미칩니까? {#impact}
 
-[!DNL Target]은 [!DNL Target]이 방문자에게 실시간 개인화를 제공할 수 있도록 페이지에 배포할 JavaScript 라이브러리를 제공합니다. at.js 1.x, at.js 2.x에서는 `document.cookie` API를 통해 방문자의 브라우저에 클라이언트측 [!DNL Target] 쿠키를 배치하는 세 개의 Target JavaScript 라이브러리가 있습니다. 그 결과 [!DNL Target] 쿠키는 Apple의 ITP 2.x에 의해 영향을 받게 되며 7일(ITP 2.1 사용) 및 1일(ITP 2.2 및 ITP 2.3 사용) 후에 만료됩니다.
+[!DNL Target]은 [!DNL Target]이 방문자에게 실시간 개인화를 제공할 수 있도록 페이지에 배포할 JavaScript 라이브러리를 제공합니다. at.js 1.x, at.js 2.x에서는 `document.cookie` API를 통해 방문자의 브라우저에 클라이언트측 [!DNL Target] 쿠키를 배치하는 세 개의 Target JavaScript 라이브러리가 있습니다. 그 결과 [!DNL Target] 쿠키는 Apple의 ITP 2.1, 2.2 및 2.3에 의해 영향을 받게 되며 7일(ITP 2.1 사용) 및 1일(ITP 2.2 및 ITP 2.3 사용) 후에 만료됩니다.
 
 Apple ITP 2.x는 다음 영역에서 [!DNL Target]에 영향을 줍니다.
 
@@ -41,28 +39,4 @@ Apple ITP 2.x는 다음 영역에서 [!DNL Target]에 영향을 줍니다.
 
 ## 현재 [!DNL Target] 구현이 영향을 받습니까?
 
-Safari 브라우저에서 [!DNL Target] JavaScript 라이브러리가 있는 웹 사이트로 이동합니다. CNAME 컨텍스트(예: `analytics.company.com`)에 설정된 [!DNL Target] 쿠키가 표시되면 ITP 2.x의 영향을 받지 않습니다.
-
-Target JavaScript 라이브러리 외에 ECID(Experience Cloud ID) 라이브러리를 사용하는 경우, 구현은 [Safari ITP 2.1이 Adobe Experience Cloud 및 Experience Platform 고객에게 미치는 영향](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac)에 나열된 방식으로 영향을 받게 됩니다.
-
-## 향후 ITP 2.x 릴리스가 Target에 미치는 영향을 어떻게 줄일 수 있습니까?
-
-향후 ITP 2.x 릴리스가 Target에 미치는 영향을 줄이려면 다음 작업을 완료하십시오.
-
-1. 페이지에 ECID(Experience Cloud ID) 라이브러리를 배포합니다.
-
-   ECID 라이브러리는 Experience Cloud 핵심 솔루션에 대한 개인 식별 프레임워크를 활성화합니다. ECID 라이브러리를 사용하면 영구 및 고유 식별자를 할당하여 다른 Experience Cloud 솔루션에서 동일한 사이트 방문자와 해당 데이터를 식별할 수 있습니다. ECID 라이브러리는 자주 업데이트되므로 구현에 영향을 주는 모든 ITP 관련 변경 사항을 완화할 수 있습니다.
-
-   ITP 2.x의 경우, 완화를 위해 [ECID Library 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 사용해야 합니다.
-
-1. Adobe의 CNAME을 사용하고 Adobe Analytics의 관리 인증서 프로그램에 등록합니다.
-
-   ECID Library 4.3.0+를 설치한 후 Adobe Analytics의 CNAME 및 관리 인증서 프로그램을 활용할 수 있습니다. 이 프로그램을 사용하면 자사 쿠키에 대한 자사 인증서를 무료로 구현할 수 있습니다. CNAME을 활용하면 [!DNL Target] 고객이 ITP 2.x의 영향을 줄일 수 있습니다.
-
-   CNAME을 활용하지 않는 경우 계정 담당자에게 알리고 [Adobe 관리 인증서 프로그램](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-first-party.html#adobe-managed-certificate-program)에 등록하여 프로세스를 시작할 수 있습니다.
-
-CNAME을 활용하기 위해 Target JavaScript 라이브러리를 ECID Library v4.3.0+와 함께 배포하고 Adobe 관리 인증서 프로그램에 등록하면, ITP 관련 변경에 대한 강력하고 장기적인 완화 계획을 갖게 됩니다.
-
-업계에서 소비자를 위해 보다 안전한 웹을 만들기 위해 노력함에 따라 [!DNL Adobe Target]은 방문자의 개인 정보 보호 기대치를 충족시키는 동시에 개인화된 경험을 제공하기 위해 노력을 아끼지 않고 있습니다. [!DNL Adobe Target] 는 Apple의  [ITP 2.x에 대한 지원과 ](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) 더불어 Google의 SameSite Chrome 정책에 대한 지원을 이미 발표했습니다.
-
-고객을 보호하기 위한 정책이 지속적으로 발전함에 따라 [!DNL Adobe]는 [!DNL Target]에서 이러한 이니셔티브를 지속적으로 지원하고 고객이 최상의 개인화된 경험을 제공할 수 있도록 지원할 것입니다.
+[!DNL Target] JavaScript 라이브러리 외에 ECID(Experience Cloud ID) 라이브러리를 사용하는 경우 구현은 이 문서에 나열된 방식으로 영향을 받게 됩니다. [Safari ITP 2.1이 Adobe Experience Cloud 및 Experience Platform 고객에게 미치는 영향](https://medium.com/adobetech/safari-itp-2-1-impact-on-adobe-experience-cloud-customers-9439cecb55ac).
