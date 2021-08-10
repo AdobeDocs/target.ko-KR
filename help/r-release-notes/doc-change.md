@@ -4,9 +4,9 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 51e36576439ff365bbdac14da67cb971c36431d6
+source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2181'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 92%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 9일 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 주제가 업데이트됨. |
 | 8월 6일 | [at.js로 타겟 (A4T) 에 대한 분석을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 다음 참고가 업데이트되었습니다.<ul><li>at.js 1.8.0+ 및 at.js 2.x+는 AAM(Adobe Audience Manager) 매개 변수를 전달하기 위해 2.5.0 이전 버전의 방문자 API 버전에서 더 이상 작동하지 않습니다.</li></ul> |
 | 8월 5일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1 릴리스가 지연된다는 참고가 추가되었습니다. |
 |  | [자동 할당 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동을 통해 중간에 보고 소스를 변경할 수 있습니까?</li></ul> |
