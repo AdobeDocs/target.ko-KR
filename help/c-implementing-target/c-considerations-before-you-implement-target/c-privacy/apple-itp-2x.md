@@ -1,13 +1,13 @@
 ---
-keywords: apple;ITP;지능형 추적 방지;experience cloud id;ecid
+keywords: apple;ITP;지능형 추적 방지;experience cloud id;ecid;itp
 description: Safari 사용자의 개인 정보를 보호하려는 Adobe [!DNL Target] 및 Apple ITP(Intelligent Tracking Prevention) 이니셔티브의 영향에 대해 알아봅니다.
 title: ' [!DNL Target] Apple ITP 지원은 어떻게 처리합니까?'
 feature: 개인 정보 및 보안
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
+source-git-commit: 898a18cbd9c6f499f9e7b74078575bc149c9a292
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '591'
 ht-degree: 38%
 
 ---
