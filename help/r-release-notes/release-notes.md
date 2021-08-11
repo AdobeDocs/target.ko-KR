@@ -5,10 +5,10 @@ landing-page-description: 현재 릴리스에 포함된 새로운 기능, 개선
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2d11409e9bab2db5d12c5961c7336040b8544614
+source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 65%
+source-wordcount: '705'
+ht-degree: 62%
 
 ---
 
@@ -23,6 +23,13 @@ ht-degree: 65%
 >새로운 [!DNL Adobe Experience Platform Web SDK]의 가장 최근 또는 사이트에 문제가 발생할 가능성을 피하기 위해 at.js JavaScript 라이브러리로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
+
+## [!DNL Target] node.js SDK 2.1.8(2021년 8월 11일)
+
+* SDK 원격 분석 데이터 수집을 추가했습니다
+* 자동화된 배달 API 클라이언트 openapi 코드 겐
+
+이 릴리스 및 이전 릴리스에 대한 자세한 내용은 Github의 [Target node.js SDK 설명서](https://github.com/adobe/target-nodejs-sdk)에서 [변경 로그](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)을 참조하십시오.
 
 ## [!DNL Target Standard/Premium] 21.8.1 (날짜 미정)
 
