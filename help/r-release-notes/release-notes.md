@@ -2,13 +2,13 @@
 keywords: 릴리스 정보;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트
 description: SDK, API, JavaScript 라이브러리를 포함하여  [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
 landing-page-description: 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아보십시오 [!DNL Adobe Target].
-title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
+title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
+source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
 workflow-type: tm+mt
 source-wordcount: '705'
-ht-degree: 62%
+ht-degree: 60%
 
 ---
 
