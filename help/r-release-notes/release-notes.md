@@ -5,7 +5,7 @@ landing-page-description: 현재 릴리스에 포함된 새로운 기능, 개선
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
+source-git-commit: 0f0dd343a39b9a57e80593c5f554e1ba576a37f9
 workflow-type: tm+mt
 source-wordcount: '705'
 ht-degree: 62%
@@ -24,7 +24,7 @@ ht-degree: 62%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
-## [!DNL Target] node.js SDK 2.1.8(2021년 8월 11일)
+## [!DNL Target] node.js SDK 2.2.0(2021년 8월 11일)
 
 * SDK 원격 분석 데이터 수집을 추가했습니다
 * 자동화된 배달 API 클라이언트 openapi 코드 겐
