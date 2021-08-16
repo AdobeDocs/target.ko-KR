@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] at.js JavaScript 라이브러리의 각 버전 
 title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
-source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '4216'
-ht-degree: 87%
+source-wordcount: '4232'
+ht-degree: 89%
 
 ---
 
@@ -22,15 +22,19 @@ ht-degree: 87%
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch 는 at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Launch] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *Experience Platform Launch 사용 안내서*&#x200B;에서 [확장 업그레이드](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html)를 참조하십시오.
 
-## at.js 2.6.0(2021년 7월 16일)
+## at.js 2.6.1(2021년 8월 16일)
 
-* at.js 설정 `secureOnly`이 `true`로 설정될 때마다 쿠키에 보안 속성이 추가되었습니다.
-* 이제 `triggerView()` 을 사용할 때 응답 토큰을 사용할 수 있습니다.
-* `CONTENT_RENDERING_NO_OFFERS` 이벤트와 관련된 문제가 해결되었습니다. 이제 이 이벤트는 [!DNL Target]에서 반환된 컨텐츠가 없을 때마다 올바르게 트리거됩니다.
-* [!DNL Anlytics for Target] (A4T) 요청을 사용할 때 클릭 지표 세부 사항이 올바르게  `prefetch` 반환됩니다.
-* UUID 생성은 더 이상 `Math.random()`을 사용하지 않지만 `window.crypto`에 의존합니다.
-* `sessionId` 쿠키 만료는 모든 네트워크 호출 시 올바르게 확장됩니다.
-* 이제 [!UICONTROL 단일 페이지 애플리케이션] (SPA) 보기 캐시 초기화가 올바르게 처리되고 `viewsEnable` 설정이 적용됩니다.
+* On-Device Decisioning을 사용할 때 &quot;하이브리드 모드에 대해 캐시된 아티팩트가 없음&quot;에 대한 버그를 수정합니다.
+
+## at.js 2.6.0 (2021년 7월 16일)
+
+* at.js settings `secureOnly`가 `true`로 설정될 때마다 쿠키에 보안 속성이 추가됩니다.
+* 이제 `triggerView()`를 사용할 때 응답 토큰을 사용할 수 있습니다.
+* `CONTENT_RENDERING_NO_OFFERS` 이벤트와 관련된 문제가 해결되었습니다. 이제 [!DNL Target]에서 반환되는 내용이 없을 때 이 이벤트가 정상적으로 트리거됩니다.
+* `prefetch` 요청을 사용할 때 [!DNL Anlytics for Target](A4T) 클릭 메트릭 세부 사항이 정상적으로 반환됩니다.
+* UUID 생성이 더 이상 `Math.random()`을 사용하지 않고 `window.crypto`를 사용합니다.
+* 모든 네트워크 호출에서 `sessionId` 쿠키 만료가 정상적으로 연장됩니다.
+* 이제 [!UICONTROL 단일 페이지 애플리케이션](SPA) 보기 캐시 초기화가 정상적으로 처리되며 `viewsEnable` 설정이 적용됩니다.
 
 ## at.js 2.5.0(2021년 5월 13일)
 
@@ -418,7 +422,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 * Device Graph 옵트아웃을 활성화하거나 비활성화하는 `optoutEnabled` 설정이 추가되었습니다. 이 설정이 `true`로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 베타 버전입니다. 이 설정은 기본적으로 `false`로 설정되지만 Device Graph를 사용하는 경우에는 `true`로 설정되어야 합니다.
 * 알림 메커니즘에 대한 `CustomEvent` 지원이 추가되었습니다. 이전에는 at.js 이벤트 알림 메커니즘을 `document.addEventListener()`()와 같은 표준 DOM API를 통해 사용할 수 없었습니다. 이제는 `document.addEventListener()`를 사용하여 요청 이벤트 및 콘텐츠 렌더링 이벤트와 같은 at.js 이벤트에 가입할 수 있습니다.
-* VEC(시각적 경험 작성기)에서 만든 오퍼와 관련된 문제가 수정되었습니다. 이 릴리스 이전에 Target은 선택기를 숨기고, 모든 선택기가 선택될 때만 숨김을 해제했습니다. at.js 0.9.2 Target은 일치하는 선택기가 확인되면 바로 숨김을 해제합니다.
+* VEC(시각적 경험 작성기)에서 만든 오퍼와 관련된 문제가 수정되었습니다. 이번 릴리스 이전에 Target은 선택기를 숨기고, 모든 선택기가 선택될 때만 숨김을 해제했습니다. at.js 0.9.2 Target은 일치하는 선택기가 확인되면 바로 숨김을 해제합니다.
 
 ## at.js 버전 0.9.1 {#section_DAFB99114D604CFB8416C1BC7DEEAEEE}
 
