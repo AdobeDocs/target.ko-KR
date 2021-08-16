@@ -5,10 +5,10 @@ landing-page-description: 현재 릴리스에 포함된 새로운 기능, 개선
 title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
 feature: 릴리스 정보
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e7f074fd09be89548c56c89e1321d344200c18aa
+source-git-commit: 8d8584bc5ea1d4ec7295c43238675d906fd37325
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 60%
+source-wordcount: '721'
+ht-degree: 59%
 
 ---
 
@@ -23,6 +23,10 @@ ht-degree: 60%
 >새로운 [!DNL Adobe Experience Platform Web SDK]의 가장 최근 또는 사이트에 문제가 발생할 가능성을 피하기 위해 at.js JavaScript 라이브러리로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
+
+## at.js 2.6.1(2021년 8월 16일)
+
+* On-Device Decisioning을 사용할 때 &quot;하이브리드 모드에 대해 캐시된 아티팩트가 없음&quot;에 대한 버그를 수정합니다.
 
 ## [!DNL Target] node.js SDK 2.2.0(2021년 8월 11일)
 
