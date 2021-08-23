@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 �
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: 릴리스 정보
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 91%
+source-wordcount: '2231'
+ht-degree: 99%
 
 ---
 
@@ -19,27 +19,28 @@ ht-degree: 91%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 19일 | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 다음 FAQ가 업데이트되었습니다.<ul><li>A4T가 가상 보고서 세트를 지원합니까?</li></ul> |
 | 8월 16일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1에 대한 릴리스 노트가 추가되었습니다. |
 |  | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 모범 사례 섹션이 추가되었습니다. |
 | 8월 11일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK 버전 2.2.0에 대한 릴리스 노트가 추가되었습니다. |
 | 8월 9일 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 주제가 업데이트됨. |
-| 8월 6일 | [at.js로 타겟 (A4T) 에 대한 분석을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 다음 참고가 업데이트되었습니다.<ul><li>at.js 1.8.0+ 및 at.js 2.x+는 AAM(Adobe Audience Manager) 매개 변수를 전달하기 위해 2.5.0 이전 버전의 방문자 API 버전에서 더 이상 작동하지 않습니다.</li></ul> |
-| 8월 5일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1 릴리스가 지연된다는 참고가 추가되었습니다. |
-|  | [자동 할당 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동을 통해 중간에 보고 소스를 변경할 수 있습니까?</li></ul> |
+| 8월 6일 | [at.js.로 [!UICONTROL Analytics for Target](A4T)을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 다음 참고 사항이 업데이트되었습니다.<ul><li>at.js 1.8.0+ 및 at.js 2.x+는 Adobe Audience Manager(AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않습니다.</li></ul> |
+| 8월 5일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1 릴리스가 지연되었음을 나타내는 참고 사항이 추가되었습니다. |
+|  | [[!UICONTROL 자동 할당] 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동 중간에 보고 소스를 변경할 수 있습니까?</li></ul> |
 | 8월 4일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` 설정에 대한 정보가 추가되었습니다. |
 | 8월 3일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!UICONTROL Target 배달 API] 릴리스에 대한 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!DNL Target Standard/Premium] 21.8.1 릴리스(2021년 8월 4일)에 대한 정보가 추가되었습니다. |
-| 8월 2일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>A4T를 사용하여 자동 할당 활동의 트래픽 배포</li></ul> |
+| 8월 2일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>A4T를 이용한 자동 할당 활동의 트래픽 분포</li></ul> |
 |  | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!UICONTROL Target 배달 API] 릴리스에 대한 정보가 추가되었습니다. |
 | 7월 30일 | [제한](/help/r-troubleshooting-target/target-limits.md) | 다음 섹션이 업데이트되었습니다.<ul><li>entity.id</li><li>productPurchasedId 매개 변수</li></ul> |
-| 7월 29일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피브레이크에 대한 정보가 추가되었습니다. 2021년 8월 11일 수요일 |
-|  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 글로벌 mbox를 사용자 지정한 후 VEC에서 만든 영향을 받는 활동을 편집하고 다시 저장해야 함을 나타내는 중요 참고가 업데이트되었습니다. |
-|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>EEC(향상된 경험 작성기)가 PUT 요청을 지원하지 않습니다.</li></ul> |
+| 7월 29일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break: 2021년 8월 11일 수요일에 대한 정보가 추가되었습니다. |
+|  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 글로벌 mbox를 사용자 맞춤화한 후 VEC에서 생성된 영향을 받는 활동을 편집하고 다시 저장해야 함을 나타내기 위해 중요 참고 사항이 업데이트되었습니다. |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>EEC(고급 경험 작성기)는 PUT 요청을 지원하지 않습니다.</li></ul> |
 | 7월 27일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>권장 설명서</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>콘텐츠 전달</li></ul> |
-| 7월 26일 | [](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=en) Adobe Experience Platform 웹 SDK 개요 안내서 *에서 Platform Web* SDK와 함께 Adobe Target사용 | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform 웹 SDK 시스템 다이어그램</li></ul> |
+| 7월 26일 | *Adobe Experience Platform 웹 SDK 개요* 가이드에서 [플랫폼 웹 SDK로 Adobe Target 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko_KR) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform Web SDK 시스템 다이어그램</li></ul> |
 | 7월 23일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 자세한 내용을 제공하기 위해 다음 섹션을 업데이트했습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
-|  | [제한](/help/r-troubleshooting-target/target-limits.md) | 경험 아래에 &quot;경험당 수정 사항&quot; 섹션이 새로 추가되었습니다. |
+|  | [제한](/help/r-troubleshooting-target/target-limits.md) | “경험”에 “경험당 수정 사항”이라는 새로운 섹션이 추가되었습니다. |
 | 7월 21일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
 | 7월 19일 | [분류 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 이벤트 코드 -1 또는 65535에 대한 정보가 추가되었습니다. |
 | 7월 16일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.0 릴리스에 대한 정보가 추가되었습니다. |
