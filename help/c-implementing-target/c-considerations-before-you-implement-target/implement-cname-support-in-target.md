@@ -5,10 +5,10 @@ title: Target에서 CNAME을 어떻게 사용합니까?
 feature: 개인 정보 및 보안
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 1%
+source-wordcount: '1176'
+ht-degree: 2%
 
 ---
 
@@ -35,14 +35,14 @@ ht-degree: 1%
 1. [CNAME ](/help/assets/FPC_Request_Form.xlsx) 지원을 요청하는 Adobe Client Care 티켓을  [열 때 이 양식을 작성하고 포함하십시오](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
    * Adobe [!DNL Target] 클라이언트 코드:
-   * SSL 인증서 호스트 이름(예:`target.example.com target.example.org`):
-   * SSL 인증서 구매자(Adobe이 적극 권장됩니다. FAQ 참조):Adobe/고객
+   * SSL 인증서 호스트 이름(예: `target.example.com target.example.org`):
+   * SSL 인증서 구매자(Adobe이 적극 권장됩니다. FAQ 참조): Adobe/고객
    * 고객이 &quot;BYOC(Bring Your Own Certificate)&quot;라고도 하는 인증서를 구매하는 경우 다음 추가 정보를 채우십시오.
-      * 인증서 조직(예:예제 Company Inc):
-      * 인증서 조직 단위(선택 사항, 예:마케팅):
-      * 인증서 국가(예:미국):
-      * 인증서 상태/지역(예:캘리포니아):
-      * 인증서 구/군/시(예:San Jose):
+      * 인증서 조직(예: 예제 Company Inc):
+      * 인증서 조직 단위(선택 사항, 예: 마케팅):
+      * 인증서 국가(예: 미국):
+      * 인증서 상태/지역(예: 캘리포니아):
+      * 인증서 구/군/시(예: San Jose):
 
 1. [!DNL Adobe] 이 인증서를 구매하는 경우 [!DNL Adobe] 은 DigiCert와 함께 사용하여 Adobe의 프로덕션 서버에서 인증서를 구매하고 배포합니다.
 
@@ -66,7 +66,7 @@ ht-degree: 1%
 
 ### 새 SSL 인증서가 만료될 때까지 얼마나 걸립니까?
 
-2020년 9월 1일 이전에 발행된 인증서는 2년 된 인증서입니다. 2020년 9월 1일 이후에 발행된 인증서는 1년 인증서입니다. 1년 인증서 [여기](https://www.digicert.com/position-on-1-year-certificates)로 이동하는 방법에 대해 자세히 읽어볼 수 있습니다.
+2020년 9월 1일 이전에 발행된 인증서는 2년 된 인증서입니다. 2020년 9월 1일 이후에 발행된 인증서는 1년 인증서입니다.
 
 ### 어떤 호스트 이름을 선택해야 합니까? 도메인당 호스트 이름은 몇 개까지 선택해야 합니까?
 
@@ -140,7 +140,7 @@ macOS 또는 Linux 명령줄 터미널에서는 bash 및 curl 7.49+를 사용하
    >
    >이 명령이 실패하지만 위의 `validateEdgeFpsslSni` 명령이 성공하면 DNS 업데이트가 완전히 전파될 때까지 기다리십시오. DNS 레코드에는 해당 레코드의 DNS 응답에 대한 캐시 만료 시간을 지시하는 연관된 [TTL(time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records)이 있습니다. 따라서 TTL만 있으면 대기해야 할 수 있습니다. `dig target.example.com` 명령 또는 [G Suite 도구 상자](https://toolbox.googleapps.com/apps/dig/#CNAME)를 사용하여 특정 TTL을 찾을 수 있습니다.
 
-### CNAME이 있는 옵트아웃 링크를 사용하는 방법
+### CNAME으로 옵트아웃 링크를 사용하는 방법
 
 CNAME을 사용하는 경우 옵트아웃 링크에 &quot;client=`clientcode` 매개 변수가 포함되어야 합니다. 예를 들면 다음과 같습니다.
 `https://my.cname.domain/optout?client=clientcode`.
