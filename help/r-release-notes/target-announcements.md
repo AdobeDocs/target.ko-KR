@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target]  알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: 릴리스 정보
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 93%
+source-wordcount: '578'
+ht-degree: 94%
 
 ---
 
@@ -26,15 +26,16 @@ ht-degree: 93%
 
 ## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break
 
-* **2021년 8월 11일 수요일**
+* **2021년 9월 8일 수요일**
 * **오전 8시 (PDT, UTC -7)**
-* **[여기를 클릭하여 자세한 내용을 살펴보고 등록하십시오](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
+* **[여기를 클릭하여 자세한 내용을 살펴보고 등록하십시오](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-[!DNL Adobe Target] 의 수석 솔루션 컨설턴트인 James McTiernan은 [!DNL Target] 내에서 자신의 전문 분야와 관련된 고객 질문에 응답할 것입니다.
+[!DNL Adobe Target]의 수석 제품 관리자인 Vishal Chrodia는 자신의 전문 분야에 관한 고객 질문에 답할 예정입니다.
 
-* Recommendations
-* A/B 및 MVT(다변량) 테스트
-* 개인화
+* [!DNL Adobe Experience Platform]
+* 대상 기반 개인화
+* [!DNL Real-time Customer Data Platform] (RTCDP) 통합  [!DNL Target]
+* 일반 [!DNL Target] 항목
 
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
