@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] 활동에서 AEM 경험 구성요소를 사용�
 title: AEM(Adobe Experience Manager) 경험 조각을 사용하려면 어떻게 해야 합니까?
 feature: 경험 및 오퍼
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '1155'
 ht-degree: 13%
@@ -42,24 +42,24 @@ ht-degree: 13%
 
 [!DNL Target]에서 [!DNL AEM] 경험 구성요소를 사용하려면 다음 단계를 수행해야 합니다.
 
-### 1단계:[!DNL AEM]을 [!DNL Target]과 통합
+### 1단계: [!DNL AEM]을 [!DNL Target]과 통합
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* **Adobe I/O**: [관리 사용 안내서](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) 에서 Adobe I/0 _을 사용하여 Adobe Target과_ 통합합니다.
-* **[!DNL AEM]6.3**: [Adobe Analytics 및 ](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) Adobe Experience Manager 6.3  _설명서 Adobe_  선택.
-* **[!DNL AEM]6.4**: [Adobe Analytics 및 ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) Adobe Experience Manager 6.4  _설명서 Adobe_  선택.
-* **[!DNL AEM]6.5**: [Adobe Analytics 및 ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) Adobe Experience Manager 6.5  *설명서 Adobe*  선택.
+* **Adobe I/O**:  [관리 사용 안내서](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) 에서 Adobe I/0 _을 사용하여 Adobe Target과_ 통합합니다.
+* **[!DNL AEM]6.3**:  [Adobe Analytics 및 ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) Adobe Experience Manager 6.3  _설명서 Adobe_  선택.
+* **[!DNL AEM]6.4**:  [Adobe Analytics 및 ](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html) Adobe Experience Manager 6.4  _설명서 Adobe_  선택.
+* **[!DNL AEM]6.5**:  [Adobe Analytics 및 ](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=en) Adobe Experience Manager 6.5  *설명서 Adobe*  선택.
 
 ### 2단계: 경험 구성요소 만들기
 
 경험 조각은 [!DNL AEM]에 만들어집니다. 자세한 내용은 다음 문서를 참조하십시오.
 
-* **[!DNL AEM]6.3**: [](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) Adobe Experience Manager 6.3  **  설명서의 경험 조각.
-* **[!DNL AEM]6.4**: [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.4 **  설명서에서 경험 조각을 참조하십시오.
-* **[!DNL AEM]6.5**: [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.5  *설명서의 경험* 조각.
+* **[!DNL AEM]6.3**:  [](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) Adobe Experience Manager 6.3  **  설명서의 경험 조각.
+* **[!DNL AEM]6.4**:  [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.4 **  설명서에서 경험 조각을 참조하십시오.
+* **[!DNL AEM]6.5**:  [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.5  *설명서의 경험* 조각.
 
-### 3단계:경험 조각을 [!DNL Target]과 공유하도록 [!DNL AEM] 구성
+### 3단계: 경험 조각을 [!DNL Target]과 공유하도록 [!DNL AEM] 구성
 
 1. [!DNL AEM] 내에서 원하는 경험 구성요소 또는 상위 폴더를 선택한 다음 **[!UICONTROL 속성]**&#x200B;을 클릭합니다.
 2. **[!UICONTROL 클라우드 서비스]** 탭을 클릭한 다음, **[!UICONTROL 클라우드 서비스 구성]** 드롭다운 목록에서 **[!UICONTROL Adobe Target]**&#x200B;을 선택합니다.
@@ -70,13 +70,13 @@ ht-degree: 13%
 
 3. **[!UICONTROL 저장 및 닫기]**&#x200B;를 클릭합니다.
 
-### 4단계:경험 조각을 게시하고 [!DNL Target](으)로 내보냅니다.
+### 4단계: 경험 조각을 게시하고 [!DNL Target](으)로 내보냅니다.
 
 [!DNL AEM] 버전에 따라 단계별 지침이 필요하면 다음 링크를 참조하십시오.
 
-* **[!DNL AEM]6.3**: [](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.3  *설명서에서 타깃팅으로 경험 조각* 내보내기.
-* **[!DNL AEM]6.4**: [](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4  *설명서에서 타깃팅으로 경험 조각* 내보내기.
-* **[!DNL AEM]6.5**: [](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.5  *설명서에서 Target으로 경험 조각* 내보내기.
+* **[!DNL AEM]6.3**:  [](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.3  *설명서에서 타깃팅으로 경험 조각* 내보내기.
+* **[!DNL AEM]6.4**:  [](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html) Adobe Experience Manager 6.4  *설명서에서 타깃팅으로 경험 조각* 내보내기.
+* **[!DNL AEM]6.5**:  [](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) Adobe Experience Manager 6.5  *설명서에서 Target으로 경험 조각* 내보내기.
 
 ## [!DNL Target] 활동에서 경험 구성요소 사용 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -145,7 +145,7 @@ ht-degree: 13%
 * JSON 오퍼를 경험 조각으로 [!DNL Target]에 가져올 수 있습니다. 그러나 이러한 오퍼는 HTML 오퍼로 가져옵니다. JSON 오퍼(경험 조각)는 현재 [!DNL Target] UI에서 완전히 지원되지 않습니다.
 * Adobe IO를 사용하여 경험 조각을 만들 수 없습니다. 위에서 설명한 대로 AEM을 사용하여 경험 조각을 만들어야 합니다.
 
-## 교육 비디오:Adobe Target ![자습서 배지](/help/assets/overview.png)에서 AEM 경험 구성요소 사용 {#section_C0EDC54063464F41A182492D2045BC64}
+## 교육 비디오: Adobe Target ![자습서 배지](/help/assets/overview.png)에서 AEM 경험 구성요소 사용 {#section_C0EDC54063464F41A182492D2045BC64}
 
 다음 비디오에서는 경험 조각을 설정하고 사용하는 방법을 보여 줍니다.
 
