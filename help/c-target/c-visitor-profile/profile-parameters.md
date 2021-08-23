@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 활동에 사용할 수 있는 정보에 대한
 title: 프로필 속성이란 무엇입니까?
 feature: 대상자
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2403'
 ht-degree: 49%
 
 ---
@@ -142,7 +142,7 @@ if (mbox.name == 'Track_Interest') {
    * 프로필 스크립트는 [!DNL Target]에 추가되기 전에 성능 테스트를 거쳐야 합니다. 모든 프로필 스크립트는 모든 mbox 요청에서 실행됩니다. 프로필 스크립트가 올바르게 실행되지 않으면 mbox 요청을 실행하는 데 시간이 더 오래 걸리며 트래픽 및 전환에 영향을 줄 수 있습니다.
    * 프로필 스크립트가 너무 복잡해지면 대신 [응답 토큰](/help/administrating-target/response-tokens.md)을 사용해 보십시오.
 
-* 자세한 내용은 JS Rhino 엔진 설명서 를 참조하십시오. [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html)
+* 자세한 내용은 JS Rhino 엔진 설명서 를 참조하십시오.
 
 ## 프로필 스크립트 디버그 {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
