@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 활동에서 AEM 경험 구성요소를 사용�
 title: AEM(Adobe Experience Manager) 경험 조각을 사용하려면 어떻게 해야 합니까?
 feature: 경험 및 오퍼
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
+source-git-commit: 0437d7c83734ee707d4d42996d856f9e19416c3d
 workflow-type: tm+mt
-source-wordcount: '1155'
+source-wordcount: '1147'
 ht-degree: 13%
 
 ---
@@ -55,8 +55,8 @@ ht-degree: 13%
 
 경험 조각은 [!DNL AEM]에 만들어집니다. 자세한 내용은 다음 문서를 참조하십시오.
 
-* **[!DNL AEM]6.3**:  [](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) Adobe Experience Manager 6.3  **  설명서의 경험 조각.
-* **[!DNL AEM]6.4**:  [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.4 **  설명서에서 경험 조각을 참조하십시오.
+* **[!DNL AEM]6.3**:  [](https://experienceleague.adobe.com/docs/) Adobe Experience Manager 6.3  **  설명서의 경험 조각.
+* **[!DNL AEM]6.4**:  [](https://experienceleague.adobe.com/docs/) Adobe Experience Manager 6.4 **  설명서에서 경험 조각을 참조하십시오.
 * **[!DNL AEM]6.5**:  [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) Adobe Experience Manager 6.5  *설명서의 경험* 조각.
 
 ### 3단계: 경험 조각을 [!DNL Target]과 공유하도록 [!DNL AEM] 구성
