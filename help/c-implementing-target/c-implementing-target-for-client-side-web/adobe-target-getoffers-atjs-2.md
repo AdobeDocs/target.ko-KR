@@ -5,7 +5,7 @@ title: adobe.target.getOffers() 함수를 사용하려면 어떻게 해야 합�
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 85%
@@ -31,7 +31,7 @@ ht-degree: 85%
 
 >[!NOTE]
 >
->아래 나열된 모든 필드에 허용되는 유형에 대한 자세한 내용은 [배달 API 설명서](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)를 참조하십시오.
+>아래 나열된 모든 필드에 허용되는 유형에 대한 자세한 내용은 [배달 API 설명서](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)를 참조하십시오.
 
 | 필드 이름 | 필수? | 제한 | 설명 |
 | --- | --- | --- | --- |
