@@ -4,7 +4,7 @@ description: Analytics for [!DNL Target] (A4T) in your Adobe [!DNL Target] 및 A
 title: Analytics for [!DNL Target] (A4T)을 구현하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 23%
@@ -48,7 +48,7 @@ A4T를 구현하기 전에 [!DNL Analytics] 및 [!DNL Target]에 대해 프로�
 
 ### 1단계: Analytics 및 Target 제공 요청
 
-[!DNL Target]에 대한 보고 소스로 [!DNL Analytics]을 구현한 후에는 [!DNL Analytics] 및 [!DNL Target]에 대한 프로비저닝을 받아야 합니다. [이 양식을 사용하여 제공을 요청합니다](http://www.adobe.com/go/audiences).
+[!DNL Target]에 대한 보고 소스로 [!DNL Analytics]을 구현한 후에는 [!DNL Analytics] 및 [!DNL Target]에 대한 프로비저닝을 받아야 합니다. [이 양식을 사용하여 제공을 요청합니다](https://www.adobe.com/go/audiences_kr).
 
 ### 2단계: 사용자 권한 설정
 
