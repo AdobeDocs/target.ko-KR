@@ -5,9 +5,9 @@ title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
 feature: 관리 및 구성
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1458'
 ht-degree: 66%
 
 ---
@@ -148,7 +148,7 @@ ht-degree: 66%
 
    * **[!DNL Adobe Launch]의 &quot;전역 매개 변수&quot;를 통해:**
 
-      자세한 내용은 *Adobe Experience Platform Launch* 설명서에서 [글로벌 Target 매개 변수 추가](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params)를 참조하십시오.
+      자세한 내용은 *Adobe Experience Platform Launch* 설명서에서 [글로벌 Target 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)를 참조하십시오.
 
    * **targetPageParams() 함수를 통해:**  at.js 참조  `<head>` 위의 태그에 다음 코드를 넣습니다.
 
