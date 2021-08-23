@@ -4,10 +4,10 @@ description: ' [!DNL Target] works, including information about the [!DNL Target
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: 개요
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -23,12 +23,12 @@ ht-degree: 100%
 * **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)으로 구현을 업데이트할 것을 권장합니다.
 * **mbox.js:** mbox.js 라이브러리는 [!DNL Target]의 레거시 구현 라이브러리입니다. mbox.js 라이브러리는 2021년 3월 31일부터 더 이상 지원되지 않습니다.
 
-사이트의 모든 페이지에서 [!DNL Experience Platform Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html?lang=ko-KR) 를 사용하여 [!DNL Target]을 구현하는 것을 고려하시오.
+사이트의 모든 페이지에서 [!DNL Experience Platform Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)에서 [태그를 사용하여 [!DNL Target]를 구현하는 것이 좋습니다.
 
 다음 리소스에는 Experience Platform Web SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=ko-KR#configure-the-aep-web-sdk-extension)
-* [ [!DNL Target] Adobe Experience Platform Launch를 사용한 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Adobe Experience Platform 웹 SDK 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
+* [ [!DNL Target] Adobe Experience Platform 를 사용한 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 타기팅 시스템으로 요청이 전송됩니다. 요청은 방문자에게 제공할 콘텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 발생합니다. 페이지가 로드될 때마다 콘텐츠 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타기팅합니다. 각 사이트 방문자가 응답하거나, 상호 작용하거나, 궁극적으로는 구매할 가능성이 가장 높은 콘텐츠가 제공됩니다. 개인화된 콘텐츠를 통해 응답률, 확보율 및 매출을 극대화할 수 있습니다.
 
@@ -55,7 +55,7 @@ ht-degree: 100%
 
 자세한 내용은 [[!UICONTROL 자동 할당]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 을 참조하십시오.
 
-### [!UICONTROL 자동 타겟] (AT)
+### [!UICONTROL 자동 타겟](AT)
 
 자동 타겟은 고급 머신 러닝을 사용하여 여러 가지 고성능 마케터 정의 경험 중에서 선택합니다. 자동 타겟은 각 방문자에게 가장 적합한 경험을 제공합니다. 경험 전달은 개별 고객 프로필 및 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 합니다. 자동 타겟을 사용하면 콘텐츠를 개인화하고 전환할 수 있습니다.
 
