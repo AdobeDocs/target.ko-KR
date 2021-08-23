@@ -4,14 +4,14 @@ description: 둘 이상의 경험에서 승자를 식별하고 더 많은 트래
 title: 자동 할당 활동이란 무엇입니까?
 feature: 자동 할당
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3454'
 ht-degree: 50%
 
 ---
 
-# [!UICONTROL 자동 할당 개요]
+# [!UICONTROL 자동 할당] 개요
 
 [!DNL Adobe Target]의 [!UICONTROL 자동 할당] 활동은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 50%
 
 [!UICONTROL 자동 할당은 경험들 간의 모든 암시적 비교를 수행하고 &quot;true&quot;(실제) 승자를 생성합니다. ] 이 테스트에는 &quot;통제&quot; 경험이라는 개념이 없습니다.
 
-[!UICONTROL 자동 할당] 은 최상의 경험의 신뢰 구간이 다른 경험의 신뢰 구간과 겹치지 않을 때까지 새로운 방문자를 경험에 지능적으로 할당합니다. 일반적으로 이 프로세스는 긍정 오류(false positive)를 생성할 수 있지만 [!UICONTROL 자동 할당]에서는 반복된 평가를 보상하는 [베른슈타인 부등식](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory))을 기반으로 하는 신뢰 구간을 사용합니다. 이 시점에서 진정한 승자가 있습니다. [!UICONTROL 자동 할당]이 중지되면 페이지에 도착하는 방문자에게 실질적인 시간 종속성이 없는 경우 [!UICONTROL 자동 할당]에서 실제 응답이 우승 경험의 실제 응답보다 1%(상대적) 적은 만큼의 경험을 반환할 확률이 95% 이상입니다.
+[!UICONTROL 자동 할당] 은 최상의 경험의 신뢰 구간이 다른 경험의 신뢰 구간과 겹치지 않을 때까지 새로운 방문자를 경험에 지능적으로 할당합니다. 일반적으로 이 프로세스는 긍정 오류(false positive)를 생성할 수 있지만 [!UICONTROL 자동 할당]에서는 반복된 평가를 보상하는 [베른슈타인 부등식](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)을 기반으로 하는 신뢰 구간을 사용합니다. 이 시점에서 진정한 승자가 있습니다. [!UICONTROL 자동 할당]이 중지되면 페이지에 도착하는 방문자에게 실질적인 시간 종속성이 없는 경우 [!UICONTROL 자동 할당]에서 실제 응답이 우승 경험의 실제 응답보다 1%(상대적) 적은 만큼의 경험을 반환할 확률이 95% 이상입니다.
 
 ## [!UICONTROL 자동 할당]과 A/B 또는 [!UICONTROL Automated Personalization]을 사용해야 하는 경우 {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
@@ -189,7 +189,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 이 권장 사항은 조회하고 소스로 사용하는 [!UICONTROL 자동 할당], [!UICONTROL 자동 타겟], [!UICONTROL 자동 개인화] [!DNL Target] 또는 [!DNL Analytics] (A4T) 활동에 적용됩니다.
 
-### [!UICONTROL 자동 할당] 활동을 통해 중간에 보고 소스를 변경할 수 있습니까? {#change-reporting}
+### [!UICONTROL 자동 할당] 활동 중간에 보고 소스를 변경할 수 있습니까? {#change-reporting}
 
 [!DNL Adobe] 활동을 통해 중간에 보고 소스를 변경하는 것은 권장되지 않습니다. [!DNL Target] UI를 사용하는 활동 중에 보고 소스를 [!DNL Target]에서 A4T로 변경하거나 그 반대로 변경할 수 있지만 항상 새 활동을 시작해야 합니다. [!DNL Adobe] 는 실행 후 활동에서 보고 소스를 변경할 경우 발생하는 일을 보장하지 않습니다.
 
