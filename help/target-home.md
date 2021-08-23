@@ -4,10 +4,10 @@ title: ' [!DNL Target]  설명서는 어디에서 찾을 수 있습니까?'
 description: Adobe  [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: 개요
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '693'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 100%
 - [Target NodeJS SDK](https://github.com/adobe/target-nodejs-sdk): 서버측에 Target을 배포하는 방법에 대해 설명합니다. 이 Node.js SDK는 Target을 다른 Adobe Experience Cloud 솔루션과 쉽게 통합할 수 있도록 지원합니다.
 - [Target Java SDK](https://github.com/adobe/target-java-sdk): 서버측에 Target을 배포하는 방법에 대해 설명합니다. 이 Java SDK는 Target을 다른 Adobe Experience Cloud 솔루션과 쉽게 통합할 수 있도록 지원합니다.
 - [Target Recommendations API](https://developers.adobetarget.com/api/recommendations/): 공식 Adobe Target Recommendations API를 구성하는 리소스를 설명합니다.
-- [Target Adobe.IO 설명서](http://developers.adobetarget.com/api/#introduction): Adobe.IO 통합을 사용하여 활동, 대상, 오퍼, 속성, 보고서, mbox, 환경 및 프로필을 관리하는 Target의 관리 및 프로필 REST API를 사용하는 방법에 대해 설명합니다.
+- [Target Adobe.IO 설명서](https://developers.adobetarget.com/api/#introduction): Adobe.IO 통합을 사용하여 활동, 대상, 오퍼, 속성, 보고서, mbox, 환경 및 프로필을 관리하는 Target의 관리 및 프로필 REST API를 사용하는 방법에 대해 설명합니다.
 
 ## Target 및 Adobe Experience Cloud 관리자 {#admins}
 
