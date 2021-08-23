@@ -1,12 +1,11 @@
 ---
 keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
-description: 단일 및 다중 값 사용자 지정 엔터티 특성을 사용하여 Adobe [!DNL Target] Recommendations 카탈로그에 있는 항목에 대한 추가 정보를 정의하는 방법에 대해 알아보십시오.
-title: 사용자 지정 개체 특성을 사용하려면 어떻게 합니까?
+description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 Adobe [!DNL Target] Recommendations 카탈로그의 항목에 대한 추가 정보를 정의하는 방법을 알아봅니다.
+title: 사용자 지정 엔티티 속성을 어떻게 사용합니까?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
@@ -15,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) 사용자 지정 엔티티 속성
 
-[!DNL Adobe Target Recommendations]의 단일 및 다중 값 사용자 지정 개체 속성을 사용하여 카탈로그의 항목에 대한 추가 정보를 정의합니다.
+[!DNL Adobe Target Recommendations]에서 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
 
 ## 제한 {#limits}
 
@@ -25,7 +24,7 @@ ht-degree: 89%
 
 다중 값 엔티티 사용자 지정 속성은 최대 500개의 값을 포함할 수 있습니다. 각 개별값은 100자로 제한됩니다. 모든 값에 걸친 총 문자 수는 단일 값 엔티티 사용자 지정 속성의 최대 길이에 대한 제한을 준수해야 합니다(위 참조).
 
-## 사용자 지정 엔터티 특성 값 {#section_313331A9F8194A89B5EDD89363018651}
+## 사용자 지정 엔티티 속성 값 {#section_313331A9F8194A89B5EDD89363018651}
 
 사용자 지정 엔티티 속성은 단일 값 또는 다중 값을 포함할 수 있습니다. 엔티티 속성 값은 제품 보기에 표시됩니다.
 
@@ -61,7 +60,7 @@ ht-degree: 89%
 * 배열에 단일 값 유형이 포함되어야 합니다. 혼합 값 배열(`["AB",1,true]`)은 지원되지 않습니다.
 * 중첩 JSON 배열(`[10,12,[1,2,3]]`)을 포함하는 다중 값 속성은 단일 값 속성으로 처리됩니다.
 
-## 다중 값 특성 구현 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## 다중 값 속성 구현 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 다중 값 사용자 지정 엔티티 속성은 피드(CSV), `targetPageParams`, 배달 API 및 엔티티 저장 API를 사용하여 제품을 업로드할 때 지원됩니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열([])은 값이 없는 것으로 처리됩니다.
 
@@ -109,7 +108,7 @@ function targetPageParams() {
 
 ### API 사용
 
-mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케이프된 JSON 배열이 포함된 문자열 값으로 전달할 수 있습니다.
+이스케이프 처리된 JSON 배열이 포함된 문자열 값으로 mbox 매개 변수의 배달 API를 사용하여 다중 값 속성을 전달할 수 있습니다.
 
 ```javascript
 "execute": {
@@ -127,9 +126,9 @@ mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케�
   }
 ```
 
-배달 및 개체 저장 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](http://developers.adobetarget.com/api/recommendations)을 참조하십시오.
+배달 및 저장 엔티티 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](https://developers.adobetarget.com/api/recommendations)를 참조하십시오.
 
-## 다중 값 특성이 있는 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
+## 다중 값 속성에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 다중 값 사용자 지정 속성에 연산자를 적용할 때, 목록에 있는 하나 이상의 값이 연산(부울 *or*)을 통과하는 경우 결과는 *true*&#x200B;가 됩니다.
 
@@ -140,7 +139,7 @@ mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케�
 
 부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어, 연산자가 `notEquals`인 경우 결과는 어느 값이든 일치하면 *false*&#x200B;가 됩니다.
 
-알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 연산자 행동에 대해서는 다음 섹션을 참조하십시오.
+알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 운영자 행동에 대해서는 다음 섹션을 참조하십시오.
 
 ### 다음과 같음
 
@@ -150,7 +149,7 @@ mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케�
 
 * 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
 * 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
-* 사례 3:`entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 false입니다.
+* 사례 3: `entity.genre = ["abcde", "de", "ef"]` `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 false입니다.
 
 ### 다음과 같지 않음
 
@@ -160,7 +159,7 @@ mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케�
 
 * 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
 * 사례 2: `entity.genre = ["abc", "de", "ef"]`. 하나의 값이 `abc`.
-* 사례 3:`entity.genre = ["abcde", "de", "ef"]`. `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 true입니다.
+* 사례 3: `entity.genre = ["abcde", "de", "ef"]` `abc`가 목록에 있는 어떤 요소와도 같지 않으므로 결과는 true입니다.
 
 ### 다음 포함
 
@@ -188,7 +187,7 @@ mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케�
 
 * 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
 * 사례 2: `entity.genre = ["abcde", "de", "ef"]`. 하나의 값이 `abc`.
-* 사례 3:`entity.genre = ["ab", "de", "abc"]`. 하나의 값이 `abc`로 시작하므로 결과는 true입니다(목록에서 첫 번째 요소일 필요는 없음).
+* 사례 3: `entity.genre = ["ab", "de", "abc"]` 하나의 값이 `abc`로 시작하므로 결과는 true입니다(목록에서 첫 번째 요소일 필요는 없음).
 
 ### 다음으로 끝남
 
@@ -241,7 +240,7 @@ mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케�
 
 ### 동적 범위(항목 기반 알고리즘에서만 사용 가능, 숫자 값만 해당)
 
-숫자 속성 값이 지정된 범위 내에 있으면 true가 됩니다.
+어떤 숫자 속성 값이든 지정된 범위 내에 있으면 결과는 true가 됩니다.
 
 예: `price dynamically ranges in 80% to 120% of 100`
 
@@ -252,9 +251,9 @@ mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케�
 >
 >*Double*&#x200B;은 Java 데이터 유형입니다. 숫자 값이 필요한 연산자의 경우, double로 변환하면 숫자가 아닌 값은 결과에서 고려되지 않습니다.
 
-## 디자인의 다중 값 특성 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## 디자인의 다중 값 속성 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-다중 값 속성은 디자인에서 참조할 때 쉼표로 구분된 목록으로 표시됩니다.
+디자인에서 참조할 때 다중 값 속성이 쉼표로 구분된 목록으로 표시됩니다.
 
 예:
 
@@ -262,4 +261,4 @@ mbox 매개 변수의 배달 API를 사용하여 다중 값 특성을 이스케�
 
 ## 관련 항목:
 
-* [엔티티 속성](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [엔티티 속성을 참조하십시오](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
