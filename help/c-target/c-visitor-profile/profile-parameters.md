@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] 활동에 사용할 수 있는 정보에 대한
 title: 프로필 속성이란 무엇입니까?
 feature: 대상자
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 49%
@@ -33,7 +33,7 @@ ht-degree: 49%
 
    | 매개 변수 유형 | 설명 |
    |--- |--- |
-   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [글로벌 mbox에 매개 변수 전달](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)을 참조하십시오.<br>**참고**:  [!DNL Target] 의 mbox 호출당 고유한 프로필 속성 제한은 50개입니다. 50개가 넘는 프로필 속성을 [!DNL Target]에 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하여 전달하십시오. 자세한 내용은 API 설명서의 [ [!DNL Adobe Target] 프로필 업데이트를 참조하십시오](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [글로벌 mbox에 매개 변수 전달](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md)을 참조하십시오.<br>**참고**:  [!DNL Target] 의 mbox 호출당 고유한 프로필 속성 제한은 50개입니다. 50개가 넘는 프로필 속성을 [!DNL Target]에 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하여 전달하십시오. 자세한 내용은 API 설명서의 [ [!DNL Adobe Target] 프로필 업데이트를 참조하십시오](https://developers.adobetarget.com/api/#updating-profiles). |
    | 프로필 | JavaScript 코드 조각으로 바로 정의됩니다. 이러한 코드 조각은 소비자가 사용한 총 비용과 같은 실행 합계를 저장할 수 있으며, 각 mbox 요청에서 실행됩니다. 아래의 프로필 스크립트 속성 을 참조하십시오. |
 
 ## 프로필 스크립트 속성 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
