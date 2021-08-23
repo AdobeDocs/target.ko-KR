@@ -1,15 +1,14 @@
 ---
 keywords: adobe.target.오퍼적용;오퍼 적용;오퍼적용;오퍼 적용;at.js;함수;함수
-description: 응답에 여러 오퍼를 적용하려면 Adobe [!DNL Target] at.js JavaScript 라이브러리에 adobe.target.applyOffers() 함수를 사용합니다. (at.js 2.x)
+description: Adobe [!DNL Target] at.js JavaScript 라이브러리에 대해 adobe.target.applyOffers() 함수를 사용하여 응답에 여러 오퍼를 적용합니다. (at.js 2.x)
 title: adobe.target.applyOffers() 함수를 어떻게 사용합니까?
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -23,14 +22,14 @@ ht-degree: 92%
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
-| selector | 문자열 | 아니오 | [!DNL Target]이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. 선택기가 제공되지 않으면 [!DNL Target]에서는 사용할 HTML 요소가 HTML HEAD라고 가정합니다. |
+| selector | 문자열 | 아니오 | [!DNL Target]이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. 선택기를 제공하지 않으면 [!DNL Target] 에서는 사용할 HTML 요소가 HTML HEAD으로 간주합니다. |
 | 응답 | 개체 | 예 | `getOffers()`의 응답 개체.<br>아래의 &quot;요청&quot; 표를 참조하십시오. |
 
 ## 응답
 
 >[!NOTE]
 >
->아래 나열된 모든 필드에 적합한 유형에 대한 자세한 내용은 [배달 API 설명서](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)을 참조하십시오.
+>아래 나열된 모든 필드에 허용되는 유형에 대한 자세한 내용은 [배달 API 설명서](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)를 참조하십시오.
 
 | 필드 이름 | 설명 |
 | --- | --- |
