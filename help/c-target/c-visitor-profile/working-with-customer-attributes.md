@@ -4,9 +4,9 @@ description: CRM(고객 관계 관리) 데이터베이스의 엔터프라이즈 
 title: 고객 속성은 무엇이며 어떻게 사용할 수 있습니까?
 feature: 대상자
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1496'
+source-wordcount: '1476'
 ht-degree: 35%
 
 ---
@@ -145,7 +145,6 @@ Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속�
 [!DNL Target]에서 고객 속성을 사용하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
 * [고객 속성 소스를 만들고 ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html)   *Experience Cloud 서비스 및 관리 설명서에서 데이터 파일 업로드*
-*  *디지털 마케팅 블로그*&#x200B;의 [Customer Attributes: The More You Know, The Better You Connect(고객 속성: 더 많이 알수록 더 쉬워지는 연결)](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/)
 
 ## 고객에게 자주 발생하는 문제 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
