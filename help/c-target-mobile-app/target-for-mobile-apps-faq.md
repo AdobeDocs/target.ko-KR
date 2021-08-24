@@ -5,9 +5,9 @@ title: 모바일 앱용 [!DNL Target] 에 대한 Faq는 무엇입니까?
 feature: 모바일 구현
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '309'
 ht-degree: 1%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 모바일 앱용 [!DNL Target]에 대한 FAQ 목록입니다.
 
-## [!DNL Adobe Experience Platform Launch] 을 사용하여 SDK를 배포해야 합니까? 아니면 [!DNL Launch] 를 사용하지 않고 SDK를 배포할 수 있습니까?
+## [!DNL Adobe Experience Platform]에서 태그를 사용하여 SDK를 배포해야 합니까? 아니면 [!DNL Launch]를 사용하지 않고 SDK를 배포할 수 있습니까?
 
 SDK는 [Adobe Marketing Cloud git](https://github.com/Adobe-Marketing-Cloud/acp-sdks/)에서 사용할 수 있습니다. Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html)에서 [태그를 사용하지 않는 경우, 자체 설정 파일을 관리하고 앱에서 관리해야 합니다.
 
