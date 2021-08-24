@@ -5,10 +5,10 @@ title: 엔터프라이즈 사용자 권한은 무엇이며, 이 권한을 어떻
 feature: 관리 및 구성
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 59%
+source-wordcount: '3020'
+ht-degree: 58%
 
 ---
 
@@ -42,7 +42,7 @@ ht-degree: 59%
 
 ### 속성
 
-속성은 속성을 구분을 위해 고유한 코드 조각을 사용한다는 측면에서 [!DNL Adobe Platform Launch] 내의 속성과 비슷한 특성을 갖습니다.
+속성은 속성을 구분을 위해 고유한 코드 조각을 사용한다는 측면에서 [!DNL Adobe Experience Platform] 내의 속성과 비슷한 특성을 갖습니다.
 
 웹 속성은 규칙들과 하나의 내장 코드로 이루어진 라이브러리로서, 웹 속성은 하나 이상의 도메인과 하위 도메인을 그룹화한 것일 수 있습니다.
 
@@ -265,7 +265,7 @@ ht-degree: 59%
 
 ### 속성이 지정된 경우에도 이 활동과 연결되어 있지 않다는 오류 메시지가 표시되는 이유는 무엇입니까?
 
-[!DNL Adobe Experience Platform Launch]를 사용하여 [!DNL Target]을 구현했을 때 활동과 연결된 속성이 없다는 오류 메시지가 나타나면, `targetPageParams` 함수와 함께 `at_property` 매개 변수를 전달합니다.
+[!DNL Adobe Experience Platform]에 태그로 [!DNL Target]을 구현하고 활동과 연결된 속성이 없다는 오류 메시지가 나타나면 `targetPageParams` 함수와 함께 `at_property` 매개 변수를 전달합니다.
 
 ### 리디렉션 페이지 및 활동 URL이 다른 속성에 속하는 경우 클릭 추적 전환이 기록됩니까?
 
