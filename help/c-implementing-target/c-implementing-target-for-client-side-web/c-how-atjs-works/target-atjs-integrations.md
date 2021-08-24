@@ -1,15 +1,14 @@
 ---
 keywords: at.js 통합;지원되는 통합;지원되지 않는 통합;타사 통합
-description: Adobe [!DNL Target] at.js, including Analytics for [!DNL Target] (A4T), Experience Cloud ID 서비스 등에서 지원되는(지원되지 않음) 통합을 참조하십시오.
-title: at.js는 어떤 통합을 지원합니까?
+description: Adobe [!DNL Target] at.js, including Analytics for [!DNL Target] (A4T), Experience Cloud ID 서비스 등에서 지원되는(및 지원되지 않음) 통합을 참조하십시오.
+title: At.js는 어떤 통합을 지원합니까?
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 87%
+source-wordcount: '480'
+ht-degree: 82%
 
 ---
 
@@ -24,9 +23,9 @@ ht-degree: 87%
 | 통합 | 세부 사항 |
 |--- |--- |
 | Analytics for Target (A4T) | [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)를 참조하십시오. |
-| 프로필 및 대상(P&amp;A) | *핵심 서비스 사용자 안내서*&#x200B;의 [대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko_KR)을 참조하십시오. |
+| 프로필 및 대상(P&amp;A) | *핵심 서비스 사용 안내서*&#x200B;에서 [대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)을 참조하십시오. |
 | Experience Cloud ID 서비스 | [Adobe Experience Cloud ID 서비스 설명서](https://experienceleague.adobe.com/docs/id-service/using/home.html)를 참조하십시오. |
-| [!DNL Adobe Experience Platform Launch] | [!DNL Platform Launch] 는 Adobe의 차세대 태그 관리 플랫폼이며 Adobe Target을 구현하는 데 권장되는 방법입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.  [Adobe Launch를 사용하여 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)을 참조하십시오. |
+| [!DNL Adobe Experience Platform]의 태그 | [!DNL Adobe Experience Platform]의 태그는 [!DNL Adobe]의 차세대 태그 관리 기능입니다. 태그는 관련 고객 환경을 향상하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. [구현 [!DNL Target] 을 참조하십시오. [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) |
 | Adobe Experience Manager(AEM) 클라우드 서비스 | AEM 클라우드 서비스를 사용하면 AEM 작업 과정 내에서 A/B 테스트 및 경험 타깃팅 활동을 작성할 수 있습니다. FP-11577 이상의 Adobe Experience Manager 6.2로 at.js를 지원합니다. 자세한 정보는 [Adobe Target 통합](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html)을 참조하고 AEM 버전을 선택하십시오. |
 | AEM 경험 구성요소 | Target 활동에 AEM에서 만든 경험 구성요소를 사용하면 AEM의 편의성과 기능을 Target의 강력한 AI(Automated Intelligence) 및 기계 학습(ML) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.  AEM에서는 모든 콘텐츠 및 에셋을 중앙 위치에 가져와서 개인화 전략을 실행합니다. AEM을 사용하면 코드를 작성하지 않고도 한 위치에서 데스크탑, 태블릿 및 휴대 디바이스의 콘텐츠를 쉽게 만들 수 있습니다. 모든 장치를 위해 페이지를 만들 필요가 없이, 컨텐츠를 사용하여 각 경험이 자동으로 조정됩니다.  [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8)를 참조하십시오. |
 
