@@ -1,13 +1,13 @@
 ---
 keywords: 구현;at.js;Javascript 라이브러리
-description: Adobe Experience Platform Launch을 사용하거나 태그 관리자 없이 Adobe [!DNL Target] at.js JavaScript 라이브러리를 배포하는 방법을 알아봅니다.
+description: Adobe Experience Platform에서 태그를 사용하거나 태그 관리자 없이 Adobe [!DNL Target] at.js JavaScript 라이브러리를 배포하는 방법을 알아봅니다.
 title: at.js를 배포하려면 어떻게 합니까?
 feature: 서버측 구현
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '289'
 ht-degree: 6%
 
 ---
