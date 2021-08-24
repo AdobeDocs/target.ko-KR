@@ -5,10 +5,10 @@ title: 내 사이트에서 [!DNL Target] 을 구현하려면 어떻게 합니까
 feature: 관리 및 구성
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 2%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] 는 를 구현하는 기본 방법입니다  [!DNL Target]. [!DNL Launch] 는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. 자세한 내용은 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 사용하여 Target 구현 을 참조하십시오.
+>[!DNL Adobe Experience Platform]의 태그는 [!DNL Target]을 구현하는 기본 방법입니다. [!DNL Adobe Experience Platform]의 태그는 [!DNL Adobe]의 차세대 태그 관리 기능입니다. 태그는 관련 고객 환경을 향상하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. 자세한 내용은 [구현 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 참조하십시오. [!DNL Target] 
 
 1. [!UICONTROL 구현] 페이지에 액세스하려면 **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭하십시오.
 
