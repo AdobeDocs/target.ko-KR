@@ -4,10 +4,10 @@ description: 'Adobe Target에서 Recommendations 활동을 구현하는 방법�
 title: Recommendations 활동을 구현하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 94%
+source-wordcount: '1553'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ function targetPageParams() {
 
 유효한 JSON 형식이 필요합니다.
 
-아래 표시된 `targetPageParams` 함수는 태그 관리 솔루션을 사용하여 페이지를 구현하는 경우에 특히 유용합니다. [!DNL Adobe Experience Platform Launch] at.js/mbox.js 참조 및 함수 `targetPageParams` 를 페이지에 배치하여 값을 구성할 수 있습니다. at.js/mbox.js 호출 앞에 해당 함수를 두거나 at.js/mbox.js의 추가 JavaScript 섹션에 배치해야 합니다.
+아래 표시된 `targetPageParams` 함수는 태그 관리 솔루션을 사용하여 페이지를 구현하는 경우에 특히 유용합니다. [!DNL Adobe Experience Platform]의 태그는 at.js/mbox.js 참조 및 `targetPageParams` 함수를 페이지에 지정하므로 사용자가 이 값을 구성할 수 있습니다. at.js/mbox.js 호출 앞에 해당 함수를 두거나 at.js/mbox.js의 추가 JavaScript 섹션에 배치해야 합니다.
 
 ## 모든 페이지 {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
@@ -204,7 +204,7 @@ function targetPageParams() {
 
 | 설정 | 설명 |
 |--- |--- |
-| 사용자 지정 글로벌 mbox | (선택 사항) [!DNL Target] 활동을 제공하는 데 사용되는 사용자 지정 글로벌 mbox를 지정합니다. 기본적으로 [!DNL Target]에 사용되는 글로벌 mbox는 [!DNL Recommendations]에 사용됩니다.<br>참고:이 옵션은 관리 페이지에서  [!DNL Target]  설정됩니다. [!DNL Target]을 연 다음, [!UICONTROL 관리] > [!UICONTROL 시각적 경험 작성기]를 클릭하십시오. |
+| 사용자 지정 글로벌 mbox | (선택 사항) [!DNL Target] 활동을 제공하는 데 사용되는 사용자 지정 글로벌 mbox를 지정합니다. 기본적으로 [!DNL Target]에 사용되는 글로벌 mbox는 [!DNL Recommendations]에 사용됩니다.<br>참고: 이 옵션은 관리 페이지에서  [!DNL Target]  설정됩니다. [!DNL Target]을 연 다음, [!UICONTROL 관리] > [!UICONTROL 시각적 경험 작성기]를 클릭하십시오. |
 | 업계 카테고리 | 업계 카테고리는 권장 사항 기준을 분류하는 데 사용됩니다. 따라서 팀 구성원이 장바구니 페이지나 미디어 페이지에 가장 적합한 기준과 같이 특정 페이지에 적합한 기준을 찾는 데 도움이 됩니다. |
 | 호환되지 않는 기준 필터링 | 선택한 페이지가 필수 데이터를 전달하는 기준만 표시하려면 이 선택 사항을 사용하십시오. 모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 호환되지 않는 기준을 활동에 사용할 수 있게 하려면 이 선택 사항을 선택 취소하십시오.<br>태그 관리 솔루션을 사용하는 경우에는 이 선택 사항을 비활성화하는 것이 좋습니다.<br>이 선택 사항에 대한 자세한 내용은 [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)를 참조하십시오. |
 | 기본 호스트 그룹 | 기본 호스트 그룹을 선택합니다.<br>호스트 그룹을 사용하여 카탈로그에 있는 사용 가능한 항목을 다양한 용도로 구분할 수 있습니다. 예를 들어 개발 및 프로덕션 환경, 다양한 브랜드 또는 다양한 지역용으로 호스트 그룹을 사용할 수 있습니다. 기본적으로 카탈로그 검색, 컬렉션 및 제외의 미리 보기 결과는 기본 호스트 그룹을 기반으로 합니다. (환경 필터를 사용하여 다른 결과를 미리 볼 호스트 그룹을 선택할 수도 있습니다.) 기본적으로 항목을 만들거나 업데이트할 때 환경 ID를 지정하지 않는 한, 새로 추가된 항목은 모든 호스트 그룹에서 사용할 수 있습니다. 전달되는 권장 사항은 요청에 지정된 호스트 그룹에 따라 다릅니다.<br>제품이 보이지 않는다면 올바른 호스트 그룹을 사용하고 있는지 확인하십시오. 예를 들어, 스테이징 환경을 사용하도록 권장 사항을 설정하고 호스트 그룹을 스테이징으로 설정하는 경우, 제품을 표시할 스테이징 환경에서 컬렉션을 다시 만들어야 합니다. 각 환경에서 사용 가능한 제품을 확인하려면 각 환경에서 카탈로그 검색을 사용하십시오. 선택한 환경(호스트 그룹)에 대한 권장 사항 컬렉션 및 제외 콘텐츠를 미리 볼 수도 있습니다.<br>**참고:**  선택한 환경을 변경한 후 검색을 클릭하여 반환된 결과를 업데이트해야 합니다.<br>[!UICONTROL 환경] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>카탈로그 검색(권장 사항 > 카탈로그 검색)</li><li>컬렉션 만들기 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 새로 만들기])</li><li>컬렉션 업데이트 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 편집])</li><li>제외 만들기 대화 상자([!UICONTROL 권장 사항 > 제외 > 새로 만들기])</li><li>제외 업데이트 대화 상자([!UICONTROL 권장 사항 > 제외 > 편집])</li></ul>자세한 내용은 [호스트](/help/administrating-target/hosts.md)를 참조하십시오. |
