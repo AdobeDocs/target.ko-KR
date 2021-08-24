@@ -4,7 +4,7 @@ description: Analytics for [!DNL Target] (A4T) in your Adobe [!DNL Target] 및 A
 title: Analytics for [!DNL Target] (A4T)을 구현하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '1142'
 ht-degree: 23%
@@ -29,7 +29,7 @@ A4T를 구현하기 전에 [!DNL Analytics] 및 [!DNL Target]에 대해 프로�
 
 ### 3단계: Edge 구성 만들기
 
-에지 구성 도구를 사용하여 [!DNL Adobe Experience Platform Launch] Edge 구성을 만듭니다. [[!DNL Analytics] and [!DNL Target] 에지 구성 설정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)을 구성합니다.
+에지 구성 도구를 사용하여 [!DNL Adobe Experience Platform] Edge 구성을 만듭니다. [[!DNL Analytics] and [!DNL Target] 에지 구성 설정](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/datastreams.html)을 구성합니다.
 
 ### 4단계: Platform Web SDK 설치 및 구성
 
