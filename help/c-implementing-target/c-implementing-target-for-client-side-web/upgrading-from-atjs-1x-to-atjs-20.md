@@ -1,13 +1,13 @@
 ---
 keywords: at.js 릴리스;at.js 버전;단일 페이지 앱;spa;크로스 도메인;cross-도메인
-description: Adobe [!DNL Target] at.js 1.x에서 at.js 2.x로 업그레이드하는 방법을 알아봅니다.시스템 흐름 다이어그램을 살펴보고, 새로운 기능과 더 이상 사용되지 않는 기능에 대해 알아봅니다.
+description: Adobe [!DNL Target] at.js 1.x에서 at.js 2.x로 업그레이드하는 방법을 알아봅니다. 시스템 흐름 다이어그램을 살펴보고, 새로운 기능과 더 이상 사용되지 않는 기능에 대해 알아봅니다.
 title: at.js 버전 1.x에서 버전 2.x로 업그레이드하려면 어떻게 합니까?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2758'
 ht-degree: 91%
 
 ---
@@ -54,11 +54,11 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 
 ## at.js 2.*x* {#deploy-atjs-200}
 
-1. at.js 2.[Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 확장 통해 at.js 2.*x* 배포
+1. at.js 2.** 확장 프로그램에서 태그를  [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 확장합니다.
 
    >[!NOTE]
    >
-   > Adobe Launch를 사용하여 at.js를 배포하는 것이 가장 좋습니다.
+   > [!DNL Adobe Experience Platform]에서 태그를 사용하여 at.js를 배포하는 것이 좋습니다.
 
    또는
 
@@ -360,7 +360,7 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 | 대상자 | 예 |
 | 고객 속성 | 예 |
 | AEM 경험 구성요소 | 예 |
-| Adobe Launch 확장 프로그램 | [예](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] 확장 | [예](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | 디버거 | 예 |
 | Auditor | at.js 2.*x*&#x200B;에 대한 규칙이 아직 업데이트되지 않음 |
 | 옵트인 | 아니오. [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)에 대한 옵트인 지원은 [at.js 버전 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)에서 지원됩니다. |
@@ -755,7 +755,7 @@ at.js 2.*x* JSON 페이로드:
 
 버전은 버전 매개 변수를 통해 쿼리 문자열 매개 변수로 전송됩니다.
 
-## 교육 비디오:at.js 2.** xarchitectural diagram  ![개요 배지](/help/assets/overview.png)
+## 교육 비디오: at.js 2.** xarchitectural diagram  ![개요 배지](/help/assets/overview.png)
 
 at.js 2.*x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experience Cloud 솔루션과 통합됩니다.* 다음 비디오에서는 모든 것이 어떻게 합쳐지는지 설명합니다.
 
