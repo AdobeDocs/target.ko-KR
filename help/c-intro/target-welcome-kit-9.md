@@ -3,14 +3,13 @@ keywords: 시작 키트;대상 환영 키트;소개;소개;시작
 description: Adobe Target에서 첫 번째 활동을 생성했습니다. 다음은 무엇입니까? 이 문서를 사용하여 추가 리소스, 교육 튜토리얼 및 사용 방법 비디오에 대한 링크를 찾을 수 있습니다.
 title: 타겟을 보다 효과적으로 사용할 수 있는 추가 리소스를 어디에서 찾을 수 있습니까?
 feature: 개요
-translation-type: ht
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: ht
+exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
+workflow-type: tm+mt
 source-wordcount: '721'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
-
 
 # 9장: 다음 단계 및 리소스
 
@@ -37,7 +36,7 @@ ht-degree: 100%
 * **Adobe 고객 지원 센터 운영 시간**: &quot;운영 시간&quot;은 Adobe 고객 지원 센터 팀이 주도하는 이니셔티브입니다. 이러한 세션은 참가자가 문제를 해결하도록 관련 정보를 제공하여 도움을 주며, [!DNL Target]을 포함하여 [!DNL Adobe Experience Cloud] 솔루션을 제대로 사용할 수 있는 팁과 트릭을 제시합니다. [Adobe 고객 지원 센터 운영 시간](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)을 참조하십시오.
 * **Adobe Summit**: 디지털 마케팅 담당자를 위한 연중 가장 큰 전문 행사에 참석하십시오.
    * [Adobe Summit](https://summit.adobe.com/na/) (북미)
-   * [Adobe Summit](http://summit-emea.adobe.com/emea/) (EMEA)
+   * [Adobe Summit](https://summit-emea.adobe.com/emea/) (EMEA)
 
 ## 추가 리소스
 
@@ -47,4 +46,3 @@ ht-degree: 100%
 * **Adobe Target 인증**: 새로운 Adobe Target 시험을 통해 Adobe Certified Expert 지위를 획득하십시오. 여기에서 시험 또는 교육 과정을 예약합니다. [교육 및 인증](/help/c-intro/training-and-certification.md)을 참조하십시오.
 * **Adobe Target 릴리스 정보**: 각 [!DNL Target Standard] 및 [!DNL Target Premium] 릴리스에 대한 특징, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 Target API, SDK, JavaScript 라이브러리(at.js) 및 기타 플랫폼 변경 사항에 대한 릴리스 정보도 포함됩니다. [Target 릴리스 정보(최신)](/help/r-release-notes/release-notes.md)를 참조하십시오.
 * **Adobe Target 뉴스레터**: 제품 업데이트 및 향후 계획, 개인화 및 최적화 팁과 요령, 고객 성공, 예정된 이벤트, 인기 있는 블로그 게시물 등에 대해 알아볼 수 있습니다. [Target Insider 뉴스레터](/help/r-release-notes/target-insider-newsletter.md)를 참조하십시오.
-
