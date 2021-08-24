@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 에서 SPA VEC를 사용하여 지속적인 개
 title: SPA VEC(단일 페이지 앱 시각적 경험 작성기)를 어떻게 사용합니까?
 feature: 시각적 경험 작성기(VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3702'
 ht-degree: 92%
 
 ---
@@ -25,13 +25,13 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 &quot;보기&quot;에 대해 더 설명하기 위해 React에 구현된 이러한 가상의 온라인 전자 상거래 사이트를 탐색하고 몇 가지 &quot;보기&quot; 예를 살펴보겠습니다. 아래 링크를 클릭하여 새 브라우저 탭에서 이 사이트를 엽니다.
 
-**링크: [홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
+**링크:  [홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
 
 ![홈 사이트](/help/c-experiences/assets/home.png)
 
 홈 사이트로 이동하면 사이트에서 판매되는 최신 제품과 부활절 판매를 홍보하는 영웅 이미지가 바로 표시됩니다. 이 경우 보기는 전체 홈 사이트로 정의할 수 있습니다. 아래의 Adobe Target 보기 구현 섹션에서 이에 대해 자세히 설명할 예정이므로 이것은 기록해 두면 편리합니다.
 
-**링크: [제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
+**링크:  [제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![제품 사이트](/help/c-experiences/assets/product-site.png)
 
@@ -45,7 +45,7 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 추가 로드 단추를 클릭하여 사이트에서 더 많은 제품을 탐색하려 합니다. 이 경우에는 웹 사이트 URL은 변경되지 않습니다. 그러나 여기에서 &quot;보기&quot;는 위에 표시된 두 번째 제품 행만 나타낼 수 있습니다. 보기 이름은 &quot;PRODUCTS-PAGE-2&quot;이라고 할 수 있습니다.
 
-**링크: [체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
+**링크:  [체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![체크아웃 페이지](/help/c-experiences/assets/checkout.png)
 
@@ -65,7 +65,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    ![구현 세부 사항 대화 상자](/help/c-experiences/assets/imp-200.png)
 
-   [!UICONTROL 관리 > 구현]에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. at.js 2.x는 [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)를 통해 배포할 수도 있습니다. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
+   [!UICONTROL 관리 > 구현]에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. at.js 2.x는 [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)에서 태그를 통해 배포할 수도 있습니다. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
 
 1. at.js 2.x의 최신 함수인 [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)를 사이트에 구현합니다.
 
@@ -81,7 +81,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    이제 가상의 전자 상거래 SPA에 대해 React에서 `triggerView()` 함수를 호출하는 방법에 대한 몇 가지 사용 사례를 살펴보겠습니다.
 
-   **링크: [홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
+   **링크:  [홈 사이트](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -112,7 +112,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **링크: [제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
+   **링크:  [제품 사이트](https://target.enablementadobe.com/react/demo/#/products)**
 
    이제 좀 더 복잡한 예를 살펴보겠습니다. 마케터는 사용자가 추가 로드 단추를 클릭한 후 가격 레이블 색상을 빨간색으로 변경함으로써 제품의 두 번째 행을 개인화하려고 합니다.
 
@@ -141,7 +141,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
    }
    ```
 
-   **링크: [체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **링크:  [체크아웃](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![React 체크아웃](/help/c-experiences/assets/react6.png)
 
@@ -390,9 +390,9 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 다음 사항이 변경되었습니다.
 
 * URL 아래 있는 홈 보기에서 배경색을 변경했습니다. [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
-* 제품 보기에서 URL 아래에 있는 단추 색상을 변경했습니다.[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)
+* 제품 보기에서 URL 아래에 있는 단추 색상을 변경했습니다. [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)
 
-위의 예를 염두에 두고, 다음을 포함하도록 [!UICONTROL 페이지 전달] 설정을 구성 할 때 발생하는 작업:at.js 2.[](https://target.enablementadobe.com/react/demo/#/)*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
+위의 예를 염두에 두고, 다음을 포함하도록 [!UICONTROL 페이지 전달] 설정을 구성 할 때 발생하는 작업: at.js 2.[](https://target.enablementadobe.com/react/demo/#/)*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
 
 ![페이지 전달 대화 상자](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -408,7 +408,7 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 **결과**: 사용자는 홈 보기에서 녹색 배경색을 보게 됩니다. 사용자가 [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products로 이동하면 해당 작업이 제품 보기 아래의 브라우저에서 캐시되므로 단추의 파란색 배경색이 표시됩니다.
 
-참고:[https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)로 이동하는 사용자가 페이지 로드를 트리거하지 않았습니다.
+참고: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products)로 이동하는 사용자가 페이지 로드를 트리거하지 않았습니다.
 
 **사용자 여정 2**
 
