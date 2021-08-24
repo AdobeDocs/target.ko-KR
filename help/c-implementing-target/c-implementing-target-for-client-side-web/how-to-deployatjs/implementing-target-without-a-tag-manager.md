@@ -5,9 +5,9 @@ title: 태그 관리자 없이 [!DNL Target] 을 구현할 수 있습니까?
 feature: 서버측 구현
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1674'
 ht-degree: 52%
 
 ---
@@ -117,10 +117,10 @@ API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성
 
 >[!NOTE]
 >
->* [Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) Launch 는 Target 및 at.js 라이브러리를 구현하기 위해 선호되는 방법입니다. 다음 정보는 Adobe Platform launch을 사용하여 Target을 구현할 때 적용할 수 없습니다.
+>* [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 는  [!DNL Target] 및 at.js 라이브러리를 구현하기 위해 선호되는 방법입니다. 다음 정보는 [!DNL Adobe Experience Platform]에서 태그를 사용하여 [!DNL Target]을 구현할 때 적용할 수 없습니다.
    >
    >
-* Target 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
+* [!DNL Target] 팀은 모두 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
 
 
 ### [!DNL Target] 인터페이스를 사용하여 at.js 다운로드 를 참조하십시오 {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
 
 at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현되어야 합니다.
 
-[Adobe Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)와 같은 태그 관리자를 사용하지 않는 일반적인 Target 구현은 다음과 같습니다.
+[[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25)의 태그와 같이 태그 관리자를 사용하지 않는 일반적인 Target 구현은 다음과 같습니다.
 
 ```
 <!doctype html> 
