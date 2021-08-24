@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] at.js JavaScript 라이브러리의 각 버전 
 title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
-source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '4229'
+source-wordcount: '4228'
 ht-degree: 89%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 89%
 >
 >Target 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오.
 >
->[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch 는 at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Launch] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *태그 개요* 안내서의 [확장 업그레이드](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html)를 참조하십시오.
+>[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)의 태그는 at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Adobe Experience Platform] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *태그 개요* 안내서의 [확장 업그레이드](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html)를 참조하십시오.
 
 ## at.js 2.6.1(2021년 8월 16일)
 
@@ -50,7 +50,7 @@ ht-degree: 89%
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 * mbox 요청에 포함되는 `targetPageParams`에 관한 문제가 해결되었습니다. `targetPageParams`은 `pageLoad` 요청에만 포함되어야 합니다. (TNT-40247)
-* [!DNL Adobe Experience Platform Launch] 확장에서 참조하는 최적화된 창 및 문서 전역. (TNT-37124)
+* [!DNL Adobe Experience Platform] 확장에서 참조하는 최적화된 창 및 문서 전역. (TNT-37124)
 
 ## at.js 2.4.0(2021년 1월 14일)
 
@@ -83,7 +83,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 * [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 통해 `deviceIdLifetime` 설정을 재정의할 수 있게 했습니다. (TNT-36349)
 * CNAME 및 에지 재정의 at.js 2를 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35065)
-* [!DNL Target] [!DNL Launch] 확장 v2 및 [!DNL Adobe Analytics] [!DNL Launch] 확장을 사용할 때 [!DNL Target] 이 [!DNL Analytics] `sendBeacon` 호출을 지연시키는 문제를 해결했습니다. (TNT-36407, TNT-35990, TNT-36000)
+* [!DNL Target]  확장 v2 및 [!DNL Adobe Analytics] [!DNL Launch] 확장을 사용할 때 [!DNL Target] 이 [!DNL Analytics] `sendBeacon` 호출을 지연시키는 문제를 해결했습니다. (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js 버전 2.3.0(2020년 3월 25일)
 
@@ -110,7 +110,7 @@ at.js 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있
 
    >[!NOTE]
    >
-   >ECID Launch 확장을 v4.4로 업그레이드하여 향상된 성능을 이용해 보십시오.
+   >ECID 확장을 v4.4로 업그레이드하여 향상된 성능을 이용해 보십시오.
 
 * at.js 버전 2.2에서는 `serverState` 이라는 새로운 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 사용하고 있으며, 서버측에서 배달 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+에서 서버측에서 가져온 콘텐츠에서 직접 경험을 적용하고 서비스되는 페이지의 일부로 클라이언트에 반환할 수 있는 기능을 제공합니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)의 &quot;serverState&quot;를 참조하십시오.
 
@@ -123,7 +123,7 @@ at.js 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있
 
 >[!NOTE]
 >
->ECID Launch 확장을 v4.4로 업그레이드하여 향상된 성능을 이용해 보십시오.
+>ECID 확장을 v4.4로 업그레이드하여 향상된 성능을 이용해 보십시오.
 
 ## at.js 버전 2.1.1(2019년 7월 24일)
 
