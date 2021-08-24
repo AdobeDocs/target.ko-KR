@@ -5,10 +5,10 @@ title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
 feature: 관리 및 구성
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 66%
+source-wordcount: '1460'
+ht-degree: 64%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 66%
 | 2. 작업 공간(제품 프로필) 만들기 | [!DNL Adobe Admin Console for Enterprise] |
 | 3. 사용자 그룹 만들기(선택 사항) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. 속성 만들기 | [!DNL Target] UI |
-| 5: `at_property` 매개 변수를 포함하도록 구현 업데이트 | [!DNL Target] UI, at.js 함수 또는  [!DNL Adobe Experience Platform Launch] |
+| 5: `at_property` 매개 변수를 포함하도록 구현을 업데이트합니다 | [!DNL Target] 의 UI, at.js 함수 또는 태그  [!DNL Adobe Experience Platform] |
 | 6: 역할 및 권한 지정 | [!DNL Adobe Admin Console for Enterprise] |
 
 [!DNL Adobe Admin Console for Enterprise]에서 수행되는 작업의 경우 다음 단계에 따라 콘솔에 액세스하십시오.
@@ -146,9 +146,9 @@ ht-degree: 66%
 
    [!DNL Target] 구현을 업데이트하는 방법에는 여러 가지가 있습니다. 예를 들어, 웹 페이지에는 다음 방법을 사용할 수 있습니다.
 
-   * **[!DNL Adobe Launch]의 &quot;전역 매개 변수&quot;를 통해:**
+   * **의 &quot;태그의 전역 매개 변수&quot;를 통해   [!DNL Adobe Experience Platform]:**
 
-      자세한 내용은 *Adobe Experience Platform Launch* 설명서에서 [글로벌 Target 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)를 참조하십시오.
+      자세한 내용은 *Target 개요* 설명서에서 [글로벌 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)를 참조하십시오.
 
    * **targetPageParams() 함수를 통해:**  at.js 참조  `<head>` 위의 태그에 다음 코드를 넣습니다.
 
