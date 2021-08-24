@@ -5,10 +5,10 @@ title: at.js에 대한 일반적인 질문과 답변은 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 74%
+source-wordcount: '2543'
+ht-degree: 76%
 
 ---
 
@@ -89,7 +89,7 @@ at.js 1.0.0 릴리스를 사용하면 Target 라이브러리를 비동기적으�
 
 at.js를 비동기적으로 로드하려면 다음을 수행하십시오.
 
-* 권장되는 방법은 [!DNL Adobe Experience Platform Launch]를 통해 수행하는 것입니다. 자세한 내용은 [Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)를 사용하여 웹 사이트에서 Experience Cloud 구현 자습서의 [Adobe Target 추가](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) 단원을 참조하십시오.
+* 권장되는 방법은 [!DNL Adobe Experience Platform]의 태그를 사용하는 것입니다.
 * at.js를 로드하는 스크립트 태그에 비동기 속성을 추가하여 at.js를 비동기로 로드할 수도 있습니다. 다음과 같은 코드를 사용하십시오.
 
    ```
@@ -109,7 +109,7 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 페이지(또는 지정된 부분)를 숨긴 다음 at.js 및 글로벌 요청이 로드된 후 표시하는 사전에 숨기는 코드 조각을 사용하여 플리커를 방지할 수 있습니다. at.js를 로드하기 전에 코드 조각을 추가해야 합니다.
 
-비동기 Launch 구현을 통해 at.js를 배포하는 경우 Launch를 사용하여 웹 사이트에 Experience Cloud 구현 자습서](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html)의 [Target 사전에 숨기는 코드 조각 추가](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) 섹션에 설명된 대로 페이지에서 Launch Embed 코드 앞에 사전에 숨기는 코드 조각을 직접 포함해야 합니다.[
+비동기 [!DNL Adobe Experience Platform] 구현을 통해 at.js를 배포하는 경우 [!DNL Adobe Experience Platform] 포함 코드를 사용하여 [!DNL Target] 구현 전에 페이지에 바로 사전에 숨기는 코드 조각을 포함해야 합니다.
 
 동기 DTM 구현을 통해 at.js를 배포하는 경우 페이지 상단에서 트리거된 페이지 로드 규칙을 통해 사전에 숨기는 코드 조각을 추가할 수 있습니다.
 
