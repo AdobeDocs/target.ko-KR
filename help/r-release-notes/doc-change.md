@@ -1,12 +1,12 @@
 ---
 keywords: target 설명서 변경 로그, 설명서 업데이트, 새 주제, 편집, 업데이트, 업데이트
-description: Adobe  [!DNL Target]  제품 설명서의 중요한 추가 사항 및 변경 사항을 최신 상태로 유지하십시오.
+description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및 변경 사항을 최신 상태로 유지하십시오.
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
-feature: 릴리스 정보
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2277'
 ht-degree: 97%
 
 ---
@@ -26,14 +26,14 @@ ht-degree: 97%
 |  | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 모범 사례 섹션이 추가되었습니다. |
 | 8월 11일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK 버전 2.2.0에 대한 릴리스 노트가 추가되었습니다. |
 | 8월 9일 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 주제가 업데이트됨. |
-| 8월 6일 | [at.js.로 [!UICONTROL Analytics for Target](A4T)을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 다음 참고 사항이 업데이트되었습니다.<ul><li>at.js 1.8.0+ 및 at.js 2.x+는 Adobe Audience Manager(AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않습니다.</li></ul> |
+| 8월 6일 | [at.js.로 [!UICONTROL Analytics for Target] (A4T)을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 다음 참고 사항이 업데이트되었습니다.<ul><li>at.js 1.8.0+ 및 at.js 2.x+는 Adobe Audience Manager(AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않습니다.</li></ul> |
 | 8월 5일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1 릴리스가 지연되었음을 나타내는 참고 사항이 추가되었습니다. |
 |  | [[!UICONTROL 자동 할당] 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동 중간에 보고 소스를 변경할 수 있습니까?</li></ul> |
 | 8월 4일 | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | `optinEnabled` 설정에 대한 정보가 추가되었습니다. |
-| 8월 3일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!UICONTROL Target 배달 API] 릴리스에 대한 정보가 추가되었습니다. |
-|  | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!DNL Target Standard/Premium] 21.8.1 릴리스(2021년 8월 4일)에 대한 정보가 추가되었습니다. |
+| 8월 3일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!UICONTROL Target 게재 API] 릴리스에 대한 정보가 추가되었습니다. |
+|  | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!DNL Target Standard/Premium] 21.8.1 릴리스(2021년 8월 4일)에 대한 정보가 추가되었습니다. |
 | 8월 2일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>A4T를 이용한 자동 할당 활동의 트래픽 분포</li></ul> |
-|  | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!UICONTROL Target 배달 API] 릴리스에 대한 정보가 추가되었습니다. |
+|  | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 예정된 [!UICONTROL Target 게재 API] 릴리스에 대한 정보가 추가되었습니다. |
 | 7월 30일 | [제한](/help/r-troubleshooting-target/target-limits.md) | 다음 섹션이 업데이트되었습니다.<ul><li>entity.id</li><li>productPurchasedId 매개 변수</li></ul> |
 | 7월 29일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break: 2021년 8월 11일 수요일에 대한 정보가 추가되었습니다. |
 |  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 글로벌 mbox를 사용자 맞춤화한 후 VEC에서 생성된 영향을 받는 활동을 편집하고 다시 저장해야 함을 나타내기 위해 중요 참고 사항이 업데이트되었습니다. |
@@ -46,8 +46,8 @@ ht-degree: 97%
 | 7월 21일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
 | 7월 19일 | [분류 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | 이벤트 코드 -1 또는 65535에 대한 정보가 추가되었습니다. |
 | 7월 16일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.0 릴리스에 대한 정보가 추가되었습니다. |
-|  | [[!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) 관련 문제 해결 | 허용 목록에 추가할 IP 주소 목록이 업데이트되었습니다. |
-| 7월 12일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 중요 ROI, 인사이트 및 절약 시간을 수량화합니다.</li><li>[!DNL Adobe Target]커뮤니티 Q&amp;A Coffee Break는 2021년 7월 21일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다.</li></ul> |
+|  | [ [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) 관련 문제 해결 | 허용 목록에 추가할 IP 주소 목록이 업데이트되었습니다. |
+| 7월 12일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 중요 ROI, 인사이트 및 절약 시간을 수량화합니다.</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break는 2021년 7월 21일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다.</li></ul> |
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ 추가: “새 기사나 비디오만 추천하려면 어떻게 합니까?” |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | “타겟 API 호출” 섹션의 텍스트가 업데이트되었습니다. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` 키에 대한 설명이 업데이트되었습니다. |
@@ -59,15 +59,15 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 7월 12일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 중요 ROI, 인사이트 및 절약 시간을 수량화합니다.</li><li>[!DNL Adobe Target]커뮤니티 Q&amp;A Coffee Break는 2021년 7월 21일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다.</li></ul> |
+| 7월 12일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Analytics + [!DNL Adobe Target]을(를) 통합함으로써 중요 ROI, 인사이트 및 절약 시간을 수량화합니다.</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break는 2021년 7월 21일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다.</li></ul> |
 |  | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | 다음 FAQ 추가: “새 기사나 비디오만 추천하려면 어떻게 합니까?” |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | “타겟 API 호출” 섹션의 텍스트가 업데이트되었습니다. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` 키에 대한 설명이 업데이트되었습니다. |
 |  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 표시하도록 1단계가 업데이트되었습니다. |
 |  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
 | 6월 29일 | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | 다음과 같은 섹션이 추가되었습니다.<ul><li>Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성</li><li>미리보기 URL</li></ul> |
-| 6월 24일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)에 대한 프리릴리스 정보가 업데이트되었습니다. |
-| 6월 16일 | [[!DNL Target] 릴리스 정보(현재)](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK 버전 1.0.0 릴리스에 대한 추가 정보입니다. |
+| 6월 24일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)에 대한 프리릴리스 정보가 업데이트되었습니다. |
+| 6월 16일 | [[!DNL Target] 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK 버전 1.0.0 릴리스에 대한 추가 정보입니다. |
 |  | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] 모델에 대한 데이터는 얼마나 지속됩니까?</li></ul> |
 | 6월 8일 | [at.js로 타겟 (A4T) 에 대한 분석을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상의 버전은 [!DNL Adobe Audience Manager] (AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않는 점을 참고하십시오. |
 |  | [환경](/help/administrating-target/environments.md) | [!UICONTROL 활성 및 비활성 활동]을 지정하는 경우, 이 환경에서의 호스트도 비활성 활동을 표시하는 점을 참고하십시오. |
@@ -88,14 +88,14 @@ ht-degree: 97%
 |  | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Adobe Experience Platform Web SDK 2.5.0(2021년 6월 1일) 릴리스에 대해 추가된 정보입니다. |
 | 5월 27일 | [제한](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] API 호출에 대해 추가된 섹션입니다. 제한은 분당 50회 호출입니다. |
 | 5월 20일 | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 다음과 같은 Adobe 기술 블로그의 블로그 게시물로 링크 추가됨:<ul><li>Adobe 기술 블로그 - 파트2: Edge 플랫폼(AWS Lambda@Edge)에서 실험과 개인화에 대해 [!DNL Adobe Target] NodeJS SDK 실행하기</li></ul> |
-|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다. &quot;[!UICONTROL 자동 타겟] 활동은 동기화 문제를 일으킬 수 있습니다.&quot; |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다. &quot; [!UICONTROL 자동 타겟] 활동은 동기화 문제를 일으킬 수 있습니다.&quot; |
 | 5월 17일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | at.js2.5.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | at.js 2.5.0 버전(이후 버전 포함)의 [!UICONTROL Automated Personalization] (AP) 활동에 대해 이용할 수 있는 프리뷰 링크를 나타내는 업데이트된 항목입니다. |
 |  | [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | at.js 2.5.0 릴리스에서는 Microsoft Internet Explorer 10, Internet Explorer 11, 그리고 그 이하 버전에 대한 지원이 제거되었음을 나타냈습니다. Microsoft Edge는 at.js 2.5.0과 이후 버전에서 지속 지원됩니다. |
-|  | [[!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) 관련 문제 해결 | 허용 목록에 추가할 IP 주소 목록이 업데이트되었습니다. |
+|  | [ [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) 관련 문제 해결 | 허용 목록에 추가할 IP 주소 목록이 업데이트되었습니다. |
 | 5월 12일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 다음에 프리릴리스 정보를 추가했습니다.<ul><li>Adobe Experience Platform Web SDK (2021년 5월 17일</li><li>Target Standard Premium 21.5.2</li></ul> |
-| 5월 10일 | [[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | &quot;[!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]에서 만들어진 알고리즘을 사용할 수 있습니까?&quot; FAQ를 추가했습니다 |
-|  | [ [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) 구현 | [!DNL Adobe Dynamic Tag Manager]는 더 이상 지원되지 않음을 나타냈습니다. 대신, [!DNL Adobe]는 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)로 구현하는 것을 권장합니다. |
+| 5월 10일 | [[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | &quot; [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]에서 만들어진 알고리즘을 사용할 수 있습니까?&quot; FAQ를 추가했습니다 |
+|  | [ [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) 구현 | [!DNL Adobe Dynamic Tag Manager] 는 더 이상 지원되지 않음을 나타냈습니다. 대신, [!DNL Adobe] 는 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)로 구현하는 것을 권장합니다. |
 | 5월 6일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>나의 [!UICONTROL Recommendations] 오퍼 활동, 오퍼, 프로모션, 또는 기준 설정의 구성 변경이 내 사이트에 반영되려면 얼마나 걸립니까?</li><li>사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 *사용자가 받는* Recommendations에 반영되려면 얼마나 걸립니까?</li><li>사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 *다른* 사용자가 받는 Recommendations에 반영되려면 얼마나 걸립니까?</li></ul> |
 |  | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 다음과 같은 Adobe 기술 블로그의 블로그 게시물로 링크 추가됨:<ul><li>파트1: Edge 플랫폼(Akamai Edge Workers)에서 실험과 개인화에 대해 Adobe Target NodeJS SDK 실행하기</li></ul> |
 | 5월 5일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | Adobe Target 커뮤니티 Q&amp;A Coffee Break는 2021년 5월 12일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다. |
@@ -118,8 +118,8 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 4월 9일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | at.js 버전 2.5.0 릴리스(2021년 4월 19일)에 대한 프리릴리스 정보가 추가됨 |
-| 4월 9일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.4.1 릴리스(2021년 4월 19일)에 대한 프리릴리스 정보가 추가됨 |
+| 4월 9일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | at.js 버전 2.5.0 릴리스(2021년 4월 19일)에 대한 프리릴리스 정보가 추가됨 |
+| 4월 9일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.4.1 릴리스(2021년 4월 19일)에 대한 프리릴리스 정보가 추가됨 |
 |  | [이메일에 권장 사항 통합](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 옵션 1과 2에 대한 용량 가이드라인을 기술하는 참고 사항이 추가되었습니다. |
 | 3월 29일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | 새 FAQ 추가:<ul><li>최근에 본 항목 기반의 권장 사항은 단일 방문자에 대해 여러 디바이스에서 지속됩니까?</li></ul> |
 | 3월 23일 | [릴리스 정보](/help/r-release-notes/release-notes.md) | at.js 버전 2.4.1에 대한 릴리스 정보가 추가되었습니다. |
@@ -141,7 +141,7 @@ ht-degree: 97%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2월 22일 | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 다음 FAQ가 업데이트되었습니다.<ul><li>Analysis Workspace에서 세그먼트를 적용할 수 있는 위치는 어디입니까?</li></ul> |
-| 2월 16일 | [Target 릴리스 정보(프리릴리스)](/help/r-release-notes/target-release-notes.md) | 프리릴리스 정보에서 오퍼 제한 크기에 대한 텍스트가 업데이트되었습니다. |
+| 2월 16일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 프리릴리스 정보에서 오퍼 제한 크기에 대한 텍스트가 업데이트되었습니다. |
 | 2월 11일 | [Target 작동 방식](/help/c-intro/how-target-works.md) | &quot;봇&quot; 섹션이 업데이트되었습니다. |
 | 2월 10일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 2021년 2월 24일 수요일에 Adobe Target Community Q&amp;A Coffee Break에 대한 정보가 추가되었습니다. |
 | 2월 8일 | [타겟 모바일 미리보기](/help/c-target-mobile-app/target-mobile-preview.md) | Adobe Mobile SDK 버전 4의 AndroidManifest.xml 파일에 추가해야 하는 코드 스니펫을 추가했습니다. |

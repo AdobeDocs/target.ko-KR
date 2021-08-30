@@ -1,12 +1,12 @@
 ---
 keywords: 알림;스킬 빌더;개발자 채팅;coffee break;이벤트;forrester;gartner;웨비나
-description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 포함한 Adobe  [!DNL Target]  이벤트에 등록하십시오.
-title: ' [!DNL Target]  알림 및 이벤트는 어디에서 찾을 수 있습니까?'
-feature: 릴리스 정보
+description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 포함한 Adobe [!DNL Target] 이벤트에 등록하십시오.
+title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '576'
 ht-degree: 94%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 ## [!DNL Adobe Target]이 받은 인정
 
-포레스터와 가트너는 최근 시장 선도자로 [!DNL Adobe Target]을 선정했습니다.
+포레스터와 가트너는 최근 시장 선도자로 [!DNL Adobe Target] 을 선정했습니다.
 
 | 검색 서비스 | 세부 사항 |
 | --- | --- |
@@ -45,7 +45,7 @@ ht-degree: 94%
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## 웨비나: HSBC가 Adobe [!DNL Target]과 AI를 활용하여 규모에 맞게 신속하게 개인화를 최적화하고 제공하는 방법
+## 웨비나: HSBC가 Adobe [!DNL Target] 과 AI를 활용하여 규모에 맞게 신속하게 개인화를 최적화하고 제공하는 방법
 
 * **[여기서 웨비나 녹화 보기](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 

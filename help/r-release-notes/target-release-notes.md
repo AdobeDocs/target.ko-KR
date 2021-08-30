@@ -2,16 +2,16 @@
 keywords: 릴리스 정보;릴리스;업데이트;향후 릴리스;향상;새로운 기능;수정;업데이트;프리릴리스
 description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Target의 예정된 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 내용에 대해 알아봅니다.
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
-feature: 릴리스 정보
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '349'
 ht-degree: 99%
 
 ---
 
-# Target 릴리스 정보(프리릴리스)
+# Target 릴리스 정보 (프리릴리스)
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
@@ -29,21 +29,21 @@ ht-degree: 99%
 
 이 유지 관리 릴리스에는 다음과 같은 고객용 변경 사항을 포함하여 많은 백엔드 개선 사항이 포함되어 있습니다.
 
-* [!UICONTROL 양식 기반 경험 작성기]에서 생성된 [!UICONTROL 자동 개인화] 활동에 대한 보고서를 보고서에서 삭제된 오퍼를 참조하도록 문제를 해결했습니다. 이로 인해 “이 보고서에 대한 데이터를 검색하는 데 문제가 있습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.”라는 오류 메시지가 표시됩니다. (TGT-41028)
+* [!UICONTROL 양식 기반 경험 작성기] 에서 생성된 [!UICONTROL 자동 개인화] 활동에 대한 보고서를 보고서에서 삭제된 오퍼를 참조하도록 문제를 해결했습니다. 이로 인해 “이 보고서에 대한 데이터를 검색하는 데 문제가 있습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.”라는 오류 메시지가 표시됩니다. (TGT-41028)
 
-## Target 배달 API(2021년 8월 3일)
+## Target 게재 API(2021년 8월 3일)
 
 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 * mbox 매개 변수에 대한 제한이 100개 매개 변수로 늘어났습니다. 이전 제한은 50개 매개 변수였습니다. (TNT-41717)
-* `categoryId`에 대한 제한이 256자로 늘어났습니다. 이전 제한은 128자였습니다.
-* [!DNL Adobe Audience Manager](AAM)가 배달 API에 추가되었습니다.
+* `categoryId` 에 대한 제한이 256자로 늘어났습니다. 이전 제한은 128자였습니다.
+* [!DNL Adobe Audience Manager] (AAM)가 게재 API에 추가되었습니다.
 
    * AAM UUID: 사용자를 고유하게 식별하는 데 사용되는 내부 AAM ID입니다.
    * dataPartnerId: 데이터 파트너의 ID입니다.
    * dataPartnerUserId: 데이터 파트너가 제공한 사용자 ID입니다.
 
-   이전에는 배달 API가 `dcsLocationHint` 및 `blob`에만 포함되었습니다. (TNT-41644)
+   이전에는 게재 API가 `dcsLocationHint` 및 `blob` 에만 포함되었습니다. (TNT-41644)
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

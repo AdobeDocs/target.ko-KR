@@ -1,14 +1,14 @@
 ---
 keywords: 릴리스 정보;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트
-description: SDK, API, JavaScript 라이브러리를 포함하여  [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
+description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
 landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
 title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
-feature: 릴리스 정보
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '692'
+ht-degree: 90%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 0%
 >
 >**mbox.js 서비스 종료**: 2021년 3월 31일부터 [!DNL Adobe Target] 에서는 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2021년 3월 31일 이후, mbox.js로부터의 모든 호출은 정상적으로 실패하고 기본 콘텐츠를 제공하여 [!DNL Target] 활동이 실행되는 페이지에 영향을 미칩니다.
 >
->새로운 [!DNL Adobe Experience Platform Web SDK]의 가장 최근 또는 사이트에 문제가 발생할 가능성을 피하기 위해 at.js JavaScript 라이브러리로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
+>새로운 [!DNL Adobe Experience Platform Web SDK] 의 가장 최근 또는 사이트에 문제가 발생할 가능성을 피하기 위해 at.js JavaScript 라이브러리로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
@@ -39,31 +39,31 @@ ht-degree: 0%
 
 이 유지 관리 릴리스에는 다음과 같은 고객용 변경 사항을 포함하여 많은 백엔드 개선 사항이 포함되어 있습니다.
 
-* [!UICONTROL 양식 기반 경험 작성기]에서 생성된 [!UICONTROL 자동 개인화] 활동에 대한 보고서를 보고서에서 삭제된 오퍼를 참조하도록 문제를 해결했습니다. 이로 인해 “이 보고서에 대한 데이터를 검색하는 데 문제가 있습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.”라는 오류 메시지가 표시됩니다. (TGT-41028)
+* [!UICONTROL 양식 기반 경험 작성기] 에서 생성된 [!UICONTROL 자동 개인화] 활동에 대한 보고서를 보고서에서 삭제된 오퍼를 참조하도록 문제를 해결했습니다. 이로 인해 “이 보고서에 대한 데이터를 검색하는 데 문제가 있습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.”라는 오류 메시지가 표시됩니다. (TGT-41028)
 
-## [!DNL Target Delivery API](2021년 8월 3일)
+## [!DNL Target Delivery API] (2021년 8월 3일)
 
 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 * mbox 매개 변수에 대한 제한이 100개 매개 변수로 늘어났습니다. 이전 제한은 50개 매개 변수였습니다. (TNT-41717)
-* `categoryId`에 대한 제한이 256자로 늘어났습니다. 이전 제한은 128자였습니다.
-* [!DNL Adobe Audience Manager](AAM)가 배달 API에 추가되었습니다.
+* `categoryId` 에 대한 제한이 256자로 늘어났습니다. 이전 제한은 128자였습니다.
+* [!DNL Adobe Audience Manager] (AAM)가 게재 API에 추가되었습니다.
 
    * AAM UUID: 사용자를 고유하게 식별하는 데 사용되는 내부 AAM ID입니다.
    * dataPartnerId: 데이터 파트너의 ID입니다.
    * dataPartnerUserId: 데이터 파트너가 제공한 사용자 ID입니다.
 
-   이전에는 배달 API가 `dcsLocationHint` 및 `blob`에만 포함되었습니다. (TNT-41644)
+   이전에는 게재 API가 `dcsLocationHint` 및 `blob` 에만 포함되었습니다. (TNT-41644)
 
 ## at.js 2.6.0 (2021년 7월 27일)
 
-* at.js settings `secureOnly`가 `true`로 설정될 때마다 쿠키에 보안 속성이 추가됩니다.
+* at.js settings `secureOnly` 가 `true` 로 설정될 때마다 쿠키에 보안 속성이 추가됩니다.
 * 이제 `triggerView()`를 사용할 때 응답 토큰을 사용할 수 있습니다.
 * `CONTENT_RENDERING_NO_OFFERS` 이벤트와 관련된 문제가 해결되었습니다. 이제 [!DNL Target]에서 반환되는 내용이 없을 때 이 이벤트가 정상적으로 트리거됩니다.
-* `prefetch` 요청을 사용할 때 [!DNL Analytics for Target](A4T) 클릭 메트릭 세부 사항이 정상적으로 반환됩니다.
+* `prefetch` 요청을 사용할 때 [!DNL Analytics for Target] (A4T) 클릭 메트릭 세부 사항이 정상적으로 반환됩니다.
 * UUID 생성이 더 이상 `Math.random()`을 사용하지 않고 `window.crypto`를 사용합니다.
 * 모든 네트워크 호출에서 `sessionId` 쿠키 만료가 정상적으로 연장됩니다.
-* 이제 [!UICONTROL 단일 페이지 애플리케이션](SPA) 보기 캐시 초기화가 정상적으로 처리되며 `viewsEnable` 설정이 적용됩니다.
+* 이제 [!UICONTROL 단일 페이지 애플리케이션] (SPA) 보기 캐시 초기화가 정상적으로 처리되며 `viewsEnable` 설정이 적용됩니다.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
