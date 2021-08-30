@@ -5,9 +5,9 @@ title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 �
 feature: 릴리스 정보
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4505'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 97%
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
 
-### A4T를 사용하여 자동 할당 활동의 트래픽 배포 {#aa-a4t}
+### A4T를 이용한 자동 할당 활동의 트래픽 분포 {#aa-a4t}
 
-경우에 따라 [!UICONTROL Analytics for Target](A4T)을 사용하여 [!UICONTROL 자동 할당] 활동의 트래픽 분배가 보고된 각 경험의 전환율에 따라 발생하는 트래픽과 다를 수 있습니다. 이러한 현상은 재방문자 트래픽이 많은 활동에 대해 더 자주 발생합니다. 영향을 받는 고객은 영향을 받는 활동에 대한 알림을 받게 됩니다.
+경우에 따라 [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 할당] 활동의 트래픽 분포가 각 경험의 보고된 전환율에 따라 발생해야 하는 것과 다를 수 있습니다. 이는 재방문자 트래픽 비율이 높은 활동에서 더 자주 발생합니다. 영향을 받는 고객은 영향을 받는 활동에 대해 알림을 받습니다.
 
-이 문제가 해결될 때까지 표준 [!DNL Target] 보고와 함께 [!UICONTROL 자동 할당]을 사용하거나 [!UICONTROL 자동 할당] 보고 대신 [!DNL Analytics] 보고 기능을 사용하여 표준 A/B 테스트를 사용하십시오. [!DNL Analytics] 보고 (TOP-131)
+이 문제가 해결될 때까지 표준 [!DNL Target] 보고로 [!UICONTROL 자동 할당] 을 사용하거나 [!DNL Analytics] 보고로 [!UICONTROL 자동 할당] 을 사용하는 대신 [!DNL Analytics] 보고로 표준 A/B 테스트를 사용합니다. (TOP-131)
 
 ### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target (A4T) 분석
 
@@ -35,13 +35,13 @@ ht-degree: 97%
 
 지원되는 목표 지표와 지원되지 않는 목표 지표의 목록은 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. (TNT-38409)
 
-### EEC(향상된 경험 작성기)가 PUT 요청을 지원하지 않습니다.
+### EEC(고급 경험 작성기)는 PUT 요청을 지원하지 않습니다.
 
-EEC 관련 문제로 인해 현재 EEC가 PUT 요청을 지원하지 않으며, 504 시간 초과 오류가 발생합니다. (TGT-41493)
+현재 EEC의 문제로 인해 PUT 요청을 지원하지 못하고 504 시간 초과 오류가 발생합니다. (TGT-41493)
 
 ### [!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.
 
-[!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타켓](AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
+[!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타켓] (AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
 
 ### [!UICONTROL 자동 타겟] 활동은 동기화 문제를 일으킬 수 있습니다
 
@@ -137,7 +137,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 성공 지표가 노출 시마다 증분되도록 설정되면 Target에서는 방문자가 이 성공 지표를 방문할 때마다 방문자를 다시 카운트합니다. 그런 다음 Target은 성공 지표 &quot;멤버십&quot;을 0으로 재설정하여 다음 노출 시 다시 카운트될 수 있도록 합니다. 따라서 해당 지표를 먼저 확인해야 하는 다른 지표가 있다고 해도, Target은 사용자가 첫 번째 지표를 확인했다는 사실을 절대 인식하지 못합니다.
 
-### [!DNL Target](A4T) 에 대한 Analytics
+### [!DNL Target] (A4T) 에 대한 Analytics
 
 Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko-KR)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
 
@@ -268,7 +268,7 @@ GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러
 
 ### Recommendations
 
-* 피드의 항목이 이전 실행과 동일한 경우 Recommendations 피드 색인이 &quot;색인 큐 대기 중&quot;을 표시할 수 있습니다. 배달을 위한 제품 섭취는 영향을 받지 않습니다. (RECS-6663)
+* 피드의 항목이 이전 실행과 동일한 경우 Recommendations 피드 색인이 &quot;색인 큐 대기 중&quot;을 표시할 수 있습니다. 게재를 위한 제품 수집은 영향을 받지 않습니다. (RECS-6663)
 
    이 문제는 Target 19.4.2 릴리스에서 해결되었습니다.
 
