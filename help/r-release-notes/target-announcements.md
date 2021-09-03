@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
 workflow-type: tm+mt
 source-wordcount: '576'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -30,12 +30,12 @@ ht-degree: 94%
 * **오전 8시 (PDT, UTC -7)**
 * **[여기를 클릭하여 자세한 내용을 살펴보고 등록하십시오](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-[!DNL Adobe Target]의 수석 제품 관리자인 Vishal Chrodia는 자신의 전문 분야에 관한 고객 질문에 답할 예정입니다.
+[!DNL Adobe Target]의 수석 제품 관리자인 Vishal Chordia가 자신의 전문 지식을 바탕으로 고객의 질문에 답변해 드립니다.
 
 * [!DNL Adobe Experience Platform]
-* 대상 기반 개인화
-* [!DNL Real-time Customer Data Platform] (RTCDP) 통합  [!DNL Target]
-* 일반 [!DNL Target] 항목
+* 대상자 기반 개인화
+* [!DNL Target]과 [!DNL Real-time Customer Data Platform] (RTCDP) 통합
+* 일반 [!DNL Target] 주제
 
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 

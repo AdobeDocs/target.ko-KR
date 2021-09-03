@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '2277'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 8월 24일 | [ [!DNL Target] 를 사용하여 구현 [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] 는에서 데이터 수집 기술 세트로 브랜드 재지정되었습니다 [!DNL Adobe Experience Platform]. 그 결과 제품 설명서에서 몇 가지 용어 변경 사항이 롤아웃되었습니다. |
+| 8월 24일 | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | [!DNL Adobe Experience Platform Launch]가 [!DNL Adobe Experience Platform]의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. |
 | 8월 23일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break<ul><li>2021년 9월 8일 수요일</li><li>오전 8시 (PDT, UTC -7)</li></ul></li></ul> |
 | 8월 19일 | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 다음 FAQ가 업데이트되었습니다.<ul><li>A4T가 가상 보고서 세트를 지원합니까?</li></ul> |
-| 8월 16일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1에 대한 릴리스 노트가 추가되었습니다. |
-|  | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 모범 사례 섹션이 추가되었습니다. |
-| 8월 11일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK 버전 2.2.0에 대한 릴리스 노트가 추가되었습니다. |
-| 8월 9일 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 주제가 업데이트됨. |
+| 8월 16일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1에 대한 릴리스 정보가 추가되었습니다. |
+|  | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | “모범 사례” 섹션이 추가되었습니다. |
+| 8월 11일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK 버전 2.2.0에 대한 릴리스 정보가 추가되었습니다. |
+| 8월 9일 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 주제가 업데이트되었습니다. |
 | 8월 6일 | [at.js.로 [!UICONTROL Analytics for Target] (A4T)을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 다음 참고 사항이 업데이트되었습니다.<ul><li>at.js 1.8.0+ 및 at.js 2.x+는 Adobe Audience Manager(AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않습니다.</li></ul> |
 | 8월 5일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1 릴리스가 지연되었음을 나타내는 참고 사항이 추가되었습니다. |
 |  | [[!UICONTROL 자동 할당] 개요](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동 중간에 보고 소스를 변경할 수 있습니까?</li></ul> |
@@ -147,8 +147,8 @@ ht-degree: 97%
 | 2월 8일 | [타겟 모바일 미리보기](/help/c-target-mobile-app/target-mobile-preview.md) | Adobe Mobile SDK 버전 4의 AndroidManifest.xml 파일에 추가해야 하는 코드 스니펫을 추가했습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제를 명확히 설명했습니다.<ul><li>API를 통해 생성된 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다. 마찬가지로, Target UI에서 이러한 항목을 생성한 후 나중에 API를 통해 편집하면 이러한 변경 내용이 Target UI에 반영되지 않습니다. API를 통해 편집된 항목은 API를 통해 계속 편집되어야 수정 사항이 손실되지 않습니다.</li></ul> |
 | 2월 1일 | [Automated Personalization 요약 보고서](/help/c-reports/reports-ap.md) | 새로운 섹션: &quot;자주 묻는 질문(FAQ)&quot;이 추가되었습니다. |
-| 1월 27일 | [리디렉션 오퍼 만들기](/help/c-experiences/c-manage-content/offer-redirect.md) | 주제가 업데이트됨. |
-|  | [원격 오퍼 만들기](/help/c-experiences/c-manage-content/about-remote-offers.md) | 주제가 업데이트됨. |
+| 1월 27일 | [리디렉션 오퍼 만들기](/help/c-experiences/c-manage-content/offer-redirect.md) | 주제가 업데이트되었습니다. |
+|  | [원격 오퍼 만들기](/help/c-experiences/c-manage-content/about-remote-offers.md) | 주제가 업데이트되었습니다. |
 | 1월 26일 | [전환율](/help/c-reports/conversion-rate.md) | Target이 학생의 t-테스트에서 &quot;제곱 합&quot;을 사용하는 방법을 명확히 설명했습니다. |
 | 1월 22일 | [전환율](/help/c-reports/conversion-rate.md#t-test) | 다음 섹션 추가: &quot;Target이 학생의 t-테스트 사용을 권장하는 이유는 무엇입니까?&quot; |
 | 1월 21일 | [Analytics 및 Target 통합 문제 해결 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 새 섹션 추가: &quot;A4T 활동 보고서에는 &quot;지정되지 않은&quot; 이벤트가 많은 행이 포함됩니다.&quot; |

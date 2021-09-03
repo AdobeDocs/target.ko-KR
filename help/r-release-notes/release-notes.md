@@ -2,13 +2,13 @@
 keywords: 릴리스 정보;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트
 description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
 landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
-title: 현재 릴리스에 포함된 새로운 기능은 무엇입니까?
+title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
 source-wordcount: '692'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -24,18 +24,18 @@ ht-degree: 90%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
-## at.js 2.6.1(2021년 8월 16일)
+## at.js 2.6.1 (2021년 8월 16일)
 
-* On-Device Decisioning을 사용할 때 &quot;하이브리드 모드에 대해 캐시된 아티팩트가 없음&quot;에 대한 버그를 수정합니다.
+* 온디바이스 의사 결정 사용 시 “하이브리드 모드에 대해 사용 가능한 아티팩트 없음” 버그가 수정되었습니다.
 
-## [!DNL Target] node.js SDK 2.2.0(2021년 8월 11일)
+## [!DNL Target] node.js SDK 2.2.0 (2021년 8월 11일)
 
-* SDK 원격 분석 데이터 수집을 추가했습니다
-* 자동화된 배달 API 클라이언트 openapi 코드 겐
+* SDK 원격 분석 데이터 수집 추가됨
+* 자동화된 게재 API 클라이언트 openapi codegen
 
-이 릴리스 및 이전 릴리스에 대한 자세한 내용은 Github의 [Target node.js SDK 설명서](https://github.com/adobe/target-nodejs-sdk)에서 [변경 로그](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)을 참조하십시오.
+이에 대한 추가 정보와 이전 릴리스에 대해서는 Github의 [Target node.js SDK 설명서](https://github.com/adobe/target-nodejs-sdk)에 있는 [변경 로그](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)를 참조하십시오.
 
-## [!DNL Target Standard/Premium] 21.8.1(2021년 8월 10일)
+## [!DNL Target Standard/Premium] 21.8.1 (2021년 8월 10일)
 
 이 유지 관리 릴리스에는 다음과 같은 고객용 변경 사항을 포함하여 많은 백엔드 개선 사항이 포함되어 있습니다.
 
