@@ -2,12 +2,12 @@
 keywords: 시작 키트;대상 환영 키트;소개;소개;시작
 description: Adobe Target에서 첫 번째 활동을 생성했습니다. 다음은 무엇입니까? 이 문서를 사용하여 추가 리소스, 교육 튜토리얼 및 사용 방법 비디오에 대한 링크를 찾을 수 있습니다.
 title: 타겟을 보다 효과적으로 사용할 수 있는 추가 리소스를 어디에서 찾을 수 있습니까?
-feature: 개요
+feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
-workflow-type: tm+mt
-source-wordcount: '721'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '720'
+ht-degree: 100%
 
 ---
 
