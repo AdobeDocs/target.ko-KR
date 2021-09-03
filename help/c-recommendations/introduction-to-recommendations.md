@@ -1,13 +1,13 @@
 ---
-keywords: 권장 사항;소개;소개;웨비나;데모
+keywords: Recommendations;소개;소개;웨비나;데모
 description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe  [!DNL Target] 의 권장 사항 활동에 대해 알아보십시오.
-title: 권장 사항 활동이란 무엇입니까?
+title: Recommendations 활동이란 무엇입니까?
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
-workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '2106'
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 [!DNL Target] 은 사용자가 보고 구매하는 항목이 무엇인지 확인해야 합니다. 구매가 컨텍스트와 관련이 없는 경우 PDF 다운로드, 설문 조사 완료, 뉴스레터 가입, 비디오 보기 등과 같은 다른 유형의 전환 이벤트를 추적할 수 있습니다.
 
-사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우 [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다. 또한 실시간 API를 통해 오프라인 또는 인앱 인터랙션을 [!DNL Target] 에 보낼 수도 있습니다.
+사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우, [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다. 또한 실시간 API를 통해 오프라인 또는 인앱 인터랙션을 [!DNL Target] 에 보낼 수도 있습니다.
 
 ### 상황에 맞는 추천 받기
 
@@ -196,4 +196,4 @@ Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화
 
 ## Adobe [!DNL Target] 기본 사항 웨비나: Recommendations 소개 {#intro-to-recs}
 
-[권장 사항 소개](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Recommendations 소개](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
