@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '2277'
-ht-degree: 100%
+source-wordcount: '2299'
+ht-degree: 99%
 
 ---
 
@@ -15,16 +15,22 @@ ht-degree: 100%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021년 6월 30일)
+## Adobe [!DNL Target] Standard/Premium 21.8.1(2021년 8월 10일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 7년 9월 | [모바일](/help/c-target/c-audiences/c-target-rules/mobile.md) | Safari 14.0.2 이상을 실행하는 타깃팅 장치에 대한 정보로 &quot;고려 사항&quot; 섹션을 업데이트했습니다. |
 | 8월 24일 | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | [!DNL Adobe Experience Platform Launch]가 [!DNL Adobe Experience Platform]의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. |
 | 8월 23일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break<ul><li>2021년 9월 8일 수요일</li><li>오전 8시 (PDT, UTC -7)</li></ul></li></ul> |
 | 8월 19일 | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 다음 FAQ가 업데이트되었습니다.<ul><li>A4T가 가상 보고서 세트를 지원합니까?</li></ul> |
 | 8월 16일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1에 대한 릴리스 정보가 추가되었습니다. |
 |  | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | “모범 사례” 섹션이 추가되었습니다. |
 | 8월 11일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK 버전 2.2.0에 대한 릴리스 정보가 추가되었습니다. |
+
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021년 6월 30일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
 | 8월 9일 | [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | 주제가 업데이트되었습니다. |
 | 8월 6일 | [at.js.로 [!UICONTROL Analytics for Target] (A4T)을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | 다음 참고 사항이 업데이트되었습니다.<ul><li>at.js 1.8.0+ 및 at.js 2.x+는 Adobe Audience Manager(AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않습니다.</li></ul> |
 | 8월 5일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 18.8.1 릴리스가 지연되었음을 나타내는 참고 사항이 추가되었습니다. |

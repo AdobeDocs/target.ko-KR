@@ -1,13 +1,13 @@
 ---
 keywords: 타깃팅;모바일;target 모바일;deviceatlas;iPhone;iPhone 모델;장치 atlas;displaywidth;디스플레이 너비;디스플레이 높이;장치 유형;displayheight;휴대폰;태블릿;태블릿;장치 모델
-description: 모바일 장치, 장치 유형, 장치 공급업체, 화면 치수(픽셀) 등의 매개 변수를 기반으로 하는 모바일 장치를 타깃팅하기 위해 [!DNL Adobe Target] 에서 대상을 만드는 방법을 알아봅니다.
+description: ' [!DNL Adobe Target] 에서 대상을 만들어 모바일 장치를 타깃팅하는 방법을 알아봅니다.'
 title: 모바일 옵션을 기준으로 방문자를 Target 할 수 있습니까?
-feature: 대상자
+feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 43%
+source-wordcount: '669'
+ht-degree: 40%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 43%
 
    >[!NOTE]
    >
-   >iOS 12.2에 새롭게 추가된 변경 사항으로 인해, iPhone 모델을 지정하는 [!UICONTROL 장치 마케팅 이름] 및 [!UICONTROL 장치 모델]에 의해 정의된 규칙으로 대상을 만들면 영향을 받습니다. [!DNL Target] iOS 12.2 이상이 설치된 iPhone 사용자를 더 이상 타깃팅할 수 없습니다. 그러나 그러한 사용자에게 iOS 12.2(또는 이상)가 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
-   >
-   >iOS 12.2 이상 업데이트는 iOS 12.2로의 업그레이드를 지원하지 않으므로 다음 모델의 식별에 영향을 주지 않습니다. iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina 디스플레이, iPad Retina(4세대), iPod Touch 4 및 iPod Touch 5.
-
-   >[!NOTE]
-   >
    >[지역 설정](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)을 사용하여 이동통신사별로 타깃팅할 수 있습니다.
 
 1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
@@ -70,6 +64,20 @@ ht-degree: 43%
 다음 그림은 Google에서 만든 모바일 장치를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다.
 
 ![타겟 모바일 장치](assets/target_mobile.png)
+
+## 고려 사항
+
+모바일 장치를 타깃팅할 때 다음 정보를 고려하십시오.
+
+### iOS 12.2 이상을 실행하는 타깃팅 장치
+
+iOS 12.2에 새롭게 추가된 변경 사항으로 인해, iPhone 모델을 지정하는 [!UICONTROL 장치 마케팅 이름] 및 [!UICONTROL 장치 모델]에 의해 정의된 규칙으로 대상을 만들면 영향을 받습니다. [!DNL Target] iOS 12.2 이상이 설치된 iPhone 사용자를 더 이상 타깃팅할 수 없습니다. 그러나 그러한 사용자에게 iOS 12.2(또는 이상)가 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
+
+iOS 12.2 이상 업데이트는 iOS 12.2로의 업그레이드를 지원하지 않으므로 다음 모델의 식별에 영향을 주지 않습니다. iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina 디스플레이, iPad Retina(4세대), iPod Touch 4 및 iPod Touch 5.
+
+### Safari 14.0.2 이상을 실행하는 타깃팅 장치
+
+모바일 규칙을 사용하여 macOS에서 Safari 버전 14.0.2(또는 이상)를 실행하는 장치를 타깃팅하는 경우 Apple의 사용자 에이전트 및 DeviceAtlas와 관련된 알려진 문제로 인해 [!DNL Target]이 Mac 장치에서 Safari를 iPad 버전으로 잘못 식별합니다. 이 문제는 앞으로 해결될 것입니다.
 
 ## 교육 비디오: 대상 만들기
 

@@ -5,10 +5,10 @@ title: 사용자 지정 엔티티 속성을 어떻게 사용합니까?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 89%
+source-wordcount: '1397'
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 89%
 
 ## 다중 값 속성 구현 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-다중 값 사용자 지정 엔티티 속성은 피드(CSV), `targetPageParams`, 배달 API 및 엔티티 저장 API를 사용하여 제품을 업로드할 때 지원됩니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열([])은 값이 없는 것으로 처리됩니다.
+다중 값 사용자 지정 엔티티 속성은 피드(CSV), `targetPageParams` 및 배달 API를 사용하여 제품을 업로드할 때 지원됩니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열([])은 값이 없는 것으로 처리됩니다.
 
 큰따옴표는 이스케이프 처리를 해야 합니다. 예를 들어, `"[""test"", ""value""]"`는 CSV로 사용할 수 있는 올바른 JSON 배열입니다.
 
