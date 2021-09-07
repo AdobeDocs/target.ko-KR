@@ -1,13 +1,13 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;분류;분류;분류 가져오기;post-tnt-action;이벤트 코드
-description: 분류 및 Analytics for [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] 활동 사용에 대한 질문에 대한 답변을 찾습니다.
+description: 분류 및 [!UICONTROL Analytics for Target] (A4T)을 사용하는 것과 관련된 질문에 대한 답변을 찾으십시오.
 title: A4T를 사용하여 분류에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 46%
+source-wordcount: '317'
+ht-degree: 29%
 
 ---
 
@@ -15,15 +15,25 @@ ht-degree: 46%
 
 이 주제에서는 분류와 [!DNL Target](A4T)의 보고 소스로 [!DNL Analytics] 를 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
-## 분류 가져오기를 사용하여 분류를 다운로드한 후 post-tnt-action 값을 활동 이름과 일치시키는 방법은 무엇입니까? {#section_6045DAC488B248418F430E663C38D001}
+## [!UICONTROL 분류 가져오기]를 사용하여 분류를 다운로드한 후 post-tnt-action 값을 활동 이름과 일치시키려면 어떻게 합니까? {#section_6045DAC488B248418F430E663C38D001}
 
 관리 도구 [분류 가져오기](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html)에서 A4T/TNT 문자열에 대한 분류를 다운로드할 수 있습니다. 변수는 내보내기 목록에서 &quot;TNT&quot;라고 합니다. 다운로드한 데이터에는 활동, 경험 등을 위한 친숙한 이름이 포함되어 있습니다.
 
-이 조회 파일은 Adobe의 클릭스트림 데이터 피드를 받는 고객에게 유용합니다. 이 파일에는 `post_tnt` 및 `post_tnt_action` 열을 위한 친숙한 이름이 있습니다.
+이 조회 파일은 [!DNL Adobe]의 클릭스트림 데이터 피드를 수신하는 고객에게 유용합니다. 이 파일에는 `post_tnt` 및 `post_tnt_action` 열을 위한 친숙한 이름이 있습니다.
 
-TNT 변수의 문자열 형식은 `activityID:experienceID:targettype|event`입니다.
+표준 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 활동의 경우, TNT 문자열의 형식은 다음과 같습니다.
 
-* [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동에 대해 targettype = 0(control/random) 또는 1(타깃팅됨)입니다.
+```
+activityID:experienceID:targettype|event
+```
+
+[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동의 경우 TNT 문자열의 형식은 다음과 같습니다.
+
+```
+activityId:experienceId:targettype:algorithmId|event
+```
+
+* `targettype` =  `targettype` 및 `algorithmId` 는  [!UICONTROL 자동 할당 및 ] 자동 타겟 활동에 사용되는  [!UICONTROL 내부 ] 식별자입니다.
 * Event = 0은 경험 입장을 나타냅니다.
 * Event = 1은 경험 방문을 나타냅니다.
 * Event = 2는 활동 노출을 나타냅니다.
