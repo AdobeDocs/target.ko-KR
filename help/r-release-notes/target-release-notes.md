@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: afa370a38921ab76babf5e49edc1e4b23ee807b0
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,25 +25,9 @@ ht-degree: 100%
 >
 >사이트에 문제가 발생하지 않도록 하려면 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
-## [!DNL Target Standard/Premium] 21.8.1 (2021년 8월 10일)
+## [!DNL Target Standard/Premium] 21.9.1(2021년 9월 14일)
 
-이 유지 관리 릴리스에는 다음과 같은 고객용 변경 사항을 포함하여 많은 백엔드 개선 사항이 포함되어 있습니다.
-
-* [!UICONTROL 양식 기반 경험 작성기] 에서 생성된 [!UICONTROL 자동 개인화] 활동에 대한 보고서를 보고서에서 삭제된 오퍼를 참조하도록 문제를 해결했습니다. 이로 인해 “이 보고서에 대한 데이터를 검색하는 데 문제가 있습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.”라는 오류 메시지가 표시됩니다. (TGT-41028)
-
-## Target 게재 API(2021년 8월 3일)
-
-이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
-
-* mbox 매개 변수에 대한 제한이 100개 매개 변수로 늘어났습니다. 이전 제한은 50개 매개 변수였습니다. (TNT-41717)
-* `categoryId` 에 대한 제한이 256자로 늘어났습니다. 이전 제한은 128자였습니다.
-* [!DNL Adobe Audience Manager] (AAM)가 게재 API에 추가되었습니다.
-
-   * AAM UUID: 사용자를 고유하게 식별하는 데 사용되는 내부 AAM ID입니다.
-   * dataPartnerId: 데이터 파트너의 ID입니다.
-   * dataPartnerUserId: 데이터 파트너가 제공한 사용자 ID입니다.
-
-   이전에는 게재 API가 `dcsLocationHint` 및 `blob` 에만 포함되었습니다. (TNT-41644)
+추가 정보는 다음 주에 여기에 게시될 것입니다.
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

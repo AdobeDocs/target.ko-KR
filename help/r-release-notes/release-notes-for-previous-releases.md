@@ -4,10 +4,10 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
 workflow-type: tm+mt
-source-wordcount: '31345'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -22,6 +22,37 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) 를 참조하십시오.
 
 ## 릴리스 정보 - 2021
+
+### at.js 2.6.1 (2021년 8월 16일)
+
+* 온디바이스 의사 결정 사용 시 “하이브리드 모드에 대해 사용 가능한 아티팩트 없음” 버그가 수정되었습니다.
+
+### [!DNL Target] node.js SDK 2.2.0 (2021년 8월 11일)
+
+* SDK 원격 분석 데이터 수집 추가됨
+* 자동화된 게재 API 클라이언트 openapi codegen
+
+이에 대한 추가 정보와 이전 릴리스에 대해서는 Github의 [Target node.js SDK 설명서](https://github.com/adobe/target-nodejs-sdk)에 있는 [변경 로그](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md)를 참조하십시오.
+
+### [!DNL Target Standard/Premium] 21.8.1 (2021년 8월 10일)
+
+이 유지 관리 릴리스에는 다음과 같은 고객용 변경 사항을 포함하여 많은 백엔드 개선 사항이 포함되어 있습니다.
+
+* [!UICONTROL 양식 기반 경험 작성기] 에서 생성된 [!UICONTROL 자동 개인화] 활동에 대한 보고서를 보고서에서 삭제된 오퍼를 참조하도록 문제를 해결했습니다. 이로 인해 “이 보고서에 대한 데이터를 검색하는 데 문제가 있습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.”라는 오류 메시지가 표시됩니다. (TGT-41028)
+
+### Target 게재 API(2021년 8월 3일)
+
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* mbox 매개 변수에 대한 제한이 100개 매개 변수로 늘어났습니다. 이전 제한은 50개 매개 변수였습니다. (TNT-41717)
+* `categoryId` 에 대한 제한이 256자로 늘어났습니다. 이전 제한은 128자였습니다.
+* [!DNL Adobe Audience Manager] (AAM)가 게재 API에 추가되었습니다.
+
+   * AAM UUID: 사용자를 고유하게 식별하는 데 사용되는 내부 AAM ID입니다.
+   * dataPartnerId: 데이터 파트너의 ID입니다.
+   * dataPartnerUserId: 데이터 파트너가 제공한 사용자 ID입니다.
+
+   이전에는 게재 API가 `dcsLocationHint` 및 `blob` 에만 포함되었습니다. (TNT-41644)
 
 ### [!DNL Target Standard/Premium] 21.6.1 (2021년 6월 30일)
 
