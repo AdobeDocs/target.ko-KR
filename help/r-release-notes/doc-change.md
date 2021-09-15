@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6957eb88e2ee7d54fdad5afeaedf75b091b601e7
+source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2398'
 ht-degree: 99%
 
 ---
@@ -15,11 +15,17 @@ ht-degree: 99%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
+## [!DNL Adobe Target Standard/Premium] 21.9.1(2021년 9월 14일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 9월 14일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.9.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (2021년 8월 10일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 9월 14일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.9.1(2021년 9월 14일) 릴리스에 대한 정보가 추가되었습니다. 이 정보는 오늘 늦게 [Target 릴리스 노트(현재)](/help/r-release-notes/release-notes.md)로 이동합니다. |
+| 9월 14일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.9.1(2021년 9월 14일) 릴리스에 대한 정보가 추가되었습니다. |
 | 9월 7일 | [모바일](/help/c-target/c-audiences/c-target-rules/mobile.md) | “고려 사항” 섹션이 Safari 14.0.2 이상 버전이 탑재된 타기팅 디바이스에 대한 정보로 업데이트되었습니다. |
 |  | [분류 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타기팅] 활동에서 사용되는 내부 식별자인 `targettype` 및 `algorithmId`에 대한 정보가 업데이트되었습니다. |
 | 8월 24일 | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | [!DNL Adobe Experience Platform Launch]가 [!DNL Adobe Experience Platform]의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. |
@@ -28,6 +34,7 @@ ht-degree: 99%
 | 8월 16일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1에 대한 릴리스 정보가 추가되었습니다. |
 |  | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | “모범 사례” 섹션이 추가되었습니다. |
 | 8월 11일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK 버전 2.2.0에 대한 릴리스 정보가 추가되었습니다. |
+| 8월 10일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.8.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021년 6월 30일)
 
