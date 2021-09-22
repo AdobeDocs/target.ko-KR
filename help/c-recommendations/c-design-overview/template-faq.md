@@ -1,20 +1,19 @@
 ---
 keywords: 권장 사항;자주 묻는 질문;faq
-description: Adobe [!DNL Target] Recommendations 디자인에 대한 질문과 답변(FAQ) 목록을 검토하십시오.
-title: ' [!DNL Target] Recommendations에 대한 디자인 질문에 대한 답변은 어디에서 볼 수 있습니까?'
+description: Adobe [!DNL Target] Recommendations 디자인에 대한 FAQ 목록 및 답변을 검토하십시오.
+title: ' [!DNL Target] Recommendations에 대한 디자인 질문에 대한 답변은 어디에서 받을 수 있습니까?'
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 85%
+source-wordcount: '456'
+ht-degree: 70%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 디자인 FAQ
 
-[!DNL Adobe Target] 추천 디자인에 대한 FAQ(자주 묻는 질문) 목록
+[!DNL Adobe Target] [!DNL Recommendations] 디자인에 대한 FAQ 목록
 
 ## 권장 품목 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시할 수 있습니까?
 
@@ -30,15 +29,15 @@ ht-degree: 85%
 
    `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## 디자인에 카테고리가 표시되지 않는 이유는 무엇입니까? $entity1.categoryId를 사용하고 있습니다.{#section_073309B8051049C7953D396A93EA0713}
+## 디자인에 카테고리가 표시되지 않는 이유는 무엇입니까? `$entity1.categoryId`을 사용하고 있습니다. {#section_073309B8051049C7953D396A93EA0713}
 
 카테고리 ID는 디자인에 표시할 수 없습니다. 여러 카테고리가 저장될 수 있으므로 시스템에서는 어느 카테고리를 표시할지 모르게 됩니다.
 
 ## 즉시 업데이트를 받으려면 디자인을 어떻게 변경해야 합니까? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-현재 사용 중인 디자인을 변경하면 업데이트하는 데 시간이 걸립니다. 디자인을 즉시 변경하려면 새 디자인을 만들고 활동에서 선택하고 권장 사항을 저장합니다.
+현재 사용 중인 디자인을 변경하면 업데이트하는 데 시간이 걸립니다. 디자인을 즉시 변경하려면, 새 디자인을 만들고, 활동에서 선택하고, 권장 사항을 저장합니다.
 
-## 디자인에서 표시할 주요 정보를 캡처할 수 있습니까? 예: 주요 제품 카테고리를 표시하려는 경우 Velocity 디자인에서 해당 값을 어떻게 코딩할 수 있습니까?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## 디자인에서 표시할 주요 정보를 캡처할 수 있습니까? 예: 주요 제품 카테고리를 표시하려는 경우 Velocity 디자인에서 해당 값을 어떻게 코딩할 수 있습니까? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 `$key. *`값`*`매개 변수가 디자인에서 표시할 주요 제품 정보 대부분을 캡처합니다. 예: 주요 제품 썸네일을 표시하려면 `$key.thumbnailURL`을 사용합니다.
 
@@ -48,8 +47,8 @@ ht-degree: 85%
 
 ## 기존 개체 값을 빈 값으로 바꾸려면 어떻게 해야 합니까? 예를 들어 판촉 행사가 끝나면 항목의 entity.message를 지워야 합니다. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
-JavaScript 줄바꿈 없는 공백으로 보내면 이렇게 되는 것 같습니다. 개발자가 값으로 `\u00A0`을 보내게 하십시오. 예: `entity.message=\u00A0`. Null 대신 아무런 값이 표시되지 않는 경우 해당 값이 기본값이 되는 것으로 간주할 수 있습니다.
+JavaScript 줄바꿈 없는 공백으로 보내면 이와 같이 되는 것 같습니다. 개발자가 값으로 `\u00A0`을 보내게 하십시오. 예: `entity.message=\u00A0`. Null 대신 아무런 값이 표시되지 않는 경우 해당 값이 기본값이 되는 것으로 간주할 수 있습니다.
 
-## 권장 사항 디자인에서 프로필 스크립트를 사용할 수 있습니까? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## [!DNL Recommendations] 디자인에서 프로필 스크립트를 사용할 수 있습니까? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-예. 하지만 프로필 스크립트 이름의 $ 앞에 백슬래시(\)를 추가해야 합니다.
+예. [!DNL Recommendations] 디자인에서 프로필 스크립트를 사용하려면 `\${...}`에 이름을 래핑하십시오. 예를 들어 프로필 스크립트의 이름이 `user.basket`인 경우 디자인에서 `\${user.basket}` 로 참조하십시오. 백슬래시는 프로필 스크립트가 Velocity로 렌더링되지 않았음을 의미합니다. 따라서 Velocity 템플릿의 프로필 스크립트에는 작업을 수행할 수 없습니다. 값은 페이지에 직접 인쇄됩니다.
