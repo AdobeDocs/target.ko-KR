@@ -5,16 +5,16 @@ title: at.js에 대한 일반적인 질문과 답변은 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 76%
+source-wordcount: '2521'
+ht-degree: 58%
 
 ---
 
 # at.js FAQ
 
-at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
+[!DNL Adobe Target] at.js JavaScript 라이브러리에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 
 ## mbox.js와 비교하여 at.js를 사용할 때의 장점은 무엇입니까? {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
@@ -47,45 +47,45 @@ at.js에 대해 자주 묻는 질문과 대답(FAQ)입니다.
 1. 글로벌 mbox 자동 생성 기능이 활성화되어 있을 경우, Target JavaScript 라이브러리는
 
    * 방문자 개체를 인스턴스화합니다.
-   * Target 라이브러리가 Experience Cloud 방문자 ID 데이터 검색을 시도합니다.
+   * [!DNL Target] 라이브러리는 [!DNL Experience Cloud Visitor ID] 데이터를 검색하려고 합니다.
    * 이 방문자는 새로운 방문자이므로 방문자 API는 demdex.net에 대한 도메인 간 요청을 실행합니다.
-   * Experience Cloud 방문자 ID 데이터가 검색되면 Target에 대한 요청이 실행됩니다.
+   * [!DNL Experience Cloud Visitor ID] 데이터가 검색되면 [!DNL Target]에 대한 요청이 실행됩니다.
 
 ### 재방문자
 
 1. 방문자 API가 로드, 구문 분석 및 실행됩니다.
 1. at.js/mbox.js가 로드, 구문 분석 및 실행됩니다.
-1. 글로벌 mbox 자동 생성 기능이 활성화되어 있을 경우, Target JavaScript 라이브러리는
+1. 글로벌 mbox 자동 만들기가 활성화되어 있으면 [!DNL Target] JavaScript 라이브러리는 다음과 같습니다.
 
    * 방문자 개체를 인스턴스화합니다.
-   * Target 라이브러리가 Experience Cloud 방문자 ID 데이터 검색을 시도합니다.
+   * [!DNL Target] 라이브러리는 [!DNL Experience Cloud Visitor ID] 데이터를 검색하려고 합니다.
    * 방문자 API는 쿠키의 데이터를 검색합니다.
-   * Experience Cloud 방문자 ID 데이터가 검색되면 Target에 대한 요청이 실행됩니다.
+   * [!DNL Experience Cloud Visitor ID] 데이터가 검색되면 [!DNL Target]에 대한 요청이 실행됩니다.
 
 >[!NOTE]
 >
->새 방문자의 경우, 방문자 API가 있으면 Target은 여러 번 연결하여 Target 요청에 Experience Cloud 방문자 ID 데이터가 포함되어 있는지 확인해야 합니다. 재방문자의 경우 Target은 Target에만 연결하여 개인화된 콘텐츠를 검색합니다.
+>새 방문자의 경우, 방문자 API가 있을 때 [!DNL Target]이 배선을 여러 번 통해 [!DNL Target] 요청에 [!DNL Experience Cloud Visitor ID] 데이터가 포함되어 있는지 확인해야 합니다. 재방문자의 경우 [!DNL Target]은(는) [!DNL Target]에만 연결하여 개인화된 콘텐츠를 검색합니다.
 
 ## 이전 버전의 at.js를 버전 1.0.0으로 업그레이드한 후 응답 속도가 느려진 것 같은 이유는 무엇입니까? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
-[!DNL at.js] 버전 1.0.0 이상은 모든 요청을 동시에 실행합니다. 이전 버전은 요청을 순차적으로 실행합니다. 즉, 요청이 큐에 들어가고 Target은 다음 요청으로 이동하기 전에 첫 번째 요청이 완료될 때까지 대기합니다.
+[!DNL at.js] 버전 1.0.0 이상은 모든 요청을 동시에 실행합니다. 이전 버전은 요청을 순차적으로 실행합니다. 즉, 요청이 큐에 들어가고 [!DNL Target]은 다음 요청으로 이동하기 전에 첫 번째 요청이 완료될 때까지 대기합니다.
 
-이전 버전의 [!DNL at.js]가 요청을 실행하는 방식은 &quot;head of line blocking&quot;(HOL 블로킹)이라는 현상이 발생하기 쉽습니다. [!DNL at.js] 1.0.0 이상에서는 Target이 병렬 요청 실행으로 전환되었습니다.
+이전 버전의 [!DNL at.js]가 요청을 실행하는 방식은 &quot;head of line blocking&quot;(HOL 블로킹)이라는 현상이 발생하기 쉽습니다. [!DNL at.js] 1.0.0 이상에서는 [!DNL Target]이 병렬 요청 실행으로 전환되었습니다.
 
 예를 들어 [!DNL at.js] 0.9.1에 대한 네트워크 탭 워터폴을 확인하면, 이전 요청이 완료되기 전까지 다음 Target 요청이 시작되지 않는 것을 보게 될 것입니다. [!DNL Target] 이 시퀀스는 [!DNL at.js] 1.0.0 이상에서는 적용되지 않습니다. 여기서 모든 요청이 기본적으로 동시에 시작됩니다.
 
 응답 시간 관점에서 수학적으로 이 시퀀스를 다음과 같이 요약할 수 있습니다
 
 <ul class="simplelist"> 
- <li> at.js 0.9.1: 모든 Target 요청의 응답 시간 = 요청 응답 시간의 합계 </li> 
- <li> at.js 1.0.0 이상: 모든 Target 요청의 응답 시간 = 요청 응답 시간의 최대값 </li> 
+ <li> at.js 0.9.1: 모든 [!DNL Target] 요청의 응답 시간 = 요청 응답 시간의 합계 </li> 
+ <li> at.js 1.0.0 이상: 모든 [!DNL Target] 요청의 응답 시간 = 최대 요청 응답 시간 </li> 
 </ul>
 
-[!DNL at.js] 라이브러리 버전 1.0.0이 요청을 더 빨리 완료합니다. 또한 [!DNL at.js] 요청은 비동기적이므로 [!DNL Target]이 페이지 렌더링을 차단하지 않습니다. 요청이 완료되기까지 수 초가 걸리는 경우에도 여전히 렌더링된 페이지가 표시되며, Target이 Target 에지에서 응답을 받을 때까지 페이지의 일부 부분만 공백으로 표시됩니다.
+[!DNL at.js] 라이브러리 버전 1.0.0이 요청을 더 빨리 완료합니다. 또한 [!DNL at.js] 요청은 비동기적이므로 [!DNL Target]이 페이지 렌더링을 차단하지 않습니다. 요청이 완료되기까지 수 초가 걸리는 경우에도 여전히 렌더링된 페이지가 표시되며, [!DNL Target] 이 [!DNL Target] 에지에서 응답을 받을 때까지 페이지의 일부 부분만 공백으로 표시됩니다.
 
 ## [!DNL Target] 라이브러리를 비동기식으로 로드할 수 있습니까? {#section_AB9A0CA30C5440C693413F1455841470}
 
-at.js 1.0.0 릴리스를 사용하면 Target 라이브러리를 비동기적으로 로드할 수 있습니다.
+at.js 1.0.0 릴리스를 사용하면 [!DNL Target] 라이브러리를 비동기식으로 로드할 수 있습니다.
 
 at.js를 비동기적으로 로드하려면 다음을 수행하십시오.
 
@@ -115,7 +115,7 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 자세한 내용은 [at.js에서 플리커를 관리하는 방법](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)을 참조하십시오.
 
-## at.js가 Adobe Experience Manager 통합(Experience Manager)과 호환됩니까? {#section_6177AE10542344239753764C6165FDDC}
+## at.js가 [!DNL Adobe Experience Manager] 통합(Experience Manager)과 호환됩니까? {#section_6177AE10542344239753764C6165FDDC}
 
 FP-11577을 사용하는 [!DNL Adobe Experience Manager] 6.2(또는 이상)에서는 이제 [!DNL at.js]Adobe Target 클라우드 서비스[!UICONTROL  통합을 통해 ] 구현을 지원합니다. 
 
@@ -149,7 +149,7 @@ Safari 방문자를 지원하기 위해 더 나은 X-Domain이 &quot;비활성�
 
 예. at.js 2.x를 사용하는 경우 SPA용 VEC를 사용할 수 있습니다. 자세한 내용은 [단일 페이지(SPA) 시각적 경험 작성기](/help/c-experiences/spa-visual-experience-composer.md)를 참조하십시오.
 
-## at.js 구현에 Adobe Experience Cloud Debugger를 사용할 수 있습니까? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
+## at.js 구현에 [!DNL Adobe Experience Cloud] 디버거를 사용할 수 있습니까? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 예. 디버깅 목적으로 mboxTrace를 사용하거나 브라우저의 개발자 도구를 사용하여 네트워크 요청을 검사하고, &quot;mbox&quot;로 필터링하여 mbox 통화를 가려낼 수도 있습니다.
 
@@ -159,13 +159,13 @@ Safari 방문자를 지원하기 위해 더 나은 X-Domain이 &quot;비활성�
 
 ## 웹 페이지에서 mbox가 실행되지 않는 이유는 무엇입니까? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
- 고객들이 테스트나 간단한 개념 입증 용도로 [!DNL Target]Target에 클라우드 기반 인스턴스를 사용하는 경우가 있습니다. 이러한 도메인 및 기타 많은 다른 도메인이 [공용 접미사 목록](https://publicsuffix.org/list/public_suffix_list.dat)에 나와 있습니다.
+[!DNL Target] 고객들이 테스트나 간단한 개념 입증 용도로 [!DNL Target]에 클라우드 기반 인스턴스를 사용하는 경우가 있습니다. 이러한 도메인 및 기타 많은 다른 도메인이 [공용 접미사 목록](https://publicsuffix.org/list/public_suffix_list.dat)에 나와 있습니다.
 
 최신 브라우저에서는 targetGlobalSettings()를 사용하여 `cookieDomain` 설정을 사용자 지정하지 않는 한, 이러한 도메인을 사용하는 경우 쿠키를 저장하지 않습니다. 자세한 내용은 [Target에 클라우드 기반 인스턴스 사용](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)을 참조하십시오.
 
 ## at.js를 사용할 때 IP 주소를 쿠키 도메인으로 사용할 수 있습니까? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-예. [at.js 버전 1.2 이상](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 사용 중이라면 사용할 수 있습니다. 그러나 Adobe은 최신 버전을 사용하여 최신으로 유지하는 것이 좋습니다.
+예. [at.js 버전 1.2 이상](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 사용 중이라면 사용할 수 있습니다. [!DNL Adobe] 그러나 최신 버전을 사용하여 최신으로 유지하는 것이 좋습니다.
 
 >[!NOTE]
 >
@@ -201,8 +201,8 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 * 페이지가 동적으로 작성되고 있으며 at.js가 요소를 찾을 수 없습니다.
 * 느린 네트워크로 인해 페이지가 천천히 빌드되고 있으므로 at.js가 DOM에서 선택기를 찾을 수 없습니다.
-* 활동이 실행 중인 페이지 구조가 변경되었습니다. 시각적 경험 작성기(VEC)에서 활동을 다시 열 경우 경고 메시지가 표시됩니다. 필요한 모든 요소를 찾을 수 있도록 활동을 업데이트합니다.
-* 기본 페이지가 단일 페이지 애플리케이션(SPA)의 일부이거나 이 페이지에 페이지 아래쪽에 나타나는 요소가 있는데, [!DNL at.js] &quot;선택기 폴링 메커니즘&quot;이 해당 요소를 찾을 수 없습니다. `selectorsPollingTimeout`을 늘리는 것이 도움이 될 수 있습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
+* 실행 중인 활동[!UICONTROL y의 페이지 구조가 변경되었습니다. ]VEC(시각적 경험 작성기)에서 활동을 다시 열면 경고 메시지가 표시됩니다. 필요한 모든 요소를 찾을 수 있도록 활동을 업데이트합니다.
+* 기본 페이지가 [!UICONTROL 단일 페이지 애플리케이션](SPA)의 일부이거나 페이지에 페이지 아래쪽에 나타나는 요소가 있는데, [!DNL at.js] &quot;선택기 폴링 메커니즘&quot;이 해당 요소를 찾을 수 없습니다. `selectorsPollingTimeout`을 늘리는 것이 도움이 될 수 있습니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 * 지표가 설정된 URL과 관계없이 모든 클릭 추적 지표가 모든 페이지에 추가되려고 시도합니다. 그 자체로 문제가 안 되더라도 이렇게 되면 많은 메시지가 표시됩니다.
 
    최상의 결과를 얻으려면 최신 버전의 [!DNL at.js]를 다운로드하여 사용하십시오. 자세한 내용은 [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 및 [at.js 다운로드](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)를 참조하십시오.
@@ -211,17 +211,17 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 
 [!DNL tt.omtrdc.net]은 Target에 대한 모든 서버 호출을 받는 데 사용되는 Adobe 에지 네트워크의 도메인 이름입니다.
 
-## at.js와 mbox.js가 HttpOnly 및 Secure 쿠키 플래그를 사용하지 않는 이유는 무엇입니까? {#section_74527E3B41B54B0A83F217C3E664ED1F}
+## at.js가 항상 HttpOnly 및 Secure 쿠키 플래그를 사용하지 않는 이유는 무엇입니까? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
-HttpOnly는 서버 측 코드를 통해서만 설정할 수 있습니다. mbox와 같은 Target 쿠키가 생성되고 JavaScript 코드를 통해 저장되므로 Target에서 HttpOnly 쿠키 플래그를 사용할 수 없습니다.
+HttpOnly는 서버 측 코드를 통해서만 설정할 수 있습니다. [!DNL Target] mbox와 같은 쿠키는 JavaScript 코드를 통해 생성 및 저장되므로 HttpOnly 쿠키 플래그를 사용할  [!DNL Target] 수 없습니다. [!DNL Target] 은 교차 도메인이 활성화될 때 서버 측에서 설정된 타사 쿠키에 대해 HttpOnly 설정을 사용합니다.
 
-HTTPS를 통해 페이지를 로드한 경우에만 JavaScript를 통해 보안을 설정할 수 있습니다. 페이지가 처음에 HTTP를 통해 로드된 경우에는 JavaScript에서 이 플래그를 설정할 수 없습니다. 또한 보안 플래그를 사용하는 경우 HTTPS 페이지에서만 쿠키를 사용할 수 있습니다.
+HTTPS를 통해 페이지를 로드한 경우에만 JavaScript를 통해 보안을 설정할 수 있습니다. 페이지가 처음에 HTTP를 통해 로드된 경우에는 JavaScript에서 이 플래그를 설정할 수 없습니다. 또한 보안 플래그를 사용하는 경우 HTTPS 페이지에서만 쿠키를 사용할 수 있습니다. HTTPS를 통해 로드된 페이지의 경우 [!DNL Target]은 Secure 및 SameSite=None 속성을 설정합니다.
 
-Target이 제대로 사용자를 추적할 수 있는지 보장하기 위해 그리고 쿠키가 클라이언트 측에서 생성되므로 Target에서 이러한 플래그 중 하나를 사용하지 않습니다.
+[!DNL Target]이 사용자를 제대로 추적할 수 있도록 하고, 쿠키가 클라이언트측에서 생성되므로, [!DNL Target]은(는) 위에 언급된 경우를 제외하고 이러한 플래그 중 하나를 사용하지 않습니다.
 
 ## at.js가 네트워크 요청을 얼마나 자주 실행합니까? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target은 서버 측에서 모든 의사 결정을 실행합니다. 즉, at.js는 페이지가 다시 로드되거나 at.js 공용 API가 호출될 때마다 네트워크 요청을 실행합니다.
+[!DNL Target] 서버 측에서 모든 의사 결정을 실행합니다. 즉, at.js는 페이지가 다시 로드되거나 at.js 공용 API가 호출될 때마다 네트워크 요청을 실행합니다.
 
 ## 최상의 사례 시나리오에서 사용자가 콘텐츠를 숨기고, 대체하고, 표시하는 것과 관련된 페이지 로드에 가시적인 영향을 미치지 않을 것으로 기대할 수 있습니까? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
@@ -234,11 +234,11 @@ at.js 요청은 비동기 `XMLHttpRequest`이므로 다음 단계를 실행합�
 1. 페이지가 로드됩니다.
 1. at.js는 HTML BODY를 미리 숨깁니다. HTML BODY 대신 특정 컨테이너를 미리 숨길 수 있는 설정이 있습니다.
 1. at.js 요청이 실행됩니다.
-1. Target 응답이 수신된 후 Target은 CSS 선택기를 추출합니다.
-1. Target은 CSS 선택기를 사용하여 사용자 지정할 DOM 요소를 미리 숨기기 위한 STYLE 태그를 작성합니다.
+1. [!DNL Target] 응답을 받은 후 [!DNL Target] 은 CSS 선택기를 추출합니다.
+1. CSS 선택기를 사용하여 [!DNL Target]은 STYLE 태그를 만들어 사용자 지정할 DOM 요소를 사전에 숨깁니다.
 1. HTML BODY 미리 숨김 STYLE이 제거되었습니다.
-1. Target이 DOM 요소의 폴링을 시작합니다.
-1. DOM 요소가 발견되면 Target이 DOM 변경 사항을 적용하고 요소 미리 숨김 STYLE이 제거됩니다.
+1. [!DNL Target] DOM 요소에 대한 폴링을 시작합니다.
+1. DOM 요소가 있으면 [!DNL Target] 은 DOM 변경 사항을 적용하고 요소 사전 숨김 STYLE은 제거됩니다.
 1. DOM 요소를 찾을 수 없으면 글로벌 시간 제한은 페이지가 끊기지 않도록 요소를 숨기지 않습니다.
 
 ## at.js가 활동이 변경하는 요소를 최종적으로 숨기지 않을 때 페이지의 콘텐츠는 얼마나 자주 로드 및 표시됩니까? {#section_01AFF476EFD046298A2E17FE3ED85075}
@@ -249,17 +249,17 @@ at.js는 페이지의 렌더링을 차단하지 않습니다. 사용자는 페�
 
 ## 완전히 캐시된 페이지는 위의 시나리오에 어떻게 영향을 줍니까? 페이지의 나머지 콘텐츠를 로드한 후에 활동 콘텐츠가 눈에 더욱 잘 띄게 표시될 수 있습니까? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-사용자의 위치에 가까운 CDN에 페이지가 캐시되지만 Target 엣지 근처에 없는 경우 해당 사용자에게 지연이 표시될 수 있습니다. Target 모서리는 전 세계에 잘 분산되어 있으므로 대부분의 경우 문제가 되지 않습니다.
+페이지가 사용자의 위치에 가깝지만 [!DNL Target] 에지 근처에 있는 CDN에 캐시되는 경우 해당 사용자에게 일부 지연이 표시될 수 있습니다. [!DNL Target] 모서리는 전 세계에 잘 분산되어 있으므로 대부분의 경우 문제가 되지 않습니다.
 
 ## 대표 이미지가 표시되고 잠시 지연된 뒤 교체될 수 있습니까? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 다음 시나리오를 고려하십시오.
 
-Target 시간 제한은 5초입니다. 사용자가 대표 이미지를 사용자 지정할 수 있는 활동이 포함된 페이지를 로드합니다. at.js는 적용할 활동이 있는지 확인하기 위한 요청을 보내지만 초기 응답이 없습니다. 연관된 활동이 있는지 여부에 대해 Target에서 수신된 응답이 없기 때문에 사용자는 대표 이미지의 일반 콘텐츠를 볼 수 있다고 가정합니다. 4초 후Target은 활동 콘텐츠와 함께 응답을 반환합니다.
+[!DNL Target] 시간 제한은 5초입니다. 사용자가 대표 이미지를 사용자 지정할 수 있는 활동이 포함된 페이지를 로드합니다. at.js는 적용할 활동이 있는지 확인하기 위한 요청을 보내지만 초기 응답이 없습니다. 연관된 활동이 있는지 여부에 대해 [!DNL Target]에서 수신된 응답이 없기 때문에 사용자는 대표 이미지의 일반 콘텐츠를 볼 수 있다고 가정합니다. 4초 후 [!DNL Target]은 활동 콘텐츠와 함께 응답을 반환합니다.
 
 이 단계에서 대체 버전을 표시할 수 있습니까? 따라서 4초 후에 대표 이미지를 교체할 수 있으며 사용자가 이 이미지 교체를 알 수 있습니까?
 
-처음에는 이미지 대표 DOM 요소가 숨겨져 있습니다. Target의 응답이 수신된 후 at.js는 DOM 변경 사항을 적용합니다(예: IMG를 대체하고 사용자 지정된 대표 이미지 표시).
+처음에는 이미지 대표 DOM 요소가 숨겨져 있습니다. [!DNL Target]의 응답이 수신된 후 at.js는 DOM 변경 사항을 적용합니다(예: IMG를 대체하고 사용자 지정된 대표 이미지 표시).
 
 ## at.js에 필요한 HTML doctype은 무엇입니까?
 
@@ -269,4 +269,4 @@ at. s에는 HTML5 doctype이 필요합니다.
 
 `<!DOCTYPE html>`
 
-HTML5 doctype은 페이지가 표준 모드로 로드되도록 합니다. quirks 모드로 로드할 때 at.js가 사용하는 일부 JS API가 비활성화됩니다. Target은 quirks 모드에서 at.js를 비활성화합니다.
+HTML5 doctype은 페이지가 표준 모드로 로드되도록 합니다. quirks 모드로 로드할 때 at.js가 사용하는 일부 JS API가 비활성화됩니다. [!DNL Target] quirks 모드에서 at.js를 비활성화합니다.

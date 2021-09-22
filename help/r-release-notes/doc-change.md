@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f5bbdf2e37867765ef387821cc78660dfa8c57f6
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 99%
+source-wordcount: '2520'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 9월 22일 | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 다음 고려 사항이 추가되었습니다.<ul><li>클릭 추적 지표는 활동의 특정 경험에 연결되어 있지 않습니다.</li><li>클릭 추적 지표의 범위를 제한해야 하는 경우 대상을 사용합니다.</li><li>여러 활동이 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그럴 경우 방문자가 해당 활동 중 하나에 적격이고 이 선택기를 클릭하면 방문자가 자격이 있는 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.</li></ul> |
+|  | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | [!DNL Target] 확장을 사용하여 at.js를 구현할 때의 이점 섹션에 참고가 추가되었습니다. |
+|  | [mbox3rdPartyID에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | 고려 사항 섹션이 새 정보로 업데이트되었습니다. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | &quot;secureOnly&quot; 섹션이 업데이트되었습니다. |
+|  | [at.js 자주 묻는 질문](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 다음 FAQ가 업데이트되었습니다. &quot;at.js가 항상 HttpOnly 및 Secure 쿠키 플래그를 사용하지 않는 이유는 무엇입니까?&quot; |
 | 9월 14일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.9.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (2021년 8월 10일)

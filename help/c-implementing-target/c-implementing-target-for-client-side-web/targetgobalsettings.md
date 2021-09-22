@@ -5,9 +5,9 @@ title: targetGlobalSettings() 함수를 사용하려면 어떻게 해야 합니�
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2317'
+source-wordcount: '2332'
 ht-degree: 30%
 
 ---
@@ -187,7 +187,7 @@ ht-degree: 30%
 
 * **유형**: 부울
 * **기본값**: false
-* **설명**: at.js에서 HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타냅니다.
+* **설명**: at.js에서 HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타냅니다. true로 설정되면 secureOnly는 Secure 및 SameSite 속성을 mbox 쿠키로 설정합니다.
 
 ### selectorsPollingTimeout
 
