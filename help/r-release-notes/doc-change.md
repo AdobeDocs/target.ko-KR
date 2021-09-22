@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '2536'
-ht-degree: 95%
+source-wordcount: '2548'
+ht-degree: 94%
 
 ---
 
@@ -19,8 +19,9 @@ ht-degree: 95%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+|  | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 모호성을 방지하기 위해 코드 샘플에서 `$Double`을 `$double` (으)로 변경했습니다. |
 | 9월 22일 | [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 다음 FAQ가 업데이트되었습니다.<ul><li>[!DNL Recommendations] 디자인에서 프로필 스크립트를 사용할 수 있습니까?</li></ul> |
-| 9월 22일 | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 다음 고려 사항이 추가되었습니다.<ul><li>클릭 추적 지표는 활동의 특정 경험에 연결되어 있지 않습니다.</li><li>클릭 추적 지표의 범위를 제한해야 하는 경우 대상을 사용합니다.</li><li>여러 활동이 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그럴 경우 방문자가 해당 활동 중 하나에 적격이고 이 선택기를 클릭하면 방문자가 자격이 있는 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.</li></ul> |
+|  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 다음 고려 사항이 추가되었습니다.<ul><li>클릭 추적 지표는 활동의 특정 경험에 연결되어 있지 않습니다.</li><li>클릭 추적 지표의 범위를 제한해야 하는 경우 대상을 사용합니다.</li><li>여러 활동이 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그럴 경우 방문자가 해당 활동 중 하나에 적격이고 이 선택기를 클릭하면 방문자가 자격이 있는 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.</li></ul> |
 |  | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | [!DNL Target] 확장을 사용하여 at.js를 구현할 때의 이점 섹션에 참고가 추가되었습니다. |
 |  | [mbox3rdPartyID에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | 고려 사항 섹션이 새 정보로 업데이트되었습니다. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | &quot;secureOnly&quot; 섹션이 업데이트되었습니다. |

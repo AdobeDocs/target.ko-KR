@@ -1,20 +1,19 @@
 ---
 keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
-description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe [!DNL Target] Recommendations에서 권장 사항 디자인을 사용자 정의하는 방법을 알아봅니다.
-title: Velocity를 사용하여 디자인을 어떻게 사용자 지정할 수 있습니까?
+description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe [!DNL Target] Recommendations에서 권장 사항 디자인을 사용자 지정하는 방법을 알아봅니다.
+title: Velocity를 사용하여 디자인을 사용자 지정하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 61%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Velocity를 사용하여 디자인 사용자 지정
 
-오픈 소스 Velocity 디자인 언어를 사용하여 [!DNL Adobe Target Recommendations]의 추천 디자인을 사용자 정의할 수 있습니다.
+공개 소스인 Velocity 디자인 언어를 사용하여 [!DNL Adobe Target Recommendations]에서 권장 사항 디자인을 사용자 지정할 수 있습니다.
 
 ## 속도 개요 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -119,43 +118,43 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->변수 이름이 끝났음을 나타내는 태그 전에 변수 값 뒤에 텍스트를 추가하려는 경우 형식 표기법을 사용하여 변수 이름을 묶을 수 있습니다. 예: `${entity1.thumbnailUrl}.gif`.
+>변수 이름이 완료되었음을 나타내는 태그 앞에 변수의 값 뒤에 텍스트를 추가하려면 형식 표기법을 사용하여 변수 이름을 묶을 수 있습니다. 예: `${entity1.thumbnailUrl}.gif`.
 
 사용자는 또한 디자인에서 `algorithm.name` 및 `algorithm.dayCount`를 변수로 사용할 수 있으며, 하나의 디자인을 사용해서 여러 기준을 테스트하고 해당 기준 이름을 디자인에 동적으로 표시할 수 있습니다. 이는 방문자에게 자신이 &quot;최상위 판매자&quot; 또는 &quot;이 항목을 본 사용자가 구매한 항목&quot;을 검토 중임을 보여줍니다. 이러한 변수를 사용해서 `dayCount`(&quot;지난 2일 동안 최상위 판매자&quot; 등과 같이 기준에 사용된 데이터의 일 수)를 표시할 수도 있습니다.
 
-## Velocity 템플릿에서 숫자를 사용한 작업
+## Velocity 템플릿에서 숫자 작업
 
-기본적으로 Velocity 템플릿은 모든 개체 속성을 문자열 값으로 처리합니다. 수학 작업을 수행하거나 다른 숫자 값과 비교하기 위해 개체 속성을 숫자 값으로 처리할 수 있습니다. 개체 속성을 숫자 값으로 처리하려면 다음 단계를 수행합니다.
+기본적으로 속도 템플릿은 모든 엔티티 속성을 문자열 값으로 처리합니다. 수학 작업을 수행하거나 다른 숫자 값과 비교하기 위해 엔티티 속성을 숫자 값으로 처리할 수 있습니다. 엔티티 속성을 숫자 값으로 처리하려면 다음 단계를 수행합니다.
 
-1. 더미 변수를 선언하고 임의의 정수 또는 이중 값으로 초기화합니다.
-1. 사용하려는 개체 특성이 비어 있지 않은지 확인하십시오(Target Recommendations의 템플릿 구문 분석기가 템플릿을 확인하고 저장하는 데 필요).
-1. 1단계에서 만든 더미 변수의 `parseInt` 또는 `parseDouble` 메서드에 entity 특성을 전달하여 문자열을 정수 또는 이중 값으로 변환합니다.
-1. 수학 연산을 수행하거나 새 숫자 값을 비교하십시오.
+1. 더미 변수를 선언하고 임의의 정수 또는 double 값으로 초기화합니다.
+1. 사용하려는 엔티티 속성이 비어 있지 않은지 확인합니다(Target Recommendations의 템플릿 파서가 템플릿을 확인하고 저장하는 데 필요).
+1. 엔티티 속성을 1단계에서 만든 더미 변수의 `parseInt` 또는 `parseDouble` 메서드에 전달하여 문자열을 정수 또는 이중 값으로 바꿉니다.
+1. 새 숫자 값에 대해 수학 연산을 수행하거나 비교를 수행합니다.
 
-### 예:할인 가격 계산
+### 예: 할인 가격 계산
 
-할인 적용을 위해 항목의 표시된 가격을 $0.99만큼 줄이려고 한다고 가정합니다. 다음 방법을 사용하여 이 결과를 얻을 수 있습니다.
+할인을 적용하려면 품목의 표시된 가격을 $0.99만큼 줄이려고 한다고 가정합니다. 다음 접근 방식을 사용하여 이 결과를 얻을 수 있습니다.
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('priceBeforeDiscount') != '' )
-    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    #set( $discountedPrice = $double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
     Item price: $$discountedPrice
 #else
     Item price unavailable
 #end
 ```
 
-### 예:항목 등급을 기준으로 표시할 별 수 선택
+### 예: 항목의 등급에 따라 표시할 별 수 선택
 
-항목의 평균 고객 평점을 기준으로 적절한 수의 별을 표시하려고 한다고 가정합니다. 다음 방법을 사용하여 이 결과를 얻을 수 있습니다.
+항목의 평균 고객 등급에 따라 적절한 수의 별 수를 표시한다고 가정합니다. 다음 접근 방식을 사용하여 이 결과를 얻을 수 있습니다.
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('rating') != '' )
-    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #set( $rating = $double.parseDouble($entity1.get('rating')) )
     #if( $rating >= 4.5 )
         <img src="5_stars.jpg">
     #elseif( $rating >= 3.5 )
@@ -172,9 +171,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 예:항목의 길이를 기준으로 시간 및 분 단위 시간 계산(분)
+### 예: 항목의 길이(분)를 기반으로 시간 및 분 단위 계산
 
-동영상 길이를 분 단위로 저장하지만 시간 및 분 단위로 표시하려고 한다고 가정합니다. 다음 방법을 사용하여 이 결과를 얻을 수 있습니다.
+동영상 길이를 분 단위로 저장하지만 시간 및 분 단위로 표시하려고 한다고 가정합니다. 다음 접근 방식을 사용하여 이 결과를 얻을 수 있습니다.
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -185,7 +184,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-## 권장 제품 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}이(가) 있는 키 항목 표시
+## 추천 제품에 키 항목 표시 {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 다른 추천 제품과 함께 키 항목을 표시하도록 디자인을 수정할 수 있습니다. 예를 들어, 권장 사항 항목 옆에 참조할 수 있도록 현재 항목을 표시할 수 있습니다.
 
@@ -208,9 +207,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 [!DNL Recommendations] 활동을 만들 때, &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]에는 [!UICONTROL 시각적 경험 작성기] (VEC)에 무작위 제품이 표시됩니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
 
-## 문자열 값 {#section_01F8C993C79F42978ED00E39956FA8CA}에서 바꾸기를 수행하는 중
+## 문자열 값에서 대체 수행 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-디자인을 수정하여 문자열 내의 값을 바꿀 수 있습니다. 예를 들어 미국에서 사용되는 소수점 구분 기호를 유럽 및 기타 국가에서 사용되는 쉼표 구분 기호로 바꿉니다.
+디자인을 수정하여 문자열 내의 값을 바꿀 수 있습니다. 예를 들어, 미국에서 사용되는 소수점 구분 기호를 유럽 및 기타 국가에서 사용되는 쉼표 구분 기호로 바꿉니다.
 
 다음 코드는 조건부 판매 가격 책정 예제의 한 줄을 보여 줍니다.
 
