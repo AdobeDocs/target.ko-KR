@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2570'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 9월 27일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break<ul><li>2021년 10월 13일 수요일</li><li>오전 8시 (PDT, UTC -7)</li></ul></li></ul> |
 | 9월 22일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 가능한 모호성을 방지하기 위해 코드 샘플에서 `$Double`을 `$double` (으)로 변경했습니다. |
 |  | [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 다음 FAQ가 업데이트되었습니다.<ul><li>[!DNL Recommendations] 디자인에서 프로필 스크립트를 사용할 수 있습니까?</li></ul> |
 |  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 다음 고려 사항이 추가되었습니다.<ul><li>클릭 추적 지표는 활동의 특정 경험에 연결되어 있지 않습니다.</li><li>클릭 추적 지표의 범위를 제한해야 하는 경우 대상을 사용합니다.</li><li>여러 활동이 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그럴 경우 방문자가 해당 활동 중 하나에 적격이고 이 선택기를 클릭하면 방문자가 자격이 있는 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.</li></ul> |

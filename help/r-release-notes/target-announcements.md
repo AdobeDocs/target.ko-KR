@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '576'
-ht-degree: 100%
+source-wordcount: '572'
+ht-degree: 95%
 
 ---
 
@@ -15,27 +15,18 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 스킬 빌더 세션, 개발자 채팅, 웨비나, 그리고 [!DNL Target] Coffee Break 세션을 포함하여 예정된 이벤트에 대한 공지와 정보입니다.
 
-## [!DNL Adobe Target]이 받은 인정
-
-포레스터와 가트너는 최근 시장 선도자로 [!DNL Adobe Target] 을 선정했습니다.
-
-| 검색 서비스 | 세부 사항 |
-| --- | --- |
-| Forrester | **Adobe는 경험 최적화 플랫폼을 위한 Forrester wave 보고서의 리더로 선정되었습니다.**<br> Adobe는 이 분야의 Adobe 제품인 Adobe Target Premium에 대해 &quot;Forrester Wave: Experience Optimization Platforms, Q4 2020&quot; 보고서에서 유일한 리더로 명명되었습니다. Adobe는 현재 오퍼링 및 시장 참여 범주와 권장 사항 및 플랫폼 경험 기준에서 모든 참여 공급업체 중 가장 높은 점수를 받았습니다. Target Premium 또한 경험 최적화 기술 혁신과 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 보고서는 22개 기준에서 10개의 경험 최적화 플랫폼 제공자에 대한 철저히 평가를 기반으로 한 것입니다.<br>자세한 내용은 [Adobe 블로그](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)를 읽어 보십시오. |
-| Gartner | **Adobe는 개인화 엔진을 위한 Gartner Magic Quadrant의 리더로 다시 선정했습니다.**<br> Adobe Target은 제 3회 Gartner Magic Quadrant for Personalization Engines, 2020년 보고서에서 다시 한 번 리더로 선정되었습니다. Gartner Magic Quadrant for Personalization Engines는 비전의 완전성과 실행 능력의 두 가지 범주로 분류되는 15가지 기준에 걸쳐 공급업체를 평가했습니다.<br>[자세한 내용은 Adobe 블로그를 읽어 보십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
-
 ## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break
 
-* **2021년 9월 8일 수요일**
+* **2021년 10월 13일 수요일**
 * **오전 8시 (PDT, UTC -7)**
-* **[여기를 클릭하여 자세한 내용을 살펴보고 등록하십시오](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
+* **[여기를 클릭하여 자세한 내용을 살펴보고 등록하십시오](https://adobe.ly/3CoUIVz).**
 
-[!DNL Adobe Target]의 수석 제품 관리자인 Vishal Chordia가 자신의 전문 지식을 바탕으로 고객의 질문에 답변해 드립니다.
+[!DNL Adobe Target]의 수석 솔루션 컨설턴트인 Gentry Lin은 그녀의 전문 지식과 관련된 고객 질문에 답할 것입니다.
 
-* [!DNL Adobe Experience Platform]
-* 대상자 기반 개인화
-* [!DNL Target]과 [!DNL Real-time Customer Data Platform] (RTCDP) 통합
-* 일반 [!DNL Target] 주제
+* 구현
+* 개인 맞춤화
+* 핵심 웹 작성 워크플로우
+* [!DNL Adobe Experience Cloud] 통합
 
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
@@ -66,3 +57,13 @@ Adobe 및 HSBC의 다음 웨비나에 가입하십시오.
 2021년 3월 31일에 mbox.js 사용이 중단됨에 따라, Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 진행하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 설명했습니다.
 
 * **[여기서 웨비나 녹화 보기](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+
+## [!DNL Adobe Target]이 받은 인정
+
+포레스터와 가트너는 최근 시장 선도자로 [!DNL Adobe Target] 을 선정했습니다.
+
+| 검색 서비스 | 세부 사항 |
+| --- | --- |
+| Forrester | **Adobe는 경험 최적화 플랫폼을 위한 Forrester wave 보고서의 리더로 선정되었습니다.**<br> Adobe는 이 분야의 Adobe 제품인 Adobe Target Premium에 대해 &quot;Forrester Wave: Experience Optimization Platforms, Q4 2020&quot; 보고서에서 유일한 리더로 명명되었습니다. Adobe는 현재 오퍼링 및 시장 참여 범주와 권장 사항 및 플랫폼 경험 기준에서 모든 참여 공급업체 중 가장 높은 점수를 받았습니다. Target Premium 또한 경험 최적화 기술 혁신과 지원 서비스 기준에서 가장 높은 점수를 받았습니다. 보고서는 22개 기준에서 10개의 경험 최적화 플랫폼 제공자에 대한 철저히 평가를 기반으로 한 것입니다.<br>자세한 내용은 [Adobe 블로그](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)를 읽어 보십시오. |
+| Gartner | **Adobe는 개인화 엔진을 위한 Gartner Magic Quadrant의 리더로 다시 선정했습니다.**<br> Adobe Target은 제 3회 Gartner Magic Quadrant for Personalization Engines, 2020년 보고서에서 다시 한 번 리더로 선정되었습니다. Gartner Magic Quadrant for Personalization Engines는 비전의 완전성과 실행 능력의 두 가지 범주로 분류되는 15가지 기준에 걸쳐 공급업체를 평가했습니다.<br>[자세한 내용은 Adobe 블로그를 읽어 보십시오](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
+
