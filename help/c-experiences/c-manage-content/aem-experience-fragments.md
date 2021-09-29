@@ -2,12 +2,12 @@
 keywords: 경험;json;aem;adobe experience manager;adobe target으로 내보내기;경험 구성요소;구성요소;XF
 description: Adobe [!DNL Target] 활동에서 AEM 경험 구성요소를 사용하는 방법을 알아봅니다. AEM의 편의성과 기능을 강력한 AI 및 ML 기능과 결합합니다( [!DNL Target]).
 title: AEM(Adobe Experience Manager) 경험 조각을 사용하려면 어떻게 해야 합니까?
-feature: 경험 및 오퍼
+feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: a13070602a9761bf49923c4add4a0f740b253a2d
+source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 13%
+source-wordcount: '1125'
+ht-degree: 14%
 
 ---
 
@@ -142,7 +142,6 @@ ht-degree: 13%
 
 * [!DNL Target] 현재 는 10분마다 가져올 경험 구성요소를 찾습니다. 가져온 경험 구성요소는 10분 이내에 [!DNL Target]에서 사용할 수 있어야 하지만 이 시간은 향후 단축될 것입니다.
 * 경험 구성요소는 현재 [!DNL Target]에 HTML 오퍼로 가져왔습니다. 경험 조각 &quot;기본&quot; 버전은 [!DNL AEM]에 남아 있습니다. [!DNL Target]에서 경험 조각을 편집할 수 없습니다.
-* JSON 오퍼를 경험 조각으로 [!DNL Target]에 가져올 수 있습니다. 그러나 이러한 오퍼는 HTML 오퍼로 가져옵니다. JSON 오퍼(경험 조각)는 현재 [!DNL Target] UI에서 완전히 지원되지 않습니다.
 * Adobe IO를 사용하여 경험 조각을 만들 수 없습니다. 위에서 설명한 대로 AEM을 사용하여 경험 조각을 만들어야 합니다.
 
 ## 교육 비디오: Adobe Target ![자습서 배지](/help/assets/overview.png)에서 AEM 경험 구성요소 사용 {#section_C0EDC54063464F41A182492D2045BC64}
