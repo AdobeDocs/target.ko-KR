@@ -3,9 +3,9 @@ user-guide-title: Adobe [!DNL Target] 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: ht
-source-wordcount: '1541'
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+workflow-type: tm+mt
+source-wordcount: '1535'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,6 @@ ht-degree: 100%
       + [SDK에서 Target 사용](c-target-mobile-app/mobile-enable-target-in-sdk.md)
       + [iOS - Target 위치 및 성공 지표 만들기](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - 사용자 지정 사용자 데이터 전송](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Adobe Analytics에 활동 정보 보내기](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Target 모바일 미리보기](c-target-mobile-app/target-mobile-preview.md)
       + [오퍼 콘텐츠 미리 가져오기](c-target-mobile-app/prefetch-offer-content.md)
       + [모바일 앱을 위한 Target FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
