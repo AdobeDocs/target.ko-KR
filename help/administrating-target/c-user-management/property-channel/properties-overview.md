@@ -5,9 +5,9 @@ title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '1432'
+source-wordcount: '1431'
 ht-degree: 63%
 
 ---
@@ -142,9 +142,9 @@ ht-degree: 63%
 
    [!DNL Target] 구현을 업데이트하는 방법에는 여러 가지가 있습니다. 예를 들어, 웹 페이지에는 다음 방법을 사용할 수 있습니다.
 
-   * **의 태그의 글로벌 매개 변수를 통해   [!DNL Adobe Experience Platform]:**
+   * **내 태그의 &quot;사용자 지정 매개 변수&quot;를 통해  [!DNL Adobe Experience Platform]:**
 
-      자세한 내용은 *Target 개요* 설명서에서 [글로벌 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)를 참조하십시오.
+      자세한 내용은 *태그 개요* 설명서에서 [Mbox 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params)를 참조하십시오.
 
    * **targetPageParamsAll() 함수를 통해:**  at.js 참조 위 `<head>` 에 있는 태그에 다음 코드를 넣습니다.
 

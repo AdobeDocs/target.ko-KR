@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '2613'
-ht-degree: 93%
+source-wordcount: '2633'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 93%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 9월 30일 | 활동 정보를 [!DNL Adobe Analytics]에 보내기 | 설명한 단계는 임시 세그멘테이션을 위해 [!DNL Target] 모바일 앱 활동 정보를 [!DNL Analytics]에 더 이상 전송할 필요가 없으므로 전체 주제를 제거했습니다. |
+|  | [평균 상승도, 상승도 한계 및 신뢰 구간](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 상승도 신뢰 구간이 계산되는 방법을 설명하는 pdf 파일이 추가되었습니다. |
 |  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | `at_property` 매개 변수를 포함하도록 구현 업데이트 &quot;5단계&quot;에서 `targetPageParams`을 `targetPageParamsAll`(으)로 변경했습니다. |
 | 9월 27일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break<ul><li>2021년 10월 13일 수요일</li><li>오전 8시 (PDT, UTC -7)</li></ul></li></ul> |
 | 9월 22일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 가능한 모호성을 방지하기 위해 코드 샘플에서 `$Double`을 `$double` (으)로 변경했습니다. |
