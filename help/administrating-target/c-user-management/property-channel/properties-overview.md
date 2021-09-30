@@ -2,13 +2,13 @@
 keywords: 사용자 추가;프로젝트;사용자 그룹;속성;작업 공간;속성 관리;속성;at_property;역할;권한
 description: Adobe Target에 사용자를 추가하는 방법을 알아봅니다. 작업 공간, 사용자 그룹 및 속성을 만듭니다. 구현 업데이트 역할 및 권한을 지정합니다.
 title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
-feature: 관리 및 구성
+feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
 workflow-type: tm+mt
-source-wordcount: '1460'
-ht-degree: 64%
+source-wordcount: '1458'
+ht-degree: 63%
 
 ---
 
@@ -150,17 +150,25 @@ ht-degree: 64%
 
       자세한 내용은 *Target 개요* 설명서에서 [글로벌 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)를 참조하십시오.
 
-   * **targetPageParams() 함수를 통해:**  at.js 참조  `<head>` 위의 태그에 다음 코드를 넣습니다.
+   * **targetPageParamsAll() 함수를 통해:**  at.js 참조 위 `<head>` 에 있는 태그에 다음 코드를 넣습니다.
 
-      ![](assets/property_token_1.png)
+      ```javascript
+      <script>
+       function targetPageParamsAll() {
+        return {
+         "at_property": "5f8bd98b-1456-a84c-2a96-11s9b8e2b112"
+        };
+       }
+      </script>
+      ```
 
-      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)를 참조하십시오.
+      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) 을 참조하십시오.
 
    * **mboxCreate() 함수를 통해:**
 
       ![](assets/property_token_3.png)
 
-      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) 및 [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
+      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAlland   [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
