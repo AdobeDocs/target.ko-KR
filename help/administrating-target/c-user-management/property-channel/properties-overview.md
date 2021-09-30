@@ -5,9 +5,9 @@ title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
+source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1432'
 ht-degree: 63%
 
 ---
@@ -108,8 +108,6 @@ ht-degree: 63%
 1. [!DNL Target]에서 **[!UICONTROL 관리]** > **[!UICONTROL 속성]**&#x200B;을 클릭하여 [!UICONTROL 속성] 목록을 표시합니다.
 1. **속성 만들기**&#x200B;를 클릭합니다.
 
-   ![새 속성 대화 상자](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
-
    다음 필드를 채웁니다.
 
    * **속성 이름(필수):** 속성에 대해 수사적 이름을 지정합니다.
@@ -144,7 +142,7 @@ ht-degree: 63%
 
    [!DNL Target] 구현을 업데이트하는 방법에는 여러 가지가 있습니다. 예를 들어, 웹 페이지에는 다음 방법을 사용할 수 있습니다.
 
-   * **의 &quot;태그의 전역 매개 변수&quot;를 통해   [!DNL Adobe Experience Platform]:**
+   * **의 태그의 글로벌 매개 변수를 통해   [!DNL Adobe Experience Platform]:**
 
       자세한 내용은 *Target 개요* 설명서에서 [글로벌 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params)를 참조하십시오.
 
@@ -161,12 +159,6 @@ ht-degree: 63%
       ```
 
       at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) 을 참조하십시오.
-
-   * **mboxCreate() 함수를 통해:**
-
-      ![](assets/property_token_3.png)
-
-      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAlland   [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
