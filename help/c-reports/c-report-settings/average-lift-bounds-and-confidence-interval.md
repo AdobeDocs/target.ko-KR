@@ -4,9 +4,9 @@ description: 활동의 상승도 한계 및 신뢰 수준을 이해하는 데 �
 title: 평균 상승도, 상승도 한계 및 신뢰 구간을 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 71%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 71%
 
 ## 상승도에 대한 신뢰 구간이 어떻게 결정되는지 이해합니다 {#pdf}
 
-자세한 내용은 [향상도용 신뢰 구간](/help/assets/confidence_interval_lift.pdf)을 다운로드하십시오.
+자세한 내용은 [Confidence Interval for Lift pdf 파일](/help/assets/confidence_interval_lift.pdf)을 다운로드하십시오.
 
 ## 상승도 한계는 어떻게 계산됩니까? {#section_1D360781D972483693680BE0F07AEAD1}
 
