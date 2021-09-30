@@ -5,9 +5,9 @@ title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
 workflow-type: tm+mt
-source-wordcount: '1458'
+source-wordcount: '1456'
 ht-degree: 63%
 
 ---
@@ -139,8 +139,6 @@ ht-degree: 63%
       ![속성 가리키기 코드](/help/administrating-target/c-user-management/property-channel/assets/code_property_new.png)
 
    1. 강조 표시된 구현 코드를 마우스 오른쪽 단추로 클릭하여 클립보드에 복사합니다.
-
-      ![속성 코드](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
 1. [!DNL Target] 구현을 이전 단계에서 얻은 구현 코드로 업데이트합니다.
 
