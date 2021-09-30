@@ -4,7 +4,7 @@ description: 활동의 상승도 한계 및 신뢰 수준을 이해하는 데 �
 title: 평균 상승도, 상승도 한계 및 신뢰 구간을 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: 905de3cd4f4f660fc7c192a2f68f0660002e47b0
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 71%
