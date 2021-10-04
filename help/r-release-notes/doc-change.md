@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '2634'
-ht-degree: 92%
+source-wordcount: '2649'
+ht-degree: 97%
 
 ---
 
@@ -19,27 +19,28 @@ ht-degree: 92%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 4일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.1 릴리스(2021년 10월 6일)의 사전 릴리스 노트를 업데이트했습니다. |
 | 9월 30일 | 활동 정보를 [!DNL Adobe Analytics]에 보내기 | 설명한 단계는 임시 세그멘테이션을 위해 [!DNL Target] 모바일 앱 활동 정보를 [!DNL Analytics]에 더 이상 전송할 필요가 없으므로 전체 주제를 제거했습니다. |
 |  | [평균 상승도, 상승도 한계 및 신뢰 구간](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 상승도 신뢰 구간이 계산되는 방법을 설명하는 pdf 파일을 추가했습니다. |
 |  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | `at_property` 매개 변수를 포함하도록 구현 업데이트 &quot;5단계&quot;에서 `targetPageParams`을 `targetPageParamsAll`(으)로 변경했습니다. |
 | 9월 27일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break<ul><li>2021년 10월 13일 수요일</li><li>오전 8시 (PDT, UTC -7)</li></ul></li></ul> |
-| 9월 22일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 가능한 모호성을 방지하기 위해 코드 샘플에서 `$Double`을 `$double` (으)로 변경했습니다. |
+| 9월 22일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 명확하지 않은 상황이 발생할 수 있으니 이를 방지하기 위해 코드 샘플에서 `$double` 를 `$Double` 로 변경합니다. |
 |  | [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 다음 FAQ가 업데이트되었습니다.<ul><li>[!DNL Recommendations] 디자인에서 프로필 스크립트를 사용할 수 있습니까?</li></ul> |
-|  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 다음 고려 사항이 추가되었습니다.<ul><li>클릭 추적 지표는 활동의 특정 경험에 연결되어 있지 않습니다.</li><li>클릭 추적 지표의 범위를 제한해야 하는 경우 대상을 사용합니다.</li><li>여러 활동이 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그럴 경우 방문자가 해당 활동 중 하나에 적격이고 이 선택기를 클릭하면 방문자가 자격이 있는 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.</li></ul> |
-|  | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | [!DNL Target] 확장을 사용하여 at.js를 구현할 때의 이점 섹션에 참고가 추가되었습니다. |
-|  | [mbox3rdPartyID에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | 고려 사항 섹션이 새 정보로 업데이트되었습니다. |
-|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | &quot;secureOnly&quot; 섹션이 업데이트되었습니다. |
-|  | [at.js 자주 묻는 질문](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 다음 FAQ가 업데이트되었습니다. &quot;at.js가 항상 HttpOnly 및 Secure 쿠키 플래그를 사용하지 않는 이유는 무엇입니까?&quot; |
+|  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 다음 고려 사항이 추가되었습니다.<ul><li>클릭 추적 지표는 활동의 특정 환경에 연결되지 않습니다.</li><li>클릭 추적 지표 범위를 제한할 필요가 있는 경우 대상을 사용합니다.</li><li>여러 활동을 통해 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그렇다면 해당 활동 중 하나를 수행할 자격이 있는 방문자가 해당 선택기를 클릭하는 경우 자격이 부여된 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.</li></ul> |
+|  | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | “ [!DNL Target] 확장 기능을 통한 at.js 구현의 이점” 섹션에 참고 사항이 추가되었습니다. |
+|  | [mbox3rdPartyId에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | “고려 사항” 섹션이 새 정보로 업데이트되었습니다. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | “secureOnly” 섹션이 업데이트되었습니다. |
+|  | [at.js 자주 묻는 질문](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 다음 FAQ가 업데이트되었습니다. “at.js가 항상 HttpOnly 및 Secure 쿠키 플래그를 사용하지 않는 이유는 무엇입니까?” |
 | 9월 14일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.9.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (2021년 8월 10일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 9월 14일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.9.1(2021년 9월 14일) 릴리스에 대한 정보가 추가되었습니다. |
+| 9월 14일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.9.1(2021년 9월 14일)에 대한 정보가 추가되었습니다. |
 | 9월 7일 | [모바일](/help/c-target/c-audiences/c-target-rules/mobile.md) | “고려 사항” 섹션이 Safari 14.0.2 이상 버전이 탑재된 타기팅 디바이스에 대한 정보로 업데이트되었습니다. |
 |  | [분류 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타기팅] 활동에서 사용되는 내부 식별자인 `targettype` 및 `algorithmId`에 대한 정보가 업데이트되었습니다. |
-| 8월 24일 | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | [!DNL Adobe Experience Platform Launch]가 [!DNL Adobe Experience Platform]의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. |
+| 8월 24일 | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | [!DNL Adobe Experience Platform Launch] 가 [!DNL Adobe Experience Platform]의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. |
 | 8월 23일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break<ul><li>2021년 9월 8일 수요일</li><li>오전 8시 (PDT, UTC -7)</li></ul></li></ul> |
 | 8월 19일 | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | 다음 FAQ가 업데이트되었습니다.<ul><li>A4T가 가상 보고서 세트를 지원합니까?</li></ul> |
 | 8월 16일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1에 대한 릴리스 정보가 추가되었습니다. |

@@ -2,11 +2,11 @@
 keywords: 대상;대상 규칙;대상 만들기;대상 작성;대상 타깃팅;보고 대상;보고서 대상;세그먼트;사용자 지정 프로필 매개 변수;대상 정의;대상 목록
 description: ' [!DNL Adobe Target]에서 [!UICONTROL Audiences] 목록을 사용하는 방법을 알아봅니다.'
 title: 대상 목록을 사용하려면 어떻게 해야 합니까?
-feature: 대상자
+feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '759'
 ht-degree: 31%
 
 ---
@@ -45,7 +45,7 @@ ht-degree: 31%
 
    >[!NOTE]
    >
-   >[!DNL Adobe Experience Platform] 소스는 베타 테스트 프로그램에 있지만 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 있는 그대로 또는 [에서 기존 대상](/help/c-target/combining-multiple-audiences.md)과 결합할 수 있습니다.
+   >[!DNL Adobe Experience Platform] 소스는 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 있는 그대로 또는 [에서 기존 대상](/help/c-target/combining-multiple-audiences.md)과 결합할 수 있습니다.
 
 &quot;[!UICONTROL 새 방문자]&quot; 및 &quot;[!UICONTROL 재방문자]&quot;와 같이 사전 정의된 대상의 이름은 변경할 수 없습니다.
 

@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 93%
+source-wordcount: '292'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**최근 업데이트: 2021년 9월 27일**
+**마지막 업데이트: 2021년 10월 4일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
@@ -32,6 +32,7 @@ ht-degree: 93%
 | 기능 | 세부 사항 |
 | --- | --- |
 | 대상 UI 새로 고침 | 우리는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새로운 기술 스택을 사용하여 전체 [!DNL Target] UI를 점차적으로 다시 작성하고 있습니다. [관리](/help/administrating-target/administrating-target.md) 섹션은 2020년에 새로 고침되었습니다. [!UICONTROL 대상] 섹션은 두 번째 주요 UI 새로 고침입니다. |
+| ![Premium ](/help/assets/premium.png) 배지 권장 사항 기준 만들기 및 편집 | [!UICONTROL Recommendations 기준] 만들기 및 편집 워크플로우는 목표를 달성하기 위해 적합한 권장 사항 알고리즘과 설정을 선택하는 작업을 간소화할 수 있게 간소화되었습니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

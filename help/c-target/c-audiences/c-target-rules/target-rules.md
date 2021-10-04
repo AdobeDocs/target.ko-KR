@@ -2,9 +2,9 @@
 keywords: 타깃팅;타겟 카테고리;타겟 조건;audience manager;사용자 지정 프로필 매개 변수;방문자 프로필;사용자 지정 사용자 매개 변수;타겟 규칙
 description: 브라우저, 지역, 네트워크, 운영 체제, 방문자 프로필 과 같은 카테고리를 사용하여 컨텐츠를 타깃팅하는 방법을 알아봅니다.
 title: 대상의 카테고리는 무엇입니까?
-feature: 대상자
+feature: Audiences
 exl-id: 37d6435d-4139-47c5-a871-6595e089d052
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
 source-wordcount: '385'
 ht-degree: 50%
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # 대상의 카테고리
 
-[!DNL Adobe Target] 을 사용하여 여러 범주 속성을 타깃팅할 수 있습니다. 각 속성에 대한 타깃팅 규칙(또는 그룹)을 만들려면 원하는 속성을 대상 빌더 로 끌어서 놓습니다.
+[!DNL Adobe Target] 을 사용하여 여러 범주 속성을 타깃팅할 수 있습니다. 각 속성에 대한 타깃팅 규칙(또는 그룹)을 만들려면 원하는 속성을 Audience Builder 창으로 끌어서 놓습니다.
 
 ![대상의 속성](/help/c-target/c-audiences/assets/attributes.png)
 
@@ -21,7 +21,7 @@ ht-degree: 50%
 
 규칙을 만든 후 **[!UICONTROL 완료]**&#x200B;를 클릭하십시오. 타깃팅 중인 수준에 대한 타깃팅 링크 옆에 규칙의 요약이 표시됩니다.
 
-조건을 추가하거나 다른 카테고리에 추가 규칙을 만들어 규칙을 더욱 구체화할 수 있습니다. 예를 들어 Google에서 사이트에 액세스한 San Francisco의 Firefox 사용자만 타깃팅할 수 있습니다. [!UICONTROL Geo] 카테고리를 설정하여 San Francisco의 사용자를 타깃팅하고, [!UICONTROL 브라우저] 카테고리를 설정하여 Firefox를 사용하여 사용자를 타깃팅하고, [!UICONTROL 트래픽 소스] 카테고리를 설정하여 [!UICONTROL From Google]에서 오는 사용자를 타깃팅합니다. 여러 카테고리에 만든 규칙이 AND 연산자와 결합됩니다.
+조건을 추가하거나 다른 카테고리에 추가 규칙을 만들어 규칙을 더욱 구체화할 수 있습니다. 예를 들어 Google에서 사이트에 액세스하는 San Francisco의 Firefox 사용자만 타깃팅할 수 있습니다. [!UICONTROL Geo] 카테고리를 설정하여 San Francisco의 사용자를 타깃팅하고, [!UICONTROL 브라우저] 카테고리를 설정하여 Firefox를 사용하여 사용자를 타깃팅하고, [!UICONTROL 트래픽 소스] 카테고리를 설정하여 [!UICONTROL From Google]에서 오는 사용자를 타깃팅합니다. 여러 카테고리에 만든 규칙이 AND 연산자와 결합됩니다.
 
 카테고리 간에 OR 작업을 포함하는 복잡한 타깃팅 규칙을 만들려면 표현식 타겟을 만듭니다.
 

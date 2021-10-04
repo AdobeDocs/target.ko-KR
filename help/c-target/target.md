@@ -1,12 +1,12 @@
 ---
 keywords: 타깃팅;대상
 description: ' [!DNL Adobe Target] 에서 대상을 사용하여 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅하여 웹 마케팅 활동을 최적화하는 방법을 알아봅니다.'
-title: 대상을 사용하여 다른 컨텐츠를 특정 세그먼트에 Target 하려면 어떻게 해야 합니까?
-feature: 대상자
+title: '[!UICONTROL Audiences]을 사용하여 다른 컨텐츠를 특정 세그먼트에 Target 할 수 있습니까?'
+feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '315'
+source-wordcount: '314'
 ht-degree: 42%
 
 ---

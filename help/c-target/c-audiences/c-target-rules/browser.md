@@ -2,11 +2,11 @@
 keywords: 브라우저 선택 사항;유형;브라우저 유형;브라우저 언어;언어;버전;브라우저 버전
 description: 페이지를 방문할 때 특정 브라우저나 특정 브라우저 선택 사항을 사용하는 사용자를 타깃팅하기 위해 [!DNL Adobe Target] 에서 대상을 만드는 방법을 알아봅니다.
 title: 브라우저 유형에 따라 방문자를 Target 할 수 있습니까?
-feature: 대상자
+feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 76%
 
 ---
@@ -40,7 +40,7 @@ ht-degree: 76%
 
    1. [!DNL Target] 인터페이스에서 **[!UICONTROL 대상자]** > **[!UICONTROL 대상자 만들기]**&#x200B;를 클릭합니다.
    1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
-   1. **[!UICONTROL 브라우저]**&#x200B;를 대상 빌더 창으로 끌어다 놓습니다.
+   1. **[!UICONTROL 브라우저]**&#x200B;를 Audience Builder로 끌어다 놓습니다.
 
       ![규칙 > 브라우저](assets/target_browser.png)
 

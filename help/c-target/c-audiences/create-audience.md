@@ -2,11 +2,11 @@
 keywords: 대상;대상 규칙;대상 만들기;대상 생성
 description: 사용자 지정된 대상을 만들고 활동에 사용할 [!DNL Adobe Target] [!UICONTROL Audiences] 라이브러리에 저장하는 방법을 알아봅니다.
 title: 대상을 만들려면 어떻게 해야 합니까?
-feature: 대상자
+feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 61%
 
 ---
@@ -60,7 +60,7 @@ ht-degree: 61%
 
 1. (조건부) 원하는 속성을 계속 추가 및 정의합니다.
 
-   다른 컨테이너를 만들려면 **[!UICONTROL 컨테이너 추가]**&#x200B;를 클릭하거나 다른 속성을 중간 프레임으로 드래그하십시오. 그런 다음 드롭다운 목록을 사용하여 연산자(AND 또는 OR)를 조정할 수 있습니다.
+   다른 컨테이너를 만들려면 **[!UICONTROL 컨테이너 추가]**&#x200B;를 클릭하거나 다른 속성을 Audience Builder 창으로 드래그하십시오. 그런 다음 드롭다운 목록을 사용하여 연산자(AND 또는 OR)를 조정할 수 있습니다.
 
 1. **[!UICONTROL 완료를 클릭합니다]**.
 
