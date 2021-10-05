@@ -6,9 +6,9 @@ title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5a5b39db9b9b4ffd95573d643dcff52fe562c0c2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '727'
-ht-degree: 57%
+ht-degree: 100%
 
 ---
 
@@ -28,18 +28,18 @@ ht-degree: 57%
 
 이 유지 보수 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* 일부 웹 브라우저에서 타사 쿠키에 대한 새 보안 정책으로 인해 고객이 [!UICONTROL 시각적 경험 작성기] (VEC)에 로그인하지 못하는 문제를 해결했습니다. 이 문제는 [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)에서 Google Chrome 버전 80+를 사용할 때 &quot;VEC(시각적 경험 작성기) 또는 EEC(고급 경험 작성기)에서 페이지가 로드되지 않음&quot;에 설명되어 있습니다.
-* VEC에 있는 오퍼 이름에 오퍼의 친숙한 이름 대신 오퍼의 경로가 표시되던 문제를 수정했습니다. (TGT-41300)
-* 이제 경험 이름이 A4T 활동의 경우 [!DNL Analysis Workspace]에 반영됩니다(TGT-38674).
-* 중복 활동의 프로모션에서 엔티티 ID 변경 사항을 원래 활동에 잘못 적용하는 [!DNL Recommendations]의 문제를 수정했습니다. (TGT-41482)
-* VEC의 [!DNL Recommendations] 활동에 대한 [!UICONTROL 경험] 페이지에 &quot;기준 편집&quot; 단추가 제대로 표시되지 않는 문제를 수정했습니다. (TGT-39512)
-* 복제 및 테스트 작업 공간에 복사할 때 활동 동기화를 방지할 수 있는 문제를 수정했습니다. (TGT-40686)
-* VEC에서 &quot;[!UICONTROL 다음 항목 뒤에 삽입]&quot;을 사용할 때 [경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)가 있는 선택기를 수정할 수 없는 문제를 해결했습니다. (TGT-41802)
-* 오퍼의 빈 JSON 콘텐츠가 백엔드로 전송되지 않는 문제를 해결했습니다. [!DNL Target] 는 비어 있더라도 JSON 개체를 전송합니다. (TGT-41555)
-* 고객이 보고서를 보는 동안 Analytics]에서 &quot;[!UICONTROL 보기&quot;를 클릭할 때 [!DNL Analysis Workspace] 대신 이전 [!DNL Analytics] 보고가 열리던 문제를 수정했습니다. (TGT-41867)
-* 고객이 [!UICONTROL Automated Personalization] 활동에 대한 보고 소스(A4T)로 [!DNL Analytics]을 선택하려고 할 때 표시되는 UI 메시지에 추가 설명이 추가되었습니다. 메시지에 &quot;[!DNL Target]이 [!UICONTROL Automated Personalization] 활동에 대해 지원되는 유일한 소스라고 표시됩니다.&quot; (TGT-41954)
-* 고객이 쉼표 대신 &quot;줄바꿈&quot;으로 호스트를 구분하려고 할 때 오류 메시지에 추가 설명이 추가되었습니다. (TGT-40671)
-* 일부 활동의 &quot;[!UICONTROL 최근 업데이트]&quot; 날짜가 스페인어 및 일본어 고객을 위한 영어 UI와 달라지는 문제를 해결했습니다(스페인어 및 일본어로 UI를 볼 때). (TGT-38980)
+* 일부 웹 브라우저의 서드파티 쿠키에 대한 새 보안 정책으로 인해 고객이 [!UICONTROL 시각적 경험 작성기] (VEC)에 로그인할 수 없는 문제가 해결되었습니다. [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)의 “Google Chrome 버전 80 이상을 사용할 때 시각적 경험 작성기(VEC) 또는 향상된 경험 작성기(EEC) 페이지가 로드되지 않음”에서 이 문제를 논의합니다.
+* VEC의 오퍼 이름에 오퍼의 친숙한 이름 대신 오퍼의 패스가 표시되는 문제가 해결되었습니다. (TGT-41300)
+* 경험 이름이 A4T 활동(TGT-38674)에 대한 [!DNL Analysis Workspace] 에 반영됩니다.
+* 복제된 활동의 프로모션 엔티티 ID 변경 내용이 원래 활동에 잘못 적용되는 [!DNL Recommendations] 의 문제가 해결되었습니다. (TGT-41482)
+* VEC의 [!DNL Recommendations] 활동에 대한 [!UICONTROL 경험] 페이지에서 “기준 편집” 버튼을 제대로 표시할 수 없는 문제가 해결되었습니다. (TGT-39512)
+* 테스트 작업 영역에 복제 및 복사하는 경우 활동을 동기화할 수 없는 문제가 해결되었습니다. (TGT-40686)
+* VEC에서 “[!UICONTROL 다음 항목 뒤에 삽입]”을 사용하는 경우 [경험 조각](/help/c-experiences/c-manage-content/aem-experience-fragments.md) 으로 선택기를 수정할 수 없는 문제가 해결되었습니다. (TGT-41802)
+* 오퍼의 빈 JSON 콘텐츠를 백엔드로 전송할 수 없는 문제가 해결되었습니다. 비어있더라도 [!DNL Target] 에서 JSON 오브젝트를 보냅니다. (TGT-41555)
+* 보고서를 보면서 고객이 “[!UICONTROL 분석에서 보기]”를 클릭한 경우 [!DNL Analysis Workspace] 대신 레거시 [!DNL Analytics] 보고서가 열리는 문제가 해결되었습니다. (TGT-41867)
+* 고객이 [!UICONTROL Automated Personalization] 활동에 대한 보고 소스 (A4T)로 [!DNL Analytics] 선택을 시도하는 경우 표시된 UI 메시지에 추가 설명이 추가되었습니다. 메시지를 살펴보면 “[!DNL Target] 은 [!UICONTROL Automated Personalization] 활동”을 지원하는 유일한 소스입니다. (TGT-41954)
+* 고객이 쉼표 대신 “새 줄”로 호스트 구분을 시도하는 경우 오류 메시지에 추가 설명이 추가되었습니다. (TGT-40671)
+* 일부 활동의 “[!UICONTROL 마지막 데이트 날짜]”가 스페인어 및 일본어 고객용 영어 UI와 다를 경우 발생하는 문제가 해결되었습니다(스페인어 및 일본어로 UI를 조회하는 경우). (TGT-38980)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
