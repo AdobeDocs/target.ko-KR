@@ -4,16 +4,25 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '2649'
-ht-degree: 97%
+source-wordcount: '2727'
+ht-degree: 96%
 
 ---
 
 # 설명서 변경 내용
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
+
+## [!DNL Adobe Target Standard/Premium] 21.10.1(2021년 10월 6일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 10월 6일 | [에서 대상 작성 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 업데이트된 [!DNL Target] [!UICONTROL 대상] UI를 반영하도록 텍스트 및 이미지가 업데이트되었습니다. [!UICONTROL Audiences] 항목 전체에서 유사한 변경이 수행되었습니다. |
+|  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 다음 섹션이 업데이트되었습니다.<ul><li>기본 정보</li><li>데이터 소스</li></ul> |
+|  | [사용자 지정 기준 업로드](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 새 워크플로우를 반영하도록 지침을 업데이트했습니다. |
+|  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1(2021년 9월 14일)
 
