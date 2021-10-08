@@ -4,7 +4,7 @@ breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
 source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
 ht-degree: 100%
 
