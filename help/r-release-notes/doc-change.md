@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
+source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
 workflow-type: tm+mt
-source-wordcount: '2741'
+source-wordcount: '2750'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 13일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.2 | [!DNL Target Standard/Premium] 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
 | 10월 11일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
 | 10월 6일 | [에서 대상 작성 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 업데이트된 [!DNL Target] [!UICONTROL 대상] UI를 반영하도록 텍스트 및 이미지가 업데이트되었습니다. [!UICONTROL Audiences] 항목 전체에서 유사한 변경이 수행되었습니다. |
 |  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 다음 섹션이 업데이트되었습니다.<ul><li>기본 정보</li><li>데이터 소스</li></ul> |
