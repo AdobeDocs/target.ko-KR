@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 96%
+source-wordcount: '2778'
+ht-degree: 97%
 
 ---
 
@@ -15,10 +15,11 @@ ht-degree: 96%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## [!DNL Adobe Target Standard/Premium] 21.10.1(2021년 10월 6일)
+## [!DNL Adobe Target Standard/Premium] 21.10.1 (2021년 10월 6일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 14일 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 다음 FAQ가 추가되었습니다. &quot;[!UICONTROL 자동 할당] 활동에서 최적화 목표로 세그먼트가 적용된 쌍방향 [!DNL Analytics] 지표를 사용할 수 있습니까?&quot; |
 | 10월 13일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.2 | [!DNL Target Standard/Premium] 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
 | 10월 11일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
 | 10월 6일 | [에서 대상 작성 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 업데이트된 [!DNL Target] [!UICONTROL 대상] UI를 반영하도록 텍스트 및 이미지가 업데이트되었습니다. [!UICONTROL Audiences] 항목 전체에서 유사한 변경이 수행되었습니다. |
@@ -30,10 +31,10 @@ ht-degree: 96%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 10월 4일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.1 릴리스(2021년 10월 6일)의 사전 릴리스 노트를 업데이트했습니다. |
-| 9월 30일 | 활동 정보를 [!DNL Adobe Analytics]에 보내기 | 설명한 단계는 임시 세그멘테이션을 위해 [!DNL Target] 모바일 앱 활동 정보를 [!DNL Analytics]에 더 이상 전송할 필요가 없으므로 전체 주제를 제거했습니다. |
-|  | [평균 상승도, 상승도 한계 및 신뢰 구간](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 상승도 신뢰 구간이 계산되는 방법을 설명하는 pdf 파일을 추가했습니다. |
-|  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | `at_property` 매개 변수를 포함하도록 구현 업데이트 &quot;5단계&quot;에서 `targetPageParams`을 `targetPageParamsAll`(으)로 변경했습니다. |
+| 10월 4일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.1 릴리스(2020년 10월 6일)에 대한 프리릴리스 정보가 업데이트되었습니다. |
+| 9월 30일 | [!DNL Adobe Analytics]에 활동 정보 보내기 | 사후 세분화를 위해 [!DNL Target] 모바일 앱 활동 정보를 [!DNL Analytics]로 보내는 단계 설명이 더 이상 필요하지 않으므로 전체 주제가 제거되었습니다. |
+|  | [평균 상승도, 상승도 한계 및 신뢰 구간](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 상승도에 대한 신뢰 구간 계산 방법을 설명하는 PDF 파일이 추가되었습니다. |
+|  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | “5단계: `at_property` 매개 변수를 포함하도록 구현 업데이트”에서 `targetPageParams`가 `targetPageParamsAll`로 변경되었습니다. |
 | 9월 27일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break<ul><li>2021년 10월 13일 수요일</li><li>오전 8시 (PDT, UTC -7)</li></ul></li></ul> |
 | 9월 22일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 명확하지 않은 상황이 발생할 수 있으니 이를 방지하기 위해 코드 샘플에서 `$double` 를 `$Double` 로 변경합니다. |
 |  | [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 다음 FAQ가 업데이트되었습니다.<ul><li>[!DNL Recommendations] 디자인에서 프로필 스크립트를 사용할 수 있습니까?</li></ul> |
