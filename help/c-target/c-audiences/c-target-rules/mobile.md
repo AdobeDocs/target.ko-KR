@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 에서 대상을 만들어 모바일 장치�
 title: 모바일 옵션을 기준으로 방문자를 Target 할 수 있습니까?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: 05619301a4cd145d07abb4bf5fbe9fd44bb3d65f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 40%
 
 장치 검색은 사용자-에이전트 문자열을 분석하여 수행됩니다. Apple과 같은 일부 장치 제조업체에서는 UA에서 충분한 정보를 제공하지 않음으로써 이 기능을 비활성화합니다.
 
-예를 들어, Apple 장치는 UA에서 장치 모델별 토큰을 공유하지 않습니다. 그 결과 단순 키워드기반 방식으로 아이폰(예: iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max) 등을 탐지할 수 없게 됐다.
+예를 들어, Apple 장치는 UA에서 장치 모델별 토큰을 공유하지 않습니다. 그 결과 간단한 키워드 기반 방법을 사용하여 iPhone 모델(예: iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max 등)을 감지할 수 없습니다.
 
 이 문제를 해결하려면 [!DNL Target]에서 추가 데이터를 수집하여 다음 매개 변수를 사용하여 iPhone 및 기타 Apple 장치를 정확하게 감지하십시오.
 
@@ -73,11 +73,11 @@ ht-degree: 40%
 
 iOS 12.2에 새롭게 추가된 변경 사항으로 인해, iPhone 모델을 지정하는 [!UICONTROL 장치 마케팅 이름] 및 [!UICONTROL 장치 모델]에 의해 정의된 규칙으로 대상을 만들면 영향을 받습니다. [!DNL Target] iOS 12.2 이상이 설치된 iPhone 사용자를 더 이상 타깃팅할 수 없습니다. 그러나 그러한 사용자에게 iOS 12.2(또는 이상)가 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
 
-iOS 12.2 이상 업데이트는 iOS 12.2로의 업그레이드를 지원하지 않으므로 다음 모델의 식별에 영향을 주지 않습니다. iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad/Retina 디스플레이, iPad Retina(4세대), iPod Touch 4 및 iPod Touch 5.
+iOS 12.2 이상 업데이트는 다음 모델을 식별하는 데 영향을 주지 않습니다. 이러한 모델은 iOS 12.2로의 업그레이드를 지원하지 않습니다. iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina 디스플레이, iPad Retina (4세대), iPod Touch 4 및 iPod Touch 5.
 
 ### Safari 14.0.2 이상을 실행하는 타깃팅 장치
 
-모바일 규칙을 사용하여 macOS에서 Safari 버전 14.0.2(또는 이상)를 실행하는 장치를 타깃팅하는 경우 Apple의 사용자 에이전트 및 DeviceAtlas와 관련된 알려진 문제로 인해 [!DNL Target]이 Mac 장치에서 Safari를 iPad 버전으로 잘못 식별합니다. 이 문제는 앞으로 해결될 것입니다.
+모바일 규칙을 사용하여 macOS에서 Safari 버전 14.0.2 이상을 실행하는 장치를 타깃팅하는 경우 Apple 사용자 에이전트 및 DeviceAtlas와 관련된 알려진 문제로 인해 [!DNL Target]이 Mac 및 iPad 장치에서 Safari를 잘못 식별합니다. 이 문제는 앞으로 해결될 것입니다.
 
 ## 교육 비디오: 대상 만들기
 
