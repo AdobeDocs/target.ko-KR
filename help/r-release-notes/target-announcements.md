@@ -5,9 +5,9 @@ title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '572'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 95%
 * **오전 8시 (PDT, UTC -7)**
 * **[여기를 클릭하여 자세한 내용을 살펴보고 등록하십시오](https://adobe.ly/3CoUIVz).**
 
-[!DNL Adobe Target]의 수석 솔루션 컨설턴트인 Gentry Lin은 그녀의 전문 지식과 관련된 고객 질문에 답할 것입니다.
+[!DNL Adobe Target]의 선임 솔루션 컨설턴트인 Gentry Lin이 자신의 전문 지식을 바탕으로 고객 질문에 답변합니다.
 
 * 구현
 * 개인 맞춤화
-* 핵심 웹 작성 워크플로우
+* 핵심 웹 프로덕션 워크플로
 * [!DNL Adobe Experience Cloud] 통합
 
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
