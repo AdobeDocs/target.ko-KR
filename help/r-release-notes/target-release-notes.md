@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 55%
+source-wordcount: '317'
+ht-degree: 67%
 
 ---
 
@@ -25,37 +25,15 @@ ht-degree: 55%
 >
 >사이트에 문제가 발생하지 않도록 하려면 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
 
-## [!DNL Target Standard/Premium] 21.10.2(2021년 10월 13일)
+## [!DNL Target Standard/Premium] 21.10.3(2021년 10월 19일)
 
-[!DNL Target] [!UICONTROL Audiences]를 [!DNL Adobe Experience Platform Web SDK]와 함께 사용할 때 다음과 같은 개선 사항이 추가되었습니다.
+이 유지 보수 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* [!DNL Target] UI의 다양한 위치에 경고 아이콘, 팝오버 및 메시지를 추가하여 대상자가 소스에서 삭제되었으며 더 이상 [!DNL Target] 활동에서 사용할 수 없음을 나타냅니다.
-
-   다음 그림은 아이콘, 팝오버 및 메시지가 표시되는 몇 가지 위치를 보여줍니다.
-
-   *  Activitylist 페이지
-
-      ![활동 목록 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-audiences-list.png)
-
-   * 활동 [!UICONTROL 개요] 페이지:
-
-      ![개요 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-overview.png)
-
-   *  활동 만들기 워크플로우의 경험 단계:
-
-      ![경험 페이지의 소스 메시지에서 삭제된   대상](assets/deleted-at-source-experiences.png)
-
-   *  활동 생성 워크플로우의 타깃팅 단계:
-
-      ![타겟 페이지의 소스 메시지에서 삭제된   대상](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL 활동 ] 생성 워크플로우의 목표 및 설정 단계:
-
-      ![목표 및 설정 페이지에서 소스 메시지 [!UICONTROL 에서 삭제된 ] 대상](assets/deleted-at-source-goals-settings.png)
-
-   * 대상 개선([!UICONTROL 활동 생성 워크플로우의 [!UICONTROL 타깃팅] 단계에서 대상 바꾸기):]
-
-* 대상 결합 기능을 사용하려고 하며 소스에서 대상 중 하나가 삭제된 경우 [!UICONTROL 저장]이 비활성화됩니다.
+* 고객이 [!UICONTROL A4T] 패널 [!DNL Analysis Workspace] 다음을 클릭하여 [!UICONTROL Analytics에서 보기] 버튼 [!DNL Target] 활동 보고. (TGT-42099, TGT-42100)
+* 이(가) [!UICONTROL 디자인 편집] 편집하는 동안 단추가 표시되지 않습니다. [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 활동을 사용할 때 [!UICONTROL 양식 기반 경험 작성기]. (TGT-41980)
+* Adobe Social이 사용자 지정 브랜드 도메인을 인식하지 못하는 문제를 해결했습니다. [!UICONTROL 호환 가능] 새 항목을 만드는 동안 기준 선택에 표시되지 않는 확인란 [!UICONTROL Recommendations] 활동. (TGT-42053)
+* 선택할 수 없는 경우 잘못된 오류 메시지가 수정되었습니다 [!DNL Analytics] 를 보고 소스로 사용(A4T)할 필요는 없습니다 [!DNL Analytics] 사용 권한. (TGT-41954)
+* 여러 액세스 가능성 수정 사항을 구현하여 [!DNL Target] UI.
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
