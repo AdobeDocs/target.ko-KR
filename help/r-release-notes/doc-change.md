@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '2778'
+source-wordcount: '2789'
 ht-degree: 97%
 
 ---
@@ -19,10 +19,11 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 10월 14일 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 다음 FAQ가 추가되었습니다. &quot;[!UICONTROL 자동 할당] 활동에서 최적화 목표로 세그먼트가 적용된 쌍방향 [!DNL Analytics] 지표를 사용할 수 있습니까?&quot; |
-| 10월 13일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.2 | [!DNL Target Standard/Premium] 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
+| 10월 19일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.3 릴리스(2021년 10월 19일). |
+| 10월 14일 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 다음 FAQ가 추가되었습니다. 이색제를 사용할 수 있나요 [!DNL Analytics] 세그먼트가 의 최적화 목표로 적용된 지표 [!UICONTROL 자동 할당] 활동?&quot; |
+| 10월 13일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.2 | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.2 릴리스(2021년 10월 13일). |
 | 10월 11일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
-| 10월 6일 | [에서 대상 작성 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 업데이트된 [!DNL Target] [!UICONTROL 대상] UI를 반영하도록 텍스트 및 이미지가 업데이트되었습니다. [!UICONTROL Audiences] 항목 전체에서 유사한 변경이 수행되었습니다. |
+| 10월 6일 | [에서 대상 작성 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 업데이트된 내용을 반영하도록 텍스트 및 이미지가 업데이트되었습니다 [!DNL Target] [!UICONTROL 대상] UI. Adobe Campaign은 [!UICONTROL 대상] 주제. |
 |  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 다음 섹션이 업데이트되었습니다.<ul><li>기본 정보</li><li>데이터 소스</li></ul> |
 |  | [사용자 지정 기준 업로드](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 새 워크플로우를 반영하도록 지침을 업데이트했습니다. |
 |  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
