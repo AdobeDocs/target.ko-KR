@@ -4,10 +4,10 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
-source-wordcount: '31881'
-ht-degree: 100%
+source-wordcount: '32456'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,59 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) 를 참조하십시오.
 
 ## 릴리스 정보 - 2021
+
+### [!DNL Target Standard/Premium] 21.10.3(2021년 10월 19일)
+
+이 유지 보수 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
+
+* 고객이 [!UICONTROL A4T] 패널 [!DNL Analysis Workspace] 다음을 클릭하여 [!UICONTROL Analytics에서 보기] 버튼 [!DNL Target] 활동 보고. (TGT-42099, TGT-42100)
+* 이(가) [!UICONTROL 디자인 편집] 편집하는 동안 표시되지 않는 단추 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 활동을 사용할 때 [!UICONTROL 양식 기반 경험 작성기]. (TGT-41980)
+* Adobe Social이 사용자 지정 브랜드 도메인을 인식하지 못하는 문제를 해결했습니다. [!UICONTROL 호환 가능] 새 항목을 만드는 동안 기준 선택에 표시되지 않는 확인란 [!UICONTROL Recommendations] 활동. (TGT-42053)
+* 선택할 수 없을 때 표시되는 잘못된 오류 메시지가 수정되었습니다 [!DNL Analytics] 를 보고 소스로 사용(A4T)할 필요는 없습니다 [!DNL Analytics] 사용 권한. (TGT-41954)
+* 여러 액세스 가능성 수정 사항을 구현하여 [!DNL Target] UI.
+
+### [!DNL Target Standard/Premium] 21.10.2(2021년 10월 13일)
+
+사용 시 다음과 같은 향상된 기능을 추가했습니다 [!DNL Target] [!UICONTROL 대상] 사용 [!DNL Adobe Experience Platform Web SDK]:
+
+* 의 다양한 위치에 경고 아이콘, 팝오버와 메시지를 추가했습니다 [!DNL Target] 대상이 소스에서 삭제되었으며 더 이상 을 사용할 수 없음을 나타내는 UI입니다 [!DNL Target] 활동.
+
+   다음 그림은 아이콘, 팝오버 및 메시지가 표시되는 몇 가지 위치를 보여줍니다.
+
+   * [!UICONTROL 활동] 목록 페이지
+
+      ![활동 목록 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-audiences-list.png)
+
+   * 활동 [!UICONTROL 개요] 페이지:
+
+      ![개요 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-overview.png)
+
+   * [!UICONTROL 경험] 활동 만들기 워크플로우의 단계:
+
+      ![소스 메시지에서 삭제된 대상 [!UICONTROL 경험] 페이지](assets/deleted-at-source-experiences.png)
+
+   * [!UICONTROL 타깃팅] 활동 만들기 워크플로우의 단계:
+
+      ![소스 메시지에서 삭제된 대상 [!UICONTROL 타깃팅] 페이지](assets/deleted-at-source-targeting.png)
+
+   * [!UICONTROL 목표 및 설정] 활동 만들기 워크플로우의 단계:
+
+      ![소스 메시지에서 삭제된 대상 [!UICONTROL 목표 및 설정] 페이지](assets/deleted-at-source-goals-settings.png)
+
+   * 대상 개선([!UICONTROL 대상 바꾸기] on [!UICONTROL 타깃팅] 활동 작성 워크플로우 단계):
+
+* 대상 결합 기능을 사용하려고 하는데 소스에서 대상 중 하나가 삭제된 경우 [!UICONTROL 저장] 이 비활성화되어 있습니다.
+
+### [!DNL Target Standard/Premium] 21.10.1 (2021년 10월 6일)
+
+이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| [!UICONTROL 대상자 UI 새로 고침] | 의 일부로 [!DNL Adobe Target] 사용자 경험을 향상시키기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 새로 고침됩니다. [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지의 페이지 [!DNL Target] UI. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관성이 없는 디자인 패턴을 통합 및 표준화합니다.<ul><li>여러 대상을 동시에 선택하고 삭제하는 기능</li><li>새로 고친 [audience builder 디자인](/help/c-target/c-audiences/create-audience.md)</li><li>에서 제외 규칙 지원 [!UICONTROL Audience] 라이브러리 규칙 빌더</li><li>대상 검색 속도를 높일 수 있는 새로운 &quot;대상 소스&quot; 필터</li><li>세션 영구 검색 및 필터 옵션</li></ul>자세한 내용은 [대상](/help/c-target/target.md)을 참조하십시오.<br>**참고**: 새로운 [!UICONTROL 대상] 현재 [!DNL Target] 베타 프로그램. 이 UI 새로 고침은 10월 19일 화요일 및 2021년 10월 21일 목요일에 나머지 모든 고객에 대해 다시 활성화됩니다. |
+| [!UICONTROL 프로필 스크립트] UI 새로 고침 | 다음 [!UICONTROL 프로필 스크립트] 라이브러리도 업데이트되었으며, 다음과 같이 새로 고친 인터페이스와 몇 가지 생산성 업데이트가 포함됩니다.<ul><li>여러 프로필 스크립트를 동시에 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트를 위한 새 코드 편집기</li><li>코드 편집기 내에서 구문 강조 표시 및 오류 확인</li><li>키보드 단축키를 통해 토큰(mbox 또는 프로필) 매개 변수 자동 완료</li></ul>자세한 내용은 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| ![Premium 배지](/help/assets/premium.png) Recommendations 기준 만들기 및 편집 | 다음 [!UICONTROL Recommendations 기준] 만들기 및 편집 워크플로우는 목표를 달성하기 위해 올바른 권장 사항 알고리즘 및 설정을 선택하는 작업을 간소화하기 위해 간소화되었습니다.<br>자세한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Premium 배지](/help/assets/premium.png) Recommendations 전환 확인 기간 및 알고리즘 새로 고침 비율 개선 사항 | 이제 6시간 전환 확인 기간과 함께 &quot;가장 많이 본 항목&quot; 및 &quot;최상위 판매자&quot; 알고리즘을 실행하여 가장 최근 트렌드를 표시하는 콘텐츠를 캡처할 수 있습니다. 6시간 전환 확인 기간을 선택하면 권장 사항 결과가 하루 종일 3-6시간마다 업데이트됩니다.<br>자세한 내용은 [데이터 소스](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *기준 만들기*. |
 
 ### [!DNL Target Standard/Premium] 21.9.1(2021년 9월 14일)
 
@@ -1637,7 +1690,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>2017년 9월 27일</b> </p> <p> <span class="filepath"> at.j s </span> 버전 1.2.0은 이제 대부분의 버그 수정 사항을 포함하는 유지 관리 릴리스로 사용할 수 있습니다. 자세한 내용은 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>클릭 추적 특수 사례에 대해 기본 동작이 수행되지 않도록 하는 문제가 수정되었습니다. (TNT-28089) </p> </li> 
@@ -1699,7 +1752,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>2017년 8월 3일</b> </p> <p> 이제 <span class="filepath"> at.js </span> 버전 1.1을 사용할 수 있습니다. 자세한 내용은 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 1.1에 포함되어 있습니다. </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>응답 토큰 처리가 추가되었습니다. 자세한 내용은 <a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> 응답 토큰 </a>을 참조하십시오. </p> </li> 
@@ -1933,7 +1986,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p> 이제 <span class="filepath"> at.js </span> 버전 0.9.6을 사용할 수 있습니다. 자세한 내용은 <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 0.9.6에 포함되어 있습니다. </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>A4T에 대해 리디렉션 오퍼가 지원됩니다. <span class="filepath"> at.js </span> 버전 0.9.6을 다운로드하여 설치한 후에는 <span class="keyword"> Adobe Analytics </span> 를 <span class="keyword"> Target </span> 에 대한 보고 소스로 사용하는 (A4T) 활동에서 리디렉션 오퍼를 사용할 수 있습니다. <span class="filepath"> at.js </span> 버전 0.9.6 외에, 리디렉션 오퍼 및 A4T를 사용하기 위해 구현이 충족해야 하는 다른 최소 요구 사항도 있습니다. 자세한 내용 및 알고 있어야 하는 추가 중요한 정보는 <a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> 리디렉션 오퍼 - A4T FAQ </a>를 참조하십시오. </p> </li> 
