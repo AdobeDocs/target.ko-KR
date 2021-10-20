@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 97%
+source-wordcount: '2820'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,9 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 20일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.4 릴리스(2021년 10월 21일). |
+|  | [권장 사항 계획 및 구현](/help/c-recommendations/plan-implement.md#section_D37E48700F074556B925D0CA0291405E) | &quot;장바구니 페이지&quot; 섹션의 코드 조각을 업데이트했습니다. |
+|  | [권장 사항 계획 및 구현](/help/c-recommendations/plan-implement.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 19일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.3 릴리스(2021년 10월 19일). |
 | 10월 14일 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 다음 FAQ가 추가되었습니다. 이색제를 사용할 수 있나요 [!DNL Analytics] 세그먼트가 의 최적화 목표로 적용된 지표 [!UICONTROL 자동 할당] 활동?&quot; |
 | 10월 13일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.2 | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.2 릴리스(2021년 10월 13일). |

@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '32456'
+source-wordcount: '32512'
 ht-degree: 98%
 
 ---
@@ -22,6 +22,14 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) 를 참조하십시오.
 
 ## 릴리스 정보 - 2021
+
+### [!DNL Target Standard/Premium] 21.10.4(2021년 10월 21일)
+
+이 유지 관리 릴리스에는 다음과 같은 향상된 기능이 포함되어 있습니다.
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| 장바구니 기반 Recommendations | 방문자 장바구니의 컨텐츠를 기반으로 권장 사항을 제공하는 새로운 알고리즘 그룹입니다.<br>자세한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 및 의 &quot;장바구니 추가/장바구니 보기/체크아웃 페이지&quot; 및 &quot;방문자의 장바구니에 이미 있는 항목 제외&quot;를 참조하십시오 [Recommendations 계획 및 구현](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3(2021년 10월 19일)
 

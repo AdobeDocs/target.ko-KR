@@ -4,16 +4,16 @@ description: 활동에 가장 적합한 권장 사항을 표시하도록 Adobe R
 title: Recommendations에서 기준을 만들려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: a86726aa6cc11f229c8157bb6d81a40d9f6b994e
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '2799'
+source-wordcount: '2797'
 ht-degree: 53%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 기준 만들기
 
-[!UICONTROL Adobe Target] [!UICONTROL Recommendations]의 기준은 [!UICONTROL Recommendations] 활동의 콘텐츠를 제어합니다. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오. 이러한 기준은 방문자의 작업을 사용하여 표시할 컨텐츠 또는 제품을 결정합니다.
+의 기준 [!UICONTROL Adobe Target] [!UICONTROL Recommendations] 의 컨텐츠를 제어합니다 [!UICONTROL Recommendations] 활동. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오. 이러한 기준은 방문자의 작업을 사용하여 표시할 컨텐츠 또는 제품을 결정합니다.
 
 다음 섹션에서는 새 기준을 만드는 방법을 설명합니다.
 
@@ -21,15 +21,15 @@ ht-degree: 53%
 
 [!UICONTROL 새 기준 만들기] 화면에 도달하는 여러 방법이 있습니다. 일부 화면 옵션은 화면에 도달하는 방법에 따라 달라집니다.
 
-* **[!UICONTROL Recommendations]** > **[!UICONTROL 기준]** 라이브러리 화면에서 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 만들기]**&#x200B;를 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!DNL Recommendations] 활동에 사용 가능해집니다.
-* [!UICONTROL 시각적 경험 작성기] (VEC)를 사용하여 [!DNL Recommendations] 활동을 만드는 경우, 페이지에서 요소를 선택하고 [!UICONTROL 기준] 선택 화면으로 바로 이동하며 [!UICONTROL Recommendations], [!UICONTROL Recommendations 앞에 삽입] 또는 [!UICONTROL Recommendations 다음 항목 뒤에 삽입]을 클릭합니다. 그런 다음 사용 가능한 기준을 선택하거나 **[!UICONTROL 기준 만들기]**&#x200B;를 클릭할 수 있습니다. 새 기준을 만드는 경우 다른 [!DNL Recommendations] 활동과 함께 사용할 기준을 저장하는 옵션이 있습니다. 자세한 내용은 [Recommendations 활동 만들기](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md)를 참조하십시오.
-* [!DNL Recommendations] 활동을 편집하는 경우 페이지에서 [!UICONTROL 권장 사항 위치] 상자를 클릭하고 **[!UICONTROL 기준 변경]**&#x200B;을 선택합니다. [!UICONTROL 기준 선택] 화면에서 **[!UICONTROL 기준 만들기]**&#x200B;를 클릭합니다. 다른 [!DNL Recommendations] 활동과 함께 사용할 새 기준을 저장하는 선택 사항이 있습니다.
+* 설정 **[!UICONTROL Recommendations]** > **[!UICONTROL 기준]** 라이브러리 화면에서 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 만들기]**. 여기서 만드는 기준은 자동으로 모든 [!DNL Recommendations] 활동에 사용 가능해집니다.
+* 만들기 [!DNL Recommendations] 활동을 사용하여 [!UICONTROL 시각적 경험 작성기] (VEC) 즉시 로 이동됩니다. [!UICONTROL 기준 선택] 페이지에서 요소를 선택한 후 화면을 선택하고 [!UICONTROL Recommendations으로 바꾸기], [!UICONTROL 앞에 Recommendations 삽입], 또는 [!UICONTROL 다음 항목 뒤에 Recommendations 삽입]. 그런 다음 사용 가능한 기준을 선택하거나 **[!UICONTROL 기준 만들기]**. 새 기준을 만드는 경우 다른 기준과 함께 사용할 기준을 저장하는 선택 사항이 있습니다 [!DNL Recommendations] 활동. 자세한 내용은 [Recommendations 활동 만들기](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* [!DNL Recommendations] 활동을 편집하는 경우 페이지에서 [!UICONTROL 권장 사항 위치] 상자를 클릭하고 **[!UICONTROL 기준 변경]**&#x200B;을 선택합니다. 설정 [!UICONTROL 기준 선택] 을 클릭하고 **[!UICONTROL 기준 만들기]**. 다른 [!DNL Recommendations] 활동과 함께 사용할 새 기준을 저장하는 선택 사항이 있습니다.
 
-다음 단계에서는 첫 번째 방법을 사용하여 [!UICONTROL 새 기준 만들기] 화면에 액세스한다고 가정합니다. **[!UICONTROL Recommendations]** > **[!UICONTROL 기준]** 라이브러리 화면.
+다음 절차에서는 [!UICONTROL 새 기준 만들기] 첫 번째 방법을 사용하여 화면: a **[!UICONTROL Recommendations]** > **[!UICONTROL 기준]** 라이브러리 화면.
 
-1. **[!UICONTROL Recommendations]** > **[!UICONTROL 기준]**&#x200B;을 클릭합니다.
+1. 클릭 **[!UICONTROL Recommendations]** > **[!UICONTROL 기준]**.
 
-1. **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 만들기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 만들기]**.
 
    ![새 기준 만들기](assets/CreateNewCriteria_full-new.png)
 
@@ -69,7 +69,7 @@ ht-degree: 53%
 
 ## [!UICONTROL Recommendations 알고리즘] {#rec-algo}
 
-1. **[!UICONTROL 알고리즘 유형]** 및 **[!UICONTROL 알고리즘]**&#x200B;을 선택합니다.
+1. 선택 **[!UICONTROL 알고리즘 유형]** 및 **[!UICONTROL 알고리즘]**:
 
    ![권장 알고리즘 섹션](assets/recommended-algorithm.png)
 
@@ -78,39 +78,39 @@ ht-degree: 53%
    | [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 하거나 사용자가 즐겨찾거나 가장 많이 본 카테고리, 브랜드, 장르 등 내에서 항목의 인기도를 기반으로 권장 사항을 만듭니다. | <ul><li>사이트에서 가장 많이 본 항목</li><li>카테고리별로 가장 많이 본 항목</li><li>품목 속성별로 가장 많이 본 항목 속성</li><li>사이트 간 최상위 판매자</li><li>카테고리별 최상위 판매자</li><li>항목별 최상위 판매자 속성</li><li>Analytics 지표별 상위</li></ul> |
    | [!UICONTROL 항목 기반] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾는 것을 기반으로 권장 사항을 만드십시오. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>비슷한 속성을 갖는 항목</li></ul> |
    | [!UICONTROL 사용자 기반] | 사용자의 행동을 기반으로 권장 사항을 만드십시오. | <ul><li>최근에 본 항목</li><li>권장 사항</li></ul> |
-   | 장바구니 기반 | (준비 중) 사용자의 장바구니 컨텐츠를 기반으로 하여 권장 사항을 만듭니다. | <ul><li>이러한 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul> |
+   | 장바구니 기반 | 사용자의 장바구니 콘텐츠를 기반으로 하여 권장 사항을 만듭니다. | <ul><li>이러한 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul> |
    | [!UICONTROL 사용자 지정 기준] | 업로드하는 사용자 지정 파일을 기반으로 하여 권장 사항을 만듭니다. | <ul><li>사용자 지정 알고리즘</li></ul> |
 
 
    >[!NOTE]
    >
-   >**[!UICONTROL 항목]**/ **[!UICONTROL 속성이 비슷한 미디어]**&#x200B;를 선택하면 [콘텐츠 유사성 규칙](#similarity)을 설정할 수 있는 선택 사항이 표시됩니다.
+   >선택하는 경우 **[!UICONTROL 항목]**/ **[!UICONTROL 비슷한 속성을 갖는 미디어]**&#x200B;를 설정하는 옵션이 있습니다. [콘텐츠 유사성 규칙](#similarity).
 
-1. 필요에 따라 **항목 속성** 및 **프로필 속성을 Match**, **권장 사항 키**, **필터링 키** 및/또는 **Analytics 지표**&#x200B;를 선택하여 알고리즘을 구성합니다.
+1. 필요에 따라 **항목 속성** 및 **일치하는 프로필 속성**, **권장 사항 키**, **필터링 키**, 및/또는 **Analytics 지표** 를 사용하여 알고리즘을 구성합니다.
 
-권장 사항 키 선택에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)를 참조하십시오.
+권장 사항 키 선택에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL 데이터 소스] {#data-source}
 
-1. 원하는 **[!UICONTROL 행동 데이터 소스]**&#x200B;를 선택합니다. [!UICONTROL Adobe Target] 또는 [!UICONTROL Analytics].
+1. 원하는 을 선택합니다 **[!UICONTROL 행동 데이터 소스]**: [!UICONTROL Adobe Target] 또는 [!UICONTROL Analytics].
 
    >[!NOTE]
    >
-   >[!UICONTROL 행동 데이터 소스] 섹션은 구현에서 [Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T)를 사용하는 경우에만 표시됩니다.
+   >다음 [!UICONTROL 행동 데이터 소스] 섹션은 구현에서 을 사용하는 경우에만 표시됩니다 [Target 분석](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
    ![행동 데이터 소스 섹션](assets/data-source.png)
 
    [!UICONTROL Analytics]를 선택한 경우 원하는 보고서 세트를 선택합니다.
 
-   기준이 동작 데이터 소스로 [!DNL Adobe Analytics]을 사용하는 경우 기준 가용성의 시간은 아래에서 설명한 대로 선택한 보고서 세트 및 전환 창이 다른 모든 기준에 사용되었는지 여부에 따라 달라집니다.
+   기준이 을 사용하는 경우 [!DNL Adobe Analytics] 동작 데이터 소스가 생성되면 기준 가용성의 시간은 아래에서 설명한 대로 선택한 보고서 세트 및 전환 창이 다른 모든 기준에 사용되었는지 여부에 따라 달라집니다.
 
-   * **1회성 보고서 세트 설정**: 보고서 세트가 지정된 데이터 범위 전환 확인 기간과 함께 처음 사용되는 경우, [!DNL Target Recommendations]은 2~7일 동안 [!DNL Analytics]에서 선택한 보고서 세트에 대한 동작 데이터를 완전히 다운로드할 수 있습니다. 이 기간은 [!DNL Analytics] 시스템 로드에 따라 다릅니다.
+   * **1회성 보고서 세트 설정**: 보고서 세트가 지정된 데이터 범위 전환 확인 기간과 함께 처음 사용되는 경우, [!DNL Target Recommendations]은 2~7일 동안 [!DNL Analytics]에서 선택한 보고서 세트에 대한 동작 데이터를 완전히 다운로드할 수 있습니다. 이 기간은 [!DNL Analytics] 시스템 로드.
    * **이미 사용 가능한 보고서 세트를 사용하는 새 기준 또는 편집된 기준**: 새 기준을 만들거나 기존 기준을 편집할 때 선택한 보고서 세트를 선택한 데이터 범위와 같거나 그보다 적은 데이터 범위를 갖는 [!DNL Target Recommendations]에서 이미 사용한 경우 데이터를 즉시 사용할 수 있으며 일회성 설정이 필요하지 않습니다. 이러한 경우, 또는 선택한 보고서 세트나 데이터 범위를 수정하지 않고 알고리즘 설정이 편집된 경우 알고리즘이 12시간 이내에 실행되거나 재실행됩니다.
    * **지속적인 알고리즘 실행**: 데이터는 매일 [!DNL Analytics]에서 [!DNL Target Recommendations]으로 이동합니다. 예를 들어 [!UICONTROL 관심도 보기] 추천의 경우, 사용자가 제품을 볼 때 제품-보기 추적 호출이 실시간에 가깝게 [!DNL Analytics]에 전달됩니다. [!DNL Analytics] 데이터가 다음 날 일찍 [!DNL Target]에 푸시되고 [!DNL Target]이 12시간 이내에 알고리즘을 실행합니다.
 
-   자세한 내용은 [Target Recommendations과 함께 Adobe Analytics 사용](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)을 참조하십시오.
+   자세한 내용은 [Adobe Analytics과 Target Recommendations 사용](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-1. 표시할 권장 사항을 결정할 때 사용할 사용 가능한 내역 사용자 동작 데이터의 시간 범위를 결정하려면 **[!UICONTROL 전환 확인 창]**&#x200B;을 설정하십시오. 이 옵션은 유사한 속성 및 사용자 지정 알고리즘이 있는 항목을 제외한 모든 알고리즘에 사용할 수 있습니다.
+1. 설정 **[!UICONTROL 전환 확인 기간]** 표시할 권장 사항을 결정할 때 사용할 사용 가능한 내역 사용자 동작 데이터의 시간 범위를 판별하는 데 사용됩니다. 이 옵션은 유사한 속성 및 사용자 지정 알고리즘이 있는 항목을 제외한 모든 알고리즘에 사용할 수 있습니다.
 
    ![전환 확인 기간 슬라이더](assets/data-range.png)
 
@@ -122,27 +122,27 @@ ht-degree: 53%
 
    | 전환 확인 기간 옵션 | 업데이트된 빈도(마우스로 가리키면 표시됨) | 지원되는 알고리즘 |
    | --- | --- | --- |
-   | 6시간 | 알고리즘은 3-6시간마다 실행됩니다 | [!UICONTROL 선택한 ] 행동 데이터 소스가  [!UICONTROL 있는 경우의 인기도 기반 ] 알고리즘  [!DNL Adobe Target] |
-   | 하루 | 알고리즘은 12-24시간마다 실행됩니다 | [!UICONTROL 인기도 ] 기반 알고리즘 |
-   | 2일 | 알고리즘은 12-24시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 ] 기반 알고리즘</li><li>[!UICONTROL 항목 기반 ] 알고리즘</li><li>[!UICONTROL 사용자 기반 ] 알고리즘</li><li>[!UICONTROL 장바구니 기반 ] 알고리즘</li></ul> |
-   | 1주 | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 ] 기반 알고리즘</li><li>[!UICONTROL 항목 기반 ] 알고리즘</li><li>[!UICONTROL 사용자 기반 ] 알고리즘</li><li>[!UICONTROL 장바구니 기반 ] 알고리즘</li></ul> |
-   | 2주 | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 ] 기반 알고리즘</li><li>[!UICONTROL 항목 기반 ] 알고리즘</li><li>모든 [!UICONTROL 사용자 기반] 알고리즘</li><li>[!UICONTROL 장바구니 기반 ] 알고리즘</li></ul> |
-   | 1개월(30일) | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 ] 기반 알고리즘</li><li>[!UICONTROL 항목 기반 ] 알고리즘</li><li>[!UICONTROL 사용자 기반 ] 알고리즘</li><li>[!UICONTROL 장바구니 기반 ] 알고리즘</li></ul> |
-   | 2개월(61일) | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 ] 기반 알고리즘</li><li>[!UICONTROL 항목 기반 ] 알고리즘</li><li>[!UICONTROL 사용자 기반 ] 알고리즘</li><li>[!UICONTROL 장바구니 기반 ] 알고리즘</li></ul> |
+   | 6시간 | 알고리즘은 3-6시간마다 실행됩니다 | [!UICONTROL 인기도 기반] 선택된 경우 알고리즘 [!UICONTROL 행동 데이터 소스] is [!DNL Adobe Target] |
+   | 하루 | 알고리즘은 12-24시간마다 실행됩니다 | [!UICONTROL 인기도 기반] 알고리즘 |
+   | 2일 | 알고리즘은 12-24시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 기반] 알고리즘</li><li>[!UICONTROL 항목 기반] 알고리즘</li><li>[!UICONTROL 사용자 기반] 알고리즘</li><li>[!UICONTROL 장바구니 기반] 알고리즘</li></ul> |
+   | 1주 | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 기반] 알고리즘</li><li>[!UICONTROL 항목 기반] 알고리즘</li><li>[!UICONTROL 사용자 기반] 알고리즘</li><li>[!UICONTROL 장바구니 기반] 알고리즘</li></ul> |
+   | 2주 | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 기반] 알고리즘</li><li>[!UICONTROL 항목 기반] 알고리즘</li><li>모두 [!UICONTROL 사용자 기반] 알고리즘</li><li>[!UICONTROL 장바구니 기반] 알고리즘</li></ul> |
+   | 1개월(30일) | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 기반] 알고리즘</li><li>[!UICONTROL 항목 기반] 알고리즘</li><li>[!UICONTROL 사용자 기반] 알고리즘</li><li>[!UICONTROL 장바구니 기반] 알고리즘</li></ul> |
+   | 2개월(61일) | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL 인기도 기반] 알고리즘</li><li>[!UICONTROL 항목 기반] 알고리즘</li><li>[!UICONTROL 사용자 기반] 알고리즘</li><li>[!UICONTROL 장바구니 기반] 알고리즘</li></ul> |
 
 ## [!UICONTROL 백업 컨텐츠] {#content}
 
-[!UICONTROL 백업 ] 콘텐츠 규칙은 권장 항목 수가  [권장 사항 디자인](/help/c-recommendations/c-design-overview/design-overview.md)을 채우지 못할 경우 발생하는 결과를 결정합니다. [!DNL Recommendations] 기준이 디자인 호출보다 적은 권장 사항을 반환할 수 있습니다. 예를 들어, 디자인에 네 개의 항목에 대한 슬롯이 있지만 기준에 따라 두 개의 항목만 추천되는 경우, 나머지 슬롯은 비워 두거나, 백업 권장 사항을 사용하여 추가 슬롯을 채우거나, 권장 사항을 표시하지 않도록 선택할 수 있습니다.
+[!UICONTROL 백업 컨텐츠] 규칙은 권장 항목 수가 [권장 사항 디자인](/help/c-recommendations/c-design-overview/design-overview.md). 가능한 [!DNL Recommendations] 디자인 호출보다 적은 권장 사항을 반환하는 기준입니다. 예를 들어, 디자인에 네 개의 항목에 대한 슬롯이 있지만 기준에 따라 두 개의 항목만 추천되는 경우, 나머지 슬롯은 비워 두거나, 백업 권장 사항을 사용하여 추가 슬롯을 채우거나, 권장 사항을 표시하지 않도록 선택할 수 있습니다.
 
 ![콘텐츠 섹션](assets/content.png)
 
-1. (선택 사항) **[!UICONTROL 부분 디자인 렌더링]**&#x200B;을 &quot;on&quot; 위치로 전환하십시오.
+1. (선택 사항) **[!UICONTROL 부분 디자인 렌더링]** 켜짐 위치로 전환합니다.
 
    가능한 한 많은 슬롯이 채워지지만 디자인 템플릿에는 나머지 슬롯의 빈 공간이 포함될 수 있습니다. 이 옵션이 비활성화되어 있고 사용 가능한 모든 슬롯을 채우기에 충분한 콘텐츠가 없다면 권장 사항이 제공되지 않고 기본 콘텐츠가 대신 표시됩니다.
 
    빈 슬롯과 함께 권장 사항을 제공하려면 이 옵션을 활성화합니다. 다음 단계에서 설명한 대로 추천 슬롯을 사이트의 유사한 컨텐츠나 인기 있는 컨텐츠가 채워진 빈 슬롯으로 기준에 따라 컨텐츠로 채우려면 백업 권장 사항을 사용합니다.
 
-1. (선택 사항) **[!UICONTROL 백업 컨텐츠 표시]** 를 &quot;on&quot; 위치로 전환합니다.
+1. (선택 사항) **[!UICONTROL 백업 컨텐츠 표시]** 켜짐 위치로 전환합니다.
 
    디자인에서 남은 빈 슬롯을 사이트에서 가장 많이 본 제품을 임의로 선택합니다.
 
@@ -150,9 +150,9 @@ ht-degree: 53%
 
    ![4x1 디자인](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   기준으로 인해 두 항목만 추천된다고 가정합니다. [!UICONTROL 부분 디자인 렌더링] 옵션을 활성화하면 첫 번째 두 슬롯이 채워지지만 나머지 두 슬롯은 비어 있습니다. 그러나 [!UICONTROL 백업 Recommendations 표시] 옵션을 활성화하면 처음 두 슬롯이 지정된 기준에 따라 채워지고 나머지 두 슬롯은 백업 권장 사항에 따라 채워집니다.
+   기준으로 인해 두 항목만 추천된다고 가정합니다. 를 활성화하는 경우 [!UICONTROL 부분 디자인 렌더링] 옵션을 선택하면 첫 번째 두 슬롯이 채워지지만 나머지 두 슬롯은 비어 있습니다. 그러나, [!UICONTROL 백업 Recommendations 표시] 옵션을 선택하면 처음 두 슬롯은 지정된 기준에 따라 채워지고 나머지 두 슬롯은 백업 권장 사항에 따라 채워집니다.
 
-   다음 매트릭스는 [!UICONTROL 부분 디자인 렌더링] 및 [!UICONTROL 백업 컨텐츠] 옵션을 사용할 때 관찰할 결과를 보여 줍니다.
+   다음 매트릭스는 [!UICONTROL 부분 디자인 렌더링] 및 [!UICONTROL 백업 컨텐츠] 옵션:
 
    | 부분 디자인 렌더링 | 백업 컨텐츠 | 결과 |
    |--- |--- |--- |
@@ -161,15 +161,15 @@ ht-degree: 53%
    | 활성화됨 | 활성화됨 | 백업 권장 사항은 사용 가능한 디자인 &quot;슬롯&quot;을 채우고 디자인을 완전히 렌더링합니다.<br>백업 권장 사항에 포함 규칙을 적용하여 적격의 백업 권장 사항 수를 디자인을 채울 수 없는 지점까지 제한하면 디자인이 부분적으로 렌더링됩니다.<br>이 조건에 따라 어떤 권장 사항도 반환되지 않고 포함 규칙이 백업 권장 사항 수를 0으로 제한하면 디자인이 기본 콘텐츠로 바뀝니다. |
    | 비활성화됨 | 활성화됨 | 백업 권장 사항은 사용 가능한 디자인 &quot;슬롯&quot;을 채우고 디자인을 완전히 렌더링합니다.<br>백업 권장 사항에 포함 규칙을 적용하여 적격의 백업 권장 사항 수를 디자인을 채울 수 없는 지점까지 제한하면 디자인이 기본 콘텐츠로 바뀌고 권장 사항은 표시되지 않습니다. |
 
-   자세한 내용은 [백업 권장 사항 사용](/help/c-recommendations/c-algorithms/backup-recs.md)을 참조하십시오.
+   자세한 내용은 [백업 권장 사항 사용](/help/c-recommendations/c-algorithms/backup-recs.md).
 
-1. (조건부) 이전 단계에서 **[!UICONTROL 백업 컨텐츠 표시]**&#x200B;를 선택한 경우, **[!UICONTROL 백업 권장 사항에 포함 규칙 적용]**&#x200B;을 활성화할 수 있습니다.
+1. (조건부) 선택한 경우 **[!UICONTROL 백업 컨텐츠 표시]** 이전 단계에서 **[!UICONTROL 백업 권장 사항에 포함 규칙 적용]**.
 
    포함 규칙은 권장 사항에 포함된 항목을 결정합니다. 사용 가능한 옵션은 수직 시장에 따라 다릅니다.
 
-   자세한 내용은  [아래에 포함 ](#inclusion) 규칙을 지정합니다.
+   자세한 내용은 [포함 규칙 지정](#inclusion) 아래의 제품에서 사용할 수 있습니다.
 
-1. (선택 사항) **[!UICONTROL 이전에 구입한 항목 권장]** 을 &quot;on&quot; 위치로 전환하십시오.
+1. (선택 사항) **[!UICONTROL 이전에 구매한 항목 권장]** 켜짐 위치로 전환합니다.
 
    이 설정은 `productPurchasedId`를 기준으로 합니다. 기본 동작은 이전에 구입한 항목을 추천하지 않는 것입니다. 대부분의 경우 고객이 최근에 구입한 항목을 홍보하지 않습니다. 카약처럼 일반적으로 한 번만 구매하는 항목을 판매하는 경우에 유용합니다. 샴푸나 다른 개인 품목과 같이 사람들이 다시 구입하기 위해 다시 오는 품목들을 팔면, 이 옵션을 활성화해야 합니다.
 
@@ -179,13 +179,13 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->알고리즘 유형 및 알고리즘으로 **[!UICONTROL 항목 기반]**/ **[!UICONTROL 비슷한 속성]**&#x200B;을 사용하는 미디어를 선택한 경우 콘텐츠 유사성 규칙을 설정할 수 있는 선택 사항이 표시됩니다.
+>선택한 경우 **[!UICONTROL 항목 기반]**/ **[!UICONTROL 비슷한 속성을 갖는 미디어]** 알고리즘 유형 및 알고리즘에서는 콘텐츠 유사성 규칙을 설정할 수 있는 선택 사항이 있습니다.
 
 콘텐츠 유사성은 항목 속성 키워드를 비교하고 여러 항목에 공통되는 키워드의 수에 따라 권장 사항을 제공합니다. 콘텐츠 유사성을 기준으로 하는 권장 사항은 강력한 결과를 전달하기 위해 과거 데이터가 필요하지 않습니다.
 
 콘텐츠 유사성을 사용하여 권장 사항을 생성하는 방식은 *특정 항목을 본 사용자* 및 과거 동작을 기준으로 하는 기타 논리를 사용하는 권장 사항에 표시되지 않는 새 항목에 특히 유용합니다. 또한 콘텐츠 유사성을 사용하여 과거 구입 내역 또는 기타 기록 데이터가 없는 새 방문자를 위한 유용한 권장 사항을 생성할 수도 있습니다.
 
-**[!UICONTROL 항목 기반]**/ **[!UICONTROL 속성이 비슷한 미디어를 선택하면 권장 사항을 결정할 때 특정 항목 속성의 중요도를 늘리거나 줄이는 규칙을 만들 수 있는 선택 사항이 제공됩니다.]** 서적과 같은 항목의 경우 *장르*, *저자*, *시리즈*&#x200B;와 같은 속성의 중요도를 높여 비슷한 서적을 권장할 수 있습니다.
+선택 시 **[!UICONTROL 항목 기반]**/ **[!UICONTROL 비슷한 속성을 갖는 미디어]**&#x200B;권장 사항을 결정할 때 특정 항목 속성의 중요도를 늘리거나 줄이는 규칙을 만드는 선택 사항이 있습니다. 서적과 같은 항목의 경우 *장르*, *저자*, *시리즈*&#x200B;와 같은 속성의 중요도를 높여 비슷한 서적을 권장할 수 있습니다.
 
 ![](assets/ContentSimilarity.png)
 
@@ -235,7 +235,7 @@ ht-degree: 53%
    >
    >이 선택 사항은 권장 사항에 표시되는 품목을 제한하며, 권장 사항이 어느 페이지에 표시되는지에는 영향을 주지 않습니다. 권장 사항이 표시되는 위치를 제한하려면 경험 작성기에서 페이지를 선택합니다.
 
-자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)을 참조하십시오.
+자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ## 속성 가중치 {#weighting}
 
@@ -265,7 +265,7 @@ ht-degree: 53%
 
 새 [!UICONTROL 권장 사항] 활동을 만들거나 기존 항목을 편집하는 경우 기본적으로 **[!UICONTROL 나중에 사용하기 위해 기준 저장]** 확인란이 선택됩니다. 다른 활동에서 해당 기준을 사용하지 않으려면 저장하기 전에 이 확인란을 선택 취소합니다.
 
-## 교육 비디오: Recommendations (12:33) ![자습서 배지](/help/assets/tutorial.png)에서 기준 만들기
+## 교육 비디오: Recommendations에서 기준 만들기(12:33) ![튜토리얼 배지](/help/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
