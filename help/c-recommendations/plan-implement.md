@@ -4,28 +4,26 @@ description: 'Adobe Target에서 Recommendations 활동을 구현하는 방법�
 title: Recommendations 활동을 구현하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
 workflow-type: tm+mt
-source-wordcount: '1290'
-ht-degree: 37%
+source-wordcount: '1279'
+ht-degree: 36%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations 계획 및 구현
+# ![PREMIUM](/help/assets/premium.png) 계획 및 구현 [!DNL Recommendations]
 
 첫 번째 [!DNL Recommendations] 활동 [!DNL Adobe Target]에서 다음 단계를 완료합니다.
 
-| 단계 | 세부 사항 |
-|--- |--- |
-| ![1단계](/help/c-recommendations/assets/step1_red.png) | [구현 [!DNL Adobe Target]](#implement-target) 사용자 행동을 캡처하고 권장 사항을 전달하는 데 사용할 웹 및 모바일 앱 면에서 입니다. |
-| ![2단계](/help/c-recommendations/assets/step2_red.png) | [설정 [!DNL Recommendations] 카탈로그](#rec-catalog) 사용자에게 추천할 제품 또는 콘텐츠의 집합입니다. |
-| ![3단계](/help/c-recommendations/assets/step3_red.png) | [행동 정보 및 컨텍스트 전달](#pass-behavioral) to [!DNL Adobe Target Recommendations] 개인화된 추천을 제공할 수 있도록 허용. |
-| ![4단계](/help/c-recommendations/assets/step4_red.png) | [글로벌 제외 구성](#exclusions). |
-| ![5단계](/help/c-recommendations/assets/step5_red.png) | [구성 [!DNL Recommendations] 설정](#concept_C1E1E2351413468692D6C21145EF0B84). |
+1. [구현 [!DNL Target]](#implement-target) 사용자 행동을 캡처하고 권장 사항을 전달하는 데 사용할 웹 및 모바일 앱 면에서 입니다.
+1. [설정 [!DNL Recommendations] 카탈로그](#rec-catalog) 사용자에게 추천할 제품 또는 콘텐츠의 집합입니다.
+1. [행동 정보 및 컨텍스트 전달](#pass-behavioral) to [!DNL Target Recommendations] 개인화된 추천을 제공할 수 있도록 허용.
+1. [글로벌 제외 구성](#exclusions).
+1. [구성 [!DNL Recommendations] 설정](#concept_C1E1E2351413468692D6C21145EF0B84).
 
-## Adobe Target 구현 {#implement-target}
+## 구현 [!DNL Target] {#implement-target}
 
-[!DNL Target Recommendations] 를 구현해야 합니다 [!DNL Adobe Experience Platform Web SDK] 또는 at.js 0.9.2 이상 자세한 내용은 [구현 Target](/help/c-implementing-target/implementing-target.md) 추가 정보.
+[!DNL Target Recommendations] 를 구현해야 합니다 [!DNL Adobe Experience Platform Web SDK] 또는 at.js 0.9.2 이상 자세한 내용은 [구현 [!DNL Target]](/help/c-implementing-target/implementing-target.md) 추가 정보.
 
 ## Recommendations 카탈로그 설정 {#rec-catalog}
 
@@ -41,7 +39,7 @@ ht-degree: 37%
 | --- | --- | --- | --- |
 | 카탈로그 피드 | 피드 예약(CSV, Google 제품 XML 또는 [!DNL Analytics Product Classifications])를 매일 업로드 및 수집할 수 있습니다. | 한 번에 여러 항목에 대한 정보를 전송하는 경우 자주 변경되지 않는 정보를 전송하는 데 사용됩니다. | 자세한 내용은 [피드 를 참조하십시오](/help/c-recommendations/c-products/feeds.md). |
 | 엔티티 API | API를 호출하여 단일 항목에 대한 분 단위 업데이트를 보냅니다. | 한 번에 한 항목에 대해 발생할 때 업데이트를 보내는 방법입니다. 자주 변경되는 정보(예: 가격, 재고/재고 수준)를 발송하기 위해 | 자세한 내용은 [엔티티 API 개발자 설명서](https://developers.adobetarget.com/api/recommendations/#tag/Entities). |
-| 페이지에서 업데이트 전달 | 페이지에서 JavaScript를 사용하거나 배달 API를 사용하여 단일 항목에 대한 분 단위 업데이트를 보냅니다. | 한 번에 한 항목에 대해 발생할 때 업데이트를 보내는 방법입니다. 자주 변경되는 정보(예: 가격, 재고/재고 수준)를 발송하기 위해 | 아래의 항목 보기/제품 페이지를 참조하십시오. |
+| 페이지에서 업데이트 전달 | 페이지에서 JavaScript를 사용하거나 배달 API를 사용하여 단일 항목에 대한 분 단위 업데이트를 보냅니다. | 한 번에 한 항목에 대해 발생할 때 업데이트를 보내는 방법입니다. 자주 변경되는 정보(예: 가격, 재고/재고 수준)를 발송하기 위해 | 자세한 내용은 [항목 보기/제품 페이지](#items-product-pages) 아래의 제품에서 사용할 수 있습니다. |
 
 대부분의 고객은 적어도 한 개의 피드를 구현해야 합니다. 엔티티 API 또는 페이지 내 메서드를 사용하여 자주 변경되는 속성 또는 항목에 대한 업데이트로 피드를 보완하도록 선택할 수 있습니다.
 
@@ -49,7 +47,7 @@ ht-degree: 37%
 
 전달해야 하는 행동 정보 및 컨텍스트 [!DNL Target] 은 방문자가 수행하는 작업에 따라 달라집니다. 이 작업은 종종 방문자가 상호 작용하는 페이지 유형과 연결됩니다.
 
-### 항목 보기/제품 페이지
+### 항목 보기/제품 페이지 {#items-product-pages}
 
 방문자가 제품 세부 사항 페이지와 같은 단일 항목을 보고 있는 페이지에서는 방문자가 보고 있는 항목의 ID를 전달해야 합니다. 권장 사항을 현재 카테고리로 필터링할 수 있도록 방문자가 보고 있는 항목의 가장 세부적인 카테고리를 전달해야 합니다.
 
