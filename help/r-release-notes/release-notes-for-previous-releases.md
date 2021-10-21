@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: f17d98f30b1fb25b5ffcafcd6cb8368adad99f97
 workflow-type: tm+mt
-source-wordcount: '32513'
+source-wordcount: '32472'
 ht-degree: 98%
 
 ---
@@ -79,7 +79,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL 대상자 UI 새로 고침] | 의 일부로 [!DNL Adobe Target] 사용자 경험을 향상시키기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 새로 고침됩니다. [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지의 페이지 [!DNL Target] UI. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관성이 없는 디자인 패턴을 통합 및 표준화합니다.<ul><li>여러 대상을 동시에 선택하고 삭제하는 기능</li><li>새로 고친 [audience builder 디자인](/help/c-target/c-audiences/create-audience.md)</li><li>에서 제외 규칙 지원 [!UICONTROL Audience] 라이브러리 규칙 빌더</li><li>대상 검색 속도를 높일 수 있는 새로운 &quot;대상 소스&quot; 필터</li><li>세션 영구 검색 및 필터 옵션</li></ul>자세한 내용은 [대상](/help/c-target/target.md)을 참조하십시오.<br>**참고**: 새로운 [!UICONTROL 대상] 현재 [!DNL Target] 베타 프로그램. 이 UI 새로 고침은 10월 19일 화요일 및 2021년 10월 21일 목요일에 나머지 모든 고객에 대해 다시 활성화됩니다. |
+| [!UICONTROL 대상자 UI 새로 고침] | 의 일부로 [!DNL Adobe Target] 사용자 경험을 향상시키기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 새로 고침됩니다. [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지의 페이지 [!DNL Target] UI. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관성이 없는 디자인 패턴을 통합 및 표준화합니다.<ul><li>여러 대상을 동시에 선택하고 삭제하는 기능</li><li>새로 고친 [audience builder 디자인](/help/c-target/c-audiences/create-audience.md)</li><li>에서 제외 규칙 지원 [!UICONTROL Audience] 라이브러리 규칙 빌더</li><li>대상 검색 속도를 높일 수 있는 새로운 &quot;대상 소스&quot; 필터</li><li>세션 영구 검색 및 필터 옵션</li></ul>자세한 내용은 [대상](/help/c-target/target.md)을 참조하십시오. |
 | [!UICONTROL 프로필 스크립트] UI 새로 고침 | 다음 [!UICONTROL 프로필 스크립트] 라이브러리도 업데이트되었으며, 다음과 같이 새로 고친 인터페이스와 몇 가지 생산성 업데이트가 포함됩니다.<ul><li>여러 프로필 스크립트를 동시에 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트를 위한 새 코드 편집기</li><li>코드 편집기 내에서 구문 강조 표시 및 오류 확인</li><li>키보드 단축키를 통해 토큰(mbox 또는 프로필) 매개 변수 자동 완료</li></ul>자세한 내용은 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md). |
 | ![Premium 배지](/help/assets/premium.png) Recommendations 기준 만들기 및 편집 | 다음 [!UICONTROL Recommendations 기준] 만들기 및 편집 워크플로우는 목표를 달성하기 위해 올바른 권장 사항 알고리즘 및 설정을 선택하는 작업을 간소화하기 위해 간소화되었습니다.<br>자세한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
 | ![Premium 배지](/help/assets/premium.png) Recommendations 전환 확인 기간 및 알고리즘 새로 고침 비율 개선 사항 | 이제 6시간 전환 확인 기간과 함께 &quot;가장 많이 본 항목&quot; 및 &quot;최상위 판매자&quot; 알고리즘을 실행하여 가장 최근 트렌드를 표시하는 콘텐츠를 캡처할 수 있습니다. 6시간 전환 확인 기간을 선택하면 권장 사항 결과가 하루 종일 3-6시간마다 업데이트됩니다.<br>자세한 내용은 [데이터 소스](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *기준 만들기*. |
