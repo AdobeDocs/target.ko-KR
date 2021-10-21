@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 97%
+source-wordcount: '2830'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 21일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 11월 10일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2021년 12월 8일)</li></ul> |
 | 10월 20일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.4 릴리스(2021년 10월 21일). |
 |  | [권장 사항 계획 및 구현](/help/c-recommendations/plan-implement.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 19일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.3 릴리스(2021년 10월 19일). |

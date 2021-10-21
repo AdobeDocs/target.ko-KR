@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
-workflow-type: ht
-source-wordcount: '572'
-ht-degree: 100%
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
+workflow-type: tm+mt
+source-wordcount: '628'
+ht-degree: 84%
 
 ---
 
@@ -15,18 +15,30 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 스킬 빌더 세션, 개발자 채팅, 웨비나, 그리고 [!DNL Target] Coffee Break 세션을 포함하여 예정된 이벤트에 대한 공지와 정보입니다.
 
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2021년 11월 10일)
 
-* **2021년 10월 13일 수요일**
-* **오전 8시 (PDT, UTC -7)**
-* **[여기를 클릭하여 자세한 내용을 살펴보고 등록하십시오](https://adobe.ly/3CoUIVz).**
+* **2021년 11월 10일 수요일**
+* **오전 8시 (PST, UTC-8)**
+* **[추가 정보 및 등록 정보](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
 
-[!DNL Adobe Target]의 선임 솔루션 컨설턴트인 Gentry Lin이 자신의 전문 지식을 바탕으로 고객 질문에 답변합니다.
+Cristinel &quot;Muti&quot; Anastasoaie, 제품 담당 수석 관리자 [!DNL Adobe Target]은(는) 그의 전문 분야에 관한 귀하의 질문에 답할 것입니다.
 
-* 구현
-* 개인 맞춤화
-* 핵심 웹 프로덕션 워크플로
-* [!DNL Adobe Experience Cloud] 통합
+* [!DNL Target] 사용자 인터페이스
+* [!DNL Target] 통합
+* [!UICONTROL Enterprise 권한] 및 [!UICONTROL 작업 공간]
+
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2021년 12월 8일)
+
+* **2021년 12월 8일 수요일**
+* **오전 8시 (PST, UTC-8)**
+* **[추가 정보 및 등록 정보](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
+
+Robert Calangui, 제품 담당 수석 관리자 [!DNL Adobe Target]은(는) 그의 전문 분야에 관한 귀하의 질문에 답할 것입니다.
+
+* [!DNL Target] 설정 및 관리 UI
+* [!UICONTROL Target 분석] (A4T) 통합
+* [!DNL Adobe Audience Manager] (AEM) 통합
+* 일반 [!DNL Target] UI
 
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
