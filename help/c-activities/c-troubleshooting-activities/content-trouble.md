@@ -4,10 +4,10 @@ description: 페이지에 예상된 콘텐츠가 표시되지 않을 경우 문�
 title: 콘텐츠 전달 문제를 해결하려면 어떻게 합니까?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
-source-wordcount: '1628'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -154,7 +154,7 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타기팅 및 Target 활�
 
 잘못된 doctype을 사용하는 경우 at.js에서 Target 요청을 실행하지 않습니다. at. s에는 HTML5 doctype이 필요합니다.
 
-## 확인 [!DNL Target] 활동은 쿼리 문자열 매개 변수를 사용하여 URL을 올바르게 처리합니다 {#query-strings}
+## 확인 [!DNL Target] 활동은 쿼리 문자열 매개 변수를 사용하여 URL을 올바르게 처리합니다. {#query-strings}
 
 다음 [!UICONTROL 활동 URL] 은 방문자를 활동에 자격을 부여하고 활동 경험을 사용자에게 렌더링하는 페이지를 결정합니다. 활동을 만들 때 메시지가 표시되면 전체 URL을 입력하면 해당 사이트 페이지에 콘텐츠가 전달될 수 있습니다. 특히 쿼리 문자열 매개 변수를 포함하는 URL이 있습니다.
 
