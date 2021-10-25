@@ -1,20 +1,19 @@
 ---
-keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 삽입;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 교체;오퍼 바꾸기; 이미지 교체;이미지 바꾸기;항목 제거;항목 삭제;항목 숨기기;항목 숨김;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 네비게이션;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행
-description: Adobe Target의 VEC(Visual Experience Composer)에서 사용할 수 있는 옵션을 살펴보십시오. 요소를 클릭하면 해당 요소에 사용할 수 있는 옵션이 표시됩니다.
-title: VEC(Visual Experience Composer) 옵션은 어떻게 사용합니까?
+keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 삽입;링크 삽입;시각적 경험 작성기 링크;css 클래스 편집;오퍼 교체;오퍼 교체;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨김;재배열;요소 이동;요소 크기 조정;요소 크기 조정;요소;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;링크 탐색;실행 취소;실행 취소;다시 실행;사용자 지정 이벤트;웹 구성 요소
+description: Adobe Target의 VEC(시각적 경험 작성기)에서 사용할 수 있는 옵션을 살펴보십시오. 요소를 클릭하면 해당 요소에 사용할 수 있는 옵션을 볼 수 있습니다.
+title: VEC(시각적 경험 작성기) 옵션을 사용하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
+source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 93%
+source-wordcount: '2608'
+ht-degree: 76%
 
 ---
 
-
 # 시각적 경험 작성기 선택 사항
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
+에서 페이지 요소를 클릭하면 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC), 메뉴에는 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
 
 ## VEC 선택 사항
 
@@ -44,7 +43,7 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
+| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
 #### 배경색
@@ -57,21 +56,21 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
 [!UICONTROL 스타일] 패널을 사용하여 선택한 요소의 기존 스타일 값을 보거나 편집할 수 있습니다. 스타일을 추가할 수도 있습니다.
 
-[!UICONTROL 스타일] 패널에 액세스하려면 VEC 내에서 페이지 요소를 클릭한 다음 **[!UICONTROL 편집]** > **[!UICONTROL 스타일]**&#x200B;을 클릭합니다.
+에 액세스하려면 [!UICONTROL 스타일] 패널에서 VEC 내에서 페이지 요소를 클릭한 다음 **[!UICONTROL 편집]** > **[!UICONTROL 스타일]**.
 
 [!UICONTROL 스타일] 패널이 VEC 오른쪽에 표시됩니다. 이 패널에는 선택한 요소를 편집하거나 선택한 요소에 추가할 수 있는 스타일 목록이 포함되어 있습니다. CSS(Cascading Style Sheet)를 사용하는 데 익숙하거나 개발자로부터 코드를 받은 경우 실시간 CSS 편집기를 사용하면 변경 사항을 보고 스타일을 추가할 수 있습니다.
 
 ![스타일 패널](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-다른 스타일을 적용할 때 섹션을 변경한 후 [!UICONTROL 스타일] 패널의 오른쪽 상단 모서리에 표시되는 [!UICONTROL 되돌리기] 아이콘을 클릭하여 언제든지 변경 사항을 되돌릴 수 있습니다. [!UICONTROL 되돌리기] 아이콘을 클릭하면 현재 섹션의 패널에서 변경한 모든 사항을 되돌립니다.
+다른 스타일을 적용할 때 언제든지 [!UICONTROL 되돌리기] 아이콘을 클릭합니다 [!UICONTROL 스타일] 섹션을 변경한 후 패널입니다. 클릭 [!UICONTROL 되돌리기] 아이콘 은 현재 섹션의 패널에서 변경한 모든 사항을 되돌립니다.
 
 아래 설명된 대로 각 섹션을 확장하여 스타일을 편집하거나 추가합니다. 변경 사항을 저장하려면 패널 상단에 있는 뒤로 아이콘을 클릭하여 패널의 주 표시로 돌아간 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-주 패널과 여러 섹션 패널의 각 옵션 옆에 있는 파란색 점은 해당 스타일이 변경되었음을 나타냅니다. 이 경우 [!UICONTROL 저장]을 클릭하기 전에 변경 사항을 쉽게 검토할 수 있습니다.
+주 패널과 여러 섹션 패널의 각 옵션 옆에 있는 파란색 점은 해당 스타일이 변경되었음을 나타냅니다. 이 시각적 표시기를 사용하면 클릭 전에 변경 사항을 쉽게 검토할 수 있습니다. [!UICONTROL 저장].
 
 >[!NOTE]
 >
->레이아웃 변경, 배경색, 크기 조정 및 이동에 대한 빠른 작업은 VEC 메뉴에서 별도의 동작으로 사용할 수도 있습니다. 이러한 옵션을 별도의 작업으로 활용하거나, 여기에 설명된 대로 스타일 메뉴를 사용할 수 있습니다.
+>레이아웃 변경, 배경색, 크기 조정 및 이동에 대한 빠른 작업은 VEC 메뉴에서 별도의 동작으로 사용할 수도 있습니다. 이러한 옵션은 별도의 작업으로 사용하거나 여기에 설명된 대로 스타일 메뉴를 사용할 수 있습니다.
 
 * **배경**
 
@@ -114,7 +113,7 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
    여백은 양수 및 음수 값을 지원합니다.
 
-   Target은 rem, pc, em 등의 다른 크기 단위도 지원합니다. 이러한 장치에 대한 자세한 내용은 [웹 스타일 시트 CSS 팁 및 기법](https://www.w3.org/Style/Examples/007/units.en.html)을 참조하십시오.
+   Target은 rem, pc, em 등의 다른 크기 단위도 지원합니다. 이러한 단위에 대한 자세한 내용은 [웹 스타일 시트 CSS 팁과 트릭](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **패딩**
 
@@ -124,7 +123,7 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
    패딩은 폭 조절을 0부터 지원합니다.
 
-   또한 Target은 [기타 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)를 지원합니다(예: rem, pc, em 등).
+   Target은 또한 [기타 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)rem, pc, em과 같이,
 
 * **테두리**
 
@@ -138,11 +137,11 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
    테두리는 폭 조절을 0부터 지원합니다.
 
-   또한 Target은 [기타 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)를 지원합니다(예: rem, pc, em 등).
+   Target은 또한 [기타 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)rem, pc, em과 같이,
 
 * **위치**
 
-   선택한 요소를 해당 현재 위치에서 이동합니다. 요소의 위쪽, 아래쪽, 왼쪽, 오른쪽 및 [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 위치를 변경할 수 있습니다.
+   선택한 요소를 해당 현재 위치에서 이동합니다. 요소의 위쪽, 아래쪽, 왼쪽, 오른쪽 및 [Z-색인](https://www.w3schools.com/cssref/pr_pos_z-index.asp) 위치.
 
    [!UICONTROL 정적] 드롭다운 목록을 클릭하여 다음 위치 옵션 중에서 선택합니다.
 
@@ -159,7 +158,7 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
    위치는 양수 및 음수 값을 지원합니다.
 
-   또한 Target은 [기타 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)를 지원합니다(예: rem, pc, em 등).
+   Target은 또한 [기타 크기 단위](https://www.w3.org/Style/Examples/007/units.en.html)rem, pc, em과 같이,
 
 * **크기**
 
@@ -290,7 +289,7 @@ Recommendations은 DIV, SECTION 및 ARTICLE 태그의 다음으로 바꾸기를 
 
 **참고:**[!DNL Target] HTML 오퍼는 서버에 저장됩니다.
 
-HTML 오퍼의 크기는 최대 256KB까지 가능합니다.
+HTML 오퍼은 최대 256KB까지 가능합니다.
 
 #### 권장 사항
 
@@ -312,15 +311,15 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 #### 크기 조정
 
-페이지에 있는 요소의 크기를 조정합니다. [!UICONTROL 크기 조정]을 선택하면 해당 모서리를 드래그해서 크기를 조정할 수 있는 핸들이 요소 오른쪽 하단 모서리에 나타납니다. 동일한 종횡비를 유지하려면 Shift 키를 길게 누릅니다.
+페이지에 있는 요소의 크기를 조정합니다. 선택 시 [!UICONTROL 크기 조정]로 이동하면 요소의 오른쪽 아래 모서리에 크기 조정을 수행할 수 있는 핸들이 나타납니다. 동일한 종횡비를 유지하려면 Shift 키를 길게 누릅니다.
 
 **참고:** 인라인 요소의 크기를 조정할 수 없습니다.
 
-#### 이동  {#move}
+#### 이동 {#move}
 
-페이지에서 요소를 이동합니다. [!UICONTROL 재정렬] 옵션과 달리, [!UICONTROL 이동] 기능은 다른 요소를 이동하여 해당 요소가 이동될 공간을 만들지 않습니다. 화살표 키를 사용하여 이동을 미세 조정하십시오. (예정된 개선 사항: 이동된 요소가 다른 요소 뒤에 숨겨지지 않도록 지원됩니다.)
+페이지에서 요소를 이동합니다. [!UICONTROL 재정렬] 옵션과 달리, [!UICONTROL 이동] 기능은 다른 요소를 이동하여 해당 요소가 이동될 공간을 만들지 않습니다. 화살표 키를 사용하여 이동을 미세 조정하십시오. (예정된 개선 사항: 이동된 요소가 다른 요소 뒤에 숨겨지지 않도록 지원합니다.)
 
-CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것과 같은 일부 경우에는 요소를 상위 요소 외부로 이동할 수 없습니다. 요소는 다음 CSS 속성 `overflow: hidden`을 갖는 컨테이너 외부로 이동할 수 없습니다.
+CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것과 같은 특정 경우에는 요소를 상위 요소 외부로 이동할 수 없습니다. 요소는 다음 CSS 속성 `overflow: hidden`을 갖는 컨테이너 외부로 이동할 수 없습니다.
 
 #### 숨김
 
@@ -347,6 +346,25 @@ CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것�
 ## 고려 사항 {#considerations}
 
 * 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)에서 &#39;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&#39;을 참조하십시오.
+
+## 사용자 지정 요소 지원(2021년 10월 26일 예정) {#custom}
+
+VEC가 [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components) 을 사용하면 사용자 지정 요소 및 사용자 지정 요소 내의 요소에 대해 개인화된 경험과 오퍼를 만들고 테스트할 수 있습니다. 이 기능은 VEC에서 모든 기능에 사용할 수 있습니다 [!DNL Target] 활동 유형.
+
+>[!NOTE]
+>
+>사용자 지정 요소에 대한 VEC 지원은 [at.js 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 이상 웹 사이트에 필요한 버전이 배포되어 있는지 확인하십시오. 를 사용하는 경우 [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)또한 필요한 at.js 버전이 배포되어 있어야 합니다. 위에 설명된 VEC 옵션은 표시되지 않으며 지원되지 않는 at.js 버전과 함께 사용할 수 있습니다.
+>
+>사용자 지정 요소에 대한 VEC 지원은 현재 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
+대부분의 VEC 작업은 사용자 지정 이벤트 및 사용자 지정 이벤트 내에서 지원됩니다. 다음 작업은 사용할 수 없습니다.
+
+* 편집
+   * 텍스트/HTML
+   * 링크
+   * 소스 편집
+
+* 컨텐츠 바꾸기
 
 ## DOM 경로를 사용하여 요소 탐색 {#dom-path}
 
