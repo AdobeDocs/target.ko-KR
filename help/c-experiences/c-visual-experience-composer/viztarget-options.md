@@ -4,7 +4,7 @@ description: Adobe Target의 VEC(시각적 경험 작성기)에서 사용할 수
 title: VEC(시각적 경험 작성기) 옵션을 사용하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 823694603c0248316e471f0b15070c0a34356620
+source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
 workflow-type: tm+mt
 source-wordcount: '2626'
 ht-degree: 71%
@@ -348,7 +348,7 @@ CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것�
 
 * 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render)에서 &#39;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&#39;을 참조하십시오.
 
-## 사용자 지정 요소 지원(2021년 10월 26일 예정) {#custom}
+## 사용자 지정 요소 지원(2021년 10월 28일 예정) {#custom}
 
 VEC가 [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components) 을 사용하면 사용자 지정 요소 및 사용자 지정 요소 내의 요소에 대해 개인화된 경험과 오퍼를 만들고 테스트할 수 있습니다. 이 기능은 VEC에서 모든 기능에 사용할 수 있습니다 [!DNL Target] 활동 유형.
 
