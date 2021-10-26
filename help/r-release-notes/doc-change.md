@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '2859'
+source-wordcount: '2865'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 26일 | [CNAME 및 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 25일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.5 릴리스(2021년 10월 28일). |
 | 10월 22일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 다음 섹션이 추가되었습니다.<ul><li>확인 [!DNL Target] 활동은 쿼리 문자열 매개 변수를 사용하여 URL을 올바르게 처리합니다</li></ul> |
 | 10월 21일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 11월 10일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2021년 12월 8일)</li></ul> |

@@ -1,22 +1,22 @@
 ---
 keywords: 클라이언트 관리;cname;인증서 프로그램;표준 이름;쿠키;인증서;amc;adobe 관리 인증서;digicert;도메인 제어 유효성 검사;dcv
-description: Adobe 클라이언트 지원팀과 협력하여 Adobe에서 CNAME(표준 이름) 지원을 구현하십시오 [!DNL Target] 광고 차단 문제를 처리하려면 다음을 수행하십시오.
+description: 작업 [!DNL Adobe] Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target] 광고 차단 문제를 처리하려면 다음을 수행하십시오.
 title: Target에서 CNAME을 어떻게 사용합니까?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: e51c7805939e8bf32d7f358036c9070931580187
+source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1145'
 ht-degree: 1%
 
 ---
 
-# CNAME 및 Target
+# CNAME 및 [!DNL Target]
 
 작업 지침 [!DNL Adobe] Client Care에서 CNAME(표준 이름) 지원을 구현하십시오. [!DNL Adobe Target]. CNAME을 사용하여 광고 차단 문제 또는 ITP 관련(Intelligent Tracking Prevention) 쿠키 정책을 처리합니다. CNAME을 사용하면 가 소유한 도메인이 아니라 고객이 소유한 도메인이 호출됩니다 [!DNL Adobe].
 
-## Target에서 CNAME 지원 요청
+## 에서 CNAME 지원 요청 [!DNL Target]
 
 1. SSL 인증서에 필요한 호스트 이름 목록을 확인합니다(아래 FAQ 참조).
 
@@ -30,13 +30,13 @@ ht-degree: 1%
 
    >[!IMPORTANT]
    >
-   >이 단계를 완료할 때까지 Adobe의 인증 기관인 DigiCert에서 인증서를 발급할 수 없습니다. 따라서, [!DNL Adobe] 이 단계가 완료되기 전까지는 CNAME 구현 요청을 완료할 수 없습니다.
+   >[!DNL Adobe]의 인증 기관인 DigiCert는 이 단계를 완료할 때까지 인증서를 발급할 수 없습니다. 따라서, [!DNL Adobe] 이 단계가 완료되기 전까지는 CNAME 구현 요청을 완료할 수 없습니다.
 
-1. [이 양식을 작성하세요](/help/assets/FPC_Request_Form.xlsx) 그리고 [CNAME 지원을 요청하는 Adobe Client Care 티켓을 엽니다.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
+1. [이 양식을 작성하세요](/help/assets/FPC_Request_Form.xlsx) 그리고 [열기 [!DNL Adobe] CNAME 지원을 요청하는 Client Care 티켓](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C):
 
-   * Adobe [!DNL Target] 클라이언트 코드:
+   * [!DNL Adobe Target] client code:
    * SSL 인증서 호스트 이름(예: `target.example.com target.example.org`):
-   * SSL 인증서 구매자(Adobe이 적극 권장됩니다. FAQ 참조): Adobe/고객
+   * SSL 인증서 구매자([!DNL Adobe] 이 적극 권장됩니다. FAQ 참조): Adobe/고객
    * 고객이 &quot;BYOC(Bring Your Own Certificate)&quot;라고도 하는 인증서를 구매하는 경우 다음 추가 정보를 채우십시오.
       * 인증서 조직(예: 예제 Company Inc):
       * 인증서 조직 단위(선택 사항, 예: 마케팅):
@@ -44,7 +44,7 @@ ht-degree: 1%
       * 인증서 상태/지역(예: 캘리포니아):
       * 인증서 구/군/시(예: San Jose):
 
-1. If [!DNL Adobe] 인증서를 구입하고 있는데 [!DNL Adobe] 는 DigiCert와 협력하여 Adobe의 프로덕션 서버에서 인증서를 구매하고 배포합니다.
+1. If [!DNL Adobe] 인증서를 구입하고 있는데 [!DNL Adobe] 은(는) DigiCert와 협력하여 인증서를 구매하고 배포합니다. [!DNL Adobe]의 프로덕션 서버입니다.
 
    고객이 BYOC(인증서를 구매하는 경우 [!DNL Adobe] Client Care에서 CSR(인증서 서명 요청)을 보냅니다. 원하는 인증 기관을 통해 인증서를 구입할 때 CSR을 사용하십시오. 인증서가 발급되면 인증서 및 중간 인증서 사본을 로 보냅니다 [!DNL Adobe] 배포를 위한 클라이언트 지원
 
@@ -66,13 +66,13 @@ ht-degree: 1%
 
 ### 새 SSL 인증서가 만료될 때까지 얼마나 걸립니까?
 
-Adobe에서 구매한 모든 인증서는 1년 동안 유효합니다. 자세한 내용은 [1년 인증서에 대한 DigiCert 문서](https://www.digicert.com/blog/position-on-1-year-certificates) 추가 정보.
+모두 [!DNL Adobe]-구매한 인증서는 1년간 유효합니다. 자세한 내용은 [1년 인증서에 대한 DigiCert 문서](https://www.digicert.com/blog/position-on-1-year-certificates) 추가 정보.
 
 ### 어떤 호스트 이름을 선택해야 합니까? 도메인당 호스트 이름은 몇 개까지 선택해야 합니까?
 
-[!DNL Target] CNAME 구현에는 SSL 인증서 및 고객의 DNS의 도메인당 하나의 호스트 이름만 필요합니다. Adobe은 도메인당 하나의 호스트 이름을 권장합니다. 일부 고객은 고유한 목적(예: 스테이징에서 테스트)을 위해 도메인당 더 많은 호스트 이름을 요구합니다.
+[!DNL Target] CNAME 구현에는 SSL 인증서 및 고객의 DNS의 도메인당 하나의 호스트 이름만 필요합니다. [!DNL Adobe] 은 도메인당 하나의 호스트 이름을 권장합니다. 일부 고객은 고유한 목적(예: 스테이징에서 테스트)을 위해 도메인당 더 많은 호스트 이름을 요구합니다.
 
-대부분의 고객은 다음과 같은 호스트 이름을 선택합니다. `target.example.com`. Adobe은 이 방법을 권장하지만, 선택은 궁극적으로 본인의 것입니다. 기존 DNS 레코드의 호스트 이름을 요청하지 마십시오. 이렇게 하면 충돌이 발생하고 해결 시간이 지연됩니다 [!DNL Target] CNAME 요청.
+대부분의 고객은 다음과 같은 호스트 이름을 선택합니다. `target.example.com`. [!DNL Adobe] 권장 사항은 이 방법을 따르지만, 선택 사항은 궁극적으로 사용자의 것입니다. 기존 DNS 레코드의 호스트 이름을 요청하지 마십시오. 이렇게 하면 충돌이 발생하고 해결 시간이 지연됩니다 [!DNL Target] CNAME 요청.
 
 ### 에 대한 CNAME 구현이 이미 있습니다. [!DNL Adobe Analytics]과 같은 인증서 또는 호스트 이름을 사용할 수 있습니까?
 
@@ -80,8 +80,7 @@ Adobe에서 구매한 모든 인증서는 1년 동안 유효합니다. 자세한
 
 ### 현재 구현된 [!DNL Target] ITP 2.x의 영향을 받습니까?
 
-Apple ITP(Intelligent Tracking Prevention) 버전 2.3에는 Adobe Target CNAME 구현을 검색하고 쿠키의 만료를 7일로 줄일 수 있는 CNAME 클로킹 완화 기능이 도입되었습니다. 현재 [!DNL Target] 에는 ITP의 CNAME 클로킹 완화에 대한 해결 방법이 없습니다. ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
-
+Apple ITP(Intelligent Tracking Prevention) 버전 2.3에서는 탐지할 수 있는 CNAME 클로킹 완화 기능을 도입했습니다 [!DNL Adobe Target] CNAME 구현을 통해 쿠키의 만료를 7일로 줄입니다. 현재 [!DNL Target] 에는 ITP의 CNAME 클로킹 완화에 대한 해결 방법이 없습니다. ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ### CNAME 구현을 배포할 때 어떤 서비스 중단을 예상할 수 있습니까?
 
