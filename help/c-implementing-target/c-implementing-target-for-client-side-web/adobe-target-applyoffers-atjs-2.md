@@ -1,14 +1,14 @@
 ---
 keywords: adobe.target.오퍼적용;오퍼 적용;오퍼적용;오퍼 적용;at.js;함수;함수
-description: Adobe [!DNL Target] at.js JavaScript 라이브러리에 대해 adobe.target.applyOffers() 함수를 사용하여 응답에 여러 오퍼를 적용합니다. (at.js 2.x)
+description: Adobe에 adobe.target.applyOffers() 함수 사용 [!DNL Target] at.js JavaScript 라이브러리 를 사용하여 응답에 여러 오퍼를 적용합니다. (at.js 2.x)
 title: adobe.target.applyOffers() 함수를 어떻게 사용합니까?
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: f057df3b20325c04e29f55a90e03934a9343a254
 workflow-type: tm+mt
-source-wordcount: '809'
-ht-degree: 93%
+source-wordcount: '836'
+ht-degree: 88%
 
 ---
 
@@ -22,14 +22,14 @@ ht-degree: 93%
 
 | 키 | 유형 | 필수? | 설명 |
 | --- | --- | --- | --- |
-| selector | 문자열 | 아니오 | [!DNL Target]이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. 선택기를 제공하지 않으면 [!DNL Target] 에서는 사용할 HTML 요소가 HTML HEAD으로 간주합니다. |
+| selector | 문자열 | 아니오 | [!DNL Target]이 오퍼 컨텐츠를 배치해야 하는 HTML 요소를 식별하는 데 사용되는 HTML 요소 또는 CSS 선택기입니다. 선택기를 제공하지 않으면, [!DNL Target] 사용할 HTML 요소가 HTML HEAD으로 가정합니다. |
 | 응답 | 개체 | 예 | `getOffers()`의 응답 개체.<br>아래의 &quot;요청&quot; 표를 참조하십시오. |
 
 ## 응답
 
 >[!NOTE]
 >
->아래 나열된 모든 필드에 허용되는 유형에 대한 자세한 내용은 [배달 API 설명서](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)를 참조하십시오.
+>자세한 내용은 [배달 API 설명서](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) 을 참조하십시오.
 
 | 필드 이름 | 설명 |
 | --- | --- |
@@ -108,7 +108,7 @@ adobe.target.applyOffers({response:{
 }});
 ```
 
-## `getOffers()` 및 `applyOffers()`가 Promise 기반이므로 이 함수를 사용하는 Promise 체인 호출 예
+## 를 사용하는 Promise 체인 호출 예 `getOffers()` 및 `applyOffers()`, 이 함수는 Promise 기반이므로
 
 ```javascript
 adobe.target.getOffers({...})
@@ -116,3 +116,22 @@ adobe.target.getOffers({...})
 .then(() => console.log("Success"))
 .catch(error => console.log("Error", error));
 ```
+
+getOffers() 사용 방법에 대한 자세한 내용은 getOffers 를 참조하십시오 [설명서](https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html)
+
+### 페이지 로드 요청 예
+
+
+```javascript
+adobe.target.getOffers({
+    request: {
+        execute: {
+            pageLoad: {}
+        }
+    }
+}).
+then(response => adobe.target.applyOffers({ response: response }))
+.then(() => console.log("Success"))
+.catch(error => console.log("Error", error));
+```
+
