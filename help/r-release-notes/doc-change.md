@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '2865'
-ht-degree: 96%
+source-wordcount: '2875'
+ht-degree: 98%
 
 ---
 
@@ -19,19 +19,20 @@ ht-degree: 96%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 27일 | [계획 및 구현 [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | 장바구니 기반 권장 사항에 대한 추가 정보가 추가되었습니다. |
 | 10월 26일 | [CNAME 및 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 전체 주제가 업데이트되었습니다. |
-| 10월 25일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.5 릴리스(2021년 10월 28일). |
+| 10월 25일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.10.5 릴리스(2021년 10월 28일)에 대한 정보가 추가되었습니다. |
 | 10월 22일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 다음 섹션이 추가되었습니다.<ul><li>확인 [!DNL Target] 활동은 쿼리 문자열 매개 변수를 사용하여 URL을 올바르게 처리합니다</li></ul> |
 | 10월 21일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 11월 10일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2021년 12월 8일)</li></ul> |
-| 10월 20일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.4 릴리스(2021년 10월 21일). |
+| 10월 20일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.4 릴리스(2021년 10월 21일)에 대한 정보가 추가되었습니다. |
 |  | [권장 사항 계획 및 구현](/help/c-recommendations/plan-implement.md) | 전체 주제가 업데이트되었습니다. |
-| 10월 19일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.3 릴리스(2021년 10월 19일). |
-| 10월 14일 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 다음 FAQ가 추가되었습니다. 이색제를 사용할 수 있나요 [!DNL Analytics] 세그먼트가 의 최적화 목표로 적용된 지표 [!UICONTROL 자동 할당] 활동?&quot; |
-| 10월 13일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.2 | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 21.10.2 릴리스(2021년 10월 13일). |
+| 10월 19일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.3 릴리스(2021년 10월 19일)에 대한 정보가 추가되었습니다. |
+| 10월 14일 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 다음 FAQ 추가: “[!UICONTROL 자동 할당] 활동의 최적화 목표로 적용된 세그먼트로 이항[!DNL Analytics] 지표를 사용할 수 있습니까?” |
+| 10월 13일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.2 | [!DNL Target Standard/Premium] 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
 | 10월 11일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | Target Standard/Premium 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
-| 10월 6일 | [에서 대상 작성 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | 업데이트된 내용을 반영하도록 텍스트 및 이미지가 업데이트되었습니다 [!DNL Target] [!UICONTROL 대상] UI. Adobe Campaign은 [!UICONTROL 대상] 주제. |
+| 10월 6일 | [Target에서 대상 작성 [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | [!DNL Target] [!UICONTROL 대상] UI를 반영하도록 텍스트 및 이미지가 업데이트되었습니다. [!UICONTROL 대상] 항목 전체 내용이 유사하게 변경되었습니다. |
 |  | [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | 다음 섹션이 업데이트되었습니다.<ul><li>기본 정보</li><li>데이터 소스</li></ul> |
-|  | [사용자 지정 기준 업로드](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 새 워크플로우를 반영하도록 지침을 업데이트했습니다. |
+|  | [사용자 지정 기준 업로드](/help/c-recommendations/c-algorithms/recommendations-csv.md) | 새로운 워크플로를 반영하도록 지침이 업데이트되었습니다. |
 |  | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1(2021년 9월 14일)
