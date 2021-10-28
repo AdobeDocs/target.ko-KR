@@ -1,13 +1,13 @@
 ---
 keywords: at.js 릴리스;at.js 버전;릴리스 노트
-description: Adobe [!DNL Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항을 봅니다.
+description: 각 버전의 Adobe에서 변경 사항에 대한 세부 사항을 봅니다 [!DNL Target] at.js JavaScript 라이브러리.
 title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 89%
+source-wordcount: '4278'
+ht-degree: 88%
 
 ---
 
@@ -20,21 +20,27 @@ ht-degree: 89%
 >
 >Target 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오.
 >
->[Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)의 태그는 at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Adobe Experience Platform] 카탈로그에서 업그레이드로 사용할 수 있습니다. 자세한 내용은 *태그 개요* 안내서의 [확장 업그레이드](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html)를 참조하십시오.
+>의 태그 [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Adobe Experience Platform] 카탈로그가 업그레이드로 제공됩니다. 자세한 내용은 [확장 업그레이드](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 에서 *태그 개요* 안내서.
 
-## at.js 2.6.1(2021년 8월 16일)
+## at.js 버전 2.7.0(2021년 10월 28일)
 
-* On-Device Decisioning을 사용할 때 &quot;하이브리드 모드에 대해 캐시된 아티팩트가 없음&quot;에 대한 버그를 수정합니다.
+이 릴리스에는 다음과 같은 향상된 기능이 포함되어 있습니다.
+
+* 에 대한 지원이 추가되었습니다 [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 이 at.js 버전은 사용자 지정 요소 및 사용자 지정 요소 내의 요소에 대해 개인화된 경험과 오퍼를 만들고 테스트하는 데 필요합니다. 이 기능은 [!DNL Target Standard/Premium] 21.10.5 릴리스.
+
+## at.js 2.6.1 (2021년 8월 16일)
+
+* 온디바이스 의사 결정 사용 시 “하이브리드 모드에 대해 사용 가능한 아티팩트 없음” 버그가 수정되었습니다.
 
 ## at.js 2.6.0 (2021년 7월 16일)
 
 * at.js settings `secureOnly`가 `true`로 설정될 때마다 쿠키에 보안 속성이 추가됩니다.
 * 이제 `triggerView()`를 사용할 때 응답 토큰을 사용할 수 있습니다.
 * `CONTENT_RENDERING_NO_OFFERS` 이벤트와 관련된 문제가 해결되었습니다. 이제 [!DNL Target]에서 반환되는 내용이 없을 때 이 이벤트가 정상적으로 트리거됩니다.
-* `prefetch` 요청을 사용할 때 [!DNL Anlytics for Target](A4T) 클릭 메트릭 세부 사항이 정상적으로 반환됩니다.
+* `prefetch` 요청을 사용할 때 [!DNL Anlytics for Target] (A4T) 클릭 메트릭 세부 사항이 정상적으로 반환됩니다.
 * UUID 생성이 더 이상 `Math.random()`을 사용하지 않고 `window.crypto`를 사용합니다.
 * 모든 네트워크 호출에서 `sessionId` 쿠키 만료가 정상적으로 연장됩니다.
-* 이제 [!UICONTROL 단일 페이지 애플리케이션](SPA) 보기 캐시 초기화가 정상적으로 처리되며 `viewsEnable` 설정이 적용됩니다.
+* 이제 [!UICONTROL 단일 페이지 애플리케이션] (SPA) 보기 캐시 초기화가 정상적으로 처리되며 `viewsEnable` 설정이 적용됩니다.
 
 ## at.js 2.5.0(2021년 5월 13일)
 
@@ -50,7 +56,7 @@ ht-degree: 89%
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
 * mbox 요청에 포함되는 `targetPageParams`에 관한 문제가 해결되었습니다. `targetPageParams`은 `pageLoad` 요청에만 포함되어야 합니다. (TNT-40247)
-* [!DNL Adobe Experience Platform] 확장에서 참조하는 최적화된 창 및 문서 전역. (TNT-37124)
+* 에서 참조하는 최적화된 창 및 문서 글로벌 [!DNL Adobe Experience Platform] 확장. (TNT-37124)
 
 ## at.js 2.4.0(2021년 1월 14일)
 
@@ -63,7 +69,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.
 
-* mbox 클릭 추적 및 A4T와 관련된 문제가 해결되었습니다. 0n-클릭으로 Target이 올바른 mbox 및 mbox 매개 변수로 배달 API 호출을 실행했습니다. 그러나 SDID가 [!DNL Analytics] 호출의 SDID와 일치하지 않으므로 히트 결합 및 전환이 없습니다. (TNT-38372)
+* mbox 클릭 추적 및 A4T와 관련된 문제가 해결되었습니다. 0n-클릭으로 Target이 올바른 mbox 및 mbox 매개 변수로 배달 API 호출을 실행했습니다. 그러나 SDID가 의 SDID와 일치하지 않았습니다 [!DNL Analytics] 따라서 히트 결합 및 전환이 없습니다. (TNT-38372)
 
 ## at.js 2.3.2(2020년 7월 24일)
 
@@ -89,15 +95,15 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
-* 전달된 Target 오퍼을 적용할 때 SCRIPT에서 컨텐츠 보안 정책 임시 항목 및 페이지 DOM에 추가된 STYLE 태그 설정을 지원합니다. 고객은 적용된 오퍼에서 해당 스크립트 및 스타일 태그 임시 항목을 설정할 수 있도록 `targetGlobalSettings.cspScriptNonce` 및 `targetGlobalSettings.cspStyleNonce` 를 설정할 수 있습니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 를 참조하십시오.
+* 전달된 Target 오퍼을 적용할 때 SCRIPT에서 컨텐츠 보안 정책 임시 항목 및 페이지 DOM에 추가된 STYLE 태그 설정을 지원합니다. 고객이 설정할 수 있음 `targetGlobalSettings.cspScriptNonce` 및 `targetGlobalSettings.cspStyleNonce` 적용된 오퍼에 해당 스크립트 및 스타일 태그 임시 항목을 설정할 수 있도록 at.js가 준비되었습니다. 자세한 내용은  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 자세한 내용
 * Google Tag Manager 배포를 위해 Google Closure 컴파일러를 사용하여 at.js를 컴파일할 때 발생하는 문제를 해결했습니다.
-* 고객의 구현과 충돌을 방지하기 위해 at.js 확인 쿠키의 이름을 `check`에서 `at_check`로 변경했습니다.
+* at.js 확인 쿠키의 이름이 `check` to `at_check` 을 입력하여 고객의 구현과 충돌을 피할 수 있습니다.
 
 ## at.js 버전 1.8.1(2020년 3월 25일)
 
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
-* 고객의 구현과 충돌을 방지하기 위해 at.js 확인 쿠키의 이름을 `check`에서 `at_check`로 변경했습니다.
+* at.js 확인 쿠키의 이름이 `check` to `at_check` 을 입력하여 고객의 구현과 충돌을 피할 수 있습니다.
 
 ## at.js 버전 2.2.0(2019년 10월 10일)
 
@@ -112,7 +118,7 @@ at.js 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있
    >
    >ECID 확장을 v4.4로 업그레이드하여 향상된 성능을 이용해 보십시오.
 
-* at.js 버전 2.2에서는 `serverState` 이라는 새로운 설정도 제공합니다. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 사용하고 있으며, 서버측에서 배달 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+에서 서버측에서 가져온 콘텐츠에서 직접 경험을 적용하고 서비스되는 페이지의 일부로 클라이언트에 반환할 수 있는 기능을 제공합니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)의 &quot;serverState&quot;를 참조하십시오.
+* at.js 버전 2.2에서는 `serverState`. 이 설정은 Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있습니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 사용하고 있으며, 서버측에서 배달 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+에서 서버측에서 가져온 콘텐츠에서 직접 경험을 적용하고 서비스되는 페이지의 일부로 클라이언트에 반환할 수 있는 기능을 제공합니다. 자세한 내용은 [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)의 &quot;serverState&quot;를 참조하십시오.
 
 ## at.js 버전 1.8.0(2019년 10월 10일)
 
@@ -312,7 +318,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 이제 [!DNL at.js] 버전 1.2.3을 사용할 수 있습니다.
 
-* JSON 오퍼에 대한 지원을 추가합니다. JSON은 양식 기반 경험 작성기를 사용하여 만든 활동에서만 지원됩니다. 현재 JSON을 사용하는 유일한 방법은 직접 API 호출을 통해서입니다. [JSON 오퍼 만들기](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D)를 참조하십시오.
+* JSON 오퍼에 대한 지원을 추가합니다. JSON은 양식 기반 경험 작성기를 사용하여 만든 활동에서만 지원됩니다. 현재 JSON을 사용하는 유일한 방법은 직접 API 호출을 통해서입니다. 자세한 내용은 [JSON 오퍼 만들기](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
 
 ## at.js 버전 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
@@ -430,7 +436,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 * 서비스의 자체 시간 제한 시간과는 별개인 방문자 ID 서비스에 대한 시간 제한을 at.js에 제공합니다.
 * 일부 페이지에서는 at.js를 사용하고 다른 페이지에서는 mbox.js를 사용하여 구현에 영향을 미치던 0.9.0의 문제를 수정합니다.
-* Adobe Analytics를 활동의 보고 소스로 사용하는 경우, mbox.js 버전 61 이상 또는 at.js 버전 0.9.1 이상을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]에 보냅니다. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
+* Adobe Analytics를 활동의 보고 소스로 사용하는 경우, mbox.js 버전 61 이상 또는 at.js 버전 0.9.1 이상을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
 
 ## at.js 버전 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
