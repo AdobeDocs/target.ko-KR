@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f17d98f30b1fb25b5ffcafcd6cb8368adad99f97
+source-git-commit: 9f2947355c3857add5ea47d41c1adc2e3e8bba08
 workflow-type: tm+mt
-source-wordcount: '1034'
-ht-degree: 42%
+source-wordcount: '1041'
+ht-degree: 80%
 
 ---
 
@@ -42,13 +42,13 @@ ht-degree: 42%
 * 선택할 수 없을 때 표시되는 잘못된 오류 메시지가 수정되었습니다 [!DNL Analytics] 를 보고 소스로 사용(A4T)할 필요는 없습니다 [!DNL Analytics] 사용 권한. (TGT-41954)
 * 여러 액세스 가능성 수정 사항을 구현하여 [!DNL Target] UI.
 
-## [!DNL Target Standard/Premium] 21.10.2(2021년 10월 13일)
+## [!DNL Target Standard/Premium] 21.10.2 (2021년 10월 13일)
 
-사용 시 다음과 같은 향상된 기능을 추가했습니다 [!DNL Target] [!UICONTROL 대상] 사용 [!DNL Adobe Experience Platform Web SDK]:
+[!DNL Target] [!DNL Adobe Experience Platform Web SDK]로 [!UICONTROL 대상]을 사용하는 경우 다음과 같은 기능이 추가됩니다.
 
-* 의 다양한 위치에 경고 아이콘, 팝오버와 메시지를 추가했습니다 [!DNL Target] 대상이 소스에서 삭제되었으며 더 이상 을 사용할 수 없음을 나타내는 UI입니다 [!DNL Target] 활동.
+* [!DNL Target] UI의 다양한 위치에 경고 아이콘, 팝오버 및 메시지를 추가하여 소스에서 대상이 삭제되었고 [!DNL Target] 활동에서 더 이상 사용할 수 없음을 표시할 수 있습니다.
 
-   다음 그림은 아이콘, 팝오버 및 메시지가 표시되는 몇 가지 위치를 보여줍니다.
+   다음 그림은 아이콘, 팝오버 및 메시지가 표시되는 일부 위치를 보여줍니다.
 
    * [!UICONTROL 활동] 목록 페이지
 
@@ -58,21 +58,21 @@ ht-degree: 42%
 
       ![개요 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-overview.png)
 
-   * [!UICONTROL 경험] 활동 만들기 워크플로우의 단계:
+   * 활동 만들기 워크플로의 [!UICONTROL 경험] 단계:
 
-      ![소스 메시지에서 삭제된 대상 [!UICONTROL 경험] 페이지](assets/deleted-at-source-experiences.png)
+      ![[!UICONTROL 경험] 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-experiences.png)
 
-   * [!UICONTROL 타깃팅] 활동 만들기 워크플로우의 단계:
+   * 활동 만들기 워크플로의 [!UICONTROL 타기팅] 단계:
 
-      ![소스 메시지에서 삭제된 대상 [!UICONTROL 타깃팅] 페이지](assets/deleted-at-source-targeting.png)
+      ![[!UICONTROL 타기팅] 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL 목표 및 설정] 활동 만들기 워크플로우의 단계:
+   * 활동 만들기 워크플로의 [!UICONTROL 목표 및 설정] 단계:
 
-      ![소스 메시지에서 삭제된 대상 [!UICONTROL 목표 및 설정] 페이지](assets/deleted-at-source-goals-settings.png)
+      ![[!UICONTROL 목표 및 설정] 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-goals-settings.png)
 
-   * 대상 개선([!UICONTROL 대상 바꾸기] on [!UICONTROL 타깃팅] 활동 작성 워크플로우 단계):
+   * 대상 세분화(활동 만들기 워크플로의 [!UICONTROL 타기팅] 단계에서 [!UICONTROL 대상 대체]):
 
-* 대상 결합 기능을 사용하려고 하는데 소스에서 대상 중 하나가 삭제된 경우 [!UICONTROL 저장] 이 비활성화되어 있습니다.
+* Combine Audiences 기능을 사용하려고 하고 소스에서 대상 중 하나가 삭제되면 [!UICONTROL 저장]이 비활성화됩니다.
 
 ## [!DNL Target Standard/Premium] 21.10.1 (2021년 10월 6일)
 
@@ -80,10 +80,10 @@ ht-degree: 42%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL 대상자 UI 새로 고침] | 의 일부로 [!DNL Adobe Target] 사용자 경험을 향상시키기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 새로 고침됩니다. [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지의 페이지 [!DNL Target] UI. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관성이 없는 디자인 패턴을 통합 및 표준화합니다.<ul><li>여러 대상을 동시에 선택하고 삭제하는 기능</li><li>새로 고친 [audience builder 디자인](/help/c-target/c-audiences/create-audience.md)</li><li>에서 제외 규칙 지원 [!UICONTROL Audience] 라이브러리 규칙 빌더</li><li>대상 검색 속도를 높일 수 있는 새로운 &quot;대상 소스&quot; 필터</li><li>세션 영구 검색 및 필터 옵션</li></ul>자세한 내용은 [대상](/help/c-target/target.md)을 참조하십시오.<br>**참고**: 새로운 [!UICONTROL 대상] 현재 [!DNL Target] 베타 프로그램. 이 UI 새로 고침은 10월 19일 화요일 및 이후의 모든 나머지 고객에 대해 다시 활성화됩니다. |
-| [!UICONTROL 프로필 스크립트] UI 새로 고침 | 다음 [!UICONTROL 프로필 스크립트] 라이브러리도 업데이트되었으며, 다음과 같이 새로 고친 인터페이스와 몇 가지 생산성 업데이트가 포함됩니다.<ul><li>여러 프로필 스크립트를 동시에 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트를 위한 새 코드 편집기</li><li>코드 편집기 내에서 구문 강조 표시 및 오류 확인</li><li>키보드 단축키를 통해 토큰(mbox 또는 프로필) 매개 변수 자동 완료</li></ul>자세한 내용은 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md). |
-| ![Premium 배지](/help/assets/premium.png) Recommendations 기준 만들기 및 편집 | 다음 [!UICONTROL Recommendations 기준] 만들기 및 편집 워크플로우는 목표를 달성하기 위해 올바른 권장 사항 알고리즘 및 설정을 선택하는 작업을 간소화하기 위해 간소화되었습니다.<br>자세한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Premium 배지](/help/assets/premium.png) Recommendations 전환 확인 기간 및 알고리즘 새로 고침 비율 개선 사항 | 이제 6시간 전환 확인 기간과 함께 &quot;가장 많이 본 항목&quot; 및 &quot;최상위 판매자&quot; 알고리즘을 실행하여 가장 최근 트렌드를 표시하는 콘텐츠를 캡처할 수 있습니다. 6시간 전환 확인 기간을 선택하면 권장 사항 결과가 하루 종일 3-6시간마다 업데이트됩니다.<br>자세한 내용은 [데이터 소스](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *기준 만들기*. |
+| [!UICONTROL 대상] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일부로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상을 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상 빌더 디자인](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 대상] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 “대상 소스” 필터</li><li>세션 영구 검색 및 필터 옵션</li></ul>자세한 내용은 [대상](/help/c-target/target.md)을 참조하십시오.<br>**참고**: 새로운 [!UICONTROL 대상] UI는 고객만 선택할 수 있습니다. 이 업데이트는 2022년 1월부터 모든 고객에게 점진적으로 출시됩니다. |
+| [!UICONTROL 프로필 스크립트] UI 새로 고침 | 또한 [!UICONTROL 프로필 스크립트] 라이브러리가 업데이트되고, 새로운 인터페이스와 몇 가지 생산성 업데이트가 여기에 포함됩니다.<ul><li>여러 프로필 스크립트를 동시 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트용 새로운 편집기 코드</li><li>코드 편집기 내 구문 강조 표시 및 오류 검사</li><li>키보드 단축키를 통한 자동 완성 토큰(mbox 또는 프로필) 매개 변수</li></ul>자세한 내용은 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md)을 참조하십시오.<br>**참고**: 새로운 [!UICONTROL 프로필 스크립트] UI는 고객만 선택할 수 있습니다. 이 업데이트는 2022년 1월부터 모든 고객에게 점진적으로 출시됩니다. |
+| ![프리미엄 배지](/help/assets/premium.png) 추천 항목 기준 만들기 및 편집 | 목표 달성에 적합한 추천 항목 알고리즘 및 설정 선택을 단순화하기 위해 [!UICONTROL 추천 항목 기준] 만들기 및 편집 워크플로가 간소화되었습니다.<br>자세한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오. |
+| ![프리미엄 배지](/help/assets/premium.png) 추천 전환 확인 기간 및 알고리즘 새로 고침 빈도 개선 사항 | 이제 6시간 전환 확인 기간을 통해 “가장 많이 본 항목”과 ”최상위 판매자” 알고리즘을 실행하여 가장 최근에 트렌딩하는 콘텐츠를 캡처할 수 있습니다. 6시간 전환 확인 기간을 선택하면 하루에 3~6시간마다 추천 결과가 업데이트됩니다.<br>자세한 내용은 *기준 만들기*&#x200B;의 [데이터 소스](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)를 참조하십시오. |
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
