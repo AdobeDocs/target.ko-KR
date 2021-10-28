@@ -4,7 +4,7 @@ description: 'Adobe Target에서 Recommendations 활동을 구현하는 방법�
 title: Recommendations 활동을 구현하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 802ed4cc03973ee61ff3e40930b137422868835b
+source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
 workflow-type: tm+mt
 source-wordcount: '1544'
 ht-degree: 30%
@@ -108,7 +108,7 @@ function targetPageParams() {
 
    여러 세션에서 행동을 관찰하는 것은 제품이 방문자의 선호도 또는 취향에 따라 서로 &quot;사용&quot;한다는 의미가 있을 때 적절할 수 있습니다. 예를 들어, 방문자는 스타워즈를 좋아하고, 비록 방문자가 반드시 같은 자리에서 두 영화를 모두 보고 싶지 않더라도 인디아나 존스를 좋아할 수도 있습니다. 또는 방문자는 보드 게임 &quot;Codenames&quot;를 좋아하며 사용자가 두 게임을 동시에 할 수 없어도 보드 게임 &quot;Avalon&quot;을 원할 수도 있습니다. 
 
-단일 세션 내의 방문자 행동을 보는지 또는 여러 세션에서 방문자 행동을 보는지에 관계없이, [!DNL Target] 은 현재 장바구니에 있는 항목을 기반으로 각 방문자에 대한 권장 사항을 제공합니다.
+[!DNL Target] 단일 세션 내의 방문자 행동을 보는지 또는 여러 세션에서 방문자를 보는지에 관계없이 현재 장바구니의 항목을 기반으로 각 방문자에 대한 권장 사항을 제공합니다.
 
 ### 방문자의 장바구니에 이미 있는 항목 제외
 
