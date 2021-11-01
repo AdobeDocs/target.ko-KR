@@ -4,7 +4,7 @@ description: 활동에 가장 적합한 권장 사항을 표시하도록 Adobe R
 title: Recommendations에서 기준을 만들려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
 workflow-type: tm+mt
 source-wordcount: '2810'
 ht-degree: 53%
@@ -81,7 +81,6 @@ ht-degree: 53%
    | [!UICONTROL 사용자 기반] | 사용자의 행동을 기반으로 권장 사항을 만드십시오. | <ul><li>최근에 본 항목</li><li>권장 사항</li></ul> |
 
    |[!UICONTROL 사용자 지정 기준]|업로드하는 사용자 지정 파일을 기반으로 권장 사항을 만드십시오.|<ul><li>사용자 지정 알고리즘</li></ul>|
-
 
    >[!NOTE]
    >
