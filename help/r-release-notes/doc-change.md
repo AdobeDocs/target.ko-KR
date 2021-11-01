@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '2909'
+source-wordcount: '2912'
 ht-degree: 98%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 98%
 | 10월 28일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 다음 릴리스에 대한 정보를 추가했습니다.<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.7.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [시각적 경험 작성기 옵션](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 다음 섹션이 추가되었습니다. &quot;사용자 지정 요소 지원.&quot; |
-| 10월 27일 | [계획 및 구현 [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | 장바구니 기반 권장 사항에 대한 추가 정보가 추가되었습니다. |
+| 10월 27일 | [권장 사항 키](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)를 기반으로 권장 사항 만들기 | 장바구니 기반 권장 사항에 대한 정보가 추가되었습니다. |
 | 10월 26일 | [CNAME 및 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 25일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.10.5 릴리스(2021년 10월 28일)에 대한 정보가 추가되었습니다. |
 | 10월 22일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 다음 섹션이 추가되었습니다.<ul><li>확인 [!DNL Target] 활동은 쿼리 문자열 매개 변수를 사용하여 URL을 올바르게 처리합니다</li></ul> |

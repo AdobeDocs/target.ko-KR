@@ -4,10 +4,10 @@ description: 'Adobe Target에서 Recommendations 활동을 구현하는 방법�
 title: Recommendations 활동을 구현하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 30%
+source-wordcount: '1295'
+ht-degree: 36%
 
 ---
 
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-장바구니 기반 권장 사항 로직은 &quot;[!UICONTROL 권장 사항]&quot; 사용자 기반 알고리즘 및 &quot;[!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]&quot; 및 &quot;[!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]항목 기반 알고리즘
-
-[!DNL Target] 에서는 공동 작업 필터링 기술을 사용하여 방문자 장바구니에 있는 각 항목에 대한 유사성을 파악한 다음, 각 항목에 대한 이러한 행동 유사성을 결합하여 병합된 목록을 가져옵니다.
-
-[!DNL Target] 또한 마케터에게 단일 세션 내 또는 여러 세션 간 방문자 행동을 살펴볼 수 있는 선택 사항을 제공합니다.
-
-* **단일 세션 내**: 단일 세션 내에서 다른 방문자가 수행한 작업을 기반으로 합니다.
-
-   단일 세션 내의 동작을 보면 제품이 사용, 상황 또는 이벤트를 기반으로 서로 강력하게 &quot;사용&quot;한다고 생각될 때 적절할 수 있습니다. 예를 들어, 방문자가 프린터를 구입하고 있고 잉크와 종이도 필요할 수 있습니다. 혹은, 방문객은 땅콩 버터를 사고, 빵과 젤리가 필요할 수도 있다.
-
-* **여러 세션 간**: 여러 세션에서 다른 방문자가 수행한 작업을 기반으로 합니다.
-
-   여러 세션에서 행동을 관찰하는 것은 제품이 방문자의 선호도 또는 취향에 따라 서로 &quot;사용&quot;한다는 의미가 있을 때 적절할 수 있습니다. 예를 들어, 방문자는 스타워즈를 좋아하고, 비록 방문자가 반드시 같은 자리에서 두 영화를 모두 보고 싶지 않더라도 인디아나 존스를 좋아할 수도 있습니다. 또는 방문자는 보드 게임 &quot;Codenames&quot;를 좋아하며 사용자가 두 게임을 동시에 할 수 없어도 보드 게임 &quot;Avalon&quot;을 원할 수도 있습니다. 
-
-[!DNL Target] 단일 세션 내의 방문자 행동을 보는지 또는 여러 세션에서 방문자를 보는지에 관계없이 현재 장바구니의 항목을 기반으로 각 방문자에 대한 권장 사항을 제공합니다.
+에 대한 자세한 정보 [!UICONTROL 장바구니 기반] 권장 사항 [장바구니 기반](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *권장 사항 키를 기반으로 권장 사항 만들기*.
 
 ### 방문자의 장바구니에 이미 있는 항목 제외
 
