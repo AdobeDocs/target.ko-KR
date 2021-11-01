@@ -4,9 +4,9 @@ description: 활동에 가장 적합한 권장 사항을 표시하도록 Adobe R
 title: Recommendations에서 기준을 만들려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
+source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
 workflow-type: tm+mt
-source-wordcount: '2810'
+source-wordcount: '2797'
 ht-degree: 53%
 
 ---
@@ -75,12 +75,11 @@ ht-degree: 53%
 
    | 알고리즘 유형 | 사용 시기 | 사용 가능한 알고리즘 |
    | --- | --- | --- |
-   | [!UICONTROL 장바구니 기반] | 사용자의 장바구니 콘텐츠를 기반으로 하여 권장 사항을 만듭니다. | <ul><li>이러한 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul>자세한 내용은 [장바구니 기반](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *권장 사항 키를 기반으로 권장 사항 만들기*. |
+   | [!UICONTROL 장바구니 기반] | 사용자의 장바구니 콘텐츠를 기반으로 하여 권장 사항을 만듭니다. | <ul><li>이러한 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul> |
    | [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 하거나 사용자가 즐겨찾거나 가장 많이 본 카테고리, 브랜드, 장르 등 내에서 항목의 인기도를 기반으로 권장 사항을 만듭니다. | <ul><li>사이트에서 가장 많이 본 항목</li><li>카테고리별로 가장 많이 본 항목</li><li>품목 속성별로 가장 많이 본 항목 속성</li><li>사이트 간 최상위 판매자</li><li>카테고리별 최상위 판매자</li><li>항목별 최상위 판매자 속성</li><li>Analytics 지표별 상위</li></ul> |
    | [!UICONTROL 항목 기반] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾는 것을 기반으로 권장 사항을 만드십시오. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>비슷한 속성을 갖는 항목</li></ul> |
    | [!UICONTROL 사용자 기반] | 사용자의 행동을 기반으로 권장 사항을 만드십시오. | <ul><li>최근에 본 항목</li><li>권장 사항</li></ul> |
-
-   |[!UICONTROL 사용자 지정 기준]|업로드하는 사용자 지정 파일을 기반으로 권장 사항을 만드십시오.|<ul><li>사용자 지정 알고리즘</li></ul>|
+   | [!UICONTROL 사용자 지정 기준] | 업로드하는 사용자 지정 파일을 기반으로 하여 권장 사항을 만듭니다. | <ul><li>사용자 지정 알고리즘</li></ul> |
 
    >[!NOTE]
    >
