@@ -4,9 +4,9 @@ description: 활동에 가장 적합한 권장 사항을 표시하도록 Adobe R
 title: Recommendations에서 기준을 만들려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2832'
 ht-degree: 53%
 
 ---
@@ -87,7 +87,9 @@ ht-degree: 53%
 
 1. 필요에 따라 **항목 속성** 및 **일치하는 프로필 속성**, **권장 사항 키**, **필터링 키**, 및/또는 **Analytics 지표** 를 사용하여 알고리즘을 구성합니다.
 
-권장 사항 키 선택에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+나머지 알고리즘 구성 옵션은 선택한 알고리즘에 따라 달라집니다. 알고리즘 구성을 완료하려면 [!UICONTROL 권장 사항 키], [!UICONTROL 필터링 키], [!UICONTROL 공동 발생 기준], [!UICONTROL Analytics 지표], 및/또는 [!UICONTROL 항목 속성] 및 [!UICONTROL 일치하는 프로필 속성].
+
+선택 [!UICONTROL 권장 사항 키]를 참조하십시오. [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL 데이터 소스] {#data-source}
 
