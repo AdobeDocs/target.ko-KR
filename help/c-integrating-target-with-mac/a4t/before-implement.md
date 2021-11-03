@@ -4,9 +4,9 @@ description: Analytics에 대한 구현 요구 사항 알아보기 [!DNL Target]
 title: A4T를 구현하기 전에 무엇을 알아야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 9a1603cbbe773638693f5836b6cf7c62dc0b56b8
+source-git-commit: 00f7a31a1772d72d929f39a481d896ffbdf5bd2d
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '958'
 ht-degree: 26%
 
 ---
@@ -41,6 +41,8 @@ A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합�
 * [!DNL Adobe Target]: at.js  버전 0.9.1
 * Adobe Analytics: appMeasurement.js 버전 1.7.0
 
+을 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
 ### A4T에서 리디렉션 오퍼를 사용할 경우 필요한 요구 사항
 
 A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다. 나열된 순서는 작업 순서입니다.
@@ -56,6 +58,8 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 * Adobe Analytics: appMeasurement.js 버전 2.1
 
 다운로드 및 배포 지침은 [Analytics for Target 구현](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+
+을 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
 ## 구현하기 전에 알아야 할 사항 {#section_50D49CC52E11414089C89FB67F9B88F5}
 
