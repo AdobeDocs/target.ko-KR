@@ -5,9 +5,9 @@ title: 권장 사항 키를 기반으로 권장 사항을 제공하려면 어떻
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
 workflow-type: tm+mt
-source-wordcount: '3850'
+source-wordcount: '3834'
 ht-degree: 41%
 
 ---
@@ -25,10 +25,6 @@ ht-degree: 41%
 * [!UICONTROL 사용자 지정 기준]
 
 각 알고리즘 유형은 다음 표에 표시된 대로 해당 유형에 적절한 서로 다른 알고리즘을 제공합니다.
-
->[!NOTE]
->
->다음 [!UICONTROL 장바구니 기반] 유형은 아래 표에 설명되어 있으며 곧 제공될 예정입니다.
 
 | 알고리즘 유형 | 사용 시기 | 사용 가능한 알고리즘 |
 | --- | --- | --- |
@@ -54,11 +50,11 @@ ht-degree: 41%
 
 [!DNL Target] 또한 마케터에게 단일 세션 내 또는 여러 세션 간 방문자 행동을 살펴볼 수 있는 선택 사항을 제공합니다.
 
-* **단일 세션 내**: 단일 세션 내에서 다른 방문자가 수행한 작업을 기반으로 합니다.
+* **[!UICONTROL 단일 세션]**: 단일 세션 내에서 다른 방문자가 수행한 작업을 기반으로 합니다.
 
    단일 세션 내의 동작을 보면 제품이 사용, 상황 또는 이벤트를 기반으로 서로 강력하게 &quot;사용&quot;한다고 생각될 때 적절할 수 있습니다. 예를 들어, 방문자가 프린터를 구입하고 있고 잉크와 종이도 필요할 수 있습니다. 혹은, 방문객은 땅콩 버터를 사고, 빵과 젤리가 필요할 수도 있다.
 
-* **여러 세션 간**: 여러 세션에서 다른 방문자가 수행한 작업을 기반으로 합니다.
+* **[!UICONTROL 세션 간]**: 여러 세션에서 다른 방문자가 수행한 작업을 기반으로 합니다.
 
    여러 세션에서 행동을 관찰하는 것은 제품이 방문자의 선호도 또는 취향에 따라 서로 &quot;사용&quot;한다는 의미가 있을 때 적절할 수 있습니다. 예를 들어, 방문자는 스타워즈를 좋아하고, 비록 방문자가 반드시 같은 자리에서 두 영화를 모두 보고 싶지 않더라도 인디아나 존스를 좋아할 수도 있습니다. 또는 방문자는 보드 게임 &quot;Codenames&quot;를 좋아하며 사용자가 두 게임을 동시에 할 수 없어도 보드 게임 &quot;Avalon&quot;을 원할 수도 있습니다. 
 
@@ -81,7 +77,7 @@ ht-degree: 41%
 * 마지막으로 본 항목
 * 가장 많이 본 항목
 
-### People Who Viewed This, Bought Those
+### 이 항목을 보고 다른 항목을 구입한 사람
 
 지정한 항목을 본 것과 동일한 세션에서 가장 자주 구입한 항목을 추천합니다. 이 기준은 이 항목을 본 사용자가 구입한 다른 제품을 반환하고 지정된 제품은 결과 세트에 포함되지 않습니다.
 
@@ -182,7 +178,7 @@ ht-degree: 41%
 
 다음 [!UICONTROL 항목 기반] 권장 사항 유형을 사용하면 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾는 것을 기준으로 권장 사항을 만들 수 있습니다.
 
-The following algorithms are available with the [!UICONTROL Item-Based] algorithm type:
+다음 알고리즘은 [!UICONTROL 항목 기반] 알고리즘 유형:
 
 ### 이 항목을 보고 다른 항목도 본 사람 {#viewed-viewed}
 
@@ -205,7 +201,7 @@ The following algorithms are available with the [!UICONTROL Item-Based] algorith
 
 이 논리는 이 제품을 보고 구입한 다른 제품을 반환합니다. 지정한 제품이 결과 세트에 포함되어 있지 않습니다.
 
-This logic lets you increase cross-selling opportunities by displaying a recommendation on a product page, for example, that displays items that other visitors who viewed the item purchased. 예를 들어 방문자가 낚싯대를 보고 있는 경우 도구 상자, 머리글 및 낚시 도구와 같이 다른 방문자가 구입한 추가 항목을 권장 사항에 표시할 수 있습니다. 방문자가 사이트를 탐색할 때 추가 구매 추천을 제공합니다.
+이 논리를 사용하면 제품 페이지에 권장 사항을 표시하여 교차 판매 기회를 늘릴 수 있습니다. 예를 들어, 구매한 항목을 본 다른 방문자가 표시하는 것입니다. 예를 들어 방문자가 낚싯대를 보고 있는 경우 도구 상자, 머리글 및 낚시 도구와 같이 다른 방문자가 구입한 추가 항목을 권장 사항에 표시할 수 있습니다. 방문자가 사이트를 탐색할 때 추가 구매 추천을 제공합니다.
 
 이 알고리즘을 선택하는 경우 다음 Recommendations 키를 선택할 수 있습니다.
 
