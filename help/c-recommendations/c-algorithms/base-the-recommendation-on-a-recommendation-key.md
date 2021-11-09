@@ -5,9 +5,9 @@ title: 권장 사항 키를 기반으로 권장 사항을 제공하려면 어떻
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
+source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
 workflow-type: tm+mt
-source-wordcount: '3834'
+source-wordcount: '3820'
 ht-degree: 41%
 
 ---
@@ -16,19 +16,11 @@ ht-degree: 41%
 
 알고리즘을 기반으로 하는 Recommendations은 방문자 행동 컨텍스트를 사용하여 적절한 결과를 표시합니다 [!DNL Adobe Target] [!DNL Recommendations] 활동.
 
-에는 5가지 알고리즘 유형이 있습니다 [!DNL Target Recommendations]:
-
-* [!UICONTROL 장바구니 기반]
-* [!UICONTROL 인기도 기반]
-* [!UICONTROL 항목 기반]
-* [!UICONTROL 사용자 기반]
-* [!UICONTROL 사용자 지정 기준]
-
 각 알고리즘 유형은 다음 표에 표시된 대로 해당 유형에 적절한 서로 다른 알고리즘을 제공합니다.
 
 | 알고리즘 유형 | 사용 시기 | 사용 가능한 알고리즘 |
 | --- | --- | --- |
-| [!UICONTROL 장바구니 기반] | (준비 중) 사용자의 장바구니 컨텐츠를 기반으로 하여 권장 사항을 만듭니다. | <ul><li>이러한 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul> |
+| [!UICONTROL 장바구니 기반] | 사용자의 장바구니 콘텐츠를 기반으로 하여 권장 사항을 만듭니다. | <ul><li>이러한 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul> |
 | [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 하거나 사용자가 즐겨찾거나 가장 많이 본 카테고리, 브랜드, 장르 등 내에서 항목의 인기도를 기반으로 권장 사항을 만듭니다. | <ul><li>사이트에서 가장 많이 본 항목</li><li>카테고리별로 가장 많이 본 항목</li><li>품목 속성별로 가장 많이 본 항목 속성</li><li>사이트 간 최상위 판매자</li><li>카테고리별 최상위 판매자</li><li>항목별 최상위 판매자 속성</li><li>Analytics 지표별 상위</li></ul> |
 | [!UICONTROL 항목 기반] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾는 것을 기반으로 권장 사항을 만드십시오. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>비슷한 속성을 갖는 항목</li></ul> |
 | [!UICONTROL 사용자 기반] | 사용자의 행동을 기반으로 권장 사항을 만드십시오. | <ul><li>최근에 본 항목</li><li>권장 사항</li></ul> |
