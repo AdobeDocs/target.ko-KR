@@ -5,10 +5,10 @@ title: 권장 사항 키를 기반으로 권장 사항을 제공하려면 어떻
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3820'
-ht-degree: 41%
+source-wordcount: '3877'
+ht-degree: 40%
 
 ---
 
@@ -44,7 +44,7 @@ ht-degree: 41%
 
 * **[!UICONTROL 단일 세션]**: 단일 세션 내에서 다른 방문자가 수행한 작업을 기반으로 합니다.
 
-   단일 세션 내의 동작을 보면 제품이 사용, 상황 또는 이벤트를 기반으로 서로 강력하게 &quot;사용&quot;한다고 생각될 때 적절할 수 있습니다. 예를 들어, 방문자가 프린터를 구입하고 있고 잉크와 종이도 필요할 수 있습니다. 혹은, 방문객은 땅콩 버터를 사고, 빵과 젤리가 필요할 수도 있다.
+   단일 세션 내의 동작을 보면 제품이 사용, 상황 또는 이벤트를 기반으로 서로 강하게 &quot;사용&quot;한다는 의미가 있을 때 적절할 수 있습니다. 예를 들어, 방문자가 프린터를 구입하고 있고 잉크와 종이도 필요할 수 있습니다. 혹은, 방문객은 땅콩 버터를 사고, 빵과 젤리가 필요할 수도 있다.
 
 * **[!UICONTROL 세션 간]**: 여러 세션에서 다른 방문자가 수행한 작업을 기반으로 합니다.
 
@@ -139,7 +139,11 @@ ht-degree: 41%
 
 ### 품목 속성별로 가장 많이 본 항목 속성
 
-(정보 준비 중)
+사이트에서는 가장 많이 본 항목 또는 미디어와 유사한 항목 또는 미디어를 권장합니다.
+
+이 알고리즘을 사용하면 추천의 기반이 되는 항목 속성(예: &quot;이름&quot; 또는 &quot;브랜드&quot;)을 선택할 수 있습니다.
+
+그런 다음 일치시킬 방문자 프로필에 저장된 프로필 속성(예: &quot;Favorite Brand&quot;, &quot;Last Item Added to Cart&quot; 또는 &quot;Most Viewed Show&quot;)을 선택합니다.
 
 ### 사이트 간 최상위 판매자 {#top-sellers}
 
