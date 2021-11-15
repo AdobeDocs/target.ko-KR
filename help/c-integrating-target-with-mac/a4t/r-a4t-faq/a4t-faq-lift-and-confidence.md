@@ -4,9 +4,9 @@ description: Analytics를 사용할 때 상승도 및 신뢰도에 대한 질문
 title: A4T를 사용하여 상승도 및 신뢰도에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]
 
 ## A4T는 신뢰도 계산을 어떻게 처리합니까? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T는 이진 지표를 사용하여 일반 t 테스트와 다른 방식으로 신뢰/p 값을 계산합니다. 특히, A4T에서 사용하는 계산을 사용하면 각 사용자가 연속적인 지표 결과(각 사용자에 대해 1 또는 0일 아님)를 가질 수 있으므로 각 경험에 대한 분산(또는 이와 관련하여 표준 편차)을 정확하게 계산해야 합니다. 예외적인 주문은 고려되지 않습니다. 또한, 여러 오퍼에 대해 신뢰 계산이 Bonferroni 보정을 적용하지 않습니다.
+[!DNL Adobe Analytics] 모든 지표를 비바이너리로 간주하므로 은 일반 t 테스트의 이진 지표 사용과 다른 방식으로 신뢰/p 값을 계산합니다. 특히, A4T에서 사용하는 계산을 사용하면 각 사용자가 연속적인 지표 결과(각 사용자에 대해 1 또는 0일 아님)를 가질 수 있으므로 각 경험에 대한 분산(또는 이와 관련하여 표준 편차)을 적절하게 계산해야 합니다. 예외적인 주문은 고려되지 않습니다. 또한, 여러 오퍼에 대해 신뢰 계산이 Bonferroni 보정을 적용하지 않습니다.
 
 ## 상승도 및 신뢰도를 Ad Hoc 및 Report Builder에서 사용할 수 있습니까? 기본적으로 사용할 수 없다면 사용 설정할 수 있습니까? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 

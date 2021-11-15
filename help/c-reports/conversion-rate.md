@@ -4,10 +4,10 @@ description: Adobe 방법 알아보기 [!DNL Target] 각 경험에 대한 전환
 title: 전환율, 상승도 및 신뢰도 수준을 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '2136'
-ht-degree: 58%
+source-wordcount: '2138'
+ht-degree: 59%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 58%
 
 주문(`orderConfirmPage`) mbox를 전환 mbox로 선택하고 선택했습니다.
 
-## 신뢰도 및 신뢰 구간 을 참조하십시오 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## 신뢰 수준 및 신뢰 구간의 &quot;Analytics for Target (A4T)에 사용할 오프라인 계산 수행&quot;을 참조하십시오 {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 각 경험에 대한 신뢰 및 신뢰 구간이 표시됩니다.
 
@@ -58,7 +58,9 @@ ht-degree: 58%
 
 ### 신뢰도 {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-표시되는 경험 또는 오퍼의 신뢰도는 null 가설이 참인 경우, 즉 해당 경험 또는 오퍼 간에 전환율과 차이가 없는 경우, 실제로 관찰되는 것보다 더 극단적인 결과를 얻는 가능성(백분율로 표시됨)입니다. p 값 측면에서 볼 때 이 신뢰도는 1 - p 값입니다. 즉, 더 단순하게, 더 높은 신뢰도는 제어 및 비제어 오퍼/경험이 동일한 전환율을 가지고 있다는 가정과 데이터가 일치하지 않음을 나타냅니다. 신뢰도가 99.995% 이상이면 신뢰도는 100.00%로 반올림됩니다.
+표시되는 경험 또는 오퍼의 신뢰도는 null 가설이 참인 경우, 실제 관찰된 것보다 더 극단적인 결과를 얻는 확률(백분율로 표현됨)입니다(기본적으로, 해당 경험 또는 오퍼 간에 전환율과 차이가 없는 경우). p 값 측면에서 볼 때 이 신뢰도는 1 - p 값입니다. 즉, 더 단순하게, 더 높은 신뢰도는 제어 및 비제어 오퍼/경험이 동일한 전환율을 가지고 있다는 가정과 데이터가 일치하지 않음을 나타냅니다.
+
+신뢰도가 99.995% 이상이면 신뢰도는 100.00%로 반올림됩니다.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
