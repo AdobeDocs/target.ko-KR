@@ -4,14 +4,14 @@ description: 에서 콘텐츠 타겟팅을 위해 CRM(고객 관계 관리) 데�
 title: 고객 속성은 무엇이며 어떻게 사용할 수 있습니까?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 19b012a0fcbf5195b12990f0a634a90597850899
+source-git-commit: 970d0fd90d517b14fff7a36fd4406a37932d8d2e
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1572'
 ht-degree: 32%
 
 ---
 
-# [정의되지 않음](/help/c-target/c-visitor-profile/working-with-customer-attributes.md)
+# 고객 속성
 
 의 콘텐츠 타깃팅을 위해 CRM(고객 관계 관리) 데이터베이스의 엔터프라이즈 고객 데이터를 사용하는 방법에 대한 정보입니다 [!DNL Adobe Target] 에서 고객 속성을 사용하여 [!DNL Adobe Enterprise Cloud People] 서비스.
 
