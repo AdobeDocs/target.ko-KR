@@ -2,12 +2,12 @@
 keywords: 연락처;법률;기술 지원;기술 지원;지원;서비스;기능;청구;피드백
 description: ' [!DNL Target]  기능에 대해 학습하는 데 도움이 되는 추가 리소스 및  [!DNL Target]에 대한 도움이 필요할 때 Adobe에 문의하는 방법에 대해 알아보십시오.'
 title: Target에 대한 리소스 및 연락처 정보는 어디에서 찾을 수 있습니까?
-feature: 릴리스 정보,개요
+feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: ht
-source-wordcount: '1222'
-ht-degree: 100%
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+workflow-type: tm+mt
+source-wordcount: '1221'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 | [Target Premium 작업 영역](https://helpx.adobe.com/kr/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018년 9월 4일 | 배울 내용:<ul><li>작업 영역(제품 프로필) 만들기</li><li>속성 만들기</li><li>사용자 추가</li><li>구현 업데이트</li></ul>자세한 내용은 [엔터프라이즈 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하십시오. |
 | [시각적 경험 작성기(VEC)](https://helpx.adobe.com/kr/customer-care-office-hours/target/premium-workspaces.html)<br>50:23<br>2017년 12월 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/c-experiences/experiences.md). |
 | [Adobe Target: Analytics/Target 통합(A4T)](https://helpx.adobe.com/kr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018년 1월 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
-| [at.js: 장점 및 구현 모범 사례](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul> |
+| [at.js: 장점 및 구현 모범 사례](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>더 이상 사용되지 않는 mbox.js에 대한 at.js의 이점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul> |
 
 >[!NOTE]
 >

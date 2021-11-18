@@ -4,10 +4,10 @@ description: ' [!DNL Target Recommendations], including using the [!DNL Target] 
 title: Recommendations를 이메일과 통합하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 80%
+source-wordcount: '1712'
+ht-degree: 79%
 
 ---
 
@@ -82,7 +82,7 @@ curl -X POST \
 
 ## 방법 2: rawbox 이메일 템플릿 사용 {#rawbox}
 
-rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 제공업체)와 같은 비웹 환경용입니다. rawbox 요청에 사용할 [!DNL mbox.js] 또는 [!DNL at.js] 가 없으므로 요청을 수동으로 만들어야 합니다. 아래의 예에서는 이메일에서 rawbox 요청을 사용하는 방법을 설명합니다.
+rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 제공업체)와 같은 비웹 환경용입니다. 왜냐하면 당신은 [!DNL Adobe Experience Platform Web SDK] 또는 [!DNL at.js] rawbox 요청에 사용하려면 요청을 수동으로 만들어야 합니다. 아래의 예에서는 이메일에서 rawbox 요청을 사용하는 방법을 설명합니다.
 
 >[!NOTE]
 >

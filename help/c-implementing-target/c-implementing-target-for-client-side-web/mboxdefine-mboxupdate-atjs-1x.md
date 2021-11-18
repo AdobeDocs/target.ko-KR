@@ -1,14 +1,14 @@
 ---
 keywords: mbox 정의;mbox 정의;mbox 정의;mbox업데이트;mbox 업데이트;mbox 업데이트;at.js;함수;함수
-description: Adobe [!DNL Target] at.js JavaScript 라이브러리에 대해 mboxDefine() 및 mboxUpdate() 함수를 사용하여 mbox를 정의하거나 업데이트합니다. (at.js 1.x)
+description: Adobe에 mboxDefine() 및 mboxUpdate() 함수를 사용합니다 [!DNL Target] at.js JavaScript 라이브러리를 사용하여 mbox를 정의하거나 업데이트합니다. (at.js 1.x)
 title: mboxDefine() 및 mboxUpdate() 함수를 사용하려면 어떻게 합니까?
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '197'
-ht-degree: 86%
+source-wordcount: '200'
+ht-degree: 75%
 
 ---
 
@@ -24,11 +24,11 @@ Adobe Target에서 mbox를 정의하고 업데이트합니다.
 
 ## mboxDefine {#section_134BAAE8EE9D49D8BAFEA5E7EAB93BA7}
 
-nodeId와 mbox 이름 사이에 내부 매핑을 만들되, 요청을 실행하지 마십시오. `mboxUpdate()`와 함께 사용됩니다. 주로 [!DNL at.js]에서 [!DNL mbox.js]로 간편하게 전환하기 위해 [!DNL at.js]에 내장되어 있습니다.
+nodeId와 mbox 이름 사이에 내부 매핑을 만들되, 요청을 실행하지 마십시오. `mboxUpdate()`와 함께 사용됩니다. 내장 [!DNL at.js] 대개 [!DNL mbox.js] (이제 사용되지 않음)에서으로 [!DNL at.js].
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-요청을 실행하고 `nodeId`()의 `mboxDefine()`로 식별되는 요소에 오퍼를 적용합니다. `mboxCreate`로 시작된 mbox를 업데이트하는 데도 사용할 수 있습니다. 주로 [!DNL mbox.js]에서 [!DNL at.js]로 간편하게 전환하기 위해 [!DNL at.js]에 내장되어 있습니다. `mboxDefine()`/ `mboxUpdate()`는 선택기 옵션을 사용하여 [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 및 [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)로 대체할 수 있습니다.
+요청을 실행하고 `nodeId`()의 `mboxDefine()`로 식별되는 요소에 오퍼를 적용합니다. `mboxCreate`로 시작된 mbox를 업데이트하는 데도 사용할 수 있습니다. 내장 [!DNL at.js] 대개 [!DNL mbox.js] (이제 사용되지 않음)에서으로 [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()`는 선택기 옵션을 사용하여 [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 및 [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)로 대체할 수 있습니다.
 
 ## 예 {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

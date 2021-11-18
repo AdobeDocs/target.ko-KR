@@ -2,12 +2,12 @@
 keywords: 알려진 문제;해결된 문제;릴리스 정보;버그;문제;수정
 description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 문제에 대한 정보를 찾으십시오 문제가 해결되면 해결됨 섹션으로 이동하십시오.
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
-feature: 릴리스 정보
+feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
-workflow-type: ht
-source-wordcount: '4505'
-ht-degree: 100%
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+workflow-type: tm+mt
+source-wordcount: '4504'
+ht-degree: 97%
 
 ---
 
@@ -244,9 +244,9 @@ A4T 와 관련된 다음과 같은 문제가 해결되었습니다.
 
 구현 탭([!UICONTROL 설정 > 구현])에서 [!UICONTROL 글로벌 Mbox 자동으로 만들기] 필드는 새로 제공된 테넌트에 대해 기본적으로 &quot;false&quot;입니다.
 
-프로비저닝 후 처음으로 mbox.js가 다운로드되면 다운로드된 mbox.js 파일 및 [!UICONTROL 백엔드에서] 글로벌 Mbox를 자동으로 만들기 [!DNL Target] 필드가 &quot;true&quot;로 설정되지만, UI의 [!UICONTROL 구현] 페이지에는 페이지를 새로 고칠 때까지 계속 &quot;false&quot;로 표시됩니다(페이지를 새로 고친 후 상태는 &quot;true&quot;로 표시됨).
+프로비저닝 후 처음으로 at.js를 다운로드하면 [!UICONTROL 글로벌 Mbox 자동으로 만들기] 다운로드한 at.js 파일 및 [!DNL Target] 백엔드에 하지만 에서는 여전히 &quot;false&quot;로 표시됩니다 [!UICONTROL 구현] 페이지를 새로 고칠 때까지 UI에서 페이지를 설정합니다(페이지를 새로 고친 후 상태는 &quot;true&quot;입니다).
 
-at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false` 로 다운로드됩니다. mbox.js를 처음 다운로드하면 global\_mbox\_autocreate가 &quot;true&quot;로 설정되고 at.js도 `global_mbox_autocreate = true`로 다운로드됩니다. (TGT-15929)
+at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false` 로 다운로드됩니다. mbox.js(이제 더 이상 사용되지 않음)를 처음 다운로드하면 global\_mbox\_autocreate가 &quot;true&quot;로 설정되고 at.js도 `global_mbox_autocreate = true`. (TGT-15929)
 
 ### [!DNL Target] API의 엔터프라이즈 권한 지원 {#api}
 
@@ -440,7 +440,7 @@ Target 17.4.1 릴리스(2017년 4월 27일)에서 수정되었습니다.
 
 ### at.js {#at-js-7}
 
-사용자가 at.js 설정을 업데이트한 후 구현 세부 사항 페이지에서 at.js를 다운로드하려고 하면 at.js 대신 mbox.js가 다운로드됩니다. (TGT-23069)
+사용자가 at.js 설정을 업데이트한 후 구현 세부 사항 페이지에서 at.js를 다운로드하려고 하면 at.js 대신 가 다운로드됩니다. (TGT-23069)
 
 Target 17.3.1 릴리스(2017년 3월 30일)에서 수정되었습니다.
 

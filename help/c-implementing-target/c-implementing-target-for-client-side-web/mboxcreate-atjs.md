@@ -1,15 +1,14 @@
 ---
 keywords: mbox 생성;mbox 생성;mbox 만들기;at.js;함수;함수
-description: Adobe [!DNL Target] at.js JavaScript 라이브러리에 대한 mboxCreate() 함수를 사용하여 mboxDefault 클래스 이름으로 가장 가까운 DIV에 오퍼를 적용합니다. (at.js 1.x)
-title: mboxCreate() 함수를 사용하려면 어떻게 합니까?
+description: Adobe에 mboxCreate() 함수 사용 [!DNL Target] mboxDefault 클래스 이름을 사용하는 가장 가까운 DIV에 오퍼를 적용할 at.js JavaScript 라이브러리입니다. (at.js 1.x)
+title: mboxCreate() 함수를 사용하려면 어떻게 해야 합니까?
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '204'
-ht-degree: 85%
+source-wordcount: '205'
+ht-degree: 79%
 
 ---
 
@@ -21,7 +20,7 @@ ht-degree: 85%
 >
 >이 함수는 at.js 버전 1.*x*&#x200B;에만 사용할 수 있습니다. 이 함수는 at.js 2.x의 릴리스에서 더 이상 사용되지 않으며, at.js 2.x에서 사용하는 경우 기본 콘텐츠를 반환합니다.
 
-이 함수는 주로 [!DNL mbox.js]에서 [!DNL at.js]로 간편하게 전환하기 위해 [!DNL at.js]에 내장되어 있습니다. `mboxCreate()`에 대한 최신 대안은 `adobe.target.getOffer()`/`adobe.target.applyOffer()` 또는 Angular 지시문입니다.
+이 함수는 [!DNL at.js] 대개 [!DNL mbox.js] (이제 사용되지 않음)에서으로 [!DNL at.js]. `mboxCreate()`에 대한 최신 대안은 `adobe.target.getOffer()`/`adobe.target.applyOffer()` 또는 Angular 지시문입니다.
 
 ## 예
 

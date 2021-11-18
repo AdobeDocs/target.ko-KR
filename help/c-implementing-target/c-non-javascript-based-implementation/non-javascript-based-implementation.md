@@ -1,14 +1,14 @@
 ---
-keywords: 구현;mbox.js 비javascript;adbox;리디렉터;mbox
-description: AdBox 또는 리디렉터 사용과 같이 비JavaScript 상황에서 Adobe [!DNL Target] 을 구현하는 방법을 알아봅니다.
-title: 전자 메일에 대해 [!DNL Target] 을 구현하려면 어떻게 합니까?
-feature: 이메일 구현
+keywords: 구현;at.js 비Javascript;adbox;리디렉터;mbox
+description: Adobe 구현 방법 알아보기 [!DNL Target] AdBox 또는 리디렉터 사용과 같이 비JavaScript 시나리오에서 제외합니다.
+title: 구현 방법 [!DNL Target] 이메일 사용?
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 81%
+source-wordcount: '432'
+ht-degree: 78%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 81%
 
 AdBox 또는 리디렉터 사용과 같이 비JavaScript 상황에서 Target을 구현하는 방법에 대한 정보입니다.
 
-광고와 다른 오프사이트 컨텐츠에 대한 방문을 추적할 수 있습니다. 사이트 내부 및 외부에서 동일한 사용자를 식별하며 전체적으로 웹에서 일관된 웹 경험을 제공할 수 있습니다. 단일 URL을 사용하는 AdBox에서는 JavaScript나 [!DNL at.js] 또는 [!DNL mbox.js] 없이 테스트할 수 있습니다.
+광고와 다른 오프사이트 컨텐츠에 대한 방문을 추적할 수 있습니다. 사이트 내부 및 외부에서 동일한 사용자를 식별하며 전체적으로 웹에서 일관된 웹 경험을 제공할 수 있습니다. 단일 URL을 사용하는 AdBox에서는 JavaScript나 [!DNL at.js].
 
-AdBox는 [!DNL at.js]이 없는 사이트(예: 계열사)에 유용합니다. 활동에 동적 크리에이티브가 필요한 경우(예를 들어 장바구니에서 중단된 광고에 제품을 표시해야 하는 경우) AdBox를 사용할 수 없습니다.
+AdBox는 없는 사이트에 유용합니다 [!DNL at.js]: 활동에 동적 크리에이티브가 필요한 경우(예를 들어 장바구니에서 중단된 광고에 제품을 표시해야 하는 경우) AdBox를 사용할 수 없습니다.
 
 AdBox 광고 및 리디렉터는 모든 종류의 활동에 사용할 수 있습니다. 다음 표에서는 AdBox 및 리디렉터의 특징과 각각을 사용하는 시점을 비교하여 설명합니다.
 

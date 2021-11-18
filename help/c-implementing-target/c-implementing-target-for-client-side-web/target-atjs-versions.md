@@ -4,10 +4,10 @@ description: 각 버전의 Adobe에서 변경 사항에 대한 세부 사항을 
 title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4278'
-ht-degree: 88%
+source-wordcount: '4280'
+ht-degree: 87%
 
 ---
 
@@ -435,7 +435,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 **날짜:** 2016년 7월 14일
 
 * 서비스의 자체 시간 제한 시간과는 별개인 방문자 ID 서비스에 대한 시간 제한을 at.js에 제공합니다.
-* 일부 페이지에서는 at.js를 사용하고 다른 페이지에서는 mbox.js를 사용하여 구현에 영향을 미치던 0.9.0의 문제를 수정합니다.
+* 일부 페이지에서는 at.js를 사용하고 다른 페이지에서는 mbox.js(이제 사용되지 않음)를 사용하여 구현에 영향을 미치던 0.9.0의 문제를 수정합니다.
 * Adobe Analytics를 활동의 보고 소스로 사용하는 경우, mbox.js 버전 61 이상 또는 at.js 버전 0.9.1 이상을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
 
 ## at.js 버전 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}

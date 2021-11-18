@@ -4,7 +4,7 @@ description: Adobe에서 수정 사항 패널을 사용하는 방법을 알아�
 title: 내 페이지를 어떻게 수정할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '2167'
 ht-degree: 91%
