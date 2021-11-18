@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 885510848b141b646971658e2fd20440d2344efc
+source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
-source-wordcount: '3017'
+source-wordcount: '3045'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 11월 18일 | [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | mbox 행이 mbox가에서 더 이상 지원되지 않는다는 내용의 참고가 추가되었습니다 [!UICONTROL 시각적 경험 작성기] at.js 2.*x*. |
 | 11월 16일 | [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | 링크가 있는 파일 업로드와 관련된 제한 사항에 대한 정보를 추가했습니다. [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) 에서 *Experience Cloud 중앙 인터페이스 구성 요소 안내서*. |
 |  | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Google Chrome SameSite 쿠키 적용 정책이 VEC 및 EEC에 어떻게 영향을 줍니까? 를 업데이트했습니다. 섹션 을 참조하십시오. |
 |  | [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | &quot;VEC Helper 브라우저 확장 프로그램 가져오기 및 설치&quot; 섹션이 업데이트되었습니다. |
