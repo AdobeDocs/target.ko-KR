@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 68%
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 * mboxTrace 또는 mboxDebug를 사용하여 [!DNL Target] 요청 문제를 해결합니다.
 * [!DNL Target] 요청의 문제를 해결하려면 mboxDebug와 거의 동일한 정보를 제공하고 사용하기 쉬운 도구인 Adobe Experience Cloud Debugger를 사용하십시오.
 
-mboxDebug는 특히 [!DNL Target] 페이지에서 Target 요청이 실행되고 쿠키가 설정되고 있는지 확인합니다. 그러나 콘텐츠 전달을 디버깅할 때 유용한 세부 정보로 이동하지는 않습니다. 사용자 활동이 페이지에 나타나지 않거나 원치 않는 콘텐츠가 나타나면 mboxTrace를 사용하여 페이지를 자세히 검사하고 디버깅하십시오.
+mboxDebug는 Target 요청이 실행되고 있고 쿠키가 설정되고 있는지 확인하도록 페이지에서 [!DNL Target]을 설정하는 경우에 특히 유용합니다. 그러나 콘텐츠 전달을 디버깅할 때 유용한 세부 정보로 이동하지는 않습니다. 사용자 활동이 페이지에 나타나지 않거나 원치 않는 콘텐츠가 나타나면 mboxTrace를 사용하여 페이지를 자세히 검사하고 디버깅하십시오.
 
 ## 디버깅 도구에 사용할 인증 토큰 검색 {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -29,7 +29,7 @@ mboxTrace 및 mboxDebug는 캠페인 데이터 및 프로필 데이터를 외부
 
 * 최소 [!UICONTROL 편집자] 권한(또는 [!UICONTROL 승인자])
 
-   . [!DNL Target Standard] 고객에 대한 자세한 내용은 사용자에서 [역할 및 권한 지정](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) 을 *참조하십시오*. [!DNL Target Premium] 고객에 대한 자세한 내용은 [기업 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)을 참조하십시오.
+   . [!DNL Target Standard] 고객에 대한 자세한 내용은 사용자에서 [역할 및 권한 지정](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 *참조하십시오*. [!DNL Target Premium] 고객에 대한 자세한 내용은 [기업 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md)을 참조하십시오.
 
 * 작업 영역/제품 프로필 수준에서 관리자 역할
 
@@ -50,7 +50,7 @@ mboxTrace 및 mboxDebug는 캠페인 데이터 및 프로필 데이터를 외부
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace 를 사용하여 [!DNL Target] 응답에 첨부된 추적 정보를 수신할 수 있습니다. 추적 정보는 [!DNL Target] 호출의 결과(예: 대화 또는 노출) 및 이 특정 결과가 발생한 이유를 확인하는 데 도움이 되는 추가 데이터(예: 캠페인에서 해당 선택 영역이 포함되는 사용 가능한 분기 세트)를 반영합니다. 이 정보를 사용하여 콘텐츠 전달을 디버깅하십시오.
+mboxTrace를 사용하여 [!DNL Target] 응답에 첨부된 추적 정보를 수신할 수 있습니다. 추적 정보는 [!DNL Target] 호출의 결과(예: 대화 또는 노출) 및 이 특정 결과가 발생한 이유를 확인하는 데 도움이 되는 추가 데이터(예: 캠페인에서 해당 선택 영역이 포함되는 사용 가능한 분기 세트)를 반영합니다. 이 정보를 사용하여 콘텐츠 전달을 디버깅하십시오.
 
 다음 매개 변수를 사용할 수 있습니다.
 
@@ -65,7 +65,7 @@ mboxTrace 를 사용하여 [!DNL Target] 응답에 첨부된 추적 정보를 �
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-출력에는 콘텐츠에 대한 자세한 정보가 표시됩니다. mboxTrace는 캠페인 또는 활동 및 프로필에 대한 세부 정보를 표시합니다. 또한 실행 전에 프로필의 스냅샷과 실행 후 변경된 사항에 대한 스냅숏도 제공됩니다. 그뿐 아니라 각 위치에 대해 평가된 캠페인 또는 활동도 표시합니다.
+출력에는 콘텐츠에 대한 자세한 정보가 표시됩니다. mboxTrace는 캠페인이나 활동 및 프로필에 대한 세부 정보를 표시합니다. 또한 실행 전에 프로필 스냅숏과 실행 후 변경된 사항에 대한 스냅숏도 제공합니다. 그뿐 아니라 각 위치에 대해 평가된 캠페인 또는 활동도 표시합니다.
 
 일부 정보에는 일치하거나 일치하지 않는 세그먼트 및 타겟 ID가 포함됩니다.
 
@@ -83,9 +83,9 @@ mboxTrace 를 사용하여 [!DNL Target] 응답에 첨부된 추적 정보를 �
 * 적용되는 제외 및 포함
 * 컬렉션 규칙
 
-쿼리 매개 변수에 `=console`, `=json` 또는 `=window` 는 포함할 필요가 없습니다. mboxTrace 세부 정보를 다 지정했으면 `=disable` 을 추가하고 **[!UICONTROL Enter]** 키를 눌러 일반 표시 모드로 돌아갑니다.
+쿼리 매개 변수에 `=console`, `=json` 또는 `=window` 는 포함할 필요가 없습니다. mboxTrace 세부 정보를 다 지정했으면 `=disable`을 추가하고 **[!UICONTROL Enter]** 키를 눌러 일반 표시 모드로 돌아갑니다.
 
-사이트의 일반적인 기능 및 모양은 mboxTrace의 영향을 받지 않습니다. 방문자는 일반적인 Recommendations 디자인을 봅니다.
+사이트의 일반적인 기능 및 모양은 mboxTrace의 영향을 받지 않습니다. 방문자는 일반 권장 사항 디자인을 봅니다.
 
 ## mboxDebug {#mboxdebug}
 
@@ -114,7 +114,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
+자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)를 참조하십시오.
 
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -130,13 +130,13 @@ Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
 ## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ( [!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
+사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
 
 ## 요소가 Adobe Experience Manager 개인화에도 속하면 Target 콘텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 DOM 요소가 Adobe Experience Manager(AEM) 개인화 타기팅 및 Target 활동의 일부인 경우 Target 콘텐츠가 깜박이거나 표시되지 않을 수 있습니다.
 
-이 상황을 해결하기 위해 Target이 실행 중인 페이지에서 AEM 개인화를 비활성화할 수 있습니다.
+이 상황을 해결하려면 Target이 실행 중인 페이지에서 AEM 개인화를 비활성화하면 됩니다.
 
 ## 잘못된 URL로 인해 리디렉션 및 원격 오퍼가 전달에 실패했습니다. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -148,45 +148,45 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타기팅 및 Target 활�
 
 원격 오퍼의 경우 [!DNL Target] 응답이 `/* invalid remote offer URL */`을 포함할 수 있습니다.
 
-브라우저에서 또는 mboxTrace를 사용하여 [!DNL Target] 응답을 확인할 수 있습니다. 올바른 URL에 대한 자세한 내용은 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66) 을 참조하십시오.
+브라우저에서 또는 mboxTrace를 사용하여 [!DNL Target] 응답을 확인할 수 있습니다. 올바른 URL에 대한 자세한 내용은 [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66)을 참조하십시오.
 
 ## [!DNL Target] 요청이 내 사이트에서 실행되지 않습니다.
 
 잘못된 doctype을 사용하는 경우 at.js에서 Target 요청을 실행하지 않습니다. at. s에는 HTML5 doctype이 필요합니다.
 
-## 확인 [!DNL Target] 활동은 쿼리 문자열 매개 변수를 사용하여 URL을 올바르게 처리합니다. {#query-strings}
+## [!DNL Target] 활동이 쿼리 문자열 매 개변수가 있는 URL을 올바르게 처리하는지 확인합니다. {#query-strings}
 
-다음 [!UICONTROL 활동 URL] 은 방문자를 활동에 자격을 부여하고 활동 경험을 사용자에게 렌더링하는 페이지를 결정합니다. 활동을 만들 때 메시지가 표시되면 전체 URL을 입력하면 해당 사이트 페이지에 콘텐츠가 전달될 수 있습니다. 특히 쿼리 문자열 매개 변수를 포함하는 URL이 있습니다.
+[!UICONTROL 활동 URL]은 방문자에게 활동 자격을 부여하고 활동 경험을 사용자에게 렌더링하는 페이지를 결정합니다. 활동을 만드는 동안 메시지가 표시되면 전체 URL을 입력해도 해당 사이트 페이지(특히 쿼리 문자열 매개 변수가 포함된 URL)에 콘텐츠가 항상 전달되는 것은 아닙니다.
 
-기본적으로 [!UICONTROL 시각적 경험 작성기] (VEC)에서는 [시각적 경험 작성기 설정](/help/administrating-target/visual-experience-composer-set-up.md). 활동을 만들 때 다른 페이지를 지정할 수도 있습니다.
+기본적으로 [!UICONTROL 시각적 경험 작성기](VEC)는 [시각적 경험 작성기 설정](/help/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만드는 동안 다른 페이지를 지정할 수도 있습니다.
 
-VEC가 열린 후 다른 페이지를 표시하려면 **[!UICONTROL 톱니바퀴 구성 아이콘]** > 선택 **[!UICONTROL 페이지 전달]** > 를 선택한 다음, [!UICONTROL 활동 URL] 필드.
+VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (톱니바퀴아이콘)]**&#x200B;을 클릭하고 > select **[!UICONTROL 페이지 전달]**&#x200B;을 선택한 다음 > [!UICONTROL 활동 URL] 필드에 원하는 URL을 지정합니다.
 
-![페이지 전달 설정 UI 구성](assets/configure-page-delivery.png)
+![페이지 전송 설정 UI 구성](assets/configure-page-delivery.png)
 
-그러나 URL에 쿼리 문자열 매개 변수가 포함되어 있으면 어떻게 합니까? 제대로 작동하며 개인화된 콘텐츠를 표시합니까? 이 시나리오에서는 타깃팅된 대상자와 관계없이 기본 URL 외에 템플릿 규칙을 포함하여 쿼리 매개 변수를 정의할 수 있습니다.
+하지만 URL에 쿼리 문자열 매개 변수가 포함되어 있으면 어떻게 됩니까? 작동하고 개인화된 콘텐츠를 표시합니까? 이 시나리오에서는 타기팅된 대상에 관계없이 기본 URL 외에 템플릿 규칙을 포함하여 쿼리 매개 변수를 정의할 수 있습니다.
 
 다음 옵션을 사용하여 추가 템플릿 규칙을 포함할 수 있습니다.
 
-### 옵션 1: URL을 복제하고 &quot;포함&quot; 옵션을 사용하여 템플릿 규칙에 유지합니다.
+### 옵션 1: URL을 복제하고 “포함” 옵션을 사용하여 템플릿 규칙에 URL을 유지합니다.
 
-이 옵션을 사용하면 이 URL이 활동 자격을 부여하지만, 이 URL에 기본 URL이 포함된 URL에 추가 레코드가 있는 보고 데이터에 영향을 줄 수 있는 코너 사례가 첨부되어 있습니다.
+이 옵션을 사용하면 이 URL이 활동에 적합하지만, 기본 URL이 포함된 URL에 대한 추가 레코드가 있는 보고 데이터에 영향을 줄 수 있는 특별한 경우가 첨부되어 있다는 점에 유의하십시오.
 
-이 시나리오에서는 URL이 `https://shopping.mycart.com?type=Summers%20Offers` 및 추가 템플릿 규칙 &quot;contains&quot; 동일한 URL을 OR 연산자로 구분하여 포함합니다.
+이 시나리오에서 URL은 `https://shopping.mycart.com?type=Summers%20Offers`이고 추가 템플릿 규칙은 OR 연산자로 구분된 동일한 URL을 “포함”합니다.
 
-![템플릿 규칙에서 URL 복제](assets/option1.png)
+![템플릿 규칙의 URL 복제](assets/option1.png)
 
-### 옵션 2: 쿼리 문자열만으로 URL &quot;포함&quot; 조건을 제한합니다.
+### 옵션 2: 쿼리 문자열만으로 URL “포함” 조건을 제한합니다.
 
-이전 옵션에서 설명한 코너 케이스는 이 옵션에서는 적용되지만, 조건부 설정은 쿼리 문자열으로만 제한됩니다.
+이 옵션에서는 앞의 옵션에서 설명한 특별한 경우가 적용되지만, 여기에서는 조건부 설정이 쿼리 문자열로만 제한됩니다.
 
-이 시나리오에서는 URL이 `https://shopping.mycart.com?type=Summers%20Offers` 및 추가 템플릿 규칙 &quot;포함&quot;은 OR 연산자로 구분된 쿼리 문자열만 포함합니다.
+이 시나리오에서 URL은 `https://shopping.mycart.com?type=Summers%20Offers`이고 추가 템플릿 규칙은 OR 연산자로 구분된 쿼리 문자열만 “포함”합니다.
 
-![템플릿 규칙에는 쿼리 문자열만 포함됩니다](assets/option2.png)
+![쿼리 문자열만 포함하는 템플릿 규칙](assets/option2.png)
 
-### 옵션 3: 전체 URL을 타깃팅하는 대신 URL의 특정 부분을 활용하십시오.
+### 옵션 3: 전체 URL을 타기팅하는 대신 URL의 특정 부분을 활용합니다.
 
-이 시나리오에서는 URL이 `https://shopping.mycart.com?type=Summers%20Offers` 및 추가 템플릿 규칙은 [!UICONTROL 쿼리] with [!UICONTROL 유형] > [!UICONTROL is(대/소문자 구분)] > type=Summers%20Offers, OR 연산자로 구분됩니다.
+이 시나리오에서 URL은 `https://shopping.mycart.com?type=Summers%20Offers`이고 추가 템플릿 규칙은 [!UICONTROL 유형] > [!UICONTROL 은(대소문자 구분)] > type=Summers%20Offers(OR 연산자로 구분)인 [!UICONTROL 쿼리]를 지정합니다.
 
 ![URL의 특정 부분을 활용하는 템플릿 규칙](assets/option3.png)
 

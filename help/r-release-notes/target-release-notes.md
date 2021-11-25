@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
 source-wordcount: '479'
-ht-degree: 46%
+ht-degree: 100%
 
 ---
 
@@ -27,35 +27,35 @@ ht-degree: 46%
 
 ## at.js 버전 2.7.0(2021년 10월 28일)
 
-이 릴리스에는 다음과 같은 향상된 기능이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
-* 에 대한 지원이 추가되었습니다 [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 이 at.js 버전은 사용자 지정 요소 및 사용자 지정 요소 내의 요소에 대해 개인화된 경험과 오퍼를 만들고 테스트하는 데 필요합니다. 이 기능은 [!DNL Target Standard/Premium] 21.10.5 릴리스.
+* [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components)에 대한 지원이 추가되었습니다. 이 버전의 at.js는 맞춤형 요소 및 맞춤형 요소 내부의 요소에 대한 개인화된 경험과 오퍼를 만들고 테스트하는 데 필요합니다. 이 기능은 [!DNL Target Standard/Premium] 21.10.5 릴리스에 포함되어 있습니다.
 
-## [!DNL Target Standard/Premium] 21.10.5(2021년 10월 28일)
+## [!DNL Target Standard/Premium] 21.10.5 (2021년 10월 28일)
 
-이 유지 관리 릴리스에는 다음과 같은 향상된 기능이 포함되어 있습니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| [!UICONTROL 시각적 경험 작성기] (VEC) | 에 대한 지원이 추가되었습니다 [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components). 개인화된 경험과 오퍼는 사용자 지정 요소 및 사용자 지정 요소 내의 요소에서 만들고 테스트할 수 있습니다.<br>자세한 내용은 [시각적 경험 작성기 선택 사항 을 참조하십시오](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
-
-## [!DNL Target Standard/Premium] 21.10.4(2021년 10월 21일)
-
-이 유지 관리 릴리스에는 다음과 같은 향상된 기능이 포함되어 있습니다.
+이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| 장바구니 기반 Recommendations | 방문자 장바구니의 컨텐츠를 기반으로 권장 사항을 제공하는 새로운 알고리즘 제품군을 추가했습니다.<br>자세한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md) 및 의 &quot;장바구니 추가/장바구니 보기/체크아웃 페이지&quot; 및 &quot;방문자의 장바구니에 이미 있는 항목 제외&quot;를 참조하십시오 [Recommendations 계획 및 구현](/help/c-recommendations/plan-implement.md). |
+| [!UICONTROL 시각적 경험 작성기] (VEC) | [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components)에 대한 지원이 추가되었습니다. 맞춤형 요소 및 맞춤형 요소 내부의 요소에 대해 개인화된 경험과 오퍼를 만들고 테스트할 수 있습니다.<br>자세한 내용은 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)을 참조하십시오. |
 
-## [!DNL Target Standard/Premium] 21.10.3(2021년 10월 19일)
+## [!DNL Target Standard/Premium] 21.10.4 (2021년 10월 21일)
+
+이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| 장바구니 기반 추천 | 방문자 장바구니의 콘텐츠를 기반으로 추천을 제공하는 새로운 알고리즘 제품군을 추가했습니다.<br>자세한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md)의 “장바구니 기반” 및 [추천 계획 및 구현](/help/c-recommendations/plan-implement.md)의 “장바구니 추가/장바구니 보기/체크아웃 페이지“와 “방문자의 장바구니에 이미 있는 항목 제외“를 참조하십시오. |
+
+## [!DNL Target Standard/Premium] 21.10.3 (2021년 10월 19일)
 
 이 유지 보수 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* 고객이 [!UICONTROL A4T] 패널 [!DNL Analysis Workspace] 다음을 클릭하여 [!UICONTROL Analytics에서 보기] 버튼 [!DNL Target] 활동 보고. (TGT-42099, TGT-42100)
-* 이(가) [!UICONTROL 디자인 편집] 편집하는 동안 표시되지 않는 단추 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 활동을 사용할 때 [!UICONTROL 양식 기반 경험 작성기]. (TGT-41980)
-* Adobe Social이 사용자 지정 브랜드 도메인을 인식하지 못하는 문제를 해결했습니다. [!UICONTROL 호환 가능] 새 항목을 만드는 동안 기준 선택에 표시되지 않는 확인란 [!UICONTROL Recommendations] 활동. (TGT-42053)
-* 선택할 수 없을 때 표시되는 잘못된 오류 메시지가 수정되었습니다 [!DNL Analytics] 를 보고 소스로 사용(A4T)할 필요는 없습니다 [!DNL Analytics] 사용 권한. (TGT-41954)
-* 여러 액세스 가능성 수정 사항을 구현하여 [!DNL Target] UI.
+* 고객이[!DNL Target] 활동 보고에서 [!UICONTROL Analytics에서 보기] 버튼을 클릭하여 [!DNL Analysis Workspace]에서 [!UICONTROL A4T] 패널을 열지 못하는 문제가 해결되었습니다. (TGT-42099, TGT-42100)
+* [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타기팅](XT) 활동을 [!UICONTROL 양식 기반 경험 작성기]를 사용하여 편집하는 동안 [!UICONTROL 디자인 편집] 버튼이 표시되지 않는 문제가 해결되었습니다. (TGT-41980)
+* 새로운 [!UICONTROL 추천] 활동을 생성하는 동안 [!UICONTROL 호환 가능] 확인란이 기준 선택에 표시되지 않는 문제가 해결되었습니다. (TGT-42053)
+* [!DNL Analytics] 권한이 없어 [!DNL Analytics]를 보고 소스(A4T)로 선택할 수 없을 때 표시되는 잘못된 오류 메시지가 수정되었습니다. (TGT-41954)
+* [!DNL Target] UI에서 키보드 탐색을 개선하기 위해 여러 접근성 수정 사항이 구현되었습니다.
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
 source-wordcount: '3045'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -24,16 +24,16 @@ ht-degree: 95%
 |  | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Google Chrome SameSite 쿠키 적용 정책이 VEC 및 EEC에 어떻게 영향을 줍니까? 를 업데이트했습니다. 섹션 을 참조하십시오. |
 |  | [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | &quot;VEC Helper 브라우저 확장 프로그램 가져오기 및 설치&quot; 섹션이 업데이트되었습니다. |
 | 11월 12일 | [통합 [!DNL Recommendations] 이메일 사용](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 새 소개 정보를 추가했습니다. |
-| 10월 28일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 다음 릴리스에 대한 정보를 추가했습니다.<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
+| 10월 28일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 다음 릴리스에 대한 정보가 추가되었습니다.<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.7.0 릴리스에 대한 정보가 추가되었습니다. |
-|  | [시각적 경험 작성기 옵션](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | 다음 섹션이 추가되었습니다. &quot;사용자 지정 요소 지원.&quot; |
-| 10월 27일 | [권장 사항 키](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)를 기반으로 권장 사항 만들기 | 장바구니 기반 권장 사항에 대한 정보가 추가되었습니다. |
+|  | [시각적 경험 작성기 옵션](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | “맞춤형 요소 지원” 섹션이 추가되었습니다. |
+| 10월 27일 | [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 장바구니 기반 추천에 대한 정보가 추가되었습니다. |
 | 10월 26일 | [CNAME 및 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 25일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.10.5 릴리스(2021년 10월 28일)에 대한 정보가 추가되었습니다. |
-| 10월 22일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 다음 섹션이 추가되었습니다.<ul><li>확인 [!DNL Target] 활동은 쿼리 문자열 매개 변수를 사용하여 URL을 올바르게 처리합니다</li></ul> |
-| 10월 21일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 11월 10일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2021년 12월 8일)</li></ul> |
+| 10월 22일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 다음 섹션이 추가되었습니다.<ul><li>[!DNL Target] 활동이 쿼리 문자열 매 개변수가 있는 URL을 올바르게 처리하는지 확인합니다.</li></ul> |
+| 10월 21일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 11월 10일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 12월 8일)</li></ul> |
 | 10월 20일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.4 릴리스(2021년 10월 21일)에 대한 정보가 추가되었습니다. |
-|  | [권장 사항 계획 및 구현](/help/c-recommendations/plan-implement.md) | 전체 주제가 업데이트되었습니다. |
+|  | [추천 계획 및 구현{](/help/c-recommendations/plan-implement.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 19일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.3 릴리스(2021년 10월 19일)에 대한 정보가 추가되었습니다. |
 | 10월 14일 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 다음 FAQ 추가: “[!UICONTROL 자동 할당] 활동의 최적화 목표로 적용된 세그먼트로 이항[!DNL Analytics] 지표를 사용할 수 있습니까?” |
 | 10월 13일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.2 | [!DNL Target Standard/Premium] 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
@@ -52,7 +52,7 @@ ht-degree: 95%
 |  | [평균 상승도, 상승도 한계 및 신뢰 구간](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | 상승도에 대한 신뢰 구간 계산 방법을 설명하는 PDF 파일이 추가되었습니다. |
 |  | [Enterprise 권한 구성](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | “5단계: `at_property` 매개 변수를 포함하도록 구현 업데이트”에서 `targetPageParams`가 `targetPageParamsAll`로 변경되었습니다. |
 | 9월 27일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break<ul><li>2021년 10월 13일 수요일</li><li>오전 8시 (PDT, UTC -7)</li></ul></li></ul> |
-| 9월 22일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 명확하지 않은 상황이 발생할 수 있으니 이를 방지하기 위해 코드 샘플에서 `$double` 를 `$Double` 로 변경합니다. |
+| 9월 22일 | [Velocity를 사용하여 디자인 사용자 지정](/help/c-recommendations/c-design-overview/customizing-a-template.md) | 명확하지 않은 상황이 발생할 수 있으니 이를 방지하기 위해 코드 샘플에서 `$double`를 `$Double` 로 변경합니다. |
 |  | [디자인 FAQ](/help/c-recommendations/c-design-overview/template-faq.md) | 다음 FAQ가 업데이트되었습니다.<ul><li>[!DNL Recommendations] 디자인에서 프로필 스크립트를 사용할 수 있습니까?</li></ul> |
 |  | [클릭 추적](/help/c-activities/r-success-metrics/click-tracking.md) | 다음 고려 사항이 추가되었습니다.<ul><li>클릭 추적 지표는 활동의 특정 환경에 연결되지 않습니다.</li><li>클릭 추적 지표 범위를 제한할 필요가 있는 경우 대상을 사용합니다.</li><li>여러 활동을 통해 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그렇다면 해당 활동 중 하나를 수행할 자격이 있는 방문자가 해당 선택기를 클릭하는 경우 자격이 부여된 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.</li></ul> |
 |  | [ [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | “ [!DNL Target] 확장 기능을 통한 at.js 구현의 이점” 섹션에 참고 사항이 추가되었습니다. |
@@ -95,7 +95,7 @@ ht-degree: 95%
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>EEC(고급 경험 작성기)는 PUT 요청을 지원하지 않습니다.</li></ul> |
 | 7월 27일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>권장 설명서</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>콘텐츠 전달</li></ul> |
-| 7월 26일 | *Adobe Experience Platform 웹 SDK 개요* 가이드에서 [플랫폼 웹 SDK로 Adobe Target 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko_KR) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform Web SDK 시스템 다이어그램</li></ul> |
+| 7월 26일 | *Adobe Experience Platform 웹 SDK 개요* 안내서에서 [플랫폼 웹 SDK로 Adobe Target 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko_KR) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform Web SDK 시스템 다이어그램</li></ul> |
 | 7월 23일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 자세한 내용을 제공하기 위해 다음 섹션을 업데이트했습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | “경험”에 “경험당 수정 사항”이라는 새로운 섹션이 추가되었습니다. |
 | 7월 21일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
@@ -151,7 +151,7 @@ ht-degree: 95%
 | 5월 12일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 다음에 프리릴리스 정보를 추가했습니다.<ul><li>Adobe Experience Platform Web SDK (2021년 5월 17일</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 5월 10일 | [[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | &quot; [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]에서 만들어진 알고리즘을 사용할 수 있습니까?&quot; FAQ를 추가했습니다 |
 |  | [ [!DNL Target] using [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) 구현 | [!DNL Adobe Dynamic Tag Manager] 는 더 이상 지원되지 않음을 나타냈습니다. 대신, [!DNL Adobe] 는 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)로 구현하는 것을 권장합니다. |
-| 5월 6일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>나의 [!UICONTROL Recommendations] 오퍼 활동, 오퍼, 프로모션, 또는 기준 설정의 구성 변경이 내 사이트에 반영되려면 얼마나 걸립니까?</li><li>사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 *사용자가 받는* Recommendations에 반영되려면 얼마나 걸립니까?</li><li>사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 *다른* 사용자가 받는 Recommendations에 반영되려면 얼마나 걸립니까?</li></ul> |
+| 5월 6일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>나의 [!UICONTROL Recommendations] 오퍼 활동, 오퍼, 프로모션 또는 기준 설정의 구성 변경이 내 사이트에 반영되려면 얼마나 걸립니까?</li><li>사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 *사용자가 받는* Recommendations에 반영되려면 얼마나 걸립니까?</li><li>사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 *다른* 사용자가 받는 Recommendations에 반영되려면 얼마나 걸립니까?</li></ul> |
 |  | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 다음과 같은 Adobe 기술 블로그의 블로그 게시물로 링크 추가됨:<ul><li>파트1: Edge 플랫폼(Akamai Edge Workers)에서 실험과 개인화에 대해 Adobe Target NodeJS SDK 실행하기</li></ul> |
 | 5월 5일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | Adobe Target 커뮤니티 Q&amp;A Coffee Break는 2021년 5월 12일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다. |
 | 4월 27일 | [쿠키 설정](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | at.js 버전 2.3.1 이상에서는 쿠키 지속 시간(`deviceIdLifetime` 설정)을 무시할 수 있다는 것을 나타내도록 항목이 업데이트되었습니다. |
