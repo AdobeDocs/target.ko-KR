@@ -5,9 +5,9 @@ title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '628'
-ht-degree: 84%
+ht-degree: 100%
 
 ---
 
@@ -18,26 +18,26 @@ ht-degree: 84%
 ## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2021년 11월 10일)
 
 * **2021년 11월 10일 수요일**
-* **오전 8시 (PST, UTC-8)**
+* **오전 8시(PST, UTC -8)**
 * **[추가 정보 및 등록 정보](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
 
-Cristinel &quot;Muti&quot; Anastasoaie, 제품 담당 수석 관리자 [!DNL Adobe Target]은(는) 그의 전문 분야에 관한 귀하의 질문에 답할 것입니다.
+[!DNL Adobe Target] 수석 제품 관리자인 Cristinel “Muti” Anastasoaie가 자신의 전문 지식을 바탕으로 관련 질문에 답변해 드립니다.
 
 * [!DNL Target] 사용자 인터페이스
 * [!DNL Target] 통합
-* [!UICONTROL Enterprise 권한] 및 [!UICONTROL 작업 공간]
+* [!UICONTROL Enterprise 권한] 및 [!UICONTROL 작업 영역]
 
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2021년 12월 8일)
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 12월 8일)
 
 * **2021년 12월 8일 수요일**
-* **오전 8시 (PST, UTC-8)**
+* **오전 8시(PST, UTC -8)**
 * **[추가 정보 및 등록 정보](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-12-8-21-8am-pt-robert-calangiu/td-p/426697)**
 
-Robert Calangui, 제품 담당 수석 관리자 [!DNL Adobe Target]은(는) 그의 전문 분야에 관한 귀하의 질문에 답할 것입니다.
+[!DNL Adobe Target] 수석 제품 관리자인 Robert Calangiu가 자신의 전문 지식을 바탕으로 관련 질문에 답변해 드립니다.
 
-* [!DNL Target] 설정 및 관리 UI
-* [!UICONTROL Target 분석] (A4T) 통합
-* [!DNL Adobe Audience Manager] (AEM) 통합
+* [!DNL Target] 설정 및 관리자 UI
+* [!UICONTROL Analytics for Target](A4T) 통합
+* [!DNL Adobe Audience Manager](AEM) 통합
 * 일반 [!DNL Target] UI
 
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
@@ -72,7 +72,7 @@ Adobe 및 HSBC의 다음 웨비나에 가입하십시오.
 
 ## [!DNL Adobe Target]이 받은 인정
 
-포레스터와 가트너는 최근 시장 선도자로 [!DNL Adobe Target] 을 선정했습니다.
+포레스터와 가트너는 최근 시장 선도자로 [!DNL Adobe Target]을 선정했습니다.
 
 | 검색 서비스 | 세부 사항 |
 | --- | --- |
