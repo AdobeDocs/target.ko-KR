@@ -524,6 +524,7 @@ Target at.js JavaScript 라이브러리의 다음 새 버전을 사용할 수 �
       [!DNL Search&Promote]를 사용하는 경우 바로 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)로 이동해야 합니다. . [!DNL Search&Promote] 내부에서 [!DNL Adobe Target] 에 도달하는 경로가 완전히 제거되었습니다.
 
    * 헤더의 알림 드롭다운에는 현재 [!DNL Target] 에 대한 [!UICONTROL 알림을] 사용할 수 없습니다.
+
    >[!NOTE]
    >
    >새 탐색 모음 롤아웃의 일부로 URL이 변경되는 것도 볼 수 있습니다. 이전에 책갈피로 표시된 모든 링크는 계속 작동하지만, 더 빨리 열 수 있도록 새 링크를 책갈피로 지정하는 것이 좋습니다.
@@ -586,6 +587,7 @@ Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔
       [!DNL Search&Promote]를 사용하는 경우 바로 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)로 이동해야 합니다. . [!DNL Search&Promote] 내부에서 [!DNL Adobe Target] 에 도달하는 경로가 완전히 제거되었습니다.
 
    * 헤더의 알림 드롭다운에는 현재 [!DNL Target] 에 대한 [!UICONTROL 알림을] 사용할 수 없습니다.
+
    >[!NOTE]
    >
    >이러한 기능은 한 번에 롤아웃되지 않으며 모든 고객에게 함께 롤아웃되지 않습니다. 다음 몇 주 동안 [!DNL Target Standard/Premium] 19.10.1(2019년 10월 22일) 릴리스를 시작으로 이러한 기능을 롤아웃할 예정입니다.
