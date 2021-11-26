@@ -19,15 +19,15 @@ ht-degree: 100%
 
 [!DNL Target] 은 [!DNL Experience Platform Web SDK] 또는 JavaScript 라이브러리를 사용하여 웹 사이트와 통합합니다.
 
-* **Adobe Experience Platform Web SDK:** [Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 는 새로운 클라이언트측 JavaScript 라이브러리입니다. Experience Platform Web SDK는 [!DNL Adobe Experience Cloud] 의 고객이 Edge Network를 통해 [!DNL Experience Cloud] ( [!DNL Target]포함)의 다양한 서비스와 [!DNL Experience Platform] 상호 작용할 수 있도록 합니다. Adobe는 모든 신규 [!DNL Target] 고객에게 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
+* **Adobe Experience Platform Web SDK:** [Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) 는 새로운 클라이언트측 JavaScript 라이브러리입니다. Experience Platform Web SDK는 [!DNL Adobe Experience Cloud]의 고객이 Edge Network를 통해 [!DNL Experience Cloud]([!DNL Target] 포함)의 다양한 서비스와 [!DNL Experience Platform] 상호 작용할 수 있도록 합니다. Adobe는 모든 신규 [!DNL Target] 고객에게 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
 * **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)으로 구현을 업데이트할 것을 권장합니다.
 * **mbox.js:** mbox.js 라이브러리는 [!DNL Target]의 레거시 구현 라이브러리입니다. mbox.js 라이브러리는 2021년 3월 31일부터 더 이상 지원되지 않습니다.
 
-사이트의 모든 페이지에서 [!DNL Experience Platform Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) 를 사용하여 [!DNL Target]을 구현하는 방법도 고려해 볼 수 있습니다.
+사이트의 모든 페이지에서 [!DNL Experience Platform Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) 를 사용하여 [!DNL Target]을 구현하는 방법도 고려해 볼 수 있습니다.
 
 다음 리소스에는 Experience Platform Web SDK 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [Adobe Experience Platform Web SDK 확장 기능](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=en)
+* [Adobe Experience Platform Web SDK 확장 기능](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ko-KR)
 * [Adobe Experience Platform을 사용하여 [!DNL Target] 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 타기팅 시스템으로 요청이 전송됩니다. 요청은 방문자에게 제공할 콘텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 발생합니다. 페이지가 로드될 때마다 콘텐츠 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타기팅합니다. 각 사이트 방문자가 응답하거나, 상호 작용하거나, 궁극적으로는 구매할 가능성이 가장 높은 콘텐츠가 제공됩니다. 개인화된 콘텐츠를 통해 응답률, 확보율 및 매출을 극대화할 수 있습니다.
@@ -51,7 +51,7 @@ ht-degree: 100%
 
 ### [!UICONTROL 자동 할당]
 
-[!UICONTROL 자동 할당] 은 둘 이상의 경험 중 우수성이 검증된 경험을 식별합니다. [!UICONTROL 자동 할당] 은 더 많은 트래픽을 자동으로 우수성이 검증된 경험에 재할당하여 테스트를 계속 실행하고 학습하는 동안 전환을 늘리는 데 도움이 됩니다.
+[!UICONTROL 자동 할당]은 둘 이상의 경험 중 우수성이 검증된 경험을 식별합니다. [!UICONTROL 자동 할당]은 더 많은 트래픽을 자동으로 우수성이 검증된 경험에 재할당하여 테스트를 계속 실행하고 학습하는 동안 전환을 늘리는 데 도움이 됩니다.
 
 자세한 내용은 [[!UICONTROL 자동 할당]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 을 참조하십시오.
 
