@@ -5,9 +5,9 @@ title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 �
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4504'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 97%
 
 ### A4T를 이용한 자동 할당 활동의 트래픽 분포 {#aa-a4t}
 
-경우에 따라 [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 할당] 활동의 트래픽 분포가 각 경험의 보고된 전환율에 따라 발생해야 하는 것과 다를 수 있습니다. 이는 재방문자 트래픽 비율이 높은 활동에서 더 자주 발생합니다. 영향을 받는 고객은 영향을 받는 활동에 대해 알림을 받습니다.
+경우에 따라 [!UICONTROL Analytics for Target] (A4T) 을 사용하는 [!UICONTROL 자동 할당] 활동의 트래픽 분포가 각 경험의 보고된 전환율에 따라 발생해야 하는 것과 다를 수 있습니다. 이는 재방문자 트래픽 비율이 높은 활동에서 더 자주 발생합니다. 영향을 받는 고객은 영향을 받는 활동에 대해 알림을 받습니다.
 
 이 문제가 해결될 때까지 표준 [!DNL Target] 보고로 [!UICONTROL 자동 할당] 을 사용하거나 [!DNL Analytics] 보고로 [!UICONTROL 자동 할당] 을 사용하는 대신 [!DNL Analytics] 보고로 표준 A/B 테스트를 사용합니다. (TOP-131)
 
@@ -139,7 +139,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 ### [!DNL Target] (A4T) 에 대한 Analytics
 
-Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko-KR)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
+Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
 
 현재 모든 Analytics 패키지는 속성 IQ를 사용하여 이 모델을 추가할 수 있습니다. 속성 IQ에 액세스할 수 없는 경우 Reports &amp; Analytics의 A4T 데이터를 사용하십시오.
 
@@ -147,7 +147,7 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
 고객은 Adobe I/O에서 A/B 활동 API의 v3 버전을 통해 자동 할당 활동에 대한 CRUD 작업을 수행할 수 없습니다.
 
-### GEO 타겟 지정
+### 지역 타기팅
 
 2020년 5월 10일 Adobe는 GEO 공급자 파일을 업데이트했고, 그로 인해 일부 불일치가 발생했습니다. 예를 들어 쉼표를 포함하는 일부 값이 추가되었지만 기존 대상에는 쉼표가 없습니다. 모든 Adobe 전달 서버가 이 변경의 영향을 받는 것은 아닙니다. 그 결과, 이러한 값을 사용하는 대상은 2020년 5월 10일에서 7월 22일 사이에 모든 올바른 방문자가 자격을 얻지 못했을 수 있습니다.
 
@@ -244,9 +244,9 @@ A4T 와 관련된 다음과 같은 문제가 해결되었습니다.
 
 구현 탭([!UICONTROL 설정 > 구현])에서 [!UICONTROL 글로벌 Mbox 자동으로 만들기] 필드는 새로 제공된 테넌트에 대해 기본적으로 &quot;false&quot;입니다.
 
-프로비저닝 후 처음으로 at.js를 다운로드하면 [!UICONTROL 글로벌 Mbox 자동으로 만들기] 다운로드한 at.js 파일 및 [!DNL Target] 백엔드에 하지만 에서는 여전히 &quot;false&quot;로 표시됩니다 [!UICONTROL 구현] 페이지를 새로 고칠 때까지 UI에서 페이지를 설정합니다(페이지를 새로 고친 후 상태는 &quot;true&quot;입니다).
+프로비저닝 후 처음으로 at.js가 다운로드되면 다운로드된 at.js 파일 및 [!UICONTROL 백엔드에서] 글로벌 Mbox를 자동으로 만들기 [!DNL Target] 필드가 &quot;true&quot;로 설정되지만, UI의 [!UICONTROL 구현] 페이지에는 페이지를 새로 고칠 때까지 계속 &quot;false&quot;로 표시됩니다(페이지를 새로 고친 후 상태는 &quot;true&quot;로 표시됨).
 
-at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false` 로 다운로드됩니다. mbox.js(이제 더 이상 사용되지 않음)를 처음 다운로드하면 global\_mbox\_autocreate가 &quot;true&quot;로 설정되고 at.js도 `global_mbox_autocreate = true`. (TGT-15929)
+at.js는 새로 제공된 임차인에 대해 `global_mbox_autocreate = false` 로 다운로드됩니다. mbox.js(사용 중단됨)를 처음 다운로드하면 global\_mbox\_autocreate가 &quot;true&quot;로 설정되고 at.js도 `global_mbox_autocreate = true`로 다운로드되었습니다. (TGT-15929)
 
 ### [!DNL Target] API의 엔터프라이즈 권한 지원 {#api}
 
@@ -440,7 +440,7 @@ Target 17.4.1 릴리스(2017년 4월 27일)에서 수정되었습니다.
 
 ### at.js {#at-js-7}
 
-사용자가 at.js 설정을 업데이트한 후 구현 세부 사항 페이지에서 at.js를 다운로드하려고 하면 at.js 대신 가 다운로드됩니다. (TGT-23069)
+사용자가 at.js 설정을 업데이트한 후 구현 세부 사항 페이지에서 at.js를 다운로드하려고 하면 at.js 대신 다운로드됩니다. (TGT-23069)
 
 Target 17.3.1 릴리스(2017년 3월 30일)에서 수정되었습니다.
 
@@ -450,7 +450,7 @@ Target 17.3.1 릴리스(2017년 3월 30일)에서 수정되었습니다.
 
 Recommendations 17.2.2.0 릴리스(2017년 3월 6일)에서 수정되었습니다.
 
-### Adobe Target(A4T) 보고에 대한 Analytics
+### Adobe Target (A4T) 보고에 대한 Analytics
 
 보고 지표가 전환되면 보고서가 업데이트되지 않습니다. 이 문제는 UI에만 영향을 줍니다. 보고 데이터 수집 또는 전달에는 영향을 미치지 않습니다. (TGT-22970)
 
