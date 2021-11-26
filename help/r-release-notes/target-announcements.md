@@ -36,8 +36,8 @@ ht-degree: 100%
 [!DNL Adobe Target] 수석 제품 관리자인 Robert Calangiu가 자신의 전문 지식을 바탕으로 관련 질문에 답변해 드립니다.
 
 * [!DNL Target] 설정 및 관리자 UI
-* [!UICONTROL Analytics for Target](A4T) 통합
-* [!DNL Adobe Audience Manager](AEM) 통합
+* [!UICONTROL Analytics for Target] (A4T) 통합
+* [!DNL Adobe Audience Manager] (AEM) 통합
 * 일반 [!DNL Target] UI
 
 ## 웨비나: Adobe Target의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
