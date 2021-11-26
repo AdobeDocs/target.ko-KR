@@ -5,8 +5,8 @@ title: ' [!DNL Target]  Recommendations에 대한 질문과 대답은 어디에�
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
-source-wordcount: '3129'
+workflow-type: ht
+source-wordcount: '3128'
 ht-degree: 100%
 
 ---
