@@ -4,9 +4,9 @@ description: 동적 데이터를에 전달하는 방법을 알아봅니다. [!DN
 title: 오퍼에 동적 데이터를 전달하려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 63%
 
 ---
@@ -81,4 +81,4 @@ mbox로 전달된 프로필 매개 변수의 경우 구문을 사용합니다.
 
 오퍼 컨텐츠에 사용된 오퍼 매개 변수(offer.name, offer.id)의 경우:
 
-해당 오퍼가 경험에 대한 여러 세트 중 하나인 경우, 마지막으로 추가된 오퍼의 값이 매개 변수의 값을 채웁니다. 이것은 이러한 매개 변수가 경험 수준에서 평가됨을 의미합니다.
+해당 오퍼가 경험에 설정된 여러 오퍼 중 하나인 경우, 마지막으로 추가된 오퍼의 값이 매개 변수의 값을 채웁니다. 이것은 이러한 매개 변수가 경험 수준에서 평가됨을 의미합니다.
