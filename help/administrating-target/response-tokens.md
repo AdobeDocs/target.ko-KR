@@ -5,9 +5,9 @@ title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1620'
+source-wordcount: '1631'
 ht-degree: 25%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 25%
 
    ![](assets/response_tokens-new.png)
 
-1. 다음과 같이 원하는 응답 토큰을 활성화합니다 `activity.id` 및 `option.id`.
+1. 다음과 같이 원하는 응답 토큰을 활성화합니다 `activity.id` 및 `offer.id`.
 
    기본적으로 다음 매개 변수를 사용할 수 있습니다.
 
@@ -435,8 +435,8 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 >[!NOTE]
 >
 >다음 [!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전 [!UICONTROL 설정])은 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 재설계되었습니다. 다음 비디오의 정보가 올바릅니다. 그러나 옵션은 약간 다른 위치에 있습니다.
+>
+>비디오에 대한 언급 `option.name` 및 `option.id`: `offer.name` 및 `offer.id`각각 입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
