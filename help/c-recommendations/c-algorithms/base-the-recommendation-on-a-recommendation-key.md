@@ -5,9 +5,9 @@ title: 권장 사항 키를 기반으로 권장 사항을 제공하려면 어떻
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
 workflow-type: tm+mt
-source-wordcount: '3894'
+source-wordcount: '3937'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ ht-degree: 40%
 
 ### Analytics 지표별 상위
 
-(정보 준비 중)
+x가 임의의 경우 &quot;상위 x&quot;를 표시합니다. [!DNL Analytics] 지표. mbox에서 동작 데이터를 사용할 때는 최상위 판매 또는 최상위 조회(x = &quot;Sold&quot; 또는 x = &quot;Viewed&quot;)만 사용할 수 있습니다. 에서 동작 데이터를 사용하는 경우 [!DNL Adobe Analytics], x = &quot;장바구니 추가&quot; 또는 기타 일부 를 사용할 수 있습니다 [!DNL Analytics] 지표.
 
 ## [!UICONTROL 항목 기반]
 
