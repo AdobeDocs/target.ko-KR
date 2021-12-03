@@ -35,15 +35,15 @@ ht-degree: 100%
 
 지원되는 목표 지표와 지원되지 않는 목표 지표의 목록은 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. (TNT-38409)
 
-### EEC(고급 경험 작성기)는 PUT 요청을 지원하지 않습니다.
+### EEC(고급 경험 작성기)가 PUT 요청을 지원하지 않습니다.
 
 현재 EEC의 문제로 인해 PUT 요청을 지원하지 못하고 504 시간 초과 오류가 발생합니다. (TGT-41493)
 
-### [!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.
+### [!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.
 
-[!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타켓] (AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
+[!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타켓] (AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
 
-### [!UICONTROL 자동 타겟] 활동은 동기화 문제를 일으킬 수 있습니다
+### [!UICONTROL 자동 타겟] 활동이 동기화 문제를 일으킬 수 있습니다.
 
 비활성 [!UICONTROL 자동 타겟] 활동을 보관하려는 시도는 동기화 문제를 일으킬 수 있습니다. 이 문제가 수정되기 전까지 [!UICONTROL 자동 타겟] 활동을 보관하지 마십시오. [!UICONTROL 비활성] 상태로 두십시오. (TGT-40885)
 
