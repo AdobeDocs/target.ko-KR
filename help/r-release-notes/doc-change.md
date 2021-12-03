@@ -21,7 +21,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 12월 2일 | [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 권장 사항 키가 mbox 매개 변수 cartIds를 쉼표로 구분된 값으로 통해 제공되도록 장바구니 기반 알고리즘을 업데이트했습니다. 처음 10개의 값만 고려됩니다. |
 | 11월 18일 | [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | at.js 2를 사용하는 페이지의 [!UICONTROL 시각적 경험 작성기](VEC)에서 mbox가 더 이상 지원되지 않음을 나타내는 참고 사항이 Mbox 행에 추가되었습니다.*x*. |
-| 11월 16일 | [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | *Experience Cloud 중앙 인터페이스 구성 요소 안내서*&#x200B;의 [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) 링크에 파일 업로드와 관련된 제한 사항에 대한 정보가 추가되었습니다. |
+| 11월 16일 | [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | *Experience Cloud 중앙 인터페이스 구성 요소 안내서*&#x200B;의 [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ko-KR) 링크에 파일 업로드와 관련된 제한 사항에 대한 정보가 추가되었습니다. |
 |  | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | “Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?” 섹션이 최신 버전의 Helper 확장 프로그램에 대한 정보로 업데이트되었습니다. |
 |  | [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | “VEC Helper 브라우저 확장 프로그램 가져오기 및 설치” 섹션이 업데이트되었습니다. |
 | 11월 12일 | [ [!DNL Recommendations] 를 이메일과 통합](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | 소개 정보가 추가되었습니다. |
@@ -31,7 +31,7 @@ ht-degree: 99%
 | 10월 27일 | [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 장바구니 기반 추천에 대한 정보가 추가되었습니다. |
 | 10월 26일 | [CNAME 및 [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 25일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.10.5 릴리스(2021년 10월 28일)에 대한 정보가 추가되었습니다. |
-| 10월 22일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 다음 섹션이 추가되었습니다.<ul><li>[!DNL Target] 활동이 쿼리 문자열 매 개변수가 있는 URL을 올바르게 처리하는지 확인합니다.</li></ul> |
+| 10월 22일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 다음 섹션이 추가되었습니다.<ul><li>[!DNL Target] 활동이 쿼리 문자열 매개 변수가 있는 URL을 올바르게 처리하는지 확인합니다.</li></ul> |
 | 10월 21일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 11월 10일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 12월 8일)</li></ul> |
 | 10월 20일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.4 릴리스(2021년 10월 21일)에 대한 정보가 추가되었습니다. |
 |  | [추천 계획 및 구현{](/help/c-recommendations/plan-implement.md) | 전체 주제가 업데이트되었습니다. |
@@ -93,7 +93,7 @@ ht-degree: 99%
 | 7월 30일 | [제한](/help/r-troubleshooting-target/target-limits.md) | 다음 섹션이 업데이트되었습니다.<ul><li>entity.id</li><li>productPurchasedId 매개 변수</li></ul> |
 | 7월 29일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break: 2021년 8월 11일 수요일에 대한 정보가 추가되었습니다. |
 |  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 글로벌 mbox를 사용자 맞춤화한 후 VEC에서 생성된 영향을 받는 활동을 편집하고 다시 저장해야 함을 나타내기 위해 중요 참고 사항이 업데이트되었습니다. |
-|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>EEC(고급 경험 작성기)는 PUT 요청을 지원하지 않습니다.</li></ul> |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>EEC(고급 경험 작성기)가 PUT 요청을 지원하지 않습니다.</li></ul> |
 | 7월 27일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>권장 설명서</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>콘텐츠 전달</li></ul> |
 | 7월 26일 | *Adobe Experience Platform 웹 SDK 개요* 안내서에서 [플랫폼 웹 SDK로 Adobe Target 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko_KR) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform Web SDK 시스템 다이어그램</li></ul> |
@@ -127,7 +127,7 @@ ht-degree: 99%
 |  | [개인화 통찰력 보고서](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] 모델에 대한 데이터는 얼마나 지속됩니까?</li></ul> |
 | 6월 8일 | [at.js로 타겟 (A4T) 에 대한 분석을 구현하기 전](/help/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상의 버전은 [!DNL Adobe Audience Manager] (AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않는 점을 참고하십시오. |
 |  | [환경](/help/administrating-target/environments.md) | [!UICONTROL 활성 및 비활성 활동]을 지정하는 경우, 이 환경에서의 호스트도 비활성 활동을 표시하는 점을 참고하십시오. |
-|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform] 세그먼트 이름은 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.</li></ul> |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.</li></ul> |
 | 6월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.5.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1(2021년 4월 19일)
@@ -144,7 +144,7 @@ ht-degree: 99%
 |  | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Adobe Experience Platform Web SDK 2.5.0(2021년 6월 1일) 릴리스에 대해 추가된 정보입니다. |
 | 5월 27일 | [제한](/help/r-troubleshooting-target/target-limits.md) | [!DNL Target] API 호출에 대해 추가된 섹션입니다. 제한은 분당 50회 호출입니다. |
 | 5월 20일 | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 다음과 같은 Adobe 기술 블로그의 블로그 게시물로 링크 추가됨:<ul><li>Adobe 기술 블로그 - 파트2: Edge 플랫폼(AWS Lambda@Edge)에서 실험과 개인화에 대해 [!DNL Adobe Target] NodeJS SDK 실행하기</li></ul> |
-|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다. &quot; [!UICONTROL 자동 타겟] 활동은 동기화 문제를 일으킬 수 있습니다.&quot; |
+|  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다. &quot; [!UICONTROL 자동 타겟] 활동이 동기화 문제를 일으킬 수 있습니다.&quot; |
 | 5월 17일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | at.js2.5.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [활동 QA](/help/c-activities/c-activity-qa/activity-qa.md) | at.js 2.5.0 버전(이후 버전 포함)의 [!UICONTROL Automated Personalization] (AP) 활동에 대해 이용할 수 있는 프리뷰 링크를 나타내는 업데이트된 항목입니다. |
 |  | [지원되는 브라우저](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | at.js 2.5.0 릴리스에서는 Microsoft Internet Explorer 10, Internet Explorer 11, 그리고 그 이하 버전에 대한 지원이 제거되었음을 나타냈습니다. Microsoft Edge는 at.js 2.5.0과 이후 버전에서 지속 지원됩니다. |
