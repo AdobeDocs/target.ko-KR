@@ -5,9 +5,9 @@ title: 콘텐츠 전달 문제를 해결하려면 어떻게 합니까?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ mboxTrace를 사용하여 [!DNL Target] 응답에 첨부된 추적 정보를 수
 
 | mboxTrace 옵션 | 결과 |
 |--- |--- |
-| `?mboxTrace=console` | 콘솔 로그에 개체로 출력합니다.<br>at.js의 경우 mbox.js의 경우처럼 새 브라우저 창을 팝업하거나 콘솔에 출력하지 않고, 네트워크 요청을 조사한 후 Preview(Chrome) 또는 Response(Firefox)에서 확인해야 합니다. |
+| `?mboxTrace=console` | 콘솔 로그에 개체로 출력합니다.<br>at.js의 경우 mbox.js(사용 중단됨)의 경우처럼 새 브라우저 창을 팝업하거나 콘솔에 출력하지 않고, 네트워크 요청을 조사한 후 Preview(Chrome) 또는 Response(Firefox)에서 확인해야 합니다. |
 | `?mboxTrace=json` | 콘솔 로그에 리터럴 JSON 문자열로 출력합니다. |
 | `?mboxTrace=window` | 팝업 창에 JSON 문자열로 출력합니다. |
 | `?mboxTrace=disable` | 추적 세션 모드를 해제합니다. |
@@ -154,7 +154,7 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타기팅 및 Target 활�
 
 잘못된 doctype을 사용하는 경우 at.js에서 Target 요청을 실행하지 않습니다. at. s에는 HTML5 doctype이 필요합니다.
 
-## [!DNL Target] 활동이 쿼리 문자열 매 개변수가 있는 URL을 올바르게 처리하는지 확인합니다. {#query-strings}
+## [!DNL Target] 활동이 쿼리 문자열 매개 변수가 있는 URL을 올바르게 처리하는지 확인합니다. {#query-strings}
 
 [!UICONTROL 활동 URL]은 방문자에게 활동 자격을 부여하고 활동 경험을 사용자에게 렌더링하는 페이지를 결정합니다. 활동을 만드는 동안 메시지가 표시되면 전체 URL을 입력해도 해당 사이트 페이지(특히 쿼리 문자열 매개 변수가 포함된 URL)에 콘텐츠가 항상 전달되는 것은 아닙니다.
 
