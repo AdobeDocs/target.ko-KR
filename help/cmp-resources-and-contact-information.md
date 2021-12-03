@@ -5,9 +5,9 @@ title: Target에 대한 리소스 및 연락처 정보는 어디에서 찾을 �
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -46,9 +46,9 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 |--- |--- |
 | [at.js 팁 및 개요](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019년 6월 26일 | 배울 내용:<ul><li>at.js 사용의 이점</li><li>at.js 설정</li><li>플리커 처리</li><li>at.js 디버깅</li><li>알려진 문제</li><li>FAQ</li></ul>자세한 내용은 [at.js 작동 방식](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)을 참조하십시오. |
 | [Target Premium 작업 영역](https://helpx.adobe.com/kr/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018년 9월 4일 | 배울 내용:<ul><li>작업 영역(제품 프로필) 만들기</li><li>속성 만들기</li><li>사용자 추가</li><li>구현 업데이트</li></ul>자세한 내용은 [엔터프라이즈 사용자 권한](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하십시오. |
-| [시각적 경험 작성기(VEC)](https://helpx.adobe.com/kr/customer-care-office-hours/target/premium-workspaces.html)<br>50:23<br>2017년 12월 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/c-experiences/experiences.md). |
+| [시각적 경험 작성기(VEC)](https://helpx.adobe.com/kr/customer-care-office-hours/target/premium-workspaces.html)<br>50:23<br>2017년 12월 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/c-experiences/experiences.md)을 참조하십시오. |
 | [Adobe Target: Analytics/Target 통합(A4T)](https://helpx.adobe.com/kr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018년 1월 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |
-| [at.js: 장점 및 구현 모범 사례](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>더 이상 사용되지 않는 mbox.js에 대한 at.js의 이점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul> |
+| [at.js: 장점 및 구현 모범 사례](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>2018년 4월 | 배울 내용: <ul><li>at.js 라이브러리 작동 방식</li><li>더 이상 사용되지 않는 mbox.js에 비해 at.js의 장점</li><li>at.js에서 플리커를 관리하는 방법</li><li>at.js의 오류 처리</li><li>디버깅 방법론</li><li>알려진 문제 및 향후 로드맵</li></ul> |
 
 >[!NOTE]
 >
@@ -108,7 +108,7 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 예정된 제품 향상에 대한 미리 알림을 받으려면 Adobe 우선 순위 제품 업데이트에 등록하십시오.
 
-[Adobe 우선순위 제품 업데이트](https://www.adobe.com/subscription/priority-product-update.html)
+[Adobe 우선순위 제품 업데이트](https://www.adobe.com/kr/subscription/priority-product-update.html)
 
 ### 서비스, 성능 및 과금 {#section_FA4F5274FDFE4DF7BB079E575877DFC2}
 
@@ -123,8 +123,8 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 * © 2021 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use_kr) | [Privacy Center](https://www.adobe.com/privacy.html)
+[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use_kr) | [Privacy Center](https://www.adobe.com/kr/privacy.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
-All third-party trademarks are the property of their respective owners. 업데이트된 정보/추가 서드파티 코드 정보는 [https://www.adobe.com/go/thirdparty_kr](https://www.adobe.com/products/eula/third_party/)를 참조하십시오.
+All third-party trademarks are the property of their respective owners. 업데이트된 정보/추가 서드파티 코드 정보는 [https://www.adobe.com/go/thirdparty_kr](https://www.adobe.com/kr/products/eula/third_party/)를 참조하십시오.
