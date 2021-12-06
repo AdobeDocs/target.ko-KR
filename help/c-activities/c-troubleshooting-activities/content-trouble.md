@@ -158,7 +158,7 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타기팅 및 Target 활�
 
 [!UICONTROL 활동 URL]은 방문자에게 활동 자격을 부여하고 활동 경험을 사용자에게 렌더링하는 페이지를 결정합니다. 활동을 만드는 동안 메시지가 표시되면 전체 URL을 입력해도 해당 사이트 페이지(특히 쿼리 문자열 매개 변수가 포함된 URL)에 콘텐츠가 항상 전달되는 것은 아닙니다.
 
-기본적으로 [!UICONTROL 시각적 경험 작성기](VEC)는 [시각적 경험 작성기 설정](/help/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만드는 동안 다른 페이지를 지정할 수도 있습니다.
+기본적으로 [!UICONTROL 시각적 경험 작성기] (VEC)는 [시각적 경험 작성기 설정](/help/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만드는 동안 다른 페이지를 지정할 수도 있습니다.
 
 VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (톱니바퀴아이콘)]**&#x200B;을 클릭하고 > select **[!UICONTROL 페이지 전달]**&#x200B;을 선택한 다음 > [!UICONTROL 활동 URL] 필드에 원하는 URL을 지정합니다.
 
