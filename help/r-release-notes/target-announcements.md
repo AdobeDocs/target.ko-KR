@@ -4,28 +4,16 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Target 알림 및 이벤트
 
 [!DNL Adobe Target] 스킬 빌더 세션, 개발자 채팅, 웨비나, 그리고 [!DNL Target] Coffee Break 세션을 포함하여 예정된 이벤트에 대한 공지와 정보입니다.
-
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2021년 11월 10일)
-
-* **2021년 11월 10일 수요일**
-* **오전 8시(PST, UTC -8)**
-* **[추가 정보 및 등록 정보](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
-
-[!DNL Adobe Target] 수석 제품 관리자인 Cristinel “Muti” Anastasoaie가 자신의 전문 지식을 바탕으로 관련 질문에 답변해 드립니다.
-
-* [!DNL Target] 사용자 인터페이스
-* [!DNL Target] 통합
-* [!UICONTROL Enterprise 권한] 및 [!UICONTROL 작업 영역]
 
 ## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 12월 8일)
 
