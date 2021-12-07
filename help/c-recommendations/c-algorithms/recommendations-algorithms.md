@@ -1,17 +1,17 @@
 ---
 keywords: 권장 사항 알고리즘;모델 교육;모델 제공;컨텐츠 전달;항목 기반;사용자 기반;인기도 기반;장바구니 기반;사용자 지정 기준
 description: 에 사용되는 알고리즘에 대해 알아봅니다. [!DNL Target Recommendations]모델 교육 및 모델 제공 등
-title: Recommendations 알고리즘 이면의 과학에 대해 알려면 어디에서 배울 수 있습니까?
+title: Target의 Recommendations 알고리즘 이면의 과학에 대해 알려면 어떻게 해야 합니까?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations 알고리즘 이면의 과학
+# ![PREMIUM](/help/assets/premium.png) Target의 추천 알고리즘 이면의 과학
 
 에 사용되는 알고리즘에 대한 심층적인 설명 [!DNL Adobe Target Recommendations]모델 교육의 논리 및 수학 세부 정보와 모델 제공 프로세스를 포함합니다.
 
@@ -106,7 +106,7 @@ ht-degree: 0%
 
       모든 N x N 항목 간의 컴퓨팅 유사성이 크게 복잡하지 않게 하려면 *tf-idf* 벡터는 가장 큰 500개의 항목만 포함하도록 잘리며 이렇게 잘린 벡터 표현을 사용하여 항목 간의 코사인 유사성을 계산합니다. 이 접근 방식은 지역 구분 해싱과 같은 다른 가까운 ANN(근사 근사 이웃) 기술에 비해 스파스 벡터 유사성 계산에 더 강력합니다.
 
-* **모델 제공**: 이 프로세스는 이전 섹션에서 설명하는 항목 간 협업 필터링 기법과 동일합니다.
+   * **모델 제공**: 이 프로세스는 이전 섹션에서 설명하는 항목 간 협업 필터링 기법과 동일합니다.
 
 ## 다중 키 권장 사항
 
@@ -137,7 +137,7 @@ ht-degree: 0%
 
    ![수식](assets/formula4.png)
 
-   * **항목 유사성 모델 평가**: 모델 평가는 이전 단계에서 생성된 추천을 받아 테스트 데이터 세트에 대해 예측하여 수행됩니다. 온라인 점수 책정 단계는 테스트 데이터 세트에 있는 각 사용자의 항목 사용을 시간순으로 정렬한 다음, 후속 보기 및 구매를 예측하기 위해 순서가 지정된 항목 하위 집합에 대해 100개의 권장 사항을 만들어 모방합니다. 정보 검색 지표, [평균 평균 정밀도](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision))은 이러한 권장 사항의 품질을 평가하는 데 사용됩니다. 이 지표는 권장 사항 순서를 고려하며 등급 시스템의 중요한 자산인 권장 사항 목록에서 상위 관련 항목을 선호합니다.
+   * **항목 유사성 모델 평가**: 모델 평가는 이전 단계에서 생성된 추천을 받아 테스트 데이터 세트에 대해 예측하여 수행됩니다. 온라인 점수 책정 단계는 테스트 데이터 세트에 있는 각 사용자의 항목 사용을 시간순으로 정렬한 다음, 후속 보기 및 구매를 예측하기 위해 순서가 지정된 항목 하위 집합에 대해 100개의 권장 사항을 만들어 모방합니다. 정보 검색 지표, [평균 평균 정밀도](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)는 이러한 권장 사항의 품질을 평가하는 데 사용됩니다. 이 지표는 권장 사항 순서를 고려하며 등급 시스템의 중요한 자산인 권장 사항 목록에서 상위 관련 항목을 선호합니다.
    * **모델 선택**: 오프라인 평가 후 평균 정밀도가 가장 높은 모델을 선택하고 이에 대해 계산된 모든 개별 항목 권장 사항을 선택합니다.
    * **오프라인 필터링**: 모델 교육의 마지막 단계는 적용 가능한 동적 필터의 적용입니다. 이 단계 후에는 미리 계산된 권장 사항을 전체적으로 캐시하여 제공할 수 있습니다.
 
