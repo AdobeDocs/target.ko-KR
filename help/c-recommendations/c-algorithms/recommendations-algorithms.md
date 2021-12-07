@@ -4,14 +4,14 @@ description: 에 사용되는 알고리즘에 대해 알아봅니다. [!DNL Targ
 title: Recommendations 알고리즘 이면의 과학에 대해 알려면 어디에서 배울 수 있습니까?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Recommendations 알고리즘의 이면에 있는 과학
+# ![PREMIUM](/help/assets/premium.png) Recommendations 알고리즘 이면의 과학
 
 에 사용되는 알고리즘에 대한 심층적인 설명 [!DNL Adobe Target Recommendations]모델 교육의 논리 및 수학 세부 정보와 모델 제공 프로세스를 포함합니다.
 
