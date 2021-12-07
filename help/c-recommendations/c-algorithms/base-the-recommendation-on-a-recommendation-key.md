@@ -5,7 +5,7 @@ title: 권장 사항 키를 기반으로 권장 사항을 제공하려면 어떻
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: ce5a9428602c6ef5547a407bbc56ff2cbd7631b6
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
 workflow-type: tm+mt
 source-wordcount: '3936'
 ht-degree: 40%
@@ -312,7 +312,7 @@ ht-degree: 40%
 * 오프라인 알고리즘을 실행하고 결과를 사용하여 권장 사항을 제공하려는 경우, 재고 부족 항목이 추천되지 않도록 해야 합니다.
 * 이 방문자의 선호 카테고리에 있는 항목만 포함하려 합니다.
 
-## 권장 사항 키
+## 권장 사항 키 {#keys}
 
 다음 권장 사항 키는 [!UICONTROL 권장 사항 키] 드롭다운 목록:
 
