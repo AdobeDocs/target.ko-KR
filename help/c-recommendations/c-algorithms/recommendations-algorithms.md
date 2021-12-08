@@ -4,9 +4,9 @@ description: 에 사용되는 알고리즘에 대해 알아봅니다. [!DNL Targ
 title: Target의 Recommendations 알고리즘 이면의 과학에 대해 알려면 어떻게 해야 합니까?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ ht-degree: 0%
 
 예를 들어
 
-![공식](assets/formula.png)
+![조회/구매 알고리즘에 대한 공식](assets/formula.png)
 
 그런 다음 품목 B를 품목 A와 함께 권장하지 않아야 합니다. 이 로그 가능성 비율 유사성 계산에 대한 전체 세부 정보가 제공됩니다 [이 PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 실제 알고리즘 구현의 논리 플로우는 다음 도식 다이어그램에 표시됩니다.
 
-![도식 다이어그램](assets/diagram1.png)
+![조회/구입한 알고리즘의 도식 다이어그램](assets/diagram1.png)
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
@@ -83,7 +83,7 @@ ht-degree: 0%
 
 모델이 의 여러 측면을 제공하고 [!DNL Target]의 콘텐츠 유사성 알고리즘은 다른 항목 기반 알고리즘과 동일하며 모델 교육 단계는 크게 다르며 다음 다이어그램에 설명된 대로 일련의 자연어 처리 및 사전 처리 단계를 포함합니다. 유사성 계산의 핵심은 카탈로그의 각 항목을 나타내는 수정된 tf-idf 벡터의 코사인 유사성을 사용하는 것입니다.
 
-![다이어그램 2](assets/diagram2.png)
+![콘텐츠 유사성 프로세스의 흐름을 보여주는 다이어그램](assets/diagram2.png)
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
@@ -96,13 +96,13 @@ ht-degree: 0%
    * **n그램 작성**: 이전 단계 후에는 각 단어가 토큰으로 처리됩니다. 토큰의 연속 시퀀스를 단일 토큰에 결합하는 프로세스를 n-gram 생성이라고 합니다. [!DNL Target]의 알고리즘에서는 최대 2그램을 고려합니다.
    * **tf-idf 계산**: 다음 단계에는 항목 설명에 토큰의 상대적 중요도를 반영하도록 tf-idf 벡터를 만드는 작업이 포함됩니다. 항목 i의 각 토큰/용어 t에 대해 |D| 항목에서는 단어 빈도 TF(t, i)가 먼저 계산됩니다(항목 i에 용어가 표시되는 횟수). 문서 빈도 DF(t, D)가 먼저 계산됩니다. 기본적으로 토큰이 있는 항목의 수입니다. 그러면 tf-idf 측정값이
 
-      ![공식](assets/formula2.png)
+      ![tf-idf 측정을 보여주는 공식](assets/formula2.png)
 
       [!DNL Target] apache Spark 사용 *tf-idf* 후드 아래에 있는 기능 구현 은 각 토큰을 218 토큰 공간에 고정합니다. 이 단계에서 고객이 지정한 특성 증폭 및 매장은 또한 [기준](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **항목 유사성 계산**: 최종 품목 유사성 계산은 대략적인 코사인 유사성을 사용하여 수행됩니다. 두 가지 품목, *A* 및 *B*&#x200B;이고 벡터 tA와 tB를 사용하는 경우 코사인 유사성은 다음과 같이 정의됩니다.
 
-      ![수식](assets/formula3.png)
+      ![항목 유사성 계산을 보여주는 공식](assets/formula3.png)
 
       모든 N x N 항목 간의 컴퓨팅 유사성이 크게 복잡하지 않게 하려면 *tf-idf* 벡터는 가장 큰 500개의 항목만 포함하도록 잘리며 이렇게 잘린 벡터 표현을 사용하여 항목 간의 코사인 유사성을 계산합니다. 이 접근 방식은 지역 구분 해싱과 같은 다른 가까운 ANN(근사 근사 이웃) 기술에 비해 스파스 벡터 유사성 계산에 더 강력합니다.
 
@@ -121,7 +121,7 @@ ht-degree: 0%
 
 모델 교육 및 점수 책정 단계의 논리가 다음 다이어그램에 나와 있습니다.
 
-![다이어그램](assets/diagram3.png)
+![모델 교육 및 점수 책정 단계의 논리를 보여주는 다이어그램](assets/diagram3.png)
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
@@ -135,7 +135,7 @@ ht-degree: 0%
 
    교육 단계에서는 다음과 같은 몇 가지 유형의 벡터 유사성을 계산합니다. LLR 유사성 ([여기에서 설명합니다.](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), 코사인 유사성(이전에 정의됨) 및 표준화된 L2 유사성(다음과 같이 정의됨)
 
-   ![수식](assets/formula4.png)
+   ![교육 계산을 보여주는 공식](assets/formula4.png)
 
    * **항목 유사성 모델 평가**: 모델 평가는 이전 단계에서 생성된 추천을 받아 테스트 데이터 세트에 대해 예측하여 수행됩니다. 온라인 점수 책정 단계는 테스트 데이터 세트에 있는 각 사용자의 항목 사용을 시간순으로 정렬한 다음, 후속 보기 및 구매를 예측하기 위해 순서가 지정된 항목 하위 집합에 대해 100개의 권장 사항을 만들어 모방합니다. 정보 검색 지표, [평균 평균 정밀도](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)는 이러한 권장 사항의 품질을 평가하는 데 사용됩니다. 이 지표는 권장 사항 순서를 고려하며 등급 시스템의 중요한 자산인 권장 사항 목록에서 상위 관련 항목을 선호합니다.
    * **모델 선택**: 오프라인 평가 후 평균 정밀도가 가장 높은 모델을 선택하고 이에 대해 계산된 모든 개별 항목 권장 사항을 선택합니다.
@@ -149,7 +149,7 @@ ht-degree: 0%
 
 이러한 프로세스는 방문자가 항목 A를 보고 항목 B를 구매한 다음 이미지에 표시됩니다. 개별 권장 사항은 각 항목 레이블 아래에 표시된 오프라인 유사성 점수로 검색됩니다. 검색 후 권장 사항은 합해진 가중치 유사성 점수와 병합됩니다. 마지막으로, 고객이 이전에 보고 구매한 항목을 필터링해야 한다고 지정한 시나리오에서 필터링 단계는 권장 사항 목록에서 A 및 B 항목을 제거합니다.
 
-![다이어그램 다이어그램](assets/diagram4.png)
+![다중 키 알고리즘 처리를 보여주는 다이어그램](assets/diagram4.png)
 
 ## 인기도 기반
 
