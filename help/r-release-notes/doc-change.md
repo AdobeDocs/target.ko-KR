@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
 source-wordcount: '3087'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 98%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 12월 7일 | [Target의 추천 알고리즘 이면의 과학](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 새 주제입니다. |
-| 12월 2일 | [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 권장 사항 키가 mbox 매개 변수 cartIds를 쉼표로 구분된 값으로 통해 제공되도록 장바구니 기반 알고리즘을 업데이트했습니다. 처음 10개의 값만 고려됩니다. |
+| 12월 2일 | [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 추천 키가 mbox 매개 변수 cartIds를 통해 쉼표로 구분된 값으로 제공되도록 장바구니 기반 알고리즘이 업데이트되었습니다. 처음 10개의 값만 고려됩니다. |
 | 11월 18일 | [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | at.js 2를 사용하는 페이지의 [!UICONTROL 시각적 경험 작성기](VEC)에서 mbox가 더 이상 지원되지 않음을 나타내는 참고 사항이 Mbox 행에 추가되었습니다.*x*. |
 | 11월 16일 | [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | *Experience Cloud 중앙 인터페이스 구성 요소 안내서*&#x200B;의 [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ko-KR) 링크에 파일 업로드와 관련된 제한 사항에 대한 정보가 추가되었습니다. |
 |  | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | “Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?” 섹션이 최신 버전의 Helper 확장 프로그램에 대한 정보로 업데이트되었습니다. |
