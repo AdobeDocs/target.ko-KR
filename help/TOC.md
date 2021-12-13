@@ -4,9 +4,9 @@ breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
 source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -378,7 +378,7 @@ ht-degree: 99%
       + [기준 만들기](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [기준 시퀀스 만들기](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [권장 사항 키를 기반으로 권장 사항 만들기](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [Target의 추천 알고리즘 이면의 과학](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
+      + [Target의 추천 알고리즘에 숨겨진 과학](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [사용자 지정 기준 업로드](c-recommendations/c-algorithms/recommendations-csv.md)
       + 동적 및 정적 포함 규칙 {#dynamic-static}
          + [동적 및 정적 포함 규칙 사용](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
