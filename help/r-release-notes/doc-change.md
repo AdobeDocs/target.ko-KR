@@ -21,7 +21,7 @@ ht-degree: 100%
 | --- | --- | --- |
 | 12월 7일 | [Target의 추천 알고리즘에 숨겨진 과학](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 새 주제입니다. |
 | 12월 2일 | [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 추천 키가 mbox 매개 변수 cartIds를 통해 쉼표로 구분된 값으로 제공되도록 장바구니 기반 알고리즘이 업데이트되었습니다. 처음 10개의 값만 고려됩니다. |
-| 11월 18일 | [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | at.js 2를 사용하는 페이지의 [!UICONTROL 시각적 경험 작성기](VEC)에서 mbox가 더 이상 지원되지 않음을 나타내는 참고 사항이 Mbox 행에 추가되었습니다.*x*. |
+| 11월 18일 | [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | at.js 2를 사용하는 페이지의 [!UICONTROL 시각적 경험 작성기] (VEC)에서 mbox가 더 이상 지원되지 않음을 나타내는 참고 사항이 Mbox 행에 추가되었습니다.*x*. |
 | 11월 16일 | [고객 속성](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | *Experience Cloud 중앙 인터페이스 구성 요소 안내서*&#x200B;의 [고객 속성에 대한 데이터 파일 및 데이터 소스 정보](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ko-KR) 링크에 파일 업로드와 관련된 제한 사항에 대한 정보가 추가되었습니다. |
 |  | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | “Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?” 섹션이 최신 버전의 Helper 확장 프로그램에 대한 정보로 업데이트되었습니다. |
 |  | [시각적 경험 작성기 Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | “VEC Helper 브라우저 확장 프로그램 가져오기 및 설치” 섹션이 업데이트되었습니다. |
@@ -35,7 +35,7 @@ ht-degree: 100%
 | 10월 22일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 다음 섹션이 추가되었습니다.<ul><li>[!DNL Target] 활동이 쿼리 문자열 매개 변수가 있는 URL을 올바르게 처리하는지 확인합니다.</li></ul> |
 | 10월 21일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 11월 10일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 12월 8일)</li></ul> |
 | 10월 20일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.4 릴리스(2021년 10월 21일)에 대한 정보가 추가되었습니다. |
-|  | [추천 계획 및 구현{](/help/c-recommendations/plan-implement.md) | 전체 주제가 업데이트되었습니다. |
+|  | [추천 계획 및 구현](/help/c-recommendations/plan-implement.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 19일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.3 릴리스(2021년 10월 19일)에 대한 정보가 추가되었습니다. |
 | 10월 14일 | [활동 설정 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | 다음 FAQ 추가: “[!UICONTROL 자동 할당] 활동의 최적화 목표로 적용된 세그먼트로 이항[!DNL Analytics] 지표를 사용할 수 있습니까?” |
 | 10월 13일 | [릴리스 정보](/help/r-release-notes/release-notes.md): 21.10.2 | [!DNL Target Standard/Premium] 21.10.2 릴리스(2021년 10월 13일)에 대한 정보가 추가되었습니다. |
