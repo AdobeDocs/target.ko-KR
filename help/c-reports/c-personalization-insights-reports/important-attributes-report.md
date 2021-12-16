@@ -1,59 +1,58 @@
 ---
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
-description: 개인화 모델에 영향을 준 상위 속성과 상대적 중요도에 영향을 미치는 상위 속성을 보여주는 Adobe [!DNL Target] 에서 중요 속성 보고서를 사용하는 방법을 알아봅니다.
-title: 중요한 속성 보고서란?
-feature: 보고서
+description: 사용 방법을 알아봅니다 [!UICONTROL 중요 속성] 개인화 모델에 영향을 주는 상위 속성과 해당 상대적 중요도를 보여주는 보고서입니다.
+title: 중요한 속성 보고서란 무엇입니까?
+feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 92%
+source-wordcount: '1661'
+ht-degree: 86%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 중요 속성 보고서
 
-중요 속성 보고서에 대한 정보이며 두 전문 보고서 중 하나는 자동화된 개인 설정(AP) 및 Auto-Target(AT) 활동의 사용자가 사용할 수 있습니다.
+에 대한 정보 [!UICONTROL 중요 속성] 보고서, [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동.
 
 >[!NOTE]
 >
->개인화 인사이트 보고서를 사용할 때는 다음 사항을 고려하십시오.
+>을 사용할 때는 다음 사항을 고려하십시오 [!UICONTROL 개인화 통찰력] 보고서:
 >
 >* AP 및 AT 활동은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에는 포함되지 않습니다.
-   >
-   >
-* [!UICONTROL 개인화 인사이트 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. ] 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
-   >
-   >
-* [!UICONTROL 개인화 ] 통찰력 보고서는 보고서 지표 드롭다운 목록에서  [!UICONTROL 주요 ] 목표를 선택한 경우에만  [!UICONTROL 사용할 ] 수있습니다.
-   >
-   >
-* 개인화 통찰력 보고서는 [기본 환경](/help/administrating-target/hosts.md)에서만 지원됩니다.
-   >
-   >
-* [!UICONTROL 개인화 ] 통찰력 보고서는   최소 15일 동안 활성화되고 트래픽을 받은 라이브 활동에 대해서만 생성됩니다.
+>
+>* [!UICONTROL 개인화 인사이트 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. ] 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
+>
+>* [!UICONTROL 개인화 통찰력] 보고서는 [!UICONTROL 기본 목표] 선택 [!UICONTROL 보고서 지표] 드롭다운 목록.
+>
+>* 개인화 통찰력 보고서는 [기본 환경](/help/administrating-target/hosts.md)에서만 지원됩니다.
+>
+>* [!UICONTROL 개인화 통찰력] 보고서는 [!UICONTROL 라이브] 상태 및 이(가) 활성화되었으며 적어도 15일 동안 트래픽을 수신했습니다.
 
 
 다른 활동에서 다른 속성은 모델이 개인화를 결정하는 방법에 대해 더 중요하거나 덜 중요합니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
 
-## 중요 속성 보고서 액세스 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## 액세스 권한 [!UICONTROL 중요 속성] 보고서 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음 목록에서 원하는 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) 활동을 클릭합니다.
+1. 클릭 **[!UICONTROL 활동]**&#x200B;를 클릭한 다음, 원하는 를 클릭합니다 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) 활동 을 포함할 수 없습니다.
 
    활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
 
 1. **[!UICONTROL 보고서를 클릭합니다]**.
 
-   [Automated Personalization 요약](/help/c-reports/reports-ap.md) 또는 [자동 Target 요약](/help/c-reports/auto-target-summary-report.md) 보고서가 표시됩니다. 이 보고서는 첫 번째 화면 아이콘으로 활동의 성과에 대한 정보를 제공합니다. 두 개의 추가 아이콘은 두 개의 개인화 인사이트 보고서인 자동화된 세그먼트 및 중요 속성 보고서를 나타냅니다. Auto-Target에는 [!UICONTROL 요약] 보고서의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다.
+   다음 [Automated Personalization 요약](/help/c-reports/reports-ap.md) 또는 [자동 Target 요약](/help/c-reports/auto-target-summary-report.md) 보고서에는 활동의 성과에 대한 정보를 제공하는 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 [!UICONTROL 개인화 통찰력] 보고서: [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성].
 
-   ![](assets/personalization_insights.png)
+   ![Automated Personalization 활동에 대한 요약 보고서](assets/summary-report-ap.png)
+
+   참고 사항 [!UICONTROL 자동 Target] 에는 의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다 [!UICONTROL 요약] 보고서 세트에 대해 설명합니다.
+
+   ![자동 Target 활동에 대한 요약 보고서](assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL 중요 속성] 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간에는 이 보고서에 액세스하거나 [!UICONTROL 중요 속성] 아이콘을 클릭할 수 없습니다. 15일 이후에는 활동에 개인화 모델을 구축할 개인화된 트래픽이 충분하다고 가정하여 [!UICONTROL 중요 속성] 보고서를 사용할 수 있습니다.
+   >[!UICONTROL 중요 속성] 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간에는 이 보고서에 액세스하거나 [!UICONTROL 중요 속성] 아이콘을 클릭할 수 없습니다. 15일 이후에는 활동에 개인화된 트래픽이 충분하다 고 가정하여 [!UICONTROL 중요 속성] 보고서를 사용할 수 있습니다.
 
-1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL 중요 속성]** 아이콘을 클릭할 수 있습니다.
+1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL 중요 속성]** 아이콘.
 
    ![](assets/model_attribute_ranking.png)
 
