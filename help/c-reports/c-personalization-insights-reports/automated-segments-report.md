@@ -1,50 +1,46 @@
 ---
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;자동 타겟 보고서;auto target 보고서;개인화;통찰력;자동화된 세그먼트;faq;자주 묻는 질문
-description: Adobe [!DNL Target] 개인화 모델에 정의된 다른 세그먼트가 자동화된 세그먼트 보고서를 보고 활동의 오퍼/경험에 응답하는 방법을 알아봅니다.
+description: Adobe에 의해 다양한 세그먼트가 정의되는 방법 알아보기 [!DNL Target] 개인화 모델은 자동화된 세그먼트 보고서를 보고 활동의 오퍼/경험에 응답합니다.
 title: 자동화된 세그먼트 보고서란?
-feature: 보고서
+feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 6f5e999859847e93e66372a9e7dc9814f7e2c84d
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2107'
 ht-degree: 81%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 자동화된 세그먼트 보고서
 
-[!UICONTROL 자동화된 세그먼트] 보고서에 대한 정보이며, 두 전문 보고서 중 하나는 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동 사용자가 사용할 수 있습니다.
+에 대한 정보 [!UICONTROL 자동화된 세그먼트] 보고서, [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동.
 
 >[!NOTE]
 >
 >개인화 통찰력 보고서를 사용할 때는 다음 사항을 고려하십시오.
 >
 >* AP 및 AT 활동은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에는 포함되지 않습니다.
-   >
-   >
-* [!UICONTROL 개인화 인사이트 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. ] 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
-   >
-   >
-* [!UICONTROL 개인화 ] 인사이트 보고서는 보고서 지표  [!UICONTROL 드롭다운 목록에서 ] 기본 목표를 선택한 경우에만 사용할 수   있습니다.
-   >
-   >
-* 개인화 통찰력 보고서는 [기본 환경](/help/administrating-target/hosts.md)에서만 지원됩니다.
-   >
-   >
-* [!UICONTROL 개인화 ] 인사이트 보고서는   사이트에 있고 최소 15일 동안 트래픽을 활성화 및 수신한 활동에 대해서만 생성됩니다.
+>
+>* [!UICONTROL 개인화 인사이트 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. ] 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
+>
+>* [!UICONTROL 개인화 통찰력] 보고서는 [!UICONTROL 기본 목표] 선택 [!UICONTROL 보고서 지표] 드롭다운 목록.
+>
+>* 개인화 통찰력 보고서는 [기본 환경](/help/administrating-target/hosts.md)에서만 지원됩니다.
+>
+>* [!UICONTROL 개인화 통찰력] 보고서는 [!UICONTROL 라이브] 상태 및 이(가) 활성화되었으며 적어도 15일 동안 트래픽을 수신했습니다.
 
 
 다른 방문자가 AP/AT 활동의 오퍼/경험에 다르게 응답합니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.
 
 ## 자동화된 세그먼트 보고서 액세스 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. **[!UICONTROL 활동]**&#x200B;을 클릭한 다음, 목록에서 원하는 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) 활동을 클릭합니다.
+1. 클릭 **[!UICONTROL 활동]**&#x200B;를 클릭한 다음, 원하는 를 클릭합니다 [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) 활동 을 포함할 수 없습니다.
 
-   활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 속성], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
+   많은 활동이 있는 경우, [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 속성], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형], 및 [!UICONTROL 활동 소스] 드롭다운 목록.
 
 1. **[!UICONTROL 보고서를 클릭합니다]**.
 
-   [Automated Personalization 요약](/help/c-reports/reports-ap.md) 또는 [자동 Target 요약](/help/c-reports/auto-target-summary-report.md) 보고서가 표시되며, 이 보고서는 첫 번째 화면 아이콘으로 표시되는 활동의 성과에 대한 정보를 제공합니다. 두 개의 추가 아이콘은 두 개의 개인화 인사이트 보고서인 자동화된 세그먼트 및 중요 속성 보고서를 나타냅니다. 자동 Target 에는 [!UICONTROL 요약] 보고서의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다.
+   다음 [Automated Personalization 요약](/help/c-reports/reports-ap.md) 또는 [자동 Target 요약](/help/c-reports/auto-target-summary-report.md) 보고서에는 활동의 성과에 대한 정보를 제공하는 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 두 개의 개인화 인사이트 보고서인 자동화된 세그먼트 및 중요 속성 보고서를 나타냅니다. 자동 Target 에는 의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다 [!UICONTROL 요약] 보고서 세트에 대해 설명합니다.
 
    ![](assets/personalization_insights.png)
 
@@ -58,7 +54,7 @@ ht-degree: 81%
 
 1. 원하는 날짜 범위를 선택합니다.
 
-   [!UICONTROL 요약] 보고서(성과 보고)와 달리 [!UICONTROL 자동화된 세그먼트]를 포함하는 [!UICONTROL 개인화 통찰력]은 고정된 날짜 범위에 대해서만 사용할 수 있습니다.15일, 30일 및 60일. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. 시작 이 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
+   와 달리 [!UICONTROL 요약] 보고서(성과 보고), [!UICONTROL 개인화 통찰력], 포함 [!UICONTROL 자동화된 세그먼트]에서는 고정된 날짜 범위에 대해서만 사용할 수 있습니다. 15일, 30일 및 60일. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. 시작 이 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -111,7 +107,7 @@ ht-degree: 81%
 
 * 활동을 활성화한 후 15일이 경과하지 않았습니다. 자동화된 세그먼트 및 중요 속성 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간에는 보고서에 액세스하거나 자동화된 세그먼트 및 중요 속성 아이콘을 클릭할 수 없습니다.
 * 사용자의 활동에 지정된 기간에 충분한 트래픽이 없습니다. 15일 이후에는 활동에 개인화 모델을 구축할 개인화된 트래픽이 충분하다고 가정하여 자동화된 세그먼트 및 중요 속성 보고서를 사용할 수 있습니다.
-* 활동에는 수입 최적화 목표가 있습니다. 현재 [!UICONTROL 개인화 통찰력]은 전환 최적화 목표 활동에만 사용할 수 있습니다. Adobe은 향후 릴리스에서 매출 최적화 목표 활동에 대한 지원을 추가할 예정입니다.
+* 활동에는 수입 최적화 목표가 있습니다. 현재, [!UICONTROL 개인화 통찰력] 전환 최적화 목표 활동에만 사용할 수 있습니다. Adobe은 향후 릴리스에서 매출 최적화 목표 활동에 대한 지원을 추가할 예정입니다.
 
 **속성이란 무엇입니까?**
 
@@ -125,7 +121,7 @@ ht-degree: 81%
 
 자동화된 세그먼트는 특정 속성의 특정 값(또는 값 범위)으로 구성됩니다. 예제 자동화된 세그먼트에 대해서는 위의 5단계를 참조하십시오. 세그먼트는 겹칠 수 있습니다.
 
-Target의 개인화 모델의 기반인 랜덤 포레스트 개인화 알고리즘에 대해 자세히 알려면 [Random Forest 알고리즘](/help/c-activities/t-automated-personalization/algo-random-forest.md)을 참조하십시오.
+Target의 개인화 모델의 기반인 랜덤 포레스트 개인화 알고리즘에 대해 자세히 알려면 다음을 참조하십시오 [Random Forest 알고리즘](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
 **자동화된 세그먼트의 순서를 결정하는 것은 무엇입니까? **
 
@@ -149,7 +145,7 @@ AP 및 AT 활동은 오퍼마다 한 개의 모델(AP의 경우)과 경험마다
 
 **사용자 지정 날짜 범위에 대한 개인화 인사이트를 볼 수 있습니까?**
 
-개인화 통찰력 보고([!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성])는 모두 고정 날짜 범위에 대해서만 사용할 수 있습니다.15일, 30일 및 60일. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 종료 날짜에 대해 이러한 지속 시간을 선택할 수 있습니다(활동에 지속 시간을 충족할 충분한 데이터가 있는 경우).
+개인화 통찰력 보고(모두) [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성])는 고정된 날짜 범위에 대해서만 사용할 수 있습니다. 15일, 30일 및 60일. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 종료 날짜에 대해 이러한 지속 시간을 선택할 수 있습니다(활동에 지속 시간을 충족할 충분한 데이터가 있는 경우).
 
 **개인화 인사이트 작성 방법**
 
@@ -169,7 +165,7 @@ AP 및 AT 활동은 오퍼마다 한 개의 모델(AP의 경우)과 경험마다
 
 **개인화 인사이트의 정보를 활용할 수 있는 다른 방법에는 어떤 것이 있습니까?**
 
-* 타깃팅할 새 대상 검색:성과가 좋은 특정 자동화된 세그먼트가 표시되면, 다른 보고서에서 해당 세그먼트를 다시 사용할 수 있도록 대상을 만드는 것을 고려할 수 있습니다.
+* 타깃팅할 새 대상 검색: 성과가 좋은 특정 자동화된 세그먼트가 표시되면, 다른 보고서에서 해당 세그먼트를 다시 사용할 수 있도록 대상을 만드는 것을 고려할 수 있습니다.
 * 경험의 반응형 유형에 대한 가설을 테스트합니다.
 * 방문자에게 적용된 콘텐츠 종류에 대한 인사이트를 얻습니다. 즉, 오퍼가 방문자에 대한 리프트를 담당합니다.
 * 성과가 낮은 콘텐츠를 식별합니다.

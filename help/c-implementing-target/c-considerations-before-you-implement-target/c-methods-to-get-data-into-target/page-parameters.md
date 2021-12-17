@@ -1,14 +1,14 @@
 ---
 keywords: 구현;구현하기;설정하기;설정;페이지 매개 변수
-description: 페이지 매개 변수를 사용하여 [!DNL Target] 에 데이터를 가져옵니다.
-title: 페이지 매개 변수를 사용하여 [!DNL Target] 에 데이터를 가져오려면 어떻게 해야 합니까?
-feature: 구현
+description: 로 데이터 가져오기 [!DNL Target] 페이지 매개 변수 사용.
+title: 로 데이터를 가져오려면 어떻게 해야 합니까? [!DNL Target] 페이지 매개 변수를 사용하십니까?
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 46%
+source-wordcount: '372'
+ht-degree: 45%
 
 ---
 
@@ -30,8 +30,8 @@ ht-degree: 46%
 
 ## 사용 사례 예
 
-* **제품 페이지**:표시된 특정 제품에 대한 정보를 보냅니다(Recommendations 작동 방식).
-* **주문 세부 사항**:주문 수집을 위해 주문 ID, orderTotal 등을 보냅니다.
+* **제품 페이지**: 표시된 특정 제품에 대한 정보를 보냅니다(Recommendations 작동 방식).
+* **주문 세부 사항**: 주문 수집을 위해 주문 ID, orderTotal 등을 보냅니다.
 * **카테고리 친화성**: 특정 사이트 카테고리에 대한 사용자의 친화성에 대한 지식을 구축하기 위해 본 카테고리 정보를 Target에 보냅니다.
 * **타사 데이터**: 날씨 타깃팅 제공자, 계정 데이터(예: DemandBase), 인구 데이터(예: Experian) 등과 같은 타사 데이터 소스의 정보를 보냅니다.
 
@@ -49,7 +49,7 @@ ht-degree: 46%
 
    ```< > # % " { } | \ ^ [ ] ` ```
 
-   다른 모든 문자는 URL로 인코딩해야 합니다. 이 표준에서는 아래 그림과 같이 다음 형식( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) )을 지정합니다.
+   다른 모든 문자는 URL로 인코딩해야 합니다. 표준에서는 다음 형식을 지정합니다( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ).
 
    ![](assets/ietf1.png)
 
@@ -66,10 +66,6 @@ targetPageParamsAll(매개 변수를 페이지의 모든 mbox 호출에 추가�
 targetPageParams(매개 변수를 페이지의 글로벌 mbox에 추가합니다.):
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-mboxCreate 코드에 있는 매개 변수:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
 ## 관련 정보에 대한 링크
 
