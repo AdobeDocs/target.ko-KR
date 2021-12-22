@@ -5,9 +5,9 @@ title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3153'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 12월 17일 | [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 중요 속성 보고서를 볼 때 날짜 범위에 대한 다음 참고가 추가되었습니다.<ul><li>다음 [!DNL Target] UI를 현재 45일 및 90일 날짜 범위를 선택할 수 있습니다. 하지만, [!DNL Target] 백엔드가 이 두 범위를 처리하지 않습니다. 사용 패턴 및 성능 향상을 위한 노력으로 이러한 날짜 범위는 더 이상 사용되지 않습니다. UI가 현재 허용된 범위를 반영하도록 업데이트됩니다. 15, 30 및 60일.</li></ul> |
+| 12월 17일 | [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 중요 속성 보고서 조회 시 날짜 범위에 대해 다음과 같은 사항이 추가되었습니다.<ul><li>현재 [!DNL Target] UI를 통해 45일과 90일 날짜 범위를 선택할 수 있습니다. 그러나 [!DNL Target] 백엔드는 이들 두 범위를 처리하지 않습니다. 사용 패턴과 성능 향상을 위해 이들 날짜 범위는 더 이상 사용되지 않습니다. 현재 허용되는 범위인 15일, 30일 및 60일을 반영하도록 UI가 업데이트될 예정입니다.</li></ul> |
 | 12월 7일 | [Target의 추천 알고리즘에 숨겨진 과학](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 새 주제입니다. |
 | 12월 2일 | [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 추천 키가 mbox 매개 변수 cartIds를 통해 쉼표로 구분된 값으로 제공되도록 장바구니 기반 알고리즘이 업데이트되었습니다. 처음 10개의 값만 고려됩니다. |
 | 11월 18일 | [수정 사항](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | at.js 2를 사용하는 페이지의 [!UICONTROL 시각적 경험 작성기] (VEC)에서 mbox가 더 이상 지원되지 않음을 나타내는 참고 사항이 Mbox 행에 추가되었습니다.*x*. |
@@ -153,7 +153,7 @@ ht-degree: 97%
 |  | [ [!UICONTROL Enhanced Experience Composer]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) 관련 문제 해결 | 허용 목록에 추가할 IP 주소 목록이 업데이트되었습니다. |
 | 5월 12일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 다음에 프리릴리스 정보를 추가했습니다.<ul><li>Adobe Experience Platform Web SDK (2021년 5월 17일</li><li>Target Standard Premium 21.5.2</li></ul> |
 | 5월 10일 | [[!DNL Recommendations] FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | &quot; [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]에서 만들어진 알고리즘을 사용할 수 있습니까?&quot; FAQ를 추가했습니다 |
-|  | [구현 [!DNL Target] 사용 [!DNL Dynamic Tag Manager] (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | [!DNL Adobe Dynamic Tag Manager] 는 더 이상 지원되지 않음을 나타냈습니다. 대신, [!DNL Adobe] 는 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)로 구현하는 것을 권장합니다. |
+|  | [ [!DNL Dynamic Tag Manager] (DTM)을 사용하여 [!DNL Target] 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | [!DNL Adobe Dynamic Tag Manager] 는 더 이상 지원되지 않음을 나타냈습니다. 대신, [!DNL Adobe] 는 [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)로 구현하는 것을 권장합니다. |
 | 5월 6일 | [권장 사항 FAQ](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>나의 [!UICONTROL Recommendations] 오퍼 활동, 오퍼, 프로모션 또는 기준 설정의 구성 변경이 내 사이트에 반영되려면 얼마나 걸립니까?</li><li>사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 *사용자가 받는* Recommendations에 반영되려면 얼마나 걸립니까?</li><li>사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 *다른* 사용자가 받는 Recommendations에 반영되려면 얼마나 걸립니까?</li></ul> |
 |  | [온디바이스 의사 결정](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | 다음과 같은 Adobe 기술 블로그의 블로그 게시물로 링크 추가됨:<ul><li>파트1: Edge 플랫폼(Akamai Edge Workers)에서 실험과 개인화에 대해 Adobe Target NodeJS SDK 실행하기</li></ul> |
 | 5월 5일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | Adobe Target 커뮤니티 Q&amp;A Coffee Break는 2021년 5월 12일 수요일 오전 8시 정각(PDT, GMT-7)에 열립니다. |
