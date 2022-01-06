@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
 workflow-type: tm+mt
-source-wordcount: '479'
-ht-degree: 100%
+source-wordcount: '557'
+ht-degree: 86%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2021년 10월 28일**
+**마지막 업데이트 날짜:2022년 1월 6일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
@@ -24,6 +24,14 @@ ht-degree: 100%
 >**mbox.js 서비스 종료**: 2021년 3월 31일부터 [!DNL Adobe Target] 에서는 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2021년 3월 31일 이후, mbox.js에서 발송된 모든 호출은 정상적으로 실패하고 기본 콘텐츠를 제공하여 [!DNL Target] 활동이 실행되는 페이지에 영향을 줍니다.
 >
 >사이트에 문제가 발생하지 않도록 하려면 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
+
+## [!DNL Target Standard/Premium] 22.1.1(2022년 1월 6일)
+
+이 릴리스에는 다음과 같은 새로운 기능이 포함되어 있습니다.
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| Target 활동에서 오퍼 결정 사용 | 이제 다음을 사용할 수 있습니다 [!DNL Adobe Journey Optimizer] 제안 결정 [!DNL Adobe Target] A/B 테스트 및 경험 타깃팅(XT) 활동을 통해 웹 및 모바일에서 방문자를 위한 다음 최상의 오퍼를 결정하고 전달합니다.<br>자세한 내용은 오퍼 결정 사용 을 참조하십시오.<br>**참고**: 이 기능은 [!DNL Target] offer decisioning에 액세스할 수 있고 [!DNL Target] 구현 을 참조하십시오. |
 
 ## at.js 버전 2.7.0(2021년 10월 28일)
 
