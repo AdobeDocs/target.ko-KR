@@ -1,13 +1,13 @@
 ---
-keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 삽입;링크 삽입;시각적 경험 작성기 링크;css 클래스 편집;오퍼 교체;오퍼 교체;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨김;재배열;요소 이동;요소 크기 조정;요소 크기 조정;요소;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;링크 탐색;실행 취소;실행 취소;다시 실행;사용자 지정 이벤트;웹 구성 요소
-description: Adobe Target의 VEC(시각적 경험 작성기)에서 사용할 수 있는 옵션을 살펴보십시오. 요소를 클릭하면 해당 요소에 사용할 수 있는 옵션을 볼 수 있습니다.
-title: VEC(시각적 경험 작성기) 옵션을 사용하려면 어떻게 합니까?
+keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 삽입;링크 삽입;시각적 경험 작성기 링크;css 클래스 편집;오퍼 교체;오퍼 교체;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨김;재배열;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;링크 탐색;실행 취소;실행 취소/다시 실행;사용자 지정 이벤트;오퍼;오퍼 결정;offer decisioning
+description: 에서 사용할 수 있는 옵션을 살펴보십시오. [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC).
+title: 사용 방법 [!UICONTROL 시각적 경험 작성기] (VEC) 옵션?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: fb9c9e4d2a3d0cf330724dfd02e329fedc388f01
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 71%
+source-wordcount: '2810'
+ht-degree: 65%
 
 ---
 
@@ -15,21 +15,19 @@ ht-degree: 71%
 
 에서 페이지 요소를 클릭하면 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC), 메뉴에는 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
 
-## VEC 선택 사항
-
-다양한 VEC(시각적 경험 작성기) 작업은 작업을 보다 빠르고 효율적으로 할 수 있도록 적절한 메뉴 선택 사항에 그룹화되어 있습니다.
+다양한 [!UICONTROL 시각적 경험 작성기] (VEC) 작업은 작업을 보다 빠르고 효율적으로 수행할 수 있도록 적절한 메뉴 옵션으로 그룹화됩니다.
 
 ![VEC 선택 사항 메뉴](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->사용 가능한 선택 사항은 편집 중인 활동 유형에 따라 다릅니다.
+>사용 가능한 옵션은 만들거나 편집하는 활동 유형에 따라 다릅니다.
 
-### [!UICONTROL 편집]
+## [!UICONTROL 편집]
 
 다음 옵션을 사용할 수 있습니다.
 
-#### [!UICONTROL 텍스트/HTML] {#edit-text-html}
+### [!UICONTROL 텍스트/HTML] {#edit-text-html}
 
 텍스트 영역, 단추 또는 링크의 텍스트 등의 요소에 대한 HTML 코드를 변경합니다.
 
@@ -46,13 +44,13 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-#### [!UICONTROL 배경색]
+### [!UICONTROL 배경색]
 
 색상 피커를 사용하여 배경색을 선택하거나 구성하십시오. 색상 견본을 선택하고 RGB 값 또는 색상 16진수 코드를 사용하여 조정할 수 있습니다. 색상 피커의 빨간색 x는 배경을 투명하게 만듭니다.
 
 **참고:** 이 옵션은 배경 이미지가 설정된 요소에는 사용할 수 없습니다.
 
-#### [!UICONTROL 스타일] {#styles}
+### [!UICONTROL 스타일] {#styles}
 
 [!UICONTROL 스타일] 패널을 사용하여 선택한 요소의 기존 스타일 값을 보거나 편집할 수 있습니다. 스타일을 추가할 수도 있습니다.
 
@@ -64,7 +62,7 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
 다른 스타일을 적용할 때 언제든지 [!UICONTROL 되돌리기] 아이콘을 클릭합니다 [!UICONTROL 스타일] 섹션을 변경한 후 패널입니다. 클릭 [!UICONTROL 되돌리기] 아이콘 은 현재 섹션의 패널에서 변경한 모든 사항을 되돌립니다.
 
-아래 설명된 대로 각 섹션을 확장하여 스타일을 편집하거나 추가합니다. 변경 사항을 저장하려면 패널 상단에 있는 뒤로 아이콘을 클릭하여 패널의 주 표시로 돌아간 다음 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+아래 설명된 대로 각 섹션을 확장하여 스타일을 편집하거나 추가합니다. 변경 사항을 저장하려면 [!UICONTROL 뒤로] 패널의 맨 위에 있는 아이콘을 클릭하여 패널의 주 표시로 돌아간 다음 를 클릭합니다 **[!UICONTROL 저장]**.
 
 주 패널과 여러 섹션 패널의 각 옵션 옆에 있는 파란색 점은 해당 스타일이 변경되었음을 나타냅니다. 이 시각적 표시기를 사용하면 클릭 전에 변경 사항을 쉽게 검토할 수 있습니다. [!UICONTROL 저장].
 
@@ -202,23 +200,31 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
    >
    >CSS 편집기를 사용하여 배경 이미지를 적용할 수 있지만 깜박임이 발생할 수 있습니다. 배포하기 전에 변경 사항을 테스트합니다.
 
-#### [!UICONTROL CSS 클래스]
+### [!UICONTROL CSS 클래스]
 
 요소에 사용될 사전 정의된 CSS 클래스를 지정합니다. 둘 이상의 요소가 선택된 경우 여러 CSS 클래스를 공백으로 구분합니다.
 
 [!UICONTROL A/B], [!UICONTROL 자동화된 개인화] 및 [!UICONTROL 다변량 테스트] 활동에 사용 가능합니다.
 
-#### [!UICONTROL 링크]
+### [!UICONTROL 링크]
 
 링크의 URL을 변경합니다.
 
 링크 편집을 사용하여 동일한 이미지 요소를 가리키도록 선택기를 업데이트합니다. 그러나 다른 이미지 요소에 링크하는 것은 지원되지 않습니다. 다른 이미지 요소에 링크하려면 코드 편집기에서 원래 작업을 삭제하고 [!UICONTROL 시각적 경험 작성기]를 사용하여 다른 이미지 요소에 해당 작업을 적용합니다.
 
-### [!UICONTROL 다음 항목 전에 삽입]
+## [!UICONTROL 다음 항목 전에 삽입]
 
 다음 옵션을 사용할 수 있습니다.
 
-#### [!UICONTROL 이미지], [!UICONTROL HTML], 및 [!UICONTROL 텍스트]
+### [!UICONTROL 오퍼 결정]
+
+추가 [에서 만든 오퍼 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)offer decisioning을 사용하여 고객에게 최상의 오퍼 및 경험을 제공하기 위해 {target=_blank}.
+
+**참고:** 이 옵션은 편집하거나 만들 때 사용할 수 있습니다 [수동 [!UICONTROL A/B 테스트]](/help/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL 경험 타깃팅]](/help/c-activities/t-experience-target/experience-target.md) (XT) 활동만 해당. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
+
+자세한 내용은 [오퍼 결정 사용](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL 이미지], [!UICONTROL HTML], 및 [!UICONTROL 텍스트]
 
 기존 콘텐츠를 수정하는 것 외에도 페이지에 모든 종류의 요소를 추가합니다. 텍스트, 코드, 목록 등을 추가하여 테스트할 완전히 다른 경험을 만들 수 있습니다.
 
@@ -230,19 +236,27 @@ A/B 및 경험 타깃팅 활동에 대한 텍스트 및 HTML을 편집할 때 �
 
 **참고:** 이미지를 삽입하려면 이미지 라이브러리에 액세스할 수 있도록 [!DNL Adobe Scene7 Publishing System]이 활성화되어야 합니다.
 
-#### 권장 사항
+### 권장 사항
 
 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) 활동 내에 권장 사항을 포함하십시오. 자세한 내용은 [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오.
 
-#### [!UICONTROL 경험 구성요소]
+### [!UICONTROL 경험 구성요소]
 
 최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
 
-### [!UICONTROL 다음 항목 뒤에 삽입]
+## [!UICONTROL 다음 항목 뒤에 삽입]
 
 다음 옵션을 사용할 수 있습니다.
 
-#### [!UICONTROL 이미지], [!UICONTROL HTML], 및 [!UICONTROL 텍스트]
+### [!UICONTROL 오퍼 결정]
+
+추가 [에서 만든 오퍼 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)offer decisioning을 사용하여 고객에게 최상의 오퍼 및 경험을 제공하기 위해 {target=_blank}.
+
+**참고:** 이 옵션은 편집하거나 만들 때 사용할 수 있습니다 [수동 [!UICONTROL A/B 테스트]](/help/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL 경험 타깃팅]](/help/c-activities/t-experience-target/experience-target.md) (XT) 활동만 해당. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
+
+자세한 내용은 [오퍼 결정 사용](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL 이미지], [!UICONTROL HTML], 및 [!UICONTROL 텍스트]
 
 기존 콘텐츠를 수정하는 것 외에도 페이지에 모든 종류의 요소를 추가합니다. 텍스트, 코드, 목록 등을 추가하여 테스트할 완전히 다른 경험을 만들 수 있습니다.
 
@@ -254,19 +268,27 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 **참고:** 이미지를 삽입하려면 이미지 라이브러리에 액세스할 수 있도록 [!DNL Adobe Scene7 Publishing System]이 활성화되어야 합니다.
 
-#### 권장 사항
+### 권장 사항
 
 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) 활동 내에 권장 사항을 포함하십시오. 자세한 내용은 [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오.
 
-#### [!UICONTROL 경험 구성요소]
+### [!UICONTROL 경험 구성요소]
 
 최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
 
-### [!UICONTROL 바꿀 대상]
+## [!UICONTROL 컨텐츠 바꾸기]
 
 다음 옵션을 사용할 수 있습니다.
 
-#### [!UICONTROL 이미지]
+### [!UICONTROL 오퍼 결정]
+
+추가 [에서 만든 오퍼 [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)offer decisioning을 사용하여 고객에게 최상의 오퍼 및 경험을 제공하기 위해 {target=_blank}.
+
+**참고:** 이 옵션은 편집하거나 만들 때 사용할 수 있습니다 [수동 [!UICONTROL A/B 테스트]](/help/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL 경험 타깃팅]](/help/c-activities/t-experience-target/experience-target.md) (XT) 활동만 해당. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
+
+자세한 내용은 [오퍼 결정 사용](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL 이미지]
 
 콘텐츠 라이브러리에서 다른 이미지를 선택합니다. 교체할 수 있는 이미지에는 Experience Cloud 자산 폴더에 업로드된 이미지 또는 Target의 콘텐츠 라이브러리에서 업로드된 이미지가 포함됩니다.
 
@@ -284,7 +306,7 @@ Recommendations은 DIV, SECTION 및 ARTICLE 태그의 다음으로 바꾸기를 
 
 **참고:** 이미지를 교체하려면 Adobe Scene7 Publishing System 계정이 필요합니다.
 
-#### [!UICONTROL HTML 오퍼]
+### [!UICONTROL HTML 오퍼]
 
 [!UICONTROL 콘텐츠 라이브러리]에서 다른 오퍼를 선택합니다.
 
@@ -292,55 +314,55 @@ Recommendations은 DIV, SECTION 및 ARTICLE 태그의 다음으로 바꾸기를 
 
 HTML 오퍼은 최대 256KB까지 가능합니다.
 
-#### 권장 사항
+### 권장 사항
 
 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) 활동 내에 권장 사항을 포함하십시오. 자세한 내용은 [오퍼로서의 Recommendations](/help/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오.
 
-#### [!UICONTROL 경험 구성요소]
+### [!UICONTROL 경험 구성요소]
 
 최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 작성된 경험 구성요소를 삽입합니다. 자세한 내용은 [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md)를 참조하십시오.
 
-### [!UICONTROL 레이아웃]
+## [!UICONTROL 레이아웃]
 
 다음 옵션을 사용할 수 있습니다.
 
-#### [!UICONTROL 재정렬]
+### [!UICONTROL 재정렬]
 
 요소를 동일한 부모 요소 또는 DIV 내의 다른 위치로 드래그합니다. 다른 요소는 재배열된 요소를 위한 공간을 만들기 위해 위치를 옮깁니다.
 
 **참고:** 재배열된 항목에 대해서는 클릭 추적이 작동하지 않습니다.
 
-#### [!UICONTROL 크기 조정]
+### [!UICONTROL 크기 조정]
 
 페이지에 있는 요소의 크기를 조정합니다. 선택 시 [!UICONTROL 크기 조정]로 이동하면 요소의 오른쪽 아래 모서리에 크기 조정을 수행할 수 있는 핸들이 나타납니다. 동일한 종횡비를 유지하려면 Shift 키를 길게 누릅니다.
 
 **참고:** 인라인 요소의 크기를 조정할 수 없습니다.
 
-#### [!UICONTROL 이동] {#move}
+### [!UICONTROL 이동] {#move}
 
 페이지에서 요소를 이동합니다. [!UICONTROL 재정렬] 옵션과 달리, [!UICONTROL 이동] 기능은 다른 요소를 이동하여 해당 요소가 이동될 공간을 만들지 않습니다. 화살표 키를 사용하여 이동을 미세 조정하십시오. (예정된 개선 사항: 이동된 요소가 다른 요소 뒤에 숨겨지지 않도록 지원합니다.)
 
 CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것과 같은 특정 경우에는 요소를 상위 요소 외부로 이동할 수 없습니다. 요소는 다음 CSS 속성 `overflow: hidden`을 갖는 컨테이너 외부로 이동할 수 없습니다.
 
-#### [!UICONTROL 숨김]
+### [!UICONTROL 숨김]
 
 요소를 숨깁니다. 공백은 남아 있지만 콘텐츠는 제거됩니다.
 
-#### [!UICONTROL 제거]
+### [!UICONTROL 제거]
 
 요소를 제거합니다. 이미지 뒤의 공백은 제거되고 요소가 있던 공간은 축소됩니다.
 
 **참고:** &quot;클래식&quot; mbox(Target Classic 캠페인 내에서 만든 mbox) 내의 항목은 이 옵션을 사용하여 제거할 수 없습니다.
 
-### [!UICONTROL 섹션 확장]
+## [!UICONTROL 섹션 확장]
 
 원래 선택된 요소 외에 상위 요소를 선택합니다. 상위 요소를 선택하면 이 요소의 모든 하위 요소가 자동으로 선택됩니다. 선택 요소를 여러 번 확장할 수 있습니다.
 
-### [!UICONTROL 링크로 이동]
+## [!UICONTROL 링크로 이동]
 
 링크의 대상을 엽니다.
 
-### [!UICONTROL 실행 취소]/[!UICONTROL 다시 실행]
+## [!UICONTROL 실행 취소]/[!UICONTROL 다시 실행]
 
 편집 세션 동안 활동에 대해 변경한 내용을 실행 취소합니다. 이전에 실행 취소한 변경 사항을 다시 실행할 수도 있습니다.
 
