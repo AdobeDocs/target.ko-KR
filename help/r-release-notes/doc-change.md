@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
-workflow-type: ht
-source-wordcount: '3153'
-ht-degree: 100%
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
+workflow-type: tm+mt
+source-wordcount: '3163'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 1월 6일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.1.1 릴리스. |
 | 12월 17일 | [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 중요 속성 보고서 조회 시 날짜 범위에 대해 다음과 같은 사항이 추가되었습니다.<ul><li>현재 [!DNL Target] UI를 통해 45일과 90일 날짜 범위를 선택할 수 있습니다. 그러나 [!DNL Target] 백엔드는 이들 두 범위를 처리하지 않습니다. 사용 패턴과 성능 향상을 위해 이들 날짜 범위는 더 이상 사용되지 않습니다. 현재 허용되는 범위인 15일, 30일 및 60일을 반영하도록 UI가 업데이트될 예정입니다.</li></ul> |
 | 12월 7일 | [Target의 추천 알고리즘에 숨겨진 과학](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 새 주제입니다. |
 | 12월 2일 | [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 추천 키가 mbox 매개 변수 cartIds를 통해 쉼표로 구분된 값으로 제공되도록 장바구니 기반 알고리즘이 업데이트되었습니다. 처음 10개의 값만 고려됩니다. |

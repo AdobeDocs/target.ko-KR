@@ -4,7 +4,7 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df00a36ea3440ebd959351fcfc6a24f6bd9fe8b8
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
 source-wordcount: '557'
 ht-degree: 86%
@@ -31,7 +31,7 @@ ht-degree: 86%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| Target 활동에서 오퍼 결정 사용 | 이제 다음을 사용할 수 있습니다 [!DNL Adobe Journey Optimizer] 제안 결정 [!DNL Adobe Target] A/B 테스트 및 경험 타깃팅(XT) 활동을 통해 웹 및 모바일에서 방문자를 위한 다음 최상의 오퍼를 결정하고 전달합니다.<br>자세한 내용은 오퍼 결정 사용 을 참조하십시오.<br>**참고**: 이 기능은 [!DNL Target] offer decisioning에 액세스할 수 있고 [!DNL Target] 구현 을 참조하십시오. |
+| 에서 오퍼 결정 사용 [!DNL Target] 활동 | 이제 다음을 사용할 수 있습니다 [!DNL Adobe Journey Optimizer] 제안 결정 [!DNL Target] [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 활동은 웹 및 모바일에서 방문자를 위한 다음 최상의 오퍼를 결정하고 전달합니다.<br>자세한 내용은 [오퍼 결정 사용](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**참고**: 이 기능은 [!DNL Target] offer decisioning에 액세스할 수 있고 [!DNL Target] 구현 을 참조하십시오. |
 
 ## at.js 버전 2.7.0(2021년 10월 28일)
 
