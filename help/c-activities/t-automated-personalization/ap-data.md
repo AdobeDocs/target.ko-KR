@@ -4,9 +4,9 @@ description: 데이터 Adobe 알아보기 [!DNL Target] 을(를) 수집 및 사�
 title: 기계 학습 알고리즘을 생성하기 위해 수집되는 데이터는 무엇입니까?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: d017f753f8eabdfb5a7e50af50c0c332a65867ea
+source-git-commit: e830bd2de96884b6dd0c1f56b380874e1e1f7c04
 workflow-type: tm+mt
-source-wordcount: '2135'
+source-wordcount: '2114'
 ht-degree: 47%
 
 ---
@@ -70,7 +70,7 @@ ht-degree: 47%
 
 ## 환경 데이터 {#env}
 
-|특성 이름|특성 설명|샘플 값|시스템 이름| | — | — | — | — | |브라우저 - 요일|방문자가 활동에 액세스한 요일입니다.|0~6.<br>(0: 일요일)|ENV_DAY_OF_WEEK_HOUR| |브라우저 - 시간|방문자가 활동에 액세스한 시간입니다.|0~23<br>(0: 자정)|ENV_USER_HOUR| |브라우저 - 요일 시간|방문자가 활동에 액세스한 요일 시간입니다.|0~168<br>(일요일 자정은 0)|ENV_WeekHour| |브라우저 - 언어 설정|방문자가 활동에 액세스하는 데 사용한 브라우저에 지정된 언어입니다.|영어<br>독일어|ENV_Language| |브라우저 - 화면 높이(px)|방문자가 활동에 액세스하는 데 사용한 장치의 브라우저 화면 높이(픽셀 단위)입니다.|1, 2, 3 등|ENV_browserHeight| |브라우저 - 화면 너비(px)|방문자가 활동에 액세스하는 데 사용한 장치의 브라우저 화면 너비(픽셀 단위)입니다.|1, 2, 3 등|ENV_browserWidth| |브라우저 - 시간|방문자가 활동에 액세스한 브라우저의 시간입니다.|0, 6, 12, 18<br>(0: 밤, 6: 아침<br>12는 오후(18은 저녁)|ENV_LOCAL_TIME_PERIOD| |브라우저 - 시간대|방문자가 활동에 액세스하는 동안 시간대입니다.|태평양 표준시<br>동부 표준시<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |브라우저 - 유형|방문자가 활동에 액세스하는 동안 사용한 브라우저의 유형입니다.|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>기타|ENV_Browser| |브라우저 - 평일/주말|방문자가 활동에 액세스했을 때의 작업 상태입니다(주말, 근무 시간 또는 평일 자유 시간).|토요일과 일요일은 주말<br>월요일~금요일 근무 시간: 0900~1800<br>1800부터 0900까지 월요일-금요일 자유 시간|ENV_USER_HOUR_TYPE| |브라우저 - 창 높이(px)|방문자가 활동에 액세스하는 데 사용한 브라우저의 창 높이(픽셀 단위)입니다.|1, 2, 3 등|ENV_BrowserHeight| |브라우저 - 창 너비(px)|방문자가 활동에 액세스하는 데 사용한 브라우저의 창 너비(픽셀 단위)입니다.|1, 2, 3 등|ENG_BrowserWidth| |장치 - 화면 높이|방문자가 활동에 액세스하는 데 사용한 장치의 화면 높이입니다.|1, 2, 3 등|ENV_SCREEN_HEIGHT| |장치 - 화면 너비|방문자가 활동에 액세스하는 데 사용한 장치의 화면 너비입니다.|1, 2, 3 등|ENV_SCREEN_WIDTH| |운영 체제|방문자가 활동에 액세스하는 데 사용한 장치의 운영 체제입니다.|Mac OS<br>Windows<br>Linux<br>검색 보트<br>알 수 없는 OS|ENV_OperatingSystem| |운영 체제 - 버전|방문자가 활동에 액세스하는 데 사용한 운영 체제의 버전입니다.|Windows 10<br>Mac OS 10|ENV_OPERATING_SYSTEM_VERSION| |트래픽 소스 - 랜딩 페이지 URL 참조|사이트에 액세스할 때 방문자가 본 첫 페이지입니다.|`https://www.adobe.com/ecloud.html`|ENG_REFERRER|
+|특성 이름|특성 설명|샘플 값|시스템 이름| | — | — | — | — | |브라우저 - 요일|방문자가 활동에 액세스한 요일입니다.|0~6.<br>(0: 일요일)|ENV_DAY_OF_WEEK_HOUR| |브라우저 - 시간|방문자가 활동에 액세스한 시간입니다.|0~23<br>(0: 자정)|ENV_USER_HOUR| |브라우저 - 요일 시간|방문자가 활동에 액세스한 요일 시간입니다.|0~168<br>(일요일 자정은 0)|ENV_WeekHour| |브라우저 - 언어 설정|방문자가 활동에 액세스하는 데 사용한 브라우저에 지정된 언어입니다.|영어<br>독일어|ENV_Language| |브라우저 - 화면 너비(px)|방문자가 활동에 액세스하는 데 사용한 장치의 브라우저 화면 너비(픽셀 단위)입니다.|1, 2, 3 등|ENV_browserWidth| |브라우저 - 시간|방문자가 활동에 액세스한 브라우저의 시간입니다.|0, 6, 12, 18<br>(0: 밤, 6: 아침<br>12는 오후(18은 저녁)|ENV_LOCAL_TIME_PERIOD| |브라우저 - 시간대|방문자가 활동에 액세스하는 동안 시간대입니다.|태평양 표준시<br>동부 표준시<br>GMT|ENV_BrowserTimezoneOffsetMinutes| |브라우저 - 유형|방문자가 활동에 액세스하는 동안 사용한 브라우저의 유형입니다.|Chrome<br>Firefox<br>Internet Explorer<br>Safari<br>기타|ENV_Browser| |브라우저 - 평일/주말|방문자가 활동에 액세스했을 때의 작업 상태입니다(주말, 근무 시간 또는 평일 자유 시간).|토요일과 일요일은 주말<br>월요일~금요일 근무 시간: 0900~1800<br>1800부터 0900까지 월요일-금요일 자유 시간|ENV_USER_HOUR_TYPE| |브라우저 - 창 높이(px)|방문자가 활동에 액세스하는 데 사용한 브라우저의 창 높이(픽셀 단위)입니다.|1, 2, 3 등|ENV_BrowserHeight| |브라우저 - 창 너비(px)|방문자가 활동에 액세스하는 데 사용한 브라우저의 창 너비(픽셀 단위)입니다.|1, 2, 3 등|ENV_BrowserWidth| |장치 - 화면 높이|방문자가 활동에 액세스하는 데 사용한 장치의 화면 높이입니다.|1, 2, 3 등|ENV_SCREEN_HEIGHT| |장치 - 화면 너비|방문자가 활동에 액세스하는 데 사용한 장치의 화면 너비입니다.|1, 2, 3 등|ENV_SCREEN_WIDTH| |운영 체제|방문자가 활동에 액세스하는 데 사용한 장치의 운영 체제입니다.|Mac OS<br>Windows<br>Linux<br>검색 보트<br>알 수 없는 OS|ENV_OperatingSystem| |운영 체제 - 버전|방문자가 활동에 액세스하는 데 사용한 운영 체제의 버전입니다.|Windows 10<br>Mac OS 10|ENV_OPERATING_SYSTEM_VERSION| |트래픽 소스 - 랜딩 페이지 URL 참조|사이트에 액세스할 때 방문자가 본 첫 페이지입니다.|`https://www.adobe.com/ecloud.html`|ENV_REFERRER|
 
 ## 지역 데이터 {#geo}
 
