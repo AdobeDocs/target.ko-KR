@@ -1,20 +1,26 @@
 ---
 keywords: 개인 정보;ip 주소;지리 특성;옵트아웃;옵트아웃;데이터 개인 정보;정부 규정;규정;gdpr;ccpa
-description: Adobe [!DNL Target] 이 IP 주소의 수집 및 처리, 옵트아웃 지침 등 적용 가능한 데이터 개인 정보 보호 법을 준수하는 방법을 알아봅니다.
-title: ' [!DNL Target] 개인 정보 보호 문제를 어떻게 처리합니까?'
-feature: 개인 정보 및 보안
+description: Adobe 방법 알아보기 [!DNL Target] IP 주소 수집 및 처리, 옵트아웃 지침 등 적용 가능한 데이터 개인 정보 보호 법을 준수합니다.
+title: 방법 [!DNL Target] 개인 정보 문제를 처리합니까?
+feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 60%
+source-wordcount: '738'
+ht-degree: 55%
 
 ---
 
 # 개인 정보 보호
 
-[!DNL Adobe Target] 적용 가능한 데이터 개인 정보 보호 법률에 따라 을 사용할 수  [!DNL Target] 있는 프로세스 및 설정을 활성화했습니다.
+[!DNL Adobe Target] 을 사용하도록 설정된 프로세스 및 설정을 사용하여 [!DNL Target] 해당 데이터 개인 정보 보호 법률에 따라
+
+## 기능 사용 데이터 수집
+
+내부용 개별 기능 사용 데이터가 수집됩니다 [!DNL Adobe] 목적 식별 [!DNL Target] 기능은 의도한 대로 또는 활용되지 않는 기능을 식별하기 위해 수행됩니다. 성능 문제를 해결하기 위해 다양한 지연 측정 방법이 수집됩니다. 개인 데이터는 수집되지 않습니다.
+
+를 설정하여 SDK에서 사용 보고 데이터를 옵트아웃할 수 있습니다 `telemetryEnabled` 클라이언트 초기화 옵션에서 false를 지정합니다. 자세한 내용은 [targetGlobalSettings에서 telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## IP 주소 수집 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -36,7 +42,7 @@ Target은 전체 IP 주소를 수신하여 지정된 대로 난독화(마지막 
 
 >[!NOTE]
 >
->[Adobe 클라이언트 ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 지원 팀에 문의하여 현재 사용 중인 설정을 확인하거나 IP 난독화 기능을 활성화합니다.
+>[Adobe 고객 지원 문의](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 를 사용하여 현재 사용 중인 설정 또는 IP 난독화 기능을 활성화하기 위한 설정을 결정합니다.
 
 ## 지리 특성 {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -52,10 +58,9 @@ IP 주소가 완전히 난독화된 경우 지리 특성 및 지역 타깃팅을
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
 
-1. (조건부) CNAME을 사용하는 경우 링크에 &quot;client=`clientcode` 매개 변수가 포함되어야 합니다. 예:
-https://my.cname.domain/optout?client=clientcode
+1. (조건부) CNAME을 사용하는 경우 링크에 &quot;client=&quot;가 포함되어야 합니다`clientcode` 매개 변수(예: https://my.cname.domain/optout?client=clientcode
 
-1. `clientcode` 을 클라이언트 코드로 바꾸고 옵트아웃 URL에 연결할 텍스트나 이미지를 추가합니다.
+1. 바꾸기 `clientcode` 를 사용하여 를 설정하고, 옵트아웃 URL에 연결할 텍스트나 이미지를 추가합니다.
 
 이 링크를 클릭하는 모든 방문자는 쿠키를 삭제하기 전까지 또는 2년 동안(어느 쪽이든 먼저 만족되는 조건 적용) 브라우징 세션에서 호출된 어떤 mbox 요청에도 포함되지 않습니다. 이 기능은 `disableClient`라는 방문자의 쿠키를 `clientcode.tt.omtrdc.net` 도메인에서 설정하면 작동합니다.
 
@@ -63,4 +68,4 @@ https://my.cname.domain/optout?client=clientcode
 
 ## 개인정보 보호 및 데이터 보호 규정
 
-유럽연합 일반 데이터 보호 규정 (GDPR), 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 조직 및 Adobe Target에 미치는 영향에 대한 정보는 [개인 정보 보호 및 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)을 참조하십시오.
+자세한 내용은 [개인 정보 보호 및 데이터 보호 규정](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) 유럽연합 일반 데이터 보호 규정(GDPR), 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 사용자의 조직과 Adobe Target에 미치는 영향에 대한 정보입니다.

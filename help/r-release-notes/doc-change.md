@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '3163'
-ht-degree: 99%
+source-wordcount: '3223'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,11 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 1월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
+|  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | `telemetry` 설정에 대한 정보가 추가되었습니다. |
+|  | [개인정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 다음 섹션이 추가되었습니다. &quot;기능 사용 데이터 수집&quot; |
+|  | [에서 사용하는 데이터 [!DNL Target] 기계 학습 알고리즘](/help/c-activities/t-automated-personalization/ap-data.md) | 다음을 포함한 전체 주제가 업데이트되었습니다.<ul><li>새 섹션: &quot;기능 차단 [!DNL Target] 기계 학습 알고리즘&quot;</li><li>여러 테이블에 &quot;시스템 이름&quot; 열 및 정보를 추가했습니다.</li></ul> |
 | 1월 6일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.1.1 릴리스. |
 | 12월 17일 | [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 중요 속성 보고서 조회 시 날짜 범위에 대해 다음과 같은 사항이 추가되었습니다.<ul><li>현재 [!DNL Target] UI를 통해 45일과 90일 날짜 범위를 선택할 수 있습니다. 그러나 [!DNL Target] 백엔드는 이들 두 범위를 처리하지 않습니다. 사용 패턴과 성능 향상을 위해 이들 날짜 범위는 더 이상 사용되지 않습니다. 현재 허용되는 범위인 15일, 30일 및 60일을 반영하도록 UI가 업데이트될 예정입니다.</li></ul> |
 | 12월 7일 | [Target의 추천 알고리즘에 숨겨진 과학](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 새 주제입니다. |
