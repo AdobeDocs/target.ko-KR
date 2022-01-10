@@ -1,11 +1,12 @@
 ---
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;오퍼 결정;offer decisioning;ajo;여정 최적화 프로그램
 description: 에서 만든 오퍼 결정을 추가하는 방법을 알아봅니다 [!DNL Adobe Journey Optimizer] 활동에 대한 업데이트입니다.
-title: '오퍼 결정을 사용하려면 어떻게 해야 합니까? '
+title: 오퍼 결정을 사용하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 39d278747cec838ef7855116c820e3c80160d364
+exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
+source-git-commit: 1f36666836218718cfac5af2acdc6102d2413e76
 workflow-type: tm+mt
-source-wordcount: '1005'
+source-wordcount: '1018'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ ht-degree: 0%
 >
 >이 항목에 설명된 오퍼 결정 기능은 2022년 1월 13일에 [!DNL Target Standard/Premium] 22.1.1 릴리스.
 
-에 대한 자세한 정보 [!DNL Adobe Journey Optimizer]를 참조하십시오. [Journey Optimizer 시작](https://experienceleague-review.corp.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 에서 *Journey Optimizer* 설명서.
+에 대한 자세한 정보 [!DNL Adobe Journey Optimizer]를 참조하십시오. [Journey Optimizer 시작](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 에서 *Journey Optimizer* 설명서.
 
 오퍼 결정에 대한 자세한 내용은 [의사 결정 관리 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 에서 *[!DNL Journey Optimizer]설명서*.
 
@@ -40,13 +41,18 @@ ht-degree: 0%
 
 ### 스포츠 머천다이징
 
-스포츠 리그의 마케터는 홈 페이지(데스크탑 및 모바일 웹 사이트 모두)에서 콘텐츠를 개인화하려고 합니다. 방문자가 좋아하는 팀을 기반으로 콘텐츠를 개인화하려고 하며 최근 플레이어가 이동하여 관련 가맹점 상품을 구매하는 오퍼를 제공합니다. 예를 들어 다음 각 영역에 대해 개인화된 경험을 제공합니다. 도르트문트, 프랑크푸르트, 보훔과 이 팀의 암시적이고 노골적인 팬인 사용자들을 위한. 지표로 제품 사이트에 대한 방문 및 클릭 수를 볼 수 있습니다.
+스포츠 리그의 마케터는 홈 페이지(데스크탑 및 모바일 웹 사이트 모두)에서 콘텐츠를 개인화하려고 합니다. 여러 차원을 기반으로 컨텐츠를 개인화하고 관련 가맹점 제품을 구매할 수 있는 오퍼를 제공하려는 경우 관심 있는 사항:
 
-기본 경험과 개인화된 경험(각 지역 및 팀에 대한 오퍼가 포함된 오퍼 결정 포함) 간에 A/B 테스트 활동(50/50 분할)을 디자인하려고 합니다. 이 활동을 사용하여 개인화된 경험과 제어에 대한 전환과 상승도를 결정하려고 합니다.
+* 방문자가 가장 좋아하는 팀
+* 최근 선수/플레이어 활동(예: 팀 이동, 계약 업데이트 또는 부상)
+
+예를 들어 다음 각 지역에 대해 개인화된 경험을 제공하려고 합니다. 도르트문트, 프랑크푸르트, 보훔과 이 팀의 암시적이고 노골적인 팬인 사용자들을 위한. 지표로 제품 사이트에 대한 방문 및 클릭 수를 볼 수 있습니다.
+
+디자인 [!UICONTROL A/B 테스트] 기본 경험과 개인화된 경험 간에 활동(50/50 분할). 여기에는 각 지역 및 팀에 대한 오퍼가 포함된 오퍼 결정이 포함됩니다. 이 활동을 사용하여 개인화된 경험과 제어에 대한 전환과 상승도를 결정하려고 합니다.
 
 ### 게임 스트리밍 플랫폼
 
-스포츠 조직의 마케터는 다양한 지역의 데스크탑 및 모바일 사용자를 위한 게임 스트리밍 플랫폼에 대한 개인화된 오퍼를 제공하려고 합니다. 독일, 프랑스, 멕시코, 그리고 브라질. 방문자가 해당 지역 중 하나에서 데스크탑 또는 모바일 웹 사이트에 액세스하면 로컬 언어로 게임 스트리밍을 위한 오퍼를 제공하고 로컬 통화에 해당하는 가격으로 제공하려고 합니다.
+게임 조직의 마케터는 다양한 지역의 데스크탑 및 모바일 사용자를 위한 게임 스트리밍 플랫폼에 대한 개인화된 오퍼를 제공하고자 합니다. 독일, 프랑스, 멕시코, 그리고 브라질. 방문자가 해당 지역 중 하나에서 데스크탑 또는 모바일 웹 사이트에 액세스하면 로컬 언어로 게임 스트리밍을 위한 오퍼를 제공하고 로컬 통화에 해당하는 가격으로 제공하려고 합니다.
 
 in [!DNL Adobe Journey Optimizer]를 설정하는 경우 타깃팅된 각 지리적 위치에 대해 개인화된 홈 페이지 영웅 오퍼와 기본 홈 페이지 히어로 대체 오퍼를 만들 수 있습니다. 그런 다음 이러한 오퍼와 해당 자격 규칙을 통합하는 오퍼 결정을 만들 수 있습니다. 그런 다음 [!DNL Target]를 만들 수 있습니다 [!DNL Experience Targeting] (XT) 활동을 만들고 데스크탑 또는 모바일 웹 사이트에 해당 오퍼 결정을 삽입하여 방문자에게 개인화된 경험을 제공합니다.
 
@@ -105,11 +111,3 @@ in [!DNL Adobe Journey Optimizer]를 설정하는 경우 타깃팅된 각 지리
 * [!DNL Target] 보고에서는 오퍼 결정 수준 보고를 제공하지 않습니다.
 
 * 시각화 [QA 링크](/help/c-activities/c-activity-qa/activity-qa.md) 대상 [!DNL Target] 오퍼 결정을 포함하는 경험은 설정된 빈도 제한에 영향을 줍니다 [!DNL Adobe Journey Optimizer] 이러한 오퍼 결정을 위한 것입니다.
-
-
-
-
-
-
-
-
