@@ -1,16 +1,16 @@
 ---
 keywords: 단일 페이지 애플리케이션 구현;단일 페이지 애플리케이션 구현;spa;at.js 2.x;at.js;단일 페이지 애플리케이션;단일 페이지 앱;spa;SPA
-description: Adobe 사용 방법 알아보기 [!DNL Target] at.js 2.x to implement [!DNL Target] 단일 페이지 애플리케이션(SPA)용.
+description: Adobe 사용 방법 알아보기 [!DNL Target] at.js 2.x 를 구현하여 [!DNL Target] 단일 페이지 애플리케이션(SPA)용.
 title: 구현할 수 있습니까? [!DNL Target] 단일 페이지 애플리케이션(SPA)의 경우
 feature: Implement Server-side
 role: Developer
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
+source-git-commit: a2a70136dba70a8b5b448b00199d3113f5f14da4
 workflow-type: tm+mt
-source-wordcount: '2771'
-ht-degree: 70%
+source-wordcount: '2764'
+ht-degree: 71%
 
 ---
-
 
 # 단일 페이지 애플리케이션 구현
 
@@ -70,7 +70,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    먼저 at.js 2.x를 설치해야 합니다. 이 at.js 버전은 SPA를 염두에 두고 개발되었습니다. 이전 at.js 및 mbox.js 버전(이제 사용되지 않음)은 Adobe Target 보기 및 SPA용 VEC를 지원하지 않습니다.
 
-   에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. [!UICONTROL 관리 > 구현]. at.js 2.x는 의 태그를 통해 배포할 수도 있습니다 [!DNL Adobe Experience Platform]. 하지만, [!DNL Adobe Target] 확장은 현재 최신 상태가 아니며 지원되지 않습니다.
+   에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. [!UICONTROL 관리 > 구현]. at.js 2.x는 의 태그를 통해 배포할 수도 있습니다 [!DNL Adobe Experience Platform].
 
 1. 사이트에서 at.js 2.x의 최신 함수인 `triggerView()`를 구현합니다.
 
