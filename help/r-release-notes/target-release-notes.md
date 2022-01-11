@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 710c40154e12a60b3bb14c398f149c41205d355e
+source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
 workflow-type: tm+mt
-source-wordcount: '278'
-ht-degree: 72%
+source-wordcount: '200'
+ht-degree: 100%
 
 ---
 
@@ -24,14 +24,6 @@ ht-degree: 72%
 >**mbox.js 서비스 종료**: 2021년 3월 31일부터 [!DNL Adobe Target] 에서는 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2021년 3월 31일 이후, mbox.js에서 발송된 모든 호출은 정상적으로 실패하고 기본 콘텐츠를 제공하여 [!DNL Target] 활동이 실행되는 페이지에 영향을 줍니다.
 >
 >사이트에 문제가 발생하지 않도록 하려면 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
-
-## [!DNL Target Standard/Premium] 22.1.1(2022년 1월 13일)
-
-이 릴리스에는 다음과 같은 새로운 기능이 포함되어 있습니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| 에서 오퍼 결정 사용 [!DNL Target] 활동 | 이제 다음을 사용할 수 있습니다 [!DNL Adobe Journey Optimizer] 제안 결정 [!DNL Target] [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 활동은 웹 및 모바일에서 방문자를 위한 다음 최상의 오퍼를 결정하고 전달합니다.<br>자세한 내용은 [오퍼 결정 사용](/help/c-integrating-target-with-mac/ajo/offer-decision.md).<br>**참고**: 이 기능은 [!DNL Target] offer decisioning에 액세스할 수 있고 [!DNL Target] 구현 을 참조하십시오. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
