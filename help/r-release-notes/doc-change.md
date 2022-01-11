@@ -1,12 +1,12 @@
 ---
 keywords: target 설명서 변경 로그, 설명서 업데이트, 새 주제, 편집, 업데이트, 업데이트
-description: Adobe [!DNL Target] 제품 설명서의 중요한 추가 사항 및 변경 사항을 최신 상태로 유지하십시오.
+description: 에 대한 중요한 추가 및 변경 사항을 최신 상태로 유지하십시오 [!DNL Adobe Target] 설명서.
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
 workflow-type: tm+mt
-source-wordcount: '3223'
+source-wordcount: '3238'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 1월 11일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 1월 19일)</li></ul> |
 | 1월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | `telemetry` 설정에 대한 정보가 추가되었습니다. |
