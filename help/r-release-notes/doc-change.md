@@ -4,10 +4,10 @@ description: 에 대한 중요한 추가 및 변경 사항을 최신 상태로 �
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
 workflow-type: tm+mt
-source-wordcount: '3228'
-ht-degree: 98%
+source-wordcount: '3245'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 1월 12일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 구현을 위한 지침과 함께 자습서에 대한 링크가 추가되었습니다 [!DNL Adobe Experience Cloud] 사용. |
 | 1월 11일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 1월 19일)</li></ul> |
 | 1월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
