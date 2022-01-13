@@ -4,9 +4,9 @@ breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
 source-git-commit: 89adab57c2f84d6d92056c9c445ca3102f181f38
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1550'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -188,8 +188,8 @@ ht-degree: 99%
          + [지표, 대상 및 보고서 공유 - A4T FAQ](/help/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Adobe Journey Optimizer과 Target 통합 {#ajo}
-      + [오퍼 결정 사용](/help/c-integrating-target-with-mac/ajo/offer-decision.md)
+   + Adobe Journey Optimizer와 Target 통합 {#ajo}
+      + [오퍼 의사 결정 사용](/help/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 대상자](/help/c-integrating-target-with-mac/mmp.md)
    + [Adobe Audience Manager와 Target 통합](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Adobe Campaign과 Target 통합](c-integrating-target-with-mac/campaign-and-target.md)
