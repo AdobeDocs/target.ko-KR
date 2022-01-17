@@ -6,9 +6,9 @@ title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -24,9 +24,9 @@ ht-degree: 96%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
 
-## at.js 버전 2.8.0(2022년 1월 7일)
+## at.js 버전 2.8.0 (2022년 1월 7일)
 
-다음 [!DNL Target] 이제 at.js JavaScript 라이브러리는 기능 사용 및 성능 원격 분석 데이터를 수집합니다. 개인 데이터는 수집되지 않습니다. 이 기능에 대한 옵트아웃은 `telemetryEnabled` false로 `targetGlobalSettings`. 자세한 내용은 [targetGlobalSettings에서 telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+이제 [!DNL Target] at.js JavaScript 라이브러리가 기능 사용 및 성능 원격 분석 데이터를 수집합니다. 개인 데이터는 수집되지 않습니다. 이 기능은 `targetGlobalSettings`에서 `telemetryEnabled`를 false로 설정하여 옵트아웃할 수 있습니다. 자세한 내용은 [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)를 참조하십시오.
 
 ## [!DNL Target Standard/Premium] 21.10.5 (2021년 10월 28일)
 
