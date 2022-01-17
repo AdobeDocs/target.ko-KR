@@ -5,9 +5,9 @@ description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 97%
 
 >[!NOTE]
 >
->[!DNL Adobe Target] 는 최근에 다음 보고서에서 리더로 지정되었습니다.
+>[!DNL Adobe Target]이 최근 다음 보고서에서 리더로 선정되었습니다.
 >
 >**[경험 최적화 플랫폼을 위한 Forrester wave 보고서.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target은 Forrester Wave: 경험 최적화 플랫폼, 2020년 4분기 보고서에서 리더로 선정되었습니다.
 >
