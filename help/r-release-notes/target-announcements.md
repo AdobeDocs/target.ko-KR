@@ -5,9 +5,9 @@ title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 92%
 * **오전 8시(PST, UTC -8)**
 * **[추가 정보 및 등록 정보](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Jon Tehero, 그룹 제품 관리자 [!DNL Adobe Target]은(는) 그의 전문 분야에 관한 귀하의 질문에 답할 것입니다.
+[!DNL Adobe Target]의 그룹 제품 관리자인 Jon Tehero가 자신의 전문 지식을 바탕으로 관련 질문에 답변해 드립니다.
 
-* [!DNL Adobe Target] 통합 [!DNL Adobe Journey Optimizer] (AJO)
+* [!DNL Adobe Target]과 [!DNL Adobe Journey Optimizer](AJO) 통합
 * [!DNL Adobe Target] UI
 * 일반 [!DNL Adobe Target] 주제
 
-## 웨비나: 지연 없이 장치 내 결정을 사용하여 개인화 및 테스트 [!DNL Adobe Target]
+## 웨비나: [!DNL Adobe Target]의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
 마케터와 제품 담당자, 개발자는 사이트, 인 앱 등 고객과 연결되는 모든 곳에서 전반적인 고객 경험을 최적화하는 업무를 그 어느 때보다도 많이 맡고 있습니다. 데이터 사일로와 복잡한 구현이 포함된 여러 툴을 사용해도 이런 과제가 줄어들지 않습니다.
 
