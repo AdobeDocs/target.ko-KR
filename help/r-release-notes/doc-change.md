@@ -1,13 +1,13 @@
 ---
 keywords: target 설명서 변경 로그, 설명서 업데이트, 새 주제, 편집, 업데이트, 업데이트
-description: 에 대한 중요한 추가 및 변경 사항을 최신 상태로 유지하십시오 [!DNL Adobe Target] 설명서.
+description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변경 사항을 최신 상태로 유지하십시오.'
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3245'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,13 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 1월 12일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 구현을 위한 지침과 함께 자습서에 대한 링크가 추가되었습니다 [!DNL Adobe Experience Cloud] 사용. |
+| 1월 12일 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |
 | 1월 11일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 1월 19일)</li></ul> |
 | 1월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | `telemetry` 설정에 대한 정보가 추가되었습니다. |
-|  | [개인정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | 다음 섹션이 추가되었습니다. &quot;기능 사용 데이터 수집&quot; |
-|  | [에서 사용하는 데이터 [!DNL Target] 기계 학습 알고리즘](/help/c-activities/t-automated-personalization/ap-data.md) | 다음을 포함한 전체 주제가 업데이트되었습니다.<ul><li>새 섹션: &quot;기능 차단 [!DNL Target] 기계 학습 알고리즘&quot;</li><li>여러 테이블에 &quot;시스템 이름&quot; 열 및 정보를 추가했습니다.</li></ul> |
+|  | [개인정보 보호](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | “기능 사용 데이터 수집” 섹션이 추가되었습니다. |
+|  | [ [!DNL Target] 머신 러닝 알고리즘에서 사용되는 데이터](/help/c-activities/t-automated-personalization/ap-data.md) | 다음을 포함하여 전체 주제가 업데이트되었습니다.<ul><li>신규 섹션: “[!DNL Target] 머신 러닝 알고리즘에서 기능 차단하기”</li><li>여러 표에 “시스템 이름” 열과 정보가 추가되었습니다.</li></ul> |
 | 12월 17일 | [중요 속성 보고서](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | 중요 속성 보고서 조회 시 날짜 범위에 대해 다음과 같은 사항이 추가되었습니다.<ul><li>현재 [!DNL Target] UI를 통해 45일과 90일 날짜 범위를 선택할 수 있습니다. 그러나 [!DNL Target] 백엔드는 이들 두 범위를 처리하지 않습니다. 사용 패턴과 성능 향상을 위해 이들 날짜 범위는 더 이상 사용되지 않습니다. 현재 허용되는 범위인 15일, 30일 및 60일을 반영하도록 UI가 업데이트될 예정입니다.</li></ul> |
 | 12월 7일 | [Target의 추천 알고리즘에 숨겨진 과학](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | 새 주제입니다. |
 | 12월 2일 | [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | 추천 키가 mbox 매개 변수 cartIds를 통해 쉼표로 구분된 값으로 제공되도록 장바구니 기반 알고리즘이 업데이트되었습니다. 처음 10개의 값만 고려됩니다. |
@@ -103,9 +103,9 @@ ht-degree: 97%
 | 7월 29일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break: 2021년 8월 11일 수요일에 대한 정보가 추가되었습니다. |
 |  | [글로벌 mbox 사용자 지정](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 글로벌 mbox를 사용자 맞춤화한 후 VEC에서 생성된 영향을 받는 활동을 편집하고 다시 저장해야 함을 나타내기 위해 중요 참고 사항이 업데이트되었습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>EEC(고급 경험 작성기)가 PUT 요청을 지원하지 않습니다.</li></ul> |
-| 7월 27일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>권장 설명서</li></ul> |
+| 7월 27일 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>권장 설명서</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>콘텐츠 전달</li></ul> |
-| 7월 26일 | *Adobe Experience Platform 웹 SDK 개요* 안내서에서 [플랫폼 웹 SDK로 Adobe Target 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko_KR) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform Web SDK 시스템 다이어그램</li></ul> |
+| 7월 26일 | *Adobe Experience Platform Web SDK 개요* 안내서에서 [플랫폼 웹 SDK로 Adobe Target 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko_KR) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform Web SDK 시스템 다이어그램</li></ul> |
 | 7월 23일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 자세한 내용을 제공하기 위해 다음 섹션을 업데이트했습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | “경험”에 “경험당 수정 사항”이라는 새로운 섹션이 추가되었습니다. |
 | 7월 21일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
@@ -218,7 +218,7 @@ ht-degree: 97%
 | 1월 22일 | [전환율](/help/c-reports/conversion-rate.md#t-test) | 다음 섹션 추가: &quot;Target이 학생의 t-테스트 사용을 권장하는 이유는 무엇입니까?&quot; |
 | 1월 21일 | [Analytics 및 Target 통합 문제 해결 (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | 새 섹션 추가: &quot;A4T 활동 보고서에는 &quot;지정되지 않은&quot; 이벤트가 많은 행이 포함됩니다.&quot; |
 |  | [보고서 보기 - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | 다음 섹션 업데이트: &quot;Analytics 보고서에 &quot;지정되지 않음&quot;이 표시되는 이유는 무엇입니까? 어떤 의미입니까?&quot; |
-| 1월 20일 | [Adobe Experience Platform 웹 SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 새 주제입니다. |
+| 1월 20일 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 새 주제입니다. |
 | 1월 19일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Target 21.1.1 릴리스(2021년 1월 19일)에 대한 정보가 추가되었습니다. |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | `productPurchasedID` 매개 변수에 대한 텍스트가 업데이트되었습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 활성 프로모션을 사용하여 [!UICONTROL 권장 사항] 활동을 복사할 때 알려진 문제가 추가되었습니다. 중복 활동의 변경 사항은 원래 활동에도 영향을 미치며, 그 반대의 경우도 마찬가지입니다. 임시 해결 방법이 포함되었습니다. |
