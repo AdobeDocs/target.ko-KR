@@ -23,7 +23,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target]의 그룹 제품 관리자인 Jon Tehero가 자신의 전문 지식을 바탕으로 관련 질문에 답변해 드립니다.
 
-* [!DNL Adobe Target]과 [!DNL Adobe Journey Optimizer](AJO) 통합
+* [!DNL Adobe Target]과 [!DNL Adobe Journey Optimizer] (AJO) 통합
 * [!DNL Adobe Target] UI
 * 일반 [!DNL Adobe Target] 주제
 
