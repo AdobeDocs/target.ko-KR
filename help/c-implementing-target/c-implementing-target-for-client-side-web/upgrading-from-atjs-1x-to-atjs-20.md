@@ -1,14 +1,14 @@
 ---
 keywords: at.js 릴리스;at.js 버전;단일 페이지 앱;spa;크로스 도메인;cross-도메인
-description: Adobe [!DNL Target] at.js 1.x에서 at.js 2.x로 업그레이드하는 방법을 알아봅니다. 시스템 흐름 다이어그램을 살펴보고, 새로운 기능과 더 이상 사용되지 않는 기능에 대해 알아봅니다.
+description: Adobe에서 업그레이드하는 방법 알아보기 [!DNL Target] at.js 1.x에서 at.js 2.x로 업그레이드 시스템 흐름 다이어그램을 살펴보고, 새로운 기능과 더 이상 사용되지 않는 기능에 대해 알아봅니다.
 title: at.js 버전 1.x에서 버전 2.x로 업그레이드하려면 어떻게 합니까?
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '2758'
-ht-degree: 91%
+source-wordcount: '2821'
+ht-degree: 89%
 
 ---
 
@@ -47,18 +47,18 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 | --- | --- |
 | 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
 | 2개 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
-| 1 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 3 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
 | 5개 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
 
 ## at.js 2.*x* {#deploy-atjs-200}
 
-1. at.js 2.** 확장 프로그램에서 태그를  [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 확장합니다.
+1. at.js 2.*x* 의 태그를 통해 [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 확장.
 
    >[!NOTE]
    >
-   > [!DNL Adobe Experience Platform]에서 태그를 사용하여 at.js를 배포하는 것이 좋습니다.
+   > 에서 태그를 사용하여 at.js 배포 [!DNL Adobe Experience Platform] 는 기본 방법입니다.
 
    또는
 
@@ -217,7 +217,7 @@ at.js 2.*x*&#x200B;에서는 더 이상 사용되지 않는 몇 가지 함수가
 
 `mboxCreate()`을 `getOffer()`나 `applyOffer()`로 대체하지 않는 고객의 경우 오퍼가 게재되지 않을 수 있습니다.
 
-### at.js 2.*x*&#x200B;는 at.js 1.** xis를 다른 페이지에서 사용할 수 있습니까?
+### at.js 2.*x*&#x200B;는 at.js 1.*x* 다른 페이지에 있습니까?
 
 예. 방문자 프로필은 서로 다른 버전 및 라이브러리를 사용하는 여러 페이지 간에 보존됩니다. 쿠키 형식은 동일합니다.
 
@@ -248,7 +248,7 @@ at.js 2.*x*&#x200B;에서는 더 이상 네트워크 호출에 “`target-global
 
 ### at.js에서 글로벌 mbox 이름이 문제가 됩니까?
 
-고객은 [!UICONTROL Target > 관리 > 구현 > at.js 설정 편집]을 통해 글로벌 mbox 이름을 지정할 수 있습니다. 이 설정은 [!DNL Target] Edge Server에서 execute > pageLoad를 [!DNL Target] UI에 나타나는 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버 측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox 이름을 사용하여 대상을 만들 수 있습니다. 또한 at.js 1.*x*&#x200B;에 대해 자세히 알아보십시오.
+고객은 를 통해 글로벌 mbox 이름을 지정할 수 있습니다 [!UICONTROL Target > 관리 > 구현 > at.js 설정 편집]. 이 설정은 [!DNL Target] Edge Server에서 execute > pageLoad를 [!DNL Target] UI에 나타나는 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버 측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox 이름을 사용하여 대상을 만들 수 있습니다. 또한 동일한 글로벌 mbox 이름이 [!UICONTROL 관리 > 시각적 경험 작성기] 페이지 호출 수도 있습니다. at.js 1.*x*&#x200B;다음 그림에서 보듯이,
 
 ![at.js 수정 대화 상자](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
@@ -288,7 +288,7 @@ Target에서 타사 쿠키가 `<CLIENTCODE>.tt.omtrdc.net`에 저장됩니다. �
 
 그러나 at.js 2.*x*&#x200B;에서는 HTTP GET이 더 이상 사용되지 않고 대신 HTTP POST를 사용합니다. 이제 HTTP POST가 at.js 2.*x*&#x200B;를 통해 Target Edge 서버에 JSON 페이로드를 전송하는데 사용됩니다. 이것은 브라우저가 타사 쿠키를 지원하는지 여부를 확인하는 리디렉션 요청이 이제 중단됨을 의미합니다. 이것은 HTTP GET 요청은 멱등 트랜잭션이 아니지만 HTTP POST는 비멱등이어서 임의로 반복되면 안 되기 때문입니다. 따라서 at.js 2.*x*&#x200B;의 도메인 간 추적은 더 이상 지원되지 않습니다. at.js 1.*x*&#x200B;는 도메인 간 추적을 위한 기본 지원을 제공합니다.
 
-도메인 간 추적을 사용하려면 at.js 2x와 함께 [ECID Library v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 설치해야 합니다.*x*&#x200B;에서 지원되지 않습니다. ECID 라이브러리는 도메인 간에 방문자를 식별하는 데 사용되는 영구 ID를 관리하기 위해 존재합니다.
+도메인 간 추적을 사용하려면 [ECID 라이브러리 v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR) 를 at.js 2.*x*&#x200B;에서 지원되지 않습니다. ECID 라이브러리는 도메인 간에 방문자를 식별하는 데 사용되는 영구 ID를 관리하기 위해 존재합니다.
 
 >[!NOTE]
 >
@@ -300,7 +300,7 @@ Target에서 타사 쿠키가 `<CLIENTCODE>.tt.omtrdc.net`에 저장됩니다. �
 
 ### 글로벌 mbox 이름이 지원됨
 
-고객은 [!UICONTROL Target > 관리 > 구현 > 편집]을 통해 글로벌 mbox 이름을 지정할 수 있습니다. 이 설정은 [!DNL Target] Edge Server에서 execute > pageLoad를 입력된 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버 측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox를 타깃팅하는 대상을 만들 수 있습니다.
+고객은 를 통해 글로벌 mbox 이름을 지정할 수 있습니다 [!UICONTROL Target > 관리 > 구현 > 편집]. 이 설정은 [!DNL Target] Edge Server에서 execute > pageLoad를 입력된 글로벌 mbox 이름으로 변환하는 데 사용됩니다. 이렇게 변환하면 고객은 계속해서 서버 측 API, 양식 기반 작성기, 프로필 스크립트를 사용할 수 있으며 글로벌 mbox를 타깃팅하는 대상을 만들 수 있습니다.
 
 ### 아래의 at.js 사용자 지정 이벤트는 `triggerView()`에 적용할 수 있습니까? 아니면 `applyOffer()`나 `applyOffers()`에만 적용할 수 있습니까?
 
@@ -311,7 +311,7 @@ Target에서 타사 쿠키가 `<CLIENTCODE>.tt.omtrdc.net`에 저장됩니다. �
 
 at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습니다.
 
-### &amp;bradis;`“page” : “true”`&amp;bradance;를 사용하여 `triggerView()`을 호출하면 [!DNL Target] 백엔드에 알림이 전송되고 노출이 증가합니다. 이렇게 되면 프로필 스크립트도 실행됩니까?
+### 전화하면 이렇게 나와 있어요 `triggerView()` &amp;lbrace;`“page” : “true”`&amp;rbrace;에 알림을 보냅니다. [!DNL Target] 백엔드에 도달하고 노출을 늘립니다. 이렇게 되면 프로필 스크립트도 실행됩니까?
 
 [!DNL Target] 백엔드에 미리 가져오기 호출이 수행되면 프로필 스크립트가 실행됩니다. 그런 다음 영향을 받은 프로필 데이터가 암호화되어 클라이언트측으로 다시 전달됩니다. `{"page": "true"}`인 `triggerView()`를 호출하면 암호화된 프로필 데이터와 함께 알림이 전송됩니다. 이때 [!DNL Target] 백엔드가 프로필 데이터를 해독하고 데이터베이스에 저장합니다.
 
@@ -319,9 +319,9 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 
 아니요. `triggerView()`를 호출하기 전에 사전 숨김(pre-hiding) 코드를 추가할 필요는 없습니다. at.js 2.*x에서는 보기가 표시되고 적용되기 전에 사전 숨김 및 플리커(깜박임) 로직을 관리합니다.*
 
-### 어느 at.js 1.** 대상을 만들기 위한 xparameters는 at.js 2에서 지원되지 않습니다.*x*? {#audience-parameters}
+### 어느 at.js 1.*x* 대상을 만들기 위한 매개 변수는 at.js 2에서 지원되지 않습니다.*x*? {#audience-parameters}
 
-다음 at.js 1.x 매개 변수는 at.js 2.***x*:
+다음 at.js 1.x 매개 변수는 다음과 같습니다 *NOT* 현재 at.js 2.*x*:
 
 * browserHeight
 * browserWidth
@@ -331,10 +331,15 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 * screenOrientation
 * colorDepth
 * devicePixelRatio
+* vst.* 매개 변수 ([아래 참조](#vst))
+
+### at.js 2.*x* 은 vst를 사용하여 대상을 만드는 것을 지원하지 않습니다.* 매개 변수 {#vst}
+
+at.js 1.*x* vst를 사용할 수 있었습니다.* mbox 매개 변수를 사용하여 대상을 만듭니다. 이는 at.js 1.*x* mbox 매개 변수를 로 전송 [!DNL Target] 백 엔드. at.js 2로 마이그레이션한 후.*x* at.js 2.*x* mbox 매개 변수를 다르게 보냅니다.
 
 ## at.js 호환성
 
-다음 표에서는 다양한 활동 유형, 통합, 기능 및 at.js 함수와의 at.js 2.*x* 다른 활동 유형, 통합, 기능 및 at.js 함수와의 호환성.
+다음 표에서는 다양한 활동 유형, 통합, 기능 및 at.js 함수와의 at.js 2.*x* 다양한 활동 유형, 통합, 기능 및 at.js 함수와의 호환성.
 
 ### 활동 유형 {#types}
 
@@ -403,7 +408,7 @@ at.js 2.*x*&#x200B;는 at.js 1.*x*&#x200B;와 마찬가지로 사용자 지정 �
 매개 변수 매핑을 찾기 전에 이러한 라이브러리 버전에서 사용 중인 엔드포인트가 다음과 같이 변경되었습니다.
 
 * at.js 1.*x* - `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
-* at.js 2.*x*  -  `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
+* at.js 2.*x* - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
 
 또 다른 중요한 차이점은 다음과 같습니다.
 
@@ -411,7 +416,7 @@ at.js 2.*x*&#x200B;는 at.js 1.*x*&#x200B;와 마찬가지로 사용자 지정 �
 * at.js 2.*x* - 클라이언트 코드는 다음과 같은 쿼리 문자열 매개 변수로 전송됩니다.
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-다음 섹션에는 at.js 1.** xparameter, 그 설명 및 해당 2.** xJSON 페이로드(해당되는 경우)가:
+다음 섹션에는 at.js 1.*x* 매개 변수, 설명 및 해당 2.*x* JSON 페이로드(해당되는 경우):
 
 ### at_property
 
@@ -755,10 +760,10 @@ at.js 2.*x* JSON 페이로드:
 
 버전은 버전 매개 변수를 통해 쿼리 문자열 매개 변수로 전송됩니다.
 
-## 교육 비디오: at.js 2.** xarchitectural diagram  ![개요 배지](/help/assets/overview.png)
+## 교육 비디오: at.js 2.*x* 아키텍처 다이어그램 ![개요 배지](/help/assets/overview.png)
 
 at.js 2.*x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experience Cloud 솔루션과 통합됩니다.* 다음 비디오에서는 모든 것이 어떻게 합쳐지는지 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-[at.js 2.** ](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) xworkspace 를 참조하십시오.
+자세한 내용은 [at.js 2.*x* 작업](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) 추가 정보.
