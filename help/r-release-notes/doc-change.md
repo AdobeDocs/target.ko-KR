@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
+source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
-source-wordcount: '3266'
+source-wordcount: '3276'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 1월 21일 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 19일 | [at.js 1.*x* 에서 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst)&#x200B;로 업그레이드 | 다음 섹션이 추가되었습니다. &quot;at.js 2.*x* 은 vst를 사용하여 대상을 만드는 것을 지원하지 않습니다.* 매개 변수&quot; |
 | 1월 12일 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |
 | 1월 11일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 1월 19일)</li></ul> |

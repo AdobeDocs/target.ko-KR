@@ -5,9 +5,9 @@ title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
+source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
-source-wordcount: '4318'
+source-wordcount: '4357'
 ht-degree: 88%
 
 ---
@@ -22,15 +22,22 @@ ht-degree: 88%
 >
 >의 태그 [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Adobe Experience Platform] 카탈로그가 업그레이드로 제공됩니다. 자세한 내용은 [확장 업그레이드](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 에서 *태그 개요* 안내서.
 
-## at.js 버전 2.8.0(2022년 1월 7일)
+## at.js 버전 2.8.0 (2022년 1월 7일)
 
-다음 [!DNL Target] 이제 at.js JavaScript 라이브러리는 기능 사용 및 성능 원격 분석 데이터를 수집합니다. 개인 데이터는 수집되지 않습니다. 이 기능에 대한 옵트아웃은 `telemetryEnabled` false로 `targetGlobalSettings`. 자세한 내용은 [targetGlobalSettings에서 telemetryEnabled](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+이제 [!DNL Target] at.js JavaScript 라이브러리가 기능 사용 및 성능 원격 분석 데이터를 수집합니다. 개인 데이터는 수집되지 않습니다. 이 기능은 `targetGlobalSettings`에서 `telemetryEnabled`를 false로 설정하여 옵트아웃할 수 있습니다. 자세한 내용은 [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)를 참조하십시오.
 
 ## at.js 버전 2.7.0(2021년 10월 28일)
 
 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 * [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components)에 대한 지원이 추가되었습니다. 이 버전의 at.js는 맞춤형 요소 및 맞춤형 요소 내부의 요소에 대한 개인화된 경험과 오퍼를 만들고 테스트하는 데 필요합니다. 이 기능은 [!DNL Target Standard/Premium] 21.10.5 릴리스에 포함되어 있습니다.
+
+## at.js 1.8.3(2021년 9월 21일) {#183}
+
+이 릴리스에는 다음 변경 사항이 포함됩니다.
+
+* 제거된 `reactor-window` 및 `reactor-document` [!DNL Adobe Experience Platform Launch] 모듈 [!DNL Platform Launch] 올바르게 함수 구축 `window.default` 또는 `document-default` 설정합니다.
+* 이제 at.js 1.8.3에서 명시적으로 설정 `Samesite=None` 및 `Secure` 타사 도메인 쿠키가 올바르게 설정되었는지 확인합니다.
 
 ## at.js 2.6.1 (2021년 8월 16일)
 
