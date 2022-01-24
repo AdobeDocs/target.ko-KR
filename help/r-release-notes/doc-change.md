@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
 workflow-type: tm+mt
 source-wordcount: '3276'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 1월 21일 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
-| 1월 19일 | [at.js 1.*x* 에서 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst)&#x200B;로 업그레이드 | 다음 섹션이 추가되었습니다. &quot;at.js 2.*x* 은 vst를 사용하여 대상을 만드는 것을 지원하지 않습니다.* 매개 변수&quot; |
+| 1월 19일 | [at.js 1.*x* 에서 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst)&#x200B;로 업그레이드 | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개 변수&quot; |
 | 1월 12일 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |
 | 1월 11일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 1월 19일)</li></ul> |
 | 1월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
@@ -107,7 +107,7 @@ ht-degree: 99%
 |  | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>EEC(고급 경험 작성기)가 PUT 요청을 지원하지 않습니다.</li></ul> |
 | 7월 27일 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>권장 설명서</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md#content-delivery) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>콘텐츠 전달</li></ul> |
-| 7월 26일 | *Adobe Experience Platform Web SDK 개요* 안내서에서 [플랫폼 웹 SDK로 Adobe Target 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko_KR) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform Web SDK 시스템 다이어그램</li></ul> |
+| 7월 26일 | *Adobe Experience Platform Web SDK 개요* 안내서에서 [플랫폼 웹 SDK로 Adobe Target 사용](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko-KR) | 다음과 같은 새로운 섹션이 추가되었습니다.<ul><li>Platform Web SDK 시스템 다이어그램</li></ul> |
 | 7월 23일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 자세한 내용을 제공하기 위해 다음 섹션을 업데이트했습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
 |  | [제한](/help/r-troubleshooting-target/target-limits.md) | “경험”에 “경험당 수정 사항”이라는 새로운 섹션이 추가되었습니다. |
 | 7월 21일 | [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?</li></ul> |
