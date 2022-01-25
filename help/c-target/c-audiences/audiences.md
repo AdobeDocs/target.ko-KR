@@ -1,12 +1,12 @@
 ---
 keywords: 대상;대상 규칙;대상 만들기;대상 작성;대상 타깃팅;보고 대상;보고서 대상;세그먼트;사용자 지정 프로필 매개 변수;대상 정의;대상 목록
-description: 사용 방법을 알아봅니다 [!UICONTROL 대상] 목록 [!DNL Adobe Target].
+description: 에서 대상을 사용하는 방법을 알아봅니다. [!DNL Adobe Target].
 title: 대상 목록을 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: d8b18c77d6df2fb9db01b64268e555f9a4b10adf
+source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
 workflow-type: tm+mt
-source-wordcount: '774'
+source-wordcount: '772'
 ht-degree: 30%
 
 ---
