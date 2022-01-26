@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
+source-git-commit: a7f28b4d94cb18bb3e50c7b04918a516f0d10616
 workflow-type: tm+mt
-source-wordcount: '32655'
+source-wordcount: '32598'
 ht-degree: 99%
 
 ---
@@ -23,11 +23,9 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 
 ## 릴리스 정보 - 2022
 
-### [!DNL Target Standard/Premium] 22.1.2(2022년 1월 12일)
+### [!DNL Target Standard/Premium] 22.1.1(2022년 1월 12일)
 
-| 기능 | 세부 사항 |
-| --- | --- |
-| 에서 오퍼 결정 사용 [!DNL Target] 활동 | 이제 다음을 사용할 수 있습니다 [!DNL Adobe Journey Optimizer] 제안 결정 [!DNL Adobe Target] A/B 테스트 및 경험 타깃팅(XT) 활동을 통해 웹 및 모바일에서 방문자를 위한 다음 최상의 오퍼를 결정하고 전달합니다.<br>**참고**: 이 기능은 [!DNL Target] 또한 [!DNL Offer Decisioning] 그리고 [!DNL Target] 구현 을 참조하십시오.<br>자세한 내용은 [오퍼 결정 사용](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
+이 릴리스에는 향후 통합을 위한 버그 수정 및 전제 조건 기능이 포함되어 있습니다.
 
 ## 릴리스 정보 - 2021
 
