@@ -4,22 +4,18 @@ description: 에서 만든 오퍼 결정을 추가하는 방법을 알아봅니�
 title: 오퍼 결정을 사용하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
+source-git-commit: 9843b146b35de3a42408b689f4326fce12bbee5d
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1003'
 ht-degree: 0%
 
 ---
 
-# 오퍼 결정 사용
+# 오퍼 의사 결정 사용
 
 사용 [!DNL Adobe Target] with [!DNL Adobe Journey Optimizer] 웹 및 모바일에서 방문자를 위한 다음 최상의 오퍼를 결정하고 전달하는 오퍼를 결정합니다.
 
 에서 만든 오퍼 결정 추가 [!DNL Adobe Journey Optimizer] to [!DNL Target] 활동(수동) [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅])을 사용하여 다음을 수행할 수 있습니다. [!UICONTROL 시각적 경험 작성기] (VEC) 또는 [!UICONTROL 양식 기반 작성기] 다음 방법으로 제공되는 인바운드 채널에서 개인화된 오퍼를 방문자에게 테스트 및 전달합니다 [!DNL Target].
-
->[!NOTE]
->
->현재 베타 버전에서 이 항목에 설명된 오퍼 결정 기능이며 고객만 선택할 수 있습니다.
 
 에 대한 자세한 정보 [!DNL Adobe Journey Optimizer]를 참조하십시오. [Journey Optimizer 시작](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 에서 *Journey Optimizer* 설명서.
 

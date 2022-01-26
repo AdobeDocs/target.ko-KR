@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7c8620df9cefe422f499d4edb681d024e74529ce
 workflow-type: tm+mt
-source-wordcount: '3276'
-ht-degree: 100%
+source-wordcount: '3318'
+ht-degree: 99%
 
 ---
 
@@ -15,13 +15,22 @@ ht-degree: 100%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
+## [!DNL Adobe Target Standard/Premium] 22.1.1(2022년 1월 12일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 1월 26일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.2 릴리스에 대한 정보가 추가되었습니다. |
+|  | [대상자 만들기](/help/c-target/c-audiences/audiences.md) | 에 대한 정보가 추가되었습니다 [!DNL Adobe Experience Platform] 대상. |
+|  | [여러 대상 결합](/help/c-target/combining-multiple-audiences.md) | 에 대한 정보가 추가되었습니다 [!DNL Adobe Experience Platform] 대상. |
+| 1월 21일 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
+| 1월 19일 | [at.js 1.*x* 에서 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst)&#x200B;로 업그레이드 | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개 변수&quot; |
+| 1월 12일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.1 릴리스에 대한 정보가 추가되었습니다. |
+|  | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |
+
 ## [!DNL Adobe Target Standard/Premium] 21.10.1 (2021년 10월 6일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 1월 21일 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
-| 1월 19일 | [at.js 1.*x* 에서 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst)&#x200B;로 업그레이드 | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개 변수&quot; |
-| 1월 12일 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |
 | 1월 11일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 1월 19일)</li></ul> |
 | 1월 7일 | [릴리스 정보](/help/r-release-notes/release-notes.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 버전 2.8.0 릴리스에 대한 정보가 추가되었습니다. |

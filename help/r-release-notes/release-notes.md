@@ -2,13 +2,13 @@
 keywords: 릴리스 정보;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트
 description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
 landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
-title: 현재 릴리스에는 어떤 새로운 기능이 포함됩니까?
+title: 현재 릴리스에 포함된 것은 무엇입니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
-workflow-type: ht
-source-wordcount: '1140'
-ht-degree: 100%
+source-git-commit: 8d252255499dd8ece5e1de1220a97723659a4bf8
+workflow-type: tm+mt
+source-wordcount: '690'
+ht-degree: 75%
 
 ---
 
@@ -16,86 +16,23 @@ ht-degree: 100%
 
 이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 Target API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 사항에 대한 릴리스 정보도 포함됩니다.
 
->[!IMPORTANT]
->
->**mbox.js 서비스 종료**: 2021년 3월 31일부터 [!DNL Adobe Target] 에서는 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2021년 3월 31일 이후, mbox.js로부터의 모든 호출은 정상적으로 실패하고 기본 콘텐츠를 제공하여 [!DNL Target] 활동이 실행되는 페이지에 영향을 미칩니다.
->
->새로운 [!DNL Adobe Experience Platform Web SDK]의 가장 최근 또는 사이트에 문제가 발생할 가능성을 피하기 위해 at.js JavaScript 라이브러리로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
-
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
+
+## [!DNL Target Standard/Premium] 22.1.2(2022년 1월 26일)
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| [!DNL Adobe Experience Platform] 대상 [!DNL Target] | 이제 소비하고 사용할 수 있습니다 [!DNL Adobe Experience Platform] 대상 [!DNL Target]. 다음 [!DNL Target] 팀, [!DNL Experience Platform] [!DNL Destinations] 팀 및 [!DNL Unified Profile Service] 팀은 &quot;동일한 페이지/다음 페이지 개인화&quot; 사용 사례의 일반 가용성을 발표하게 되어 기쁩니다.<br>에서 만든 대상 사용 [!DNL Adobe Experience Platform] 는 더 효과적인 개인화를 생성하는 더 풍부한 고객 데이터를 제공합니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCP), 기본 제공 [!DNL Adobe Experience Platform] 은 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 결합하여 고객 프로필을 생성하고, 이 프로필을 작성하여 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공할 수 있도록 지원합니다.<br>자세한 내용은 [Adobe Experience Platform의 대상 사용](/help/c-target/c-audiences/audiences.md#aep) in *대상자 만들기*. |
+| [!UICONTROL 대상] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일부로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상을 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상 빌더 디자인](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 대상] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 “대상 소스” 필터</li><li>세션 영구 검색 및 필터 옵션</li><li>의 작업 공간 간에 대상을 이동하는 기능 [!DNL Target Premium] 고객.</li></ul>자세한 내용은 [대상](/help/c-target/target.md)을 참조하십시오.<br>**참고**: 이 기능은 향후 6주 동안 서로 다른 지역의 고객에게 롤아웃됩니다. |
+| [!UICONTROL 프로필 스크립트] UI 새로 고침 | 또한 [!UICONTROL 프로필 스크립트] 라이브러리가 업데이트되고, 새로운 인터페이스와 몇 가지 생산성 업데이트가 여기에 포함됩니다.<ul><li>여러 프로필 스크립트를 동시 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트용 새로운 편집기 코드</li><li>코드 편집기 내 구문 강조 표시 및 오류 검사</li><li>키보드 단축키를 통한 자동 완성 토큰(mbox 또는 프로필) 매개 변수</li></ul>자세한 내용은 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md)을 참조하십시오.<br>**참고**: 이 기능은 향후 6주 동안 서로 다른 지역의 고객에게 롤아웃됩니다. |
+
+## [!DNL Target Standard/Premium] 22.1.1(2022년 1월 12일)
+
+이 릴리스에는 향후 통합을 위한 버그 수정 및 전제 조건 기능이 포함되어 있습니다.
 
 ## at.js 버전 2.8.0 (2022년 1월 7일)
 
 이제 [!DNL Target] at.js JavaScript 라이브러리가 기능 사용 및 성능 원격 분석 데이터를 수집합니다. 개인 데이터는 수집되지 않습니다. 이 기능은 `targetGlobalSettings`에서 `telemetryEnabled`를 false로 설정하여 옵트아웃할 수 있습니다. 자세한 내용은 [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)를 참조하십시오.
-
-## [!DNL Target Standard/Premium] 21.10.5 (2021년 10월 28일)
-
-이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| [!UICONTROL 시각적 경험 작성기] (VEC) | [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components)에 대한 지원이 추가되었습니다. 맞춤형 요소 및 맞춤형 요소 내부의 요소에 대해 개인화된 경험과 오퍼를 만들고 테스트할 수 있습니다.<br>자세한 내용은 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)을 참조하십시오. |
-
-## [!DNL Target Standard/Premium] 21.10.4 (2021년 10월 21일)
-
-이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| 장바구니 기반 추천 | 방문자 장바구니의 콘텐츠를 기반으로 추천을 제공하는 새로운 알고리즘 제품군을 추가했습니다.<br>자세한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md)의 “장바구니 기반”, [추천 계획 및 구현](/help/c-recommendations/plan-implement.md)의 “장바구니 추가/장바구니 보기/체크아웃 페이지“와 “방문자의 장바구니에 이미 있는 항목 제외“ 및 [추천 키를 기준으로 추천](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)의 “장바구니 기반”을 참조하십시오. |
-
-## [!DNL Target Standard/Premium] 21.10.3 (2021년 10월 19일)
-
-이 유지 보수 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
-
-* 고객이[!DNL Target] 활동 보고에서 [!UICONTROL Analytics에서 보기] 버튼을 클릭하여 [!DNL Analysis Workspace]에서 [!UICONTROL A4T] 패널을 열지 못하는 문제가 해결되었습니다. (TGT-42099, TGT-42100)
-* [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타기팅] (XT) 활동을 [!UICONTROL 양식 기반 경험 작성기]를 사용하여 편집하는 동안 [!UICONTROL 디자인 편집] 버튼이 표시되지 않는 문제가 해결되었습니다. (TGT-41980)
-* 새로운 [!UICONTROL 추천] 활동을 생성하는 동안 [!UICONTROL 호환 가능] 확인란이 기준 선택에 표시되지 않는 문제가 해결되었습니다. (TGT-42053)
-* [!DNL Analytics] 권한이 없어 [!DNL Analytics]를 보고 소스(A4T)로 선택할 수 없을 때 표시되는 잘못된 오류 메시지가 수정되었습니다. (TGT-41954)
-* [!DNL Target] UI에서 키보드 탐색을 개선하기 위해 여러 접근성 수정 사항이 구현되었습니다.
-
-## [!DNL Target Standard/Premium] 21.10.2 (2021년 10월 13일)
-
-[!DNL Target] [!DNL Adobe Experience Platform Web SDK]로 [!UICONTROL 대상]을 사용하는 경우 다음과 같은 기능이 추가됩니다.
-
-* [!DNL Target] UI의 다양한 위치에 경고 아이콘, 팝오버 및 메시지를 추가하여 소스에서 대상이 삭제되었고 [!DNL Target] 활동에서 더 이상 사용할 수 없음을 표시할 수 있습니다.
-
-   다음 그림은 아이콘, 팝오버 및 메시지가 표시되는 일부 위치를 보여 줍니다.
-
-   * [!UICONTROL 활동] 목록 페이지
-
-      ![활동 목록 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-audiences-list.png)
-
-   * 활동 [!UICONTROL 개요] 페이지:
-
-      ![개요 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-overview.png)
-
-   * 활동 만들기 워크플로의 [!UICONTROL 경험] 단계:
-
-      ![[!UICONTROL 경험] 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-experiences.png)
-
-   * 활동 만들기 워크플로의 [!UICONTROL 타기팅] 단계:
-
-      ![[!UICONTROL 타기팅] 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-targeting.png)
-
-   * 활동 만들기 워크플로의 [!UICONTROL 목표 및 설정] 단계:
-
-      ![[!UICONTROL 목표 및 설정] 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-goals-settings.png)
-
-   * 대상 세분화(활동 만들기 워크플로의 [!UICONTROL 타기팅] 단계에서 [!UICONTROL 대상 대체]):
-
-* Combine Audiences 기능을 사용하려고 하고 소스에서 대상 중 하나가 삭제되면 [!UICONTROL 저장]이 비활성화됩니다.
-
-## [!DNL Target Standard/Premium] 21.10.1 (2021년 10월 6일)
-
-이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| [!UICONTROL 대상] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일부로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상을 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상 빌더 디자인](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 대상] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 “대상 소스” 필터</li><li>세션 영구 검색 및 필터 옵션</li></ul>자세한 내용은 [대상](/help/c-target/target.md)을 참조하십시오.<br>**참고**: 새로운 [!UICONTROL 대상] UI는 일부 고객만 사용할 수 있습니다. 업데이트는 2022년 1월부터 모든 고객에게 점진적으로 배포될 예정입니다. |
-| [!UICONTROL 프로필 스크립트] UI 새로 고침 | 또한 [!UICONTROL 프로필 스크립트] 라이브러리가 업데이트되고, 새로운 인터페이스와 몇 가지 생산성 업데이트가 여기에 포함됩니다.<ul><li>여러 프로필 스크립트를 동시 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트용 새로운 편집기 코드</li><li>코드 편집기 내 구문 강조 표시 및 오류 검사</li><li>키보드 단축키를 통한 자동 완성 토큰(mbox 또는 프로필) 매개 변수</li></ul>자세한 내용은 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md)을 참조하십시오.<br>**참고**: 새로운 [!UICONTROL 프로필 스크립트] UI는 일부 고객만 사용할 수 있습니다. 업데이트는 2022년 1월부터 모든 고객에게 점진적으로 배포될 예정입니다. |
-| ![프리미엄 배지](/help/assets/premium.png) 추천 항목 기준 만들기 및 편집 | 목표 달성에 적합한 추천 항목 알고리즘 및 설정 선택을 단순화하기 위해 [!UICONTROL 추천 항목 기준] 만들기 및 편집 워크플로가 간소화되었습니다.<br>자세한 내용은 [기준 만들기](/help/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오. |
-| ![프리미엄 배지](/help/assets/premium.png) 추천 전환 확인 기간 및 알고리즘 새로 고침 빈도 개선 사항 | 이제 6시간 전환 확인 기간을 통해 “가장 많이 본 항목”과 ”최상위 판매자” 알고리즘을 실행하여 가장 최근에 트렌딩하는 콘텐츠를 캡처할 수 있습니다. 6시간 전환 확인 기간을 선택하면 하루에 3~6시간마다 추천 결과가 업데이트됩니다.<br>자세한 내용은 *기준 만들기*&#x200B;의 [데이터 소스](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)를 참조하십시오. |
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

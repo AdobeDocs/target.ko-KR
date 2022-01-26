@@ -4,10 +4,10 @@ description: 에서 대상을 사용하는 방법을 알아봅니다. [!DNL Adob
 title: 대상 목록을 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 30%
+source-wordcount: '1044'
+ht-degree: 25%
 
 ---
 
@@ -47,7 +47,9 @@ ht-degree: 30%
    >
    >다음 [!DNL Adobe Experience Platform] 모든 사용자가 소스를 사용할 수 있습니다. [!DNL Target] 고객이 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 에서 사용할 수 있는 대상 [!DNL Adobe Experience Platform] 는 그대로 또는 로 사용할 수 있습니다. [기존 대상과 결합](/help/c-target/combining-multiple-audiences.md).
    >
-   >사용자에게 [!UICONTROL 승인자] 또는 위 상태 [!DNL Target] 를 [!DNL Target] [!UICONTROL 대상] AEP/RTCDP의 카드([!DNL Real-Time Customer Data Platform]).
+   >사용자에게 [!UICONTROL 승인자] 또는 위 상태 [!DNL Target] 를 [!DNL Target] [!UICONTROL 대상] AEP/RTCDP의 카드([!DNL Real-time Customer Data Platform]).
+   >
+   >자세한 내용은 [Adobe Experience Platform의 대상 사용](#aep).
 
 사전 정의된 대상(예: &quot;)[!UICONTROL 새 방문자 수]&quot; 및 &quot;[!UICONTROL 재방문자],&quot;의 이름은 변경할 수 없습니다.
 
@@ -102,6 +104,29 @@ Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+
+## 다음에서 대상 사용 [!DNL Adobe Experience Platform] {#aep}
+
+에서 만든 대상 사용 [!DNL Adobe Experience Platform] 는 더 효과적인 개인화를 생성하는 더 풍부한 고객 데이터를 제공합니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCP), 기본 제공 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
+
+연결 [!DNL Target] 변환 후 [!DNL Real-time Customer Data Platform], 고객은 이전에 액세스할 수 없었던 새로운 세그먼트를 잠금 해제하여 웹 개인화를 강화할 수 있습니다 [!DNL Target] 고객 웹 방문의 첫 페이지에서 실시간 개인화를 사용하도록 설정하려면 다음을 수행하십시오. 에서 만든 대상 사용 [!DNL Adobe Experience Platform] 더 풍부한 개인화를 위해 사용 가능한 데이터 포인트를 확장할 수 있습니다.
+
+자세한 내용은 다음 주제를 참조하십시오.
+
+* [대상 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [사용자 지정 개인화 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html)의 {target=_blank} *대상 개요* 안내서
+* [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)의 {target=_blank} *대상 개요* 안내서
+* [동일한 페이지 및 다음 페이지 개인화 사용 사례에 대한 개인화 대상 구성](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+다음 표는 다른 구현 시나리오에서 발생하는 이벤트에 대한 세그먼트 평가 시간을 보여줍니다.
+
+| 시나리오 | 에지 세그먼트(밀리초 평가) | 스트리밍 세그먼트(분 평가) | 배치 세그먼트 평가 |
+| --- | --- | --- | --- |
+| Adobe Experience Platform SDK의 이벤트/데이터 | 예 | 예 | 해당 없음 |
+| at.js의 이벤트 | 아니오 | 예 | 해당 없음 |
+| Target Mobile SDK의 이벤트 | 아니오 | 예 | 해당 없음 |
+| 일괄 업로드에서 이벤트 | 아니오 | 아니오 | 예 |
+| 오프라인 데이터(스트림)의 이벤트 | 아니오 | 예 | 예 |
 
 ## 교육 비디오: 대상 사용 ![튜토리얼 배지](/help/assets/tutorial.png)
 

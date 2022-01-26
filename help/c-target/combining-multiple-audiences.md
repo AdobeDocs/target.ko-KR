@@ -4,10 +4,10 @@ description: 여러 대상(Adobe Experience Cloud 대상 및 [!DNL Target] 대�
 title: 여러 대상을 결합 하여 새 대상을 만들 수 있습니까?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 69%
+source-wordcount: '937'
+ht-degree: 68%
 
 ---
 
@@ -18,6 +18,8 @@ ht-degree: 69%
 >[!NOTE]
 >
 >다음 [!DNL Adobe Experience Platform] 모든 사용자가 소스를 사용할 수 있습니다. [!DNL Target] 고객이 [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 에서 사용할 수 있는 대상 [!DNL Adobe Experience Platform] 는 이 항목에서 설명한 대로 그대로 사용하거나 기존 대상과 결합할 수 있습니다.
+>
+>자세한 내용은 [Adobe Experience Platform의 대상 사용](/help/c-target/c-audiences/audiences.md#aep).
 
 &quot;새로운 방문자&quot; 대상과 &quot;Chrome 사용자&quot; 대상이 있다고 가정합니다. 특정 활동에 대해 이 기존 대상들을 결합하여 Chrome 브라우저를 사용하는 새 방문자를 타깃팅할 수 있습니다. 세 번째 대상을 만들어 [!UICONTROL 대상] 라이브러리에 저장하는 대신, 활동을 만들 때 또는 기존 활동을 편집할 때 이 두 대상을 결합할 수 있습니다.
 

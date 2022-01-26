@@ -4,10 +4,10 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
 workflow-type: tm+mt
-source-wordcount: '32584'
-ht-degree: 100%
+source-wordcount: '32655'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,14 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 >[!NOTE]
 >
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
+
+## 릴리스 정보 - 2022
+
+### [!DNL Target Standard/Premium] 22.1.2(2022년 1월 12일)
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| 에서 오퍼 결정 사용 [!DNL Target] 활동 | 이제 다음을 사용할 수 있습니다 [!DNL Adobe Journey Optimizer] 제안 결정 [!DNL Adobe Target] A/B 테스트 및 경험 타깃팅(XT) 활동을 통해 웹 및 모바일에서 방문자를 위한 다음 최상의 오퍼를 결정하고 전달합니다.<br>**참고**: 이 기능은 [!DNL Target] 또한 [!DNL Offer Decisioning] 그리고 [!DNL Target] 구현 을 참조하십시오.<br>자세한 내용은 [오퍼 결정 사용](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
 
 ## 릴리스 정보 - 2021
 
@@ -37,7 +45,7 @@ Target Standard/Premium, Target 플랫폼, Target Javascript 라이브러리(at.
 | --- | --- |
 | [!UICONTROL 시각적 경험 작성기] (VEC) | [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Components)에 대한 지원이 추가되었습니다. 맞춤형 요소 및 맞춤형 요소 내부의 요소에 대해 개인화된 경험과 오퍼를 만들고 테스트할 수 있습니다.<br>자세한 내용은 [시각적 경험 작성기 선택 사항](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom)을 참조하십시오. |
 
-## [!DNL Target Standard/Premium] 21.10.4 (2021년 10월 21일)
+### [!DNL Target Standard/Premium] 21.10.4 (2021년 10월 21일)
 
 이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
@@ -524,7 +532,6 @@ Target at.js JavaScript 라이브러리의 다음 새 버전을 사용할 수 �
       [!DNL Search&Promote]를 사용하는 경우 바로 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)로 이동해야 합니다. . [!DNL Search&Promote] 내부에서 [!DNL Adobe Target] 에 도달하는 경로가 완전히 제거되었습니다.
 
    * 헤더의 알림 드롭다운에는 현재 [!DNL Target] 에 대한 [!UICONTROL 알림을] 사용할 수 없습니다.
-
    >[!NOTE]
    >
    >새 탐색 모음 롤아웃의 일부로 URL이 변경되는 것도 볼 수 있습니다. 이전에 책갈피로 표시된 모든 링크는 계속 작동하지만, 더 빨리 열 수 있도록 새 링크를 책갈피로 지정하는 것이 좋습니다.
@@ -587,7 +594,6 @@ Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔
       [!DNL Search&Promote]를 사용하는 경우 바로 [Search&amp;Promote URL](https://center.atomz.com/center/?ims=1) (https://center.atomz.com/center/?ims=1)로 이동해야 합니다. . [!DNL Search&Promote] 내부에서 [!DNL Adobe Target] 에 도달하는 경로가 완전히 제거되었습니다.
 
    * 헤더의 알림 드롭다운에는 현재 [!DNL Target] 에 대한 [!UICONTROL 알림을] 사용할 수 없습니다.
-
    >[!NOTE]
    >
    >이러한 기능은 한 번에 롤아웃되지 않으며 모든 고객에게 함께 롤아웃되지 않습니다. 다음 몇 주 동안 [!DNL Target Standard/Premium] 19.10.1(2019년 10월 22일) 릴리스를 시작으로 이러한 기능을 롤아웃할 예정입니다.
