@@ -1,40 +1,39 @@
 ---
-keywords: 자동화된 개인화;앱;대상;앙상블;임의 포리스트;잔존 분산;오류 차이;라이프타임 값
-description: VEC(Visual Experience Composer)를 사용하여 Adobe [!DNL Target] 에서 Automated Personalization(AP) 활동을 만드는 방법을 알아봅니다.
-title: Automated Personalization 활동을 만들려면 어떻게 합니까?
-feature: 자동화된 개인화
+keywords: 자동화된 개인화;ap;대상;앙상블;랜덤 포레스트;잔차 분산;오류 분산;라이프타임 값
+description: 만들기 방법 알아보기 [!UICONTROL Automated Personalization] 의 (AP) 활동 [!DNL Adobe Target] 시각적 경험 작성기 사용.
+title: 웹 사이트를 작성하는 방법 [!UICONTROL Automated Personalization] 활동?
+feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2048'
 ht-degree: 91%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) 자동화된 개인화 활동 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동 워크플로우는 다른 활동 유형의 워크플로우에 따라 다릅니다.
+다음 [!UICONTROL Automated Personalization] 의 (AP) 활동 워크플로우 [!DNL Adobe Target] 는 다른 활동 유형의 워크플로우와 다릅니다.
 
-1. [!DNL Target] [!UICONTROL 활동] 목록에서 **[!UICONTROL 활동 만들기]** > **[!UICONTROL Automated Personalization]**&#x200B;을 클릭합니다.
+1. 에서 [!DNL Target] [!UICONTROL 활동] 목록, **[!UICONTROL 활동 만들기]** > **[!UICONTROL Automated Personalization]**.
 
    ![활동 만들기: 자동화된 맞춤설정](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. [!UICONTROL Visual Experience Composer](VEC)을 사용하려면 **[!UICONTROL 시각적(기본값)]**&#x200B;을 클릭합니다.
+1. 를 사용하려면 [!UICONTROL 시각적 경험 작성기] (VEC)에서 **[!UICONTROL 시각적(기본값)]**.
 
    ![자동화된 맞춤설정 활동 만들기 대화 상자](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   [!UICONTROL 양식 기반 경험 작성기]를 사용하려면 [!UICONTROL 양식]을 선택합니다. 자세한 내용은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 참조하십시오.
+   를 사용하려면 [!UICONTROL 양식 기반 경험 작성기], 선택 [!UICONTROL 양식]. 자세한 내용은 [양식 기반 경험 작성기](/help/c-experiences/form-experience-composer.md)를 참조하십시오.
 
    >[!NOTE]
    >
-   >VEC 및 [!UICONTROL 양식 기반 Experience Composer] 외에도 [!DNL Target]는 [!UICONTROL 단일 페이지 응용 프로그램 VEC] 및 모바일 앱용 VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/c-experiences/experiences.md)를 참조하십시오.
+   >VEC 추가 및 [!UICONTROL 양식 기반 경험 작성기], [!DNL Target] 오퍼 [!UICONTROL 단일 페이지 애플리케이션 VEC] 및 모바일 앱용 VEC를 참조하십시오. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/c-experiences/experiences.md)를 참조하십시오.
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
    >이전 그림에서 [!UICONTROL 작업 공간 선택] 선택 사항은 [Target Premium](/help/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.
 
-1. (조건부) [!DNL Target] 프리미엄 고객인 경우 [작업 공간](/help/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
+1. (조건부) [!DNL Target] Premium 고객, [작업 공간 선택](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. 활동 URL을 확인하거나 입력한 후 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
 
@@ -44,7 +43,7 @@ ht-degree: 91%
 
    지정된 URL의 페이지가 시각적 경험 작성기에서 열립니다.
 
-1. 활동의 이름을 지정하려면 **[!UICONTROL 이름]** 필드를 클릭하고 활동 이름을 입력합니다.
+1. 활동의 이름을 지정하려면 **[!UICONTROL 이름]** 필드를 작성하고 활동 이름을 입력합니다.
 
    ![이름 필드](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
@@ -142,9 +141,9 @@ ht-degree: 91%
    |--- |--- |
    | 이름 | 활동의 이름을 지정합니다. 팀 구성원이 활동 목록에서 활동을 인식할 수 있을 만큼 충분히 서사적인 이름을 지정합니다.  활동 이름에 허용되지 않는 문자를 확인하려면 위의 표를 참조하십시오. |
    | 목표 | (선택 사항) 테스트의 목표를 입력합니다. 목표는 활동의 목적을 기억하는 데 도움이 됩니다. |
-   | 우선순위 | 설정에 따라 우선순위의 UI 및 옵션이 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.<br>대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<br>[관리]  [!UICONTROL > [보고] ]  (기본값)에서 이 옵션을 사용할 수 없으면 우선 순위를 지정합니다.낮음, 중간 또는 높음.<br>세부적으로 분류된 우선 순위를 활성화하려면  [!UICONTROL 관리]  > 보고 [!UICONTROL 를 클릭한 다음 [세부] 으로 지정되는 우선 순위 활성화] 옵션을 &quot;설정&quot; 위치로 전환합니다.<br>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.<ul><li>0 = 낮음</li><li>999 = 높음</li></ul>이전 버전의 Target Standard/Premium에서 만든 활동의 경우, 낮음 우선순위는 0으로, 중간은 5로, 높음은 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<br>**참고:** 세분화된 우선순위를 사용한 후에 이 선택 사항을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
+   | 우선순위 | 설정에 따라 우선순위의 UI 및 옵션이 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.<br>대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<br>에서 이 옵션을 활성화하지 않으면 [!UICONTROL 관리] > [!UICONTROL 보고] (기본값) 우선순위를 지정합니다. 낮음, 중간 또는 높음.<br>세분화된 우선순위를 활성화하려면 [!UICONTROL 관리] > [!UICONTROL 보고], 그런 다음 를 전환합니다. [!UICONTROL 세분화된 우선순위 활성화] 선택 사항을 &quot;켜기&quot; 위치에 지정합니다.<br>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.<ul><li>0 = 낮음</li><li>999 = 높음</li></ul>이전 버전의 Target Standard/Premium에서 만든 활동의 경우, 낮음 우선순위는 0으로, 중간은 5로, 높음은 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<br>**참고:** 세분화된 우선순위를 사용한 후에 이 선택 사항을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
    | 지속 시간 | 활동의 시작 날짜와 종료 날짜를 설정합니다. |
-   | 최적화 목표 | 다음 두 개의 매개 변수로 구성되는 최적화 목표를 지정하십시오.<ul><li>활동으로 측정하려는 작업</li><li>목표가 달성되었음을 보여 주는 작업으로, 활동 참여자가 수행한 것입니다.</li></ul>기본 목표의 오른쪽에 있는 세 개의 점을 선택하여 최적화 목표에 이름을 지정하도록 선택할 수 있습니다. 자동화된 개인화 활동은 전환, RPV 및 AOV를 측정할 수 있습니다. 페이지를 보거나 mbox를 보면 전환이 달성될 수 있습니다. 클릭을 추적할 수도 있습니다.<br>또한 기본 목표는 경험의 성공을 계산하기 위해 모델링 시스템에서 사용하는 모델링 지표가 됩니다.<br>모델링 목표에 도달한 후 추적 목적으로 활동에 방문자를 유지할 수 있습니다. 예를 들어, 자동화된 개인화 활동은 종종 클릭률을 향상시키는 데 사용되며 모델링 목표로 설정됩니다. 그러나 증가된 클릭률이 최종 전환으로 이어지는 방식을 확인하는 것이 중요하므로 최종 전환까지 추적하는 것이 반드시 필요합니다.<br>여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다.<br>두 성공 지표(또는 여러 개의 성공 지표)를 정의해야 상호 종속성을 만들 수 있습니다.<br>종속성 추가 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다.<br>종속성을 추가하려면 다음을 수행하십시오.<ol><li>추가 지표를 추가한 후에 추가 목표 오른쪽에 있는 3개 점 메뉴 아래에서 [!UICONTROL 고급 설정]을 클릭합니다.</li><li>[!UICONTROL 보고 설정] 섹션의 하단에 있는 [!UICONTROL 종속성 추가] 선택 사항을 클릭합니다.</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 [!UICONTROL 도달]을 클릭하여 [!UICONTROL 도달] 및 [!UICONTROL 도달 못 함] 간에 설정을 전환합니다</li></ol>종속성을 추가한 후 편집하거나 제거할 수 있습니다. |
+   | 최적화 목표 | 다음 두 개의 매개 변수로 구성되는 최적화 목표를 지정하십시오.<ul><li>활동으로 측정하려는 작업</li><li>목표가 달성되었음을 보여 주는 작업으로, 활동 참여자가 수행한 것입니다.</li></ul>기본 목표의 오른쪽에 있는 세 개의 점을 선택하여 최적화 목표에 이름을 지정하도록 선택할 수 있습니다. 자동화된 개인화 활동은 전환, RPV 및 AOV를 측정할 수 있습니다. 페이지를 보거나 mbox를 보면 전환이 달성될 수 있습니다. 클릭을 추적할 수도 있습니다.<br>또한 기본 목표는 경험의 성공을 계산하기 위해 모델링 시스템에서 사용하는 모델링 지표가 됩니다.<br>모델링 목표에 도달한 후 추적 목적으로 활동에 방문자를 유지할 수 있습니다. 예를 들어 Automated Personalization 활동은 종종 클릭률을 향상시키는 데 사용되며 모델링 목표로 설정됩니다. 그러나 증가된 클릭률이 최종 전환으로 이어지는 방식을 확인하는 것이 중요하므로 최종 전환까지 추적하는 것이 반드시 필요합니다.<br>여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다.<br>두 성공 지표(또는 여러 개의 성공 지표)를 정의해야 상호 종속성을 만들 수 있습니다.<br>종속성 추가 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다.<br>종속성을 추가하려면 다음을 수행하십시오.<ol><li>추가 지표를 추가한 후에 추가 목표 오른쪽에 있는 3개 점 메뉴 아래에서 [!UICONTROL 고급 설정]을 클릭합니다.</li><li>[!UICONTROL 보고 설정] 섹션의 하단에 있는 [!UICONTROL 종속성 추가] 선택 사항을 클릭합니다.</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 [!UICONTROL 도달]을 클릭하여 [!UICONTROL 도달] 및 [!UICONTROL 도달 못 함] 간에 설정을 전환합니다</li></ol>종속성을 추가한 후 편집하거나 제거할 수 있습니다. |
    | 변환 지표 | 기본적으로 전환 지표는 최적화 목표 지표와 동일합니다. 하지만 [!UICONTROL 최적화 목표와 같음] 옵션을 선택 취소하여 별도의 전환 지표를 정의할 수 있습니다. |
    | 추가 지표 | 사용할 추가 보고 지표를 추가하십시오. 변환 또는 수입 지표를 추가할 수 있습니다.<br>**참고:** 참여 지표도 추가 지표로 지원되지 않습니다. UI를 사용하여 참여 지표를 선택할 수 있지만, 보고서에서 데이터가 정확하게 표시되지 않습니다. |
    | 보고 대상 | 보고서의 대상별로 필터링하려면 대상을 추가합니다. 기본적으로 보고서는 자격 있는 모든 방문자의 결과를 표시합니다. 방문자의 보다 구체적인 하위 집합을 위해 결과를 필터링하려면 대상을 추가합니다.<br>**참고**: 다른 활동 유형과 달리, 자동화된 개인화는 Adobe Analytics를 보고 소스로 사용할 수 없습니다. |

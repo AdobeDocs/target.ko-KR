@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7c8620df9cefe422f499d4edb681d024e74529ce
+source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
 workflow-type: tm+mt
-source-wordcount: '3318'
+source-wordcount: '3329'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 1월 27일 | [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 주제가 업데이트되고 정보가 추가되었습니다. [!DNL AEM as a Cloud Service] 및 [!DNL Adobe I/0]. |
 | 1월 26일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.2 릴리스에 대한 정보가 추가되었습니다. |
 |  | [대상자 만들기](/help/c-target/c-audiences/audiences.md) | 에 대한 정보가 추가되었습니다 [!DNL Adobe Experience Platform] 대상. |
 |  | [여러 대상 결합](/help/c-target/combining-multiple-audiences.md) | 에 대한 정보가 추가되었습니다 [!DNL Adobe Experience Platform] 대상. |

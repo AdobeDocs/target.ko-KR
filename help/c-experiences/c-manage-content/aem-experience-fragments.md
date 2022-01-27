@@ -4,9 +4,9 @@ description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] 경험 �
 title: 사용 방법 [!DNL Adobe Experience Manager] (AEM) 경험 구성요소?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 5e67c963087cc07d09e65ded48a8f5777104019d
+source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
 workflow-type: tm+mt
-source-wordcount: '1153'
+source-wordcount: '1171'
 ht-degree: 13%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 13%
 
 사용자 [!DNL AEM] 버전에 대한 단계별 지침은 다음 링크를 참조하십시오.
 
-* **AEM as a Cloud Service**:
+* **AEM as a Cloud Service**: [Adobe Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}
 * **[!DNL AEM]6.5**: [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en)의 {target=_blank} *Adobe Experience Manager 6.5* 설명서.
 * **[!DNL AEM]6.4**: [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html)의 {target=_blank} *Adobe Experience Manager 6.4* 설명서.
 
