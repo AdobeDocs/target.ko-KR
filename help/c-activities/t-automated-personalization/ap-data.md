@@ -1,12 +1,12 @@
 ---
 keywords: 환경 데이터;세션 데이터;지역 데이터;지역 데이터;지역 데이터;장치 데이터;모바일 데이터;속성;프로필 속성;개인화 알고리즘;기계 학습 알고리즘
-description: 데이터 Adobe 알아보기 [!DNL Target] 을(를) 수집 및 사용하여 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동.
+description: 데이터 Adobe 알아보기 [!DNL Target] 및 을(를) 수집하여 기계 학습 알고리즘을 만듭니다.
 title: 기계 학습 알고리즘을 생성하기 위해 수집되는 데이터는 무엇입니까?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
+source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2077'
 ht-degree: 48%
 
 ---
