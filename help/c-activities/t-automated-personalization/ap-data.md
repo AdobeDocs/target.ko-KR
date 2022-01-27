@@ -4,7 +4,7 @@ description: 데이터 Adobe 알아보기 [!DNL Target] 을(를) 수집 및 사�
 title: 기계 학습 알고리즘을 생성하기 위해 수집되는 데이터는 무엇입니까?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: d191274f18098edeba1f6f87c75d9ca20ba0c412
+source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 48%
@@ -77,7 +77,7 @@ ht-degree: 48%
 | 속성 이름 | 속성 설명 | 샘플값 | 시스템 이름 |
 | --- | --- | --- | --- |
 | 지역 - 도시 | 방문자가 활동에 액세스한 도시입니다. | San Francisco | Geo_City |
-| 지역 - 국가 | 방문자가 활동에 액세스한 국가입니다. | 독일 | Geo_County |
+| 지역 - 국가 | 방문자가 활동에 액세스한 국가입니다. | 독일 | Geo_Country |
 | 지역 - DMA | 방문자가 활동에 액세스한 DMA(Designated Marketing Area)입니다. | 샬러츠빌 | Geo_DMA |
 | 지역 - 위도 | 방문자가 활동에 액세스한 위도입니다. | 47.269<br>소수점 이하 세 자리로 반올림됨(약 100m 정확도) | GEO_Latitude |
 | 지역 - 경도 | 방문자가 활동에 액세스한 경도입니다. | -122.269<br>소수점 이하 세 자리로 반올림됨(약 100m 정확도) | GEO_Longitude |
