@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에 포함된 것은 무엇입니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '709'
-ht-degree: 73%
+source-wordcount: '742'
+ht-degree: 70%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 73%
 이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 Target API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 사항에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.)
+
+## at.js 버전 2.8.1 (2022년 1월 28일)
+
+* 고정 `pageLoad` 에 target-global-mbox에 매핑되지 않음 [!UICONTROL Device Decisioning에서] (ODD) 하이브리드 실행 모드입니다.
+* mbox 요청에 대한 analytics 세부 사항 관련 문제를 수정했습니다.
+* 보안 취약점을 수정하도록 개발 종속성을 업그레이드했습니다.
 
 ## [!DNL Target Standard/Premium] 22.1.2(2022년 1월 26일)
 

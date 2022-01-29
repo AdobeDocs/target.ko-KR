@@ -5,9 +5,9 @@ title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '4357'
+source-wordcount: '4390'
 ht-degree: 88%
 
 ---
@@ -21,6 +21,12 @@ ht-degree: 88%
 >Target 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오.
 >
 >의 태그 [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Adobe Experience Platform] 카탈로그가 업그레이드로 제공됩니다. 자세한 내용은 [확장 업그레이드](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 에서 *태그 개요* 안내서.
+
+## at.js 버전 2.8.1 (2022년 1월 28일)
+
+* 고정 `pageLoad` 에 target-global-mbox에 매핑되지 않음 [!UICONTROL Device Decisioning에서] (ODD) 하이브리드 실행 모드입니다.
+* mbox 요청에 대한 analytics 세부 사항 관련 문제를 수정했습니다.
+* 보안 취약점을 수정하도록 개발 종속성을 업그레이드했습니다.
 
 ## at.js 버전 2.8.0 (2022년 1월 7일)
 
