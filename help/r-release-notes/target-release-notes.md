@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 987a6a8d9726f631e0c1416df62a0ed18d5e544a
-workflow-type: ht
-source-wordcount: '200'
-ht-degree: 100%
+source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
+workflow-type: tm+mt
+source-wordcount: '218'
+ht-degree: 65%
 
 ---
 
@@ -15,15 +15,16 @@ ht-degree: 100%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트 날짜: 2022년 1월 10일**
+**마지막 업데이트 날짜: 2022년 1월 31일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
->[!IMPORTANT]
->
->**mbox.js 서비스 종료**: 2021년 3월 31일부터 [!DNL Adobe Target] 에서는 더 이상 mbox.js 라이브러리를 지원하지 않습니다. 2021년 3월 31일 이후, mbox.js에서 발송된 모든 호출은 정상적으로 실패하고 기본 콘텐츠를 제공하여 [!DNL Target] 활동이 실행되는 페이지에 영향을 줍니다.
->
->사이트에 문제가 발생하지 않도록 하려면 새 [!DNL Adobe Experience Platform Web SDK] 또는 at.js JavaScript 라이브러리의 최신 버전으로 마이그레이션합니다. 자세한 내용은 [개요: 클라이언트측 웹용 Target 구현](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)을 참조하십시오.
+## Target Standard/Premium 22.2.1(2022년 2월 1일)
+
+이 유지 관리 릴리스에는 새로운 [!UICONTROL 대상] 에 발표된 UI [Target Standard/Premium 22.1.2 릴리스](/help/r-release-notes/release-notes.md) 향후 6주 동안 모든 지역에서 고객에게 제공됩니다. 이러한 수정 사항은에서 만든 대상의 기능을 정렬합니다. [!DNL Adobe Target Standard/Premium].
+
+* 가져온 대상에서 제외되는 문제를 해결했습니다. [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], 및 [!DNL Adobe Target Classic] 보고 대상으로 지정되는 경우입니다. (TGT-43140)
+* 를 추가했습니다. [!UICONTROL 삭제] 옵션 [!UICONTROL 대상] 가져온 대상 목록 [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], 및 [!DNL Adobe Target Classic]. 벌크 삭제 기능도 추가되었습니다. (TGT-42914)
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

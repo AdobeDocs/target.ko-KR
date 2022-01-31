@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
+source-git-commit: 80e9e516ad6a6e0d3683d0001812ce58eb7dfb19
 workflow-type: tm+mt
-source-wordcount: '3349'
+source-wordcount: '3360'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 1월 31일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 22.2.1 릴리스. |
 | 1월 28일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 27일 | [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 주제가 업데이트되고 정보가 추가되었습니다. [!DNL AEM as a Cloud Service] 및 [!DNL Adobe I/0]. |
