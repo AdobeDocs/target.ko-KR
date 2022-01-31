@@ -15,7 +15,7 @@ ht-degree: 99%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## [!DNL Adobe Target Standard/Premium] 22.1.1(2022년 1월 12일)
+## [!DNL Adobe Target Standard/Premium] 22.1.1 (2022년 1월 12일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -23,8 +23,8 @@ ht-degree: 99%
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 27일 | [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | 주제가 업데이트되고 정보가 추가되었습니다. [!DNL AEM as a Cloud Service] 및 [!DNL Adobe I/0]. |
 | 1월 26일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.2 릴리스에 대한 정보가 추가되었습니다. |
-|  | [대상자 만들기](/help/c-target/c-audiences/audiences.md) | 에 대한 정보가 추가되었습니다 [!DNL Adobe Experience Platform] 대상. |
-|  | [여러 대상 결합](/help/c-target/combining-multiple-audiences.md) | 에 대한 정보가 추가되었습니다 [!DNL Adobe Experience Platform] 대상. |
+|  | [대상자 만들기](/help/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
+|  | [여러 대상자 결합](/help/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
 | 1월 21일 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 19일 | [at.js 1.*x* 에서 at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst)&#x200B;로 업그레이드 | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개 변수&quot; |
 | 1월 12일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.1 릴리스에 대한 정보가 추가되었습니다. |
