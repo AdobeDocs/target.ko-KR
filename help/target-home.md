@@ -4,10 +4,10 @@ title: ' [!DNL Target] 설명서는 어디에서 찾을 수 있습니까?'
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '690'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target] 은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜: 2022년 2월 1일([변경 사항 보기](r-release-notes/doc-change.md))**
+**마지막 업데이트 날짜: 2022년 2월 2일([변경 사항 보기](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >

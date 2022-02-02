@@ -4,10 +4,10 @@ description: 페이지에 예상된 콘텐츠가 표시되지 않을 경우 문�
 title: 콘텐츠 전달 문제를 해결하려면 어떻게 합니까?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '1630'
-ht-degree: 100%
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
+workflow-type: tm+mt
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -98,10 +98,7 @@ mboxDebug를 사용하려면 URL 끝에 mboxDebug 매개 변수를 추가합니�
 | URL 매개 변수 | 목적 |
 |--- |--- |
 | `mboxDebug=1` | 디버거<br>이 매개 변수를 Target 요청이 정의된 URL에 추가하면 중요한 디버깅 세부 정보가 있는 팝업 창이 열립니다. 쿠키 정보, PCid 및 세션 ID 값이 작성되고 모든 URL이 표시됩니다. Target 요청 URL을 클릭하여 해당 [!DNL Target] 요청에 대한 응답을 표시합니다. 자세한 내용은 [mbox_debug.pdf](/help/assets/mbox_debug.pdf)에서 볼 수 있습니다. |
-| `mboxDebug=x-cookie` | 쿠키 수정 |
 | `mboxDisable=1` | 페이지에서 mbox 비활성화 |
-| `mboxDebug=x-profile` | 프로필 세트 보기 |
-| `mboxDebug=x-time` | 각 [!DNL Target] 요청에 대한 응답 표시 |
 | `mboxOverride.browserIp=<Insert IP address>` | 지리 기반의 타기팅 테스트<br>이 URL 매개 변수로 지리 기반의 타기팅을 테스트합니다. IP 주소를 이 속성의 값으로 입력하면 Test&amp;Target의 지리 기반의 타기팅은 캠페인에 설정된 지리 기반의 타기팅 또는 세그먼테이션 세트에 대해 해당 IP 주소가 일치하는지 평가합니다. |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (�
 이 시나리오에서 URL은 `https://shopping.mycart.com?type=Summers%20Offers`이고 추가 템플릿 규칙은 [!UICONTROL 유형] > [!UICONTROL 은(대소문자 구분)] > type=Summers%20Offers(OR 연산자로 구분)인 [!UICONTROL 쿼리]를 지정합니다.
 
 ![URL의 특정 부분을 활용하는 템플릿 규칙](assets/option3.png)
+
+## 큰따옴표 이스케이프 처리 [!DNL Target] 프로필 속성 값이 예상대로 작동하지 않습니다. {#escape}
+
+큰따옴표가 포함된 값을 [!DNL Target] 프로필 속성에는 아래에 표시된 대로 두 번 이스케이프해야 합니다.
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## 교육 비디오
 
