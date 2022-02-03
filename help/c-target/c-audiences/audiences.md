@@ -4,9 +4,9 @@ description: 에서 대상을 사용하는 방법을 알아봅니다. [!DNL Adob
 title: 대상 목록을 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
+source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1203'
 ht-degree: 24%
 
 ---
@@ -124,11 +124,11 @@ Keep the following points in mind as you work with imported audiences:
 
 자세한 내용은 다음 주제를 참조하십시오.
 
-* [대상 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
-* [동일 페이지 및 다음 페이지 개인화를 위한 개인화 대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
+* [대상 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations)의 {target=_blank} *Adobe Experience Platform 릴리스 노트*
+* [동일 페이지 및 다음 페이지 개인화를 위한 개인화 대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html)의 {target=_blank} *대상 개요* 안내서.
 * [사용자 지정 개인화 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html)의 {target=_blank} *대상 개요* 안내서
 * [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html)의 {target=_blank} *대상 개요* 안내서
-* [동일한 페이지 및 다음 페이지 개인화 사용 사례에 대한 개인화 대상 구성](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+* [동일한 페이지 및 다음 페이지 개인화 사용 사례에 대한 개인화 대상 구성](https://www.adobe.com/go/destinations-edge-personalization-en)의 {target=_blank} *대상 개요* 안내서
 
 ### 추가 정보
 
