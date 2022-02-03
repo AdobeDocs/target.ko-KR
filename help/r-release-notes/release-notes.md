@@ -7,8 +7,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 211540256d2bbaddf3053eb1cba2b30b058af8fd
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '774'
+ht-degree: 90%
 
 ---
 
@@ -27,23 +27,23 @@ ht-degree: 0%
 
 ## at.js 버전 2.8.1 (2022년 1월 28일)
 
-* 고정 `pageLoad` 에 target-global-mbox에 매핑되지 않음 [!UICONTROL Device Decisioning에서] (ODD) 하이브리드 실행 모드입니다.
-* mbox 요청에 대한 analytics 세부 사항 관련 문제를 수정했습니다.
-* 보안 취약점을 수정하도록 개발 종속성을 업그레이드했습니다.
+* `pageLoad`가 [!UICONTROL 온디바이스 의사 결정](ODD) 하이브리드 실행 모드에서 target-global-mbox에 매핑되지 않는 문제가 해결되었습니다.
+* mbox 요청에 대한 분석 세부 정보 관련 문제가 해결되었습니다.
+* 보안 취약성을 해결하기 위해 개발 종속성이 업그레이드되었습니다.
 
 ## [!DNL Target Standard/Premium] 22.1.2 (2022년 1월 26일)
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!DNL Target]의 [!DNL Adobe Experience Platform] 대상자 | 이제 [!DNL Target]에서 [!DNL Adobe Experience Platform] 대상자를 소비하고 사용할 수 있습니다. [!DNL Target] 팀, [!DNL Experience Platform] [!DNL Destinations] 팀 및 [!DNL Unified Profile Service] 팀은 “동일 페이지/다음 페이지 개인화” 사용 사례의 일반 가용성을 기쁘게 발표합니다.<br>[!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. [!DNL Adobe Experience Platform]을 기반으로 구축된 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCP)은 기업이 여러 엔터프라이즈 소스로부터의 알려진 데이터와 익명 데이터를 통합하여 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있도록 지원합니다.<br>자세한 내용은 *대상자 만들기*&#x200B;에서 [Adobe Experience Platform의 대상자 사용](/help/c-target/c-audiences/audiences.md#aep)을 참조하십시오.<br>Adobe 블로그를 읽고 비디오를 시청하십시오. [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 및 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
-| [!UICONTROL 대상] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일부로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상을 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상 빌더 디자인](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 대상] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 “대상 소스” 필터</li><li>세션 영구 검색 및 필터 옵션</li><li>[!DNL Target Premium] 고객을 위해 작업 영역 간에 대상자를 이동할 수 있습니다.</li></ul>자세한 내용은 [대상자](/help/c-target/target.md)를 참조하십시오.<br>**참고**: 이 기능은 다음 8주 내에 다른 지역의 고객에게 롤아웃됩니다. |
-| [!UICONTROL 프로필 스크립트] UI 새로 고침 | 또한 [!UICONTROL 프로필 스크립트] 라이브러리가 업데이트되고, 새로운 인터페이스와 몇 가지 생산성 업데이트가 여기에 포함됩니다.<ul><li>여러 프로필 스크립트를 동시 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트용 새로운 편집기 코드</li><li>코드 편집기 내 구문 강조 표시 및 오류 검사</li><li>키보드 단축키를 통한 자동 완성 토큰(mbox 또는 프로필) 매개 변수</li></ul>자세한 내용은 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md)을 참조하십시오.<br>**참고**: 이 기능은 다음 8주 내에 다른 지역의 고객에게 롤아웃됩니다. |
+| [!DNL Target]의 [!DNL Adobe Experience Platform] 대상자 | 이제 [!DNL Target]에서 [!DNL Adobe Experience Platform] 대상자를 소비하고 사용할 수 있습니다. [!DNL Target] 팀, [!DNL Experience Platform] [!DNL Destinations] 팀 및 [!DNL Unified Profile Service] 팀은 “동일 페이지/다음 페이지 개인화” 사용 사례의 일반 가용성을 기쁘게 발표합니다.<br>[!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. [!DNL Adobe Experience Platform]을 기반으로 구축된 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko-KR){target=_blank}(RTCP)은 기업이 여러 엔터프라이즈 소스로부터의 알려진 데이터와 익명 데이터를 통합하여 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있도록 지원합니다.<br>자세한 내용은 *대상자 만들기*&#x200B;에서 [Adobe Experience Platform의 대상자 사용](/help/c-target/c-audiences/audiences.md#aep)을 참조하십시오.<br>Adobe 블로그를 살펴보고 다음 비디오를 시청해 보십시오. [[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 및 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
+| [!UICONTROL 대상] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일부로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상을 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상 빌더 디자인](/help/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 대상] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 “대상 소스” 필터</li><li>세션 영구 검색 및 필터 옵션</li><li>[!DNL Target Premium] 고객을 위해 작업 영역 간에 대상자를 이동할 수 있습니다.</li></ul>자세한 내용은 [대상자](/help/c-target/target.md)를 참조하십시오.<br>**참고**: 이 기능은 향후 8주 이내에 다른 지역의 고객에게도 제공될 예정입니다. |
+| [!UICONTROL 프로필 스크립트] UI 새로 고침 | 또한 [!UICONTROL 프로필 스크립트] 라이브러리가 업데이트되고, 새로운 인터페이스와 몇 가지 생산성 업데이트가 여기에 포함됩니다.<ul><li>여러 프로필 스크립트를 동시 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트용 새로운 편집기 코드</li><li>코드 편집기 내 구문 강조 표시 및 오류 검사</li><li>키보드 단축키를 통한 자동 완성 토큰(mbox 또는 프로필) 매개 변수</li></ul>자세한 내용은 [방문자 프로필](/help/c-target/c-visitor-profile/visitor-profile.md)을 참조하십시오.<br>**참고**: 이 기능은 향후 8주 이내에 다른 지역의 고객에게도 제공될 예정입니다. |
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko_KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko-KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
 | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
