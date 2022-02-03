@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '3397'
-ht-degree: 99%
+source-wordcount: '3412'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 3일 | [대상자 만들기](/help/c-target/c-audiences/audiences.md#RTCDP) | 다음과 같은 새로운 섹션 및 비디오가 추가되었습니다. &quot;비디오: 실시간 CDP와 [!DNL Adobe Target].&quot; |
 | 2월 2일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 다음 섹션이 추가되었습니다. &quot;큰따옴표 이스케이프 처리 [!DNL Target] 프로필 속성 값이 예상대로 작동하지 않습니다.&quot; |
 | 2월 1일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.2.1 릴리스. |
 
