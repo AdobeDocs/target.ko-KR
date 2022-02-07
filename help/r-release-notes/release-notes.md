@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
 workflow-type: tm+mt
 source-wordcount: '773'
-ht-degree: 80%
+ht-degree: 90%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 80%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## Target Standard/Premium 22.2.1(2022년 2월 1일)
+## Target Standard/Premium 22.2.1 (2022년 2월 1일)
 
-이 유지 관리 릴리스에는 새로운 [!UICONTROL 대상] Target Standard/Premium 22.1.2 릴리스에서 향후 6주 동안 모든 지역에서 고객에게 출시될 UI를 발표했습니다. 이러한 수정 사항은에서 만든 대상의 기능을 정렬합니다. [!DNL Adobe Target Standard/Premium].
+이번 유지 관리 릴리스에는 Target Standard/Premium 22.1.2 릴리스에서 발표된 새로운 [!UICONTROL 대상자] UI에 대한 다음과 같은 수정 사항 및 개선 사항이 포함되어 있으며 향후 6주 동안 모든 지역의 고객에게 출시될 예정입니다. 이들 수정 사항은 [!DNL Adobe Target Standard/Premium]에서 생성된 대상자에 대한 기능을 조정합니다.
 
-* 가져온 대상에서 제외되는 문제를 해결했습니다. [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], 및 [!DNL Adobe Target Classic] 보고 대상으로 지정되는 경우입니다. (TGT-43140)
-* 를 추가했습니다. [!UICONTROL 삭제] 옵션 [!UICONTROL 대상] 가져온 대상 목록 [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud], 및 [!DNL Adobe Target Classic]. 벌크 삭제 기능도 추가되었습니다. (TGT-42914)
+* [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] 및 [!DNL Adobe Target Classic]에서 가져온 대상자를 보고 대상자로 할당할 수 없었던 문제가 해결되었습니다. (TGT-43140)
+* [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] 및 [!DNL Adobe Target Classic]에서 가져온 대상자 그룹에 대한 [!UICONTROL 대상자] 목록에 [!UICONTROL 삭제] 옵션이 추가되었습니다. 또한 일괄 삭제 기능이 추가되었습니다. (TGT-42914)
 
 ## at.js 버전 2.8.1 (2022년 1월 28일)
 
