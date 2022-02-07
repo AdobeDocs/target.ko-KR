@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
 workflow-type: tm+mt
-source-wordcount: '3412'
-ht-degree: 98%
+source-wordcount: '3429'
+ht-degree: 99%
 
 ---
 
@@ -15,19 +15,20 @@ ht-degree: 98%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## Adobe Target Standard/Premium 22.2.1(2022년 2월 1일)
+## Adobe Target Standard/Premium 22.2.1 (2022년 2월 1일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 7일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 2월 23일)</li></ul> |
 | 2월 3일 | [대상자 만들기](/help/c-target/c-audiences/audiences.md#RTCDP) | 다음과 같은 새로운 섹션 및 비디오가 추가되었습니다. &quot;비디오: 실시간 CDP와 [!DNL Adobe Target].&quot; |
 | 2월 2일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 다음 섹션이 추가되었습니다. &quot;큰따옴표 이스케이프 처리 [!DNL Target] 프로필 속성 값이 예상대로 작동하지 않습니다.&quot; |
-| 2월 1일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.2.1 릴리스. |
+| 2월 1일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 릴리스에 대한 정보가 추가되었습니다. |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (2022년 1월 12일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 1월 31일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 22.2.1 릴리스. |
+| 1월 31일 | [Target 릴리스 정보 (프리릴리스)](/help/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 1월 28일 | [Target 릴리스 정보 (현재)](/help/r-release-notes/release-notes.md) | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 27일 | [AEM 경험 구성요소](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | [!DNL AEM as a Cloud Service] 및 [!DNL Adobe I/0]에 대한 주제가 업데이트되고 정보가 추가되었습니다. |
