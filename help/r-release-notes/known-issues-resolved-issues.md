@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
 workflow-type: tm+mt
-source-wordcount: '4561'
-ht-degree: 98%
+source-wordcount: '4738'
+ht-degree: 95%
 
 ---
 
@@ -25,7 +25,15 @@ ht-degree: 98%
 
 ### 서비스 작업자를 사용하여 웹 사이트를 로드하는 VEC(시각적 경험 작성기)
 
-VEC를 사용하여 서비스 작업자를 사용하는 웹 사이트를 열려고 할 때 현재 몇 가지 제한 사항이 있습니다. 한 가지 해결 방법은 Chrome 개발자 도구 > 애플리케이션 탭에서 서비스 작업자를 비활성화한 다음 서비스 작업자 섹션 아래의 &quot;네트워크에 대해 무시&quot; 확인란을 활성화하는 것입니다. (KB-2006)
+VEC를 사용하여 사용 중인 웹 사이트를 열려고 할 때 현재 몇 가지 제한 사항이 있습니다 [서비스 작업자](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+
+SW는 웹 페이지에 의해 설치된 도메인에 대한 요청을 가로채는 데 사용할 수 있는 웹 기술입니다. SW가 페이지 방문에서 생존하고 이후 방문 시 자신을 활성화합니다. SW는 어떤 요청이 통과되는지 그리고 어떤 요청이 캐시에서 차단되고 제공되는지 결정합니다.
+
+SW가 캐싱을 제어할 수 있습니다. 는 웹 페이지 자체를 캐시할 수 있으며, JS, CSS, IMG, AJAX 요청, 해당 컨텐츠 및 응답 헤더와 같은 정적 리소스는 Adobe에서 제공하는 것입니다 [Target VEC Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) X-Frame-Options와 같이 제거를 시도합니다. SAMEORIGIN, CSP(Content-Security-Policy) 또는 Set-Cookie입니다.
+
+안타깝게도 웹 요청을 가로채는 Chrome 확장 API는 SW에서 가로채서 처리한 요청을 받지 못합니다. 따라서 X-Frame-Options 또는 CSP 헤더도 캐시되어 있으므로 웹 페이지가 VEC 내에서 로드되지 않으므로 SW에서 웹 페이지 요청이 캐시에서 제공되는 경우 확장에서 헤더와 쿠키를 수정할 수 없습니다.
+
+잠재적인 해결 방법으로 Chrome 개발자 도구 > 애플리케이션 탭에서 서비스 작업자를 비활성화한 다음 서비스 작업자 섹션 아래의 &quot;네트워크 무시&quot; 확인란을 활성화할 수 있습니다. (KB-2006)
 
 ### A4T를 이용한 자동 할당 활동의 트래픽 분포 {#aa-a4t}
 
