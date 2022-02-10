@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '4504'
-ht-degree: 100%
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+workflow-type: tm+mt
+source-wordcount: '4561'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ ht-degree: 100%
 ## 알려진 문제 {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
+
+### 서비스 작업자를 사용하여 웹 사이트를 로드하는 VEC(시각적 경험 작성기)
+
+VEC를 사용하여 서비스 작업자를 사용하는 웹 사이트를 열려고 할 때 현재 몇 가지 제한 사항이 있습니다. 한 가지 해결 방법은 Chrome 개발자 도구 > 애플리케이션 탭에서 서비스 작업자를 비활성화한 다음 서비스 작업자 섹션 아래의 &quot;네트워크에 대해 무시&quot; 확인란을 활성화하는 것입니다. (KB-2006)
 
 ### A4T를 이용한 자동 할당 활동의 트래픽 분포 {#aa-a4t}
 
@@ -137,7 +141,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 성공 지표가 노출 시마다 증분되도록 설정되면 Target에서는 방문자가 이 성공 지표를 방문할 때마다 방문자를 다시 카운트합니다. 그런 다음 Target은 성공 지표 &quot;멤버십&quot;을 0으로 재설정하여 다음 노출 시 다시 카운트될 수 있도록 합니다. 따라서 해당 지표를 먼저 확인해야 하는 다른 지표가 있다고 해도, Target은 사용자가 첫 번째 지표를 확인했다는 사실을 절대 인식하지 못합니다.
 
-### [!DNL Target] (A4T) 에 대한 Analytics
+### [!DNL Target] (A4T)에 대한 Analytics
 
 Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
 

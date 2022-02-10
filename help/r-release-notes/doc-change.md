@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '3449'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 10일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>서비스 작업자를 사용하여 웹 사이트를 로드하는 VEC(시각적 경험 작성기)</li></ul> |
 | 7월 2일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 2월 23일)</li></ul> |
 | 2월 3일 | [대상자 만들기](/help/c-target/c-audiences/audiences.md#RTCDP) | 새 섹션 및 비디오 추가됨: “비디오: Real-Time CDP 및 [!DNL Adobe Target]을 사용하여 다음 히트 개인화” |
 | 2월 2일 | [콘텐츠 전달 문제 해결](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 다음 섹션 추가됨: “[!DNL Target] 프로필 속성 값이 예상대로 작동하지 않음에서 큰따옴표 이스케이프” |
