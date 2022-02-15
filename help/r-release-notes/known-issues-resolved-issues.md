@@ -5,9 +5,9 @@ title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 �
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ ht-degree: 95%
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
 
-### 서비스 작업자를 사용하여 웹 사이트를 로드하는 VEC(시각적 경험 작성기)
+### VEC(시각적 경험 작성기)가 서비스 작업자를 통해 웹 사이트를 로드합니다.
 
-VEC를 사용하여 사용 중인 웹 사이트를 열려고 할 때 현재 몇 가지 제한 사항이 있습니다 [서비스 작업자](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+VEC를 사용하여 [서비스 작업자](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank}(SW)를 사용하는 웹 사이트를 열고자 하는 경우 현재 몇 가지 제한 사항이 있습니다.
 
-SW는 웹 페이지에 의해 설치된 도메인에 대한 요청을 가로채는 데 사용할 수 있는 웹 기술입니다. SW가 페이지 방문에서 생존하고 이후 방문 시 자신을 활성화합니다. SW는 어떤 요청이 통과되는지 그리고 어떤 요청이 캐시에서 차단되고 제공되는지 결정합니다.
+SW는 웹 페이지에서 설치된 도메인에 대한 요청을 가로채는 데 사용할 수 있는 웹 기술입니다. SW는 페이지 방문 후에도 유지되며 이후 방문 시 자동으로 활성화됩니다. SW가 처리할 요청 및 이전되어 캐시에서 대신 처리될 요청을 구분합니다.
 
-SW가 캐싱을 제어할 수 있습니다. 는 웹 페이지 자체를 캐시할 수 있으며, JS, CSS, IMG, AJAX 요청, 해당 컨텐츠 및 응답 헤더와 같은 정적 리소스는 Adobe에서 제공하는 것입니다 [Target VEC Helper 확장 프로그램](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) X-Frame-Options와 같이 제거를 시도합니다. SAMEORIGIN, CSP(Content-Security-Policy) 또는 Set-Cookie입니다.
+SW는 캐싱을 제어할 수 있으며 웹 페이지 자체, JS, CSS, IMG, AJAX 요청과 같은 정적 리소스, 해당 콘텐츠 및 [Target VEC Helper 확장](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)에서 제거를 시도하는 헤더(예: X-Frame-Options: SAMEORIGIN, CSP(콘텐츠 보안 정책) 또는 쿠키 설정)를 포함하는 응답 헤더를 캐시할 수 있습니다.
 
-안타깝게도 웹 요청을 가로채는 Chrome 확장 API는 SW에서 가로채서 처리한 요청을 받지 못합니다. 따라서 X-Frame-Options 또는 CSP 헤더도 캐시되어 있으므로 웹 페이지가 VEC 내에서 로드되지 않으므로 SW에서 웹 페이지 요청이 캐시에서 제공되는 경우 확장에서 헤더와 쿠키를 수정할 수 없습니다.
+웹 요청을 가로채는 Chrome 확장 API에서 SW가 가로채고 처리한 요청을 수신하지는 않습니다. X-Frame-Options 또는 CSP 헤더도 캐시되었으므로 웹 페이지 요청이 SW에 의해 캐시에서 제공된 경우 확장 프로그램에서 헤더와 쿠키를 수정할 수 없습니다.
 
-잠재적인 해결 방법으로 Chrome 개발자 도구 > 애플리케이션 탭에서 서비스 작업자를 비활성화한 다음 서비스 작업자 섹션 아래의 &quot;네트워크 무시&quot; 확인란을 활성화할 수 있습니다. (KB-2006)
+잠재적인 해결 방법으로 Chrome 개발자 도구 > 애플리케이션 탭에서 서비스 작업자를 비활성화한 다음 서비스 작업자 섹션에서 “네트워크 우회” 확인란을 활성화할 수 있습니다. (KB-2006)
 
 ### A4T를 이용한 자동 할당 활동의 트래픽 분포 {#aa-a4t}
 
@@ -151,7 +151,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 ### [!DNL Target] (A4T)에 대한 Analytics
 
-Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
+Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko-KR)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
 
 현재 모든 Analytics 패키지는 속성 IQ를 사용하여 이 모델을 추가할 수 있습니다. 속성 IQ에 액세스할 수 없는 경우 Reports &amp; Analytics의 A4T 데이터를 사용하십시오.
 
