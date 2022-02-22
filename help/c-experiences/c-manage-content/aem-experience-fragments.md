@@ -4,9 +4,9 @@ description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] 경험 �
 title: 사용 방법 [!DNL Adobe Experience Manager] (AEM) 경험 구성요소?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3009b232c3f0208c7632ad6369bf5d96334fe377
+source-git-commit: e991af90d58a8084ece9a8ff05acf85a68f077d3
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1180'
 ht-degree: 13%
 
 ---
@@ -78,7 +78,7 @@ ht-degree: 13%
 
 사용자 [!DNL AEM] 버전에 대한 단계별 지침은 다음 링크를 참조하십시오.
 
-* **AEM as a Cloud Service**: [Adobe Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank}
+* **AEM as a Cloud Service**: [Adobe Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en)의 {target=_blank} *as a Cloud Service Experience Manager* 안내서.
 * **[!DNL AEM]6.5**: [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en)의 {target=_blank} *Adobe Experience Manager 6.5* 설명서.
 * **[!DNL AEM]6.4**: [Target으로 경험 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html)의 {target=_blank} *Adobe Experience Manager 6.4* 설명서.
 
@@ -99,7 +99,7 @@ ht-degree: 13%
 
 >[!NOTE]
 >
->를 완전히 사용하려면 [!DNL Target] AI 및 ML 기능을 선택하여 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) a/B 테스트를 만드는 동안 오류가 발생했습니다.
+>를 완전히 사용하려면 [!DNL Target] AI 및 ML 기능을 선택하여 [자동 할당](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 Target](/help/c-activities/auto-target/auto-target-to-optimize.md) a/B 테스트를 만드는 동안 오류가 발생했습니다.
 
 **VEC를 사용하여 경험 조각을 사용하려면**
 
