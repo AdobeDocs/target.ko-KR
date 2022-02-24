@@ -5,9 +5,9 @@ title: 환경은 무엇이며 어떻게 사용합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: c335fde454e31c6d82ebc8b0b5570f3c65d18541
+source-git-commit: f3ca5805ae94f79a66f4aa52a46b4fd06909bf86
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '680'
 ht-degree: 60%
 
 ---
@@ -73,9 +73,7 @@ ht-degree: 60%
 
 선택한 환경(호스트 그룹)에 대한 권장 사항 컬렉션 및 제외 컨텐츠를 미리 볼 수 있습니다.
 
->[!NOTE]
->
->Recommendations 활동은 의 일부로 사용할 수 있습니다 [!DNL Target] Premium 솔루션. 이 기능은 [!DNL Target] Premium 라이센스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
+{{premium-note}}
 
 환경을 사용하여 카탈로그에 있는 사용 가능한 항목을 다양한 용도로 구분할 수 있습니다. 예를 들어에 호스트 그룹을 사용할 수 있습니다 [!UICONTROL 개발] 및 [!UICONTROL 프로덕션] 환경, 다양한 브랜드 또는 다양한 지리적 위치. 기본적으로 카탈로그 검색, 컬렉션 및 제외의 미리 보기 결과는 기본 호스트 그룹을 기반으로 합니다. (환경 필터를 사용하여 다른 결과를 미리 볼 호스트 그룹을 선택할 수도 있습니다.) 기본적으로 항목을 만들거나 업데이트할 때 환경 ID를 지정하지 않는 한, 새로 추가된 항목은 모든 호스트 그룹에서 사용할 수 있습니다.
 
