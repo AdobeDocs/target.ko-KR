@@ -1,25 +1,25 @@
 ---
 keywords: 자동화된 트래픽 할당;타깃팅;승자;통계적 보장;신뢰도;승자 결정;상승도;신뢰도;기본값;기본 경험;자동 할당;자동 할당
-description: 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 Adobe [!DNL Target] 에서 A/B 자동 할당 활동의 결과를 해석하는 방법을 알아봅니다.
+description: Adobe에서 A/B 자동 할당 활동의 결과를 해석하는 방법을 알아봅니다 [!DNL Target] 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여
 title: 자동 할당 보고서를 어떻게 해석합니까?
-feature: 자동 할당
+feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 47%
+source-wordcount: '1233'
+ht-degree: 44%
 
 ---
 
 # 자동 할당 보고서 해석
 
-[!UICONTROL Adobe Target]에서 [!UICONTROL 자동 할당] A/B 활동의 결과를 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 해석합니다.
+결과의 해석 [!UICONTROL 자동 할당] 의 A/B 활동 [!UICONTROL Adobe Target] 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여
 
 많은 마케터가 결과가 명확한 승자를 표시하기 전에 가장 성과가 좋은 경험을 조급하게 선언합니다. 이제 승자를 결정하는 것이 쉬워졌습니다.
 
 >[!NOTE]
 >
->승자 선언에 대한 일반적인 정보는 [10가지 공통 A/B 테스트 위험 및 이를 방지하는 방법](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)을 참조하십시오.
+>승자 선언에 대한 일반적인 내용은 [10가지 공통 A/B 테스트 위험 및 방지 방법](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## 우승 경험을 식별합니다 {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -47,7 +47,7 @@ A/B 활동의 끝에서 자동 할당은 결정된 승자에 5%의 유효한 긍
 
 >[!IMPORTANT]
 >
->Target은 사전 정의된 최소 전환 수 이후의 승자를 보여줍니다. 그러나 최종 결정에는 항상 Adobe Target [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR)의 결과가 포함되어야 합니다. Target은 사이트의 기본 전환율 및 활동의 지속 기간을 확인하기 위해 계산기로 제공되는 기타 중요한 측면을 고려하지 않습니다. 따라서, Target은 최소 전환 수를 기준으로 예상대로 승리자보다 먼저 표시될 수 있습니다. 자세한 내용은 [샘플 크기 계산기](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)를 참조하십시오.
+>Target은 사전 정의된 최소 전환 수 이후의 승자를 보여줍니다. 그러나 최종 결정은 언제나 Adobe Target의 결과여야 한다 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR). Target은 사이트의 기본 전환율 및 활동의 지속 기간을 확인하기 위해 계산기로 제공되는 기타 중요한 측면을 고려하지 않습니다. 따라서, Target은 최소 전환 수를 기준으로 예상대로 승리자보다 먼저 표시될 수 있습니다. 자세한 내용은 [샘플 크기 계산기](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## 자동 할당 활동의 상승도 및 신뢰도 보고 이해 {#lift-confidence}
 
@@ -63,7 +63,9 @@ A/B 활동의 끝에서 자동 할당은 결정된 승자에 5%의 유효한 긍
 
 ## FAQ {#section_C8E068512A93458D8C006760B1C0B6A2}
 
-**활동을 시작한 지 며칠이 되었습니다. 모든 신뢰도 값이 여전히 0%로 표시되는 이유는 무엇입니까?**
+자주 묻는 질문에 대한 다음 답변을 고려하십시오.
+
+### 활동을 시작한 지 며칠이 되었습니다. 모든 신뢰도 값이 여전히 0%로 표시되는 이유는 무엇입니까?
 
 모든 활동에 대해 보고서의 [!UICONTROL 신뢰도] 열에 0%가 표시되는 이유는 다음 중에 있습니다.
 
@@ -73,5 +75,13 @@ A/B 활동의 끝에서 자동 할당은 결정된 승자에 5%의 유효한 긍
 
    자동 할당은 주어진 경험이 활동의 모든 경험에 대해 실제 승자가 되는 확률을 표시합니다. 이것은 가장 성과가 좋은 경험(승자가 될 가능성이 가장 높은 경험)의 신뢰도 값만 0이 아님을 의미합니다. 다른 모든 경험은 패자가 될 가능성이 높으며 0%가 표시됩니다.
 
-* 자동 할당은 가장 성과가 좋은 경험이 60% 신뢰도를 모은 후에만 신뢰도 표시를 시작합니다. 이러한 신뢰 수준은 일반적으로 일반 A/B 테스트가 완료되는 데 걸리는 시간의 약 절반 후에 나타납니다(보장되지는 않지만). 일반 A/B 테스트가 얼마나 오래 실행되는지 결정하려면 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)를 사용하십시오. &quot;기준선 전환율&quot;, &quot;상승도&quot;, &quot;신뢰도&quot;에 대한 &quot;5%&quot; 및 95%의 통제 전환율을 표시합니다. 일반적으로 신뢰도는 각 경험이 경험당 필요한 샘플을 50% 이상 축적하면 표시를 시작합니다. 이것으로 신뢰도 표시가 시작되는 시기를 알 수 있습니다.
+* 자동 할당은 가장 성과가 좋은 경험이 60% 신뢰도를 모은 후에만 신뢰도 표시를 시작합니다. 이러한 신뢰 수준은 일반적으로 일반 A/B 테스트가 완료되는 데 걸리는 시간의 약 절반 후에 나타납니다(보장되지는 않지만). 일반 A/B 테스트가 얼마나 오래 실행되는지 결정하려면 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): &quot;기준선 전환율&quot;, &quot;상승도&quot;, &quot;신뢰도&quot;에 대한 &quot;5%&quot; 및 95%의 통제 전환율을 표시합니다. 일반적으로 신뢰도는 각 경험이 경험당 필요한 샘플을 50% 이상 축적하면 표시를 시작합니다. 이것으로 신뢰도 표시가 시작되는 시기를 알 수 있습니다.
 * 보고서가 보드 전체에서 0%를 표시한다면 활동이 너무 이른 것일 수 있습니다.
+
+## &quot;우승자 없음&quot;, &quot;우승자&quot; 및 &quot;별&quot; 배지가 사용할 수 있습니까? [!UICONTROL 자동 할당] 를 사용하는 활동 [!UICONTROL 보고 소스로서의 Analytics] (A4T)?
+
+&quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지는 현재 [!UICONTROL A4T] 패널 [!DNL Analysis Workspace]. 이러한 배지는 같은 보고서를 [!DNL Target]. 에 표시되는 승자 &quot;별&quot; 배지 [!DNL Target] 보고서 [!UICONTROL 자동 할당] A4T를 사용하는 활동은 무시해야 합니다.
+
+이 항목 및 기타 제한 사항 및 참고 사항에 대한 자세한 내용은 [자동 할당](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *에 대한 A4T 지원 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동*.
+
+
