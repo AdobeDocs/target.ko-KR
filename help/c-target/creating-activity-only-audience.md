@@ -1,32 +1,32 @@
 ---
 keywords: 대상;대상 규칙;대상 만들기;대상 생성;활동 전용;활동전용;임시
-description: 일회용 Adobe [!DNL Target] 에서 활동 전용 대상을 만드는 방법을 알아봅니다.
+description: Adobe에서 활동 전용 대상을 만드는 방법을 알아봅니다 [!DNL Target] 일회용입니다
 title: 한 번만 사용할 대상을 만들 수 있습니까?
-feature: 대상자
+feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 62%
+source-wordcount: '449'
+ht-degree: 53%
 
 ---
 
 # 활동 전용 대상 만들기
 
-활동을 만드는 동안 [!DNL Adobe Target] 안내가 있는 3단계 워크플로우에서 활동 전용 대상을 만듭니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 [!UICONTROL 대상 라이브러리]에 저장되지는 않습니다.
+내에서 활동 전용 대상 만들기 [!DNL Adobe Target] 활동을 만들 때 안내가 있는 3단계 워크플로우입니다. 이러한 애드혹 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 [!UICONTROL 대상 라이브러리]에 저장되지는 않습니다.
 
 활동 전용 대상은 다음과 같은 이점을 제공합니다.
 
-* 활동 전용 대상을 사용하여 한 번만 사용하려고 하며 [!UICONTROL 대상 라이브러리]에 저장하지 않으려는 대상을 만들 수 있습니다. 활동 전용 대상은 다시 사용하지 않으려는 대상으로 [!UICONTROL 대상 라이브러리]가 복잡해지지 않도록 하는 데 도움이 됩니다.
+* 활동 전용 대상을 사용하여 한 번만 사용하려고 하며 [!UICONTROL 대상 라이브러리]에 저장하지 않으려는 대상을 만들 수 있습니다. 활동 전용 대상은 데이터를 [!UICONTROL 대상 라이브러리] 다시 사용하지 않으려는 대상으로 복잡해지지 않게 됩니다.
 * 활동 전용 대상은 [!UICONTROL 대상 라이브러리]에 표시되지 않습니다. 이러한 대상은 라이브러리에서 볼 수 없으므로 조직의 다른 사용자가 원치 않는 방식으로 변경하지 않도록 방지됩니다.
 
-1. [활동](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 만드는 동안 **[!UICONTROL 타깃팅]** 페이지에서 3개의 수직 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**&#x200B;를 클릭합니다.
+1. 를 만드는 동안 [활동](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), **[!UICONTROL 타깃팅]** 페이지에서 3개의 수직 줄임표를 클릭한 다음 **[!UICONTROL 대상 바꾸기]**.
 
    ![단계 결과](assets/edit_audience.png)
 
 1. **[!UICONTROL 대상자 만들기를 클릭합니다]**.
 
-1. **[!UICONTROL 이 활동은]**&#x200B;만 클릭합니다.
+1. 클릭 **[!UICONTROL 이 활동만]**.
 
    ![](assets/activity-only-aud.png)
 
@@ -41,9 +41,15 @@ ht-degree: 62%
 
 활동 전용 대상을 사용할 때는 다음 정보에 유의하십시오.
 
-* [!UICONTROL 시각적 경험 작성기] (VEC) 또는 [!UICONTROL 양식 기반 경험 작성기]에서 활동 전용 대상을 만들 수 있습니다. 이 기능은 이전 버전의 [!DNL Target]에서 구체화 규칙을 대체합니다.
+* 에서 활동 전용 대상을 만들 수 있습니다 [!UICONTROL 시각적 경험 작성기] (VEC) 또는 [!UICONTROL 양식 기반 경험 작성기]. 이 기능은 이전 버전의 구체화 규칙을 대체합니다 [!DNL Target].
 * 활동을 다른 활동에서 재사용하기 위해 활동을 만든 후 [!UICONTROL 대상 라이브러리]에 저장하거나 활동 전용 대상을 만들 수 있습니다. 대상을 저장한 후에는 대상 유형을 변경할 수 없습니다.
 * 기존 활동에 대한 구체화 내용은 활동 전용 대상으로 마이그레이션됩니다.
 * 활동 전용 대상의 상태는 [!UICONTROL 사용됨] 또는 [!UICONTROL 사용되지 않음]입니다. 사용되지 않음 활동 전용 대상은 활동을 저장할 때까지 표시됩니다. 사용되지 않음 상태로 두고 활동을 저장하려고 하면 사용되지 않음 활동 전용 대상은 삭제된다는 사실을 알리는 경고 메시지가 표시됩니다.
 * 대상을 열지 않고 대상 선택기에서 액세스한 팝업 카드에서 대상 정의 세부 사항을 볼 수 있습니다.
 * You can [여러 대상을 결합](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 활동 전용 대상을 만들 수 있습니다.
+* 활동 전용 대상은 제외 규칙을 지원하지 않습니다.
+
+   다음 대체 요소를 사용하여 제외 규칙을 사용할 수 있습니다.
+
+   * [라이브러리 대상자 만들기 및 사용](/help/c-target/c-audiences/create-audience.md) 활동 전용 대상 대신 사용할 수 있습니다.
+   * [여러 항목 결합](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) (최대 20개) 라이브러리 대상을 활동 전용 대상으로 끌어옵니다. 대상을 결합할 때 결합된 대상이 활동 전용 대상으로 저장되더라도 개별 라이브러리 대상의 포함 및 제외 규칙을 사용할 수 있습니다.

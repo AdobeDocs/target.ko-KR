@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
+source-git-commit: 974b2093bc9ebc81acb64aa5df0c4c345e52383c
 workflow-type: tm+mt
-source-wordcount: '3493'
+source-wordcount: '3506'
 ht-degree: 99%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 99%
 | --- | --- | --- |
 | 2월 25일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 Target](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [자동 할당 보고서 해석](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 새 FAQ 추가:<ul><li>&quot;우승자 없음&quot;, &quot;우승자&quot; 및 &quot;별&quot; 배지가 사용할 수 있습니까? [!UICONTROL 자동 할당] 를 사용하는 활동 [!UICONTROL 보고 소스로서의 Analytics] (A4T)?</li></ul> |
+|  | [활동 전용 대상 만들기](/help/c-target/creating-activity-only-audience.md) | 제외 규칙에 대해 설명하는 &quot;고려 사항&quot; 섹션에 정보가 추가되었습니다. |
 | 2월 10일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>VEC(시각적 경험 작성기)가 서비스 작업자를 통해 웹 사이트를 로드합니다.</li></ul> |
 | 2월 7일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 2월 23일)</li></ul> |
 | 2월 3일 | [대상자 만들기](/help/c-target/c-audiences/audiences.md#RTCDP) | 새 섹션 및 비디오 추가됨: “비디오: Real-Time CDP 및 [!DNL Adobe Target]을 사용하여 다음 히트 개인화” |
