@@ -4,7 +4,7 @@ description: Adobe에서 A/B 자동 할당 활동의 결과를 해석하는 방�
 title: 자동 할당 보고서를 어떻게 해석합니까?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 44%
@@ -78,7 +78,7 @@ A/B 활동의 끝에서 자동 할당은 결정된 승자에 5%의 유효한 긍
 * 자동 할당은 가장 성과가 좋은 경험이 60% 신뢰도를 모은 후에만 신뢰도 표시를 시작합니다. 이러한 신뢰 수준은 일반적으로 일반 A/B 테스트가 완료되는 데 걸리는 시간의 약 절반 후에 나타납니다(보장되지는 않지만). 일반 A/B 테스트가 얼마나 오래 실행되는지 결정하려면 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): &quot;기준선 전환율&quot;, &quot;상승도&quot;, &quot;신뢰도&quot;에 대한 &quot;5%&quot; 및 95%의 통제 전환율을 표시합니다. 일반적으로 신뢰도는 각 경험이 경험당 필요한 샘플을 50% 이상 축적하면 표시를 시작합니다. 이것으로 신뢰도 표시가 시작되는 시기를 알 수 있습니다.
 * 보고서가 보드 전체에서 0%를 표시한다면 활동이 너무 이른 것일 수 있습니다.
 
-## &quot;우승자 없음&quot;, &quot;우승자&quot; 및 &quot;별&quot; 배지가 사용할 수 있습니까? [!UICONTROL 자동 할당] 를 사용하는 활동 [!UICONTROL 보고 소스로서의 Analytics] (A4T)?
+### &quot;우승자 없음&quot;, &quot;우승자&quot; 및 &quot;별&quot; 배지가 사용할 수 있습니까? [!UICONTROL 자동 할당] 를 사용하는 활동 [!UICONTROL 보고 소스로서의 Analytics] (A4T)?
 
 &quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지는 현재 [!UICONTROL A4T] 패널 [!DNL Analysis Workspace]. 이러한 배지는 같은 보고서를 [!DNL Target]. 에 표시되는 승자 &quot;별&quot; 배지 [!DNL Target] 보고서 [!UICONTROL 자동 할당] A4T를 사용하는 활동은 무시해야 합니다.
 
