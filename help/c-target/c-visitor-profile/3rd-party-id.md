@@ -4,9 +4,9 @@ description: 멤버십 ID 또는 조직의 충성도 프로그램과 같이 조�
 title: mbox3rdPartyId에 대한 실시간 프로필 동기화를 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 47772ebbdec10f78ec120d2e4437eccad969b338
+source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '737'
 ht-degree: 20%
 
 ---
@@ -56,6 +56,8 @@ ht-degree: 20%
       * `setCustomerId` 는 페이지에서 VisitorAPI.js를 사용할 수 있을 때 클라이언트측(브라우저) 구현에서 사용할 수 있는 함수입니다.
       * `customerIds` 는 배달 API 페이로드에서 직접 설정할 때 사용되는 매개 변수 이름이며, 일반적으로 서버측 또는 IOT(사물인터넷) 구현에서 수행됩니다.
       * 다른 `mbox3rdPartyId`/`thirdPartyId`여러 ID를 이 접근 방식의 목록으로 보낼 수 있지만 [!DNL Target] 은 TnT ID당 단일 고객 ID만 지원하며 알려진 별칭(고객 속성 UI에 구성된 별칭)이 있는 목록의 첫 번째 ID를 사용합니다.
+
+   다음을 사용할 수 있습니다 `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] 유일한 사용자 [!DNL Adobe Experience Cloud] 솔루션 을 사용할 수 없습니다. 기타 모든 경우에 `setCustomerId`/`customerIds` 추가 정보.
 
    >[!IMPORTANT]
    >
