@@ -5,7 +5,7 @@ description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '690'
 ht-degree: 100%
 
