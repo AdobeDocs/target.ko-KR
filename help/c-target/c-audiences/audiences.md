@@ -4,10 +4,10 @@ description: 에서 대상을 사용하는 방법을 알아봅니다. [!DNL Adob
 title: 대상 목록을 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
+source-git-commit: 099c1a4ba45ef06f3987f6f4dcffcebb724e8f69
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 24%
+source-wordcount: '1333'
+ht-degree: 23%
 
 ---
 
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## 다음에서 대상 사용 [!DNL Adobe Experience Platform] {#aep}
 
-[!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko-KR){target=_blank}(RTCDP), 구축 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
+[!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCDP), 구축 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
 연결 [!DNL Target] 변환 후 [!DNL Real-time Customer Data Platform], 고객은 이전에 액세스할 수 없었던 새로운 세그먼트를 잠금 해제하여 웹 개인화를 강화할 수 있습니다 [!DNL Target] 고객 웹 방문의 첫 페이지에서 실시간 개인화를 사용하도록 설정하려면 다음을 수행하십시오. 에서 만든 대상 사용 [!DNL Adobe Experience Platform] 더 풍부한 개인화를 위해 사용 가능한 데이터 포인트를 확장할 수 있습니다.
 
@@ -132,13 +132,27 @@ Keep the following points in mind as you work with imported audiences:
 
 ### 추가 정보
 
+다음에서 대상을 사용할 때 다음 정보를 고려하십시오 [!DNL Adobe Experience Platform]:
+
+#### 개인화 사용 사례
+
+다음 표는 를 사용할 때 사용할 수 있는 개인화 사용 사례 유형(다음 세션 또는 동일한 페이지)을 보여줍니다 [!DNL Adobe Experience Platform Web SDK] at.js를 사용하는 것과 반대됩니다.
+
+| 구현 | 솔루션/사용 사례 사용 |
+| --- | --- |
+| at.js | **솔루션**:<ul><li>[!DNL Adobe Audience Manager] (AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP] (Premium 또는 Ultimate) 및 [!DNL Target]</li><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li></ul> |
+| [!DNL Platform Web SDK] 또는 [!DNL AEP Server-Side API] | **솔루션**:<ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li><li>Edge를 통한 동일한 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul>**솔루션**:<ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>을 통해 타사 세그먼트 [!DNL AAM]</li></ul><li>Edge를 통한 동일한 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
+| 혼합 [!UICONTROL at.js] 및 [!DNL Platform Web SDK] | **솔루션**:<ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!UICONTROL at.js]</li></ul><li>동일한 페이지 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!DNL Platform Web SDK]</li></ul></ul>**솔루션**:<ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!UICONTROL at.js]</li><li>[!DNL AAM] 세그먼트</li><li>을 통해 타사 세그먼트 [!DNL AAM]</li></ul> |
+
+#### 세그먼트 평가 시간
+
 다음 표는 다른 구현 시나리오에서 발생하는 이벤트에 대한 세그먼트 평가 시간을 보여줍니다.
 
 | 시나리오 | 에지 세그먼트(밀리초 평가) | 스트리밍 세그먼트(분 평가) | 배치 세그먼트 평가 |
 | --- | --- | --- | --- |
-| Adobe Experience Platform SDK의 이벤트/데이터 | 예 | 예 | 해당 없음 |
-| at.js의 이벤트 | 아니오 | 예 | 해당 없음 |
-| Target Mobile SDK의 이벤트 | 아니오 | 예 | 해당 없음 |
+| 이벤트/데이터 원본 [!DNL Adobe Experience Platform] SDK | 예 | 예 | 해당 없음 |
+| 이벤트 출처 [!UICONTROL at.js] | 아니오 | 예 | 해당 없음 |
+| 이벤트 출처 [!DNL Target Mobile] SDK | 아니오 | 예 | 해당 없음 |
 | 일괄 업로드에서 이벤트 | 아니오 | 아니오 | 예 |
 | 오프라인 데이터(스트림)의 이벤트 | 아니오 | 예 | 예 |
 

@@ -4,9 +4,9 @@ title: ' [!DNL Target] 설명서는 어디에서 찾을 수 있습니까?'
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
-workflow-type: ht
-source-wordcount: '690'
+source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
+workflow-type: tm+mt
+source-wordcount: '628'
 ht-degree: 100%
 
 ---
@@ -17,15 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트 날짜: 2022년 2월 25일 ([변경 사항 보기](r-release-notes/doc-change.md))**
-
->[!NOTE]
->
->[!DNL Adobe Target]이 최근 다음 보고서에서 리더로 선정되었습니다.
->
->**[경험 최적화 플랫폼을 위한 Forrester wave 보고서.](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html)** Adobe Target은 Forrester Wave: 경험 최적화 플랫폼, 2020년 4분기 보고서에서 리더로 선정되었습니다.
->
->**[개인화 엔진을 위한 Gartner Magic Quadrant.](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/)** Adobe Target은 제 3회 Gartner Magic Quadrant for Personalization Engines, 2020년 보고서에서 다시 한 번 리더로 선정되었습니다.
+**마지막 업데이트 날짜: 2022년 3월 7일( [변경 사항 보기](r-release-notes/doc-change.md) )**
 
 다음 섹션에서는 일반적인 직무에 따라 의도된 대상별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
