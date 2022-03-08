@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: ht
-source-wordcount: '578'
-ht-degree: 100%
+source-git-commit: 91fe1cc485daa89936b0560039901dc3e78ad27f
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 94%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 스킬 빌더 세션, 개발자 채팅, 웨비나, 그리고 [!DNL Target] Coffee Break 세션을 포함하여 예정된 이벤트에 대한 공지와 정보입니다.
 
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 2월 23일)
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 3월 30일)
 
-* **2022년 2월 23일 수요일**
-* **오전 8시(PST, UTC -8)**
-* **[추가 정보 및 등록 정보](https://adobe.ly/3skO6DV)**
+* **2022년 3월 30일 수요일**
+* **오전 8시 (PDT, UTC -7)**
+* **[추가 정보 및 등록 정보](https://adobe.ly/3sIS5Mg)**
 
-수석 제품 관리자인 Vishal Chordia가 다음과 같은 분야에서 자신의 전문 지식을 바탕으로 고객의 질문에 답변해 드립니다.
+수석 솔루션 컨설턴트인 Ryan Pizzuto는 다음과 같은 전문 분야와 관련된 고객 질문에 답변할 것입니다.
 
-* [!DNL Adobe Experience Platform]
-* 대상자 기반 개인화
-* [!DNL Target]과 [!DNL Real-time Customer Data Platform] (RTCDP) 통합
-* 일반 [!DNL Target] 주제
+* [!UICONTROL 자동 타기팅]
+* [!UICONTROL 자동화된 개인화]
+* [!UICONTROL Recommendations]
+* 일반 [!UICONTROL Adobe Target] 항목
 
 기술 지원 엔지니어인 Mihnea Docea가 Vishal을 지원할 예정입니다.
 
