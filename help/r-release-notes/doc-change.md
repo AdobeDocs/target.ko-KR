@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
 workflow-type: tm+mt
-source-wordcount: '3536'
+source-wordcount: '3561'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 3월 9일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 다음 알려진 문제가 추가되었습니다.<ul><li>양식 기반 경험 작성기에서 만든 활동에서 임시 오퍼가 있는 위치 삭제</li></ul> |
 | 3월 8일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 3월 30일)</li></ul> |
 | 3월 7일 | [대상 만들기](/help/c-target/c-audiences/audiences.md#aep) | “[!DNL Adobe Experience Platform]의 대상 사용:” 아래에 새로운 섹션 추가됨<ul><li>개인화 사용 사례</li></ul> |
 | 2월 25일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 타기팅](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |

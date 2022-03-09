@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: ht
-source-wordcount: '4738'
-ht-degree: 100%
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+workflow-type: tm+mt
+source-wordcount: '4819'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,10 @@ SW는 캐싱을 제어할 수 있으며 웹 페이지 자체, JS, CSS, IMG, AJAX
 웹 요청을 가로채는 Chrome 확장 API에서 SW가 가로채고 처리한 요청을 수신하지는 않습니다. X-Frame-Options 또는 CSP 헤더도 캐시되었으므로 웹 페이지 요청이 SW에 의해 캐시에서 제공된 경우 확장 프로그램에서 헤더와 쿠키를 수정할 수 없습니다.
 
 잠재적인 해결 방법으로 Chrome 개발자 도구 > 애플리케이션 탭에서 서비스 작업자를 비활성화한 다음 서비스 작업자 섹션에서 “네트워크 우회” 확인란을 활성화할 수 있습니다. (KB-2006)
+
+### 양식 기반 경험 작성기에서 만든 활동에서 임시 오퍼가 있는 위치 삭제 {#ad-hoc}
+
+해당 위치에서 임시 오퍼(활동 내에서 만든 오퍼)를 사용하는 경우 양식 기반 경험 작성기에서 만든 활동에서 위치를 삭제하지 마십시오. 위치를 삭제하면 활동이 손상될 수 있습니다. 다음 [!DNL Target] 팀이 이 문제를 해결하기 위해 노력하고 있습니다. 해결 방법으로, [!UICONTROL 오퍼 라이브러리] 위치에 사용하거나 필요한 경우 새 경험을 만들 수 있습니다. (KB-2014)
 
 ### A4T를 이용한 자동 할당 활동의 트래픽 분포 {#aa-a4t}
 
