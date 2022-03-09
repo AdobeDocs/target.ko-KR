@@ -4,10 +4,10 @@ description: 멤버십 ID 또는 조직의 충성도 프로그램과 같이 조�
 title: mbox3rdPartyId에 대한 실시간 프로필 동기화를 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
+source-git-commit: 211931f4456f5360efb1fbaa4f0bc23f5bfbcfc1
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 20%
+source-wordcount: '735'
+ht-degree: 18%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 20%
 
 [!DNL Target]이 활성화된 페이지에 방문자가 액세스하면 해당 방문자에게 [!DNL Target] PCID가 지정됩니다. 방문자가 로그인하고 구현이 를 전달하는 경우 `mbox3rdPartyId` to [!DNL Target], [!DNL Target] 해당 방문자의 `mbox3rdPartyId` 사용 [!DNL Target] PCID입니다.
 
-3~5분 간격으로 업데이트가 데이터베이스와 동기화됩니다. 방문자가 로그아웃하면 병합된 데이터가 `mbox3rdPartyId`를 눌러 해당 방문자의 작업에 대한 전체 레코드를 만듭니다. 동일한 속성이 두 ID에 있는 경우(예: PCID에는 category=hats가 지정되고 `mbox3rdPartyId` 에는 category=skis가 있고, 방문자가 로그인 전에 경험 A를 보았으나 경험 B는 `mbox3rdPartyId`- `mbox3rdPartyId` 는 PCID의 속성을 덮어씁니다. 방문자가 로그인하기 전에 한 활동 또는 경험에 있었으나 경험에 다른 활동 및 경험이 저장되는 경우입니다 `mbox3rdPartyId`로 로그인하면 해당 방문자가 `mbox3rdPartyId` 활동 및 경험.
+업데이트는 5~10분마다 프로필 스토어와 동기화됩니다. 방문자의 세션이 종료되면 병합된 데이터가 `mbox3rdPartyId`를 눌러 해당 방문자의 작업에 대한 전체 레코드를 만듭니다. 동일한 속성이 두 ID에 있는 경우(예: PCID에는 category=hats가 지정되고 `mbox3rdPartyId` 에는 category=skis가 있고, 방문자가 로그인 전에 경험 A를 보았으나 경험 B는 `mbox3rdPartyId`- `mbox3rdPartyId` 는 PCID의 속성을 덮어씁니다. 방문자가 로그인하기 전에 한 활동 또는 경험에 있었으나 경험에 다른 활동 및 경험이 저장되는 경우입니다 `mbox3rdPartyId`로 로그인하면 해당 방문자가 `mbox3rdPartyId` 활동 및 경험.
 
 | PCID(로그인되지 않음) | mbox3rdPartyID(로그인됨) | 병합되어 mbox3rdPartyID에 저장됨 |
 |---|---|---|
