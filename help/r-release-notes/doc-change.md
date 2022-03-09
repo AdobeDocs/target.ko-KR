@@ -20,7 +20,7 @@ ht-degree: 99%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 3월 8일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 3월 30일)</li></ul> |
-| 3월 7일 | [대상자 만들기](/help/c-target/c-audiences/audiences.md#aep) | &quot;다음에서 대상 사용&quot;에 새 섹션이 추가되었습니다 [!DNL Adobe Experience Platform]:&quot;<ul><li>개인화 사용 사례</li></ul> |
+| 3월 7일 | [대상 만들기](/help/c-target/c-audiences/audiences.md#aep) | “[!DNL Adobe Experience Platform]의 대상 사용:” 아래에 새로운 섹션 추가됨<ul><li>개인화 사용 사례</li></ul> |
 | 2월 25일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 타기팅](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [자동 할당 보고서 해석](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 새 FAQ 추가:<ul><li>[!UICONTROL 보고 소스로서의 Analytics] (A4T)를 사용하는 [!UICONTROL 자동 할당] 활동에 “우승자 없음”, “우승자” 및 “별” 배지를 사용할 수 있습니까?</li></ul> |
 |  | [활동 전용 대상 만들기](/help/c-target/creating-activity-only-audience.md) | 제외 규칙에 대해 논의하는 “고려 사항” 섹션에 정보가 추가되었습니다. |
