@@ -19,9 +19,9 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 3월 9일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 다음 알려진 문제가 추가되었습니다.<ul><li>Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer</li></ul> |
-|  | [mbox3rdPartyId에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | Updated following sentence regarding profile syncing: &quot;Updates are synced with the profile store every 5-10 minutes.&quot; |
-| 3월 8일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (March 30, 2022)</li></ul> |
+| 3월 9일 | [알려진 문제 및 해결된 문제](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 다음 알려진 문제가 추가되었습니다.<ul><li>양식 기반 경험 작성기에서 만든 활동에서 임시 오퍼가 있는 위치 삭제</li></ul> |
+|  | [mbox3rdPartyId에 대한 실시간 프로필 동기화](/help/c-target/c-visitor-profile/3rd-party-id.md) | 프로필 동기화에 대한 다음 문장을 업데이트했습니다. &quot;업데이트는 5~10분마다 프로필 스토어와 동기화됩니다.&quot; |
+| 3월 8일 | [Target 알림 및 이벤트](/help/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 3월 30일)</li></ul> |
 | 3월 7일 | [대상 만들기](/help/c-target/c-audiences/audiences.md#aep) | “[!DNL Adobe Experience Platform]의 대상 사용:” 아래에 새로운 섹션 추가됨<ul><li>개인화 사용 사례</li></ul> |
 | 2월 25일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 타기팅](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [자동 할당 보고서 해석](/help/c-activities/automated-traffic-allocation/determine-winner.md) | 새 FAQ 추가:<ul><li>[!UICONTROL 보고 소스로서의 Analytics] (A4T)를 사용하는 [!UICONTROL 자동 할당] 활동에 “우승자 없음”, “우승자” 및 “별” 배지를 사용할 수 있습니까?</li></ul> |
