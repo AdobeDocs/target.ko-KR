@@ -5,9 +5,9 @@ title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 91fe1cc485daa89936b0560039901dc3e78ad27f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '579'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,12 +21,12 @@ ht-degree: 94%
 * **오전 8시 (PDT, UTC -7)**
 * **[추가 정보 및 등록 정보](https://adobe.ly/3sIS5Mg)**
 
-수석 솔루션 컨설턴트인 Ryan Pizzuto는 다음과 같은 전문 분야와 관련된 고객 질문에 답변할 것입니다.
+선임 솔루션 컨설턴트인 Ryan Pizzuto가 자신의 전문 지식을 바탕으로 고객 질문에 답변합니다.
 
 * [!UICONTROL 자동 타기팅]
 * [!UICONTROL 자동화된 개인화]
 * [!UICONTROL Recommendations]
-* 일반 [!UICONTROL Adobe Target] 항목
+* 일반 [!UICONTROL Adobe Target] 주제
 
 기술 지원 엔지니어인 Mihnea Docea가 Vishal을 지원할 예정입니다.
 
