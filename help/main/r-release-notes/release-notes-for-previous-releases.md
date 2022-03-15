@@ -25,7 +25,7 @@ ht-degree: 100%
 
 ### at.js 버전 2.8.1 (2022년 1월 28일)
 
-* `pageLoad`가 [!UICONTROL 온디바이스 의사 결정](ODD) 하이브리드 실행 모드에서 target-global-mbox에 매핑되지 않는 문제가 해결되었습니다.
+* `pageLoad`가 [!UICONTROL 온디바이스 의사 결정] (ODD) 하이브리드 실행 모드에서 target-global-mbox에 매핑되지 않는 문제가 해결되었습니다.
 * mbox 요청에 대한 분석 세부 정보 관련 문제가 해결되었습니다.
 * 보안 취약성을 해결하기 위해 개발 종속성이 업그레이드되었습니다.
 
