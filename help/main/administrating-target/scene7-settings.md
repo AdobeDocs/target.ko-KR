@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # Dynamic Media Classic(이전 Scene7) 구성
 
-[!DNL Adobe Target]를 [!DNL Adobe Dynamic Media Classic](이전 [!DNL Scene7])과 통합하여 [!UICONTROL 콘텐츠 라이브러리]에서 DAM(디지털 에셋 관리)을 제공할 수 있습니다.
+[!DNL Adobe Target]를 [!DNL Adobe Dynamic Media Classic] (이전 [!DNL Scene7])과 통합하여 [!UICONTROL 콘텐츠 라이브러리]에서 DAM(디지털 에셋 관리)을 제공할 수 있습니다.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 100%
 
 [!DNL Dynamic Media]의 이미지 저장 URL과 최종 게시 URL이 다르기 때문에 이미지 저장 링크를 사용하여 오퍼를 작성해서는 *안 됩니다*. 이러한 경우 전달이 작동하지 않습니다. 도움말 문서에 설명된 대로 이미지 오퍼 기능을 사용해야 합니다.
 
-[!DNL Dynamic Media Classic]([!DNL Scene7])과 통합하려면 다음 정보를 지정해야 합니다.
+[!DNL Dynamic Media Classic] ([!DNL Scene7])과 통합하려면 다음 정보를 지정해야 합니다.
 
 1. **[!UICONTROL 관리]** > **[!UICONTROL Scene7 구성]**&#x200B;을 클릭합니다.
 
@@ -46,8 +46,8 @@ ht-degree: 100%
 
    **임시 폴더**: 대상 폴더 외부에 있고 수동으로 [!DNL Dynamic Media]에 업로드되는 콘텐츠의 위치입니다.
 
-   **이메일 주소:** [!DNL Dynamic Media Classic]([!DNL Scene7])에 로그인할 때 사용되는 이메일 주소입니다.
+   **이메일 주소:** [!DNL Dynamic Media Classic] ([!DNL Scene7])에 로그인할 때 사용되는 이메일 주소입니다.
 
-   **암호:** [!DNL Dynamic Media Classic]([!DNL Scene7])에 로그인할 때 사용하는 암호입니다.
+   **암호:** [!DNL Dynamic Media Classic] ([!DNL Scene7])에 로그인할 때 사용하는 암호입니다.
 
 1. **[!UICONTROL 제출]**&#x200B;을 클릭합니다.
