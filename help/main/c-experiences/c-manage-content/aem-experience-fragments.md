@@ -4,10 +4,10 @@ description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] 경험 �
 title: 사용 방법 [!DNL Adobe Experience Manager] (AEM) 경험 구성요소?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
 workflow-type: tm+mt
-source-wordcount: '1180'
-ht-degree: 13%
+source-wordcount: '1218'
+ht-degree: 12%
 
 ---
 
@@ -100,6 +100,8 @@ ht-degree: 13%
 >[!NOTE]
 >
 >를 완전히 사용하려면 [!DNL Target] AI 및 ML 기능을 선택하여 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) a/B 테스트를 만드는 동안 오류가 발생했습니다.
+>
+>경험 조각은에서 지원되지 않습니다 [!DNL Recommendations] 활동. 그러나 추천에 경험 조각을 사용하려면 다음을 만들 수 있습니다 [!UICONTROL A/B 테스트] 활동(포함) [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target]) 또는 [!UICONTROL 경험 타깃팅] (XT) 활동 및 [오퍼로 권장 사항 포함](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **VEC를 사용하여 경험 조각을 사용하려면**
 

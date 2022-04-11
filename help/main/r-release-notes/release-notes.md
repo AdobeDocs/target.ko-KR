@@ -5,45 +5,56 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 49%
 
 ---
 
 # Target 릴리스 정보 (현재)
 
-이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 Target API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 사항에 대한 릴리스 정보도 포함됩니다.
+이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 또한 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK]적용 가능한 경우 , at.js 및 기타 플랫폼 변경 사항도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## Target Standard/Premium 22.2.1 (2022년 2월 1일)
+## [!DNL Target Standard/Premium] 22.3.1(시차 릴리스, 날짜 결정)
 
-이번 유지 관리 릴리스에는 Target Standard/Premium 22.1.2 릴리스에서 발표된 새로운 [!UICONTROL 대상자] UI에 대한 다음과 같은 수정 사항 및 개선 사항이 포함되어 있으며 향후 6주 동안 모든 지역의 고객에게 출시될 예정입니다. 이들 수정 사항은 [!DNL Adobe Target Standard/Premium]에서 생성된 대상자에 대한 기능을 조정합니다.
+이 릴리스에는 다음과 같은 변경 사항 및 개선 사항이 포함되었습니다.
 
-* [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] 및 [!DNL Adobe Target Classic]에서 가져온 대상자를 보고 대상자로 할당할 수 없었던 문제가 해결되었습니다. (TGT-43140)
-* [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] 및 [!DNL Adobe Target Classic]에서 가져온 대상자 그룹에 대한 [!UICONTROL 대상자] 목록에 [!UICONTROL 삭제] 옵션이 추가되었습니다. 또한 일괄 삭제 기능이 추가되었습니다. (TGT-42914)
+* 스크립트를 편집하고 활성화한 다음 비활성화한 후 프로필 스크립트 편집 내용이 편집되지 않은 원래 스크립트로 되돌리는 문제를 해결했습니다. 이제 프로필 스크립트가 편집된 상태로 유지됩니다. (TGT-43249)
+* 에서 다음 오류 메시지가 표시되는 문제를 해결했습니다. [!DNL Target] 초안 상태인 활동에서 사용된 대상을 이동할 때 UI를 사용할 수 있습니다. &quot;요청을 완료할 수 없습니다. 문제가 계속되면 Adobe 고객 지원 센터에 문의하십시오.&quot; (TGT-43212)
+* 이(가) [!UICONTROL 포함] 및 [!UICONTROL 제외] 활동을 편집할 때 결합된 대상에 대해 비활성화할 수 있는 옵션. (TGT-43422)
+* 활동을 편집하는 동안 일부 고객이 사용 가능한 대상 목록을 볼 수 없는 문제를 해결했습니다. (TGT-43404)
+* 일부 고객이 &quot;[!UICONTROL 제외할 IP [!DNL Target] 보고 데이터]&quot; 목록 [!UICONTROL 관리] > [!UICONTROL 보고]. (TGT-43384)
+* 변수가 &quot;보다 큼&quot;, &quot;보다 크거나 같음&quot;, &quot;보다 작음&quot; 또는 &quot;보다 작음&quot; 또는 &quot;보다 작거나 같음&quot;인지 대상 기준에 음수가 사용되지 않는 문제를 해결했습니다. (TGT-43367)
+* 고객이 를 볼 수 없는 문제를 해결했습니다 [!UICONTROL 대상 세부 사항] 결합된 대상을 만들 때 카드입니다. (TGT-43303)
+* 이(가) [!DNL Target] UI 또는 신규 [!UICONTROL 대상] UI를 사용하여 일부 고객의 시간을 늦춥니다. (TGT-42590 및 TGT-43273)
 
-## at.js 버전 2.8.1 (2022년 1월 28일)
+## [!DNL Target] 플랫폼 릴리스(3월 30일)
 
-* `pageLoad`가 [!UICONTROL 온디바이스 의사 결정] (ODD) 하이브리드 실행 모드에서 target-global-mbox에 매핑되지 않는 문제가 해결되었습니다.
-* mbox 요청에 대한 분석 세부 정보 관련 문제가 해결되었습니다.
-* 보안 취약성을 해결하기 위해 개발 종속성이 업그레이드되었습니다.
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
-## [!DNL Target Standard/Premium] 22.1.2 (2022년 1월 26일)
+* 클릭 추적 지표에는 Analytics를 보고 소스(A4T)로 사용하고 클라이언트측에서 이벤트를 처리하는 활동에 대한 배달 API 요청에 Analytics 페이로드가 포함됩니다. (TNT-43073)
 
-| 기능 | 세부 사항 |
-| --- | --- |
-| [!DNL Target]의 [!DNL Adobe Experience Platform] 대상자 | 이제 [!DNL Target]에서 [!DNL Adobe Experience Platform] 대상자를 소비하고 사용할 수 있습니다. [!DNL Target] 팀, [!DNL Experience Platform] [!DNL Destinations] 팀 및 [!DNL Unified Profile Service] 팀은 “동일 페이지/다음 페이지 개인화” 사용 사례의 일반 가용성을 기쁘게 발표합니다.<br>[!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. [!DNL Adobe Experience Platform]을 기반으로 구축된 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCDP)은 기업이 여러 엔터프라이즈 소스로부터의 알려진 데이터와 익명 데이터를 통합하여 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있도록 지원합니다.<br>자세한 내용은 *대상자 만들기*&#x200B;에서 [Adobe Experience Platform의 대상자 사용](/help/main/c-target/c-audiences/audiences.md#aep) 및 *대상 개요* 안내서에서 [동일 페이지 및 다음 페이지 개인화 사용 사례](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}를 참조하십시오. |
-| [!UICONTROL 대상] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일부로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL 대상] 및 [!UICONTROL 프로필 스크립트] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상을 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상 빌더 디자인](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL 대상] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 “대상 소스” 필터</li><li>세션 영구 검색 및 필터 옵션</li><li>[!DNL Target Premium] 고객을 위해 작업 영역 간에 대상자를 이동할 수 있습니다.</li></ul>자세한 내용은 [대상자](/help/main/c-target/target.md)를 참조하십시오.<br>**참고**: 이 기능은 향후 8주 이내에 다른 지역의 고객에게도 제공될 예정입니다. |
-| [!UICONTROL 프로필 스크립트] UI 새로 고침 | 또한 [!UICONTROL 프로필 스크립트] 라이브러리가 업데이트되고, 새로운 인터페이스와 몇 가지 생산성 업데이트가 여기에 포함됩니다.<ul><li>여러 프로필 스크립트를 동시 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트용 새로운 편집기 코드</li><li>코드 편집기 내 구문 강조 표시 및 오류 검사</li><li>키보드 단축키를 통한 자동 완성 토큰(mbox 또는 프로필) 매개 변수</li></ul>자세한 내용은 [방문자 프로필](/help/main/c-target/c-visitor-profile/visitor-profile.md)을 참조하십시오.<br>**참고**: 이 기능은 향후 8주 이내에 다른 지역의 고객에게도 제공될 예정입니다. |
+## [!DNL Target Standard] 대상 새로 고침(3월 28일)
+
+이 릴리스에는 다음 업데이트가 포함됩니다.
+
+* 새로운 [!UICONTROL 대상] 모든 사용자에 대해 UI가 활성화됨 [!DNL Target Standard] 고객.
+
+## Target Standard/Premium 고객 엔지니어링 수정 사항(2022년 3월 22일)
+
+이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* 반환할 기능이 추가되었습니다. [!DNL Analytics] 페이로드 데이터 `prefetch` 보기 및 `pageLoad` 사용할 때 지표 클릭 [!UICONTROL 배달 API] 사용 중인 활동과 [!UICONTROL 보고 소스로서의 Analytics] (A4T). (TNT-43198)
+* 일본에서 일반적으로 사용되는 브라우저 유형을 허용하도록 보트 필터링 사용자 에이전트 목록을 업데이트했습니다. (TNT-43867)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko-KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko_KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
 | [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보

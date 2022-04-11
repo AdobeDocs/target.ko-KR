@@ -5,10 +5,10 @@ title: 방법 [!DNL Target] 개인 정보 보호 및 데이터 보호 규정을 
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 54%
+source-wordcount: '2209'
+ht-degree: 53%
 
 ---
 
@@ -31,8 +31,9 @@ ht-degree: 54%
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* [Adobe 일반 데이터 보호 규정 API 웹 사이트](https://www.adobe.io/apis/experienceplatform/gdpr.html)
-* [GDPR 설명서](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Adobe Privacy Service 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=-blank}
+* [Privacy Service API 안내서](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=_blank}
+* [Privacy Service UI 개요](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=_blank}
 
 ## 캘리포니아 소비자 개인 정보 보호법(CCPA) 개요
 

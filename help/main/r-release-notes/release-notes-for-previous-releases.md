@@ -1,13 +1,13 @@
 ---
-keywords: 릴리스 정보
+keywords: 릴리스 정보사전 릴리스 노트;향후 개선 사항;향후 수정 사항;향후 기능;향후 릴리스
 description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항 및 수정 사항 목록을 봅니다.
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '32988'
-ht-degree: 100%
+source-wordcount: '33051'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,13 @@ ht-degree: 100%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2022
+
+### Target Standard/Premium 22.2.1 (2022년 2월 1일)
+
+이번 유지 관리 릴리스에는 Target Standard/Premium 22.1.2 릴리스에서 발표된 새로운 [!UICONTROL 대상자] UI에 대한 다음과 같은 수정 사항 및 개선 사항이 포함되어 있으며 향후 6주 동안 모든 지역의 고객에게 출시될 예정입니다. 이들 수정 사항은 [!DNL Adobe Target Standard/Premium]에서 생성된 대상자에 대한 기능을 조정합니다.
+
+* [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] 및 [!DNL Adobe Target Classic]에서 가져온 대상자를 보고 대상자로 할당할 수 없었던 문제가 해결되었습니다. (TGT-43140)
+* [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] 및 [!DNL Adobe Target Classic]에서 가져온 대상자 그룹에 대한 [!UICONTROL 대상자] 목록에 [!UICONTROL 삭제] 옵션이 추가되었습니다. 또한 일괄 삭제 기능이 추가되었습니다. (TGT-42914)
 
 ### at.js 버전 2.8.1 (2022년 1월 28일)
 
@@ -1166,7 +1173,7 @@ target/r_release-notes-2018.xml
 
 이 [!DNL Target] 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* 이제 권장 사항 CSV 다운로드의 백업 행에는 *(단일 별표) 대신 선행 &quot;*&quot;(별표를 묶는 큰따옴표 묶음)가 있습니다.
+* 이제 Recommendations CSV 다운로드의 백업 행에 앞에 &quot;&quot;가 있습니다.&#42;&quot;(큰따옴표가 별표를 묶음) 대신 &#42; (단일 별표)
 * 권장 사항 CSV 다운로드에서 가장 많이 판매된 범주/가장 많이 본 범주 행에 더 이상 맨 앞에 쉼표가 없습니다.
 
 ### Target 플랫폼 변경 사항(2018년 6월 19일) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1233,7 +1240,6 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>양식 기반 경험 작성기에서 권장 사항 기준을 선택하는 동안 선택한 기준 카드에 직접 연결되는 링크가 있으므로 기준을 빠르고 쉽게 편집할 수 있습니다. (TGT-28483) </p> <p>자세한 내용은 <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local"> 양식 기반 경험 작성기 </a>를 참조하십시오. </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>권장 사항 기준, 권장 사항 프로모션 및 템플릿 테스트 규칙 생성을 사용하여 이제 mbox 이름을 반드시 지정하지 않고도 mbox 매개 변수를 직접 사용할 수 있습니다. 이제 mbox 이름은 선택 사항입니다. 따라서 여러 mbox의 매개 변수를 사용하거나 가장자리에 아직 기록되지 않은 매개 변수를 참조할 수 있습니다. 또는 mbox 이름 필터를 사용하여 mbox 매개 변수를 필터링할 수도 있습니다. </p> <p>또한 이와 동일한 개선 사항이 사용자 지정 대상 만들기로 확장되었습니다. </p> <p>자세한 내용은 <a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local"> 권장 사항 FAQ </a>. </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>권장 사항 디자인 카드에 대한 UI가 업데이트되었습니다. </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>Target Recommendations API 문서는 <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external"> Adobe I/0 Adobe Target 웹 사이트 </a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html)에 제공됩니다. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

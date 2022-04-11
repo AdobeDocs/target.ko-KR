@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
 workflow-type: tm+mt
-source-wordcount: '4819'
-ht-degree: 98%
+source-wordcount: '4818'
+ht-degree: 99%
 
 ---
 
@@ -35,9 +35,9 @@ SW는 캐싱을 제어할 수 있으며 웹 페이지 자체, JS, CSS, IMG, AJAX
 
 잠재적인 해결 방법으로 Chrome 개발자 도구 > 애플리케이션 탭에서 서비스 작업자를 비활성화한 다음 서비스 작업자 섹션에서 “네트워크 우회” 확인란을 활성화할 수 있습니다. (KB-2006)
 
-### 양식 기반 경험 작성기에서 만든 활동에서 임시 오퍼가 있는 위치 삭제 {#ad-hoc}
+### 양식 기반 경험 작성기에서 만든 활동에서 애드혹 오퍼가 있는 위치 삭제 {#ad-hoc}
 
-해당 위치에서 임시 오퍼(활동 내에서 만든 오퍼)를 사용하는 경우 양식 기반 경험 작성기에서 만든 활동에서 위치를 삭제하지 마십시오. 위치를 삭제하면 활동이 손상될 수 있습니다. 다음 [!DNL Target] 팀이 이 문제를 해결하기 위해 노력하고 있습니다. 해결 방법으로, [!UICONTROL 오퍼 라이브러리] 위치에 사용하거나 필요한 경우 새 경험을 만들 수 있습니다. (KB-2014)
+양식 기반 경험 작성기에서 만든 활동에서 위치가 애드혹 오퍼(활동 내부에 생성된 오퍼)를 사용하는 경우에는 활동에서 해당 위치를 삭제하지 마십시오. 위치를 삭제하면 활동이 손상될 수 있습니다. [!DNL Target] 팀은 이 문제를 해결하기 위해 노력하고 있습니다. 임시 해결 방법으로, [!UICONTROL 오퍼 라이브러리]에서 글로벌 오퍼를 만들어 위치와 함께 사용하거나, 필요한 경우 새로운 경험을 만들 수 있습니다. (KB-2014)
 
 ### A4T를 이용한 자동 할당 활동의 트래픽 분포 {#aa-a4t}
 
@@ -59,7 +59,7 @@ SW는 캐싱을 제어할 수 있으며 웹 페이지 자체, JS, CSS, IMG, AJAX
 
 [!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타켓] (AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
 
-### [!UICONTROL 자동 타겟] 활동이 동기화 문제를 일으킬 수 있습니다.
+### 보관 [!UICONTROL 자동 Target] 활동이 동기화 문제를 초래할 수 있음
 
 비활성 [!UICONTROL 자동 타겟] 활동을 보관하려는 시도는 동기화 문제를 일으킬 수 있습니다. 이 문제가 수정되기 전까지 [!UICONTROL 자동 타겟] 활동을 보관하지 마십시오. [!UICONTROL 비활성] 상태로 두십시오. (TGT-40885)
 

@@ -5,9 +5,9 @@ title: 에 대한 Faq [!DNL Target] 모바일 앱용
 feature: Implement Mobile
 role: Developer
 exl-id: 1ddd8345-e753-4608-9293-939e092cb16d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '311'
 ht-degree: 3%
 
 ---
@@ -26,7 +26,7 @@ Adobe Experience Platform Mobile SDK는 현재 iOS, Android 및 React를 지원�
 
 ## 위도와 경도에 대한 확인 측면에서 위치 기반 기능의 빈도는 얼마입니까?
 
-자세한 내용은 [Adobe 위치 설명서](https://placesdocs.com/places-services-by-adobe-documentation/) 추가 정보.
+자세한 내용은 [Adobe Places Service 설명서](https://experienceleague.adobe.com/docs/places/using/home.html) 추가 정보.
 
 ## Adobe Experience Platform Mobile SDK가 작동하려면 at.js가 필요합니까?
 
