@@ -5,7 +5,7 @@ title: 내  [!DNL Target]  활동의 결과를 조직과 어떻게 공유할 수
 feature: Overview
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '217'
 ht-degree: 100%
 
