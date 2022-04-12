@@ -5,10 +5,10 @@ title: 모바일 앱용 오퍼 컨텐츠를 미리 가져올 수 있습니까?
 feature: Implement Mobile
 role: Developer
 exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e152d3d68eede9c7606e546e30bd3e65bb8bcb9a
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 47%
+source-wordcount: '216'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,6 @@ ht-degree: 47%
 iOS 및 Android Mobile SDK에서 미리 가져오기 방법을 사용할 때는 다음 제한 사항을 고려하십시오.
 
 * 미리 가져오기 콘텐츠는 실행 간에는 지속되지 않으며, 애플리케이션이 상주하는 동안 또는 `clearPrefetchCache()` 메서드가 호출될 때까지 캐시됩니다.
-* 미리 가져오기 기능은에 지원되지 않습니다 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 트래픽 할당 방법, [!UICONTROL Automated Personalization] 또는 [!UICONTROL Recommendations] 활동 유형 또는 [A/B 또는 XT 활동 내의 권장 사항 오퍼](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 미리 가져오기 방법, 공용 클래스 및 코드 샘플을 포함한 자세한 내용은 다음을 참조하십시오.
 
