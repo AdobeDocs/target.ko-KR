@@ -5,7 +5,7 @@ title: ' [!DNL Target] 을 사용할 때 흔히 저지르는 실수는 무엇이
 feature: Overview
 exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '411'
 ht-degree: 100%
 
@@ -29,7 +29,7 @@ ht-degree: 100%
 | 의사 결정에 도움이 되지 않는 활동 성공 지표 데이터 선택. | 모든 기본 테스트 지표를 문서화하고 추가 지표를 포함하여 추가 통찰력을 얻으십시오. |
 | 테스트 중에 결과에 영향을 줄 수 있는 변경 작업을 수행. | 예정된 프로모션 및 사이트 변경 일정을 유지하십시오. 충돌을 피하기 위해 [!DNL Target] 의 활동 시작을 명확히 전달하십시오. |
 | 활동을 시작할 때가 가까워 테스트 경험 또는 기준 변경. | 테스트 활동 프로세스 초기에 주요 이해 당사자에게 승인을 요청하십시오. |
-| 통계적으로 유의한 결과를 얻기 전에 활동을 완료. | Adobe [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)를 사용하여 테스트 기간을 확인하십시오. |
+| 통계적으로 유의한 결과를 얻기 전에 활동을 완료. | Adobe [표본 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR)를 사용하여 테스트 기간을 확인하십시오. |
 | [!DNL Target] 활동으로부터 부정적 또는 평범한 결과를 받음. | 활동이 테스트할 가치가 있는지 확인하십시오. |
 | 우수성이 검증된 경험을 하드 코딩하지 않음. | 활동 데이터를 사용하여 하드 코딩을 위한 승인을 얻으십시오. |
 | 테스트 팀 이외에는 결과를 공유하지 않음. | 런치앤런(Lunch &amp; Learn)을 포함하고 프로그램 대시보드를 개발하며, 이해 당사자 미팅을 예약하도록 커뮤니케이션을 확장하십시오. |
