@@ -5,7 +5,7 @@ title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 �
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2754'
 ht-degree: 100%
 
@@ -105,7 +105,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
-이 작업도 가능합니다. Simply [사용할 수 있는 저장 옵션을 사용하여 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+이 작업도 가능합니다.  [사용할 수 있는 저장 옵션을 사용하여 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 **방금 생성한 활동을 미리 보고 QA를 수행하려면 어떻게 해야 합니까?**
 
@@ -256,7 +256,7 @@ JSON 오퍼가 있는 [양식 기반 활동](/help/main/c-experiences/form-exper
 
 제품의 다음 측면을 확인하십시오.
 
-* [Target 분석(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
 * [고객 속성](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
