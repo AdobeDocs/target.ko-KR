@@ -5,7 +5,7 @@ title: Target에 대한 리소스 및 연락처 정보는 어디에서 찾을 �
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1221'
 ht-degree: 100%
 
