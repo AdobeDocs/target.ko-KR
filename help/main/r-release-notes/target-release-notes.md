@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에 포함된 새로운 기능 및 개선 사항은 무엇입니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 01c36c0288a15d68f99a6c2f136da9066ccf2e62
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 34%
+source-wordcount: '362'
+ht-degree: 37%
 
 ---
 
@@ -18,12 +18,6 @@ ht-degree: 34%
 **마지막 업데이트 날짜: 2022년 4월 13일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
-
-## Target 플랫폼 릴리스(2022년 4월 13일)
-
-이 릴리스에는 다음 업데이트가 포함됩니다.
-
-* 프로필 스크립트를 사용하여 캡처할 때 IP 주소의 마지막 8진수가 제대로 난독화되도록 하는 문제가 수정되었습니다. (TNT-44076)
 
 ## [!DNL Target Standard/Premium] 22.3.1(시차 릴리스, 날짜 결정)
 

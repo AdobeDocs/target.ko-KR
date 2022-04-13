@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '671'
-ht-degree: 49%
+source-wordcount: '701'
+ht-degree: 47%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 49%
 이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 또한 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK]적용 가능한 경우 , at.js 및 기타 플랫폼 변경 사항도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## Target 플랫폼 릴리스(2022년 4월 13일)
+
+이 릴리스에는 다음 업데이트가 포함됩니다.
+
+* 프로필 스크립트를 사용하여 캡처할 때 IP 주소의 마지막 8진수가 제대로 난독화되도록 하는 문제가 수정되었습니다. (TNT-44076)
 
 ## [!DNL Target Standard/Premium] 22.3.1(시차 릴리스, 날짜 결정)
 

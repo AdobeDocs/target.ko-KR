@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '579'
-ht-degree: 100%
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+workflow-type: tm+mt
+source-wordcount: '584'
+ht-degree: 93%
 
 ---
 
@@ -15,20 +15,21 @@ ht-degree: 100%
 
 [!DNL Adobe Target] 스킬 빌더 세션, 개발자 채팅, 웨비나, 그리고 [!DNL Target] Coffee Break 세션을 포함하여 예정된 이벤트에 대한 공지와 정보입니다.
 
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 3월 30일)
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 4월 27일)
 
-* **2022년 3월 30일 수요일**
+* **2022년 4월 27일 수요일**
 * **오전 8시 (PDT, UTC -7)**
-* **[추가 정보 및 등록 정보](https://adobe.ly/3sIS5Mg)**
+* **[추가 정보 및 등록 정보](https://adobe.ly/371Uny2)**
 
-선임 솔루션 컨설턴트인 Ryan Pizzuto가 자신의 전문 지식을 바탕으로 고객 질문에 답변합니다.
+수석 솔루션 컨설턴트인 James McTiernan은 다음과 같은 전문 분야에 대한 고객 질문에 답할 것입니다.
 
-* [!UICONTROL 자동 타기팅]
-* [!UICONTROL 자동화된 개인화]
-* [!UICONTROL Recommendations]
+* [!UICONTROL A/B 테스트] 활동
+* [!UICONTROL 다변량 테스트] 활동
+* [!UICONTROL 권장 사항 활동]
+* 개인 맞춤화
 * 일반 [!UICONTROL Adobe Target] 주제
 
-기술 지원 엔지니어인 Mihnea Docea가 Vishal을 지원할 예정입니다.
+기술 지원 엔지니어 Simon Chen이 James를 지원할 것입니다.
 
 ## 웨비나: [!DNL Adobe Target]의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
