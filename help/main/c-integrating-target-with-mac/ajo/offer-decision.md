@@ -4,10 +4,10 @@ description: 에서 만든 오퍼 결정을 추가하는 방법을 알아봅니�
 title: 오퍼 결정을 사용하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
+source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
 workflow-type: tm+mt
-source-wordcount: '1003'
-ht-degree: 0%
+source-wordcount: '995'
+ht-degree: 1%
 
 ---
 
@@ -17,9 +17,11 @@ ht-degree: 0%
 
 에서 만든 오퍼 결정 추가 [!DNL Adobe Journey Optimizer] to [!DNL Target] 활동(수동) [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타깃팅])을 사용하여 다음을 수행할 수 있습니다. [!UICONTROL 시각적 경험 작성기] (VEC) 또는 [!UICONTROL 양식 기반 작성기] 다음 방법으로 제공되는 인바운드 채널에서 개인화된 오퍼를 방문자에게 테스트 및 전달합니다 [!DNL Target].
 
-에 대한 자세한 정보 [!DNL Adobe Journey Optimizer]를 참조하십시오. [Journey Optimizer 시작](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 에서 *Journey Optimizer* 설명서.
+에 대한 자세한 정보 [!DNL Adobe Journey Optimizer] 및 오퍼 결정은 *[!DNL Journey Optimizer]* 설명서:
 
-오퍼 결정에 대한 자세한 내용은 [의사 결정 관리 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 에서 *[!DNL Journey Optimizer]* 설명서.
+* [Journey Optimizer 시작하기](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+
+* [의사 결정 관리 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html)
 
 ## 전제 조건
 
@@ -96,7 +98,7 @@ in [!DNL Adobe Journey Optimizer]를 설정하는 경우 타깃팅된 각 지리
 
 ## 참고 및 제한 사항
 
-오퍼 결정을 사용하여 작업할 때 다음 참고 사항 및 제한 사항을 고려하십시오.
+오퍼 결정을 사용하여 작업할 때 다음 정보를 고려하십시오.
 
 * offer decisioning 통합은 [!DNL Target] 구현을 기반으로 합니다 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 이 기능은 구현할 때 사용할 수 없습니다 [!DNL Target] at.js 또는 기타 [!DNL Target] SDK
 
