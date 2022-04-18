@@ -4,7 +4,7 @@ description: 에서 만든 오퍼 결정을 추가하는 방법을 알아봅니�
 title: 오퍼 결정을 사용하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4a2b0f52d00ca40609f3bfbddf7cb2b2bee6a33e
 workflow-type: tm+mt
 source-wordcount: '1003'
 ht-degree: 0%
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 에 대한 자세한 정보 [!DNL Adobe Journey Optimizer]를 참조하십시오. [Journey Optimizer 시작](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html) 에서 *Journey Optimizer* 설명서.
 
-오퍼 결정에 대한 자세한 내용은 [의사 결정 관리 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 에서 *[!DNL Journey Optimizer]설명서*.
+오퍼 결정에 대한 자세한 내용은 [의사 결정 관리 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html) 에서 *[!DNL Journey Optimizer]* 설명서.
 
 ## 전제 조건
 
