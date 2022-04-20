@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '33051'
+source-wordcount: '33165'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,25 @@ ht-degree: 99%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2022
+
+### [!DNL Target] 플랫폼 릴리스(3월 30일)
+
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* 클릭 추적 지표에는 Analytics를 보고 소스(A4T)로 사용하고 클라이언트측에서 이벤트를 처리하는 활동에 대한 배달 API 요청에 Analytics 페이로드가 포함됩니다. (TNT-43073)
+
+### [!DNL Target Standard] 대상 새로 고침(3월 28일)
+
+이 릴리스에는 다음 업데이트가 포함됩니다.
+
+* 새로운 [!UICONTROL 대상] 모든 사용자에 대해 UI가 활성화됨 [!DNL Target Standard] 고객.
+
+### Target Standard/Premium 고객 엔지니어링 수정 사항(2022년 3월 22일)
+
+이 유지 관리 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+* 반환할 기능이 추가되었습니다. [!DNL Analytics] 페이로드 데이터 `prefetch` 보기 및 `pageLoad` 사용할 때 지표 클릭 [!UICONTROL 배달 API] 사용 중인 활동과 [!UICONTROL 보고 소스로서의 Analytics] (A4T). (TNT-43198)
+* 일본에서 일반적으로 사용되는 브라우저 유형을 허용하도록 보트 필터링 사용자 에이전트 목록을 업데이트했습니다. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (2022년 2월 1일)
 
