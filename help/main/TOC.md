@@ -3,10 +3,10 @@ user-guide-title: Adobe [!DNL Target] 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1550'
-ht-degree: 100%
+source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+workflow-type: tm+mt
+source-wordcount: '1556'
+ht-degree: 99%
 
 ---
 
@@ -191,6 +191,7 @@ ht-degree: 100%
    + Adobe Journey Optimizer와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
+   + [Adobe Experience Manager과 Target 통합](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
    + [Adobe Audience Manager와 Target 통합](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Adobe Campaign과 Target 통합](c-integrating-target-with-mac/campaign-and-target.md)
 + 활동 {#activities}

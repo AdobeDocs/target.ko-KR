@@ -4,9 +4,9 @@ description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] 경험 �
 title: 사용 방법 [!DNL Adobe Experience Manager] (AEM) 경험 구성요소?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
+source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
 workflow-type: tm+mt
-source-wordcount: '1218'
+source-wordcount: '1277'
 ht-degree: 12%
 
 ---
@@ -149,6 +149,12 @@ ht-degree: 12%
 * 경험 조각을 로 가져옵니다 [!DNL Target] HTML 오퍼로서 사용할 수 있습니다. 경험 조각 &quot;기본&quot; 버전은 에 유지됩니다. [!DNL AEM]. 에서 경험 조각을 편집할 수 없습니다 [!DNL Target].
 * 을 사용하여 경험 조각을 만들 수 없습니다 [!DNL Adobe I/O]. 위에서 설명한 대로 AEM을 사용하여 경험 조각을 만듭니다.
 * AEM에서 경험 조각을 업데이트하는 경우 경험 조각을 게시하여 로 내보내야 합니다 [!DNL Target] 다시 [!DNL Target] 최신 변경 사항을 사용할 수 있습니다.
+
+## Target으로 내보낸 경험 조각에서 ClientLibs 제거
+
+에서 경험 조각 오퍼를 사용할 때 [!DNL Target] AEM이 전달하는 페이지에서 타깃팅된 페이지에 이미 필요한 모든 클라이언트 라이브러리가 포함되어 있습니다. 또한 XF 오퍼에서 외부 html도 필요하지 않습니다.
+
+자세한 내용은 [이 블로그 게시물](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## 교육 비디오: AEM 경험 구성요소 사용 [!DNL Adobe Target]
 
