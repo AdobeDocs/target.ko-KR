@@ -4,10 +4,10 @@ description: Analytics를 사용할 때 리디렉션 오퍼 사용에 대한 질
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 61%
+source-wordcount: '1468'
+ht-degree: 54%
 
 ---
 
@@ -36,6 +36,21 @@ ht-degree: 61%
 ## A4T와 Analytics 간에 때때로 데이터가 일치하지 않는 이유는 무엇입니까?
 
 일부 데이터 불일치가 예상됩니다. 자세한 내용은 [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)을 참조하십시오.
+
+## A4T 활동에서 리디렉션 오퍼를 사용할 때 트래픽 분포의 불일치를 어떻게 최소화할 수 있습니까? {#discrepancies}
+
+로 구성된 활동에서 리디렉션 오퍼를 사용할 때 제한된 수의 고객이 트래픽 분포에서 높은 차이를 보고했습니다 [!UICONTROL Target 분석] (A4T).
+
+다음 사항을 고려하십시오.
+
+* 잘못된 순서 [!DNL Target] 및 [!DNL Analytics] 호출은 높은 분산 수준에 대한 책임이 있을 수 있습니다.
+
+   다음 [!DNL Target] 호출은 앞에 와야 합니다. [!DNL Analytics] 소스 페이지(리디렉션이 발생하는 위치)와 대상 페이지(리디렉션이 끝나는 위치)에서 를 호출합니다.
+
+* A4T 리디렉션 활동에서 리디렉션 오퍼를 사용해야 합니다.
+* 여러 개가 있는 경우 [!DNL Target] 소스 페이지에서 위치 요청(리디렉션이 발생하는 위치), [!DNL Adobe] 에서는 첫 번째 페이지에서 리디렉션 활동을 실행할 것을 권장합니다. [!DNL Target] 위치 요청.
+
+   첫 번째 단계에서 리디렉션 활동 실행 [!DNL Target] 위치 요청은 다른 활동에서 발생하는 모든 활동의 자격을 감소시킵니다 [!DNL Target] 위치 요청 및 보고서에서 계산되기. 리디렉션되는 방문자는 경험을 보지 않으므로 다른 활동의 보고서에서 계산되지 않아도 됩니다.
 
 ## 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 카운트되는 이유는 무엇입니까? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
