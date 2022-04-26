@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에 포함된 새로운 기능 및 개선 사항은 무엇입니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
+source-git-commit: f5c9b6e4b9c37027049e3d8b2d0dc31002853df7
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 50%
+source-wordcount: '241'
+ht-degree: 53%
 
 ---
 
@@ -26,8 +26,6 @@ ht-degree: 50%
 * 이 릴리스에서는 컨텐츠를 미리 가져올 수 있습니다 [!UICONTROL 자동 개인화] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동(이전에 에서 반환되지 않음) [!DNL Target]). 이렇게 하면 AP/AT 활동이 게재 경로에 있고 콘텐츠 전달에 대해 동일한 위치를 사용하는 다른 AB/XT 활동보다 우선 순위가 높은 경우 미리 가져오기 호출(&quot;실행&quot; 흐름에 대한 변경 없음)의 경우 최종 사용자가 보는 경험이 변경될 수 있습니다.
 
 ## [!DNL Target Standard/Premium] 22.4.1(2022년 4월 28일)
-
-이 릴리스는 다음과 같은 서로 다른 일정에 따라 사용할 수 있습니다.
 
 이 릴리스에는 다음 수정 사항이 포함되어 있습니다.
 
