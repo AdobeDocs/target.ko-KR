@@ -4,10 +4,10 @@ description: Adobe에서 사용할 수 있는 정보에 대한 정보를 제공�
 title: 프로필 속성이란 무엇입니까?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 49%
+source-wordcount: '2423'
+ht-degree: 48%
 
 ---
 
@@ -72,6 +72,9 @@ if (mbox.name == 'Track_Interest') {
 
 * 를 사용하여 코드에서 프로필 스크립트 속성(자신 포함)을 참조하십시오. `user.get('parameterName')`.
 * 다음 mbox 요청에서 스크립트가 다음에 실행될 때 액세스할 수 있는 변수를 저장합니다. `user.setLocal('variable_name', 'value')`. `user.getLocal('variable_name')`을 사용하여 변수를 참조합니다. 이 프로세스는 마지막 요청의 날짜와 시간을 참조하려는 경우에 유용합니다.
+
+   이러한 값은 프로필 스크립트처럼 지속되지만 설정된 스크립트 내에서만 액세스할 수 있습니다.
+
 * 매개 변수와 값은 대/소문자를 구분합니다. 활동이나 테스트 중에 받은 매개 변수 및 값의 대소문자를 맞추십시오.
 * 자세한 JavaScript 구문에 대해서는 아래의 &quot;스크립트 프로필 매개 변수에 대해 JavaScript 참조&quot; 섹션을 참조하십시오.
 * 매개 변수는 스크립트를 비활성화한 후 프로필에 유지됩니다. 이미 프로필에 활동 대상에 사용되는 매개 변수가 포함된 사용자는 해당 활동에서 자격을 갖습니다.
