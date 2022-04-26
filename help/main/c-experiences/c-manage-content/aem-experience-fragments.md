@@ -4,10 +4,10 @@ description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] 경험 �
 title: 사용 방법 [!DNL Adobe Experience Manager] (AEM) 경험 구성요소?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 12%
+source-wordcount: '1324'
+ht-degree: 11%
 
 ---
 
@@ -150,11 +150,13 @@ ht-degree: 12%
 * 을 사용하여 경험 조각을 만들 수 없습니다 [!DNL Adobe I/O]. 위에서 설명한 대로 AEM을 사용하여 경험 조각을 만듭니다.
 * AEM에서 경험 조각을 업데이트하는 경우 경험 조각을 게시하여 로 내보내야 합니다 [!DNL Target] 다시 [!DNL Target] 최신 변경 사항을 사용할 수 있습니다.
 
-## Target으로 내보낸 경험 조각에서 ClientLibs 제거
+## Target으로 내보낸 경험 조각에서 ClientLibs 및 외부 HTML 제거
 
-에서 경험 조각 오퍼를 사용할 때 [!DNL Target] AEM이 전달하는 페이지에서 타깃팅된 페이지에 이미 필요한 모든 클라이언트 라이브러리가 포함되어 있습니다. 또한 XF 오퍼에서 외부 html도 필요하지 않습니다.
+에서 경험 조각 오퍼를 사용할 때 [!DNL Target] AEM이 전달하는 페이지에서 타깃팅된 페이지에 이미 필요한 모든 클라이언트 라이브러리가 포함되어 있습니다. 또한 오퍼의 외부 HTML 요소도 필요하지 않습니다.
 
-자세한 내용은 [이 블로그 게시물](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+경우에 따라 전체 HTML 페이지가 경험 조각을 둘러싸며 문제를 발생합니다. 경험 조각이 HTML, HEAD, BODY 등이 있는 전체 HTML 페이지가 아니라 작은 경험 조각인지 확인합니다.
+
+자세한 내용은 다음 블로그 게시물을 참조하십시오. [AEM 6.5: Target으로 내보낸 경험 조각에서 ClientLibs 제거](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## 교육 비디오: AEM 경험 구성요소 사용 [!DNL Adobe Target]
 

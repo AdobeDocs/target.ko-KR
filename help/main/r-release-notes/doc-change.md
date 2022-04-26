@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '3777'
-ht-degree: 97%
+source-wordcount: '3817'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 4월 26일 | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies)를 참조하십시오 | 다음 FAQ가 추가되었습니다.<ul><li>A4T 활동에서 리디렉션 오퍼를 사용할 때 트래픽 분포의 불일치를 어떻게 최소화할 수 있습니까?</li></ul> |
+| 4월 26일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Target을 사용한 실시간 개인화(2022년 4월 28일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2022년 5월 25일)</li></ul> |
+|  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies)를 참조하십시오 | 다음 FAQ가 추가되었습니다.<ul><li>A4T 활동에서 리디렉션 오퍼를 사용할 때 트래픽 분포의 불일치를 어떻게 최소화할 수 있습니까?</li></ul> |
+|  | [AEM 경험 구성요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 다음 섹션이 추가되었습니다.<ul><li>Target으로 내보낸 경험 조각에서 ClientLibs 및 외부 HTML 제거</li></ul> |
 | 4월 21일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target] 플랫폼 릴리스가 2022년 4월 17일에 예약되었습니다. |
 | 4월 20일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 4월 14일 | [시각적 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 와 일치하지 않는 VEC 동작을 처리하는 방법을 설명하기 위해 정보를 다시 정렬 섹션에 추가했습니다 [!UICONTROL 이동] 및 [!UICONTROL 다시 정렬] DOM 요소의 지연 로딩으로 인한 작업. |
