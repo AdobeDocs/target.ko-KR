@@ -4,16 +4,16 @@ description: Adobe에서 수정 사항 패널을 사용하는 방법을 알아�
 title: 내 페이지를 어떻게 수정할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
 workflow-type: tm+mt
-source-wordcount: '2167'
+source-wordcount: '2137'
 ht-degree: 91%
 
 ---
 
 # 수정 사항
 
-의 수정 사항 페이지에 대한 정보 [!DNL Adobe Target] 페이지 수정 사항을 보고 추가로 수정(CSS 선택기, Mbox 및 사용자 지정 코드)할 수 있습니다.
+에 대한 정보 [!UICONTROL 수정 사항] 페이지 [!DNL Adobe Target] 페이지 수정 사항을 보고 추가로 수정(CSS 선택기, Mbox 및 사용자 지정 코드)할 수 있습니다.
 
 수정 사항 페이지에는 VEC(시각적 경험 작성기)에서 페이지에 수행된 모든 변경 사항이 표시되며, 페이지의 각 요소를 클릭하여 추가 변경할 수 있습니다. [작업 선택](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 각 변경 사항은 [!UICONTROL 수정 사항] 목록에서 별도의 작업 또는 요소로 표시됩니다. CSS 선택기, Mbox 및 사용자 지정 코드 수정 유형을 포함하여 수정 사항을 추가할 수도 있습니다.
 
@@ -157,20 +157,6 @@ ht-degree: 91%
    document.addEventListener("DOMContentLoaded", function(event) {  
        document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
        document.getElementById("default_content").style.visibility="visible"; 
-   }); 
-   </script> 
-   ```
-
-* `elementOnLoad` 플러그인을 통해 DOM 폴링으로 교체
-
-   이 작업의 장점은 교체가 DOM Ready보다 일찍 발생한다는 것입니다. 플러그인은 사전 숨기기 및 표시를 처리하며, 요소에 ID가 필요합니다.
-
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
-   elementOnLoad('default_content',function(e){ 
-       e.innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
    }); 
    </script> 
    ```
