@@ -5,7 +5,7 @@ title: 엔터프라이즈 사용자 권한은 무엇이며, 이 권한을 어떻
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
+source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
 workflow-type: tm+mt
 source-wordcount: '3133'
 ht-degree: 56%
@@ -277,7 +277,7 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->대상자를 편집하려면 적절한 권한이 있어야 합니다. 또한 대상을 다른 활동에서 사용해서는 안 됩니다. 대상이 다른 활동에서 사용되고 있지만 여전히 대상을 다른 워크스테이션으로 이동하려는 경우 대상자를 사용 중인 다른 활동에서 제거합니다.
+>대상자를 편집하려면 적절한 권한이 있어야 합니다. 또한 대상을 다른 활동에서 사용해서는 안 됩니다. 대상이 다른 활동에서 사용되고 있고 여전히 대상을 다른 작업 공간으로 이동하려는 경우 대상자를 사용 중인 다른 활동에서 제거합니다.
 
 ### 속성이 지정된 경우에도 이 활동과 연결되어 있지 않다는 오류 메시지가 표시되는 이유는 무엇입니까?
 
