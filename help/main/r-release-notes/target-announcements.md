@@ -4,32 +4,16 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '831'
-ht-degree: 67%
+source-wordcount: '772'
+ht-degree: 69%
 
 ---
 
 # Target 알림 및 이벤트
 
 [!DNL Adobe Target] 스킬 빌더 세션, 개발자 채팅, 웨비나, 그리고 [!DNL Target] Coffee Break 세션을 포함하여 예정된 이벤트에 대한 공지와 정보입니다.
-
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 4월 27일)
-
-* **2022년 4월 27일 수요일**
-* **오전 8시 (PDT, UTC -7)**
-* **[추가 정보 및 등록 정보](https://adobe.ly/371Uny2)**
-
-수석 솔루션 컨설턴트인 James McTiernan은 다음과 같은 전문 분야에 대한 고객 질문에 답할 것입니다.
-
-* [!UICONTROL A/B 테스트] 활동
-* [!UICONTROL 다변량 테스트] 활동
-* [!UICONTROL 권장 사항 활동]
-* 개인 맞춤화
-* 일반 [!UICONTROL Adobe Target] 주제
-
-기술 지원 엔지니어 Simon Chen이 James를 지원할 것입니다.
 
 ## 웨비나: Adobe Target을 사용한 실시간 개인화(2022년 4월 28일)
 

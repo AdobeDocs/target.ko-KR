@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 65%
+source-wordcount: '566'
+ht-degree: 56%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 65%
 이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 또한 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK]적용 가능한 경우 , at.js 및 기타 플랫폼 변경 사항도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target] 플랫폼 릴리스(2022년 4월 27일)
+
+이 릴리스에는 다음 변경 사항이 포함됩니다.
+
+* 이 릴리스에서는 컨텐츠를 미리 가져올 수 있습니다 [!UICONTROL 자동 개인화] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동(이전에 에서 반환되지 않음) [!DNL Target]). 이렇게 하면 AP/AT 활동이 게재 경로에 있고 콘텐츠 전달에 대해 동일한 위치를 사용하는 다른 AB/XT 활동보다 우선 순위가 높은 경우 미리 가져오기 호출(&quot;실행&quot; 흐름에 대한 변경 없음)의 경우 최종 사용자가 보는 경험이 변경될 수 있습니다.
 
 ## Target 플랫폼 릴리스(2022년 4월 13일)
 
