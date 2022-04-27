@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에 포함된 새로운 기능 및 개선 사항은 무엇입니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 71%
+source-wordcount: '188'
+ht-degree: 68%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 71%
 이 릴리스에는 다음 수정 사항이 포함되어 있습니다.
 
 * 3개의 장바구니 기반 알고리즘에서 [!DNL Target] 백엔드. (TGT-43456)
-* 활성화됨 [!DNL Target] T2E 및 PBA(정책 기반 인증)가 활성화된 조직에 대한 UI 토큰 새로 고침(TGT-42590).
+* 활성화됨 [!DNL Target] 다음을 사용하여 활성화된 조직의 UI 토큰 새로 고침 [비즈니스 ID 계정](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} 및 PBA(정책 기반 인증). (TGT-42590)
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
