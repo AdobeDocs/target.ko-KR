@@ -5,9 +5,9 @@ title: 엔터프라이즈 사용자 권한은 무엇이며, 이 권한을 어떻
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
+source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3133'
 ht-degree: 56%
 
 ---
@@ -215,7 +215,7 @@ ht-degree: 56%
    * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 작성할 때 항목을 작성할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
    * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 복사할 때 항목을 복사할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
 
-* 관리 페이지 다음 사항에 대한 모든 설정은 작업 공간에서 승인자에 의해 제어할 수 있습니다.
+* 관리자 다음에 대한 모든 설정작업 공간에서 승인자에 의해 비율 페이지가 제어될 수 있습니다.
 
    * 시각적 경험 작성기
    * 보고
