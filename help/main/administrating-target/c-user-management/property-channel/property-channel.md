@@ -5,10 +5,10 @@ title: 엔터프라이즈 사용자 권한은 무엇이며, 이 권한을 어떻
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 58%
+source-wordcount: '3132'
+ht-degree: 56%
 
 ---
 
@@ -262,6 +262,22 @@ ht-degree: 58%
 한 작업 공간에서 다른 작업 공간으로 활동을 이동할 수 없습니다. 하지만 보고 데이터가 전달되지 않는다는 것을 알고 있는 활동에 활동을 복사할 수 있습니다. 자세한 내용은 [작업 공간을 사용할 때 활동 복사/편집](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)에서 &quot;작업 공간을 사용할 때 활동 복사/편집&quot;을 참조하십시오.
 
 마이그레이션이 편집되고 속성이 지정되지 않는 한, 마이그레이션 전에 만든 활동은 기본 작업 공간에서 동일한 방법으로 계속 실행됩니다. 특정 작업 공간의 활동은 해당 작업 공간에 지정된 속성을 따르므로, 동작이 마이그레이션 전과 동일하게 유지되지 않을 수 있습니다.
+
+### 한 작업 공간에서 다른 작업 공간으로 대상을 이동할 수 있습니까? {#move-audience}
+
+예, 다음을 사용하여 작업 공간 간에 대상을 이동할 수 있습니다 [!UICONTROL 추가 작업] 옵션 [!UICONTROL 대상] 페이지.
+
+1. 을(를) 클릭합니다. **[!UICONTROL 추가 작업]** 버튼(3개의 줄임표)을 클릭한 다음 **[!UICONTROL 이동]**.
+
+   ![추가 작업 > 이동](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. 에서 원하는 작업 공간을 선택합니다 **[!UICONTROL 작업 공간]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL 이동]**.
+
+   ![원하는 대상을 선택하여 새 작업 공간으로 이동합니다](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>대상자를 편집하려면 적절한 권한이 있어야 합니다. 또한 대상을 다른 활동에서 사용해서는 안 됩니다. 대상이 다른 활동에서 사용되고 있지만 여전히 대상을 다른 워크스테이션으로 이동하려는 경우 대상자를 사용 중인 다른 활동에서 제거합니다.
 
 ### 속성이 지정된 경우에도 이 활동과 연결되어 있지 않다는 오류 메시지가 표시되는 이유는 무엇입니까?
 
