@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에 포함된 새로운 기능 및 개선 사항은 무엇입니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2eba98d780cfcd0e5a7388ad47301aecb90133dd
+source-git-commit: 97ec17366e567f7e2f4cb0bf24a39c653718431f
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 68%
+source-wordcount: '180'
+ht-degree: 58%
 
 ---
 
@@ -28,6 +28,6 @@ ht-degree: 68%
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
-Target 및 기타 Adobe Experience Cloud 솔루션에 대한 향후 제품 개선 사항에 대한 사전 알림을 받으려면 Adobe 우선순위 제품 업데이트에 등록하십시오.
+에 예정된 제품 개선 사항에 대한 사전 알림을 받으려면 다음을 수행하십시오. [!DNL Target] 및 기타 [!DNL Adobe Experience Cloud] 솔루션, 등록 [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/kr/subscription/priority-product-update.html](https://www.adobe.com/kr/subscription/priority-product-update.html)
