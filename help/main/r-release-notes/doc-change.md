@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3854'
-ht-degree: 95%
+source-wordcount: '3908'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 95%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 4월 28일 | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 다음 FAQ가 추가되었습니다.<ul><li>한 작업 공간에서 다른 작업 공간으로 대상을 이동할 수 있습니까?</li></ul> |
+|  | [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>다음을 수행할 수 있습니까? [!UICONTROL 자동 할당] 활동은 시간에 따른 변화하는 트렌드를 고려하도록 테스트 과정 동안 전환 확인 기간을 조정합니까?</li><li>역할 [!UICONTROL 자동 할당] 우승 경험이 활동 자격을 부여할 때 방문자가 본 경험과 다른 경우 재방문자에게 우승 경험을 표시하시겠습니까?</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.4.1 및 Target 플랫폼(2022년 4월 27일) 릴리스 |
 
 ## Adobe Target Standard/Premium 22.3.1(4월 5일)
