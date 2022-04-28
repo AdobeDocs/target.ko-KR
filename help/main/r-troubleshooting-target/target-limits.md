@@ -5,10 +5,10 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
+source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
 workflow-type: tm+mt
 source-wordcount: '1363'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -139,7 +139,7 @@ ht-degree: 100%
 
 ### 활동별 경험 수
 
-* **제한**: XT (경험 타기팅), A/B 테스트, MVT (다변량 테스트) 및 자동 타겟 활동당 2,000개 경험.
+* **제한**: 2,000개 경험 [!UICONTROL 경험 타깃팅] (XT), [!UICONTROL A/B 테스트], [!UICONTROL 다변량 테스트] (MVT) 및 [!UICONTROL 자동 Target] 활동.
 
    AP (Automated Personalization) 활동당 30,000개 경험.
 
