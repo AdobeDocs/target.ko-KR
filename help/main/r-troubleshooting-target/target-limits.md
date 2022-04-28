@@ -5,8 +5,8 @@ title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무�
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
+workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 100%
 
@@ -192,7 +192,7 @@ ht-degree: 100%
    * 프로필 매개 변수 50
    * 프로필 매개 변수 이름 최대 길이 128
    * 프로필 매개 변수 값은 null일 수 없음
-   * 프로필 매개 변수 값 최대 길이 256
+   * 프로필 매개 변수 값 최대 길이 5000
 
    **게재 API 끝점**:
 
@@ -203,7 +203,7 @@ ht-degree: 100%
    * 프로필 매개 변수 50
    * 프로필 매개 변수 이름 최대 길이 128
    * 프로필 매개 변수 값은 null일 수 없음
-   * 프로필 매개 변수 값 최대 길이 256
+   * 프로필 매개 변수 값 최대 길이 5000
 
 
 
