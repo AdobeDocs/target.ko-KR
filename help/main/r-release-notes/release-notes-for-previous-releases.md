@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '33165'
+source-wordcount: '33321'
 ht-degree: 99%
 
 ---
@@ -66,6 +66,22 @@ ht-degree: 99%
 ### [!DNL Target Standard/Premium] 22.1.1 (2022년 1월 12일)
 
 이 릴리스에는 향후 통합을 위한 버그 수정 및 사전 요구되는 기능이 포함되어 있습니다.
+
+### Target 플랫폼 릴리스(2022년 4월 13일)
+
+이 릴리스에는 다음 업데이트가 포함됩니다.
+
+* 프로필 스크립트를 사용하여 캡처할 때 IP 주소의 마지막 8진수가 제대로 난독화되도록 하는 문제가 수정되었습니다. (TNT-44076)
+
+### [!DNL Target Standard/Premium] 22.3.1(2022년 4월 5일)
+
+이 릴리스에는 다음과 같은 변경 사항 및 개선 사항이 포함되었습니다.
+
+* 이(가) [!UICONTROL 포함] 및 [!UICONTROL 제외] 활동을 편집할 때 결합된 대상에 대해 비활성화할 수 있는 옵션. (TGT-43422)
+* 활동을 편집하는 동안 일부 고객이 사용 가능한 대상 목록을 볼 수 없는 문제를 해결했습니다. (TGT-43404)
+* 일부 고객이 &quot;[!UICONTROL 제외할 IP [!DNL Target] 보고 데이터]&quot; 목록 [!UICONTROL 관리] > [!UICONTROL 보고]. (TGT-43384)
+* 변수가 &quot;보다 큼&quot;, &quot;보다 크거나 같음&quot;, &quot;보다 작음&quot; 또는 &quot;보다 작음&quot; 또는 &quot;보다 작거나 같음&quot;인지 대상 기준에 음수가 사용되지 않는 문제를 해결했습니다. (TGT-43367)
+* 고객이 를 볼 수 없는 문제를 해결했습니다 [!UICONTROL 대상 세부 사항] 결합된 대상을 만들 때 카드입니다. (TGT-43303)
 
 ### at.js 버전 2.8.0 (2022년 1월 7일)
 

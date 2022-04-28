@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3817'
-ht-degree: 96%
+source-wordcount: '3854'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 96%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## Adobe Target Standard/Premium 22.3.1(2022년 4월 4-6일) 시차를 두고 릴리스)
+## Adobe Target Standard/Premium 22.4.1(4월 28일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 4월 28일 | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 다음 FAQ가 추가되었습니다.<ul><li>한 작업 공간에서 다른 작업 공간으로 대상을 이동할 수 있습니까?</li></ul> |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.4.1 및 Target 플랫폼(2022년 4월 27일) 릴리스 |
+
+## Adobe Target Standard/Premium 22.3.1(4월 5일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |

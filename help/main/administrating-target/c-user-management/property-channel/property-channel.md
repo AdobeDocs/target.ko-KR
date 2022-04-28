@@ -5,9 +5,9 @@ title: 엔터프라이즈 사용자 권한은 무엇이며, 이 권한을 어떻
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 2ac758c0452e0f82fee5b1301dd63bed3fc9a15c
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3150'
 ht-degree: 56%
 
 ---
@@ -198,6 +198,7 @@ ht-degree: 56%
    ![](assets/channel_options.png)
 
 * **대상 만들기:** 대상을 만들면 현재 선택한 작업 공간에서 만들어집니다.
+* **대상 목록:** 를 사용하여 작업 공간 간에 대상을 이동할 수 있습니다 [!UICONTROL 추가 작업] > [!DNL Move] 옵션 [!UICONTROL 대상] 페이지.
 * **오퍼 만들기:** 오퍼를 만들면 현재 선택한 작업 공간에 만들어집니다.
 * **속성 페이지(관리 > 속성):** 를 사용할 수 있습니다 [!UICONTROL 검색] 상자를 검색하여 [!UICONTROL 속성] 목록.
 
@@ -215,7 +216,7 @@ ht-degree: 56%
    * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 작성할 때 항목을 작성할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
    * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 복사할 때 항목을 복사할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
 
-* 관리자 다음에 대한 모든 설정작업 공간에서 승인자에 의해 비율 페이지가 제어될 수 있습니다.
+* 다음에 대한 모든 설정 [!UICONTROL 관리] 페이지는 모든 페이지에서 제어할 수 있습니다 [!UICONTROL 승인자] 작업 공간에서 다음을 수행합니다.
 
    * 시각적 경험 작성기
    * 보고

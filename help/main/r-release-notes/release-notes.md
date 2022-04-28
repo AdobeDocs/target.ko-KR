@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 56%
+source-wordcount: '460'
+ht-degree: 68%
 
 ---
 
@@ -18,33 +18,24 @@ ht-degree: 56%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
+## [!DNL Target Standard/Premium] 22.4.1(2022년 4월 28일)
+
+이 릴리스에는 다음 수정 사항이 포함되어 있습니다.
+
+* 3개의 장바구니 기반 알고리즘에서 [!DNL Target] 백엔드. (TGT-43456)
+* 활성화됨 [!DNL Target] 다음을 사용하여 활성화된 조직의 UI 토큰 새로 고침 [비즈니스 ID 계정](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} 및 PBA(정책 기반 인증). (TGT-42590)
+
 ## [!DNL Target] 플랫폼 릴리스(2022년 4월 27일)
 
 이 릴리스에는 다음 변경 사항이 포함됩니다.
 
 * 이 릴리스에서는 컨텐츠를 미리 가져올 수 있습니다 [!UICONTROL 자동 개인화] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동(이전에 에서 반환되지 않음) [!DNL Target]). 이렇게 하면 AP/AT 활동이 게재 경로에 있고 콘텐츠 전달에 대해 동일한 위치를 사용하는 다른 AB/XT 활동보다 우선 순위가 높은 경우 미리 가져오기 호출(&quot;실행&quot; 흐름에 대한 변경 없음)의 경우 최종 사용자가 보는 경험이 변경될 수 있습니다.
 
-## Target 플랫폼 릴리스(2022년 4월 13일)
-
-이 릴리스에는 다음 업데이트가 포함됩니다.
-
-* 프로필 스크립트를 사용하여 캡처할 때 IP 주소의 마지막 8진수가 제대로 난독화되도록 하는 문제가 수정되었습니다. (TNT-44076)
-
-## [!DNL Target Standard/Premium] 22.3.1(2022년 4월 5일)
-
-이 릴리스에는 다음과 같은 변경 사항 및 개선 사항이 포함되었습니다.
-
-* 이(가) [!UICONTROL 포함] 및 [!UICONTROL 제외] 활동을 편집할 때 결합된 대상에 대해 비활성화할 수 있는 옵션. (TGT-43422)
-* 활동을 편집하는 동안 일부 고객이 사용 가능한 대상 목록을 볼 수 없는 문제를 해결했습니다. (TGT-43404)
-* 일부 고객이 &quot;[!UICONTROL 제외할 IP [!DNL Target] 보고 데이터]&quot; 목록 [!UICONTROL 관리] > [!UICONTROL 보고]. (TGT-43384)
-* 변수가 &quot;보다 큼&quot;, &quot;보다 크거나 같음&quot;, &quot;보다 작음&quot; 또는 &quot;보다 작음&quot; 또는 &quot;보다 작거나 같음&quot;인지 대상 기준에 음수가 사용되지 않는 문제를 해결했습니다. (TGT-43367)
-* 고객이 를 볼 수 없는 문제를 해결했습니다 [!UICONTROL 대상 세부 사항] 결합된 대상을 만들 때 카드입니다. (TGT-43303)
-
 ## 추가 릴리스 정보 및 버전 세부 정보
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko_KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko-KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
 | [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
