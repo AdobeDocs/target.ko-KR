@@ -1,14 +1,14 @@
 ---
 keywords: 문자 제한;mbox 매개 변수;일괄 게재 api;프로필 매개 변수;제한;내장 프로필;최대값;제한;제한;문자;모범 사례;orderid;orderTotal;mbox3rdPartyID;범주;categoryID;문제 해결
-description: Adobe Target의 활동 및 기타 요소에 영향을 미치는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 정보입니다.
-title: Adobe Target의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까?
+description: 의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한 목록을 봅니다 [!DNL Adobe Target].
+title: 의 다양한 문자, 크기 및 기타 제한은 무엇입니까? [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e90e7d32f3a9cda31ae91a771b5aa59ffb47b2b4
+source-git-commit: 516dd288f2aa8116d05f1a9f28c5074df0932e8c
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 98%
+source-wordcount: '1352'
+ht-degree: 96%
 
 ---
 
