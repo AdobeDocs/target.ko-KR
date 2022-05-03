@@ -4,7 +4,7 @@ description: 에서 만든 오퍼 결정을 추가하는 방법을 알아봅니�
 title: 오퍼 결정을 사용하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: b34f58bee9759eb7c621f8cbf763837d7eafb3fe
+source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
@@ -31,7 +31,7 @@ ht-degree: 1%
 
    이 기능은 구현할 때 사용할 수 없습니다 [!DNL Target] at.js 또는 기타 [!DNL Target] SDK
 
-* [!DNL Adobe Journey Optimizer Ultimate] (AJ0 + Offer decisioning) 또는 [!DNL Adobe Experience Platform] 그리고 [!UICONTROL offer decisioning] 응용 프로그램 서비스 추가 기능.
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer decisioning) 또는 [!DNL Adobe Experience Platform] 그리고 [!UICONTROL offer decisioning] 응용 프로그램 서비스 추가 기능.
 
 ## 샘플 사용 사례
 
