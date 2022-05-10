@@ -5,10 +5,10 @@ title: 구현할 수 있습니까? [!DNL Target] 태그 관리자 없이
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
 workflow-type: tm+mt
-source-wordcount: '1672'
-ht-degree: 52%
+source-wordcount: '1794'
+ht-degree: 49%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 52%
 * 구현 방법
 * 프로필 API
 * 디버거 도구
-* 개인 정보 보호
+* 개인정보 보호
 
 >[!NOTE]
 >
@@ -83,6 +83,20 @@ at.js 설정을 편집하려면 **[!UICONTROL 편집]** 원하는 at.js 버전 �
 | 사용자 지정 라이브러리 헤더 | 라이브러리의 맨 위에 포함할 사용자 지정 JavaScript를 추가하십시오. |
 | 사용자 지정 라이브러리 바닥글 | 라이브러리의 맨 아래에 포함할 사용자 지정 JavaScript를 추가하십시오. |
 
+### On-Device Decisioning을 사용한 구현 방법
+
+버전 2.5.0부터 at.js는 온장치 의사 결정을 제공합니다. On-Device Decisioning을 사용하여 [A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md) 및 [경험 타깃팅](/help/main/c-activities/t-experience-target/experience-target.md) (XT) 브라우저에 대한 네트워크 요청을 차단하지 않고 인메모리 의사 결정을 수행하는 활동 [!DNL Adobe Target] 에지 네트워크.
+
+자세한 내용은 다음 문서를 참조하십시오.
+
+* 고객측: [at.js에 대한 On-Device Decisioning](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+* 서버측: [On-Device Decisioning 소개](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
+* 서버측: [On-Device Decisioning](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
+* Node.js: [조직에 대한 On-Device Decisioning 활성화](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
+* Java: [조직에 대한 On-Device Decisioning 활성화](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
+* .NET: [조직에 대한 On-Device Decisioning 활성화](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
+* 파이톤: [조직에 대한 On-Device Decisioning 활성화](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+
 ### 프로필 API
 
 API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성화하고 프로필 인증 토큰을 생성합니다.
@@ -95,7 +109,7 @@ API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성
 
 ![새 인증 토큰 생성](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
-### 개인 정보 보호
+### 개인정보 보호
 
 이러한 설정을 사용하면 다음 작업을 수행할 수 있습니다 [!DNL Target] 해당 데이터 개인 정보 보호 법률에 따라
 
