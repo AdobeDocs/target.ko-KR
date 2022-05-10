@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: d92340218f6e5f906aef15584740a179ace30a77
 workflow-type: tm+mt
-source-wordcount: '3908'
-ht-degree: 94%
+source-wordcount: '3919'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 94%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 5월 10일 | [Target 릴리스 정보(프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 4월 28일 | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 다음 FAQ가 추가되었습니다.<ul><li>한 작업 공간에서 다른 작업 공간으로 대상을 이동할 수 있습니까?</li></ul> |
 |  | [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>다음을 수행할 수 있습니까? [!UICONTROL 자동 할당] 활동은 시간에 따른 변화하는 트렌드를 고려하도록 테스트 과정 동안 전환 확인 기간을 조정합니까?</li><li>역할 [!UICONTROL 자동 할당] 우승 경험이 활동 자격을 부여할 때 방문자가 본 경험과 다른 경우 재방문자에게 우승 경험을 표시하시겠습니까?</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.4.1 및 Target 플랫폼(2022년 4월 27일) 릴리스 |
@@ -28,24 +29,24 @@ ht-degree: 94%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 4월 26일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Target을 사용한 실시간 개인화(2022년 4월 28일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2022년 5월 25일)</li></ul> |
-|  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies)를 참조하십시오 | 다음 FAQ가 추가되었습니다.<ul><li>A4T 활동에서 리디렉션 오퍼를 사용할 때 트래픽 분포의 불일치를 어떻게 최소화할 수 있습니까?</li></ul> |
+|  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 다음 FAQ가 추가되었습니다.<ul><li>A4T 활동에서 리디렉션 오퍼를 사용할 때 트래픽 분포의 불일치를 어떻게 최소화할 수 있습니까?</li></ul> |
 |  | [AEM 경험 구성요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 다음 섹션이 추가되었습니다.<ul><li>Target으로 내보낸 경험 조각에서 ClientLibs 및 외부 HTML 제거</li></ul> |
-| 4월 21일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target] 플랫폼 릴리스가 2022년 4월 17일에 예약되었습니다. |
-| 4월 20일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
-| 4월 14일 | [시각적 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | 와 일치하지 않는 VEC 동작을 처리하는 방법을 설명하기 위해 정보를 다시 정렬 섹션에 추가했습니다 [!UICONTROL 이동] 및 [!UICONTROL 다시 정렬] DOM 요소의 지연 로딩으로 인한 작업. |
+| 21월 4일 | [Target 릴리스 정보(프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target] 플랫폼 릴리스가 2022년 4월 17일에 예약되었습니다. |
+| 4월 20일 | [Target 릴리스 정보(프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
+| 4월 14일 | [시각적 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | DOM 요소의 소극적 로드로 인해 일관성이 없이 [!UICONTROL 이동] 및 [!UICONTROL 재정렬] 작업을 사용하는 VEC 비헤이비어를 처리하는 방법에 대한 정보가 [재정렬] 섹션에 추가되었습니다. |
 | 4월 13일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 4월 27일)</li></ul> |
-|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 릴리스 정보가 추가되었습니다. [!DNL Target] 플랫폼 릴리스. |
-| 4월 4일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 정보가 업데이트되었습니다. [!DNL Target Standard/Premium] 22.3.1 릴리스. |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] Platform 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+| 4월 4일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.3.1 릴리스에 대한 정보가 업데이트되었습니다. |
 
 ## Adobe Target Standard/Premium 22.2.1 (2022년 2월 1일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 3월 30일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 릴리스 정보가 추가되었습니다. [!DNL Target] 플랫폼 릴리스. |
-| 3월 28일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target] 플랫폼 릴리스. |
-| 3월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 고객 엔지니어링 수정 릴리스. |
+| 3월 30일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] Platform 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+| 3월 28일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] Platform 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
+| 3월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 고객 엔지니어링 개선 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.3.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
-| 3월 17일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 고객 엔지니어링 수정 릴리스. |
+| 3월 17일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 고객 엔지니어링 개선 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 3월 9일 | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 다음 알려진 문제가 추가되었습니다.<ul><li>양식 기반 경험 작성기에서 만든 활동에서 애드혹 오퍼가 있는 위치 삭제</li></ul> |
 |  | [mbox3rdPartyId에 대한 실시간 프로필 동기화](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 프로필 동기화와 관련하여 다음 문장이 업데이트되었습니다. “업데이트는 5~10분마다 프로필 스토어와 동기화됩니다.” |
 | 3월 8일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 3월 30일)</li></ul> |
