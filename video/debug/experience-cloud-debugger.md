@@ -1,19 +1,19 @@
 ---
-keywords: experience cloud debugger;mbox 추적
-description: 디버그 Adobe [!DNL Target] Adobe Experience Cloud Debugger 사용.
-title: 디버그 [!DNL Target] Experience Cloud Debugger 사용
+keywords: Experience Cloud Debugger;Mbox 추적
+description: Adobe Experience Cloud Debugger를 사용하여 Adobe [!DNL Target] 을 디버그합니다.
+title: Adobe Experience Cloud Debugger를 사용하여 [!DNL Target] 디버그
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# 디버그 [!DNL Target] Experience Cloud Debugger 사용
+# Adobe Experience Cloud Debugger를 사용하여 [!DNL Target] 디버그
 
-디버그 [!DNL Adobe Target] 사용 [!DNL Adobe Experience Cloud Debugger].
+[!DNL Adobe Experience Cloud Debugger]를 사용하여 [!DNL Adobe Target]을 디버그합니다.
 
 ## 확장 추가
 
@@ -30,5 +30,5 @@ ht-degree: 9%
 ## 추가 리소스
 
 + [Chrome 스토어의 Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [문제 해결 Target 도움말 설명서](/help/main/r-troubleshooting-target/troubleshooting-target.md)
-+ [Experience Cloud Debugger 비디오 사용 방법](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Target 도움말 문서 문제 해결](/help/main/r-troubleshooting-target/troubleshooting-target.md)
++ [Experience Cloud Debugger 사용 방법 비디오](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
