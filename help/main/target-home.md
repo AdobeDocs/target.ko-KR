@@ -36,7 +36,7 @@ ht-degree: 100%
 - [Target 소개](c-intro/intro.md): [!DNL Target] 솔루션의 핵심 개념에 대해 설명합니다.
 - Adobe Experience Cloud와 Target 통합: [!DNL Target]을 다른 [!DNL Experience Cloud] 솔루션([Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md))과 통합하는 방법을 설명합니다.
 - [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ko-KR): Target을 최대한 활용할 수 있도록 튜토리얼 및 비디오를 제공합니다.
-- [Target 문제 해결](r-troubleshooting-target/troubleshooting-target.md): [!DNL Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 정보를 포함하여 이 안내서에 포함된 문제 해결 정보에 대한 링크를 제공합니다.
+- [Target 문제 해결](r-troubleshooting-target/troubleshooting-target.md): [!DNL Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개변수 등)에 대한 정보를 포함하여 이 안내서에 포함된 문제 해결 정보에 대한 링크를 제공합니다.
 - [모바일 앱용 Target](c-target-mobile-app/target-mobile-app.md): 모바일 앱 최적화 및 개인화에 [!DNL Target]을 사용할 수 있는 방법을 설명합니다.
 - [리소스 및 연락처 정보](cmp-resources-and-contact-information.md): [!DNL Target] 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 도움이 필요할 때 [!DNL Adobe] 에 문의하는 방법에 대한 정보를 제공합니다.
 
