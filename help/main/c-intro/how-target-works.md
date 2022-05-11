@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;검색 엔진 최적화;검색 엔진 최적화;seo;에지 클러스터, 중앙 클러스터;at.js;mbox.js;
-description: Adobe 방법 알아보기 [!DNL Target] 작업, [!DNL Target] JavaScript 라이브러리(at.js 및 Experience Platform 웹 SDK), Adobe 데이터 센터 및 SEO 테스트.
+description: ' [!DNL Target] JavaScript 라이브러리(at.js 및 Experience Platform Web SDK), Adobe 데이터 센터 및 SEO 테스트에 대한 정보를 포함하여 Adobe [!DNL Target] 의 작동 방식에 대해 알아봅니다.'
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2536'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -97,7 +97,7 @@ AP (Automated Personalization)는 오퍼 또는 메시지를 결합하고 고급
 
 각 에지 노드에는 방문자의 콘텐츠 요청에 응답하고, 해당 요청에 대한 분석 데이터를 추적하는 데 필요한 모든 정보가 있습니다. 방문자자 요청은 가장 가까운 에지 노드로 전달됩니다.
 
-자세한 내용은 [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서를 참조하십시오.
+자세한 내용은 [Adobe Target 보안 개요](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) 백서를 참조하십시오.
 
 [!DNL Target] 솔루션은 전 세계 Adobe 소유 및 Adobe 임대 데이터 센터에 호스팅됩니다.
 
