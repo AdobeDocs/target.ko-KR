@@ -5,37 +5,48 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '460'
-ht-degree: 68%
+source-wordcount: '692'
+ht-degree: 52%
 
 ---
 
 # Target 릴리스 정보 (현재)
 
-이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 또한 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK]적용 가능한 경우 , at.js 및 기타 플랫폼 변경 사항도 포함됩니다.
+이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 22.4.1(2022년 4월 28일)
+## [!DNL Target Standard/Premium] 22.5.1(시차 릴리스) (2022년 5월 11일-13일)
 
-이 릴리스에는 다음 수정 사항이 포함되어 있습니다.
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
-* 3개의 장바구니 기반 알고리즘에서 [!DNL Target] 백엔드. (TGT-43456)
-* 활성화됨 [!DNL Target] 다음을 사용하여 활성화된 조직의 UI 토큰 새로 고침 [비즈니스 ID 계정](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} 및 PBA(정책 기반 인증). (TGT-42590)
+* **5월 11일**: 아시아 태평양(APAC) 지역
+* **5월 12일**: 북미(NA) 지역
+* **5월 13일**: 유럽, 중동 및 아프리카(EMEA) 지역
 
-## [!DNL Target] 플랫폼 릴리스(2022년 4월 27일)
+이 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
 
-이 릴리스에는 다음 변경 사항이 포함됩니다.
-
-* 이 릴리스에서는 컨텐츠를 미리 가져올 수 있습니다 [!UICONTROL 자동 개인화] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동(이전에 에서 반환되지 않음) [!DNL Target]). 이렇게 하면 AP/AT 활동이 게재 경로에 있고 콘텐츠 전달에 대해 동일한 위치를 사용하는 다른 AB/XT 활동보다 우선 순위가 높은 경우 미리 가져오기 호출(&quot;실행&quot; 흐름에 대한 변경 없음)의 경우 최종 사용자가 보는 경험이 변경될 수 있습니다.
+* JavaScript 오류가 발생하여 일부 고객이 특정 지역의 활동 세부 정보에 액세스할 수 없는 문제를 해결했습니다 [!UICONTROL Automated Personalization] (AP) 활동. (TGT-43526)
+* 일부 고객이 특정 오퍼를 AP 활동에 추가(또는 편집)하지 못하는 문제를 해결했습니다. (TGT-43503)
+* 에서 문제가 해결되었습니다. [!DNL Target] 다음 오류 메시지를 표시한 UI: &quot;글로벌 mbox가 동기화되지 않을 수 있습니다. 재저장을 해 보십시오.&quot; 이 문제는 UI 문제였으며 고객의 구현에는 영향을 주지 않았습니다. (TGT-43475)
+* 개선 및 대상을 새 항목 전에 만든 경우 한 고객이 활동의 경험 수준 개선 및 대상을 편집할 수 없는 문제가 수정되었습니다 [!UICONTROL 대상] UI가 배포되었습니다. (TGT-43433)
+* 고객이 중복을 선택할 수 있는 문제가 해결되었습니다. [!DNL Adobe Audience Manager] (AAM) 활동에 대한 보고 대상을 편집하는 동안 대상을 타깃팅할 수 있습니다. (TGT-43430)
+* 고객이 중복 대상을 만들지만, 다른 작업 공간에서 생성할 수 없는 문제를 수정했습니다. (TGT-43423)
+* 고객이 [!UICONTROL 양식 기반 경험 작성기]. (TGT-43315)
+* 고객이 이미지 오퍼를 클릭한 다음 UI를 새로 고친 후 코드 오퍼에 액세스할 수 없는 문제를 해결했습니다. (TGT-43566)
+* 에서 사용할 수 있는 지표 목록을 확인했습니다 [!DNL Target] 를 사용하는 활동을 만들 때 UI [!DNL Analytics for Target] (A4T)는에서 수집한 지표만 표시합니다 [!DNL Adobe Analytics]. (TGT-43294)
+* 스크립트를 편집하고 활성화한 다음 비활성화한 후 프로필 스크립트 편집 내용이 편집되지 않은 원래 스크립트로 되돌리는 문제를 해결했습니다. 이제 프로필 스크립트가 편집된 상태로 유지됩니다. (TGT-43249)
+* 대상자를 다른 작업 공간으로 이동하려고 할 때 다음 오류가 발생하는 문제를 수정했습니다. &quot;요청을 완료할 수 없습니다. 문제가 계속되면 Adobe Client Care에 문의하십시오.&quot; (TGT-43212)
+* SPA(단일 페이지 앱) 페이지에 대한 사용자 지정 코드 수정 사항을 복제할 때 오류를 발생하는 문제를 수정했습니다. (TGT-43137)
+* 경험을 복제한 다음 프로모션을 편집한 후 원래 프로모션에 영향을 주는 문제가 수정되었습니다. (TGT-41775)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko-KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko_KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
 | [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
