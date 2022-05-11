@@ -4,9 +4,9 @@ description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용�
 title: Target 문제를 해결하려면 어떻게 합니까?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '446'
+source-git-commit: db632225d21c2e061e82269bec168341b410575a
+workflow-type: tm+mt
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
@@ -144,6 +144,10 @@ ht-degree: 100%
 ## SEO(검색 엔진 최적화)
 
 * [SEO(검색 엔진 최적화) 친화도 테스트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+
+## 보안
+
+* [콘텐츠 보안 정책(CSP) 지침](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
 
 ## 시스템 상태
 

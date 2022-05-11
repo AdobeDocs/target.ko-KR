@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '3943'
-ht-degree: 96%
+source-wordcount: '4029'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 96%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 5월 11일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.5.1 및 Target 플랫폼(2022년 5월 11~13일) 릴리스 |
+| 5월 11일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나에 대한 정보 및 등록 링크가 추가되었습니다.<ul><li>딕의 스포츠 상품: 소매점의 개인화 및 변화하는 가로</li><li>Adobe: 개인화 산업 참가자 - 금융 서비스 및 보험</li><li>시티 내셔널 은행: 디지털 최적화의 상위 1%를 달성하는 방법</li><li>Adobe: Precision을 사용한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target]</li><li>시티 내셔널 은행: Zero to Hero - 개인화 프로그램 시작 및 확장</li><li>Adobe: 효과적인 최적화 기회 확보</li><li>Adobe: Personalization Industry Insider - 소매</li></ul>다음 웨비나에 대한 녹화가 추가되었습니다.<ul><li>을 사용한 실시간 개인화 [!DNL Adobe Target]</li></ul> |
+|  | [콘텐츠 보안 정책(CSP) 지침](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | FAQ 섹션이 추가되었습니다. |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.5.1 및 Target 플랫폼(2022년 5월 11~13일) 릴리스 |
 
 ## Adobe Target Standard/Premium 22.4.1(4월 28일)
 
