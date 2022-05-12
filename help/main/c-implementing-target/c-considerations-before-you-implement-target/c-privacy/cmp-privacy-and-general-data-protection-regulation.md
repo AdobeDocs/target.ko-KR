@@ -158,7 +158,7 @@ GDPR, CCPA 및 [!DNL Adobe Experience Platform]에 대한 자세한 내용은 [A
 
 [!DNL `removeIdentities`]*는 브라우저에서 이러한 ID만을*[!DNL Adobe] 제거하며 솔루션이 이를 구현했는지 여부에 따라 다릅니다.
 
-예를 들어 [!DNL Target]은 해당 ID를 저장하는 쿠키를 삭제하지만, [!DNL Adobe Audience Manager](AAM)은 서드파티 쿠키에 저장된 Demdex ID를 삭제하지 않습니다.
+예를 들어 [!DNL Target]은 해당 ID를 저장하는 쿠키를 삭제하지만, [!DNL Adobe Audience Manager] (AAM)은 서드파티 쿠키에 저장된 Demdex ID를 삭제하지 않습니다.
 
 ### [!DNL Target] GDPR 또는 CCPA 요청에 포함해야 하는 정보는 무엇입니까? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
