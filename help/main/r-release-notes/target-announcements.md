@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1997fb8e290541fc9e194d582ccc2587595ccfa7
+source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 30%
+source-wordcount: '1388'
+ht-degree: 25%
 
 ---
 
@@ -17,11 +17,15 @@ ht-degree: 30%
 
 ## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 5월 25일)
 
+Brent Kostak과 Draw Burns of the [!DNL Adobe Target] 제품 마케팅 팀은 해당 전문 분야와 관련된 고객 질문에 답변합니다.
+
++++내 클릭
+
 * **2022년 5월 25일 수요일**
 * **오전 8시 (PDT, UTC -7)**
 * **[추가 정보 및 등록 정보](https://adobe.ly/3LbOj4G)**
 
-Brent Kostak과 Draw Burns of the [!DNL Adobe Target] 제품 마케팅 팀은 해당 전문 분야와 관련된 고객 질문에 답변합니다. 고객은 실시간 개인화 웨비나(아래 액세스 기록)에서 다루었던 다음 주제와 관련된 질문을 4/28/22 수 있습니다.
+고객은 실시간 개인화 웨비나(아래 액세스 기록)에서 다루었던 다음 주제와 관련된 질문을 4/28/22 수 있습니다.
 
 * 공유 대상자 만들기 [!DNL Adobe Target] 및 Real-Time CDP
 * 데이터 단편화 문제를 해결하기 위한 자사 데이터 전략 구축
@@ -29,6 +33,7 @@ Brent Kostak과 Draw Burns of the [!DNL Adobe Target] 제품 마케팅 팀은 �
 * 관련 메시지, 콘텐츠 및 오퍼를 실시간으로 제공하여 참여를 유도합니다
 
 또한 기술 지원 엔지니어인 Kai Motoyama도 추가 지원을 제공하는 토론 과제에 참가할 예정입니다.
++++
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
@@ -36,13 +41,15 @@ Brent Kostak과 Draw Burns of the [!DNL Adobe Target] 제품 마케팅 팀은 �
 
 ### 딕의 스포츠 상품: 소매점의 개인화 및 변화하는 가로(2022년 5월 19일)
 
+개인화 프로그램을 규모에 맞게 늘리는 방법에 대한 우수 사례를 알아봅니다. 딕의 스포츠 용품에서 [!DNL Adobe Target] 최고의 운동선수와 브랜드에 참여하기 위해.
+
 +++내 클릭
 
 * **2022년 5월 19일 목요일**
 * **오후 1시~2시 (EDT, UTC-4)**
 * **[추가 정보 및 등록 정보](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-Shawn Wilkinson(eCommerce Personalization Manager)에 참여하여 방법을 알아보십시오 [!DNL Target] 이는 일반 방문자들이 재선수들로 전환하도록 돕고 있다.
+Shawn Wilkinson(eCommerce Personalization Manager)에 참여하여 방법을 알아보십시오 [!DNL Target] 딕이 스포츠 용품에서 일반인을 재방문 운동자로 바꾸는 것을 돕고 있다.
 
 우리가 짐을 풀고 있는 딕의 스포츠 용품에서 두 자리 수의 성장을 어떻게 이끌어가고 있는지 알아보십시오.
 
@@ -55,6 +62,8 @@ Shawn Wilkinson(eCommerce Personalization Manager)에 참여하여 방법을 알
 
 ### Adobe: 개인화 산업 참가자 - 금융 서비스 및 보험(2022년 5월 24일)
 
+금융 서비스 회사가 개인화를 통해 인플레이션 패턴 및 투자 전략을 준비하기 위해 고객을 지원하고 알리는 방법을 알아봅니다.
+
 +++내 클릭
 
 * **2022년 5월 24일 화요일**
@@ -65,6 +74,8 @@ Christopher Young(Director, Industry Strategy Financial Services) 및 James Capa
 +++ 
 
 ### 시티 내셔널 은행: 디지털 최적화의 상위 1% 달성 방법(2022년 5월 26일)
+
+교차 기능 개인화 전략을 구현하기 위해 도구 키트 및 사용 사례를 봅니다. CNB가 업계 하위 26%에서 상위 1%로 어떻게 이동했는지 [!DNL Adobe Target].
 
 +++내 클릭
 
@@ -85,6 +96,8 @@ Heather Adkins(SVP Marketing Technology Manager)와 협력하여 City National B
 
 ### Adobe: Precision을 사용한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target] (2022년 6월 2일)
 
+인공 지능(인공 지능)이 소비자 기대치를 머신 러닝 모델과 데이터 인사이트(data insights)로 재정의하여 마케터, 개발자 및 제품 소유자가 중요한 개인화된 경험으로 소비자를 참여시키는 새로운 문을 여는 방법에 대해 알아봅니다. 다음과 같은 단계별 [!DNL Adobe Analytics] + [!DNL Adobe Target] 개인화, 타깃팅 및 테스트를 위한 워크플로우입니다.
+
 +++내 클릭
 
 * **2022년 6월 2일 목요일**
@@ -102,6 +115,8 @@ Jordan Ison(의 수석 전문가 솔루션 컨설턴트) [!DNL Adobe])에서 다
 
 ### 시티 내셔널 은행: Zero to Hero - 개인화 프로그램 시작 및 확장(2022년 6월 9일)
 
+브랜드 충성도를 향상시키기 위해 &#39;관계 은행&#39;이 되는 방법을 우수 사례에 대해 배웁니다. 사람과 프로세스를 구동하여 성공적인 개인화 프로그램을 구축하고 확장하는 방법을 알아보십시오.
+
 +++내 클릭
 
 * **2022년 6월 9일 목요일**
@@ -112,6 +127,8 @@ Header Adkins(SVP 마케팅 기술)와 함께 브랜드 충성도를 높이고 �
 +++
 
 ### Adobe: 높은 영향을 주는 최적화 기회 확보(2022년 6월 16일)
+
+이전보다 디지털 방식으로 새로운 일반 환경에 진입하는 방법을 배웁니다. 조직은 뛰어난 디지털 경험을 제공할 수 있는 모든 기회를 활용하는 것이 중요합니다. 충분하다는 것은 더 이상 정말로 충분하지 않다. 경쟁력을 유지하기 위해서는 훌륭한 경험이 필요합니다.
 
 +++내 클릭
 
@@ -129,6 +146,8 @@ Adobe는 다음과 같은 개인화 프로그램을 시작하는 데 도움이 �
 +++
 
 ### Adobe: Personalization Industry Insider - 소매 (2022년 6월 21일)
+
+2022년에는 기업이 운영 및 운영을 위해 동적으로 변화하는 환경을 제공합니다. 업계 전문가들이 어떻게 새로운 소비자 트렌드가 형성되고 있으며 노동자와 여행객들이 다시 정상으로 돌아오기 시작하는지 알아봅니다. 
 
 +++내 클릭
 
