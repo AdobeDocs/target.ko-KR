@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # [!DNL Adobe Target]용 보고 소스로서의 [!DNL Adobe Analytics] (A4T)
 
-[!DNL Adobe Analytics for Target](A4T)은 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 생성할 수 있는 솔루션 간 통합입니다. A4T 통합을 통해 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다. 활동용 보고 소스로서의 [!DNL Analytics]를 사용하는 경우 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
+[!DNL Adobe Analytics for Target] (A4T)은 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 생성할 수 있는 솔루션 간 통합입니다. A4T 통합을 통해 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다. 활동용 보고 소스로서의 [!DNL Analytics]를 사용하는 경우 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
 
 ## 개요 {#section_92B66069210C40DBA937790E8CC596CF}
 
