@@ -17,7 +17,7 @@ ht-degree: 100%
 
 최신 브라우저는 보안 콘텐츠가 비보안 콘텐츠와 혼합된 경우 페이지 표시를 차단하거나 경고 메시지를 표시할 수 있습니다.
 
-경고 메시지는 [!DNL Target]의 [!UICONTROL 시각적 경험 작성기](VEC)가 혼합 콘텐츠가 포함된 페이지를 열려고 할 때 표시됩니다. 이 메시지는 브라우저에서 차단을 비활성화하는 방법을 알려 줍니다. 차단을 비활성화하면 HTTP 사이트 또는 혼합 호출(HTTPS 및 HTTP)이 있는 사이트를 열 수 있습니다.
+경고 메시지는 [!DNL Target]의 [!UICONTROL 시각적 경험 작성기] (VEC)가 혼합 콘텐츠가 포함된 페이지를 열려고 할 때 표시됩니다. 이 메시지는 브라우저에서 차단을 비활성화하는 방법을 알려 줍니다. 차단을 비활성화하면 HTTP 사이트 또는 혼합 호출(HTTPS 및 HTTP)이 있는 사이트를 열 수 있습니다.
 
 ![혼합 콘텐츠 경고](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
