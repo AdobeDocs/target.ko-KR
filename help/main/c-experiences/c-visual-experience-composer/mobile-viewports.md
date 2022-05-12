@@ -105,7 +105,7 @@ ht-degree: 100%
 
    또는
 
-   기존 모바일 뷰포트의 구성을 변경하려면 해당 뷰포트를 선택한 다음 [!UICONTROL 편집](연필 모양) 아이콘을 클릭합니다.
+   기존 모바일 뷰포트의 구성을 변경하려면 해당 뷰포트를 선택한 다음 [!UICONTROL 편집] (연필 모양) 아이콘을 클릭합니다.
 
 1. 모바일 뷰포트의 이름을 입력합니다.
 
@@ -138,7 +138,7 @@ ht-degree: 100%
 모바일 뷰포트를 [!DNL Target] 활동에 추가하여 모바일 화면용 반응형 경험을 작성할 수 있습니다.
 
 1. [원하는 활동](/help/main/c-activities/activities.md)을 만듭니다.
-1. [!UICONTROL 시각적 경험 작성기](VEC)에서 **[!UICONTROL 설정]** 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL 모바일 뷰포트 추가]**&#x200B;를 선택합니다.
+1. [!UICONTROL 시각적 경험 작성기] (VEC)에서 **[!UICONTROL 설정]** 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL 모바일 뷰포트 추가]**&#x200B;를 선택합니다.
 
    ![모바일 뷰포트 옵션 추가](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
