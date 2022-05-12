@@ -82,7 +82,7 @@ at.js 2.x는 SPA에 대한 Adobe Target의 지원을 개선하고 다른 Experie
 | 1 | 사용자가 인증되면 호출에서 [!DNL Experience Cloud ID] (MCID)를 반환합니다. 다른 호출은 고객 ID를 동기화합니다. | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다. |
 | 3 | 모든 구성된 매개변수, MCID, SDID 및 고객 ID(선택 사항)를 포함하는 글로벌 mbox 요청이 이루어집니다. | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 [!UICONTROL 대상 라이브러리]의 적절한 대상(예: [!DNL Adobe Analytics], [!DNL Audience Manager] 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 배치 프로세스를 통해 [!DNL Profile Store]로 전송됩니다. |
 | 5 | [!DNL Target]에서는 URL, mbox 매개변수 및 프로필 데이터를 기반으로 방문자에게 반환할 활동 및 경험을 결정합니다. | 6 | 타기팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>경험은 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
-| 7 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. | 8 | [!DNL Target] 데이터는 SDID를 통해 [!DNL Analytics] 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다.그런 다음 <br>[!DNL Analytics] 데이터는 [!DNL Analytics for Target](A4T) 보고서를 통해 [!DNL Analytics] 및 [!DNL Target] 모두에서 볼 수 있게 됩니다. |
+| 7 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. | 8 | [!DNL Target] 데이터는 SDID를 통해 [!DNL Analytics] 데이터에 대응되며 [!DNL Analytics] 보고 저장소로 처리됩니다.그런 다음 <br>[!DNL Analytics] 데이터는 [!DNL Analytics for Target] (A4T) 보고서를 통해 [!DNL Analytics] 및 [!DNL Target] 모두에서 볼 수 있게 됩니다. |
 
 ### 비디오 - 운영 시간: at.js 팁 및 개요(2019년 6월 26일)
 
