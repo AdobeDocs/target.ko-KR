@@ -4,7 +4,7 @@ description: Adobe Target에서 일반적인 마케터의 사용 사례를 실�
 title: Target에서 사용할 수 있는 경험 템플릿은 무엇입니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
 source-wordcount: '477'
 ht-degree: 79%

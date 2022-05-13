@@ -5,9 +5,9 @@ title: at.js 쿠키
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1825'
 ht-degree: 96%
 
 ---
@@ -111,7 +111,7 @@ at.js에서 `mboxSession ID`를 생성합니다. 첫 번째 위치 요청은 `mb
 | 쿠키 이름 | mbox. |
 | 쿠키 도메인 | 컨텐츠를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: `mycompany.com`. |
 | 서버 도메인 | `clientcode.tt.omtrdc.net`( 계정에 대해 클라이언트 코드 사용) |
-| 쿠키 지속 시간 | 쿠키는 마지막 로그인부터 2년 동안 방문자 브라우저에 유지됩니다.<br>다음 `deviceIdLifetime` 설정값 초과 사용 [at.js 버전 2.3.1 이상](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). 자세한 내용은 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오. |
+| 쿠키 지속 시간 | 쿠키는 마지막 로그인부터 2년 동안 방문자의 브라우저에 유지됩니다.<br>다음 `deviceIdLifetime` 설정값 초과 사용 [at.js 버전 2.3.1 이상](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). 자세한 내용은 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오. |
 | P3P 정책 | 쿠키는 대부분의 브라우저에서 기본 설정으로 요구되는 P3P 정책을 사용하여 게시됩니다. P3P 정책은 쿠키를 제공하는 사람과 정보 사용 방법을 브라우저에 알립니다. |
 
 쿠키는 방문자가 캠페인을 경험하는 방식을 관리하기 위해 많은 값을 유지합니다.
@@ -120,7 +120,7 @@ at.js에서 `mboxSession ID`를 생성합니다. 첫 번째 위치 요청은 `mb
 |--- |--- |
 | session ID | 사용자 세션의 고유 ID입니다. 기본적으로 30분 동안 지속됩니다. |
 | pc ID | 방문자 브라우저의 반영구 ID입니다. 14일 동안 지속됩니다. |
-| check | 방문자가 쿠키를 지원하는지 여부를 확인하는 간단한 테스트 값입니다. 방문자가 페이지를 요청할 때마다 설정합니다. |
+| at_check | 방문자가 쿠키를 지원하는지 여부를 확인하는 간단한 테스트 값입니다. 방문자가 페이지를 요청할 때마다 설정합니다. |
 | disable | 방문자의 로드 시간이 [!DNL Adobe Experience Platform Web SDK] 또는 at.js 파일 기본적으로 1시간 동안 지속됩니다. |
 
 ## 영향 [!DNL Target] Apple WebKit 추적 변경 사항으로 인한 Safari 방문자용

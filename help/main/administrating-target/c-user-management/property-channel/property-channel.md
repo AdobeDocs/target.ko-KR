@@ -5,10 +5,10 @@ title: 엔터프라이즈 사용자 권한은 무엇이며, 이 권한을 어떻
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 56%
+source-wordcount: '3149'
+ht-degree: 58%
 
 ---
 
@@ -20,13 +20,13 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->속성 및 권한 기능은  Premium 솔루션의 일부로 사용할 수 있습니다. [!DNL Target] 이 기능은 [!DNL Target] Premium 라이센스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
+>속성 및 권한 기능은 [!DNL Target] Premium 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target] Premium 라이선스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
 >
 >사용자 [!DNL Target] 구현에는 임의 버전의 at.js를 사용할 수 있습니다.
 
-을 클릭하여 조직에 Standard 라이센스나 Premium 라이센스가 있는지 여부를 알 수 있습니다 [!UICONTROL 관리] 의 맨 위에 있는 링크 [!DNL Target] UI.
+[!DNL Target] UI 상단의 [!UICONTROL 관리] 링크를 클릭하여 귀사에서 Standard 라이선스를 보유하고 있는지 또는 Premium 라이선스를 보유하고 있는지 여부를 파악할 수 있습니다.
 
-* **[!DNL Target Standard]고객**: 만약 [!UICONTROL 사용자] 탭 ([!UICONTROL 관리 > 사용자])(및 아님) [!UICONTROL 속성] 탭), 조직에 [!DNL Target Standard] 라이센스. [!DNL Target Standard] 고객은 다음 지침에 따라야 합니다. [사용자](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 사용자를 추가하고 [!DNL Adobe Admin Console].
+* **[!DNL Target Standard]고객**: [!UICONTROL 속성] 탭이 아닌 [!UICONTROL 사용자] 탭([!UICONTROL 관리 > 사용자])이 표시된다면 귀사는 [!DNL Target Standard] 라이선스를 보유하고 있습니다. [!DNL Target Standard] 고객은 다음 지침에 따라야 합니다. [사용자](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 사용자를 추가하고 [!DNL Adobe Admin Console].
 
 * **[!DNL Target Premium]고객**: 만약 [!UICONTROL 속성] 탭 ([!UICONTROL 관리 > 속성]) 및 [!UICONTROL 사용자] 탭, 조직에 [!DNL Target Premium] 라이센스. [!DNL Target Premium] 고객은 이 문서와 [엔터프라이즈 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
 
@@ -91,7 +91,7 @@ ht-degree: 56%
 | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
 | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
 | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-| 게시자 | 관찰자 역할과 유사합니다(활동은 볼 수 있지만 만들거나 편집할 수 없음). 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
+| 게시자 | 관찰자 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음)과 유사합니다. 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
 ### 채널
 
@@ -120,7 +120,7 @@ ht-degree: 56%
 | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
 | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
 | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-| 게시자 | 관찰자 역할과 유사합니다(활동은 볼 수 있지만 만들거나 편집할 수 없음). 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
+| 게시자 | 관찰자 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음)과 유사합니다. 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
 아래와 같이 [!DNL Target] 태그를 포함하는 계정의 모든 페이지, 속성 또는 사이트에 각 사용자의 역할이 적용된다는 점에 유의해야 합니다.
 
@@ -232,7 +232,7 @@ ht-degree: 56%
 * [!DNL Audiences] 페이지에서 대상을 볼 때 페이지가 예상보다 더 느리게 로드됩니다. 어떤 방식으로든 검색 막대와 상호 작용하는 경우 대상이 더 빠르게 표시됩니다. 이 문제는 알려진 문제이며 향후 업데이트에서 수정됩니다. 이 문제는 활동 생성 워크플로우 중에 대상을 선택하는 데 영향을 주지 않습니다.
 * 다음 리소스는 새 Enterprise 권한 모델에 속합니다.
 
-   * 고객이 사용 권한에 대해 활성화된 후 Target Standard/Premium 내에서 생성된 활동, 대상 및 코드 오퍼. (참고: 고객은 Target Premium에 대해 사용 권한이 부여되어야 합니다.)
+   * 내에서 만들어진 활동, 대상 및 코드 오퍼 [!DNL Target Standard/Premium] 고객이 사용 권한을 사용하도록 설정한 후에 사용할 수 있습니다. (참고: 고객은 [!DNL Target Premium])
    * 기본 작업 공간의 기존 활동에 속성을 추가할 수 있습니다. 그러나 이 접근 방식은 변경될 수 있습니다.
    * (Enterprise 권한이 활성화된 후) Premium에서 만든 새 리소스(예: 활동, 코드 오퍼 및 대상)만 권한으로 제한할 수 있습니다.
    * 외부 리소스는 기본 작업 공간의 사용자만 사용할 수 있습니다. 기본 작업 공간의 사용자 역할은 전역적으로 (모든 Target 요청 및 모든 Target 리소스에) 적용됩니다.
@@ -314,7 +314,7 @@ ht-degree: 56%
 
 ### 근무 시간: [!DNL Target] Premium 작업 공간
 
-이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 기록입니다.
+이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 “운영 시간” 기록입니다.
 
 * 작업 영역(제품 프로필) 만들기
 * 속성 만들기
@@ -323,6 +323,6 @@ ht-degree: 56%
 
 >[!NOTE]
 >
->다음 [!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전 [!UICONTROL 설정])은 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 재설계되었습니다. 다음 비디오의 정보가 올바릅니다. 그러나 옵션은 약간 다른 위치에 있을 수 있습니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전명: [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보가 올바릅니다. 그러나 옵션은 약간 다른 위치에 있을 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
