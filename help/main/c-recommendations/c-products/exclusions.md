@@ -4,10 +4,10 @@ description: Adobe에서 제외를 만드는 방법을 알아봅니다 [!DNL Tar
 title: Recommendations 활동에서 제외 기능을 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
-source-wordcount: '606'
-ht-degree: 44%
+source-wordcount: '614'
+ht-degree: 43%
 
 ---
 
@@ -26,6 +26,8 @@ ht-degree: 44%
 * 권장해서는 안 되는 제품(예: 특정 제품의 시스템에 SKU가 있지만 구매 가능한 항목이 아니거나 실제로 주문하지 않고 구매를 시뮬레이션하는 것이 QA 팀의 가짜 SKU일 수 있음)
 
 >[!IMPORTANT]
+>
+>제외 규칙은 모든 환경에 전체적으로 적용됩니다.
 >
 >정적 및 동적 제외 규칙은 마케팅 활동에 도움이 될 수 있는 강력한 기능입니다. 자세한 정보, 예 및 사용 사례 시나리오가 필요하면 [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하십시오.
 

@@ -5,7 +5,7 @@ title: 어디에서 배울 수 있습니까 [!DNL Target] 서버 측 배달 API 
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 23%
@@ -37,7 +37,7 @@ ht-degree: 23%
 
 `/rest/v1/delivery`
 
-전체 [!DNL Target] 배달 API를 사용하여 다음을 수행할 수 있습니다.
+사용 [!DNL Target] 배달 API를 사용하여 다음을 수행할 수 있습니다.
 
 * 연결된 TV, 키오스크 또는 매장 내 디지털 스크린과 같은 비브라우저 기반 IoT 장치뿐만 아니라 SPA 및 모바일 채널을 포함한 웹 전반에 경험을 제공합니다.
 * HTTP/s를 호출할 수 있는 서버측 플랫폼 또는 애플리케이션에서 경험을 제공합니다.
