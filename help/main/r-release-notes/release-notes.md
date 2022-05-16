@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
 workflow-type: tm+mt
-source-wordcount: '692'
-ht-degree: 52%
+source-wordcount: '666'
+ht-degree: 54%
 
 ---
 
@@ -36,7 +36,6 @@ ht-degree: 52%
 * 고객이 중복 대상을 만들지만, 다른 작업 공간에서 생성할 수 없는 문제를 수정했습니다. (TGT-43423)
 * 고객이 [!UICONTROL 양식 기반 경험 작성기]. (TGT-43315)
 * 고객이 이미지 오퍼를 클릭한 다음 UI를 새로 고친 후 코드 오퍼에 액세스할 수 없는 문제를 해결했습니다. (TGT-43566)
-* 에서 사용할 수 있는 지표 목록을 확인했습니다 [!DNL Target] 를 사용하는 활동을 만들 때 UI [!DNL Analytics for Target] (A4T)는에서 수집한 지표만 표시합니다 [!DNL Adobe Analytics]. (TGT-43294)
 * 스크립트를 편집하고 활성화한 다음 비활성화한 후 프로필 스크립트 편집 내용이 편집되지 않은 원래 스크립트로 되돌리는 문제를 해결했습니다. 이제 프로필 스크립트가 편집된 상태로 유지됩니다. (TGT-43249)
 * 대상자를 다른 작업 공간으로 이동하려고 할 때 다음 오류가 발생하는 문제를 수정했습니다. &quot;요청을 완료할 수 없습니다. 문제가 계속되면 Adobe Client Care에 문의하십시오.&quot; (TGT-43212)
 * SPA(단일 페이지 앱) 페이지에 대한 사용자 지정 코드 수정 사항을 복제할 때 오류를 발생하는 문제를 수정했습니다. (TGT-43137)
