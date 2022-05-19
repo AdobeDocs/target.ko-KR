@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
 source-wordcount: '4029'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -15,31 +15,31 @@ ht-degree: 94%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## Adobe Target Standard/Premium 22.5.1(시차 릴리스) (2022년 5월 11일-13일)
+## Adobe Target Standard/Premium 22.5.1 (순차적 공개, 2022년 5월 11~13일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 5월 11일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나에 대한 정보 및 등록 링크가 추가되었습니다.<ul><li>딕의 스포츠 상품: 소매점의 개인화 및 변화하는 가로</li><li>Adobe: 개인화 산업 참가자 - 금융 서비스 및 보험</li><li>시티 내셔널 은행: 디지털 최적화의 상위 1%를 달성하는 방법</li><li>Adobe: Precision을 사용한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target]</li><li>시티 내셔널 은행: Zero to Hero - 개인화 프로그램 시작 및 확장</li><li>Adobe: 효과적인 최적화 기회 확보</li><li>Adobe: Personalization Industry Insider - 소매</li></ul>다음 웨비나에 대한 녹화가 추가되었습니다.<ul><li>을 사용한 실시간 개인화 [!DNL Adobe Target]</li></ul> |
 |  | [콘텐츠 보안 정책(CSP) 지침](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | FAQ 섹션이 추가되었습니다. |
-|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.5.1 및 Target 플랫폼(2022년 5월 11~13일) 릴리스 |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 및 Target 플랫폼(2022년 5월 11~13일) 릴리스에 대한 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.4.1(4월 28일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 5월 10일 | [Target 릴리스 정보(프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
-| 4월 28일 | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 다음 FAQ가 추가되었습니다.<ul><li>한 작업 공간에서 다른 작업 공간으로 대상을 이동할 수 있습니까?</li></ul> |
-|  | [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>다음을 수행할 수 있습니까? [!UICONTROL 자동 할당] 활동은 시간에 따른 변화하는 트렌드를 고려하도록 테스트 과정 동안 전환 확인 기간을 조정합니까?</li><li>역할 [!UICONTROL 자동 할당] 우승 경험이 활동 자격을 부여할 때 방문자가 본 경험과 다른 경우 재방문자에게 우승 경험을 표시하시겠습니까?</li></ul> |
-|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target Standard/Premium] 22.4.1 및 Target 플랫폼(2022년 4월 27일) 릴리스 |
+| 5월 10일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
+| 4월 28일 | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 다음 FAQ가 추가되었습니다.<ul><li>한 작업 영역에서 다른 작업 영역으로 대상을 이동할 수 있습니까?</li></ul> |
+|  | [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동은 시간 경과에 따른 트렌드 변화를 고려하기 위해 테스트 과정에서 전환 확인 창을 조정할 수 있습니까?</li><li>당첨 경험이 방문자가 활동 자격 조건을 충족할 때 표시되는 것과 다른 경우 [!UICONTROL 자동 할당]은 재방문 사용자에게 우승 경험을 표시합니까?</li></ul> |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 및 Target 플랫폼(2022년 4월 27일) 릴리스에 대한 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.3.1(4월 5일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 4월 26일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Target을 사용한 실시간 개인화(2022년 4월 28일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2022년 5월 25일)</li></ul> |
-|  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 다음 FAQ가 추가되었습니다.<ul><li>A4T 활동에서 리디렉션 오퍼를 사용할 때 트래픽 분포의 불일치를 어떻게 최소화할 수 있습니까?</li></ul> |
+| 4월 26일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Target을 사용한 실시간 개인화 (2022년 4월 28일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 5월 25일)</li></ul> |
+|  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 다음 FAQ가 추가되었습니다.<ul><li>A4T 활동에서 리디렉션 오퍼를 사용할 때 트래픽 분배의 불일치를 최소화하려면 어떻게 해야 합니까?</li></ul> |
 |  | [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 다음 섹션이 추가되었습니다.<ul><li>Target으로 내보낸 경험 조각에서 ClientLibs 및 외부 HTML 제거</li></ul> |
-| 21월 4일 | [Target 릴리스 정보(프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target] 플랫폼 릴리스가 2022년 4월 17일에 예약되었습니다. |
+| 4월 21일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 2022년 4월 17일로 예정된 [!DNL Target] 플랫폼 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 4월 20일 | [Target 릴리스 정보(프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 4월 14일 | [시각적 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | DOM 요소의 소극적 로드로 인해 일관성이 없이 [!UICONTROL 이동] 및 [!UICONTROL 재정렬] 작업을 사용하는 VEC 비헤이비어를 처리하는 방법에 대한 정보가 [재정렬] 섹션에 추가되었습니다. |
 | 4월 13일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 4월 27일)</li></ul> |
@@ -109,7 +109,7 @@ ht-degree: 94%
 | 10월 26일 | [CNAME 및 [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 25일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.10.5 릴리스(2021년 10월 28일)에 대한 정보가 추가되었습니다. |
 | 10월 22일 | [콘텐츠 전달 문제 해결](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | 다음 섹션이 추가되었습니다.<ul><li>[!DNL Target] 활동이 쿼리 문자열 매개변수가 있는 URL을 올바르게 처리하는지 확인합니다.</li></ul> |
-| 10월 21일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 11월 10일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2021년 12월 8일)</li></ul> |
+| 10월 21일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2021년 11월 10일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2021년 12월 8일)</li></ul> |
 | 10월 20일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.4 릴리스(2021년 10월 21일)에 대한 정보가 추가되었습니다. |
 |  | [추천 계획 및 구현](/help/main/c-recommendations/plan-implement.md) | 전체 주제가 업데이트되었습니다. |
 | 10월 19일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 21.10.3 릴리스(2021년 10월 19일)에 대한 정보가 추가되었습니다. |
@@ -121,7 +121,7 @@ ht-degree: 94%
 |  | [사용자 지정 기준 업로드](/help/main/c-recommendations/c-algorithms/recommendations-csv.md) | 새로운 워크플로를 반영하도록 지침이 업데이트되었습니다. |
 |  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.10.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
-## [!DNL Adobe Target Standard/Premium] 21.9.1(2021년 9월 14일)
+## [!DNL Adobe Target Standard/Premium] 21.9.1 (2021년 9월 14일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -132,7 +132,7 @@ ht-degree: 94%
 | 9월 27일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break<ul><li>2021년 10월 13일 수요일</li><li>오전 8시 (PDT, UTC -7)</li></ul></li></ul> |
 | 9월 22일 | [Velocity를 사용하여 디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | 명확하지 않은 상황이 발생할 수 있으니 이를 방지하기 위해 코드 샘플에서 `$double`를 `$Double` 로 변경합니다. |
 |  | [디자인 FAQ](/help/main/c-recommendations/c-design-overview/template-faq.md) | 다음 FAQ가 업데이트되었습니다.<ul><li>[!DNL Recommendations] 디자인에서 프로필 스크립트를 사용할 수 있습니까?</li></ul> |
-|  | [클릭 추적](/help/main/c-activities/r-success-metrics/click-tracking.md) | 다음 고려 사항이 추가되었습니다.<ul><li>클릭 추적 지표는 활동의 특정 환경에 연결되지 않습니다.</li><li>클릭 추적 지표 범위를 제한할 필요가 있는 경우 대상을 사용합니다.</li><li>여러 활동을 통해 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그렇다면 해당 활동 중 하나를 수행할 자격이 있는 방문자가 해당 선택기를 클릭하는 경우 자격이 부여된 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.</li></ul> |
+|  | [클릭 추적](/help/main/c-activities/r-success-metrics/click-tracking.md) | 다음 고려 사항이 추가되었습니다.<ul><li>클릭 추적 지표는 활동의 특정 경험에 연결되지 않습니다.</li><li>클릭 추적 지표 범위를 제한할 필요가 있는 경우 대상을 사용합니다.</li><li>여러 활동을 통해 동일한 선택기에 대한 클릭 추적 지표를 정의할 수 있습니다. 그렇다면 해당 활동 중 하나를 수행할 자격이 있는 방문자가 해당 선택기를 클릭하는 경우 자격이 부여된 모든 관련 활동에 대해 클릭 추적 지표가 증가합니다.</li></ul> |
 |  | [ [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현 | “ [!DNL Target] 확장 기능을 통한 at.js 구현의 이점” 섹션에 참고 사항이 추가되었습니다. |
 |  | [mbox3rdPartyId에 대한 실시간 프로필 동기화](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | “고려 사항” 섹션이 새 정보로 업데이트되었습니다. |
 |  | [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | “secureOnly” 섹션이 업데이트되었습니다. |
@@ -188,7 +188,7 @@ ht-degree: 94%
 |  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
 | 6월 30일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.6.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
-## Adobe [!DNL Target] Standard/Premium 21.5.1(2021년 6월 8일)
+## Adobe [!DNL Target] Standard/Premium 21.5.1 (2021년 6월 8일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -207,7 +207,7 @@ ht-degree: 94%
 |  | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.</li></ul> |
 | 6월 7일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.5.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
-## Adobe [!DNL Target] Standard/Premium 21.4.1(2021년 4월 19일)
+## Adobe [!DNL Target] Standard/Premium 21.4.1 (2021년 4월 19일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -247,7 +247,7 @@ ht-degree: 94%
 |  | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=ko-KR)<br>(*Experience Cloud 서비스 및 관리* 안내서) | &quot;session ID&quot;에 대한 추가 정보가 추가되었습니다. |
 |  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.4.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
-## Adobe [!DNL Target] Standard/Premium 21.2.1(2021년 3월 9일)
+## Adobe [!DNL Target] Standard/Premium 21.2.1 (2021년 3월 9일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -261,7 +261,7 @@ ht-degree: 94%
 | 3월 22일 | [권장 사항 피드 처리 서버에서 사용하는 IP 주소](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | IP 주소를 업데이트했습니다. |
 |  | [제한](/help/main/r-troubleshooting-target/target-limits.md) | &quot;엔티티&quot;의 &quot;엔티티 수&quot; 섹션이 업데이트되었습니다. |
 |  | [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md) | at.js 2에 대한 정보가 추가되었습니다.&quot;어떻게 하면 내가 다른 지역 출신의 사용자인 것처럼 내 활동을 테스트할 수 있습니까?&quot;의 *x* |
-|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.2.1 | 다음 섹션이 추가되었습니다. <ul><li>PREMIUM 권장 사항 피드 처리 서버에 대한 IP 주소 변경 사항(2021년 3월 16일)</li></ul> |
+|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.2.1 | 다음 섹션이 추가되었습니다. <ul><li>PREMIUM 권장 사항 피드 처리 서버에 대한 IP 주소 변경 사항 (2021년 3월 16일)</li></ul> |
 | 3월 19일 | [보고서 보기 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | 다음 FAQ가 추가되었습니다.<ul><li>내 활동이 비활성화된 후에 계속해서 더 많은 인상을 확인하는 이유가 무엇입니까?</li></ul> |
 | 3월 12일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | 다음 새 튜토리얼이 추가되었습니다.<ul><li>자동 타겟 활동을 위한 Analysis Workspace에서 A4T 보고서를 설정하는 방법</li></ul> |
 | 3월 9일 | [제한](/help/main/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>허용 가능한 오퍼 크기 제한을 업데이트했습니다.</li><li>categoryId 매개변수에 대한 문자 제한을 수정했습니다.</li></ul> |
@@ -269,7 +269,7 @@ ht-degree: 94%
 |  | [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md) | entity.value가 십진수 형식이어야 함을 나타내는 텍스트를 추가했습니다(예: 15,99가 아니라 15.99). |
 |  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.2.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
-## Adobe [!DNL Target] Standard/Premium 21.1.1(2021년 1월 19일)
+## Adobe [!DNL Target] Standard/Premium 21.1.1 (2021년 1월 19일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |

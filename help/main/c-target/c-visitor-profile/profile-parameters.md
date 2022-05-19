@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
 source-wordcount: '2423'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ if (mbox.name == 'Track_Interest') {
 * `user.get('parameterName')`이 있는 코드의 프로필 스크립트 속성(자체 포함)을 참조합니다.
 * 다음에 `user.setLocal('variable_name', 'value')`를 사용하여 스크립트가 실행될 때(다음 mbox 요청에 대해) 액세스할 수 있는 변수를 저장합니다. `user.getLocal('variable_name')`을 사용하여 변수를 참조합니다. 이 프로세스는 마지막 요청 날짜 및 시간을 참조하고자 하는 상황에 유용합니다.
 
-   이러한 값은 프로필 스크립트처럼 지속되지만 설정된 스크립트 내에서만 액세스할 수 있습니다.
+   이러한 값은 프로필 스크립트처럼 유지되지만 설정된 스크립트 내에서만 액세스할 수 있습니다.
 
 * 매개변수 및 값은 대/소문자를 구분합니다. 활동 또는 테스트 도중 수신하는 매개변수 및 값의 대/소문자를 일치시키십시오.
 * 자세한 JavaScript 구문에 대해서는 아래의 “스크립트 프로필 매개변수에 대한 JavaScript 참조” 섹션을 참조하십시오.
@@ -241,7 +241,7 @@ else if (mbox.param("adobeQA"))
 
 스크립트 프로필 매개변수에서 다음 오브젝트 및 방법을 참조할 수 있습니다.
 
-| 개체 또는 메서드 | 세부 사항 |
+| 오브젝트 또는 메서드 | 세부 사항 |
 | --- | --- |
 | `page.url` | 현재 URL입니다. |
 | `page.protocol` | 페이지에 사용된 프로토콜(http, https)입니다. |
@@ -274,7 +274,7 @@ else if (mbox.param("adobeQA"))
 | `>=` | 변수가 동일하고 true로 평가하는 경우를 제외하고 `>`와 동일합니다. |
 | `&&` | 표현식의 왼쪽과 오른쪽에 있는 논리적 &quot;AND&quot;는 양쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
 | `||` | 표현식의 왼쪽과 오른쪽에 있는 논리적 &quot;OR&quot;은 한쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
-| `//` | 부울에 포함된 타겟의 모든 요소(Array source, Array target)가 소스에 포함되어 있는지 확인합니다.<br>`//`는 대상(정규 표현식에 해당함)에서 하위 문자열을 추출하여 `Array/*String*/ decode(String encoding, String regexp, String target)`로 디코딩합니다.<br>이 기능은 상수 문자열 값, 그룹화(`condition1 || condition2) && condition3` 및 정규식(`/[^a-z]$/.test(landing.referring.url)` 사용을 지원합니다. |
+| `//` | 부울에 포함된 타겟의 모든 요소(Array source, Array target)가 소스에 포함되어 있는지 확인합니다.<br>`//`는 대상(정규 표현식에 해당함)에서 하위 문자열을 추출하여 `Array/*String*/ decode(String encoding, String regexp, String target)`로 디코딩합니다.<br>이 기능은 상수 문자열 값, 그룹화(`condition1 || condition2) && condition3` 및 정규 표현식(`/[^a-z]$/.test(landing.referring.url)` 사용을 지원합니다. |
 
 ## 교육 비디오: 프로필 스크립트 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

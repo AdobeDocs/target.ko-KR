@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
 workflow-type: tm+mt
 source-wordcount: '1388'
-ht-degree: 25%
+ht-degree: 34%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 25%
 
 [!DNL Adobe Target] 스킬 빌더 세션, 개발자 채팅, 웨비나, 그리고 [!DNL Target] Coffee Break 세션을 포함하여 예정된 이벤트에 대한 공지와 정보입니다.
 
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 5월 25일)
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 5월 25일)
 
 Brent Kostak과 Draw Burns of the [!DNL Adobe Target] 제품 마케팅 팀은 해당 전문 분야와 관련된 고객 질문에 답변합니다.
 
@@ -29,10 +29,10 @@ Brent Kostak과 Draw Burns of the [!DNL Adobe Target] 제품 마케팅 팀은 �
 
 * 공유 대상자 만들기 [!DNL Adobe Target] 및 Real-Time CDP
 * 데이터 단편화 문제를 해결하기 위한 자사 데이터 전략 구축
-* 밀리초 단위의 개인화를 위해 종단 간 워크플로우 배포
-* 관련 메시지, 콘텐츠 및 오퍼를 실시간으로 제공하여 참여를 유도합니다
+* 밀리초 단위 개인화를 위한 통합 워크플로 배포
+* 관련 메시지, 콘텐츠 및 오퍼를 실시간으로 전달하여 참여 유도
 
-또한 기술 지원 엔지니어인 Kai Motoyama도 추가 지원을 제공하는 토론 과제에 참가할 예정입니다.
+기술 지원 엔지니어인 Kai Motoyama도 토론 스레드에 참여하여 추가 지원을 제공합니다.
 +++
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
@@ -166,18 +166,18 @@ Michael Klein(Director, 산업 전략 소매)과 Leina Bezer(Adobe Premier Suppo
 
 **[등록하여 웨비나 녹화를 확인합니다](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-이 세션에서 [!DNL Adobe Target] 에서는 다음에 대해 논의할 때 실시간 개인화를 위해 여러 소스 간에 데이터를 결합하는 것에 대한 격차를 벌립니다.
+이 세션에서는 [!DNL Adobe Target]이 실시간 개인화를 위해 여러 소스에서 데이터를 결합할 때의 격차를 해소하는 방법에 대해 알아봅니다.
 
-* 개인화 성능 및 속도 관련 문제를 해결하여 비즈니스 성장 속도를 높이는 이유
+* 더 빠른 비즈니스 성장을 위해 맞춤화 성능과 속도가 중요한 이유
 * 팀이 자사 데이터 전략을 구축하고 데이터 단편화 문제를 해결하는 방법
-* 개인화된 경험을 밀리초 단위로 제공하기 위한 종단 간 워크플로우
-* 관련 메시징, 컨텐츠 및 오퍼를 사용하여 실시간으로 고객 및 잠재 고객을 참여시키는 브랜드에 대한 고유한 사용 사례
+* 밀리초 단위로 맞춤화된 경험을 제공하기 위한 통합 워크플로
+* 관련 메시지, 콘텐츠 및 오퍼를 통해 실시간으로 고객과 잠재 고객의 참여를 유도하기 위한 브랜드의 고유 사용 사례입니다
 
 ### 웨비나: [!DNL Adobe Target]의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
 마케터와 제품 담당자, 개발자는 사이트, 인 앱 등 고객과 연결되는 모든 곳에서 전반적인 고객 경험을 최적화하는 업무를 그 어느 때보다도 많이 맡고 있습니다. 데이터 사일로와 복잡한 구현이 포함된 여러 툴을 사용해도 이런 과제가 줄어들지 않습니다.
 
-이 기록된 웨비나에서 Adobe Target 제품 전문가들은 중요한 환경 최적화 결정을 디바이스에서 대기 시간 없이 로컬로 실행하기 위해 이동함으로써 고객의 사이트 성능을 향상시키는 동시에 흥미로운 새로운 사용 사례를 어떻게 활용할 수 있는지에 대해 설명합니다.
+이 녹화된 웨비나에서 Adobe Target 제품 전문가들은 중요한 경험 최적화 결정을 디바이스에서 대기 시간 없이 로컬로 실행하기 위해 이동함으로써 고객의 사이트 성능을 향상시키는 동시에 흥미로운 새로운 사용 사례를 어떻게 활용할 수 있는지에 대해 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
@@ -201,5 +201,5 @@ Adobe 및 HSBC의 다음 웨비나에 가입하십시오.
 
 * **[여기서 웨비나 녹화 보기](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
 
-2021년 3월 31일에 mbox.js 사용이 중단됨에 따라, Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 진행하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 설명했습니다.
+2021년 3월 31일에 mbox.js 사용이 중단됨에 따라 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 진행하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 설명했습니다.
 
