@@ -1,17 +1,18 @@
 ---
-keywords: aem;experience manager;adobe experience manager;통합;통합;경험 구성요소
-description: Target/Experience Manager 통합을 사용하는 방법을 알아봅니다.
-title: 통합 방법 [!DNL Target] Adobe Experience Manager (AEM)과 함께 사용할 수 있습니까?
+keywords: aem;experience manager;adobe experience manager;통합;통합 기능;경험 조각
+description: Target/Experience Manager 통합 기능을 사용하는 방법을 알아봅니다.
+title: ' [!DNL Target] 을 Adobe Experience Manager(AEM)와 통합하려면 어떻게 합니까?'
 feature: Integrations
-source-git-commit: b70eb1fcff00657c22e044d3ffdf86cf6f2e104e
-workflow-type: tm+mt
+exl-id: bff6d9da-8b1e-4458-8d5c-0a34e570e15a
+source-git-commit: 77536ccf74c54b33e1cfeab7e71f7ade48484bba
+workflow-type: ht
 source-wordcount: '56'
-ht-degree: 0%
+ht-degree: 100%
 
 ---
 
-# 통합 [!DNL Target] with [!DNL Adobe Experience Manager] (AEM)
+# [!DNL Target]을 [!DNL Adobe Experience Manager](AEM)와 통합
 
-다음 [!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM) 통합을 사용하면 AEM에서 만든 경험 조각을 사용할 수 있습니다. [!DNL Target] 최적화 또는 개인화를 지원하기 위한 활동.
+[!DNL Adobe Target]/[!DNL Adobe Experience Manager](AEM) 통합을 통해 [!DNL Target] 활동의 AEM에서 생성된 경험 조각을 사용하여 최적화 또는 개인화를 지원할 수 있습니다.
 
-자세한 내용은 [AEM 경험 구성요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+자세한 내용은 [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)을 참조하십시오 .
