@@ -11,8 +11,8 @@ ht-degree: 100%
 
 ---
 
-# [!DNL Target]을 [!DNL Adobe Experience Manager](AEM)와 통합
+# [!DNL Target]을 [!DNL Adobe Experience Manager] (AEM)와 통합
 
-[!DNL Adobe Target]/[!DNL Adobe Experience Manager](AEM) 통합을 통해 [!DNL Target] 활동의 AEM에서 생성된 경험 조각을 사용하여 최적화 또는 개인화를 지원할 수 있습니다.
+[!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM) 통합을 통해 [!DNL Target] 활동의 AEM에서 생성된 경험 조각을 사용하여 최적화 또는 개인화를 지원할 수 있습니다.
 
 자세한 내용은 [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)을 참조하십시오 .
