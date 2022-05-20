@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
+source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 100%
+source-wordcount: '664'
+ht-degree: 99%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
 * **5월 11일**: 아시아 태평양(APAC) 지역
-* **5월 12일**: 북미(NA) 지역
+* **5월 12일**: 아메리카 지역
 * **5월 13일**: 유럽, 중동 및 아프리카(EMEA) 지역
 
 이번 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
