@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
 workflow-type: tm+mt
-source-wordcount: '461'
-ht-degree: 99%
+source-wordcount: '485'
+ht-degree: 95%
 
 ---
 
@@ -15,9 +15,14 @@ ht-degree: 99%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트 날짜: 2022년 5월 9일**
+**마지막 업데이트 날짜: 2022년 5월 23일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+
+## at.js 버전 2.9.0(2022년 5월 25일)
+
+* 사용자 에이전트 클라이언트 힌트 지원이 추가되었습니다.
+* 동일한 페이지의 여러 mbox 요청에 다른 노출 ID가 있는 버그를 수정했습니다.
 
 ## [!DNL Target Standard/Premium] 22.5.1(순차적 공개, 2022년 5월 11~13일)
 
