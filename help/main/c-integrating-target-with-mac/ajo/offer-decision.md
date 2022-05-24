@@ -2,9 +2,9 @@
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;오퍼 결정;offer decisioning;ajo;여정 최적화 프로그램
 description: 에서 만든 오퍼 결정을 추가하는 방법을 알아봅니다 [!DNL Adobe Journey Optimizer] 활동에 대한 업데이트입니다.
 title: 오퍼 결정을 사용하려면 어떻게 해야 합니까?
-feature: Visual Experience Composer (VEC)
+feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: d68f35017ba4354704df12668cdb4f800cc2feaa
+source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
 workflow-type: tm+mt
 source-wordcount: '995'
 ht-degree: 1%
