@@ -5,9 +5,9 @@ title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '4390'
+source-wordcount: '4414'
 ht-degree: 88%
 
 ---
@@ -22,9 +22,14 @@ ht-degree: 88%
 >
 >의 태그 [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Adobe Experience Platform] 카탈로그가 업그레이드로 제공됩니다. 자세한 내용은 [확장 업그레이드](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 에서 *태그 개요* 안내서.
 
+## at.js 버전 2.9.0(2022년 5월 27일)
+
+* 추가됨 [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원.
+* 동일한 페이지의 여러 mbox 요청에 다른 노출 ID가 있는 버그를 수정했습니다.
+
 ## at.js 버전 2.8.1 (2022년 1월 28일)
 
-* `pageLoad`가 [!UICONTROL 온디바이스 의사 결정](ODD) 하이브리드 실행 모드에서 target-global-mbox에 매핑되지 않는 문제가 해결되었습니다.
+* `pageLoad`가 [!UICONTROL 온디바이스 의사 결정] (ODD) 하이브리드 실행 모드에서 target-global-mbox에 매핑되지 않는 문제가 해결되었습니다.
 * mbox 요청에 대한 분석 세부 정보 관련 문제가 해결되었습니다.
 * 보안 취약성을 해결하기 위해 개발 종속성이 업그레이드되었습니다.
 
@@ -453,7 +458,7 @@ at.js 버전 1.6.3에는 다음의 수정 사항과 개선 사항이 포함되�
 
 * 서비스의 자체 시간 제한 시간과는 별개인 방문자 ID 서비스에 대한 시간 제한을 at.js에 제공합니다.
 * 일부 페이지에서는 at.js를 사용하고 다른 페이지에서는 mbox.js(이제 사용되지 않음)를 사용하여 구현에 영향을 미치던 0.9.0의 문제를 수정합니다.
-* Adobe Analytics를 활동의 보고 소스로 사용하는 경우, mbox.js 버전 61 이상 또는 at.js 버전 0.9.1 이상을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
+* Adobe Analytics를 활동의 보고 소스로 사용하는 경우, mbox.js 버전 61 이상 또는 at.js 버전 0.9.1 이상을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 생성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
 
 ## at.js 버전 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 

@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b7258ae154ae2b354e70349d8d878a1338128417
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '4041'
-ht-degree: 99%
+source-wordcount: '4097'
+ht-degree: 98%
 
 ---
 
@@ -19,12 +19,16 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 5월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | Target 플랫폼 릴리스(2022년 5월 25일) 및 at.js 2.9.0 릴리스(2022년 5월 27일)에 대한 정보가 추가되었습니다. |
+|  | [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
+|  | [사용자 에이전트 및 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | 새 주제입니다. |
+|  | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나를 녹화하기 위한 링크가 추가되었습니다. 딕의 스포츠 상품: 소매점의 개인화 및 변화하는 가로(2022년 5월 19일) |
 | 5월 23일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | at.js 버전 2.9.0에 대한 사전 릴리스 노트가 추가되었습니다(2022년 5월 25일). |
 | 5월 11일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나에 대한 정보 및 등록 링크가 추가되었습니다.<ul><li>Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경</li><li>Adobe: 개인화 산업 내부자 - 금융 서비스 및 보험</li><li>City National Bank: 디지털 최적화에서 상위 1%를 달성하는 방법</li><li>Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target]</li><li>City National Bank: Zero to Hero - 개인화 프로그램 시작 및 확장</li><li>Adobe: 영향력이 큰 최적화 기회 발견</li><li>Adobe: 개인화 산업 내부자 - 소매</li></ul>다음 웨비나에 대한 녹화가 추가되었습니다.<ul><li>[!DNL Adobe Target]을 사용한 실시간 개인 설정</li></ul> |
 |  | [콘텐츠 보안 정책(CSP) 지침](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | FAQ 섹션이 추가되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 및 Target 플랫폼(2022년 5월 11~13일) 릴리스에 대한 정보가 추가되었습니다. |
 
-## Adobe Target Standard/Premium 22.4.1(4월 28일)
+## Adobe Target Standard/Premium 22.4.1 (4월 28일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -33,7 +37,7 @@ ht-degree: 99%
 |  | [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동은 시간 경과에 따른 트렌드 변화를 고려하기 위해 테스트 과정에서 전환 확인 창을 조정할 수 있습니까?</li><li>당첨 경험이 방문자가 활동 자격 조건을 충족할 때 표시되는 것과 다른 경우 [!UICONTROL 자동 할당]은 재방문 사용자에게 우승 경험을 표시합니까?</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 및 Target 플랫폼(2022년 4월 27일) 릴리스에 대한 정보가 추가되었습니다. |
 
-## Adobe Target Standard/Premium 22.3.1(4월 5일)
+## Adobe Target Standard/Premium 22.3.1 (4월 5일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |

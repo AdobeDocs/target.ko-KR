@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 99%
+source-wordcount: '723'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +17,18 @@ ht-degree: 99%
 이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## Target 플랫폼 릴리스(2022년 5월 25일)
+
+이번 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+
+* 추가됨 [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원.
+* 렌더링 시 간헐적으로 시간 초과가 발생하는 문제를 해결했습니다. [!UICONTROL 오퍼 결정] in [!UICONTROL 경험 타깃팅] (XT) 활동. (TNT-44611)
+
+## at.js 버전 2.9.0(2022년 5월 27일)
+
+* 추가됨 [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원.
+* 동일한 페이지의 여러 mbox 요청에 다른 노출 ID가 있는 버그를 수정했습니다.
 
 ## [!DNL Target Standard/Premium] 22.5.1(순차적 공개, 2022년 5월 11~13일)
 

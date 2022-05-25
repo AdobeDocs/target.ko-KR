@@ -4,9 +4,10 @@ description: 방법 알아보기 [!DNL Adobe Target] 은 사용자 에이전트 
 title: 사용자 에이전트 및 클라이언트 힌트
 feature: at.js
 role: Developer
-source-git-commit: 2527608fc781913024d5d6ffee49aff9eb6c2f42
+exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1332'
 ht-degree: 3%
 
 ---
@@ -14,6 +15,11 @@ ht-degree: 3%
 # 사용자 에이전트 및 클라이언트 힌트
 
 [!DNL Adobe Target] 사용자 에이전트를 사용하여 방문자의 세그먼테이션 및 개인화에 대한 자격을 부여합니다.
+
+>[!NOTE]
+>
+>이 문서의 정보는 [at.js 버전 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) (또는 이상).
+
 
 웹 브라우저가 서버에 요청을 할 때마다, 요청 헤더에 포함된 는 브라우저와 브라우저가 실행되는 환경에 대한 정보입니다. 인터넷 초기 이후 이 데이터는 사용자-에이전트라는 단일 문자열로 집계되었습니다.
 
@@ -158,11 +164,13 @@ Target에서 다음 사용 사례에는 클라이언트 힌트가 필요합니�
 
 #### Sec-CH-UA-Arch
 
-엔트로피: 높은 설명서: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} 대상 특성: 프로필 스크립트 사용: `user.clientHint('sec-ch-ua-arch')`
+엔트로피: 높은 설명서: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Arch){target=_blank} 대상 특성: 프로필 스크립트를 통해 사용자에게 노출됩니다.
+프로필 스크립트 사용: `user.clientHint('sec-ch-ua-arch')`
 
 #### Sec-CH-UA-Bitness
 
-엔트로피: 높은 설명서: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} 대상 특성: 프로필 스크립트 사용: `user.clientHint('sec-ch-ua-bitness')`
+엔트로피: 높은 설명서: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness){target=_blank} 대상 특성: 프로필 스크립트를 통해 사용자에게 노출됩니다.
+프로필 스크립트 사용: `user.clientHint('sec-ch-ua-bitness')`
 
 #### Sec-CH-UA-Full-Version-List
 
@@ -182,7 +190,8 @@ Target에서 다음 사용 사례에는 클라이언트 힌트가 필요합니�
 
 #### Sec-CH-UA-Platform-Version
 
-엔트로피: 높은 설명서: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} 대상 특성: 프로필 스크립트 사용: `user.clientHint('sec-ch-ua-platform-version')`
+엔트로피: 높은 설명서: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform-Version){target=_blank} 대상 특성: 프로필 스크립트를 통해 사용자에게 노출됩니다.
+프로필 스크립트 사용: `user.clientHint('sec-ch-ua-platform-version')`
 
 ## 클라이언트 힌트를 로 전달하는 방법 [!DNL Adobe Target]
 
@@ -197,15 +206,3 @@ at.js 2.9.0부터 사용자 에이전트 클라이언트 힌트는 브라우저�
 ### 서버측 SDK
 
 서버측 SDK를 통해 클라이언트 힌트를 전달하는 방법에 대한 자세한 내용은 [클라이언트 힌트](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints)의 {target=_blank} *Adobe Target SDK* 설명서.
-
-
-
-
-
-
-
-
-
-
-
-
