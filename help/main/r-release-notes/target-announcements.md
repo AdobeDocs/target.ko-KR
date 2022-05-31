@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -23,11 +23,11 @@ ht-degree: 98%
 
 규모에 맞게 개인화 프로그램을 확장하는 모범 사례에 대해 알아보십시오. Dick &#39;s Sporting Goods가 [!DNL Adobe Target]을 사용하여 최고의 운동 선수와 브랜드를 참여시키는 방법을 확인하십시오.
 
-* [기록 링크](https://video.tv.adobe.com/v/343042){target=_blank}
+* [녹화 링크](https://video.tv.adobe.com/v/343042){target=_blank}
 
 +++여기 클릭
 
-Shawn Wilkinson(eCommerce Personalization Manager)에 참여하여 방법을 알아보십시오. [!DNL Target] 딕이 스포츠 용품에서 일반인을 재방문 운동자로 바꾸는 것을 돕고 있다.
+[!DNL Target]이 Dick&#39;s Sporting Goods를 통해 일반 방문객을 재방문 선수로 만드는 데 어떻게 도움이 되는지 배우려면 Shawn Wilkinson(전자 상거래 개인화 관리자)과 함께 하십시오.
 
 Dick&#39;s Sporting Goods가 어떻게 두 자릿수 성장을 이끌고 있는지 알아보십시오.
 
@@ -63,7 +63,7 @@ Dick&#39;s Sporting Goods가 어떻게 두 자릿수 성장을 이끌고 있는�
 
 City National Bank가 어떻게 가장 정교한 “디지털 지원 관계 은행” 중 하나가 되었는지 알아보려면 Heather Adkins(SVP 마케팅 기술 관리자)와 함께하십시오.
 
-City National Bank가 [!DNL Target]을 활용하여 다음을 수행하는 방법에 대해 알아보십시오.
+City National Bank가 [!DNL Target]을 활용하여 다음 작업을 수행하는 방법에 대해 알아보십시오.
 
 * 규모 테스트 및 실험, 개인화 및 AI 자동화 활동
 * 진정한 관계를 발전시키기 위해 크로스 채널을 통해 성공적인 경험을 구현하십시오.

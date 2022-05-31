@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 90%
+ht-degree: 100%
 
 ---
 
@@ -19,19 +19,19 @@ ht-degree: 90%
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## Target 플랫폼 릴리스(2022년 5월 25일)
+## Target 플랫폼 릴리스 (2022년 5월 25일)
 
-이번 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 추가됨 [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원.
-* 렌더링 시 간헐적으로 시간 초과가 발생하는 문제를 해결했습니다. [!UICONTROL 오퍼 결정] in [!UICONTROL 경험 타깃팅] (XT) 활동. (TNT-44611)
+* [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원이 추가되었습니다.
+* [!UICONTROL Experience Targeting](XT) 활동에서 [!UICONTROL 오퍼 의사 결정]을 렌더링할 때 간헐적으로 시간 초과가 발생하는 문제가 해결되었습니다. (TNT-44611)
 
 ## at.js 버전 2.9.0(2022년 5월 27일)
 
-* 추가됨 [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원.
-* 동일한 페이지의 여러 mbox 요청에 다른 노출 ID가 있는 버그를 수정했습니다.
+* [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원이 추가되었습니다.
+* 동일한 페이지의 여러 mbox 요청에 서로 다른 노출 ID가 있는 버그가 수정되었습니다.
 
-## [!DNL Target Standard/Premium] 22.5.1(순차적 공개, 2022년 5월 11~13일)
+## [!DNL Target Standard/Premium] 22.5.1 (순차적 공개, 2022년 5월 11~13일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
@@ -39,7 +39,7 @@ ht-degree: 90%
 * **5월 12일**: 아메리카 지역
 * **5월 13일**: 유럽, 중동 및 아프리카(EMEA) 지역
 
-이번 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
 * JavaScript 오류의 원인이며 일부 고객이 특정 [!UICONTROL Automated Personalization] (AP) 활동에 대한 활동 세부 정보에 액세스하지 못하도록 하는 문제가 해결되었습니다. (TGT-43526)
 * 일부 고객이 AP 활동에 특정 제안을 추가(또는 편집)하지 못하도록 하는 문제가 해결되었습니다. (TGT-43503)
@@ -58,4 +58,4 @@ ht-degree: 90%
 
 [!DNL Target] 및 기타 [!DNL Adobe Experience Cloud] 솔루션의 향후 제품 개선 사항에 대한 사전 알림을 받으려면 [!DNL Adobe Priority Product Update]에 등록하십시오.
 
-[https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/kr/subscription/priority-product-update.html)
+[https://www.adobe.com/kr/subscription/priority-product-update.html](https://www.adobe.com/kr/subscription/priority-product-update.html)

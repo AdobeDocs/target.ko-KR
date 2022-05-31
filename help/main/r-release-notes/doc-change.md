@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '4097'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -22,8 +22,8 @@ ht-degree: 98%
 | 5월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | Target 플랫폼 릴리스(2022년 5월 25일) 및 at.js 2.9.0 릴리스(2022년 5월 27일)에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [사용자 에이전트 및 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) | 새 주제입니다. |
-|  | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나를 녹화하기 위한 링크가 추가되었습니다. 딕의 스포츠 상품: 소매점의 개인화 및 변화하는 가로(2022년 5월 19일) |
-| 5월 23일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | at.js 버전 2.9.0에 대한 사전 릴리스 노트가 추가되었습니다(2022년 5월 25일). |
+|  | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나 녹화를 위한 링크 추가: Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경(2022년 5월 19일) |
+| 5월 23일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | at.js 버전 2.9.0에 대한 프리릴리스 정보가 추가되었습니다(2022년 5월 25일). |
 | 5월 11일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나에 대한 정보 및 등록 링크가 추가되었습니다.<ul><li>Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경</li><li>Adobe: 개인화 산업 내부자 - 금융 서비스 및 보험</li><li>City National Bank: 디지털 최적화에서 상위 1%를 달성하는 방법</li><li>Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target]</li><li>City National Bank: Zero to Hero - 개인화 프로그램 시작 및 확장</li><li>Adobe: 영향력이 큰 최적화 기회 발견</li><li>Adobe: 개인화 산업 내부자 - 소매</li></ul>다음 웨비나에 대한 녹화가 추가되었습니다.<ul><li>[!DNL Adobe Target]을 사용한 실시간 개인 설정</li></ul> |
 |  | [콘텐츠 보안 정책(CSP) 지침](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | FAQ 섹션이 추가되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 및 Target 플랫폼(2022년 5월 11~13일) 릴리스에 대한 정보가 추가되었습니다. |
@@ -124,7 +124,7 @@ ht-degree: 98%
 | 10월 6일 | [Target에서 대상 작성 [!DNL Target]](/help/main/c-target/c-audiences/create-audience.md) | [!DNL Target] [!UICONTROL 대상] UI를 반영하도록 텍스트 및 이미지가 업데이트되었습니다. [!UICONTROL 대상] 항목 전체 내용이 유사하게 변경되었습니다. |
 |  | [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md) | 다음 섹션이 업데이트되었습니다.<ul><li>기본 정보</li><li>데이터 소스</li></ul> |
 |  | [사용자 지정 기준 업로드](/help/main/c-recommendations/c-algorithms/recommendations-csv.md) | 새로운 워크플로를 반영하도록 지침이 업데이트되었습니다. |
-|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.10.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.10.1 | 이번 릴리스에는 개선 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## [!DNL Adobe Target Standard/Premium] 21.9.1 (2021년 9월 14일)
 
@@ -142,7 +142,7 @@ ht-degree: 98%
 |  | [mbox3rdPartyId에 대한 실시간 프로필 동기화](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | “고려 사항” 섹션이 새 정보로 업데이트되었습니다. |
 |  | [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | “secureOnly” 섹션이 업데이트되었습니다. |
 |  | [at.js 자주 묻는 질문](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#section_74527E3B41B54B0A83F217C3E664ED1F) | 다음 FAQ가 업데이트되었습니다. “at.js가 항상 HttpOnly 및 Secure 쿠키 플래그를 사용하지 않는 이유는 무엇입니까?” |
-| 9월 14일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.9.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+| 9월 14일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.9.1 | 이번 릴리스에는 개선 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.8.1 (2021년 8월 10일)
 
@@ -157,7 +157,7 @@ ht-degree: 98%
 | 8월 16일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md)<br>및<br>[at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.6.1에 대한 릴리스 정보가 추가되었습니다. |
 |  | [온디바이스 의사 결정](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | “모범 사례” 섹션이 추가되었습니다. |
 | 8월 11일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] node.js SDK 버전 2.2.0에 대한 릴리스 정보가 추가되었습니다. |
-| 8월 10일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.8.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+| 8월 10일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.8.1 | 이번 릴리스에는 개선 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (2021년 6월 30일)
 
@@ -191,7 +191,7 @@ ht-degree: 98%
 |  | [adobe.target.getOffers() - at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | `consumerId` 키에 대한 설명이 업데이트되었습니다. |
 |  | [글로벌 mbox 사용자 지정](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | 새 mbox를 선택한 후 변경 사항이 자동으로 저장됨을 표시하도록 1단계가 업데이트되었습니다. |
 |  | Experience Cloud Device Co-op | 항목이 제거되었습니다. 이 기능은 더 이상 사용되지 않습니다. |
-| 6월 30일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.6.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+| 6월 30일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.6.1 | 이번 릴리스에는 개선 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.5.1 (2021년 6월 8일)
 
@@ -210,7 +210,7 @@ ht-degree: 98%
 | 6월 8일 | [at.js로 타겟 (A4T) 에 대한 분석을 구현하기 전](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상의 버전은 [!DNL Adobe Audience Manager] (AAM) 매개변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않는 점을 참고하십시오. |
 |  | [환경](/help/main/administrating-target/environments.md) | [!UICONTROL 활성 및 비활성 활동]을 지정하는 경우, 이 환경에서의 호스트도 비활성 활동을 표시하는 점을 참고하십시오. |
 |  | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.</li></ul> |
-| 6월 7일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.5.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+| 6월 7일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.5.1 | 이번 릴리스에는 개선 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (2021년 4월 19일)
 
@@ -250,7 +250,7 @@ ht-degree: 98%
 |  | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | [at.js 2.5.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)와 함께 [!UICONTROL Automated Personalization] 활동에 대한 링크 미리보기 지원이 추가되었습니다. |
 |  | [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | 다음 연산자에 대한 정보가 추가되었습니다.<ul><li>Is Contained In List</li><li> Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul> |
 |  | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=ko-KR)<br>(*Experience Cloud 서비스 및 관리* 안내서) | &quot;session ID&quot;에 대한 추가 정보가 추가되었습니다. |
-|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.4.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.4.1 | 이번 릴리스에는 개선 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.2.1 (2021년 3월 9일)
 
@@ -272,7 +272,7 @@ ht-degree: 98%
 | 3월 9일 | [제한](/help/main/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>허용 가능한 오퍼 크기 제한을 업데이트했습니다.</li><li>categoryId 매개변수에 대한 문자 제한을 수정했습니다.</li></ul> |
 |  | [Target 에지 노드를 허용 목록에 추가](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | [!DNL Target] 에지 IP 주소를 업데이트했습니다. |
 |  | [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md) | entity.value가 십진수 형식이어야 함을 나타내는 텍스트를 추가했습니다(예: 15,99가 아니라 15.99). |
-|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.2.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.2.1 | 이번 릴리스에는 개선 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.1.1 (2021년 1월 19일)
 
@@ -295,4 +295,4 @@ ht-degree: 98%
 | 1월 19일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | Target 21.1.1 릴리스(2021년 1월 19일)에 대한 정보가 추가되었습니다. |
 |  | [제한](/help/main/r-troubleshooting-target/target-limits.md) | `productPurchasedID` 매개변수에 대한 텍스트가 업데이트되었습니다. |
 |  | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md) | 활성 프로모션을 사용하여 [!UICONTROL 권장 사항] 활동을 복사할 때 알려진 문제가 추가되었습니다. 중복 활동의 변경 사항은 원래 활동에도 영향을 미치며, 그 반대의 경우도 마찬가지입니다. 임시 해결 방법이 포함되었습니다. |
-|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.1.1 | 이번 릴리스에는 개선 사항 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
+|  | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.1.1 | 이번 릴리스에는 개선 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |
