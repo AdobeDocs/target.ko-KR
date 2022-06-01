@@ -4,7 +4,7 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a40aba388ae89079f6977082fd77c7670618a4e1
+source-git-commit: 6826a9e434ba9d8a2f1a8a56b5ca053445aac1fc
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 88%
