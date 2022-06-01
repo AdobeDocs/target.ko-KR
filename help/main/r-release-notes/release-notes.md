@@ -23,7 +23,7 @@ ht-degree: 100%
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
 * [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원이 추가되었습니다.
-* [!UICONTROL Experience Targeting](XT) 활동에서 [!UICONTROL 오퍼 의사 결정]을 렌더링할 때 간헐적으로 시간 초과가 발생하는 문제가 해결되었습니다. (TNT-44611)
+* [!UICONTROL Experience Targeting] (XT) 활동에서 [!UICONTROL 오퍼 의사 결정]을 렌더링할 때 간헐적으로 시간 초과가 발생하는 문제가 해결되었습니다. (TNT-44611)
 
 ## at.js 버전 2.9.0(2022년 5월 27일)
 
