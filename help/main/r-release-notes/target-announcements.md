@@ -7,28 +7,28 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 6826a9e434ba9d8a2f1a8a56b5ca053445aac1fc
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 88%
+ht-degree: 99%
 
 ---
 
 # Target 알림 및 이벤트
 
-예정된 공지 및 정보 [!DNL Adobe Target] 이벤트, [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] Skill Builder 세션, 개발자 채팅 등 사용 가능한 경우 이전 레코딩에 대한 링크가 포함됩니다.
+[!DNL Target] Coffee Break 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하여 예정된 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
 ## Adobe Target 커뮤니티 커피 브레이크 (2022년 6월 29일)
 
 +++여기 클릭
 
 * **2022년 6월 29일 수요일**
-* **오전 8시~9시 (PDT, UTC-7)**
+* **오전 8시 ~ 9시 (PDT, UTC-7)**
 * **[추가 정보 및 등록 정보](https://adobe.ly/3wKhcQS){target=_blank}**
 
-Dell은 Jordan Ison, Kati McKinney, Justine Lee, 그리고 Kaela Cusack과 함께 Adobe 솔루션 컨설팅 팀의 전문 분야에 관해 여러분과 직접 이야기합니다. 또한 Precision의 6/2/22 개인화 동안 다루는 주제와 관련된 모든 질문에 답변합니다. Adobe Analytics 및 Target 웨비나(아래 추가 정보):
+Adobe Solutions Consulting 팀의 Jordan Ison, Kati McKinney, Justine Lee 및 Kaela Cusack과 함께 각자의 전문 분야에 대해 직접 이야기를 나눌 예정입니다. 이들은 또한 2022년 6월 2일 Personalization with Precision: Adobe Analytics &amp; Target 웨비나(추가 정보는 아래 참조)에서 다룬 주제와 관련된 질문에도 답변해 드릴 예정입니다.
 
 * 마케터, 개발자 및 제품 팀이 AI의 “블랙박스”를 열어 향후 테스트 및 개인화 전략을 추진하는 방법
-* 높은 전환율과 참여를 위해 웹, 모바일 앱, 이메일, IoT 및 각 디지털 접점을 최적화하는 과정에서 발생하는 문제를 해결하는 방법
-* 개인화, 타깃팅 및 테스트를 위한 Adobe Analytics 및 Adobe Target 워크플로우
-* 사용 사례를 이해하여 방문자 행동을 예측하는 특성과 주요 시각화 및 세그멘테이션 분석에 가장 중요한 특성을 잠금 해제할 수 있습니다
+* 웹, 모바일 앱, 이메일, IoT 및 각 디지털 접점을 최적화하여 전환율과 참여도를 높이는 문제를 극복하는 방법
+* 개인화, 타기팅 및 테스트를 위한 Adobe Analytics 및 Adobe Target 워크플로
+* 방문자 행동을 예측하는 속성과 주요 시각화 및 세분화 분석에 가장 중요한 속성을 잠금 해제하는 사용 사례에 대한 이해
 
 +++
 
@@ -102,7 +102,7 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 
 ## 과거 웨비나 및 스킬 빌더 세션 녹화
 
-이전 이벤트 기록 액세스:
+이전 이벤트의 녹화분 액세스:
 
 ### Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경(2022년 5월 19일)
 
@@ -181,7 +181,7 @@ City National Bank가 [!DNL Target]을 활용하여 다음 작업을 수행하�
 
 ### 웨비나: HSBC가 Adobe [!DNL Target] 과 AI를 활용하여 규모에 맞게 신속하게 개인화를 최적화하고 제공하는 방법
 
-* **[기록 링크](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **[녹화 링크](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 +++여기 클릭
 
@@ -202,5 +202,5 @@ Adobe 및 HSBC의 다음 웨비나에 가입하십시오.
 
 2021년 3월 31일에 mbox.js 사용이 중단됨에 따라 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 진행하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 설명했습니다.
 
-* **[기록 링크](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+* **[녹화 링크](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
 
