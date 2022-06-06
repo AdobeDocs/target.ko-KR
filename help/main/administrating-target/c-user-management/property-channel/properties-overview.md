@@ -5,10 +5,10 @@ title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 63%
+source-wordcount: '1437'
+ht-degree: 67%
 
 ---
 
@@ -162,13 +162,13 @@ ht-degree: 63%
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
-1. Admin Console에서 **[!UICONTROL 제품]**&#x200B;을 클릭한 다음, 원하는 제품의 이름을 선택합니다.
+1. Admin Console에서 **[!UICONTROL 제품]**&#x200B;을 클릭한 다음 원하는 제품의 이름을 선택합니다.
 
    ![작업 공간](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
 1. 원하는 프로필의 이름(예: 기본 작업 공간)을 클릭합니다.
 
-   ![기본 작업 공간](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+   ![기본 작업 영역](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
 1. **[!UICONTROL 사용자를 클릭합니다]**.
 
@@ -183,11 +183,11 @@ ht-degree: 63%
    | 역할 | 설명 |
    |--- |--- |
    | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
-   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. 라이브 활동에서 대상을 편집할 수 있습니다. |
    | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-   | 게시자 | 관찰자 역할과 유사합니다(활동은 볼 수 있지만 만들거나 편집할 수 없음). 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
+   | 게시자 | 관찰자 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음)과 유사합니다. 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
-   자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제공 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
+   자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제품 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
 
 ## 교육 비디오
 
@@ -195,7 +195,7 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->다음 [!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전 [!UICONTROL 설정])은 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 재설계되었습니다. 다음 비디오의 정보는 일반적으로 정확합니다. 그러나 옵션은 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오가 곧 게시됩니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전명: [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보는 일반적으로 정확합니다. 그러나 옵션은 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오는 곧 게시될 예정입니다.
 
 ### Adobe Target 작업 공간을 구성하는 방법(6:55) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

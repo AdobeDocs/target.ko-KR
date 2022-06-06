@@ -5,10 +5,10 @@ title: 사용자를 추가하고 권한을 관리하려면 어떻게 해야 합�
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '911'
-ht-degree: 100%
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 99%
 
 ---
 
@@ -98,7 +98,7 @@ Adobe Admin Console에서 수행되는 작업의 경우 다음 단계에 따라 
    | 역할 | 설명 |
    |--- |--- |
    | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
-   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+   | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. 라이브 활동에서 대상을 편집할 수 있습니다. |
    | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
    | 게시자 | 관찰자 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음)과 유사합니다. 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
