@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 99%
+ht-degree: 98%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 99%
 | 2월 25일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 타기팅](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [자동 할당 보고서 해석](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 새 FAQ 추가:<ul><li>[!UICONTROL 보고 소스로서의 Analytics] (A4T)를 사용하는 [!UICONTROL 자동 할당] 활동에 “우승자 없음”, “우승자” 및 “별” 배지를 사용할 수 있습니까?</li></ul> |
 |  | [활동 전용 대상 만들기](/help/main/c-target/creating-activity-only-audience.md) | 제외 규칙에 대해 논의하는 “고려 사항” 섹션에 정보가 추가되었습니다. |
-| 2월 10일 | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>VEC(시각적 경험 작성기)가 서비스 작업자를 통해 웹 사이트 로드</li></ul> |
+| 2월 10일 | [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | VEC(시각적 경험 작성기)에서 서비스 작업자를 사용하여 웹 사이트를 로드하는 방법에 대한 정보가 추가되었습니다. |
 | 2월 7일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 2월 23일)</li></ul> |
 | 2월 3일 | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 새 섹션 및 비디오 추가됨: “비디오: Real-Time CDP 및 [!DNL Adobe Target]을 사용하여 다음 히트 개인화” |
 | 2월 2일 | [콘텐츠 전달 문제 해결](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 다음 섹션 추가됨: “[!DNL Target] 프로필 속성 값이 예상대로 작동하지 않음에서 큰따옴표 이스케이프” |

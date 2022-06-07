@@ -4,10 +4,10 @@ description: 일부 웹 사이트가 VEC(시각적 경험 작성기)에서 안�
 title: VEC(시각적 경험 작성기) Helper 확장을 사용하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 54%
+source-wordcount: '1011'
+ht-degree: 64%
 
 ---
 
@@ -25,6 +25,16 @@ ht-degree: 54%
 * 웹 사이트가 iframe으로 되어 있습니다.
 * at.js 라이브러리가 아직 웹 사이트에서 구현되지 않았습니다.
 * 고객의 QA 및/또는 스테이지 사이트를 외부 세계(사이트가 내부적임)에서 사용할 수 없습니다.
+* VEC를 사용하여 [서비스 작업자](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank}(SW)를 사용하는 웹 사이트를 열고자 하는 경우 현재 몇 가지 제한 사항이 있습니다.
+
+SW는 웹 페이지에서 설치된 도메인에 대한 요청을 가로채는 데 사용할 수 있는 웹 기술입니다. SW는 페이지 방문 후에도 유지되며 이후 방문 시 자동으로 활성화됩니다. SW가 처리할 요청 및 이전되어 캐시에서 대신 처리될 요청을 구분합니다.
+
+SW는 캐싱을 제어할 수 있으며 웹 페이지 자체, JS, CSS, IMG, AJAX 요청과 같은 정적 리소스, 해당 콘텐츠 및 [Target VEC Helper 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)에서 제거를 시도하는 헤더(예: X-Frame-Options: SAMEORIGIN, CSP(콘텐츠 보안 정책) 또는 쿠키 설정)를 포함하는 응답 헤더를 캐시할 수 있습니다.
+
+웹 요청을 가로채는 Chrome 확장 API에서 SW가 가로채고 처리한 요청을 수신하지는 않습니다. X-Frame-Options 또는 CSP 헤더도 캐시되었으므로 웹 페이지 요청이 SW에 의해 캐시에서 제공된 경우 확장 프로그램에서 헤더와 쿠키를 수정할 수 없습니다.
+
+잠재적인 해결 방법으로 Chrome 개발자 도구 > 애플리케이션 탭에서 서비스 작업자를 비활성화한 다음 서비스 작업자 섹션에서 “네트워크 우회” 확인란을 활성화할 수 있습니다.
+
 * 향상된 SameSite 쿠키 적용 정책에 Google Chrome 80+를 사용하고 있습니다. 자세한 내용은 [최근에 발표된 Google Chrome SameSite 쿠키 적용 정책은 VEC 및 EEC에 어떻게 영향을 줍니까](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
 Chrome용 VEC Helper 브라우저 확장 프로그램은 고객이 현재 [!DNL Target] [향상된 경험 작성기](/help/main/administrating-target/visual-experience-composer-set-up.md#eec) 또는 Requestly와 같은 타사 확장.
