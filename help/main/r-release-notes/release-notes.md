@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 100%
+source-wordcount: '837'
+ht-degree: 89%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 100%
 이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 고객 엔지니어링 수정 사항(시차 릴리스: (2022년 6월 7-9일)
+
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
+
+* **6월 7일**: 아시아 태평양(APAC) 지역
+* **6월 8일**: 아메리카 지역
+* **6월 9일**: 유럽, 중동 및 아프리카(EMEA) 지역
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* 을 사용하는 사용자 [!UICONTROL 편집자] 역할은 라이브 활동에서 더 이상 대상을 편집할 수 없습니다. (TGT-43582)
+* 새로운 [!UICONTROL 대상] 대상이 과거에 저장된 이전 데이터베이스와 백엔드에서 직접 정보를 검색하는 새 아키텍처 간의 불일치 상태를 방지하기 위한 페이지입니다. (TGT-43552)
+* 일부 고객이 Target UI에서 &quot;빈&quot; 컨테이너를 만들면서 발생한 결합된 대상을 저장할 수 없는 문제가 해결되었습니다. (TGT-43588)
 
 ## Target 플랫폼 릴리스 (2022년 5월 25일)
 
