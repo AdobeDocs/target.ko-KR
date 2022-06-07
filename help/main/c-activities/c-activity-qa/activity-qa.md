@@ -4,10 +4,10 @@ description: Adobe 사용 방법 알아보기 [!DNL Target] 변경되지 않는 
 title: 활동을 QA하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 37%
+source-wordcount: '1800'
+ht-degree: 38%
 
 ---
 
@@ -93,6 +93,7 @@ ht-degree: 37%
    | `adobe_mc_sdid` |  |  | 를 [!DNL Supplemental Data Id] (SDID) 및 [!DNL Experience Cloud Org Id] 기본 페이지에서 새 페이지로 이동합니다. 다음 ID를 전달하여 허용 [!UICONTROL Target 분석] (A4T)를 사용하여 [!DNL Target] 를 사용하여 기본 페이지에서 요청 [!DNL Analytics] 새 페이지에 요청합니다. |
 
 * 다음 [!UICONTROL Target QA 모드] UI는 다중 페이지 활동에 경험의 첫 번째 URL만 표시합니다. 여정 테스트를 만들고 URL1에서 URL2로 이동한다고 가정합니다. 그러나 URL2로 이동하려는 경우 URL1에 대해 제공된 모든 URL 매개 변수를 복사하여 URL1에 표시된 대로 &quot;?&quot;를 지정한 후 URL2에 적용합니다.
+* 계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 활동 QA 미리보기 링크가 로드되지 않을 수 있습니다. 미리보기 링크를 다시 시도하십시오. 이 문제가 계속 발생하는 것을 방지하기 위해 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오.
 
 ## Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성 {#compatibility}
 
