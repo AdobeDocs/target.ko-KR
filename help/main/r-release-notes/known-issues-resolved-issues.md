@@ -4,9 +4,9 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
+source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
 workflow-type: tm+mt
-source-wordcount: '4507'
+source-wordcount: '4506'
 ht-degree: 98%
 
 ---
@@ -90,15 +90,6 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 다음은 at.js의 알려진 문제입니다.
 
-* Adobe Analytics 코드가 페이지 요소(예: 버튼)에 없는 경우 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 Analytics for Target (A4T) 에서 전환을 보고하지 않습니다. at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. 이 문제가 발생하는 경우 [최신 at.js 버전으로 업그레이드하십시오](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-* at.js 2.1.1 이하 버전(예: 기본 경험)을 사용하여 수정 없이 경험을 생성하는 경우 보고서, Analytics for Target (A4T), Adobe Analytics 또는 Google Analytics에서 경험이 계산되지 않을 수 있습니다. 또한 ttMeta 플러그인 이 제대로 작동하지 않을 수 있습니다.
-
-   해결 방법으로 경험 콘텐츠에 공백을 사용하십시오. (TNT-33366)
-
-   >[!NOTE]
-   >
-   >이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다. [최신 버전 또는 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 로 업그레이드하거나 2.2.0 이하 버전의 at.js에 대해서만 위에 언급된 해결 방법을 사용하십시오.
-
 * 페이지가 VEC(시각적 경험 작성기)에 로드되면 Target은 글로벌 mbox 설정이 활성화되었는지와, 사용자가 VEC에서 권장 사항을 적용하려고 하는 위치에 entityID 또는 categoryID가 있는지를 확인해야 합니다. 이 정보에 따라 기준 목록이 필터링됩니다. 기본 목록에는 필터링된 알고리즘이 있지만 [호환 확인란](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md) 을 사용하여 전체 알고리즘 목록을 볼 수 있습니다.
 
    at.js를 사용하는 경우 호환성 확인란이 숨겨지므로 호환되지 않는 알고리즘을 볼 수 없습니다.
@@ -137,6 +128,18 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 위의 알려진 문제가 해결되면 다음 섹션으로 이동합니다. 필요한 경우 추가 참고 사항이 추가됩니다.
+
+### at.js
+
+* at.js 2.1.1 이하 버전(예: 기본 경험)을 사용하여 수정 없이 경험을 생성하는 경우 보고서, Analytics for Target (A4T), Adobe Analytics 또는 Google Analytics에서 경험이 계산되지 않을 수 있습니다. 또한 ttMeta 플러그인 이 제대로 작동하지 않을 수 있습니다.
+
+   해결 방법으로 경험 콘텐츠에 공백을 사용하십시오.
+
+   이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다. [최신 버전 또는 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 로 업그레이드하거나 2.2.0 이하 버전의 at.js에 대해서만 위에 언급된 해결 방법을 사용하십시오.  (TNT-33366)
+
+* 2.2.0 이전 버전의 at.js를 사용하는 경우 클릭 추적은 의 전환을 보고하지 않습니다 [!UICONTROL Target 분석] (A4T) [!DNL Adobe Analytics] 페이지 요소(예: 단추)에 코드가 없습니다.
+
+   at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. 이 문제가 발생하는 경우 [최신 at.js 버전으로 업그레이드하십시오](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### 지역 타기팅
 
