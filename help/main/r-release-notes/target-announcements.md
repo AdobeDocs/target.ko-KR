@@ -5,7 +5,7 @@ title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 100%
 
@@ -36,7 +36,7 @@ Adobe Solutions Consulting 팀의 Jordan Ison, Kati McKinney, Justine Lee 및 Ka
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Adobe Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
-### Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target] (2022년 6월 2일)
+### Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target](2022년 6월 2일)
 
 머신 러닝 모델과 데이터 인사이트가 마케터, 개발자 및 제품 소유자에게 중요한 개인화된 경험을 통해 소비자를 참여시킬 수 있는 새로운 기회를 열어줌에 따라 인공 지능이 어떻게 소비자의 기대치를 계속해서 재정의하는지 알아보십시오. 개인화, 타기팅 및 테스트를 위한 [!DNL Adobe Analytics] + [!DNL Adobe Target] 워크플로를 단계별로 살펴보십시오.
 
