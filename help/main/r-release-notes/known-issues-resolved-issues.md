@@ -5,9 +5,9 @@ title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 �
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -127,7 +127,7 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-위의 알려진 문제가 해결되면 다음 섹션으로 이동합니다. 필요한 경우 추가 참고 사항이 추가됩니다.
+위의 알려진 문제가 해결되면 다음 섹션으로 이동됩니다. 필요한 경우 추가 참고 사항이 추가됩니다.
 
 ### at.js
 
@@ -135,9 +135,9 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
    해결 방법으로 경험 콘텐츠에 공백을 사용하십시오.
 
-   이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다. [최신 버전 또는 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 로 업그레이드하거나 2.2.0 이하 버전의 at.js에 대해서만 위에 언급된 해결 방법을 사용하십시오.  (TNT-33366)
+   이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다. [최신 버전 또는 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 로 업그레이드하거나 2.2.0 이하 버전의 at.js에 대해서만 위에 언급된 해결 방법을 사용하십시오. (TNT-33366)
 
-* 2.2.0 이전 버전의 at.js를 사용하는 경우 클릭 추적은 의 전환을 보고하지 않습니다 [!UICONTROL Target 분석] (A4T) [!DNL Adobe Analytics] 페이지 요소(예: 단추)에 코드가 없습니다.
+* [!DNL Adobe Analytics] 코드가 페이지 요소(예: 버튼)에 없는 경우 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 [!UICONTROL Analytics for Target](A4T)에서 전환을 보고하지 않습니다.
 
    at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. 이 문제가 발생하는 경우 [최신 at.js 버전으로 업그레이드하십시오](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -145,11 +145,11 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
 2020년 5월 10일 Adobe는 GEO 공급자 파일을 업데이트했고, 그로 인해 일부 불일치가 발생했습니다. 예를 들어 쉼표를 포함하는 일부 값이 추가되었지만 기존 대상에는 쉼표가 없습니다. 모든 Adobe 전달 서버가 이 변경의 영향을 받는 것은 아닙니다. 그 결과, 이러한 값을 사용하는 대상은 2020년 5월 10일에서 7월 22일 사이에 모든 올바른 방문자가 자격을 얻지 못했을 수 있습니다.
 
-### 복사 [!UICONTROL Recommendations] 활동
+### [!UICONTROL 권장 사항] 활동 복사
 
-복사 시 [!UICONTROL Recommendations] 활성 프로모션이 있는 활동에서는 현재 중복 활동의 모든 변경 사항이 원래 활동에도 영향을 주고, 반대로 활성 프로모션이 적용된 활동입니다. (TGT-39155)
+현재 진행 중인 프로모션과 함께 [!UICONTROL 권장 사항] 활동을 복사할 때 중복 활동의 변경 사항은 원래 활동에도 영향을 미치며, 이와 반대도 마찬가지입니다. (TGT-39155)
 
-이 문제는 [!DNL Target Standard/Premium] 21.2.1 릴리스.
+이 문제는 [!DNL Target Standard/Premium] 21.2.1 릴리스에서 수정되었습니다.
 
 ### 권장 사항 활동을 위한 QA 모드
 
@@ -224,7 +224,7 @@ A4T 와 관련된 다음과 같은 문제가 해결되었습니다.
 * 대상: 방문자 수준 전환을 위한 &quot;모든 적격 방문자&quot;는 매번 증가하는 것이 아니라 한 번만 잘못 증가합니다. 이는 예상되는 비헤이비어가 아닙니다.
 * 대상: 방문자 수준 전환을 위한 &quot;새로운 방문자&quot;는 매번 증가합니다. 이는 예상되는 비헤이비어입니다.
 
-이 문제는 [!DNL Target] 보고에만 관련됩니다. A4T( [!UICONTROL Aalytics for Target] ) 보고를 사용할 때는 문제가 되지 않습니다.
+이 문제는 [!DNL Target] 보고에만 관련됩니다. A4T([!UICONTROL Analytics for Target]) 보고를 사용할 때는 문제가 되지 않습니다.
 
 이 문제가 해결되었습니다.
 
@@ -261,7 +261,7 @@ GET API를 사용하여 오퍼 목록을 가져오는 경우 오퍼 라이브러
 * Target 구현에서 서로 다른 서버를 사용합니다.
 * 보고서에 극단적인 주문이 제외되지 않았습니다.
 * 전환 지표를 사용하여 활동을 측정했습니다.
-* Target 활동에서는 A4T(Aalytics for Target)를 사용합니다.
+* Target 활동에서는 A4T(Analytics for Target)를 사용합니다.
 * APAC(아시아 태평양) 지역에 위치하고 있습니다.
 
 이 문제가 Target 보고에 영향을 미쳤는지 확인하려면 [클라이언트 관리](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)에 문의하십시오.
