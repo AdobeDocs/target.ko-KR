@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
-workflow-type: ht
-source-wordcount: '837'
-ht-degree: 100%
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+workflow-type: tm+mt
+source-wordcount: '834'
+ht-degree: 99%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 고객 엔지니어링 수정 (순차적 공개: 2022년 6월 7-9일)
+## [!DNL Target Standard/Premium] 22.6.1(시차 릴리스: (2022년 6월 7-9일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
