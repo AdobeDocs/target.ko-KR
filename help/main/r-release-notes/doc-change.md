@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 6월 7일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 릴리스 노트가 추가되었습니다. [!DNL Target Standard/Premium] 고객 엔지니어링 수정 릴리스. |
-| 6월 6일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 고객 엔지니어링 수정 릴리스. |
+| 6월 7일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 고객 엔지니어링 개선 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+| 6월 6일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 고객 엔지니어링 개선 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 5월 31일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 예정된 [!DNL Adobe Target] 커뮤니티 Coffee Break(2022년 6월 29일)에 대한 정보가 추가되었습니다. |
 | 5월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] 플랫폼 릴리스(2022년 5월 25일) 및 at.js 2.9.0 릴리스(2022년 5월 27일)에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
@@ -70,7 +70,7 @@ ht-degree: 99%
 | 2월 25일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 타기팅](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [자동 할당 보고서 해석](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 새 FAQ 추가:<ul><li>[!UICONTROL 보고 소스로서의 Analytics] (A4T)를 사용하는 [!UICONTROL 자동 할당] 활동에 “우승자 없음”, “우승자” 및 “별” 배지를 사용할 수 있습니까?</li></ul> |
 |  | [활동 전용 대상 만들기](/help/main/c-target/creating-activity-only-audience.md) | 제외 규칙에 대해 논의하는 “고려 사항” 섹션에 정보가 추가되었습니다. |
-| 2월 10일 | [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | VEC(시각적 경험 작성기)에서 서비스 작업자를 사용하여 웹 사이트를 로드하는 방법에 대한 정보가 추가되었습니다. |
+| 2월 10일 | [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | VEC(시각적 경험 작성기)에서 서비스 작업자를 통해 웹 사이트를 로드하는 방법에 대한 정보가 추가되었습니다. |
 | 2월 7일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 2월 23일)</li></ul> |
 | 2월 3일 | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 새 섹션 및 비디오 추가됨: “비디오: Real-Time CDP 및 [!DNL Adobe Target]을 사용하여 다음 히트 개인화” |
 | 2월 2일 | [콘텐츠 전달 문제 해결](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 다음 섹션 추가됨: “[!DNL Target] 프로필 속성 값이 예상대로 작동하지 않음에서 큰따옴표 이스케이프” |
@@ -210,7 +210,7 @@ ht-degree: 99%
 | 6월 24일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 21.6.1 릴리스(2021년 6월 30일)에 대한 프리릴리스 정보가 업데이트되었습니다. |
 | 6월 16일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Adobe Target] Python SDK 버전 1.0.0 릴리스에 대한 추가 정보입니다. |
 |  | [개인화 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] 모델에 대한 데이터는 얼마나 지속됩니까?</li></ul> |
-| 6월 8일 | [at.js로 타겟 (A4T) 에 대한 분석을 구현하기 전](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상의 버전은 [!DNL Adobe Audience Manager] (AAM) 매개변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않는 점을 참고하십시오. |
+| 6월 8일 | [at.js로 Analytics for Target(A4T)을 구현하기 전](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | at.js 1.8.0 이상의 버전은 [!DNL Adobe Audience Manager] (AAM) 매개변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않는 점을 참고하십시오. |
 |  | [환경](/help/main/administrating-target/environments.md) | [!UICONTROL 활성 및 비활성 활동]을 지정하는 경우, 이 환경에서의 호스트도 비활성 활동을 표시하는 점을 참고하십시오. |
 |  | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md) | 다음 알려진 문제가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.</li></ul> |
 | 6월 7일 | [릴리스 정보](/help/main/r-release-notes/release-notes.md): 21.5.1 | 이번 릴리스에는 개선 및 수정 사항이 포함되어 있습니다. 릴리스 정보에서 해당 사항을 읽어 보고 링크를 클릭하여 설명서를 확인할 수 있습니다. 또한 이번 릴리스에는 도움말 전체의 여러 문서 업데이트 내용도 포함되어 있습니다. |

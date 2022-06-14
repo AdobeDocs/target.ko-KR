@@ -1,5 +1,5 @@
 ---
-keywords: Target;홈;자주 찾는 항목;Adobe Target;Standard;Premium;Target 설명서;Adobe Target 설명서;홈
+keywords: Target;홈;자주 찾는 항목;Adobe Target Standard;Target Premium;Target 설명서;Adobe Target 설명서;홈
 title: ' [!DNL Target] 설명서는 어디에서 찾을 수 있습니까?'
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
