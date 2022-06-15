@@ -137,7 +137,7 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
    이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다. [최신 버전 또는 at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 로 업그레이드하거나 2.2.0 이하 버전의 at.js에 대해서만 위에 언급된 해결 방법을 사용하십시오. (TNT-33366)
 
-* [!DNL Adobe Analytics] 코드가 페이지 요소(예: 버튼)에 없는 경우 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 [!UICONTROL Analytics for Target](A4T)에서 전환을 보고하지 않습니다.
+* [!DNL Adobe Analytics] 코드가 페이지 요소(예: 버튼)에 없는 경우 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 [!UICONTROL Analytics for Target] (A4T)에서 전환을 보고하지 않습니다.
 
    at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. 이 문제가 발생하는 경우 [최신 at.js 버전으로 업그레이드하십시오](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
