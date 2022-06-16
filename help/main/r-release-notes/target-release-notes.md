@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
+source-git-commit: c9032a8c537a7618b92996c042688a84ea9649c2
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 98%
+source-wordcount: '203'
+ht-degree: 69%
 
 ---
 
@@ -15,23 +15,17 @@ ht-degree: 98%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2022년 6월 7일**
+**마지막 업데이트: 2022년 6월 16일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Target Standard/Premium] 22.6.1(시차 릴리스: (2022년 6월 7-9일)
-
-이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
-
-* **6월 7일**: 아시아 태평양(APAC) 지역
-* **6월 8일**: 아메리카 지역
-* **6월 9일**: 유럽, 중동 및 아프리카(EMEA) 지역
+## [!DNL Target Standard/Premium] 22.6.2(2022년 6월 24일)
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* [!UICONTROL 편집자] 역할이 있는 사용자는 더 이상 라이브 활동에서 대상을 편집할 수 없습니다. (TGT-43582)
-* 대상이 과거에 저장된 이전 데이터베이스와 백엔드에서 직접 정보를 검색하는 새 아키텍처 사이의 불일치 상태를 방지하기 위해 새 [!UICONTROL 대상] 페이지에 대한 개선 사항이 제공되었습니다. (TGT-43552)
-* 대상 UI가 “빈” 컨테이너를 생성하여 일부 고객이 통합 대상을 저장하지 못하는 문제가 해결되었습니다. (TGT-43588)
+* 에서 공유한 고객 속성 [!DNL Adobe Experience Platform] to [!DNL Target] 에서 [!DNL Platform] UI는 [!DNL Target] UI. (TGT-43150)
+* 고객이 느낌표( ! )로 대상을 저장하려고 하면 경고 메시지가 표시됩니다. )을 대상 이름의 첫 번째 문자(예: 런던)로 지정합니다. (TGT-43643)
+* 일부 고객에 대한 대상 정의 세부 사항 카드가 종료된 활동이 여전히 라이브임을 나타내도록 하는 문제가 해결되었습니다. (TGT-43527)
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
