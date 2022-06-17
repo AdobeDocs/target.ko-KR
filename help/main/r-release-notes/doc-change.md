@@ -20,13 +20,13 @@ ht-degree: 99%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 14월 6일 | [추천 계획 및 구현](/help/main/c-recommendations/plan-implement.md) | 다음 섹션에서 코드 샘플을 업데이트했습니다.<ul><li>장바구니 추가/장바구니 보기/체크아웃 페이지</li><li>방문자의 장바구니에 이미 있는 항목 제외</li></ul> |
-| 6월 7일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 릴리스 노트가 추가되었습니다. [!DNL Target Standard/Premium] 22.6.1 릴리스. |
+| 6월 7일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.5.1 (순차적 공개, 2022년 5월 11~13일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 6월 7일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 사전 릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 22.6.1 릴리스. |
+| 6월 7일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 5월 31일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 예정된 [!DNL Adobe Target] 커뮤니티 Coffee Break(2022년 6월 29일)에 대한 정보가 추가되었습니다. |
 | 5월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] 플랫폼 릴리스(2022년 5월 25일) 및 at.js 2.9.0 릴리스(2022년 5월 27일)에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
