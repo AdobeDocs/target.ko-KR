@@ -6,9 +6,9 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '503'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 99%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 22.6.1(시차 릴리스: (2022년 6월 7-9일)
+## [!DNL Target Standard/Premium] 22.6.1 (순차적 공개: 2022년 6월 7~9일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
