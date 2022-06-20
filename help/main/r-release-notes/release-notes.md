@@ -5,9 +5,9 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '489'
 ht-degree: 100%
 
 ---
@@ -28,7 +28,6 @@ ht-degree: 100%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* [!UICONTROL 편집자] 역할이 있는 사용자는 더 이상 라이브 활동에서 대상을 편집할 수 없습니다. (TGT-43582)
 * 대상이 과거에 저장된 이전 데이터베이스와 백엔드에서 직접 정보를 검색하는 새 아키텍처 사이의 불일치 상태를 방지하기 위해 새 [!UICONTROL 대상] 페이지에 대한 개선 사항이 제공되었습니다. (TGT-43552)
 * 대상 UI가 “빈” 컨테이너를 생성하여 일부 고객이 통합 대상을 저장하지 못하는 문제가 해결되었습니다. (TGT-43588)
 
