@@ -5,10 +5,10 @@ title: 로 데이터를 가져오려면 어떻게 해야 합니까? [!DNL Target
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 82%
+source-wordcount: '392'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,8 @@ API를 통해 .csv 파일을에 전송합니다 [!DNL Adobe Target] 방문자 �
 * 고객 속성은 FTP 업로드를 사용하는 반면, Target 벌크 프로필 업데이트 API는 HTTP POST API를 사용합니다.
 * 고객 속성 데이터는 Analytics과 공유할 수 있고, 벌크 프로필 업데이트는 Target에서만 사용할 수 있습니다.
 * 고객 속성은 Target이 아직 보지 못한 사용자에 대한 프로필 작성을 지원합니다. 벌크 프로필 업데이트 API는 기존 Target 프로필만 업데이트합니다.
-* 고객 속성에는 Experience Cloud ID(ECID)를 사용해야 합니다. 벌크 프로필 업데이트 API에는 TNT ID나 `mbox3rdPartyId`를 사용해야 합니다.
+* 고객 속성을 사용하려면 ECID(Experience Cloud ID)를 사용하고 CRM ID 또는 충성도 ID와 같은 소스 ID를 사용해야 합니다.
+* 벌크 프로필 업데이트 API에는 TNT ID나 `mbox3rdPartyId`를 사용해야 합니다.
 * `mbox3rdPartyID`에서 더하기 기호(+)와 슬래시(/)는 보낼 수 없습니다.
 
 ## 형식
