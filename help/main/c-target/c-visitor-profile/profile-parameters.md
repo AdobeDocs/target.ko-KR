@@ -4,7 +4,7 @@ description: 방문자의 프로필에 저장되어 Adobe [!DNL Target] 활동�
 title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
+source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 100%
@@ -245,7 +245,7 @@ else if (mbox.param("adobeQA"))
 | --- | --- |
 | `page.url` | 현재 URL입니다. |
 | `page.protocol` | 페이지에 사용된 프로토콜(http, https)입니다. |
-| `page.domain` | 현재 URL 도메인(첫 번째 슬래시 앞에 있는 모든 것)입니다. 예: `http://www.acme.com/categories/men_jeans?color=blu e&size=small`에서 `www.acme.com`. |
+| `page.domain` | 현재 URL 도메인(첫 번째 슬래시 앞에 있는 모든 것)입니다. 예: `http://www.acme.com/categories/men_jeans?color=blue&size=small`에서 `www.acme.com`. |
 | `page.query` | 현재 페이지에 대한 쿼리 문자열입니다. &#39;?&#39; 뒤에 있는 모든 것입니다. 예: `http://www.acme.com/categories/mens_jeans?color=blue&size=small`에서 `blue&size=small`. |
 | `page.param(‘<par_name>’)` | `<par_name>`으로 표시된 매개변수의 값입니다. 현재 URL이 Google의 검색 페이지이고 `page.param('hl')`을 입력한 경우, URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`에 대해 “en”이 표시됩니다. |
 | `page.referrer` | 위와 동일한 작업 세트가 레퍼러 및 랜딩에 적용됩니다. 즉, referrer.url은 레퍼러의 URL 주소입니다. |
