@@ -5,10 +5,10 @@ title: at.js는 플리커를 어떻게 관리합니까?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## at.js 2.x에서 triggerView()에 대한 플리커를 관리합니다
 
-`triggerView()`를 사용하여 SPA에서 타깃팅된 컨텐츠를 표시할 때 플리커(깜박임) 관리가 즉시 제공됩니다. 이것은 사전 숨김 로직을 수동으로 추가할 필요가 없음을 의미합니다. 대신 at.js 2.x에서는 타깃팅된 콘텐츠를 적용하기 전에 보기를 표시해야 하는 위치를 사전에 숨깁니다.
+DOM 사전 숨김은 초기 페이지 로드에만 적용됩니다. SPA의 경우 DOM은 `triggerView()` 가 호출됩니다. SPA에서 DOM으로 컨텐츠를 렌더링하는 시간과 at.js 업데이트 사이에 잠깐의 깜박임이 있을 수 있습니다 [!DNL Target] 오퍼.  깜박임을 최소화하기 위해 `triggerView` 페이지 로드 컨텐츠를 수정하려면 페이지가 렌더링되는 즉시 &#39;triggerView&#39;를 호출해야 합니다.
 
 ## getOffer() 및 applyOffer()를 사용하여 플리커 관리
 
