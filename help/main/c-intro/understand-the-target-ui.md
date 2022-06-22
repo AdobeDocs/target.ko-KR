@@ -4,10 +4,10 @@ description: 사용자 인터페이스를 숙지하고 더 심층적인 정보�
 title: ' [!DNL Target] UI는 어떻게 사용합니까?'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 46%
+source-wordcount: '1313'
+ht-degree: 45%
 
 ---
 
@@ -115,6 +115,11 @@ ht-degree: 46%
    * 나와 공유: 누군가 사용자와 객체를 공유할 때
    * 컨텐츠에 대한 업데이트: 사용자가 만들거나 따르는 개체에 대해 편집, 삭제 또는 주석을 수행할 때.
    * 기타:
+
+   >[!NOTE]
+   >
+   >&quot;새 릴리스&quot; 및 &quot;콘텐츠 업데이트&quot;는 다음에 적용되는 유일한 알림 카테고리입니다 [!DNL Target]. 다른 카테고리는 다른 Adobe 솔루션에 적용됩니다.
+
 
 1. 우선 순위로 간주할 카테고리를 선택합니다.
 1. 브라우저에 경고를 표시할 알림을 선택합니다.
