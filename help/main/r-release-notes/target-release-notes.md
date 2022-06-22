@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '217'
-ht-degree: 71%
+ht-degree: 100%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 71%
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Target Standard/Premium] 22.6.2(2022년 6월 24일)
+## [!DNL Target Standard/Premium] 22.6.2 (2022년 6월 24일)
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
 * [!UICONTROL 편집자] 역할이 있는 사용자는 더 이상 라이브 활동에서 대상을 편집할 수 없습니다. (TGT-43582)
-* 에서 공유한 고객 속성 [!DNL Adobe Experience Platform] to [!DNL Target] 에서 [!DNL Platform] UI는 [!DNL Target] UI. (TGT-43150)
-* 고객이 느낌표( ! )로 대상을 저장하려고 하면 경고 메시지가 표시됩니다. )을 대상 이름의 첫 번째 문자(예: 런던)로 지정합니다. (TGT-43643)
-* 일부 고객에 대한 대상 정의 세부 사항 카드가 종료된 활동이 여전히 라이브임을 나타내도록 하는 문제가 해결되었습니다. (TGT-43527)
+* [!DNL Platform] UI의 [!DNL Adobe Experience Platform]에서 [!DNL Target]까지 공유된 고객 속성은 [!DNL Target] UI에서 볼 수 있습니다. (TGT-43150)
+* 고객이 대상자 이름의 첫 문자로 느낌표( ! )를 사용하여 대상자를 저장하려고 하면 경고 메시지가 표시됩니다(예: !London). (TGT-43643)
+* 일부 고객의 대상 정의 세부 정보 카드에 종료된 활동이 아직 활성 상태로 나타나는 문제를 해결했습니다. (TGT-43527)
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

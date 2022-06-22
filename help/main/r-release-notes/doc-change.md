@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fd49060cc193ef07d9309ceb11373b8747902f5c
 workflow-type: tm+mt
 source-wordcount: '4167'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 99%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## Adobe Target Standard/Premium 22.6.1(시차 릴리스: (2022년 6월 7-9일)
+## Adobe Target Standard/Premium 22.6.1 (순차적 공개, 2022년 6월 7~9일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 14월 6일 | [추천 계획 및 구현](/help/main/c-recommendations/plan-implement.md) | 다음 섹션에서 코드 샘플을 업데이트했습니다.<ul><li>장바구니 추가/장바구니 보기/체크아웃 페이지</li><li>방문자의 장바구니에 이미 있는 항목 제외</li></ul> |
+| 6월 14일 | [추천 계획 및 구현](/help/main/c-recommendations/plan-implement.md) | 다음 섹션에서 코드 샘플을 업데이트했습니다.<ul><li>장바구니 추가/장바구니 보기/체크아웃 페이지</li><li>방문자 장바구니에 이미 있는 항목 제외</li></ul> |
 | 6월 7일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.5.1 (순차적 공개, 2022년 5월 11~13일)
