@@ -5,8 +5,8 @@ title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
-workflow-type: tm+mt
-source-wordcount: '2423'
+workflow-type: ht
+source-wordcount: '0'
 ht-degree: 100%
 
 ---
