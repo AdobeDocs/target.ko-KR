@@ -4,10 +4,10 @@ description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용�
 title: Target 문제를 해결하려면 어떻게 합니까?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '452'
-ht-degree: 100%
+source-wordcount: '515'
+ht-degree: 86%
 
 ---
 
@@ -98,7 +98,7 @@ ht-degree: 100%
 
 ## 글로벌 mbox
 
-* [글로벌 mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [글로벌 mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ## 호스트/환경
 
@@ -110,18 +110,18 @@ ht-degree: 100%
 
 ### 일반 구현
 
-* [지원되는 브라우저](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
-* [Target에서 클라우드 기반 인스턴스 사용](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
+* [지원되는 브라우저](https://developer.adobe.com/target/before-implement/supported-browsers/)
+* [Target에서 클라우드 기반 인스턴스 사용](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
 
 ### 글로벌 mbox
 
-* [글로벌 mbox FAQ](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
+* [글로벌 mbox FAQ](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
 
 ### at.js
 
-* [at.js FAQ](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
-* [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
-* [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
+* [at.js FAQ](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
+* [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
+* [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다.
 
 ## 알려진 문제
@@ -130,11 +130,7 @@ ht-degree: 100%
 
 ## 모바일 앱
 
-* [모바일 앱을 위한 Target FAQ](/help/main/c-target-mobile-app/target-for-mobile-apps-faq.md)
-
-## 온디바이스 의사 결정
-
-* [at.js에 대한 온디바이스 의사 결정 문제 해결](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [모바일 앱을 위한 Target FAQ](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
 
 ## 보고
 
@@ -143,11 +139,11 @@ ht-degree: 100%
 
 ## SEO(검색 엔진 최적화)
 
-* [SEO(검색 엔진 최적화) 친화도 테스트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [SEO(검색 엔진 최적화) 친화도 테스트](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
 ## 보안
 
-* [콘텐츠 보안 정책(CSP) 지침](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+* [콘텐츠 보안 정책(CSP) 지침](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
 
 ## 시스템 상태
 

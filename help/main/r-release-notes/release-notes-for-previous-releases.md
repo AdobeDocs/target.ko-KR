@@ -4,10 +4,10 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '33779'
-ht-degree: 99%
+source-wordcount: '34154'
+ht-degree: 98%
 
 ---
 
@@ -121,7 +121,7 @@ ht-degree: 99%
 
 ### at.js 버전 2.8.0 (2022년 1월 7일)
 
-이제 [!DNL Target] at.js JavaScript 라이브러리가 기능 사용 및 성능 원격 분석 데이터를 수집합니다. 개인 데이터는 수집되지 않습니다. 이 기능은 `targetGlobalSettings`에서 `telemetryEnabled`를 false로 설정하여 옵트아웃할 수 있습니다. 자세한 내용은 [telemetryEnabled in targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry)를 참조하십시오.
+이제 [!DNL Target] at.js JavaScript 라이브러리가 기능 사용 및 성능 원격 분석 데이터를 수집합니다. 개인 데이터는 수집되지 않습니다. 이 기능은 `targetGlobalSettings`에서 `telemetryEnabled`를 false로 설정하여 옵트아웃할 수 있습니다. 자세한 내용은 [telemetryEnabled in targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
 
 ## 릴리스 정보 - 2021
 
@@ -145,7 +145,7 @@ ht-degree: 99%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| 장바구니 기반 추천 | 방문자 장바구니의 콘텐츠를 기반으로 추천을 제공하는 새로운 알고리즘 제품군을 추가했습니다.<br>자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)의 “장바구니 기반”, [추천 계획 및 구현](/help/main/c-recommendations/plan-implement.md)의 “장바구니 추가/장바구니 보기/체크아웃 페이지“와 “방문자의 장바구니에 이미 있는 항목 제외“ 및 [추천 키를 기준으로 추천](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)의 “장바구니 기반”을 참조하십시오. |
+| 장바구니 기반 추천 | 방문자 장바구니의 콘텐츠를 기반으로 추천을 제공하는 새로운 알고리즘 제품군을 추가했습니다.<br>자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)의 “장바구니 기반”, [추천 계획 및 구현](https://developer.adobe.com/target/implement/recommendations/)의 “장바구니 추가/장바구니 보기/체크아웃 페이지“와 “방문자의 장바구니에 이미 있는 항목 제외“ 및 [추천 키를 기준으로 추천](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)의 “장바구니 기반”을 참조하십시오. |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (2021년 10월 19일)
 
@@ -260,7 +260,7 @@ ht-degree: 99%
 
 온 디바이스 결정 기능을 탑재한 새 [!DNL Adobe Target] Python SDK를 이제 이용할 수 있습니다. 이 최신 추가 기능은 서버측 SDK의 [!DNL Target] 제품군을 강화합니다. 이러한 SDK를 이용하면 [!DNL Target]과 통합할 수 있고 원하는 언어로 값까지 시간을 단축할 수 있습니다. 시장이 퍼스트파티 데이터가 귀중해지는 쿠키 없는 세상으로 전환하여 점점 더 많은 이들이 서버측 통합을 선택하고 있습니다. Target SDK는 시장에서 가장 인기 있는 프로그래밍 언어(Python, Java, JavaScript, C# / .Net)로 이용할 수 있습니다.
 
-자세한 내용은 [Adobe Target SDKs 안내서](https://adobetarget-sdks.gitbook.io/docs/)의 [Python SDK 설명서](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk)를 참조하십시오.
+자세한 내용은 [Python SDK 설명서](https://developer.adobe.com/target/implement/server-side/python/) 에서 [Adobe Target 개발자 안내서](https://developer.adobe.com/target/).
 
 ### Target Standard/Premium 21.5.1(2021년 6월 7일)
 
@@ -287,7 +287,7 @@ ht-degree: 99%
 
 이 at.js의 릴리스에는 다음과 같은 개선 사항 및 변경 사항이 포함되어 있습니다.
 
-* at.js에 대한 [온디바이스 의사 결정](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) 지원
+* at.js에 대한 [온디바이스 의사 결정](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) 지원
 * Automated Personalization 활동에 대한 [링크 미리보기](/help/main/c-activities/c-activity-qa/activity-qa.md) 지원
 
 또한 이번 릴리스에서는 Microsoft Internet Explorer 10, Internet Explorer 11, 그리고 그 이하 버전에 대한 지원이 제거되었습니다. Microsoft Edge는 at.js 2.5.0과 이후 버전에서 지속 지원됩니다.
@@ -298,7 +298,7 @@ ht-degree: 99%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| at.js<br>(발표될 날짜)에 대한 온디바이스 의사 결정 | 마케터와 개발자는 온디바이스 의사 결정을 통해 거의 0에 가까운 지연 시간에 사용자 브라우저에 대한 실험 및 개인화를 제공할 수 있습니다.<br>자세한 내용은 [at.js에 대한 온디바이스 의사 결정](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)을 참조하십시오. |
+| at.js<br>(발표될 날짜)에 대한 온디바이스 의사 결정 | 마케터와 개발자는 온디바이스 의사 결정을 통해 거의 0에 가까운 지연 시간에 사용자 브라우저에 대한 실험 및 개인화를 제공할 수 있습니다.<br>자세한 내용은 [at.js에 대한 온디바이스 의사 결정](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/)을 참조하십시오. |
 | ![Premium](/help/main/assets/premium.png) 법인 필터링 규칙에 대한 목록 기반 연산자 | [!DNL Target Recommendations]는 법인 필터링 규칙에 대한 새로운 목록 기반 연산자. (TGT-39234)<br>새로 추가된 연산자는 다음과 같습니다.<br><ul><li>Is Contained In List</li><li>Is Not Contained In List</li><li>List Contains An Item In</li><li>List Does Not Contain An Item In</li><li>List Contains All Items In</li><li>List Does Not Contain All Items In</li></ul>자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators)의 &quot;사용 가능한 연산자&quot;를 참조하십시오. |
 
 이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
@@ -372,7 +372,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [디바이스에서 의사 결정](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | 디바이스에서 의사 결정을 통해 마케터와 제품 개발자는 사용자 디바이스 내에서 채널 간에 거의 0에 가까운 지연 시간에 실험 및 머신 러닝 기반 개인화를 제공할 수 있습니다.<br>속도 및 성능 문제 - 고객 인사이트 및 사용자 만족도.<br>디바이스에서 의사 결정을 통해 A/B 테스트 및 Experience Targeting (XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 디바이스에 로드되는 &quot;최적화 아티팩트:&quot; JSON 개체로 컴파일할 수 있습니다. 또한 디바이스에서 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되기 때문에 [!DNL Target] 사용자는 빠른 분석과 빠른 경험 반복을 얻을 수 있습니다.<br>자세한 내용은 *[디바이스에서 의사 결정](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)을 참조하십시오. |
+| 온디바이스 의사 결정 | 디바이스에서 의사 결정을 통해 마케터와 제품 개발자는 사용자 디바이스 내에서 채널 간에 거의 0에 가까운 지연 시간에 실험 및 머신 러닝 기반 개인화를 제공할 수 있습니다.<br>속도 및 성능 문제 - 고객 인사이트 및 사용자 만족도.<br>디바이스에서 의사 결정을 통해 A/B 테스트 및 Experience Targeting (XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 디바이스에 로드되는 &quot;최적화 아티팩트:&quot; JSON 개체로 컴파일할 수 있습니다. 또한 디바이스에서 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되기 때문에 [!DNL Target] 사용자는 빠른 분석과 빠른 경험 반복을 얻을 수 있습니다.<br>자세한 내용은 *[at.js에 대한 On-Device Decisioning](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) 및 [On-Device Decisioning 소개](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/)서버측을 위한 {target=_blank}. |
 
 이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
@@ -483,8 +483,8 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| at.js 1.8.2 | at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.<ul><li>CNAME 및 에지 재정의 at.js 1을 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35064)</li></ul>자세한 내용은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오. |
-| at.js 2.3.1 | at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.<ul><li>[targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 통해 `deviceIdLifetime` 설정을 재정의할 수 있게 했습니다. (TNT-36349)</li><li>CNAME 및 에지 재정의 at.js 2를 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35065)</li><li>[!DNL Target] [!DNL Launch] 확장 v2 및 [!DNL Adobe Analytics] [!DNL Launch] 확장을 사용할 때 [!DNL Target] 이 [!DNL Analytics] `sendBeacon` 호출을 지연시키는 문제를 해결했습니다. (TNT-36407, TNT-35990, TNT-36000)</li></ul>자세한 내용은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오. |
+| at.js 1.8.2 | at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.<ul><li>CNAME 및 에지 재정의 at.js 1을 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35064)</li></ul>자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오. |
+| at.js 2.3.1 | at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.<ul><li>[targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 통해 `deviceIdLifetime` 설정을 재정의할 수 있게 했습니다. (TNT-36349)</li><li>CNAME 및 에지 재정의 at.js 2를 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35065)</li><li>[!DNL Target] [!DNL Launch] 확장 v2 및 [!DNL Adobe Analytics] [!DNL Launch] 확장을 사용할 때 [!DNL Target] 이 [!DNL Analytics] `sendBeacon` 호출을 지연시키는 문제를 해결했습니다. (TNT-36407, TNT-35990, TNT-36000)</li></ul>자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오. |
 
 ### Profile Batch Status API v2 변경(2020년 5월 4일)
 
@@ -578,7 +578,7 @@ Target at.js JavaScript 라이브러리의 다음 새 버전을 사용할 수 �
 * at.js 버전 2.3.0
 * at.js 버전 1.8.1
 
-자세한 내용은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오.
+자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오.
 
 ### Target Standard/Premium 20.2.1(2020년 3월 23일)
 
@@ -698,7 +698,7 @@ Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| at.js 버전 2.2<br>및<br>at.js 버전 1.8 | at.js의 이러한 버전은 다음을 제공합니다.<ul><li>웹 페이지에서 ECID(Environment Cloud ID Service) v4.4와 at.js 2.2 또는 at.js 1.8을 모두 사용할 때 성능이 향상되었습니다.</li><li>이전에는 at.js가 경험을 가져오기 전에 ECID가 두 번의 차단 호출을 했습니다. 이것이 한 번의 호출로 줄어들어 성능이 크게 향상되었습니다.</li></ul> 이러한 성능 향상을 활용하기 위해 ECID 라이브러리 v4.4.<br>at.js 2.2와 함께 at.js 2.2 또는 at.js 1.8로 업그레이드하면 다음과 같은 이점이 있습니다.<ul><li>**serverState**: Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있는 at.js v2.2+에서 사용할 수 있는 설정입니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 사용하고 있으며, 서버측에서 배달 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+에서 서버측에서 가져온 콘텐츠에서 직접 경험을 적용하고 서비스되는 페이지의 일부로 클라이언트에 반환할 수 있는 기능을 제공합니다.<br>자세한 내용은 [targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state)의 &quot;serverState&quot;를 참조하십시오.</li></ul> |
+| at.js 버전 2.2<br>및<br>at.js 버전 1.8 | at.js의 이러한 버전은 다음을 제공합니다.<ul><li>웹 페이지에서 ECID(Environment Cloud ID Service) v4.4와 at.js 2.2 또는 at.js 1.8을 모두 사용할 때 성능이 향상되었습니다.</li><li>이전에는 at.js가 경험을 가져오기 전에 ECID가 두 번의 차단 호출을 했습니다. 이것이 한 번의 호출로 줄어들어 성능이 크게 향상되었습니다.</li></ul> 이러한 성능 향상을 활용하기 위해 ECID 라이브러리 v4.4.<br>at.js 2.2와 함께 at.js 2.2 또는 at.js 1.8로 업그레이드하면 다음과 같은 이점이 있습니다.<ul><li>**serverState**: Target의 하이브리드 통합이 구현될 때 페이지 성능을 최적화하는 데 사용할 수 있는 at.js v2.2+에서 사용할 수 있는 설정입니다. 하이브리드 통합은 클라이언트측에서 at.js v2.2+를 사용하고 있으며, 서버측에서 배달 API 또는 Target SDK를 모두 사용하고 있음을 의미합니다. `serverState` 는 at.js v2.2+에서 서버측에서 가져온 콘텐츠에서 직접 경험을 적용하고 서비스되는 페이지의 일부로 클라이언트에 반환할 수 있는 기능을 제공합니다.<br>자세한 내용은 [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)의 &quot;serverState&quot;를 참조하십시오.</li></ul> |
 
 ### Target 플랫폼(2019년 10월 9일)
 
@@ -730,8 +730,8 @@ Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔
 | 기능/향상 | 설명 |
 | --- | --- |
 | ![Premium 배지](/help/main/assets/premium.png)<br>A/B 테스트 및 XT(경험 타기팅) 활동의 권장 사항 | 권장 사항 오퍼(알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 결과 준비됨, 결과가 준비되지 않음 및 피드 장애 상태가 있습니다. (TGT-33649)<br>오퍼로서의 [Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md#status)를 참조하십시오. |
-| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이번 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 사용해야 합니다.<br>at.js 2.x에서 [도메인 간 추적 지원](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain)을 참조하십시오. |
-| Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 소개했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 향후 ITP 릴리스를 완화할 수 있도록 Target의 JavaScript 라이브러리와 함께 [ECID library 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)를 배포하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>. [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)를 참조하십시오. |
+| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이번 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 사용해야 합니다.<br>at.js 2.x에서 [도메인 간 추적 지원](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오. |
+| Target에서 ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 소개했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 향후 ITP 릴리스를 완화할 수 있도록 Target의 JavaScript 라이브러리와 함께 [ECID library 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html)를 배포하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>. [Apple ITP(Intelligent Tracking Prevention) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/)를 참조하십시오. |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -757,7 +757,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 * 요청 페이로드가 쿼리 매개 변수 또는 요청 페이로드에 존재하지 않는 `mboxThirdPartyId` 함수를 사용하여 `targetPageParams`을 전달할 때 발생하는 문제를 해결했습니다. (TNT-32613)
 * Chromium 기반 브라우저(Google Chrome 포함)에서 디스플레이 및 클릭 알림 응답이 차단되는 문제를 해결했습니다. (TNT-32290)
 
-이 버전 및 이전 버전의 at.js에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오.
+이 버전 및 이전 버전의 at.js에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오.
 
 ### Target Standard/Premium 19.6.1(2019년 6월 26일) {#tgt-19-6-1-historical}
 
@@ -771,7 +771,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 | SPA VEC(Single Page App Visual Experience Composer) | **안내 워크플로**: 새로운 안내 워크플로를 통해 페이지 전달 규칙 설정을 실행하도록 구성하는 방법을 이해하고 단일 페이지 앱에 대한 활동을 성공적으로 실행할 수 있습니다. (TGT-33718)<br> [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)를 참조하십시오.<br>**복제 수정 사항**: 이제 SPA VEC를 사용하여 수정 사항을 정의한 다음, 단일 페이지 앱의 다른 보기에서 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)<br>. [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md)를 참조하십시오. |
 | ![프리미엄 배지](/help/main/assets/premium.png) AP (Automated Personalization) 및 자동 타겟 | **특정 환경을 제어로 사용**: AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 해당 경험의 제어 트래픽에 대해 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다. 현재 제어 옵션(임의로 제공된 경험)은 계속 사용할 수 있습니다. (TGT-32801, TGT-26572, TGT-26571)<br>. [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오. 이 기능에 대해 [현재 알려진 문제](/help/main/r-release-notes/known-issues-resolved-issues.md) 가 있습니다.<br>**개인화 인사이트 보고서**: 방문자가 특정 위치에서 특정 콘텐츠를 볼 때 마케터에게 친숙한 속성 이름 지정은 보다 의미 있는 정보를 제공합니다. (TGT-33421 및 TGT-34957)<br>. [Target의 개인화 알고리즘을 위한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. |
 | ![프리미엄 배지](/help/main/assets/premium.png) 권장 사항 | 최근에 본 항목 로직을 생성하는 동안 이전에 구입한 추천 항목 전환을 사용할 수 있습니다. (TGT-34030)<br>자세한 내용은 &quot;기준 만들기&quot;에서 [최근에 본 항목](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)을 참조하십시오. |
-| Google Chrome samesite 쿠키 정책 | Google은 최근에 Chrome 76(2019년 7월 30일 출시 예정)부터 웹 사이트에서 작동할 수 있는 쿠키와 사용자를 추적할 수 있는 쿠키를 개발자 명시적으로 지정해야 한다고 발표했습니다.<br>업계에서 소비자를 위해 보다 안전한 웹을 만들기 위해 노력함에 따라 Target은 방문자의 개인정보 보호 기대치를 충족시키는 동시에 개인화된 경험을 제공하기 위해 노력을 아끼지 않고 있습니다.<br>다음 [Google Chrome SameSite 쿠키 정책](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)을 참조하십시오. |
+| Google Chrome samesite 쿠키 정책 | Google은 최근에 Chrome 76(2019년 7월 30일 출시 예정)부터 웹 사이트에서 작동할 수 있는 쿠키와 사용자를 추적할 수 있는 쿠키를 개발자 명시적으로 지정해야 한다고 발표했습니다.<br>업계에서 소비자를 위해 보다 안전한 웹을 만들기 위해 노력함에 따라 Target은 방문자의 개인정보 보호 기대치를 충족시키는 동시에 개인화된 경험을 제공하기 위해 노력을 아끼지 않고 있습니다.<br>다음 [Google Chrome SameSite 쿠키 정책](https://developer.adobe.com/target/before-implement/privacy/google-chrome-samesite-cookie-policies/)을 참조하십시오. |
 
 ### at.js 버전 2.1.0(2019년 6월 3일) {#atjs-210}
 
@@ -779,10 +779,10 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| Adobe 옵트인 지원 | Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인정보 및 GDPR(일반 데이터 보호 규정)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)을 참조하십시오. |
+| Adobe 옵트인 지원 | Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인정보 및 GDPR(일반 데이터 보호 규정)](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)을 참조하십시오. |
 | 업계 표준의 CSP 규격 | at.js는 더 이상 eval()을 사용하여 JavaScript를 실행하지 않습니다. |
 | 클라이언트측 분석 로깅 | 클라이언트측이든 아니면 서버측이든 간에 분석 데이터를 Adobe Analytics에 전송하는 방법을 고객이 완벽하게 제어할 수 있도록 합니다.<br>자세한 내용은 [클라이언트측 분석](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 로깅을 *참조하십시오*. |
-| 알림 보내기 | 경험이 `applyOffer()` 또는 `applyOffers()` 대신 코드로 렌더링될 때 개발자가 알림을 전송할 수 있습니다.<br>자세한 내용은 [adobe.target.sendNotifications(options)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)를 참조하십시오. |
+| 알림 보내기 | 경험이 `applyOffer()` 또는 `applyOffers()` 대신 코드로 렌더링될 때 개발자가 알림을 전송할 수 있습니다.<br>자세한 내용은 [adobe.target.sendNotifications(options)](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-sendnotifications-atjs-21/)를 참조하십시오. |
 | 파일 크기 감소 | at.js의 크기가 24%까지 줄어들었습니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at.js 다운로드 시간이 줄어듭니다. |
 | at.js 설명서 업데이트 | at.js 2.1.0 릴리스로 인해 업데이트된 모든 문서의 전체 목록은 2019년 6월 3일 [문서 변경 사항](/help/main/r-release-notes/doc-change.md)의 항목을 참조하십시오. |
 
@@ -875,8 +875,8 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| at.js 버전 2.0.0<br>2019년 2월 19일 | 이제 at.js 2.x를 사용할 수 있습니다.<br>최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.<br>at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같은 몇 가지 이점이 있습니다.<ul><li>페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.</li><li>오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.</li><li>간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타기팅 (XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.</li></ul>at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>다음 함수는 at.js 2.x의 도입으로 더 이상 사용되지 않습니다.<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) 및 [at.js 함수](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.<br>**참고**: [일반 데이터 보호 규정](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)에 대한 Adobe 옵트인 지원이 필요한 경우, 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다. |
-| at.js 버전 1.7.0<br>2019년 2월 14일 | at.js 1.7.0을 사용할 수 있습니다.<br>이번 릴리스는 Adobe 옵트인을 지원합니다. Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인정보 보호 및 일반 데이터 보호 규정](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) (GDPR)을 참조하십시오.<br>또한 이번 릴리스에서는 Target이 리디렉션 URL에서 발생하는 매개 변수로 리디렉션 URL 매개 변수를 무시할 수 있는 문제를 수정합니다.<br>**참고**: GDPR에 대한 Adobe 옵트인 지원이 필요한 경우에는 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다.<br>모든 버전의 목록은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오. |
+| at.js 버전 2.0.0<br>2019년 2월 19일 | 이제 at.js 2.x를 사용할 수 있습니다.<br>최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.<br>at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같은 몇 가지 이점이 있습니다.<ul><li>페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.</li><li>오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.</li><li>간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타기팅 (XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.</li></ul>at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>다음 함수는 at.js 2.x의 도입으로 더 이상 사용되지 않습니다.<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 및 [at.js 함수](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)를 참조하십시오.<br>**참고**: [일반 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR)에 대한 Adobe 옵트인 지원이 필요한 경우, 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다. |
+| at.js 버전 1.7.0<br>2019년 2월 14일 | at.js 1.7.0을 사용할 수 있습니다.<br>이번 릴리스는 Adobe 옵트인을 지원합니다. Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인정보 보호 및 일반 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) (GDPR)을 참조하십시오.<br>또한 이번 릴리스에서는 Target이 리디렉션 URL에서 발생하는 매개 변수로 리디렉션 URL 매개 변수를 무시할 수 있는 문제를 수정합니다.<br>**참고**: GDPR에 대한 Adobe 옵트인 지원이 필요한 경우에는 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다.<br>모든 버전의 목록은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오. |
 
 ### [!DNL Target] Standard/Premium 19.2.1(2019년 2월 19일) {#target-19-2-1}
 
@@ -886,7 +886,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 단일 페이지 앱 시각적 경험 작성기 | SPA(단일 페이지 앱)에 대한 VEC(시각적 경험 작성기)를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같은 가장 인기 있는 프레임워크의 활동을 작성하는 데 사용할 수 있습니다. (TGT -27916)<br>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md) 및 [단일 페이지 애플리케이션 통합](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)을 참조하십시오.<br>위의 문서 외에도, 이 기능을 처리하는 SPA와 at.js 및 그 구현 방법과 관련된 항목이 많습니다. 자세한 내용은 [설명서 변경 내용](/help/main/r-release-notes/doc-change.md)을 참조하십시오. |
+| 단일 페이지 앱 시각적 경험 작성기 | SPA(단일 페이지 앱)에 대한 VEC(시각적 경험 작성기)를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같은 가장 인기 있는 프레임워크의 활동을 작성하는 데 사용할 수 있습니다. (TGT -27916)<br>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md) 및 [단일 페이지 애플리케이션 통합](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)을 참조하십시오.<br>위의 문서 외에도, 이 기능을 처리하는 SPA와 at.js 및 그 구현 방법과 관련된 항목이 많습니다. 자세한 내용은 [설명서 변경 내용](/help/main/r-release-notes/doc-change.md)을 참조하십시오. |
 | 시각적 경험 작성기 | 시각적 경험 작성기(VEC)에는 다음 개선 사항이 포함되어 있어 작업을 보다 빠르고 효율적으로 수행할 수 있습니다.<ul><li>이제 [AEM 경험 구성 요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)를 삽입하는 동안 VEC에서 다음 항목 앞에 삽입 및 다음 항목 뒤에 삽입 선택 사항을 사용할 수 있습니다. [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오. (TGT-32385)</li><li>Google Chrome용 [!DNL Adobe Target] VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다. [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 참조하십시오. (TGT-32746)</li></ul> |
 | ![Premium 배지](/help/main/assets/premium.png)<br>, [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타기팅] 활동의 권장 사항 | 이제 [!UICONTROL A/B 테스트] ([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]포함)와 [!UICONTROL 경험 타기팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다. 이에 따라 다음과 같이 완전히 새로운 기능을 사용할 수 있게 됩니다.<ul><li>동일한 활동에서 권장 사항 및 비권장 사항 콘텐츠를 테스트하고 타기팅할 수 있습니다.</li><li>권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다.</li><li>[!UICONTROL 자동 할당]을 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동 푸시할 수 있습니다.</li><li>[!UICONTROL 자동 타겟]을 사용하여 방문자를 개별 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.</li></ul>시작하려면 VEC를 사용하여 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타기팅] 활동을 만들고, [!UICONTROL 다음 항목 앞에 삽입], [!UICONTROL 다음 항목 뒤에 삽입] 또는 [!UICONTROL 다음으로 바꾸기] 작업을 사용하여 권장 사항을 경험에 추가하십시오. (RECS-6166)<br>자세한 내용은 [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
 | ![Premium 배지](/help/main/assets/premium.png)<br>Target API의 엔터프라이즈 권한 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. Automated Personalization (AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다.<br>**참고:** 이 기능과 관련하여 [알려진 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#api) 가 있습니다. |
@@ -912,7 +912,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 | 기능/향상 | 설명 |
 | --- | --- |
 | ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] API의 엔터프라이즈 권한 [!DNL Target] 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. Automated Personalization (AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
-| ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL 권장 사항]: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링 | 이제 선택한 환경(호스트 그룹)에 대한 [!UICONTROL 권장 사항] 컬렉션 및 제외 콘텐츠를 미리 볼 수 있습니다.<br/>이전에는, 컬렉션이나 제외를 볼 때, 들어 있는 것으로 표시된 항목이 기본 호스트 그룹([!UICONTROL 권장 사항 > 설정 > 기본 호스트 그룹]에 지정됨)에 대한 결과였습니다.<br/>이제, 컬렉션이나 제외를 만들거나 업데이트할 때 [!UICONTROL 환경] 선택기를 사용하여 결과를 미리 볼 환경을 선택할 수 있습니다. 따라서 컬렉션과 제외를 만들거나 편집하기 전에 적절한 기본 호스트 그룹을 선택하기 위해 더 이상 [!UICONTROL 설정] 페이지로 이동할 필요가 없으므로 새 [!UICONTROL 환경] 필터를 통해 시간과 노력을 절약할 수 있습니다.<br/>**참고:**  선택한 환경을 변경한 후 검색을 클릭하여 반환된 결과를 업데이트해야 합니다.<br/>새 [!UICONTROL 환경] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>[!UICONTROL 카탈로그 검색] ([!UICONTROL 권장 사항 > 카탈로그 검색])</li><li>[!UICONTROL 컬렉션 만들기] 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 새로 만들기])</li><li>[!UICONTROL 컬렉션 업데이트] 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 편집])</li><li>[!UICONTROL 제외 만들기] 대화 상자([!UICONTROL 권장 사항 > 제외 > 새로 만들기])</li><li>[!UICONTROL 제외 업데이트] 대화 상자([!UICONTROL 권장 사항 > 제외 > 편집])</li></ul><br>자세한 내용은 다음 주제를 참조하십시오.<uL><li>[컬렉션](/help/main/c-recommendations/c-products/collections.md)</li><li>[제외](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[설정](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)</li><li>[권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL 권장 사항]: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링 | 이제 선택한 환경(호스트 그룹)에 대한 [!UICONTROL 권장 사항] 컬렉션 및 제외 콘텐츠를 미리 볼 수 있습니다.<br/>이전에는, 컬렉션이나 제외를 볼 때, 들어 있는 것으로 표시된 항목이 기본 호스트 그룹([!UICONTROL 권장 사항 > 설정 > 기본 호스트 그룹]에 지정됨)에 대한 결과였습니다.<br/>이제, 컬렉션이나 제외를 만들거나 업데이트할 때 [!UICONTROL 환경] 선택기를 사용하여 결과를 미리 볼 환경을 선택할 수 있습니다. 따라서 컬렉션과 제외를 만들거나 편집하기 전에 적절한 기본 호스트 그룹을 선택하기 위해 더 이상 [!UICONTROL 설정] 페이지로 이동할 필요가 없으므로 새 [!UICONTROL 환경] 필터를 통해 시간과 노력을 절약할 수 있습니다.<br/>**참고:**  선택한 환경을 변경한 후 검색을 클릭하여 반환된 결과를 업데이트해야 합니다.<br/>새 [!UICONTROL 환경] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>[!UICONTROL 카탈로그 검색] ([!UICONTROL 권장 사항 > 카탈로그 검색])</li><li>[!UICONTROL 컬렉션 만들기] 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 새로 만들기])</li><li>[!UICONTROL 컬렉션 업데이트] 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 편집])</li><li>[!UICONTROL 제외 만들기] 대화 상자([!UICONTROL 권장 사항 > 제외 > 새로 만들기])</li><li>[!UICONTROL 제외 업데이트] 대화 상자([!UICONTROL 권장 사항 > 제외 > 편집])</li></ul><br>자세한 내용은 다음 주제를 참조하십시오.<uL><li>[컬렉션](/help/main/c-recommendations/c-products/collections.md)</li><li>[제외](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[설정](https://developer.adobe.com/target/implement/recommendations/)</li><li>[권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -938,7 +938,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
       <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>동일한 CSS 선택기에 적용되는 서로 다른 활동의 시각적 경험 작성기(VEC) 오퍼가 활동 우선순위를 준수하지 않는 at.js 1.6.2에서 발생하는 문제를 수정했습니다. (TNT-31052) </p> </li> 
       <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>약속에 대한 기본 지원이 없는 환경에서 약속 시간 제한 관련 문제를 해결했습니다. (TNT-30974) </p> </li> 
       <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>이제 콘텐츠 렌더링 실패 이벤트를 통해 문제가 올바로 캡처되고 보고됩니다. 이전에는 사실이 아님에도 불구하고 JavaScript가 성공적으로 실행된 것으로 보고되었습니다. (TNT-30599) </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항</a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/" format="dita" scope="local"> at.js 버전 세부 사항</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1231,7 +1231,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>지원되는 브라우저 </p> </td> 
-   <td colname="col2"> <p>Target UI 및 콘텐츠 배송에 대한 Microsoft Edge 지원이 추가되었습니다. </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. (TGT-14102) </p> </td> 
+   <td colname="col2"> <p>Target UI 및 콘텐츠 배송에 대한 Microsoft Edge 지원이 추가되었습니다. </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/before-implement/supported-browsers/" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. (TGT-14102) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>권장 사항 </p> </td> 
@@ -1374,7 +1374,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 이 [!DNL Target] 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* TLS(전송 계층 보안)는 네트워크를 통해 데이터를 안전하게 교환해야 하는 웹 브라우저 및 애플리케이션에서 현재 사용되는 가장 널리 배포된 보안 프로토콜입니다. Adobe는 이전 프로토콜의 서비스를 종료해야 하는 보안 준수 표준을 사용하며 최신 버전 및 보안 버전을 사용하기 위해 TLS 1.2의 사용을 권장합니다. Target 18.4.1 릴리스(2018년 4월 25일)부터 Adobe Target은 TLS 1.2 암호화의 진행을 위한 조치를 취하고, 2018년 9월 12일까지 TLS 1.0 암호화에 대한 지원을 단계적으로 완전히 중단합니다. 세부 사항을 살펴보고 원활한 전환을 위한 변경을 계획하는 것이 중요합니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](/help/main/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)을 참조하십시오.
+* TLS(전송 계층 보안)는 네트워크를 통해 데이터를 안전하게 교환해야 하는 웹 브라우저 및 애플리케이션에서 현재 사용되는 가장 널리 배포된 보안 프로토콜입니다. Adobe는 이전 프로토콜의 서비스를 종료해야 하는 보안 준수 표준을 사용하며 최신 버전 및 보안 버전을 사용하기 위해 TLS 1.2의 사용을 권장합니다. Target 18.4.1 릴리스(2018년 4월 25일)부터 Adobe Target은 TLS 1.2 암호화의 진행을 위한 조치를 취하고, 2018년 9월 12일까지 TLS 1.0 암호화에 대한 지원을 단계적으로 완전히 중단합니다. 세부 사항을 살펴보고 원활한 전환을 위한 변경을 계획하는 것이 중요합니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)을 참조하십시오.
 * 가용성 향상을 위해 권장 사항 기준 카드에 대한 UI가 개선되었습니다. (TGT-27829)
 
 ### at.js(2018년 4월 3일) {#section_932DF1004F4648668FE4984BFAF2EC49}
@@ -1391,7 +1391,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>현재 at.js 버전 1.3.0을 사용할 수 있습니다. 자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> at.js 다운로드 </a> 및 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
+   <td colname="col2"> <p>현재 at.js 버전 1.3.0을 사용할 수 있습니다. 자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/" format="dita" scope="local"> at.js 다운로드 </a> 및 <a href="https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
      <ul id="ul_349BEB37B6C94FF0801F121042037803"> 
       <li id="li_4C2F82F4DD394ED5A0BFF978B15FEDDF"> <p>at.js와의 상호 작용을 추적, 디버깅 및 사용자 지정하는 데 도움이 되도록 다음과 같은 새 이벤트를 사용할 수 있습니다. </p> <p> 
         <ul id="ul_EFF7E2FCEA0D42298779DDE13B54503F"> 
@@ -1400,14 +1400,14 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
          <li id="li_DAF9CC1E86834C62B93419429B43A2CB"> <p>CONTENT_RENDERING_START </p> </li> 
          <li id="li_A52DC337115248A1BE5AF5B358BE5A9A"> <p>CONTENT_RENDERING_NO_OFFERS </p> </li> 
          <li id="li_7D71E48016B1446995493EBBF7D32447"> <p>CONTENT_RENDERING_REDIRECT </p> </li> 
-        </ul> </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_A828E4BA535F4E7692A075F3D70CF6CD" format="dita" scope="local"> at.js 사용자 지정 이벤트 </a>. </p> </li> 
-      <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>데이터 공급자에서 가져온 추가 매개 변수로 at.js 요청을 확장할 수 있습니다. 데이터 공급자는 <span class="codeph"> dataProviders 키 </span> 아래의 <span class="codeph"> window.targetGlobalSettings </span>에 추가되어야 합니다. </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() </a>의 "데이터 제공업체"를 참조하십시오. </p> </li> 
+        </ul> </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/" format="dita" scope="local"> at.js 사용자 지정 이벤트 </a>. </p> </li> 
+      <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>데이터 공급자에서 가져온 추가 매개 변수로 at.js 요청을 확장할 수 있습니다. 데이터 공급자는 <span class="codeph"> dataProviders 키 </span> 아래의 <span class="codeph"> window.targetGlobalSettings </span>에 추가되어야 합니다. </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/" format="dita" scope="local"> targetGlobalSettings() </a>의 "데이터 제공업체"를 참조하십시오. </p> </li> 
       <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>이제 at.js 요청은 GET을 사용하지만 URL 크기가 2048자를 초과하면 POST로 전환됩니다. 필요한 경우 크기 제한을 늘릴 수 있는 <span class="codeph"> urlSizeLimit </span> 라는 새 특성이 있습니다. 이를 통해 Target에서 동일한 기술을 사용하여 AppMeasurement에 맞게 at.js를 조정할 수 있습니다. </p> </li> 
-      <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>이제 Target에서는 강제로 <span class="codeph"> adobe.target.applyOffer(옵션) </span> 함수의 <span class="codeph"> mbox </span> 키가 사용되도록 합니다. 이 키는 과거에는 필요했지만 현재 Target에서는 이 키를 적용하여 적절한 유효성 검사가 수행되는지와 고객이 함수를 올바르게 사용하고 있는지를 확인합니다. </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_BBE83F513B5B4E03BBC3F50D90864245" format="dita" scope="local"> adobe.target.applyOffer(옵션) </a>를 참조하십시오. </p> </li> 
+      <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>이제 Target에서는 강제로 <span class="codeph"> adobe.target.applyOffer(옵션) </span> 함수의 <span class="codeph"> mbox </span> 키가 사용되도록 합니다. 이 키는 과거에는 필요했지만 현재 Target에서는 이 키를 적용하여 적절한 유효성 검사가 수행되는지와 고객이 함수를 올바르게 사용하고 있는지를 확인합니다. </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/" format="dita" scope="local"> adobe.target.applyOffer(옵션) </a>를 참조하십시오. </p> </li> 
       <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js의 이벤트 및 클릭 추적 기능이 개선되었습니다. at.js는 <span class="codeph"> navigator.sendBeacon() </span>을 사용하여 이벤트 추적 데이터를 전송하고, <span class="codeph"> navigator.sendBeacon() </span> 이 지원되지 않을 때 동기 XHR로 대체됩니다. 이 대체 항목은 주로 Internet Explorer 10 및 11과 일부 Safari 버전에 영향을 줍니다. Safari는 iOS 11.3 릴리스에서 <span class="codeph"> navigator.sendBeacon() </span>을 추가로 지원합니다. </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>이제 페이지가 백그라운드 탭에서 열릴 때도 at.js가 오퍼를 렌더링할 수 있습니다. 백그라운드 탭의 브라우저 조절 동작으로 인해 <span class="codeph"> requestAnimationFrame() </span> 이 비활성화될 때 일부 Target 고객에서 문제가 발생합니다. </p> </li> 
       <li id="li_3278979E1C6C41DEA7E8025AEB337985"> <p>이번 릴리스에서는 Chrome CPU 프로필 검사 시 호출 스택 단축을 비롯하여 여러 가지 성능이 개선되었습니다. </p> </li> 
-      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0은 더 이상 Microsoft Internet Explorer 9에서 콘텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 <a href="/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 <span class="codeph"> XMLHttpRequest </span>를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다. </p> </li> 
+      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0은 더 이상 Microsoft Internet Explorer 9에서 콘텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 <a href="https://developer.adobe.com/target/before-implement/supported-browsers/" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 <span class="codeph"> XMLHttpRequest </span>를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -1467,7 +1467,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe Lauch용 Target 확장 </p> </td> 
-   <td colname="col2"> <p>Launch는 Adobe의 차세대 태그 관리 기능입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. </p> <p>Target 확장을 사용하면 환경에서 Target을 빠르고 쉽게 구현할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25" format="dita" scope="local"> Adobe Launch를 사용하여 Target 구현 </a>. </p> </td> 
+   <td colname="col2"> <p>Launch는 Adobe의 차세대 태그 관리 기능입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. </p> <p>Target 확장을 사용하면 환경에서 Target을 빠르고 쉽게 구현할 수 있습니다. </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/" format="dita" scope="local">Adobe Launch를 사용하여 Target 구현</a>을 참조하십시오 . </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1608,7 +1608,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>현재 at.js 버전 1.2.2을 사용할 수 있습니다. 자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p> 
+   <td colname="col2"> <p>현재 at.js 버전 1.2.2을 사용할 수 있습니다. 자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p> 
      <ul id="ul_3C4C9385A0F3489AA2137A2C88AE93CF"> 
       <li id="li_E658799D930547E6901ACFBF7C541F1F"> <p>Target 라이브러리가 QUIRKS 모드를 사용하여 페이지에 로드될 때 JavaScript 오류를 반환한 문제가 수정되었습니다. (TNT-28312) </p> </li> 
       <li id="li_050620115ED84CBDA736D94E9AAC6550"> <p>Target 클릭 추적으로 인해 Analytics 데이터 컬렉션 호출이 중단되는 문제가 수정되었습니다. (TNT-28261) </p> </li> 
@@ -1718,7 +1718,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017년 10월 13일</b> </p> <p> 이제 <span class="filepath"> at.js </span> 버전 1.2.1을 사용할 수 있습니다. 자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
+   <td colname="col2"> <p><b>2017년 10월 13일</b> </p> <p> 이제 <span class="filepath"> at.js </span> 버전 1.2.1을 사용할 수 있습니다. 자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
      <ul id="ul_14D6BB3B51974789BBFC036A45B7A56B"> 
       <li id="li_AE9826C8FC4A4DF4BE61BB72C2946C93"> <p>target="_blank"인 링크에 대한 클릭 추적을 수행할 경우 새 탭에서 링크가 열리지 않도록 하는 문제가 수정되었습니다. </p> </li> 
      </ul> </p> </td> 
@@ -1740,11 +1740,11 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p> 모바일 경험 미리보기 </p> </td> 
-   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 이제 UI에서 여러 모바일 앱 활동을 선택한 후 디바이스에서 미리 볼 수 있습니다. 이 기능을 사용하면 특수한 테스트 빌드 및 시뮬레이터를 사용하지 않고도 미리보기 및 QA를 위해 여러 경험에 등록할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="/help/main/c-target-mobile-app/target-mobile-preview.md#concept_5FBF12C2FDFC42429FE4F5CFBD78E19D" format="dita" scope="local"> Target 모바일 미리보기 </a>. </p> </td> 
+   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 이제 UI에서 여러 모바일 앱 활동을 선택한 후 디바이스에서 미리 볼 수 있습니다. 이 기능을 사용하면 특수한 테스트 빌드 및 시뮬레이터를 사용하지 않고도 미리보기 및 QA를 위해 여러 경험에 등록할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/mobile/target-mobile-preview/" format="dita" scope="local">Target 모바일 미리 보기</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>모바일 배치 및 프리페치 전달 </p> </td> 
-   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 여러 mbox용 콘텐츠를 단일 호출로 미리 가져온 후, 최종 사용자가 콘텐츠를 보는 방법, 시기 및 보는지 여부를 신경쓰지 않고 디바이스에 로컬로 캐시할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="/help/main/c-target-mobile-app/prefetch-offer-content.md#concept_A355D9D55E1C429AA31FA4055A1DDFAF" format="dita" scope="local"> 프리패치 오퍼 콘텐츠 </a>. </p> </td> 
+   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 여러 mbox용 콘텐츠를 단일 호출로 미리 가져온 후, 최종 사용자가 콘텐츠를 보는 방법, 시기 및 보는지 여부를 신경쓰지 않고 디바이스에 로컬로 캐시할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/mobile/prefetch-offer-content/" format="dita" scope="local">오퍼 컨텐츠 미리 가져오기</a>를 참조하십시오 . </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동 </p> </td> 
@@ -1793,7 +1793,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 * 승인자 권한이 있는 사용자는 이제 프로필 API 인증 토큰을 생성하고 활성화할 수 있습니다. (TGT-24074)
 
-   자세한 내용은 [프로필 API 설정](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md#concept_5C4ABA5FA64E4D6CAE9C5902572F2794)을 참조하십시오.
+   자세한 내용은 [프로필 API 설정](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/)을 참조하십시오.
 
 * 시각적 경험 작성기에서 활동을 작성할 때 사용자가 페이지를 다시 로드하면 활동 URL 및 연관된 속성이 UI에 유지됩니다. 활동이 혼합 콘텐츠(보안 및 비보안 콘텐츠)를 사용하거나 권한 문제가 있는 경우, 다시 로드해야 할 수 있습니다. (TGT-28230)
 * 활동이 혼합 콘텐츠(보안 및 비보안 콘텐츠)를 사용할 경우의 메시징이 개선되었습니다. 메시지는 사용자가 HTTP 사이트 또는 혼합 호출(HTTPS 및 HTTP)이 있는 사이트를 여는 데 필요한 단계를 수행하는 데 도움이 되는 정보를 제공합니다. (TGT-26271)
@@ -1814,7 +1814,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017년 9월 27일</b> </p> <p> <span class="filepath"> at.j s </span> 버전 1.2.0은 이제 대부분의 버그 수정 사항을 포함하는 유지 관리 릴리스로 사용할 수 있습니다. 자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
+   <td colname="col2"> <p><b>2017년 9월 27일</b> </p> <p> <span class="filepath"> at.j s </span> 버전 1.2.0은 이제 대부분의 버그 수정 사항을 포함하는 유지 관리 릴리스로 사용할 수 있습니다. 자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>클릭 추적 특수 사례에 대해 기본 동작이 수행되지 않도록 하는 문제가 수정되었습니다. (TNT-28089) </p> </li> 
       <li id="li_53806C902AA04B31B59AA87A1E707348"> <p><span class="codeph"> target="_blank" </span> 인 링크에 대한 클릭 추적을 수행할 경우 새 탭에서 링크가 열리지 않도록 하는 문제가 수정되었습니다. (TNT-28072) </p> </li> 
@@ -1876,7 +1876,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017년 8월 3일</b> </p> <p> 이제 <span class="filepath"> at.js </span> 버전 1.1을 사용할 수 있습니다. 자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 1.1에 포함되어 있습니다. </p> <p> 
+   <td colname="col2"> <p><b>2017년 8월 3일</b> </p> <p> 이제 <span class="filepath"> at.js </span> 버전 1.1을 사용할 수 있습니다. 자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 1.1에 포함되어 있습니다. </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>응답 토큰 처리가 추가되었습니다. 자세한 내용은 <a href="/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> 응답 토큰 </a>을 참조하십시오. </p> </li> 
       <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p><span class="codeph"> document.currentScript polyfill </span> 이 Angular 1.X를 방해하지 않도록 문제가 해결되었습니다. </p> </li> 
@@ -2110,18 +2110,18 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p> 이제 <span class="filepath"> at.js </span> 버전 0.9.6을 사용할 수 있습니다. 자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 0.9.6에 포함되어 있습니다. </p> <p> 
+   <td colname="col2"> <p> 이제 <span class="filepath"> at.js </span> 버전 0.9.6을 사용할 수 있습니다. 자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 0.9.6에 포함되어 있습니다. </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>A4T에 대해 리디렉션 오퍼가 지원됩니다. <span class="filepath"> at.js </span> 버전 0.9.6을 다운로드하여 설치한 후에는 <span class="keyword"> Adobe Analytics </span>를 <span class="keyword"> Target </span> 에 대한 보고 소스로 사용하는 (A4T) 활동에서 리디렉션 오퍼를 사용할 수 있습니다. <span class="filepath"> at.js </span> 버전 0.9.6 외에, 리디렉션 오퍼 및 A4T를 사용하기 위해 구현이 충족해야 하는 다른 최소 요구 사항도 있습니다. 자세한 내용 및 알고 있어야 하는 추가 중요한 정보는 <a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> 리디렉션 오퍼 - A4T FAQ </a>를 참조하십시오. </p> </li> 
       <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>방문자 API가 페이지에 있고 <span class="codeph"> visitorApiTimeout </span> 설정이 너무 적극적이었던 <span class="filepath"> at.js </span> 0.9.6 이전에는 Target에서 <span class="keyword"> Target </span> 요청에 MCID 데이터를 전송하지 않는 상황이 발생할 수 있었습니다. 이로 인해 A4T를 사용할 때 <span class="keyword"> Analytics </span> 에서 연결되지 않은 히트 발생과 같은 문제가 나타날 수 있습니다. </p> <p>이 동작은 <span class="filepath"> visitorApiTimeout </span> 이 1ms로 설정되어 있더라도 Target은 SDID, 추적 서버 및 고객 ID를 수집한 후 Target 요청에 전송하려고 하므로 <span class="codeph"> at.js </span> 0.9.6에서 변경되었습니다. </p> </li> 
-      <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p><span class="codeph"> selectorsPollingTimeout </span> 설정이 추가되었습니다. 자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() </a>를 참조하십시오. </p> </li> 
-      <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p><span class="codeph"> getOffer() </span>의 응답 형식이 변경되었습니다. 자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#reference_C81525D1598A4A1199740DCAB81A7FDF" format="dita" scope="local"> adobe.target.getOffer(options) </a>를 참조하십시오. </p> </li> 
+      <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p><span class="codeph"> selectorsPollingTimeout </span> 설정이 추가되었습니다. 자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/" format="dita" scope="local"> targetGlobalSettings() </a>를 참조하십시오. </p> </li> 
+      <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p><span class="codeph"> getOffer() </span>의 응답 형식이 변경되었습니다. 자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/v" format="dita" scope="local"> adobe.target.getOffer(options) </a>를 참조하십시오. </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>지원되지 않는 <span class="codeph"> &lt;!DOCTYPE&gt; </span> 선언에 대한 콘솔 로깅이 추가되었습니다. </p> </li> 
       <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>여러 기본 오퍼가 단일 mbox에 전달된 경우 <span class="keyword"> Target Classic </span> 플러그인이 올바르게 적용되지 않던 문제가 수정되었습니다. (TGT-22664)</p> </li> 
       <li id="li_7016022D9DDE4529B77984F195825AB7"> <p>mbox 쿠키가 이러한 도메인에 대해 올바르게 설정되도록 하기 위해 두 문자로 이루어진 TLD(최상위 도메인)의 쿠키 설정이 개선되었습니다(예: <span class="filepath"> test.no </span>, <span class="filepath"> autodrives.ca </span>등). </p> </li> 
       <li id="li_3B1F618DEC744056B5BB172C4DBB359A"> <p>쿠키를 저장할 때 사용해야 하는 최상위 도메인을 추출하는 알고리즘이 <span class="codeph"> at.js </span> 버전 0.9.6에서 변경되었습니다. 이러한 변경으로 인해 쿠키를 IP를 사용하는 주소에 저장할 수 없습니다. 대부분의 경우 IP 주소는 테스트 용도로 사용되지만, 해결 방법으로 DNS 항목을 사용하거나, 로컬 상자에서 호스트 파일을 조정할 수 있습니다. </p> </li> 
       <li id="li_A52181499E63402DB4E16E33E36A9400"> <p>속성이 정수 대신 문자열 값일 때 이동 및 재정렬 작업 처리 방식이 수정되었습니다. </p> </li> 
-     </ul> </p> <p>이 버전 및 이전 버전의 <span class="filepath"> at.js </span>에 대한 자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p>이 버전 및 이전 버전의 <span class="filepath"> at.js </span>에 대한 자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2221,9 +2221,9 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1"> <p> <span class="codeph"> at.js </span> 버전 0.9.4 </p> </td> 
    <td colname="col2"> <p>2017년 1월 18일 </p> <p> <span class="codeph"> at.js </span> 버전 0.9.4에는 다음 변경 사항이 포함되어 있습니다. </p> <p> 
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
-      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> 이제 mbox 이름에는 앰퍼샌드(&amp;)를 비롯한 특수 문자가 포함될 수 있습니다. (TNT-26144) </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> at.js 구성 </a>을 참조하십시오. </p> </li> 
-      <li id="li_99309046030B4D93B59113C01A8789DA"> <p>. <span class="codeph"> at.js에서 </span> HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 <span class="codeph"> secureOnly </span> 설정이 추가되었습니다. 이 설정은 기본값이 False이고 <span class="codeph"> targetGlobalSettings </span>를 통해 대체할 수 있는 고급 설정입니다. (TNT-26183) </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local"> targetGlobalSettings() </a>를 참조하십시오. </p> </li> 
-      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>. <span class="wintitle"> at.js </span> 버전 0.9.3 및 이전 버전에서 <span class="codeph"> 레거시 브라우저 지원 </span> 옵션을 사용할 수 있습니다. 이 옵션은 <span class="codeph"> at.js </span> 버전 0.9.4에서 제거되었습니다. </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local"> at.js 구성 </a>을 참조하십시오. </p> </li> 
+      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> 이제 mbox 이름에는 앰퍼샌드(&amp;)를 비롯한 특수 문자가 포함될 수 있습니다. (TNT-26144) </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/" format="dita" scope="local"> at.js 구성 </a>을 참조하십시오. </p> </li> 
+      <li id="li_99309046030B4D93B59113C01A8789DA"> <p>. <span class="codeph"> at.js에서 </span> HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 <span class="codeph"> secureOnly </span> 설정이 추가되었습니다. 이 설정은 기본값이 False이고 <span class="codeph"> targetGlobalSettings </span>를 통해 대체할 수 있는 고급 설정입니다. (TNT-26183) </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/" format="dita" scope="local"> targetGlobalSettings() </a>를 참조하십시오. </p> </li> 
+      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>. <span class="wintitle"> at.js </span> 버전 0.9.3 및 이전 버전에서 <span class="codeph"> 레거시 브라우저 지원 </span> 옵션을 사용할 수 있습니다. 이 옵션은 <span class="codeph"> at.js </span> 버전 0.9.4에서 제거되었습니다. </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/" format="dita" scope="local"> at.js 구성 </a>을 참조하십시오. </p> </li> 
      </ul> </p> <p>각 버전의 <span class="codeph"> at.js </span>변경 사항에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
@@ -2371,7 +2371,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_E916EB3A77ED4CFF90CF6B4D30F188B1"> <p><span class="codeph"> at.js </span> 설정에서 레거시 브라우저가 비활성화될 경우 Microsoft Internet Explorer 11에서 mbox가 실행되도록 합니다. </p> </li> 
       <li id="li_1130509832CE429DB6DE636404CC54E1"> <p>다이내믹 원격 오퍼가 실패하는 경우(예를 들어 URL이 올바르지 않고 404 오류를 반환하는 경우) 기본 콘텐츠가 렌더링되도록 합니다. </p> </li> 
       <li id="li_21B5225D894B43CB863A775C937F66F4"> <p>DOM에서 VEC 클릭 추적 선택기를 찾을 수 없는 경우 요소가 빠르게 표시되도록 합니다. </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2436,7 +2436,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Device Graph 옵트아웃을 활성화하거나 비활성화하는 <span class="codeph"> optoutEnabled </span> 설정이 추가되었습니다. 이 설정이 <span class="codeph"> true </span> 로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 Beta 버전입니다. 이 설정은 기본적으로 <span class="codeph"> false </span> 로 설정되지만 Device Graph를 사용하는 경우에는 <span class="codeph"> true </span> 로 설정되어야 합니다.</p> </li> 
       <li id="li_663462C0680049F89CA8FE1853F31807"> <p>알림 메커니즘에 대한 <span class="codeph"> CustomEvent </span> 지원이 추가되었습니다. 이전에는 <span class="codeph"> at.js </span> 이벤트 알림 메커니즘을 <span class="codeph"> document.addEventListener() </span>와 같은 표준 DOM API를 통해 사용할 수 없었습니다. 이제 <span class="codeph"> document.addEventListener() </span>를 사용하여 요청 이벤트 및 콘텐츠 렌더링 이벤트와 같은 <span class="codeph"> at.js </span> 이벤트에 가입할 수 있습니다. </p> </li> 
       <li id="li_3FB2914F8D2F4AFFAA9B4622E8CA1EFF"> <p>VEC(시각적 경험 작성기)에서 만든 오퍼와 관련된 문제가 수정되었습니다. 이번 릴리스 이전에 Target은 선택기를 숨기고, 모든 선택기가 선택될 때만 숨김을 해제했습니다. <span class="codeph"> at.js </span> 0.9.2 Target은 일치하는 선택기가 확인되면 바로 숨김을 해제합니다. </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2550,7 +2550,7 @@ Adobe Target Standard/Premium 16.8.1(2016년 8월 23일) 릴리스에는 다음�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> 버전 0.9.1 </p> </td> 
-   <td colname="col2"> <p>2016년 7월 14일 </p> <p> 현재 <span class="filepath"> at.js </span> 버전 0.9.1을 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>2016년 7월 14일 </p> <p> 현재 <span class="filepath"> at.js </span> 버전 0.9.1을 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2922,7 +2922,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
   </tr> 
   <tr> 
    <td colname="col1"> Internet Explorer 11 지원 </td> 
-   <td colname="col2"> <p>Internet Explorer 11은 이제 타겟 인터페이스에서 지원됩니다. </p> <p><a href="/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Internet Explorer 11은 이제 타겟 인터페이스에서 지원됩니다. </p> <p><a href="https://developer.adobe.com/target/before-implement/supported-browsers/" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 연속 변수에 대한 타겟 보고서에서 신뢰 구간 보기 </td> 

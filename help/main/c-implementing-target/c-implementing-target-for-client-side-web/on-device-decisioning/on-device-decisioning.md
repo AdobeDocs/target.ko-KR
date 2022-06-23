@@ -5,9 +5,9 @@ title: On-Device Decisioning은 at.js JavaScript 라이브러리와 어떻게 �
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3490'
+source-wordcount: '3546'
 ht-degree: 7%
 
 ---
@@ -35,11 +35,11 @@ Adobe Target JS SDK를 통해 고객은 결정을 위한 데이터의 성능과 
 * 대상 타겟팅
 * 할당 방법
 
-자세한 내용은 [On-Device Decisioning에 대해 지원되는 기능](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+자세한 내용은 [On-Device Decisioning에 대해 지원되는 기능](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 ## 온장치 의사 결정은 어떻게 작동합니까?
 
-On-Device Decisioning을 사용하여 at.js를 배포하고 초기화하면 [규칙 아티팩트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) 여기에는 A/B 및 XT 활동, 대상 및 자산에 대한 장치 내 결정이 포함되며, 방문자에게 가장 가까운 Akamai CDN에서 다운로드되고 방문자의 브라우저에 로컬로 캐시됩니다. at.js에서 경험을 검색하도록 요청하면, 반환할 경험에 대한 결정은 캐시된 규칙 아티팩트에서 인코딩된 메타데이터를 기반으로 메모리 내 수행됩니다.
+On-Device Decisioning을 사용하여 at.js를 배포하고 초기화하면 [규칙 아티팩트](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 여기에는 A/B 및 XT 활동, 대상 및 자산에 대한 장치 내 결정이 포함되며, 방문자에게 가장 가까운 Akamai CDN에서 다운로드되고 방문자의 브라우저에 로컬로 캐시됩니다. at.js에서 경험을 검색하도록 요청하면, 반환할 경험에 대한 결정은 캐시된 규칙 아티팩트에서 인코딩된 메타데이터를 기반으로 메모리 내 수행됩니다.
 
 ## 의사 결정 방법
 
@@ -80,7 +80,7 @@ On-Device Decisioning에서는 [!DNL Target] 에서는 [!UICONTROL 의사 결정
 | 11 | 경험이 방문자에 대해 렌더링됩니다. |
 | 12 | 전체 웹 페이지가 로드됩니다. |
 | 13 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. |
-| 14 | 타겟팅된 데이터가 [!DNL Analytics] SDID를 통해 데이터를 하고에 처리됩니다 [!DNL Analytics] 보고 저장소. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
+| 14 | 타겟팅된 데이터가 [!DNL Analytics] SDID를 통해 데이터를 하고에 처리됩니다 [!DNL Analytics] 보고 저장소. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target] (A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
 
 ### 온장치만
 
@@ -88,7 +88,7 @@ On-Device Decisioning에서는 [!DNL Target] 에서는 [!UICONTROL 의사 결정
 
 On-Device Decisioning은 결정은 On-Device Decisioning에 적합한 모든 활동을 포함하는 캐시된 규칙 아티팩트로 수행되므로 매우 빠른 속도로 환경 및 개인화 활동을 제공할 수 있습니다.
 
-장치 내 의사 결정에 적합한 활동에 대한 자세한 내용은 [On-Device Decisioning에서 지원되는 기능](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md).
+장치 내 의사 결정에 적합한 활동에 대한 자세한 내용은 [On-Device Decisioning에서 지원되는 기능](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
 
 이 의사 결정 방법은 결정을 필요로 하는 모든 페이지에서 성능이 매우 중요한 경우에만 사용해야 합니다 [!DNL Target]. 또한 이 의사 결정 방법을 선택하면 [!DNL Target] On-Device Decisioning에 대한 자격이 없는 활동은 전달되거나 실행되지 않습니다. at.js 라이브러리 2.5.0+는 결정을 내릴 캐시된 규칙 아티팩트를 찾도록 구성되어 있습니다.
 
@@ -138,7 +138,7 @@ On-Device Decisioning은 결정은 On-Device Decisioning에 적합한 모든 활
 | 7 | at.js 라이브러리는 캐시된 JSON 규칙 아티팩트에서 경험을 렌더링하도록 DOM을 조작합니다. |
 | 8 | 경험이 방문자에 대해 렌더링됩니다. |
 | 9 | 전체 웹 페이지가 로드됩니다. |
-| 10 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 타겟팅된 데이터가 [!DNL Analytics] SDID를 통해 데이터를 하고에 처리됩니다 [!DNL Analytics] 보고 저장소. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
+| 10 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 타겟팅된 데이터가 [!DNL Analytics] SDID를 통해 데이터를 하고에 처리됩니다 [!DNL Analytics] 보고 저장소. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target] (A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
 
 ### 하이브리드
 
@@ -176,7 +176,7 @@ JSON 규칙 아티팩트에는 at.js에 mbox에 실행 중인 서버측 활동 �
 | 12 | at.js 라이브러리는 Target Edge Network에서 경험을 렌더링하도록 DOM을 조작합니다. |
 | 13 | 경험이 방문자에 대해 렌더링됩니다. |
 | 14 | 전체 웹 페이지가 로드됩니다. |
-| 15 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 타겟팅된 데이터가 [!DNL Analytics] SDID를 통해 데이터를 하고에 처리됩니다 [!DNL Analytics] 보고 저장소. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
+| 15 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 타겟팅된 데이터가 [!DNL Analytics] SDID를 통해 데이터를 하고에 처리됩니다 [!DNL Analytics] 보고 저장소. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target] (A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
 
 다음 다이어그램은 방문자, 브라우저, at.js 2.5.0+ 및 후속 페이지 탐색 또는 재방문에 대해 캐시된 JSON 규칙 아티팩트 간의 상호 작용을 보여줍니다. 이 다이어그램에서는 후속 페이지 탐색 또는 재방문에 대해 장치 내에서 결정을 내리는 사용 사례에만 초점을 둡니다. 특정 페이지에 대해 라이브 상태인 활동에 따라 서버측 결정을 실행하도록 서버측 호출을 수행할 수 있습니다.
 
@@ -200,7 +200,7 @@ JSON 규칙 아티팩트에는 at.js에 mbox에 실행 중인 서버측 활동 �
 | 8 | at.js 라이브러리는 캐시된 JSON 규칙 아티팩트에서 경험을 렌더링하도록 DOM을 조작합니다. |
 | 9 | 경험이 방문자에 대해 렌더링됩니다. |
 | 10 | 전체 웹 페이지가 로드됩니다. |
-| 11 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 타겟팅된 데이터가 [!DNL Analytics] SDID를 통해 데이터를 하고에 처리됩니다 [!DNL Analytics] 보고 저장소. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target](A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
+| 11 | [!DNL Analytics] 데이터가 데이터 수집 서버로 전송됩니다. 타겟팅된 데이터가 [!DNL Analytics] SDID를 통해 데이터를 하고에 처리됩니다 [!DNL Analytics] 보고 저장소. 그런 다음 [!DNL Analytics] 데이터는 [!DNL Analytics] for [!DNL Target] (A4T) 보고서를 통해 [!UICONTROL Analytics 및 ]Target 모두에서 볼 수 있게 됩니다. |
 
 ## 장치 내 의사 결정을 활성화하려면 어떻게 해야 합니까?
 
@@ -222,7 +222,7 @@ JSON 규칙 아티팩트에는 at.js에 mbox에 실행 중인 서버측 활동 �
 
    이 토글을 끄면 생성된 규칙 아티팩트에 포함할 On-Device Decisioning 활동을 다시 만들고 활성화해야 합니다. 즉, 를 켜기 전에 라이브 상태의 모든 활동 [!UICONTROL On-Device Decisioning] 토글은 규칙 아티팩트에 포함되지 않습니다.
 
-를 활성화한 후 [!UICONTROL On-Device Decisioning] 전환, [!DNL Target] 생성 및 전파 [규칙 객체](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md) 참조하십시오.
+를 활성화한 후 [!UICONTROL On-Device Decisioning] 전환, [!DNL Target] 생성 및 전파 [규칙 객체](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 참조하십시오.
 
 >[!IMPORTANT]
 >
@@ -249,7 +249,7 @@ JSON 규칙 아티팩트에는 at.js에 mbox에 실행 중인 서버측 활동 �
 
 ### 전역 설정
 
-기본값을 구성할 수 있습니다 [!UICONTROL 의사 결정 방법] 모든 [!DNL Target] 결정. 다양한 의사 결정 방법은 다음과 같습니다 [!UICONTROL 서버측 전용], [!UICONTROL 온장치만], 및 [!UICONTROL 하이브리드]. Target UI에서 선택한 의사 결정 방법은에서 구성됩니다. `window.targetGlobalSettings` 아래에 `decisioningMethod` 필드. 추가 정보 `decisioningMethod` in [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+기본값을 구성할 수 있습니다 [!UICONTROL 의사 결정 방법] 모든 [!DNL Target] 결정. 다양한 의사 결정 방법은 다음과 같습니다 [!UICONTROL 서버측 전용], [!UICONTROL 온장치만], 및 [!UICONTROL 하이브리드]. Target UI에서 선택한 의사 결정 방법은에서 구성됩니다. `window.targetGlobalSettings` 아래에 `decisioningMethod` 필드. 추가 정보 `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ```javascript
 <head> 
@@ -269,7 +269,7 @@ JSON 규칙 아티팩트에는 at.js에 mbox에 실행 중인 서버측 활동 �
 
 ### 사용자 지정된 설정
 
-를 설정하는 경우 `decisioningMethod` in `window.targetGlobalSettings`를 재정의하려는 경우 `decisioningMethod` 사용 사례에 따라 각 Adobe Target 결정에 대해 `decisioningMethod` at.js 2.5.0+의 [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 호출.
+를 설정하는 경우 `decisioningMethod` in `window.targetGlobalSettings`를 재정의하려는 경우 `decisioningMethod` 사용 사례에 따라 각 Adobe Target 결정에 대해 `decisioningMethod` at.js 2.5.0+의 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 호출.
 
 ```javascript
 adobe.target.getOffers({ 
@@ -321,6 +321,6 @@ On-Device Decisioning에 적합한 활동을 만든 후 [!UICONTROL On-Device De
 
    첫 번째 JSON 규칙 아티팩트 생성이 최대 10분이 소요될 수 있습니다.
 
-1. 만들기 및 활성화 [on-device decisioning에서 지원하는 활동 유형](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md), 그리고 온장치 의사 결정 자격이 있는지 확인합니다.
+1. 만들기 및 활성화 [on-device decisioning에서 지원하는 활동 유형](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/), 그리고 온장치 의사 결정 자격이 있는지 확인합니다.
 1. 설정 **[!UICONTROL 의사 결정 방법]** 다음 중 하나를 수행합니다. **[!UICONTROL &quot;하이브리드&quot;]** 또는 **[!UICONTROL &quot;온장치 전용&quot;]** at.js 설정 UI 사용.
 1. 페이지에 At.js 2.5.0+를 다운로드하여 배포합니다.

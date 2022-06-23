@@ -4,9 +4,9 @@ description: Analytics를 구현하는 데 필요한 단계를 수행합니다 [
 title: Analytics를 구현하려면 어떻게 합니까? [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1142'
+source-wordcount: '1153'
 ht-degree: 23%
 
 ---
@@ -116,9 +116,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-그런 다음 을 통해 페이로드를 Analytics에 전달할 수 있습니다. [데이터 삽입 API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 자동 할당 및 자동 Target 활동의 경우 sessionId도 전달해야 합니다. 자세한 내용은 [A4T(Target 분석) 보고](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) 에서 *Adobe Target SDK* 안내서.
+그런 다음 을 통해 페이로드를 Analytics에 전달할 수 있습니다. [데이터 삽입 API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 자동 할당 및 자동 Target 활동의 경우 sessionId도 전달해야 합니다. 자세한 내용은 [A4T(Target 분석) 보고](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) 에서 *Adobe Target SDK* 안내서.
 
-글로벌 설정을 원하지 않고 더 많은 요구 방식이 필요한 경우 at.js 함수를 사용하십시오 [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) 다음을 통해 **analyticsLogging: &quot;client_side&quot;**. Analytics 페이로드는 이 호출에 대해서만 반환되고, [!DNL Target] 백엔드가 페이로드를 [!DNL Analytics]. 이 방법을 사용하여 모든 at.js를 [!DNL Target] 요청은 기본적으로 페이로드를 반환하지만, 대신 원하는 경우 지정된 경우에만 페이로드를 반환합니다.
+글로벌 설정을 원하지 않고 더 많은 요구 방식이 필요한 경우 at.js 함수를 사용하십시오 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 다음을 통해 **analyticsLogging: &quot;client_side&quot;**. Analytics 페이로드는 이 호출에 대해서만 반환되고, [!DNL Target] 백엔드가 페이로드를 [!DNL Analytics]. 이 방법을 사용하여 모든 at.js를 [!DNL Target] 요청은 기본적으로 페이로드를 반환하지만, 대신 원하는 경우 지정된 경우에만 페이로드를 반환합니다.
 
 예:
 

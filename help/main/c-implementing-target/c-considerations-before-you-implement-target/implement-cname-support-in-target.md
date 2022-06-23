@@ -5,9 +5,9 @@ title: Target에서 CNAME을 어떻게 사용합니까?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1154'
+source-wordcount: '1183'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    [!DNL Adobe] 구현이 준비되면 Client Care에서 알려줍니다.
 
-1. 업데이트 `serverDomain` ([설명서](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#serverDomain))를 새 CNAME 호스트 이름으로 설정하고 설정합니다. `overrideMboxEdgeServer` to `false` ([설명서](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#overridemboxedgeserver)) 내의 아무 곳에나 삽입할 수 있습니다.
+1. 업데이트 `serverDomain` ([설명서](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/))를 새 CNAME 호스트 이름으로 설정하고 설정합니다. `overrideMboxEdgeServer` to `false` ([설명서](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)) 내의 아무 곳에나 삽입할 수 있습니다.
 
 ## FAQ
 
@@ -80,7 +80,7 @@ ht-degree: 1%
 
 ### 현재 구현된 [!DNL Target] ITP 2.x의 영향을 받습니까?
 
-Apple ITP(Intelligent Tracking Prevention) 버전 2.3에서는 탐지할 수 있는 CNAME 클로킹 완화 기능을 도입했습니다 [!DNL Adobe Target] CNAME 구현을 통해 쿠키의 만료를 7일로 줄입니다. 현재 [!DNL Target] 에는 ITP의 CNAME 클로킹 완화에 대한 해결 방법이 없습니다. ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+Apple ITP(Intelligent Tracking Prevention) 버전 2.3에서는 탐지할 수 있는 CNAME 클로킹 완화 기능을 도입했습니다 [!DNL Adobe Target] CNAME 구현을 통해 쿠키의 만료를 7일로 줄입니다. 현재 [!DNL Target] 에는 ITP의 CNAME 클로킹 완화에 대한 해결 방법이 없습니다. ITP에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
 
 ### CNAME 구현을 배포할 때 어떤 서비스 중단을 예상할 수 있습니까?
 
@@ -335,7 +335,7 @@ macOS 또는 Linux 명령줄 단말에서 bash 및 curl >=7.49를 사용하여 �
 CNAME을 사용하는 경우 옵트아웃 링크에 &quot;client=&quot;가 포함되어야 합니다.`clientcode` 매개 변수(예:
 `https://my.cname.domain/optout?client=clientcode`.
 
-바꾸기 `clientcode` 클라이언트 코드로 만든 다음 [옵트아웃 URL](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
+바꾸기 `clientcode` 클라이언트 코드로 만든 다음 [옵트아웃 URL](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 ## 알려진 제한 사항
 

@@ -5,10 +5,10 @@ title: 엔터프라이즈 사용자 권한은 무엇이며, 이 권한을 어떻
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '3149'
-ht-degree: 58%
+source-wordcount: '3150'
+ht-degree: 59%
 
 ---
 
@@ -252,7 +252,7 @@ ht-degree: 58%
 
    향후 릴리스에서 Target은 `at_property` 토큰이 없는 페이지 또는 다른 `at_property` 토큰이 있는 페이지에서 작동합니다.
 
-* 엔터프라이즈 사용자 권한 기능은 [Adobe I/O API 호출](https://developers.adobetarget.com)에서 지원되지 않습니다.
+* 엔터프라이즈 사용자 권한 기능은 [Adobe I/O API 호출](https://developer.adobe.com/target/)에서 지원되지 않습니다.
 
 ## FAQ {#faqs}
 
@@ -264,7 +264,7 @@ ht-degree: 58%
 
 마이그레이션이 편집되고 속성이 지정되지 않는 한, 마이그레이션 전에 만든 활동은 기본 작업 공간에서 동일한 방법으로 계속 실행됩니다. 특정 작업 공간의 활동은 해당 작업 공간에 지정된 속성을 따르므로, 동작이 마이그레이션 전과 동일하게 유지되지 않을 수 있습니다.
 
-### 한 작업 공간에서 다른 작업 공간으로 대상을 이동할 수 있습니까? {#move-audience}
+### 한 작업 영역에서 다른 작업 영역으로 대상을 이동할 수 있습니까? {#move-audience}
 
 예, 다음을 사용하여 작업 공간 간에 대상을 이동할 수 있습니다 [!UICONTROL 추가 작업] 옵션 [!UICONTROL 대상] 페이지.
 

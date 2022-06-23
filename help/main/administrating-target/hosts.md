@@ -5,9 +5,9 @@ title: 호스트란 무엇이며, 호스트를 어떻게 사용합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 22%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->**보안 모범 사례**: 의 ubox 기능을 사용하는 경우 [!DNL Target]또한 이 허용 목록에 추가하다 도메인은 [리디렉터](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) 탐색할 수 있습니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가했는지 확인합니다. 허용 목록에 추가하다를 지정하지 않은 경우 [!DNL Adobe] 가 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다.
+>**보안 모범 사례**: 의 ubox 기능을 사용하는 경우 [!DNL Target]또한 이 허용 목록에 추가하다 도메인은 [리디렉터](https://developer.adobe.com/target/implement/email/working-with-redirectors/) 탐색할 수 있습니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가했는지 확인합니다. 허용 목록에 추가하다를 지정하지 않은 경우 [!DNL Adobe] 가 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다.
 >
 >허용 목록에 추가하다가 환경에 우선합니다. 기능을 사용하기 전에 허용 목록에 추가하다 모든 호스트를 지운 다음 호스트에서 허용하는 호스트만 호스트 목록에 허용 목록에 추가하다 표시됩니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 
@@ -124,6 +124,6 @@ ht-degree: 22%
 
 다음에 대한 요청이 있을 경우 이 목록에 도메인이 표시됩니다 [!DNL Target] 은 도메인에서 만들어집니다. 대체로 스파이더 엔진, 언어 번역기 사이트 또는 로컬 디스크 드라이브에서 도메인을 볼 수 있습니다. 나열된 도메인이 팀에서 사용하는 도메인이 아닌 경우 [!UICONTROL 삭제]를 클릭하여 제거할 수 있습니다.
 
-**내 [!DNL Target] 요청이 /* no display - unauthorized mbox host */를 반환합니다.**
+**내 [!DNL Target] 요청 반환 /&#42; 표시 안 함 - 권한이 없는 mbox 호스트 &#42;/.**
 
-다음과 같은 경우 [!DNL Target] 요청이 허가되지 않은 호스트에서 수행되면 해당 요청은 /* no display - unauthorized mbox host */로 응답합니다.
+다음과 같은 경우 [!DNL Target] 허가되지 않은 호스트에서 요청이 수행되면 해당 요청은 / 로 응답합니다.&#42; 표시 안 함 - 권한이 없는 mbox 호스트 &#42;/.

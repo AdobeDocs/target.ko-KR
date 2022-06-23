@@ -4,10 +4,10 @@ description: 에 사용자 지정 매개 변수를 전달하는 방법을 알아
 title: 사용자 지정 매개 변수를 기준으로 방문자를 Target 할 수 있습니까?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 42%
+source-wordcount: '467'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 42%
 
 사용자 지정 매개 변수는 의 mbox 매개 변수입니다 [!DNL Adobe Target]. 임의의 mbox 매개 변수를 mbox에 전달하거나 를 사용하는 경우 `targetPageParams` 함수에서 해당 매개 변수가 대상자에서 사용할 수 있도록 여기에 표시됩니다.
 
-자세한 내용은 [글로벌 mbox에 매개 변수 전달](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
+자세한 내용은 [글로벌 mbox에 매개 변수 전달](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
 
 mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 때 `mboxParameter`에 대해 묻는 메시지가 `mboxName`에 더 이상 표시되지 않습니다. 이제 mbox 이름은 선택 사항입니다. 따라서 여러 mbox의 매개 변수를 사용하거나 가장자리에 아직 기록되지 않은 매개 변수를 참조할 수 있습니다.
 

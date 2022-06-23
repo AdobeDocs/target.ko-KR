@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target]  Recommendations 활동에 대해 자주 묻�
 title: ' [!DNL Target]  Recommendations에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '3128'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '3133'
+ht-degree: 99%
 
 ---
 
@@ -94,7 +94,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 적용 가능한 모든 기준을 포함합니다.
 
-[!DNL Target]은 알고리즘 선택기의 인텔리전스 필터링을 제어할 수 있도록 [호환되지 않는 조건 필터링](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) 설정을 가지고 있습니다.
+[!DNL Target]은 알고리즘 선택기의 인텔리전스 필터링을 제어할 수 있도록 [호환되지 않는 조건 필터링](https://developer.adobe.com/target/implement/recommendations/) 설정을 가지고 있습니다.
 
 >[!NOTE]
 >

@@ -4,10 +4,10 @@ description: 사용자 인터페이스를 숙지하고 더 심층적인 정보�
 title: ' [!DNL Target] UI는 어떻게 사용합니까?'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 45%
+source-wordcount: '1373'
+ht-degree: 43%
 
 ---
 
@@ -92,7 +92,9 @@ ht-degree: 45%
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-모든 알림을 패널 하단에 읽기 또는 모든 알림으로 표시할 수 있습니다.
+원하는 알림 위로 마우스를 이동한 다음 확인 표시를 클릭하여 개별 알림을 읽음으로 표시할 수 있습니다. 를 클릭하여 모든 알림을 읽음으로 표시하거나 모든 알림을 볼 수 있습니다 [!UICONTROL &quot;읽은 상태로 표시&quot;] 또는 [!UICONTROL &quot;모두 보기&quot;] 패널 하단에 있습니다.
+
+알림을 마우스로 가리키고 &quot;[!UICONTROL 알림]&quot; 아이콘을 클릭한 다음 알림을 받을 시점을 선택합니다. 5분, 15분, 1시간 또는 내일
 
 ### 공지
 

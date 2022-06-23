@@ -5,10 +5,10 @@ title: 사용자 에이전트 및 클라이언트 힌트
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->이 문서의 정보는 [at.js 버전 2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 이상의 버전에 적용됩니다.
+>이 문서의 정보는 [at.js 버전 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 이상의 버전에 적용됩니다.
 
 
 웹 브라우저에서 서버에 요청할 때 요청 헤더에 포함된 브라우저와 브라우저가 실행되는 환경에 대한 정보입니다. 인터넷 초기부터 이 데이터는 사용자 에이전트라는 단일 문자열로 집계되었습니다.
@@ -226,4 +226,4 @@ at.js 2.9.0부터 사용자 에이전트 클라이언트 힌트는 브라우저�
 
 ### 서버측 SDK
 
-서버측 SDK를 통해 클라이언트 힌트를 전달하는 방법에 대한 자세한 내용은 *Adobe Target SDK* 설명서에서 [클라이언트 힌트](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints){target=_blank}를 참조하십시오.
+서버측 SDK를 통해 클라이언트 힌트를 전달하는 방법에 대한 자세한 내용은 [클라이언트 힌트](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/)아래의 {target=_blank} *대상 타깃팅* 에서 *Adobe Target SDK* 설명서.

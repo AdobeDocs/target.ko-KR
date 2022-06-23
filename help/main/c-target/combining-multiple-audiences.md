@@ -4,9 +4,9 @@ description: 여러 대상(Adobe Experience Cloud 대상 및 [!DNL Target] 대�
 title: 여러 대상을 결합 하여 새 대상을 만들 수 있습니까?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '937'
 ht-degree: 65%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->다음 [!DNL Adobe Experience Platform] 모든 사용자가 소스를 사용할 수 있습니다. [!DNL Target] 고객이 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 에서 사용할 수 있는 대상 [!DNL Adobe Experience Platform] 이 주제에서 설명한 대로 그대로 사용하거나 기존 대상과 결합할 수 있습니다.
+>다음 [!DNL Adobe Experience Platform] 모든 사용자가 소스를 사용할 수 있습니다. [!DNL Target] 고객이 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). 에서 사용할 수 있는 대상 [!DNL Adobe Experience Platform] 이 주제에서 설명한 대로 그대로 사용하거나 기존 대상과 결합할 수 있습니다.
 >
 >자세한 내용은 [Adobe Experience Platform의 대상 사용](/help/main/c-target/c-audiences/audiences.md#aep).
 

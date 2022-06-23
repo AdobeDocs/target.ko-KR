@@ -4,9 +4,9 @@ description: Adobe에서 제외를 만드는 방법을 알아봅니다 [!DNL Tar
 title: Recommendations 활동에서 제외 기능을 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '619'
 ht-degree: 43%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 43%
 
    ![](assets/exclusions_list.png)
 
-   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](/help/main/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84)을 참조하십시오.
+   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://developer.adobe.com/target/implement/recommendations/)을 참조하십시오.
 
 1. **[!UICONTROL 제외 만들기]**&#x200B;를 클릭합니다.
 

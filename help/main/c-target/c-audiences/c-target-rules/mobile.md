@@ -4,9 +4,9 @@ description: 에서 대상을 만드는 방법을 알아봅니다 [!DNL Adobe Ta
 title: 모바일 옵션을 기준으로 방문자를 Target 할 수 있습니까?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '674'
 ht-degree: 40%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 40%
 
 >[!NOTE]
 >
->Mobile SDK를 사용하는 고객은 이 기능을 적용하기 위해 아무 작업도 수행할 필요가 없습니다. at.js를 사용하는 고객은 [at.js 버전 1.5.0으로 업그레이드](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)(또는 그 이상 버전)해야 합니다.
+>Mobile SDK를 사용하는 고객은 이 기능을 적용하기 위해 아무 작업도 수행할 필요가 없습니다. at.js를 사용하는 고객은 [at.js 버전 1.5.0으로 업그레이드](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)(또는 그 이상 버전)해야 합니다.
 
 모바일 장치 속성을 두 개 이상 선택할 수 있습니다. 여러 선택 항목이 OR 연산자로 결합됩니다.
 

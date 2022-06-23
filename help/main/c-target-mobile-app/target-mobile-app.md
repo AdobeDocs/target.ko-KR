@@ -5,10 +5,10 @@ title: 사용할 수 있나요 [!DNL Target] 모바일 앱과 함께 사용할 �
 feature: Implement Mobile
 role: Developer
 exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 82%
+source-wordcount: '167'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Adobe Target은 사용자 동작 및 모바일 컨텍스트를 기반으로 모�
 
 SDK 4.x를 이용하는 경우 모바일 앱 타깃팅 프로세스에는 다음 단계가 포함됩니다.
 
-1. [모바일 앱에서의 Target 작동 방식](/help/main/c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
-1. [SDK에서 Target 사용](/help/main/c-target-mobile-app/mobile-enable-target-in-sdk.md)
-1. [Target 위치 및 성공 지표 만들기](/help/main/c-target-mobile-app/mobile-create-location-and-metric.md)
-1. [사용자 지정 사용자 데이터 전송](/help/main/c-target-mobile-app/mobile-custom-user-data.md)
+1. [모바일 앱에서의 Target 작동 방식](https://developer.adobe.com/target/implement/mobile/how-target-works-mobile-apps/)
+1. [SDK에서 Target 사용](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/)
+1. [Target 위치 및 성공 지표 만들기](https://developer.adobe.com/target/implement/mobile/mobile-create-location-and-metric/)
+1. [사용자 지정 사용자 데이터 전송](https://developer.adobe.com/target/implement/mobile/mobile-custom-user-data/)

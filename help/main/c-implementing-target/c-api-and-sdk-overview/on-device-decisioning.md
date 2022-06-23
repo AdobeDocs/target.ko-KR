@@ -5,10 +5,10 @@ title: On-Device Decisioning 소개
 feature: Implement Server-side
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 10%
+source-wordcount: '700'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,10 @@ ht-degree: 10%
 
 On-Device Decisioning에서는 [!DNL Adobe Target] [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 서버에 대한 네트워크 요청을 차단하지 않고 거의 0에 가까운 지연에서 메모리 내 의사 결정을 수행합니다 [!DNL Adobe Target] 에지 네트워크.
 
-자세한 내용은 [On-Device Decisioning 소개](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) 에서 *[Adobe Target SDK 설명서](https://adobetarget-sdks.gitbook.io/docs/)*.
+자세한 내용은 다음 주제를 참조하십시오.
+
+* [클라이언트측을 위한 On-Device Decisioning](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [서버측을 위한 On-Device Decisioning](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ## 웨비나: [!DNL Adobe Target]의 디바이스에서 의사 결정을 통해 대기 시간 없이 개인화 및 테스트
 
@@ -26,7 +29,7 @@ On-Device Decisioning에서는 [!DNL Adobe Target] [!UICONTROL A/B 테스트] �
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## 우수 사례
+## 모범 사례
 
 Adobe은 On-Device Decisioning을 사용할 때 다음과 같은 우수 사례를 권장합니다.
 

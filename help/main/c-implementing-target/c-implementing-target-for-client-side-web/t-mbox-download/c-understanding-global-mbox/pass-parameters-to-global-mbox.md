@@ -5,10 +5,10 @@ title: 글로벌 mbox에 매개 변수를 전달하려면 어떻게 합니까?
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 60%
+source-wordcount: '389'
+ht-degree: 59%
 
 ---
 
@@ -22,7 +22,7 @@ JavaScript 함수를 호출하는 코드는 글로벌 mbox가 at.js의 일부로
 
 >[!NOTE]
 >
->글로벌 mbox뿐만 아니라 페이지의 모든 mbox에 매개 변수를 추가하려면 [targetPageParamsAll()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) 함수 위에 있어야 합니다.
+>글로벌 mbox뿐만 아니라 페이지의 모든 mbox에 매개 변수를 추가하려면 [targetPageParamsAll()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/) 함수 위에 있어야 합니다.
 
 다음 방법 중 하나로 `target-global-mbox` 함수를 사용하여 `targetPageParams()`에 매개 변수를 전달할 수 있습니다.
 

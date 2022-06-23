@@ -5,10 +5,10 @@ title: at.js에 대한 일반적인 질문과 답변은 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2517'
-ht-degree: 58%
+source-wordcount: '2586'
+ht-degree: 57%
 
 ---
 
@@ -113,7 +113,7 @@ at.js를 비동기식으로 로드하는 것은 브라우저 렌더링이 차단
 
 동기 DTM 구현을 통해 at.js를 배포하는 경우 페이지 상단에서 트리거된 페이지 로드 규칙을 통해 사전에 숨기는 코드 조각을 추가할 수 있습니다.
 
-자세한 내용은 [at.js에서 플리커를 관리하는 방법](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)을 참조하십시오.
+자세한 내용은 [at.js에서 플리커를 관리하는 방법](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)을 참조하십시오.
 
 ## at.js가 [!DNL Adobe Experience Manager] 통합(Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
@@ -121,7 +121,7 @@ FP-11577을 사용하는 [!DNL Adobe Experience Manager] 6.2(또는 이상)에�
 
 ## at.js를 사용하여 페이지 로드 플리커를 방지하려면 어떻게 합니까? {#section_4D78AAAE73C24E578C974743A3C65919}
 
-Target에서는 페이지 로드 플리커를 방지하기 위한 여러 가지 방법을 제공합니다. 자세한 내용은 [at.js를 사용하여 플리커 방지](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA)를 참조하십시오.
+Target에서는 페이지 로드 플리커를 방지하기 위한 여러 가지 방법을 제공합니다. 자세한 내용은 [at.js를 사용하여 플리커 방지](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)를 참조하십시오.
 
 ## at.js의 파일 크기는 얼마입니까? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
@@ -161,17 +161,17 @@ Safari 방문자를 지원하기 위해 더 나은 X-Domain이 &quot;비활성�
 
 [!DNL Target] 고객들이 테스트나 간단한 개념 입증 용도로 [!DNL Target]에 클라우드 기반 인스턴스를 사용하는 경우가 있습니다. 이러한 도메인 및 기타 많은 다른 도메인이 [공용 접미사 목록](https://publicsuffix.org/list/public_suffix_list.dat)에 나와 있습니다.
 
-최신 브라우저에서는 을 사용자 지정하지 않는 한 이러한 도메인을 사용하는 경우 쿠키를 저장하지 않습니다 `cookieDomain` targetGlobalSettings() 를 사용하여 설정하는 중입니다. 자세한 내용은 [Target에 클라우드 기반 인스턴스 사용](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)을 참조하십시오.
+최신 브라우저에서는 을 사용자 지정하지 않는 한 이러한 도메인을 사용하는 경우 쿠키를 저장하지 않습니다 `cookieDomain` targetGlobalSettings() 를 사용하여 설정하는 중입니다. 자세한 내용은 [Target에 클라우드 기반 인스턴스 사용](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)을 참조하십시오.
 
 ## at.js를 사용할 때 IP 주소를 쿠키 도메인으로 사용할 수 있습니까? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-예. [at.js 버전 1.2 이상](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 사용 중이라면 사용할 수 있습니다. [!DNL Adobe] 그러나 최신 버전을 사용하여 최신으로 유지하는 것이 좋습니다.
+예. [at.js 버전 1.2 이상](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 사용 중이라면 사용할 수 있습니다. [!DNL Adobe] 그러나 최신 버전을 사용하여 최신으로 유지하는 것이 좋습니다.
 
 >[!NOTE]
 >
 >at.js 버전 1.2 이상을 사용하는 경우에는 다음 예가 필요하지 않습니다.
 
-[targetGlobalSettings](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 사용하는 방법에 따라 at.js를 다운로드한 후 코드를 추가로 수정해야 할 수 있습니다. 예를 들어, 다양한 웹 사이트에서 [!DNL Target] 구현들에 대해 약간씩 다르게 설정해야 하지만 이러한 설정을 사용자 지정 JavaScript를 사용하여 동적으로 정의할 수 없다면, 파일을 다운로드한 후 각 웹 사이트에 업로드하기 전에 이러한 사용자 지정을 수동으로 수행하십시오.
+[targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 사용하는 방법에 따라 at.js를 다운로드한 후 코드를 추가로 수정해야 할 수 있습니다. 예를 들어, 다양한 웹 사이트에서 [!DNL Target] 구현들에 대해 약간씩 다르게 설정해야 하지만 이러한 설정을 사용자 지정 JavaScript를 사용하여 동적으로 정의할 수 없다면, 파일을 다운로드한 후 각 웹 사이트에 업로드하기 전에 이러한 사용자 지정을 수동으로 수행하십시오.
 
 다음 예에서는 `targetGlobalSettings()` at.js 함수를 사용하여 IP 주소를 지원하는 코드 조각을 삽입할 수 있습니다.
 
@@ -202,10 +202,10 @@ if (/^123\.456\.78\..*/g.test(window.location.hostname)) {
 * 페이지가 동적으로 작성되고 있으며 at.js가 요소를 찾을 수 없습니다.
 * 느린 네트워크로 인해 페이지가 천천히 빌드되고 있으므로 at.js가 DOM에서 선택기를 찾을 수 없습니다.
 * 를 활성화하는 페이지 구조[!UICONTROL y이(가) 실행 중입니다. 에서 활동을 다시 여는 경우 ]VEC(시각적 경험 작성기)에서 경고 메시지가 표시됩니다. 필요한 모든 요소를 찾을 수 있도록 활동을 업데이트합니다.
-* 기본 페이지가 [!UICONTROL 단일 페이지 애플리케이션] (SPA) 또는 페이지에 페이지 및 [!DNL at.js] &quot;선택기 폴링 메커니즘&quot;이 해당 요소를 찾을 수 없습니다. `selectorsPollingTimeout`을 늘리는 것이 도움이 될 수 있습니다. 자세한 내용은 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
+* 기본 페이지가 [!UICONTROL 단일 페이지 애플리케이션] (SPA) 또는 페이지에 페이지 및 [!DNL at.js] &quot;선택기 폴링 메커니즘&quot;이 해당 요소를 찾을 수 없습니다. `selectorsPollingTimeout`을 늘리는 것이 도움이 될 수 있습니다. 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
 * 지표가 설정된 URL과 관계없이 모든 클릭 추적 지표가 모든 페이지에 추가되려고 시도합니다. 그 자체로 문제가 안 되더라도 이렇게 되면 많은 메시지가 표시됩니다.
 
-   최상의 결과를 얻으려면 최신 버전의 [!DNL at.js]를 다운로드하여 사용하십시오. 자세한 내용은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 및 [at.js 다운로드](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)를 참조하십시오.
+   최상의 결과를 얻으려면 최신 버전의 [!DNL at.js]를 다운로드하여 사용하십시오. 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 및 [at.js 다운로드](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)를 참조하십시오.
 
 ## 도메인 tt.omtrdc.net이란 무엇입니까? [!DNL Target] 서버 호출이 로 연결됩니까? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
@@ -225,7 +225,7 @@ HTTPS를 통해 페이지를 로드한 경우에만 JavaScript를 통해 보안�
 
 ## 최상의 사례 시나리오에서 사용자가 콘텐츠를 숨기고, 대체하고, 표시하는 것과 관련된 페이지 로드에 가시적인 영향을 미치지 않을 것으로 기대할 수 있습니까? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js는 장기간 HTML BODY 또는 기타 DOM 요소를 사전에 숨기지 않으려고 시도하지만 이는 네트워크 조건 및 활동 설정에 따라 다릅니다. at.js에서는 본문 숨기기 CSS 스타일을 사용자 지정하는 데 사용할 수 있는 [설정](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)을 제공하므로 전체 HTML BODY를 공백으로 남기지 않고 페이지의 일부만 미리 숨길 수 있습니다. 이러한 부분에는 &quot;개인화&quot;해야 하는 DOM 요소가 포함될 것으로 예상됩니다.
+at.js는 장기간 HTML BODY 또는 기타 DOM 요소를 사전에 숨기지 않으려고 시도하지만 이는 네트워크 조건 및 활동 설정에 따라 다릅니다. at.js에서는 본문 숨기기 CSS 스타일을 사용자 지정하는 데 사용할 수 있는 [설정](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)을 제공하므로 전체 HTML BODY를 공백으로 남기지 않고 페이지의 일부만 미리 숨길 수 있습니다. 이러한 부분에는 &quot;개인화&quot;해야 하는 DOM 요소가 포함될 것으로 예상됩니다.
 
 ## 사용자가 활동 자격이 있는 평균 시나리오의 이벤트 순서는 무엇입니까? {#section_56E6F448E901403FB77DF02F44C44452}
 

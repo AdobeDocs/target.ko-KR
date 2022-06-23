@@ -5,10 +5,10 @@ title: 구현할 수 있습니까? [!DNL Target] 태그 관리자 없이
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: cba754e4cdd1ba7cfe3bb84039224f311b06c41d
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1794'
-ht-degree: 49%
+source-wordcount: '1824'
+ht-degree: 48%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->의 태그 [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 는 을 구현하기 위해 선호되는 방법입니다 [!DNL Target] 및 at.js 라이브러리. 다음 정보는에서 태그를 사용할 때에는 적용할 수 없습니다 [!DNL Adobe Experience Platform] 를 구현합니다 [!DNL Target].
+>의 태그 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 는 을 구현하기 위해 선호되는 방법입니다 [!DNL Target] 및 at.js 라이브러리. 다음 정보는에서 태그를 사용할 때에는 적용할 수 없습니다 [!DNL Adobe Experience Platform] 를 구현합니다 [!DNL Target].
 
 에 액세스하려면 [!UICONTROL 구현] 페이지를 클릭한 다음 **[!UICONTROL 관리]** > **[!UICONTROL 구현]**.
 
@@ -32,7 +32,7 @@ ht-degree: 49%
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] UI에서 또는 REST API를 사용하여 설정을 구성하는 대신, at.js 라이브러리에서 설정을 재정의할 수 있습니다. 자세한 내용은 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
+>[!DNL Target Standard/Premium] UI에서 또는 REST API를 사용하여 설정을 구성하는 대신, at.js 라이브러리에서 설정을 재정의할 수 있습니다. 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
 
 ## 계정 세부 사항
 
@@ -42,7 +42,7 @@ ht-degree: 49%
 | --- | --- |
 | [!UICONTROL 클라이언트 코드] | 클라이언트 코드는 [!DNL Target] API를 사용할 때 종종 필요한 클라이언트별 문자 시퀀스입니다. |
 | [!UICONTROL IMS 조직 ID] | 이 ID는 구현을 [!DNL Adobe Experience Cloud] 계정에 연결합니다. |
-| [!UICONTROL On-Device Decisioning] | On-Device Decisioning을 사용하려면 토글을 &quot;On&quot; 위치로 슬라이딩합니다.<br>On-Device Decisioning을 사용하여 A/B 및 [!UICONTROL 경험 타깃팅] (XT) 캠페인이 서버에 있고 거의 0개 이상의 지연에서 메모리 내 의사 결정을 수행합니다. 자세한 내용은 [On-Device Decisioning 소개](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) 에서 *[!DNL Adobe Target]SDK* 안내서. |
+| [!UICONTROL On-Device Decisioning] | On-Device Decisioning을 사용하려면 토글을 &quot;On&quot; 위치로 슬라이딩합니다.<br>On-Device Decisioning을 사용하여 A/B 및 [!UICONTROL 경험 타깃팅] (XT) 캠페인이 서버에 있고 거의 0개 이상의 지연에서 메모리 내 의사 결정을 수행합니다. 자세한 내용은 [On-Device Decisioning 소개](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/) 에서 *[!DNL Adobe Target]SDK* 안내서. |
 | [!UICONTROL 아티팩트에 기존의 모든 장치 내 의사 결정 자격이 있는 활동을 포함합니다.] | (조건부) On-Device Decisioning을 활성화하면 이 옵션이 표시됩니다.<br>On-Device Decisioning에 대한 자격이 있는 모든 라이브 Target 활동을 아티팩트에 자동으로 포함하려면 전환을 &quot;켜기&quot; 위치로 끕니다.<br>이 토글을 끄면 생성된 규칙 아티팩트에 포함되려면 모든 On-Device Decisioning 활동을 다시 만들고 활성화해야 합니다. |
 
 ## 구현 방법
@@ -59,7 +59,7 @@ ht-degree: 49%
 | --- | --- |
 | 페이지 로드 활성화(글로벌 mbox 자동 만들기) | 각 페이지 로드 시 자동으로 실행할 at.js 파일에 글로벌 mbox 호출을 포함할지 여부를 선택하십시오. |
 | 글로벌 mbox | 글로벌 mbox의 이름을 선택하십시오. 기본적으로 이 이름은 target-global-mbox입니다.<br>at.js를 사용하는 mbox 이름에 앰퍼샌드(&amp;)를 포함한 특수 문자를 사용할 수 있습니다. |
-| 시간 초과(초) | 정의된 기간 내에 [!DNL Target]이 컨텐츠에 응답하지 않으면 서버 호출 제한 시간이 초과되어 기본 컨텐츠가 표시됩니다. 방문자 세션 동안 추가 호출이 계속 시도됩니다. 기본값은 5초입니다.<br>at.js 라이브러리는 `XMLHttpRequest`에서 시간 제한 설정을 사용합니다. 시간 제한은 요청이 시작되면 시작되고 [!DNL Target]이 서버의 응답을 받으면 중지됩니다. 자세한 내용은 Mozilla Developer Network의 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)을 참조하십시오.<br>응답을 받기 전에 지정된 시간 제한이 초과되면, 기본 컨텐츠가 표시되고, 모든 데이터 수집은 [!DNL Target] 에지에서 발생하므로 방문자는 활동의 참가자로 카운트될 수 있습니다. 요청이 [!DNL Target] 에지에 도달하면 방문자가 카운트됩니다.<br>시간 제한 설정을 구성할 때에는 다음 사항을 고려하십시오.<ul><li>값이 너무 낮으면, 방문자가 활동의 참가자로 카운트될 수 있음에도 불구하고 사용자에게 대부분의 시간 동안 기본 컨텐츠가 표시될 수 있습니다.</li><li>값이 너무 높으면, 확장된 기간 동안 본문 숨기기를 사용하는 경우 방문자에게 웹 페이지의 빈 영역이 표시되거나 빈 페이지가 표시될 수 있습니다.</li></ul>mbox 응답 시간을 자세히 알아보려면 브라우저의 개발자 도구에서 네트워크 탭을 살펴보십시오. 타사 웹 성과 모니터링 도구(예: Catchpoint)를 사용할 수도 있습니다.<br>**참고**: [visitorApiTimeout](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) 설정은 [!DNL Target]이 너무 오랫동안 방문자 API 응답을 기다리지 않도록 해줍니다. 이 설정과 여기에 설명된 at.js에 대한 시간 초과 설정은 서로 영향을 주지 않습니다. |
+| 시간 초과(초) | 정의된 기간 내에 [!DNL Target]이 컨텐츠에 응답하지 않으면 서버 호출 제한 시간이 초과되어 기본 컨텐츠가 표시됩니다. 방문자 세션 동안 추가 호출이 계속 시도됩니다. 기본값은 5초입니다.<br>at.js 라이브러리는 `XMLHttpRequest`에서 시간 제한 설정을 사용합니다. 시간 제한은 요청이 시작되면 시작되고 [!DNL Target]이 서버의 응답을 받으면 중지됩니다. 자세한 내용은 Mozilla Developer Network의 [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout)을 참조하십시오.<br>응답을 받기 전에 지정된 시간 제한이 초과되면, 기본 컨텐츠가 표시되고, 모든 데이터 수집은 [!DNL Target] 에지에서 발생하므로 방문자는 활동의 참가자로 카운트될 수 있습니다. 요청이 [!DNL Target] 에지에 도달하면 방문자가 카운트됩니다.<br>시간 제한 설정을 구성할 때에는 다음 사항을 고려하십시오.<ul><li>값이 너무 낮으면, 방문자가 활동의 참가자로 카운트될 수 있음에도 불구하고 사용자에게 대부분의 시간 동안 기본 컨텐츠가 표시될 수 있습니다.</li><li>값이 너무 높으면, 확장된 기간 동안 본문 숨기기를 사용하는 경우 방문자에게 웹 페이지의 빈 영역이 표시되거나 빈 페이지가 표시될 수 있습니다.</li></ul>mbox 응답 시간을 자세히 알아보려면 브라우저의 개발자 도구에서 네트워크 탭을 살펴보십시오. 타사 웹 성과 모니터링 도구(예: Catchpoint)를 사용할 수도 있습니다.<br>**참고**: [visitorApiTimeout](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 설정은 [!DNL Target]이 너무 오랫동안 방문자 API 응답을 기다리지 않도록 해줍니다. 이 설정과 여기에 설명된 at.js에 대한 시간 초과 설정은 서로 영향을 주지 않습니다. |
 | 프로필 라이프타임 | 이 설정은 방문자 프로필이 저장되어 있는 기간을 결정합니다. 기본적으로, 프로필은 2주 동안 저장됩니다. 이 설정은 최대 90일까지 늘릴 수 있습니다.<br>프로필 라이프타임 설정을 변경하려면 [고객 지원팀](https://helpx.adobe.com/kr/contact/enterprise-support.ec.html)에 문의하십시오. |
 
 ### 기본 구현 방법
@@ -87,21 +87,16 @@ at.js 설정을 편집하려면 **[!UICONTROL 편집]** 원하는 at.js 버전 �
 
 버전 2.5.0부터 at.js는 온장치 의사 결정을 제공합니다. On-Device Decisioning을 사용하여 [A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md) 및 [경험 타깃팅](/help/main/c-activities/t-experience-target/experience-target.md) (XT) 브라우저에 대한 네트워크 요청을 차단하지 않고 인메모리 의사 결정을 수행하는 활동 [!DNL Adobe Target] 에지 네트워크.
 
-자세한 내용은 다음 문서를 참조하십시오.
+자세한 내용은 다음 주제를 참조하십시오.
 
-* 고객측: [at.js에 대한 On-Device Decisioning](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
-* 서버측: [On-Device Decisioning 소개](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* 서버측: [On-Device Decisioning](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md){target=_blank}
-* Node.js: [조직에 대한 On-Device Decisioning 활성화](https://adobetarget-sdks.gitbook.io/docs/getting-started/node.js){target=_blank}
-* Java: [조직에 대한 On-Device Decisioning 활성화](https://adobetarget-sdks.gitbook.io/docs/getting-started/java){target=_blank}
-* .NET: [조직에 대한 On-Device Decisioning 활성화](https://adobetarget-sdks.gitbook.io/docs/getting-started/dotnet){target=_blank}
-* 파이톤: [조직에 대한 On-Device Decisioning 활성화](https://adobetarget-sdks.gitbook.io/docs/getting-started/python){target=_blank}
+* [클라이언트측을 위한 On-Device Decisioning](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [서버측을 위한 On-Device Decisioning](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ### 프로필 API
 
 API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성화하고 프로필 인증 토큰을 생성합니다.
 
-자세한 내용은 [프로필 API 설정](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+자세한 내용은 [프로필 API 설정](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
 
 ### 디버거 도구
 
@@ -119,11 +114,11 @@ API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성
 * 전체 IP 난독화
 * 없음
 
-자세한 내용은 [개인 정보](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)를 참조하십시오.
+자세한 내용은 [개인 정보](https://developer.adobe.com/target/before-implement/privacy/privacy/)를 참조하십시오.
 
 >[!NOTE]
 >
->at.js 버전 0.9.3 및 이전 버전에서 레거시 브라우저 지원 옵션을 사용할 수 있었습니다. 이 선택 사항은 at.js 버전 0.9.4에서 제거되었습니다. at.js에서 지원하는 브라우저 목록이 필요하면 [지원되는 브라우저](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)를 참조하십시오.<br>이전 브라우저는 CORS(Cross Origin Resource Sharing)를 완전히 지원하지는 않는 오래된 브라우저입니다. 이러한 브라우저에는 버전 11 이전의 Internet Explorer 브라우저와 Safari 버전 6 및 그 이전 버전이 포함됩니다. 이전 브라우저 지원이 비활성화되어 있으면, 이러한 브라우저에서는 Target이 보고서에서 컨텐츠를 전달하거나 방문자 수를 카운트하지 않았습니다. 이 옵션을 활성화한 경우 좋은 고객 경험을 위해 이전 브라우저에서 품질 보증을 수행하는 것이 좋습니다.
+>at.js 버전 0.9.3 및 이전 버전에서 레거시 브라우저 지원 옵션을 사용할 수 있었습니다. 이 선택 사항은 at.js 버전 0.9.4에서 제거되었습니다. at.js에서 지원하는 브라우저 목록이 필요하면 [지원되는 브라우저](https://developer.adobe.com/target/before-implement/supported-browsers/)를 참조하십시오.<br>이전 브라우저는 CORS(Cross Origin Resource Sharing)를 완전히 지원하지는 않는 오래된 브라우저입니다. 이러한 브라우저에는 버전 11 이전의 Internet Explorer 브라우저와 Safari 버전 6 및 그 이전 버전이 포함됩니다. 이전 브라우저 지원이 비활성화되어 있으면, 이러한 브라우저에서는 Target이 보고서에서 컨텐츠를 전달하거나 방문자 수를 카운트하지 않았습니다. 이 옵션을 활성화한 경우 좋은 고객 경험을 위해 이전 브라우저에서 품질 보증을 수행하는 것이 좋습니다.
 
 ## at.js 다운로드 {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -131,9 +126,9 @@ API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성
 
 >[!NOTE]
 >
->* [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 는 을 구현하기 위해 선호되는 방법입니다 [!DNL Target] 및 at.js 라이브러리. 다음 정보는에서 태그를 사용할 때에는 적용할 수 없습니다 [!DNL Adobe Experience Platform] 를 구현합니다 [!DNL Target].
+>* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 는 을 구현하기 위해 선호되는 방법입니다 [!DNL Target] 및 at.js 라이브러리. 다음 정보는에서 태그를 사용할 때에는 적용할 수 없습니다 [!DNL Adobe Experience Platform] 를 구현합니다 [!DNL Target].
 >
->* 다음 [!DNL Target] 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
+>* 다음 [!DNL Target] 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오.
 
 
 ### 를 사용하여 at.js 다운로드 [!DNL Target] 인터페이스 {#section_1F5EE401C2314338910FC57F9592894E}
@@ -185,7 +180,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
 
    >[!IMPORTANT]
    >
-   >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
+   >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오.
 
    이 URL을 로드하면 사용자 지정된 [!DNL at.js] 파일의 다운로드가 시작됩니다.
 
@@ -193,7 +188,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
 
 at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현되어야 합니다.
 
-의 태그와 같이 태그 관리자를 사용하지 않는 일반적인 Target 구현 [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) 의 모습은 다음과 같습니다.
+의 태그와 같이 태그 관리자를 사용하지 않는 일반적인 Target 구현 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 의 모습은 다음과 같습니다.
 
 ```
 <!doctype html> 
@@ -252,7 +247,7 @@ at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현�
 * HTML5 Doctype(예: `<!doctype html>`) 를 사용해야 합니다. 지원되지 않거나 이전 버전의 doctypes으로 Target이 요청을 작성할 수 없습니다.
 * 사전 연결 및 미리 가져오기는 웹 페이지 로드 속도를 높일 수 있는 옵션입니다. 이러한 구성을 사용하는 경우 `<client code>` 를 사용하여 at.js 또는 mbox.js 참조 위에서 **[!UICONTROL 관리]** > **[!UICONTROL 구현] 페이지.
 * 데이터 계층이 있는 경우 at.js가 로드되기 전에 페이지의 `<head>`에 가능한 많은 항목을 정의하는 것이 최적입니다. 이 배치는 개인화를 위해 Target에서 이 정보를 사용할 수 있는 최대 기능을 제공합니다.
-* `targetPageParams()`, `targetPageParamsAll()`, Data Providers, `targetGlobalSettings()`와 같은 특수 Target 함수는 데이터 계층 뒤, at.js 로드 전에 정의해야 합니다. 또는 이러한 함수를 [!UICONTROL 라이브러리 헤더] 섹션 [!UICONTROL at.js 설정 편집] 페이지 및 at.js 라이브러리 자체의 일부로 저장되었습니다. 이러한 함수에 대한 자세한 내용은 [at.js 함수](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+* `targetPageParams()`, `targetPageParamsAll()`, Data Providers, `targetGlobalSettings()`와 같은 특수 Target 함수는 데이터 계층 뒤, at.js 로드 전에 정의해야 합니다. 또는 이러한 함수를 [!UICONTROL 라이브러리 헤더] 섹션 [!UICONTROL at.js 설정 편집] 페이지 및 at.js 라이브러리 자체의 일부로 저장되었습니다. 이러한 함수에 대한 자세한 내용은 [at.js 함수](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 * jQuery와 같은 JavaScript 헬퍼 라이브러리를 사용하는 경우 Target 경험을 작성할 때 Target 앞에 포함시키면 구문 및 메서드를 사용할 수 있습니다.
 * 페이지의 `<head>`에 at.js를 포함합니다.
 

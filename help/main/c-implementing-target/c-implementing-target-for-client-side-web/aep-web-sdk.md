@@ -5,10 +5,10 @@ title: Experience Platform 웹 SDK를 사용하여 어떻게 구현합니까?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 8%
+source-wordcount: '559'
+ht-degree: 16%
 
 ---
 
@@ -32,11 +32,11 @@ ht-degree: 8%
 | 기능 | 설명/링크 |
 | --- | --- |
 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 에서 QA URL 사용 [!DNL Adobe Target] 변경되지 않는 미리 보기 링크를 통한 간편한 엔드 투 엔드 활동 QA, 선택적 대상 타깃팅, 라이브 활동 데이터에서 세그멘테이션된 상태를 유지하는 QA 보고를 수행할 수 있습니다. [!UICONTROL 활동 QA] 을(를) 완전히 테스트할 수 있도록 해줍니다. [!DNL Target] 활동을 라이브로 시작하기 전에 활동.<br>자세한 내용은 [Target JavaScript 라이브러리 QA 모드 호환성](/help/main/c-activities/c-activity-qa/activity-qa.md#compatibility) 및 [미리 보기 URL](/help/main/c-activities/c-activity-qa/activity-qa.md#preview). |
-| [[!UICONTROL Analytics for Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T)는 을 기반으로 활동을 만들 수 있는 교차 솔루션 통합입니다 [!DNL Analytics] 전환 지표 및 대상 세그먼트 . A4T 통합을 사용하여 다음을 사용할 수 있습니다 [!DNL Analytics] 보고서를 사용하여 결과를 검사합니다.<br>자세한 내용은 [지원되는 활동 유형](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 및 [Adobe Experience Platform Web SDK 구현을 위한 구현 단계](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
+| [[!UICONTROL Analytics for Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T)은 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 생성할 수 있는 솔루션 간 통합입니다. A4T 통합을 통해 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다.<br>자세한 내용은 [지원되는 활동 유형](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 및 [Adobe Experience Platform Web SDK 구현을 위한 구현 단계](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
 | [대상자](/help/main/c-target/target.md) | 의 대상 [!DNL Adobe Target] 타깃팅된 활동에서 콘텐츠 및 경험을 보는 사용자를 결정합니다.<br>자세한 내용은 [대상 목록 사용](/help/main/c-target/c-audiences/audiences.md#use-list) 및 [여러 대상 결합](/help/main/c-target/combining-multiple-audiences.md). |
 | [대상 만들기](/help/main/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다.<ul>자세한 내용은 [다음에서 대상 사용 [!DNL Adobe Experience Platform]](/help/main/c-target/c-audiences/audiences.md#aep). |
 | [오퍼 결정](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | Adobe Journey Optimizer에서 만든 오퍼 결정을 Target 활동(수동 A/B 테스트 또는 경험 타깃팅)에 추가하여 웹 및 모바일에서 방문자를 위한 다음 최상의 오퍼를 결정하고 전달합니다. |
-| [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오 | 리디렉션 오퍼로 인해 방문자의 브라우저가 새 페이지로 리디렉션됩니다.<br>자세한 내용은 [다음을 수행합니다. [!DNL Adobe Experience Platform Web SDK] a4T에 대한 리디렉션 오퍼를 지원합니까?](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
+| [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 리디렉션 오퍼로 인해 방문자의 브라우저가 새 페이지로 리디렉션됩니다.<br>자세한 내용은 [다음을 수행합니다. [!DNL Adobe Experience Platform Web SDK] a4T에 대한 리디렉션 오퍼를 지원합니까?](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [응답 토큰](/help/main/administrating-target/response-tokens.md) | 응답 토큰을 사용하면 Target 데이터를 Google Analytics 및 기타 타사 통합에 보낼 수 있습니다.<br>자세한 내용은 [Platform Web SDK를 통해 Google Analytics에게 데이터 보내기](/help/main/administrating-target/response-tokens.md#platform-web-sdk) 를 입력하여 이 작업을 수행하는 방법에 대한 코드 샘플을 볼 수 있습니다. |
 | [단일 페이지 애플리케이션 구현](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) 에서 *Platform Web SDK 개요* 안내서. | [!UICONTROL Adobe Experience Platform Web SDK] 에서는 단일 페이지 애플리케이션(SPA)과 같은 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. |
-| [TLS(전송 계층 보안) 암호화 변경 사항](/help/main/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS(Transport Layer Security)는 가장 높은 보안 표준을 유지 관리하고 고객 데이터의 안전을 높이는 데 도움이 됩니다. |
+| [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | TLS(Transport Layer Security)는 가장 높은 보안 표준을 유지 관리하고 고객 데이터의 안전을 높이는 데 도움이 됩니다. |

@@ -5,9 +5,9 @@ title: 의 다양한 문자, 크기 및 기타 제한은 무엇입니까? [!DNL 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f99fc9e122c57fb4e633fec9a3af7f8ffd40b183
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1348'
 ht-degree: 96%
 
 ---
@@ -177,7 +177,7 @@ ht-degree: 96%
 
    일괄 게재 API를 사용하는 경우, 제한은 일괄 요청당 50 mbox입니다.
 
-   모바일 서비스 SDK에서 [일괄 게재 API](https://developers.adobetarget.com/api/#server-side-batch-delivery) 를 사용하는 경우 50개의 mbox 매개 변수, 50개의 프로필 매개 변수 및 50개의 다른 매개 변수 유형에 대한 제한은 API 자체의 제한입니다. 일괄 게재 API를 사용하여 이들 번호를 더 많이 포함하는 요청을 보낼 수 없습니다. 요청에 이러한 제한 이상이 포함된 경우 API는 다음 오류 메시지를 반환합니다.
+   모바일 서비스 SDK에서 일괄 게재 API 를 사용하는 경우 50개의 mbox 매개 변수, 50개의 프로필 매개 변수 및 50개의 다른 매개 변수 유형에 대한 제한은 API 자체의 제한입니다. 일괄 게재 API를 사용하여 이들 번호를 더 많이 포함하는 요청을 보낼 수 없습니다. 요청에 이러한 제한 이상이 포함된 경우 API는 다음 오류 메시지를 반환합니다.
 
    &quot;mboxParameters 수는 50개를 초과할 수 없습니다.&quot;
 

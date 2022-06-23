@@ -5,10 +5,10 @@ title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 25%
+source-wordcount: '1676'
+ht-degree: 26%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 25%
 
 | Target SDK | 제안된 작업 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK를 다운로드하는 방법에 대한 자세한 내용은 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 에서 *Platform Web SDK 개요* 안내서. 각 버전의 Platform Web SDK의 새로운 기능에 대한 내용은 [릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 에서 *Platform Web SDK 개요* 안내서. |
-| [at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 [at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 내용은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js에 존재했지만 (이제 사용되지 않음) at.js에는 존재하지 않았던 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK를 다운로드하는 방법에 대한 자세한 내용은 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 에서 *Platform Web SDK 개요* 안내서. 각 버전의 Platform Web SDK의 새로운 기능에 대한 내용은 [릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 에서 *Platform Web SDK 개요* 안내서. |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/) | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js에 존재했지만 (이제 사용되지 않음) at.js에는 존재하지 않았던 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
 
 ## 응답 토큰 사용 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ ht-degree: 25%
    자세한 내용을 확인하십시오:
 
    * **Platform 웹 SDK**: 자세한 내용은 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 에서 *Platform Web SDK 개요* 안내서.
-   * **at.js**: 자세한 내용은 [at.js 다운로드 를 참조하십시오](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   * **at.js**: 자세한 내용은 [at.js 다운로드 를 참조하십시오](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
 
 1. in [!DNL Target]를 클릭합니다. **[!UICONTROL 관리]** > **[!UICONTROL 응답 토큰]**.
 
@@ -149,7 +149,7 @@ Handle 객체 클래스를 사용합니다. 이 클래스는 메타 데이터 �
 
 ### ![at.js 배지](/help/main/assets/atjs.png) 사용자 지정 이벤트를 사용하는 at.js
 
-[at.js 사용자 지정 이벤트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)를 사용하여 응답을 수신하고 응답 토큰을 읽습니다.[!DNL Target]
+[at.js 사용자 지정 이벤트](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/)를 사용하여 응답을 수신하고 응답 토큰을 읽습니다.[!DNL Target]
 
 다음 코드 샘플은 [!DNL at.js] 사용자 지정 이벤트 핸들러를 HTML 페이지에 바로 추가합니다.
 
@@ -470,7 +470,7 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 
 >[!NOTE]
 >
->다음 [!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전 [!UICONTROL 설정])은 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 재설계되었습니다. 다음 비디오의 정보가 올바릅니다. 그러나 옵션은 약간 다른 위치에 있습니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전명: [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보가 올바릅니다. 그러나 옵션은 약간 다른 위치에 있습니다.
 >
 >비디오에 대한 언급 `option.name` 및 `option.id`: `offer.name` 및 `offer.id`각각 입니다.
 

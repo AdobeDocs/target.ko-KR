@@ -5,10 +5,10 @@ title: at.js 버전 1.x에서 버전 2.x로 업그레이드하려면 어떻게 �
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 89%
+source-wordcount: '2874'
+ht-degree: 88%
 
 ---
 
@@ -24,7 +24,7 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 
 ## at.js 2.*x 시스템 다이어그램*
 
-다음 다이어그램은 보기가 있는 at.js 2.*x*&#x200B;의 워크플로우를 이해하고 이를 통해 어떻게 SPA 통합이 향상되는지를 이해하는 데 도움이 됩니다. at.js 2.*x*&#x200B;에서 사용되는 개념의 도입을 보다 잘 이해하려면 [단일 페이지 애플리케이션 구현](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)을 참조하십시오.
+다음 다이어그램은 보기가 있는 at.js 2.*x*&#x200B;의 워크플로우를 이해하고 이를 통해 어떻게 SPA 통합이 향상되는지를 이해하는 데 도움이 됩니다. at.js 2.*x*&#x200B;에서 사용되는 개념의 도입을 보다 잘 이해하려면 [단일 페이지 애플리케이션 구현](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)을 참조하십시오.
 
 ![at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)&#x200B;에서 Target 흐름
 
@@ -32,12 +32,12 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 | --- | --- |
 | 1 | 사용자가 인증되면 호출에서 [!DNL Experience Cloud ID]를 반환합니다. 다른 호출은 고객 ID를 동기화합니다. |
 | 2 | at.js 라이브러리는 동기식으로 로드되며 문서 본문을 숨깁니다.<br>at.js는 페이지에 구현된 코드 조각을 미리 숨기는 선택 사항을 사용하여 비동기식으로 로드할 수도 있습니다. |
-| 3 | 모든 구성된 매개 변수(MCID, SDID 및 고객 ID)를 포함하는 페이지 로드 요청이 이루어집니다. |
+| 3 | 모든 구성된 매개변수(MCID, SDID 및 고객 ID)를 포함하는 페이지 로드 요청이 이루어집니다. |
 | 4 | 프로필 스크립트가 실행된 다음 프로필 저장소에 반영됩니다. 저장소는 대상 라이브러리의 적절한 대상(예: Adobe Analytics, Audience Management 등에서 공유되는 대상)을 요청합니다.<br>고객 속성은 묶음 프로세스를 통해 프로필 저장소로 전송됩니다. |
-| 5 | [!DNL Target]에서는 URL 요청 매개 변수 및 프로필 데이터를 기반으로 현재 페이지 및 미래 보기를 위해 방문자에게 반환할 활동 및 경험을 결정합니다. |
-| 6 | 타깃팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>현재 페이지의 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다.<br>`triggerView()`를 통해 보기를 트리거할 때 추가적인 서버 호출 없이 즉시 적용할 수 있도록 브라우저에서 캐시된 SPA의 사용자 동작에 대한 결과로서 표시되는 보기를 위한 타깃팅된 콘텐츠입니다. |
+| 5 | [!DNL Target]에서는 URL 요청 매개변수 및 프로필 데이터를 기반으로 현재 페이지 및 미래 보기를 위해 방문자에게 반환할 활동 및 경험을 결정합니다. |
+| 6 | 타기팅된 콘텐츠는 다시 페이지로 전송되며, 원할 경우 추가적인 개인화를 위한 프로필 값을 포함할 수 있습니다.<br>현재 페이지의 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다.<br>`triggerView()`를 통해 보기를 트리거할 때 추가적인 서버 호출 없이 즉시 적용할 수 있도록 브라우저에서 캐시된 SPA의 사용자 동작에 대한 결과로서 표시되는 보기를 위한 타깃팅된 콘텐츠입니다. |
 | 7 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
-| 8 | 타깃팅된 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다.그런 다음 <br>Analytics 데이터는 Analytics for Target (A4T) 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
+| 8 | 타기팅된 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다.그런 다음 <br>Analytics 데이터는 Analytics for Target (A4T) 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
 
 이제 SPA에서 `triggerView()`가 구현될 때 그곳이 어디든, 보기 및 작업은 캐시에서 검색되고 서버 호출 없이 사용자에게 표시됩니다. `triggerView()`는 또한 노출 수를 증가시키고 기록하기 위해 [!DNL Target] 백엔드에 알림을 요청합니다.
 
@@ -46,15 +46,15 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 | 호출 | 세부 사항 |
 | --- | --- |
 | 1 | 보기를 렌더링하고 작업을 적용하여 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
-| 2개 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
-| 3 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 2개 | 보기용으로 타기팅된 콘텐츠를 캐시에서 읽습니다. |
+| 3 | 타기팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 [!DNL Target] 프로필 스토어에 전송됩니다. |
 | 5개 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
 
 ## at.js 2.*x* {#deploy-atjs-200}
 
-1. at.js 2.*x* 의 태그를 통해 [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 확장.
+1. at.js 2.*x* 의 태그를 통해 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 확장.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 
    또는
 
-   Target UI를 사용하여 at.js 2.*x*&#x200B;를 수동으로 다운로드하고 [선택한 방법](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md)으로 배포합니다.
+   Target UI를 사용하여 at.js 2.*x*&#x200B;를 수동으로 다운로드하고 [선택한 방법](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/)으로 배포합니다.
 
 ## 사용 중단된 at.js 함수
 
@@ -72,7 +72,7 @@ at.js 2.*x*&#x200B;에서는 더 이상 사용되지 않는 몇 가지 함수가
 >
 >at.js 2.*x*&#x200B;를 배포할 때 이렇게 사용되지 않는 함수가 여전히 사이트에서 사용되면 콘솔 경고가 표시됩니다. 업그레이드할 때 권장되는 접근 방법은 스테이징 환경에서 at.js 2.*x*&#x200B;의 배포를 테스트하고 콘솔에 기록된 모든 경고를 하나하나 다 확인하고, 사용이 중단된 함수를 at.js 2.*x*&#x200B;에 도입된 새로운 함수로 변환하는 것입니다.
 
-아래에는 사용이 중단된 함수와 그에 해당하는 새로운 함수가 있습니다. 전체 함수 목록이 필요하면 [at.js 함수](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)를 참조하십시오.
+아래에는 사용이 중단된 함수와 그에 해당하는 새로운 함수가 있습니다. 전체 함수 목록이 필요하면 [at.js 함수](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)를 참조하십시오.
 
 >[!NOTE]
 >at.js 2.** x는 `mboxDefault` 표시 요소를 더 이상 자동으로 사전에 숨기지 않습니다. 따라서 고객은 사이트에서 수동으로 또는 태그 관리자를 통해 사전 숨김 로직을 수용해야 합니다.
@@ -288,7 +288,7 @@ Target에서 타사 쿠키가 `<CLIENTCODE>.tt.omtrdc.net`에 저장됩니다. �
 
 그러나 at.js 2.*x*&#x200B;에서는 HTTP GET이 더 이상 사용되지 않고 대신 HTTP POST를 사용합니다. 이제 HTTP POST가 at.js 2.*x*&#x200B;를 통해 Target Edge 서버에 JSON 페이로드를 전송하는데 사용됩니다. 이것은 브라우저가 타사 쿠키를 지원하는지 여부를 확인하는 리디렉션 요청이 이제 중단됨을 의미합니다. 이것은 HTTP GET 요청은 멱등 트랜잭션이 아니지만 HTTP POST는 비멱등이어서 임의로 반복되면 안 되기 때문입니다. 따라서 at.js 2.*x*&#x200B;의 도메인 간 추적은 더 이상 지원되지 않습니다. at.js 1.*x*&#x200B;는 도메인 간 추적을 위한 기본 지원을 제공합니다.
 
-도메인 간 추적을 사용하려면 [ECID 라이브러리 v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR) 를 at.js 2.*x*&#x200B;에서 지원되지 않습니다. ECID 라이브러리는 도메인 간에 방문자를 식별하는 데 사용되는 영구 ID를 관리하기 위해 존재합니다.
+도메인 간 추적을 사용하려면 [ECID 라이브러리 v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR) 를 at.js 2.*x*. ECID 라이브러리는 도메인 간에 방문자를 식별하는 데 사용되는 영구 ID를 관리하기 위해 존재합니다.
 
 >[!NOTE]
 >
@@ -333,7 +333,7 @@ at.js 사용자 지정 이벤트는 `triggerView()`에도 적용할 수 있습�
 * devicePixelRatio
 * vst.* 매개 변수 ([아래 참조](#vst))
 
-### at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개 변수 {#vst}
+### at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개변수 {#vst}
 
 at.js 1.*x* vst를 사용할 수 있었습니다.* mbox 매개 변수를 사용하여 대상을 만듭니다. 이는 at.js 1.*x* mbox 매개 변수를 로 전송 [!DNL Target] 백 엔드. at.js 2로 마이그레이션한 후.*x* at.js 2.*x* mbox 매개 변수를 다르게 보냅니다.
 
@@ -365,10 +365,10 @@ at.js 1.*x* vst를 사용할 수 있었습니다.* mbox 매개 변수를 사용�
 | 대상자 | 예 |
 | 고객 속성 | 예 |
 | AEM 경험 구성요소 | 예 |
-| [!DNL Adobe Experience Platform] 확장 | [예](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] 확장 | [예](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | 디버거 | 예 |
 | Auditor | at.js 2.*x*&#x200B;에 대한 규칙이 아직 업데이트되지 않음 |
-| 옵트인 | 아니오. [GDPR](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md)에 대한 옵트인 지원은 [at.js 버전 2.1.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)에서 지원됩니다. |
+| 옵트인 | 아니오. [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)에 대한 옵트인 지원은 [at.js 버전 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)에서 지원됩니다. |
 | Adobe Target에서 제공하는 AEM 고급 개인화 | 아니오 |
 
 ### 기능
@@ -394,7 +394,7 @@ at.js 1.*x* vst를 사용할 수 있었습니다.* mbox 매개 변수를 사용�
 | `?mboxDisable` | 예 |
 | `?mboxDisable` | 예 |
 | `?mboxTrace` | 예 |
-| `?mboxSession` | 아니오 |
+| `?mboxSession` | 아니요 |
 | `?mboxOverride.browserIp` | 예 |
 
 ## 응답 토큰 {#response-tokens}

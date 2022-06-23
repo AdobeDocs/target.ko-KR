@@ -4,10 +4,10 @@ description: 페이지에 예상된 콘텐츠가 표시되지 않을 경우 문�
 title: 콘텐츠 전달 문제를 해결하려면 어떻게 합니까?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1649'
-ht-degree: 98%
+source-wordcount: '1664'
+ht-degree: 97%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)를 참조하십시오.
+자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)를 참조하십시오.
 
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
 ## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
+사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
 
 ## 요소가 Adobe Experience Manager 개인화에도 속하면 Target 콘텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 

@@ -4,10 +4,10 @@ description: 에서 대상을 사용하는 방법을 알아봅니다. [!DNL Adob
 title: 대상 목록을 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1333'
-ht-degree: 23%
+source-wordcount: '1339'
+ht-degree: 26%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 23%
 
    >[!NOTE]
    >
-   >다음 [!DNL Adobe Experience Platform] 모든 사용자가 소스를 사용할 수 있습니다. [!DNL Target] 고객이 [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). 에서 사용할 수 있는 대상 [!DNL Adobe Experience Platform] 는 그대로 또는 로 사용할 수 있습니다. [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md).
+   >다음 [!DNL Adobe Experience Platform] 모든 사용자가 소스를 사용할 수 있습니다. [!DNL Target] 고객이 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). 에서 사용할 수 있는 대상 [!DNL Adobe Experience Platform] 는 그대로 또는 로 사용할 수 있습니다. [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md).
    >
    >사용자에게 [!UICONTROL 승인자] 또는 위 상태 [!DNL Target] 를 [!DNL Target] [!UICONTROL 대상] AEP/RTCDP의 카드([!DNL Real-time Customer Data Platform]).
    >
@@ -109,7 +109,7 @@ Keep the following points in mind as you work with imported audiences:
 
 [!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCDP), 구축 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
-연결 [!DNL Target] 변환 후 [!DNL Real-time Customer Data Platform], 고객은 이전에 액세스할 수 없었던 새로운 세그먼트를 잠금 해제하여 웹 개인화를 강화할 수 있습니다 [!DNL Target] 고객 웹 방문의 첫 페이지에서 실시간 개인화를 사용하도록 설정하려면 다음을 수행하십시오. 에서 만든 대상 사용 [!DNL Adobe Experience Platform] 더 풍부한 개인화를 위해 사용 가능한 데이터 포인트를 확장할 수 있습니다.
+[!DNL Target]을 [!DNL Real-time Customer Data Platform]에 연결함으로써 고객은 웹 방문의 첫 페이지에서 실시간 밀리초 개인화를 가능하게 하기 위해 이전에는 [!DNL Target]에 액세스할 수 없었던 새로운 세그먼트를 잠금 해제하여 웹 개인화를 강화할 수 있습니다. [!DNL Adobe Experience Platform]에서 생성된 대상을 사용하면 사용 가능한 데이터 포인트를 확장하여 보다 풍부한 개인화를 수행할 수 있습니다.
 
 이 통합은 RTCDP를 사용하여 주요 사용 사례를 잠금 해제합니다.
 
@@ -150,11 +150,11 @@ Keep the following points in mind as you work with imported audiences:
 
 | 시나리오 | 에지 세그먼트(밀리초 평가) | 스트리밍 세그먼트(분 평가) | 배치 세그먼트 평가 |
 | --- | --- | --- | --- |
-| 이벤트/데이터 원본 [!DNL Adobe Experience Platform] SDK | 예 | 예 | 해당 없음 |
-| 이벤트 출처 [!UICONTROL at.js] | 아니오 | 예 | 해당 없음 |
-| 이벤트 출처 [!DNL Target Mobile] SDK | 아니오 | 예 | 해당 없음 |
-| 일괄 업로드에서 이벤트 | 아니오 | 아니오 | 예 |
-| 오프라인 데이터(스트림)의 이벤트 | 아니오 | 예 | 예 |
+| 이벤트/데이터 원본 [!DNL Adobe Experience Platform] SDK | 예 | 예 | 해당 사항 없음 |
+| 이벤트 출처 [!UICONTROL at.js] | 아니요 | 예 | 해당 사항 없음 |
+| 이벤트 출처 [!DNL Target Mobile] SDK | 아니요 | 예 | 해당 사항 없음 |
+| 일괄 업로드에서 이벤트 | 아니오 | 아니요 | 예 |
+| 오프라인 데이터(스트림)의 이벤트 | 아니요 | 예 | 예 |
 
 ### 비디오: 실시간 CDP와 [!DNL Adobe Target]{#RTCDP}
 

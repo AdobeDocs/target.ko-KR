@@ -6,24 +6,18 @@ title: Target을 구현하려면 어떻게 합니까?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 10%
+source-wordcount: '89'
+ht-degree: 8%
 
 ---
 
 # Target 구현
 
-사용하기 전에 [!DNL Adobe Target]를 사이트에 구현해야 합니다. 기본 개념 및 용어에 익숙해지십시오. [!DNL Target] 인프라와 통합되며, [!DNL Target] 시스템.
+사용하기 전에 [!DNL Adobe Target]를 사이트에 구현해야 합니다.
 
-다음 섹션은 구현 방법을 이해하는 데 도움이 됩니다 [!DNL Target] 환경:
+>[!NOTE]
+>
+>이 섹션의 정보는 [Adobe Target 개발자 안내서 포털](https://developer.adobe.com/target/){target=_blank}. 책갈피를 업데이트하십시오.
 
-| 섹션 | 세부 사항 |
-| --- | --- |
-| [구현하기 전에](c-considerations-before-you-implement-target/considerations-before-you-implement-target.md) | 다음을 포함한 개발자용 문서를 포함합니다<ul><li>구현과 관련된 개발자를 위한 정보</li><li>개인 정보 고려 사항</li><li>쿠키에 대한 정보<li>로 데이터를 가져오는 데 사용할 수 있는 다양한 방법 목록입니다 [!DNL Target]</li><li>보안 고려 사항</li><li>TLS(전송 계층 보안) 암호화에 대한 정보</li><li>정식 이름(CNAME) 지원에 대한 정보</li></ul> |
-| [클라이언트측 웹 구현](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md) | 구현에 대한 정보입니다 [!DNL Adobe Target] 클라이언트측(에 대한 정보 포함) [!DNL Target] JavaScript 라이브러리:<ul><li>[Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)</li><li>[at.js JavaScript 라이브러리 Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)</li></ul> |
-| [모바일 앱 구현](/help/main/c-target-mobile-app/target-mobile-app.md) | 방법에 대한 정보 [!DNL Target] 은 사용자 행동 및 모바일 컨텍스트에 따라 모바일 앱 경험을 테스트, 개인화 및 최적화합니다. |
-| [서버측 구현](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | 정보 [!DNL Target] 서버 측 배달 API, SDK 및 [!DNL Target Recommendations] API. |
-| [하이브리드 구현](/help/main/c-implementing-target/hybrid-implementation.md) | 정보 [!DNL Target]클라이언트측과 서버측 구현을 혼합하여 개인화를 위한 의 고유한 하이브리드 배포 모델. |
-| [이메일 구현](c-non-javascript-based-implementation/non-javascript-based-implementation.md) | 구현에 대한 정보입니다 [!DNL Target] AdBox 또는 리디렉터 사용과 같이 비JavaScript 시나리오에서 제외합니다. |

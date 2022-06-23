@@ -5,10 +5,10 @@ title: mboxDefine() 및 mboxUpdate() 함수를 사용하려면 어떻게 합니�
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 75%
+source-wordcount: '216'
+ht-degree: 69%
 
 ---
 
@@ -28,7 +28,7 @@ nodeId와 mbox 이름 사이에 내부 매핑을 만들되, 요청을 실행하�
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-요청을 실행하고 `nodeId`()의 `mboxDefine()`로 식별되는 요소에 오퍼를 적용합니다. `mboxCreate`로 시작된 mbox를 업데이트하는 데도 사용할 수 있습니다. 내장 [!DNL at.js] 대개 [!DNL mbox.js] (이제 사용되지 않음)에서으로 [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()`는 선택기 옵션을 사용하여 [adobe.target.getOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) 및 [adobe.target.applyOffer()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)로 대체할 수 있습니다.
+요청을 실행하고 `nodeId`()의 `mboxDefine()`로 식별되는 요소에 오퍼를 적용합니다. `mboxCreate`로 시작된 mbox를 업데이트하는 데도 사용할 수 있습니다. 내장 [!DNL at.js] 대개 [!DNL mbox.js] (이제 사용되지 않음)에서으로 [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()`는 선택기 옵션을 사용하여 [adobe.target.getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/) 및 [adobe.target.applyOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/)로 대체할 수 있습니다.
 
 ## 예 {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

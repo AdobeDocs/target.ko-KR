@@ -4,10 +4,10 @@ description: Adobe Target의 프로필 스크립트에 유용한 다양한 프�
 title: 어떤 프로필, 변수 및 매개 변수가 Target에 사용됩니까?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 86%
+source-wordcount: '598'
+ht-degree: 85%
 
 ---
 
@@ -82,7 +82,7 @@ ht-degree: 86%
 | mbox.param(&#39;param_name&#39;) |  |
 | 모든 요청을 통해 자동 전달된 매개 변수:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 주문 mbox를 통해 전달된 매개 변수:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | 고객 ID를 Target의 mboxPCID와 동기화하는 mbox 매개 변수입니다. 고객 ID는 회사에서 방문자를 추적하는 데 사용하는 CRM ID, 멤버십 ID 또는 유사한 ID입니다. 그런 후 이 ID를 사용하여 프로필 API 및 [고객 속성](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md). |
+| mbox3rdPartyId | 고객 ID를 Target의 mboxPCID와 동기화하는 mbox 매개 변수입니다. 고객 ID는 회사에서 방문자를 추적하는 데 사용하는 CRM ID, 멤버십 ID 또는 유사한 ID입니다. 그런 후 이 ID를 사용하여 프로필 API 및 [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/). |
 | mboxPageValue | 각 mbox 호출에서 페이지는 값을 지정받습니다. |
 | mboxDebug | 디버그 정보로만 사용됩니다. at.js가 이 정보를 찾는 페이지 URL에 추가됩니다. |
 | mboxOverride.browserIp | 다른 위치에서는 어떻게 보이는지 테스트할 수 있도록 실제 위치가 아닌 다른 지역을 설정합니다.<br>**참고:** mboxOverride 매개 변수는 프로덕션 환경이 아닌, 활동을 테스트할 때만 사용하는 것이 좋습니다. mboxOverride 매개 변수를 사용하면 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)을 사용할 때 불일치가 보고될 수 있습니다. 활동을 라이브 환경에 푸시하기 전에 활동이 예상대로 작동하는지 확인하려면 테스트할 때 [활동 QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)를 사용해야 합니다. |

@@ -5,9 +5,9 @@ title: 사용자 지정 엔티티 속성을 어떻게 사용합니까?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1398'
 ht-degree: 88%
 
 ---
@@ -126,7 +126,7 @@ function targetPageParams() {
   }
 ```
 
-자세한 내용은 [Adobe Recommendations API 설명서](https://developers.adobetarget.com/api/recommendations) 배달 및 저장 엔티티 API 사용에 대한 정보.
+자세한 내용은 [Adobe Recommendations API 설명서](https://developer.adobe.com/target/implement/recommendations/) 배달 및 저장 엔티티 API 사용에 대한 정보.
 
 ## 다중 값 속성에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

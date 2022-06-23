@@ -4,9 +4,9 @@ description: Adobe에서 SPA VEC를 사용하는 방법을 알아봅니다 [!DNL
 title: SPA VEC(단일 페이지 앱 시각적 경험 작성기)를 어떻게 사용합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '3698'
+source-wordcount: '3720'
 ht-degree: 91%
 
 ---
@@ -65,9 +65,9 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    ![구현 세부 사항 대화 상자](/help/main/c-experiences/assets/imp-200.png)
 
-   에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. [!UICONTROL 관리 > 구현]. at.js 2.x는 의 태그를 통해 배포할 수도 있습니다 [Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
+   에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. [!UICONTROL 관리 > 구현]. at.js 2.x는 의 태그를 통해 배포할 수도 있습니다 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
 
-1. at.js 2.x의 최신 함수인 [triggerView()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)를 사이트에 구현합니다.
+1. at.js 2.x의 최신 함수인 [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)를 사이트에 구현합니다.
 
    A/B 또는 XT 테스트를 실행할 SPA의 보기를 정의한 후에는 매개 변수로서 전달된 보기를 사용하여 at.js 2.x의 `triggerView()` 함수를 구현하십시오. 이렇게 하면 마케터는 VEC를 사용하여 정의된 해당 보기에 대한 A/B 및 XT 테스트를 디자인하고 실행할 수 있습니다. 해당 보기에 대해 `triggerView()` 함수가 정의되지 않은 경우 VEC가 보기를 감지하지 않으므로 마케터는 VEC를 사용하여 A/B 및 XT 테스트를 디자인하고 실행할 수 없습니다.
 
@@ -320,8 +320,8 @@ adobe.target.getOffers({
 | 단계 | 설명 |
 | --- | --- |
 | 1 | 보기를 렌더링하고 작업을 적용하여 보기와 연관된 시각적 요소를 수정하기 위해 SPA에서 `triggerView()`가 호출됩니다. |
-| 2 | 보기용으로 타깃팅된 콘텐츠를 캐시에서 읽습니다. |
-| 3 | 타깃팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
+| 2 | 보기용으로 타기팅된 콘텐츠를 캐시에서 읽습니다. |
+| 3 | 타기팅된 콘텐츠는 기본 콘텐츠의 플리커 없이 가능한 한 빨리 나타납니다. |
 | 4 | 활동 및 증분 지표에서 방문자를 계산하기 위해 알림 요청이 Target 프로필 스토어에 전송됩니다. |
 | 5 | Analytics 데이터가 데이터 수집 서버로 전송됩니다. |
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
@@ -354,7 +354,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 예 |
 | [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md) | 예 |
-| [고객 속성](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md) | 예 |
+| [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | 예 |
 | [AEM 경험 구성요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 예 |
 
 ## 지원되는 기능 {#supported-features}

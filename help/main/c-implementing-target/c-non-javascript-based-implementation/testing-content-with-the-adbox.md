@@ -5,10 +5,10 @@ title: 이미지용 Adbox를 만들려면 어떻게 합니까?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 72%
+source-wordcount: '337'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Target을 사용하여 오프사이트 구현에서 이미지를 전달하
 
 AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다. AdBox는 &quot;광고&quot; mbox(또는 AdBox)를 자신의 Adobe 계정으로 로드하는 특별한 AdBox URL로 만들어집니다. 이 AdBox를 활동에서 mbox 대신 사용합니다. 이메일 또는 기타 비 자바스크립트 구현에서 직접 이미지 참조 대신 AdBox URL을 사용합니다.
 
-올바른 설정을 선택하는 데 도움이 필요하면  [비 JavaScript 기반 구현](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+올바른 설정을 선택하는 데 도움이 필요하면  [비 JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/).
 
 1. AdBox URL을 만듭니다.
 
@@ -48,7 +48,7 @@ AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다.
 
 1. 활동을 만듭니다.
 
-   목표를 충족하는 올바른 설정을 알려면 [비JavaScript 기반 구현](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4)을 참조하십시오.
+   목표를 충족하는 올바른 설정을 알려면 [비JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/)을 참조하십시오.
 1. 활동에 대한 QA를 완료합니다.
 
    우수 사례로, 더미 페이지를 만들고 모든 경험, 기본 컨텐츠 및 보고서가 모든 브라우저 유형에서 모든 환경에 대해 예상대로 작동하는지 확인합니다.

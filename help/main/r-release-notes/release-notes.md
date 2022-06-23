@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
-workflow-type: ht
-source-wordcount: '489'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '510'
+ht-degree: 95%
 
 ---
 
@@ -35,20 +35,20 @@ ht-degree: 100%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원이 추가되었습니다.
+* [사용자 에이전트 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) 지원이 추가되었습니다.
 * [!UICONTROL Experience Targeting] (XT) 활동에서 [!UICONTROL 오퍼 의사 결정]을 렌더링할 때 간헐적으로 시간 초과가 발생하는 문제가 해결되었습니다. (TNT-44611)
 
 ## at.js 버전 2.9.0(2022년 5월 27일)
 
-* [사용자 에이전트 클라이언트 힌트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) 지원이 추가되었습니다.
+* [사용자 에이전트 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) 지원이 추가되었습니다.
 * 동일한 페이지의 여러 mbox 요청에 서로 다른 노출 ID가 있는 버그가 수정되었습니다.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko_KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko-KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 

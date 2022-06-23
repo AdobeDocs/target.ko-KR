@@ -5,9 +5,9 @@ title: targetGlobalSettings() 함수를 사용하려면 어떻게 해야 합니�
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2364'
+source-wordcount: '2405'
 ht-degree: 29%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 29%
 * **기본값**: body { opacity: 0 }
 * **설명**: 다음 경우에만 사용됨 `globalMboxAutocreate === true` 깜박임 가능성을 최소화하기 위해.
 
-   자세한 내용은 [at.js에서 플리커를 관리하는 방법](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)을 참조하십시오.
+   자세한 내용은 [at.js에서 플리커를 관리하는 방법](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)을 참조하십시오.
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ ht-degree: 29%
 
 * **유형**: 부울
 * **기본값**: false
-* **설명**: [!DNL Target] 은 를 통해 옵트인 기능 지원을 제공합니다. [!DNL Adobe Experience Platform] 동의 관리 전략을 지원하는 데 도움이 됩니다. 선택 기능을 통해 고객이 태그를 실행하는 방법과 시기를 제어할 수 있습니다. [!DNL Target] 또한 [!DNL Adobe Experience Platform]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. 에서 옵트인을 사용하는 기능을 활성화하려면 [!DNL Target] at.js 라이브러리를 추가하고 `optinEnabled=true` 설정 in [!DNL Adobe Experience Platform] 다음 중에서 &quot;활성화&quot;를 선택해야 합니다. [!UICONTROL GDPR 옵트인] 확장 설치 보기의 드롭다운 목록입니다. 자세한 내용은 [Adobe Experience Platform 설명서](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) 자세한 내용 유럽 연합의 GDPR(General Data Protection Regulation) 및 캘리포니아 소비자 개인 정보 보호법(CCPA)을 비롯한 개인 정보 및 데이터 보호 규정에 관한 이 설정에 대한 자세한 내용은 다음을 참조하십시오 [개인 정보 보호 및 데이터 보호 규정](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **설명**: [!DNL Target] 은 를 통해 옵트인 기능 지원을 제공합니다. [!DNL Adobe Experience Platform] 동의 관리 전략을 지원하는 데 도움이 됩니다. 선택 기능을 통해 고객이 [!DNL Target] 태그를 실행하는 방법과 시기를 제어할 수 있습니다. 또한 [!DNL Adobe Experience Platform]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. 에서 옵트인을 사용하는 기능을 활성화하려면 [!DNL Target] at.js 라이브러리를 추가하고 `optinEnabled=true` 설정 in [!DNL Adobe Experience Platform] 다음 중에서 &quot;활성화&quot;를 선택해야 합니다. [!UICONTROL GDPR 옵트인] 확장 설치 보기의 드롭다운 목록입니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 자세한 내용 유럽 연합의 GDPR(General Data Protection Regulation) 및 캘리포니아 소비자 개인 정보 보호법(CCPA)을 비롯한 개인 정보 및 데이터 보호 규정에 관한 이 설정에 대한 자세한 내용은 다음을 참조하십시오 [개인 정보 보호 및 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
 
 ### optoutEnabled
 
@@ -169,7 +169,7 @@ ht-degree: 29%
 * **기본값**: true(at.js 버전 1.6.2부터 true)
 * **설명**: 다음을 사용해야 하는지 여부를 나타냅니다 `<clientCode>.tt.omtrdc.net` 도메인 또는 `mboxedge<clusterNumber>.tt.omtrdc.net` 도메인.
 
-   이 값이 true면 `mboxedge<clusterNumber>.tt.omtrdc.net` 도메인이 쿠키에 저장됩니다. 현재 이 [CNAME](/help/main/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) at.js 1.8.2 및 at.js 2.3.1 이전 버전의 at.js를 사용할 때 문제가 되는 경우 다음을 고려하십시오. [at.js 업데이트](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 지원되는 최신 버전으로 마이그레이션 하는 것이 좋습니다.
+   이 값이 true면 `mboxedge<clusterNumber>.tt.omtrdc.net` 도메인이 쿠키에 저장됩니다. 현재 이 [CNAME](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/) at.js 1.8.2 및 at.js 2.3.1 이전 버전의 at.js를 사용할 때 문제가 되는 경우 다음을 고려하십시오. [at.js 업데이트](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 지원되는 최신 버전으로 마이그레이션 하는 것이 좋습니다.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -398,7 +398,7 @@ window.targetGlobalSettings = {
 의 하이브리드 통합이 있어야 합니다 [!DNL Target].
 
 * **서버측**: 새 [배달 API](https://developers.adobetarget.com/api/delivery-api/) 또는 [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **고객측**: 를 사용해야 합니다. [at.js 버전 2.2 이상](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* **고객측**: 를 사용해야 합니다. [at.js 버전 2.2 이상](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 ### 코드 샘플
 

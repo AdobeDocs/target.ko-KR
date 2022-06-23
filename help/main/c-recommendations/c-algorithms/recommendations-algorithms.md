@@ -5,9 +5,9 @@ title: Target의 Recommendations 알고리즘 이면의 과학에 대해 알려�
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 행동 데이터, 다음을 수행할 때 수집된 방문자 보기 및 구매 형태 [Target 구현](/help/main/c-recommendations/plan-implement.md#pass-behavioral) 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **입력 데이터**: 행동 데이터, 다음을 수행할 때 수집된 방문자 보기 및 구매 형태 [Target 구현](https://developer.adobe.com/target/implement/recommendations/) 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **모델 교육**:
 
@@ -88,7 +88,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 앞에서 설명한 바와 같이, 이 알고리즘은 순전히 카탈로그 데이터(다음 항목에 수집됨)를 기반으로 합니다 [!DNL Target] 사용 [카탈로그 피드, 엔티티 API 또는 페이지 내 업데이트](/help/main/c-recommendations/plan-implement.md#rec-catalog).
+* **입력 데이터**: 앞에서 설명한 바와 같이, 이 알고리즘은 순전히 카탈로그 데이터(다음 항목에 수집됨)를 기반으로 합니다 [!DNL Target] 사용 [카탈로그 피드, 엔티티 API 또는 페이지 내 업데이트](https://developer.adobe.com/target/implement/recommendations/).
 
 * **모델 교육**:
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 이는 항목 간 CF(Collaborative Filtering) 메서드와 동일합니다. [!UICONTROL 두 가지 모두 권장되는 옵션] 및 장바구니 기반 알고리즘에서는 다음과 같은 경우 수집된 사용자의 보기 및 구매 형태로 행동 데이터를 사용합니다 [Target 구현](/help/main/c-recommendations/plan-implement.md#pass-behavioral) 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **입력 데이터**: 이는 항목 간 CF(Collaborative Filtering) 메서드와 동일합니다. [!UICONTROL 두 가지 모두 권장되는 옵션] 및 장바구니 기반 알고리즘에서는 다음과 같은 경우 수집된 사용자의 보기 및 구매 형태로 행동 데이터를 사용합니다 [Target 구현](https://developer.adobe.com/target/implement/recommendations/) 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **모델 교육**:
 

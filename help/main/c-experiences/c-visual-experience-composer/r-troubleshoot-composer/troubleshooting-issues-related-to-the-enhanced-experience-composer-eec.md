@@ -4,10 +4,10 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법을 �
 title: 고급 경험 작성기 관련 문제는 어떻게 해결합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 53%
+source-wordcount: '446'
+ht-degree: 51%
 
 ---
 
@@ -43,13 +43,13 @@ IT 팀에 다음 IP 주소허용 목록에 추가하다를 지정하도록 요�
 
    **해결 방법:** 위에 허용 목록에 추가하다 나열된 IP 주소를 검색합니다.
 
-* **문제:** IP 주소는 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. [!DNL Target] 는 현재 1.2의 기본 구성을 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일), 기본 구성에서 TLS 1.0을 지원합니다. 자세한 내용은 다음을 참조하십시오. [TLS(전송 계층 보안) 암호화 변경 사항](/help/main/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+* **문제:** IP 주소는 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. [!DNL Target] 는 현재 1.2의 기본 구성을 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일), 기본 구성에서 TLS 1.0을 지원합니다. 자세한 내용은 다음을 참조하십시오. [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
 
    **해결 방법:**[!UICONTROL (고급 시각적 경험 작성기가 TLS 1.2를 사용하는 사이트의 보안 페이지에 로드되지 않습니다.) 질문을 참조하십시오.]
 
 ## EEC가 TLS 1.0를 사용하는 사이트의 보안 페이지에 로드되지 않습니다. (EEC만 해당) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-위에 설명된 오류 메시지가 &quot; [!UICONTROL 향상된 시각적 경험 작성기] 사이트의 보안 페이지에 로드되지 않습니다.&quot; 위의 IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않는 경우. [!DNL Target] 는 현재 1.2의 기본 구성을 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일), 기본 구성에서 TLS 1.0을 지원합니다. 자세한 내용은 다음을 참조하십시오. [TLS(전송 계층 보안) 암호화 변경 사항](/help/main/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+위에 설명된 오류 메시지가 &quot; [!UICONTROL 향상된 시각적 경험 작성기] 사이트의 보안 페이지에 로드되지 않습니다.&quot; 위의 IP 주소가 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않는 경우. [!DNL Target] 는 현재 1.2의 기본 구성을 사용합니다. [!DNL Target] 18.4.1(2018년 4월 25일), 기본 구성에서 TLS 1.0을 지원합니다. 자세한 내용은 다음을 참조하십시오. [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/).
 
 Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음을 수행하십시오(다른 브라우저에도 유사한 단계가 있음).
 
@@ -66,7 +66,7 @@ Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음
 
    ![](assets/firefox_more_info_3.png)
 
-1. 웹 사이트에 TLS 1.0이 표시되는 경우에는 [TLS(전송 계층 보안) 암호화 변경 사항](/help/main/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)에서 Target의 TLS 지원 정책에 대한 정보를 참조하십시오. 현재(2018년 9월 12일까지 유효) 상황을 해결하기 위해 TLS 버전 및 도메인을 구성하려면 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
+1. 웹 사이트에 TLS 1.0이 표시되는 경우에는 [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)에서 Target의 TLS 지원 정책에 대한 정보를 참조하십시오. 현재(2018년 9월 12일까지 유효) 상황을 해결하기 위해 TLS 버전 및 도메인을 구성하려면 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
 
 ## 프록시가 활성화된 로드할 때 시간 초과 또는 &quot;액세스 거부&quot; 오류가 표시됩니다. (EEC만 해당) {#section_60CBB9022DC449F593606C0E6252302D}
 

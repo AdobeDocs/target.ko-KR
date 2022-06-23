@@ -5,10 +5,10 @@ title: 구현하기 전에 무엇을 알아야 합니까?
 feature: Implementation
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 69%
+source-wordcount: '159'
+ht-degree: 50%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 69%
 >
 >at.js 또는 [!DNL Adobe Experience Platform Web SDK] 은 Adobe 고객 지원 센터에서 지원하지 않습니다.
 
-- [Target 구현 준비](prepare-to-implement-target.md)
-- [개인 정보 보호](c-privacy/privacy.md)
-- [데이터를 Target에 가져오는 방법](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Target 보안 개요](target-security-overview.md)
-- [지원되는 브라우저](supported-browsers.md)
-- [TLS(전송 계층 보안) 암호화 변경 사항](tls-transport-layer-security-encryption.md)
-- [CNAME 및 Adobe Target](implement-cname-support-in-target.md)
-- [Target 에지 노드를 허용 목록에 추가](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Target 구현 준비](https://developer.adobe.com/target/before-implement/prepare-to-implement-target/)
+- [개인 정보 보호](https://developer.adobe.com/target/before-implement/privacy/privacy/)
+- [데이터를 Target에 가져오는 방법](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)을 참조하십시오.
+- [Target 보안 개요](https://developer.adobe.com/target/before-implement/target-security-overview/)
+- [지원되는 브라우저](https://developer.adobe.com/target/before-implement/supported-browsers/)
+- [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)
+- [CNAME 및 Adobe Target](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)
+- [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)

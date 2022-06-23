@@ -5,10 +5,10 @@ title: at.js 쿠키
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1825'
-ht-degree: 96%
+source-wordcount: '1846'
+ht-degree: 95%
 
 ---
 
@@ -111,7 +111,7 @@ at.js에서 `mboxSession ID`를 생성합니다. 첫 번째 위치 요청은 `mb
 | 쿠키 이름 | mbox. |
 | 쿠키 도메인 | 컨텐츠를 제공하는 도메인의 두 번째 및 최상위 수준입니다. 회사 도메인에서 제공되기 때문에 쿠키는 자사 쿠키입니다. 예: `mycompany.com`. |
 | 서버 도메인 | `clientcode.tt.omtrdc.net`( 계정에 대해 클라이언트 코드 사용) |
-| 쿠키 지속 시간 | 쿠키는 마지막 로그인부터 2년 동안 방문자의 브라우저에 유지됩니다.<br>다음 `deviceIdLifetime` 설정값 초과 사용 [at.js 버전 2.3.1 이상](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). 자세한 내용은 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오. |
+| 쿠키 지속 시간 | 쿠키는 마지막 로그인부터 2년 동안 방문자의 브라우저에 유지됩니다.<br>다음 `deviceIdLifetime` 설정값 초과 사용 [at.js 버전 2.3.1 이상](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오. |
 | P3P 정책 | 쿠키는 대부분의 브라우저에서 기본 설정으로 요구되는 P3P 정책을 사용하여 게시됩니다. P3P 정책은 쿠키를 제공하는 사람과 정보 사용 방법을 브라우저에 알립니다. |
 
 쿠키는 방문자가 캠페인을 경험하는 방식을 관리하기 위해 많은 값을 유지합니다.
@@ -152,5 +152,5 @@ Apple의 메시지:
 
 | 영향을 받는 기능 | 세부 사항 |
 |--- |--- |
-| 옵트아웃 지원 | Apple의 WebKit 변경 사항 추적에서는 옵트아웃 지원을 중단합니다.<br>Target 옵트아웃은 `clientcode.tt.omtrdc.net` 도메인의 쿠키를 사용합니다. 자세한 내용은.[개인 정보 보호](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)를 참조하십시오.<br>Target은 두 개의 옵트아웃을 지원합니다.<ul><li>클라이언트당 하나(클라이언트는 옵트아웃 링크를 관리합니다.)</li><li>Adobe를 통해, 모든 고객용으로 모든 Target 기능에서 사용자를 옵트아웃하는 하나</li></ul>두 방법 모두 타사 쿠키를 사용합니다. |
+| 옵트아웃 지원 | Apple의 WebKit 변경 사항 추적에서는 옵트아웃 지원을 중단합니다.<br>Target 옵트아웃은 `clientcode.tt.omtrdc.net` 도메인의 쿠키를 사용합니다. 자세한 내용은.[개인 정보 보호](https://developer.adobe.com/target/before-implement/privacy/privacy/)를 참조하십시오.<br>Target은 두 개의 옵트아웃을 지원합니다.<ul><li>클라이언트당 하나(클라이언트는 옵트아웃 링크를 관리합니다.)</li><li>Adobe를 통해, 모든 고객용으로 모든 Target 기능에서 사용자를 옵트아웃하는 하나</li></ul>두 방법 모두 타사 쿠키를 사용합니다. |
 | 타겟 활동 | 고객은 Target 계정에 대한 자신의 [프로필 라이프타임 길이](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md)를 최대 90일까지 선택할 수 있습니다. 문제는 계정의 프로필 라이프타임이 30일보다 길고, 고객의 도메인이 사이트 간에 사용자를 추적하는 것으로 표시되었기 때문에 퍼스트 파티 쿠키가 삭제되는 경우 Safari 방문자에 대한 동작이 Target의 다음 영역에서 영향을 받는다는 것입니다.<br>**Target 보고서**: Safari 사용자가 활동에 들어갔다가, 30일 후에 재방문한 다음, 전환하는 경우, 해당 사용자는 2명의 방문자와 하나의 전환으로 카운트됩니다.<br>이 동작은 Analytics를 보고 소스로 사용(A4T)하는 활동에 대해 동일합니다.<br>**프로필 및 활동 멤버십**:<ul><li>퍼스트 파티 쿠키가 만료되면 프로필 데이터가 지워집니다.</li><li>퍼스트 파티 쿠키가 만료되면 활동 멤버십이 지워집니다.</li><li> 타사 쿠키 구현을 사용하거나 퍼스트 파티 쿠키와 타사 쿠키 구현을 사용을 사용하는 계정의 경우 Target이 Safari에서 작동하지 않습니다. 이 동작은 새로운 동작이 아닙니다. Safari가 얼마 동안 타사 쿠키를 허용하지 않았습니다.</li></ul><br>**제안**: 고객 도메인이 세션 간 방문자를 추적하는 도메인으로 표시될 수 있다는 걱정이 있다면 Target에서 프로필 라이프타임을 30일 이하로 설정하는 것이 가장 안전합니다. 그러면 사용자가 Safari 및 기타 모든 브라우저에서 유사하게 추적됩니다. |

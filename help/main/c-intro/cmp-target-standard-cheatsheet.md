@@ -4,10 +4,10 @@ description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Tar
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '2754'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2787'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 
 **Target에서는 어떤 브라우저를 지원합니까?**
 
-자세한 내용은 [지원되는 브라우저](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100) 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
+자세한 내용은 [지원되는 브라우저](https://developer.adobe.com/target/before-implement/supported-browsers/) 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
 
 ## 활동 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -105,7 +105,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
-이 작업도 가능합니다.  [사용할 수 있는 저장 옵션을 사용하여 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+이 작업도 가능합니다. Simply [사용할 수 있는 저장 옵션을 사용하여 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
 **방금 생성한 활동을 미리 보고 QA를 수행하려면 어떻게 해야 합니까?**
 
@@ -155,7 +155,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 경험 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -256,9 +256,9 @@ JSON 오퍼가 있는 [양식 기반 활동](/help/main/c-experiences/form-exper
 
 제품의 다음 측면을 확인하십시오.
 
-* [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
+* [Target 분석(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [고객 속성](/help/main/c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
+* [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,10 +309,10 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **모바일 SKU를 제공하고 있습니다. 모바일 활동을 만들 수 있습니까?**
 
-모바일의 최적화 및 개인화를 위해서는 [Adobe SDK](/help/main/c-target-mobile-app/mobile-enable-target-in-sdk.md#task_FCA99AD0785A44E995468776AE76FE91)와 함께 [양식 기반의 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 을 사용해야 합니다. [모바일 앱용 Target](/help/main/c-target-mobile-app/target-mobile-app.md#concept_80126FF457724DE788CE37264A047559)에 대한 세부 사항을 확인하십시오.
+모바일의 최적화 및 개인화를 위해서는 [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/)와 함께 [양식 기반의 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 을 사용해야 합니다. [모바일 앱용 Target](https://developer.adobe.com/target/implement/mobile/)에 대한 세부 사항을 확인하십시오.
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 Recommendations API 설명서](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)를 참조하십시오.
+API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://developer.adobe.com/target/implement/server-side/)를 참조하십시오.

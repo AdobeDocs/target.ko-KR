@@ -5,10 +5,10 @@ title: ' [!DNL Target] 은 개인정보 보호 및 데이터 보호 규정을 �
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
-workflow-type: ht
-source-wordcount: '2209'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2229'
+ht-degree: 98%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 100%
 
 ## Adobe [!DNL Target] 및 [!DNL Adobe Experience Platform] 옵트인 {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target]은 [!DNL Adobe Experience Platform]의 태그를 통해 옵트인 기능 지원을 제공하여 귀하의 동의 관리 전략을 지원합니다. 선택 기능을 통해 고객이 [!DNL Target] 태그를 실행하는 방법과 시기를 제어할 수 있습니다. 또한 [!DNL Adobe Experience Platform]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Target] at.js 라이브러리에서 옵트인을 사용하는 기능을 활성화하려면 `targetGlobalSettings`를 사용하고 `optinEnabled=true` 설정을 추가해야 합니다. [!DNL Adobe ExperiencePlatform]에서, 확장 기능 설치 보기에 있는 [!UICONTROL GDPR 옵트인] 드롭다운 목록에서 “활성화”를 선택합니다. 자세한 내용은 “[ [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)을 사용하여 [!DNL Target] 구현”을 참조하십시오.
+[!DNL Target]은 [!DNL Adobe Experience Platform]의 태그를 통해 옵트인 기능 지원을 제공하여 귀하의 동의 관리 전략을 지원합니다. 선택 기능을 통해 고객이 [!DNL Target] 태그를 실행하는 방법과 시기를 제어할 수 있습니다. 또한 [!DNL Adobe Experience Platform]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Target] at.js 라이브러리에서 옵트인을 사용하는 기능을 활성화하려면 `targetGlobalSettings`를 사용하고 `optinEnabled=true` 설정을 추가해야 합니다. [!DNL Adobe ExperiencePlatform]에서, 확장 기능 설치 보기에 있는 [!UICONTROL GDPR 옵트인] 드롭다운 목록에서 “활성화”를 선택합니다. 자세한 내용은 “[ [!DNL Target] 을 사용하여 [!DNL Adobe Experience Platform]구현”을 참조하십시오.](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 다음 코드 스니펫은 `optinEnabled=true` 설정을 활성화하는 방법을 보여 줍니다.
 
@@ -133,7 +133,7 @@ window.targetGlobalSettings = {
 | 사용자 ID | 네임스페이스 ID 유형 | 네임스페이스 ID | 정의 |
 |--- |--- |--- |--- |
 | ECID(Experience Cloud ID) | Standard | 4 | 이전에 방문자 ID 또는 Experience Cloud ID라고 했던 [!UICONTROL Adobe Experience Cloud ID]입니다. 이 ID는 JavaScript API를 사용하여 찾을 수 있습니다(아래 세부 사항 참조). |
-| TnT ID/쿠키 ID(TNTID) | Standard | 9 | 방문자 브라우저의 쿠키로 설정되어 있는 [!DNL Target] 식별자입니다. 이 ID는 JavaScript API를 사용하여 찾을 수 있습니다(아래 세부 사항 참조). |
+| TnT ID/쿠키 ID(TNTID) | 표준 | 9 | 방문자 브라우저의 쿠키로 설정되어 있는 [!DNL Target] 식별자입니다. 이 ID는 JavaScript API를 사용하여 찾을 수 있습니다(아래 세부 사항 참조). |
 | 서드파티 ID/CRM ID (THIRDPARTYID) | [!DNL Target] 관련 | 해당 사항 없음 | [!DNL Target]에 CRM 또는 고객에 대한 기타 고유 식별자 정보를 제공하는 경우 |
 
 >[!NOTE]
@@ -148,7 +148,7 @@ GDPR 및 CCPA에 의해 변경되는 것은 귀하가 동의를 얻어야 하는
 
 [!DNL Target]은 귀하의 동의 관리 전략을 지원하기 위한 [!DNL Adobe Experience Platform]을 통한 옵트인 기능 지원을 제공하지 않습니다. 선택 기능을 통해 고객이 [!DNL Target] 태그를 실행하는 방법과 시기를 제어할 수 있습니다. 또한 [!DNL Adobe Experience Platform]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Adobe Experience Platform]를 사용하여 선택 기능을 관리하는 것이 좋습니다. [!DNL Target] 실행 전 페이지에서 동의 전략의 일부로 유용하게 사용할 수 있는 선택된 요소를 숨기기 위한 더 세분화된 제어는 [!DNL Adobe Experience Platform]에 있습니다.
 
-GDPR, CCPA 및 [!DNL Adobe Experience Platform]에 대한 자세한 내용은 [Adobe 개인정보 보호 JavaScript 라이브러리 및 GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=ko)을 참조하십시오. 또한 위의 *Adobe Target 및 Adobe Experience Platform 옵트인* 섹션을 참조하십시오.
+GDPR, CCPA 및 [!DNL Adobe Experience Platform]에 대한 자세한 내용은 [Adobe 개인정보 보호 JavaScript 라이브러리 및 GDPR](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)을 참조하십시오. 또한 위의 *Adobe Target 및 Adobe Experience Platform 옵트인* 섹션을 참조하십시오.
 
 ### `AdobePrivacy.js`가 GDPR API에 정보를 제출합니까? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -284,7 +284,7 @@ GDPR, CCPA 및 [!DNL Adobe Experience Platform]에 대한 자세한 내용은 [A
 
 | 필드 | 설명 |
 |--- |--- |
-| Sample_Parameter | [!DNL Target] 프로필의 정보 중 다수는 데이터 관리자가 업로드하거나 직접 제공합니다. 이 예에서는 프로필 업데이트 API를 사용하여 [!DNL Target] 프로필에 매개변수가 업로드되었습니다. 자세한 내용은 “[ [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)으로 데이터를 가져오는 방법”을 참조하십시오. |
+| Sample_Parameter | [!DNL Target] 프로필의 정보 중 다수는 데이터 관리자가 업로드하거나 직접 제공합니다. 이 예에서는 프로필 업데이트 API를 사용하여 [!DNL Target] 프로필에 매개변수가 업로드되었습니다. 자세한 내용은 [데이터를 로 가져오는 방법 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
 | user.ReturnTimeOfDay | 이 표준 필드에는 사용자가 최근 재방문한 시간이 포함되어 있습니다. |
 | firstSessionStart | 이 표준 필드에는 사용자의 첫 번째 세션이 시작된 시간이 포함되어 있습니다. |
 | user.sessionCountScript | [!DNL Target] 프로필의 정보 중 다수는 데이터 관리자가 업로드하거나 직접 제공합니다. 이 예제에서 프로필 스크립트는 이 방문자가 데이터 관리자의 사이트에서 수행한 세션 수를 증가시킵니다. 자세한 내용은 [프로필 스크립트 속성](/help/main/c-target/c-visitor-profile/profile-parameters.md)의 프로필 스크립트 정보 카드 보기 섹션을 참조하십시오. |
@@ -295,7 +295,7 @@ GDPR, CCPA 및 [!DNL Adobe Experience Platform]에 대한 자세한 내용은 [A
 
 ### [!DNL Target]에서 IP 난독화를 지원합니까? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target]은 사용자가 IP 난독화를 GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 유사 IP 탐지를 지원합니다. 자세한 내용은 [개인 정보](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0)를 참조하십시오.
+[!DNL Target]은 사용자가 IP 난독화를 GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 유사 IP 탐지를 지원합니다. 자세한 내용은 [개인 정보](https://developer.adobe.com/target/before-implement/privacy/privacy/)를 참조하십시오.
 
 ### 데이터가 서드파티로 공유되거나 판매되는 것을 방지하기 위해 수행해야 하는 작업이 있습니까?
 

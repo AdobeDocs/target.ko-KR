@@ -5,10 +5,10 @@ title: at.js는 플리커를 어떻게 관리합니까?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 68%
+source-wordcount: '691'
+ht-degree: 66%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 68%
 
 ## 자동 생성된 글로벌 mbox 사용 {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-at.js 구성 시 [글로벌 mbox를 자동으로 만들기](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) 설정을 활성화하면 at.js가 페이지 로드 시 불투명도 설정을 변경하여 플리커(깜박임)를 관리합니다. at.js가 로드되면 at.js는 요소의 불투명도 설정을 `<body>`&quot;0&quot;으로 변경하여 방문자가 처음에 페이지를 볼 수 있도록 합니다. Target에서 응답을 받은 후 또는 Target 요청에 오류가 감지되면 at.js가 불투명도를 &quot;1&quot;로 재설정합니다. 이렇게 하면 활동의 컨텐츠가 적용된 후에만 방문자에게 페이지가 표시됩니다.
+at.js 구성 시 [글로벌 mbox를 자동으로 만들기](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-overview/) 설정을 활성화하면 at.js가 페이지 로드 시 불투명도 설정을 변경하여 플리커(깜박임)를 관리합니다. at.js가 로드되면 at.js는 요소의 불투명도 설정을 `<body>`&quot;0&quot;으로 변경하여 방문자가 처음에 페이지를 볼 수 있도록 합니다. Target에서 응답을 받은 후 또는 Target 요청에 오류가 감지되면 at.js가 불투명도를 &quot;1&quot;로 재설정합니다. 이렇게 하면 활동의 컨텐츠가 적용된 후에만 방문자에게 페이지가 표시됩니다.
 
 at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 불투명도를 0으로 설정합니다. Target의 응답을 받은 후 at.js는 HTML BODY 불투명도를 1로 재설정합니다.
 
@@ -38,7 +38,7 @@ at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 
 
 ![](assets/target-flow2.png)
 
-`bodyHiddenStyle` 무시에 대한 자세한 내용은 [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)를 참조하십시오.
+`bodyHiddenStyle` 무시에 대한 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
 
 ## at.js를 비동기식으로 로드할 때 플리커 관리
 

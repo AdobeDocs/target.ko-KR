@@ -1,14 +1,14 @@
 ---
 keywords: mbox 생성;mbox 생성;mbox 만들기;at.js;함수;함수
-description: Use the mboxCreate() function for the Adobe [!DNL Target] at.js JavaScript library to apply offers to the closest DIV with the mboxDefault class name. (at.js 1.x)
-title: How Do I Use the mboxCreate() Function?
+description: Adobe에 mboxCreate() 함수 사용 [!DNL Target] mboxDefault 클래스 이름을 사용하는 가장 가까운 DIV에 오퍼를 적용할 at.js JavaScript 라이브러리입니다. (at.js 1.x)
+title: mboxCreate() 함수를 사용하려면 어떻게 해야 합니까?
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 79%
+source-wordcount: '212'
+ht-degree: 76%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 79%
 
 `mboxCreate()`은 이제 &quot;standard&quot; 종단점 대신 &quot;json&quot; 엔드포인트를 사용하며 비동기식으로 실행됩니다. 이 때문에
 
-* [디버깅](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F)이 약간 다릅니다.
+* [디버깅](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)이 약간 다릅니다.
 * 동기식 호출 차단을 요구하는 오퍼 코드를 피해야 합니다.
 
    예를 들어, 페이지에서 뒷부분에 나오는 사이트 코드 또는 기타 mbox에 사용되는 JavaScript 변수를 설정하는 오퍼가 여기에 해당합니다.

@@ -4,14 +4,14 @@ description: Analytics에 대한 구현 요구 사항 알아보기 [!DNL Target]
 title: A4T를 구현하기 전에 무엇을 알아야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 26%
+source-wordcount: '977'
+ht-degree: 25%
 
 ---
 
-# at.js.로 Analytics for Target (A4T)을 구현하기 전
+# at.js로 Analytics for Target(A4T)을 구현하기 전
 
 활성화 시 데이터 수집 프로세스에 몇 가지 변경 사항이 발생합니다 [!DNL Adobe Analytics] 를 [!DNL Adobe Target] (A4T).
 
@@ -31,7 +31,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->다음 요구 사항은 다음과 같습니다 *최소* A4T를 구현하는 데 필요한 at.js 버전. 다음 [!DNL Target] 팀에서는 두 버전만 유지 관리합니다 [!DNL at.js]- 현재 버전 및 두 번째 최신 버전입니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A)을 참조하십시오.
+>다음 요구 사항은 다음과 같습니다 *최소* A4T를 구현하는 데 필요한 at.js 버전. 다음 [!DNL Target] 팀에서는 두 버전만 유지 관리합니다 [!DNL at.js]- 현재 버전 및 두 번째 최신 버전입니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오.
 
 ### A4T에서 리디렉션 오퍼를 사용하지 *않을* 경우 필요한 요구 사항
 
@@ -41,7 +41,7 @@ A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합�
 * [!DNL Adobe Target]: at.js  버전 0.9.1
 * Adobe Analytics: appMeasurement.js 버전 1.7.0
 
-를 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+을 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
 ### A4T에서 리디렉션 오퍼를 사용할 경우 필요한 요구 사항
 
@@ -51,7 +51,7 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 
    >[!NOTE]
    >
-   >at.js 1.8.0+ 및 at.js 2.x+는 Adobe Audience Manager(AAM) 매개 변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않습니다.
+   >at.js 1.8.0+ 및 at.js 2.x+는 Adobe Audience Manager(AAM) 매개변수 전달에 대해 더 이상 2.5.0 이전 버전의 방문자 API와 동작하지 않습니다.
 
 * [!DNL Adobe Target]: at.js  버전 1.6.2
 
@@ -59,7 +59,7 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 
 다운로드 및 배포 지침은 [Analytics for Target 구현](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-을 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+를 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
 ## 구현하기 전에 알아야 할 사항 {#section_50D49CC52E11414089C89FB67F9B88F5}
 

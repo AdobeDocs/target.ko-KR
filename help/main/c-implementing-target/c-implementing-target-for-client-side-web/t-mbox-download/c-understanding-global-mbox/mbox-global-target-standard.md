@@ -5,10 +5,10 @@ title: 이전 구현에서 글로벌 mbox를 사용할 수 있습니까?
 feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '301'
-ht-degree: 36%
+source-wordcount: '309'
+ht-degree: 35%
 
 ---
 
@@ -44,4 +44,4 @@ ht-degree: 36%
 
 ### 글로벌 mbox가 로드되지 않거나 페이지 로드 시 글로벌 mbox 로드가 느려지는 이유는 무엇입니까?
 
-at.js 참조가 페이지에서 첫 번째 JavaScript 호출인지 확인합니다. 이 문제에 대한 다른 해결 방법은 [글로벌 mbox 자주 묻는 질문](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md).
+at.js 참조가 페이지에서 첫 번째 JavaScript 호출인지 확인합니다. 이 문제에 대한 다른 해결 방법은 [글로벌 mbox 자주 묻는 질문](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/).

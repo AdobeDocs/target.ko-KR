@@ -5,10 +5,10 @@ title: 로 데이터를 가져오려면 어떻게 해야 합니까? [!DNL Target
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 67%
 
 `window.targetGlobalSettings.dataProviders` 설정은 데이터 공급자의 배열입니다.
 
-각 데이터 공급자 구조에 대한 자세한 내용은 [데이터 공급자](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)를 참조하십시오.
+각 데이터 공급자 구조에 대한 자세한 내용은 [데이터 공급자](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
 
 ## 사용 사례 예
 
@@ -44,11 +44,11 @@ at.js는 데이터를 캐시하려고 하지 않습니다. 데이터 공급자�
 
 ## 코드 예
 
-[데이터 공급자](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)에서 몇 가지 예를 볼 수 있습니다.
+[데이터 공급자](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)에서 몇 가지 예를 볼 수 있습니다.
 
 ## 관련 정보에 대한 링크
 
-문서: [데이터 공급자](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
+문서: [데이터 공급자](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)
 
 ## 교육 비디오:
 
