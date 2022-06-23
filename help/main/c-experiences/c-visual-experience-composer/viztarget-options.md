@@ -4,10 +4,10 @@ description: 에서 사용할 수 있는 옵션을 살펴보십시오. [!DNL Ado
 title: 사용 방법 [!UICONTROL 시각적 경험 작성기] (VEC) 옵션?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 63%
+source-wordcount: '2932'
+ht-degree: 62%
 
 ---
 
@@ -372,7 +372,7 @@ CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것�
 
 ## 고려 사항 {#considerations}
 
-* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)에서 &#39;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&#39;을 참조하십시오.
+* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 의 &quot;at.js에서 HTML 콘텐츠으로 오퍼를 렌더링하는 방법&quot;을 참조하십시오 [at.js 작동 방식](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)자세한 내용은 {target=_blank}.
 
 ## 사용자 지정 요소 지원 {#custom}
 
@@ -380,7 +380,7 @@ VEC가 [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Comp
 
 >[!NOTE]
 >
->사용자 지정 요소에 대한 VEC 지원은 [at.js 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 2.7.0 이상 웹 사이트에 필요한 버전이 배포되어 있는지 확인하십시오. 를 사용하는 경우 [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)또한 필요한 at.js 버전이 배포되어 있어야 합니다. 위에 설명된 VEC 옵션은 표시되지 않으며 지원되지 않는 at.js 버전과 함께 사용할 수 있습니다.
+>사용자 지정 요소에 대한 VEC 지원은 [at.js 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 이상. 웹 사이트에 필요한 버전이 배포되어 있는지 확인하십시오. 를 사용하는 경우 [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)또한 필요한 at.js 버전이 배포되어 있어야 합니다. 위에 설명된 VEC 옵션은 표시되지 않으며 지원되지 않는 at.js 버전과 함께 사용할 수 있습니다.
 >
 >사용자 지정 요소에 대한 VEC 지원은 현재 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 

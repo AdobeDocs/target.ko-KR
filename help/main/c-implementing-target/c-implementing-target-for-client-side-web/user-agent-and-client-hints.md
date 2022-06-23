@@ -5,10 +5,10 @@ title: 사용자 에이전트 및 클라이언트 힌트
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1344'
-ht-degree: 96%
+source-wordcount: '1346'
+ht-degree: 95%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 96%
 
 >[!NOTE]
 >
->이 문서의 정보는 [at.js 버전 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 이상의 버전에 적용됩니다.
+>이 문서의 정보는 [at.js 버전 2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}(또는 이상).
 
 
 웹 브라우저에서 서버에 요청할 때 요청 헤더에 포함된 브라우저와 브라우저가 실행되는 환경에 대한 정보입니다. 인터넷 초기부터 이 데이터는 사용자 에이전트라는 단일 문자열로 집계되었습니다.

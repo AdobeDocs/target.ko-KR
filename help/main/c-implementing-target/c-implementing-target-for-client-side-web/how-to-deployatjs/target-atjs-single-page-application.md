@@ -5,9 +5,9 @@ title: 구현할 수 있습니까? [!DNL Target] 단일 페이지 애플리케�
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2788'
+source-wordcount: '2790'
 ht-degree: 70%
 
 ---
@@ -233,7 +233,7 @@ SPA와 관련된 우수 사례:
 * 보기에서 렌더링을 시작하기 전에 사용자 지정 이벤트 실행
 * 보기에서 렌더링을 마치면 사용자 지정 이벤트 실행
 
-at.js 2.x는 새로운 API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/) 함수를 추가했습니다. `triggerView()`를 사용하여 보기에서 렌더링을 시작한다고 at.js에 알립니다.
+at.js 2.x에서 새 API를 추가했습니다 [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} 함수를 사용합니다. `triggerView()`를 사용하여 보기에서 렌더링을 시작한다고 at.js에 알립니다.
 
 사용자 지정 이벤트, at.js 2.x 및 Analytics를 결합하는 방법을 살펴보려면 예제를 참조하십시오. 이 예는 HTML 페이지에 방문자 API, at.js 2.x, AppMeasurement가 순서대로 있다고 가정합니다.
 

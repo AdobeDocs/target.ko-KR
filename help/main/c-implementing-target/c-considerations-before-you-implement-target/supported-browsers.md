@@ -5,10 +5,10 @@ title: 브라우저 기능 [!DNL Target] 지원?
 feature: Implementation
 role: Developer
 exl-id: 8a366c79-d944-4d44-be5a-7c4f65385beb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '345'
-ht-degree: 40%
+source-wordcount: '347'
+ht-degree: 36%
 
 ---
 
@@ -42,4 +42,4 @@ TLS에 대한 자세한 내용은 다음을 참조하십시오 [TLS(전송 계�
 * [!DNL at.js] 구현의 경우, [!DNL Target]은 Internet Explorer 이전 버전 및 위에 나열된 브라우저의 이전 버전에서 기본 콘텐츠를 표시합니다. 
 * Internet Explorer는 알 수 없는 모든 요소(예: 사용자 지정 요소)를 동일한 요소 유형으로 처리합니다. 따라서 게재는 사용자 지정 요소에서 작동하지 않습니다.
 * [!DNL Target] 위에 나열되지 않은 브라우저와 을 사용하는 브라우저에서는 기본 콘텐츠를 표시합니다 [quirenks 모드](https://en.wikipedia.org/wiki/Quirks_mode). at.js에는 표준 모드에서 렌더링되는 문서 형식(예: `<!DOCTYPE html>`)이 필요합니다.
-* Adobe Delivery 인프라는 2018년 9월 12일 이후에 TLS 1.0 장치 및 브라우저를 지원하지 않도록 보호됩니다. 이러한 변경의 전반적 영향에 대해 이해하려면 [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)을 참조하십시오.
+* Adobe Delivery 인프라는 2018년 9월 12일 이후에 TLS 1.0 장치 및 브라우저를 지원하지 않도록 보호됩니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} 을 입력하여 이 변경의 전반적 영향을 이해합니다.

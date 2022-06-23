@@ -5,7 +5,7 @@ title: at.js를 배포하려면 어떻게 합니까?
 feature: Implement Server-side
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
 source-wordcount: '300'
 ht-degree: 16%
@@ -25,7 +25,7 @@ ht-degree: 16%
    >[!DNL Adobe Experience Platform Launch] 가 [!DNL Adobe Experience Platform]의 데이터 수집 기술군으로 새롭게 브랜딩되었습니다. 그 결과로 제품 설명서 전반에서 몇 가지 용어 변경이 있었습니다. 다음을 참조하십시오 [문서](https://experienceleague.adobe.com/docs/experience-platform/tags/term-updates.html?lang=en) 용어 변경 내용을 통합 참조하기 위해.
 
 * **[태그 관리자 없이 Target 구현](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)**: 태그 관리자(예: 의 태그)를 사용하지 않고 Target을 구현할 수 있습니다 [!DNL Adobe Experience Platform]).
-* **타사 태그 관리자를 사용하여 Target 구현**: [의 태그 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) is the preferred method to implement Target; however, you can also implement Target using a third-party tag manager, including Tealium, Ensighten, and Google Tag. For a list of benefits of using Launch, see [Advantages of implementing at.js using the [!DNL Adobe Target] 확장](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+* **타사 태그 관리자를 사용하여 Target 구현**: [의 태그 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} is the preferred method to implement Target; however, you can also implement Target using a third-party tag manager, including Tealium, Ensighten, and Google Tag. For a list of benefits of using Launch, see [Advantages of implementing at.js using the [!DNL Adobe Target] 확장](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
 
    그러나 구현 방법을 알고 있는 경우 [!DNL Target] 태그 관리자를 사용하지 않으면 사이트 코드에서 at.js를 하드 코딩하는 대신 타사 태그 관리자를 사용하여 쉽게 구현할 수 있습니다.
 

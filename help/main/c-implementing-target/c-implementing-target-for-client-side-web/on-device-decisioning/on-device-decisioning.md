@@ -5,9 +5,9 @@ title: On-Device Decisioning은 at.js JavaScript 라이브러리와 어떻게 �
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3546'
+source-wordcount: '3552'
 ht-degree: 7%
 
 ---
@@ -39,7 +39,7 @@ Adobe Target JS SDK를 통해 고객은 결정을 위한 데이터의 성능과 
 
 ## 온장치 의사 결정은 어떻게 작동합니까?
 
-On-Device Decisioning을 사용하여 at.js를 배포하고 초기화하면 [규칙 아티팩트](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 여기에는 A/B 및 XT 활동, 대상 및 자산에 대한 장치 내 결정이 포함되며, 방문자에게 가장 가까운 Akamai CDN에서 다운로드되고 방문자의 브라우저에 로컬로 캐시됩니다. at.js에서 경험을 검색하도록 요청하면, 반환할 경험에 대한 결정은 캐시된 규칙 아티팩트에서 인코딩된 메타데이터를 기반으로 메모리 내 수행됩니다.
+On-Device Decisioning을 사용하여 at.js를 배포하고 초기화하면 [규칙 아티팩트](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/)A/B 및 XT 활동, 대상 및 자산에 대한 장치 내 의사 결정이 포함된 {target=_blank}는 방문자에 가장 가까운 Akamai CDN에서 다운로드되고 방문자의 브라우저에 로컬로 캐시됩니다. at.js에서 경험을 검색하도록 요청하면, 반환할 경험에 대한 결정은 캐시된 규칙 아티팩트에서 인코딩된 메타데이터를 기반으로 메모리 내 수행됩니다.
 
 ## 의사 결정 방법
 
@@ -222,7 +222,7 @@ JSON 규칙 아티팩트에는 at.js에 mbox에 실행 중인 서버측 활동 �
 
    이 토글을 끄면 생성된 규칙 아티팩트에 포함할 On-Device Decisioning 활동을 다시 만들고 활성화해야 합니다. 즉, 를 켜기 전에 라이브 상태의 모든 활동 [!UICONTROL On-Device Decisioning] 토글은 규칙 아티팩트에 포함되지 않습니다.
 
-를 활성화한 후 [!UICONTROL On-Device Decisioning] 전환, [!DNL Target] 생성 및 전파 [규칙 객체](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/) 참조하십시오.
+를 활성화한 후 [!UICONTROL On-Device Decisioning] 전환, [!DNL Target] 생성 및 전파 [규칙 객체](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/rule-artifact/)클라이언트의 {target=_blank}.
 
 >[!IMPORTANT]
 >
@@ -269,7 +269,7 @@ JSON 규칙 아티팩트에는 at.js에 mbox에 실행 중인 서버측 활동 �
 
 ### 사용자 지정된 설정
 
-를 설정하는 경우 `decisioningMethod` in `window.targetGlobalSettings`를 재정의하려는 경우 `decisioningMethod` 사용 사례에 따라 각 Adobe Target 결정에 대해 `decisioningMethod` at.js 2.5.0+의 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 호출.
+를 설정하는 경우 `decisioningMethod` in `window.targetGlobalSettings`를 재정의하려는 경우 `decisioningMethod` 사용 사례에 따라 각 Adobe Target 결정에 대해 `decisioningMethod` at.js 2.5.0+의 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} 호출.
 
 ```javascript
 adobe.target.getOffers({ 

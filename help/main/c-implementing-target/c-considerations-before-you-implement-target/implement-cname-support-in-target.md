@@ -5,9 +5,9 @@ title: Target에서 CNAME을 어떻게 사용합니까?
 feature: Privacy & Security
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1187'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 1%
 
    [!DNL Adobe] 구현이 준비되면 Client Care에서 알려줍니다.
 
-1. 업데이트 `serverDomain` ([설명서](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/))를 새 CNAME 호스트 이름으로 설정하고 설정합니다. `overrideMboxEdgeServer` to `false` ([설명서](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)) 내의 아무 곳에나 삽입할 수 있습니다.
+1. 업데이트 `serverDomain` ([설명서](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank} 을 새 CNAME 호스트 이름으로 설정하고 설정합니다. `overrideMboxEdgeServer` to `false` ([설명서](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)){target=_blank}를 사용하십시오.
 
 ## FAQ
 

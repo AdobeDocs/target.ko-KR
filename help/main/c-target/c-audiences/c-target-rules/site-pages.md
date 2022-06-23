@@ -4,9 +4,9 @@ description: 를 사용하여 방문자를 타깃팅하는 방법을 알아봅�
 title: 사이트 페이지를 기준으로 방문자를 Target 할 수 있습니까?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '893'
 ht-degree: 24%
 
 ---
@@ -127,7 +127,7 @@ ht-degree: 24%
 
    이 동작이 요구 사항과 일치하지 않는 경우 다음 작업 중 하나를 수행하는 것이 좋습니다.
 
-   * 패스 [mbox 매개 변수](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) to [!DNL Target] 타깃팅용으로 사용됩니다.
+   * 패스 [mbox 매개 변수](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}까지 [!DNL Target] 타깃팅용으로 사용됩니다.
    * 다음 중 하나를 사용합니다 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md) 랜딩 페이지 활동 대신, A/B 테스트 활동은 동일한 방문자에 대한 경험을 전환하지 않습니다.
    * 다음 작업 [방문자 프로필](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) 을 가리키도록 업데이트하는 것이 좋습니다.
 

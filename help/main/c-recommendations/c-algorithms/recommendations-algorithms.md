@@ -5,9 +5,9 @@ title: Target의 Recommendations 알고리즘 이면의 과학에 대해 알려�
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2854'
+source-wordcount: '2858'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 행동 데이터, 다음을 수행할 때 수집된 방문자 보기 및 구매 형태 [Target 구현](https://developer.adobe.com/target/implement/recommendations/) 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **입력 데이터**: 행동 데이터, 다음을 수행할 때 수집된 방문자 보기 및 구매 형태 [Target 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **모델 교육**:
 
@@ -126,7 +126,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 이는 항목 간 CF(Collaborative Filtering) 메서드와 동일합니다. [!UICONTROL 두 가지 모두 권장되는 옵션] 및 장바구니 기반 알고리즘에서는 다음과 같은 경우 수집된 사용자의 보기 및 구매 형태로 행동 데이터를 사용합니다 [Target 구현](https://developer.adobe.com/target/implement/recommendations/) 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **입력 데이터**: 이는 항목 간 CF(Collaborative Filtering) 메서드와 동일합니다. [!UICONTROL 두 가지 모두 권장되는 옵션] 및 장바구니 기반 알고리즘에서는 다음과 같은 경우 수집된 사용자의 보기 및 구매 형태로 행동 데이터를 사용합니다 [Target 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **모델 교육**:
 

@@ -5,10 +5,10 @@ title: 이미지용 Adbox를 만들려면 어떻게 합니까?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '337'
-ht-degree: 70%
+source-wordcount: '339'
+ht-degree: 66%
 
 ---
 
@@ -48,7 +48,7 @@ AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다.
 
 1. 활동을 만듭니다.
 
-   목표를 충족하는 올바른 설정을 알려면 [비JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/)을 참조하십시오.
+   자세한 내용은 [비 JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/)목표를 충족하는 올바른 설정을 위한 {target=_blank}.
 1. 활동에 대한 QA를 완료합니다.
 
    우수 사례로, 더미 페이지를 만들고 모든 경험, 기본 컨텐츠 및 보고서가 모든 브라우저 유형에서 모든 환경에 대해 예상대로 작동하는지 확인합니다.

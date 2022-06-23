@@ -5,10 +5,10 @@ title: 리디렉터와 어떻게 작업합니까?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 70%
+source-wordcount: '691'
+ht-degree: 68%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 70%
 1. 하나의 광고에 대해 서로 다른 대상을 테스트할 경우 각 버전에 대해 [리디렉션 오퍼](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)를 만듭니다.
 1. 캠페인을 만듭니다.
 
-   목표를 충족하는 올바른 설정을 알려면 [비JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/)을 참조하십시오.
+   자세한 내용은 [비 JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/)목표를 충족하는 올바른 설정을 위한 {target=_blank}.
 1. 캠페인에 대한 QA를 완료합니다.
 
    리디렉터 URL이 포함된 `<a href>`를 사용하여 더미 페이지를 만듭니다. 예:

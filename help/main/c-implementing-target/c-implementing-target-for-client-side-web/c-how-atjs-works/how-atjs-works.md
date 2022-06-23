@@ -5,10 +5,10 @@ title: at.js JavaScript 라이브러리는 어떻게 작동합니까?
 feature: at.js
 role: Developer
 exl-id: 2193c02a-2a85-4ae1-bfbd-40fa7b87f0a0
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 97%
+source-wordcount: '1138'
+ht-degree: 95%
 
 ---
 
@@ -28,7 +28,7 @@ at.js 라이브러리는 Target의 새 구현 라이브러리입니다. at.js �
 
 ## at.js 1과의 차이점&#x200B;*x* 및 at.js 2.x 워크플로 다이어그램의 차이점은 무엇입니까?
 
-[at.js 1.x에서 at.js 2.x로 업그레이드](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)에서 1.*x*&#x200B;와 다른 2.O에 도입된 차이점을 자세히 알 수 있습니다.
+자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 을 참조하십시오.*x*&#x200B;와 다른 2.O에 도입된 차이점을 자세히 알 수 있습니다.
 
 상위 수준의 보기에서 보면 두 버전 간에 두 가지 차이점이 있습니다.
 

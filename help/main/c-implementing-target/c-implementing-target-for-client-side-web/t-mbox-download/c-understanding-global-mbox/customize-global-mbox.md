@@ -5,10 +5,10 @@ title: 글로벌 mbox를 사용자 지정하는 방법
 feature: at.js
 role: Developer
 exl-id: 6d3eab89-818c-405c-81af-90dfbede7390
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '229'
-ht-degree: 17%
+source-wordcount: '231'
+ht-degree: 16%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 1. 구현 [!DNL at.js] 라이브러리를 사용하십시오.
 
-   자세한 내용은 [at.js를 배포하는 방법](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/) 추가 정보.
+   자세한 내용은 [at.js를 배포하는 방법](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/)자세한 내용은 {target=_blank}.
 
 1. 전환 시간을 릴리스에 맞춰 지정합니다.
 

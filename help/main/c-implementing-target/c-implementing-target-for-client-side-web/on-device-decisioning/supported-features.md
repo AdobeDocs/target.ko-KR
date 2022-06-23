@@ -5,9 +5,9 @@ title: On-Device Decisioning에서 지원되는 기능
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '478'
 ht-degree: 13%
 
 ---
@@ -73,7 +73,7 @@ window.adobe.target.getOffers({
 })
 ```
 
-그러나 서버에서 IP-to-Geo 조회를 수행할 수 없지만, [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) 지역 기반 대상을 포함하는 요청이며, 이 요청도 지원됩니다. 이 방법은 원격 IP-to-Geo 조회를 사용하여 각 사이트에 지연을 추가하는 단점이 있습니다 `getOffers` 호출. 지연 시간은 `getOffers` 서버 측 의사 결정을 사용하여 호출합니다. 서버 근처에 있는 CDN에 도달하기 때문입니다. SDK에 대한 요청 컨텍스트의 지역 개체에 있는 &quot;ipAddress&quot; 필드만 방문자 IP 주소의 지역 위치를 검색합니다. ipAddress 외에 다른 필드가 제공되면 [!DNL Target] SDK는 해결을 위해 지리적 위치 메타데이터를 가져오지 않습니다.
+그러나 서버에서 IP-to-Geo 조회를 수행할 수 없지만, [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/)지역 기반 대상을 포함하는 {target=_blank} 요청이며, 이 요청도 지원됩니다. 이 방법은 원격 IP-to-Geo 조회를 사용하여 각 사이트에 지연을 추가하는 단점이 있습니다 `getOffers` 호출. 지연 시간은 `getOffers` 서버 측 의사 결정을 사용하여 호출합니다. 서버 근처에 있는 CDN에 도달하기 때문입니다. SDK에 대한 요청 컨텍스트의 지역 개체에 있는 &quot;ipAddress&quot; 필드만 방문자 IP 주소의 지역 위치를 검색합니다. ipAddress 외에 다른 필드가 제공되면 [!DNL Target] SDK는 해결을 위해 지리적 위치 메타데이터를 가져오지 않습니다.
 
 ```javascript
 window.adobe.target.getOffers({ 

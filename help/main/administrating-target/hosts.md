@@ -5,9 +5,9 @@ title: 호스트란 무엇이며, 호스트를 어떻게 사용합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1084'
+source-wordcount: '1086'
 ht-degree: 22%
 
 ---
@@ -85,7 +85,7 @@ ht-degree: 22%
 
 >[!IMPORTANT]
 >
->**보안 모범 사례**: 의 ubox 기능을 사용하는 경우 [!DNL Target]또한 이 허용 목록에 추가하다 도메인은 [리디렉터](https://developer.adobe.com/target/implement/email/working-with-redirectors/) 탐색할 수 있습니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가했는지 확인합니다. 허용 목록에 추가하다를 지정하지 않은 경우 [!DNL Adobe] 가 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다.
+>**보안 모범 사례**: 의 ubox 기능을 사용하는 경우 [!DNL Target]또한 이 허용 목록에 추가하다 도메인은 [리디렉터](https://developer.adobe.com/target/implement/email/working-with-redirectors/){target=_blank}에서 탐색할 수 있습니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가했는지 확인합니다. 허용 목록에 추가하다를 지정하지 않은 경우 [!DNL Adobe] 가 리디렉션 URL을 확인하고 잠재적인 악성 리디렉션에서 보호할 수 없습니다.
 >
 >허용 목록에 추가하다가 환경에 우선합니다. 기능을 사용하기 전에 허용 목록에 추가하다 모든 호스트를 지운 다음 호스트에서 허용하는 호스트만 호스트 목록에 허용 목록에 추가하다 표시됩니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 

@@ -5,10 +5,10 @@ title: at.js의 각 버전에 포함되는 것은 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4570'
-ht-degree: 85%
+source-wordcount: '4584'
+ht-degree: 84%
 
 ---
 
@@ -20,11 +20,11 @@ ht-degree: 85%
 >
 >Target 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오.
 >
->의 태그 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Adobe Experience Platform] 카탈로그가 업그레이드로 제공됩니다. 자세한 내용은 [확장 업그레이드](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 에서 *태그 개요* 안내서.
+>의 태그 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}는 at.js를 업그레이드하는 기본 방법입니다. 확장 개발자는 확장에 새로운 기능을 지속적으로 추가하고 버그를 자주 수정합니다. 이러한 업데이트는 새로운 버전의 확장에 패키지화되어 [!DNL Adobe Experience Platform] 카탈로그가 업그레이드로 제공됩니다. 자세한 내용은 [확장 업그레이드](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) 에서 *태그 개요* 안내서.
 
 ## at.js 버전 2.9.0(2022년 5월 27일)
 
-* [사용자 에이전트 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) 지원이 추가되었습니다.
+* 추가됨 [사용자 에이전트 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} 지원.
 * 동일한 페이지의 여러 mbox 요청에 서로 다른 노출 ID가 있는 버그가 수정되었습니다.
 
 ## at.js 버전 2.8.1 (2022년 1월 28일)
@@ -68,7 +68,7 @@ ht-degree: 85%
 
 이 at.js의 릴리스에는 다음과 같은 개선 사항 및 변경 사항이 포함되어 있습니다.
 
-* at.js에 대한 [온디바이스 의사 결정](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/) 지원
+* [On-Device Decisioning](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/)at.js에 대한 {target=_blank} 지원.
 * 자동화된 개인화 활동에 대한 [링크 미리보기](/help/main/c-activities/c-activity-qa/activity-qa.md) 지원
 
 이 릴리스는 또한 Microsoft Internet Explorer 10 이상의 버전에 대한 지원을 제거합니다.
@@ -117,7 +117,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.
 
-* 전달된 Target 오퍼을 적용할 때 SCRIPT에서 컨텐츠 보안 정책 임시 항목 및 페이지 DOM에 추가된 STYLE 태그 설정을 지원합니다. 고객이 설정할 수 있음 `targetGlobalSettings.cspScriptNonce` 및 `targetGlobalSettings.cspStyleNonce` 적용된 오퍼에 해당 스크립트 및 스타일 태그 임시 항목을 설정할 수 있도록 at.js가 준비되었습니다. 자세한 내용은  [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 자세한 내용
+* 전달된 Target 오퍼을 적용할 때 SCRIPT에서 컨텐츠 보안 정책 임시 항목 및 페이지 DOM에 추가된 STYLE 태그 설정을 지원합니다. 고객이 설정할 수 있음 `targetGlobalSettings.cspScriptNonce` 및 `targetGlobalSettings.cspStyleNonce` 적용된 오퍼에 해당 스크립트 및 스타일 태그 임시 항목을 설정할 수 있도록 at.js가 준비되었습니다. 자세한 내용은  [targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)자세한 내용은 {target=_blank}.
 * Google Tag Manager 배포를 위해 Google Closure 컴파일러를 사용하여 at.js를 컴파일할 때 발생하는 문제를 해결했습니다.
 * at.js 확인 쿠키의 이름이 `check` to `at_check` 을 입력하여 고객의 구현과 충돌을 피할 수 있습니다.
 
@@ -231,17 +231,17 @@ at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.
 * mboxDefine
 * registerExtension()
 
-자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 및 [at.js 함수](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)를 참조하십시오.
+자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 및 [at.js 함수](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 
 >[!NOTE]
 >
->GDPR([일반 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/))에 대한 Adobe 옵트인 지원이 필요한 경우 현재 at.js 1.7.0 또는 at.js 2.1.0을 사용해야 합니다.
+>에 대한 Adobe 옵트인 지원이 필요한 경우 [일반 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR)에는 현재 at.js 1.7.0 또는 at.js 2.1.0을 사용해야 합니다.
 
 ## at.js 버전 1.7.0 {#at-js-170}
 
 at.js 1.7.0에서는 Adobe 옵트인을 지원합니다. Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.
 
-Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 일반 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)(GDPR)을 참조하십시오.
+Adobe 옵트인에 대한 자세한 내용은 [개인 정보 및 일반 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank} (GDPR).
 
 또한 이 릴리스에서는 Target이 리디렉션 URL에서 발생하는 매개 변수로 리디렉션 URL 매개 변수를 무시할 수 있는 문제를 수정합니다.
 

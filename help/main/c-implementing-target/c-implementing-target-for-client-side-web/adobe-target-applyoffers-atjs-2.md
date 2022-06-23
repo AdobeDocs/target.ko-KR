@@ -5,9 +5,9 @@ title: adobe.target.applyOffers() 함수를 어떻게 사용합니까?
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '836'
 ht-degree: 87%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 87%
 
 >[!NOTE]
 >
->자세한 내용은 [배달 API 설명서](https://developer.adobe.com/target/before-administer/) 을 참조하십시오.
+>자세한 내용은 [배달 API 설명서](https://developer.adobe.com/target/before-administer/){target=_blank} 을 참조하십시오.
 
 | 필드 이름 | 설명 |
 | --- | --- |

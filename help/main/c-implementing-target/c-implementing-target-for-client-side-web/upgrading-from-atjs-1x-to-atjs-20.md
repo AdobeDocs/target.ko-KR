@@ -5,10 +5,10 @@ title: at.js 버전 1.x에서 버전 2.x로 업그레이드하려면 어떻게 �
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2874'
-ht-degree: 88%
+source-wordcount: '2878'
+ht-degree: 87%
 
 ---
 
@@ -54,7 +54,7 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 
 ## at.js 2.*x* {#deploy-atjs-200}
 
-1. at.js 2.*x* 의 태그를 통해 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) 확장.
+1. at.js 2.*x* 의 태그를 통해 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} 확장.
 
    >[!NOTE]
    >
@@ -368,7 +368,7 @@ at.js 1.*x* vst를 사용할 수 있었습니다.* mbox 매개 변수를 사용�
 | [!DNL Adobe Experience Platform] 확장 | [예](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | 디버거 | 예 |
 | Auditor | at.js 2.*x*&#x200B;에 대한 규칙이 아직 업데이트되지 않음 |
-| 옵트인 | 아니오. [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)에 대한 옵트인 지원은 [at.js 버전 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)에서 지원됩니다. |
+| 옵트인 | 아니오. 에 대한 옵트인 지원 [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}은 [at.js 버전 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
 | Adobe Target에서 제공하는 AEM 고급 개인화 | 아니오 |
 
 ### 기능

@@ -5,9 +5,9 @@ title: Experience Platform 웹 SDK를 사용하여 어떻게 구현합니까?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 16%
 
 ---
@@ -39,4 +39,4 @@ ht-degree: 16%
 | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 리디렉션 오퍼로 인해 방문자의 브라우저가 새 페이지로 리디렉션됩니다.<br>자세한 내용은 [다음을 수행합니다. [!DNL Adobe Experience Platform Web SDK] a4T에 대한 리디렉션 오퍼를 지원합니까?](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [응답 토큰](/help/main/administrating-target/response-tokens.md) | 응답 토큰을 사용하면 Target 데이터를 Google Analytics 및 기타 타사 통합에 보낼 수 있습니다.<br>자세한 내용은 [Platform Web SDK를 통해 Google Analytics에게 데이터 보내기](/help/main/administrating-target/response-tokens.md#platform-web-sdk) 를 입력하여 이 작업을 수행하는 방법에 대한 코드 샘플을 볼 수 있습니다. |
 | [단일 페이지 애플리케이션 구현](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) 에서 *Platform Web SDK 개요* 안내서. | [!UICONTROL Adobe Experience Platform Web SDK] 에서는 단일 페이지 애플리케이션(SPA)과 같은 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. |
-| [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | TLS(Transport Layer Security)는 가장 높은 보안 표준을 유지 관리하고 고객 데이터의 안전을 높이는 데 도움이 됩니다. |
+| [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/) | TLS(전송 계층 보안){target=_blank}를 사용하면 가장 높은 보안 표준을 유지 관리하고 고객 데이터의 안전을 도모할 수 있습니다. |

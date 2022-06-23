@@ -5,10 +5,10 @@ title: ' [!DNL Target] 은 개인정보 보호 문제를 어떻게 처리합니�
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '752'
-ht-degree: 98%
+source-wordcount: '754'
+ht-degree: 92%
 
 ---
 
@@ -69,4 +69,4 @@ IP 주소가 완전히 난독화된 경우 지리 특성 및 지역 타기팅을
 
 ## 개인정보 보호 및 데이터 보호 규정
 
-유럽 연합의 일반 데이터 정보 보호 규정(GDPR), 캘리포니아 소비자 개인정보 보호법(CCPA) 및 기타 국제 개인정보 보호 요구 사항, 그리고 이러한 규정이 귀사 및 Adobe Target에 미치는 영향에 대한 자세한 내용은 [개인정보 보호 및 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/)을 참조하십시오.
+자세한 내용은 [개인 정보 보호 및 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}를 사용하십시오.

@@ -4,9 +4,9 @@ description: ' [!DNL Target Recommendations], including using the [!DNL Target] 
 title: Recommendations를 이메일과 통합하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1715'
 ht-degree: 99%
 
 ---
@@ -77,7 +77,7 @@ curl -X POST \
 >
 >모든 이메일 수신자(예: API 호출)에 대해 `sessionId` 및 `tntId` 또는 `thirdPartyId` 중 하나에 고유값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면, 단일 프로필 내에서 많은 이벤트가 생성되어 API 응답이 느려지거나 실패할 수 있습니다.
 
-자세한 내용은 [배달 API 설명서](https://developer.adobe.com/target/implement/delivery-api/)를 참조하십시오.
+자세한 내용은 [배달 API 설명서](https://developer.adobe.com/target/implement/delivery-api/)자세한 내용은 {target=_blank}.
 
 ## 방법 2: rawbox 이메일 템플릿 사용 {#rawbox}
 

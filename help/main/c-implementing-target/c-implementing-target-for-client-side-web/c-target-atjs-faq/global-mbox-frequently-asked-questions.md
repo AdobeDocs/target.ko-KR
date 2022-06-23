@@ -5,10 +5,10 @@ title: 글로벌 Mbox에 대해 Faq는 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 77%
+source-wordcount: '318'
+ht-degree: 64%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 77%
 
 활동에 URL 규칙을 추가하여 활동이 실행되는 위치를 제한할 수 있습니다. 자세한 내용은 [유사한 페이지에 동일한 경험 포함](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-[targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/)를 사용하여 페이지에서 매개 변수를 전달한 다음, [!UICONTROL 시각적 경험 작성기] (VEC)의 &quot;URL 구성&quot; 섹션에서 또는 양식 기반 경험 작성기에서 매개 변수를 &quot;개선&quot;으로 추가하여 해당 매개 변수를 선택할 수도 있습니다.
+를 사용하여 페이지에서 매개 변수를 전달할 수도 있습니다. [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}를 선택하고 페이지의 &quot;URL 구성&quot; 섹션에서 해당 매개 변수를 선택합니다. [!UICONTROL 시각적 경험 작성기] (VEC) 또는 양식 기반 경험 작성기에서 매개 변수를 &quot;개선&quot;으로 추가하여
 
 ## 에 대한 수입 데이터를 전달하려면 어떻게 합니까? [!DNL Target] 글로벌 mbox를 사용할 수 있습니까? {#section_17AEA933BADA4D169CCEDF5833C41306}
 

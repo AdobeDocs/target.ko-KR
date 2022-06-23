@@ -5,9 +5,9 @@ title: ' [!DNL Target] 은 개인정보 보호 및 데이터 보호 규정을 �
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2229'
+source-wordcount: '2231'
 ht-degree: 98%
 
 ---
@@ -54,7 +54,7 @@ ht-degree: 98%
 
 ## Adobe [!DNL Target] 및 [!DNL Adobe Experience Platform] 옵트인 {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target]은 [!DNL Adobe Experience Platform]의 태그를 통해 옵트인 기능 지원을 제공하여 귀하의 동의 관리 전략을 지원합니다. 선택 기능을 통해 고객이 [!DNL Target] 태그를 실행하는 방법과 시기를 제어할 수 있습니다. 또한 [!DNL Adobe Experience Platform]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Target] at.js 라이브러리에서 옵트인을 사용하는 기능을 활성화하려면 `targetGlobalSettings`를 사용하고 `optinEnabled=true` 설정을 추가해야 합니다. [!DNL Adobe ExperiencePlatform]에서, 확장 기능 설치 보기에 있는 [!UICONTROL GDPR 옵트인] 드롭다운 목록에서 “활성화”를 선택합니다. 자세한 내용은 “[ [!DNL Target] 을 사용하여 [!DNL Adobe Experience Platform]구현”을 참조하십시오.](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
+[!DNL Target]은 [!DNL Adobe Experience Platform]의 태그를 통해 옵트인 기능 지원을 제공하여 귀하의 동의 관리 전략을 지원합니다. 선택 기능을 통해 고객이 [!DNL Target] 태그를 실행하는 방법과 시기를 제어할 수 있습니다. 또한 [!DNL Adobe Experience Platform]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. [!DNL Target] at.js 라이브러리에서 옵트인을 사용하는 기능을 활성화하려면 `targetGlobalSettings`를 사용하고 `optinEnabled=true` 설정을 추가해야 합니다. [!DNL Adobe ExperiencePlatform]에서, 확장 기능 설치 보기에 있는 [!UICONTROL GDPR 옵트인] 드롭다운 목록에서 “활성화”를 선택합니다. 자세한 내용은 [구현 [!DNL Target] 사용 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)자세한 내용은 {target=_blank}.
 
 다음 코드 스니펫은 `optinEnabled=true` 설정을 활성화하는 방법을 보여 줍니다.
 

@@ -5,10 +5,10 @@ title: mboxCreate() 함수를 사용하려면 어떻게 해야 합니까?
 feature: at.js
 role: Developer
 exl-id: 821ad97a-345a-4e56-9be6-ab1c7d3a651d
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '212'
-ht-degree: 76%
+source-wordcount: '214'
+ht-degree: 73%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 76%
 
 `mboxCreate()`은 이제 &quot;standard&quot; 종단점 대신 &quot;json&quot; 엔드포인트를 사용하며 비동기식으로 실행됩니다. 이 때문에
 
-* [디버깅](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)이 약간 다릅니다.
+* [디버깅](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}은 약간 다릅니다.
 * 동기식 호출 차단을 요구하는 오퍼 코드를 피해야 합니다.
 
    예를 들어, 페이지에서 뒷부분에 나오는 사이트 코드 또는 기타 mbox에 사용되는 JavaScript 변수를 설정하는 오퍼가 여기에 해당합니다.

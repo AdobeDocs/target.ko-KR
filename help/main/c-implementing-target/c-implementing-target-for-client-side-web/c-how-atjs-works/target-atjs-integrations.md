@@ -5,10 +5,10 @@ title: At.js는 어떤 통합을 지원합니까?
 feature: at.js
 role: Developer
 exl-id: 148c744d-2a2b-40f8-964b-c51283ae7d1c
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 79%
+source-wordcount: '501'
+ht-degree: 75%
 
 ---
 
@@ -42,4 +42,4 @@ ht-degree: 79%
 | 통합 | 세부 사항 |
 |--- |--- |
 | 기타 태그 관리자 | at.js는 비Adobe 태그 관리 플랫폼에서 작동해야 하지만 다른 공급업체가 개발한 사용자 지정 통합 기능을 사용하는 데에는 주의하십시오. 더 이상 at.js에 없는 내부 mbox.js 함수에 공급업체의 통합이 종속될 수 있습니다. |
-| 타사 데이터 제공자(예: Demandbase, Bluekai, 날씨 API) | Target의 사용자 프로파일링을 보완하는 데 사용되는 다양한 타사 데이터 공급업체는 at.js [데이터 제공자](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/) 기능을 사용하여 통합할 수 있습니다. |
+| 타사 데이터 제공자(예: Demandbase, Bluekai, 날씨 API) | Target의 사용자 프로파일링을 보완하는 데 사용되는 다양한 타사 데이터 공급업체는 at.js를 사용하여 통합할 수 있습니다 [데이터 공급자](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank} 기능. |
