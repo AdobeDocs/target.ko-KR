@@ -5,10 +5,10 @@ title: ' [!DNL Target] 은 개인정보 보호 문제를 어떻게 처리합니�
 feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 92%
+source-wordcount: '758'
+ht-degree: 91%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 92%
 
 개별 기능 사용 데이터는 [!DNL Target] 기능이 의도한 대로 작동되는지 확인하거나 활용도가 낮은 기능을 식별하기 위해 [!DNL Adobe] 내부용으로 수집됩니다. 성능 관련 문제를 해결하기 위해 다양한 지연 시간 측정값이 수집됩니다. 개인 데이터는 수집되지 않습니다.
 
-클라이언트 초기화 옵션에서 `telemetryEnabled`를 false로 설정하여 SDK의 사용 데이터를 보고하지 않도록 선택할 수 있습니다. 자세한 내용은 [telemetryEnabled in targetGlobalSettings](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
+클라이언트 초기화 옵션에서 `telemetryEnabled`를 false로 설정하여 SDK의 사용 데이터를 보고하지 않도록 선택할 수 있습니다. 자세한 내용은 [targetGlobalSettings에서 telemetryEnabled](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## IP 주소 수집 {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -69,4 +69,4 @@ IP 주소가 완전히 난독화된 경우 지리 특성 및 지역 타기팅을
 
 ## 개인정보 보호 및 데이터 보호 규정
 
-자세한 내용은 [개인 정보 보호 및 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}를 사용하십시오.
+자세한 내용은 [개인 정보 보호 및 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}에서 유럽 연합의 GDPR(일반 데이터 보호 규정){target=_blank}, 캘리포니아 소비자 개인 정보 보호법(CCPA) 및 기타 국제 개인 정보 보호 요구 사항과 이러한 규정이 조직 및 Adobe Target에 미치는 영향에 대해 알아보십시오.

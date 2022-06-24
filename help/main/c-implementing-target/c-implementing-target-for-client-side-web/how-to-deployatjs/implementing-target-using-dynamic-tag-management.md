@@ -5,9 +5,9 @@ title: 구현할 수 있습니까? [!DNL Target] 사용 [!DNL Dynamic Tag Manage
 feature: Implement Server-side
 role: Developer
 exl-id: 87df1326-a2d5-4bdb-82ba-ec58eaf17773
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '106'
+source-wordcount: '108'
 ht-degree: 12%
 
 ---
@@ -18,5 +18,5 @@ ht-degree: 12%
 
 의 태그 [!DNL Adobe Experience Platform] 는에서 차세대 태그 관리 기능입니다 [!DNL Adobe]. 태그는 관련 고객 환경을 향상하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다.
 
-자세한 내용은 [구현 [!DNL Target] 사용 [!DNL Adobe Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+자세한 내용은 [구현 [!DNL Target] 사용 [!DNL Adobe Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 

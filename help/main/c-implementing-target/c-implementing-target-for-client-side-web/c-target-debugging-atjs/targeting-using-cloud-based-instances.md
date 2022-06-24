@@ -5,10 +5,10 @@ title: 사용할 수 있습니까 [!DNL Target] 을 클라우드 기반 인스�
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 64%
+source-wordcount: '177'
+ht-degree: 60%
 
 ---
 
@@ -26,4 +26,4 @@ ht-degree: 64%
 
 다음 [!DNL at.js] JavaScript 라이브러리는 쿠키를 사용하여 사용자를 추적하여 [!DNL Target] 항상 일관된 경험을 제공합니다. 만약 [!DNL Target] JavaScript 라이브러리가 쿠키를 저장할 수 없습니다. [!DNL Target] 요청이 비활성화되었습니다.
 
-**해결 방법:**&#x200B;공용 접미어 목록에 포함된 도메인에 클라우드 기반 인스턴스를 사용하려는 경우 `cookieDomain` 설정을 사용자 지정하는 것이 좋습니다. 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
+**해결 방법:**&#x200B;공용 접미어 목록에 포함된 도메인에 클라우드 기반 인스턴스를 사용하려는 경우 `cookieDomain` 설정을 사용자 지정하는 것이 좋습니다. 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.

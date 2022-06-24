@@ -5,10 +5,10 @@ title: 이미지용 Adbox를 만들려면 어떻게 합니까?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 66%
+source-wordcount: '341'
+ht-degree: 65%
 
 ---
 
@@ -18,7 +18,7 @@ Adobe Target을 사용하여 오프사이트 구현에서 이미지를 전달하
 
 AdBox는 mbox와 비슷하지만 JavaScript가 아니라 URL로 제어됩니다. AdBox는 &quot;광고&quot; mbox(또는 AdBox)를 자신의 Adobe 계정으로 로드하는 특별한 AdBox URL로 만들어집니다. 이 AdBox를 활동에서 mbox 대신 사용합니다. 이메일 또는 기타 비 자바스크립트 구현에서 직접 이미지 참조 대신 AdBox URL을 사용합니다.
 
-올바른 설정을 선택하는 데 도움이 필요하면  [비 JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/).
+올바른 설정을 선택하는 데 도움이 필요하면  [비 JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/){target=_blank}.
 
 1. AdBox URL을 만듭니다.
 

@@ -5,10 +5,10 @@ title: 이전 API에서 Adobe I/O으로 전환하려면 어떻게 합니까?
 feature: Implement Server-side
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '608'
-ht-degree: 82%
+source-wordcount: '610'
+ht-degree: 81%
 
 ---
 
@@ -18,7 +18,7 @@ Target의 이전 API에서 Adobe I/O의 새 API로 전환하는 데 도움이 �
 
 Adobe Target Classic을 삭제하면 Target Classic 계정에 연결된 API도 사용할 수 없게 됩니다. 이 문서는 이전 API 기반 통합을 Adobe I/O에서 제공하는 Target API로 전환하는 데 도움이 됩니다.
 
-Target API 문서에 대한 자세한 정보는 [Target API 및 NodeJS SDK](https://developer.adobe.com/target/implement/server-side/).
+Target API 문서에 대한 자세한 정보는 [Target API 및 NodeJS SDK](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
 
 ## 용어 {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 

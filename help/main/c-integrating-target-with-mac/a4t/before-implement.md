@@ -4,10 +4,10 @@ description: Analytics에 대한 구현 요구 사항 알아보기 [!DNL Target]
 title: A4T를 구현하기 전에 무엇을 알아야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '977'
-ht-degree: 25%
+source-wordcount: '983'
+ht-degree: 24%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
->다음 요구 사항은 다음과 같습니다 *최소* A4T를 구현하는 데 필요한 at.js 버전. 다음 [!DNL Target] 팀에서는 두 버전만 유지 관리합니다 [!DNL at.js]- 현재 버전 및 두 번째 최신 버전입니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오.
+>다음 요구 사항은 다음과 같습니다 *최소* A4T를 구현하는 데 필요한 at.js 버전. 다음 [!DNL Target] 팀에서는 두 버전만 유지 관리합니다 [!DNL at.js]- 현재 버전 및 두 번째 최신 버전입니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### A4T에서 리디렉션 오퍼를 사용하지 *않을* 경우 필요한 요구 사항
 
@@ -41,7 +41,7 @@ A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합�
 * [!DNL Adobe Target]: at.js  버전 0.9.1
 * Adobe Analytics: appMeasurement.js 버전 1.7.0
 
-을 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+을 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ### A4T에서 리디렉션 오퍼를 사용할 경우 필요한 요구 사항
 
@@ -59,7 +59,7 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 
 다운로드 및 배포 지침은 [Analytics for Target 구현](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-를 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+를 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ## 구현하기 전에 알아야 할 사항 {#section_50D49CC52E11414089C89FB67F9B88F5}
 

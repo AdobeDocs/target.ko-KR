@@ -5,10 +5,10 @@ title: ' [!DNL Target] 은 Google의 Samesite 쿠키 정책을 어떻게 처리�
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 99%
+source-wordcount: '1957'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Google은 2020년 초에 출시되는 Chrome 80을 시작으로 사용자를 위
 
 Chrome 80을 시작으로 웹 개발자는 웹 사이트 전체에 걸쳐 작동할 수 있는 쿠키를 명시적으로 지정해야 합니다. 이는 Google이 웹에서의 개인정보 보호 및 보안을 개선하기 위해 작성하는 많은 공지 사항 중 첫 번째 것입니다.
 
-Facebook이 개인정보 보호 및 보안과 관련하여 뜨거운 관심을 받고 있는 상황에서, Apple, Google과 같은 다른 주요 플레이어는 개인정보 보호 및 보안 분야의 으뜸으로서 새로운 정체성을 구축할 수 있는 기회를 재빨리 포착했습니다. Apple은 올해 초 ITP 2.1, 그리고 최근 ITP 2.2를 통해 쿠키 정책에 대한 변경을 처음 발표하면서 이 경쟁의 선두를 차지했습니다. ITP 2.1에서 Apple은 서드파티 쿠키를 완전히 차단하며 브라우저에서 생성한 쿠키를 7일 동안만 유지합니다. In ITP 2.2에서는 쿠키가 하루 동안만 유지됩니다. Google의 발표는 Apple만큼 공격적이지 않지만, 이를 통해 Google은 동일한 최종 목표를 향한 첫 걸음을 내디뎠습니다. Apple의 정책에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/)을 참조하십시오.
+Facebook이 개인정보 보호 및 보안과 관련하여 뜨거운 관심을 받고 있는 상황에서, Apple, Google과 같은 다른 주요 플레이어는 개인정보 보호 및 보안 분야의 으뜸으로서 새로운 정체성을 구축할 수 있는 기회를 재빨리 포착했습니다. Apple은 올해 초 ITP 2.1, 그리고 최근 ITP 2.2를 통해 쿠키 정책에 대한 변경을 처음 발표하면서 이 경쟁의 선두를 차지했습니다. ITP 2.1에서 Apple은 서드파티 쿠키를 완전히 차단하며 브라우저에서 생성한 쿠키를 7일 동안만 유지합니다. In ITP 2.2에서는 쿠키가 하루 동안만 유지됩니다. Google의 발표는 Apple만큼 공격적이지 않지만, 이를 통해 Google은 동일한 최종 목표를 향한 첫 걸음을 내디뎠습니다. Apple 정책에 대한 자세한 내용은 [Apple ITP(Intelligent Tracking Prevention) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}.
 
 ## 쿠키란 무엇이며 쿠키를 사용하는 방법은 무엇입니까?
 

@@ -4,9 +4,9 @@ description: Adobe에 대한 FAQ 및 답변 목록 살펴보기 [!DNL Target] �
 title: 질문에 대한 답변을 어디에서 찾을 수 있습니까? [!DNL Target] 보고?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1227'
 ht-degree: 32%
 
 ---
@@ -106,6 +106,6 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 * A/B 및 MVT 테스트에 가장 좋은 방법은 트래픽 분할을 균등하게 유지하는 것입니다. 테스트 중에 경험(예: 90/10에서 50/50)간 트래픽 분포를 변경하면 경험 간에 방문자가 불규칙할 수 있습니다. 낮은 트래픽 경험은 &quot;따라잡지 못할 수 있습니다.&quot;
 * 위의 우수 사례를 따르고 트래픽 분할이 시간에 따라 정규화되지 않는 경우 다음을 확인해야 합니다.
 
-   * 최신 at.js 라이브러리를 사용하고 있습니까? 현재 버전 및 관련 릴리스 노트에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+   * 최신 at.js 라이브러리를 사용하고 있습니까? 현재 버전 및 관련 릴리스 노트에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
    * 리디렉션 테스트인가요? 페이지에서 태그가 잘못 실행되면 특히 를 사용할 때 트래픽 분할이 균일하지 않을 수 있습니다 [!DNL Analytics] 를 [!DNL Target] 활동. Analytics for Analytics (A4T)를 사용하여 리디렉션 활동에서 불규칙한 트래픽 분포를 해결하는 자세한 내용은 를 참조하십시오 [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

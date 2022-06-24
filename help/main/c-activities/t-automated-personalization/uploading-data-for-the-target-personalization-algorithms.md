@@ -4,9 +4,9 @@ description: Adobe에서 개인화 모델을 작성할 때 CRM 정보와 같은 
 title: 개인화 알고리즘을 위해 데이터를 업로드하려면 어떻게 해야 합니까?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 63%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 CRM 정보 또는 고객 이탈 성향 점수와 같은 오프라인 데이터는 에서 개인화 모델을 작성할 때 매우 유용할 수 있습니다 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 활동.
 
-[!UICONTROL 자동화된 개인화] (AP)와 [!UICONTROL 자동 타겟] 개인화 알고리즘에서 데이터를 입력하는 방법에는 몇 가지가 있습니다. 에서 메서드 외에 [데이터를 Target에 가져오는 방법](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), Experience Cloud 공유 대상(Adobe Analytics, 대상 관리){target=_blank} 및 활동 보고 대상도 알고리즘에 사용됩니다.
+[!UICONTROL 자동화된 개인화] (AP)와 [!UICONTROL 자동 타겟] 개인화 알고리즘에서 데이터를 입력하는 방법에는 몇 가지가 있습니다. 에서 메서드 외에 [데이터를 Target에 가져오는 방법](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}, Experience Cloud 공유 대상(Adobe Analytics, 대상 관리){target=_blank} 및 활동 보고 대상도 알고리즘에 사용됩니다.
 
 자동화된 개인화 및 자동 타겟 개인화 알고리즘에서 자동으로 수집 및 사용되는 데이터에 대해서는 [자동화된 개인화 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오.
 

@@ -5,10 +5,10 @@ title: at.js 버전 1.x에서 버전 2.x로 업그레이드하려면 어떻게 �
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2878'
-ht-degree: 87%
+source-wordcount: '2888'
+ht-degree: 86%
 
 ---
 
@@ -24,7 +24,7 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 
 ## at.js 2.*x 시스템 다이어그램*
 
-다음 다이어그램은 보기가 있는 at.js 2.*x*&#x200B;의 워크플로우를 이해하고 이를 통해 어떻게 SPA 통합이 향상되는지를 이해하는 데 도움이 됩니다. at.js 2.*x*&#x200B;에서 사용되는 개념의 도입을 보다 잘 이해하려면 [단일 페이지 애플리케이션 구현](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/)을 참조하십시오.
+다음 다이어그램은 보기가 있는 at.js 2.*x*&#x200B;의 워크플로우를 이해하고 이를 통해 어떻게 SPA 통합이 향상되는지를 이해하는 데 도움이 됩니다. at.js 2.*x*&#x200B;를 참조하십시오. [단일 페이지 애플리케이션 구현](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}.
 
 ![at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)&#x200B;에서 Target 흐름
 
@@ -62,7 +62,7 @@ at.js 2.*x*&#x200B;를 사용하면 이전 버전에서 사용할 수 없는 다
 
    또는
 
-   Target UI를 사용하여 at.js 2.*x*&#x200B;를 수동으로 다운로드하고 [선택한 방법](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/)으로 배포합니다.
+   at.js 2.*x* Target UI를 사용하고 [선택 방법](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/){target=_blank}.
 
 ## 사용 중단된 at.js 함수
 
@@ -72,7 +72,7 @@ at.js 2.*x*&#x200B;에서는 더 이상 사용되지 않는 몇 가지 함수가
 >
 >at.js 2.*x*&#x200B;를 배포할 때 이렇게 사용되지 않는 함수가 여전히 사이트에서 사용되면 콘솔 경고가 표시됩니다. 업그레이드할 때 권장되는 접근 방법은 스테이징 환경에서 at.js 2.*x*&#x200B;의 배포를 테스트하고 콘솔에 기록된 모든 경고를 하나하나 다 확인하고, 사용이 중단된 함수를 at.js 2.*x*&#x200B;에 도입된 새로운 함수로 변환하는 것입니다.
 
-아래에는 사용이 중단된 함수와 그에 해당하는 새로운 함수가 있습니다. 전체 함수 목록이 필요하면 [at.js 함수](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/)를 참조하십시오.
+아래에는 사용이 중단된 함수와 그에 해당하는 새로운 함수가 있습니다. 전체 함수 목록이 필요하면 [at.js 함수](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.
 
 >[!NOTE]
 >at.js 2.** x는 `mboxDefault` 표시 요소를 더 이상 자동으로 사전에 숨기지 않습니다. 따라서 고객은 사이트에서 수동으로 또는 태그 관리자를 통해 사전 숨김 로직을 수용해야 합니다.
@@ -365,10 +365,10 @@ at.js 1.*x* vst를 사용할 수 있었습니다.* mbox 매개 변수를 사용�
 | 대상자 | 예 |
 | 고객 속성 | 예 |
 | AEM 경험 구성요소 | 예 |
-| [!DNL Adobe Experience Platform] 확장 | [예](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
+| [!DNL Adobe Experience Platform] 확장 | [예](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} |
 | 디버거 | 예 |
 | Auditor | at.js 2.*x*&#x200B;에 대한 규칙이 아직 업데이트되지 않음 |
-| 옵트인 | 아니오. 에 대한 옵트인 지원 [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}은 [at.js 버전 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
+| 옵트인 | 아니오. 에 대한 옵트인 지원 [GDPR](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}은 [at.js 버전 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}. |
 | Adobe Target에서 제공하는 AEM 고급 개인화 | 아니오 |
 
 ### 기능

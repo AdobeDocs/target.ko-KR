@@ -5,10 +5,10 @@ title: 엔터프라이즈 권한을 구성하려면 어떻게 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1444'
-ht-degree: 67%
+source-wordcount: '1448'
+ht-degree: 66%
 
 ---
 
@@ -83,7 +83,7 @@ ht-degree: 67%
 
 ### 작업 공간 ID 얻기 {#workspace-id}
 
-[Target API](https://developer.adobe.com/target/implement/server-side/)에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다.
+에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다 [Target API](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
 
 1. [Adobe Admin Console](https://adminconsole.adobe.com)에서 [!UICONTROL 제품] 탭을 클릭한 다음 왼쪽 메뉴에서 제품을 클릭하여 PLC(작업 공간) 목록을 표시합니다.
 1. 원하는 PLC(작업 공간)를 클릭한 다음 아래 표시된 대로 URL에서 &quot;프로필&quot; ID를 찾습니다.
@@ -158,7 +158,7 @@ ht-degree: 67%
       </script>
       ```
 
-      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/).
+      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

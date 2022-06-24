@@ -4,10 +4,10 @@ description: Analytics를 사용할 때 리디렉션 오퍼 사용에 대한 질
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 55%
+source-wordcount: '1477'
+ht-degree: 54%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 55%
 
 ## 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 카운트되는 이유는 무엇입니까? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-at.js 버전 1.6.3 이상을 사용하는 경우, 두 페이지에서 페이지 보기를 카운트하는 것은 문제가 되지 않습니다. 이 경합 조건은 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀에서는 at.js의 현재 버전과 바로 전 버전, 이렇게 두 버전을 유지 관리합니다. [지원되는 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 실행 중인지 확인하려면 at.js를 필요에 따라 업그레이드하십시오.
+at.js 버전 1.6.3 이상을 사용하는 경우, 두 페이지에서 페이지 보기를 카운트하는 것은 문제가 되지 않습니다. 이 경합 조건은 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀에서는 at.js의 현재 버전과 바로 전 버전, 이렇게 두 버전을 유지 관리합니다. 를 실행 중인지 확인하려면 at.js를 필요에 따라 업그레이드하십시오 [지원되는 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션이 첫 페이지에서 실행되기 전에 Analytics 호출이 실행될 수 있는 경합 조건이 발생할 수 있습니다. 이 경우 원래 페이지 및 리디렉션 페이지의 페이지 보기가 모두 카운트될 수 있습니다. 실제로는 방문자에게 첫 번째 페이지가 &quot;표시&quot;되지 않았는데 첫 번째 페이지에 추가 페이지 보기가 발생할 수 있습니다.
 

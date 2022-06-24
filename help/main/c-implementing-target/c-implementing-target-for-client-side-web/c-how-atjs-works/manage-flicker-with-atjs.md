@@ -5,10 +5,10 @@ title: at.js는 플리커를 어떻게 관리합니까?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 60%
+source-wordcount: '695'
+ht-degree: 58%
 
 ---
 
@@ -38,7 +38,7 @@ at.js 구성 시 이 설정을 활성화할 경우 at.js가 HTML BODY 스타일 
 
 ![](assets/target-flow2.png)
 
-`bodyHiddenStyle` 무시에 대한 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
+에 대한 자세한 정보 `bodyHiddenStyle` 무시: [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## at.js를 비동기식으로 로드할 때 플리커 관리
 

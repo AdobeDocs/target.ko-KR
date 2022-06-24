@@ -4,9 +4,9 @@ description: Adobe에서 SPA VEC를 사용하는 방법을 알아봅니다 [!DNL
 title: SPA VEC(단일 페이지 앱 시각적 경험 작성기)를 어떻게 사용합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3722'
+source-wordcount: '3726'
 ht-degree: 91%
 
 ---
@@ -65,7 +65,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    ![구현 세부 사항 대화 상자](/help/main/c-experiences/assets/imp-200.png)
 
-   에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. [!UICONTROL 관리 > 구현]. at.js 2.x는 의 태그를 통해 배포할 수도 있습니다 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
+   에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. [!UICONTROL 관리 > 구현]. at.js 2.x는 의 태그를 통해 배포할 수도 있습니다 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
 
 1. at.js 2.x의 최신 함수를 구현합니다. [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)사이트에서 {target=_blank}.
 
@@ -354,7 +354,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 예 |
 | [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md) | 예 |
-| [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | 예 |
+| [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | 예 |
 | [AEM 경험 구성요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 예 |
 
 ## 지원되는 기능 {#supported-features}

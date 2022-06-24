@@ -5,10 +5,10 @@ title: 구현할 수 있습니까? [!DNL Target] 태그 관리자 없이
 feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1834'
-ht-degree: 47%
+source-wordcount: '1848'
+ht-degree: 43%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] UI에서 또는 REST API를 사용하여 설정을 구성하는 대신, at.js 라이브러리에서 설정을 재정의할 수 있습니다. 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
+>[!DNL Target Standard/Premium] UI에서 또는 REST API를 사용하여 설정을 구성하는 대신, at.js 라이브러리에서 설정을 재정의할 수 있습니다. 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## 계정 세부 사항
 
@@ -96,7 +96,7 @@ at.js 설정을 편집하려면 **[!UICONTROL 편집]** 원하는 at.js 버전 �
 
 API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성화하고 프로필 인증 토큰을 생성합니다.
 
-자세한 내용은 [프로필 API 설정](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/).
+자세한 내용은 [프로필 API 설정](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/profile-api-settings/){target=_blank}.
 
 ### 디버거 도구
 
@@ -114,11 +114,11 @@ API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성
 * 전체 IP 난독화
 * 없음
 
-자세한 내용은 [개인 정보](https://developer.adobe.com/target/before-implement/privacy/privacy/)를 참조하십시오.
+자세한 내용은 [개인 정보 보호](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 >[!NOTE]
 >
->at.js 버전 0.9.3 및 이전 버전에서 레거시 브라우저 지원 옵션을 사용할 수 있었습니다. 이 선택 사항은 at.js 버전 0.9.4에서 제거되었습니다. at.js에서 지원하는 브라우저 목록이 필요하면 [지원되는 브라우저](https://developer.adobe.com/target/before-implement/supported-browsers/)를 참조하십시오.<br>이전 브라우저는 CORS(Cross Origin Resource Sharing)를 완전히 지원하지는 않는 오래된 브라우저입니다. 이러한 브라우저에는 버전 11 이전의 Internet Explorer 브라우저와 Safari 버전 6 및 그 이전 버전이 포함됩니다. 이전 브라우저 지원이 비활성화되어 있으면, 이러한 브라우저에서는 Target이 보고서에서 컨텐츠를 전달하거나 방문자 수를 카운트하지 않았습니다. 이 옵션을 활성화한 경우 좋은 고객 경험을 위해 이전 브라우저에서 품질 보증을 수행하는 것이 좋습니다.
+>at.js 버전 0.9.3 및 이전 버전에서 레거시 브라우저 지원 옵션을 사용할 수 있었습니다. 이 옵션은 at.js 버전 0.9.4에서 제거되었습니다. at.js에서 지원하는 브라우저 목록이 필요하면 를 참조하십시오 [지원되는 브라우저](https://developer.adobe.com/target/before-implement/supported-browsers/){target=_blank}.<br>이전 브라우저는 CORS(Cross Origin Resource Sharing)를 완전히 지원하지는 않는 오래된 브라우저입니다. 이러한 브라우저에는 버전 11 이전의 Internet Explorer 브라우저와 Safari 버전 6 및 그 이전 버전이 포함됩니다. 이전 브라우저 지원이 비활성화되어 있으면, 이러한 브라우저에서는 Target이 보고서에서 컨텐츠를 전달하거나 방문자 수를 카운트하지 않았습니다. 이 옵션을 활성화한 경우 좋은 고객 경험을 위해 이전 브라우저에서 품질 보증을 수행하는 것이 좋습니다.
 
 ## at.js 다운로드 {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
@@ -128,7 +128,7 @@ API를 통해 묶음 업데이트에 대한 인증을 활성화 또는 비활성
 >
 >* [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}은 을 구현하기 위해 선호되는 방법입니다 [!DNL Target] 및 at.js 라이브러리. 다음 정보는에서 태그를 사용할 때에는 적용할 수 없습니다 [!DNL Adobe Experience Platform] 를 구현합니다 [!DNL Target].
 >
->* 다음 [!DNL Target] 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오.
+>* 다음 [!DNL Target] 팀은 at.js 1.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전을 최신 업데이트로 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 
 ### 를 사용하여 at.js 다운로드 [!DNL Target] 인터페이스 {#section_1F5EE401C2314338910FC57F9592894E}
@@ -180,7 +180,7 @@ API를 사용하여 [!DNL at.js]를 다운로드하려면 다음을 수행하십
 
    >[!IMPORTANT]
    >
-   >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 참조하십시오.
+   >Target 팀에서는 [!DNL at.js]의 현재 버전과 바로 전 버전, 이렇게 두 버전만 유지 관리합니다. 지원되는 버전을 실행 중인지 확인하려면 [!DNL at.js]를 필요에 따라 업그레이드하십시오. 각 버전에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
    이 URL을 로드하면 사용자 지정된 [!DNL at.js] 파일의 다운로드가 시작됩니다.
 
@@ -247,7 +247,7 @@ at.js는 웹 사이트에 있는 모든 페이지의 `<head>` 요소에 구현�
 * HTML5 Doctype(예: `<!doctype html>`) 를 사용해야 합니다. 지원되지 않거나 이전 버전의 doctypes으로 Target이 요청을 작성할 수 없습니다.
 * 사전 연결 및 미리 가져오기는 웹 페이지 로드 속도를 높일 수 있는 옵션입니다. 이러한 구성을 사용하는 경우 `<client code>` 를 사용하여 at.js 또는 mbox.js 참조 위에서 **[!UICONTROL 관리]** > **[!UICONTROL 구현] 페이지.
 * 데이터 계층이 있는 경우 at.js가 로드되기 전에 페이지의 `<head>`에 가능한 많은 항목을 정의하는 것이 최적입니다. 이 배치는 개인화를 위해 Target에서 이 정보를 사용할 수 있는 최대 기능을 제공합니다.
-* `targetPageParams()`, `targetPageParamsAll()`, Data Providers, `targetGlobalSettings()`와 같은 특수 Target 함수는 데이터 계층 뒤, at.js 로드 전에 정의해야 합니다. 또는 이러한 함수를 [!UICONTROL 라이브러리 헤더] 섹션 [!UICONTROL at.js 설정 편집] 페이지 및 at.js 라이브러리 자체의 일부로 저장되었습니다. 이러한 함수에 대한 자세한 내용은 [at.js 함수](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
+* `targetPageParams()`, `targetPageParamsAll()`, Data Providers, `targetGlobalSettings()`와 같은 특수 Target 함수는 데이터 계층 뒤, at.js 로드 전에 정의해야 합니다. 또는 이러한 함수를 [!UICONTROL 라이브러리 헤더] 섹션 [!UICONTROL at.js 설정 편집] 페이지 및 at.js 라이브러리 자체의 일부로 저장되었습니다. 이러한 함수에 대한 자세한 내용은 [at.js 함수](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/){target=_blank}.
 * jQuery와 같은 JavaScript 헬퍼 라이브러리를 사용하는 경우 Target 경험을 작성할 때 Target 앞에 포함시키면 구문 및 메서드를 사용할 수 있습니다.
 * 페이지의 `<head>`에 at.js를 포함합니다.
 

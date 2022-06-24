@@ -5,10 +5,10 @@ title: 글로벌 mbox란?
 feature: at.js
 role: Developer
 exl-id: 84d15feb-f5df-4879-ae35-a7f455c1b20f
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 79%
+source-wordcount: '224'
+ht-degree: 74%
 
 ---
 
@@ -27,4 +27,4 @@ ht-degree: 79%
 
 여러 활동이 글로벌 mbox 또는 여러 일반 mbox를 통해 전달되는 경우 [!DNL Target]에서는 [활동이 웹 페이지에 전달되는 우선순위를 결정](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F)합니다.
 
-추가적인 페이지 수준 데이터를 [!DNL Target] 함수를 사용하여 글로벌 mbox와 함께 `targetPageParams`에 전송할 수 있습니다. 이것은 mbox 매개 변수 기능과 비슷합니다. 자세한 내용은 [글로벌 Mbox에 매개 변수 전달](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/)을 참조하십시오.
+추가적인 페이지 수준 데이터를 [!DNL Target] 함수를 사용하여 글로벌 mbox와 함께 `targetPageParams`에 전송할 수 있습니다. 이것은 mbox 매개 변수 기능과 비슷합니다. 자세한 내용은 [글로벌 mbox에 매개 변수 전달](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.

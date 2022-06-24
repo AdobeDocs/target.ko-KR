@@ -4,10 +4,10 @@ description: ' [!DNL Target] JavaScript 라이브러리(at.js 및 Experience Pla
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 98%
+source-wordcount: '2571'
+ht-degree: 96%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 98%
 
 [!DNL Target] 은 [!DNL Experience Platform Web SDK] 또는 JavaScript 라이브러리를 사용하여 웹 사이트와 통합합니다.
 
-* **Adobe Experience Platform 웹 SDK:** 다음 [웹 SDK Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}는 새 클라이언트측 JavaScript 라이브러리입니다. Experience Platform Web SDK는 [!DNL Adobe Experience Cloud]의 고객이 Edge Network를 통해 [!DNL Experience Cloud] ([!DNL Target] 포함)의 다양한 서비스와 [!DNL Experience Platform] 상호 작용할 수 있도록 합니다. Adobe는 모든 신규 [!DNL Target] 고객에게 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
-* **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)으로 구현을 업데이트할 것을 권장합니다.
+* **Adobe Experience Platform 웹 SDK:** 다음 [웹 SDK Experience Platform](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}는 새 클라이언트측 JavaScript 라이브러리입니다. Experience Platform 웹 SDK를 통해 [!DNL Adobe Experience Cloud] 에서는 의 다양한 서비스와 상호 작용합니다 [!DNL Experience Cloud] (포함) [!DNL Target]){target=_blank} [!DNL Experience Platform] 에지 네트워크. Adobe는 모든 신규 [!DNL Target] 고객에게 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
+* **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. Adobe은 at.js를 사용하는 모든 고객이 구현을 로 업데이트할 것을 권장합니다 [at.js 최신 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 * **mbox.js:** mbox.js 라이브러리는 [!DNL Target]의 레거시 구현 라이브러리입니다. mbox.js 라이브러리는 2021년 3월 31일부터 더 이상 지원되지 않습니다.
 
 사이트의 모든 페이지에서 [!DNL Experience Platform Web SDK] 또는 at.js를 참조하십시오. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가할 수 있습니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=ko-KR) 를 사용하여 [!DNL Target]을 구현하는 방법도 고려해 볼 수 있습니다.
@@ -131,7 +131,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 >
 >[!DNL Adobe Target] 은 현재 중국에 에지 클러스터를 보유하고 있지 않으며, 방문자 실적은 중국의 [!DNL Target] 고객에 한정되어 있습니다. 국가 내에서 방화벽과 에지 클러스터 부족으로 인해 [!DNL Target] 이 배포된 사이트의 환경이 영향을 받을 수 있습니다. 경험을 렌더링하기 위해 속도가 느릴 수 있으며 페이지 로드에 영향을 미칠 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
 
-원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)를 참조하십시오.
+원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [허용 목록에 추가하다 Target 에지 노드](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

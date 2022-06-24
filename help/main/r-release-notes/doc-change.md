@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 94%
+source-wordcount: '1050'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 94%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 6월 14일 | [추천 계획 및 구현](https://developer.adobe.com/target/implement/recommendations/) | 다음 섹션에서 코드 샘플을 업데이트했습니다.<ul><li>장바구니 추가/장바구니 보기/체크아웃 페이지</li><li>방문자 장바구니에 이미 있는 항목 제외</li></ul> |
+| 6월 14일 | [추천 계획 및 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 다음 섹션에서 코드 샘플을 업데이트했습니다.<ul><li>장바구니 추가/장바구니 보기/체크아웃 페이지</li><li>방문자 장바구니에 이미 있는 항목 제외</li></ul> |
 | 6월 7일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.5.1 (순차적 공개, 2022년 5월 11~13일)
@@ -29,12 +29,12 @@ ht-degree: 94%
 | 6월 7일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 5월 31일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 예정된 [!DNL Adobe Target] 커뮤니티 Coffee Break(2022년 6월 29일)에 대한 정보가 추가되었습니다. |
 | 5월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] 플랫폼 릴리스(2022년 5월 25일) 및 at.js 2.9.0 릴리스(2022년 5월 27일)에 대한 정보가 추가되었습니다. |
-|  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
-|  | [사용자 에이전트 및 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/) | 새 주제입니다. |
+|  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
+|  | [사용자 에이전트 및 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 새 주제입니다. |
 |  | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나 녹화를 위한 링크 추가: Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경(2022년 5월 19일) |
 | 5월 23일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | at.js 버전 2.9.0에 대한 프리릴리스 정보가 추가되었습니다(2022년 5월 25일). |
 | 5월 11일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나에 대한 정보 및 등록 링크가 추가되었습니다.<ul><li>Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경</li><li>Adobe: 개인화 산업 내부자 - 금융 서비스 및 보험</li><li>City National Bank: 디지털 최적화에서 상위 1%를 달성하는 방법</li><li>Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target]</li><li>City National Bank: Zero to Hero - 개인화 프로그램 시작 및 확장</li><li>Adobe: 영향력이 큰 최적화 기회 발견</li><li>Adobe: 개인화 산업 내부자 - 소매</li></ul>다음 웨비나에 대한 녹화가 추가되었습니다.<ul><li>[!DNL Adobe Target]을 사용한 실시간 개인 설정</li></ul> |
-|  | [콘텐츠 보안 정책(CSP) 지침](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/) | FAQ 섹션이 추가되었습니다. |
+|  | [콘텐츠 보안 정책(CSP) 지침](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | FAQ 섹션이 추가되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 및 Target 플랫폼(2022년 5월 11~13일) 릴리스에 대한 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.4.1 (4월 28일)
@@ -88,12 +88,12 @@ ht-degree: 94%
 | --- | --- | --- |
 | 1월 31일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 1월 28일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
-|  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
+|  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 27일 | [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | [!DNL AEM as a Cloud Service] 및 [!DNL Adobe I/0]에 대한 주제가 업데이트되고 정보가 추가되었습니다. |
 | 1월 26일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.2 릴리스에 대한 정보가 추가되었습니다. |
 |  | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
 |  | [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
-| 1월 21일 | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
+| 1월 21일 | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 19일 | [at.js 1.** 에서 at.js 2.x로 업그레이드&#x200B;*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개변수&quot; |
 | 1월 12일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.1 릴리스에 대한 정보가 추가되었습니다. |
-|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/) | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |
+|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |

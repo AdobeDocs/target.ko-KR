@@ -5,10 +5,10 @@ title: 글로벌 Mbox에 대해 Faq는 무엇입니까?
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 64%
+source-wordcount: '322'
+ht-degree: 60%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 활동에 URL 규칙을 추가하여 활동이 실행되는 위치를 제한할 수 있습니다. 자세한 내용은 [유사한 페이지에 동일한 경험 포함](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-를 사용하여 페이지에서 매개 변수를 전달할 수도 있습니다. [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}를 선택하고 페이지의 &quot;URL 구성&quot; 섹션에서 해당 매개 변수를 선택합니다. [!UICONTROL 시각적 경험 작성기] (VEC) 또는 양식 기반 경험 작성기에서 매개 변수를 &quot;개선&quot;으로 추가하여
+를 사용하여 페이지에서 매개 변수를 전달할 수도 있습니다. [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}를 선택하고 페이지의 &quot;URL 구성&quot; 섹션에서 해당 매개 변수를 선택합니다. [!UICONTROL 시각적 경험 작성기] (VEC){target=_blank} 또는 양식 기반 경험 작성기에서 매개 변수를 &quot;개선&quot;으로 추가하여 설정합니다.
 
 ## 에 대한 수입 데이터를 전달하려면 어떻게 합니까? [!DNL Target] 글로벌 mbox를 사용할 수 있습니까? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -30,7 +30,7 @@ target-global-mbox에 대한 수입 및 주문 정보를 수집하려면 &quot;m
 
 `orderConfirmPage`의 경우 `orderTotal`, `orderId` 및 `productPurchasedId`를 전달해야 합니다. 
 
-이러한 매개 변수는 를 통해 target-global-mbox로 전송해야 합니다 `targetPageParams()`. 자세한 내용은 [글로벌 Mbox에 매개 변수 전달](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/)을 참조하십시오.
+이러한 매개 변수는 를 통해 target-global-mbox로 전송해야 합니다 `targetPageParams()`. 자세한 내용은 [글로벌 mbox에 매개 변수 전달](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
 
 또한 아래와 같이 주문 확인 페이지가 표시되었을 때 Target이 target-global-mbox에 대한 전환만 카운트하도록 전환 조각에 타깃팅을 추가할 수도 있습니다.
 

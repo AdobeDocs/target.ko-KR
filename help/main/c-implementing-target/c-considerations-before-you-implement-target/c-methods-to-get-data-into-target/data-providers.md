@@ -5,10 +5,10 @@ title: 로 데이터를 가져오려면 어떻게 해야 합니까? [!DNL Target
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 62%
+source-wordcount: '326'
+ht-degree: 55%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 62%
 
 `window.targetGlobalSettings.dataProviders` 설정은 데이터 공급자의 배열입니다.
 
-각 데이터 공급자 구조에 대한 자세한 내용은 [데이터 공급자](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.
+각 데이터 공급자의 구조에 대한 자세한 내용은 [데이터 공급자](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## 사용 사례 예
 
@@ -44,7 +44,7 @@ at.js는 데이터를 캐시하려고 하지 않습니다. 데이터 공급자�
 
 ## 코드 예
 
-[데이터 공급자](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)에서 몇 가지 예를 볼 수 있습니다.
+몇 가지 예는 다음과 같습니다 [데이터 공급자](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## 관련 정보에 대한 링크
 

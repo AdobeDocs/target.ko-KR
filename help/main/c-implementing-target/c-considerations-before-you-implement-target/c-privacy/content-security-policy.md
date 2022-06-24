@@ -5,16 +5,16 @@ title: ' [!DNL Target] 은 콘텐츠 보안 정책(CSP)을 어떻게 처리합�
 feature: Privacy & Security
 role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 97%
+source-wordcount: '338'
+ht-degree: 90%
 
 ---
 
 # 콘텐츠 보안 정책(CSP) 지침
 
-[!DNL Adobe Target] 구현에 [콘텐츠 보안 정책](https://ko.wikipedia.org/wiki/Content_Security_Policy)(CSP)을 사용하는 경우 [at.js 2.1 이상 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)을 사용할 때 다음과 같은 CSP 지침을 추가해야 합니다.
+사용 중인 경우 [컨텐츠 보안 정책](https://ko.wikipedia.org/wiki/Content_Security_Policy) (CSP)를 사용할 수 있습니다 [!DNL Adobe Target] 구현을 사용할 때는 다음 CSP 지시문을 추가해야 합니다 [at.js 2.1 이상](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}:
 
 * `*.tt.omtrdc.net` 허용 목록이 포함된 `connect-src` [!DNL Target] 에지로의 네트워크 요청을 수락하기 위해 필요합니다.
 * `style-src unsafe-inline` 사전 숨기기 및 플리커 제어에 필요합니다.

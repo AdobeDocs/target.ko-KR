@@ -5,9 +5,9 @@ title: 구현 방법 [!DNL Target] 내 사이트에서?
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '166'
+source-wordcount: '170'
 ht-degree: 1%
 
 ---
@@ -20,10 +20,10 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->의 태그 [!DNL Adobe Experience Platform] 는 를 구현하는 기본 방법입니다 [!DNL Target]. 의 태그 [!DNL Adobe Experience Platform] 는에서 차세대 태그 관리 기능입니다 [!DNL Adobe]. 태그는 관련 고객 환경을 향상하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. 자세한 내용은 [구현 [!DNL Target] 사용 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+>의 태그 [!DNL Adobe Experience Platform] 는 를 구현하는 기본 방법입니다 [!DNL Target]. 의 태그 [!DNL Adobe Experience Platform] 는에서 차세대 태그 관리 기능입니다 [!DNL Adobe]. 태그는 관련 고객 환경을 향상하는 데 필요한 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. 자세한 내용은 [구현 [!DNL Target] 사용 [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 1. 에 액세스하려면 [!UICONTROL 구현] 페이지를 클릭한 다음 **[!UICONTROL 관리]** > **[!UICONTROL 구현]**.
 
-1. 이 페이지의 설정에 적용할 수 있는 정보는 [태그 관리자 없이 Target 구현](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/).
+1. 이 페이지의 설정에 적용할 수 있는 정보는 [태그 관리자 없이 Target 구현](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 ![구현 페이지](/help/main/administrating-target/assets/implementation.png)

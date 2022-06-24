@@ -5,10 +5,10 @@ title: ' [!DNL Target] 은 개인정보 보호 및 데이터 보호 규정을 �
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2231'
-ht-degree: 98%
+source-wordcount: '2235'
+ht-degree: 97%
 
 ---
 
@@ -284,7 +284,7 @@ GDPR, CCPA 및 [!DNL Adobe Experience Platform]에 대한 자세한 내용은 [A
 
 | 필드 | 설명 |
 |--- |--- |
-| Sample_Parameter | [!DNL Target] 프로필의 정보 중 다수는 데이터 관리자가 업로드하거나 직접 제공합니다. 이 예에서는 프로필 업데이트 API를 사용하여 [!DNL Target] 프로필에 매개변수가 업로드되었습니다. 자세한 내용은 [데이터를 로 가져오는 방법 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
+| Sample_Parameter | [!DNL Target] 프로필의 정보 중 다수는 데이터 관리자가 업로드하거나 직접 제공합니다. 이 예에서는 프로필 업데이트 API를 사용하여 [!DNL Target] 프로필에 매개변수가 업로드되었습니다. 자세한 내용은 [데이터를 로 가져오는 방법 [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. |
 | user.ReturnTimeOfDay | 이 표준 필드에는 사용자가 최근 재방문한 시간이 포함되어 있습니다. |
 | firstSessionStart | 이 표준 필드에는 사용자의 첫 번째 세션이 시작된 시간이 포함되어 있습니다. |
 | user.sessionCountScript | [!DNL Target] 프로필의 정보 중 다수는 데이터 관리자가 업로드하거나 직접 제공합니다. 이 예제에서 프로필 스크립트는 이 방문자가 데이터 관리자의 사이트에서 수행한 세션 수를 증가시킵니다. 자세한 내용은 [프로필 스크립트 속성](/help/main/c-target/c-visitor-profile/profile-parameters.md)의 프로필 스크립트 정보 카드 보기 섹션을 참조하십시오. |
@@ -295,7 +295,7 @@ GDPR, CCPA 및 [!DNL Adobe Experience Platform]에 대한 자세한 내용은 [A
 
 ### [!DNL Target]에서 IP 난독화를 지원합니까? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-[!DNL Target]은 사용자가 IP 난독화를 GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 유사 IP 탐지를 지원합니다. 자세한 내용은 [개인 정보](https://developer.adobe.com/target/before-implement/privacy/privacy/)를 참조하십시오.
+[!DNL Target]은 사용자가 IP 난독화를 GDPR 또는 CCPA 구현 전략의 일부로 사용하도록 선택하는 경우 유사 IP 탐지를 지원합니다. 자세한 내용은 [개인 정보 보호](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 ### 데이터가 서드파티로 공유되거나 판매되는 것을 방지하기 위해 수행해야 하는 작업이 있습니까?
 

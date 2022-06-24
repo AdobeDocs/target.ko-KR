@@ -5,10 +5,10 @@ title: targetGlobalSettings() 함수를 사용하려면 어떻게 해야 합니�
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 29%
+source-wordcount: '2419'
+ht-degree: 28%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 29%
 * **기본값**: body { opacity: 0 }
 * **설명**: 다음 경우에만 사용됨 `globalMboxAutocreate === true` 깜박임 가능성을 최소화하기 위해.
 
-   자세한 내용은 [at.js에서 플리커를 관리하는 방법](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/)을 참조하십시오.
+   자세한 내용은 [at.js에서 플리커를 관리하는 방법](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ ht-degree: 29%
 
 * **유형**: 부울
 * **기본값**: false
-* **설명**: [!DNL Target] 은 를 통해 옵트인 기능 지원을 제공합니다. [!DNL Adobe Experience Platform] 동의 관리 전략을 지원하는 데 도움이 됩니다. 선택 기능을 통해 고객이 [!DNL Target] 태그를 실행하는 방법과 시기를 제어할 수 있습니다. 또한 [!DNL Adobe Experience Platform]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. 에서 옵트인을 사용하는 기능을 활성화하려면 [!DNL Target] at.js 라이브러리를 추가하고 `optinEnabled=true` 설정 in [!DNL Adobe Experience Platform] 다음 중에서 &quot;활성화&quot;를 선택해야 합니다. [!UICONTROL GDPR 옵트인] 확장 설치 보기의 드롭다운 목록입니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)자세한 내용은 {target=_blank}. 유럽 연합의 GDPR(General Data Protection Regulation) 및 캘리포니아 소비자 개인 정보 보호법(CCPA)을 비롯한 개인 정보 및 데이터 보호 규정에 관한 이 설정에 대한 자세한 내용은 다음을 참조하십시오 [개인 정보 보호 및 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
+* **설명**: [!DNL Target] 은 를 통해 옵트인 기능 지원을 제공합니다. [!DNL Adobe Experience Platform] 동의 관리 전략을 지원하는 데 도움이 됩니다. 선택 기능을 통해 고객이 [!DNL Target] 태그를 실행하는 방법과 시기를 제어할 수 있습니다. 또한 [!DNL Adobe Experience Platform]를 통해서 [!DNL Target] 태그를 사전 승인할 수 있는 옵션이 있습니다. 에서 옵트인을 사용하는 기능을 활성화하려면 [!DNL Target] at.js 라이브러리를 추가하고 `optinEnabled=true` 설정 in [!DNL Adobe Experience Platform] 다음 중에서 &quot;활성화&quot;를 선택해야 합니다. [!UICONTROL GDPR 옵트인] 확장 설치 보기의 드롭다운 목록입니다. 자세한 내용은 [Adobe Experience Platform 설명서](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)자세한 내용은 {target=_blank}. 유럽 연합의 GDPR(General Data Protection Regulation){target=_blank} 및 CCPA(California Consumer Privacy Act)를 포함한 개인 정보 보호 및 데이터 보호 규정에 대한 자세한 내용은 [개인 정보 보호 및 데이터 보호 규정](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}.
 
 ### optoutEnabled
 
@@ -398,7 +398,7 @@ window.targetGlobalSettings = {
 의 하이브리드 통합이 있어야 합니다 [!DNL Target].
 
 * **서버측**: 새 [배달 API](https://developers.adobetarget.com/api/delivery-api/) 또는 [Target SDK](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **고객측**: 를 사용해야 합니다. [at.js 버전 2.2 이상](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **고객측**: 를 사용해야 합니다. [at.js 버전 2.2 이상](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### 코드 샘플
 

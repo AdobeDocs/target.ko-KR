@@ -5,9 +5,9 @@ title: On-Device Decisioning은 at.js JavaScript 라이브러리와 어떻게 �
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3560'
 ht-degree: 7%
 
 ---
@@ -35,7 +35,7 @@ Adobe Target JS SDK를 통해 고객은 결정을 위한 데이터의 성능과 
 * 대상 타겟팅
 * 할당 방법
 
-자세한 내용은 [On-Device Decisioning에 대해 지원되는 기능](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+자세한 내용은 [On-Device Decisioning에 대해 지원되는 기능](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 ## 온장치 의사 결정은 어떻게 작동합니까?
 
@@ -88,7 +88,7 @@ On-Device Decisioning에서는 [!DNL Target] 에서는 [!UICONTROL 의사 결정
 
 On-Device Decisioning은 결정은 On-Device Decisioning에 적합한 모든 활동을 포함하는 캐시된 규칙 아티팩트로 수행되므로 매우 빠른 속도로 환경 및 개인화 활동을 제공할 수 있습니다.
 
-장치 내 의사 결정에 적합한 활동에 대한 자세한 내용은 [On-Device Decisioning에서 지원되는 기능](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+장치 내 의사 결정에 적합한 활동에 대한 자세한 내용은 [On-Device Decisioning에서 지원되는 기능](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 이 의사 결정 방법은 결정을 필요로 하는 모든 페이지에서 성능이 매우 중요한 경우에만 사용해야 합니다 [!DNL Target]. 또한 이 의사 결정 방법을 선택하면 [!DNL Target] On-Device Decisioning에 대한 자격이 없는 활동은 전달되거나 실행되지 않습니다. at.js 라이브러리 2.5.0+는 결정을 내릴 캐시된 규칙 아티팩트를 찾도록 구성되어 있습니다.
 
@@ -249,7 +249,7 @@ JSON 규칙 아티팩트에는 at.js에 mbox에 실행 중인 서버측 활동 �
 
 ### 전역 설정
 
-기본값을 구성할 수 있습니다 [!UICONTROL 의사 결정 방법] 모든 [!DNL Target] 결정. 다양한 의사 결정 방법은 다음과 같습니다 [!UICONTROL 서버측 전용], [!UICONTROL 온장치만], 및 [!UICONTROL 하이브리드]. Target UI에서 선택한 의사 결정 방법은에서 구성됩니다. `window.targetGlobalSettings` 아래에 `decisioningMethod` 필드. 추가 정보 `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+기본값을 구성할 수 있습니다 [!UICONTROL 의사 결정 방법] 모든 [!DNL Target] 결정. 다양한 의사 결정 방법은 다음과 같습니다 [!UICONTROL 서버측 전용], [!UICONTROL 온장치만], 및 [!UICONTROL 하이브리드]. Target UI에서 선택한 의사 결정 방법은에서 구성됩니다. `window.targetGlobalSettings` 아래에 `decisioningMethod` 필드. 추가 정보 `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ```javascript
 <head> 
@@ -321,6 +321,6 @@ On-Device Decisioning에 적합한 활동을 만든 후 [!UICONTROL On-Device De
 
    첫 번째 JSON 규칙 아티팩트 생성이 최대 10분이 소요될 수 있습니다.
 
-1. 만들기 및 활성화 [on-device decisioning에서 지원하는 활동 유형](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/), 그리고 온장치 의사 결정 자격이 있는지 확인합니다.
+1. 만들기 및 활성화 [on-device decisioning에서 지원하는 활동 유형](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank} 및에서 On-Device Decisioning 자격이 있는지 확인합니다.
 1. 설정 **[!UICONTROL 의사 결정 방법]** 다음 중 하나를 수행합니다. **[!UICONTROL &quot;하이브리드&quot;]** 또는 **[!UICONTROL &quot;온장치 전용&quot;]** at.js 설정 UI 사용.
 1. 페이지에 At.js 2.5.0+를 다운로드하여 배포합니다.

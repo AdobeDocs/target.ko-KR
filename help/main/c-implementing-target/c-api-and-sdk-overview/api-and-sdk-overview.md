@@ -5,9 +5,9 @@ title: 어디에서 배울 수 있습니까 [!DNL Target] 서버 측 배달 API 
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 21%
 
 ---
@@ -53,6 +53,6 @@ ht-degree: 21%
 
 ## Target Recommendations API
 
-링크: [Recommendations API Target](https://developer.adobe.com/target/).
+링크: [Recommendations API Target](https://developer.adobe.com/target/){target=_blank}.
 
 Recommendations API를 사용하면 프로그래밍 방식으로 와 상호 작용할 수 있습니다 [!DNL Target] 권장 사항 서버. 이러한 API는 다양한 애플리케이션 스택과 통합하여 일반적으로 [!DNL Target] 사용자 인터페이스.

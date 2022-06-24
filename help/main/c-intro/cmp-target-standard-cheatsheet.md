@@ -4,10 +4,10 @@ description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Tar
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 98%
+source-wordcount: '2795'
+ht-degree: 96%
 
 ---
 
@@ -309,10 +309,10 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **모바일 SKU를 제공하고 있습니다. 모바일 활동을 만들 수 있습니까?**
 
-모바일의 최적화 및 개인화를 위해서는 [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/)와 함께 [양식 기반의 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 을 사용해야 합니다. [모바일 앱용 Target](https://developer.adobe.com/target/implement/mobile/)에 대한 세부 사항을 확인하십시오.
+모바일의 최적화 및 개인화를 위해서는 다음을 사용해야 합니다 [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 함께 [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. 세부 정보 확인 [모바일 앱용 Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://developer.adobe.com/target/implement/server-side/)를 참조하십시오.
+API에 대한 완전한 설명서가 있습니다. 자세한 내용은 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://developer.adobe.com/target/implement/server-side/){target=_blank}.

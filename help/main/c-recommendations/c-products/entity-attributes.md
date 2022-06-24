@@ -4,9 +4,9 @@ description: 엔티티 속성을 사용하여 제품 또는 콘텐츠 정보를 
 title: 엔티티 속성을 어떻게 사용합니까?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1091'
 ht-degree: 52%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->at.js 2.*x*, `mboxCreate` (다음 예에서 사용됨)은 더 이상 지원되지 않습니다. 제품 또는 콘텐츠 정보를에 전달하려면 [!DNL Recommendations] at.js 2 사용.*x*, 사용 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/). 예를 보려면 [Recommendations 계획 및 구현](https://developer.adobe.com/target/implement/recommendations/).
+>at.js 2.*x*, `mboxCreate` (다음 예에서 사용됨)은 더 이상 지원되지 않습니다. 제품 또는 콘텐츠 정보를에 전달하려면 [!DNL Recommendations] at.js 2 사용.*x*, 사용 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. 예를 보려면 [Recommendations 계획 및 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

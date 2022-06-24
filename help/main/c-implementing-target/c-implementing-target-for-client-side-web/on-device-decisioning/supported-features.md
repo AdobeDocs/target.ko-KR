@@ -5,9 +5,9 @@ title: On-Device Decisioning에서 지원되는 기능
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 13%
 
 ### 장치 내 의사 결정을 위한 지역 타깃팅
 
-지역 기반 대상과 함께 장치 내 의사 결정 활동에 대한 최소 지연을 유지하려면 호출에 직접 지역 값을 제공하는 것이 좋습니다 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). 요청 컨텍스트에서 지역 개체를 설정합니다. 이것은 브라우저에서 각 방문자의 위치를 확인하는 방법을 의미합니다. 예를 들어 사용자가 구성하는 서비스를 사용하여 IP-to-Geo 조회를 수행할 수 있습니다. Google Cloud와 같은 일부 호스팅 제공업체는 각 웹 사이트에서 사용자 지정 헤더를 통해 이 기능을 제공합니다 `HttpServletRequest`.
+지역 기반 대상과 함께 장치 내 의사 결정 활동에 대한 최소 지연을 유지하려면 호출에 직접 지역 값을 제공하는 것이 좋습니다 [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}. 요청 컨텍스트에서 지역 개체를 설정합니다. 이것은 브라우저에서 각 방문자의 위치를 확인하는 방법을 의미합니다. 예를 들어 사용자가 구성하는 서비스를 사용하여 IP-to-Geo 조회를 수행할 수 있습니다. Google Cloud와 같은 일부 호스팅 제공업체는 각 웹 사이트에서 사용자 지정 헤더를 통해 이 기능을 제공합니다 `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

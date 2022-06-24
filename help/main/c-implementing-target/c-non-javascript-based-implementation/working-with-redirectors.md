@@ -5,9 +5,9 @@ title: 리디렉터와 어떻게 작업합니까?
 feature: Implement Email
 role: Developer
 exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '691'
+source-wordcount: '693'
 ht-degree: 68%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 68%
 
 * 가장 많은 전환을 생성하는 랜딩 페이지 찾기
 
-올바른 설정을 결정하는 방법은 [비 JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/).
+올바른 설정을 결정하는 방법은 [비 JavaScript 기반 구현](https://developer.adobe.com/target/implement/email/){target=_blank}.
 
 ## 리디렉터 만들기 {#redirector}
 
