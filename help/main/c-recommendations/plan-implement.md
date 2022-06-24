@@ -4,7 +4,7 @@ description: 'Adobe Target에서 Recommendations 활동을 구현하는 방법�
 title: Recommendations 활동을 구현하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 975e0f777d13acd324cae66ae98606a985ec0792
+source-git-commit: 5ae32fbbc51b6277794fb702a4188133b5e29029
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 17%
@@ -15,6 +15,6 @@ ht-degree: 17%
 
 사용하기 전에 [!DNL Adobe Target Recommendations], 몇 가지 단계를 완료해야 합니다.
 
-다음 [Adobe Target 개발자 안내서 포털](https://developer.adobe.com/target/){target=_blank}에는 구현 방법에 대한 정보가 들어 있습니다 [!DNL Target] 구현합니다. [!DNL Recommendations].
+다음 [Adobe Target 개발자 안내서 포털](https://developer.adobe.com/target/){target=_blank}에는 구현 방법에 대한 정보가 들어 있습니다 [!DNL Recommendations] 구현합니다. [!DNL Target].
 
 자세한 내용 및 단계별 지침은 [Recommendations 계획 및 구현](https://developer-stage.adobe.com/target/implement/recommendations/)의 {target=_blank} *Adobe Target 개발자 안내서* 포털.
