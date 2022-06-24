@@ -1,17 +1,17 @@
 ---
 keywords: Target;홈;자주 찾는 항목;Adobe Target Standard;Target Premium;Target 설명서;Adobe Target 설명서;홈
-title: ' [!DNL Target] 설명서는 어디에서 찾을 수 있습니까?'
+title: Adobe Target 비즈니스 실무 안내서
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 90%
+source-wordcount: '528'
+ht-degree: 88%
 
 ---
 
-# [!DNL Adobe Target] 안내서
+# Adobe Target 비즈니스 실무 안내서
 
 ![배너](assets/target-home-banner-simple.png)
 
