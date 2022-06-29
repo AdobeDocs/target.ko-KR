@@ -1,13 +1,13 @@
 ---
 keywords: 혼합 콘텐츠;보안;비보안;Chrome;문제 해결;VEC;시각적 경험 작성기;비보안;HTTP;HTTPS;Firefox;Internet Explorer
-description: 일부 브라우저는 보안 콘텐츠가 비보안 콘텐츠와 혼합된 경우 페이지 표시를 차단합니다. Chrome, Firefox 및 Edge에서 혼합 콘텐츠를 활성화하는 방법에 대해 알아봅니다.
-title: 내 브라우저에서 혼합 콘텐츠를 활성화하려면 어떻게 해야 합니까?
+description: Chrome, Firefox 및 Edge에서 혼합 콘텐츠를 활성화하는 방법을 알아봅니다. 보안 컨텐츠가 비보안 컨텐츠와 혼합되므로 브라우저에서 페이지 표시를 차단하는 경우 혼합 콘텐츠를 사용할 수 있습니다.
+title: 내 브라우저에서 혼합 콘텐츠를 활성화하는 방법
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 최신 브라우저는 보안 콘텐츠가 비보안 콘텐츠와 혼합된 경우 페이지 표시를 차단하거나 경고 메시지를 표시할 수 있습니다.
 
-경고 메시지는 [!DNL Target]의 [!UICONTROL 시각적 경험 작성기] (VEC)가 혼합 콘텐츠가 포함된 페이지를 열려고 할 때 표시됩니다. 이 메시지는 브라우저에서 차단을 비활성화하는 방법을 알려 줍니다. 차단을 비활성화하면 HTTP 사이트 또는 혼합 호출(HTTPS 및 HTTP)이 있는 사이트를 열 수 있습니다.
+경고 메시지는 [!DNL Adobe Target]의 [!UICONTROL 시각적 경험 작성기] (VEC)가 혼합 콘텐츠가 포함된 페이지를 열려고 할 때 표시됩니다. 이 메시지는 브라우저에서 차단을 비활성화하는 방법을 알려 줍니다. 차단을 비활성화하면 HTTP 사이트 또는 혼합 호출(HTTPS 및 HTTP)이 있는 사이트를 열 수 있습니다.
 
 ![혼합 콘텐츠 경고](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
