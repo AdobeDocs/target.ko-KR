@@ -5,9 +5,9 @@ title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 �
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4524'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -111,7 +111,7 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 
 ### [!DNL Target] (A4T)에 대한 Analytics
 
-Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=ko-KR)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
+Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
 
 현재 모든 Analytics 패키지는 속성 IQ를 사용하여 이 모델을 추가할 수 있습니다. 속성 IQ에 액세스할 수 없는 경우 Reports &amp; Analytics의 A4T 데이터를 사용하십시오.
 
@@ -135,11 +135,11 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
    해결 방법으로 경험 콘텐츠에 공백을 사용하십시오.
 
-   이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다. [최신 버전 또는 at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 또는 2.2.0 이전 버전의 at.js에 대해서만 위에 언급된 해결 방법을 사용하십시오.  (TNT-33366)
+   이 문제에 대한 수정 사항이 at.js 2.2.0에 포함되어 있습니다. [최신 버전 또는 at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}로 업그레이드하거나 2.2.0 이하 버전의 at.js에 대해서만 위에 언급된 해결 방법을 사용하십시오.  (TNT-33366)
 
 * [!DNL Adobe Analytics] 코드가 페이지 요소(예: 버튼)에 없는 경우 2.2.0 이전 버전의 at.js를 사용하면 클릭 추적은 [!UICONTROL Analytics for Target] (A4T)에서 전환을 보고하지 않습니다.
 
-   at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. [최신 at.js 버전으로 업그레이드하십시오](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)이 문제가 발생하는 경우 {target=_blank}.
+   at.js 2.2.0에서 이 문제에 대한 수정 사항이 도입되었습니다. 이 문제가 발생하는 경우 [최신 at.js 버전으로 업그레이드하십시오](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### 지역 타기팅
 
