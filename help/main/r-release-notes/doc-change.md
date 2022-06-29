@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
 source-wordcount: '1097'
-ht-degree: 89%
+ht-degree: 96%
 
 ---
 
@@ -96,6 +96,6 @@ ht-degree: 89%
 |  | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
 |  | [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
 | 1월 21일 | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
-| 1월 19일 | [at.js 1.** 에서 at.js 2.x로 업그레이드&#x200B;*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개변수&quot; |
+| 1월 19일 | [at.js 1.*x*&#x200B;에서 at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}로 업그레이드 | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개변수&quot; |
 | 1월 12일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.1 릴리스에 대한 정보가 추가되었습니다. |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |

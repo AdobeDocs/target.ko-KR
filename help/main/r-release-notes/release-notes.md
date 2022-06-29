@@ -6,7 +6,7 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '589'
 ht-degree: 100%
 
