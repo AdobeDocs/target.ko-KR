@@ -4,10 +4,10 @@ description: 사용자 인터페이스를 숙지하고 더 심층적인 정보�
 title: ' [!DNL Target] UI는 어떻게 사용합니까?'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
 workflow-type: tm+mt
-source-wordcount: '1373'
-ht-degree: 43%
+source-wordcount: '1344'
+ht-degree: 44%
 
 ---
 
@@ -44,10 +44,6 @@ ht-degree: 43%
 ## 알림 및 공지 {#notifications-announcements}
 
 [!UICONTROL 알림] 및 [!UICONTROL 공지] 패널을 사용하면 [!DNL Adobe Target]에 대한 모든 정보를 최신 상태로 유지할 수 있습니다. 사전 알림은 을 통해 [!DNL Adobe Experience Cloud] 솔루션 및 [!DNL Target] events. 사전 알림은 중단 이벤트 및 유지 관리 이벤트를 알려 줍니다.
-
->[!NOTE]
->
->향상된 기능에 대한 정보 [!UICONTROL 알림 및 공지] 현재 이 섹션의 패널은 [!DNL Target] 고객 및 은 향후 몇 개월 동안 모든 고객에게 제공됩니다.
 
 알림을 보려면 헤더에서 종 아이콘을 클릭하십시오.
 
