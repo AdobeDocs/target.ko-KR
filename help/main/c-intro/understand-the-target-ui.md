@@ -1,12 +1,12 @@
 ---
-keywords: target 사용자 인터페이스;사용자 인터페이스;ui;공지;events
+keywords: target 사용자 인터페이스;사용자 인터페이스;ui;공지;이벤트;알림
 description: 사용자 인터페이스를 숙지하고 더 심층적인 정보에 대한 링크를 찾아 최대한 활용할 수 있습니다 [!DNL Target].
 title: ' [!DNL Target] UI는 어떻게 사용합니까?'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
+source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 44%
 
 ---
