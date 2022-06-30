@@ -4,7 +4,7 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 95%
@@ -25,7 +25,7 @@ ht-degree: 95%
 
 +++여기 클릭
 
-* **2022년 6월 21일 목요일**
+* **2022년 8월 11일 목요일**
 * **오후 1시부터 2시까지(EDT, UTC-4)**
 * **[추가 정보 및 등록 정보](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
