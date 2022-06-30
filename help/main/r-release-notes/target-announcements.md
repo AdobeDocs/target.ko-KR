@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1404'
-ht-degree: 100%
+source-wordcount: '1334'
+ht-degree: 95%
 
 ---
 
@@ -15,30 +15,42 @@ ht-degree: 100%
 
 [!DNL Target] Coffee Break 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하여 예정된 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
-## Adobe Target 커뮤니티 Coffee Break (2022년 6월 29일)
-
-+++여기 클릭
-
-* **2022년 6월 29일 수요일**
-* **오전 8시 ~ 9시 (PDT, UTC-7)**
-* **[추가 정보 및 등록 정보](https://adobe.ly/3wKhcQS){target=_blank}**
-
-Adobe Solutions Consulting 팀의 Jordan Ison, Kati McKinney, Justine Lee 및 Kaela Cusack과 함께 각자의 전문 분야에 대해 직접 이야기를 나눌 예정입니다. 이들은 또한 2022년 6월 2일 Personalization with Precision: Adobe Analytics &amp; Target 웨비나(추가 정보는 아래 참조)에서 다룬 주제와 관련된 질문에도 답변해 드릴 예정입니다.
-
-* 마케터, 개발자 및 제품 팀이 AI의 “블랙박스”를 열어 향후 테스트 및 개인화 전략을 추진하는 방법
-* 웹, 모바일 앱, 이메일, IoT 및 각 디지털 접점을 최적화하여 전환율과 참여도를 높이는 문제를 극복하는 방법
-* 개인화, 타기팅 및 테스트를 위한 Adobe Analytics 및 Adobe Target 워크플로
-* 방문자 행동을 예측하는 속성과 주요 시각화 및 세분화 분석에 가장 중요한 속성을 잠금 해제하는 사용 사례에 대한 이해
-
-+++
-
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Adobe Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
+### Adobe: Personalization Industry Insider - 소매 (2022년 8월 11일)
+
+2022년은 기업이 실행 및 운영할 수 있는 역동적이고 빠르게 변화하는 환경을 제공했습니다. 산업 전문가들이 근로자와 여행자의 일상으로 돌아오면서 새로운 소비자 트렌드가 형성되는 것을 보고 있는 방법을 알아보십시오.
+
++++여기 클릭
+
+* **2022년 6월 21일 목요일**
+* **오후 1시부터 2시까지(EDT, UTC-4)**
+* **[추가 정보 및 등록 정보](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
+특정 시장에서 상품 및 서비스에 대한 수요가 증가하면서 소비자 구매 패턴과 행동이 변화함에 따라 소매 전자 상거래 판매가 어떻게 급증하고 있는지에 대해 논의하려면 Michael Klein(책임자, 산업 전략 소매) 및 Leina Betzer(대상 컨설턴트, Adobe Premier Support)와 함께하십시오.
++++
+
+### 계획된 웨비나 시리즈
+
+다음 웨비나 시리즈는 가까운 미래에 제공될 예정입니다.
+
+* 업계 내부: Personalization Industry Insider: 여행 및 숙박
+* 업계 내부: Personalization Industry Insider: 미디어 및 엔터테인먼트
+* 기술 빌더: 신규 프리미엄 사용자/제품 관리자, 모바일 개발자, 마케터, 분석가, 비즈니스 사용자
+
+에서 날짜 및 등록 정보를 확인하십시오. [Adobe Target 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
+
+## 과거 웨비나 및 스킬 빌더 세션 녹화
+
+이전 이벤트의 녹화분 액세스:
+
 ### Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target] (2022년 6월 2일)
 
 머신 러닝 모델과 데이터 인사이트가 마케터, 개발자 및 제품 소유자에게 중요한 개인화된 경험을 통해 소비자를 참여시킬 수 있는 새로운 기회를 열어줌에 따라 인공 지능이 어떻게 소비자의 기대치를 계속해서 재정의하는지 알아보십시오. 개인화, 타기팅 및 테스트를 위한 [!DNL Adobe Analytics] + [!DNL Adobe Target] 워크플로를 단계별로 살펴보십시오.
+
+* [녹화 링크](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++여기 클릭
 
@@ -59,6 +71,8 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 
 브랜드 충성도를 높이기 위해 “관계 은행”이 되는 모범 사례를 알아보십시오. 성공적인 개인화 프로그램을 구축하고 확장하도록 인력과 프로세스를 이끄는 방법을 알아보십시오.
 
+* [녹화 링크](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
+
 +++여기 클릭
 
 * **2022년 6월 9일 목요일**
@@ -71,6 +85,8 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 ### Adobe: 영향력이 큰 최적화 기회 발견(2022년 6월 16일)
 
 그 어느 때보다 디지털화된 새로운 표준에 진입함에 따라 조직이 탁월한 디지털 경험을 제공할 수 있는 모든 기회를 포착하는 것이 중요합니다. 충분히 좋은 것만으로는 더 이상 충분하지 않습니다. 경쟁력을 유지하려면 훌륭한 경험이 필요합니다.
+
+* [녹화 링크](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++여기 클릭
 
@@ -86,23 +102,6 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 * 조직에서 영향력이 큰 기회를 발견하는 데 도움이 되는 다양한 아이디어
 
 +++
-
-### Adobe: 개인화 산업 내부자 - 소매(2022년 6월 21일)
-
-2022년은 기업이 실행 및 운영할 수 있는 역동적이고 빠르게 변화하는 환경을 제공했습니다. 산업 전문가들이 근로자와 여행자의 일상으로 돌아오면서 새로운 소비자 트렌드가 형성되는 것을 보고 있는 방법을 알아보십시오. 
-
-+++여기 클릭
-
-* **2022년 6월 21일 목요일**
-* **오후 1시부터 2시까지(EDT, UTC-4)**
-* **[추가 정보 및 등록 정보](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-특정 시장에서 상품 및 서비스에 대한 수요가 증가하면서 소비자 구매 패턴과 행동이 변화함에 따라 소매 전자 상거래 판매가 어떻게 급증하고 있는지에 대해 논의하려면 Michael Klein(책임자, 산업 전략 소매) 및 Leina Betzer(대상 컨설턴트, Adobe Premier Support)와 함께하십시오.
-+++
-
-## 과거 웨비나 및 스킬 빌더 세션 녹화
-
-이전 이벤트의 녹화분 액세스:
 
 ### Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경(2022년 5월 19일)
 
