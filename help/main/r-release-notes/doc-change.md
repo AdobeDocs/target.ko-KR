@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 6월 30일 | [Adobe Target 개발자 안내서](https://developer.adobe.com/target/){target=_blank} | 을(를) 시작했습니다. *Adobe Target 개발자 안내서* 모두 통합 [!DNL Target] 하나의 편리한 포털의 개발자 콘텐츠. 포털에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다. |
+| 6월 30일 | [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} | *Adobe Target Developer Guide*&#x200B;를 론칭하여 모든 [!DNL Target] 개발자 콘텐츠를 하나의 편리한 포털에 통합했습니다. 포털에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 이전 웨비나 세션에 대한 기록 링크가 추가되었습니다. |
 | 6월 14일 | [추천 계획 및 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 다음 섹션에서 코드 샘플을 업데이트했습니다.<ul><li>장바구니 추가/장바구니 보기/체크아웃 페이지</li><li>방문자 장바구니에 이미 있는 항목 제외</li></ul> |
