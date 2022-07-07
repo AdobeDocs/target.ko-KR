@@ -1,13 +1,13 @@
 ---
 keywords: 혼합 콘텐츠;보안;비보안;Chrome;문제 해결;VEC;시각적 경험 작성기;비보안;HTTP;HTTPS;Firefox;Internet Explorer
-description: Chrome, Firefox 및 Edge에서 혼합 콘텐츠를 활성화하는 방법을 알아봅니다. 보안 컨텐츠가 비보안 컨텐츠와 혼합되므로 브라우저에서 페이지 표시를 차단하는 경우 혼합 콘텐츠를 사용할 수 있습니다.
+description: Chrome, Firefox 및 Edge에서 혼합 콘텐츠를 활성화하는 방법에 대해 알아봅니다. 보안 콘텐츠와 비보안 콘텐츠가 혼합되어 있으므로 브라우저에서 페이지 표시를 차단하는 경우 혼합 콘텐츠를 활성화할 수 있습니다.
 title: 내 브라우저에서 혼합 콘텐츠를 활성화하는 방법
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
