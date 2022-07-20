@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 78%
+source-wordcount: '966'
+ht-degree: 60%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 78%
 이러한 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target] 플랫폼 릴리스(2022년 7월 20일)
+
+이 릴리스에는 다음과 같은 기능, 개선 사항 및 수정 사항이 포함되어 있습니다.
+
+| 기능 | 설명 |
+| --- | --- |
+| IPv6 지원을 통해 대상 평가 정확도를 향상시키고 최종 사용자 지연 시간을 줄였습니다(TNT-43364, TNT-44692) | 이제 방문자의 지리적 위치는 IPv4 주소만 사용하는 것이 아니라 가능한 경우 IPv6 주소로 결정됩니다. 배달 API는 IPv6 입력 매개 변수도 지원합니다. 필터링 및 허용 목록은 IPv4 및 IPv6 주소를 모두 지원합니다. 이 릴리스의 IPv6 지원은 방문자가 대상에 더 정확하게 포함됨을 의미합니다(활동에 대한 보다 정확한 자격이 있거나 필터링 기준에 포함될 수 있음). 또한 IPv6 클라이언트가 직접 라우팅되므로 데이터 지연을 개선하여 IPv6-to-IPv4 게이트웨이의 오버헤드가 발생하지 않습니다. |
+| A4T 클라이언트측 페이로드 처리 문제가 해결되었습니다(TNT-44926). | A4T 서버측 통합을 사용할 때 Adobe Target이 봇에서 온 것으로 요청을 식별하는 경우 페이로드를 Analytics에 전달하지 않으며 에 기록된 mod_stats 이벤트가 없습니다 [!DNL Target] 로그. 이 릴리스에서는 A4T 페이로드에 대한 동작이 A4T 서버측과 동일하도록 A4T 클라이언트측 로깅이 향상되었습니다. 보트로 식별되는 방문자는 다음에서 제외됩니다 [!DNL Target] 계산/보고. (문제의 문제는 클라이언트측 페이로드 처리를 사용한 구현으로 제한되었습니다. 서버측에 영향을 주지 않았습니다. 이 릴리스에서는 이제 서버측과 클라이언트측 페이로드 처리 모두에 대해 동작이 일관됩니다.) |
 
 ## [!DNL Target Standard/Premium] 22.6.2 (2022년 6월 30일)
 
