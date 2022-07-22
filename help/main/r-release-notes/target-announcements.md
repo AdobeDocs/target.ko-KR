@@ -5,9 +5,9 @@ title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 95%
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Adobe Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
-### Adobe: Personalization Industry Insider - 소매 (2022년 8월 11일)
+### Adobe: 개인화 산업 내부자 - 소매 (2022년 8월 11일)
 
 2022년은 기업이 실행 및 운영할 수 있는 역동적이고 빠르게 변화하는 환경을 제공했습니다. 산업 전문가들이 근로자와 여행자의 일상으로 돌아오면서 새로운 소비자 트렌드가 형성되는 것을 보고 있는 방법을 알아보십시오.
 
