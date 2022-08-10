@@ -4,9 +4,9 @@ description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] 경험 �
 title: 사용 방법 [!DNL Adobe Experience Manager] (AEM) 경험 구성요소?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
+source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1371'
 ht-degree: 12%
 
 ---
@@ -90,7 +90,7 @@ ht-degree: 12%
 >
 >* [!DNL Target] 현재 는 10분마다 가져올 경험 구성요소를 찾습니다. 가져온 경험 조각은 [!DNL Target] 10분 안에, 이 기간은 앞으로 단축될 것입니다.
 >
->* 경험 조각을 로 가져옵니다 [!DNL Target] HTML 오퍼로서 사용할 수 있습니다. 해당 경험 조각 &quot;기본&quot; 버전은 [!DNL AEM]. 에서 경험 조각을 편집할 수 없습니다 [!DNL Target].
+>* 경험 조각을 로 가져옵니다 [!DNL Target] 를 HTML 또는 JSON 오퍼로 사용할 수 있습니다. 해당 경험 조각 &quot;기본&quot; 버전은 [!DNL AEM]. 에서 경험 조각을 편집할 수 없습니다 [!DNL Target].
 
 
 마우스로 목록의 경험 구성요소를 가리킨 다음, [!UICONTROL 보기] 아이콘 ![보기 아이콘](assets/icon_info.png) 공개 오퍼 게재 URL 및 해당 오퍼를 포함하여 경험 조각에 대한 추가 정보를 보려면 [!DNL AEM] 경로.
@@ -104,10 +104,6 @@ ht-degree: 12%
 >경험 조각은에서 지원되지 않습니다 [!DNL Recommendations] 활동. 그러나 추천에 경험 조각을 사용하려면 다음을 만들 수 있습니다 [!UICONTROL A/B 테스트] 활동(포함) [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target]) 또는 [!UICONTROL 경험 타깃팅] (XT) 활동 및 [오퍼로 권장 사항 포함](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **VEC를 사용하여 경험 조각을 사용하려면**
-
->[!NOTE]
->
->에서 JSON으로 내보낸 경험 구성요소 [!DNL Target] vec를 사용하여 만든 활동에는 을 사용할 수 없습니다. HTML 경험 조각만 VEC 기반 활동에서 지원됩니다. JSON 경험 조각을 사용하려면 를 사용하여 작성된 활동에 해당 조각을 사용하십시오 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md).
 
 1. in [!DNL Target]에서 경험을 만들거나 편집하는 동안 [시각적 경험 작성기](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)를 클릭하고, 삽입할 페이지의 위치를 클릭합니다. [!DNL AEM] 컨텐츠를 만든 다음 원하는 옵션을 선택하여 [!UICONTROL 경험 조각 선택] 목록.
 
@@ -135,6 +131,10 @@ ht-degree: 12%
    * **경험 타깃팅(XT):** [경험 타깃팅 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **다변량 테스트(MVT):** [다변량 테스트 만들기](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **권장 사항:** [권장 사항 활동 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+
+>[!NOTE]
+>
+>에서 JSON으로 내보낸 경험 구성요소 [!DNL Target] vec를 사용하여 만든 활동에는 을 사용할 수 없습니다. HTML 경험 조각만 VEC 기반 활동에서 지원됩니다. JSON 경험 조각을 사용하려면 를 사용하여 작성된 활동에 해당 조각을 사용하십시오 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md).
 
 **양식 기반 경험 작성기를 사용하여 경험 조각을 사용하려면:**
 
