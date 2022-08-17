@@ -45,7 +45,7 @@ ht-degree: 100%
 
 ### [!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.
 
-[!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL 자동 타겟](AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
+[!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] (AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
 
 ### [!UICONTROL 자동 타겟팅] 활동이 동기화 문제를 일으킬 수 있음
 
