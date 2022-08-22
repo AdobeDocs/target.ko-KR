@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
+source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
 workflow-type: tm+mt
 source-wordcount: '1194'
-ht-degree: 93%
+ht-degree: 94%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 8월 22일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 알림에 대한 정보가 추가되었습니다.<ul><li>[!DNL Target] 개인화 엔진 부문 Gartner Magic Quadrant(2022년) 리더로 선정</li></ul>예정된 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 8월 31일)</li><li>주방장 컬렉션: 개인화를 위한 레서피 (2022년 8월 30일)</li><li>[!DNL Adobe Target] 기술 빌더 - 모바일 경험 최적화(2022년 9월 6일)</li><li>[!DNL Adobe Target] Skill Builder - AI 기반의 개인화 및 Recommendations(2022년 9월 15일)</li></ul>다음 이전 웨비나 세션에 대한 녹음 링크가 추가되었습니다.<ul><li>Adobe: 개인화 산업 내부자 - 소매 (2022년 8월 11일)</li></ul> |
-| 8월 22일[Target 릴리스 노트(현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.8.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+| 8월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.8.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.6.1 (순차적 공개, 2022년 6월 7~9일)
 
