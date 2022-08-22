@@ -4,9 +4,9 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 70%
 
 ---
@@ -21,7 +21,7 @@ Gartner는 [!DNL Adobe Target] 5년 연속 개인화 엔진(PE)의 최신 Magic 
 
 자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 8월 31일)
 
 * **2022년 8월 31일 수요일**
 * **오전 9시 ~ 10시 (PDT, UTC-7)**
@@ -58,7 +58,7 @@ Gartner는 [!DNL Adobe Target] 5년 연속 개인화 엔진(PE)의 최신 Magic 
 * 고도로 개인화된 경험 만들기
 +++
 
-## [!DNL Adobe Target] 기술 빌더 - 모바일 경험 최적화(2022년 9월 6일)
+### [!DNL Adobe Target] 기술 빌더 - 모바일 경험 최적화(2022년 9월 6일)
 
 모바일 경험은 마케팅 및 엔지니어링 팀이 웹 및 앱에서 크로스 채널 개인화를 위한 제품 중심의 전략을 활용하는 방식에 혁신을 일으키고 있습니다. 가입 [!DNL Adobe] 기술 빌더 세션 및 방법 학습 [!DNL Adobe Target] 마케터, 개발자 및 제품 소유자에 대한 새로운 잠재적 참여 및 매출 증가를 잠금 해제하여 성공적인 제품 커뮤니티를 구축할 수 있습니다.
 
@@ -70,7 +70,7 @@ Gartner는 [!DNL Adobe Target] 5년 연속 개인화 엔진(PE)의 최신 Magic 
 
 +++
 
-## [!DNL Adobe Target] Skill Builder - AI 기반의 개인화 및 Recommendations(2022년 9월 15일)
+### [!DNL Adobe Target] Skill Builder - AI 기반의 개인화 및 Recommendations(2022년 9월 15일)
 
 실험 및 개인화의 자동화는 마케팅, 엔지니어링 및 제품 팀에 대한 가장 높은 전환율과 ROI를 계속해서 제공합니다. 가입 [!DNL Adobe] 기술 빌더 세션 및 사용 방법 학습 [!DNL Adobe Target] 제품 및 콘텐츠 추천과 함께 AI 기반의 고급 사용 사례 및 기능을 통해 경쟁 우위를 유지하고 모든 경험을 확보할 수 있습니다.
 
