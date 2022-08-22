@@ -4,9 +4,9 @@ description: Adobe의 성공 지표에 대해 알아보기 [!DNL Target] 활동�
 title: 성공 지표란?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 44%
 
 ---
@@ -75,7 +75,7 @@ in [!DNL Target], 성공 지표는 보고 및 추적 목적을 둘 다 위한 �
 
 종속성 기능은 다음과 같습니다. *not* 지원되는 대상:
 
-* [!UICONTROL 권장 사항 활동. ] 이 기능은 다른 모든 활동 유형에 대해 지원됩니다.
+* [!UICONTROL 권장 사항] 활동. 이 기능은 다른 모든 활동 유형에 대해 지원됩니다.
 * 만약 [보고 소스로서의 Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 * &quot;페이지 확인함&quot; 지표 유형
 * VEC(시각적 경험 작성기) 활동에 대한 &quot;요소를 클릭함&quot; 지표 유형
