@@ -4,47 +4,122 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+workflow-type: tm+mt
+source-wordcount: '1877'
+ht-degree: 70%
 
 ---
 
-# Target 알림 및 이벤트
+# [!DNL Adobe Target] 공지 및 이벤트
 
 [!DNL Target] Coffee Break 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하여 예정된 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
+
+## [!DNL Target] 개인화 엔진 부문 Gartner Magic Quadrant(2022년) 리더로 선정
+
+Gartner는 [!DNL Adobe Target] 5년 연속 개인화 엔진(PE)의 최신 Magic Quadrant에서 선두 주자로 선정 [!DNL Adobe] 또한 세 가지 주요 사용 사례에서 최상위 점수와 연간 상당한 증가율을 받았습니다. 디지털 마케팅, 디지털 커머스, 서비스 및 지원. [!DNL Target] 또한 평가된 모든 공급업체 중에서 Adobe의 테스트 기능에 대해 가장 높은 점수를 받았습니다.
+
+자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크
+
+* **2022년 8월 31일 수요일**
+* **오전 9시 ~ 10시 (PDT, UTC-7)**
+* **[등록 정보](https://adobe.ly/3buoDUt){target=_blank}**
+
+우리는 상급자와 함께 할 것이다 [!DNL Adobe] Premier Support 컨설턴트 모세 맥센이 [!DNL Adobe Target] 최근에 다룬 주제와 관련된 질문 [8/11/22 Retail Personalization 업계 내부 웨비나](https://video.tv.adobe.com/v/346323){target=_blank} 및 [!DNL Target]:
+
+* 소비자 구매 패턴과 행동이 지난 몇 달 동안 변화함에 따라 전자 상거래 판매는 어떻게 급증하고 있으며, 소비자 포장된 상품을 포함한 특정 시장에서의 재화와 서비스에 대한 수요는 더 증가하였다
+* 관련 최적화 및 개인화 전략
+* [!DNL Target] 구현
+* [!DNL Adobe] Sensei 기능
+* 코어 UI 워크플로
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Adobe Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
+### 주방장 컬렉션: 개인화를 위한 레서피 (2022년 8월 30일)
+
+가입 [!DNL Adobe Target] [!DNL ]팀은 Target을 최대한 활용할 수 있는 방법에 대한 새로운 아이디어를 제시합니다. 우리의 최신 eBook, &quot;주방장의 컬렉션: 개인화를 위한 아이디어&quot;.
+
++++여기 클릭
+
+* **2022년 8월 30일 목요일**
+* **오후 1시부터 2시까지(EDT, UTC-4)**
+* **[추가 정보 및 등록 정보](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
+
+우리는 우리의 고객 &quot;주방장&quot;의 이야기들과 그들이 그들의 개인화 부엌에서 무엇을 요리했는지 파헤칠 것입니다.
+
+다음 사항에 대한 아이디어를 살펴보겠습니다.
+
+* 개인화를 사용하여 충성도를 구축하는 방법
+* 경쟁력 향상을 위한 최적화
+* 고도로 개인화된 경험 만들기
++++
+
+## [!DNL Adobe Target] 기술 빌더 - 모바일 경험 최적화(2022년 9월 6일)
+
+모바일 경험은 마케팅 및 엔지니어링 팀이 웹 및 앱에서 크로스 채널 개인화를 위한 제품 중심의 전략을 활용하는 방식에 혁신을 일으키고 있습니다. 가입 [!DNL Adobe] 기술 빌더 세션 및 방법 학습 [!DNL Adobe Target] 마케터, 개발자 및 제품 소유자에 대한 새로운 잠재적 참여 및 매출 증가를 잠금 해제하여 성공적인 제품 커뮤니티를 구축할 수 있습니다.
+
++++여기 클릭
+
+* **2022년 9월 6일 목요일**
+* **오후 1시부터 2시까지(EDT, UTC-4)**
+* **[추가 정보 및 등록 정보](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
+## [!DNL Adobe Target] Skill Builder - AI 기반의 개인화 및 Recommendations(2022년 9월 15일)
+
+실험 및 개인화의 자동화는 마케팅, 엔지니어링 및 제품 팀에 대한 가장 높은 전환율과 ROI를 계속해서 제공합니다. 가입 [!DNL Adobe] 기술 빌더 세션 및 사용 방법 학습 [!DNL Adobe Target] 제품 및 콘텐츠 추천과 함께 AI 기반의 고급 사용 사례 및 기능을 통해 경쟁 우위를 유지하고 모든 경험을 확보할 수 있습니다.
+
++++여기 클릭
+
+* **2022년 9월 15일 목요일**
+* **오후 1시부터 2시까지(EDT, UTC-4)**
+* **[추가 정보 및 등록 정보](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
+## 과거 웨비나 및 스킬 빌더 세션 녹화
+
+사용 가능한 경우 지난 이벤트 기록 액세스:
+
+### 실시간 충성도 활성화(2022년 8월 25일)
+
+공급망 문제, 서비스 실패, 제한된 인력 발생 시 늘어나는 충성도는 대부분의 여행, 숙박 및 식당 브랜드들이 직면하고 있는 과제입니다. AI 시대에 브랜드는 업계를 유지하는 데 필요한 리소스 없이 경험을 확장하려면 어떻게 해야 합니까? 디지털 진행 속도가 20-25배나 빨라져 고객의 기대치가 빨라질 뿐만 아니라 자동화를 통해 팀을 확장할 수 있습니다.
+
++++여기 클릭
+
+* **2022년 8월 25일 목요일**
+* **오후 10:00~11:00. (PDT, UTC-7)**
+* **[추가 정보 및 등록 정보](https://dxfieldmarketing.adobeevents.com/api/redirect_to_page?page=registration&amp;event_id=e54793e9-107f-4e4e-8373-5a380974392b){target=_blank}**
+
+2022년, 시스템은 실시간 충성도 활성화를 제공하기 위한 지속적인 인텔리전스를 제공할 수 있는 역점에 도달했다.
+
+다음 주제를 살펴보겠습니다.
+
+* 디지털 중단 및 AI 증가 가속화
+* 왜 얼리 어답터가 톱 라인과 하단 매출 성장에서 승리하고 있는가
+* 여행에서 개인화 자동화
+* 실시간 충성도 활성화 동작
++++
+
 ### Adobe: 개인화 산업 내부자 - 소매 (2022년 8월 11일)
 
 2022년은 기업이 실행 및 운영할 수 있는 역동적이고 빠르게 변화하는 환경을 제공했습니다. 산업 전문가들이 근로자와 여행자의 일상으로 돌아오면서 새로운 소비자 트렌드가 형성되는 것을 보고 있는 방법을 알아보십시오.
 
+* [녹화 링크](https://video.tv.adobe.com/v/346323){target=_blank}
+
 +++여기 클릭
 
 * **2022년 8월 11일 목요일**
-* **오후 1시부터 2시까지(EDT, UTC-4)**
+* **오후 1시~2시 ()**
 * **[추가 정보 및 등록 정보](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 특정 시장에서 상품 및 서비스에 대한 수요가 증가하면서 소비자 구매 패턴과 행동이 변화함에 따라 소매 전자 상거래 판매가 어떻게 급증하고 있는지에 대해 논의하려면 Michael Klein(책임자, 산업 전략 소매) 및 Leina Betzer(대상 컨설턴트, Adobe Premier Support)와 함께하십시오.
 +++
-
-### 계획된 웨비나 시리즈
-
-다음 웨비나 시리즈는 가까운 미래에 제공될 예정입니다.
-
-* 업계 내부: Personalization Industry Insider: 여행 및 숙박
-* 업계 내부: Personalization Industry Insider: 미디어 및 엔터테인먼트
-* 기술 빌더: 신규 프리미엄 사용자/제품 관리자, 모바일 개발자, 마케터, 분석가, 비즈니스 사용자
-
-에서 날짜 및 등록 정보를 확인하십시오. [Adobe Target 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
-
-## 과거 웨비나 및 스킬 빌더 세션 녹화
-
-이전 이벤트의 녹화분 액세스:
 
 ### Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target] (2022년 6월 2일)
 
