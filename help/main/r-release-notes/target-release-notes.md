@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8f4228720632fd037c7568c328f899362c0baa32
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '295'
+ht-degree: 52%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 54%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* at.js 버전 2.9.0에 도메인 간 지원이 추가되었습니다.
+* 를 추가했습니다. [!UICONTROL 도메인 간] at.js 2.9.0 이상 버전을 다운로드하여 타사 쿠키 설정을 허용하거나 비활성화하는 옵션(TGT-43674)
 * 이 [!UICONTROL 의사 결정 오퍼] 내에서 제대로 작동하지 않음 [!UICONTROL 시각적 경험 작성기] (VEC). (TGT-43866)
 * 을(를) 선택할 때 오류 메시지가 표시되는 문제를 해결했습니다. [!UICONTROL 요소를 클릭함] 전환 목표를 만드는 동안 [!UICONTROL Multivariate Testing] (MVT) 활동. (TGT-43842)
 * Adobe Social이 사용자 지정 브랜드 도메인을 인식하지 못하는 문제를 해결했습니다. [!UICONTROL 노출 횟수] 다음에 대해 다운로드한 CSV 보고서 파일에 표시되지 않는 열 [!UICONTROL Automated Personalization] (AP) 활동. (TGT-43780)

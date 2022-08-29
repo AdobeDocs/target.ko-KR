@@ -4,10 +4,10 @@ description: Analytics를 사용할 때 보고서 보기에 대한 FAQ에 대한
 title: A4T를 사용하여 보고서 보기에 대한 질문에 대한 답변을 찾으시겠습니까?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 36%
+source-wordcount: '2551'
+ht-degree: 33%
 
 ---
 
@@ -94,7 +94,7 @@ A4T 보고에서 지표를 정규화하는 몇 가지 옵션이 있습니다. �
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 5 | 1 | 1 |
 
-사용자가 2월 1일에 재방문하여 5개의 페이지를 더 보았지만, Target 활동은 더 이상 보지 않았고, 원래 활동도 더 이상 활성 상태가 아닙니다. 활동은 더 이상 활성 상태가 아니지만 eVar 지속성을 통해 여전히 사용자를 따라 가고 있습니다. 이제 데이터는 다음과 같습니다.
+사용자가 2월 1일에 재돌아가서 5개의 페이지를 더 보고 더 이상 Target 활동이 발생하지 않으며 원래 활동이 더 이상 활성화되어 있지 않습니다. 활동은 더 이상 활성 상태가 아니지만 eVar 지속성을 통해 여전히 사용자를 따라 가고 있습니다. 이제 데이터는 다음과 같습니다.
 
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 |
 |--- |--- |--- |--- |--- |
@@ -125,9 +125,9 @@ A4T 보고에서 지표를 정규화하는 몇 가지 옵션이 있습니다. �
 
 ## Analytics와 Analytics for Adobe Target(A4T)에서 고유 방문자 수 지표에 대해 숫자를 서로 다르게 계산하는 이유는 무엇입니까? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-학생 t 검증(t-test)(신뢰도 지표)을 사용하여 테스트 승자를 선택하는 A/B 테스트를 실행하는 경우, 여러 가지 가정 중 하나는 고정된 기간이 있는 것으로 가정합니다. 고정된 샘플 크기를 살펴보고 있는 것이 아니라면 테스트는 통계적으로 유효하지 않습니다.
+A/B 테스트를 실행하는 경우, 여기서 는 [웰치의 t 테스트](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}(신뢰도 지표)에서 테스트 승자를 선택할 수 있습니다. 가정 중 하나는 고정된 시간 범위가 있다는 것입니다. 고정된 샘플 크기를 보지 않는 한 테스트가 통계적으로 유효하지 않습니다.
 
-다음 [!UICONTROL 고유 방문자 수] 지표는 [!DNL Analytics] 및 [!DNL Target] 실제 테스트보다 짧은 기간을 보는 경우에만 해당됩니다. 샘플 크기에 도달하지 않은 경우에는 테스트를 신뢰할 수 없습니다. 자세한 내용은 [Evan Miller의 웹 사이트](https://www.evanmiller.org/index.html)에서 [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)(A/B 테스트를 실행하지 않는 방법)를 참조하십시오.
+다음 [!UICONTROL 고유 방문자 수] 지표는 [!DNL Analytics] 및 [!DNL Target] 실제 테스트보다 짧은 기간을 보는 경우에만 해당됩니다. 샘플 크기에 도달하지 않은 경우 테스트를 신뢰할 수 없습니다. 자세한 내용은 [Evan Miller의 웹 사이트](https://www.evanmiller.org/index.html)에서 [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)(A/B 테스트를 실행하지 않는 방법)를 참조하십시오.
 
 다음 [!UICONTROL 고유 방문자 수] 지표는 지정된 기간 동안 사이트를 방문한 테스트에 노출된 사람 수를 표시합니다. 그러한 사람들은 시험의 일부이고 계산되어야 한다. 한 주 동안 노출된 사용자 수만 보려는 경우, 활동 노출이 있는 방문자 세그먼트를 만들어 보고서에 적용할 수 있습니다.
 
