@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
+source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 38%
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이들 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## [!DNL Target] Standard/Premium 22.9.1(시차 릴리스 2022년 9월 6-8일)
+## [!DNL Target] Standard/Premium 22.9.1(시차 릴리스 2022년 9월 13~15일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
