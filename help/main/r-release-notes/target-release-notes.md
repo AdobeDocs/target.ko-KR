@@ -4,7 +4,7 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -29,7 +29,7 @@ ht-degree: 0%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 를 추가했습니다. [!UICONTROL 도메인 간] at.js 2.9.1 이상 버전을 다운로드하여 타사 쿠키 설정을 허용하거나 비활성화하는 옵션(TGT-43674)
+* 를 추가했습니다. [!UICONTROL 도메인 간] 타사 쿠키 설정을 허용하거나 비활성화하기 위해 at.js 2.9.1 이상 버전을 다운로드할 때의 옵션입니다. (TGT-43674)
 * 에서 알림이 업데이트되었습니다. [!DNL Target] 활동이 활성화, 비활성화, 목표 및 임계값 달성되었음을 고객에게 알리는 UI입니다. (TGT-35811)
 * 에서 API를 통해 속성을 차단 목록에 추가하는 기능을 추가했습니다 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] 활동.
 * 이 [!UICONTROL 의사 결정 오퍼] 내에서 제대로 작동하지 않음 [!UICONTROL 시각적 경험 작성기] (VEC). (TGT-43866)
