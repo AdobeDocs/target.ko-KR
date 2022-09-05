@@ -6,9 +6,9 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '977'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 98%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 22.8.1(2022년 8월 17-18일 시차를 두고 릴리스)
+## [!DNL Target Standard/Premium] 22.8.1 (순차적 공개: 2022년 8월 17~18일)
 
-이 유지 관리 릴리스에는 백엔드 및 로컬라이제이션 수정 사항이 포함되어 있습니다.
+이 유지 관리 릴리스에는 백엔드 및 현지화 수정 사항이 포함되어 있습니다.
 
-## [!DNL Target] 플랫폼 릴리스(2022년 7월 20일)
+## [!DNL Target] 플랫폼 릴리스 (2022년 7월 20일)
 
 이번 릴리스에는 다음과 같은 기능, 개선 및 수정 사항이 포함되었습니다.
 
@@ -38,7 +38,7 @@ ht-degree: 98%
 | 기능 | 설명 |
 | --- | ---  |
 | 제품 내 알림 | 다음의 관련 제품 내 알림을 확인하십시오.<ul><li>**활동**: 활동이 승인되거나 비활성화될 때 수동으로 또는 시작 또는 종료 날짜에 도달하면 모든 활동 유형에 대한 알림입니다. 알림에는 활동의 개요 페이지에 대한 링크가 있는 활동의 이름이 포함되어 있습니다.</li><li>**프로필 스크립트** 프로필 스크립트가 수동으로 또는 Target에 의해 활성화되거나 비활성화될 때의 알림입니다.</li><li>**Recommendations 피드**: Recommendations 피드가 활성화 또는 비활성화될 때 수동으로 또는 Target에 의해 알려 줍니다. Recommendations 피드가 실패하면 알림도 전송됩니다.</li></ul> 기본적으로 제품 관리자, 게시자 및 승인자가 알림을 받습니다. 알림은 Experience Cloud 환경 설정 내에서 구성할 수 있습니다.<br>자세한 내용은 [알림 및 공지](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
-| *Adobe Target 개발자 안내서* | 다음 *Adobe Target 개발자 안내서* 모두 통합 [!DNL Target] 개발자 콘텐츠를 하나의 편리한 가이드에 추가했습니다. 안내서에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다.<br>자세한 내용은 [Adobe Target 개발자 안내서](https://developer.adobe.com/target/){target=_blank}. |
+| *Adobe Target 개발자 안내서* | 다음 *Adobe Target 개발자 안내서* 모두 통합 [!DNL Target] 개발자 콘텐츠를 하나의 편리한 안내서에 추가했습니다. 안내서에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다.<br>자세한 내용은 [Adobe Target 개발자 안내서](https://developer.adobe.com/target/){target=_blank}. |
 
 * [!UICONTROL 편집자] 역할이 있는 사용자는 더 이상 라이브 활동에서 대상을 편집할 수 없습니다. (TGT-43582)
 * 고객이 대상 이름의 첫 문자로 느낌표( ! )를 사용하여 대상을 저장하려고 하면 경고 메시지가 표시됩니다(예: !London). (TGT-43643)
