@@ -5,9 +5,9 @@ title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 94%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## Adobe Target Standard/Premium 22.8.1(시차 릴리스: (2022년 8월 17~18일)
+## Adobe Target Standard/Premium 22.8.1 (순차적 공개, 2022년 8월 17~18일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 8월 22일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 알림에 대한 정보가 추가되었습니다.<ul><li>[!DNL Target] 개인화 엔진 부문 Gartner Magic Quadrant(2022년) 리더로 선정</li></ul>예정된 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 8월 31일)</li><li>주방장 컬렉션: 개인화를 위한 레서피 (2022년 8월 30일)</li><li>[!DNL Adobe Target] 기술 빌더 - 모바일 경험 최적화(2022년 9월 6일)</li><li>[!DNL Adobe Target] Skill Builder - AI 기반의 개인화 및 Recommendations(2022년 9월 15일)</li></ul>다음 이전 웨비나 세션에 대한 녹음 링크가 추가되었습니다.<ul><li>Adobe: 개인화 산업 내부자 - 소매 (2022년 8월 11일)</li></ul> |
+| 8월 22일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 공지에 대한 정보가 추가되었습니다.<ul><li>[!DNL Target] 개인화 엔진을 위한 Gartner Magic Quadrant(2022)의 리더로 선정됨</li></ul>다가오는 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 8월 31일)</li><li>셰프의 컬렉션: 개인화 레시피 (2022년 8월 30일)</li><li>[!DNL Adobe Target] Skill Builders - 모바일 경험 최적화 (2022년 9월 6일)</li><li>[!DNL Adobe Target] Skill Builders - AI 기반 개인화 및 권장 사항 (2022년 9월 15일)</li></ul>다음과 같은 이전 웨비나 세션에 대한 기록 링크가 추가되었습니다.<ul><li>Adobe: 개인화 산업 내부자 - 소매 (2022년 8월 11일)</li></ul> |
 | 8월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.8.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.6.1 (순차적 공개, 2022년 6월 7~9일)
@@ -41,7 +41,7 @@ ht-degree: 94%
 | 5월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] 플랫폼 릴리스(2022년 5월 25일) 및 at.js 2.9.0 릴리스(2022년 5월 27일)에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [사용자 에이전트 및 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 새 주제입니다. |
-|  | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나 녹화를 위한 링크 추가: Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경(2022년 5월 19일) |
+|  | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나 녹화를 위한 링크 추가: Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경 (2022년 5월 19일) |
 | 5월 23일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | at.js 버전 2.9.0에 대한 프리릴리스 정보가 추가되었습니다(2022년 5월 25일). |
 | 5월 11일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나에 대한 정보 및 등록 링크가 추가되었습니다.<ul><li>Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경</li><li>Adobe: 개인화 산업 내부자 - 금융 서비스 및 보험</li><li>City National Bank: 디지털 최적화에서 상위 1%를 달성하는 방법</li><li>Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target]</li><li>City National Bank: Zero to Hero - 개인화 프로그램 시작 및 확장</li><li>Adobe: 영향력이 큰 최적화 기회 발견</li><li>Adobe: 개인화 산업 내부자 - 소매</li></ul>다음 웨비나에 대한 녹화가 추가되었습니다.<ul><li>[!DNL Adobe Target]을 사용한 실시간 개인 설정</li></ul> |
 |  | [콘텐츠 보안 정책(CSP) 지침](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | FAQ 섹션이 추가되었습니다. |
@@ -60,7 +60,7 @@ ht-degree: 94%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 4월 26일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>웨비나: Adobe Target을 사용한 실시간 개인화 (2022년 4월 28일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 5월 25일)</li></ul> |
+| 4월 26일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트 관련 정보가 추가되었습니다.<ul><li>웨비나: Adobe Target을 사용한 실시간 개인화 (2022년 4월 28일)</li><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 5월 25일)</li></ul> |
 |  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | 다음 FAQ가 추가되었습니다.<ul><li>A4T 활동에서 리디렉션 오퍼를 사용할 때 트래픽 분배의 불일치를 최소화하려면 어떻게 해야 합니까?</li></ul> |
 |  | [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 다음 섹션이 추가되었습니다.<ul><li>Target으로 내보낸 경험 조각에서 ClientLibs 및 외부 HTML 제거</li></ul> |
 | 4월 21일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 2022년 4월 17일로 예정된 [!DNL Target] 플랫폼 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
