@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
+source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 68%
+source-wordcount: '395'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 68%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2022년 9월 1일**
+**마지막 업데이트: 2022년 9월 6일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이들 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -31,7 +31,6 @@ ht-degree: 68%
 
 * 를 추가했습니다. [!UICONTROL 도메인 간] 타사 쿠키 설정을 허용하거나 비활성화하기 위해 at.js 2.9.1 이상 버전을 다운로드할 때의 옵션입니다. (TGT-43674)
 * 에서 알림이 업데이트되었습니다. [!DNL Target] 활동이 활성화, 비활성화, 목표 및 임계값 달성되었음을 고객에게 알리는 UI입니다. (TGT-35811)
-* 에서 API를 통해 속성을 차단 목록에 추가하는 기능을 추가했습니다 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] 활동.
 * [!UICONTROL 시각적 경험 작성기](VEC)에서 [!UICONTROL 의사 결정 제안]이 정상적으로 작동하지 않는 문제를 해결했습니다. (TGT-43866)
 * [!UICONTROL Multivariate Testing](MVT) 활동을 생성하는 동안 [!UICONTROL 요소 클릭] 전환 목표를 선택할 때 오류 메시지가 표시되는 문제를 해결했습니다. (TGT-43842)
 * [!UICONTROL 자동화된 개인화](AP) 활동에 대해 다운로드한 CSV 보고서 파일에 [!UICONTROL 노출 횟수] 열이 표시되지 않는 문제를 해결했습니다. (TGT-43780)
