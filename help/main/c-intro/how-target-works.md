@@ -19,8 +19,8 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 
 [!DNL Target]은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 사이트와 통합됩니다.
 
-* **[!DNL Adobe Experience Platform Web SDK]:** [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}는 새로운 클라이언트 측 JavaScript 라이브러리입니다. [!DNL Experience Platform Web SDK]를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform] Edge Network를 통해 [!DNL Experience Cloud]([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]는 모든 신규 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
-* **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. [!DNL Adobe]는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}으로 구현을 업데이트할 것을 권장합니다.
+* **[!DNL Adobe Experience Platform Web SDK]:** [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target="_blank"}는 새로운 클라이언트 측 JavaScript 라이브러리입니다. [!DNL Experience Platform Web SDK]를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform] Edge Network를 통해 [!DNL Experience Cloud] ([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]는 모든 신규 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
+* **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. [!DNL Adobe]는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target="_blank"}으로 구현을 업데이트할 것을 권장합니다.
 
 >[!NOTE]
 >
@@ -66,21 +66,21 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 
 ### [!UICONTROL Automated Personalization] (AP)
 
-[!UICONTROL 자동화된 개인화](AP)는 오퍼 또는 메시지를 결합하고 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼를 매칭합니다. 경험 전달은 콘텐츠를 개인화하고 리프트를 구동하기 위한 개별 고객 프로필을 기반으로 합니다.
+[!UICONTROL 자동화된 개인화] (AP)는 오퍼 또는 메시지를 결합하고 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼를 매칭합니다. 경험 전달은 콘텐츠를 개인화하고 리프트를 구동하기 위한 개별 고객 프로필을 기반으로 합니다.
 
 자세한 내용은 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 를 참조하십시오.
 
 ### [!UICONTROL 경험 타기팅] (XT)
 
-[!UICONTROL Experience Targeting](XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
+[!UICONTROL Experience Targeting] (XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 
-지리 기반의 타겟팅을 포함한 [!UICONTROL Experience Targeting]은 특정 경험이나 콘텐츠를 특정 대상으로 타겟팅하는 규칙을 정의하는 데 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상에 다양한 콘텐츠 변형을 전달할 수 있습니다. 방문자가 사이트를 볼 때 [!UICONTROL Experience Targeting](XT)는 방문자를 평가하여 설정된 기준을 총족하는지 여부를 판단합니다. 기준을 충족하면 적격 대상을 위해 디자인된 활동 및 경험을 시작하게 됩니다. 단일 활동 내에서 여러 대상에 대한 경험을 만들 수 있습니다.
+지리 기반의 타겟팅을 포함한 [!UICONTROL Experience Targeting]은 특정 경험이나 콘텐츠를 특정 대상으로 타겟팅하는 규칙을 정의하는 데 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상에 다양한 콘텐츠 변형을 전달할 수 있습니다. 방문자가 사이트를 볼 때 [!UICONTROL Experience Targeting] (XT)는 방문자를 평가하여 설정된 기준을 총족하는지 여부를 판단합니다. 기준을 충족하면 적격 대상을 위해 디자인된 활동 및 경험을 시작하게 됩니다. 단일 활동 내에서 여러 대상에 대한 경험을 만들 수 있습니다.
 
 자세한 내용은 [경험 타기팅](/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4) 을 참조하십시오.
 
 ### [!UICONTROL 다변량 테스트] (MVT)
 
-[!UICONTROL Multivariate Testing](MVT)은 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. MVT는 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
+[!UICONTROL Multivariate Testing] (MVT)은 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. MVT는 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
 
 자세한 내용은 [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499) 를 참조하십시오.
 
@@ -134,7 +134,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 >
 >[!DNL Adobe Target]은 현재 중국에 에지 클러스터를 보유하고 있지 않으며, 방문자 실적은 중국의 [!DNL Target] 고객에 한정되어 있습니다. 국가 내에서 방화벽과 에지 클러스터 부족으로 인해 [!DNL Target] 이 배포된 사이트의 환경이 영향을 받을 수 있습니다. 경험을 렌더링하기 위해 속도가 느릴 수 있으며 페이지 로드에 영향을 미칠 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
 
-원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}를 참조하십시오.
+원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target="_blank"}를 참조하십시오.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -215,7 +215,7 @@ Adobe [!DNL Target] 은 [DeviceAtlas](https://deviceatlas.com/device-data/user-a
 * 보고를 위한 활동 방문 로그
 * [!DNL Adobe Experience Cloud] 플랫폼으로 전송될 로그 데이터
 
-[!UICONTROL Analytics for Target](A4T)을 사용할 때 알려진 봇 트래픽의 경우 [!DNL Target]은 다음 작업을 수행하지 않습니다.
+[!UICONTROL Analytics for Target] (A4T)을 사용할 때 알려진 봇 트래픽의 경우 [!DNL Target]은 다음 작업을 수행하지 않습니다.
 
 * [!DNL Analytics]에 이벤트 보내기
 
