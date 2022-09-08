@@ -1,13 +1,13 @@
 ---
 keywords: 알림;스킬 빌더;개발자 채팅;coffee break;이벤트;forrester;gartner;웨비나
 description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 포함한 Adobe [!DNL Target] 이벤트에 등록하십시오.
-title: ' [!DNL Target] 알림 및 이벤트는 어디에서 찾을 수 있습니까?'
+title: 어디에 있습니까 [!DNL Target] 공지 및 이벤트 정보?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 94b89b3d3bce35840ffe0549481857521c452481
+source-git-commit: a37a530a4ea163070e82820801f7acdfa1eae7c5
 workflow-type: tm+mt
-source-wordcount: '1777'
-ht-degree: 100%
+source-wordcount: '1757'
+ht-degree: 98%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 100%
 
 ## [!DNL Target] 개인화 엔진을 위한 Gartner Magic Quadrant(2022)의 리더로 선정됨
 
-Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. 또한 [!DNL Target]은 평가된 모든 공급업체 중 당사의 테스트 기능에서 가장 높은 점수를 받았습니다.
+Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target] 평가된 모든 공급업체 중에서 Adobe의 테스트 기능에 대해 가장 높은 점수를 받았습니다.
 
 자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}을 참조하십시오.
 
@@ -26,24 +26,11 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Mag
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Adobe Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
-
-### [!DNL Adobe Target] Skill Builders - 모바일 경험 최적화 (2022년 9월 6일)
-
-모바일 경험은 마케팅 및 엔지니어링 팀이 웹 및 앱에서 크로스 채널 개인화를 위해 제품 주도 전략을 활용하는 방법에서 혁신을 주도하고 있습니다. [!DNL Adobe] Skill Builders 세션에 참여하여 [!DNL Adobe Target]이 어떻게 마케터, 개발자 및 제품 소유자의 새로운 잠재적 참여와 매출 성장을 이끌어내 번창하는 제품 커뮤니티를 구축하는지 알아보십시오.
-
-+++여기 클릭
-
-* **2022년 9월 6일 목요일**
-* **오후 1시부터 2시까지 (EDT, UTC-4)**
-* **[추가 정보 및 등록 정보](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
-
 ### [!DNL Adobe Target] Skill Builders - AI 기반 개인화 및 권장 사항 (2022년 9월 15일)
 
 실험 및 개인화의 자동화는 계속해서 마케팅, 엔지니어링 및 제품 팀의 전환 및 ROI를 가장 높은 수준으로 이끌어내고 있습니다. [!DNL Adobe] Skill Builders 세션에 참여하고 제품 및 콘텐츠 권장 사항을 포함한 [!DNL Adobe Target]의 고급 AI 기반 사용 사례 및 기능을 사용하여 경쟁 우위를 유지하고 모든 경험을 사로잡는 방법에 대해 알아보십시오.
 
-+++여기 클릭
++++세부 사항
 
 * **2022년 9월 15일 목요일**
 * **오후 1시부터 2시까지 (EDT, UTC-4)**
@@ -55,11 +42,23 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Mag
 
 이전 이벤트의 녹화분 액세스(가능한 경우):
 
+### [!DNL Adobe Target] Skill Builders - 모바일 경험 최적화 (2022년 9월 6일)
+
+모바일 경험은 마케팅 및 엔지니어링 팀이 웹 및 앱에서 크로스 채널 개인화를 위해 제품 주도 전략을 활용하는 방법에서 혁신을 주도하고 있습니다. [!DNL Adobe] Skill Builders 세션에 참여하여 [!DNL Adobe Target]이 어떻게 마케터, 개발자 및 제품 소유자의 새로운 잠재적 참여와 매출 성장을 이끌어내 번창하는 제품 커뮤니티를 구축하는지 알아보십시오.
+
++++세부 사항
+
+* **2022년 9월 6일 목요일**
+* **오후 1시부터 2시까지 (EDT, UTC-4)**
+* **[추가 정보 및 등록 정보](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
 ### 셰프의 컬렉션: 개인화 레시피 (2022년 8월 30일)
 
 Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 아이디어를 제공하는 [!DNL Adobe Target] [!DNL ]팀에 참여하십시오. 당사의 최신 전자책 “셰프의 컬렉션: 개인화를 위한 아이디어”를 기반으로 합니다.
 
-+++여기 클릭
++++세부 사항
 
 * **2022년 8월 30일 목요일**
 * **오후 1시부터 2시까지 (EDT, UTC-4)**
@@ -78,7 +77,7 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 
 공급망 문제, 서비스 오류 및 인력 부족이 가속화되는 시기에 충성도를 높이는 것은 대부분의 여행, 접대 및 외식 브랜드가 직면한 과제입니다. AI의 시대에 브랜드는 이미 산업을 떠난 필요한 리소스 없이 어떻게 경험을 확장할 수 있을까요? 디지털 기술의 발전은 20~25배 더 빠르게 가속화되어 가속화된 고객 기대치에 부응할 뿐만 아니라 자동화를 통한 팀의 확장에 기여했습니다.
 
-+++여기 클릭
++++세부 사항
 
 * **2022년 8월 25일 목요일**
 * **오후 10시~11시 (PDT, UTC-7)**
@@ -94,13 +93,13 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 * 작동 중인 실시간 충성도 활성화
 +++
 
-### Adobe: 개인화 산업 내부자 - 소매 (2022년 8월 11일)
+### [!DNL Adobe]: 개인화 산업 내부자 - 소매 (2022년 8월 11일)
 
 2022년은 기업이 실행 및 운영할 수 있는 역동적이고 빠르게 변화하는 환경을 제공했습니다. 산업 전문가들이 근로자와 여행자의 일상으로 돌아오면서 새로운 소비자 트렌드가 형성되는 것을 보고 있는 방법을 알아보십시오.
 
 * [녹화 링크](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++여기 클릭
++++세부 사항
 
 * **2022년 8월 11일 목요일**
 * **오후 1시~2시 ()**
@@ -109,13 +108,13 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 특정 시장에서 상품 및 서비스에 대한 수요가 증가하면서 소비자 구매 패턴과 행동이 변화함에 따라 소매 전자 상거래 판매가 어떻게 급증하고 있는지에 대해 논의하려면 Michael Klein(책임자, 산업 전략 소매) 및 Leina Betzer(대상 컨설턴트, Adobe Premier Support)와 함께하십시오.
 +++
 
-### Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target] (2022년 6월 2일)
+### [!DNL Adobe]: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target] (2022년 6월 2일)
 
 머신 러닝 모델과 데이터 인사이트가 마케터, 개발자 및 제품 소유자에게 중요한 개인화된 경험을 통해 소비자를 참여시킬 수 있는 새로운 기회를 열어줌에 따라 인공 지능이 어떻게 소비자의 기대치를 계속해서 재정의하는지 알아보십시오. 개인화, 타기팅 및 테스트를 위한 [!DNL Adobe Analytics] + [!DNL Adobe Target] 워크플로를 단계별로 살펴보십시오.
 
 * [녹화 링크](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++여기 클릭
++++세부 사항
 
 * **2022년 6월 2일 목요일**
 * **오후 1시부터 2시까지 (EDT, UTC-4)**
@@ -136,7 +135,7 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 
 * [녹화 링크](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++여기 클릭
++++세부 사항
 
 * **2022년 6월 9일 목요일**
 * **오후 1시부터 2시까지 (EDT, UTC-4)**
@@ -145,13 +144,13 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 브랜드 충성도를 높이기 위해 “관계 은행”이 되는 모범 사례와 성공적인 개인화 프로그램을 구축하고 확장하도록 인력과 프로세스를 이끄는 방법을 알아보려면 Heather Adkins(SVP 마케팅 기술)와 함께하십시오.
 +++
 
-### Adobe: 영향력이 큰 최적화 기회 발견 (2022년 6월 16일)
+### [!DNL Adobe]: 영향력이 큰 최적화 기회 발견 (2022년 6월 16일)
 
 그 어느 때보다 디지털화된 새로운 표준에 진입함에 따라 조직이 탁월한 디지털 경험을 제공할 수 있는 모든 기회를 포착하는 것이 중요합니다. 충분히 좋은 것만으로는 더 이상 충분하지 않습니다. 경쟁력을 유지하려면 훌륭한 경험이 필요합니다.
 
 * [녹화 링크](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
-+++여기 클릭
++++세부 사항
 
 * **2022년 6월 16일 목요일**
 * **오후 1시부터 2시까지 (EDT, UTC-4)**
@@ -172,7 +171,7 @@ Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 �
 
 * [녹화 링크](https://video.tv.adobe.com/v/343042){target=_blank}
 
-+++여기 클릭
++++세부 사항
 
 [!DNL Target]이 Dick&#39;s Sporting Goods를 통해 일반 방문객을 재방문 선수로 만드는 데 어떻게 도움이 되는지 배우려면 Shawn Wilkinson(전자 상거래 개인화 관리자)과 함께 하십시오.
 
@@ -185,13 +184,13 @@ Dick&#39;s Sporting Goods가 어떻게 두 자릿수 성장을 이끌고 있는�
 
 +++
 
-### Adobe: 개인화 산업 내부자 - 금융 서비스 및 보험 (2022년 5월 24일)
+### [!DNL Adobe]: 개인화 산업 내부자 - 금융 서비스 및 보험 (2022년 5월 24일)
 
 금융 서비스 회사가 인플레이션 패턴 및 투자 전략에 대비하기 위해 개인화를 사용하여 고객을 지원하고 알리는 방법에 대해 알아보십시오.
 
 [녹화 링크](https://video.tv.adobe.com/v/343240){target=_blank}
 
-+++여기 클릭
++++세부 사항
 
 브랜드가 고객 참여의 중심에 개인화를 두는 동시에 즉각적인 수요 변화에 대응하는 방법을 알아보려면 Christopher Young(책임자, 산업 전략 금융 서비스) 및 James Capasso(대상 컨설턴트, Adobe Premier Support)와 함께하십시오. 금융 서비스 회사가 최근의 인플레이션 패턴 및 투자 상황에 대해 우려하는 전 세계 고객을 지원하고 알리는 방법에 대해 알아보십시오.
 +++ 
@@ -202,7 +201,7 @@ Dick&#39;s Sporting Goods가 어떻게 두 자릿수 성장을 이끌고 있는�
 
 [녹화 링크](https://video.tv.adobe.com/v/343344){target=_blank}
 
-+++여기 클릭
++++세부 사항
 
 City National Bank가 어떻게 가장 정교한 “디지털 지원 관계 은행” 중 하나가 되었는지 알아보려면 Heather Adkins(SVP 마케팅 기술 관리자)와 함께하십시오.
 
@@ -219,7 +218,7 @@ City National Bank가 [!DNL Target]을 활용하여 다음 작업을 수행하�
 
 **[웨비나 녹화를 보기 위해 등록](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-+++여기 클릭
++++세부 사항
 
 이 세션에서는 [!DNL Adobe Target]이 실시간 개인화를 위해 여러 소스에서 데이터를 결합할 때의 격차를 해소하는 방법에 대해 알아봅니다.
 
@@ -234,7 +233,7 @@ City National Bank가 [!DNL Target]을 활용하여 다음 작업을 수행하�
 
 [녹화 링크](https://video.tv.adobe.com/v/328148){target=_blank}
 
-+++여기 클릭
++++세부 사항
 
 마케터와 제품 담당자, 개발자는 사이트, 인앱 등 고객과 연결되는 모든 곳에서 전반적인 고객 경험을 최적화하는 업무를 그 어느 때보다도 많이 맡고 있습니다. 데이터 사일로와 복잡한 구현이 포함된 여러 툴을 사용해도 이러한 과제가 줄어들지 않습니다.
 
@@ -245,7 +244,7 @@ City National Bank가 [!DNL Target]을 활용하여 다음 작업을 수행하�
 
 * **[녹화 링크](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
-+++여기 클릭
++++세부 사항
 
 McKinsey Digital은 &quot;소비자 및 비즈니스 디지털 채택에서 약 8주 만에 5년 연속 증가했습니다.&quot;라고 보고했습니다. *
 
@@ -260,7 +259,7 @@ Adobe 및 HSBC의 다음 웨비나에 가입하십시오.
 *McKinsey 문서: &quot;[COVID-19 복구는 디지털 방식](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; 2020년 5월
 +++
 
-### Adobe [!DNL Target] 스킬 빌더: 개발자 채팅, Adobe [!DNL Target]의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
+### [!DNL Adobe Target] 스킬 빌더: 개발자 채팅,  [!DNL Adobe Target]의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
 2021년 3월 31일에 mbox.js 사용이 중단됨에 따라 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 진행하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 설명했습니다.
 
