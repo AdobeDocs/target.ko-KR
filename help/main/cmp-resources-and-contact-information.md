@@ -4,9 +4,9 @@ description: ' [!DNL Target]  기능에 대해 학습하는 데 도움이 되는
 title: Target에 대한 리소스 및 연락처 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '1223'
 ht-degree: 98%
 
 ---
@@ -120,10 +120,10 @@ Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구�
 
 ### 법적 정보 {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2021 Adobe Systems Incorporated. All Rights Reserved.
+* © 2022 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
-[Terms of Use](https://www.adobe.com/go/marketingcloud_terms_of_use_kr) | [Privacy Center](https://www.adobe.com/kr/privacy.html)
+[사용 약관](https://www.adobe.com/legal/terms.html)
 
 Adobe and the Adobe logo are either registered trademarks or trademarks of Adobe Systems Incorporated in the United States and/or other countries. A trademark symbol (®, ™, etc.) denotes an Adobe trademark.
 
