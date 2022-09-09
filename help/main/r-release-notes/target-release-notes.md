@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c3f6c67d1e9626d45d0e4cf879260fd5584e5b90
+source-git-commit: 6058ebcf8150f9161d591a1c1c315af40babc6ef
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 95%
+source-wordcount: '400'
+ht-degree: 81%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2022년 9월 6일**
+**마지막 업데이트: 2022년 9월 9일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이들 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -30,13 +30,13 @@ ht-degree: 95%
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
 * 를 추가했습니다. [!UICONTROL 도메인 간] 타사 쿠키 설정을 허용하거나 비활성화하도록 at.js 2.10.0(이상)를 다운로드할 때 옵션을 선택합니다. (TGT-43674)
-* 활동이 활성화, 비활성화로 설정되었으며 목표 및 리프트 임계값에 도달했음을 고객에게 알리도록 [!DNL Target] UI에서 알림을 업데이트했습니다. (TGT-35811)
+* 에서 알림이 업데이트되었습니다. [!DNL Target] UI를 사용하여 [!DNL Recommendations] 피드에 실패합니다. (TGT-35811)
 * [!UICONTROL 시각적 경험 작성기](VEC)에서 [!UICONTROL 의사 결정 제안]이 정상적으로 작동하지 않는 문제를 해결했습니다. (TGT-43866)
 * [!UICONTROL Multivariate Testing](MVT) 활동을 생성하는 동안 [!UICONTROL 요소 클릭] 전환 목표를 선택할 때 오류 메시지가 표시되는 문제를 해결했습니다. (TGT-43842)
 * [!UICONTROL 자동화된 개인화](AP) 활동에 대해 다운로드한 CSV 보고서 파일에 [!UICONTROL 노출 횟수] 열이 표시되지 않는 문제를 해결했습니다. (TGT-43780)
 * [!UICONTROL 양식 기반 경험 작성기]를 사용할 때 경험을 복제한 후 고객이 HTML/JSON 오퍼를 편집할 수 없는 문제를 해결했습니다. (TGT-43633)
 * 고객이 [!UICONTROL A/B 테스트] 활동을 기본이 아닌 작업 영역에서 다른 기본이 아닌 작업 영역으로 복사할 수 없는 문제를 해결했습니다. (TGT-41910)
-* 권장 사항이 포함된 [!UICONTROL A/B 테스트] 및 [!UICONTROL Experience Targeting](XT) 활동에서 [!DNL Target] UI를 사용하여 고객이 오브젝트(디자인, 기준, 컬렉션 등)를 올바르게 편집 및 삭제할 수 있도록 문제를 해결했습니다. (TGT-42331)
+* 고객이 의 사용 방식을 적절히 표시할 수 있도록 하는 문제가 수정되었습니다 [!DNL Recommendations] 의 개체(디자인, 기준, 컬렉션 등)는 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 추천이 포함된 활동과 더 이상 사용되지 않는 기준 개체도 삭제합니다. [!DNL Target] UI 및 [!DNL Recommendations] 백엔드. (TGT-42331)
 * 매개변수를 가져올 때 [!DNL Target] UI에 네트워크 시간 초과 경고가 표시되는 문제를 해결했습니다. (TGT-43737)
 * 키보드를 통해 특정 드래그 앤 드롭 액션에 액세스할 수 있도록 UI를 업데이트했습니다. (TGT-42969)
 * 텍스트 문자열이 올바르게 현지화되도록 UI를 업데이트했습니다.
