@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e0e12caec1cf9db713d56983f3697d80bea72015
-workflow-type: ht
-source-wordcount: '977'
-ht-degree: 100%
+source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
+workflow-type: tm+mt
+source-wordcount: '632'
+ht-degree: 84%
 
 ---
 
@@ -18,56 +18,31 @@ ht-degree: 100%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 22.8.1 (순차적 공개: 2022년 8월 17~18일)
-
-이 유지 관리 릴리스에는 백엔드 및 현지화 수정 사항이 포함되어 있습니다.
-
-## [!DNL Target] 플랫폼 릴리스 (2022년 7월 20일)
-
-이번 릴리스에는 다음과 같은 기능, 개선 및 수정 사항이 포함되었습니다.
-
-| 기능 | 설명 |
-| --- | --- |
-| IPv6 지원을 통해 대상 평가 정확도 향상 및 최종 사용자 지연 시간 감소(TNT-43364, TNT-44692) | 방문자의 지리적 위치는 이제 IPv4 주소만 사용하는 것이 아니라 IPv6 주소로 결정됩니다. 배달 API는 IPv6 입력 매개변수도 지원합니다. 필터링 및 허용 목록은 IPv4 및 IPv6 주소를 모두 지원합니다. 이 릴리스의 IPv6 지원은 방문자가 보다 정확하게 대상에 포함됨을 의미합니다(더 정확하게 활동 자격을 부여하거나 필터링 기준에 포함됨). 또한 IPv6 클라이언트가 직접 라우팅되므로 IPv6-IPv4 게이트웨이의 오버헤드가 발생하지 않으므로 데이터 지연 시간이 향상됩니다. |
-| A4T 클라이언트측 페이로드 처리 문제 해결(TNT-44926) | A4T 서버측 통합을 통해 Adobe Target이 봇에서 전송된 요청을 식별하는 경우 페이로드를 Analytics로 전달하지 않으며 [!DNL Target] 로그에 mod_stats 이벤트가 기록되지 않습니다. 이 릴리스에서는 A4T 페이로드에 대한 비헤이비어가 A4T 서버측과 동일하도록 A4T 클라이언트측 로깅이 향상되었습니다. 봇으로 식별된 방문자는 [!DNL Target] 카운트/보고 대상에서 제외됩니다. (해당 문제는 클라이언트측 페이로드 처리를 사용하는 구현으로 제한되었으며 서버측에는 영향이 없었습니다. 이 릴리스에서는 서버측과 클라이언트측 모두 페이로드 처리에 대해 비헤이비어가 일관됩니다.) |
-
-## [!DNL Target Standard/Premium] 22.6.2 (2022년 6월 30일)
-
-이번 릴리스에는 다음과 같은 기능, 개선 및 수정 사항이 포함되었습니다.
-
-| 기능 | 설명 |
-| --- | ---  |
-| 제품 내 알림 | 다음의 관련 제품 내 알림을 확인하십시오.<ul><li>**활동**: 활동이 승인되거나 비활성화될 때 수동으로 또는 시작 또는 종료 날짜에 도달하면 모든 활동 유형에 대한 알림입니다. 알림에는 활동의 개요 페이지에 대한 링크가 있는 활동의 이름이 포함되어 있습니다.</li><li>**프로필 스크립트** 프로필 스크립트가 수동으로 또는 Target에 의해 활성화되거나 비활성화될 때의 알림입니다.</li><li>**Recommendations 피드**: Recommendations 피드가 활성화 또는 비활성화될 때 수동으로 또는 Target에 의해 알려 줍니다. Recommendations 피드가 실패하면 알림도 전송됩니다.</li></ul> 기본적으로 제품 관리자, 게시자 및 승인자가 알림을 받습니다. 알림은 Experience Cloud 환경 설정 내에서 구성할 수 있습니다.<br>자세한 내용은 [알림 및 공지](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
-| *Adobe Target 개발자 안내서* | 다음 *Adobe Target 개발자 안내서* 모두 통합 [!DNL Target] 개발자 콘텐츠를 하나의 편리한 안내서에 추가했습니다. 안내서에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다.<br>자세한 내용은 [Adobe Target 개발자 안내서](https://developer.adobe.com/target/){target=_blank}. |
-
-* [!UICONTROL 편집자] 역할이 있는 사용자는 더 이상 라이브 활동에서 대상을 편집할 수 없습니다. (TGT-43582)
-* 고객이 대상 이름의 첫 문자로 느낌표( ! )를 사용하여 대상을 저장하려고 하면 경고 메시지가 표시됩니다(예: !London). (TGT-43643)
-* 일부 고객의 대상 정의 세부 정보 카드에 종료된 활동이 아직 활성 상태로 나타나는 문제를 해결했습니다. (TGT-43527)
-
-## [!DNL Target Standard/Premium] 22.6.1 (순차적 공개: 2022년 6월 7~9일)
+## [!DNL Target] Standard/Premium 22.9.1 (순차적 공개, 2022년 9월 13~15일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
-* **6월 7일**: 아시아 태평양(APAC) 지역
-* **6월 8일**: 아메리카 지역
-* **6월 9일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **9월 13일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **9월 14일**: 아메리카 지역
+* **9월 15일**: 아시아 태평양(APAC) 지역
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 대상이 과거에 저장된 이전 데이터베이스와 백엔드에서 직접 정보를 검색하는 새 아키텍처 사이의 불일치 상태를 방지하기 위해 새 [!UICONTROL 대상] 페이지에 대한 개선 사항이 제공되었습니다. (TGT-43552)
-* 대상 UI가 “빈” 컨테이너를 생성하여 일부 고객이 통합 대상을 저장하지 못하는 문제가 해결되었습니다. (TGT-43588)
+* 를 추가했습니다. [!UICONTROL 도메인 간] 타사 쿠키 설정을 허용하거나 비활성화하도록 at.js 2.10.0(이상)를 다운로드할 때 옵션을 선택합니다. (TGT-43674)
+* 에서 알림이 업데이트되었습니다. [!DNL Target] UI를 사용하여 [!DNL Recommendations] 피드에 실패합니다. (TGT-35811)
+* [!UICONTROL 시각적 경험 작성기](VEC)에서 [!UICONTROL 의사 결정 제안]이 정상적으로 작동하지 않는 문제를 해결했습니다. (TGT-43866)
+* [!UICONTROL Multivariate Testing](MVT) 활동을 생성하는 동안 [!UICONTROL 요소 클릭] 전환 목표를 선택할 때 오류 메시지가 표시되는 문제를 해결했습니다. (TGT-43842)
+* [!UICONTROL 자동화된 개인화](AP) 활동에 대해 다운로드한 CSV 보고서 파일에 [!UICONTROL 노출 횟수] 열이 표시되지 않는 문제를 해결했습니다. (TGT-43780)
+* [!UICONTROL 양식 기반 경험 작성기]를 사용할 때 경험을 복제한 후 고객이 HTML/JSON 오퍼를 편집할 수 없는 문제를 해결했습니다. (TGT-43633)
+* 고객이 [!UICONTROL A/B 테스트] 활동을 기본이 아닌 작업 영역에서 다른 기본이 아닌 작업 영역으로 복사할 수 없는 문제를 해결했습니다. (TGT-41910)
+* 고객이 의 사용 방식을 적절히 표시할 수 있도록 하는 문제가 수정되었습니다 [!DNL Recommendations] 의 개체(디자인, 기준, 컬렉션 등)는 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타깃팅] (XT) 추천이 포함된 활동과 더 이상 사용되지 않는 기준 개체도 삭제합니다. [!DNL Target] UI 및 [!DNL Recommendations] 백엔드. (TGT-42331)
+* 매개변수를 가져올 때 [!DNL Target] UI에 네트워크 시간 초과 경고가 표시되는 문제를 해결했습니다. (TGT-43737)
+* 키보드를 통해 특정 드래그 앤 드롭 액션에 액세스할 수 있도록 UI를 업데이트했습니다. (TGT-42969)
+* 텍스트 문자열이 올바르게 현지화되도록 UI를 업데이트했습니다.
 
-## Target 플랫폼 릴리스 (2022년 5월 25일)
+## at.js 버전 2.10.0(2022년 9월 13일)
 
-이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
-
-* [사용자 에이전트 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} 지원이 추가되었습니다.
-* [!UICONTROL Experience Targeting] (XT) 활동에서 [!UICONTROL 오퍼 의사 결정]을 렌더링할 때 간헐적으로 시간 초과가 발생하는 문제가 해결되었습니다. (TNT-44611)
-
-## at.js 버전 2.9.0(2022년 5월 27일)
-
-* [사용자 에이전트 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} 지원이 추가되었습니다.
-* 동일한 페이지의 여러 mbox 요청에 서로 다른 노출 ID가 있는 버그가 수정되었습니다.
+* 를 추가했습니다. [!UICONTROL 도메인 간] 타사 쿠키 설정을 허용하거나 비활성화하도록 at.js 2.10.0(이상)를 다운로드할 때 옵션을 선택합니다. (TGT-43674)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
