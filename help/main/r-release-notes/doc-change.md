@@ -4,16 +4,23 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: ht
-source-wordcount: '1194'
-ht-degree: 100%
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+workflow-type: tm+mt
+source-wordcount: '1224'
+ht-degree: 99%
 
 ---
 
 # 설명서 변경 내용
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
+
+## [!DNL Adobe Target] Standard/Premium 22.9.1 (순차적 공개, 2022년 9월 13~15일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 8월 22일 | [ [!DNL Target]  UI 이해](/help/main/c-intro/understand-the-target-ui.md) | 다음의 경우에 알림에 대한 정보가 추가되었습니다. [!DNL Recommendations] 피드에 실패했습니다. |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.9.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.8.1 (순차적 공개, 2022년 8월 17~18일)
 
