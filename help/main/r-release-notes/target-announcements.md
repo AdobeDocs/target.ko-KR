@@ -1,13 +1,13 @@
 ---
 keywords: 알림;스킬 빌더;개발자 채팅;coffee break;이벤트;forrester;gartner;웨비나
 description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 포함한 Adobe [!DNL Target] 이벤트에 등록하십시오.
-title: 어디에 있습니까 [!DNL Target] 공지 및 이벤트 정보?
+title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
+source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
 workflow-type: tm+mt
-source-wordcount: '1614'
-ht-degree: 98%
+source-wordcount: '1829'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 98%
 
 ## [!DNL Target] 개인화 엔진을 위한 Gartner Magic Quadrant(2022)의 리더로 선정됨
 
-Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target] 평가된 모든 공급업체 중에서 Adobe의 테스트 기능에 대해 가장 높은 점수를 받았습니다.
+Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target]은 평가된 모든 공급업체 중 당사의 테스트 기능에서 가장 높은 점수를 받았습니다.
 
 자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}을 참조하십시오.
 
@@ -38,6 +38,29 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Mag
 
 +++
 
+### AI 기반의 개인화 미세 조정: 의 새로운 기능 [!DNL Adobe Target] (2022년 10월 11일)
+
+이 특별 제품 발표 웨비나에 참가하십시오!
+
+Adobe에서는 개인화 측면에서 &quot;매우 큰&quot; 최신 뉴스를 공유하게 되어 매우 기쁘게 생각합니다 [!DNL Adobe Target]: 새로운 필터링 및 인텔리전스로 [!DNL Target] 사용자는 AI 기반의 개인화 활동을 세밀하게 조정할 수 있으므로 활동별로 가장 중요한 비즈니스 지표에 직접 영향을 줄 수 있습니다.
+
++++세부 사항
+
+이 새로운 제품 발표는 지난 몇 년 동안 업계, 어떤 경우에도 개인화 등급을 조정할 필요가 있음을 인식했으므로 시기 적절하고 매우 중요합니다. 이는 기업이 고객 여정 전체에서 경쟁업체와 차별화하는 수단이 되었습니다. 개인화는 방문자의 첫 번째 터치부터 고객 서비스 및 충성도 사용 사례까지 기본적인 데이터를 활용하여 &quot;모든 곳:&quot;에서 매우 효과적일 수 있습니다.
+
+이 세션에서 다음 기능을 활용하여 전환 향상도를 슈퍼 과금 할 수 있는 방법을 알아봅니다 [!DNL Adobe Target]과 관련된 새로운 기능:
+
+* 내에서 향상된 모델 제어 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 Target] 활동
+* 프로필 속성 및 고값 세그먼트를 평가하는 기능 잠금 해제 [!DNL Adobe]s [!DNL Real-Time Customer Data Platform]
+* 브랜드가 AI 기반 알고리즘을 미세 조정하여 더 빠른 속도와 의사 결정을 제공하는 방법
+* 1~1개의 개인화를 제공하기 위한 고유한 사용 사례
+
+* **2022년 10월 11일 화요일**
+* **오후 1시부터 2시까지 (EDT, UTC-4)**
+* **[추가 정보 및 등록 정보](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++
+
 ## 과거 웨비나 및 스킬 빌더 세션 녹화
 
 이전 이벤트의 녹화분 액세스(가능한 경우):
@@ -52,7 +75,7 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 
 +++세부 사항
 
-다음 사항에 대한 아이디어 살펴보기:
+다음에 대한 아이디어 살펴보기:
 
 * 개인화를 사용하여 충성도를 구축하는 방법
 * 경쟁 우위 확보를 위한 최적화
@@ -232,7 +255,7 @@ Adobe 및 HSBC의 다음 웨비나에 가입하십시오.
 
 +++
 
-### [!DNL Adobe Target] 스킬 빌더: 개발자 채팅,  [!DNL Adobe Target]의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
+### [!DNL Adobe Target] 스킬 빌더: 개발자 채팅, [!DNL Adobe Target]의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
 2021년 3월 31일에 mbox.js 사용이 중단됨에 따라 Adobe Target 제품 관리자인 David Son은 최근 개발자 채팅을 진행하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 설명했습니다.
 
