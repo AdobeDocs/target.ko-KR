@@ -31,12 +31,12 @@ ht-degree: 100%
 
 * at.js 2.10.0 이상 버전을 다운로드할 때 서드파티 쿠키의 설정을 허용하거나 비활성화하는 [!UICONTROL 크로스 도메인] 옵션을 추가했습니다. (TGT-43674)
 * [!DNL Recommendations] 피드 가져오기가 실패할 경우 고객에게 알리도록 [!DNL Target] UI의 알림을 업데이트했습니다. (TGT-35811)
-* [!UICONTROL 시각적 경험 작성기](VEC)에서 [!UICONTROL 의사 결정 제안]이 정상적으로 작동하지 않는 문제를 해결했습니다. (TGT-43866)
-* [!UICONTROL Multivariate Testing](MVT) 활동을 생성하는 동안 [!UICONTROL 요소 클릭] 전환 목표를 선택할 때 오류 메시지가 표시되는 문제를 해결했습니다. (TGT-43842)
-* [!UICONTROL 자동화된 개인화](AP) 활동에 대해 다운로드한 CSV 보고서 파일에 [!UICONTROL 노출 횟수] 열이 표시되지 않는 문제를 해결했습니다. (TGT-43780)
+* [!UICONTROL 시각적 경험 작성기] (VEC)에서 [!UICONTROL 의사 결정 제안]이 정상적으로 작동하지 않는 문제를 해결했습니다. (TGT-43866)
+* [!UICONTROL Multivariate Testing] (MVT) 활동을 생성하는 동안 [!UICONTROL 요소 클릭] 전환 목표를 선택할 때 오류 메시지가 표시되는 문제를 해결했습니다. (TGT-43842)
+* [!UICONTROL 자동화된 개인화] (AP) 활동에 대해 다운로드한 CSV 보고서 파일에 [!UICONTROL 노출 횟수] 열이 표시되지 않는 문제를 해결했습니다. (TGT-43780)
 * [!UICONTROL 양식 기반 경험 작성기]를 사용할 때 경험을 복제한 후 고객이 HTML/JSON 오퍼를 편집할 수 없는 문제를 해결했습니다. (TGT-43633)
 * 고객이 [!UICONTROL A/B 테스트] 활동을 기본이 아닌 작업 영역에서 다른 기본이 아닌 작업 영역으로 복사할 수 없는 문제를 해결했습니다. (TGT-41910)
-* 권장 사항이 포함된 [!UICONTROL A/B 테스트] 및 [!UICONTROL Experience Targeting](XT) 활동에서 고객이 [!DNL Recommendations] 오브젝트 사용(디자인, 기준, 컬렉션 등)을 올바르게 표시하고 더 이상 사용하지 않는 기준 오브젝트를 [!DNL Target] UI 및 [!DNL Recommendations] 백엔드에서 삭제할 수 있도록 문제를 해결했습니다. (TGT-42331)
+* 권장 사항이 포함된 [!UICONTROL A/B 테스트] 및 [!UICONTROL Experience Targeting] (XT) 활동에서 고객이 [!DNL Recommendations] 오브젝트 사용(디자인, 기준, 컬렉션 등)을 올바르게 표시하고 더 이상 사용하지 않는 기준 오브젝트를 [!DNL Target] UI 및 [!DNL Recommendations] 백엔드에서 삭제할 수 있도록 문제를 해결했습니다. (TGT-42331)
 * 매개변수를 가져올 때 [!DNL Target] UI에 네트워크 시간 초과 경고가 표시되는 문제를 해결했습니다. (TGT-43737)
 * 키보드를 통해 특정 드래그 앤 드롭 액션에 액세스할 수 있도록 UI를 업데이트했습니다. (TGT-42969)
 * 텍스트 문자열이 올바르게 현지화되도록 UI를 업데이트했습니다.
