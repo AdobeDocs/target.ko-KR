@@ -5,9 +5,9 @@ title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1241'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -15,12 +15,12 @@ ht-degree: 98%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## [!DNL Adobe Target] Standard/Premium 22.9.1 (순차적 공개, 2022년 9월 13~15일)
+## [!DNL Adobe Target] Standard/Premium 22.9.1(순차적 공개, 2022년 9월 13~15일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 9월 15일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 웨비나에 대한 정보가 추가되었습니다.<ul><li>AI 기반의 개인화 미세 조정: 의 새로운 기능 [!DNL Adobe Target] (2022년 10월 11일)</li></ul> |
-| 9월 13일 | [ [!DNL Target]  UI 이해](/help/main/c-intro/understand-the-target-ui.md) | 다음의 경우에 알림에 대한 정보가 추가되었습니다. [!DNL Recommendations] 피드에 실패했습니다. |
+| 9월 15일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 웹 세미나에 대한 정보가 추가되었습니다.<ul><li>AI 기반 개인화 미세 조정: [!DNL Adobe Target]의 새로운 기능(2022년 10월 11일)</li></ul> |
+| 9월 13일 | [ [!DNL Target] UI 이해](/help/main/c-intro/understand-the-target-ui.md) | [!DNL Recommendations] 피드 실패 시 전송되는 알림에 대한 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.9.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.8.1 (순차적 공개, 2022년 8월 17~18일)
