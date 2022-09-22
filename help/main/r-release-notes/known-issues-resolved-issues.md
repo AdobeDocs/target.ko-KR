@@ -4,7 +4,7 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -26,12 +26,6 @@ ht-degree: 95%
 ### 양식 기반 경험 작성기에서 만든 활동에서 애드혹 오퍼가 있는 위치 삭제 {#ad-hoc}
 
 양식 기반 경험 작성기에서 만든 활동에서 위치가 애드혹 오퍼(활동 내부에 생성된 오퍼)를 사용하는 경우에는 활동에서 해당 위치를 삭제하지 마십시오. 위치를 삭제하면 활동이 손상될 수 있습니다. [!DNL Target] 팀은 이 문제를 해결하기 위해 노력하고 있습니다. 임시 해결 방법으로, [!UICONTROL 오퍼 라이브러리]에서 글로벌 오퍼를 만들어 위치와 함께 사용하거나, 필요한 경우 새로운 경험을 만들 수 있습니다. (KB-2014)
-
-### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target (A4T) 분석
-
-[!DNL Target] UI를 통해 사용자는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동의 최적화를 위한 주요 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있습니다. 전환 지표가 지원되며 참여 및 매출 지표는 지원되지 *않습니다*. 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 구축되지 않습니다.
-
-지원되는 목표 지표와 지원되지 않는 목표 지표의 목록은 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. (TNT-38409)
 
 ### EEC(고급 경험 작성기)가 PUT 요청을 지원하지 않음
 
@@ -122,6 +116,12 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 ## 해결된 문제 {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 위의 알려진 문제가 해결되면 다음 섹션으로 이동됩니다. 필요한 경우 추가 참고 사항이 추가됩니다.
+
+### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target (A4T) 분석
+
+[!DNL Target] UI를 통해 사용자는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동의 최적화를 위한 주요 목표 지표로 지원되지 않는 참여 및 매출 지표를 선택할 수 있습니다. 전환 지표가 지원되며 참여 및 매출 지표는 지원되지 *않습니다*. 참여 또는 매출 목표 지표를 선택하면 최적화 모델이 구축되지 않습니다.
+
+지원되는 목표 지표와 지원되지 않는 목표 지표의 목록은 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. (TNT-38409)
 
 ### 트래픽 배포 [!DNL Auto-Allocate] A4T를 사용한 활동 {#aa-a4t}
 
