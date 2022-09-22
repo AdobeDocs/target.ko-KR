@@ -4,10 +4,10 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
-workflow-type: ht
-source-wordcount: '4651'
-ht-degree: 100%
+source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+workflow-type: tm+mt
+source-wordcount: '4617'
+ht-degree: 95%
 
 ---
 
@@ -26,12 +26,6 @@ ht-degree: 100%
 ### 양식 기반 경험 작성기에서 만든 활동에서 애드혹 오퍼가 있는 위치 삭제 {#ad-hoc}
 
 양식 기반 경험 작성기에서 만든 활동에서 위치가 애드혹 오퍼(활동 내부에 생성된 오퍼)를 사용하는 경우에는 활동에서 해당 위치를 삭제하지 마십시오. 위치를 삭제하면 활동이 손상될 수 있습니다. [!DNL Target] 팀은 이 문제를 해결하기 위해 노력하고 있습니다. 임시 해결 방법으로, [!UICONTROL 오퍼 라이브러리]에서 글로벌 오퍼를 만들어 위치와 함께 사용하거나, 필요한 경우 새로운 경험을 만들 수 있습니다. (KB-2014)
-
-### A4T를 이용한 자동 할당 활동의 트래픽 분포 {#aa-a4t}
-
-경우에 따라 [!UICONTROL Analytics for Target] (A4T) 을 사용하는 [!UICONTROL 자동 할당] 활동의 트래픽 분포가 각 경험의 보고된 전환율에 따라 발생해야 하는 것과 다를 수 있습니다. 이는 재방문자 트래픽 비율이 높은 활동에서 더 자주 발생합니다. 영향을 받는 고객은 영향을 받는 활동에 대해 알림을 받습니다.
-
-이 문제가 해결될 때까지 표준 [!DNL Target] 보고로 [!UICONTROL 자동 할당] 을 사용하거나 [!DNL Analytics] 보고로 [!UICONTROL 자동 할당] 을 사용하는 대신 [!DNL Analytics] 보고로 표준 A/B 테스트를 사용합니다. (TOP-131)
 
 ### 자동 할당 및 자동 타겟 활동에 대한 Adobe Target (A4T) 분석
 
@@ -129,6 +123,10 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
 위의 알려진 문제가 해결되면 다음 섹션으로 이동됩니다. 필요한 경우 추가 참고 사항이 추가됩니다.
 
+### 트래픽 배포 [!DNL Auto-Allocate] A4T를 사용한 활동 {#aa-a4t}
+
+경우에 따라 [!UICONTROL Analytics for Target] (A4T) 을 사용하는 [!UICONTROL 자동 할당] 활동의 트래픽 분포가 각 경험의 보고된 전환율에 따라 발생해야 하는 것과 다를 수 있습니다. 이는 재방문자 트래픽 비율이 높은 활동에서 더 자주 발생합니다. (TOP-131)
+
 ### at.js
 
 * at.js 2.1.1 이하 버전(예: 기본 경험)을 사용하여 수정 없이 경험을 생성하는 경우 보고서, Analytics for Target (A4T), Adobe Analytics 또는 Google Analytics에서 경험이 계산되지 않을 수 있습니다. 또한 ttMeta 플러그인 이 제대로 작동하지 않을 수 있습니다.
@@ -161,9 +159,9 @@ Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 
 
 URL 포함 사항(/checkout, /cart)과 같은 템플릿 규칙을 [페이지 게재](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)에 추가하면 추가 공백이 규칙에 접두사로 추가됩니다. 이러한 추가 공백은 표시용이며 대상 정의 작성 및 오퍼 전달에는 영향을 미치지 않습니다. (TGT-35920)
 
-### &quot;처리 중&quot; 레이블을 보여 주는 이미지 오퍼
+### 처리 중 레이블을 표시하는 이미지 오퍼
 
-오퍼 페이지의 이미지 오퍼는 이미지가 업로드된 후 몇 시간 동안 &quot;처리 중&quot; 레이블을 유지하는 경우가 있습니다. 대부분의 경우 이 문제는 레이블에서만 발생합니다. 이미지 오퍼는 여전히 활동에 사용되고 제공될 수 있습니다. (MCUI-10264, TGT-37458)
+오퍼 페이지의 이미지 오퍼는 경우에 따라 이미지가 업로드된 후 몇 시간 동안 &quot;처리&quot; 레이블을 유지합니다. 대부분의 경우 이 문제는 레이블에서만 발생합니다. 이미지 오퍼는 여전히 활동에 사용되고 제공될 수 있습니다. (MCUI-10264, TGT-37458)
 
 이 문제는 Target Standard/Premium 20.10.1 릴리스에서 해결되었습니다.
 
@@ -200,7 +198,7 @@ A4T 와 관련된 다음과 같은 문제가 해결되었습니다.
 
 ### 자동 타겟 보고 {#at-metrics}
 
-9월 15일 오후 2시 30분(PDT)부터 10월 6일 오전 9시 25분(PDT)까지 [!DNL Adobe Target Premium] 사용자의 [!UICONTROL 자동 타겟] 보고에 영향을 미치는 문제가 해결되었습니다. 영향을 받는 전환 지표에 대한 보고서(&quot;[!UICONTROL 페이지 보았음]&quot; 또는 &quot;[!UICONTROL mbox를 클릭함]&quot; 옵션을 사용하여 구성됨)를 볼 때 전환 속도가 잘못 보고됩니다. 현재 알려진 전달 문제는 없습니다.
+영향을 받은 문제가 해결되었습니다 [!DNL Adobe Target Premium] 사용자 [!UICONTROL 자동 Target] 9월 15일 오후 2시 30분 보고 (PDT) - 10월 6일 오전 9시 25분 (PDT). 영향을 받은 전환 지표에 대한 보고서를 볼 때( &quot;[!UICONTROL 페이지를 보았습니다]&quot; 또는 &quot;[!UICONTROL mbox에서 클릭됨]&quot; 선택 사항), 전환율이 잘못 보고됩니다. 현재 알려진 전달 문제는 없습니다.
 
 보고서를 다시 동기화하고 수정하려면:
 
@@ -236,7 +234,7 @@ A4T 와 관련된 다음과 같은 문제가 해결되었습니다.
 
 ### Google Chrome 버전 80 이상을 사용할 때 VEC(Visual Experience Composer) 또는 EEC(Enhanced Experience Composer)에 페이지가 로드되지 않음
 
-이 알려진 문제는 Google이 Chrome 버전 80으로 시작하는 SameSite 속성이 없는 쿠키의 기본 동작을 변경하기로 결정한 것과 관련이 있습니다. 변경 전에는 Chrome이 SameSite=None으로 SameSite 사이트 속성이 없는 모든 쿠키를 기본값으로 설정했고 지금은 &quot;SameSite=Lax&quot;로 기본 설정했으며, 이렇게 하면 GET 및 POST 요청 시 쿠키가 전송되는 방식이 변경됩니다. [SameSite 업데이트](https://www.chromium.org/updates/same-site)를 참조하십시오.
+이 알려진 문제는 Google이 Chrome 버전 80으로 시작하는 SameSite 속성이 없는 쿠키의 기본 동작을 변경하기로 결정한 것과 관련이 있습니다. Chrome을 변경하기 전에 SameSite 속성이 없는 모든 쿠키의 기본값을 &quot;SameSite=None&quot;으로 설정하고 이제 기본값은 &quot;SameSite=Lax&quot;로 설정되었으며, 이렇게 하면 GET 및 POST 요청에서 쿠키가 전송되는 방식이 변경됩니다. [SameSite 업데이트](https://www.chromium.org/updates/same-site)를 참조하십시오.
 
 자세한 내용과 수정 사항은 &quot;최근 발표된 Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까?&quot;를 [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)에서 참조하십시오.
 
@@ -408,7 +406,7 @@ Target 17.4.1(2017년 4월 27일) 릴리스 이후부터 VEC(시각적 경험 �
 
 ### 보고: A/B 및 경험 타겟팅 (XT) 활동
 
-4월 27일 PST, 오후 9시부터 5월 5일 오전 6시 사이에 &quot;페이지 확인함&quot; 전환 작업을 사용하는 지표로 생성 또는 편집한 A/B 및 XT 활동(다른 지표를 기준으로 하지 않음)이 전환을 잘못 기록했을 수 있습니다. 이 문제는 현재 해결되었지만 영향을 받는 기간 동안 이러한 활동에 대한 &quot;페이지 확인함&quot; 전환 작업에 대한 보고가 정확하지 않을 수 있으며, 이러한 오류는 수정할 수 없습니다. 이러한 활동에 대해 &quot;페이지 확인함&quot; 전환 작업을 기준으로 진행된 모든 의사 결정의 경우 영향을 받는 기간 전후에 기록된 데이터에만 의존하는 것이 좋습니다.
+4월 27일 오후 9시(PST)~5월 5일 오전 6시(PST), A/B 및 XT 활동(다른 지표를 기반으로 하지 않음) 중 &quot;페이지 보기&quot; 전환 작업을 사용하여 작성하거나 편집할 때 잘못 기록된 전환이 있을 수 있습니다. 이제 이 문제가 해결되었습니다. 하지만, 영향을 받는 기간 동안의 이러한 활동에 대한 &quot;페이지를 본&quot; 전환 작업에 대한 보고는 정확하지 않을 수 있으며, 안타깝게도 수정할 수 없습니다. 영향을 받은 기간 전후에 기록된 데이터만 사용하는 이러한 활동에 대해 &quot;페이지 보기&quot; 전환 작업을 기반으로 하는 모든 의사 결정에는 &quot;페이지 보기&quot; 전환 작업을 사용하는 것이 좋습니다.
 
 다른 지표에 대한 보고 데이터는 영향을 받지 않았으므로 계속 사용할 수 있습니다.
 
