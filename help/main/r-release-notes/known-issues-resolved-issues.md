@@ -4,9 +4,9 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
+source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
 workflow-type: tm+mt
-source-wordcount: '4617'
+source-wordcount: '4593'
 ht-degree: 95%
 
 ---
@@ -98,10 +98,6 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 Analysis Workspace에서 Target 활동 노출 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; 속성 IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
 
 현재 모든 Analytics 패키지는 속성 IQ를 사용하여 이 모델을 추가할 수 있습니다. 속성 IQ에 액세스할 수 없는 경우 Reports &amp; Analytics의 A4T 데이터를 사용하십시오.
-
-### Target API
-
-고객은 Adobe I/O에서 A/B 활동 API의 v3 버전을 통해 자동 할당 활동에 대한 CRUD 작업을 수행할 수 없습니다.
 
 ### 보고 - 다운로드 가능한 .csv 보고서의 데이터와 [!DNL Target] UI에 표시된 보고서의 데이터가 일치하지 않습니다. {#csv}
 
