@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: bd12d615b784b26e2b5a7b9e391f3e7d5a9cc8c5
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 32%
+source-wordcount: '473'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2022년 7월 9일**
+**마지막 업데이트: 2022년 27월 9일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이들 페이지에 대한 정보는 릴리스 날짜에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -40,7 +40,7 @@ ht-degree: 32%
 * 일부 고객이 보관하지 못하는 문제를 해결했습니다 [!UICONTROL A/B 테스트] 를 사용하는 활동 [!UICONTROL 자동 Target]. (TGT-40978)
 * 단일 보고 그룹 내의 여러 위치에서 단일 오퍼를 자동으로 사용하는 기능이 추가되었습니다. (TGT-43974)
 * 에서 유형(HTML 또는 JSON)별로 경험 조각을 필터링하는 기능을 추가했습니다. [!UICONTROL 오퍼] 목록. (TGT-43121)
-* 고객이 JSON을 삽입할 수 있는 문제가 해결되었습니다 [!UICONTROL 경험 조각] VEC를 사용할 때 오퍼를 사용할 수 있습니다. JSON 오퍼는 [!UICONTROL 양식 기반 경험] 작성기. (TGT-43846)
+* 고객이 JSON을 삽입할 수 있는 문제가 해결되었습니다 [!UICONTROL 경험 조각] 오퍼는 VEC를 사용할 때 지원되지 않습니다. JSON 오퍼는 [!UICONTROL 양식 기반 경험] 작성기. (TGT-43846)
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
