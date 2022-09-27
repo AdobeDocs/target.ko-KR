@@ -5,7 +5,7 @@ description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '528'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 **마지막 업데이트: 2022년 9월 22일([변경 내용 보기](r-release-notes/doc-change.md))**
 
-다음 섹션에서는 일반적인 직무에 따라 의도된 대상별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
+다음 섹션에서는 일반적인 직무에 따라 의도된 대상자별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
 - [모든 Target 사용자](#all)
 - [마케터](#marketers)
@@ -36,15 +36,15 @@ ht-degree: 100%
 - [Target 소개](c-intro/intro.md): [!DNL Target] 솔루션의 핵심 개념에 대해 설명합니다.
 - Adobe Experience Cloud와 Target 통합: [!DNL Target]을 다른 [!DNL Experience Cloud] 솔루션([Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md))과 통합하는 방법을 설명합니다.
 - [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ko-KR): Target을 최대한 활용할 수 있도록 튜토리얼 및 비디오를 제공합니다.
-- [Target 문제 해결](r-troubleshooting-target/troubleshooting-target.md): [!DNL Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개변수 등)에 대한 정보를 포함하여 이 안내서에 포함된 문제 해결 정보에 대한 링크를 제공합니다.
+- [Target 문제 해결](r-troubleshooting-target/troubleshooting-target.md): [!DNL Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상자, 프로필, 값, 매개변수 등)에 대한 정보를 포함하여 이 안내서에 포함된 문제 해결 정보에 대한 링크를 제공합니다.
 - [모바일 앱용 Target](https://developer.adobe.com/target/implement/mobile/){target=_blank}: 모바일 앱 최적화 및 개인화에 [!DNL Target]을 사용할 수 있는 방법을 설명합니다.
 - [리소스 및 연락처 정보](cmp-resources-and-contact-information.md): [!DNL Target] 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 도움이 필요할 때 [!DNL Adobe] 에 문의하는 방법에 대한 정보를 제공합니다.
 
 ## 마케터 {#marketers}
 
 - [활동](c-activities/activities.md): [!DNL Target] 활동을 설정, 관리 및 QA하는 방법을 설명합니다.
-- [대상](c-target/target.md): 타기팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
-- [경험 및 오퍼](c-experiences/experiences.md): 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 지정하는 방법을 설명합니다.
+- [대상자](c-target/target.md): 타겟팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
+- [경험 및 오퍼](c-experiences/experiences.md): 방문자가 활동의 대상자 기준을 만족할 때 표시되는 콘텐츠를 지정하는 방법을 설명합니다.
 - [권장 사항](c-recommendations/recommendations.md): [!DNL Recommendations] 활동이 어떻게 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시하는지 설명합니다.
 
 ## 개발자 {#developers}
@@ -57,7 +57,7 @@ ht-degree: 100%
 
 ## 분석가 {#analysts}
 
-- [대상](c-target/target.md): 타기팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
+- [대상자](c-target/target.md): 타겟팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
 - [보고서](c-reports/reports.md): 활동의 성과를 해석하는 방법을 설명합니다.
 
 ## QA 엔지니어 {#qa}
