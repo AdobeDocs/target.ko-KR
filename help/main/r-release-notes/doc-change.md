@@ -5,9 +5,9 @@ title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7deebcf7f6f6b0044748f598c53f165402d1cda3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1257'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 99%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 9월 22일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2022년 9월 28일)</li></ul> |
-| 9월 15일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 웹 세미나에 대한 정보가 추가되었습니다.<ul><li>AI 기반 개인화 미세 조정: [!DNL Adobe Target]의 새로운 기능(2022년 10월 11일)</li></ul> |
+| 9월 15일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 웨비나에 대한 정보가 추가되었습니다.<ul><li>AI 기반 개인화 미세 조정: [!DNL Adobe Target]의 새로운 기능(2022년 10월 11일)</li></ul> |
 | 9월 13일 | [ [!DNL Target] UI 이해](/help/main/c-intro/understand-the-target-ui.md) | [!DNL Recommendations] 피드 실패 시 전송되는 알림에 대한 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.9.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
@@ -61,7 +61,7 @@ ht-degree: 99%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 5월 10일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
-| 4월 28일 | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 다음 FAQ가 추가되었습니다.<ul><li>한 작업 영역에서 다른 작업 영역으로 대상을 이동할 수 있습니까?</li></ul> |
+| 4월 28일 | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | 다음 FAQ가 추가되었습니다.<ul><li>한 작업 영역에서 다른 작업 영역으로 대상자를 이동할 수 있습니까?</li></ul> |
 |  | [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동은 시간 경과에 따른 트렌드 변화를 고려하기 위해 테스트 과정에서 전환 확인 창을 조정할 수 있습니까?</li><li>당첨 경험이 방문자가 활동 자격 조건을 충족할 때 표시되는 것과 다른 경우 [!UICONTROL 자동 할당]은 재방문 사용자에게 우승 경험을 표시합니까?</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 및 Target 플랫폼(2022년 4월 27일) 릴리스에 대한 정보가 추가되었습니다. |
 
@@ -91,11 +91,11 @@ ht-degree: 99%
 | 3월 9일 | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 다음 알려진 문제가 추가되었습니다.<ul><li>양식 기반 경험 작성기에서 만든 활동에서 애드혹 오퍼가 있는 위치 삭제</li></ul> |
 |  | [mbox3rdPartyId에 대한 실시간 프로필 동기화](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 프로필 동기화와 관련하여 다음 문장이 업데이트되었습니다. “업데이트는 5~10분마다 프로필 스토어와 동기화됩니다.” |
 | 3월 8일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 3월 30일)</li></ul> |
-| 3월 7일 | [대상 만들기](/help/main/c-target/c-audiences/audiences.md#aep) | “[!DNL Adobe Experience Platform]의 대상 사용:” 아래에 새로운 섹션 추가됨<ul><li>개인화 사용 사례</li></ul> |
-| 2월 25일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 타기팅](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
+| 3월 7일 | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md#aep) | “[!DNL Adobe Experience Platform]의 대상자 사용:” 아래에 새로운 섹션 추가됨<ul><li>개인화 사용 사례</li></ul> |
+| 2월 25일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 타겟팅](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [자동 할당 보고서 해석](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 새 FAQ 추가:<ul><li>[!UICONTROL 보고 소스로서의 Analytics] (A4T)를 사용하는 [!UICONTROL 자동 할당] 활동에 “우승자 없음”, “우승자” 및 “별” 배지를 사용할 수 있습니까?</li></ul> |
-|  | [활동 전용 대상 만들기](/help/main/c-target/creating-activity-only-audience.md) | 제외 규칙에 대해 논의하는 “고려 사항” 섹션에 정보가 추가되었습니다. |
-| 2월 10일 | [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | VEC(시각적 경험 작성기)에서 서비스 작업자를 통해 웹 사이트를 로드하는 방법에 대한 정보가 추가되었습니다. |
+|  | [활동 전용 대상자 만들기](/help/main/c-target/creating-activity-only-audience.md) | 제외 규칙에 대해 논의하는 “고려 사항” 섹션에 정보가 추가되었습니다. |
+| 2월 10일 | [시각적 경험 작성기 Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | VEC(시각적 경험 작성기)에서 서비스 작업자를 통해 웹 사이트를 로드하는 방법에 대한 정보가 추가되었습니다. |
 | 2월 7일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 2월 23일)</li></ul> |
 | 2월 3일 | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 새 섹션 및 비디오 추가됨: “비디오: Real-Time CDP 및 [!DNL Adobe Target]을 사용하여 다음 히트 개인화” |
 | 2월 2일 | [콘텐츠 전달 문제 해결](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 다음 섹션 추가됨: “[!DNL Target] 프로필 속성 값이 예상대로 작동하지 않음에서 큰따옴표 이스케이프” |
