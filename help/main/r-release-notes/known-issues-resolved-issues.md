@@ -5,7 +5,7 @@ title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 �
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '4593'
 ht-degree: 100%
 

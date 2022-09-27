@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bbc1503cd3fed760abbcd2d4c3738e13fe980e19
 workflow-type: tm+mt
 source-wordcount: '2044'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,22 +22,22 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Mag
 자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}을 참조하십시오.
 
 
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 9월 28일)
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2022년 9월 28일)
 
-Gentry Lin과 Brent Kostak가 게시한 질문에 실시간으로 응답합니다. [!DNL Adobe Target] 이벤트별 고객 [!UICONTROL Target 커뮤니티] 토론 스레드 이 커피 브레이크는 최근의 웨비나 Q&amp;A 대화의 확장이 됩니다 [!DNL Adobe Target] 기술 빌더 - 모바일 경험 최적화 웨비나.
+Gentry Lin 및 Brent Kostak과의 대화에 참여하여 이벤트별 [!UICONTROL Target 커뮤니티] 토론 스레드에서 [!DNL Adobe Target] 고객이 게시한 질문에 대한 답변을 실시간으로 받아 보십시오. 이 커피 브레이크는 최신 [!DNL Adobe Target] Skill Builders - 모바일 경험 최적화 웨비나에서 이루어지는 Q&amp;A 대화의 연장선입니다.
 
 +++세부 사항
 
 * **2022년 9월 28일 수요일**
-* **오전 8시 ~ 9시 (PDT, UTC-7)**
-* **[링크 등록](https://adobe.ly/3pYkmMG){target=_blank}**
+* **오전 8시~9시(PDT, UTC-7)**
+* **[등록 링크](https://adobe.ly/3pYkmMG){target=_blank}**
 
-다음 기간 동안 다루는 주제에 관한 질문을 게시할 수 있습니다 [[!DNL Adobe Target] 모바일 경험 최적화에 대한 Skill Builder Expiration Series 웨비나](https://video.tv.adobe.com/v/347360){target=_blank} 뿐만 아니라 Gentry와 Brent의 전문 분야와 관련된 다른 것도 있습니다. [!DNL Target]:
+[[!DNL Adobe Target] 모바일 경험 최적화에 대한 스킬 빌더 여정 시리즈 웹 세비나](https://video.tv.adobe.com/v/347360){target=_blank}에서 다룬 주제와 더불어 Gentry와 Brent의 [!DNL Target] 전문 지식과 관련된 주제에 대한 질문을 게시할 수 있습니다.
 
-* [!UICONTROL A/B 테스트], [!UICONTROL 다변량 테스트] (MVT), [!UICONTROL 경험 타깃팅] (XT) 활동, 자동화된 테스트 및 개인화
-* 단계별 활동 설정 워크플로우
-* 모바일용 항상 켜짐 개인화를 활성화하는 배치 경험 미리 가져오기
-* 고객 경험, 모바일 SDK 및 API, iOS 및 Android 플랫폼 구현에서 테스트 및 타깃팅을 위한 라이프사이클 지표
+* [!UICONTROL A/B 테스트], [!UICONTROL 다변량 테스트](MVT), [!UICONTROL 경험 타겟팅](XT) 활동, 자동화된 테스트 및 개인화
+* 단계별 활동 설정 워크플로
+* 모바일용 상시 개인화를 가능하게 하는 일괄 경험 프리페치
+* 고객 경험, 모바일 SDK와 API 및 iOS와 Android 플랫폼 구현 전반에 걸친 테스트 및 타겟팅용 라이프사이클 지표
 * 핵심 웹 프로덕션 워크플로
 * [!DNL Adobe Experience Cloud] 통합
 
