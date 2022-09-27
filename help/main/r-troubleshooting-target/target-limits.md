@@ -5,7 +5,7 @@ title: 의 다양한 문자, 크기 및 기타 제한은 무엇입니까? [!DNL 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -301,8 +301,8 @@ ht-degree: 96%
 
    타기팅 텍스트 영역에 있는 줄로 구분된 값의 수를 나타냅니다. 예를 들어 1,000개의 zip 코드를 zip 코드 타겟에 입력하는 경우가 있습니다.
 
-### 타기팅 규칙
+### 타기팅 규칙 {#targeting-rules}
 
 * **권장 제한**: 타기팅 규칙 값당 2,500자.
-* **권장 제한**: 타기팅 규칙 전체의 대상당 30,000개의 고유 값.
+* **권장 제한**: 타기팅 규칙 전체의 대상당 50,000개의 고유 값.
 * **권장 제한**: 활동당 100,000개의 고유한 타기팅 규칙 값.
