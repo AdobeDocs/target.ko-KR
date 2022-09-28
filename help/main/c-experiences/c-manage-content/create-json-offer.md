@@ -4,10 +4,10 @@ description: Adobe에서 JSON 오퍼를 만드는 방법을 알아봅니다 [!DN
 title: JSON 오퍼를 만들려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 49%
+source-wordcount: '535'
+ht-degree: 38%
 
 ---
 
@@ -130,6 +130,16 @@ adobe.target.getOffer({
   } 
 });
 ```
+
+## 실시간 CDP 프로필 속성을 사용하는 JSON 오퍼 예
+
+실시간 CDP 프로필 속성은 HTML 오퍼 및 JSON 오퍼에서 사용하기 위해 Target과 공유할 수 있습니다. (이 기능은 현재 베타에 있습니다.)
+
+샘플 사용 사례: 온라인 마케터로서 Grace는 실시간 개인화를 제공하기 위해 AEP/Unified Profile이 속성 값을 Target과 공유하려고 합니다. Grace는 실시간 CDP 프로필 속성을 사용하여 토큰 대체를 사용하여 Target 오퍼에 AEP 속성 값을 표시할 수 있습니다. 예를 들어 고객이 좋아하는 색상으로 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
+
+![](assets/offer-json-aep-shared-attribute.png)
+
+위에 표시된 예에서 기본값을 할당하는 것은 선택 사항입니다.
 
 ## JSON 오퍼 유형별로 오퍼 필터링 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 

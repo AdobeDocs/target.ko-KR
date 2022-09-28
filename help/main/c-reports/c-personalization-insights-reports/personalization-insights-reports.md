@@ -4,10 +4,10 @@ description: Automated Personalization(AP) 및 AT(자동 Target) 활동인 자�
 title: 개인화 인사이트 보고서를 사용하려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 54%
+source-wordcount: '909'
+ht-degree: 51%
 
 ---
 
@@ -58,6 +58,8 @@ AP 또는 자동 Target 모델에 사용되는 [!UICONTROL 개인화 인사이�
 | 페이지 매개 변수(&quot;mbox 매개 변수&quot;라고도 함) | 나중에 사용할 수 있도록 방문자 프로필에 저장되지 않은 페이지 코드를 통해 직접 전달된 이름/값 쌍입니다. | `Custom - Mbox Parameter - [parameter name]` |
 | 고객 속성 | 고객 속성을 사용하면 FTP를 통해 방문자 프로필 데이터를 Experience Cloud에 업로드할 수 있습니다. 업로드했으면 Adobe Analytics 및 Adobe Target의 데이터를 활용합니다. | `Custom - Customer Attributes - [parameter name]` |
 | 공유 대상(Adobe Audience Manager 또는 Adobe Analytics) | Adobe Audience Manager 또는 Adobe Analytics를 통해 생성되고 Target과 공유되는 대상입니다. | `Custom - Experience Cloud Segment - [segment name]` |
+| 공유 대상(Adobe Experience Platform/실시간 CDP) | Adobe Experience Platform/실시간 CDP를 통해 만들고 대상을 통해 Target과 공유하는 대상. | `Custom - Adobe Experience Platform Segment - [segment name]` |
+| 공유 속성(Adobe Experience Platform/실시간 CDP) | Adobe Experience Platform/실시간 CDP를 통해 생성되고 대상을 통해 Target과 공유되는 특성입니다. 이 기능은 현재 베타에 있습니다. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
 | 활동 보고 대상/세그먼트 | &quot;목표 및 지표&quot;에서 설정하는 동안 AP 또는 자동 Target 활동에 정의된 대상입니다. | `Custom - Reporting Segment - [segment name]` |
 
 ## FAQ

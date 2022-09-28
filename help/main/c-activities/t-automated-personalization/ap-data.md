@@ -4,9 +4,9 @@ description: 데이터 Adobe 알아보기 [!DNL Target] 및 을(를) 수집하�
 title: 기계 학습 알고리즘을 생성하기 위해 수집되는 데이터는 무엇입니까?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2085'
 ht-degree: 48%
 
 ---
@@ -41,7 +41,8 @@ ht-degree: 48%
 | URL 매개 변수 | URL | 현재 표시된 페이지의 URL 및 모든 URL 매개 변수. | 사용자 지정 - URL 매개 변수 - [URL 매개 변수] |
 | 참조 URL | REF | 참조 URL에 대한 URL 및 모든 URL 매개 변수 참조. | 사용자 지정 - [참조 URL 매개 변수] - [매개 변수 값] |
 | Adobe Experience Cloud 공유 대상 | AAM | 공유된 모든 대상 [!DNL Target] 다른 [!DNL Adobe Experience Cloud] 솔루션(예: [!DNL Adobe Audience Manager] 및 [!DNL Adobe Analytics]를 통해 [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | 사용자 지정 - Experience Cloud 대상 - [대상 이름] |
-| Adobe Experience Platform RTCDP 대상 | UPS | 와 공유되는 AEP RTCDP 대상 [!DNL Target] 대상 을 참조하십시오. |  |
+| Adobe Experience Platform 실시간 CDP 대상 | UPS | 와 공유되는 AEP 실시간 CDP 대상 [!DNL Target] 대상 을 참조하십시오. |  |
+| Adobe Experience Platform 실시간 CDP 속성 | AEP | 와 공유되는 AEP 실시간 CDP 속성 [!DNL Target] 대상 을 참조하십시오. 이 기능은 현재 베타에 있습니다. |  |
 
 ## 기능 차단 [!DNL Target] 기계 학습 알고리즘
 

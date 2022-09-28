@@ -4,10 +4,10 @@ description: 에서 대상을 사용하는 방법을 알아봅니다. [!DNL Adob
 title: 대상 목록을 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 26%
+source-wordcount: '1500'
+ht-degree: 23%
 
 ---
 
@@ -108,19 +108,31 @@ Keep the following points in mind as you work with imported audiences:
 ## 다음에서 대상 사용 [!DNL Adobe Experience Platform] {#aep}
 
 [!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}(RTCDP), 구축 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
+[!DNL Target]+
+을 [!DNL Real-time Customer Data Platform]에 연결함으로써 고객은 웹 방문의 첫 페이지에서 실시간 밀리초 개인화를 가능하게 하기 위해 이전에는 [!DNL Target]에 액세스할 수 없었던 새로운 세그먼트를 잠금 해제하여 웹 개인화를 강화할 수 있습니다. 에서 만들어진 대상 및 프로필 속성 사용 [!DNL Adobe Experience Platform] 더 풍부한 개인화를 위해 사용 가능한 데이터 포인트를 확장할 수 있습니다.
 
-[!DNL Target]을 [!DNL Real-time Customer Data Platform]에 연결함으로써 고객은 웹 방문의 첫 페이지에서 실시간 밀리초 개인화를 가능하게 하기 위해 이전에는 [!DNL Target]에 액세스할 수 없었던 새로운 세그먼트를 잠금 해제하여 웹 개인화를 강화할 수 있습니다. [!DNL Adobe Experience Platform]에서 생성된 대상을 사용하면 사용 가능한 데이터 포인트를 확장하여 보다 풍부한 개인화를 수행할 수 있습니다.
-
-이 통합은 RTCDP를 사용하여 주요 사용 사례를 잠금 해제합니다.
+이러한 통합은 실시간 CDP를 사용하여 주요 사용 사례를 잠금 해제합니다.
 
 * 동일 페이지/다음 히트 개인화
 * 최초/알 수 없는 사용자 개인화
 
 주요 기능은 다음과 같습니다.
 
-* RTCDP와 직접 Target 통합[!DNL Adobe Experience Platform] Edge에 대한 종속성 제거 [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations 카드] 거버넌스 시행
-* 통합 프로필이 있는 에지 세그멘테이션 및 에지 프로필
+* 실시간 CDP와 직접 Target 통합/[!DNL Adobe Experience Platform] Edge에 대한 종속성 제거 [!DNL Audience Core services] - AAM)
+* [!UICONTROL Target Edge Destinations 카드] 정부 및 정책 집행
+* 실시간 CDP 세그먼트 및 공유 프로필 속성
+
+실시간 CDP 프로필 속성 기능 제한 및 고려 사항:
+
+* 주어진 오퍼 내의 속성은 동일한 AEP 샌드박스에서 가져와야 합니다. (즉, 오퍼는 다른 AEP 샌드박스의 속성을 포함할 수 없습니다.)
+* 주어진 오퍼 내의 속성은 다른 소스에서 올 수 있습니다. 즉, Target 프로필과 AEP 프로필입니다.(다시 말해, Target에서 왔는지 아니면 AEP 프로필에서 가져왔는지 속성을 결합할 수 있습니다.)
+* 오퍼를 정의할 때 속성에 명시적 값이 없는 경우 실시간 CDP 프로필 속성에 대한 기본값을 할당할 수 있습니다. 예를 들어, 동의 또는 거버넌스 정책이 개인화 서비스에서 사용되는 속성을 차단하는 경우 기본값을 대신 사용할 수 있습니다.
+* 공유되면 실시간 CDP 프로필 속성이 자동 Target 및 Automated Personalization을 위한 인공 지능/시스템 학습 개인화 모델에서 사용됩니다.
+
+>[!NOTE]
+>
+>실시간 CDP 프로필 속성 기능은 현재 베타 버전에서 HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
 
 자세한 내용은 다음 주제를 참조하십시오.
 
