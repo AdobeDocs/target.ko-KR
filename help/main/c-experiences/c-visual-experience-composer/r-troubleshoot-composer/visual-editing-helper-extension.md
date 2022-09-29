@@ -3,10 +3,10 @@ keywords: vec;시각적 경험 작성기; vec;iframe;확장 프로그램;브라�
 description: 일부 웹 사이트가 [!UICONTROL 시각적 경험 작성기] (VEC). 다음 [!UICONTROL 시각적 편집 도우미] 브라우저 확장을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.
 title: 사용 방법 [!UICONTROL 시각적 편집 도우미] 확장이요?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 70ab1ec7f5313d8c1f8ecaa9b436d95919cf479a
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 30%
+source-wordcount: '568'
+ht-degree: 27%
 
 ---
 
@@ -56,12 +56,6 @@ ht-degree: 30%
 
    * 로드하지 못하는 VEC를 사용하여 웹 사이트를 로드하려고 하면 설치를 제안하는 메시지가 표시됩니다 [!UICONTROL 시각적 편집 도우미] 브라우저 확장.
    * 웹 사이트에 at.js 또는 alloy.js가 아직 구현되지 않은 경우 확장 프로그램 설치를 제안하는 메시지가 VEC에 표시됩니다.
-
-## 이 기능에 대한 추가 도움말
-
-* [시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [고급 경험 작성기 관련 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
 
 
 
