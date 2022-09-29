@@ -4,14 +4,14 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법을 �
 title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제를 해결하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
 source-wordcount: '1421'
-ht-degree: 52%
+ht-degree: 51%
 
 ---
 
-# 시각적 경험 작성기 및 고급 경험 작성기 관련 문제 해결
+# 관련 문제 해결 [!UICONTROL 시각적 경험 작성기] 및 [!UICONTROL 향상된 경험 작성기]
 
 에 문제 및 기타 문제가 발생하는 경우가 있습니다. [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC) 및 [!UICONTROL 향상된 경험 작성기] (EEC)를 사용할 수 있습니다.
 
@@ -21,7 +21,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->다음 변경 사항은 아래에 요약된 세 가지 업데이트 모두에 영향을 줍니다.
+>다음 변경 사항은 아래에 설명된 세 가지 업데이트 모두에 영향을 줍니다.
 >
 > * 윌 *not* VEC Helper 확장 프로그램이 설치 및 활성화되어 있지 않고 사이트의 암호로 보호된 페이지에 VEC를 사용할 수 있습니다. 사이트 로그인 쿠키는 타사 쿠키로 간주되며 검색 모드에서 VEC 편집기 내에서 로그인 요청으로 전송되지 않습니다. 유일한 예외는 사이트 로그인 쿠키에 이미 `SameSite=None` 및 `Secure` 속성 세트.
 
