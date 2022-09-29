@@ -34,7 +34,7 @@ Gentry Lin 및 Brent Kostak과의 대화에 참여하여 이벤트별 [!UICONTRO
 
 [[!DNL Adobe Target] 모바일 경험 최적화에 대한 스킬 빌더 여정 시리즈 웹 세비나](https://video.tv.adobe.com/v/347360){target=_blank}에서 다룬 주제와 더불어 Gentry와 Brent의 [!DNL Target] 전문 지식과 관련된 주제에 대한 질문을 게시할 수 있습니다.
 
-* [!UICONTROL A/B 테스트], [!UICONTROL 다변량 테스트](MVT), [!UICONTROL 경험 타겟팅](XT) 활동, 자동화된 테스트 및 개인화
+* [!UICONTROL A/B 테스트], [!UICONTROL 다변량 테스트] (MVT), [!UICONTROL 경험 타겟팅] (XT) 활동, 자동화된 테스트 및 개인화
 * 단계별 활동 설정 워크플로
 * 모바일용 상시 개인화를 가능하게 하는 일괄 경험 프리페치
 * 고객 경험, 모바일 SDK와 API 및 iOS와 Android 플랫폼 구현 전반에 걸친 테스트 및 타겟팅용 라이프사이클 지표
