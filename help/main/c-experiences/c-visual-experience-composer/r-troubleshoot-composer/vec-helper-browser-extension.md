@@ -4,7 +4,7 @@ description: 일부 웹 사이트가 VEC(시각적 경험 작성기)에서 안�
 title: VEC(시각적 경험 작성기) Helper 확장을 사용하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
 workflow-type: tm+mt
 source-wordcount: '1058'
 ht-degree: 55%
@@ -19,7 +19,7 @@ VEC Helper 브라우저는 Chrome 확장입니다. Mozilla Firefox를 사용할 
 
 >[!IMPORTANT]
 >
->2023년 1월부터 현재 [!DNL Target] Google에서 Manifest V2를 사용하여 확장을 허용하지 않으므로 VEC Helper 확장은 Google Chrome에서 작동하지 않습니다. 에서 웹 사이트를 시각적으로 작성하려면 새 확장을 다운로드하십시오 [!DNL Target] 새해부터 자세한 내용은 [시각적 편집 도우미 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
+>2023년 1월부터 현재 [!DNL Target] Google에서 Manifest V2를 사용하여 확장을 허용하지 않으므로 VEC Helper 확장은 Google Chrome에서 작동하지 않습니다. 에서 웹 사이트를 시각적으로 작성하려면 새 확장을 다운로드하십시오 [!DNL Target] 새해부터 자세한 내용은 [시각적 편집 도우미 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
 
 ## 일부 웹 사이트가 VEC에서 안정적으로 열리지 않을 수 있는 이유
 
