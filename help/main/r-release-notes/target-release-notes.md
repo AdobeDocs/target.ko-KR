@@ -4,7 +4,7 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
 workflow-type: tm+mt
 source-wordcount: '525'
 ht-degree: 79%
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2022년 9월 29일**
+**마지막 업데이트: 2022년 10월 3일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이들 페이지에 대한 정보는 릴리스 일자에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
@@ -23,9 +23,9 @@ ht-degree: 79%
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
-* **10월 4일**: 유럽, 중동 및 아프리카(EMEA) 지역
 * **10월 5일**: 아시아 태평양(APAC) 지역
 * **10월 6일**: 아메리카 지역
+* **10월 7일**: 유럽, 중동 및 아프리카(EMEA) 지역
 
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
 
