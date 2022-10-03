@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 01b8ed3ecae20859a6d9a5dacc3fc280a3a426b1
+source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
 workflow-type: tm+mt
-source-wordcount: '1213'
+source-wordcount: '1221'
 ht-degree: 98%
 
 ---
@@ -258,6 +258,8 @@ ht-degree: 98%
       + [평균 상승도, 상승도 한계 및 신뢰 구간](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [보고서에서 여러 지표 보기](c-reports/c-report-settings/view-multiple-metrics.md)
       + [예외적인 값 제외](c-reports/c-report-settings/excluding-extreme-orders.md)
+   + 통계적 방법론 {#statistical-methodology}
+      + [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + [Auto-Target 요약 보고서](c-reports/auto-target-summary-report.md)
    + [Automated Personalization 요약 보고서](c-reports/reports-ap.md)
    + 개인화 통찰력 보고서 {#insights}
