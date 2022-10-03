@@ -4,9 +4,9 @@ description: Analytics를 구현하는 데 필요한 단계를 수행합니다 [
 title: Analytics를 구현하려면 어떻게 합니까? [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1155'
 ht-degree: 23%
 
 ---
@@ -192,7 +192,7 @@ Adobe은 이전 통합을 제거하여 구현을 단순화하고 시스템 간�
 
 ### 10단계: Analytics를 Target의 보고 소스로 사용하기 위한 선택 사항 활성화
 
-in [!DNL Target]를 클릭합니다. **[!UICONTROL 관리 > 시각적 경험 작성기]** 다음 중 하나를 선택합니다. **[!UICONTROL 활동당 선택]** 또는 **[!UICONTROL Adobe Analytics]** 을 클릭하여 옵션을 활성화합니다.
+in [!DNL Target]를 클릭합니다. **[!UICONTROL 관리 > 보고]** 다음 중 하나를 선택합니다. **[!UICONTROL 활동당 선택]** 또는 **[!UICONTROL Adobe Analytics]** 을 클릭하여 옵션을 활성화합니다.
 
 * **[!UICONTROL 활동당 선택]** 다음 중 하나를 선택할 수 있습니다 [!DNL Target] 및 [!DNL Analytics] 각 활동을 만들 때
 * **[!UICONTROL Adobe]**&#x200B;에서는 만들어지는 모든 활동에 대해 [!DNL Analytics]Analytics를 보고 소스로 설정합니다.
