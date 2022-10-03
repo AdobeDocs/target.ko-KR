@@ -4,9 +4,9 @@ description: Adobe에서 자동 할당 활동을 사용하는 방법을 알아�
 title: 자동 할당 활동이란 무엇입니까?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '3567'
+source-wordcount: '3568'
 ht-degree: 50%
 
 ---

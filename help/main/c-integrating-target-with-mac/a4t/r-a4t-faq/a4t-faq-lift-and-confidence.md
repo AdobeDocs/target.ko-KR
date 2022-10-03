@@ -4,10 +4,10 @@ description: Analytics를 사용할 때 상승도 및 신뢰도에 대한 질문
 title: A4T를 사용하여 상승도 및 신뢰도에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 28%
+source-wordcount: '541'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 28%
 
 ## A4T에 대해 오프라인 계산을 수행할 수 있습니까? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 자세한 내용은 [신뢰 수준 및 신뢰 구간](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B)의 &quot;Analytics for Target(A4T)에 사용할 오프라인 계산 수행&quot;을 참조하십시오.
+A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 자세한 내용은 [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 상승도는 어떻게 계산됩니까? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]
 
 ## 신뢰도는 어떻게 계산됩니까? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-신뢰 수준은 백분율로 표시되며, 백분율과 동일한 확률입니다 `1 - p-value`, 여기서 `p-value` t-테스트에서 계산됩니다. 자세한 내용은 [전환율](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+신뢰 수준은 백분율로 표시되며, 백분율과 동일한 확률입니다 `1 - p-value`, 여기서 `p-value` t-테스트에서 계산됩니다. 자세한 내용은 [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 계산된 지표에서 상승도 및 신뢰도가 표시되지 않는 이유는 무엇입니까? {#lift-confidence}
 

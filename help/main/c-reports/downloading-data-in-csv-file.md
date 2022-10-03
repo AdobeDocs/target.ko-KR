@@ -4,7 +4,7 @@ description: Adobe에서 데이터를 다운로드하는 방법을 학습합니�
 title: 보고서 데이터를 CSV 파일로 어떻게 다운로드합니까?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '685'
 ht-degree: 83%
@@ -40,7 +40,7 @@ ht-degree: 83%
 
 >[!NOTE]
 >
->CSV 보고서는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다. 이러한 계산된 지표를 계산하려면 Target의 [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel 파일에서 활동의 값을 입력하거나 [Target에서 사용하는 통계 계산](/help/main/assets/statistical-calculations.pdf).
+>CSV 보고서는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다. 이러한 계산된 지표를 계산하려면 Target의 [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) 활동의 값을 입력하거나 검토할 Excel 파일 [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 주문 세부 사항을 CSV로 내보내기 {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 

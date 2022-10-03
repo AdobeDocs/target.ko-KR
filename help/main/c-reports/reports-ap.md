@@ -4,9 +4,9 @@ description: Adobe Target에서 Automated Personalization 요약 보고서를 �
 title: Automated Personalization 요약 보고서를 어떻게 사용합니까?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '673'
 ht-degree: 39%
 
 ---
@@ -38,7 +38,7 @@ ht-degree: 39%
 
 ![활동 수준 보고서](/help/main/c-reports/assets/box_plot_ap.png)
 
-상승도, 신뢰도, 트렌드, 지속 기간 등을 포함하여 A/B 테스트에 대한 결과 해석의 표준 규칙이 여전히 적용됩니다. 결과 해석에 대한 자세한 내용은 [전환율에 대하여](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844)를 참조하십시오.
+상승도, 신뢰도, 트렌드, 지속 기간 등을 포함하여 A/B 테스트에 대한 결과 해석의 표준 규칙이 여전히 적용됩니다. 결과 해석에 대한 자세한 내용은 [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 오퍼 수준 보고서 {#section_CAA6409879E349C6906E2BE8156D87A1}
 

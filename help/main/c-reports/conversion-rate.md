@@ -4,9 +4,9 @@ description: Adobe 방법 알아보기 [!DNL Target] 각 경험에 대한 전환
 title: 전환율, 상승도 및 신뢰도 수준을 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '2146'
+source-wordcount: '2150'
 ht-degree: 53%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 53%
 
 [다운로드한 CSV 보고서](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다.
 
-이러한 계산된 지표를 계산하려면 Target의 [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel 파일에서 활동의 값을 입력하거나 [Target에서 사용하는 통계 계산](/help/main/assets/statistical-calculations.pdf).
+이러한 계산된 지표를 계산하려면 Target의 [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) 활동의 값을 입력하거나 검토할 Excel 파일 [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ ht-degree: 53%
 
 A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 
 
-A4T에서는 [웰치의 t 테스트](https://en.wikipedia.org/wiki/Welch%27s_t-test)연속 변수(이진 지표가 아님)에 대한 {target=_blank} 계산. Analytics에서 방문자는 항상 추적되며 수행된 모든 작업이 카운트됩니다. 따라서 방문자가 여러 번 구입하거나 성공 지표를 여러 번 방문하면 해당 추가 히트가 카운트됩니다. 이 작업으로 지표는 연속 변수가 됩니다. 웰치의 t-test 계산을 수행하려면 t-통계의 분모로 사용되는 분산을 계산하기 위해 &quot;제곱의 합계&quot;가 필요합니다. [이 문서에서는 세부 사항을 설명합니다](/help/main/assets/statistical-calculations.pdf) 사용된 수식의 수입니다. 제곱의 합은 [!DNL Analytics]. 제곱합 데이터를 얻으려면, 최적화할 지표에 대한 방문자 수준 내보내기를 샘플 기간 동안 수행해야 합니다.
+A4T에서는 [웰치의 t 테스트](https://en.wikipedia.org/wiki/Welch%27s_t-test)연속 변수(이진 지표가 아님)에 대한 {target=_blank} 계산. Analytics에서 방문자는 항상 추적되며 수행된 모든 작업이 카운트됩니다. 따라서 방문자가 여러 번 구입하거나 성공 지표를 여러 번 방문하면 해당 추가 히트가 카운트됩니다. 이 작업으로 지표는 연속 변수가 됩니다. 웰치의 t-test 계산을 수행하려면 t-통계의 분모로 사용되는 분산을 계산하기 위해 &quot;제곱의 합계&quot;가 필요합니다. [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) 사용되는 수식의 세부 정보를 설명합니다. 제곱의 합은 [!DNL Analytics]. 제곱합 데이터를 얻으려면, 최적화할 지표에 대한 방문자 수준 내보내기를 샘플 기간 동안 수행해야 합니다.
 
 예를 들어 방문자당 페이지 보기 수로 최적화하는 경우, 지정된 기간, 아마도 2일 동안 방문자별로 총 페이지 보기 횟수 샘플을 내보내게 됩니다(필요한 데이터 포인트는 수천 개 있음). 그런 다음 각 값을 제곱하고 이 제곱들의 총합을 구합니다(여기서 연산 순서가 매우 중요합니다.). 그런 다음 이 &quot;제곱합&quot; 값은 Complete Confidence Calculator에서 사용됩니다. 이 값에 해당 스프레드시트의 &quot;수입&quot; 섹션을 사용하십시오.
 

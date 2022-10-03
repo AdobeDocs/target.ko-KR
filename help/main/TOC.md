@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: e94a9b23e40d8ba17f4f83dbc380d31268b62daf
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '1221'
+source-wordcount: '1219'
 ht-degree: 98%
 
 ---
@@ -270,7 +270,6 @@ ht-degree: 98%
    + [경험 성과 보고서 (MVT)](c-reports/experience-performance-report.md)
    + [위치 기여도 보고서 (MVT)](c-reports/location-contribution-report.md)
    + [A4T (Analytics for Target) 보고](c-reports/analytics-for-target-a4t-reporting.md)
-   + [전환율](c-reports/conversion-rate.md)
    + [CSV 파일로 데이터 다운로드](c-reports/downloading-data-in-csv-file.md)
    + [보고 FAQ](c-reports/reporting-frequently-asked-questions.md)
 + 권장 사항 {#recommendations}

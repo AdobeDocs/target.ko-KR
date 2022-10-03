@@ -4,7 +4,7 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -428,7 +428,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
 * 합계 행에 대한 보고에서 [!UICONTROL 평균 상승도 신뢰 구간] 및 [!UICONTROL 신뢰도가] 표시되지 않는 [!DNL Auto-Target] [!UICONTROL 문제를] 해결했습니다. 모든 개별 경험에 대해 측정이 올바르게 표시됩니다. (TGT-37301)
-* 영향을 받는 문제를 수정했습니다 [!DNL Adobe Target Premium] 사용자 [!UICONTROL 자동 Target] 9월 15일 오후 2시 30분 보고 (PDT) - 10월 6일 오전 9시 25분 (PDT). 영향을 받은 전환 지표에 대한 보고서를 볼 때( &quot;[!UICONTROL 페이지를 보았습니다]&quot; 또는 &quot;[!UICONTROL mbox에서 클릭됨]&quot; 선택 사항), 전환율이 잘못 보고됩니다. 현재 알려진 전달 문제는 없습니다. 보고를 다시 동기화하고 [수정하는 방법에](/help/main/r-release-notes/known-issues-resolved-issues.md#at-metrics) 대한 자세한 내용은 *알려진 문제 및 해결된 문제의* 해결된 문제 아래의 *자동 타겟 보고를* 참조하십시오.
+* 영향을 받는 문제를 수정했습니다 [!DNL Adobe Target Premium] 사용자 [!UICONTROL 자동 Target] 9월 15일 오후 2시 30분 보고 (PDT) - 10월 6일 오전 9시 25분 (PDT). 영향을 받는 전환 지표에 대한 보고서(“[!UICONTROL 페이지 확인함]” 또는 “[!UICONTROL mbox를 클릭함]” 옵션을 사용하여 구성됨)를 볼 때 전환 속도가 잘못 보고됩니다. 현재 알려진 전달 문제는 없습니다. 보고를 다시 동기화하고 [수정하는 방법에](/help/main/r-release-notes/known-issues-resolved-issues.md#at-metrics) 대한 자세한 내용은 *알려진 문제 및 해결된 문제의* 해결된 문제 아래의 *자동 타겟 보고를* 참조하십시오.
 * 카탈로그 [!UICONTROL 검색 표에] 선택 가능한 [!UICONTROL 마지막 업데이트 날짜] 열과 [!UICONTROL 마지막 업데이트 날짜] 필터를 추가했습니다. 이렇게 하면 각 개별 항목을 열어 마지막으로 업데이트한 시기를 확인할 필요가 없고 항목이 마지막으로 업데이트된 날짜로 필터링할 수 있기 때문에 시간과 노력이 절약됩니다.
 
    ![마지막으로 업데이트된 날짜 열 및 필터 그림](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -2289,7 +2289,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>보고서에 대한 사용자 인터페이스가 재디자인되었습니다. </p> </li> 
       <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>이제 Target 보고서에는 이전 데이터를 제거하도록 보고 데이터를 재설정하는 옵션이 제공됩니다. (TGT-5933) </p> </li> 
       <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>보고에 대한 계산 방법론에 방문자 수(기본값), 방문 수 및 활동 노출 수가 포함됩니다. (TGT-10002) </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local"> 보고서 설정 </a> 및 <a href="/help/main/c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local"> 계산 방법론 </a>을 참조하십시오. </p> <p>이제 다운로드할 수 있는 CSV 보고서에 대해 다음과 같은 개선된 보고 기능을 사용할 수 있습니다. </p> <p> 
+     </ul> </p> <p>자세한 내용은 <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> 보고서 설정 </a> 및 <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> 계산 방법론 </a>을 참조하십시오. </p> <p>이제 다운로드할 수 있는 CSV 보고서에 대해 다음과 같은 개선된 보고 기능을 사용할 수 있습니다. </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>이제 오퍼 수준 CSV 보고서는 각 오퍼에 대한 추가 세부 사항을 제공합니다. (TGT-18995) </p> </li> 
       <li id="li_659D126E846348D4BE4544962F41539F"> <p>이제 다운로드된 오퍼 수준 CSV 파일은 항상 <span class="wintitle"> Automated Personalization </span> 보고서에 대한 제어 및 타기팅된 세그먼트의 데이터를 포함합니다. (TGT-22000) </p> </li> 
@@ -2955,7 +2955,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
   </tr> 
   <tr> 
    <td colname="col1"> 연속 변수에 대한 타겟 보고서에서 신뢰 구간 보기 </td> 
-   <td colname="col2"> <p>수익 통계 유형(RPV, AOV, 영업, 주문) 및 참여 지표에 대한 신뢰 구간 범위를 표시합니다. </p> <p>예를 들어 RPV = 200.00이고 CI 범위 = 50.00이면 RPV: 200.00 +/- 50.00에 대해 표시됩니다. </p> <p>이 변경 사항은 A/B, 경험 타기팅 및 다변량 테스트에 적용됩니다. </p> <p><a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local"> 신뢰 수준 및 신뢰 구간 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>수익 통계 유형(RPV, AOV, 영업, 주문) 및 참여 지표에 대한 신뢰 구간 범위를 표시합니다. </p> <p>예를 들어 RPV = 200.00이고 CI 범위 = 50.00이면 RPV: 200.00 +/- 50.00에 대해 표시됩니다. </p> <p>이 변경 사항은 A/B, 경험 타기팅 및 다변량 테스트에 적용됩니다. </p> <p><a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> 신뢰 수준 및 신뢰 구간 </a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 시각적 경험 작성기 URL 규칙 개선 사항 </td> 
@@ -3212,7 +3212,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> 이진 지표에 대한 신뢰 구간 </td> 
-   <td colname="col2"> <p>Target 기반 데이터를 사용하는 업데이트된 보고서에는 대조군과 비교한 상승도의 신뢰 구간이 표시됩니다. </p> <p><a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local"> 신뢰 수준 및 신뢰 구간 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Target 기반 데이터를 사용하는 업데이트된 보고서에는 대조군과 비교한 상승도의 신뢰 구간이 표시됩니다. </p> <p><a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> 신뢰 수준 및 신뢰 구간 </a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 내보내기 활동 보고서 데이터 다운로드 </td> 
