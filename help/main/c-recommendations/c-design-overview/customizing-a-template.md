@@ -4,10 +4,10 @@ description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe에서
 title: Velocity를 사용하여 디자인을 사용자 지정하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 61%
+source-wordcount: '1032'
+ht-degree: 60%
 
 ---
 
@@ -67,7 +67,7 @@ Velocity 변수에 대한 자세한 내용은 [https://velocity.apache.org/engin
 
 예를 들어 다음과 유사한 내용을 표시하는 디자인을 원하는 경우,
 
-![](assets/velocity_example.png)
+![velocity_example 이미지](assets/velocity_example.png)
 
 다음 코드를 사용할 수 있습니다.
 
@@ -203,7 +203,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 결과는 다음과 같은 디자인입니다. 여기서는 한 열에 키 항목이 표시됩니다.
 
-![](assets/rec_key.png)
+![rec_key 이미지](assets/rec_key.png)
 
 [!DNL Recommendations] 활동을 만들 때, &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]에는 [!UICONTROL 시각적 경험 작성기] (VEC)에 무작위 제품이 표시됩니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
 

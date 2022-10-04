@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '34593'
+source-wordcount: '34597'
 ht-degree: 96%
 
 ---
@@ -2195,7 +2195,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 * [!DNL Target] 사용자 인터페이스가 A4T([!UICONTROL Analytics for Target])을 보고 소스로 사용하는 활동에서 리디렉션 오퍼를 지원하도록 업데이트되었습니다. 이 기능을 사용하려면 곧 출시될 예정인 [!DNL at.js] 0.9.6이 필요합니다.
 * [!DNL Target] 사용자 인터페이스가 다음을 비롯한 일부 위치에서 업데이트되었습니다.
 
-   * 보고서 및 활동의 일부 옵션([!UICONTROL 편집], [!UICONTROL 피드 공유], [!UICONTROL 경험 URL 보기] 등)은 이제 [!UICONTROL 추가 선택 사항] 아이콘(![](assets/icon_more_options.png))을 클릭하여 액세스할 수 있습니다
+   * 보고서 및 활동의 일부 옵션([!UICONTROL 편집], [!UICONTROL 피드 공유], [!UICONTROL 경험 URL 보기] 등)은 이제 [!UICONTROL 추가 선택 사항] 아이콘(![)을 클릭하여 액세스할 수 있습니다icon_more_options 이미지](assets/icon_more_options.png)
 
       .
    * 이제 [!UICONTROL 오퍼] 라이브러리에서 오퍼는 카드가 아닌 목록으로 표시됩니다. [!UICONTROL 오퍼] 라이브러리 UI 전체에서 UI가 약간 변경되었습니다.

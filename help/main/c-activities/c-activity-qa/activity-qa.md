@@ -4,9 +4,9 @@ description: Adobe 사용 방법 알아보기 [!DNL Target] 변경되지 않는 
 title: 활동을 QA하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1832'
 ht-degree: 38%
 
 ---
@@ -57,7 +57,7 @@ ht-degree: 38%
 
    사이트 탐색 시 [!UICONTROL 활동 QA] 모드가 고정되어 있습니다. 이 상황은 버전 2가 있는 at.js 구현에 적용됩니다.*x* 또는 나중에 사용합니다. at.js 1.*x* 구현에서 이 문제는 방문자의 브라우저가 서드파티 쿠키를 차단하지 않는 경우에만 적용됩니다.
 
-1. 활동 링크 URL에서 생성된 보고서를 보려면 활동의 **[!UICONTROL 보고서]** 페이지에서 **[!UICONTROL 설정]** 아이콘 (  ![](assets/icon_gear.png) )를 선택한 다음 을 선택합니다. **[!UICONTROL QA 모드 트래픽]** 에서 **[!UICONTROL 환경]** 드롭다운 목록.
+1. 활동 링크 URL에서 생성된 보고서를 보려면 활동의 **[!UICONTROL 보고서]** 페이지에서 **[!UICONTROL 설정]** 아이콘 (  ![icon_gear 이미지](assets/icon_gear.png) )를 선택한 다음 을 선택합니다. **[!UICONTROL QA 모드 트래픽]** 에서 **[!UICONTROL 환경]** 드롭다운 목록.
 
 ## 고려 사항 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

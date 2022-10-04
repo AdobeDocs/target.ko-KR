@@ -4,9 +4,9 @@ description: Analytics를 사용할 때 활동 설정에 대한 질문에 대한
 title: A4T를 사용하는 활동 설정에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 20%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 20%
 1. in [!DNL Target]를 클릭합니다. **[!UICONTROL 관리]**.
 1. **[!UICONTROL 보고에 사용된 Experience Cloud 솔루션]** 드롭다운 목록에서 **[!UICONTROL 활동당 선택]**&#x200B;을 클릭합니다.
 
-![](assets/select-per-activity.png)
+![활동별 선택 이미지](assets/select-per-activity.png)
 
 **[!UICONTROL 보고 소스]** 드롭다운 목록이 **[!UICONTROL 목표 및 설정 화면에서 활성화되어 활동을 만들고 편집할 수 있습니다.]**
 

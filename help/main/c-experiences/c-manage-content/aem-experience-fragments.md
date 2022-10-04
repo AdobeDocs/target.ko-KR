@@ -4,9 +4,9 @@ description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] 경험 �
 title: 사용 방법 [!DNL Adobe Experience Manager] (AEM) 경험 구성요소?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1379'
 ht-degree: 12%
 
 ---
@@ -117,7 +117,7 @@ ht-degree: 12%
    >
    >[!UICONTROL 경험 구성요소로 교체] 선택 사항은 이미지에 사용할 수 없습니다. 이미지에 이 선택 사항을 사용하려면 원하는 이미지가 들어 있는 컨테이너 요소를 클릭하십시오.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list 이미지](assets/experience_fragment_list.png)
 
 1. 원하는 경험 조각을 선택하고 을 클릭합니다 **[!UICONTROL 완료]**.
 1. 활동 구성을 완료합니다.
@@ -140,7 +140,7 @@ ht-degree: 12%
 
 1. in [!DNL Target]에서 경험을 만들거나 편집하는 동안 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)를 클릭하고, 삽입할 페이지에서 위치를 선택합니다. [!DNL AEM] 컨텐츠, **[!UICONTROL 경험 조각 변경]** 를 [!UICONTROL 경험 조각 선택] 목록.
 
-   ![](assets/experience_fragment_list.png)
+   ![experience_fragment_list 이미지](assets/experience_fragment_list.png)
 
    다음 [!UICONTROL 경험 조각] 목록에는 생성된 컨텐츠가 표시됩니다. [!DNL AEM] 이제 내에서 기본적으로 사용할 수 있습니다 [!DNL Target].
 

@@ -4,10 +4,10 @@ description: Adobe에서 다중 페이지 활동을 만드는 방법을 알아�
 title: 다중 페이지 활동을 만들려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 85%
+source-wordcount: '383'
+ht-degree: 84%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 85%
 
    화면 왼쪽에 탐색 막대가 나타납니다.
 
-   ![](assets/multipage_nav.png)
+   ![multipage_nav 이미지](assets/multipage_nav.png)
 
 1. 탐색 막대를 사용하여 페이지를 지정하고 기본 페이지를 설정합니다.
 
@@ -40,7 +40,7 @@ ht-degree: 85%
 
    작업 메뉴를 표시하려면 세 개의 수직 줄임표 아이콘을 클릭하십시오.
 
-   ![](assets/multipage_menu.png)
+   ![multipage_menu 이미지](assets/multipage_menu.png)
 
    이 메뉴를 사용하여 페이지의 이름을 바꾸거나, 다중 페이지 활동 내에서 리디렉션 테스트를 수행하거나, 페이지를 삭제하십시오.
 

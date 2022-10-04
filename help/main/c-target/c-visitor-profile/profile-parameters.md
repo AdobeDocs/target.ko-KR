@@ -4,10 +4,10 @@ description: 방문자의 프로필에 저장되어 Adobe [!DNL Target] 활동�
 title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 99%
 
 ---
 
@@ -109,11 +109,11 @@ if (mbox.name == 'Track_Interest') {
 
 프로필 스크립트를 비활성화하는 경우, 아래 그림과 같이 Target UI의 프로필 스크립트 옆에 노란색 경고 아이콘이 표시됩니다.
 
-![](assets/profile_script_invalid.png)
+![profile_script_invalid 이미지](assets/profile_script_invalid.png)
 
 마우스로 가리키면 아래 그램과 같이 오류에 대한 세부 사항이 표시됩니다.
 
-![](assets/profile_script_hover.png)
+![profile_script_hover 이미지](assets/profile_script_hover.png)
 
 시스템이 프로필 스크립트를 비활성화하는 일반적인 이유는 다음과 같습니다.
 
@@ -161,7 +161,7 @@ if (mbox.name == 'Track_Interest') {
 
    [!DNL Target]이 있는 사이트의 페이지를 로드할 때마다 [!DNL Target]의 응답의 일부에는 아래와 같이 지정된 프로필 스크립트 값이 포함됩니다.
 
-   ![](assets/debug_profile_script_1.png)
+   ![debug_profile_script_1 이미지](assets/debug_profile_script_1.png)
 
 * **mboxTrace 디버깅 도구를 사용하여 프로필 스크립트를 디버그합니다.**
 
@@ -171,7 +171,7 @@ if (mbox.name == 'Track_Interest') {
 
    이들 매개변수를 추가하는 것은 프로필의 실행 전 스냅샷 및 실행 후 스냅샷을 얻을 수 있으므로 응답 토큰을 사용하는 것보다 좀 더 유용합니다. 사용 가능한 모든 프로필도 표시됩니다.
 
-   ![](assets/debug_profile_script_2.png)
+   ![debug_profile_script_2 이미지](assets/debug_profile_script_2.png)
 
 ## 프로필 스크립트 FAQ {#section_1389497BB6D84FC38958AE43AAA6E712}
 

@@ -4,9 +4,9 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법을 �
 title: 시각적 경험 작성기와 관련된 문제를 해결하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '804'
 ht-degree: 85%
 
 ---
@@ -82,12 +82,12 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
       * 소스 URL에 대한 조건으로 **[!UICONTROL 다음과 같음]**&#x200B;을 **[!UICONTROL 포함]**&#x200B;으로 변경하고, VEC에 로드하려는 활동의 URL을 입력합니다.
 
-      ![](assets/chrome_extension.png)
+      ![chrome_extension 이미지](assets/chrome_extension.png)
 
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-   ![](assets/requestly.png)
+   ![요청 이미지](assets/requestly.png)
 
    이제 시각적 경험 작성기로 페이지를 빠르게 로드할 수 있습니다.
 
@@ -102,7 +102,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 1. **[!UICONTROL 추가를 클릭합니다]**.
 1. **[!UICONTROL 시작을 클릭합니다]**.
 
-![](assets/firefox_extension.png)
+![firefox_extension 이미지](assets/firefox_extension.png)
 
 확장을 설정한 후 Target을 엽니다. 이제 고급 경험 작성기가 비활성화되더라도 페이지가 시각적 경험 작성기에 로드됩니다.
 

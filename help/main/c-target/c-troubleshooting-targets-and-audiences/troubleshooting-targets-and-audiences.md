@@ -4,9 +4,9 @@ description: Adobe에 사용된 경험 타깃팅 및 대상에 대한 FAQ 보기
 title: Target 및 대상에 대한 질문과 답변은 어디에서 찾을 수 있습니까?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 64%
 
 ---
@@ -80,7 +80,7 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 예를 들어 다음 그림에서 Windows 장치를 사용하는 캘리포니아 사용자는 경험 A(Windows 대상)와 경험 C(캘리포니아 대상) 모두에 대한 자격이 있습니다. 타겟 페이지의 목록에서 경험 A가 경험 C의 위에 표시되므로 이 사용자에게는 경험 A가 표시됩니다.
 
-![](assets/audiences_order.png)
+![audience_order 이미지](assets/audiences_order.png)
 
 ## [!DNL Target], Adobe Audience Manager(AAM) 및 핵심 서비스의 대상 라이브러리에 있는 동일한 대상의 이름이 서로 다른 이유는 무엇입니까? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 

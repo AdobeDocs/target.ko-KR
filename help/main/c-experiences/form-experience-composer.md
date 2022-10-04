@@ -4,10 +4,10 @@ description: Adobe 사용 방법 알아보기 [!DNL Target] 시각적이지 않�
 title: 양식 기반 경험 작성기는 어떻게 사용합니까?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 46%
+source-wordcount: '871'
+ht-degree: 45%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 46%
 
    다음 [!UICONTROL 양식 기반 경험 작성기] 엽니다.
 
-   ![](assets/location_refinements.png)
+   ![location_refinements 이미지](assets/location_refinements.png)
 
    이 화면은 [!UICONTROL Recommendations] 활동. [!UICONTROL 권장 사항 활동에는 경험이 포함되지 않습니다.]
 
@@ -46,13 +46,13 @@ ht-degree: 46%
 
 1. 클릭 **[!UICONTROL 대상 개선 추가]**, 하나 이상 선택 [대상자](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) 이 활동의 경우 **[!UICONTROL 완료]**.
 
-   ![](assets/location_refinements_2.png)
+   ![location_refinements_2 이미지](assets/location_refinements_2.png)
 
    에서 [!UICONTROL 양식 기반 경험 작성기]의 개선 사항이 전체 대상 기능으로 대체되었습니다. 기존 활동에 대한 개선 사항을으로 마이그레이션했습니다. [활동 전용 대상](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. 해당 위치에 표시할 콘텐츠 유형을 선택합니다.
 
-   ![](assets/form_content.png)
+   ![form_content 이미지](assets/form_content.png)
 
 1. 선택한 콘텐츠 유형에 대해 콘텐츠를 지정합니다.
 
@@ -96,11 +96,11 @@ ht-degree: 46%
 
    양식 기반 경험 작성기에서 권장 사항 기준을 선택하는 동안 선택한 기준 카드에 직접 연결되는 링크가 있으므로 기준을 빠르고 쉽게 편집할 수 있습니다.
 
-   ![](assets/change_criteria.png)
+   ![change_criteria 이미지](assets/change_criteria.png)
 
    Target 3단계 안내 워크플로우의 타깃팅 페이지에서 다음을 수행합니다.
 
-   ![](assets/change_criteria_2.png)
+   ![change_criteria_2 이미지](assets/change_criteria_2.png)
 
    **오퍼 결정 추가:**
 

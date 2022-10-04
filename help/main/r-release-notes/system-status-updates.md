@@ -4,10 +4,10 @@ description: Adobe  [!DNL Target] 의 현재 상태를 보고 시스템 업데�
 title: ' [!DNL Target]  및 기타 Adobe 제품의 상태를 볼 수 있는 곳은 어디입니까?'
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 100%
 
 [!DNL Target]을 포함한 [!DNL Experience Cloud] 솔루션의 상태를 보려면 [!UICONTROL Experience Cloud] 탭을 클릭하십시오.
 
-![](assets/system_status.png)
+![system_status 이미지](assets/system_status.png)
 
 페이지 맨 위에는 진행 중인 유지보수 이벤트에 대한 정보가 포함되며 개별 솔루션 업데이트를 구독하는 링크가 제공됩니다.
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 페이지 하단에는 최근 7일의 캘린더가 포함되며 매일 각 솔루션의 상태를 나타냅니다. 자세한 정보를 확인하려면 상태 표시기 위에 마우스를 두십시오.
 
-![](assets/system_status_indicator.png)
+![system_status_indicator 이미지](assets/system_status_indicator.png)
 
 ## 사전 알림
 

@@ -4,10 +4,10 @@ description: Adobe 방법 알아보기 [!DNL Target] 각 경험에 대한 전환
 title: 전환율, 상승도 및 신뢰도 수준을 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2150'
-ht-degree: 53%
+source-wordcount: '2164'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 53%
 
 다음 그림은 [!UICONTROL 전환율], [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도] 헤더가 강조 표시된 샘플 활동의 차트 헤더를 보여줍니다.
 
-![](assets/conversion-rate.jpg)
+![전환율 이미지](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ ht-degree: 53%
 
 예를 들어, 다음 전환율 보고서 열을 살펴보십시오.
 
-![](assets/conversion-rate-detail.jpg)
+![전환율-세부 정보 이미지](assets/conversion-rate-detail.jpg)
 
 첫 번째 줄은 통제 경험으로서, 세 개의 전환과 함께, 15% 전환율을 표시합니다. 두 번째 줄인 경험 B는 + 또는 - 15.65% 신뢰 구간 및 세 개의 전환과 함께, 15% 전환율을 표시합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 53%
 
 신뢰도가 99.995% 이상이면 신뢰도는 100.00%로 반올림됩니다.
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![conf_report 이미지](assets/conf_report.png)  ![conf_report_detail 이미지](assets/conf_report_detail.png)
 
 비즈니스 결정을 내리기 전에 안정적인 결과를 얻기 위해 샘플 크기가 충분히 크고 하나 이상의 경험에 대한 신뢰도 막대 4개가 지속적으로 일관되게 유지될 때까지 기다리십시오.
 
@@ -75,7 +75,7 @@ ht-degree: 53%
 
 다음 *신뢰 구간* 은 주어진 신뢰 수준에서 지표의 실제 값을 찾을 수 있는 범위의 예상 범위입니다. Target은 항상 95% 신뢰 구간을 표시합니다. 신뢰 구간은 전환율 열에 밝은 회색 +/- 백분율로 표시됩니다. 아래 예에서 경험 B의 상승도에 대한 신뢰 구간은 + 또는 - 15.65%입니다.
 
-![](assets/conversion_rate.png)
+![conversion_rate 이미지](assets/conversion_rate.png)
 
 **예:** 경험에서 관찰한 RPV는 $10이며 95%입니다 **신뢰 구간** 5달러~15달러입니다 알 수 없음, 실제 RPV는 $12입니다. 그런 다음 이 테스트를 여러 번 실행한 경우 계산되는 신뢰 구간의 95%에 _true_ $12인 RPV 값입니다.
 

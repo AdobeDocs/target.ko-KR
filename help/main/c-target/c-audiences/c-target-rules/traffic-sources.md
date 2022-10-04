@@ -4,10 +4,10 @@ description: Adobe에서 대상을 만드는 방법을 알아봅니다 [!DNL Tar
 title: Target 엔진 또는 참조 사이트를 기준으로 방문자를 검색할 수 있습니까?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 64%
+source-wordcount: '270'
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 64%
    1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
 1. 드래그 앤 드롭 **[!UICONTROL 트래픽 소스]** 를 audience builder 창으로 엽니다.
 
-   ![](assets/target_traffic_source.png)
+   ![target_traffic_source 이미지](assets/target_traffic_source.png)
 
 1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 

@@ -5,10 +5,10 @@ title: 위치를 기준으로 방문자를 Target 할 수 있습니까?
 feature: Audiences
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 49%
+source-wordcount: '990'
+ht-degree: 50%
 
 ---
 
@@ -45,7 +45,7 @@ ht-degree: 49%
 
 다음 그림은 44° 이상의 위도와 22° 이하의 경도에서 활동에 액세스하는 사용자를 타깃팅하는 대상을 보여줍니다.
 
-![](assets/target_geo.png)
+![target_geo 이미지](assets/target_geo.png)
 
 ## 정확도 {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 

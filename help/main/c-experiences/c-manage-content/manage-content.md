@@ -4,9 +4,9 @@ description: Adobe Target에서 오퍼 라이브러리를 사용하여 코드 �
 title: 코드 및 이미지 오퍼를 관리하려면 어떻게 해야 합니까?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '563'
 ht-degree: 37%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 37%
 
 1. (선택 사항) **[!UICONTROL 유형]** 유형별로 오퍼를 필터링하는 드롭다운 목록(HTML 오퍼, [경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [리디렉션 오퍼](/help/main/c-experiences/c-manage-content/offer-redirect.md), [원격 오퍼](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md), 및 [폴더](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
-   ![](assets/offers_filter.png)
+   ![offer_filter 이미지](assets/offers_filter.png)
 
 1. (선택 사항) **[!UICONTROL 소스]** 소스(Adobe Target, Adobe Target Classic 및 Adobe Experience Manager)별로 오퍼를 필터링하는 드롭다운 목록.
 
@@ -66,7 +66,7 @@ ht-degree: 37%
 
 예를 들어 HTML 오퍼에 대한 다음 오퍼 정의 카드는 를 마우스로 가리키면 액세스할 수 있습니다 [!UICONTROL 컨텐츠] 목록을 작성한 후 정보 아이콘을 클릭합니다.
 
-![](assets/offer-card-html.png)
+![offer-card-html 이미지](assets/offer-card-html.png)
 
 다음 정보를 사용할 수 있습니다.
 
@@ -79,11 +79,11 @@ ht-degree: 37%
 
 각 오퍼의 정의 팝업 카드에서 코드 오퍼를 참조하는 활동을 보려면 [!UICONTROL 오퍼 사용량] 탭을 클릭하십시오. 이 기능은 이미지 오퍼에는 적용되지 않습니다. 오퍼를 편집할 때 이 방법으로 다른 활동에 영향을 주는 일을 피할 수 있습니다. 정보에는 다음이 포함됩니다 [!UICONTROL 라이브 활동] 및 [!UICONTROL 비활성 활동].
 
-![](assets/offer-card-usage.png)
+![오퍼 카드 사용 이미지](assets/offer-card-usage.png)
 
 다음 오퍼 정의 카드는 리디렉션 오퍼용입니다.
 
-![](assets/offer-card-redirect.png)
+![오퍼 카드 리디렉션 이미지](assets/offer-card-redirect.png)
 
 다음 정보를 사용할 수 있습니다.
 
@@ -99,7 +99,7 @@ ht-degree: 37%
 
 다음 오퍼 정의 카드는 원격 오퍼용입니다.
 
-![](assets/offer-card-remote.png)
+![오퍼 카드 원격 이미지](assets/offer-card-remote.png)
 
 다음 정보를 사용할 수 있습니다.
 

@@ -4,9 +4,9 @@ description: Adobe에서 Multivariate Testing(MVT)를 사용하는 방법을 알
 title: 다변량 테스트란?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1460'
+source-wordcount: '1462'
 ht-degree: 84%
 
 ---
@@ -27,7 +27,7 @@ A/B 테스트와 비교할 때 다변량 테스트의 이점 중 하나는 페�
 
 Target에서 각 조합은 하나의 경험입니다. 다변량 테스트는 각 경험을 비교하므로 가장 성공적인 조합을 알 수 있습니다. 이와 동시에, 데이터가 수집되어 분석되므로 각 위치와 오퍼가 성공 지표에 어떤 영향을 주는지 파악할 수 있습니다.
 
-![](assets/multivariate.png)
+![다변량 이미지](assets/multivariate.png)
 
 생성할 수 있는 조합의 수로 인해 A/B 테스트에 비해 다변량 테스트에는 더 많은 시간과 트래픽이 필요합니다. 페이지에서 충분한 트래픽을 수신해야 각 경험에 대해 통계상으로 유효한 결과를 얻을 수 있습니다. 유용한 결과를 얻으려면 페이지에 수신되는 트래픽의 양을 파악하고 필요한 결과를 얻기 위한 적절한 시간에 대해 최적의 조합 수를 테스트해야 합니다. Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)는 트래픽을 사용한 테스트를 디자인하는 데 유용합니다. 트래픽 견적 도구를 사용하기 전에, 사이트에서 일반적으로 수신하는 노출 수 및 전환 수를 보여주는 적절한 통계가 있어야 합니다. 일 단위로 트래픽 수준을 고려합니다. 활동에 경험이 많을수록 활동에 더 많은 트래픽을 포함하거나 활동을 더 오랫동안 실행해야 합니다. 트래픽 양이 아주 많지 않을 경우에는 적은 수의 조합을 테스트해야 합니다. 그렇지 않으면 의미있는 테스트 결과를 얻는 데 필요한 기간이 너무 길어 유용하지 않을 수 있습니다.
 

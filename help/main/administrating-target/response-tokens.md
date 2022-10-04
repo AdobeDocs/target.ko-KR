@@ -5,10 +5,10 @@ title: 응답 토큰이란 무엇이며 어떻게 사용합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1690'
-ht-degree: 24%
+source-wordcount: '1697'
+ht-degree: 25%
 
 ---
 
@@ -40,7 +40,7 @@ ht-degree: 24%
 
 1. in [!DNL Target]를 클릭합니다. **[!UICONTROL 관리]** > **[!UICONTROL 응답 토큰]**.
 
-   ![](assets/response_tokens-new.png)
+   ![response_tokens-new 이미지](assets/response_tokens-new.png)
 
 1. 다음과 같이 원하는 응답 토큰을 활성화합니다 `activity.id` 및 `offer.id`.
 
@@ -72,7 +72,7 @@ ht-degree: 24%
 
    클릭 **[!UICONTROL 응답 토큰 추가]**&#x200B;에서 토큰 이름을 제공한 다음, **[!UICONTROL 활성화]**.
 
-   ![](assets/response_token_create.png)
+   ![response_token_create 이미지](assets/response_token_create.png)
 
 1. 활동을 만듭니다.
 

@@ -4,9 +4,9 @@ description: 여러 대상(Adobe Experience Cloud 대상 및 [!DNL Target] 대�
 title: 여러 대상을 결합 하여 새 대상을 만들 수 있습니까?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '939'
+source-wordcount: '960'
 ht-degree: 64%
 
 ---
@@ -55,7 +55,7 @@ AND 및 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있
 
       예를 들어 앞의 예를 가정할 때 이제 결합된 대상에서 Safari 사용자도 포함시키려고 합니다. 다음 예와 같이, &quot;Safari 브라우저&quot; 대상을 검색하여 오른쪽의 &quot;Firefox 브라우저&quot; 상자로 드래그합니다.
 
-      ![](assets/combine_multiple_audiences3.png)
+      ![combined_multiple_audiences3 이미지](assets/combine_multiple_audiences3.png)
 
       두 브라우저 유형 대상 사이의 연산자는 &quot;AND&quot;입니다. 을(를) 선택합니다 [!UICONTROL 및] 드롭다운 목록을 &quot;OR&quot;로 변경하여 Firefox나 Safari 중 하나를 사용하여 새로운 방문자를 위한 새로운 결합된 대상을 만듭니다. 모든 잠재적 대상 구성원을 제외하는 규칙을 작성하지 않도록 주의하십시오. 예를 들어 고객이 Firefox와 Safari를 동시에 사용하여 페이지를 방문할 수는 없습니다.
 
@@ -65,7 +65,7 @@ AND 및 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있
 
    1. 규칙에 제외를 추가하려면 **[!UICONTROL 제외]**.
 
-      ![](assets/combine_multiple_audiences3a.png)
+      ![combined_multiple_audiences3a 이미지](assets/combine_multiple_audiences3a.png)
 
       대상자를 드래그하여 놓습니다.
 
@@ -86,12 +86,12 @@ AND 및 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있
 1.   [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만들 때 **[!UICONTROL 목표 및 설정]** 페이지에서 성공 지표에 대한 **[!UICONTROL 전환]**&#x200B;을 선택한 다음, mbox 확인함&#x200B;**[!UICONTROL 을 작업으로 선택합니다.]**
 1. **[!UICONTROL mbox 검색]** 필드에서 원하는 mbox를 선택합니다.
 
-   ![](assets/combine_multiple_audiences4.png)
+   ![combined_multiple_audiences4 이미지](assets/combine_multiple_audiences4.png)
 
 1. 톱니바퀴 아이콘을 클릭한 다음, **[!UICONTROL 대상 타깃팅 추가를 클릭합니다]**.
 1. **[!UICONTROL 대상/타깃팅 조건 추가]** 링크를 클릭하여 [!UICONTROL 대상 선택] 대화 상자를 표시합니다.
 
-   ![](assets/combine_multiple_audiences5.png)
+   ![combined_multiple_audiences5 이미지](assets/combine_multiple_audiences5.png)
 
 1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
 
@@ -101,7 +101,7 @@ AND 및 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있
 
 1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만들 때, **[!UICONTROL 목표 및 설정]** 페이지에서 **[!UICONTROL 보고 대상]** 아래의 [!UICONTROL 대상 추가] 아이콘을 클릭하여 [!UICONTROL 대상 선택] 페이지를 표시합니다.
 
-   ![](assets/combine_multiple_audiences6.png)
+   ![combined_multiple_audiences6 이미지](assets/combine_multiple_audiences6.png)
 
 1. &quot;활동을 만들 때 결합된 대상 만들기&quot;의 [2단계](/help/main/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77)로 진행하여 결합된 대상을 만듭니다.
 

@@ -4,10 +4,10 @@ description: Adobe에서 수정 사항 패널을 사용하는 방법을 알아�
 title: 내 페이지를 어떻게 수정할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2137'
-ht-degree: 91%
+source-wordcount: '2185'
+ht-degree: 89%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 91%
 
 [!UICONTROL 수정 사항] 페이지에는 VEC에서 페이지에 수행한 모든 변경 사항이 표시됩니다. 각 변경 사항은 [!UICONTROL 수정 사항] 목록에서 별도의 작업 또는 요소로 표시됩니다. 
 
-![](assets/codeeditor_page_mods.png)
+![codeeditor_page_mods 이미지](assets/codeeditor_page_mods.png)
 
 수정 사항 페이지에서 VEC를 사용하여 컨텐츠 전달 방법을 구성할 때 Target에서 선택한 선택기를 약간 변경합니다. 컨텐츠나 HTML 속성을 변경할 수 있습니다. 또한 코드를 편집하여 mbox 내의 HTML 오퍼에 해당하는 어떤 것을 생성할 수도 있습니다.
 
@@ -29,39 +29,39 @@ ht-degree: 91%
 
 * 시각적 작성기에서 수행된 작업 보기.
 
-   ![](assets/codeeditor_viewchange.png)
+   ![codeeditor_viewchange 이미지](assets/codeeditor_viewchange.png)
 
 * 기존 작업 편집. 원하는 수정 사항을 마우스로 가리킨 다음, **[!UICONTROL 편집]** 아이콘을 클릭합니다.
 
-   ![](assets/codeeditor_edit.png)
+   ![codeeditor_edit 이미지](assets/codeeditor_edit.png)
 
    변경 작업을 수행합니다.
 
-   ![](assets/codeeditor_changechange1.png)
+   ![codeeditor_changecage1 이미지](assets/codeeditor_changechange1.png)
 
 * 기존 작업 삭제. 원하는 수정 사항을 마우스로 가리킨 다음, **[!UICONTROL 삭제]** 아이콘을 클릭합니다.
 
-   ![](assets/codeditor_delete.png)
+   ![codeitor_delete 이미지](assets/codeditor_delete.png)
 
 * 새 수정 사항을 추가합니다. **[!UICONTROL 수정 사항 추가]** 또는 + 아이콘을 클릭한 다음 아래에 설명된 대로 변경 사항을 지정합니다.
 
-   ![](assets/codeeditor_new.png)
+   ![codeeditor_new 이미지](assets/codeeditor_new.png)
 
    한 개의 수정 사항이 작성되면 Target에는 패널 하단에 수정 사항 추가 단추 대신 수정 사항 패널 상단에 + 아이콘을 표시됩니다.
 
 * 수정 사항 패널을 Target UI의 측면에 세로로 또는 맨 아래에 가로로 고정합니다. [!UICONTROL 고정] 아이콘을 클릭하여 두 설정 간에 전환합니다.
 
-   ![](assets/codeditor_dock.png)
+   ![codeitor_dock 이미지](assets/codeditor_dock.png)
 
    다음 그림은 화면 맨 아래에 고정된 수정 사항 패널을 보여 줍니다.
 
-   ![](assets/codeeditor_dock_bottom.png)
+   ![codeeditor_dock_bottom 이미지](assets/codeeditor_dock_bottom.png)
 
 ## 수정 사항 추가 {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. 선택한 경험에 대한 [!UICONTROL 수정 사항] 페이지를 표시하려면 VEC에서 **[!UICONTROL 수정 사항]** &lt;/> 아이콘을 클릭합니다.
 
-   ![](assets/codeeditor_icon_big.png)
+   ![codeeditor_icon_big 이미지](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ ht-degree: 91%
 
    [!UICONTROL 수정 사항] 페이지가 열리고 왼쪽의 시각적 모드와 오른쪽의 수정 사항 패널 사이에 화면이 분할됩니다. [!UICONTROL 고정] 아이콘을 클릭하여 수정 사항 패널을 Target UI의 측면에 세로로 또는 하단에 가로로 고정할 수 있습니다. 다음 그림에 있는 경험 A에는 이전 수정 사항이 없습니다.
 
-   ![](assets/codeeditor_page.png)
+   ![codeeditor_page 이미지](assets/codeeditor_page.png)
 
    경험 B에는 오른쪽의 [!UICONTROL 수정 사항] 패널에 이전 수정 사항이 표시됩니다.
 
-   ![](assets/codeeditor_page_mods.png)
+   ![codeeditor_page_mods 이미지](assets/codeeditor_page_mods.png)
 
 1. 수정 사항을 추가하려면 다음을 수행하십시오.
 
@@ -82,7 +82,7 @@ ht-degree: 91%
 
    수정 패널에 표시되는 정보는 다음과 같습니다.
 
-   ![](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add 이미지](assets/codeeditor_page_mods_add.png)
 
 1. **[!UICONTROL 수정 유형]** 드롭다운 목록에서 원하는 유형을 선택합니다.
 
@@ -104,7 +104,7 @@ ht-degree: 91%
 
 사용자 지정 코드 패널은 일반적으로 페이지의 맨 위에 JavaScript나 CSS를 추가하는 데 사용됩니다.
 
-![](assets/codeeditor_custom.png)
+![codeeditor_custom 이미지](assets/codeeditor_custom.png)
 
 다음 작업을 수행하려면 **[!UICONTROL 사용자 지정 코드]** 탭을 사용하십시오.
 
@@ -215,7 +215,7 @@ Target은 &quot;CDQID&quot; 값을 사용하는 새 요소 ID를 Target으로 �
 
 찾아보기 모드를 사용하여 누락된 선택기에 도달할 수 있습니다. 경고 메시지에 표시된 대로 컨텐츠가 기대한 것처럼 보이도록 하려면 각 경험을 삭제하고 다시 만드는 것이 좋습니다.
 
-![](assets/code_editor_2.png)
+![code_editor_2 이미지](assets/code_editor_2.png)
 
 ***요소를 삭제할 때 &quot;이 작업을 삭제하면 후속 작업에 영향을 줄 수 있습니다&quot;라는 경고가 표시됩니다. 어떤 의미입니까?***
 

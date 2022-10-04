@@ -4,10 +4,10 @@ description: Adobe Target에서 일반적인 마케터의 사용 사례를 실�
 title: Target에서 사용할 수 있는 경험 템플릿은 무엇입니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 79%
+source-wordcount: '493'
+ht-degree: 77%
 
 ---
 
@@ -23,46 +23,46 @@ ht-degree: 79%
 
 [썸네일을 포함하는 배너 캐러셀 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)은 순환 캐러셀이며, 일반적으로 홈 페이지 및 랜딩 페이지나 기타 대량 입력 페이지에서 사용됩니다. 이 캐러셀에서는 이미지를 통해 자동으로 회전하지 않으며 기본 이미지 아래의 작은 이미지를 클릭하여 직접 상호 작용할 수 있습니다.
 
-![](assets/exp-template-banner-carousel-thumbnails.png)
+![exp-template-banner-회전판-축소판 이미지](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## 배너 캐러셀 {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 
 [배너 캐러셀 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel)은 순환 캐러셀이며, 일반적으로 홈페이지 및 랜딩 페이지나 기타 대량 입력 페이지에서 사용됩니다.다. 이 캐러셀에서는 이미지가 자동으로 번갈아 표시되지 않으며, 왼쪽 및 오른쪽 화살표를 클릭하여 직접 캐러셀과 상호 작용할 수 있습니다.
 
-![](assets/exp-template-banner-carousel.png)
+![exp-template-banner-carousel 이미지](assets/exp-template-banner-carousel.png)
 
 ## 배너 카운트다운 {#section_ED9501FE096C4CD7B6D9933E0322B4AD}
 
 [배너 카운트다운 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-countdown)은 중앙 카운트다운이 있는 대형 배너이며, 일반적으로 홈페이지 및 랜딩 페이지나 기타 대량 입력 페이지에서 사용됩니다.
 
-![](assets/exp-template-banner-countdown.png)
+![exp-template-banner-countdown 이미지](assets/exp-template-banner-countdown.png)
 
 ## 단추 빌더 {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
 [단추 빌더 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button)은 클릭 유도 문안이 있는 작은 단추입니다. 단추는 구성 가능하며 페이지의 어느 곳에나 배치하여 새로운 클릭 유도 문안을 추가하거나 기존 단추를 보다 구성 가능한 대안으로 교체할 수 있습니다.
 
-![](assets/exp-template-button-builder.png)
+![exp-template-button-builder 이미지](assets/exp-template-button-builder.png)
 
 ## 카운트다운이 있는 Lightbox {#section_E1177C52F1294EA5AC48312727CD3DF4}
 
 [카운트다운이 있는 Lightbox 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-countdown)은 중앙 카운트다운이 있는 lightbox 오버레이 팝업이며, 일반적으로 홈페이지 및 랜딩 페이지나 기타 대량 입력 페이지에서 사용됩니다.
 
-![](assets/exp-template-lightbox-countdown.png)
+![exp-template-lightbox-countdown 이미지](assets/exp-template-lightbox-countdown.png)
 
 ## Exit Intent가 있는 Lightbox {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
 [Exit Intent가 있는 Lightbox 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)은 Exit Intent에서 트리거되는 Lightbox 오버레이 팝업(마우스를 화면 오른쪽 상단으로 이동)이며 마지막으로 주의를 끌기를 원하는 웹 속성에 배치할 수 있습니다.
 
-![](assets/exp-template-lightbox-exit.png)
+![exp-template-lightbox-exit 이미지](assets/exp-template-lightbox-exit.png)
 
 ## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
 [Lightbox 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)은 지연이 기본 제공되는 Lightbox 오버레이 팝업이며, 일반적으로 홈페이지 및 랜딩 페이지나 기타 대량 시작 페이지에서 사용됩니다.
 
-![](assets/exp-template-lightbox.png)
+![exp-template-lightbox 이미지](assets/exp-template-lightbox.png)
 
 ## 리본 {#section_CCBB656265F140AEA1B200409D719000}
 
 [리본 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/ribbon)은 웹 페이지의 맨 위에 삽입되는 100% 너비의 리본이며, 일반적으로 반짝 판매, 무료 배송, 안전 또는 날씨 이벤트 등과 같은 중요한 알림을 표시하는 데 사용됩니다.
 
-![](assets/exp-template-ribbon.png)
+![exp-template-ribbon 이미지](assets/exp-template-ribbon.png)

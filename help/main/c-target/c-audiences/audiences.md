@@ -4,9 +4,9 @@ description: 에서 대상을 사용하는 방법을 알아봅니다. [!DNL Adob
 title: 대상 목록을 사용하려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1505'
 ht-degree: 23%
 
 ---
@@ -86,7 +86,7 @@ ht-degree: 23%
 
 대상이 인 경우 [다른 대상과의 결합](/help/main/c-target/combining-multiple-audiences.md) 결합된 대상은 활동을 만드는 데 사용됩니다. 두 대상에 대한 사용 정보는 새로 생성된 활동을 나열합니다.
 
-![](assets/audience_definition_list_usage.png)
+![audience_definition_list_usage 이미지](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 

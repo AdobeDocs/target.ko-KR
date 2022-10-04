@@ -4,9 +4,9 @@ description: 활동에 가장 적합한 권장 사항을 표시하도록 Adobe R
 title: Recommendations에서 기준을 만들려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2843'
 ht-degree: 52%
 
 ---
@@ -184,7 +184,7 @@ ht-degree: 52%
 
 선택 시 **[!UICONTROL 항목 기반]**/ **[!UICONTROL 비슷한 속성을 갖는 미디어]**&#x200B;권장 사항을 결정할 때 특정 항목 속성의 중요도를 늘리거나 줄이는 규칙을 만드는 선택 사항이 있습니다. 서적과 같은 항목의 경우 *장르*, *저자*, *시리즈*&#x200B;와 같은 속성의 중요도를 높여 비슷한 서적을 권장할 수 있습니다.
 
-![](assets/ContentSimilarity.png)
+![콘텐츠 유사성 이미지](assets/ContentSimilarity.png)
 
 콘텐츠 유사성은 키워드를 사용하여 항목을 비교하므로 일부 속성(예: *메시지* 또는 *설명*)이 비교에 &quot;영향&quot;을 줄 수 있습니다. 이러한 속성을 무시하는 규칙을 만들 수 있습니다.
 
@@ -224,7 +224,7 @@ ht-degree: 52%
 1. 추천할 제품에 대한 최소 재고량을 설정합니다.
 1. 특정 기준을 충족할 때만 항목을 표시하도록 권장 사항을 구성합니다.
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Recs_IncludeRules 이미지](assets/Recs_InclusionRules.png)
 
    목록의 속성 중 하나가 충족되거나 하나 이상의 지정된 조건과 일치하지 않을 때만 항목이 포함되도록 지정할 수 있습니다.
 
@@ -254,7 +254,7 @@ ht-degree: 52%
 
    예를 들어 전체 규칙은 &quot;카테고리에 하위 문자열 신발 포함&quot;일 수 있습니다.
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Recs_Attribute가중치 이미지](assets/Recs_AttributeWeighting.png)
 
 1. 규칙에 지정할 가중치를 선택합니다.
 

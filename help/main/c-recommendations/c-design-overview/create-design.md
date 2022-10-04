@@ -4,9 +4,9 @@ description: Adobe 만들기 방법 알아보기 [!DNL Target] Recommendations�
 title: Recommendations에서 디자인을 만들려면 어떻게 해야 합니까?
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1029'
 ht-degree: 30%
 
 ---
@@ -46,11 +46,11 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 1. 만들려는 디자인에 대한 카드 위로 마우스를 가져간 다음 **[!UICONTROL 복사]** 아이콘.
 
-   ![](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign 이미지](assets/Card_CopyDesign.png)
 
    다음 [!UICONTROL 디자인 만들기] 대화 상자가 표시됩니다.
 
-   ![](assets/createDesign.png)
+   ![createDesign 이미지](assets/createDesign.png)
 
 1. 에서 **[!UICONTROL 정보]** 패널, 추가 **[!UICONTROL 컨텐츠 이름]** 디자인 카드에 표시할 선택적 미리 보기 이미지입니다.
 
@@ -104,7 +104,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 1. &quot;HTML 디자인&quot; 선택 사항이 꺼져 있는지 확인합니다.
 
-   ![](assets/html_design_toggle.png)
+   ![html_design_toggle 이미지](assets/html_design_toggle.png)
 
 1. 다음 코드는 디자인에 붙여넣을 수 있는 예제입니다.
 
@@ -169,7 +169,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 알고리즘이 실행되고 결과가 나오면, 응답은 다음과 같은 모습이어야 합니다.
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommendation 이미지](assets/json_recommendation.png){width=&quot;575px&quot;}
 
 ## 추가 JSON 개체 팁과 트릭 {#section_C305673C68944749969DB239E3221DC2}
 

@@ -4,10 +4,10 @@ description: Adobe의 MVT(다변량 테스트) 활동에서 각 경험을 미리
 title: MVT(다변량 테스트)에 대한 경험을 미리 보는 방법
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 68%
 
    모든 경험 목록이 표시됩니다.
 
-   ![](assets/preview.png)
+   ![미리 보기 이미지](assets/preview.png)
 
 1. 목록에서 경험을 클릭하여 해당 경험을 봅니다.
 

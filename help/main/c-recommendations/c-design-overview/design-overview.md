@@ -4,9 +4,9 @@ description: Adobe에서 디자인을 사용하는 방법 알아보기 [!DNL Tar
 title: Recommendations에서 디자인을 어떻게 사용합니까?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '200'
 ht-degree: 24%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 24%
 
 [!DNL Target] 는 다음 그림과 같이 권장 사항의 전체 모양과 느낌을 제공할 수 있습니다. 디자인은 HTML, JavaScript 및 CSS를 포함할 수 있습니다. 이 디자인을 4 x 1 디자인이라고 합니다. 한 행에 네 개의 공백.
 
-![](assets/velocity_example.png)
+![velocity_example 이미지](assets/velocity_example.png)
 
 또한 Target은 이메일 메시지, IoT(사물인터넷) 장치, 콘솔 또는 음성 사용 사례(Amazon Alexa 또는 Google Home)에서 사용할 수 있는 JSON 개체로서 권장 사항을 전송할 수도 있습니다.
 

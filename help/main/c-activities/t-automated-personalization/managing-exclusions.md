@@ -5,10 +5,10 @@ title: Automated Personalization 활동에서 제외를 관리하려면 어떻�
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 90%
+source-wordcount: '1001'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    [!UICONTROL 콘텐츠 관리]에서 지정한 오퍼에서 생성된 경험을 확인할 수 있습니다. 제외된 기본 오퍼를 사용하여 [!UICONTROL 콘텐츠 관리]에 생성된 경험은 없습니다.
 
-   ![](assets/exclude_content_vec_4.png)
+   ![exclude_content_vec_4 이미지](assets/exclude_content_vec_4.png)
 
 **양식 기반 경험 작성기를 사용하여 기본 콘텐츠를 제외하려면 다음을 수행하십시오.**
 
@@ -130,14 +130,14 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
    Text/HTML 콘텐츠의 경우:
 
-   ![](assets/exclude_content_form_1.png)
+   ![exclude_content_form_1 이미지](assets/exclude_content_form_1.png)
 
    이미지/비디오 콘텐츠의 경우:
 
-   ![](assets/exclude_content_form_2.png)
+   ![exclude_content_form_2 이미지](assets/exclude_content_form_2.png)
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
    [!UICONTROL 콘텐츠 관리]에서 지정한 오퍼에서 생성된 경험을 확인할 수 있습니다. 제외된 기본 오퍼를 사용하여 [!UICONTROL 콘텐츠 관리]에 생성된 경험은 없습니다.
 
-   ![](assets/exclude_content_form_3.png)
+   ![exclude_content_form_3 이미지](assets/exclude_content_form_3.png)

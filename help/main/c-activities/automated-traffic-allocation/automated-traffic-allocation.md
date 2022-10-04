@@ -4,9 +4,9 @@ description: Adobe에서 자동 할당 활동을 사용하는 방법을 알아�
 title: 자동 할당 활동이란 무엇입니까?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3570'
 ht-degree: 50%
 
 ---
@@ -66,7 +66,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 다음 그림은 네 가지 경험으로 테스트하는 동안 알고리즘이 어떻게 수행될 수 있는지를 나타냅니다.
 
-![](assets/auto-allocate.png)
+![이미지 자동 할당](assets/auto-allocate.png)
 
 그림에서는 분명한 승자가 결정되기 전까지 각 경험에 할당된 트래픽이 활동 라이프타임의 몇 개 라운드 동안 어떻게 진행되는지를 보여줍니다.
 

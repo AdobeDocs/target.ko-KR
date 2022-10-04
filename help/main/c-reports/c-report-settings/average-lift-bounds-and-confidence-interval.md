@@ -4,10 +4,10 @@ description: Adobe 해석 방법 알아보기 [!DNL Target] 활동의 상승도 
 title: 평균 상승도, 상승도 한계 및 신뢰 구간을 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 62%
+source-wordcount: '911'
+ht-degree: 60%
 
 ---
 
@@ -57,18 +57,18 @@ ht-degree: 62%
 
 상승도 한계는 다음 공식을 사용하여 계산됩니다.
 
-![](assets/lift_diagram.png)
+![lift_diagram 이미지](assets/lift_diagram.png)
 
 상승도 한계에 대한 입력에 도달하는 몇 가지 추가 계산이 있습니다.
 
 * **t 값:** 95% 신뢰 수준에 대한 중요 통계는 1.96.입니다. [여기서 t 값](https://en.wikipedia.org/wiki/T-statistic)에 대해 자세히 알 수 있습니다.
 * **상승도 분산:**&#x200B;상승도 분산을 결정하려면 경험 N의 성공 지표에 대한 표준 오차와 통제 경험의 성공 지표에 대한 표준 오차가 있어야 합니다. 상승도 분산은 다음 공식을 사용하여 계산됩니다(성공 지표가 전환인 경우가 설명됨).
 
-   ![](assets/lift_variance.png)
+   ![lift_variance 이미지](assets/lift_variance.png)
 
 * **전환율 / 성공 지표 표준 오차:**&#x200B;다음 공식을 사용하여 경험 N 및 통제 경험에 대해 동일한 방식으로 표준 오차가 계산됩니다(성공 지표가 전환인 경우가 설명됨). [여기서 표준 오차](https://en.wikipedia.org/wiki/Standard_error)에 대해 자세히 알 수 있습니다.
 
-   ![](assets/standard_error.png)
+   ![standard_error 이미지](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ ht-degree: 62%
 
 **경험 A(통제)에 대한 표준 오차**
 
-![](assets/standard_error_A.png)
+![standard_error_A 이미지](assets/standard_error_A.png)
 
 **경험 B에 대한 표준 오차**
 
-![](assets/standard_error_B.png)
+![standard_error_B 이미지](assets/standard_error_B.png)
 
 **경험 B에 대한 상승도 분산**
 
-![](assets/lift_variance_B.png)
+![lift_variance_B 이미지](assets/lift_variance_B.png)
 
 **경험 B에 대한 상승도 한계**
 
 경험 B에 대한 예상 상승도:
 
-![](assets/lift_bounds_B.png)
+![lift_bounds_B 이미지](assets/lift_bounds_B.png)
 
 따라서 경험 B의 상승도 한계는 다음과 같습니다.
 
-![](assets/lift_bounds_B2.png)
+![lift_bounds_B2 이미지](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

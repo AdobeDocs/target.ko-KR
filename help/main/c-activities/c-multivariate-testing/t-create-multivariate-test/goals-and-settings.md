@@ -4,10 +4,10 @@ description: Adobe에서 목표 및 설정 페이지를 사용하는 방법을 �
 title: MVT(다변량 테스트) 활동에서 목표 및 설정을 지정하려면 어떻게 합니까?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 91%
+source-wordcount: '1282'
+ht-degree: 90%
 
 ---
 
@@ -21,7 +21,7 @@ Adobe Target의 목표 및 설정 페이지에서 목표 정보를 입력할 수
 
 사용 가능한 설정은 Target 또는 Analytics를 데이터 소스로 사용하는지에 따라 다릅니다.
 
-![](assets/mvt_settings.png)
+![mvt_settings 이미지](assets/mvt_settings.png)
 
 ## 활동 설정 {#section_DCBDC354261F420EBD4B43EA34947BAC}
 

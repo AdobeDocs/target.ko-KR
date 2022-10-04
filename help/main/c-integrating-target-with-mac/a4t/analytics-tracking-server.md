@@ -1,12 +1,12 @@
 ---
 keywords: analytics 추적 서버;A4T;Adobe Experience Cloud 디버거;Adobe Experience Platform 디버거;보고 소스;개발자 도구
-description: 'Analytics를 사용하는 활동에 대해 Analytics 추적 서버를 지정하는 방법을 알아봅니다. [!DNL Target] (A4T) 이전 버전의 at.js를 사용하는 경우 '
+description: Analytics를 사용하는 활동에 대해 Analytics 추적 서버를 지정하는 방법을 알아봅니다. [!DNL Target] (A4T) 이전 버전의 at.js를 사용하는 경우
 title: Analytics 추적 서버를 어떻게 사용합니까?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '686'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ at.js의 이전 버전을 사용하는 경우 다음을 지정해야 합니다 [
 
 1. 클릭 **[!UICONTROL Analytics]** 를 클릭합니다.
 
-   ![](assets/Screen_DebuggerTrackServ.png)
+   ![Screen_DebuggerTrackServ 이미지](assets/Screen_DebuggerTrackServ.png)
 
    다음 [!DNL Analytics] 추적 서버는 [!UICONTROL 호스트 이름] 섹션에 있는 마지막 항목이 될 필요가 없습니다.
 

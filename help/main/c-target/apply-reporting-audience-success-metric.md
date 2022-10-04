@@ -4,10 +4,10 @@ description: 에서 성공 지표를 선택하는 방법을 알아봅니다 [!DN
 title: 성공 지표에 보고 대상을 적용할 수 있습니까?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 54%
+source-wordcount: '301'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 54%
 
 [!UICONTROL 적용 대상] 드롭다운 목록을 사용하면 모든 활동에서 대상을 성공 지표에 적용하여 성공 지표에 도달한 후 및 그 이후의 작업에서 보고된 수치를 확인할 수 있습니다.
 
-![](assets/success_metric.png)
+![success_metric 이미지](assets/success_metric.png)
 
 예를 들어, 홈 페이지에서 들어가서 전환 페이지에 도달하는 모든 방문자를 위한 활동을 만들었지만, 전환하기 전에 50달러 이상을 장바구니에 추가한 방문자를 더 자세히 드릴다운하고 싶은 경우를 가정할 수 있습니다.
 
@@ -32,4 +32,4 @@ ht-degree: 54%
 
 보고에서 세그멘테이션을 보려면 [!UICONTROL Audience] 활동의 보고서에 있는 드롭다운 목록입니다.
 
-![](assets/reporting_audience_dropdown.png)
+![reporting_audience_dropdown 이미지](assets/reporting_audience_dropdown.png)

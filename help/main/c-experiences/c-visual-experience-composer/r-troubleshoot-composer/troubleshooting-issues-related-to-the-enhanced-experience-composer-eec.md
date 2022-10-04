@@ -4,10 +4,10 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법을 �
 title: 고급 경험 작성기 관련 문제는 어떻게 해결합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 42%
+source-wordcount: '469'
+ht-degree: 39%
 
 ---
 
@@ -35,7 +35,7 @@ IT 팀에 다음 IP 주소허용 목록에 추가하다를 지정하도록 요�
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![](assets/EEC_error.png)
+![EEC_error 이미지](assets/EEC_error.png)
 
 다음은 이 오류 메시지와 상황을 수정할 조치를 볼 수 있는 이유입니다.
 
@@ -56,17 +56,17 @@ Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음
 1. Firefox에서 해당 웹 사이트를 엽니다.
 1. 브라우저의 주소 표시줄에 **[!UICONTROL 사이트 정보 표시]** 아이콘을 클릭합니다.
 
-   ![](assets/firefox_more_info.png)
+   ![firefox_more_info 이미지](assets/firefox_more_info.png)
 
 1. **[!UICONTROL 연결 세부 사항 표시]** > **[!UICONTROL 추가 정보]**&#x200B;를 클릭하십시오.
 
-   ![](assets/firefox_more_info_2.png)
+   ![firefox_more_info_2 이미지](assets/firefox_more_info_2.png)
 
 1. 기술 세부 사항 아래의 TLS 버전 정보를 검토하십시오.
 
-   ![](assets/firefox_more_info_3.png)
+   ![firefox_more_info_3 이미지](assets/firefox_more_info_3.png)
 
-1. 웹 사이트에 TLS 1.0이 표시되는 경우에는 [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)Target의 TLS 지원 정책에 대한 자세한 내용은 {target=_blank} 를 참조하십시오. 현재(2018년 9월 12일까지 유효){target=_blank}의 상황을 해결하기 위해 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 를 사용하도록 선택할 수 있습니다.
+1. 웹 사이트에서 TLS 1.0을 표시하는 경우 다음을 참조하십시오 [TLS(전송 계층 보안) 암호화 변경 사항](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)Target의 TLS 지원 정책에 대한 자세한 내용은 {target=_blank} 를 참조하십시오. 현재(2018년 9월 12일까지 유효){target=_blank}의 상황을 해결하기 위해 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 를 사용하도록 선택할 수 있습니다.
 
 ## 프록시가 활성화된 로드할 때 시간 초과 또는 &quot;액세스 거부&quot; 오류가 표시됩니다. (EEC만 해당) {#section_60CBB9022DC449F593606C0E6252302D}
 

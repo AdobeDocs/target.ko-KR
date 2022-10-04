@@ -4,10 +4,10 @@ description: Adobe에서 동일한 경험의 버전을 다른 대상에 타깃�
 title: A/B 활동에서 여러 경험 버전을 사용할 수 있습니까?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 91%
+source-wordcount: '599'
+ht-degree: 90%
 
 ---
 
@@ -39,7 +39,7 @@ ht-degree: 91%
 
 1. **[!UICONTROL 대상 추가]**&#x200B;를 클릭한 후 타깃팅할 첫 번째 대상을 선택합니다. 각 대상에 대해 이 작업을 반복합니다.
 
-   ![](assets/exp-versions.png)
+   ![exp 버전 이미지](assets/exp-versions.png)
 
    대상이 아직 존재하지 않는 경우 [대상 만들기](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
 

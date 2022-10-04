@@ -4,9 +4,9 @@ description: Adobe에서 원격 오퍼를 사용하는 방법을 알아봅니다
 title: 원격 오퍼를 만들려면 어떻게 해야 합니까?
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1081'
+source-wordcount: '1085'
 ht-degree: 47%
 
 ---
@@ -140,7 +140,7 @@ ht-degree: 47%
 
 페이지를 렌더링한 후 오퍼가 실행됩니다. 보이지 않는 iframe은 데이터를 수집하여 프레임에서 복사한 다음 페이지에 삽입하여 전달된 값을 로드합니다.
 
-![](assets/remote_offer_howitworks_2.jpeg)
+![remote_offer_howworks_2 이미지](assets/remote_offer_howitworks_2.jpeg)
 
 ## 원격 오퍼 선택 표 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 

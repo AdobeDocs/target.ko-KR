@@ -4,10 +4,10 @@ description: Adobe에서 URL로 리디렉션 옵션을 사용하는 방법을 �
 title: 페이지를 다른 URL로 리디렉션할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 84%
+source-wordcount: '440'
+ht-degree: 80%
 
 ---
 
@@ -31,9 +31,9 @@ ht-degree: 84%
 리디렉션 오퍼를 만들려면:
 
 1. 경험을 만듭니다.
-1. 마우스를 경험으로 가져간 후 URL로 리디렉션 아이콘(![](assets/icon_redirect_url.png))을 클릭합니다.
+1. 마우스를 경험으로 가져간 후 URL로 리디렉션 아이콘(![icon_redirect_url 이미지](assets/icon_redirect_url.png)).
 
-   ![](assets/exp_actions.png)
+   ![exp_actions 이미지](assets/exp_actions.png)
 
 1. URL을 입력합니다.
 1. 원할 경우 현재 쿼리 매개 변수를 포함하는 옵션을 선택합니다.

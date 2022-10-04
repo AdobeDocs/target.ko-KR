@@ -5,10 +5,10 @@ title: 사용자 지정 엔티티 속성을 어떻게 사용합니까?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 88%
+source-wordcount: '1411'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ ht-degree: 88%
 
 사용자 지정 엔티티 속성은 단일 값 또는 다중 값을 포함할 수 있습니다. 엔티티 속성 값은 제품 보기에 표시됩니다.
 
-![](assets/multi-value_product.png)
+![multi-value_product 이미지](assets/multi-value_product.png)
 
 단일 값을 사용하는 사용자 지정 엔티티 속성은 단일 값 사전 정의 엔티티 속성과 동일한 방식으로 형성됩니다.
 
@@ -93,11 +93,11 @@ function targetPageParams() {
 
 원시 CSV의 모습은 다음과 유사합니다.
 
-![](assets/multi-value_example_raw.png)
+![multi-value_example_raw 이미지](assets/multi-value_example_raw.png)
 
 동일한 카탈로그를 스프레드시트에서 볼 때는 다음과 같습니다.
 
-![](assets/multi-value_example_excel.png)
+![multi-value_example_excel 이미지](assets/multi-value_example_excel.png)
 
 .csv 형식으로 변환할 때 스프레드시트 소프트웨어는 셀 컨텐츠 둘레에 큰 따옴표를 추가하여 셀 내의 쉼표가 셀 구분 기호로 작동하지 않도록 합니다. 또한 사용자 지정 다중 값 속성에 포함하는 JSON 문자열 값의 둘레에도 큰 따옴표를 추가합니다. 이는 원시 파일에서 바로 작업하는 것을 불편하게 할 수 있습니다. 예:
 

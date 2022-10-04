@@ -4,10 +4,10 @@ description: Adobe에서 A/B 자동 할당 활동의 결과를 해석하는 방�
 title: 자동 할당 보고서를 어떻게 해석합니까?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 45%
+source-wordcount: '1235'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 45%
 
 명백한 승자를 선언할 때에는 [!DNL Target]에 &quot;우승자: 경험 X&quot;라고 표시됩니다.
 
-![](assets/winner.png)
+![승자 이미지](assets/winner.png)
 
 >[!NOTE]
 >

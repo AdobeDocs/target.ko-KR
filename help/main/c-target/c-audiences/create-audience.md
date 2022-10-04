@@ -4,9 +4,9 @@ description: 사용자 지정된 대상을 만들고 [!DNL Adobe Target] [!UICON
 title: 대상을 만들려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 61%
 
 ---
@@ -37,7 +37,7 @@ ht-degree: 61%
 
 1. 위쪽 메뉴 막대에서 **[!UICONTROL 대상]**&#x200B;을 클릭합니다.
 
-   ![](assets/audiences_list.png)
+   ![audience_list 이미지](assets/audiences_list.png)
 
 1. 에서 [!UICONTROL 대상] 목록, **[!UICONTROL 대상 만들기]**.
 

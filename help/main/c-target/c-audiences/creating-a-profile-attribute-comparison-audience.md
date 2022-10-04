@@ -4,10 +4,10 @@ description: 두 프로필 속성을 비교할 대상을 정의하는 방법을 
 title: 대상에서 사용할 두 프로필 속성을 비교할 수 있습니까?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 52%
+source-wordcount: '431'
+ht-degree: 53%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 52%
 
 1. 초기 속성과 비교할 추가 속성을 선택합니다.
 
-   ![](assets/propensity_score_4.png)
+   ![transmistence_score_4 이미지](assets/propensity_score_4.png)
 
 1. **[!UICONTROL 완료를 클릭합니다]**.
 

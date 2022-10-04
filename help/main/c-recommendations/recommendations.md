@@ -4,10 +4,10 @@ description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 
 title: ' [!DNL Target]  Recommendations이란 무엇입니까?'
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 
 다음 그림은 웹 페이지에 권장 사항을 보여 줍니다.
 
-![](assets/velocity_example.png)
+![velocity_example 이미지](assets/velocity_example.png)
 
 권장 사항은 사이트에서의 방문자의 활동에 따라 방문자에게 제품을 제안하는 방법을 결정합니다. 예:
 

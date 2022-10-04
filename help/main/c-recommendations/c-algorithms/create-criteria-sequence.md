@@ -4,9 +4,9 @@ description: 최대 5개의 기준 시퀀스를 설정하여 Adobe에 표시되�
 title: Recommendations에서 기준 시퀀스를 만들려면 어떻게 해야 합니까?
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '835'
 ht-degree: 34%
 
 ---
@@ -46,7 +46,7 @@ ht-degree: 34%
 
 1. 클릭 **[!UICONTROL 기준 만들기]** > **[!UICONTROL 기준 시퀀스 만들기]**.
 
-   ![](assets/CreateCriteriaSequence.png)
+   ![CreateCriteriaSequence 이미지](assets/CreateCriteriaSequence.png)
 
 1. 정보를 [기본 정보](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info) 섹션을 참조하십시오.
 

@@ -4,10 +4,10 @@ description: 에서 대상을 만드는 방법을 알아봅니다 [!DNL Adobe Ta
 title: 특정 프로필 매개 변수를 충족하는 Target을 제공할 수 있습니까?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 47%
+source-wordcount: '251'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 47%
 
 1. **[!UICONTROL 선택]**&#x200B;을 클릭한 후, 다음 선택 사항 중 하나를 선택합니다.
 
-   ![](assets/target_visitor_profile.png)
+   ![target_visitor_profile 이미지](assets/target_visitor_profile.png)
 
    방문자 프로필 매개 변수는 mbox(프로필)를 통해 전달됩니다. 새 방문자 또는 재방문자를 대상으로 지정하거나 모든 사용자를 포함할 수 있습니다.
 

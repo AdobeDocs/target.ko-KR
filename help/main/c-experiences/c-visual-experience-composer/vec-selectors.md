@@ -1,13 +1,13 @@
 ---
 keywords: 경험 타깃팅;랜딩 페이지 테스트
-description: '요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다. Adobe에서 요소 선택기를 사용하는 방법을 알아봅니다 [!DNL Target] VEC(시각적 경험 작성기) '
+description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다. Adobe에서 요소 선택기를 사용하는 방법을 알아봅니다 [!DNL Target] VEC(시각적 경험 작성기)
 title: VEC(시각적 경험 작성기)에서 요소 선택기를 사용할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 80%
+source-wordcount: '429'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ MDN(Mozilla Developer Network)의 [Selectors](https://developer.mozilla.org/en-U
 
 계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. 클릭 **[!UICONTROL 관리 > 시각적 경험 작성기]**&#x200B;을 선택한 다음 선호하는 CSS 선택기를 선택합니다.
 
-![](assets/css_selectors.png)
+![css_selectors 이미지](assets/css_selectors.png)
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ description: Adobe의 캡처 점수 참여 지표에 대해 알아봅니다 [!DN
 title: 캡처 점수 지표란?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 48%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 48%
 
 다음 예에서는 고양이 이미지가 있는 경험과 개 이미지가 있는 경험 등 두 가지 경험을 테스트하는 캠페인에서 점수 참여가 계산되는 방식을 보여 줍니다.
 
-![](assets/example_score.png)
+![example_score 이미지](assets/example_score.png)
 
 이 예제에서는 첫 번째 방문자가 고양이를 경험합니다. 글로벌 [!DNL Target] 요청은 페이지의 값에 따라 페이지 점수를 전달합니다. 마케터가 와 연결된 성공 지표에서 페이지 수 계산 참여를 캡처한 경우, `**any Target request**`를 검색하는 경우, 고양이 이미지를 둘러싼 디스플레이 요청 후 표시되는 모든 요청에 대해 방문 점수가 누적됩니다.
 
@@ -25,7 +25,7 @@ ht-degree: 48%
 
 다음 페이지 흐름에 설명된 대로 adbox와 리디렉터를 전달하여 획득 비용 및 제휴 링크 매출을 고려할 수 있습니다. 이 예에서 [!DNL Target] 문서 페이지의 요청은 점수를 전달하며, 알려진 CPM을 나타낼 수 있습니다.
 
-![](assets/example_score2.png)
+![example_score2 이미지](assets/example_score2.png)
 
 ## 페이지 점수 할당
 

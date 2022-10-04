@@ -4,10 +4,10 @@ description: Adobe에서 VEC(시각적 경험 작성기)를 사용하는 방법�
 title: 다변량 테스트를 만들려면 어떻게 합니까?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 88%
+source-wordcount: '570'
+ht-degree: 87%
 
 ---
 
@@ -88,11 +88,11 @@ ht-degree: 88%
 
    다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
 
-   ![](assets/estimator.png)
+   ![견적 도구 이미지](assets/estimator.png)
 
    다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
 
-   ![](assets/estimator2.png)
+   ![견적 도구2 이미지](assets/estimator2.png)
 
 1. 이 **[!UICONTROL 다음]**&#x200B;을 클릭하여 [!UICONTROL 타깃팅] 페이지로 이동합니다.
 

@@ -4,9 +4,9 @@ description: Adobe에서 JSON 오퍼를 만드는 방법을 알아봅니다 [!DN
 title: JSON 오퍼를 만들려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '541'
 ht-degree: 38%
 
 ---
@@ -36,7 +36,7 @@ JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시
 
 1. **[!UICONTROL 만들기]** > **[!UICONTROL JSON 오퍼]**&#x200B;를 클릭합니다.
 
-   ![](assets/offer-json.png)
+   ![offer-json 이미지](assets/offer-json.png)
 
 1. 오퍼 이름을 입력합니다.
 1. **[!UICONTROL 코드]** 상자에 JSON 코드를 입력하거나 붙여 넣습니다.
@@ -137,7 +137,7 @@ adobe.target.getOffer({
 
 샘플 사용 사례: 온라인 마케터로서 Grace는 실시간 개인화를 제공하기 위해 AEP/Unified Profile이 속성 값을 Target과 공유하려고 합니다. Grace는 실시간 CDP 프로필 속성을 사용하여 토큰 대체를 사용하여 Target 오퍼에 AEP 속성 값을 표시할 수 있습니다. 예를 들어 고객이 좋아하는 색상으로 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
 
-![](assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute 이미지](assets/offer-json-aep-shared-attribute.png)
 
 위에 표시된 예에서 기본값을 할당하는 것은 선택 사항입니다.
 
@@ -145,4 +145,4 @@ adobe.target.getOffer({
 
 을(를) 필터링할 수 있습니다 [!UICONTROL 오퍼] 라이브러리 를 클릭한 다음 **[!UICONTROL 유형]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL JSON]** 확인란을 선택합니다.
 
-![](assets/offer-json-filter.png)
+![offer-json-filter 이미지](assets/offer-json-filter.png)

@@ -4,10 +4,10 @@ description: 시작 및 종료 날짜 및 시간을 사용하여 특정 기간 �
 title: 특정 시간에 사이트를 방문하는 방문자를 Target 할 수 있습니까?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 45%
+source-wordcount: '428'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 45%
 1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
 1. 드래그 앤 드롭 **[!UICONTROL 시간대]** 를 audience builder 창으로 엽니다.
 
-   ![](assets/target_timeframe_dialog.png)
+   ![target_term_dialog 이미지](assets/target_timeframe_dialog.png)
 
 1. 을(를) 지정합니다. [!UICONTROL 시작] 및 [!UICONTROL 종료] 대상자의 날짜 및 시간.
 

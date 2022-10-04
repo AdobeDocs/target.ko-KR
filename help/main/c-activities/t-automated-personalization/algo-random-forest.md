@@ -4,10 +4,10 @@ description: Adobe 방법 알아보기 [!DNL Target] Automated Personalization(A
 title: 방법 [!DNL Target] Random Forest 알고리즘 사용?
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 95%
+source-wordcount: '1427'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +34,13 @@ Random Forest 알고리즘은 자동화된 개인화와 자동 타겟 활동에�
 
 이 작업으로 의사 결정 트리의 첫 번째 계층이 생성됩니다.
 
-![](assets/decsion_tree_1.png)
+![decsion_tree_1 이미지](assets/decsion_tree_1.png)
 
 의사 결정 트리는 &quot;가장 예측 가능한 변수란 무엇입니까?&quot;라는 질문을 합니다. 이 예에는 두 개의 변수만 있으므로 여기에서 답변은 명확하게 성별입니다. 이제 트리는 유사한 연습을 완료하여 *각 분기 내에서* 데이터를 분할할 것입니다. 먼저 11111, 22222 및 33333 분기에 대해 생각해 보겠습니다. 이 우편 번호들에서 남성과 여성 간에 전환 차이가 있다면 두 개의 리프(남성 및 여성)가 있을 것이고 이 분기는 완료됩니다. 다른 분기 44444와 55555에서는 여성과 남성이 전환하는 방식 간에 통계적 차이가 없다고 가정하겠습니다. 이 경우 첫 번째 분기는 최종 분할이 됩니다.
 
 따라서 아래의 트리가 만들어집니다.
 
-![](assets/decsion_tree_2.png)
+![decsion_tree_2 이미지](assets/decsion_tree_2.png)
 
 ## Random Forest에서 의사 결정 트리를 사용하는 방법은 무엇입니까? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Random Forest 알고리즘은 자동화된 개인화와 자동 타겟 활동에�
 
 다음 다이어그램은 자동 타겟이나 자동화된 개인화 활동을 위한 모델을 만드는 방법을 요약한 것입니다.
 
-![](assets/random_forest_flow.png)
+![random_forest_flow 이미지](assets/random_forest_flow.png)
 
 1. 경험/오퍼를 무작위로 제공하는 동안 Target에서 방문자에 대한 데이터를 수집합니다.
 1. Target이 대량의 중요한 데이터를 수집한 후 특징 엔지니어링을 수행합니다.

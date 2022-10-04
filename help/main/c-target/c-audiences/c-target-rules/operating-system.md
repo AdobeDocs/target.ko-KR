@@ -4,10 +4,10 @@ description: 특정 운영 체제(Linux, Macintosh 또는 Windows)를 사용하�
 title: 운영 체제를 기준으로 방문자를 Target 할 수 있습니까?
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 47%
+source-wordcount: '139'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 47%
 
 다음 그림은 Macintosh OS를 사용하는 방문자를 타깃팅하는 대상을 보여줍니다.
 
-![](assets/target_os.png)
+![target_os 이미지](assets/target_os.png)
 
 ## 교육 비디오: 대상 만들기
 

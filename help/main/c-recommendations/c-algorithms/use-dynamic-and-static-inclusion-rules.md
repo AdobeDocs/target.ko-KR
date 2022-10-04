@@ -5,10 +5,10 @@ title: Recommendations에서 동적 및 정적 포함 규칙을 사용하려면 
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 17%
+source-wordcount: '2094'
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 17%
 
 [기준을 만들려면](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) **[!UICONTROL 포함 규칙]** 아래의 **[!UICONTROL 필터링 규칙 추가]**&#x200B;를 클릭하십시오.
 
-![](assets/inclusion_options_new.png)
+![include_options_new 이미지](assets/inclusion_options_new.png)
 
 사용 가능한 선택 사항은 선택한 업계 카테고리와 권장 사항 키에 따라 다릅니다.
 
@@ -30,7 +30,7 @@ ht-degree: 17%
 
 [프로모션을 만들려면](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14) **[!UICONTROL 속성별 프로모션]**&#x200B;을 선택한 다음, **[!UICONTROL 필터링 규칙 추가]**&#x200B;를 클릭하십시오.
 
-![](assets/inclusion_options.png)
+![include_options 이미지](assets/inclusion_options.png)
 
 ## 필터 유형 {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ ht-degree: 17%
 
 이전에는 값이 비어 있으면 결과가 반환되지 않았습니다. &quot;*x*&#x200B;이(가) 비어 있는 경우&quot; 드롭다운 목록에서는 다음 그림과 같이 기준에 빈 값이 있을 경우 수행할 적절한 작업을 선택할 수 있습니다.
 
-![](assets/empty_value.png)
+![empty_value 이미지](assets/empty_value.png)
 
-원하는 작업을 선택하려면 톱니바퀴 아이콘(![](assets/icon_gear.png))을 마우스로 가리킨 다음, 원하는 작업을 선택하십시오.
+원하는 작업을 선택하려면 톱니바퀴 아이콘(![icon_gear 이미지](assets/icon_gear.png))를 클릭한 다음, 원하는 작업을 선택합니다.
 
 | 작업 | 사용 가능한 경우 | 세부 사항 |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ ht-degree: 17%
 >
 >&quot;equals&quot;(다음과 같음)와 &quot;does not equal&quot;(다음과 같지 않음) 연산자를 사용하는 런타임 동안 서로 다른 데이터 유형 속성이 동적 기준이나 프로모션에서 호환되지 않을 수 있습니다. 사용 [!UICONTROL 값], [!UICONTROL 여백], [!UICONTROL 인벤토리], 및 [!UICONTROL 환경] 왼쪽에 사전 정의된 속성이나 사용자 지정 속성이 있는 경우 오른쪽에서 값을 현명하게 사용합니다.
 
-![](assets/left_right.png)
+![left_right 이미지](assets/left_right.png)
 
 다음 표는 유효 규칙과 런타임 중에 호환되지 않을 수 있는 규칙을 보여줍니다.
 

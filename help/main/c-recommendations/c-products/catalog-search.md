@@ -4,9 +4,9 @@ description: Recommendations 카탈로그 검색을 사용하여 제품 또는 �
 title: Recommendations 카탈로그 검색을 사용하려면 어떻게 해야 합니까?
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1041'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 22%
 
 1. (선택 사항) 검색 필드에서 아래쪽 화살표를 클릭하면 표시되는 옵션 메뉴에서 검색 옵션을 선택하여 검색을 개선할 수 있습니다.
 
-   ![](assets/searchproductsmenu.png)
+   ![searchproductsmenu 이미지](assets/searchproductsmenu.png)
 
    검색 옵션에는 다음이 포함됩니다.
 

@@ -4,10 +4,10 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법을 �
 title: 시각적 경험 작성기 및 고급 경험 작성기 관련 문제를 해결하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 51%
+source-wordcount: '1427'
+ht-degree: 50%
 
 ---
 
@@ -90,11 +90,11 @@ URL에 # 문자가 포함된 경우 이 문제가 발생할 수 있습니다. �
 >
 >다음 정보 외에 Google Chrome용 [Adobe Target VEC Helper 브라우저 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 사용할 수 있습니다.
 
-![](assets/cps_headers.png)
+![cps_headers 이미지](assets/cps_headers.png)
 
 해결 방법으로, 다음과 같이 CSP 헤더를 제거하도록 Requestly 규칙을 구성할 수 있습니다.
 
-![](assets/cps_headers_2.png)
+![cps_headers_2 이미지](assets/cps_headers_2.png)
 
 리소스가 VEC 내에서 로드되지 않도록 하는 모든 헤더에 대해 유사한 Requestly 규칙을 구성할 수 있습니다.
 

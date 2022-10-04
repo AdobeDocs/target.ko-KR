@@ -4,9 +4,9 @@ description: Adobe에서 활동 전용 대상을 만드는 방법을 알아봅�
 title: 한 번만 사용할 대상을 만들 수 있습니까?
 feature: Audiences
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '451'
 ht-degree: 53%
 
 ---
@@ -28,7 +28,7 @@ ht-degree: 53%
 
 1. 클릭 **[!UICONTROL 이 활동만]**.
 
-   ![](assets/activity-only-aud.png)
+   ![activity-only-aud 이미지](assets/activity-only-aud.png)
 
 1. 수사적 대상 이름을 입력합니다.
 1. 원하는 속성을 대상 빌더로 끌어다 놓습니다.

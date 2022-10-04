@@ -4,10 +4,10 @@ description: 정보를 검토하면,  [!DNL Target]  Premium의 기존 Recommend
 title: ' [!DNL Target]  Premium에서 Recommendations Classic과 Recommendations 간의 차이점은 무엇입니까?'
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 100%
 
 [!DNL Target Recommendations] 는 사전 패키징된 규칙 및 구성 세트가 들어 있는 기준 라이브러리를 포함합니다. [!DNL Recommendations Classic]에서 각 권장 사항은 양식에 입력하고 큰 규칙 목록에서 선택하여 수동으로 빌드되었습니다. 이제 [!DNL Recommendations] 활동을 작성할 때에는 사전 구성된 기준 세트를 선택하면 됩니다. 여전히 사용자 지정 권장 사항을 만들 수 있지만, 기준 라이브러리에는 프로세스를 단순화하도록 사전 빌드되어 있고 사용자가 이해하는 언어를 사용하는 가장 공통적인 구성들이 많이 포함되어 있습니다. 이렇게 사전 패키징된 기준은 그대로 사용하거나, 복사하여 특정 요구에 맞게 편집할 수 있습니다.
 
-![](assets/overview_criteria.png)
+![overview_criteria 이미지](assets/overview_criteria.png)
 
 기준은 업계 카테고리, 페이지 유형 및 구현 별로 사전 구성 및 정렬됩니다. 예를 들어 제품 페이지에서 사용할 목적으로 소매 범주에 적용되는 기준을 찾아 특정 범주( `entity.categoryID` 매개 변수로 정의되는 범주) 내의 제품을 표시할 수 있습니다.
 
@@ -68,10 +68,10 @@ ht-degree: 100%
 
 [!DNL Recommendations Classic]에는 6개의 타기팅 선택 사항이 있었습니다. 권장 사항 활동은 Target의 전체 타기팅 선택 사항을 사용합니다. [!DNL Target] 또는 기타 [!DNL Adobe Experience Cloud] 대상(예: [!DNL Audience Manager] 및 [!DNL Analytics])을 사용하여 대상을 정의한 다음, 각 디자인을 보게 되는 활동 참여자의 백분율과 통제군을 보게 되는 백분율을 선택하십시오.
 
-![](assets/overview_targeting.png)
+![overview_targeting 이미지](assets/overview_targeting.png)
 
 ## 보고 {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 [!DNL Target]의 [!DNL Recommendations] 에서는 [!DNL Target] 및 [!DNL Experience Cloud]가 제공하는 기능을 활용하는 향상된 보고 기능을 제공합니다. 따라서 이러한 기능을 활용하지 않고 결과와 비교하여 [!DNL Recommendations] 로 제공된 상승도를 단순히 표시하는 대신 [!DNL Recommendations] 활동에 대한 전체 정보를 볼 수 있습니다.
 
-![](assets/overview_report.png)
+![overview_report 이미지](assets/overview_report.png)

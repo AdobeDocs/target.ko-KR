@@ -4,10 +4,10 @@ description: ' [!DNL Analytics] for [!DNL Target] (A4T)을 사용하여 [!DNL An
 title: ' [!DNL Analytics] for [!DNL Target] (A4T)이란 무엇입니까?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '1140'
+ht-degree: 98%
 
 ---
 
@@ -79,15 +79,15 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 
 다음 그림은 사용 가능한 [!UICONTROL  목표 지표를 표시하는 ]보고서 지표[!UICONTROL  드롭다운 목록과 함께 A4T 보고서의 ]그래프 보기[!DNL Analytics]를 보여 줍니다.
 
-![](assets/a4t_report_graph1.png)
+![a4t_report_graph1 이미지](assets/a4t_report_graph1.png)
 
 다음 그림은 사용 가능한  대상을 표시하는 [!UICONTROL 대상] 드롭다운 목록과 함께 A4T 보고서의 [!DNL Analytics]그래프 보기를 보여 줍니다.
 
-![](assets/a4t_report_graph2.png)
+![a4t_report_graph2 이미지](assets/a4t_report_graph2.png)
 
 다음 그림은 A4T 보고서의 [!UICONTROL 표 보기]를 보여 줍니다.
 
-![](assets/a4t_report_table.png)
+![a4t_report_table 이미지](assets/a4t_report_table.png)
 
 [!DNL Target]이 아니라 [!DNL Analytics]에서 보고서를 보려면 보고서 상단의 **[!UICONTROL Analytics에서 보기]**&#x200B;를 클릭하십시오.
 

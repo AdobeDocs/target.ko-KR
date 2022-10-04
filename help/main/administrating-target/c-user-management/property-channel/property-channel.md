@@ -5,9 +5,9 @@ title: 엔터프라이즈 사용자 권한은 무엇이며, 이 권한을 어떻
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3152'
+source-wordcount: '3171'
 ht-degree: 58%
 
 ---
@@ -105,13 +105,13 @@ ht-degree: 58%
 
 새로운 [!UICONTROL 권한] 기능을 사용하면 다음 위치에서 &quot;제품 프로필&quot;이라고 하는 다른 프로젝트를 만들 수 있습니다 [!DNL Adobe Admin Console for Enterprise]). 프로젝트를 사용하면 각 프로젝트에 대한 사용자의 액세스 권한을 지정하는 단일 사용자에 대해 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과 고객은 아래와 같이 지역, 환경(개발/스테이지/prod), 채널 또는 기타 사용자 지정 기준에 따라 사용자에 대한 보기, 편집 및 승인 액세스를 제한할 수 있습니다.
 
-![](assets/permissions.png)
+![권한 이미지](assets/permissions.png)
 
 예를 들어, 특정 사용자에게 미국 웹 사이트에 대해서는 &quot;승인&quot; 액세스 권한이 있지만 유럽 모바일 앱에 대해서는 &quot;보기&quot; 액세스 권한만 있을 수 있습니다. 같은 사용자가 APAC 지역의 웹 및 모바일 속성에 제공되는 활동에 대해서는 보기 액세스 권한조차 없을 수 있습니다.
 
 현재 [!DNL Target][!UICONTROL  권한] 모델에는 다음 그림과 같이 3가지 권한 역할(관찰자, 편집자 및 승인자)이 있습니다.
 
-![](assets/permissions_1.png)
+![permissions_1 이미지](assets/permissions_1.png)
 
 각 역할에는 다음과 같은 여러 가지 권한 수준이 있습니다.
 
@@ -124,17 +124,17 @@ ht-degree: 58%
 
 아래와 같이 [!DNL Target] 태그를 포함하는 계정의 모든 페이지, 속성 또는 사이트에 각 사용자의 역할이 적용된다는 점에 유의해야 합니다.
 
-![](assets/permissions_2.png)
+![permissions_2 이미지](assets/permissions_2.png)
 
 새 [!DNL Target][!UICONTROL  권한] 모델에도 동일한 3가지 권한 역할(관찰자, 편집자 및 승인자)이 있지만 아래에 표시된 것처럼 개별 페이지, 속성 또는 사이트에 대해 별도로 사용자의 권한 역할을 지정할 수 있습니다.
 
-![](assets/permissions_3.png)
+![permissions_3 이미지](assets/permissions_3.png)
 
 이 예에서는 Jan은 미국 홈페이지 및 미국 사이트에 대해 승인자 권한이 있고, 프랑스 사이트에 대해서는 관찰자 권한이 있습니다.
 
 또한 Jan은 의 페이지, 속성 또는 사이트를 볼 수 없습니다 [!DNL Target] 아래와 같이 볼 수 있는 권한이 없습니다.
 
-![](assets/permissions_4.png)
+![permissions_4 이미지](assets/permissions_4.png)
 
 이 예에서 Jan은 제품 페이지, 러시아 사이트 및 경력 사이트를 볼 수 없습니다.
 
@@ -191,18 +191,18 @@ ht-degree: 58%
 
 * **작업 공간(제품 프로필) 드롭다운 목록:**&#x200B;작업 공간 드롭다운 목록은 [!UICONTROL 활동], [!UICONTROL 대상] 및 [!UICONTROL 오퍼] 페이지 맨 위에 표시됩니다. 원하는 작업 공간을 선택하여 선택한 작업 공간의 항목만 표시하도록 목록을 필터링합니다.
 
-   ![](assets/workspace_drop-down.png)
+   ![workspace_drop_down 이미지](assets/workspace_drop-down.png)
 
 * **활동 만들기:** 활동을 만들면 현재 선택한 작업 영역에 만들어집니다. 활동에 대해 원하는 채널을 선택할 수 있는 첫 번째 대화 상자에 채널 선택 옵션이 표시됩니다. 웹, 모바일 앱, 이메일 또는 기타/API.
 
-   ![](assets/channel_options.png)
+   ![channel_options 이미지](assets/channel_options.png)
 
 * **대상 만들기:** 대상을 만들면 현재 선택한 작업 공간에서 만들어집니다.
 * **대상 목록:** 를 사용하여 작업 공간 간에 대상을 이동할 수 있습니다 [!UICONTROL 추가 작업] > [!DNL Move] 옵션 [!UICONTROL 대상] 페이지.
 * **오퍼 만들기:** 오퍼를 만들면 현재 선택한 작업 공간에 만들어집니다.
 * **속성 페이지(관리 > 속성):** 를 사용할 수 있습니다 [!UICONTROL 검색] 상자를 검색하여 [!UICONTROL 속성] 목록.
 
-   ![](assets/properties_list.png)
+   ![properties_list 이미지](assets/properties_list.png)
 
 ## 주의 사항 {#section_9714311B1CD9497A86F4910F8AE635E2}
 
@@ -264,7 +264,7 @@ ht-degree: 58%
 
 마이그레이션이 편집되고 속성이 지정되지 않는 한, 마이그레이션 전에 만든 활동은 기본 작업 공간에서 동일한 방법으로 계속 실행됩니다. 특정 작업 공간의 활동은 해당 작업 공간에 지정된 속성을 따르므로, 동작이 마이그레이션 전과 동일하게 유지되지 않을 수 있습니다.
 
-### 한 작업 영역에서 다른 작업 영역으로 대상을 이동할 수 있습니까? {#move-audience}
+### 한 작업 영역에서 다른 작업 영역으로 대상자를 이동할 수 있습니까? {#move-audience}
 
 예, 다음을 사용하여 작업 공간 간에 대상을 이동할 수 있습니다 [!UICONTROL 추가 작업] 옵션 [!UICONTROL 대상] 페이지.
 

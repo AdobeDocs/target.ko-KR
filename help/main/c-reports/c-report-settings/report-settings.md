@@ -4,10 +4,10 @@ description: 지표, 대상, 날짜 범위 등을 포함하여 Adobe Target에�
 title: 보고서 설정을 구성하려면 어떻게 합니까?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1917'
-ht-degree: 67%
+source-wordcount: '1923'
+ht-degree: 66%
 
 ---
 
@@ -276,16 +276,16 @@ ht-degree: 67%
 
 일례로 다음 그림은 26개의 경험이 있는 활동의 그래프입니다.
 
-![](assets/graph_1.png)
+![graph_1 이미지](assets/graph_1.png)
 
 이 그래프는 처음 16개의 경험에 대한 선을 표시합니다(일부는 겹쳐져서 선이 16개 미만으로 표시됩니다.). 왼쪽에 있는 경험 패널에서 각 경험 이름 옆에 있는 색상이 지정된 점은 그 경험의 그래프 선이 해당 색상으로 표시되고 있음을 나타냅니다.
 
 경험 창에서 아래로 스크롤하면 다음 그림과 같이 17번째부터 26번째 경험까지는 이름이 회색으로 표시됩니다.
 
-![](assets/graph_2.png)
+![graph_2 이미지](assets/graph_2.png)
 
 회색으로 처리된 경험 중 하나를 마우스로 가리키면 그 경험에 해당하는 새로운 회색 그래프 선이 그래프에 임시로 표시됩니다.
 
 경험 R에 대한 그래프 선을 표시하고 경험 P에 대한 선은 표시하지 않으려 한다고 가정하십시오. 경험 P의 이름을 클릭하여 선택을 취소한 다음, 경험 R의 이름을 클릭하여 아래와 같이 선택할 수 있습니다.
 
-![](assets/graph_3.png)
+![graph_3 이미지](assets/graph_3.png)
