@@ -4,7 +4,7 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -1472,7 +1472,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>보고서 </p> </td> 
-   <td colname="col2"> <p>한계 계산 방법을 설명하는 도구 설명을 포함하여 보고서의 상승도 및 한계 정보를 보다 포괄적이고 유용하게 개선했습니다. (TGT-28729) </p> <p>자세한 내용은 <a href="/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129" format="dita" scope="local"> 평균 리프트, 리프트 경계 및 신뢰 구간 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>한계 계산 방법을 설명하는 도구 설명을 포함하여 보고서의 상승도 및 한계 정보를 보다 포괄적이고 유용하게 개선했습니다. (TGT-28729) </p> <p>자세한 내용은 <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local"> 평균 리프트, 리프트 경계 및 신뢰 구간 </a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>AP (Automated Personalization) 및 자동 타기팅 활동 </p> </td> 
@@ -3153,7 +3153,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>전환 기반 보고서 </p> </td> 
-   <td colname="col2"> <p> 조직의 목표가 전환 지표인 경우 이제 오퍼 세부 사항 보고서에 상승도 및 증분 전환에서 주요 예측 변수가 미치는 영향이 표시됩니다. 이 보고서는 이전에는 매출만을 기준으로 했으므로 이 기능을 통해 매출 데이터가 없는 활동도 여전히 관련있고 실용적인 통찰력을 생성할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local"> Automated Personalization 보고서 </a>. </p> </td> 
+   <td colname="col2"> <p> 조직의 목표가 전환 지표인 경우 이제 오퍼 세부 사항 보고서에 상승도 및 증분 전환에서 주요 예측 변수가 미치는 영향이 표시됩니다. 이 보고서는 이전에는 매출만을 기준으로 했으므로 이 기능을 통해 매출 데이터가 없는 활동도 여전히 관련있고 실용적인 통찰력을 생성할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-reports/personalization-reports/reports-ap.md" format="dita" scope="local"> Automated Personalization 보고서 </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Adobe Campaign 이메일과 Target Standard의 통합 </td> 

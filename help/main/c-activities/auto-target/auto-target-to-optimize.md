@@ -4,10 +4,10 @@ description: 에서 자동 Target 활동을 하는 방법을 알아봅니다 [!D
 title: 자동 Target 활동이란 무엇입니까?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 70%
+source-wordcount: '1987'
+ht-degree: 66%
 
 ---
 
@@ -63,7 +63,7 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 |---|---|
 | Multi-armed bandit | 최적화에 대한 multi-armed bandit 접근 방식은 탐색 학습과 해당 학습의 이용 간에 균형을 이룹니다. |
 | Random Forest | Random Forest는 선도적인 기계 학습 접근 방식입니다. 데이터 과학에서, 방문자 및 방문 속성에 따라 많은 의사 결정 트리를 구성함으로써 작동하는 앙상블 분류 또는 회귀 방법입니다. Target 내에서 Random Forest는 각 특정 방문자에 대해 전환 가능성이 가장 높(또는 방문당 매출이 가장 높음)을 것으로 예상되는 경험을 결정하는 데 사용됩니다. Target의 Random Forest에 대한 자세한 내용은 [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)을 참조하십시오. |
-| Thompson 샘플링 | Thompson 샘플링의 목표는 해당 경험을 찾는 &quot;비용&quot;은 최소화하면서도 전체적으로 가장 훌륭한(개인화되지 않음) 경험을 판별하는 것입니다. Thompson 샘플링에서는 두 경험 간의 통계적 차이가 없는 경우에도 항상 승자를 선택합니다. 자세한 내용은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 참조하십시오. |
+| Thompson 샘플링 | Thompson 샘플링 의 목표는 해당 경험을 찾는 &quot;비용&quot;을 최소화하면서 전반적인 최상의 경험(개인화되지 않음)을 결정하는 것입니다. Thompson 샘플링에서는 두 경험 간의 통계적 차이가 없는 경우에도 항상 승자를 선택합니다. 자세한 내용은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 참조하십시오. |
 
 ## [!UICONTROL 자동 타겟] 작동 방식 {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -113,7 +113,7 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 * 알고리즘은 최고의 경험을 제공하기 위해 전환하는 방문자의 성향(또는 전환을 통한 예상 매출)을 예측합니다.
 * 방문자는 기존 세션이 끝날 때 새 경험을 사용할 수 있습니다(방문자가 제어 그룹에 없는 경우, 첫 번째 방문에서 방문자가 지정된 경험이 후속 방문용으로 동일하게 유지되는 경우).
-* 세션 내에서 예측이 변경되지 않고 시각적 일관성을 유지합니다.
+* 세션 내에서는 시각적 일관성을 유지하기 위해 예측이 변경되지 않습니다.
 
 **알고리즘이 방문자의 행동 변화에 적응합니다.**
 
@@ -159,7 +159,7 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 ## 보고 및 [!UICONTROL 자동 타겟] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-자세한 내용은 [보고서](/help/main/c-reports/reports.md) 섹션의 [자동 타겟 요약 보고서](/help/main/c-reports/auto-target-summary-report.md)를 참조하십시오.
+자세한 내용은 [자동 타겟 요약 보고서](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)를 참조하십시오.
 
 ## 교육 비디오: 자동 Target 활동 이해 ![개요 배지](/help/main/assets/overview.png)
 

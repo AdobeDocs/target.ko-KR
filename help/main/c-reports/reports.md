@@ -4,7 +4,7 @@ description: Adobe에서 보고 기능을 사용하는 방법을 알아봅니다
 title: 보고서를 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: c5710eb3-0c72-47f8-870d-df50453ecf08
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '859'
 ht-degree: 62%
@@ -43,7 +43,7 @@ ht-degree: 62%
    >경험 결과는 적어도 한 명 이상의 참여자가 경험을 본 후에야 표시됩니다.
 
 1. (선택 사항) 원하는 대로 [보고서를 구성합니다](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA).
-1. (선택 사항) Excel 및 기타 도구에서 분석할 [보고서를 CSV 형식으로 다운로드](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)합니다.
+1. (선택 사항) Excel 및 기타 도구에서 분석할 [보고서를 CSV 형식으로 다운로드](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)합니다.
 
    다음 옵션을 사용할 수 있습니다.
 
@@ -59,8 +59,8 @@ ht-degree: 62%
    | 보고서 유형 | 보기 |
    | --- | --- |
    | [자동 타기팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 을(를) 클릭합니다. **[!UICONTROL 자동화된 세그먼트]** 또는 **[!UICONTROL 중요 속성]** 아이콘.<ul><li>다음 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) 는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 다르게 응답하는 방식을 표시합니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.</li><li>다음 [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) 다른 활동에서 모델이 개인화를 결정하는 방법에 대해 다른 속성이 더 중요하거나 덜 중요한 방법을 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.</li></ul> |
-   | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 추가 [Automated Personalization 요약 보고서](/help/main/c-reports/reports-ap.md)를 클릭하고 **[!UICONTROL 자동화된 세그먼트]** 또는 **[!UICONTROL 중요 속성]** 아이콘.<ul><li>다음 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) 는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 다르게 응답하는 방식을 표시합니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.</li><li>다음 [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) 다른 활동에서 다른 속성이 모델이 개인화를 결정하는 방법에 대해 더 중요하거나 덜 중요한 방법을 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.</li></ul> |
-   | [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 추가 [경험 성과 보고서](/help/main/c-reports/experience-performance-report.md)를 클릭하고 [위치 기여도](/help/main/c-reports/location-contribution-report.md) 위치별 기여도를 표시하도록 보고서를 전환하기 위한 아이콘입니다. |
+   | [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) | 추가 [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)를 클릭하고 **[!UICONTROL 자동화된 세그먼트]** 또는 **[!UICONTROL 중요 속성]** 아이콘.<ul><li>다음 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md) 는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 다르게 응답하는 방식을 표시합니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.</li><li>다음 [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md) 다른 활동에서 다른 속성이 모델이 개인화를 결정하는 방법에 대해 더 중요하거나 덜 중요한 방법을 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.</li></ul> |
+   | [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) | 추가 [경험 성과 보고서](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)를 클릭하고 [위치 기여도](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) 위치별 기여도를 표시하도록 보고서를 전환하기 위한 아이콘입니다. |
 
 ## 특정 활동 유형에 대한 추가 보고 정보 {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -70,9 +70,9 @@ ht-degree: 62%
 |--- |--- |
 | [A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md) | [!DNL Target]에 사용된 상승도 및 신뢰도와 통계적 접근 방식을 이해하려면 [A/B 테스트 계획](/help/main/c-activities/t-test-ab/sample-size-determination.md)을 참조하십시오. |
 | [자동 할당 보고서 해석](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 결과의 해석 [!UICONTROL 자동 할당] 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 A/B 활동 [!DNL Target] UI. |
-| [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) | AT 활동과 관련된 [!UICONTROL 요약] 보고서에 대한 정보입니다. 자세한 내용은 [자동 타겟 요약 보고서](/help/main/c-reports/auto-target-summary-report.md)를 참조하십시오.<br>AT 및 AP 활동에 대한 두 개의 [!UICONTROL 개인화 통찰력 보고서]인 [!UICONTROL 자동화된 세그먼트] 보고서와 [!UICONTROL 중요 속성] 보고서에 대한 정보입니다. 자세한 내용은 [개인화 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)를 참조하십시오. |
-| [](/help/main/c-activities/t-automated-personalization/automated-personalization.md)자동화된 개인화(AP) | AP 활동의 두 개의 [!UICONTROL 자동화된 개인화 요약] 보고서인 [!UICONTROL 활동 수준] 보고서 및 [!UICONTROL 오퍼 수준] 보고서에 대한 정보. 자세한 내용은 [자동화된 개인화 요약 보고서](/help/main/c-reports/reports-ap.md)를 참조하십시오.<br>AT 및 AP 활동에 대한 두 개의 [!UICONTROL 개인화 통찰력 보고서]인 [!UICONTROL 자동화된 세그먼트] 보고서와 [!UICONTROL 중요 속성] 보고서에 대한 정보입니다. 자세한 내용은 [개인화 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)를 참조하십시오. |
-| [](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)다변량 테스트(MVT) | MVT 활동에 대한 두 개 보고서인 [!UICONTROL 경험 성과] 보고서와 및 [!UICONTROL 위치 기여도] 보고서에 대한 정보입니다. 자세한 내용은 [경험 성과 보고서](/help/main/c-reports/experience-performance-report.md) (MVT)와 [위치 기여도 보고서](/help/main/c-reports/location-contribution-report.md) (MVT)를 참조하십시오. |
+| [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) (AT) | AT 활동과 관련된 [!UICONTROL 요약] 보고서에 대한 정보입니다. 자세한 내용은 [자동 타겟 요약 보고서](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)를 참조하십시오.<br>AT 및 AP 활동에 대한 두 개의 [!UICONTROL 개인화 통찰력 보고서]인 [!UICONTROL 자동화된 세그먼트] 보고서와 [!UICONTROL 중요 속성] 보고서에 대한 정보입니다. 자세한 내용은 [개인화 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)를 참조하십시오. |
+| [](/help/main/c-activities/t-automated-personalization/automated-personalization.md)자동화된 개인화(AP) | AP 활동의 두 개의 [!UICONTROL 자동화된 개인화 요약] 보고서인 [!UICONTROL 활동 수준] 보고서 및 [!UICONTROL 오퍼 수준] 보고서에 대한 정보. 자세한 내용은 [자동화된 개인화 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)를 참조하십시오.<br>AT 및 AP 활동에 대한 두 개의 [!UICONTROL 개인화 통찰력 보고서]인 [!UICONTROL 자동화된 세그먼트] 보고서와 [!UICONTROL 중요 속성] 보고서에 대한 정보입니다. 자세한 내용은 [개인화 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)를 참조하십시오. |
+| [](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)다변량 테스트(MVT) | MVT 활동에 대한 두 개 보고서인 [!UICONTROL 경험 성과] 보고서와 및 [!UICONTROL 위치 기여도] 보고서에 대한 정보입니다. 자세한 내용은 [경험 성과 보고서](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md) (MVT)와 [위치 기여도 보고서](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) (MVT)를 참조하십시오. |
 | [Adobe Target용 보고 소스로서의 Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) | [!DNL Adobe Analytics]를 [!DNL Target]을 위한 보고 소스로 사용하는 것에 대한 정보입니다. A4T를 통해 [!DNL Target] 활동에 대한 [!DNL Analytics] 보고서에 액세스할 수 있습니다. 자세한 내용은 [Analytics for Target(A4T) 보고](/help/main/c-reports/analytics-for-target-a4t-reporting.md)를 참조하십시오. |
 
 ## 지정된 IP 주소에서 보고 데이터 차단

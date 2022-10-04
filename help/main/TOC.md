@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 98%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -255,22 +255,23 @@ ht-degree: 98%
    + [보고서 개요](c-reports/reports.md)
    + 보고서 설정 {#settings}
       + [보고서 설정 개요](c-reports/c-report-settings/report-settings.md)
-      + [평균 상승도, 상승도 한계 및 신뢰 구간](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [보고서에서 여러 지표 보기](c-reports/c-report-settings/view-multiple-metrics.md)
       + [예외적인 값 제외](c-reports/c-report-settings/excluding-extreme-orders.md)
+      + [CSV 파일로 데이터 다운로드](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 통계적 방법론 {#statistical-methodology}
       + [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + [Auto-Target 요약 보고서](c-reports/auto-target-summary-report.md)
-   + [Automated Personalization 요약 보고서](c-reports/reports-ap.md)
+   + 개인화 보고서 {#personalization-reports}
+      + [Auto-Target 요약 보고서](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)
+      + [Automated Personalization의 오퍼 보고 그룹](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + 개인화 통찰력 보고서 {#insights}
       + [개인화 통찰력 보고서 개요](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [자동화된 세그먼트 보고서](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [중요 속성 보고서](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Automated Personalization의 오퍼 보고 그룹](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [경험 성과 보고서 (MVT)](c-reports/experience-performance-report.md)
-   + [위치 기여도 보고서 (MVT)](c-reports/location-contribution-report.md)
+   + 다변량 테스트 보고서 {#multivariate-test-reports}
+      + [경험 성과 보고서 (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
+      + [위치 기여도 보고서 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [A4T (Analytics for Target) 보고](c-reports/analytics-for-target-a4t-reporting.md)
-   + [CSV 파일로 데이터 다운로드](c-reports/downloading-data-in-csv-file.md)
    + [보고 FAQ](c-reports/reporting-frequently-asked-questions.md)
 + 권장 사항 {#recommendations}
    + [권장 사항 개요](c-recommendations/recommendations.md)

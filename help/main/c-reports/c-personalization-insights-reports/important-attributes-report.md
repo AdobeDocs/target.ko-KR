@@ -4,10 +4,10 @@ description: 사용 방법을 알아봅니다 [!UICONTROL 중요 속성] 개인�
 title: 중요한 속성 보고서란 무엇입니까?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 83%
 
 1. **[!UICONTROL 보고서를 클릭합니다]**.
 
-   다음 [Automated Personalization 요약](/help/main/c-reports/reports-ap.md) 또는 [자동 Target 요약](/help/main/c-reports/auto-target-summary-report.md) 보고서에는 활동의 성과에 대한 정보를 제공하는 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 [!UICONTROL 개인화 통찰력] 보고서: [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성].
+   다음 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 Target 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 보고서에는 활동의 성과에 대한 정보를 제공하는 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 [!UICONTROL 개인화 통찰력] 보고서: [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성].
 
-   ![Automated Personalization 활동에 대한 요약 보고서](assets/summary-report-ap.png)
+   ![Automated Personalization 활동에 대한 요약 보고서](/help/main/c-reports/assets/summary-report-ap.png)
 
    참고 사항 [!UICONTROL 자동 Target] 에는 의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다 [!UICONTROL 요약] 보고서 세트에 대해 설명합니다.
 
-   ![자동 Target 활동에 대한 요약 보고서](assets/personalization_insights.png)
+   ![자동 Target 활동에 대한 요약 보고서](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ ht-degree: 83%
 
 1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL 중요 속성]** 아이콘.
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. 원하는 날짜 범위를 선택합니다.
 
@@ -66,16 +66,15 @@ ht-degree: 83%
 
    이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;은 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    [!UICONTROL 기간 선택] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. [!UICONTROL 중요 속성] 보고서 데이터를 검토하십시오.
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (선택 사항) Excel 및 기타 도구에서 분석할 [보고서를 CSV 형식으로 다운로드](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)합니다.
 
@@ -118,7 +117,7 @@ ht-degree: 83%
 
 **개인화 인사이트 작성 방법**
 
-[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 Adobe 연구 팀이 게시한 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
+[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] MAGIX에 대한 자세한 내용은 Adobe 연구 팀이 게시한 문서에서 확인할 수 있습니다 [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160).
 
 **수입을 기반으로 한 모델링 목표/기본 목표에 개인화 인사이트를 사용할 수 있습니까?**
 
@@ -136,7 +135,7 @@ ht-degree: 83%
 * 특정 오퍼나 경험에 모델이 구축되지 않은 낮은 볼륨 활동입니다.
 * 모델이 일부 오퍼/경험에 대해 보다 빠르게 구축된 낮은 볼륨 활동입니다. 예를 들어 추가 모델이 22일에 구축되었고, 사용자가 10~24일의 데이터를 보고 있다고 가정합니다.
 * 방문자가 볼 수 있는 오퍼/경험을 제한하는 특정 오퍼에 대한 타깃팅 규칙입니다.
-* 인사이트 보고에는 신뢰 구간이 없습니다. 그러나 전환율이 거의 근접한 경우 모델이 트래픽을 제공하므로 포인트 크기보다 높을 수 있지만 &quot;통계적으로 다른&quot; 숫자는 아닙니다.
+* 인사이트 보고에는 신뢰 구간이 없습니다. 하지만 전환율이 거의 근접한 경우 모델이 트래픽을 제공하므로 포인트 크기보다 높을 수 있지만 &quot;통계적으로 다른&quot; 숫자는 아닙니다.
 
 트래픽을 제공하는 모델이 어떻게 작동하는지 파악하는 것이 도움이 될 수 있습니다. 각 개인에게는 개인의 전체 프로필을 기반으로 하여 제공됩니다. 하지만 인사이트 보고서는 이 동작을 일반화하여 사람이 쉽게 이해할 수 있게 만듭니다. 따라서 세그먼트는 상호 배타적이 아닙니다. 이렇게 하면 동일한 사람이 여러 세그먼트에 나타날 수 있으므로 개별 세그먼트에 이러한 유형의 동작이 표시될 수 있습니다.
 

@@ -4,10 +4,10 @@ description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용�
 title: Target 문제를 해결하려면 어떻게 합니까?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '515'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -43,7 +43,7 @@ ht-degree: 86%
 
 * [Automated Personalization FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Automated Personalization 문제 해결](/help/main/c-activities/t-automated-personalization/ap-trouble.md)
-* [Automated Personalization 요약 보고서](/help/main/c-reports/reports-ap.md)
+* [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)
 * [개인화 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### 다변량 테스트 (MVT)

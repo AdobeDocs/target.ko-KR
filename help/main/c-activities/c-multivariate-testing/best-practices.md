@@ -4,7 +4,7 @@ description: 성능을 개선하고, 문제를 방지하고, Adobe Target에서 
 title: 다변량 테스트의 모범 사례는 무엇입니까?
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '627'
 ht-degree: 100%
@@ -45,8 +45,8 @@ ht-degree: 100%
 
 ## 분석 {#section_9A2118CF1039451681C13D9AE79A58AB}
 
-* [위치 기여도 보고서](/help/main/c-reports/location-contribution-report.md) 를 자주 사용하여 각 위치와 오퍼의 성과를 모니터링합니다.
-* [경험 성과 보고서](/help/main/c-reports/experience-performance-report.md)에서 최고 성과 5개와 최저 성과 5개 필터를 사용하여 표시되는 데이터를 결정합니다.
+* [위치 기여도 보고서](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) 를 자주 사용하여 각 위치와 오퍼의 성과를 모니터링합니다.
+* [경험 성과 보고서](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)에서 최고 성과 5개와 최저 성과 5개 필터를 사용하여 표시되는 데이터를 결정합니다.
 
    [!UICONTROL 모두] 필터를 사용하면 원하는 정보를 추출하기 어려우며 일부 경험은 그래프에 표시되지 않을 수 있습니다. 성과가 가장 높은 경험 5개 또는 가장 낮은 경험 5개에 포함되지 않은 특정 경험을 확인하려는 경우에는 [!UICONTROL 모두] 필터를 사용합니다.
 

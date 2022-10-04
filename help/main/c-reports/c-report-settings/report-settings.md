@@ -4,10 +4,10 @@ description: 지표, 대상, 날짜 범위 등을 포함하여 Adobe Target에�
 title: 보고서 설정을 구성하려면 어떻게 합니까?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 68%
+source-wordcount: '1917'
+ht-degree: 67%
 
 ---
 
@@ -57,7 +57,7 @@ ht-degree: 68%
 1. 편집할 사전 설정을 선택합니다.
 1. 보고서의 구성을 원하는 대로 편집합니다(지표, 날짜 범위, 대상, 고급 설정 등).
 
-   보고서의 구성을 편집한 후 [!UICONTROL 저장]을 클릭하면 사전 설정 이름 뒤에 별표(*)가 표시되어 아래와 같이 사전 설정이 변경되었음을 나타냅니다.
+   을 클릭한 후 [!UICONTROL 저장] 보고서의 구성을 편집한 후에는 별표( )를 사용합니다 &#42; )은 사전 설정 이름 뒤에 표시되어 아래와 같이 사전 설정이 변경되었음을 나타냅니다.
 
    ![별표가 표시된 보고서 사전 설정](/help/main/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -167,7 +167,7 @@ ht-degree: 68%
 
 ![다운로드 아이콘](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-자세한 내용은 [CSV 파일로 데이터 다운로드](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)를 참조하십시오.
+자세한 내용은 [CSV 파일로 데이터 다운로드](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)를 참조하십시오.
 
 ## 새로 고침 {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -192,7 +192,7 @@ ht-degree: 68%
 
 보고서는 활동과 연결된 상승도 한계와 신뢰 수준을 이해하는 유용한 몇 가지 데이터 포인트와 시각화 표현을 포함합니다. 이러한 항목들을 포함하는 것은 승자를 보다 정확하게 판별하는 데 도움이 됩니다.
 
-자세한 내용은 [평균 리프트, 리프트 경계 및 신뢰 구간](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129)을 참조하십시오.
+자세한 내용은 [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 다음 사항을 고려하십시오.
 

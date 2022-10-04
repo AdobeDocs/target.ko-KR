@@ -3,7 +3,7 @@ keywords: 보고서;통계적 방법론;통계적 계산;통계;평균;전환율
 description: 수작업에 사용되는 통계 계산에 대해 알아봅니다 [!UICONTROL A/B 테스트] 활동 [!DNL Adobe Target].
 title: 에 사용된 통계 계산에 대해 어떻게 알 수 있습니까? [!UICONTROL A/B 테스트] 활동?
 feature: Reports
-source-git-commit: 4fc3de2a15f117a4356d67fcffd7f9b881e1179a
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 2%
@@ -132,6 +132,6 @@ Welch의 t-test에서 자유의 정도는 다음과 같이 계산됩니다.
 
 ## 계산을 오프라인으로 수행
 
-[다운로드한 CSV 보고서](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75)는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다.
+[다운로드한 CSV 보고서](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다.
 
 이러한 통계 수량을 계산하려면 Target의 [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) 활동의 값을 입력할 Excel 파일입니다.

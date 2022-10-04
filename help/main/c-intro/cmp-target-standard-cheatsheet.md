@@ -4,7 +4,7 @@ description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Tar
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 96%
@@ -279,7 +279,7 @@ Target은 사용자가 이러한 대상을 추가할 때 이와 관련된 데이
 
 **오프라인 보고 계산을 수행할 수 있습니까?**
 
-보고서 페이지의 [CSV로 보고서 내보내기 및 주문 세부사항을 CSV로 다운로드 옵션](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) 을 사용하여 원하는 보고 데이터를 다운로드하십시오.
+보고서 페이지의 [CSV로 보고서 내보내기 및 주문 세부사항을 CSV로 다운로드 옵션](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) 을 사용하여 원하는 보고 데이터를 다운로드하십시오.
 
 **보고서를 평가하기 위해 제어 경험을 변경하거나 방문자에서 방문으로 카운트 방법을 변경할 수 있습니까?**
 
@@ -315,4 +315,4 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. 자세한 내용은 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+API에 대한 완전한 설명서가 있습니다. 자세한 내용은 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://developer.adobe.com/target/구현/서버측/){target=_blank}.
