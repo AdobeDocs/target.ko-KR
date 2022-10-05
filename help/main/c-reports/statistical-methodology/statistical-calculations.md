@@ -3,7 +3,7 @@ keywords: 보고서;통계적 방법론;통계적 계산;통계;평균;전환율
 description: 수작업에 사용되는 통계 계산에 대해 알아봅니다 [!UICONTROL A/B 테스트] 활동 [!DNL Adobe Target].
 title: 에 사용된 통계 계산에 대해 어떻게 알 수 있습니까? [!UICONTROL A/B 테스트] 활동?
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # A/B 테스트의 통계적 계산
 
-이 페이지에서는 의 수동 A/Bn 테스트에 사용되는 자세한 통계 계산을 설명합니다 [!DNL Adobe Target]. 에 대한 정의가 제공됩니다 [!UICONTROL 전환율], [!UICONTROL 전환율의 신뢰도 구간], [!UICONTROL 상승도], [!UICONTROL 상승도 신뢰 구간 을 참조하십시오], 및 [!UICONTROL 신뢰도].
+이 문서에서는 의 수동 A/Bn 테스트에 사용되는 자세한 통계적 계산 [!DNL Adobe Target]. 에 대한 정의가 제공됩니다 [!UICONTROL 전환율], [!UICONTROL 전환율의 신뢰도 구간], [!UICONTROL 상승도], [!UICONTROL 상승도 신뢰 구간 을 참조하십시오], 및 [!UICONTROL 신뢰도].
 
 >[!NOTE]
 >
