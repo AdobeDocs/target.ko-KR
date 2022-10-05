@@ -4,16 +4,23 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 26b8d4950939c0f68b29e4c5553deb1905251fc6
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 99%
+source-wordcount: '1320'
+ht-degree: 97%
 
 ---
 
 # 설명서 변경 내용
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
+
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (순차적 공개, 2022년 10월 5~7일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 10월 4일 | [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 새 주제입니다.<br>이 문서의 정보는 *A/B 테스트를 위한 Adobe Target 계산* 이전에 이 사이트에서 다운로드할 수 있었던 pdf 파일입니다. |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.9.1(순차적 공개, 2022년 9월 13~15일)
 
