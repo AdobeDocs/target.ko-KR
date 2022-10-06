@@ -4,7 +4,7 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 83%
@@ -24,7 +24,7 @@ ht-degree: 83%
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
 * **10월 10일**: 아시아 태평양(APAC) 지역
-* **10월 11일**: 아메리카 지역
+* **10월 12일**: 아메리카 지역
 * **10월 13일**: 유럽, 중동 및 아프리카(EMEA) 지역
 
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
