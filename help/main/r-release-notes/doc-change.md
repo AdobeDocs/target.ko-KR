@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: dddca90ac9280b6bab25b7e01d5ced33d1feead5
 workflow-type: tm+mt
 source-wordcount: '1320'
 ht-degree: 97%
@@ -15,7 +15,7 @@ ht-degree: 97%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## [!DNL Adobe Target] Standard/Premium 22.10.1 (순차적 공개, 2022년 10월 5~7일)
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (순차적 공개, 2022년 10월 10~13일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
