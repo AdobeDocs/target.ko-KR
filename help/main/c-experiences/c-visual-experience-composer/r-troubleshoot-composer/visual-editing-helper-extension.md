@@ -12,7 +12,7 @@ ht-degree: 100%
 
 # [!UICONTROL Visual Editing Helper] 확장 기능
 
-Google Chrome용 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브라우저 확장 기능을 사용하면 웹 사이트를 [!UICONTROL Adobe Target] [!UICONTROL 시각적 경험 작성기](VEC)에 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다.
+Google Chrome용 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브라우저 확장 기능을 사용하면 웹 사이트를 [!UICONTROL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC)에 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -33,7 +33,7 @@ Chrome용 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브�
 
 [고급 경험 작성기](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)를 사용하면 확장 기능이 at.js에 삽입되지는 않지만 SameSite 쿠키 기능은 여전히 존재한다는 점을 참고하십시오. 웹 페이지에서 at.js를 삽입하려면 EEC를 끕니다.
 
-* [모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)는 [!UICONTROL 고급 경험 작성기](EEC) 없이도 지원됩니다.
+* [모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)는 [!UICONTROL 고급 경험 작성기] (EEC) 없이도 지원됩니다.
 * [!DNL Target]을 처음 사용하는 고객은 IT 개발자가 아직 웹 사이트에서 [!DNL Target]을 구현하지 않았더라도 확장 기능을 사용하여 [!DNL Target]을 실험해 볼 수 있습니다.
 * 이제 여러 고객의 웹 사이트 및 [!DNL Target] 계정을 제공하는 파트너는 서드파티 도구에서 여러 규칙을 관리하는 대신 VEC 로드를 지원하는 단일 메커니즘을 보유합니다.
 
