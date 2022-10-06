@@ -4,9 +4,9 @@ description: Adobe에 의해 다양한 세그먼트가 정의되는 방법 알�
 title: 자동화된 세그먼트 보고서란?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2143'
 ht-degree: 73%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 73%
 
    다음 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 Target 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 보고서에는 활동의 성과에 대한 정보를 제공하는 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 두 개의 개인화 인사이트 보고서인 자동화된 세그먼트 및 중요 속성 보고서를 나타냅니다. 자동 Target 에는 의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다 [!UICONTROL 요약] 보고서 세트에 대해 설명합니다.
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Adobe Target의 개인화 통찰력 보고서](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ ht-degree: 73%
 
    와 달리 [!UICONTROL 요약] 보고서(성과 보고), [!UICONTROL 개인화 통찰력], 포함 [!UICONTROL 자동화된 세그먼트]에서는 고정된 날짜 범위에 대해서만 사용할 수 있습니다. 15일, 30일 및 60일. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. 시작 이 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Target 보고서의 달력](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    [!UICONTROL 기간 선택] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Adobe Target의 기간 드롭다운 목록](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. [!UICONTROL 자동화된 세그먼트] 보고서 데이터를 검토하십시오.
 

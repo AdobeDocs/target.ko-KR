@@ -4,10 +4,10 @@ description: Adobe에서 오퍼 보고 그룹을 사용하는 방법을 알아�
 title: Automated Personalization 활동에서 오퍼 보고 그룹을 사용할 수 있습니까?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 59%
 
 ---
 
@@ -34,16 +34,16 @@ ht-degree: 62%
 
 1. 설정 [!UICONTROL 경험] AP 활동의 페이지에서 **[!UICONTROL 콘텐츠 관리]** 아이콘.
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![콘텐츠 관리 아이콘](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. **[!UICONTROL 컨텐츠 관리]** 대화 상자 맨 위에 있는 [!UICONTROL 오퍼] 탭을 클릭합니다.
 1. (조건부) 원하는 오퍼 위로 마우스를 이동한 다음 **[!UICONTROL 보고 그룹]** 폴더 아이콘을 클릭하여 보고 그룹에 특정 경험을 추가합니다.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![보고 그룹 아이콘](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. (조건부) 관련 경험에 대한 확인란을 선택한 다음 대화 상자의 오른쪽 상단 모서리에 있는 **[!UICONTROL 보고 그룹]** 폴더 아이콘을 클릭하여 배치에 보고 그룹의 경험을 포함합니다.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![보고 그룹 아이콘](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. (조건부) 선택한 오퍼를 기존 보고 그룹에 지정하려면 을 선택합니다 **[!UICONTROL 기존]**&#x200B;드롭다운 목록에서 원하는 보고 그룹을 선택한 다음 를 클릭합니다 **[!UICONTROL 적용]**.
 
@@ -51,4 +51,4 @@ ht-degree: 62%
 
    선택한 오퍼를 지정할 새 보고 그룹을 생성하려면 **[!UICONTROL 새로 만들기]**&#x200B;를 선택하고 새 보고 그룹의 이름을 지정한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![새 보고 그룹을 만드는 새 아이콘](/help/main/c-reports/assets/ap_reporting_groups.png)

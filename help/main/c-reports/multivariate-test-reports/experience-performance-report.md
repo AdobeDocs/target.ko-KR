@@ -4,10 +4,10 @@ description: Adobe에 경험 성과 보고서를 사용하는 방법을 알아�
 title: 다변량 테스트에 경험 성과 보고서를 사용하려면 어떻게 합니까?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 90%
 
 하나 이상의 경험을 선택하여 비교할 수 있습니다. 경험을 클릭하고 **[!UICONTROL 미리 보기]**&#x200B;를 선택하여 브라우저 탭에서 경험을 엽니다.
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Adobe Target의 경험 성과 보고서](/help/main/c-reports/assets/experienceperformancetable.png)
 
 보고서 상단에 지표, 시작 및 종료 날짜, 보고서에 사용된 대상이 표시됩니다. 이러한 요소는 변경할 수 있습니다.
 

@@ -4,10 +4,10 @@ description: Adobe Target에서 Automated Personalization 요약 보고서를 �
 title: Automated Personalization 요약 보고서를 어떻게 사용합니까?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 39%
+source-wordcount: '679'
+ht-degree: 38%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 39%
 
 경험 알고리즘(Random Forest 또는 Control)을 클릭하여 [!UICONTROL 오퍼 수준] 보고서 세트에 대해 설명합니다.
 
-![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
+![Adobe Target의 오퍼 수준 보고서](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 오퍼는 보고서 그룹 내에서 표시할 수 있으며 이러한 보고서 그룹은 축소하고 확장할 수 있습니다. 롤업된 정보를 오퍼별로가 아니라 그룹별로 보려면 드롭다운 목록에서 [!UICONTROL 보고 그룹]을 선택하십시오.
 

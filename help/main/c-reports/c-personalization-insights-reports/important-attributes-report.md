@@ -4,10 +4,10 @@ description: 사용 방법을 알아봅니다 [!UICONTROL 중요 속성] 개인�
 title: 중요한 속성 보고서란 무엇입니까?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 81%
+source-wordcount: '1744'
+ht-degree: 80%
 
 ---
 
@@ -54,7 +54,7 @@ ht-degree: 81%
 
 1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL 중요 속성]** 아이콘.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Adobe Target 보고서의 중요 속성 아이콘](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. 원하는 날짜 범위를 선택합니다.
 
@@ -66,15 +66,15 @@ ht-degree: 81%
 
    이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;은 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Target 보고서의 달력](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    [!UICONTROL 기간 선택] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![보고서에서 기간 드롭다운 목록을 선택합니다](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. [!UICONTROL 중요 속성] 보고서 데이터를 검토하십시오.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Adobe Target의 중요 속성 보고서](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (선택 사항) Excel 및 기타 도구에서 분석할 [보고서를 CSV 형식으로 다운로드](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)합니다.
 

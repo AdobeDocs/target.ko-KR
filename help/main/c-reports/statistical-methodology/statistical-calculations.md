@@ -3,9 +3,9 @@ keywords: 보고서;통계적 방법론;통계적 계산;통계;평균;전환율
 description: 수작업에 사용되는 통계 계산에 대해 알아봅니다 [!UICONTROL A/B 테스트] 활동 [!DNL Adobe Target].
 title: 에 사용된 통계 계산에 대해 어떻게 알 수 있습니까? [!UICONTROL A/B 테스트] 활동?
 feature: Reports
-source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 2%
 
 ---
@@ -48,21 +48,21 @@ ht-degree: 2%
 
 전환율의 신뢰 구간은 기본 데이터와 일치하는 가능한 전환율의 범위로 직관적으로 정의됩니다.
 
-실험을 실행할 때 주어진 경험에 대한 전환율은 *예상* 의 &quot;true&quot; 전환율. 이 추정의 불확실성을 수치화하려면 [!DNL Target] 는 신뢰 구간을 사용합니다. [!DNL Target] 는 항상 95% 신뢰 구간을 보고합니다. 즉, 장기적으로 계산되는 신뢰 구간의 95%에는 경험의 실제 전환율이 포함됩니다.
+실험을 실행할 때 주어진 경험에 대한 전환율은 *예상* 의 &quot;true&quot; 전환율. 이 추정의 불확실성을 수치화하려면 [!DNL Target] 는 신뢰 구간을 사용합니다. [!DNL Target] 항상 95% 신뢰 구간을 보고합니다. 즉, 마지막에 계산된 신뢰 구간의 95%에는 경험의 실제 전환율이 포함됩니다.
 
 전환율의 95% 신뢰 구간 *um<sub>ν</sub>* 는 값 범위로 정의됩니다.
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
 
-여기서 평균에 대한 표준 오류는 다음과 같이 정의됩니다.
+여기서 평균에 대한 표준 오류가
 
 <p style="text-align:center;"><img width="75px" src="img/se_conv_continuous.png"></p>
 
-샘플 표준 편차의 공정한 추정이 사용되는 경우:
+샘플 표준 편차의 편차 견적이 사용되는 경우:
 
 <p style="text-align:center;"><img width="200px" src="img/stdev_definition.png"></p>
 
-캠페인이 전환율 캠페인(즉, 전환 지표는 바이너리)이면 표준 오류가 감소하여 다음과 같이 됩니다.
+캠페인이 전환율 캠페인(즉, 전환 지표가 바이너리임)이면 표준 오류가 감소하여 다음과 같이 됩니다.
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
@@ -76,7 +76,7 @@ ht-degree: 2%
 
 <p style="text-align:center;"><img width="15%" src="img/lift_definition.png"></p>
 
-여기서 개별 전환율은 위에서 정의한 것과 같습니다. 더 간단하게,
+여기서 개별 전환율이 위에서 정의한 바와 같습니다. 더 간단하게,
 
 ```
 Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performance_Control
@@ -86,7 +86,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ## [!DNL Confidence Interval of Lift]
 
-의 상자그림 그래프 [!UICONTROL 평균 상승도 및 신뢰도 구간] 열은 평균 값을 나타내고 95%를 나타냅니다 [!UICONTROL 상승도 신뢰 구간]. 상자그림 은 주어진 비제어 경험의 신뢰 구간에 통제되는 경험의 신뢰 구간에 겹치는 부분이 있으면 회색으로 표시되고, 주어진 경험의 신뢰 구간의 범위가 통제 경험의 신뢰 구보다 크거나 작을 때에는 녹색 또는 빨간색으로 표시됩니다.
+의 상자그림 그래프 [!UICONTROL 평균 상승도 및 신뢰도 구간] 열은 평균 값을 나타내고 95%를 나타냅니다 [!UICONTROL 상승도 신뢰 구간]. 제어 경험의 신뢰 구간과 지정된 비제어 경험의 신뢰 구간에 겹치는 부분이 있으면 상자플로우는 회색으로 표시됩니다. 주어진 경험의 신뢰 구간 범위가 통제 경험의 신뢰 구간 이상이거나 미만인 경우 상자플롯은 녹색 또는 빨간색으로 표시됩니다.
 
 경험 간의 상승도 표준 오류입니다  *ν*, 및 제어 경험  *ν<sub>0</sub>* 가 다음으로 정의됩니다.
 
@@ -100,7 +100,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ## [!UICONTROL 신뢰도]
 
-마지막 열에는 [!DNL Target] 보고서 세트에 대해 설명합니다. null 가설이 true인 경우, 경험의 신뢰도는 실제로 관찰된 것보다 덜 극단적인 결과를 얻을 확률(백분율로 표시됨)입니다. p 값 측면에서 표시되는 신뢰도는 *1 - p 값*. 직관적으로, 더 높은 신뢰도는 통제 경험과 비제어 경험이 동일한 전환율을 가질 가능성이 적다는 것을 의미합니다.
+마지막 열에는 [!DNL Target] 보고서 세트에 대해 설명합니다. null 가설이 true인 경우, 경험의 신뢰도는 관찰된 것보다 덜 극단적인 결과를 얻을 확률(백분율로 표시됨)입니다. p 값 측면에서 표시되는 신뢰도는 *1 - p 값*. 직관적으로, 더 높은 신뢰도는 통제 경험과 비제어 경험이 동일한 전환율을 가질 가능성이 적다는 것을 의미합니다.
 
 in [!DNL Target]양쪽의 꼬리표 **웰치의 t 테스트** 테스트 경험과 제어 경험 사이에 수행되어 테스트 및 제어 경험의 방법이 동일한지 테스트합니다. 우리는 일반적으로 실험을 실행하기 전에 두 그룹의 샘플 크기와 차이가 동일한지 모르므로 [!DNL Target] 또한 각 경험에 전송되는 트래픽의 비율을 불균등하게 가질 수도 있으므로 각 경험에 대한 분산이 같다고 가정하지 않습니다. 따라서, 웰치의 t-테스트는 학생의 t-테스트 대신 선택된다.
 
@@ -110,17 +110,17 @@ in [!DNL Target]양쪽의 꼬리표 **웰치의 t 테스트** 테스트 경험�
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-여기서 *um<sub>v</sub>* 및 *um<sub>v0</sub>* 의 목적은 *ν*  및 *ν<sub>0</sub>* 각각 및 의 차이값의 표준 오차 *um<sub>v</sub>* 및 *um<sub>v0</sub>* 제공 대상:
+위치 *um<sub>v</sub>* 및 *um<sub>v0</sub>* 의 목적은 *ν*  및 *ν<sub>0</sub>* 각각 및 의 차이값의 표준 오차 *um<sub>v</sub>* 및 *um<sub>v0</sub>* 제공 대상:
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-여기서 *시그마<sup>2개</sup><sub>v</sub>* 및 *시그마<sup>2개</sup><sub>v<sub>0</sub></sub>* 두 경험의 차이가 있습니다 *ν*  및 *ν<sub>0</sub>* 각각 및 *N<sub>v</sub>* 및 *N<sub>v<sub>0</sub></sub>* 에 대한 샘플 크기 *ν* 및 *ν<sub>0</sub>* 각각 사용할 수 있습니다.
+위치 *시그마<sup>2개</sup><sub>v</sub>* 및 *시그마<sup>2개</sup><sub>v<sub>0</sub></sub>* 두 경험의 차이가 있습니다 *ν*  및 *ν<sub>0</sub>* 각각 및 *N<sub>v</sub>* 및 *N<sub>v<sub>0</sub></sub>* 에 대한 샘플 크기 *ν* 및 *ν<sub>0</sub>* 각각 사용할 수 있습니다.
 
 Welch의 t-test에서 자유의 정도는 다음과 같이 계산됩니다.
 
 <p style="text-align:center;"><img width="180px" src="img/degree_of_freedom.png"></p>
 
-그리고 *ν*  및 *ν<sub>0</sub>* 다음으로 정의됩니다.
+그리고 자유도 *ν*  및 *ν<sub>0</sub>* 다음으로 정의됩니다.
 
 <p style="text-align:center;"><img width="100px" src="img/df_v.png"></p>
 
