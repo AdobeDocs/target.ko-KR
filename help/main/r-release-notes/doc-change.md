@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '1327'
-ht-degree: 99%
+source-wordcount: '1348'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 10월 10일 | [[!UICONTROL Visual Editing Helper] 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 새 문서. |
+|  | [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 업데이트된 &quot;[내 페이지가 VEC에 표시되지 않음(VEC만 해당)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)&quot; 섹션을 참조하십시오. |
 | 10월 4일 | [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 새 주제입니다.<br>이 문서의 정보는 이전에 이 사이트에서 다운로드할 수 있었던 *A/B 테스트를 위한 Adobe Target 계산* pdf 파일을 대체합니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 

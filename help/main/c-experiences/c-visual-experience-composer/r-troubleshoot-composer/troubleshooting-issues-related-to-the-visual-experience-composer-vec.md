@@ -4,10 +4,10 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법을 �
 title: 시각적 경험 작성기와 관련된 문제를 해결하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 85%
+source-wordcount: '869'
+ht-degree: 78%
 
 ---
 
@@ -106,7 +106,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 확장을 설정한 후 Target을 엽니다. 이제 고급 경험 작성기가 비활성화되더라도 페이지가 시각적 경험 작성기에 로드됩니다.
 
-## VEC(VEC 전용)에 내 페이지가 표시되지 않습니다. {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## VEC(VEC 전용)에 내 페이지가 표시되지 않습니다. {#does-not-load}
 
 * 브라우저가 지원되지 않습니다.
 * 브라우저가 보안 사이트에서 비보안 페이지를 차단하고 있습니다.
@@ -115,7 +115,11 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 * 올바르지 않은 URL을 입력했습니다.
 * 계정 설정 페이지에 기본 URL을 입력하지 않았습니다.
 
-이 설정이 활성화되어 있는지 확인한 다음, 웹 사이트에서 at.js를 다운로드하여 업데이트하십시오.
+   이 설정이 활성화되어 있는지 확인한 다음, 웹 사이트에서 at.js를 다운로드하여 업데이트하십시오.
+
+* 를 사용해 보면 [새 [!UICONTROL 시각적 편집 도우미] 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 그리고 다시 [이전 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 및 [!DNL Target] 웹 사이트를 로드하지 못하고 모든 브라우저 데이터를 지우고 새 확장을 비활성화합니다.
+
+* 웹 사이트가 VEC에서 로드되지 않거나 예기치 않게 동작하는 경우 웹 사이트를 로드하기 전에 브라우저에서 웹 사이트에서 쿠키를 허용하는 것이 잠재적 수정 사항입니다 [!DNL Target].
 
 ## 찾아보기 모드를 사용할 때 VEC가 손상된 것으로 나타납니다. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
