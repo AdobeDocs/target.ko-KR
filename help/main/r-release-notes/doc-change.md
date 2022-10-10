@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: dddca90ac9280b6bab25b7e01d5ced33d1feead5
 workflow-type: tm+mt
 source-wordcount: '1320'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,14 +19,14 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 10월 4일 | [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 새 주제입니다.<br>이 문서의 정보는 *A/B 테스트를 위한 Adobe Target 계산* 이전에 이 사이트에서 다운로드할 수 있었던 pdf 파일입니다. |
+| 10월 4일 | [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 새 주제입니다.<br>이 문서의 정보는 이전에 이 사이트에서 다운로드할 수 있었던 *A/B 테스트를 위한 Adobe Target 계산* pdf 파일을 대체합니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.9.1(순차적 공개, 2022년 9월 13~15일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 10월 3일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 날짜를 업데이트했습니다. [!DNL Target Standard/Premium] 22.10.1 릴리스. |
+| 10월 3일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium]22.10.1 릴리스에 대한 날짜를 업데이트했습니다. |
 | 9월 22일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2022년 9월 28일)</li></ul> |
 | 9월 15일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 웨비나에 대한 정보가 추가되었습니다.<ul><li>AI 기반 개인화 미세 조정: [!DNL Adobe Target]의 새로운 기능(2022년 10월 11일)</li></ul> |
 | 9월 13일 | [ [!DNL Target] UI 이해](/help/main/c-intro/understand-the-target-ui.md) | [!DNL Recommendations] 피드 실패 시 전송되는 알림에 대한 정보가 추가되었습니다. |
