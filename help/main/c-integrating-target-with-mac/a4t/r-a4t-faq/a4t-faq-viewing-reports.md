@@ -4,10 +4,10 @@ description: Analytics를 사용할 때 보고서 보기에 대한 FAQ에 대한
 title: A4T를 사용하여 보고서 보기에 대한 질문에 대한 답변을 찾으시겠습니까?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
 workflow-type: tm+mt
-source-wordcount: '2551'
-ht-degree: 33%
+source-wordcount: '2638'
+ht-degree: 31%
 
 ---
 
@@ -15,17 +15,23 @@ ht-degree: 33%
 
 이 주제에서는 사용 시 보고서 보기에 대해 자주 묻는 질문에 대한 답변을 제공합니다 [!DNL Adobe Analytics] 를 [!DNL Adobe Target] (A4T).
 
-## 제 것을 볼 수 있나요 [!DNL Target] Analysis Workspace의 활동 데이터? {#workspace}
+## 제 것을 볼 수 있나요 [!DNL Target] 활동 데이터 [!DNL Analysis Workspace]? {#workspace}
 
 다음을 사용할 수 있습니다 [!DNL Analysis Workspace] 분석을 위해 [!DNL Target] 활동 및 경험. 다음 [Analytics for Target 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ko-KR) 최대 3개의 성공 지표에 대한 상승도 및 신뢰도를 볼 수 있습니다. 표와 시각화를 사용하여 보다 심층적인 작업을 수행할 수도 있습니다.
 
-자세한 내용 및 예를 보려면 [Analytics 및 Target: 분석 우수 사례 자습서](https://spark.adobe.com/page/Lo3Spm4oBOvwF/): Adobe Experience League에서 제공.
+자세한 내용 및 예를 보려면 [Analytics 및 Target: 분석 우수 사례 자습서](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), 제공 [!UICONTROL Adobe Experience League].
 
-## Analysis Workspace에서 세그먼트를 적용할 수 있는 위치는 어디입니까? {#segmentation}
+## 에서 세그먼트를 적용할 수 있는 위치 [!DNL Analysis Workspace]? {#segmentation}
 
 세그먼트는 세그먼트 드롭 영역의 패널 맨 위에서 가장 일반적으로 사용됩니다. 세그먼트는 패널의 모든 테이블 및 시각화에 적용됩니다. 이 기법은 테스트가 사람 하위 집합에 어떻게 영향을 주는지 확인하는 데 가장 유용합니다(예: 이 테스트가 영국에 있는 사람에게 어떻게 수행됩니까).
 
 세그먼트는 자유 형식 테이블 내에서 직접 계층화할 수도 있지만, A4T 패널 내에서 상승도 및 신뢰도 계산을 보존하려면 전체 테이블에 오버레이해야 합니다. 열 수준 세그먼트는 현재 패널 내에서 지원되지 않습니다.
+
+## 에서 &quot;동일한 터치&quot; Attribution IQ 모델을 적용할 수 있습니까? [!DNL Analysis Workspace]?
+
+사용 시 [!DNL Target] 활동 노출 수 및 전환 [!DNL Analysis Workspace]를 채울 수 있도록 지표에 &quot;동일한 터치&quot; Attribution IQ 모델을 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
+
+모든 현재 [!DNL Adobe Analytics] 이 모델은 [!UICONTROL Attribution IQ]. 액세스 권한이 없는 경우 [!UICONTROL Attribution IQ]에서 A4T 데이터를 활용하십시오. [!UICONTROL Reports &amp; Analytics].
 
 ## 특정 항목에 대해 히트 세그먼트를 적용할 때 [!DNL Target] 활동, 관련 없는 경험이 반환되는 이유는 무엇입니까? {#activity-segmentation}
 
@@ -33,7 +39,7 @@ ht-degree: 33%
 
 히트에 표시할 활동을 세그먼트화할 때 해당 활동의 일부인 모든 경험을 가져옵니다 *plus* 해당 히트에서 지속되는 다른 모든 경험.
 
-## 목표 지표를 구성하는 동안 고급 설정에 액세스할 수 없는 이유는 무엇입니까?
+## 을 구성하는 동안 [!UICONTROL 목표 지표]에 액세스할 수 없는 이유 [!UICONTROL 고급 설정]?
 
 를 사용하는 활동의 경우 [!DNL Analytics] 를 보고 소스로 사용(A4T)하는 목표 지표는 &quot;[!UICONTROL 증분 카운트 및 사용자를 활동에 유지]&quot; 및 &quot;[!UICONTROL 노출 시마다]&quot; 설정. 이러한 설정은 다음과 같습니다 *not* 구성 가능합니다.
 
@@ -56,17 +62,17 @@ A4T 보고에서 지표를 정규화하는 몇 가지 옵션이 있습니다. �
 
 자세한 내용은 [자동 Target 활동을 위해 Analysis Workspace에서 A4T 보고서를 설정하는 방법](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Adobe Target Tutorials*.
 
-## Analysis Workspace에서 Reports &amp; Analytics보다 &quot;활동 노출 수&quot; 및 &quot;활동 전환&quot;이 더 높은 이유는 무엇입니까? {#sametouch}
+## 에서 &quot;활동 노출 수&quot;와 &quot;활동 전환&quot;이 더 높은 이유는 무엇입니까? [!DNL Analysis Workspace] than [!UICONTROL Reports &amp; Analytics]? {#sametouch}
 
 [!DNL Reports & Analytics] 동일한 터치 속성 모델을 &quot;활동 노출 수&quot; 및 &quot;활동 전환&quot;에 적용하는 반면, [!DNL Analysis Workspace] 의 지속성으로 인해 부풀려질 수 있는 원시 지표를 표시합니다 [!DNL Target] 차원.
 
 정확성을 평가하려면 [!UICONTROL 활동 노출 횟수] 및 [!UICONTROL 활동 전환] 지표 [!DNL Analysis Workspace], 두 지표가 [!UICONTROL 동일한 터치] 기여도 분석 모델이 적용되었습니다. 열 설정 톱니바퀴를 클릭하고, [!UICONTROL 기본값이 아닌 속성 모델]을 활성화한 다음 [!UICONTROL Same Touch]를 선택하여 모델을 적용할 수 있습니다. 의 속성에 대해 자세히 알아보기 [속성 IQ 개요](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/attribution.html) 에서 *Analytics 툴 안내서*.
 
-## 마케터가 활동을 설정할 때 Analytics 지표를 선택하는 경우 &quot;활동 전환&quot;은 무엇을 의미합니까? {#section_F3EBACF85AF846E9B366A549AAB64356}
+## 마케터가 다음을 선택하는 경우 &quot;활동 전환&quot;은 무엇을 의미합니까? [!DNL Analytics] 활동 설정 중에 지표를 사용할 수 있습니까? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
 활동 전환은 [!DNL Analytics] 지표를 활동에 대한 전환 지표로 선택했습니다.
 
-## Analytics 보고서에서 &quot;지정되지 않음&quot;이 표시되는 이유는 무엇이며 어떤 의미입니까? {#unspecified}
+## 에 &quot;지정되지 않음&quot;이 표시되는 이유는 무엇입니까? [!DNL Analytics] 보고서? 어떤 의미입니까? {#unspecified}
 
 기타 보고서에서 &quot;지정되지 않음&quot;은 데이터가 분류 규칙과 일치하지 않음을 의미하지만 A4T에서는 그렇지 않습니다. &quot;지정되지 않음&quot;이 표시되는 경우 분류 서비스가 아직 실행되지 않은 것입니다. 활동 데이터가 보고서에 표시되려면 일반적으로 24~72시간이 걸립니다. 이 시간까지 보고서에 활동 데이터가 표시되지 않더라도 해당 활동과 연관된 모든 방문자 데이터는 캡처되며 분류가 완료되면 표시됩니다.
 
@@ -74,9 +80,9 @@ A4T 보고에서 지표를 정규화하는 몇 가지 옵션이 있습니다. �
 
 해당 활동에 대한 분류가 수행되었으며 보고서에 &quot;지정되지 않음&quot; 행이 여전히 표시되는 경우 보고서가 비를 사용하지 않는지 확인하십시오[!DNL Target] 지표를 사용하여 데이터를 표시합니다. 보고서에서 [!DNL Target]-특정 지표, &quot;지정되지 않음&quot; 행에는 [!DNL Target]. 해당 행에 아무 것도 포함되지 않습니다. [!DNL Target]-관련 정보(예: 방문자 수/방문 횟수/노출 횟수).
 
-## 이유는 무엇입니까? [!DNL Target] 활동이 비활성화된 후에도 Analytics에 전송된 지표 {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## 이유는 무엇입니까? [!DNL Target] 보낸 지표 [!DNL Analytics] 활동이 비활성화된 후에도? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
-[!DNL Target]에 보내진 [!DNL Analytics] 변수에는 기본 90일 만료 기간이 있습니다. 필요한 경우 고객 지원 센터에서 이 만료 기간을 조정할 수 있습니다. 이 설정값은 모든 활동에 적용되지만 하나의 사례에 맞게 조정하지 않아야 합니다.
+[!DNL Target]에 보내진 [!DNL Analytics] 변수에는 기본 90일 만료 기간이 있습니다. 필요한 경우 고객 지원 센터에서 이 만료 기간을 조정할 수 있습니다. 이 설정은 모든 활동에 대해 전역적입니다. 그러나 한 사례에 대해 조정해서는 안 됩니다.
 
 아마 [!DNL Target] 변수를에 보낸 변수 [!DNL Analytics] 만료 기간 이후에는 90일이 지나지만 다른 A4T가 활성화되지 않은 경우에만 만료됩니다 [!DNL Target] 활동. 사용자가 45일 째 되는 날 사이트를 재방문하여 다른 활동을 보는 경우에는 전체 A4T eVar 값의 카운터가 90일로 재설정됩니다. 즉, 이제 첫 번째 날의 첫 번째 캠페인은 최대 45 + 90 = 135일 동안 지속할 수 있습니다. 사용자가 계속 돌아오는 경우 전송된 지표를 볼 수 있는 지점까지 도달할 수 있습니다 [!DNL Analytics] 를 반환합니다. 사용자가 쿠키를 삭제하고 사이트로 돌아오지 않으면 해당 활동의 숫자가 감소하지만 여전히 쿠키를 볼 수 있습니다.
 
@@ -123,7 +129,7 @@ A4T 보고에서 지표를 정규화하는 몇 가지 옵션이 있습니다. �
 
 비활성화 후 A4T 활동의 보고서에 대한 노출 소스는 QA 모드 트래픽일 수 있습니다. Target은 일반적으로 비활성화된 활동에 대해 이벤트를 기록하지 않지만, Analytics에서는 노출 수가 QA 모드에서 오는지 알 수 있는 방법이 없습니다. Analytics에서 Target 활동 보고서를 검색하면 이러한 노출 수가 표시됩니다. 활동이 QA 모드를 사용하여 활성 상태가 아닌 경우에도 고객이 A4T 보고서를 확인할 수 있는 방법이 필요하므로 설계된 것입니다.
 
-## Analytics와 Analytics for Adobe Target(A4T)에서 고유 방문자 수 지표에 대해 숫자를 서로 다르게 계산하는 이유는 무엇입니까? {#section_0C3B648AB54041F9A2AA839D51791883}
+## 왜? [!DNL Analytics] 및 [!UICONTROL Adobe Target용 Analytics] (A4T)에서 [!UICONTROL 고유 방문자 수] 지표를 다르게? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 A/B 테스트를 실행하는 경우, 여기서 는 [웰치의 t 테스트](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}(신뢰도 지표)에서 테스트 승자를 선택할 수 있습니다. 가정 중 하나는 고정된 시간 범위가 있다는 것입니다. 고정된 샘플 크기를 보지 않는 한 테스트가 통계적으로 유효하지 않습니다.
 
@@ -133,7 +139,7 @@ A/B 테스트를 실행하는 경우, 여기서 는 [웰치의 t 테스트](http
 
 시간을 단축할 수 있습니다 [!DNL Target] 변수는 세션으로 지속됩니다. 하지만 전환 이벤트가 동일한 세션 내에서 발생할 가능성이 없는 테스트에는 문제가 됩니다.
 
-## 동일한 방문자가 때로 Analytics의 여러 경험에서 카운트되는 이유는 무엇입니까? {#section_1397E972D31C4207A142E4D2D6D794A2}
+## 같은 방문자가 때때로 의 여러 경험에서 계산되는 이유는 무엇입니까 [!DNL Analytics]? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 다음 목록에서는 동일한 방문자가 의 여러 경험에서 카운트될 수 있는 이유를 설명합니다 [!DNL Analytics]:
 
@@ -151,7 +157,7 @@ A/B 테스트를 실행하는 경우, 여기서 는 [웰치의 t 테스트](http
 
 활성화 이후 비율을 변경하는 대신 기존 활동을 중지한 다음 새 활동을 만드는 것이 우수 사례로 권장됩니다. 새 활동에 대한 보고는 새 방문자로 시작되며, 재방문자의 데이터로 인해 일관되지 않은 보고가 발생하지는 않습니다.
 
-## A4T를 사용하는 자동 Target 활동에 할당된 방문 및 전환 크레딧은 어떻게 계산됩니까?
+## 에서 방문 횟수는 어떻게 계산됩니까 [!DNL Analytics] 및 [!UICONTROL 자동 Target] A4T를 사용하는 활동?
 
 방문자가 자격을 얻거나, 컨텐츠를 보거나, A4T 활동에서 전환하면, [!DNL Target] 에 이벤트 데이터 보내기 [!DNL Analytics]. 이 이벤트 데이터는 [!DNL Analytics] 페이지에서 발생하는 전환 이벤트 및 기타 클릭스트림 이벤트를 관련 이벤트에 처리하려면 [!DNL Target] 활동 및 경험.
 
