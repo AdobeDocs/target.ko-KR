@@ -4,10 +4,10 @@ description: Adobe의 성공 지표에 대해 알아보기 [!DNL Target] 활동�
 title: 성공 지표란?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 44%
+source-wordcount: '1267'
+ht-degree: 42%
 
 ---
 
@@ -77,8 +77,8 @@ in [!DNL Target], 성공 지표는 보고 및 추적 목적을 둘 다 위한 �
 
 * [!UICONTROL 권장 사항] 활동. 이 기능은 다른 모든 활동 유형에 대해 지원됩니다.
 * 만약 [보고 소스로서의 Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
-* &quot;페이지 확인함&quot; 지표 유형
-* VEC(시각적 경험 작성기) 활동에 대한 &quot;요소를 클릭함&quot; 지표 유형
+* 페이지 확인함 지표 유형.
+* VEC(시각적 경험 작성기) 활동에 대한 &quot;요소를 클릭함&quot; 지표 유형입니다.
 
 종속적 성공 지표는 다음과 같은 경우에 전환되지 않습니다.
 
@@ -106,6 +106,12 @@ in [!DNL Target], 성공 지표는 보고 및 추적 목적을 둘 다 위한 �
 * 응모자마다 한 번
 * 노출 시마다(페이지 새로 고침 제외)
 * 노출 시마다
+
+## 알려진 문제
+
+* 고급 옵션 &quot;카운트는 어떻게 증분됩니까?&quot;가 &quot;모든 노출&quot; 또는 &quot;모든 노출(새로 고침 제외)&quot;로 설정된 성공 지표는 다른 지표가 종속되는 성공 지표로 사용할 수 없습니다.
+
+성공 지표가 모든 노출에서 증가하도록 설정되면, [!DNL Target] 방문자가 이 성공 지표를 방문할 때마다 다시 방문자를 계산합니다. [!DNL Target] 그런 다음 성공 지표 &quot;멤버십&quot;을 0으로 재설정하여 다음 노출 시 다시 카운트할 수 있습니다. 따라서 다른 지표를 사용하려면 먼저 이 지표를 확인해야 하는 경우, [!DNL Target] 사용자가 첫 번째 지표를 보았다는 것을 인식하지 못합니다.
 
 ## 교육 비디오: 활동 지표
 

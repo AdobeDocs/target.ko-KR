@@ -4,10 +4,10 @@ description: Adobe에서 URL로 리디렉션 옵션을 사용하는 방법을 �
 title: 페이지를 다른 URL로 리디렉션할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '440'
-ht-degree: 80%
+source-wordcount: '485'
+ht-degree: 82%
 
 ---
 
@@ -51,4 +51,9 @@ ht-degree: 80%
    * 해시(#) 조각
    * 쿼리
    * mbox 매개 변수
+
    추가 규칙은 AND 또는 OR을 사용하여 활동 URL에 결합할 수 있습니다. 추가하는 모든 규칙은 AND를 사용하여 서로 평가됩니다.
+
+## 알려진 문제
+
+* at.js 구현의 리디렉션 활동으로 인해 미리보기 URL이 루프에 들어가게 됩니다(오퍼가 반복적으로 전달됨). 대신 [QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md) 를 사용하여 미리보기와 QA를 수행할 수 있습니다. 이 문제는 오퍼의 실제 전달에는 영향을 주지 않습니다. (TGT-23019)

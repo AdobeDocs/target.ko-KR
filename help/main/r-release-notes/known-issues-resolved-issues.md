@@ -4,9 +4,9 @@ description: 해결 방법 정보를 포함하여 Adobe Target에서 알려진 �
 title: 알려진 문제 및 해결된 문제에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4528'
+source-wordcount: '4326'
 ht-degree: 100%
 
 ---
@@ -23,21 +23,9 @@ ht-degree: 100%
 
 다음 섹션에서는 [!DNL Target]에 대한 알려진 문제들을 나열합니다.
 
-### EEC(고급 경험 작성기)가 PUT 요청을 지원하지 않음
-
-현재 EEC의 문제로 인해 PUT 요청을 지원하지 못하고 504 시간 초과 오류가 발생합니다. (TGT-41493)
-
-### [!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다.
-
-[!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] (AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
-
 ### [!UICONTROL 자동 타겟팅] 활동이 동기화 문제를 일으킬 수 있음
 
 비활성 [!UICONTROL 자동 타겟] 활동을 보관하려는 시도는 동기화 문제를 일으킬 수 있습니다. 이 문제가 수정되기 전까지 [!UICONTROL 자동 타겟] 활동을 보관하지 마십시오. [!UICONTROL 비활성] 상태로 두십시오. (TGT-40885)
-
-### 리디렉션 오퍼 {#redirect}
-
-* at.js 구현의 리디렉션 활동으로 인해 미리보기 URL이 루프에 들어가게 됩니다(오퍼가 반복적으로 전달됨). 대신 [QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md) 를 사용하여 미리보기와 QA를 수행할 수 있습니다. 이 문제는 오퍼의 실제 전달에는 영향을 주지 않습니다. (TGT-23019)
 
 ### VEC(시각적 경험 작성기) 내에서 페이지 로드 취소 {#cancel}
 
@@ -86,12 +74,6 @@ MVT 활동에서 테이블 및 그래프에 표시되는 승자가 지표를 확
 * Cordova/Hybrid 앱에서는 퍼스트 파티 쿠키가 현재 지원되지 않으므로 이 앱에서 at.js가 작동하지 않을 수 있습니다. (TNT-26166)
 
    **해결 방법**: &quot;x-only&quot; 선택 사항을 활성화한 상태로 at.js를 구성한 후 호출에 `mboxThirdPartyId` 를 전달하여 사용자를 관리합니다.
-
-### 성공 지표
-
-고급 옵션 &quot;카운트는 어떻게 증분됩니까?&quot;가 &quot;모든 노출&quot; 또는 &quot;모든 노출(새로 고침 제외)&quot;로 설정된 성공 지표는 다른 지표가 종속되는 성공 지표로 사용할 수 없습니다.
-
-성공 지표가 노출 시마다 증분되도록 설정되면 Target에서는 방문자가 이 성공 지표를 방문할 때마다 방문자를 다시 카운트합니다. 그런 다음 Target은 성공 지표 &quot;멤버십&quot;을 0으로 재설정하여 다음 노출 시 다시 카운트될 수 있도록 합니다. 따라서 해당 지표를 먼저 확인해야 하는 다른 지표가 있다고 해도, Target은 사용자가 첫 번째 지표를 확인했다는 사실을 절대 인식하지 못합니다.
 
 ### [!DNL Target] (A4T)에 대한 Analytics
 

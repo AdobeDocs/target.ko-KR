@@ -4,9 +4,9 @@ description: 사용 방법을 알아봅니다 [!UICONTROL 중요 속성] 개인�
 title: 중요한 속성 보고서란 무엇입니까?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1776'
 ht-degree: 80%
 
 ---
@@ -148,3 +148,9 @@ ht-degree: 80%
 * 모델 학습 방법에 가장 중요한 속성을 파악합니다.
 * 개인화 모델에서 사용되는 속성 및 그러한 속성의 중요도를 확인합니다.
 * 개인화를 자세히 알릴 Target에 전달할 수 있는 추가 데이터 포인트에 대한 기회를 식별합니다.
+
+## 알려진 문제
+
+다음 문제는 현재 [!DNL Target] 엔지니어링 팀.
+
+* [!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] (AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)
