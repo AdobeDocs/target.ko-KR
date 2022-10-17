@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
+source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 97%
+source-wordcount: '1214'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 97%
    + [Target 릴리스 정보 (현재)](r-release-notes/release-notes.md)
    + [Target 릴리스 정보(프리릴리스)](r-release-notes/target-release-notes.md)
    + [Target 설명서 개요](/help/main/r-release-notes/target-documentation.md)
-   + [Target Insider 뉴스레터](/help/main/r-release-notes/target-insider-newsletter.md)
    + [알려진 문제 및 해결된 문제](r-release-notes/known-issues-resolved-issues.md)
    + [시스템 상태 업데이트 및 사전 알림](r-release-notes/system-status-updates.md)
    + [설명서 변경 내용](r-release-notes/doc-change.md)
@@ -234,7 +233,7 @@ ht-degree: 97%
          + [향상된 경험 작성기 문제 해결](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [브라우저에서 혼합 콘텐츠 사용](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [페이지 수정 시나리오](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [시각적 편집 도우미 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+         + [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL로 리디렉션](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [시각적 경험 작성기에서 작동하는 회전 메뉴 만들기](c-experiences/c-visual-experience-composer/vec-carousels.md)
@@ -259,7 +258,7 @@ ht-degree: 97%
       + [예외적인 값 제외](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [CSV 파일로 데이터 다운로드](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 통계적 방법론 {#statistical-methodology}
-      + [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
+      + [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + 개인화 보고서 {#personalization-reports}
       + [Auto-Target 요약 보고서](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)
