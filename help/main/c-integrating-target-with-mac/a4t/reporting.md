@@ -4,10 +4,10 @@ description: Analytics 사용 방법 알아보기 [!DNL Target] (A4T). A4T에서
 title: A4T에서 보고를 사용하려면 어떻게 해야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 47%
+source-wordcount: '1312'
+ht-degree: 45%
 
 ---
 
@@ -77,7 +77,7 @@ When [!DNL Analytics] 이 보고 소스로 사용되면 [!DNL Target] 에서 수
 
 ## Analytics for Adobe Target (A4T)에 사용할 오프라인 계산 수행 {#section_B34BD016C8274C97AC9564F426B9607E}
 
-A4T에 사용할 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 
+를 사용하여 A4T에 대한 신뢰 및 신뢰 구간을 위해 오프라인 계산을 수행할 수 있습니다 [!DNL Target] [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) Excel 파일이지만 의 데이터 내보내기 단계가 필요합니다 [!DNL Analytics].
 
 A4T에서는 [웰치의 t 테스트](https://en.wikipedia.org/wiki/Welch%27s_t-test)연속 변수(이진 지표가 아님)에 대한 {target=_blank} 계산. Analytics에서 방문자는 항상 추적되며 수행된 모든 작업이 카운트됩니다. 따라서 방문자가 여러 번 구입하거나 성공 지표를 여러 번 방문하면 해당 추가 히트가 카운트됩니다. 이 작업으로 지표는 연속 변수가 됩니다. 웰치의 t-test 계산을 수행하려면 t-통계의 분모로 사용되는 분산을 계산하기 위해 &quot;제곱의 합계&quot;가 필요합니다. [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) 사용되는 수식의 세부 정보를 설명합니다. 제곱의 합은 [!DNL Analytics]. 제곱합 데이터를 얻으려면, 최적화할 지표에 대한 방문자 수준 내보내기를 샘플 기간 동안 수행해야 합니다.
 

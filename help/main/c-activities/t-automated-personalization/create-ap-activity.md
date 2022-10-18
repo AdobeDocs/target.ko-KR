@@ -4,10 +4,10 @@ description: 만들기 방법 알아보기 [!UICONTROL Automated Personalization
 title: 웹 사이트를 작성하는 방법 [!UICONTROL Automated Personalization] 활동?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '2048'
-ht-degree: 89%
+source-wordcount: '2078'
+ht-degree: 88%
 
 ---
 
@@ -70,7 +70,7 @@ ht-degree: 89%
 
    >[!NOTE]
    >
-   >AP 활동에서 최대 30,000개의 경험을 작성할 수 있지만, 이 활동은 5,000개 미만의 경험이 사용되는 경우 가장 잘 수행됩니다.
+   >AP 활동에서 최대 30,000개의 경험을 작성할 수 있지만, 이 활동은 5,000개 미만의 경험이 사용되는 경우 가장 잘 수행됩니다. 이 동일한 제한은 활동이 활성화 된 경우에도 적용됩니다. [!UICONTROL 중복 제거] 선택 사항입니다.
 
    [!UICONTROL 경험] 목록에는 활동에 대해 선택된 각 콘텐츠 부분과 지정된 위치가 표시됩니다.
 
@@ -106,7 +106,7 @@ ht-degree: 89%
 
    ![콘텐츠 관리 대화 상자의 제외 그룹 탭](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   AP 테스트에서 최대 30,000개의 경험을 만들 수 있지만, 이 알고리즘은 사용되는 고유 경험이 10,000개 보다 작을 때 가장 잘 수행됩니다.
+   AP 테스트에서 최대 30,000개의 경험을 만들 수 있지만, 이 알고리즘은 사용되는 고유 경험이 10,000개 보다 작을 때 가장 잘 수행됩니다. 이 동일한 제한은 활동이 활성화 된 경우에도 적용됩니다. [!UICONTROL 중복 제거] 선택 사항입니다.
 
    현재, 활동에 포함된 제외 그룹이 없는 경우 **제외 그룹 만들기**&#x200B;를 클릭합니다. 제외할 조합만 표시하는 목록을 만들도록 필터링할 수 있습니다. 제외 그룹의 이름을 지정하고 **저장**&#x200B;을 클릭합니다.
 

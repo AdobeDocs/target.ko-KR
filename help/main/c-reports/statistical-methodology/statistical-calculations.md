@@ -3,20 +3,20 @@ keywords: 보고서;통계적 방법론;통계적 계산;통계;평균;전환율
 description: 수작업에 사용되는 통계 계산에 대해 알아봅니다 [!UICONTROL A/B 테스트] 활동 [!DNL Adobe Target].
 title: 에 사용된 통계 계산에 대해 어떻게 알 수 있습니까? [!UICONTROL A/B 테스트] 활동?
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 5%
 
 ---
 
-# A/B 테스트의 통계적 계산
+# A/Bn 테스트의 통계 계산
 
 이 문서에서는 의 수동 A/Bn 테스트에 사용되는 자세한 통계적 계산 [!DNL Adobe Target]. 에 대한 정의가 제공됩니다 [!UICONTROL 전환율], [!UICONTROL 전환율의 신뢰도 구간], [!UICONTROL 상승도], [!UICONTROL 상승도 신뢰 구간 을 참조하십시오], 및 [!UICONTROL 신뢰도].
 
 >[!NOTE]
 >
->이 문서의 정보는 *A/B 테스트를 위한 Adobe Target 계산* 이전에 이 사이트에서 다운로드할 수 있었던 pdf 파일입니다.
+>이 문서의 정보는 이전에 이 사이트에서 다운로드할 수 있었던 *A/B 테스트를 위한 Adobe Target 계산* pdf 파일을 대체합니다.
 
 ![을 보여주는 Target 보고서 [!UICONTROL 전환율], [!UICONTROL 평균 상승도 및 신뢰도 구간], 및 [!UICONTROL 신뢰도] A/B 테스트 활동 중 하나를 선택합니다.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
@@ -138,4 +138,4 @@ Welch의 t-test에서 자유의 정도는 다음과 같이 계산됩니다.
 
 [다운로드한 CSV 보고서](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)는 원시 데이터만 포함하며 A/B 테스트에 사용되는 방문자당 수입, 상승도 또는 신뢰도와 같이 계산된 지표는 포함하지 않습니다.
 
-이러한 통계 수량을 계산하려면 Target의 [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) 활동의 값을 입력할 Excel 파일입니다.
+이러한 통계 수량을 계산하려면 [!DNL Target] [Complete Confidence Calculator](/help/main/assets/complete_confidence_calculator.xlsx) 활동의 값을 입력할 Excel 파일입니다.

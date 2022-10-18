@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 99%
+source-wordcount: '1458'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,9 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 10월 14일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 에 대한 등록 정보를 추가했습니다. [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2022년 10월 26일). |
+| 10월 18일 | [[!UICONTROL Automated Personalization 활동 만들기]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP 테스트에서 최대 30,000개의 경험을 작성할 수 있지만, 고유 경험이 10,000개 이하인 경우 이 알고리즘이 가장 잘 수행됨을 나타내도록 텍스트가 업데이트되었습니다. 이 동일한 제한은 활동이 활성화 된 경우에도 적용됩니다. [!UICONTROL 중복 제거] 선택 사항입니다. |
+|  | [자동화된 개인화 FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | AP 테스트에서 최대 30,000개의 경험을 작성할 수 있지만, 고유 경험이 10,000개 이하인 경우 이 알고리즘이 가장 잘 수행됨을 나타내도록 텍스트가 업데이트되었습니다. 이 동일한 제한은 활동이 활성화 된 경우에도 적용됩니다. [!UICONTROL 중복 제거] 선택 사항입니다. |
+| 10월 14일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break(2022년 10월 26일)에 대한 등록 정보가 추가되었습니다. |
 | 10월 10일 | [[!UICONTROL Visual Editing Helper] 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 신규 문서. |
 |  | [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | “[VEC에 내 페이지가 표시되지 않습니다(VEC 전용)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)” 섹션이 업데이트되었습니다. |
 | 10월 4일 | [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 새 주제입니다.<br>이 문서의 정보는 이전에 이 사이트에서 다운로드할 수 있었던 *A/B 테스트를 위한 Adobe Target 계산* pdf 파일을 대체합니다. |
