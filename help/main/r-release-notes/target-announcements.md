@@ -5,9 +5,9 @@ title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1927'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Mag
 
 ## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break
 
-Draw Burns, 그룹 제품 마케팅 관리자 [!DNL Adobe Target]에 응답합니다. [!DNL Target] 최근 향상된 지능과 AI 기능 제어 및 모든 개인화에 대한 흥미로운 최신 발표와 관련된 질문입니다.
+[!DNL Adobe Target]의 그룹 제품 마케팅 관리자인 Drew Burns가 최근 강화된 인공지능 기능과 모든 개인화 기능에 대한 최신 흥미진진한 발표와 관련하여 귀하의 [!DNL Target] 질문에 답할 예정입니다.
 
 * **10월 26일 수요일**
 * **오전 9시~10시 (PDT, UTC-7)**
@@ -33,7 +33,7 @@ Draw Burns, 그룹 제품 마케팅 관리자 [!DNL Adobe Target]에 응답합�
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Adobe Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
-현재 예약한 내용이 없습니다.
+현재 일정이 없습니다.
 
 ## 과거 웨비나 및 스킬 빌더 세션 녹화
 
