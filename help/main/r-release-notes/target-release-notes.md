@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 12145d022ac2d880fde8eb03c36b031ca36b530d
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 63%
+source-wordcount: '430'
+ht-degree: 54%
 
 ---
 
@@ -31,11 +31,14 @@ ht-degree: 63%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| 연속 지표 | 에서 매출과 같은 연속 지표를 사용하는 기능이 추가되었습니다 [!UICONTROL 자동 Target] 및 [!UICONTROL 할당-할당] 활동.<br>이전에는 [!UICONTROL 자동 Target] 및 [!UICONTROL 자동 할당] 모델은 이진(전환 기반) 지표에서만 작동하도록 최적화되었습니다. (TGT-43649 및 TGT-43649) |
-| [!DNL Recommendations] 친숙한 이름 | 에 친숙한 이름이 추가되었습니다. [!UICONTROL Target 분석] A4T 보고. 이전에는 [!DNL Target] 나열된 경험 ID입니다. 이 개선 사항은 고객이 A4T에서 보고서 작성을 간소화하는 데 도움이 됩니다. (TGT-41853 |
+| 연속 지표 | 에서 매출과 같은 연속 지표를 사용하는 기능이 추가되었습니다 [!UICONTROL 자동 Target] 및 [!UICONTROL 할당-할당] 활동.<br>이전에는 [!UICONTROL 자동 Target] 및 [!UICONTROL 자동 할당] 모델은 이진(전환 기반) 지표에서만 작동하도록 최적화되었습니다. (TGT-43649 및 TGT-43649)<BR>이 기능은 일부 고객에게만 제공됩니다. 이 기능은 향후 릴리스에서 모든 고객이 사용할 수 있습니다. |
+| [!DNL Recommendations] 친숙한 이름 | 에 친숙한 이름이 추가되었습니다. [!UICONTROL Target 분석] A4T 보고. 이전에는 [!DNL Target] 나열된 경험 ID만 해당. 이 개선 사항은 [!DNL Adobe Analytics] 및 [!DNL Target] 및 은 고객이 A4T에서 보고서 작성을 간소화하는 데 도움이 됩니다. (TGT-41853 |
 
-* 에 도구 설명이 추가되었습니다 [!DNL Target] 고객이 대상 빌더를 보다 효율적으로 탐색할 수 있는 UI입니다. (TGT-44139)
-* 고객이 비활성화된 활동을 편집하지 못하도록 하는 기능이 추가되었습니다. [!DNL Target] 지원되지 않는 지표를 사용하기 때문입니다. UI의 메시지는 고객이 활동을 복제한 다음 전환 지표를 업데이트하도록 안내합니다. (TGT-43860, TGT-43861, TGT-43650)
+* 에 도구 설명이 추가되었습니다 [!DNL Target] 고객이 Audience Builder를 보다 효율적으로 탐색하고 익숙하지 않을 수 있는 기능을 사용하는 방법을 학습할 수 있도록 지원하는 UI입니다. (TGT-44139)
+* 고객이 비활성화된 활동을 편집하지 못하도록 하는 기능이 추가되었습니다. [!DNL Target] 지원되지 않는 지표를 사용하기 때문입니다. UI의 메시지는 고객이 활동을 복제한 다음 전환 지표를 업데이트하도록 안내합니다.
+
+   이 릴리스 사용 `averagetimespentonsite`, `bouncerate`, 및 `entries` 지표 [!DNL Target] 활동은 새 활동에서 더 이상 사용되지 않습니다. 기존 활동은 2023년 2월 6일까지 이러한 지표를 계속 사용할 수 있습니다. (TGT-43860, TGT-43861, TGT-43650)
+
 * 에 도구 설명이 추가되었습니다 [!DNL Target] 고객이 을(를) 만들거나 편집하는 동안 최적화 기준을 선택하는 데 도움이 되는 UI [!UICONTROL 자동 Target] A4T를 사용하는 활동. (TGT-43713)
 
 ## 추가 릴리스 정보 및 버전 세부 정보

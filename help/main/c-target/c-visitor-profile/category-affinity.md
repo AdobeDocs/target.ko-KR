@@ -4,10 +4,10 @@ description: 의 카테고리 친화성에 대해 알아보기 [!DNL Adobe Targe
 title: 카테고리 친화성이란?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 67%
+source-wordcount: '830'
+ht-degree: 65%
 
 ---
 
@@ -49,6 +49,10 @@ ht-degree: 67%
 * 카테고리를 이미 클릭한 경우(표시됨)에는 다시 클릭해도 다른 모든 카테고리에서 1을 빼지 않습니다.
 * 여섯 번째 새 카테고리를 클릭하면, 처음 5개 카테고리 중 점수가 가장 낮은 카테고리가 계산에서 삭제됩니다.
 * 세션 끝에서 모든 값을 2로 나누기
+
+>[!NOTE]
+>
+>단일 mbox 호출 내에 여러 카테고리가 전달되면 의 카테고리 순서 `categoryAffinities` 는 보장되지 않습니다. 임의의 카테고리가 먼저 기록되고 점수가 10입니다.
 
 ### 예: 카테고리 친화성 알고리즘
 
