@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 93%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 10월 19일 | [범주 친화성](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 단일 mbox 호출 내에서 여러 카테고리가 전달되는 경우를 설명하는 메모가 추가되었습니다. |
-| 10월 18일 | [[!UICONTROL Automated Personalization 활동 만들기]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP 테스트에서 최대 30,000개의 경험을 작성할 수 있지만, 고유 경험이 10,000개 이하인 경우 이 알고리즘이 가장 잘 수행됨을 나타내도록 텍스트가 업데이트되었습니다. 이 동일한 제한은 활동이 활성화 된 경우에도 적용됩니다. [!UICONTROL 중복 제거] 선택 사항입니다. |
-|  | [자동화된 개인화 FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | AP 테스트에서 최대 30,000개의 경험을 작성할 수 있지만, 고유 경험이 10,000개 이하인 경우 이 알고리즘이 가장 잘 수행됨을 나타내도록 텍스트가 업데이트되었습니다. 이 동일한 제한은 활동이 활성화 된 경우에도 적용됩니다. [!UICONTROL 중복 제거] 선택 사항입니다. |
-| 10월 14일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break(2022년 10월 26일)에 대한 등록 정보가 추가되었습니다. |
+| 10월 18일 | [[!UICONTROL Automated Personalization] 활동 만들기](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP 테스트에서 최대 30,000개의 경험을 만들 수 있지만, 이 알고리즘은 사용되는 고유 경험이 10,000개보다 작을 때 가장 잘 수행됨을 나타내는 업데이트된 텍스트입니다. 이 제한은 활동이 [!UICONTROL 중복 요소 차단] 옵션을 활성화한 경우에도 적용됩니다. |
+|  | [Automated Personalization FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | AP 테스트에서 최대 30,000개의 경험을 만들 수 있지만, 이 알고리즘은 사용되는 고유 경험이 10,000개보다 작을 때 가장 잘 수행됨을 나타내는 업데이트된 텍스트입니다. 이 제한은 활동이 [!UICONTROL 중복 요소 차단] 옵션을 활성화한 경우에도 적용됩니다. |
+| 10월 14일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(2022년 10월 26일)에 대한 등록 정보가 추가되었습니다. |
 | 10월 10일 | [[!UICONTROL Visual Editing Helper] 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 신규 문서. |
 |  | [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | “[VEC에 내 페이지가 표시되지 않습니다(VEC 전용)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)” 섹션이 업데이트되었습니다. |
 | 10월 4일 | [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | 새 주제입니다.<br>이 문서의 정보는 이전에 이 사이트에서 다운로드할 수 있었던 *A/B 테스트를 위한 Adobe Target 계산* pdf 파일을 대체합니다. |
@@ -60,7 +60,7 @@ ht-degree: 93%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 6월 7일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
-| 5월 31일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 예정된 [!DNL Adobe Target] 커뮤니티 Coffee Break(2022년 6월 29일)에 대한 정보가 추가되었습니다. |
+| 5월 31일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 예정된 [!DNL Adobe Target] 커뮤니티 커피 브레이크(2022년 6월 29일)에 대한 정보가 추가되었습니다. |
 | 5월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] 플랫폼 릴리스(2022년 5월 25일) 및 at.js 2.9.0 릴리스(2022년 5월 27일)에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
 |  | [사용자 에이전트 및 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | 새 주제입니다. |
@@ -89,7 +89,7 @@ ht-degree: 93%
 | 4월 21일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 2022년 4월 17일로 예정된 [!DNL Target] 플랫폼 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 4월 20일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 4월 14일 | [시각적 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | DOM 요소의 소극적 로드로 인해 일관성이 없이 [!UICONTROL 이동] 및 [!UICONTROL 재정렬] 작업을 사용하는 VEC 비헤이비어를 처리하는 방법에 대한 정보가 [재정렬] 섹션에 추가되었습니다. |
-| 4월 13일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 4월 27일)</li></ul> |
+| 4월 13일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 4월 27일)</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] Platform 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 4월 4일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.3.1 릴리스에 대한 정보가 업데이트되었습니다. |
 
@@ -102,15 +102,15 @@ ht-degree: 93%
 | 3월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 고객 엔지니어링 개선 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.3.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 3월 17일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 고객 엔지니어링 개선 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
-| 3월 9일 | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 다음 알려진 문제가 추가되었습니다.<ul><li>양식 기반 경험 작성기에서 만든 활동에서 애드혹 오퍼가 있는 위치 삭제</li></ul> |
+| 3월 9일 | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 다음 알려진 문제가 추가되었습니다.<ul><li>양식 기반 경험 작성기에서 만든 활동에서 애드 혹 오퍼가 있는 위치 삭제</li></ul> |
 |  | [mbox3rdPartyId에 대한 실시간 프로필 동기화](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 프로필 동기화와 관련하여 다음 문장이 업데이트되었습니다. “업데이트는 5~10분마다 프로필 스토어와 동기화됩니다.” |
-| 3월 8일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 3월 30일)</li></ul> |
+| 3월 8일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 3월 30일)</li></ul> |
 | 3월 7일 | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md#aep) | “[!DNL Adobe Experience Platform]의 대상자 사용:” 아래에 새로운 섹션 추가됨<ul><li>개인화 사용 사례</li></ul> |
 | 2월 25일 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 타겟팅](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [자동 할당 보고서 해석](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 새 FAQ 추가:<ul><li>[!UICONTROL 보고 소스로서의 Analytics] (A4T)를 사용하는 [!UICONTROL 자동 할당] 활동에 “우승자 없음”, “우승자” 및 “별” 배지를 사용할 수 있습니까?</li></ul> |
 |  | [활동 전용 대상자 만들기](/help/main/c-target/creating-activity-only-audience.md) | 제외 규칙에 대해 논의하는 “고려 사항” 섹션에 정보가 추가되었습니다. |
 | 2월 10일 | [시각적 경험 작성기 Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | VEC(시각적 경험 작성기)에서 서비스 작업자를 통해 웹 사이트를 로드하는 방법에 대한 정보가 추가되었습니다. |
-| 2월 7일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break (2022년 2월 23일)</li></ul> |
+| 2월 7일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 2월 23일)</li></ul> |
 | 2월 3일 | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 새 섹션 및 비디오 추가됨: “비디오: Real-Time CDP 및 [!DNL Adobe Target]을 사용하여 다음 히트 개인화” |
 | 2월 2일 | [콘텐츠 전달 문제 해결](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 다음 섹션 추가됨: “[!DNL Target] 프로필 속성 값이 예상대로 작동하지 않음에서 큰따옴표 이스케이프” |
 | 2월 1일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 릴리스에 대한 정보가 추가되었습니다. |
