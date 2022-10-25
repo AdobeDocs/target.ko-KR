@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
+source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1488'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 0%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 10월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 10월 19일 | [범주 친화성](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 단일 mbox 호출 내에서 여러 카테고리가 전달되는 경우를 설명하는 메모가 추가되었습니다. |
 | 10월 18일 | [[!UICONTROL Automated Personalization] 활동 만들기](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP 테스트에서 최대 30,000개의 경험을 만들 수 있지만, 이 알고리즘은 사용되는 고유 경험이 10,000개보다 작을 때 가장 잘 수행됨을 나타내는 업데이트된 텍스트입니다. 이 제한은 활동이 [!UICONTROL 중복 요소 차단] 옵션을 활성화한 경우에도 적용됩니다. |
 |  | [Automated Personalization FAQ](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | AP 테스트에서 최대 30,000개의 경험을 만들 수 있지만, 이 알고리즘은 사용되는 고유 경험이 10,000개보다 작을 때 가장 잘 수행됨을 나타내는 업데이트된 텍스트입니다. 이 제한은 활동이 [!UICONTROL 중복 요소 차단] 옵션을 활성화한 경우에도 적용됩니다. |
