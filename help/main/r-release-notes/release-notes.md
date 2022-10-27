@@ -6,9 +6,9 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
-workflow-type: tm+mt
-source-wordcount: '1036'
-ht-degree: 83%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -30,15 +30,15 @@ ht-degree: 83%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!DNL Recommendations] | 에 친숙한 이름이 추가되었습니다. [!UICONTROL Target 분석] A4T 보고. 이전에는 [!DNL Target] 나열된 경험 ID만 해당. 이 개선 사항은 [!DNL Adobe Analytics] 및 [!DNL Target] 및 은 고객이 A4T에서 보고서 작성을 간소화하는 데 도움이 됩니다. (TGT-41853) |
-| 에 최적화된 A4T 지표 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target]<br>테스트할 고객을 선택하는 데 사용할 수 있습니다. 향후 릴리스에서 모든 고객이 사용할 수 있습니다.) | 다음 변경 사항에 유의하십시오.<ul><li>[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동에 대한 A4T([!UICONTROL Analytics for Target]) 보고에서 바이너리 및 최대화 지표 지원 추가</li><li>2023년 2월까지 기존 활동에 대한 동작을 보존합니다. 이 날짜 이후에는 기존 활동을 새 비헤이비어로 강제 마이그레이션하기 위해 활동이 중단됩니다.</li><li>2023년 2월 20일부터 [!DNL Target] 활동의 `averagetimespentonsite`, `bouncerate`, `entries` 및 지표에 대한 지원이 중단됩니다.</li></ul> |
+| [!DNL Recommendations] | [!UICONTROL Analytics for Target] A4T 보고에 친숙한 이름이 추가되었습니다. 이전에는 [!DNL Target]에 나열된 경험 ID만 존재했습니다. 이 향상된 기능은 [!DNL Adobe Analytics]와 [!DNL Target] 간에 보고를 조정하고 고객이 A4T에서 보고서를 작성하는 작업을 간소화하는 데 도움이 됩니다. (TGT-41853) |
+| [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]<br>에 최적화된 A4T 지표 (테스트 대상 고객을 선택할 수 있습니다. 향후 릴리스를 통해 모든 고객이 사용할 수 있습니다.) | 다음 변경 사항에 유의하십시오.<ul><li>[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동에 대한 A4T([!UICONTROL Analytics for Target]) 보고에서 바이너리 및 최대화 지표 지원 추가</li><li>기존 활동에 대한 비헤이비어는 2023년 2월까지 유지됩니다. 이 날짜 이후에는 기존 활동을 새 비헤이비어로 강제 마이그레이션하기 위해 활동이 중단됩니다.</li><li>2023년 2월 20일부터 [!DNL Target] 활동의 `averagetimespentonsite`, `bouncerate`, `entries` 및 지표에 대한 지원이 중단됩니다.</li></ul> |
 
-* 에 도구 설명이 추가되었습니다 [!DNL Target] 고객이 Audience Builder를 보다 효율적으로 탐색하고 익숙하지 않을 수 있는 기능을 사용하는 방법을 학습할 수 있도록 지원하는 UI입니다. (TGT-44139)
-* 고객이 비활성화된 활동을 편집하지 못하도록 하는 기능이 추가되었습니다. [!DNL Target] 지원되지 않는 지표를 사용하기 때문입니다. UI의 메시지는 고객이 활동을 복제한 다음 전환 지표를 업데이트하도록 안내합니다.
+* 고객이 대상자 빌더를 보다 효율적으로 탐색하고 익숙하지 않은 기능을 사용하는 방법을 배울 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다. (TGT-44139)
+* 지원되지 않는 지표를 사용하기 때문에 [!DNL Target]에서 비활성화된 활동을 고객이 편집할 수 없도록 하는 기능이 추가되었습니다. UI의 메시지가 고객에게 활동을 복제한 다음 전환 지표를 업데이트하도록 안내합니다.
 
-   이 릴리스 사용 `averagetimespentonsite`, `bouncerate`, 및 `entries` 지표 [!DNL Target] 활동은 새 활동에서 더 이상 사용되지 않습니다. 기존 활동은 2023년 2월까지 이러한 지표를 계속 사용할 수 있습니다. (TGT-43860, TGT-43861, TGT-43650)
+   이번 릴리스를 통해 [!DNL Target] 활동의 `averagetimespentonsite`, `bouncerate` 및 `entries` 지표가 새 활동에 대해 더 이상 사용되지 않습니다. 기존 활동은 2023년 2월까지 이들 지표를 계속 사용할 수 있습니다. (TGT-43860, TGT-43861 및 TGT-43650)
 
-* 에 도구 설명이 추가되었습니다 [!DNL Target] 고객이 을(를) 만들거나 편집하는 동안 최적화 기준을 선택하는 데 도움이 되는 UI [!UICONTROL 자동 Target] A4T를 사용하는 활동. (TGT-43713)
+* 고객이 A4T를 사용하는 [!UICONTROL 자동 타겟] 활동을 생성하거나 편집하는 동안 최적화 기준을 선택할 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다. (TGT-43713)
 
 ## [!DNL Target] Standard/Premium 22.10.1 (순차적 공개, 2022년 10월 10~13일)
 
