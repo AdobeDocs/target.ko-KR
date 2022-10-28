@@ -1,28 +1,28 @@
 ---
-keywords: 자동화된 개인화;오퍼;보고;그룹;보고 그룹
-description: Adobe에서 오퍼 보고 그룹을 사용하는 방법을 알아봅니다 [!DNL Target] Automated Personalization 활동. 보고 그룹 사용, [!DNL Target] 각 보고 그룹에 대해 하나의 개인화 모델만 만듭니다.
+keywords: 자동화된 개인화;오퍼;보고;그룹;보고 그룹;ap
+description: Adobe에서 오퍼 보고 그룹을 사용하는 방법을 알아봅니다 [!DNL Target] [!UICONTROL Automated Personalization] 활동.
 title: Automated Personalization 활동에서 오퍼 보고 그룹을 사용할 수 있습니까?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 59%
+source-wordcount: '457'
+ht-degree: 52%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 자동화된 개인화의 오퍼 보고 그룹
+# ![PREMIUM](/help/main/assets/premium.png)[!UICONTROL  자동화된 개인화의 오퍼 보고 그룹]
 
-에서 보고 그룹 사용에 대한 정보 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) 활동.
+에서 보고 그룹 사용에 대한 정보 [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) 활동.
 
 보고 그룹은 다음 두 가지 주요 기능을 수행합니다.
 
-* AP 활동 보고에 그룹화된 오퍼를 볼 수 있도록 합니다.
-* 그들은 어떻게 [!DNL Target] 개인화 모델 함수를 참조하십시오.
+* 보고 그룹을 사용하면 AP 활동 보고로 그룹화된 오퍼를 볼 수 있습니다.
+* 보고 그룹은 [!DNL Target] 개인화 모델 함수를 참조하십시오.
 
-보고 그룹을 사용하는 경우, [!DNL Target] 는 해당 그룹의 모든 오퍼의 데이터를 사용하여 AP 활동에 있는 각 오퍼 대신 각 보고 그룹에 대해 하나의 개인화 모델만 만듭니다.
+보고 그룹을 사용하는 경우, [!DNL Target] 해당 그룹의 모든 오퍼의 데이터를 사용하여 각 보고 그룹에 대해 하나의 개인화 모델을 만듭니다. 보고 그룹이 없으면 [!DNL Target] ap 활동의 각 오퍼에 대한 개인화 모델을 생성합니다.
 
-사용자의 활동 설정에 개인화 모델을 오퍼마다 빌드할 데이터가 충분하지 않은 경우, 보고 그룹이 자동화된 개인화를 사용하기 위해 데이터 요구 사항을 줄이는 데 도움을 줄 수 있습니다. 또한 보고 그룹은 각 모델이 더 많은 데이터를 얻을 수 있도록 유사한 오퍼를 그룹화하여 새 오퍼에 대한 &quot;cold start&quot; 문제를 해결하는 데 도움을 줄 수 있습니다. 또한 사용자의 AP 활동에 새 오퍼를 정기적으로 소개하는 활동에 모델링 그룹을 사용할 수도 있습니다.
+활동 설정에 오퍼당 개인화 모델을 작성할 충분한 데이터가 없는 경우 보고 그룹을 통해 사용할 데이터 요구 사항을 줄일 수 있습니다 [!UICONTROL Automated Personalization]. 또한 보고 그룹은 각 모델이 더 많은 데이터를 얻을 수 있도록 유사한 오퍼를 그룹화하여 새 오퍼에 대한 &quot;cold start&quot; 문제를 해결하는 데 도움을 줄 수 있습니다. 모델링 그룹은 AP 활동에 정기적으로 새로운 오퍼가 도입되는 활동에 사용할 수도 있습니다.
 
 이 방법은 방문자가 그룹의 모든 오퍼에 대해 동일한 방식으로 응답하는 경우 잘 작동합니다. 우수 사례는 비슷한 방문자 그룹이 유사한 방식으로 응답하는 오퍼를 그룹화하는 것입니다. 즉, 전환율이 유사한 오퍼를 그룹화합니다. 모든 오퍼를 단일 보고 그룹에 넣어서는 안 됩니다. 모든 오퍼나 오퍼를 매우 다른 전환율로 그룹화하면 오퍼의 효율성이 줄어들 수 있습니다 [!DNL Target] 개인화 모델.
 
@@ -32,7 +32,7 @@ ht-degree: 59%
 
 **보고 그룹을 설정하려면 다음을 수행하십시오.**
 
-1. 설정 [!UICONTROL 경험] AP 활동의 페이지에서 **[!UICONTROL 콘텐츠 관리]** 아이콘.
+1. 설정 **[!UICONTROL 경험]** AP 활동의 페이지에서 **[!UICONTROL 콘텐츠 관리]** 아이콘.
 
    ![콘텐츠 관리 아이콘](/help/main/c-reports/assets/ap_manage_content.png)
 
@@ -45,7 +45,7 @@ ht-degree: 59%
 
    ![보고 그룹 아이콘](/help/main/c-reports/assets/ap_manage_content_3.png)
 
-1. (조건부) 선택한 오퍼를 기존 보고 그룹에 지정하려면 을 선택합니다 **[!UICONTROL 기존]**&#x200B;드롭다운 목록에서 원하는 보고 그룹을 선택한 다음 를 클릭합니다 **[!UICONTROL 적용]**.
+1. 선택한 오퍼를 기존 보고 그룹에 지정하려면 **[!UICONTROL 기존]**&#x200B;을 선택하고 드롭다운 목록에서 원하는 보고 그룹을 선택한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
    또는
 
