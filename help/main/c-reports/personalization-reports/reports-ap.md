@@ -4,10 +4,10 @@ description: Adobe Target에서 Automated Personalization 요약 보고서를 �
 title: Automated Personalization 요약 보고서를 어떻게 사용합니까?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 38%
+ht-degree: 33%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 38%
 
 ![활동 수준 보고서](/help/main/c-reports/assets/box_plot_ap.png)
 
-상승도, 신뢰도, 트렌드, 지속 기간 등을 포함하여 A/B 테스트에 대한 결과 해석의 표준 규칙이 여전히 적용됩니다. 결과 해석에 대한 자세한 내용은 [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+상승도, 신뢰도, 트렌드, 지속 기간 등을 포함하여 A/B 테스트에 대한 결과 해석의 표준 규칙이 여전히 적용됩니다. 결과 해석에 대한 자세한 내용은 [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## 오퍼 수준 보고서 {#section_CAA6409879E349C6906E2BE8156D87A1}
 
@@ -48,11 +48,11 @@ ht-degree: 38%
 
 ![Adobe Target의 오퍼 수준 보고서](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-오퍼는 보고서 그룹 내에서 표시할 수 있으며 이러한 보고서 그룹은 축소하고 확장할 수 있습니다. 롤업된 정보를 오퍼별로가 아니라 그룹별로 보려면 드롭다운 목록에서 [!UICONTROL 보고 그룹]을 선택하십시오.
-
 >[!NOTE]
 >
 >시계 아이콘은 알고리즘 모델이 여전히 빌드 중임을 나타냅니다. 확인 표시 아이콘은 기본 알고리즘이 설정되었음을 나타냅니다.
+
+오퍼는 내에 표시할 수 있습니다 [보고 그룹](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)로 설정되고 이러한 보고 그룹을 축소하고 확장할 수 있습니다. 클릭 **[!UICONTROL 제어]** 또는 **[!UICONTROL 타깃팅됨]** 테이블에서 오퍼별로 표시되지 않고 보고 그룹별로 롤업된 정보를 봅니다.
 
 ## 자동화된 세그먼트
 

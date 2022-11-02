@@ -4,10 +4,10 @@ description: Adobe에서 오퍼 보고 그룹을 사용하는 방법을 알아�
 title: Automated Personalization 활동에서 오퍼 보고 그룹을 사용할 수 있습니까?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
+source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 52%
+source-wordcount: '542'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 52%
 >
 >특정 모델링 그룹에서 오퍼를 제거하거나 대체한 경우 해당 특정 오퍼를 표시한 기록 트래픽도 모델링 그룹에서 삭제됩니다. 즉, 삭제된 오퍼는 [!DNL Target] 학습할 개인화 모델.
 
-**보고 그룹을 설정하려면 다음을 수행하십시오.**
+## 보고 그룹 설정
 
 1. 설정 **[!UICONTROL 경험]** AP 활동의 페이지에서 **[!UICONTROL 콘텐츠 관리]** 아이콘.
 
@@ -52,3 +52,17 @@ ht-degree: 52%
    선택한 오퍼를 지정할 새 보고 그룹을 생성하려면 **[!UICONTROL 새로 만들기]**&#x200B;를 선택하고 새 보고 그룹의 이름을 지정한 다음 **[!UICONTROL 적용]**&#x200B;을 클릭합니다.
 
    ![새 보고 그룹을 만드는 새 아이콘](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## 보고 그룹에서 오퍼 보기
+
+1. 클릭 **[!UICONTROL 활동]**&#x200B;를 클릭하고, 원하는 를 클릭합니다. [!UICONTROL Automated Personalization] 목록에서 활동을 선택한 다음 **[!UICONTROL 보고서]** 탭을 클릭하여 [오퍼 수준](/help/main/c-reports/personalization-reports/reports-ap.md) 보고서 세트에 대해 설명합니다.
+
+   많은 활동이 있는 경우 [!UICONTROL 유형] 드롭다운 목록에서 [!UICONTROL 자동화된 개인화]를 선택하여 목록을 필터링할 수 있습니다.
+
+1. 클릭 **[!UICONTROL 제어]** 또는 **[!UICONTROL 타깃팅됨]** 그룹화되지 않은 오퍼와 오퍼를 보고 그룹 내에 표시할 수 있습니다.
+
+   ![오퍼 그룹: 제어 및 타깃팅됨](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+사용에 대한 자세한 정보 [!UICONTROL Automated Personalization] 보고서(포함) [!UICONTROL 오퍼 수준] 보고서) [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+
