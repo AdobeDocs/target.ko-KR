@@ -6,7 +6,7 @@ feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 30%
 
 ---
@@ -169,7 +169,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 알고리즘이 실행되고 결과가 나오면, 응답은 다음과 같은 모습이어야 합니다.
 
-![json_recommendation 이미지](assets/json_recommendation.png){width=&quot;575px&quot;}
+![json_recommendation 이미지](assets/json_recommendation.png){width="575px"}
 
 ## 추가 JSON 개체 팁과 트릭 {#section_C305673C68944749969DB239E3221DC2}
 
