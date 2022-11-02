@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1209'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 98%
    + [Target 릴리스 정보 (현재)](r-release-notes/release-notes.md)
    + [Target 릴리스 정보(프리릴리스)](r-release-notes/target-release-notes.md)
    + [Target 설명서 개요](/help/main/r-release-notes/target-documentation.md)
-   + [알려진 문제 및 해결된 문제](r-release-notes/known-issues-resolved-issues.md)
    + [시스템 상태 업데이트 및 사전 알림](r-release-notes/system-status-updates.md)
    + [설명서 변경 내용](r-release-notes/doc-change.md)
    + [이전 릴리스에 대한 릴리스 정보](r-release-notes/release-notes-for-previous-releases.md)

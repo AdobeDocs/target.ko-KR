@@ -4,9 +4,9 @@ description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용�
 title: Target 문제를 해결하려면 어떻게 합니까?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '508'
 ht-degree: 88%
 
 ---
@@ -123,10 +123,6 @@ ht-degree: 88%
 * [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
 * [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
 * 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다.
-
-## 알려진 문제
-
-* [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md)
 
 ## 모바일 앱
 

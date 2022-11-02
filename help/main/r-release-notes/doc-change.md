@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 100%
+source-wordcount: '1486'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 11월 2일 | 알려진 문제 및 해결된 문제 | 페이지가 제거되고 관련 문제가 적절한 페이지에 재배치되어 정보가 상황에 맞게 됩니다. |
 | 10월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 10월 19일 | [범주 친화성](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 단일 mbox 호출 내에서 여러 범주가 전달될 때 점수를 설명하는 메모가 추가되었습니다. |
 | 10월 18일 | [[!UICONTROL Automated Personalization] 활동 만들기](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | AP 테스트에서 최대 30,000개의 경험을 만들 수 있지만, 이 알고리즘은 사용되는 고유 경험이 10,000개보다 작을 때 가장 잘 수행됨을 나타내는 업데이트된 텍스트입니다. 이 제한은 활동이 [!UICONTROL 중복 요소 차단] 옵션을 활성화한 경우에도 적용됩니다. |
@@ -103,7 +104,6 @@ ht-degree: 100%
 | 3월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 고객 엔지니어링 개선 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.3.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 3월 17일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 고객 엔지니어링 개선 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
-| 3월 9일 | [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | 다음 알려진 문제가 추가되었습니다.<ul><li>양식 기반 경험 작성기에서 만든 활동에서 애드혹 오퍼가 있는 위치 삭제</li></ul> |
 |  | [mbox3rdPartyId에 대한 실시간 프로필 동기화](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | 프로필 동기화와 관련하여 다음 문장이 업데이트되었습니다. “업데이트는 5~10분마다 프로필 스토어와 동기화됩니다.” |
 | 3월 8일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 3월 30일)</li></ul> |
 | 3월 7일 | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md#aep) | “[!DNL Adobe Experience Platform]의 대상자 사용:” 아래에 새로운 섹션 추가됨<ul><li>개인화 사용 사례</li></ul> |

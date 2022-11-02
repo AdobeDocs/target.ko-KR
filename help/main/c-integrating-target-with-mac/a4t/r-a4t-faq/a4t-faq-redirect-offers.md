@@ -4,10 +4,10 @@ description: Analytics를 사용할 때 리디렉션 오퍼 사용에 대한 질
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 54%
+source-wordcount: '1431'
+ht-degree: 52%
 
 ---
 
@@ -18,10 +18,6 @@ ht-degree: 54%
 ## Analytics for Adobe Target(A4T)에서 리디렉션 오퍼를 지원합니까? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 예, 구현에서 를 사용하는 경우 [!DNL at.js]. 그러나 Analytics를 보고 소스로 사용하는 활동에서 [리디렉션 오퍼](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)를 사용하기 위해서는 구현이 아래 나열된 최소 요구 사항을 충족해야 합니다.
-
->[!NOTE]
->
->A4T에서 리디렉션을 사용하는 제한된 고객 수가 연결되지 않은 적중률 비율이 높아지는 알려진 문제가 해결되었습니다. [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect)를 참조하십시오.
 
 ## A4T에 리디렉션 오퍼를 사용하기 위한 최소 요구 사항은 무엇입니까? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -61,8 +57,6 @@ at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션�
 페이지에서 코드가 실행되는 위치 때문에 양식 기반 작성기를 사용하여 리디렉션 활동을 작성하는 것이 좋습니다. 또한, 리디렉션이 원래 페이지로 돌아가는 리디렉션 오퍼를 기본 경험을 포함한 모든 경험에 대해 만드는 것이 좋습니다. 각 경험에 대해 리디렉션 오퍼를 만들면 잘못 카운트가 발생하는 경우 모든 경험에서 발생합니다. 보고 및 분석은 여전히 테스트에 유효합니다.
 
 기본(제어) 경험을 포함하여 활동의 모든 경험에 대해 리디렉션 오퍼를 사용하려는 한 가지 이유는 모든 경험에 동일한 조건을 적용하기 위해서입니다. 예를 들어 기본 경험에 리디렉션 오퍼가 없지만 다른 경험에 리디렉션 오퍼가 있는 경우 리디렉션 오퍼가 없는 경험의 속도가 고유한 이점이 있습니다. 리디렉션 오퍼는 테스트와 같은 임시 시나리오에만 권장됩니다. 리디렉션 오퍼는 개인화와 같은 영구 시나리오에 권장되지 않습니다. 우승자를 결정한 후 리디렉션을 제거하여 페이지 로드 성능을 개선해야 합니다.
-
-이 문제에 대한 자세한 내용은 [알려진 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect)의 &quot;리디렉션 오퍼&quot; 정보를 참조하십시오.
 
 ## 시각적 경험 작성기(VEC)와 양식 기반 경험 작성기가 모두 지원됩니까? {#section_FDA26FE7909B48539DA770559E687677}
 

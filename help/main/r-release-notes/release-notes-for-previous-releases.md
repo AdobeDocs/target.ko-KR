@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '34887'
+source-wordcount: '34833'
 ht-degree: 96%
 
 ---
@@ -454,7 +454,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
 * 합계 행에 대한 보고에서 [!UICONTROL 평균 상승도 신뢰 구간] 및 [!UICONTROL 신뢰도가] 표시되지 않는 [!DNL Auto-Target] [!UICONTROL 문제를] 해결했습니다. 모든 개별 경험에 대해 측정이 올바르게 표시됩니다. (TGT-37301)
-* 영향을 받는 문제를 수정했습니다 [!DNL Adobe Target Premium] 사용자 [!UICONTROL 자동 Target] 9월 15일 오후 2시 30분 보고 (PDT) - 10월 6일 오전 9시 25분 (PDT). 영향을 받는 전환 지표에 대한 보고서(“[!UICONTROL 페이지 확인함]” 또는 “[!UICONTROL mbox를 클릭함]” 옵션을 사용하여 구성됨)를 볼 때 전환 속도가 잘못 보고됩니다. 현재 알려진 전달 문제는 없습니다. 보고를 다시 동기화하고 [수정하는 방법에](/help/main/r-release-notes/known-issues-resolved-issues.md#at-metrics) 대한 자세한 내용은 *알려진 문제 및 해결된 문제의* 해결된 문제 아래의 *자동 타겟 보고를* 참조하십시오.
+* 영향을 받는 문제를 수정했습니다 [!DNL Adobe Target Premium] 사용자 [!UICONTROL 자동 Target] 9월 15일 오후 2시 30분 보고 (PDT) - 10월 6일 오전 9시 25분 (PDT). 영향을 받는 전환 지표에 대한 보고서(“[!UICONTROL 페이지 확인함]” 또는 “[!UICONTROL mbox를 클릭함]” 옵션을 사용하여 구성됨)를 볼 때 전환 속도가 잘못 보고됩니다. 현재 알려진 전달 문제는 없습니다.
 * 카탈로그 [!UICONTROL 검색 표에] 선택 가능한 [!UICONTROL 마지막 업데이트 날짜] 열과 [!UICONTROL 마지막 업데이트 날짜] 필터를 추가했습니다. 이렇게 하면 각 개별 항목을 열어 마지막으로 업데이트한 시기를 확인할 필요가 없고 항목이 마지막으로 업데이트된 날짜로 필터링할 수 있기 때문에 시간과 노력이 절약됩니다.
 
    ![마지막으로 업데이트된 날짜 열 및 필터 그림](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -824,7 +824,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 | --- | --- |
 | 시각적 경험 작성기(VEC) | **새 VEC 메뉴 옵션**: VEC에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다.<ul><li>이제 [!UICONTROL 스타일 > 배경] 옵션을 사용하여 선택한 요소의 배경 이미지와 색상을 변경할 수 있습니다. (TGT-15001)</li></ul>다음 *시각적* 경험 [선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#styles)에서 스타일을확인합니다.<br>**클릭 추적 개선 사항**: VEC 및 SPA(단일 페이지 애플리케이션) VEC 내에서 클릭 추적을 구성하는 프로세스를 개선했습니다.<ul><li>클릭 추적에서 사용할 요소를 선택할 때 사용 가능한 모든 요소의 이름이 오른쪽의 수정 패널에 표시되므로 원하는 요소를 빠르고 쉽게 선택할 수 있습니다.</li><li>세 부분으로 구성된 안내 활동 워크플로의 [!UICONTROL 목표 및 설정] 페이지에 클릭 추적에 대해 선택한 요소의 수를 나타내는 숫자가 표시됩니다. 이 숫자를 마우스로 가리키면 선택한 모든 요소의 이름이 표시됩니다. (TGT-33878)</li></ul>다음 [클릭 추적](/help/main/c-activities/r-success-metrics/click-tracking.md)을 참조하십시오. |
 | SPA VEC(Single Page App Visual Experience Composer) | **안내 워크플로**: 새로운 안내 워크플로를 통해 페이지 전달 규칙 설정을 실행하도록 구성하는 방법을 이해하고 단일 페이지 앱에 대한 활동을 성공적으로 실행할 수 있습니다. (TGT-33718)<br> [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)를 참조하십시오.<br>**복제 수정 사항**: 이제 SPA VEC를 사용하여 수정 사항을 정의한 다음, 단일 페이지 앱의 다른 보기에서 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)<br>. [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md)를 참조하십시오. |
-| ![프리미엄 배지](/help/main/assets/premium.png) AP (Automated Personalization) 및 자동 타겟 | **특정 환경을 제어로 사용**: AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 해당 경험의 제어 트래픽에 대해 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다. 현재 제어 옵션(임의로 제공된 경험)은 계속 사용할 수 있습니다. (TGT-32801, TGT-26572, TGT-26571)<br>. [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오. 이 기능에 대해 [현재 알려진 문제](/help/main/r-release-notes/known-issues-resolved-issues.md) 가 있습니다.<br>**개인화 인사이트 보고서**: 방문자가 특정 위치에서 특정 콘텐츠를 볼 때 마케터에게 친숙한 속성 이름 지정은 보다 의미 있는 정보를 제공합니다. (TGT-33421 및 TGT-34957)<br>. [Target의 개인화 알고리즘을 위한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. |
+| ![프리미엄 배지](/help/main/assets/premium.png) AP (Automated Personalization) 및 자동 타겟 | **특정 환경을 제어로 사용**: AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 해당 경험의 제어 트래픽에 대해 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다. 현재 제어 옵션(임의로 제공된 경험)은 계속 사용할 수 있습니다. (TGT-32801, TGT-26572, TGT-26571)<br>. [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오.<br>**개인화 인사이트 보고서**: 방문자가 특정 위치에서 특정 콘텐츠를 볼 때 마케터에게 친숙한 속성 이름 지정은 보다 의미 있는 정보를 제공합니다. (TGT-33421 및 TGT-34957)<br>. [Target의 개인화 알고리즘을 위한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. |
 | ![프리미엄 배지](/help/main/assets/premium.png) 권장 사항 | 최근에 본 항목 로직을 생성하는 동안 이전에 구입한 추천 항목 전환을 사용할 수 있습니다. (TGT-34030)<br>자세한 내용은 &quot;기준 만들기&quot;에서 [최근에 본 항목](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)을 참조하십시오. |
 | Google Chrome samesite 쿠키 정책 | Google은 최근에 Chrome 76(2019년 7월 30일 출시 예정)부터 웹 사이트에서 작동할 수 있는 쿠키와 사용자를 추적할 수 있는 쿠키를 개발자 명시적으로 지정해야 한다고 발표했습니다.<br>업계에서 소비자를 위해 보다 안전한 웹을 만들기 위해 노력함에 따라 Target은 방문자의 개인정보 보호 기대치를 충족시키는 동시에 개인화된 경험을 제공하기 위해 노력을 아끼지 않고 있습니다.<br>자세한 내용은 [Google Chrome SameSite 쿠키 정책](https://developer.adobe.com/target/before-implement/privacy/google-chrome-samesite-cookie-policies/){target=_blank}. |
 
@@ -944,7 +944,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 | 단일 페이지 앱 시각적 경험 작성기 | SPA(단일 페이지 앱)에 대한 VEC(시각적 경험 작성기)를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같은 가장 인기 있는 프레임워크의 활동을 작성하는 데 사용할 수 있습니다. (TGT-27916)<br>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md) 및 [단일 페이지 애플리케이션 통합](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}.<br>위의 문서 외에도, 이 기능을 처리하는 SPA와 at.js 및 그 구현 방법과 관련된 항목이 많습니다. 자세한 내용은 [설명서 변경 내용](/help/main/r-release-notes/doc-change.md)을 참조하십시오. |
 | 시각적 경험 작성기 | 시각적 경험 작성기(VEC)에는 다음 개선 사항이 포함되어 있어 작업을 보다 빠르고 효율적으로 수행할 수 있습니다.<ul><li>이제 [AEM 경험 구성 요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)를 삽입하는 동안 VEC에서 다음 항목 앞에 삽입 및 다음 항목 뒤에 삽입 선택 사항을 사용할 수 있습니다. [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오. (TGT-32385)</li><li>Google Chrome용 [!DNL Adobe Target] VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다. [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 참조하십시오. (TGT-32746)</li></ul> |
 | ![Premium 배지](/help/main/assets/premium.png)<br>, [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타기팅] 활동의 권장 사항 | 이제 [!UICONTROL A/B 테스트] ([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]포함)와 [!UICONTROL 경험 타기팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다. 이에 따라 다음과 같이 완전히 새로운 기능을 사용할 수 있게 됩니다.<ul><li>동일한 활동에서 권장 사항 및 비권장 사항 콘텐츠를 테스트하고 타기팅할 수 있습니다.</li><li>권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다.</li><li>[!UICONTROL 자동 할당]을 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동 푸시할 수 있습니다.</li><li>[!UICONTROL 자동 타겟]을 사용하여 방문자를 개별 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.</li></ul>시작하려면 VEC를 사용하여 [!UICONTROL A/B 테스트] 또는 [!UICONTROL 경험 타기팅] 활동을 만들고, [!UICONTROL 다음 항목 앞에 삽입], [!UICONTROL 다음 항목 뒤에 삽입] 또는 [!UICONTROL 다음으로 바꾸기] 작업을 사용하여 권장 사항을 경험에 추가하십시오. (RECS-6166)<br>자세한 내용은 [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
-| ![Premium 배지](/help/main/assets/premium.png)<br>Target API의 엔터프라이즈 권한 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. Automated Personalization (AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다.<br>**참고:** 이 기능과 관련하여 [알려진 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#api) 가 있습니다. |
+| ![Premium 배지](/help/main/assets/premium.png)<br>Target API의 엔터프라이즈 권한 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. 자동화된 개인화(AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -1902,7 +1902,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Target Premium에 대한 엔터프라이즈 사용자 권한 </p> </td> 
-   <td colname="col2"> <p>Target에서 별도의 작업 영역을 만들고 개별 디지털 속성에 대해 다른 역할 및 권한을 지정합니다. </p> <p>자세한 내용은 <a href="/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local">Enterprise 사용자 권한</a>을 참조하십시오. </p> <p>롤아웃에 대한 자세한 내용은 <a href="/help/main/r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541" format="dita" scope="local"> 알려진 문제 및 해결된 문제 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Target에서 별도의 작업 영역을 만들고 개별 디지털 속성에 대해 다른 역할 및 권한을 지정합니다. </p> <p>자세한 내용은 <a href="/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838" format="dita" scope="local">Enterprise 사용자 권한</a>을 참조하십시오. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>QA 모드 </p> </td> 

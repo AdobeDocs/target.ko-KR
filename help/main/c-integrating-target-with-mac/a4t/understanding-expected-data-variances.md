@@ -4,10 +4,10 @@ description: Adobe 간의 예상 데이터 차이에 대해 알아봅니다 [!DN
 title: Analytics와 A4T 간의 예상 데이터 분산은 무엇입니까?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 48%
+source-wordcount: '733'
+ht-degree: 46%
 
 ---
 
@@ -26,10 +26,6 @@ A4T를 사용하면 활동에 대한 Analytics 및 Target 보고는 모두 Analy
    트래픽을 50/50(또는 25/25/25/25 등)으로 분할하도록 리디렉션 테스트가 Target에 설정된 경우 사용자 행동이 균일하게 나누어지지 않을 수 있습니다. 불규칙한 분할이 표시되는 경우, 한 사용자 그룹이 랜딩 페이지에서 다른 그룹이 했던 것보다 Analytics 호출을 더 많이 실행하지 못했음을 의미합니다. 한 그룹에 대한 Analytics 호출을 실행하지 못하면 해당 사용자에 대한 Target 히트가 제외되어 불일치가 생성됩니다.
 
    Adobe은 Adobe 팀이 Adobe Experience Platform에서 A4T를 향하여 작업할 때 향후 이 문제를 해결하려고 합니다. Adobe 팀이 페이지에서 서로 다른 시간에 발생하는 이러한 여러 이벤트를 처리하는 방법을 결정합니다.
-
-   >[!NOTE]
-   >
-   >A4T에서 리디렉션을 사용하는 제한된 고객 수가 연결되지 않은 적중률 비율이 높아지는 알려진 문제가 해결되었습니다. [알려진 문제 및 해결된 문제](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect)를 참조하십시오.
 
 ## A4T를 *사용하지 않을* 때 예상되는 데이터 분산 {#expected-not-using-a4t}
 
