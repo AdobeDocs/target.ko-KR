@@ -7,8 +7,8 @@ feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 99%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target] Standard/Premium 22.10.3 (순차적 공개, 2022년 25월 10~27일)
+## [!DNL Target] Standard/Premium 22.10.3 (순차적 공개, 2022년 10월 25~27일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
 * **10월 25일**: 유럽, 중동 및 아프리카(EMEA) 지역
-* **26월 10일**: 아시아 태평양(APAC) 지역
+* **10월 26일**: 아시아 태평양(APAC) 지역
 * **10월 27일**: 아메리카 지역
 
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
@@ -35,7 +35,7 @@ ht-degree: 99%
 * 고객이 대상자 빌더를 보다 효율적으로 탐색하고 익숙하지 않은 기능을 사용하는 방법을 배울 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다. (TGT-44139)
 * 지원되지 않는 지표를 사용하기 때문에 [!DNL Target]에서 비활성화된 활동을 고객이 편집할 수 없도록 하는 기능이 추가되었습니다. UI의 메시지가 고객에게 활동을 복제한 다음 전환 지표를 업데이트하도록 안내합니다.
 
-   이번 릴리스를 통해 [!DNL Target] 활동의 `averagetimespentonsite`, `bouncerate` 및 `entries` 지표가 새 활동에 대해 더 이상 사용되지 않습니다. 기존 활동은 2023년 5월까지 이러한 지표를 계속 사용할 수 있습니다.
+   이번 릴리스를 통해 [!DNL Target] 활동의 `averagetimespentonsite`, `bouncerate` 및 `entries` 지표가 새 활동에 대해 더 이상 사용되지 않습니다. 기존 활동은 2023년 5월까지 이들 지표를 계속 사용할 수 있습니다.
 
 * 고객이 A4T를 사용하는 [!UICONTROL 자동 타겟] 활동을 생성하거나 편집하는 동안 최적화 기준을 선택할 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다.
 
