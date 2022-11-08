@@ -4,10 +4,10 @@ description: Analytics를 사용할 때 리디렉션 오퍼 사용에 대한 질
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 52%
+source-wordcount: '1456'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션�
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| `adobe_mc_sdid` | 다음 `adobe_mc_sdid` 매개 변수는 기본 페이지의 SDID(보조 데이터 ID) 및 Experience Cloud 조직 ID를 새 페이지에 전달합니다. 이러한 ID를 사용하여 A4T는 기본 페이지의 Target 요청을 새 페이지의 Analytic 요청과 함께 &quot;결합&quot;할 수 있습니다. |
+| `adobe_mc_sdid` | 다음 `adobe_mc_sdid` 매개 변수는 기본 페이지의 SDID(보조 데이터 ID) 및 Experience Cloud 조직 ID를 새 페이지에 전달합니다. 이러한 ID를 사용하여 A4T는 기본 페이지의 Target 요청을 새 페이지의 Analytic 요청과 함께 &quot;결합&quot;할 수 있습니다.<br>url에 sdid를 전달하는 예상 형식(하이브리드 앱의 경우 또는 한 앱에서 웹 사이트나 한 웹 사이트로)은 `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | `adobe_mc_ref` 매개 변수는 기본 페이지의 참조 URL을 새 페이지에 전달합니다. AppMeasurement.js 버전 2.1(또는 이상)에서 사용하는 경우 Analytics는 이 매개 변수 값을 새 페이지의 참조 URL로 사용합니다. |
 
 이 매개 변수들은 페이지에 방문자 ID 서비스가 구현되어 있으면 VEC 및 양식 기반 경험 작성기에서 내장 리디렉션 오퍼를 사용할 때 리디렉션 URL에 자동으로 추가됩니다. VEC 또는 양식 기반 편집기에서 자신만의 사용자 지정 리디렉션 코드를 사용하는 경우 사용자 지정 코드와 함께 이 매개 변수를 전달해야 합니다.

@@ -5,7 +5,7 @@ title: 의 다양한 문자, 크기 및 기타 제한은 무엇입니까? [!DNL 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -163,7 +163,7 @@ ht-degree: 96%
 
 * **제한**: 250자.
 
-### mbox 매개 변수
+### mbox 매개 변수 {#mbox-parameters}
 
 * **제한**: mbox 매개 변수에는 다음과 같은 제한이 적용됩니다.
 
@@ -192,7 +192,7 @@ ht-degree: 96%
    * 프로필 매개 변수 50
    * 프로필 매개 변수 이름 최대 길이 128
    * 프로필 매개 변수 값은 null일 수 없음
-   * 프로필 매개 변수 값 최대 길이 5000
+   * 프로필 매개 변수 값 최대 길이 256
 
    **게재 API 끝점**:
 
@@ -203,7 +203,7 @@ ht-degree: 96%
    * 프로필 매개 변수 50
    * 프로필 매개 변수 이름 최대 길이 128
    * 프로필 매개 변수 값은 null일 수 없음
-   * 프로필 매개 변수 값 최대 길이 5000
+   * 프로필 매개 변수 값 최대 길이 256
 
 
 

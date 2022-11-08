@@ -4,7 +4,7 @@ description: Adobe Target에서 Automated Personalization 요약 보고서를 �
 title: Automated Personalization 요약 보고서를 어떻게 사용합니까?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 33%
@@ -52,7 +52,7 @@ ht-degree: 33%
 >
 >시계 아이콘은 알고리즘 모델이 여전히 빌드 중임을 나타냅니다. 확인 표시 아이콘은 기본 알고리즘이 설정되었음을 나타냅니다.
 
-오퍼는 내에 표시할 수 있습니다 [보고 그룹](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)로 설정되고 이러한 보고 그룹을 축소하고 확장할 수 있습니다. 클릭 **[!UICONTROL 제어]** 또는 **[!UICONTROL 타깃팅됨]** 테이블에서 오퍼별로 표시되지 않고 보고 그룹별로 롤업된 정보를 봅니다.
+오퍼는 내에 표시할 수 있습니다 [보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)로 설정되고 이러한 보고 그룹을 축소하고 확장할 수 있습니다. 클릭 **[!UICONTROL 제어]** 또는 **[!UICONTROL 타깃팅됨]** 테이블에서 오퍼별로 표시되지 않고 보고 그룹별로 롤업된 정보를 봅니다.
 
 ## 자동화된 세그먼트
 

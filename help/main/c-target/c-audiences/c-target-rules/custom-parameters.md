@@ -4,10 +4,10 @@ description: 에 사용자 지정 매개 변수를 전달하는 방법을 알아
 title: 사용자 지정 매개 변수를 기준으로 방문자를 Target 할 수 있습니까?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 41%
+source-wordcount: '497'
+ht-degree: 40%
 
 ---
 
@@ -29,6 +29,10 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
    * mbox 이름은 기억하지만 매개 변수 이름은 기억나지 않는 경우 [!UICONTROL 필터 기준] 원하는 매개 변수를 전달하는 알려진 mbox를 기준으로 필터링할 드롭다운 목록입니다.
 
    어느 방법을 사용하든 mbox와 매개 변수 간에 링크가 없습니다. 대상은 해당 매개 변수를 전달하는 모든 mbox의 매개 변수를 기반으로 작동합니다.
+
+   >[!NOTE]
+   >
+   >에서 선택하는 mbox입니다 [!UICONTROL 필터 기준] 드롭다운 목록이 활동 생성 시 저장되지 않습니다. 이 옵션을 사용하면 선택한 mbox를 기반으로 매개 변수를 필터링할 수 있습니다.
 
    기존 대상을 편집하는 경우 필터링 기준에는 작성 중에 제공된 mbox 이름이 함께 표시됩니다.
 

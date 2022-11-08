@@ -4,7 +4,7 @@ description: 만들기 방법 알아보기 [!UICONTROL Automated Personalization
 title: 웹 사이트를 작성하는 방법 [!UICONTROL Automated Personalization] 활동?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1855'
 ht-degree: 62%
@@ -88,7 +88,7 @@ ht-degree: 62%
 
 1. (조건부) **[!UICONTROL 오퍼]**&#x200B;를 클릭하여 콘텐츠를 선택하고 이를 보고 그룹에 지정하거나 특정 방문자만 타깃팅으로 한 특정 오퍼를 볼 수 있도록 합니다.
 
-   보고 그룹에 대한 자세한 내용은 [Automated Personalization의 오퍼 보고 그룹](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
+   보고 그룹에 대한 자세한 내용은 [Automated Personalization의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md).
 
 1. (조건부) **[!UICONTROL 제외 그룹]**&#x200B;을 클릭하여 활동에서 제외할 요소의 조합을 선택합니다.
 

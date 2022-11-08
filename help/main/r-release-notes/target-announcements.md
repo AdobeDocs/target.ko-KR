@@ -4,9 +4,9 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
-workflow-type: ht
-source-wordcount: '1927'
+source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
+workflow-type: tm+mt
+source-wordcount: '1876'
 ht-degree: 100%
 
 ---
@@ -20,14 +20,6 @@ ht-degree: 100%
 Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target]은 평가된 모든 공급업체 중 당사의 테스트 기능에서 가장 높은 점수를 받았습니다.
 
 자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}을 참조하십시오.
-
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break
-
-[!DNL Adobe Target]의 그룹 제품 마케팅 관리자인 Drew Burns가 최근 강화된 인공지능 기능과 모든 개인화 기능에 대한 최신 흥미진진한 발표와 관련하여 귀하의 [!DNL Target] 질문에 답할 예정입니다.
-
-* **10월 26일 수요일**
-* **오전 9시~10시 (PDT, UTC-7)**
-* **[등록 정보](https://adobe.ly/3e6gqHe){target=_blank}**
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
