@@ -5,7 +5,7 @@ title: 의 다양한 문자, 크기 및 기타 제한은 무엇입니까? [!DNL 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 96%
@@ -192,7 +192,7 @@ ht-degree: 96%
    * 프로필 매개 변수 50
    * 프로필 매개 변수 이름 최대 길이 128
    * 프로필 매개 변수 값은 null일 수 없음
-   * 프로필 매개 변수 값 최대 길이 256
+   * 프로필 매개 변수 값 최대 길이 5000
 
    **게재 API 끝점**:
 
@@ -203,7 +203,7 @@ ht-degree: 96%
    * 프로필 매개 변수 50
    * 프로필 매개 변수 이름 최대 길이 128
    * 프로필 매개 변수 값은 null일 수 없음
-   * 프로필 매개 변수 값 최대 길이 256
+   * 프로필 매개 변수 값 최대 길이 5000
 
 
 
