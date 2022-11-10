@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB...n;샘플 크기;샘플 크기 계산기;자동 할당;자동 할당;계산기
-description: A/B 테스트를 실행하는 기간을 알아봅니다. Adobe에서 성공적인 A/B 테스트 [!DNL Target] 전환율을 높이려면 충분한 방문자(샘플 크기)가 필요합니다.
+description: A/B 테스트를 실행하는 기간을 알아봅니다. 의 성공적인 A/B 테스트 [!DNL Adobe Target] 전환율을 높이려면 충분한 방문자(샘플 크기)가 필요합니다.
 title: A/B 테스트를 얼마 동안 실행해야 합니까?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
+source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3092'
 ht-degree: 57%
 
 ---
@@ -41,9 +41,9 @@ An [자동 할당](/help/main/c-activities/automated-traffic-allocation/automate
 
 매뉴얼을 사용하도록 선택하시면 [!UICONTROL A/B 테스트] 활동이 아닌 [!UICONTROL 자동 할당], [!DNL Target] 샘플 크기 계산기는 성공적인 테스트에 필요한 샘플 크기를 결정하는 데 도움이 됩니다. 수동 A/B 테스트는 고정된 수평선 테스트이므로 계산기가 유용합니다. 용 계산기 사용 [!UICONTROL 자동 할당] 활동은 선택 사항이므로 [!UICONTROL 자동 할당] 는 우승자를 선언합니다. 계산기는 필요한 샘플 크기를 대략적으로 추정합니다. 계산기 사용 방법에 대한 자세한 내용을 계속 확인하십시오.
 
-A/B 테스트를 설정하기 전에 [!DNL Adobe Target] [샘플 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+A/B 테스트를 설정하기 전에 [!DNL Adobe Target] [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html).
 
-![Adobe Target 샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
+![Adobe Target 샘플 크기 계산기](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 A/B 테스트를 수행하기 전에 적절한 샘플 크기(방문자 수)를 결정하고 결과를 평가하기 전에 활동을 실행해야 하는 시간을 설정해야 합니다. 통계적 중요성이 달성될 때까지 활동을 모니터링하면 신뢰 구간이 너무 과소평가되어 테스트가 신뢰할 수 없게 됩니다. 이러한 결과 때문에 통계적으로 유의미한 결과가 감지되는 경우 테스트가 중지되고 승자가 선언됩니다. 그러나 결과가 통계적으로 유의미하지 않다면 테스트는 계속될 것이고, 이러한 절차는 긍정 오류(false positive) 비율을 증가시키는 긍정적인 결과를 매우 편애하는 것이므로, 테스트의 유효한 유의 수준이 왜곡됩니다.
 
