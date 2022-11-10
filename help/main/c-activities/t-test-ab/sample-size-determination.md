@@ -4,9 +4,9 @@ description: A/B 테스트를 실행하는 기간을 알아봅니다. Adobe에�
 title: A/B 테스트를 얼마 동안 실행해야 합니까?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
 workflow-type: tm+mt
-source-wordcount: '3085'
+source-wordcount: '3088'
 ht-degree: 57%
 
 ---
@@ -41,7 +41,7 @@ An [자동 할당](/help/main/c-activities/automated-traffic-allocation/automate
 
 매뉴얼을 사용하도록 선택하시면 [!UICONTROL A/B 테스트] 활동이 아닌 [!UICONTROL 자동 할당], [!DNL Target] 샘플 크기 계산기는 성공적인 테스트에 필요한 샘플 크기를 결정하는 데 도움이 됩니다. 수동 A/B 테스트는 고정된 수평선 테스트이므로 계산기가 유용합니다. 용 계산기 사용 [!UICONTROL 자동 할당] 활동은 선택 사항이므로 [!UICONTROL 자동 할당] 는 우승자를 선언합니다. 계산기는 필요한 샘플 크기를 대략적으로 추정합니다. 계산기 사용 방법에 대한 자세한 내용을 계속 확인하십시오.
 
-A/B 테스트를 설정하기 전에 Adobe Target에 액세스하십시오 [샘플 크기 계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR).
+A/B 테스트를 설정하기 전에 [!DNL Adobe Target] [샘플 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ![Adobe Target 샘플 크기 계산기](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -61,8 +61,7 @@ A/B 테스트를 정의하는 5개의 사용자 정의 매개 변수가 있습�
 
 >[!IMPORTANT]
 >
->정확한 결과를 얻으려면 매개 변수 번호를 변경하기 전에 페이지를 다시 로드해야 합니다.
-
+>정확한 결과를 얻으려면 매개 변수 번호를 변경하기 전에 페이지를 다시 로드해야 합니다. 매개변수 번호를 변경할 때마다 이 프로세스를 반복합니다.
 
 A/B 테스트의 경우, 통계적 유의도, 통계적 검증력, 확실히 감지 가능한 최소 상승도 및 베이스라인 전환율은 분석가에 의해 설정되며 그런 다음 필요한 방문자 수가 이러한 수치들로부터 계산됩니다. 이 문서에서는 이러한 요소에 대해 설명하고 특정 테스트에 대해 이러한 지표를 결정하는 방법에 대한 지침을 제공합니다.
 
