@@ -5,9 +5,9 @@ title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
-workflow-type: tm+mt
-source-wordcount: '1596'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '0'
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 94%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 11월 8일 | [A/B 테스트를 얼마 동안 실행해야 합니까?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 정확한 결과를 얻으려면 의 매개 변수 번호를 변경하기 전에 페이지를 다시 로드해야 한다는 중요한 참고가 추가되었습니다 [!DNL Adobe Target] [!UICONTROL 샘플 크기 계산기]. 또한 실제 [계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR){target=_blank}. |
-|  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 다음에 대한 설명이 업데이트되었습니다. `adobe_mc_sdid` 매개 변수 값을 지정한 경우 참조할 수 있습니다. |
-|  | [활동 문제 해결](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 다음과 같은 새 섹션이 추가되었습니다. &quot;활동 전환 후에는 방문자가 경험에 없습니다.&quot; |
-|  | [사용자 지정 매개 변수](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | 에서 선택하는 mbox에 대한 참고가 추가되었습니다 [!UICONTROL 필터 기준] 드롭다운 목록이 활동 생성 시 저장되지 않습니다. 이 옵션을 사용하면 선택한 mbox를 기반으로 매개 변수를 필터링할 수 있습니다. |
+| 11월 8일 | [A/B 테스트를 얼마 동안 실행해야 합니까?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 정확한 결과를 얻으려면 [!DNL Adobe Target] [!UICONTROL 샘플 크기 계산기]에서 매개변수 번호를 변경하기 전에 페이지를 다시 로드해야 한다는 중요한 메모가 추가되었습니다. 실제 [계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}에도 메모가 추가되었습니다. |
+|  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 표에서 `adobe_mc_sdid` 매개변수에 대한 설명이 업데이트되었습니다. |
+|  | [활동 문제 해결](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 새로운 섹션 추가: “활동 전환 후 방문자가 어떠한 경험도 하지 않습니다.” |
+|  | [사용자 정의 매개변수](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | [!UICONTROL 필터링 기준] 드롭다운 목록에서 선택한 mbox는 활동 생성 시 저장되지 않는다는 메모가 추가되었습니다. 이 옵션을 사용하면 선택한 mbox를 기반으로 매개변수를 필터링할 수 있습니다. |
 | 11월 2일 | 알려진 문제 및 해결된 문제 | 페이지를 제거하고 관련 문제를 적절한 페이지로 재배치하여 정보가 맥락에 맞게 표시되도록 했습니다. |
 | 10월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 10월 19일 | [범주 친화성](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | 단일 mbox 호출 내에서 여러 범주가 전달될 때 점수를 설명하는 메모가 추가되었습니다. |
