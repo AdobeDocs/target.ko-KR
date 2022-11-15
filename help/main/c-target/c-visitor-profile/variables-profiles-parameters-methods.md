@@ -1,13 +1,13 @@
 ---
 keywords: 변수;프로필;매개 변수;내장 프로필;메서드;URL 변수;지역 프로필;타사 프로필;mbox 변수;캠페인 변수;고객 속성
 description: Adobe Target의 프로필 스크립트에 유용한 다양한 프로필, 변수 및 매개 변수 목록을 봅니다.
-title: 어떤 프로필, 변수 및 매개 변수가 Target에 사용됩니까?
+title: 사용할 프로필, 변수 및 매개 변수 [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 967202f9de92afa79f4bef33470123504c0a8f53
+source-git-commit: dfb718d2ba0395e76c09234f7ccb69a69f1b976c
 workflow-type: tm+mt
-source-wordcount: '596'
-ht-degree: 83%
+source-wordcount: '634'
+ht-degree: 78%
 
 ---
 
@@ -38,7 +38,8 @@ ht-degree: 83%
 | user.header(&#39;accept&#39;) | 방문자 언어 및 문자 인코딩 |
 | user.header(&#39;connection&#39;) | 서버 연결. 예: keep-live |
 | user.header(&#39;referrer&#39;) | 방문자 현재 페이지의 웹 사이트 URL. Internet Explorer에 대해 작동하지 않습니다. |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.getLocal(&#39;param_name&#39;); | 를 사용하여 설정한 값을 검색합니다 `user.setLocal`. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | 프로필 스크립트 내에 지속적인 프로필 값을 만듭니다. 이러한 값은 프로필 스크립트처럼 지속되지만 설정된 스크립트 내에서만 액세스할 수 있습니다. |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | 프로필 스크립트에서 만든 지속적 프로필 속성입니다. 지리적 위치, 방문 횟수 등과 같은 &quot;시스템&quot; 프로필을 참조합니다. |
 | profile.get(&#39;param_name&#39;) | 프로필 스크립트에서 사용할 프로필 매개 변수를 가져오는 올바른 방법은 profile.get(&#39;param_name&#39;) 메서드입니다. |
