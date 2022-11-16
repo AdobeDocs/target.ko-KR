@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
-workflow-type: ht
-source-wordcount: '1876'
-ht-degree: 100%
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+workflow-type: tm+mt
+source-wordcount: '1990'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,22 @@ ht-degree: 100%
 Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target]은 평가된 모든 공급업체 중 당사의 테스트 기능에서 가장 높은 점수를 받았습니다.
 
 자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}을 참조하십시오.
+
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(11월 29일)
+
+* **2022년 11월 29일 화요일**
+* **오전 8시~9시 (PST GMT-8)**
+* **[등록 정보](https://adobe.ly/3UtQoxv){target=_blank}**
+
+수석 제품 관리자 Cristinel Anastasoaie와 함께 [!DNL Adobe Target]와(과) 관련된 질문에 응답하는 사람은 누구입니까? [!DNL Adobe Target] 웨비나 [AI 기반 개인화 및 Recommendations](#AI).
+
+웨비나 녹화를 검토하고 고유한 사용 사례에 대한 포괄적인 통찰력, 세부 설명 및 전략적 제안에 대한 후속 질문을 해야 합니다.
+
+* 실시간 권장 사항, 원클릭 개인화 활동 및 자동화된 오퍼 최적화
+* 를 사용하여 AI 기반의 개인화 활동 만들기 및 시작 [!UICONTROL 시각적 경험 작성기] (VEC)
+* 통합 대상 [!DNL Adobe Experience Platform] (AEP) 실시간 세그먼트 및 프로필 속성 공유를 위한
+
+[!DNL Adobe] 기술 지원 엔지니어 Simon Chen은 추가 인사이트와 질문에 대한 답변을 제공합니다.
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
@@ -52,7 +68,7 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)을 위한 Mag
 
 +++
 
-### [!DNL Adobe Target] Skill Builders - AI 기반 개인화 및 권장 사항 (2022년 9월 15일)
+### [!DNL Adobe Target] Skill Builders - AI 기반 개인화 및 권장 사항 (2022년 9월 15일) {#AI}
 
 실험 및 개인화의 자동화는 계속해서 마케팅, 엔지니어링 및 제품 팀의 전환 및 ROI를 가장 높은 수준으로 이끌어내고 있습니다. [!DNL Adobe] Skill Builders 세션에 참여하고 제품 및 콘텐츠 권장 사항을 포함한 [!DNL Adobe Target]의 고급 AI 기반 사용 사례 및 기능을 사용하여 경쟁 우위를 유지하고 모든 경험을 사로잡는 방법에 대해 알아보십시오.
 
