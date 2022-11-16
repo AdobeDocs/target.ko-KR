@@ -4,14 +4,14 @@ description: 에서 자동 Target 활동을 하는 방법을 알아봅니다 [!D
 title: 자동 Target 활동이란 무엇입니까?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1989'
 ht-degree: 66%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 자동 Target 개요
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL 자동 Target] 개요
 
 [!UICONTROL 자동 Target] 활동 [!DNL Adobe Target] 콘텐츠를 개인화하고 전환을 유도하려면 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택하십시오. 자동 Target은 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.
 
@@ -46,7 +46,7 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 사용 시 기억해야 할 몇 가지 중요한 고려 사항이 있습니다 [!UICONTROL 자동 Target]:
 
 * 에서는 특정 활동을 전환할 수 없습니다 [!UICONTROL 자동 Target] Automated Personalization으로, 그 반대로
-* 수동 트래픽 할당(기존 A/B 테스트)에서 로 전환할 수 없습니다 [!UICONTROL 자동 Target]활동이 라이브 상태가 된 후에 또는 그 반대로 할 수 있습니다.
+* 수동 트래픽 할당(기존 A/B 테스트)에서 로 전환할 수 없습니다 [!UICONTROL 자동 Target]활동을 초안으로 저장한 후 그 반대로 할 수 있습니다.
 * 하나의 모델은 개인화된 전략과 임의로 제공된 트래픽의 성과를 식별하고 모든 트래픽을 전체 우승 경험으로 전송하기 위해 작성됩니다. 이 모델은 기본 환경에서만 히트와 전환을 고려합니다.
 
    두 번째 모델 세트의 트래픽이 각 모델링 그룹(AP) 또는 경험(AT)에 대해 작성됩니다. 이러한 각 모델에 대해 모든 환경에 대한 히트 및 전환이 고려됩니다.
