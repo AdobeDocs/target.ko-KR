@@ -1,13 +1,13 @@
 ---
 keywords: target 설명서 변경 로그, 설명서 업데이트, 새 주제, 편집, 업데이트, 업데이트
 description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변경 사항을 최신 상태로 유지하십시오.'
-title: Target의 설명서 업데이트는 어디에서 찾을 수 있습니까?
+title: 에 대한 설명서 업데이트 정보는 어디에서 볼 수 있습니까? [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
 workflow-type: tm+mt
-source-wordcount: '1615'
-ht-degree: 98%
+source-wordcount: '1614'
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 11월 16일 | [Adobe Target 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 등록 정보를 추가했습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크(11월 29일)</li></ul> |
+| 11월 16일 | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 등록 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (11월 29일)</li></ul> |
 | 11월 8일 | [A/B 테스트를 얼마 동안 실행해야 합니까?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 정확한 결과를 얻으려면 [!DNL Adobe Target] [!UICONTROL 샘플 크기 계산기]에서 매개변수 번호를 변경하기 전에 페이지를 다시 로드해야 한다는 중요한 메모가 추가되었습니다. 실제 [계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}에도 메모가 추가되었습니다. |
 |  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 표에서 `adobe_mc_sdid` 매개변수에 대한 설명이 업데이트되었습니다. |
 |  | [활동 문제 해결](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 새로운 섹션 추가: “활동 전환 후 방문자가 어떠한 경험도 하지 않습니다.” |
