@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: 에 대한 설명서 업데이트 정보는 어디에서 볼 수 있습니까? [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5735bc3e68aa583ff00bdac11ea16c0f330c3f72
+source-git-commit: 58f85f2a067b6d79c07d17633d8123928bf4fec8
 workflow-type: tm+mt
-source-wordcount: '1614'
+source-wordcount: '1608'
 ht-degree: 99%
 
 ---
@@ -129,10 +129,10 @@ ht-degree: 99%
 | 1월 28일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 27일 | [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | [!DNL AEM as a Cloud Service] 및 [!DNL Adobe I/0]에 대한 주제가 업데이트되고 정보가 추가되었습니다. |
-| 1월 26일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.2 릴리스에 대한 정보가 추가되었습니다. |
+| 1월 26일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.1.2 릴리스에 대한 정보가 추가되었습니다. |
 |  | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
 |  | [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
 | 1월 21일 | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 19일 | [at.js 1.*x*&#x200B;에서 at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}로 업그레이드 | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개변수&quot; |
-| 1월 12일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | Target Standard/Premium 22.1.1 릴리스에 대한 정보가 추가되었습니다. |
+| 1월 12일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.1.1 릴리스에 대한 정보가 추가되었습니다. |
 |  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |
