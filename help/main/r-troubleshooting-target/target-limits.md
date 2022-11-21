@@ -5,9 +5,9 @@ title: 의 다양한 문자, 크기 및 기타 제한은 무엇입니까? [!DNL 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
+source-git-commit: 97d53f25261f30d3255323fba7efff51744cb74e
 workflow-type: tm+mt
-source-wordcount: '1348'
+source-wordcount: '1346'
 ht-degree: 96%
 
 ---
@@ -271,7 +271,7 @@ ht-degree: 96%
 
 * **권장 제한**: 2,000자.
 
-   인코딩된 문자열의 크기에 따라 다릅니다. 인코딩된 문자열은 원시 문자열보다 훨씬 더 길 수 있습니다. 문자열이 너무 큰 경우 Adobe Target에 도착하기 전에 실패합니다.
+   인코딩된 문자열의 크기에 따라 다릅니다. 인코딩된 문자열은 원시 문자열보다 훨씬 더 길 수 있습니다. 문자열이 너무 크면 에 도달하기 전에 실패합니다. [!DNL Adobe Target].
 
 ## 스크립트 프로필
 
