@@ -118,7 +118,7 @@ ht-degree: 99%
 | 2월 10일 | [시각적 경험 작성기 Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | VEC(시각적 경험 작성기)에서 서비스 작업자를 통해 웹 사이트를 로드하는 방법에 대한 정보가 추가되었습니다. |
 | 2월 7일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 2월 23일)</li></ul> |
 | 2월 3일 | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md#RTCDP) | 새 섹션 및 비디오 추가됨: “비디오: Real-Time CDP 및 [!DNL Adobe Target]을 사용하여 다음 히트 개인화” |
-| 2월 2일 | [콘텐츠 전달 문제 해결](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 다음 섹션 추가됨: “[!DNL Target] 프로필 속성 값이 예상대로 작동하지 않음에서 큰따옴표 이스케이프” |
+| 2월 2일 | [콘텐츠 게재 문제 해결](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | 다음 섹션 추가됨: “[!DNL Target] 프로필 속성 값이 예상대로 작동하지 않음에서 큰따옴표 이스케이프” |
 | 2월 1일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 릴리스에 대한 정보가 추가되었습니다. |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (2022년 1월 12일)
