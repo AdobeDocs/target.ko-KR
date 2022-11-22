@@ -1,13 +1,13 @@
 ---
 keywords: target 설명서 변경 로그, 설명서 업데이트, 새 주제, 편집, 업데이트, 업데이트
 description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변경 사항을 최신 상태로 유지하십시오.'
-title: 에 대한 설명서 업데이트 정보는 어디에서 볼 수 있습니까? [!DNL Target]?
+title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 58f85f2a067b6d79c07d17633d8123928bf4fec8
 workflow-type: tm+mt
 source-wordcount: '1608'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
