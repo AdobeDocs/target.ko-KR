@@ -4,10 +4,10 @@ description: Analytics에 대한 구현 요구 사항 알아보기 [!DNL Target]
 title: A4T를 구현하기 전에 무엇을 알아야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 24%
+source-wordcount: '995'
+ht-degree: 25%
 
 ---
 
@@ -25,7 +25,7 @@ ht-degree: 24%
 
 >[!IMPORTANT]
 >
->A4T를 사용하려면 먼저 계정이 통합용으로 공급되도록 요청해야 합니다. 를 사용하십시오 [Marketing Cloud 통합 프로비저닝 양식](https://www.adobe.com/go/audiences_kr) 프로비저닝을 요청 합니다.
+>A4T를 사용하려면 먼저 계정이 통합용으로 공급되도록 요청해야 합니다. 를 사용하십시오 [Marketing Cloud 통합 프로비저닝 양식](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y)프로비전되도록 요청할 {target=_blank}.
 
 이 A4T 통합에서는 A4T와 함께 리디렉션 오퍼를 사용할지 여부에 따라 다음 라이브러리 버전(또는 그 이상)을 구현해야 합니다.
 
@@ -41,7 +41,7 @@ A4T와 함께 리디렉션 오퍼를 사용하지 않을 경우, 이 A4T 통합�
 * [!DNL Adobe Target]: at.js  버전 0.9.1
 * Adobe Analytics: appMeasurement.js 버전 1.7.0
 
-을 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+를 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ### A4T에서 리디렉션 오퍼를 사용할 경우 필요한 요구 사항
 
@@ -59,13 +59,13 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 
 다운로드 및 배포 지침은 [Analytics for Target 구현](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
-를 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+을 사용하여 A4T를 구현하는 방법에 대한 자세한 내용은 [!DNL Platform Web SDK]를 참조하십시오. [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 ## 구현하기 전에 알아야 할 사항 {#section_50D49CC52E11414089C89FB67F9B88F5}
 
 * 사용하도록 선택하면 이 통합을 새 활동에 사용할 수 있습니다 [!DNL Analytics] 를 보고 소스로 사용 이 문서에 설명된 대로 구현을 변경해도 기존 활동에는 영향을 주지 않습니다.
 * 설정 프로세스 [!DNL Analytics] 를 [!DNL Target] 에는 몇 가지 구현 단계와 프로비저닝 단계가 순서대로 포함됩니다. 구현을 시작하기 전에 아래 설명된 프로세스를 자세히 읽어 보십시오. 이 단계를 완료하면 다음을 사용할 수 있습니다 [!DNL Analytics] 을 사용가능으로 설정한 경우 제공 프로세스는 업무일 기준으로 5일 정도 걸릴 수 있습니다.
-* 다음 [!DNL Visitor ID service] 공유 만들기 [!DNL Visitor ID] 건너편 [!DNL Adobe Experience Cloud]. 이 변수는 [!DNL Target] mboxPC id 또는 [!DNL Audience Manager] UUID로 대체됩니다 [!DNL Analytics] 새 방문자를 식별합니다. 제대로 설정되면, 반환 [!DNL Analytics] 방문자는 이전 버전도 통해 식별되어야 합니다 [!DNL Analytics] ID. 마찬가지로 [!DNL Target] mboxPCid가 그대로 유지되며 아무 것도 표시되지 않습니다 [!DNL Target] 방문자 프로필 데이터는 로 업그레이드할 때 손실됩니다 [!DNL Visitor ID service].
+* 다음 [!DNL Visitor ID service] 공유 만들기 [!DNL Visitor ID] 건너편 [!DNL Adobe Experience Cloud]. 이 변수는 [!DNL Target] mboxPC id 또는 [!DNL Audience Manager] UUID로 대체됩니다 [!DNL Analytics] 새 방문자를 식별합니다. 제대로 설정되면 재방문 [!DNL Analytics] 방문자는 이전 버전도 통해 식별되어야 합니다 [!DNL Analytics] ID. 마찬가지로 [!DNL Target] mboxPCid가 그대로 유지되며 아무 것도 표시되지 않습니다 [!DNL Target] 방문자 프로필 데이터는 로 업그레이드할 때 손실됩니다 [!DNL Visitor ID service].
 * 다음 [!DNL Visitor ID service] 먼저 실행해야 함 [!DNL Analytics] 및 [!DNL Target] 페이지 코드. 확인 `VisitorAPI.js` 은 기타 모든 태그의 태그 위에 표시됩니다 [!DNL Experience Cloud] 솔루션.
 
 ## 지연 {#section_9489BE6FD21641A4844E591711E3F813}
@@ -97,7 +97,7 @@ at.js를 사용 중이라면 [!DNL Experience Cloud Visitor ID Service], 및 app
 
 ## 공유 대상
 
-을 채우는 동안 [Marketing Cloud 통합 프로비저닝 양식](https://www.adobe.com/go/audiences)를 사용하는 경우 [!UICONTROL 공유 대상] 아래에 나열된 옵션[!UICONTROL 프로비전을 요청하는 기능]?
+을 채우는 동안 [Marketing Cloud 통합 프로비저닝 양식](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, 다음에 관련된 다음 중요 정보를 알고 있어야 합니다. [!UICONTROL 공유 대상] 아래에 나열된 옵션[!UICONTROL 프로비전을 요청하는 기능]?
 
 ![요청 양식](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
