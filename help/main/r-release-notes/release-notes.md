@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 94%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 100%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## 모델 API 릴리스(2022년 11월 23일)
+
+새로운 [!DNL Adobe Target] Models API라고도 차단 목록에 추가하다 하는 API를 사용하여 사용자가 의 기계 학습 모델에 사용된 기능 목록을 보고 관리할 수 있습니다 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동.
+
+자세한 내용은 [모델 API 개요](https://developer.adobe.com/target/before-administer/models-api/)의 {target=_blank} *Adobe Target 개발자 안내서*.
 
 ## [!DNL Target] Standard/Premium 22.10.3 (순차적 공개, 2022년 10월 25~27일)
 

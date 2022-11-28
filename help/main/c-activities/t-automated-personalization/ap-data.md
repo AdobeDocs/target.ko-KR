@@ -4,7 +4,7 @@ description: 데이터 Adobe 알아보기 [!DNL Target] 및 을(를) 수집하�
 title: 기계 학습 알고리즘을 생성하기 위해 수집되는 데이터는 무엇입니까?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
 workflow-type: tm+mt
 source-wordcount: '2029'
 ht-degree: 48%
@@ -48,7 +48,7 @@ ht-degree: 48%
 
 기능은 [!DNL Target] 기계 학습 알고리즘으로 어떠한 경우에도 사용되지 않음 [!UICONTROL 자동 Target] 또는 [!UICONTROL Automated Personalization] 모델 또는 활동.
 
-자세한 내용은 [모델 API(차단 목록에 추가) 개요](https://developer-stage.adobe.com/target/before-administer/models-api/)의 {target=_blank} *Adobe Target 개발자 안내서*.
+자세한 내용은 [모델 API(차단 목록에 추가) 개요](https://developer.adobe.com/target/before-administer/models-api/)의 {target=_blank} *Adobe Target 개발자 안내서*.
 
 ## 장치 및 모바일 데이터 {#device-mobile}
 
