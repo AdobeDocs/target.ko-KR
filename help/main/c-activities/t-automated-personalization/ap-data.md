@@ -4,9 +4,9 @@ description: 데이터 Adobe 알아보기 [!DNL Target] 및 을(를) 수집하�
 title: 기계 학습 알고리즘을 생성하기 위해 수집되는 데이터는 무엇입니까?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2029'
 ht-degree: 48%
 
 ---
@@ -48,9 +48,7 @@ ht-degree: 48%
 
 기능은 [!DNL Target] 기계 학습 알고리즘으로 어떠한 경우에도 사용되지 않음 [!UICONTROL 자동 Target] 또는 [!UICONTROL Automated Personalization] 모델 또는 활동.
 
-피쳐 카테고리를 차단하려면 [!DNL Target] 기계 학습 알고리즘, 연락처 [고객 지원 Adobe](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) 및 위에서 제공한 시스템 접두사를 사용하여 차단한 기능 범주를 지정합니다.
-
-하나 이상의 특정 기능을 [!DNL Target] 기계 학습 알고리즘, 연락처 [고객 지원 Adobe](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) 및 제공된 아래 시스템 이름을 사용하여 차단을 수행할 특정 기능 이름을 지정합니다. 다음 섹션에는 속성 이름, 설명 및 샘플값을 포함하여 다양한 데이터 유형에 대한 자세한 정보가 들어 있습니다.
+자세한 내용은 [모델 API(차단 목록에 추가) 개요](https://developer-stage.adobe.com/target/before-administer/models-api/)의 {target=_blank} *Adobe Target 개발자 안내서*.
 
 ## 장치 및 모바일 데이터 {#device-mobile}
 
