@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1693'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 0%
 | --- | --- | --- |
 | 11월 28일 | [모델 API(차단 목록에 추가) 개요](https://developer.adobe.com/target/before-administer/models-api/)의 {target=_blank} *Adobe Target 개발자 안내서*. | 새 모델 API.<br>기능은 [!DNL Target] 기계 학습 알고리즘으로 어떠한 경우에도 사용되지 않음 [!UICONTROL 자동 Target] 또는 [!UICONTROL Automated Personalization] 모델 또는 활동. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 모델 API 릴리스(2022년 11월 23일)에 대한 정보가 추가되었습니다. |
-| 11월 23일 | [at.js로 Analytics for Target(A4T)을 구현하기 전](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | 링크가 [Marketing Cloud 통합 프로비저닝 양식](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
+| 11월 23일 | [at.js로 Analytics for Target(A4T)을 구현하기 전](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Marketing Cloud 통합 프로비저닝 양식](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}에 대한 링크가 업데이트되었습니다. |
 | 11월 16일 | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 등록 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (11월 29일)</li></ul> |
 | 11월 8일 | [A/B 테스트를 얼마 동안 실행해야 합니까?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 정확한 결과를 얻으려면 [!DNL Adobe Target] [!UICONTROL 샘플 크기 계산기]에서 매개변수 번호를 변경하기 전에 페이지를 다시 로드해야 한다는 중요한 메모가 추가되었습니다. 실제 [계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}에도 메모가 추가되었습니다. |
 |  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 표에서 `adobe_mc_sdid` 매개변수에 대한 설명이 업데이트되었습니다. |
