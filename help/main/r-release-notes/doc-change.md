@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1761'
-ht-degree: 93%
+ht-degree: 96%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 93%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 11월 29일 | [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 다음 단락을 추가하여 텍스트를 명확하게 했습니다.<ul><li>방문자의 지역 정보는 페이지의 원래 IP 주소에서 결정됩니다 [!DNL Target] 위치 요청(mbox 요청). IP-to-geo 해상도는 새 세션의 첫 번째 호출에 대해 수행됩니다. 즉, 방문자의 IP 주소가 방문의 세션 중간에 변경되는 경우 지역 정보는 여전히 첫 번째 호출의 IP 주소를 기반으로 합니다.</li></ul> |
-| 11월 28일 | [모델 API(차단 목록에 추가) 개요](https://developer.adobe.com/target/before-administer/models-api/)의 {target=_blank} *Adobe Target 개발자 안내서*. | 새 모델 API.<br>기능은 [!DNL Target] 기계 학습 알고리즘으로 어떠한 경우에도 사용되지 않음 [!UICONTROL 자동 Target] 또는 [!UICONTROL Automated Personalization] 모델 또는 활동. |
+| 11월 28일 | *Adobe Target 개발자 안내서*&#x200B;의 [모델 API(차단 목록) 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} | 새 모델 API.<br>기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 모델 API 릴리스(2022년 11월 23일)에 대한 정보가 추가되었습니다. |
 | 11월 23일 | [at.js로 Analytics for Target(A4T)을 구현하기 전](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Marketing Cloud 통합 프로비저닝 양식](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}에 대한 링크가 업데이트되었습니다. |
 | 11월 16일 | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 등록 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (11월 29일)</li></ul> |
