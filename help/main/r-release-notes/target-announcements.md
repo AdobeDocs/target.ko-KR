@@ -5,19 +5,19 @@ title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1873'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
 # [!DNL Adobe Target] 공지 및 이벤트
 
-공지 및 정보 [!DNL Adobe Target] 이벤트, [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] Skill Builder 세션, 개발자 채팅 등 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
+[!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
 ## [!DNL Target] 개인화 엔진을 위한 Gartner Magic Quadrant(2022)의 리더로 선정됨
 
-Gartner 선정 [!DNL Adobe Target] 5년 연속 개인화 엔진(PE)의 최신 Magic Quadrant에서 선두 주자로 선정 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target] 평가된 모든 공급업체 중에서 테스트 기능에 대해 가장 높은 점수를 받았습니다.
+Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)에 대한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target]은 평가된 모든 공급업체 중 테스트 기능에서 가장 높은 점수를 받았습니다.
 
 자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}을 참조하십시오.
 
@@ -268,6 +268,6 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 
 ### [!DNL Adobe Target] 스킬 빌더: 개발자 채팅, [!DNL Adobe Target]의 mbox.js를 at.js로 마이그레이션 {#skill-builder}
 
-2021년 3월 31일에 mbox.js의 사용 중단으로, Adobe Target 제품 관리자 David Son은 개발자 채팅을 호스팅하여 mbox.js를 at.js로 마이그레이션하는 것의 이점을 설명합니다.
+2021년 3월 31일에 mbox.js 사용이 중단됨에 따라 Adobe Target 제품 관리자인 David Son은 개발자 채팅을 진행하여 mbox.js를 at.js로 마이그레이션하는 것의 이점에 대해 설명했습니다.
 
 * **[녹화 링크](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)**
