@@ -4,9 +4,9 @@ description: 지표, 대상, 날짜 범위 등을 포함하여 Adobe Target에�
 title: 보고서 설정을 구성하려면 어떻게 합니까?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1923'
+source-wordcount: '1959'
 ht-degree: 66%
 
 ---
@@ -145,9 +145,14 @@ ht-degree: 66%
 
 상승도를 계산하고 비교할 때 사용할 제어 경험을 선택합니다.
 
-### 환경
+### 환경 {#environment}
 
 보고서에 사용할 환경(호스트 그룹)을 선택하십시오. 자세한 내용은 [호스트](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
+
+>[!NOTE]
+>
+>조직에서 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html)지표 데이터를 보낼 {target=_blank}(AEP) [!DNL Target]를 설정하는 경우 AEP 데이터 스트림의 환경은 사용자의 환경과 일치해야 합니다 [!DNL Target] 보고서 설정.
+
 
 ### 보고 데이터 재설정
 
@@ -192,7 +197,7 @@ ht-degree: 66%
 
 보고서는 활동과 연결된 상승도 한계와 신뢰 수준을 이해하는 유용한 몇 가지 데이터 포인트와 시각화 표현을 포함합니다. 이러한 항목들을 포함하는 것은 승자를 보다 정확하게 판별하는 데 도움이 됩니다.
 
-자세한 내용은 [A/B 테스트의 통계적 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+자세한 내용은 [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 다음 사항을 고려하십시오.
 
