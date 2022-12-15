@@ -4,7 +4,7 @@ description: 프로필 속성을 사용하여 Adobe에서 테스트를 설정하
 title: 프로필 스크립트를 사용하여 함께 수행할 수 없는 활동을 테스트할 수 있습니까?
 feature: Audiences
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 34db233e0790f8ef04309c3f4b5acd12b7cdd5ad
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 74%
@@ -30,7 +30,7 @@ ht-degree: 74%
 
 ```javascript
 if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
+    var ran_number = Math.floor(Math.random() * 100); 
     if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
@@ -41,9 +41,9 @@ if (!user.get('twogroups')) {
 
 * `if (!user.get('twogroups'))`는 *twogroups* 프로필 속성이 현재 방문자에 대해 설정되었는지 여부를 확인합니다. 설정된 경우 추가 작업이 필요 없습니다.
 
-* `var ran_number=Math.floor(Math.random() *99)`는 ran_number라는 새 변수를 선언하고 해당 값을 0과 1 사이의 임의 소수로 설정한 다음 99를 곱하고 내림하여 100(0-99)의 범위를 만듭니다. 이 범위는 활동을 보는 방문자의 비율을 지정하는 데 유용합니다.
+* `var ran_number=Math.floor(Math.random() *100)`는 ran_number라는 새 변수를 선언하고 해당 값을 0과 1 사이의 임의 소수로 설정한 다음 100를 곱하고 내림하여 100(0-100)의 범위를 만듭니다. 이 범위는 활동을 보는 방문자의 비율을 지정하는 데 유용합니다.
 
-* `if (ran_number <= 49)`는 방문자가 속하는 그룹을 결정하는 루틴을 시작합니다. 반환된 숫자가 0-49이면 방문자가 GroupA에 할당됩니다. 숫자가 50-99이면 방문자가 GroupB에 할당됩니다. 그룹은 방문자에게 표시되는 활동을 결정합니다.
+* `if (ran_number <= 49)`는 방문자가 속하는 그룹을 결정하는 루틴을 시작합니다. 반환된 숫자가 0-49이면 방문자가 GroupA에 할당됩니다. 숫자가 50-100이면 방문자가 GroupB에 할당됩니다. 그룹은 방문자에게 표시되는 활동을 결정합니다.
 
 프로필 속성을 만든 후 사용자 프로필 매개 변수를 요구하여 원하는 모집단을 타겟팅하려면 첫 번째 활동을 설정하십시오 `user.twogroups` 는 GroupA에 지정된 값과 일치합니다.
 
@@ -61,7 +61,7 @@ if (!user.get('twogroups')) {
 
 ```javascript
 if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
+    var ran_number = Math.floor​(Math.random() * 100); 
     if (ran_number <= 24) { 
         return 'GroupA'; 
     } else if (ran_number <= 49) { 
@@ -78,17 +78,17 @@ if (!user.get('fourgroups')) {
 
 홀수 그룹이나 100이 균일하게 나누어지지 않는 임의 개수를 만드는 경우 소수를 정수로 내림하면 안 됩니다. 소수를 내림하지 않으면 정수가 아닌 범위를 지정할 수 있습니다. 이 작업을 수행하려면 다음 줄을 찾습니다.
 
-`var ran_number=Math.floor(Math.random()*99);`
+`var ran_number=Math.floor(Math.random()*100);`
 
 다음 동작을 수행합니다.
 
-`var ran_number=Math.random()*99;`
+`var ran_number=Math.random()*100;`
 
 예를 들어 방문자를 동일한 그룹 3개에 배치하려면 다음 코드를 사용하십시오.
 
 ```javascript
 if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
+    var ran_number = Math.random() * 100; 
     if (ran_number <= 32.33) { 
         return 'GroupA'; 
     } else if (ran_number <= 65.66) { 
