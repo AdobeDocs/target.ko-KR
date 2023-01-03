@@ -4,10 +4,10 @@ description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe에서
 title: Velocity를 사용하여 디자인을 사용자 지정하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 60%
+source-wordcount: '1066'
+ht-degree: 46%
 
 ---
 
@@ -21,22 +21,24 @@ Velocity에 대한 정보는 [](https://velocity.apache.org)https://velocity.apa
 
 모든 Velocity 로직, 구문 등을 권장 사항 디자인에 사용할 수 있습니다. 이것은 JavaScript가 아닌 Velocity를 사용하여 *for* 루프, *if* 구문 및 기타 코드를 만들 수 있음을 의미합니다.
 
-`productPage` mbox나 CSV 업로드에서 [!DNL Recommendations]로 보내지는 모든 변수는 디자인에 표시할 수 있습니다. 이러한 값은 다음 구문으로 참조합니다.
+에 보낸 엔티티 속성 [!DNL Recommendations] 에서 `productPage` mbox 또는 CSV 업로드는 &quot;다중 값&quot; 속성을 제외하고 디자인에 표시할 수 있습니다. 모든 유형의 속성을 전송할 수 있습니다. 하지만 [!DNL Target] 에서는 &quot;multi-value&quot; 유형의 속성을 템플릿을 반복할 수 있는 배열로 전달하지 않습니다(예: `entityN.categoriesList`).
+
+이러한 값은 다음 구문으로 참조합니다.
 
 ```
 $entityN.variable
 ```
 
-변수 이름은 선행 *$* 문자, VTL(Velocity 템플릿 언어) 식별자로 구성되는 Velocity 축약 표기법을 따라야 합니다. VTL 식별자는 알파벳 문자(a-z 또는 A-Z)로 시작해야 합니다.
+엔티티 속성 이름은 선행 표기법으로 구성된 속도 축약법을 따라야 합니다 *$* 문자 뒤에 VTL(Velocity Template Language) 식별자가 옵니다. VTL 식별자는 알파벳 문자(a-z 또는 A-Z)로 시작해야 합니다.
 
-Velocity 변수 이름은 다음 유형의 문자로 제한됩니다.
+속도 엔티티 속성 이름은 다음 유형의 문자로 제한됩니다.
 
 * 알파벳(a-z, A-Z)
 * 숫자(0-9)
 * 하이픈 ( - )
 * 밑줄( _ )
 
-다음 변수는 Velocity 배열로 사용할 수 있습니다. 따라서 색인을 통해 반복하거나 참조할 수도 있습니다.
+다음 속성은 Velocity 배열로 사용할 수 있습니다. 따라서 색인을 통해 반복하거나 참조할 수도 있습니다.
 
 * `entities`
 * `entityN.categoriesList`
@@ -57,7 +59,7 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Velocity 변수에 대한 자세한 내용은 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables)를 참조하십시오.
+Velocity 변수(특성)에 대한 자세한 내용은 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
 디자인에서 프로필 스크립트를 사용하는 경우, 스크립트 이름 앞에 있는 $는 \으로 이스케이프 처리해야 합니다. 예, `\${user.script_name}`.
 
@@ -118,16 +120,16 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->변수 이름이 완료되었음을 나타내는 태그 앞에 변수의 값 뒤에 텍스트를 추가하려면 형식 표기법을 사용하여 변수 이름을 묶을 수 있습니다. 예: `${entity1.thumbnailUrl}.gif`.
+>속성 이름을 나타내는 태그 앞에 속성 값 뒤에 텍스트를 추가하려는 경우 공식 표기법을 사용하여 속성 이름을 묶을 수 있습니다. 예: `${entity1.thumbnailUrl}.gif`.
 
-사용자는 또한 디자인에서 `algorithm.name` 및 `algorithm.dayCount`를 변수로 사용할 수 있으며, 하나의 디자인을 사용해서 여러 기준을 테스트하고 해당 기준 이름을 디자인에 동적으로 표시할 수 있습니다. 이는 방문자에게 자신이 &quot;최상위 판매자&quot; 또는 &quot;이 항목을 본 사용자가 구매한 항목&quot;을 검토 중임을 보여줍니다. 이러한 변수를 사용해서 `dayCount`(&quot;지난 2일 동안 최상위 판매자&quot; 등과 같이 기준에 사용된 데이터의 일 수)를 표시할 수도 있습니다.
+를 사용할 수도 있습니다 `algorithm.name` 및 `algorithm.dayCount` 디자인에서 엔티티 속성으로, 하나의 디자인을 사용하여 여러 기준을 테스트하고 기준 이름을 디자인에 동적으로 표시할 수 있습니다. 이는 방문자에게 자신이 &quot;최상위 판매자&quot; 또는 &quot;이 항목을 본 사용자가 구매한 항목&quot;을 검토 중임을 보여줍니다. 이러한 속성을 사용하여 `dayCount` (지난 2일 동안 최상위 판매자 등과 같이 기준에 사용된 데이터의 일 수)
 
 ## Velocity 템플릿에서 숫자 작업
 
 기본적으로 속도 템플릿은 모든 엔티티 속성을 문자열 값으로 처리합니다. 수학 작업을 수행하거나 다른 숫자 값과 비교하기 위해 엔티티 속성을 숫자 값으로 처리할 수 있습니다. 엔티티 속성을 숫자 값으로 처리하려면 다음 단계를 수행합니다.
 
 1. 더미 변수를 선언하고 임의의 정수 또는 double 값으로 초기화합니다.
-1. 사용하려는 엔티티 속성이 비어 있지 않은지 확인합니다(Target Recommendations의 템플릿 파서가 템플릿을 확인하고 저장하는 데 필요).
+1. 사용하려는 엔티티 속성이 비어 있지 않은지 확인합니다(에 필요) [!DNL Target Recommendations]&#39; 템플릿 구문 분석기를 사용하여 템플릿을 확인하고 저장합니다.)
 1. 엔티티 속성을에 전달 `parseInt` 또는 `parseDouble` 1단계에서 만든 더미 변수의 메서드를 사용하여 문자열을 정수 또는 double 값으로 변환합니다.
 1. 새 숫자 값에 대해 수학 연산을 수행하거나 비교를 수행합니다.
 
@@ -214,7 +216,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 다음 코드는 조건부 판매 가격 책정 예제의 한 줄을 보여 줍니다.
 
 ```
-<span class="price">$entity1.value.replace(".", ",") €</span><br>
+<span class="price">$entity1.value.replace(".", ",") &euro;</span><br>
 ```
 
 다음 코드는 판매 가격에 대한 완전한 조건부 예제입니다.
@@ -222,9 +224,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 ```
 <div class="price"> 
     #if($entity1.hasSalesprice==true) 
-    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") €</s></span><br> 
-    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") €<br> #else 
-    <span class="price">$entity1.value.replace(".", ",") €</span><br> #end 
+    <span class="old">Statt <s>$entity1.salesprice.replace(".", ",") &euro;</s></span><br> 
+    <span style="font-size: 10px; float: left;">jetzt nur</span> $entity1.value.replace(".", ",") &euro;<br> #else 
+    <span class="price">$entity1.value.replace(".", ",") &euro;</span><br> #end 
     <span style="font-weight:normal; font-size:10px;"> 
                                         $entity1.vatclassDisplay 
                                         <br/> 
