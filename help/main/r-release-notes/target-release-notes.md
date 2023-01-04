@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
-workflow-type: ht
-source-wordcount: '420'
-ht-degree: 100%
+source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+workflow-type: tm+mt
+source-wordcount: '394'
+ht-degree: 52%
 
 ---
 
@@ -15,30 +15,24 @@ ht-degree: 100%
 
 이 문서에는 프리릴리스 정보가 포함되어 있습니다. 릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 
-**마지막 업데이트: 2022년 10월 19일**
+**마지막 업데이트 날짜: 2023년 1월 4일**
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이들 페이지에 대한 정보는 릴리스 일자에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## [!DNL Target] Standard/Premium 22.10.3 (순차적 공개, 2022년 10월 25~27일)
-
-이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
-
-* **10월 25일**: 유럽, 중동 및 아프리카(EMEA) 지역
-* **10월 26일**: 아시아 태평양(APAC) 지역
-* **10월 27일**: 아메리카 지역
+## [!DNL Target] Standard/Premium 23.1.1(2023년 1월 23일)
 
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]<br>에 최적화된 A4T 지표 (테스트 대상 고객을 선택할 수 있습니다. 향후 릴리스를 통해 모든 고객이 사용할 수 있습니다.) | 다음 변경 사항에 유의하십시오.<ul><li>[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동에 대한 A4T([!UICONTROL Analytics for Target]) 보고에서 비-바이너리 및 최대화 지표 지원 추가</li><li>기존 활동에 대한 비헤이비어는 2023년 2월까지 유지됩니다. 이 날짜 이후에는 기존 활동을 새 비헤이비어로 강제 마이그레이션하기 위해 활동이 중단됩니다.</li><li>2023년 2월 20일부터 [!DNL Target] 활동의 `averagetimespentonsite`, `bouncerate`, `entries` 및 지표에 대한 지원이 중단됩니다.</li></ul> |
+| AEM 컨텐츠 조각<br>(이 기능을 결정할 정확한 릴리스 날짜입니다.) | 에서 만든 컨텐츠 조각 사용 [!DNL Adobe Experience Manager] (AEM)에서 [!DNL Target] 최적화 또는 개인화를 지원하기 위한 활동.<br>AEM에서 만든 컨텐츠 조각 사용 [!DNL Target] 활동을 통해 AEM의 사용 편의성과 기능을 강력한 AI(인공 지능) 및 기계 학습(ML) 기능을 결합할 수 있습니다 [!DNL Target] 경험을 규모에 맞게 테스트 및 개인화합니다. |
 
-* 고객이 대상자 빌더를 보다 효율적으로 탐색하고 익숙하지 않은 기능을 사용하는 방법을 배울 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다. (TGT-44139)
-* 지원되지 않는 지표를 사용하기 때문에 [!DNL Target]에서 비활성화된 활동을 고객이 편집할 수 없도록 하는 기능이 추가되었습니다. UI의 메시지가 고객에게 활동을 복제한 다음 전환 지표를 업데이트하도록 안내합니다.
-
-   이번 릴리스를 통해 [!DNL Target] 활동의 `averagetimespentonsite`, `bouncerate` 및 `entries` 지표가 새 활동에 대해 더 이상 사용되지 않습니다. 기존 활동은 2023년 5월까지 이들 지표를 계속 사용할 수 있습니다.
-
-* 고객이 A4T를 사용하는 [!UICONTROL 자동 타겟] 활동을 생성하거나 편집하는 동안 최적화 기준을 선택할 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다.
+* 에 JSON 오퍼에 대한 지원이 추가되었습니다. [!UICONTROL Automated Personalization] (AP) 양식 기반 경험 작성기를 사용하는 활동. (TGT-41460)
+* AEM 태그별로 오퍼를 검색하고 필터링하는 기능을 추가했습니다. (TGT-43837)
+* 이름이 &quot;[!UICONTROL 경험 조각]시각적 경험 작성기 워크플로우에서 &quot; 옵션을 클릭합니다. 옵션은 이제 &quot;&quot;입니다.[!UICONTROL HTML XF]&quot;.
+* 오퍼 정보 도구 설명에서 경험 조각 오퍼 메타데이터를 보는 기능을 추가했습니다. (TGT-43838)
+* AP에서 45일 및 90일 달력 옵션이 제거됨 및 [!UICONTROL 자동 Target] [!UICONTROL 개인화 통찰력] 및 [!UICONTROL 중요 속성] 의 보고서 [!DNL Target] UI. 사용 패턴 및 성능 향상을 위해 이러한 날짜 범위는 더 이상 사용되지 않습니다. 현재 허용되는 범위를 반영하도록 UI가 업데이트되었습니다. 15, 30 및 60일. (TGT-39357)
+* 를 변경할 수 있는 기능이 제거되었습니다. [!UICONTROL 최적화 목표와 동일] 설정 [!UICONTROL 목표 및 설정] 활동이 라이브 상태가 된 후의 페이지입니다. (TGT-43923)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
