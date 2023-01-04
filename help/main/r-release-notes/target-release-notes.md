@@ -4,9 +4,9 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 52%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 52%
 
 * 에 JSON 오퍼에 대한 지원이 추가되었습니다. [!UICONTROL Automated Personalization] (AP) 양식 기반 경험 작성기를 사용하는 활동. (TGT-41460)
 * AEM 태그별로 오퍼를 검색하고 필터링하는 기능을 추가했습니다. (TGT-43837)
-* 이름이 &quot;[!UICONTROL 경험 조각]시각적 경험 작성기 워크플로우에서 &quot; 옵션을 클릭합니다. 옵션은 이제 &quot;&quot;입니다.[!UICONTROL HTML XF]&quot;.
+* 이름이 &quot;[!UICONTROL 경험 조각]시각적 경험 작성기 워크플로우에서 &quot; 옵션을 클릭합니다. 옵션은 이제 &quot;&quot;입니다.[!UICONTROL HTML XF].&quot; (TGT-44132)
 * 오퍼 정보 도구 설명에서 경험 조각 오퍼 메타데이터를 보는 기능을 추가했습니다. (TGT-43838)
 * AP에서 45일 및 90일 달력 옵션이 제거됨 및 [!UICONTROL 자동 Target] [!UICONTROL 개인화 통찰력] 및 [!UICONTROL 중요 속성] 의 보고서 [!DNL Target] UI. 사용 패턴 및 성능 향상을 위해 이러한 날짜 범위는 더 이상 사용되지 않습니다. 현재 허용되는 범위를 반영하도록 UI가 업데이트되었습니다. 15, 30 및 60일. (TGT-39357)
 * 를 변경할 수 있는 기능이 제거되었습니다. [!UICONTROL 최적화 목표와 동일] 설정 [!UICONTROL 목표 및 설정] 활동이 라이브 상태가 된 후의 페이지입니다. (TGT-43923)
