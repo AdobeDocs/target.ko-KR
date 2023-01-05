@@ -5,9 +5,9 @@ title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습�
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1824'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 12월 21일 | [Velocity를 사용하여 디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | 에 보낸 엔티티 속성을 명확히 함 [!DNL Recommendations] 에서 `productPage` mbox 또는 CSV 업로드는 &quot;다중 값&quot; 속성을 제외하고 디자인에 표시할 수 있습니다. |
+| 12월 21일 | [Velocity를 사용하여 디자인 사용자 정의](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | “다중 값” 속성을 제외하고 `productPage` mbox 또는 CSV 업로드에서 [!DNL Recommendations]로 전송된 엔티티 속성이 디자인에 표시될 수 있음을 명확히 했습니다. |
 | 12월 20일 | [[!UICONTROL Automated Personalization의 오퍼 보고 그룹]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | “주의 사항” 아래에 보고 그룹에 대한 추가 정보를 추가하였습니다. |
 | 12월 14일 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md#environment) | [!DNL Adobe Experience Platform](AEP)을 사용하여 지표 데이터를 [!DNL Target]으로 보내는 방법과 관련하여 “환경” 섹션에 메모가 추가되었습니다. |
 | 11월 29일 | [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 다음 단락을 추가하여 텍스트를 명확히 했습니다.<ul><li>방문자의 지역 정보는 [!DNL Target] 위치 요청(mbox 요청)의 원래 IP 주소에서 결정됩니다. IP-to-geo 해결은 새 세션의 첫 번째 호출에 대해 수행됩니다. 이는 방문자의 IP 주소가 방문 세션 중간에 변경되는 경우 지역 정보는 여전히 첫 번째 호출의 IP 주소를 기반으로 한다는 것을 의미합니다.</li></ul> |
