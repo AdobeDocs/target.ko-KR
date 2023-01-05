@@ -21,7 +21,7 @@ ht-degree: 100%
 | --- | --- | --- |
 | 12월 21일 | [Velocity를 사용하여 디자인 사용자 정의](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | “다중 값” 속성을 제외하고 `productPage` mbox 또는 CSV 업로드에서 [!DNL Recommendations]로 전송된 엔티티 속성이 디자인에 표시될 수 있음을 명확히 했습니다. |
 | 12월 20일 | [[!UICONTROL Automated Personalization의 오퍼 보고 그룹]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | “주의 사항” 아래에 보고 그룹에 대한 추가 정보를 추가하였습니다. |
-| 12월 14일 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md#environment) | [!DNL Adobe Experience Platform](AEP)을 사용하여 지표 데이터를 [!DNL Target]으로 보내는 방법과 관련하여 “환경” 섹션에 메모가 추가되었습니다. |
+| 12월 14일 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md#environment) | [!DNL Adobe Experience Platform] (AEP)을 사용하여 지표 데이터를 [!DNL Target]으로 보내는 방법과 관련하여 “환경” 섹션에 메모가 추가되었습니다. |
 | 11월 29일 | [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 다음 단락을 추가하여 텍스트를 명확히 했습니다.<ul><li>방문자의 지역 정보는 [!DNL Target] 위치 요청(mbox 요청)의 원래 IP 주소에서 결정됩니다. IP-to-geo 해결은 새 세션의 첫 번째 호출에 대해 수행됩니다. 이는 방문자의 IP 주소가 방문 세션 중간에 변경되는 경우 지역 정보는 여전히 첫 번째 호출의 IP 주소를 기반으로 한다는 것을 의미합니다.</li></ul> |
 | 11월 28일 | *Adobe Target 개발자 안내서*&#x200B;의 [모델 API(차단 목록) 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} | 새 모델 API.<br>기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 모델 API 릴리스(2022년 11월 23일)에 대한 정보가 추가되었습니다. |
