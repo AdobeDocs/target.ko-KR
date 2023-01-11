@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ee1307da98bfd83e605f772c0727340f6d262f30
+source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 99%
+source-wordcount: '333'
+ht-degree: 100%
 
 ---
 
@@ -19,13 +19,9 @@ ht-degree: 99%
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이들 페이지에 대한 정보는 릴리스 일자에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## [!DNL Target] Standard/Premium 23.1.1(2023년 1월 25-26일)
+## [!DNL Target] Standard/Premium 23.1.1(2023년 1월 25~26일)
 
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| AEM 콘텐츠 조각<br>(이 기능의 정확한 릴리스 날짜는 미정) | 최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 생성된 콘텐츠 조각을 사용합니다.<br>[!DNL Target] 활동에 AEM에서 만든 콘텐츠 조각을 사용하면 AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(기계 학습) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다. |
 
 * 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization](AP) 활동에서 JSON 오퍼에 대한 지원이 추가되었습니다. (TGT-41460)
 * AEM 태그로 오퍼를 검색하고 필터링할 수 있는 기능이 추가되었습니다. (TGT-43837)
