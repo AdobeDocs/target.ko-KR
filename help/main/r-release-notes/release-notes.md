@@ -20,7 +20,7 @@ ht-degree: 100%
 
 ## 모델 API 릴리스 (2022년 11월 23일)
 
-차단 목록 API라고도 하는 새로운 [!DNL Adobe Target] 모델 API를 통해 사용자는 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟](AT) 활동을 위한 머신 러닝 모델에 사용되는 기능 목록을 조회하고 관리할 수 있습니다.
+차단 목록 API라고도 하는 새로운 [!DNL Adobe Target] 모델 API를 통해 사용자는 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] (AT) 활동을 위한 머신 러닝 모델에 사용되는 기능 목록을 조회하고 관리할 수 있습니다.
 
 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [모델 API(차단 목록) 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}를 참조하십시오.
 
