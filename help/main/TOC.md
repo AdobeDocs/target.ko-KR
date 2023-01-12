@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 98%
@@ -123,7 +123,7 @@ ht-degree: 98%
    + 자동 타기팅 {#auto-target}
       + [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [자동 타겟 문제 해결 및 FAQ](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [자동 Target FAQ 및 문제 해결](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [보고 및 자동 타겟](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization 개요](c-activities/t-automated-personalization/automated-personalization.md)
