@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 97%
+source-wordcount: '1853'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 97%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 1월 12일 | [시각적 경험 작성기 Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 현재 상태를 설명하는 중요한 참고가 업데이트되었습니다 [!UICONTROL 시각적 경험 작성기] helper 확장 프로그램. |
+|  | [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | 를 통해 추가된 대상 URL 타깃팅 및 URL 타깃팅에 대해 설명하는 정보가 추가되었습니다 [!UICONTROL 템플릿 규칙] 를 URL 타깃팅으로 평가합니다. |
 |  | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 22.13.3 릴리스에 대한 사전 릴리스 노트가 추가되었습니다. |
 | 12월 21일 | [Velocity를 사용하여 디자인 사용자 정의](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | “다중 값” 속성을 제외하고 `productPage` mbox 또는 CSV 업로드에서 [!DNL Recommendations]로 전송된 엔티티 속성이 디자인에 표시될 수 있음을 명확히 했습니다. |
 | 12월 20일 | [[!UICONTROL Automated Personalization의 오퍼 보고 그룹]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | “주의 사항” 아래에 보고 그룹에 대한 추가 정보를 추가하였습니다. |
