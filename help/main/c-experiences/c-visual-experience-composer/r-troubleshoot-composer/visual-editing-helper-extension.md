@@ -4,7 +4,7 @@ description: '[!UICONTROL 시각적 경험 작성기](VEC)에서 일부 웹 사�
 title: '[!UICONTROL Visual Editing Helper] 확장 기능을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 82%
@@ -32,7 +32,7 @@ Chrome용 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브�
 * `X-Frame-Options` 및 `Content-Security-Policy`와 같은 모든 iframe 버스팅 헤더는 웹 사이트에서 묵시적으로 제거됩니다. 복잡한 Requestly 규칙을 만들 필요가 없습니다.
 * 웹 페이지에 아직 [!DNL Target] at.js 라이브러리가 포함되어 있지 않은 경우 확장 기능을 사용하여 라이브러리를 삽입할 수 있으므로 웹 사이트에 대한 경험을 작성할 수 있습니다. 그런 다음 활동을 만들고 미리보기 링크를 사용하여 QA를 수행할 수 있습니다.
 
-[고급 경험 작성기](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)를 사용하면 확장 기능이 at.js에 삽입되지는 않지만 SameSite 쿠키 기능은 여전히 존재합니다. 웹 페이지에서 at.js를 삽입하려면 EEC를 끕니다.
+   [고급 경험 작성기](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)를 사용하면 확장 기능이 at.js에 삽입되지는 않지만 SameSite 쿠키 기능은 여전히 존재합니다. 웹 페이지에서 at.js를 삽입하려면 EEC를 끕니다.
 
 * [모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)는 [!UICONTROL 고급 경험 작성기] (EEC) 없이도 지원됩니다.
 * [!DNL Target]을 처음 사용하는 고객은 IT 개발자가 아직 웹 사이트에서 [!DNL Target]을 구현하지 않았더라도 확장 기능을 사용하여 [!DNL Target]을 실험해 볼 수 있습니다.
