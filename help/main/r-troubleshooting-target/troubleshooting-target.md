@@ -4,9 +4,9 @@ description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용�
 title: Target 문제를 해결하려면 어떻게 합니까?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
@@ -159,4 +159,5 @@ ht-degree: 88%
 * [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [시각적 경험 작성기 모범 사례 및 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
+* [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 * 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다. [시각적 경험 작성기(VEC)](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 참조하십시오.
