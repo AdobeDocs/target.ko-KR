@@ -1,6 +1,6 @@
 ---
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 기능;브라우저;faq
-description: '[!UICONTROL 시각적 경험 작성기](VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아보십시오. [!UICONTROL Visual Editing Helper] 브라우저 확장 기능을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
+description: '[!UICONTROL 시각적 경험 작성기] (VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아보십시오. [!UICONTROL Visual Editing Helper] 브라우저 확장 기능을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
 title: '[!UICONTROL Visual Editing Helper] 확장 기능을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
@@ -40,7 +40,7 @@ Chrome용 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브�
 
 ## [!UICONTROL Visual Editing Helper] 브라우저 확장 기능 가져오기 및 설치
 
-1. [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Chrome 웹 스토어의 브라우저 확장 기능](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}으로 이동합니다.
+1. [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Chrome 웹 스토어의 브라우저 확장 기능](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}으로 이동합니다.
 1. **[!UICONTROL Chrome에 추가]** > **[!UICONTROL 확장 기능 추가]**&#x200B;를 클릭합니다.
 1. [!DNL Target]에서 VEC를 엽니다.
 1. 확장 기능을 사용하려면 VEC 또는 QA 모드에서 Chrome 브라우저 도구 모음의 [!UICONTROL Visual Editing Helper] 브라우저 확장 기능 아이콘(![Visual Editing 확장 기능 아이콘](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png))을 클릭합니다.
@@ -61,7 +61,7 @@ Chrome용 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브�
 
 ## 자주 묻는 질문
 
-### 확장 기능이 활성화된 경우 [!DNL Adobe Target] 또는 [!UICONTROL Adobe Journey Optimizer](AJO) 이외의 다른 곳에서 사용될 때 수행되는 작업이 있습니까?
+### 확장 기능이 활성화된 경우 [!DNL Adobe Target] 또는 [!UICONTROL Adobe Journey Optimizer] (AJO) 이외의 다른 곳에서 사용될 때 수행되는 작업이 있습니까?
 
 확장 기능은 해당 웹 사이트가 [!DNL Adobe] 제품([!DNL Target], [!DNL AJO])의 iFrame 내부에 로드된 경우에만 활성화됩니다. 이 흐름을 벗어나면 확장 기능은 헤더를 추가, 제거 또는 수정하지 않으며, 확장 기능은 웹 사이트 내부에 코드를 삽입하지 않습니다.
 

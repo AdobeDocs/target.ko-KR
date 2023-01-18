@@ -23,17 +23,17 @@ ht-degree: 100%
 
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
 
-* 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization](AP) 활동에서 JSON 오퍼에 대한 지원이 추가되었습니다. (TGT-41460)
+* 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동에서 JSON 오퍼에 대한 지원이 추가되었습니다. (TGT-41460)
 * AP 활동에 대한 [QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)를 구현했습니다. (TGT-44341)
 * 고객이 [!DNL Adobe Analytics]의 데이터를 [!DNL Target] UI의 데이터와 보다 적절하게 연관시킬 수 있도록 [!DNL Recommendations] 활동의 경험 이름이 이해하기 쉬운 이름으로 표시됩니다. (TGT-41853)
-* 권장 사항이 포함된 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타겟팅](XT) 활동에서 “500 오류”가 발생하는 문제를 해결했습니다. 이 문제는 [!DNL Target]이 더 이상 사용되지 않는 [!DNL Target] UI 및 [!DNL Recommendations] 백엔드에서 기준 오브젝트를 제대로 삭제하지 못했을 때 발생했습니다. (TGT-44383)
+* 권장 사항이 포함된 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타겟팅] (XT) 활동에서 “500 오류”가 발생하는 문제를 해결했습니다. 이 문제는 [!DNL Target]이 더 이상 사용되지 않는 [!DNL Target] UI 및 [!DNL Recommendations] 백엔드에서 기준 오브젝트를 제대로 삭제하지 못했을 때 발생했습니다. (TGT-44383)
 * [!UICONTROL Automated Personalization] 활동에 대한 [!UICONTROL 오퍼 수준] 보고서에 표시된 오퍼 이름에서 위치를 제거했습니다. 이렇게 변경하면 보고서를 보다 쉽게 읽을 수 있습니다. (TGT-44294)
-* [!UICONTROL 시각적 경험 작성기](VEC) 워크플로에서 “[!UICONTROL 경험 조각]” 옵션의 이름이 변경되었습니다. 이 옵션은 이제 “[!UICONTROL HTML XF]”입니다. (TGT-44132)
+* [!UICONTROL 시각적 경험 작성기] (VEC) 워크플로에서 “[!UICONTROL 경험 조각]” 옵션의 이름이 변경되었습니다. 이 옵션은 이제 “[!UICONTROL HTML XF]”입니다. (TGT-44132)
 * 오퍼 정보 도구 설명에서 경험 조각 오퍼 메타데이터를 볼 수 있는 기능이 추가되었습니다. (TGT-43838)
 * [!DNL Target] UI의 AP 및 [!UICONTROL 자동 타겟팅] [!UICONTROL 개인화 인사이트] 보고서 및 [!UICONTROL 중요 속성] 보고서에서 45일 및 90일 달력 옵션이 제거되었습니다. 사용 패턴과 성능 향상을 위해 이들 날짜 범위는 더 이상 사용되지 않습니다. 현재 허용되는 범위인 15일, 30일 및 60일을 반영하도록 UI가 업데이트되었습니다. (TGT-39357)
 * 활동 활성화 이후 [!UICONTROL 목표 및 설정] 페이지에서 [!UICONTROL 최적화 목표와 같음] 설정을 변경할 수 없습니다. (TGT-43923)
 * [!DNL Target Standard]에서 [!DNL Target Premium]으로 업그레이드할 때 [!DNL Target] 백엔드의 기본 작업 공간에 문제가 발생하는 문제를 해결했습니다. (TGT-44081 및 TGT-44306)
-* 지원되는 모든 SDK(Node.js, Java, .NET 및 Python)에 대해 온디바이스 결정을 사용하는 방법을 설명하는 페이지를 가리키도록 “온디바이스 의사 결정을 사용하는 구현 방법”에 대한 [!UICONTROL 구현] 페이지([!UICONTROL 관리] > [!UICONTROL 구현])의 링크를 변경했습니다. 자세한 내용은 [Target SDK 시작하기](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}를 참조하십시오.
+* 지원되는 모든 SDK(Node.js, Java, .NET 및 Python)에 대해 온디바이스 결정을 사용하는 방법을 설명하는 페이지를 가리키도록 “온디바이스 의사 결정을 사용하는 구현 방법”에 대한 [!UICONTROL 구현] 페이지([!UICONTROL 관리] > [!UICONTROL 구현])의 링크를 변경했습니다. 자세한 내용은 [Target SDK 시작하기](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target="_blank"} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target="_blank"}를 참조하십시오.
 * [!DNL Scene7] 및 [!DNL Target]을 사용할 때 파일 업로드 문제를 발생시키는 문제를 해결했습니다.
 * 내부 사용성 감사 결과를 사용하여 장애가 있는 사용자를 위한 [!DNL Target] UI 접근성을 개선했습니다. 이러한 접근성 향상에는 이전에 키보드에서 사용할 수 없었던 기능에 대한 액세스, 대체 텍스트 향상, UI의 일부를 보다 유용하게 확대/축소하는 기능, 개선된 키보드 포커스 등이 포함됩니다. (TGT-42759)
 * [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
@@ -43,7 +43,7 @@ ht-degree: 100%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko-KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target="_blank"} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
