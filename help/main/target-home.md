@@ -5,9 +5,9 @@ description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '522'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -49,7 +49,7 @@ ht-degree: 96%
 
 ## 개발자 {#developers}
 
-- [Adobe Target 개발자 안내서](https://developer.adobe.com/target/){target=_blank}: 이 포털에서는 [!DNL Adobe Target] 구현을 위한 API 및 SDK 설명서를 비롯한 개발자 [!DNL Target].
+- [Adobe Target 개발자 안내서](https://developer.adobe.com/target/){target=_blank}: 이 포털은 [!DNL Adobe Target]을 구현하기 위한 API 및 SDK 설명서를 포함하여 [!DNL Target] 개발자를 위한 리소스 및 안내서를 제공합니다.
 
 ## Target 및 Adobe Experience Cloud 관리자 {#admins}
 
