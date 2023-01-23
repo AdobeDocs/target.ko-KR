@@ -5,7 +5,7 @@ title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 5ad7427df49f6091f69fadac96fd55e7b48a4cda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '562'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이들 페이지에 대한 정보는 릴리스 일자에 따라 동일할 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## [!DNL Target] Standard/Premium 22.13.3(2023년 1월 25일)
+## [!DNL Target] Standard/Premium 22.13.3 (2023년 1월 25일)
 
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
 
