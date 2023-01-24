@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 96%
+source-wordcount: '612'
+ht-degree: 91%
 
 ---
 
@@ -27,11 +27,11 @@ ht-degree: 96%
 | --- | --- |
 | AP (Automated Personalization) | 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동에서 JSON 오퍼에 대한 지원이 추가되었습니다.<br>자세한 내용은 [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
 | Recommendations | 에서 친숙한 이름 [!UICONTROL Target 분석] 이제 A4T 보고를 사용할 수 있습니다. 이전에는 [!DNL Target]에 나열된 경험 ID만 존재했습니다. 이 향상된 기능은 [!DNL Adobe Analytics]와 [!DNL Target] 간에 보고를 조정하고 고객이 A4T에서 보고서를 작성하는 작업을 간소화하는 데 도움이 됩니다. (TGT-41853) |
+| AEM 경험 구성요소 | 구분하는 기능이 추가되었습니다 [!DNL Adobe Experience Manager] 로 내보낸 조각(AEM XF) 유형 [!DNL Target]. 경험 조각 옵션 대신, [!DNL Target] 이제 &quot;XF HTML&quot; 및 &quot;JSON XF&quot;로 필터링하고 검색할 수 있습니다. <br>자세한 내용은 [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)을 참조하십시오 . (TGT-44132) |
 | 활동 QA | 고객 선택을 위한 AP 활동의 [QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)가 구현되었습니다. 이 기능은 초기 테스트 단계 후에 모든 고객이 사용할 수 있습니다. (TGT-44341) |
 
 * 권장 사항이 포함된 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타겟팅] (XT) 활동에서 “500 오류”가 발생하는 문제를 해결했습니다. 이 문제는 [!DNL Target]이 더 이상 사용되지 않는 [!DNL Target] UI 및 [!DNL Recommendations] 백엔드에서 기준 오브젝트를 제대로 삭제하지 못했을 때 발생했습니다. (TGT-44383)
 * [!UICONTROL Automated Personalization] 활동에 대한 [!UICONTROL 오퍼 수준] 보고서에 표시된 오퍼 이름에서 위치를 제거했습니다. 이렇게 변경하면 보고서를 보다 쉽게 읽을 수 있습니다. (TGT-44294)
-* [!UICONTROL 시각적 경험 작성기] (VEC) 워크플로에서 “[!UICONTROL 경험 조각]” 옵션의 이름이 변경되었습니다. 이 옵션은 이제 “[!UICONTROL HTML XF]”입니다. (TGT-44132)
 * [!DNL Target] UI의 AP 및 [!UICONTROL 자동 타겟팅] [!UICONTROL 개인화 인사이트] 보고서 및 [!UICONTROL 중요 속성] 보고서에서 45일 및 90일 달력 옵션이 제거되었습니다. 사용 패턴과 성능 향상을 위해 이들 날짜 범위는 더 이상 사용되지 않습니다. 현재 허용되는 범위인 15일, 30일 및 60일을 반영하도록 UI가 업데이트되었습니다. (TGT-39357)
 * 활동 활성화 이후 [!UICONTROL 목표 및 설정] 페이지에서 [!UICONTROL 최적화 목표와 같음] 설정을 변경할 수 없습니다. (TGT-43923)
 * [!DNL Target Standard]에서 [!DNL Target Premium]으로 업그레이드할 때 [!DNL Target] 백엔드의 기본 작업 공간에 문제가 발생하는 문제를 해결했습니다. (TGT-44081 및 TGT-44306)

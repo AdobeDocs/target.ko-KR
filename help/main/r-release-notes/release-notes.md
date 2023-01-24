@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 97%
+source-wordcount: '784'
+ht-degree: 93%
 
 ---
 
@@ -26,6 +26,7 @@ ht-degree: 97%
 | --- | --- |
 | AP (Automated Personalization) | 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동에서 JSON 오퍼에 대한 지원이 추가되었습니다.<br>자세한 내용은 [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
 | Recommendations | 에서 친숙한 이름 [!UICONTROL Target 분석] 이제 A4T 보고를 사용할 수 있습니다. 이전에는 [!DNL Target]에 나열된 경험 ID만 존재했습니다. 이 향상된 기능은 [!DNL Adobe Analytics]와 [!DNL Target] 간에 보고를 조정하고 고객이 A4T에서 보고서를 작성하는 작업을 간소화하는 데 도움이 됩니다. (TGT-41853) |
+| AEM 경험 구성요소 | 구분하는 기능이 추가되었습니다 [!DNL Adobe Experience Manager] 로 내보낸 조각(AEM XF) 유형 [!DNL Target]. 경험 조각 옵션 대신, [!DNL Target] 이제 &quot;XF HTML&quot; 및 &quot;JSON XF&quot;로 필터링하고 검색할 수 있습니다. <br>자세한 내용은 [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)을 참조하십시오 . (TGT-44132) |
 | 활동 QA | 고객 선택을 위한 AP 활동의 [QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)가 구현되었습니다. 이 기능은 초기 테스트 단계 후에 모든 고객이 사용할 수 있습니다. (TGT-44341) |
 
 * 권장 사항이 포함된 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타겟팅] (XT) 활동에서 “500 오류”가 발생하는 문제를 해결했습니다. 이 문제는 [!DNL Target]이 더 이상 사용되지 않는 [!DNL Target] UI 및 [!DNL Recommendations] 백엔드에서 기준 오브젝트를 제대로 삭제하지 못했을 때 발생했습니다. (TGT-44383)
