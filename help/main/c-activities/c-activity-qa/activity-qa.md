@@ -4,9 +4,9 @@ description: Adobe 사용 방법 알아보기 [!DNL Target] 변경되지 않는 
 title: 활동을 QA하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1832'
+source-wordcount: '1881'
 ht-degree: 38%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 38%
 * 경험 또는 활동에 수행된 업데이트에 상관없이 변경되지 않고 재생성이 필요 없는, 팀 구성원과 공유하는 링크가 있습니다. 이 기능을 사용하면 전체 사용자 여정에서 활동을 완전히 테스트할 수 있습니다.
 * 선택적으로 준수하는 대상 조건. 대상 조건을 충족하지 않고도 마케터가 타깃팅 기준을 테스트하거나 타깃팅 기준을 무시하여 경험의 모양을 QA할 수 있습니다.
 * 지표가 예상대로 증가하고 있는지, 그리고 QA 보고서 데이터가 프로덕션 보고(비A4T 보고의 경우)와 별도로 유지되는지를 마케터가 확인할 수 있도록 QA 보고가 생성됩니다.
-* 배달 기준(페이지/Target 요청/대상)을 충족하는 다른 라이브 활동이나 격리된 상태에서 경험을 미리 볼 수 있는 기능입니다.
+* 배달 기준(페이지/)을 충족하는 다른 라이브 활동이나 격리된 상태에서 경험을 미리 볼 수 있는 기능[!DNL Target] 요청/대상).
 * 전체 사용자 경험을 QA할 수 있습니다. QA 링크로 사이트에 한 번 액세스한 다음, 활동 QA 동안 전체 사이트를 탐색할 수 있습니다. 세션을 종료하거나 [QA Target 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 자신을 몰아넣다 [!UICONTROL 활동 QA]. 이 기능은 여러 웹 페이지에 걸쳐 있는 활동이 있는 경우 유용합니다.
 
    >[!NOTE]
@@ -29,7 +29,7 @@ ht-degree: 38%
 
 ## QA URL 액세스 및 공유 {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. 활동의 [!UICONTROL 개요] 페이지에서 **[!UICONTROL 활동 QA]** 링크를 클릭합니다.
+1. 활동의 [!UICONTROL 개요] 페이지를 클릭한 다음 **[!UICONTROL 활동 QA]**.
 
    ![활동 QA 링크](assets/qa_link.png)
 
@@ -51,7 +51,7 @@ ht-degree: 38%
 1. **[!UICONTROL 완료]**&#x200B;를 클릭하여 변경 내용을 저장합니다.
 1. 테스트할 조직 구성원과 활동 링크 URL을 공유합니다.
 
-   활동 링크는 만료되지 않으며, 누군가가 활동이나 경험을 변경하는 경우 링크를 다시 전송할 필요가 없습니다. 하지만, [!UICONTROL 대상 라이브러리]단순히 활동을 편집하지 않고, 다시 공유해야 하는 새 링크가 생성됩니다.
+   활동 링크는 만료되지 않으며, 누군가가 활동이나 경험을 변경하는 경우 링크를 다시 전송할 필요가 없습니다. 하지만, [!UICONTROL 대상 라이브러리]단순히 활동을 편집하지 않고 새 링크가 생성되므로 다시 공유해야 합니다.
 
    각 활동 링크 URL(경험 A, 경험 B 등의 경우)을 사용하면 해당 경험에서 사용자 여정을 시작할 수 있습니다. 경험에 대해 생성된 URL을 클릭한 다음 일반적인 사이트 탐색을 진행하여 여러 페이지의 경험을 봅니다(페이지가 여러 개 있는 경우). 경험이 여러 페이지(템플릿 테스트 또는 다중 페이지 테스트)에 걸쳐 있는 경우에도 경험당 하나의 URL만 생성됩니다. 
 
@@ -61,9 +61,14 @@ ht-degree: 38%
 
 ## 고려 사항 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* 다음 [!UICONTROL 활동 QA] 링크가 [!UICONTROL 개요] 페이지를 제외한 모든 활동 유형의 페이지 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] (AP).
+* 다음 [!UICONTROL 활동 QA] 링크가 [!UICONTROL 개요] 페이지를 제외한 모든 활동 유형의 페이지 [!UICONTROL Automated Personalization] (AP).
+
+   >[!NOTE]
+   >
+   >[활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 베타 프로그램의 일부 고객은 현재 AP 활동을 사용할 수 있습니다. 이 기능은 초기 테스트 단계 후에 모든 고객이 사용할 수 있습니다.
+
 * [!UICONTROL 계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 활동 QA 미리보기 링크가 로드되지 않을 수 있습니다. ] 미리 보기 링크를 다시 시도하는 것이 작동합니다. 이러한 상황이 계속 발생하지 않도록 하려면 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오.
-* [!UICONTROL 활동 QA URL은 Analytics를 보고 소스로 사용(A4T)하는 활동에서 사용할 수 있습니다. ] QA를 수행하는 동안 생성된 히트 [!UICONTROL 활동 QA] 활동이 라이브로 전환된 후에도 활동의 데이터가 전송되는 동일한 보고서 세트로 이동합니다.
+* [!UICONTROL 활동 QA] URL은 [보고 소스로서의 Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). QA를 수행하는 동안 생성된 히트 [!UICONTROL 활동 QA] 활동이 라이브로 전환된 후에도 활동의 데이터가 전송되는 동일한 보고서 세트로 이동합니다.
 * [!UICONTROL 활동 QA에서는 종료 일자가 지난 보관된 활동용 콘텐츠를 표시하지 않습니다. ] 종료된 활동을 비활성화하는 경우, 활동을 다시 저장해야 합니다 [!UICONTROL 활동 QA] 작업
 * 에 가져온 활동 [!DNL Target Standard/Premium] (부터) [!DNL Target Classic]예를 들어 은 QA URL을 지원하지 않습니다.
 * in [!UICONTROL 자동 할당] 및 [!UICONTROL Recommendations] 활동에서 모델은 캡처된 방문의 영향을 받지 않습니다 [!UICONTROL 활동 QA].
@@ -78,7 +83,7 @@ ht-degree: 38%
 
    이러한 이중 인코딩 때문에 [!DNL Target] 디코딩을 시도하다 `at_preview_token`, [!DNL Target] 올바른 토큰 값을 추출할 수 없으므로 미리 보기가 작동하지 않습니다.
 
-   Adobe은 IT 팀에 얘기해서 모든 미리 보기 매개 변수가 허용 목록에추가된으로 변환되도록 하는 것이 좋습니다.
+   [!DNL Adobe] 에서는 IT 팀에 얘기해서 모든 미리 보기 매개 변수가 허용 목록에추가된으로 변환되지 않도록 할 것을 권장합니다.
 
    다음 표에는 도메인에서 허용 목록에추가된으로 사용할 수 있는 매개 변수가 나와 있습니다.
 
@@ -111,9 +116,13 @@ ht-degree: 38%
 | [!UICONTROL 자동 할당] | 예 | 예 | 예 |
 | [!UICONTROL 자동 타깃팅] | 아니오 | 아니오 | 아니오 |
 | [!UICONTROL Automated Personalization] (AP) | 아니오 | 아니오 | 아니오 |
-| [!UICONTROL 경험 타기팅] (XT) | 예 | 예 | 예 |
+| [!UICONTROL 경험 타겟팅] (XT) | 예 | 예 | 예 |
 | [!UICONTROL 다변량 테스트] (MVT) | 예 | 예 | 예 |
 | [!UICONTROL Recommendations] | 예 | 예 | 예 |
+
+>[!NOTE]
+>
+>[활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 베타 프로그램의 일부 고객은 현재 AP 활동을 사용할 수 있습니다. 이 기능은 초기 테스트 단계 후에 모든 고객이 사용할 수 있습니다.
 
 ## 미리보기 URL {#preview}
 
@@ -135,7 +144,7 @@ ht-degree: 38%
 | [!UICONTROL 자동 할당] | 예 | 예 | 예 |
 | [!UICONTROL 자동 타기팅] | 예 | 예 | 예 |
 | [!UICONTROL Automated Personalization] (AP) | 예 | 예 | 예 |
-| [!UICONTROL 경험 타기팅] (XT) | 예 | 예 | 예 |
+| [!UICONTROL 경험 타겟팅] (XT) | 예 | 예 | 예 |
 | [!UICONTROL 다변량 테스트] (MVT) | 예 | 예 | 예 |
 | [!UICONTROL Recommendations] | 예 | 예 | 예 |
 

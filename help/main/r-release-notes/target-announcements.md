@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+workflow-type: tm+mt
+source-wordcount: '1931'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,21 @@ ht-degree: 100%
 
 Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)에 대한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target]은 평가된 모든 공급업체 중 테스트 기능에서 가장 높은 점수를 받았습니다.
 
-자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}을 참조하십시오.
+자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크
+
+* **경험 최적화를 위한 모바일 및 인증된 사용 사례**
+* **2023년 2월 1일 수요일**
+* **오전 8:00~9:00 (PST, GMT-8)**
+* **[등록](https://adobe.ly/3IWsAiX){target=_blank}**
+
+Brent Kostak와 함께 제품 마케팅 관리자가 될 것입니다 [!DNL Adobe Target]과 관련하여 사용자와 직접 대화를 나눌 수 있는 [!DNL Target] 경험 최적화를 위한 모바일 및 인증된 사용 사례와 관련된 질문:
+
+* 에서 활동 설정을 위한 워크플로우 [!DNL Target]
+* 모바일 경험 테스트 및 타깃팅을 위한 고객 라이프사이클 지표
+* 웹 및 앱에서 크로스 채널 개인화를 위한 AI/ML 활용
+* iOS 및 Android 플랫폼을 지원하는 유연한 구현을 위한 모바일 SDK 및 API
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
@@ -96,7 +110,7 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 
 공급망 문제, 서비스 오류 및 인력 부족이 가속화되는 시기에 충성도를 높이는 것은 대부분의 여행, 접대 및 외식 브랜드가 직면한 과제입니다. AI의 시대에 브랜드는 이미 산업을 떠난 필요한 리소스 없이 어떻게 경험을 확장할 수 있을까요? 디지털 기술의 발전은 20~25배 더 빠르게 가속화되어 가속화된 고객 기대치에 부응할 뿐만 아니라 자동화를 통한 팀의 확장에 기여했습니다.
 
-* **[웨비나 녹화 자료를 시청하려면 등록](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[등록하여 웨비나 녹화를 확인합니다](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++세부 사항
 
@@ -221,7 +235,7 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 
 ### [!DNL Adobe Target]을 사용한 실시간 개인 설정
 
-* **[웨비나 녹화 자료를 시청하려면 등록](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[등록하여 웨비나 녹화를 확인합니다](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++세부 사항
 

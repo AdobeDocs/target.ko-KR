@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 100%
+source-wordcount: '741'
+ht-degree: 97%
 
 ---
 
@@ -18,54 +18,26 @@ ht-degree: 100%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## 모델 API 릴리스 (2022년 11월 23일)
-
-차단 목록 API라고도 하는 새로운 [!DNL Adobe Target] 모델 API를 통해 사용자는 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] (AT) 활동을 위한 머신 러닝 모델에 사용되는 기능 목록을 조회하고 관리할 수 있습니다.
-
-자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [모델 API(차단 목록) 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank}를 참조하십시오.
-
-## [!DNL Target] Standard/Premium 22.10.3 (순차적 공개, 2022년 10월 25~27일)
-
-이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
-
-* **10월 25일**: 유럽, 중동 및 아프리카(EMEA) 지역
-* **10월 26일**: 아시아 태평양(APAC) 지역
-* **10월 27일**: 아메리카 지역
+## [!DNL Target] Standard/Premium 22.13.3 (2023년 1월 25일)
 
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]<br>에 최적화된 A4T 지표 (테스트 대상 고객을 선택할 수 있습니다. 향후 릴리스를 통해 모든 고객이 사용할 수 있습니다.) | 다음 변경 사항에 유의하십시오.<ul><li>[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동에 대한 A4T([!UICONTROL Analytics for Target]) 보고에서 비-바이너리 및 최대화 지표 지원 추가</li><li>기존 활동에 대한 비헤이비어는 2023년 2월까지 유지됩니다. 이 날짜 이후에는 기존 활동을 새 비헤이비어로 강제 마이그레이션하기 위해 활동이 중단됩니다.</li><li>2023년 2월 20일부터 [!DNL Target] 활동의 `averagetimespentonsite`, `bouncerate`, `entries` 및 지표에 대한 지원이 중단됩니다.</li></ul> |
+| AP (Automated Personalization) | 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동에서 JSON 오퍼에 대한 지원이 추가되었습니다.<br>자세한 내용은 [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
+| Recommendations | 에서 친숙한 이름 [!UICONTROL Target 분석] 이제 A4T 보고를 사용할 수 있습니다. 이전에는 [!DNL Target]에 나열된 경험 ID만 존재했습니다. 이 향상된 기능은 [!DNL Adobe Analytics]와 [!DNL Target] 간에 보고를 조정하고 고객이 A4T에서 보고서를 작성하는 작업을 간소화하는 데 도움이 됩니다. (TGT-41853) |
+| 활동 QA | 고객 선택을 위한 AP 활동의 [QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)가 구현되었습니다. 이 기능은 초기 테스트 단계 후에 모든 고객이 사용할 수 있습니다. (TGT-44341) |
 
-* 고객이 대상자 빌더를 보다 효율적으로 탐색하고 익숙하지 않은 기능을 사용하는 방법을 배울 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다. (TGT-44139)
-* 지원되지 않는 지표를 사용하기 때문에 [!DNL Target]에서 비활성화된 활동을 고객이 편집할 수 없도록 하는 기능이 추가되었습니다. UI의 메시지가 고객에게 활동을 복제한 다음 전환 지표를 업데이트하도록 안내합니다.
-
-   이번 릴리스를 통해 [!DNL Target] 활동의 `averagetimespentonsite`, `bouncerate` 및 `entries` 지표가 새 활동에 대해 더 이상 사용되지 않습니다. 기존 활동은 2023년 5월까지 이들 지표를 계속 사용할 수 있습니다.
-
-* 고객이 A4T를 사용하는 [!UICONTROL 자동 타겟] 활동을 생성하거나 편집하는 동안 최적화 기준을 선택할 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다.
-
-## [!DNL Target] Standard/Premium 22.10.1 (순차적 공개, 2022년 10월 10~13일)
-
-이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
-
-* **10월 10일**: 아시아 태평양(APAC) 지역
-* **10월 12일**: 아메리카 지역
-* **10월 13일**: 유럽, 중동 및 아프리카(EMEA) 지역
-
-이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| [!DNL Adobe Experience Manager] (AEM) 경험 조각 | AEM 경험 조각 기능에 대한 업데이트는 다음과 같습니다.<ul><li>[!UICONTROL 오퍼] 목록에서 AEM 경험 조각을 유형(HTML 또는 JSON)별로 필터링하는 기능이 추가되었습니다. (TGT-43121)</li><li>고객이 지원되지 않는 VEC를 사용할 때 JSON [!UICONTROL 경험 조각] 오퍼를 삽입할 수 있는 문제를 해결했습니다. JSON 오퍼는 [!UICONTROL 양식 기반 경험] 작성기를 사용하는 경우에만 삽입할 수 있습니다. (TGT-43846)</li></ul>자세한 내용은 AEM [경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)을 참조하십시오. |
-| Google Chrome용 새로운 [!UICONTROL 시각적 경험 작성기] 확장 기능 | Chrome용 새로운 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC) 확장 기능은 Chrome 웹 스토어에서 사용할 수 있습니다.<br>2023년 1월부터는 Google이 Manifest V2를 사용하는 확장 기능을 허용하지 않으므로 현재 [!DNL Target] VEC Helper 확장 기능은 Google Chrome에서 작동을 중지합니다. 새해부터는 [!DNL Target]에서 웹 사이트를 계속 시각화하려면 새 확장 버전을 다운로드하십시오.<br>다음 링크에는 Chrome 웹 스토어의 두 가지 확장 기능이 표시됩니다.<ul><li>[새 확장 기능](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[이전 확장 기능](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>추가 정보는 [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)을 참조하십시오. |
-| 설명서 업데이트 | 주요 설명서 업데이트에는 다음 사항이 포함됩니다.<ul><li>신규 및 업데이트 [Adobe Target 관리 및 보고 API 설명서](https://developer.adobe.com/target/administer/admin-api/){target=_blank}에는 속성, 제안, 호스트, 환경, 클라이언트, 대상자, 활동 등을 포함하여 관리 및 보고 API 엔드포인트에 대한 포괄적인 내용이 포함됩니다.<br>이 내용과 추가 개발자 콘텐츠는 [[!DNL Adobe Target] [!UICONTROL 개발자 안내서]](https://developer.adobe.com/target/){target=_blank}를 참조하십시오.</li><li>[A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>이 문서에서는 [!DNL Adobe Target]에서 수동 A/Bn 테스트에 사용된 자세한 통계 계산을 문서화합니다.<br>이 문서의 정보는 이전에 이 사이트에서 다운로드할 수 있었던 *A/B 테스트를 위한 Adobe Target 계산* pdf 파일을 대체합니다.</li></ul> |
-
-* [!UICONTROL 대상자 세분화] 정보 창에서 대상자 규칙 정보가 제대로 표시되지 않는 문제를 해결했습니다. (TGT-43917)
-* [타겟팅 규칙의 권장 제한](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules)에 근접한 대상자를 로드할 때 [!DNL Target] UI의 성능이 향상되었습니다. (TGT-43675)
-* [!UICONTROL 구성]에서 [!UICONTROL 찾아보기] 모드로 전환한 후 VEC에서 활동을 생성하거나 편집할 때 일부 구성 요소가 [!UICONTROL 경험] 페이지의 [!UICONTROL 수정] 패널에 제대로 표시되지 않는 문제를 해결했습니다. (TGT-43300)
-* 일부 고객이 [!UICONTROL 자동 타겟]을 사용하는 [!UICONTROL A/B 테스트 활동]을 보관할 수 없는 문제를 해결했습니다. (TGT-40978)
-* 단일 보고 그룹 내 여러 위치에서 단일 오퍼를 자동으로 사용할 수 있는 기능이 추가되었습니다. (TGT-40689)
+* 권장 사항이 포함된 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타겟팅] (XT) 활동에서 “500 오류”가 발생하는 문제를 해결했습니다. 이 문제는 [!DNL Target]이 더 이상 사용되지 않는 [!DNL Target] UI 및 [!DNL Recommendations] 백엔드에서 기준 오브젝트를 제대로 삭제하지 못했을 때 발생했습니다. (TGT-44383)
+* [!UICONTROL Automated Personalization] 활동에 대한 [!UICONTROL 오퍼 수준] 보고서에 표시된 오퍼 이름에서 위치를 제거했습니다. 이렇게 변경하면 보고서를 보다 쉽게 읽을 수 있습니다. (TGT-44294)
+* [!UICONTROL 시각적 경험 작성기] (VEC) 워크플로에서 “[!UICONTROL 경험 조각]” 옵션의 이름이 변경되었습니다. 이 옵션은 이제 “[!UICONTROL HTML XF]”입니다. (TGT-44132)
+* [!DNL Target] UI의 AP 및 [!UICONTROL 자동 타겟팅] [!UICONTROL 개인화 인사이트] 보고서 및 [!UICONTROL 중요 속성] 보고서에서 45일 및 90일 달력 옵션이 제거되었습니다. 사용 패턴과 성능 향상을 위해 이들 날짜 범위는 더 이상 사용되지 않습니다. 현재 허용되는 범위인 15일, 30일 및 60일을 반영하도록 UI가 업데이트되었습니다. (TGT-39357)
+* 활동 활성화 이후 [!UICONTROL 목표 및 설정] 페이지에서 [!UICONTROL 최적화 목표와 같음] 설정을 변경할 수 없습니다. (TGT-43923)
+* [!DNL Target Standard]에서 [!DNL Target Premium]으로 업그레이드할 때 [!DNL Target] 백엔드의 기본 작업 공간에 문제가 발생하는 문제를 해결했습니다. (TGT-44081 및 TGT-44306)
+* 지원되는 모든 SDK(Node.js, Java, .NET 및 Python)에 대해 온디바이스 결정을 사용하는 방법을 설명하는 페이지를 가리키도록 “온디바이스 의사 결정을 사용하는 구현 방법”에 대한 [!UICONTROL 구현] 페이지([!UICONTROL 관리] > [!UICONTROL 구현])의 링크를 변경했습니다. 자세한 내용은 [Target SDK 시작하기](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}를 참조하십시오.
+* [!DNL Scene7] 및 [!DNL Target]을 사용할 때 파일 업로드 문제를 발생시키는 문제를 해결했습니다.
+* 내부 사용성 감사 결과를 사용하여 장애가 있는 사용자를 위한 [!DNL Target] UI 접근성을 개선했습니다. 이러한 접근성 향상에는 이전에 키보드에서 사용할 수 없었던 기능에 대한 액세스, 대체 텍스트 향상, UI의 일부를 보다 유용하게 확대/축소하는 기능, 개선된 키보드 포커스 등이 포함됩니다. (TGT-42759)
+* [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
