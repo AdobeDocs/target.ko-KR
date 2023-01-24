@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: e8159e8015e0f804c035fc8f921f1a593cfc9ac2
 workflow-type: tm+mt
 source-wordcount: '1926'
 ht-degree: 98%
@@ -21,7 +21,7 @@ ht-degree: 98%
 | --- | --- | --- |
 | 1월 25일 | [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 에서 JSON 오퍼를 지원한다고 표시됨 [!UICONTROL Automated Personalization] 이제 양식 기반 경험 작성기를 사용하는 AP 활동을 사용할 수 있습니다. |
 |  | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크: 경험 최적화를 위한 모바일 및 인증된 사용 사례</li></ul> |
-|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.10.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.13.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.10.1 (순차적 공개, 2022년 10월 10~13일)
 
