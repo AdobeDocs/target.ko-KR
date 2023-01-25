@@ -4,9 +4,9 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 888c50e7052229c22136526d632f89fbaa548298
+source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '603'
 ht-degree: 89%
 
 ---
@@ -31,9 +31,9 @@ ht-degree: 89%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| AP (Automated Personalization) | 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동에서 JSON 오퍼에 대한 지원이 추가되었습니다.<br>자세한 내용은 [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
+| [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md) Automated Personalization(AP)의 지원 | 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동에서 JSON 오퍼에 대한 지원이 추가되었습니다. (TGT-41460) |
 | Recommendations | 에서 친숙한 이름 [!UICONTROL Target 분석] 이제 A4T 보고를 사용할 수 있습니다. 이전에는 [!DNL Target]에 나열된 경험 ID만 존재했습니다. 이 향상된 기능은 [!DNL Adobe Analytics]와 [!DNL Target] 간에 보고를 조정하고 고객이 A4T에서 보고서를 작성하는 작업을 간소화하는 데 도움이 됩니다. (TGT-41853) |
-| AEM 경험 구성요소 | 구분하는 기능이 추가되었습니다 [!DNL Adobe Experience Manager] 로 내보낸 조각(AEM XF) 유형 [!DNL Target]. 경험 조각 옵션 대신, [!DNL Target] 이제 &quot;XF HTML&quot; 및 &quot;JSON XF&quot;로 필터링하고 검색할 수 있습니다. <br>자세한 내용은 [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)을 참조하십시오 . (TGT-44132) |
+| [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 구분하는 기능이 추가되었습니다 [!DNL Adobe Experience Manager] 로 내보낸 조각(AEM XF) 유형 [!DNL Target]. 경험 조각 옵션 대신, [!DNL Target] 이제 &quot;XF HTML&quot; 및 &quot;JSON XF&quot;로 필터링하고 검색할 수 있습니다. (TGT-44132) |
 
 * 권장 사항이 포함된 [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타겟팅] (XT) 활동에서 “500 오류”가 발생하는 문제를 해결했습니다. 이 문제는 [!DNL Target]이 더 이상 사용되지 않는 [!DNL Target] UI 및 [!DNL Recommendations] 백엔드에서 기준 오브젝트를 제대로 삭제하지 못했을 때 발생했습니다. (TGT-44383)
 * [!UICONTROL Automated Personalization] 활동에 대한 [!UICONTROL 오퍼 수준] 보고서에 표시된 오퍼 이름에서 위치를 제거했습니다. 이렇게 변경하면 보고서를 보다 쉽게 읽을 수 있습니다. (TGT-44294)
