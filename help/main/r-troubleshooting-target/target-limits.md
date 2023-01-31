@@ -5,7 +5,7 @@ title: 의 다양한 문자, 크기 및 기타 제한은 무엇입니까? [!DNL 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 495feb03fb338ff70ad6b25a7e01a572bed723e4
+source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 93%
@@ -163,17 +163,17 @@ ht-degree: 93%
 
 * **제한**: 250자.
 
-배달 API(at.js 2.*x*), 배치 mbox V2 및 AEP 웹 SDK(alloy.js) 통합, mbox 이름 *다음을 수행할 수 있습니다.* 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자를 포함합니다.
+   배달 API(at.js 2.*x*), 배치 mbox V2 및 AEP 웹 SDK(alloy.js) 통합, mbox 이름 *다음을 수행할 수 있습니다.* 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자를 포함합니다.
 
-```
-- , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-```
+   ```
+   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+   ```
 
-at.js 1.*x* 통합, mbox 이름 *사용할 수 없음* 다음 문자를 포함합니다.
+   at.js 1.*x* 통합, mbox 이름 *사용할 수 없음* 다음 문자를 포함합니다.
 
-```
-' " %22 %27 < > %3C %3E 
-```
+   ```
+   ' " %22 %27 < > %3C %3E 
+   ```
 
 ### mbox 매개 변수 {#mbox-parameters}
 
