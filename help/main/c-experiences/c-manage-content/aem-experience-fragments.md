@@ -4,24 +4,28 @@ description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] 경험 �
 title: 사용 방법 [!DNL Adobe Experience Manager] (AEM) 경험 구성요소?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
+source-git-commit: 5ddaaa69edec92f35368e33d51c42b66ed400511
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 12%
+source-wordcount: '1448'
+ht-degree: 10%
 
 ---
 
-# AEM 경험 구성요소
+# AEM 경험 조각
 
-에서 만든 경험 조각 사용 [!DNL Adobe Experience Manager] (AEM)에서 [!DNL Target] 최적화 또는 개인화를 지원하기 위한 활동.
+에서 만든 경험 조각(XF) 사용 [!DNL Adobe Experience Manager] (AEM)에서 [!DNL Target] 최적화 또는 개인화를 지원하기 위한 활동.
 
 >[!NOTE]
 >
->이 기능을 사용하려면 다음을 수행해야 합니다 [!DNL Adobe Experience Manager] (AEM) 고객. 자세한 내용은 [요구 사항](#section_AE6F0971E1574B3AA324003599B96E5A) 아래의 제품에서 사용할 수 있습니다.
+>에서 AEM 경험 조각을 사용하여 작업할 때에는 다음 사항을 고려하십시오 [!DNL Target]:
+> 
+>* 이 기능을 사용하려면 다음을 수행해야 합니다 [!DNL Adobe Experience Manager] (AEM) 고객. 자세한 내용은 [요구 사항](#section_AE6F0971E1574B3AA324003599B96E5A) 아래의 제품에서 사용할 수 있습니다.
+>* 이 기능은 다음 활동 유형에 사용할 수 있습니다. [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당], [!UICONTROL 자동 Target], [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 경험 타깃팅] (XT). 이 기능은 [!UICONTROL 다변량 테스트] (MVT) 및 [!UICONTROL Recommendations] 활동.
+
 
 에서 만들어진 경험 조각 사용 [!DNL AEM] in [!DNL Target] 활동을 통해 사용 편의성과 기능을 결합할 수 있습니다 [!DNL AEM] 의 강력한 AI(인공 지능) 및 ML(기계 학습) 기능 사용 [!DNL Target] 경험을 규모에 맞게 테스트 및 개인화합니다.
 
-[!DNL AEM] 모든 콘텐츠 및 자산을 중앙 위치에 가져와서 개인화 전략을 실행합니다. [!DNL AEM] 코드를 작성하지 않고도 한 위치에서 데스크톱, 태블릿 및 모바일 장치의 콘텐츠를 쉽게 만들 수 있습니다. 모든 장치를 위해 페이지를 만들 필요가 없습니다. [!DNL AEM] 콘텐츠를 사용하여 각 경험을 자동으로 조정합니다.
+[!DNL AEM] 모든 콘텐츠 및 자산을 중앙 위치에 가져와서 개인화 전략을 실행합니다. [!DNL AEM] 코드를 작성하지 않고도 한 위치에서 데스크톱, 태블릿 및 모바일 장치의 콘텐츠를 쉽게 만들 수 있습니다. 모든 장치를 위해 페이지를 만들 필요가 없습니다. [!DNL AEM] 콘텐츠를 사용하여 각 장치에 대해 각 경험을 자동으로 조정합니다.
 
 [!DNL Target] 을 사용하면 행동, 컨텍스트 및 오프라인 변수를 통합하는 규칙 기반 기계 학습 접근 방식과 AI 기반 기계 학습 접근 방식을 조합하여 규모에 맞게 개인화된 경험을 제공할 수 있습니다. 사용 [!DNL Target], 쉽게 설정 및 실행할 수 있습니다. [A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md) 및 [다변량](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) 활동을 통해 최상의 오퍼, 콘텐츠 및 경험을 파악합니다.
 
@@ -95,7 +99,11 @@ ht-degree: 12%
 
 다음을 기준으로 필터링하고 검색할 수 있습니다 [!UICONTROL HTML XF] 및 [!UICONTROL JSON XF] 로 내보낸 경험 조각 유형을 구분하는 데 도움이 됩니다. [!DNL Target].
 
-마우스로 목록의 경험 구성요소를 가리킨 다음, [!UICONTROL 보기] 아이콘 ![보기 아이콘](assets/icon_info.png) 공개 오퍼 게재 URL 및 해당 오퍼를 포함하여 경험 조각에 대한 추가 정보를 보려면 [!DNL AEM] 경로.
+![경험 조각 유형별로 필터링: Target UI의 HTML 또는 JSON](/help/main/c-experiences/c-manage-content/assets/fragment-types.png)
+
+마우스로 목록의 경험 구성요소를 가리킨 다음, [!UICONTROL 보기] 아이콘 ![보기 아이콘](assets/icon_info.png) 이름, 유형, 오퍼 ID, 오퍼 경로 및 마지막 수정 정보를 포함하여 경험 조각에 대한 추가 정보를 볼 수 있습니다. 오퍼 사용 탭을 클릭하여 이 오퍼를 참조하는 활동을 확인합니다.
+
+![경험 조각 정보 팝업](/help/main/c-experiences/c-manage-content/assets/xf-info-popup.png)
 
 에서 경험 조각을 사용할 수 있습니다. [!DNL Target] 를 사용하여 활동 [시각적 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 또는 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md).
 
@@ -131,8 +139,6 @@ ht-degree: 12%
    * **자동 Target:** [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **AP(자동화된 개인화):**[자동화된 개인화 활동 작성](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **경험 타깃팅(XT):** [경험 타깃팅 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **다변량 테스트(MVT):** [다변량 테스트 만들기](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **권장 사항:** [권장 사항 활동 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 >[!NOTE]
 >
