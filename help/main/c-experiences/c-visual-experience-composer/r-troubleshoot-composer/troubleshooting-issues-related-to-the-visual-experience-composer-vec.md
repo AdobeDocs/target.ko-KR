@@ -4,10 +4,10 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법을 �
 title: 시각적 경험 작성기와 관련된 문제를 해결하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
+source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 78%
+source-wordcount: '971'
+ht-degree: 68%
 
 ---
 
@@ -123,4 +123,8 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 ## 찾아보기 모드를 사용할 때 VEC가 손상된 것으로 나타납니다. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-찾아보기 모드를 사용하는 동안 target.js가 없거나 frame-buster 헤더를 포함하는 URL에 액세스하면 시각적 경험 작성기가 중단된 것으로 나타납니다. 브라우저 보안 때문에, Target이 탐색한 URL에 액세스할 수 없습니다.
+찾아보기 모드를 사용하는 동안 [!DNL Target] 구현된 라이브러리([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) 또는 프레임 버스터 헤더를 포함하거나 포함하는 경우 VEC가 손상된 것으로 나타납니다. 브라우저 보안 문제로 인해, [!DNL Target] 로 이동한 URL에 제대로 액세스할 수 없거나 페이지가 로드되는 경우 VEC URL이 일관되게 업데이트되지 않습니다.
+
+이 문제는 VEC가 웹 페이지를 `<iframe>`. 브라우저의 현재 보안 메커니즘으로 인해 [!DNL Target] 동일한 원본 정책 때문에 UI가 지정된 프레임의 요소에 액세스할 수 없습니다. 브라우저는 서로 다른 원본으로 사용하는 프레임에 액세스하려고 하는 스크립트를 차단하며 이 프레임에는 다음과 같은 정보가 포함됩니다 `location.href`.
+
+새 [시각적 편집 도우미 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (권장) 또는 [이전 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 주사하려면 [!DNL Target] 라이브러리로 페이지를 분류하여 최적의 상태로 검색할 수 있습니다.
