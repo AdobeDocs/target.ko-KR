@@ -4,10 +4,10 @@ description: 사용자 지정된 대상을 만들고 [!DNL Adobe Target] [!UICON
 title: 대상을 만들려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 61%
+source-wordcount: '539'
+ht-degree: 59%
 
 ---
 
@@ -46,6 +46,15 @@ ht-degree: 61%
    기존 대상을 복사하려면 [!UICONTROL 대상] 목록에서 **[!UICONTROL 추가 작업]** 아이콘(줄임표 아이콘)을 클릭한 다음 **[!UICONTROL 복제]**. 그러면 대상을 편집하여 유사한 대상을 만들 수 있습니다.
 
 1. 고유한 수사적 대상 이름과 선택적 설명을 입력합니다.
+
+   대상 이름은 다음 문자로 시작할 수 없습니다.
+
+   `=  +  -  !  @`
+
+   대상 이름에는 다음 문자 시퀀스를 포함할 수 없습니다.
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. 원하는 속성을 **[!UICONTROL 속성]** audience builder 창 오른쪽의 목록.
 
    ![특성 드래그 앤 드롭](assets/drag-attribute.png)

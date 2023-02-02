@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c58b7627d776bccf36165b80ed30f8537fc8f5e
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '1960'
-ht-degree: 99%
+source-wordcount: '1978'
+ht-degree: 98%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 99%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2월 2일 | [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 다음 섹션이 업데이트되었습니다.<ul><li>찾아보기 모드를 사용하면 VEC가 끊어진 것으로 표시됩니다</li></ul> |
+|  | [Target에서 대상 작성](/help/main/c-target/c-audiences/create-audience.md) | 대상 이름에 사용할 수 없는 문자 및 문자 시퀀스 목록을 추가했습니다. |
 | 1월 31일 | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | mbox 이름에 대해 허용되는 문자 및 허용되지 않는 문자의 목록이 추가되었습니다. |
 | 1월 25일 | [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 이제 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동에서 JSON 오퍼에 대한 지원을 이용할 수 있습니다. |
 |  | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크: 경험 최적화를 위한 모바일 및 인증된 사용 사례</li></ul> |
