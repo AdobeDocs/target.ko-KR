@@ -4,7 +4,7 @@ description: 사용자 지정된 대상을 만들고 [!DNL Adobe Target] [!UICON
 title: 대상을 만들려면 어떻게 해야 합니까?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 59%
@@ -53,7 +53,7 @@ ht-degree: 59%
 
    대상 이름에는 다음 문자 시퀀스를 포함할 수 없습니다.
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. 원하는 속성을 **[!UICONTROL 속성]** audience builder 창 오른쪽의 목록.
 
