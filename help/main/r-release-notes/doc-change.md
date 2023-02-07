@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
 source-wordcount: '1978'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2월 2일 | [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 다음 섹션이 업데이트되었습니다.<ul><li>찾아보기 모드를 사용하면 VEC가 끊어진 것으로 표시됩니다</li></ul> |
+| 2월 2일 | [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 다음 섹션이 업데이트되었습니다.<ul><li>검색 모드를 사용할 때 VEC가 손상된 것으로 표시됨</li></ul> |
 |  | [Target에서 대상 작성](/help/main/c-target/c-audiences/create-audience.md) | 대상 이름에 사용할 수 없는 문자 및 문자 시퀀스 목록을 추가했습니다. |
 | 1월 31일 | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | mbox 이름에 대해 허용되는 문자 및 허용되지 않는 문자의 목록이 추가되었습니다. |
 | 1월 25일 | [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 이제 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동에서 JSON 오퍼에 대한 지원을 이용할 수 있습니다. |
@@ -38,11 +38,11 @@ ht-degree: 98%
 | 12월 20일 | [[!UICONTROL Automated Personalization의 오퍼 보고 그룹]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | “주의 사항” 아래에 보고 그룹에 대한 추가 정보를 추가하였습니다. |
 | 12월 14일 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md#environment) | [!DNL Adobe Experience Platform] (AEP)을 사용하여 지표 데이터를 [!DNL Target]으로 보내는 방법과 관련하여 “환경” 섹션에 메모가 추가되었습니다. |
 | 11월 29일 | [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 다음 단락을 추가하여 텍스트를 명확히 했습니다.<ul><li>방문자의 지역 정보는 [!DNL Target] 위치 요청(mbox 요청)의 원래 IP 주소에서 결정됩니다. IP-to-geo 해결은 새 세션의 첫 번째 호출에 대해 수행됩니다. 이는 방문자의 IP 주소가 방문 세션 중간에 변경되는 경우 지역 정보는 여전히 첫 번째 호출의 IP 주소를 기반으로 한다는 것을 의미합니다.</li></ul> |
-| 11월 28일 | [Adobe Target 개발자 안내서](https://developer.adobe.com/target/before-administer/models-api/)의{target=_blank} 모델 API (차단 목록에 추가) 개요&#x200B;** | 새 모델 API.<br>기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다. |
+| 11월 28일 | *Adobe Target 개발자 안내서*&#x200B;의 [모델 API (차단 목록에 추가) 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} | 새 모델 API.<br>기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 모델 API 릴리스(2022년 11월 23일)에 대한 정보가 추가되었습니다. |
 | 11월 23일 | [at.js로 Analytics for Target(A4T)을 구현하기 전](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Marketing Cloud 통합 프로비저닝 양식](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}에 대한 링크가 업데이트되었습니다. |
 | 11월 16일 | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 등록 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (11월 29일)</li></ul> |
-| 11월 8일 | [A/B 테스트를 얼마 동안 실행해야 합니까?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 정확한 결과를 얻으려면 [!DNL Adobe Target] [!UICONTROL 샘플 크기 계산기]에서 매개변수 번호를 변경하기 전에 페이지를 다시 로드해야 한다는 중요한 메모가 추가되었습니다. 실제 [계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html){target=_blank}에도 메모가 추가되었습니다. |
+| 11월 8일 | [A/B 테스트를 얼마 동안 실행해야 합니까?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 정확한 결과를 얻으려면 [!DNL Adobe Target] [!UICONTROL 샘플 크기 계산기]에서 매개변수 번호를 변경하기 전에 페이지를 다시 로드해야 한다는 중요한 메모가 추가되었습니다. 실제 [계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR){target=_blank}에도 메모가 추가되었습니다. |
 |  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 표에서 `adobe_mc_sdid` 매개변수에 대한 설명이 업데이트되었습니다. |
 |  | [활동 문제 해결](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 새로운 섹션 추가: “활동 전환 후 방문자가 어떠한 경험도 하지 않습니다.” |
 |  | [사용자 정의 매개변수](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | [!UICONTROL 필터링 기준] 드롭다운 목록에서 선택한 mbox는 활동 생성 시 저장되지 않는다는 메모가 추가되었습니다. 이 옵션을 사용하면 선택한 mbox를 기반으로 매개변수를 필터링할 수 있습니다. |
