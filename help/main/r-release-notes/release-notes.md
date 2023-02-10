@@ -1,14 +1,14 @@
 ---
-keywords: 릴리스 정보;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트
+keywords: 릴리스 노트;새 기능;릴리스;업데이트;릴리스;개선 사항;개선 사항;수정 사항;버그 수정;업데이트
 description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
 landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
-workflow-type: ht
-source-wordcount: '812'
-ht-degree: 100%
+source-git-commit: 7541293203ebb78296227b8c15beb767970e3bd2
+workflow-type: tm+mt
+source-wordcount: '813'
+ht-degree: 96%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 100%
 ## at.js 버전 2.10.1 (2023년 2월 2일)
 
 * 이름에 점이 있는 매개변수를 포함하는 대상자 규칙과 관련된 활동이 온디바이스 결정을 위해 예상되는 경험을 반환하지 않는 버그가 수정되었습니다.
-* at.js 2.6.0에서 `mboxDisable`이 활성화된 경우에도 at.js가 게재 호출을 시작하는 버그가 수정되었습니다.
+* at.js가 게재 호출을 실행하는 at.js 2.6.0에서 발생하던 버그가 수정되었습니다. 이 버그 수정 `mboxDisable` 이 활성화되었습니다.
 
 모든 at.js 릴리스에 대한 정보는 [at.js 버전 세부 정보](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}를 참조하십시오.
 
