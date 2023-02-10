@@ -5,10 +5,10 @@ landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7541293203ebb78296227b8c15beb767970e3bd2
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 96%
+source-wordcount: '891'
+ht-degree: 89%
 
 ---
 
@@ -17,6 +17,19 @@ ht-degree: 96%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target] Standard/Premium 22.14.5(2023년 2월 13~15일)
+
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
+
+* **2월 13일**: 아메리카 지역
+* **2월 15일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **2월 15일**: 아시아 태평양(APAC) 지역
+
+이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다:
+
+* 속성이 Automated Personalization (AP) 활동에 지정되었더라도 다음 오류 메시지가 표시되는 문제를 해결했습니다. &quot;오류: 하나 이상의 속성이 기본값이 아닌 작업 공간에 속해야 함&quot;(TGT-44607)
+* 서버 측 Recommendations 피드에 영향을 줄 수 있는 보안 문제를 해결했습니다. (TGT-43769)
 
 ## at.js 버전 2.10.1 (2023년 2월 2일)
 

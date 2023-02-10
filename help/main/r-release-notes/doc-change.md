@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '1988'
+source-wordcount: '1999'
 ht-degree: 100%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 10일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.14.5 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 2월 8일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | at.js 2.10.1에 대한 릴리스 정보가 추가되었습니다. |
 | 2월 2일 | [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 다음 섹션이 업데이트되었습니다.<ul><li>검색 모드를 사용할 때 VEC가 손상된 것으로 표시됨</li></ul> |
 |  | [Target에서 대상자 빌드](/help/main/c-target/c-audiences/create-audience.md) | 대상자 이름에 사용할 수 없는 문자 및 문자 시퀀스의 목록이 추가되었습니다. |
