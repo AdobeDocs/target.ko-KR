@@ -6,9 +6,9 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '812'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 93%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## at.js 버전 2.10.1(2023년 2월 2일)
+## at.js 버전 2.10.1 (2023년 2월 2일)
 
-* 이름에 점이 있는 매개 변수가 포함된 대상 규칙을 포함하는 활동이 On-Device Decisioning에 대해 예상 경험을 반환하지 않는 버그를 수정했습니다.
-* at.js가 게재 호출을 실행하는 at.js 2.6.0의 버그가 `mboxDisable` 이 활성화되었습니다.
+* 이름에 점이 있는 매개변수를 포함하는 대상자 규칙과 관련된 활동이 온디바이스 결정을 위해 예상되는 경험을 반환하지 않는 버그가 수정되었습니다.
+* at.js 2.6.0에서 `mboxDisable`이 활성화된 경우에도 at.js가 게재 호출을 시작하는 버그가 수정되었습니다.
 
-모든 at.js 릴리스에 대한 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+모든 at.js 릴리스에 대한 정보는 [at.js 버전 세부 정보](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}를 참조하십시오.
 
 ## [!DNL Target] Standard/Premium 22.13.3 (2023년 1월 25~26일)
 
