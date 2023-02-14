@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 89%
+ht-degree: 91%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 89%
 ## at.js 버전 2.10.1 (2023년 2월 2일)
 
 * 이름에 점이 있는 매개변수를 포함하는 대상자 규칙과 관련된 활동이 온디바이스 결정을 위해 예상되는 경험을 반환하지 않는 버그가 수정되었습니다.
-* at.js가 게재 호출을 실행하는 at.js 2.6.0에서 발생하던 버그가 수정되었습니다. 이 버그 수정 `mboxDisable` 이 활성화되었습니다.
+* at.js 2.6.0에서 새로 발생한, `mboxDisable`이 활성화된 경우에도 at.js가 게재 호출을 시작하는 버그가 수정되었습니다.
 
 모든 at.js 릴리스에 대한 정보는 [at.js 버전 세부 정보](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}를 참조하십시오.
 
