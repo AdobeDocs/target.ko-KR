@@ -5,10 +5,10 @@ title: 권장 사항 키를 기반으로 권장 사항을 제공하려면 어떻
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
 workflow-type: tm+mt
-source-wordcount: '3936'
-ht-degree: 40%
+source-wordcount: '3942'
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 40%
 
 ## 장바구니 기반 {#cart-based}
 
-다음 [!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 컨텐츠를 기반으로 항목을 추천할 수 있습니다. 권장 사항 키는 mbox 매개 변수를 통해 제공됩니다 `cartIds` 쉼표로 구분된 값으로 설정되어 있습니다. 처음 10개의 값만 고려됩니다.
+다음 [!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 컨텐츠를 기반으로 항목을 추천할 수 있습니다. 추천 키는 [mbox 매개 변수 `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} 쉼표로 구분된 값으로 설정되어 있습니다. 처음 10개의 값만 고려됩니다.
 
 장바구니 기반 권장 사항 로직은 &quot;[!UICONTROL 권장 사항]&quot; 사용자 기반 알고리즘 및 &quot;[!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]&quot; 및 &quot;[!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]항목 기반 알고리즘
 
@@ -356,22 +356,22 @@ ht-degree: 40%
 
 사용자 지정 프로필 속성값을 기준으로 하여 권장 사항을 만들 수 있습니다. 예를 들어 방문자가 가장 최근에 큐에 추가한 동영상을 기반으로 권장 동영상을 표시하려 한다고 가정합니다.
 
-1. **[!UICONTROL 권장 사항 키]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예를 들어 &quot;Last Show Added to Watchlist&quot;).
+1. 에서 사용자 지정 프로필 속성을 선택합니다 **[!UICONTROL 권장 사항 키]** 드롭다운 목록(예: &quot;Last Show Added to Watchlist&quot;)
 1. 그런 다음 **[!UICONTROL 권장 사항 논리]**&#x200B;를 선택합니다(예를 들어 &quot;People Who Viewed This, Viewed That&quot;).
 
    ![새 기준 만들기 대화 상자](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 사용자 지정 프로필 속성이 단일 엔티티 ID와 직접 일치하지 않는 경우 엔티티에 대한 일치가 어떻게 일치하는지 [!DNL Recommendations]에 설명해야 합니다. 예를 들어 방문자가 좋아하는 브랜드에서 상위 판매 항목을 표시한다고 가정합니다.
 
-1. **[!UICONTROL 권장 사항 키]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예를 들어 &quot;Favorite Brand&quot;).
+1. 에서 사용자 지정 프로필 속성을 선택합니다 **[!UICONTROL 권장 사항 키]** 드롭다운 목록(예: &quot;Favorite Brand&quot;).
 
 1. 그런 다음 이 키와 함께 사용할 **[!UICONTROL 권장 사항 논리]**&#x200B;를 선택합니다(예를 들어 &quot;Top Sellers&quot;).
 
    [!UICONTROL 다음의 고유한 값으로 그룹화] 옵션이 표시됩니다.
 
-1. 선택한 키와 일치하는 엔티티 속성을 선택합니다. 이 경우 “Favorite Brand”가 `entity.brand`에 일치합니다.
+1. 선택한 키와 일치하는 엔티티 속성을 선택합니다. 이 경우 &quot;Favorite Brand&quot;가 `entity.brand`.
 
-   이제 [!DNL Recommendations]에서 각 브랜드에 대한 “Top Sellers” 목록을 생성하고 방문자의 Favorite Brand 프로필 속성에 저장된 값을 기반으로 적절한 “Top Sellers” 목록을 표시합니다.
+   [!DNL Recommendations] 이제에서 각 브랜드에 대한 &quot;Top Sellers&quot; 목록을 생성하고 방문자의 Favorite Brand 프로필 속성에 저장된 값을 기반으로 적절한 &quot;Top Sellers&quot; 목록을 표시합니다.
 
    ![새 기준 만들기 대화 상자 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
