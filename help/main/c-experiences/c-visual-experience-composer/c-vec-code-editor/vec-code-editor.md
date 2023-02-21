@@ -4,7 +4,7 @@ description: Adobe에서 수정 사항 패널을 사용하는 방법을 알아�
 title: 내 페이지를 어떻게 수정할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 85319079e00db70184950d36778f2e4060b44209
+source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 87%
@@ -139,17 +139,17 @@ ht-degree: 87%
 
 * DOM Ready 시 교체, jQuery 사용
 
-JQuery를 사용하는 다음 예제에서는 고객의 웹 사이트에서 다음 경우에 페이지에 jQuery를 사용할 수 있다고 가정합니다 [!DNL Target] 오퍼를 실행합니다.
+   JQuery를 사용하는 다음 예제에서는 고객의 웹 사이트에서 다음 경우에 페이지에 jQuery를 사용할 수 있다고 가정합니다 [!DNL Target] 오퍼를 실행합니다.
 
-```javascript
-<style>#default_content {visibility:hidden;}</style> 
-<script> 
-jQuery( document ).ready(function() { 
-    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-    jQuery("#default_content").css("visibility","visible"); 
-}); 
-</script> 
-```
+   ```javascript
+   <style>#default_content {visibility:hidden;}</style> 
+   <script> 
+   jQuery( document ).ready(function() { 
+       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+       jQuery("#default_content").css("visibility","visible"); 
+   }); 
+   </script> 
+   ```
 
 * DOM Ready 시 교체, jQuery 없음(Internet Explorer 8을 지원하지 않음)
 
