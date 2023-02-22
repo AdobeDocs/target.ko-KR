@@ -4,10 +4,10 @@ description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe에서
 title: Velocity를 사용하여 디자인을 사용자 지정하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 46%
+source-wordcount: '1067'
+ht-degree: 44%
 
 ---
 
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 Velocity 변수(특성)에 대한 자세한 내용은 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-디자인에서 프로필 스크립트를 사용하는 경우, 스크립트 이름 앞에 있는 $는 \으로 이스케이프 처리해야 합니다. 예, `\${user.script_name}`.
+디자인에서 프로필 스크립트를 사용하는 경우, 스크립트 이름 앞에 있는 $는 `\` (백슬래시). 예:
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
