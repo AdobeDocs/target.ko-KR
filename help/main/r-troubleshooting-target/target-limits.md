@@ -1,14 +1,14 @@
 ---
 keywords: 문자 제한;mbox 매개 변수;일괄 게재 api;프로필 매개 변수;제한;내장 프로필;최대값;제한;제한;문자;모범 사례;orderid;orderTotal;mbox3rdPartyID;범주;categoryID;문제 해결
-description: 의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한 목록을 봅니다 [!DNL Adobe Target].
-title: 의 다양한 문자, 크기 및 기타 제한은 무엇입니까? [!DNL Adobe Target]?
+description: 의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한 목록 보기 [!DNL Adobe Target].
+title: 의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까 [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 93%
+source-wordcount: '1582'
+ht-degree: 81%
 
 ---
 
@@ -66,17 +66,33 @@ ht-degree: 93%
 
    고객이 지정된 사용자 세션에 대해 100개의 동시 [!DNL Target] 콘텐츠 전달 요청을 초과하면 해당 사용자 세션에 대한 모든 후속 요청이 차단됩니다. 둘 이상의 요청은 응답이 수신되기 전에 모두 [!DNL Target] 서버로 전송된 경우 동시에 전송되었다고 간주됩니다. [!DNL Target] 은 동일한 세션에 대한 동시 요청을 순차적으로 처리합니다.
 
-* **오류 비헤이비어**:
+   * **오류 비헤이비어**:
 
-   * 게재 API 및 일괄 Mbox v2:
-      * 오류 코드: HTTP 420 요청이 너무 많음
-      * 오류 메시지: “동일한 세션 ID를 가진 요청이 너무 많음”
-   * 기존 mbox API:
-      * “동일한 세션 ID를 가진 요청이 너무 많음”이라는 주석이 있는 기본 콘텐츠
-   * at.js:
-      * 표시된 기본 콘텐츠
+      * 게재 API 및 일괄 Mbox v2:
+         * 오류 코드: HTTP 420 요청이 너무 많음
+         * 오류 메시지: “동일한 세션 ID를 가진 요청이 너무 많음”
+      * 기존 mbox API:
+         * “동일한 세션 ID를 가진 요청이 너무 많음”이라는 주석이 있는 기본 콘텐츠
+      * at.js:
+         * 표시된 기본 콘텐츠
 
 
+
+* **제한**: 50mbox/개 [!DNL Target] 콘텐츠 게재 일괄 mbox 요청.
+
+   50 mbox/를 초과하는 것 [!DNL Target] 컨텐츠 전달 배치 mbox 요청을 수행하면 응답 오류 코드가 발생합니다. `HTTP 400` 오류 메시지 포함 `size must be between 0 and 50`.
+
+   일괄 처리 mbox 요청은 순차적으로 처리되므로 각 반복에 대한 전체 응답 시간이 늘어납니다. 일괄 처리 요청에 mbox가 많을수록 응답 지연이 늘어날 수 있으므로 시간 초과가 발생할 수 있습니다. 지연 시간이 긴 일괄 처리 요청에서 경험 렌더링이 차단되는 경우 사용자가 경험 렌더링을 기다리면 지연 시간이 저하되어 사용자 경험이 저하될 수 있습니다.
+
+* **제한**: 60MB의 HTTP POST 본문 크기 [!DNL Target] 컨텐츠 전달 요청.
+
+   의 HTTP POST 본문 크기가 60MB를 초과합니다. [!DNL Target] 컨텐츠 전달 요청으로 인해 응답 오류 코드가 발생합니다. `HTTP 413 Request Entity Too Large`.
+
+* **권장 제한**: 알림당 50개 [!DNL Target] 게재 일괄 처리 요청.
+
+   당 50개 알림 초과 [!DNL Target] 게재 일괄 처리 요청은 응답 지연 및 시간 초과를 초래할 수 있습니다.
+
+   일괄 알림 요청은 순차적으로 처리되므로 각 반복에 대한 전체 응답 시간이 늘어납니다. 일괄 처리 요청에 대한 알림이 많을수록 응답 지연이 늘어날 수 있으므로 시간 초과가 발생할 수 있습니다. 일부 고객은 배치 알림 요청에 대한 일부 추가 지연을 수락할 수 있지만, 시간 초과 및 이후 다시 시도하면 더 많은 지연이 발생할 수 있습니다.
 
 ## 고객 속성
 
@@ -139,7 +155,7 @@ ht-degree: 93%
 
 ### 활동별 경험 수
 
-* **제한**: 2,000개 경험 [!UICONTROL 경험 타깃팅] (XT), [!UICONTROL A/B 테스트], [!UICONTROL 다변량 테스트] (MVT) 및 [!UICONTROL 자동 Target] 활동.
+* **제한**: 당 2,000개 경험 [!UICONTROL 경험 타기팅] (XT), [!UICONTROL A/B 테스트], [!UICONTROL 다변량 테스트] (MVT) 및 [!UICONTROL 자동 Target] 활동.
 
    AP (Automated Personalization) 활동당 30,000개 경험.
 
@@ -163,13 +179,13 @@ ht-degree: 93%
 
 * **제한**: 250자.
 
-   배달 API(at.js 2.*x*), 배치 mbox V2 및 AEP 웹 SDK(alloy.js) 통합, mbox 이름 *다음을 수행할 수 있습니다.* 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자를 포함합니다.
+   게재 API(at.js 2.*x*), 배치 mbox V2 및 AEP 웹 SDK(alloy.js) 통합, mbox 이름 *can* 영숫자(A-Z, a-z, 0-9) 및 다음 문자를 포함합니다.
 
    ```
    - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
    ```
 
-   at.js 1.*x* 통합, mbox 이름 *사용할 수 없음* 다음 문자를 포함합니다.
+   at.js 1.*x* 통합, mbox 이름 *할 수 없음* 다음 문자 중 하나를 포함합니다.
 
    ```
    ' " %22 %27 < > %3C %3E 
@@ -283,7 +299,7 @@ ht-degree: 93%
 
 * **권장 제한**: 2,000자.
 
-   인코딩된 문자열의 크기에 따라 다릅니다. 인코딩된 문자열은 원시 문자열보다 훨씬 더 길 수 있습니다. 문자열이 너무 크면 에 도달하기 전에 실패합니다. [!DNL Adobe Target].
+   인코딩된 문자열의 크기에 따라 다릅니다. 인코딩된 문자열은 원시 문자열보다 훨씬 더 길 수 있습니다. 문자열이 너무 크면 가 되기 전에 실패합니다 [!DNL Adobe Target].
 
 ## 스크립트 프로필
 
