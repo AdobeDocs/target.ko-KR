@@ -1,19 +1,19 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;tls;tls 1.2
-description: Adobe에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다 [!DNL Target] 특정 조건에서 VEC(시각적 경험 작성기)를 참조하십시오.
-title: 시각적 경험 작성기와 관련된 문제를 해결하려면 어떻게 해야 합니까?
+description: Adobe에서 가끔 발생하는 문제를 해결하는 방법 알아보기 [!DNL Target] 특정 조건에서 VEC(시각적 경험 작성기)를 참조하십시오.
+title: 시각적 경험 작성기와 관련된 문제를 해결하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '971'
-ht-degree: 68%
+source-wordcount: '975'
+ht-degree: 67%
 
 ---
 
 # 시각적 경험 작성기에 관련된 문제 해결
 
-에서 경우에 따라 문제가 발생합니다 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC) 를 사용할 수 있습니다.
+때때로 다음과 같은 경우에 표시 문제가 발생합니다. [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC) 특정 조건에서.
 
 ## 시각적 경험 작성기에서 웹 사이트를 열면 [!DNL Target] 라이브러리가 로드되지 않습니다. (VEC만 해당) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
@@ -32,7 +32,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 고급 경험 작성기에서 문제가 발생할 경우 고급 경험 작성기를 끄고 시각적 경험 작성기를 대신 사용합니다.
 
-고급 경험 작성기를 비활성화하려면 **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]** 꺼서 **[!UICONTROL 고급 경험 작성기 활성화]** 선택 사항입니다.
+고급 경험 작성기를 비활성화하려면 다음 위치로 이동하십시오. **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]** 및 끄기 **[!UICONTROL 향상된 경험 작성기 사용]** 옵션을 선택합니다.
 
 일부 사용자의 경우 콘솔에 다음과 같은 오류 메시지가 표시됩니다.
 
@@ -115,16 +115,16 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 * 올바르지 않은 URL을 입력했습니다.
 * 계정 설정 페이지에 기본 URL을 입력하지 않았습니다.
 
-   이 설정이 활성화되어 있는지 확인한 다음, 웹 사이트에서 at.js를 다운로드하여 업데이트하십시오.
+   이 설정이 활성화되어 있는지 확인한 다음, 웹 사이트에서 at.js를 다운로드하여 업데이트합니다.
 
-* 를 사용해 보면 [새 [!UICONTROL 시각적 편집 도우미] 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 그리고 다시 [이전 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 및 [!DNL Target] 웹 사이트를 로드하지 못하고 모든 브라우저 데이터를 지우고 새 확장을 비활성화합니다.
+* 다음을 사용해 보십시오. [신규 [!UICONTROL Visual Edit Helper] 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 그런 다음 (으)로 돌아갑니다. [이전 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 및 [!DNL Target] 웹 사이트를 로드하지 못했습니다. 브라우저 데이터를 모두 지우고 새 확장을 비활성화하십시오.
 
-* 웹 사이트가 VEC에서 로드되지 않거나 예기치 않게 동작하는 경우 웹 사이트를 로드하기 전에 브라우저에서 웹 사이트에서 쿠키를 허용하는 것이 잠재적 수정 사항입니다 [!DNL Target].
+* 웹 사이트가 VEC에서 로드되지 않거나 예기치 않게 작동하는 경우 잠재적인 수정 사항은 웹 사이트를 로드하기 전에 브라우저에서 웹 사이트의 쿠키를 수락하는 것입니다. [!DNL Target].
 
-## 찾아보기 모드를 사용할 때 VEC가 손상된 것으로 나타납니다. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## 검색 모드를 사용할 때 VEC가 손상된 것으로 표시됨. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-찾아보기 모드를 사용하는 동안 [!DNL Target] 구현된 라이브러리([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) 또는 프레임 버스터 헤더를 포함하거나 포함하는 경우 VEC가 손상된 것으로 나타납니다. 브라우저 보안 문제로 인해, [!DNL Target] 로 이동한 URL에 제대로 액세스할 수 없거나 페이지가 로드되는 경우 VEC URL이 일관되게 업데이트되지 않습니다.
+찾아보기 모드를 사용하는 동안 가 없는 URL에 액세스하는 경우 [!DNL Target] 라이브러리가 구현됨 ([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) 또는 frame-buster 헤더가 포함되어 있으면 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해, [!DNL Target] 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
 
-이 문제는 VEC가 웹 페이지를 `<iframe>`. 브라우저의 현재 보안 메커니즘으로 인해 [!DNL Target] 동일한 원본 정책 때문에 UI가 지정된 프레임의 요소에 액세스할 수 없습니다. 브라우저는 서로 다른 원본으로 사용하는 프레임에 액세스하려고 하는 스크립트를 차단하며 이 프레임에는 다음과 같은 정보가 포함됩니다 `location.href`.
+이 문제는 VEC가 웹 페이지를 `<iframe>`. 브라우저의 현재 보안 메커니즘은 [!DNL Target] 동일 출처 정책으로 인해 주어진 프레임의 요소에 액세스할 수 없는 UI. 브라우저는 다른 원본이 있는 프레임에 액세스하려는 스크립트를 차단하며 다음과 같은 정보를 포함합니다. `location.href`.
 
-새 [시각적 편집 도우미 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (권장) 또는 [이전 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 주사하려면 [!DNL Target] 라이브러리로 페이지를 분류하여 최적의 상태로 검색할 수 있습니다.
+새 를 사용해야 합니다. [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (권장) 또는 [이전 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) 을(를) 주입하려면 [!DNL Target] 라이브러리를 페이지에 배치하여 최적의 상태로 탐색합니다.
