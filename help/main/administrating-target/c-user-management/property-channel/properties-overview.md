@@ -5,9 +5,9 @@ title: 엔터프라이즈 권한은 어떻게 구성합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1444'
 ht-degree: 66%
 
 ---
@@ -83,7 +83,7 @@ ht-degree: 66%
 
 ### 작업 공간 ID 얻기 {#workspace-id}
 
-에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다 [TARGET API](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다 [TARGET API](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
 
 1. [Adobe Admin Console](https://adminconsole.adobe.com)에서 [!UICONTROL 제품] 탭을 클릭한 다음 왼쪽 메뉴에서 제품을 클릭하여 PLC(작업 공간) 목록을 표시합니다.
 1. 원하는 PLC(작업 공간)를 클릭한 다음 아래 표시된 대로 URL에서 &quot;프로필&quot; ID를 찾습니다.
@@ -142,7 +142,7 @@ ht-degree: 66%
 
    [!DNL Target] 구현을 업데이트하는 방법에는 여러 가지가 있습니다. 예를 들어, 웹 페이지에는 다음 방법을 사용할 수 있습니다.
 
-   * **내 태그의 &quot;사용자 지정 매개 변수&quot;를 통해 [!DNL Adobe Experience Platform]:**
+   * **내의 태그에 &quot;Custom Parameter&quot;를 사용하여 [!DNL Adobe Experience Platform]:**
 
       자세한 내용은 [Mbox 매개 변수 추가](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-mbox-params) 다음에서 *태그 개요* 설명서를 참조하십시오.
 
@@ -158,7 +158,7 @@ ht-degree: 66%
       </script>
       ```
 
-      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html){target=_blank}.
+      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

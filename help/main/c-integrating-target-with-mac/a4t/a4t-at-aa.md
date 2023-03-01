@@ -4,7 +4,7 @@ description: Adobe에서 자동 할당 및 자동 Target 활동을 만드는 방
 title: A4T가 자동 할당 및 자동 Target 활동을 지원합니까?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 2%
@@ -20,7 +20,7 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 * 사용 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)트래픽을 승리 경험으로 유도하는 의 multi-armed bandit 기능입니다.
 * 사용 [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md)각 방문자에게 최상의 경험을 선택하기 위한 의 앙상블 머신 러닝 알고리즘. 자동 Target 은 를 사용하는 동안 사용자의 프로필, 동작 및 컨텍스트를 기반으로 최상의 경험을 선택합니다. [!DNL Adobe Analytics] 목표 지표 및 [!DNL Adobe Analytics]&#39; 풍부한 보고 및 분석 기능.
 
-다음을 수행했는지 확인하십시오. [a/B 테스트 및 경험 타깃팅 활동과 함께 사용할 A4T를 구현했습니다](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 을 사용하는 경우 `analyticsLogging = client_side`, 또한 을 전달해야 합니다. `sessionId` 값: 까지 [!DNL Analytics]. 자세한 내용은 [A4T(Target 분석) 보고](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 다음에서 *ADOBE TARGET SDK* 가이드.
+다음을 수행했는지 확인하십시오. [a/B 테스트 및 경험 타깃팅 활동과 함께 사용할 A4T를 구현했습니다](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). 을 사용하는 경우 `analyticsLogging = client_side`, 또한 을 전달해야 합니다. `sessionId` 값: 까지 [!DNL Analytics]. 자세한 내용은 [A4T(Target 분석) 보고](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} 다음에서 *ADOBE TARGET SDK* 가이드.
 
 시작하려면 다음 단계를 따르십시오. 
 

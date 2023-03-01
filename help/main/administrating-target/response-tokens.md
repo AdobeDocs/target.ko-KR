@@ -5,10 +5,10 @@ title: 응답 토큰이란 무엇이며 어떻게 사용해야 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 25%
+source-wordcount: '1669'
+ht-degree: 26%
 
 ---
 
@@ -26,8 +26,8 @@ ht-degree: 25%
 
 | TARGET SDK | 제안된 작업 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK를 다운로드하는 방법에 대한 자세한 내용은 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 다음에서 *Platform Web SDK 개요* 가이드. Platform Web SDK의 각 버전의 새로운 기능에 대한 내용은 다음을 참조하십시오. [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 다음에서 *Platform Web SDK 개요* 가이드. |
-| [at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 를 참조하십시오. [at.js 다운로드](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js(사용 중단됨)에는 존재했지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK를 다운로드하는 방법에 대한 자세한 내용은 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 다음에서 *Platform Web SDK 개요* 가이드. Platform Web SDK의 각 버전의 새로운 기능에 대한 내용은 다음을 참조하십시오. [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 다음에서 *Platform Web SDK 개요* 가이드. |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 를 참조하십시오. [at.js 다운로드](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js(사용 중단됨)에는 존재했지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
 
 ## 응답 토큰 사용 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ ht-degree: 25%
    자세한 내용을 확인하십시오:
 
    * **Platform Web SDK**: 를 참조하십시오 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 다음에서 *Platform Web SDK 개요* 가이드.
-   * **at.js**: 를 참조하십시오 [at.js 다운로드](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **at.js**: 를 참조하십시오 [at.js 다운로드](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 1. 위치 [!DNL Target], 클릭 **[!UICONTROL 관리]** > **[!UICONTROL 응답 토큰]**.
 
@@ -60,7 +60,7 @@ ht-degree: 25%
    | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 현재 활동의 세부 사항입니다.<br> 오퍼 매개 변수의 값은 경험 수준에서 평가됩니다. |
    | 지역 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 활동에서 지역 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md)을 참조하십시오. |
    | 트래픽 할당 방법<br>(적용 대상 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동 전용.) | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고, 방문자가 &quot;대상&quot; 트래픽 분배에서 경험을 받은 경우 1을 반환합니다. |
-   |  | `experience.trafficAllocationType` | &quot;제어&quot; 또는 &quot;타깃팅&quot;을 반환합니다. |
+   |  | `experience.trafficAllocationType` | &quot;제어&quot; 또는 &quot;타겟&quot;을 반환합니다. |
 
    사용자 프로필 속성 및 고객 속성도 목록에 표시됩니다.
 
@@ -149,7 +149,7 @@ Handle 개체 클래스를 사용합니다. 이 클래스에는 수신할 메타
 
 ### ![at.js 배지](/help/main/assets/atjs.png) 사용자 지정 이벤트를 사용하는 at.js
 
-[at.js 사용자 지정 이벤트](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html)를 사용하여 응답을 수신하고 응답 토큰을 읽습니다.{target=_blank}[!DNL Target]
+[at.js 사용자 지정 이벤트](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/)를 사용하여 응답을 수신하고 응답 토큰을 읽습니다.{target=_blank}[!DNL Target]
 
 다음 코드 샘플은 [!DNL at.js] 사용자 지정 이벤트 핸들러를 HTML 페이지에 바로 추가합니다.
 
@@ -226,7 +226,7 @@ Google Analytics은 HTML 페이지에 다음 코드를 추가하여 Platform Web
 
 >[!NOTE]
 >
->응답 토큰 키 값 쌍이 `alloy("sendEvent"` 개체.
+>응답 토큰 키 값 쌍이 `alloy(“sendEvent”` 개체.
 
 ```
 <script type="text/javascript"> 

@@ -4,10 +4,10 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법 알�
 title: 시각적 경험 작성기와 관련된 문제를 해결하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 67%
+source-wordcount: '971'
+ht-degree: 68%
 
 ---
 
@@ -123,7 +123,7 @@ Target은 시각적 경험 작성기에서 웹 사이트를 열 때 두 개의 �
 
 ## 검색 모드를 사용할 때 VEC가 손상된 것으로 표시됨. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-찾아보기 모드를 사용하는 동안 가 없는 URL에 액세스하는 경우 [!DNL Target] 라이브러리가 구현됨 ([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) 또는 frame-buster 헤더가 포함되어 있으면 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해, [!DNL Target] 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
+찾아보기 모드를 사용하는 동안 가 없는 URL에 액세스하는 경우 [!DNL Target] 라이브러리가 구현됨 ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) 또는 frame-buster 헤더가 포함되어 있으면 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해, [!DNL Target] 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
 
 이 문제는 VEC가 웹 페이지를 `<iframe>`. 브라우저의 현재 보안 메커니즘은 [!DNL Target] 동일 출처 정책으로 인해 주어진 프레임의 요소에 액세스할 수 없는 UI. 브라우저는 다른 원본이 있는 프레임에 액세스하려는 스크립트를 차단하며 다음과 같은 정보를 포함합니다. `location.href`.
 

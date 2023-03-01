@@ -4,9 +4,9 @@ description: ' [!DNL Target]  기능에 대해 학습하는 데 도움이 되는
 title: Target에 대한 리소스 및 연락처 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1224'
+source-wordcount: '1221'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,7 @@ Target 커뮤니티는 Adobe Target에 대한 종합적인 정보를 제공합�
 
 | 주제/런타임/촬영 날짜 | 학습 내용 |
 |--- |--- |
-| [at.js 팁 및 개요](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019년 6월 26일 | 배울 내용:<ul><li>at.js 사용의 이점</li><li>at.js 설정</li><li>플리커 처리</li><li>at.js 디버깅</li><li>알려진 문제</li><li>FAQ</li></ul>자세한 내용은 [at.js 작동 방식](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=en){target=_blank}. |
+| [at.js 팁 및 개요](https://helpx.adobe.com/kr/customer-care-office-hours/target/at-js-1x-Tips-and-Overview.html)<br>59:12<br>2019년 6월 26일 | 배울 내용:<ul><li>at.js 사용의 이점</li><li>at.js 설정</li><li>플리커 처리</li><li>at.js 디버깅</li><li>알려진 문제</li><li>FAQ</li></ul>자세한 내용은 [at.js 작동 방식](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
 | [Target Premium 작업 영역](https://helpx.adobe.com/kr/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>2018년 9월 4일 | 배울 내용:<ul><li>작업 영역(제품 프로필) 만들기</li><li>속성 만들기</li><li>사용자 추가</li><li>구현 업데이트</li></ul>자세한 내용은 [엔터프라이즈 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하십시오. |
 | [시각적 경험 작성기(VEC)](https://helpx.adobe.com/kr/customer-care-office-hours/target/premium-workspaces.html)<br>50:23<br>2017년 12월 | 배울 내용:<ul><li>VEC 작동 방식</li><li>VEC에서 일반적인 문제가 발생하지 않도록 하는 방법</li><li>VEC에서 사용할 수 있는 해결 방법 사례</li></ul>이 안내서에서 자세한 내용은 [경험](/help/main/c-experiences/experiences.md)을 참조하십시오. |
 | [Adobe Target: Analytics/Target 통합(A4T)](https://helpx.adobe.com/kr/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>2018년 1월 | 배울 내용:<ul><li>통합이 작동하도록 설정하고 작동하는지 확인하는 방법 </li><li>통합 작동 방식</li><li>Analytics에서 사용할 이상적인 보고서에 대해 알아보기</li><li>A4T와 관련된 일반적인 질문에 대한 답변</li></ul>이 안내서에서 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오. |

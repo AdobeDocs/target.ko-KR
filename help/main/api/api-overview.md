@@ -5,10 +5,10 @@ title: 어디에 가면 찾을 수 있죠 [!DNL Target] API 및 SDK 설명서
 feature: APIs/SDKs
 role: Developer
 exl-id: 2a0232cc-9a6a-42f4-afb6-4b3e2b13939c
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 1%
+source-wordcount: '155'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 사용을 시작하기 전에 [!DNL Adobe Target], 사이트에서 구현해야 합니다.
 
-다음 [Adobe Target 개발자 안내서 포털](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} 구현하기 전에 알아야 하는 정보가 포함되어 있습니다. [!DNL Target].
+다음 [Adobe Target 개발자 안내서 포털](https://developer.adobe.com/target/){target=_blank} 구현하기 전에 알아야 하는 정보가 포함되어 있습니다. [!DNL Target].
 
 개발자 포털에는 다음 구현 유형에 대한 정보가 포함되어 있습니다.
 
@@ -33,4 +33,4 @@ ht-degree: 1%
 * 보고 API.
 * 권장 사항 API.
 
-자세한 내용은 [Target API 개요](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/target-api-overview.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} 포털.
+자세한 내용은 [Target API 개요](https://developer.adobe.com/target/before-administer/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank} 포털.

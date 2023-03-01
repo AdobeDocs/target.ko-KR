@@ -5,9 +5,9 @@ title: 엔터프라이즈 사용자 권한이란 무엇이며 어떻게 사용�
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '3166'
+source-wordcount: '3169'
 ht-degree: 58%
 
 ---
@@ -252,7 +252,7 @@ ht-degree: 58%
 
    향후 릴리스에서 Target은 `at_property` 토큰이 없는 페이지 또는 다른 `at_property` 토큰이 있는 페이지에서 작동합니다.
 
-* 엔터프라이즈 사용자 권한 기능은 Adobe I/O API 호출에서 지원되지 않습니다.
+* 엔터프라이즈 사용자 권한 기능은 [Adobe I/O API 호출](https://developer.adobe.com/target/){target=_blank}에서 지원되지 않습니다.
 
 ## 자주 묻는 질문 {#faqs}
 

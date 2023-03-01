@@ -4,9 +4,9 @@ description: 에서 사용할 수 있는 옵션 탐색 [!DNL Adobe Target] [!UIC
 title: 사용 방법 [!UICONTROL 시각적 경험 작성기] (VEC) 선택 사항
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2923'
+source-wordcount: '2920'
 ht-degree: 63%
 
 ---
@@ -372,7 +372,7 @@ CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것�
 
 ## 고려 사항 {#considerations}
 
-* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)에서 &#39;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&#39;을 참조하십시오.{target=_blank}
+* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)에서 &#39;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&#39;을 참조하십시오.{target=_blank}
 
 ## 사용자 지정 요소 지원 {#custom}
 
@@ -380,9 +380,9 @@ VEC는 [웹 구성 요소](https://developer.mozilla.org/en-US/docs/Web/Web_Comp
 
 >[!NOTE]
 >
->사용자 지정 요소에 대한 VEC 지원은에서 지원됩니다. [at.js 버전](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. 웹 사이트에 필요한 버전이 배포되어 있는지 확인합니다. 를 사용하는 경우 [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), 필요한 at.js 버전도 배포되어 있어야 합니다. 위에 설명된 VEC 옵션은 표시되지 않으며 at.js의 지원되지 않는 버전에서 사용할 수 있습니다.
+>사용자 지정 요소에 대한 VEC 지원은에서 지원됩니다. [at.js 버전](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (or later){target=_blank}. 웹 사이트에 필요한 버전이 배포되어 있는지 확인합니다. 를 사용하는 경우 [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), 필요한 at.js 버전도 배포되어 있어야 합니다. 위에 설명된 VEC 옵션은 표시되지 않으며 at.js의 지원되지 않는 버전에서 사용할 수 있습니다.
 >
->사용자 지정 요소에 대한 VEC 지원은 현재 [Adobe Experience Platform 웹 SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
+>사용자 지정 요소에 대한 VEC 지원은 현재 [Adobe Experience Platform 웹 SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 대부분의 VEC 작업은 다음 예외를 제외하고 사용자 지정 이벤트 및 사용자 지정 이벤트 내에서 지원됩니다.
 

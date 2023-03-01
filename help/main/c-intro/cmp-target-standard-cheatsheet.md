@@ -4,10 +4,10 @@ description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Tar
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2796'
-ht-degree: 96%
+source-wordcount: '2783'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 
 **Target에서는 어떤 브라우저를 지원합니까?**
 
-자세한 내용은 [지원되는 브라우저](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=en) 표를 참조하십시오. {target=_blank} Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
+자세한 내용은 [지원되는 브라우저](https://developer.adobe.com/target/before-implement/supported-browsers/) 표를 참조하십시오. {target=_blank} Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
 
 ## 활동 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 경험 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -258,7 +258,7 @@ JSON 오퍼가 있는 [양식 기반 활동](/help/main/c-experiences/form-exper
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [고객 속성](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
 
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,10 +309,10 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **모바일 SKU를 제공하고 있습니다. 모바일 활동을 만들 수 있습니까?**
 
-모바일의 최적화 및 개인화를 위해서는 다음을 사용해야 합니다. [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 과 함께 [ADOBE SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/enable-target-in-sdk.html){target=_blank}. Check out more details about [Target for mobile apps](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}.
+모바일의 최적화 및 개인화를 위해서는 다음을 사용해야 합니다. [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 과 함께 [ADOBE SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Check out more details about [Target for mobile apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. 다음을 참조하십시오 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+API에 대한 완전한 설명서가 있습니다. 다음을 참조하십시오 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://developer.adobe.com/target/구현/서버측/){target=_blank}.

@@ -4,10 +4,10 @@ description: 데이터 Adobe 알아보기 [!DNL Target] 는 를 수집하고 사
 title: 머신 러닝 알고리즘을 구축하기 위해 수집되는 데이터는 무엇입니까?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2026'
-ht-degree: 49%
+source-wordcount: '2023'
+ht-degree: 50%
 
 ---
 
@@ -48,7 +48,7 @@ ht-degree: 49%
 
 기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다.
 
-자세한 내용은 [모델 API(차단 목록에 추가) 개요](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} 다음에서 *Adobe Target 개발자 안내서*.
+자세한 내용은 [모델 API(차단 목록에 추가) 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} 다음에서 *Adobe Target 개발자 안내서*.
 
 ## 장치 및 모바일 데이터 {#device-mobile}
 

@@ -4,9 +4,9 @@ description: Adobe에서의 활동 방법 알아보기 [!DNL Target] 을 사용�
 title: 콘텐츠를 개인화하고 Target을 사용하여 페이지 디자인을 테스트하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2074'
 ht-degree: 92%
 
 ---
@@ -51,7 +51,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 | URL | URL은 이름 아래에 더 밝은 텍스트로 표시됩니다.<br>활동용 URL은 활동이 표시되는 위치를 나타냅니다. 이 URL을 사용하면 활동을 빠르게 식별하고 특정 페이지에서 이미 테스트가 실행 중인지 여부를 판별하는 데 도움이 됩니다.<br>테스트가 여러 URL에서 실행되는 경우에는 링크에 추가로 사용된 URL의 수가 표시됩니다. 해당 활동에 대한 전체 URL 목록을 보려면 링크를 클릭하십시오.<br>URL을 기준으로 검색할 수 있습니다. 검색 상자 옆에 있는 드롭다운 목록을 사용하고 [!UICONTROL 검색 URL]을 선택하십시오. |
 | 상태 | 활동의 상태는 다음 중 하나일 수 있습니다.<ul><li>**라이브**: 활동이 현재 실행 중입니다.</li><li>**초안**: 활동 설정이 시작되었지만 아직 활동을 실행할 준비가 되지 않았습니다.</li><li>**예약됨**: 지정된 시작 날짜 및 시간에 도달하면 활동이 활성화되도록 준비되었습니다.</li><li>**비활성**: 활동이 일시 정지되었거나 비활성화되었습니다.</li><li>**동기화 중**: 활동이 저장되었으며 Target 배달 네트워크에 동기화되고 있습니다.</li><li>**종료**: 활동의 지정한 종료 날짜 및 시간이 완료되어 활동이 더 이상 지원되지 않습니다.</li><li>**보관됨**: 활동이 보관되었습니다. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.</li></ul>**참고**: API 방법을 사용하여 UI 외부에서의 활동 활성화와 같은 특정 작업을 수행하면 업데이트가 UI로 전파되는 데 최대 10분이 걸릴 수 있습니다. |
 | 소스 | 활동이 만들어진 위치를 보여줍니다.<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>AEM(Adobe Experience Manager)</li><li>AMS(Adobe Mobile Services)</li></ul> |
-| 온디바이스 의사 결정 적격 | 온디바이스 의사 결정 적격 활동을 만들면 온디바이스 의사 결정 적격 이라고 표시된 레이블이 활동의 개요 페이지에 표시됩니다.<br>이 레이블은 활동이 항상 온디바이스 의사 결정을 통해 전달됨을 의미하지 않습니다. at.js 2.5.0+가 온디바이스 의사 결정을 사용하도록 구성된 경우에만 이 활동이 온디바이스에서 실행됩니다. at.js 2.5.0+가 온디바이스를 사용하도록 구성되지 않은 경우 이 활동은 at.js에서 수행하는 서버 호출을 통해 계속 전달됩니다.<br>다음을 참조하십시오 [온디바이스 의사 결정](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank}. |
+| 온디바이스 의사 결정 적격 | 온디바이스 의사 결정에 적합한 활동을 만들면 온디바이스 의사 결정 적격 이라고 표시된 레이블이 활동의 개요 페이지에 표시됩니다.<br>이 레이블은 활동이 항상 온디바이스 의사 결정을 통해 전달됨을 의미하지 않습니다. at.js 2.5.0+가 온디바이스 의사 결정을 사용하도록 구성된 경우에만 이 활동이 온디바이스에서 실행됩니다. at.js 2.5.0+가 온디바이스를 사용하도록 구성되지 않은 경우 이 활동은 at.js에서 수행하는 서버 호출을 통해 계속 전달됩니다.<br>다음을 참조하십시오 [온디바이스 의사 결정](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/on-device-decisioning/){target=_blank}. |
 | 속성 | 활동에 대한 [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 표시합니다. |
 | 수입의 예상 상승도 | 대상의 100%에게 가장 성과가 좋은 경험이 표시되는 경우 수입의 예상되는 증가를 보여줍니다.<br>다음 공식을 사용하여 계산됩니다.<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>이 숫자는 압축 양식에서 소수 앞에 한 자릿수만 있으면 최대 소수 첫째 자리로 반올림됩니다. 예를 들어 $1.6M, $60K, $900, $8.5K, $205K와 같습니다.<br>승자를 확정하기에 충분한 데이터가 없거나 예상 비용이 없는 활동의 경우 이 열에 &quot;---&quot;이 표시됩니다.<br>자세한 내용은 [매출 상승도 평가](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오. |
 | 마지막 업데이트 날짜 | 활동이 마지막으로 업데이트된 날짜와 업데이트한 사람. |

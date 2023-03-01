@@ -4,9 +4,9 @@ description: Analytics를 구현하는 데 필요한 단계를 따르십시오. 
 title: 용 Analytics를 구현하는 방법 [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1156'
 ht-degree: 24%
 
 ---
@@ -116,9 +116,9 @@ window.targetGlobalSettings = {
 }
 ```
 
-그런 다음 페이로드를 를 통해 Analytics에 전달할 수 있습니다. [데이터 삽입 API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 자동 할당 및 자동 Target 활동의 경우 sessionId도 전달해야 합니다. 자세한 내용은 [A4T(Target 분석) 보고](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} 다음에서 *ADOBE TARGET SDK* 가이드.
+그런 다음 페이로드를 를 통해 Analytics에 전달할 수 있습니다. [데이터 삽입 API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). 자동 할당 및 자동 Target 활동의 경우 sessionId도 전달해야 합니다. 자세한 내용은 [A4T(Target 분석) 보고](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} 다음에서 *ADOBE TARGET SDK* 가이드.
 
-글로벌 설정을 원하지 않고 더 많은 요구 방식이 필요한 경우 at.js 함수를 사용하십시오 [getOffers()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffers-atjs-2.html){target=_blank} 를 전달함으로써 **analyticsLogging: &quot;client_side&quot;**. 이 호출에 대해서만 Analytics 페이로드가 반환되고 [!DNL Target] 백엔드가 페이로드를 다음 위치에 전달하지 않음 [!DNL Analytics]. 이 접근 방식을 사용하면 모든 at.js [!DNL Target] request 는 기본적으로 페이로드를 반환하지만, 대신 원하는 경우에만 페이로드를 반환합니다.
+글로벌 설정을 원하지 않고 더 많은 요구 방식이 필요한 경우 at.js 함수를 사용하십시오 [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank} 를 전달함으로써 **analyticsLogging: &quot;client_side&quot;**. 이 호출에 대해서만 Analytics 페이로드가 반환되고 [!DNL Target] 백엔드가 페이로드를 다음 위치에 전달하지 않음 [!DNL Analytics]. 이 접근 방식을 사용하면 모든 at.js [!DNL Target] request 는 기본적으로 페이로드를 반환하지만, 대신 원하는 경우에만 페이로드를 반환합니다.
 
 예:
 

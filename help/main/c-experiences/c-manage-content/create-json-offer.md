@@ -4,10 +4,10 @@ description: Adobe에서 JSON 오퍼를 만드는 방법을 알아봅니다 [!DN
 title: JSON 오퍼를 작성하는 방법
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '533'
-ht-degree: 28%
+source-wordcount: '529'
+ht-degree: 29%
 
 ---
 
@@ -23,10 +23,10 @@ JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시
 
 * JSON 오퍼는 현재 에만 사용할 수 있습니다. [!UICONTROL A/B 테스트], Automated Personalization (AP) 및 [!UICONTROL 경험 타기팅] (XT) 활동.
 * JSON 오퍼는에서 사용할 수 있습니다. [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md) 만 해당.
-* JSON 오퍼는 를 사용할 때 직접 검색할 수 있습니다. [서버 측 API 및 Mobile Node.js, Java, .NET 및 Python SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
-* 브라우저에서 JSON 오퍼는 at.js 1.2.3 이상 버전을 통해서만 검색할 수 있고 [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} 를 사용하여 작업을 필터링함으로써 `setJson` 작업.
+* JSON 오퍼는 를 사용할 때 직접 검색할 수 있습니다. [서버 측 API 및 Mobile Node.js, Java, .NET 및 Python SDK](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+* 브라우저에서 JSON 오퍼는 at.js 1.2.3 이상 버전을 통해서만 검색할 수 있고 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} 를 사용하여 작업을 필터링함으로써 `setJson` 작업.
 * JSON 오퍼는 문자열이 아닌 기본 JSON 개체로 제공됩니다. 이러한 개체의 소비자는 개체를 문자열로 처리하고 JSON 개체로 변환하도록 더 이상 요구받지 않습니다.
-* JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 코드를 작성해야 [getOffer()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 코드를 작성해야 [getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank}.
 
 ## JSON 오퍼 만들기 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 

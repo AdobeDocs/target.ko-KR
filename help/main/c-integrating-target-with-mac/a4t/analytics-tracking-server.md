@@ -4,10 +4,10 @@ description: 용 Analytics를 사용하는 활동에 대한 Analytics 추적 서
 title: Analytics 추적 서버를 사용하려면 어떻게 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 21%
+source-wordcount: '684'
+ht-degree: 22%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 21%
 >
 >at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 생성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
 >
->다음 [!DNL Target] 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전 중 가장 최근의 업데이트로 업그레이드하십시오. 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+>다음 [!DNL Target] 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2.*x* 간의 매핑에 대해 설명합니다. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전 중 가장 최근의 업데이트로 업그레이드하십시오. 자세한 내용은 [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 에서 데이터를 확인하려면 [!DNL Target] 의 올바른 위치로 이동합니다. [!DNL Analytics], A4T에는 [!DNL Analytics] 에서 Modstats에 대한 모든 호출에서 전송될 추적 서버 [!DNL Target]. 여러 추적 서버를 사용하는 구현의 경우 [!DNL Adobe Experience Platform Debugger] 또는 브라우저의 개발자 도구를 사용하여 활동에 대한 올바른 추적 서버를 결정할 수 있습니다.
 

@@ -6,10 +6,10 @@ title: 구현 방법 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '184'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 사용을 시작하기 전에 [!DNL Adobe Target], 사이트에서 구현해야 합니다.
 
-다음 [Adobe Target 개발자 안내서 포털](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} 구현하기 전에 알아야 하는 정보가 포함되어 있습니다. [!DNL Target].
+다음 [Adobe Target 개발자 안내서 포털](https://developer.adobe.com/target/){target=_blank} 구현하기 전에 알아야 하는 정보가 포함되어 있습니다. [!DNL Target].
 
 개발자 포털에는 다음 구현 유형에 대한 정보가 포함되어 있습니다.
 
@@ -28,11 +28,11 @@ ht-degree: 2%
 * **모바일 앱**: 를 사용하여 구현하는 데 도움이 되는 정보 [!DNL Adobe Experience Platform Mobile] SDK.
 * **이메일**: 구현에 도움이 되는 정보 [!DNL Target] 이메일.
 
-자세한 내용은 [Adobe Target 개발자 안내서 포털](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+자세한 내용은 [Adobe Target 개발자 안내서 포털](https://developer.adobe.com/target/){target=_blank}.
 
 >[!NOTE]
 >
->이전에 포함된 모든 정보 *구현 Target* 이 안내서의 섹션( *Adobe Target 실무자 안내서*)이(가) 이제 [Adobe Target 개발자 안내서](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+>이전에 포함된 모든 정보 *구현 Target* 이 안내서의 섹션( *Adobe Target 실무자 안내서*)이(가) 이제 [개발자 포털](https://developer.adobe.com/target/){target=_blank}.
 
 
 
