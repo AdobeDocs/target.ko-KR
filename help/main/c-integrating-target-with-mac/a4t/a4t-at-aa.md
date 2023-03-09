@@ -4,10 +4,10 @@ description: 만드는 방법 알아보기 [!UICONTROL 자동 할당] 및 [!UICO
 title: A4T가 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1354'
-ht-degree: 3%
+source-wordcount: '1382'
+ht-degree: 2%
 
 ---
 
@@ -76,25 +76,25 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 | 지표 이름 | 다음에서 더 이상 지원되지 않음: |
 | --- | --- |
-| [!UICONTROL averagepagedepth] | 전환율, RPV |
-| [!UICONTROL averagetimespentonsite] | 전환율, RPV |
-| [!UICONTROL 튀김-] | 전환율, RPV |
-| [!UICONTROL bounces] | 전환율, RPV |
-| [!UICONTROL 항목] | 전환율, RPV |
-| [!UICONTROL 종료] | 전환율, RPV |
-| [!UICONTROL 페이지 보기 수] | RPV |
-| [!UICONTROL 다시 로드] | RPV |
-| [!UICONTROL 방문자 수] | 전환율, RPV |
-| [!UICONTROL 방문 횟수] | RPV |
+| [!UICONTROL averagepagedepth] | 전환율, 지표 값 최대화 |
+| [!UICONTROL averagetimespentonsite] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 튀김-] | 전환율, 지표 값 최대화 |
+| [!UICONTROL bounces] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 항목] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 종료] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 페이지 보기 수] | 지표 값 최대화 |
+| [!UICONTROL 다시 로드] | 지표 값 최대화 |
+| [!UICONTROL 방문자 수] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 방문 횟수] | 지표 값 최대화 |
 
 ### 에 대한 영향 [!UICONTROL 자동 Target] 활동
 
 | 지표 이름 | 다음에서 더 이상 지원되지 않음: |
 | --- | --- |
-| [!UICONTROL cartremovals] | RPV |
-| [!UICONTROL 페이지 보기 수] | RPV |
-| [!UICONTROL 방문자 수] | 전환율, RPV |
-| [!UICONTROL 방문 횟수] | RPV |
+| [!UICONTROL cartremovals] | 지표 값 최대화 |
+| [!UICONTROL 페이지 보기 수] | 지표 값 최대화 |
+| [!UICONTROL 방문자 수] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 방문 횟수] | 지표 값 최대화 |
 
 ## 제한과 참고 사항
 
