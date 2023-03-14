@@ -6,9 +6,9 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '551'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 69%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target] Standard/Premium 22.15.1(2023년 3월 8~9일)
+## [!DNL Target] Standard/Premium 22.15.1 (2023년 3월 8일, 9일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
@@ -26,17 +26,17 @@ ht-degree: 69%
 * **3월 9일**: 유럽, 중동 및 아프리카(EMEA) 지역
 * **3월 9일**: 아시아 태평양(APAC) 지역
 
-이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다:
+이번 릴리스에는 다음과 같은 새로운 기능 및 개선 사항이 포함되었습니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| 다음에 대해 최적화된 A4T 지표 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] | [!DNL Target] 을 사용할 때 이항 이벤트를 기반으로 한 지표 또는 연속 이벤트를 기반으로 한 지표를 선택할 수 있습니다 [!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동.<P>지원되는 지표에서 시간에 민감한 다음 변경 사항에 유의하십시오.<ul><li>[!DNL Target] 기존 활동에 대한 이전 비헤이비어는 2023년 9월 9일까지 유지됩니다. 이 날짜 이후, 기존 활동을 새 비헤이비어로 강제 마이그레이션하기 위해 지원되지 않는 지표를 사용하는 활동이 중단됩니다.</li></ul>자세한 내용은 [지원되는 목표 지표](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) 위치: *자동 할당 및 자동 Target 활동에 대한 A4T 지원*. |
-| [!UICONTROL 자동 할당] 사용 [!UICONTROL Target 분석] (A4T) | 새로운 튜토리얼:<ul><li>[에서 A4T 보고서 설정 [!DNL Analysis Workspace] 대상 [!UICONTROL 자동 할당] 활동](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
-| [!UICONTROL 자동 Target] 사용 [!UICONTROL Target 분석] (A4T) | 새로운 튜토리얼:<ul><li>[에서 A4T 보고서 설정 [!DNL Analysis Workspace] 대상 [!UICONTROL 자동 Target] 활동](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+| 최적화된 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅]에 대한 A4T 지표 | [!DNL Target]을 사용하면 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 [!UICONTROL A4T]를 사용할 때 이항 이벤트 또는 연속 이벤트를 기반으로 지표를 선택할 수 있습니다.<P>다음은 유의해야 할 지원되는 지표에서의 긴급 변경 내용입니다.<ul><li>[!DNL Target]은 2023년 9월 9일까지의 기존 활동에 대한 이전 동작을 유지했습니다. 이 날짜 이후에는 기존 활동을 새 동작으로 강제 마이그레이션하기 위해 지원되지 않는 지표를 사용하는 활동이 중단됩니다.</li></ul>자세한 내용은 *자동 할당 및 자동 타겟팅 활동에 대한 A4T 지원*&#x200B;의 [지원되는 목표 지표](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)를 참조하십시오. |
+| [!UICONTROL Analytics for Target](A4T)을 사용하는 [!UICONTROL 자동 할당] | 새 튜토리얼:<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
+| [!UICONTROL Analytics for Target](A4T)을 사용하는 [!UICONTROL 자동 타겟팅] | 새 튜토리얼:<ul><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
-## at.js 버전 2.10.2(2023년 3월 7일)
+## at.js 버전 2.10.2 (2023년 3월 7일)
 
-* 의 원인이 되는 문제가 해결되었습니다. `trackEvent` 함수 를 사용하십시오.
+* `trackEvent` 함수가 항상 오류를 반환하는 문제가 해결되었습니다.
 
 모든 at.js 릴리스에 대한 정보는 [at.js 버전 세부 정보](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}를 참조하십시오.
 
