@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: a4c74086ff765d0790ec28dfd28881addd56f785
 workflow-type: tm+mt
 source-wordcount: '2216'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -15,14 +15,14 @@ ht-degree: 95%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## [!DNL Target] Standard/Premium 22.15.1(2023년 3월 8~9일)
+## [!DNL Target] Standard/Premium 22.15.1 (2023년 3월 8일, 9일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 3월 8일 | [[!UICONTROL 자동 할당 및 자동 타겟 활동에 대한 A4T 지원]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 지원되는(및 지원되지 않는) 지표에 대한 정보를 포함하도록 섹션이 업데이트되었습니다. [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 을 사용하는 활동 [!UICONTROL Target 분석] (A4T) |
-|  | [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 다음과 같은 새로운 튜토리얼이 추가되었습니다.<ul><li>[에서 A4T 보고서 설정 [!DNL Analysis Workspace] 대상 [!UICONTROL 자동 할당] 활동](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[에서 A4T 보고서 설정 [!DNL Analysis Workspace] 대상 [!UICONTROL 자동 Target] 활동](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
-|  | [활동 편집 또는 초안으로 저장](/help/main/c-activities/edit-activity.md) | &quot;모범 사례&quot; 섹션이 추가되었습니다. |
-|  | [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | &quot;사용자 지정 코드 문제 해결&quot; 섹션에 다음 참고 사항이 추가되었습니다.<ul><li>다음과 같은 경우에는 VEC의 사용자 지정 코드 오퍼가 다시 렌더링되지 않습니다 `triggerView()` 이(가) 다음으로 호출됨 `{page: false}` 을 옵션으로 추가합니다.</li></ul> |
+| 3월 8일 | [[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | [!UICONTROL Analytics for Target](A4T)을 사용하는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대해 지원되는 지표 및 지원되지 않는 지표에 대한 정보를 포함하도록 섹션이 업데이트되었습니다. |
+|  | [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 다음 새 튜토리얼이 추가되었습니다.<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+|  | [활동 편집 또는 초안으로 저장](/help/main/c-activities/edit-activity.md) | “모범 사례” 섹션이 추가되었습니다. |
+|  | [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | “사용자 정의 코드 문제 해결” 섹션에 다음 참고 사항이 추가되었습니다.<ul><li>VEC의 사용자 정의 코드 오퍼는 `triggerView()`가 `{page: false}`를 통해 옵션으로 호출되는 경우 다시 렌더링되지 않습니다.</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | at.js 2.10.2 릴리스에 대한 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.15.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
