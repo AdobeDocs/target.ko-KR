@@ -4,10 +4,10 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '446'
+ht-degree: 59%
 
 ---
 
@@ -27,13 +27,9 @@ ht-degree: 0%
 * **3월 9일**: 유럽, 중동 및 아프리카(EMEA) 지역
 * **3월 9일**: 아시아 태평양(APAC) 지역
 
-이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
-
-| 기능 | 세부 사항 |
-| --- | --- |
-| 최적화된 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅]에 대한 A4T 지표 | [!DNL Target]을 사용하면 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 [!UICONTROL A4T]를 사용할 때 이항 이벤트 또는 연속 이벤트를 기반으로 지표를 선택할 수 있습니다.<P>다음은 유의해야 할 지원되는 지표에서의 변경 내용입니다.<ul><li>[!DNL Target]은 (날짜 미정)까지의 기존 활동에 대한 이전 동작을 유지했습니다. 이 날짜 이후에는 기존 활동을 새 동작으로 강제 마이그레이션하기 위해 지원되지 않는 지표를 사용하는 활동이 중단됩니다.</li></ul>자세한 내용은 *자동 할당 및 자동 타겟팅 활동에 대한 A4T 지원*&#x200B;의 [지원되는 목표 지표](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported)를 참조하십시오. |
-| [!UICONTROL Analytics for Target](A4T)을 사용하는 [!UICONTROL 자동 할당] | 새 튜토리얼:<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
-| [!UICONTROL Analytics for Target](A4T)을 사용하는 [!UICONTROL 자동 타겟팅] | 새 튜토리얼:<ul><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+>[!NOTE]
+>
+>이후 수정된 문제로 인해 &quot;최적화된 A4T 지표 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target]3월 8일과 9일에 릴리스된 기능은 일시적으로 제거되었습니다. 추가 내부 테스트 후 이 기능은 몇 주 후에 다시 릴리스될 예정입니다.
 
 이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 

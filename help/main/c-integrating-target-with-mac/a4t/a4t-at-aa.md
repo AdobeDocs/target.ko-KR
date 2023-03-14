@@ -4,14 +4,14 @@ description: 만드는 방법 알아보기 [!UICONTROL 자동 할당] 및 [!UICO
 title: A4T가 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 2%
+source-wordcount: '1292'
+ht-degree: 5%
 
 ---
 
-# 에 대한 A4T 지원 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동
+# [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동에 대한 A4T 지원
 
 다음 [!DNL Adobe Target]-에서-[!DNL Adobe Analytics] 통합, 다음으로 알려짐 [Target 분석](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 지원 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동.
 
@@ -56,45 +56,24 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 ## 지원되는 목표 지표 {#supported}
 
-[!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 을 사용하면 최적화를 위한 기본 목표 지표로 다음 지표 유형 중 하나를 선택할 수 있습니다.
+[!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 을 사용하면 다음 지표 유형 중 하나를 최적화를 위한 기본 목표 지표로 선택할 수 있습니다.
 
 * [!DNL Adobe Target] 전환 지표
 * [!DNL Adobe Analytics] 전환 지표
 * [!DNL Adobe Analytics]사용자 지정 이벤트 개
 
-[!DNL Target] 을 사용할 때 이항 이벤트를 기반으로 한 지표 또는 연속 이벤트를 기반으로 한 지표를 선택할 수 있습니다 [!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동.
+[!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 은 이항 이벤트를 기반으로 하는 지표를 선택해야 합니다. 이항 이벤트가 발생하거나 발생하지 않습니다. 이항 이벤트에는 클릭, 전환, 순서 등이 포함됩니다. 이러한 유형의 이벤트는 베르누이, 이진 또는 이산 이벤트라고도 합니다.
 
-* **이항 이벤트를 기반으로 한 지표**: 이항 이벤트가 발생하거나 발생하지 않습니다. 이항 이벤트에는 클릭, 전환, 순서 등이 포함됩니다. 이러한 유형의 이벤트는 베르누이, 이진 또는 이산 이벤트라고도 합니다.
+[!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 은 연속 지표에 대한 최적화를 지원하지 않습니다. 연속 지표에는 매출, 주문한 제품 수, 세션 기간, 세션의 페이지 보기 수 등이 포함됩니다. 이러한 지원되지 않는 유형의 지표를 비이항 또는 비베르누이 지표라고도 합니다.
 
-* **연속 이벤트를 기반으로 한 지표**. 연속 지표에는 매출, 주문한 제품 수, 세션 기간, 세션의 페이지 보기 수 등이 포함됩니다. 이러한 유형의 이벤트는 비이항 또는 비베르누이 지표라고도 합니다.
+다음 지표 유형은 기본 목표 지표로 지원되지 않습니다.
 
->[!IMPORTANT]
->
->기준: [!DNL Adobe Target Standard/Premium] 22.15.1 릴리스(2023년 3월 8~9일), [!DNL Target] 는 현재 지원되지 않는 지표(다음 표에 나열됨)를 사용하여 기존 활동을 계속 지원합니다. 그러나 2023년 9월 9일 이후에는 이러한 지표가 기존 활동에서 더 이상 지원되지 않으며 지원되지 않는 지표를 사용하는 모든 활동이 중단되어 기존 활동이 새 동작으로 강제 마이그레이션됩니다.
+* [!DNL Adobe Target] 참여 및 매출 지표
+* [!DNL Adobe Analytics] 참여 및 매출 지표
 
-### 에 대한 영향 [!UICONTROL 자동 할당] 활동
+   다음을 선택할 수 있습니다. [!DNL Analytics] 다음 이유로 인해 참여 또는 매출 지표를 기본 목표 지표로 사용함 [!DNL Target] 에서 모든 참여 및 매출 지표를 식별하고 제외할 수 없음 [!DNL Analytics]. 다음에서 이항 전환 지표 또는 사용자 지정 이벤트만 선택 [!DNL Analytics].
 
-| 지표 이름 | 다음에서 더 이상 지원되지 않음: |
-| --- | --- |
-| [!UICONTROL averagepagedepth] | 전환율, 지표 값 최대화 |
-| [!UICONTROL averagetimespentonsite] | 전환율, 지표 값 최대화 |
-| [!UICONTROL 튀김-] | 전환율, 지표 값 최대화 |
-| [!UICONTROL bounces] | 전환율, 지표 값 최대화 |
-| [!UICONTROL 항목] | 전환율, 지표 값 최대화 |
-| [!UICONTROL 종료] | 전환율, 지표 값 최대화 |
-| [!UICONTROL 페이지 보기 수] | 지표 값 최대화 |
-| [!UICONTROL 다시 로드] | 지표 값 최대화 |
-| [!UICONTROL 방문자 수] | 전환율, 지표 값 최대화 |
-| [!UICONTROL 방문 횟수] | 지표 값 최대화 |
-
-### 에 대한 영향 [!UICONTROL 자동 Target] 활동
-
-| 지표 이름 | 다음에서 더 이상 지원되지 않음: |
-| --- | --- |
-| [!UICONTROL cartremovals] | 지표 값 최대화 |
-| [!UICONTROL 페이지 보기 수] | 지표 값 최대화 |
-| [!UICONTROL 방문자 수] | 전환율, 지표 값 최대화 |
-| [!UICONTROL 방문 횟수] | 지표 값 최대화 |
+* [!DNL Adobe Analytics] 계산된 지표
 
 ## 제한과 참고 사항
 
@@ -130,13 +109,13 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 다양한 분석 기능은에서 사용할 수 있습니다 [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], 기본값에 대한 몇 가지 수정 사항 [!UICONTROL Target 분석] 올바르게 해석하려면 패널이 필요합니다. [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동. 실험 활동(수동 A/B 및 [!UICONTROL 자동 할당]) 및 개인화 활동([!UICONTROL 자동 Target]).
 
-### 에서 A4T 보고서 설정 [!DNL Analysis Workspace] 대상 [!UICONTROL 자동 할당] 활동
+### [!DNL Analysis Workspace]자동 할당[!UICONTROL  활동을 위해]의 A4T 보고서 설정
 
 이 자습서에서는 분석을 위한 권장 수정 사항을 안내합니다 [!UICONTROL 자동 할당] 의 활동 [!DNL Analysis Workspace].
 
 자세한 내용은 [자동 할당 활동을 위해 Analysis Workspace에서 A4T 보고서를 설정하는 방법](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} 위치: *Adobe Target Tutorials*.
 
-### 에서 A4T 보고서 설정 [!DNL Analysis Workspace] 대상 [!UICONTROL 자동 Target] 활동
+### [!DNL Analysis Workspace]자동 타겟팅[!UICONTROL  활동을 위해]의 A4T 보고서 설정
 
 이 자습서에서는 분석을 위한 권장 수정 사항을 안내합니다 [!UICONTROL 자동 Target] 의 활동 [!DNL Analysis Workspace].
 
