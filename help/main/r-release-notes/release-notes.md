@@ -28,22 +28,22 @@ ht-degree: 69%
 
 >[!NOTE]
 >
->이후 수정된 문제로 인해 &quot;최적화된 A4T 지표 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target]3월 8일과 9일에 릴리스된 기능은 일시적으로 제거되었습니다. 추가 내부 테스트 후 이 기능은 몇 주 후에 다시 릴리스될 예정입니다.
+>이후에 해결된 문제로 인해 &quot;A4T에 최적화된 지표&quot;가 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target]3월 8~9일에 릴리스된 &quot;기능이 일시적으로 제거되었습니다. 추가적인 내부 테스트 후 몇 주 후에 기능이 다시 릴리스됩니다.
 
 이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
-* 를 사용하여 사용자 지정 웹 구성 요소를 작성하는 업데이트 [!UICONTROL 시각적 경험 작성기] (VEC):
+* 을 사용하여 작성한 사용자 지정 웹 구성 요소에 대한 업데이트 [!UICONTROL 시각적 경험 작성기] (VEC):
 
-   * 에 대한 종속성이 없도록 작성 프로세스를 개선하여 VEC에서 섀도 DOM 요소 선택을 수정했습니다. [!DNL Target] 그림자 루트를 작성할 때의 구현 유형입니다. 이제 VEC에서 그림자 DOM 요소를 선택하면 모든 웹 사이트에 대해 작동합니다.
-   * VEC에서 #Shadow DOM을 사용하여 HTML 요소를 로드할 수 없는 문제가 해결되었습니다. (TGT-35801)
-   * ShadowDOM을 사용하는 SPA 웹 사이트와 관련된 VEC 문제가 해결되었습니다. (TGT-43169)
-   * ShadowDOM에서 CSS 선택기를 제대로 식별하지 않은 최적화 목표: &quot;요소를 클릭함&quot; 문제를 해결했습니다.
+   * 에 대한 종속성이 없도록 작성 프로세스를 개선하여 VEC에서 그림자 DOM 요소 선택을 수정했습니다 [!DNL Target] 그림자 루트를 작성할 때의 구현 유형입니다. 이제 VEC에서 그림자 DOM 요소 선택이 모든 웹 사이트에 대해 작동해야 합니다.
+   * VEC에서 #Shadow DOM을 사용하여 HTML 요소를 로드할 수 없는 문제를 수정했습니다. (TGT-35801)
+   * ShadowDOM을 사용하는 SPA 웹 사이트의 VEC 문제가 수정되었습니다. (TGT-43169)
+   * 최적화 목표 관련 문제를 수정했습니다. ShadowDOM에서 CSS 선택기를 제대로 식별하지 않는 &quot;요소를 클릭함&quot;입니다.
 
 >[!NOTE]
 >
->VEC에서 작성된 변경 사항을 전달하려면 다음을 사용하는지 확인합니다. [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js) 버전 2.8보다 큼.
+>VEC에서 작성된 변경 사항을 전달하려면 다음을 사용 중인지 확인하십시오 [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js))를 사용할 수 없습니다.
 
-**알려진 문제**: 를 사용할 때 그림자 루트 요소에 대한 클릭 추적 [!DNL Adobe Experience Platform Web SDK] 이(가) 제대로 작동하지 않습니다. (TNT-47012)
+**알려진 문제**: 사용 시 섀도 루트 요소에 대한 클릭 추적 [!DNL Adobe Experience Platform Web SDK] 가 제대로 작동하지 않습니다. (TNT-47012)
 
 ## at.js 버전 2.10.2 (2023년 3월 7일)
 
