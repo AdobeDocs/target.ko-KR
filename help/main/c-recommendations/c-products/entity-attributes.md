@@ -1,17 +1,18 @@
 ---
 keywords: 엔티티;엔티티 속성;Recommendations로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
 description: 엔티티 속성을 사용하여 제품 또는 콘텐츠 정보를 [!DNL Target] Recommendations.
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 title: 엔티티 속성을 어떻게 사용합니까?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1091'
-ht-degree: 52%
+source-wordcount: '1078'
+ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 엔티티 속성
+# 엔티티 속성
 
 제품이나 컨텐츠 정보를 로 전달하려면 엔티티 속성을 사용하십시오 [!DNL Adobe Target Recommendations].
 
@@ -30,7 +31,7 @@ ht-degree: 52%
 
 >[!NOTE]
 >
->at.js 2.*x*, `mboxCreate` (다음 예에서 사용됨)은 더 이상 지원되지 않습니다. 제품 또는 콘텐츠 정보를에 전달하려면 [!DNL Recommendations] at.js 2 사용.*x*, 사용 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. 예를 보려면 [Recommendations 계획 및 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+>at.js 2.*x*, `mboxCreate` (다음 예에서 사용됨)은 더 이상 지원되지 않습니다. 제품 또는 콘텐츠 정보를에 전달하려면 [!DNL Recommendations] at.js 2 사용.*x*, 사용 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -113,7 +114,7 @@ Singe 값만 사용합니다.
 예를 들어, 다음 코드에서는 여성 카테고리가 여러 하위 카테고리로 분류됩니다.
 
 ```javascript
-mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
+mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
 mbox 배달의 경우 키에 가장 긴 속성 이름이 사용됩니다. 연결이 있는 경우 마지막 속성이 사용됩니다. 위의 예에서 카테고리 키는 Womens입니다:Outerwear:자켓: 카반.

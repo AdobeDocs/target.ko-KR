@@ -2,16 +2,17 @@
 keywords: 임의 포리스트;의사 결정 트리;ap;Automated Personalization
 description: Adobe 방법 알아보기 [!DNL Target] Automated Personalization(AP)와 자동 Target 활동 모두에서 Random Forest 알고리즘을 사용합니다.
 title: 방법 [!DNL Target] Random Forest 알고리즘 사용?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1427'
+source-wordcount: '1426'
 ht-degree: 94%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Random Forest 알고리즘
+# Random Forest 알고리즘
 
 자동화된 개인화와 자동 타겟 모두에서 사용되는 Target의 주 개인화 알고리즘은 Random Forest입니다. Random Forest와 같은 Ensemble 방식에서는 Constituent 학습 알고리즘에서 얻을 수 있는 것보다 더 나은 예측 성과를 얻기 위해 여러 학습 알고리즘을 사용합니다. 자동화된 개인화의 Random Forest 알고리즘은 학습 시 다수의 의사 결정 트리를 만들어 운용되는 분류 또는 회귀 방법입니다.
 

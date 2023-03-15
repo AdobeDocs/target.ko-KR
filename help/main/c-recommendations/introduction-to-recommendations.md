@@ -2,16 +2,17 @@
 keywords: Recommendations;소개;소개;웨비나;데모
 description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe  [!DNL Target] 의 권장 사항 활동에 대해 알아보십시오.
 title: Recommendations 활동이란 무엇입니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2116'
-ht-degree: 98%
+source-wordcount: '2113'
+ht-degree: 91%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 추천 소개
+# 추천 소개
 
 이 문서의 텍스트는 *추천 소개* 웨비나에서 제공되며, 아래에서 전체 내용을 볼 수 있습니다.
 
@@ -104,7 +105,7 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 [!DNL Target] 은 사용자가 보고 구매하는 항목이 무엇인지 확인해야 합니다. 구매가 컨텍스트와 관련이 없는 경우 PDF 다운로드, 설문 조사 완료, 뉴스레터 가입, 비디오 보기 등과 같은 다른 유형의 전환 이벤트를 추적할 수 있습니다.
 
-사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우, 의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. 또한 실시간 API를 통해 오프라인 또는 인앱 인터랙션을 [!DNL Target] 에 보낼 수도 있습니다.
+사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우, 의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. 또한 오프라인 또는 인앱 상호 작용을 로 보낼 수도 있습니다 [!DNL Target] 실시간 API를 통해 전송하는 것입니다.
 
 ### 상황에 맞는 추천 받기
 
@@ -128,7 +129,7 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 ![추천 활동을 구성하는 요소(대상, 기준 및 디자인)를 보여 주는 일러스트레이션](/help/main/c-recommendations/assets/intro-12.png)
 
-기본적으로 [!DNL Target] 에는 14개의 내장된 대상, 42개의 내장된 기준 및 10개의 내장된 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. Adobe는 이전에 [!DNL Target]에서 [대상 구축에 대한 웨비나](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) 를 개최했습니다. 이 섹션에서는 어떤 항목을 추천할 지에 대한 기준을 정의하는 데 중점을 둡니다.
+기본적으로 [!DNL Target] 에는 14개의 내장된 대상, 42개의 내장된 기준 및 10개의 내장된 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. 전에 [대상자 빌드에 대한 웨비나](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. 이 섹션에서는 어떤 항목을 추천할 지에 대한 기준을 정의하는 데 중점을 둡니다.
 
 Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화를 위한 메뉴와 같습니다.
 

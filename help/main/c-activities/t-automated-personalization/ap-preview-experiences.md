@@ -2,16 +2,17 @@
 keywords: Automated Personalization;ap;미리 보기;경험 제외
 description: Adobe에서 AP(Automated Personalization) 활동에서 각 경험을 미리 보는 방법을 알아봅니다 [!DNL Target] 시각적 경험 작성기(VEC) 사용.
 title: VEC에서 Automated Personalization 경험을 미리 보려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 47%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 시각적 경험 작성기에서 자동화된 개인화에 대한 경험 미리 보기
+# !시각적 경험 작성기에서 자동화된 개인화에 대한 경험 미리 보기
 
 왜냐면 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 활동은 한 페이지의 여러 오퍼를 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 

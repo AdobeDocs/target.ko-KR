@@ -2,16 +2,17 @@
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제 해결
 description: 방법 알아보기 [!UICONTROL 자동 Target] 활동 [!DNL Target] 은 고객 프로필 및 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.
 title: 정의 [!UICONTROL 자동 Target] 활동?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1965'
 ht-degree: 50%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL 자동 Target] 개요
+# [!UICONTROL 자동 타겟 개요]
 
 [!UICONTROL 자동 Target] 활동 [!DNL Adobe Target] 콘텐츠를 개인화하고 전환을 유도하려면 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택하십시오. [!UICONTROL 자동 Target] 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다.
 
@@ -62,9 +63,9 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 | 용어 | 정의 |
 |---|---|
-| [다중 무장 강도](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | 최적화에 대한 multi-armed bandit 접근 방식은 탐색 학습과 해당 학습의 이용 간에 균형을 이룹니다. |
+| [Multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | 최적화에 대한 multi-armed bandit 접근 방식은 탐색 학습과 해당 학습의 이용 간에 균형을 이룹니다. |
 | [Random Forest](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Random Forest는 선도적인 기계 학습 접근 방식입니다. 데이터 과학에서, 방문자 및 방문 속성에 따라 많은 의사 결정 트리를 구성함으로써 작동하는 앙상블 분류 또는 회귀 방법입니다. 내 [!DNL Target], 랜덤 포레스트는 특정 방문자별로 전환 가능성이 가장 높을 것으로 예상되는 경험(또는 방문당 매출)을 결정하는 데 사용됩니다. |
-| [톰슨 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Thompson 샘플링 의 목표는 해당 경험을 찾는 &quot;비용&quot;을 최소화하면서 전반적인 최상의 경험(개인화되지 않음)을 결정하는 것입니다. Thompson 샘플링에서는 두 경험 간의 통계적 차이가 없는 경우에도 항상 승자를 선택합니다. |
+| [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | Thompson 샘플링 의 목표는 해당 경험을 찾는 &quot;비용&quot;을 최소화하면서 전반적인 최상의 경험(개인화되지 않음)을 결정하는 것입니다. Thompson 샘플링에서는 두 경험 간의 통계적 차이가 없는 경우에도 항상 승자를 선택합니다. |
 
 ## [!UICONTROL 자동 타겟] 작동 방식 {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 

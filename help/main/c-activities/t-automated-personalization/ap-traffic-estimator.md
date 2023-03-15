@@ -2,16 +2,17 @@
 keywords: 트래픽 견적 도구;자동화된 개인화;ap;트래픽 예측;자동 타겟
 description: Adobe 사용 [!DNL Target] 트래픽 견적 도구 를 사용하십시오.
 title: 성공적인 활동에 필요한 트래픽은 얼마입니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 14%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 성공에 필요한 트래픽 예측
+# 성공에 필요한 트래픽 예측
 
 다음 [!DNL Adobe Target] [!UICONTROL 트래픽 견적 도구] 은 사용자의 트래픽이 충분한지 여부를 알 수 있도록 해주는 피드백을 제공합니다 [!UICONTROL Automated Personalization] 성공을 위한 활동.
 

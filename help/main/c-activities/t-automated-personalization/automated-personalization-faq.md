@@ -2,16 +2,17 @@
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;자동화된 개인화;제어;기본 경험;우수 사례
 description: Adobe Target의 Automated Personalization(AP) 활동에 대한 FAQ 목록 및 답변을 살펴보십시오.
 title: Automated Personalization 활동에 대한 FAQ는 어떻게 찾을 수 있습니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 75%
+source-wordcount: '2003'
+ht-degree: 76%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Automated Personalization FAQ
+# Automated Personalization FAQ
 
 자동화된 개인화(AP)에 대한 FAQ 목록
 
@@ -50,7 +51,7 @@ AP ([자동화된 맞춤설정](/help/main/c-activities/t-automated-personalizat
    * 보고 그룹에 있는 오퍼 간에 개인화가 없습니다. 오퍼가 개인화 모델에서 모두 동일하게 처리됩니다.
    * 활동에 있는 모든 오퍼를 하나의 보고 그룹에 넣지 마십시오. 그렇게 하면 모든 오퍼가 활동에 있는 모든 방문자에게 균일하게 무작위로 제공됩니다.
 
-## FAQ
+## 자주 묻는 질문
 
 작업할 때 다음 FAQ 및 답변을 참조하십시오 [!UICONTROL Automated Personalization] 활동:
 
@@ -58,7 +59,7 @@ AP ([자동화된 맞춤설정](/help/main/c-activities/t-automated-personalizat
 
 [!DNL Target] 에는 30,000개의 경험으로 제한이 있지만, 경험이 10,000개 미만인 경우 가장 잘 작동합니다.
 
-이 동일한 제한은 활동이 활성화 된 경우에도 적용됩니다. [!UICONTROL 중복 제거] 선택 사항입니다.
+이 제한은 활동이 [!UICONTROL 중복 요소 차단] 옵션을 활성화한 경우에도 적용됩니다.
 
 ### 오퍼 수준의 타깃팅은 어떻게 구현합니까? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

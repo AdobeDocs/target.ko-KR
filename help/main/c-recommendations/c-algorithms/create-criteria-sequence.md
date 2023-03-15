@@ -2,16 +2,17 @@
 keywords: 기준 시퀀스;다중 기준;알고리즘;기준;권장 사항 기준;시퀀스;반환된 항목 수 제한;슬롯 수준 제어;슬롯
 description: 최대 5개의 기준 시퀀스를 설정하여 Adobe에 표시되는 항목을 보다 강력하게 제어하는 방법을 알아봅니다 [!DNL Target] Recommendations 활동.
 title: Recommendations에서 기준 시퀀스를 만들려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 기준 시퀀스 만들기
+# 기준 시퀀스 만들기
 
 [!UICONTROL 권장 사항] 활동에 나타나는 항목을 더 잘 제어하려면 기준이 최대 5개인 시퀀스를 사용하십시오. 반환된 항목의 수를 제한할 수도 있습니다(&quot;슬롯 수준 제어&quot;라고도 함).
 

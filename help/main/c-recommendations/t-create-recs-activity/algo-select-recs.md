@@ -2,16 +2,17 @@
 keywords: 권장 사항;권장 사항 활동;기준;알고리즘
 description: Adobe에서 사용할 기준(추천할 제품 또는 콘텐츠를 결정하는 규칙)을 선택하는 방법을 알아봅니다 [!DNL Target] Recommendations 활동.
 title: Recommendations 활동에 대한 기준을 선택하려면 어떻게 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '403'
 ht-degree: 72%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 기준 선택
+# 기준 선택
 
 을(를) 선택합니다 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md) 에서 를 [!DNL Adobe Target Recommendations] 활동. 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.
 

@@ -2,16 +2,17 @@
 keywords: 자동 타겟 만들기;A/B 테스트;자동 타겟 활동;새 a/b 활동;자동 타겟;개인화된 경험에 대한 자동 타겟;개인화된;최적화
 description: Adobe에서 VEC(시각적 경험 작성기)를 사용하는 방법을 알아봅니다 [!DNL Target] 에서 직접 자동 Target A/B 테스트 활동을 만들려면 [!DNL Target]-enabled 페이지.
 title: 자동 Target 활동을 만들려면 어떻게 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 48%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 자동 Target 활동 만들기
+# 자동 타겟 활동 만들기
 
 를 사용하십시오 [!UICONTROL 시각적 경험 작성기] (VEC)의 [!DNL Adobe Target] 를 클릭하여 [!UICONTROL 자동 Target] [!UICONTROL A/B 테스트] 활동에서 직접 [!DNL Target]-enabled 페이지 및 내에서 페이지의 일부 수정 [!DNL Target].
 

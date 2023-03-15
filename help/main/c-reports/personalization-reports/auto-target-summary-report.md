@@ -2,16 +2,17 @@
 keywords: 보고서;자동 타겟;자동 타겟;AT;보고서
 description: Adobe Target에서 자동 Target 요약 보고서를 해석하는 방법을 알아봅니다. 이 보고서에서 자동화된 세그먼트 및 중요 속성 보고서로 전환할 수 있습니다.
 title: 자동 Target 요약 보고서를 어떻게 사용합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: 90be7394b4493a99dd07ebcd74dc4945526a0933
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '688'
 ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 자동 Target 요약 보고서
+# Auto-Target 요약 보고서
 
 를 해석하는 방법에 대한 정보입니다 [!UICONTROL 자동 Target 요약] 보고서 [!DNL Adobe Target].
 

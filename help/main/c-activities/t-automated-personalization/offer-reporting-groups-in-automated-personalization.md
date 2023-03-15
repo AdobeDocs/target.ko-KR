@@ -2,16 +2,17 @@
 keywords: 자동화된 개인화;오퍼;보고;그룹;보고 그룹;ap
 description: Adobe에서 오퍼 보고 그룹을 사용하는 방법을 알아봅니다 [!DNL Target] [!UICONTROL Automated Personalization] 활동.
 title: Automated Personalization 활동에서 오퍼 보고 그룹을 사용할 수 있습니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 29%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)[!UICONTROL  자동화된 개인화의 오퍼 보고 그룹]
+# [!UICONTROL Automated Personalization의 오퍼 보고 그룹]
 
 에서 보고 그룹 사용에 대한 정보 [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) 활동.
 

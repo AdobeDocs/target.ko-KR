@@ -2,16 +2,17 @@
 keywords: 권장 사항;자주 묻는 질문;faq
 description: Adobe에 대한 FAQ 목록 및 답변 검토 [!DNL Target] Recommendations 디자인.
 title: 설계 질문에 대한 답변은 어디에서 얻을 수 있습니까? [!DNL Target] Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '456'
+source-wordcount: '455'
 ht-degree: 72%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 디자인 FAQ
+# 디자인 FAQ
 
 다음에 대한 FAQ 목록 [!DNL Adobe Target] [!DNL Recommendations] 디자인.
 

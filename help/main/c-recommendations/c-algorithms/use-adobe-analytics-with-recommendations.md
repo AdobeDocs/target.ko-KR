@@ -2,16 +2,17 @@
 keywords: 행동 데이터 소스;analytics;권장 사항;기준;제품 변수
 description: 사용 방법 알아보기 [!DNL Adobe Analytics] 을 보고 기반 및/또는 구매 기반 행동 데이터를 사용할 동작 데이터 소스로 사용 [!DNL Analytics] in [!DNL Target Recommendations].
 title: 사용 방법 [!DNL Adobe Analytics] with [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 사용 [!DNL Adobe Analytics] with [!DNL Recommendations]
+# 사용 [!DNL Adobe Analytics] with [!DNL Recommendations]
 
 사용 [!DNL Adobe Analytics] 을 동작 데이터 소스로 사용하면 클라이언트가 [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] 활동. 이 기능은 [!DNL Target Recommendations] 새 설정이며 [!DNL Analytics] 에는 사용할 많은 이전 데이터가 있습니다.
 
@@ -85,7 +86,7 @@ A [!DNL Target Recommendations] 샘플 피드 형식은 제품 변수에서 모�
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
-## FAQ
+## 자주 묻는 질문
 
 사용 시 다음 FAQ를 고려하십시오 [!DNL Analytics] with [!DNL Target]:
 

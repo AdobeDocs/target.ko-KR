@@ -2,16 +2,17 @@
 keywords: 권장 사항 디자인;디자인 만들기;디자인 복사
 description: Adobe 만들기 방법 알아보기 [!DNL Target] Recommendations은 기본 디자인을 사용하거나 페이지 레이아웃에 가장 적합한 사용자 지정 디자인을 만들어 디자인합니다.
 title: Recommendations에서 디자인을 만들려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 30%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 디자인 만들기
+# 디자인 만들기
 
 디자인은 페이지에 권장 사항이 어떻게 나타나는지를 정의합니다.
 

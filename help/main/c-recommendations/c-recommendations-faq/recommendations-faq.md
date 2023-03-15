@@ -2,16 +2,17 @@
 keywords: 문제 해결, 자주 묻는 질문, FAQ, FAQ, 권장 사항, 특수 문자, 속성 가중치, 콘텐츠 유사성
 description: Adobe  [!DNL Target]  Recommendations 활동에 대해 자주 묻는 질문과 대답 목록을 보십시오.
 title: ' [!DNL Target]  Recommendations에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3399'
 ht-degree: 91%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 권장 사항 FAQ
+# 권장 사항 FAQ
 
 [!DNL Adobe Target] [!DNL Recommendations] 활동에 대한 FAQ 목록.
 
@@ -94,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 적용 가능한 모든 기준을 포함합니다.
 
-[!DNL Target] 에 [호환되지 않는 기준 필터링](https://developer.adobe.com/target/implement/recommendations/)알고리즘 선택기의 지능형 필터링을 제어하기 위한 {target=_blank} 설정입니다.
+[!DNL Target]은 알고리즘 선택기의 인텔리전스 필터링을 제어할 수 있도록 [호환되지 않는 조건 필터링](https://developer.adobe.com/target/implement/recommendations/){target=_blank} 설정을 가지고 있습니다.
 
 >[!NOTE]
 >

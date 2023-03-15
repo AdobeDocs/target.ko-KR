@@ -2,16 +2,17 @@
 keywords: 경험 미리 보기;경험 URL;URL 생성;경험 URL 보기
 description: Adobe에 경험 미리 보기 URL을 사용하는 방법을 알아봅니다 [!DNL Target] Automated Personalization 활동 을 참조하십시오.
 title: Automated Personalization 활동에서 경험 미리 보기 URL을 사용하려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 50%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 경험 미리 보기 URL을 사용하여 Automated Personalization 활동 미리 보기
+# 경험치 미리보기 URL을 사용하여 Automated Personalization 활동 미리보기
 
 에 대한 경험 미리 보기 URL을 생성할 수 있습니다 [!DNL Target] [!UICONTROL Automated Personalization] 활동 을 참조하십시오. 경험 미리 보기 URL은 타깃팅을 무시하여 특정 경험을 강제로 볼 수 있습니다.
 
