@@ -5,10 +5,10 @@ landing-page-description: 고객의 경험을 개인화하여 웹 및 모바일 
 title: Target은 무슨 프로그램입니까?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
+source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
 workflow-type: tm+mt
-source-wordcount: '1017'
-ht-degree: 89%
+source-wordcount: '1026'
+ht-degree: 88%
 
 ---
 
@@ -30,9 +30,9 @@ ht-degree: 89%
 
 [!DNL Target Premium] 은 [!DNL Target Standard]에 프리미엄 기능을 추가하려면 라이선스가 필요한 고급 [!DNL Target] 서비스입니다.
 
-모두 [!DNL Target Premium] Target 안내서의 기사에는 각 페이지 상단에 있는 Premium 배지나 영향을 받는 텍스트 근처에 있는 인라인이 포함됩니다. Premium 배지는 클릭할 수 있으며 이 섹션에 대한 링크가 포함되어 있습니다.
+모두 [!DNL Target Premium] 의 문서 [!DNL Target] 안내서에는 다음 항목이 포함됩니다 [!UICONTROL Premium] 각 페이지의 맨 위에 있는 배지 또는 영향을 받는 텍스트 근처에 있는 인라인입니다. 다음 [!UICONTROL Premium] 배지는 클릭할 수 있으며 이 섹션에 대한 링크를 포함합니다.
 
-[!DNL Target Premium] 에는 다음 기능이 포함되어 있습니다.
+**[!DNL Target Premium]에는 다음 기능이 포함되어 있습니다.**
 
 ### 자동화된 개인화
 
@@ -83,7 +83,7 @@ ht-degree: 89%
 
 [!BADGE 베타]{type=Informative}
 
-다음 [!DNL Adobe Target] 팀은 향후 릴리스에서 모든 고객을 위해 해당 기능을 활성화하기 전에 테스트 및 피드백 목적으로 일부 고객을 위해 기능을 종종 켭니다.
+다음 [!DNL Adobe Target] 팀은 종종 테스트 및 피드백 목적으로 일부 고객을 위해 새로운 기능을 활성화합니다. 테스트 기간이 완료되면 향후 모든 고객에 대해 이러한 기능이 활성화됩니다 [!DNL Target Standard/Premium] 릴리스 및 릴리스 정보에 발표됨.
 
 의 문서 [!DNL Target] 베타 기능을 설명하는 안내서에는 각 페이지 상단에 있는 베타 배지 또는 영향을 받는 텍스트 근처에 있는 인라인이 포함됩니다. Beta 배지는 클릭할 수 있으며 이 섹션에 대한 링크를 포함합니다.
 
