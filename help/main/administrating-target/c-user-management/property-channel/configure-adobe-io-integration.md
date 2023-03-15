@@ -2,17 +2,18 @@
 keywords: 통합;역할;사용자 권한;Admin Console
 description: Adobe Target에서 원하는 역할을 가진 모든 작업 영역에 기존 Adobe I/O 통합 액세스 권한을 부여하는 방법을 알아봅니다.
 title: 작업 공간에 Adobe I/O 액세스 권한을 부여하고 역할을 할당하는 방법
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 84%
+source-wordcount: '620'
+ht-degree: 87%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 작업 공간에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당
+# 작업 영역에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당
 
 [!UICONTROL 엔터프라이즈 권한]을 통해 [!DNL Target] 고객은 단일 조직을 사용할 수 있지만 여러 팀 또는 워크플로우를 위한 작업 공간으로 나눌 수 있습니다.
 
@@ -65,4 +66,4 @@ ht-degree: 84%
    | 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
    | 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
    | 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-   | 게시자 | 관찰자 역할과 유사합니다(활동은 볼 수 있지만 만들거나 편집할 수 없음). 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
+   | 게시자 | 관찰자 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음)과 유사합니다. 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |

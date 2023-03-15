@@ -5,10 +5,10 @@ title: 시각적 경험 작성기(VEC)를 구성하려면 어떻게 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 50%
+source-wordcount: '726'
+ht-degree: 57%
 
 ---
 
@@ -57,7 +57,7 @@ iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집
 
 경험 스냅샷을 활성화하면 활동 워크플로우 다이어그램에서 경험에 대한 썸네일이 생성됩니다. 스냅샷을 비활성화하면 일부 사용자의 경우 성능이 더 빨라질 수 있습니다.
 
-## ![Premium 배지](/help/main/assets/premium.png) 모바일 뷰포트 구성 을 참조하십시오
+## [!BADGE 프리미엄]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium에 포함된 내용을 참조하십시오."}
 
 경험을 미리 볼 때 사용할 장치를 추가할 수 있습니다. 각 장치에는 연결된 대상이 있습니다.
 
@@ -103,6 +103,6 @@ iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집
 
 >[!NOTE]
 >
->다음 [!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전 [!UICONTROL 설정])은 향상된 성능을 제공하고, 새 기능을 릴리스할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에서 사용자 경험을 개선하기 위해 재설계되었습니다. 다음 비디오의 정보는 일반적으로 정확합니다. 그러나 옵션은 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오가 곧 게시됩니다.
+>[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전명: [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오에서 설명하는 정보는 일반적으로 정확하지만 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오는 곧 게시될 예정입니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
