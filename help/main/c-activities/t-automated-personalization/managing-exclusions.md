@@ -2,17 +2,18 @@
 keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;제외 그룹
 description: Adobe의 제외 관리 [!DNL Target] Automated Personalization (AP) 활동. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.
 title: Automated Personalization 활동에서 제외를 관리하려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '999'
 ht-degree: 88%
 
 ---
 
-# ![프리미엄 배지](/help/main/assets/premium.png) 예외 관리
+# 제외 관리
 
 에서 제외 그룹을 만들고, 중복 오퍼를 제외하고, 특정 경험을 제외하고, 기본 콘텐츠를 제외하여 제외를 관리합니다 [!UICONTROL Automated Personalization] 의 (AP) 활동 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 활동.
 

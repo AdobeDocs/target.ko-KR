@@ -2,16 +2,17 @@
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
 description: Adobe 사용 방법 알아보기 [!DNL Target] VEC(시각적 경험 작성기)를 사용하여 VEC에서 바로 Recommendations 활동을 만들 수 있습니다 [!DNL Target]-enabled 페이지.
 title: Recommendations 활동을 만들려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1315'
+source-wordcount: '1312'
 ht-degree: 75%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 권장 사항 활동 만들기
+# 권장 사항 활동 만들기
 
 Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target 시각적 경험 작성기(VEC)를 사용하십시오.
 

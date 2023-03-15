@@ -2,16 +2,17 @@
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;동적;매개 변수 일치
 description: Adobe에서 동적으로 필터링하는 방법 알아보기 [!DNL Target] Recommendations에서 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 확인합니다.
 title: Recommendations 활동에서 매개 변수 일치로 필터링하려면 어떻게 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '329'
 ht-degree: 10%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 매개 변수 일치
+# 매개 변수 일치
 
 항목(엔티티)을 요청(API 또는 mbox)에 있는 값과 비교하여 동적으로 필터링합니다.
 

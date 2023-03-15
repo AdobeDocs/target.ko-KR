@@ -2,16 +2,17 @@
 keywords: 권장 사항, 권장 사항 알고리즘, 권장 사항 활동, recommendations classic
 description: 정보를 검토하면,  [!DNL Target]  Premium의 기존 Recommendations Classic과 Recommendations 활동의 차이점을 이해하는 데 도움이 됩니다.
 title: ' [!DNL Target]  Premium에서 Recommendations Classic과 Recommendations 간의 차이점은 무엇입니까?'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 98%
+source-wordcount: '668'
+ht-degree: 97%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Recommendations Classic과 [!DNL Target] Premium의 권장 사항 활동 비교
+# Recommendations 의 클래식 활동과 Recommendations 활동 비교 [!DNL Target] Premium
 
 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
 

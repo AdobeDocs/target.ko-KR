@@ -2,16 +2,17 @@
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;자동화된 세그먼트;faq;자주 묻는 질문;중요 속성
 description: Automated Personalization(AP) 및 AT(자동 Target) 활동인 자동화된 세그먼트와 중요 속성을 위해 전문 보고서를 사용하는 방법을 알아봅니다.
 title: 개인화 인사이트 보고서를 사용하려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 51%
+source-wordcount: '908'
+ht-degree: 45%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 개인화 통찰력 보고서
+# 개인화 통찰력 보고서
 
 두 개의 전문 보고서는 [!UICONTROL AP(자동화된 개인화)] 및 [!UICONTROL AT(Auto-Target]) 활동인 자동화된 세그먼트와 중요 속성 보고서 사용자가 사용할 수 있습니다.
 
@@ -47,8 +48,8 @@ ht-degree: 51%
 
 AP 또는 자동 Target 모델에 사용되는 [!UICONTROL 개인화 인사이트] 보고서에는 두 가지 유형의 속성이 표시됩니다.
 
-* **Target에 의해 자동으로 수집된 속성:** [!DNL Target] 에서는 기본 데이터 세트를 사용하여 개인화 인사이트에 반영되는 AP 및 AT 활동에서 개인화 알고리즘을 만듭니다. 데이터 유형, 예제 속성 및 [!UICONTROL 개인화 통찰력] 이름 지정 규칙에 대해서는 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. 이러한 속성을 고려하지만 개별 활동 모델은 최종 모델에서 이러한 속성을 모두 사용하지 않을 수 있습니다.
-* **Target에 전달된 속성:** [Target의 개인화 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
+* **Target에 의해 자동으로 수집된 속성:** [!DNL Target] 에서는 기본 데이터 세트를 사용하여 개인화 인사이트에 반영되는 AP 및 AT 활동에서 개인화 알고리즘을 만듭니다. 데이터 유형, 예제 속성 및 [!UICONTROL 개인화 통찰력] 이름 지정 규칙에 대해서는 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. 이러한 속성이 고려되지만 개별 활동의 모델이 최종 모델에서 이러한 속성을 모두 사용하지 않을 수 있습니다.
+* **Target에 전달된 특성:** 자세한 내용은 [Target 개인화 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] 에서는 추가적인 데이터를 [!DNL Target] ap 및 AT 활동에서 개인화 알고리즘을 작성하는 데 사용되는 기본 데이터 세트를 보강하려면 다음을 수행하십시오.
 
@@ -60,9 +61,9 @@ AP 또는 자동 Target 모델에 사용되는 [!UICONTROL 개인화 인사이�
 | 공유 대상(Adobe Audience Manager 또는 Adobe Analytics) | Adobe Audience Manager 또는 Adobe Analytics를 통해 생성되고 Target과 공유되는 대상입니다. | `Custom - Experience Cloud Segment - [segment name]` |
 | 공유 대상(Adobe Experience Platform/실시간 CDP) | Adobe Experience Platform/실시간 CDP를 통해 만들고 대상을 통해 Target과 공유하는 대상. | `Custom - Adobe Experience Platform Segment - [segment name]` |
 | 공유 속성(Adobe Experience Platform/실시간 CDP) | Adobe Experience Platform/실시간 CDP를 통해 생성되고 대상을 통해 Target과 공유되는 특성입니다. 이 기능은 현재 베타에 있습니다. | `Custom - Adobe Experience Platform Attribute - [attribute name]]` |
-| 활동 보고 대상/세그먼트 | &quot;목표 및 지표&quot;에서 설정하는 동안 AP 또는 자동 Target 활동에 정의된 대상입니다. | `Custom - Reporting Segment - [segment name]` |
+| 활동 보고 대상/세그먼트 | 목표 및 지표에서 설정하는 동안 AP 또는 자동 Target 활동에 정의된 대상. | `Custom - Reporting Segment - [segment name]` |
 
-## FAQ
+## 자주 묻는 질문
 
 에 대한 FAQ 목록 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] [!UICONTROL Insights] 보고서.
 

@@ -2,17 +2,18 @@
 keywords: 권장 사항 알고리즘;모델 교육;모델 제공;컨텐츠 전달;항목 기반;사용자 기반;인기도 기반;장바구니 기반;사용자 지정 기준
 description: 에 사용되는 알고리즘에 대해 알아봅니다. [!DNL Target Recommendations]모델 교육 및 모델 제공 등
 title: Target의 Recommendations 알고리즘 이면의 과학에 대해 알려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2839'
 ht-degree: 1%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Target의 추천 알고리즘 이면의 과학
+# Target의 추천 알고리즘에 숨겨진 과학
 
 에 사용되는 알고리즘에 대한 심층적인 설명 [!DNL Adobe Target Recommendations]모델 교육의 논리 및 수학 세부 정보와 모델 제공 프로세스를 포함합니다.
 
@@ -64,7 +65,7 @@ ht-degree: 1%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 행동 데이터, 다음을 수행할 때 수집된 방문자 보기 및 구매 형태 [Target 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **입력 데이터**: 행동 데이터, 다음을 수행할 때 수집된 방문자 보기 및 구매 형태 [Target 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **모델 교육**:
 
@@ -126,7 +127,7 @@ ht-degree: 1%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 이는 항목 간 CF(Collaborative Filtering) 메서드와 동일합니다. [!UICONTROL 두 가지 모두 권장되는 옵션] 및 장바구니 기반 알고리즘에서는 다음과 같은 경우 수집된 사용자의 보기 및 구매 형태로 행동 데이터를 사용합니다 [Target 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **입력 데이터**: 이는 항목 간 CF(Collaborative Filtering) 메서드와 동일합니다. [!UICONTROL 두 가지 모두 권장되는 옵션] 및 장바구니 기반 알고리즘에서는 다음과 같은 경우 수집된 사용자의 보기 및 구매 형태로 행동 데이터를 사용합니다 [Target 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **모델 교육**:
 

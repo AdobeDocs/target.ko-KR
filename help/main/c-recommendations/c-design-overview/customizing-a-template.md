@@ -2,16 +2,17 @@
 keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
 description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe에서 권장 사항 디자인을 사용자 지정하는 방법을 알아봅니다 [!DNL Target] Recommendations.
 title: Velocity를 사용하여 디자인을 사용자 지정하려면 어떻게 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1067'
+source-wordcount: '1066'
 ht-degree: 44%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Velocity를 사용하여 디자인 사용자 지정
+# Velocity를 사용하여 디자인 사용자 지정
 
 공개 소스인 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정할 수 있습니다 [!DNL Adobe Target Recommendations].
 

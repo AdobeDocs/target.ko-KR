@@ -2,16 +2,17 @@
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;활동 수준 보고서;오퍼 수준 보고서;오퍼 세부 사항 보고서;faq
 description: Adobe Target에서 Automated Personalization 요약 보고서를 해석하는 방법을 알아봅니다. 이 보고서에서 자동화된 세그먼트 및 중요 속성 보고서로 전환할 수 있습니다.
 title: Automated Personalization 요약 보고서를 어떻게 사용합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '678'
 ht-degree: 33%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 자동화된 개인화 요약 보고서
+# Automated Personalization 요약 보고서
 
 전문 요약 보고서는 [!UICONTROL Automated Personalization] 활동 [!DNL Adobe Target].
 
@@ -70,7 +71,7 @@ ht-degree: 33%
 
 자세한 내용은 [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md).
 
-## FAQ
+## 자주 묻는 질문
 
 ### 활동 수준 보고서와 오퍼 수준 보고서 간에 데이터에 차이가 있는 이유는 무엇입니까?
 

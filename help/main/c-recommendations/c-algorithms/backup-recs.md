@@ -2,16 +2,17 @@
 keywords: 권장 사항;백업;백업
 description: Adobe에서 백업 권장 사항을 사용하는 방법 알아보기 [!DNL Target] Recommendations. 권장 항목이 충분하지 않은 권장 사항에는 백업 알고리즘의 결과가 표시됩니다.
 title: Recommendations에서 백업 권장 사항을 사용하려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 82%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 백업 권장 사항 사용
+# 백업 권장 사항 사용
 
 Adobe Target에서 백업 권장 사항 기능을 사용하는 경우, 권장 항목이 충분하지 않은 권장 사항에는 기본 콘텐츠가 표시되지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 

@@ -2,16 +2,17 @@
 keywords: 기준;알고리즘;수직 시장;페이지 유형;권장 사항 키;권장 사항 논리;논리;데이터 범위;전환 창;행동 데이터 소스;백업 권장 사항;포함 규칙;속성 가중치;현재 속성;사용자 지정 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾는 카테고리;인기도;최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본 항목;가장 최근에 본
 description: 활동에 가장 적합한 권장 사항을 표시하도록 Adobe Recommendations 활동의 콘텐츠를 제어하는 기준을 만드는 방법을 알아봅니다.
 title: Recommendations에서 기준을 만들려면 어떻게 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2843'
+source-wordcount: '2842'
 ht-degree: 52%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 기준 만들기
+# 기준 만들기
 
 의 기준 [!UICONTROL Adobe Target] [!UICONTROL Recommendations] 의 컨텐츠를 제어합니다 [!UICONTROL Recommendations] 활동. 활동에 가장 적합한 권장 사항을 표시하는 기준을 만드십시오. 이러한 기준은 방문자의 작업을 사용하여 표시할 컨텐츠 또는 제품을 결정합니다.
 

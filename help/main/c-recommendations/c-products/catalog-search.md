@@ -2,16 +2,17 @@
 keywords: 카탈로그 검색;카탈로그;검색;제외;컬렉션;필터
 description: Recommendations 카탈로그 검색을 사용하여 제품 또는 콘텐츠를 찾고, 컬렉션이나 제외를 만들고, 카탈로그에서 항목을 제거하는 방법을 알아봅니다.
 title: Recommendations 카탈로그 검색을 사용하려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1041'
-ht-degree: 22%
+source-wordcount: '1040'
+ht-degree: 23%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 카탈로그 검색
+# 카탈로그 검색
 
 다음 [!UICONTROL 카탈로그 검색] 페이지 [!DNL Adobe Recommendations] 은 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고, 검색 결과를 컬렉션이나 제외에 저장하고, 필터 패싯을 추가하고, 테이블의 열을 수정하고, 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.
 

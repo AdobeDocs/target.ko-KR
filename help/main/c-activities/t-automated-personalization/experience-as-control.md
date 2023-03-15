@@ -2,17 +2,18 @@
 keywords: 경험;제어;자동화된 개인화;자동 타겟
 description: Adobe Target에서 Automated Personalization(AP) 또는 자동 Target 활동을 작성하는 동안 제어로 사용할 경험을 선택하는 방법을 알아봅니다.
 title: AP 활동에서 특정 경험을 제어로 사용하려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 95%
+source-wordcount: '764'
+ht-degree: 82%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택
+# Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택
 
 AP([자동화된 개인화](/help/main/c-activities/t-automated-personalization/automated-personalization.md)) 또는 AT([자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)) 활동을 작성하는 동안 제어로 사용할 특정 경험이나 임의로 제공된 경험을 선택할 수 있습니다.
 
@@ -22,7 +23,7 @@ AP 및 AT 활동에서 제어를 설정하는 옵션은 다른 활동 유형과 
 
 AP 및 AT 활동에서 제어할 수 있는 옵션은 임의로 제공되는 경험 또는 특정 경험입니다.
 
-* **임의로 제공되는 경험**: 임의 제어의 경우 트래픽 제어 비율은 해당 방문자의 프로필을 고려하지 않고 활동의 모든 경험을 임의로 제공합니다. 질문 &quot;방문자에게 경험(또는 오퍼)을 임의로 제공하고 방문자의 프로필을 고려하지 않은 경우 해당 경험(또는 오퍼)에 대한 전환율은 어떻게 됩니까?&quot;에 대한 답변으로 제어를 생각할 수 있습니다. 컨트롤은 AI 활동 내의 A/B 테스트와 같습니다. 각 경험이나 오퍼에 대해 개인화되지 않은 전환율에 대한 이러한 정보를 알고 있으면 활동 결과를 분석할 때 이해하는 데 도움이 될 수 있습니다.
+* **임의로 제공되는**: 임의 제어의 경우 트래픽 제어 비율은 해당 방문자의 프로필을 고려하지 않고 활동의 모든 경험을 임의로 제공합니다. 질문 &quot;방문자에게 경험(또는 오퍼)을 임의로 제공하고 방문자의 프로필을 고려하지 않은 경우 해당 경험(또는 오퍼)에 대한 전환율은 어떻게 됩니까?&quot;에 대한 답변으로 제어를 생각할 수 있습니다. 컨트롤은 AI 활동 내의 A/B 테스트와 같습니다. 각 경험이나 오퍼에 대해 개인화되지 않은 전환율에 대한 이러한 정보를 알고 있으면 활동 결과를 분석할 때 이해하는 데 도움이 될 수 있습니다.
 
 * **특정 경험**: 특정 경험 제어를 사용하면 Target의 개인화 모델에서 제공하는 트래픽을 특정 마케터가 정의한 경험(예: 기본 홈 페이지)과 비교할 수 있습니다. 이 옵션을 사용하면 트래픽의 제어 비율이 해당하는 한 개 경험에 대해서만 트래픽을 임의로 처리합니다.
 

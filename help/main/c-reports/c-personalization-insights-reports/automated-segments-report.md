@@ -2,16 +2,17 @@
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;자동 타겟 보고서;auto target 보고서;개인화;통찰력;자동화된 세그먼트;faq;자주 묻는 질문
 description: Adobe에 의해 다양한 세그먼트가 정의되는 방법 알아보기 [!DNL Target] 개인화 모델은 자동화된 세그먼트 보고서를 보고 활동의 오퍼/경험에 응답합니다.
 title: 자동화된 세그먼트 보고서란?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2140'
 ht-degree: 73%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 자동화된 세그먼트 보고서
+# [!UICONTROL 자동화된 세그먼트 보고서]
 
 에 대한 정보 [!UICONTROL 자동화된 세그먼트] 보고서, [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동.
 

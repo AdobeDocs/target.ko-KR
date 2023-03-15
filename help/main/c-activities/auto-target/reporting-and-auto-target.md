@@ -2,15 +2,16 @@
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제 해결;보고;보고서;자동 타겟 요약 보고서;요약 보고서;자동화된 세그먼트;중요 속성
 description: 해석 방법 알아보기 [!UICONTROL 자동 Target] 활동 보고서 [!DNL Target].
 title: 을 해석하는 방법 [!UICONTROL 자동 Target] 보고?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 22%
+source-wordcount: '195'
+ht-degree: 24%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 보고 및 [!UICONTROL 자동 Target]
+# 보고 및 [!UICONTROL 자동 타겟]
 
 를 해석하는 방법에 대한 정보입니다 [!UICONTROL 자동 Target 요약] 보고서 [!DNL Adobe Target]를 포함한 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성] 보고서.
 

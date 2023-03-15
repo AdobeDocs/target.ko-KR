@@ -2,16 +2,17 @@
 keywords: 프로모션;전면 프로모션;후속 프로모션;프로모션 유형;항목 목록;속성별 판촉;컬렉션 판촉
 description: 프로모션된 항목을 추가하고 Adobe에서 해당 배치를 제어하는 방법을 알아봅니다 [!DNL Target] Recommendations 디자인. 정적 및 동적 프로모션을 추가할 수 있습니다.
 title: Recommendations 디자인에 프로모션을 추가하려면 어떻게 해야 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '688'
+source-wordcount: '687'
 ht-degree: 49%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 프로모션 추가
+# 프로모션 추가
 
 프로모션된 항목을 추가하고 위치에서 해당 배치를 제어합니다 [!DNL Adobe Target Recommendations] 디자인. 정적 및 동적 프로모션을 추가할 수 있습니다.
 
@@ -72,9 +73,9 @@ ht-degree: 49%
 
    | 프로모션 유형 | 기본 정렬 | 백업 정렬 | 동적 필터링 옵션 |
    | --- | --- | --- | --- |
-   | [!UICONTROL 항목 목록] | Target UI/API에 입력된 순서 | 임의(UI/API를 통해 선택한 경우) | 아니오 |
+   | [!UICONTROL 항목 목록] | Target UI/API에 입력된 순서 | 임의(UI/API를 통해 선택한 경우) | 아니요 |
    | [!UICONTROL 속성별 홍보] | `entity.value` (내림차순 순서) | 임의 지정 안 함 | 예 |
-   | [!UICONTROL 컬렉션 홍보] | `entity.value` (내림차순 순서) | 임의 지정 안 함 | 아니오 |
+   | [!UICONTROL 컬렉션 홍보] | `entity.value` (내림차순 순서) | 임의 지정 안 함 | 아니요 |
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

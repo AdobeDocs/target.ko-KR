@@ -2,17 +2,18 @@
 keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
 description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 Adobe의 항목에 대한 추가 정보를 정의하는 방법을 알아봅니다 [!DNL Target] Recommendations 카탈로그
 title: 사용자 지정 엔티티 속성을 어떻게 사용합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 87%
+source-wordcount: '1408'
+ht-degree: 88%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 사용자 지정 엔티티 속성
+# 사용자 지정 엔티티 속성
 
 에서 단일 및 다중 값 사용자 지정 엔티티 속성을 사용합니다 [!DNL Adobe Target Recommendations] 를 클릭하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
 
@@ -36,7 +37,7 @@ ht-degree: 87%
 
 다중 값 사용자 지정 엔티티 속성은 올바른 JSON 배열로 전송해야 합니다.
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 [!DNL Recommendations]에서 지원하는 올바른 JSON 배열의 예:
 
@@ -126,7 +127,7 @@ function targetPageParams() {
   }
 ```
 
-자세한 내용은 [Adobe Recommendations API 설명서](https://developer.adobe.com/target/implement/recommendations/)배달 및 저장 엔티티 API 사용에 대한 자세한 내용은 {target=_blank} 을 참조하십시오.
+배달 및 저장 엔티티 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](https://developer.adobe.com/target/implement/recommendations/){target=_blank}를 참조하십시오.
 
 ## 다중 값 속성에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

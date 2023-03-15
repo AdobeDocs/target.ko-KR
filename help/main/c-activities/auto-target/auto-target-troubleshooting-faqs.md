@@ -2,16 +2,17 @@
 keywords: 자동 타겟;타기팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결;트래픽
 description: Adobe Target의 자동 타겟 활동에 대한 문제 해결 주제 및 자주 묻는 질문을 탐색합니다.
 title: 자동 타겟 활동 문제를 해결하려면 어떻게 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1921'
+source-wordcount: '1920'
 ht-degree: 58%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) 자동 Target FAQ 및 문제 해결
+# 자동 타겟 FAQ 및 문제 해결
 
 문제 해결 및 FAQ [!UICONTROL 자동 Target] 활동 [!DNL Adobe Target].
 
