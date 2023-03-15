@@ -19,8 +19,8 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 3월 8일 | [[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | [!UICONTROL Analytics for Target](A4T)을 사용하는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대해 지원되는 지표 및 지원되지 않는 지표에 대한 정보를 포함하도록 섹션이 업데이트되었습니다. |
-|  | [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 다음 새 튜토리얼이 추가되었습니다.<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+| 3월 8일 | [[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟] 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대해 지원되는 지표 및 지원되지 않는 지표에 대한 정보를 포함하도록 섹션이 업데이트되었습니다. |
+|  | [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target="_blank"} | 다음 새 튜토리얼이 추가되었습니다.<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target="_blank"}</li><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target="_blank"}</li></ul> |
 |  | [활동 편집 또는 초안으로 저장](/help/main/c-activities/edit-activity.md) | “모범 사례” 섹션이 추가되었습니다. |
 |  | [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | “사용자 정의 코드 문제 해결” 섹션에 다음 참고 사항이 추가되었습니다.<ul><li>VEC의 사용자 정의 코드 오퍼는 `triggerView()`가 `{page: false}`를 통해 옵션으로 호출되는 경우 다시 렌더링되지 않습니다.</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | at.js 2.10.2 릴리스에 대한 정보가 추가되었습니다. |
@@ -30,8 +30,8 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2월 23일 | [Target이 at.js 2.*x*&#x200B;에서 Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank}로 마이그레이션되었습니다. | 새 튜토리얼이 추가되었습니다. |
-| 2월 21일 | [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | IP 주소 목록이 [Adobe Target 개발자 안내서](https://developer.adobe.com/target/)에 있는 모든 지역에 대한 허용 목록으로 업데이트되었습니다{target=_blank}. |
+| 2월 23일 | [Target이 at.js 2.*x*&#x200B;에서 Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target="_blank"}로 마이그레이션되었습니다. | 새 튜토리얼이 추가되었습니다. |
+| 2월 21일 | [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target="_blank"} | IP 주소 목록이 [Adobe Target 개발자 안내서](https://developer.adobe.com/target/){target="_blank"}에 있는 모든 지역에 대한 허용 목록으로 업데이트되었습니다. |
 |  | [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | JQuery를 사용하는 예제에서는 [!DNL Target]이 오퍼를 실행할 때 고객 웹 사이트의 페이지에서 jQuery를 사용할 수 있음을 가정한다고 설명하는 텍스트가 추가되었습니다. |
 | 2월 10일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.14.5 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 2월 8일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | at.js 2.10.1에 대한 릴리스 정보가 추가되었습니다. |
@@ -54,11 +54,11 @@ ht-degree: 100%
 | 12월 20일 | [[!UICONTROL Automated Personalization의 오퍼 보고 그룹]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | “주의 사항” 아래에 보고 그룹에 대한 추가 정보를 추가하였습니다. |
 | 12월 14일 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md#environment) | [!DNL Adobe Experience Platform] (AEP)을 사용하여 지표 데이터를 [!DNL Target]으로 보내는 방법과 관련하여 “환경” 섹션에 메모가 추가되었습니다. |
 | 11월 29일 | [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 다음 단락을 추가하여 텍스트를 명확히 했습니다.<ul><li>방문자의 지역 정보는 [!DNL Target] 위치 요청(mbox 요청)의 원래 IP 주소에서 결정됩니다. IP-to-geo 해결은 새 세션의 첫 번째 호출에 대해 수행됩니다. 이는 방문자의 IP 주소가 방문 세션 중간에 변경되는 경우 지역 정보는 여전히 첫 번째 호출의 IP 주소를 기반으로 한다는 것을 의미합니다.</li></ul> |
-| 11월 28일 | *Adobe Target 개발자 안내서*&#x200B;의 [모델 API (차단 목록에 추가) 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} | 새 모델 API.<br>기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다. |
+| 11월 28일 | *Adobe Target 개발자 안내서*&#x200B;의 [모델 API (차단 목록에 추가) 개요](https://developer.adobe.com/target/before-administer/models-api/){target="_blank"} | 새 모델 API.<br>기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 모델 API 릴리스(2022년 11월 23일)에 대한 정보가 추가되었습니다. |
-| 11월 23일 | [at.js로 Analytics for Target(A4T)을 구현하기 전](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Marketing Cloud 통합 프로비저닝 양식](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}에 대한 링크가 업데이트되었습니다. |
+| 11월 23일 | [at.js로 Analytics for Target(A4T)을 구현하기 전](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | [Marketing Cloud 통합 프로비저닝 양식](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target="_blank"}에 대한 링크가 업데이트되었습니다. |
 | 11월 16일 | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 등록 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (11월 29일)</li></ul> |
-| 11월 8일 | [A/B 테스트를 얼마 동안 실행해야 합니까?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 정확한 결과를 얻으려면 [!DNL Adobe Target] [!UICONTROL 샘플 크기 계산기]에서 매개변수 번호를 변경하기 전에 페이지를 다시 로드해야 한다는 중요한 메모가 추가되었습니다. 실제 [계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR){target=_blank}에도 메모가 추가되었습니다. |
+| 11월 8일 | [A/B 테스트를 얼마 동안 실행해야 합니까?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | 정확한 결과를 얻으려면 [!DNL Adobe Target] [!UICONTROL 샘플 크기 계산기]에서 매개변수 번호를 변경하기 전에 페이지를 다시 로드해야 한다는 중요한 메모가 추가되었습니다. 실제 [계산기](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=ko-KR){target="_blank"}에도 메모가 추가되었습니다. |
 |  | [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | 표에서 `adobe_mc_sdid` 매개변수에 대한 설명이 업데이트되었습니다. |
 |  | [활동 문제 해결](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | 새로운 섹션 추가: “활동 전환 후 방문자가 어떠한 경험도 하지 않습니다.” |
 |  | [사용자 정의 매개변수](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | [!UICONTROL 필터링 기준] 드롭다운 목록에서 선택한 mbox는 활동 생성 시 저장되지 않는다는 메모가 추가되었습니다. 이 옵션을 사용하면 선택한 mbox를 기반으로 매개변수를 필터링할 수 있습니다. |
@@ -94,10 +94,10 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 6월 30일 | [Adobe Target 개발자 안내서](https://developer.adobe.com/target/){target=_blank} | *Adobe Target 개발자 안내서*&#x200B;를 론칭하여 모든 [!DNL Target] 개발자 콘텐츠를 하나의 편리한 포털에 통합했습니다. 포털에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다. |
+| 6월 30일 | [Adobe Target 개발자 안내서](https://developer.adobe.com/target/){target="_blank"} | *Adobe Target 개발자 안내서*&#x200B;를 론칭하여 모든 [!DNL Target] 개발자 콘텐츠를 하나의 편리한 포털에 통합했습니다. 포털에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 이전 웨비나 세션에 대한 기록 링크가 추가되었습니다. |
-| 6월 14일 | [추천 계획 및 구현](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | 다음 섹션에서 코드 샘플을 업데이트했습니다.<ul><li>장바구니 추가/장바구니 보기/체크아웃 페이지</li><li>방문자 장바구니에 이미 있는 항목 제외</li></ul> |
+| 6월 14일 | [추천 계획 및 구현](https://developer.adobe.com/target/implement/recommendations/){target="_blank"} | 다음 섹션에서 코드 샘플을 업데이트했습니다.<ul><li>장바구니 추가/장바구니 보기/체크아웃 페이지</li><li>방문자 장바구니에 이미 있는 항목 제외</li></ul> |
 | 6월 7일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.5.1 (순차적 공개, 2022년 5월 11~13일)
@@ -107,12 +107,12 @@ ht-degree: 100%
 | 6월 7일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.6.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 5월 31일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 예정된 [!DNL Adobe Target] 커뮤니티 커피 브레이크(2022년 6월 29일)에 대한 정보가 추가되었습니다. |
 | 5월 25일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target] 플랫폼 릴리스(2022년 5월 25일) 및 at.js 2.9.0 릴리스(2022년 5월 27일)에 대한 정보가 추가되었습니다. |
-|  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
-|  | [사용자 에이전트 및 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank}  | 새 주제입니다. |
+|  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target="_blank"} | at.js 2.9.0 릴리스에 대한 정보가 추가되었습니다. |
+|  | [사용자 에이전트 및 클라이언트 힌트](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target="_blank"}  | 새 주제입니다. |
 |  | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나 녹화를 위한 링크 추가: Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경 (2022년 5월 19일) |
 | 5월 23일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | at.js 버전 2.9.0에 대한 프리릴리스 정보가 추가되었습니다(2022년 5월 25일). |
 | 5월 11일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md#webinar-series) | 다음 웨비나에 대한 정보 및 등록 링크가 추가되었습니다.<ul><li>Dick&#39;s Sporting Goods: 개인화 및 소매업의 변화하는 풍경</li><li>Adobe: 개인화 산업 내부자 - 금융 서비스 및 보험</li><li>City National Bank: 디지털 최적화에서 상위 1%를 달성하는 방법</li><li>Adobe: 정밀한 개인화 - [!DNL Adobe Analytics] 및 [!DNL Target]</li><li>City National Bank: Zero to Hero - 개인화 프로그램 시작 및 확장</li><li>Adobe: 영향력이 큰 최적화 기회 발견</li><li>Adobe: 개인화 산업 내부자 - 소매</li></ul>다음 웨비나에 대한 녹화가 추가되었습니다.<ul><li>[!DNL Adobe Target]을 사용한 실시간 개인 설정</li></ul> |
-|  | [콘텐츠 보안 정책(CSP) 지침](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank}  | FAQ 섹션이 추가되었습니다. |
+|  | [콘텐츠 보안 정책(CSP) 지침](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target="_blank"}  | FAQ 섹션이 추가되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 및 Target 플랫폼(2022년 5월 11~13일) 릴리스에 대한 정보가 추가되었습니다. |
 
 ## Adobe Target Standard/Premium 22.4.1 (4월 28일)
@@ -165,12 +165,12 @@ ht-degree: 100%
 | --- | --- | --- |
 | 1월 31일 | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 22.2.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 1월 28일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
-|  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}  | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
+|  | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target="_blank"}  | at.js 2.8.1 릴리스에 대한 정보가 추가되었습니다. |
 | 1월 27일 | [AEM 경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | [!DNL AEM as a Cloud Service] 및 [!DNL Adobe I/0]에 대한 주제가 업데이트되고 정보가 추가되었습니다. |
 | 1월 26일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.1.2 릴리스에 대한 정보가 추가되었습니다. |
 |  | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
 |  | [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md) | [!DNL Adobe Experience Platform] 대상자에 대한 정보가 추가되었습니다. |
-| 1월 21일 | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}  | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
-| 1월 19일 | [at.js 1.*x*&#x200B;에서 at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개변수&quot; |
+| 1월 21일 | [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target="_blank"}  | at.js 1.8.3 릴리스에 대한 정보가 추가되었습니다. |
+| 1월 19일 | [at.js 1.*x*&#x200B;에서 at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target="_blank"} | 다음 섹션 추가됨: &quot;at.js 2.*x*&#x200B;가 vst를 사용하여 대상자 만들기를 지원하지 않습니다.* 매개변수&quot; |
 | 1월 12일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.1.1 릴리스에 대한 정보가 추가되었습니다. |
-|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |
+|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target="_blank"} | Web SDK를 사용하여 [!DNL Adobe Experience Cloud]를 구현하는 방법에 대한 지침이 포함된 튜토리얼 링크가 추가되었습니다. |
