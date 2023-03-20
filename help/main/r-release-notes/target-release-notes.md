@@ -4,9 +4,9 @@ description: SDK, API 및 JavaScript 라이브러리를 포함하여 Adobe Targe
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 04d4cf13e0054a767e9bf08770cdace1e130067f
+source-git-commit: 7b8390042a0e15df6c05d176b2f525ddd83c9608
 workflow-type: tm+mt
-source-wordcount: '734'
+source-wordcount: '735'
 ht-degree: 49%
 
 ---
@@ -49,7 +49,7 @@ ht-degree: 49%
 * 에서 링크가 업데이트되었습니다. [!DNL Target] 새 페이지를 가리키는 UI [시각적 편집 도우미 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * SSRF(Server-Side Request Forgery)가 [!DNL Recommendations] 피드 를 참조하십시오. (TGT-43769)
 * 고객이 의 미리 보기 이미지를 볼 수 없는 문제를 해결했습니다 [!DNL Recommendations] 이미지 이름에 가 포함된 경우 디자인 [GB18030 문자](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* 일부 항목이 [GB18030 문자](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 탈출하다 [!UICONTROL 수정 사항] 편집하는 동안 패널 [!UICONTROL 텍스트/HTML] 활동 [!UICONTROL 경험] 페이지.
+* 일부 항목이 [GB18030 문자](https://en.wikipedia.org/wiki/GB_18030){target=_blank} 탈출하다 [!UICONTROL 수정 사항] 편집하는 동안 패널 [!UICONTROL 텍스트/HTML] 활동 [!UICONTROL 경험] 페이지. (TGT-44600)
 * [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
 
 
