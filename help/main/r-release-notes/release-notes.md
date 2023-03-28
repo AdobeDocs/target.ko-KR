@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
-workflow-type: ht
-source-wordcount: '599'
-ht-degree: 100%
+source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
+workflow-type: tm+mt
+source-wordcount: '880'
+ht-degree: 98%
 
 ---
 
@@ -19,32 +19,35 @@ ht-degree: 100%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target] Standard/Premium 22.15.1 (2023년 3월 8일, 9일)
+## [!DNL Target] Standard/Premium 23.3.1 (2023년 3월 28~30일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
-* **3월 8일**: 아메리카 지역
-* **3월 9일**: 유럽, 중동 및 아프리카(EMEA) 지역
-* **3월 9일**: 아시아 태평양(APAC) 지역
+* **3월 28일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **3월 29일**: 아시아 태평양(APAC) 지역
+* **3월 30일**: 아메리카 지역
 
->[!NOTE]
->
->이후 수정된 문제로 인해 3월 8일과 9일에 출시된 “[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅]에 최적화된 A4T 지표” 기능이 일시적으로 제거되었습니다. 추가 내부 테스트를 거친 후, 몇 주 내에 이 기능이 다시 출시될 예정입니다.
+이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
 
-이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+| 기능 | 세부 사항 |
+|--- |--- |
+| 최적화된 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅]에 대한 A4T 지표<p>(릴리스 날짜: 2023년 3월 30일) | [!DNL Target]을 사용하면 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 [!UICONTROL A4T]를 사용할 때 이항 이벤트 또는 연속 이벤트를 기반으로 지표를 선택할 수 있습니다.<P>다음은 유의해야 할 지원되는 지표에서의 변경 내용입니다.<ul><li>[!DNL Target]은 2023년 9월 9일까지의 기존 활동에 대한 이전 동작을 유지했습니다. 이 날짜 이후에는 기존 활동을 새 동작으로 강제 마이그레이션하기 위해 지원되지 않는 지표를 사용하는 활동이 중단됩니다.</li></ul>이 기능과 함께 다음 자습서가 업데이트되었습니다.<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 
-* [!UICONTROL 시각적 경험 작성기] (VEC)를 사용한 사용자 정의 웹 구성 요소 작성에 대한 업데이트:
-
-   * 그림자 루트 작성 시 [!DNL Target] 구현 유형에 의존하지 않도록 작성 프로세스를 개선하여 VEC에서 그림자 DOM 요소 선택이 수정되었습니다. 이제 VEC에서 그림자 DOM 요소를 선택하면 모든 웹 사이트에서 사용할 수 있습니다.
-   * VEC에서 #그림자 DOM을 사용하여 HTML 요소를 로드할 수 없는 문제를 해결했습니다. (TGT-35801)
-   * ShadowDOM을 사용하는 SPA 웹 사이트의 VEC 문제를 해결했습니다. (TGT-43169)
-   * 최적화 목표와 관련된 문제 해결: “요소 클릭”이 ShadowDOM에서 CSS 선택기를 제대로 식별하지 못하는 문제를 해결했습니다.
-
->[!NOTE]
->
->VEC에서 작성된 변경 사항을 게재하려면 버전이 2.8 이상인 [!DNL Target] SDK([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank}(alloy.js))를 사용하고 있는지 확인합니다.
-
-**알려진 문제**: [!DNL Adobe Experience Platform Web SDK]를 사용할 때 그림자 루트 요소의 클릭 추적이 제대로 작동하지 않습니다. (TNT-47012)
+* [!DNL Adobe Experience Platform] 및 [!DNL Adobe Audience Manager]에서 생성된 항목을 [!DNL Target] UI에서 더 빠르게 사용할 수 있도록 대상자 및 활동 동기화가 개선되었습니다. (TGT-44568)
+* 사용자가 [!UICONTROL 관리] > [!UICONTROL 시각적 경험 작성기] > [!UICONTROL 기본 URL]에서 [!UICONTROL 기본 URL]을 제거할 수 있도록 변경되었습니다. 이 변경을 통해 고객은 기본 URL을 빈 문자열로 다시 변경할 수 있게 되었습니다(이전에는 초기 구성 이후 변경할 수 없었음). (TGT-44577)
+* 고객이 기본 제공 대상자(예약된 이름이 있는 대상자)을 편집하거나 삭제할 수 없도록 하는 제한이 제거되었습니다. (TGT-44655)
+* [결합된 대상자](/help/main/c-target/combining-multiple-audiences.md)을 만들 때 회전기가 [!DNL Target] UI에 표시되는 동안 “[!UICONTROL 완료]” 옵션이 비활성화되었습니다. (TGT-44079)
+* [!UICONTROL 대상자] 페이지 하단의 [!UICONTROL 언어] 링크가 “[!UICONTROL 계정 통신 환경 설정]” 페이지로 올바르게 연결되도록 수정되었습니다. (TGT-43562)
+* 때때로 고객이 [!UICONTROL 관리] > [!UICONTROL 보고] > [!UICONTROL Experience Cloud 솔루션 보고]에서 [!UICONTROL Adobe Analytics] 옵션을 선택한 후 [!UICONTROL A/B Test] 테스트를 만들 수 없는 문제가 해결되었습니다. (TGT-44844)
+* 고객이 [!UICONTROL 시각적 경험 작성기] (VEC) 내에서 많은 경험이 포함된 [!UICONTROL 다변량 테스트] 활동의 마지막 경험을 볼 수 없는 문제가 해결되었습니다. 때때로 VEC 하단의 [DOM 경로](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)로 인해 고객이 마지막 경험을 보지 못하는 경우가 있었습니다. (TGT-44578)
+* 페이지에 인증이 필요하거나 페이지에서 리디렉션을 호출하는 경우 VEC의 검색 URL이 일반 브라우저 세션에 표시되는 현재 페이지를 반영하지 않는 문제가 해결되었습니다. (TGT-44350)
+* 고객이 [!UICONTROL 추천] > [!UICONTROL 설정]에서 [!UICONTROL 호환되지 않는 기준 필터링] 설정을 변경하지 못하는 문제가 해결되었습니다. (TGT-44398)
+* 이름에 점이 있는 보고서 세트와 함께 [!UICONTROL Analytics 분류]를 사용할 때 새 [!DNL Recommendations] 피드를 만드는 POST 요청이 발생하는 문제가 해결되었습니다. (TGT-44598)
+* 새로운 [Visual Editing Helper 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)을 가리키도록 [!DNL Target] UI의 링크가 업데이트되었습니다. (TGT-44459)
+* [!DNL Recommendations] 피드에서 SSRF(Server-Side Request Forgery) 시도를 방지하도록 보안이 강화되었습니다. (TGT-43769)
+* 이미지 이름에 [GB18030 문자](https://en.wikipedia.org/wiki/GB_18030){target=_blank}가 포함된 경우 고객이 [!DNL Recommendations] 디자인의 미리보기 이미지를 볼 수 없는 문제가 해결되었습니다. (TGT-44614)
+* 활동의 [!UICONTROL 경험] 페이지에서 [!UICONTROL 텍스트/HTML]을 편집하는 동안 [!UICONTROL 수정]에서 일부 [GB18030 문자](https://en.wikipedia.org/wiki/GB_18030){target=_blank}가 이스케이프되는 문제가 해결되었습니다. (TGT-44600)
+* [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
 
 ## at.js 버전 2.10.2 (2023년 3월 7일)
 
