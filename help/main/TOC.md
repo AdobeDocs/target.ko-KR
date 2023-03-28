@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
+source-git-commit: 807ebc15f78341bb642ce05d040918c7aa8633b2
 workflow-type: tm+mt
-source-wordcount: '1212'
-ht-degree: 98%
+source-wordcount: '1239'
+ht-degree: 95%
 
 ---
 
@@ -94,7 +94,12 @@ ht-degree: 98%
    + Adobe Journey Optimizer와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
-   + [Adobe Experience Manager과 Target 통합](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
+   + Adobe Experience Manager과 Target 통합 {#aem}
+      + [Adobe Experience Manager(AEM)과 Target 통합](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
+      + 경험 조각 및 컨텐츠 조각 {#fragments}
+         + [AEM 경험 구성요소 및 컨텐츠 조각 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM 경험 구성요소](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+         + [AEM 컨텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Adobe Audience Manager와 Target 통합](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Real-time Customer Data Platform과 통합](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Adobe Campaign과 Target 통합](c-integrating-target-with-mac/campaign-and-target.md)
@@ -250,7 +255,7 @@ ht-degree: 98%
       + [라이브러리에서 콘텐츠 작업](c-experiences/c-manage-content/assets-working.md)
       + [콘텐츠 검색](c-experiences/c-manage-content/filter-and-search-content.md)
       + [오퍼에 동적 데이터 전달](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
-      + [AEM 경험 구성요소](c-experiences/c-manage-content/aem-experience-fragments.md)
+      + [AEM 경험 및 컨텐츠 조각](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 보고서 {#reports}
    + [보고서 개요](c-reports/reports.md)
    + 보고서 설정 {#settings}
