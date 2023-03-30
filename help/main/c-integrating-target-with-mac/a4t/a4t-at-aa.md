@@ -4,10 +4,10 @@ description: 만드는 방법 알아보기 [!UICONTROL 자동 할당] 및 [!UICO
 title: A4T 지원 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 9b2439f4f7a36150808aa366972beb85808f75cb
+source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
 workflow-type: tm+mt
-source-wordcount: '1175'
-ht-degree: 6%
+source-wordcount: '1265'
+ht-degree: 8%
 
 ---
 
@@ -56,24 +56,45 @@ A4T 통합을 사용하면 다음 작업을 수행할 수 있습니다.
 
 ## 지원되는 목표 지표 {#supported}
 
-[!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 을 사용하면 최적화를 위한 기본 목표 지표로 다음 지표 유형을 선택할 수 있습니다.
+[!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 다음 지표 유형을 최적화를 위한 기본 목표 지표로 선택할 수 있습니다.
 
 * [!DNL Adobe Target] 전환 지표
 * [!DNL Adobe Analytics] 전환 지표
 * [!DNL Adobe Analytics]사용자 지정 이벤트 개
 
-[!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 을 사용하려면 이진 이벤트를 기반으로 하는 지표를 선택해야 합니다. 이항 이벤트는 발생하지 않거나 발생하지 않습니다. 이항 이벤트에는 클릭, 전환, 주문 등이 포함됩니다. 이러한 유형의 이벤트는 경우에 따라 베르누이, 이진 또는 개별 이벤트라고도 합니다.
+[!DNL Target]을 사용하면 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 [!UICONTROL A4T]를 사용할 때 이항 이벤트 또는 연속 이벤트를 기반으로 지표를 선택할 수 있습니다.
 
-[!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 은 연속 지표에 대한 최적화를 지원하지 않습니다. 연속 지표에는 매출, 주문한 제품 수, 세션 기간, 세션 중의 페이지 보기 수 등이 포함됩니다. 이러한 지원되지 않는 유형의 지표는 비바인더 또는 비베른울리 지표라고도 합니다.
+* **이진 이벤트 기반 지표**: 이항 이벤트는 발생하지 않거나 발생하지 않습니다. 이항 이벤트에는 클릭, 전환, 주문 등이 포함됩니다. 이러한 유형의 이벤트는 경우에 따라 베르누이, 이진 또는 개별 이벤트라고도 합니다.
 
-다음 지표 유형은 기본 목표 지표로 지원되지 않습니다.
+* **연속 이벤트 기반 지표**. 연속 지표에는 매출, 주문한 제품 수, 세션 기간, 세션 중의 페이지 보기 수 등이 포함됩니다. 이러한 유형의 이벤트를 비이방 또는 베르누이 외 지표라고도 합니다.
 
-* [!DNL Adobe Target] 참여 및 매출 지표
-* [!DNL Adobe Analytics] 참여 및 매출 지표
+>[!IMPORTANT]
+>
+>기준 [!DNL Adobe Target Standard/Premium] 22.15.1 릴리스(2023년 3월 8일 및 9일), [!DNL Target] 현재 지원되지 않는 지표(다음 표에 나열됨)로 기존 활동을 계속 지원합니다. 하지만 2023년 9월 9일 이후에는 기존 활동에서 이러한 지표가 더 이상 지원되지 않으며, 지원되지 않는 지표를 사용하는 모든 활동은 새로운 동작으로 기존 활동 마이그레이션을 강제 적용하기 위해 중단됩니다.
 
-   을(를) 선택할 수 있습니다 [!DNL Analytics] 참여 또는 매출 지표를 기본 목표 지표로 사용하는 이유 [!DNL Target] 모든 참여 및 매출 지표를 [!DNL Analytics]. 에서 이진 전환 지표나 사용자 지정 이벤트만 선택합니다 [!DNL Analytics].
+### 영향 [!UICONTROL 자동 할당] 활동
 
-* [!DNL Adobe Analytics] 계산된 지표
+| 지표 이름 | 다음에서 더 이상 지원되지 않음: |
+| --- | --- |
+| [!UICONTROL averagephagedepth] | 전환율, 지표 값 최대화 |
+| [!UICONTROL averagetimespentonsite] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 바운스] | 전환율, 지표 값 최대화 |
+| [!UICONTROL bounces] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 시작] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 종료] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 페이지 보기 수] | 지표 값 최대화 |
+| [!UICONTROL 다시 로드] | 지표 값 최대화 |
+| [!UICONTROL 방문자 수] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 방문 횟수] | 지표 값 최대화 |
+
+### 영향 [!UICONTROL 자동 Target] 활동
+
+| 지표 이름 | 다음에서 더 이상 지원되지 않음: |
+| --- | --- |
+| [!UICONTROL 카르트르모빌] | 지표 값 최대화 |
+| [!UICONTROL 페이지 보기 수] | 지표 값 최대화 |
+| [!UICONTROL 방문자 수] | 전환율, 지표 값 최대화 |
+| [!UICONTROL 방문 횟수] | 지표 값 최대화 |
 
 ## 제한과 참고 사항
 
