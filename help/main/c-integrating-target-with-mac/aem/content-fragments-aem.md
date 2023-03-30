@@ -1,24 +1,25 @@
 ---
-keywords: 경험;json;aem;adobe experience manager;adobe target으로 내보내기;컨텐츠 조각;조각;CF;cf
+keywords: 경험;json;aem;adobe experience manager;adobe target으로 내보내기;컨텐츠 조각;조각;CF;cf;헤드리스;개인화;실험
 description: 사용 방법 알아보기 [!DNL Adobe Experience Manager] [!UICONTROL 컨텐츠 조각] in [!DNL Adobe Target] 활동.
 title: 사용 방법 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 컨텐츠 조각]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 2%
+source-wordcount: '760'
+ht-degree: 3%
 
 ---
 
 # AEM [!UICONTROL 컨텐츠 조각]
 
-사용 [!UICONTROL 컨텐츠 조각] (CF를에서 생성) [!DNL Adobe Experience Manager] (AEM)에서 [!DNL Target] 최적화 또는 개인화를 지원하기 위한 활동.
+사용 [!UICONTROL 컨텐츠 조각] (CF를에서 생성) [!DNL Adobe Experience Manager] (AEM)에서 [!DNL Target] 헤드리스 개인화 및 실험을 지원하기 위한 활동.
+
+Headless 개인화 및 실험을 위한 AEM 콘텐츠 조각
 
 >[!NOTE]
 >
 >이 기능은 2023년 4월 6일에 릴리스될 예정입니다.
-
 
 >[!NOTE]
 >
