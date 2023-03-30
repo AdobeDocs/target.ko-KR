@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b9dd74e40e1c7a4eeafc749aca585aa538511c70
+source-git-commit: cf82c6cc75dfe42b002cf6d8e17287cb11704870
 workflow-type: tm+mt
-source-wordcount: '35989'
+source-wordcount: '35947'
 ht-degree: 96%
 
 ---
@@ -30,10 +30,6 @@ ht-degree: 96%
 * **3월 8일**: 아메리카 지역
 * **3월 9일**: 유럽, 중동 및 아프리카(EMEA) 지역
 * **3월 9일**: 아시아 태평양(APAC) 지역
-
->[!NOTE]
->
->이후 수정된 문제로 인해 3월 8일과 9일에 출시된 “[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅]에 최적화된 A4T 지표” 기능이 일시적으로 제거되었습니다. 추가 내부 테스트를 거친 후, 몇 주 내에 이 기능이 다시 출시될 예정입니다.
 
 이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
