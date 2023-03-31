@@ -5,9 +5,9 @@ title: 권장 사항 키를 기반으로 권장 사항을 제공하려면 어떻
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
+source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3999'
 ht-degree: 37%
 
 ---
@@ -164,7 +164,11 @@ ht-degree: 37%
 
 ### 항목별 최상위 판매자 속성
 
-(정보 준비 중)
+사이트에서 가장 많이 구매한 항목 또는 미디어와 유사한 항목 또는 미디어를 권장합니다.
+
+이 알고리즘을 사용하면 추천의 기반이 되는 항목 속성(예: &quot;이름&quot; 또는 &quot;브랜드&quot;)을 선택할 수 있습니다.
+
+그런 다음 일치시킬 방문자 프로필에 저장된 프로필 속성(예: &quot;Favorite Brand&quot;, &quot;Last Item Added to Cart&quot; 또는 &quot;Most Viewed Show&quot;)을 선택합니다.
 
 ### Analytics 지표별 상위
 
