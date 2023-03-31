@@ -4,9 +4,9 @@ description: ' [!DNL Analytics] for [!DNL Target] (A4T)을 사용하여 [!DNL An
 title: ' [!DNL Analytics] for [!DNL Target] (A4T)이란 무엇입니까?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
-source-wordcount: '1140'
+source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
+workflow-type: tm+mt
+source-wordcount: '1131'
 ht-degree: 100%
 
 ---
@@ -58,7 +58,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 |--- |--- |--- |
 | [수동 트래픽 분할을 사용하는 A/B 활동](/help/main/c-activities/t-test-ab/test-ab.md) | 예 |  |
 | [자동 할당을 사용하는 A/B 활동](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 예 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. |
-| [자동 타겟을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 예 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. |
+| [자동 타겟을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 아니요 |  |
 | [경험 타기팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |  |
 | [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 | [!UICONTROL 요소 기여도] 보고서를 가져오려면 mbox 기반 목표 지표가 필요합니다. [!UICONTROL 요소 기여도] 보고서는 현재 [!DNL Analytics] 지표를 지원하지 않습니다. |
 | [자동화된 개인화(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |  |
