@@ -1,13 +1,13 @@
 ---
 keywords: 시스템 업데이트;문제 해결;유지 관리;시스템 상태;상태 업데이트
-description: Adobe  [!DNL Target] 의 현재 상태를 보고 시스템 업데이트 또는 일상적인 유지 관리로 인해 발생할 수 있는 문제를 확인할 수 있습니다.
-title: ' [!DNL Target]  및 기타 Adobe 제품의 상태를 볼 수 있는 곳은 어디입니까?'
+description: 상태 보기 [!DNL Adobe Target] 발생할 수 있는 문제가 시스템 업데이트 또는 일상적인 유지 관리로 인한 문제인지를 확인하는 데 도움이 됩니다.
+title: 어디에서 상태를 볼 수 있습니까? [!DNL Target] 및 기타 [!DNL Adobe] 제품?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 64%
 
 ---
 
@@ -17,25 +17,23 @@ ht-degree: 100%
 
 ## 시스템 상태 업데이트
 
-[!DNL Target] 및 기타 [!DNL Adobe] 제품과 [!DNL Adobe Experience Cloud] 솔루션의 현재 상태를 보려면 [!UICONTROL Adobe 시스템 상태] 페이지를 사용하십시오. 이 페이지는 발생할 수 있는 문제가 시스템 업데이트 또는 일상적인 유지 관리로 인한 문제인지를 확인하는 데 도움이 됩니다.
+를 사용하십시오 [!UICONTROL Adobe 시스템 상태] 페이지의 상태를 볼 수 있습니다. [!DNL Target] 및 기타 [!DNL Adobe] 제품 및 [!DNL Adobe Experience Cloud] 솔루션. 이 페이지는 발생할 수 있는 문제가 시스템 업데이트 또는 일상적인 유지 관리로 인한 문제인지를 확인하는 데 도움이 됩니다.
 
-다음 URL로 이동하여 [!UICONTROL 시스템 상태] 페이지에 액세스합니다.
+>[!NOTE]
+>
+>월별 [!DNL Target] 릴리스 동안 항상 제품 내 알림이 표시되지만 때때로 작은 업데이트가 진행되며 이 페이지에 표시됩니다.
 
-[https://status.adobe.com](https://status.adobe.com)
+1. 액세스 권한 [[!UICONTROL 시스템 상태]](https://status.adobe.com/){target=_blank}.
 
-[!DNL Target]을 포함한 [!DNL Experience Cloud] 솔루션의 상태를 보려면 [!UICONTROL Experience Cloud] 탭을 클릭하십시오.
+1. [!DNL Target]을 포함한 [!DNL Experience Cloud] 솔루션의 상태를 보려면 [!UICONTROL Experience Cloud] 탭을 클릭하십시오.
 
-![system_status 이미지](assets/system_status.png)
+   ![system_status 이미지](assets/system_status.png)
 
-페이지 맨 위에는 진행 중인 유지보수 이벤트에 대한 정보가 포함되며 개별 솔루션 업데이트를 구독하는 링크가 제공됩니다.
+   페이지 맨 위에는 진행 중인 유지 관리 이벤트에 대한 정보가 포함되어 있으며 개별 솔루션에 대한 업데이트를 위한 구독을 관리하는 링크가 포함되어 있습니다.
 
-위의 그림에서 [!DNL Adobe Analytics], [!DNL Adobe Target] 및 [!DNL Adobe Campaign] 은 유지 관리 업데이트를 수행하고 있었습니다. 다른 모든 제품 및 솔루션은 정상적으로 작동하고 있었습니다. [!DNL Target]을 사용할 때 문제가 발생하는 경우 항상 이 페이지를 확인하는 것이 좋습니다.
+   위의 그림에서 [!DNL Adobe Advertising], [!DNL Adobe Analytics], 및 [!DNL Adobe Audience Manager] 및 기타 솔루션은 최근 유지보수 업데이트를 완료했습니다. 다른 모든 제품 및 솔루션은 정상적으로 작동하고 있었습니다. [!DNL Target]을 사용할 때 문제가 발생하는 경우 항상 이 페이지를 확인하는 것이 좋습니다.
 
-월별 [!DNL Target] 릴리스 동안 항상 제품 내 알림이 표시되지만 때때로 작은 업데이트가 진행되며 이 페이지에 표시됩니다.
-
-페이지 하단에는 최근 7일의 캘린더가 포함되며 매일 각 솔루션의 상태를 나타냅니다. 자세한 정보를 확인하려면 상태 표시기 위에 마우스를 두십시오.
-
-![system_status_indicator 이미지](assets/system_status_indicator.png)
+1. (선택 사항) 제품, 지역 또는 날짜 범위별로 목록을 필터링합니다. 을(를) 클릭합니다. [!UICONTROL 주요], [!UICONTROL Minor], [!UICONTROL 잠재적], 또는 [!UICONTROL 유지 관리] 결과를 추가로 필터링하는 링크.
 
 ## 사전 알림
 
