@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 8af339769c00f30c0a2e900eca6759d5936e1936
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -45,8 +45,6 @@ ht-degree: 96%
 * 이름에 점이 있는 보고서 세트와 함께 [!UICONTROL Analytics 분류]를 사용할 때 새 [!DNL Recommendations] 피드를 만드는 POST 요청이 발생하는 문제가 해결되었습니다. (TGT-44598)
 * 새로운 [Visual Editing Helper 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)을 가리키도록 [!DNL Target] UI의 링크가 업데이트되었습니다. (TGT-44459)
 * [!DNL Recommendations] 피드에서 SSRF(Server-Side Request Forgery) 시도를 방지하도록 보안이 강화되었습니다. (TGT-43769)
-* 이미지 이름에 [GB18030 문자](https://en.wikipedia.org/wiki/GB_18030){target=_blank}가 포함된 경우 고객이 [!DNL Recommendations] 디자인의 미리보기 이미지를 볼 수 없는 문제가 해결되었습니다. (TGT-44614)
-* 활동의 [!UICONTROL 경험] 페이지에서 [!UICONTROL 텍스트/HTML]을 편집하는 동안 [!UICONTROL 수정]에서 일부 [GB18030 문자](https://en.wikipedia.org/wiki/GB_18030){target=_blank}가 이스케이프되는 문제가 해결되었습니다. (TGT-44600)
 * [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
 
 ## at.js 버전 2.10.2 (2023년 3월 7일)
