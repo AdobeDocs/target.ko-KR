@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 95%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 95%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 4월 3일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 에 대한 정보가 추가되었습니다 [!UICONTROL Adobe Target 커뮤니티] 2023년 4월 12일 수요일로 예정된 커피 브레이크. |
+|  | [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 모두허용 목록에 추가하다에 참고가 추가되었습니다 [!DNL Adobe Analytics] IP 주소 블록. |
 | 3월 30일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 다음에 대한 최적화된 A4T 지표 릴리스에 대한 릴리스 노트를 업데이트했습니다 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 사용 시 연속적인 이벤트를 기반으로 한 지표나 이진 이벤트를 기반으로 지표를 선택할 수 있는 기능입니다 [!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동. |
 |  | [[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | 지원되는(및 지원되지 않는) 지표에 대한 정보를 포함하도록 &quot;지원되는 목표 지표&quot; 섹션을 업데이트했습니다 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 를 사용하여 [!UICONTROL Target 분석] (A4T) |
 |  | [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 다음 자습서가 업데이트되었습니다.<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
