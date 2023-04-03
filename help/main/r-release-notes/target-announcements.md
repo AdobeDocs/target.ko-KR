@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)에 대한 Mag
 ## [!UICONTROL Adobe Target 커뮤니티] Q&amp;A 커피 브레이크
 
 * **2023년 4월 12일 수요일**
-* **8:00~9:00 (PDT, GMT-7)
+* **오전 8시~9시 (PDT, GMT-7)**
 * **[등록 정보](https://adobe.ly/42gQGfv){target=_blank}**
 
 Matthew Weilie와 Georgia Frailey에 참여하십시오. 두 회사 모두 [!DNL Adobe Target]와 대화를 나눌 수 있는 [!DNL Adobe Target] 관련 질문 [!DNL Target] AI 기능, 특히 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 Target].
