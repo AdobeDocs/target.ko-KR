@@ -12,15 +12,15 @@ ht-degree: 100%
 
 # (AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요
 
-[!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 생성된 [!UICONTROL 경험 조각](XF) 및 [!UICONTROL 콘텐츠 조각](CF)을 사용하여 최적화 또는 개인화를 지원할 수 있습니다.
+[!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 생성된 [!UICONTROL 경험 조각] (XF) 및 [!UICONTROL 콘텐츠 조각] (CF)을 사용하여 최적화 또는 개인화를 지원할 수 있습니다.
 
 >[!NOTE]
 >
 >[!DNL Target]에서 AEM [!UICONTROL 경험 조각] and [!UICONTROL Content Fragments]을 사용하여 작업할 때 고려할 사항:
 > 
->* 이 기능을 사용하려면 [!DNL Adobe Experience Manager](AEM) 고객이어야 합니다. 각 조각 유형에 대한 요구 사항을 충족하는지 확인: [경험 조각](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) 또는 [콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
+>* 이 기능을 사용하려면 [!DNL Adobe Experience Manager] (AEM) 고객이어야 합니다. 각 조각 유형에 대한 요구 사항을 충족하는지 확인: [경험 조각](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) 또는 [콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
 >
->* 이 기능을 사용할 수 있는 활동 유형: [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당], [!UICONTROL 자동 타겟팅], [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL 경험 타겟팅](XT). 이 기능은 [!UICONTROL 다변량 테스트](MVT) 및 [!UICONTROL Recommendations] 활동에서 사용할 수 없습니다.
+>* 이 기능을 사용할 수 있는 활동 유형: [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당], [!UICONTROL 자동 타겟팅], [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 경험 타겟팅] (XT). 이 기능은 [!UICONTROL 다변량 테스트] (MVT) 및 [!UICONTROL Recommendations] 활동에서 사용할 수 없습니다.
 >* [시각적 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC) 또는 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 경험 조각]을 사용할 수 있습니다.
 >
 >* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다.
@@ -38,4 +38,4 @@ ht-degree: 100%
 
 [!DNL Adobe Experience Manager] [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]은 겉보기에 비슷해 보이나, 각 조각 유형은 다양한 사용 사례에서 중요한 역할을 합니다.
 
-[!UICONTROL 콘텐츠 조각]과 [!UICONTROL 경험 조각]의 유사성과 차이점 및 각각의 사용 시기와 방법에 대한 자세한 내용은 [[!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank} in the [AEM Sites videos and tutorials guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank} 이해를 참조하십시오.
+[!UICONTROL 콘텐츠 조각]과 [!UICONTROL 경험 조각]의 유사성과 차이점 및 각각의 사용 시기와 방법에 대한 자세한 내용은 [[!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target="_blank"} in the [AEM Sites videos and tutorials guide](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target="_blank"} 이해를 참조하십시오.

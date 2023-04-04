@@ -11,8 +11,8 @@ ht-degree: 100%
 
 ---
 
-# [!DNL Target]을 [!DNL Adobe Experience Manager](AEM)와 통합
+# [!DNL Target]을 [!DNL Adobe Experience Manager] (AEM)와 통합
 
-[!DNL Adobe Target]/[!DNL Adobe Experience Manager](AEM) 통합을 통해 [!DNL Target] 활동의 AEM에서 생성된 [!UICONTROL 경험 조각](XF) 및 [!UICONTROL 콘텐츠 조각](CF)을 사용하여 최적화 또는 개인화를 지원할 수 있습니다.
+[!DNL Adobe Target]/[!DNL Adobe Experience Manager] (AEM) 통합을 통해 [!DNL Target] 활동의 AEM에서 생성된 [!UICONTROL 경험 조각] (XF) 및 [!UICONTROL 콘텐츠 조각] (CF)을 사용하여 최적화 또는 개인화를 지원할 수 있습니다.
 
 자세한 내용은 [AEM 경험 조각 및 콘텐츠 조각 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)를 참조하십시오.
