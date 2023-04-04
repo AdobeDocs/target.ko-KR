@@ -39,7 +39,7 @@ ht-degree: 87%
 * [결합된 대상자](/help/main/c-target/combining-multiple-audiences.md)을 만들 때 회전기가 [!DNL Target] UI에 표시되는 동안 “[!UICONTROL 완료]” 옵션이 비활성화되었습니다. (TGT-44079)
 * [!UICONTROL 대상자] 페이지 하단의 [!UICONTROL 언어] 링크가 “[!UICONTROL 계정 통신 환경 설정]” 페이지로 올바르게 연결되도록 수정되었습니다. (TGT-43562)
 * 때때로 고객이 [!UICONTROL 관리] > [!UICONTROL 보고] > [!UICONTROL Experience Cloud 솔루션 보고]에서 [!UICONTROL Adobe Analytics] 옵션을 선택한 후 [!UICONTROL A/B Test] 테스트를 만들 수 없는 문제가 해결되었습니다. (TGT-44844)
-* 고객이 [!UICONTROL 시각적 경험 작성기] (VEC) 내에서 많은 경험이 포함된 [!UICONTROL 다변량 테스트] 활동의 마지막 경험을 볼 수 없는 문제가 해결되었습니다. 때때로 VEC 하단의 [DOM 경로](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)로 인해 고객이 마지막 경험을 보지 못하는 경우가 있었습니다. (TGT-44578)
+* 고객이 [!UICONTROL 시각적 경험 작성기](VEC) 내에서 많은 경험이 포함된 [!UICONTROL 다변량 테스트] 활동의 마지막 경험을 볼 수 없는 문제가 해결되었습니다. 때때로 VEC 하단의 [DOM 경로](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)로 인해 고객이 마지막 경험을 보지 못하는 경우가 있었습니다. (TGT-44578)
 * 페이지에 인증이 필요하거나 페이지에서 리디렉션을 호출하는 경우 VEC의 검색 URL이 일반 브라우저 세션에 표시되는 현재 페이지를 반영하지 않는 문제가 해결되었습니다. (TGT-44350)
 * 고객이 [!UICONTROL 추천] > [!UICONTROL 설정]에서 [!UICONTROL 호환되지 않는 기준 필터링] 설정을 변경하지 못하는 문제가 해결되었습니다. (TGT-44398)
 * POST 요청이 [!DNL Recommendations] 을 사용할 때 피드가 실패합니다 [!UICONTROL Analytics 분류] 이름에 점이 있는 보고서 세트 포함. (TGT-44598)
