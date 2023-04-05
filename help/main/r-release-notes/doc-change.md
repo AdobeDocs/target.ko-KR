@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 95%
+source-wordcount: '2336'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 95%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 4월 5일 | [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 다음을 나타내는 텍스트가 추가되었습니다 [!UICONTROL 보고 소스로서의 Analytics] (A4t)는 오퍼 결정을 사용하는 활동에서 지원되지 않습니다. |
 | 4월 3일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 에 대한 정보가 추가되었습니다 [!UICONTROL Adobe Target 커뮤니티] 2023년 4월 12일 수요일로 예정된 커피 브레이크. |
 |  | [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 모두허용 목록에 추가하다에 참고가 추가되었습니다 [!DNL Adobe Analytics] IP 주소 블록. |
 | 3월 30일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 다음에 대한 최적화된 A4T 지표 릴리스에 대한 릴리스 노트를 업데이트했습니다 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 사용 시 연속적인 이벤트를 기반으로 한 지표나 이진 이벤트를 기반으로 지표를 선택할 수 있는 기능입니다 [!UICONTROL A4T] 대상 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동. |
