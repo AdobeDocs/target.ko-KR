@@ -5,9 +5,9 @@ title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '1890'
+ht-degree: 100%
 
 ---
 
@@ -27,7 +27,7 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)에 대한 Mag
 * **오전 8시~9시 (PDT, GMT-7)**
 * **[등록 정보](https://adobe.ly/42gQGfv){target=_blank}**
 
-Matthew Weilie와 Georgia Frailey에 참여하십시오. 두 회사 모두 [!DNL Adobe Target]와 대화를 나눌 수 있는 [!DNL Adobe Target] 관련 질문 [!DNL Target] AI 기능, 특히 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 Target].
+[!DNL Adobe Target]의 선임 솔루션 컨설턴트인[!DNL Adobe Target] Matthew Bailie와 Georgia Frailey와 함께 [!DNL Target]AI 기능, 특히 [!UICONTROL 자동화된 개인화] 및 [!UICONTROL 자동 타겟팅 ]에 대해서 알아보세요.
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
