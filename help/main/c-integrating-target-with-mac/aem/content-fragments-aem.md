@@ -1,19 +1,19 @@
 ---
-keywords: 경험;json;aem;adobe experience manager;adobe target에 내보내기;콘텐츠 조각;조각;CF;cf헤드리스;개인화;실험
+keywords: 경험;json;aem;adobe experience manager;adobe target에 내보내기;콘텐츠 조각;조각;CF;cf;headless;personalization;experimentation
 description: ' [!DNL Adobe Target] 활동에서  [!DNL Adobe Experience Manager] [!UICONTROL 콘텐츠 조각]을 사용하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
+source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
 workflow-type: tm+mt
 source-wordcount: '760'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
 # AEM [!UICONTROL 콘텐츠 조각]
 
-사용 [!UICONTROL 컨텐츠 조각] (CF를에서 생성) [!DNL Adobe Experience Manager] (AEM)에서 [!DNL Target] 헤드리스 개인화 및 실험을 지원하기 위한 활동.
+Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 생성된 [!UICONTROL 콘텐츠 조각]을 사용합니다.
 
 Headless 개인화 및 실험을 위한 AEM 콘텐츠 조각
 
@@ -42,9 +42,9 @@ AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자�
 
 ## [!DNL AEM]에서 [!UICONTROL 콘텐츠 조각] 구성 및 작업 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-[!DNL Target] 활동에서 사용하기 위해 [!UICONTROL 콘텐츠 조각]을 내보내려면 AEM에서 몇 가지 예비 단계를 수행해야 합니다. 자세한 내용은 *Experience Manager as a Cloud Service 설명서*&#x200B;의 [Adobe Target으로 콘텐츠 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}를 참조하십시오. 이 링크는 출시일(2023년 4월 6일)에 사용할 수 있습니다.
+[!DNL Target] 활동에서 사용하기 위해 [!UICONTROL 콘텐츠 조각]을 내보내려면 AEM에서 몇 가지 예비 단계를 수행해야 합니다. 자세한 내용은 *Experience Manager as a Cloud Service 설명서*&#x200B;의 [Adobe Target으로 콘텐츠 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}를 참조하십시오. 이 링크는 출시일(2023년 4월 12일)에 사용할 수 있습니다.
 
-[!UICONTROL 콘텐츠 조각]의 디자인, 생성, 조정 및 게시에 대한 내용은 [[!UICONTROL 콘텐츠 조각]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=en){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}을 참조하십시오.
+[!UICONTROL 콘텐츠 조각]의 디자인, 생성, 조정 및 게시에 대한 내용은 [[!UICONTROL 콘텐츠 조각]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ko){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}을 참조하십시오.
 
 ## [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각] 사용 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
