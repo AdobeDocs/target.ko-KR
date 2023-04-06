@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] 활동에서  [!DNL Adobe Experience Manager]
 title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 100%
@@ -19,7 +19,7 @@ Headless 개인화 및 실험을 위한 AEM 콘텐츠 조각
 
 >[!NOTE]
 >
->이 기능은 2023년 4월 6일에 출시될 예정입니다.
+>이 기능은 2023년 4월 12일에 출시될 예정입니다.
 
 >[!NOTE]
 >
