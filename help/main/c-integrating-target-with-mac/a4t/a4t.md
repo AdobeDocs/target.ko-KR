@@ -1,11 +1,11 @@
 ---
 keywords: A4T;Analytics;Analytics for Target;Analytics 보고 소스;Target용 보고 소스로서의 Adobe Analytics;atjs;at.js;Adobe Experience Platform Web SDK;Platform Web SDK;Platform SDK
-description: ' [!DNL Analytics] for [!DNL Target] (A4T)을 사용하여 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 생성하고 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다.'
+description: ' [!DNL Analytics] for [!DNL Target] (A4T)을 사용하여 [!DNL Analytics] 전환 지표 및 대상자 세그먼트를 기반으로 하는 활동을 생성하고 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다.'
 title: ' [!DNL Analytics] for [!DNL Target] (A4T)이란 무엇입니까?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1131'
 ht-degree: 100%
 
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # [!DNL Adobe Target]용 보고 소스로서의 [!DNL Adobe Analytics] (A4T)
 
-[!DNL Adobe Analytics for Target] (A4T)은 [!DNL Analytics] 전환 지표 및 대상 세그먼트를 기반으로 하는 활동을 생성할 수 있는 솔루션 간 통합입니다. A4T 통합을 통해 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다. 활동용 보고 소스로서의 [!DNL Analytics]를 사용하는 경우 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
+[!DNL Adobe Analytics for Target](A4T)은 [!DNL Analytics] 전환 지표 및 대상자 세그먼트를 기반으로 하는 활동을 생성할 수 있는 솔루션 간 통합입니다. A4T 통합을 통해 [!DNL Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다. 활동용 보고 소스로서의 [!DNL Analytics]를 사용하는 경우 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics] 데이터 수집을 기반으로 합니다.
 
 ## 개요 {#section_92B66069210C40DBA937790E8CC596CF}
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 활동용 보고 소스로서의 [!DNL Analytics]를 사용하는 경우 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics]를 기반으로 합니다.
 
-계산된 지표를 포함하여 모든 [!DNL Analytics] 지표는 한 가지 예외를 제외하고 [!DNL Target] 및 [!DNL Analytics]의 [!UICONTROL Target 활동] 보고서에서 사용할 수 있습니다. [!UICONTROL 상승도 및 신뢰도]에 대한 계산된 지표는 지원되지 않습니다. 마찬가지로 [!DNL Analytics]에서 사용할 수 있는 모든 세그먼트를 각 솔루션에 적용할 수 있습니다. 활동이 시작된 후 또는 활동이 완료된 후 [!DNL Target]의 보고서에 지표 또는 대상을 적용할 수 있습니다.
+계산된 지표를 포함하여 모든 [!DNL Analytics] 지표는 한 가지 예외를 제외하고 [!DNL Target] 및 [!DNL Analytics]의 [!UICONTROL Target 활동] 보고서에서 사용할 수 있습니다. [!UICONTROL 상승도 및 신뢰도]에 대한 계산된 지표는 지원되지 않습니다. 마찬가지로 [!DNL Analytics]에서 사용할 수 있는 모든 세그먼트를 각 솔루션에 적용할 수 있습니다. 활동이 시작된 후 또는 활동이 완료된 후 [!DNL Target]의 보고서에 지표 또는 대상자를 적용할 수 있습니다.
 
 [!DNL Analytics]에 내장된 사용자 지정 또는 계산된 지표 등 모든 지표가 포함됩니다.
 
@@ -59,7 +59,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 | [수동 트래픽 분할을 사용하는 A/B 활동](/help/main/c-activities/t-test-ab/test-ab.md) | 예 |  |
 | [자동 할당을 사용하는 A/B 활동](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 예 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. |
 | [자동 타겟을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 아니요 |  |
-| [경험 타기팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |  |
+| [경험 타겟팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |  |
 | [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 | [!UICONTROL 요소 기여도] 보고서를 가져오려면 mbox 기반 목표 지표가 필요합니다. [!UICONTROL 요소 기여도] 보고서는 현재 [!DNL Analytics] 지표를 지원하지 않습니다. |
 | [자동화된 개인화(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |  |
 | [권장 사항 활동](/help/main/c-recommendations/recommendations.md) | 예 |  |
@@ -81,7 +81,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 
 ![a4t_report_graph1 이미지](assets/a4t_report_graph1.png)
 
-다음 그림은 사용 가능한  대상을 표시하는 [!UICONTROL 대상] 드롭다운 목록과 함께 A4T 보고서의 [!DNL Analytics]그래프 보기를 보여 줍니다.
+다음 그림은 사용 가능한  대상자를 표시하는 [!UICONTROL 대상자] 드롭다운 목록과 함께 A4T 보고서의 [!DNL Analytics]그래프 보기를 보여 줍니다.
 
 ![a4t_report_graph2 이미지](assets/a4t_report_graph2.png)
 
@@ -118,7 +118,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 * Analytics에서 사용할 이상적인 보고서에 대해 알아보기
 * A4T와 관련된 일반적인 질문에 대한 답변
 
-[Analytics/Target 통합(A4T) 운영 시간](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target 통합(A4T) 운영 시간](https://helpx.adobe.com/kr/customer-care-office-hours/target/analytics-target-A4T-integration.html)
 
 >[!MORELIKETHIS]
 >
