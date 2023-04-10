@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
 workflow-type: tm+mt
-source-wordcount: '1230'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -85,7 +85,6 @@ ht-degree: 96%
          + [리디렉션 오퍼 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
          + [상승도 및 신뢰도 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [지표 정의 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
-         + [부풀려진 방문 및 방문자 카운트 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [분류 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [지표, 대상 및 보고서 공유 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)

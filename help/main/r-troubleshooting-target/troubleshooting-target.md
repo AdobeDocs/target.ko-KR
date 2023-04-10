@@ -1,13 +1,13 @@
 ---
-keywords: target 문제 해결;target 문제해결
+keywords: target 문제 해결;target 문제 해결;문제 해결
 description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용한 주제를 포함하여 Adobe Target의 문제를 해결하는 데 도움이 되는 주제 목록을 검토하십시오.
 title: Target 문제를 해결하려면 어떻게 합니까?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -69,7 +69,6 @@ ht-degree: 88%
    * [상승도 및 신뢰도 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
    * [지표 정의 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
    * [지표, 세그먼트 및 보고서 공유 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
-   * [부풀려진 방문 및 방문자 카운트 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
    * [분류 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
