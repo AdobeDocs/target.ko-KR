@@ -4,9 +4,9 @@ description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용�
 title: Target 문제를 해결하려면 어떻게 합니까?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '503'
 ht-degree: 88%
 
 ---
@@ -62,7 +62,6 @@ ht-degree: 88%
 * [Analytics와 Target의 통합 문제 해결](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다. [Adobe Target용 보고 소스로서의 Adobe Analytics (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
 * A4T FAQ(자주 묻는 질문)
-   * [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [초기 사용 권한 제공 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [보고서 보기 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)

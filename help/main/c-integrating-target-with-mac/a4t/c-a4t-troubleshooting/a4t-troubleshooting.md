@@ -4,10 +4,10 @@ description: 고객이 Analytics for [!DNL Target] (A4T)을 사용할 때 경험
 title: Analytics 및 [!DNL Target] 통합 문제를 해결하는 방법(A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '987'
-ht-degree: 100%
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->경우에 따라 분류가 완료되지 않은 새 활동이 추가되어 데이터가 보고서에 올바르게 표시되지만 “지정되지 않음”으로 되돌아갈 수 있습니다. 일반적으로 첫 번째 저장 후 보고서를 분류하는 데 24~72시간이 소요된다는 점을 기억하십시오.
+>때로 데이터가 보고서에 올바로 표시되지만, 분류를 완료하지 않은 새 활동이 추가되었기 때문에 &quot;지정되지 않음&quot;으로 다시 되돌려집니다. 일반적으로 첫 번째 저장 후 보고서를 분류하는 데 24~72시간이 소요된다는 점을 기억하십시오.
 >
 >&quot;지정되지 않음&quot;으로 나열된 경우 데이터는 손실되지 않으며, 분류가 실행된 후 적절한 활동이나 경험에 적절하게 할당됩니다.
 
@@ -43,15 +43,11 @@ ht-degree: 100%
 
 데이터와 함께 표시하기 위해 사용하는 지표에 따라 보고서에 “[!UICONTROL 지정되지 않음]” 이벤트 행이 표시될 수 있습니다.
 
-일반적으로 이 행은 보고서에서 [!DNL Target] 관련 지표가 아닌 일반 지표(예: [!UICONTROL 페이지 조회수], [!UICONTROL 방문 횟수], [!UICONTROL 고유 방문자 수] 등)를 선택하는 경우 표시됩니다. 이 경우 [!UICONTROL “지정되지 않음”] 행에는 [!DNL Target] 활동과 관련이 없는 모든 [!UICONTROL 페이지 조회수], [!UICONTROL 방문 횟수] 및 [!UICONTROL 고유 방문자 수]가 포함됩니다.
+일반적으로 이 행은 보고서에서 [!DNL Target] 관련 지표가 아닌 일반 지표(예: [!UICONTROL 페이지 조회수], [!UICONTROL 방문 횟수], [!UICONTROL 고유 방문자 수] 등)를 선택하는 경우 표시됩니다. 이 경우 [!UICONTROL &quot;지정되지 않음&quot;] 행에는 모든 항목이 포함됩니다 [!UICONTROL 페이지 보기 수], [!UICONTROL 방문 횟수], 및 [!UICONTROL 고유 방문자 수] 와 연관되지 않음 [!DNL Target] 활동.
 
-이 행에는 [!DNL Target] 관련 정보가 포함되지 않습니다(예: 방문자 수, 방문 횟수 또는 노출 횟수 없음). 자세한 내용은 *Analytics 기술 노트*&#x200B;에서 [보고의 “지정되지 않음“, “없음“, “기타“ 및 “알 수 없음“](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ko)을 참조하십시오.
+저 행에는 아무 것도 없어요 [!DNL Target]-관련 정보(예: 방문자, 방문 또는 노출 횟수 없음) 자세한 내용은 [보고의 &quot;지정되지 않음&quot;, &quot;없음&quot;, &quot;기타&quot; 및 &quot;알 수 없음&quot;](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ko) 에서 *Analytics 기술 노트*.
 
-보고서에서 [!DNL Target] 관련 지표를 선택하는 경우 이 [!UICONTROL “지정되지 않음“] 행이 표시되지 않습니다. 이를 보고서에 포함시키지 않는 유일한 방법은 해당 페이지에서 전송된 모든 요청에 대해 일반 또는 필수 호출이 아닌 [!DNL Target] 호출을 설정하는 것입니다.
-
-## A4T를 시작한 이후 내 Analytics 데이터에 부풀려진 방문 또는 방문자 카운트가 표시됩니다. {#section_4BE374E573D44FB7918611699B74F58E}
-
-자세한 내용은 [A4T에서 부풀려진 방문 및 방문자 카운트 최소화](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235)를 참조하십시오.
+원하는 [!DNL Target]보고서에서 특정 지표, 즉 [!UICONTROL &quot;지정되지 않음&quot;] 행이 표시되지 않습니다. 이를 보고서에 포함시키지 않는 유일한 방법은 해당 페이지에서 전송된 모든 요청에 대해 일반 또는 필수 호출이 아닌 [!DNL Target] 호출을 설정하는 것입니다.
 
 ## 매출액 지표의 예상 상승도에 올바른 데이터가 표시되지 않습니다. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
