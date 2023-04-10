@@ -4,18 +4,16 @@ description: ' [!DNL Adobe Target] 활동에서  [!DNL Adobe Experience Manager]
 title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
+source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 100%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # AEM [!UICONTROL 콘텐츠 조각]
 
 Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 생성된 [!UICONTROL 콘텐츠 조각]을 사용합니다.
-
-Headless 개인화 및 실험을 위한 AEM 콘텐츠 조각
 
 >[!NOTE]
 >
@@ -25,18 +23,18 @@ Headless 개인화 및 실험을 위한 AEM 콘텐츠 조각
 >
 >[!DNL Target]에서 AEM [!UICONTROL 콘텐츠 조각]을 사용하여 작업할 때 다음 사항을 고려하십시오.
 > 
->* 이 기능을 사용하려면 [!DNL Adobe Experience Manager] (AEM) 고객이어야 합니다. 자세한 내용은 아래의 [요구 사항](#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
+>* 이 기능을 사용하려면 다음을 수행해야 합니다 [!DNL Adobe Experience Manager as a Cloud Service] 고객. 자세한 내용은 아래의 [요구 사항](#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
 >
 >* 이 기능을 사용할 수 있는 활동 유형: [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당], [!UICONTROL 자동 타겟팅], [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 경험 타겟팅] (XT). 이 기능은 [!UICONTROL 다변량 테스트] (MVT) 및 [!UICONTROL Recommendations] 활동에서 사용할 수 없습니다.
 >
->* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다. [!UICONTROL 시각적 경험 작성기](VEC)만을 사용하여 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다.
+>* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다.
 
 
 AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자세히 알아보려면 [AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)를 참조하십시오.
 
 ## 요구 사항 {#requirements}
 
-[!DNL Target] 내의 [!UICONTROL 콘텐츠 조각] 기능을 공급받아야 합니다. 또한 [!DNL AEM] as a Cloud Service를 사용하고 있어야 합니다. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
+[!DNL Target] 내의 [!UICONTROL 콘텐츠 조각] 기능을 공급받아야 합니다. 또한 [[!DNL AEM]  as a Cloud Service를 사용하고 있어야 합니다](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
 
 [Adobe Target 고객 지원](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 연락하여 통합을 활성화하고 인증 세부 사항을 제공받으십시오.
 
