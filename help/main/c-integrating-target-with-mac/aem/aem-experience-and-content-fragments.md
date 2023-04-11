@@ -3,10 +3,10 @@ keywords: aem;experience manager;adobe experience manager;통합;통합 기능;�
 description: ' [!DNL Adobe Target] 활동에서 [!DNL Adobe Experience Manager] 경험 조각 및 콘텐츠 조각을 사용하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
 feature: Integrations
-source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 84%
+source-wordcount: '383'
+ht-degree: 76%
 
 ---
 
@@ -26,9 +26,21 @@ ht-degree: 84%
 
 [!DNL Target]에서 AEM [!UICONTROL 경험 조각] and [!UICONTROL Content Fragments]을 사용하여 작업할 때 고려할 사항:
 * 이 기능을 사용하려면 [!DNL Adobe Experience Manager] (AEM) 고객이어야 합니다. 각 조각 유형에 대한 요구 사항을 충족하는지 확인: [경험 조각](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) 또는 [콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
-* 이 기능을 사용할 수 있는 활동 유형: [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당], [!UICONTROL 자동 타겟팅], [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 경험 타겟팅] (XT). 이 기능은 다음에서 사용할 수 없습니다 [!UICONTROL 다변량 테스트] (MVT) 및 [!UICONTROL Recommendations] 활동.
-* [시각적 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC) 또는 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 경험 조각]을 사용할 수 있습니다.
-* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다.
+* [!UICONTROL 경험 조각] 및 [!UICONTROL 컨텐츠 조각] 는 다음 활동 유형에 사용할 수 있습니다.
+
+   * [[!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL 자동 할당]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL 자동 타기팅]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL 자동화된 개인화] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL 경험 조각] 및 [!UICONTROL 컨텐츠 조각] 다음 활동 유형에는 사용할 수 없습니다.
+
+   * [[!UICONTROL 다변량 테스트] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
+
+* 소비할 수 있습니다 [!UICONTROL 경험 조각] in [!DNL Target] 를 사용하여 활동 [시각적 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) 및 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md).
+* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다.
 
 ## [!UICONTROL 경험 조각]과 [!UICONTROL 콘텐츠 조각]의 차이점은 무엇입니까?
 
