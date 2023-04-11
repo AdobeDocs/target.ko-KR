@@ -23,7 +23,7 @@ ht-degree: 100%
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Adobe Experience Manager](AEM) 및 [!DNL Adobe Target][!UICONTROL 콘텐츠 조각] 릴리스(2023년 4월 12일)
+## [!DNL Adobe Experience Manager]&#x200B(AEM) 및 [!DNL Adobe Target][!UICONTROL 콘텐츠 조각] 릴리스(2023년 4월 12일)
 
 이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
 
