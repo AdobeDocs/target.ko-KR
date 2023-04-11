@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
 source-wordcount: '2336'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,11 +19,11 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 4월 5일 | [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 다음을 나타내는 텍스트가 추가되었습니다 [!UICONTROL 보고 소스로서의 Analytics] (A4t)는 오퍼 결정을 사용하는 활동에서 지원되지 않습니다. |
+| 4월 5일 | [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 오퍼 결정을 사용하는 활동에서 [!UICONTROL 보고 소스로서의 Analytics](A4t)가 지원되지 않음을 나타내는 텍스트가 추가되었습니다. |
 | 4월 3일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 4월 12일, 수요일로 예정된 [!UICONTROL Adobe Target 커뮤니티] 커피 브레이크에 대한 정보가 추가되었습니다. |
 |  | [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 모든 [!DNL Adobe Analytics] IP 주소 블록을 허용 목록에 추가했습니다. |
-| 3월 30일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 기능에 대한 최적화된 A4T 메트릭 릴리스에 대한 릴리스 정보를 업데이트하여 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 [!UICONTROL A4T]를 사용할 때 이항 이벤트를 기반으로 하는 메트릭 또는 연속 이벤트를 기반으로 하는 메트릭을 선택할 수 있도록 했습니다. |
-|  | [[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대해 지원되는 지표 및 지원되지 않는 지표에 대한 정보를 포함하도록 &quot;지원되는 목표 지표&quot; 섹션이 업데이트되었습니다. |
+| 3월 30일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 기능에 대한 최적화된 A4T 지표 릴리스에 대한 릴리스 정보를 업데이트하여 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 [!UICONTROL A4T]를 사용할 때 이항 이벤트를 기반으로 하는 지표 또는 연속 이벤트를 기반으로 하는 지표를 선택할 수 있도록 했습니다. |
+|  | [[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대해 지원되는 지표 및 지원되지 않는 지표에 대한 정보를 포함하도록 “지원되는 목표 지표” 섹션이 업데이트되었습니다. |
 |  | [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 다음 튜토리얼이 업데이트되었습니다.<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
 |  | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Adobe Experience Manager](AEM) 및 [!DNL Adobe Target][!UICONTROL 콘텐츠 조각] 릴리스에 대한 정보를 추가했습니다. (2023년 4월 6일) |
 | 3월 28일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.3.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
