@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
+source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 89%
+source-wordcount: '292'
+ht-degree: 83%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 89%
 
 >[!NOTE]
 >
->이 기능은 2023년 4월 12일에 베타 버전으로 제공될 예정이며 2023년 4월 26일에 GA(General Availability) 릴리스에서 사용할 수 있습니다.
+>이 기능은 2023년 4월 12일에 사전 릴리스 기능으로 사용할 수 있습니다. 사전 릴리스 기능으로 [!UICONTROL 컨텐츠 조각] 개발 및 스테이징 환경을 사용하지만 프로덕션 환경에서는 사용하지 않습니다.
+>
+>이 기능은 2023년 4월 26일에 GA(General Availability) 릴리스에서 사용할 수 있습니다.
 
 이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
 

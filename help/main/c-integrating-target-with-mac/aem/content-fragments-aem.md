@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 
 badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: 1cc328732bed41303ab0b1c6857dcbc812940022
+source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 88%
+source-wordcount: '790'
+ht-degree: 87%
 
 ---
 
@@ -18,7 +18,9 @@ Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!D
 
 >[!NOTE]
 >
->이 기능은 2023년 4월 12일에 베타 버전으로 제공될 예정이며 2023년 4월 26일에 GA(General Availability) 릴리스에서 사용할 수 있습니다.
+>이 기능은 2023년 4월 12일에 사전 릴리스 기능으로 사용할 수 있습니다. 사전 릴리스 기능으로 [!UICONTROL 컨텐츠 조각] 개발 및 스테이징 환경을 사용하지만 프로덕션 환경에서는 사용하지 않습니다.
+>
+>이 기능은 2023년 4월 26일에 GA(General Availability) 릴리스에서 사용할 수 있습니다.
 
 ## 고려 사항
 
@@ -50,7 +52,7 @@ AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자�
 
 ## [!DNL AEM]에서 [!UICONTROL 콘텐츠 조각] 구성 및 작업 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-[!DNL Target] 활동에서 사용하기 위해 [!UICONTROL 콘텐츠 조각]을 내보내려면 AEM에서 몇 가지 예비 단계를 수행해야 합니다. 자세한 내용은 *Experience Manager as a Cloud Service 설명서*&#x200B;의 [Adobe Target으로 콘텐츠 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}를 참조하십시오. 이 링크는 릴리스 날짜(2023년 4월 12일)에 제공됩니다
+[!DNL Target] 활동에서 사용하기 위해 [!UICONTROL 콘텐츠 조각]을 내보내려면 AEM에서 몇 가지 예비 단계를 수행해야 합니다. 자세한 내용은 [Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html)의 {target=_blank}Adobe Target으로 콘텐츠 조각 내보내기&#x200B;**&#x200B;를 참조하십시오.
 
 [!UICONTROL 콘텐츠 조각]의 디자인, 생성, 조정 및 게시에 대한 내용은 [[!UICONTROL 콘텐츠 조각]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ko){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}을 참조하십시오.
 
