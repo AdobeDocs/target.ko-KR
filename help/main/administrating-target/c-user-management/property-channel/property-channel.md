@@ -1,27 +1,27 @@
 ---
-keywords: 작업 공간;속성 관리;권한;제품 구성;제품 프로필;역할;프로젝트
+keywords: 작업 공간;속성 관리;권한;제품 구성;제품 프로필;역할;프로젝트;관찰자;편집자;승인자;게시자
 description: 개별 작업 공간(제품 프로필)을 만든 다음 사용자에게 개별 페이지, 속성 또는 웹 사이트에 대해 서로 다른 역할 및 권한을 할당하는 방법을 알아보십시오.
 title: 엔터프라이즈 사용자 권한은 무엇이며, 이 권한을 어떻게 사용합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 58%
+source-wordcount: '3214'
+ht-degree: 57%
 
 ---
 
 # Enterprise 사용자 권한
 
-엔터프라이즈 사용자 권한은 엔터프라이즈 수준의 사용자 권한을 공식적으로 관리하는 수단입니다 [!DNL Adobe Target]. 사용자 추가 대상 [!DNL Target], 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 공간을 만듭니다. 사용자에게 [!UICONTROL 관찰자], [!UICONTROL 편집자], 또는 [!UICONTROL 승인자].
+엔터프라이즈 사용자 권한은 엔터프라이즈 수준의 사용자 권한을 공식적으로 관리하는 수단입니다 [!DNL Adobe Target]. 사용자 추가 대상 [!DNL Target], 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 공간을 만듭니다. 사용자에게 [!UICONTROL 관찰자], [!UICONTROL 편집자], [!UICONTROL 승인자], 또는 [!UICONTROL 게시자].
 
 ## 엔터프라이즈 사용자 권한에 대한 액세스 권한이 있는지 확인
 
 >[!NOTE]
 >
->속성 및 권한 기능은 [!DNL Target] Premium 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target] Premium 라이선스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
+>[!UICONTROL 속성 및 권한] 기능은 [!DNL Target] Premium 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target] Premium 라이선스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
 >
 >사용자 [!DNL Target] 구현에는 임의 버전의 at.js를 사용할 수 있습니다.
 
@@ -89,10 +89,10 @@ ht-degree: 58%
 
 | 역할 | 설명 |
 |--- |--- |
-| 승인자 | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
-| 편집자 | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
-| 관찰자 | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-| 게시자 | 관찰자 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음)과 유사합니다. 그러나 게시자 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
+| [!UICONTROL 승인자] | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
+| [!UICONTROL 편집자] | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+| [!UICONTROL 관찰자] | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
+| [!UICONTROL 게시자] | 와 비슷합니다 [!UICONTROL 관찰자] 역할(활동을 볼 수 있지만 만들거나 편집할 수 없습니다.) 그러나 [!UICONTROL 게시자] 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
 ### 채널
 
@@ -258,6 +258,10 @@ ht-degree: 58%
 ## 자주 묻는 질문 {#faqs}
 
 엔터프라이즈 권한에 대한 FAQ:
+
+### 사용자에게 여러 역할과 권한이 있는 경우 어떻게 됩니까?
+
+사용자에게 여러 역할 및 권한이 있는 경우 이전 권한이 있는 역할이 적용됩니다. 예를 들어, 사용자가 [!UICONTROL 관찰자] 및 [!UICONTROL 승인자] 역할, [!UICONTROL 승인자] 역할이 적용됩니다.
 
 ### 한 작업 공간에서 다른 작업 공간으로 활동을 이동할 수 있습니까?
 
