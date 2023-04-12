@@ -23,7 +23,7 @@ ht-degree: 100%
 
 현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Adobe Experience Manager](AEM) 및 [!DNL Adobe Target][!UICONTROL 콘텐츠 조각] 릴리스 (2023년 4월 12일)
+## [!DNL Adobe Experience Manager] (AEM) 및 [!DNL Adobe Target][!UICONTROL 콘텐츠 조각] 릴리스 (2023년 4월 12일)
 
 이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
 
@@ -35,8 +35,8 @@ ht-degree: 100%
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| [릴리스 정보: [!UICONTROL Adobe Target Platform Experience Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [릴리스 정보: [!UICONTROL Adobe Target Platform Experience Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target="_blank"} | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target="_blank"} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
