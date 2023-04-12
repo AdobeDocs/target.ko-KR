@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 98%
 | --- | --- | --- |
 | 4월 12일 | [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 다음 FAQ가 추가되었습니다.<ul><li>모델이 교육에 사용하지 않으려는 특성이 하나 이상 표시됩니다. 교육 모델에서 이러한 속성을 제거할 수 있습니까?</li></ul> |
 |  | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 다음 FAQ가 추가되었습니다.<ul><li>사용자에게 여러 역할과 권한이 있는 경우 어떻게 됩니까?</li></ul> |
+|  | [AEM 콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 새 주제입니다. 이 기능은 테스트 목적으로 &quot;사전 릴리스&quot; 상태에 있습니다. |
 | 4월 5일 | [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 오퍼 결정을 사용하는 활동에서 [!UICONTROL 보고 소스로서의 Analytics](A4t)가 지원되지 않음을 나타내는 텍스트가 추가되었습니다. |
 | 4월 3일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 4월 12일, 수요일로 예정된 [!UICONTROL Adobe Target 커뮤니티] 커피 브레이크에 대한 정보가 추가되었습니다. |
 |  | [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 모든 [!DNL Adobe Analytics] IP 주소 블록을 허용 목록에 추가했습니다. |
