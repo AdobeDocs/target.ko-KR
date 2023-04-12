@@ -2,15 +2,15 @@
 keywords: 구현;구현
 description: 기본 개념 이해, 방법 숙지하기 [!DNL Target] 는 인프라와 통합 작동하며 방문자를 추적하는 방법을 이해합니다.
 landing-page-description: Adobe Target 사용을 시작하기 전에 사이트에서 구현해야 합니다.
-short-description: Before you start using Adobe Target, you must implement it on your site.
+short-description: Adobe Target 사용을 시작하기 전에 사이트에서 구현해야 합니다.
 title: 구현 방법 [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 7%
+source-wordcount: '197'
+ht-degree: 6%
 
 ---
 
