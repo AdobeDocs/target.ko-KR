@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2420'
+ht-degree: 97%
 
 ---
 
@@ -19,7 +19,8 @@ ht-degree: 0%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 4월 12일 | [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 다음 FAQ가 추가되었습니다.<ul><li>모델이 교육에 사용하지 않으려는 특성이 하나 이상 표시됩니다. 교육 모델에서 이러한 속성을 제거할 수 있습니까?</li></ul> |
+| 4월 12일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 웨비나에 등록할 링크가 추가되었습니다.<ul><li>개인화된 고객 경험을 항상 제공!</li></ul> |
+|  | [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 다음 FAQ가 추가되었습니다.<ul><li>모델이 교육에 사용하지 않으려는 특성이 하나 이상 표시됩니다. 교육 모델에서 이러한 속성을 제거할 수 있습니까?</li></ul> |
 |  | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 다음 FAQ가 추가되었습니다.<ul><li>사용자에게 여러 역할과 권한이 있는 경우 어떻게 됩니까?</li></ul> |
 |  | [AEM 콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 새 주제입니다. 이 기능은 테스트 목적으로 &quot;사전 릴리스&quot; 상태에 있습니다. |
 | 4월 5일 | [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 오퍼 결정을 사용하는 활동에서 [!UICONTROL 보고 소스로서의 Analytics](A4t)가 지원되지 않음을 나타내는 텍스트가 추가되었습니다. |
