@@ -4,16 +4,16 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
+source-git-commit: b31fc335c2066f74ec9aebe835a2c47822a49e5a
 workflow-type: tm+mt
-source-wordcount: '909'
-ht-degree: 18%
+source-wordcount: '992'
+ht-degree: 9%
 
 ---
 
 # 통합 대상 [!DNL Real-time Customer Data Platform]
 
-[!DNL Adobe Experience Platform]을 기반으로 구축된 [!DNL Real-time Customer Data Platform] (RTCDP)은 기업이 여러 엔터프라이즈 소스로부터의 알려진 데이터와 익명 데이터를 통합하여 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있도록 지원합니다.
+기본 제공 [!DNL Adobe Experience Platform], [!DNL Real-time Customer Data Platform] (RTCDP)는 기업이 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. RTCDP를 사용하면 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
 RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}.
 
@@ -21,7 +21,7 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 
 사용 [대상자](/help/main/c-target/c-audiences/audiences.md) 에서 생성됨 [!DNL Adobe Experience Platform] 는 더 효과적인 개인화를 생성하는 더 풍부한 고객 데이터를 제공합니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), 구축 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
-[!DNL Target]을 [!DNL Real-time Customer Data Platform]에 연결함으로써 고객은 웹 방문의 첫 페이지에서 실시간 밀리초 개인화를 가능하게 하기 위해 이전에는 [!DNL Target]에 액세스할 수 없었던 새로운 세그먼트를 잠금 해제하여 웹 개인화를 강화할 수 있습니다. 에서 만들어진 대상 및 프로필 속성 사용 [!DNL Adobe Experience Platform] 더 풍부한 개인화를 위해 사용 가능한 데이터 포인트를 확장할 수 있습니다.
+연결 [!DNL Target] 변환 후 [!DNL Real-time Customer Data Platform], 고객은 웹 개인화를 보강할 수 있습니다. 이 통합을 사용하면 이전에 액세스할 수 없었던 새로운 세그먼트의 잠금을 해제할 수 있습니다 [!DNL Target] 고객 웹 방문의 첫 페이지에서 실시간 개인화를 사용하도록 설정하려면 다음을 수행하십시오. 에서 만들어진 대상 및 프로필 속성 사용 [!DNL Adobe Experience Platform] 더 풍부한 개인화를 위해 사용 가능한 데이터 포인트를 확장할 수 있습니다.
 
 이러한 통합은 실시간 CDP를 사용하여 주요 사용 사례를 잠금 해제합니다.
 
@@ -46,7 +46,7 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 | --- | --- |
 | <ul><li>[!DNL Adobe Audience Manager] (AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP] (Premium 또는 Ultimate) 및 [!DNL Target]</li><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul> | 다음 세션 개인화 |
 
-#### Adobe Experience Platform Web SDK 또는 AEP 서버측 API 구현
+#### Adobe Experience Platform Web SDK 또는 Experience Platform 서버측 API 구현
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
@@ -80,7 +80,7 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 * [동일 페이지 및 다음 페이지 개인화를 위한 개인화 대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 에서 *대상 개요* 안내서.
 * [사용자 지정 개인화 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} 에서 *대상 개요* 안내서
 * [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 에서 *대상 개요* 안내서
-* [동일한 페이지 및 다음 페이지 개인화 사용 사례에 대한 개인화 대상 구성](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 에서 *대상 개요* 안내서
+* [동일한 페이지 및 다음 페이지 개인화 사용 사례에 대한 개인화 대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 에서 *대상 개요* 안내서
 
 ## 와 실시간 CDP 프로필 속성 공유 [!DNL Target] {#rtcdp-profile-attributes}
 
@@ -90,22 +90,30 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 
 >[!NOTE]
 >
->실시간 CDP 프로필 속성 기능은 현재 베타 버전에서 HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+>실시간 CDP 프로필 속성 기능은 HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 다음 사항을 고려하십시오.
 
-* 주어진 오퍼 내의 속성은 동일한 AEP 샌드박스에서 가져와야 합니다. (즉, 오퍼는 다른 AEP 샌드박스의 속성을 포함할 수 없습니다.)
-* 주어진 오퍼 내의 속성은 다른 소스에서 올 수 있습니다. 즉, [!DNL Target] 프로필 및 AEP 프로필을 참조하십시오. (다시 말해, 속성이 파생되는지 여부를 결합할 수 있습니다 [!DNL Target] 또는 AEP 프로필에서 전송됩니다.
+* 주어진 오퍼 내의 속성은 동일한 Experience Platform 샌드박스에서 가져와야 합니다. (즉, 오퍼는 다른 Experience Platform 샌드박스의 속성을 포함할 수 없습니다.)
+* 주어진 오퍼 내의 속성은 다른 소스에서 올 수 있습니다. 즉, [!DNL Target] 프로필 및 Experience Platform 프로필을 참조하십시오. (다시 말해, 속성이 파생되는지 여부를 결합할 수 있습니다 [!DNL Target] 또는 Experience Platform 프로필에서 가져올 수 있습니다.
 * 오퍼를 정의할 때 속성에 명시적 값이 없는 경우 실시간 CDP 프로필 속성에 대한 기본값을 할당할 수 있습니다. 예를 들어, 동의 또는 거버넌스 정책이 개인화 서비스에서 사용되는 속성을 차단하는 경우 기본값을 대신 사용할 수 있습니다.
 * 공유하면 실시간 CDP 프로필 속성이 의 인공 지능/시스템 학습 개인화 모델에서 사용됩니다 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동.
 
 ### 샘플 사용 사례
 
-온라인 마케터는 AEP/통합 프로필이 속성 값을 와 공유할 수 있도록 합니다 [!DNL Target] 을 입력하여 실시간 개인화를 제공할 수 있습니다. 실시간 CDP 프로필 속성을 사용하면 AEP 속성의 값을 [!DNL Target] 토큰 대체를 사용하여 오퍼. 예를 들어 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
+온라인 마케터는 AEP/통합 프로필이 속성 값을 와 공유할 수 있도록 합니다 [!DNL Target] 을 입력하여 실시간 개인화를 제공할 수 있습니다. 실시간 CDP 프로필 속성을 사용하면 [!DNL Target] 토큰 대체를 사용하여 오퍼. 예를 들어 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
 
-![offer-json-aep-shared-attribute 이미지](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
+AEP/Unified Profile 속성을 와 공유할 JSON 오퍼를 작성하려면 다음을 수행하십시오 [!DNL Target]:
 
-기본값을 할당하는 것은 선택 사항입니다.
+1. While [json 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md): **[!UICONTROL 소스 선택]** 목록, 선택 **[!UICONTROL Adobe Experience Platform]**.
+1. 에서 **[!UICONTROL 프로필 샌드박스 이름 선택]** 목록에서 원하는 샌드박스를 선택합니다.
+1. 에서 **[!UICONTROL 프로필 속성 선택]** 목록에서 원하는 속성을 선택합니다.
+1. (선택 사항) **[!UICONTROL 기본값 삽입]** 목록에서 원하는 값을 선택합니다.
+1. **[!UICONTROL 추가를 클릭합니다]**.
+
+   다음 그림은 두 개의 프로필 속성을 보여줍니다. `loyalty.tier` 및 `loyalty.points` 을 JSON 오퍼에 추가했습니다.
+
+   ![offer-json-aep-shared-attribute 이미지](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
 ## 비디오 및 블로그 게시물
 
