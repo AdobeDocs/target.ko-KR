@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
+source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 83%
+source-wordcount: '325'
+ht-degree: 73%
 
 ---
 
@@ -15,27 +15,22 @@ ht-degree: 83%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2023년 4월 12일**
+**마지막 업데이트 날짜: 2023년 4월 13일**
 
 >[!NOTE]
 >
 >릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
-
-현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
-
-## [!DNL Adobe Experience Manager](AEM) 및 [!DNL Adobe Target][!UICONTROL 콘텐츠 조각] 릴리스 (2023년 4월 12일)
-
->[!NOTE]
 >
->이 기능은 2023년 4월 12일에 사전 릴리스 기능으로 사용할 수 있습니다. 사전 릴리스 기능으로 [!UICONTROL 컨텐츠 조각] 개발 및 스테이징 환경을 사용하지만 프로덕션 환경에서는 사용하지 않습니다.
->
->이 기능은 2023년 4월 26일에 GA(General Availability) 릴리스에서 사용할 수 있습니다.
+>현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 날짜에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-이번 릴리스에는 다음과 같은 새 기능이 포함되어 있습니다.
+## [!DNL Target] Standard/Premium 23.4.1(2023년 4월 25~27일)
+
+이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
 
 | 기능 | 세부 사항 |
 |--- |--- |
-| Headless 개인화 및 실험을 위한 AEM [!UICONTROL 콘텐츠 조각] | [!DNL Target] 활동에서 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용합니다. AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능과 결합하여 headless 개인화와 실험을 지원할 수 있습니다.<P>자세한 내용은 [AEM [!UICONTROL 컨텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
+| Headless 개인화 및 실험을 위한 AEM [!UICONTROL 콘텐츠 조각] | [!DNL Target] 활동에서 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용합니다. AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능과 결합하여 headless 개인화와 실험을 지원할 수 있습니다.<P>자세한 내용은 [AEM [!UICONTROL 컨텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**참고**: 이 기능은 2023년 4월 12일부터 사전 릴리스 기능으로 사용할 수 있습니다. 사전 릴리스 기능으로 [!UICONTROL 컨텐츠 조각] 개발 및 스테이징 환경을 사용하지만 프로덕션 환경을 사용하지 않습니다. 이 기능은 [!DNL Target Standard/Premium] 23.4.1 릴리스. |
+| 와 공유된 Real-Time CDP 프로필 속성 [!DNL Target] | [!UICONTROL Real-Time CDP 프로필 속성] 와(과) 공유할 수 있습니다 [!DNL Target] HTML 및 JSON 오퍼에서 사용할 수 있습니다.<P>자세한 내용은 [다음 사용자와 Real-Time CDP 프로필 속성 공유 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
