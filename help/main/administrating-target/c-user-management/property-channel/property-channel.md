@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '3215'
+source-wordcount: '3216'
 ht-degree: 57%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 57%
 >
 >[!UICONTROL 속성 및 권한] 기능은 [!DNL Target] Premium 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target] Premium 라이선스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
 >
->사용자 [!DNL Target] 구현에는 임의 버전의 at.js를 사용할 수 있습니다.
+>사용자 [!DNL Target] 구현은 모든 버전의 at.js를 사용하거나 [!DNL Adobe Experience Platform Web SDK].
 
 [!DNL Target] UI 상단의 [!UICONTROL 관리] 링크를 클릭하여 귀사에서 Standard 라이선스를 보유하고 있는지 또는 Premium 라이선스를 보유하고 있는지 여부를 파악할 수 있습니다.
 

@@ -4,10 +4,10 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
+source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
 workflow-type: tm+mt
-source-wordcount: '895'
-ht-degree: 22%
+source-wordcount: '894'
+ht-degree: 20%
 
 ---
 
@@ -19,7 +19,7 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 
 ## 다음에서 대상 사용 [!DNL Adobe Experience Platform] {#aep}
 
-[!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), 구축 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
+사용 [대상자](/help/main/c-target/c-audiences/audiences.md) 에서 생성됨 [!DNL Adobe Experience Platform] 는 더 효과적인 개인화를 생성하는 더 풍부한 고객 데이터를 제공합니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), 구축 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
 [!DNL Target]을 [!DNL Real-time Customer Data Platform]에 연결함으로써 고객은 웹 방문의 첫 페이지에서 실시간 밀리초 개인화를 가능하게 하기 위해 이전에는 [!DNL Target]에 액세스할 수 없었던 새로운 세그먼트를 잠금 해제하여 웹 개인화를 강화할 수 있습니다. 에서 만들어진 대상 및 프로필 속성 사용 [!DNL Adobe Experience Platform] 더 풍부한 개인화를 위해 사용 가능한 데이터 포인트를 확장할 수 있습니다.
 
@@ -37,9 +37,9 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 실시간 CDP 프로필 속성 기능 제한 및 고려 사항:
 
 * 주어진 오퍼 내의 속성은 동일한 AEP 샌드박스에서 가져와야 합니다. (즉, 오퍼는 다른 AEP 샌드박스의 속성을 포함할 수 없습니다.)
-* 주어진 오퍼 내의 속성은 다른 소스에서 올 수 있습니다. 즉, Target 프로필과 AEP 프로필입니다.(다시 말해, Target에서 왔는지 아니면 AEP 프로필에서 가져왔는지 속성을 결합할 수 있습니다.)
+* 주어진 오퍼 내의 속성은 다른 소스에서 올 수 있습니다. 즉, [!DNL Target] 프로필 및 AEP 프로필을 참조하십시오. (다시 말해, 속성이 파생되는지 여부를 결합할 수 있습니다 [!DNL Target] 또는 AEP 프로필에서 전송됩니다.
 * 오퍼를 정의할 때 속성에 명시적 값이 없는 경우 실시간 CDP 프로필 속성에 대한 기본값을 할당할 수 있습니다. 예를 들어, 동의 또는 거버넌스 정책이 개인화 서비스에서 사용되는 속성을 차단하는 경우 기본값을 대신 사용할 수 있습니다.
-* 공유되면 실시간 CDP 프로필 속성이 자동 Target 및 Automated Personalization을 위한 인공 지능/시스템 학습 개인화 모델에서 사용됩니다.
+* 공유하면 실시간 CDP 프로필 속성이 의 인공 지능/시스템 학습 개인화 모델에서 사용됩니다 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동.
 
 >[!NOTE]
 >
@@ -81,7 +81,7 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 
 ### 비디오: 실시간 CDP와 [!DNL Adobe Target]{#RTCDP}
 
-을 사용하여 다음 히트에 대해 개인화하는 방법을 알아봅니다. [!DNL Real-time Customer Data Platform] 및 [!DNL Adobe Target]. 다음 [!DNL Adobe Target] 대상 [!DNL Real-time CDP] 를 사용하면 [!DNL Experience Platform] 세그먼트 [!DNL Adobe Target] 거버넌스 및 개인 정보 지원을 통한 동일한 페이지 및 다음 페이지 개인화.
+을 사용하여 다음 히트에 대해 개인화하는 방법을 알아봅니다. [!DNL Real-time Customer Data Platform] 및 [!DNL Adobe Target]. 다음 [!DNL Adobe Target] 대상 [!DNL Real-time CDP] 를 사용하면 [!DNL Experience Platform] 세그먼트 [!DNL Adobe Target] 거버넌스 및 개인 정보 지원을 통해 동일한 페이지 개인화 및 다음 페이지 개인화를 위해.
 
 자세한 내용은 [실시간 CDP 및 Adobe Target을 사용한 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 에서 *플랫폼 Tutorials* 안내서.
 
@@ -93,9 +93,9 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 
 ## 와 실시간 CDP 프로필 속성 공유 [!DNL Target] {#rtcdp-profile-attributes}
 
-실시간 CDP 프로필 속성을 [!DNL Target] HTML 오퍼 및 JSON 오퍼에서 사용할 수 있습니다. (이 기능은 현재 베타에 있습니다.)
+실시간 CDP 프로필 속성을 [!DNL Target] HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md). (이 기능은 현재 베타에 있습니다.)
 
-샘플 사용 사례: 온라인 마케터로서 Grace는 AEP/통합 프로필에서 속성 값을 [!DNL Target] 을 입력하여 실시간 개인화를 제공할 수 있습니다. Grace는 실시간 CDP 프로필 속성을 사용하여에 AEP 속성 값을 표시할 수 있습니다 [!DNL Target] 토큰 대체를 사용하여 오퍼. 예를 들어 고객이 좋아하는 색상으로 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
+샘플 사용 사례: 온라인 마케터는 AEP/통합 프로필이 속성 값을 와 공유할 수 있도록 합니다 [!DNL Target] 을 입력하여 실시간 개인화를 제공할 수 있습니다. 실시간 CDP 프로필 속성을 사용하면 AEP 속성의 값을 [!DNL Target] 토큰 대체를 사용하여 오퍼. 예를 들어 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute 이미지](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
