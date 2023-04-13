@@ -4,10 +4,10 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
+source-git-commit: 21065da5b96413af5d93f2a158137ce3e68e2cf7
 workflow-type: tm+mt
-source-wordcount: '904'
-ht-degree: 19%
+source-wordcount: '909'
+ht-degree: 18%
 
 ---
 
@@ -38,13 +38,27 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 
 ### 개인화 사용 사례
 
-다음 표는 를 사용할 때 사용할 수 있는 개인화 사용 사례 유형(다음 세션 또는 동일한 페이지)을 보여줍니다 [!DNL Adobe Experience Platform Web SDK] at.js를 사용하는 것과 반대됩니다.
+다음 섹션에서는 다른 구현 방법을 사용할 때 사용할 수 있는 개인화 사용 사례(다음 세션 또는 동일한 페이지)를 보여줍니다.
 
-| 구현 | 솔루션/사용 사례 사용 |
+#### at.js 구현
+
+| 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| at.js | **솔루션**:<ul><li>[!DNL Adobe Audience Manager] (AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP] (Premium 또는 Ultimate) 및 [!DNL Target]</li><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li></ul> |
-| [!DNL Platform Web SDK] 또는 [!DNL AEP Server-Side API] | **솔루션**:<ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li><li>Edge를 통한 동일한 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul>**솔루션**:<ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>을 통해 타사 세그먼트 [!DNL AAM]</li></ul><li>Edge를 통한 동일한 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
-| 혼합 [!UICONTROL at.js] 및 [!DNL Platform Web SDK] | **솔루션**:<ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!UICONTROL at.js]</li></ul><li>동일한 페이지 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!DNL Platform Web SDK]</li></ul></ul>**솔루션**:<ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul>**사용 사례**:<ul><li>다음 세션 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!UICONTROL at.js]</li><li>[!DNL AAM] 세그먼트</li><li>을 통해 타사 세그먼트 [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL Adobe Audience Manager] (AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP] (Premium 또는 Ultimate) 및 [!DNL Target]</li><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul> | 다음 세션 개인화 |
+
+#### Adobe Experience Platform Web SDK 또는 AEP 서버측 API 구현
+
+| 솔루션 | 사용 사례 활성화 |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><li>Edge를 통한 동일한 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
+| <ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>을 통해 타사 세그먼트 [!DNL AAM]</li></ul><li>Edge를 통한 동일한 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
+
+#### 혼합 [!UICONTROL at.js] 및 [!DNL Platform Web SDK] 구현
+
+| 솔루션 | 사용 사례 활성화 |
+| --- | --- |
+| <ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!UICONTROL at.js]</li></ul><li>동일한 페이지 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!DNL Platform Web SDK]</li></ul> |
+| <ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!UICONTROL at.js]</li><li>[!DNL AAM] 세그먼트</li><li>을 통해 타사 세그먼트 [!DNL AAM]</li></ul> |
 
 ### 세그먼트 평가 시간
 
@@ -105,6 +119,6 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
 
-### Adobe Target 블로그 및 비디오:
+### Adobe Target 블로그 및 비디오: 동일한 페이지 향상된 개인화
 
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 및 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+[[!DNL Adobe] announces Same-Page Enhanced Personalization with [!DNL Adobe Target] 및 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
