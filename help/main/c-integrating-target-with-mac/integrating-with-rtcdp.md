@@ -4,10 +4,10 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 9bc31a2de295cdc5ea29dfb5ebf60fdf36705e98
 workflow-type: tm+mt
-source-wordcount: '894'
-ht-degree: 20%
+source-wordcount: '903'
+ht-degree: 21%
 
 ---
 
@@ -28,13 +28,17 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 * 동일 페이지/다음 히트 개인화
 * 최초/알 수 없는 사용자 개인화
 
+### 주요 기능
+
 주요 기능은 다음과 같습니다.
 
 * 직접 [!DNL Target] 실시간 CDP와 통합/[!DNL Adobe Experience Platform] Edge에 대한 종속성 제거 [!DNL Audience Core services] - AAM)
 * [!UICONTROL Target Edge Destinations 카드] 정부 및 정책 집행
 * 실시간 CDP 세그먼트 및 공유 프로필 속성
 
-실시간 CDP 프로필 속성 기능 제한 및 고려 사항:
+### 실시간 CDP 프로필 속성 기능 제한 및 고려 사항
+
+다음 사항을 고려하십시오.
 
 * 주어진 오퍼 내의 속성은 동일한 AEP 샌드박스에서 가져와야 합니다. (즉, 오퍼는 다른 AEP 샌드박스의 속성을 포함할 수 없습니다.)
 * 주어진 오퍼 내의 속성은 다른 소스에서 올 수 있습니다. 즉, [!DNL Target] 프로필 및 AEP 프로필을 참조하십시오. (다시 말해, 속성이 파생되는지 여부를 결합할 수 있습니다 [!DNL Target] 또는 AEP 프로필에서 전송됩니다.
@@ -45,6 +49,8 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 >
 >실시간 CDP 프로필 속성 기능은 현재 베타 버전에서 HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
+### 추가 정보 링크
+
 자세한 내용은 다음 주제를 참조하십시오.
 
 * [대상 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 에서 *Adobe Experience Platform 릴리스 노트*
@@ -53,7 +59,7 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 * [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 에서 *대상 개요* 안내서
 * [동일한 페이지 및 다음 페이지 개인화 사용 사례에 대한 개인화 대상 구성](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 에서 *대상 개요* 안내서
 
-### 추가 정보
+### 추가 세부 정보
 
 다음에서 대상을 사용할 때 다음 정보를 고려하십시오 [!DNL Adobe Experience Platform]:
 
@@ -79,18 +85,6 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 | 일괄 업로드에서 이벤트 | 아니오 | 아니요 | 예 |
 | 오프라인 데이터(스트림)의 이벤트 | 아니요 | 예 | 예 |
 
-### 비디오: 실시간 CDP와 [!DNL Adobe Target]{#RTCDP}
-
-을 사용하여 다음 히트에 대해 개인화하는 방법을 알아봅니다. [!DNL Real-time Customer Data Platform] 및 [!DNL Adobe Target]. 다음 [!DNL Adobe Target] 대상 [!DNL Real-time CDP] 를 사용하면 [!DNL Experience Platform] 세그먼트 [!DNL Adobe Target] 거버넌스 및 개인 정보 지원을 통해 동일한 페이지 개인화 및 다음 페이지 개인화를 위해.
-
-자세한 내용은 [실시간 CDP 및 Adobe Target을 사용한 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 에서 *플랫폼 Tutorials* 안내서.
-
->[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
-
-### Adobe Target 블로그 및 비디오:
-
-[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 및 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
-
 ## 와 실시간 CDP 프로필 속성 공유 [!DNL Target] {#rtcdp-profile-attributes}
 
 실시간 CDP 프로필 속성을 [!DNL Target] HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md). (이 기능은 현재 베타에 있습니다.)
@@ -100,3 +94,15 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 ![offer-json-aep-shared-attribute 이미지](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
 기본값을 할당하는 것은 선택 사항입니다.
+
+## 비디오: 실시간 CDP와 [!DNL Adobe Target]{#RTCDP}
+
+을 사용하여 다음 히트에 대해 개인화하는 방법을 알아봅니다. [!DNL Real-time Customer Data Platform] 및 [!DNL Adobe Target]. 다음 [!DNL Adobe Target] 대상 [!DNL Real-time CDP] 를 사용하면 [!DNL Experience Platform] 세그먼트 [!DNL Adobe Target] 거버넌스 및 개인 정보 지원을 통해 동일한 페이지 개인화 및 다음 페이지 개인화를 위해.
+
+자세한 내용은 [실시간 CDP 및 Adobe Target을 사용한 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 에서 *플랫폼 Tutorials* 안내서.
+
+>[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+## Adobe Target 블로그 및 비디오:
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] 및 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
