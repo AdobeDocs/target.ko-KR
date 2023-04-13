@@ -4,7 +4,7 @@ description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-Time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
+source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
 workflow-type: tm+mt
 source-wordcount: '936'
 ht-degree: 9%
@@ -104,7 +104,7 @@ AEP/Unified Profile 속성을 와 공유할 JSON 오퍼를 작성하려면 다�
 
 ![offer-json-aep-shared-attribute 이미지](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
-### 추가 정보 링크
+## 추가 정보 링크
 
 자세한 내용은 다음 주제를 참조하십시오.
 
