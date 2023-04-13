@@ -4,9 +4,9 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 9581cfd1e5a2f0329ceed00fd370dbaabe9b92f9
+source-git-commit: 78d53323474b49d248537a28e57d5de8a08bbfb5
 workflow-type: tm+mt
-source-wordcount: '905'
+source-wordcount: '895'
 ht-degree: 22%
 
 ---
@@ -94,8 +94,6 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 ## 와 실시간 CDP 프로필 속성 공유 [!DNL Target] {#rtcdp-profile-attributes}
 
 실시간 CDP 프로필 속성을 [!DNL Target] HTML 오퍼 및 JSON 오퍼에서 사용할 수 있습니다. (이 기능은 현재 베타에 있습니다.)
-
-자세한 내용은 [와 실시간 CDP 프로필 속성 공유 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)
 
 샘플 사용 사례: 온라인 마케터로서 Grace는 AEP/통합 프로필에서 속성 값을 [!DNL Target] 을 입력하여 실시간 개인화를 제공할 수 있습니다. Grace는 실시간 CDP 프로필 속성을 사용하여에 AEP 속성 값을 표시할 수 있습니다 [!DNL Target] 토큰 대체를 사용하여 오퍼. 예를 들어 고객이 좋아하는 색상으로 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
 
