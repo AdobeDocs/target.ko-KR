@@ -4,14 +4,14 @@ description: ' [!DNL Target]/[!DNL Real-time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: c14365b6d3296ab09d599ecb33239470a857efce
+source-git-commit: 22dc0d43f64d927028b2d7a44f1bd983e2f669d3
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '904'
 ht-degree: 19%
 
 ---
 
-# Real-time Customer Data Platform과 통합
+# 통합 대상 [!DNL Real-time Customer Data Platform]
 
 [!DNL Adobe Experience Platform]을 기반으로 구축된 [!DNL Real-time Customer Data Platform] (RTCDP)은 기업이 여러 엔터프라이즈 소스로부터의 알려진 데이터와 익명 데이터를 통합하여 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있도록 지원합니다.
 
@@ -36,29 +36,6 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 * [!UICONTROL Target Edge Destinations 카드] 정부 및 정책 집행
 * 실시간 CDP 세그먼트 및 공유 프로필 속성
 
-### 실시간 CDP 프로필 속성 기능 제한 및 고려 사항
-
-다음 사항을 고려하십시오.
-
-* 주어진 오퍼 내의 속성은 동일한 AEP 샌드박스에서 가져와야 합니다. (즉, 오퍼는 다른 AEP 샌드박스의 속성을 포함할 수 없습니다.)
-* 주어진 오퍼 내의 속성은 다른 소스에서 올 수 있습니다. 즉, [!DNL Target] 프로필 및 AEP 프로필을 참조하십시오. (다시 말해, 속성이 파생되는지 여부를 결합할 수 있습니다 [!DNL Target] 또는 AEP 프로필에서 전송됩니다.
-* 오퍼를 정의할 때 속성에 명시적 값이 없는 경우 실시간 CDP 프로필 속성에 대한 기본값을 할당할 수 있습니다. 예를 들어, 동의 또는 거버넌스 정책이 개인화 서비스에서 사용되는 속성을 차단하는 경우 기본값을 대신 사용할 수 있습니다.
-* 공유하면 실시간 CDP 프로필 속성이 의 인공 지능/시스템 학습 개인화 모델에서 사용됩니다 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동.
-
->[!NOTE]
->
->실시간 CDP 프로필 속성 기능은 현재 베타 버전에서 HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md).
-
-### 추가 정보 링크
-
-자세한 내용은 다음 주제를 참조하십시오.
-
-* [대상 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 에서 *Adobe Experience Platform 릴리스 노트*
-* [동일 페이지 및 다음 페이지 개인화를 위한 개인화 대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 에서 *대상 개요* 안내서.
-* [사용자 지정 개인화 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} 에서 *대상 개요* 안내서
-* [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 에서 *대상 개요* 안내서
-* [동일한 페이지 및 다음 페이지 개인화 사용 사례에 대한 개인화 대상 구성](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 에서 *대상 개요* 안내서
-
 ### 개인화 사용 사례
 
 다음 표는 를 사용할 때 사용할 수 있는 개인화 사용 사례 유형(다음 세션 또는 동일한 페이지)을 보여줍니다 [!DNL Adobe Experience Platform Web SDK] at.js를 사용하는 것과 반대됩니다.
@@ -81,11 +58,36 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 | 일괄 업로드에서 이벤트 | 아니오 | 아니요 | 예 |
 | 오프라인 데이터(스트림)의 이벤트 | 아니요 | 예 | 예 |
 
+### 추가 정보 링크
+
+자세한 내용은 다음 주제를 참조하십시오.
+
+* [대상 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 에서 *Adobe Experience Platform 릴리스 노트*
+* [동일 페이지 및 다음 페이지 개인화를 위한 개인화 대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 에서 *대상 개요* 안내서.
+* [사용자 지정 개인화 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} 에서 *대상 개요* 안내서
+* [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 에서 *대상 개요* 안내서
+* [동일한 페이지 및 다음 페이지 개인화 사용 사례에 대한 개인화 대상 구성](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} 에서 *대상 개요* 안내서
+
 ## 와 실시간 CDP 프로필 속성 공유 [!DNL Target] {#rtcdp-profile-attributes}
 
-실시간 CDP 프로필 속성을 [!DNL Target] HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md). (이 기능은 현재 베타에 있습니다.)
+실시간 CDP 프로필 속성을 [!DNL Target] HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
-샘플 사용 사례: 온라인 마케터는 AEP/통합 프로필이 속성 값을 와 공유할 수 있도록 합니다 [!DNL Target] 을 입력하여 실시간 개인화를 제공할 수 있습니다. 실시간 CDP 프로필 속성을 사용하면 AEP 속성의 값을 [!DNL Target] 토큰 대체를 사용하여 오퍼. 예를 들어 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
+### 실시간 CDP 프로필 속성 기능 제한 및 고려 사항
+
+>[!NOTE]
+>
+>실시간 CDP 프로필 속성 기능은 현재 베타 버전에서 HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md).
+
+다음 사항을 고려하십시오.
+
+* 주어진 오퍼 내의 속성은 동일한 AEP 샌드박스에서 가져와야 합니다. (즉, 오퍼는 다른 AEP 샌드박스의 속성을 포함할 수 없습니다.)
+* 주어진 오퍼 내의 속성은 다른 소스에서 올 수 있습니다. 즉, [!DNL Target] 프로필 및 AEP 프로필을 참조하십시오. (다시 말해, 속성이 파생되는지 여부를 결합할 수 있습니다 [!DNL Target] 또는 AEP 프로필에서 전송됩니다.
+* 오퍼를 정의할 때 속성에 명시적 값이 없는 경우 실시간 CDP 프로필 속성에 대한 기본값을 할당할 수 있습니다. 예를 들어, 동의 또는 거버넌스 정책이 개인화 서비스에서 사용되는 속성을 차단하는 경우 기본값을 대신 사용할 수 있습니다.
+* 공유하면 실시간 CDP 프로필 속성이 의 인공 지능/시스템 학습 개인화 모델에서 사용됩니다 [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동.
+
+### 샘플 사용 사례
+
+온라인 마케터는 AEP/통합 프로필이 속성 값을 와 공유할 수 있도록 합니다 [!DNL Target] 을 입력하여 실시간 개인화를 제공할 수 있습니다. 실시간 CDP 프로필 속성을 사용하면 AEP 속성의 값을 [!DNL Target] 토큰 대체를 사용하여 오퍼. 예를 들어 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
 
 ![offer-json-aep-shared-attribute 이미지](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
