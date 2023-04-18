@@ -5,9 +5,9 @@ title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1937'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -25,26 +25,26 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)에 대한 Mag
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
-### 개인화된 고객 경험을 항상 제공!
+### 항상 개인화된 고객 경험을 제공하십시오.
 
 * **2023년 4월 27일 목요일**
-* **오전 9시~10시 (BST, GMT +1), 10:00~11:00 오전. (CEST, GMT +2)**
+* **오전 9시~10시 (BST, GMT +1), 오전 10시~11시 (CEST, GMT +2)**
 * **[등록 정보](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
-고객 지원 [!DNL Adobe Target]의 강력한 테스트 및 개인화 기능. 웹, 모바일 및 디지털 디바이스 전반에서 동적으로 상황에 맞는 경험을 제공함으로써 고객이 있는 모든 곳에 있는지 확인할 수 있습니다.
+[!DNL Adobe Target]의 강력한 테스트 및 개인화 기능을 통해 고객을 리드할 수 있습니다. 웹, 모바일 및 디지털 디바이스에서 동적으로 상황에 맞는 경험을 제공하여 고객이 어디에 있든 상관없이 사용할 수 있습니다.
 
 +++세부 사항
 
-웨비나에서는 다음을 다룹니다.
+웨비나에서는 다음과 같은 내용을 다룹니다.
 
-* 개인화가 모든 전략의 중요한 부분입니다
+* 개인화가 전략의 핵심인 이유
 * 다양한 활동 유형 식별 및 사용
-* Spotlight - 업계 활용 사례
-* Recommendations에서 개인화 유도
-* 데모 [!DNL Target] 사용자 인터페이스, 강조 표시
-   * 대상 만들기
-   * 설정 [!UICONTROL 경험 타깃팅] (XT) 활동
-   * 설정 [!UICONTROL 자동 Target] 및 [!UICONTROL 자동 개인화] 활동
+* Spotlight - 산업 사용 사례
+* 개인화 추진을 위한 권장 사항
+* [!DNL Target] 사용자 인터페이스 데모, 강조 표시
+   * 대상자 생성
+   * [!UICONTROL 경험 타겟팅](XT) 활동 설정
+   * [!UICONTROL 자동 타겟팅] 및 [!UICONTROL 자동 개인화] 활동 설정
 
 +++
 
