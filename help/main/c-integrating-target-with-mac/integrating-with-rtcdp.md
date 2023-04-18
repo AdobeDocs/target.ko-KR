@@ -7,11 +7,11 @@ exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
 source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
 workflow-type: tm+mt
 source-wordcount: '936'
-ht-degree: 9%
+ht-degree: 49%
 
 ---
 
-# 통합 대상 [!DNL Real-Time Customer Data Platform]
+# [!DNL Real-Time Customer Data Platform]과 통합
 
 기본 제공 [!DNL Adobe Experience Platform], [!DNL Real-Time Customer Data Platform] (RTCDP)는 기업이 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. RTCDP를 사용하면 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
@@ -22,8 +22,8 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 주요 기능은 다음과 같습니다.
 
 * 직접 [!DNL Target] Real-Time CDP과 통합/[!DNL Adobe Experience Platform] Edge에 대한 종속성 제거 [!DNL Audience Core services] - AAM)
-* [!UICONTROL Target Edge Destinations 카드] 정부 및 정책 집행
-* 실시간 CDP 세그먼트 및 공유 프로필 속성
+* 거버넌스 및 정책 시행 기능이 포함된 [!UICONTROL Target 에지 대상 카드]
+* Real-time CDP 세그먼트 및 공유 프로필 속성
 
 ## 구현 시나리오
 
@@ -33,44 +33,44 @@ RTCDP에 대한 자세한 내용은 [Real-time Customer Data Platform 개요](ht
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL Adobe Audience Manager] (AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP] (Premium 또는 Ultimate) 및 [!DNL Target]</li><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul> | 다음 세션 개인화 |
+| <ul><li>[!DNL Adobe Audience Manager](AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP](Premium 또는 Ultimate) 및[!DNL Target]</li><li>[!DNL RTCDP](모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | 다음 세션 개인화 |
 
 ### [!DNL Adobe Experience Platform Web SDK] 또는 [!DNL Experience Platform Server-Side API] 구현
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><li>Edge를 통한 동일한 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
-| <ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>을 통해 타사 세그먼트 [!DNL AAM]</li></ul><li>Edge를 통한 동일한 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
+| <ul><li>[!DNL RTCDP](모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><li>에지를 통한 동일 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
+| <ul><li>[!DNL RTCDP](모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul><li>에지를 통한 동일 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
 
-### 혼합 [!UICONTROL at.js] 및 [!DNL Platform Web SDK] 구현
+### [!UICONTROL at.js]와 [!DNL Platform Web SDK]의 혼합 구현
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP] (모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!UICONTROL at.js]</li></ul><li>동일한 페이지 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!DNL Platform Web SDK]</li></ul> |
-| <ul><li>[!DNL RTCDP] (모든 SKU), [!DNL AAM], 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>을 사용하는 모든 페이지의 경우 [!UICONTROL at.js]</li><li>[!DNL AAM] 세그먼트</li><li>을 통해 타사 세그먼트 [!DNL AAM]</li></ul> |
+| <ul><li>[!DNL RTCDP](모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li></ul><li>동일 페이지 개인화</li><ul><li>[!DNL Platform Web SDK]가 포함된 모든 페이지의 경우</li></ul> |
+| <ul><li>[!DNL RTCDP](모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul> |
 
 ## 세그먼트 평가 시간
 
-다음 표는 다른 구현 시나리오에서 발생하는 이벤트에 대한 세그먼트 평가 시간을 보여줍니다.
+다음 표에서는 다양한 구현 시나리오에서 발생하는 이벤트에 대한 세그먼트 평가 시간이 표시됩니다.
 
-| 시나리오 | 에지 세그먼트(밀리초 평가) | 스트리밍 세그먼트(분 평가) | 배치 세그먼트 평가 |
+| 시나리오 | 에지 세그먼트 (밀리초 평가) | 스트리밍 세그먼트 (분 평가) | 배치 세그먼트 평가 |
 | --- | --- | --- | --- |
-| 이벤트/데이터 원본 [!DNL Adobe Experience Platform] SDK | 예 | 예 | 해당 사항 없음 |
-| 이벤트 출처 [!UICONTROL at.js] | 아니요 | 예 | 해당 사항 없음 |
-| 이벤트 출처 [!DNL Target Mobile] SDK | 아니요 | 예 | 해당 사항 없음 |
-| 일괄 업로드에서 이벤트 | 아니오 | 아니요 | 예 |
-| 오프라인 데이터(스트림)의 이벤트 | 아니요 | 예 | 예 |
+| DNL [!DNL Adobe Experience Platform] SDK의 이벤트/데이터 | 예 | 예 | 해당 사항 없음 |
+| [!UICONTROL at.js] 이벤트 | 아니요 | 예 | 해당 사항 없음 |
+| [!DNL Target Mobile] SDK 이벤트 | 아니요 | 예 | 해당 사항 없음 |
+| 배치 업로드 이벤트 | 아니요 | 아니요 | 예 |
+| 오프라인 데이터 이벤트 (스트림) | 아니요 | 예 | 예 |
 
-## 다음에서 대상 사용 [!DNL Adobe Experience Platform] {#aep}
+## [!DNL Adobe Experience Platform]의 대상자 사용 {#aep}
 
-사용 [대상자](/help/main/c-target/c-audiences/audiences.md) 에서 생성됨 [!DNL Adobe Experience Platform] 는 더 효과적인 개인화를 생성하는 더 풍부한 고객 데이터를 제공합니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), 구축 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
+[!DNL Adobe Experience Platform]에서 생성된 [대상자](/help/main/c-target/c-audiences/audiences.md)를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. 다음 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), 구축 [!DNL Adobe Experience Platform]는 회사가 여러 엔터프라이즈 소스에서 알려진 데이터와 익명의 데이터를 통합하는 데 도움이 됩니다. 이 프로세스를 통해 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
-연결 [!DNL Target] 변환 후 [!DNL Real-Time Customer Data Platform], 고객은 웹 개인화를 보강할 수 있습니다. 이 통합을 사용하면 이전에 액세스할 수 없었던 새로운 세그먼트의 잠금을 해제할 수 있습니다 [!DNL Target] 고객 웹 방문의 첫 페이지에서 실시간 개인화를 사용하도록 설정하려면 다음을 수행하십시오. 에서 만들어진 대상 및 프로필 속성 사용 [!DNL Adobe Experience Platform] 더 풍부한 개인화를 위해 사용 가능한 데이터 포인트를 확장할 수 있습니다.
+연결 [!DNL Target] 변환 후 [!DNL Real-Time Customer Data Platform], 고객은 웹 개인화를 보강할 수 있습니다. 이 통합을 사용하면 이전에 액세스할 수 없었던 새로운 세그먼트의 잠금을 해제할 수 있습니다 [!DNL Target] 고객 웹 방문의 첫 페이지에서 실시간 개인화를 사용하도록 설정하려면 다음을 수행하십시오. [!DNL Adobe Experience Platform]에서 생성된 대상자 및 프로필 속성을 사용하면 사용 가능한 데이터 포인트를 확장하여 보다 풍부한 개인화를 수행할 수 있습니다.
 
 이 통합은 Real-Time CDP에서 주요 사용 사례를 잠금 해제합니다.
 
-* 동일 페이지/다음 히트 개인화
-* 최초/알 수 없는 사용자 개인화
+* 동일 페이지 / 다음 히트 개인화
+* 최초 / 알 수 없는 사용자 개인화
 
 ## 다음 사용자와 Real-Time CDP 프로필 속성 공유 [!DNL Target] {#rtcdp-profile-attributes}
 
@@ -86,11 +86,11 @@ Real-Time CDP 프로필 속성을 [!DNL Target] HTML 오퍼 및 [JSON 오퍼](/h
 
 * 주어진 오퍼 내의 속성은 동일해야 합니다 [!UICONTROL Experience Platform] 샌드박스 (즉, 오퍼는 다른 요소의 속성을 포함할 수 없습니다 [!UICONTROL Experience Platform] 샌드박스)
 * 주어진 오퍼 내의 속성은 다른 소스에서 올 수 있습니다. 즉, [!DNL Target] 프로필 및 [!UICONTROL Experience Platform] 프로필 참조. (다시 말해, 속성이 파생되는지 여부를 결합할 수 있습니다 [!DNL Target] 또는 [!UICONTROL Experience Platform] profile.)
-* 오퍼를 정의할 때에에 기본값을 지정할 수 있습니다 [!UICONTROL Real-Time CDP 프로필 속성]인 경우, 속성에 명시적 값이 없는 경우 예를 들어, 동의 또는 거버넌스 정책이 개인화 서비스에서 사용되는 속성을 차단하는 경우 기본값을 대신 사용할 수 있습니다.
+* 오퍼를 정의할 때에에 기본값을 지정할 수 있습니다 [!UICONTROL Real-Time CDP 프로필 속성]인 경우, 속성에 명시적 값이 없는 경우 예를 들어 개인화 서비스에서 사용 중인 속성을 동의 또는 거버넌스 정책이 차단하는 경우 기본값을 대신 사용할 수 있습니다.
 
 ### JSON 샘플 사용 사례
 
-온라인 마케터는 AEP/통합 프로필이 속성 값을 와 공유할 수 있도록 합니다 [!DNL Target] 을 입력하여 실시간 개인화를 제공할 수 있습니다. 사용 [!UICONTROL Real-Time CDP 프로필 속성]를 채울 때 [!UICONTROL Experience Platform] 의 속성 [!DNL Target] 토큰 대체를 사용하여 오퍼. 예를 들어 `${aep.profile.favoriteColor}`또는 토큰을 사용하여 충성도 계층 및 충성도 포인트 값을 생성합니다 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}`.
+온라인 마케터는 AEP/통합 프로필이 속성 값을 와 공유할 수 있도록 합니다 [!DNL Target] 을 입력하여 실시간 개인화를 제공할 수 있습니다. 사용 [!UICONTROL Real-Time CDP 프로필 속성]를 채울 때 [!UICONTROL Experience Platform] 의 속성 [!DNL Target] 토큰 대체를 사용하여 오퍼. 예를 들어 `${aep.profile.favoriteColor}`를 사용하여 고객이 선호하는 색상에 따라 개인화하거나 `${aep.loyalty.tier}` 및 `${aep.loyalty.points}` 토큰을 사용하여 로열티 등급 및 로열티 포인트 값에 따라 개인화할 수 있습니다.
 
 AEP/Unified Profile 속성을 와 공유할 JSON 오퍼를 작성하려면 다음을 수행하십시오 [!DNL Target]:
 
@@ -102,24 +102,24 @@ AEP/Unified Profile 속성을 와 공유할 JSON 오퍼를 작성하려면 다�
 
 다음 그림은 두 개의 프로필 속성을 보여줍니다. `loyalty.tier` 및 `loyalty.points` 을 JSON 오퍼에 추가했습니다.
 
-![offer-json-aep-shared-attribute 이미지](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
+![offer-json-aep-shared-attribute image](/help/main/c-experiences/c-manage-content/assets/offer-json-aep-shared-attribute.png)
 
 ## 추가 정보 링크
 
 자세한 내용은 다음 주제를 참조하십시오.
 
-* [대상 릴리스 노트](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} 에서 *Adobe Experience Platform 릴리스 노트*
-* [동일 페이지 및 다음 페이지 개인화를 위한 개인화 대상 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} 에서 *대상 개요* 안내서.
-* [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} 에서 *대상 개요* 안내서
+* *Adobe Experience Platform 릴리스 정보*&#x200B;의 [대상 릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=ko#destinations){target=_blank}
+* *대상 개요* 안내서에서 [동일 페이지 및 다음 페이지 개인화에 대한 개인화 대상을 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}합니다.
+* *대상 개요* 안내서의 [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
 * [맵 속성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank} 에서 *대상 개요* 안내서.
 
 ## 비디오 및 블로그 게시물
 
-다음 비디오 및 블로그 게시물은 Target 및 RTCDP를 사용한 향상된 개인화에 대한 자세한 정보를 제공합니다.
+Target 및 RTCDP를 통한 향상된 개인화에 대한 자세한 내용은 다음 비디오 및 블로그 게시물을 참조하십시오.
 
 ### 비디오: Real-Time CDP 및 을 사용한 다음 히트 개인화 [!DNL Adobe Target]{#RTCDP}
 
-을 사용하여 다음 히트에 대해 개인화하는 방법을 알아봅니다. [!DNL Real-Time Customer Data Platform] 및 [!DNL Adobe Target]. 다음 [!DNL Adobe Target] 대상 [!DNL Real-Time CDP] 를 사용하면 [!DNL Experience Platform] 세그먼트 [!DNL Adobe Target] 거버넌스 및 개인 정보 지원을 통해 동일한 페이지 개인화 및 다음 페이지 개인화를 위해.
+[!DNL Real-Time Customer Data Platform] 및 [!DNL Adobe Target]을 사용하여 다음 히트를 개인화하는 방법을 알아보십시오. [!DNL Real-Time CDP]의 [!DNL Adobe Target] 대상을 통해 [!DNL Adobe Target]의 [!DNL Experience Platform] 세그먼트를 사용하여 거버넌스 및 개인정보 보호 지원 기능을 제공받으며 동일 페이지 개인화 및 다음 페이지 개인화를 수행할 수 있습니다.
 
 자세한 내용은 [Real-Time CDP 및 Adobe Target을 사용한 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank} 에서 *플랫폼 Tutorials* 안내서.
 

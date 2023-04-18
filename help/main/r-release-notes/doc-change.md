@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
 source-wordcount: '2432'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -20,10 +20,10 @@ ht-degree: 97%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 4월 13일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 정보가 추가되었습니다 [!DNL Target] Standard/Premium 23.4.1 릴리스(2023년 4월 25-27일). |
-| 4월 12일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 웨비나에 등록할 링크가 추가되었습니다.<ul><li>개인화된 고객 경험을 항상 제공!</li></ul> |
-|  | [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 다음 FAQ가 추가되었습니다.<ul><li>모델이 교육에 사용하지 않으려는 특성이 하나 이상 표시됩니다. 교육 모델에서 이러한 속성을 제거할 수 있습니까?</li></ul> |
-|  | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 다음 FAQ가 추가되었습니다.<ul><li>사용자에게 여러 역할과 권한이 있는 경우 어떻게 됩니까?</li></ul> |
-|  | [AEM 콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 새 주제입니다. 이 기능은 테스트 목적으로 &quot;사전 릴리스&quot; 상태에 있습니다. |
+| 4월 12일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 웨비나에 등록할 수 있는 링크가 추가되었습니다.<ul><li>항상 개인화된 고객 경험을 제공하십시오.</li></ul> |
+|  | [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 다음 FAQ가 추가되었습니다.<ul><li>모델에서 교육에 사용하지 않으려는 하나 이상의 속성이 표시됩니다. 교육 모델에서 해당 속성을 제거할 수 있습니까?</li></ul> |
+|  | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 다음 FAQ가 추가되었습니다.<ul><li>사용자에게 여러 역할 및 권한이 있는 경우 어떻게 됩니까?</li></ul> |
+|  | [AEM 콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 새 주제입니다. 이 기능은 테스트용으로 “프리릴리스” 상태로 제공됩니다. |
 | 4월 5일 | [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 오퍼 결정을 사용하는 활동에서 [!UICONTROL 보고 소스로서의 Analytics](A4t)가 지원되지 않음을 나타내는 텍스트가 추가되었습니다. |
 | 4월 3일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 4월 12일, 수요일로 예정된 [!UICONTROL Adobe Target 커뮤니티] 커피 브레이크에 대한 정보가 추가되었습니다. |
 |  | [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 모든 [!DNL Adobe Analytics] IP 주소 블록을 허용 목록에 추가했습니다. |
@@ -130,7 +130,7 @@ ht-degree: 97%
 |  | [콘텐츠 보안 정책(CSP) 지침](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank}  | FAQ 섹션이 추가되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.5.1 및 Target 플랫폼(2022년 5월 11~13일) 릴리스에 대한 정보가 추가되었습니다. |
 
-## Adobe Target Standard/Premium 22.4.1(4월 28일)
+## Adobe Target Standard/Premium 22.4.1 (4월 28일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
@@ -139,7 +139,7 @@ ht-degree: 97%
 |  | [[!UICONTROL 자동 할당] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | 다음과 같은 FAQ가 추가되었습니다.<ul><li>[!UICONTROL 자동 할당] 활동은 시간 경과에 따른 트렌드 변화를 고려하기 위해 테스트 과정에서 전환 확인 창을 조정할 수 있습니까?</li><li>당첨 경험이 방문자가 활동 자격 조건을 충족할 때 표시되는 것과 다른 경우 [!UICONTROL 자동 할당]은 재방문 사용자에게 우승 경험을 표시합니까?</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.4.1 및 Target 플랫폼(2022년 4월 27일) 릴리스에 대한 정보가 추가되었습니다. |
 
-## Adobe Target Standard/Premium 22.3.1(4월 5일)
+## Adobe Target Standard/Premium 22.3.1 (4월 5일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |

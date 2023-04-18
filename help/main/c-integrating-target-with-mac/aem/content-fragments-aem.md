@@ -8,7 +8,7 @@ exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
 workflow-type: tm+mt
 source-wordcount: '790'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -18,29 +18,29 @@ Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!D
 
 >[!NOTE]
 >
->이 기능은 2023년 4월 12일에 사전 릴리스 기능으로 사용할 수 있습니다. 사전 릴리스 기능으로 [!UICONTROL 컨텐츠 조각] 개발 및 스테이징 환경을 사용하지만 프로덕션 환경에서는 사용하지 않습니다.
+>이 기능은 2023년 4월 12일에 프리릴리스 기능으로 제공됩니다. 프리릴리스 기능으로 개발 및 스테이징 환경을 사용하여 [!UICONTROL 콘텐츠 조각]을 실험할 수 있지만 프로덕션 환경에서는 사용할 수 없습니다.
 >
->이 기능은 2023년 4월 26일에 GA(General Availability) 릴리스에서 사용할 수 있습니다.
+>이 기능은 2023년 4월 26일에 GA(일반 배포) 릴리스에서 사용할 수 있습니다.
 
 ## 고려 사항
 
 [!DNL Target]에서 AEM [!UICONTROL 콘텐츠 조각]을 사용하여 작업할 때 다음 사항을 고려하십시오.
 
 * [!DNL Adobe Experience Manager as a Cloud Service] 고객만 이 기능을 사용할 수 있습니다. 자세한 내용은 아래의 [요구 사항](#section_AE6F0971E1574B3AA324003599B96E5A)을 참조하십시오.
-* [!UICONTROL 경험 조각] 및 [!UICONTROL 컨텐츠 조각] 는 다음 활동 유형에 사용할 수 있습니다.
+* [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]은 다음 활동 유형에 사용할 수 있습니다.
 
    * [[!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL 자동 할당]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-   * [[!UICONTROL 자동 타기팅]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL 자동화된 개인화] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+   * [[!UICONTROL 자동 타겟팅]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL 경험 타겟팅] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
-* [!UICONTROL 경험 조각] 및 [!UICONTROL 컨텐츠 조각] 다음 활동 유형에는 사용할 수 없습니다.
+* [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]은 다음 활동 유형에 사용할 수 없습니다.
 
    * [[!UICONTROL 다변량 테스트] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다. [!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 *없습니다*. 
+* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다. [!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 *없습니다*.
 
 AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자세히 알아보려면 [AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)를 참조하십시오.
 
@@ -52,7 +52,7 @@ AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자�
 
 ## [!DNL AEM]에서 [!UICONTROL 콘텐츠 조각] 구성 및 작업 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-[!DNL Target] 활동에서 사용하기 위해 [!UICONTROL 콘텐츠 조각]을 내보내려면 AEM에서 몇 가지 예비 단계를 수행해야 합니다. 자세한 내용은 [Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html)의 {target=_blank}Adobe Target으로 콘텐츠 조각 내보내기&#x200B;**&#x200B;를 참조하십시오.
+[!DNL Target] 활동에서 사용하기 위해 [!UICONTROL 콘텐츠 조각]을 내보내려면 AEM에서 몇 가지 예비 단계를 수행해야 합니다. 자세한 내용은 *Experience Manager as a Cloud Service 설명서*&#x200B;의 [Adobe Target으로 콘텐츠 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}를 참조하십시오.
 
 [!UICONTROL 콘텐츠 조각]의 디자인, 생성, 조정 및 게시에 대한 내용은 [[!UICONTROL 콘텐츠 조각]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ko){target=_blank} and [Working with Content Fragments](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank} in the [Experience Manager as a Cloud Service documentation](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}을 참조하십시오.
 
@@ -76,9 +76,9 @@ AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자�
 
 >[!TIP]
 >
->[!UICONTROL 콘텐츠 조각]과 함께 인공 지능, 기계 학습 및 추천 사용:
+>[!UICONTROL 콘텐츠 조각]과 함께 인공 지능, 머신 러닝 및 추천 사용:
 >
->* 를 완전히 사용하려면 [!DNL Target] AI 및 ML 기능을 선택하여 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 만드는 동안 [!UICONTROL A/B 테스트] 활동.
+>* [!DNL Target]의 AI 및 ML 기능을 완전히 사용하려면 [!UICONTROL A/B 테스트] 활동을 만드는 동안 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 타겟팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 선택하면 됩니다.
 >
 >* [!UICONTROL 콘텐츠 조각]은 [!DNL Recommendations] 활동에서 지원되지 않습니다. 단, 추천에 [!UICONTROL 콘텐츠 조각]을 사용하려면 [!UICONTROL A/B 테스트] 활동([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 포함) 또는 [!UICONTROL 경험 타겟팅] (XT) 활동을 만들고 [오퍼를 추천으로 포함](/help/main/c-recommendations/recommendations-as-an-offer.md)하면 됩니다.
 
