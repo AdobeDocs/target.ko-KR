@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # (AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요
 
-[!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 생성된 [!UICONTROL 경험 조각](XF) 및 [!UICONTROL 콘텐츠 조각](CF)을 사용하여 최적화 및 개인화를 지원할 수 있습니다.
+[!DNL Target] 활동의 [!DNL Adobe Experience Manager]&#8203;(AEM)에서 생성된 [!UICONTROL 경험 조각]&#8203;(XF) 및 [!UICONTROL 콘텐츠 조각]&#8203;(CF)을 사용하여 최적화 및 개인화를 지원할 수 있습니다.
 
 [!DNL Target] 활동에 [!DNL AEM]에서 만든 [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을 사용하면 [!DNL AEM]의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.
 
