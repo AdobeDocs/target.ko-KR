@@ -43,7 +43,7 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)에 대한 Mag
 * 개인화 추진을 위한 권장 사항
 * [!DNL Target] 사용자 인터페이스 데모, 강조 표시
    * 대상자 생성
-   * [!UICONTROL 경험 타겟팅](XT) 활동 설정
+   * [!UICONTROL 경험 타겟팅]&#8203;(XT) 활동 설정
    * [!UICONTROL 자동 타겟팅] 및 [!UICONTROL 자동 개인화] 활동 설정
 
 +++
