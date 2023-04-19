@@ -14,7 +14,7 @@ ht-degree: 100%
 
 # AEM [!UICONTROL 콘텐츠 조각]
 
-Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 생성된 [!UICONTROL 콘텐츠 조각]을 사용합니다.
+Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager]&#8203;(AEM)에서 생성된 [!UICONTROL 콘텐츠 조각]을 사용합니다.
 
 >[!NOTE]
 >
@@ -40,7 +40,7 @@ Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!D
    * [[!UICONTROL 다변량 테스트] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다. [!UICONTROL 시각적 경험 작성기](VEC)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 *없습니다*.
+* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다. [!UICONTROL 시각적 경험 작성기]&#8203;(VEC)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 *없습니다*.
 
 AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자세히 알아보려면 [AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)를 참조하십시오.
 
