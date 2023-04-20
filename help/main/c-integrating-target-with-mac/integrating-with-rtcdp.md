@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # [!DNL Real-Time Customer Data Platform]과 통합
 
-[!DNL Adobe Experience Platform] 플랫폼을 기반으로 구축된 [!DNL Real-Time Customer Data Platform](RTCDP)은 기업이 여러 엔터프라이즈 소스의 알려진 데이터와 익명 데이터를 통합할 수 있도록 지원합니다. RTCDP를 통해 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
+[!DNL Adobe Experience Platform] 플랫폼을 기반으로 구축된 [!DNL Real-Time Customer Data Platform]&#8203;(RTCDP)은 기업이 여러 엔터프라이즈 소스의 알려진 데이터와 익명 데이터를 통합할 수 있도록 지원합니다. RTCDP를 통해 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
 RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}를 참조하십시오.
 
@@ -33,21 +33,21 @@ RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](ht
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL Adobe Audience Manager](AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP](Premium 또는 Ultimate) 및[!DNL Target]</li><li>[!DNL RTCDP](모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | 다음 세션 개인화 |
+| <ul><li>[!DNL Adobe Audience Manager]&#8203;(AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP]&#8203;(Premium 또는 Ultimate) 및[!DNL Target]</li><li>[!DNL RTCDP]&#8203;(모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | 다음 세션 개인화 |
 
 ### [!DNL Adobe Experience Platform Web SDK] 또는 [!DNL Experience Platform Server-Side API] 구현
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP](모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><li>에지를 통한 동일 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
-| <ul><li>[!DNL RTCDP](모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul><li>에지를 통한 동일 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
+| <ul><li>[!DNL RTCDP]&#8203;(모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><li>에지를 통한 동일 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
+| <ul><li>[!DNL RTCDP]&#8203;(모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul><li>에지를 통한 동일 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
 
 ### [!UICONTROL at.js]와 [!DNL Platform Web SDK]의 혼합 구현
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP](모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li></ul><li>동일 페이지 개인화</li><ul><li>[!DNL Platform Web SDK]가 포함된 모든 페이지의 경우</li></ul> |
-| <ul><li>[!DNL RTCDP](모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul> |
+| <ul><li>[!DNL RTCDP]&#8203;(모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li></ul><li>동일 페이지 개인화</li><ul><li>[!DNL Platform Web SDK]가 포함된 모든 페이지의 경우</li></ul> |
+| <ul><li>[!DNL RTCDP]&#8203;(모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul> |
 
 ## 세그먼트 평가 시간
 
