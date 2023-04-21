@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2441'
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 4월 19일 | [위치 기여도 보고서 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | 참고에 정보가 업데이트되었습니다. |
+| 4월 19일 | [[!UICONTROL 위치 기여도] 보고서 (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md) | 메모의 정보가 업데이트되었습니다. |
 | 4월 13일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] Standard/Premium 23.4.1 릴리스(2023년 4월 25~27일)에 대한 정보가 추가되었습니다. |
 | 4월 12일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 웨비나에 등록할 수 있는 링크가 추가되었습니다.<ul><li>항상 개인화된 고객 경험을 제공하십시오.</li></ul> |
 |  | [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 다음 FAQ가 추가되었습니다.<ul><li>모델에서 교육에 사용하지 않으려는 하나 이상의 속성이 표시됩니다. 교육 모델에서 해당 속성을 제거할 수 있습니까?</li></ul> |
