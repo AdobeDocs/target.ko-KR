@@ -25,13 +25,13 @@ ht-degree: 100%
 |  | [중요 속성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | 다음 FAQ가 추가되었습니다.<ul><li>모델에서 교육에 사용하지 않으려는 하나 이상의 속성이 표시됩니다. 교육 모델에서 해당 속성을 제거할 수 있습니까?</li></ul> |
 |  | [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | 다음 FAQ가 추가되었습니다.<ul><li>사용자에게 여러 역할 및 권한이 있는 경우 어떻게 됩니까?</li></ul> |
 |  | [AEM 콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 새 주제입니다. 이 기능은 테스트용으로 “프리릴리스” 상태로 제공됩니다. |
-| 4월 5일 | [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 오퍼 결정을 사용하는 활동에서 [!UICONTROL 보고 소스로서의 Analytics](A4t)가 지원되지 않음을 나타내는 텍스트가 추가되었습니다. |
+| 4월 5일 | [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 오퍼 결정을 사용하는 활동에서 [!UICONTROL 보고 소스로서의 Analytics]&#8203;(A4t)가 지원되지 않음을 나타내는 텍스트가 추가되었습니다. |
 | 4월 3일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 4월 12일, 수요일로 예정된 [!UICONTROL Adobe Target 커뮤니티] 커피 브레이크에 대한 정보가 추가되었습니다. |
 |  | [Target 에지 노드를 허용 목록에 추가](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | 모든 [!DNL Adobe Analytics] IP 주소 블록을 허용 목록에 추가했습니다. |
 | 3월 30일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 기능에 대한 최적화된 A4T 지표 릴리스에 대한 릴리스 정보를 업데이트하여 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 [!UICONTROL A4T]를 사용할 때 이항 이벤트를 기반으로 하는 지표 또는 연속 이벤트를 기반으로 하는 지표를 선택할 수 있도록 했습니다. |
 |  | [[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대해 지원되는 지표 및 지원되지 않는 지표에 대한 정보를 포함하도록 “지원되는 목표 지표” 섹션이 업데이트되었습니다. |
 |  | [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank} | 다음 튜토리얼이 업데이트되었습니다.<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
-|  | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Adobe Experience Manager](AEM) 및 [!DNL Adobe Target][!UICONTROL 콘텐츠 조각] 릴리스에 대한 정보를 추가했습니다. (2023년 4월 6일) |
+|  | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Adobe Experience Manager]&#8203;(AEM) 및 [!DNL Adobe Target][!UICONTROL 콘텐츠 조각] 릴리스에 대한 정보를 추가했습니다. (2023년 4월 6일) |
 | 3월 28일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.3.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 22.15.1 (2023년 3월 8일, 9일)
@@ -54,7 +54,7 @@ ht-degree: 100%
 | 2월 2일 | [시각적 경험 작성기에 관련된 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | 다음 섹션이 업데이트되었습니다.<ul><li>검색 모드를 사용할 때 VEC가 손상된 것으로 표시됨</li></ul> |
 |  | [Target에서 대상자 빌드](/help/main/c-target/c-audiences/create-audience.md) | 대상자 이름에 사용할 수 없는 문자 및 문자 시퀀스의 목록이 추가되었습니다. |
 | 1월 31일 | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | mbox 이름에 대해 허용되는 문자 및 허용되지 않는 문자의 목록이 추가되었습니다. |
-| 1월 25일 | [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 이제 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization](AP) 활동에서 JSON 오퍼에 대한 지원을 이용할 수 있습니다. |
+| 1월 25일 | [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 이제 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization]&#8203;(AP) 활동에서 JSON 오퍼에 대한 지원을 이용할 수 있습니다. |
 |  | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크: 경험 최적화를 위한 모바일 및 인증된 사용 사례</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.13.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
@@ -68,7 +68,7 @@ ht-degree: 100%
 |  | [Target 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 22.13.3 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 12월 21일 | [Velocity를 사용하여 디자인 사용자 정의](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | “다중 값” 속성을 제외하고 `productPage` mbox 또는 CSV 업로드에서 [!DNL Recommendations]로 전송된 엔티티 속성이 디자인에 표시될 수 있음을 명확히 했습니다. |
 | 12월 20일 | [[!UICONTROL Automated Personalization의 오퍼 보고 그룹]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | “주의 사항” 아래에 보고 그룹에 대한 추가 정보를 추가하였습니다. |
-| 12월 14일 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md#environment) | [!DNL Adobe Experience Platform](AEP)을 사용하여 지표 데이터를 [!DNL Target]으로 보내는 방법과 관련하여 “환경” 섹션에 메모가 추가되었습니다. |
+| 12월 14일 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md#environment) | [!DNL Adobe Experience Platform]&#8203;(AEP)을 사용하여 지표 데이터를 [!DNL Target]으로 보내는 방법과 관련하여 “환경” 섹션에 메모가 추가되었습니다. |
 | 11월 29일 | [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md) | 다음 단락을 추가하여 텍스트를 명확히 했습니다.<ul><li>방문자의 지역 정보는 [!DNL Target] 위치 요청(mbox 요청)의 원래 IP 주소에서 결정됩니다. IP-to-geo 해결은 새 세션의 첫 번째 호출에 대해 수행됩니다. 이는 방문자의 IP 주소가 방문 세션 중간에 변경되는 경우 지역 정보는 여전히 첫 번째 호출의 IP 주소를 기반으로 한다는 것을 의미합니다.</li></ul> |
 | 11월 28일 | *Adobe Target 개발자 안내서*&#x200B;의 [모델 API(차단 목록에 추가) 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} | 새 모델 API.<br>기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟팅] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 모델 API 릴리스(2022년 11월 23일)에 대한 정보가 추가되었습니다. |
@@ -167,7 +167,7 @@ ht-degree: 100%
 | 3월 8일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 3월 30일)</li></ul> |
 | 3월 7일 | [대상자 만들기](/help/main/c-target/c-audiences/audiences.md#aep) | “[!DNL Adobe Experience Platform]의 대상자 사용:” 아래에 새로운 섹션 추가됨<ul><li>개인화 사용 사례</li></ul> |
 | 2월 25일 | [자동 할당 및 자동 타겟팅 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | 다음 섹션이 업데이트되었습니다.<ul><li>[자동 할당 및 자동 타겟팅](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[자동 할당](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
-|  | [자동 할당 보고서 해석](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 새 FAQ 추가:<ul><li>[!UICONTROL 보고 소스로서의 Analytics](A4T)를 사용하는 [!UICONTROL 자동 할당] 활동에 “우승자 없음”, “우승자” 및 “별” 배지를 사용할 수 있습니까?</li></ul> |
+|  | [자동 할당 보고서 해석](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | 새 FAQ 추가:<ul><li>[!UICONTROL 보고 소스로서의 Analytics]&#8203;(A4T)를 사용하는 [!UICONTROL 자동 할당] 활동에 “우승자 없음”, “우승자” 및 “별” 배지를 사용할 수 있습니까?</li></ul> |
 |  | [활동 전용 대상자 만들기](/help/main/c-target/creating-activity-only-audience.md) | 제외 규칙에 대해 논의하는 “고려 사항” 섹션에 정보가 추가되었습니다. |
 | 2월 10일 | [시각적 경험 작성기 Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | VEC(시각적 경험 작성기)에서 서비스 작업자를 통해 웹 사이트를 로드하는 방법에 대한 정보가 추가되었습니다. |
 | 2월 7일 | [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2022년 2월 23일)</li></ul> |
