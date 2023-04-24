@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
-workflow-type: ht
-source-wordcount: '1937'
-ht-degree: 100%
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+workflow-type: tm+mt
+source-wordcount: '2152'
+ht-degree: 90%
 
 ---
 
@@ -20,6 +20,29 @@ ht-degree: 100%
 Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)에 대한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target]은 평가된 모든 공급업체 중 테스트 기능에서 가장 높은 점수를 받았습니다.
 
 자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}을 참조하십시오.
+
+## [!UICONTROL Adobe Target 커뮤니티] 커피 브레이크 Q&amp;A: 인증된 환경을 위한 모바일 경험 최적화 및 개인화
+
+* **2023년 4월 26일 수요일**
+* **오후 1시 (EDT, UTC-4)**
+* **[등록 정보](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
+
+가입 [!DNL Adobe Target] 마케팅 관리자인 Brent Kostak가 그 방법에 관해 논의하면서 [!DNL Target] 및 [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP)는 규제 대상 산업 내에서 참여, 매출 및 고객 충성도를 높일 수 있습니다.
+
++++세부 사항
+
+브랜드는 특정 고객 요구 사항과 행동에 따라 개인화되고 연관성 있는 경험을 제공해야 합니다. 마케팅 기술에 대한 쿠키 없는 미래와 관련하여 규제 대상 기업은 보다 강력한 고객 참여 프레임워크를 도입하면서 적절한 컨텐츠 및 오퍼에 대한 각 고객 상호 작용을 최적화하고 있습니다.
+
+금융 서비스 및 보험, 소매, 여행 및 숙박, 통신 업계 전반의 브랜드가 인증된 환경 내에서 최적화 및 개인화를 위한 우수 사례를 어떻게 채택할 수 있습니까? 충성스런 고객의 참여 및 유지를 위한 모바일 앱의 중요성을 이해하면 브랜드가 디지털 셀프 서비스를 가능하게 하거나 개인화된 경험을 통해 새로운 기능 채택을 늘릴 수 있습니까?
+
+이 세션에서 [!DNL Target] 및 [!DNL Real-Time Customer Data Platform] Dell은 다음과 같은 논의를 통해 규제 대상 산업 내에서 서비스, 수익 및 고객 충성도를 높일 수 있습니다.
+
+* 팀이 익명의 방문자와 인증된 방문자 모두에게 개인화된 경험을 제공하는 방법
+* 개인화를 통해 소비자 권한 및 개인 정보 보호 표준 이해
+* ID를 익명화하여 인증된 방문자에게 개인화된 콘텐츠 및 오퍼
+* 웹 및 모바일에서 인증된 보안 사이트에 대한 고유한 사용 사례
+
++++
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
@@ -43,7 +66,7 @@ Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)에 대한 Mag
 * 개인화 추진을 위한 권장 사항
 * [!DNL Target] 사용자 인터페이스 데모, 강조 표시
    * 대상자 생성
-   * [!UICONTROL 경험 타겟팅]&#8203;(XT) 활동 설정
+   * [!UICONTROL 경험 타겟팅]&#x200B;(XT) 활동 설정
    * [!UICONTROL 자동 타겟팅] 및 [!UICONTROL 자동 개인화] 활동 설정
 
 +++
