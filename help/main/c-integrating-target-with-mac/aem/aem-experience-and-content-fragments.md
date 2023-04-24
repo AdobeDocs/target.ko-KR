@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] 활동에서 [!DNL Adobe Experience Manager] 
 title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
 feature: Integrations
 exl-id: 6f1a02da-8f59-4a8b-8e97-c20444ef53c8
-source-git-commit: 7c81362a82ca6692bb8c183b8e8fc50c6329e2e8
+source-git-commit: f39ec80d9804fff2c65fce98ca2be5400d99aad0
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 100%
@@ -13,7 +13,7 @@ ht-degree: 100%
 
 # (AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요
 
-[!DNL Target] 활동의 [!DNL Adobe Experience Manager]&#8203;(AEM)에서 생성된 [!UICONTROL 경험 조각]&#8203;(XF) 및 [!UICONTROL 콘텐츠 조각]&#8203;(CF)을 사용하여 최적화 및 개인화를 지원할 수 있습니다.
+[!DNL Target] 활동의 [!DNL Adobe Experience Manager]&#x200B;(AEM)에서 생성된 [!UICONTROL 경험 조각]&#x200B;(XF) 및 [!UICONTROL 콘텐츠 조각]&#x200B;(CF)을 사용하여 최적화 및 개인화를 지원할 수 있습니다.
 
 [!DNL Target] 활동에 [!DNL AEM]에서 만든 [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]을 사용하면 [!DNL AEM]의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.
 
