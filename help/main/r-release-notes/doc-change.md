@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: 7ce7df9d1553cc0eebd25b8812a480c2326ddbfa
 workflow-type: tm+mt
-source-wordcount: '2503'
+source-wordcount: '2502'
 ht-degree: 95%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 95%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 4월 24일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 Adobe Target 커뮤니티 커피 브레이크 Q&amp;A에 대한 정보가 추가되었습니다.<ul><li>인증된 환경을 위한 모바일 경험 최적화 및 개인화</li></ul> |
-| 3월 28일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.4.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.4.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 23.3.1 (2023년 3월 28~30일)
 
