@@ -5,10 +5,10 @@ title: Recommendations 활동이란 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 91%
+source-wordcount: '2114'
+ht-degree: 90%
 
 ---
 
@@ -105,7 +105,7 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 [!DNL Target] 은 사용자가 보고 구매하는 항목이 무엇인지 확인해야 합니다. 구매가 컨텍스트와 관련이 없는 경우 PDF 다운로드, 설문 조사 완료, 뉴스레터 가입, 비디오 보기 등과 같은 다른 유형의 전환 이벤트를 추적할 수 있습니다.
 
-사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우, 의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다 [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. 또한 오프라인 또는 인앱 상호 작용을 로 보낼 수도 있습니다 [!DNL Target] 실시간 API를 통해 전송하는 것입니다.
+사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우, 의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다 [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 또한 오프라인 또는 인앱 상호 작용을 로 보낼 수도 있습니다 [!DNL Target] 실시간 API를 통해 전송하는 것입니다.
 
 ### 상황에 맞는 추천 받기
 

@@ -5,10 +5,10 @@ title: Recommendations를 이메일과 통합하려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 97%
+source-wordcount: '1715'
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >모든 이메일 수신자(예: API 호출)에 대해 `sessionId` 및 `tntId` 또는 `thirdPartyId` 중 하나에 고유값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면, 단일 프로필 내에서 많은 이벤트가 생성되어 API 응답이 느려지거나 실패할 수 있습니다.
 
-자세한 내용은 [배달 API 설명서](https://developer.adobe.com/target/implement/delivery-api/)를 참조하십시오.{target=_blank}
+자세한 내용은 [배달 API 설명서](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/delivery-api/overview.html)를 참조하십시오.{target=_blank}
 
 ## 방법 2: rawbox 이메일 템플릿 사용 {#rawbox}
 

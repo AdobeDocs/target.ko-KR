@@ -5,9 +5,9 @@ title: Recommendations 활동을 만들려면 어떻게 해야 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1313'
 ht-degree: 75%
 
 ---
@@ -79,7 +79,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    >[!NOTE]
    >
-   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]** 선택란을 선택 취소하십시오. [!UICONTROL 호환] 옵션은 권장 사항 설정(**[!UICONTROL 권장 사항]** > **[!UICONTROL 설정]** > **[!UICONTROL 호환되지 않는 기준 필터링]**)에 따라 표시되지 않을 수 있습니다. 자세한 내용은 [설정](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL 호환]** 선택란을 선택 취소하십시오. [!UICONTROL 호환] 옵션은 권장 사항 설정(**[!UICONTROL 권장 사항]** > **[!UICONTROL 설정]** > **[!UICONTROL 호환되지 않는 기준 필터링]**)에 따라 표시되지 않을 수 있습니다. 자세한 내용은 [설정](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
    ![기준 선택 대화 상자](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

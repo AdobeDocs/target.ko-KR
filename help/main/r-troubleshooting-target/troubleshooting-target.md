@@ -4,10 +4,10 @@ description: 문제 해결 주제, 자주 묻는 질문(FAQ) 및 기타 유용�
 title: Target 문제를 해결하려면 어떻게 합니까?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '508'
+ht-degree: 82%
 
 ---
 
@@ -96,7 +96,7 @@ ht-degree: 0%
 
 ## 글로벌 mbox
 
-* [글로벌 mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [글로벌 mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## 호스트/환경
 
@@ -108,23 +108,23 @@ ht-degree: 0%
 
 ### 일반 구현
 
-* [지원되는 브라우저](https://developer.adobe.com/target/before-implement/supported-browsers/)
-* [Target에서 클라우드 기반 인스턴스 사용](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
+* [지원되는 브라우저](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Target에서 클라우드 기반 인스턴스 사용](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### 글로벌 mbox
 
-* [글로벌 mbox FAQ](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [글로벌 mbox FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [at.js FAQ](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
-* [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
-* [at.js 버전 세부 사항](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
+* [at.js FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [at.js 버전 세부 사항](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다.
 
 ## 모바일 앱
 
-* [모바일 앱을 위한 Target FAQ](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
+* [모바일 앱을 위한 Target FAQ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## 보고
 
@@ -133,11 +133,11 @@ ht-degree: 0%
 
 ## SEO(검색 엔진 최적화)
 
-* [SEO(검색 엔진 최적화) 친화도 테스트](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [SEO(검색 엔진 최적화) 친화도 테스트](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## 보안
 
-* [콘텐츠 보안 정책(CSP) 지침](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
+* [콘텐츠 보안 정책(CSP) 지침](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## 시스템 상태
 

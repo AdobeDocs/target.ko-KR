@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: 엔티티 속성을 어떻게 사용합니까?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1078'
-ht-degree: 53%
+source-wordcount: '1080'
+ht-degree: 52%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->at.js 2.*x*, `mboxCreate` (다음 예에서 사용됨)은 더 이상 지원되지 않습니다. 제품 또는 콘텐츠 정보를에 전달하려면 [!DNL Recommendations] at.js 2 사용.*x*, 사용 [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank}. For an example, see [Plan and implement Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+>at.js 2.*x*, `mboxCreate` (다음 예에서 사용됨)은 더 이상 지원되지 않습니다. 제품 또는 콘텐츠 정보를에 전달하려면 [!DNL Recommendations] at.js 2 사용.*x*, 사용 [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 

@@ -4,10 +4,10 @@ description: 에 사용자 지정 매개 변수를 전달하는 방법을 알아
 title: 사용자 지정 매개 변수를 기준으로 방문자를 Target 할 수 있습니까?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 40%
+source-wordcount: '495'
+ht-degree: 41%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 40%
 
 사용자 지정 매개 변수는 의 mbox 매개 변수입니다 [!DNL Adobe Target]. 임의의 mbox 매개 변수를 mbox에 전달하거나 를 사용하는 경우 `targetPageParams` 함수에서 해당 매개 변수가 대상자에서 사용할 수 있도록 여기에 표시됩니다.
 
-자세한 내용은 [글로벌 mbox에 매개 변수 전달](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
+자세한 내용은 [글로벌 mbox에 매개 변수 전달](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.
 
 mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 때 `mboxParameter`에 대해 묻는 메시지가 `mboxName`에 더 이상 표시되지 않습니다. 이제 mbox 이름은 선택 사항입니다. 따라서 여러 mbox의 매개 변수를 사용하거나 가장자리에 아직 기록되지 않은 매개 변수를 참조할 수 있습니다.
 
@@ -32,7 +32,7 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 
    >[!NOTE]
    >
-   >에서 선택하는 mbox입니다 [!UICONTROL 필터 기준] 드롭다운 목록이 활동 생성 시 저장되지 않습니다. 이 옵션을 사용하면 선택한 mbox를 기반으로 매개 변수를 필터링할 수 있습니다.
+   >에서 선택하는 mbox입니다 [!UICONTROL 필터 기준] 드롭다운 목록이 활동 생성 시 저장되지 않습니다. 이 옵션을 사용하면 선택한 mbox를 기반으로 매개변수를 필터링할 수 있습니다.
 
    기존 대상을 편집하는 경우 필터링 기준에는 작성 중에 제공된 mbox 이름이 함께 표시됩니다.
 

@@ -4,7 +4,7 @@ description: 테스트 및 개인화 작업의 일부로 Adobe  [!DNL Target] �
 title: Target을 사용하기 위한 팁과 요령은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 73%
@@ -25,7 +25,7 @@ ht-degree: 73%
 
 **알아 둘 사항**: [!DNL Target] 은 다양한 기술과 잘 작동하는 개방적이고 독립적인 플랫폼이기 때문에 CRM 또는 구매한 데이터를 다양한 방법으로 추가할 수 있습니다. 즉, 조직에 가장 적합한 방법을 선택할 수 있습니다.
 
-자세한 내용은 [데이터를 Target에 가져오는 방법](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)자세한 내용은 {target=_blank}.
+자세한 내용은 [Target으로 데이터를 가져오는 방법](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html) 을 참조하십시오.{target=_blank}
 
 ## 팁 2: [!DNL Target] 대상을 다른 Adobe Experience Cloud 대상과 혼합하여 보다 심층적으로 개인화할 수 있습니다.
 

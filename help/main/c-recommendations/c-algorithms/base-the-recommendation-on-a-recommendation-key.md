@@ -5,7 +5,7 @@ title: 권장 사항 키를 기반으로 권장 사항을 제공하려면 어떻
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
 source-wordcount: '3999'
 ht-degree: 37%
@@ -34,7 +34,7 @@ ht-degree: 37%
 
 ## 장바구니 기반 {#cart-based}
 
-다음 [!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 컨텐츠를 기반으로 항목을 추천할 수 있습니다. 추천 키는 [mbox 매개 변수 `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} 쉼표로 구분된 값으로 설정되어 있습니다. 처음 10개의 값만 고려됩니다.
+다음 [!UICONTROL 장바구니 기반] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 컨텐츠를 기반으로 항목을 추천할 수 있습니다. 추천 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 쉼표로 구분된 값으로 설정되어 있습니다. 처음 10개의 값만 고려됩니다.
 
 장바구니 기반 권장 사항 로직은 &quot;[!UICONTROL 권장 사항]&quot; 사용자 기반 알고리즘 및 &quot;[!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]&quot; 및 &quot;[!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]항목 기반 알고리즘
 

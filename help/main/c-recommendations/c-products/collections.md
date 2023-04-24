@@ -5,10 +5,10 @@ title: Recommendations 활동에서 컬렉션을 사용하려면 어떻게 해�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 60%
+source-wordcount: '884'
+ht-degree: 59%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 60%
 
    ![마우스로 가리키기 아이콘: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 컬렉션][](/help/main/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://developer.adobe.com/target/implement/recommendations/)을 참조하십시오.{target=_blank}
+   [!UICONTROL 컬렉션][](/help/main/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html)을 참조하십시오.{target=_blank}
 
 1. **[!UICONTROL 컬렉션 만들기]**&#x200B;를 클릭합니다.
 
