@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1443'
+source-wordcount: '1448'
 ht-degree: 66%
 
 ---
@@ -84,7 +84,7 @@ ht-degree: 66%
 
 ### 작업 공간 ID 얻기 {#workspace-id}
 
-에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다 [Target API](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+에서 엔터프라이즈 권한을 활용하려면 작업 공간 ID를 전달해야 합니다 [Target API](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 
 1. [Adobe Admin Console](https://adminconsole.adobe.com)에서 [!UICONTROL 제품] 탭을 클릭한 다음 왼쪽 메뉴에서 제품을 클릭하여 PLC(작업 공간) 목록을 표시합니다.
 1. 원하는 PLC(작업 공간)를 클릭한 다음 아래 표시된 대로 URL에서 &quot;프로필&quot; ID를 찾습니다.
@@ -159,7 +159,7 @@ ht-degree: 66%
       </script>
       ```
 
-      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/){target=_blank}.
+      at.js를 사용하여 이 작업을 수행하는 방법에 대한 자세한 내용은 [targetPageParamsAll](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparamsall.html?lang=en){target=_blank}.
 
 ## 6단계: 역할 및 권한 지정 {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

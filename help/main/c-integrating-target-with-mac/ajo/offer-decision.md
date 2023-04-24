@@ -4,10 +4,10 @@ description: 에서 만든 오퍼 결정을 추가하는 방법을 알아봅니�
 title: 오퍼 결정을 사용하려면 어떻게 해야 합니까?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 2%
+source-wordcount: '1018'
+ht-degree: 1%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 2%
 
 에서 오퍼 결정을 사용하려면 [!DNL Target]를 채울 때는 다음 항목이 필요합니다.
 
-* [!DNL Adobe Target Standard] 또는 [!DNL Adobe Target Premium] 를 사용하여 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
+* [!DNL Adobe Target Standard] 또는 [!DNL Adobe Target Premium] 를 사용하여 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
    이 기능은 구현할 때 사용할 수 없습니다 [!DNL Target] at.js 또는 기타 [!DNL Target] SDK
 
@@ -100,7 +100,7 @@ in [!DNL Adobe Journey Optimizer]를 설정하는 경우 타깃팅된 각 지리
 
 오퍼 결정을 사용하여 작업할 때 다음 정보를 고려하십시오.
 
-* offer decisioning 통합은 [!DNL Target] 구현을 기반으로 합니다 [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. 이 기능은 구현할 때 사용할 수 없습니다 [!DNL Target] at.js 또는 기타 [!DNL Target] SDK
+* offer decisioning 통합은 [!DNL Target] 구현을 기반으로 합니다 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 이 기능은 구현할 때 사용할 수 없습니다 [!DNL Target] at.js 또는 기타 [!DNL Target] SDK
 
 * 다음 [!DNL Target]/[!DNL Adobe Journey Optimizer] 통합 지원 [수동 [!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md#types) 및 [[!UICONTROL 경험 타깃팅]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) 활동만 해당. 이 기능은 다른 활동 유형에는 사용할 수 없습니다.
 

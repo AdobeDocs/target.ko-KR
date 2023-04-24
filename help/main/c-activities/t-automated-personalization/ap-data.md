@@ -5,9 +5,9 @@ title: 기계 학습 알고리즘을 생성하기 위해 수집되는 데이터�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2022'
+source-wordcount: '2025'
 ht-degree: 50%
 
 ---
@@ -47,9 +47,9 @@ ht-degree: 50%
 
 ## 기능 차단 [!DNL Target] 기계 학습 알고리즘
 
-기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다.
+기능은 [!DNL Target] 머신 러닝 알고리즘에서 차단되어 [!UICONTROL 자동 타겟팅] 또는 [!UICONTROL Automated Personalization] 모델이나 활동에서 사용되지 않을 수 있습니다.
 
-자세한 내용은 [모델 API(차단 목록에 추가) 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} 에서 *Adobe Target 개발자 안내서*.
+자세한 내용은 [모델 API(차단 목록에 추가) 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} 에서 *Adobe Target 개발자 안내서*.
 
 ## 장치 및 모바일 데이터 {#device-mobile}
 

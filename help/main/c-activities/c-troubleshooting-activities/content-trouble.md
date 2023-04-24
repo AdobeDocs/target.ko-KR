@@ -4,10 +4,10 @@ description: 페이지에 예상된 콘텐츠가 표시되지 않을 경우 문�
 title: 콘텐츠 전달 문제를 해결하려면 어떻게 합니까?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 96%
+source-wordcount: '1667'
+ht-degree: 94%
 
 ---
 
@@ -111,7 +111,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
+자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
 
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
 ## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)를 참조하십시오.{target=_blank}를 참조하십시오.
+사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html)를 참조하십시오.{target=_blank}를 참조하십시오.
 
 ## 요소가 Adobe Experience Manager 개인화에도 속하면 Target 콘텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -165,7 +165,7 @@ VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (�
 
 다음 옵션을 사용하여 추가 템플릿 규칙을 포함할 수 있습니다.
 
-### 옵션 1: URL을 복제하고 “포함” 옵션을 사용하여 템플릿 규칙에 URL을 유지합니다.
+### 옵션 1: URL을 복제하고 &quot;포함&quot; 옵션을 사용하여 템플릿 규칙에 유지합니다.
 
 이 옵션을 사용하면 이 URL이 활동에 적합하지만, 기본 URL이 포함된 URL에 대한 추가 레코드가 있는 보고 데이터에 영향을 줄 수 있는 특별한 경우가 첨부되어 있다는 점에 유의하십시오.
 
@@ -173,7 +173,7 @@ VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (�
 
 ![템플릿 규칙의 URL 복제](assets/option1.png)
 
-### 옵션 2: 쿼리 문자열만으로 URL “포함” 조건을 제한합니다.
+### 옵션 2: 쿼리 문자열만으로 URL &quot;포함&quot; 조건을 제한합니다.
 
 이 옵션에서는 앞의 옵션에서 설명한 특별한 경우가 적용되지만, 여기에서는 조건부 설정이 쿼리 문자열로만 제한됩니다.
 
@@ -187,9 +187,9 @@ VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (�
 
 ![URL의 특정 부분을 활용하는 템플릿 규칙](assets/option3.png)
 
-## 에서 큰따옴표 이스케이프 처리 [!DNL Target] 프로필 속성 값이 예상대로 작동하지 않습니다. {#escape}
+## 큰따옴표 이스케이프 처리 [!DNL Target] 프로필 속성 값이 예상대로 작동하지 않습니다. {#escape}
 
-큰따옴표가 포함된 값을 보낼 때 [!DNL Target] 프로필 속성에서 아래 표시된 대로 두 번 이스케이프 처리해야 합니다.
+큰따옴표가 포함된 값을 [!DNL Target] 프로필 속성에는 아래에 표시된 대로 두 번 이스케이프해야 합니다.
 
 ```
 adobe.target.trackEvent({

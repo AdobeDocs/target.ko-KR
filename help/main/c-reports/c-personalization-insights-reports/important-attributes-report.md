@@ -5,10 +5,10 @@ title: 중요한 속성 보고서란 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1849'
-ht-degree: 75%
+source-wordcount: '1855'
+ht-degree: 74%
 
 ---
 
@@ -110,7 +110,7 @@ ht-degree: 75%
 
 다음 [!UICONTROL 모델 API]라는 차단 목록에 추가하다 API를 사용하여 의 기계 학습 모델에 사용된 속성 목록(기능이라고도 함)을 보고 관리할 수 있습니다 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동. AP 또는 AT 활동에 대해 모델에서 하나 이상의 속성을 사용하지 않도록 제외하려면 모델 API를 사용하여 해당 속성을 &quot;&quot;에 추가할 수 차단 목록에 추가하다 있습니다.
 
-자세한 내용은 [모델 API 개요](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+자세한 내용은 [모델 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
 ### [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성] 보고서가 CSV 다운로드와 동일합니까?
 

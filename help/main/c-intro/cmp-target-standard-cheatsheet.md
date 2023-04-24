@@ -4,9 +4,9 @@ description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Tar
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '2750'
 ht-degree: 97%
 
 ---
@@ -33,7 +33,7 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 
 **Target에서는 어떤 브라우저를 지원합니까?**
 
-자세한 내용은 [지원되는 브라우저](https://developer.adobe.com/target/before-implement/supported-browsers/) 표를 참조하십시오. {target=_blank} Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
+자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html) 표를 참조하십시오. {target=_blank} Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
 
 ## 활동 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 경험 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -166,7 +166,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 **VEC(시각적 경험 작성기)에서 내 페이지를 로드하려고 할 때 &quot;브라우저에서 스크립트가 로드되도록 허용&quot; 메시지가 표시됩니다. 이 문제를 방지하려면 어떻게 해야 합니까?**
 
-이 문제는 사이트에 HTTP 리소스와 HTTPS 리소스를 모두 가져오는 사이트가 혼합된 콘텐츠가 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
+이 문제는 사이트가 HTTP 리소스와 HTTPS 리소스를 둘 다 가져와 혼합된 콘텐츠를 포함하고 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
 
 이러한 이동이 완료될 때까지는 [브라우저에서 혼합 콘텐츠 활성화](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) 의 지침에 따라 브라우저가 혼합된 콘텐츠를 로드할 수 있도록 하십시오. 이는 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
 
@@ -258,7 +258,7 @@ JSON 오퍼가 있는 [양식 기반 활동](/help/main/c-experiences/form-exper
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -305,14 +305,8 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 문제로 인해 불편을 겪게 해드려서 죄송합니다. [Target 문제 해결](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)을 확인하십시오.
 
-## Target 모바일 앱 {#section_07BA89F2C38747158ECD5B153274AEAF}
-
-**모바일 SKU를 제공하고 있습니다. 모바일 활동을 만들 수 있습니까?**
-
-모바일의 최적화 및 개인화를 위해서는 다음을 사용해야 합니다. [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 과 함께 [ADOBE SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Check out more details about [Target for mobile apps](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
-
 ## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. 다음을 참조하십시오 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://developer.adobe.com/target/구현/서버측/){target=_blank}.
+API에 대한 완전한 설명서가 있습니다. 자세한 내용은 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.

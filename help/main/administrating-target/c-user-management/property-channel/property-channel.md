@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: e776f4f3871350c00ac5e00ae7a915a0396d979e
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '3216'
+source-wordcount: '3213'
 ht-degree: 57%
 
 ---
@@ -253,13 +253,13 @@ ht-degree: 57%
 
    향후 릴리스에서 Target은 `at_property` 토큰이 없는 페이지 또는 다른 `at_property` 토큰이 있는 페이지에서 작동합니다.
 
-* 엔터프라이즈 사용자 권한 기능은 [Adobe I/O API 호출](https://developer.adobe.com/target/){target=_blank}에서 지원되지 않습니다.
+* 엔터프라이즈 사용자 권한 기능은 Adobe I/O API 호출에서 지원되지 않습니다.
 
 ## 자주 묻는 질문 {#faqs}
 
 엔터프라이즈 권한에 대한 FAQ:
 
-### 사용자에게 여러 역할과 권한이 있는 경우 어떻게 됩니까? [#multiple-roles]
+### 사용자에게 여러 역할 및 권한이 있는 경우 어떻게 됩니까? [#multiple-roles]
 
 사용자에게 여러 역할 및 권한이 있는 경우 이전 권한이 있는 역할이 적용됩니다. 예를 들어, 사용자가 [!UICONTROL 관찰자] 및 [!UICONTROL 승인자] 역할, [!UICONTROL 승인자] 역할이 적용됩니다.
 

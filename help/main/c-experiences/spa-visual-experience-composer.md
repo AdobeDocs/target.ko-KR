@@ -4,10 +4,10 @@ description: Adobe에서 SPA VEC를 사용하는 방법을 알아봅니다 [!DNL
 title: SPA VEC(단일 페이지 앱 시각적 경험 작성기)를 어떻게 사용합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f7a9c08567669160684bff8ae5098d57c6237463
+source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '3748'
-ht-degree: 87%
+source-wordcount: '3753'
+ht-degree: 72%
 
 ---
 
@@ -57,7 +57,7 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 ## Adobe 구현 [!DNL Target] 보기 횟수
 
-Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개념을 활용하여 마케터가 VEC를 통해 SPA에서 A/B 및 XT 테스트를 실행하도록 지원할 수 있습니다. 이렇게 하려면 일회용 개발자 설정이 필요합니다. 이 설정을 수행하는 절차를 살펴보겠습니다.
+Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개념을 활용하여 마케터가 VEC를 통해 SPA에서 A/B 및 XT 테스트를 실행하도록 지원할 수 있습니다. 이렇게 하려면 일회용 개발자 설정이 필요합니다. 이 설정을 수행하는 단계를 살펴보겠습니다.
 
 1. at.js 2.x를 설치합니다.
 
@@ -65,11 +65,11 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
 
    ![구현 세부 사항 대화 상자](/help/main/c-experiences/assets/imp-200.png)
 
-   에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. [!UICONTROL 관리 > 구현]. at.js 2.x는 의 태그를 통해 배포할 수도 있습니다 [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
+   에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. [!UICONTROL 관리 > 구현]. at.js 2.x는 의 태그를 통해 배포할 수도 있습니다 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
 
-1. at.js 2.x의 최신 함수인 [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)를 사이트에 구현합니다.{target=_blank}
+1. at.js 2.x의 최신 함수를 구현합니다. [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} 구현합니다.
 
-   A/B 또는 XT 테스트를 실행할 SPA의 보기를 정의한 후에는 매개 변수로서 전달된 보기를 사용하여 at.js 2.x의 `triggerView()` 함수를 구현하십시오. 이렇게 하면 마케터는 VEC를 사용하여 정의된 해당 보기에 대한 A/B 및 XT 테스트를 디자인하고 실행할 수 있습니다. 해당 보기에 대해 `triggerView()` 함수가 정의되지 않은 경우 VEC가 보기를 감지하지 않으므로 마케터는 VEC를 사용하여 A/B 및 XT 테스트를 디자인하고 실행할 수 없습니다.
+   A/B 또는 XT 테스트를 실행할 SPA의 보기를 정의한 후에는 at.js 2.x를 구현합니다 `triggerView()` 매개 변수로 전달된 보기를 사용하는 함수입니다. 이렇게 하면 마케터는 VEC를 사용하여 정의된 해당 보기에 대한 A/B 및 XT 테스트를 디자인하고 실행할 수 있습니다. 해당 보기에 대해 `triggerView()` 함수가 정의되지 않은 경우 VEC가 보기를 감지하지 않으므로 마케터는 VEC를 사용하여 A/B 및 XT 테스트를 디자인하고 실행할 수 없습니다.
 
    **`adobe.target.triggerView(viewName, options)`**
 
@@ -79,7 +79,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
    | options | 개체 | 아니오 |  |  |
    | options > page | 부울 | 아니오 |  | **TRUE**: 페이지의 기본값은 true입니다. `page=true`일 때 노출 수가 증가하면 Edge Server에 알림이 전송됩니다.<br>**FALSE**: `page=false`일 때 노출 수가 증가하면 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
 
-   이제 가상의 전자 상거래 SPA에 대해 React에서 `triggerView()` 함수를 호출하는 방법에 대한 몇 가지 사용 사례를 살펴보겠습니다.
+   이제 를 호출하는 방법에 대한 몇 가지 사용 사례를 살펴보겠습니다 `triggerView()` 가상의 전자 상거래 SPA에 대해 React의 함수:
 
    **링크: [홈 사이트](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
@@ -134,7 +134,7 @@ Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개
      }
    
      handleLoadMoreClicked() {
-       var page = this.state.page + 1; // assuming page number is derived from component’s state
+       var page = this.state.page + 1; // assuming page number is derived from component's state
        this.setState({page: page});
        targetView('PRODUCTS-PAGE-' + page);
      }
@@ -206,7 +206,7 @@ VEC가 SPA에서 잘 작동할 수 있도록 해주는, VEC에 대한 [수정 �
 | --- | --- |
 | 정보 | 작업의 세부 사항을 표시합니다. |
 | 편집 | 작업의 속성을 직접 편집할 수 있습니다. |
-| 복제 | 작업을 [!UICONTROL 수정] 패널에 있는 하나 이상의 보기에 복제하거나 VEC에서 탐색하고 이동한 하나 이상의 보기에 복제합니다. 이 작업은 반드시 [!UICONTROL 수정] 패널에 있지 않아도 됩니다.<br>**참고**: 복제 작업이 수행된 후에는 [!UICONTROL 찾아보기]를 통해 VEC의 보기로 이동해야 이동이 올바른 작업인지 확인할 수 있습니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
+| 복제 | 작업을 [!UICONTROL 수정] 패널에 있는 하나 이상의 보기에 복제하거나 VEC에서 탐색하고 이동한 하나 이상의 보기에 복제합니다. 이 작업은 반드시 [!UICONTROL 수정 사항] 패널.<br>**참고**: 복제 작업이 수행된 후에는 [!UICONTROL 찾아보기]를 통해 VEC의 보기로 이동해야 이동이 올바른 작업인지 확인할 수 있습니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
 | 이동 | 작업을 페이지 로드 이벤트나 수정 패널에 이미 있는 다른 보기로 이동합니다.<br>[!UICONTROL 페이지 로드 이벤트] - 페이지 로드 이벤트에 해당하는 모든 작업은 웹 애플리케이션의 초기 페이지 로드 시 적용됩니다.<br>**참고** 이동 작업이 수행된 후에는 찾아보기를 통해 VEC의 보기로 이동해야 이동이 올바른 작업인지 확인할 수 있습니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
 | 삭제 | 작업을 삭제합니다. |
 
@@ -262,33 +262,33 @@ at.js 2.x의 일반적인 워크플로우는 사이트가 로드될 때 사이�
 
 예를 들어 at.js 2.x을 사용하는 SPA를 보유한 통신 회사라고 가정할 때, 기업으로서 다음 목표를 달성하려고 합니다.
 
-* 로그아웃한 사용자나 익명 사용자에 대해 `http://www.telecom.com/home`에서 &quot;첫째 달 무료&quot; 주인공 오퍼 표시와 같은 최신 회사 프로모션을 보여줍니다.
-* 로그인한 사용자에 대해서는 `http://www.telecom.com/loggedIn/home`에서 &quot;무료 전화를 사용할 수 있습니다!&quot;와 같이 계약이 예정된 사용자를 위한 업그레이드 프로모션 오퍼를 표시합니다.
+* 로그아웃한 사용자나 익명 사용자에 대해 &quot;첫째 달 무료&quot; 주인공 오퍼 표시와 같은 최신 회사 프로모션을 보여줍니다 `http://www.telecom.com/home`.
+* 로그인한 사용자의 경우 &quot;무료 전화를 사용할 수 있습니다!&quot;와 같이 계약이 도래하는 사용자를 위한 업그레이드 프로모션 오퍼를 보여줍니다. `http://www.telecom.com/loggedIn/home`에서 &quot;무료 전화를 사용할 수 있습니다!&quot;와 같이 계약이 예정된 사용자를 위한 업그레이드 프로모션 오퍼를 표시합니다.
 
 이제 개발자는 다음의 방식으로 보기를 확인하고 `triggerView()`를 호출합니다.
 
 * `http://www.telecom.com/home`의 경우 보기 이름은 &quot;Logged Out Home&quot;입니다.
-   * `triggerView(“Logged Out Home”)`이 호출됩니다.
+   * `triggerView("Logged Out Home")`이 호출됩니다.
 * `http://www.telecom.com/loggedIn/home`의 경우 보기 이름은 &quot;Logged In Home&quot;입니다.
-   * 경로 변경 시 `triggerView(“Logged In Home”)`이 호출됩니다.
+   * 경로 변경 시 `triggerView("Logged In Home")`이 호출됩니다.
 
 그러면 마케터는 VEC를 통해 다음의 A/B 활동을 실행합니다.
 
-* `http://www.telecom.com/home`에 표시할 매개 변수 &quot;`loggedIn= false`&quot;를 사용하는 대상에 대해 &quot;첫째 달 무료&quot; 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged Out Home입니다.
-* A/B activity with the “You are eligible for a free phone!” `http://www.telecom.com/loggedIn/home`에 표시할 매개 변수 &quot;`loggedIn=true`&quot;를 사용하는 대상에 대해 &quot;무료 전화를 사용할 수 있습니다!&quot; 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged In Hero Offer입니다.
+* 매개 변수 &quot;`loggedIn= false`&quot;&quot;에 표시됩니다. `http://www.telecom.com/home`: 보기 이름이 Logged Out Home입니다.
+* &quot;무료 전화를 사용할 수 있습니다!&quot;가 포함된 A/B 활동 &quot; 매개 변수를 사용하는 대상을 위한 오퍼`loggedIn=true`&quot;&quot;에 표시됩니다. `http://www.telecom.com/loggedIn/home`: 보기 이름이 Logged In Hero Offer입니다.
 
 이제 다음 사용자 흐름을 고려해 보십시오.
 
 1. 익명의 로그아웃 사용자가 페이지에 도달합니다.
-1. at.js 2.x를 사용하고 있으므로, 페이지 로드 시 매개 변수 &quot;`loggedIn = false`&quot;를 전달하여 대상에 &quot;`loggedIn = false`&quot; 매개 변수가 있을 때 자격이 있는 활성 활동에 있는 모든 보기를 검색합니다.
+1. at.js 2.x를 사용하고 있으므로 매개 변수 &quot;`loggedIn = false`&quot; 페이지 로드 시 대상에 &quot; 매개 변수가 있을 때 자격이 있는 활성 활동에 있는 모든 보기를 검색합니다.`loggedIn = false`&quot;.
 1. 그런 다음 at.js 2.x는 Logged Out Home 보기 및 작업을 검색하여 &quot;첫째 달 무료&quot; 오퍼를 표시하고 캐시에 저장합니다.
-1. `triggerView(“Logged Out Home”)`이 호출되면 &quot;첫째 달 무료&quot; 오퍼가 캐시에서 검색되고 오퍼가 서버 호출 없이 표시됩니다.
+1. When `triggerView("Logged Out Home")` 이 호출되면 &quot;첫째 달 무료&quot; 오퍼가 캐시에서 검색되고 오퍼가 서버 호출 없이 표시됩니다.
 1. 이제 사용자가 &quot;로그인&quot;을 클릭하고 자격 증명을 제공합니다.
 1. 웹 사이트가 SPA이므로 전체 페이지를 로드하지 않고 대신 사용자를 `http://www.telecom.com/loggedIn/home`으로 보냅니다.
 
-이제 문제가 있습니다. 경로 변경 시 우리가 이 코드를 배치했으므로 사용자가 로그인하면 우리에게 `triggerView(“Logged In Home”)`이 실행됩니다. 이 호출은 at.js 2.x가 캐시에서 보기와 작업을 검색하도록 하지만 캐시에 있는 유일한 보기는 Logged Out Home입니다.
+이제 문제가 있습니다. 경로 변경 시 우리가 이 코드를 배치했으므로 사용자가 로그인하면 우리에게 `triggerView("Logged In Home")`이 실행됩니다. 이 호출은 at.js 2.x가 캐시에서 보기와 작업을 검색하도록 하지만 캐시에 있는 유일한 보기는 Logged Out Home입니다.
 
-따라서 어떻게 하면 이때 Logged In View을 검색하고 &quot;무료 전화를 사용할 수 있습니다!&quot; 오퍼를 표시할 수 있습니까? 또한 사이트에 대한 모든 후속 작업은 로그인한 사용자 관점에서 비롯되므로 어떻게 하면 모든 후속 작업이 로그인한 사용자를 위해 개인화된 오퍼를 생성하도록 할 수 있습니까?
+따라서 어떻게 하면 이때 Logged In View을 검색하고 &quot;무료 전화를 사용할 수 있습니다!&quot; 오퍼를 표시할 수 있습니다. 있습니까? 또한 사이트에 대한 모든 후속 작업은 로그인한 사용자 관점에서 비롯되므로 어떻게 하면 모든 후속 작업이 로그인한 사용자를 위해 개인화된 오퍼를 생성하도록 할 수 있습니까?
 
 at.js 2.x에서 지원되는 새로운 `getOffers()` 및 `applyOffers()` 함수를 사용할 수 있습니다.
 
@@ -307,7 +307,7 @@ adobe.target.getOffers({
 });
 ```
 
-`getOffers()`의 응답을 `applyOffers()`에 전달하십시오. 그러면 이제 &quot;Loggedin = true&quot;와 연관된 모든 보기와 작업에 의해 at.js 캐시가 업데이트됩니다.
+의 응답 전달 `getOffers()` to `applyOffers()` 이제 &quot;loggedIn = true&quot;와 연관된 모든 보기 및 작업이 at.js 캐시를 업데이트합니다.
 
 다시 말해, at.js 2.x에서는 온디맨드 방식으로 최신 대상 데이터로 보기, 작업 및 오퍼를 검색하는 방법을 지원합니다.
 
@@ -327,9 +327,9 @@ adobe.target.getOffers({
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
 
 >[!NOTE]
->보기가 트리거될 때마다 노출수 계산을 위해 Adobe Analytics에 알림을 보내지 않으려면, 지속적으로 다시 렌더링되는 구성 요소에 대해 보기가 여러 번 트리거될 때 노출수 계산이 부풀려지지 않도록 `{page: false}`를 `triggerView()` 함수에 전달합니다. 예:
+>보기가 트리거될 때마다 노출수 계산을 위해 Adobe Analytics에 알림을 보내지 않으려면 를 전달합니다 `{page: false}` 변환 후 `triggerView()` 지속적으로 다시 렌더링되는 구성 요소에 대해 보기가 여러 번 트리거될 때 노출수 계산이 부풀려지지 않도록 합니다. 예:
 >
->`adobe.target.triggerView(“PRODUCTS-PAGE-2”, {page:false})`
+>`adobe.target.triggerView("PRODUCTS-PAGE-2", {page:false})`
 
 ## 지원되는 활동
 
@@ -354,7 +354,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 예 |
 | [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md) | 예 |
-| [고객 속성](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | 예 |
+| [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 예 |
 | [AEM 경험 구성요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 예 |
 
 ## 지원되는 기능 {#supported-features}
