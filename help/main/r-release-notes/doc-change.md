@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 14467a97509d505cd737bb6a1eb356bd681cd749
 workflow-type: tm+mt
-source-wordcount: '2600'
+source-wordcount: '2612'
 ht-degree: 92%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 92%
 | --- | --- | --- |
 | 4월 26일 | [(AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | 다음 [!UICONTROL AEM 컨텐츠 조각] 이제 모든 기능에 이 기능을 사용할 수 있습니다 [!DNL Target customers]. |
 |  | [[!UICONTROL AEM 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 다음 [!UICONTROL AEM 컨텐츠 조각] 이제 모든 기능에 이 기능을 사용할 수 있습니다 [!DNL Target customers]. |
-|  | [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 개발자 안내서* 이(가) *Adobe Experience League*. 이동 위치 *Experience League* 에서는 텍스트를 추가 언어로 현지화하는 데 도움이 되고 에서는 검색 기능을 *Experience League* 두 가이드의 검색 결과를 제공하고 추가 이점을 제공합니다.<P>이전 위치의 리디렉션이 며칠 내에 구현됩니다. 책갈피를 업데이트하십시오. |
+|  | [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 다음 *Adobe Target 개발자 안내서* 이(가) *[!UICONTROL Adobe Experience League]*. 이동 위치 *[!UICONTROL Experience League]* 는 추가 언어로 된 텍스트의 현지화 및 *Experience League* 검색 결과를 *[!UICONTROL Adobe Target 비즈니스 실무 안내서]* 그리고 *[!UICONTROL Adobe Target 개발자 안내서]*, 및에서 추가적인 이점을 제공합니다.<P>이전 위치에서 다음으로 리디렉션됩니다. *[!UICONTROL Experience League]* 자동. 필요에 따라 책갈피를 업데이트하십시오. |
 | 4월 24일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 Adobe Target 커뮤니티 커피 브레이크 Q&amp;A에 대한 정보가 추가되었습니다.<ul><li>인증된 환경을 위한 모바일 경험 최적화 및 개인화</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.4.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
