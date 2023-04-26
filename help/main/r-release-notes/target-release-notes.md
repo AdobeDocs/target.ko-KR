@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '362'
 ht-degree: 78%
 
 ---
@@ -25,19 +25,20 @@ ht-degree: 78%
 
 ## [!DNL Target] Standard/Premium 23.4.1 (2023년 4월 25~27일)
 
-이 릴리스에는 보안 업데이트와 다음과 같은 새로운 기능이 포함되어 있습니다.
+이번 릴리스에는 보안 업데이트 및 다음과 같은 새로운 기능이 포함됩니다.
 
 | 기능 | 세부 사항 |
 |--- |--- |
-| Headless 개인화 및 실험을 위한 AEM [!UICONTROL 콘텐츠 조각] | [!DNL Target] 활동에서 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용합니다. AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능과 결합하여 headless 개인화와 실험을 지원할 수 있습니다.<P>자세한 내용은 [AEM [!UICONTROL 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)을 참조하십시오.<P>**참고**: 이 기능은 2023년 4월 12일부터 프리릴리스 기능으로 제공됩니다. 프리릴리스 기능으로 개발 및 스테이징 환경을 사용하여 [!UICONTROL 콘텐츠 조각]을 실험할 수 있지만 프로덕션 환경에서는 사용할 수 없습니다. 이 기능은 2023년 4월 26일에 모든 고객에게 제공됩니다. |
-| [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오.<p>이 기능은 2023년 5월 9일에 모든 고객이 사용할 수 있습니다. |
+| Headless 개인화 및 실험을 위한 AEM [!UICONTROL 콘텐츠 조각] | [!DNL Target] 활동에서 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용합니다. AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능과 결합하여 headless 개인화와 실험을 지원할 수 있습니다.<P>자세한 내용은 [AEM [!UICONTROL 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)을 참조하십시오. |
+| [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오.<p>**참고**: 이 기능은 2023년 5월 9일에 모든 고객이 사용할 수 있습니다. |
+| [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 개발자 안내서* 이(가) *Adobe Experience League*. 이동 위치 *Experience League* 에서는 텍스트를 추가 언어로 현지화하는 데 도움이 되고 에서는 검색 기능을 *Experience League* 두 가이드의 검색 결과를 제공하고 추가 이점을 제공합니다.<P>이전 위치의 리디렉션이 며칠 내에 구현됩니다. 책갈피를 업데이트하십시오. |
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-
-|[릴리스 노트: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko-KR)|Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다.| |[at.js 버전 세부 사항](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}|각 버전의 변경 사항에 대한 세부 정보 [!DNL Adobe Target] at.js JavaScript 라이브러리.|
+| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko-KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

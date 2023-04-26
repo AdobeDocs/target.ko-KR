@@ -2,25 +2,18 @@
 keywords: 경험;json;aem;adobe experience manager;adobe target에 내보내기;콘텐츠 조각;조각;CF;cf;headless;personalization;experimentation
 description: ' [!DNL Adobe Target] 활동에서  [!DNL Adobe Experience Manager] [!UICONTROL 콘텐츠 조각]을 사용하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
-badgePrerelease: label="Prerelease"
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: e30c87476496f6103790dbb2fa0c3d60e4c26572
+source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
 workflow-type: tm+mt
-source-wordcount: '790'
+source-wordcount: '748'
 ht-degree: 100%
 
 ---
 
 # AEM [!UICONTROL 콘텐츠 조각]
 
-Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager]&#8203;(AEM)에서 생성된 [!UICONTROL 콘텐츠 조각]을 사용합니다.
-
->[!NOTE]
->
->이 기능은 2023년 4월 12일에 프리릴리스 기능으로 제공됩니다. 프리릴리스 기능으로 개발 및 스테이징 환경을 사용하여 [!UICONTROL 콘텐츠 조각]을 실험할 수 있지만 프로덕션 환경에서는 사용할 수 없습니다.
->
->이 기능은 2023년 4월 26일에 GA(일반 배포) 릴리스에서 사용할 수 있습니다.
+Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager]&#x200B;(AEM)에서 생성된 [!UICONTROL 콘텐츠 조각]을 사용합니다.
 
 ## 고려 사항
 
@@ -40,7 +33,7 @@ Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!D
    * [[!UICONTROL 다변량 테스트] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다. [!UICONTROL 시각적 경험 작성기]&#8203;(VEC)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 *없습니다*.
+* [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다. [!UICONTROL 시각적 경험 작성기]&#x200B;(VEC)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 *없습니다*.
 
 AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자세히 알아보려면 [AEM [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)를 참조하십시오.
 
@@ -72,7 +65,7 @@ AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자�
 
 ![콘텐츠 조각 정보 팝업](/help/main/c-integrating-target-with-mac/aem/assets/cf-info-popup.png)
 
-[양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다. [시각적 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 *없습니다*. [!UICONTROL 콘텐츠 조각]은 [!DNL Target]에서 JSON으로 내보내며 VEC를 사용하여 생성된 활동에서 사용할 수 없습니다.
+[양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만을 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 있습니다. [시각적 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)&#x200B;(VEC)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL 콘텐츠 조각]을 사용할 수 *없습니다*. [!UICONTROL 콘텐츠 조각]은 [!DNL Target]에서 JSON으로 내보내며 VEC를 사용하여 생성된 활동에서 사용할 수 없습니다.
 
 >[!TIP]
 >
