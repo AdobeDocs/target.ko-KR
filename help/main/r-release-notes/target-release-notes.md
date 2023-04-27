@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14467a97509d505cd737bb6a1eb356bd681cd749
+source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 74%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 74%
 |--- |--- |
 | Headless 개인화 및 실험을 위한 AEM [!UICONTROL 콘텐츠 조각] | [!DNL Target] 활동에서 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용합니다. AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능과 결합하여 headless 개인화와 실험을 지원할 수 있습니다.<P>자세한 내용은 [AEM [!UICONTROL 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)을 참조하십시오. |
 | [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오.<p>**참고**: 이 기능은 2023년 5월 9일에 모든 고객이 사용할 수 있습니다. |
-| [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 다음 *Adobe Target 개발자 안내서* 이(가) *[!UICONTROL Adobe Experience League]*. 이동 위치 *[!UICONTROL Experience League]* 는 추가 언어로 된 텍스트의 현지화 및 *Experience League* 검색 결과를 *[!UICONTROL Adobe Target 비즈니스 실무 안내서]* 그리고 *[!UICONTROL Adobe Target 개발자 안내서]*, 및에서 추가적인 이점을 제공합니다.<P>이전 위치에서 다음으로 리디렉션됩니다. *[!UICONTROL Experience League]* 자동. 필요에 따라 책갈피를 업데이트하십시오. |
+| [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 다음 *Adobe Target 개발자 안내서* 이(가) *[!UICONTROL Adobe Experience League]*. 이동 위치 *[!UICONTROL Experience League]* 는 추가 언어로 된 텍스트의 현지화 및 *Experience League* 두 위치에서 검색 결과를 확장하고 오퍼하려면 *[!UICONTROL Adobe Target 비즈니스 실무 안내서]* 그리고 *[!UICONTROL Adobe Target 개발자 안내서]*, 및에서 추가적인 이점을 제공합니다.<P>이전 위치에서 다음으로 리디렉션됩니다. *[!UICONTROL Experience League]* 자동. 필요에 따라 책갈피를 업데이트하십시오. |
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
