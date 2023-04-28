@@ -5,9 +5,9 @@ title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2455'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
    | 매개변수 유형 | 설명 |
    |--- |--- |
-   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [글로벌 Mbox에 매개 변수 전달](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개 이상의 프로필 속성을 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하십시오. 자세한 내용은 [ [!DNL Adobe Target] API 설명서의 프로필 업데이트](https://developers.adobetarget.com/api/#updating-profiles)를 참조하십시오. |
+   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [ 글로벌 mbox에 매개변수 전달](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을 참조하십시오.<br>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개 이상의 프로필 속성을 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하십시오. 자세한 내용은 [ [!DNL Adobe Target] API 설명서의 프로필 업데이트](https://developers.adobetarget.com/api/#updating-profiles)를 참조하십시오. |
    | 프로필 | JavaScript 코드 스니펫으로 바로 정의됩니다. 이러한 스니펫은 소비자가 소비한 금액 합계와 같이 실행 중인 합계를 저장할 수 있으며 각 mbox 요청에 대해 실행됩니다. 아래의 프로필 스크립트 속성을 참조하십시오. |
 
 ## 프로필 스크립트 속성 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -54,7 +54,7 @@ ht-degree: 93%
 
 기존 프로필 스크립트를 복사하려면 [!UICONTROL 프로필 스크립트] 목록에서 원하는 스크립트에 대한 생략 아이콘을 클릭한 다음 **[!UICONTROL 복제]**&#x200B;를 클릭합니다.
 
-그러면 대상을 편집하여 유사한 대상을 만들 수 있습니다.
+그러면 대상자를 편집하여 유사한 대상자를 만들 수 있습니다.
 
 프로필 스크립트는 각 추적 요청에 대해 프로필 속성 “catchers”를 실행합니다. 추적 요청이 수신되면 [!DNL Target]은 실행해야 하는 활동을 결정하고 해당 활동 및 경험에 적합한 콘텐츠를 표시합니다. 또한 [!DNL Target]은 활동의 성공을 추적하고 관련된 모든 프로필 스크립트를 실행합니다. 이 프로세스를 통해 방문자의 위치, 시각, 방문자가 사이트에 있었던 횟수, 전에 구입한 적이 있었는지 여부 등과 같은 방문에 대한 정보를 추적할 수 있습니다. 그런 다음 이러한 정보가 방문자의 프로필에 추가되므로 방문자의 사이트 활동을 더 잘 추적할 수 있습니다.
 
@@ -77,7 +77,7 @@ if (mbox.name == 'Track_Interest') {
 
 * 매개변수 및 값은 대/소문자를 구분합니다. 활동 또는 테스트 도중 수신하는 매개변수 및 값의 대/소문자를 일치시키십시오.
 * 자세한 JavaScript 구문에 대해서는 아래의 “스크립트 프로필 매개변수에 대한 JavaScript 참조” 섹션을 참조하십시오.
-* 이 매개변수는 스크립트를 비활성화한 후에도 프로필에 남아 있습니다. 프로필에 이미 활동 대상에 사용되는 매개변수가 포함되어 있는 사용자는 해당 활동에 참여할 자격이 있습니다.
+* 이 매개변수는 스크립트를 비활성화한 후에도 프로필에 남아 있습니다. 프로필에 이미 활동 대상자에 사용되는 매개변수가 포함되어 있는 사용자는 해당 활동에 참여할 자격이 있습니다.
 * 프로필 스크립트를 활동에서 사용하는 동안에는 삭제할 수 없습니다.
 * 한 프로필 스크립트의 결과를 다른 프로필 스크립트에서 사용하는 종속 프로필 스크립트를 생성하는 것은 권장되지 않습니다. 프로필 스크립트 실행 순서는 보장되지 않습니다.
 
@@ -177,7 +177,7 @@ if (mbox.name == 'Track_Interest') {
 
 **이 프로필 스크립트를 사용하여 데이터 계층에 있는 페이지에서 정보를 캡처할 수 있습니까?**
 
-프로필 스크립트는 서버측을 실행하므로 페이지를 직접 읽을 수 없습니다. 데이터는 mbox 요청 또는 데이터를 [데이터를 Target에 가져오는 방법](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. 데이터가 [!DNL Target]에 있으면 프로필 스크립트는 데이터를 mbox 매개변수 또는 프로필 매개변수로 읽을 수 있습니다.
+프로필 스크립트는 서버측을 실행하므로 페이지를 직접 읽을 수 없습니다. 데이터는 mbox 요청 또는 데이터를 [ Target으로 가져오는 다른 방법](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}을 통해 전달해야 합니다. 데이터가 [!DNL Target]에 있으면 프로필 스크립트는 데이터를 mbox 매개변수 또는 프로필 매개변수로 읽을 수 있습니다.
 
 ## 스크립트 프로필 매개변수에 대한 JavaScript 참조
 
@@ -246,14 +246,14 @@ else if (mbox.param("adobeQA"))
 | `page.url` | 현재 URL입니다. |
 | `page.protocol` | 페이지에 사용된 프로토콜(http, https)입니다. |
 | `page.domain` | 현재 URL 도메인(첫 번째 슬래시 앞에 있는 모든 것)입니다. 예: `http://www.acme.com/categories/men_jeans?color=blue&size=small`에서 `www.acme.com`. |
-| `page.query` | 현재 페이지에 대한 쿼리 문자열입니다. &#39;?&#39; 뒤에 있는 모든 것 예: `http://www.acme.com/categories/mens_jeans?color=blue&size=small`에서 `blue&size=small`. |
-| `page.param('<par_name>')` | `<par_name>`으로 표시된 매개변수의 값입니다. 현재 URL이 Google의 검색 페이지이고 사용자가 입력한 경우 `page.param('hl')`이면 URL에 대해 &quot;en&quot;이 표시됩니다 `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
+| `page.query` | 현재 페이지에 대한 쿼리 문자열입니다. &#39;?&#39; 뒤에 있는 모든 것입니다. 예: `http://www.acme.com/categories/mens_jeans?color=blue&size=small`에서 `blue&size=small`. |
+| `page.param('<par_name>')` | `<par_name>`으로 표시된 매개변수의 값입니다. 현재 URL이 Google의 검색 페이지이고 `page.param('hl')`을 입력한 경우, URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`에 대해 “en”이 표시됩니다. |
 | `page.referrer` | 위와 동일한 작업 세트가 레퍼러 및 랜딩에 적용됩니다. 즉, referrer.url은 레퍼러의 URL 주소입니다. |
-| `landing.url`, `landing.protocol`, `landing.query`, 및 `landing.param` | 페이지의 값과 비슷하지만 랜딩 페이지용입니다. |
+| `landing.url`, `landing.protocol`, `landing.query` 및 `landing.param` | 페이지의 값과 비슷하지만 랜딩 페이지용입니다. |
 | `mbox.name` | 활성 mbox 이름입니다. |
 | `mbox.param('<par_name>')` | 활성 mbox에서 제공된 이름의 mbox 매개변수입니다. |
-| `profile.get('<par_name>')` | `<par_name>`이라는 이름으로 클라이언트가 생성한 사용자 프로필 매개변수입니다. 예를 들어 사용자가 &quot;gender&quot;라는 프로필 매개 변수를 설정하면 &quot;profile.gender&quot;를 사용하여 값을 추출할 수 있습니다. 다음 값 반환 &quot;`profile.<par_name>`&quot; 현재 방문자에 대해 설정됩니다. 설정된 값이 없으면 null을 반환합니다. `profile.get(<par_name>)`은 함수 호출로서의 자격이 있습니다. |
-| `user.get('<par_name>')` | 다음 값 반환 &quot;`user.<par_name>`&quot; 현재 방문자에 대해 설정됩니다. 설정된 값이 없으면 null을 반환합니다. |
+| `profile.get('<par_name>')` | `<par_name>`이라는 이름으로 클라이언트가 생성한 사용자 프로필 매개변수입니다. 예를 들어 사용자가 “gender”라는 프로필 매개변수를 설정하면 “profile.gender”를 사용하여 값을 추출할 수 있습니다. 현재 방문자에 대해 설정된 “`profile.<par_name>`” 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. `profile.get(<par_name>)`은 함수 호출로서의 자격이 있습니다. |
+| `user.get('<par_name>')` | 현재 방문자에 대해 설정된 “`user.<par_name>`” 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. |
 | `user.categoryAffinity` | 가장 적합한 카테고리의 이름을 반환합니다. |
 | `user.categoryAffinities` | 가장 적합한 카테고리가 있는 배열을 반환합니다. |
 | `user.isFirstSession` | 방문자의 첫 번째 세션인 경우 true를 반환합니다. |
@@ -272,8 +272,8 @@ else if (mbox.param("adobeQA"))
 | `>` | 왼쪽의 변수가 오른쪽의 변수보다 큼을 나타냅니다. 변수가 동일한 경우 false로 평가합니다. |
 | `<=` | 변수가 동일하고 true로 평가하는 경우를 제외하고 `<`와 동일합니다. |
 | `>=` | 변수가 동일하고 true로 평가하는 경우를 제외하고 `>`와 동일합니다. |
-| `&&` | 표현식의 왼쪽과 오른쪽에 있는 논리적 &quot;AND&quot;는 양쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
-| `||` | 표현식의 왼쪽과 오른쪽에 있는 논리적 &quot;OR&quot;은 한쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
+| `&&` | 표현식의 왼쪽과 오른쪽에 있는 논리적 “AND”는 양쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
+| `||` | 표현식의 왼쪽과 오른쪽에 있는 논리적 “OR”은 한쪽이 true인 경우에만 true이고, 그렇지 않으면 false입니다. |
 | `//` | 부울에 포함된 타겟의 모든 요소(Array source, Array target)가 소스에 포함되어 있는지 확인합니다.<br>`//`는 대상(정규 표현식에 해당함)에서 하위 문자열을 추출하여 `Array/*String*/ decode(String encoding, String regexp, String target)`로 디코딩합니다.<br>이 기능은 상수 문자열 값, 그룹화(`condition1 || condition2) && condition3` 및 정규 표현식(`/[^a-z]$/.test(landing.referring.url)` 사용을 지원합니다. |
 
 ## 교육 비디오: 프로필 스크립트 ![튜토리얼 배지](/help/main/assets/tutorial.png)
