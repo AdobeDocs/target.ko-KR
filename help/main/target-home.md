@@ -5,9 +5,9 @@ description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화�
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: 107556e43b088d5a2033b80e3f5ef63ee3fe0632
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 91%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->이 안내서 외에 다음 내용이 있습니다 [!DNL Adobe Target] 안내서도 제공됩니다.
+>이 안내서 외에 다음과 같은 [!DNL Adobe Target] 안내서도 이용할 수 있습니다.
 >
 >- [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}
 >
 >- [*Adobe Target 튜토리얼*](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html){target=_blank}
 >
->릴리스 정보는 [Target 릴리스 노트(현재)](/help/main/r-release-notes/release-notes.md) 을 참조하십시오.
+>릴리스 정보는 이 안내서에서 [Target 릴리스 정보(현재)](/help/main/r-release-notes/release-notes.md)를 참조하십시오.
 
 다음 섹션에서는 일반적인 직무에 따라 의도된 대상자별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
