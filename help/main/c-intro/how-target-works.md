@@ -5,9 +5,9 @@ title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2565'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
