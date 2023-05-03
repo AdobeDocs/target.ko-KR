@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
 workflow-type: tm+mt
-source-wordcount: '2615'
-ht-degree: 97%
+source-wordcount: '2648'
+ht-degree: 99%
 
 ---
 
@@ -19,9 +19,11 @@ ht-degree: 97%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 4월 26일 | [(AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | 이제 모든 [!DNL Target customers]이(가) [!UICONTROL AEM Content Fragments] 기능을 사용할 수 있습니다. |
-|  | [[!UICONTROL AEM 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 이제 모든 [!DNL Target customers]이(가) [!UICONTROL AEM Content Fragments] 기능을 사용할 수 있습니다. |
-|  | [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | 다음 *Adobe Target 개발자 안내서* 이(가) *[!UICONTROL Adobe Experience League]*. 이동 위치 *[!UICONTROL Experience League]* 는 추가 언어로 된 텍스트의 현지화 및 *Experience League* 두 위치에서 검색 결과를 확장하고 오퍼하려면 *[!UICONTROL Adobe Target 비즈니스 실무 안내서]* 그리고 *[!UICONTROL Adobe Target 개발자 안내서]*, 및에서 추가적인 이점을 제공합니다.<P>이전 위치에서 다음으로 리디렉션됩니다. *[!UICONTROL Experience League]* 자동. 필요에 따라 책갈피를 업데이트하십시오. |
+| 5월 3일 | [보고서 보기 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 다음 FAQ가 추가되었습니다.<ul><li>에서 활동 노출 횟수를 추적하는 방법 [!DNL Analysis Workspace] 사용 시 [!UICONTROL Target 분석] (A4T)?</li></ul> |
+|  | [프로필 속성](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | &quot;landing.URL&quot; 행에 추가 정보가 추가되었습니다. |
+| 4월 26일 | [(AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | 이제 모든 [!DNL Target customers]가 [!UICONTROL AEM Content Fragments] 기능을 사용할 수 있습니다. |
+|  | [[!UICONTROL AEM 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 이제 모든 [!DNL Target customers]가 [!UICONTROL AEM Content Fragments] 기능을 사용할 수 있습니다. |
+|  | [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 개발자 안내서*&#x200B;가 *[!UICONTROL Adobe Experience League]*&#x200B;로 재배치되었습니다. *[!UICONTROL Experience League]*&#x200B;로의 이동을 통해 보다 간편하게 텍스트를 추가 언어로 현지화할 수 있으며, *Experience League* 내에서 검색이 통합되어 *[!UICONTROL Adobe Target 비즈니스 실무자 안내서]* 및 *[!UICONTROL Adobe Target 개발자 안내서]*&#x200B;의 검색 결과가 제공되고, 추가적인 이점이 제공됩니다.<P>이전 위치에서 *[!UICONTROL Experience League]*&#x200B;로 자동 리디렉션됩니다. 필요에 따라 책갈피를 업데이트하십시오. |
 | 4월 24일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 Adobe Target 커뮤니티 커피 브레이크 Q&amp;A에 대한 정보가 추가되었습니다.<ul><li>인증된 환경을 위한 모바일 경험 최적화 및 개인화</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.4.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
