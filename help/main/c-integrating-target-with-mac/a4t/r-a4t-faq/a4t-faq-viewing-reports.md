@@ -4,9 +4,9 @@ description: Analytics를 사용할 때 보고서 보기에 대한 FAQ에 대한
 title: A4T를 사용하여 보고서 보기에 대한 질문에 대한 답변을 찾으시겠습니까?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
+source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
 workflow-type: tm+mt
-source-wordcount: '2654'
+source-wordcount: '2714'
 ht-degree: 29%
 
 ---
@@ -130,15 +130,15 @@ ht-degree: 29%
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 |
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5개 | 1 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 그런 다음, 사용자는 4월 1일에 다시 돌아와서 다른 5개의 페이지를 보고 구매를 수행합니다. 해당 첫 번째 eVar 값의 90일 만료는 4월 1일에 재설정되므로 보고에 표시됩니다. 그리고 사용자에게 표시되는 모든 Target 활동이 전환 크레딧을 받지만 총 전환 수는 중복이 제거되어 계산됩니다.
 
 | 활동 이름 | 인스턴스(노출 횟수) | 페이지 보기 횟수 | 방문 횟수 | 고유 방문자 수 | 주문 |
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2개 | 1 | 1 |
-| 합계 | 2개 | 20년 | 3 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| 합계 | 2 | 20 | 3 | 1 | 1 |
 
 전환 전에 두 경험이 모두 표시되므로 둘 다 주문에 대해 &quot;크레딧을 받습니다. 그러나 주문은 시스템에서 하나만 발생했고 합계에 이렇게 반영됩니다. 대상 [!DNL Target] 보고, [!DNL Target] 다른 활동에 대한 활동으로 더 성공적인 활동을 확인하지만 사용자가 본 모든 활동이 크레딧을 받은 것은 문제가 되지 않습니다. 단일 활동 내에 있는 두 항목의 결과를 비교하고 있습니다. 사용자가 동일한 활동에서 다른 경험을 볼 수 없으므로 주문 크레딧의 상호 오염에 대해 걱정할 필요가 없습니다.
 
@@ -154,7 +154,7 @@ ht-degree: 29%
 
 ## 왜? [!DNL Analytics] 및 [!UICONTROL Adobe Target용 Analytics] (A4T)에서 [!UICONTROL 고유 방문자 수] 지표를 다르게? {#section_0C3B648AB54041F9A2AA839D51791883}
 
-+++답변 A/B 테스트를 실행할 때( [웰치의 t 테스트](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}(신뢰도 지표)에서 테스트 승자를 선택할 수 있습니다. 가정 중 하나는 고정된 시간 범위가 있다는 것입니다. 고정된 샘플 크기를 보지 않는 한 테스트가 통계적으로 유효하지 않습니다.
++++답변 A/B 테스트를 실행할 때( [웰치의 t 테스트](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} (신뢰 지표) 테스트의 승자를 선택하기 위해 가정 중 하나는 고정된 시간 수평선이 있다는 것입니다. 고정된 샘플 크기를 보지 않는 한 테스트가 통계적으로 유효하지 않습니다.
 
 다음 [!UICONTROL 고유 방문자 수] 지표는 [!DNL Analytics] 및 [!DNL Target] 실제 테스트보다 짧은 기간을 보는 경우에만 해당됩니다. 샘플 크기에 도달하지 않은 경우 테스트를 신뢰할 수 없습니다. 자세한 내용은 [Evan Miller의 웹 사이트](https://www.evanmiller.org/index.html)에서 [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html)(A/B 테스트를 실행하지 않는 방법)를 참조하십시오.
 
@@ -198,5 +198,19 @@ ht-degree: 29%
 * 보고서 창 외부에서 전환이 발생하면에 표시되지 않습니다 [!DNL Analytics].
 * 에 대한 트래픽의 &quot;타깃팅된&quot; 부분에서 [!UICONTROL 자동 Target] 활동, 방문자에게 한 세션에서 다음 세션으로 다른 경험이 표시될 수 있습니다. 예를 들어 프로필 또는 컨텍스트가 변경된 경우 [!DNL Target]의 기계 학습 알고리즘은 새로운 경험을 전환할 가능성이 더 높다고 판단합니다. 방문자가 경험에서 경험으로 이동할 때 방문 카운트는 표시되는 각 경험에 대해 증가합니다. 이는 방문 간 방문자에게 경험이 고정된 일반적인 A/B 테스트 활동과 다릅니다.
 * 방문자에게 방문 간에 여러 경험이 표시되면 모든 전환은 항상 방문자가 마지막으로 본 경험으로 인한 것입니다. 언급했듯이 방문 카운트는 방문자가 본 각 경험에 대해 증가합니다. 따라서 &quot;[!UICONTROL 타깃팅됨]&quot; 차원 [!DNL Adobe Analytics] 보고서.
+
++++
+
+## 에서 활동 노출 횟수를 추적하는 방법 [!DNL Analysis Workspace] 사용 시 [!UICONTROL Target 분석] (A4T)? {#activity-impressions}
+
++++답변
+
+에서 활동 노출 횟수를 보려면 [!DNL Analysis Workspace]:
+
+1. 에서 [!DNL Target] UI에서 **[!UICONTROL Analytics에서 보기]**.
+1. 추가 **[!UICONTROL 활동 노출 횟수]** 열 [[!DNL Analytics Workspace]](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/home.html){target=_blank} 보고서 세트에 대해 설명합니다.
+1. 설정 **[!UICONTROL 활동 노출 횟수]** 열을 클릭하고 [!UICONTROL 기어] 아이콘.
+1. 클릭 **[!UICONTROL 비기본 속성 모델 사용]**.
+1. 선택 **[!UICONTROL 동일한 터치 모델]** > **[!UICONTROL 적용]**.
 
 +++
