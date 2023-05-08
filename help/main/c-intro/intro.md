@@ -1,6 +1,6 @@
 ---
 keywords: Target Standard;Recommendations;Target Premium;자동 개인화;자동-타겟;자동 타겟;권한;adobe target이란;
-description: Adobe의 기본 사항 학습 [!DNL Target] 표준 및 Adobe [!DNL Target] Premium. [!DNL Target] Premium에는 표준 제품에서 사용할 수 없는 고급 기능이 포함되어 있습니다.
+description: Adobe  [!DNL Target]  Standard 및 Adobe  [!DNL Target]  Premium의 기본 사항에 대해 알아봅니다. [!DNL Target] Premium에는 표준 제품에서 사용할 수 없는 고급 기능이 포함되어 있습니다.
 landing-page-description: 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있습니다.
 short-description: 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있습니다.
 title: Target은 무슨 프로그램입니까?
