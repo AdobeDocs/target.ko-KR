@@ -5,9 +5,9 @@ title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2499'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -249,7 +249,7 @@ else if (mbox.param("adobeQA"))
 | `page.query` | 현재 페이지에 대한 쿼리 문자열입니다. &#39;?&#39; 뒤에 있는 모든 것입니다. 예: `http://www.acme.com/categories/mens_jeans?color=blue&size=small`에서 `blue&size=small`. |
 | `page.param('<par_name>')` | `<par_name>`으로 표시된 매개변수의 값입니다. 현재 URL이 Google의 검색 페이지이고 `page.param('hl')`을 입력한 경우, URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`에 대해 “en”이 표시됩니다. |
 | `page.referrer` | 위와 동일한 작업 세트가 레퍼러 및 랜딩에 적용됩니다. 즉, referrer.url은 레퍼러의 URL 주소입니다. |
-| `landing.url`, `landing.protocol`, `landing.query` 및 `landing.param` | 페이지의 값과 비슷하지만 랜딩 페이지용입니다.<P>랜딩 페이지 URL이 예상대로 작동하려면 `context` > `browser` > `host`.<P>또한 세션의 첫 번째 호출에는 참조 URL을 지정할 수 없습니다. 후속 호출에서 `referringURL` 는 사용자가 현재 세션에서 방문한 이전 URL입니다.<!-- KB-2092 --> |
+| `landing.url`, `landing.protocol`, `landing.query` 및 `landing.param` | 페이지의 값과 비슷하지만 랜딩 페이지용입니다.<P>랜딩 페이지 URL이 예상대로 작동하려면 `context` > `browser` > `host`를 설정합니다.<P>또한 세션의 첫 번째 호출에 참조 URL을 사용할 수 없습니다. 후속 호출에서 `referringURL`이 사용자가 현재 세션에서 방문한 이전 URL인지 확인합니다.<!-- KB-2092 --> |
 | `mbox.name` | 활성 mbox 이름입니다. |
 | `mbox.param('<par_name>')` | 활성 mbox에서 제공된 이름의 mbox 매개변수입니다. |
 | `profile.get('<par_name>')` | `<par_name>`이라는 이름으로 클라이언트가 생성한 사용자 프로필 매개변수입니다. 예를 들어 사용자가 “gender”라는 프로필 매개변수를 설정하면 “profile.gender”를 사용하여 값을 추출할 수 있습니다. 현재 방문자에 대해 설정된 “`profile.<par_name>`” 값을 반환합니다. 설정된 값이 없으면 null를 반환합니다. `profile.get(<par_name>)`은 함수 호출로서의 자격이 있습니다. |
