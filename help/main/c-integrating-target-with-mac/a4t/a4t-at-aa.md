@@ -4,7 +4,7 @@ description: 만드는 방법 알아보기 [!UICONTROL 자동 할당] 및 [!UICO
 title: A4T 지원 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
+source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 A4T 지원
 
-다음 [!DNL Adobe Target]-to-[!DNL Adobe Analytics] 통합, 알려진 [Target 분석](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)에서 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동.
+다음 [!DNL Adobe Target]-to-[!DNL Adobe Analytics] 통합, 알려진 [Target 분석](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), 지원 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동.
 
 A4T 통합을 사용하면 다음 작업을 수행할 수 있습니다.
 
