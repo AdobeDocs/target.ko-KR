@@ -4,7 +4,7 @@ description: 만드는 방법 알아보기 [!UICONTROL 자동 할당] 및 [!UICO
 title: A4T 지원 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 Target] 활동?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 142401e402ad73d0622f232d021304723ed21b2c
+source-git-commit: 39b4c0363cde97b07265403b680ad4ed899f5a64
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 7%
@@ -24,7 +24,7 @@ A4T 통합을 사용하면 다음 작업을 수행할 수 있습니다.
 
 시작하려면 다음 단계를 따르십시오. 
 
-1. 를 만드는 동안 [!UICONTROL A/B 테스트] 활동, **[!UICONTROL 타깃팅]** 페이지에서 다음 옵션 중 하나를 **[!UICONTROL 트래픽 할당 방법]**:
+1. While [만들기 [!UICONTROL A/B 테스트] 활동](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md), **[!UICONTROL 타깃팅]** 페이지에서 다음 옵션 중 하나를 **[!UICONTROL 트래픽 할당 방법]**:
 
    * [!UICONTROL 최고 경험에 자동 할당]
    * [!UICONTROL 개인화된 경험에 대한 자동 Target]
