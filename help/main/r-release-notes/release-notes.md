@@ -6,9 +6,9 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
 workflow-type: tm+mt
-source-wordcount: '491'
+source-wordcount: '449'
 ht-degree: 100%
 
 ---
@@ -26,8 +26,7 @@ ht-degree: 100%
 | 기능 | 세부 사항 |
 |--- |--- |
 | Headless 개인화 및 실험을 위한 AEM [!UICONTROL 콘텐츠 조각] | [!DNL Target] 활동에서 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용합니다. AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능과 결합하여 headless 개인화와 실험을 지원할 수 있습니다.<P>자세한 내용은 [AEM [!UICONTROL 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)을 참조하십시오. |
-| [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오.<p>**참고**: 이 기능은 2023년 5월 9일부터 모든 고객이 사용할 수 있습니다. |
-| [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 개발자 안내서*&#x200B;가 *[!UICONTROL Adobe Experience League]*&#x200B;로 재배치되었습니다. *[!UICONTROL Experience League]*&#x200B;로의 이동을 통해 보다 간편하게 텍스트를 추가 언어로 현지화할 수 있으며, *Experience League* 내에서 검색이 통합되어 *[!UICONTROL Adobe Target 비즈니스 실무자 안내서]* 및 *[!UICONTROL Adobe Target 개발자 안내서]*&#x200B;의 검색 결과가 제공되고, 추가적인 이점이 제공됩니다.<P>이전 위치에서 *[!UICONTROL Experience League]*&#x200B;로 자동 리디렉션됩니다. 필요에 따라 책갈피를 업데이트하십시오. |
+| [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 개발자 안내서* 가 *[!UICONTROL Adobe Experience League]*&#x200B;로 재배치되었습니다. *[!UICONTROL Experience League]* 로의 이동을 통해 보다 간편하게 텍스트를 추가 언어로 현지화할 수 있으며, *Experience League* 내에서 검색이 통합되어 *[!UICONTROL Adobe Target 비즈니스 실무자 안내서]* 및 *[!UICONTROL Adobe Target 개발자 안내서]*&#x200B;의 검색 결과가 제공되고, 추가적인 이점이 제공됩니다.<P>이전 위치에서 *[!UICONTROL Experience League]* 로 자동 리디렉션됩니다. 필요에 따라 책갈피를 업데이트하십시오. |
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
