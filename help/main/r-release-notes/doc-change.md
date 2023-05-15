@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 40698d4ad9cb8d846bcfb0d0767f4dd75bca5562
+source-git-commit: 8c9693d6c20f7441bd1972188bf082c33f6a73c5
 workflow-type: tm+mt
-source-wordcount: '2648'
-ht-degree: 100%
+source-wordcount: '2678'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 5월 4일 | [Adobe Target API에 대한 인증 구성](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | JWT 자격 증명에서 OAuth 서버 간 자격 증명으로 마이그레이션해야 하는 필요성을 설명하는 참고가 추가되었습니다. |
 | 5월 3일 | [보고서 보기 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Analytics for Target] (A4T)을 사용할 때 [!DNL Analysis Workspace] 에서 활동 노출을 추적하는 방법은 무엇입니까?</li></ul> |
 |  | [프로필 속성](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects) | “landing.URL” 행에 추가 정보를 추가했습니다. |
 | 4월 26일 | [(AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | 이제 모든 [!DNL Target customers]가 [!UICONTROL AEM Content Fragments] 기능을 사용할 수 있습니다. |
