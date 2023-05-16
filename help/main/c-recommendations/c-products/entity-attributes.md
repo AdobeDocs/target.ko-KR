@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: 엔티티 속성을 어떻게 사용합니까?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
 workflow-type: tm+mt
-source-wordcount: '1080'
-ht-degree: 52%
+source-wordcount: '1081'
+ht-degree: 53%
 
 ---
 
@@ -79,7 +79,7 @@ Singe 값만 사용합니다.
 
 이 필수 매개 변수는 제품을 식별합니다. 항목을 인식하고 그에 대한 데이터를 공유하려면 다양한 제품에 사용된 모든 [!DNL Adobe Experience Cloud] 제품([!DNL Analytics] 포함)에서 이 영숫자 ID가 동일해야 합니다.
 
-다음 `entity.id` 값은 필수입니다. *not* REST API 호출에 전달될 때 URL 인코딩이 필요한 슬래시, 앰퍼샌드, 물음표, 백분율 기호, 쉼표 또는 기타 구두점 문자를 포함합니다. 하이픈 및 밑줄은 허용됩니다. `entity.id` 값에 올바르지 않은 구두점을 포함하면 일부 [!DNL Recommendations] 기능에 오류가 발생합니다.
+다음 `entity.id` 값은 필수입니다. *not* REST API 호출에 전달될 때 URL 인코딩이 필요한 공백, 슬래시, 앰퍼샌드, 물음표, 백분율 기호, 쉼표 또는 기타 구두점 문자를 포함합니다. 하이픈 및 밑줄은 허용됩니다. `entity.id` 값에 올바르지 않은 구두점을 포함하면 일부 [!DNL Recommendations] 기능에 오류가 발생합니다.
 
 예: `'entity.id=67833'`
 
