@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1bbfdf81353ca40c252e520ae5e7ac5cc9ac8eae
+source-git-commit: 5e500973dda9feba7e2599502c9ef61c894ddd39
 workflow-type: tm+mt
 source-wordcount: '2731'
 ht-degree: 96%
@@ -21,7 +21,7 @@ ht-degree: 96%
 | --- | --- | --- |
 | 5월 16일 | [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md) | 에는 &quot;spaces&quot;가 허용되지 않음을 나타냅니다. `entity.id` 값. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 업데이트됨 `viewsEnabled` 설명. |
-|  | [단일 페이지 애플리케이션 구현](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 다음 업데이트가 수행되었습니다.<ul><li>&quot;Adobe Target 보기 구현&quot;에서 2단계 이후에 참고 사항이 추가되었습니다.</li><li>초기 페이지 로드 작업 순서에 따라 2단계 &quot;Target 요청 실행&quot;이 업데이트되었습니다.</li></ul> |
+|  | [단일 페이지 애플리케이션 구현](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 다음 업데이트가 수행되었습니다.<ul><li>&quot;Adobe Target 보기 구현&quot;에서 2단계 이후에 참고 사항이 추가되었습니다.</li><li>&quot;초기 페이지 로드를 위한 작업 순서&quot;에서 2단계 &quot;Target 요청 실행&quot;이 업데이트되었습니다.</li></ul> |
 | 5월 4일 | [Adobe Target API에 대한 인증 구성](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | JWT 자격 증명에서 OAuth 서버 간 자격 증명으로 마이그레이션해야 하는 필요성을 설명하는 참고가 추가되었습니다. |
 | 5월 3일 | [보고서 보기 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Analytics for Target] (A4T)을 사용할 때 [!DNL Analysis Workspace] 에서 활동 노출을 추적하는 방법은 무엇입니까?</li></ul> |
 | 4월 26일 | [(AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | 이제 모든 [!DNL Target customers]가 [!UICONTROL AEM Content Fragments] 기능을 사용할 수 있습니다. |
