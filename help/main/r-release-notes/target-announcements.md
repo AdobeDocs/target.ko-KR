@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 56e23e2eb6097e12d62268e086a53f10cc4a89d9
+source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
 workflow-type: tm+mt
-source-wordcount: '1843'
-ht-degree: 100%
+source-wordcount: '1850'
+ht-degree: 94%
 
 ---
 
@@ -15,11 +15,15 @@ ht-degree: 100%
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
-## [!DNL Target] 개인화 엔진을 위한 Gartner Magic Quadrant(2022)의 리더로 선정됨
+## [!UICONTROL Adobe Target 커뮤니티] Q&amp;A 커피 브레이크
 
-Gartner는 [!DNL Adobe Target]을 5년 연속 개인화 엔진(PE)에 대한 Magic Quadrant의 리더로 선정했습니다. 또한 [!DNL Adobe]는 세 가지 주요 사용 사례인 디지털 마케팅, 디지털 상거래, 서비스 및 지원 모두에서 최고 점수를 받았으며 매년 상당한 증가세를 보였습니다. [!DNL Target]은 평가된 모든 공급업체 중 테스트 기능에서 가장 높은 점수를 받았습니다.
+* **2023년 5월 24일 수요일**
+* **8:00-9:오전 00시 (PT, UTC-7)**
+* **[등록 정보](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-자세한 내용은 [Adobe Experience Cloud 블로그 게시물](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}을 참조하십시오.
+우리는 Ryan Roberts, Gentry Lin, 그리고 Ryan Pizzuto와 함께 [!UICONTROL Adobe Target 컨설팅] 마이네 도시아 팀과 [!UICONTROL Adobe 기술 지원 엔지니어링] 팀으로서, [Adobe Target 커뮤니티](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} 이 실상으로 귀사와 직접 [!DNL Adobe Target] 관련 질문 [!DNL Target] @ [!UICONTROL Adobe Summit] 2023년.
+
+언제든지 다음 중 하나를 검토할 수 있습니다. [주문형 Adobe Target Summit 세션 기록](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} 이 채팅에 대한 귀하의 후속 질문을 미리 알려주십시오.
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
