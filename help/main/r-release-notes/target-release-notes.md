@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
-workflow-type: ht
-source-wordcount: '239'
-ht-degree: 100%
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 68%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2023년 5월 15일**
+**마지막 업데이트 날짜: 2023년 5월 19일**
 
 >[!NOTE]
 >
@@ -25,11 +25,35 @@ ht-degree: 100%
 
 ## [!DNL Target] Standard/Premium 23.5.1 (2023년 5월 23~25일)
 
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
+
+5월 23일: 유럽, 중동 및 아프리카(EMEA) 지역 5월 24일: 아시아 태평양(APAC) 지역 5월 25일: 아메리카 지역
+
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
 
 | 기능 | 세부 사항 |
 |--- |--- |
 | [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오. |
+
+* 특정 고객이 &quot;보다 큼&quot; 또는 &quot;보다 작음&quot; 연산자를 사용하여 방문자 프로필로 대상을 만들지 못하는 문제를 해결했습니다. (TGT-45271)
+
+## [!DNL Target] Standard/Premium 23.5.2(2023년 5월 31일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* 프로필 API 인증 토큰을 생성하는 동안 빈 페이지가 표시되던 문제를 수정했습니다. (TGT-45387)
+* 에서 이미지가 표시되지 않던 문제를 수정했습니다. [!UICONTROL 디자인 만들기] 이미지 이름에 GB 18030 문자가 포함되어 있는 경우 패널. (TGT-44614)
+* 보고서 세트가 [!UICONTROL 자동 개인화] 분석 중 동결할 활동. (TGT-44820)
+
+## [!DNL Target] Standard/Premium 23.5.3(결정 날짜)
+
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+| 기능 | 세부 사항 |
+|--- |--- |
+| [!UICONTROL QA 모드] 대상 [!UICONTROL Automated Personalization] 활동 | [!DNL Adobe Target] [!UICONTROL QA 모드] 이제 을(를) 사용할 수 있습니다. [!UICONTROL Automated Personalization] 활동, 바꾸기 [!UICONTROL 미리 보기 링크] 기능을 사용할 수 있습니다.<P>자세한 내용은 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)를 참조하십시오. |
+
+* 를 사용할 때 성능이 개선되었습니다 [!UICONTROL 중복 허용 안 함] 다음 기간 동안 [제외 관리](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) in [!UICONTROL Automated Personalization] 활동.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

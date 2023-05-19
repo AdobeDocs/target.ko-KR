@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: 716180f5a9177b6c86b2aacce76d87a9994f596d
 workflow-type: tm+mt
-source-wordcount: '2749'
-ht-degree: 96%
+source-wordcount: '2759'
+ht-degree: 99%
 
 ---
 
@@ -19,11 +19,12 @@ ht-degree: 96%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 5월 19일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 예정된 릴리스에 대한 사전 릴리스 노트가 업데이트되었습니다. |
 | 5월 17일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 에 대한 정보가 추가되었습니다 [!UICONTROL Adobe Target 커뮤니티] 2023년 5월 24일 수요일에 Q&amp;A 커피 브레이크. |
-| 5월 16일 | [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md) | 에는 &quot;spaces&quot;가 허용되지 않음을 나타냅니다. `entity.id` 값. |
-|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | 업데이트됨 `viewsEnabled` 설명. |
-|  | [단일 페이지 애플리케이션 구현](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 다음 업데이트가 수행되었습니다.<ul><li>&quot;Adobe Target 보기 구현&quot;에서 2단계 이후에 참고 사항이 추가되었습니다.</li><li>&quot;초기 페이지 로드를 위한 작업 순서&quot;에서 2단계 &quot;Target 요청 실행&quot;이 업데이트되었습니다.</li></ul> |
-| 5월 4일 | [Adobe Target API에 대한 인증 구성](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | JWT 자격 증명에서 OAuth 서버 간 자격 증명으로 마이그레이션해야 하는 필요성을 설명하는 참고가 추가되었습니다. |
+| 5월 16일 | [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md) | `entity.id` 값에서 “공백”이 허용되지 않는다는 메시지가 표시됩니다. |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | `viewsEnabled` 설명이 업데이트되었습니다. |
+|  | [단일 페이지 애플리케이션 구현](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 다음과 같이 업데이트되었습니다.<ul><li>“Adobe Target 보기 구현” 아래의 2단계 이후에 메모가 추가되었습니다.</li><li>“초기 페이지 로드 작업 순서”에서 2단계 “Target 요청 실행”이 업데이트되었습니다.</li></ul> |
+| 5월 4일 | [Adobe Target API에 대한 인증 구성](https://experienceleague.adobe.com/docs/target-dev/developer/api/configure-authentication.html){target=_blank} | JWT 자격 증명에서 OAuth 서버 간 자격 증명으로 마이그레이션해야 하는 필요성을 설명하는 메모가 추가되었습니다. |
 | 5월 3일 | [보고서 보기 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#activity-impressions) | 다음 FAQ가 추가되었습니다.<ul><li>[!UICONTROL Analytics for Target] (A4T)을 사용할 때 [!DNL Analysis Workspace] 에서 활동 노출을 추적하는 방법은 무엇입니까?</li></ul> |
 | 4월 26일 | [(AEM) [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md) | 이제 모든 [!DNL Target customers]가 [!UICONTROL AEM Content Fragments] 기능을 사용할 수 있습니다. |
 |  | [[!UICONTROL AEM 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 이제 모든 [!DNL Target customers]가 [!UICONTROL AEM Content Fragments] 기능을 사용할 수 있습니다. |
