@@ -4,16 +4,16 @@ description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-Time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 08422323607f7238a7cf9bac5b863032ce734662
+source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
 workflow-type: tm+mt
-source-wordcount: '936'
-ht-degree: 100%
+source-wordcount: '1029'
+ht-degree: 90%
 
 ---
 
 # [!DNL Real-Time Customer Data Platform]과 통합
 
-[!DNL Adobe Experience Platform] 플랫폼을 기반으로 구축된 [!DNL Real-Time Customer Data Platform]&#8203;(RTCDP)은 기업이 여러 엔터프라이즈 소스의 알려진 데이터와 익명 데이터를 통합할 수 있도록 지원합니다. RTCDP를 통해 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
+[!DNL Adobe Experience Platform] 플랫폼을 기반으로 구축된 [!DNL Real-Time Customer Data Platform](RTCDP)은 기업이 여러 엔터프라이즈 소스의 알려진 데이터와 익명 데이터를 통합할 수 있도록 지원합니다. RTCDP를 통해 모든 채널 및 디바이스에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있습니다.
 
 RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank}를 참조하십시오.
 
@@ -33,21 +33,21 @@ RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](ht
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL Adobe Audience Manager]&#8203;(AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP]&#8203;(Premium 또는 Ultimate) 및[!DNL Target]</li><li>[!DNL RTCDP]&#8203;(모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | 다음 세션 개인화 |
+| <ul><li>[!DNL Adobe Audience Manager](AAM) 및 [!DNL Target]</li><li>[!DNL RTCDP](Premium 또는 Ultimate) 및[!DNL Target]</li><li>[!DNL RTCDP](모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | 다음 세션 개인화 |
 
 ### [!DNL Adobe Experience Platform Web SDK] 또는 [!DNL Experience Platform Server-Side API] 구현
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP]&#8203;(모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><li>에지를 통한 동일 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
-| <ul><li>[!DNL RTCDP]&#8203;(모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul><li>에지를 통한 동일 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
+| <ul><li>[!DNL RTCDP](모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><li>에지를 통한 동일 페이지 개인화</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
+| <ul><li>[!DNL RTCDP](모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul><li>에지를 통한 동일 페이지 개인화</li><ul><li>[!DNL RTCDP] 세그먼트</li><li>세그먼트 공유 시 적용되는 거버넌스</li></ul> |
 
 ### [!UICONTROL at.js]와 [!DNL Platform Web SDK]의 혼합 구현
 
 | 솔루션 | 사용 사례 활성화 |
 | --- | --- |
-| <ul><li>[!DNL RTCDP]&#8203;(모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li></ul><li>동일 페이지 개인화</li><ul><li>[!DNL Platform Web SDK]가 포함된 모든 페이지의 경우</li></ul> |
-| <ul><li>[!DNL RTCDP]&#8203;(모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul> |
+| <ul><li>[!DNL RTCDP](모든 SKU) 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li></ul><li>동일 페이지 개인화</li><ul><li>[!DNL Platform Web SDK]가 포함된 모든 페이지의 경우</li></ul> |
+| <ul><li>[!DNL RTCDP](모든 SKU), [!DNL AAM] 및 [!DNL Target]</li></ul> | <ul><li>다음 세션 개인화</li><ul><li>[!UICONTROL at.js]가 포함된 모든 페이지의 경우</li><li>[!DNL AAM] 세그먼트</li><li>[!DNL AAM]을 통한 서드파티 세그먼트</li></ul> |
 
 ## 세그먼트 평가 시간
 
@@ -113,7 +113,7 @@ AEP/통합 프로필 속성을 [!DNL Target]과 공유하기 위한 JSON 오퍼�
 * *대상 개요* 안내서의 [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
 * *대상 개요* 안내서의 [맵 속성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=en#map-attributes){target=_blank}.
 
-## 비디오 및 블로그 게시물
+## 비디오 및 블로그 게시물 {#videos-blogs}
 
 Target 및 RTCDP를 통한 향상된 개인화에 대한 자세한 내용은 다음 비디오 및 블로그 게시물을 참조하십시오.
 
@@ -124,6 +124,30 @@ Target 및 RTCDP를 통한 향상된 개인화에 대한 자세한 내용은 다
 자세한 내용은 *Platform 튜토리얼* 안내서에서 [Real-Time CDP 및 Adobe Target을 사용하여 다음 히트 개인화](https://experienceleague.adobe.com/docs/platform-learn/tutorials/experience-cloud/next-hit-personalization.html){target=_blank}를 참조하십시오.
 
 >[!VIDEO](https://video.tv.adobe.com/v/340091?quality=12&learn=on)
+
+### 비디오: 구성 [!DNL Adobe Target] 대상 위치: [!DNL Real-Time Customer Data Platform]
+
+구성 방법 알아보기 [!DNL Adobe Target] 대상 위치: [!DNL Real-Time Customer Data Platform] 에서 세그먼트 및 프로필 속성 전송을 시작하려면 [!DNL Real-Time CDP] 끝 [!DNL Target].
+
+>[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+
+### 비디오: 세그먼트 및 프로필 속성 활성화
+
+에서 세그먼트 및 프로필 속성을 활성화하는 방법을 알아봅니다 [!DNL Adobe Real-Time Customer Data Platform] 끝 [!DNL Adobe Target] 을 사용하여 웹 사이트, 모바일 앱 및 기타 디지털 속성에 개인화된 실시간 컨텐츠를 표시할 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+
+### 비디오: 사용 [!DNL Real-Time CDP] 의 세그먼트 [!DNL Target]
+
+사용 방법 알아보기 [!DNL Real-Time Customer Data Platform] 의 세그먼트 [!DNL Adobe Target] 웹 사이트 및 모바일 앱에서 개인화된 경험을 제공할 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+
+### 비디오: 사용 [!DNL Real-Time CDP] 의 프로필 속성 [!DNL Adobe Target]
+
+사용 방법 알아보기 [!DNL Adobe Real-Time Customer Data Platform] 의 프로필 속성 [!DNL Adobe Target] 웹 사이트 및 모바일 앱에서 개인화된 경험을 제공할 수 있습니다.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
 
 ### [!DNL Adobe Target] 블로그 및 비디오: 동일 페이지의 향상된 개인화
 
