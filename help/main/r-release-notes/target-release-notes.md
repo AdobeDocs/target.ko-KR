@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f553151e480d48178389132a0a97fa7de4e04c5
+source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 54%
+source-wordcount: '549'
+ht-degree: 52%
 
 ---
 
@@ -36,6 +36,8 @@ ht-degree: 54%
 | [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오. |
 
 * 특정 고객이 &quot;보다 큼&quot; 또는 &quot;보다 작음&quot; 연산자를 사용하여 방문자 프로필로 대상을 만들 수 없는 문제를 해결했습니다. (TGT-45271)
+* [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
+* 예정된 UI 새로 고침을 위해 다양한 위치에서 Target UI가 업데이트되었습니다(업데이트가 릴리스될 때까지 변경 사항은 기능 플래그 뒤에 있음).
 
 ## [!DNL Target] Standard/Premium 23.5.2(2023년 5월 31일)
 
