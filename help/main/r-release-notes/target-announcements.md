@@ -5,9 +5,9 @@ title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1850'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,12 +18,12 @@ ht-degree: 94%
 ## [!UICONTROL Adobe Target 커뮤니티] Q&amp;A 커피 브레이크
 
 * **2023년 5월 24일 수요일**
-* **8:00-9:오전 00시 (PT, UTC-7)**
+* 오전 **8:00-9:시 (PDT, UTC -7)**
 * **[등록 정보](https://adobe.ly/3BgfeZZ){target=_blank}**
 
-우리는 Ryan Roberts, Gentry Lin, 그리고 Ryan Pizzuto와 함께 [!UICONTROL Adobe Target 컨설팅] 마이네 도시아 팀과 [!UICONTROL Adobe 기술 지원 엔지니어링] 팀으로서, [Adobe Target 커뮤니티](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank} 이 실상으로 귀사와 직접 [!DNL Adobe Target] 관련 질문 [!DNL Target] @ [!UICONTROL Adobe Summit] 2023년.
+[Adobe Target 커뮤니티](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank}에 로그인하여 [!DNL Target] @ [!UICONTROL Adobe Summit] 2023과 관련된 [!DNL Adobe Target] 질문에 대해 이 스레드에서 직접 채팅할 수 있도록 [!UICONTROL Adobe Target 컨설팅] 팀의 Ryan Roberts, Gentry Lin 및 Ryan Pizzuto와 [!UICONTROL Adobe 기술 지원 엔지니어링] 팀의 Mihnea Docea가 합류할 예정입니다.
 
-언제든지 다음 중 하나를 검토할 수 있습니다. [주문형 Adobe Target Summit 세션 기록](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank} 이 채팅에 대한 귀하의 후속 질문을 미리 알려주십시오.
+[온디맨드 Adobe Target Summit 세션 녹화본](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank}을 미리 검토하여 이 채팅에 후속 질문을 가져올 수 있습니다.
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
