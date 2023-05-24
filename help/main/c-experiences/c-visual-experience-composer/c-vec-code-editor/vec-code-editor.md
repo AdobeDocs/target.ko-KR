@@ -7,7 +7,7 @@ exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
 source-wordcount: '2250'
-ht-degree: 86%
+ht-degree: 87%
 
 ---
 
@@ -213,7 +213,7 @@ Target은 &quot;CDQID&quot; 값을 사용하는 새 요소 ID를 Target으로 �
 
 **을 사용할 때 사용자 지정 코드가 실행되지 않음 `triggerView`.**
 
-다음과 같은 경우에는 VEC의 사용자 지정 코드 오퍼가 다시 렌더링되지 않습니다 `triggerView()` 이(가) 다음으로 호출됨 `{page: false}` 을 옵션으로 추가합니다.
+VEC의 사용자 정의 코드 오퍼는 `triggerView()` 가 `{page: false}` 를 통해 옵션으로 호출되는 경우 다시 렌더링되지 않습니다.
 
 **페이지의 구조적 변경 사항으로 인해 작업을 적용할 수 없다는 경고가 수신되었습니다. 어떤 의미입니까?**
 

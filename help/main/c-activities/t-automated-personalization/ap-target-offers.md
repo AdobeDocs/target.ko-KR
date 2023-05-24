@@ -1,6 +1,6 @@
 ---
 keywords: 자동화된 개인화;오퍼;타겟;대상;타깃팅 규칙;타깃팅
-description: Adobe Target에서 AP(Automated Personalization) 활동을 사용하여 개별 오퍼를 특정 대상에 타깃팅하는 방법을 알아봅니다.
+description: Adobe Target의 Automated Personalization(AP) 활동을 사용하여 특정 대상에게 개별 오퍼를 타깃팅하는 방법을 알아봅니다.
 title: 어떻게 해야 합니까 [!DNL Target] Automated Personalization 오퍼?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 # [!DNL Target] Automated Personalization 오퍼
 
-에서 [!DNL Adobe Target] [!DNL Automated Personalization] (AP) 활동을 통해 특정 대상에 오퍼를 타깃팅할 수 있습니다.
+다음에서 [!DNL Adobe Target] [!DNL Automated Personalization] (AP) 활동에서는 오퍼를 특정 대상에 타깃팅할 수 있습니다.
 
 이 기능을 사용하면 특정 방문자가 볼 수 있는 오퍼의 수가 줄어듭니다. 예를 들면 3개의 오퍼가 있는 AP 활동을 고려합니다. 오퍼 1에는 대상 A로 노출을 제한하는 타깃팅 규칙이 있습니다. 두 방문자가 이 AP 활동을 확인했습니다.
 

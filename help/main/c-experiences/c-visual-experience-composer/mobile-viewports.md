@@ -5,9 +5,9 @@ title: 반응형 경험을 위해 모바일 뷰포트를 사용하는 방법은 
 feature: Visual Experience Composer (VEC)
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1155'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1154'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 100%
 >
 >다양한 웹 사이트에서 많이 사용되는 장치에 대한 뷰포트 크기 목록을 제공합니다. (예: `https://viewportsizer.com/devices/`) 가장 정확한 최신 정보를 확인하려면 장치 제조업체의 웹 사이트를 참조하십시오.
 
-| 장치 | 뷰포트 크기 (폭 x 높이) | 디바이스 해상도(폭 x 높이) |
+| 디바이스 | 뷰포트 크기(폭 x 높이) | 디바이스 해상도(폭 x 높이) |
 |---|---|---|
 | iPhone 12 | 390 x 844 | 1170 x 2532 |
 | iPhone 12 Mini | 360 x 780 | 1080 x 2340 |

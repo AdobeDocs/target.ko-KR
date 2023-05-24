@@ -13,7 +13,7 @@ ht-degree: 95%
 
 # Adobe Target 비즈니스 실무자 안내서 {#using}
 
-+ [Adobe Target 비즈니스 실무 가이드 홈](target-home.md)
++ [Adobe Target 비즈니스 실무자 안내서 홈](target-home.md)
 + Target 릴리스 정보 {#release-notes}
    + [Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md)
    + [Target 릴리스 정보 (현재)](r-release-notes/release-notes.md)
@@ -89,16 +89,16 @@ ht-degree: 95%
          + [지표, 대상 및 보고서 공유 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + AJO(Adobe Journey Optimizer)과 Target 통합 {#ajo}
+   + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Adobe Experience Manager(AEM)과 Target 통합 {#aem}
+   + Adobe Experience Manager(AEM)와 Target 통합 {#aem}
       + [AEM과 Target 통합 개요](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
-      + 경험 조각 및 컨텐츠 조각 {#fragments}
+      + 경험 조각 및 콘텐츠 조각 {#fragments}
          + [(AEM) 경험 조각 및 콘텐츠 조각 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 경험 구성요소](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM 콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
-   + [Adobe Audience Manager(AAM)과 Target 통합](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Adobe Audience Manager(AAM)와 Target 통합](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Real-time Customer Data Platform과 통합](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Adobe Campaign과 Target 통합](c-integrating-target-with-mac/campaign-and-target.md)
 + 활동 {#activities}

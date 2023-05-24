@@ -1,6 +1,6 @@
 ---
 keywords: 활동 변경 로그;변경 로그
-description: Adobe에서 활동의 변경 로그에 액세스합니다 [!DNL Target] 활동을 변경한 사람과 변경 사항이 발생한 시기에 대한 레코드를 보기 위해,
+description: Adobe에서 활동의 변경 로그에 액세스 [!DNL Target] 활동을 변경한 사람과 변경 사항이 발생한 시기에 대한 레코드를 봅니다.
 title: 활동 변경 로그를 보려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
@@ -13,7 +13,7 @@ ht-degree: 54%
 
 # 활동 변경 로그
 
-변경 로그 인 [!DNL Adobe Target] 는 활동을 변경한 사람과 변경 사항이 발생한 시기에 대한 레코드를 제공합니다.
+변경 로그인 [!DNL Adobe Target] 은 활동을 변경한 사람과 변경 사항이 발생한 시기에 대한 기록을 제공합니다.
 
 1. 활동을 열고 **[!UICONTROL 변경 로그]**&#x200B;를 클릭합니다.
 

@@ -1,7 +1,7 @@
 ---
 keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
-description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe에서 권장 사항 디자인을 사용자 지정하는 방법을 알아봅니다 [!DNL Target] Recommendations.
-title: Velocity를 사용하여 디자인을 사용자 지정하려면 어떻게 합니까?
+description: 오픈 소스 Velocity 디자인 언어를 사용하여 Adobe에서 권장 사항 디자인을 사용자 지정하는 방법에 대해 알아봅니다 [!DNL Target] Recommendations.
+title: Velocity를 사용하여 디자인을 사용자 지정하는 방법
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
@@ -14,7 +14,7 @@ ht-degree: 44%
 
 # Velocity를 사용하여 디자인 사용자 지정
 
-공개 소스인 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정할 수 있습니다 [!DNL Adobe Target Recommendations].
+에서 오픈 소스 Velocity 디자인 언어를 사용하여 권장 사항 디자인을 사용자 지정합니다. [!DNL Adobe Target Recommendations].
 
 ## 속도 개요 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -22,7 +22,7 @@ Velocity에 대한 정보는 [](https://velocity.apache.org)https://velocity.apa
 
 모든 Velocity 로직, 구문 등을 권장 사항 디자인에 사용할 수 있습니다. 이것은 JavaScript가 아닌 Velocity를 사용하여 *for* 루프, *if* 구문 및 기타 코드를 만들 수 있음을 의미합니다.
 
-에 보낸 엔티티 속성 [!DNL Recommendations] 에서 `productPage` mbox 또는 CSV 업로드는 &quot;다중 값&quot; 속성을 제외하고 디자인에 표시할 수 있습니다. 모든 유형의 속성을 전송할 수 있습니다. 하지만 [!DNL Target] 에서는 &quot;multi-value&quot; 유형의 속성을 템플릿을 반복할 수 있는 배열로 전달하지 않습니다(예: `entityN.categoriesList`).
+엔티티 속성이에 전송됨 [!DNL Recommendations] 다음에서 `productPage` mbox 또는 CSV 업로드는 &quot;다중 값&quot; 속성을 제외하고 디자인에 표시할 수 있습니다. 모든 유형의 속성을 보낼 수 있지만 [!DNL Target] 에서는 &quot;multi-value&quot; 유형의 속성을 템플릿이 반복할 수 있는 배열로 전달하지 않습니다(예: `entityN.categoriesList`).
 
 이러한 값은 다음 구문으로 참조합니다.
 
@@ -30,9 +30,9 @@ Velocity에 대한 정보는 [](https://velocity.apache.org)https://velocity.apa
 $entityN.variable
 ```
 
-엔티티 속성 이름은 선행 표기법으로 구성된 속도 축약법을 따라야 합니다 *$* 문자 뒤에 VTL(Velocity Template Language) 식별자가 옵니다. VTL 식별자는 알파벳 문자(a-z 또는 A-Z)로 시작해야 합니다.
+엔티티 속성 이름은 앞에 로 구성된 속도 축약 표기법을 따라야 합니다. *$* 문자 뒤에 VTL(Velocity Template Language) 식별자가 옵니다. VTL 식별자는 알파벳 문자(a-z 또는 A-Z)로 시작해야 합니다.
 
-속도 엔티티 속성 이름은 다음 유형의 문자로 제한됩니다.
+속도 엔티티 속성 이름은 다음 문자 유형으로 제한됩니다.
 
 * 알파벳(a-z, A-Z)
 * 숫자(0-9)
@@ -60,9 +60,9 @@ $entities[0].categoriesList[2]
 #end
 ```
 
-Velocity 변수(특성)에 대한 자세한 내용은 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
+Velocity 변수(속성)에 대한 자세한 내용은 [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-디자인에서 프로필 스크립트를 사용하는 경우, 스크립트 이름 앞에 있는 $는 `\` (백슬래시). 예:
+디자인에서 프로필 스크립트를 사용하는 경우 스크립트 이름 앞에 있는 $는 `\` (백슬래시). 예:
 
 `\${user.script_name}`
 
@@ -123,22 +123,22 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->속성 이름을 나타내는 태그 앞에 속성 값 뒤에 텍스트를 추가하려는 경우 공식 표기법을 사용하여 속성 이름을 묶을 수 있습니다. 예: `${entity1.thumbnailUrl}.gif`.
+>속성 이름을 나타내는 태그 앞에 속성 값 뒤에 텍스트를 추가하려면 형식 표기법을 사용하여 속성 이름을 묶을 수 있습니다. 예: `${entity1.thumbnailUrl}.gif`.
 
-를 사용할 수도 있습니다 `algorithm.name` 및 `algorithm.dayCount` 디자인에서 엔티티 속성으로, 하나의 디자인을 사용하여 여러 기준을 테스트하고 기준 이름을 디자인에 동적으로 표시할 수 있습니다. 이는 방문자에게 자신이 &quot;최상위 판매자&quot; 또는 &quot;이 항목을 본 사용자가 구매한 항목&quot;을 검토 중임을 보여줍니다. 이러한 속성을 사용하여 `dayCount` (지난 2일 동안 최상위 판매자 등과 같이 기준에 사용된 데이터의 일 수)
+다음을 사용할 수도 있습니다. `algorithm.name` 및 `algorithm.dayCount` 를 디자인의 엔티티 속성으로 사용하여 하나의 디자인을 사용하여 여러 기준을 테스트할 수 있으며 기준 이름을 디자인에 동적으로 표시할 수 있습니다. 이는 방문자에게 자신이 &quot;최상위 판매자&quot; 또는 &quot;이 항목을 본 사용자가 구매한 항목&quot;을 검토 중임을 보여줍니다. 이러한 속성을 사용하여 다음을 표시할 수도 있습니다. `dayCount` (&quot;지난 2일 동안 최상위 판매자&quot; 등과 같이 기준에 사용된 데이터의 일 수.
 
 ## Velocity 템플릿에서 숫자 작업
 
-기본적으로 속도 템플릿은 모든 엔티티 속성을 문자열 값으로 처리합니다. 수학 작업을 수행하거나 다른 숫자 값과 비교하기 위해 엔티티 속성을 숫자 값으로 처리할 수 있습니다. 엔티티 속성을 숫자 값으로 처리하려면 다음 단계를 수행합니다.
+기본적으로 속도 템플릿은 모든 엔티티 속성을 문자열 값으로 처리합니다. 계산 연산을 수행하거나 엔티티 속성을 다른 숫자 값과 비교하기 위해 엔티티 속성을 숫자 값으로 처리할 수 있습니다. 엔티티 속성을 숫자 값으로 처리하려면 다음 단계를 수행합니다.
 
-1. 더미 변수를 선언하고 임의의 정수 또는 double 값으로 초기화합니다.
-1. 사용하려는 엔티티 속성이 비어 있지 않은지 확인합니다(에 필요) [!DNL Target Recommendations]&#39; 템플릿 구문 분석기를 사용하여 템플릿을 확인하고 저장합니다.)
-1. 엔티티 속성을에 전달 `parseInt` 또는 `parseDouble` 1단계에서 만든 더미 변수의 메서드를 사용하여 문자열을 정수 또는 double 값으로 변환합니다.
-1. 새 숫자 값에 대해 수학 연산을 수행하거나 비교를 수행합니다.
+1. 더미 변수를 선언하고 임의의 정수 또는 이중 값으로 초기화합니다.
+1. 사용하려는 엔티티 속성이 비어 있지 않은지 확인합니다( 필수). [!DNL Target Recommendations]&#39; 템플릿을 확인하고 저장하는 템플릿 파서).
+1. 엔티티 속성을에 전달 `parseInt` 또는 `parseDouble` 1단계에서 생성한 더미 변수에 대한 메서드를 사용하여 문자열을 정수 또는 이중 값으로 변환합니다.
+1. 새 숫자 값에 대한 연산 또는 비교를 수행합니다.
 
 ### 예: 할인 가격 계산
 
-할인을 적용하려면 품목의 표시된 가격을 $0.99만큼 줄이려고 한다고 가정합니다. 다음 접근 방식을 사용하여 이 결과를 얻을 수 있습니다.
+할인을 적용하기 위해 항목의 표시 가격을 $0.99만큼 낮추려고 한다고 가정합니다. 다음 접근 방식을 사용하여 이 결과를 얻을 수 있습니다.
 
 ```
 #set( $double = 0.1 )
@@ -151,9 +151,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 예: 항목의 등급에 따라 표시할 별 수 선택
+### 예: 항목 등급에 따라 표시할 별 수 선택
 
-항목의 평균 고객 등급에 따라 적절한 수의 별 수를 표시한다고 가정합니다. 다음 접근 방식을 사용하여 이 결과를 얻을 수 있습니다.
+항목의 숫자 평균 고객 등급에 따라 적절한 수의 별표를 표시한다고 가정합니다. 다음 접근 방식을 사용하여 이 결과를 얻을 수 있습니다.
 
 ```
 #set( $double = 0.1 )
@@ -176,9 +176,9 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 #end
 ```
 
-### 예: 항목의 길이(분)를 기반으로 시간 및 분 단위 계산
+### 예: 항목의 길이를 분 단위로 기반으로 시간(시, 분) 계산
 
-동영상 길이를 분 단위로 저장하지만 시간 및 분 단위로 표시하려고 한다고 가정합니다. 다음 접근 방식을 사용하여 이 결과를 얻을 수 있습니다.
+동영상 길이를 분 단위로 저장하지만 시간 및 분 단위로 표시한다고 가정합니다. 다음 접근 방식을 사용하여 이 결과를 얻을 수 있습니다.
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -214,7 +214,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 문자열 값에서 대체 수행 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-디자인을 수정하여 문자열 내의 값을 바꿀 수 있습니다. 예를 들어, 미국에서 사용되는 소수점 구분 기호를 유럽 및 기타 국가에서 사용되는 쉼표 구분 기호로 바꿉니다.
+문자열 내의 값을 대체하도록 디자인을 수정할 수 있습니다. 예를 들어, 미국에서 사용되는 소수점 구분 기호를 유럽 및 기타 국가에서 사용되는 쉼표 구분 기호로 바꾸는 경우.
 
 다음 코드는 조건부 판매 가격 책정 예제의 한 줄을 보여 줍니다.
 

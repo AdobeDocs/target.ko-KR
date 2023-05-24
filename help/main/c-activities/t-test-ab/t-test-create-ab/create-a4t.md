@@ -1,21 +1,21 @@
 ---
-keywords: 타깃팅;분석;추적 서버;analytics for target;a4t
-description: Adobe에서 활동을 구성하는 방법을 알아봅니다 [!DNL Target] Adobe Analytics을 보고 소스로 사용하려면 이 통합을 Analytics라고 합니다 [!DNL Target] (A4T).
+keywords: 타깃팅;analytics;추적 서버;analytics for target;a4t
+description: Adobe에서 활동을 구성하는 방법 알아보기 [!DNL Target] Adobe Analytics을 보고 소스로 사용. 이 통합을 Analytics for라고 합니다. [!DNL Target] (A4T).
 title: Target에서 Analytics 데이터를 사용하려면 어떻게 해야 합니까?
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '545'
-ht-degree: 78%
+ht-degree: 80%
 
 ---
 
 # Analytics 데이터 사용
 
-에서 활동을 구성할 수 있습니다 [!DNL Adobe Target] 를 [!DNL Adobe Analytics] 를 보고 소스로 사용(A4T)합니다.
+에서 활동을 구성할 수 있습니다. [!DNL Adobe Target] 사용 [!DNL Adobe Analytics] 를 보고 소스 (A4T) 로 사용하십시오.
 
-Target의 데이터 소스로 Analytics를 설정하는 방법에 대한 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+Analytics를 Target 데이터 소스로 설정하는 방법에 대한 자세한 내용은 [Adobe Target용 보고 소스로서의 Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
 
 Analytics를 보고 소스로 사용하는 활동을 설정하기 전에 방문자당 매출액(RPV) 향상 또는 장바구니 클릭 수 증가 등과 같이 활동 목표를 설정합니다. 캠페인의 최종 성공 지표를 선택합니다. Analytics에서 언제든지 추가 지표를 선택할 수 있지만 이 테스트를 적용할 특정 지표는 지정해야 합니다.
 
@@ -29,7 +29,7 @@ A4T(Analytics for Target)를 위해서는 결과를 올바르게 보고하기 �
 
 >[!NOTE]
 >
->Adobe Analytics을 활동의 보고 소스로 사용하는 경우, at.js 버전 0.9.1 이상을 사용하는 경우 활동 생성 중에 추적 서버를 지정할 필요가 없습니다. at.js 라이브러리는 자동으로 추적 서버 값을 [!DNL Target]. 활동을 작성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
+>Adobe Analytics을 활동의 보고 소스로 사용하는 경우 at.js 버전 0.9.1 이상을 사용하는 경우 활동을 생성하는 동안 추적 서버를 지정할 필요가 없습니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 생성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
 
 Analytics를 보고 소스로 설정한 후에 활동을 설정하면 보고 대상을 설정할 수 있는 옵션이 없습니다. Analytics 세그먼트는 Target 활동 보고서에서 사용할 수 있습니다.
 

@@ -1,7 +1,7 @@
 ---
 keywords: 대상;대상 선택;대상 선택;선택기
 description: 대상은 Adobe에 입력된 사이트 방문자를 결정합니다 [!DNL Target] 활동.
-title: 에서 대상을 선택하려면 어떻게 합니까? [!DNL Target] A/B 활동?
+title: 다음에서 대상을 선택하려면 어떻게 합니까? [!DNL Target] A/B 활동
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 91%
 
 # 대상 선택
 
-대상은 대상에 입력된 사이트 방문자를 판별합니다 [!DNL Adobe Target] 활동.
+대상은 사이트에 입력된 사이트 방문자를 결정합니다. [!DNL Adobe Target] 활동.
 
 >[!NOTE]
 >

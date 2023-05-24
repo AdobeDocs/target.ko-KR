@@ -1,7 +1,7 @@
 ---
 keywords: 활동 url;url;다른 url
-description: 테스트에 사용되는 페이지를 결정하고 Adobe Target을 사용하여 테스트를 디자인할 때 열리는 활동 URL을 지정하는 방법을 알아봅니다.
-title: A/B 활동에서 활동 URL이란 무엇입니까?
+description: 테스트에 사용되는 페이지를 결정하며 Adobe Target을 사용하여 테스트를 디자인할 때 열리는 활동 URL을 지정하는 방법을 알아봅니다.
+title: A/B 활동의 활동 URL이란 무엇입니까?
 feature: A/B Tests
 exl-id: 7482ae10-fb7e-42ba-9ea0-97b82ed85bff
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 73%
 
 # 활동 URL
 
-활동 URL은 테스트에 사용되는 페이지를 결정하며 테스트가 Adobe Target을 사용하여 디자인될 때 열립니다.
+활동 URL은 테스트에 사용되는 페이지를 결정하며 Adobe Target을 사용하여 테스트를 디자인할 때 열립니다.
 
 활동을 만들 때 메시지가 표시되면 활동 URL을 지정하십시오. 전체 URL(`https://` 포함)을 입력하고 **[!UICONTROL 만들기]**&#x200B;를 클릭합니다.
 

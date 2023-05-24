@@ -1,6 +1,6 @@
 ---
 keywords: 관리;승인자 역할;승인자
-description: 첫 번째 작업 Adobe 수행 [!DNL Target] 관리자는 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후에 수행해야 합니다.
+description: 첫 번째 작업 수행 Adobe [!DNL Target] 관리자는 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후 수행해야 합니다.
 title: Target 관리를 시작하려면 어디서 시작해야 합니까?
 feature: Administration & Configuration
 role: Admin
@@ -14,13 +14,13 @@ ht-degree: 82%
 
 # 관리자의 첫 단계
 
-이 문서에는 첫 번째 단계가 포함되어 있습니다 [!DNL Adobe Target] 관리자는 [!DNL Adobe Experience Cloud].
+이 문서에는 첫 번째 단계가 포함되어 있습니다 [!DNL Adobe Target] 관리자는 다음에 대한 이메일 초대장을 받은 후 수행해야 합니다. [!DNL Adobe Experience Cloud].
 
-## 에 초대 받기 [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
+## 다음으로 초대 받기 [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 [!DNL Adobe Admin Console]에서 시스템 관리자가 귀하를 참여할 수 있도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행합니다.
 
-자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 에서 *Experience Cloud 및 핵심 서비스 도움말*.
+자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 다음에서 *Experience Cloud 및 핵심 서비스 도움말*.
 
 시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다. 
 

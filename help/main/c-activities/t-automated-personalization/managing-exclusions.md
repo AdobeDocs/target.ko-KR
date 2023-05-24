@@ -1,7 +1,7 @@
 ---
-keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;제외 그룹
-description: Adobe의 제외 관리 [!DNL Target] Automated Personalization (AP) 활동. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.
-title: Automated Personalization 활동에서 제외를 관리하려면 어떻게 해야 합니까?
+keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;제외 그룹;
+description: Adobe에서 제외 관리 [!DNL Target] Automated Personalization (AP) 활동. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.
+title: Automated Personalization 활동에서 제외를 관리하려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # 제외 관리
 
-에서 제외 그룹을 만들고, 중복 오퍼를 제외하고, 특정 경험을 제외하고, 기본 콘텐츠를 제외하여 제외를 관리합니다 [!UICONTROL Automated Personalization] 의 (AP) 활동 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 활동.
+에서 제외 그룹을 만들고, 중복 오퍼를 제외하고, 특정 경험을 제외하고, 기본 콘텐츠를 제외하여 제외 관리 [!UICONTROL Automated Personalization] 의 (AP) 활동 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 활동.
 
 ## 제외 그룹 만들기 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -99,7 +99,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있�
 
 **시각적 경험 작성기(VEC)를 사용하여 기본 콘텐츠를 제외하려면 다음을 수행하십시오.**
 
-1. While [AP 활동 만들기 또는 편집](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)을 눌러 바꿀 컨텐츠를 선택하고 을 클릭하여 액세스합니다 **[!UICONTROL 텍스트/HTML 변경]**, **[!UICONTROL 이미지 변경]**, 또는 **[!UICONTROL 배경색 변경]**.
+1. While [ap 활동 만들기 또는 편집](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)을 클릭하고, 바꿀 콘텐츠를 선택한 다음 클릭하여 액세스합니다 **[!UICONTROL 텍스트/HTML 변경]**, **[!UICONTROL 이미지 변경]**, 또는 **[!UICONTROL 배경색 변경]**.
 1. 대화 상자에서 새 콘텐츠를 작성하고 기본 콘텐츠의 오른쪽에 있는 **포함**&#x200B;을 선택 취소합니다(또는 콘텐츠 선택 화면에서 기본 이미지/비디오를 선택 취소합니다.).
 
    [!UICONTROL 포함] 확인란은 콘텐츠/오퍼 유형에 따라 약간 다른 위치에 표시됩니다.

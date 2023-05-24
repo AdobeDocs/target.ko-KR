@@ -1,6 +1,6 @@
 ---
 keywords: 경험 타깃팅;랜딩 페이지 테스트
-description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현입니다. Adobe에서 요소 선택기를 사용하는 방법을 알아봅니다 [!DNL Target] VEC(시각적 경험 작성기)
+description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현식입니다. Adobe에서 요소 선택기를 사용하는 방법에 대해 알아봅니다 [!DNL Target] VEC(시각적 경험 작성기).
 title: VEC(시각적 경험 작성기)에서 요소 선택기를 사용할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
@@ -17,7 +17,7 @@ ht-degree: 79%
 
 MDN(Mozilla Developer Network)의 [Selectors](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
 
-계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. 클릭 **[!UICONTROL 관리 > 시각적 경험 작성기]**&#x200B;을 선택한 다음 선호하는 CSS 선택기를 선택합니다.
+계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. 클릭 **[!UICONTROL 관리 > 시각적 경험 작성기]**&#x200B;를 클릭한 다음 선호하는 CSS 선택기를 선택합니다.
 
 ![css_selectors 이미지](assets/css_selectors.png)
 
@@ -27,7 +27,7 @@ MDN(Mozilla Developer Network)의 [Selectors](https://developer.mozilla.org/en-U
 
 CSS 선택기를 사용할 시점과 고유한 ID를 사용할 시점에 대해서는 [시각적 경험 작성기 우수 사례 및 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)을 참조하십시오.
 
-## Adobe 방법 [!DNL Target] 요소용 선택기를 생성합니다. {#section_D89D954BCBFB486CA081BE183776A475}
+## Adobe 방법 [!DNL Target] 요소용 선택기 생성 {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target에서는 단순 알고리즘을 사용하여 선택기를 만듭니다. 다음은 생성 논리에 대한 간략한 설명입니다.
 

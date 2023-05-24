@@ -1,6 +1,6 @@
 ---
 keywords: A/B;활동 지표;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-description: Adobe에서 지표를 지정하는 방법 알아보기 [!DNL Target] A/B 활동을 통해 전환, 수입 및 참여와 같이 방문이 성공적으로 수행된 시기를 확인합니다.
+description: 'Adobe에서 지표를 지정하는 방법 알아보기 [!DNL Target] A/B 활동: 전환, 수입 및 참여와 같이 방문이 성공적으로 수행된 시기를 결정합니다.'
 title: A/B 활동에서 목표 지표를 설정하려면 어떻게 합니까?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
@@ -13,9 +13,9 @@ ht-degree: 83%
 
 # 지표 설정
 
-에서 지표 사용 [!DNL Adobe Target] A/B 활동을 통해 방문이 성공적으로 수행된 시기를 확인합니다.
+에서 지표 사용 [!DNL Adobe Target] A/B 활동: 방문이 성공적으로 수행된 시기를 확인합니다.
 
-성공 지표에 대한 자세한 내용은 [성공 지표 를 참조하십시오](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+성공 지표에 대한 자세한 내용은 을 참조하십시오. [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. 활동의 목표를 지정합니다.
 1. [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.

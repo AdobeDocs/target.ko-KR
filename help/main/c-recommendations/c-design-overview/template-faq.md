@@ -1,7 +1,7 @@
 ---
 keywords: 권장 사항;자주 묻는 질문;faq
 description: Adobe에 대한 FAQ 목록 및 답변 검토 [!DNL Target] Recommendations 디자인.
-title: 설계 질문에 대한 답변은 어디에서 얻을 수 있습니까? [!DNL Target] Recommendations?
+title: 디자인 질문에 대한 답변은 어디에서 할 수 있습니까? [!DNL Target] Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
@@ -14,7 +14,7 @@ ht-degree: 72%
 
 # 디자인 FAQ
 
-다음에 대한 FAQ 목록 [!DNL Adobe Target] [!DNL Recommendations] 디자인.
+에 대한 FAQ 목록 [!DNL Adobe Target] [!DNL Recommendations] 디자인.
 
 ## 권장 품목 가격이 소수점 오른쪽에 두 값을 모두 표시하지 않습니다. 어떻게 표시할 수 있습니까?
 
@@ -30,13 +30,13 @@ ht-degree: 72%
 
    `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## 디자인에 카테고리가 표시되지 않는 이유는 무엇입니까? 지금 사용 중입니다 `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
+## 디자인에 카테고리가 표시되지 않는 이유는 무엇입니까? 을(를) 사용 중입니다. `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
 카테고리 ID는 디자인에 표시할 수 없습니다. 여러 카테고리가 저장될 수 있으므로 시스템에서는 어느 카테고리를 표시할지 모르게 됩니다.
 
 ## 즉시 업데이트를 받으려면 디자인을 어떻게 변경해야 합니까? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
-현재 사용 중인 디자인을 변경하면 업데이트하는 데 시간이 걸립니다. 디자인을 즉시 변경하려면, 새 디자인을 만들고, 활동에서 선택하고, 권장 사항을 저장합니다.
+현재 사용 중인 디자인을 변경하면 업데이트하는 데 시간이 걸립니다. 디자인을 즉시 변경하려면 새 디자인을 만들고 활동에서 선택한 다음, 권장 사항을 저장합니다.
 
 ## 디자인에서 표시할 주요 정보를 캡처할 수 있습니까? 예: 주요 제품 카테고리를 표시하려는 경우 Velocity 디자인에서 해당 값을 어떻게 코딩할 수 있습니까? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
@@ -52,4 +52,4 @@ JavaScript 줄바꿈 없는 공백으로 보내면 이와 같이 되는 것 같�
 
 ## [!DNL Recommendations] 디자인에서 프로필 스크립트를 사용할 수 있습니까? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-예. 에서 프로필 스크립트를 사용하려면 [!DNL Recommendations] 디자인, 이름 줄바꿈 `\${...}`. 예를 들어 프로필 스크립트가 `user.basket`, 다음으로 참조 `\${user.basket}` 디자인. 백슬래시는 프로필 스크립트가 Velocity로 렌더링되지 않았음을 의미합니다. 따라서 Velocity 템플릿의 프로필 스크립트에는 작업을 수행할 수 없습니다. 값은 페이지에 직접 인쇄됩니다.
+예. 에서 프로필 스크립트를 사용하려면 [!DNL Recommendations] 디자인, 이름 줄 바꿈 `\${...}`. 예를 들어 프로필 스크립트 이름이 인 경우 `user.basket`을 참조하십시오. `\${user.basket}` 디자인에서. 백슬래시는 프로필 스크립트가 Velocity에서 렌더링되지 않음을 의미합니다. 따라서 Velocity 템플릿의 프로필 스크립트에 대해서는 어떤 작업도 수행할 수 없습니다. 값이 페이지에 직접 인쇄됩니다.

@@ -1,7 +1,7 @@
 ---
-keywords: 자동화된 개인화;ap;대상;앙상블;랜덤 포레스트;다중 무장 산적;톰슨 샘플링;ml;기계 학습
-description: Adobe에서 AP(Automated Personalization) 활동을 사용하는 방법을 알아봅니다 [!DNL Target] 고급 기계 학습을 사용하여 각 방문자와 다른 오퍼 변형을 일치시킵니다.
-title: Automated Personalization(AP) 활동이란 무엇입니까?
+keywords: 자동화된 개인화;ap;대상;앙상블;랜덤 포레스트;multi-armed bandit;thompson 샘플링;ml;머신 러닝
+description: Adobe에서 Automated Personalization(AP) 활동을 사용하는 방법을 알아봅니다 [!DNL Target] 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시킵니다.
+title: AP(Automated Personalization) 활동이란 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
@@ -14,7 +14,7 @@ ht-degree: 82%
 
 # AP (Automated Personalization)
 
-[!UICONTROL Automated Personalization] 의 (AP) 활동 [!DNL Adobe Target] 콘텐츠를 개인화하고 상승도를 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결합니다.
+[!UICONTROL Automated Personalization] 의 (AP) 활동 [!DNL Adobe Target] 컨텐츠를 개인화하고 상승도를 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 오퍼를 각 방문자와 연결합니다.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 82%
 
 [!UICONTROL 자동 타겟]과 마찬가지로, [!UICONTROL 자동화된 개인화]는 선구적인 데이터 과학 앙상블 방법인 Random Forest 알고리즘을 방문자에게 표시할 최상의 경험을 결정하는 기본 개인화 알고리즘으로 사용합니다. [!UICONTROL 자동화된 개인화는 테스트의 검색 단계에서 유용할 수 있습니다. ] 또한 다양한 방문자를 타깃팅할 때 기계 학습을 통해 가장 효과적인 컨텐츠를 확인하는 데도 유용합니다. 시간이 지남에 따라 이 알고리즘은 가장 효과적인 컨텐츠를 예측하는 방법을 학습하며 목표를 달성할 가능성이 가장 높은 컨텐츠를 표시합니다.
 
-방법에 대한 자세한 정보 찾기 [!UICONTROL Automated Personalization] 다른 [!UICONTROL 자동 Target]를 참조하십시오. [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
+방법에 대한 자세한 내용을 보려면 [!UICONTROL Automated Personalization] 다음과 다름: [!UICONTROL 자동 Target], 참조 [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
 마케터는 VEC([!UICONTROL 시각적 경험 작성기])를 사용하여 컨텐츠를 가리킨 후 클릭한 다음 해당 영역에 대한 추가 컨텐츠 선택 사항을 시각적으로 만들고 선택할 수 있는 파일을 사이트에서 구현합니다. 그런 후에 이 알고리즘은 시스템이 방문자에 대해 가지고 있는 모든 행동 데이터를 기준으로 각 방문자에게 전달할 컨텐츠를 자동으로 결정하며 개인화된 경험을 제공합니다. [!UICONTROL 자동화된 개인화]는 방문자 동작의 변경에 맞춰 조정될 수 있으므로 지속적인 상승도 및 개인화를 제공하기 위해 설정된 종료 날짜 없이 실행될 수 있습니다. 이를 때로 &quot;항시적&quot; 모드라고도 합니다. 마케터는 최적화를 통해 확인된 상승도를 실현하기 전에, 표준 A/B 활동의 결과를 구현하기 위한 표준 작업 순서에 해당하는 테스트 실행, 결과 분석, 승자 전달 과정을 진행할 필요가 없습니다.
 
@@ -32,7 +32,7 @@ ht-degree: 82%
 |---|---|
 | Multi-armed bandit | 최적화에 대한 multi-armed bandit 접근 방식은 탐색 학습과 해당 학습의 이용 간에 균형을 이룹니다. |
 | Random Forest | Random Forest는 선도적인 기계 학습 접근 방식입니다. 데이터 과학 분야에서는 방문자 및 방문 속성을 기준으로 많은 수의 결정 트리를 생성하여 작용하는 앙상블 분류 또는 회귀 방법입니다. Target 내에서 Random Forest는 각 특정 방문자에 대해 전환 가능성이 가장 높(또는 방문당 매출이 가장 높음)을 것으로 예상되는 경험을 결정하는 데 사용됩니다. Target의 Random Forest에 대한 자세한 내용은 [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)을 참조하십시오. |
-| Thompson 샘플링 | Thompson 샘플링 의 목표는 해당 경험을 찾는 &quot;비용&quot;을 최소화하면서 전반적인 최상의 경험(개인화되지 않음)을 결정하는 것입니다. Thompson 샘플링에서는 두 경험 간의 통계적 차이가 없는 경우에도 항상 승자를 선택합니다. 자세한 내용은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 참조하십시오. |
+| Thompson 샘플링 | Thompson 샘플링의 목표는 해당 경험을 찾는 &quot;비용&quot;을 최소화하면서 전체적(개인화되지 않음)으로 가장 좋은 경험을 결정하는 것입니다. Thompson 샘플링에서는 두 경험 간의 통계적 차이가 없는 경우에도 항상 승자를 선택합니다. 자세한 내용은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 참조하십시오. |
 
 [!UICONTROL 자동화된 개인화]를 사용할 때는 다음 세부 사항을 고려하십시오.
 
@@ -48,7 +48,7 @@ Random Forest는 선도적인 기계 학습 접근 방식입니다. 데이터 �
 
 **개인화 모델은 방문자 행동 변화에 따라 조정됩니다.**
 
-* Multi-arm bandit 은 모델이 항상 트래픽의 작은 부분을 &quot;사용&quot;하여 활동 수명 동안 계속 학습하고 이전에 학습한 트렌드를 과도하게 이용하는 것을 방지할 수 있도록 합니다.
+* Multi-arm bandit을 사용하면 모델이 항상 작은 부분의 트래픽을 &quot;소비&quot;하여 활동 기간 동안 계속 학습하고 이전에 학습한 트렌드의 과도한 사용을 방지할 수 있습니다.
 * 기본 모델은 24시간마다 재구축되며, 최신 방문자 동작 데이터를 사용하여 달라지는 방문자 기본 설정이 Target에서 항상 활용되도록 합니다.
 * 이 알고리즘은 개별 방문자의 성과가 좋은 경험을 파악할 수 없는 경우 개인화된 승자를 계속 찾으면서, 전반적으로 가장 성과가 좋은 경험을 표시하는 방식으로 자동으로 전환됩니다. 최고 성과를 보이는 경험은 [Thompson 샘플링](https://en.wikipedia.org/wiki/Thompson_sampling)을 사용하여 확인되었습니다.
 

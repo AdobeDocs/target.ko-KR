@@ -1,7 +1,7 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Adobe에 대한 트래픽이 충분한지 확인할 수 있는 트래픽 견적 도구를 사용하는 방법을 알아봅니다 [!DNL Target] 성공적인 다변량 테스트 활동.
-title: Mvt(다변량 테스트) 활동에 필요한 트래픽은 얼마입니까?
+description: Adobe에 대한 트래픽이 충분한지 확인할 수 있는 트래픽 견적 도구 를 사용하는 방법을 알아봅니다 [!DNL Target] 성공할 다변량 테스트 활동.
+title: MVT(다변량 테스트) 활동에 필요한 트래픽의 양은 얼마입니까?
 feature: Multivariate Tests
 exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -35,7 +35,7 @@ ht-degree: 91%
 
    트래픽 견적 도구가 열립니다. **[!UICONTROL 트래픽]** 아이콘을 다시 클릭하여 트래픽 견적 도구를 숨길 수 있습니다.
 
-   ![예상 이미지](assets/estimatorempty.png)
+   ![estimatorempty 이미지](assets/estimatorempty.png)
 
 1. 일반적인 전환율, 일별 예상 방문자 수, 테스트 기간을 제공합니다.
 
@@ -48,7 +48,7 @@ ht-degree: 91%
 
    트래픽 견적 도구 위쪽에서 입력된 값이 계산되고 결과가 표시됩니다.
 
-   ![견적 정보불충분한 이미지](assets/estimatorinsufficient.png)
+   ![estimatorinsufficient 이미지](assets/estimatorinsufficient.png)
 
    숫자를 변경하면 예측값이 변경됩니다. 예를 들어, 많은 수의 경험을 테스트하며 전환율 및 노출 수가 너무 낮은 경우, 트래픽 견적 도구에 테스트를 성공적으로 실행해야 하는 기간이 표시됩니다. 또는 트래픽이 낮은 경우, 트래픽 견적 도구는 원하는 일수를 테스트할 수 있도록 더 낮은 수의 경험을 제안할 수 있습니다.
 
@@ -59,4 +59,4 @@ ht-degree: 91%
 
    트래픽 견적 도구가 트래픽이 충분하다고 표시할 때까지 수치를 조정한 후 그에 따라 테스트를 디자인하십시오.
 
-   ![견적 도구 이미지](assets/estimatorok.png)
+   ![estimatorok 이미지](assets/estimatorok.png)

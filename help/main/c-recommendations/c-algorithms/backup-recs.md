@@ -1,7 +1,7 @@
 ---
 keywords: 권장 사항;백업;백업
-description: Adobe에서 백업 권장 사항을 사용하는 방법 알아보기 [!DNL Target] Recommendations. 권장 항목이 충분하지 않은 권장 사항에는 백업 알고리즘의 결과가 표시됩니다.
-title: Recommendations에서 백업 권장 사항을 사용하려면 어떻게 해야 합니까?
+description: Adobe에서 백업 권장 사항을 사용하는 방법 알아보기 [!DNL Target] Recommendations. 권장 사항 항목이 충분하지 않은 권장 사항에는 백업 알고리즘의 결과가 표시됩니다.
+title: Recommendations에서 백업 권장 사항을 사용하려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
@@ -14,13 +14,13 @@ ht-degree: 82%
 
 # 백업 권장 사항 사용
 
-Adobe Target에서 백업 권장 사항 기능을 사용하는 경우, 권장 항목이 충분하지 않은 권장 사항에는 기본 콘텐츠가 표시되지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
+Adobe Target에서 백업 권장 사항 기능을 사용하는 경우 권장 사항 항목이 충분하지 않은 모든 권장 사항은 기본 콘텐츠를 표시하지 않습니다. 대신 권장 사항이 백업 알고리즘의 결과를 표시합니다.
 
 백업 권장 사항을 사용하지 않을 경우 권장 사항에 디스플레이를 채우기에 충분한 항목이 없으면 시스템은 사용자에게 기본 컨텐츠를 표시합니다.
 
 >[!NOTE]
 >
->추가 정보는 [기준 만들기 의 컨텐츠 섹션](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 항목(사용 시 관찰할 결과를 설명하는 매트릭스 포함) [!UICONTROL 부분 디자인 렌더링] 및 [!UICONTROL 백업 Recommendations 표시] 옵션을 함께 사용하거나 개별적으로 선택할 수 있습니다.
+>추가 정보는에 포함됩니다. [기준 만들기 의 콘텐츠 섹션](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 항목(사용 시 관찰할 결과를 설명하는 매트릭스 포함) [!UICONTROL 부분 디자인 렌더링] 및 [!UICONTROL 백업 Recommendations 표시] 옵션을 함께 사용하거나 별도로 사용할 수 있습니다.
 
 백업 권장 사항 기능은 항상 사이트에서 가장 많이 본 항목을 사용하여 알고리즘의 데이터가 사용된 후 나머지 슬롯을 채웁니다. 예를 들어, 템플릿이 권장된 5개 항목을 표시하도록 구성되었고 *구매 친화성* 알고리즘을 사용하고 있지만 데이터가 5개 슬롯 중 2개만 채울 수 있는 경우 백업 권장 사항 기능은 가장 많이 본 항목으로 다른 세 개의 슬롯을 채웁니다.
 

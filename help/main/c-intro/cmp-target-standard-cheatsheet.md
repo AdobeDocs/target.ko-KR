@@ -166,7 +166,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 **VEC(시각적 경험 작성기)에서 내 페이지를 로드하려고 할 때 &quot;브라우저에서 스크립트가 로드되도록 허용&quot; 메시지가 표시됩니다. 이 문제를 방지하려면 어떻게 해야 합니까?**
 
-이 문제는 사이트가 HTTP 리소스와 HTTPS 리소스를 둘 다 가져와 혼합된 콘텐츠를 포함하고 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
+이 문제는 사이트에 HTTP 리소스와 HTTPS 리소스를 모두 가져오는 사이트가 혼합된 콘텐츠가 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
 
 이러한 이동이 완료될 때까지는 [브라우저에서 혼합 콘텐츠 활성화](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) 의 지침에 따라 브라우저가 혼합된 콘텐츠를 로드할 수 있도록 하십시오. 이는 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
 
@@ -309,4 +309,4 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. 자세한 내용은 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+API에 대한 완전한 설명서가 있습니다. 다음을 참조하십시오 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.

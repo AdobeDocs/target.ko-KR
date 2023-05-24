@@ -1,7 +1,7 @@
 ---
 keywords: 경험 만들기;경험 생성;우선순위;대상;경험;시각적 경험 작성기
-description: Adobe 사용 방법 알아보기 [!DNL Target] XT(경험 타깃팅) 활동에서 페이지에서 경험을 만들고 편집할 VEC(시각적 경험 작성기)
-title: 경험 타깃팅 활동에서 경험을 만들려면 어떻게 합니까?
+description: Adobe 사용 방법 알아보기 [!DNL Target] VEC(시각적 경험 작성기)를 사용하여 XT(경험 타깃팅) 활동에서 페이지에서 경험을 만들고 편집할 수 있습니다.
+title: 경험 타깃팅 활동에서 경험을 만들려면 어떻게 해야 합니까?
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 87%
 
 # XT(경험 타깃팅) 활동에서 경험 만들기
 
-다음 [!UICONTROL 시각적 경험 작성기] (VEC)의 [!DNL Adobe Target] 에서는 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다 [!UICONTROL 경험 타깃팅] (XT) 활동.
+다음 [!UICONTROL 시각적 경험 작성기] (VEC) 위치 [!DNL Adobe Target] 에서는 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다. [!UICONTROL 경험 타기팅] (XT) 활동.
 
 1. 변경할 요소를 선택하고 원하는 대로 변경합니다.
 
@@ -25,7 +25,7 @@ ht-degree: 87%
 
    페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 VEC를 사용하여 변경할 수 있습니다. 요소에서 수행하여 경험을 변경할 수 있는 작업 목록은 [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
 
-   다음을 생성한 경우 [!DNL Target] 를 사용하여 페이지에서 요청 [!DNL Target Classic], [!DNL Target] 요청은 요청 이름을 표시하는 요소로 표시되며, 다른 요소와 같이 수정할 수 있습니다.
+   을(를) 생성한 경우 [!DNL Target] 을 사용하여 페이지에서 요청 [!DNL Target Classic], [!DNL Target] 요청은 요청 이름을 나타내는 요소로 표시되며 다른 요소와 같이 수정할 수 있습니다.
 
    >[!NOTE]
    >
@@ -43,7 +43,7 @@ ht-degree: 87%
    >
    >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-   대상자를 만들 때 위치를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. 아래 [!UICONTROL 사용자 지정] ( 대상 만들기 > 규칙 추가 > 사용자 지정), 위치를 선택한 다음 원하는 매개 변수를 지정합니다.
+   대상을 만들 때 위치를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. 아래 [!UICONTROL 사용자 정의] (대상 만들기 > 규칙 추가 > 사용자 지정), 위치를 선택한 다음 원하는 매개 변수를 지정합니다.
 
    >[!NOTE]
    >

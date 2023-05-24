@@ -1,7 +1,7 @@
 ---
-keywords: 프로모션;전면 프로모션;후속 프로모션;프로모션 유형;항목 목록;속성별 판촉;컬렉션 판촉
-description: 프로모션된 항목을 추가하고 Adobe에서 해당 배치를 제어하는 방법을 알아봅니다 [!DNL Target] Recommendations 디자인. 정적 및 동적 프로모션을 추가할 수 있습니다.
-title: Recommendations 디자인에 프로모션을 추가하려면 어떻게 해야 합니까?
+keywords: 프로모션;전면 프로모션;후속 프로모션;프로모션 유형;항목 목록;속성별 프로모션;컬렉션 프로모션
+description: 프로모션된 항목을 추가하고 Adobe에서 해당 배치를 제어하는 방법에 대해 알아봅니다 [!DNL Target] Recommendations 디자인. 정적 및 동적 프로모션을 추가할 수 있습니다.
+title: Recommendations 디자인에서 프로모션을 추가하려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
@@ -14,7 +14,7 @@ ht-degree: 49%
 
 # 프로모션 추가
 
-프로모션된 항목을 추가하고 위치에서 해당 배치를 제어합니다 [!DNL Adobe Target Recommendations] 디자인. 정적 및 동적 프로모션을 추가할 수 있습니다.
+프로모션된 항목을 추가하고 [!DNL Adobe Target Recommendations] 디자인. 정적 및 동적 프로모션을 추가할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -26,7 +26,7 @@ ht-degree: 49%
 
 특정 항목을 판촉하거나, 항목을 동적으로 판촉하거나, 속성을 기준으로 항목을 판촉하거나, 컬렉션을 판촉할 수 있습니다.
 
-![[!UICONTROL 전면 프로모션] 및 [!UICONTROL 후속 프로모션] 옵션 [!DNL Target] UI](assets/add_promotion_toggles.png)
+![[!UICONTROL 전면 프로모션] 및 [!UICONTROL 후면 프로모션] 의 옵션 [!DNL Target] UI](assets/add_promotion_toggles.png)
 
 >[!NOTE]
 >
@@ -54,28 +54,28 @@ ht-degree: 49%
 
    * **[!UICONTROL 속성별 판촉]**&#x200B;을 선택하고 규칙을 추가하여 판촉할 항목의 속성을 정의합니다.
 
-      선택하는 경우 [!UICONTROL 속성별 홍보]를 사용하여 동적 일치를 만들 수 있습니다. 자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
+      다음을 선택하는 경우 [!UICONTROL 속성별 프로모션], 동적 일치 항목을 만들 수 있습니다. 자세한 내용은 [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
    * **[!UICONTROL 컬렉션 판촉]**&#x200B;을 선택하고 판촉할 항목의 컬렉션을 선택합니다.
 
       프로모션에 사용할 새 컬렉션을 만들 수 있습니다. 자세한 내용은 [컬렉션 만들기](/help/main/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) 추가 정보.
-   선택한 경우 **[!UICONTROL 항목 목록]** 로서의 **[!UICONTROL 프로모션 유형]**&#x200B;를 클릭하고, **[!UICONTROL 항목 순서 무작위 지정]** 원하는 경우 확인란을 선택합니다.
+   다음을 선택한 경우 **[!UICONTROL 항목 목록]** (으)로 **[!UICONTROL 프로모션 유형]**, 다음을 선택할 수 있습니다. **[!UICONTROL 항목 순서 무작위 지정]** 원하는 경우 확인란을 선택합니다.
 
-   에 대한 기본 정렬 순서 [!UICONTROL 항목 목록] 은 [!DNL Target] UI 또는 API. 목록에 프로모션용으로 설정한 슬롯 수보다 많은 항목이 포함된 경우 [!UICONTROL 항목 순서 무작위 지정] 선택 사항은 디자인에 표시되는 판촉된 항목을 임의로 지정합니다. 이 옵션을 선택하면 [!DNL Target] 각 히트에 설정된 전체 프로모션 중에서 템플릿의 프로모션에 대해 활성화된 항목을 임의로 선택합니다.
+   의 기본 정렬 순서 [!UICONTROL 항목 목록] 은(는) 다음에 입력한 주문을 기반으로 합니다. [!DNL Target] UI 또는 API. 목록에 프로모션용으로 설정한 슬롯 수보다 많은 항목이 포함된 경우 [!UICONTROL 항목 순서 무작위 지정] 옵션은 디자인에 표시되는 판촉된 항목을 무작위로 지정합니다. 이 옵션을 선택하면 다음 결과가 발생합니다 [!DNL Target] 각 히트에 설정된 전체 프로모션 중에서 템플릿의 프로모션에 대해 활성화된 항목을 임의로 선택합니다.
 
-   엔티티에 `entity.value` 속성(예: 제품을 판매하지 않음)에서에 숫자 값을 전달할 수 있습니다. `entity.value` 게시 날짜와 같은 속성입니다. 이 경우 승격된 항목은 가장 최근 게시 날짜를 기준으로 내림차순으로 승격할 수 있습니다. 다음 `entity.value` 특성이 double 형식입니다. 문자열을 허용하지 않습니다.
+   엔티티에 가 없는 경우 `entity.value` 속성(예: 제품을 판매하지 않음) 숫자 값을 `entity.value` 속성(예: 게시 날짜) 이 경우 홍보된 항목은 가장 최근 게시 날짜를 기준으로 내림차순으로 홍보될 수 있습니다. 다음 `entity.value` attribute는 double 형식이며 문자열을 허용하지 않습니다.
 
-   을(를) 선택한 경우 **[!UICONTROL 속성별 홍보]** 또는 **[!UICONTROL 컬렉션 홍보]** 옵션을 선택하면 순서를 무작위 지정하는 옵션을 적용할 수 없습니다.
+   다음을 선택한 경우 **[!UICONTROL 속성별 프로모션]** 또는 **[!UICONTROL 컬렉션 프로모션]** 옵션을 사용하면 순서를 무작위로 지정하는 옵션을 적용할 수 없습니다.
 
-   을 사용하여 특정 항목을 프로모션하는 경우 [!UICONTROL 속성별 홍보] 또는 [!UICONTROL 컬렉션 홍보] 옵션, 항목이 표시되는 기본 순서는 `entity.value` 속성을 내림차순으로 표시합니다.
+   를 사용하여 특정 항목을 프로모션할 때 [!UICONTROL 속성별 프로모션] 또는 [!UICONTROL 컬렉션 프로모션] 옵션이 있는 경우 항목이 표시되는 기본 순서는 `entity.value` 속성(내림차순).
 
-   다음 표에서는 이 옵션의 차이점을 설명합니다.
+   다음 표는 이러한 옵션 간의 차이점을 보여 줍니다.
 
    | 프로모션 유형 | 기본 정렬 | 백업 정렬 | 동적 필터링 옵션 |
    | --- | --- | --- | --- |
-   | [!UICONTROL 항목 목록] | Target UI/API에 입력된 순서 | 임의(UI/API를 통해 선택한 경우) | 아니요 |
-   | [!UICONTROL 속성별 홍보] | `entity.value` (내림차순 순서) | 임의 지정 안 함 | 예 |
-   | [!UICONTROL 컬렉션 홍보] | `entity.value` (내림차순 순서) | 임의 지정 안 함 | 아니요 |
+   | [!UICONTROL 항목 목록] | Target UI/API에 입력된 순서 | 무작위(UI/API를 통해 선택한 경우) | 아니요 |
+   | [!UICONTROL 속성별 프로모션] | `entity.value` (내림차순) | 무작위 지정 없음 | 예 |
+   | [!UICONTROL 컬렉션 프로모션] | `entity.value` (내림차순) | 무작위 지정 없음 | 아니요 |
 
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 

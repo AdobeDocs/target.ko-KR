@@ -12,7 +12,7 @@ ht-degree: 99%
 
 ---
 
-# Recommendations 오퍼로서의
+# Recommendations 오퍼로서
 
 이제 [!UICONTROL A/B 테스트] ( [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟]포함)와 [!UICONTROL 경험 타깃팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 

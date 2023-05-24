@@ -1,7 +1,7 @@
 ---
 keywords: 권장 사항;설정;이름;목표;우선순위;지속 기간;보고 설정;기타 메타데이터
-description: Adobe Target에서 Recommendations 활동을 설명하고 제어하는 데 사용되는 설정을 구성하는 방법을 알아봅니다.
-title: Recommendations 활동 설정을 구성하려면 어떻게 합니까?
+description: Adobe Target에서 Recommendations 활동을 설명하고 제어하는 데 사용되는 설정을 구성하는 방법에 대해 알아봅니다.
+title: Recommendations 활동 설정을 구성하는 방법
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
@@ -14,7 +14,7 @@ ht-degree: 84%
 
 # 권장 사항 활동 설정
 
-을 설명하고 제어하는 데 사용할 수 있는 설정에 대한 정보 [!UICONTROL Recommendations] 활동 [!DNL Adobe Target].
+를 설명하고 제어하는 데 사용할 수 있는 설정에 대한 정보 [!UICONTROL Recommendations] 의 활동 [!DNL Adobe Target].
 
 ![권장 사항 목표 및 설정 페이지](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ ht-degree: 84%
 `-`
 `@`
 
-[!UICONTROL 권장 사항 Classic]의 다른 활동에 이미 존재하는 [!UICONTROL 권장 사항] 활동 이름을 지정하는 경우 새 활동이 새 이름으로 다시 동기화됩니다. 새 이름을 고유하게 만들기 위해 원래 이름에 타임스탬프가 추가됩니다. 이 새 이름은 두 모두에 표시됩니다 [!DNL Target Standard/Premium] 및 [!UICONTROL Recommendations Classic].
+[!UICONTROL 권장 사항 Classic]의 다른 활동에 이미 존재하는 [!UICONTROL 권장 사항] 활동 이름을 지정하는 경우 새 활동이 새 이름으로 다시 동기화됩니다. 새 이름을 고유하게 만들기 위해 원래 이름에 타임스탬프가 추가됩니다. 이 새 이름은 둘 다에 표시됩니다. [!DNL Target Standard/Premium] 및 [!UICONTROL Recommendations 클래식].
 
 ## 목표
 
@@ -55,7 +55,7 @@ ht-degree: 84%
 
 ## 보고 설정
 
-* **보고 소스:** 보고 소스를 선택합니다. [!DNL Adobe Target] 또는 [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md). 활동이 라이브로 전환된 후에는 보고 소스를 변경하지 마십시오. 활동이 라이브로 전환된 후에 보고 소스를 변경하면 보고가 일관되지 않습니다.
+* **보고 소스:** 보고 소스 선택: [!DNL Adobe Target] 또는 [분석](/help/main/c-integrating-target-with-mac/a4t/a4t.md). 활동이 라이브로 전환된 후에는 보고 소스를 변경하지 마십시오. 활동이 라이브로 전환된 후에 보고 소스를 변경하면 보고가 일관되지 않습니다.
 * **목표 지표:** 활동이 성공적인지를 결정하는 성공 지표를 선택합니다.
 * **추가 지표:**&#x200B;보고서에서 사용할 추가 성공 지표를 구성하십시오.
 * **보고 대상:**&#x200B;보고서를 필터링할 때 사용할 수 있는 대상을 정의합니다.

@@ -1,7 +1,7 @@
 ---
 keywords: 타깃팅;경험;경험 추가;경험 추가
-description: Adobe Target에서 VEC(시각적 경험 작성기)를 사용하는 방법을 알아봅니다. VEC는 페이지에서 경험을 추가 및 편집하기 위한 시각적 인터페이스를 제공합니다.
-title: 에서 경험을 추가하려면 어떻게 해야 합니까? [!DNL Target] A/B 활동?
+description: Adobe Target에서 시각적 경험 작성기(VEC)를 사용하는 방법을 알아봅니다. VEC는 페이지에서 경험을 추가하고 편집하기 위한 시각적 인터페이스를 제공합니다.
+title: 에서 경험을 추가하는 방법 [!DNL Target] A/B 활동
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 경험 추가
 
-Adobe Target VEC(시각적 경험 작성기)가 페이지에서 경험을 추가 및 편집하기 위한 시각적 인터페이스를 제공합니다.
+Adobe Target VEC(시각적 경험 작성기)가 페이지에서 경험을 추가하고 편집하기 위한 시각적 인터페이스를 제공합니다.
 
 경험에 대한 자세한 내용은 [경험](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
 
@@ -29,7 +29,7 @@ Adobe Target VEC(시각적 경험 작성기)가 페이지에서 경험을 추가
 
    페이지의 요소 위에 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 경험 작성기를 사용하여 변경할 수 있습니다.
 
-   다음을 생성한 경우 [!DNL Target] Target Classic(이전 Test&amp;Target)을 사용하여 페이지에 [!DNL Target] 요청은 요청 이름을 표시하는 요소로 표시되며, 다른 요소와 같이 수정할 수 있습니다.
+   을(를) 생성한 경우 [!DNL Target] Target Classic(이전의 Test&amp;Page)을 사용하여 Target에서 다음을 요청합니다. [!DNL Target] 요청은 요청 이름을 나타내는 요소로 표시되며 다른 요소와 같이 수정할 수 있습니다.
 
    표시된 페이지의 요소에서 수행하여 경험을 변경할 수 있는 작업 목록은 [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
 

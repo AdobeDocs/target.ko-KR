@@ -1,7 +1,7 @@
 ---
 keywords: 요약
-description: Adobe Target에서 MVT 활동에 대한 시각적 개요를 제공하는 MVT(다변량 테스트) 활동의 요약을 봅니다.
-title: MVT(다변량 테스트) 활동 요약을 보려면 어떻게 해야 합니까?
+description: Adobe Target에서 MVT 활동에 대한 시각적 개요를 제공하는 MVT(다변량 테스트) 활동 요약을 봅니다.
+title: 다변량 테스트(MVT) 활동 요약을 보려면 어떻게 해야 합니까?
 feature: Multivariate Tests
 exl-id: 8fcbd296-a1a9-42a1-ae46-edc861fc036a
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 62%
 
 # 테스트 요약(다변량 테스트)
 
-테스트 요약은 [!DNL Adobe Target] [!UICONTROL 다변량 테스트].
+테스트 요약은 의 시각적 개요를 제공합니다. [!DNL Adobe Target] [!UICONTROL 다변량 테스트].
 
 ![테스트 요약 대화 상자](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 

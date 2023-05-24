@@ -1,6 +1,6 @@
 ---
 keywords: target 사용자 인터페이스;사용자 인터페이스;ui;공지;이벤트;알림
-description: 사용자 인터페이스를 숙지하고 더 심층적인 정보에 대한 링크를 찾아 최대한 활용할 수 있습니다 [!DNL Target].
+description: 사용자 인터페이스를 숙지하고 보다 심층적인 정보에 대한 링크를 찾아 를 최대한 활용하십시오 [!DNL Target].
 title: ' [!DNL Target] UI는 어떻게 사용합니까?'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
@@ -13,13 +13,13 @@ ht-degree: 47%
 
 # [!DNL Target] UI 이해
 
-사용자 인터페이스는 [!DNL Adobe Target]을 최대한 활용할 수 있도록 논리적이고 사용자에게 친숙한 형식으로 배열되어 있습니다. 다음 간단한 개요는 다음을 친숙화하는 데 도움이 됩니다 [!DNL Target] 및 은 보다 심층적인 정보 및 단계별 지침을 위한 링크를 제공합니다.
+사용자 인터페이스는 [!DNL Adobe Target]을 최대한 활용할 수 있도록 논리적이고 사용자에게 친숙한 형식으로 배열되어 있습니다. 다음 간략한 개요는에 익숙해지는 데 도움이 됩니다. [!DNL Target] 또한 자세한 정보와 단계별 지침을 제공하는 링크를 제공합니다.
 
-상단 헤더입니다. [!DNL Target] UI에는 솔루션의 다양한 기능을 탐색하는 데 도움이 되는 탭 및 옵션이 포함되어 있습니다. 조직 및 [!DNL Adobe Experience Cloud] 솔루션, 도움말 및 알림 받기, 관리 [!DNL Adobe] 프로필 및 [!DNL Target].
+의 맨 위에 있는 헤더 [!DNL Target] UI에는 솔루션의 다양한 기능을 탐색하는 데 도움이 되는 탭과 옵션이 포함되어 있습니다. 조직 및 [!DNL Adobe Experience Cloud] 솔루션, 도움말 및 알림 받기, 관리 [!DNL Adobe] 프로필 및 로그아웃 [!DNL Target].
 
 ![Target 헤더](/help/main/c-intro/assets/target-header.png)
 
-왼쪽 탭을 사용하여 [!DNL Target]: 나중에 논의됩니다. 먼저 탭으로 이동하기 전에 오른쪽의 옵션에 대해 설명하겠습니다.
+왼쪽의 탭을 사용하여 의 다양한 기능에 액세스할 수 있습니다. [!DNL Target]: 이 문제에 대해서는 나중에 설명합니다. 먼저 탭으로 이동하기 전에 오른쪽의 옵션에 대해 설명하겠습니다.
 
 ## 조직
 
@@ -37,23 +37,23 @@ ht-degree: 47%
 
 ## 도움말
 
-도움말 아이콘을 사용하면 정보, 비디오, 블로그 등에 액세스하여 [!DNL Target] 을 보다 효과적으로 사용할 수 있습니다. 지원 티켓을 만들거나, 지원 전화 번호를 찾거나, Twitter을 통해 질문을 하거나, 피드백을 제공할 수 있습니다 [!DNL Target] 어떻게 하는지 알려주세요 [!DNL Target] 팀도 하고 있어
+도움말 아이콘을 사용하면 정보, 비디오, 블로그 등에 액세스하여 [!DNL Target] 을 보다 효과적으로 사용할 수 있습니다. 지원 티켓을 만들거나 지원 전화번호를 찾거나 Twitter을 통해 질문하거나 다음에 대한 피드백을 제공할 수 있습니다. [!DNL Target] 을(를) 통해 어떻게 [!DNL Target] 팀이 하고 있습니다.
 
 ![도움말](/help/main/c-intro/assets/help.png)
 
 ## 알림 및 공지 {#notifications-announcements}
 
-[!UICONTROL 알림] 및 [!UICONTROL 공지] 패널을 사용하면 [!DNL Adobe Target]에 대한 모든 정보를 최신 상태로 유지할 수 있습니다. 사전 알림은 을 통해 [!DNL Adobe Experience Cloud] 솔루션 및 [!DNL Target] events. 사전 알림은 중단 이벤트 및 유지 관리 이벤트를 알려 줍니다.
+[!UICONTROL 알림] 및 [!UICONTROL 공지] 패널을 사용하면 [!DNL Adobe Target]에 대한 모든 정보를 최신 상태로 유지할 수 있습니다. 사전 알림을 통해 상태를 파악할 수 있습니다. [!DNL Adobe Experience Cloud] 솔루션 및 [!DNL Target] 이벤트. 사전 알림은 중단 이벤트 및 유지 관리 이벤트를 알려 줍니다.
 
-알림을 보려면 헤더에서 종 아이콘을 클릭하십시오.
+알림을 보려면 헤더에서 벨 아이콘을 클릭합니다.
 
-![알림 및 공지에 대한 벨 아이콘](assets/bell-icon.png)
+![알림 및 공지를 위한 벨 아이콘](assets/bell-icon.png)
 
-이 패널에는 다음에 대한 탭이 포함되어 있습니다 [!UICONTROL 알림 을 참조하십시오] 및 [!UICONTROL 공지].
+패널에는 다음 탭이 포함되어 있습니다. [!UICONTROL 알림] 및 [!UICONTROL 공지].
 
 ![알림](assets/notifications.png)
 
-다음 섹션에는 각 탭에 대한 정보와 알림 및 알림을 구성하는 방법이 포함되어 있습니다.
+다음 섹션에는 각 탭과 알림 및 공지를 구성하는 방법에 대한 정보가 포함되어 있습니다.
 
 ### 알림 {#notifications}
 
@@ -61,37 +61,37 @@ ht-degree: 47%
 
 * **활동**: 활동이 승인되거나 비활성화될 때 수동으로 또는 시작 또는 종료 날짜에 도달하면 모든 활동 유형에 대한 알림입니다. 알림에는 활동의 개요 페이지에 대한 링크가 있는 활동의 이름이 포함되어 있습니다.
 
-   알림은 구성 가능하며, 기본적으로 활동의 작업 공간에서 제품 관리자, 게시자 및 승인자가 수신합니다. [!DNL Target Premium] 계정. 대상 [!DNL Target Standard] 계정, 알림은 모든 게시자 및 승인자가 받습니다.
+   알림은 활동 작업 영역에서 구성 가능하며 기본적으로 제품 관리자, 게시자 및 승인자가 수신합니다 [!DNL Target Premium] 계정. 대상 [!DNL Target Standard] 계정, 알림은 모든 게시자 및 승인자가 수신합니다.
 
-   알림은 다음 샘플과 같이 형식이 지정됩니다.
+   알림은 다음 샘플과 같은 형식으로 되어 있습니다.
 
    * `Activity {target.activity.name} has been activated`
 
    * `Activity {target.activity.name} has been deactivated`
 
-* **프로필 스크립트**: 프로필 스크립트가 수동으로 또는 별로 활성화되거나 비활성화될 때의 알림 [!DNL Target].
+* **프로필 스크립트**: 프로필 스크립트가 수동으로 또는 다음을 통해 활성화되거나 비활성화될 때의 알림 [!DNL Target].
 
-   알림은 구성 가능하며, 제품 관리자와 승인자 모두 기본적으로 수신됩니다 [!DNL Target Premium] 및 [!DNL Target Standard] 계정.
+   통지는 구성 가능하며 기본적으로 제품 관리자와 승인자가 두 가지 모두에 대해 수신합니다 [!DNL Target Premium] 및 [!DNL Target Standard] 계정.
 
-   알림은 다음 샘플과 같이 형식이 지정됩니다.
+   알림은 다음 샘플과 같은 형식으로 되어 있습니다.
 
    * `Profile Script {target.profileScript.name} has been activated`
    * `Profile Script {target.profileScript.name} has been deactivated`
 
-* **Recommendations 피드**: 알림 시점 [!DNL Recommendations] 피드는 수동으로 또는 [!DNL Target]. 알림 은 [!DNL Recommendations] 피드에 실패했습니다.
+* **Recommendations 피드**: 다음 경우에 알림: [!DNL Recommendations] 피드가 수동으로 또는 다음에 의해 활성화되거나 비활성화됨 [!DNL Target]. 다음 경우에 알림도 전송됩니다 [!DNL Recommendations] 피드가 실패합니다.
 
-   알림은 구성 가능하며, 기본적으로 제품 관리자와 승인자가 [!DNL Target Premium] 계정. [!DNL Recommendations] is [!DNL Target Premium] 기능은에서 사용할 수 없습니다. [!DNL Target Standard].
+   알림은 기본적으로 제품 관리자 및 승인자가 구성할 수 있으며 수신됩니다. [!DNL Target Premium] 계정. [!DNL Recommendations] 다음 값: [!DNL Target Premium] 기능 및에서 사용할 수 없음 [!DNL Target Standard].
 
-   알림은 다음 샘플과 같이 형식이 지정됩니다.
+   알림은 다음 샘플과 같은 형식으로 되어 있습니다.
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-원하는 알림 위로 마우스를 이동한 다음 확인 표시를 클릭하여 개별 알림을 읽음으로 표시할 수 있습니다. 를 클릭하여 모든 알림을 읽음으로 표시하거나 모든 알림을 볼 수 있습니다 [!UICONTROL &quot;읽은 상태로 표시&quot;] 또는 [!UICONTROL &quot;모두 보기&quot;] 패널 하단에 있습니다.
+원하는 알림 위로 마우스를 이동한 다음 확인 표시를 클릭하여 개별 알림을 읽은 상태로 표시할 수 있습니다. 을 클릭하여 모든 알림을 읽음으로 표시하거나 모든 알림을 볼 수 있습니다. [!UICONTROL &quot;읽음으로 표시&quot;] 또는 [!UICONTROL &quot;모두 보기&quot;] 패널 하단에서.
 
-알림을 마우스로 가리키고 &quot;[!UICONTROL 알림]&quot; 아이콘을 클릭한 다음 알림을 받을 시점을 선택합니다. 5분, 15분, 1시간 또는 내일
+알림 위로 마우스를 이동하고 &quot;&quot;을(를) 클릭하여 다시 알림을 받도록 미리 알림을 설정할 수도 있습니다.[!UICONTROL 다시 알리기]&quot; 아이콘을 클릭한 다음 알림을 받으려는 시점(5분, 15분, 1시간 또는 내일)을 선택합니다.
 
 ### 공지
 
@@ -101,36 +101,36 @@ ht-degree: 47%
 
 ### 알림 및 공지 구성
 
-알림 환경 설정을 편집하려면 다음을 수행하십시오.
+알림 환경 설정을 편집하려면:
 
-1. 톱니바퀴 아이콘을 클릭하고 **[!UICONTROL 알림 을 참조하십시오]**.
-1. 아래 **[!UICONTROL Target]**&#x200B;를 클릭합니다. **[!UICONTROL 사용자 지정]**.
-1. 알림을 받을 카테고리를 선택하거나 선택 취소합니다.
+1. 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL 알림]**.
+1. 아래 **[!UICONTROL Target]**, 클릭 **[!UICONTROL 사용자 지정]**.
+1. 알림을 수신할 범주 선택 또는 선택 해제:
 
-   * 요청: 누군가 사용자에게 객체를 승인하거나 객체에 대한 액세스 권한을 부여하기 위한 요청을 보낼 때. 이 카테고리에서 구독을 취소할 수 없습니다.
-   * 지정 대상: 어떤 사람이 사용자에게 객체를 할당할 때.
-   * 언급: 누군가 언급 할 때.
-   * 새로운 릴리스: 액세스 권한이 있는 제품이나 서비스에 대해 새 릴리스를 사용할 수 있는 경우.
-   * 나와 공유: 누군가 사용자와 객체를 공유할 때
-   * 컨텐츠에 대한 업데이트: 사용자가 만들거나 따르는 개체에 대해 편집, 삭제 또는 주석을 수행할 때.
+   * 요청: 다른 사용자가 개체를 승인하거나 개체에 대한 액세스 권한을 부여하기 위한 요청을 전송하는 경우입니다. 이 범주에서 구독을 취소할 수 없습니다.
+   * 나에게 할당됨: 다른 사용자가 개체를 귀하에게 할당할 때.
+   * 언급: 다른 사용자가 귀하를 댓글에서 언급할 때.
+   * 새 릴리스: 액세스 권한이 있는 제품 또는 서비스에 새 릴리스를 사용할 수 있는 경우.
+   * 나와 공유: 다른 사용자가 사용자와 오브젝트를 공유할 때입니다.
+   * 콘텐츠 업데이트: 다른 사용자가 귀하가 만들었거나 팔로우하는 개체를 편집, 삭제 또는 댓글을 다는 경우.
    * 기타:
 
    >[!NOTE]
    >
-   >&quot;새 릴리스&quot; 및 &quot;콘텐츠 업데이트&quot;는 다음에 적용되는 유일한 알림 카테고리입니다 [!DNL Target]. 다른 카테고리는 다른 Adobe 솔루션에 적용됩니다.
+   >&quot;새 릴리스&quot; 및 &quot;콘텐츠 업데이트&quot;가 적용되는 유일한 알림 카테고리입니다. [!DNL Target]. 다른 범주는 다른 Adobe 솔루션에 적용됩니다.
 
 
-1. 우선 순위로 간주할 카테고리를 선택합니다.
+1. 높은 우선 순위로 간주할 범주를 선택합니다.
 1. 브라우저에 경고를 표시할 알림을 선택합니다.
 
-   이러한 경고는 브라우저 의 오른쪽 상단 모서리에 몇 초 동안 표시됩니다. 우선 순위가 높은 카테고리, 모든 카테고리를 표시하도록 선택하거나, 모든 알림 팝업을 숨기도록 선택할 수 있습니다. 알림을 무시하거나 알림 기간을 구성할 수 있을 때까지 알림을 계속 표시할지 여부를 구성할 수도 있습니다.
+   이러한 경고는 브라우저의 오른쪽 상단 모서리에 몇 초 동안 표시됩니다. 우선 순위가 높은 범주, 모든 범주를 확인하거나 모든 알림 팝업을 숨기도록 선택할 수 있습니다. 알림을 닫을 때까지 알림을 표시할지 또는 알림 기간을 구성할 수도 있습니다.
 
-1. 알림 이메일을 받을 빈도를 선택합니다.
+1. 알림 이메일을 받을 빈도 선택:
 
-   * 전자 메일 보내기 안 함
+   * 이메일 전송 안 함
    * 인스턴트 알림
-   * 일별 다이제스트
-   * 주간 다이제스트
+   * 일별 요약
+   * 주별 다이제스트
 
 ## 프로필
 
@@ -150,7 +150,7 @@ ht-degree: 47%
 
 ## 대상자
 
-을(를) 클릭합니다. **[!UICONTROL 대상]** 탭을 클릭하여 [!UICONTROL 대상] 대상을 만들고 기존 대상을 관리할 수 있는 목록.
+다음을 클릭합니다. **[!UICONTROL 대상]** 탭을 사용하여 다음을 표시합니다. [!UICONTROL 대상] 대상을 만들고 기존 대상을 관리할 수 있는 목록입니다.
 
 ![대상 목록](/help/main/c-intro/assets/audience-list.png)
 
@@ -160,7 +160,7 @@ ht-degree: 47%
 
 ## 오퍼
 
-을(를) 클릭합니다. **[!UICONTROL 오퍼]** 탭을 클릭하여 [!UICONTROL 오퍼] 경험 및 오퍼를 만들고 기존 경험과 오퍼를 관리할 수 있는 목록을 제공합니다.
+다음을 클릭합니다. **[!UICONTROL 오퍼]** 탭을 사용하여 다음을 표시합니다. [!UICONTROL 오퍼] 경험 및 오퍼를 만들고 기존 경험 및 오퍼를 관리할 수 있는 목록을 표시합니다.
 
 ![오퍼 목록](/help/main/c-intro/assets/offers.png)
 

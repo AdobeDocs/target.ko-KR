@@ -1,7 +1,7 @@
 ---
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
-description: 사용 방법을 알아봅니다 [!UICONTROL 중요 속성] 개인화 모델에 영향을 주는 상위 속성과 해당 상대적 중요도를 보여주는 보고서입니다.
-title: 중요한 속성 보고서란 무엇입니까?
+description: 사용 방법 알아보기 [!UICONTROL 중요 속성] 개인화 모델 및 상대적 중요도에 영향을 준 상위 속성을 보여 주는 보고서입니다.
+title: 중요 속성 보고서란 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
@@ -14,7 +14,7 @@ ht-degree: 74%
 
 # 중요 속성 보고서
 
-에 대한 정보 [!UICONTROL 중요 속성] 보고서, [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동.
+에 대한 정보 [!UICONTROL 중요 속성] 보고서, 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동.
 
 >[!NOTE]
 >
@@ -24,34 +24,34 @@ ht-degree: 74%
 >
 >* [!UICONTROL 개인화 인사이트 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. ] 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
 >
->* [!UICONTROL 개인화 통찰력] 보고서는 [!UICONTROL 기본 목표] 선택 [!UICONTROL 보고서 지표] 드롭다운 목록.
+>* [!UICONTROL 개인화 통찰력] 보고서는 다음 경우에만 사용할 수 있습니다 [!UICONTROL 기본 목표] 에서 선택됨 [!UICONTROL 보고서 지표] 드롭다운 목록입니다.
 >
 >* 개인화 통찰력 보고서는 [기본 환경](/help/main/administrating-target/hosts.md)에서만 지원됩니다.
 >
->* [!UICONTROL 개인화 통찰력] 보고서는 [!UICONTROL 라이브] 상태 및 이(가) 활성화되었으며 적어도 15일 동안 트래픽을 수신했습니다.
+>* [!UICONTROL 개인화 통찰력] 보고서는에 있는 활동에 대해서만 생성됩니다. [!UICONTROL 라이브] 최소 15일 동안 및 가 활성화되고 트래픽을 수신하고 있습니다.
 
 
 다른 활동에서 다른 속성은 모델이 개인화를 결정하는 방법에 대해 더 중요하거나 덜 중요합니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
 
-## 액세스 권한 [!UICONTROL 중요 속성] 보고서 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## 액세스 [!UICONTROL 중요 속성] 보고서 {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. 클릭 **[!UICONTROL 활동]**&#x200B;를 클릭한 다음, 원하는 를 클릭합니다 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동 을 포함할 수 없습니다.
+1. 클릭 **[!UICONTROL 활동]**&#x200B;을 클릭한 다음 원하는 을 클릭합니다 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 Target](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 목록에서 활동을 선택합니다.
 
    활동이 많다면 [!UICONTROL 유형], [!UICONTROL 상태], [!UICONTROL 보고 소스], [!UICONTROL 경험 작성기], [!UICONTROL 지표 유형] 및 [!UICONTROL 활동 소스] 드롭다운 목록에서 선택 사항을 선택하여 목록을 필터링할 수 있습니다.
 
 1. **[!UICONTROL 보고서를 클릭합니다]**.
 
-   다음 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 Target 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 보고서에는 활동의 성과에 대한 정보를 제공하는 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 [!UICONTROL 개인화 통찰력] 보고서: [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성].
+   다음 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 Target 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 활동의 성과에 대한 정보를 제공하는 보고서가 표시됩니다. 이 정보는 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 두 개의 아이콘을 나타냅니다 [!UICONTROL 개인화 통찰력] 보고서: [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성].
 
    ![Automated Personalization 활동에 대한 요약 보고서](/help/main/c-reports/assets/summary-report-ap.png)
 
-   참고 사항 [!UICONTROL 자동 Target] 에는 의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다 [!UICONTROL 요약] 보고서 세트에 대해 설명합니다.
+   참고: [!UICONTROL 자동 Target] 에는 의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다. [!UICONTROL 요약] 보고서.
 
    ![자동 Target 활동에 대한 요약 보고서](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >[!UICONTROL 중요 속성] 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간에는 이 보고서에 액세스하거나 [!UICONTROL 중요 속성] 아이콘을 클릭할 수 없습니다. 15일 이후에는 활동에 개인화된 트래픽이 충분하다 고 가정하여 [!UICONTROL 중요 속성] 보고서를 사용할 수 있습니다.
+   >[!UICONTROL 중요 속성] 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간에는 이 보고서에 액세스하거나 [!UICONTROL 중요 속성] 아이콘을 클릭할 수 없습니다. 15일 이후에는 활동에 개인화된 트래픽이 충분하다고 가정하여 [!UICONTROL 중요 속성] 보고서를 사용할 수 있습니다.
 
 1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL 중요 속성]** 아이콘.
 
@@ -59,15 +59,15 @@ ht-degree: 74%
 
 1. 원하는 날짜 범위를 선택합니다.
 
-   와 달리 [!UICONTROL 요약] 보고서(성과 보고), [!UICONTROL 개인화 통찰력], 포함 [!UICONTROL 중요 속성]에서는 고정된 날짜 범위에 대해서만 사용할 수 있습니다. 15일, 30일 및 60일.
+   와(과) 달리 [!UICONTROL 요약] 보고서(성능 보고), [!UICONTROL 개인화 통찰력], 포함 [!UICONTROL 중요 속성]는 15일, 30일 및 60일의 고정 날짜 범위에 대해서만 사용할 수 있습니다.
 
    이러한 고정 날짜 범위를 사용하면 [!UICONTROL 개인화 인사이트]에서 사용자 활동의 단기 패턴에서 인사이트를 파생할 가능성을 줄이기 위해 충분히 큰 데이터 범위를 사용할 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;은 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
-   ![Adobe Target 보고서의 달력](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Adobe Target 보고서의 캘린더](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    [!UICONTROL 기간 선택] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
 
-   ![보고서에서 기간 드롭다운 목록을 선택합니다](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![보고서에서 기간 드롭다운 목록 선택](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. [!UICONTROL 중요 속성] 보고서 데이터를 검토하십시오.
 
@@ -90,7 +90,7 @@ ht-degree: 74%
 
 ## 중요 속성 FAQ {#section_740910A52FA646B4AC9452F98C2F5719}
 
-사용 시 자주 묻는 질문에 대한 답변은 다음 FAQ를 참조하십시오 [!UICONTROL 중요 속성] 보고서 세트에 대해 설명합니다.
+사용 방법에 대해 자주 묻는 질문에 대한 답변은 다음 FAQ를 참조하십시오 [!UICONTROL 중요 속성] 보고서.
 
 ### 개인화 인사이트 보고서를 아직 내 활동에 아직 사용할 수 없습니다. 이유가 무엇입니까?
 
@@ -104,11 +104,11 @@ ht-degree: 74%
 
 속성은 트래픽을 개인화하는 방법을 학습하기 위해 개인화 알고리즘에 사용된 방문자 또는 방문자의 특정 방문에 대한 정보입니다. 예를 들어, 브라우저 유형, 위치, 방문 요일 등이 속성이 될 수 있습니다.
 
-개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 속성을 Target에 업로드하는 방법에 대한 자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 속성을 Target에 업로드하는 방법에 대한 자세한 내용은 을 참조하십시오. [데이터를 Target으로 가져오는 방법](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ### 모델에서 교육에 사용하지 않으려는 하나 이상의 속성이 표시됩니다. 교육 모델에서 해당 속성을 제거할 수 있습니까? {#models-api}
 
-다음 [!UICONTROL 모델 API]라는 차단 목록에 추가하다 API를 사용하여 의 기계 학습 모델에 사용된 속성 목록(기능이라고도 함)을 보고 관리할 수 있습니다 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동. AP 또는 AT 활동에 대해 모델에서 하나 이상의 속성을 사용하지 않도록 제외하려면 모델 API를 사용하여 해당 속성을 &quot;&quot;에 추가할 수 차단 목록에 추가하다 있습니다.
+다음 [!UICONTROL 모델 API]는 차단 목록에 추가하다(API)이라고도 하며, 사용자가 머신 러닝 모델에 사용되는 속성 목록을 보고 관리할 수 있도록 해줍니다 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동. AP 또는 AT 활동용 모델에서 하나 이상의 속성을 사용하지 못하도록 하려면 모델 API를 사용하여 이러한 속성을 &quot;차단 목록&quot;에 추가할 수 있습니다.
 
 자세한 내용은 [모델 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}.
 
@@ -122,9 +122,9 @@ ht-degree: 74%
 
 ### 개인화 인사이트 작성 방법 
 
-[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] MAGIX에 대한 자세한 내용은 Adobe 연구 팀이 게시한 문서에서 확인할 수 있습니다 [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160).
+[!UICONTROL 개인화 인사이트는 MAGIX(Model Agnostic Globally Interpretable Explanations)라고 하는 Adobe 특허 출원 기술을 사용하여 작성됩니다. ] Adobe 연구팀이 게시한 다음에 대한 논문에서 MAGIX에 대해 자세히 알아볼 수 있습니다 [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160).
 
-### 다음 [!UICONTROL 개인화 통찰력] 매출 기반 모델링 목표/기본 목표에 사용 가능합니까?
+### 다음과 같음 [!UICONTROL 개인화 통찰력] 매출 기반 모델링 목표/기본 목표에 사용 가능
 
 현재 [!UICONTROL 개인화 인사이트]는 변환 최적화 목표 활동에만 사용할 수 있습니다. 향후 릴리스에서 수익 최적화 목표 활동에 대한 지원을 추가할 예정입니다.
 
@@ -140,7 +140,7 @@ ht-degree: 74%
 * 특정 오퍼나 경험에 모델이 구축되지 않은 낮은 볼륨 활동입니다.
 * 모델이 일부 오퍼/경험에 대해 보다 빠르게 구축된 낮은 볼륨 활동입니다. 예를 들어 추가 모델이 22일에 구축되었고, 사용자가 10~24일의 데이터를 보고 있다고 가정합니다.
 * 방문자가 볼 수 있는 오퍼/경험을 제한하는 특정 오퍼에 대한 타깃팅 규칙입니다.
-* 인사이트 보고에는 신뢰 구간이 없습니다. 하지만 전환율이 거의 근접한 경우 모델이 트래픽을 제공하므로 포인트 크기보다 높을 수 있지만 &quot;통계적으로 다른&quot; 숫자는 아닙니다.
+* 인사이트 보고에는 신뢰 구간이 없습니다. 그러나 전환율이 거의 근접한 경우 모델이 트래픽을 제공하므로 포인트 크기보다 높을 수 있지만 &quot;통계적으로 다른&quot; 숫자는 아닙니다.
 
 트래픽을 제공하는 모델이 어떻게 작동하는지 파악하는 것이 도움이 될 수 있습니다. 각 개인에게는 개인의 전체 프로필을 기반으로 하여 제공됩니다. 하지만 인사이트 보고서는 이 동작을 일반화하여 사람이 쉽게 이해할 수 있게 만듭니다. 따라서 세그먼트는 상호 배타적이 아닙니다. 이렇게 하면 동일한 사람이 여러 세그먼트에 나타날 수 있으므로 개별 세그먼트에 이러한 유형의 동작이 표시될 수 있습니다.
 
@@ -156,6 +156,6 @@ ht-degree: 74%
 
 ## 알려진 문제
 
-다음 문제는 현재 [!DNL Target] 엔지니어링 팀.
+다음 문제는 현재 이(가) 조사하고 있습니다. [!DNL Target] 엔지니어링 팀.
 
 * [!DNL Adobe Experience Platform] 세그먼트 이름이 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL 자동 타겟] (AT) 활동에 대한 [!UICONTROL 중요 특성] 보고서에 표시되지 않습니다. (TOP-3813)

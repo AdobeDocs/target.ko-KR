@@ -1,7 +1,7 @@
 ---
 keywords: 경험 타깃팅;xt;만들기
-description: Adobe에서 VEC(시각적 경험 작성기)를 사용하는 방법을 알아봅니다 [!DNL Target] Target이 활성화된 페이지에서 XT(경험 타깃팅) 활동을 만들려면 다음을 수행하십시오.
-title: 경험 타깃팅 활동을 만들려면 어떻게 합니까?
+description: Adobe에서 시각적 경험 작성기(VEC)를 사용하는 방법에 대해 알아봅니다 [!DNL Target] Target이 활성화된 페이지에서 XT(경험 타깃팅) 활동을 만들 수 있습니다.
+title: 경험 타깃팅 활동을 만들려면 어떻게 해야 합니까?
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -23,7 +23,7 @@ Target을 사용할 수 있는 페이지에서 XT([!UICONTROL 경험 타깃팅])
 
 **XT 활동을 만들려면 다음을 수행하십시오.**
 
-1. 에서 [!UICONTROL 활동] 목록, **[!UICONTROL 활동 만들기]** > **[!UICONTROL 경험 타깃팅]**.
+1. 다음에서 [!UICONTROL 활동] 목록, 클릭 **[!UICONTROL 활동 만들기]** > **[!UICONTROL 경험 타기팅]**.
 
    ![활동 만들기 > 경험 타깃팅](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 

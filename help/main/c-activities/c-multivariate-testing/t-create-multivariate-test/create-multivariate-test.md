@@ -1,7 +1,7 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
-description: Adobe에서 VEC(시각적 경험 작성기)를 사용하는 방법을 알아봅니다 [!DNL Target] mvt(다변량 테스트) 권한을 [!DNL Target]-enabled 페이지.
-title: 다변량 테스트를 만들려면 어떻게 합니까?
+description: Adobe에서 시각적 경험 작성기(VEC)를 사용하는 방법에 대해 알아봅니다 [!DNL Target] 에 대한 다변량 테스트(MVT) 권한을 만들려면 [!DNL Target]-enabled 페이지.
+title: 다변량 테스트를 만들려면 어떻게 해야 합니까?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -15,7 +15,7 @@ ht-degree: 87%
 
 [!DNL Adobe Target]의 [!UICONTROL VEC(시각적 경험 작성기)]를 사용하면 Target을 사용할 수 있는 페이지에 대한 테스트 권한을 쉽게 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 쉽게 수정할 수 있습니다.
 
-다음 [!DNL Target] 포인트 앤 클릭 편집기를 사용하면 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
+다음 [!DNL Target] 포인트 앤 클릭 편집기를 사용하면 원하는 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
 
 다음 [!UICONTROL MVT(다변량 테스트)]는 페이지 우선 보고서를 사용합니다. 즉, 테스트가 해당 페이지에 대해 디자인한 경험을 사용하여 특정 URL에서 실행됩니다.
 
@@ -88,11 +88,11 @@ ht-degree: 87%
 
    다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
 
-   ![견적 도구 이미지](assets/estimator.png)
+   ![견적 이미지](assets/estimator.png)
 
    다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
 
-   ![견적 도구2 이미지](assets/estimator2.png)
+   ![estimator2 이미지](assets/estimator2.png)
 
 1. 이 **[!UICONTROL 다음]**&#x200B;을 클릭하여 [!UICONTROL 타깃팅] 페이지로 이동합니다.
 

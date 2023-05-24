@@ -1,7 +1,7 @@
 ---
 keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
-description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 Adobe의 항목에 대한 추가 정보를 정의하는 방법을 알아봅니다 [!DNL Target] Recommendations 카탈로그
-title: 사용자 지정 엔티티 속성을 어떻게 사용합니까?
+description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 Adobe의 항목에 대한 추가 정보를 정의하는 방법에 대해 알아봅니다 [!DNL Target] Recommendations 카탈로그.
+title: 사용자 지정 엔티티 속성을 사용하는 방법
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
@@ -15,7 +15,7 @@ ht-degree: 88%
 
 # 사용자 지정 엔티티 속성
 
-에서 단일 및 다중 값 사용자 지정 엔티티 속성을 사용합니다 [!DNL Adobe Target Recommendations] 를 클릭하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
+에서 단일 및 다중 값 사용자 지정 엔티티 속성 사용 [!DNL Adobe Target Recommendations] 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
 
 ## 제한 {#limits}
 
@@ -63,7 +63,7 @@ ht-degree: 88%
 
 ## 다중 값 속성 구현 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-다중 값 사용자 지정 엔티티 속성은 피드(CSV)를 사용할 때 지원됩니다. `targetPageParams`, 및 배달 API 를 사용하여 제품을 업로드합니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열([])은 값이 없는 것으로 처리됩니다.
+다중 값 사용자 지정 엔티티 속성은 피드(CSV) 사용 시 지원됩니다. `targetPageParams`및 제품을 업로드할 게재 API입니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열([])은 값이 없는 것으로 처리됩니다.
 
 큰따옴표는 이스케이프 처리를 해야 합니다. 예를 들어, `"[""test"", ""value""]"`는 CSV로 사용할 수 있는 올바른 JSON 배열입니다.
 
@@ -109,7 +109,7 @@ function targetPageParams() {
 
 ### API 사용
 
-이스케이프 처리된 JSON 배열이 포함된 문자열 값으로 mbox 매개 변수의 배달 API를 사용하여 다중 값 속성을 전달할 수 있습니다.
+mbox 매개 변수의 배달 API를 이스케이프 처리된 JSON 배열을 포함하는 문자열 값으로 사용하여 다중 값 속성을 전달할 수 있습니다.
 
 ```javascript
 "execute": {
@@ -140,7 +140,7 @@ function targetPageParams() {
 
 부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어, 연산자가 `notEquals`인 경우 결과는 어느 값이든 일치하면 *false*&#x200B;가 됩니다.
 
-알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 운영자 행동에 대해서는 다음 섹션을 참조하십시오.
+알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 연산자 비헤이비어에 대해서는 다음 섹션을 참조하십시오.
 
 ### 다음과 같음
 
@@ -241,7 +241,7 @@ function targetPageParams() {
 
 ### 동적 범위(항목 기반 알고리즘에서만 사용 가능, 숫자 값만 해당)
 
-어떤 숫자 속성 값이든 지정된 범위 내에 있으면 결과는 true가 됩니다.
+숫자 속성 값이 지정된 범위 내에 있으면 결과는 true가 됩니다.
 
 예: `price dynamically ranges in 80% to 120% of 100`
 
@@ -254,7 +254,7 @@ function targetPageParams() {
 
 ## 디자인의 다중 값 속성 {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-디자인에서 참조할 때 다중 값 속성이 쉼표로 구분된 목록으로 표시됩니다.
+다중 값 속성은 디자인에서 참조할 때 쉼표로 구분된 목록으로 표시됩니다.
 
 예:
 
@@ -262,4 +262,4 @@ function targetPageParams() {
 
 ## 관련 항목:
 
-* [엔티티 속성을 참조하십시오](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)

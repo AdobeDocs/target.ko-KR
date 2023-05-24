@@ -1,7 +1,7 @@
 ---
 keywords: 경험 타깃팅;xt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-description: Adobe에서 지표를 지정하는 방법 알아보기 [!DNL Target] 경험 타깃팅 활동을 통해 전환, 매출 및 참여와 같이 방문이 성공적으로 수행된 시기를 확인합니다.
-title: 경험 타깃팅 활동에서 목표 지표를 설정하려면 어떻게 합니까?
+description: Adobe에서 지표를 지정하는 방법 알아보기 [!DNL Target] 경험 타기팅 활동 을 통해 전환, 수입 및 참여와 같은 방문이 성공적으로 수행된 시기를 확인할 수 있습니다.
+title: 경험 타깃팅 활동에서 목표 지표를 설정하려면 어떻게 해야 합니까?
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,11 +11,11 @@ ht-degree: 81%
 
 ---
 
-# XT(경험 타깃팅) 활동에서 지표 설정
+# XT(경험 타기팅) 활동에서 지표 설정
 
-에서 지표 사용 [!DNL Adobe Target] [!UICONTROL 경험 타깃팅] (XT) 활동을 통해 방문이 성공적으로 수행된 시기를 확인합니다.
+에서 지표 사용 [!DNL Adobe Target] [!UICONTROL 경험 타기팅] (XT) 활동을 통해 방문이 성공적으로 수행된 시기를 확인할 수 있습니다.
 
-성공 지표에 대한 자세한 내용은 [성공 지표 를 참조하십시오](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+성공 지표에 대한 자세한 내용은 을 참조하십시오. [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. 활동의 목표를 지정합니다.
 1. [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.

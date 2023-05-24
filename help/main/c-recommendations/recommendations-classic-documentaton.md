@@ -17,7 +17,7 @@ ht-degree: 72%
 
 >[!IMPORTANT]
 >
->[!DNL Recommendations Classic] 은 레거시 제품이며 더 이상 신규 고객에게 라이선스가 부여되지 않습니다. 최상의 [!DNL Recommendations] 경험, 업그레이드 [!DNL Recommendations] 사용 가능한 활동 [Adobe Target Premium](/help/main/c-intro/intro.md).
+>[!DNL Recommendations Classic] 은 레거시 제품이며 더 이상 신규 고객에게 라이선스가 부여되지 않습니다. 최상을 위하여 [!DNL Recommendations] 경험, 다음으로 업그레이드 [!DNL Recommendations] 사용 가능한 활동 [Adobe Target Premium](/help/main/c-intro/intro.md).
 
 권장 사항을 사용하면 고객에게 모르는 제품을 안내하여 웹 사이트에서의 판매량을 늘릴 수 있습니다.
 

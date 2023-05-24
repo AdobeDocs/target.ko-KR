@@ -5,7 +5,7 @@ title: A4T에서 부풀려진 방문 및 방문자 카운트 최소화를 최소
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 100%
 

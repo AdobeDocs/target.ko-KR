@@ -1,7 +1,7 @@
 ---
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;활동 수준 보고서;오퍼 수준 보고서;오퍼 세부 사항 보고서;faq
-description: Adobe Target에서 Automated Personalization 요약 보고서를 해석하는 방법을 알아봅니다. 이 보고서에서 자동화된 세그먼트 및 중요 속성 보고서로 전환할 수 있습니다.
-title: Automated Personalization 요약 보고서를 어떻게 사용합니까?
+description: Adobe Target에서 Automated Personalization 요약 보고서를 해석하는 방법에 대해 알아봅니다. 이 보고서에서 자동화된 세그먼트 및 중요 속성 보고서로 전환할 수 있습니다.
+title: Automated Personalization 요약 보고서는 어떻게 사용합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
@@ -14,7 +14,7 @@ ht-degree: 33%
 
 # Automated Personalization 요약 보고서
 
-전문 요약 보고서는 [!UICONTROL Automated Personalization] 활동 [!DNL Adobe Target].
+전문 요약 보고서는 다음 사용자의 경우 사용할 수 있습니다 [!UICONTROL Automated Personalization] 의 활동 [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -45,7 +45,7 @@ ht-degree: 33%
 
 랜덤 포레스트 경험에 대한 [!UICONTROL 오퍼 수준] 보고서는 알고리즘이 적용된 각 오퍼의 성과를 무작위로 제공된 동일한 오퍼(통제 오퍼)에 비교합니다. 따라서 이 보기에서 오퍼는 서로 비교되지 않습니다.
 
-경험 알고리즘(Random Forest 또는 Control)을 클릭하여 [!UICONTROL 오퍼 수준] 보고서 세트에 대해 설명합니다.
+경험 알고리즘(랜덤 포레스트 또는 제어)을 클릭하여 [!UICONTROL 오퍼 수준] 보고서.
 
 ![Adobe Target의 오퍼 수준 보고서](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
@@ -53,11 +53,11 @@ ht-degree: 33%
 >
 >시계 아이콘은 알고리즘 모델이 여전히 빌드 중임을 나타냅니다. 확인 표시 아이콘은 기본 알고리즘이 설정되었음을 나타냅니다.
 
-오퍼는 내에 표시할 수 있습니다 [보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)로 설정되고 이러한 보고 그룹을 축소하고 확장할 수 있습니다. 클릭 **[!UICONTROL 제어]** 또는 **[!UICONTROL 타깃팅됨]** 테이블에서 오퍼별로 표시되지 않고 보고 그룹별로 롤업된 정보를 봅니다.
+오퍼는 다음 내에 표시될 수 있습니다. [보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md), 이러한 보고 그룹을 축소 및 확장할 수 있습니다. 클릭 **[!UICONTROL 제어]** 또는 **[!UICONTROL 타깃팅됨]** 롤업된 정보를 오퍼가 아닌 보고 그룹으로 보려면 테이블에서 을 참조하십시오.
 
 ## 자동화된 세그먼트
 
-을(를) 클릭합니다. [!UICONTROL 자동화된 세그먼트] 아이콘. 이 보고서는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 다르게 응답하는 방식을 보여줍니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.
+다음을 클릭합니다. [!UICONTROL 자동화된 세그먼트] 아이콘. 이 보고서는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 어떻게 다르게 반응하는지를 보여 줍니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.
 
 ![자동화된 세그먼트 아이콘](/help/main/c-reports/assets/icon-automated-sements-ap.png)
 
@@ -65,7 +65,7 @@ ht-degree: 33%
 
 ## 중요 속성
 
-을(를) 클릭합니다. [!UICONTROL 중요 속성] 아이콘. 이 보고서는 다른 활동에서 모델이 개인화를 결정하는 방법에 대해 다른 속성이 더 중요하거나 덜 중요한 방법을 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
+다음을 클릭합니다. [!UICONTROL 중요 속성] 아이콘. 이 보고서는 다른 활동에서 다른 속성이 모델이 개인화를 결정하는 방법에 대해 얼마나 중요한지 (또는 덜 중요한지) 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
 
 ![중요 속성 아이콘](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
@@ -75,10 +75,10 @@ ht-degree: 33%
 
 ### 활동 수준 보고서와 오퍼 수준 보고서 간에 데이터에 차이가 있는 이유는 무엇입니까?
 
-**[!UICONTROL 활동 수준] 보고서**: 에 기록된 방문 [!UICONTROL 활동 수준] 보고서는 제어 경험에 대한 방문 수와 &quot;타깃팅된&quot; 트래픽. 타깃팅된 트래픽에는 탐색 트래픽과 개인화된 트래픽이 혼합되어 포함됩니다.
+**[!UICONTROL 활동 수준] 보고서**: 다음에 기록된 방문 수 [!UICONTROL 활동 수준] 보고서는 제어 경험과 &quot;대상&quot; 트래픽에 대한 방문 횟수를 캡처합니다. 타깃팅된 트래픽에는 탐색 트래픽과 개인화된 트래픽이 혼합되어 있습니다.
 
-**오퍼 수준 보고서**: 에 기록된 노출 횟수 [!UICONTROL 오퍼 수준] 보고서는 각 오퍼의 노출 횟수를 캡처합니다. 따라서 위치가 두 개 이상인 활동에서는 [!UICONTROL 오퍼 수준] 모든 보고 그룹의 보고서는 제어 또는 타깃팅된 트래픽에 대해 기록된 방문의 수의 배수와 같습니다 [!UICONTROL 활동 수준] 보고서 시간 활동의 총 위치 수를 설정합니다. 기본 콘텐츠가 사용 가능한 옵션인 위치에서 발생하는 기본 콘텐츠의 노출이 &quot;기본 콘텐츠&quot; 오퍼 그룹에 기록됩니다. 보고 그룹에 할당되지 않은 오퍼의 노출은 &quot;그룹화되지 않은&quot; 오퍼 그룹에 기록됩니다.
+**오퍼 수준 보고서**: 다음에 기록된 노출 횟수 [!UICONTROL 오퍼 수준] 보고서 각 오퍼의 노출 횟수를 캡처합니다. 따라서 두 개 이상의 위치가 있는 활동에서 [!UICONTROL 오퍼 수준] 모든 보고 그룹의 보고서는 의 제어 또는 타깃팅된 트래픽에 대해 기록된 방문 수의 배수와 같습니다. [!UICONTROL 활동 수준] 활동에 있는 총 위치 수를 곱합니다. 기본 컨텐츠를 사용할 수 있는 옵션이 있었던 위치에서 발생하는 기본 컨텐츠의 노출은 &quot;기본 컨텐츠&quot; 오퍼 그룹에 기록됩니다. 보고 그룹에 할당되지 않은 오퍼의 노출 횟수는 &quot;그룹화되지 않은&quot; 오퍼 그룹에 기록됩니다.
 
 >[!NOTE]
 >
->에 기록된 노출 횟수 [!UICONTROL 오퍼 수준] 보고서는 [!UICONTROL 활동 수준] 보고서 세트에 대해 설명합니다. 이것은 인터넷을 통한 보고 데이터 트래픽 캡처에서 발생하는 사소한 불일치 때문입니다(일반적인 불일치율은 5% 미만). 따라서 활동이 활성화된 후 활동에서 사용할 수 있는 위치 수가 변경된 경우 노출 수가 정확히 배수가 되지 않습니다.
+>에 기록된 노출 횟수 [!UICONTROL 오퍼 수준] 보고서에 기록된 방문 수의 정수가 아닐 수 있습니다. [!UICONTROL 활동 수준] 보고서. 이는 인터넷의 보고 데이터 트래픽 캡처에서 발생하는 사소한 불일치(일반적인 불일치율은 5% 미만)에 기인합니다. 따라서 활동이 활성화된 후 활동에서 사용 가능한 위치 수가 변경될 때 노출 수가 정확한 배수가 되지 않습니다.

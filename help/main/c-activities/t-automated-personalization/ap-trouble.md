@@ -1,7 +1,7 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: Adobe Target에서 AP(Automated Personalization) 활동을 사용할 때 제안된 해결 방법과 함께 발생할 수 있는 잠재적인 어려움에 대해 살펴보십시오.
-title: Automated Personalization 문제를 어떻게 해결합니까?
+description: 제안된 해결 방법과 함께 Adobe Target에서 Automated Personalization(AP) 활동을 사용하는 동안 발생할 수 있는 잠재적인 어려움에 대해 알아봅니다.
+title: Automated Personalization 문제를 해결하려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
@@ -40,7 +40,7 @@ AP 활동이 상승도를 생성하려면 다음과 같은 몇 가지 요소가 
 
 ## 내 AP 활동 URL이 잘못된 페이지에 대한 오퍼 컨텐츠를 표시하고 있습니다. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-AP에서 URL 및 템플릿 테스트 규칙은 [!DNL Target] 요청 항목 제한(예: target-global-mbox)을 따랐으며, 한 번만 평가됩니다. 사용자가 활동 자격을 얻으면 Target 요청 수준 타깃팅 규칙이 다시 평가되지 않습니다. 그러나 타깃팅 대상이 위치 타깃팅 규칙에 추가됩니다.
+AP에서 URL 및 템플릿 테스트 규칙이 [!DNL Target] 요청 항목 제한(예: target-global-mbox). 여기서 한 번만 평가됩니다. 사용자가 활동 자격을 얻으면 Target 요청 수준 타기팅 규칙이 다시 평가되지 않습니다. 그러나 타깃팅 대상이 위치 타깃팅 규칙에 추가됩니다.
 
 **솔루션:** 필요한 템플릿 규칙을 캠페인의 입력 대상으로 추가합니다. 대상 평가는 각 요청/호출에 대해 발생합니다.
 

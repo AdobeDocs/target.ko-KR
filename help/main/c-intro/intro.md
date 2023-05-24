@@ -31,7 +31,7 @@ ht-degree: 89%
 
 [!DNL Target Premium] 은 [!DNL Target Standard]에 프리미엄 기능을 추가하려면 라이선스가 필요한 고급 [!DNL Target] 서비스입니다.
 
-모두 [!DNL Target Premium] 문서 [!DNL Target] 안내서에는 [!UICONTROL Premium] 배지 각 페이지의 맨 위에 있거나 영향을 받는 텍스트 근처에 있는 인라인 배지. 다음 [!UICONTROL Premium] 배지는 클릭 가능하며 이 섹션에 대한 링크를 포함합니다.
+모두 [!DNL Target Premium] 의 문서 [!DNL Target] 안내서에는 다음 항목이 포함됩니다 [!UICONTROL Premium] 각 페이지의 맨 위에 있는 배지 또는 영향을 받는 텍스트 근처에 있는 인라인입니다. 다음 [!UICONTROL Premium] 배지는 클릭할 수 있으며 이 섹션에 대한 링크를 포함합니다.
 
 **[!DNL Target Premium]에는 다음 기능이 포함되어 있습니다.**
 
@@ -80,13 +80,13 @@ ht-degree: 89%
 
 [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) 기능을 사용하면 [!DNL Adobe Admin Console for Enterprise]의 &quot;제품 프로필&quot;이라는 다른 프로젝트를 생성할 수 있습니다. [!UICONTROL Enterprise 사용자 권한] 을 사용하면 각 프로젝트에 대해 해당 사용자의 액세스 권한을 지정하는 단일 사용자에 대해 서로 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과 고객은 사용자에 대한 보기, 편집, 승인 및 게시 액세스를 제한할 수 있습니다. 지역, 환경(개발/단계/프로덕션), 채널 또는 기타 맞춤형 기준에 따라 사용자를 제한할 수 있습니다.
 
-## 베타 기능 {#beta}
+## Beta 기능 {#beta}
 
 [!BADGE 베타]{type=Informative}
 
-다음 [!DNL Adobe Target] 팀은 테스트 및 피드백 목적으로 일부 고객에 대해 새로운 기능을 사용하는 경우가 많습니다. 테스트 기간이 완료되면 향후 모든 고객에 대해 이 기능이 활성화됩니다 [!DNL Target Standard/Premium] 릴리스 및 릴리스 노트에 발표했습니다.
+다음 [!DNL Adobe Target] 팀은 종종 테스트 및 피드백 목적으로 일부 고객을 위해 새로운 기능을 활성화합니다. 테스트 기간이 완료되면 향후 모든 고객에 대해 이러한 기능이 활성화됩니다 [!DNL Target Standard/Premium] 릴리스 및 릴리스 정보에 발표됨.
 
-의 문서 [!DNL Target] 베타 기능을 설명하는 안내서에는 각 페이지의 맨 위에 있는 베타 배지 또는 영향을 받는 텍스트 근처에 있는 인라인이 포함됩니다. 베타 배지를 클릭할 수 있으며 이 섹션에 대한 링크가 포함되어 있습니다.
+의 문서 [!DNL Target] 베타 기능을 설명하는 안내서에는 각 페이지 상단에 있는 베타 배지 또는 영향을 받는 텍스트 근처에 있는 인라인이 포함됩니다. Beta 배지는 클릭할 수 있으며 이 섹션에 대한 링크를 포함합니다.
 
 ## Recommendations Classic  {#section_9554068100054D2DBDB298CBE5A0E413}
 

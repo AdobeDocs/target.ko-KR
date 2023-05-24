@@ -1,6 +1,6 @@
 ---
 keywords: 경험 템플릿;사용자 지정 코드;배너;lightbox;캐러셀;카운트다운;리본;단추
-description: Adobe Target에서 일반적인 마케터의 사용 사례를 실행하는 데 사용할 수 있도록 구성 가능한 입력이 있는 사전 코딩된 샘플인 경험 템플릿을 사용하는 방법을 알아봅니다.
+description: Adobe Target에서 일반적인 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력이 있는 사전 코딩된 샘플인 경험 템플릿을 사용하는 방법을 알아봅니다.
 title: Target에서 사용할 수 있는 경험 템플릿은 무엇입니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
@@ -13,7 +13,7 @@ ht-degree: 77%
 
 # 경험 템플릿
 
-정보 [!DNL Adobe Target] 사용자 지정 코드에 사용할 경험 템플릿입니다. [!DNL Target] 경험 템플릿은 공통된 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력으로 사전 코딩된 샘플입니다.
+다음에 대한 정보: [!DNL Adobe Target] 사용자 지정 코드에서 사용할 경험 템플릿 . [!DNL Target] 경험 템플릿은 공통된 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력으로 사전 코딩된 샘플입니다.
 
 이러한 경험 템플릿은 VEC 또는 양식 기반 경험 작성기를 통해 공통 사용 사례를 실행할 시작점으로 개발자 및 마케터에게 무료로 제공됩니다.
 
@@ -23,7 +23,7 @@ ht-degree: 77%
 
 [썸네일을 포함하는 배너 캐러셀 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails)은 순환 캐러셀이며, 일반적으로 홈 페이지 및 랜딩 페이지나 기타 대량 입력 페이지에서 사용됩니다. 이 캐러셀에서는 이미지를 통해 자동으로 회전하지 않으며 기본 이미지 아래의 작은 이미지를 클릭하여 직접 상호 작용할 수 있습니다.
 
-![exp-template-banner-회전판-축소판 이미지](assets/exp-template-banner-carousel-thumbnails.png)
+![exp-template-banner-carousel-thumbnails 이미지](assets/exp-template-banner-carousel-thumbnails.png)
 
 ## 배너 캐러셀 {#section_725D4C0C4FCD41FA92BCFC910A216E2A}
 

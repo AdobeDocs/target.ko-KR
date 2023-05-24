@@ -1,6 +1,6 @@
 ---
-keywords: 권장 사항 피드;피드;SAINT;ftp;csv;분류;분석 분류
-description: 피드가 엔티티를 Adobe에 가져오는 방법을 알아봅니다 [!DNL Target] CSV 파일, Google 제품 검색 피드 형식 및 Analytics 제품 분류를 사용하는 Recommendations.
+keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
+description: 피드가 엔티티를 Adobe에 가져오는 방법 알아보기 [!DNL Target] CSV 파일, Google 제품 검색 피드 형식 및 Analytics 제품 분류를 사용하는 Recommendations.
 title: 에서 피드를 사용하는 방법 [!DNL Target] Recommendations?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
@@ -20,7 +20,7 @@ ht-degree: 84%
 
 피드를 사용하면 [엔티티](/help/main/c-recommendations/c-products/products.md)를 전달하거나, 페이지에서 사용할 수 없거나 여백, COGS 등과 같이 페이지에서 직접 보내기에는 안전하지 않은 정보가 있는 mbox 데이터를 보강할 수 있습니다.
 
-피드를 사용하면 자세한 항목 정보를 [!DNL Recommendations], 예: 제품 ID, 카테고리, 이름, 메시지 및 기타 속성.
+피드를 사용하면 자세한 항목 정보를 [!DNL Recommendations], 제품 ID, 카테고리, 이름, 메시지 및 기타 속성 등.
 
 [!DNL Target] 제품 분류 파일 또는 Google 제품 검색 파일에서 [!DNL Recommendations] 서버로 전송할 열을 선택할 수 있습니다. 
 
@@ -31,7 +31,7 @@ ht-degree: 84%
 * 항목을 다른 컬렉션으로 정렬
 * 권장 사항에 제외 적용
 
-항목 설명은 [!DNL Target] 피드 또는 mbox 사용. 개체 피드와 mbox 양쪽에서 데이터를 수집할 경우 가장 최근의 데이터가 우선합니다. 일반적으로 가장 최근의 데이터는 mbox가 더 자주 조회되므로 mbox에서 옵니다. 드물지만 개체 피드 데이터와 mbox 데이터가 동시에 조회되는 경우 mbox 데이터가 사용됩니다.
+항목 설명을에 전달할 수 있습니다. [!DNL Target] 피드 또는 mbox 사용. 개체 피드와 mbox 양쪽에서 데이터를 수집할 경우 가장 최근의 데이터가 우선합니다. 일반적으로 가장 최근의 데이터는 mbox가 더 자주 조회되므로 mbox에서 옵니다. 드물지만 개체 피드 데이터와 mbox 데이터가 동시에 조회되는 경우 mbox 데이터가 사용됩니다.
 
 [!UICONTROL 피드] 목록(**[!UICONTROL 권장 사항]** > **[!UICONTROL 피드]**)에는 만들어진 피드에 대한 정보가 있습니다.
 
@@ -50,8 +50,8 @@ ht-degree: 84%
 >
 >업로드된 엔티티 및 엔티티 속성은 61일 후에 만료됩니다. 이것은 다음을 의미합니다.
 >
->* 카탈로그 콘텐츠가 만료되지 않도록 피드를 매월 최소 실행해야 합니다.
->* 피드 파일에서 항목을 제거해도 카탈로그에서 해당 항목이 제거되지 않습니다. 카탈로그에서 항목을 제거하려면 Target UI 또는 API를 통해 항목을 수동으로 삭제합니다. 또는 품목 속성(예: 재고)을 수정하여 품목이 고려에서 제외되도록 합니다.
+>* 피드는 카탈로그 콘텐츠가 만료되지 않도록 최소 매월 실행해야 합니다.
+>* 피드 파일에서 항목을 제거해도 카탈로그에서 해당 항목이 제거되지 않습니다. 카탈로그에서 항목을 제거하려면 Target UI 또는 API를 통해 항목을 수동으로 삭제하십시오. 또는 품목 속성(예: 재고)을 수정하여 품목이 고려 대상에서 제외되도록 합니다.
 
 
 ## 소스 유형
@@ -90,7 +90,7 @@ Adobe 소유 CSV 업로드 형식을 사용하여 .csv 파일을 작성할 수 �
 
 >[!NOTE]
 >
->기존 값을 빈 값으로 덮어쓸 수 없습니다. 덮어쓰려면 해당 위치에 다른 값을 전달해야 합니다. 할인가의 경우 일반적인 해결 방법은 실제 &quot;NULL&quot; 또는 다른 메시지를 전달하는 것입니다. 그런 다음 템플릿 규칙을 작성하여 해당 값이 포함된 항목을 제외할 수 있습니다.
+>기존 값을 빈 값으로 덮어쓸 수 없습니다. 덮어쓰려면 그 위치에 다른 값을 전달해야 합니다. 할인가의 경우 일반적인 해결 방법은 실제 &quot;NULL&quot; 또는 다른 메시지를 전달하는 것입니다. 그런 다음 템플릿 규칙을 작성하여 해당 값이 포함된 항목을 제외할 수 있습니다.
 
 개체를 성공적으로 업로드하고 약 2시간 후 관리 인터페이스에서 제품을 사용할 수 있습니다.
 
@@ -118,13 +118,13 @@ Google Product Search 피드 유형에서는 Google 형식을 사용합니다. �
 >
 >Google 데이터를 사용할 필요는 없습니다. [!DNL Recommendations]에서는 Google과 동일한 형식을 사용합니다. 이 방법을 사용하여 보유하고 있는 데이터를 업로드하고 사용 가능한 예약 기능을 이용할 수 있습니다. 하지만 파일을 설정할 때에는 Google의 사전 정의된 속성 이름을 보유하고 있어야 합니다.
 
-많은 소매점의 경우 제품을 Google에 업로드하여, 방문자가 Google 제품 검색을 사용할 때 제품이 나타나도록 합니다. [!DNL Recommendations]는 정확히 개체 피드에 대해 Google의 사양을 따릅니다. 개체 피드는 로 전송될 수 있습니다 [!DNL Recommendations] .xml, .txt 또는 .tsv를 통해 다음을 사용할 수 있습니다. [Google에 의해 정의된 특성](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 결과는 [Google 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
+많은 소매점의 경우 제품을 Google에 업로드하여, 방문자가 Google 제품 검색을 사용할 때 제품이 나타나도록 합니다. [!DNL Recommendations]는 정확히 개체 피드에 대해 Google의 사양을 따릅니다. 엔터티 피드를 (으)로 보낼 수 있습니다. [!DNL Recommendations] .xml, .txt 또는 .tsv를 통해 [Google에 의해 정의된 속성](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 결과는 [Google 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
 
 >[!NOTE]
 >
 >POST 방법은 Google 피드 컨텐츠를 호스팅하는 서버에서만 허용됩니다.
 
-왜냐면 [!DNL Recommendations] 사용자는 이미 URL 또는 FTP를 통해 Google으로 전송할 .xml 또는 .txt 피드를 구성했으며, 개체 피드는 해당 제품 데이터를 승인하고 이를 사용하여 권장 사항 카탈로그를 구성합니다. 피드가 존재하며 권장 사항 서버가 데이터를 검색하는 위치를 지정합니다.
+이유 [!DNL Recommendations] 사용자는 이미 URL 또는 FTP를 통해 Google으로 전송할 .xml 또는 .txt 피드를 구성했습니다. 엔티티 피드는 해당 제품 데이터를 승인하고 이를 사용하여 권장 사항 카탈로그를 구성합니다. 피드가 존재하며 권장 사항 서버가 데이터를 검색하는 위치를 지정합니다.
 
 개체 피드 업로드에 대해 Google 제품 검색을 사용하는 경우, 페이지에 권장 사항을 표시하거나 뷰를 기반으로 한 알고리즘 제공을 위한 제품 보기를 추적하려면 여전히 페이지에 제품 페이지 mbox가 있어야 합니다.
 
@@ -209,23 +209,23 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Analytics 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 [분류 정보](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 에서 *Analytics 구성 요소* 안내서. 권장 사항에서 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용자 안내서를 따르십시오.
+Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 [분류 정보](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 다음에서 *Analytics 구성 요소* 가이드. 권장 사항에서 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용자 안내서를 따르십시오.
 
 >[!IMPORTANT]
 >
->엔티티 데이터를 로 가져오기 전에 [!DNL Recommendations] Analytics 제품 분류를 사용하면 이것이 기본 방법이 아니라는 것을 알 수 있습니다.
+>엔티티 데이터를 로 가져오기 전 [!DNL Recommendations] analytics 제품 분류를 사용하는 경우 이 방법이 선호되지 않습니다.
 >
 > 다음 주의 사항에 유의하십시오.
 >
 >* 엔티티 속성에 대한 업데이트는 최대 24시간이 넘는 지연을 초래합니다.
->* [!DNL Target] 은 제품 분류만 지원합니다. Analytics 제품 SKU는 [!DNL Recommendations] `entity.id`. 사용자 지정 Analytics 분류는 Adobe 컨설팅 서비스를 사용하여 만들 수 있습니다. 질문이 있으면 계정 관리자에게 문의하십시오.
+>* [!DNL Target] 는 제품 분류만 지원합니다. Analytics 제품 SKU는 와 동일한 수준에 매핑해야 합니다. [!DNL Recommendations] `entity.id`. 사용자 지정 Analytics 분류는 Adobe 컨설팅 서비스를 사용하여 만들 수 있습니다. 질문이 있으면 계정 관리자에게 문의하십시오.
 
 
 ## 피드 만들기 {#steps}
 
 [!DNL Recommendations]에 제품이나 서비스에 대한 정보를 삽입하는 피드를 작성합니다.
 
-1. Target 인터페이스에서 을 클릭합니다. **[!UICONTROL Recommendations]** > **[!UICONTROL 피드 를 참조하십시오]** > **[!UICONTROL 피드 만들기]**.
+1. Target 인터페이스 내에서 **[!UICONTROL Recommendations]** > **[!UICONTROL 피드]** > **[!UICONTROL 피드 만들기]**.
 
    ![피드 만들기 대화 상자](assets/CreateFeed.png)
 
@@ -236,7 +236,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
    * Google 제품 피드
    * Analytics 분류
 
-   CSV 및 Google 제품 피드 유형에 대한 자세한 내용은 [피드 개요](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)를 참조하십시오. 다음을 수행할 수도 있습니다 [모델 CSV 안내서 다운로드](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) 피드 형식을 올바르게 지정하는 데 도움이 됩니다.
+   CSV 및 Google 제품 피드 유형에 대한 자세한 내용은 [피드 개요](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)를 참조하십시오. 다음을 수행할 수도 있습니다. [모델 CSV 안내서 다운로드](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) 를 사용하십시오.
 
 1. (조건부) **[!UICONTROL CSV]** 또는 **[!UICONTROL Google 제품 피드]**&#x200B;를 선택한 경우 피드에 액세스할 수 있는 위치를 지정합니다.
 
@@ -301,7 +301,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 | 다운로드 대기 중 | Target이 피드 파일 다운로드를 준비하는 중입니다. |
 | 피드 파일 다운로드 중 | Target이 피드 파일을 다운로드하는 중입니다. |
 | 항목을 가져오는 중 | Target이 피드 파일에서 항목을 가져오는 중입니다. |
-| 피드를 *시간 내에* 성공적으로 가져옴 | Target에서 피드 파일을 콘텐츠 전달 시스템으로 가져옵니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 추천에 반영될 예정입니다. 예상 변경 사항이 표시되지 않는 경우 잠시 후 추천이 포함된 페이지를 새로 고침하십시오.<br>참고:<ul><li>항목의 속성에 대한 변경 사항이 추천에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 속성을 변경하면 더 이상 추천에서 *제외되지 않습니다*. 이 경우 24시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 카탈로그 검색 사용자 인터페이스에 아직 반영되지 않았을 수 있습니다. 별도의 상태가 검색 가능한 카탈로그가 업데이트된 마지막 시간을 나타내는 카탈로그 검색에 표시됩니다.</li></ul> |
+| 피드를 *시간 내에* 성공적으로 가져옴 | Target에서 피드 파일을 콘텐츠 전달 시스템으로 가져옵니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 추천에 반영될 예정입니다. 예상 변경 사항이 표시되지 않는 경우 잠시 후 추천이 포함된 페이지를 새로 고침하십시오.<br>참고:<ul><li>항목의 속성에 대한 변경 사항으로 인해 항목이 권장 사항에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 속성을 변경하면 더 이상 추천에서 *제외되지 않습니다*. 이 경우 24시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 카탈로그 검색 사용자 인터페이스에 아직 반영되지 않았을 수 있습니다. 별도의 상태가 검색 가능한 카탈로그가 업데이트된 마지막 시간을 나타내는 카탈로그 검색에 표시됩니다.</li></ul> |
 | 색인화 실패 | 색인 작업에 실패했습니다. 다시 시도하십시오. |
 | 서버를 찾을 수 없음 | FTP 또는 URL 위치가 잘못되었거나 접속할 수 없습니다. |
 
@@ -309,7 +309,7 @@ Analytics 제품 분류는 권장 사항에서 사용할 수 있는 분류입니
 
 >[!IMPORTANT]
 >
->업로드된 엔티티는 61일 후에 만료됩니다. 즉, 권장 사항 활동이 중단되는 것을 방지하기 위해 적어도 60일마다 피드 파일을 업로드해야 합니다. 60일마다 한 번 이상 피드 파일(또는 다른 엔티티 업데이트 메서드)에 포함되지 않은 경우, [!DNL Adobe Target] 항목이 더 이상 관련이 없으며 카탈로그에서 제거됩니다.
+>업로드된 엔티티는 61일 후에 만료됩니다. 즉, 권장 사항 활동이 중단되는 것을 방지하기 위해 적어도 60일마다 피드 파일을 업로드해야 합니다. 60일마다 한 번 이상 피드 파일(또는 다른 엔티티 업데이트 메서드)에 포함되지 않은 항목은 [!DNL Adobe Target] 더 이상 관련성이 없는 항목을 유추하여 카탈로그에서 제거합니다.
 
 ### 피드 상태 표시기 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 

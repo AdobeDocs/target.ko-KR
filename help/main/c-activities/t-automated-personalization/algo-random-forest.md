@@ -1,7 +1,7 @@
 ---
-keywords: 임의 포리스트;의사 결정 트리;ap;Automated Personalization
-description: Adobe 방법 알아보기 [!DNL Target] Automated Personalization(AP)와 자동 Target 활동 모두에서 Random Forest 알고리즘을 사용합니다.
-title: 방법 [!DNL Target] Random Forest 알고리즘 사용?
+keywords: random forest;의사 결정 트리;ap;Automated Personalization
+description: Adobe 방법 알아보기 [!DNL Target] Automated Personalization(AP) 및 자동 Target 활동 모두에서 랜덤 포레스트 알고리즘을 사용합니다.
+title: 은 어떻게 합니까? [!DNL Target] Random Forest 알고리즘 사용
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
@@ -35,19 +35,19 @@ Random Forest 알고리즘은 자동화된 개인화와 자동 타겟 활동에�
 
 이 작업으로 의사 결정 트리의 첫 번째 계층이 생성됩니다.
 
-![decsion_tree_1 이미지](assets/decsion_tree_1.png)
+![decision_tree_1 이미지](assets/decsion_tree_1.png)
 
 의사 결정 트리는 &quot;가장 예측 가능한 변수란 무엇입니까?&quot;라는 질문을 합니다. 이 예에는 두 개의 변수만 있으므로 여기에서 답변은 명확하게 성별입니다. 이제 트리는 유사한 연습을 완료하여 *각 분기 내에서* 데이터를 분할할 것입니다. 먼저 11111, 22222 및 33333 분기에 대해 생각해 보겠습니다. 이 우편 번호들에서 남성과 여성 간에 전환 차이가 있다면 두 개의 리프(남성 및 여성)가 있을 것이고 이 분기는 완료됩니다. 다른 분기 44444와 55555에서는 여성과 남성이 전환하는 방식 간에 통계적 차이가 없다고 가정하겠습니다. 이 경우 첫 번째 분기는 최종 분할이 됩니다.
 
 따라서 아래의 트리가 만들어집니다.
 
-![decsion_tree_2 이미지](assets/decsion_tree_2.png)
+![decision_tree_2 이미지](assets/decsion_tree_2.png)
 
-## Random Forest에서 의사 결정 트리를 사용하는 방법은 무엇입니까? {#section_536C105EF9F540C096D60450CAC6F627}
+## Random Forest에서는 의사 결정 트리를 어떻게 사용합니까? {#section_536C105EF9F540C096D60450CAC6F627}
 
 의사 결정 트리는 강력한 통계 도구일 수 있습니다. 그러나 몇 가지 단점이 있습니다. 가장 큰 단점은 이 트리가 데이터를 &quot;과잉 맞춤&quot;(over-fit)하여 개별 트리가 초기 트리를 만드는 데 사용되지 않은 미래 데이터는 제대로 예측하지 못할 수 있다는 것입니다. 이 문제를 통계적 학습에서는 [편향-분산 트레이드오프](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)(bias-variance tradeoff)라고 합니다. Random Forest는 이러한 과잉 맞춤 문제를 극복하는 데 도움이 됩니다. 가장 높은 수준에서 Random Forest는 개별 트리보다 더 나은 모델을 만들어내기 위해 함께 &quot;투표&quot;하고, 동일한 데이터 세트에서 약간 다르게 만들어지는 의사 결정 트리들의 컬렉션입니다. Forest가 약간씩 다른 의사 결정 트리들로 구성되도록 트리는 속성들의 하위 집합을 무작위로 선택할 뿐만 아니라 교체 사항이 있는 방문 횟수 레코드의 하위 집합을 무작위로 선택하여 만들어집니다(bagging이라고도 함). 이 방법에서 Random Forest에서 만들어진 트리들은 약간씩 다르게 변형됩니다. 이 통제된 크기의 차이를 포함하는 것은 알고리즘의 예측 정확도를 향상시키는 데 도움이 됩니다.
 
-## Target의 개인화 알고리즘에서는 Random Forest를 어떻게 사용합니까? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Target의 개인화 알고리즘은 Random Forest를 어떻게 사용합니까? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **모델을 만드는 방법**
 

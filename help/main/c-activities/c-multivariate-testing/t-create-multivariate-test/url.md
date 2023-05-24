@@ -1,7 +1,7 @@
 ---
-keywords: 다변량 테스트;활동 URL
-description: 테스트에 사용되는 페이지를 결정하고 Adobe Target을 사용하여 다변량 테스트 활동을 디자인할 때 열리는 활동 URL을 지정하는 방법을 알아봅니다.
-title: Mvt(다변량) 활동의 활동 URL은 무엇입니까?
+keywords: 다변량 테스트;활동 url
+description: 테스트에 사용되는 페이지를 결정하며 다변량 테스트 활동이 Adobe Target을 사용하여 디자인될 때 열리는 활동 URL을 지정하는 방법을 알아봅니다.
+title: MVT(다변량) 활동의 활동 URL이란 무엇입니까?
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

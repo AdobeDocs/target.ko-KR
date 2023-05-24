@@ -1,7 +1,7 @@
 ---
 keywords: 목표 및 설정;목표;우선순위;지속 기간
-description: Adobe에서 활동 설정을 사용하는 방법을 알아봅니다 [!DNL Target] 활동의 목표, 우선순위 및 지속 기간을 관리하기 위해.
-title: 활동 설정을 지정하려면 어떻게 합니까?
+description: Adobe에서 활동 설정 을 사용하는 방법 알아보기 [!DNL Target] 활동의 목표, 우선순위 및 기간을 관리합니다.
+title: 활동 설정을 지정하는 방법
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 79%
 
 # 활동 설정
 
-사용 [!UICONTROL 활동 설정] in [!DNL Adobe Target] 활동의 목표, 우선순위 및 지속 기간을 관리하기 위해.
+사용 [!UICONTROL 활동 설정] 위치: [!DNL Adobe Target] 활동의 목표, 우선순위 및 기간을 관리합니다.
 
 1. 활동의 목표에 대한 메모를 입력합니다.
 
@@ -24,9 +24,9 @@ ht-degree: 79%
 
    대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-   에서 이 옵션을 활성화하지 않으면 [!UICONTROL 관리] > [!UICONTROL 보고] (기본값) 우선순위를 지정합니다. 낮음, 중간 또는 높음.
+   이 옵션이에서 활성화되지 않은 경우 [!UICONTROL 관리] > [!UICONTROL 보고] (기본값), 우선순위를 낮음, 중간 또는 높음으로 지정합니다.
 
-   세분화된 우선순위를 활성화하려면 [!UICONTROL 관리] > [!UICONTROL 보고], 그런 다음 를 전환합니다. [!UICONTROL 세분화된 우선순위 활성화] 선택 사항을 &quot;켜기&quot; 위치에 지정합니다.
+   세분화된 우선순위를 활성화하려면 [!UICONTROL 관리] > [!UICONTROL 보고]을 클릭한 다음 을 전환합니다 [!UICONTROL 세분화된 우선순위 사용] 옵션을 &quot;켜짐&quot; 위치에 추가합니다.
 
    이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 

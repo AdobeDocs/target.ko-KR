@@ -1,7 +1,7 @@
 ---
 keywords: 동적 데이터;자산;데이터;오퍼;개인화된 오퍼;개인 오퍼;토큰 바꾸기
-description: 동적 데이터를에 전달하는 방법을 알아봅니다. [!DNL Adobe Target] 오퍼.
-title: 오퍼에 동적 데이터를 전달하려면 어떻게 합니까?
+description: 동적 데이터를에 전달하는 방법 알아보기 [!DNL Adobe Target] 오퍼.
+title: 다이내믹 데이터를 오퍼에 전달하려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 63%
 
 # 오퍼에 동적 데이터 전달
 
-에 저장된 방문자 정보를 동적으로 표시할 수 있습니다 [!DNL Adobe Target] 프로필 참조. 마찬가지로 활동 정보(예: 활동 이름 또는 경험 이름)를 사용하여 방문자의 관심 사항, 과거 동작 및 전체 프로필에 따라 개인화된 콘텐츠를 동적으로 반환하는 단일 오퍼를 생성할 수도 있습니다.
+에 저장된 방문자 정보를 동적으로 표시할 수 있습니다. [!DNL Adobe Target] 프로필. 마찬가지로 활동 정보(예: 활동 이름 또는 경험 이름)를 사용하여 방문자의 관심 사항, 과거 동작 및 전체 프로필에 따라 개인화된 콘텐츠를 동적으로 반환하는 단일 오퍼를 생성할 수도 있습니다.
 
 ## 비즈니스 사례
 
@@ -23,14 +23,14 @@ ht-degree: 63%
 
 ## 기술적 장점
 
-방문자별 환경 설정, 동작, 상태 는 방문자 프로필에 저장될 수 있으므로 다음 방문 시 이 메시지를 반복 표시할 수 있습니다. 다이내믹 오퍼를 사용하면 모든 방문자에 대해 개인화된 메시지를 표시하는 활동 내에서 단일 오퍼를 설정할 수 있어 더 큰 규모의 확장이 가능합니다. 방문자의 의도가 바뀌면 웹 사이트 콘텐츠에 그러한 변경 내용이 자동으로 반영됩니다.
+방문자별 환경 설정, 동작, 상태가 방문자의 프로필에 저장될 수 있으므로 다음 방문 시 이 메시지를 반복할 수 있습니다. 다이내믹 오퍼를 사용하면 모든 방문자에 대해 개인화된 메시지를 표시하는 활동 내에서 단일 오퍼를 설정할 수 있어 더 큰 규모의 확장이 가능합니다. 방문자의 의도가 바뀌면 웹 사이트 콘텐츠에 그러한 변경 내용이 자동으로 반영됩니다.
 
 ## 예
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
 * HTML 오퍼 코드: `Get your ${profile.keyword} information here!`
-* 방문자에게 표시되는 항목: 여기 월드컵 정보를 가져오세요!
+* 방문자 보기: 여기에서 월드컵 정보를 얻으십시오!
 
 다음 값은 &quot;토큰으로 대체&quot;될 수 있습니다.
 
@@ -47,38 +47,38 @@ ht-degree: 63%
 
 `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}` 등 디버깅 목적에 대한 정보를 콘솔에 기록
 
-대상 [!DNL Recommendations] 디자인, [디자인 개요](/help/main/c-recommendations/c-design-overview/design-overview.md).
+대상 [!DNL Recommendations] 디자인, 의 추가 예 참조 [디자인 개요](/help/main/c-recommendations/c-design-overview/design-overview.md).
 
 ## 구현
 
-mbox로 전달된 프로필 매개 변수의 경우 구문을 사용합니다.
+mbox로 전달된 프로필 매개 변수의 경우 다음 구문을 사용합니다.
 
 `${profile.parameter}`
 
-프로필 스크립트로 만든 프로필 매개 변수의 경우 구문을 사용합니다.
+프로필 스크립트에서 생성된 프로필 매개 변수의 경우 다음 구문을 사용합니다.
 
 `${user.parameter}`
 
-에서 동적 속성을 사용할 때 [!DNL Recommendations] 디자인에서 동적 값이 제대로 렌더링되려면 달러 기호( $ ) 앞에 백슬래시( \ )를 삽입해야 합니다.
+에서 동적 속성을 사용할 때 [!DNL Recommendations] 디자인에서 동적 값을 제대로 렌더링하려면 달러 기호( $ ) 앞에 백슬래시( \ )를 삽입해야 합니다.
 
 `\${user.endpoint.lastViewedEntity}`
 
 이러한 변수는 서버 쪽의 값으로 대체되므로 제대로 표시되려면 따옴표나 다른 JavaScript가 필요합니다.
 
-오퍼에 노출할 값에 대해서도 기본값을 지정할 수 있습니다. 이 구문은 다음과 같습니다.
+오퍼에 표시할 값에 대해 기본값을 지정할 수도 있습니다. 이 구문은 다음과 같습니다.
 
 `${user.testAttribute default="All Items!"}`
 
-`testAttribute`가 없거나 비어 있는 경우 &quot;&quot;모든 항목&quot;&quot;이 작성됩니다. 빈 프로필 속성 값이 유효하고 기본값을 표시하는 대신 해당 값을 쓰려는 경우 다음을 사용할 수 있습니다.
+`testAttribute`가 없거나 비어 있는 경우 &quot;&quot;모든 항목&quot;&quot;이 작성되었습니다. 빈 프로필 속성 값이 유효하고 기본값을 표시하는 대신 해당 값을 쓰려는 경우 다음을 사용할 수 있습니다.
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-표시할 값을 escape하거나 escape 취소할 수도 있습니다. 값에 아포스트로피가 있는 경우(예:) 페이지에서 JavaScript가 중단되지 않도록 값을 이스케이프 처리할 수 있습니다. (오퍼는 JavaScript로 작성되므로 단일 아포스트로피가 따옴표와 혼동될 수 있습니다.) 예:
+표시할 값을 escape하거나 escape 취소할 수도 있습니다. 예를 들어 값에 아포스트로피가 있는 경우 페이지에서 JavaScript를 중단하지 않도록 값을 이스케이프 처리할 수 있습니다. (오퍼는 JavaScript로 작성되므로 단일 아포스트로피가 따옴표와 혼동될 수 있습니다.) 예:
 
 `${user.encodedValue encode="unescape"}`
 
 `${user.unencodedValue encode="escape"}`
 
-오퍼 컨텐츠에 사용된 오퍼 매개 변수(offer.name, offer.id)의 경우:
+오퍼 콘텐츠에 사용되는 오퍼 매개 변수(offer.name, offer.id)의 경우:
 
-해당 오퍼가 경험에 설정된 여러 오퍼 중 하나인 경우, 마지막으로 추가된 오퍼의 값이 매개 변수의 값을 채웁니다. 이것은 이러한 매개 변수가 경험 수준에서 평가됨을 의미합니다.
+해당 오퍼가 경험에 설정된 여러 오퍼 중 하나이면 마지막으로 추가된 오퍼의 값이 매개 변수의 값을 채웁니다. 즉, 이러한 매개 변수는 경험 수준에서 평가됩니다.

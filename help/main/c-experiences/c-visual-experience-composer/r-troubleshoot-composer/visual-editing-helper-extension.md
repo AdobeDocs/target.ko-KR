@@ -5,7 +5,7 @@ title: '[!UICONTROL Visual Editing Helper] 확장 기능을 사용하려면 어�
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
 source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 100%
 
@@ -40,7 +40,7 @@ Chrome용 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브�
 
 ## [!UICONTROL Visual Editing Helper] 브라우저 확장 기능 가져오기 및 설치
 
-1. [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Chrome 웹 스토어의 브라우저 확장 기능](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target="_blank"}으로 이동합니다.
+1. [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] Chrome 웹 스토어의 브라우저 확장 기능](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}으로 이동합니다.
 1. **[!UICONTROL Chrome에 추가]** > **[!UICONTROL 확장 기능 추가]**&#x200B;를 클릭합니다.
 1. [!DNL Target]에서 VEC를 엽니다.
 1. 확장 기능을 사용하려면 VEC 또는 QA 모드에서 Chrome 브라우저 도구 모음의 [!UICONTROL Visual Editing Helper] 브라우저 확장 기능 아이콘(![Visual Editing 확장 기능 아이콘](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/visual-editing-helper.png))을 클릭합니다.

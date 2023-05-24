@@ -1,7 +1,7 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;고급 시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;eec;고급 경험 작성기;tls;tls 1.2
-description: 특정 조건에서 VEC(시각적 경험 작성기) 및 EEC(고급 경험 작성기)에서 가끔 발생하는 문제를 해결하는 방법을 알아봅니다.
-title: 시각적 경험 작성기 및 고급 경험 작성기 문제를 해결하려면 어떻게 해야 합니까?
+description: 특정 조건에서 VEC(시각적 경험 작성기) 및 EEC(고급 경험 작성기)에서 가끔 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
+title: 시각적 경험 작성기 및 고급 경험 작성기 문제를 해결하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -13,7 +13,7 @@ ht-degree: 70%
 
 # 시각적 경험 작성기 및 고급 경험 작성기 문제 해결
 
-에서 경우에 따라 문제가 발생합니다 [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC) 및 [!UICONTROL 향상된 경험 작성기] (EEC)를 사용할 수 있습니다.
+때때로 다음과 같은 경우에 표시 문제가 발생합니다. [!DNL Adobe Target] [!UICONTROL 시각적 경험 작성기] (VEC) 및 [!UICONTROL 향상된 경험 작성기] (EEC) 특정 조건에서
 
 VEC는 [!DNL Adobe Target]의 주요 기능 중 하나입니다. VEC는 마케터와 디자이너가 시각적 인터페이스를 사용하여 콘텐츠를 만들고 변경할 수 있도록 하는 편집기입니다. 코드를 직접 편집하지 않고도 많은 디자인을 작성할 수 있습니다. 또한 작성기에서 사용 가능한 편집 선택 사항을 사용하여 HTML 및 JavaScript를 편집할 수도 있습니다.
 

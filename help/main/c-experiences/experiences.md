@@ -1,7 +1,7 @@
 ---
-keywords: 경험;시각적 경험 작성기;고급 경험 작성기;양식 기반 경험 작성기;양식 작성기;시각적 작성기;경험 작성기;혼합 콘텐츠;iframe;iframe 버스팅;iframe 버스트;x-frame-options;x 프레임 옵션;교차 원본;교차 원본 문제;인증 워크플로우
-description: Adobe Experience Composer - VEC(시각적 경험 작성기), 양식 기반 경험 작성기 및 단일 페이지 시각적 경험 작성기에 대해 자세히 알아보십시오.
-title: 어떤 경험 작성기가 [!DNL Target] 제안?
+keywords: 경험;시각적 경험 작성기;고급 경험 작성기;양식 기반 경험 작성기;양식 작성기;시각적 작성기;경험 작성기;혼합 컨텐츠;iframe;iframe 버스팅;iframe 버스트;x-frame-options;x 프레임 선택 사항;교차 원본;교차 원본 문제;인증 워크플로
+description: Adobe 경험 작성기 - 시각적 경험 작성기(VEC), 양식 기반 경험 작성기 및 단일 페이지 시각적 경험 작성기에 대해 자세히 알아보십시오.
+title: 어떤 경험 작성기가 [!DNL Target] 오퍼?
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

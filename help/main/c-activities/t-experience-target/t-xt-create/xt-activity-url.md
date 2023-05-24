@@ -1,7 +1,7 @@
 ---
 keywords: 경험 타깃팅;xt;활동 url;url
-description: 테스트에 사용되는 페이지를 결정하고 Adobe Target을 사용하여 경험 타깃팅 활동을 디자인할 때 열리는 활동 URL을 지정하는 방법을 알아봅니다.
-title: Xt(경험 타깃팅) 활동에서 활동 URL은 무엇입니까?
+description: 테스트에 사용되는 페이지를 결정하며 Adobe Target을 사용하여 경험 타깃팅 활동을 디자인할 때 열리는 활동 URL을 지정하는 방법을 알아봅니다.
+title: XT(경험 타깃팅) 활동의 활동 URL이란 무엇입니까?
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
@@ -11,9 +11,9 @@ ht-degree: 63%
 
 ---
 
-# XT(경험 타깃팅) 활동의 활동 URL
+# XT(경험 타기팅) 활동의 활동 URL
 
-다음 [!UICONTROL 활동 URL] 는 다음에서 사용되는 페이지를 결정합니다 [!DNL Adobe Target] [!UICONTROL 경험 타깃팅] (XT) 활동 및에서 열립니다. [!UICONTROL 시각적 경험 작성기] (VEC) 또는 [!UICONTROL 양식 기반 경험 작성기] 활동을 디자인할 때.
+다음 [!UICONTROL 활동 URL] 는에서 사용되는 페이지를 결정합니다. [!DNL Adobe Target] [!UICONTROL 경험 타기팅] (XT) 활동이며 [!UICONTROL 시각적 경험 작성기] (VEC) 또는 [!UICONTROL 양식 기반 경험 작성기] 활동을 디자인할 때입니다.
 
 1. [XT 활동을 만드는](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 동안 메시지가 표시되면 활동 URL을 지정합니다. 전체 URL(`https://` 포함)을 입력하고 **[!UICONTROL 활동 만들기]**&#x200B;를 클릭합니다.
 

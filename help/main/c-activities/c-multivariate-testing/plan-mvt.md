@@ -1,7 +1,7 @@
 ---
 keywords: 다변량 테스트;mvt;mvt 계획;다변량 테스트 계획
-description: Adobe에서 다변량 테스트를 계획하는 방법을 알아봅니다 [!DNL Target] 성공적인 테스트를 만들 수 있습니다.
-title: 다변량 테스트를 계획하려면 어떻게 합니까?
+description: Adobe에서 다변량 테스트를 계획하는 방법을 알아봅니다. [!DNL Target] 성공적인 테스트를 만들 수 있습니다.
+title: 다변량 테스트를 계획하려면 어떻게 해야 합니까?
 feature: Multivariate Tests
 exl-id: 130718d5-7bd9-4b1a-b81a-7a146f0ffd0d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839

@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1667'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -165,7 +165,7 @@ VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (�
 
 다음 옵션을 사용하여 추가 템플릿 규칙을 포함할 수 있습니다.
 
-### 옵션 1: URL을 복제하고 &quot;포함&quot; 옵션을 사용하여 템플릿 규칙에 유지합니다.
+### 옵션 1: URL을 복제하고 &quot;포함&quot; 옵션을 사용하여 템플릿 규칙에 URL을 유지합니다.
 
 이 옵션을 사용하면 이 URL이 활동에 적합하지만, 기본 URL이 포함된 URL에 대한 추가 레코드가 있는 보고 데이터에 영향을 줄 수 있는 특별한 경우가 첨부되어 있다는 점에 유의하십시오.
 
@@ -187,9 +187,9 @@ VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (�
 
 ![URL의 특정 부분을 활용하는 템플릿 규칙](assets/option3.png)
 
-## 큰따옴표 이스케이프 처리 [!DNL Target] 프로필 속성 값이 예상대로 작동하지 않습니다. {#escape}
+## 에서 큰따옴표 이스케이프 처리 [!DNL Target] 프로필 속성 값이 예상대로 작동하지 않습니다. {#escape}
 
-큰따옴표가 포함된 값을 [!DNL Target] 프로필 속성에는 아래에 표시된 대로 두 번 이스케이프해야 합니다.
+큰따옴표가 포함된 값을 보낼 때 [!DNL Target] 프로필 속성에서 아래 표시된 대로 두 번 이스케이프 처리해야 합니다.
 
 ```
 adobe.target.trackEvent({

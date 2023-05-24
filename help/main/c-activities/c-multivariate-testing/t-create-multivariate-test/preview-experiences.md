@@ -1,7 +1,7 @@
 ---
 keywords: 다변량;mvt;미리 보기;경험
-description: Adobe의 MVT(다변량 테스트) 활동에서 각 경험을 미리 보는 방법을 알아봅니다 [!DNL Target] 시각적 경험 작성기(VEC) 사용.
-title: MVT(다변량 테스트)에 대한 경험을 미리 보는 방법
+description: Adobe의 MVT(다변량 테스트) 활동에서 각 경험을 미리 보는 방법에 대해 알아봅니다 [!DNL Target] 시각적 경험 작성기(VEC) 사용.
+title: 다변량 테스트(MVT)에 대한 경험을 미리 보려면 어떻게 해야 합니까?
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
@@ -13,7 +13,7 @@ ht-degree: 67%
 
 # 다변량 테스트에 대한 경험 미리보기
 
-왜냐면 [!UICONTROL 다변량 테스트] in [!DNL Adobe Target] 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
+이유: [!UICONTROL 다변량 테스트] 위치: [!DNL Adobe Target] 페이지의 여러 경험을 비교합니다. 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 
 1. VEC(시각적 경험 작성기)에서 **[!UICONTROL 미리 보기]**.
 

@@ -5,7 +5,7 @@ title: ' [!DNL Target]  및 기타  [!DNL Adobe] 제품의 상태를 볼 수 있
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
 source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '317'
 ht-degree: 100%
 

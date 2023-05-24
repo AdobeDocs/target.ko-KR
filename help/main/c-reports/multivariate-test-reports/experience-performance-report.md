@@ -1,7 +1,7 @@
 ---
 keywords: 다변량 테스트;mvt;경험 성과 보고서
-description: Adobe에 경험 성과 보고서를 사용하는 방법을 알아봅니다 [!DNL Target] 활동의 각 경험이 수행되는 방식을 보여주는 경험 타깃팅 활동.
-title: 다변량 테스트에 경험 성과 보고서를 사용하려면 어떻게 합니까?
+description: Adobe을 위해 경험 성과 보고서를 사용하는 방법을 알아봅니다 [!DNL Target] 활동의 각 경험이 수행되는 방식을 보여 주는 경험 타깃팅 활동.
+title: 다변량 테스트에 경험 성과 보고서를 사용하려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 source-git-commit: 79d51e39b733ee13270f924912251e45c8597917

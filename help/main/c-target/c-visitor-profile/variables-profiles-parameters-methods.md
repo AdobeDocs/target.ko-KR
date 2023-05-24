@@ -1,7 +1,7 @@
 ---
 keywords: 변수;프로필;매개 변수;내장 프로필;메서드;URL 변수;지역 프로필;타사 프로필;mbox 변수;캠페인 변수;고객 속성
 description: Adobe Target의 프로필 스크립트에 유용한 다양한 프로필, 변수 및 매개 변수 목록을 봅니다.
-title: 사용할 프로필, 변수 및 매개 변수 [!DNL Target]?
+title: 어떤 프로필, 변수 및 매개 변수가 [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
@@ -29,7 +29,7 @@ ht-degree: 78%
 | user.daysSinceLastVisit |  |
 | user.browser | 사용자 에이전트 |
 | user.header | mbox 요청 헤더 데이터의 모든 `user.header` 프로필이 내장되어 있습니다. |
-| user.header(&#39;x-forwarded-for&#39;) | 방문자가 켜져 있는 네트워크 연결의 공개 IP 주소입니다.<br>예를 들어 [whatismyip.com](https://www.whatismyip.com/)/과 같은 여러 가지 방법으로 주소를 얻을 수 있습니다. IP 주소는 10., 192.168. 또는 172.으로 시작하는 NAT 주소(내부 주소)가 아닙니다.<br>참고: user.header(&#39;x-cluster-client-ip&#39;)가 더 이상 사용되지 않습니다. |
+| user.header(&#39;x-forwarded-for&#39;) | 방문자가 켜져 있는 네트워크 연결의 공개 IP 주소입니다.<br>예를 들어 [whatismyip.com](https://www.whatismyip.com/)/과 같은 여러 가지 방법으로 주소를 얻을 수 있습니다. IP 주소는 10., 192.168. 또는 172.으로 시작하는 NAT 주소(내부 주소)가 아닙니다.<br>참고: user.header(&#39;x-cluster-client-ip&#39;)는 더 이상 사용되지 않습니다. |
 | user.header(&#39;host&#39;) | 웹 사이트 호스트 이름 |
 | user.header(&#39;cookie&#39;) | 방문자 쿠키 데이터 |
 | user.header(&#39;user-agent&#39;) | 방문자 브라우저 사용자-에이전트 |
@@ -38,11 +38,11 @@ ht-degree: 78%
 | user.header(&#39;accept&#39;) | 방문자 언어 및 문자 인코딩 |
 | user.header(&#39;connection&#39;) | 서버 연결. 예: keep-live |
 | user.header(&#39;referrer&#39;) | 방문자 현재 페이지의 웹 사이트 URL. Internet Explorer에 대해 작동하지 않습니다. |
-| user.getLocal(&#39;param_name&#39;); | 를 사용하여 설정한 값을 검색합니다 `user.setLocal`. |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | 프로필 스크립트 내에 지속적인 프로필 값을 만듭니다. 이러한 값은 프로필 스크립트처럼 지속되지만 설정된 스크립트 내에서만 액세스할 수 있습니다. |
+| user.getLocal(&#39;param_name&#39;); | 를 사용하여 설정한 값 검색 `user.setLocal`. |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;) | 프로필 스크립트 내에 지속 프로필 값을 만듭니다. 이러한 값은 프로필 스크립트처럼 유지되지만 설정된 스크립트 내에서만 액세스할 수 있습니다. |
 | user.get(&#39;param_name&#39;) |  |
-| user.parameter | 프로필 스크립트에서 만든 지속적 프로필 속성입니다. 지리적 위치, 방문 횟수 등과 같은 &quot;시스템&quot; 프로필을 참조합니다. |
-| profile.get(&#39;param_name&#39;) | 프로필 스크립트에서 사용할 프로필 매개 변수를 가져오는 올바른 방법은 profile.get(&#39;param_name&#39;) 메서드입니다. |
+| user.parameter | 프로필 스크립트에서 만든 지속적 프로필 속성입니다. 또한 지리적 위치, 방문 수 등과 같은 &quot;시스템&quot; 프로필을 참조합니다. |
+| profile.get(&#39;param_name&#39;) | 프로필 스크립트에 사용할 프로필 매개 변수를 가져오는 올바른 방법은 profile.get(&#39;param_name&#39;) 메서드입니다. |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | profile.  prefix로 인해 영구적으로 지정되는 Mbox 매개 변수입니다. |
 | profile.browserTime | 방문자의 로컬 브라우저 시간. 시스템 시간의 경우 프로필 스크립트에서 새로운 날짜 개체를 만듭니다. |
@@ -91,4 +91,4 @@ ht-degree: 78%
 
 고객 속성이 `crs.get('<Datasource Name>.<Attribute name>')`.
 
-이러한 속성이 프로필 스크립트에서 토큰으로 사용되거나 프로필 스크립트가 없어도 오퍼에서 직접 토큰으로 사용될 수도 있습니다. 토큰은 `${crs.datasourceName.attributeName}` 형식이어야 합니다. 의 공백은 `datasourceName` 는 모든 API 호출에서 제거되어야 합니다.
+이러한 속성이 프로필 스크립트에서 토큰으로 사용되거나 프로필 스크립트가 없어도 오퍼에서 직접 토큰으로 사용될 수도 있습니다. 토큰은 `${crs.datasourceName.attributeName}` 형식이어야 합니다. 의 공백은 `datasourceName` 는 모든 API 호출에서 제거됩니다.

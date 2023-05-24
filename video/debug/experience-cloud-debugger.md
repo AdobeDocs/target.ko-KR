@@ -4,7 +4,7 @@ description: Adobe Experience Cloud Debugger를 사용하여 Adobe [!DNL Target]
 title: Adobe Experience Cloud Debugger를 사용하여 [!DNL Target] 디버그
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '71'
 ht-degree: 100%
 

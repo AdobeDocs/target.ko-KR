@@ -5,7 +5,7 @@ title: Analytics 및 [!DNL Target] 통합 문제를 해결하는 방법(A4T)
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '960'
 ht-degree: 100%
 

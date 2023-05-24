@@ -1,6 +1,6 @@
 ---
 keywords: Experience Cloud;로그인;언어;기본 ui 언어;기본 언어
-description: 액세스 방법 알아보기 [!DNL Target] Adobe Experience Cloud에서 기본 보기를 설정하고, [!DNL Target] UI 및 설명서.
+description: 액세스 방법 알아보기 [!DNL Target] Adobe Experience Cloud에서 기본 보기를 설정하고 의 언어를 변경합니다. [!DNL Target] UI 및 설명서.
 title: Adobe Experience Cloud에서  [!DNL Target] 에 액세스하려면 어떻게 합니까?
 feature: Overview
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
