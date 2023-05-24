@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cf7af568f270f97868107032897cd4fdd8e45131
+source-git-commit: e4029b203ad4d7c1ea12ba04f72628b272703973
 workflow-type: tm+mt
-source-wordcount: '2783'
+source-wordcount: '2798'
 ht-degree: 98%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 98%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 5월 22일 | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs)과 통합 | 다음과 같은 새로운 비디오가 추가되었습니다.<ul><li>구성 [!DNL Adobe Target] 대상 위치: [!DNL Real-Time Customer Data Platform]</li><li>세그먼트 및 프로필 속성 활성화</li><li>사용 [!DNL Real-Time CDP] 의 세그먼트 [!DNL Target]</li><li>사용 [!DNL Real-Time CDP] 의 프로필 속성 [!DNL Adobe Target]</li></ul> |
+|  | [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 중요 참고 사항이 업데이트되었습니다. |
 | 5월 19일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 향후 릴리스에 대한 프리릴리스 정보가 업데이트되었습니다. |
 | 5월 17일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 5월 24일 수요일에 [!UICONTROL Adobe Target 커뮤니티] Q&amp;A 커피 브레이크에 대한 정보가 추가되었습니다. |
 | 5월 16일 | [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md) | `entity.id` 값에서 “공백”이 허용되지 않는다는 메시지가 표시됩니다. |
