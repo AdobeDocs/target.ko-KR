@@ -20,8 +20,8 @@ ht-degree: 98%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 5월 22일 | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs)과 통합 | 다음과 같은 새로운 비디오가 추가되었습니다.<ul><li>구성 [!DNL Adobe Target] 대상 위치: [!DNL Real-Time Customer Data Platform]</li><li>세그먼트 및 프로필 속성 활성화</li><li>사용 [!DNL Real-Time CDP] 의 세그먼트 [!DNL Target]</li><li>사용 [!DNL Real-Time CDP] 의 프로필 속성 [!DNL Adobe Target]</li></ul> |
-| 5월 19일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 예정된 릴리스에 대한 프리릴리스 정보가 업데이트되었습니다. |
-| 5월 17일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 에 대한 정보가 추가되었습니다. [!UICONTROL Adobe Target 커뮤니티] 2023년 5월 24일 수요일에 Q&amp;A 커피 브레이크. |
+| 5월 19일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 향후 릴리스에 대한 프리릴리스 정보가 업데이트되었습니다. |
+| 5월 17일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 5월 24일 수요일에 [!UICONTROL Adobe Target 커뮤니티] Q&amp;A 커피 브레이크에 대한 정보가 추가되었습니다. |
 | 5월 16일 | [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md) | `entity.id` 값에서 “공백”이 허용되지 않는다는 메시지가 표시됩니다. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank} | `viewsEnabled` 설명이 업데이트되었습니다. |
 |  | [단일 페이지 애플리케이션 구현](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html){target=_blank} | 다음과 같이 업데이트되었습니다.<ul><li>“Adobe Target 보기 구현” 아래의 2단계 이후에 메모가 추가되었습니다.</li><li>“초기 페이지 로드 작업 순서”에서 2단계 “Target 요청 실행”이 업데이트되었습니다.</li></ul> |
@@ -73,7 +73,7 @@ ht-degree: 98%
 |  | [Target에서 대상자 빌드](/help/main/c-target/c-audiences/create-audience.md) | 대상자 이름에 사용할 수 없는 문자 및 문자 시퀀스의 목록이 추가되었습니다. |
 | 1월 31일 | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | mbox 이름에 대해 허용되는 문자 및 허용되지 않는 문자의 목록이 추가되었습니다. |
 | 1월 25일 | [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md) | 이제 양식 기반 경험 작성기를 사용하여 [!UICONTROL Automated Personalization] (AP) 활동에서 JSON 오퍼에 대한 지원을 이용할 수 있습니다. |
-|  | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크: 경험 최적화를 위한 모바일 및 인증된 사용 사례</li></ul> |
+|  | [Adobe Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target] 커뮤니티 Q&amp;A Coffee Break: 경험 최적화를 위한 모바일 및 인증된 사용 사례</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.13.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.10.1 (순차적 공개, 2022년 10월 10~13일)

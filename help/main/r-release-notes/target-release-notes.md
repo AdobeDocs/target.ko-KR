@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
 workflow-type: tm+mt
 source-wordcount: '549'
-ht-degree: 52%
+ht-degree: 73%
 
 ---
 
@@ -27,7 +27,9 @@ ht-degree: 52%
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
-5월 23일: 유럽, 중동 및 아프리카(EMEA) 지역 5월 24일: 아시아 태평양(APAC) 지역 5월 25일: 아메리카 지역
+5월 23일: 유럽, 중동 및 아프리카(EMEA) 지역
+5월 24일: 아시아 태평양(APAC) 지역
+5월 25일: 아메리카 지역
 
 이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
 
@@ -35,17 +37,17 @@ ht-degree: 52%
 |--- |--- |
 | [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오. |
 
-* 특정 고객이 &quot;보다 큼&quot; 또는 &quot;보다 작음&quot; 연산자를 사용하여 방문자 프로필로 대상을 만들 수 없는 문제를 해결했습니다. (TGT-45271)
+* 특정 고객이 “다음보다 큼” 또는 “다음보다 작음” 연산자를 사용하여 방문자 프로필로 대상자를 만들 수 없는 문제가 해결되었습니다. (TGT-45271)
 * [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
 * 예정된 UI 새로 고침을 위해 다양한 위치에서 Target UI가 업데이트되었습니다(업데이트가 릴리스될 때까지 변경 사항은 기능 플래그 뒤에 있음).
 
-## [!DNL Target] Standard/Premium 23.5.2(2023년 5월 31일)
+## [!DNL Target] Standard/Premium 23.5.2 (2023년 5월 31일)
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 프로필 API 인증 토큰을 생성하는 동안 빈 페이지가 표시되는 문제를 해결했습니다. (TGT-45387)
-* 에서 이미지가 표시되지 않던 문제를 수정했습니다 [!UICONTROL 디자인 만들기] 패널 - 이미지 이름에 GB 18030 문자가 포함된 경우 (TGT-44614)
-* 에 대한 보고서를 발생시킨 문제가 해결되었습니다. [!UICONTROL 자동 개인화] 분석 중에 동결할 활동. (TGT-44820)
+* 프로필 API 인증 토큰을 생성하는 동안 빈 페이지가 표시되는 문제가 해결되었습니다. (TGT-45387)
+* 이미지 이름에 GB 18030 문자가 포함된 경우 [!UICONTROL 디자인 만들기] 패널에 이미지를 표시할 수 없는 문제가 해결되었습니다. (TGT-44614)
+* 분석 중에 [!UICONTROL 자동 개인화] 활동에 대한 보고서가 정지되는 문제가 해결되었습니다. (TGT-44820)
 * 특정 고객에 대한 기본 작업 영역의 Target UI에 활동이 표시되지 않는 문제를 해결했습니다. (TGT-45286)
 * &quot;중복 허용 안 함&quot; 플래그의 동작이 업데이트되었습니다. 제외된 반복 오퍼 플래그는 기본 콘텐츠 오퍼인 경우 반복 오퍼를 허용하도록 업데이트되고(API v3, v4의 경우), 옵션이 기본 콘텐츠 오퍼를 참조하고 템플릿이 정의되지 않은 경우 중복 옵션을 허용합니다. (TNT-46617)
 * URL에 쿼리 매개 변수가 추가되어 페이지를 VEC(시각적 경험 작성기)에서 로드할 수 없는 문제를 해결했습니다. (TGT-44873)
@@ -57,7 +59,7 @@ ht-degree: 52%
 
 | 기능 | 세부 사항 |
 |--- |--- |
-| [!UICONTROL QA 모드] 대상 [!UICONTROL Automated Personalization] 활동 | [!DNL Adobe Target] [!UICONTROL QA 모드] 은(는) 현재 다음에 대해 사용할 수 있습니다. [!UICONTROL Automated Personalization] 활동, 바꾸기 [!UICONTROL 링크 미리보기] 기능.<P>자세한 내용은 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)를 참조하십시오. |
+| [!UICONTROL Automated Personalization] 활동을 위한 [!UICONTROL QA 모드] | 이제 [!UICONTROL Automated Personalization] 활동에서 [!UICONTROL 링크 미리 보기] 기능을 대체하는 [!DNL Adobe Target] [!UICONTROL QA 모드]를 사용할 수 있습니다.<P>자세한 내용은 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)를 참조하십시오. |
 
 * 중복 기능을 허용하지 않도록 성능이 향상되었습니다(로드 시간 감소 포함). [제외 관리](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) 위치: [!UICONTROL Automated Personalization] 활동.
 
