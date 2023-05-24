@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e4029b203ad4d7c1ea12ba04f72628b272703973
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '2798'
+source-wordcount: '2839'
 ht-degree: 98%
 
 ---
@@ -14,6 +14,14 @@ ht-degree: 98%
 # 설명서 변경 내용
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
+
+## [!DNL Target] Standard/Premium 23.5.1 (2023년 5월 23~25일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 5월 23일 | [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | 중요 참고 사항이 업데이트되었습니다. |
+|  | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 향후 릴리스에 대한 프리릴리스 정보가 업데이트되었습니다. |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 23.4.1 (2023년 4월 25~27일)
 

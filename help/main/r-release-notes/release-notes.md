@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 241ebc7af24ad17705b437e620a9c91f983bc4ad
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '449'
-ht-degree: 100%
+source-wordcount: '396'
+ht-degree: 91%
 
 ---
 
@@ -19,14 +19,19 @@ ht-degree: 100%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target] Standard/Premium 23.4.1 (2023년 4월 25~27일)
+## [!DNL Target] Standard/Premium 23.5.1 (2023년 5월 23~25일)
 
-이번 릴리스에는 보안 업데이트 및 다음과 같은 새로운 기능이 포함됩니다.
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
-| 기능 | 세부 사항 |
-|--- |--- |
-| Headless 개인화 및 실험을 위한 AEM [!UICONTROL 콘텐츠 조각] | [!DNL Target] 활동에서 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용합니다. AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능과 결합하여 headless 개인화와 실험을 지원할 수 있습니다.<P>자세한 내용은 [AEM [!UICONTROL 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)을 참조하십시오. |
-| [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 개발자 안내서* 가 *[!UICONTROL Adobe Experience League]*&#x200B;로 재배치되었습니다. *[!UICONTROL Experience League]* 로의 이동을 통해 보다 간편하게 텍스트를 추가 언어로 현지화할 수 있으며, *Experience League* 내에서 검색이 통합되어 *[!UICONTROL Adobe Target 비즈니스 실무자 안내서]* 및 *[!UICONTROL Adobe Target 개발자 안내서]*&#x200B;의 검색 결과가 제공되고, 추가적인 이점이 제공됩니다.<P>이전 위치에서 *[!UICONTROL Experience League]* 로 자동 리디렉션됩니다. 필요에 따라 책갈피를 업데이트하십시오. |
+5월 23일: 유럽, 중동 및 아프리카(EMEA) 지역
+5월 24일: 아시아 태평양(APAC) 지역
+5월 25일: 아메리카 지역
+
+이번 릴리스에는 다음과 같은 새로운 개선 사항 및 수정 사항이 포함되어 있습니다.
+
+* 특정 고객이 “다음보다 큼” 또는 “다음보다 작음” 연산자를 사용하여 방문자 프로필로 대상자를 만들 수 없는 문제가 해결되었습니다. (TGT-45271)
+* [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
+* 예정된 UI 새로 고침을 위해 다양한 위치에서 Target UI가 업데이트되었습니다(업데이트가 릴리스될 때까지 변경 사항은 기능 플래그 뒤에 있음).
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

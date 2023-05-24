@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f44514c0b5ab643dec35aa230e46b88428f9e42b
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '549'
-ht-degree: 73%
+source-wordcount: '457'
+ht-degree: 72%
 
 ---
 
@@ -15,31 +15,13 @@ ht-degree: 73%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2023년 5월 22일**
+**마지막 업데이트 날짜: 2023년 5월 24일**
 
 >[!NOTE]
 >
 >릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
-
-## [!DNL Target] Standard/Premium 23.5.1 (2023년 5월 23~25일)
-
-이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
-
-5월 23일: 유럽, 중동 및 아프리카(EMEA) 지역
-5월 24일: 아시아 태평양(APAC) 지역
-5월 25일: 아메리카 지역
-
-이번 릴리스에는 다음과 같은 새로운 기능, 개선 및 수정 사항이 포함되었습니다.
-
-| 기능 | 세부 사항 |
-|--- |--- |
-| [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오. |
-
-* 특정 고객이 “다음보다 큼” 또는 “다음보다 작음” 연산자를 사용하여 방문자 프로필로 대상자를 만들 수 없는 문제가 해결되었습니다. (TGT-45271)
-* [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
-* 예정된 UI 새로 고침을 위해 다양한 위치에서 Target UI가 업데이트되었습니다(업데이트가 릴리스될 때까지 변경 사항은 기능 플래그 뒤에 있음).
 
 ## [!DNL Target] Standard/Premium 23.5.2 (2023년 5월 31일)
 
@@ -60,6 +42,7 @@ ht-degree: 73%
 | 기능 | 세부 사항 |
 |--- |--- |
 | [!UICONTROL Automated Personalization] 활동을 위한 [!UICONTROL QA 모드] | 이제 [!UICONTROL Automated Personalization] 활동에서 [!UICONTROL 링크 미리 보기] 기능을 대체하는 [!DNL Adobe Target] [!UICONTROL QA 모드]를 사용할 수 있습니다.<P>자세한 내용은 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)를 참조하십시오. |
+| [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오. |
 
 * 중복 기능을 허용하지 않도록 성능이 향상되었습니다(로드 시간 감소 포함). [제외 관리](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037) 위치: [!UICONTROL Automated Personalization] 활동.
 

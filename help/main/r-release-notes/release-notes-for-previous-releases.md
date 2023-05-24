@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
+source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
 workflow-type: tm+mt
-source-wordcount: '36438'
+source-wordcount: '36580'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,15 @@ ht-degree: 96%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2023
+
+### [!DNL Target] Standard/Premium 23.4.1 (2023년 4월 25~27일)
+
+이번 릴리스에는 보안 업데이트 및 다음과 같은 새로운 기능이 포함됩니다.
+
+| 기능 | 세부 사항 |
+|--- |--- |
+| Headless 개인화 및 실험을 위한 AEM [!UICONTROL 콘텐츠 조각] | [!DNL Target] 활동에서 [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용합니다. AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능과 결합하여 headless 개인화와 실험을 지원할 수 있습니다.<P>자세한 내용은 [AEM [!UICONTROL 콘텐츠 조각]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)을 참조하십시오. |
+| [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 개발자 안내서* 가 *[!UICONTROL Adobe Experience League]*&#x200B;로 재배치되었습니다. *[!UICONTROL Experience League]* 로의 이동을 통해 보다 간편하게 텍스트를 추가 언어로 현지화할 수 있으며, *Experience League* 내에서 검색이 통합되어 *[!UICONTROL Adobe Target 비즈니스 실무자 안내서]* 및 *[!UICONTROL Adobe Target 개발자 안내서]*&#x200B;의 검색 결과가 제공되고, 추가적인 이점이 제공됩니다.<P>이전 위치에서 *[!UICONTROL Experience League]* 로 자동 리디렉션됩니다. 필요에 따라 책갈피를 업데이트하십시오. |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (2023년 3월 28~30일)
 
