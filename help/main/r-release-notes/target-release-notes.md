@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: ecdb94a679e033d3ec030513fd66c9eea039195b
+source-git-commit: 2e6efe777925eb14e280ea38110dc1cb12264d17
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '281'
 ht-degree: 100%
 
 ---
@@ -22,18 +22,6 @@ ht-degree: 100%
 >릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
-
-## [!DNL Target] Standard/Premium 23.5.2 (2023년 5월 31일)
-
-이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
-
-* 프로필 API 인증 토큰을 생성하는 동안 빈 페이지가 표시되는 문제가 해결되었습니다. (TGT-45387)
-* 이미지 이름에 GB 18030 문자가 포함된 경우 [!UICONTROL 디자인 만들기] 패널에 이미지를 표시할 수 없는 문제가 해결되었습니다. (TGT-44614)
-* 분석 중에 [!UICONTROL 자동 개인화] 활동에 대한 보고서가 정지되는 문제가 해결되었습니다. (TGT-44820)
-* 특정 고객의 기본 작업 영역에 대한 Target UI에 활동이 표시되지 않는 문제가 해결되었습니다. (TGT-45286)
-* “중복 허용 안 함” 플래그의 비헤이비어가 업데이트되었습니다. 제외된 반복 오퍼 플래그가 기본 콘텐츠 오퍼(API v3, v4의 경우)인 경우 반복 오퍼를 허용하고, 옵션이 기본 콘텐츠 오퍼를 참조하고 정의된 템플릿이 없는 경우에는 중복 옵션을 허용하도록 업데이트되었습니다. (TNT-46617)
-* VEC(Visual Experience Composer)에서 페이지가 로드되지 않도록 하는 URL에 쿼리 매개변수가 추가되는 문제가 해결되었습니다. (TGT-44873)
-* 경험의 텍스트/HTML에서 일부 문자가 잘못 이스케이프되는 문제가 해결되었습니다. (TGT-44600)
 
 ## [!DNL Target] Standard/Premium 23.5.3 (날짜 미정)
 
