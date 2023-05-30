@@ -4,7 +4,7 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
+source-git-commit: 08acd374a76dca61b37c2dc26bf5446170b0eea2
 workflow-type: tm+mt
 source-wordcount: '1889'
 ht-degree: 92%
@@ -31,7 +31,7 @@ ht-degree: 92%
 
 * **2023년 6월 21일 수요일**
 * **8:00-9:오전 00시 (PDT, UTC-7)**
-* **[추가 정보]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+* **[추가 정보](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
 
 우리는 Adobe Target 전문가들, Ramon Cespedes와 Kevin Jemison과 함께 할 것입니다. 이 AMA(Ask Me Anything) 이벤트에서 전문가는 로그인하고 최근 5/24 웨비나에서 다룬 주제와 관련된 질문에 답변할 수 있는 준비가 됩니다. [개인화를 통한 성장을 이끄는 여정](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
