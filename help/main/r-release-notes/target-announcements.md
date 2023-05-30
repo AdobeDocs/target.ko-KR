@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b92ac8d60707107564f18413cefd6faa9f3980eb
+source-git-commit: ccdb075b47c0897e658155fef6834c344f8e7597
 workflow-type: tm+mt
-source-wordcount: '1850'
-ht-degree: 100%
+source-wordcount: '1889'
+ht-degree: 92%
 
 ---
 
@@ -15,15 +15,25 @@ ht-degree: 100%
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
-## [!UICONTROL Adobe Target 커뮤니티] Q&amp;A 커피 브레이크
+## [!UICONTROL Adobe Target 커뮤니티] Q&amp;A Coffee Break
 
-* **2023년 5월 24일 수요일**
-* 오전 **8:00-9:시 (PDT, UTC -7)**
-* **[등록 정보](https://adobe.ly/3BgfeZZ){target=_blank}**
+예정된 Coffee Break에 대한 정보:
 
-[Adobe Target 커뮤니티](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target){target=_blank}에 로그인하여 [!DNL Target] @ [!UICONTROL Adobe Summit] 2023과 관련된 [!DNL Adobe Target] 질문에 대해 이 스레드에서 직접 채팅할 수 있도록 [!UICONTROL Adobe Target 컨설팅] 팀의 Ryan Roberts, Gentry Lin 및 Ryan Pizzuto와 [!UICONTROL Adobe 기술 지원 엔지니어링] 팀의 Mihnea Docea가 합류할 예정입니다.
+### [!DNL Adobe Target Recommendations] 휴식 시간
 
-[온디맨드 Adobe Target Summit 세션 녹화본](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/session-videos-adobe-summit-mar-21-23-2023-complete-adobe-target/td-p/569706){target=_blank}을 미리 검토하여 이 채팅에 후속 질문을 가져올 수 있습니다.
+* **2023년 6월 7일 수요일**
+* **8:00-9:오전 00시 (PDT, UTC-7)**
+* **[추가 정보](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+
+함께 하겠습니다. [!DNL Adobe Target] 전문가: 빌 오징가, 존 모스보, 저스틴 패트릭, 그리고 에릭 티보. 이 AMA(Ask Me Anything) 이벤트에서 전문가는 로그인하고 와 관련된 모든 질문에 답변할 수 있습니다. [!DNL Target Recommendations] 기능.
+
+### 개인화 프로그램 준비 웨비나 후속 내용
+
+* **2023년 6월 21일 수요일**
+* **8:00-9:오전 00시 (PDT, UTC-7)**
+* **[추가 정보]https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
+
+우리는 Adobe Target 전문가들, Ramon Cespedes와 Kevin Jemison과 함께 할 것입니다. 이 AMA(Ask Me Anything) 이벤트에서 전문가는 로그인하고 최근 5/24 웨비나에서 다룬 주제와 관련된 질문에 답변할 수 있는 준비가 됩니다. [개인화를 통한 성장을 이끄는 여정](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank}.
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
