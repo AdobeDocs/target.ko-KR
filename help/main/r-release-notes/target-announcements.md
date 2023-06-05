@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1b2a8db76d6bef231c5086d8afdbdb9556e3ff55
+source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
 workflow-type: tm+mt
-source-wordcount: '1989'
-ht-degree: 87%
+source-wordcount: '2159'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 87%
 
 * **2023년 6월 7일 수요일**
 * **8:00-9:오전 00시 (PDT, UTC-7)**
-* **[추가 정보](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ec-p/595749#M7){target=_blank}**
+* **[추가 정보](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
 
 함께 하겠습니다. [!DNL Adobe Target] 전문가: 빌 오징가, 존 모스보, 저스틴 패트릭, 그리고 에릭 티보. 이 AMA(Ask Me Anything) 이벤트에서 전문가는 로그인하고 와 관련된 모든 질문에 답변할 수 있습니다. [!DNL Target Recommendations] 기능.
 
@@ -44,6 +44,21 @@ ht-degree: 87%
 ## 과거 웨비나 및 스킬 빌더 세션 녹화
 
 이전 이벤트의 녹화분 액세스(가능한 경우):
+
+### 인증된 환경을 위한 모바일 경험 최적화 및 개인화(2023년 4월 26일)
+
+브랜드는 특정 고객의 필요 사항과 행동을 기반으로 고도로 개인화되고 관련성 높은 경험을 제공해야 합니다. 마케팅 기술에서 쿠키 없는 미래에 대한 의문이 제기되면서 규제를 받는 업계는 보다 강력한 고객 참여 프레임워크를 채택하는 동시에 각 고객 상호 작용을 최적화하여 적절한 콘텐츠와 서비스를 제공하고자 합니다.
+
+금융 서비스, 보험, 소매, 여행 및 숙박, 통신 산업 전반의 브랜드가 인증된 환경 내에서 최적화 및 개인화를 위한 모범 사례를 어떻게 채택할 수 있습니까? 충성 고객의 참여 및 유지를 위한 모바일 앱의 중요성을 이해하고 브랜드가 디지털 셀프서비스를 활성화하거나 개인화된 경험을 통해 새로운 기능 채택을 늘릴 수 있는 방법은 무엇입니까?
+
+이 세션에서는 다음에 대해 논의하여 [!DNL Adobe Target] 및 [!DNL Real-Time CDP]을 통해 규제 산업 내에서 참여, 매출 및 고객 충성도를 높이는 방법에 대해 알아보겠습니다.
+
+* 팀이 익명의 방문자와 인증된 방문자 모두에게 개인화된 경험을 제공하는 방법
+* 개인화를 통한 소비자 권한 및 개인 정보 보호 표준 이해
+* 익명 ID를 통해 인증된 방문자에게 개인화된 콘텐츠 및 맞춤형 오퍼 제공
+* 웹 및 모바일 전반에 걸쳐 인증된 안전한 사이트에 대한 고유한 사용 사례
+
+[녹화 링크](https://video.tv.adobe.com/v/3418987){target=_blank}
 
 ### 개인화를 통한 성장을 이끄는 여정
 
