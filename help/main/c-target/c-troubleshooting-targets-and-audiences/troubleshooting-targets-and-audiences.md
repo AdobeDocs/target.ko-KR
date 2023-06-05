@@ -4,10 +4,10 @@ description: 경험 타깃팅 및 Adobe에 사용된 대상에 대한 FAQ 보기
 title: Target 및 대상자에 대한 질문과 대답은 어디에서 찾을 수 있습니까?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 6df7df69e54730d4c63bd17a33c12484e2bbdc92
 workflow-type: tm+mt
-source-wordcount: '969'
-ht-degree: 62%
+source-wordcount: '962'
+ht-degree: 63%
 
 ---
 
@@ -39,7 +39,7 @@ URL의 대상 타겟팅 외에 쿼리에 있을 수 있는 특정 값을 지정�
 
 다음을 통해 추가된 대상자 URL 타겟팅 및 URL 타겟팅 [!UICONTROL 템플릿 규칙] URL 타겟팅으로 평가합니다(아래 URL 타겟팅 참조).
 
-### URL 타겟팅
+### URL 타겟팅 {#url-targeting}
 
 대상을 만드는 동안 URL 타깃팅을 적용하려면 다음을 클릭하십시오. [!UICONTROL 규칙 추가], 클릭 [!UICONTROL 사이트 페이지]첫 번째 드롭다운 목록에서 옵션을 선택합니다([!UICONTROL 현재 페이지], [!UICONTROL 이전 페이지], 또는 [!UICONTROL 랜딩 페이지]), 선택 [!UICONTROL URL] 두 번째 드롭다운 목록에서 평가기를 지정한 다음 원하는 URL을 지정합니다.
 
@@ -47,11 +47,10 @@ URL의 대상 타겟팅 외에 쿼리에 있을 수 있는 특정 값을 지정�
 
 URL 타겟팅은 URL을 규칙 세트로 변환하여 다음을 평가합니다.
 
-* URL = `example.com/path1?query=something`
-* URL 도메인 = `example.com`
-* 경로 = path1/path2/path3
-* queryStringParam1 = test123
-* queryStringParam2 = test7
+* URL = `example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+* 도메인 = `example.com`
+* 경로 = `path1/path2/path3`
+* 쿼리 = `queryStringParam1=test123&queryStringParam2=test7`
 
 ## 복잡한 URL 문자열을 만들 때 는을 수행합니다 [!DNL Target] 전체 URL을 평가하시겠습니까?
 
