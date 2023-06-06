@@ -4,9 +4,9 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 683f939746dcc91fc534ff3cfb2d1b787e1e9d1b
+source-git-commit: aabe75fd8bc93baf5afa896eb44ec061c5f6a010
 workflow-type: tm+mt
-source-wordcount: '2159'
+source-wordcount: '2155'
 ht-degree: 88%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 88%
 
 * **2023년 6월 7일 수요일**
 * **8:00-9:오전 00시 (PDT, UTC-7)**
-* **[추가 정보](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-7-23-at-recommendations-feature/ev-p/596872){target=_blank}**
+* **[추가 정보](https://shorturl.at/irzD5){target=_blank}**
 
 함께 하겠습니다. [!DNL Adobe Target] 전문가: 빌 오징가, 존 모스보, 저스틴 패트릭, 그리고 에릭 티보. 이 AMA(Ask Me Anything) 이벤트에서 전문가는 로그인하고 와 관련된 모든 질문에 답변할 수 있습니다. [!DNL Target Recommendations] 기능.
 
