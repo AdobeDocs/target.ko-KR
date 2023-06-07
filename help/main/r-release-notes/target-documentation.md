@@ -4,10 +4,10 @@ description: 온라인 도움말, 튜토리얼, 비디오 및 개발자 설명�
 title: ' [!DNL Adobe Target]에 대한 설명서와 리소스는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
+source-git-commit: 6945e762a527f5ca88bb97096aac9e13d042de2c
 workflow-type: tm+mt
-source-wordcount: '463'
-ht-degree: 96%
+source-wordcount: '462'
+ht-degree: 95%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 96%
 | [Target Recommendations API](https://experienceleague.adobe.com/docs/target-dev/developer/api/recommendations-api/overview.html){target=_blank}  | [!DNL Target] 권장 사항 서버와 프로그래밍 방식으로 상호 작용할 수 있는 [!UICONTROL Recommendations] API에 대한 정보입니다. 이러한 API는 일반적으로 [!DNL Target] UI를 통해 이루어지는 기능을 수행하기 위해 애플리케이션 스택의 범위와 통합될 수 있습니다. |
 | [서버 측 배달 API](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}  | Adobe Target 배달 API를 구성하는 리소스에 대한 정보입니다. |
 | [Target 서버측 SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank}  | SDK를 사용하여 서버측에 [!DNL Target] 을 배포하는 방법에 대해 설명합니다. |
-| [Adobe Experience Platform Mobile SDK](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | 모바일 앱에서 [!DNL Target] 구현에 대한 정보입니다. |
+| [Adobe Experience Platform Mobile SDK](https://experienceleague.adobe.com/docs/mobile.html) | 모바일 앱에서 [!DNL Target] 구현에 대한 정보입니다. |
 
 위의 리소스 외에도 [Adobe Experience League Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)를 방문하여 다음과 같은 작업을 수행할 수 있습니다.
 
