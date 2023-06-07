@@ -4,10 +4,10 @@ description: ' [!DNL Target]  기능에 대해 학습하는 데 도움이 되는
 title: Target에 대한 리소스 및 연락처 정보는 어디에서 찾을 수 있습니까?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 98%
+source-wordcount: '1211'
+ht-degree: 96%
 
 ---
 
@@ -64,7 +64,7 @@ Target에 대한 세션 외에 Analytics, Campaign, AEM(Adobe Experience Manager
 
 Target을 사용하는 동안 문제가 발생하거나 질문이 있을 경우, 많은 선택 사항이 있습니다.
 
-질문이 있는 경우 [Experience Cloud 커뮤니티](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target) 에서 Adobe Target 전문가에게 문의하거나 Twitter [@AdobeExpCare](https://twitter.com/adobeexpcare)에서 문의할 수 있습니다.
+질문이 있는 경우 의 Adobe Target 전문가에게 문의하십시오. [Adobe Target 커뮤니티](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} or ask us on [Twitter](https://twitter.com/adobeglobal){target=_blank}.
 
 기술적인 문제가 있거나 버그를 기록하려면 고객 지원 센터에 문의하십시오. 고객 지원 센터에 문의하려면 1-800-497-0335번으로 전화해 주십시오. 미국 외 지역의 무료 전화번호는 [Adobe Digital Marketing 고객 지원 센터 지역 전화번호](https://helpx.adobe.com/kr/contact/dma-external/DMACustomeCareRegionalPhoneNumbers.html) 페이지에서 확인할 수 있습니다. 제품에 대한 옵션을 선택하라는 메시지가 표시되면 3을 눌러 Target 팀으로 연락하십시오.
 
@@ -101,7 +101,7 @@ Target을 사용하는 동안 문제가 발생하거나 질문이 있을 경우,
 Adobe Experience Cloud 고객 지원 센터 팀은 고객 지원을 위해 구성되었으며 고객들이 참여할 수 있는 많은 메커니즘을 제공합니다.
 
 * [Experience Cloud 도움말 페이지에서 조언, 팁 및 FAQ 확인](https://helpx.adobe.com/kr/marketing-cloud.html)
-* [Twitter @AdobeExpCare에서 간단한 질문하기](https://twitter.com/adobeexpcare)
+* 다음에 대한 요청: [Twitter](https://twitter.com/adobeglobal){target=_blank}
 * [지원에서 도움을 받기 위해 티켓 열기](https://experienceleague.adobe.com/?support-solution=Target#support)
 * [고객 지원 팀에 직접 문의](https://helpx.adobe.com/kr/marketing-cloud/contact-support.html)
 * [Experience Cloud 솔루션의 가용성 및 상태 확인](https://status.adobe.com/)
