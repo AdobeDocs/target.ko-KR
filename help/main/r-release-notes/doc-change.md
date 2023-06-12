@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e7157e8c8b8189e0e8c7f12a363b91d300ca259
+source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 96%
+source-wordcount: '1182'
+ht-degree: 94%
 
 ---
 
@@ -20,9 +20,11 @@ ht-degree: 96%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 6월 12일 | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 의 업데이트된 문서 *Experience Cloud 중앙 인터페이스 구성 요소 안내서* 에서 사용한 쿠키 설명 [!DNL Target]. |
+|  | [Java SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | &quot;environment&quot; 매개 변수에 대한 정보가 추가되었습니다. |
+|  | [Python SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | &quot;environment&quot; 매개 변수에 대한 정보가 추가되었습니다. |
 | 6월 5일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트 관련 정보가 업데이트되었습니다.<ul><li>[!DNL Adobe Target Recommendations] 커피 브레이크 등록 링크가 업데이트되었습니다(2023년 6월 7일 수요일).</li><li>최근 웨비나 “인증된 환경을 위한 모바일 경험 최적화 및 개인화”에 대한 정보 및 녹화에 대한 링크가 추가되었습니다.</li></ul> |
-|  | [성공 지표에 보고 대상 적용](/help/main/c-target/apply-reporting-audience-success-metric.md) | 고려 사항 섹션을 업데이트하고 &quot;예제&quot; 섹션을 추가했습니다. |
-|  | [Target 및 대상자 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | &quot;URL 타겟팅&quot; 섹션이 업데이트되었습니다. |
+|  | [성공 지표에 보고 대상 적용](/help/main/c-target/apply-reporting-audience-success-metric.md) | “고려 사항” 섹션이 업데이트되었으며 “예제” 섹션이 추가되었습니다. |
+|  | [Target 및 대상자 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | “URL 타겟팅” 섹션이 업데이트되었습니다. |
 | 5월 30일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)과 통합 | HTML 및 JSON 오퍼에서 사용하기 위해 [!DNL Target]와(과) [!UICONTROL Real-Time CDP 프로필 속성]을 공유하는 방법에 대한 정보가 문서에 업데이트되었습니다. |
 |  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다가오는 다음 커피 브레이크 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target Recommendations] 커피 브레이크 (6월 7일)</li><li>개인화 프로그램 준비 웨비나 추가 질문 (6월 21일)</li></ul> |
