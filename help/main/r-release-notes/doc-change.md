@@ -23,7 +23,7 @@ ht-degree: 94%
 |  | [Java SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | &quot;environment&quot; 매개 변수에 대한 정보가 추가되었습니다. |
 |  | [Python SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | &quot;environment&quot; 매개 변수에 대한 정보가 추가되었습니다. |
 | 6월 5일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트 관련 정보가 업데이트되었습니다.<ul><li>[!DNL Adobe Target Recommendations] 커피 브레이크 등록 링크가 업데이트되었습니다(2023년 6월 7일 수요일).</li><li>최근 웨비나 “인증된 환경을 위한 모바일 경험 최적화 및 개인화”에 대한 정보 및 녹화에 대한 링크가 추가되었습니다.</li></ul> |
-|  | [성공 지표에 보고 대상 적용](/help/main/c-target/apply-reporting-audience-success-metric.md) | “고려 사항” 섹션이 업데이트되었으며 “예제” 섹션이 추가되었습니다. |
+|  | [성공 지표에 보고 대상자 적용](/help/main/c-target/apply-reporting-audience-success-metric.md) | “고려 사항” 섹션이 업데이트되었으며 “예제” 섹션이 추가되었습니다. |
 |  | [Target 및 대상자 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | “URL 타겟팅” 섹션이 업데이트되었습니다. |
 | 5월 30일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)과 통합 | HTML 및 JSON 오퍼에서 사용하기 위해 [!DNL Target]와(과) [!UICONTROL Real-Time CDP 프로필 속성]을 공유하는 방법에 대한 정보가 문서에 업데이트되었습니다. |
