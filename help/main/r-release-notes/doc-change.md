@@ -5,9 +5,9 @@ title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습�
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 967d85354daaf485f84c704c014275d780827b8a
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1182'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 94%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 6월 12일 | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | 의 업데이트된 문서 *Experience Cloud 중앙 인터페이스 구성 요소 안내서* 에서 사용한 쿠키 설명 [!DNL Target]. |
-|  | [Java SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | &quot;environment&quot; 매개 변수에 대한 정보가 추가되었습니다. |
-|  | [Python SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | &quot;environment&quot; 매개 변수에 대한 정보가 추가되었습니다. |
+| 6월 12일 | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | [!DNL Target]에서 사용되는 쿠키에 대해 설명하는 *Experience Cloud 중앙 인터페이스 구성 요소 안내서*&#x200B;의 문서가 업데이트되었습니다. |
+|  | [Java SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | “환경” 매개변수에 대한 정보가 추가되었습니다. |
+|  | [Python SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | “환경” 매개변수에 대한 정보가 추가되었습니다. |
 | 6월 5일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다음 이벤트 관련 정보가 업데이트되었습니다.<ul><li>[!DNL Adobe Target Recommendations] 커피 브레이크 등록 링크가 업데이트되었습니다(2023년 6월 7일 수요일).</li><li>최근 웨비나 “인증된 환경을 위한 모바일 경험 최적화 및 개인화”에 대한 정보 및 녹화에 대한 링크가 추가되었습니다.</li></ul> |
 |  | [성공 지표에 보고 대상자 적용](/help/main/c-target/apply-reporting-audience-success-metric.md) | “고려 사항” 섹션이 업데이트되었으며 “예제” 섹션이 추가되었습니다. |
 |  | [Target 및 대상자 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#url-targeting) | “URL 타겟팅” 섹션이 업데이트되었습니다. |
