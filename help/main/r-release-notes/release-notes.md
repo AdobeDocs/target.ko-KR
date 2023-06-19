@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b06cc6f4a8e7d1617dd5d3a8226e2b77474cfe77
-workflow-type: ht
-source-wordcount: '654'
-ht-degree: 100%
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+workflow-type: tm+mt
+source-wordcount: '671'
+ht-degree: 98%
 
 ---
 
@@ -23,20 +23,24 @@ ht-degree: 100%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-| 기능 | 세부 사항 |
-|--- |--- |
-| [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오. |
-
 * 프로필 API 인증 토큰을 생성하는 동안 빈 페이지가 표시되는 문제가 해결되었습니다. (TGT-45387 및 TGT-45423)
 * 이미지 이름에 GB 18030 문자가 포함된 경우 [!UICONTROL 디자인 만들기] 패널에 이미지를 표시할 수 없는 문제가 해결되었습니다. (TGT-44614)
 * 경험의 텍스트/HTML에서 일부 GB 18030 기호 문자가 잘못 이스케이프되는 문제가 해결되었습니다. (TGT-44600)
 * 분석 중에 [!UICONTROL 자동 개인화] 활동에 대한 보고서가 정지되는 문제가 해결되었습니다. (TGT-44820)
-* 활동 이름에 대괄호([ 또는 ])가 포함된 경우 [!UICONTROL 활동] 페이지에서 활동을 검색하지 못하는 문제가 해결되었습니다. (TGT-44777)
+* 활동 이름에 대괄호([!UICONTROL  또는 ])가 포함된 경우 [활동] 페이지에서 활동을 검색하지 못하는 문제가 해결되었습니다. (TGT-44777)
 * 활동의 목표에 특수 문자가 포함된 경우 활동이 동기화되지 않는 문제가 해결되었습니다. (TGT-44982)
 * 특정 고객의 기본 작업 영역에 대한 [!DNL Target] UI에 활동이 표시되지 않는 문제가 해결되었습니다. (TGT-45286)
 * “중복 허용 안 함” 플래그의 비헤이비어가 업데이트되었습니다. 제외된 반복 오퍼 플래그가 기본 콘텐츠 오퍼(API v3, v4의 경우)인 경우 반복 오퍼를 허용하고, 옵션이 기본 콘텐츠 오퍼를 참조하고 정의된 템플릿이 없는 경우에는 중복 옵션을 허용하도록 업데이트되었습니다. (TNT-46617)
 * VEC([!UICONTROL Visual Experience Composer])에서 페이지가 로드되지 않도록 하는 URL에 쿼리 매개변수가 추가되는 문제가 해결되었습니다. (TGT-44873)
 * [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
+
+## 공유 중인 Real-Time CDP 프로필 속성 [!DNL Target]|[!UICONTROL Real-Time CDP 프로필 속성] (2023년 6월 13일)
+
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+| 기능 | 세부 사항 |
+|--- |--- |
+| [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오. |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (2023년 5월 23~25일)
 

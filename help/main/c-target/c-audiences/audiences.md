@@ -4,10 +4,10 @@ description: 에서 대상자를 사용하는 방법 알아보기 [!DNL Adobe Ta
 title: 대상 목록은 어떻게 사용합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
 workflow-type: tm+mt
-source-wordcount: '861'
-ht-degree: 30%
+source-wordcount: '818'
+ht-degree: 32%
 
 ---
 
@@ -110,12 +110,6 @@ Keep the following points in mind as you work with imported audiences:
 [!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다.
 
 자세한 내용은 [다음에서 대상 사용 [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
-
-## HTML 및 JSON 오퍼에서 실시간 CDP 프로필 속성 사용
-
-Real-Time CDP 프로필 속성을 HTML 오퍼 및 JSON 오퍼에서 사용하기 위해 Target과 공유할 수 있습니다. 자세한 내용은 통합 을 참조하십시오. [!DNL Real-Time Customer Data Platform].
-
-자세한 내용은 [콘텐츠 관리](/help/main/c-experiences/c-manage-content/manage-content.md) 및 [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer.md).
 
 ## 교육 비디오: 대상 사용 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
