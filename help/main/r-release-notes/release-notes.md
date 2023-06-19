@@ -6,7 +6,7 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
 workflow-type: tm+mt
 source-wordcount: '671'
 ht-degree: 98%
@@ -34,7 +34,7 @@ ht-degree: 98%
 * VEC([!UICONTROL Visual Experience Composer])에서 페이지가 로드되지 않도록 하는 URL에 쿼리 매개변수가 추가되는 문제가 해결되었습니다. (TGT-44873)
 * [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
 
-## 공유 중인 Real-Time CDP 프로필 속성 [!DNL Target]|[!UICONTROL Real-Time CDP 프로필 속성] (2023년 6월 13일)
+## 공유 중인 Real-Time CDP 프로필 속성 [!DNL Target] [!UICONTROL Real-Time CDP 프로필 속성] (2023년 6월 13일)
 
 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
