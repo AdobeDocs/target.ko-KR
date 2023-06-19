@@ -4,10 +4,10 @@ description: Adobe에서 JSON 오퍼를 만드는 방법을 알아봅니다 [!DN
 title: JSON 오퍼를 작성하는 방법
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 32%
+source-wordcount: '458'
+ht-degree: 33%
 
 ---
 
@@ -133,7 +133,7 @@ adobe.target.getOffer({
 
 ## 실시간 CDP 프로필 속성을 사용하는 JSON 오퍼 예
 
-Real-Time CDP 프로필 속성을 [!DNL Target] HTML 오퍼 및 JSON 오퍼에서 사용할 수 있습니다. (이 기능은 현재 베타 버전입니다.)
+Real-Time CDP 프로필 속성을 [!DNL Target] HTML 오퍼 및 JSON 오퍼에서 사용할 수 있습니다.
 
 자세한 내용은 [와 실시간 CDP 프로필 속성 공유 [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes).
 

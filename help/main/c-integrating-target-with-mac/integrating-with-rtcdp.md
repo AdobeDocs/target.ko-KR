@@ -4,9 +4,9 @@ description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-Time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: 92990584efd21ab81f6a4cadab2f46529e1bc182
+source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1060'
 ht-degree: 95%
 
 ---
@@ -77,10 +77,6 @@ RTCDP에 대한 자세한 내용은 [Real-Time Customer Data Platform 개요](ht
 Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md)에 사용할 수 있습니다.
 
 ### Real-Time CDP 프로필 속성 기능의 제한 사항 및 고려 사항
-
->[!NOTE]
->
->Real-Time CDP 프로필 속성 기능은 현재 HTML 오퍼 및 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md)에 대해 Beta 버전으로 제공됩니다.
 
 다음 사항을 고려하십시오.
 
