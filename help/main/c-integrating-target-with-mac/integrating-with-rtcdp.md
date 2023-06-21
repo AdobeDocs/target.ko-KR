@@ -4,10 +4,10 @@ description: ' [!DNL Target]/[!DNL Real-Time Customer Data Platform] (RTCDP) 통
 title: ' [!DNL Target] 을  [!DNL Real-Time Customer Data Platform]과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 1c066b62-91a2-4b8c-807a-3cc56fca7778
-source-git-commit: fedef4bfa5fdcc757dc1bd5e0d3577a85896c918
+source-git-commit: 210e9de954dba813972b0da9a7db5b9383d3e303
 workflow-type: tm+mt
 source-wordcount: '1060'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -108,7 +108,7 @@ AEP/통합 프로필 속성을 [!DNL Target]과 공유하기 위한 JSON 오퍼�
 * *대상 개요* 안내서에서 [동일 페이지 및 다음 페이지 개인화에 대한 개인화 대상을 구성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}합니다.
 * *대상 개요* 안내서의 [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
 * *대상 개요* 안내서의 [맵 속성](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ko#map-attributes){target=_blank}.
-* *대상 개요* 안내서에서 [대상자를 에지 개인화 대상으로 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.htm){target=_blank}합니다.
+* *대상 개요* 안내서에서 [대상자를 에지 개인화 대상으로 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}합니다.
 * *대상 개요* 안내서의 “자주 묻는 질문”에서[ [!DNL Adobe Target] 및 사용자 정의 개인화 대상을 통한 동일 페이지 및 다음 페이지 개인화](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}를 참조하십시오.
 
 ## 비디오 및 블로그 게시물 {#videos-blogs}
