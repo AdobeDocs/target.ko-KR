@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 87595187e4d45ce8ba042d43ebf45a9ca9ec9a47
-workflow-type: ht
-source-wordcount: '247'
+source-git-commit: 1578308c3f374f2d96f6b790111a0914ac973d71
+workflow-type: tm+mt
+source-wordcount: '273'
 ht-degree: 100%
 
 ---
@@ -23,7 +23,13 @@ ht-degree: 100%
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Target] Standard/Premium 23.5.4(6월 27일~28일)
+## [!DNL Target] Standard/Premium 23.6.1(6월 27일~29일)
+
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
+
+* **6월 27일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **6월 28일**: 아시아 태평양(APAC) 지역
+* **6월 29일**: 아메리카 지역
 
 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
