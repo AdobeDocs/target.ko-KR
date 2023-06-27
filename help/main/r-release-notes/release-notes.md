@@ -6,9 +6,9 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3349b3a948186a18093adfc4580c5134e9ef7fc7
-workflow-type: ht
-source-wordcount: '671'
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+workflow-type: tm+mt
+source-wordcount: '387'
 ht-degree: 100%
 
 ---
@@ -19,42 +19,21 @@ ht-degree: 100%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target] Standard/Premium 23.5.2 (2023년 5월 31일)
+## [!DNL Target] Standard/Premium 23.6.1(6월 27일~29일)
 
-이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
-* 프로필 API 인증 토큰을 생성하는 동안 빈 페이지가 표시되는 문제가 해결되었습니다. (TGT-45387 및 TGT-45423)
-* 이미지 이름에 GB 18030 문자가 포함된 경우 [!UICONTROL 디자인 만들기] 패널에 이미지를 표시할 수 없는 문제가 해결되었습니다. (TGT-44614)
-* 경험의 텍스트/HTML에서 일부 GB 18030 기호 문자가 잘못 이스케이프되는 문제가 해결되었습니다. (TGT-44600)
-* 분석 중에 [!UICONTROL 자동 개인화] 활동에 대한 보고서가 정지되는 문제가 해결되었습니다. (TGT-44820)
-* 활동 이름에 대괄호( [또는] )가 포함된 경우 [!UICONTROL 활동] 페이지에서 활동을 검색하지 못하는 문제가 해결되었습니다. (TGT-44777)
-* 활동의 목표에 특수 문자가 포함된 경우 활동이 동기화되지 않는 문제가 해결되었습니다. (TGT-44982)
-* 특정 고객의 기본 작업 영역에 대한 [!DNL Target] UI에 활동이 표시되지 않는 문제가 해결되었습니다. (TGT-45286)
-* “중복 허용 안 함” 플래그의 비헤이비어가 업데이트되었습니다. 제외된 반복 오퍼 플래그가 기본 콘텐츠 오퍼(API v3, v4의 경우)인 경우 반복 오퍼를 허용하고, 옵션이 기본 콘텐츠 오퍼를 참조하고 정의된 템플릿이 없는 경우에는 중복 옵션을 허용하도록 업데이트되었습니다. (TNT-46617)
-* VEC([!UICONTROL Visual Experience Composer])에서 페이지가 로드되지 않도록 하는 URL에 쿼리 매개변수가 추가되는 문제가 해결되었습니다. (TGT-44873)
-* [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
-
-## [!DNL Target] [!UICONTROL Real-Time CDP 프로필 속성]과 공유되는 Real-Time CDP 프로필 속성 (2023년 6월 13일)
+* **6월 27일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **6월 28일**: 아시아 태평양(APAC) 지역
+* **6월 29일**: 아메리카 지역
 
 이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
 
 | 기능 | 세부 사항 |
 |--- |--- |
-| [!DNL Target]과 공유되는 Real-Time CDP 프로필 속성 | Real-Time CDP 프로필 속성을 [!DNL Target]과 공유하여 HTML 및 JSON 오퍼에 사용할 수 있습니다.<P>자세한 내용은 [ [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes)과 Real-Time CDP 프로필 속성 공유를 참조하십시오. |
+| [!UICONTROL Automated Personalization] 활동을 위한 [!UICONTROL QA 모드] | 이제 [!UICONTROL Automated Personalization] 활동에서 [!UICONTROL 링크 미리보기] 기능을 대체하는 [!DNL Adobe Target] [!UICONTROL QA 모드]를 사용할 수 있습니다.<P>자세한 내용은 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)를 참조하십시오. |
 
-## [!DNL Target] Standard/Premium 23.5.1 (2023년 5월 23~25일)
-
-이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
-
-5월 23일: 유럽, 중동 및 아프리카(EMEA) 지역
-5월 24일: 아시아 태평양(APAC) 지역
-5월 25일: 아메리카 지역
-
-이번 릴리스에는 다음과 같은 새로운 개선 및 수정 사항이 포함되어 있습니다.
-
-* 특정 고객이 “다음보다 큼” 또는 “다음보다 작음” 연산자를 사용하여 방문자 프로필로 대상자를 만들 수 없는 문제가 해결되었습니다. (TGT-45271)
-* [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
-* 향후 예정된 UI 개선을 위해 다양한 위치에서 Target UI가 업데이트되었습니다(업데이트가 출시될 때까지 변경 사항은 기능 플래그 뒤에 있음).
+* [!UICONTROL Automated Personalization] 활동에서 [제외 관리](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037)를 수행하는 동안 중복 기능(로드 시간 감소 포함)을 허용하지 않도록 성능이 향상되었습니다.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

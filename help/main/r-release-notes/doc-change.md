@@ -4,16 +4,24 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f7a23cd485e445a0e9f9c420b42dfca3adb85895
+source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
-source-wordcount: '1203'
-ht-degree: 99%
+source-wordcount: '1263'
+ht-degree: 95%
 
 ---
 
 # 설명서 변경 내용
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
+
+## [!DNL Target] Standard/Premium 23.6.1 (2023년 6월 27~29일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 6월 27일 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 이제 활동 QA를 모든 Target 활동 유형에 사용할 수 있습니다. [!UICONTROL Automated Personalization] (AP) 활동. 미리 보기 링크에 대한 정보가 제거되었습니다. |
+|  | 미리보기 URL | 이제 모든 활동 유형이 활동 QA를 지원하므로 이 주제를 삭제하고 로 리디렉션했습니다. [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 주제. |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.6.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 23.5.1 (2023년 5월 23~25일)
 
