@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
 workflow-type: tm+mt
 source-wordcount: '1263'
-ht-degree: 95%
+ht-degree: 96%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 95%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 6월 26일 | [모바일 앱용 Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=ko-KR){target=_blank} | 구현에 링크가 추가되었습니다. [!DNL Adobe Experience Cloud] 모바일 앱 튜토리얼에서 다음을 수행합니다. |
+| 6월 26일 | [모바일 앱용 Target](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/overview.html?lang=ko-KR){target=_blank} | 모바일 앱 튜토리얼에 [!DNL Adobe Experience Cloud] 구현에 대한 링크가 추가되었습니다. |
 | 6월 12일 | [Adobe Target 쿠키](https://experienceleague.adobe.com/docs/core-services/interface/administration/ec-cookies/cookies-target.html){target=_blank} | [!DNL Target]에서 사용되는 쿠키에 대해 설명하는 *Experience Cloud 중앙 인터페이스 구성 요소 안내서*&#x200B;의 문서가 업데이트되었습니다. |
 |  | [Java SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | “환경” 매개변수에 대한 정보가 추가되었습니다. |
 |  | [Python SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/initialize-sdk.html){target=_blank} | “환경” 매개변수에 대한 정보가 추가되었습니다. |
