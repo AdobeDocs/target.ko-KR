@@ -19,7 +19,7 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 6월 27일 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 이제 활동 QA를 [!UICONTROL Automated Personalization](AP) 활동을 포함한 모든 Target 활동 유형에 사용할 수 있습니다. 미리보기 링크에 대한 정보가 제거되었습니다. |
+| 6월 27일 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 이제 활동 QA를 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동을 포함한 모든 Target 활동 유형에 사용할 수 있습니다. 미리보기 링크에 대한 정보가 제거되었습니다. |
 |  | 미리보기 URL | 이제 모든 활동 유형에서 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)가 지원되므로 이 항목이 삭제되고 활동 QA 항목으로 리디렉션되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.6.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
