@@ -5,7 +5,7 @@ title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개�
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '273'
 ht-degree: 100%
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Target] Standard/Premium 23.6.1(6월 27일~29일)
+## [!DNL Target] Standard/Premium 23.6.1 (6월 27일~29일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
