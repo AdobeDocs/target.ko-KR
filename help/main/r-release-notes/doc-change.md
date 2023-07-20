@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 05e0c6107d911b5dae8387b4136743ebb92c0e7c
-workflow-type: ht
-source-wordcount: '1290'
-ht-degree: 100%
+source-git-commit: 0633f2781f113e4d49dbb864d0c04435ba48d13e
+workflow-type: tm+mt
+source-wordcount: '1331'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 7월 20일 | [콘텐츠 보안 정책(CSP) 지침](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | 에 다음 FAQ가 추가되었습니다. *Adobe Target 개발자 안내서*: 내 사이트가 외부 도메인에 iFrame으로 임베드되는 것을 허용하거나 방지하려면 어떻게 해야 합니까? |
 | 7월 10일 | [고려 사항 및 알려진 제한 사항](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/known-limitations.html){target=_blank} | HTTP/2에서 소문자 헤더 이름을 적용하는 것과 관련된 정보가 *Target 게재 API* 설명서에 추가되었습니다. |
 | 6월 27일 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 이제 활동 QA를 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동을 포함한 모든 Target 활동 유형에 사용할 수 있습니다. 미리보기 링크에 대한 정보가 제거되었습니다. |
 |  | 미리보기 URL | 이제 모든 활동 유형에서 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)가 지원되므로 이 항목이 삭제되고 활동 QA 항목으로 리디렉션되었습니다. |
