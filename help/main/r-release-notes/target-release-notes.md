@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
-workflow-type: ht
-source-wordcount: '273'
-ht-degree: 100%
+source-git-commit: e4bfdd4b777d90fc79a0f275a1cd6dd25e19b79d
+workflow-type: tm+mt
+source-wordcount: '291'
+ht-degree: 74%
 
 ---
 
@@ -23,21 +23,20 @@ ht-degree: 100%
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Target] Standard/Premium 23.6.1 (6월 27일~29일)
+## [!DNL Target] Standard/Premium 23.7.1(7월 25~27일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
 
-* **6월 27일**: 유럽, 중동 및 아프리카(EMEA) 지역
-* **6월 28일**: 아시아 태평양(APAC) 지역
-* **6월 29일**: 아메리카 지역
+* **7월 24일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **7월 25일**: 아시아 태평양(APAC) 지역
+* **7월 26일**: 아메리카 지역
 
-이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-| 기능 | 세부 사항 |
-|--- |--- |
-| [!UICONTROL Automated Personalization] 활동을 위한 [!UICONTROL QA 모드] | 이제 [!UICONTROL Automated Personalization] 활동에서 [!UICONTROL 링크 미리보기] 기능을 대체하는 [!DNL Adobe Target] [!UICONTROL QA 모드]를 사용할 수 있습니다.<P>자세한 내용은 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)를 참조하십시오. |
+* 다음과 같은 경우 검색 개선 [dom 경로를 사용하여 요소 탐색](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 다음에서 [!UICONTROL 시각적 경험 작성기] (VEC) - 그림자 DOM 요소를 포함합니다. (TGT-45262)
+* 을(를) 방해하는 문제가 해결되었습니다. [오버레이 변경](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 이(가) 제대로 작동하지 않습니다. (TGT-45202)
+* 다음 오류 메시지가 표시된 후 일부 고객이 활동 보고서를 다운로드할 수 없는 문제를 해결했습니다. &quot;사용자는 보고서에 액세스할 권한이 없습니다.&quot; (TGT-45724 및 TGT-45747)
 
-* [!UICONTROL Automated Personalization] 활동에서 [제외 관리](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037)를 수행하는 동안 중복 기능(로드 시간 감소 포함)을 허용하지 않도록 성능이 향상되었습니다.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
