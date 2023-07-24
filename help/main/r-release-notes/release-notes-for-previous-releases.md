@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 37610e658a25027ae614818b0be425dfc9dbffc6
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
-source-wordcount: '36917'
+source-wordcount: '36971'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 96%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2023
+
+### [!DNL Target] Standard/Premium 23.6.1 (6월 27일~29일)
+
+이번 릴리스에는 다음과 같은 개선 사항이 포함됩니다.
+
+| 기능 | 세부 사항 |
+|--- |--- |
+| [!UICONTROL Automated Personalization] 활동을 위한 [!UICONTROL QA 모드] | 이제 [!UICONTROL Automated Personalization] 활동에서 [!UICONTROL 링크 미리보기] 기능을 대체하는 [!DNL Adobe Target] [!UICONTROL QA 모드]를 사용할 수 있습니다.<P>자세한 내용은 [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md)를 참조하십시오. |
+
+* [!UICONTROL Automated Personalization] 활동에서 [제외 관리](/help/main/c-activities/t-automated-personalization/managing-exclusions.md#concept_4EF78013F80E48EFA024AE0274C9F037)를 수행하는 동안 중복 기능(로드 시간 감소 포함)을 허용하지 않도록 성능이 향상되었습니다.
 
 ### [!DNL Target] Standard/Premium 23.5.2 (2023년 5월 31일)
 

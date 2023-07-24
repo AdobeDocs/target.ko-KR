@@ -4,7 +4,7 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2f350479244748db923dfdf5dd3b02c102d08433
+source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
 workflow-type: tm+mt
 source-wordcount: '291'
 ht-degree: 74%
@@ -36,7 +36,6 @@ ht-degree: 74%
 * 다음과 같은 경우 검색 개선 [dom 경로를 사용하여 요소 탐색](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) 다음에서 [!UICONTROL 시각적 경험 작성기] (VEC) - 그림자 DOM 요소를 포함합니다. (TGT-45262)
 * 을(를) 방해하는 문제가 해결되었습니다. [오버레이 변경](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 이(가) 제대로 작동하지 않습니다. (TGT-45202)
 * 다음 오류 메시지가 표시된 후 일부 고객이 활동 보고서를 다운로드할 수 없는 문제를 해결했습니다. &quot;사용자는 보고서에 액세스할 권한이 없습니다.&quot; (TGT-45724 및 TGT-45747)
-
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
