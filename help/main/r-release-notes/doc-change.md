@@ -15,7 +15,7 @@ ht-degree: 98%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## [!DNL Target] Standard/Premium 23.7.1(2023년 7월 24~26일)
+## [!DNL Target] Standard/Premium 23.7.1 (2023년 7월 24~26일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
