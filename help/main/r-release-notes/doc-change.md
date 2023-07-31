@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '1384'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 7월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#edge) | 2023년 8월 9일로 예정된 에지 인프라 업그레이드에 대한 정보가 추가되었습니다. |
-|  | [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank} | 에지 배포 41-48에 대한 NAT 및 IP/도메인이 업데이트되었습니다. |
+| 7월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#edge) | 2023년 8월 9일로 예정된 Edge 인프라 업그레이드에 대한 정보가 추가되었습니다. |
+|  | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Edge 배포 41-48에 대한 NAT 및 IP/도메인이 업데이트되었습니다. |
 | 7월 24일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.7.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 23.6.1 (2023년 6월 27일~29일)
@@ -47,7 +47,7 @@ ht-degree: 98%
 | 5월 30일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)과 통합 | HTML 및 JSON 오퍼에서 사용하기 위해 [!DNL Target]와(과) [!UICONTROL Real-Time CDP 프로필 속성]을 공유하는 방법에 대한 정보가 문서에 업데이트되었습니다. |
 |  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 다가오는 다음 커피 브레이크 이벤트에 대한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Target Recommendations] 커피 브레이크 (6월 7일)</li><li>개인화 프로그램 준비 웨비나 추가 질문 (6월 21일)</li></ul> |
-| 5월 23일 | [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank} | 중요 참고 사항이 업데이트되었습니다. |
+| 5월 23일 | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank} | 중요 참고 사항이 업데이트되었습니다. |
 |  | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 향후 릴리스에 대한 프리릴리스 정보가 업데이트되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.5.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
@@ -56,7 +56,7 @@ ht-degree: 98%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 5월 22일 | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#videos-blogs)과 통합 | 다음과 같은 새로운 비디오가 추가되었습니다.<ul><li>[!DNL Real-Time Customer Data Platform]에서 [!DNL Adobe Target] 대상 구성하기</li><li>세그먼트 및 프로필 속성 활성화</li><li>[!DNL Target]에서 [!DNL Real-Time CDP] 세그먼트 사용하기</li><li>[!DNL Adobe Target]에서 [!DNL Real-Time CDP] 프로필 속성 사용하기</li></ul> |
-|  | [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank} | 중요 참고 사항이 업데이트되었습니다. |
+|  | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank} | 중요 참고 사항이 업데이트되었습니다. |
 | 5월 19일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 향후 릴리스에 대한 프리릴리스 정보가 업데이트되었습니다. |
 | 5월 17일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 5월 24일 수요일에 [!UICONTROL Adobe Target 커뮤니티] Q&amp;A 커피 브레이크에 대한 정보가 추가되었습니다. |
 | 5월 16일 | [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md) | `entity.id` 값에서 “공백”이 허용되지 않는다는 메시지가 표시됩니다. |
@@ -82,7 +82,7 @@ ht-degree: 98%
 |  | [AEM 콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) | 새 주제입니다. 이 기능은 테스트용으로 “프리릴리스” 상태로 제공됩니다. |
 | 4월 5일 | [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | 오퍼 결정을 사용하는 활동에서 [!UICONTROL 보고 소스로서의 Analytics] (A4t)가 지원되지 않음을 나타내는 텍스트가 추가되었습니다. |
 | 4월 3일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 4월 12일, 수요일로 예정된 [!UICONTROL Adobe Target 커뮤니티] 커피 브레이크에 대한 정보가 추가되었습니다. |
-|  | [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank} | 모든 [!DNL Adobe Analytics] IP 주소 블록을 허용 목록에 추가했습니다. |
+|  | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank} | 모든 [!DNL Adobe Analytics] IP 주소 블록을 허용 목록에 추가했습니다. |
 | 3월 30일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 기능에 대한 최적화된 A4T 지표 릴리스에 대한 릴리스 정보를 업데이트하여 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 [!UICONTROL A4T] 를 사용할 때 이항 이벤트를 기반으로 하는 지표 또는 연속 이벤트를 기반으로 하는 지표를 선택할 수 있도록 했습니다. |
 |  | [[!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 활동에 대해 지원되는 지표 및 지원되지 않는 지표에 대한 정보를 포함하도록 “지원되는 목표 지표” 섹션이 업데이트되었습니다. |
 |  | [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ko-KR){target=_blank} | 다음 튜토리얼이 업데이트되었습니다.<ul><li>[[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ko-KR){target=_blank}</li><li>[[!UICONTROL 자동 타겟팅] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ko-KR){target=_blank}</li></ul> |
@@ -102,7 +102,7 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2월 21일 | [Target 에지 노드를 허용 목록에 추가](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | IP 주소 목록이 [Adobe Target 개발자 안내서](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html)에 있는 모든 지역에 대한 허용 목록으로 업데이트되었습니다{target=_blank}. |
+| 2월 21일 | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | IP 주소 목록이 [Adobe Target 개발자 안내서](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html)에 있는 모든 지역에 대한 허용 목록으로 업데이트되었습니다{target=_blank}. |
 |  | [수정 사항](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | JQuery를 사용하는 예제에서는 [!DNL Target] 이 오퍼를 실행할 때 고객 웹 사이트의 페이지에서 jQuery를 사용할 수 있음을 가정한다고 설명하는 텍스트가 추가되었습니다. |
 | 2월 10일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 22.14.5 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 2월 8일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | at.js 2.10.1에 대한 릴리스 정보가 추가되었습니다. |

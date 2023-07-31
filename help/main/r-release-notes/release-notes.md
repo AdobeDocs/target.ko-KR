@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
 workflow-type: tm+mt
 source-wordcount: '459'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -19,12 +19,12 @@ ht-degree: 89%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Adobe Target] Edge 계획된 인프라 업그레이드 {#edge}
+## [!DNL Adobe Target] Edge 예정된 인프라 업그레이드 {#edge}
 
-예정된 에지 인프라 업그레이드를 사용하려면 허용 목록에 추가할 IP 또는 도메인이 필요합니다. Edge 배포에 대한 NAT 및 IP/도메인을 검토하고 허용 목록에 추가 41-48. 인프라 업그레이드는 2023년 8월 9일에 시작됩니다.
+예정된 Edge 인프라 업그레이드를 수행하려면 추가 IP 또는 도메인이 허용 목록에 있어야 합니다. Edge 배포 41-48에 대한 NAT 및 IP/도메인을 검토하고 허용 목록에 추가하십시오. 인프라 업그레이드는 2023년 8월 9일에 시작됩니다.
 &quot;
 
-자세한 내용은 [허용 목록에 추가하다 Target 에지 노드](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank} 다음에서 *Adobe Target 개발자 안내서*.
+자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}를 참조하십시오.
 
 ## [!DNL Target] Standard/Premium 23.7.1 (7월 24~26일)
 
