@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd59dc1edc15b2493670ef5ff883dfc238f7226
-workflow-type: ht
-source-wordcount: '2104'
-ht-degree: 100%
+source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
+workflow-type: tm+mt
+source-wordcount: '2133'
+ht-degree: 94%
 
 ---
 
@@ -15,23 +15,31 @@ ht-degree: 100%
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
-## [!UICONTROL Adobe Target 커뮤니티] Q&amp;A 커피 브레이크
-
-예정된 커피 브레이크에 대한 정보:
-
-### 개인화 프로그램 준비 웨비나 추가 질문
-
-* **2023년 6월 21일 수요일**
-* 오전 **8:00-9:00 (PDT, UTC-7)**
-* **[추가 정보](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-6-21-23-personalization-program/ec-p/595807#M9){target=_blank}**
-
-Adobe Target 전문가인 Ramon Cespedes와 Kevin Jemison이 참석합니다. 이 AMA(Ask Me Anything) 이벤트에서는 전문가가 로그인하여 지난 5월 24일 [개인화를 통한 성장 추진 여정](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-wednesday-5-24-8am-9am-pt-the-journey-to/td-p/594567){target=_blank} 웨비나에서 다룬 주제와 관련된 모든 질문에 답변합니다.
-
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
-현재 일정이 없습니다.
+### 성수기 준비와 함께 ROI에 미치는 영향 극대화
+
+* **2023년 8월 17일 목요일**
+* 오전 **8:00-9:00 (PDT, UTC-7)**
+* **[여기에 등록](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+
+매력적인 고객 경험을 제공하여 전환율을 향상시킵니다. 성수기 사업이 준비되었나요? 지금 참여하여 최적의 성능과 최대 ROI를 달성할 수 있는 방법에 대한 전문가 팁을 받아 보십시오.
+
++++세부 정보 보기
+
+Adobe 고객 성공 관리자인 John Magnusson 및 Katherine Klein, Director - Macy&#39;s Inc.의 MarTech 및 AdTech Solutions와 함께 성수기 준비 프로그램에 중요한 영향을 미치는 전략에 대해 알아보십시오.
+
+다음 주제가 포함됩니다.
+
+* 효과적인 대시보드 및 보고서 주요 지표 만들기
+* 각 마케팅 채널의 영향 검토
+* 고객 행동 및 쇼핑 동향에 대해 자세히 알아보기
+* 열악한 고객 경험을 파악하고 테스트를 통해 개선합니다.
+* 사이트 전환을 추진할 수 있는 영업 기회 영역 파악
+
++++
 
 ## 과거 웨비나 및 스킬 빌더 세션 녹화
 

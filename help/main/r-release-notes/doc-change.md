@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 02cf6f038f3bca7b781cbed40ade21c2c0612324
-workflow-type: ht
-source-wordcount: '1403'
-ht-degree: 100%
+source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
+workflow-type: tm+mt
+source-wordcount: '1445'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 9일 | [Target 모바일 미리보기](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | 의 현재 버전에 대한 정보로 항목이 업데이트되었습니다. [!DNL Adobe Experience Platform Mobile SDK]. |
+|  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 8월 17일로 예정된 다음 웨비나에 대한 정보가 추가되었습니다. *성수기 준비와 함께 ROI에 미치는 영향 극대화*. |
 | 8월 7일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 지원되는 at.js 버전에 대한 정보가 명확해졌습니다. |
 | 7월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#edge) | 2023년 8월 9일로 예정된 Edge 인프라 업그레이드에 대한 정보가 추가되었습니다. |
 |  | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | Edge 배포 41-48에 대한 NAT 및 IP/도메인이 업데이트되었습니다. |
