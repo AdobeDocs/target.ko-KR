@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 17bb53ef1f48b4c5f9f6c5caccf1fe8aa3e17286
+source-git-commit: 8490f73213dff433a58e6284924324f648aa2d0f
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 100%
+source-wordcount: '326'
+ht-degree: 63%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2023년 7월 24일**
+**마지막 업데이트: 2023년 8월 9일**
 
 >[!NOTE]
 >
@@ -23,19 +23,15 @@ ht-degree: 100%
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Target] Standard/Premium 23.7.1 (7월 24~26일)
-
-이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
-
-* **7월 24일**: 유럽, 중동 및 아프리카(EMEA) 지역
-* **7월 25일**: 아시아 태평양(APAC) 지역
-* **7월 26일**: 아메리카 지역
+## [!DNL Target] Standard/Premium 23.8.1(2023년 8월 9일)
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 그림자 DOM 요소를 포함하도록 [!UICONTROL Visual Experience Composer] (VEC)의 [DOM 경로를 사용하여 요소를 탐색](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)할 때 검색 기능이 향상되었습니다. (TGT-45262)
-* [오버레이 변경](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 설정이 제대로 작동하지 않는 문제가 해결되었습니다. (TGT-45202)
-* 일부 고객이 “사용자가 보고서에 액세스할 권한이 없습니다” 오류 메시지를 받은 후 활동 보고서를 다운로드하지 못하는 문제가 해결되었습니다. (TGT-45724 및 TGT-45747)
+* 과 같이 경우에 따라 활동이 제대로 동기화되지 않는 문제를 해결했습니다.[!UICONTROL 상태]의 &quot; 열 [!UICONTROL 활동] 목록 페이지입니다. (TGT-46010 및 TGT-44831)
+* 경우에 따라 &quot;&quot;를 막는 문제가 해결되었습니다.[!UICONTROL Analytics에서 보기]&quot;링크가 다음에 표시되지 않음 [!UICONTROL 보고서] 를 사용하는 활동 페이지 [!UICONTROL Target 분석] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. (TGT-45808)
+* 소수가 있는 숫자 대신 백분율로 표시하도록 테이블의 값 표시를 조정했습니다. 예를 들어, .08 대신 8%입니다. (TGT-45548)
+* 고객이 키보드 포커스를 사용하여 의 다음 요소로 이동할 수 없는 문제를 해결했습니다 [!UICONTROL 목표 및 설정] 페이지 [!UICONTROL 경험 타기팅] (XT) 활동. (TGT-44526)
+* &quot;&quot;를 연 후 키보드 포커스가 사라지는 문제를 해결했습니다.[!UICONTROL 대상자 추가]활동을 만드는 동안 &quot;대화 상자&quot;가 표시됩니다. (TGT-44525)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

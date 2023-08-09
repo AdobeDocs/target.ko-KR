@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 11f4be7a245326d5428b5d6d4c4fad795a24df2f
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '36971'
+source-wordcount: '37043'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 96%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2023
+
+### [!DNL Target] Standard/Premium 23.7.1 (7월 24~26일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* 그림자 DOM 요소를 포함하도록 [!UICONTROL Visual Experience Composer] (VEC)의 [DOM 경로를 사용하여 요소를 탐색](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)할 때 검색 기능이 향상되었습니다. (TGT-45262)
+* [오버레이 변경](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 설정이 제대로 작동하지 않는 문제가 해결되었습니다. (TGT-45202)
+* 일부 고객이 “사용자가 보고서에 액세스할 권한이 없습니다” 오류 메시지를 받은 후 활동 보고서를 다운로드하지 못하는 문제가 해결되었습니다. (TGT-45724 및 TGT-45747)
 
 ### [!DNL Target] Standard/Premium 23.6.1 (6월 27일~29일)
 

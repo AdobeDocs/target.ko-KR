@@ -4,16 +4,24 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '1445'
-ht-degree: 97%
+source-wordcount: '1503'
+ht-degree: 95%
 
 ---
 
 # 설명서 변경 내용
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
+
+## [!DNL Target] Standard/Premium 23.8.1(2023년 8월 9일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 8월 9일 | [Target 모바일 미리보기](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | 의 현재 버전에 대한 정보로 항목이 업데이트되었습니다. [!DNL Adobe Experience Platform Mobile SDK]. |
+|  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 8월 17일로 예정된 다음 웨비나에 대한 정보가 추가되었습니다. *성수기 준비와 함께 ROI에 미치는 영향 극대화*. |
+|  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.8.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 23.7.1 (2023년 7월 24~26일)
 

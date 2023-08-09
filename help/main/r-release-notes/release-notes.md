@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8ec1e3c483fb9d0f70c4cbf573295ba8a639f103
+source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
 workflow-type: tm+mt
-source-wordcount: '459'
-ht-degree: 100%
+source-wordcount: '494'
+ht-degree: 75%
 
 ---
 
@@ -25,19 +25,15 @@ ht-degree: 100%
 
 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}를 참조하십시오.
 
-## [!DNL Target] Standard/Premium 23.7.1 (7월 24~26일)
-
-이번 릴리스는 다음과 같은 순차적 일정에 따라 제공될 예정입니다.
-
-* **7월 24일**: 유럽, 중동 및 아프리카(EMEA) 지역
-* **7월 25일**: 아시아 태평양(APAC) 지역
-* **7월 26일**: 아메리카 지역
+## [!DNL Target] Standard/Premium 23.8.1(2023년 8월 9일)
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 그림자 DOM 요소를 포함하도록 [!UICONTROL Visual Experience Composer] (VEC)의 [DOM 경로를 사용하여 요소를 탐색](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path)할 때 검색 기능이 향상되었습니다. (TGT-45262)
-* [오버레이 변경](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) 설정이 제대로 작동하지 않는 문제가 해결되었습니다. (TGT-45202)
-* 일부 고객이 “사용자가 보고서에 액세스할 권한이 없습니다” 오류 메시지를 받은 후 활동 보고서를 다운로드하지 못하는 문제가 해결되었습니다. (TGT-45724 및 TGT-45747)
+* 과 같이 경우에 따라 활동이 제대로 동기화되지 않는 문제를 해결했습니다.[!UICONTROL 상태]의 &quot; 열 [!UICONTROL 활동] 목록 페이지입니다. (TGT-46010 및 TGT-44831)
+* 경우에 따라 &quot;&quot;를 막는 문제가 해결되었습니다.[!UICONTROL Analytics에서 보기]&quot;링크가 다음에 표시되지 않음 [!UICONTROL 보고서] 를 사용하는 활동 페이지 [!UICONTROL Target 분석] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. (TGT-45808)
+* 소수가 있는 숫자 대신 백분율로 표시하도록 테이블의 값 표시를 조정했습니다. 예를 들어, .08 대신 8%입니다. (TGT-45548)
+* 고객이 키보드 포커스를 사용하여 의 다음 요소로 이동할 수 없는 문제를 해결했습니다 [!UICONTROL 목표 및 설정] 페이지 [!UICONTROL 경험 타기팅] (XT) 활동. (TGT-44526)
+* &quot;&quot;를 연 후 키보드 포커스가 사라지는 문제를 해결했습니다.[!UICONTROL 대상자 추가]활동을 만드는 동안 &quot;대화 상자&quot;가 표시됩니다. (TGT-44525)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
