@@ -5,9 +5,9 @@ title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2133'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -19,25 +19,25 @@ ht-degree: 94%
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
-### 성수기 준비와 함께 ROI에 미치는 영향 극대화
+### 성수기 준비로 최대 ROI 영향을 위한 전략 수립
 
 * **2023년 8월 17일 목요일**
 * 오전 **8:00-9:00 (PDT, UTC-7)**
-* **[여기에 등록](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+* **[여기에서 등록](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
 
-매력적인 고객 경험을 제공하여 전환율을 향상시킵니다. 성수기 사업이 준비되었나요? 지금 참여하여 최적의 성능과 최대 ROI를 달성할 수 있는 방법에 대한 전문가 팁을 받아 보십시오.
+매력적인 고객 경험을 제공하여 전환율을 높이십시오. 귀사는 성수기에 대비하고 있습니까? 이번 웨비나에 참여하여 최적의 성능과 최대 ROI를 달성할 수 있는 방법에 대한 전문가의 팁을 얻으십시오.
 
 +++세부 정보 보기
 
-Adobe 고객 성공 관리자인 John Magnusson 및 Katherine Klein, Director - Macy&#39;s Inc.의 MarTech 및 AdTech Solutions와 함께 성수기 준비 프로그램에 중요한 영향을 미치는 전략에 대해 알아보십시오.
+Adobe 고객 성공 관리자인 John Magnusson과 Macy&#39;s Inc의 MarTech &amp; AdTech Solutions 담당 이사인 Katherine Klein과 함께 성수기 준비 프로그램에 큰 영향을 미치는 전략에 대해 알아보십시오.
 
 다음 주제가 포함됩니다.
 
-* 효과적인 대시보드 및 보고서 주요 지표 만들기
+* 효과적인 대시보드 생성 및 주요 지표 보고
 * 각 마케팅 채널의 영향 검토
-* 고객 행동 및 쇼핑 동향에 대해 자세히 알아보기
-* 열악한 고객 경험을 파악하고 테스트를 통해 개선합니다.
-* 사이트 전환을 추진할 수 있는 영업 기회 영역 파악
+* 고객 행동 및 쇼핑 트렌드에 대한 심층 분석
+* 열악한 고객 경험을 식별하고 테스트를 통해 개선
+* 사이트 전환을 유도할 수 있는 기회 영역 파악
 
 +++
 
