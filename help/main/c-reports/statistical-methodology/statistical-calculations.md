@@ -4,7 +4,7 @@ description: 설명서에 사용된 통계 계산에 대해 알아봅니다 [!UI
 title: 에서 사용되는 통계 계산에 대해 알아보려면 어떻게 해야 합니까? [!UICONTROL A/B 테스트] 활동?
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: f997b6a0ea9e0cebf7b414c029971d8520f8b95f
+source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 5%
@@ -19,7 +19,7 @@ ht-degree: 5%
 >
 >이 문서의 정보는 이전에 이 사이트에서 다운로드할 수 있었던 *A/B 테스트를 위한 Adobe Target 계산* pdf 파일을 대체합니다.
 
-![다음을 보여주는 Target 보고서 [!UICONTROL 전환율], [!UICONTROL 평균 상승도 및 신뢰 구간], 및 [!UICONTROL 신뢰도] A/B 테스트 활동.](/help/main/c-reports/statistical-methodology/img/target_report.png)
+![다음을 보여주는 대상 보고서 [!UICONTROL 전환율], [!UICONTROL 평균 상승도 및 신뢰 구간], 및 [!UICONTROL 신뢰도] A/B 테스트 활동.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
 ## 평균 성과
 
@@ -101,7 +101,7 @@ Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performan
 
 ## [!UICONTROL 신뢰도]
 
-마지막 열은 의 신뢰도를 나타냅니다. [!DNL Target] 보고서. 경험의 신뢰도는 귀무 가설이 참인 경우 관찰된 결과보다 덜 극단적인 결과를 얻을 확률(백분율로 표시)입니다. p 값의 경우 표시되는 신뢰도는 다음과 같습니다. *1 - p 값*. 직관적으로, 신뢰도가 높다는 것은 제어 경험과 비제어 경험이 동일한 전환율을 가질 가능성이 적다는 것을 의미한다.
+마지막 열은 의 신뢰도를 나타냅니다. [!DNL Target] 보고서. 경험의 신뢰도는 귀무 가설이 참인 경우 관찰되는 결과만큼 극단적인 결과를 얻을 확률(백분율로 표시)입니다. p 값의 경우 표시되는 신뢰도는 다음과 같습니다. *1 - p 값*. 직관적으로, 신뢰도가 높다는 것은 제어 경험과 비제어 경험이 동일한 전환율을 가질 가능성이 적다는 것을 의미한다.
 
 위치 [!DNL Target], 두 개의 꼬리 **웰치 티테스트** 테스트 경험과 제어 경험 사이에 수행되어 테스트 수단과 제어 경험이 동일한지 테스트합니다. 우리는 보통 실험을 실행하기 전에 두 그룹의 샘플 크기와 분산이 동일한지 모르기 때문에, [!DNL Target] 또한 각 경험에 전송된 트래픽의 비율이 동일하지 않을 수 있으므로 각 경험에 대한 분산이 동일하다고 가정하지 않습니다. 따라서, Welch의 t-test는 Student&#39;s t-test 대신 선택됩니다.
 
