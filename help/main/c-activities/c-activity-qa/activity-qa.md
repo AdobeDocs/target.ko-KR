@@ -4,10 +4,10 @@ description: Adobe 사용 방법 알아보기 [!DNL Target] 절대 변경되지 
 title: 활동을 QA하려면 어떻게 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1668'
-ht-degree: 38%
+source-wordcount: '1724'
+ht-degree: 35%
 
 ---
 
@@ -67,9 +67,11 @@ ht-degree: 38%
 * [!UICONTROL 활동 QA에서는 종료 일자가 지난 보관된 활동용 콘텐츠를 표시하지 않습니다. ] 종료된 활동을 비활성화하는 경우 다음에 대한 활동을 다시 저장해야 합니다. [!UICONTROL 활동 QA] 일 때문에.
 * 활동 가져옴 [!DNL Target Standard/Premium] (출처: [!DNL Target Classic], 예를 들어 )는 QA URL을 지원하지 않습니다.
 * 위치 [!UICONTROL 자동 할당] 및 [!UICONTROL Recommendations] 활동:에서 캡처한 방문의 영향을 받지 않습니다. [!UICONTROL 활동 QA].
-* [!UICONTROL 활동 QA] 끈적끈적합니다. 에서 웹 사이트를 탐색한 후 [!UICONTROL 활동 QA], 사용자 [!DNL Target] 세션이 만료되거나 다음 권한이 있어야 합니다. [!DNL Target] 에서 해제 [!UICONTROL 활동 QA] 먼저 일반적인 방문자처럼 사이트를 볼 수 있습니다. 사용 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 억지로 빠져 나오다 [!UICONTROL 활동 QA].
+* [!UICONTROL 활동 QA] 끈적끈적합니다. 에서 웹 사이트를 탐색한 후 [!UICONTROL 활동 QA], 사용자 [!DNL Target] 세션이 만료되거나 다음 권한이 있어야 합니다. [!DNL Target] 에서 해제 [!UICONTROL 활동 QA] 먼저 일반적인 방문자처럼 사이트를 볼 수 있습니다.
 
-  값이 비어 있는 `at_preview_token` 매개 변수로 사이트의 페이지를 로드하여(예: `https://www.mysite.com/?at_preview_token=`) 수동으로 나올 수도 있습니다.
+   * **at.js 2.*x***: 사이트에 at.js 2가 있는 경우.*x* 배포됨, 사용 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 억지로 빠져 나오다 [!UICONTROL 활동 QA]. 다음 글머리 기호에 설명된 대로 빈 값으로 사이트의 페이지를 로드하면 이 수행됩니다 *아님* at.js 2.*x* 배포됩니다.
+
+   * **at.js 1.*x***: 사이트에 at.js 1이 있는 경우.*x* 를 사용하는 것 외에 배포됨 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)를 사용하여 사이트의 페이지를 로드하여 수동으로 나올 수도 있습니다. `at_preview_token` 값이 비어 있는 매개 변수(예: `https://www.mysite.com/?at_preview_token=`).
 
 * 활동을 만드는 동안 &quot;URL은&quot;을 지정한 경우 [양식 기반 작성기의 개선 사항](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기의 페이지 전달 옵션)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), QA URL이 작동하지 않는 이유는 [!UICONTROL 활동 QA] URL 매개 변수를 추가합니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
 * at.js 1이 있는 경우&#x200B;*x*, [!UICONTROL 활동 QA] safari 또는 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우에는 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. 를 구현한 경우에도 마찬가지입니다 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
@@ -90,9 +92,9 @@ ht-degree: 38%
   | `at_preview_evaluate_as_true_audience_ids` | 문자열 | Empty | 대상 및 보고 수준에서 항상 (true)로 평가되어야 하는 segmentId-s의 밑줄로 구분된 (&quot;_&quot;) 목록은 의 범위에서 &quot;true&quot;로 평가됩니다. [!DNL Target] 요청. |
   | `_AT_Debug` | 문자열 | 창 또는 콘솔 | 콘솔 로깅 또는 새 창입니다. |
   | `adobe_mc_ref` |  |  | 기본 페이지의 참조 URL을 새 페이지에 전달합니다. `AppMeasurement.js` 버전 2.1 이상에서 사용하는 경우 [!DNL Adobe Analytics]는 이 매개 변수값을 새 페이지의 참조 URL로 사용합니다. |
-  | `adobe_mc_sdid` |  |  | 를 전달합니다. [!DNL Supplemental Data Id] (SDID) 및 [!DNL Experience Cloud Org Id] 기본 페이지에서 새 페이지로 이동합니다. 이 ID 전달 허용 [!UICONTROL Target 분석] (A4T) 을 사용하여 [!DNL Target] 을(를) 사용하여 기본 페이지에서 요청 [!DNL Analytics] 새 페이지에 을 요청합니다. |
+  | `adobe_mc_sdid` |  |  | 를 전달합니다. [!DNL Supplemental Data Id] (SDID) 및 [!DNL Experience Cloud Org Id] 기본 페이지에서 새 페이지로 이동합니다. 이 ID 전달 허용 [!UICONTROL Analytics for Target] (A4T) 을 사용하여 [!DNL Target] 을(를) 사용하여 기본 페이지에서 요청 [!DNL Analytics] 새 페이지에 을 요청합니다. |
 
-* 다음 [!UICONTROL Target QA 모드] UI는 다중 페이지 활동에서 경험의 첫 번째 URL만 표시합니다. 여정 테스트를 만들고 URL1에서 URL2로 이동한다고 가정합니다. 그러나 URL2로 이동하려는 경우 URL1에 대해 제공된 모든 URL 매개 변수를 복사하여 URL1에 표시된 대로 &quot;?&quot;를 지정한 후 URL2에 적용합니다.
+* 다음 [!UICONTROL 대상 QA 모드] UI는 다중 페이지 활동에서 경험의 첫 번째 URL만 표시합니다. 여정 테스트를 만들고 URL1에서 URL2로 이동한다고 가정합니다. 그러나 URL2로 이동하려는 경우 URL1에 대해 제공된 모든 URL 매개 변수를 복사하여 URL1에 표시된 대로 &quot;?&quot;를 지정한 후 URL2에 적용합니다.
 * 계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 활동 QA 미리보기 링크가 로드되지 않을 수 있습니다. 미리보기 링크를 다시 시도하십시오. 이 문제가 계속 발생하는 것을 방지하기 위해 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오.
 
 ## Target JavaScript 라이브러리 [!UICONTROL QA 모드] 호환성 {#compatibility}

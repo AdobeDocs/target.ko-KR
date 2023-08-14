@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
-source-wordcount: '1503'
-ht-degree: 99%
+source-wordcount: '1561'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 14일 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 빈 값으로 사이트에서 페이지를 로드하면 가 완료됨을 설명하는 정보가 추가되었습니다 *아님* at.js 2.*x* 배포됩니다. |
+|  | [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | &quot;신뢰도&quot;의 정의를 업데이트했습니다. |
+|  | [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md) | 이미지 오퍼가 의 일부가 아님을 설명하는 참고 사항이 추가되었습니다. [!UICONTROL Enterprise 사용자 권한] 모델. |
+| 8월 9일 | [Target 모바일 미리보기](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | [!DNL Adobe Experience Platform Mobile SDK]의 현재 버전에 대한 정보로 항목이 업데이트되었습니다. |
 | 8월 9일 | [Target 모바일 미리보기](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | [!DNL Adobe Experience Platform Mobile SDK]의 현재 버전에 대한 정보로 항목이 업데이트되었습니다. |
 |  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 8월 17일로 예정된 *성수기 준비로 최대 ROI 영향을 위한 전략 수립* 웨비나에 대한 정보가 추가되었습니다. |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.8.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
@@ -27,7 +31,6 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 8월 9일 | [Target 모바일 미리보기](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | [!DNL Adobe Experience Platform Mobile SDK]의 현재 버전에 대한 정보로 항목이 업데이트되었습니다. |
 |  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 8월 17일로 예정된 *성수기 준비로 최대 ROI 영향을 위한 전략 수립* 웨비나에 대한 정보가 추가되었습니다. |
 | 8월 7일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | 지원되는 at.js 버전에 대한 정보가 명확해졌습니다. |
 | 7월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#edge) | 2023년 8월 9일로 예정된 Edge 인프라 업그레이드에 대한 정보가 추가되었습니다. |
