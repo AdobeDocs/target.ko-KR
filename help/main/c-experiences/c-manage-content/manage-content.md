@@ -4,10 +4,10 @@ description: Adobe Target의 오퍼 라이브러리를 사용하여 코드 및 �
 title: 코드 및 이미지 오퍼를 관리하는 방법
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: be59e8ccbf12f7b3cc42becc36a8b3c7474f2f9e
 workflow-type: tm+mt
-source-wordcount: '563'
-ht-degree: 37%
+source-wordcount: '574'
+ht-degree: 36%
 
 ---
 
@@ -59,6 +59,11 @@ ht-degree: 37%
    * 복사
 
    오퍼 및 폴더에서 수행할 수 있는 작업에 대한 자세한 내용은 [자산 라이브러리에서 컨텐츠 작업](/help/main/c-experiences/c-manage-content/assets-working.md).
+
+   >[!NOTE]
+   >
+   >이미지 오퍼는 [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 모델.
+
 
 ## 오퍼 정의 보기 {#section_6B059DD121434E6292CAB393507D010E}
 
