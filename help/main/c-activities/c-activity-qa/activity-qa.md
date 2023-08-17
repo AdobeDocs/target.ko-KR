@@ -4,7 +4,7 @@ description: Adobe 사용 방법 알아보기 [!DNL Target] 절대 변경되지 
 title: 활동을 QA하려면 어떻게 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 62f688350387b4d92b73353d503001d47f65e021
+source-git-commit: 4742b1fd801b8143f45f719dfef9d46344843c2a
 workflow-type: tm+mt
 source-wordcount: '1762'
 ht-degree: 35%
@@ -73,7 +73,7 @@ ht-degree: 35%
 
    * **at.js 1.*x***: 사이트에 at.js 1이 있는 경우.*x* 를 사용하는 것 외에 배포됨 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)를 사용하여 사이트의 페이지를 로드하여 수동으로 나올 수도 있습니다. `at_preview_token` 값이 비어 있는 매개 변수(예: `https://www.mysite.com/?at_preview_token=`).
 
-   * **[[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}**: 사이트에 가 있는 경우 [!UICONTROL Platform Web SDK] 을(를) 배포한 경우 를 사용하여 사이트의 페이지를 로드하여 수동으로 나올 수 있습니다. `at_qa_mode` 값이 비어 있는 매개 변수(예: `https://www.mysite.com/?at_qa_mode=`).
+   * **[!DNL Adobe Experience Platform Web SDK]**: 사이트에 가 있는 경우 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 을(를) 배포한 경우 를 사용하여 사이트의 페이지를 로드하여 수동으로 나올 수 있습니다. `at_qa_mode` 값이 비어 있는 매개 변수(예: `https://www.mysite.com/?at_qa_mode=`).
 
 * 활동을 만드는 동안 &quot;URL은&quot;을 지정한 경우 [양식 기반 작성기의 개선 사항](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기의 페이지 전달 옵션)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), QA URL이 작동하지 않는 이유는 [!UICONTROL 활동 QA] URL 매개 변수를 추가합니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
 * at.js 1이 있는 경우&#x200B;*x*, [!UICONTROL 활동 QA] safari 또는 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우에는 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. 를 구현한 경우에도 마찬가지입니다 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
