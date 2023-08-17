@@ -4,9 +4,9 @@ description: Adobe 사용 방법 알아보기 [!DNL Target] 절대 변경되지 
 title: 활동을 QA하려면 어떻게 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 38aba1e137065c0e60ab82f80ddba41086887bf8
+source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1767'
 ht-degree: 35%
 
 ---
@@ -59,6 +59,20 @@ ht-degree: 35%
 
 1. 활동 링크 URL에서 생성된 보고서를 보려면 활동의 **[!UICONTROL 보고서]** 페이지를 클릭하고 **[!UICONTROL 설정]** 아이콘(  ![icon_gear 이미지](assets/icon_gear.png) )을 선택한 다음 를 선택합니다 **[!UICONTROL QA 모드 트래픽]** 다음에서 **[!UICONTROL 환경]** 드롭다운 목록입니다.
 
+## QA 모드에서 해제
+
+[!UICONTROL 활동 QA] 끈적끈적합니다. 에서 웹 사이트를 탐색한 후 [!UICONTROL 활동 QA], 사용자 [!DNL Target] 세션이 만료되거나 다음 권한이 있어야 합니다. [!DNL Target] 에서 해제 [!UICONTROL 활동 QA] 먼저 일반적인 방문자처럼 사이트를 볼 수 있습니다.
+
+* **at.js 2.*x***: 사이트에 at.js 2가 있는 경우.*x* 배포됨, 사용 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 억지로 빠져 나오다 [!UICONTROL 활동 QA]. 다음 글머리 기호에 설명된 대로 빈 값으로 사이트의 페이지를 로드하면 이 수행됩니다 *아님* at.js 2.*x* 배포됩니다.
+
+* **at.js 1.*x***: 사이트에 at.js 1이 있는 경우.*x* 를 사용하는 것 외에 배포됨 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)를 사용하여 사이트의 페이지를 로드하여 수동으로 나올 수도 있습니다. `at_preview_token` 값이 비어 있는 매개 변수입니다. 예:
+
+  `https://www.mysite.com/?at_preview_token=`
+
+* **[!DNL Adobe Experience Platform Web SDK]**: 사이트에 가 있는 경우 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 을(를) 배포한 경우 를 사용하여 사이트의 페이지를 로드하여 수동으로 나올 수 있습니다. `at_qa_mode` 값이 비어 있는 매개 변수입니다. 예:
+
+  `https://www.mysite.com/?at_qa_mode=`
+
 ## 고려 사항 {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * 이제 모든 사용자가 활동 QA를 사용할 수 있으므로 [!DNL Target] 활동 유형에서 &quot;Automated Personalization 활동 미리보기 URL 포함 미리보기&quot; 기능은 더 이상 필요하지 않습니다.
@@ -67,18 +81,6 @@ ht-degree: 35%
 * [!UICONTROL 활동 QA에서는 종료 일자가 지난 보관된 활동용 콘텐츠를 표시하지 않습니다. ] 종료된 활동을 비활성화하는 경우 다음에 대한 활동을 다시 저장해야 합니다. [!UICONTROL 활동 QA] 일 때문에.
 * 활동 가져옴 [!DNL Target Standard/Premium] (출처: [!DNL Target Classic], 예를 들어 )는 QA URL을 지원하지 않습니다.
 * 위치 [!UICONTROL 자동 할당] 및 [!UICONTROL Recommendations] 활동:에서 캡처한 방문의 영향을 받지 않습니다. [!UICONTROL 활동 QA].
-* [!UICONTROL 활동 QA] 끈적끈적합니다. 에서 웹 사이트를 탐색한 후 [!UICONTROL 활동 QA], 사용자 [!DNL Target] 세션이 만료되거나 다음 권한이 있어야 합니다. [!DNL Target] 에서 해제 [!UICONTROL 활동 QA] 먼저 일반적인 방문자처럼 사이트를 볼 수 있습니다.
-
-   * **at.js 2.*x***: 사이트에 at.js 2가 있는 경우.*x* 배포됨, 사용 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 억지로 빠져 나오다 [!UICONTROL 활동 QA]. 다음 글머리 기호에 설명된 대로 빈 값으로 사이트의 페이지를 로드하면 이 수행됩니다 *아님* at.js 2.*x* 배포됩니다.
-
-   * **at.js 1.*x***: 사이트에 at.js 1이 있는 경우.*x* 를 사용하는 것 외에 배포됨 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)를 사용하여 사이트의 페이지를 로드하여 수동으로 나올 수도 있습니다. `at_preview_token` 값이 비어 있는 매개 변수입니다. 예:
-
-     `https://www.mysite.com/?at_preview_token=`
-
-   * **[!DNL Adobe Experience Platform Web SDK]**: 사이트에 가 있는 경우 [[!UICONTROL Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 을(를) 배포한 경우 를 사용하여 사이트의 페이지를 로드하여 수동으로 나올 수 있습니다. `at_qa_mode` 값이 비어 있는 매개 변수입니다. 예:
-
-     `https://www.mysite.com/?at_qa_mode=`
-
 * 활동을 만드는 동안 &quot;URL은&quot;을 지정한 경우 [양식 기반 작성기의 개선 사항](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기의 페이지 전달 옵션)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), QA URL이 작동하지 않는 이유는 [!UICONTROL 활동 QA] URL 매개 변수를 추가합니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
 * at.js 1이 있는 경우&#x200B;*x*, [!UICONTROL 활동 QA] safari 또는 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우에는 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. 를 구현한 경우에도 마찬가지입니다 [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}.
 * 활동에서 여러 경험 대상을 사용하는 경우(예를 들어, 동일한 활동에 포함된 미국 및 영국 사이트), QA 링크가 4개의 조합(경험 A/미국 사이트, 경험 A/영국 사이트, 경험 B/미국 사이트, 경험 B/영국 사이트)에 대해 생성되지 않습니다. 두 개의 QA 링크(경험 A와 경험 B)만 생성되고, 사용자는 페이지를 보려면 적절한 대상에 대한 자격이 있어야 합니다. 영국 QA 사람은 미국 사이트를 볼 수 없습니다.
