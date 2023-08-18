@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
 workflow-type: tm+mt
 source-wordcount: '1561'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ ht-degree: 96%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 8월 14일 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 빈 값으로 사이트에서 페이지를 로드하면 가 완료됨을 설명하는 정보가 추가되었습니다 *아님* at.js 2.*x* 배포됩니다. |
-|  | [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | &quot;신뢰도&quot;의 정의를 업데이트했습니다. |
-|  | [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md) | 이미지 오퍼가 의 일부가 아님을 설명하는 참고 사항이 추가되었습니다. [!UICONTROL Enterprise 사용자 권한] 모델. |
+| 8월 14일 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 값이 빈 사이트의 페이지를 로드해도 at.js 2일 때 브라우저에서 QA 쿠키가 제거되지 *않는다는* 정보를 추가했습니다.*x*&#x200B;이(가) 배포됩니다. |
+|  | [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | “신뢰”의 정의를 업데이트했습니다. |
+|  | [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md) | 이미지 제안이 [!UICONTROL Enterprise 사용자 권한] 모델의 일부가 아님을 설명하는 메모를 추가했습니다. |
 | 8월 9일 | [Target 모바일 미리보기](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | [!DNL Adobe Experience Platform Mobile SDK]의 현재 버전에 대한 정보로 항목이 업데이트되었습니다. |
 | 8월 9일 | [Target 모바일 미리보기](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/target-mobile-preview.html){target=_blank} | [!DNL Adobe Experience Platform Mobile SDK]의 현재 버전에 대한 정보로 항목이 업데이트되었습니다. |
 |  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 8월 17일로 예정된 *성수기 준비로 최대 ROI 영향을 위한 전략 수립* 웨비나에 대한 정보가 추가되었습니다. |
