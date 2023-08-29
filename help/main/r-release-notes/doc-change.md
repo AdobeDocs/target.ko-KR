@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 645116e1c1efba3d861b21bce110e5fb9aec1f0c
+source-git-commit: e431581a43d0b6f90542413b085d18f4adbc9bbf
 workflow-type: tm+mt
-source-wordcount: '1561'
-ht-degree: 100%
+source-wordcount: '1664'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,10 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 8월 29일 | S[온디바이스 의사 결정에 대해 지원되는 기능](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 온디바이스 의사 결정 (ODD)을 사용할 때 타깃팅에 지원되는 지역 특성 목록을 추가했습니다. |
+|  | [온디바이스 의사 결정 개요](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | 온디바이스 의사 결정 (ODD)을 사용할 때 타깃팅에 지원되는 지역 특성 목록을 추가했습니다. |
+|  | [웹 보기가 있는 기본 앱에서 AEP Mobile SDK로 Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | 신규 문서. |
+|  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 예정된 Adobe Target 커뮤니티 Coffee Break(2023년 8월 30일)에 대한 정보가 추가됨: &quot;성수기 준비 상태로 최대 ROI 효과를 위한 전략&quot; 웨비나 후속 내용 |
 | 8월 14일 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 값이 빈 사이트의 페이지를 로드해도 at.js 2일 때 브라우저에서 QA 쿠키가 제거되지 *않는다는* 정보를 추가했습니다.*x*&#x200B;이(가) 배포됩니다. |
 |  | [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | “신뢰”의 정의를 업데이트했습니다. |
 |  | [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md) | 이미지 제안이 [!UICONTROL Enterprise 사용자 권한] 모델의 일부가 아님을 설명하는 메모를 추가했습니다. |
