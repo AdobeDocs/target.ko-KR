@@ -5,10 +5,10 @@ title: 이란? [!DNL Adobe Customer Journey Analytics] 대상 [!DNL Target] (CJA
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 79d4bfa7bbdaea6b779ab548b80fbcf732635ba5
+source-git-commit: ea113d1e4df68868bd9512b098ee6b17335a3e1c
 workflow-type: tm+mt
-source-wordcount: '1001'
-ht-degree: 16%
+source-wordcount: '998'
+ht-degree: 15%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 16%
 
 [!DNL Target]에서 [!DNL Customer Journey Analytics] 데이터를 사용하면 다음과 같은 세 가지 주요 이점이 있습니다.
 
-* 마케터는 언제든지 [!DNL Target] 활동 보고서에 [!DNL Customer Journey Analytics] 성공 지표 또는 보고 세그먼트를 동적으로 적용할 수 있습니다. 활동을 실행하기 전에 모든 항목을 지정할 필요는 없습니다.
+* 마케터는 를 동적으로 적용할 수 있습니다 [!DNL Customer Journey Analytics] 성공 지표 [!DNL Target] 언제든지 활동 보고서를 작성할 수 있습니다. 활동을 실행하기 전에 모든 항목을 지정할 필요는 없습니다.
 * 단일 데이터 소스는 두 개의 별도 시스템에서 데이터를 수집할 때 발생하는 분산을 최소화합니다.
 * 기존 항목 [!DNL Customer Journey Analytics] 구현은 필요한 모든 데이터를 수집합니다. 보고서에 사용할 데이터를 수집할 목적으로 페이지에 mbox를 구현할 필요가 없습니다.
 
