@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: af1dbc551199a90907abb191ee1be5f09513deda
-workflow-type: ht
-source-wordcount: '2133'
-ht-degree: 100%
+source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
+workflow-type: tm+mt
+source-wordcount: '2241'
+ht-degree: 95%
 
 ---
 
@@ -15,15 +15,38 @@ ht-degree: 100%
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
+## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2023년 8월 30일)
+
+* **주제: &quot;성수기 준비와 함께 ROI에 미치는 영향을 극대화하기 위한 전략&quot; 웨비나 후속 내용**
+* **2023년 8월 30일 수요일**
+* 오전 **8:00-9:00 (PDT, UTC-7)**
+* **[여기에서 등록](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
+
+[!DNL Adobe Target] 전문가 John Magnusson 및 John Mosbaugh가 &quot;성수기 준비 시 최대 ROI 효과 전략&quot; 웨비나(2023년 8월 17일)에서 다룬 주제와 관련된 질문에 답변할 수 있는 이 질문하기-항상성 이벤트에 참석하게 됩니다.
+
++++세부 정보 보기
+
+다음 주제가 포함됩니다.
+
+* 대시보드를 효과적으로 만들고 주요 지표를 보고하는 방법
+* 각 마케팅 채널의 영향 검토
+* 고객 행동 및 쇼핑 동향에 대해 자세히 알아보기
+* 열악한 고객 경험을 파악하고 테스트를 통해 개선
+* 사이트 전환 촉진을 위한 영업 기회 영역 파악
+
++++
+
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
 고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
 
-### 성수기 준비로 최대 ROI 영향을 위한 전략 수립
+현재 일정이 없습니다.
 
-* **2023년 8월 17일 목요일**
-* 오전 **8:00-9:00 (PDT, UTC-7)**
-* **[여기에서 등록](https://adobepeakseasonreadiness2023.experienceleague.adobeevents.com/){target=_blank}**
+## 과거 웨비나 및 스킬 빌더 세션 녹화
+
+이전 이벤트의 녹화분 액세스(가능한 경우):
+
+### 성수기 준비로 최대 ROI 영향을 위한 전략 수립
 
 매력적인 고객 경험을 제공하여 전환율을 높이십시오. 귀사는 성수기에 대비하고 있습니까? 이번 웨비나에 참여하여 최적의 성능과 최대 ROI를 달성할 수 있는 방법에 대한 전문가의 팁을 얻으십시오.
 
@@ -40,10 +63,6 @@ Adobe 고객 성공 관리자인 John Magnusson과 Macy&#39;s Inc의 MarTech &am
 * 사이트 전환을 유도할 수 있는 기회 영역 파악
 
 +++
-
-## 과거 웨비나 및 스킬 빌더 세션 녹화
-
-이전 이벤트의 녹화분 액세스(가능한 경우):
 
 ### 인증된 환경을 위한 모바일 경험 최적화 및 개인화(2023년 4월 26일)
 
