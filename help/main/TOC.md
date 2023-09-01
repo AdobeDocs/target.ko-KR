@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 30ce57ffacabb9625b4668c5482646d4acdb1e55
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 95%
+source-wordcount: '1236'
+ht-degree: 94%
 
 ---
 
@@ -89,6 +89,8 @@ ht-degree: 95%
          + [지표, 대상 및 보고서 공유 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
+   + Adobe Customer Journey Analytics(CJA4T)와 Target 통합 {#cja4t} {#hidden}
+      + [Target용 보고 소스로서의 Adobe Customer Journey Analytics(CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
@@ -126,7 +128,7 @@ ht-degree: 95%
    + 자동 타기팅 {#auto-target}
       + [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [자동 Target FAQ 및 문제 해결](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [자동 타겟 FAQ 및 문제 해결](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [보고 및 자동 타겟](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization 개요](c-activities/t-automated-personalization/automated-personalization.md)

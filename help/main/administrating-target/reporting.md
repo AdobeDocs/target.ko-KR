@@ -5,7 +5,7 @@ title: Target에서 보고를 구성하는 방법
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 30%
@@ -33,7 +33,7 @@ ht-degree: 30%
 
 ![보고 페이지](/help/main/administrating-target/assets/reporting.png)
 
-## Reporting Cloud 솔루션
+## Reporting Cloud 솔루션 {#solution}
 
 결과 및 보고서에 사용되는 데이터를 결정하는 옵션을 설정합니다.
 
@@ -42,7 +42,7 @@ ht-degree: 30%
 보고 소스를 선택하는 경우 다음 정보를 고려하십시오.
 
 * 보고 소스가 여기에서 **[!DNL Target]**&#x200B;으로 설정된 경우 [!DNL Analytics]를 보고 소스로 사용하는 활동을 활성화할 수 없습니다. 보고 소스를 다음으로 변경해야 합니다. [!DNL Target] 활동에서 또는 보고 소스를 다음으로 변경 **[!UICONTROL 활동당 선택]** 위치: **[!UICONTROL 관리] > [!UICONTROL 보고]**.
-* 보고 소스가 다음으로 설정된 경우 **[!DNL Analytics]** 여기서는 를 사용하는 활동을 활성화할 수 없습니다. [!DNL Target] 보고 소스(보고 소스가 다음으로 지정됨) **[!UICONTROL 활동당 Target])**. 보고 소스를 다음으로 변경해야 합니다. [!DNL Analytics] 활동에서 또는 보고 엔진을 다음으로 변경 **[!UICONTROL 활동당 선택]** 위치: **[!UICONTROL 관리] > [!UICONTROL 보고]**.
+* 보고 소스가 다음으로 설정된 경우 **[!DNL Analytics]** 여기서는 를 사용하는 활동을 활성화할 수 없습니다. [!DNL Target] 보고 소스(보고 소스가 다음으로 지정됨) **[!UICONTROL 활동당 타겟])**. 보고 소스를 다음으로 변경해야 합니다. [!DNL Analytics] 활동에서 또는 보고 엔진을 다음으로 변경 **[!UICONTROL 활동당 선택]** 위치: **[!UICONTROL 관리] > [!UICONTROL 보고]**.
 * 보고 소스가 다음으로 설정된 경우 **[!UICONTROL 활동당 선택]** 여기에서 선택한 보고 소스에서 지원하는 활동을 생성, 활성화 및 비활성화할 수 있습니다. 지원되는 활동의 매트릭스는 을 참조하십시오. [지원되는 활동 유형](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 위치: *Adobe Target용 보고 소스로서의 Adobe Analytics (A4t)*.
 * [!UICONTROL Automated Personalization] (AP) 선택한 보고 소스와 관계없이 활동 작성, 활성화 및 비활성화가 허용됩니다. Automated Personalization 활동은 다음을 선택할 때 지원되지 않습니다. [Adobe Target용 보고 소스로서의 Adobe Analytics (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). 다음을 지정하는 경우에도 [!DNL Analytics] 를 보고 소스로 사용할 때에는 [!DNL Target] 는 Automated Personalization 활동의 보고 소스로 사용됩니다. 자세한 내용은 [지원되는 활동 유형](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 위치: *Adobe Target용 보고 소스로서의 Adobe Analytics (A4t)*.
 
