@@ -5,9 +5,9 @@ title: 환경은 무엇이며 어떻게 사용할 수 있습니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 43291a102dee4cf03a3a427a4f29fe75d2c11221
+source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '706'
 ht-degree: 56%
 
 ---
@@ -50,7 +50,7 @@ ht-degree: 56%
 >
 >[!DNL Recommendations] 사용자는 호스트가 호스트 그룹을 전환할 경우 자신들의 행동 데이터베이스와 제품 데이터베이스를 다시 구축해야 합니다.
 >
->다음을 지정하는 경우 [Adobe Experience Platform 데이터 스트림의 기본 환경](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, 이 환경은 의 설정을 무시합니다. [!DNL Target Recommendations].
+>다음을 지정하는 경우 [의 기본 환경 [!DNL Adobe Experience Platform] 데이터스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}, 이 설정은 의 설정을 무시합니다. [!DNL Target].
 
 ## 환경 이름 변경 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
