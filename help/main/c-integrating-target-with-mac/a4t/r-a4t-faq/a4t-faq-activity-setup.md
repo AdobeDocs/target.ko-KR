@@ -4,10 +4,10 @@ description: 용 Analytics 사용 시 활동 설정에 대한 질문에 대한 �
 title: A4T의 활동 설정에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: ed4fadc338bf5a1afad87e2b245a9b00e225b92c
+source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
 workflow-type: tm+mt
 source-wordcount: '571'
-ht-degree: 16%
+ht-degree: 14%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 16%
 ## 방금 활동을 만들었습니다. 수신되는 데이터가 표시되지 않는 이유는 무엇입니까? {#section_9F8092BE4225442896F926540292F221}
 
 
-+++답변 활동이 만들어지면, [!DNL Target] 분류 파일을 (으)로 전송합니다. [!DNL Analytics]. 그러나 [!DNL Analytics] 는 데이터를 캡처하고 처리하며 분류 파일이 업데이트될 때까지 보고서에 표시되지 않습니다. 이 프로세스는 최대 24시간 정도 소요될 수 있습니다. 48시간 후에도 데이터가 표시되지 않으면 [Client Care에 문의](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)하십시오. 또는 활동을 시작하는 것을 알고 있는 경우 며칠 전에 활동을 만들 수 있으며 활동이 저장되면 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. 데이터를 처리하는 데 45-90분이 소요됩니다 [!DNL Analytics].
++++답변 활동이 만들어지면, [!DNL Target] 분류 파일을 (으)로 전송합니다. [!DNL Analytics]. 그러나 [!DNL Analytics] 는 데이터를 캡처하고 처리하며 분류 파일이 업데이트될 때까지 보고서에 표시되지 않습니다. 이 프로세스를 완료하는 데 24~72시간이 걸릴 수 있습니다. 72시간 후에도 데이터가 표시되지 않으면 [고객 지원 센터 문의](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). 또는 활동을 시작하는 것을 알고 있는 경우 며칠 전에 활동을 만들 수 있으며 활동이 저장되면 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. 데이터를 처리하는 데 45-90분이 소요됩니다 [!DNL Analytics].
 
 +++
 
@@ -51,7 +51,7 @@ ht-degree: 16%
 
 +++
 
-## 방문자가 A4T를 사용하는 자동 Target 활동의 다른 방문에서 타기팅된 경험과 제어된 경험 사이를 전환할 수 있습니까?
+## A4T를 사용하는 자동 타겟 활동의 여러 방문에서 방문자가 타겟팅과 통제 경험 사이를 전환할 수 있습니까?
 
 +++대답 visitorId가 방문 사이에 방문자에 대해 변경되지 않는다고 가정할 경우 다음은 true입니다.
 
