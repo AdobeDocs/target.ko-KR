@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
 workflow-type: tm+mt
-source-wordcount: '1722'
+source-wordcount: '1733'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 93%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 9월 1일 | [환경](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | &quot;보고할 기본 환경 설정&quot; 아래에 참고 사항이 업데이트되었습니다. |
 | 8월 30일 | [개인정보 보호](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | 섹션: &quot;Adobe Experience Platform Web SDK를 사용할 때 데이터스트림 수준 IP 난독화&quot;가 새로 추가되었습니다. |
 |  | [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | 다음 FAQ의 보고서에 데이터가 표시될 것으로 예상하도록 시간 프레임을 수정했습니다. &quot;방금 활동을 만들었습니다. 수신되는 데이터가 표시되지 않는 이유는 무엇입니까?&quot; |
 | 8월 29일 | [온디바이스 의사 결정에 대한 지원 기능](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 온디바이스 의사 결정 (ODD) 클라이언트측을 사용할 때 타깃팅에 대해 지원되는 지역 속성 목록을 추가했습니다. |
