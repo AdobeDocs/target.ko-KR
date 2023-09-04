@@ -5,9 +5,9 @@ title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2241'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 95%
 
 ## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2023년 8월 30일)
 
-* **주제: &quot;성수기 준비와 함께 ROI에 미치는 영향을 극대화하기 위한 전략&quot; 웨비나 후속 내용**
+* **주제: “성수기 준비로 최대 ROI 영향을 위한 전략 수립” 웨비나 추가 질문**
 * **2023년 8월 30일 수요일**
 * 오전 **8:00-9:00 (PDT, UTC-7)**
 * **[여기에서 등록](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
 
-[!DNL Adobe Target] 전문가 John Magnusson 및 John Mosbaugh가 &quot;성수기 준비 시 최대 ROI 효과 전략&quot; 웨비나(2023년 8월 17일)에서 다룬 주제와 관련된 질문에 답변할 수 있는 이 질문하기-항상성 이벤트에 참석하게 됩니다.
+AMA(Ask Me Anything) 이벤트에서는 [!DNL Adobe Target] 전문가인 John Magnusson과 John Mosbaugh가 &#39;성수기 준비로 최대 ROI 영향을 위한 전략 수립&#39; 웨비나(2023년 8월 17일)에서 다룬 주제와 관련된 질문에 답변합니다.
 
 +++세부 정보 보기
 
 다음 주제가 포함됩니다.
 
-* 대시보드를 효과적으로 만들고 주요 지표를 보고하는 방법
+* 효율적으로 대시보드를 생성하고 주요 지표를 보고하는 방법
 * 각 마케팅 채널의 영향 검토
-* 고객 행동 및 쇼핑 동향에 대해 자세히 알아보기
-* 열악한 고객 경험을 파악하고 테스트를 통해 개선
-* 사이트 전환 촉진을 위한 영업 기회 영역 파악
+* 고객 행동 및 쇼핑 트렌드에 대한 심층 분석
+* 열악한 고객 경험을 식별하고 테스트를 통해 개선
+* 사이트 전환을 유도할 수 있는 기회 영역 파악
 
 +++
 
