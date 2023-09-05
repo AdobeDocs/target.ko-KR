@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: da10ba6b79ff52bf793a474c97475739180591db
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '1733'
-ht-degree: 93%
+source-wordcount: '1750'
+ht-degree: 99%
 
 ---
 
@@ -15,17 +15,23 @@ ht-degree: 93%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
+## [!DNL Target] Standard/Premium 23.9.1(2023년 9월 6~11일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 9월 5일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+
 ## [!DNL Target] Standard/Premium 23.8.1 (2023년 8월 9일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 9월 1일 | [환경](/help/main/administrating-target/environments.md##section_4F8539B07C0C45E886E8525C344D5FB0) | &quot;보고할 기본 환경 설정&quot; 아래에 참고 사항이 업데이트되었습니다. |
-| 8월 30일 | [개인정보 보호](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | 섹션: &quot;Adobe Experience Platform Web SDK를 사용할 때 데이터스트림 수준 IP 난독화&quot;가 새로 추가되었습니다. |
-|  | [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | 다음 FAQ의 보고서에 데이터가 표시될 것으로 예상하도록 시간 프레임을 수정했습니다. &quot;방금 활동을 만들었습니다. 수신되는 데이터가 표시되지 않는 이유는 무엇입니까?&quot; |
-| 8월 29일 | [온디바이스 의사 결정에 대한 지원 기능](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 온디바이스 의사 결정 (ODD) 클라이언트측을 사용할 때 타깃팅에 대해 지원되는 지역 속성 목록을 추가했습니다. |
-|  | [온디바이스 의사 결정 개요](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | 온디바이스 의사 결정 (ODD) 서버측을 사용할 때 타깃팅에 대해 지원되는 지역 속성 목록을 추가했습니다. |
+| 8월 30일 | [개인정보 보호](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/privacy.html#aep){target=_blank} | 새로운 섹션 추가: “Adobe Experience Platform 웹 SDK 사용 시 데이터스트림 수준의 IP 난독화” |
+|  | [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#section_9F8092BE4225442896F926540292F221) | 다음 FAQ에서 보고서에 데이터가 표시될 것으로 예상되는 기간이 수정되었습니다. “방금 활동을 만들었습니다. 수신되는 데이터가 표시되지 않는 이유는 무엇입니까?” |
+| 8월 29일 | [온디바이스 의사 결정에 대한 지원 기능](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/supported-features.html){target=_blank} | 온디바이스 의사 결정(ODD) 클라이언트측을 사용할 때 타겟팅에 대해 지원되는 지역 속성 목록을 추가했습니다. |
+|  | [온디바이스 의사 결정 개요](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html){target=_blank} | 온디바이스 의사 결정(ODD) 서버측을 사용할 때 타겟팅에 대해 지원되는 지역 속성 목록을 추가했습니다. |
 |  | [웹 보기가 있는 기본 앱에서 AEP Mobile SDK를 사용하여 Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/native-app.html){target=_blank} | 신규 문서. |
-|  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 예정된 Adobe Target 커뮤니티 Coffee Break(2023년 8월 30일)에 대한 정보가 추가됨: &quot;성수기 준비 상태로 최대 ROI 효과를 위한 전략&quot; 웨비나 후속 내용 |
+|  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 예정된 Adobe Target 커뮤니티 커피 브레이크(2023년 8월 30일)에 대해 다음 정보가 추가되었습니다. “성수기 준비로 최대 ROI 영향을 위한 전략 수립” 웨비나 추가 질문 |
 | 8월 14일 | [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) | 값이 빈 사이트의 페이지를 로드해도 at.js 2일 때 브라우저에서 QA 쿠키가 제거되지 *않는다는* 정보를 추가했습니다.*x*&#x200B;이(가) 배포됩니다. |
 |  | [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | “신뢰”의 정의를 업데이트했습니다. |
 |  | [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md) | 이미지 제안이 [!UICONTROL Enterprise 사용자 권한] 모델의 일부가 아님을 설명하는 메모를 추가했습니다. |

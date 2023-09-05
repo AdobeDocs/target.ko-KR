@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
-workflow-type: ht
-source-wordcount: '494'
-ht-degree: 100%
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+workflow-type: tm+mt
+source-wordcount: '519'
+ht-degree: 66%
 
 ---
 
@@ -19,21 +19,23 @@ ht-degree: 100%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Adobe Target] Edge 예정된 인프라 업그레이드 {#edge}
+## [!DNL Target] Standard/Premium 23.9.1(2023년 9월 6~11일)
 
-예정된 Edge 인프라 업그레이드를 수행하려면 추가 IP 또는 도메인이 허용 목록에 있어야 합니다. Edge 배포 41-48에 대한 NAT 및 IP/도메인을 검토하고 허용 목록에 추가하십시오. 인프라 업그레이드는 2023년 8월 9일에 시작됩니다.
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공됩니다.
 
-자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}를 참조하십시오.
-
-## [!DNL Target] Standard/Premium 23.8.1 (2023년 8월 9일)
+* **9월 6일**: 아메리카 지역
+* **9월 7일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **9월 11일**: 아시아 태평양(APAC) 지역
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* [!UICONTROL 활동] 목록 페이지의 “[!UICONTROL 상태]” 열에 표시된 것처럼 때때로 활동이 제대로 동기화되지 않는 문제가 해결되었습니다. (TGT-46010 및 TGT-44831)
-* [!UICONTROL Analytics for Target] (A4T)을 보고 소스로 사용하는 활동의 [!UICONTROL 보고서] 페이지에 “[!UICONTROL Analytics에서 보기]” 링크가 표시되지 않는 문제가 해결되었습니다. (TGT-45808)
-* 소수 자릿수가 포함 숫자 대신 백분율로 표시되도록 테이블의 값 표시가 조정되었습니다. 예를 들어 .08대신 8%가 표시됩니다. (TGT-45548)
-* 고객이 [!UICONTROL 경험 타기팅] (XT) 활동에 대한 [!UICONTROL 목표 및 설정] 페이지에서 키보드 포커스를 사용하여 다음 요소로 이동하지 못하는 문제가 해결되었습니다. (TGT-44526)
-* 활동을 생성하는 도중 “[!UICONTROL 대상자 추가]” 대화 상자를 연 후 키보드 포커스가 사라지는 문제가 해결되었습니다. (TGT-44525)
+* 에서 일관되지 않은 보고 데이터를 발생시킨 문제를 수정했습니다. [!DNL Target] UI 및 [!DNL Adobe Analytics] 에 대한 UI [!UICONTROL 자동 할당] 를 사용하는 활동 [!UICONTROL Analytics for Target] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. (TGT-46112)
+* 시간 초과 오류를 방지하기 위해 Target 배달 API에 대한 PUT 호출의 시간 초과를 15초로 늘렸습니다. (TGT-46091)
+* 간에 전환할 때 잘못된 보고서 이름이 표시되는 문제를 해결했습니다. [!UICONTROL 표 보기] 및 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성] 보고서. (TGT-46040)
+* 이(가) 을(를) 개선했습니다. [!UICONTROL 시각적 경험 작성기] (VEC) - Lightning DOM(웹 구성 요소)을 지원합니다. (TGT-45422)
+* VEC 작업이 잘못된 순서로 적용되는 문제를 해결했습니다. 경우에 따라 VEC가 일부 수정 사항을 비동기적으로 적용했으며 요소에 추가 수정 사항을 추가하면 해당 요소가 다음에 표시되는 경우에 오류가 발생합니다. [!UICONTROL 삽입] 작업. (TGT-45983)
+* VEC에서 SPA(단일 페이지 애플리케이션) 페이지를 연 다음 찾아보기 모드로 이동하면 뒤로 및 앞으로 화살표가 제대로 작동하지 않는 문제를 해결했습니다. (TGT-45956)
+* SPA(단일 페이지 애플리케이션) 웹 사이트를 검색할 때 URL이 지속적으로 업데이트되지 않는 문제를 해결했습니다. (TGT-45417)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

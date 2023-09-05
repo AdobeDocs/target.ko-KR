@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 362fac25f04028dff0fb0233d418ef9ce88e53d6
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 56%
+source-wordcount: '405'
+ht-degree: 57%
 
 ---
 
@@ -38,7 +38,6 @@ ht-degree: 56%
 * 간에 전환할 때 잘못된 보고서 이름이 표시되는 문제를 해결했습니다. [!UICONTROL 표 보기] 및 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성] 보고서. (TGT-46040)
 * 이(가) 을(를) 개선했습니다. [!UICONTROL 시각적 경험 작성기] (VEC) - Lightning DOM(웹 구성 요소)을 지원합니다. (TGT-45422)
 * VEC 작업이 잘못된 순서로 적용되는 문제를 해결했습니다. 경우에 따라 VEC가 일부 수정 사항을 비동기적으로 적용했으며 요소에 추가 수정 사항을 추가하면 해당 요소가 다음에 표시되는 경우에 오류가 발생합니다. [!UICONTROL 삽입] 작업. (TGT-45983)
-* VEC에서 CSS 선택기를 지정하는 기능이 추가되었습니다. (TGT-45958 및 TGT-46017)
 * VEC에서 SPA(단일 페이지 애플리케이션) 페이지를 연 다음 찾아보기 모드로 이동하면 뒤로 및 앞으로 화살표가 제대로 작동하지 않는 문제를 해결했습니다. (TGT-45956)
 * SPA(단일 페이지 애플리케이션) 웹 사이트를 검색할 때 URL이 지속적으로 업데이트되지 않는 문제를 해결했습니다. (TGT-45417)
 

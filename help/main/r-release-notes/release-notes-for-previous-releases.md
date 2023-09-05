@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: e130c68c838e799228956c598c583038a2f68ecf
+source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
 workflow-type: tm+mt
-source-wordcount: '37043'
+source-wordcount: '37230'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,22 @@ ht-degree: 96%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2023
+
+### [!DNL Adobe Target] Edge 예정된 인프라 업그레이드 {#edge}
+
+예정된 Edge 인프라 업그레이드를 수행하려면 추가 IP 또는 도메인이 허용 목록에 있어야 합니다. Edge 배포 41-48에 대한 NAT 및 IP/도메인을 검토하고 허용 목록에 추가하십시오. 인프라 업그레이드는 2023년 8월 9일에 시작됩니다.
+
+자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}를 참조하십시오.
+
+### [!DNL Target] Standard/Premium 23.8.1 (2023년 8월 9일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* [!UICONTROL 활동] 목록 페이지의 “[!UICONTROL 상태]” 열에 표시된 것처럼 때때로 활동이 제대로 동기화되지 않는 문제가 해결되었습니다. (TGT-46010 및 TGT-44831)
+* [!UICONTROL Analytics for Target]&#x200B;(A4T)을 보고 소스로 사용하는 활동의 [!UICONTROL 보고서] 페이지에 “[!UICONTROL Analytics에서 보기]” 링크가 표시되지 않는 문제가 해결되었습니다. (TGT-45808)
+* 소수 자릿수가 포함 숫자 대신 백분율로 표시되도록 테이블의 값 표시가 조정되었습니다. 예를 들어 .08대신 8%가 표시됩니다. (TGT-45548)
+* 고객이 [!UICONTROL 경험 타기팅]&#x200B;(XT) 활동에 대한 [!UICONTROL 목표 및 설정] 페이지에서 키보드 포커스를 사용하여 다음 요소로 이동하지 못하는 문제가 해결되었습니다. (TGT-44526)
+* 활동을 생성하는 도중 “[!UICONTROL 대상자 추가]” 대화 상자를 연 후 키보드 포커스가 사라지는 문제가 해결되었습니다. (TGT-44525)
 
 ### [!DNL Target] Standard/Premium 23.7.1 (7월 24~26일)
 
@@ -329,7 +345,7 @@ ht-degree: 96%
 
 이번 릴리스에는 다음과 같은 변경 사항이 포함됩니다.
 
-* 이 릴리스에서는에 대한 콘텐츠를 미리 가져올 수 있습니다. [!UICONTROL 자동 개인화] (AP) 및 [!UICONTROL 자동 Target] (AT) 활동(이전에는 이(가) 반환하지 않음) [!DNL Target]). AP/AT 활동이 게재 경로에 있고 컨텐츠 전달에 동일한 위치를 사용하는 다른 AB/XT 활동보다 우선순위가 높은 경우 이 경우 미리 가져오기 호출의 경우(&quot;실행&quot; 흐름에 대한 변경 사항 없음) 최종 사용자가 볼 수 있는 경험이 변경될 수 있습니다.
+* 이 릴리스에서는에 대한 콘텐츠를 미리 가져올 수 있습니다. [!UICONTROL 자동 개인화] (AP) 및 [!UICONTROL 자동 타기팅] (AT) 활동(이전에는 이(가) 반환하지 않음) [!DNL Target]). AP/AT 활동이 게재 경로에 있고 컨텐츠 전달에 동일한 위치를 사용하는 다른 AB/XT 활동보다 우선순위가 높은 경우 이 경우 미리 가져오기 호출의 경우(&quot;실행&quot; 흐름에 대한 변경 사항 없음) 최종 사용자가 볼 수 있는 경험이 변경될 수 있습니다.
 
 ### [!DNL Target] 플랫폼 릴리스(3월 30일)
 
@@ -649,7 +665,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
 * 합계 행에 대한 보고에서 [!UICONTROL 평균 상승도 신뢰 구간] 및 [!UICONTROL 신뢰도가] 표시되지 않는 [!DNL Auto-Target] [!UICONTROL 문제를] 해결했습니다. 모든 개별 경험에 대해 측정이 올바르게 표시됩니다. (TGT-37301)
-* 에 영향을 주는 문제가 해결되었습니다. [!DNL Adobe Target Premium] 사용자 [!UICONTROL 자동 Target] 9월 15일 오후 2시 30분(PDT)부터 10월 6일 오전 9시 25분(PDT)까지 보고. 영향을 받는 전환 지표에 대한 보고서(“[!UICONTROL 페이지 확인함]” 또는 “[!UICONTROL mbox를 클릭함]” 옵션을 사용하여 구성됨)를 볼 때 전환 속도가 잘못 보고됩니다. 현재 알려진 전달 문제는 없습니다.
+* 에 영향을 주는 문제가 해결되었습니다. [!DNL Adobe Target Premium] 사용자 [!UICONTROL 자동 타기팅] 9월 15일 오후 2시 30분(PDT)부터 10월 6일 오전 9시 25분(PDT)까지 보고. 영향을 받는 전환 지표에 대한 보고서(“[!UICONTROL 페이지 확인함]” 또는 “[!UICONTROL mbox를 클릭함]” 옵션을 사용하여 구성됨)를 볼 때 전환 속도가 잘못 보고됩니다. 현재 알려진 전달 문제는 없습니다.
 * 카탈로그 [!UICONTROL 검색 표에] 선택 가능한 [!UICONTROL 마지막 업데이트 날짜] 열과 [!UICONTROL 마지막 업데이트 날짜] 필터를 추가했습니다. 이렇게 하면 각 개별 항목을 열어 마지막으로 업데이트한 시기를 확인할 필요가 없고 항목이 마지막으로 업데이트된 날짜로 필터링할 수 있기 때문에 시간과 노력이 절약됩니다.
 
   ![마지막으로 업데이트된 날짜 열 및 필터 그림](/help/main/r-release-notes/assets/column-and-filter.png)
@@ -740,7 +756,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 | 기능/향상 | 설명 |
 | --- | --- |
 | [!UICONTROL 자동 할당] 활동에 대한 Analytics for Target(A4T) 지원 | [!UICONTROL 자동 할당] 활동은 이제 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)을 지원합니다.<br>이 통합을 통해 [!UICONTROL 자동 할당] multi-armed bandit 기능을 사용하여 [!UICONTROL Adobe Analytics] 목표 지표 및/또는 [!UICONTROL Adobe Analytics] 보고 및 분석 기능을 사용하는 동안 트래픽을 승리 경험으로 유도할 수 있습니다.<br>이미 다음을 수행했다면 [A4T를 구현함](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md) a/B 테스트 및 경험 타깃팅 활동과 함께 사용하면 모두 준비가 된 것입니다!<br>자세한 내용은 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. |
-| 자동 타겟 및 Automated Personalization 활동을 위 방법의 응답 토큰 | 2 [응답 토큰](/help/main/administrating-target/response-tokens.md) 이(가)에 추가되었습니다. [!UICONTROL 자동 Target] 및 [!UICONTROL Automated Personalization] 활동을 통해 &quot;제어&quot; 또는 &quot;대상&quot; 트래픽에 할당된 결과로 방문자가 특정 경험을 받았는지 여부를 확인할 수 있습니다.<ul><li>`experience.trafficAllocationId` 은 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고, 방문자가 &quot;대상&quot; 트래픽 분배에서 경험을 받은 경우 1을 반환합니다.</li><li>`experience.trafficAllocationType` 은 &quot;control&quot; 또는 &quot;targeted&quot;를 반환합니다.</li></ul>제어와 타겟 트래픽에 대한 자세한 내용은 [Automated Personalization 또는 자동 타겟 활동의 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오. |
+| 자동 타겟 및 Automated Personalization 활동을 위 방법의 응답 토큰 | 2 [응답 토큰](/help/main/administrating-target/response-tokens.md) 이(가)에 추가되었습니다. [!UICONTROL 자동 타기팅] 및 [!UICONTROL Automated Personalization] 활동을 통해 &quot;제어&quot; 또는 &quot;대상&quot; 트래픽에 할당된 결과로 방문자가 특정 경험을 받았는지 여부를 확인할 수 있습니다.<ul><li>`experience.trafficAllocationId` 은 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고, 방문자가 &quot;대상&quot; 트래픽 분배에서 경험을 받은 경우 1을 반환합니다.</li><li>`experience.trafficAllocationType` 은 &quot;control&quot; 또는 &quot;targeted&quot;를 반환합니다.</li></ul>제어와 타겟 트래픽에 대한 자세한 내용은 [Automated Personalization 또는 자동 타겟 활동의 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오. |
 | [!UICONTROL 게시자] 역할 | 이 새 역할은 현재 [!UICONTROL 관찰자] 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음)과 유사합니다. 그러나 [!UICONTROL 게시자] 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다.<br>자세한 내용은 다음 문서를 참조하십시오. <ul><li>**Target Standard 사용자**: *사용자*&#x200B;에서 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions).</li><li>**Target Premium 사용자**: *기업 권한 구성*&#x200B;에서 [6단계: 역할 및 권한 지정](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80).</li></ul> |
 | A4T는 [!DNL Analysis Workspace]<br>2020년 6월 25일에 지원 | [!UICONTROL Anaytics for Target] (A4T)은 이제 [!DNL Analysis Workspace]에서 지원됩니다. . [!UICONTROL Analytics for Target(A4T) 패널을] 사용하면 [!DNL Adobe Target] 활동 및 경험을 [!DNL Analysis Workspace]에서 분석할 수 있습니다.<br>자세한 내용은 [A4T 보고의](/help/main/c-integrating-target-with-mac/a4t/reporting.md) *Analytics의 보고서* 및 Analytics 툴 안내서의 [Analytics for Target(A4T)](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ko-KR) 패널을 *참조하십시오*. |
 
@@ -861,7 +877,7 @@ Target at.js JavaScript 라이브러리의 다음 새 버전을 사용할 수 �
 * CSP(콘텐츠 보안 정책)에 대한 보안 개선이 구현되었습니다. (TGT-36190)
 * 속성 가중치 백분율 막대를 왼쪽 끝으로 밀 때 &quot;NaN%&quot;가 표시되는 문제를 해결했습니다. (TGT-36211)
 * 다양한 언어의 UI 텍스트가 올바르게 표시되도록 지역화 문제를 해결했습니다.
-* 현재 버전의 Adobe Analytics API에서 지원되지 않는 Adobe Analytics 지표를 더 이상 사용하지 않음으로써 A4T(Target for Adobe Analytics) 활동에서 사용할 수 있는 지표 목록을 표준화했습니다. 이를 통해 향후 Adobe Target 릴리스에서 A4T 지원을 확장할 수 있습니다.
+* 현재 버전의 Adobe Analytics API에서 지원되지 않는 Adobe Analytics 지표를 더 이상 사용하지 않음으로써 A4T(Adobe Analytics for Target) 활동에서 사용할 수 있는 지표 목록을 표준화했습니다. 이를 통해 향후 Adobe Target 릴리스에서 A4T 지원을 확장할 수 있습니다.
 
   다음과 같이 변경되었습니다.
 
@@ -983,7 +999,7 @@ Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔
 | --- | --- |
 | ![Premium 배지](/help/main/assets/premium.png)<br>A/B 테스트 및 XT(경험 타기팅) 활동의 권장 사항 | 권장 사항 오퍼(알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 결과 준비됨, 결과가 준비되지 않음 및 피드 장애 상태가 있습니다. (TGT-33649)<br>오퍼로서의 [Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md#status)를 참조하십시오. |
 | ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이번 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 사용해야 합니다.<br>다음을 참조하십시오 [at.js 2.x에서 도메인 간 추적 지원](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}. |
-| ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2에 대한 Target 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 소개했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 를 배포하는 것이 좋습니다. [ECID 라이브러리 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR) 를 Target의 JavaScript 라이브러리와 함께 사용하여 향후 ITP 릴리스를 완화할 수 있습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>다음을 참조하십시오 [Apple ITP(Intelligent Tracking Prevention) 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
+| ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2에 대한 Target 지원 | 현재 Target 고객은 Adobe의 CNAME 인증 프로그램을 활용하여 Apple의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 소개했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 를 배포하는 것이 좋습니다. [ECID 라이브러리 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR) 와 Target의 JavaScript 라이브러리를 함께 사용하여 향후 ITP 릴리스를 완화할 수 있습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>다음을 참조하십시오 [Apple ITP(Intelligent Tracking Prevention) 2.x](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}. |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -1799,7 +1815,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
       <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>이제 시작 및 종료 날짜 없이 시간대 대상을 만들 수 있습니다. 이렇게 하면 활동 수준에서 시작 및 종료 날짜를 제어하면서 여러 활동에서 동일한 대상(대상 복사본을 만들지 않고)을 사용할 수 있습니다. <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">시간대</a>를 참조하십시오. (TGT-25975) </p> </li> 
       <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>대상 선택 &gt; 활동 전용 대상 페이지에서 대상 위로 마우스를 가져가면 활동 전용 대상에 대해 복사 및 편집 기능을 사용할 수 있습니다. 이전에는 라이브러리 대상에서만 이 기능을 사용할 수 있었습니다. 자세한 내용은 <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> 활동 전용 대상 만들기 </a>를 참조하십시오. (TGT-27410) </p> </li> 
-      <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>여러 활동의 활동 전용 대상에 동일한 이름을 사용할 수 있습니다. 이전에는 이름이 중복되면 타임스탬프가 추가됩니다. 이름이 "평일에 Target"인 중복 대상은 "평일 1456732099201에 Target"으로 저장됩니다. </p> <p>라이브러리 대상은 여전히 고유한 이름이 필요합니다. (TGT-17967) </p> </li> 
+      <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>여러 활동의 활동 전용 대상에 동일한 이름을 사용할 수 있습니다. 이전에는 이름이 중복되면 타임스탬프가 추가됩니다. 이름이 "Target on Weekday"인 중복 대상은 "Target on Weekday-1456732099201"으로 저장됩니다. </p> <p>라이브러리 대상은 여전히 고유한 이름이 필요합니다. (TGT-17967) </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
