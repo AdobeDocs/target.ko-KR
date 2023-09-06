@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
 workflow-type: tm+mt
-source-wordcount: '519'
-ht-degree: 66%
+source-wordcount: '410'
+ht-degree: 83%
 
 ---
 
@@ -31,10 +31,6 @@ ht-degree: 66%
 
 * 에서 일관되지 않은 보고 데이터를 발생시킨 문제를 수정했습니다. [!DNL Target] UI 및 [!DNL Adobe Analytics] 에 대한 UI [!UICONTROL 자동 할당] 를 사용하는 활동 [!UICONTROL Analytics for Target] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. (TGT-46112)
 * 시간 초과 오류를 방지하기 위해 Target 배달 API에 대한 PUT 호출의 시간 초과를 15초로 늘렸습니다. (TGT-46091)
-* 간에 전환할 때 잘못된 보고서 이름이 표시되는 문제를 해결했습니다. [!UICONTROL 표 보기] 및 [!UICONTROL 자동화된 세그먼트] 및 [!UICONTROL 중요 속성] 보고서. (TGT-46040)
-* 이(가) 을(를) 개선했습니다. [!UICONTROL 시각적 경험 작성기] (VEC) - Lightning DOM(웹 구성 요소)을 지원합니다. (TGT-45422)
-* VEC 작업이 잘못된 순서로 적용되는 문제를 해결했습니다. 경우에 따라 VEC가 일부 수정 사항을 비동기적으로 적용했으며 요소에 추가 수정 사항을 추가하면 해당 요소가 다음에 표시되는 경우에 오류가 발생합니다. [!UICONTROL 삽입] 작업. (TGT-45983)
-* VEC에서 SPA(단일 페이지 애플리케이션) 페이지를 연 다음 찾아보기 모드로 이동하면 뒤로 및 앞으로 화살표가 제대로 작동하지 않는 문제를 해결했습니다. (TGT-45956)
 * SPA(단일 페이지 애플리케이션) 웹 사이트를 검색할 때 URL이 지속적으로 업데이트되지 않는 문제를 해결했습니다. (TGT-45417)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
