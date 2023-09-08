@@ -7,9 +7,9 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '410'
-ht-degree: 83%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 83%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target] Standard/Premium 23.9.1(2023년 9월 6~11일)
+## [!DNL Target] Standard/Premium 23.9.1 (2023년 9월 6~11일)
 
 이번 릴리스는 다음과 같은 순차적 일정에 따라 제공됩니다.
 
@@ -29,9 +29,9 @@ ht-degree: 83%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 에서 일관되지 않은 보고 데이터를 발생시킨 문제를 수정했습니다. [!DNL Target] UI 및 [!DNL Adobe Analytics] 에 대한 UI [!UICONTROL 자동 할당] 를 사용하는 활동 [!UICONTROL Analytics for Target] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. (TGT-46112)
-* 시간 초과 오류를 방지하기 위해 Target 배달 API에 대한 PUT 호출의 시간 초과를 15초로 늘렸습니다. (TGT-46091)
-* SPA(단일 페이지 애플리케이션) 웹 사이트를 검색할 때 URL이 지속적으로 업데이트되지 않는 문제를 해결했습니다. (TGT-45417)
+* A4T([!UICONTROL Analytics for Target])를 보고 소스로 사용하는 [!UICONTROL 자동 할당] 작업을 위한 [!DNL Target] UI 및 [!DNL Adobe Analytics] UI에서 보고 데이터가 일관되지 않게 되는 문제를 해결했습니다. (TGT-46112)
+* 시간 초과 오류를 방지하기 위해 Target Delivery API에 대한 PUT 호출 시간 초과를 15초로 늘렸습니다. (TGT-46091)
+* 단일 페이지 애플리케이션(SPA) 웹 사이트를 탐색할 때 URL이 지속적으로 업데이트되지 않는 문제를 수정했습니다. (TGT-45417)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
