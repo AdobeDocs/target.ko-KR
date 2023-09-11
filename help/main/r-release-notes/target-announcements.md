@@ -4,9 +4,9 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b830b3b3b225fd4c2c55a62a5982f59312d391cd
-workflow-type: ht
-source-wordcount: '2241'
+source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
+workflow-type: tm+mt
+source-wordcount: '2128'
 ht-degree: 100%
 
 ---
@@ -14,27 +14,6 @@ ht-degree: 100%
 # [!DNL Adobe Target] 공지 및 이벤트
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
-
-## [!DNL Adobe Target] 커뮤니티 Q&amp;A 커피 브레이크 (2023년 8월 30일)
-
-* **주제: “성수기 준비로 최대 ROI 영향을 위한 전략 수립” 웨비나 추가 질문**
-* **2023년 8월 30일 수요일**
-* 오전 **8:00-9:00 (PDT, UTC-7)**
-* **[여기에서 등록](https://experienceleaguecommunities.adobe.com/t5/target-community-events/community-q-amp-a-coffee-break-8-30-23-strategize-for-maximum/ec-p/612837#M80){target=_blank}**
-
-AMA(Ask Me Anything) 이벤트에서는 [!DNL Adobe Target] 전문가인 John Magnusson과 John Mosbaugh가 &#39;성수기 준비로 최대 ROI 영향을 위한 전략 수립&#39; 웨비나(2023년 8월 17일)에서 다룬 주제와 관련된 질문에 답변합니다.
-
-+++세부 정보 보기
-
-다음 주제가 포함됩니다.
-
-* 효율적으로 대시보드를 생성하고 주요 지표를 보고하는 방법
-* 각 마케팅 채널의 영향 검토
-* 고객 행동 및 쇼핑 트렌드에 대한 심층 분석
-* 열악한 고객 경험을 식별하고 테스트를 통해 개선
-* 사이트 전환을 유도할 수 있는 기회 영역 파악
-
-+++
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
