@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 083271c724df793425fbbebaf9303bfefe8d9b9f
+source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 92%
 
 ---
 
@@ -18,6 +18,19 @@ ht-degree: 100%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target] Standard/Premium 23.9.2 (2023년 9월 12~14일)
+
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공됩니다.
+
+* **9월 12일**: 아메리카 지역
+* **9월 13일**: 아시아 태평양(APAC) 지역
+* **9월 14일**: 유럽, 중동 및 아프리카(EMEA) 지역
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* 을(를) 변경함 [!DNL Analytics] 새로운 기능에 대한 API [!DNL Analytics] API 버전 2.0. (TGT-45345)
+* 에 영향을 주는 문제가 해결되었습니다. [!UICONTROL Automated Personalization] (AP)에서 활동의 시기 동기화를 포함하여 일부 고객을 위한 활동 [!DNL Target] 를 백엔드로 만들고 미리 보기 링크에서 예상되는 경험을 제공합니다. (TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (2023년 9월 6~11일)
 
