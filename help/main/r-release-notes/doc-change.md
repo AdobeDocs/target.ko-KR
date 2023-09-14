@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c4669e0d8d5460c4df663d0d627263a6d6dc7679
+source-git-commit: b103d912b1ae953c44f2ad35da8a7ae83e7be2ae
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 99%
+source-wordcount: '1798'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 9월 14일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 프리릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 23.9.3 릴리스. |
 | 9월 12일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.10.3에 대한 릴리스 정보가 추가되었습니다. |
 | 9월 11일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 에 대한 프리릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 23.9.2 릴리스. |
