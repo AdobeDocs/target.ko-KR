@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b103d912b1ae953c44f2ad35da8a7ae83e7be2ae
+source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 89%
+source-wordcount: '369'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2023년 9월 11일**
+**마지막 업데이트: 2023년 9월 14일**
 
 >[!NOTE]
 >
@@ -23,15 +23,32 @@ ht-degree: 89%
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Target] Standard/Premium 23.9.3 (2023년 9월 18일)
+## [!DNL Target] Standard/Premium 23.9.2 (2023년 9월 12~14일)
+
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공됩니다.
+
+* **9월 12일**: 아메리카 지역
+* **9월 13일**: 아시아 태평양(APAC) 지역
+* **9월 14일**: 유럽, 중동 및 아프리카(EMEA) 지역
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 시각적 경험 작성기(VEC)가 Lightning DOM(웹 구성 요소)을 지원하도록 개선되었습니다. (TGT-45422)
-* VEC 액션이 잘못된 순서로 적용되는 문제를 수정했습니다. 일부의 경우 VEC가 일부 수정 사항을 비동기적으로 적용했으며 요소에 수정 사항을 추가로 적용하는 경우 [!UICONTROL 삽입] 작업 후 해당 요소가 표시되면 오류가 발생했습니다. (TGT-45983)
-* VEC 문제를 해결했습니다 [!UICONTROL 오버레이] 그림자 DOM에서 요소를 지원하는 기능입니다. (TGT-46217)
-* VEC에서 단일 페이지 애플리케이션(SPA) 페이지를 연 다음 검색 모드로 전환하면 뒤로 및 앞으로 화살표가 올바르게 작동하지 않는 문제를 해결했습니다. (TGT-45956)
-* VEC에서 로드할 때 일부 웹 페이지가 실패하는 문제를 해결했습니다.
+* 을(를) 변경함 [!DNL Analytics] 새로운 기능에 대한 API [!DNL Analytics] API 버전 2.0. (TGT-45345)
+* 에 영향을 주는 문제가 해결되었습니다. [!UICONTROL Automated Personalization] (AP)에서 활동의 시기 동기화를 포함하여 일부 고객을 위한 활동 [!DNL Target] 를 백엔드로 만들고 미리 보기 링크에서 예상되는 경험을 제공합니다. (TGT-46202)
+
+## [!DNL Target] Standard/Premium 23.9.1 (2023년 9월 6~11일)
+
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공됩니다.
+
+* **9월 6일**: 아메리카 지역
+* **9월 7일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **9월 11일**: 아시아 태평양(APAC) 지역
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* A4T([!UICONTROL Analytics for Target])를 보고 소스로 사용하는 [!UICONTROL 자동 할당] 작업을 위한 [!DNL Target] UI 및 [!DNL Adobe Analytics] UI에서 보고 데이터가 일관되지 않게 되는 문제를 해결했습니다. (TGT-46112)
+* 시간 초과 오류를 방지하기 위해 Target Delivery API에 대한 PUT 호출 시간 초과를 15초로 늘렸습니다. (TGT-46091)
+* 단일 페이지 애플리케이션(SPA) 웹 사이트를 탐색할 때 URL이 지속적으로 업데이트되지 않는 문제를 수정했습니다. (TGT-45417)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
