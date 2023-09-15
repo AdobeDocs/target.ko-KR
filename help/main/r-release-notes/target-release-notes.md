@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 56435a5603c08b5c7272d3393893c427717c065b
+source-git-commit: b0bdb7d5004af73c6dff8323266ea4c58972fd80
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 90%
+source-wordcount: '496'
+ht-degree: 87%
 
 ---
 
@@ -15,13 +15,23 @@ ht-degree: 90%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2023년 9월 14일**
+**마지막 업데이트: 2023년 9월 15일**
 
 >[!NOTE]
 >
 >릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+
+## [!DNL Target] Standard/Premium 23.9.3 (2023년 9월 18일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* [!UICONTROL 시각적 경험 작성기](VEC)가 Lightning DOM(웹 구성 요소)을 지원하도록 개선되었습니다. (TGT-45422)
+* VEC 액션이 잘못된 순서로 적용되는 문제를 수정했습니다. 일부의 경우 VEC가 일부 수정 사항을 비동기적으로 적용했으며 요소에 수정 사항을 추가로 적용하는 경우 [!UICONTROL 삽입] 작업 후 해당 요소가 표시되면 오류가 발생했습니다. (TGT-45983)
+* VEC 문제를 해결했습니다 [!UICONTROL 오버레이] 그림자 DOM에서 요소를 지원하는 기능입니다. (TGT-45202 및 TGT-45262)
+* VEC에서 SPA(단일 페이지 애플리케이션) 페이지를 연 다음 로 이동하는 문제를 해결했습니다 [!UICONTROL 찾아보기] 모드로 인해 뒤로 및 앞으로 화살표가 올바르게 작동하지 않았습니다. (TGT-45956)
+* 일부 웹 페이지를 VEC에서 로드할 수 없는 문제를 해결했습니다. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (2023년 9월 12~14일)
 
@@ -33,8 +43,8 @@ ht-degree: 90%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 을(를) 변경함 [!DNL Analytics] 새로운 기능에 대한 API [!DNL Analytics] API 버전 2.0. (TGT-45345)
-* 에 영향을 주는 문제가 해결되었습니다. [!UICONTROL Automated Personalization] (AP)에서 활동의 시기 동기화를 포함하여 일부 고객을 위한 활동 [!DNL Target] 를 백엔드로 만들고 미리 보기 링크에서 예상되는 경험을 제공합니다. (TGT-46202)
+* [!DNL Analytics] API가 새로운 [!DNL Analytics] API 버전 2.0으로 변경되었습니다. (TGT-45345)
+* [!DNL Target] 백엔드에서 활동을 적시에 동기화하고 미리보기 링크에서 예상되는 경험을 제공하는 것을 포함하여 일부 고객의 [!UICONTROL Automated Personalization] (AP) 활동에 영향을 미치는 문제가 수정되었습니다. (TGT-46202)
 
 ## [!DNL Target] Standard/Premium 23.9.1 (2023년 9월 6~11일)
 
