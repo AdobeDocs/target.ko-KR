@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c8afd59614e94590fdca8345999c11e4a92c042a
-workflow-type: ht
-source-wordcount: '483'
-ht-degree: 100%
+source-git-commit: 6fa553c7179cd2a6d500bdc53cc77dc01ee906e7
+workflow-type: tm+mt
+source-wordcount: '623'
+ht-degree: 86%
 
 ---
 
@@ -18,6 +18,16 @@ ht-degree: 100%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target] Standard/Premium 23.9.3 (2023년 9월 18일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* 이(가) 을(를) 개선했습니다. [!UICONTROL 시각적 경험 작성기] (VEC) - Lightning Web Components(Light DOM)를 지원합니다. (TGT-45422)
+* VEC 액션이 잘못된 순서로 적용되는 문제를 수정했습니다. 일부의 경우 VEC가 일부 수정 사항을 비동기적으로 적용했으며 요소에 수정 사항을 추가로 적용하는 경우 [!UICONTROL 삽입] 작업 후 해당 요소가 표시되면 오류가 발생했습니다. 또한 앵커 링크를 클릭할 때 업데이트되는 VEC URL도 수정합니다. (TGT-45983)
+* VEC 문제를 해결했습니다 [!UICONTROL 오버레이] 그림자 DOM에서 요소를 지원하는 기능입니다. (TGT-45202 및 TGT-45262)
+* VEC에서 SPA(단일 페이지 애플리케이션) 페이지를 연 다음 로 이동하는 문제를 해결했습니다 [!UICONTROL 찾아보기] 모드로 인해 뒤로 및 앞으로 화살표가 올바르게 작동하지 않았습니다. (TGT-45956)
+* 일부 웹 페이지를 VEC에서 로드할 수 없는 문제를 해결했습니다. (TGT-45983)
 
 ## [!DNL Target] Standard/Premium 23.9.2 (2023년 9월 12~14일)
 
