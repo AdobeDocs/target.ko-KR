@@ -4,10 +4,10 @@ description: ' [!DNL Analytics] for [!DNL Target] (A4T)을 사용하여 [!DNL An
 title: ' [!DNL Analytics] for [!DNL Target] (A4T)이란 무엇입니까?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 3493ea35ee161d4a643dc45feab01347f9d14ef1
+source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
 workflow-type: tm+mt
-source-wordcount: '1131'
-ht-degree: 100%
+source-wordcount: '1148'
+ht-degree: 98%
 
 ---
 
@@ -44,7 +44,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 * A4T 사용 시 하나의 mbox 기반 지표만 허용됩니다.
 * [!DNL Target]에서 [!DNL Analytics]로의 서버 간 호출은 [!DNL Analytics]로 활동 및 경험 정보를 전송합니다. 이 통합은 [!DNL Target] 또는 [!DNL Analytics]에 대해 추가 서버 호출을 발생시키지 않습니다.
 
-   경우에 따라 [!DNL Target]에서 [!DNL Analytics]로의 분류가 실패하며 [!DNL Analytics]의 데이터가 활동에 표시되지 않습니다. [Analytics 및 Target 통합 문제 해결 (A4T)](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)을 참조하십시오. 추가 지원이 필요한 경우 [클라이언트 지원 팀에 문의](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)할 수도 있습니다.
+  경우에 따라 [!DNL Target]에서 [!DNL Analytics]로의 분류가 실패하며 [!DNL Analytics]의 데이터가 활동에 표시되지 않습니다. [Analytics 및 Target 통합 문제 해결 (A4T)](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)을 참조하십시오. 추가 지원이 필요한 경우 [클라이언트 지원 팀에 문의](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)할 수도 있습니다.
 
 ## A4T 구현
 
@@ -58,7 +58,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 |--- |--- |--- |
 | [수동 트래픽 분할을 사용하는 A/B 활동](/help/main/c-activities/t-test-ab/test-ab.md) | 예 |  |
 | [자동 할당을 사용하는 A/B 활동](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 예 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. |
-| [자동 타겟을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 아니요 |  |
+| [자동 타겟을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 예 (at.js)<P>아니요(Platform Web SDK) | 자동 타겟 활동에 대한 A4T 지원은 현재 at.js에 대해서만 지원됩니다. |
 | [경험 타겟팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |  |
 | [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 | [!UICONTROL 요소 기여도] 보고서를 가져오려면 mbox 기반 목표 지표가 필요합니다. [!UICONTROL 요소 기여도] 보고서는 현재 [!DNL Analytics] 지표를 지원하지 않습니다. |
 | [자동화된 개인화(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |  |
@@ -126,4 +126,3 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 >* [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
 >* [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html): Platform Web SDK에 대한 개요 정보가 포함되어 있습니다.
 >* [Target 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html): [!DNL Target] 및 [!DNL Platform Web SDK]와 관련된 정보가 포함되어 있습니다.
-
