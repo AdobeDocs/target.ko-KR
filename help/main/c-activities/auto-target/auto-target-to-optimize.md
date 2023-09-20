@@ -1,59 +1,58 @@
 ---
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결
-description: 다음 방법에 대해 알아보기 [!UICONTROL 자동 Target] 의 활동 [!DNL Target] 은 고객 프로필 및 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
-title: 이란? [!UICONTROL 자동 Target] 활동?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+description: 다음 방법에 대해 알아보기 [!UICONTROL 자동 타기팅] 의 활동 [!DNL Target] 은 고객 프로필 및 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
+title: 이란? [!UICONTROL 자동 타기팅] 활동?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
 workflow-type: tm+mt
-source-wordcount: '1965'
-ht-degree: 50%
+source-wordcount: '1984'
+ht-degree: 42%
 
 ---
 
 # [!UICONTROL 자동 타겟 개요]
 
-[!UICONTROL 자동 Target] 의 활동 [!DNL Adobe Target] 컨텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택합니다. [!UICONTROL 자동 Target] 은 개별 고객 프로필 및 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
+[!UICONTROL 자동 타기팅] 의 활동 [!DNL Adobe Target] 컨텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 선택합니다. [!UICONTROL 자동 타기팅] 은 개별 고객 프로필 및 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공합니다.
 
 >[!NOTE]
 >
 >* [!UICONTROL 자동 타겟]은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다. 이 라이센스에서 제공하는 고급 기능에 대한 자세한 내용은 [Target Premium](/help/main/c-intro/intro.md)을 참조하십시오.
 >
->* [!UICONTROL Target 분석] (A4T) 지원 [!UICONTROL 자동 Target] 활동. 자세한 내용은 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오.
+>* [!UICONTROL Analytics for Target] (A4T) 지원 [!UICONTROL 자동 타기팅] 활동. 자세한 내용은 [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오.
 
+## 자동 타겟을 사용한 실제 성공 사례 {#success}
 
-## 자동 Target을 사용한 실제 성공 사례 {#success}
-
-한 대형 의류 소매업체가 최근 [!UICONTROL 자동 Target] 활동은 10개의 제품 카테고리 기반 경험(무작위 제어 포함)을 통해 각 방문자에게 올바른 콘텐츠를 제공합니다. &quot;[!UICONTROL 장바구니에 추가]이(가) 기본 최적화 지표로 선택되었습니다. 타겟팅된 경험의 상승도는 평균 29.09%였습니다. 빌드 후 [!UICONTROL 자동 Target] 모델, 활동은 90% 개인화된 경험으로 설정되었습니다.
+한 대형 의류 소매업체가 최근 [!UICONTROL 자동 타기팅] 활동은 10개의 제품 카테고리 기반 경험(무작위 제어 포함)을 통해 각 방문자에게 올바른 콘텐츠를 제공합니다. &quot;[!UICONTROL 장바구니에 추가]이(가) 기본 최적화 지표로 선택되었습니다. 타겟팅된 경험의 상승도는 평균 29.09%였습니다. 빌드 후 [!UICONTROL 자동 타기팅] 모델, 활동은 90% 개인화된 경험으로 설정되었습니다.
 
 불과 열흘 만에 170만 달러 이상의 리프트 달성이 이뤄졌다.
 
-사용 방법을 배우려면 계속 읽어 보십시오. [!UICONTROL 자동 Target] 조직의 상승도 및 매출을 늘리십시오.
+사용 방법을 배우려면 계속 읽어 보십시오. [!UICONTROL 자동 타기팅] 조직의 상승도 및 매출을 늘리십시오.
 
 ## 개요 {#section_972257739A2648AFA7E7556B693079C9}
 
-[3단계 안내 워크플로우를 사용하여 A/B 활동을 작성](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)하는 동안 [!UICONTROL 개인화된 경험에 대한 자동 타겟] 선택 사항을 사용하여 트래픽을 할당하도록 선택할 수 있습니다.
+While [A/B 활동 만들기](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 안내가 있는 3단계 워크플로를 사용하여 **[!UICONTROL 개인화된 경험에 대한 자동 타겟]** 옵션 **[!UICONTROL 타겟팅]** 페이지(2단계).
 
 ![개인화된 경험에 대한 자동 타겟](/help/main/c-activities/assets/auto-target-ui-new.png)
 
-A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하면 한 번의 클릭으로 마케터가 정의한 일련의 경험들을 기반으로 개인화하는 기계 학습을 활용할 수 있습니다. [!UICONTROL 자동 Target] 는 기존의 A/B 테스트나 [!UICONTROL 자동 할당], 각 방문자에 대해 표시할 경험을 결정합니다. 목표가 단일 승자를 찾는 것인 A/B 활동과는 달리, [!UICONTROL 자동 타겟]은 주어진 방문자에 대해(방법 프로필과 기타 상황 정보를 기반으로) 최고의 경험을 자동으로 결정하여 높은 수준으로 개인화된 경험을 제공합니다.
+A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하면 한 번의 클릭으로 마케터가 정의한 일련의 경험들을 기반으로 개인화하는 기계 학습을 활용할 수 있습니다. [!UICONTROL 자동 타기팅] 는 기존의 A/B 테스트나 [!UICONTROL 자동 할당], 각 방문자에 대해 표시할 경험을 결정합니다. 목표가 단일 승자를 찾는 것인 A/B 활동과 달리, [!UICONTROL 자동 타기팅] 은 주어진 방문자에 대해 최상의 경험을 자동으로 결정합니다. 최상의 경험은 고도로 개인화된 경험을 제공하기 위해 방문자의 프로필 및 기타 컨텍스트 정보를 기반으로 합니다.
 
-과 비슷하게 [!UICONTROL Automated Personalization], [!UICONTROL 자동 Target] 를 사용합니다. [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)를 사용하여 방문자에게 표시할 최고의 경험을 결정할 수 있습니다. [!UICONTROL 자동 타겟]은 방문자의 행동 변화에 적응할 수 있으므로 상승도를 제공하도록 지속적으로 실행할 수 있습니다. 이를 때로 &quot;항시적&quot; 모드라고도 합니다.
+과 비슷하게 [!UICONTROL Automated Personalization], [!UICONTROL 자동 타기팅] 를 사용합니다. [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md)를 사용하여 방문자에게 표시할 최고의 경험을 결정할 수 있습니다. 이유 [!UICONTROL 자동 타기팅] 방문자의 행동 변화에 적응할 수 있으며 상승도를 제공하도록 지속적으로 실행할 수 있습니다. 이 방법을 &quot;항시적&quot; 모드라고도 합니다.
 
 지정된 방문자에 대한 경험 할당이 고정된 A/B 활동과 달리, [!UICONTROL 자동 타겟]은 각 방문을 통해 지정된 비즈니스 목표를 최적화합니다. [!UICONTROL 자동화된 개인화]에서와 같이, [!UICONTROL 자동 타겟]은 기본적으로 활동의 트래픽 일부를 상승도를 측정하기 위한 통제군으로 예약합니다. 통제군에 있는 방문자는 활동에서 임의 경험을 제공받습니다.
 
 ## 고려 사항
 
-을 사용할 때 몇 가지 중요한 고려 사항이 있습니다 [!UICONTROL 자동 Target]:
+을 사용할 때 몇 가지 중요한 고려 사항이 있습니다 [!UICONTROL 자동 타기팅]:
 
-* 특정 활동을에서 전환할 수 없습니다. [!UICONTROL 자동 Target] 끝 [!UICONTROL Automated Personalization], 또는 그 반대의 경우도 가능합니다.
-* 에서 전환할 수 없습니다. [!UICONTROL 수동] 트래픽 할당(기존) [!UICONTROL A/B 테스트]) 받는 사람 [!UICONTROL 자동 Target], 또는 활동이 초안으로 저장된 후 그 반대의 경우도 가능합니다.
-* 한 모델은 개인화된 전략과 임의로 제공된 트래픽의 성능 대 전체 우승 경험에 모든 트래픽을 보내기 위해 빌드됩니다. 이 모델은 기본 환경에서만 히트 및 전환을 고려합니다.
+* 특정 활동을에서 전환할 수 없습니다. [!UICONTROL 자동 타기팅] 끝 [!UICONTROL Automated Personalization], 그리고 그 반대입니다.
+* 에서 전환할 수 없습니다. [!UICONTROL 수동] 트래픽 할당(기존) [!UICONTROL A/B 테스트]) 받는 사람 [!UICONTROL 자동 타기팅], 활동 후의 반대는 초안으로 저장됩니다.
+* 한 가지 모델이 만들어져 무작위로 제공되는 트래픽과 전체 우승 경험에 모든 트래픽을 보내는 개인화 전략의 성능을 식별합니다. 이 모델은 기본 환경에서만 히트 및 전환을 고려합니다.
 
-   두 번째 모델 세트의 트래픽은 각 모델링 그룹 (AP) 또는 경험 (AT)에 대해 빌드됩니다. 이러한 각 모델에 대해 모든 환경의 히트 및 전환이 고려됩니다.
+  두 번째 모델 세트의 트래픽은 각 모델링 그룹 (AP) 또는 경험 (AT)에 대해 빌드됩니다. 이러한 각 모델에 대해 모든 환경의 히트 및 전환이 고려됩니다.
 
-   요청은 환경에 관계없이 동일한 모델에서 제공되지만, 복수의 트래픽은 식별된 전체 우승 경험이 실제 동작과 일관되도록 기본 환경에서 가져와야 합니다.
+  요청은 환경에 관계없이 동일한 모델에서 제공되지만, 복수의 트래픽은 식별된 전체 우승 경험이 실제 동작과 일관되도록 기본 환경에서 가져와야 합니다.
 
 * 최소 2개의 경험을 사용합니다.
 
@@ -73,9 +72,9 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 | 용어 | 세부 사항 |
 |--- |--- |
-| [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 자동 타겟]과 자동화된 개인화 모두에서 사용되는 Target의 주 개인화 알고리즘은 랜덤 포레스트입니다.  Random Forest와 같은 Ensemble 방식에서는 Constituent 학습 알고리즘에서 얻을 수 있는 것보다 더 나은 예측 성과를 얻기 위해 여러 학습 알고리즘을 사용합니다. 의 Random Forest 알고리즘 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 Target] 활동은 분류법, 즉 회귀법으로, 훈련 시간에 다수의 의사결정 나무를 구성하여 작동한다. |
-| [Target의 개인화 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 자동 타겟] 및 자동화된 개인화 모델을 위한 데이터 입력 방법에는 여러 가지가 있습니다. |
-| [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md) | Target의 개인화 알고리즘은 자동으로 다양한 데이터를 수집합니다. |
+| [Random Forest 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!DNL Target]에 사용된 의 기본 개인화 알고리즘 [!UICONTROL 자동 타기팅] 및 [!UICONTROL Automated Personalization] 은 Random Forest입니다. Random Forest와 같은 앙상블 방법은 구성 학습 알고리즘 중 어느 것으로부터도 얻을 수 있는 것보다 더 나은 예측 성능을 얻기 위해 다중 학습 알고리즘을 사용한다. 의 Random Forest 알고리즘 [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타기팅] 활동은 분류법, 즉 회귀법으로, 훈련 시간에 다수의 의사결정 나무를 구성하여 작동한다. |
+| [데이터 업로드 [!DNL Target]의 개인화 알고리즘](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | [!UICONTROL 자동 타겟] 및 자동화된 개인화 모델을 위한 데이터 입력 방법에는 여러 가지가 있습니다. |
+| [다음에 대한 데이터 수집 [!DNL Target]의 개인화 알고리즘](/help/main/c-activities/t-automated-personalization/ap-data.md) | [!DNL Target]의 개인화 알고리즘은 자동으로 다양한 데이터를 수집합니다. |
 
 ## 트래픽 할당 결정 {#section_AB3656F71D2D4C67A55A24B38092958F}
 
@@ -83,9 +82,9 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 [!UICONTROL 사용자 지정 할당] 드롭다운 목록에서 다음 선택 사항 중에 선택할 수 있습니다.
 
-* 개인화 알고리즘 평가
-* 개인화 트래픽 극대화
-* 사용자 지정 할당
+* [!UICONTROL 개인화 알고리즘 평가]
+* [!UICONTROL 개인화 트래픽 극대화]
+* [!UICONTROL 사용자 지정 할당]
 
 ![할당 목표 드롭다운 목록](/help/main/c-activities/assets/split-new.png)
 
@@ -103,13 +102,13 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 ## 언제 자동화된 개인화보다 [!UICONTROL 자동 타겟][!UICONTROL 을 선택해야 합니까]? {#section_BBC4871C87944DD7A8B925811A30C633}
 
-다음과 같은 몇 가지 시나리오를 사용할 수 있습니다 [!UICONTROL 자동 Target] 초과 [!UICONTROL Automated Personalization]:
+다음과 같은 몇 가지 시나리오를 사용할 수 있습니다 [!UICONTROL 자동 타기팅] 초과 [!UICONTROL Automated Personalization]:
 
-* 한 경험을 형성하기 위해 자동으로 결합하게 되는 개별 오퍼들이 아닌 전체 경험을 정의하려는 경우.
+* 경험을 형성하기 위해 자동으로 결합되는 개별 오퍼가 아닌 전체 경험을 정의하려는 경우.
 * 의 전체 세트를 사용하려면 [!UICONTROL 시각적 경험 작성기] (VEC) 기능이에 의해 지원되지 않음 [!UICONTROL 자동 개인화]: 사용자 지정 코드 편집기, 여러 경험 대상 등.
-* 다양한 경험에서 내 페이지의 구조를 변경하려는 경우. 예를 들어 홈 페이지에서 요소를 다시 정렬하려면 [!UICONTROL 자동 Target] 다음보다 사용하기가 더 적절함: [!UICONTROL Automated Personalization].
+* 다양한 경험에서 내 페이지의 구조를 변경하려는 경우. 예를 들어 홈 페이지에서 요소를 다시 정렬하려면 [!UICONTROL 자동 타기팅] 다음보다 사용하기가 더 적절함: [!UICONTROL Automated Personalization].
 
-## 역할 [!UICONTROL 자동 Target] 은 과 공통점이 있습니다. [!UICONTROL Automated Personalization]? {#section_2A601F482F9A44E38D4B694668711319}
+## 역할 [!UICONTROL 자동 타기팅] 은 과 공통점이 있습니다. [!UICONTROL Automated Personalization]? {#section_2A601F482F9A44E38D4B694668711319}
 
 ### 알고리즘이 각 방문에 대해 유용한 결과를 내놓도록 최적화됩니다.
 
@@ -133,7 +132,7 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 ### [!DNL Target] 자동으로 모두 사용 [!DNL Adobe Experience Cloud] 개인화 모델을 만들 대상을 공유했습니다.
 
-* 모델에 대상을 추가하기 위해 특정한 작업을 수행할 필요가 없습니다. [!DNL Experience Cloud Audiences]에서 [!DNL Target] 사용에 대한 자세한 내용은 [Experience Cloud 대상](/help/main/c-integrating-target-with-mac/mmp.md)을 참조하십시오
+* 모델에 대상을 추가하기 위해 특정한 작업을 수행할 필요가 없습니다. [!DNL Target]에서 [!DNL Experience Cloud Audiences] 사용에 대한 자세한 내용은 [Experience Cloud 대상](/help/main/c-integrating-target-with-mac/mmp.md)을 참조하십시오.
 
 ### 마케터는 오프라인 데이터, 성향 점수 또는 기타 사용자 지정 데이터를 업로드하여 개인화 모델을 만들 수 있습니다.
 
@@ -154,7 +153,7 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 ### 자동 타겟에는 완전한 설정 기능이 있습니다.
 
-* 이유 [!UICONTROL 자동 Target] 은(는) A/B 활동 워크플로우에 포함되어 있습니다. [!UICONTROL 자동 Target] 보다 성숙되고 완전한 혜택 [!UICONTROL 시각적 경험 작성기] (VEC). 다음을 사용할 수도 있습니다. [QA 링크](/help/main/c-activities/c-activity-qa/activity-qa.md) 포함 [!UICONTROL 자동 Target].
+* 이유 [!UICONTROL 자동 타기팅] 은(는) A/B 활동 워크플로우에 포함되어 있습니다. [!UICONTROL 자동 타기팅] 보다 성숙되고 완전한 혜택 [!UICONTROL 시각적 경험 작성기] (VEC). 다음을 사용할 수도 있습니다. [QA 링크](/help/main/c-activities/c-activity-qa/activity-qa.md) 포함 [!UICONTROL 자동 타기팅].
 
 ### 자동 타겟에서는 광범위한 온라인 테스트 프레임워크를 제공합니다.
 
@@ -163,9 +162,9 @@ A/B 활동 흐름 내의 [!UICONTROL 자동 타겟] 선택 사항을 사용하�
 
 ## 보고 및 [!UICONTROL 자동 타겟] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-자세한 내용은 [보고 및 자동 Target](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
+자세한 내용은 [보고 및 자동 타겟](/help/main/c-activities/auto-target/reporting-and-auto-target.md).
 
-## 교육 비디오: 자동 Target 활동 이해 ![개요 배지](/help/main/assets/overview.png)
+## 교육 비디오: 자동 타겟 활동 이해
 
 다음 비디오에서는 [!UICONTROL 자동 타겟] A/B 활동을 설정하는 방법을 설명합니다.
 

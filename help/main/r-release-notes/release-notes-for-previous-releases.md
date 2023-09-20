@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 8da8daf7da0cfe3e4936cb48b4c594c464708775
+source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
 workflow-type: tm+mt
-source-wordcount: '37230'
+source-wordcount: '37213'
 ht-degree: 96%
 
 ---
@@ -2933,10 +2933,6 @@ Adobe Target Standard/Premium 16.5.1(2016년 5월 19일) 릴리스에는 다음�
   <tr> 
    <td colname="col1"> 경험 버전 </td> 
    <td colname="col2"> <p>이제 다른 대상으로 타기팅된 버전을 A/B 활동의 경험 내에서 설정할 수 있습니다. </p> <p><a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">다중 대상자에게 경험을 타겟하기</a>를 참조하십시오. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> QA/미리보기 URL </td> 
-   <td colname="col2"> <p>이제 양식 기반 경험 작성기에 대해 미리보기 URL을 사용할 수 있습니다. </p> <p><a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">경험 URL 보기</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 권장 사항 사용자 지정 알고리즘 </td> 

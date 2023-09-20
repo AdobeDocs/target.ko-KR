@@ -4,10 +4,10 @@ description: Adobe 사용 방법 알아보기 [!DNL Target] 절대 변경되지 
 title: 활동을 QA하려면 어떻게 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 87cfc86bdabeb87424d2cf9fff7754dd85f7ac0b
+source-git-commit: 9fc17a3d3c0b9f5b07abcd7583e61e7931a040cd
 workflow-type: tm+mt
 source-wordcount: '1767'
-ht-degree: 35%
+ht-degree: 36%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 35%
 
 [!UICONTROL 활동 QA] 끈적끈적합니다. 에서 웹 사이트를 탐색한 후 [!UICONTROL 활동 QA], 사용자 [!DNL Target] 세션이 만료되거나 다음 권한이 있어야 합니다. [!DNL Target] 에서 해제 [!UICONTROL 활동 QA] 먼저 일반적인 방문자처럼 사이트를 볼 수 있습니다.
 
-* **at.js 2.*x***: 사이트에 at.js 2가 있는 경우.*x* 배포됨, 사용 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 억지로 빠져 나오다 [!UICONTROL 활동 QA]. 다음 글머리 기호에 설명된 대로 빈 값으로 사이트의 페이지를 로드하면 이 수행됩니다 *아님* at.js 2.*x* 배포됩니다.
+* **at.js 2.*x***: 사이트에 at.js 2가 있는 경우.*x* 배포됨, 사용 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) 억지로 빠져 나오다 [!UICONTROL 활동 QA]. 다음 글머리 기호에 설명된 대로 빈 값으로 사이트의 페이지를 로드하면 이 수행됩니다 *아님* at.js 2.*x*이(가) 배포됩니다.
 
 * **at.js 1.*x***: 사이트에 at.js 1이 있는 경우.*x* 를 사용하는 것 외에 배포됨 [Target QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)를 사용하여 사이트의 페이지를 로드하여 수동으로 나올 수도 있습니다. `at_preview_token` 값이 비어 있는 매개 변수입니다. 예:
 
@@ -124,4 +124,3 @@ ht-degree: 35%
 | [!UICONTROL 경험 타겟팅] (XT) | 예 | 예 | 예 |
 | [!UICONTROL 다변량 테스트] (MVT) | 예 | 예 | 예 |
 | [!UICONTROL Recommendations] | 예 | 예 | 예 |
-
