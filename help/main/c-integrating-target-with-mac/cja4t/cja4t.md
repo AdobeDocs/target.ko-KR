@@ -5,10 +5,10 @@ title: ' [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)이란
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 13c899b656d9f15e7368d981ac25540c46caccb2
-workflow-type: ht
-source-wordcount: '919'
-ht-degree: 100%
+source-git-commit: 1e130d616c7042b61a12594eb1d9d57970d6a409
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 95%
 
 ---
 
@@ -30,6 +30,7 @@ CJA4T 통합을 사용하기 전에 다음 정보를 고려하십시오.
    * [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 계정이 있는 경우 *사용자*&#x200B;에서 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 참조하십시오.
    * [Target Premium](/help/main/c-intro/intro.md#premium) 계정이 있는 경우 *Enterprise 사용자 권한*&#x200B;에서 [역할 및 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)을 참조하십시오.
 
+* 다음에 대한 역할의 일부여야 합니다. [!DNL Adobe Experience Platform] 을(를) 설정하려면 [!DNL Target] 활동 대상 [!DNL Customer Journey Analytics] 를 보고 소스로 사용합니다. 자세한 내용은 [에서 역할 추가 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions.html){target=_blank} 위치: *권한 구성* 다음에서 *데이터 설계자 및 엔지니어 자습서.*
 * 설정에 따라 활동별로 또는 조직 수준에서 보고가 변경될 수 있습니다. *Target의 보고 구성*&#x200B;에서 [Cloud 솔루션 보고](/help/main/administrating-target/reporting.md#solution)를 참조하십시오.
 * 하나의 보고 소스 또는 다른 보고 소스를 사용하십시오. 여러 보고 소스에서 한 활동에 대한 데이터를 수집할 수 없습니다.
 * [!DNL Customer Journey Analytics]를 보고 소스로 설정하면 보고용 샌드박스를 지정하라는 메시지가 표시됩니다. 구성 중에는 액세스 권한이 있는 샌드박스만 표시됩니다.
