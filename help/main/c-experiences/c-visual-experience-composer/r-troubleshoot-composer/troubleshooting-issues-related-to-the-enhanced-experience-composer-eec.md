@@ -4,7 +4,7 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법 알�
 title: 고급 경험 작성기 관련 문제를 해결하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: f948e6bd66a42939834b598821d68b93c82fa6af
 workflow-type: tm+mt
 source-wordcount: '451'
 ht-degree: 40%
@@ -21,15 +21,15 @@ ht-degree: 40%
 
 허용 목록에 추가하다 IT 팀에 다음 IP 주소를 요청하십시오.
 
-* 34.253.100.20
-* 34.248.100.23
-* 52.49.228.246
-* 54.205.42.123
-* 107.22.177.39
-* 52.201.5.105
-* 52.193.211.177
-* 18.180.24.249
-* 52.194.154.154
+* 52.18.97.86
+* 52.209.31.20
+* 52.214.41.220
+* 54.144.66.225
+* 54.82.53.36
+* 34.206.104.26
+* 3.115.90.128
+* 18.178.137.67
+* 3.112.77.52
 
 에 다음 오류 메시지가 표시될 수 있습니다 [!DNL Target]:
 
@@ -41,11 +41,11 @@ ht-degree: 40%
 
 * **문제:**[!UICONTROL 웹 사이트 도메인(ISP)에서 고급 경험 작성기를 차단하고 있습니다].
 
-   **해결 방법:** 허용 목록에 추가하다 위에 나열된 IP 주소입니다.
+  **해결 방법:** 허용 목록에 추가하다 위에 나열된 IP 주소입니다.
 
 * **문제:** IP 주소는 허용 목록에추가된이지만 웹 사이트에서 TLS 버전 1.2를 지원하지 않습니다. [!DNL Target] 는 현재 1.2의 기본 구성을 사용합니다. 다음 이전 [!DNL Target] 18.4.1(2018년 4월 25일), 기본 구성은 TLS 1.0을 지원합니다. 자세한 내용은 [TLS(전송 계층 보안) 암호화 변경 사항](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}.
 
-   **해결 방법:**[!UICONTROL (고급 시각적 경험 작성기가 TLS 1.2를 사용하는 사이트의 보안 페이지에 로드되지 않습니다.) 질문을 참조하십시오.]
+  **해결 방법:**[!UICONTROL (고급 시각적 경험 작성기가 TLS 1.2를 사용하는 사이트의 보안 페이지에 로드되지 않습니다.) 질문을 참조하십시오.]
 
 ## EEC가 TLS 1.0를 사용하는 사이트의 보안 페이지에 로드되지 않습니다. (EEC만 해당) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
