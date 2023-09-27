@@ -1,19 +1,19 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
-description: Adobe에서 시각적 경험 작성기(VEC)를 사용하는 방법에 대해 알아봅니다 [!DNL Target] 에 대한 다변량 테스트(MVT) 권한을 만들려면 [!DNL Target]-enabled 페이지.
-title: 다변량 테스트를 만들려면 어떻게 해야 합니까?
+description: 사용 방법 알아보기 [!UICONTROL 시각적 경험 작성기] (VEC) 위치 [!DNL Adobe Target] 을(를) 만들려면 [!UICONTROL 다변량 테스트] (MVT).
+title: 를 만드는 방법 [!UICONTROL 다변량 테스트]?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 87%
+source-wordcount: '535'
+ht-degree: 62%
 
 ---
 
 # 다변량 테스트 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL VEC(시각적 경험 작성기)]를 사용하면 Target을 사용할 수 있는 페이지에 대한 테스트 권한을 쉽게 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 쉽게 수정할 수 있습니다.
+다음 [!UICONTROL 시각적 경험 작성기] (VEC) 위치 [!DNL Adobe Target] 를 쉽게 만들 수 있습니다. [!UICONTROL 다변량 테스트] 및 를 사용하여 내에서 페이지의 일부 수정 [!DNL Target].
 
 다음 [!DNL Target] 포인트 앤 클릭 편집기를 사용하면 원하는 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
 
@@ -25,23 +25,13 @@ ht-degree: 87%
 
    >[!NOTE]
    >
-   >사용 가능한 활동 유형은 Target 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL 자동화된 개인화]는 [Target Premium](/help/main/c-intro/intro.md#premium) 기능입니다.
-   >
    >[!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.
 
-1. 필요한 경우 **[!UICONTROL 시각적(기본값)]**&#x200B;을 선택합니다.
+1. (조건부) 게재 유형을 선택합니다. [!UICONTROL 웹], [!UICONTROL 모바일], [!UICONTROL 이메일], 또는 [!UICONTROL 기타/API].
 
-   ![다변량 테스트 활동 만들기 대화 상자](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
+1. (조건부) (다음과 같은 경우) [Target Premium](/help/main/c-intro/intro.md#premium) 고객, [작업 영역 선택](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
 
-   >[!NOTE]
-   >
-   >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
-   >
-   >이전 그림에서 [!UICONTROL 작업 공간 선택] 선택 사항은 [Target Premium](/help/main/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.
-
-1. (조건부) Target Premium 고객인 경우 [작업 공간을 선택](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)합니다.
-
-1. 테스트할 페이지의 [URL을 지정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)하고 **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. [URL 지정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) 테스트할 페이지의 경우 **[!UICONTROL 다음]**.
 
    >[!NOTE]
    >
@@ -49,7 +39,7 @@ ht-degree: 87%
 
    브라우저에서 혼합 콘텐츠를 사용하도록 허용할지 묻는 메시지가 표시되면 메시지의 지침을 따르십시오. 브라우저를 혼합 콘텐츠에 대해 활성화한 후 1단계부터 다시 시작하십시오.
 
-   시각적 경험 작성기가 열립니다.
+   다음 [!UICONTROL 시각적 경험 작성기] 열림.
 
 1. 활동의 이름을 입력합니다.
 
@@ -63,6 +53,21 @@ ht-degree: 87%
    | `+` | 플러스 |
    | `-` | 빼기 |
    | `@` | 로그인 |
+
+   활동 이름에는 다음 문자 시퀀스를 사용할 수 없습니다.
+
+   | 문자 시퀀스 | 설명 |
+   |--- |--- |
+   | ;= | 세미콜론, 다음과 같음 |
+   | ;+ | 세미콜론, 플러스 |
+   | ;- | 세미콜론, 빼기 |
+   | ;@ | 세미콜론, @ 기호 |
+   | ,= | 쉼표, 같음 |
+   | ,+ | 쉼표, 더하기 |
+   | ,- | 쉼표, 빼기 |
+   | ,@ | 쉼표, @ 기호 |
+   | `[`&quot; | 대괄호 열기, 큰따옴표 |
+   | &quot;`]` | 큰따옴표, 대괄호 닫기 |
 
 1. [각 위치에 오퍼를 만듭니다](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
@@ -114,7 +119,7 @@ ht-degree: 87%
 
 ## 교육 비디오: 다변량 테스트 만들기(9:25) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
-다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 계획하고 작성하는 방법을 보여줍니다.
+이 비디오에서는 다음을 사용하여 다변량 테스트를 계획하고 만드는 방법을 보여 줍니다. [!DNL Target] 안내가 있는 3단계 워크플로.
 
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기

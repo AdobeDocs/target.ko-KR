@@ -1,13 +1,13 @@
 ---
 keywords: 다변량 테스트;활동 url
-description: 테스트에 사용되는 페이지를 결정하며 다변량 테스트 활동이 Adobe Target을 사용하여 디자인될 때 열리는 활동 URL을 지정하는 방법을 알아봅니다.
-title: MVT(다변량) 활동의 활동 URL이란 무엇입니까?
+description: 테스트에 사용되고 다음 경우에 열리는 페이지를 결정하는 활동 URL을 지정하는 방법을 알아봅니다. [!UICONTROL 다변량 테스트] 활동은 다음을 사용하여 디자인되었습니다. [!DNL Adobe Target].
+title: 의 활동 URL은 무엇입니까? [!UICONTROL 다변량 테스트] (MVT) 활동
 feature: Multivariate Tests
 exl-id: 336169ae-7c8b-4fd5-9b1c-0bd3e9524425
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '303'
-ht-degree: 85%
+source-wordcount: '301'
+ht-degree: 77%
 
 ---
 
@@ -38,13 +38,13 @@ VEC가 열린 후 다른 페이지를 표시하려면 **[!UICONTROL 구성]** �
 * 쿼리
 * 매개 변수
 
-추가 규칙은 AND 또는 OR을 사용하여 활동 URL에 결합할 수 있습니다. 추가하는 모든 규칙은 AND를 사용하여 서로 평가됩니다.
+추가 규칙은 AND 또는 OR로 활동 URL에 조인할 수 있습니다. 추가하는 모든 규칙은 AND로 서로 평가됩니다.
 
 완료되면 **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 >[!NOTE]
 >
->Target Standard JavaScript 코드가 포함되지 않은 사이트 URL을 입력하면 페이지 요소를 선택할 수 없습니다.
+>[!DNL Target] JavaScript 코드가 포함되지 않은 사이트 URL을 입력하면 페이지 요소를 선택할 수 없습니다.
 
 기본적으로, VEC에서는 회전 배너 등과 같은 JavaScript가 포함된 요소를 변경할 수 없습니다. **[!UICONTROL 시각적 경험 작성기]**&#x200B;에서 이러한 요소를 변경하려면 [!UICONTROL JavaScript를 사용하여 렌더링]을 끄면 됩니다.
 
