@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
+source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
 workflow-type: tm+mt
-source-wordcount: '730'
-ht-degree: 87%
+source-wordcount: '852'
+ht-degree: 75%
 
 ---
 
@@ -35,7 +35,8 @@ ht-degree: 87%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL 활동] UI 새로 고침<P>[!UICONTROL 피드] UI 새로 고침 | 의 일부로 [!DNL Adobe Target] 의 사용자 경험을 개선하기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 의 페이지 [!DNL Target] UI. 이 업데이트는 이전에 일관되지 않은 디자인 패턴을 통합하고 표준화하는 동시에 새로운 개선 사항을 추가합니다. |
+| [!UICONTROL 활동] UI 새로 고침<P>및<P>[!UICONTROL 피드] UI 새로 고침 | 의 일부로 [!DNL Adobe Target] 의 사용자 경험을 개선하기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 의 페이지 [!DNL Target] UI. 이 업데이트는 이전에 일관되지 않은 디자인 패턴을 통합하고 표준화하는 동시에 새로운 개선 사항을 추가합니다.<P>자세한 내용은 [활동](/help/main/c-activities/activities.md) 및 [피드](/help/main/c-recommendations/c-products/feeds.md). |
+| [!DNL Recommendations] 구현 패턴 | 다음 *at.js를 사용한 Recommendations 구현 패턴* 패턴은 을 이해하고 작성하는 데 도움이 됩니다. [!DNL Adobe Target Recommendations] at.js JavaScript 라이브러리를 사용할 때의 구현입니다.<P>Target 패턴에 대한 일반 정보는 다음을 참조하십시오. [구현 패턴 개요](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} 다음에서 *Adobe Target 개발자 안내서*.<P>새 Recommendations 구현 패턴은 다음 문서로 구성됩니다.<ul><li>[at.js 개요를 사용한 Recommendations 구현 패턴](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[데이터 수집 구성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[경험 렌더링](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[알림 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 
 * 추가됨 [!UICONTROL 시각적 경험 작성기] (VEC) 동적 프레임워크에 대한 개선 사항입니다. (TGT-44064)
 * 에서 선택한 날짜의 원인이 되는 문제가 해결되었습니다. `getViewInAnalyticsId` 제대로 업데이트되지 않은 요청. 이 수정 사항은 를 다시 계산하는 데 도움이 됩니다. [!DNL Analytics] 날짜 범위 및 지표 보고서 설정을 변경할 때 보고의 링크를 클릭합니다. (TGT-46246)

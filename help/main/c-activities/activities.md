@@ -4,10 +4,10 @@ description: Adobe에서의 활동 방법 알아보기 [!DNL Target] 을 사용�
 title: 을 사용하여 콘텐츠를 개인화하고 페이지 설계를 테스트하려면 어떻게 해야 합니까? [!DNL Target]?
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 4b62017fe4dca61b5b05c7778f3a02cf446c17f7
+source-git-commit: dba58f591b60ccfa1cdcd27d2704ebf28c40ba10
 workflow-type: tm+mt
-source-wordcount: '2489'
-ht-degree: 44%
+source-wordcount: '2467'
+ht-degree: 45%
 
 ---
 
@@ -24,11 +24,6 @@ ht-degree: 44%
 [!UICONTROL 활동] 목록은 [!DNL Target]을 열 때의 기본 보기입니다. 이 페이지에서 활동을 만들고 기존 활동을 관리할 수 있습니다.
 
 [!DNL Target] UI 상단에 있는 [!UICONTROL 활동] 탭을 클릭하여 [!UICONTROL 활동] 목록을 표시할 수도 있습니다.
-
->[!NOTE]
->
->다음 그림 및 표는 현재 베타 버전인 업데이트된 활동 목록 UI의 기능을 보여주며 곧 출시될 예정입니다.
-
 
 ![활동 목록](/help/main/c-activities/assets/activities-list-new.png)
 
