@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 24e80632c68724c0eff37a719dbc80d9e3077f82
+source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 95%
+source-wordcount: '683'
+ht-degree: 93%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 95%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2023년 9월 28일**
+**마지막 업데이트: 2023년 9월 29일**
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ ht-degree: 95%
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
 * 추가됨 [!UICONTROL 시각적 경험 작성기] (VEC) 동적 프레임워크에 대한 개선 사항입니다. (TGT-44064)
-* 에서 선택한 날짜의 원인이 되는 문제가 해결되었습니다. `getViewInAnalyticsId` 제대로 업데이트되지 않은 요청. (TGT-46246)
+* 에서 선택한 날짜의 원인이 되는 문제가 해결되었습니다. `getViewInAnalyticsId` 제대로 업데이트되지 않은 요청. 이 수정 사항은 를 다시 계산하는 데 도움이 됩니다. [!DNL Analytics] 날짜 범위 및 지표 보고서 설정을 변경할 때 보고의 링크를 클릭합니다. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3(2023년 9월 18일)
 
