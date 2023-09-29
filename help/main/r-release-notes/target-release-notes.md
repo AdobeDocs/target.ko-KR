@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d68337b9f19801efa593f85a62791423e98d13f2
+source-git-commit: 055dfe5cb917428fc6dcb015a64b0c3c6ccf5b5d
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 93%
+source-wordcount: '730'
+ht-degree: 87%
 
 ---
 
@@ -32,6 +32,10 @@ ht-degree: 93%
 * **10월 4일**: 아시아 태평양(APAC) 지역
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| [!UICONTROL 활동] UI 새로 고침<P>[!UICONTROL 피드] UI 새로 고침 | 의 일부로 [!DNL Adobe Target] 의 사용자 경험을 개선하기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 의 페이지 [!DNL Target] UI. 이 업데이트는 이전에 일관되지 않은 디자인 패턴을 통합하고 표준화하는 동시에 새로운 개선 사항을 추가합니다. |
 
 * 추가됨 [!UICONTROL 시각적 경험 작성기] (VEC) 동적 프레임워크에 대한 개선 사항입니다. (TGT-44064)
 * 에서 선택한 날짜의 원인이 되는 문제가 해결되었습니다. `getViewInAnalyticsId` 제대로 업데이트되지 않은 요청. 이 수정 사항은 를 다시 계산하는 데 도움이 됩니다. [!DNL Analytics] 날짜 범위 및 지표 보고서 설정을 변경할 때 보고의 링크를 클릭합니다. (TGT-46246)
