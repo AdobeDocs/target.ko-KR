@@ -5,9 +5,9 @@ title: ' [!DNL Analytics] for [!DNL Target] (A4T)이란 무엇입니까?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: 787124c9c20a71b8feb49809bd8f2925264a1668
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1148'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 98%
 
 계산된 지표를 포함하여 모든 [!DNL Analytics] 지표는 한 가지 예외를 제외하고 [!DNL Target] 및 [!DNL Analytics]의 [!UICONTROL Target 활동] 보고서에서 사용할 수 있습니다. [!UICONTROL 상승도 및 신뢰도]에 대한 계산된 지표는 지원되지 않습니다. 마찬가지로 [!DNL Analytics]에서 사용할 수 있는 모든 세그먼트를 각 솔루션에 적용할 수 있습니다. 활동이 시작된 후 또는 활동이 완료된 후 [!DNL Target]의 보고서에 지표 또는 대상자를 적용할 수 있습니다.
 
-[!DNL Analytics]에 내장된 사용자 지정 또는 계산된 지표 등 모든 지표가 포함됩니다.
+[!DNL Analytics]에 내장된 사용자 정의 또는 계산된 지표 등 모든 지표가 포함됩니다.
 
 분류 기간 후에 데이터는 웹 사이트에서 수집되고 약 1시간 후에 보고서에 표시됩니다. 보고서에 있는 모든 지표, 세그먼트, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
 
@@ -58,11 +58,11 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 |--- |--- |--- |
 | [수동 트래픽 분할을 사용하는 A/B 활동](/help/main/c-activities/t-test-ab/test-ab.md) | 예 |  |
 | [자동 할당을 사용하는 A/B 활동](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 예 | [자동 할당 및 자동 타겟 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. |
-| [자동 타겟을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 예 (at.js)<P>아니요(Platform Web SDK) | 자동 타겟 활동에 대한 A4T 지원은 현재 at.js에 대해서만 지원됩니다. |
+| [자동 타겟을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 예 (at.js)<P>아니요 (Platform Web SDK) | 현재 자동 타겟팅 활동에 대한 A4T 지원은 at.js에 대해서만 지원됩니다. |
 | [경험 타겟팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |  |
 | [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 | [!UICONTROL 요소 기여도] 보고서를 가져오려면 mbox 기반 목표 지표가 필요합니다. [!UICONTROL 요소 기여도] 보고서는 현재 [!DNL Analytics] 지표를 지원하지 않습니다. |
-| [자동화된 개인화(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |  |
-| [권장 사항 활동](/help/main/c-recommendations/recommendations.md) | 예 |  |
+| [Automated Personalization(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |  |
+| [Recommendations 활동](/help/main/c-recommendations/recommendations.md) | 예 |  |
 | [리디렉션 오퍼를 사용하는 모든 활동](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 예 |
 
 일부 활동 유형은 아직 A4T를 지원하지 않으므로 `orderConfirmPage` mbox와 같이 중요한 전환 mbox를 유지하거나 구현하는 것이 좋습니다.
@@ -118,7 +118,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 * Analytics에서 사용할 이상적인 보고서에 대해 알아보기
 * A4T와 관련된 일반적인 질문에 대한 답변
 
-[Analytics/Target 통합(A4T) 운영 시간](https://helpx.adobe.com/kr/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target 통합(A4T) 운영 시간](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
 
 >[!MORELIKETHIS]
 >
