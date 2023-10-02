@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0ba699a88a7d9b778e5e8585adf06c58ff53a647
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 82%
+source-wordcount: '782'
+ht-degree: 81%
 
 ---
 
@@ -19,13 +19,7 @@ ht-degree: 82%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target] Standard/Premium 23.9.4(2023년 10월 2~4일)
-
-이번 릴리스는 다음과 같은 순차적 일정에 따라 제공됩니다.
-
-* **10월 2일**: 유럽, 중동 및 아프리카(EMEA) 지역
-* **10월 3일**: 아메리카 지역
-* **10월 4일**: 아시아 태평양(APAC) 지역
+## [!DNL Target] Standard/Premium 23.9.4(날짜 미정)
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 

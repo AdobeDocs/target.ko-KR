@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2e15709ac2a34a96dbc632c71f400c2575d74cf4
+source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
 workflow-type: tm+mt
-source-wordcount: '2007'
-ht-degree: 92%
+source-wordcount: '1987'
+ht-degree: 93%
 
 ---
 
@@ -20,8 +20,6 @@ ht-degree: 92%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 10월 2일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
-|  | [활동](/help/main/c-activities/activities.md) | 이(가) 반영되도록 문서를 업데이트했습니다. [!UICONTROL 활동] 페이지 UI를 새로 고칩니다. |
-|  | [피드](/help/main/c-recommendations/c-products/feeds.md) | 이(가) 반영되도록 문서를 업데이트했습니다. [!UICONTROL 피드] 페이지 UI를 새로 고칩니다. |
 |  | [[!DNL Recommendations] 구현 패턴](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | 새로운 *at.js를 사용한 Recommendations 구현 패턴* 문서는 을 이해하고 작성하는 데 도움이 됩니다. [!DNL Adobe Target Recommendations] at.js JavaScript 라이브러리를 사용할 때의 구현입니다.<P>에 관한 일반적인 정보를 위하여 [!DNL Target] 패턴, 참조 [구현 패턴 개요](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank} 다음에서 *Adobe Target 개발자 안내서*.<P>새로운 Recommendations 구현 패턴은 다음 문서로 구성됩니다.<ul><li>[at.js 개요를 사용한 Recommendations 구현 패턴](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[데이터 수집 구성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[경험 렌더링](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=en){target=_blank}</li><li>[알림 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=en){target=_blank}</li></ul></ul> |
 | 9월 29일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 |  | [Java SDK 초기화](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 테이블에 다음과 같은 새 매개 변수가 추가되었습니다.<ul><li>`connectionTtlMs`</li><li>`idleConnectionValidationMs`</li><li>`evictIdleConnectionsAfterSecs`</li></ul> |
