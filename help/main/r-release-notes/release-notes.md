@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 159cf7595878e0412f249a52dc979e0824c717eb
+source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
-source-wordcount: '782'
-ht-degree: 81%
+source-wordcount: '804'
+ht-degree: 93%
 
 ---
 
@@ -19,17 +19,23 @@ ht-degree: 81%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target] Standard/Premium 23.9.4(날짜 미정)
+## [!DNL Target] Standard/Premium 23.9.4 (2023년 10월 4~6일)
+
+이번 릴리스는 다음과 같은 순차적 일정에 따라 제공됩니다.
+
+* **10월 4일**: 아시아 태평양(APAC) 지역
+* **10월 5일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **10월 6일**: 아메리카 지역
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL 활동] UI 새로 고침<P>및<P>[!UICONTROL 피드] UI 새로 고침 | 의 일부로 [!DNL Adobe Target] 의 사용자 경험을 개선하기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 의 페이지 [!DNL Target] UI. 이 업데이트는 이전에 일관되지 않은 디자인 패턴을 통합하고 표준화하는 동시에 새로운 개선 사항을 추가합니다.<P>자세한 내용은 [활동](/help/main/c-activities/activities.md) 및 [피드](/help/main/c-recommendations/c-products/feeds.md). |
+| [!UICONTROL 활동] UI 새로 고침<P>및<P>[!UICONTROL 피드] UI 새로 고침 | [!DNL Target] 사용자용 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이번 릴리스에서는 [!DNL Target] UI의 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 페이지가 새롭게 업데이트되었습니다. 이번 업데이트를 통해 새로운 개선 사항이 추가되었으며 이전에 일관되지 않았던 디자인 패턴이 통합되고 표준화되었습니다.<P>자세한 내용은 [활동](/help/main/c-activities/activities.md) 및 [피드](/help/main/c-recommendations/c-products/feeds.md). |
 | [!DNL Recommendations] 구현 패턴 | 다음 *at.js를 사용한 Recommendations 구현 패턴* 문서는 을 이해하고 작성하는 데 도움이 됩니다. [!DNL Adobe Target Recommendations] at.js JavaScript 라이브러리를 사용할 때의 구현입니다.<P>자세한 내용은 [at.js 개요를 사용한 Recommendations 구현 패턴](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} 다음에서 *Adobe Target 개발자 안내서*. |
 
-* 추가됨 [!UICONTROL 시각적 경험 작성기] (VEC) 동적 프레임워크에 대한 개선 사항입니다. (TGT-44064)
-* 에서 선택한 날짜의 원인이 되는 문제가 해결되었습니다. `getViewInAnalyticsId` 제대로 업데이트되지 않은 요청. 이 수정 사항은 를 다시 계산하는 데 도움이 됩니다. [!DNL Analytics] 날짜 범위 및 지표 보고서 설정을 변경할 때 보고의 링크를 클릭합니다. (TGT-46246)
+* 동적 프레임워크용 [!UICONTROL 시각적 경험 작성기](VEC) 개선 사항이 추가되었습니다. (TGT-44064)
+* `getViewInAnalyticsId` 요청에서 선택한 날짜가 제대로 업데이트되지 않는 문제가 수정되었습니다. 이 수정 사항은 날짜 범위 및 지표 보고서 설정이 변경되는 경우 보고 시 [!DNL Analytics] 링크를 다시 계산하는 데 도움이 됩니다. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3(2023년 9월 18일)
 
