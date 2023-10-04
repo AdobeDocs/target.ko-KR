@@ -19,7 +19,7 @@ ht-degree: 100%
 >
 >최상의 경험을 얻고 다른 사용자와 공유하려면 대화형 [Adobe Target 활동 안내서 PDF](/help/main/assets/activities_guide_82817.pdf)를 다운로드하십시오.
 >
->이 문서에는 [[!UICONTROL Recommendations] 활동](/help/main/c-recommendations/recommendations.md)에 대한 정보가 포함되지 않습니다. 하지만 [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당], [!UICONTROL 자동 타겟팅]과 [!UICONTROL 경험 타겟팅](XT) 활동 내에 권장 사항을 포함할 수 있습니다. 자세한 내용은 [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다.
+>이 문서에는 [[!UICONTROL Recommendations] 활동](/help/main/c-recommendations/recommendations.md)에 대한 정보가 포함되지 않습니다. 하지만 [!UICONTROL A/B 테스트], [!UICONTROL 자동 할당], [!UICONTROL 자동 타겟팅] 과 [!UICONTROL 경험 타겟팅] (XT) 활동 내에 권장 사항을 포함할 수 있습니다. 자세한 내용은 [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다.
 
 ## 활동 유형별 역할 {#section_4ECAACC68723402EB3649033190E1BBC}
 
