@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 395b8615c9fe0fb5230021c88afc6917a6620bbe
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2049'
 ht-degree: 92%
 
 ---
@@ -20,6 +20,7 @@ ht-degree: 92%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 10월 6일 | [응답 토큰](/help/main/administrating-target/response-tokens.md) | 모든 코드 샘플이 업데이트되었습니다. |
+|  | [[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ko-KR){target=_blank} | 에서 전체 자습서가 업데이트되었습니다. *[!UICONTROL Adobe Target Tutorials]* 가이드. |
 | 10월 4일 | [활동](/help/main/c-activities/activities.md) | 에 포함된 UI 새로 고침을 반영하도록 텍스트 및 이미지가 업데이트되었습니다. [!DNL Target] 23.9.4 릴리스. |
 |  | [피드](/help/main/c-recommendations/c-products/feeds.md) | 에 포함된 UI 새로 고침을 반영하도록 텍스트 및 이미지가 업데이트되었습니다. [!DNL Target] 23.9.4 릴리스. |
 | 10월 2일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
