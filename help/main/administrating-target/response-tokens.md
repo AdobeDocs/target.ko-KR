@@ -1,13 +1,13 @@
 ---
-keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답;platform web sdk
+keywords: 응답 토큰;토큰;플러그인;플러그인;at.js;응답;platform web sdk;google analytics
 description: 에서 응답 토큰을 사용하는 방법 알아보기 [!DNL Adobe Target] 디버깅하고 타사 도구와 통합하기 위한 특정 정보를 출력합니다.
 title: 응답 토큰이란 무엇이며 어떻게 사용해야 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 3d8d5322211b8cc962c4f8daef2e3a5c046b92ba
+source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
 workflow-type: tm+mt
-source-wordcount: '1679'
+source-wordcount: '1681'
 ht-degree: 26%
 
 ---
@@ -218,7 +218,7 @@ Handle 개체 클래스를 사용합니다. 이 클래스에는 수신할 메타
 
 ## Google Analytics에게 데이터 보내기
 
-다음 섹션에서는 를 보내는 방법을 설명합니다 [!DNL Target] 데이터를 Google Analytics에 보냅니다. 응답 토큰으로 전송된 데이터를 다른 타사 통합으로 전송할 수도 있습니다.
+다음 섹션에서는 를 보내는 방법을 설명합니다 [!DNL Target] Google Analytics 4에 대한 데이터. 응답 토큰으로 전송된 데이터를 다른 타사 통합으로 전송할 수도 있습니다.
 
 ### ![AEP 배지](/help/main/assets/platform.png) Platform Web SDK를 통해 Google Analytics에게 데이터 전송
 
