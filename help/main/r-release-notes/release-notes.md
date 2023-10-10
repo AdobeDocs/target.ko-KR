@@ -7,9 +7,9 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '804'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -31,17 +31,17 @@ ht-degree: 93%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL 활동] UI 새로 고침<P>및<P>[!UICONTROL 피드] UI 새로 고침 | [!DNL Target] 사용자용 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이번 릴리스에서는 [!DNL Target] UI의 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 페이지가 새롭게 업데이트되었습니다. 이번 업데이트를 통해 새로운 개선 사항이 추가되었으며 이전에 일관되지 않았던 디자인 패턴이 통합되고 표준화되었습니다.<P>자세한 내용은 [활동](/help/main/c-activities/activities.md) 및 [피드](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] 구현 패턴 | 다음 *at.js를 사용한 Recommendations 구현 패턴* 문서는 을 이해하고 작성하는 데 도움이 됩니다. [!DNL Adobe Target Recommendations] at.js JavaScript 라이브러리를 사용할 때의 구현입니다.<P>자세한 내용은 [at.js 개요를 사용한 Recommendations 구현 패턴](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} 다음에서 *Adobe Target 개발자 안내서*. |
+| [!UICONTROL 활동] UI 새로 고침<P>및<P>[!UICONTROL 피드] UI 새로 고침 | [!DNL Target] 사용자용 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이번 릴리스에서는 [!DNL Target] UI의 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 페이지가 새롭게 업데이트되었습니다. 이번 업데이트를 통해 새로운 개선 사항이 추가되었으며 이전에 일관되지 않았던 디자인 패턴이 통합되고 표준화되었습니다.<P>자세한 내용은 [활동](/help/main/c-activities/activities.md) 및 [피드](/help/main/c-recommendations/c-products/feeds.md)를 참조하십시오. |
+| [!DNL Recommendations] 구현 패턴 | *at.js를 사용하는 Recommendations 구현 패턴* 문서는 at.js JavaScript 라이브러리를 사용할 때 [!DNL Adobe Target Recommendations] 구현을 이해하고 생성하는 데 도움이 됩니다.<P>자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [at.js를 사용하는 Recommendations 구현 패턴 개요](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}를 참조하십시오. |
 
-* 동적 프레임워크용 [!UICONTROL 시각적 경험 작성기](VEC) 개선 사항이 추가되었습니다. (TGT-44064)
+* 동적 프레임워크용 [!UICONTROL 시각적 경험 작성기] (VEC) 개선 사항이 추가되었습니다. (TGT-44064)
 * `getViewInAnalyticsId` 요청에서 선택한 날짜가 제대로 업데이트되지 않는 문제가 수정되었습니다. 이 수정 사항은 날짜 범위 및 지표 보고서 설정이 변경되는 경우 보고 시 [!DNL Analytics] 링크를 다시 계산하는 데 도움이 됩니다. (TGT-46246)
 
 ## [!DNL Target] Standard/Premium 23.9.3(2023년 9월 18일)
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* [!UICONTROL 시각적 경험 작성기](VEC)가 Lightning 웹 구성 요소(Light DOM)을 지원하도록 개선되었습니다. (TGT-45422)
+* [!UICONTROL 시각적 경험 작성기] (VEC)가 Lightning 웹 구성 요소(Light DOM)을 지원하도록 개선되었습니다. (TGT-45422)
 * VEC 액션이 잘못된 순서로 적용되는 문제를 수정했습니다. 일부의 경우 VEC가 일부 수정 사항을 비동기적으로 적용했으며 요소에 수정 사항을 추가로 적용하는 경우 [!UICONTROL 삽입] 작업 후 해당 요소가 표시되면 오류가 발생했습니다. 또한 앵커 링크를 클릭할 때 업데이트되는 VEC URL도 수정했습니다. (TGT-45983)
 * VEC [!UICONTROL 오버레이] 기능 관련 문제를 해결하여 이제 Shadow DOM의 요소를 지원합니다. (TGT-45202 및 TGT-45262)
 * VEC에서 단일 페이지 애플리케이션(SPA) 페이지를 연 다음 [!UICONTROL 검색] 모드로 전환하면 뒤로 및 앞으로 화살표가 올바르게 작동하지 않는 문제를 해결했습니다. (TGT-45956)
@@ -70,7 +70,7 @@ ht-degree: 93%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* A4T( [!UICONTROL  Analytics for Target ] )를 보고 소스로 사용하는 [!UICONTROL 자동 할당]작업을 위한 [!DNL Target] UI 및 [!DNL Adobe Analytics] UI에서 보고 데이터가 일관되지 않게 되는 문제를 해결했습니다. (TGT-46112)
+* A4T([!UICONTROL Analytics for Target])를 보고 소스로 사용하는 [!UICONTROL 자동 할당]작업을 위한 [!DNL Target] UI 및 [!DNL Adobe Analytics] UI에서 보고 데이터가 일관되지 않게 되는 문제를 해결했습니다. (TGT-46112)
 * 시간 초과 오류를 방지하기 위해 Target Delivery API에 대한 PUT 호출 시간 초과를 15초로 늘렸습니다. (TGT-46091)
 * 단일 페이지 애플리케이션(SPA) 웹 사이트를 탐색할 때 URL이 지속적으로 업데이트되지 않는 문제를 수정했습니다. (TGT-45417)
 
