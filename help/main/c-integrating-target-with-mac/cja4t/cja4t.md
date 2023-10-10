@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1020'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 89%
 
 [Adobe Customer Journey Analytics (CJA)](https://experienceleague.adobe.com/docs/customer-journey-analytics.html){target=_blank} 와 [!DNL Target] 간 [!DNL Customer Journey Analytics for Target] (CJA4T) 통합에서는 최적화 프로그램을 위한 강력한 분석 및 시간 절약 도구를 제공합니다.
 
-를 사용할 때의 주요 이점 [!DNL Customer Journey Analytics] 을(를) 위한 보고 소스로 사용 [!DNL Target] 은(는)
+[!DNL Customer Journey Analytics]를 [!DNL Target]에 대한 보고 소스로 사용하는 경우의 주요 이점은 다음과 같습니다.
 
 * 마케터가 언제든지 [!DNL Customer Journey Analytics] 성공 지표 또는 보고 세그먼트를 [!DNL Target] 활동 보고서에 동적으로 적용할 수 있습니다. 활동을 실행하기 전에 모든 항목을 지정할 필요는 없습니다.
-* 활용 [!DNL Customer Journey Analytics] 다음과 같은 기능 [실험 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html){target=_blank}을 추가하여 웹 사이트 개인화를 추가로 분석하십시오.
-* 단일 보고 소스 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html){target=_blank} 및 [!DNL Target]. 두 개인화 제품을 연결할 수 있습니다. [!DNL Customer Journey Analytics] 을 참조하십시오.
+* [실험 패널](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-workspace/panels/experimentation.html){target=_blank}과 같은 [!DNL Customer Journey Analytics] 기능을 활용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/reporting/cja-ajo.html){target=_blank} 및 [!DNL Target]에 대한 단일 보고 소스를 보유합니다. 두 개인화 제품 모두 [!DNL Customer Journey Analytics]에 연결하여 웹 개인화를 보다 전체적으로 살펴볼 수 있습니다.
 
 ## 고려 사항
 
@@ -37,8 +37,8 @@ CJA4T 통합을 사용하기 전에 다음 정보를 고려하십시오.
 * 하나의 보고 소스 또는 다른 보고 소스를 사용하십시오. 여러 보고 소스에서 한 활동에 대한 데이터를 수집할 수 없습니다.
 * [!DNL Customer Journey Analytics]를 보고 소스로 설정하면 보고용 샌드박스를 지정하라는 메시지가 표시됩니다. 구성 중에는 액세스 권한이 있는 샌드박스만 표시됩니다.
 * 모든 기존 [!DNL Target] 활동은 계속 [!DNL Target] 데이터 수집을 사용하며 CJA4T 활성화의 영향을 받지 않습니다.
-* CJA4T를 사용하기 위해 선호하는 구현 방법은 다음과 같습니다 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 현재 이 없는 경우 [!DNL Adobe Experience Platform Web SDK] 을 구현한 다음 [[!DNL Adobe Analytics] 소스 연결](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=en) 데이터를 로 가져오기 [!DNL Adobe Experience Platform].
-* 시간에 대한 질문이 있는 경우 [ 안내서](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency)의 {target=_blank}자주 묻는 질문&#x200B;*에서*&#x200B;지연 고려 사항&#x200B;*[!DNL Adobe Customer Analytics]*&#x200B;을 참조하십시오.
+* CJA4T를 사용하기 위해 선호되는 구현 방법은 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform.html){target=_blank} and [!DNL Target] implemented through the [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}를 보유하는 것입니다. 현재 구현된 [!DNL Adobe Experience Platform Web SDK]를 보유하고 있지 않다면 [[!DNL Adobe Analytics] 소스 연결](https://experienceleague.adobe.com/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics.html?lang=ko)을 만들어 데이터를 [!DNL Adobe Experience Platform]으로 가져오는 방법도 고려해 볼 수 있습니다.
+* 시간에 대한 질문이 있는 경우 *[!DNL Adobe Customer Analytics]안내서*&#x200B;의 *자주 묻는 질문*&#x200B;에서 [지연 고려 사항](https://experienceleague.adobe.com/docs/analytics-platform/using/cja-overview/cja-faq.html#latency){target=_blank}을 참조하십시오.
 
 ## 지원되는 활동 유형 {#supported-activities}
 
