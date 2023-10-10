@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: dbf9a51044f317d02a705f2331d6dc58b6549606
 workflow-type: tm+mt
 source-wordcount: '784'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -35,8 +35,8 @@ ht-degree: 93%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL 활동] UI 새로 고침<P>및<P>[!UICONTROL 피드] UI 새로 고침 | [!DNL Target] 사용자용 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이번 릴리스에서는 [!DNL Target] UI의 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 페이지가 새롭게 업데이트되었습니다. 이번 업데이트를 통해 새로운 개선 사항이 추가되었으며 이전에 일관되지 않았던 디자인 패턴이 통합되고 표준화되었습니다.<P>자세한 내용은 [활동](/help/main/c-activities/activities.md) 및 [피드](/help/main/c-recommendations/c-products/feeds.md). |
-| [!DNL Recommendations] 구현 패턴 | 다음 *at.js를 사용한 Recommendations 구현 패턴* 문서는 을 이해하고 작성하는 데 도움이 됩니다. [!DNL Adobe Target Recommendations] at.js JavaScript 라이브러리를 사용할 때의 구현입니다.<P>자세한 내용은 [at.js 개요를 사용한 Recommendations 구현 패턴](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} 다음에서 *Adobe Target 개발자 안내서*. |
+| [!UICONTROL 활동] UI 새로 고침<P>및<P>[!UICONTROL 피드] UI 새로 고침 | [!DNL Target] 사용자용 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이번 릴리스에서는 [!DNL Target] UI의 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 페이지가 새롭게 업데이트되었습니다. 이번 업데이트를 통해 새로운 개선 사항이 추가되었으며 이전에 일관되지 않았던 디자인 패턴이 통합되고 표준화되었습니다.<P>자세한 내용은 [활동](/help/main/c-activities/activities.md) 및 [피드](/help/main/c-recommendations/c-products/feeds.md)를 참조하십시오. |
+| [!DNL Recommendations] 구현 패턴 | *at.js를 사용하는 Recommendations 구현 패턴* 문서는 at.js JavaScript 라이브러리를 사용할 때 [!DNL Adobe Target Recommendations] 구현을 이해하고 생성하는 데 도움이 됩니다.<P>자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [at.js를 사용하는 Recommendations 구현 패턴 개요](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}를 참조하십시오. |
 
 * 동적 프레임워크용 [!UICONTROL 시각적 경험 작성기] (VEC) 개선 사항이 추가되었습니다. (TGT-44064)
 * `getViewInAnalyticsId` 요청에서 선택한 날짜가 제대로 업데이트되지 않는 문제가 수정되었습니다. 이 수정 사항은 날짜 범위 및 지표 보고서 설정이 변경되는 경우 보고 시 [!DNL Analytics] 링크를 다시 계산하는 데 도움이 됩니다. (TGT-46246)
