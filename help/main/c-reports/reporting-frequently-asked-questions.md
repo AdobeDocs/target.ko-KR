@@ -4,10 +4,10 @@ description: Adobe에 대해 자주 묻는 질문과 대답 목록 탐색 [!DNL 
 title: 다음에 대한 질문에 대한 답변은 어디에서 찾을 수 있습니까? [!DNL Target] 보고?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '1226'
-ht-degree: 31%
+source-wordcount: '1374'
+ht-degree: 27%
 
 ---
 
@@ -74,9 +74,16 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
 ## 내 활동의 보고서에 사용할 수 있는 데이터가 없는 이유는 무엇입니까? {#section_E4722F6445884130951DF79981C8289B}
 
-활동의 콘텐츠가 사용자에게 전달되었지만 해당 보고서에 데이터가 들어 있지 않은 경우 보고서의 설정에 올바른 환경([호스트 그룹](/help/main/administrating-target/hosts.md))이 선택되어 있는지 확인하십시오.
+활동의 콘텐츠가 방문자에게 성공적으로 전달되었지만 해당 보고서에 데이터가 들어 있지 않은 경우 다음과 같은 오류 메시지가 표시될 수 있습니다. &quot;선택한 보고서 설정에 사용할 수 있는 데이터가 없습니다.&quot;
 
-개발 환경을 선택한 경우 &quot;선택한 보고서 설정에 사용 가능한 데이터가 없습니다&quot;라는 오류 메시지가 표시될 수 있습니다.
+활동 보고서에서 데이터가 누락된 몇 가지 가능한 이유는 다음과 같습니다.
+
+* 보고서 설정에 올바른 환경이 선택되어 있지 않습니다.
+* 제어 경험에 할당된 트래픽이 없습니다.
+
+### 보고서 설정에 올바른 환경이 선택되어 있지 않습니다.
+
+활동의 콘텐츠가 사용자에게 전달되었지만 해당 보고서에 데이터가 들어 있지 않은 경우 보고서의 설정에 올바른 환경([호스트 그룹](/help/main/administrating-target/hosts.md))이 선택되어 있는지 확인하십시오.
 
 활동의 보고서에 대한 환경을 변경하려면 다음을 수행하십시오.
 
@@ -85,10 +92,6 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
    ![A/B 설정 대화 상자](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
 
-   >[!NOTE]
-   >
-   >톱니바퀴 아이콘은 [!UICONTROL 자동화된 개인화](AP) 보고서에 사용할 수 없습니다.
-
 1. **[!UICONTROL 환경]** 드롭다운 목록에서 **[!UICONTROL 프로덕션]**&#x200B;을 선택합니다.
 
    개발 환경이 선택되어 있지 않은 경우에는 보고서 데이터를 사용하지 못할 수 있습니다.
@@ -96,6 +99,22 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
 
 환경에 대한 자세한 내용은 [호출](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E)를 참조하십시오.
+
+### 제어 경험에 할당된 트래픽이 없습니다.
+
+활동의 콘텐츠가 사용자에게 전달되었지만 해당 보고서에 데이터가 들어 있지 않은 경우 제어 경험에 할당된 트래픽이 있는지 확인하십시오.
+
+1. **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **[!UICONTROL 보고서 탭을 클릭합니다.]**
+1. 톱니바퀴 아이콘을 클릭하여 보고서 설정을 구성합니다.
+
+1. 다음에서 **[!UICONTROL 제어]** 드롭다운 목록에서 트래픽을 수신하는 경험을 선택합니다.
+
+1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+
+>[!NOTE]
+>
+>업데이트 방법에 대한 자세한 내용은 [!UICONTROL Automated Personalization] (AP) 활동 및 제어 경험을 트래픽을 수신하는 경험으로 변경 은 을 참조하십시오. [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md).
+
 
 ## A/B 또는 MVT 활동에서 경험 간의 트래픽 분할이 불균일한 이유는 무엇입니까? {#uneven}
 
@@ -108,4 +127,4 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
    * 최신 at.js 라이브러리를 사용하고 있습니까? 현재 버전 및 관련 릴리스 정보에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
-   * 리디렉션 테스트입니까? 페이지에서 태그가 실행되는 타이밍이 올바르지 않으면 트래픽 분할이 불균등해질 수 있습니다(특히 를 사용할 때) [!DNL Analytics] 를 위한 데이터 소스로 [!DNL Target] 활동. Analytics for Target (A4T)을 사용하는 리디렉션 활동에 대한 트래픽 분배의 불균형을 해결하기 위한 자세한 내용은 을 참조하십시오. [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
+   * 리디렉션 테스트입니까? 페이지에서 태그가 실행되는 타이밍이 올바르지 않으면 트래픽 분할이 불균등해질 수 있습니다(특히 를 사용할 때) [!DNL Analytics] 를 위한 데이터 소스로 [!DNL Target] 활동. Analytics for Target(A4T)을 사용하는 리디렉션 활동에 대한 트래픽 분배의 불균형을 해결하기 위한 자세한 내용은 을 참조하십시오. [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

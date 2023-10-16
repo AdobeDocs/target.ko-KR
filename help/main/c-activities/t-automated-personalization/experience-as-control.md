@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: a9508c4bc454faeb8d6763677cce17a264a4a70f
+source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '785'
 ht-degree: 42%
 
 ---
@@ -29,7 +29,7 @@ ht-degree: 42%
 
 ## 특정 경험을 제어로 지정
 
-1. 을(를) 만드는 중 [[!UICONTROL Automated Personalization] 활동](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 또는 [[!UICONTROL 자동 타기팅] 활동](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)를 클릭하고, 원하는 대로 경험을 구성합니다.
+1. 를 만들거나 편집하는 동안 [[!UICONTROL Automated Personalization] 활동](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 또는 [[!UICONTROL 자동 타기팅] 활동](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)를 클릭하고, 원하는 대로 경험을 구성합니다.
 1. 다음 [!UICONTROL 타깃팅] 페이지(3개 부분으로 구성된 안내 워크플로우 중 2단계)에서 원하는 경험을 제어로 선택합니다.
 1. 제어 경험과 다른 경험에 대해 원하는 트래픽 할당을 지정합니다.
 
