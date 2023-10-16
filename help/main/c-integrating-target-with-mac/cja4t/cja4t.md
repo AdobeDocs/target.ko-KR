@@ -6,10 +6,10 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 2480578b3e26cfbb5881700c2a09b5b6e2dabba2
-workflow-type: ht
-source-wordcount: '1020'
-ht-degree: 100%
+source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
+workflow-type: tm+mt
+source-wordcount: '1050'
+ht-degree: 97%
 
 ---
 
@@ -125,5 +125,12 @@ CJA4T 통합을 사용하기 전에 다음 정보를 고려하십시오.
    * 활동 ID
 
    ![Customer Journey Analytics의 이름 및 ID 옵션](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
+
+1. 사용 [!DNL Target] 의 차원 [!UICONTROL 실험] 패널, 다음 컨텍스트 레이블을 설정합니다.
+
+   * 대상 [!UICONTROL 활동 이름], &quot;실험&quot;을 사용합니다.
+   * [!UICONTROL 경험 이름], &quot;실험 변형&quot;을 사용합니다.
+
+   ![실험 패널의 컨텍스트 레이블](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
 1. 다른 필드 설정을 완료한 다음 **[!UICONTROL 저장 후 계속]**&#x200B;을 클릭합니다.
