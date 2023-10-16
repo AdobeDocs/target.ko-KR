@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
 source-wordcount: '2078'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 98%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 10월 11일 | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | 에 대한 A4T 지원에 대한 정보가 업데이트되었습니다. [!DNL Adobe Experience Platform Web SDK]. |
-| 10월 10일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 버전 2.11.0에 대한 릴리스 정보가 추가되었습니다. |
-| 10월 6일 | [응답 토큰](/help/main/administrating-target/response-tokens.md) | 모든 코드 샘플이 업데이트되었습니다. |
-|  | [[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ko-KR){target=_blank} | 에서 전체 자습서가 업데이트되었습니다. *[!UICONTROL Adobe Target Tutorials]* 가이드. |
+| 10월 10일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.11.0에 대한 릴리스 정보가 추가되었습니다. |
+| 10월 6일 | [응답 토큰](/help/main/administrating-target/response-tokens.md) | 코드 샘플이 모두 업데이트되었습니다. |
+|  | [[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | *[!UICONTROL Adobe Target 튜토리얼]* 안내서의 모든 튜토리얼이 업데이트되었습니다. |
 | 10월 4일 | [활동](/help/main/c-activities/activities.md) | [!DNL Target] 23.9.4 릴리스에 포함된 UI 새로 고침 기능을 반영하도록 텍스트와 이미지를 업데이트했습니다. |
 |  | [피드](/help/main/c-recommendations/c-products/feeds.md) | [!DNL Target] 23.9.4 릴리스에 포함된 UI 새로 고침 기능을 반영하도록 텍스트와 이미지를 업데이트했습니다. |
 | 10월 2일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
