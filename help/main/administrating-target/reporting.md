@@ -5,10 +5,10 @@ title: Target에서 보고를 구성하는 방법
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
 workflow-type: tm+mt
-source-wordcount: '697'
-ht-degree: 30%
+source-wordcount: '690'
+ht-degree: 31%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->제외할 시간대, 통화 및 IP 주소는 을 사용하는 활동에 적용됩니다 [!DNL Target] 보고. 이 설정은 를 사용하는 활동에는 적용되지 않습니다. [Analytics for Target (A4T)] 를 보고 소스(/help/main/c-integrating-target-with-mac/a4t/a4t.md)로 사용하십시오.
+>제외할 시간대, 통화 및 IP 주소는 을 사용하는 활동에 적용됩니다 [!DNL Target] 보고. 이 설정은 를 사용하는 활동에는 적용되지 않습니다. [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 를 보고 소스로 사용합니다.
 
 ![보고 페이지](/help/main/administrating-target/assets/reporting.png)
 
