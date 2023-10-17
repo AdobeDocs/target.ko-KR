@@ -1,12 +1,12 @@
 ---
 keywords: 타깃팅;모바일;target 모바일;deviceatlas;iPhone;iPhone 모델;장치 atlas;displaywidth;디스플레이 너비;디스플레이 높이;장치 유형;displayheight;휴대폰;태블릿;태블릿;장치 모델
 description: 에서 대상자를 만드는 방법을 알아봅니다. [!DNL Adobe Target] 모바일 장치를 대상으로 지정합니다.
-title: 모바일 옵션을 기반으로 방문자를 Target 할 수 있습니까?
+title: 모바일 옵션에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: 0f51f2a8c501ebfc2f11aebd9bfc434160a6b471
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '675'
 ht-degree: 39%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->Mobile SDK를 사용하는 고객은 이 기능을 적용하기 위해 아무 작업도 하지 않아도 됩니다. at.js를 사용하는 고객은 [at.js 버전 1.5.0으로 업그레이드](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (or later){target=_blank}.
+>Mobile SDK를 사용하는 고객은 이 기능을 적용하기 위해 아무 작업도 하지 않아도 됩니다. at.js를 사용하는 고객은 [at.js 버전 1.5.0으로 업그레이드](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} (또는 이상).
 
 모바일 장치 속성을 두 개 이상 선택할 수 있습니다. 여러 선택 항목은 OR 연산자로 연결됩니다.
 
