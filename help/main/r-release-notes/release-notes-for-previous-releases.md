@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b35f86e01b5527b750b981affd1a2c72c26f8c55
+source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
 workflow-type: tm+mt
-source-wordcount: '37213'
+source-wordcount: '37635'
 ht-degree: 96%
 
 ---
@@ -23,11 +23,48 @@ ht-degree: 96%
 
 ## 릴리스 정보 - 2023
 
+### [!DNL Target] Standard/Premium 23.9.4 (2023년 10월 4~6일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+| 기능 | 세부 사항 |
+| --- | --- |
+| [!UICONTROL 활동] UI 새로 고침<P>및<P>[!UICONTROL 피드] UI 새로 고침 | [!DNL Target] 사용자용 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이번 릴리스에서는 [!DNL Target] UI의 [!UICONTROL 활동] 및 [!DNL Recommendations] [!UICONTROL 피드] 페이지가 새롭게 업데이트되었습니다. 이번 업데이트를 통해 새로운 개선 사항이 추가되었으며 이전에 일관되지 않았던 디자인 패턴이 통합되고 표준화되었습니다.<P>자세한 내용은 [활동](/help/main/c-activities/activities.md) 및 [피드](/help/main/c-recommendations/c-products/feeds.md)를 참조하십시오. |
+| [!DNL Recommendations] 구현 패턴 | *at.js를 사용하는 Recommendations 구현 패턴* 문서는 at.js JavaScript 라이브러리를 사용할 때 [!DNL Adobe Target Recommendations] 구현을 이해하고 생성하는 데 도움이 됩니다.<P>자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [at.js를 사용하는 Recommendations 구현 패턴 개요](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}를 참조하십시오. |
+
+* 동적 프레임워크용 [!UICONTROL 시각적 경험 작성기] (VEC) 개선 사항이 추가되었습니다. (TGT-44064)
+* `getViewInAnalyticsId` 요청에서 선택한 날짜가 제대로 업데이트되지 않는 문제가 수정되었습니다. 이 수정 사항은 날짜 범위 및 지표 보고서 설정이 변경되는 경우 보고 시 [!DNL Analytics] 링크를 다시 계산하는 데 도움이 됩니다. (TGT-46246)
+
+### [!DNL Target] Standard/Premium 23.9.3(2023년 9월 18일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* [!UICONTROL 시각적 경험 작성기] (VEC)가 Lightning 웹 구성 요소(Light DOM)을 지원하도록 개선되었습니다. (TGT-45422)
+* VEC 액션이 잘못된 순서로 적용되는 문제를 수정했습니다. 일부의 경우 VEC가 일부 수정 사항을 비동기적으로 적용했으며 요소에 수정 사항을 추가로 적용하는 경우 [!UICONTROL 삽입] 작업 후 해당 요소가 표시되면 오류가 발생했습니다. 또한 앵커 링크를 클릭할 때 업데이트되는 VEC URL도 수정했습니다. (TGT-45983)
+* VEC [!UICONTROL 오버레이] 기능 관련 문제를 해결하여 이제 Shadow DOM의 요소를 지원합니다. (TGT-45202 및 TGT-45262)
+* VEC에서 단일 페이지 애플리케이션(SPA) 페이지를 연 다음 [!UICONTROL 검색] 모드로 전환하면 뒤로 및 앞으로 화살표가 올바르게 작동하지 않는 문제를 해결했습니다. (TGT-45956)
+* 일부 웹 페이지가 VEC에서 로드되지 않는 문제를 수정했습니다. (TGT-45983)
+
+### [!DNL Target] Standard/Premium 23.9.2 (2023년 9월 12~14일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* [!DNL Analytics] API가 새로운 [!DNL Analytics] API 버전 2.0으로 변경되었습니다. (TGT-45345)
+* [!DNL Target] 백엔드에서 활동을 적시에 동기화하고 미리보기 링크에서 예상되는 경험을 제공하는 것을 포함하여 일부 고객의 [!UICONTROL Automated Personalization] (AP) 활동에 영향을 미치는 문제가 수정되었습니다. (TGT-46202)
+
+### [!DNL Target] Standard/Premium 23.9.1 (2023년 9월 6~11일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* A4T([!UICONTROL Analytics for Target])를 보고 소스로 사용하는 [!UICONTROL 자동 할당]작업을 위한 [!DNL Target] UI 및 [!DNL Adobe Analytics] UI에서 보고 데이터가 일관되지 않게 되는 문제를 해결했습니다. (TGT-46112)
+* 시간 초과 오류를 방지하기 위해 Target Delivery API에 대한 PUT 호출 시간 초과를 15초로 늘렸습니다. (TGT-46091)
+* 단일 페이지 애플리케이션(SPA) 웹 사이트를 탐색할 때 URL이 지속적으로 업데이트되지 않는 문제를 수정했습니다. (TGT-45417)
+
 ### [!DNL Adobe Target] Edge 예정된 인프라 업그레이드 {#edge}
 
 예정된 Edge 인프라 업그레이드를 수행하려면 추가 IP 또는 도메인이 허용 목록에 있어야 합니다. Edge 배포 41-48에 대한 NAT 및 IP/도메인을 검토하고 허용 목록에 추가하십시오. 인프라 업그레이드는 2023년 8월 9일에 시작됩니다.
 
-자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}를 참조하십시오.
+자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank}를 참조하십시오.
 
 ### [!DNL Target] Standard/Premium 23.8.1 (2023년 8월 9일)
 

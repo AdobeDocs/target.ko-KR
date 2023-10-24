@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: e0a72a21792800fda8a15999be7aab48b5ff136d
 workflow-type: tm+mt
-source-wordcount: '2095'
-ht-degree: 98%
+source-wordcount: '2112'
+ht-degree: 99%
 
 ---
 
@@ -15,12 +15,18 @@ ht-degree: 98%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
+## [!DNL Target] Standard/Premium 23.10.1(2023년 10월 24일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 24월 10일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+
 ## [!DNL Target] Standard/Premium 23.9.1 (2023년 9월 6~11일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 10월 17일 | [보고 FAQ](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | FAQ: &quot;내 활동의 보고서에 사용할 수 있는 데이터가 없는 이유는 무엇입니까? &quot; |
-| 10월 11일 | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | 에 대한 A4T 지원에 대한 정보가 업데이트되었습니다. [!DNL Adobe Experience Platform Web SDK]. |
+| 17월 10일 | [보고 FAQ](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | FAQ: &quot;내 활동의 보고서에 사용할 수 있는 데이터가 없는 이유는 무엇입니까? &quot; |
+| 10월 11일 | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | [!DNL Adobe Experience Platform Web SDK]의 A4T 지원에 대한 정보가 업데이트되었습니다. |
 | 10월 10일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.11.0에 대한 릴리스 정보가 추가되었습니다. |
 | 10월 6일 | [응답 토큰](/help/main/administrating-target/response-tokens.md) | 코드 샘플이 모두 업데이트되었습니다. |
 |  | [[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | *[!UICONTROL Adobe Target 튜토리얼]* 안내서의 모든 튜토리얼이 업데이트되었습니다. |
