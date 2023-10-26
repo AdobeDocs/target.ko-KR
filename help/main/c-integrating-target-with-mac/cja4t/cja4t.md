@@ -7,9 +7,9 @@ hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
 source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1050'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -48,7 +48,7 @@ CJA4T 통합을 사용하기 전에 다음 정보를 고려하십시오.
 |--- |--- |
 | [수동 트래픽 분할을 사용하는 A/B 활동](/help/main/c-activities/t-test-ab/test-ab.md) | 예 |
 | [자동 할당을 사용하는 A/B 활동](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 아니요 |
-| [자동 타겟을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 아니요 |
+| [자동 타겟팅을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 아니요 |
 | [경험 타겟팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |
 | [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 |
 | [Automated Personalization(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |
@@ -126,10 +126,10 @@ CJA4T 통합을 사용하기 전에 다음 정보를 고려하십시오.
 
    ![Customer Journey Analytics의 이름 및 ID 옵션](/help/main/c-integrating-target-with-mac/cja4t/assets/names-and-ids.png){width="600" zoomable="yes"}
 
-1. 사용 [!DNL Target] 의 차원 [!UICONTROL 실험] 패널, 다음 컨텍스트 레이블을 설정합니다.
+1. [!UICONTROL 실험] 패널에서 [!DNL Target] 차원을 사용하려면 다음 컨텍스트 레이블을 설정하십시오.
 
-   * 대상 [!UICONTROL 활동 이름], &quot;실험&quot;을 사용합니다.
-   * [!UICONTROL 경험 이름], &quot;실험 변형&quot;을 사용합니다.
+   * [!UICONTROL 활동 이름]은 “실험”으로 지정합니다.
+   * [!UICONTROL 실험 이름]은 “실험 변형”으로 지정합니다.
 
    ![실험 패널의 컨텍스트 레이블](/help/main/c-integrating-target-with-mac/cja4t/assets/context-labels.png){width="600" zoomable="yes"}
 
