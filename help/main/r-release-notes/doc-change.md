@@ -15,12 +15,12 @@ ht-degree: 99%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## [!DNL Target] Standard/Premium 23.10.2(2023년 10월 24일)
+## [!DNL Target] Standard/Premium 23.10.2 (2023년 10월 24일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 10월 28일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 2.11.2 릴리스에 대한 세부 사항이 추가되었습니다. |
-| 10월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 정보가 추가되었습니다. [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침(2023년 10월 25일) |
+| 10월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침에 대한 정보 추가됨 (2023년 10월 25일) |
 | 10월 24일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 23.9.1 (2023년 9월 6~11일)
