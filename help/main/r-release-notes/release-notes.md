@@ -7,9 +7,9 @@ title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '484'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -19,22 +19,22 @@ ht-degree: 69%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침(2023년 10월 25일)
+## [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침 (2023년 10월 25일)
 
-의 일부로 [!DNL Adobe Target] 의 사용자 경험을 개선하기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 [!UICONTROL 활동] 페이지의 [!DNL Target] UI. 이번 업데이트를 통해 새로운 개선 사항이 추가되었으며 이전에 일관되지 않았던 디자인 패턴이 통합되고 표준화되었습니다.
+[!DNL Target] 사용자용 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이번 릴리스에서는 [!DNL Target] UI의 [!UICONTROL 활동] 페이지가 새롭게 업데이트되었습니다. 이번 업데이트를 통해 새로운 개선 사항이 추가되었으며 이전에 일관되지 않았던 디자인 패턴이 통합되고 표준화되었습니다.
 
-10월 25일 수요일부터, 추가 고객이 며칠 이내에 새로운 UI에 액세스할 수 있게 되는 고객 비율은 백분율입니다.
+10월 25일 수요일부터 일부 고객이 새로운 UI에 액세스할 수 있으며, 향후 수일 이내에 더 많은 고객이 액세스할 수 있게 될 예정입니다.
 
-자세한 내용은 [활동](/help/main/c-activities/activities.md).
+자세한 내용은 [활동](/help/main/c-activities/activities.md)을 참조하십시오.
 
-## [!DNL Target] Standard/Premium 23.10.2(2023년 10월 24일)
+## [!DNL Target] Standard/Premium 23.10.2 (2023년 10월 24일)
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 새로운 기능 향상 [!UICONTROL 활동] UI를 [!UICONTROL 시각적 경험 작성기] (VEC)가 열리며 의 기본 설정이 `selectorCriteria` 새 활동을 만들 때. (TGT-46586)
-* 일부 고객이 의 요소를 편집할 수 없는 문제가 해결되었습니다. [!UICONTROL 작성기] 모드(VEC 사용 시). (TGT-46470)
-* 사용자 지정 특성을 사용할 때 일반 기본 설정 선택기를 지정하는 기능이 추가되었습니다. (TGT-46545)
-* 을(를) 가끔 방해하는 문제가 해결되었습니다. [!UICONTROL 자동 타기팅] 을 사용하는 보고서 [!UICONTROL Analytics for Target] (A4T)가에 표시되지 않음 [!DNL Target] 보고서에 가 올바로 표시되더라도 UI [!DNL Adobe Analysis Workspace]. (TGT-46494)
+* 이제 [!UICONTROL 활동] UI가 새롭게 개선되어 활동을 새로 만들 때 [!UICONTROL 시각적 경험 작성기](VEC)가 `selectorCriteria`에 대해 기본 설정으로 열립니다. (TGT-46586)
+* 일부 고객이 VEC를 사용할 때 [!UICONTROL 작성기] 모드에서 요소를 편집할 수 없는 문제를 해결했습니다. (TGT-46470)
+* 사용자 정의 속성을 사용할 때 일반적으로 많이 사용되는 선택기를 지정하는 기능이 추가되었습니다. (TGT-46545)
+* [!UICONTROL Analytics for Target](A4T)을 사용하는 [!UICONTROL 자동 타겟팅] 보고서가 [!DNL Adobe Analysis Workspace]에서 제대로 표시되더라도 [!DNL Target] UI에서는 표시되지 않는 문제를 해결했습니다. (TGT-46494)
 * Target UI에서 현지화된 다양한 문자열이 업데이트되었습니다. (TGT-18899)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
