@@ -6,7 +6,7 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aef672454e3f5fe2980411b821de1cf49f1ec4f9
 workflow-type: tm+mt
-source-wordcount: '2144'
+source-wordcount: '2149'
 ht-degree: 99%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 10월 28일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 2.11.2 릴리스에 대한 세부 사항이 추가되었습니다. |
+| 10월 28일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 2.11.2 릴리스에 대한 세부 정보가 추가되었습니다. |
 | 10월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침에 대한 정보 추가됨 (2023년 10월 25일) |
 | 10월 24일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
@@ -28,8 +28,8 @@ ht-degree: 99%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 10월 17일 | [보고 FAQ](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 다음 FAQ 업데이트됨: “내 활동의 보고서에 사용할 수 있는 데이터가 없는 이유는 무엇입니까? ” |
-| 10월 11일 | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | [!DNL Adobe Experience Platform Web SDK]의 A4T 지원에 대한 정보가 업데이트되었습니다. |
-| 10월 10일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.11.0에 대한 릴리스 정보가 추가되었습니다. |
+| 10월 11일 | [[!DNL Adobe Analytics] 을(를) 위한 보고 소스로 사용 [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | [!DNL Adobe Experience Platform Web SDK]의 A4T 지원에 대한 정보가 업데이트되었습니다. |
+| 10월 10일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.11.0에 대한 릴리스 정보가 추가되었습니다. |
 | 10월 6일 | [응답 토큰](/help/main/administrating-target/response-tokens.md) | 코드 샘플이 모두 업데이트되었습니다. |
 |  | [[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | *[!UICONTROL Adobe Target 튜토리얼]* 안내서의 모든 튜토리얼이 업데이트되었습니다. |
 | 10월 4일 | [활동](/help/main/c-activities/activities.md) | [!DNL Target] 23.9.4 릴리스에 포함된 UI 새로 고침 기능을 반영하도록 텍스트와 이미지를 업데이트했습니다. |
@@ -42,7 +42,7 @@ ht-degree: 99%
 | 9월 18일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 9월 15일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 9월 12일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
-|  | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 버전 2.10.3에 대한 릴리스 정보가 추가되었습니다. |
+|  | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 버전 2.10.3에 대한 릴리스 정보가 추가되었습니다. |
 | 9월 11일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 23.9.2 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 9월 6일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
@@ -70,7 +70,7 @@ ht-degree: 99%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 |  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2023년 8월 17일로 예정된 *성수기 준비로 최대 ROI 영향을 위한 전략 수립* 웨비나에 대한 정보가 추가되었습니다. |
-| 8월 7일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | 지원되는 at.js 버전에 대한 정보가 명확해졌습니다. |
+| 8월 7일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | 지원되는 at.js 버전에 대한 정보가 명확해졌습니다. |
 | 7월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#edge) | 2023년 8월 9일로 예정된 Edge 인프라 업그레이드에 대한 정보가 추가되었습니다. |
 |  | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank} | Edge 배포 41-48에 대한 NAT 및 IP/도메인이 업데이트되었습니다. |
 | 7월 24일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.7.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
