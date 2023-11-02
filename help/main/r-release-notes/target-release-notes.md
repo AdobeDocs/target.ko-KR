@@ -35,10 +35,10 @@ ht-degree: 100%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 이제 [!UICONTROL 활동] UI가 새롭게 개선되어 활동을 새로 만들 때 [!UICONTROL 시각적 경험 작성기](VEC)가 `selectorCriteria`에 대해 기본 설정으로 열립니다. (TGT-46586)
+* 이제 [!UICONTROL 활동] UI가 새롭게 개선되어 활동을 새로 만들 때 [!UICONTROL 시각적 경험 작성기] (VEC)가 `selectorCriteria`에 대해 기본 설정으로 열립니다. (TGT-46586)
 * 일부 고객이 VEC를 사용할 때 [!UICONTROL 작성기] 모드에서 요소를 편집할 수 없는 문제를 해결했습니다. (TGT-46470)
 * 사용자 정의 속성을 사용할 때 일반적으로 많이 사용되는 선택기를 지정하는 기능이 추가되었습니다. (TGT-46545)
-* [!UICONTROL Analytics for Target](A4T)을 사용하는 [!UICONTROL 자동 타겟팅] 보고서가 [!DNL Adobe Analysis Workspace]에서 제대로 표시되더라도 [!DNL Target] UI에서는 표시되지 않는 문제를 해결했습니다. (TGT-46494)
+* [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 타겟팅] 보고서가 [!DNL Adobe Analysis Workspace]에서 제대로 표시되더라도 [!DNL Target] UI에서는 표시되지 않는 문제를 해결했습니다. (TGT-46494)
 * Target UI에서 현지화된 다양한 문자열이 업데이트되었습니다. (TGT-18899)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
