@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: aef672454e3f5fe2980411b821de1cf49f1ec4f9
+source-git-commit: 059a19926a2c4943661e0fffd0abc0f0280aa5af
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2160'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 11월 8일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 예정된 릴리스에 대한 프리릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 23.11.1 릴리스. |
 | 10월 28일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 2.11.2 릴리스에 대한 세부 정보가 추가되었습니다. |
 | 10월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침에 대한 정보 추가됨 (2023년 10월 25일) |
 | 10월 24일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
