@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f013c2a16de857543594ebeccc4ced0b4241b3dd
+source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
 workflow-type: tm+mt
-source-wordcount: '2183'
-ht-degree: 98%
+source-wordcount: '2210'
+ht-degree: 97%
 
 ---
 
@@ -20,6 +20,7 @@ ht-degree: 98%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 11월 10일 | [Recommendations API 참조](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | 다음 [!DNL Adobe Target] [!DNL Recommendations] API가에 재배치되었습니다. [!DNL Adobe Developer] 웹 사이트입니다. 필요한 경우 책갈피를 업데이트하십시오. |
+|  | [시간대](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 이(가) 참고 사항을 추가했습니다. [!DNL Target] 시간 대상은 일광 절약 시간제(DST) 변경을 고려하지 않습니다. 일광 절약 시간 변경 사항을 고려하려면 대상을 수동으로 업데이트해야 합니다. |
 | 11월 8일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 예정된 릴리스에 대한 프리릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 23.11.1 릴리스. |
 | 10월 28일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 2.11.2 릴리스에 대한 세부 정보가 추가되었습니다. |
 | 10월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침에 대한 정보 추가됨 (2023년 10월 25일) |
