@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: a4b0ccb35201d8e2ca06d8c5a20983ca84f378ee
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '37582'
+source-wordcount: '37687'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,16 @@ ht-degree: 96%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2023
+
+### [!DNL Target] Standard/Premium 23.10.2 (2023년 10월 24일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* 이제 [!UICONTROL 활동] UI가 새롭게 개선되어 활동을 새로 만들 때 [!UICONTROL 시각적 경험 작성기] (VEC)가 `selectorCriteria`에 대해 기본 설정으로 열립니다. (TGT-46586)
+* 일부 고객이 VEC를 사용할 때 [!UICONTROL 작성기] 모드에서 요소를 편집할 수 없는 문제를 해결했습니다. (TGT-46470)
+* 사용자 정의 속성을 사용할 때 일반적으로 많이 사용되는 선택기를 지정하는 기능이 추가되었습니다. (TGT-46545)
+* [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 타겟팅] 보고서가 [!DNL Adobe Analysis Workspace]에서 제대로 표시되더라도 [!DNL Target] UI에서는 표시되지 않는 문제를 해결했습니다. (TGT-46494)
+* Target UI에서 현지화된 다양한 문자열이 업데이트되었습니다. (TGT-18899)
 
 ### [!DNL Target] Standard/Premium 23.9.4 (2023년 10월 4~6일)
 
@@ -1216,7 +1226,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 | 기능/향상 | 설명 |
 | --- | --- |
 | ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] API의 엔터프라이즈 권한 [!DNL Target] 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. Automated Personalization (AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
-| ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL 권장 사항]: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링 | 이제 선택한 환경(호스트 그룹)에 대한 [!UICONTROL 권장 사항] 컬렉션 및 제외 콘텐츠를 미리 볼 수 있습니다.<br/>이전에는, 컬렉션이나 제외를 볼 때, 들어 있는 것으로 표시된 항목이 기본 호스트 그룹([!UICONTROL 권장 사항 > 설정 > 기본 호스트 그룹]에 지정됨)에 대한 결과였습니다.<br/>이제, 컬렉션이나 제외를 만들거나 업데이트할 때 [!UICONTROL 환경] 선택기를 사용하여 결과를 미리 볼 환경을 선택할 수 있습니다. 따라서 컬렉션과 제외를 만들거나 편집하기 전에 적절한 기본 호스트 그룹을 선택하기 위해 더 이상 [!UICONTROL 설정] 페이지로 이동할 필요가 없으므로 새 [!UICONTROL 환경] 필터를 통해 시간과 노력을 절약할 수 있습니다.<br/>**참고:**  선택한 환경을 변경한 후 검색을 클릭하여 반환된 결과를 업데이트해야 합니다.<br/>새 [!UICONTROL 환경] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>[!UICONTROL 카탈로그 검색] ([!UICONTROL 권장 사항 > 카탈로그 검색])</li><li>[!UICONTROL 컬렉션 만들기] 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 새로 만들기])</li><li>[!UICONTROL 컬렉션 업데이트] 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 편집])</li><li>[!UICONTROL 제외 만들기] 대화 상자([!UICONTROL 권장 사항 > 제외 > 새로 만들기])</li><li>[!UICONTROL 제외 업데이트] 대화 상자([!UICONTROL 권장 사항 > 제외 > 편집])</li></ul><br>자세한 내용은 다음 주제를 참조하십시오.<uL><li>[컬렉션](/help/main/c-recommendations/c-products/collections.md)</li><li>[제외](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[설정](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} </li><li>[권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL 권장 사항]: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링 | 이제 선택한 환경(호스트 그룹)에 대한 [!UICONTROL 권장 사항] 컬렉션 및 제외 콘텐츠를 미리 볼 수 있습니다.<br/>이전에는, 컬렉션이나 제외를 볼 때, 들어 있는 것으로 표시된 항목이 기본 호스트 그룹([!UICONTROL 권장 사항 > 설정 > 기본 호스트 그룹]에 지정됨)에 대한 결과였습니다.<br/>이제, 컬렉션이나 제외를 만들거나 업데이트할 때 [!UICONTROL 환경] 선택기를 사용하여 결과를 미리 볼 환경을 선택할 수 있습니다. 따라서 컬렉션과 제외를 만들거나 편집하기 전에 적절한 기본 호스트 그룹을 선택하기 위해 더 이상 [!UICONTROL 설정] 페이지로 이동할 필요가 없으므로 새 [!UICONTROL 환경] 필터를 통해 시간과 노력을 절약할 수 있습니다.<br/>**참고:**  선택한 환경을 변경한 후 검색을 클릭하여 반환된 결과를 업데이트해야 합니다.<br/>새 [!UICONTROL 환경] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>[!UICONTROL 카탈로그 검색] ([!UICONTROL 권장 사항 > 카탈로그 검색])</li><li>[!UICONTROL 컬렉션 만들기] 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 새로 만들기])</li><li>[!UICONTROL 컬렉션 업데이트] 대화 상자([!UICONTROL 권장 사항 > 컬렉션 > 편집])</li><li>[!UICONTROL 제외 만들기] 대화 상자([!UICONTROL 권장 사항 > 제외 > 새로 만들기])</li><li>[!UICONTROL 제외 업데이트] 대화 상자([!UICONTROL 권장 사항 > 제외 > 편집])</li></ul><br>자세한 내용은 다음 주제를 참조하십시오.<uL><li>[컬렉션](/help/main/c-recommendations/c-products/collections.md)</li><li>[제외](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[설정](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **개선 사항, 수정 및 변경 사항**
 

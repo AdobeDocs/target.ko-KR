@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2e234935402add3e2174961bcac8fc1c65ef4fd8
-workflow-type: ht
-source-wordcount: '484'
-ht-degree: 100%
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+workflow-type: tm+mt
+source-wordcount: '567'
+ht-degree: 84%
 
 ---
 
@@ -27,15 +27,23 @@ ht-degree: 100%
 
 자세한 내용은 [활동](/help/main/c-activities/activities.md)을 참조하십시오.
 
-## [!DNL Target] Standard/Premium 23.10.2 (2023년 10월 24일)
+## [!DNL Target] Standard/Premium 23.11.1 (2023년 11월 13일, 14일)
+
+이 릴리스는 다음 요일에 예정되어 있습니다.
+
+* **11월 13일**: 아시아 태평양(APAC) 지역
+* **11월 14일**: 아메리카 지역
+* **11월 14일**: 유럽, 중동 및 아프리카(EMEA) 지역
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 이제 [!UICONTROL 활동] UI가 새롭게 개선되어 활동을 새로 만들 때 [!UICONTROL 시각적 경험 작성기] (VEC)가 `selectorCriteria`에 대해 기본 설정으로 열립니다. (TGT-46586)
-* 일부 고객이 VEC를 사용할 때 [!UICONTROL 작성기] 모드에서 요소를 편집할 수 없는 문제를 해결했습니다. (TGT-46470)
-* 사용자 정의 속성을 사용할 때 일반적으로 많이 사용되는 선택기를 지정하는 기능이 추가되었습니다. (TGT-46545)
-* [!UICONTROL Analytics for Target] (A4T)을 사용하는 [!UICONTROL 자동 타겟팅] 보고서가 [!DNL Adobe Analysis Workspace]에서 제대로 표시되더라도 [!DNL Target] UI에서는 표시되지 않는 문제를 해결했습니다. (TGT-46494)
-* Target UI에서 현지화된 다양한 문자열이 업데이트되었습니다. (TGT-18899)
+* 이(가) 을(를) 개선했습니다. [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 지원 기능 [중복 오퍼 허용 안 함](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) 의 경험 [!UICONTROL Automated Personalization] 활동. (TGT-46627)
+* 제어 경험에 트래픽이 할당되지 않을 경우 활동 보고서에 사용 가능한 데이터가 없을 수 있는 이유를 고객이 이해할 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다. 자세한 정보에 대한 링크는 다음 툴팁에 포함되어 있습니다. [내 활동 보고서에 대해 사용 가능한 데이터가 없는 이유는 무엇입니까?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* 일부 고객의 [!UICONTROL 활동] 페이지에 활동이 제대로 표시되지 않는 문제가 해결되었습니다. (TGT-46830)
+* 를 사용하는 활동에 영향을 주는 다음 문제를 해결했습니다. [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 보고 소스로서의 (A4T):
+   * 일부 고객이 보고 데이터를 볼 수 없는 문제를 해결했습니다. (TGT-46557)
+   * 다음과 같은 문제가 발생하던 문제를 수정했습니다. [!UICONTROL Analytics에서 보기] 활동 보고 페이지에 대한 링크가 제대로 작동하지 않습니다. (TGT-46731)
+   * 에 대한 데이터를 사용할 수 없는 문제가 해결되었습니다. [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도] 에 올바르게 표시 [!DNL Target] UI. (TGT-46592, TGT-46554 및 TGT-46586)
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

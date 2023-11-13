@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1081baa170e8ee979562223c0aa760002d4b9c8c
+source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
 workflow-type: tm+mt
-source-wordcount: '2210'
+source-wordcount: '2227'
 ht-degree: 97%
 
 ---
@@ -14,6 +14,12 @@ ht-degree: 97%
 # 설명서 변경 내용
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
+
+## [!DNL Target] Standard/Premium 23.11.1 (2023년 11월 13일, 14일)
+
+| 날짜 | 주제 | 변경 사항 |
+| --- | --- | --- |
+| 10월 24일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.11.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 23.10.2 (2023년 10월 24일)
 
