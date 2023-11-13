@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 44ac64d0b97db4995193dea11c0c65934f386926
+source-git-commit: d2aac088d5f1ae60a4b0e7ac1fff9960e2959130
 workflow-type: tm+mt
-source-wordcount: '37687'
+source-wordcount: '37759'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,14 @@ ht-degree: 96%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2023
+
+### [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침 (2023년 10월 25일)
+
+[!DNL Target] 사용자용 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이번 릴리스에서는 [!DNL Target] UI의 [!UICONTROL 활동] 페이지가 새롭게 업데이트되었습니다. 이번 업데이트를 통해 새로운 개선 사항이 추가되었으며 이전에 일관되지 않았던 디자인 패턴이 통합되고 표준화되었습니다.
+
+10월 25일 수요일부터 일부 고객이 새로운 UI에 액세스할 수 있으며, 향후 수일 이내에 더 많은 고객이 액세스할 수 있게 될 예정입니다.
+
+자세한 내용은 [활동](/help/main/c-activities/activities.md)을 참조하십시오.
 
 ### [!DNL Target] Standard/Premium 23.10.2 (2023년 10월 24일)
 
