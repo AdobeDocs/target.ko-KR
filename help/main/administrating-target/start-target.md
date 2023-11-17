@@ -1,14 +1,14 @@
 ---
 keywords: 관리;승인자 역할;승인자
-description: 첫 번째 작업 수행 Adobe [!DNL Target] 관리자는 Adobe Experience Cloud에 대한 이메일 초대장을 받은 후 수행해야 합니다.
-title: Target 관리를 시작하려면 어디서 시작해야 합니까?
+description: 첫 번째 작업 수행 [!DNL Adobe Target] 관리자는 다음에 대한 이메일 초대장을 받은 후 수행해야 합니다. [!DNL Adobe Experience Cloud].
+title: 관리는 어디서 시작해야 합니까 [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 82%
+source-wordcount: '433'
+ht-degree: 39%
 
 ---
 
@@ -18,29 +18,29 @@ ht-degree: 82%
 
 ## 다음으로 초대 받기 [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-[!DNL Adobe Admin Console]에서 시스템 관리자가 귀하를 참여할 수 있도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행합니다.
+의 시스템 관리자 [!DNL Adobe Admin Console] 에서 사용자를 사용자로 추가해야 합니다. [!DNL Target] 참여하도록 초대하는 것입니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행합니다.
 
 자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) 다음에서 *Experience Cloud 및 핵심 서비스 도움말*.
 
-시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다. 
+시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다.
 
 ## 초대 수락 {#task_24FE66659E634B24AB61DB8497772E17}
 
-[!DNL Adobe Experience Cloud]에 가입하라는 초대를 받으면 초대를 수락하고 로그인한 다음 EULA(최종 사용자 라이센스 계약)에 동의하십시오.
+가입 초대를 받은 후 [!DNL Adobe Experience Cloud], 초대를 수락하고 로그인한 다음 [!UICONTROL 최종 사용자 사용권 계약] (EULA)
 
 1. [!DNL Adobe Experience Cloud] 에 대한 초대를 수락합니다.
 1. Adobe ID가 없는 경우 ID를 만들라는 메시지가 표시됩니다.
 
-   Adobe ID가 있는 경우 Adobe ID가 인식되면 로그인하라는 메시지가 표시됩니다.
-1. 사용약관에 동의합니다.
+   Adobe ID이 있는 경우 Adobe ID이 인식되면 로그인하라는 메시지가 표시됩니다.
+1. 수락 [!UICONTROL 사용 약관].
 1. 지금까지 수행한 작업에 대한 요약을 검토하고 **[!UICONTROL Experience Cloud 계속]**&#x200B;을 클릭합니다.
-1. Adobe Experience Cloud에 로그인하고 **[!UICONTROL 계정 연결]**&#x200B;을 클릭합니다.
+1. 에 로그인 [!DNL Adobe Experience Cloud] 및 클릭 **[!UICONTROL 계정 연결]**.
 
    >[!NOTE]
    >
    >계정을 연결하지 않으면 [!DNL Target]에 액세스할 수 없습니다.
 
-   모든 Experience Cloud 제품이 연결 페이지에 표시됩니다. `Link Target`을 클릭하고 Target 사용자 이름 및 암호를 입력하여 Target Standard에 액세스합니다.
+   모두 [!UICONTROL Experience Cloud] 제품이 연결 페이지에 표시됩니다. 클릭 `Link Target` 및 을(를) 입력합니다. [!DNL Target] 액세스할 사용자 이름 및 암호 [!DNL Target].
 1. **[!UICONTROL Experience Cloud로 계속]**&#x200B;을 클릭합니다.
 
    이 시점에서는 연결할 자격이 있는 그룹이 아직 설정되어 있지 않습니다.
@@ -50,10 +50,14 @@ ht-degree: 82%
 
 ## 자신에게 승인자 역할을 지정을 참조하십시오 {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-[!DNL Adobe Experience Cloud] 가입 초대를 수락하고 로그인한 후에 Target이 [!DNL Experience Cloud] 계정에 추가되었는지 확인한 다음, [!UICONTROL 에서 자기 자신에게 ]승인자[!DNL Target] 역할을 지정하십시오.
+가입 초대를 수락한 후 [!DNL Adobe Experience Cloud] 로그인하고 다음을 확인합니다. [!DNL Target] 이(가) 다음에 추가되었습니다. [!DNL Experience Cloud] 계정을 할당한 다음 [!UICONTROL 승인자] 역할 [!DNL Target].
 
 조직에 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 라이센스가 있는 경우 *사용자*&#x200B;의 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 참조하십시오.
 
 조직에 [Target Premium](/help/main/c-intro/intro.md#premium) 라이센스가 있는 경우 *Enterprise 권한 구성*&#x200B;에서 [6단계: 역할 및 권한 지정](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_8C425E43E5DD4111BBFC734A2B7ABC80)을 참조하십시오.
 
-다음 단계는 Target Standard 및 Target Premium의 사용자를 설정하는 것입니다. 자세한 내용은 [사용자 관리](/help/main/administrating-target/c-user-management/user-management.md)를 참조하십시오.
+다음 단계는 사용자를 설정하는 것입니다. [!DNL Target Standard] 및 [!DNL Target Premium]. 자세한 내용은 [사용자 관리](/help/main/administrating-target/c-user-management/user-management.md)를 참조하십시오.
+
+>[!IMPORTANT]
+>
+>을 사용하는 사용자 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 에 있는 권한 [!DNL Adobe Admin Console] 에서 모든 설정을 편집하거나 변경할 수 있음 [!UICONTROL 관리] 페이지 / [!DNL Target], 해당 항목에 관계 없음 [!DNL Target] 역할. 없는 사용자 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 에 있는 권한 [!DNL Adobe Admin Console] 은(는) 다음을 포함해야 합니다 [!DNL Target] 역할 을 참조하십시오.

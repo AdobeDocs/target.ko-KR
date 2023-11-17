@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0cf2cda5c765887d9c64a85ade56f3e8f6c58db0
+source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
 workflow-type: tm+mt
-source-wordcount: '2261'
-ht-degree: 96%
+source-wordcount: '2314'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 96%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 11월 17일 | [관리자의 첫 단계](/help/main/administrating-target/start-target.md) | 다음과 같은 중요한 참고가 추가되었습니다.<ul><li>을 사용하는 사용자 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 에 있는 권한 [!DNL Adobe Admin Console] 에서 모든 설정을 편집하거나 변경할 수 있음 [!UICONTROL 관리] 페이지 / [!DNL Target], 해당 항목에 관계 없음 [!DNL Target] 역할. 없는 사용자 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 에 있는 권한 [!DNL Adobe Admin Console] 은(는) 다음을 포함해야 합니다 [!DNL Target] 이러한 변경 작업을 수행하는 역할입니다.1</li></ul> |
 | 11월 16일 | [벌크 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 다음 주의 사항 추가: &quot;업데이트는 일반적으로 1시간 이내에 발생하지만 반영되기까지 24시간 이상 소요될 수 있습니다.&quot; |
 | 11월 13일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.11.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
