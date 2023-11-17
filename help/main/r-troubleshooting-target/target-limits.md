@@ -5,9 +5,9 @@ title: 의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
 workflow-type: tm+mt
-source-wordcount: '1609'
+source-wordcount: '1610'
 ht-degree: 80%
 
 ---
@@ -169,7 +169,7 @@ ht-degree: 80%
 
 * **제한**: 256자.
 
-  이보다 긴 값은 at.js 1을 사용할 때 잘립니다.*x*. at.js 2를 사용할 때 256자를 초과하는 경우&#x200B;*x* 또는 [!DNL Adobe Experience Platform Web SDK]에 오류 메시지가 표시됩니다(값이 자동으로 잘리지 않음).
+  256자를 초과하는 값은 at.js 1을 사용할 때 잘립니다.*x*. at.js 2를 사용할 때 256자를 초과하는 값을 보낼 때 오류 메시지가 표시됩니다.*x* 또는 [!DNL Adobe Experience Platform Web SDK]. 값은 자동으로 잘리지 않습니다.
 
 ### mbox 내부 프로필 이름
 
