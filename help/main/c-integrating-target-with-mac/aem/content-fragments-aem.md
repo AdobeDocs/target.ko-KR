@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 활동에서  [!DNL Adobe Experience Manager]
 title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 사용하려면 어떻게 해야 합니까?'
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
-source-git-commit: fe9811185328754ef983bdd5db3a4cd7fad772f6
+source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
 workflow-type: tm+mt
-source-wordcount: '748'
-ht-degree: 100%
+source-wordcount: '736'
+ht-degree: 98%
 
 ---
 
@@ -39,7 +39,7 @@ AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자�
 
 ## 요구 사항 {#requirements}
 
-[!DNL Target] 내의 [!UICONTROL 콘텐츠 조각] 기능을 공급받아야 합니다. 또한 [[!DNL AEM] as a Cloud Service를 사용하고 있어야 합니다](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
+다음을 사용해야 합니다. [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
 
 [Adobe Target 고객 지원](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 연락하여 통합을 활성화하고 인증 세부 사항을 제공받으십시오.
 
@@ -74,7 +74,6 @@ AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자�
 >* [!DNL Target]의 AI 및 ML 기능을 완전히 사용하려면 [!UICONTROL A/B 테스트] 활동을 만드는 동안 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 타겟팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 선택하면 됩니다.
 >
 >* [!UICONTROL 콘텐츠 조각]은 [!DNL Recommendations] 활동에서 지원되지 않습니다. 단, 추천에 [!UICONTROL 콘텐츠 조각]을 사용하려면 [!UICONTROL A/B 테스트] 활동([!UICONTROL 자동 할당] 및 [!UICONTROL 자동 타겟팅] 포함) 또는 [!UICONTROL 경험 타겟팅] (XT) 활동을 만들고 [오퍼를 추천으로 포함](/help/main/c-recommendations/recommendations-as-an-offer.md)하면 됩니다.
-
 
 **[!UICONTROL 양식 기반 경험 작성기]를 사용하여 [!UICONTROL 콘텐츠 조각]을 사용하는 방법:**
 
