@@ -5,9 +5,9 @@ title: 의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까 
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: aa7242a20d6e80623dfe14b5e2f9c2996d9579b7
+source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1610'
+source-wordcount: '1604'
 ht-degree: 80%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 80%
 
 * **제한**: 250자.
 
-  게재 API(at.js 2.*x*), 배치 mbox V2 및 AEP 웹 SDK(alloy.js) 통합, mbox 이름 *can* 영숫자(A-Z, a-z, 0-9) 및 다음 문자를 포함합니다.
+  대상 [!DNL Delivery API] (at.js 2.*x*), 일괄 mbox V2 및 [!DNL Adobe Experience Platform Web SDK] (alloy.js) 통합, mbox 이름 *can* 영숫자(A-Z, a-z, 0-9) 및 다음 문자를 포함합니다.
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
