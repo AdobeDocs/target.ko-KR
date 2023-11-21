@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e842d80e759cd2efc781d5a600cd3704a1c0dcca
+source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
 workflow-type: tm+mt
-source-wordcount: '2356'
-ht-degree: 92%
+source-wordcount: '2373'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 92%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 11월 21일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 2.11.3에 대한 릴리스 정보가 추가되었습니다. |
 | 11월 17일 | [관리자의 첫 단계](/help/main/administrating-target/start-target.md) | 다음과 같은 중요한 참고가 추가되었습니다.<ul><li>을 사용하는 사용자 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 에 있는 권한 [!DNL Adobe Admin Console] 에서 모든 설정을 편집하거나 변경할 수 있음 [!UICONTROL 관리] 페이지 / [!DNL Target], 해당 항목에 관계 없음 [!DNL Target] 역할. 없는 사용자 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 에 있는 권한 [!DNL Adobe Admin Console] 은(는) 다음을 포함해야 합니다 [!DNL Target] 이러한 변경 작업을 수행하는 역할입니다.1</li></ul> |
 |  | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 섹션에 다음 방법에 대한 정보를 업데이트했습니다. [!DNL Target] 는 at.js 2에서 잘림을 처리합니다.*x* 및 [!DNL Adobe Experience Platform Web SDK]. |
 |  | [배달 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 현재 배달 API 설명서에 대한 리디렉션을 추가하고 레거시 설명서( 를 사용하지 않습니다.`http://developers.adobetarget.com/api/delivery-api/`). 필요에 따라 책갈피를 업데이트하십시오. |
@@ -29,9 +30,9 @@ ht-degree: 92%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 11월 10일 | [Recommendations API 참조](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | 다음 [!DNL Adobe Target] [!DNL Recommendations] API가에 재배치되었습니다. [!DNL Adobe Developer] 웹 사이트입니다. 필요한 경우 책갈피를 업데이트하십시오. |
-|  | [시간대](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 이(가) 참고 사항을 추가했습니다. [!DNL Target] 시간 대상은 일광 절약 시간제(DST) 변경을 고려하지 않습니다. 일광 절약 시간 변경 사항을 고려하려면 대상을 수동으로 업데이트해야 합니다. |
-| 11월 8일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 예정된 릴리스에 대한 프리릴리스 정보가 추가되었습니다. [!DNL Target Standard/Premium] 23.11.1 릴리스. |
+| 11월 10일 | [Recommendations API 참조](https://developer.adobe.com/target/administer/recommendations-api/){target=_blank} | [!DNL Adobe Target] [!DNL Recommendations] API가 [!DNL Adobe Developer] 웹 사이트로 이전되었습니다. 필요한 경우 책갈피를 업데이트하십시오. |
+|  | [시간대](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | [!DNL Target] 시간 대상자는 DST(Daylight Saving Time) 변경 사항을 고려하지 않는다는 메모가 추가되었습니다. DST 변경 사항을 고려하려면 대상자를 수동으로 업데이트해야 합니다. |
+| 11월 8일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 향후 출시 예정인 [!DNL Target Standard/Premium] 23.11.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 10월 28일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 2.11.2 릴리스에 대한 세부 정보가 추가되었습니다. |
 | 10월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침에 대한 정보 추가됨 (2023년 10월 25일) |
 | 10월 24일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.10.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
@@ -41,7 +42,7 @@ ht-degree: 92%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 10월 17일 | [보고 FAQ](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B) | 다음 FAQ 업데이트됨: “내 활동의 보고서에 사용할 수 있는 데이터가 없는 이유는 무엇입니까? ” |
-| 10월 11일 | [[!DNL Adobe Analytics] 을(를) 위한 보고 소스로 사용 [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) | [!DNL Adobe Experience Platform Web SDK]의 A4T 지원에 대한 정보가 업데이트되었습니다. |
+| 10월 11일 |  [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA)용 보고 소스로서의 [[!DNL Adobe Analytics]  | [!DNL Adobe Experience Platform Web SDK]의 A4T 지원에 대한 정보가 업데이트되었습니다. |
 | 10월 10일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.11.0에 대한 릴리스 정보가 추가되었습니다. |
 | 10월 6일 | [응답 토큰](/help/main/administrating-target/response-tokens.md) | 코드 샘플이 모두 업데이트되었습니다. |
 |  | [[!UICONTROL 자동 할당] 활동을 위해 [!DNL Analysis Workspace] 의 A4T 보고서 설정](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank} | *[!UICONTROL Adobe Target 튜토리얼]* 안내서의 모든 튜토리얼이 업데이트되었습니다. |
