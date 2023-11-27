@@ -3,13 +3,14 @@ keywords: cja4t;Customer Journey Analytics;Target용 Customer Journey Analytics;
 description: ' [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (A4T)을 사용하여 [!DNL Customer Journey Analytics] 전환 지표 및 대상자 세그먼트를 기반으로 하는 활동을 생성하고 [!DNL Customer Journey Analytics] 보고서를 사용하여 결과를 검사할 수 있습니다.'
 title: ' [!DNL Adobe Customer Journey Analytics] for [!DNL Target] (CJA4T)이란 무엇입니까?'
 feature: Integrations
+badgeBeta: label="베타" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="의 Beta 기능 [!DNL Adobe Target]."
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 60bd479e75c9071b2293f5d71c39cddb7796bbea
-workflow-type: ht
-source-wordcount: '1050'
-ht-degree: 100%
+source-git-commit: 16b325431224dfb6cd3e580937f6a3989d0ca577
+workflow-type: tm+mt
+source-wordcount: '1066'
+ht-degree: 98%
 
 ---
 
