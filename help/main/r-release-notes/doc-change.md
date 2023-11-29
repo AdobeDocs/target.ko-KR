@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe45d3b9a456a862ef2294aea59f972f861b0e1e
+source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
 workflow-type: tm+mt
-source-wordcount: '2373'
-ht-degree: 95%
+source-wordcount: '2417'
+ht-degree: 98%
 
 ---
 
@@ -19,11 +19,12 @@ ht-degree: 95%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 11월 21일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 2.11.3에 대한 릴리스 정보가 추가되었습니다. |
-| 11월 17일 | [관리자의 첫 단계](/help/main/administrating-target/start-target.md) | 다음과 같은 중요한 참고가 추가되었습니다.<ul><li>을 사용하는 사용자 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 에 있는 권한 [!DNL Adobe Admin Console] 에서 모든 설정을 편집하거나 변경할 수 있음 [!UICONTROL 관리] 페이지 / [!DNL Target], 해당 항목에 관계 없음 [!DNL Target] 역할. 없는 사용자 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 에 있는 권한 [!DNL Adobe Admin Console] 은(는) 다음을 포함해야 합니다 [!DNL Target] 이러한 변경 작업을 수행하는 역할입니다.1</li></ul> |
-|  | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 섹션에 다음 방법에 대한 정보를 업데이트했습니다. [!DNL Target] 는 at.js 2에서 잘림을 처리합니다.*x* 및 [!DNL Adobe Experience Platform Web SDK]. |
-|  | [배달 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 현재 배달 API 설명서에 대한 리디렉션을 추가하고 레거시 설명서( 를 사용하지 않습니다.`http://developers.adobetarget.com/api/delivery-api/`). 필요에 따라 책갈피를 업데이트하십시오. |
-| 11월 16일 | [벌크 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 다음 주의 사항 추가: &quot;업데이트는 일반적으로 1시간 이내에 발생하지만 반영되기까지 24시간 이상 소요될 수 있습니다.&quot; |
+| 11월 29일 | [벌크 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 방법에 대한 차이점을 명확히 했습니다. [!DNL Target] 사용자의 프로필을 만들 때 고객 속성을 처리합니다. [!DNL Target] 을(를) 사용할 때 아직 표시되지 않음 [!UICONTROL 벌크 프로필 업데이트 API] v1이 아닌 v2 |
+| 11월 21일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 2.11.3에 대한 릴리스 정보가 추가되었습니다. |
+| 11월 17일 | [관리자의 첫 단계](/help/main/administrating-target/start-target.md) | 다음 중요 참고가 추가되었습니다.<ul><li>[!DNL Adobe Admin Console]에서 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 권한이 있는 사용자는 [!DNL Target] 역할에 관계없이 [!DNL Target]의 [!UICONTROL 관리] 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다. [!DNL Adobe Admin Console]에서 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 권한이 없는 사용자는 특정 [!DNL Target] 역할이 있어야 이러한 변경 사항을 적용할 수 있습니다.1</li></ul> |
+|  | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 섹션이 업데이트되어 [!DNL Target]에서 at.js 2의 자르기를 처리하는 방법에 대한 정보가 포함되었습니다.*x* 및 [!DNL Adobe Experience Platform Web SDK]. |
+|  | [게재 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 현재 게재 API 설명서에 리디렉션이 추가되었으며 기존 설명서는 더 이상 사용되지 않습니다(`http://developers.adobetarget.com/api/delivery-api/`). 필요에 따라 책갈피를 업데이트하십시오. |
+| 11월 16일 | [벌크 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 다음 주의 사항 추가됨: “업데이트는 일반적으로 1시간 이내에 이루어지지만 반영되는 데 최대 24시간이 걸릴 수 있습니다.” |
 | 11월 13일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.11.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 23.10.2 (2023년 10월 24일)
