@@ -5,9 +5,9 @@ title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: 593cbcc1ff8ccae7afa6098524e95659aa6890f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '736'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ AEM [!UICONTROL 콘텐츠 조각] 및 [!UICONTROL 경험 조각]에 대해 자�
 
 ## 요구 사항 {#requirements}
 
-다음을 사용해야 합니다. [[!DNL AEM] as a Cloud Service](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
+[[!DNL AEM] as a Cloud Service를 사용하고 있어야 합니다](https://experienceleague.corp.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
 
 [Adobe Target 고객 지원](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 연락하여 통합을 활성화하고 인증 세부 사항을 제공받으십시오.
 
