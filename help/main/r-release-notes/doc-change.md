@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 556a03b3caa7cca4ac48e9766e44f811550ea916
+source-git-commit: 13b284d581dfa44e5a41f4403dc115a2f81a9dd5
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 98%
+source-wordcount: '2480'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 12월 1일 | [Adobe Target 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 이전 API 설명서를 다음 문서로 이동했습니다.<ul><li>[Adobe Target 프로필 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target 단일 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target 벌크 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 11월 29일 | [벌크 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 방법에 대한 차이점을 명확히 했습니다. [!DNL Target] 사용자의 프로필을 만들 때 고객 속성을 처리합니다. [!DNL Target] 을(를) 사용할 때 아직 표시되지 않음 [!UICONTROL 벌크 프로필 업데이트 API] v1이 아닌 v2 |
 | 11월 21일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 2.11.3에 대한 릴리스 정보가 추가되었습니다. |
 | 11월 17일 | [관리자의 첫 단계](/help/main/administrating-target/start-target.md) | 다음 중요 참고가 추가되었습니다.<ul><li>[!DNL Adobe Admin Console]에서 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 권한이 있는 사용자는 [!DNL Target] 역할에 관계없이 [!DNL Target]의 [!UICONTROL 관리] 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다. [!DNL Adobe Admin Console]에서 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 권한이 없는 사용자는 특정 [!DNL Target] 역할이 있어야 이러한 변경 사항을 적용할 수 있습니다.1</li></ul> |
