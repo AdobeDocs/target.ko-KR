@@ -4,16 +4,35 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 5f782d0a2f632d2df3067825ebe829a6a781b3e0
-workflow-type: ht
-source-wordcount: '2128'
-ht-degree: 100%
+source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+workflow-type: tm+mt
+source-wordcount: '2242'
+ht-degree: 94%
 
 ---
 
 # [!DNL Adobe Target] 공지 및 이벤트
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
+
+## [!DNL Adobe Target Community] 커피 브레이크
+
+* **머신 러닝 및 AI 보고 및 분석**
+* **2023년 12월 6일 목요일**
+* **8:00 - 9:00 오전 (PST -8 GMT)**
+* **[여기에서 등록](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+
+가입 [!DNL Adobe Target] 전문가 Brent Kostak, Cristinel Anastasoaie, Drew Burns 및 Marisol St. John은 머신 러닝 및 AI 보고 및 분석에 대해 논의하는 사상 초유의 이벤트에서 다음을 수행합니다. [!DNL Adobe Target].
+
++++세부 정보 이 토론에서는 다음 주제를 중점적으로 다룹니다.
+
+* ML과 AI에 관심이 많으며 활동에 대한 보고 성공을 더 잘 이해하고 싶으신가요?
+* 콘텐츠, 오퍼 및 메시징에 대한 실시간 개인화를 사용할 수 있는 새로운 아이디어 및 사용 사례를 얻고 싶으십니까?
+* 서버측 테스트를 위한 양식 기반 활동 만들기에 대한 모범 사례를 알고 싶으십니까?
+* 내에서 활동 분석 및 측정을 개선하고자 하십니까? [!UICONTROL Analytics for Target] (A4T) 보고
+* 팀은 인증되고 알려진 고객 경험에 대한 테스트 및 개인화를 통해 A/B 테스트 이상으로 확장하는 방법을 궁금해하십니까?
+
++++
 
 ## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
 
