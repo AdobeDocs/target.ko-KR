@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 537af78695d8c22ec3725dfd86449852182c0b25
+source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
-source-wordcount: '2242'
-ht-degree: 94%
+source-wordcount: '2348'
+ht-degree: 88%
 
 ---
 
@@ -15,30 +15,39 @@ ht-degree: 94%
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
-## [!DNL Adobe Target Community] 커피 브레이크
+## Adobe Target 2024 개인화 성숙도 웨비나 시리즈
 
-* **머신 러닝 및 AI 보고 및 분석**
-* **2023년 12월 6일 목요일**
-* **8:00 - 9:00 오전 (PST -8 GMT)**
-* **[여기에서 등록](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-12-6-23-8am-pt/ec-p/636275/thread-id/81){target=_blank}**
+이 라이브 웨비나 시리즈는 키를 강조 표시합니다. [!DNL Adobe Target] 고객이 을 통해 실험 및 개인화 여정을 확장할 때 AI 기반 개인화를 잠금 해제할 수 있는 기능, 사용 사례 및 팁 [!DNL Adobe Experience Platform].
 
-가입 [!DNL Adobe Target] 전문가 Brent Kostak, Cristinel Anastasoaie, Drew Burns 및 Marisol St. John은 머신 러닝 및 AI 보고 및 분석에 대해 논의하는 사상 초유의 이벤트에서 다음을 수행합니다. [!DNL Adobe Target].
+왜 참석해야 합니까?
 
-+++세부 정보 이 토론에서는 다음 주제를 중점적으로 다룹니다.
+* **주요 사용 사례 알아보기**: 성숙해지는 지능형 최적화를 위한 청사진을 통해 비전을 현실로 변환 [!DNL Adobe Target] 규칙 기반 실험 및 A/B 테스트 이상의 고객.
+* **고유 기능 극대화**: ROI, 매출 및 전환을 극대화하기 위한 고성능 권장 사항으로 성공을 위한 경험을 맞춤화합니다.
+* **고급 개인화 전략**: AI/ML 고급 기술을 깊이 있게 분석하여 비즈니스 영향력을 확장하고, 새로운 세그먼트/대상과 공감하고, 개인화 모델을 미세 조정하여 최적화된 경험을 제공합니다
 
-* ML과 AI에 관심이 많으며 활동에 대한 보고 성공을 더 잘 이해하고 싶으신가요?
-* 콘텐츠, 오퍼 및 메시징에 대한 실시간 개인화를 사용할 수 있는 새로운 아이디어 및 사용 사례를 얻고 싶으십니까?
-* 서버측 테스트를 위한 양식 기반 활동 만들기에 대한 모범 사례를 알고 싶으십니까?
-* 내에서 활동 분석 및 측정을 개선하고자 하십니까? [!UICONTROL Analytics for Target] (A4T) 보고
-* 팀은 인증되고 알려진 고객 경험에 대한 테스트 및 개인화를 통해 A/B 테스트 이상으로 확장하는 방법을 궁금해하십니까?
+* **[여기에서 등록](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
+
++++날짜 및 세부 정보
+
+* **예술의 가능성**
+* **2024년 1월 16일 화요일**
+* **10:00 - 11:00 오전 (PST -8 GMT)**
+
+개인화 성숙도의 핵심은 인공 지능과 머신 러닝이다. [!DNL Adobe Target] 이러한 기술을 활용하여 사용자 행동을 이해하고, 환경 설정을 예측하며, 콘텐츠를 동적으로 조정할 수 있습니다. AI와 ML의 강력한 기능을 활용하여 브랜드가 정적 A/B 테스트와 규칙 기반 개인화를 넘어 상황에 맞는 동적인 경험을 제공하는 방법에 대해 알아봅니다.
+
+* **고성능 Recommendations**
+* **2024년 2월 13일 화요일**
+* **10:00 - 11:00 오전 (PST -8 GMT)**
+
+추천 알고리즘이 어떻게 기업의 판도를 바꿀 수 있는지, 참여 및 매출을 이끄는 방법에 대해 알아봅니다. 개인화된 제품 제안에서 콘텐츠 추천에 이르기까지, 사용자가 여정을 원활하게 안내할 수 있는 기능은 중요한 비즈니스 성장을 달성하는 데 직접적으로 기여합니다.
+
+* **AI 기반 개인화 잠금 해제**
+* **2024년 3월 12일 화요일**
+* **10:00 - 11:00 오전 (PST -8 GMT)**
+
+[!DNL Adobe Target] 은 고객 라이프사이클의 모든 단계에서 AI 기반 개인화 기능을 활용하여 1대1 개인화된 경험을 제공할 수 있습니다. 획득에서 보존에 이르기까지 기업이 프로세스 간소화, 수작업 최소화, 상황별 매력적인 고객 경험을 규모에 맞게 제공하는 방법에 대해 알아보십시오.
 
 +++
-
-## [!DNL Adobe Target] 웨비나 시리즈 {#webinar-series}
-
-고객이 개인화 및 최적화 목표를 달성하기 위해 [!DNL Target]을 사용하는 방법을 알아보려면 다음 웨비나에 등록하십시오.
-
-현재 일정이 없습니다.
 
 ## 과거 웨비나 및 스킬 빌더 세션 녹화
 
