@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
 source-wordcount: '2360'
-ht-degree: 97%
+ht-degree: 99%
 
 ---
 
@@ -21,14 +21,14 @@ ht-degree: 97%
 | --- | --- | --- |
 | 12월 13일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 에 대한 정보가 추가되었습니다. [!DNL Adobe Target] 2024년 개인화 성숙도 웨비나 시리즈. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank} | 다음 두 개의 새로운 옵션 설정이 추가되었습니다. <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
-| 12월 4일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | &quot;머신 러닝 및 AI 보고 및 분석&quot;에 대한 등록 정보가 추가되었습니다. [!DNL Adobe Target Community] 커피 브레이크 세션: 2023년 12월 6일 수요일 |
-| 12월 1일 | [Adobe Target 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 이전 API 설명서를 다음 문서로 이동했습니다.<ul><li>[Adobe Target 프로필 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target 단일 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target 벌크 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
-| 11월 29일 | [벌크 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | [!UICONTROL 벌크 프로필 업데이트 API v2]를 사용할 때 [!DNL Target]에서 아직 표시되지 않았던 사용자에 대한 프로필을 생성할 때 [!DNL Target]이 고객 속성을 처리하는 방법에 대한 차이점을 v1과 비교하여 명확히 했습니다. |
+| 12월 4일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | “머신 러닝 및 AI 보고 및 분석” [!DNL Adobe Target Community] 커피 브레이크 세션 등록 정보 추가: 2023년 12월 6일 수요일 |
+| 12월 1일 | [Adobe Target 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 기존 API 문서가 다음 문서로 이동되었습니다.<ul><li>[Adobe Target 프로필 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target 싱글 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target 일괄 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
+| 11월 29일 | [일괄 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | [!UICONTROL 일괄 프로필 업데이트 API v2]를 사용할 때 [!DNL Target]에서 아직 표시되지 않았던 사용자에 대한 프로필을 생성할 때 [!DNL Target]이 고객 속성을 처리하는 방법에 대한 차이점을 v1과 비교하여 명확히 했습니다. |
 | 11월 21일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 2.11.3에 대한 릴리스 정보가 추가되었습니다. |
 | 11월 17일 | [관리자의 첫 단계](/help/main/administrating-target/start-target.md) | 다음 중요 참고가 추가되었습니다.<ul><li>[!DNL Adobe Admin Console]에서 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 권한이 있는 사용자는 [!DNL Target] 역할에 관계없이 [!DNL Target]의 [!UICONTROL 관리] 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다. [!DNL Adobe Admin Console]에서 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 권한이 없는 사용자는 특정 [!DNL Target] 역할이 있어야 이러한 변경 사항을 적용할 수 있습니다.1</li></ul> |
 |  | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 섹션이 업데이트되어 [!DNL Target]에서 at.js 2의 자르기를 처리하는 방법에 대한 정보가 포함되었습니다.*x* 및 [!DNL Adobe Experience Platform Web SDK]. |
 |  | [게재 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank} | 현재 게재 API 설명서에 리디렉션이 추가되었으며 기존 설명서는 더 이상 사용되지 않습니다(`http://developers.adobetarget.com/api/delivery-api/`). 필요에 따라 책갈피를 업데이트하십시오. |
-| 11월 16일 | [벌크 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 다음 주의 사항 추가됨: “업데이트는 일반적으로 1시간 이내에 이루어지지만 반영되는 데 최대 24시간이 걸릴 수 있습니다.” |
+| 11월 16일 | [일괄 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | 다음 주의 사항 추가됨: “업데이트는 일반적으로 1시간 이내에 이루어지지만 반영되는 데 최대 24시간이 걸릴 수 있습니다.” |
 | 11월 13일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.11.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
 ## [!DNL Target] Standard/Premium 23.10.2 (2023년 10월 24일)
