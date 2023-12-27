@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
 workflow-type: tm+mt
 source-wordcount: '2360'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -19,8 +19,8 @@ ht-degree: 99%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 12월 13일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 에 대한 정보가 추가되었습니다. [!DNL Adobe Target] 2024년 개인화 성숙도 웨비나 시리즈. |
-|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank} | 다음 두 개의 새로운 옵션 설정이 추가되었습니다. <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
+| 12월 13일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 2024년 개인 맞춤화 완성 웨비나 시리즈에 대한 정보가 추가되었습니다. |
+|  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank} | 두 가지 새로운 옵션 설정 추가: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 12월 4일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | “머신 러닝 및 AI 보고 및 분석” [!DNL Adobe Target Community] 커피 브레이크 세션 등록 정보 추가: 2023년 12월 6일 수요일 |
 | 12월 1일 | [Adobe Target 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 기존 API 문서가 다음 문서로 이동되었습니다.<ul><li>[Adobe Target 프로필 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target 싱글 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target 일괄 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
 | 11월 29일 | [일괄 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | [!UICONTROL 일괄 프로필 업데이트 API v2]를 사용할 때 [!DNL Target]에서 아직 표시되지 않았던 사용자에 대한 프로필을 생성할 때 [!DNL Target]이 고객 속성을 처리하는 방법에 대한 차이점을 v1과 비교하여 명확히 했습니다. |
