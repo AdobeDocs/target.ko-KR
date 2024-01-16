@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 2421c9c0c3cf4cb2f914ef270fcb4fcf0dd3c3c3
+source-git-commit: 78bedce2134061edc48baf7023107e1dd48da2a1
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 46%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2023년 11월 8일**
+**마지막 업데이트 날짜: 2023년 1월 16일 화요일**
 
 >[!NOTE]
 >
@@ -23,23 +23,27 @@ ht-degree: 100%
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Target] Standard/Premium 23.11.1 (2023년 11월 13일, 14일)
+## 브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)
+
+| 사용 중단 | 세부 사항 |
+|--- |--- |
+| [!DNL iPad] 및 [!DNL iPhone] 에서 더 이상 사용되지 않음 [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md) 대상자를 만들 때 사용됩니다.<p>사용 중단 날짜:<P>2024년 4월 30일 수요일 | [!DNL Adobe Target] 다음 작업을 수행할 수 있습니다. [여러 범주 속성 중 하나를 타깃팅합니다.](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md) 방문자가 페이지를 방문할 때입니다.<P><B>2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다.</b><P>다음을 사용하여 iPad 또는 iPhone을 대상으로 하는 대상이 있는 경우 [!UICONTROL 브라우저] attribute가 제대로 작동하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.<P>앞으로 다음 설정을 사용해야 합니다.<ul><li>[!UICONTROL 모바일] > [!UICONTROL 태블릿임]<P>![모바일은 태블릿입니다](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+
+## [!DNL Target] Standard/Premium 24.1.1(2024년 1월 22일, 23일 및 25일)
 
 이번 릴리스는 다음 날짜로 예정되어 있습니다.
 
-* **11월 13일**: 아시아 태평양(APAC) 지역
-* **11월 14일**: 아메리카 지역
-* **11월 14일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **1월 22일**: 유럽, 중동 및 아프리카(EMEA) 지역
+* **1월 23일**: 아시아 태평양(APAC) 지역
+* **1월 25일**: 아메리카 지역
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 기능이 개선되어 [!UICONTROL Automated Personalization] 활동에 대한 [중복 오퍼를 허용하지 않도록](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) 지원합니다. (TGT-46627)
-* 제어 경험에 트래픽이 할당되지 않을 경우 활동 보고서에 사용 가능한 데이터가 없을 수 있는 이유를 고객이 이해할 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다. 자세한 정보에 대한 링크는 다음 툴팁에 포함되어 있습니다. [내 활동 보고서에 대해 사용 가능한 데이터가 없는 이유는 무엇입니까?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
-* 일부 고객의 [!UICONTROL 활동] 페이지에 활동이 제대로 표시되지 않는 문제가 해결되었습니다. (TGT-46830)
-* [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)을 보고 소스로 사용하는 활동에 영향을 미치는 다음과 같은 문제가 해결되었습니다.
-   * 일부 고객이 보고 데이터를 조회할 수 없는 문제가 해결되었습니다. (TGT-46557)
-   * 활동 보고 페이지의 [!UICONTROL Analytics에서 보기] 링크가 제대로 작동하지 않는 문제가 해결되었습니다. (TGT-46731)
-   * [!DNL Target] UI에서 [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도] 데이터가 제대로 표시되지 않는 문제가 해결되었습니다. (TGT-46592, TGT-46554 및 TGT-46586)
+* 보고 날짜 간격이 제대로 작동하지 않는 문제를 해결했습니다. (TGT-47396)
+* 에 잘못된 상태가 표시되는 문제를 해결했습니다. [!UICONTROL 모든 활동] 고객이 을 사용하여 활동을 활성화하거나 비활성화한 후 페이지 [!UICONTROL 추가 작업] 아이콘. (TGT-47367)
+* 의 원인이 되는 문제가 해결되었습니다. [!UICONTROL 중요 속성] 한 고객에 대해 표시되지 않는 보고서입니다. (TGT-47272)
+* 한 고객이 &quot;인증 필요&quot;를 활성화하려고 할 때 &quot;잘못된 페이로드&quot; 메시지가 표시되는 문제를 해결했습니다. (TGT-47195)
+* 에서 현지화된 문자열을 여러 개 업데이트했습니다. [!DNL Target] UI.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 
