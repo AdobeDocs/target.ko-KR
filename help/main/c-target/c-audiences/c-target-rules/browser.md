@@ -4,10 +4,10 @@ description: 에서 대상자를 만드는 방법을 알아봅니다. [!DNL Adob
 title: 브라우저 유형에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: 335b5eaa9240fb4ecc592063bebd3ba977fb8d6e
 workflow-type: tm+mt
-source-wordcount: '923'
-ht-degree: 54%
+source-wordcount: '943'
+ht-degree: 53%
 
 ---
 
@@ -145,15 +145,15 @@ ht-degree: 54%
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* [!UICONTROL 모바일] > [!UICONTROL 태블릿임]
+* [!UICONTROL 모바일] > [!UICONTROL 태블릿임] > [!UICONTROL true]
 
   ![모바일은 태블릿입니다](/help/main/r-release-notes/assets/is-tablet.png)
 
-* [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPad]
+* [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPad] 및 컨테이너 포함 [!UICONTROL 모바일] > [!UICONTROL 태블릿임] 은(는) [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPhone]
+* [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPhone] 및 컨테이너 포함 [!UICONTROL 모바일] > [!UICONTROL 휴대 전화임] 은(는) [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
