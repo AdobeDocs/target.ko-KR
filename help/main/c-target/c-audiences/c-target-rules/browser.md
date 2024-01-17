@@ -4,7 +4,7 @@ description: 에서 대상자를 만드는 방법을 알아봅니다. [!DNL Adob
 title: 브라우저 유형에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 77c8a3460b800183481637723b9631c11157d143
+source-git-commit: 1e1641a52478e21bba4a1991f62809c7046dd33e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 51%
@@ -141,35 +141,35 @@ ht-degree: 51%
 
 다음 설정을 앞으로 사용할 수 있습니다.
 
-* 브라우저 일치의 경우 [!DNL Apple]: [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 일치] [!DNL Apple]
+* **브라우저 일치의 경우[!DNL Apple]**: [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 일치] [!DNL Apple]
 
   ![Apple](/help/main/r-release-notes/assets/apple.png)
 
-* 브라우저가 태블릿과 일치하는 경우: [!UICONTROL 모바일] > [!UICONTROL 태블릿임] > [!UICONTROL true]
+* **브라우저가 태블릿과 일치하면**: [!UICONTROL 모바일] > [!UICONTROL 태블릿임] > [!UICONTROL true]
 
   ![모바일은 태블릿입니다](/help/main/r-release-notes/assets/is-tablet.png)
 
-* 브라우저가 iPad과 일치하는 경우: [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPad] 및 컨테이너 포함 [!UICONTROL 모바일] > [!UICONTROL 태블릿임] 은(는) [!DNL true]
+* **브라우저가 iPad과 일치함**: [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPad] 및 컨테이너 포함 [!UICONTROL 모바일] > [!UICONTROL 태블릿임] 은(는) [!DNL true]
 
   ![iPad](/help/main/r-release-notes/assets/ipad.png)
 
-* 브라우저가 iPhone과 일치하는 경우: [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPhone] 및 컨테이너 포함 [!UICONTROL 모바일] > [!UICONTROL 휴대 전화임] 은(는) [!DNL true]
+* **브라우저가 iPhone과 일치함**: [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPhone] 및 컨테이너 포함 [!UICONTROL 모바일] > [!UICONTROL 휴대 전화임] 은(는) [!DNL true]
 
   ![iPhone](/help/main/r-release-notes/assets/iphone.png)
 
 조건이 무효화된 경우 등 사용할 수 있는 다른 가능한 설정이 많이 있습니다. 무효화된 조건의 예는 다음과 같습니다.
 
-* 브라우저가 iPhone과 일치하지 않음: [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 다음과 일치하지 않음] [!UICONTROL Apple] 또는 컨테이너가 있는 [!UICONTROL 모바일] > [!UICONTROL 휴대 전화임] 은(는) [!UICONTROL false]
+* **의 브라우저가 iPhone과 일치하지 않음**: [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 다음과 일치하지 않음] [!UICONTROL Apple] 또는 컨테이너가 있는 [!UICONTROL 모바일] > [!UICONTROL 휴대 전화임] 은(는) [!UICONTROL false]
 
   ![휴대폰 아님](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* 브라우저가 iPad과 일치하지 않음: [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 다음과 일치하지 않음] [!UICONTROL Apple] 또는 컨테이너가 있는 [!UICONTROL 모바일] > [!UICONTROL 태블릿임] 은(는) [!UICONTROL false].
+* **의 브라우저가 iPad과 일치하지 않음**: [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 다음과 일치하지 않음] [!UICONTROL Apple] 또는 컨테이너가 있는 [!UICONTROL 모바일] > [!UICONTROL 태블릿임] 은(는) [!UICONTROL false].
 
   ![타블렛 아님](/help/main/r-release-notes/assets/tablet-false.png)
 
 를 사용하는 경우 `user.browserType` javascript 세그먼트에서 변경 사항에는 다음이 포함될 수 있습니다.
 
-* BrowserType이 iPhone임
+* **BrowserType이 iPhone임**:
 
   바꾸기:
 
@@ -179,7 +179,7 @@ ht-degree: 51%
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType이 iPhone이 아님
+* **BrowserType이 iPhone이 아님**:
 
   바꾸기:
 
@@ -189,7 +189,7 @@ ht-degree: 51%
 
   `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
 
-* BrowserType이 iPad임
+* **BrowserType이 iPad임**:
 
   바꾸기:
 
@@ -199,7 +199,7 @@ ht-degree: 51%
 
   `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
 
-* BrowserType이 iPad이 아님
+* **BrowserType이 iPad이 아님**:
 
   바꾸기:
 
