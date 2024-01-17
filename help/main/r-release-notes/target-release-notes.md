@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b76a0541b181ee5ebe88f2d11f5556c6c7b91126
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 46%
+source-wordcount: '421'
+ht-degree: 47%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 46%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2024년 1월 16일 수요일**
+**마지막 업데이트 날짜: 2024년 1월 17일 목요일**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 46%
 
 | 사용 중단 | 세부 사항 |
 |--- |--- |
-| [!DNL iPad] 및 [!DNL iPhone] 에서 더 이상 사용되지 않음 [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md) 대상자를 만들 때 사용됩니다.<p>사용 중단 날짜:<P>2024년 4월 30일 수요일 | [!DNL Adobe Target] 다음 작업을 수행할 수 있습니다. [여러 범주 속성 중 하나를 타깃팅합니다.](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md) 방문자가 페이지를 방문할 때입니다.<P><B>2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다.</b><P>다음을 사용하여 iPad 또는 iPhone을 대상으로 하는 대상이 있는 경우 [!UICONTROL 브라우저] attribute가 제대로 작동하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.<P>앞으로 다음 설정을 사용해야 합니다.<ul><li>[!UICONTROL 모바일] > [!UICONTROL 태블릿임]<P>![모바일은 태블릿입니다](/help/main/r-release-notes/assets/is-tablet.png)</li><li>[!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPad]<P>![iPad](/help/main/r-release-notes/assets/ipad.png)</li><li>[!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPhone]<p>![iPhone](/help/main/r-release-notes/assets/iphone.png)</li></ul> |
+| [!DNL iPad] 및 [!DNL iPhone] 에서 더 이상 사용되지 않음 [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md) 대상자를 만들 때 사용됩니다.<p>사용 중단 날짜:<P>2024년 4월 30일 수요일 | [!DNL Adobe Target] 다음 작업을 수행할 수 있습니다. [여러 범주 속성 중 하나를 타깃팅합니다.](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md) 방문자가 페이지를 방문할 때입니다.<P><B>2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다.</b><P>다음을 사용하여 iPad 또는 iPhone을 대상으로 하는 대상이 있는 경우 [!UICONTROL 브라우저] attribute가 제대로 작동하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.<p>대체 설정의 예는 를 참조하십시오. [브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1(2024년 1월 22일, 23일 및 25일)
 

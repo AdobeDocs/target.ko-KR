@@ -4,10 +4,10 @@ description: 에서 대상자를 만드는 방법을 알아봅니다. [!DNL Adob
 title: 브라우저 유형에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: bb6d08581ddb685b4a311ad1c1d792546db12db6
+source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
 workflow-type: tm+mt
-source-wordcount: '675'
-ht-degree: 73%
+source-wordcount: '923'
+ht-degree: 54%
 
 ---
 
@@ -25,6 +25,10 @@ ht-degree: 73%
 * Opera
 * iPad
 * iPhone
+
+>[!IMPORTANT]
+>
+>2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다. 해결 방법 설정에 대해서는 을 참조하십시오. [브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)](#deprecation) 아래요.
 
 브라우저를 타깃팅하는 방법에는 두 가지가 있습니다.
 
@@ -126,3 +130,81 @@ ht-degree: 73%
 * 대상 카테고리 정의
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
+
+## 브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일) {#deprecation}
+
+[!DNL Adobe Target] 다음 작업을 수행할 수 있습니다. [여러 범주 속성 중 하나를 타깃팅합니다.](/help/main/c-target/c-audiences/c-target-rules/target-rules.md): 페이지를 방문할 때 특정 브라우저나 브라우저 선택 사항을 사용하는 사용자를 포함합니다.
+
+2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다.
+
+다음을 사용하여 iPad 또는 iPhone을 대상으로 하는 대상이 있는 경우 [!UICONTROL 브라우저] attribute가 제대로 작동하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.
+
+다음 설정을 앞으로 사용할 수 있습니다.
+
+* [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 일치] [!DNL Apple]
+
+  ![Apple](/help/main/r-release-notes/assets/apple.png)
+
+* [!UICONTROL 모바일] > [!UICONTROL 태블릿임]
+
+  ![모바일은 태블릿입니다](/help/main/r-release-notes/assets/is-tablet.png)
+
+* [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPad]
+
+  ![iPad](/help/main/r-release-notes/assets/ipad.png)
+
+* [!UICONTROL 모바일] > [!UICONTROL 장치 마케팅 이름] [!UICONTROL 일치] [!DNL iPhone]
+
+  ![iPhone](/help/main/r-release-notes/assets/iphone.png)
+
+조건이 무효화된 경우 등 사용할 수 있는 다른 가능한 설정이 많이 있습니다. 무효화된 조건의 예는 다음과 같습니다.
+
+* [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 다음과 일치하지 않음] [!UICONTROL Apple] 또는 컨테이너가 있는 [!UICONTROL 모바일] > [!UICONTROL 휴대 전화임] 은(는) [!UICONTROL false]
+
+  ![휴대폰 아님](/help/main/r-release-notes/assets/mobile-phone-false.png)
+
+* [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 다음과 일치하지 않음] [!UICONTROL Apple] 또는 컨테이너가 있는 [!UICONTROL 모바일] > [!UICONTROL 태블릿임] 은(는) [!UICONTROL false].
+
+  ![타블렛 아님](/help/main/r-release-notes/assets/tablet-false.png)
+
+를 사용하는 경우 `user.browserType` javascript 세그먼트에서 변경 사항에는 다음이 포함될 수 있습니다.
+
+* BrowserType이 iPhone임
+
+  바꾸기:
+
+  `user.browserType=="iphone"`
+
+  포함:
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType이 iPhone이 아님
+
+  바꾸기:
+
+  `user.browserType!="iphone"`
+
+  포함:
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("iphone")`
+
+* BrowserType이 iPad임
+
+  바꾸기:
+
+  `user.browserType=="ipad"`
+
+  포함:
+
+  `user.mobile.deviceVendor == "Apple" && user.mobile.deviceModel && user.mobile.deviceModel.toLowerCase().includes("ipad")`
+
+* BrowserType이 iPad이 아님
+
+  바꾸기:
+
+  `user.browserType!="ipad"`
+
+  포함:
+
+  `user.mobile.deviceVendor != "Apple" || user.mobile.deviceModel == null !! !user.mobile.deviceModel.toLowerCase().includes("ipad")`
