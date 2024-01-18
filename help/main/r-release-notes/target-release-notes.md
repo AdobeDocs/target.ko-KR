@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된  [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8755e5f314c5133f3b70e62eb9660fab42a7ea61
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '421'
-ht-degree: 47%
+source-wordcount: '346'
+ht-degree: 78%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 47%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target]릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2024년 1월 17일 목요일**
+**마지막 업데이트 날짜: 2024년 1월 18일 금요일**
 
 >[!NOTE]
 >
@@ -23,11 +23,6 @@ ht-degree: 47%
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## 브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)
-
-| 사용 중단 | 세부 사항 |
-|--- |--- |
-| [!DNL iPad] 및 [!DNL iPhone] 에서 더 이상 사용되지 않음 [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md) 대상자를 만들 때 사용됩니다.<p>사용 중단 날짜:<P>2024년 4월 30일 수요일 | [!DNL Adobe Target] 다음 작업을 수행할 수 있습니다. [여러 범주 속성 중 하나를 타깃팅합니다.](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md) 방문자가 페이지를 방문할 때입니다.<P><B>2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다.</b><P>다음을 사용하여 iPad 또는 iPhone을 대상으로 하는 대상이 있는 경우 [!UICONTROL 브라우저] attribute가 제대로 작동하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.<p>대체 설정의 예는 를 참조하십시오. [브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1(2024년 1월 22일, 23일 및 25일)
 
@@ -39,11 +34,12 @@ ht-degree: 47%
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* 보고 날짜 간격이 제대로 작동하지 않는 문제를 해결했습니다. (TGT-47396)
-* 에 잘못된 상태가 표시되는 문제를 해결했습니다. [!UICONTROL 모든 활동] 고객이 을 사용하여 활동을 활성화하거나 비활성화한 후 페이지 [!UICONTROL 추가 작업] 아이콘. (TGT-47367)
-* 의 원인이 되는 문제가 해결되었습니다. [!UICONTROL 중요 속성] 한 고객에 대해 표시되지 않는 보고서입니다. (TGT-47272)
-* 한 고객이 &quot;인증 필요&quot;를 활성화하려고 할 때 &quot;잘못된 페이로드&quot; 메시지가 표시되는 문제를 해결했습니다. (TGT-47195)
-* 에서 현지화된 문자열을 여러 개 업데이트했습니다. [!DNL Target] UI.
+* [!UICONTROL Analytics for Target] 매출 목표 지표가 있는 (A4T) 활동이 열 이름으로 &quot;매출&quot;을 표시하지 않았고 매출 지표가 보고에 ($) 형식으로 표시되지 않았습니다. 이것은 해결된 미용상의 문제였다. (TGT-46995)
+* 보고 일자 간격이 올바르게 작동하지 않는 문제를 수정했습니다. (TGT-47396)
+* 고객이 [!UICONTROL 추가 작업] 아이콘을 사용하여 활동을 활성화하거나 비활성화한 후 [!UICONTROL 모든 활동] 페이지에 잘못된 상태가 표시되는 문제를 수정했습니다. (TGT-47367)
+* 의 원인이 되는 문제가 해결되었습니다. [!UICONTROL 중요 속성] 단일 고객에 대해 표시되지 않을 보고서. (TGT-47272)
+* 단일 고객이 &quot;인증 필요&quot;를 활성화하려고 할 때 &quot;잘못된 페이로드&quot; 메시지가 표시되는 문제를 해결했습니다. (TGT-47195)
+* [!DNL Target] UI에서 여러 현지화된 문자열을 업데이트했습니다.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

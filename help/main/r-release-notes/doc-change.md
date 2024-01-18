@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bc57a7543c124f5be2d5f8d1df973cf10105d92b
+source-git-commit: a2ffeec1b98ee3c9df2466b245b972a252044c3d
 workflow-type: tm+mt
-source-wordcount: '2360'
-ht-degree: 100%
+source-wordcount: '2374'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 1월 18일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 향후 출시 예정인 [!DNL Target Standard/Premium] 24.1.1 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
 | 12월 13일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | [!DNL Adobe Target] 2024년 개인 맞춤화 완성 웨비나 시리즈에 대한 정보가 추가되었습니다. |
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank} | 두 가지 새로운 옵션 설정 추가: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 12월 4일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | “머신 러닝 및 AI 보고 및 분석” [!DNL Adobe Target Community] 커피 브레이크 세션 등록 정보 추가: 2023년 12월 6일 수요일 |
