@@ -2,13 +2,13 @@
 keywords: 문제 해결, 자주 묻는 질문, FAQ, FAQ, 권장 사항, 특수 문자, 속성 가중치, 콘텐츠 유사성
 description: Adobe  [!DNL Target]  Recommendations 활동에 대해 자주 묻는 질문과 대답 목록을 보십시오.
 title: ' [!DNL Target]  Recommendations에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3400'
-ht-degree: 91%
+source-wordcount: '3471'
+ht-degree: 90%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 91%
 
 * 이전에는 제외되었지만 지금은 포함되어야 하는 경우에는 항목이 다음 알고리즘 실행에 포함됩니다(12~24시간).
 
-   이 상황은 [!DNL Target]이 온라인과 오프라인 모두에서 제외를 적용하기 때문에 발생합니다. 항목을 새로 제외하는 경우에는 온라인 제외가 빠르게 적용됩니다. 항목이 새로 포함되는 경우에는 온라인 제외가 빠르게 사라지지만, 오프라인 제외는 다음 알고리즘일 실행될 때까지 사라지지 않습니다.
+  이 상황은 [!DNL Target]이 온라인과 오프라인 모두에서 제외를 적용하기 때문에 발생합니다. 항목을 새로 제외하는 경우에는 온라인 제외가 빠르게 적용됩니다. 항목이 새로 포함되는 경우에는 온라인 제외가 빠르게 사라지지만, 오프라인 제외는 다음 알고리즘일 실행될 때까지 사라지지 않습니다.
 
 * 이전에는 포함되었지만 지금은 제외되는 경우에는 피드 소스에 따라 위에서 논의된 &quot;항목 속성 업데이트...&quot; 시간표(mbox/API를 통해 15분 또는 피드를 통해 12~24시간)에 따라 항목이 제외됩니다.
 
@@ -95,7 +95,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 적용 가능한 모든 기준을 포함합니다.
 
-[!DNL Target]은 알고리즘 선택기의 인텔리전스 필터링을 제어할 수 있도록 [호환되지 않는 조건 필터링](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 설정을 가지고 있습니다.
+[!DNL Target] 다음 포함 [호환되지 않는 기준 필터링](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 알고리즘 선택기의 인텔리전스 필터링을 제어하도록 설정합니다.
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 �
 * 컬렉션을 다시 저장하고 번호가 업데이트되는지 확인할 수 있습니다. 다시 저장하면 컬렉션이 해당 컬렉션을 사용하는 모든 알고리즘을 다시 실행합니다.
 * 올바른 환경을 보고 있습니까? [!DNL /target/products.html#recsSettings] 로 이동하여 아래와 같이 다시 확인합니다.
 
-   ![product_catalog 이미지](assets/product_catalog.png)
+  ![product_catalog 이미지](assets/product_catalog.png)
 
 * 색인이 최신 상태입니까? (으)로 이동 [!DNL /target/products.html#productSearch] 색인이 몇 시간 경과되었는지 확인합니다(예를 들어, &quot;색인화된 후 3시간 경과&quot;). 필요에 따라 색인을 새로 고칠 수 있습니다.
 * 엔티티가 더 이상 컬렉션 규칙과 일치하지 않도록 피드 또는 데이터 계층에서 변경한 것이 있습니까? 대소문자가 일치하는지 확인하십시오(대소문자 구분).
@@ -214,19 +214,19 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 * 결과가 아직 준비되지 않았습니다.
 
-   일반적으로 이 상황은 새로 만든 활동을 처음 저장하거나 활동에 사용된 컬렉션, 기준 또는 프로모션에 대한 구성이 변경된 후에 발생합니다.
+  일반적으로 이 상황은 새로 만든 활동을 처음 저장하거나 활동에 사용된 컬렉션, 기준 또는 프로모션에 대한 구성이 변경된 후에 발생합니다.
 
 * 요청된 알고리즘/키 조합에 대해 가장 가까운 에지 서버에 아직 캐시되지 않은 결과가 준비됩니다.
 
-   요청이 캐싱 작업을 시작하므로 이 문제는 몇 페이지를 다시 로드하거나 몇 분이 경과하면 해결됩니다.
+  요청이 캐싱 작업을 시작하므로 이 문제는 몇 페이지를 다시 로드하거나 몇 분이 경과하면 해결됩니다.
 
 * 결과가 준비되었지만 제공된 키 값에 대해 사용할 수 없습니다.
 
-   이 상황은 일반적으로 최신 알고리즘 실행 후 카탈로그에 추가된 항목에 대한 권장 사항을 요청할 때 발생하며 다음 알고리즘 실행 후에 자체적으로 해결됩니다.
+  이 상황은 일반적으로 최신 알고리즘 실행 후 카탈로그에 추가된 항목에 대한 권장 사항을 요청할 때 발생하며 다음 알고리즘 실행 후에 자체적으로 해결됩니다.
 
 * 부분 템플릿 렌더링이 비활성화되며 템플릿을 채우기에는 결과가 충분하지 않습니다.
 
-   일반적으로 이 상황은 동적 포함 규칙이 있을 때 발생하며, 이 규칙은 가능한 결과에서 많은 항목을 적극적으로 필터링합니다. 상황이 발생하지 않도록 하려면 백업을 활성화하고 백업에 포함 규칙을 적용하지 않거나 덜 적극적으로 필터링된 기준을 순서대로 사용하십시오.
+  일반적으로 이 상황은 동적 포함 규칙이 있을 때 발생하며, 이 규칙은 가능한 결과에서 많은 항목을 적극적으로 필터링합니다. 상황이 발생하지 않도록 하려면 백업을 활성화하고 백업에 포함 규칙을 적용하지 않거나 덜 적극적으로 필터링된 기준을 순서대로 사용하십시오.
 
 ## 최근에 본 항목 기반의 권장 사항은 단일 방문자에 대해 여러 디바이스에서 지속됩니까? {#persist-across-devices}
 
@@ -244,7 +244,7 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 ## [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]에서 만들어진 알고리즘을 사용할 수 있습니까?
 
-[!DNL Recommendations Classic]에서 만들어진 알고리즘은 [!DNL Recommendations Premium]에서 지원되지 않습니다. [!DNL Target Premium]에서 레거시 알고리즘을 사용할 수 있으나 [!DNL Target Premium] UI에서 오퍼 활동을 사용하지 않거나 삭제할 때 알고리즘이 동기화 문제를 일으킬 수 있습니다. 두 솔루션의 차이에 대한 자세한 정보는  [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)의 [[!DNL Recommendations Classic] versus [!DNL Recommendations]  활동을 참조하십시오.
+[!DNL Recommendations Classic]에서 만들어진 알고리즘은 [!DNL Recommendations Premium]에서 지원되지 않습니다. [!DNL Target Premium]에서 레거시 알고리즘을 사용할 수 있으나 [!DNL Target Premium] UI에서 오퍼 활동을 사용하지 않거나 삭제할 때 알고리즘이 동기화 문제를 일으킬 수 있습니다. 두 솔루션의 차이에 대한 자세한 내용은 [[!DNL Recommendations Classic] 및 [!DNL Recommendations] 의 활동 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 ## 새 기사나 비디오만 추천하려면 어떻게 합니까? {#recommend-new-articles}
 

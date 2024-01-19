@@ -4,10 +4,10 @@ description: 방문자의 프로필에 저장되어 Adobe [!DNL Target] 활동�
 title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2466'
-ht-degree: 100%
+source-wordcount: '2456'
+ht-degree: 98%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    | 매개변수 유형 | 설명 |
    |--- |--- |
-   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 활동에서 지리 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [ 글로벌 mbox에 매개변수 전달](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을 참조하십시오.<br>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개 이상의 프로필 속성을 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하십시오. 자세한 내용은 [ [!DNL Adobe Target] API 설명서의 프로필 업데이트](https://developers.adobetarget.com/api/#updating-profiles)를 참조하십시오. |
+   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 다음을 참조하십시오 [글로벌 mbox에 매개 변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}.<br>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개 이상의 프로필 속성을 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하십시오. 자세한 내용은 [ [!DNL Adobe Target] API 설명서의 프로필 업데이트](https://developers.adobetarget.com/api/#updating-profiles)를 참조하십시오. |
    | 프로필 | JavaScript 코드 스니펫으로 바로 정의됩니다. 이러한 스니펫은 소비자가 소비한 금액 합계와 같이 실행 중인 합계를 저장할 수 있으며 각 mbox 요청에 대해 실행됩니다. 아래의 프로필 스크립트 속성을 참조하십시오. |
 
 ## 프로필 스크립트 속성 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -73,7 +73,7 @@ if (mbox.name == 'Track_Interest') {
 * `user.get('parameterName')`이 있는 코드의 프로필 스크립트 속성(자체 포함)을 참조합니다.
 * 다음에 `user.setLocal('variable_name', 'value')`를 사용하여 스크립트가 실행될 때(다음 mbox 요청에 대해) 액세스할 수 있는 변수를 저장합니다. `user.getLocal('variable_name')`을 사용하여 변수를 참조합니다. 이 프로세스는 마지막 요청 날짜 및 시간을 참조하고자 하는 상황에 유용합니다.
 
-   이러한 값은 프로필 스크립트처럼 유지되지만 설정된 스크립트 내에서만 액세스할 수 있습니다.
+  이러한 값은 프로필 스크립트처럼 유지되지만 설정된 스크립트 내에서만 액세스할 수 있습니다.
 
 * 매개변수 및 값은 대/소문자를 구분합니다. 활동 또는 테스트 도중 수신하는 매개변수 및 값의 대/소문자를 일치시키십시오.
 * 자세한 JavaScript 구문에 대해서는 아래의 “스크립트 프로필 매개변수에 대한 JavaScript 참조” 섹션을 참조하십시오.
@@ -101,7 +101,6 @@ if (mbox.name == 'Track_Interest') {
 >
 > * 활동이 [!UICONTROL 초안] 상태입니다.
 > * 활동에 사용된 콘텐츠 또는 오퍼가 스크립트 변수(활동 내의 인라인 오퍼 또는 오퍼 라이브러리 내의 오퍼)를 사용합니다.
-
 
 ## Target이 프로필 스크립트를 비활성화하는 특정 상황 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
@@ -137,7 +136,7 @@ if (mbox.name == 'Track_Interest') {
 * 모두 실패하는 경우 try/catch에 스크립트를 래핑합니다.
 * 다음 권장 사항은 프로필 스크립트 복잡성을 제한하는 데 도움이 됩니다. 프로필 스크립트는 제한된 수의 명령어를 실행할 수 있습니다.
 
-   모범 사례:
+  모범 사례:
 
    * 가능하면 프로필 스크립트를 작고 단순하게 유지하십시오.
    * 정규 표현식을 사용하지 않거나 간단한 정규 표현식만 사용하십시오. 간단한 표현식도 평가하는 데 많은 명령어가 필요할 수 있습니다.
@@ -157,27 +156,27 @@ if (mbox.name == 'Track_Interest') {
 
 * **프로필 스크립트를 응답 토큰으로 추가하여 프로필 스크립트 디버그:**
 
-   [!DNL Target]에서 **[!UICONTROL 관리]**&#x200B;를 클릭하고, **[!UICONTROL 응답 토큰]**&#x200B;을 클릭한 다음 디버그하려는 프로필 스크립트를 활성화합니다.
+  [!DNL Target]에서 **[!UICONTROL 관리]**&#x200B;를 클릭하고, **[!UICONTROL 응답 토큰]**&#x200B;을 클릭한 다음 디버그하려는 프로필 스크립트를 활성화합니다.
 
-   [!DNL Target]이 있는 사이트의 페이지를 로드할 때마다 [!DNL Target]의 응답의 일부에는 아래와 같이 지정된 프로필 스크립트 값이 포함됩니다.
+  [!DNL Target]이 있는 사이트의 페이지를 로드할 때마다 [!DNL Target]의 응답의 일부에는 아래와 같이 지정된 프로필 스크립트 값이 포함됩니다.
 
-   ![debug_profile_script_1 이미지](assets/debug_profile_script_1.png)
+  ![debug_profile_script_1 이미지](assets/debug_profile_script_1.png)
 
 * **mboxTrace 디버깅 도구를 사용하여 프로필 스크립트를 디버그합니다.**
 
-   이 방법을 사용하려면 [!UICONTROL 디버거 도구] 섹션에서 **[!UICONTROL Target]** > **[!UICONTROL 관리]** > **[!UICONTROL 구현]** > **[!UICONTROL 인증 토큰 생성]**&#x200B;을 클릭하여 생성할 수 있는 인증 토큰이 필요합니다.
+  이 방법을 사용하려면 [!UICONTROL 디버거 도구] 섹션에서 **[!UICONTROL Target]** > **[!UICONTROL 관리]** > **[!UICONTROL 구현]** > **[!UICONTROL 인증 토큰 생성]**&#x200B;을 클릭하여 생성할 수 있는 인증 토큰이 필요합니다.
 
-   그런 다음 이들 두 가지 매개변수를 페이지 URL의 “?” 뒤에 추가하십시오. `mboxTrace=window&authorization=YOURTOKEN`
+  그런 다음 이들 두 가지 매개변수를 페이지 URL의 “?” 뒤에 추가하십시오. `mboxTrace=window&authorization=YOURTOKEN`
 
-   이들 매개변수를 추가하는 것은 프로필의 실행 전 스냅샷 및 실행 후 스냅샷을 얻을 수 있으므로 응답 토큰을 사용하는 것보다 좀 더 유용합니다. 사용 가능한 모든 프로필도 표시됩니다.
+  이들 매개변수를 추가하는 것은 프로필의 실행 전 스냅샷 및 실행 후 스냅샷을 얻을 수 있으므로 응답 토큰을 사용하는 것보다 좀 더 유용합니다. 사용 가능한 모든 프로필도 표시됩니다.
 
-   ![debug_profile_script_2 이미지](assets/debug_profile_script_2.png)
+  ![debug_profile_script_2 이미지](assets/debug_profile_script_2.png)
 
 ## 프로필 스크립트 FAQ {#section_1389497BB6D84FC38958AE43AAA6E712}
 
 **이 프로필 스크립트를 사용하여 데이터 계층에 있는 페이지에서 정보를 캡처할 수 있습니까?**
 
-프로필 스크립트는 서버측을 실행하므로 페이지를 직접 읽을 수 없습니다. 데이터는 mbox 요청 또는 데이터를 [ Target으로 가져오는 다른 방법](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}을 통해 전달해야 합니다. 데이터가 [!DNL Target]에 있으면 프로필 스크립트는 데이터를 mbox 매개변수 또는 프로필 매개변수로 읽을 수 있습니다.
+프로필 스크립트는 서버측을 실행하므로 페이지를 직접 읽을 수 없습니다. 데이터는 mbox 요청 또는 기타 를 통해 전달되어야 합니다 [데이터를 Target으로 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}. 데이터가 [!DNL Target]에 있으면 프로필 스크립트는 데이터를 mbox 매개변수 또는 프로필 매개변수로 읽을 수 있습니다.
 
 ## 스크립트 프로필 매개변수에 대한 JavaScript 참조
 

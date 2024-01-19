@@ -4,10 +4,10 @@ description: Adobe에 대해 자주 묻는 질문과 대답 목록 탐색 [!DNL 
 title: 다음에 대한 질문에 대한 답변은 어디에서 찾을 수 있습니까? [!DNL Target] 보고?
 feature: Reports
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: 5856bed8dd3bf59164c842eef687757f4e877bd5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 27%
+source-wordcount: '1385'
+ht-degree: 25%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 27%
 
 XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인 시나리오인 [!UICONTROL A/B 테스트] 활동과 유사한 방식으로 XT 활동을 사용하는 경우 제어 경험 데이터가 유용합니다. 보고서에서 유용하지 않은 경우 제어 경험 데이터를 무시할 수 있습니다.
 
-## 다른 [!DNL Target] 솔루션보다 [!DNL Adobe Experience Cloud]에서 방문 횟수가 더 적은 이유는 무엇입니까? {#section_7E626FDB417E41B8B58BBF30FB207409}
+## 에서 방문 횟수가 더 적은 이유는 무엇입니까? [!DNL Target] 기타 [!DNL Adobe Experience Cloud] 해결책? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 지표 번호(예: 방문자 수, 보고자 [!DNL Target] 은(는) 항상 다른 의 보고된 수치보다 낮습니다. [!DNL Experience Cloud] 몇 가지 이유로 솔루션:
 
@@ -87,7 +87,7 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
 활동의 보고서에 대한 환경을 변경하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **[!UICONTROL 보고서 탭을 클릭합니다.]**
+1. **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **[!UICONTROL 보고서]** 탭을 클릭합니다.
 1. 톱니바퀴 아이콘을 클릭하여 보고서 설정을 구성합니다.
 
    ![A/B 설정 대화 상자](/help/main/c-reports/c-report-settings/assets/ab_settings_dialog.png)
@@ -104,7 +104,7 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
 활동의 콘텐츠가 사용자에게 전달되었지만 해당 보고서에 데이터가 들어 있지 않은 경우 트래픽이 있는 경험을 제어 경험으로 사용하는지 확인하십시오.
 
-1. **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **[!UICONTROL 보고서 탭을 클릭합니다.]**
+1. **[!UICONTROL 활동]**&#x200B;을 클릭하고 목록에서 원하는 활동을 클릭한 다음, **[!UICONTROL 보고서]** 탭을 클릭합니다.
 1. 톱니바퀴 아이콘을 클릭하여 보고서 설정을 구성합니다.
 
 1. 다음에서 **[!UICONTROL 제어]** 드롭다운 목록에서 트래픽을 수신하는 경험을 선택합니다.
@@ -125,6 +125,6 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 * A/B 및 MVT 테스트의 모범 사례는 트래픽 분할을 균일하게 유지하는 것입니다. 테스트 중에 경험 간의 트래픽 분포(예: 90/10에서 50/50)를 변경하면 경험 간에 방문자가 고르지 않을 수 있습니다. 낮은 트래픽 경험은 &quot;따라잡을 수 없음&quot;일 수 있습니다.
 * 위의 모범 사례를 따르고 있고 트래픽 분할이 시간이 지남에 따라 정규화되지 않는 경우 다음을 확인해야 합니다.
 
-   * 최신 at.js 라이브러리를 사용하고 있습니까? 현재 버전 및 관련 릴리스 정보에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+   * 최신 at.js 라이브러리를 사용하고 있습니까? 현재 버전 및 관련 릴리스 정보에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank}.
 
    * 리디렉션 테스트입니까? 페이지에서 태그가 실행되는 타이밍이 올바르지 않으면 트래픽 분할이 불균등해질 수 있습니다(특히 를 사용할 때) [!DNL Analytics] 를 위한 데이터 소스로 [!DNL Target] 활동. Analytics for Target(A4T)을 사용하는 리디렉션 활동에 대한 트래픽 분배의 불균형을 해결하기 위한 자세한 내용은 을 참조하십시오. [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).

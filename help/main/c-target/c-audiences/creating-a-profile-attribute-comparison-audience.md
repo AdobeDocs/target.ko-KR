@@ -4,10 +4,10 @@ description: 두 프로필 속성을 비교할 대상을 정의하는 방법을 
 title: 대상에서 사용할 두 프로필 속성을 비교할 수 있습니까?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '431'
-ht-degree: 54%
+source-wordcount: '428'
+ht-degree: 53%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 54%
 
 부엌 가구를 구입할 경향이 거실 가구를 구입할 경향보다 크다고 정의된 대상을 생성할 수 있습니다. [!DNL Target] 그런 다음 특정 방문자의 식당 및 거실 성향 점수를 동적으로 비교하여 해당 방문자가 이 대상자에 적합한지 판별합니다.
 
-자세한 내용은 [데이터를 Target으로 가져오는 방법](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
+자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## 프로필 속성 비교 대상 만들기 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 

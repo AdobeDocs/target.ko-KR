@@ -1,14 +1,14 @@
 ---
 keywords: 엔티티;엔티티 속성;Recommendations로 정보 전달;행동 데이터;데이터 카운터;상대 URL 정의;재고 수준 표시;가격 정의;수익 마진 정의;사용자 지정 속성
 description: 엔티티 속성을 사용하여 제품 또는 콘텐츠 정보를 로 전달하는 방법을 알아봅니다. [!DNL Target] Recommendations.
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 title: 엔티티 속성은 어떻게 사용합니까?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: 341b57a91dac8f948e9d7767999411118c0e0562
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1081'
-ht-degree: 53%
+source-wordcount: '1090'
+ht-degree: 52%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 53%
 
 >[!NOTE]
 >
->at.js 2를 사용 중인 경우 입니다.*x*, `mboxCreate` (다음 예에서 사용됨)은 더 이상 지원되지 않습니다. 제품 또는 콘텐츠 정보를 로 전달하려면 [!DNL Recommendations] at.js 2 사용&#x200B;*x*, 사용 [targetPageParams](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+>at.js 2를 사용 중인 경우 입니다.*x*, `mboxCreate` (다음 예에서 사용됨)은 더 이상 지원되지 않습니다. 제품 또는 콘텐츠 정보를 로 전달하려면 [!DNL Recommendations] at.js 2 사용&#x200B;*x*, 사용 [targetPageParams](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetpageparams.html){target=_blank}. For an example, see [Plan and implement Recommendations](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -183,7 +183,7 @@ entity.value는 십진수 형식만 지원합니다(예: 15.99). 쉼표 형식(1
 
 예: `'entity.margin=1.00'`
 
-### entity.*사용자 지정*
+### 엔티티.*사용자 지정*
 
 다중 값(JSON 배열)을 지원합니다.
 
@@ -224,4 +224,3 @@ mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new yo
 >[!MORELIKETHIS]
 >
 >* [사용자 지정 엔티티 속성](/help/main/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
-

@@ -2,14 +2,14 @@
 keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
 description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 Adobe의 항목에 대한 추가 정보를 정의하는 방법에 대해 알아봅니다 [!DNL Target] Recommendations 카탈로그.
 title: 사용자 지정 엔티티 속성을 사용하는 방법
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 88%
+source-wordcount: '1454'
+ht-degree: 81%
 
 ---
 
@@ -63,7 +63,7 @@ ht-degree: 88%
 
 ## 다중 값 속성 구현 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-다중 값 사용자 지정 엔티티 속성은 피드(CSV) 사용 시 지원됩니다. `targetPageParams`및 제품을 업로드할 게재 API입니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열([])은 값이 없는 것으로 처리됩니다.
+다중 값 사용자 지정 엔티티 속성은 피드(CSV) 사용 시 지원됩니다. `targetPageParams`및 제품을 업로드할 게재 API입니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열( [] )는 값이 없는 것으로 처리됩니다.
 
 큰따옴표는 이스케이프 처리를 해야 합니다. 예를 들어, `"[""test"", ""value""]"`는 CSV로 사용할 수 있는 올바른 JSON 배열입니다.
 
@@ -100,7 +100,7 @@ function targetPageParams() {
 
 ![multi-value_example_excel 이미지](assets/multi-value_example_excel.png)
 
-.csv 형식으로 변환할 때 스프레드시트 소프트웨어는 셀 컨텐츠 둘레에 큰 따옴표를 추가하여 셀 내의 쉼표가 셀 구분 기호로 작동하지 않도록 합니다. 또한 사용자 지정 다중 값 속성에 포함하는 JSON 문자열 값의 둘레에도 큰 따옴표를 추가합니다. 이는 원시 파일에서 바로 작업하는 것을 불편하게 할 수 있습니다. 예:
+.csv 형식으로 변환할 때 스프레드시트 소프트웨어는 셀 컨텐츠 둘레에 큰따옴표를 추가하여 셀 내의 쉼표가 셀 구분 기호로 작동하지 않도록 합니다. 또한 사용자 지정 다중 값 속성에 포함하는 JSON 문자열 값의 둘레에도 큰 따옴표를 추가합니다. 이는 원시 파일에서 바로 작업하는 것을 불편하게 할 수 있습니다. 예:
 
 * 스프레드시트: `["1","2","3"]`
 * 원시: `"[""1"",""2"",""3""]"`
@@ -127,18 +127,18 @@ mbox 매개 변수의 배달 API를 이스케이프 처리된 JSON 배열을 포
   }
 ```
 
-배달 및 저장 엔티티 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}를 참조하십시오.
+다음을 참조하십시오. [Adobe Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 게재 및 엔티티 저장 API 사용에 대한 자세한 내용
 
 ## 다중 값 속성에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 다중 값 사용자 지정 속성에 연산자를 적용할 때, 목록에 있는 하나 이상의 값이 연산(부울 *or*)을 통과하는 경우 결과는 *true*&#x200B;가 됩니다.
 
-다음 예에서 규칙은 `message contains abc`.
+다음 예에서 규칙은 다음과 같습니다. `message contains abc`.
 
 * 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
 * 사례 2: `entity.genre = ["abcde","de","ef"]`. 하나의 값이 `abc`.
 
-부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어, 연산자가 `notEquals`인 경우 결과는 어느 값이든 일치하면 *false*&#x200B;가 됩니다.
+부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어 연산자가 `notEquals`, 결과는 다음과 같습니다. *false* 일치하는 값이 있는 경우
 
 알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 연산자 비헤이비어에 대해서는 다음 섹션을 참조하십시오.
 

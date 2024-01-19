@@ -4,10 +4,10 @@ description: Target JavaScript 라이브러리(AEP Web SDK at.js), Adobe 데이�
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 100%
+source-wordcount: '2507'
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,8 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 
 [!DNL Target]은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 사이트와 통합됩니다.
 
-* **[!DNL Adobe Experience Platform Web SDK]:** [Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}는 새로운 클라이언트측 JavaScript 라이브러리입니다. [!DNL Experience Platform Web SDK]를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform] Edge Network를 통해 [!DNL Experience Cloud] ([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]는 모든 신규 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
-* **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. [!DNL Adobe]는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}으로 구현을 업데이트할 것을 권장합니다.
+* **[!DNL Adobe Experience Platform Web SDK]:** [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}는 새로운 클라이언트측 JavaScript 라이브러리입니다. [!DNL Experience Platform Web SDK]를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform] Edge Network를 통해 [!DNL Experience Cloud] ([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]는 모든 신규 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
+* **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. [!DNL Adobe]는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank}으로 구현을 업데이트할 것을 권장합니다.
 
 >[!NOTE]
 >
@@ -31,7 +31,7 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 다음 리소스에는 [!DNL Experience Platform Web SDK] 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
 * [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [ [!DNL Target] 을 사용하여 [!DNL Adobe Experience Platform]구현](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
+* [ [!DNL Target] 을 사용하여 [!DNL Adobe Experience Platform]구현](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 타겟팅 시스템으로 요청이 전송됩니다. 요청은 방문자에게 제공할 콘텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 발생합니다. 페이지가 로드될 때마다 콘텐츠 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타겟팅합니다. 각 사이트 방문자가 응답하거나, 상호 작용하거나, 궁극적으로는 구매할 가능성이 가장 높은 콘텐츠가 제공됩니다. 개인화된 콘텐츠를 통해 응답률, 확보율 및 매출을 극대화할 수 있습니다.
 
@@ -64,7 +64,7 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 
 자세한 내용은 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 참조하십시오.
 
-### [!UICONTROL Automated Personalization] (AP)
+### [!UICONTROL 자동화된 개인화] (AP)
 
 [!UICONTROL Automated Personalization] (AP)은 오퍼 또는 메시지를 결합하고 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼를 매칭합니다. 경험 전달은 콘텐츠를 개인화하고 리프트를 구동하기 위한 개별 고객 프로필을 기반으로 합니다.
 
@@ -134,7 +134,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 >
 >[!DNL Adobe Target]은 현재 중국에 에지 클러스터를 보유하고 있지 않으며, 방문자 실적은 중국의 [!DNL Target] 고객에 한정되어 있습니다. 국가 내에서 방화벽과 에지 클러스터 부족으로 인해 [!DNL Target] 이 배포된 사이트의 환경이 영향을 받을 수 있습니다. 경험을 렌더링하기 위해 속도가 느릴 수 있으며 페이지 로드에 영향을 미칠 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
 
-원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}를 참조하십시오.
+원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank}를 참조하십시오.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -166,25 +166,25 @@ Google은 사용자 테스트를 권장합니다. Google은 해당 설명서를 
 
 * **클로킹 없음**: 클로킹은 사용자에게 하나의 콘텐츠 세트와 검색 엔진 봇에 대한 다른 콘텐츠 세트를 보여 줍니다. 클로킹은 특별히 봇을 식별하고 의도적으로 다른 콘텐츠를 공급함으로써 이루어집니다.
 
-   플랫폼인 [!DNL Target]은 검색 엔진 봇을 사용자와 동일하게 처리하도록 구성되었습니다. 결과적으로, 봇을 무작위로 선택하고 테스트 변형을 &quot;참조&quot;할 경우 봇은 활동에 포함될 수 있습니다.
+  플랫폼인 [!DNL Target]은 검색 엔진 봇을 사용자와 동일하게 처리하도록 구성되었습니다. 결과적으로, 봇을 무작위로 선택하고 테스트 변형을 &quot;참조&quot;할 경우 봇은 활동에 포함될 수 있습니다.
 
 * **rel=&quot;canonical&quot; 사용**: 때로 다양한 변형에 대한 다양한 URL을 사용하여 A/B 테스트를 설정해야 합니다. 이러한 경우, 모든 변형은 원래(통제) URL을 참조하는 `rel="canonical"` 태그를 포함해야 합니다. 예를 들어 [!DNL Adobe]가 각 변형에 대해 서로 다른 URL을 사용하여 홈 페이지를 테스트한다고 가정합시다. 홈 페이지에 대한 다음 표준 태그는 각 변형에 대해 `<head>` 태그로 지정됩니다.
 
-   `<link rel="canonical" href="https://www.adobe.com" />`
+  `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **302(임시) 리디렉션 사용**: 테스트에서 변형 페이지에 개별 URL이 사용되는 경우, Google에서는 302 리디렉션을 사용하여 트래픽을 테스트 변형으로 전달하는 것을 권장합니다. 302 리디렉션은 리디렉션이 임시적이며 테스트가 실행되는 동안에만 활성 상태임을 검색 엔진에 알려 줍니다.
 
-   302 리디렉션은 서버측 리디렉션이며 대부분의 최적화 제공자와 함께 [!DNL Target]은 클라이언트측 기능을 사용합니다. 따라서 리디렉션은 [!DNL Target]이 Google의 권장 사항을 완전히 준수하지 않는 영역입니다. 그러나 이 방법은 매우 일부 테스트에는 영향을 줍니다. [!DNL Target]을 통해 테스트를 실행하는 이 표준 접근 방식은 단일 URL 내 콘텐츠 변경을 필요로 하므로 리디렉션이 필요하지 않습니다. 클라이언트가 여러 URL을 사용하여 테스트 변형을 표현해야 하는 경우가 있습니다. 이러한 경우 [!DNL Target]은 JavaScript `window.location` 명령을 사용합니다. 이 명령은 리디렉션이 301인지 302인지를 명시적으로 나타내지 않는 변형을 테스트하도록 사용자에게 지시합니다.
+  302 리디렉션은 서버측 리디렉션이며 대부분의 최적화 제공자와 함께 [!DNL Target]은 클라이언트측 기능을 사용합니다. 따라서 리디렉션은 [!DNL Target]이 Google의 권장 사항을 완전히 준수하지 않는 영역입니다. 그러나 이 방법은 매우 일부 테스트에는 영향을 줍니다. [!DNL Target]을 통해 테스트를 실행하는 이 표준 접근 방식은 단일 URL 내 콘텐츠 변경을 필요로 하므로 리디렉션이 필요하지 않습니다. 클라이언트가 여러 URL을 사용하여 테스트 변형을 표현해야 하는 경우가 있습니다. 이러한 경우 [!DNL Target]은 JavaScript `window.location` 명령을 사용합니다. 이 명령은 리디렉션이 301인지 302인지를 명시적으로 나타내지 않는 변형을 테스트하도록 사용자에게 지시합니다.
 
-   [!DNL Adobe]는 검색 엔진 지침에 완벽하게 부합할 수 있는 실행 가능한 솔루션을 계속 찾고 있습니다. 테스트를 위해 별도의 URL을 사용해야 하는 클라이언트의 경우, [!DNL Adobe]는 표준 태그의 적절한 구현이 이 접근법과 관련된 위험을 완화한다고 확신합니다.
+  [!DNL Adobe]는 검색 엔진 지침에 완벽하게 부합할 수 있는 실행 가능한 솔루션을 계속 찾고 있습니다. 테스트를 위해 별도의 URL을 사용해야 하는 클라이언트의 경우, [!DNL Adobe]는 표준 태그의 적절한 구현이 이 접근법과 관련된 위험을 완화한다고 확신합니다.
 
 * **필요한 동안만 실험 실행**: [!DNL Adobe]에서는 “필요한 동안”을 통계적 중요도에 도달하는 데 걸리는 시간 동안으로 생각합니다. [!DNL Target]은 모범 사례 및 [!DNL Adobe Target] [샘플 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)를 제공하여 테스트가 이 지점에 도달했는지 확인할 수 있도록 해 줍니다. [!DNL Adobe]에서는 가장 성과가 좋은 테스트의 하드코딩된 구현을 테스트 워크플로에 통합하고 적절한 리소스를 할당할 것을 권장합니다.
 
-   [!DNL Target] 플랫폼을 사용하여 가장 성과가 좋은 테스트를 “게시”하는 것은 영구적인 솔루션으로 권장되지 않습니다. 100% 시간 동안 사용자의 100%에 대해 가장 성과가 좋은 테스트가 게시되면 가장 성과가 좋은 테스트를 하드 코딩하는 프로세스가 완료되는 동안 이 접근 방식을 사용할 수 있습니다.
+  [!DNL Target] 플랫폼을 사용하여 가장 성과가 좋은 테스트를 “게시”하는 것은 영구적인 솔루션으로 권장되지 않습니다. 100% 시간 동안 사용자의 100%에 대해 가장 성과가 좋은 테스트가 게시되면 가장 성과가 좋은 테스트를 하드 코딩하는 프로세스가 완료되는 동안 이 접근 방식을 사용할 수 있습니다.
 
-   테스트가 변경한 사항을 고려하는 것도 중요합니다. 페이지에 있는 버튼이나 기타 부수적인 비텍스트 기반 항목의 색상을 단순히 업데이트하는 것은 자연 순위에는 영향을 주지 않습니다. 하지만, 텍스트 변경 사항은 하드코딩해야 합니다.
+  테스트가 변경한 사항을 고려하는 것도 중요합니다. 페이지에 있는 버튼이나 기타 부수적인 비텍스트 기반 항목의 색상을 단순히 업데이트하는 것은 자연 순위에는 영향을 주지 않습니다. 하지만, 텍스트 변경 사항은 하드코딩해야 합니다.
 
-   또한 테스트 중인 페이지의 액세서빌러티를 고려하는 것도 중요합니다. 페이지가 검색 엔진에 액세스할 수 없고 처음부터 유기 검색 순위에 오르게 설계된 적이 없는 경우 위의 고려 사항은 적용되지 않습니다. 한 가지 예는 이메일 캠페인 전용 랜딩 페이지입니다.
+  또한 테스트 중인 페이지의 액세서빌러티를 고려하는 것도 중요합니다. 페이지가 검색 엔진에 액세스할 수 없고 처음부터 유기 검색 순위에 오르게 설계된 적이 없는 경우 위의 고려 사항은 적용되지 않습니다. 한 가지 예는 이메일 캠페인 전용 랜딩 페이지입니다.
 
 Google에서는 이러한 지침을 따르는 것이 &quot;테스트에서 검색 결과에 있는 여러분의 사이트에 영향을 거의 주지 않거나 전혀 주지 않는다&quot;고 명시합니다.
 

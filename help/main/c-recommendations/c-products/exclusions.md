@@ -4,10 +4,10 @@ description: Adobe에서 제외를 만드는 방법 알아보기 [!DNL Target] R
 title: Recommendations 활동에서 제외를 사용하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '623'
-ht-degree: 44%
+source-wordcount: '619'
+ht-degree: 34%
 
 ---
 
@@ -33,19 +33,19 @@ ht-degree: 44%
 
 ## 제외 만들기
 
-1. **[!UICONTROL 권장 사항]** > **[!UICONTROL 제외]**&#x200B;를 클릭하여 기존 제외 목록을 표시합니다.
+1. 클릭 **[!UICONTROL Recommendations]** > **[!UICONTROL 제외]** 기존 제외 목록을 표시합니다.
 
    ![exclusions_list 이미지](assets/exclusions_list.png)
 
-   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html)을 참조하십시오.{target=_blank}
+   [!UICONTROL 제외] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 다음을 참조하십시오 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 기본 호스트 그룹을 변경합니다.
 
-1. **[!UICONTROL 제외 만들기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL 제외 만들기]**.
 
-1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외의 컨텐츠를 미리 보는 동안 **[!UICONTROL 환경]** 필터에서 환경을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
+1. (조건부) **[!UICONTROL 환경]** 제외를 만들거나 업데이트하여 해당 환경에서 제외의 콘텐츠를 미리 보는 동안 필터링합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
    ![제외 만들기](/help/main/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. 제외 **[!UICONTROL 이름]**&#x200B;을 입력하고 선택적 설명을 입력합니다.
+1. 제외 입력 **[!UICONTROL 이름]** 원할 경우 설명을 입력합니다.
 
 1. 규칙 빌더를 사용하여 제외 항목을 만듭니다.
 

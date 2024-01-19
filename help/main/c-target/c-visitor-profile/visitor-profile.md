@@ -4,10 +4,10 @@ description: 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 
 title: 방문자 프로필이란?
 feature: Audiences
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '114'
-ht-degree: 36%
+source-wordcount: '106'
+ht-degree: 38%
 
 ---
 
@@ -24,6 +24,6 @@ If [!DNL Target] 다른 용기와 함께 사용됩니다. [!DNL Adobe Experience
 - [방문자 프로필 라이프타임](visitor-profile-lifetime.md)
 - [프로필 속성](profile-parameters.md)
 - [범주 친화성](category-affinity.md)
-- [고객 속성](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 - [mbox3rdPartyID에 대한 실시간 프로필 동기화](3rd-party-id.md)
 - [프로필 및 변수 용어집](variables-profiles-parameters-methods.md)

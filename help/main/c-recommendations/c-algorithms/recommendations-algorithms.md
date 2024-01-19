@@ -2,14 +2,14 @@
 keywords: 권장 사항 알고리즘;모델 교육;모델 제공;컨텐츠 전달;항목 기반;사용자 기반;인기도 기반;장바구니 기반;사용자 지정 기준
 description: 에서 사용되는 알고리즘에 대해 알아보기 [!DNL Target Recommendations], 모델 교육 및 모델 제공 포함.
 title: Target의 Recommendations 알고리즘에 숨겨진 과학에 대한 내용은 어디에서 확인할 수 있습니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '2842'
-ht-degree: 1%
+source-wordcount: '2832'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ ht-degree: 1%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 다음 작업을 수행할 때 수집된 방문자 보기 및 구매 형식의 행동 데이터 [구현 Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **입력 데이터**: 다음 작업을 수행할 때 수집된 방문자 보기 및 구매 형식의 행동 데이터 [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **모델 교육**:
 
@@ -89,24 +89,24 @@ ht-degree: 1%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 이전에 설명한 대로 이 알고리즘은 전적으로 카탈로그 데이터(로 수집됨)를 기반으로 합니다. [!DNL Target] 를 통해 [카탈로그 피드, 엔티티 API 또는 페이지 업데이트](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
+* **입력 데이터**: 이전에 설명한 대로 이 알고리즘은 전적으로 카탈로그 데이터(로 수집됨)를 기반으로 합니다. [!DNL Target] 를 통해 [카탈로그 피드, 엔티티 API 또는 페이지 업데이트](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **모델 교육**:
 
    * **속성 추출**: 일반 정적 필터, 카탈로그 규칙 및 전역 제외를 적용한 후 이 알고리즘은 엔티티 스키마에서 관련 텍스트 필드를 추출합니다. [!DNL Target] 는 엔티티 속성에서 이름, 메시지 및 카테고리 필드를 자동으로 사용하고, 사용자 지정에서 문자열 필드를 추출하려고 시도합니다 [엔티티 속성](/help/main/c-recommendations/c-products/entity-attributes.md). 이 프로세스는 해당 필드에 대한 값의 대부분을 숫자, 날짜 또는 부울로 구문 분석할 수 없도록 함으로써 수행됩니다.
    * **어간 및 정지어 제거**: 더 정확한 텍스트 유사성 일치를 위해 항목의 의미를 크게 변경하지 않는 매우 일반적인 &quot;중지&quot; 단어(예: &quot;was&quot;, &quot;is&quot;, &quot;and&quot; 등)를 제거하는 것이 좋습니다. 마찬가지로 형태소 분석이란 동일한 의미(예: &quot;connect&quot;, &quot;connecting&quot;, &quot;connection&quot;은 모두 동일한 루트 단어를 가지고 있습니다. &quot;connect&quot;)를 가진 루트 단어에 접미사가 다른 단어를 축소하는 과정을 말합니다. [!DNL Target] 는 Snowball 스테머를 사용합니다. [!DNL Target] 먼저 자동 언어 감지를 수행하고 최대 50개 언어에 대해 단어 제거를 중단하고 18개 언어에 대해 어간 분석을 중지할 수 있습니다.
    * **n-그램 생성**: 이전 단계 후에 각 단어는 토큰으로 처리됩니다. 토큰의 연속적인 시퀀스를 하나의 토큰으로 결합하는 과정을 n-그램 생성이라고 한다. [!DNL Target]의 알고리즘은 최대 2g를 고려합니다.
-   * **tf-idf 계산**: 다음 단계에서는 항목 설명에 있는 토큰의 상대적 중요성을 반영하기 위해 tf-idf 벡터를 만듭니다. 항목 i의 각 토큰/용어 t에 대해 다음을 포함하는 카탈로그 D의 항목 |D| 빈도라는 용어 TF(t, i)가 먼저 계산되고(용어가 항목 i에 표시되는 횟수) 문서 빈도수 DF(t, D)도 계산됩니다. 본질적으로, 토큰 t가 존재하는 항목의 수. 그러면 tf-idf 측정값이
+   * **tf-idf 계산**: 다음 단계에서는 항목 설명에 있는 토큰의 상대적 중요성을 반영하기 위해 tf-idf 벡터를 만듭니다. 항목 i의 각 토큰/용어 t에 대해 다음을 포함하는 카탈로그 D의 |D| 항목 빈도 TF(t, i)라는 용어와 문서 빈도 DF(t, D)라는 용어가 먼저 계산됩니다(항목 i에 용어가 나타나는 횟수). 본질적으로, 토큰 t가 존재하는 항목의 수. 그러면 tf-idf 측정값이
 
-      ![tf-idf 측정값을 표시하는 공식](assets/formula2.png)
+     ![tf-idf 측정값을 표시하는 공식](assets/formula2.png)
 
-      [!DNL Target] apache Spark 사용 *tf-idf* 기능 구현, 후드에서 각 토큰을 218개의 토큰 공간으로 해시합니다. 이 단계에서는 각 벡터의 용어 빈도를 다음에 지정된 설정에 따라 조정함으로써 고객이 지정한 속성 부스팅 및 매립도 적용합니다. [기준](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+     [!DNL Target] apache Spark 사용 *tf-idf* 기능 구현, 후드에서 각 토큰을 218개의 토큰 공간으로 해시합니다. 이 단계에서는 각 벡터의 용어 빈도를 다음에 지정된 설정에 따라 조정함으로써 고객이 지정한 속성 부스팅 및 매립도 적용합니다. [기준](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **항목 유사성 계산**: 최종 항목 유사성 계산은 근사 코사인 유사성을 사용하여 수행됩니다. 두 가지 항목에 대해서는, *A* 및 *B*&#x200B;벡터 tA와 tB를 사용하여 코사인 유사성은 다음과 같이 정의됩니다.
 
-      ![항목 유사성 계산을 보여 주는 공식](assets/formula3.png)
+     ![항목 유사성 계산을 보여 주는 공식](assets/formula3.png)
 
-      모든 N x N 항목 간의 유사성을 계산하는 데 있어 상당한 복잡성을 피하기 위해 *tf-idf* 벡터는 가장 큰 500개의 항목만 포함하도록 잘린 다음 이 잘린 벡터 표현을 사용하여 항목 간의 코사인 유사성을 계산합니다. 이 접근법은 국소성 민감 해싱과 같은 다른 근사 최근접 이웃(ANN) 기법에 비해 희소 벡터 유사성 계산에 더 강건하다는 것을 입증한다.
+     모든 N x N 항목 간의 유사성을 계산하는 데 있어 상당한 복잡성을 피하기 위해 *tf-idf* 벡터는 가장 큰 500개의 항목만 포함하도록 잘린 다음 이 잘린 벡터 표현을 사용하여 항목 간의 코사인 유사성을 계산합니다. 이 접근법은 국소성 민감 해싱과 같은 다른 근사 최근접 이웃(ANN) 기법에 비해 희소 벡터 유사성 계산에 더 강건하다는 것을 입증한다.
 
    * **모델 제공**: 이 프로세스는 이전 섹션에서 설명한 항목-항목 공동 작업 필터링 기술과 동일합니다.
 
@@ -127,7 +127,7 @@ ht-degree: 1%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 항목-항목 공동 작업 필터링(CF) 방법과 동일합니다. [!UICONTROL 두 가지 모두 추천 항목] 및 장바구니 기반 알고리즘은 사용자가 다음 작업을 수행할 때 수집된 사용자의 보기 및 구매 형태로 행동 데이터를 사용합니다. [구현 Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **입력 데이터**: 항목-항목 공동 작업 필터링(CF) 방법과 동일합니다. [!UICONTROL 두 가지 모두 추천 항목] 및 장바구니 기반 알고리즘은 사용자가 다음 작업을 수행할 때 수집된 사용자의 보기 및 구매 형태로 행동 데이터를 사용합니다. [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **모델 교육**:
 
@@ -135,14 +135,13 @@ ht-degree: 1%
    * **열차 시험 분할**: 각 사용자에 대한 사용량을 시간별로 분할하여 사용량의 처음 80%를 교육 데이터에 할당하고 나머지 20%를 테스트 데이터에 할당합니다.
    * **항목 유사성 모델 교육**: 핵심 항목 유사성 계산은 다음에 대해 다릅니다. [!UICONTROL 추천 항목] 후보 항목 벡터가 구성되는 방식으로 장바구니 기반 알고리즘이 제공됩니다. 대상 [!UICONTROL 추천 항목], 항목 벡터에는 차원 NUsers가 있습니다. 여기서 각 항목은 항목의 해당 사용자에 대한 암시적 등급의 합을 나타냅니다. 항목 구매에는 항목 보기의 2배 가중치가 제공됩니다. 장바구니 기반 권장 사항의 경우 항목 벡터에는 이진 항목이 있습니다. 세션 내 비헤이비어만 고려하는 경우 모든 세션에 대해 새 항목이 있습니다. 그렇지 않으면 모든 방문자에 대해 이 항목 벡터에 항목이 있습니다.
 
-   훈련 단계는 여러 유형의 벡터 유사성을 계산합니다: LLR 유사성 ([여기에 논의됨](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), 코사인 유사성(이전에 정의됨) 및 정규화된 L2 유사성으로, 다음과 같이 정의됨:
+  훈련 단계는 여러 유형의 벡터 유사성을 계산합니다: LLR 유사성 ([여기에 논의됨](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), 코사인 유사성(이전에 정의됨) 및 정규화된 L2 유사성으로, 다음과 같이 정의됨:
 
-   ![교육 계산을 보여 주는 공식](assets/formula4.png)
+  ![교육 계산을 보여 주는 공식](assets/formula4.png)
 
    * **항목 유사성 모델 평가**: 이전 단계에서 생성된 권장 사항을 취하고 테스트 데이터 세트에 대한 예측을 수행하여 모델 평가를 수행합니다. 온라인 채점 단계는 테스트 데이터 세트에서 각 사용자의 항목 사용을 시간 순으로 정렬한 다음, 후속 보기 및 구매를 예측하기 위해 정렬된 항목 하위 집합에 대해 100개의 권장 사항을 만드는 방식으로 모방됩니다. 정보 검색 지표, [평균 정밀도](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))는 이러한 권장 사항의 품질을 평가하는 데 사용됩니다. 이 지표는 권장 사항 순서를 고려하며 권장 사항 목록 위에 있는 관련 항목을 선호합니다. 이는 등급 시스템의 중요한 속성입니다.
    * **모델 선택**: 오프라인 평가 후 평균 정밀도 가 가장 높은 모델이 선택되고 모든 개별 항목 권장 사항이 계산됩니다.
    * **오프라인 필터링**: 모델 교육의 마지막 단계는 적용 가능한 동적 필터를 적용하는 것입니다. 이 단계 후에는 사전 계산된 권장 사항이 전역적으로 캐시되어 제공할 수 있습니다.
-
 
 * **모델 제공**: 추천 제공에 검색을 위한 단일 키 지정이 포함된 이전 알고리즘과 달리 비즈니스 규칙 적용에서는 [!UICONTROL 추천 항목] 및 장바구니 기반 알고리즘은 보다 복잡한 런타임 프로세스를 사용합니다.
 
@@ -175,7 +174,7 @@ ht-degree: 1%
 
 ## 최근에 본 항목
 
-최근에 본 권장 사항 알고리즘을 사용하면 권장 사항의 세션 내 개인화를 수행할 수 있습니다. 이 알고리즘에는 오프라인 &quot;모델 교육&quot;이 필요하지 않습니다. 대신, [!DNL Target] 고유 사용 [방문자 프로필](/help/main/c-target/c-visitor-profile/visitor-profile.md) 는 주어진 세션에서 보았으며 권장 사항 활동에서 이러한 항목을 표시할 수 있는 항목의 실행 목록을 유지 관리합니다. 이를 통해 추천과 다음 페이지 개인화에 대한 실시간 업데이트가 가능합니다.
+최근에 본 권장 사항 알고리즘을 사용하면 권장 사항의 세션 내 개인화를 수행할 수 있습니다. 이 알고리즘에는 오프라인 &quot;모델 교육&quot;이 필요하지 않습니다. 대신, [!DNL Target] 고유 사용 [방문자 프로필](/help/main/c-target/c-visitor-profile/visitor-profile.md) 는 주어진 세션에서 보았으며 권장 사항 활동에서 이러한 항목을 표시할 수 있는 항목의 실행 목록을 유지 관리합니다. 이를 통해 추천과 다음 페이지 개인화에 대한 실시간 업데이트를 수행할 수 있습니다.
 
 ## 사용자 지정 기준
 

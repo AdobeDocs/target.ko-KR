@@ -4,10 +4,10 @@ description: 여러 대상(Adobe Experience Cloud 대상 및 [!DNL Target] 즉�
 title: 여러 대상을 결합하여 새 대상을 만들 수 있습니까?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '961'
-ht-degree: 63%
+source-wordcount: '947'
+ht-degree: 56%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 63%
 
 >[!NOTE]
 >
->다음 [!DNL Adobe Experience Platform] 소스는 모든 사용자가 사용할 수 있습니다. [!DNL Target] 를 사용하는 고객 [Adobe Experience Platform 웹 SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 다음에서 사용 가능한 대상: [!DNL Adobe Experience Platform] 이 항목에서 설명한 대로 로 사용하거나 기존 대상과 결합할 수 있습니다.
+>다음 [!DNL Adobe Experience Platform] 소스는 모든 사용자가 사용할 수 있습니다. [!DNL Target] 를 사용하는 고객 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. 다음에서 사용 가능한 대상: [!DNL Adobe Experience Platform] 이 항목에서 설명한 대로 로 사용하거나 기존 대상과 결합할 수 있습니다.
 >
 >자세한 내용은 [Adobe Experience Platform의 대상 사용](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -83,12 +83,12 @@ AND와 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있�
 
 지표 타깃팅에서 사용할 결합된 임시 대상을 활동의 [!UICONTROL 목표 및 설정] 페이지에서 만들어 수 있습니다. 예를 들어, 결합된 대상을 사용하여 전환을 기반으로 타깃팅을 만들려면 다음을 수행하십시오.
 
-1.   [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만들 때 **[!UICONTROL 목표 및 설정]** 페이지에서 성공 지표에 대한 **[!UICONTROL 전환]**&#x200B;을 선택한 다음, mbox 확인함&#x200B;**[!UICONTROL 을 작업으로 선택합니다.]**
+1. 를 편집하거나 만드는 동안 [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), **[!UICONTROL 목표 및 설정]** 페이지, 선택 **[!UICONTROL 전환]** 성공 지표에 대해 을 선택합니다. **[!UICONTROL Mbox 확인함]** as the action.
 1. **[!UICONTROL mbox 검색]** 필드에서 원하는 mbox를 선택합니다.
 
    ![combine_multiple_audiences4 이미지](assets/combine_multiple_audiences4.png)
 
-1. 톱니바퀴 아이콘을 클릭한 다음, **[!UICONTROL 대상 타깃팅 추가를 클릭합니다]**.
+1. 톱니바퀴 아이콘을 클릭한 다음, **[!UICONTROL 대상 타깃팅 추가]**&#x200B;를 클릭합니다.
 1. **[!UICONTROL 대상/타깃팅 조건 추가]** 링크를 클릭하여 [!UICONTROL 대상 선택] 대화 상자를 표시합니다.
 
    ![combine_multiple_audiences5 이미지](assets/combine_multiple_audiences5.png)
@@ -99,7 +99,7 @@ AND와 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있�
 
 보고에서 사용할 결합된 임시 대상을 활동의 [!UICONTROL 목표 및 설정] 페이지에서 만들어 수 있습니다.
 
-1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만들 때, **[!UICONTROL 목표 및 설정]** 페이지에서 **[!UICONTROL 보고 대상]** 아래의 [!UICONTROL 대상 추가] 아이콘을 클릭하여 [!UICONTROL 대상 선택] 페이지를 표시합니다.
+1. 를 편집하거나 만드는 동안 [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), **[!UICONTROL 목표 및 설정]** 페이지를 클릭하고 **[!UICONTROL 대상 추가]** 아래에 있는 아이콘 [!UICONTROL 보고 대상] 을(를) 표시하려면 [!UICONTROL 대상 선택] 페이지를 가리키도록 업데이트하는 중입니다.
 
    ![combine_multiple_audiences6 이미지](assets/combine_multiple_audiences6.png)
 
@@ -113,13 +113,13 @@ AND와 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있�
 
    또는
 
-   원하는 활동을 클릭하여 연 다음, **[!UICONTROL 활동 편집을 클릭합니다]**.
+   원하는 활동을 클릭하여 연 다음, **[!UICONTROL 활동 편집]**&#x200B;을 클릭합니다.
 
 1. 다음을 클릭합니다. **[!UICONTROL 구성]** > **[!UICONTROL 대상]** > **[!UICONTROL 여러 대상]**.
 
    ![구성 > 대상 > 여러 대상](assets/combine_multiple_audiences7.png)
 
-1. 활동의 현재 대상 옆에 있는 더 보기 선택 사항 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 대상 변경을 클릭합니다]**.
+1. 활동의 현재 대상 옆에 있는 [더 보기] 선택 사항 아이콘(3개의 수직 줄임표)을 클릭한 다음, **[!UICONTROL 대상 변경]**&#x200B;을 클릭합니다.
 
    ![대상 변경](assets/combine_multiple_audiences8.png)
 

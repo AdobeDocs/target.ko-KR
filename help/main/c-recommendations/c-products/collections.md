@@ -2,13 +2,13 @@
 keywords: 컬렉션;타깃팅
 description: Adobe에서 컬렉션을 사용하는 방법 알아보기 [!DNL Target] Recommendations. 컬렉션은 권장 사항에 적합한 제품 또는 항목 세트입니다.
 title: Recommendations 활동에서 컬렉션을 사용하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '891'
+ht-degree: 52%
 
 ---
 
@@ -38,7 +38,7 @@ ht-degree: 60%
 
 컬렉션을 만들어 권장 사항에 표시할 제품 또는 콘텐츠를 구성합니다.
 
-1. **[!UICONTROL 권장 사항]** > **[!UICONTROL 컬렉션]**&#x200B;을 클릭하여 기존 컬렉션 목록을 표시합니다.
+1. 클릭 **[!UICONTROL Recommendations]** > **[!UICONTROL 컬렉션]** 기존 컬렉션 목록을 표시합니다.
 
    ![컬렉션 목록](assets/collections_list.png)
 
@@ -46,17 +46,17 @@ ht-degree: 60%
 
    ![마우스로 가리키기 아이콘: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL 컬렉션][](/help/main/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html)을 참조하십시오.{target=_blank}
+   [!UICONTROL 컬렉션][](/help/main/administrating-target/hosts.md) 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 호스트 그룹(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 다음을 참조하십시오 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 기본 호스트 그룹을 변경합니다.
 
-1. **[!UICONTROL 컬렉션 만들기]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL 컬렉션 만들기]**.
 
-1. (조건부) 컬렉션을 만들거나 업데이트하여 해당 환경에서 컬렉션의 컨텐츠를 미리 보는 동안 **[!UICONTROL 환경]** 필터에서 환경을 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
+1. (조건부) **[!UICONTROL 환경]** 컬렉션을 만들거나 업데이트하여 해당 환경에서 컬렉션의 컨텐츠를 미리 보는 동안 필터링합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
    ![컬렉션 만들기](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. 컬렉션에 사용할 **[!UICONTROL 이름]**&#x200B;을 입력합니다.
+1. Type a **[!UICONTROL 이름]** 컬렉션에 사용됩니다.
 
-   원할 경우 **[!UICONTROL 설명을 입력할 수도 있습니다]**.
+   원할 경우 **[!UICONTROL 설명]**&#x200B;을 입력할 수도 있습니다.
 
 1. 컬렉션을 만드는 데 사용되는 규칙을 설정합니다.
 

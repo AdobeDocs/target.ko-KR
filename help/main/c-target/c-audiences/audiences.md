@@ -4,10 +4,10 @@ description: 에서 대상자를 사용하는 방법 알아보기 [!DNL Adobe Ta
 title: 대상 목록은 어떻게 사용합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 351ed1e51b0a253476c6cda456781351333e8da5
+source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '818'
-ht-degree: 32%
+source-wordcount: '802'
+ht-degree: 26%
 
 ---
 
@@ -28,13 +28,13 @@ ht-degree: 32%
 * **타깃팅 대상:** 다양한 유형의 방문자에게 다양한 콘텐츠를 전달하는 데 사용됩니다.
 * **보고 대상:** 테스트 결과를 분석할 수 있도록 다양한 유형의 방문자가 동일한 콘텐츠에 어떻게 반응하는지를 판별하는 데 사용됩니다.
 
-  [!DNL Target]에서는 [!DNL Target]을 보고 소스로 사용하는 경우에만 보고 대상을 구성할 수 있습니다. [ Adobe Analytics를 보고 소스](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)로 사용하는 경우에는 [!DNL Analytics]에서 보고 대상을 구성해야 합니다.
+  [!DNL Target]에서는 [!DNL Target]을 보고 소스로 사용하는 경우에만 보고 대상을 구성할 수 있습니다. 를 사용하는 경우 [보고 소스로서의 Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) 내에서 보고 대상을 구성해야 합니다. [!DNL Analytics].
 
 ## 사용 [!UICONTROL 대상] 목록 {#use-list}
 
 [!UICONTROL 대상자] 목록에 액세스하려면 맨 위 메뉴 막대에서 **[!UICONTROL 대상자]**&#x200B;를 클릭하십시오.
 
-![대상 목록](assets/audiences_list.png)
+![[!UICONTROL 대상] 목록](assets/audiences_list.png)
 
 다음 [!UICONTROL 대상] 목록에는 활동에 사용할 수 있는 대상이 포함되어 있습니다. 사용 [!UICONTROL 대상] 대상을 작성, 편집, 복제, 복사 또는 결합할 수 있는 목록입니다. 대상이 만들어진 소스도 이 목록에 표시됩니다.
 
@@ -45,7 +45,7 @@ ht-degree: 32%
 
   >[!NOTE]
   >
-  >다음 [!DNL Adobe Experience Platform] 소스는 모든 사용자가 사용할 수 있습니다. [!DNL Target] 를 사용하는 고객 [Adobe Experience Platform 웹 SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 다음에서 사용 가능한 대상: [!DNL Adobe Experience Platform] 은 그대로 또는 로 사용할 수 있습니다. [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md).
+  >다음 [!DNL Adobe Experience Platform] 소스는 모든 사용자가 사용할 수 있습니다. [!DNL Target] 를 사용하는 고객 [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}. 다음에서 사용 가능한 대상: [!DNL Adobe Experience Platform] 은 그대로 또는 로 사용할 수 있습니다. [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md).
   >
   >사용자에게 다음이 있어야 합니다. [!UICONTROL 승인자] 또는 다음 위치의 이상 상태: [!DNL Target] 구성하려면 [!DNL Target] [!UICONTROL 대상] AEP/RTCDP의 카드([!DNL Real-time Customer Data Platform]).
   >
@@ -107,7 +107,7 @@ Keep the following points in mind as you work with imported audiences:
 
 ## [!DNL Adobe Experience Platform]의 대상자 사용 {#aep}
 
-[!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다.
+에서 생성된 대상 사용 [!DNL Adobe Experience Platform] 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현합니다.
 
 자세한 내용은 [다음에서 대상 사용 [!DNL Adobe Experience Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#aep).
 
