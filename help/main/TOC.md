@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 273143c5b2157948eee464ee0514e04a0105e978
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
-source-wordcount: '1236'
-ht-degree: 94%
+source-wordcount: '1225'
+ht-degree: 92%
 
 ---
 
@@ -93,11 +93,12 @@ ht-degree: 94%
       + [Target용 보고 소스로서의 Adobe Customer Journey Analytics(CJA4T)](/help/main/c-integrating-target-with-mac/cja4t/cja4t.md)
    + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
+      + [통합 [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
    + Adobe Experience Manager(AEM)와 Target 통합 {#aem}
       + [AEM과 Target 통합 개요](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 경험 조각 및 콘텐츠 조각 {#fragments}
-         + [(AEM) 경험 조각 및 콘텐츠 조각 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
+         + [AEM 경험 조각 및 콘텐츠 조각 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
          + [AEM 경험 구성요소](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
          + [AEM 콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)
    + [Adobe Audience Manager(AAM)와 Target 통합](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
@@ -197,7 +198,7 @@ ht-degree: 94%
          + [모바일](c-target/c-audiences/c-target-rules/mobile.md)
          + [운영 체제](c-target/c-audiences/c-target-rules/operating-system.md)
          + [사이트 페이지](c-target/c-audiences/c-target-rules/site-pages.md)
-         + [Target 라이브러리](c-target/c-audiences/c-target-rules/target-library.md)
+         + [타겟 라이브러리](c-target/c-audiences/c-target-rules/target-library.md)
          + [시간대](c-target/c-audiences/c-target-rules/time-frame.md)
          + [트래픽 소스](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [방문자 프로필](c-target/c-audiences/c-target-rules/visitor-profile.md)

@@ -1,20 +1,20 @@
 ---
 keywords: ajo;adobe 여정 최적화 도구;adobe 여정 최적화 도구 target 통합;권장 사항;target 권장 사항;통합
-description: 사용 [!DNL Adobe Target Recommendations] 포함 [!DNL Adobe Journey Optimizer].
+description: 통합 [!DNL Adobe Target Recommendations] 포함 [!DNL Adobe Journey Optimizer].
 title: 사용 방법 [!DNL Target Recommendations] 를 사용하는 고객 여정에서 [!DNL Adobe Journey Optimizer]?
 feature: Integrations
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
-source-git-commit: bb6c83ff393656a634e1e8ddcb02b14dc8d4c8d2
+source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
 workflow-type: tm+mt
 source-wordcount: '343'
 ht-degree: 3%
 
 ---
 
-# [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합
+# 통합 [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer]
 
 이 문서에서는 간의 통합을 설정하는 데 도움이 되는 사용 사례 및 정보에 대해 설명합니다 [!DNL Adobe Target Recommendation] 및 [!DNL Adobe Journey Optimizer] 을 통해 고객에게 연관성 있고 상황에 맞는 개인화된 경험을 제공할 수 있습니다.
 
