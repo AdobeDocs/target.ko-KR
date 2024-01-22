@@ -4,9 +4,9 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
-source-wordcount: '38027'
+source-wordcount: '38230'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,24 @@ ht-degree: 96%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2023
+
+### [!DNL Target] Standard/Premium 23.11.1 (2023년 11월 13일, 14일)
+
+이번 릴리스는 다음 날짜로 예정되어 있습니다.
+
+* **11월 13일**: 아시아 태평양(APAC) 지역
+* **11월 14일**: 아메리카 지역
+* **11월 14일**: 유럽, 중동 및 아프리카(EMEA) 지역
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* [활동 QA](/help/main/c-activities/c-activity-qa/activity-qa.md) 기능이 개선되어 [!UICONTROL Automated Personalization] 활동에 대한 [중복 오퍼를 허용하지 않도록](/help/main/c-activities/t-automated-personalization/managing-exclusions.md) 지원합니다. (TGT-46627)
+* 제어 경험에 트래픽이 할당되지 않을 경우 활동 보고서에 사용 가능한 데이터가 없을 수 있는 이유를 고객이 이해할 수 있도록 [!DNL Target] UI에 툴팁이 추가되었습니다. 자세한 정보에 대한 링크는 다음 툴팁에 포함되어 있습니다. [내 활동 보고서에 대해 사용 가능한 데이터가 없는 이유는 무엇입니까?](/help/main/c-reports/reporting-frequently-asked-questions.md#section_E4722F6445884130951DF79981C8289B). (TGT-46610)
+* 일부 고객의 [!UICONTROL 활동] 페이지에 활동이 제대로 표시되지 않는 문제가 해결되었습니다. (TGT-46830)
+* [[!UICONTROL Analytics for Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)을 보고 소스로 사용하는 활동에 영향을 미치는 다음과 같은 문제가 해결되었습니다.
+   * 일부 고객이 보고 데이터를 조회할 수 없는 문제가 해결되었습니다. (TGT-46557)
+   * 활동 보고 페이지의 [!UICONTROL Analytics에서 보기] 링크가 제대로 작동하지 않는 문제가 해결되었습니다. (TGT-46731)
+   * [!DNL Target] UI에서 [!UICONTROL 상승도] 및 [!UICONTROL 신뢰도] 데이터가 제대로 표시되지 않는 문제가 해결되었습니다. (TGT-46592, TGT-46554 및 TGT-46586)
 
 ### [!UICONTROL 활동] 페이지 사용자 인터페이스 새로 고침 (2023년 10월 25일)
 
