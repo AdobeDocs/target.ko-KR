@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '1202'
-ht-degree: 97%
+source-wordcount: '1237'
+ht-degree: 95%
 
 ---
 
@@ -15,10 +15,12 @@ ht-degree: 97%
 
 이 페이지에는 [!DNL Adobe Target] 제품 설명서의 중요 변경 사항이 기재되어 있습니다.
 
-## [!DNL Target] Standard/Premium 24.1.1(2024년 1월 22일, 23일 및 25일)
+## [!DNL Target] Standard/Premium 24.1.1 (2024년 1월 22일, 23일 및 25일)
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 1월 24일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 버전 2.11.4에 대한 릴리스 정보가 추가되었습니다. |
+|  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 두 개의 새 프로필을 아직 사용할 수 없다고 발표했습니다. 이러한 프로필을 사용할 수 있으면 이 참고가 업데이트됩니다. |
 | 1월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에서 iPad 및 iPhone의 사용 중단에 대한 중요한 정보를 추가했습니다. [!UICONTROL 브라우저] 2024년 4월 30일 이전에 부품을 변경해야 하는 대상 속성 |
 |  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 다음과 같은 새로운 섹션이 추가되었습니다. <ul><li>브라우저 대상자 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 24.1.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
@@ -32,7 +34,7 @@ ht-degree: 97%
 |  | [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank} | 두 가지 새로운 옵션 설정 추가: <ul><li>aepSandboxId</li><li>aepSandboxName</li></ul> |
 | 12월 4일 | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | “머신 러닝 및 AI 보고 및 분석” [!DNL Adobe Target Community] 커피 브레이크 세션 등록 정보 추가: 2023년 12월 6일 수요일 |
 | 12월 1일 | [Adobe Target 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} | 기존 API 문서가 다음 문서로 이동되었습니다.<ul><li>[Adobe Target 프로필 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}</li><li>[Adobe Target 싱글 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-single-api.html){target=_blank}</li><li>[Adobe Target 일괄 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-bulk-api.html?){target=_blank}</li></ul> |
-| 11월 29일 | [일괄 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | [!UICONTROL 일괄 프로필 업데이트 API v2]를 사용할 때 [!DNL Target]에서 아직 표시되지 않았던 사용자에 대한 프로필을 생성할 때 [!DNL Target]이 고객 속성을 처리하는 방법에 대한 차이점을 v1과 비교하여 명확히 했습니다. |
+| 11월 29일 | [일괄 프로필 업데이트 API](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/bulk-profile-update-api.html){target=_blank} | [!UICONTROL 일괄 프로필 업데이트 API v2] 를 사용할 때 [!DNL Target] 에서 아직 표시되지 않았던 사용자에 대한 프로필을 생성할 때 [!DNL Target] 이 고객 속성을 처리하는 방법에 대한 차이점을 v1과 비교하여 명확히 했습니다. |
 | 11월 21일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 2.11.3에 대한 릴리스 정보가 추가되었습니다. |
 | 11월 17일 | [관리자의 첫 단계](/help/main/administrating-target/start-target.md) | 다음 중요 참고가 추가되었습니다.<ul><li>[!DNL Adobe Admin Console]에서 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 권한이 있는 사용자는 [!DNL Target] 역할에 관계없이 [!DNL Target]의 [!UICONTROL 관리] 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다. [!DNL Adobe Admin Console]에서 [!UICONTROL 제품 관리자] 또는 [!UICONTROL 시스템 관리자] 권한이 없는 사용자는 특정 [!DNL Target] 역할이 있어야 이러한 변경 사항을 적용할 수 있습니다.1</li></ul> |
 |  | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md#in-mbox) | 섹션이 업데이트되어 [!DNL Target]에서 at.js 2의 자르기를 처리하는 방법에 대한 정보가 포함되었습니다.*x* 및 [!DNL Adobe Experience Platform Web SDK]. |

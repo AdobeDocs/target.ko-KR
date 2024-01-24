@@ -4,10 +4,10 @@ description: 에서 대상자를 만드는 방법을 알아봅니다. [!DNL Adob
 title: 브라우저 유형에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
+source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 55%
+source-wordcount: '1022'
+ht-degree: 53%
 
 ---
 
@@ -139,6 +139,8 @@ ht-degree: 55%
 
 [!UICONTROL 브라우저] 속성을 사용하여 iPad 또는 iPhone을 타겟팅하는 대상자가 있는 경우, 이러한 대상자가 예상대로 계속 작동하도록 하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.
 
+### 를 사용하여 생성된 대상자 [!DNL Target] UI
+
 다음 설정을 앞으로 사용할 수 있습니다.
 
 * **브라우저 일치의 경우[!DNL Apple]**: [!UICONTROL 모바일] > [!UICONTROL 장치 공급업체] [!UICONTROL 일치] [!DNL Apple]
@@ -167,16 +169,19 @@ ht-degree: 55%
 
   ![타블렛 아님](/help/main/r-release-notes/assets/tablet-false.png)
 
-를 사용하는 경우 `user.browserType` JavaScript 세그먼트에서 변경 사항에는 다음 사항이 포함되어야 합니다.
+### 프로필 스크립트를 사용하여 생성된 대상자
+
+를 사용하는 경우 `user.browserType` 에 설명된 대로 JavaScript 세그먼트 [프로필 및 변수 용어집](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)변경 사항에는 다음 사항이 포함되어야 합니다.
 
 >[!NOTE]
 >
->다음 추가 사항은 2024년 1월 24일에 릴리스될 예정입니다. 이러한 추가 사항은 다음과 같은 변경 사항을 가능하게 합니다.
->
->* `profile.mobile.isTablet`
->
->* `profile.mobile.isMobilePhone`
+>다음 프로필은 2024년 1월 24일부터 며칠 내에 공개될 예정입니다. 다음 [최신 릴리스 정보](/help/main/r-release-notes/release-notes.md) 이 프로필을 사용할 수 있게 되면 업데이트됩니다.
 
+이러한 프로파일을 사용하면 다음과 같은 변경이 가능합니다.
+>>
+* `profile.mobile.isTablet`
+>>
+* `profile.mobile.isMobilePhone`
 
 * **BrowserType이 iPhone임**:
 
