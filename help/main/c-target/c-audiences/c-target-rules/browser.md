@@ -4,10 +4,10 @@ description: 에서 대상자를 만드는 방법을 알아봅니다. [!DNL Adob
 title: 브라우저 유형에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
 workflow-type: tm+mt
-source-wordcount: '1022'
-ht-degree: 53%
+source-wordcount: '1057'
+ht-degree: 37%
 
 ---
 
@@ -17,22 +17,22 @@ ht-degree: 53%
 
 다음 브라우저를 타깃팅할 수 있습니다.
 
-* Chrome
-* Firefox
-* Safari
-* Internet Explorer
-* Microsoft Edge
-* Opera
-* iPad
-* iPhone
+* [!UICONTROL Chrome]
+* [!UICONTROL Firefox]
+* [!UICONTROL Safari]
+* [!UICONTROL Internet Explorer]
+* [!UICONTROL Microsoft Edge]
+* [!UICONTROL Opera]
+* [!DNL iPad]
+* [!DNL iPhone]
 
 >[!IMPORTANT]
 >
->2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다. 해결 방법 설정에 대해서는 을 참조하십시오. [브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)](#deprecation) 아래요.
+>2024년 4월 30일부터 [!DNL iPad] 및 [!DNL iPhone] 사용 가능한 항목에서 제거됩니다. [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다. 해결 방법 설정에 대해서는 을 참조하십시오. [브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)](#deprecation) 아래요.
 
 브라우저를 타깃팅하는 방법에는 두 가지가 있습니다.
 
-* **사전에 만들어진 대상:**&#x200B;특정 브라우저를 사용하여 사이트를 방문하는 방문자만 타깃팅하려는 경우 사전에 만들어진 대상을 사용하십시오. 예를 들어 Chrome 확장 프로그램을 제공하는 경우 Chrome 사용자만 타깃팅할 수 있습니다.
+* **사전에 만들어진 대상:**&#x200B;특정 브라우저를 사용하여 사이트를 방문하는 방문자만 타깃팅하려는 경우 사전에 만들어진 대상을 사용하십시오. 예를 들어 다음을 제공하는 경우 [!DNL Chrome] 확장 프로그램, 타겟팅만 가능 [!DNL Chrome] 사용자.
 
    1. 활동을 설정할 때 드롭다운 목록에서 브라우저를 선택합니다.
 
@@ -57,11 +57,11 @@ ht-degree: 53%
    1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
    1. **[!UICONTROL 완료를 클릭합니다]**.
 
-  다음 예는 버전 91 또는 92의 Microsoft Edge 사용자를 포함하는 대상을 보여줍니다.
+  다음 예는 다음을 포함하는 대상을 보여줍니다. [!DNL Microsoft Edge] 버전 91 또는 92의 사용자:
 
   ![Target Edge 91 또는 92](assets/target_edge.png)
 
-## 브라우저 선택 사항 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
+## 브라우저 옵션 {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
 브라우저 유형, 언어 또는 버전을 기반으로 활동 참여자를 타깃팅하거나 제외하십시오.
 
@@ -71,8 +71,8 @@ ht-degree: 53%
 
 **[!UICONTROL 유형]**&#x200B;을 선택한 다음, [다음과 같음] 또는 [다음과 같지 않음]을 선택하십시오.
 
-* 다음과 같음: 선택한 브라우저를 타깃팅합니다.
-* 다음과 같지 않음: 선택한 브라우저를 제외합니다.
+* [!UICONTROL 다음과 같음]: 선택한 브라우저를 타깃팅합니다.
+* [!UICONTROL 같지 않음]: 선택한 브라우저를 제외합니다.
 
 브라우저를 하나 이상 선택하십시오. 여러 선택 사항은 OR로 연결됩니다.
 
@@ -86,8 +86,8 @@ ht-degree: 53%
 
 **[!UICONTROL 언어]**&#x200B;를 선택한 다음, [다음과 같음] 또는 [다음과 같지 않음]을 선택하십시오.
 
-* 다음과 같음: 선택한 브라우저 언어를 타깃팅합니다.
-* 다음과 같지 않음: 선택한 브라우저 언어를 제외합니다.
+* [!UICONTROL 다음과 같음]: 선택한 브라우저 언어를 타깃팅합니다.
+* [!UICONTROL 같지 않음]: 선택한 브라우저 언어를 제외합니다.
 
 언어를 하나 이상 선택하십시오. 여러 선택 사항은 OR로 연결됩니다.
 
@@ -107,16 +107,16 @@ ht-degree: 53%
 
 특정 브라우저 버전을 타깃팅하거나 제외합니다.
 
-예를 들어, 페이지가 Internet Explorer 버전 11 이하에서 올바르게 표시되지 않는 경우 해당 버전을 제외하는 대상을 만들 수 있습니다. 이 경우 브라우저 유형이 Internet Explorer와 같은 규칙을 설정하고 버전이 11 이하인 두 번째 규칙을 추가하십시오.
+예를 들어 페이지가에 올바르게 표시되지 않는 경우 [!DNL Internet Explorer] 버전 11 또는 이전 버전에서는 해당 버전을 제외하는 대상을 만들 수 있습니다. 이 경우 브라우저 유형이 다음과 같은 규칙을 설정합니다. [!DNL Internet Explorer] 버전이 11보다 작거나 같은 두 번째 규칙을 추가합니다.
 
 **[!UICONTROL 버전]**&#x200B;을 선택한 다음 연산자를 선택하십시오.
 
-* 다음과 같음
-* 다음과 같지 않음
-* 다음보다 큼
+* [!UICONTROL 같음]
+* [!UICONTROL 같지 않음]
+* [!UICONTROL 다음보다 큼]
 * 다음보다 크거나 같음
-* 다음보다 작음
-* 다음보다 작거나 같음
+* [!UICONTROL 보다 작음]
+* [!UICONTROL 작거나 같음]
 
 버전 번호를 입력합니다. 텍스트 필드에는 주 버전만 입력할 수 있습니다. 지정된 버전은 해당 릴리스의 모든 부 버전이 포함되어 있습니다. 예를 들어 버전 10을 지정하는 경우 버전 10.1의 방문자도 포함됩니다.
 
@@ -137,7 +137,9 @@ ht-degree: 53%
 
 2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다.
 
-[!UICONTROL 브라우저] 속성을 사용하여 iPad 또는 iPhone을 타겟팅하는 대상자가 있는 경우, 이러한 대상자가 예상대로 계속 작동하도록 하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.
+&quot;브라우저: iPad&quot; 및 &quot;브라우저: iPhone&quot;와 같은 내장된 대상은 자동으로 새 대상 정의로 이동됩니다. user.browserType을 사용하는 모든 프로필 스크립트는 *아님* 자동으로 업데이트: 수동으로 업데이트하지 않으면 예상대로 사용자 자격이 발생하지 않을 수 있습니다.
+
+다음을 사용하여 iPad 또는 iPhone을 대상으로 하는 대상이 있는 경우 [!UICONTROL 브라우저] attribute는 이러한 대상이 예상대로 계속 작동하도록 2024년 4월 30일 전에 이러한 설정을 변경해야 합니다.
 
 ### 를 사용하여 생성된 대상자 [!DNL Target] UI
 
@@ -171,17 +173,17 @@ ht-degree: 53%
 
 ### 프로필 스크립트를 사용하여 생성된 대상자
 
-를 사용하는 경우 `user.browserType` 에 설명된 대로 JavaScript 세그먼트 [프로필 및 변수 용어집](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)변경 사항에는 다음 사항이 포함되어야 합니다.
+를 사용하는 경우 `user.browserType` 에 설명된 대로 프로필 스크립트를 사용하는 대상 [프로필 및 변수 용어집](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)변경 사항에는 다음 사항이 포함되어야 합니다.
 
 >[!NOTE]
 >
 >다음 프로필은 2024년 1월 24일부터 며칠 내에 공개될 예정입니다. 다음 [최신 릴리스 정보](/help/main/r-release-notes/release-notes.md) 이 프로필을 사용할 수 있게 되면 업데이트됩니다.
-
-이러한 프로파일을 사용하면 다음과 같은 변경이 가능합니다.
->>
-* `profile.mobile.isTablet`
->>
-* `profile.mobile.isMobilePhone`
+>
+>이러한 프로파일을 사용하면 다음과 같은 변경이 가능합니다.
+>
+>* `profile.mobile.isTablet`
+>
+>* `profile.mobile.isMobilePhone`
 
 * **BrowserType이 iPhone임**:
 
