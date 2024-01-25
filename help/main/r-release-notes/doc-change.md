@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c79b1d40e0bf0495dc3f3d5accd196f14d18b934
+source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 95%
+source-wordcount: '1258'
+ht-degree: 94%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 95%
 | --- | --- | --- |
 | 1월 24일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 버전 2.11.4에 대한 릴리스 정보가 추가되었습니다. |
 |  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 두 개의 새 프로필을 아직 사용할 수 없다고 발표했습니다. 이러한 프로필을 사용할 수 있으면 이 참고가 업데이트됩니다. |
+|  | [at.js 자주 묻는 질문](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Ionic App 환경의 at.js에 대한 FAQ를 추가했습니다. 이 구현은 테스트하거나 권장되지 않습니다. |
 | 1월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에서 iPad 및 iPhone의 사용 중단에 대한 중요한 정보를 추가했습니다. [!UICONTROL 브라우저] 2024년 4월 30일 이전에 부품을 변경해야 하는 대상 속성 |
 |  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 다음과 같은 새로운 섹션이 추가되었습니다. <ul><li>브라우저 대상자 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 24.1.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
