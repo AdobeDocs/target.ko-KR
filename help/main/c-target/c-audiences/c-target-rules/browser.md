@@ -4,9 +4,9 @@ description: 에서 대상자를 만드는 방법을 알아봅니다. [!DNL Adob
 title: 브라우저 유형에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 968f9982299156d3f4d599d00322106fe3629610
+source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
 workflow-type: tm+mt
-source-wordcount: '1057'
+source-wordcount: '1059'
 ht-degree: 37%
 
 ---
@@ -135,13 +135,13 @@ ht-degree: 37%
 
 [!DNL Adobe Target] 다음 작업을 수행할 수 있습니다. [여러 범주 속성 중 하나를 타깃팅합니다.](/help/main/c-target/c-audiences/c-target-rules/target-rules.md): 페이지를 방문할 때 특정 브라우저나 브라우저 선택 사항을 사용하는 사용자를 포함합니다.
 
-2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 대상의 범주를 만들 때 드롭다운 목록을 입력합니다.
+2024년 4월 30일부터 iPad 및 iPhone이 사용 가능한 항목에서 제거됩니다 [!UICONTROL 브라우저] 에 드롭다운 목록 입력 [!DNL Target] 대상자에 대한 범주를 만들 때의 UI입니다.
 
-&quot;브라우저: iPad&quot; 및 &quot;브라우저: iPhone&quot;와 같은 내장된 대상은 자동으로 새 대상 정의로 이동됩니다. user.browserType을 사용하는 모든 프로필 스크립트는 *아님* 자동으로 업데이트: 수동으로 업데이트하지 않으면 예상대로 사용자 자격이 발생하지 않을 수 있습니다.
+을(를) 사용하여 만든 기본 제공 대상자 [!DNL Target] &quot;브라우저: iPad&quot; 및 &quot;브라우저: iPhone&quot;와 같은 UI는 자동으로 새 대상 정의로 이동합니다. 그러나 앞으로는 설정을 사용해야 합니다 [아래에 설명](#ui).
 
-다음을 사용하여 iPad 또는 iPhone을 대상으로 하는 대상이 있는 경우 [!UICONTROL 브라우저] attribute는 이러한 대상이 예상대로 계속 작동하도록 2024년 4월 30일 전에 이러한 설정을 변경해야 합니다.
+를 사용하는 경우 `user.browserType` iPhone 또는 iPad인지 확인하는 프로필 스크립트(예: `user.browserType == 'iphone'` 또는 `user.browserType != 'ipad'`) 이러한 프로필 스크립트는 다음과 같이 변경해야 합니다. [아래에 지시됨](#profile-scripts) 2024년 4월 30일 이전에 이러한 대상이 예상대로 계속 작동하도록 할 수 있습니다.
 
-### 를 사용하여 생성된 대상자 [!DNL Target] UI
+### 를 사용하여 생성된 대상자 [!DNL Target] UI {#ui}
 
 다음 설정을 앞으로 사용할 수 있습니다.
 
@@ -171,7 +171,7 @@ ht-degree: 37%
 
   ![타블렛 아님](/help/main/r-release-notes/assets/tablet-false.png)
 
-### 프로필 스크립트를 사용하여 생성된 대상자
+### 프로필 스크립트를 사용하여 생성된 대상자 {#profile-scripts}
 
 를 사용하는 경우 `user.browserType` 에 설명된 대로 프로필 스크립트를 사용하는 대상 [프로필 및 변수 용어집](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)변경 사항에는 다음 사항이 포함되어야 합니다.
 
