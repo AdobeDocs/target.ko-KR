@@ -4,7 +4,7 @@ description: Adobe Target의 프로필 스크립트에 유용한 다양한 프�
 title: 어떤 프로필, 변수 및 매개 변수가 [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 8ff786fe55337df2465426c9a87f71002cce3de5
+source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
 workflow-type: tm+mt
 source-wordcount: '665'
 ht-degree: 69%
@@ -48,8 +48,8 @@ ht-degree: 69%
 | profile.browserTime | 방문자의 로컬 브라우저 시간. 시스템 시간의 경우 프로필 스크립트에서 새로운 날짜 개체를 만듭니다. |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
-| profile.mobile.isTablet | 방문자 장치는 태블릿입니다.<P>**참고**: 이 프로필은 더 이상 사용되지 않는 레거시 브라우저: iPad 대상 범주를 대체합니다. 다음을 참조하십시오 [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) 추가 정보. |
-| profile.mobile.isMobilePhone | 방문자 장치는 휴대폰입니다.<P>**참고**: 이 프로필은 더 이상 사용되지 않는 레거시 브라우저: iPhone 대상 범주를 대체합니다. 다음을 참조하십시오 [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecated) 추가 정보. |
+| profile.mobile.isTablet | 방문자 장치는 태블릿입니다.<P>**참고**: 이 프로필은 더 이상 사용되지 않는 레거시 브라우저: iPad 대상 범주를 대체합니다. 다음을 참조하십시오 [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) 추가 정보. |
+| profile.mobile.isMobilePhone | 방문자 장치는 휴대폰입니다.<P>**참고**: 이 프로필은 더 이상 사용되지 않는 레거시 브라우저: iPhone 대상 범주를 대체합니다. 다음을 참조하십시오 [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#profile-scripts) 추가 정보. |
 | parameter= | mbox와 함께 제공되는 (일반적으로 이름/값 쌍으로) 추가 값에 대한 일반 용어입니다. `profile.parameter`나 `user.parameter`로 설정되지 않는 한, 지속적이지 않습니다. |
 
 ## URL 변수 {#section_8F25958273164EBAA6DC659302993FD3}
