@@ -4,10 +4,10 @@ description: Adobe Target의 프로필 스크립트에 유용한 다양한 프�
 title: 어떤 프로필, 변수 및 매개 변수가 [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: d3c9a5bfa1e0496387103d82dd811f28581ba8bf
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 74%
+source-wordcount: '653'
+ht-degree: 70%
 
 ---
 
@@ -48,6 +48,8 @@ ht-degree: 74%
 | profile.browserTime | 방문자의 로컬 브라우저 시간. 시스템 시간의 경우 프로필 스크립트에서 새로운 날짜 개체를 만듭니다. |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
+| profile.mobile.isTablet | 방문자 장치는 태블릿입니다.<P>이 프로필은 더 이상 사용되지 않는 레거시를 대체합니다. [브라우저가 iPad 대상자 범주](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
+| profile.mobile.isMobilePhone | 방문자 장치는 휴대폰입니다.<P>이 프로필은 더 이상 사용되지 않는 레거시를 대체합니다. [브라우저가 iPhone 대상자 범주](/help/main/c-target/c-audiences/c-target-rules/browser.md). |
 | parameter= | mbox와 함께 제공되는 (일반적으로 이름/값 쌍으로) 추가 값에 대한 일반 용어입니다. `profile.parameter`나 `user.parameter`로 설정되지 않는 한, 지속적이지 않습니다. |
 
 ## URL 변수 {#section_8F25958273164EBAA6DC659302993FD3}
