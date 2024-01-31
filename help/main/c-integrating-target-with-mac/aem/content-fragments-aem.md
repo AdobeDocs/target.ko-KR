@@ -5,9 +5,9 @@ title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL 콘텐츠 조각]을 
 feature: Integrations
 exl-id: 2057d9fe-c0f9-41d5-82e1-529db9ef7ca5
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '701'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -25,7 +25,7 @@ Headless 개인화 및 실험을 지원하기 위해 [!DNL Target] 활동의 [!D
    * [[!UICONTROL A/B 테스트]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL 자동 할당]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
    * [[!UICONTROL 자동 타겟팅]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL 자동화된 개인화] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
    * [[!UICONTROL 경험 타겟팅] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL 경험 조각] 및 [!UICONTROL 콘텐츠 조각]은 다음 활동 유형에 사용할 수 없습니다.
