@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
 workflow-type: tm+mt
 source-wordcount: '1258'
-ht-degree: 94%
+ht-degree: 95%
 
 ---
 
@@ -19,10 +19,10 @@ ht-degree: 94%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 1월 24일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | at.js 버전 2.11.4에 대한 릴리스 정보가 추가되었습니다. |
+| 1월 24일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.11.4에 대한 릴리스 정보가 추가되었습니다. |
 |  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 두 개의 새 프로필을 아직 사용할 수 없다고 발표했습니다. 이러한 프로필을 사용할 수 있으면 이 참고가 업데이트됩니다. |
 |  | [at.js 자주 묻는 질문](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Ionic App 환경의 at.js에 대한 FAQ를 추가했습니다. 이 구현은 테스트하거나 권장되지 않습니다. |
-| 1월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에서 iPad 및 iPhone의 사용 중단에 대한 중요한 정보를 추가했습니다. [!UICONTROL 브라우저] 2024년 4월 30일 이전에 부품을 변경해야 하는 대상 속성 |
+| 1월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 2024년 4월 30일 이전에 변경이 필요한 [!UICONTROL 브라우저] 대상자 속성에서 iPad 및 iPhone 사용 중단에 대한 중요한 정보가 추가되었습니다. |
 |  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 다음과 같은 새로운 섹션이 추가되었습니다. <ul><li>브라우저 대상자 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 24.1.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 
@@ -68,7 +68,7 @@ ht-degree: 94%
 | 10월 2일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [[!DNL Recommendations] 구현 패턴](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank} | *at.js를 사용하는 새로운 Recommendations 구현 패턴* 문서는 at.js JavaScript 라이브러리를 사용할 때 [!DNL Adobe Target Recommendations] 구현을 이해하고 생성하는 데 도움이 됩니다.<P>[!DNL Target] 패턴에 대한 일반적인 정보는 *Adobe Target 개발자 안내서*&#x200B;의 [구현 패턴 개요](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/pattern-overview.html){target=_blank}를 참조하십시오.<P>새로운 Recommendations 구현 패턴은 다음과 같은 문서로 구성됩니다.<ul><li>[at.js를 사용하는 Recommendations 구현 패턴 개요](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}</li><ul><li>[SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/initialize-sdk.html){target=_blank}</li><li>[데이터 컬렉션 구성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/data-collection.html){target=_blank}</li><li>[렌더링 경험](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/render-experiences.html?lang=ko){target=_blank}</li><li>[알림 [!DNL Target]](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/notify-target.html?lang=ko){target=_blank}</li></ul></ul> |
 | 9월 29일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |
-|  | [Java SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html?lang=ko-KR){target=_blank} | 다음과 같은 새로운 매개변수가 표에 추가되었습니다.<ul><li>`connectionTtlMs`</li><li>`idleConnectionValidationMs`</li><li>`evictIdleConnectionsAfterSecs`</li></ul> |
+|  | [Java SDK 초기화](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/java/initialize-sdk.html){target=_blank} | 다음과 같은 새로운 매개변수가 표에 추가되었습니다.<ul><li>`connectionTtlMs`</li><li>`idleConnectionValidationMs`</li><li>`evictIdleConnectionsAfterSecs`</li></ul> |
 | 9월 22일 | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) 관련 문제 해결 | 허용 목록에 추가할 IP 주소 목록이 업데이트되었습니다. |
 | 9월 18일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 9월 15일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 23.9.3 릴리스에 대한 프리릴리스 정보가 추가되었습니다. |

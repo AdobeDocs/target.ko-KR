@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
 workflow-type: tm+mt
 source-wordcount: '463'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2024년 1월 22일 화요일**
+**마지막 업데이트: 2024년 1월 22일**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 96%
 
 | 사용 중단 | 세부 사항 |
 |--- |--- |
-| 대상자를 만들 때 사용되는 [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md)에서 [!DNL iPad] 및 [!DNL iPhone]이 사용 중단됩니다.<p>사용 중단 일자:<P>2024년 4월 30일 | [!DNL Adobe Target]에서는 페이지를 방문할 때 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md)을 사용하는 사용자 등 [여러 카테고리 속성을 타겟팅](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)할 수 있습니다.<P><B>2024년 4월 30일부터 대상자 카테고리를 만들 때 사용 가능한 [!UICONTROL 브라우저] 유형 드롭다운 목록에서 iPad 및 iPhone이 제거됩니다.</b><P>[!UICONTROL 브라우저] 속성을 사용하여 iPad 또는 iPhone을 타겟팅하는 대상자가 있는 경우, 이러한 대상자가 예상대로 계속 작동하도록 하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.<p>대체 설정의 예는 를 참조하십시오. [브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
+| 대상자를 만들 때 사용되는 [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md)에서 [!DNL iPad] 및 [!DNL iPhone]이 사용 중단됩니다.<p>사용 중단 일자:<P>2024년 4월 30일 | [!DNL Adobe Target]에서는 페이지를 방문할 때 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md)을 사용하는 사용자 등 [여러 카테고리 속성을 타겟팅](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)할 수 있습니다.<P><B>2024년 4월 30일부터 대상자 카테고리를 만들 때 사용 가능한 [!UICONTROL 브라우저] 유형 드롭다운 목록에서 iPad 및 iPhone이 제거됩니다.</b><P>[!UICONTROL 브라우저] 속성을 사용하여 iPad 또는 iPhone을 타겟팅하는 대상자가 있는 경우, 이러한 대상자가 예상대로 계속 작동하도록 하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.<p>대체 설정의 예는 [브라우저 대상자 속성에서 iPad 및 iPhone 사용 중단 (2024년 4월 30일)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation)을 참조하십시오. |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (2024년 1월 22일, 23일 및 25일)
 
@@ -50,8 +50,8 @@ ht-degree: 96%
 
 | 리소스 | 세부 사항 |
 |--- |--- |
-| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko-KR) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
