@@ -5,9 +5,9 @@ title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2507'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 [!DNL Target]은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 사이트와 통합됩니다.
 
 * **[!DNL Adobe Experience Platform Web SDK]:** [Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}는 새로운 클라이언트측 JavaScript 라이브러리입니다. [!DNL Experience Platform Web SDK]를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform] Edge Network를 통해 [!DNL Experience Cloud] ([!DNL Target] 포함)의 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]는 모든 신규 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]를 구현할 것을 권장합니다.
-* **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. [!DNL Adobe]는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko-KR){target=_blank}으로 구현을 업데이트할 것을 권장합니다.
+* **at.js:** at.js 라이브러리는 [!DNL Target]의 새 구현 라이브러리입니다. at.js 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 구현 옵션을 제공합니다. at.js는 새로운 기능으로 자주 업데이트됩니다. [!DNL Adobe]는 at.js를 사용하는 모든 고객에게 [at.js의 최신 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}으로 구현을 업데이트할 것을 권장합니다.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 
 다음 리소스에는 [!DNL Experience Platform Web SDK] 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 확장 기능](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
 * [ [!DNL Target] 을 사용하여 [!DNL Adobe Experience Platform]구현](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 타겟팅 시스템으로 요청이 전송됩니다. 요청은 방문자에게 제공할 콘텐츠를 결정하는 데 도움이 됩니다. 이 프로세스는 실시간으로 발생합니다. 페이지가 로드될 때마다 콘텐츠 요청이 이루어지고 시스템에 의해 이행됩니다. 콘텐츠는 마케터가 관리하는 활동 및 경험의 규칙이 적용되며, 개별 사이트 방문자를 타겟팅합니다. 각 사이트 방문자가 응답하거나, 상호 작용하거나, 궁극적으로는 구매할 가능성이 가장 높은 콘텐츠가 제공됩니다. 개인화된 콘텐츠를 통해 응답률, 확보율 및 매출을 극대화할 수 있습니다.
@@ -64,7 +64,7 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 
 자세한 내용은 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 참조하십시오.
 
-### [!UICONTROL 자동화된 개인화] (AP)
+### [!UICONTROL Automated Personalization] (AP)
 
 [!UICONTROL Automated Personalization] (AP)은 오퍼 또는 메시지를 결합하고 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼를 매칭합니다. 경험 전달은 콘텐츠를 개인화하고 리프트를 구동하기 위한 개별 고객 프로필을 기반으로 합니다.
 
@@ -134,7 +134,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 >
 >[!DNL Adobe Target]은 현재 중국에 에지 클러스터를 보유하고 있지 않으며, 방문자 실적은 중국의 [!DNL Target] 고객에 한정되어 있습니다. 국가 내에서 방화벽과 에지 클러스터 부족으로 인해 [!DNL Target] 이 배포된 사이트의 환경이 영향을 받을 수 있습니다. 경험을 렌더링하기 위해 속도가 느릴 수 있으며 페이지 로드에 영향을 미칠 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
 
-원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko-KR){target=_blank}를 참조하십시오.
+원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}를 참조하십시오.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
