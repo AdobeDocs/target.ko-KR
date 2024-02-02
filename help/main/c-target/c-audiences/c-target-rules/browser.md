@@ -4,10 +4,10 @@ description: 에서 대상자를 만드는 방법을 알아봅니다. [!DNL Adob
 title: 브라우저 유형에 따라 방문자를 타깃팅할 수 있습니까?
 feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: 1313ea7897b811ef5550c3d29cfc5a66f9215c9f
+source-git-commit: aa7bef57c94c0dc996c9e1bd0ed23b48aa199874
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 37%
+source-wordcount: '1098'
+ht-degree: 35%
 
 ---
 
@@ -141,6 +141,8 @@ ht-degree: 37%
 
 를 사용하는 경우 `user.browserType` iPhone 또는 iPad인지 확인하는 프로필 스크립트(예: `user.browserType == 'iphone'` 또는 `user.browserType != 'ipad'`) 이러한 프로필 스크립트는 다음과 같이 변경해야 합니다. [아래에 지시됨](#profile-scripts) 2024년 4월 30일 이전에 이러한 대상이 예상대로 계속 작동하도록 할 수 있습니다.
 
+프로필 스크립트를 사용하는 JavaScript 대상은 에서 더 이상 사용되지 않는 기존 대상입니다. [!DNL Target Classic] UI. 이러한 대상은 API를 통해서만 수정할 수 있습니다. 고객은 의 활동에서 이전 대상을 사용하는 경우에만 이러한 대상을 업데이트해야 합니다 [!DNL Target Standard/Premium] UI.
+
 ### 를 사용하여 생성된 대상자 [!DNL Target] UI {#ui}
 
 다음 설정을 앞으로 사용할 수 있습니다.
@@ -173,11 +175,11 @@ ht-degree: 37%
 
 ### 프로필 스크립트를 사용하여 생성된 대상자 {#profile-scripts}
 
-를 사용하는 경우 `user.browserType` 에 설명된 대로 프로필 스크립트를 사용하는 대상 [프로필 및 변수 용어집](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)변경 사항에는 다음 사항이 포함되어야 합니다.
+를 사용하는 경우 `user.browserType` 기존 [!DNL Target Classic] 에 설명된 대로 프로필 스크립트를 사용하는 대상자 [프로필 및 변수 용어집](/help/main/c-target/c-visitor-profile/variables-profiles-parameters-methods.md)변경 사항에는 다음 사항이 포함되어야 합니다.
 
 >[!NOTE]
 >
->다음 프로필은 2024년 1월 24일부터 며칠 내에 공개될 예정입니다. 다음 [최신 릴리스 정보](/help/main/r-release-notes/release-notes.md) 이 프로필을 사용할 수 있게 되면 업데이트됩니다.
+>다음 프로필은 2024년 1월 24일부터 몇 주 후에 릴리스될 예정입니다. 다음 [최신 릴리스 정보](/help/main/r-release-notes/release-notes.md) 이 프로필을 사용할 수 있게 되면 업데이트됩니다.
 >
 >이러한 프로파일을 사용하면 다음과 같은 변경이 가능합니다.
 >
