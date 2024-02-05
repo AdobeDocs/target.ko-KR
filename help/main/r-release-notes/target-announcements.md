@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 626f6debb36d7610bd0284142caf57e6ce911f83
+source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
-source-wordcount: '2348'
-ht-degree: 100%
+source-wordcount: '2476'
+ht-degree: 94%
 
 ---
 
@@ -15,7 +15,26 @@ ht-degree: 100%
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
-## Adobe Target 2024 개인 맞춤화 완성 웨비나 시리즈
+## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
+
+* **가능한 웨비나 후속 질문에 대한 설명(개인화 성숙도 시리즈의 1부)**
+* **2024년 2월 7일 목요일**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[등록 정보](https://shorturl.at/gknVY){target=_blank}**
+
++++세부 사항
+
+가입 [!DNL Adobe Target] 브렌트 코스타크, 라이언 로버츠, 드류 번스 전문가가 해당 기간에 다룬 콘텐츠와 관련한 고객의 질문에 실시간으로 답변을 제공한다 [의 1부 [!DNL Adobe Target] &quot;가능성의 예술&quot;에 관한 웨비나 시리즈](#maturity-series),&quot; 여기서 전문가는 다음 주제를 다룹니다.
+
+* 각 방법 [!DNL Target] 기능은 규모에 맞게 개인화를 실행하는 전략적 역할을 합니다.
+* 고객이 대규모로 달성하기 위해 AI 기능을 구성하는 주요 사용 사례
+* 특정 목표에 맞게 AI 기반 개인화를 활성화하기 위해 머신 러닝을 제어하는 방법
+
+원래 웨비나를 놓쳤다면 [레코딩 듣기](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+
++++
+
+## Adobe Target 2024 개인 맞춤화 완성 웨비나 시리즈 {#maturity-series}
 
 이 라이브 웨비나 시리즈는 고객이 [!DNL Adobe Experience Platform]을 통해 실험 및 개인화 여정을 확장함에 따라 AI 기반 개인화를 실현할 수 있는 주요 [!DNL Adobe Target] 기능, 사용 사례 및 팁을 강조합니다.
 
@@ -34,6 +53,8 @@ ht-degree: 100%
    * **오전 10시 ~ 11시 (PST, -8 GMT)**
 
      개인화 완성의 핵심에는 인공 지능과 머신 러닝이 있습니다. [!DNL Adobe Target]은 이러한 기술을 활용하여 사용자 행동을 이해하고 선호도를 예측하며 콘텐츠를 동적으로 맞춤화합니다. AI와 ML의 강력한 기능을 활용하여 브랜드가 정적 A/B 테스트 및 규칙 기반 개인화 이상으로 역동적이고 컨텍스트에 맞는 경험을 제공하는 방법을 알아보십시오.
+
+     [녹음 좀 들어 봐](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **고성능 권장 사항**
    * **2024년 2월 13일 화요일**
