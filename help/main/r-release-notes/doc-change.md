@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: c00bb07f002187a761ca24939a4ebf2278e3480e
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 95%
+source-wordcount: '1328'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 95%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 5일 | [Analytics를 보고 소스로 사용하는 활동 만들기](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 을 사용할 때 별도의 작업 공간에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없다는 텍스트가 추가되었습니다 [!UICONTROL Analytics for Target] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. |
+|  | [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 을 사용할 때 별도의 작업 공간에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없다는 텍스트가 추가되었습니다 [!UICONTROL Analytics for Target] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. |
 | 1월 24일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.11.4에 대한 릴리스 정보가 추가되었습니다. |
 |  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 두 개의 새 프로필을 아직 사용할 수 없다고 발표했습니다. 이러한 프로필을 사용할 수 있으면 이 참고가 업데이트됩니다. |
 |  | [at.js 자주 묻는 질문](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Ionic App 환경의 at.js에 대한 FAQ를 추가했습니다. 이 구현은 테스트하거나 권장되지 않습니다. |

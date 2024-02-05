@@ -4,10 +4,10 @@ description: 용 Analytics 사용 시 활동 설정에 대한 질문에 대한 �
 title: A4T의 활동 설정에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 52dd26acfce77da0eea14be572708c069ba5e9ba
+source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 14%
+source-wordcount: '630'
+ht-degree: 10%
 
 ---
 
@@ -15,9 +15,19 @@ ht-degree: 14%
 
 이 주제에서는 활동 설정 및 사용에 대한 FAQ에 대한 답변을 제공합니다 [!DNL Analytics] 을(를) 위한 보고 소스로 사용 [!DNL Target] (A4T).
 
-## 어느 활동 유형이 보고 소스로서 Analytics(A4T)를 지원합니까? {#section_5E4F58CD25A5424E869E6FE0803968EF}
+## 지원되는 활동 유형 [!DNL Analytics] 를 보고 소스(A4T)로 사용하시겠습니까? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++전체 목록에 대해서는 다음에서 &quot;지원되는 활동 유형&quot;을 참조하십시오. [Adobe Target용 보고 소스로서의 Adobe Analytics (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+
++++
+
+## A4T 보고를 사용할 때 별도의 작업 공간에서 두 활동에 대해 동일한 활동 이름을 사용할 수 있습니까?
+
++++답변
+
+별도의 두 활동에 동일한 활동 이름을 사용하지 마십시오 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) A4T 보고를 사용 중입니다.
+
+를 사용할 때는 이 옵션이 지원되지만 [!DNL Target] 를 사용할 때는 보고 소스로 두 활동에 동일한 활동 이름을 사용할 수 없습니다 [!UICONTROL Analytics for Target] 를 보고 소스로 사용합니다.
 
 +++
 
@@ -45,7 +55,7 @@ ht-degree: 14%
 
 ![활동당 선택 이미지](assets/select-per-activity.png)
 
-**[!UICONTROL 보고 소스]** 드롭다운 목록이 **[!UICONTROL 목표 및 설정 화면에서 활성화되어 활동을 만들고 편집할 수 있습니다.]**
+**[!UICONTROL 보고 소스]** 드롭다운 목록이 **[!UICONTROL 목표 및 설정]** 화면에서 활성화되어 활동을 만들고 편집할 수 있습니다.
 
 항상 사용 [!DNL Analytics] 를 보고 소스로 선택합니다. **[!UICONTROL Adobe Analytics]** 의 드롭다운 목록에서 [!UICONTROL 관리].
 
