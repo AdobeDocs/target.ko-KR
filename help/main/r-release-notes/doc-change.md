@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
 workflow-type: tm+mt
 source-wordcount: '1343'
-ht-degree: 91%
+ht-degree: 94%
 
 ---
 
@@ -23,8 +23,8 @@ ht-degree: 91%
 |  | [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 을 사용할 때 별도의 작업 공간에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없다는 텍스트가 추가되었습니다 [!UICONTROL Analytics for Target] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. |
 |  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2024년 2월 7일로 예정된 Adobe Target Community Coffee Break에 대한 정보가 추가되었습니다. |
 | 1월 24일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.11.4에 대한 릴리스 정보가 추가되었습니다. |
-|  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 두 개의 새 프로필을 아직 사용할 수 없다고 발표했습니다. 이러한 프로필을 사용할 수 있으면 이 참고가 업데이트됩니다. |
-|  | [at.js 자주 묻는 질문](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Ionic App 환경의 at.js에 대한 FAQ를 추가했습니다. 이 구현은 테스트하거나 권장되지 않습니다. |
+|  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 두 개의 새로운 프로필이 아직 제공되지 않는 점이 공지되었습니다. 이들 프로필을 사용할 수 있게 되는 시점에 이 정보가 업데이트될 예정입니다. |
+|  | [at.js 자주 묻는 질문](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Ionic App 환경의 at.js에 관한 FAQ가 추가되었습니다. 이 구현은 테스트되거나 권장되지 않습니다. |
 | 1월 22일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 2024년 4월 30일 이전에 변경이 필요한 [!UICONTROL 브라우저] 대상자 속성에서 iPad 및 iPhone 사용 중단에 대한 중요한 정보가 추가되었습니다. |
 |  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 다음과 같은 새로운 섹션이 추가되었습니다. <ul><li>브라우저 대상자 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)</li></ul> |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 24.1.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
