@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 99152f66217f66174e8b6a5a7319f11b22c74b8e
-workflow-type: ht
-source-wordcount: '575'
-ht-degree: 100%
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
+workflow-type: tm+mt
+source-wordcount: '573'
+ht-degree: 92%
 
 ---
 
@@ -23,7 +23,7 @@ ht-degree: 100%
 
 | 사용 중단 | 세부 사항 |
 |--- |--- |
-| 대상자를 만들 때 사용되는 [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md)에서 [!DNL iPad] 및 [!DNL iPhone]이 사용 중단됩니다.<p>사용 중단 일자:<P>2024년 4월 30일 | [!DNL Adobe Target]에서는 페이지를 방문할 때 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md)을 사용하는 사용자 등 [여러 카테고리 속성을 타겟팅](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)할 수 있습니다.<P><B>2024년 4월 30일부터 대상자 카테고리를 만들 때 사용 가능한 [!UICONTROL 브라우저] 유형 드롭다운 목록에서 iPad 및 iPhone이 제거됩니다.</b><P>[!UICONTROL 브라우저] 속성을 사용하여 iPad 또는 iPhone을 타겟팅하는 대상자가 있는 경우, 이러한 대상자가 예상대로 계속 작동하도록 하려면 2024년 4월 30일 이전에 이러한 설정을 변경해야 합니다.<p>대체 설정의 예는 [브라우저 대상자 속성에서 iPad 및 iPhone 사용 중단 (2024년 4월 30일)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation)을 참조하십시오. |
+| 대상자를 만들 때 사용되는 [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md)에서 [!DNL iPad] 및 [!DNL iPhone]이 사용 중단됩니다.<p>사용 중단 일자:<P>2024년 4월 30일 | [!DNL Adobe Target]에서는 페이지를 방문할 때 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md)을 사용하는 사용자 등 [여러 카테고리 속성을 타겟팅](/help/main/c-target/c-audiences/c-target-rules/target-rules.md)할 수 있습니다.<P><B>2024년 4월 30일부터 대상자 카테고리를 만들 때 사용 가능한 [!UICONTROL 브라우저] 유형 드롭다운 목록에서 iPad 및 iPhone이 제거됩니다.</b><P>을(를) 사용하여 만든 기본 제공 대상자 [!DNL Target] &quot;브라우저: iPad&quot; 및 &quot;브라우저: iPhone&quot;와 같은 UI는 자동으로 새 대상 정의로 이동합니다.<p>수동으로 변경해야 하는 대체 설정의 예는 [브라우저 대상 속성에서 iPad 및 iPhone 사용 중단(2024년 4월 30일)](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation). |
 
 ## [!DNL Target] Standard/Premium 24.1.1 (2024년 1월 22일, 23일 및 25일)
 

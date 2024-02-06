@@ -4,10 +4,10 @@ description: Adobe Target의 프로필 스크립트에 유용한 다양한 프�
 title: 어떤 프로필, 변수 및 매개 변수가 [!DNL Target]?
 feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-source-git-commit: 2b72d2edb3da75e6a3f5d0af4ddb18a49f39b851
+source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 69%
+source-wordcount: '677'
+ht-degree: 67%
 
 ---
 
@@ -28,6 +28,7 @@ ht-degree: 69%
 | user.isNewSession |  |
 | user.daysSinceLastVisit |  |
 | user.browser | 사용자 에이전트 |
+| user.browserType | 브라우저 유형(예: safari, chrome 등)을 반환합니다. |
 | user.header | mbox 요청 헤더 데이터의 모든 `user.header` 프로필이 내장되어 있습니다. |
 | user.header(&#39;x-forwarded-for&#39;) | 방문자가 켜져 있는 네트워크 연결의 공개 IP 주소입니다.<br>예를 들어 여러 가지 방법으로 주소를 얻을 수 있습니다 [whatismyip.com](https://www.whatismyip.com/). IP 주소는 10., 192.168. 또는 172.으로 시작하는 NAT 주소(내부 주소)가 아닙니다.<br>참고: user.header(&#39;x-cluster-client-ip&#39;)는 더 이상 사용되지 않습니다. |
 | user.header(&#39;host&#39;) | 웹 사이트 호스트 이름 |
