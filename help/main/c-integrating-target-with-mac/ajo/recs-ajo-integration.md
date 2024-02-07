@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
-source-git-commit: 094ae9cc8b9700fab4ec583d045c0c31e741ddcb
+source-git-commit: 9cf9236dbd830796ef5362a9e292de7ec6fd8491
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '581'
 ht-degree: 2%
 
 ---
@@ -32,7 +32,7 @@ ht-degree: 2%
 
 ## 샘플 사용 사례
 
-다음은 를 통합하기 위해 가능한 몇 가지 사용 사례입니다. [!DNL Target Recommendations] 포함 [!DNL Adobe Journey Optimizer]:
+다음은 를 통합하는 데 사용할 수 있는 몇 가지 사용 사례입니다 [!DNL Target Recommendations] 포함 [!DNL Adobe Journey Optimizer]:
 
 * **[!DNL Adobe Journey Optimizer]장바구니 포기 후 개인화된 이메일을 보냅니다.**: 이 사용 사례는 고객이 웹 사이트를 방문하여 장바구니에 품목을 넣은 다음 구매 프로세스를 완료하지 않고 사이트를 나가는 경우를 기반으로 합니다.
 
