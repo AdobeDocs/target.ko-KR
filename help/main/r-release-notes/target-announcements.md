@@ -5,9 +5,9 @@ title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2476'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -17,20 +17,20 @@ ht-degree: 94%
 
 ## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
 
-* **가능한 웨비나 후속 질문에 대한 설명(개인화 성숙도 시리즈의 1부)**
-* **2024년 2월 7일 목요일**
-* **8:00 - 9:00 (PST -8 GMT)**
+* **가능성의 예술 웨비나 후속 질의(개인화 성숙도 시리즈 1부)**
+* **2024년 2월 7일 수요일**
+* **8:00~9:00(PST -8 GMT)**
 * **[등록 정보](https://shorturl.at/gknVY){target=_blank}**
 
 +++세부 사항
 
-가입 [!DNL Adobe Target] 브렌트 코스타크, 라이언 로버츠, 드류 번스 전문가가 해당 기간에 다룬 콘텐츠와 관련한 고객의 질문에 실시간으로 답변을 제공한다 [의 1부 [!DNL Adobe Target] &quot;가능성의 예술&quot;에 관한 웨비나 시리즈](#maturity-series),&quot; 여기서 전문가는 다음 주제를 다룹니다.
+[!DNL Adobe Target] 전문가인 Brent Kostak, Ryan Roberts, Drew Burns가 [“가능성의 예술”에 대한 웨비나 시리즈 1부](#maturity-series) [!DNL Adobe Target] 에서 다루는 내용과 관련된 고객의 질문에 실시간으로 답변을 제공합니다. 여기에서 Adobe 전문가들은 다음과 같은 주제를 다루었습니다.
 
-* 각 방법 [!DNL Target] 기능은 규모에 맞게 개인화를 실행하는 전략적 역할을 합니다.
-* 고객이 대규모로 달성하기 위해 AI 기능을 구성하는 주요 사용 사례
-* 특정 목표에 맞게 AI 기반 개인화를 활성화하기 위해 머신 러닝을 제어하는 방법
+* 대규모 개인화 실행에서 각 [!DNL Target] 기능이 수행하는 전략적 역할
+* 고객이 규모에 맞게 달성하도록 AI 기능을 구성하는 주요 사용 사례
+* 특정 목표에 맞게 AI 기반 개인화를 활성화하도록 머신 러닝을 제어하는 &#x200B;&#x200B;방법
 
-원래 웨비나를 놓쳤다면 [레코딩 듣기](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+원본 웨비나를 놓치셨다면 [녹화본을 시청할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
 +++
 
@@ -54,7 +54,7 @@ ht-degree: 94%
 
      개인화 완성의 핵심에는 인공 지능과 머신 러닝이 있습니다. [!DNL Adobe Target]은 이러한 기술을 활용하여 사용자 행동을 이해하고 선호도를 예측하며 콘텐츠를 동적으로 맞춤화합니다. AI와 ML의 강력한 기능을 활용하여 브랜드가 정적 A/B 테스트 및 규칙 기반 개인화 이상으로 역동적이고 컨텍스트에 맞는 경험을 제공하는 방법을 알아보십시오.
 
-     [녹음 좀 들어 봐](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+     [녹화본을 시청하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **고성능 권장 사항**
    * **2024년 2월 13일 화요일**
