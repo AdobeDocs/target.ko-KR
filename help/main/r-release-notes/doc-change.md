@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 93%
+ht-degree: 98%
 
 ---
 
@@ -20,9 +20,9 @@ ht-degree: 93%
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
 | 2월 8일 | [미리 가져오기](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 섹션: &quot;Analytics for Target(A4T)을 사용할 때 clickTrack 지표로 mbox 미리 가져오기&quot;가 새로 추가되었습니다. |
-| 2월 5일 | [Analytics를 보고 소스로 사용하는 활동 만들기](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | 을 사용할 때 별도의 작업 공간에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없다는 텍스트가 추가되었습니다 [!UICONTROL Analytics for Target] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. |
-|  | [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | 을 사용할 때 별도의 작업 공간에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없다는 텍스트가 추가되었습니다 [!UICONTROL Analytics for Target] (A4T) 를 보고 소스로 사용할 때에는 적용되지 않습니다. |
-|  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2024년 2월 7일로 예정된 Adobe Target Community Coffee Break에 대한 정보가 추가되었습니다. |
+| 2월 5일 | [Analytics를 보고 소스로 사용하는 활동 만들기](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | [!UICONTROL Analytics for Target] (A4T)을 보고 소스로 사용할 때 별도의 작업 영역에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없음을 지정하는 텍스트가 추가되었습니다. |
+|  | [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | [!UICONTROL Analytics for Target] (A4T)을 보고 소스로 사용할 때 별도의 작업 영역에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없음을 지정하는 텍스트가 추가되었습니다. |
+|  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2024년 2월 7일에 예정된 Adobe Target 커뮤니티 커피 브레이크에 대한 정보가 추가되었습니다. |
 | 1월 24일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | at.js 버전 2.11.4에 대한 릴리스 정보가 추가되었습니다. |
 |  | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md#deprecation) | 두 개의 새로운 프로필이 아직 제공되지 않는 점이 공지되었습니다. 이들 프로필을 사용할 수 있게 되는 시점에 이 정보가 업데이트될 예정입니다. |
 |  | [at.js 자주 묻는 질문](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html){target=_blank} | Ionic App 환경의 at.js에 관한 FAQ가 추가되었습니다. 이 구현은 테스트되거나 권장되지 않습니다. |
