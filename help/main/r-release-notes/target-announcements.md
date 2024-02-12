@@ -4,9 +4,9 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4c0a74d0ca693ddfa65abbe8800647b59ccfdb93
-workflow-type: ht
-source-wordcount: '2476'
+source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
+workflow-type: tm+mt
+source-wordcount: '2353'
 ht-degree: 100%
 
 ---
@@ -15,24 +15,24 @@ ht-degree: 100%
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
-## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
+<!--## Adobe Target Community Q&A Coffee Break
 
-* **가능성의 예술 웨비나 후속 질의(개인화 성숙도 시리즈 1부)**
-* **2024년 2월 7일 수요일**
-* **8:00~9:00(PST -8 GMT)**
-* **[등록 정보](https://shorturl.at/gknVY){target=_blank}**
+* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
+* **Wednesday, February 7, 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
 
-+++세부 사항
++++Details
 
-[!DNL Adobe Target] 전문가인 Brent Kostak, Ryan Roberts, Drew Burns가 [“가능성의 예술”에 대한 웨비나 시리즈 1부](#maturity-series) [!DNL Adobe Target] 에서 다루는 내용과 관련된 고객의 질문에 실시간으로 답변을 제공합니다. 여기에서 Adobe 전문가들은 다음과 같은 주제를 다루었습니다.
+Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
 
-* 대규모 개인화 실행에서 각 [!DNL Target] 기능이 수행하는 전략적 역할
-* 고객이 규모에 맞게 달성하도록 AI 기능을 구성하는 주요 사용 사례
-* 특정 목표에 맞게 AI 기반 개인화를 활성화하도록 머신 러닝을 제어하는 &#x200B;&#x200B;방법
+* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
+* Top use cases that customers are configuring AI capabilities to accomplish at scale
+* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
 
-원본 웨비나를 놓치셨다면 [녹화본을 시청할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++
++++-->
 
 ## Adobe Target 2024 개인 맞춤화 완성 웨비나 시리즈 {#maturity-series}
 
