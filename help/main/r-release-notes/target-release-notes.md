@@ -5,7 +5,7 @@ title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 4395caa7e40717c59067eaedff5e53776768eda9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '173'
 ht-degree: 100%
 
