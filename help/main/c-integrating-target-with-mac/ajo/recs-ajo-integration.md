@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
-source-git-commit: d93e58540568fb685bd18ee5e39ad2917323bce4
+source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '606'
 ht-degree: 1%
 
 ---
@@ -40,13 +40,13 @@ ht-degree: 1%
 
   지정된 기간 후(아마도 몇 시간 또는 하루) 의 사용자 지정 작업 [!DNL Adobe Journey Optimizer] 을 호출합니다. [!DNL Target Recommendations] 을(를) 사용하여 포기한 장바구니의 콘텐츠 확인 [장바구니 기반 권장 사항](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 알고리즘. [!DNL Adobe Journey Optimizer] 그런 다음 이 방문자에게 구매 프로세스가 완료되지 않았다는 알림 메시지와 함께 이미지 및 구매하지 않은 항목에 대한 링크를 개인화된 전자 메일로 보냅니다.
 
-* **[!DNL Adobe Journey Optimizer]은(는) 사이트 방문 후 방문자에게 열람된 항목을 알려 주기 위해 벌크 이메일을 보냅니다.**: 이 사용 사례는 방문자가 웹 사이트를 방문하여 다양한 항목을 본 다음 장바구니에 항목을 배치하지 않고 사이트 또는 앱을 종료하는 경우를 기반으로 합니다.
+* **[!DNL Adobe Journey Optimizer]은(는) 사이트 방문 후 방문자에게 열람된 항목을 알려 주기 위해 벌크 이메일을 보냅니다.**: 이 사용 사례는 방문자가 웹 사이트를 방문하고 다양한 항목을 본 다음 장바구니에 항목을 배치하지 않고 사이트 또는 앱을 떠나는 경우를 기반으로 합니다.
 
   지정된 기간 후 의 사용자 지정 작업 [!DNL Adobe Journey Optimizer] 을 호출합니다. [!DNL Target Recommendations] 각 방문자의 항목을 사용하여 각 방문자가 본 항목 확인 [!DNL Adobe Experience Cloud Identifier] (EDID), 방문자의 [!DNL Target] 프로필 및 [사용자 기반](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 알고리즘. [!DNL Adobe Journey Optimizer] 그런 다음 자격이 있는 대상자의 각 구성원에게 이미지와 각 방문자의 표시된 항목에 대한 링크가 포함된 개인화된 이메일을 보내어 방문자가 재방문하여 구매하도록 합니다.
 
-  이 시나리오에서는 [!UICONTROL Experience Cloud 방문자 ID] (ECID) 및 각 사용자의 콘텐츠 [!DNL Target] 프로필은 최근에 본 알고리즘을 기반으로 추천을 생성하는 데 사용됩니다.
+  이 시나리오에서는 [!UICONTROL Experience Cloud 방문자 ID] (ECID) 및 각 방문자의 콘텐츠 [!DNL Target] 프로필은 최근에 본 알고리즘을 기반으로 추천을 생성하는 데 사용됩니다.
 
-  예를 들어 방문자가 소매 웹 사이트를 방문하여 여러 개의 시계를 본다고 가정해 봅시다. 이 방문자의 [!DNL Target] 프로필이 조회한 시계 목록으로 업데이트됩니다. ECID 및 방문자 사용 [!DNL Target] 프로필, [!DNL Target] 추천 발송 대상 [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] 그런 다음 이 방문자가 최근에 본 알고리즘을 사용하여 본 시계에 대한 이미지와 링크가 포함된 이메일을 보냅니다. 다른 방문자는 이 방문자가 본 항목에 대한 이미지와 링크가 포함된 개인화된 이메일을 받게 됩니다. 각 이메일 메시지는 개인화됩니다.
+  예를 들어 방문자가 소매 웹 사이트를 방문하여 여러 개의 시계를 본다고 가정해 봅시다. 이 방문자의 [!DNL Target] 프로필이 조회한 시계 목록으로 업데이트됩니다. ECID 및 방문자 사용 [!DNL Target] 프로필, [!DNL Target] 추천 발송 대상 [!DNL Adobe Journey Optimizer]. [!DNL Adobe Journey Optimizer] 그런 다음 최근에 본 알고리즘을 사용하여 이 방문자가 본 시계에 대한 이미지와 링크가 포함된 이메일을 보냅니다. 다른 방문자는 이 방문자가 본 항목에 대한 이미지와 링크가 포함된 개인화된 이메일을 수신합니다. 각 이메일 메시지는 각 방문자에 대해 개인화됩니다.
 
 * **[!DNL Adobe Journey Optimizer]인기 있는 항목을 제안하기 위해 사이트 방문 후 자격을 갖춘 방문자에게 벌크 이메일을 보냅니다.**: 이 사용 사례는 웹 사이트를 방문하는 방문자를 기반으로 하지만 특정 항목을 보지 않습니다. 이메일은 특정 대상에 적합한 모든 사용자에게 일괄적으로 전송됩니다. 예를 들면 다음과 같습니다.
 
