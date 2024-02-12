@@ -7,9 +7,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
-source-git-commit: e0d1e06f21c9a1e630643ed045c970526bc2a3b6
+source-git-commit: ce74c85380333476b97f47fab4d2659a3c9c86e1
 workflow-type: tm+mt
-source-wordcount: '606'
+source-wordcount: '605'
 ht-degree: 1%
 
 ---
@@ -50,6 +50,6 @@ ht-degree: 1%
 
 * **[!DNL Adobe Journey Optimizer]인기 있는 항목을 제안하기 위해 사이트 방문 후 자격을 갖춘 방문자에게 벌크 이메일을 보냅니다.**: 이 사용 사례는 웹 사이트를 방문하는 방문자를 기반으로 하지만 특정 항목을 보지 않습니다. 이메일은 특정 대상에 적합한 모든 사용자에게 일괄적으로 전송됩니다. 예를 들면 다음과 같습니다.
 
-  방문자가 특정 시계를 보지 않는다고 가정합시다. 방문자가 단순히 사이트를 클릭해서 카테고리 페이지나 블로그 항목을 본 것 같습니다. 그 결과 [!DNL Target] 프로필에 최근에 본 항목에 대한 특정 정보가 없습니다. 이런 상황에서는 [!DNL Target Recommendations] 다음을 사용할 수 있음 [백업 권장 사항](/help/main/c-recommendations/c-algorithms/backup-recs.md) 그래서 [!DNL Adobe Journey Optimizer] 은 웹 사이트에서 인기 있는 항목에 대한 이미지와 링크가 포함된 이메일을 보내어 방문자가 돌아와서 구매할 수 있도록 할 수 있습니다.
+  방문자가 특정 시계를 보지 않는다고 가정합시다. 방문자가 단순히 사이트를 클릭해서 카테고리 페이지나 블로그 항목을 본 것 같습니다. 그 결과 [!DNL Target] 프로필에 최근에 본 항목에 대한 특정 정보가 없습니다. 이런 상황에서는 [!DNL Target Recommendations] 를 사용합니다. [백업 권장 사항](/help/main/c-recommendations/c-algorithms/backup-recs.md) 그래서 [!DNL Adobe Journey Optimizer] 은 웹 사이트에서 인기 있는 항목에 대한 이미지와 링크가 포함된 이메일을 보내어 방문자가 돌아와서 구매할 수 있도록 할 수 있습니다.
 
 
