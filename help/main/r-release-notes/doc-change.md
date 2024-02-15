@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ ht-degree: 98%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
-| 2월 8일 | [미리 가져오기](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 섹션: &quot;Analytics for Target(A4T)을 사용할 때 clickTrack 지표로 mbox 미리 가져오기&quot;가 새로 추가되었습니다. |
+| 2월 8일 | [프리페치](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 새 섹션 추가: “A4T(Analytics for Target)를 사용할 때 clickTrack 지표가 포함된 mbox 프리페치” |
 | 2월 5일 | [Analytics를 보고 소스로 사용하는 활동 만들기](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | [!UICONTROL Analytics for Target] (A4T)을 보고 소스로 사용할 때 별도의 작업 영역에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없음을 지정하는 텍스트가 추가되었습니다. |
 |  | [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | [!UICONTROL Analytics for Target] (A4T)을 보고 소스로 사용할 때 별도의 작업 영역에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없음을 지정하는 텍스트가 추가되었습니다. |
 |  | [[!DNL Adobe Target] 공지 및 이벤트](/help/main/r-release-notes/target-announcements.md) | 2024년 2월 7일에 예정된 Adobe Target 커뮤니티 커피 브레이크에 대한 정보가 추가되었습니다. |
