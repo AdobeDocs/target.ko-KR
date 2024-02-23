@@ -4,10 +4,10 @@ description: 방문자의 프로필에 저장되어 Adobe [!DNL Target] 활동�
 title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: ht
-source-wordcount: '2456'
-ht-degree: 100%
+source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
+workflow-type: tm+mt
+source-wordcount: '2465'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target]의 프로필 속성은 방문자와 관련된 매개변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
 
-사용자 프로필에는 웹 페이지 방문자의 인구학적, 행동적 정보가 포함되어 있습니다. 이 정보에는 연령, 성별, 구매한 제품, 마지막으로 방문한 시간 등 [!DNL Target]이 방문자에게 제공하는 콘텐츠를 개인 맞춤화하는 데 사용하는 항목이 포함될 수 있습니다.
+사용자 프로필에는 웹 페이지 방문자의 인구학적, 행동적 정보가 포함되어 있습니다. 이 정보에는 연령, 성별, 구매한 제품, 마지막으로 방문한 시간 등이 포함될 수 있습니다. [!DNL Target] 은 이 정보를 사용하여 해당 방문자에게 제공하는 콘텐츠를 개인화합니다.
 
 방문자가 웹 사이트를 탐색할 때 또는 방문자가 다른 세션으로 돌아갈 때 프로필에 저장된 프로필 속성을 사용하여 세그먼트 필터링에 콘텐츠 또는 로그 정보를 타기팅 수 있습니다.
 
@@ -33,8 +33,8 @@ ht-degree: 100%
 
    | 매개변수 유형 | 설명 |
    |--- |--- |
-   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. [글로벌 Mbox에 매개변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을 참조하십시오.<br>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개 이상의 프로필 속성을 전달해야 하는 경우 프로필 업데이트 API 방법을 사용하십시오. 자세한 내용은 [ [!DNL Adobe Target] API 설명서의 프로필 업데이트](https://developers.adobetarget.com/api/#updating-profiles)를 참조하십시오. |
-   | 프로필 | JavaScript 코드 스니펫으로 바로 정의됩니다. 이러한 스니펫은 소비자가 소비한 금액 합계와 같이 실행 중인 합계를 저장할 수 있으며 각 mbox 요청에 대해 실행됩니다. 아래의 프로필 스크립트 속성을 참조하십시오. |
+   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 다음을 참조하십시오 [글로벌 mbox에 매개 변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} 다음에서 *Target 개발자 안내서*..<P>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. 에 50개가 넘는 프로필 속성을 전달해야 하는 경우 [!DNL Target]를 사용하여 전달합니다. [!UICONTROL 프로필 업데이트 API] 메서드를 사용합니다. 자세한 내용은 [프로필 업데이트](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} 다음에서 *Target 개발자 안내서*. |
+   | 프로필 | JavaScript 코드 스니펫으로 바로 정의됩니다. 이러한 스니펫은 소비자가 소비한 총 금액과 같은 실행 중인 합계를 저장할 수 있으며 각 mbox 요청에 대해 실행됩니다. 다음을 참조하십시오 *프로필 스크립트 속성* 아래요. |
 
 ## 프로필 스크립트 속성 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
