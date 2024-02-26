@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7d84ce530081c20f7cdcb6e89010baef6f638647
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 100%
+source-wordcount: '1437'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 100%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 2월 23일 | [에서 사용하는 IP 주소 [!DNL Recommendations] 피드 처리 서버](/help/main/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | 다음 중요 참고 사항과 허용 목록에 추가하다해야 하는 새 IP 주소가 추가되었습니다.<P>**중요 사항**: [!DNL Target] 팀에서 현재 다운로드할 NAT 게이트웨이 주소를 업데이트하고 있습니다. [!DNL Recommendations] 피드. IP 허용 목록에 추가허용 목록에 추가하다 를 구현하는 경우 다음의 새 AWS 호스트를 구현해야 합니다. 기존 호스트는 2024년 6월 30일에 폐기될 예정입니다. 원활한 전환을 위해 9개의 주소를 모두 허용 목록에 추가하다합니다. 기존 주소를 제거해야 할 긴급성은 없습니다. |
 | 2월 8일 | [프리페치](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/prefetch.html){target=_blank} | 새 섹션 추가: “A4T(Analytics for Target)를 사용할 때 clickTrack 지표가 포함된 mbox 프리페치” |
 | 2월 5일 | [Analytics를 보고 소스로 사용하는 활동 만들기](/help/main/c-integrating-target-with-mac/a4t/campaign-creation.md) | [!UICONTROL Analytics for Target] (A4T)을 보고 소스로 사용할 때 별도의 작업 영역에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없음을 지정하는 텍스트가 추가되었습니다. |
 |  | [활동 설정 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | [!UICONTROL Analytics for Target] (A4T)을 보고 소스로 사용할 때 별도의 작업 영역에서 두 활동에 대해 동일한 활동 이름을 사용할 수 없음을 지정하는 텍스트가 추가되었습니다. |

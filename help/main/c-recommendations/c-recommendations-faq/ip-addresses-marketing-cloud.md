@@ -5,10 +5,10 @@ title: Recommendations 피드-처리 서버에서 사용하는 IP 주소는 무�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
-source-git-commit: 558de92e672c276474bc76fad19e5461ae7d4c88
+source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 49%
+source-wordcount: '175'
+ht-degree: 46%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 49%
 
 >[!IMPORTANT]
 >
->2023년 2월 23일: [!DNL Target] 팀에서 현재 다운로드할 NAT 게이트웨이 주소를 업데이트하고 있습니다. [!DNL Recommendations] 피드. IP 허용 목록에 추가허용 목록에 추가하다 를 구현하는 경우 다음의 새 AWS 호스트를 구현해야 합니다. 기존 호스트는 향후 폐기될 예정입니다. 이제 9개의 호스트가 모두 작동합니다.
+>다음 [!DNL Target] 팀에서 현재 다운로드할 NAT 게이트웨이 주소를 업데이트하고 있습니다. [!DNL Recommendations] 피드. IP 허용 목록에 추가허용 목록에 추가하다 를 구현하는 경우 다음의 새 AWS 호스트를 구현해야 합니다. 기존 호스트는 2024년 6월 30일에 폐기될 예정입니다. 원활한 전환을 위해 9개의 주소를 모두 허용 목록에 추가하다합니다. 기존 주소를 제거해야 할 긴급성은 없습니다.
 
 [!DNL Target] [!UICONTROL Recommendations] 활동에서는 다음의 AWS 호스트를 사용하여 고객의 FTP 서버에 액세스합니다.
 
