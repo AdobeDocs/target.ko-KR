@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1afcd6838c8a3fd5186c66fc401ee0e8b4b5feb3
-workflow-type: ht
-source-wordcount: '2353'
-ht-degree: 100%
+source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+workflow-type: tm+mt
+source-wordcount: '2527'
+ht-degree: 93%
 
 ---
 
@@ -15,24 +15,26 @@ ht-degree: 100%
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
-<!--## Adobe Target Community Q&A Coffee Break
+## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
 
-* **Art of the Possible Webinar Follow-up Questions (Part 1 of Personalization Maturity Series)**
-* **Wednesday, February 7, 2024**
-* **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://shorturl.at/gknVY){target=_blank}**
+* **고성능 Recommendations 웨비나 후속 질문(개인화 성숙도 시리즈의 2부)**
+* **2024년 2월 28일 목요일**
+* **8:00~9:00(PST -8 GMT)**
+* **[등록 정보](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
-+++Details
++++세부 사항
 
-Join [!DNL Adobe Target] experts Brent Kostak, Ryan Roberts, and Drew Burns as they provide answers in real-time to customers' questions related to content covered during [Part 1 of the [!DNL Adobe Target] Webinar Series on the "Art of the Possible](#maturity-series)," where our experts covered the following topics:
+가입 [!DNL Adobe Target] 전문가 Cristinel Anastasoaie, Brent Kostak 및 Timothy Furlow(Target Recommendations 전문가 및 Lenovo의 개인화 및 최적화 선임 관리자)가 다음 기간 동안 다룬 콘텐츠와 관련된 고객의 질문에 실시간으로 답변을 제공합니다 [의 2부 [!DNL Adobe Target] &quot;고성능 Recommendations&quot;의 웨비나 시리즈](#maturity-series),&quot; 여기서 전문가는 다음 주제를 다룹니다.
 
-* How each [!DNL Target] capability plays a strategic role in executing personalization at scale
-* Top use cases that customers are configuring AI capabilities to accomplish at scale
-* How you are in control of machine learning to activate AI-powered Personalization to your specific goals
+* 고객이 내 브랜드와의 관계를 발전시킬 때 보다 정밀한 적응형 권장 사항을 잠금 해제하는 고급 기능입니다.
+* 비기술적 사용자 또는 마케터가 알고리즘 구성 및 관리를 완전히 제어하는 방법입니다.
+* 클릭 수 감소와 매출 증가에 막대한 영향을 미치는 사용 사례를 잠금 해제하는 권장 사항과 함께 AI 및 사용자 지정 기능을 사용하는 방법입니다.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+원본 웨비나를 놓치셨다면 [녹화본을 시청할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-+++-->
+2024년 3월 12일 예정된 웨비나 시리즈 3부에 등록하십시오.[AI Powered Recommendations 잠금 해제](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}.&quot;
+
++++
 
 ## Adobe Target 2024 개인 맞춤화 완성 웨비나 시리즈 {#maturity-series}
 
@@ -42,7 +44,7 @@ If you missed the original webinar, [listen to the recording](https://experience
 
 * **주요 사용 사례 알아보기**: 지능형 최적화를 위한 블루프린트를 통해 비전을 실현하고 규칙 기반 실험 및 A/B 테스트 이상으로 [!DNL Adobe Target] 고객을 성숙시킵니다.
 * **고유 기능 극대화**: ROI, 매출 및 전환율을 극대화하기 위한 고성능 추천을 통해 성공을 위한 경험을 맞춤화합니다.
-* **고급 개인화 전략**: AI/ML 고급 기술에 대한 심층 분석을 통해 비즈니스 영향력을 확대하고, 새로운 세그먼트/대상자의 공감을 이끌어내고, 최적화된 경험을 위해 개인화 모델을 미세 조정합니다.
+* **고급 개인화 전략**: AI/ML 고급 기술을 깊이 있게 분석하여 비즈니스 영향력을 확장하고, 새로운 세그먼트/대상과 공감하고, 개인화 모델을 미세 조정하여 최적화된 경험을 제공합니다.
 
 * **[여기에서 등록](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -61,6 +63,8 @@ If you missed the original webinar, [listen to the recording](https://experience
    * **오전 10시 ~ 11시 (PST, -8 GMT)**
 
      비즈니스의 판도를 바꾸고 참여와 매출을 증대시키는 추천 알고리즘에 대해 알아봅니다. 개인화된 제품 제안부터 콘텐츠 추천에 이르기까지 사용자의 여정을 원활하게 안내하는 기능은 비즈니스 성장을 크게 촉진하는 데 직접적으로 기여합니다.
+
+     [녹화본을 시청하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **AI 기반 개인화 잠금 해제**
    * **2024년 3월 12일 화요일**
