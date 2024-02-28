@@ -5,9 +5,9 @@ title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2465'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -15,9 +15,9 @@ ht-degree: 96%
 
 [!DNL Adobe Target]의 프로필 속성은 방문자와 관련된 매개변수입니다. 이러한 속성은 방문자의 프로필에 저장되어 활동에 사용할 수 있는 방문자에 대한 정보를 제공합니다.
 
-사용자 프로필에는 웹 페이지 방문자의 인구학적, 행동적 정보가 포함되어 있습니다. 이 정보에는 연령, 성별, 구매한 제품, 마지막으로 방문한 시간 등이 포함될 수 있습니다. [!DNL Target] 은 이 정보를 사용하여 해당 방문자에게 제공하는 콘텐츠를 개인화합니다.
+사용자 프로필에는 웹 페이지 방문자의 인구학적, 행동적 정보가 포함되어 있습니다. 이 정보에는 연령, 성별, 구매한 제품, 마지막 방문 시간 등이 포함될 수 있습니다. [!DNL Target]은 이 정보를 사용하여 해당 방문자에게 제공되는 콘텐츠를 개인화합니다.
 
-방문자가 웹 사이트를 탐색할 때 또는 방문자가 다른 세션으로 돌아갈 때 프로필에 저장된 프로필 속성을 사용하여 세그먼트 필터링에 콘텐츠 또는 로그 정보를 타기팅 수 있습니다.
+방문자가 웹 사이트를 탐색할 때 또는 방문자가 다른 세션으로 돌아갈 때 프로필에 저장된 프로필 속성을 사용하여 세그먼트 필터링에 콘텐츠 또는 로그 정보를 타겟팅할 수 있습니다.
 
 프로필 속성을 설정하려면:
 
@@ -33,8 +33,8 @@ ht-degree: 96%
 
    | 매개변수 유형 | 설명 |
    |--- |--- |
-   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. 다음을 참조하십시오 [글로벌 mbox에 매개 변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank} 다음에서 *Target 개발자 안내서*..<P>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. 에 50개가 넘는 프로필 속성을 전달해야 하는 경우 [!DNL Target]를 사용하여 전달합니다. [!UICONTROL 프로필 업데이트 API] 메서드를 사용합니다. 자세한 내용은 [프로필 업데이트](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank} 다음에서 *Target 개발자 안내서*. |
-   | 프로필 | JavaScript 코드 스니펫으로 바로 정의됩니다. 이러한 스니펫은 소비자가 소비한 총 금액과 같은 실행 중인 합계를 저장할 수 있으며 각 mbox 요청에 대해 실행됩니다. 다음을 참조하십시오 *프로필 스크립트 속성* 아래요. |
+   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. *Target 개발자 안내서*&#x200B;의 [글로벌 Mbox에 매개변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을 참조하십시오.<P>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개 이상의 프로필 속성을 전달해야 하는 경우 [!UICONTROL 프로필 업데이트 API] 방법을 사용하십시오. 자세한 내용은 *Target 개발자 안내서*&#x200B;의 [프로필 업데이트](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}를 참조하십시오. |
+   | 프로필 | JavaScript 코드 스니펫으로 바로 정의됩니다. 이들 스니펫은 소비자가 소비한 금액 합계와 같이 실행 중인 합계를 저장할 수 있으며 각 mbox 요청에 대해 실행됩니다. 아래의 *프로필 스크립트 속성*&#x200B;을 참조하십시오. |
 
 ## 프로필 스크립트 속성 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -132,7 +132,7 @@ if (mbox.name == 'Track_Interest') {
 * 1,300자 또는 50개 루프 반복을 초과하지 않도록 합니다.
 * JavaScript 명령어 2,000개를 초과하지 않도록 합니다. [!DNL Target]에는 스크립트당 2,000개의 JavaScript 명령어 제한이 있지만, 이 제한은 단순히 JavaScript를 수동으로 읽는 것으로는 계산할 수 없습니다. 예를 들어 Rhino는 모든 함수 호출 및 “새로운” 호출을 100개의 명령어로 처리합니다. 또한 URL 값과 같은 임의 항목 데이터의 크기는 명령어 개수에 영향을 줄 수 있습니다.
 * 스크립트 성능뿐만 아니라 모든 스크립트를 결합한 성능에 주의하십시오. [!DNL Adobe]는 총 5,000개 이하의 명령어를 사용할 것을 권장합니다. 명령어 수 계산은 완벽하지 않지만, 중요한 것은 명령어의 수가 2,000개를 초과하는 스크립트는 자동으로 비활성화된다는 것입니다. 활성 프로필 스크립트의 수는 300개를 초과할 수 없습니다. 각 스크립트는 모든 단일 mbox 호출로 실행됩니다. 필요만 만큼만 스크립트를 실행합니다.
-* 정규 표현식에서 첫 번째 문자를 점-별로 할 필요는 없습니다(예: `/.*match/`, `/a|.*b/`). 정규 표현식 검색은 `^`으로 묶이지 않는 한 문자열의 모든 위치에서 시작하므로 이미 점-별이 가정되었습니다. 그러한 정규 표현식이 충분히 긴 입력 데이터(최저 700자까지 가능)와 일치하면 스크립트 실행이 중단될 수 있습니다.
+* 정규 표현식에서 첫 번째 문자를 점-별로 할 필요는 없습니다(예: `/.*match/`, `/a|.*b/`). 정규 표현식 검색은 `^`으로 묶이지 않는 한 문자열의 모든 위치에서 시작하므로 이미 점-별이 가정되었습니다. 그러한 정규 표현식이 충분히 긴 입력 데이터(적게는 수백 자까지 가능)와 일치하면 스크립트 실행이 중단될 수 있습니다.
 * 모두 실패하는 경우 try/catch에 스크립트를 래핑합니다.
 * 다음 권장 사항은 프로필 스크립트 복잡성을 제한하는 데 도움이 됩니다. 프로필 스크립트는 제한된 수의 명령어를 실행할 수 있습니다.
 
