@@ -4,10 +4,10 @@ description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리�
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7ae2aa9f95b01653891e9857c1ee5b94f6c809a9
+source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '2527'
-ht-degree: 93%
+source-wordcount: '2358'
+ht-degree: 98%
 
 ---
 
@@ -15,26 +15,26 @@ ht-degree: 93%
 
 [!DNL Target] 커피 브레이크 세션, [!DNL Target] 웨비나 시리즈, [!DNL Target] 스킬 빌더 세션, 개발자 채팅 등을 포함하는 [!DNL Adobe Target] 이벤트에 대한 공지 사항 및 정보입니다. 사용 가능한 경우 이전 녹화분에 대한 링크가 포함됩니다.
 
-## Adobe Target 커뮤니티 Q&amp;A 커피 브레이크
+<!-- ## Adobe Target Community Q&A Coffee Break
 
-* **고성능 Recommendations 웨비나 후속 질문(개인화 성숙도 시리즈의 2부)**
-* **2024년 2월 28일 목요일**
-* **8:00~9:00(PST -8 GMT)**
-* **[등록 정보](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
+* **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
+* **Wednesday, February 28, 2024**
+* **8:00 - 9:00 (PST -8 GMT)**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
-+++세부 사항
++++Details
 
-가입 [!DNL Adobe Target] 전문가 Cristinel Anastasoaie, Brent Kostak 및 Timothy Furlow(Target Recommendations 전문가 및 Lenovo의 개인화 및 최적화 선임 관리자)가 다음 기간 동안 다룬 콘텐츠와 관련된 고객의 질문에 실시간으로 답변을 제공합니다 [의 2부 [!DNL Adobe Target] &quot;고성능 Recommendations&quot;의 웨비나 시리즈](#maturity-series),&quot; 여기서 전문가는 다음 주제를 다룹니다.
+Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timothy Furlow (Target Recommendations expert & Senior Manager of Personalization & Optimization at Lenovo) as they provide answers in real-time to customers' questions related to content covered during [Part 2 of the [!DNL Adobe Target] Webinar Series on the "High Performance Recommendations](#maturity-series)," where our experts covered the following topics:
 
-* 고객이 내 브랜드와의 관계를 발전시킬 때 보다 정밀한 적응형 권장 사항을 잠금 해제하는 고급 기능입니다.
-* 비기술적 사용자 또는 마케터가 알고리즘 구성 및 관리를 완전히 제어하는 방법입니다.
-* 클릭 수 감소와 매출 증가에 막대한 영향을 미치는 사용 사례를 잠금 해제하는 권장 사항과 함께 AI 및 사용자 지정 기능을 사용하는 방법입니다.
+ * More advanced features that unlock more precision, adaptive recommendations as the customer develops a relationship with your brand.
+* How a non-technical user or marketer is in full control of configuring and managing the algorithms.
+* How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-원본 웨비나를 놓치셨다면 [녹화본을 시청할 수 있습니다](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-2024년 3월 12일 예정된 웨비나 시리즈 3부에 등록하십시오.[AI Powered Recommendations 잠금 해제](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}.&quot;
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
-+++
++++ -->
 
 ## Adobe Target 2024 개인 맞춤화 완성 웨비나 시리즈 {#maturity-series}
 
