@@ -5,10 +5,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 title: 엔티티 속성은 어떻게 사용합니까?
 feature: Recommendations
 exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: b6697eee5925cb8fa3b2fa2e107af0c617d30f94
 workflow-type: tm+mt
-source-wordcount: '1090'
-ht-degree: 52%
+source-wordcount: '1070'
+ht-degree: 48%
 
 ---
 
@@ -95,19 +95,19 @@ Singe 값만 사용합니다.
 
 다중 값(쉼표로 구분된 목록)을 지원합니다.
 
-현재 페이지의 카테고리. entity.categoryID에는 카디건 하위 섹션과 같은 여러 카테고리가 포함될 수 있습니다(예: womens, womens:sweaters, womens:sweaters:카디건). 여러 카테고리는 쉼표로 구분해야 합니다.
+현재 페이지의 카테고리. entity.categoryID에는 카디건 하위 섹션과 같은 여러 카테고리가 포함될 수 있습니다(예: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`). 여러 카테고리는 쉼표로 구분해야 합니다.
 
 다음 `categoryId` 값은 250자로 제한됩니다.
 
 >[!NOTE]
 >
->카테고리를 기반으로 한 권장 사항을 [!UICONTROL 카테고리] 페이지에 표시하기 위해 한 개의 `categoryId`만 특정 권장 사항을 표시하는 데 사용되는 mbox에 전달할 수 있습니다. `categoryId` 값은 제품 세부사항 페이지에서 전달된 `entity.categoryId` 값과 정확히 일치해야 합니다.
+>범주를 기반으로 한 권장 사항을 [!UICONTROL Category] 페이지, 하나만 `categoryId` 는 특정 권장 사항을 표시하는 데 사용되는 mbox에 전달될 수 있습니다. 값 `categoryId` 은(는) 의 값과 정확히 일치해야 합니다 `entity.categoryId` 이(가) 다음에 전달했습니다. [!UICONTROL Product Detail] 페이지를 가리키도록 업데이트하는 중입니다.
 
 예:
 
-* 예제 제품 세부사항 페이지: womens, womens:sweaters, womens:sweaters:가디건
-* 예제 카테고리 페이지 스웨터: womens:sweaters
-* 예제 카테고리 페이지 가디건: womens:sweaters:가디건
+* 예제 제품 세부 사항 페이지: `womens`, `womens:sweaters`, `womens:sweaters:cardigans`
+* 예제 카테고리 페이지 스웨터: `womens:sweaters`
+* 예제 카테고리 페이지 가디건: `womens:sweaters:cardigans`
 
 카테고리 기반 권장 사항의 경우 쉼표로 카테고리 값을 구분합니다. 쉼표로 구분되는 모든 값은 카테고리가 됩니다. 콜론(:)과 같은 기타 구분 기호를 사용하여 카테고리 값 내의 하위 카테고리를 구분하도록 정의할 수도 있습니다.
 
@@ -117,7 +117,7 @@ Singe 값만 사용합니다.
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban', 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-mbox 배달의 경우 키에 가장 긴 속성 이름이 사용됩니다. 연결이 있는 경우 마지막 속성이 사용됩니다. 위의 예에서 카테고리 키는 여성입니다.:Outerwear:자켓:카반.
+mbox 배달의 경우 키에 가장 긴 속성 이름이 사용됩니다. 연결이 있는 경우 마지막 속성이 사용됩니다. 위의 예에서 카테고리 키는 입니다. `Womens:Outerwear:Jackets:Caban`.
 
 ### entity.brand
 
