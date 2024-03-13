@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 79%
+source-wordcount: '1507'
+ht-degree: 78%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 79%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 3월 13일 | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 일광 절약 시간제(DST)를 고려하여 시간 기반 대상자를 다시 절약하기 위해 참고할 정보를 추가했습니다. |
 | 3월 6일 | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md) | 다음 섹션의 정보가 업데이트되었습니다. &quot;업데이트 [!DNL iPad] 및 [!DNL iPhone] 위치: [!UICONTROL Browser] audience attributes (2024년 4월 30일)&quot; |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 전체 섹션 업데이트됨: &quot;업데이트 `Browser:iPad` 및 `Browser:iPhone` 위치: [!UICONTROL Browser] audience attributes (2024년 4월 30일)&quot; |
 |  | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 24.1.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
