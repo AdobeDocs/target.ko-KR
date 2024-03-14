@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
 workflow-type: tm+mt
-source-wordcount: '511'
-ht-degree: 60%
+source-wordcount: '570'
+ht-degree: 54%
 
 ---
 
@@ -24,6 +24,14 @@ ht-degree: 60%
 | 업데이트 | 세부 사항 |
 |--- |--- |
 | [!UICONTROL Browser:iPad] 및 [!UICONTROL Browser:iPhone] 다음에서 업데이트됨: [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md) 대상자를 만들 때 사용됩니다. | [!DNL Adobe Target] 다음 작업을 수행할 수 있습니다. [여러 범주 속성 중 하나를 타깃팅합니다.](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md) 방문자가 페이지를 방문할 때입니다.<P>다음으로 시작 [!DNL Target] Standard/Premium 24.3.1(2024년 3월 4~6일), Target UI를 사용하여 생성된 내장 대상, 예: `Browser:iPad` 및 `Browser:iPhone` 다음에 대한 적절한 타깃팅을 수행하도록 업데이트됩니다. [!DNL iPad] 및 [!DNL iPhone] 사용 `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` 및 `profile.mobile.isTablet`.<P>이 업데이트에는 고객 측에서 작업을 수행할 필요가 없습니다.<p><B>중요 사항</b>: 고객이 다음에 대한 적절한 타겟팅을 수행할 수 있도록 지원 [!DNL iPad] 및 [!DNL iPhone] 프로필 스크립트(및 JavaScript 세그먼트)에서 수동 변경은 다음 작업을 수행하여 고객이 수행해야 합니다 **2024년 4월 30일**. 수동으로 변경해야 하는 대체 설정의 예는 [다음에 대한 업데이트 [!DNL iPad] 및 [!DNL iPhone] 위치: [!UICONTROL Browser] 대상 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+
+## [!UICONTROL Visual Editing Helper] 내선 번호(2024년 3월 14일)
+
+이 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다. [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Google Chrome]:
+
+* 고객 웹 사이트에서 작성을 수행할 때 iFrame 로드 메커니즘을 개선했습니다.
+* 에서 작성을 수행하는 동안 확장에서 쿠키를 복제하는 문제가 해결되었습니다. [!UICONTROL Visual Experience Composer] (VEC).
+* 를 사용하는 고객을 위해 at.js를 다운로드할 종속성을 제거했습니다. [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1(2024년 3월 4~6일)
 
