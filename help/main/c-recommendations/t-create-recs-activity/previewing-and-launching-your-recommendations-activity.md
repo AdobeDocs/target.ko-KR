@@ -4,10 +4,10 @@ description: Adobe 미리보기 방법 알아보기 [!DNL Target] Recommendation
 title: Recommendations 활동을 미리 보고 시작하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 0d875bfaf8c0670f657046469d2adba0647de4fb
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '1416'
-ht-degree: 15%
+source-wordcount: '1340'
+ht-degree: 16%
 
 ---
 
@@ -93,7 +93,7 @@ CSV 파일을 다운로드하고 있습니다. 이 폴더를 열어 추천 항�
 
 왼쪽에서 오른쪽으로 권장 항목 목록(이 경우 가장 자주 보는 항목)이 있습니다. 권장 사항은 환경으로 구분됩니다. 이 경우 프로덕션 환경에만 권장 사항이 있습니다.
 
-별표(*)가 행의 첫 번째 값인 경우 백업 항목을 나타냅니다. 알고리즘의 권장 항목(기준)으로 디자인의 모든 슬롯을 채울 수 없는 경우 백업 항목이 표시됩니다. 최상위 판매와 같은 인기 알고리즘의 경우 이러한 알고리즘 유형에는 &quot;키&quot;가 없으므로 CSV 파일의 각 환경에 대해 0개 또는 1개의 백업되지 않은 행만 있을 수 있습니다(예: &quot;고객이 보거나 구매할 수 있는 것에 관계없이 가장 인기 있는 제품을 고객에게 표시&quot;). 따라서 다른 키 기반 알고리즘(예: view-view)과 달리, 행의 첫 번째 값은 키가 아니라 권장 항목 목록의 첫 번째 항목입니다.
+별표(*)가 행의 첫 번째 값이면 [백업 항목](/help/main/c-recommendations/c-algorithms/backup-recs.md). 알고리즘의 권장 항목(기준)으로 디자인의 모든 슬롯을 채울 수 없는 경우 백업 항목이 표시됩니다.
 
 키 값을 기반으로 하는 기타 알고리즘 유형의 경우, 예: [!UICONTROL People Who Viewed This, Viewed That], 키 값(즉, &quot;This&quot; 항목)은 맨 왼쪽 열에 나열되고 권장 항목(즉, &quot;That&quot; 항목)은 Recommendation_X 열에 왼쪽에서 오른쪽으로 나열됩니다.
 

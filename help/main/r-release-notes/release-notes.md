@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f9bfe01924660e42b19f922e00ddc6393c5cfdba
+source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
 workflow-type: tm+mt
-source-wordcount: '570'
-ht-degree: 54%
+source-wordcount: '552'
+ht-degree: 55%
 
 ---
 
@@ -31,7 +31,6 @@ ht-degree: 54%
 
 * 고객 웹 사이트에서 작성을 수행할 때 iFrame 로드 메커니즘을 개선했습니다.
 * 에서 작성을 수행하는 동안 확장에서 쿠키를 복제하는 문제가 해결되었습니다. [!UICONTROL Visual Experience Composer] (VEC).
-* 를 사용하는 고객을 위해 at.js를 다운로드할 종속성을 제거했습니다. [Adobe Experience Platform 웹 SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}.
 
 ## [!DNL Target] Standard/Premium 24.3.1(2024년 3월 4~6일)
 
