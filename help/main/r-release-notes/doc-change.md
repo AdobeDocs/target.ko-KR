@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 324274a9e97fceaa3e559e63b3b0f2e74bbd886f
 workflow-type: tm+mt
-source-wordcount: '1518'
-ht-degree: 78%
+source-wordcount: '1573'
+ht-degree: 76%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 78%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 3월 22일 | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | 이 노드가 더 이상 존재하지 않으므로 에지 노드 31~38에 대한 참조를 제거했습니다. 허용 목록에 추가하다가 최신 상태인지 확인합니다. |
+|  | [타사 쿠키 사용이 Target에 미치는 영향(at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Google의 서드파티 쿠키 사용 중단 계획이 사용자에게 무엇을 의미하는지 설명하는 새로운 블로그 게시물 [!DNL Adobe Target] at.js 구현 을 참조하십시오. |
 | 3월 14일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 릴리스 정보가 추가되었습니다. [!DNL Adobe Experience Platform Visual Editing Helper] 대상 [!DNL Google Chrome]. |
 | 3월 13일 | [[!UICONTROL Time Frame]](/help/main/c-target/c-audiences/c-target-rules/time-frame.md) | 일광 절약 시간제(DST)를 고려하여 시간 기반 대상자를 다시 절약하기 위해 참고할 정보를 추가했습니다. |
 | 3월 6일 | [브라우저](/help/main/c-target/c-audiences/c-target-rules/browser.md) | 다음 섹션의 정보가 업데이트되었습니다. &quot;업데이트 [!DNL iPad] 및 [!DNL iPhone] 위치: [!UICONTROL Browser] audience attributes (2024년 4월 30일)&quot; |
