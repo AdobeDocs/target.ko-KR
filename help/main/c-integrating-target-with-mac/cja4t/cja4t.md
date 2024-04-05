@@ -7,7 +7,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
+source-git-commit: 07b7dd8e0e2dbf2b57d5b847f89886208eb66614
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -37,7 +37,7 @@ ht-degree: 64%
    * [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 계정이 있는 경우 *사용자*&#x200B;에서 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 참조하십시오.
    * [Target Premium](/help/main/c-intro/intro.md#premium) 계정이 있는 경우 *Enterprise 사용자 권한*&#x200B;에서 [역할 및 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)을 참조하십시오.
 
-* 보고 소스로서 [!DNL Customer Journey Analytics]를 사용하는 [!DNL Target] 활동을 설정하는 [!DNL Adobe Experience Platform] 역할의 일부여야 합니다. 자세한 내용은 [*데이터 설계자 및 엔지니어 튜토리얼의*&#x200B;권한 구성&#x200B;*에서  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions){target=_blank}의 역할 추가*&#x200B;를 참조하십시오.
+* 보고 소스로서 [!DNL Customer Journey Analytics]를 사용하는 [!DNL Target] 활동을 설정하는 [!DNL Adobe Experience Platform] 역할의 일부여야 합니다. 자세한 내용은 [*데이터 설계자 및 엔지니어 튜토리얼의*&#x200B;권한 구성&#x200B;*에서  [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}의 역할 추가*&#x200B;를 참조하십시오.
 * 설정에 따라 활동별로 또는 조직 수준에서 보고가 변경될 수 있습니다. *Target의 보고 구성*&#x200B;에서 [Cloud 솔루션 보고](/help/main/administrating-target/reporting.md#solution)를 참조하십시오.
 * 하나의 보고 소스 또는 다른 보고 소스를 사용하십시오. 여러 보고 소스에서 한 활동에 대한 데이터를 수집할 수 없습니다.
 * [!DNL Customer Journey Analytics]를 보고 소스로 설정하면 보고용 샌드박스를 지정하라는 메시지가 표시됩니다. 구성 중에는 액세스 권한이 있는 샌드박스만 표시됩니다.
