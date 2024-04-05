@@ -7,7 +7,7 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 1ae3f234ee475e56c6c072ccceb79c417b7ba245
+source-git-commit: f87f6f13ab02c77d298ea9dac0d307852d3e64af
 workflow-type: tm+mt
 source-wordcount: '977'
 ht-degree: 64%
@@ -22,7 +22,7 @@ ht-degree: 64%
 
 * 마케터가 언제든지 [!DNL Customer Journey Analytics] 성공 지표 또는 보고 세그먼트를 [!DNL Target] 활동 보고서에 동적으로 적용할 수 있습니다. 활동을 실행하기 전에 모든 항목을 지정할 필요는 없습니다.
 * 마케터는 를 활용할 수 있습니다. [!DNL Customer Journey Analytics] 다음과 같은 기능 [실험 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}을 추가하여 웹 사이트 개인화를 추가로 분석하십시오.
-*마케터는 다음에 대한 단일 보고 소스를 가질 수 있습니다. [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} 및 [!DNL Target]. 두 개인화 제품 모두 [!DNL Customer Journey Analytics]에 연결하여 웹 개인화를 보다 전체적으로 살펴볼 수 있습니다.
+* 마케터는에 대한 단일 보고 소스를 가질 수 있습니다. [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} 및 [!DNL Target]. 두 개인화 제품 모두 [!DNL Customer Journey Analytics]에 연결하여 웹 개인화를 보다 전체적으로 살펴볼 수 있습니다.
 
 ## 고려 사항
 
