@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 31ad1682fc85f65fb80e96d7303cce55e36a442f
+source-git-commit: 45576f31f055a83bcdc106771fb0fa25357d226a
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 76%
+source-wordcount: '1613'
+ht-degree: 75%
 
 ---
 
@@ -19,6 +19,8 @@ ht-degree: 76%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 4월 9일 | [와 관련된 문제 해결 [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>VEC(VEC 전용)에 내 페이지가 표시되지 않습니다.</li></ul>다음 새 섹션이 추가되었습니다.<ul><li>의 CSS 충돌로 인해 발생하는 문제 [!UICONTROL Visual Experience Composer]</li></ul> |
+|  | [개인화 통찰력 보고서](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | 고려 사항 섹션을 업데이트했습니다. |
 | 3월 22일 | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank} | 이 노드가 더 이상 존재하지 않으므로 에지 노드 31~38에 대한 참조를 제거했습니다. 허용 목록에 추가하다가 최신 상태인지 확인합니다. |
 |  | [타사 쿠키 사용이 Target에 미치는 영향(at.js)](https://experienceleague.adobe.com/docs/target-dev/assets/third_party_cookie_deprecation){target=_blank} | Google의 서드파티 쿠키 사용 중단 계획이 사용자에게 무엇을 의미하는지 설명하는 새로운 블로그 게시물 [!DNL Adobe Target] at.js 구현 을 참조하십시오. |
 | 3월 14일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 에 대한 릴리스 정보가 추가되었습니다. [!DNL Adobe Experience Platform Visual Editing Helper] 대상 [!DNL Google Chrome]. |
