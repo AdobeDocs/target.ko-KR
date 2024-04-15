@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 1faedc44c4f8f95000b666af8eecaf1eca5bf48d
+source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
 workflow-type: tm+mt
-source-wordcount: '1225'
+source-wordcount: '1228'
 ht-degree: 92%
 
 ---
@@ -247,6 +247,7 @@ ht-degree: 92%
    + [SPA(단일 페이지 앱) 시각적 경험 작성기](c-experiences/spa-visual-experience-composer.md)
    + 오퍼 {#offers}
       + [오퍼 개요](c-experiences/c-manage-content/manage-content.md)
+      + [오퍼 개요 베타](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#offers} {#hidden}
       + [오퍼 폴더 만들기](c-experiences/c-manage-content/create-content-folder.md)
       + [콘텐츠 업로드](c-experiences/c-manage-content/assets-upload.md)
       + [리디렉션 오퍼 만들기](c-experiences/c-manage-content/offer-redirect.md)
