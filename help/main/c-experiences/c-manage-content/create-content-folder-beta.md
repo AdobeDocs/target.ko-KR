@@ -6,16 +6,20 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
-source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
+source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 8%
+source-wordcount: '334'
+ht-degree: 7%
 
 ---
 
 # 오퍼 폴더 만들기
 
 에서 폴더 만들기 [!DNL Adobe Target] [!UICONTROL Offer] 코드 오퍼, 이미지 오퍼와 다른 폴더를 포함하는 라이브러리를 사용하여 하위 폴더 구조를 만들 수 있습니다.
+
+>[!NOTE]
+>
+>이 문서에는 다음 업데이트 정보가 포함되어 있습니다. [!DNL Target] 현재 베타 프로그램의 일부인 사용자 인터페이스입니다. 다음 [!DNL Adobe Target] 팀은 종종 테스트 및 피드백 목적으로 일부 고객을 위해 새로운 기능을 활성화합니다. 테스트 기간이 완료되면 향후 모든 고객에 대해 이러한 기능이 활성화됩니다 [!DNL Target Standard/Premium] 릴리스 및 릴리스 정보에 발표됨.
 
 코드 오퍼 및 이미지 오퍼에 대한 폴더를 만드는 프로세스는 약간 다릅니다. 다음 섹션에는 자세한 정보가 포함되어 있습니다.
 
