@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: ebce41ea70be81ea0d27abee4b760117cc6ee10c
+source-git-commit: 14e800deda4a26c02555c4a653993737f062f686
 workflow-type: tm+mt
-source-wordcount: '958'
-ht-degree: 17%
+source-wordcount: '758'
+ht-degree: 6%
 
 ---
 
@@ -62,7 +62,7 @@ ht-degree: 17%
 
 ### 빠른 정보
 
-다음을 클릭합니다. **[!UICONTROL Quick Info]** 아이콘 각 오퍼 이름 옆에 있는 아이콘을 클릭하여 오퍼 ID, 유형, 오퍼가 마지막으로 수정된 날짜 및 사용자 등을 포함하여 팝업 카드에서 해당 오퍼에 대한 자세한 정보를 확인합니다.
+다음을 클릭합니다. **[!UICONTROL Quick Info]** 아이콘 각 오퍼 이름 옆에 있는 아이콘을 클릭하여 오퍼 ID, 유형, 오퍼가 마지막으로 수정된 날짜 및 사용자 등을 포함하여 팝업 카드에서 해당 오퍼에 대한 자세한 정보를 확인합니다. 사용 가능한 옵션은 오퍼 유형에 따라 다릅니다. HTML 오퍼, [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md), [리디렉션 오퍼](/help/main/c-experiences/c-manage-content/offer-redirect.md), [원격 오퍼](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
 
 ![](/help/main/c-experiences/c-manage-content/assets/quick-actions.png)
 
@@ -100,64 +100,68 @@ ht-degree: 17%
 >
 >이미지 오퍼는 [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 모델.
 
-## 오퍼 정의 보기 {#section_6B059DD121434E6292CAB393507D010E}
+<!--
 
-의 팝업 카드에서 오퍼 정의 세부 사항을 볼 수 있습니다. [!UICONTROL Offers] 오퍼를 열지 않은 라이브러리입니다.
+## Viewing offer definitions {#section_6B059DD121434E6292CAB393507D010E}
 
-예를 들어 HTML 오퍼에 대한 다음 오퍼 정의 카드는 의 오퍼 위로 마우스를 가져간 후 액세스합니다 [!UICONTROL Content] 을 나열한 다음 정보 아이콘을 클릭합니다.
+You can view offer definition details on a pop-up card in the [!UICONTROL Offers] library without opening the offer.
 
-![offer-card-html 이미지](assets/offer-card-html.png)
+For example, the following offer definition card for an HTML offer is accessed by hovering over an offer on the [!UICONTROL Content] list, then clicking the information icon:
 
-다음 정보를 사용할 수 있습니다.
+![offer-card-html image](assets/offer-card-html.png)
 
-* 이름
-* 소스
-* 유형
-* 오퍼 ID
-* 오퍼 경로
-* 마지막 수정 날짜
+The following information is available:
 
-다음을 클릭합니다. [!UICONTROL Offer Usage] 탭으로 이동하여 각 오퍼의 정의 팝업 카드에서 코드 오퍼를 참조하는 활동을 볼 수 있습니다. 이 기능은 이미지 오퍼에는 적용되지 않습니다. 오퍼를 편집할 때 이 방법으로 다른 활동에 영향을 주는 일을 피할 수 있습니다. 정보는 다음과 같습니다. [!UICONTROL Live Activities] 및 [!UICONTROL Inactive Activities].
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer path 
+* Last Modified
 
-![offer-card-use 이미지](assets/offer-card-usage.png)
+Click the [!UICONTROL Offer Usage] tab to view the activities that reference a code offer in each offer's definition pop-up card. This functionality does not apply to image offers. This way you can avoid impact to other activities while editing offers. Information includes [!UICONTROL Live Activities] and [!UICONTROL Inactive Activities].
 
-다음 오퍼 정의 카드는 리디렉션 오퍼용입니다.
+![offer-card-usage image](assets/offer-card-usage.png)
 
-![offer-card-redirect 이미지](assets/offer-card-redirect.png)
+The following offer definition card for a Redirect offer:
 
-다음 정보를 사용할 수 있습니다.
+![offer-card-redirect image](assets/offer-card-redirect.png)
 
-* 이름
-* 소스
-* 유형
-* 오퍼 ID
-* 오퍼 경로
-* 마지막 수정 날짜
-* 리디렉션 URL
-* 모든 URL 매개 변수 포함(켜기 또는 끄기)
-* mbox 세션 ID 전달(켜기 또는 끄기)
+The following information is available:
 
-다음 오퍼 정의 카드는 원격 오퍼용입니다.
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL 
+* Include all URL parameters (On or Off) 
+* Pass mbox session ID (On or Off)
 
-![offer-card-remote 이미지](assets/offer-card-remote.png)
+The following offer definition card for a Remote offer:
 
-다음 정보를 사용할 수 있습니다.
+![offer-card-remote image](assets/offer-card-remote.png)
 
-* 이름
-* 소스
-* 유형
-* 오퍼 ID
-* 오퍼 경로
-* 마지막 수정 날짜
-* 리디렉션 URL 유형
-* 절대 또는 상대 URL
+The following information is available:
 
-## 교육 비디오: 콘텐츠 저장소 ![개요 배지](/help/main/assets/overview.png)
+* Name 
+* Source 
+* Type 
+* Offer ID 
+* Offer Path 
+* Last Modified 
+* Redirect URL Type 
+* Absolute or Relative URL
 
-다음 비디오에는 오퍼 관리에 대한 정보가 포함되어 있습니다.
+## Training video: The Content Repository ![Overview badge](/help/main/assets/overview.png)
 
-* [Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)와 Target 컨텐츠 라이브러리 간 연결
-* 사용자 지정 HTML 오퍼
-* 시각적 경험 작성기의 사용자 지정 HTML 오퍼
+This video includes information about managing offers.
+
+* Connection between the [Experience Cloud Asset Library](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) and the Target Content Library 
+* Custom HTML Offers 
+* Custom HTML Offer in the Visual Experience Composer
 
 >[!VIDEO](https://video.tv.adobe.com/v/17387)
+
+-->
