@@ -3,10 +3,13 @@ keywords: 컨텐츠;폴더 만들기;자산;폴더 이동;폴더 복사;폴더 �
 description: 에서 폴더를 만드는 방법 [!UICONTROL Offers] 도서관?
 title: 에서 폴더를 만드는 방법을 알아봅니다. [!UICONTROL Offers] 라이브러리로 코드 및 이미지 오퍼와 기타 폴더를 보관할 수 있습니다.
 feature: Experiences and Offers
-source-git-commit: cd8035d9e2a369b9503763474ce09c4fe2434ae9
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+hide: true
+hidefromtoc: true
+source-git-commit: d3379243f8c64a1a0b56268dd60447375020e11b
 workflow-type: tm+mt
-source-wordcount: '277'
-ht-degree: 5%
+source-wordcount: '282'
+ht-degree: 8%
 
 ---
 
@@ -16,7 +19,7 @@ ht-degree: 5%
 
 코드 오퍼 및 이미지 오퍼에 대한 폴더를 만드는 프로세스는 약간 다릅니다. 다음 섹션에는 자세한 정보가 포함되어 있습니다.
 
-## 코드 오퍼 폴더
+## [!UICONTROL Code Offer] 폴더
 
 1. 클릭 **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
@@ -32,7 +35,7 @@ ht-degree: 5%
 
 오퍼 및 폴더에서 수행할 수 있는 작업에 대한 자세한 내용은 [자산 라이브러리에서 컨텐츠 작업](/help/main/c-experiences/c-manage-content/assets-working.md).
 
-## 이미지 오퍼 폴더
+## [!UICONTROL Image Offer] 폴더
 
 1. 클릭 **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
