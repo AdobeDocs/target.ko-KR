@@ -1,14 +1,14 @@
 ---
 keywords: 컨텐츠;컨텐츠 업데이트;자산;컨텐츠 업로드;자산 업로드;컨텐츠 삭제
 description: 이미지 오퍼로 사용되는 이미지를 업로드하거나 삭제하는 방법을 알아봅니다.
-title: 오퍼 라이브러리에 콘텐츠를 업로드하거나 삭제하려면 어떻게 해야 합니까?
+title: 에 콘텐츠를 업로드하거나 삭제하는 방법 [!UICONTROL Offers] 도서관?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
-source-git-commit: 13903e03178a12fe811b540cb7c00d04e4263aed
+source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '279'
 ht-degree: 13%
 
 ---
