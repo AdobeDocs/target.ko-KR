@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 3ddd97008dc40634de876851c2d798eb57a6a3ee
+source-git-commit: bd7e6cc206f0d38ee6672c37d836e40b8831da1c
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 91%
+source-wordcount: '1244'
+ht-degree: 90%
 
 ---
 
@@ -255,6 +255,7 @@ ht-degree: 91%
       + [리디렉션 오퍼 만들기](c-experiences/c-manage-content/offer-redirect.md)
       + [리디렉션 오퍼 만들기](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
       + [원격 오퍼 만들기](c-experiences/c-manage-content/about-remote-offers.md)
+      + [원격 오퍼 Beta 만들기](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
       + [JSON 오퍼 만들기](c-experiences/c-manage-content/create-json-offer.md)
       + [라이브러리에서 콘텐츠 작업](c-experiences/c-manage-content/assets-working.md)
       + [콘텐츠 검색](c-experiences/c-manage-content/filter-and-search-content.md)
