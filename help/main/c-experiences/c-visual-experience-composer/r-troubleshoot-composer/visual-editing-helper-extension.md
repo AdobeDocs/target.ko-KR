@@ -4,10 +4,10 @@ description: 에서 일부 웹 사이트가 안정적으로 열리지 않는 이
 title: 사용 방법 [!UICONTROL Visual Editing Helper] 확장?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 5df9ba6eb249dfc690279177ecb5936aaefa7bdd
+source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 67%
+source-wordcount: '672'
+ht-degree: 64%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 67%
 
 >[!IMPORTANT]
 >
->이 새 확장 기능은 이전의 [Target VEC Helper 브라우저 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 대체합니다. 해당 문서 상단의 중요 참고 사항을 참조하십시오.
+>이 새 확장 기능은 이전의 [Target VEC Helper 브라우저 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 대체합니다. 이 문서의 맨 위에 있는 중요 참고 사항을 참조하십시오. Manifest v3의 보안 향상으로 인해 [!DNL Adobe] 에서 웹 사이트를 계속 시각화하려면 이 새 확장 프로그램을 다운로드해야 합니다. [!DNL Target].
 
 ## 일부 웹 사이트가 VEC에서 안정적으로 열리지 않을 수 있는 이유
 
