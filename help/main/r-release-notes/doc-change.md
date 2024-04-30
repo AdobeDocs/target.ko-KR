@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 97b1d78de2d6ba33c1dd72494edcfc97fc3ba7e6
+source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
 workflow-type: tm+mt
-source-wordcount: '1688'
-ht-degree: 72%
+source-wordcount: '1711'
+ht-degree: 71%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 72%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 4월 30일 | [와 관련된 문제 해결 [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | EEC 프록시에 사용되는 Adobe 허용 목록에 추가하다 서버의 IP 주소 목록을 EEC에 업데이트했습니다. |
 | 4월 23일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | Manifest V2를 사용하여 만든 확장을 비활성화하는 Google의 계획에 대해 설명하는 정보가 추가되었습니다. [!DNL Adobe] 는 고객이 새 로 이동하도록 권장합니다. [!UICONTROL Visual Editing Helper] 가능한 한 빨리 확장. |
 | 4월 23일 | [[!UICONTROL Visual Experience Composer] 도우미 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 이 문서에 설명된 확장 기능을 포함하여 Manifest V2를 사용하여 만든 확장 기능을 비활성화하기 시작하는 Google의 계획에 대해 설명하는 페이지 맨 위의 중요 참고 사항이 업데이트되었습니다. [!DNL Adobe] 는 고객이 새 로 이동하도록 권장합니다. [!UICONTROL Visual Editing Helper] 가능한 한 빨리 확장. |
 | 4월 9일 | [와 관련된 문제 해결 [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | 다음 섹션이 업데이트되었습니다.<ul><li>VEC(VEC 전용)에 내 페이지가 표시되지 않습니다.</li></ul>다음 새 섹션이 추가되었습니다.<ul><li>의 CSS 충돌로 인해 발생하는 문제 [!UICONTROL Visual Experience Composer]</li></ul> |
