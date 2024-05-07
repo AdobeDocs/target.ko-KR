@@ -4,16 +4,16 @@ description: Adobe에서 JSON 오퍼를 만드는 방법을 알아봅니다 [!DN
 title: JSON 오퍼를 작성하는 방법
 feature: Experiences and Offers
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-source-git-commit: 7449e00c331fd131b527fe136ffeeeccc6625e47
+source-git-commit: 45b81a2a77410947ce828cbea69e4dad7fc1cb03
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 33%
+source-wordcount: '416'
+ht-degree: 30%
 
 ---
 
 # JSON 오퍼 만들기
 
-에서 JSON 오퍼 만들기 [!UICONTROL 오퍼 라이브러리] 위치: [!DNL Adobe Target] 에서 사용 [!UICONTROL 양식 기반 경험 작성기].
+에서 JSON 오퍼 만들기 [!UICONTROL Offer Library] 위치: [!DNL Adobe Target] 에서 사용 [!UICONTROL Form-Based Experience Composer].
 
 JSON 오퍼는 다음과 같은 사용 사례를 가능하게 하는 양식 기반 활동에서 사용할 수 있습니다. [!DNL Target] SPA 프레임워크 또는 서버측 통합에서 사용할 오퍼를 JSON 형식으로 전송하는 데 의사 결정이 필요합니다.
 
@@ -21,26 +21,26 @@ JSON 오퍼는 다음과 같은 사용 사례를 가능하게 하는 양식 기�
 
 JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시오.
 
-* JSON 오퍼는 현재 에만 사용할 수 있습니다. [!UICONTROL A/B 테스트], Automated Personalization (AP) 및 [!UICONTROL 경험 타기팅] (XT) 활동.
+* JSON 오퍼는 현재 에만 사용할 수 있습니다. [!UICONTROL A/B Test], Automated Personalization (AP) 및 [!UICONTROL Experience Targeting] (XT) 활동.
 * JSON 오퍼는에서 사용할 수 있습니다. [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md) 만 해당.
 * JSON 오퍼는 를 사용할 때 직접 검색할 수 있습니다. [서버 측 API 및 Mobile Node.js, Java, .NET 및 Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
 * 브라우저에서 JSON 오퍼는 at.js 1.2.3 이상 버전을 통해서만 검색할 수 있고 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank} 를 사용하여 작업을 필터링함으로써 `setJson` 작업.
 * JSON 오퍼는 문자열이 아닌 기본 JSON 개체로 제공됩니다. 이러한 개체의 소비자는 개체를 문자열로 처리하고 JSON 개체로 변환하도록 더 이상 요구받지 않습니다.
-* JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 코드를 작성해야 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
+* JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 를 사용하여 오퍼를 명시적으로 가져오기 위한 코드를 작성해야 합니다. [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}.
 
 ## JSON 오퍼 만들기 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
-1. 클릭 **[!UICONTROL 오퍼]** > **[!UICONTROL 코드 오퍼]**.
+1. 클릭 **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
    ![오퍼 > 코드 오퍼 탭](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
-1. **[!UICONTROL 만들기]** > **[!UICONTROL JSON 오퍼]**&#x200B;를 클릭합니다.
+1. 클릭 **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
 
    ![offer-json 이미지](assets/offer-json.png)
 
 1. 오퍼 이름을 입력합니다.
-1. **[!UICONTROL 코드]** 상자에 JSON 코드를 입력하거나 붙여 넣습니다.
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. 에 JSON 코드를 입력하거나 붙여 넣습니다. **[!UICONTROL Code]** 상자.
+1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
 ## JSON 예 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -98,7 +98,7 @@ JSON 오퍼를 추출하려면 작업을 반복하고 를 사용하여 작업을
     "tags": [ 
       "esse", 
       "commodo", 
-      "excepteur", 
+      "excepteur"
     ], 
     "friends": [ 
       { 
@@ -108,7 +108,7 @@ JSON 오퍼를 추출하려면 작업을 반복하고 를 사용하여 작업을
       { 
         "id": 1, 
         "name": "Ollie Mooney" 
-      }, 
+      } 
     ], 
     "greeting": "Hello, Stephenson Fernandez! You have 4 unread messages.", 
     "favoriteFruit": "strawberry" 
@@ -139,6 +139,6 @@ Real-Time CDP 프로필 속성을 [!DNL Target] HTML 및 JSON 오퍼에 사용�
 
 ## JSON 오퍼 유형별 오퍼 필터링 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-다음을 필터링할 수 있습니다. [!UICONTROL 오퍼] 다음을 클릭하여 JSON 오퍼 유형별 라이브러리 **[!UICONTROL 유형]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL JSON]** 확인란.
+다음을 필터링할 수 있습니다. [!UICONTROL Offers] 다음을 클릭하여 JSON 오퍼 유형별 라이브러리 **[!UICONTROL Type]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL JSON]** 확인란.
 
 ![offer-json-filter 이미지](assets/offer-json-filter.png)
