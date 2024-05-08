@@ -3,11 +3,12 @@ keywords: json 오퍼;json 오퍼 만들기
 description: 에서 사용할 JSON 오퍼를 만드는 방법을 알아봅니다. [!UICONTROL Form-Based Experience Composer].
 title: JSON 오퍼를 작성하는 방법
 feature: Experiences and Offers
-exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
+hide: true
+hidefromtoc: true
 source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 29%
+source-wordcount: '426'
+ht-degree: 25%
 
 ---
 
@@ -32,15 +33,17 @@ JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시
 
 1. 클릭 **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**.
 
-   ![오퍼 > 코드 오퍼 탭](/help/main/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![오퍼 > 코드 오퍼 탭](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. 클릭 **[!UICONTROL Create]** > **[!UICONTROL JSON Offer]**.
+1. 클릭 **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**.
 
-   ![offer-json 이미지](assets/offer-json.png)
+   ![offer-json 이미지](assets/offer-json-new.png)
 
 1. 오퍼 이름을 입력합니다.
+1. (조건부) [[!DNL Target] Premium 계정](/help/main/c-intro/intro.md#premium)을 클릭하고 원하는 을 선택합니다 [작업 영역](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace).
+1. (조건부) 원하는 프로필 속성을 선택합니다.
 1. 에 JSON 코드를 입력하거나 붙여 넣습니다. **[!UICONTROL Code]** 상자.
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
 
 ## JSON 예 {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
 
@@ -60,7 +63,7 @@ adobe.target.getOffer({
 });
 ```
 
-성공 콜백에 전달된 작업은 개체의 배열입니다. 다음 컨텐츠가 있는 단일 JSON 오퍼가 있다고 가정하면,
+성공 콜백에 전달된 작업은 개체의 배열입니다. 단일 JSON 오퍼가 있다고 가정할 때 해당 오퍼에는 다음 내용이 포함됩니다.
 
 ```json
 { 
@@ -139,6 +142,6 @@ Real-Time CDP 프로필 속성을 [!DNL Target] HTML 및 JSON 오퍼에 사용�
 
 ## JSON 오퍼 유형별 오퍼 필터링 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-다음을 필터링할 수 있습니다. [!UICONTROL Offers] 다음을 클릭하여 JSON 오퍼 유형별 라이브러리 **[!UICONTROL Type]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL JSON]** 확인란.
+다음을 필터링할 수 있습니다. [!UICONTROL Offers] 다음을 클릭하여 JSON 오퍼 유형별 라이브러리 **[!UICONTROL Show filters]** 아이콘을 클릭한 다음 **[!UICONTROL JSON]** 확인란.
 
-![offer-json-filter 이미지](assets/offer-json-filter.png)
+![offer-json-filter 이미지](assets/offer-json-filter-new.png)

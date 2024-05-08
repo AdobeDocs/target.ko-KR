@@ -6,30 +6,30 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
+source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
 workflow-type: tm+mt
-source-wordcount: '3235'
-ht-degree: 54%
+source-wordcount: '3172'
+ht-degree: 48%
 
 ---
 
 # Enterprise 사용자 권한
 
-Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자 액세스를 공식적으로 관리하는 수단입니다. [!DNL Adobe Target]. 에 사용자 추가 [!DNL Target], 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 공간을 만듭니다. 사용자에게 다음의 역할을 할당할 수 있습니다. [!UICONTROL 관찰자], [!UICONTROL 편집자], [!UICONTROL 승인자], 또는 [!UICONTROL 게시자].
+엔터프라이즈 사용자 권한은 다음에 대한 엔터프라이즈 수준의 사용자 액세스를 공식적으로 관리하는 수단입니다. [!DNL Adobe Target]. 에 사용자 추가 [!DNL Target], 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 공간을 만듭니다. 사용자에게 다음의 역할을 할당할 수 있습니다. [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver], 또는 [!UICONTROL Publisher].
 
 ## 엔터프라이즈 사용자 권한에 대한 액세스 권한 보유 여부 확인
 
 >[!NOTE]
 >
->[!UICONTROL 속성 및 권한] 기능은 [!DNL Target] Premium 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target] Premium 라이선스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
+>[!UICONTROL Properties and Permissions] 기능은 의 일부로 사용할 수 있습니다 [!DNL Target] 프리미엄 솔루션. 이 기능은 [!DNL Target] Premium 라이선스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
 >
 >사용자 [!DNL Target] 구현은 모든 버전의 at.js를 사용하거나 [!DNL Adobe Experience Platform Web SDK].
 
-[!DNL Target] UI 상단의 [!UICONTROL 관리] 링크를 클릭하여 귀사에서 Standard 라이선스를 보유하고 있는지 또는 Premium 라이선스를 보유하고 있는지 여부를 파악할 수 있습니다.
+다음을 클릭하여 조직에 Standard 라이센스나 Premium 라이센스가 있는지 여부를 알 수 있습니다. [!UICONTROL Administration] 링크(맨 위) [!DNL Target] UI.
 
-* **[!DNL Target Standard]고객**: [!UICONTROL 속성] 탭이 아닌 [!UICONTROL 사용자] 탭([!UICONTROL 관리 > 사용자])이 표시된다면 귀사는 [!DNL Target Standard] 라이선스를 보유하고 있습니다. [!DNL Target Standard] 고객은 의 지침을 따라야 합니다. [사용자](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 에서 사용자를 추가하고 권한을 할당하려면 [!DNL Adobe Admin Console].
+* **[!DNL Target Standard]고객**: 다음 항목이 표시되면 [!UICONTROL Users] 탭([!UICONTROL Administration > Users])(및 [!UICONTROL Properties] tab), 조직에 [!DNL Target Standard] 라이센스. [!DNL Target Standard] 고객은 의 지침을 따라야 합니다. [사용자](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) 에서 사용자를 추가하고 권한을 할당하려면 [!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]고객**: 다음 항목이 표시되면 [!UICONTROL 속성] 탭([!UICONTROL 관리 > 속성]) 및 [!UICONTROL 사용자] 탭에서는 조직에 [!DNL Target Premium] 라이센스. [!DNL Target Premium] 고객은 이 문서와 [엔터프라이즈 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
+* **[!DNL Target Premium]고객**: 다음 항목이 표시되면 [!UICONTROL Properties] 탭([!UICONTROL Administration > Properties]) 및 [!UICONTROL Users] 탭에서는 조직에 [!DNL Target Premium] 라이센스. [!DNL Target Premium] 고객은 이 문서와 [엔터프라이즈 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침을 따라야 합니다.
 
 ## 엔터프라이즈 권한을 시작하기 전에
 
@@ -51,11 +51,11 @@ Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자
 
 속성은 특정 채널(웹, 모바일, 이메일 또는 API/기타)에 속합니다.
 
-### 작업 공간(제품 프로필)
+### 작업 공간(제품 프로필) {#workspace}
 
 작업 공간을 사용하면 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 [!DNL Adobe Analytics]의 보고서 세트와 비슷합니다.
 
-참고: 작업 공간은 다음과 같습니다. [!UICONTROL 제품 프로필] 다음에서 [!DNL Adobe Admin Console for Enterprise].
+참고: 작업 공간은 다음과 같습니다. [!UICONTROL Product Profiles] 다음에서 [!DNL Adobe Admin Console for Enterprise].
 
 다국적 조직에 속하는 경우 유럽 웹 페이지, 속성 또는 사이트를 위한 작업 공간과 미국 웹 페이지, 속성 또는 사이트를 위한 또 다른 작업 공간이 있을 수 있습니다. 복수 브랜드 조직에 속하는 경우에는 각 브랜드를 위한 독립된 작업 공간이 있을 수 있습니다.
 
@@ -85,32 +85,32 @@ Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자
 
 ### 역할 및 권한 {#roles-permissions}
 
-역할 및 권한은 사용자가 [!DNL Target] 구현에서 활동을 만들고 관리하기 위해 보유해야 하는 액세스 권한 수준을 결정합니다. [!DNL Target]에서 역할에는 다음이 포함됩니다.
+역할 및 권한은 사용자가에서 활동을 만들고 관리해야 하는 액세스 수준을 결정합니다. [!DNL Target] 구현. 위치 [!DNL Target], 역할에는 다음이 포함됩니다.
 
 | 역할 | 설명 |
 |--- |--- |
-| [!UICONTROL 승인자] | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
-| [!UICONTROL 편집자] | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
-| [!UICONTROL 관찰자] | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
-| [!UICONTROL 게시자] | 와 유사 [!UICONTROL 관찰자] 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음) 그러나 [!UICONTROL 게시자] 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
+| [!UICONTROL Approver] | 활동을 만들고, 편집하고 활성화하거나 중지할 수 있습니다. |
+| [!UICONTROL Editor] | 활동이 라이브 상태가 되기 전에 활동을 만들고 편집할 수 있지만 활동 시작을 승인할 수는 없습니다. |
+| [!UICONTROL Observer] | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
+| [!UICONTROL Publisher] | 와 유사 [!UICONTROL Observer] 역할(활동을 볼 수 있지만 만들거나 편집할 수는 없음) 그러나 [!UICONTROL Publisher] 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
 ### 채널
 
-채널은 [!DNL Target] 활동이 전달되는 컨텐츠 유형, 즉 웹 페이지, 모바일 앱, 이메일 메시지 등을 나타냅니다.
+채널은 [!DNL Target] 활동은 웹 페이지, 모바일 앱, 이메일 메시지 등과 같이 전달됩니다.
 
 활동을 만들면 현재 선택한 작업 영역에서 생성됩니다. 활동에 대해 원하는 채널(웹, 모바일 앱, 이메일 또는 기타/API)을 선택할 수 있는 첫 번째 대화 상자에 채널 선택 옵션이 표시됩니다.
 
 ## 권한 개요 {#section_DC2172520DA84605B218A5E9FB6D187A}
 
-다음에서는 [!DNL Target]에서 이전에 권한이 적용되던 방식과 [!UICONTROL 속성] 및 [!UICONTROL 권한] 기능을 사용하여 적용되는 방식을 설명합니다.
+다음은에서 이전에 권한이 적용되던 방식을 설명합니다 [!DNL Target] 및 을 사용하여 강제 적용되는 방법 [!UICONTROL Properties] 및 [!UICONTROL Permissions] 기능.
 
-새로운 [!UICONTROL 권한] 기능을 사용하면 의 &quot;제품 프로필&quot;이라는 다른 프로젝트를 만들 수 있습니다. [!DNL Adobe Admin Console for Enterprise]). 프로젝트를 사용하면 각 프로젝트에 대해 해당 사용자의 액세스 권한을 지정하는 단일 사용자에 대해 서로 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과 고객은 아래와 같이 지역, 환경(개발/스테이지/프로덕션), 채널 또는 기타 사용자 지정 기준에 따라 사용자에 대한 보기, 편집 및 승인 액세스를 제한할 수 있습니다.
+새로운 [!UICONTROL Permissions] 기능을 사용하면 의 &quot;제품 프로필&quot;이라는 다른 프로젝트를 만들 수 있습니다. [!DNL Adobe Admin Console for Enterprise]). 프로젝트를 사용하면 각 프로젝트에 대해 해당 사용자의 액세스 권한을 지정하는 단일 사용자에 대해 서로 다른 권한을 할당할 수 있습니다. 이렇게 서로 구별되는 프로젝트들은 [!DNL Adobe Analytics]에서 보고서 세트가 작동하는 방식에 비유할 수 있습니다. 각 프로젝트는 속성 세트에 적용되는 특정 역할이 있는 특정 사용자를 가질 수 있습니다. 그 결과 고객은 아래와 같이 지역, 환경(개발/스테이지/프로덕션), 채널 또는 기타 사용자 지정 기준에 따라 사용자에 대한 보기, 편집 및 승인 액세스를 제한할 수 있습니다.
 
 ![권한 이미지](assets/permissions.png)
 
 예를 들어, 특정 사용자에게 미국 웹 사이트에 대해서는 &quot;승인&quot; 액세스 권한이 있지만 유럽 모바일 앱에 대해서는 &quot;보기&quot; 액세스 권한만 있을 수 있습니다. 같은 사용자가 APAC 지역의 웹 및 모바일 속성에 제공되는 활동에 대해서는 보기 액세스 권한조차 없을 수 있습니다.
 
-다음 [!DNL Target] [!UICONTROL 권한] 모델에는 다음과 같은 권한 역할(관찰자, 편집자, 승인자 및 관찰자)이 있습니다. 관찰자 역할은 이 문서의 일러스트레이션에서 보이지 않습니다.
+다음 [!DNL Target] [!UICONTROL Permissions] 모델에는 다음과 같은 권한 역할(관찰자, 편집자, 승인자 및 관찰자)이 있습니다. 관찰자 역할은 이 문서의 일러스트레이션에서 보이지 않습니다.
 
 ![permissions_1 이미지](assets/permissions_1.png)
 
@@ -127,7 +127,7 @@ Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자
 
 ![permissions_2 이미지](assets/permissions_2.png)
 
-새 [!DNL Target][!UICONTROL  권한] 모델에도 동일한 3가지 권한 역할(관찰자, 편집자 및 승인자)이 있지만 아래에 표시된 것처럼 개별 페이지, 속성 또는 사이트에 대해 별도로 사용자의 권한 역할을 지정할 수 있습니다.
+새로운 [!DNL Target] [!UICONTROL Permissions] 모델에도 동일한 3가지 권한 역할(관찰자, 편집자 및 승인자)이 있지만 아래에 표시된 것처럼 개별 페이지, 속성 또는 사이트에 대해 별도로 사용자의 권한 역할을 지정할 수 있습니다.
 
 ![permissions_3 이미지](assets/permissions_3.png)
 
@@ -190,7 +190,7 @@ Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자
 
 새 권한 기능은 [!DNL Target] UI의 다양한 위치에서 볼 수 있습니다.
 
-* **작업 공간(제품 프로필) 드롭다운 목록:**&#x200B;작업 공간 드롭다운 목록은 [!UICONTROL 활동], [!UICONTROL 대상] 및 [!UICONTROL 오퍼] 페이지 맨 위에 표시됩니다. 원하는 작업 공간을 선택하여 선택한 작업 공간의 항목만 표시하도록 목록을 필터링합니다.
+* **작업 공간(제품 프로필) 드롭다운 목록:** 작업 공간 드롭다운 목록이 작업 공간 의 맨 위에 표시됩니다 [!UICONTROL Activities], [!UICONTROL Audiences], 및 [!UICONTROL Offers] 페이지. 원하는 작업 공간을 선택하여 선택한 작업 공간의 항목만 표시하도록 목록을 필터링합니다.
 
   ![workspace_drop-down 이미지](assets/workspace_drop-down.png)
 
@@ -199,9 +199,9 @@ Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자
   ![channel_options 이미지](assets/channel_options.png)
 
 * **대상자 만들기:** 대상자를 만들면 현재 선택한 작업 영역에서 생성됩니다.
-* **대상 목록:** 다음을 사용하여 작업 영역 간에 대상자를 이동할 수 있습니다. [!UICONTROL 추가 작업] > [!DNL Move] 옵션 [!UICONTROL 대상] 페이지를 가리키도록 업데이트하는 중입니다.
+* **대상 목록:** 다음을 사용하여 작업 영역 간에 대상자를 이동할 수 있습니다. [!UICONTROL More Actions] > [!DNL Move] 옵션 [!UICONTROL Audiences] 페이지를 가리키도록 업데이트하는 중입니다.
 * **오퍼 만들기:** 오퍼를 만들면 현재 선택한 작업 영역에서 생성됩니다.
-* **속성 페이지(관리 > 속성):** 다음을 사용할 수 있습니다. [!UICONTROL 검색] 검색할 상자 [!UICONTROL 속성] 목록을 표시합니다.
+* **속성 페이지(관리 > 속성):** 다음을 사용할 수 있습니다. [!UICONTROL Search] 검색할 상자 [!UICONTROL Property] 목록을 표시합니다.
 
   ![properties_list 이미지](assets/properties_list.png)
 
@@ -213,11 +213,11 @@ Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자
 * 모든 내 작업 공간 보기를 사용하는 경우:
 
    * 액세스할 적절한 역할 및 권한이 있는 모든 작업 공간에 대한 활동, 대상 및 오퍼를 볼 수 있습니다.
-   * 다음을 선택하면 [!UICONTROL 모든 내 작업 영역] 활동, 대상 및 오퍼 페이지에 새 열이 추가됩니다. 이 열에는 항목의 작업 공간 및 해당 항목과 연결된 사용자 권한(관찰자, 편집자 또는 승인자)이 나열됩니다.
+   * 다음을 선택하면 [!UICONTROL All My Workspaces] 활동, 대상 및 오퍼 페이지에 새 열이 추가됩니다. 이 열에는 항목의 작업 공간 및 해당 항목과 연결된 사용자 권한(관찰자, 편집자 또는 승인자)이 나열됩니다.
    * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 작성할 때 항목을 작성할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
    * 모든 내 작업 공간 보기에서 활동, 대상 또는 오퍼를 복사할 때 항목을 복사할 작업 공간을 선택해야 합니다. 편집자 또는 승인자 권한이 있는 작업 공간만 선택할 수 있습니다.
 
-* 다음 항목에 대한 모든 설정 [!UICONTROL 관리] 페이지는 다음 방법으로 제어할 수 있습니다. [!UICONTROL 승인자] 모든 작업 공간에서:
+* 다음 항목에 대한 모든 설정 [!UICONTROL Administration] 페이지는 다음 방법으로 제어할 수 있습니다. [!UICONTROL Approver] 모든 작업 공간에서:
 
    * 시각적 경험 작성기
    * 보고
@@ -259,9 +259,9 @@ Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자
 
 엔터프라이즈 권한에 대한 FAQ:
 
-### 사용자에게 여러 역할 및 권한이 있는 경우 어떻게 됩니까? [#multiple-roles]
+### 사용자에게 여러 역할과 권한이 있는 경우 어떻게 됩니까? [#multiple-roles]
 
-사용자에게 여러 역할 및 권한이 있는 경우 더 높은 권한이 있는 역할이 적용됩니다. 예를 들어, 사용자가 [!UICONTROL 관찰자] 및 [!UICONTROL 승인자] 역할, [!UICONTROL 승인자] 역할이 적용됩니다.
+사용자에게 여러 역할 및 권한이 있는 경우 더 높은 권한이 있는 역할이 적용됩니다. 예를 들어, 사용자가 [!UICONTROL Observer] 및 [!UICONTROL Approver] 역할, [!UICONTROL Approver] 역할이 적용됩니다.
 
 ### 한 작업 공간에서 다른 작업 공간으로 활동을 이동할 수 있습니까?
 
@@ -271,13 +271,13 @@ Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자
 
 ### 한 작업 영역에서 다른 작업 영역으로 대상자를 이동할 수 있습니까? {#move-audience}
 
-예. 를 사용하여 작업 영역 간에 대상자를 이동할 수 있습니다. [!UICONTROL 추가 작업] 옵션 [!UICONTROL 대상] 페이지를 가리키도록 업데이트하는 중입니다.
+예. 를 사용하여 작업 영역 간에 대상자를 이동할 수 있습니다. [!UICONTROL More Actions] 옵션 [!UICONTROL Audiences] 페이지를 가리키도록 업데이트하는 중입니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL 추가 작업]** 단추(3개의 줄임표)를 클릭한 다음 **[!UICONTROL 이동]**.
+1. 다음을 클릭합니다. **[!UICONTROL More Actions]** 단추(3개의 줄임표)를 클릭한 다음 **[!UICONTROL Move]**.
 
    ![추가 작업 > 이동](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
 
-1. 에서 원하는 작업 영역을 선택합니다. **[!UICONTROL 작업 영역]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL 이동]**.
+1. 에서 원하는 작업 영역을 선택합니다. **[!UICONTROL Workspace]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL Move]**.
 
    ![새 작업 영역으로 이동할 대상 선택](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
 
@@ -328,6 +328,6 @@ Enterprise 사용자 권한 는 다음에 대한 엔터프라이즈급 사용자
 
 >[!NOTE]
 >
->[!DNL Target] [!UICONTROL 관리] 메뉴 UI(이전명: [!UICONTROL 설정])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보는 정확하지만 옵션이 약간 다른 위치에 있을 수 있습니다.
+>다음 [!DNL Target] [!UICONTROL Administration] 메뉴 UI(이전의 [!UICONTROL Setup])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보는 정확하지만 옵션이 약간 다른 위치에 있을 수 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
