@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '3172'
+source-wordcount: '3171'
 ht-degree: 48%
 
 ---
@@ -259,7 +259,7 @@ ht-degree: 48%
 
 엔터프라이즈 권한에 대한 FAQ:
 
-### 사용자에게 여러 역할과 권한이 있는 경우 어떻게 됩니까? [#multiple-roles]
+### 사용자에게 여러 역할 및 권한이 있는 경우 어떻게 됩니까? {#multiple-roles}
 
 사용자에게 여러 역할 및 권한이 있는 경우 더 높은 권한이 있는 역할이 적용됩니다. 예를 들어, 사용자가 [!UICONTROL Observer] 및 [!UICONTROL Approver] 역할, [!UICONTROL Approver] 역할이 적용됩니다.
 

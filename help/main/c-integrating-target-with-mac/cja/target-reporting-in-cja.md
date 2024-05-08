@@ -4,10 +4,10 @@ description: 사용 [!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Ana
 title: 이란? [!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
 workflow-type: tm+mt
-source-wordcount: '1005'
-ht-degree: 57%
+source-wordcount: '1031'
+ht-degree: 56%
 
 ---
 
@@ -68,6 +68,10 @@ ht-degree: 57%
 ## [!DNL Customer Journey Analytics]를 보고 소스로 사용하는 활동 만들기
 
 [!DNL Customer Journey Analytics]를 보고 소스로 사용하는 [!DNL Target] 활동을 만드는 것은 일반 [!DNL Target] 활동을 설정하는 것과 유사합니다.
+
+>[!TIP]
+>
+>다음을 지정할 수도 있습니다. [!DNL Target] 에서 보고 사용 [!DNL Customer Journey Analytics] 계정에서 만든 모든 활동(**[!UICONTROL Administration]** > **[!UICONTROL Reporting]** > **[!UICONTROL Reporting Experience Cloud Solution]**). 자세한 내용은 *Reporting Cloud 솔루션* 위치: [에서 보고 구성 [!DNL Target]](/help/main/administrating-target/reporting.md#solution).
 
 1. 다음에서 **[!UICONTROL Activities]** 목록, 클릭 **[!UICONTROL Create Activity]**&#x200B;에 따라 활동 유형을 선택합니다. [위의 지원되는 활동 차트](#supported-activities))을 클릭하여 활동 설정을 시작합니다.
 1. 에 도착하면 **[!UICONTROL Goals & Settings]** 세 부분으로 구성된 활동 만들기 워크플로의 페이지에서 **[!DNL Customer Journey Analytics]** 를 보고 소스로 사용합니다.

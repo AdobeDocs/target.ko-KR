@@ -1,22 +1,22 @@
 ---
 keywords: 보고서;보고서;보고;experience cloud 솔루션;시간대;시간대;통화;IP 제외;매출액에서 예상되는 향상도;매출;매출액에서 상승도;세분화된 우선순위;세분화된 우선순위
-description: 사용 [!DNL Target] 또는 보고 소스로 Adobe Analytics 를 사용하는 경우 기본 시간대 및 통화 형식을 지정하고, 보고에서 제외할 IP 주소를 추가하는 등의 작업을 수행할 수 있습니다.
-title: Target에서 보고를 구성하는 방법
+description: 사용 [!DNL Target], [!DNL Adobe Analytics], or [!DNL Adobe Customer Journey Analytics] 보고 소스로 기본 시간대 및 통화 형식을 지정하고, 보고에서 제외할 IP 주소를 추가하는 등의 작업을 수행할 수 있습니다.
+title: 에서 보고를 구성하는 방법 [!DNL Target]?
 feature: Administration & Configuration
 role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-source-git-commit: d414f1554e1875e873f1ce557a7edf86b88ee79e
+source-git-commit: ea9513c4310d13e1e7899aa7e228b4d7ecdf0748
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 31%
+source-wordcount: '761'
+ht-degree: 22%
 
 ---
 
-# Target에서 보고 구성
+# 에서 보고 구성 [!DNL Target]
 
 에서 사용할 일반 설정 구성 [!DNL Adobe Target] 전체에 적용되는 보고 [!DNL Target] 계정입니다.
 
-에 액세스하려면 [!UICONTROL 보고] 구성 페이지에서 **[!UICONTROL 관리]** > **[!UICONTROL 보고].**
+에 액세스하려면 [!UICONTROL Reporting] 구성 페이지에서 **[!UICONTROL Administration]** > **[!UICONTROL Reporting].**
 
 이 페이지에서 다음 설정을 지정할 수 있습니다.
 
@@ -29,7 +29,7 @@ ht-degree: 31%
 
 >[!NOTE]
 >
->제외할 시간대, 통화 및 IP 주소는 을 사용하는 활동에 적용됩니다 [!DNL Target] 보고. 이 설정은 를 사용하는 활동에는 적용되지 않습니다. [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 를 보고 소스로 사용합니다.
+>제외할 시간대, 통화 및 IP 주소는 을 사용하는 활동에 적용됩니다 [!DNL Target] 보고. 이 설정은 를 사용하는 활동에는 적용되지 않습니다. [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) 또는 [!DNL Customer Journey Analytics] 를 보고 소스로 사용합니다.
 
 ![보고 페이지](/help/main/administrating-target/assets/reporting.png)
 
@@ -37,14 +37,30 @@ ht-degree: 31%
 
 결과 및 보고서에 사용되는 데이터를 결정하는 옵션을 설정합니다.
 
-활동의 보고 소스를 선택하십시오. [!DNL Target] 또는 [!DNL Adobe Analytics]. 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다.
+활동의 보고 소스를 선택하십시오. [!DNL Target], [!DNL Adobe Analytics], 또는 [!DNL Adobe Customer Journey Analytics]. 활동을 만드는 동안 안내가 있는 3가지 부분 워크플로의 일부로 활동당 보고 소스를 선택하도록 선택할 수도 있습니다.
 
 보고 소스를 선택하는 경우 다음 정보를 고려하십시오.
 
-* 보고 소스가 여기에서 **[!DNL Target]**&#x200B;으로 설정된 경우 [!DNL Analytics]를 보고 소스로 사용하는 활동을 활성화할 수 없습니다. 보고 소스를 다음으로 변경해야 합니다. [!DNL Target] 활동에서 또는 보고 소스를 다음으로 변경 **[!UICONTROL 활동당 선택]** 위치: **[!UICONTROL 관리] > [!UICONTROL 보고]**.
-* 보고 소스가 다음으로 설정된 경우 **[!DNL Analytics]** 여기서는 를 사용하는 활동을 활성화할 수 없습니다. [!DNL Target] 보고 소스(보고 소스가 다음으로 지정됨) **[!UICONTROL 활동당 타겟])**. 보고 소스를 다음으로 변경해야 합니다. [!DNL Analytics] 활동에서 또는 보고 엔진을 다음으로 변경 **[!UICONTROL 활동당 선택]** 위치: **[!UICONTROL 관리] > [!UICONTROL 보고]**.
-* 보고 소스가 다음으로 설정된 경우 **[!UICONTROL 활동당 선택]** 여기에서 선택한 보고 소스에서 지원하는 활동을 생성, 활성화 및 비활성화할 수 있습니다. 지원되는 활동의 매트릭스는 을 참조하십시오. [지원되는 활동 유형](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 위치: *Adobe Target용 보고 소스로서의 Adobe Analytics (A4t)*.
-* [!UICONTROL Automated Personalization] (AP) 선택한 보고 소스와 관계없이 활동 작성, 활성화 및 비활성화가 허용됩니다. Automated Personalization 활동은 다음을 선택할 때 지원되지 않습니다. [Adobe Target용 보고 소스로서의 Adobe Analytics (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md). 다음을 지정하는 경우에도 [!DNL Analytics] 를 보고 소스로 사용할 때에는 [!DNL Target] 는 Automated Personalization 활동의 보고 소스로 사용됩니다. 자세한 내용은 [지원되는 활동 유형](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 위치: *Adobe Target용 보고 소스로서의 Adobe Analytics (A4t)*.
+* **[!DNL Adobe Target]**: 보고 소스가 다음으로 설정된 경우 **[!DNL Target]** 여기서는 를 사용하는 활동을 만들거나 활성화할 수 없습니다. [!DNL Analytics] 또는 [!DNL Customer Journey Analytics] 를 보고 소스로 사용합니다. 보고 소스를 다음으로 변경해야 합니다. **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Analytics]**: 보고 소스가 다음으로 설정된 경우 **[!DNL Analytics]** 여기서는 를 사용하는 활동을 만들거나 활성화할 수 없습니다. [!DNL Target] 또는 [!DNL Customer Journey Analytics] 를 보고 소스로 사용합니다. 보고 소스를 다음으로 변경해야 합니다. **[!UICONTROL Select per activity]**.
+* **[!DNL Adobe Customer Journey Analytics]**: 보고 소스가 다음으로 설정된 경우 **[!DNL Customer Journey Analytics]** 여기서는 를 사용하는 활동을 만들거나 활성화할 수 없습니다. [!DNL Target] 또는 [!DNL Analytics] 를 보고 소스로 사용합니다. 보고 소스를 다음으로 변경해야 합니다. **[!UICONTROL Select per activity]**.
+* **활동당 선택**: 보고 소스가 다음으로 설정된 경우 **[!UICONTROL Select per activity]** 여기에서 선택한 보고 소스에서 지원하는 활동을 만들고 활성화할 수 있습니다.
+
+보고 소스를 결정할 때는 다음 정보를 고려하십시오.
+
+* **[!DNL Analytics]**: 를 사용하는 지원되는 활동의 매트릭스입니다. [!DNL Analytics] 보고 소스(A4T)로서 [지원되는 활동 유형](/help/main/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) 위치: *Adobe Target용 보고 소스로서의 Adobe Analytics (A4t)*.
+
+  [!UICONTROL Automated Personalization] (AP) 활동 작성 및 활성화는 선택한 보고 소스와 관계없이 허용됩니다. [!UICONTROL Automated Personalization] 선택할 때는 활동이 지원되지 않습니다. [Adobe Target용 보고 소스로서의 Adobe Analytics (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md).
+
+  다음을 지정하는 경우에도 [!DNL Analytics] 를 보고 소스로 사용할 때에는 [!DNL Target] 의 보고 소스로 사용됩니다. [!DNL Automated Personalization] 활동.
+
+* **[!DNL Customer Journey Analytics]**: 를 사용하는 지원되는 활동의 매트릭스입니다. [!DNL Target] 보고 위치 [!DNL Customer Journey Analytics], 참조 [지원되는 활동 유형](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md#supported-activities) 위치: *[!DNL Target]보고 위치[!DNL Adobe Customer Journey Analytics]*.
+
+  [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate], 및 [!UICONTROL Auto-Target] 활동 생성 및 활성화는 선택한 보고 소스와 관계없이 허용됩니다. 선택할 때는 이러한 활동이 지원되지 않습니다. [보고 소스로서의 Adobe Customer Journey Analytics](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md).
+
+  다음을 지정하는 경우에도 [!DNL Customer Journey Analytics] 를 보고 소스로 사용할 때에는 [!DNL Target] 의 보고 소스로 사용됩니다. [!DNL Automated Personalization] 활동.
+
+  을 지정하는 경우 [!DNL Customer Journey Analytics] 를 의 보고 소스로 사용 [!UICONTROL Auto-Allocate] 또는 [!UICONTROL Auto-Target] 활동, [!DNL Target] 또는 [!DNL Analytics] 를 보고 소스로 사용할 수 있습니다.
 
 ## 보고를 위한 시간대
 
