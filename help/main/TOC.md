@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 98613f43c5f135a6ce61a4b8dcc7f2b372df51e2
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
 source-wordcount: '1250'
 ht-degree: 90%
@@ -89,7 +89,7 @@ ht-degree: 90%
          + [지표, 대상 및 보고서 공유 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Adobe Customer Journey Analytics과 Target 통합 {#cja} {#hidden}
+   + Adobe Customer Journey Analytics과 Target 통합 {#cja}
       + [Adobe Customer Journey Analytics의 Target 보고](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)

@@ -3,14 +3,11 @@ keywords: 고객 여정 분석;target용 고객 여정 분석;고객 여정 분�
 description: 사용 [!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics] 을 기반으로 활동을 만들려면 [!DNL Customer Journey Analytics] 전환 지표 및 대상 세그먼트 및 사용 [!DNL Customer Journey Analytics] 결과를 검사하는 보고서입니다.
 title: 이란? [!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics]?
 feature: Integrations
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
-hide: true
-hidefromtoc: true
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 8475365099315f3f8f2a47bfca9dd9f245b16720
+source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 58%
+source-wordcount: '1005'
+ht-degree: 57%
 
 ---
 
