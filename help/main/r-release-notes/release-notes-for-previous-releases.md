@@ -4,10 +4,10 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 784f41a73941877135a5902f2331972ba9d0e880
+source-git-commit: 44445f269a69a3ac3e3bc88bab8abf9fc4d51663
 workflow-type: tm+mt
-source-wordcount: '37672'
-ht-degree: 86%
+source-wordcount: '37965'
+ht-degree: 85%
 
 ---
 
@@ -22,6 +22,34 @@ ht-degree: 86%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2024
+
+### [!UICONTROL Visual Experience Composer] 도우미 확장 프로그램(2024년 4월 23일)
+
+레거시 [!DNL Target] 시각적 경험 작성기 Helper 확장이 매니페스트 V2를 사용하여 만들어졌습니다. [!DNL Google] 2024년 6월부터 Manifest V2를 사용하여 만든 확장을 더 이상 허용하지 않는다고 발표했습니다. 자세한 내용은 [[!UICONTROL Visual Experience Composer] 도우미 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+
+[!DNL Adobe] 는 고객이 최신 (으)로 이동하기를 권장합니다. [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 가능한 한 빨리
+
+### 다음에 대한 업데이트 `Browser:iPad` 및 `Browser:iPhone` 위치: [!UICONTROL Browser] 대상 속성(2024년 4월 30일)
+
+| 업데이트 | 세부 사항 |
+|--- |--- |
+| [!UICONTROL Browser:iPad] 및 [!UICONTROL Browser:iPhone] 다음에서 업데이트됨: [브라우저 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md) 대상자를 만들 때 사용됩니다. | [!DNL Adobe Target] 다음 작업을 수행할 수 있습니다. [여러 범주 속성 중 하나를 타깃팅합니다.](/help/main/c-target/c-audiences/c-target-rules/target-rules.md), 특정 [브라우저 또는 브라우저 옵션](/help/main/c-target/c-audiences/c-target-rules/browser.md) 방문자가 페이지를 방문할 때입니다.<P>다음으로 시작 [!DNL Target] Standard/Premium 24.3.1(2024년 3월 4~6일), Target UI를 사용하여 생성된 내장 대상, 예: `Browser:iPad` 및 `Browser:iPhone` 다음에 대한 적절한 타깃팅을 수행하도록 업데이트됩니다. [!DNL iPad] 및 [!DNL iPhone] 사용 `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` 및 `profile.mobile.isTablet`.<P>이 업데이트에는 고객 측에서 작업을 수행할 필요가 없습니다.<p><B>중요 사항</b>: 고객이 다음에 대한 적절한 타겟팅을 수행할 수 있도록 지원 [!DNL iPad] 및 [!DNL iPhone] 프로필 스크립트(및 JavaScript 세그먼트)에서 수동 변경은 다음 작업을 수행하여 고객이 수행해야 합니다 **2024년 4월 30일**. 수동으로 변경해야 하는 대체 설정의 예는 [다음에 대한 업데이트 [!DNL iPad] 및 [!DNL iPhone] 위치: [!UICONTROL Browser] 대상 속성](/help/main/c-target/c-audiences/c-target-rules/browser.md#updates). |
+
+### [!UICONTROL Visual Editing Helper] 내선 번호(2024년 3월 14일)
+
+이 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다. [[!DNL Adobe Experience Cloud Editing Helper]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Google Chrome]:
+
+* 고객 웹 사이트에서 작성을 수행할 때 iFrame 로드 메커니즘을 개선했습니다.
+* 에서 작성을 수행하는 동안 확장에서 쿠키를 복제하는 문제가 해결되었습니다. [!UICONTROL Visual Experience Composer] (VEC).
+
+### [!DNL Target] Standard/Premium 24.3.1(2024년 3월 4~6일)
+
+이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
+
+* 활동에서 고유 선택기의 수를 계산하는 논리를 수정했습니다. (TGT-47878)
+* 의 원인이 되는 문제가 해결되었습니다. [!UICONTROL Multivariate] (MVT) 활동 구성 [!UICONTROL Analytics for Target] (A4T) 보고가 제대로 표시되지 않습니다. (TGT-47490)
+* 트래픽이 없는 경험을 제어 경험으로 사용할 때 보고에 표시되는 경고 메시지가 개선되었습니다. (TGT-47537)
+* 많은 백엔드 및 현지화 수정 사항이 추가되었습니다.
 
 ### [!DNL Target] Standard/Premium 24.1.1 (2024년 1월 22일, 23일 및 25일)
 
@@ -570,7 +598,7 @@ ht-degree: 86%
 | --- | --- |
 | [!UICONTROL Audiences] UI 새로 고침 | 의 일부로 [!DNL Adobe Target] 의 사용자 경험을 개선하기 위한 팀의 지속적인 노력 [!DNL Target] 사용자, 이 릴리스는 [!UICONTROL Audiences] 및 [!UICONTROL Profile Scripts] 의 페이지 [!DNL Target] UI. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상을 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상 빌더 디자인](/help/main/c-target/c-audiences/create-audience.md)</li><li>의 제외 규칙 지원 [!UICONTROL Audience] 라이브러리 규칙 빌더</li><li>신속한 대상 검색을 위한 새로운 &quot;대상 소스&quot; 필터</li><li>세션 영구 검색 및 필터 옵션</li></ul>자세한 내용은 [대상자](/help/main/c-target/target.md)를 참조하십시오. |
 | [!UICONTROL Profile Scripts] UI 새로 고침 | 다음 [!UICONTROL Profile Scripts] 라이브러리도 업데이트되었으며, 새로운 인터페이스와 몇 가지 생산성 업데이트가 포함되어 있습니다.<ul><li>여러 프로필 스크립트를 동시 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트용 새로운 편집기 코드</li><li>코드 편집기 내 구문 강조 표시 및 오류 검사</li><li>키보드 단축키를 통한 자동 완성 토큰(mbox 또는 프로필) 매개 변수</li></ul>자세한 내용은 [방문자 프로필](/help/main/c-target/c-visitor-profile/visitor-profile.md)을 참조하십시오. |
-| [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium에 포함된 항목을 확인하십시오."} Recommendations 기준 만들기 및 편집 | 다음 [!UICONTROL Recommendations Criteria] 목표 달성에 적합한 추천 항목 알고리즘 및 설정 선택을 단순화하기 위해 생성 및 편집 워크플로가 간소화되었습니다.<br>자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오. |
+| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;Target Premium에 포함된 항목을 확인하십시오.&quot;} Recommendations 기준 만들기 및 편집 | 다음 [!UICONTROL Recommendations Criteria] 목표 달성에 적합한 추천 항목 알고리즘 및 설정 선택을 단순화하기 위해 생성 및 편집 워크플로가 간소화되었습니다.<br>자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오. |
 | ![프리미엄 배지](/help/main/assets/premium.png) 추천 전환 확인 기간 및 알고리즘 새로 고침 빈도 개선 사항 | 이제 6시간 전환 확인 기간을 통해 “가장 많이 본 항목”과 ”최상위 판매자” 알고리즘을 실행하여 가장 최근에 트렌딩하는 콘텐츠를 캡처할 수 있습니다. 6시간 전환 확인 기간을 선택하면 하루에 3~6시간마다 추천 결과가 업데이트됩니다.<br>자세한 내용은 *기준 만들기*&#x200B;의 [데이터 소스](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)를 참조하십시오. |
 
 ### [!DNL Target Standard/Premium] 21.9.1(2021년 9월 14일)
