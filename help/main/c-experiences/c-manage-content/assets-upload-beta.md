@@ -6,7 +6,8 @@ feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
-source-git-commit: 7a81d4f0918599480c1d50c82c09dc3a62a5bf71
+exl-id: f509ff00-ed0e-4836-826d-f6cb122d8867
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
 source-wordcount: '279'
 ht-degree: 13%
@@ -15,7 +16,7 @@ ht-degree: 13%
 
 # 이미지 오퍼 업로드 또는 삭제
 
-에 이미지를 업로드할 수 있습니다 [!UICONTROL Image Offers] 의 목록 [!DNL Adobe Target] 을 활동에 이미지 오퍼로 사용합니다. 활동에 이미지 오퍼가 더 이상 필요하지 않은 경우에도 삭제할 수 있습니다.
+에 이미지를 업로드할 수 있습니다 [!UICONTROL Image Offers] 페이지 위치 [!DNL Adobe Target] 을 활동에 이미지 오퍼로 사용합니다. 활동에 이미지 오퍼가 더 이상 필요하지 않은 경우에도 삭제할 수 있습니다.
 
 >[!NOTE]
 >
@@ -25,7 +26,7 @@ ht-degree: 13%
 
 1. 클릭 **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**.
 
-   ![오퍼 > 이미지 오퍼](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
+   ![오퍼 > 이미지 오퍼](/help/main/c-experiences/c-manage-content/assets/image-offers-new.png)
 
 1. 클릭 **[!UICONTROL Create]** > **[!UICONTROL Files]**.
 1. 추가할 항목을 찾아 선택한 다음 를 클릭합니다 **[!UICONTROL Open]**.

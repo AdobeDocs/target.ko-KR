@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 36ccf66768d615c3fc8f0b4ae076448073e9f4cd
+source-git-commit: 94e391021d86607b830f9716742059c6aef8f004
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1252'
 ht-degree: 90%
 
 ---
@@ -247,19 +247,19 @@ ht-degree: 90%
    + [SPA(단일 페이지 앱) 시각적 경험 작성기](c-experiences/spa-visual-experience-composer.md)
    + 오퍼 {#offers}
       + [오퍼 개요](c-experiences/c-manage-content/manage-content.md)
-      + [오퍼 개요 베타](/help/main/c-experiences/c-manage-content/manage-content-beta.md) {#manage-offers} {#hidden}
+      + [오퍼 개요 베타](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [오퍼 폴더 만들기](c-experiences/c-manage-content/create-content-folder.md)
-      + [오퍼 폴더 Beta 만들기](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md) {#create-offer-folders} {#hidden}
+      + [오퍼 폴더 Beta 만들기](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [업로드 컨텐츠](c-experiences/c-manage-content/assets-upload.md)
-      + [이미지 오퍼 업로드 또는 삭제](/help/main/c-experiences/c-manage-content/assets-upload-beta.md) {#upload-delete-offers} {#hidden}
+      + [이미지 오퍼 베타 업로드 또는 삭제](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [리디렉션 오퍼 만들기](c-experiences/c-manage-content/offer-redirect.md)
-      + [리디렉션 오퍼 만들기](c-experiences/c-manage-content/offer-redirect-beta.md) {#redirect-offers} {#hidden}
+      + [리디렉션 오퍼 Beta 만들기](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [원격 오퍼 만들기](c-experiences/c-manage-content/about-remote-offers.md)
-      + [원격 오퍼 Beta 만들기](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md) {#remote} {#hidden}
+      + [원격 오퍼 Beta 만들기](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [JSON 오퍼 만들기](c-experiences/c-manage-content/create-json-offer.md)
-      + [JSON 오퍼 만들기 Beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md) {#json} {#hidden}
+      + [JSON 오퍼 만들기 Beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [라이브러리에서 콘텐츠 작업](c-experiences/c-manage-content/assets-working.md)
-      + [라이브러리 베타에서 컨텐츠 작업](/help/main/c-experiences/c-manage-content/assets-working-beta) {#working} {#hidden}
+      + [라이브러리 베타에서 컨텐츠 작업](/help/main/c-experiences/c-manage-content/assets-working-beta)
       + [콘텐츠 검색](c-experiences/c-manage-content/filter-and-search-content.md)
       + [오퍼에 동적 데이터 전달](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM 경험 및 컨텐츠 조각](c-experiences/c-manage-content/aem-experience-fragments.md)
