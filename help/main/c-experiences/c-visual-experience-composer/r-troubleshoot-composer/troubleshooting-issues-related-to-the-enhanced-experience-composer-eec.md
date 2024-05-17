@@ -4,10 +4,10 @@ description: Adobe에서 가끔 발생하는 문제를 해결하는 방법 알�
 title: 고급 경험 작성기 관련 문제를 해결하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: cb16350389e1504c88f1cf97aeda243e1300b65e
+source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 25%
+source-wordcount: '439'
+ht-degree: 23%
 
 ---
 
@@ -21,6 +21,15 @@ ht-degree: 25%
 
 허용 목록에 추가하다 IT 팀에 다음 IP 주소를 요청하십시오.
 
+* 34.254.77.200
+* 54.73.207.147
+* 54.229.152.123
+* 3.224.194.242
+* 54.90.51.39
+* 34.228.136.112
+* 54.150.116.11
+* 18.178.142.8
+* 54.199.107.77
 * 99.80.139.221
 * 54.78.56.224
 * 54.247.179.246
@@ -66,7 +75,7 @@ Firefox를 사용하여 웹 사이트에서 TLS 버전을 확인하려면 다음
 
    ![firefox_more_info_3 이미지](assets/firefox_more_info_3.png)
 
-1. 웹 사이트에서 TLS 1.0이 표시되는 경우 다음을 참조하십시오. [TLS(전송 계층 보안) 암호화 변경 사항](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} for information about Target's TLS support policy. To remedy the situation for now (valid until September 12, 2018){target=_blank}, 다음으로 연결 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) TLS 버전 및 도메인을 사용하여 구성합니다.
+1. 웹 사이트에서 TLS 1.0이 표시되는 경우 다음을 참조하십시오. [TLS(전송 계층 보안) 암호화 변경 사항](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank} target의 TLS 지원 정책에 대한 자세한 내용 현재 상황을 해결하기 위해 (2018년 9월 12일까지 유효){target=_blank}, 다음으로 연결 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) TLS 버전 및 도메인을 사용하여 구성합니다.
 
 ## 프록시가 활성화된 로드할 때 시간 초과 또는 &quot;액세스 거부&quot; 오류가 표시됩니다. (EEC만 해당) {#section_60CBB9022DC449F593606C0E6252302D}
 
