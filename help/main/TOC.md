@@ -3,7 +3,7 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: c6393642a8170e1f2ef207eb0daf972e380f79b5
+source-git-commit: 3f4c744b9f6bb91f55616138901c20961a72629e
 workflow-type: tm+mt
 source-wordcount: '1253'
 ht-degree: 90%
@@ -64,7 +64,7 @@ ht-degree: 90%
          + [Enterprise 사용자 권한](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 권한 구성](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [작업 영역에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Recommendations](/help/main/administrating-target/reommendations-settings.md)
+   + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
 + Target 구현 {#implement-target}
    + [Target 구현 개요](c-implementing-target/implementing-target.md)
 + Target과 Experience Cloud 통합{#integrate}
