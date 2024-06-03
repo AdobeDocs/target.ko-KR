@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7562a1da201b570ee529db9763ef5f4b463f65a8
+source-git-commit: be6e45ff301f549eb5be24a65b05c4a9c1cd6089
 workflow-type: tm+mt
-source-wordcount: '1741'
-ht-degree: 70%
+source-wordcount: '1783'
+ht-degree: 69%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 70%
 
 | 날짜 | 주제 | 변경 사항 |
 | --- | --- | --- |
+| 6월 3일 | [우선순위](/help/main/c-activities/priority.md) | 여러 항목의 콘텐츠를 나타내는 등 전체 주제가 업데이트되었습니다. [!UICONTROL Form-Based Experience Composer] 및 VEC 활동은 전달할 수 있습니다. 이전에는 양식 기반 워크플로우에서 하나의 활동만 전달할 수 있었습니다. 더 이상 게재할 수 있는 양식 기반 활동 수에 제한이 없습니다. |
 | 5월 17일 | [와 관련된 문제 해결 [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | 을(를) 사용할 때 허용 목록에 추가하다할 수 있는 추가 IP 주소가 추가되었습니다. [!UICONTROL Enhanced Experience Composer]. |
 | 5월 8일 | [[!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) | 새 문서: 다음에 대한 정보가 추가되었습니다. [!DNL Target] 과 통합 [!DNL Adobe Customer Journey Analytics]. |
 | 4월 30일 | [와 관련된 문제 해결 [!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md) | EEC 프록시에 사용되는 Adobe 허용 목록에 추가하다 서버의 IP 주소 목록을 EEC에 업데이트했습니다. |
