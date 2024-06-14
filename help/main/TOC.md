@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: f3b1281cfbfb70703ac33776b3ed964360b3db3a
+source-git-commit: c2d553a9f292ff9942fe973c17040e003db8c60d
 workflow-type: tm+mt
-source-wordcount: '1254'
-ht-degree: 90%
+source-wordcount: '1258'
+ht-degree: 89%
 
 ---
 
@@ -294,8 +294,9 @@ ht-degree: 90%
       + [엔티티 속성](c-recommendations/c-products/entity-attributes.md)
       + [사용자 지정 엔티티 속성](c-recommendations/c-products/custom-entity-attributes.md)
       + [피드](c-recommendations/c-products/feeds.md)
-      + [피드-베타](/help/main/c-recommendations/c-products/feeds-beta.md)
+      + [피드 베타](/help/main/c-recommendations/c-products/feeds-beta.md)
       + [카탈로그 검색](c-recommendations/c-products/catalog-search.md)
+      + [카탈로그 검색 베타](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [컬렉션](c-recommendations/c-products/collections.md)
       + [제외](c-recommendations/c-products/exclusions.md)
    + 기준 {#criteria}
