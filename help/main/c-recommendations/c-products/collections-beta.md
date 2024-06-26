@@ -4,11 +4,12 @@ description: 에서 제품 또는 항목의 컬렉션을 사용하는 방법을 
 title: Recommendations 활동에서 컬렉션을 사용하려면 어떻게 해야 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
-exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
+hide: true
+hidefromtoc: true
 source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '849'
-ht-degree: 40%
+source-wordcount: '843'
+ht-degree: 29%
 
 ---
 
@@ -20,13 +21,13 @@ ht-degree: 40%
 
 제품을 논리 버킷으로 구성하려면 컬렉션을 사용하십시오. 예를 들어 일부 항목을 한 지역에서는 사용할 수 있지만 다른 지역에서는 사용할 수 없는 경우 방문자의 지역에서 사용할 수 없는 항목을 제외하는 컬렉션을 만들 수 있습니다. 컬렉션을 사용하여 시즌별 항목을 구성하거나 비즈니스에 적용되는 다른 조직 매개 변수를 구성할 수도 있습니다.
 
-추천 내 각 기준에 대해 생성된 백업 추천도 이 컬렉션을 사용하므로, 해당 컬렉션의 항목만 [백업 추천](/help/main/c-recommendations/c-algorithms/backup-recs.md)에 포함됩니다. 컬렉션을 사용하여 특정 위치에 표시되는 것이 적합한 제품만 표시되게 할 수 있습니다.
+[백업 권장 사항](/help/main/c-recommendations/c-algorithms/backup-recs.md) 권장 사항 내의 각 기준에 대해 생성된 항목도 이 컬렉션을 사용하므로, 해당 컬렉션의 항목만 백업 권장 사항에 포함됩니다. 컬렉션을 사용하여 특정 위치에 표시되는 것이 적합한 제품만 표시되게 할 수 있습니다.
 
 컬렉션은 각 기준이 실행될 때마다 재구성 또는 업데이트됩니다.
 
 항목을 카탈로그에 그룹화한 다음 각 컬렉션에 대한 개별 권장 사항을 만들 수 있습니다.
 
-포함 기준을 사용하면 유사한 작업들을 컬렉션으로서 수행할 수 있지만 활동을 만들 때마다 이러한 작업들을 설정해야 합니다. 컬렉션을 사용하면 항목 세트를 한 번 만든 후, 다시 설정하지 않고도 적절하게 사용할 수 있습니다.
+포함 기준을 사용하면 유사한 작업들을 컬렉션으로서 수행할 수 있지만 활동을 만들 때마다 이러한 작업들을 설정해야 합니다. 컬렉션을 사용하면 항목 세트를 한 번만 만든 다음 다시 설정하지 않고도 적절하게 사용할 수 있습니다.
 
 를 만들거나 편집할 때 [!DNL Recommendations] 활동, 컬렉션 이름이 [!UICONTROL Criteria] 활동 다이어그램의 레이블입니다.
 
@@ -40,23 +41,21 @@ ht-degree: 40%
 
 1. 클릭 **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]** 기존 컬렉션 목록을 표시합니다.
 
-   ![컬렉션 목록](assets/collections_list.png)
+   ![컬렉션 목록](assets/collections-list.png)
 
-   다음 [!UICONTROL Collections] 페이지에 기존 컬렉션 목록이 표시됩니다. 새 컬렉션은 [!UICONTROL Create Collection] 단추를 클릭합니다. 원하는 컬렉션 위로 마우스를 이동하고 원하는 아이콘을 클릭하여 기존 컬렉션을 편집, 복사 및 삭제할 수도 있습니다.
-
-   ![마우스로 가리키기 아이콘: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/hover-icons.png)
+   다음 [!UICONTROL Collections] 페이지에 기존 컬렉션 목록이 표시됩니다. 새 컬렉션은 [!UICONTROL Create Collection] 단추를 클릭합니다. 원하는 컬렉션 옆에 있는 줄임표 아이콘을 클릭한 다음 원하는 옵션을 클릭하여 기존 컬렉션을 편집, 복사 및 삭제할 수도 있습니다.
 
    의 각 컬렉션에 대해 &quot;항목 수&quot;가 보고됨 [!UICONTROL Collections] list view는 구성된 기본 Recommendations 내에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다 [호스트 그룹](/help/main/administrating-target/hosts.md) (환경). 다음을 참조하십시오 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 기본 호스트 그룹을 변경합니다.
 
 1. **[!UICONTROL Create Collection]** 아이콘을 클릭합니다.
 
-1. (조건부) **[!UICONTROL Environment]** 컬렉션을 만들거나 업데이트하여 해당 환경에서 컬렉션의 컨텐츠를 미리 보는 동안 필터링합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
-
-   ![컬렉션 만들기](/help/main/c-recommendations/c-products/assets/CreateCollection.png)
+   ![컬렉션 만들기](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. Type a **[!UICONTROL Name]** 컬렉션에 사용됩니다.
 
    선택 사항을 입력할 수도 있습니다 **[!UICONTROL Description]**.
+
+1. (조건부) 다음을 선택합니다. [환경](/help/main/administrating-target/environments.md) 다음에서 **[!UICONTROL Environment]** 컬렉션을 만들거나 업데이트하여 해당 환경에서 컬렉션의 컨텐츠를 미리 보는 동안 필터링합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
 1. 컬렉션을 만드는 데 사용되는 규칙을 설정합니다.
 
@@ -64,11 +63,11 @@ ht-degree: 40%
 
    여러 매개 변수를 사용하는 규칙을 추가하여 컬렉션을 정의할 수 있습니다. 여러 규칙은 AND 연산자로 연결됩니다. 컬렉션을 적용하려면 지정된 모든 규칙이 일치해야 합니다.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
 
-## 고급 검색을 사용하여 컬렉션 만들기
+## 다음을 사용하여 컬렉션 만들기 [!UICONTROL Advanced Search]
 
-에서 고급 검색을 사용하여 컬렉션을 만들 수도 있습니다 [카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 페이지 ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+다음을 사용하여 컬렉션을 만들 수도 있습니다. [!UICONTROL Advanced Search] 다음에 있음 [카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 페이지 ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![다른 이름으로 저장 대화 상자](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -76,25 +75,25 @@ ht-degree: 40%
 
 >[!IMPORTANT]
 >
->고급 검색 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 따라서 고급 검색 기능을 사용하는 결과를 기반으로 컬렉션을 작성할 때에는 대소문자 구분을 고려해야 합니다. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 반환할 의도로 카탈로그를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 반환됩니다. &quot;Holiday&quot;를 포함하는 제품은 반환되지 않습니다. 
+>다음 [!UICONTROL Advanced Search] 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 를 사용하여 결과를 기반으로 컬렉션을 만들 때 대/소문자 구분을 고려해야 합니다. [!UICONTROL Advanced Search] 기능. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 반환할 의도로 카탈로그를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 반환됩니다. &quot;Holiday&quot;를 포함하는 제품은 반환되지 않습니다. 
 
 ## 컬렉션 편집, 복사 또는 삭제
 
-목록에서 원하는 컬렉션을 마우스로 가리킨 다음, 해당 아이콘(편집, 복사 또는 삭제)을 클릭합니다.
+다음을 클릭합니다. **생략 부호** 목록에서 원하는 컬렉션 옆에 있는 아이콘을 클릭한 다음, 해당 아이콘(편집, 복사 또는 삭제)을 클릭합니다.
 
-![컬렉션에 대한 가리키기 아이콘](/help/main/c-recommendations/c-products/assets/hover-collections.png)
+![마우스로 가리키기 아이콘: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
 기존 컬렉션을 복사하여 수정할 수 있는 중복 컬렉션을 만들 수 있습니다. 이를 통해 적은 노력으로 유사한 제외를 만들 수 있습니다.
 
 컬렉션은 전체 계정에서 사용할 수 있습니다. 컬렉션을 삭제하기 전에 이를 고려해야 합니다. 삭제된 컬렉션은 복구할 수 없습니다.
 
-## Recommendations 활동에서 컬렉션 사용
+## 다음에서 컬렉션 사용 [!DNL Recommendations] 활동
 
 1. 위에서 언급한 방법 중 하나를 사용하여 컬렉션을 만듭니다.
 
 1. 클릭 **[!UICONTROL Activities]** 및 [새 Recommendations 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) 활동 또는 기존 활동을 편집합니다.
 
-1. 기준과 디자인을 선택하면 [!UICONTROL Options] 원하는 컬렉션을 선택한 경우 페이지가 표시됩니다.
+1. 기준과 디자인을 선택하면 [!UICONTROL Options] 원하는 컬렉션을 선택할 수 있는 페이지가 표시됩니다.
 
    ![컬렉션 옵션 선택](/help/main/c-recommendations/c-products/assets/choose-collection.png)
 

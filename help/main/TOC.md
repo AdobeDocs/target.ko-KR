@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: c2d553a9f292ff9942fe973c17040e003db8c60d
+source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
 workflow-type: tm+mt
-source-wordcount: '1258'
+source-wordcount: '1260'
 ht-degree: 89%
 
 ---
@@ -273,7 +273,7 @@ ht-degree: 89%
       + [CSV 파일로 데이터 다운로드](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + 통계적 방법론 {#statistical-methodology}
       + [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + 개인화 보고서 {#personalization-reports}
+   + Personalization 보고서 {#personalization-reports}
       + [Auto-Target 요약 보고서](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)
    + 개인화 통찰력 보고서 {#insights}
@@ -298,6 +298,7 @@ ht-degree: 89%
       + [카탈로그 검색](c-recommendations/c-products/catalog-search.md)
       + [카탈로그 검색 베타](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [컬렉션](c-recommendations/c-products/collections.md)
+      + [컬렉션 베타](/help/main/c-recommendations/c-products/collections-beta.md)
       + [제외](c-recommendations/c-products/exclusions.md)
    + 기준 {#criteria}
       + [기준 개요](c-recommendations/c-algorithms/algorithms.md)
