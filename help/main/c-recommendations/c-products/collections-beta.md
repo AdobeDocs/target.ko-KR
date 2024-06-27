@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0
+source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
 workflow-type: tm+mt
 source-wordcount: '843'
 ht-degree: 29%
@@ -83,7 +83,7 @@ ht-degree: 29%
 
 ![마우스로 가리키기 아이콘: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
 
-기존 컬렉션을 복사하여 수정할 수 있는 중복 컬렉션을 만들 수 있습니다. 이를 통해 적은 노력으로 유사한 제외를 만들 수 있습니다.
+기존 컬렉션을 복사하여 수정할 수 있는 중복 컬렉션을 만들 수 있습니다. 이를 통해 적은 노력으로 유사한 컬렉션을 만들 수 있습니다.
 
 컬렉션은 전체 계정에서 사용할 수 있습니다. 컬렉션을 삭제하기 전에 이를 고려해야 합니다. 삭제된 컬렉션은 복구할 수 없습니다.
 
