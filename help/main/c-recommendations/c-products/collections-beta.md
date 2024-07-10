@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6eaf89ef71ea3448584dcdadc926c45dba77504
+source-git-commit: 31cf23a52c331eabad0e5f6423eeeca84df87625
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 29%
+source-wordcount: '707'
+ht-degree: 26%
 
 ---
 
@@ -65,17 +65,17 @@ ht-degree: 29%
 
 1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
 
-## 다음을 사용하여 컬렉션 만들기 [!UICONTROL Advanced Search]
+<!-- ## Create a collection using [!UICONTROL Advanced Search]
 
-다음을 사용하여 컬렉션을 만들 수도 있습니다. [!UICONTROL Advanced Search] 다음에 있음 [카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 페이지 ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+You can also create collections using [!UICONTROL Advanced Search] on the [Catalog Search](/help/main/c-recommendations/c-products/catalog-search.md#save-as) page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]). 
 
-![다른 이름으로 저장 대화 상자](/help/main/c-recommendations/c-products/assets/save-as.png)
+![Save as dialog](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-예를 들어 &quot;id > 포함&quot;을 사용하여 검색을 작성한 후 [!UICONTROL Save As] > [!UICONTROL Collection].
+After creating a search using "id > contains," for example, you can then click [!UICONTROL Save As] > [!UICONTROL Collection].
 
 >[!IMPORTANT]
 >
->다음 [!UICONTROL Advanced Search] 기능은 대소문자를 구분하지 않습니다. 그러나 배송 시 반환되는 제품은 대소문자를 구분하는 검색을 기반으로 합니다. 이러한 불일치로 인해 혼동이 발생할 수 있습니다. 를 사용하여 결과를 기반으로 컬렉션을 만들 때 대/소문자 구분을 고려해야 합니다. [!UICONTROL Advanced Search] 기능. 예를 들어, &quot;Holiday&quot;를 검색할 때 초기 검색 목록에는 &quot;Holiday&quot;와 &quot;holiday&quot;를 포함하는 결과가 나열됩니다. 그런 다음 &quot;holiday&quot;를 포함하는 제품을 반환할 의도로 카탈로그를 만드는 경우 &quot;holiday&quot;를 포함하는 제품만 반환됩니다. &quot;Holiday&quot;를 포함하는 제품은 반환되지 않습니다. 
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. -->
 
 ## 컬렉션 편집, 복사 또는 삭제
 
@@ -100,12 +100,3 @@ ht-degree: 29%
 1. (조건부) 기존 컬렉션 설정을 변경하려면 **[!UICONTROL Experiences]** 페이지(3단계 안내 워크플로의 2단계)에서 권장 사항을 배치한 위치를 클릭하고 **[!UICONTROL Change Collection]**&#x200B;를 클릭한 다음 원하는 컬렉션을 선택합니다.
 
    ![컬렉션 옵션 변경](/help/main/c-recommendations/c-products/assets/change-collection.png)
-
-## 교육 비디오: Recommendations에서 컬렉션 및 제외 만들기(7:05) ![튜토리얼 배지](/help/main/assets/tutorial.png)
-
-이 비디오에는 다음 정보가 포함됩니다.
-
-* 컬렉션 만들기
-* 제외 만들기
-
->[!VIDEO](https://video.tv.adobe.com/v/27689)
