@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
 workflow-type: tm+mt
-source-wordcount: '1284'
-ht-degree: 88%
+source-wordcount: '1291'
+ht-degree: 87%
 
 ---
 
@@ -315,6 +315,7 @@ ht-degree: 88%
       + [사용자 지정 기준 Beta 업로드](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 동적 및 정적 포함 규칙 {#dynamic-static}
          + [동적 및 정적 포함 규칙 사용](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
+         + [동적 및 정적 포함 규칙 베타 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [엔티티 속성 일치](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [프로필 속성 일치](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
          + [매개 변수 일치](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
