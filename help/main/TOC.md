@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: edb603b6e71edaa673be9ee0954e60f5cb04e195
+source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
 workflow-type: tm+mt
-source-wordcount: '1262'
-ht-degree: 89%
+source-wordcount: '1284'
+ht-degree: 88%
 
 ---
 
@@ -90,13 +90,13 @@ ht-degree: 89%
          + [지표, 대상 및 보고서 공유 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
-   + Adobe Customer Journey Analytics과 Target 통합 {#cja}
+   + Adobe Customer Journey Analytics {#cja}과(와) Target 통합
       + [Adobe Customer Journey Analytics의 Target 보고](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
-   + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
+   + Adobe Journey Optimizer(AJO) {#ajo}과(와) Target 통합
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [통합 [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
-   + Adobe Experience Manager(AEM)와 Target 통합 {#aem}
+   + AEM(Adobe Experience Manager) {#aem}과(와) Target 통합
       + [AEM과 Target 통합 개요](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
       + 경험 조각 및 콘텐츠 조각 {#fragments}
          + [AEM 경험 조각 및 콘텐츠 조각 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)
@@ -271,7 +271,7 @@ ht-degree: 89%
       + [보고서에서 여러 지표 보기](c-reports/c-report-settings/view-multiple-metrics.md)
       + [예외적인 값 제외](c-reports/c-report-settings/excluding-extreme-orders.md)
       + [CSV 파일로 데이터 다운로드](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
-   + 통계적 방법론 {#statistical-methodology}
+   + 통계 방법 {#statistical-methodology}
       + [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
    + Personalization 보고서 {#personalization-reports}
       + [Auto-Target 요약 보고서](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
@@ -303,11 +303,16 @@ ht-degree: 89%
       + [제외 베타](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + 기준 {#criteria}
       + [기준 개요](c-recommendations/c-algorithms/algorithms.md)
+      + [기준 개요 Beta](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [기준 만들기](c-recommendations/c-algorithms/create-new-algorithm.md)
+      + [기준 Beta 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [기준 시퀀스 만들기](c-recommendations/c-algorithms/create-criteria-sequence.md)
+      + [기준 시퀀스 Beta 만들기](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [권장 사항 키를 기반으로 권장 사항 만들기](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [권장 사항 키 Beta를 기반으로 권장 사항 만들기](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Target의 추천 알고리즘에 숨겨진 과학](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [사용자 지정 기준 업로드](c-recommendations/c-algorithms/recommendations-csv.md)
+      + [사용자 지정 기준 Beta 업로드](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 동적 및 정적 포함 규칙 {#dynamic-static}
          + [동적 및 정적 포함 규칙 사용](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [엔티티 속성 일치](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
