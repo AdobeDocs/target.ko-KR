@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 2393925a4c8cc6d880278b23551ba33f23268a8e
+source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
 workflow-type: tm+mt
-source-wordcount: '1291'
-ht-degree: 87%
+source-wordcount: '1305'
+ht-degree: 86%
 
 ---
 
@@ -317,9 +317,13 @@ ht-degree: 87%
          + [동적 및 정적 포함 규칙 사용](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [동적 및 정적 포함 규칙 베타 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [엔티티 속성 일치](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
+         + [Beta와 일치하는 엔티티 속성](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [프로필 속성 일치](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
+         + [프로필 속성 일치 베타](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [매개 변수 일치](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
+         + [매개 변수 일치 Beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [정적 필터](/help/main/c-recommendations/c-algorithms/static-value.md)
+         + [정적 필터 베타](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [백업 권장 사항 사용](c-recommendations/c-algorithms/backup-recs.md)
       + [다중 값 특성 관련 작업](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [Recommendations와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
