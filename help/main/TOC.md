@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1320'
 ht-degree: 86%
 
 ---
@@ -325,8 +325,11 @@ ht-degree: 86%
          + [정적 필터](/help/main/c-recommendations/c-algorithms/static-value.md)
          + [정적 필터 베타](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [백업 권장 사항 사용](c-recommendations/c-algorithms/backup-recs.md)
+      + [백업 권장 사항 사용](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [다중 값 특성 관련 작업](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
+      + [다중 값 특성 Beta 작업](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [Recommendations와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Recommendations 베타와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + 디자인 {#recommendations-design}
       + [디자인 개요](c-recommendations/c-design-overview/design-overview.md)
       + [디자인 만들기](c-recommendations/c-design-overview/create-design.md)
