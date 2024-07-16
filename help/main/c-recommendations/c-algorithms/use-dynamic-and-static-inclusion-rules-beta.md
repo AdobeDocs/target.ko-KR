@@ -7,9 +7,9 @@ feature: Recommendations
 mini-toc-levels: 3
 hide: true
 hidefromtoc: true
-source-git-commit: 43986f4b83d0165b03046f52afd3cd6b5b42ab65
+source-git-commit: 84f2ea906dcab939b3892b11eabf96494f4514cb
 workflow-type: tm+mt
-source-wordcount: '1834'
+source-wordcount: '1825'
 ht-degree: 16%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 16%
 
    ![필터링 규칙 추가](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
-1. 동적 포함 규칙을 사용할지 또는 정적 포함 규칙을 사용할지 선택하려면 &quot;권장 사항이 준수해야 하는 다른 규칙&quot; 상자에서 **정적 필터**&#x200B;를 클릭한 다음, 정적 필터 드롭다운 목록에서 원하는 옵션을 선택하십시오.
+1. &quot;권장 사항을 준수해야 하는 다른 규칙은 무엇입니까&quot; 상자에서 **정적 필터** 드롭다운 목록을 클릭한 다음 [!UICONTROL Static Filter] 드롭다운 목록에서 원하는 옵션을 선택합니다.
 
    ![정적 필터 드롭다운 목록](/help/main/c-recommendations/c-algorithms/assets/dynamic-and-static.png)
 
