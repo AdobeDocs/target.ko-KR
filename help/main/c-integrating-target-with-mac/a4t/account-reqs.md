@@ -1,14 +1,14 @@
 ---
 keywords: Analytics를 보고 소스로 사용;a4t;A4T;요구 사항
-description: Adobe에서 Adobe Analytics 기반 활동을 만드는 데 필요한 사용자 계정 요구 사항을 구성하는 방법에 대해 알아봅니다 [!DNL Target] 분석 사용 [!DNL Target] (A4T).
+description: A4T(Analytics for [!DNL Target] 을(를) 사용하여 Adobe [!DNL Target] 에서 Adobe Analytics 기반 활동을 만드는 데 필요한 사용자 계정 요구 사항을 구성하는 방법에 대해 알아봅니다.
 title: A4T에 필요한 사용자 권한 요구 사항은 무엇입니까?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
 exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '306'
-ht-degree: 34%
+source-wordcount: '276'
+ht-degree: 35%
 
 ---
 
@@ -28,31 +28,31 @@ ht-degree: 34%
 
 [!DNL Analytics] 및 [!DNL Target] 사용자 계정이 Adobe ID에 연결되어 있어야 합니다.
 
-자세한 내용은 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en).
+자세한 내용은 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)을 참조하세요.
 
 ### Experience Cloud 그룹 멤버십 구성
 
 하나 이상의 [!DNL Experience Cloud] 그룹의 구성원으로서 [!DNL Analytics] 및 [!DNL Target]에 액세스할 수 있어야 합니다.
 
-자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-지정된 보고서 세트에서 A4T를 사용하려면 해당 보고서 세트에 대한 액세스 권한이 있어야 하며 [!DNL Web Services Access] 그룹입니다.
+지정된 보고서 세트에서 A4T를 사용하려면 해당 보고서 세트에 대한 액세스 권한이 있어야 하며 [!DNL Web Services Access] 그룹에 대한 액세스 권한을 부여해야 합니다.
 
-1. 위치 **[!UICONTROL Admin Console]**, 클릭 [!DNL Analytics] 제품 프로필을 클릭한 다음 **[!UICONTROL 권한]** 탭.
+1. **[!UICONTROL Admin Console]**&#x200B;에서 [!DNL Analytics] 제품 프로필을 클릭한 다음 **[!UICONTROL Permissions]** 탭을 클릭합니다.
 
    그러면 프로필에서 액세스할 수 있는 보고서 세트를 확인할 수 있습니다.
 
-1. 에 액세스할 수 있는 보고서 세트인지 확인합니다. [!DNL Target] 는 귀하가 속한 제품 프로필에 나열된 항목 중 하나입니다.
+1. [!DNL Target]에서 액세스할 수 있는 보고서 세트가 속해 있는 제품 프로필에 나열된 보고서 세트 중 하나인지 확인하십시오.
 
    다음 그림은 모든 보고서 세트에 액세스할 수 있는 제품 프로필의 예입니다.
 
    ![Admin Console 권한 탭](/help/main/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
-1. 액세스 권한 구성 [!UICONTROL 웹 서비스 액세스] 그룹입니다.
+1. [!UICONTROL Web Services Access] 그룹에 대한 액세스를 구성합니다.
 
-   액세스 권한: [!UICONTROL 웹 서비스 액세스] 그룹 위치 [!DNL Analytics] 을(를) 사용할 수 있어야 합니다. [!DNL Analytics] 을(를) 위한 보고 소스로 사용 [!DNL Target].
+   [!DNL Target]의 보고 소스로 [!DNL Analytics]을(를) 사용하려면 [!DNL Analytics]의 [!UICONTROL Web Services Access] 그룹에 액세스해야 합니다.
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

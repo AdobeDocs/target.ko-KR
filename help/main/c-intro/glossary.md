@@ -5,8 +5,8 @@ feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '2493'
-ht-degree: 100%
+source-wordcount: '2480'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +62,7 @@ A/B 테스트에서는 웹 사이트 콘텐츠의 버전을 두 개 이상 비�
 
 **자동화된 개인화**
 
-자동화된 개인화(AP)는 컨텐츠를 개인화하고 전환을 유도하기 위해, 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다.
+자동화된 개인화(AP)는 콘텐츠를 개인화하고 전환을 유도하기 위해, 오퍼나 메시지를 결합하고 고급 머신 러닝을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -106,7 +106,7 @@ A/B 테스트에서는 웹 사이트 콘텐츠의 버전을 두 개 이상 비�
 
 **기준**
 
-권장할 제품 또는 콘텐츠를 결정하는 규칙입니다. 기준은 인기 있는 추세, 방문자의 현재 및 과거 행동 또는 유사한 제품 및 컨텐츠를 기반으로 지정할 수 있습니다.
+권장할 제품 또는 콘텐츠를 결정하는 규칙입니다. 기준은 인기 있는 추세, 방문자의 현재 및 과거 행동 또는 유사한 제품 및 콘텐츠를 기반으로 지정할 수 있습니다.
 
 ## D {#section_CD712B37316C45F58F82113707A98D5C}
 
@@ -138,7 +138,7 @@ RIA(Rich Internet Application)에서는 DHTML 및 AJAX와 같은 기술을 사�
 
 동적 페이지 기술을 사용하여 값을 오퍼에 전달합니다.
 
-## E {#section_55C3D8AF3D31494784C70090D8343244}
+## 전자 {#section_55C3D8AF3D31494784C70090D8343244}
 
 **참여**
 
@@ -146,7 +146,7 @@ RIA(Rich Internet Application)에서는 DHTML 및 AJAX와 같은 기술을 사�
 
 **향상된 환경 작성기**
 
-향상된 [!UICONTROL 환경 작성기는] 구현을 포함하지 않는 iframe 버스팅 사이트 또는 페이지의 경험을 편집하는 데 도움이 되는 [!UICONTROL 시각적 경험 작성기의] [!DNL Target] 확장입니다. [!UICONTROL 시각적 경험 작성기]에서 페이지를 여는 데 문제가 있으면 [!UICONTROL 향상된 경험 작성기]를 사용하십시오.
+[!UICONTROL Enhanced Experience Composer]은(는) [!DNL Target] 구현을 아직 포함하지 않는 iframe 버스팅 사이트 또는 페이지의 경험을 편집하는 데 도움이 되는 [!UICONTROL Visual Experience Composer]의 확장입니다. [!UICONTROL Visual Experience Composer]에서 페이지를 여는 데 문제가 있으면 [!UICONTROL Enhanced Experience Composer]을(를) 사용해 보세요.
 
 **Enterprise 사용자 권한**
 
@@ -170,7 +170,7 @@ Target에 대한 엔터프라이즈급 사용자 액세스를 공식적으로 �
 
 **경험 타기팅**
 
-경험 타깃팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 컨텐츠를 특정 대상에 전달합니다.
+경험 타기팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 
 ## F {#section_45450032955C4DD2B607B85A23C4E21A}
 
@@ -196,7 +196,7 @@ Target Standard의 활동에 대한 시각적 표시입니다.
 
 성공적인 활동을 신호로 보내는 전환 또는 결과입니다. 몇 가지 특정 방법으로 개선할 목표가 없으면 테스트를 실행하지 않는 것이 좋습니다.
 
-## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## 시간 {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **호스트**
 

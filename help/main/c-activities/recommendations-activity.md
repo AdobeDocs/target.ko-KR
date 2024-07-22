@@ -1,6 +1,6 @@
 ---
 keywords: 권장 사항
-description: Adobe에서 Recommendations 활동에 대한 정보 찾기 [!DNL Target] 이전 사용자 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시할 수 있습니다.
+description: 이전 Adobe 활동을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시하는  [!DNL Target] 의 Recommendations 활동에 대한 정보를 찾으십시오.
 title: Recommendations 활동에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Recommendations
 exl-id: e4bc6e3b-a84d-4a8f-988e-a7f734892963

@@ -6,8 +6,8 @@ feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '1527'
-ht-degree: 99%
+source-wordcount: '1523'
+ht-degree: 98%
 
 ---
 
@@ -79,7 +79,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 예를 들어 웹 페이지는 방문자가 전에 사이트에 왔었는지 여부에 따라 두 오퍼 중 하나를 표시할 수 있습니다.
 
-An *경험* 특정 조건이 충족될 경우 표시되는 콘텐츠를 결정합니다.
+*경험*&#x200B;은(는) 특정 조건이 충족될 때 표시되는 콘텐츠를 결정합니다.
 
 ## 대상자 {#section_3F32DA46BDF947878DD79DBB97040D01}
 

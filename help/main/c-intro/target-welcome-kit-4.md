@@ -13,7 +13,7 @@ ht-degree: 72%
 
 # 4장: Target 사용을 위한 팁
 
-다수와 함께 한 작업 기반 [!DNL Target] 사용자, 이(가) 를 통해 더 많은 가치를 얻을 수 있는 방법을 발견했습니다. [!DNL Target] 해결책. 이 장에 포함된 많은 팁에 이러한 정보를 요약했습니다. 이러한 아이디어를 당장 모두 사용할 준비가 되지 않았더라도 이 목록을 계속 유지하십시오. 솔루션에 대한 경험이 풍부해지고 프로그램의 완성도가 높아질수록 이러한 팁을 통해에서 더 많은 성과를 거둘 수 있는 방법에 대해 알게 될 것입니다 [!DNL Target].
+많은 [!DNL Target] 사용자와의 작업을 기반으로 [!DNL Target] 솔루션을 통해 더 많은 가치를 얻을 수 있는 방법을 알아냈습니다. 이 장에 포함된 많은 팁에 이러한 정보를 요약했습니다. 이러한 아이디어를 당장 모두 사용할 준비가 되지 않았더라도 이 목록을 계속 유지하십시오. 솔루션에 대한 경험이 풍부해지고 프로그램의 완성도가 높아질수록 이러한 팁을 통해 [!DNL Target]을(를) 통해 더 많은 성과를 거둘 수 있는 방법에 대해 알게 될 것입니다.
 
 ## 팁 1: 방문자 프로필을 추가 데이터로 보강하여 개인화를 심화합니다.
 
@@ -25,7 +25,7 @@ ht-degree: 72%
 
 **알아 둘 사항**: [!DNL Target] 은 다양한 기술과 잘 작동하는 개방적이고 독립적인 플랫폼이기 때문에 CRM 또는 구매한 데이터를 다양한 방법으로 추가할 수 있습니다. 즉, 조직에 가장 적합한 방법을 선택할 수 있습니다.
 
-다음을 참조하십시오 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} 추가 정보.
+자세한 내용은 [데이터를 Target으로 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}을 참조하십시오.
 
 ## 팁 2: [!DNL Target] 대상을 다른 Adobe Experience Cloud 대상과 혼합하여 보다 심층적으로 개인화할 수 있습니다.
 
@@ -33,11 +33,11 @@ ht-degree: 72%
 
 단계별 지침은 [여러 대상 결합](/help/main/c-target/combining-multiple-audiences.md) 을 참조하십시오.
 
-**알아 둘 사항**: [!DNL Adobe Audience Manager] 대상은 [!DNL Target] 에서 자동으로 사용할 수 있습니다. 그러나 [!DNL Adobe Analytics] 대상을 공유하려면 약간의 수동 설정이 필요합니다. 의 대상 구축 프로세스 중에 &quot;Experience Cloud 대상으로 만들기&quot; 상자를 선택하면 됩니다. [!DNL Analytics]. 다음 이후 [!DNL Target], &quot;Experience Cloud 대상자 가져오기&quot;를 클릭합니다.
+**알아 둘 사항**: [!DNL Adobe Audience Manager] 대상은 [!DNL Target] 에서 자동으로 사용할 수 있습니다. 그러나 [!DNL Adobe Analytics] 대상을 공유하려면 약간의 수동 설정이 필요합니다. [!DNL Analytics]의 대상 작성 프로세스 중에 &quot;Experience Cloud 대상으로 만들기&quot; 상자를 선택하면 됩니다. 그런 다음 [!DNL Target]에서 &quot;Experience Cloud 대상자 가져오기&quot;를 클릭합니다.
 
 ## 팁 3: 서드파티 도구에서 사용할 데이터를 [!DNL Target]에서 내보냅니다.
 
-응답 토큰을 사용하면 관리자는 [!DNL Target] 에서 서드파티 도구로 데이터를 쉽게 가져올 수 있습니다. 이 기능은 설문 조사 도구에서 수집된 데이터에 사용자 데이터를 추가하려는 경우에 유용합니다. 예를 들어 설문 조사에서 한 모집단의 표본이 경험을 &quot;9&quot;로 채점하고 다른 표본이 경험을 &quot;4&quot;로 채점한 경우, 사용자 데이터를 사용하여 누가 경험 A를 보았고 누가 경험 B를 보았는지 확인할 수 있습니다. 응답 토큰을 사용하여 내보낼 수도 있습니다 [!DNL Target] 데이터를 내부 data warehouse에 보냅니다. &quot;관리&quot;를 클릭한 다음 원하는 응답 토큰 옆에 있는 스위치를 켜짐 위치로 전환하면 됩니다. 그런 다음 활동을 생성합니다. 그런 다음 데이터를 서드파티 공급업체로 전송할 수 있습니다. [!DNL Target] 에서 디버깅 도구를 사용하여 데이터를 내보내고 있는지 확인할 수 있습니다.
+응답 토큰을 사용하면 관리자는 [!DNL Target] 에서 서드파티 도구로 데이터를 쉽게 가져올 수 있습니다. 이 기능은 설문 조사 도구에서 수집된 데이터에 사용자 데이터를 추가하려는 경우에 유용합니다. 예를 들어 설문 조사에서 한 모집단의 표본이 경험을 &quot;9&quot;로 채점하고 다른 표본이 경험을 &quot;4&quot;로 채점한 경우, 사용자 데이터를 사용하여 누가 경험 A를 보았고 누가 경험 B를 보았는지 확인할 수 있습니다. 응답 토큰을 사용하여 [!DNL Target] 데이터를 내부 데이터 웨어하우스로 내보낼 수도 있습니다. &quot;관리&quot;를 클릭한 다음 원하는 응답 토큰 옆에 있는 스위치를 켜짐 위치로 전환하면 됩니다. 그런 다음 활동을 생성합니다. 그런 다음 데이터를 서드파티 공급업체로 전송할 수 있습니다. [!DNL Target] 에서 디버깅 도구를 사용하여 데이터를 내보내고 있는지 확인할 수 있습니다.
 
 단계별 지침은 [응답 토큰](/help/main/administrating-target/response-tokens.md) 을 참조하십시오.
 
@@ -109,7 +109,7 @@ Target Standard를 사용 중이십니까? 읽기 전용, 편집자 및 승인�
 * 페이지의 전환율은 얼마입니까?
 * 테스트가 완료되었다고 자신 있게 말할 수 있으려면 얼마나 오래 테스트를 실행해야 할 것으로 예상하십니까?
 
-**유용한 팁**: 사용 [!DNL Adobe Target] [샘플 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) 성공적인 테스트에 필요한 샘플 크기를 결정하는 데 도움이 됩니다.
+**유용한 팁**: [!DNL Adobe Target] [표본 크기 계산기](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)를 사용하여 성공적인 테스트에 필요한 표본 크기를 결정할 수 있습니다.
 
 ## 팁 12: 더 간단한 테스트를 디자인하여 테스트를 만들고 구현할 수 있도록 하십시오.
 

@@ -1,7 +1,7 @@
 ---
 keywords: 카탈로그 검색;카탈로그;검색;제외;컬렉션;필터;권장 사항
-description: 사용 방법 알아보기 [!DNL Recommendations] [!UICONTROL Catalog Search] 제품 또는 콘텐츠를 찾으려면 카탈로그에서 항목을 제거하는 등의 작업을 수행하십시오.
-title: 사용 방법 [!DNL Recommendations] [!UICONTROL Catalog Search]?
+description: ' [!DNL Recommendations] [!UICONTROL Catalog Search]을(를) 사용하여 제품 또는 콘텐츠를 찾고 카탈로그에서 항목을 제거하는 방법에 대해 알아봅니다.'
+title: ' [!DNL Recommendations] [!UICONTROL Catalog Search]을(를) 사용하는 방법'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 hide: true
@@ -16,21 +16,21 @@ ht-degree: 21%
 
 # [!UICONTROL Catalog Search]
 
-다음 [!UICONTROL Catalog Search] 페이지 위치 [!DNL Adobe Recommendations] 은 카탈로그에서 제품 또는 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고 패싯을 필터링하고 테이블에서 열을 수정하고 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.
+[!DNL Adobe Recommendations]의 [!UICONTROL Catalog Search] 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고 패싯을 필터링하고 테이블에서 열을 수정하고 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.
 
 카탈로그는 전체 제품 세트(엔티티)를 나타냅니다. 카탈로그에는 제품을 논리 버킷으로 구성하는 여러 컬렉션이 포함될 수 있습니다.
 
-## 액세스 [!UICONTROL Catalog Search]
+## [!UICONTROL Catalog Search] 액세스
 
-에 액세스하려면 [!UICONTROL Catalog Search] 페이지, 클릭 **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
+[!UICONTROL Catalog Search] 페이지에 액세스하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**&#x200B;을(를) 클릭합니다.
 
 ![카탈로그 검색 페이지](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
 
 ## 단순 검색 수행
 
-1. 에 검색어 입력 **[!UICONTROL Search In]** 필드.
+1. **[!UICONTROL Search In]** 필드에 검색어를 입력하십시오.
 
-1. (선택 사항) 의 아래쪽 화살표를 클릭할 때 표시되는 옵션 메뉴에서 검색 옵션을 선택하여 검색을 개선할 수 있습니다 [!UICONTROL Search In] 필드.
+1. (선택 사항) [!UICONTROL Search In] 필드의 아래쪽 화살표를 클릭하면 표시되는 옵션 메뉴에서 검색 옵션을 선택하여 검색을 개선할 수 있습니다.
 
    검색 옵션에는 다음이 포함됩니다.
 
@@ -46,7 +46,7 @@ ht-degree: 21%
    >
    >현재 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면 문자열에서 숫자로 유형을 변경해야 하는 특성을 참조하는 [고객 문제를 여십시오](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-   필터를 사용하여 원하는 제품을 찾을 수도 있습니다. 예를 들어 **[!UICONTROL Show Filters]** 아이콘( ![필터 표시 아이콘](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ), 확장 [!UICONTROL Collections] facet을 선택한 다음 하나 이상의 컬렉션을 선택하면 카탈로그에서 선택한 컬렉션에 속하는 모든 제품이 표시됩니다.
+   필터를 사용하여 원하는 제품을 찾을 수도 있습니다. 예를 들어 **[!UICONTROL Show Filters]** 아이콘(![필터 표시 아이콘](/help/main/c-recommendations/c-products/assets/icon-show-filters.png))을 클릭하고 [!UICONTROL Collections] 패싯을 확장한 다음 하나 이상의 컬렉션을 선택하면 카탈로그에서 선택한 컬렉션에 속하는 모든 제품이 표시됩니다.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -88,7 +88,7 @@ ID, 이름, 메시지, 범주 등을 포함한 개별 항목의 세부 사항을
 
 ## 카탈로그 새로 고침
 
-카탈로그의 색인은 첫 번째 피드를 업로드할 때 자동으로 만들어지고 다음에 따라 새로 고쳐집니다. [지정된 일정](/help/main/c-recommendations/c-products/feeds.md#steps).
+첫 번째 피드를 업로드할 때 카탈로그의 색인이 자동으로 만들어지고 [지정된 일정](/help/main/c-recommendations/c-products/feeds.md#steps)에 따라 새로 고쳐집니다.
 
 피드 파일, API 또는 mbox 업데이트를 통해 업데이트가 수신되면 카탈로그가 자동으로 새로고침됩니다. 업데이트는 일반적으로 1시간 이내에 완료됩니다. 업데이트가 진행 중인 경우 가장 최근 업데이트가 시작된 시간이 표시됩니다. 진행 중인 업데이트가 없으면 가장 최근 업데이트가 시작되고 완료된 시간이 표시됩니다.
 
@@ -108,11 +108,11 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 ## 환경 변경
 
-[환경](/help/main/administrating-target/environments.md) 간편한 관리 및 개별 보고를 위해 사이트 및 사전 프로덕션 환경을 구성할 수 있습니다.
+[환경](/help/main/administrating-target/environments.md)을 사용하면 쉽게 관리하고 개별적으로 보고할 수 있도록 사이트와 사전 프로덕션 환경을 구성할 수 있습니다.
 
-1. 필터 표시 아이콘( ![필터 표시 아이콘](/help/main/c-recommendations/c-products/assets/icon-show-filters.png) ).
+1. 필터 표시 아이콘(![필터 표시 아이콘](/help/main/c-recommendations/c-products/assets/icon-show-filters.png))을 클릭합니다.
 
-1. 에서 원하는 환경을 선택합니다. **[!UICONTROL Environment]** 드롭다운 목록입니다.
+1. **[!UICONTROL Environment]** 드롭다운 목록에서 원하는 환경을 선택합니다.
 
 <!-- ## Modify the Catalog Search page (filters and columns)
 
@@ -134,9 +134,9 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 열 수정
 
-에서 활성 열을 일시적으로 수정할 수 있습니다. [!UICONTROL Catalog Search] 페이지를 가리키도록 업데이트하는 중입니다.
+[!UICONTROL Catalog Search] 페이지에서 활성 열을 일시적으로 수정할 수 있습니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Customize Table]** 아이콘(  ![표 맞춤화 아이콘](/help/main/c-recommendations/c-products/assets/icon-customize-table.png) ).
+1. **[!UICONTROL Customize Table]** 아이콘(![표 사용자 지정 아이콘](/help/main/c-recommendations/c-products/assets/icon-customize-table.png))을 클릭합니다.
 
 1. 표시하거나 숨길 열을 선택하거나 선택 취소합니다.
 

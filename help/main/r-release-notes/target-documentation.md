@@ -5,9 +5,9 @@ title: ' [!DNL Adobe Target]에 대한 설명서와 리소스는 어디에서 �
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
-workflow-type: ht
-source-wordcount: '408'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '407'
+ht-degree: 97%
 
 ---
 

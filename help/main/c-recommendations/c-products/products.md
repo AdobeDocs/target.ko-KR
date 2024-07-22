@@ -1,14 +1,14 @@
 ---
 keywords: 제품;컬렉션
-description: Adobe의 엔티티에 대해 알아보기 [!DNL Target] Recommendations. 엔티티는 다음을 사용하여 권장할 항목을 참조합니다. [!DNL Target]기사, 동영상 또는 제품 등
+description: Adobe [!DNL Target] Recommendations의 엔터티에 대해 알아봅니다. 엔터티는 기사, 동영상 또는 제품과 같이  [!DNL Target]을(를) 사용하여 추천할 항목을 참조합니다.
 title: 엔티티를 사용하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '104'
-ht-degree: 74%
+source-wordcount: '114'
+ht-degree: 68%
 
 ---
 

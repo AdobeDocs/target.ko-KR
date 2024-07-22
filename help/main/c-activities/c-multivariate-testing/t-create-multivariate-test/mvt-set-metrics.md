@@ -1,32 +1,32 @@
 ---
 keywords: 다변량;mvt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;수입;참여
-description: '에서 지표를 지정하는 방법 알아보기 [!DNL Adobe Target] [!UICONTROL 다변량 테스트] 활동은 방문이 성공적으로 수행된 시기를 확인합니다. 예: [!UICONTROL 전환], [!UICONTROL 매출], 및 [!UICONTROL 참여].'
-title: 에서 목표 지표를 설정하는 방법 [!UICONTROL 다변량 테스트] (MVT) 활동
+description: '[!UICONTROL Conversion], [!UICONTROL Revenue] 및 [!UICONTROL Engagement]과(와) 같이 방문이 성공적으로 수행된 시기를 결정하기 위해  [!DNL Adobe Target] [!UICONTROL Multivariate Test] 활동에서 지표를 지정하는 방법을 알아봅니다.'
+title: '[!UICONTROL Multivariate Test](MVT) 활동에서 목표 지표를 설정하려면 어떻게 합니까?'
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
 workflow-type: tm+mt
-source-wordcount: '348'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 60%
 
 ---
 
-# 다음에 대한 지표 설정 [!UICONTROL 다변량 테스트] 활동
+# [!UICONTROL Multivariate Test] 활동에 대한 지표 설정
 
-에서 지표 사용 [!DNL Adobe Target] [!UICONTROL 다변량 테스트] 방문이 성공적으로 수행된 시기를 확인합니다.
+[!DNL Adobe Target] [!UICONTROL Multivariate Test]의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 
-성공 지표에 대한 자세한 내용은 을 참조하십시오. [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+성공 지표에 대한 자세한 내용은 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 
 1. 활동의 목표를 지정합니다.
 1. [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
 
    ![지표 설정 목록](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
-   다음 [!UICONTROL 지표 선택] 페이지에는 활동에 대해 선택할 수 있는 성공 지표가 나열됩니다. 성공 지표는 다음 카테고리로 구분됩니다.
+   [!UICONTROL Select Metrics] 페이지에 활동에 대해 선택할 수 있는 성공 지표가 나열됩니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
-   * [!UICONTROL 변환]
-   * [!UICONTROL 매출 ]
-   * [!UICONTROL 참여]
+   * [!UICONTROL Conversion]
+   * [!UICONTROL Revenue]
+   * [!UICONTROL Engagement]
 
    사전 빌드된 지표 중 하나를 사용하거나 사용자 지정 성공 지표를 만들 수 있습니다. 성공 지표를 기본 지표로 표시할 수도 있습니다. 기본 측정 항목(설정된 경우)을 표시하려면 Experience Cloud 카드 기본값을 보고합니다.
 
@@ -34,15 +34,14 @@ ht-degree: 67%
 
    사용 가능한 설정은 사용 중인 성공 지표에 따라 다릅니다.
 
-   [!UICONTROL 전환 예상값] 필드가 활성화되어 있으면(페이지 점수 지표에는 사용할 수 없음) 목표값이 표시됩니다.  이 값을 통해 [!DNL Target]이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 데이터 유형은 통화입니다. 이 필드는 사용자가 목표를 충족하기 위해 수행한 작업을 지정한 후에 점진적으로 표시됩니다. 자세한 내용은 [매출 상승도 평가](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오.
+   사용하도록 설정하면 [!UICONTROL Estimated Value of the Conversion] 필드([!UICONTROL Page Score] 지표에 사용할 수 없음)에 목표 값이 제공됩니다. 이 값을 통해 [!DNL Target]이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 데이터 유형은 통화입니다. 이 필드는 사용자가 목표를 충족하기 위해 수행한 작업을 지정한 후에 점진적으로 표시됩니다. 자세한 내용은 [매출 상승도 평가](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오.
 
    예상한 데이터를 가져오기 위해서는 성공 지표를 올바르게 구성해야 합니다.
 
    자세한 내용은 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오
 
 1. (선택 사항) 추가 지표를 추가합니다.
-1. 지표 설정이 끝나면 **[!UICONTROL 계속]**을 클릭합니다.
-
+1. 지표 설정이 끝나면 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
 
 지표의 이름을 지정하거나 지표의 이름을 바꾸는 경우 다음 문자가 허용되지 않습니다.
 
@@ -62,7 +61,7 @@ ht-degree: 67%
 이 비디오에는 성공 지표 사용에 대한 정보가 포함되어 있습니다.
 
 * &quot;목표&quot; 지표 이해
-* 이해 및 구축 [!UICONTROL 전환], [!UICONTROL 매출], 및 [!UICONTROL 참여] 지표
+* [!UICONTROL Conversion], [!UICONTROL Revenue] 및 [!UICONTROL Engagement] 지표 이해 및 작성
 * 클릭 추적 지표 빌드
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)

@@ -1,25 +1,25 @@
 ---
 keywords: css 선택기;사용자 지정 코드;코드 편집기;모바일 웹 경험 편집기
-description: Adobe에서 수정 사항 패널을 사용하는 방법 알아보기 [!DNL Target] 페이지 수정 사항을 보고 추가 수정 사항(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가합니다.
+description: ' [!DNL Target]  Adobe의 수정 사항 패널을 사용하여 페이지 수정 사항을 보고 추가 수정 사항(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가하는 방법에 대해 알아봅니다.'
 title: 내 페이지를 어떻게 수정할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '2250'
-ht-degree: 87%
+source-wordcount: '2207'
+ht-degree: 72%
 
 ---
 
 # 수정 사항
 
-에 대한 정보 [!UICONTROL 수정 사항] 페이지 위치 [!DNL Adobe Target] 을 사용하면 페이지에 대한 수정 사항을 보고 추가 수정 사항(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가할 수 있습니다.
+페이지에 대한 수정 사항을 보고 추가 수정 사항(CSS 선택기, Mbox 및 사용자 지정 코드)을 추가할 수 있는 [!DNL Adobe Target]의 [!UICONTROL Modifications] 페이지에 대한 정보입니다.
 
-다음 [!UICONTROL 수정 사항] page에는 VEC(시각적 경험 작성기)에서 페이지에 수행된 모든 변경 사항이 표시되며, 이를 통해 페이지에서 각 요소를 클릭하고 [작업 선택](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). 각 변경 사항은 [!UICONTROL 수정 사항] 목록에서 별도의 작업 또는 요소로 표시됩니다. CSS 선택기, Mbox 및 사용자 지정 코드 수정 유형을 포함하여 수정 사항을 추가할 수도 있습니다.
+[!UICONTROL Modifications] 페이지에는 VEC(시각적 경험 작성기)에서 페이지에 적용된 모든 변경 내용이 표시되며, 이를 통해 페이지에서 각 요소를 클릭하고 [작업을 선택](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)하여 추가로 변경할 수 있습니다. 각각의 변경 내용은 [!UICONTROL Modifications] 목록에 별도의 동작 또는 요소로 나타납니다. CSS 선택기, Mbox 및 사용자 지정 코드 수정 유형을 포함하여 수정 사항을 추가할 수도 있습니다.
 
 ## 수정 사항 개요 {#section_EE27E7572AA74397BBDED563B2B3D509}
 
-[!UICONTROL 수정 사항] 페이지에는 VEC에서 페이지에 수행한 모든 변경 사항이 표시됩니다. 각 변경 사항은 [!UICONTROL 수정 사항] 목록에서 별도의 작업 또는 요소로 표시됩니다. 
+[!UICONTROL Modifications] 페이지에는 VEC에서 페이지에 적용된 모든 변경 내용이 표시됩니다. 각각의 변경 내용은 [!UICONTROL Modifications] 목록에 별도의 동작 또는 요소로 나타납니다.
 
 ![codeeditor_page_mods 이미지](assets/codeeditor_page_mods.png)
 
@@ -29,74 +29,74 @@ ht-degree: 87%
 
 * 시각적 작성기에서 수행된 작업 보기.
 
-   ![codeeditor_viewchange 이미지](assets/codeeditor_viewchange.png)
+  ![codeeditor_viewchange 이미지](assets/codeeditor_viewchange.png)
 
-* 기존 작업 편집. 원하는 수정 사항을 마우스로 가리킨 다음, **[!UICONTROL 편집]** 아이콘을 클릭합니다.
+* 기존 작업 편집. 원하는 수정 사항을 마우스로 가리킨 다음 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
 
-   ![codeeditor_edit 이미지](assets/codeeditor_edit.png)
+  ![codeeditor_edit 이미지](assets/codeeditor_edit.png)
 
-   변경 작업을 수행합니다.
+  변경 작업을 수행합니다.
 
-   ![codeeditor_changechange1 이미지](assets/codeeditor_changechange1.png)
+  ![codeeditor_changechange1 이미지](assets/codeeditor_changechange1.png)
 
-* 기존 작업 삭제. 원하는 수정 사항을 마우스로 가리킨 다음, **[!UICONTROL 삭제]** 아이콘을 클릭합니다.
+* 기존 작업을 삭제합니다. 원하는 수정 사항을 마우스로 가리킨 다음 **[!UICONTROL Delete]** 아이콘을 클릭합니다.
 
-   ![codeditor_delete 이미지](assets/codeditor_delete.png)
+  ![codeditor_delete 이미지](assets/codeditor_delete.png)
 
-* 새 수정 사항을 추가합니다. **[!UICONTROL 수정 사항 추가]** 또는 + 아이콘을 클릭한 다음 아래에 설명된 대로 변경 사항을 지정합니다.
+* 새 수정 사항을 추가합니다. **[!UICONTROL Add Modification]** 또는 + 아이콘을 클릭한 다음 아래에 설명된 대로 변경 사항을 지정합니다.
 
-   ![codeeditor_new image](assets/codeeditor_new.png)
+  ![codeeditor_new image](assets/codeeditor_new.png)
 
-   한 개의 수정 사항이 작성되면 Target에는 패널 하단에 수정 사항 추가 단추 대신 수정 사항 패널 상단에 + 아이콘을 표시됩니다.
+  한 개의 수정 사항이 작성되면 Target에는 패널 하단에 수정 사항 추가 단추 대신 수정 사항 패널 상단에 + 아이콘을 표시됩니다.
 
-* 수정 사항 패널을 Target UI의 측면에 세로로 또는 맨 아래에 가로로 고정합니다. [!UICONTROL 고정] 아이콘을 클릭하여 두 설정 간에 전환합니다.
+* 수정 사항 패널을 Target UI의 측면에 세로로 또는 맨 아래에 가로로 고정합니다. [!UICONTROL Dock] 아이콘을 클릭하여 두 설정 간을 전환합니다.
 
-   ![codeditor_dock 이미지](assets/codeditor_dock.png)
+  ![codeditor_dock 이미지](assets/codeditor_dock.png)
 
-   다음 그림은 화면 맨 아래에 고정된 수정 사항 패널을 보여 줍니다.
+  다음 그림은 화면 맨 아래에 고정된 수정 사항 패널을 보여 줍니다.
 
-   ![codeeditor_dock_bottom 이미지](assets/codeeditor_dock_bottom.png)
+  ![codeeditor_dock_bottom 이미지](assets/codeeditor_dock_bottom.png)
 
 ## 수정 사항 추가 {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
-1. 선택한 경험에 대한 [!UICONTROL 수정 사항] 페이지를 표시하려면 VEC에서 **[!UICONTROL 수정 사항]** &lt;/> 아이콘을 클릭합니다.
+1. 선택한 경험에 대한 [!UICONTROL Modifications] 페이지를 표시하려면 VEC에서 **[!UICONTROL Modifications]** &lt;/> 아이콘을 클릭합니다.
 
-   ![codeeditor_icon_big 이미지](assets/codeeditor_icon_big.png)
+   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
    >양식 기반 경험 작성기에서 수정 사항 패널을 열려면 HTML 오퍼를 작성하거나 편집하십시오. 자세한 내용은 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)를 참조하십시오.
 
-   [!UICONTROL 수정 사항] 페이지가 열리고 왼쪽의 시각적 모드와 오른쪽의 수정 사항 패널 사이에 화면이 분할됩니다. [!UICONTROL 고정] 아이콘을 클릭하여 수정 사항 패널을 Target UI의 측면에 세로로 또는 하단에 가로로 고정할 수 있습니다. 다음 그림에 있는 경험 A에는 이전 수정 사항이 없습니다.
+   [!UICONTROL Modifications] 페이지가 열리고 왼쪽의 시각적 모드와 오른쪽의 수정 패널 사이에 화면이 분할됩니다. [!UICONTROL Dock] 아이콘을 클릭하여 수정 사항 패널을 Target UI의 측면에 세로로 또는 맨 아래에 가로로 고정할 수 있습니다. 다음 그림에 있는 경험 A에는 이전 수정 사항이 없습니다.
 
    ![codeeditor_page 이미지](assets/codeeditor_page.png)
 
-   경험 B에는 오른쪽의 [!UICONTROL 수정 사항] 패널에 이전 수정 사항이 표시됩니다.
+   환경 B는 오른쪽의 [!UICONTROL Modifications] 패널에서 이전에 수정한 내용을 보여 줍니다.
 
    ![codeeditor_page_mods 이미지](assets/codeeditor_page_mods.png)
 
 1. 수정 사항을 추가하려면 다음을 수행하십시오.
 
-   * 경험에 대한 이전 수정 사항이 작성되지 않은 경우 오른쪽의 **[!UICONTROL 수정 사항]** 패널 하단에 있는 [!UICONTROL 수정 사항 추가] 단추를 클릭하십시오.
-   * 경험에 대한 이전 수정 사항이 있는 경우 오른쪽의 [!UICONTROL 수정 사항] 패널 상단에 있는 + 아이콘을 클릭하십시오.
+   * 경험에 대한 이전 수정 사항이 작성되지 않은 경우 오른쪽의 [!UICONTROL Modifications] 패널 하단에 있는 **[!UICONTROL Add Modification]** 단추를 클릭하십시오.
+   * 경험에 대한 이전 수정 사항이 있는 경우 오른쪽의 [!UICONTROL Modifications] 패널 상단에 있는 + 아이콘을 클릭합니다.
 
    수정 패널에 표시되는 정보는 다음과 같습니다.
 
-   ![codeeditor_page_mods_add 이미지](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
-1. **[!UICONTROL 수정 유형]** 드롭다운 목록에서 원하는 유형을 선택합니다.
+1. **[!UICONTROL Modifications Type]** 드롭다운 목록에서 원하는 형식을 선택합니다.
 
    | 수정 유형 | 세부 사항 |
    |--- |--- |
    | CSS 선택기 | CSS 요소 선택기 상자에서 수정할 CSS 요소를 지정하고, 작업 유형(컨텐츠 설정 또는 속성 설정)을 선택한 다음 필수 정보와 원하는 컨텐츠를 입력합니다. |
-   | Mbox | mbox 이름과 원하는 컨텐츠를 지정합니다.<p>**참고**: Mbox는 at.js 2를 사용하는 페이지의 VEC에서 더 이상 지원되지 않습니다.*x*.<p>해결 방법으로:<ul><li>at.js 2를 사용하는 경우&#x200B;*x*&#x200B;를 클릭하고 Mbox 수정 대신 CSS 선택기 수정 사항을 추가한 다음 mbox가 사용 중인 선택기에 콘텐츠를 추가합니다. </li><li>양식 기반 활동 사용(mbox 및 at.js 1에서 작동)*x* 및 at.js 2.*x*).</li><li>at.js 1.*x* VEC에서</li></ul> |
-   | 사용자 지정 코드 | 원하는 대로 [!UICONTROL `<HEAD>` 섹션에 코드 추가] 확인란을 선택하거나 선택 취소한 다음 사용자 지정 코드를 추가합니다.<p>[!UICONTROL `<HEAD>` 섹션에 코드 추가]를 선택한 경우 사용자 지정 코드가 `<head>` 섹션에 추가되며, 본문 또는 페이지 로드 이벤트를 기다리지 않고 실행됩니다. `<script>` 및 `<style>` 요소만 추가합니다. `<div>` 태그 및 기타 요소를 추가하면 나머지 `<head>` 요소가 `<body>`에 들어갈 수 있습니다. at.js를 사용하는 경우 모든 오퍼가 비동기적으로 전달됩니다.<p> [!UICONTROL `<HEAD>`섹션에 코드 추가]를 선택 취소한 경우 `<body>` 태그 바로 다음에 사용자 지정 코드가 바로 실행됩니다. DOM 구조를 유지하려면 단일 `<div>`에 있는 모든 코드를 줄바꿈하십시오. at.js를 사용하는 경우 모든 오퍼가 비동기적으로 전달됩니다.<p>HTML 대상 `<BODY>` 다음 포함 `<SCRIPT>` 및 `<DIV>`, 그런 다음 `<DIV>` 다음에 추가됨 `<BODY>` 및 `<SCRIPT>` 실행 위치: `<HEAD>`. 또한, `<SCRIPT>` 외부 파일을 로드하는 경우 `<HEAD>`.<p>**참고**: 스크립트는 비동기적으로 실행됩니다. 이것은 예를 들어 `document.write`이나 유사한 스크립트 메서드를 사용할 수 없음을 의미합니다.<p>사용자 지정 코드에서는 VEC, 양식 기반 경험 작성기 및 HTML 오퍼 편집기 내에서 새로운 작업을 보고 편집하고 추가할 수 있는 비시각적 인터페이스를 사용할 수 있습니다. 이 패널에서는 경험의 코드를 볼 수 있으므로 더 복잡한 경험을 빌드하고 기존 경험을 미세 조정하고 문제를 해결하는 데 도움이 됩니다.<p>사용자 지정 코드는 HTML, JavaScript 및 CSS에 익숙한 고급 사용자를 위한 것입니다. 코드 보기는 변경 사항을 수정하거나 미세 조정하거나 선택기 문제를 해결하는 데 도움이 될 수 있습니다. 새로운 사용자 지정 코드 및 작업을 추가하는 데 사용할 수도 있습니다. 사용자 지정 코드를 두 개 이상 추가하고, 선택적으로 각 사용자 지정 코드에 이름을 지정할 수 있습니다.<p>**참고**: 사용자 지정 코드는 현재 A/B 및 경험 타깃팅(XT) 활동에만 사용할 수 있습니다. 사용자 지정 코드는 오버레이에 사용할 수 없으며, 리디렉션이 적용되는 경우에도 사용할 수 없습니다.<p>사용자 지정 코드는 다음과 같이 사용하는 경우 지원합니다.<ul><li>페이지의 맨 위에서 실행할 사용자 지정 JavaScript, HTML 또는 CSS 추가</li><li>수정 후에 VEC로 생성된 코드를 보거나 편집</li><li>선택기에 대한 HTML 컨텐츠 설정(CSS 선택기만 해당)</li><li>HTML 요소에 속성 설정</li><li>지역 mbox에서 전달할 오퍼 컨텐츠 추가</li><li>DOM Ready 시 교체, jQuery 사용</li><li>DOM Ready 시 교체, jquery 없음(Internet Explorer 8을 지원하지 않음)</li><li>&quot;elementOnLoad&quot; 플러그인을 통해 DOM 폴링으로 교체</li><li>사용자 지정 리디렉션</li></ul>사용자 지정 코드는 다음을 제공합니다.<ul><li>유용성 개선을 위한 라인 번호.</li><li>HTML 오퍼에 잘못된 구문을 방지하는 데 도움이 되는 구문 강조 표시.</li><li>여러 사용자 지정 코드를 작성하고 각각에 대한 선택적 이름을 제공하는 기능입니다. 여러 사용자 지정 코드를 만들면 이후에 디버깅이 쉬워집니다. 예를 들어 여러 수정을 수행하기 위해 단일 사용자 지정 코드를 만드는 대신, 설명이 포함된 이름을 사용하여 각 수정 사항에 대한 별도의 사용자 지정 코드를 만들 수 있습니다. 별도의 사용자 지정 코드를 사용하면 더 많은 모듈을 수정하고 관리할 수 있습니다. 활동에서 여러 사용자 지정 코드 실행은 코드가 작성된 순서대로 실행되는 것은 아닙니다.</li></ul>수정 사항 패널은 시각적 모드와 코드 모드 사이의 화면을 분할합니다. 두 모드는 동기화된 채 유지됩니다. 시각적으로 수행된 모든 수정 사항에는 해당하는 행이 코드 보기에 있습니다. 마찬가지로 코드 보기에서 수행된 모든 변경 사항은 시각적 경험에 표시됩니다. 코드 보기에서 행을 클릭하면 표시 모드 페이지에서 해당 요소가 선택됩니다.<p>사용자 지정 코드는 HTML, 스크립트 및 스타일을 지원합니다. 모든 유효한 HTML 코드나 스크립트는 추가하거나 편집할 수 있습니다. |
+   | Mbox | mbox 이름과 원하는 컨텐츠를 지정합니다.<p>**참고**: Mbox는 at.js 2를 사용하는 페이지의 VEC에서 더 이상 지원되지 않습니다.*x*.<p>해결 방법으로:<ul><li>at.js 2를 사용하는 경우&#x200B;*x*&#x200B;에서 Mbox 수정 사항 대신 CSS 선택기 수정 사항을 추가하고 mbox에서 사용 중인 선택기에 콘텐츠를 추가합니다. </li><li>양식 기반 활동 사용(mbox 및 at.js 1에서 작동)*x*&#x200B;와 at.js 2 모두에 있는 Hide Body(본문 숨기기) 및 Show Body(본문 표시) 호출을 보여줍니다.*x*).</li><li>at.js 1.VEC의 *x*.</li></ul> |
+   | 사용자 지정 코드 | 원하는 대로 [!UICONTROL Add Code in the `<HEAD>` 섹션] 확인란을 선택하거나 선택 취소한 다음 사용자 지정 코드를 추가합니다.<p>[!UICONTROL Add Code in the `<HEAD>` 섹션]을(를) 선택하면 사용자 지정 코드가 `<head>` 섹션에 추가되고 본문 또는 페이지 로드 이벤트를 기다리지 않고 실행됩니다. `<script>` 및 `<style>` 요소만 추가합니다. `<div>` 태그 및 기타 요소를 추가하면 나머지 `<head>` 요소가 `<body>`에 들어갈 수 있습니다. at.js를 사용하는 경우 모든 오퍼가 비동기적으로 전달됩니다.<p> [!UICONTROL Add Code in the `<HEAD>` Section]의 선택을 취소하면 `<body>` 태그 바로 다음에 사용자 지정 코드가 바로 실행됩니다. DOM 구조를 유지하려면 단일 `<div>`에 있는 모든 코드를 줄바꿈하십시오. at.js를 사용하는 경우 모든 오퍼가 비동기적으로 전달됩니다.<p>`<BODY>`에 대한 HTML에 `<SCRIPT>` 및 `<DIV>`이(가) 포함된 경우 `<DIV>`이(가) `<BODY>`에 추가되고 `<SCRIPT>`이(가) `<HEAD>`에서 실행됩니다. 또한 외부 파일을 로드하는 `<SCRIPT>`이(가) `<HEAD>`에 추가됩니다.<p>**참고**: 스크립트가 비동기적으로 실행됩니다. 이것은 예를 들어 `document.write`이나 유사한 스크립트 메서드를 사용할 수 없음을 의미합니다.<p>사용자 지정 코드에서는 VEC, 양식 기반 경험 작성기 및 HTML 오퍼 편집기 내에서 새로운 작업을 보고 편집하고 추가할 수 있는 비시각적 인터페이스를 사용할 수 있습니다. 이 패널에서는 경험의 코드를 볼 수 있으므로 더 복잡한 경험을 빌드하고 기존 경험을 미세 조정하고 문제를 해결하는 데 도움이 됩니다.<p>사용자 지정 코드는 HTML, JavaScript 및 CSS에 익숙한 고급 사용자를 위한 것입니다. 코드 보기는 변경 사항을 수정하거나 미세 조정하거나 선택기 문제를 해결하는 데 도움이 될 수 있습니다. 새로운 사용자 지정 코드 및 작업을 추가하는 데 사용할 수도 있습니다. 사용자 지정 코드를 두 개 이상 추가하고, 선택적으로 각 사용자 지정 코드에 이름을 지정할 수 있습니다.<p>**참고**: 사용자 지정 코드는 현재 A/B 및 XT(경험 타깃팅) 활동에만 사용할 수 있습니다. 사용자 지정 코드는 오버레이에 사용할 수 없으며, 리디렉션이 적용되는 경우에도 사용할 수 없습니다.<p>사용자 지정 코드는 다음과 같이 사용하는 경우 지원합니다.<ul><li>페이지의 맨 위에서 실행할 사용자 지정 JavaScript, HTML 또는 CSS 추가</li><li>수정 후에 VEC로 생성된 코드를 보거나 편집</li><li>선택기에 대한 HTML 컨텐츠 설정(CSS 선택기만 해당)</li><li>HTML 요소에 속성 설정</li><li>지역 mbox에서 전달할 오퍼 컨텐츠 추가</li><li>DOM Ready 시 교체, jQuery 사용</li><li>DOM Ready 시 교체, jquery 없음(Internet Explorer 8을 지원하지 않음)</li><li>&quot;elementOnLoad&quot; 플러그인을 통해 DOM 폴링으로 교체</li><li>사용자 지정 리디렉션</li></ul>사용자 지정 코드는 다음을 제공합니다.<ul><li>유용성 개선을 위한 라인 번호.</li><li>HTML 오퍼에 잘못된 구문을 방지하는 데 도움이 되는 구문 강조 표시.</li><li>여러 사용자 지정 코드를 작성하고 각각에 대한 선택적 이름을 제공하는 기능입니다. 여러 사용자 지정 코드를 만들면 이후에 디버깅이 쉬워집니다. 예를 들어 여러 수정을 수행하기 위해 단일 사용자 지정 코드를 만드는 대신, 설명이 포함된 이름을 사용하여 각 수정 사항에 대한 별도의 사용자 지정 코드를 만들 수 있습니다. 별도의 사용자 지정 코드를 사용하면 더 많은 모듈을 수정하고 관리할 수 있습니다. 활동에서 여러 사용자 지정 코드 실행은 코드가 작성된 순서대로 실행되는 것은 아닙니다.</li></ul>수정 사항 패널은 시각적 모드와 코드 모드 사이의 화면을 분할합니다. 두 모드는 동기화된 채 유지됩니다. 시각적으로 수행된 모든 수정 사항에는 해당하는 행이 코드 보기에 있습니다. 마찬가지로 코드 보기에서 수행된 모든 변경 사항은 시각적 경험에 표시됩니다. 코드 보기에서 행을 클릭하면 표시 모드 페이지에서 해당 요소가 선택됩니다.<p>사용자 지정 코드는 HTML, 스크립트 및 스타일을 지원합니다. 모든 유효한 HTML 코드나 스크립트는 추가하거나 편집할 수 있습니다. |
 
 1. 필요에 따라 수정 사항을 추가하십시오.
 
 ## 사용자 지정 코드 사용 사례 {#section_26CB3360097D400FB02E20AE5FDBA352}
 
-**[!UICONTROL 사용자 지정 코드]** 패널에는 페이지 로드 시작 시 실행되는 코드가 있습니다.
+**[!UICONTROL Custom Code]** 패널에는 페이지 로드 시작 시 실행되는 코드가 있습니다.
 
 `<head>` 태그에서 JavaScript 코드를 실행할 수 있습니다. 코드 실행은 `<body>` 태그가 DOM에 생길 때까지 기다리지 않습니다.
 
@@ -106,76 +106,76 @@ ht-degree: 87%
 
 ![codeeditor_custom 이미지](assets/codeeditor_custom.png)
 
-다음 작업을 수행하려면 **[!UICONTROL 사용자 지정 코드]** 탭을 사용하십시오.
+**[!UICONTROL Custom Code]** 탭을 사용하여 다음을 수행할 수 있습니다.
 
 * 외부 JavaScript 파일에 JavaScript 인라인 또는 링크 사용
 
-   예를 들어, 요소의 색상을 변경하려는 경우 다음과 같습니다.
+  예를 들어, 요소의 색상을 변경하려는 경우 다음과 같습니다.
 
-   ```javascript
-   <script type="text/javascript"> 
-   document.getElementById("element_id").style.color = "blue"; 
-   </script> 
-   ```
+  ```javascript
+  <script type="text/javascript"> 
+  document.getElementById("element_id").style.color = "blue"; 
+  </script> 
+  ```
 
 * 외부 스타일 시트에 스타일 인라인 또는 링크 구성
 
-   예를 들어, 오버레이 요소를 위한 클래스를 정의하려는 경우 다음과 같습니다.
+  예를 들어, 오버레이 요소를 위한 클래스를 정의하려는 경우 다음과 같습니다.
 
-   ```html
-   <style> 
-   .overlay 
-   { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
-   </style> 
-   ```
+  ```html
+  <style> 
+  .overlay 
+  { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
+  </style> 
+  ```
 
 * HTML 코드 조각을 추가하여 새 요소 정의
 
-   예를 들어, 위에 정의된 CSS 클래스를 사용하는 오버레이 `<div>`를 작성하려면 다음 HTML 코드 조각을 사용하십시오.
+  예를 들어, 위에 정의된 CSS 클래스를 사용하는 오버레이 `<div>`를 작성하려면 다음 HTML 코드 조각을 사용하십시오.
 
-   ```html
-   <div class="overlay"></div>
-   ```
+  ```html
+  <div class="overlay"></div>
+  ```
 
 * DOM Ready 시 교체, jQuery 사용
 
-   JQuery를 사용하는 다음 예제에서는 다음과 같은 경우 고객의 웹 사이트에서 페이지에서 사용할 수 있는 jQuery가 있다고 가정합니다 [!DNL Target] 오퍼를 실행합니다.
+  JQuery를 사용하는 다음 예제에서는 [!DNL Target]이(가) 오퍼를 실행할 때 고객의 웹 사이트가 페이지에서 사용할 수 있는 jQuery를 가지고 있다고 가정합니다.
 
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   jQuery( document ).ready(function() { 
-       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-       jQuery("#default_content").css("visibility","visible"); 
-   }); 
-   </script> 
-   ```
+  ```javascript
+  <style>#default_content {visibility:hidden;}</style> 
+  <script> 
+  jQuery( document ).ready(function() { 
+      jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+      jQuery("#default_content").css("visibility","visible"); 
+  }); 
+  </script> 
+  ```
 
 * DOM Ready 시 교체, jQuery 없음(Internet Explorer 8을 지원하지 않음)
 
-   ```javascript
-   <style>#default_content {visibility:hidden;}</style> 
-   <script> 
-   document.addEventListener("DOMContentLoaded", function(event) {  
-       document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
-       document.getElementById("default_content").style.visibility="visible"; 
-   }); 
-   </script> 
-   ```
+  ```javascript
+  <style>#default_content {visibility:hidden;}</style> 
+  <script> 
+  document.addEventListener("DOMContentLoaded", function(event) {  
+      document.getElementById("default_content").innerHTML = "<span style='color:red'>Hello <strong>Again</strong></span>"; 
+      document.getElementById("default_content").style.visibility="visible"; 
+  }); 
+  </script> 
+  ```
 
 * 기존 매개 변수, `s_tnt` 매개 변수(Analytics에 대한 이전 통합용), 레퍼러 매개 변수 및 mbox 세션을 전달하는 사용자 지정 리디렉션
 
-   ```javascript
-   <style type="text/css">body{display:none!important;}</style> 
-   <script type="text/javascript"> 
-    var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
-    window.location.replace('//www.mywebsite.com/'+qs+'s_tnt=${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}&s_tntref='+encodeURIComponent(document.referrer)+'&mboxSession='+mboxFactoryDefault.getSessionId().getId()+''+window.location.hash+''); 
-   </script> 
-   ```
+  ```javascript
+  <style type="text/css">body{display:none!important;}</style> 
+  <script type="text/javascript"> 
+   var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
+   window.location.replace('//www.mywebsite.com/'+qs+'s_tnt=${campaign.id}:${campaign.recipe.id}:${campaign.recipe.trafficType}&s_tntref='+encodeURIComponent(document.referrer)+'&mboxSession='+mboxFactoryDefault.getSessionId().getId()+''+window.location.hash+''); 
+  </script> 
+  ```
 
 * 사용자 지정 코드에서 사용할 Adobe Target 경험 템플릿을 추가하십시오. Target 경험 템플릿은 공통된 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력으로 사전 코딩된 샘플입니다. 이러한 경험 템플릿은 VEC 또는 양식 기반 경험 작성기를 통해 공통 사용 사례를 실행할 시작점으로 개발자 및 마케터에게 무료로 제공됩니다. 사용 사례에는 Lightbox, 회전 메뉴, 카운트다운 등이 포함됩니다.
 
-   자세한 내용은 [경험 템플릿](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)을 참조하십시오.
+  자세한 내용은 [경험 템플릿](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652)을 참조하십시오.
 
 ## 사용자 지정 코드 우수 사례 {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -209,9 +209,9 @@ Target은 &quot;CDQID&quot; 값을 사용하는 새 요소 ID를 Target으로 �
 
 동일한 URL을 타깃팅하는 두 활동에 사용자 지정 코드 기능을 사용할 경우 JavaScript는 두 활동 모두의 페이지에 주입됩니다. Target은 전달된 컨텐츠의 순서를 자동으로 결정합니다. 코드가 배치에 종속되지 않는지 확인하십시오. 코드에 충돌이 없도록 하는 것은 여러분에게 달려 있습니다.
 
-## 문제 해결 사용자 지정 코드 {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## 사용자 지정 코드 문제 해결 {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
-**을 사용할 때 사용자 지정 코드가 실행되지 않음 `triggerView`.**
+`triggerView`을(를) 사용할 때 **사용자 지정 코드가 실행되지 않습니다.**
 
 VEC의 사용자 정의 코드 오퍼는 `triggerView()` 가 `{page: false}` 를 통해 옵션으로 호출되는 경우 다시 렌더링되지 않습니다.
 
@@ -234,11 +234,11 @@ VEC의 사용자 정의 코드 오퍼는 `triggerView()` 가 `{page: false}` 를
 
 다시 말해, 텍스트가 있는 요소를 추가하면, 다른 텍스트로 해당 요소를 편집하는 별도의 작업에서 수정 사항 패널에 두 작업이 모두 별도의 요소로 표시됩니다. 요소를 편집한 경우 편집된 텍스트를 포함하고 여러분이 만든 원본을 수정하는 새 요소가 만들어진 것입니다. 만약 원래 요소를 삭제하면 편집된 텍스트는 편집된 요소를 찾을 수 없으며 표시되지 않습니다. 두 번째 요소는 요소 목록에는 남아 있지만, 변경되는 요소가 더 이상 존재하지 않으므로 이 요소는 페이지에 영향을 주지 않습니다.
 
-***스크립트에서 `document.write`을 사용하여 만든 요소가 기대한 위치에 표시되지 않습니다.***
+***스크립트에서 `document.write`을(를) 사용하여 만든 요소가 예상한 위치에 표시되지 않습니다.***
 
 스크립트는 비동기적으로 실행됩니다. 이로 인해 `document.write` 작업이 종종 페이지의 잘못된 위치에 나타납니다. 따라서 사용자 지정 코드에서 작성된 스크립트에서는 `document.write`를 사용하지 않는 것이 좋습니다.
 
-***사용자 지정 코드에서 내 JavaScript에 오류가 표시됩니다.***
+***내 JavaScript에서 사용자 지정 코드에 오류가 표시됩니다.***
 
 유효한 JavaScript가 아닌 모든 인라인 JavaScript는 사용자 지정 코드에 오류를 표시합니다.
 

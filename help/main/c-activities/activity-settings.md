@@ -1,32 +1,32 @@
 ---
 keywords: 목표 및 설정;목표;우선순위;지속 기간
-description: Adobe에서 활동 설정 을 사용하는 방법 알아보기 [!DNL Target] 활동의 목표, 우선순위 및 기간을 관리합니다.
+description: ' [!DNL Target]  Adobe에서 활동 설정을 사용하여 활동의 목표, 우선 순위 및 기간을 관리하는 방법을 알아봅니다.'
 title: 활동 설정을 지정하는 방법
 feature: Activities
 exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '415'
-ht-degree: 79%
+ht-degree: 74%
 
 ---
 
 # 활동 설정
 
-사용 [!UICONTROL 활동 설정] 위치: [!DNL Adobe Target] 활동의 목표, 우선순위 및 기간을 관리합니다.
+[!DNL Adobe Target]의 [!UICONTROL Activity Settings]을(를) 사용하여 활동의 목표, 우선 순위 및 기간을 관리하십시오.
 
 1. 활동의 목표에 대한 메모를 입력합니다.
 
-   본인 또는 다른 팀 구성원이 쉽게 사용할 수 있도록 본인의 활동에 대한 정보를 입력합니다. [!UICONTROL 목표] 필드를 드래그해 크기를 조정합니다.
+   본인 또는 다른 팀 구성원이 쉽게 사용할 수 있도록 본인의 활동에 대한 정보를 입력합니다. [!UICONTROL Objective] 필드의 크기를 조정하려면 끕니다.
 1. 활동 우선순위를 설정합니다.
 
-   설정에 따라 [!UICONTROL 우선순위]의 UI 및 옵션이 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.
+   설정에 따라 [!UICONTROL Priority]의 UI 및 옵션이 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다.
 
    대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-   이 옵션이에서 활성화되지 않은 경우 [!UICONTROL 관리] > [!UICONTROL 보고] (기본값), 우선순위를 낮음, 중간 또는 높음으로 지정합니다.
+   이 옵션이 [!UICONTROL Administration] > [!UICONTROL Reporting](기본값)에서 활성화되지 않으면 우선순위를 낮음, Medium 또는 높음으로 지정하십시오.
 
-   세분화된 우선순위를 활성화하려면 [!UICONTROL 관리] > [!UICONTROL 보고]을 클릭한 다음 을 전환합니다 [!UICONTROL 세분화된 우선순위 사용] 옵션을 &quot;켜짐&quot; 위치에 추가합니다.
+   세분화된 우선 순위를 사용하려면 [!UICONTROL Administration] > [!UICONTROL Reporting]을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.
 
    이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.
 
@@ -47,7 +47,7 @@ ht-degree: 79%
    >
    >활동을 스케줄링하여 활동의 전달 시간대를 제어합니다. 그러나 활동을 지정된 스케줄에 따라 전달하려면 먼저 활동을 명시적으로 활성화해야 합니다.
 
-[!UICONTROL 목표 및 설정] 페이지에는 생성 중인 활동의 유형에 따라 달라지는 추가 설정이 포함되어 있습니다. 이러한 설정에 대한 자세한 내용은 다음 활동 유형을 참조하십시오.
+[!UICONTROL Goal & Settings] 페이지에는 만들고 있는 활동 유형에 따라 달라지는 추가 설정이 포함되어 있습니다. 이러한 설정에 대한 자세한 내용은 다음 활동 유형을 참조하십시오.
 
 * [A/B 테스트](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [자동화된 개인화](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)
@@ -65,4 +65,4 @@ ht-degree: 79%
 * 보고서 필터를 작성하기 위해 보고 대상 추가
 * 활동에 대한 메모 입력
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+  >[!VIDEO](https://video.tv.adobe.com/v/17381)

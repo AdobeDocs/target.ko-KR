@@ -6,20 +6,20 @@ feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1364'
-ht-degree: 92%
+source-wordcount: '1344'
+ht-degree: 73%
 
 ---
 
 # 시각적 경험 작성기(VEC)
 
-사용에 대한 정보 [!UICONTROL 시각적 경험 작성기] (VEC) 위치 [!DNL Adobe Target].
+[!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer](VEC) 사용에 대한 정보입니다.
 
 VEC는 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 타겟 활동에 대한 경험과 오퍼를 만들 수 있습니다.
 
 VEC는 [!DNL Adobe Target]의 주요 기능 중 하나입니다. VEC를 통해 마케터와 디자이너가 시각적 인터페이스를 사용하여 콘텐츠를 만들고 변경할 수 있습니다. 코드를 직접 편집하지 않고도 많은 디자인을 작성할 수 있습니다. 또한 작성기에서 사용 가능한 편집 선택 사항을 사용하여 HTML 및 JavaScript를 편집할 수도 있습니다.
 
-Target **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]** 탭에서 기본 시각적 경험 작성기 URL을 입력할 수 있습니다.
+Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** 탭에서 기본 시각적 경험 작성기 URL을 입력할 수 있습니다.
 
 ![기본 VEC URL 설정](/help/main/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -27,7 +27,7 @@ Target **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]** 탭
 
 >[!NOTE]
 >
->특정 브라우저(예: Firefox)는 페이지에 혼합 콘텐츠(예: 보안 사이트의 비-보안 페이지)가 포함된 경우 VEC에 표시되지 않도록 페이지를 차단할 수 있습니다. 페이지가 표시되지 않는 경우 브라우저 주소 표시줄에서 URL 옆에 있는 아이콘을 클릭하고 **[!UICONTROL 이 페이지에서 보호 비활성화]**&#x200B;를 클릭합니다. 이 문제는 사이트 방문자에 대한 페이지 표시에는 영향을 주지 않습니다.
+>특정 브라우저(예: Firefox)는 페이지에 혼합 콘텐츠(예: 보안 사이트의 비-보안 페이지)가 포함된 경우 VEC에 표시되지 않도록 페이지를 차단할 수 있습니다. 페이지가 표시되지 않으면 브라우저 주소 표시줄에서 URL 옆에 있는 아이콘을 클릭하고 **[!UICONTROL Disable protection on this page]**&#x200B;을(를) 클릭합니다. 이 문제는 사이트 방문자에 대한 페이지 표시에는 영향을 주지 않습니다.
 
 페이지에서 iframe 내에 있는 콘텐츠는 VEC에서 수정할 수 없습니다. iframe 내의 콘텐츠를 편집하려면 iframe 문서가 Target에서 사용할 수 있도록 설정되어 있는지 확인한 다음 VEC에서 해당 iframe URL을 로드하십시오.
 
@@ -41,17 +41,17 @@ Target **[!UICONTROL 관리]** > **[!UICONTROL 시각적 경험 작성기]** 탭
 
 ![강조 표시된 VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-highlight-new.png)
 
-강조 표시가 표시되는 방식을 변경하려면 **[!UICONTROL 오버레이]** 아이콘을 클릭합니다. 예를 들어 이미지, 링크, 지역 mbox, 수정 사항 또는 JavaScript만 강조 표시하도록 선택할 수 있습니다. 강조 표시의 색상을 변경할 수 있습니다. 또한 다양한 요소 유형을 강조 표시하는 데 사용되는 강조 표시 색상과 채우기 유형을 지정할 수도 있습니다.
+강조 표시가 표시되는 방식을 변경하려면 **[!UICONTROL Overlays]** 아이콘을 클릭합니다. 예를 들어 이미지, 링크, 지역 mbox, 수정 사항 또는 JavaScript만 강조 표시하도록 선택할 수 있습니다. 강조 표시의 색상을 변경할 수 있습니다. 또한 다양한 요소 유형을 강조 표시하는 데 사용되는 강조 표시 색상과 채우기 유형을 지정할 수도 있습니다.
 
 ![오버레이 설정 변경](/help/main/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-해당 요소 유형에 사용할 수 있는 옵션 메뉴에 대해 강조 표시된 요소를 클릭합니다. 예를 들어 이미지를 클릭하고 **[!UICONTROL 편집 > 텍스트/HTML]**&#x200B;을 선택하여 텍스트를 변경하거나, 단추를 클릭하고 배경색을 변경할 수 있습니다. 페이지 왼쪽 위에 있는 단추를 사용하여 오버레이 켜기와 끄기를 전환할 수 있습니다.
+해당 요소 유형에 사용할 수 있는 옵션 메뉴에 대해 강조 표시된 요소를 클릭합니다. 예를 들어 이미지를 클릭하고 **[!UICONTROL Edit > Text/HTML]**&#x200B;을(를) 선택하여 텍스트를 변경하거나, 단추를 클릭하고 배경색을 변경할 수 있습니다. 페이지 왼쪽 위에 있는 단추를 사용하여 오버레이 켜기와 끄기를 전환할 수 있습니다.
 
-**[!UICONTROL 찾아보기]**&#x200B;를 클릭한 다음 배송 페이지나 장바구니와 같은 기본 페이지에서 사용할 수 있는 페이지로 이동하여 해당 페이지의 변경 사항을 테스트할 수도 있습니다. 플라이아웃 메뉴나 미니 장바구니와 같이 마우스로 가리키고 사용할 수 있는 페이지 요소에 액세스할 수도 있습니다. 페이지 탐색을 마쳤으면 **[!UICONTROL 작성]**&#x200B;을 클릭하여 경험을 편집합니다. 예를 들어, 장바구니 드롭다운이나 이미지 회전 메뉴의 디자인을 변경할 수 있습니다.
+**[!UICONTROL Browse]**&#x200B;을(를) 클릭한 다음 배송 페이지나 장바구니와 같은 기본 페이지에서 사용할 수 있는 페이지로 이동하여 해당 페이지의 변경 사항을 테스트할 수도 있습니다. 플라이아웃 메뉴나 미니 장바구니와 같이 마우스로 가리키고 사용할 수 있는 페이지 요소에 액세스할 수도 있습니다. 페이지 탐색이 끝나면 **[!UICONTROL Compose]**&#x200B;을(를) 클릭하여 환경을 편집합니다. 예를 들어, 장바구니 드롭다운이나 이미지 회전 메뉴의 디자인을 변경할 수 있습니다.
 
 >[!NOTE]
 >
->마우스로 가리키기 상태가 JavaScript에 따라 다를 경우 **[!UICONTROL JavaScript 비활성화]**&#x200B;가 선택되어 있지 않은지 확인하십시오. JavaScript 요소를 편집하려면 JavaScript를 활성화해야 합니다.
+>마우스로 가리키기 상태가 JavaScript에 따라 다를 경우 **[!UICONTROL Disable JavaScript]**&#x200B;이(가) 선택되어 있지 않은지 확인하십시오. JavaScript 요소를 편집하려면 JavaScript를 활성화해야 합니다.
 
 VEC에서 사용할 수 있는 옵션에 대한 자세한 내용은 [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81)을 참조하십시오.
 
@@ -70,7 +70,7 @@ VEC 내에서 로드하는 동안 또는 페이지 로드가 실패한 후 페�
 * 더 이상 액세스할 수 없는 페이지에서 기존 사용자 지정 코드를 복사하기 위해
 * 페이지가 VEC 내에서 로드되지 않는다는 것을 알고 있지만 간단하게 편집하기 위해
 
-페이지가 로드되는 동안(또는 페이지 로드가 실패한 후) [!UICONTROL 경험] 패널, [!UICONTROL 수정 사항] 패널 및 경험 상단에 있는 설정(오버레이, 수정 사항, 구성 등)에 모두 액세스할 수 있습니다.
+페이지가 로드되는 동안(또는 페이지 로드가 실패한 후) [!UICONTROL Experiences] 패널, [!UICONTROL Modifications] 패널 및 경험 상단에 있는 설정(오버레이, 수정 사항, 구성 등)에 모두 액세스할 수 있습니다.
 
 다음 그림은 페이지가 로드되는 동안 사용자 지정 코드를 삽입하거나 다른 작업을 수행할 수 있음을 보여줍니다.
 
@@ -90,17 +90,17 @@ VEC 내에서 페이지 로드를 취소할 수 있는 몇 가지 이유는 다�
 * 페이지 전달 기준에 템플릿 테스트 규칙을 더 많이 추가하려는 경우
 * EEC를 통해 페이지를 로드할 때 또는 iframe만 페이지마다 다를 수 있을 때 전역 또는 글로벌 EEC(향상된 경험 작성기) 전환을 재정의하려는 경우
 
-VEC에서 페이지 로드를 취소한 후 페이지가 로드될 때까지 기다리지 않고 활동에서 경험 간에 전환할 수 있습니다. VEC 내에서 다시 페이지를 보려면 **[!UICONTROL 다시 로드]** 단추를 클릭해야 합니다.
+VEC에서 페이지 로드를 취소한 후 페이지가 로드될 때까지 기다리지 않고 활동에서 경험 간에 전환할 수 있습니다. VEC 내에서 페이지를 다시 보려면 **[!UICONTROL Reload]** 단추를 클릭해야 합니다.
 
 >[!IMPORTANT]
 >
 >사용자 지정 코드 또는 수정 사항이 있는 경우 VEC 내에서 로드를 취소하도록 선택하여 코딩 또는 변경이 제대로 수행되었는지 확인해야 합니다. 사용자 지정 코드와 기타 수정 사항이 예상대로 전달되도록 하려면 적절한 QA를 수행했는지 확인합니다.
 
-VEC 내에서 페이지 로드를 취소하려면 페이지가 로드되는 동안 **[!UICONTROL 로드 취소]** 단추를 클릭합니다. 현재 편집 세션 중에는 이 활동에 대한 페이지가 VEC에서 로드되지 않습니다.
+VEC 내에서 페이지 로드를 취소하려면 페이지를 로드하는 동안 **[!UICONTROL Cancel Loading]** 단추를 클릭합니다. 현재 편집 세션 중에는 이 활동에 대한 페이지가 VEC에서 로드되지 않습니다.
 
 ![로드 취소 단추](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/cancel-loading.png)
 
-현재 활동에서 경험을 계속 관리하거나 새로운 수정 사항을 추가하려면 **[!UICONTROL 다시 로드]** 단추를 클릭해야 합니다.
+현재 활동에서 경험을 계속 관리하거나 새로운 수정 사항을 추가하려면 **[!UICONTROL Reload]** 단추를 클릭해야 합니다.
 
 ![다시 로드 단추](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/reload-in-vec.png)
 
@@ -108,14 +108,14 @@ VEC 내에서 페이지 로드를 취소하려면 페이지가 로드되는 동�
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 시각적 경험 작성기(1/2)(7:17) ![튜토리얼 배지](/help/main/assets/tutorial.png)
+### 시각적 경험 작성기(1/2) (7:17) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
 * 페이지 콘텐츠 변경
 * 페이지 레이아웃 변경
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### 시각적 경험 작성기(2/2)(7:29) ![튜토리얼 배지](/help/main/assets/tutorial.png)
+### 시각적 경험 작성기(2/2) (7:29) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
 * 경험 이름 변경 및 경험 복제
 * 리디렉션 경험 만들기

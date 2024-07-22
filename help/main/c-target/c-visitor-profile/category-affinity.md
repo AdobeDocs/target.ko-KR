@@ -1,23 +1,23 @@
 ---
 keywords: 친화성;카테고리 친화성
-description: 에서 카테고리 친화성에 대해 알아보기 [!DNL Adobe Target] 자동으로 사용자가 방문하는 카테고리를 캡처하고 카테고리에 대한 사용자의 친화성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있습니다.
+description: ' [!DNL Adobe Target] 에서 사용자가 방문하는 카테고리를 자동으로 캡처하고 카테고리에 대한 사용자의 친화성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있는 카테고리 친화성에 대해 알아봅니다.'
 title: 카테고리 친화성이란?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 65%
+source-wordcount: '865'
+ht-degree: 56%
 
 ---
 
 # 범주 친화성
 
-의 카테고리 친화성 기능 [!DNL Adobe Target] 자동으로 사용자가 방문하는 사이트의 카테고리를 캡처하고 각 카테고리에 대한 사용자의 친화성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있습니다. 카테고리 관심도는 해당 정보에 대해 행동할 가능성이 가장 높은 방문자를 대상으로 콘텐츠를 지정합니다.
+[!DNL Adobe Target]의 카테고리 친화성 기능은 사용자가 방문하는 사이트의 카테고리를 자동으로 캡처한 다음 각 카테고리에 대한 사용자의 친화성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있도록 합니다. 카테고리 관심도는 해당 정보에 대해 행동할 가능성이 가장 높은 방문자를 대상으로 콘텐츠를 지정합니다.
 
-## 카테고리 관심도 정보를에 전달 [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## [!DNL Target](으)로 카테고리 선호도 정보 전달 {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-사용자가 사이트를 방문할 때마다 방문자와 관련된 프로필 매개 변수가 [!DNL Target]의 데이터베이스에 기록됩니다. 이 데이터는 사용자의 쿠키에 연결되어 있습니다. 유용한 매개 변수 중 하나는 다음과 같습니다. `user.categoryId`: 제품 페이지에서 지정된 mbox 매개 변수입니다. 방문자가 계속 탐색하거나 다른 세션을 위해 재방문할 때 특정 사용자가 보는 제품 카테고리를 기록할 수 있습니다. 또한 임의의 mbox(중첩된 mbox 포함)에서 mbox 매개 변수 `user.categoryId`나 URL 매개 변수 `user.categoryId`로서 또는 글로벌 mbox를 사용하는 페이지 매개 변수로 카테고리 정보를 전달하여 카테고리 정보를 기록할 수도 있습니다. [!DNL Target] 자세한 내용은 계정 담당자에게 문의하십시오.
+사용자가 사이트를 방문할 때마다 방문자와 관련된 프로필 매개 변수가 [!DNL Target]의 데이터베이스에 기록됩니다. 이 데이터는 사용자의 쿠키에 연결되어 있습니다. 한 가지 유용한 매개 변수는 `user.categoryId`(제품 페이지에서 할당된 mbox 매개 변수)입니다. 방문자가 계속 탐색하거나 다른 세션을 위해 재방문할 때 특정 사용자가 보는 제품 카테고리를 기록할 수 있습니다. 또한 임의의 mbox(중첩된 mbox 포함)에서 mbox 매개 변수 `user.categoryId`, URL 매개 변수 `user.categoryId` 또는 글로벌 mbox를 사용하는 [!DNL Target] 페이지 매개 변수로 카테고리 정보를 전달하여 카테고리 정보를 기록할 수도 있습니다. 자세한 내용은 계정 담당자에게 문의하십시오.
 
 여러 카테고리의 항목을 포함하려면 쉼표로 카테고리를 구분합니다. 예:
 
@@ -25,13 +25,13 @@ ht-degree: 65%
 
 제품 카테고리에 대한 방문 빈도 및 최근성에 따라 사용자가 보유한 카테고리 친화성(있는 경우)이 기록됩니다. 카테고리 친화성을 사용하여 활동을 위한 모집단을 타깃팅할 수 있습니다.
 
-프로필 스크립트에서 `user.categoryAffinities[]`를 사용하여 방문자가 채운 다수의 관심 사항을 반환할 수 있습니다. 자세한 내용은 [프로필 속성의 개체 및 메서드 아래의 user.categoryAffinities](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects).
+프로필 스크립트에서 `user.categoryAffinities[]`을(를) 사용하여 방문자가 채운 다수의 관심 사항을 반환할 수 있습니다. 자세한 내용은 프로필 특성의 개체 및 메서드에서 [user.categoryAffinities](/help/main/c-target/c-visitor-profile/profile-parameters.md#objects)를 참조하십시오.
 
 >[!IMPORTANT]
 >
->다음 `user.categoryId` 카테고리 관심도 알고리즘에 사용되는 속성은 `entity.categoryId` 다음에 사용된 속성 [!DNL Adobe Target Recommendations]&#39; 제품 및 콘텐츠 권장 사항 `user.categoryId`는 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId`는 현재 페이지의 카테고리 또는 현재 항목의 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 값 모두 다음으로 전달 [!DNL Target] 두 기능을 모두 사용하려는 경우
+>카테고리 관심도 알고리즘에 사용되는 `user.categoryId` 특성은 [!DNL Adobe Target Recommendations]의 제품 및 콘텐츠 권장 사항에 사용되는 `entity.categoryId` 특성과 다릅니다. `user.categoryId`는 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId`는 현재 페이지의 카테고리 또는 현재 항목의 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 [!DNL Target]에 전달하십시오.
 
-## 카테고리 친화성에 대한 비즈니스 사례 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
+## 카테고리 관심도에 대한 비즈니스 사례 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
 한 세션에서 방문자의 활동(예: 가장 자주 보는 카테고리)은 후속 방문에서 타깃팅에 사용할 수 있습니다. 세션 중에 방문자가 보는 각 카테고리 페이지는 캡처되며, 최근 및 빈도 모델에 따라 &quot;즐겨찾기&quot; 카테고리가 계산됩니다. 그런 후에 방문자가 홈 페이지로 돌아올 때마다 사용자의 즐겨찾기 카테고리와 관련된 콘텐츠를 표시하도록 주인공 이미지 영역을 타깃팅할 수 있습니다.
 
@@ -52,7 +52,7 @@ ht-degree: 65%
 
 >[!NOTE]
 >
->단일 mbox 호출 내에서 여러 카테고리가 전달되면 의 카테고리 순서가 `categoryAffinities` 은(는) 보장되지 않습니다. 임의의 범주를 먼저 기록하고 10점을 받게 된다.
+>단일 mbox 호출 내에서 여러 범주가 전달되면 `categoryAffinities`에 있는 범주의 순서가 보장되지 않습니다. 임의의 범주를 먼저 기록하고 10점을 받게 된다.
 
 ### 예: 카테고리 친화성 알고리즘
 
@@ -104,15 +104,15 @@ ht-degree: 65%
 
 ### 카테고리 친화성을 사용할 대상 만들기 {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. 다음에서 **[!UICONTROL 대상]** 목록, 클릭 **[!UICONTROL 대상자 만들기]**.
+1. **[!UICONTROL Audiences]** 목록에서 **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
 
    또는
 
    기존 대상을 복사하려면 대상자 목록에서 원하는 대상으로 마우스를 가져간 다음 복사 아이콘을 클릭합니다. 그러면 대상을 편집하여 유사한 대상을 만들 수 있습니다.
 
 1. 수사적 대상 이름을 입력합니다.
-1. **[!UICONTROL + 규칙 추가]** > **[!UICONTROL 방문자 프로필]**&#x200B;을 클릭합니다.
-1. **[!UICONTROL 방문자 프로필]** 드롭다운 목록에서 **[!UICONTROL 카테고리 친화성]**&#x200B;을 선택합니다.
+1. **[!UICONTROL + Add Rule]** > **[!UICONTROL Visitor Profile]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Visitor Profile]** 드롭다운 목록에서 **[!UICONTROL Category Affinity]**&#x200B;을(를) 선택합니다.
 
    ![방문자 프로필 > 카테고리 친화성](assets/affinity.png)
 
@@ -138,7 +138,7 @@ ht-degree: 65%
    * 다음과 같음
 
 1. 각각의 새 값을 별도의 행에 지정합니다(예: &quot;신발&quot;).
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
 ### 활동에서 카테고리 친화성 대상 사용 {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 

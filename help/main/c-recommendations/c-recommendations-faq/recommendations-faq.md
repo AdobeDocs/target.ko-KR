@@ -7,8 +7,8 @@ feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '3471'
-ht-degree: 90%
+source-wordcount: '3448'
+ht-degree: 86%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 90%
 
 [!DNL Adobe Target] [!DNL Recommendations] 활동에 대한 FAQ 목록.
 
-## 숫자 값으로 사용자 지정 특성을 검색할 때 [!UICONTROL 카탈로그 검색]이 올바른 결과를 표시하지 않는 이유는 무엇입니까?
+## 숫자 값으로 사용자 지정 특성을 검색할 때 [!UICONTROL Catalog Search]에 올바른 결과가 표시되지 않는 이유는 무엇입니까?
 
 숫자 값으로 사용자 지정 특성에 대한 카탈로그 검색을 수행할 때 결과는 사용자 지정 특성을 숫자 값 대신 문자열 유형으로 간주합니다.
 
@@ -54,7 +54,7 @@ ht-degree: 90%
 >
 >피드 파일은 &quot;항목 가져오는 중&quot;에서 &quot;검색 색인 업데이트 준비 중&quot;으로 상태가 변경될 때 가져온 것으로 간주됩니다. 업데이트는 카탈로그 검색 사용자 인터페이스에 반영되는 데 60분 이상 걸릴 수 있습니다. 피드 상태가 &quot;업데이트 완료&quot;로 바뀌는 경우 카탈로그 검색이 최신이 상태가 됩니다. 카탈로그 검색이 아직 최신 상태가 아닌 경우에도 위에 나열된 시간대에 사이트 업데이트가 반영됩니다. 가장 최근의 카탈로그 검색 색인 업데이트 시간이 카탈로그 검색 페이지에 표시됩니다.
 
-## 나의 [!UICONTROL Recommendations] 오퍼 활동, 오퍼, 프로모션, 또는 기준 설정의 구성 변경이 내 사이트에 반영되려면 얼마나 걸립니까?
+## 내 [!UICONTROL Recommendations] 활동, 오퍼, 프로모션 또는 기준 설정의 구성 변경이 내 사이트에 반영되려면 얼마나 걸립니까?
 
 * 프로모션 설정의 변경은 사이트에 반영되기까지 최대 5시간 소요될 수 있습니다.
 * 다른 기준 설정의 변경은 다음 알고리즘이 실행될 때까지 반영되지 않을 수 있음:
@@ -63,12 +63,12 @@ ht-degree: 90%
    * 다른 기준 설정(예: &quot;동적 포함 규칙 제거&quot;, 전환 확인 기간 변경 등)은 다음 알고리즘이 실행될 때까지 통합될 수 없습니다.
    * 알고리즘 실행은 이러한 변경에 의해 트리거될 수 있으나 완료까지 최대 24시간 소요될 수 있습니다. 또한 12-24시간마다 예약된 방식으로도 알고리즘이 실행됩니다.
 
-## 사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 권장 사항에 반영되려면 얼마나 걸립니까? *that* 사용자가 수신합니까?
+## 사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 ** 사용자가 받는 Recommendations에 반영되려면 얼마나 걸립니까?
 
 * 현재 보는/구매하는 제품/콘텐츠는 사용자가 같은 페이지뷰/[!DNL Target] 콘텐츠 요청에서 받는 Recommendations에 영향을 미칩니다.
-* &quot;마지막으로 본 제품&quot;, &quot;가장 많이 본 제품&quot;, 전체 보기/구매 내역과 같은 역대 사용자 비헤이비어는 해당 요청으로 업데이트되며 사용자가 다음 페이지뷰/ 페이지에서 받는 Recommendations에 영향을 미칩니다[!DNL Target] 콘텐츠 요청. 예를 들어 &quot;최근에 본 항목&quot;과 &quot;나에게 권장되는 항목&quot; 알고리즘은 각 제품 보기/구매로 업데이트되며 후속 콘텐츠 요청에 반영됩니다.
+* &quot;마지막으로 본 제품&quot;, &quot;가장 많이 본 제품&quot;, 전체 보기/구매 내역과 같은 역대 사용자 비헤이비어는 해당 요청으로 업데이트되며 사용자가 다음 페이지뷰/[!DNL Target] 콘텐츠 요청에서 받는 Recommendations에 영향을 미칩니다. 예를 들어 &quot;최근에 본 항목&quot;과 &quot;나에게 권장되는 항목&quot; 알고리즘은 각 제품 보기/구매로 업데이트되며 후속 콘텐츠 요청에 반영됩니다.
 
-## 사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 권장 사항에 반영되려면 얼마나 걸립니까? *기타* 사용자가 받습니까?
+## 사용자의 비헤이비어(예: A 제품을 클릭하고 B 제품을 구매)가 *기타* 사용자가 받는 Recommendations에 반영되려면 얼마나 걸립니까?
 
 사용자의 비헤이비어 합계는 12-24시간 마다 발생하는 모든 알고리즘 실행으로 오프라인 알고리즘 처리에 통합됩니다.
 
@@ -95,25 +95,25 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 적용 가능한 모든 기준을 포함합니다.
 
-[!DNL Target] 다음 포함 [호환되지 않는 기준 필터링](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 알고리즘 선택기의 인텔리전스 필터링을 제어하도록 설정합니다.
+[!DNL Target]은(는) 알고리즘 선택기의 지능적 필터링을 제어하기 위해 [호환되지 않는 기준 필터링](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 설정을 사용합니다.
 
 >[!NOTE]
 >
->이 설정은 [!UICONTROL 시각적 경험 작성기] (VEC)에서 만들어진 활동에만 적용되고, 이 설정은 양식 기반 경험 작성기에서 만들어진 활동에는 적용되지 않습니다([!DNL Target]에는 위치 컨텍스트가 없습니다).
+>이 설정은 [!UICONTROL Visual Experience Composer](VEC)에서 만들어진 활동에만 적용됩니다. 이 설정은 양식 기반 경험 작성기에서 만들어진 활동에는 적용되지 않습니다([!DNL Target]에는 위치 컨텍스트가 없습니다).
 
-[!UICONTROL 호환되지 않는 기준 필터링] 설정에 액세스하려면 [!UICONTROL 권장 사항] > [!UICONTROL 설정]을 클릭하십시오.
+[!UICONTROL Filter Incompatible Criteria] 설정에 액세스하려면 [!UICONTROL Recommendations] > [!UICONTROL Settings]을(를) 클릭합니다.
 
 ![recs_settings_filter 이미지](assets/recs_settings_filter.png)
 
-[!UICONTROL 호환되지 않는 기준 필터링] 설정이 사용되지 않는 경우, [!DNL Target]은 알고리즘 선택기에서 알고리즘을 필터링하지 않고 모든 알고리즘이 표시됩니다.
+[!UICONTROL Filter Incompatible Criteria] 설정이 사용되지 않으면 [!DNL Target]이(가) 알고리즘 선택기에서 알고리즘을 필터링하지 않고 모든 알고리즘이 표시됩니다.
 
-[!UICONTROL 호환되지 않는 기준 필터링] 설정이 사용되는 경우 VEC 활동에서 [!DNL Target]이 entityId와 범주 ID를 선택한 위치에서 읽은 다음 `currentItem|currentCategory`를 기반으로 알고리즘을 표시합니다(각각의 값이 해당 위치에 제공되는 경우). 따라서 기본적으로 알고리즘 선택기에는 선택한 위치를 위한 호환되는 알고리즘만 표시됩니다.
+[!UICONTROL Filter Incompatible Criteria] 설정이 활성화되어 있으면 VEC 활동에서 [!DNL Target]이(가) 선택한 위치로부터 entityId와 범주 ID를 읽은 다음 `currentItem|currentCategory`을(를) 기반으로 알고리즘을 표시합니다(각각의 값이 해당 위치에 있는 경우). 따라서 기본적으로 알고리즘 선택기에는 선택한 위치를 위한 호환되는 알고리즘만 표시됩니다.
 
-[!UICONTROL 호환되지 않는 기준 필터링] 설정이 활성화되어 있으면 기준을 선택하는 동안 [!UICONTROL 호환] 확인란을 선택 취소하여 비호환 알고리즘을 계속 볼 수 있습니다.
+[!UICONTROL Filter Incompatible Criteria] 설정을 사용하도록 설정한 경우에도 기준을 선택하는 동안 [!UICONTROL Compatible] 확인란의 선택을 취소하여 호환되지 않는 알고리즘을 볼 수 있습니다.
 
 ![compatible_checkbox 이미지](assets/compatible_checkbox.png)
 
-다음 목록은 [!DNL Target]이 [!UICONTROL 호환되는] 확인란을 표시하지 않는 특수 사례를 포함합니다.
+다음 목록에는 [!DNL Target]이(가) [!UICONTROL Compatible] 확인란을 표시하지 않는 특수 사례가 포함되어 있습니다.
 
 * entityId와 범주 ID가 모두 해당 위치에 있으며 아무것도 필터링되지 않는 경우
 * [!DNL mbox.js] 버전 55 이하를 사용하는 경우
@@ -129,10 +129,10 @@ mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 �
 
   ![product_catalog 이미지](assets/product_catalog.png)
 
-* 색인이 최신 상태입니까? (으)로 이동 [!DNL /target/products.html#productSearch] 색인이 몇 시간 경과되었는지 확인합니다(예를 들어, &quot;색인화된 후 3시간 경과&quot;). 필요에 따라 색인을 새로 고칠 수 있습니다.
+* 색인이 최신 상태입니까? [!DNL /target/products.html#productSearch](으)로 이동하여 색인이 몇 시간 경과되었는지 확인합니다(예: &quot;색인화된 후 3시간 경과&quot;). 필요에 따라 색인을 새로 고칠 수 있습니다.
 * 엔티티가 더 이상 컬렉션 규칙과 일치하지 않도록 피드 또는 데이터 계층에서 변경한 것이 있습니까? 대소문자가 일치하는지 확인하십시오(대소문자 구분).
 * 피드가 성공적으로 실행되었습니까? FTP 디렉터리, 암호 등을 변경한 사람이 있습니까?
-* [!DNL Target] 은 게재(고객의 페이지/앱에서) 업데이트가 최대한 빨리 일어나도록 최선을 다합니다. 그러나, [!DNL Target]은 마케터를 위해 UI에 일부 표시를 제공해야 합니다. [!DNL Target]은 UI 업데이트가 동기화되는 것을 기다리기 위해 게재 업데이트를 지연하지 않습니다. [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 를 사용하여 요청이 들어올 당시 시스템의 내용을 확인할 수 있습니다.
+* [!DNL Target]은(는) 게재(고객의 페이지/앱에서) 업데이트가 최대한 빨리 일어나도록 최선을 다합니다. 그러나, [!DNL Target]은 마케터를 위해 UI에 일부 표시를 제공해야 합니다. [!DNL Target]은 UI 업데이트가 동기화되는 것을 기다리기 위해 게재 업데이트를 지연하지 않습니다. [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 를 사용하여 요청이 들어올 당시 시스템의 내용을 확인할 수 있습니다.
 
 ## 일반 속성 가중치와 콘텐츠 유사성별 속성 가중치 간의 차이는 무엇입니까? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -140,7 +140,7 @@ mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 �
 
 표준 속성 가중치는 모두는 아니지만 대부분의 기준 유형(콘텐츠 유사성뿐만 아니라)에 적용됩니다. 이 유형의 가중치는 특정 속성 값에 더 많은 가중치를 부여합니다. 다음 예에서 Nike 제품은 출력 권장 사항에서 문제가 생깁니다.
 
-![attribute_weight_example 이미지](assets/attribute_weighting_example.png)
+![attribute_weighting_example 이미지](assets/attribute_weighting_example.png)
 
 콘텐츠 유사성 속성 가중치는 콘텐츠 유사성 기준에만 적용됩니다.
 
@@ -244,7 +244,7 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 
 ## [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]에서 만들어진 알고리즘을 사용할 수 있습니까?
 
-[!DNL Recommendations Classic]에서 만들어진 알고리즘은 [!DNL Recommendations Premium]에서 지원되지 않습니다. [!DNL Target Premium]에서 레거시 알고리즘을 사용할 수 있으나 [!DNL Target Premium] UI에서 오퍼 활동을 사용하지 않거나 삭제할 때 알고리즘이 동기화 문제를 일으킬 수 있습니다. 두 솔루션의 차이에 대한 자세한 내용은 [[!DNL Recommendations Classic] 및 [!DNL Recommendations] 의 활동 [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+[!DNL Recommendations Classic]에서 만들어진 알고리즘은 [!DNL Recommendations Premium]에서 지원되지 않습니다. [!DNL Target Premium]에서 레거시 알고리즘을 사용할 수 있으나 [!DNL Target Premium] UI에서 오퍼 활동을 사용하지 않거나 삭제할 때 알고리즘이 동기화 문제를 일으킬 수 있습니다. 두 솔루션의 차이점에 대한 자세한 정보는 [[!DNL Recommendations Classic] 과(와) [!DNL Recommendations] 의  [!DNL Target Premium]](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)활동 을 참조하세요.
 
 ## 새 기사나 비디오만 추천하려면 어떻게 합니까? {#recommend-new-articles}
 
@@ -276,9 +276,9 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 >
 >이 예는 매개변수 일치를 사용하고 `priorDate60` 값을 mbox 매개변수로 전달하여 수행할 수도 있습니다.
 
-### 을 사용할 때 알려진 문제 [!DNL Recommendations] 활동?
+### [!DNL Recommendations] 활동을 사용할 때 알려진 문제는 무엇입니까?
 
-다음은 [!UICONTROL Recommendations 활동] 에 대한 알려진 문제입니다.
+[!UICONTROL Recommendations] 활동에 대해 알려진 문제는 다음과 같습니다.
 
 * [!DNL Target] 이 getOffer()와 함께 JSON 오퍼를 반환하면 JSON 유형으로 반환됩니다. 그러나 JSON Recommendations 설계를 반환하면 HTML 형식으로 반환됩니다.
 * 피드나 API를 통해 업데이트를 받지 못한 후 60일이 지나면 만료된 엔티티가 올바르게 만료됩니다. 그러나 만료된 엔티티는 만료 후 카탈로그 검색 색인에서 제거되지 않습니다. 피드 또는 API를 통해 삭제된 엔티티도 현재 카탈로그 검색 색인에서 제거되지 않습니다. (IRI-857)

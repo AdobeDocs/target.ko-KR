@@ -1,27 +1,27 @@
 ---
 keywords: 타깃팅;대상;보고;성공 지표
-description: 에서 성공 지표를 선택하는 방법을 알아봅니다 [!DNL Adobe Target] 사용자를 보고 대상이 될 수 있도록 해줍니다.
+description: ' [!DNL Adobe Target] 에서 사용자를 보고 대상이 될 수 있는 성공 지표를 선택하는 방법을 알아봅니다.'
 title: 성공 지표에 보고 대상을 적용할 수 있습니까?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 source-git-commit: bcbb6dec9d6add07c109b07bf125c1356ad2a8b9
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 43%
+source-wordcount: '393'
+ht-degree: 36%
 
 ---
 
 # 성공 지표에 보고 대상 적용
 
-에서 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오. [!DNL Adobe Target].
+[!DNL Adobe Target]에서 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
 
-[!UICONTROL 적용 대상] 드롭다운 목록을 사용하면 모든 활동에서 대상을 성공 지표에 적용하여 성공 지표에 도달한 후 및 그 이후의 작업에서 보고된 수치를 확인할 수 있습니다.
+모든 활동에 대해 [!UICONTROL Applied At] 드롭다운 목록을 사용하면 성공 지표에 대상을 적용하여 지표에 도달한 후 및 후속 작업에 대한 보고 번호를 볼 수 있습니다.
 
 ![success_metric 이미지](assets/success_metric.png)
 
 예를 들어, 홈 페이지에서 들어가서 전환 페이지에 도달하는 모든 방문자를 위한 활동을 만들었지만, 전환하기 전에 50달러 이상을 장바구니에 추가한 방문자를 더 자세히 드릴다운하고 싶은 경우를 가정할 수 있습니다.
 
-다음 [!UICONTROL 적용 대상] 드롭다운 목록은 잠재적으로 다음 세 가지 카테고리를 제공합니다.
+[!UICONTROL Applied At] 드롭다운 목록에는 세 가지 범주가 있을 수 있습니다.
 
 * 활동에 대한 모든 방문자
 * 활동의 특정 단계에 도달한 방문자만
@@ -31,7 +31,7 @@ ht-degree: 43%
 
 >[!NOTE]
 >
->[성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)는 활동에 대해 구성한 경우에만 사용할 수 있습니다. 성공 지표를 정의하지 않은 경우 드롭다운 목록에 다음 두 가지 옵션만 표시됩니다. [!UICONTROL 캠페인 시작] 및 [!UICONTROL 전환].
+>[성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)는 활동에 대해 구성한 경우에만 사용할 수 있습니다. 성공 지표를 정의하지 않은 경우 드롭다운 목록에 [!UICONTROL Campaign Entry] 및 [!UICONTROL Conversion] 옵션 두 개만 표시됩니다.
 
 
 ## 고려 사항
@@ -40,11 +40,11 @@ ht-degree: 43%
 
 * 대상이 적용되는 지표에서 시작하는 성공 지표만 대상에 의해 세그먼트화된 보고 데이터를 표시합니다
 * 대상이 적용되는 성공 지표 앞에 있는 성공 지표는 대상자로 분할되지 않고 모든 방문자 데이터를 표시합니다
-* 지표는 활동 정의에서 순서를 기반으로 하며 [!UICONTROL 기본 목표] 마지막이 될 거야
+* 지표는 활동 정의에서 해당 순서를 기반으로 고려되며 [!UICONTROL Primary Goal]이(가) 마지막입니다.
 
 ## 보고에서 세그먼테이션 보기
 
-보고에서 세분화를 보려면 다음에서 원하는 대상을 선택합니다. [!UICONTROL 대상자] 활동 보고서의 드롭다운 목록입니다.
+보고에서 세분화를 보려면 활동의 보고서에 있는 [!UICONTROL Audience] 드롭다운 목록에서 원하는 대상을 선택하십시오.
 
 ![reporting_audience_dropdown 이미지](assets/reporting_audience_dropdown.png)
 

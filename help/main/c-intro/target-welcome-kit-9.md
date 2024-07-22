@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 76bd62e6-07fa-40b9-9d81-529a825500fb
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '690'
-ht-degree: 82%
+source-wordcount: '657'
+ht-degree: 78%
 
 ---
 
@@ -17,11 +17,11 @@ ht-degree: 82%
 
 그런데 테스트, 개인화 및 [!DNL Target] 사용에 대해 자세히 알아볼 수 있는 방법은 매우 다양합니다. 아래의 리소스 목록을 검토하여 해당 지식 구축을 시작하십시오. 웹 세미나를 청취하고, Adobe Target 블로그를 읽고, Adobe Summit에 참석하고, Adobe Target 온라인 커뮤니티에서 활동하십시오. 여러분이 프로그램을 시작하고 성공을 위한 길로 안내하기 위해 항상 이 곳에 있다는 것을 잊지 마십시오. 언제든지 연락하십시오.
 
-을 사용하여 최적화 및 개인화에 대한 더 많은 지식을 얻을 수 있도록 유용한 정보 목록을 정리했습니다 [!DNL Target].
+[!DNL Target]을(를) 사용한 최적화 및 개인화에 대한 더 많은 지식을 얻을 수 있도록 유용한 정보 목록을 정리했습니다.
 
 ## 리소스 링크
 
-* **Adobe Target 설정**: [!DNL Adobe Target]VEC(Visual Experience Composer)에 대한 [!UICONTROL 구성] 설정, 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자를 포함하여 관리하는 데 도움이 되는 정보입니다. [Target 개요 관리](/help/main/administrating-target/administrating-target.md)를 참조하십시오.
+* **Adobe Target 설정**: [!UICONTROL Visual Experience Composer](VEC), 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다. [Target 개요 관리](/help/main/administrating-target/administrating-target.md)를 참조하십시오.
 * **Adobe Target 제품 설명서**: Adobe Target에 대해 알아야 할 모든 사항. [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ko_KR)를 참조하십시오.
 * **Adobe Target API 및 SDK 설명서**: 클라이언트측 애플리케이션, 서버측 애플리케이션, 모바일 앱, IoT 등에 [!DNL Target] 을 구현하는 방법에 대해 알아보십시오. 또한 [!DNL Target] 데이터를 서드파티 솔루션과 교환하는 방법에 대해서도 알아보십시오. [Adobe Target API 개요](/help/main/api/api-overview.md)를 참조하십시오.
 * **Adobe Target 활동 안내서**: [!DNL Target]에서 사용할 수 있는 다양한 활동에 대해 소개합니다. [Target 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.

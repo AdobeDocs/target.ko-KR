@@ -1,7 +1,7 @@
 ---
 keywords: 제외
-description: 에서 제외를 만드는 방법 알아보기 [!DNL Target Recommendations] 방문자에게 제품이나 콘텐츠를 추천하지 않도록 하려는 경우.
-title: 에서 제외를 사용하는 방법 [!UICONTROL Recommendations] 활동?
+description: ' [!DNL Target Recommendations] 에서 제외를 만들어 제품 또는 콘텐츠를 방문자에게 추천하지 않도록 하는 방법에 대해 알아봅니다.'
+title: '[!UICONTROL Recommendations] 활동에서 제외를 사용하려면 어떻게 합니까?'
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -14,9 +14,9 @@ ht-degree: 18%
 
 # 제외
 
-에서 제외 만들기 [!DNL Adobe Target Recommendations] 방문자에게 제품이나 콘텐츠를 추천하지 않도록 하려는 경우. 제외는 방문자에게 권장해서는 안 되는 제품 또는 콘텐츠의 하위 집합입니다.
+제품 또는 콘텐츠가 방문자에게 추천되지 않도록 하려면 [!DNL Adobe Target Recommendations]에서 제외를 만드십시오. 제외는 방문자에게 권장해서는 안 되는 제품 또는 콘텐츠의 하위 집합입니다.
 
-제외는 전체 계정에서 사용할 수 있습니다. 를 만들 때 각 경험에 대해 특정 컬렉션을 지정하는 컬렉션과 달리 [!UICONTROL Recommendations] 활동, 제외는 계정의 모든 활동에 적용됩니다. 활동을 만드는 동안 제외 그룹을 할당할 수 있는 옵션이 없습니다.
+제외는 전체 계정에서 사용할 수 있습니다. [!UICONTROL Recommendations] 활동을 만들 때 각 경험에 대해 특정 컬렉션을 지정하는 컬렉션과 달리 계정의 모든 활동에는 제외가 적용됩니다. 활동을 만드는 동안 제외 그룹을 할당할 수 있는 옵션이 없습니다.
 
 제외를 사용하는 몇 가지 예는 다음과 같습니다.
 
@@ -28,27 +28,27 @@ ht-degree: 18%
 
 >[!IMPORTANT]
 >
->제외 규칙은 모든 항목에 전체적으로 적용됩니다 [환경](/help/main/administrating-target/environments.md).
+>제외 규칙은 모든 [환경](/help/main/administrating-target/environments.md)에 전체적으로 적용됩니다.
 >
 >정적 및 동적 제외 규칙은 마케팅 활동에 도움이 될 수 있는 강력한 기능입니다. 자세한 정보, 예 및 사용 사례 시나리오가 필요하면 [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F)을 참조하십시오.
 
 ## 제외 만들기
 
-1. 클릭 **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]** 기존 제외 목록을 표시합니다.
+1. 기존 제외 목록을 표시하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;을(를) 클릭합니다.
 
    ![exclusions_list 이미지](assets/exclusions-list.png)
 
-   의 각 제외에 대해 보고된 &quot;항목 수&quot; [!UICONTROL Exclusions] 목록 보기는 구성된 기본 Recommendations 내에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다 [호스트 그룹](/help/main/administrating-target/hosts.md) (환경). 다음을 참조하십시오 [계획 및 구현 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank} 다음에서 *Adobe Target 개발자 안내서* 기본 호스트 그룹을 변경하는 방법에 대한 정보입니다.
+   [!UICONTROL Exclusions] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 Recommendations [호스트 그룹](/help/main/administrating-target/hosts.md)(환경) 내에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하는 방법에 대한 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [계획 및 구현 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}을 참조하십시오.
 
-1. (조건부) [!UICONTROL Filter] 아이콘을 클릭한 다음 원하는 아이콘을 선택합니다 [환경](/help/main/administrating-target/environments.md) 다음에서 **[!UICONTROL Environment]** 해당 환경에서 제외의 컨텐츠를 미리 보기 위해 제외를 만들거나 업데이트하는 동안 드롭다운 목록을 표시합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
+1. (조건부) [!UICONTROL Filter] 아이콘을 클릭한 다음 제외를 만들거나 업데이트하여 해당 환경에서 제외 콘텐츠를 미리 보는 동안 **[!UICONTROL Environment]** 드롭다운 목록에서 원하는 [환경](/help/main/administrating-target/environments.md)을(를) 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
    ![제외 만들기](/help/main/c-recommendations/c-products/assets/choose-environment.png)
 
 1. **[!UICONTROL Create Exclusion]** 아이콘을 클릭합니다.
 
-   ![제외 만들기 대화 상자](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
+   ![제외 대화 상자 만들기](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
-1. 제외 입력 **[!UICONTROL Name]** 원할 경우 설명을 입력합니다.
+1. 제외 **[!UICONTROL Name]**&#x200B;을(를) 입력하고 선택적 설명을 입력하십시오.
 
 1. 규칙 빌더를 사용하여 제외 항목을 만듭니다.
 
@@ -70,7 +70,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 제외 편집, 복사 또는 삭제
 
-다음을 클릭합니다. **생략 부호** 목록에서 원하는 제외 옆에 있는 아이콘을 클릭한 다음 편집, 복사 또는 삭제와 같은 적절한 아이콘을 클릭합니다.
+목록에서 원하는 제외 옆에 있는 **줄임표** 아이콘을 클릭한 다음 편집, 복사 또는 삭제와 같은 해당 아이콘을 클릭합니다.
 
 ![옵션: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
 
@@ -78,7 +78,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 제외는 전체 계정에서 사용할 수 있습니다. 제외를 삭제하기 전에 이 주의 사항을 고려해야 합니다. 삭제된 제외는 복구할 수 없습니다.
 
-## 교육 비디오: Recommendations에서 컬렉션 및 제외 만들기(7:05) ![튜토리얼 배지](/help/main/assets/tutorial.png)
+## 교육 비디오: Recommendations(7:05)에서 컬렉션 및 제외 만들기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 

@@ -1,17 +1,17 @@
 ---
 keywords: 데이터 분산;분석;차이;분산;a4t;analytics for target;보고 소스로 분석;불일치;일치하지 않음
-description: Adobe 간의 예상 데이터 분산에 대해 알아봅니다 [!DNL Target] Analytics를 사용하지 않는 경우 및 Analytics [!DNL Target] (A4T) - 데이터 분산을 모두 제거합니다.
+description: Analytics for [!DNL Target] (A4T)을 사용하지 않아 데이터 분산이 모두 삭제될 때 Adobe [!DNL Target] 과(와) Analytics 간의 예상 데이터 분산에 대해 알아봅니다.
 title: Analytics와 A4T 간의 예상 데이터 차이는 무엇입니까?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '733'
-ht-degree: 46%
+source-wordcount: '730'
+ht-degree: 45%
 
 ---
 
-# Adobe 간 예상 데이터 분산 [!DNL Target] A4T를 사용할 때와 사용하지 않을 때 및 Adobe Analytics
+# A4T를 사용할 때와 사용하지 않을 때 Adobe [!DNL Target]과(와) Adobe Analytics 간에 예상되는 데이터 분산
 
 Analytics를 보고 소스(A4T)로 *사용*&#x200B;할 때와 *사용하지 않을* 때 [!DNL Target]와 Adobe [!DNL Analytics] 간에 예상되는 데이터 차이에 대한 정보입니다. A4T가 데이터 분산을 크게 줄임.
 
@@ -21,11 +21,11 @@ A4T를 사용하면 활동에 대한 Analytics 및 Target 보고는 모두 Analy
 
 다음은 예상 데이터 차이를 경험할 수 있는 몇 가지 시나리오입니다.
 
-* A4T에서는 Target 히트(페이지 상단)가 발생하지만 Analytics 히트(페이지 하단)는 발생하지 않을 수 있습니다. 예를 들어 방문자가 페이지를 로드하지만 Analytics 호출이 트리거되기 전에 브라우저를 닫는다고 가정합니다. 이러한 경우 A4T는 데이터에서 Target 히트를 제외합니다. 실제 Analytics 호출이 없을 때 Target 히트(즉, 페이지 상단)가 Analytics 히트로 계산되도록 허용하면 Analytics에 설정된 데이터와 일치하지 않습니다(방문자 인플레이션 등).
+* A4T에서는 Target 히트(페이지 상단)가 발생하지만 Analytics 히트(페이지 하단)는 발생하지 않을 수 있습니다. 예를 들어 방문자가 페이지를 로드하지만 Analytics 호출이 트리거되기 전에 브라우저를 닫는다고 가정합니다. 이러한 경우 A4T는 데이터에서 Target 히트를 제외합니다. 실제 Analytics 호출이 없을 때 Analytics 히트로 카운트하도록 Target 히트(즉, 페이지 상단)를 허용하면 Analytics에 설정된 데이터와 일치하지 않습니다(방문자 인플레이션 등).
 
-   트래픽을 50/50(또는 25/25/25/25 등)으로 분할하도록 리디렉션 테스트가 Target에 설정된 경우 사용자 행동이 균일하게 나누어지지 않을 수 있습니다. 불규칙한 분할이 표시되는 경우, 한 사용자 그룹이 랜딩 페이지에서 다른 그룹보다 Analytics 호출을 더 많이 실행하지 못했음을 의미합니다. 한 그룹에 대한 Analytics 호출을 실행하지 못하면 해당 사용자에 대한 Target 히트가 제외되어 불일치가 생성됩니다.
+  트래픽을 50/50(또는 25/25/25/25 등)으로 분할하도록 리디렉션 테스트가 Target에 설정된 경우 사용자 행동이 균일하게 나누어지지 않을 수 있습니다. 불규칙한 분할이 표시되는 경우, 한 사용자 그룹이 랜딩 페이지에서 다른 그룹보다 Analytics 호출을 더 많이 실행하지 못했음을 의미합니다. 한 그룹에 대한 Analytics 호출을 실행하지 못하면 해당 사용자에 대한 Target 히트가 제외되어 불일치가 생성됩니다.
 
-   Adobe은 Adobe 팀이 Adobe Experience Platform에서 A4T를 사용하여 향후 이 문제를 해결하기를 희망합니다. Adobe 팀은 페이지의 서로 다른 시간에 발생하는 이러한 다양한 이벤트를 처리하는 방법을 결정하고 있습니다.
+  Adobe은 Adobe 팀이 Adobe Experience Platform에서 A4T를 사용하여 향후 이 문제를 해결하기를 희망합니다. Adobe 팀은 페이지의 서로 다른 시간에 발생하는 이러한 다양한 이벤트를 처리하는 방법을 결정하고 있습니다.
 
 ## A4T를 *사용하지 않을* 때 예상되는 데이터 분산 {#expected-not-using-a4t}
 
@@ -33,9 +33,9 @@ A4T를 사용하면 활동에 대한 Analytics 및 Target 보고는 모두 Analy
 
 실제 데이터는 상당히 다를 수 있지만 일반적으로 추세는 일관됩니다. 차이와 우세가 일관되기만 하면 데이터도 귀중하고 유용한 상태로 유지됩니다. 차이와 추세가 일관되지 않은 경우 잘못 설정된 항목이 있음을 의미할 수 있습니다. 이 경우 지원을 받으려면 계정 담당자에게 문의하십시오.
 
-[!DNL Analytics]는 방문 및 트랜잭션을 기준으로 시스템을 사용하지만 [!DNL Target]은 방문자 기반 지표를 사용합니다. 방문자가 페이지를 열 때마다 에서는 방문으로 계산됩니다 [!DNL Analytics], 하지만 [!DNL Target] 활동에 설정된 조건이 충족될 때까지 방문을 계산하지 않습니다.
+[!DNL Analytics]는 방문 및 트랜잭션을 기준으로 시스템을 사용하지만 [!DNL Target]은 방문자 기반 지표를 사용합니다. 방문자가 페이지를 열 때마다 [!DNL Analytics]에서는 방문으로 계산되지만 [!DNL Target]에서는 활동에 설정된 조건이 충족될 때까지 방문을 계산하지 않습니다.
 
-의 보고서 [!DNL Target] 활동을 정의할 때 선택한 전환 mbox를 기반으로 성능을 표시합니다. 그러나 이 전환 mbox 데이터는에 전송되지 않습니다. [!DNL Analytics]로 정의된 대로 자체 전환 변수가 있는 경우 [!DNL Analytics] 태깅 구현. 동일한 데이터를 예상하는 경우(예: 소매점의 주문에서 페이지에 전환 mbox와 가 모두 포함되어 있는지 확인하는 경우) [!DNL Analytics] 구매 이벤트)에서, 이러한 태그의 배치로 인해 데이터가 다를 수 있습니다. 일반적으로 두 제품 보고서의 트렌드는 비슷합니다.
+[!DNL Target]의 보고서에는 활동을 정의할 때 선택한 전환 mbox를 기반으로 한 성능이 표시됩니다. 그러나 이 전환 mbox 데이터는 [!DNL Analytics] 태깅 구현에서 정의한 대로 자체 전환 변수가 있는 [!DNL Analytics]에 전송되지 않습니다. 동일한 데이터를 예상하는 경우(예: 소매점의 주문에서 페이지에 전환 mbox와 [!DNL Analytics] 구매 이벤트가 모두 포함되어 있는지 확인하는 경우) 이러한 태그의 배치 때문에 데이터가 다를 수 있습니다. 일반적으로 두 제품 보고서의 트렌드는 비슷합니다.
 
 예상 데이터 차이는 기술 및 비즈니스 차이로 인해 발생할 수 있습니다.
 

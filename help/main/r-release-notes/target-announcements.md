@@ -6,7 +6,7 @@ feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
 workflow-type: tm+mt
-source-wordcount: '2358'
+source-wordcount: '2350'
 ht-degree: 98%
 
 ---
@@ -44,7 +44,7 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 * **주요 사용 사례 알아보기**: 지능형 최적화를 위한 블루프린트를 통해 비전을 실현하고 규칙 기반 실험 및 A/B 테스트 이상으로 [!DNL Adobe Target] 고객을 성숙시킵니다.
 * **고유 기능 극대화**: ROI, 매출 및 전환율을 극대화하기 위한 고성능 추천을 통해 성공을 위한 경험을 맞춤화합니다.
-* **고급 개인화 전략**: AI/ML 고급 기술을 깊이 있게 분석하여 비즈니스 영향력을 확장하고, 새로운 세그먼트/대상과 공감하고, 개인화 모델을 미세 조정하여 최적화된 경험을 제공합니다.
+* **고급 Personalization 전략**: AI/ML 고급 기술을 심층적으로 분석하여 비즈니스 영향력을 확장하고, 새로운 세그먼트/대상과 공감하고, 개인화 모델을 미세 조정하여 최적화된 경험을 만듭니다.
 
 * **[여기에서 등록](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
@@ -133,7 +133,7 @@ Adobe 고객 성공 관리자인 Ramon Cespedes가 제시하는 개인화 제공
 
   이 세션에서는 다음에 대해 논의하여 [!DNL Adobe Target]의 새로운 기능을 활용하여 전환 상승도를 높이는 방법에 대해 알아보겠습니다.
 
-   * [!UICONTROL Automated Personalization] 및 [!UICONTROL 자동 타겟] 활동의 향상된 모델 제어
+   * [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 활동 내의 향상된 모델 컨트롤
    * [!DNL Real-Time Customer Data Platform]의 [!DNL Adobe]에서 프로필 속성 및 고가치 세그먼트 평가 기능 사용
    * 브랜드가 AI 기반 알고리즘을 세부 조정하여 더 빠른 속도와 의사 결정을 전달하는 방법
    * 일대일 개인화 전달에 대한 고유한 사용 사례
@@ -156,7 +156,7 @@ Adobe 고객 성공 관리자인 Ramon Cespedes가 제시하는 개인화 제공
 
   교육 과정 맵:
 
-   * [!UICONTROL A/B 테스트], [!UICONTROL Multivariate Testing] (MVT), (XT), 자동화된 테스트 및 개인화
+   * [!UICONTROL A/B Test], [!UICONTROL Multivariate Testing](MVT), (XT), 자동화된 테스트 및 개인화
    * 활동 설정에 대한 단계별 워크플로
    * 일괄 경험 프리페치, 모바일에 대한 개인화 항시 활성화
    * 테스트에 대한 라이프사이클 지표 및 고객 경험 전반에 걸친 타겟팅

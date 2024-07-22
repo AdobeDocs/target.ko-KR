@@ -1,31 +1,31 @@
 ---
 keywords: A/B;활동 지표;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-description: '에서 지표를 지정하는 방법 알아보기 [!DNL Adobe Target] A/B 활동: 다음과 같이 방문이 성공적으로 수행된 시기를 확인합니다. [!UICONTROL 전환], [!UICONTROL 매출], 및 [!UICONTROL 참여].'
+description: '[!UICONTROL Conversion], [!UICONTROL Revenue] 및 [!UICONTROL Engagement]과(와) 같이 방문이 성공적으로 수행된 시기를 결정하기 위해  [!DNL Adobe Target] A/B 활동에서 지표를 지정하는 방법을 알아봅니다.'
 title: A/B 활동에서 목표 지표를 설정하려면 어떻게 합니까?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 source-git-commit: 2d5272a852dc879e7307695744b70afe7fee9a38
 workflow-type: tm+mt
-source-wordcount: '340'
-ht-degree: 65%
+source-wordcount: '322'
+ht-degree: 59%
 
 ---
 
 # 지표 설정
 
-에서 지표 사용 [!DNL Adobe Target] A/B 활동: 방문이 성공적으로 수행된 시기를 확인합니다.
+[!DNL Adobe Target] A/B 활동의 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 
-성공 지표에 대한 자세한 내용은 을 참조하십시오. [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+성공 지표에 대한 자세한 내용은 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 
-1. 다음에서 **[!UICONTROL 보고 설정]** 의 섹션 **[!UICONTROL 목표 및 설정]** 페이지, 선택 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
+1. **[!UICONTROL Goals & Settings]** 페이지의 **[!UICONTROL Reporting Settings]** 섹션에서 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
 
    ![성공 지표 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
-   다음 [!UICONTROL 지표 선택] 옵션은 활동에 대해 선택할 수 있는 성공 지표를 나열합니다. 성공 지표는 다음 카테고리로 구분됩니다.
+   [!UICONTROL Select Metrics] 옵션은 활동에 대해 선택할 수 있는 성공 지표를 나열합니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
-   * [!UICONTROL 변환]
-   * [!UICONTROL 매출 ]
-   * [!UICONTROL 참여]
+   * [!UICONTROL Conversion]
+   * [!UICONTROL Revenue]
+   * [!UICONTROL Engagement]
 
    사전 빌드된 지표 중 하나를 사용하거나 사용자 지정 성공 지표를 만들 수 있습니다. 성공 지표를 기본 지표로 표시할 수도 있습니다. 기본 측정 항목(설정된 경우)을 표시하려면 Experience Cloud 카드 기본값을 보고합니다.
 
@@ -33,7 +33,7 @@ ht-degree: 65%
 
    사용 가능한 설정은 사용 중인 성공 지표에 따라 다릅니다.
 
-   [!UICONTROL 전환 예상값] 필드가 활성화되어 있으면(페이지 점수 지표에는 사용할 수 없음) 목표값이 표시됩니다.  이 값을 통해 [!DNL Target]이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 데이터 유형은 통화입니다. 이 필드는 사용자가 목표를 충족하기 위해 수행한 작업을 지정한 후에 점진적으로 표시됩니다. 자세한 내용은 [매출 상승도 평가](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오.
+   사용하도록 설정하면 [!UICONTROL Estimated Value of the Conversion] 필드([!UICONTROL Page Score] 지표에 사용할 수 없음)에 목표 값이 제공됩니다. 이 값을 통해 [!DNL Target]이 예상 매출액 상승도를 계산할 수 있습니다. 이 필드는 선택 사항이지만, 이 필드의 값이 없으면 비매출액 지표의 증분 수익을 계산할 수 없습니다. 데이터 유형은 통화입니다. 이 필드는 사용자가 목표를 충족하기 위해 수행한 작업을 지정한 후에 점진적으로 표시됩니다. 자세한 내용은 [매출 상승도 평가](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오.
 
    예상한 데이터를 가져오려면 성공 지표를 올바르게 구성해야 합니다.
 

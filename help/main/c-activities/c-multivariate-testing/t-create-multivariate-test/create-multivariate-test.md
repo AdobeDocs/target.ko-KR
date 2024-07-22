@@ -1,25 +1,25 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
-description: 사용 방법 알아보기 [!UICONTROL 시각적 경험 작성기] (VEC) 위치 [!DNL Adobe Target] 을(를) 만들려면 [!UICONTROL 다변량 테스트] (MVT).
-title: 를 만드는 방법 [!UICONTROL 다변량 테스트]?
+description: ' [!DNL Adobe Target] 의 [!UICONTROL Visual Experience Composer](VEC)을(를) 사용하여 [!UICONTROL Multivariate Test](MVT)을(를) 만드는 방법을 알아봅니다.'
+title: '[!UICONTROL Multivariate Test]을(를) 만드는 방법'
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 62%
+source-wordcount: '504'
+ht-degree: 56%
 
 ---
 
 # 다변량 테스트 만들기
 
-다음 [!UICONTROL 시각적 경험 작성기] (VEC) 위치 [!DNL Adobe Target] 를 쉽게 만들 수 있습니다. [!UICONTROL 다변량 테스트] 및 를 사용하여 내에서 페이지의 일부 수정 [!DNL Target].
+[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer](VEC)을(를) 사용하면 [!UICONTROL Multivariate Test]을(를) 쉽게 만들고 [!DNL Target] 내에서 페이지의 일부를 수정할 수 있습니다.
 
-다음 [!DNL Target] 포인트 앤 클릭 편집기를 사용하면 원하는 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
+[!DNL Target] 가리키고 클릭 편집기를 사용하여 원하는 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
 
-다음 [!UICONTROL MVT(다변량 테스트)]는 페이지 우선 보고서를 사용합니다. 즉, 테스트가 해당 페이지에 대해 디자인한 경험을 사용하여 특정 URL에서 실행됩니다.
+[!UICONTROL Multivariate Test](MVT)은 페이지 우선 보고서를 사용합니다. 즉, 테스트가 해당 페이지에 대해 디자인한 경험을 사용하여 특정 URL에서 실행됩니다.
 
-1. 클릭 **[!UICONTROL 활동 만들기]** > **[!UICONTROL 다변량 테스트]**.
+1. **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**&#x200B;을(를) 클릭합니다.
 
    ![다변량 테스트 만들기](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -27,11 +27,11 @@ ht-degree: 62%
    >
    >[!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.
 
-1. (조건부) 게재 유형을 선택합니다. [!UICONTROL 웹], [!UICONTROL 모바일], [!UICONTROL 이메일], 또는 [!UICONTROL 기타/API].
+1. (조건부) 배달 유형: [!UICONTROL Web], [!UICONTROL Mobile], [!UICONTROL Email] 또는 [!UICONTROL Other/API]을(를) 선택합니다.
 
-1. (조건부) (다음과 같은 경우) [Target Premium](/help/main/c-intro/intro.md#premium) 고객, [작업 영역 선택](/help/main/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (조건부) [Target Premium](/help/main/c-intro/intro.md#premium) 고객인 경우 [작업 영역을 선택](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)합니다.
 
-1. [URL 지정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) 테스트할 페이지의 경우 **[!UICONTROL 다음]**.
+1. 테스트할 페이지의 [URL을 지정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
    >[!NOTE]
    >
@@ -39,7 +39,7 @@ ht-degree: 62%
 
    브라우저에서 혼합 콘텐츠를 사용하도록 허용할지 묻는 메시지가 표시되면 메시지의 지침을 따르십시오. 브라우저를 혼합 콘텐츠에 대해 활성화한 후 1단계부터 다시 시작하십시오.
 
-   다음 [!UICONTROL 시각적 경험 작성기] 열림.
+   [!UICONTROL Visual Experience Composer]이(가) 열립니다.
 
 1. 활동의 이름을 입력합니다.
 
@@ -79,11 +79,11 @@ ht-degree: 62%
    * 이미지
    * 텍스트
 
-1. 다음 **[!UICONTROL 미리 보기]**&#x200B;를 클릭하여 [환경을 미리 봅니다](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
+1. **[!UICONTROL Preview]**&#x200B;을(를) 클릭하여 [환경을 미리 봅니다](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
    ![미리 보기 환경](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
 
-   각 경험을 보고, 테스트에 포함하지 않으려는 경험을 제외할 수 있습니다. 경험을 한 개 이상의 제외하려면 원하는 확인란을 선택한 다음 **[!UICONTROL 제외]**&#x200B;를 클릭합니다.
+   각 경험을 보고, 테스트에 포함하지 않으려는 경험을 제외할 수 있습니다. 경험을 한 개 이상의 제외하려면 원하는 확인란을 선택한 다음 **[!UICONTROL Exclude]** 을(를) 클릭합니다.
 
    ![경험 제외](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
@@ -93,13 +93,13 @@ ht-degree: 62%
 
    다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
 
-   ![견적 이미지](assets/estimator.png)
+   ![견적 도구 이미지](assets/estimator.png)
 
    다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
 
    ![estimator2 이미지](assets/estimator2.png)
 
-1. 이 **[!UICONTROL 다음]**&#x200B;을 클릭하여 [!UICONTROL 타깃팅] 페이지로 이동합니다.
+1. [!UICONTROL Targeting] 페이지로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
 1. 활동을 시작할 자격 있는 방문자의 대상 및 비율을 선택합니다.
 
@@ -111,15 +111,15 @@ ht-degree: 62%
    >
    >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-1. [테스트 요약을 검토하고](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) 원하는 대로 변경한 후, **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. [테스트 요약을 검토하고](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)원하는 대로 변경한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
 1. [테스트에 대한 목표 및 설정을 지정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)합니다.
 
-1. **[!UICONTROL 저장 후 닫기]**&#x200B;를 클릭하여 활동을 만듭니다.
+1. **[!UICONTROL Save and Close]**&#x200B;을(를) 클릭하여 활동을 만듭니다.
 
 ## 교육 비디오: 다변량 테스트 만들기(9:25) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
-이 비디오에서는 다음을 사용하여 다변량 테스트를 계획하고 만드는 방법을 보여 줍니다. [!DNL Target] 안내가 있는 3단계 워크플로.
+이 비디오에서는 안내가 있는 [!DNL Target] 3단계 워크플로우를 사용하여 다변량 테스트를 계획하고 만드는 방법을 보여 줍니다.
 
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기

@@ -1,41 +1,45 @@
 ---
 keywords: faq;자주 묻는 질문;analytics for target;a4T;상승도;ad hoc;report builder;신뢰도
-description: 용 Analytics 사용 시 향상도 및 신뢰도에 대한 질문에 대한 답변을 찾아보십시오. [!DNL Target] (A4T). A4T를 사용하면 용 Analytics 보고를 사용할 수 있습니다 [!DNL Target] 활동.
+description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 상승도 및 신뢰도에 대한 질문에 대한 답변을 찾아보십시오. A4T를 사용하면  [!DNL Target] 활동에 대한 Analytics 보고를 사용할 수 있습니다.
 title: A4T에서 상승도 및 신뢰도에 대한 정보는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '541'
 ht-degree: 15%
 
 ---
 
 # 상승도 및 신뢰도 - A4T FAQ
 
-이 주제에서는 사용 시 상승도와 신뢰도에 대해 자주 묻는 질문에 대한 답변을 제공합니다 [!DNL Adobe Analytics] 을(를) 위한 보고 소스로 사용 [!DNL Adobe Target] (A4T).
+이 주제에서는 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target]의 보고 소스로 사용(A4T)할 때의 상승도 및 신뢰도와 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
 ## A4T에 대해 오프라인 계산을 수행할 수 있습니까? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-+++답변 A4T에 대해 오프라인 계산을 수행할 수 있지만 의 데이터 내보내기 단계가 필요합니다. [!DNL Analytics]. 자세한 내용은 [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
++++답변
+A4T에 대해 오프라인 계산을 수행할 수 있지만 [!DNL Analytics]의 데이터 내보내기 단계가 필요합니다. 자세한 내용은 [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)을 참조하십시오.
 
 +++
 
 ## 상승도는 어떻게 계산됩니까? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
-+++답변 상승도는 제어 페이지 결과와 성공적인 테스트 변형 간의 퍼센트 차이입니다.
++++답변
+상승도는 제어 페이지 결과와 성공적인 테스트 변형 간의 퍼센트 차이입니다.
 
 +++
 
 ## 신뢰도는 어떻게 계산됩니까? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-+++답변 신뢰 수준은 백분율로 표시되는 다음과 같은 확률입니다. `1 - p-value`, 여기서 `p-value` t-테스트에서 계산됩니다. 다음을 참조하십시오 [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
++++답변
+신뢰 수준은 백분율로 표시되며 `1 - p-value`과(와) 같은 확률입니다. 여기서 `p-value`은(는) t-테스트에서 계산됩니다. A/Bn 테스트의 [통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)을 참조하세요.
 
 +++
 
 ## 계산된 지표에서 상승도 및 신뢰도가 표시되지 않는 이유는 무엇입니까? {#lift-confidence}
 
-+++답변 계산된 지표는 현재 상승도 및 신뢰도 함수에서 지원되지 않습니다. Analytics는 방문자 수준이 아닌 집계 수준에서 지표를 계산합니다. 특히 신뢰도는 방문자 수준의 계산입니다.
++++답변
+계산된 지표는 현재 상승도 및 신뢰도 함수에서 지원되지 않습니다. Analytics는 방문자 수준이 아닌 집계 수준에서 지표를 계산합니다. 특히 신뢰도는 방문자 수준의 계산입니다.
 
 상승도 및 신뢰도에서 계산되지 않는 (표준) 이벤트가 지원됩니다. 상승도 함수에서 분자가 됩니다. 분자는 계산 자체가 될 수 없습니다. 분모는 표준화 지표(노출 횟수, 방문 횟수 또는 방문자 수)입니다. 표준 이벤트의 일부 예에는 주문, 매출, 활동 전환, 사용자 지정 이벤트 1-1000 등이 포함됩니다. 대화 비율(주문/방문자) 및 RPV(매출/방문자)와 같은 일반적인 최적화 지표는 상승도와 신뢰도에서 지원됩니다.
 
@@ -49,11 +53,12 @@ ht-degree: 15%
 ## A4T는 신뢰도 계산을 어떻게 처리합니까? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 +++답변
-[!DNL Adobe Analytics] 는 모든 지표를 이진이 아닌 것으로 취급하므로, 일반 t-테스트에서 이진 지표를 사용하는 것과 다른 방식으로 신뢰도/p-값을 계산합니다. 특히, A4T에서 사용하는 계산은 각 사용자가 연속적인 지표 결과(각 사용자에 대해 1이나 0이 아님)를 가질 수 있도록 하므로 각 경험에 대한 분산(또는 관련 항목, 표준 편차)이 적절하게 계산되어야 합니다. 예외적인 주문은 고려되지 않습니다. 또한 신뢰도 계산은 여러 오퍼에 대해 Bonferroni 수정을 적용하지 않습니다.
+[!DNL Adobe Analytics]은(는) 모든 지표를 바이너리가 아닌 것으로 취급하므로 일반 t-테스트에서 바이너리 지표를 사용하는 것과 다른 방식으로 신뢰도/p-값을 계산합니다. 특히, A4T에서 사용하는 계산은 각 사용자가 연속적인 지표 결과(각 사용자에 대해 1이나 0이 아님)를 가질 수 있도록 하므로 각 경험에 대한 분산(또는 관련 항목, 표준 편차)이 적절하게 계산되어야 합니다. 예외적인 주문은 고려되지 않습니다. 또한 신뢰도 계산은 여러 오퍼에 대해 Bonferroni 수정을 적용하지 않습니다.
 
 +++
 
 ## 상승도 및 신뢰도를 Ad Hoc 및 Report Builder에서 사용할 수 있습니까? 기본적으로 사용할 수 없다면 사용 설정할 수 있습니까? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
-+++답변 상승도 및 신뢰도는 Ad Hoc 또는 Report Builder에서 작동하지 않으며 연속 변수에 대해 직접 계산할 수 없습니다. 하지만 이진 지표에 수동으로 계산할 수 있습니다.
++++답변
+상승도와 신뢰도는 Ad Hoc 또는 Report Builder에서 작동하지 않으며 연속 변수에 대해 직접 계산할 수 없습니다. 하지만 이진 지표에 수동으로 계산할 수 있습니다.
 +++

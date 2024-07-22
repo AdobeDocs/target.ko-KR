@@ -13,11 +13,11 @@ ht-degree: 38%
 
 # 방문자 프로필
 
-의 방문자 프로필 [!DNL Adobe Target] 방문자가 페이지 및 기타 최적화된 컨텐츠 위치를 사용하는 방법에 대한 정보를 포함합니다.
+[!DNL Adobe Target]의 방문자 프로필에는 방문자가 페이지 및 기타 최적화된 콘텐츠 위치를 사용하는 방법에 대한 정보가 포함되어 있습니다.
 
-If [!DNL Target] 다른 용기와 함께 사용됩니다. [!DNL Adobe Experience Cloud] 솔루션(예: ) [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] 은 솔루션 간에 방문자 정보를 공유합니다.
+[!DNL Target]이(가) [!DNL Adobe Analytics]과(와) 같은 다른 [!DNL Adobe Experience Cloud] 솔루션과 함께 사용되는 경우 [!DNL Experience Cloud Audiences]은(는) 솔루션 간에 방문자 정보를 공유합니다.
 
-기본적으로, [!DNL Target] 프로필 정보는 단일 자사 쿠키에 저장됩니다. 타사 쿠키도 지원하도록 구성을 쉽게 변경할 수 있습니다.
+기본적으로 [!DNL Target] 프로필 정보는 단일 자사 쿠키에 저장됩니다. 타사 쿠키도 지원하도록 구성을 쉽게 변경할 수 있습니다.
 
 다음 섹션에는 추가 정보가 포함됩니다.
 

@@ -6,8 +6,8 @@ feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 95%
+source-wordcount: '1622'
+ht-degree: 87%
 
 ---
 
@@ -27,20 +27,20 @@ mboxTrace 및 mboxDebug는 캠페인 데이터 및 프로필 데이터를 외부
 
 인증 토큰을 생성하려면 다음 사용자 권한 중 하나가 있어야 합니다.
 
-* 최소 [!UICONTROL 편집자] 권한(또는 [!UICONTROL 승인자])
+* 최소 [!UICONTROL Editor]개의 권한(또는 [!UICONTROL Approver])
 
-   . [!DNL Target Standard] 고객에 대한 자세한 내용은 사용자에서 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 *참조하십시오*. [!DNL Target Premium] 고객에 대한 자세한 내용은 [기업 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)을 참조하십시오.
+  . [!DNL Target Standard] 고객에 대한 자세한 내용은 사용자에서 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 *참조하십시오*. [!DNL Target Premium] 고객에 대한 자세한 내용은 [기업 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)을 참조하십시오.
 
 * 작업 영역/제품 프로필 수준에서 관리자 역할
 
-   작업 영역은 [!DNL Target Premium] 고객만 사용할 수 있습니다. 자세한 내용은 [기업 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)을 참조하십시오.
+  작업 영역은 [!DNL Target Premium] 고객만 사용할 수 있습니다. 자세한 내용은 [기업 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)을 참조하십시오.
 
 * [!DNL Adobe Target] 제품 수준의 관리자 권한(Sysadmin 권한)
 
 인증 토큰을 검색하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL 관리]** > **[!UICONTROL 구현]**&#x200B;을 클릭합니다.
-1. 디버거 도구 섹션에서 **[!UICONTROL 새 인증 토큰 생성]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;을(를) 클릭합니다.
+1. 디버거 도구 섹션에서 **[!UICONTROL Generate New Authentication Token]**&#x200B;을(를) 클릭합니다.
 
    ![새 인증 토큰 생성](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
@@ -83,7 +83,7 @@ mboxTrace를 사용하여 [!DNL Target] 응답에 첨부된 추적 정보를 수
 * 적용되는 제외 및 포함
 * 컬렉션 규칙
 
-쿼리 매개 변수에 `=console`, `=json` 또는 `=window` 는 포함할 필요가 없습니다. mboxTrace 세부 정보를 다 지정했으면 `=disable`을 추가하고 **[!UICONTROL Enter]** 키를 눌러 일반 표시 모드로 돌아갑니다.
+쿼리 매개 변수에 `=console`, `=json` 또는 `=window`을(를) 포함할 필요가 없습니다. mboxTrace 세부 정보를 다 지정했으면 `=disable`을(를) 추가하고 **[!UICONTROL Enter]**&#x200B;을(를) 눌러 일반 표시 모드로 돌아갑니다.
 
 사이트의 일반적인 기능 및 모양은 mboxTrace의 영향을 받지 않습니다. 방문자는 일반 권장 사항 디자인을 봅니다.
 
@@ -111,7 +111,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}를 참조하십시오.
 
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
 ## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html)를 참조하십시오.{target=_blank}를 참조하십시오.
+사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank}을(를) 참조하십시오.
 
 ## 요소가 Adobe Experience Manager 개인화에도 속하면 Target 콘텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -153,11 +153,11 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타기팅 및 Target 활�
 
 ## [!DNL Target] 활동이 쿼리 문자열 매개 변수가 있는 URL을 올바르게 처리하는지 확인합니다. {#query-strings}
 
-[!UICONTROL 활동 URL]은 방문자에게 활동 자격을 부여하고 활동 경험을 사용자에게 렌더링하는 페이지를 결정합니다. 활동을 만드는 동안 메시지가 표시되면 전체 URL을 입력해도 해당 사이트 페이지(특히 쿼리 문자열 매개 변수가 포함된 URL)에 콘텐츠가 항상 전달되는 것은 아닙니다.
+[!UICONTROL Activity URL]은(는) 방문자에게 활동 자격을 부여하고 활동 경험을 사용자에게 렌더링하는 페이지를 결정합니다. 활동을 만드는 동안 메시지가 표시되면 전체 URL을 입력해도 해당 사이트 페이지(특히 쿼리 문자열 매개 변수가 포함된 URL)에 콘텐츠가 항상 전달되는 것은 아닙니다.
 
-기본적으로 [!UICONTROL 시각적 경험 작성기] (VEC)는 [시각적 경험 작성기 설정](/help/main/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만드는 동안 다른 페이지를 지정할 수도 있습니다.
+기본적으로 [!UICONTROL Visual Experience Composer](VEC)은 [시각적 경험 작성기 설정](/help/main/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만드는 동안 다른 페이지를 지정할 수도 있습니다.
 
-VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (톱니바퀴아이콘)]**&#x200B;을 클릭하고 > select **[!UICONTROL 페이지 전달]**&#x200B;을 선택한 다음 > [!UICONTROL 활동 URL] 필드에 원하는 URL을 지정합니다.
+VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL Configure gear icon]**&#x200B;을(를) 클릭하고 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택한 다음 [!UICONTROL Activity URL] 필드에 원하는 URL을 지정하십시오.
 
 ![페이지 전송 설정 UI 구성](assets/configure-page-delivery.png)
 
@@ -183,13 +183,13 @@ VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL 구성 (�
 
 ### 옵션 3: 전체 URL을 타기팅하는 대신 URL의 특정 부분을 활용합니다.
 
-이 시나리오에서 URL은 `https://shopping.mycart.com?type=Summers%20Offers`이고 추가 템플릿 규칙은 [!UICONTROL 유형] > [!UICONTROL 은(대소문자 구분)] > type=Summers%20Offers(OR 연산자로 구분)인 [!UICONTROL 쿼리]를 지정합니다.
+이 시나리오에서 URL은 `https://shopping.mycart.com?type=Summers%20Offers`이고 추가 템플릿 규칙은 OR 연산자로 구분된 [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers로 [!UICONTROL Query]을(를) 지정합니다.
 
 ![URL의 특정 부분을 활용하는 템플릿 규칙](assets/option3.png)
 
-## 에서 큰따옴표 이스케이프 처리 [!DNL Target] 프로필 속성 값이 예상대로 작동하지 않습니다. {#escape}
+## [!DNL Target] 프로필 특성 값의 큰따옴표 이스케이프가 예상대로 작동하지 않습니다. {#escape}
 
-큰따옴표가 포함된 값을 보낼 때 [!DNL Target] 프로필 속성에서 아래 표시된 대로 두 번 이스케이프 처리해야 합니다.
+[!DNL Target] 프로필 특성에 큰따옴표가 포함된 값을 보낼 때 아래와 같이 두 번 이스케이프 처리를 해야 합니다.
 
 ```
 adobe.target.trackEvent({
@@ -204,7 +204,7 @@ adobe.target.trackEvent({
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### 확장 추가 ![튜토리얼 배지](/help/main/assets/tutorial.png)
+### 확장 ![튜토리얼 배지](/help/main/assets/tutorial.png) 추가
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 

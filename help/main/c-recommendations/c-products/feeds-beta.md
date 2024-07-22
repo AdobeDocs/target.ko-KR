@@ -1,12 +1,13 @@
 ---
 keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
-description: 피드가 엔티티를에 가져오는 방법 알아보기 [!DNL Adobe Target] [!DNL Recommendations] csv 파일을 사용하면 [!DNL Google Product Search] 피드 형식 및 [!DNL Analytics] 제품 분류.
-title: '사용 방법 [!UICONTROL Feeds] 위치: [!DNL Target Recommendations]?'
+description: 피드가 CSV 파일,  [!DNL Google Product Search] 피드 형식 및  [!DNL Analytics] 제품 분류를 사용하여  [!DNL Adobe Target] [!DNL Recommendations]에 엔티티를 가져오는 방법에 대해 알아봅니다.
+title: ' [!DNL Target Recommendations]에서 [!UICONTROL Feeds]을(를) 사용하는 방법'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: f3b1281cfbfb70703ac33776b3ed964360b3db3a
+exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
+source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 38%
@@ -15,15 +16,15 @@ ht-degree: 38%
 
 # 피드
 
-피드를 사용하여 로 가져온 엔티티 가져오기 [!DNL Adobe Target] [!DNL Recommendations]. 엔티티는 다음 CSV 파일을 사용하여 보낼 수 있습니다 [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류.
+피드를 사용하여 [!DNL Adobe Target] [!DNL Recommendations](으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
 
 ## 피드 개요 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
-피드를 사용하면 를 전달할 수 있습니다. [엔티티](/help/main/c-recommendations/c-products/products.md) 또는 페이지에서 사용할 수 없거나 페이지에서 직접 보내기에는 안전하지 않은 정보가 있는 mbox 데이터를 보강합니다. 예를 들어 마진, COGS(매출 원가) 등이 있습니다.
+피드를 사용하면 [엔터티](/help/main/c-recommendations/c-products/products.md)를 전달하거나 페이지에서 사용할 수 없거나 페이지에서 직접 보내기에는 안전하지 않은 정보가 있는 mbox 데이터를 보강할 수 있습니다. 예를 들어 마진, COGS(매출 원가) 등이 있습니다.
 
-피드를 사용하면 자세한 항목 정보를에 전달할 수도 있습니다 [!DNL Recommendations], 제품 ID, 카테고리, 이름, 메시지 및 기타 속성 등.
+피드를 사용하면 제품 ID, 범주, 이름, 메시지 및 기타 특성과 같은 자세한 항목 정보를 [!DNL Recommendations]에 전달할 수 있습니다.
 
-에서 열을 선택할 수 있습니다. [!DNL Target] 제품 분류 파일 또는 [!DNL Google Product Search] 에 보낼 파일 [!DNL Recommendations] 서버입니다.
+[!DNL Target] 제품 분류 파일 또는 [!DNL Google Product Search] 파일에서 [!DNL Recommendations] 서버로 보낼 열을 선택할 수 있습니다.
 
 각 항목에 대한 이러한 데이터 조각을 사용하여 다음을 수행할 수 있습니다.
 
@@ -32,43 +33,43 @@ ht-degree: 38%
 * 항목을 다른 컬렉션으로 정렬
 * 권장 사항에 제외 적용
 
-항목 설명을에 전달할 수 있습니다. [!DNL Target] 피드 또는 mbox 사용. If [!DNL Target] 는 엔티티 피드와 mbox를 모두 사용하여 데이터를 수집하며 가장 최근 데이터가 승리합니다. 일반적으로 가장 최근의 데이터는 mbox가 더 자주 조회되므로 mbox에서 옵니다. 드물지만 개체 피드 데이터와 mbox 데이터가 동시에 조회되는 경우 mbox 데이터가 사용됩니다.
+항목 설명은 피드 또는 mbox를 사용하여 [!DNL Target]에 전달할 수 있습니다. [!DNL Target]이(가) 엔터티 피드와 mbox를 모두 사용하여 데이터를 수집하면 가장 최근 데이터가 성공합니다. 일반적으로 가장 최근의 데이터는 mbox가 더 자주 조회되므로 mbox에서 옵니다. 드물지만 개체 피드 데이터와 mbox 데이터가 동시에 조회되는 경우 mbox 데이터가 사용됩니다.
 
-다음 [!UICONTROL Feeds] 목록( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**)는 사용자가 만든 피드에 대한 정보를 제공합니다.
+[!UICONTROL Feeds] 목록( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**)에는 만들어진 피드에 대한 정보가 있습니다.
 
 ![피드 페이지](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
 
-다음 [!UICONTROL Feeds] 페이지에는 다음 열이 포함되어 있습니다.
+[!UICONTROL Feeds] 페이지에 다음 열이 포함되어 있습니다.
 
 * **이름**: 만드는 중에 지정된 피드의 이름입니다. 피드의 이름을 편집하려면 피드 자체를 편집해야 합니다. 피드를 새 이름으로 저장하면 피드가 새로 고쳐집니다.
 * **상태**: 피드의 현재 [상태](/help/main/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0)입니다.
-* **유형**: 유형은 다음과 같습니다 [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF), 및 [Analytics 분류](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
+* **유형**: 유형에는 [CSV](/help/main/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [[!DNL Google Product Feed]](/help/main/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) 및 [Analytics 분류](/help/main/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A)가 포함됩니다.
 * **항목**: 피드에 있는 항목의 수를 표시합니다.
-* **예약**: 피드에 대한 업데이트 일정을 표시합니다. [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks], 또는 [!UICONTROL Never].
-* **마지막으로 업데이트됨**: 피드를 마지막으로 업데이트한 날짜 및 시간과 피드를 업데이트한 사람의 이름을 표시합니다.
+* **일정**: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] 또는 [!UICONTROL Never] 피드의 업데이트 일정을 표시합니다.
+* **마지막 업데이트**: 피드를 마지막으로 업데이트한 날짜와 시간, 피드를 업데이트한 사람의 이름을 표시합니다.
 
-다음을 클릭합니다. [!UICONTROL Customize Table] 아이콘( ![표 맞춤화 아이콘](/help/main/c-recommendations/c-products/assets/customize-table-icon.png) )을 클릭하여 표시할 열을 선택하거나 선택 취소할 수 있습니다.
+[!UICONTROL Customize Table] 아이콘(![표 사용자 지정 아이콘](/help/main/c-recommendations/c-products/assets/customize-table-icon.png))을 클릭하여 표시할 열을 선택하거나 선택 취소합니다.
 
-다음을 클릭합니다. [!UICONTROL Information] 아이콘을 클릭하면 마지막 업로드 날짜와 피드의 URL을 표시하는 카드가 표시됩니다.
+[!UICONTROL Information] 아이콘을 클릭하면 마지막 업로드 날짜와 피드의 URL을 표시하는 카드가 표시됩니다.
 
-줄임표 아이콘을 클릭하여 다음 작업에 액세스합니다. [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy], 및 [!UICONTROL Delete].
+[!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] 및 [!UICONTROL Delete] 작업에 액세스하려면 줄임표 아이콘을 클릭하십시오.
 
 >[!IMPORTANT]
 >
 >업로드된 엔티티 및 엔티티 속성은 61일 후에 만료됩니다. 이것은 다음을 의미합니다.
 >
 >* 피드는 카탈로그 콘텐츠가 만료되지 않도록 최소 매월 실행해야 합니다.
->* 피드 파일에서 항목을 제거해도 카탈로그에서 해당 항목이 제거되지 않습니다. 카탈로그에서 항목을 제거하려면 다음을 통해 항목을 수동으로 삭제합니다. [!DNL Target] UI 또는 API. 또는 품목 속성(예: 재고)을 수정하여 품목이 고려 대상에서 제외되도록 합니다.
+>* 피드 파일에서 항목을 제거해도 카탈로그에서 해당 항목이 제거되지 않습니다. 카탈로그에서 항목을 제거하려면 [!DNL Target] UI 또는 API를 통해 항목을 수동으로 삭제하십시오. 또는 품목 속성(예: 재고)을 수정하여 품목이 고려 대상에서 제외되도록 합니다.
 
-## 소스 유형
+## Source 유형
 
-엔티티는 다음 CSV 파일을 사용하여 보낼 수 있습니다 [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류.
+엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
 
 ### CSV로 내보내기 {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
-다음을 사용하여 .csv 파일을 만들 수 있습니다. [!DNL Adobe] 소유 CSV 업로드 형식입니다. 파일에는 제품용으로 예약된 속성과 사용자 지정 속성에 대한 표시 정보가 들어 있습니다. 사용하는 구현에 대한 속성을 업로드하려면 헤더 행의 `CustomN`을 사용하려는 속성의 이름으로 바꾸십시오. 이 아래 예에서는 `entity.Custom1`이 `entity.availability`로 교체되었습니다. 그런 다음 파일을 [!DNL Recommendations] 서버에 벌크로 업로드할 수 있습니다.
+[!DNL Adobe] 소유 CSV 업로드 형식을 사용하여 .csv 파일을 만들 수 있습니다. 파일에는 제품용으로 예약된 속성과 사용자 지정 속성에 대한 표시 정보가 들어 있습니다. 사용하는 구현에 대한 속성을 업로드하려면 헤더 행의 `CustomN`을 사용하려는 속성의 이름으로 바꾸십시오. 이 아래 예에서는 `entity.Custom1`이 `entity.availability`로 교체되었습니다. 그런 다음 파일을 [!DNL Recommendations] 서버에 벌크로 업로드할 수 있습니다.
 
-.csv 형식을 사용하면 보다 다음과 같은 이점이 있습니다. [!DNL Google] 피드 형식:
+.csv 형식을 사용하면 [!DNL Google] 피드 형식보다 다음과 같은 이점이 있습니다.
 
 * .csv 형식에는 필드 매핑이 필요하지 않습니다.
 * .csv 형식은 다중 값 특성을 지원합니다(아래 예 참조).
@@ -76,7 +77,7 @@ ht-degree: 38%
 
 페이지에 mbox가 없거나 사이트에서 사용할 수 없는 항목으로 표시 정보를 보완하려는 경우 벌크 업로드 방법을 사용하여 표시 정보를 보냅니다. 예를 들어 사이트에 게시되지 않았을 수 있는 재고 정보를 전송할 수 있습니다.
 
-.csv 파일, Google 제품 피드 또는 [!DNL Analytics] 제품 분류 피드가 데이터베이스의 기존 엔티티 속성 값을 덮어씁니다. mbox 요청을 통해 가격 정보를 보내고 파일에 다른 가격 값을 보내는 경우 파일의 값은 mbox 요청에 설정된 값을 덮어씁니다. 최대 250자까지 덮어쓰는 대신 카테고리 값을 추가한 `categoryId` 엔티티 속성은 예외입니다.
+.csv 파일, Google 제품 피드 또는 [!DNL Analytics] 제품 분류 피드를 사용하여 업로드한 모든 데이터는 데이터베이스의 기존 엔터티 특성 값을 덮어씁니다. mbox 요청을 통해 가격 정보를 보내고 파일에 다른 가격 값을 보내는 경우 파일의 값은 mbox 요청에 설정된 값을 덮어씁니다. 최대 250자까지 덮어쓰는 대신 카테고리 값을 추가한 `categoryId` 엔티티 속성은 예외입니다.
 
 >[!IMPORTANT]
 >
@@ -116,29 +117,29 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 ### [!DNL Google] {#section_8EFA98B5BC064140B3F74534AA93AFFF}
 
-다음 [!DNL Google Product Search] 피드 유형은 [!DNL Google] 포맷. 이는 과(와) 다릅니다. [!DNL Adobe] 소유 CSV 업로드 형식입니다.
+[!DNL Google Product Search] 피드 형식은 [!DNL Google] 형식을 사용합니다. [!DNL Adobe] 소유 CSV 업로드 형식과 다릅니다.
 
-기존 항목이 [!DNL Google Product Feed], 가져오기 파일로 사용할 수 있습니다.
-
->[!NOTE]
->
->를 사용할 필요는 없습니다. [!DNL Google] 데이터. [!DNL Recommendations] 과 동일한 형식 사용 [!DNL Google]. 이 방법을 사용하여 보유하고 있는 데이터를 업로드하고 사용 가능한 예약 기능을 이용할 수 있습니다. 그러나 다음을 유지해야 합니다 [!DNL Google] 파일을 설정할 때 미리 정의된 속성 이름.
-
-대부분의 소매업체는 제품을에 업로드합니다. [!DNL Google], 방문자가 [!DNL Google] 제품 검색, 해당 제품이 표시됩니다. [!DNL Recommendations] 다음 [!DNL Google] 사양은 정확히 개체 피드에 대한 것입니다. 엔터티 피드를 (으)로 보낼 수 있습니다. [!DNL Recommendations] .xml, .txt 또는 .tsv를 통해 [Google에 의해 정의된 속성](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 결과는 다음 위치에서 검색할 수 있습니다. [[!DNL Google] 쇼핑 페이지](https://www.google.com/prdhp).
+기존 [!DNL Google Product Feed]이(가) 있는 경우 가져오기 파일로 사용할 수 있습니다.
 
 >[!NOTE]
 >
->POST 메서드는 를 호스팅하는 서버에서 허용되어야 합니다. [!DNL Google] 피드 콘텐츠.
+>[!DNL Google] 데이터를 사용할 필요는 없습니다. [!DNL Recommendations]은(는) [!DNL Google]과(와) 동일한 형식을 사용합니다. 이 방법을 사용하여 보유하고 있는 데이터를 업로드하고 사용 가능한 예약 기능을 이용할 수 있습니다. 그러나 파일을 설정할 때 미리 정의된 특성 이름 [!DNL Google]을(를) 유지해야 합니다.
 
-이유 [!DNL Recommendations] 사용자가 이미 .xml 또는 .txt 피드를 구성하여 (으)로 전송 [!DNL Google] url 또는 FTP를 통해 엔티티 피드는 해당 제품 데이터를 승인하고 이를 사용하여 권장 사항 카탈로그를 구성합니다. 피드가 존재하며 권장 사항 서버가 데이터를 검색하는 위치를 지정합니다.
+대부분의 소매업체는 제품을 [!DNL Google]에 업로드하므로 방문자가 [!DNL Google] 제품 검색을 사용하면 해당 제품이 표시됩니다. [!DNL Recommendations]은(는) 정확히 엔터티 피드에 대해 [!DNL Google] 사양을 따릅니다. 엔터티 피드는 .xml, .txt 또는 .tsv를 통해 [!DNL Recommendations]에 전송될 수 있으며, Google에서 정의한 [특성을 사용할 수 있습니다](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 결과는 [[!DNL Google] 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
 
-를 사용하는 경우 [!DNL Google Product Search] 엔티티 피드 업로드의 경우 권장 사항을 표시하거나 보기를 기반으로 알고리즘 전달을 위한 제품 보기를 추적하려면 페이지에 제품 페이지 mbox가 있어야 합니다.
+>[!NOTE]
+>
+>[!DNL Google] 피드 콘텐츠를 호스팅하는 서버에서는 POST 메서드가 허용되어야 합니다.
 
-[!DNL Google] 피드는 사용자 지정 속성에 대해 여러 값을 지원하지 않습니다.
+[!DNL Recommendations]명의 사용자가 이미 URL 또는 FTP를 통해 [!DNL Google]에게 전송할 .xml 또는 .txt 피드를 구성했으므로, 엔터티 피드는 해당 제품 데이터를 수락하고 이를 사용하여 권장 사항 카탈로그를 만듭니다. 피드가 존재하며 권장 사항 서버가 데이터를 검색하는 위치를 지정합니다.
+
+엔터티 피드 업로드에 [!DNL Google Product Search]을(를) 사용하는 경우, 권장 사항을 표시하거나 보기를 기반으로 알고리즘 전달을 위한 제품 보기를 추적하려면 페이지에 제품 페이지 mbox가 있어야 합니다.
+
+[!DNL Google] 피드는 사용자 지정 특성에 대해 여러 값을 지원하지 않습니다.
 
 피드는 저장하고 활성화할 때 실행됩니다. 피드를 저장할 때 실행된 다음 한 시간 후 매일 실행됩니다.
 
-다음은 의 샘플 코드입니다. [!DNL Google Product Search] 피드 .xml 파일:
+다음은 [!DNL Google Product Search] 피드 .xml 파일에 대한 샘플 코드입니다.
 
 ```
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?> 
@@ -205,7 +206,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 </feed> 
 ```
 
-다음은 의 샘플 코드입니다. [!DNL Google Product Search] 피드 .tsv 파일:
+다음은 [!DNL Google Product Search] 피드 .tsv 파일에 대한 샘플 코드입니다.
 
 ```
 id    title    description    link    price    condition    availability    image_link    tax    shipping_weight    shipping    google_product_category    product_type    item_group_id    color    size    gender    age_group    pattern    brand    gtin    mpn 
@@ -215,35 +216,35 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-다음 [!DNL Adobe Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 [분류 정보](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 다음에서 *Analytics 구성 요소* 가이드. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
+[!DNL Adobe Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 *Analytics 구성 요소* 안내서에서 [분류 정보](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html)를 참조하십시오. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
 
 >[!IMPORTANT]
 >
->엔티티 데이터를 로 가져오기 전 [!DNL Recommendations] 사용 [!DNL Analytics] 제품 분류 는 기본 방법이 아닙니다.
+>[!DNL Analytics] 제품 분류를 사용하여 엔터티 데이터를 [!DNL Recommendations](으)로 가져오기 전에 이 방법이 기본 방법이 아니라는 것을 알아 두십시오.
 >
 > 다음 주의 사항에 유의하십시오.
 >
 >* 엔티티 속성에 대한 업데이트는 최대 24시간이 넘는 지연을 초래합니다.
->* [!DNL Target] 지원 [!UICONTROL Product Classifications] 만 해당. 다음 [!DNL Analytics] 제품 SKU는 와 동일한 수준에 매핑해야 합니다. [!DNL Recommendations] `entity.id`. 사용자 정의 [!DNL Analytics] 분류를 다음을 사용하여 엔지니어링할 수 있습니다. [!UICONTROL Adobe Consulting Services]. 질문이 있는 경우 계정 관리자에게 문의하십시오.
+>* [!DNL Target]은(는) [!UICONTROL Product Classifications]만 지원합니다. [!DNL Analytics] 제품 SKU는 [!DNL Recommendations] `entity.id`과(와) 동일한 수준에 매핑해야 합니다. 사용자 지정 [!DNL Analytics] 분류는 [!UICONTROL Adobe Consulting Services]을(를) 사용하여 제작할 수 있습니다. 질문이 있는 경우 계정 관리자에게 문의하십시오.
 
 ## 피드 만들기 {#steps}
 
 [!DNL Recommendations]에 제품이나 서비스에 대한 정보를 삽입하는 피드를 작성합니다.
 
-1. 다음 범위 내에서 [!DNL Target] 인터페이스, 클릭 **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**.
+1. [!DNL Target] 인터페이스 내에서 **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**&#x200B;을(를) 클릭합니다.
 
    ![피드 만들기 대화 상자](assets/CreateFeed.png)
 
 1. 피드의 수사적 이름을 지정합니다.
-1. 선택 **[!UICONTROL Source Type]**.
+1. **[!UICONTROL Source Type]** 선택.
 
    * [!UICONTROL CSV]
    * [!UICONTROL Google Product Feed]
    * [!UICONTROL Analytics Classifications]
 
-   에 대한 자세한 내용은 [!UICONTROL CSV] 및 [!UICONTROL Google Product Feed] 피드 유형, 참조 [피드 개요](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). 다음을 수행할 수도 있습니다. [모델 CSV 안내서 다운로드](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) 를 사용하십시오.
+   [!UICONTROL CSV] 및 [!UICONTROL Google Product Feed] 피드 유형에 대한 자세한 내용은 [피드 개요](/help/main/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)를 참조하십시오. [모델 CSV 가이드를 다운로드](/help/main/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv)하여 피드의 형식을 올바르게 지정할 수도 있습니다.
 
-1. (조건부) (선택한 경우) **[!UICONTROL CSV]** 또는 **[!UICONTROL Google Product Feed]**&#x200B;피드에 액세스할 수 있는 위치를 지정합니다.
+1. (조건부) **[!UICONTROL CSV]** 또는 **[!UICONTROL Google Product Feed]**&#x200B;을(를) 선택한 경우 피드에 액세스할 수 있는 위치를 지정하십시오.
 
    * **FTP**: FTP를 선택하는 경우 FTP 서버 정보, 로그인 자격 증명, 파일 이름 및 FTP 디렉토리를 제공하십시오. 보다 안전한 업로드를 위해 SSL을 사용하는 FTP(FTPS)를 사용할 수 있습니다.
 
@@ -254,11 +255,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
       * SFTP는 지원되지 않습니다.
       * 연결을 시작할 포트를 수동으로 지정할 수 있습니다(예: `ftp://ftp.yoursite.com:2121`). 포트를 지정하지 않으면 기본 FTP 또는 FTPS 포트가 사용됩니다.
 
-   * **URL**: 를 선택하는 경우 [!UICONTROL URL]를 클릭하고 URL을 지정합니다.
+   * **URL**: [!UICONTROL URL]을(를) 선택하는 경우 URL을 지정하십시오.
 
-1. (조건부) (선택한 경우) **[!UICONTROL Analytics Classifications]**, 드롭다운 목록에서 보고서 세트를 선택합니다.
+1. (조건부) **[!UICONTROL Analytics Classifications]**&#x200B;을(를) 선택한 경우 드롭다운 목록에서 보고서 세트를 선택합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Next]** 화살표를 클릭하여 [!UICONTROL Schedule] 옵션.
+1. **[!UICONTROL Next]** 화살표를 클릭하여 [!UICONTROL Schedule] 옵션을 표시합니다.
 
    ![단계 결과](assets/CreateFeedSchedule.png)
 
@@ -267,13 +268,13 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
    * [!UICONTROL Daily]
    * [!UICONTROL Weekly]
    * [!UICONTROL Every 2 Weeks]
-   * [!UICONTROL Never]: 업데이트를 예약하지 않습니다. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
+   * [!UICONTROL Never]: 업데이트를 예약하지 마십시오. 이 피드를 실행하지 않으려면 이 항목을 선택하십시오.
 
 1. 피드를 실행할 시간을 지정합니다.
 
    이 선택 사항은 브라우저에서 사용되는 시간대를 기반으로 합니다. 다른 시간대의 시간을 사용하려면 시간대에 따라 시간을 계산해야 합니다.
 
-1. 다음을 클릭합니다. **[!UICONTROL Next]** 화살표를 클릭하여 [!UICONTROL Mapping] 옵션을 선택한 다음 데이터를 매핑할 방법을 지정합니다 [!DNL Target] 정의.
+1. **[!UICONTROL Next]** 화살표를 클릭하여 [!UICONTROL Mapping] 옵션을 표시한 다음 데이터를 [!DNL Target] 정의에 매핑하는 방법을 지정합니다.
 
    ![단계 결과](assets/CreatFeedMapping.png)
 
@@ -283,7 +284,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
-피드를 만들거나 편집한 후 피드가 즉시 실행됩니다. 그러면 피드는 사용자가 설정한 매개 변수에 따라 업데이트됩니다. 정보가 나오려면 시간이 좀 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태는 아래에 나타납니다. [피드 상태](/help/main/c-recommendations/c-products/feeds.md#status) 다음에서 [!UICONTROL Feeds] 목록을 표시합니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
+피드를 만들거나 편집한 후 피드가 즉시 실행됩니다. 그러면 피드는 사용자가 설정한 매개 변수에 따라 업데이트됩니다. 정보가 나오려면 시간이 좀 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태는 [!UICONTROL Feeds] 목록의 [피드 상태](/help/main/c-recommendations/c-products/feeds.md#status)에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
 
 색인화가 진행 중인 동안 개별 값이 색인화되기 전에 제품 및 피드 헤더가 표시됩니다. 이렇게 하면 색인화가 완료되기 전에 컬렉션, 제외, 디자인 및 활동을 만들 수 있도록 제품을 검색하고 볼 수 있습니다.
 
@@ -299,26 +300,26 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 | 상태 | 설명 |
 |--- |--- |
-| [!UICONTROL Syncing] | 피드 설정 세부 사항이에 저장되고 있습니다. [!DNL Target]. |
-| [!UICONTROL Sync Failed] | 피드 설정 세부 사항을 저장할 수 없습니다. [!DNL Target]. 다시 시도하십시오. |
+| [!UICONTROL Syncing] | 피드 설정 세부 정보가 [!DNL Target]에 저장되고 있습니다. |
+| [!UICONTROL Sync Failed] | 피드 설정 세부 정보를 [!DNL Target]에 저장할 수 없습니다. 다시 시도하십시오. |
 | [!UICONTROL No Feed Run] | 피드를 만들었지만 예약하지 않았습니다(빈도가 사용 안 함으로 설정됨). |
 | 예약 일시: *날짜 및 시간* | 피드가 실행되지 않았지만 지정된 날짜 및 시간에 실행되도록 예약되었습니다. |
-| [!UICONTROL Waiting for Download] | [!DNL Target] 는 피드 파일 다운로드를 준비하고 있습니다. |
-| [!UICONTROL Downloading Feed File] | [!DNL Target] 는 피드 파일을 다운로드하고 있습니다. |
-| [!UICONTROL Importing Items] | [!DNL Target] 는 피드 파일에서 항목을 가져오는 중입니다. |
-| 피드를 *시간 내에* 성공적으로 가져옴 | [!DNL Target] 이(가) 피드 파일을 해당 콘텐츠 전달 시스템으로 가져왔습니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않으면 다시 시도하여 권장 사항이 포함된 페이지를 새로 고치십시오.<br>참고:<ul><li>항목의 속성에 대한 변경 사항으로 인해 항목이 권장 사항에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 속성을 변경하면 항목이 다음과 같이 됩니다 *더 이상* 권장 사항에서 제외되면, 24시간 이내에 발생하는 다음 알고리즘 업데이트까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 [!UICONTROL Catalog Search] UI. 별도의 상태가에 나열되어 있습니다. [!UICONTROL Catalog Search] 검색 가능한 카탈로그가 업데이트된 마지막 시간을 나타냅니다.</li></ul> |
+| [!UICONTROL Waiting for Download] | [!DNL Target]이(가) 피드 파일 다운로드를 준비하는 중입니다. |
+| [!UICONTROL Downloading Feed File] | [!DNL Target]이(가) 피드 파일을 다운로드하고 있습니다. |
+| [!UICONTROL Importing Items] | [!DNL Target]이(가) 피드 파일에서 항목을 가져오는 중입니다. |
+| 피드를 *시간 내에* 성공적으로 가져옴 | [!DNL Target]이(가) 피드 파일을 콘텐츠 전달 시스템으로 가져왔습니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않으면 다시 시도하여 권장 사항이 포함된 페이지를 새로 고치십시오.<br>메모:<ul><li>항목의 속성에 대한 변경 사항으로 인해 항목이 권장 사항에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 특성을 변경하면 해당 항목이 권장 사항에서 더 이상 제외되지 *않습니다*. 이 경우 24시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 [!UICONTROL Catalog Search] UI에 아직 반영되지 않았을 수 있습니다. 검색 가능한 카탈로그가 마지막으로 업데이트된 시간을 나타내는 별도의 상태가 [!UICONTROL Catalog Search]에 나열됩니다.</li></ul> |
 | [!UICONTROL Failed to Index] | 색인 작업에 실패했습니다. 다시 시도하십시오. |
 | [!UICONTROL Server Not Found] | FTP 또는 URL 위치가 잘못되었거나 접속할 수 없습니다. |
 
-피드를 업데이트하려면(예를 들어, 피드 구성이나 피드 파일 변경) 피드를 열고 원하는 대로 변경하고 를 클릭합니다 **[!UICONTROL Save]**.
+피드를 업데이트하려면(예를 들어, 피드 구성이나 피드 파일 변경) 피드를 열고 원하는 대로 변경하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오.
 
 >[!IMPORTANT]
 >
->업로드된 엔티티는 61일 후에 만료됩니다. 즉, 권장 사항 활동이 중단되는 것을 방지하기 위해 적어도 60일마다 피드 파일을 업로드해야 합니다. 60일마다 한 번 이상 피드 파일(또는 다른 엔티티 업데이트 메서드)에 포함되지 않은 항목은 [!DNL Target] 더 이상 관련성이 없는 항목을 유추하여 카탈로그에서 제거합니다.
+>업로드된 엔티티는 61일 후에 만료됩니다. 즉, 권장 사항 활동이 중단되는 것을 방지하기 위해 적어도 60일마다 피드 파일을 업로드해야 합니다. 60일마다 한 번 이상 피드 파일(또는 다른 엔터티 업데이트 메서드)에 포함되지 않은 항목은 [!DNL Target]에서 더 이상 관련성이 없다고 유추하여 카탈로그에서 제거합니다.
 
 ### 피드 상태 표시기 {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
-다음 피드 상태 표시기가 [!UICONTROL Status] 열:
+[!UICONTROL Status] 열에 다음 피드 상태 표시기가 표시됩니다.
 
 | 상태 표시기 | 설명 |
 |--- |--- |

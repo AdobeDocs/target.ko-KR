@@ -6,7 +6,7 @@ feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1345'
+source-wordcount: '1320'
 ht-degree: 100%
 
 ---
@@ -25,7 +25,6 @@ ht-degree: 100%
 >* Experience Cloud 방문자 ID 서비스: visitorAPI.js 버전 2.3.0 이상
 >* Adobe Analytics: appMeasurement.js 버전 2.1.
 >* Adobe Target: at.js 버전 0.9.6 이상(A4T에서 리디렉션 오퍼를 사용하는 경우 버전 1.1.0 제외)
-
 
 ## 변경된 내용은 무엇입니까? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 

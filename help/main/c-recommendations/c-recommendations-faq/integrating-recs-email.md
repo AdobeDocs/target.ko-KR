@@ -2,17 +2,17 @@
 keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;배달 API;다운로드 전용 템플릿;이메일 템플릿;일괄처리;작성 시간 이메일
 description: ' [!DNL Target Recommendations], including using the [!DNL Target]  배달 API, Rawbox 템플릿 및 다운로드 전용 템플릿을 포함하여 이메일을 Adobe Target Recommendations과 통합하는 방법에 대해 알아보십시오.'
 title: Recommendations를 이메일과 통합하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
 workflow-type: tm+mt
-source-wordcount: '1715'
+source-wordcount: '1734'
 ht-degree: 96%
 
 ---
 
-# [!DNL Recommendations]를 이메일과 통합
+# [!DNL Recommendations]을(를) 이메일과 통합
 
 [!DNL Adobe Target]은 이메일에 포함된 권장 사항의 전송 시간 개인 맞춤화를 지원합니다.
 
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >모든 이메일 수신자(예: API 호출)에 대해 `sessionId` 및 `tntId` 또는 `thirdPartyId` 중 하나에 고유값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면, 단일 프로필 내에서 많은 이벤트가 생성되어 API 응답이 느려지거나 실패할 수 있습니다.
 
-자세한 내용은 [배달 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html)를 참조하십시오.{target=_blank}
+자세한 내용은 [배달 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}를 참조하십시오.
 
 ## 방법 2: rawbox 이메일 템플릿 사용 {#rawbox}
 
@@ -103,7 +103,7 @@ rawbox는 mbox 요청과 유사하지만 ESP(이메일 서비스 공급자)와 �
 
 * 이 경우 [!DNL Target] 서버는 다음 콘텐츠를 반환합니다.
 
-   `//ERROR: application server timeout`
+  `//ERROR: application server timeout`
 
 * 이메일 애플리케이션은 해당 텍스트를 검색하여 오류를 처리할 수 있어야 합니다. 이메일 제공업체는 이 경우를 처리하는 여러 가지 옵션을 제공합니다.
 
@@ -133,7 +133,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.categoryId`<br>(특정 기준 유형, 즉 범주별로 가장 많이 본 항목 및 범주별 상위 판매자에 필요) | *category_id* | 권장 사항의 기준이 되는 범주(예: 범주의 최상위 판매자)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.categoryId`를 포함해야 합니다. |  |
 | `mboxDefault` | *`https://www.default.com`* | `mboxNoRedirect` 매개 변수가 없으면, `mboxDefault` 매개 변수는 권장 사항을 사용할 수 없을 때 기본 콘텐츠를 반환하는 절대 URL이어야 합니다. 이 URL은 이미지 또는 기타 정적 콘텐츠일 수 있습니다.<br>. `mboxNoRedirect` 매개 변수가 있으면 `mboxDefault` 는 권장 사항이 없음을 나타내는 텍스트(예: `no_content`)일 수 있습니다.<br>이메일 공급자는 이 값이 반환되는 경우를 처리하고 기본 HTML을 이메일에 삽입해야 합니다. <br> **보안 모범 사례**: `mboxDefault` URL에 사용된 도메인이 허용 목록에 추가되지 않으면, 오픈 리디렉션 취약점의 위험에 노출될 수 있습니다. 리디렉터 링크 또는 `mboxDefault` 을 서드파티가 무단으로 사용하지 않도록 하려면, &quot;승인된 호스트&quot;를 사용하여 기본 리디렉션 URL 도메인을 허용 목록에 추가하는 것이 좋습니다. Target은 호스트를 사용하여 리디렉션을 허용할 도메인을 허용 목록에 추가합니다. 자세한 내용은 호스트에서 [mbox 호출을 *호스트*&#x200B;의  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist)로 보내도록 승인된 호스트를 지정하는 허용 목록 생성을 참조하십시오. |  |
 | `mboxHost` | *mbox_host* | 호출이 실행될 때 기본 환경(호스트 그룹)에 추가되는 도메인입니다. |  |
-| `mboxPC` | Empty | (방문자 프로필을 사용하는 권장 사항에 필수입니다.)<br>&quot;thirdPartyId&quot;가 제공되지 않으면 새 tntId가 생성되고 응답의 일부로 반환됩니다. 그렇지 않으면 비어 있는 상태로 유지됩니다.<br>**참고**: 각 이메일 수신자에게(즉, 각 API 호출에 대해) `mboxSession` 및 `mboxPC` 의 고유한 값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면, 단일 프로필 내에서 생성된 수많은 이벤트로 인해 API 응답이 느려지거나 실패할 수 있습니다. | 1 &lt; 길이 &lt; 128<br>둘 이상의 &quot;.&quot; (점)을 포함할 수 없습니다.<br>점은 프로필 위치 접미사에만 사용할 수 있습니다. |
+| `mboxPC` | Empty | (방문자 프로필을 사용하는 권장 사항에 필수입니다.)<br>제공된 &quot;thirdPartyId&quot;가 없으면 새 tntId가 생성되고 응답의 일부로 반환됩니다. 그렇지 않으면 비어 있는 상태로 유지됩니다.<br>**참고**: 각 이메일 수신자에게(즉, 각 API 호출에 대해) `mboxSession` 및 `mboxPC` 의 고유한 값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면, 단일 프로필 내에서 생성된 수많은 이벤트로 인해 API 응답이 느려지거나 실패할 수 있습니다. | 1 &lt; 길이 &lt; 128<br>둘 이상의 &quot;.&quot; (점)을 포함할 수 없습니다.<br>점은 프로필 위치 접미사에만 사용할 수 있습니다. |
 
 ### 선택적 매개 변수
 

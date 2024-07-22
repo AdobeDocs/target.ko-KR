@@ -7,20 +7,20 @@ feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 46%
+source-wordcount: '173'
+ht-degree: 35%
 
 ---
 
-# 에서 사용하는 IP 주소 [!DNL Recommendations] 피드 처리 서버
+# [!DNL Recommendations] 피드 처리 서버에서 사용하는 IP 주소
 
-에 사용된 IP 주소 목록 [!DNL Adobe Target] [!DNL Recommendations] 피드 처리 서버: IP 주소를에서 시작하도록 방화벽을 구성하는 데 도움이 됩니다. [!DNL Adobe] 서버.
+[!DNL Adobe] 서버에서 시작된 IP 주소를 허용하도록 방화벽을 구성하는 데 도움이 되는 [!DNL Adobe Target] [!DNL Recommendations] 피드 처리 서버에서 사용된 IP 주소 목록입니다.
 
 >[!IMPORTANT]
 >
->다음 [!DNL Target] 팀에서 현재 다운로드할 NAT 게이트웨이 주소를 업데이트하고 있습니다. [!DNL Recommendations] 피드. IP 허용 목록에 추가허용 목록에 추가하다 를 구현하는 경우 다음의 새 AWS 호스트를 구현해야 합니다. 기존 호스트는 2024년 6월 30일에 폐기될 예정입니다. 원활한 전환을 위해 9개의 주소를 모두 허용 목록에 추가하다합니다. 기존 주소를 제거해야 할 긴급성은 없습니다.
+>[!DNL Target] 팀은 현재 [!DNL Recommendations] 피드를 다운로드하기 위해 NAT 게이트웨이 주소를 업데이트하는 중입니다. IP 허용 목록에 추가허용 목록에 추가하다 를 구현하는 경우 다음의 새 AWS 호스트를 구현해야 합니다. 기존 호스트는 2024년 6월 30일에 폐기될 예정입니다. 원활한 전환을 위해 9개의 주소를 모두 허용 목록에 추가하다합니다. 기존 주소를 제거해야 할 긴급성은 없습니다.
 
-[!DNL Target] [!UICONTROL Recommendations] 활동에서는 다음의 AWS 호스트를 사용하여 고객의 FTP 서버에 액세스합니다.
+[!DNL Target] [!UICONTROL Recommendations] 활동에서는 고객의 FTP 서버에 액세스할 때 다음 AWS 호스트를 사용합니다.
 
 **새 호스트**:
 
@@ -41,4 +41,4 @@ ht-degree: 46%
 | 오레곤 | `44.232.167.82` |
 | 오레곤 | `52.41.252.205` |
 
-[!DNL Target] [!UICONTROL Recommendations] API도 동일한 AWS 호스트를 사용합니다.
+[!DNL Target]개의 [!UICONTROL Recommendations] API도 동일한 AWS 호스트를 사용합니다.

@@ -1,19 +1,19 @@
 ---
 keywords: spa vec;반응;각;react.js;spa 시각적 경험 작성기;spa 경험 작성기 선택 사항;단일 페이지 앱;단일-페이지-앱;spa;모바일 경험 선택 사항;Target 보기
-description: Adobe에서 SPA VEC를 사용하는 방법 알아보기 [!DNL Target] 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다.
+description: Adobe [!DNL Target] 에서 SPA VEC를 사용하여 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화하는 방법에 대해 알아봅니다.
 title: SPA VEC(단일 페이지 앱 시각적 경험 작성기)를 사용하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '3753'
-ht-degree: 72%
+source-wordcount: '3569'
+ht-degree: 64%
 
 ---
 
 # SPA(단일 페이지 앱) 시각적 경험 작성기
 
-[!DNL Adobe Target]에서 [!UICONTROL 시각적 경험 작성기] (VEC)는 마케터에게 Adobe Target의 글로벌 mbox를 통해 기존의 다중 페이지 애플리케이션에 동적으로 전달할 수 있는 경험을 개인화하고 활동을 만들 수 있는 DIY 기능을 제공합니다. 하지만, 이것은 아래 다이어그램에 표시된 것처럼, 지연을 초래하는 페이지 로드 또는 후속 서버 호출에서의 오퍼 검색에 의존합니다. 이 접근 방식은 사용자 경험과 애플리케이션 성능을 저하하므로 단일 페이지 애플리케이션(SPA)에서는 잘 작동하지 않습니다.
+[!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer](VEC)은(는) 마케터에게 Adobe Target의 글로벌 mbox를 통해 기존의 다중 페이지 애플리케이션에 동적으로 전달할 수 있는 경험을 개인화하고 활동을 만들 수 있는 DIY 기능을 제공합니다. 하지만, 이것은 아래 다이어그램에 표시된 것처럼, 지연을 초래하는 페이지 로드 또는 후속 서버 호출에서의 오퍼 검색에 의존합니다. 이 접근 방식은 사용자 경험과 애플리케이션 성능을 저하하므로 단일 페이지 애플리케이션(SPA)에서는 잘 작동하지 않습니다.
 
 ![기존 라이프사이클과 SPA 라이프사이클 비교](/help/main/c-experiences/assets/trad-vs-spa.png)
 
@@ -55,31 +55,31 @@ SPA용 Adobe Target VEC는 &quot;보기&quot;라는 새로운 개념(예: SPA �
 
 이제 마케터는 빠른 배달을 선택했을 때 단추 색상을 두 배달 선택 사항 모두에 대해 파란색으로 유지하는 것과 대조적으로 색상을 파란색에서 빨간색으로 변경하는 것이 전환을 더 끌어올릴 수 있을지 여부를 확인하기 위해 A/B 테스트를 실행할 수 있습니다.
 
-## 구현 Adobe [!DNL Target] 보기
+## Adobe [!DNL Target] 보기 구현
 
 Adobe Target 보기에 대해 살펴보았으므로, 이제 Target에서 이 개념을 활용하여 마케터가 VEC를 통해 SPA에서 A/B 및 XT 테스트를 실행하도록 지원할 수 있습니다. 이렇게 하려면 일회용 개발자 설정이 필요합니다. 이 설정을 수행하는 단계를 살펴보겠습니다.
 
 1. at.js 2.x를 설치합니다.
 
-   먼저 at.js 2.x를 설치해야 합니다. 이 at.js 버전은 SPA를 염두에 두고 개발되었습니다. 이전 at.js 및 버전은 Adobe Target 보기와 SPA용 VEC를 지원하지 않습니다.
+   먼저 at.js 2.x를 설치해야 합니다. 이 at.js 버전은 SPA를 염두에 두고 개발되었습니다. 이전 버전의 at.js는에서 Adobe Target 보기 및 SPA용 VEC를 지원하지 않습니다.
 
    ![구현 세부 사항 대화 상자](/help/main/c-experiences/assets/imp-200.png)
 
-   에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. [!UICONTROL 관리 > 구현]. at.js 2.x는 의 태그를 통해 배포할 수도 있습니다. [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
+   [!UICONTROL Administration > Implementation]에 있는 Adobe Target UI를 통해 at.js 2.x를 다운로드합니다. at.js 2.x는 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}의 태그를 통해 배포할 수도 있습니다. 그러나 Adobe Target 확장 프로그램은 현재 최신 상태가 아니며 지원되지 않습니다.
 
-1. at.js 2.x의 최신 함수 구현: [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank} 을 클릭합니다.
+1. at.js 2.x의 최신 함수인 [triggerView()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2.html){target=_blank}을(를) 사이트에서 구현합니다.
 
-   A/B 또는 XT 테스트를 실행할 SPA의 보기를 정의한 후에는 at.js 2.x를 구현하십시오 `triggerView()` 매개 변수로 전달된 뷰를 사용하는 함수입니다. 이렇게 하면 마케터는 VEC를 사용하여 정의된 해당 보기에 대한 A/B 및 XT 테스트를 디자인하고 실행할 수 있습니다. 해당 보기에 대해 `triggerView()` 함수가 정의되지 않은 경우 VEC가 보기를 감지하지 않으므로 마케터는 VEC를 사용하여 A/B 및 XT 테스트를 디자인하고 실행할 수 없습니다.
+   A/B 또는 XT 테스트를 실행할 SPA의 보기를 정의한 후에는 매개 변수로서 전달된 보기를 사용하여 at.js 2.x의 `triggerView()` 함수를 구현하십시오. 이렇게 하면 마케터는 VEC를 사용하여 정의된 해당 보기에 대한 A/B 및 XT 테스트를 디자인하고 실행할 수 있습니다. 해당 보기에 대해 `triggerView()` 함수가 정의되지 않은 경우 VEC가 보기를 감지하지 않으므로 마케터는 VEC를 사용하여 A/B 및 XT 테스트를 디자인하고 실행할 수 없습니다.
 
    **`adobe.target.triggerView(viewName, options)`**
 
    | 매개 변수 | 유형 | 필수? | 유효성 검사 | 설명 |
    | --- | --- | --- | --- | --- |
-   | viewName | 문자열 | 예 | 1. 후행 공백이 없습니다.<br>2. 비워 둘 수 없습니다.<br>3. 보기 이름이 모든 페이지에 대해 고유해야 합니다.<br>4. **경고**: 보기 이름을 &#39;`/`&#39;로 시작하거나 종료해서는 안 됩니다. 일반적으로 고객은 URL 경로에서 보기 이름을 추출하기 때문입니다. 우리의 경우 &quot;홈&quot;과 &quot;`/home`&quot;이 다릅니다.<br>5. **경고**: `{page: true}` 선택 사항을 사용하여 동일한 보기를 여러 번 연속적으로 트리거할 수 없습니다. | 보기를 표현할 문자열 유형으로 모든 이름을 전달합니다. 이 보기 이름은 마케터가 작업을 만들고 A/B 및 XT 활동을 실행하는 VEC의 [!UICONTROL 수정 사항] 패널에 표시됩니다. |
+   | viewName | 문자열 | 예 | 1. 후행 공백이 없습니다.<br>2. 비워 둘 수 없습니다.<br>3. 보기 이름이 모든 페이지에 대해 고유해야 합니다.<br>4. **경고**: 보기 이름을 &#39;`/`&#39;로 시작하거나 종료해서는 안 됩니다. 일반적으로 고객은 URL 경로에서 보기 이름을 추출하기 때문입니다. 우리의 경우 &quot;홈&quot;과 &quot;`/home`&quot;이 다릅니다.<br>5. **경고**: `{page: true}` 선택 사항을 사용하여 동일한 보기를 여러 번 연속적으로 트리거할 수 없습니다. | 보기를 표현할 문자열 유형으로 모든 이름을 전달합니다. 이 보기 이름은 마케터가 작업을 만들고 A/B 및 XT 활동을 실행하는 VEC의 [!UICONTROL Modifications] 패널에 표시됩니다. |
    | options | 개체 | 아니오 |  |  |
    | options > page | 부울 | 아니오 |  | **TRUE**: 페이지의 기본값은 true입니다. `page=true`일 때 노출 수가 증가하면 Edge Server에 알림이 전송됩니다.<br>**FALSE**: `page=false`일 때 노출 수가 증가하면 알림이 전송되지 않습니다. 이 값은 오퍼가 있는 페이지에서 구성 요소를 다시 렌더링하려는 경우에만 사용해야 합니다. |
 
-   이제 를 호출하는 방법에 대한 몇 가지 사용 사례를 살펴보겠습니다. `triggerView()` 가설 전자 상거래 SPA에 대한 React의 기능:
+   이제 가상의 전자 상거래 SPA에 대해 React에서 `triggerView()` 함수를 호출하는 방법에 대한 몇 가지 사용 사례를 살펴보겠습니다.
 
    **링크: [홈 사이트](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)**
 
@@ -192,7 +192,7 @@ VEC가 SPA에서 잘 작동할 수 있도록 해주는, VEC에 대한 [수정 �
 
 **수정 패널**
 
-아래 표시된 대로 [!UICONTROL 수정 사항] 패널에서는 특정 보기용으로 만들어진 작업을 캡처합니다. 보기에 대한 모든 작업은 해당 보기에서 그룹화됩니다.
+[!UICONTROL Modifications] 패널은 아래와 같이 특정 보기용으로 만들어진 작업을 캡처합니다. 보기에 대한 모든 작업은 해당 보기에서 그룹화됩니다.
 
 **작업**
 
@@ -206,8 +206,8 @@ VEC가 SPA에서 잘 작동할 수 있도록 해주는, VEC에 대한 [수정 �
 | --- | --- |
 | 정보 | 작업의 세부 사항을 표시합니다. |
 | 편집 | 작업의 속성을 직접 편집할 수 있습니다. |
-| 복제 | 작업을 [!UICONTROL 수정] 패널에 있는 하나 이상의 보기에 복제하거나 VEC에서 탐색하고 이동한 하나 이상의 보기에 복제합니다. 작업이 반드시 다음에 존재할 필요는 없습니다. [!UICONTROL 수정 사항] 패널.<br>**참고**: 복제 작업이 수행된 후에는 [!UICONTROL 찾아보기]를 통해 VEC의 보기로 이동해야 이동이 올바른 작업인지 확인할 수 있습니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
-| 이동 | 작업을 페이지 로드 이벤트나 수정 패널에 이미 있는 다른 보기로 이동합니다.<br>[!UICONTROL 페이지 로드 이벤트] - 페이지 로드 이벤트에 해당하는 모든 작업은 웹 애플리케이션의 초기 페이지 로드 시 적용됩니다.<br>**참고** 이동 작업이 수행된 후에는 찾아보기를 통해 VEC의 보기로 이동해야 이동이 올바른 작업인지 확인할 수 있습니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
+| 복제 | 작업을 [!UICONTROL Modifications] 패널에 있는 하나 이상의 보기에 복제하거나 VEC에서 탐색하고 이동한 하나 이상의 보기에 복제합니다. 작업이 반드시 [!UICONTROL Modifications] 패널에 있지 않아도 됩니다.<br>**참고**: 복제 작업이 수행된 후에는 [!UICONTROL Browse]을(를) 통해 VEC의 보기로 이동해야 이동이 올바른 작업인지 확인할 수 있습니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
+| 이동 | 작업을 페이지 로드 이벤트나 수정 패널에 이미 있는 다른 보기로 이동합니다.<br>[!UICONTROL Page Load Event] - 페이지 로드 이벤트에 해당하는 모든 작업은 웹 응용 프로그램의 초기 페이지 로드 시 적용됩니다.<br>**참고** 이동 작업이 수행된 후에는 찾아보기를 통해 VEC의 보기로 이동해야 이동이 올바른 작업인지 확인할 수 있습니다. 작업을 보기에 적용할 수 없으면 오류가 표시됩니다. |
 | 삭제 | 작업을 삭제합니다. |
 
 >[!NOTE]
@@ -221,7 +221,7 @@ VEC가 SPA에서 잘 작동할 수 있도록 해주는, VEC에 대한 [수정 �
 1. 장바구니에 추가 및 좋아요 단추를 연한 파란색으로 변경합니다. 헤더의 구성 요소를 변경하고 있으므로 이것은 &quot;페이지 로드&quot;에 있어야 합니다.
 1. &quot;2019년 최신 제품&quot; 레이블을 &quot;2019년 가장 인기 있는 제품&quot;으로 변경하고 텍스트 색상을 자주색으로 변경합니다.
 
-이러한 목표를 실행하려면 VEC에서 [!UICONTROL 작성] 클릭하고 홈 보기에서 해당 변경 사항을 적용합니다.
+이러한 목표를 실행하려면 VEC에서 [!UICONTROL Compose]을(를) 클릭하고 홈 보기에서 해당 변경 내용을 적용합니다.
 
 ![예제 1](/help/main/c-experiences/assets/example1.png)
 
@@ -229,9 +229,9 @@ VEC가 SPA에서 잘 작동할 수 있도록 해주는, VEC에 대한 [수정 �
 
 PRODUCTS-PAGE-2 보기를 만든 위의 예를 살펴보겠습니다. 우리의 목표는 &quot;가격&quot; 레이블을 레이블 색상이 빨간색인 &quot;판매 가격&quot;으로 변경하는 것입니다.
 
-1. [!UICONTROL 찾아보기]를 클릭한 다음, 머리글에서 [!UICONTROL 제품] 링크를 클릭합니다.
-1. [!UICONTROL 추가 로드]를 한 번 더 클릭하여 두 번째 제품 행을 표시합니다.
-1. [!UICONTROL 작성]을 클릭합니다.
+1. [!UICONTROL Browse]을(를) 클릭한 다음 머리글에서 [!UICONTROL Products] 링크를 클릭합니다.
+1. [!UICONTROL Load More]을(를) 한 번 클릭하여 두 번째 제품 행을 표시합니다.
+1. [!UICONTROL Compose] 아이콘을 클릭합니다.
 1. 동작을 적용하여 텍스트 레이블을 &quot;세일 가격&quot;으로 변경하고 색상을 빨간색으로 변경합니다.
 
 ![예제 2](/help/main/c-experiences/assets/example2.png)
@@ -240,12 +240,12 @@ PRODUCTS-PAGE-2 보기를 만든 위의 예를 살펴보겠습니다. 우리의 
 
 마지막으로 앞에서 언급한 바와 같이, 보기는 세부적으로 정의할 수 있습니다. 보기는 라디오 단추의 상태나 선택 사항도 될 수 있습니다. 앞서 Checkout-EXPRESS와 CHECKOUT-NORMAL 보기를 만들었습니다. 우리의 목표는 CHECKOUT-EXPRESS 보기용으로 단추 색상을 빨간색으로 변경하는 것입니다.
 
-1. [!UICONTROL 찾아보기]를 클릭합니다.
+1. [!UICONTROL Browse] 아이콘을 클릭합니다.
 1. 장바구니에 제품 두 개를 추가합니다.
 1. 오른쪽 상단의 장바구니 아이콘을 클릭합니다.
 1. 주문 체크아웃을 클릭합니다.
 1. 빠른 배달 라디오 단추를 클릭합니다.
-1. [!UICONTROL 작성]을 클릭합니다.
+1. [!UICONTROL Compose] 아이콘을 클릭합니다.
 1. &quot;결제&quot; 단추를 &quot;주문 완료&quot; 단추로 변경하고 색상을 빨간색으로 변경합니다.
 
 ![예제 3](/help/main/c-experiences/assets/example3.png)
@@ -262,7 +262,7 @@ at.js 2.x의 일반적인 워크플로우는 사이트가 로드될 때 사이�
 
 예를 들어 at.js 2.x을 사용하는 SPA를 보유한 통신 회사라고 가정할 때, 기업으로서 다음 목표를 달성하려고 합니다.
 
-* 로그아웃한 사용자나 익명 사용자에 대해 다음에서 &quot;첫째 달 무료&quot; 주인공 오퍼 표시와 같은 최신 회사 프로모션을 보여줍니다. `http://www.telecom.com/home`.
+* 로그아웃한 사용자나 익명 사용자의 경우 `http://www.telecom.com/home`에서 &quot;첫째 달 무료&quot; 주인공 오퍼 표시와 같은 최신 회사 프로모션을 보여줍니다.
 * 로그인한 사용자의 경우 &quot;무료 전화를 받을 수 있습니다!&quot;와 같이 계약이 다가오는 사용자를 위한 업그레이드 프로모션 오퍼를 표시합니다. `http://www.telecom.com/loggedIn/home`에서 &quot;무료 전화를 사용할 수 있습니다!&quot;와 같이 계약이 예정된 사용자를 위한 업그레이드 프로모션 오퍼를 표시합니다.
 
 이제 개발자는 다음의 방식으로 보기를 확인하고 `triggerView()`를 호출합니다.
@@ -274,15 +274,15 @@ at.js 2.x의 일반적인 워크플로우는 사이트가 로드될 때 사이�
 
 그러면 마케터는 VEC를 통해 다음의 A/B 활동을 실행합니다.
 
-* 매개 변수 &quot;를 사용하는 대상에 대해 &quot;첫째 달 무료&quot; 오퍼가 있는 A/B 활동`loggedIn= false`다음에 표시될 &quot; `http://www.telecom.com/home`: 여기서 보기 이름은 Logged Out Home입니다.
-* &quot;무료 전화를 받을 자격이 있습니다!&quot;를 사용하는 A/B 활동 매개 변수 &quot;를 사용하는 대상에 대한 오퍼`loggedIn=true`다음에 표시될 &quot; `http://www.telecom.com/loggedIn/home`: 여기서 보기 이름은 Logged In Hero Offer입니다.
+* `http://www.telecom.com/home`에 표시할 매개 변수 &quot;`loggedIn= false`&quot;이(가) 있는 대상에 대해 &quot;첫째 달 무료&quot; 오퍼가 있는 A/B 활동. 여기서 보기 이름은 Logged Out Home입니다.
+* &quot;무료 전화를 받을 자격이 있습니다!&quot;를 사용하는 A/B 활동 보기 이름이 Logged In Hero Offer인 `http://www.telecom.com/loggedIn/home`에 표시할 매개 변수 &quot;`loggedIn=true`&quot;을(를) 가진 대상에 대한 오퍼입니다.
 
 이제 다음 사용자 흐름을 고려해 보십시오.
 
 1. 익명의 로그아웃 사용자가 페이지에 도달합니다.
-1. at.js 2.x를 사용하고 있으므로 매개 변수 를 전달합니다`loggedIn = false`대상이 매개 변수 를 가질 때 자격이 있는 활성 활동에 있는 모든 보기를 검색하는 페이지 로드 시 &quot;`loggedIn = false`&quot;.
+1. at.js 2.x를 사용하고 있으므로, 페이지 로드 시 매개 변수 &quot;`loggedIn = false`&quot;을(를) 전달하여 대상에 &quot;`loggedIn = false`&quot; 매개 변수가 있을 때 자격이 있는 활성 활동에 있는 모든 보기를 검색합니다.
 1. 그런 다음 at.js 2.x는 Logged Out Home 보기 및 작업을 검색하여 &quot;첫째 달 무료&quot; 오퍼를 표시하고 캐시에 저장합니다.
-1. 날짜 `triggerView("Logged Out Home")` 가 호출되면 &quot;첫째 달 무료&quot; 오퍼가 캐시에서 검색되고 오퍼가 서버 호출 없이 표시됩니다.
+1. `triggerView("Logged Out Home")`이(가) 호출되면 &quot;첫째 달 무료&quot; 오퍼가 캐시에서 검색되고 오퍼가 서버 호출 없이 표시됩니다.
 1. 이제 사용자가 &quot;로그인&quot;을 클릭하고 자격 증명을 제공합니다.
 1. 웹 사이트가 SPA이므로 전체 페이지를 로드하지 않고 대신 사용자를 `http://www.telecom.com/loggedIn/home`으로 보냅니다.
 
@@ -307,7 +307,7 @@ adobe.target.getOffers({
 });
 ```
 
-의 응답 전달 `getOffers()` 끝 `applyOffers()` 이제 &quot;loggedIn = true&quot;와 연결된 모든 보기 및 작업이 at.js 캐시를 업데이트합니다.
+`getOffers()`의 응답을 `applyOffers()`에 전달하면 이제 &quot;loggedIn = true&quot;와 연결된 모든 보기 및 작업에서 at.js 캐시가 업데이트됩니다.
 
 다시 말해, at.js 2.x에서는 온디맨드 방식으로 최신 대상 데이터로 보기, 작업 및 오퍼를 검색하는 방법을 지원합니다.
 
@@ -327,7 +327,7 @@ adobe.target.getOffers({
 | 6 | Target 데이터는 SDID를 통해 Analytics 데이터에 대응되며 Analytics 보고 저장소로 처리됩니다. 그런 다음 Analytics 데이터는 A4T 보고서를 통해 Analytics 및 Target 모두에서 볼 수 있게 됩니다. |
 
 >[!NOTE]
->보기가 트리거될 때마다 노출수 계산을 위해 Adobe Analytics에 알림을 보내지 않으려면 를 전달합니다 `{page: false}` (으)로 `triggerView()` 지속적으로 다시 렌더링되는 구성 요소에 대해 보기가 여러 번 트리거될 때 노출 카운트가 부풀려지지 않도록 작동합니다. 예:
+>보기가 트리거될 때마다 노출수 계산을 위해 Adobe Analytics에 알림을 보내지 않으려면, 지속적으로 다시 렌더링되는 구성 요소에 대해 보기가 여러 번 트리거될 때 노출수 계산이 부풀려지지 않도록 `{page: false}`을(를) `triggerView()` 함수에 전달합니다. 예:
 >
 >`adobe.target.triggerView("PRODUCTS-PAGE-2", {page:false})`
 
@@ -336,7 +336,7 @@ adobe.target.getOffers({
 | 활동 유형 | 지원됨? |
 | --- | --- |
 | [A/B 테스트](/help/main/c-activities/t-test-ab/test-ab.md) | 예 |
-| [A/B 테스트 및 경험 타깃팅(XT) 활동에서](/help/main/c-recommendations/recommendations-as-an-offer.md)<br> 오퍼로서 권장 사항 | 예 |
+| [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)<br>A/B 테스트 및 경험 타깃팅(XT) 활동에서 | 예 |
 | [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 예 |
 | [경험 타깃팅](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |
 | [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 아니오 |
@@ -346,7 +346,7 @@ adobe.target.getOffers({
 
 **at.js 2.x를 설치하고 사이트에 `triggerView()`를 구현한 경우, SPA VEC가 자동 타겟을 지원하지 않는데 어떻게 자동 타겟 A/B 활동을 실행합니까?**
 
-자동 타겟 A/B 활동을 사용하려는 경우, VEC의 페이지 로드 이벤트에서 실행되도록 모든 작업을 이동하면 됩니다. 각 작업 위로 마우스를 가져간 다음 [!UICONTROL 페이지 로드 이벤트로 이동] 단추를 클릭하십시오. 이 과정이 완료되면, 다음 단계에서 트래픽 할당 방법을 위해 자동 타겟을 선택할 수 있습니다.
+자동 타겟 A/B 활동을 사용하려는 경우, VEC의 페이지 로드 이벤트에서 실행되도록 모든 작업을 이동하면 됩니다. 각 작업 위에 마우스를 놓고 [!UICONTROL Move to Page Load Event] 단추를 클릭합니다. 이 과정이 완료되면, 다음 단계에서 트래픽 할당 방법을 위해 자동 타겟을 선택할 수 있습니다.
 
 ## 지원되는 통합
 
@@ -354,7 +354,7 @@ adobe.target.getOffers({
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | 예 |
 | [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md) | 예 |
-| [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 예 |
+| [고객 특성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank} | 예 |
 | [AEM 경험 구성요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | 예 |
 
 ## 지원되는 기능 {#supported-features}
@@ -371,15 +371,15 @@ adobe.target.getOffers({
 
 ## SPA VEC에 대한 페이지 전달 설정 {#page-delivery-settings}
 
-[!UICONTROL 페이지 전달] 설정을 사용하면 타겟 활동이 대상에 대해 자격을 부여하고 실행하는 시기를 결정하는 규칙을 구성할 수 있습니다.
+[!UICONTROL Page Delivery] 설정을 사용하면 Target 활동이 대상에 대해 자격을 부여하고 실행하는 시기를 결정하는 규칙을 구성할 수 있습니다.
 
-VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에서 [!UICONTROL 페이지 전달] 옵션에 액세스하려면 **[!UICONTROL 경험]** 단계에서 **[!UICONTROL 구성]**(톱니바퀴 아이콘) > **[!UICONTROL 페이지 전달]**&#x200B;을 클릭합니다.
+VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에서 [!UICONTROL Page Delivery] 옵션에 액세스하려면 **[!UICONTROL Experiences]** 단계에서 **[!UICONTROL Configure]**(톱니바퀴 아이콘) > **[!UICONTROL Page Delivery]**&#x200B;을(를) 클릭합니다.
 
 ![페이지 전달 옵션 대화 상자](/help/main/c-experiences/assets/page-delivery.png)
 
-예를 들어, 위에 표시된 [!UICONTROL 페이지 전달] 설정에 정의된 대로 방문자가 바로 `https://www.adobe.com`에 방문하거나 *또는* 방문자가 `https://www.adobe.com/products`를 포함한 URL에 도달하면 타겟 활동이 정규화되고 실행됩니다. 이 활동은 페이지와의 모든 상호 작용이 페이지 재로드를 호출하는 모든 다중 페이지 애플리케이션에 완벽하게 작동합니다. 여기서 at.js는 사용자가 탐색하는 URL을 대상으로 하는 활동을 검색합니다.
+예를 들어, 위에 표시된 [!UICONTROL Page Delivery] 설정에 정의된 대로 방문자가 `https://www.adobe.com` *에 직접 방문하거나 `https://www.adobe.com/products`이(가) 포함된 URL에 방문하면 Target 활동이 정규화되고 실행됩니다.* 이 활동은 페이지와의 모든 상호 작용이 페이지 재로드를 호출하는 모든 다중 페이지 애플리케이션에 완벽하게 작동합니다. 여기서 at.js는 사용자가 탐색하는 URL을 대상으로 하는 활동을 검색합니다.
 
-그러나 SPA는 다르게 작동하므로 SPA VEC 활동에 정의된 대로 모든 작업을 보기에 적용할 수 있는 방식으로 [!UICONTROL 페이지 전달] 설정을 구성해야 합니다.
+그러나 SPA은 다르게 작동하므로 SPA VEC 활동에 정의된 대로 모든 작업을 보기에 적용할 수 있는 방식으로 [!UICONTROL Page Delivery] 설정을 구성해야 합니다.
 
 ### 예제 사용 사례
 
@@ -389,10 +389,10 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 다음 사항이 변경되었습니다.
 
-* URL 아래에 있는 홈 보기에서 배경색을 변경했습니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* URL 아래 있는 홈 보기에서 배경색을 변경했습니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * 제품 보기에서 URL 아래에 있는 단추 색상을 변경했습니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
 
-위의 예를 염두에 두고 을 구성할 때는 어떻게 됩니까? [!UICONTROL 페이지 전달] 포함할 설정: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/) SPA at.js 2.*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
+위의 예를 염두에 두고, at.js 2가 있는 SPA에서 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)만 포함하도록 [!UICONTROL Page Delivery] 설정을 구성할 경우 어떻게 됩니까?*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
 
 ![페이지 전달 대화 상자](/help/main/c-experiences/assets/spa-page-delivery.png)
 
@@ -402,22 +402,22 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 **사용자 여정 1**
 
-* 사용자가 로 직접 이동합니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
-* at.js 2.*x* 는 Edge에 대한 쿼리를 수행하여 다음 URL에 대해 활동을 실행해야 하는지 확인합니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
+* 사용자가 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/)(으)로 직접 이동합니다.
+* at.js 2.*x*&#x200B;이(가) Edge에 쿼리를 수행하여 다음 URL에 대해 활동을 실행해야 하는지 확인합니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/).
 * 6단계에서 Target Edge는 브라우저 내에서 캐시되도록 홈 및 제품 보기에 대한 작업을 반환합니다.
 
-**결과**: 사용자는 홈 보기에서 녹색 배경색을 보게 됩니다. 사용자가 로 이동할 때 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products), 작업이 제품 보기 아래의 브라우저에서 캐시되므로 단추의 파란색 배경색이 표시됩니다.
+**결과**: 사용자는 홈 보기에서 녹색 배경색을 보게 됩니다. 사용자가 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)(으)로 이동하면 해당 작업이 제품 보기 아래의 브라우저에서 캐시되므로 단추의 파란색 배경색이 표시됩니다.
 
-참고: 로 이동하는 사용자 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) 이(가) 페이지 로드를 트리거하지 않았습니다.
+참고: [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)(으)로 이동하는 사용자가 페이지 로드를 트리거하지 않았습니다.
 
 **사용자 여정 2**
 
-* 사용자가 로 직접 이동합니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
-* at.js 2.*x* 는 Edge에 대한 쿼리를 수행하여 다음 URL에 대해 활동을 실행해야 하는지 확인합니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
-* 에 적합한 활동이 없습니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* 사용자가 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)(으)로 직접 이동합니다.
+* at.js 2.*x*&#x200B;이(가) Edge에 쿼리를 수행하여 다음 URL에 대해 활동을 실행해야 하는지 확인합니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products).
+* [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)에 적합한 활동이 없습니다.
 * 적합한 활동이 없으므로 트리거할 at.js 2.*x*&#x200B;에 대해 캐시되는 작업 및 보기가 없습니다.
 
-**결과**: 을 정의한 경우에도 `triggerView()` 제품 보기의 경우 및 SPA VEC를 통해 제품 보기에 작업을 수행한 경우 포함된 규칙을 만들지 않았기 때문에 예상한 작업이 표시되지 않습니다 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products) ( 페이지 게재 설정) 아래에 그룹화됩니다.
+**결과**: 제품 보기에 대해 `triggerView()`을(를) 정의하고 SPA VEC를 통해 제품 보기에 작업을 수행한 경우에도 페이지 배달 설정에서 [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/#/products)을(를) 포함한 규칙을 만들지 않았기 때문에 예상한 작업이 표시되지 않습니다.
 
 ### 우수 사례
 
@@ -429,14 +429,14 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 이렇게 하면 방문자가 SPA에 도달하여 홈 또는 페이지 보기로 이동하는 곳마다 적용된 작업이 표시됩니다.
 
-이제 SPA VEC에서 보기에 작업을 추가할 때마다 [!UICONTROL 페이지 전달] 규칙에 대해 고려해야 함을 알리는 다음 팝업 메시지가 표시됩니다.
+이제 SPA VEC에서 보기에 작업을 추가할 때마다 [!UICONTROL Page Delivery] 규칙에 대해 고려해야 함을 알리는 다음 팝업 메시지가 표시됩니다.
 
 ![페이지 전달 설정 메시지](/help/main/c-experiences/assets/pop-up-message.png)
 
-이 메시지는 새로 만든 모든 활동에 대해 첫 번째 작업을 보기에 추가할 때 표시됩니다. 이 메시지는 조직의 모든 구성원이 이러한 [!UICONTROL 페이지 전달] 규칙을 올바르게 적용하는 방법을 알 수 있도록 해줍니다.
+이 메시지는 새로 만든 모든 활동에 대해 첫 번째 작업을 보기에 추가할 때 표시됩니다. 이 메시지는 조직의 모든 구성원이 이러한 [!UICONTROL Page Delivery] 규칙을 올바르게 적용하는 방법을 알 수 있도록 해줍니다.
 
 ## 교육 비디오: Adobe Target에서의 SPA용 VEC 사용
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-다음을 참조하십시오 [Adobe Target에서 SPA VEC(단일 페이지 애플리케이션용 시각적 경험 작성기) 사용](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) 추가 정보.
+자세한 내용은 [Adobe Target에서 SPA VEC(단일 페이지 애플리케이션용 시각적 경험 작성기 사용](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)을 참조하십시오.

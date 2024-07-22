@@ -1,14 +1,14 @@
 ---
 keywords: 문자 제한;mbox 매개 변수;일괄 게재 api;프로필 매개 변수;제한;내장 프로필;최대값;제한;제한;문자;모범 사례;orderid;orderTotal;mbox3rdPartyID;범주;categoryID;문제 해결
-description: 의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한 목록 보기 [!DNL Adobe Target].
-title: 의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까 [!DNL Adobe Target]?
+description: ' [!DNL Adobe Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한 목록을 봅니다.'
+title: ' [!DNL Adobe Target]의 다양한 문자, 크기 및 기타 제한 사항은 무엇입니까?'
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
 workflow-type: tm+mt
-source-wordcount: '1604'
-ht-degree: 80%
+source-wordcount: '1693'
+ht-degree: 76%
 
 ---
 
@@ -78,19 +78,19 @@ ht-degree: 80%
       * at.js:
          * 표시된 기본 콘텐츠
 
-* **제한**: 50mbox/개 [!DNL Target] 콘텐츠 게재 일괄 mbox 요청.
+* **제한**: [!DNL Target] 콘텐츠 게재 일괄 처리 mbox 요청당 50개 mbox.
 
-  50 mbox/를 초과하는 것 [!DNL Target] 컨텐츠 전달 배치 mbox 요청을 수행하면 응답 오류 코드가 발생합니다. `HTTP 400` 오류 메시지 포함 `size must be between 0 and 50`.
+  [!DNL Target] 콘텐츠 게재 일괄 처리 mbox 요청당 mbox가 50개를 초과하면 오류 메시지 `size must be between 0 and 50`과(와) 함께 응답 오류 코드 `HTTP 400`이(가) 발생합니다.
 
   일괄 처리 mbox 요청은 순차적으로 처리되므로 각 반복에 대한 전체 응답 시간이 늘어납니다. 일괄 처리 요청에 mbox가 많을수록 응답 지연이 늘어날 수 있으므로 시간 초과가 발생할 수 있습니다. 지연 시간이 긴 일괄 처리 요청에서 경험 렌더링이 차단되는 경우 사용자가 경험 렌더링을 기다리면 지연 시간이 저하되어 사용자 경험이 저하될 수 있습니다.
 
-* **제한**: 60MB의 HTTP POST 본문 크기 [!DNL Target] 컨텐츠 전달 요청.
+* **제한**: [!DNL Target] 콘텐츠 게재 요청에 대한 60MB HTTP POST 본문 크기입니다.
 
-  의 HTTP POST 본문 크기가 60MB를 초과합니다. [!DNL Target] 컨텐츠 전달 요청으로 인해 응답 오류 코드가 발생합니다. `HTTP 413 Request Entity Too Large`.
+  [!DNL Target] 콘텐츠 게재 요청의 HTTP POST 본문 크기가 60MB를 초과하면 응답 오류 코드 `HTTP 413 Request Entity Too Large`이(가) 발생합니다.
 
-* **권장 제한**: 알림당 50개 [!DNL Target] 게재 일괄 처리 요청.
+* **권장 제한**: [!DNL Target] 게재 일괄 처리 요청당 50개의 알림.
 
-  당 50개 알림 초과 [!DNL Target] 게재 일괄 처리 요청은 응답 지연 및 시간 초과를 초래할 수 있습니다.
+  [!DNL Target] 게재 일괄 처리 요청당 50개의 알림을 초과하면 응답 지연 및 시간 초과가 증가할 수 있습니다.
 
   일괄 알림 요청은 순차적으로 처리되므로 각 반복에 대한 전체 응답 시간이 늘어납니다. 일괄 처리 요청에 대한 알림이 많을수록 응답 지연이 늘어날 수 있으므로 시간 초과가 발생할 수 있습니다. 일부 고객은 배치 알림 요청에 대한 일부 추가 지연을 수락할 수 있지만, 시간 초과 및 이후 다시 시도하면 더 많은 지연이 발생할 수 있습니다.
 
@@ -116,7 +116,7 @@ ht-degree: 80%
 
 * 하드 코딩되거나 루프를 통해 디자인에서 참조할 수 있는 최대 개체 수는 99개입니다.
 * 최상의 성능을 위한 권장 제한은 카탈로그 항목 수를 환경당 백만 개 미만 및 모든 환경에서는 천만 개 미만으로 유지하는 것입니다.
-* 최대 제한은 환경당 항목 수 천만 개 미만 및 모든 환경에서는 항목 수 1억 개 미만으로 유지하는 것입니다. 환경당 항목 수가 1백만~1천만 개인 경우에는 [!UICONTROL 카탈로그 검색] UI의 성능이 영향을 받습니다. [!DNL Target Recommendations], 하지만 계속해서 권장 사항을 생산 및 제공합니다.
+* 최대 제한은 환경당 항목 수 천만 개 미만 및 모든 환경에서는 항목 수 1억 개 미만으로 유지하는 것입니다. 환경당 항목 수가 1백만~1천만 개인 경우에는 [!UICONTROL Catalog Search] UI의 성능이 영향을 받습니다. [!DNL Target Recommendations], 하지만 계속해서 권장 사항을 생산 및 제공합니다.
 
 ### 엔티티 사용자 지정 속성
 
@@ -155,7 +155,7 @@ ht-degree: 80%
 
 ### 활동별 경험 수
 
-* **제한**: 당 2,000개 경험 [!UICONTROL 경험 타기팅] (XT), [!UICONTROL A/B 테스트], [!UICONTROL 다변량 테스트] (MVT) 및 [!UICONTROL 자동 타기팅] 활동.
+* **제한**: [!UICONTROL Experience Targeting](XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test](MVT) 및 [!UICONTROL Auto-Target] 활동당 2,000개 경험.
 
   AP (Automated Personalization) 활동당 30,000개 경험.
 
@@ -179,13 +179,13 @@ ht-degree: 80%
 
 * **제한**: 250자.
 
-  대상 [!DNL Delivery API] (at.js 2.*x*), 일괄 mbox V2 및 [!DNL Adobe Experience Platform Web SDK] (alloy.js) 통합, mbox 이름 *can* 영숫자(A-Z, a-z, 0-9) 및 다음 문자를 포함합니다.
+  [!DNL Delivery API]용(at.js 2.*x*), 일괄 mbox V2 및 [!DNL Adobe Experience Platform Web SDK](alloy.js) 통합, mbox 이름 *can*&#x200B;에는 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자 중 하나가 포함됩니다.
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
   ```
 
-  at.js 1.*x* 통합, mbox 이름 *할 수 없음* 다음 문자 중 하나를 포함합니다.
+  at.js 1.*x* 통합, mbox 이름 *사용할 수 없음*&#x200B;에 다음 문자가 포함되어 있습니다.
 
   ```
   ' " %22 %27 < > %3C %3E 
@@ -199,13 +199,13 @@ ht-degree: 80%
 
    * mbox 매개 변수: mbox당 500개 매개 변수.
    * 프로필 매개 변수: mbox당 500개의 매개 변수 프로필 매개 변수.
-   * 기타 매개 변수(URL, 참조 URL 등): 각 매개 변수 유형에 대해 mbox당 50.
+   * 기타 매개 변수(URL, 참조 URL 등): 다른 매개 변수 유형에 대해 mbox당 50개입니다.
 
   웹 브라우저 제한으로 인해 요청이 축소되지 않는 한 이러한 제한이 적용됩니다.
 
   일괄 게재 API를 사용하는 경우, 제한은 일괄 요청당 50 mbox입니다.
 
-  모바일 서비스 SDK에서 일괄 게재 API 를 사용하는 경우 50개의 mbox 매개 변수, 50개의 프로필 매개 변수 및 50개의 다른 매개 변수 유형에 대한 제한은 API 자체의 제한입니다. 일괄 게재 API를 사용하여 이들 번호를 더 많이 포함하는 요청을 보낼 수 없습니다. 요청에 이러한 제한 이상이 포함된 경우 API는 다음 오류 메시지를 반환합니다.
+  모바일 서비스 SDK에서 배치 배달 API 를 사용하는 경우 50개의 mbox 매개 변수, 50개의 프로필 매개 변수 및 50개의 다른 매개 변수 유형에 대한 제한은 API 자체의 제한입니다. 일괄 게재 API를 사용하여 이들 번호를 더 많이 포함하는 요청을 보낼 수 없습니다. 요청에 이러한 제한 이상이 포함된 경우 API는 다음 오류 메시지를 반환합니다.
 
   &quot;mboxParameters 수는 50개를 초과할 수 없습니다.&quot;
 
@@ -297,7 +297,7 @@ ht-degree: 80%
 
 * **권장 제한**: 2,000자.
 
-  인코딩된 문자열의 크기에 따라 다릅니다. 인코딩된 문자열은 원시 문자열보다 훨씬 더 길 수 있습니다. 문자열이 너무 크면 가 되기 전에 실패합니다 [!DNL Adobe Target].
+  인코딩된 문자열의 크기에 따라 다릅니다. 인코딩된 문자열은 원시 문자열보다 훨씬 더 길 수 있습니다. 문자열이 너무 크면 [!DNL Adobe Target]에 도달하기 전에 실패합니다.
 
 ## 스크립트 프로필
 

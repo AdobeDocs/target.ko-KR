@@ -1,25 +1,25 @@
 ---
 keywords: 대상;대상 규칙;대상 만들기;대상 생성
-description: 사용자 지정된 대상을 만들고 저장하는 방법에 대해 알아봅니다. [!DNL Adobe Target] [!UICONTROL 대상] 활동에 사용할 라이브러리입니다.
+description: 사용자 지정된 대상을 만들고 활동에 사용할 수 있도록  [!DNL Adobe Target] [!UICONTROL Audiences] 라이브러리에 저장하는 방법에 대해 알아봅니다.
 title: 대상을 만들려면 어떻게 합니까?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 59%
+source-wordcount: '524'
+ht-degree: 55%
 
 ---
 
-# Target에서 대상 작성 [!DNL Target]
+# [!DNL Target]에서 대상 작성
 
-사용자 지정된 대상을 만들고 [!DNL Adobe Target] [!UICONTROL 대상] 활동에 사용할 라이브러리입니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수도 있습니다.
+사용자 지정된 대상을 만들고 활동에서 사용할 수 있도록 [!DNL Adobe Target] [!UICONTROL Audiences] 라이브러리에 저장할 수 있습니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수도 있습니다.
 
 ## 대상 개요
 
 대상은 [!DNL Target] 활동에서 포함되거나 제외되는 사용자를 결정하는 규칙으로 정의됩니다. 대상 정의에는 여러 규칙이 포함될 수 있으며 각 규칙에는 여러 매개 변수가 포함될 수 있습니다. 복잡한 대상 정의는 부울 연산자 AND 및 OR로 규칙과 매개 변수를 결합하여 활동 참여자로 카운트되는 사이트 방문자를 보다 자세히 제어할 수 있습니다.
 
-규칙이나 매개 변수를 AND와 결합하면 모든 잠재적 대상 멤버가 충족되어야 합니다 *모두* 참여자로 포함할 조건을 정의했습니다. 예를 들어, OS 규칙 AND 브라우저 규칙을 정의하는 경우 정의된 OS *와* 정의된 브라우저 둘 다를 사용하는 방문자만 활동에 포함됩니다.
+규칙이나 매개 변수를 AND와 결합하면 잠재적 대상 구성원은 참여자로 포함할 *모두*&#x200B;에 정의된 조건을 충족해야 합니다. 예를 들어, OS 규칙 AND 브라우저 규칙을 정의하는 경우 정의된 OS *와* 정의된 브라우저 둘 다를 사용하는 방문자만 활동에 포함됩니다.
 
 규칙 또는 매개 변수를 OR로 결합하면 잠재적인 모든 대상 멤버가 참여자로 포함되기 위해 정의된 조건 하나만 만족하면 됩니다. 예를 들어, OR로 연결된 여러 개의 모바일 규칙을 정의하는 경우 정의된 기준을 *하나라도* 충족하는 방문자가 활동에 포함됩니다.
 
@@ -35,15 +35,15 @@ ht-degree: 59%
 
 ## 대상자 만들기
 
-1. 위쪽 메뉴 막대에서 **[!UICONTROL 대상]**&#x200B;을 클릭합니다.
+1. 상단 메뉴 모음에서 **[!UICONTROL Audiences]**&#x200B;을(를) 클릭합니다.
 
    ![audiences_list 이미지](assets/audiences_list.png)
 
-1. 다음에서 [!UICONTROL 대상] 목록, 클릭 **[!UICONTROL 대상자 만들기]**.
+1. [!UICONTROL Audiences] 목록에서 **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
 
    또는
 
-   기존 대상자를 복사하려면 [!UICONTROL 대상] 목록을 보려면 **[!UICONTROL 추가 작업]** 아이콘(줄임표 아이콘)을 클릭한 다음 **[!UICONTROL 복제]**. 그러면 대상자를 편집하여 유사한 대상자를 만들 수 있습니다.
+   기존 대상을 복사하려면 [!UICONTROL Audiences] 목록에서 **[!UICONTROL More Actions]** 아이콘(줄임표 아이콘)을 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다. 그러면 대상자를 편집하여 유사한 대상자를 만들 수 있습니다.
 
 1. 고유한 설명 대상 이름과 설명(선택 사항)을 입력합니다.
 
@@ -55,23 +55,23 @@ ht-degree: 59%
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. 에서 원하는 속성을 끌어다 놓습니다. **[!UICONTROL 속성]** 대상 빌더 창의 오른쪽에 나열됩니다.
+1. 오른쪽에 있는 **[!UICONTROL Attributes]** 목록에서 원하는 특성을 대상 빌더 창으로 끌어다 놓습니다.
 
-   ![속성 드래그 앤 드롭](assets/drag-attribute.png)
+   ![특성 드래그 앤 드롭](assets/drag-attribute.png)
 
-   각 규칙 유형에는 고유한 매개 변수가 있습니다. 각 유형의 대상 규칙을 구성하는 방법에 대한 자세한 내용은 [대상 카테고리](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)를 참조하십시오.
+   각 규칙 유형에는 고유한 매개 변수가 있습니다. 각 대상 규칙 유형을 구성하는 방법에 대한 자세한 내용은 [대상 범주](/help/main/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D)를 참조하십시오.
 
 1. 규칙 매개 변수를 정의합니다.
 
    예를 들어, 다음 대상은 Macintosh 운영 체제를 사용하는 Utah에서 온 방문자를 타깃팅합니다.
 
-   ![유타/매킨토시 대상](assets/adience-builder.png)
+   ![유타/Macintosh 대상](assets/adience-builder.png)
 
 1. (조건부) 원하는 속성을 계속 추가하고 정의합니다.
 
-   다른 컨테이너를 만들려면 **[!UICONTROL 컨테이너 추가]** 또는 다른 속성을 Audience Builder 창으로 끌어다 놓기만 하면 됩니다. 그런 다음 드롭다운 목록을 사용하여 연산자(AND 또는 OR)를 조정할 수 있습니다.
+   다른 컨테이너를 만들려면 **[!UICONTROL Add container]**&#x200B;을(를) 클릭하거나 다른 특성을 Audience Builder 창으로 끌어다 놓습니다. 그런 다음 드롭다운 목록을 사용하여 연산자(AND 또는 OR)를 조정할 수 있습니다.
 
-1. **[!UICONTROL 완료를 클릭합니다]**.
+1. **[!UICONTROL Done]** 아이콘을 클릭합니다.
 
    새로 만든 대상이 몇 초 동안 처리가 지연된 후에 목록에 표시됩니다. 대상이 목록에 즉시 표시되지 않는 경우 대상을 검색하거나 목록을 새로 고치십시오.
 

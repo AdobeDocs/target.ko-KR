@@ -1,14 +1,14 @@
 ---
 keywords: 권장 사항 디자인;디자인 만들기;디자인 복사
-description: Adobe을 만드는 방법 알아보기 [!DNL Target] Recommendations 디자인은 기본 디자인을 사용하거나 페이지 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만듭니다.
+description: 기본 디자인을 사용하거나 Adobe 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만들어  [!DNL Target] Recommendations 디자인을 만드는 방법을 알아봅니다.
 title: Recommendations에서 디자인을 만들려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 30%
+source-wordcount: '986'
+ht-degree: 23%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 30%
 
 디자인은 페이지에 권장 사항이 어떻게 나타나는지를 정의합니다.
 
-기본 디자인을 사용하거나 사용자 지정 디자인을 만들어 [!UICONTROL 권장 사항] 디자인을 만들 수 있습니다. 다음 **[!UICONTROL Recommendations > 디자인]** 화면에는 기본 디자인 카드와 계정에서 만든 모든 디자인이 표시됩니다.
+기본 디자인을 사용하거나 사용자 지정 디자인을 만들어 [!UICONTROL Recommendations] 디자인을 만들 수 있습니다. **[!UICONTROL Recommendations > Designs]** 화면에 기본 디자인 카드와 계정에서 만든 모든 디자인이 표시됩니다.
 
 디자인 작업 시 다음 정보를 염두에 두십시오.
 
@@ -31,7 +31,7 @@ ht-degree: 30%
 
 이 그림은 사용자 정의 디자인을 보여 줍니다.
 
-![사용자 정의 디자인](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
+![사용자 지정 디자인](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
 VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자인 라이브러리에서 활동 작성 프로세스 중에 디자인을 만들 수 있습니다. 다음 섹션에서는 라이브러리에서 디자인을 생성하는 것으로 가정하지만 단계는 유사합니다.
 
@@ -41,57 +41,57 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 ### 기본 디자인을 기반으로 디자인 만들기
 
-1. 클릭 **[!UICONTROL Recommendations]** > **[!UICONTROL 디자인]** 을(를) 표시하려면 [!UICONTROL 디자인] 라이브러리입니다.
+1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;을(를) 클릭하여 [!UICONTROL Designs] 라이브러리를 표시합니다.
 
    ![디자인 라이브러리](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
-1. 만들려는 디자인에 대한 카드 위로 마우스를 가져간 다음 **[!UICONTROL 복사]** 아이콘.
+1. 만들려는 디자인에 대한 카드 위로 마우스를 가져간 다음 **[!UICONTROL Copy]** 아이콘을 클릭합니다.
 
    ![Card_CopyDesign 이미지](assets/Card_CopyDesign.png)
 
-   다음 [!UICONTROL 디자인 만들기] 대화 상자가 표시됩니다.
+   [!UICONTROL Create Design] 대화 상자가 표시됩니다.
 
    ![createDesign 이미지](assets/createDesign.png)
 
-1. 다음에서 **[!UICONTROL 정보]** 패널, 추가 **[!UICONTROL 컨텐츠 이름]** 및 디자인 카드에 표시할 선택적 미리 보기 이미지
+1. **[!UICONTROL Information]** 패널에서 디자인 카드에 표시할 **[!UICONTROL Content Name]** 및 선택적 미리 보기 이미지를 추가합니다.
 
-   기본 디자인을 사용하면 디자인 이름과 &quot;복사본&quot;이 **[!UICONTROL 컨텐츠 이름]** 필드. 이름을 편집할 수 있습니다. 디자인 카드에 표시할 이미지를 선택할 수도 있습니다.
+   기본 디자인을 사용하면 디자인 이름과 &quot;복사본&quot;이 **[!UICONTROL Content Name]** 필드에 나타납니다. 이름을 편집할 수 있습니다. 디자인 카드에 표시할 이미지를 선택할 수도 있습니다.
 
-1. (조건부) 디자인 편집 **[!UICONTROL 코드]**, 원하는 대로
+1. (조건부) 원하는 대로 디자인 **[!UICONTROL Code]**&#x200B;을(를) 편집합니다.
 
-   권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 다음 위치에서 찾을 수 있습니다. [https://velocity.apache.org](https://velocity.apache.org) 및 [Velocity를 사용하여 디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md).
+   권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 [https://velocity.apache.org](https://velocity.apache.org) 및 [Velocity를 사용하여 디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)에서 찾을 수 있습니다.
 
-   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 수행할 수 있도록 `<div>` 태그로 래핑되어 있습니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. 슬라이드 [!UICONTROL HTML 디자인] HTML이 아닌 코드를 사용하려면 &quot;끄기&quot; 위치로 전환합니다.
+   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 허용하기 위해 `<div>` 태그로 줄바꿈됩니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. HTML 코드가 아닌 코드를 사용하려면 [!UICONTROL HTML Design] 토글을 &quot;끄기&quot; 위치로 밉니다.
 
    >[!NOTE]
    >
    >하드 코딩되거나 루프를 통해 디자인에서 참조할 수 있는 최대 개체 수는 99개입니다.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
 ### 사용자 지정 디자인 만들기
 
-1. 클릭 **[!UICONTROL Recommendations]** > **[!UICONTROL 디자인]** 을(를) 표시하려면 [!UICONTROL 디자인] 라이브러리입니다.
+1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;을(를) 클릭하여 [!UICONTROL Designs] 라이브러리를 표시합니다.
 
-1. 클릭 **[!UICONTROL 디자인 만들기]**.
+1. **[!UICONTROL Create Design]** 아이콘을 클릭합니다.
 
-   새 사용자 지정 디자인을 기존 디자인에 적용하려면 원하는 디자인 위로 마우스를 가져간 다음 [!UICONTROL 복사] 아이콘. 그런 다음 사본을 편집하여 새 사용자 정의 디자인을 만들 수 있습니다.
+   기존 디자인을 기준으로 새 사용자 지정 디자인을 만들려면 원하는 디자인 위로 마우스를 가져간 후 [!UICONTROL Copy] 아이콘을 클릭합니다. 그런 다음 사본을 편집하여 새 사용자 정의 디자인을 만들 수 있습니다.
 
-1. 추가 **[!UICONTROL 컨텐츠 이름]** 및 선택적 미리 보기 이미지
+1. **[!UICONTROL Content Name]** 및 선택적 미리 보기 이미지를 추가합니다.
 
-1. (조건부) 디자인 편집 **[!UICONTROL 코드]**, 원하는 대로
+1. (조건부) 원하는 대로 디자인 **[!UICONTROL Code]**&#x200B;을(를) 편집합니다.
 
    자세한 내용은 위의 4단계 정보를 참조하십시오.
 
-1. **[!UICONTROL 저장]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
 ## 디자인 편집, 복사 또는 삭제
 
 기본 디자인은 편집하거나 복사할 수 없으며 기본 디자인만 복사할 수 있습니다.
 
-에서 원하는 디자인 위로 마우스 오버 [!UICONTROL 디자인] 라이브러리를 클릭한 다음 편집, 복사 또는 삭제 아이콘을 클릭합니다.
+[!UICONTROL Design] 라이브러리에서 원하는 디자인 위로 마우스를 가져간 다음 해당 아이콘(편집, 복사 또는 삭제)을 클릭합니다.
 
-![디자인의 마우스로 아이콘](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+![디자인을 가리키기 아이콘](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
 
 기존 디자인을 복사하여 수정할 수 있는 중복 디자인을 생성할 수 있습니다. 이를 통해 적은 노력으로 유사한 디자인을 만들 수 있습니다.
 
@@ -101,7 +101,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 다음 예제에서는 양식 기반 편집기를 통해 활동을 구성할 때 JSON 응답을 반환하는 방법을 보여 줍니다.
 
-1. 디자인 라이브러리 내에서 또는 양식 기반 워크플로 내에서 디자인을 만듭니다. 시각적 경험 작성기(VEC) 워크플로에서 이 작업을 수행하려고 하면 HTML 디자인 이외의 항목을 만들 수 없습니다. `<div>` 클릭 추적 목적으로.
+1. 디자인 라이브러리 내에서 또는 양식 기반 워크플로 내에서 디자인을 만듭니다. VEC(시각적 경험 작성기) 워크플로에서 이 작업을 수행하려고 하면 클릭 추적을 위해 `<div>`에 래핑된 HTML 디자인 이외의 다른 디자인을 만들 수 없습니다.
 
 1. &quot;HTML 디자인&quot; 선택 사항이 꺼져 있는지 확인합니다.
 
@@ -136,22 +136,22 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
        }  
    ```
 
-1. 양식 기반 설정 [!DNL Recommendations] 이 디자인을 사용하는 활동입니다.
+1. 이 디자인을 사용하는 양식 기반 [!DNL Recommendations] 활동을 설정하십시오.
 
-   1. 다음 위치로 이동 **[!UICONTROL 활동]** 페이지를 가리키도록 업데이트하는 중입니다.
-   1. 클릭 **[!UICONTROL 활동 만들기]** > **[!UICONTROL Recommendations]**.
-   1. 아래 **[!UICONTROL 경험 작성기 선택]**, 선택 **[!UICONTROL 양식]**&#x200B;을 클릭한 다음 을 클릭합니다 **[!UICONTROL 다음]**.
+   1. **[!UICONTROL Activities]** 페이지로 이동합니다.
+   1. **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**&#x200B;을(를) 클릭합니다.
+   1. **[!UICONTROL Choose Experience Composer]**&#x200B;에서 **[!UICONTROL Form]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
    1. 위치 아래에 &quot;Sample_Recs_Response&quot;라는 텍스트를 입력합니다.
-   1. **[!UICONTROL 기본 컨텐츠]** 아래에서 아래쪽 화살표를 클릭한 다음 **[!UICONTROL 권장 사항 추가]**&#x200B;를 클릭합니다.
+   1. **[!UICONTROL Default Content]**&#x200B;에서 아래쪽 화살표를 클릭한 다음 **[!UICONTROL Add Recommendation]**&#x200B;을(를) 클릭합니다.
    1. 페이지 유형을 선택합니다. 이 유형은 그 다음 화면의 초기 필터링을 결정합니다.
-   1. 기준 카드를 선택한 후, **[!UICONTROL 다음을 클릭합니다]**.
-   1. 이전 단계에서 만든 디자인을 선택한 다음, **[!UICONTROL 다음]**.
+   1. 기준 카드를 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+   1. 이전 단계에서 만든 디자인을 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
    1. 설정 프로세스를 완료합니다.
-   1. **[!UICONTROL 비활성]** 옆의 오른쪽 화살표를 클릭한 다음, **[!UICONTROL 활성화]**&#x200B;를 선택합니다.
+   1. **[!UICONTROL Inactive]** 옆의 오른쪽 화살표를 클릭한 다음 **[!UICONTROL Activate]**&#x200B;을(를) 선택합니다.
 
 1. 활동이 설정되고 활성화된 후 깨끗한 JSON 응답을 다시 가져오는 샘플 요청을 설정할 수 있습니다.
 
-   활동을 저장할 때부터 [!DNL Target] 선택한 기준 구성을 지원하는 모델을 구축해야 합니다. 요소의 수에 따라 시간이 다소 걸릴 수 있습니다. 모델이 만들어지면 결과가 표시됩니다.
+   활동을 저장하면 [!DNL Target]에서 선택한 기준 구성을 지원하는 모델을 만들어야 합니다. 요소의 수에 따라 시간이 다소 걸릴 수 있습니다. 모델이 만들어지면 결과가 표시됩니다.
 
    예:
 
@@ -180,7 +180,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-또는 응답에서 추가 정보를 전송할 수도 있습니다. 다음 코드 파일은 연결된 슬롯(순서)이 있는 엔티티 ID보다 훨씬 더 많은 내용을 반환하는 더 복잡한 예입니다. 이 디자인 예는 활동 세부 사항, Target 프로필 세부 사항(해당하는 경우) 및 기타 도 반환합니다 `entity.attributes` 반환된 항목과 연결됩니다.
+또는 응답에서 추가 정보를 전송할 수도 있습니다. 다음 코드 파일은 연결된 슬롯(순서)이 있는 엔티티 ID보다 훨씬 더 많은 내용을 반환하는 더 복잡한 예입니다. 이 디자인 예는 반환된 항목과 연결된 활동 세부 사항, Target 프로필 세부 사항(해당하는 경우) 및 기타 `entity.attributes`도 반환합니다.
 
 ```javascript
     {   

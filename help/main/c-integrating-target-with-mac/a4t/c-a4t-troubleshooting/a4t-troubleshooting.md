@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 100%
+source-wordcount: '926'
+ht-degree: 88%
 
 ---
 
@@ -21,15 +21,15 @@ ht-degree: 100%
 
 * [!DNL Target]의 분류가 완전히 처리되지 않았습니다.
 
-   일반적으로 첫 번째 저장 후 보고서를 분류하는 데 24~72시간이 소요됩니다.
+  일반적으로 첫 번째 저장 후 보고서를 분류하는 데 24~72시간이 소요됩니다.
 
 * 보고서 세트에 데이터가 들어 있지 않은데 [!DNL Target]이 히트를 분류하려고 했습니다. 첫 번째 히트가 발생하기 전까지 [!DNL Target]은 데이터를 분류할 수 없습니다.
 
-   보고서 세트에 하나 이상의 히트가 있는지 확인하십시오.
+  보고서 세트에 하나 이상의 히트가 있는지 확인하십시오.
 
 * [!DNL Target]에서 [!DNL Analytics]로의 분류 호출이 실패했습니다.
 
-   도움이 필요한 경우 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
+  도움이 필요한 경우 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
 
 “지정되지 않음” 행을 “Analytics for Target” 차원으로 분류하고 이 행에 활동 ID가 없다면 이는 모든 항목이 올바르게 분류되었음을 의미합니다. 활동 ID가 나열되어 있다면 이는 분류 문제가 있음을 나타냅니다.
 
@@ -41,13 +41,13 @@ ht-degree: 100%
 
 ## A4T 활동 보고서에는 “지정되지 않음” 이벤트가 많은 행이 포함됩니다. {#added_unspecified_events}
 
-데이터와 함께 표시하기 위해 사용하는 지표에 따라 보고서에 “[!UICONTROL 지정되지 않음]” 이벤트 행이 표시될 수 있습니다.
+데이터와 함께 표시하기 위해 사용하는 지표에 따라 보고서에 &quot;[!UICONTROL Unspecified]&quot; 이벤트 행이 표시될 수 있습니다.
 
-일반적으로 이 행은 보고서에서 [!DNL Target] 관련 지표가 아닌 일반 지표(예: [!UICONTROL 페이지 조회수], [!UICONTROL 방문 횟수], [!UICONTROL 고유 방문자 수] 등)를 선택하는 경우 표시됩니다. 이 경우 [!UICONTROL “지정되지 않음”] 행에는 [!DNL Target] 활동과 관련이 없는 모든 [!UICONTROL 페이지 조회수], [!UICONTROL 방문 횟수] 및 [!UICONTROL 고유 방문자 수]가 포함됩니다.
+일반적으로 이 행은 보고서에서 [!DNL Target]과(와) 관련되지 않은 일반적인 지표(예: [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] 등)를 선택하는 경우 표시됩니다. 이 경우 [!UICONTROL "Unspecified"] 행에는 [!DNL Target] 활동과 연결되지 않은 모든 [!UICONTROL Page Views], [!UICONTROL Visits] 및 [!UICONTROL Unique Visitors]이(가) 포함됩니다.
 
 이 행에는 [!DNL Target] 관련 정보가 포함되지 않습니다(예: 방문자 수, 방문 횟수 또는 노출 횟수 없음). 자세한 내용은 *Analytics 기술 노트*&#x200B;에서 [보고의 “지정되지 않음”, “없음”, “기타” 및 “알 수 없음”](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ko)을 참조하십시오.
 
-보고서에서 [!DNL Target] 관련 지표를 선택하는 경우 이 [!UICONTROL “지정되지 않음”] 행이 표시되지 않습니다. 이를 보고서에 포함시키지 않는 유일한 방법은 해당 페이지에서 전송된 모든 요청에 대해 일반 또는 필수 호출이 아닌 [!DNL Target] 호출을 설정하는 것입니다.
+보고서에서 [!DNL Target]별 지표를 선택하는 경우 해당 [!UICONTROL "Unspecified"] 행이 표시되지 않습니다. 이를 보고서에 포함시키지 않는 유일한 방법은 해당 페이지에서 전송된 모든 요청에 대해 일반 또는 필수 호출이 아닌 [!DNL Target] 호출을 설정하는 것입니다.
 
 ## 매출액 지표의 예상 상승도에 올바른 데이터가 표시되지 않습니다. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -55,11 +55,11 @@ ht-degree: 100%
 
 ## Analytics 보고서에 활동이 표시되지 않습니다. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다. Analytics 추적 서버를 올바로 설정하려면 [Analytics 추적 서버 사용](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
+A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다. Analytics 추적 서버가 올바르게 설정되었는지 확인하려면 [Analytics 추적 서버 사용](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
 
 >[!NOTE]
 >
->at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 생성하는 동안에는 [!UICONTROL 목표 및 설정] 페이지의 [!UICONTROL 추적 서버] 필드를 비워둘 수 있습니다.
+>at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 만드는 동안 [!UICONTROL Goals & Settings] 페이지의 [!UICONTROL Tracking Server] 필드를 비워 둘 수 있습니다.
 
 ## 내 Analytics 세그먼트가 Target에 표시되지 않습니다. {#section_DEE87F1557834F448E99381D3D02EEEF}
 

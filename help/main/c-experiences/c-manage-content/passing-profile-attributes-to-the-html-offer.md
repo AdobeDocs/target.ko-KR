@@ -1,19 +1,19 @@
 ---
 keywords: 동적 데이터;자산;데이터;오퍼;개인화된 오퍼;개인 오퍼;토큰 바꾸기
-description: 동적 데이터를에 전달하는 방법 알아보기 [!DNL Adobe Target] 오퍼.
+description: ' [!DNL Adobe Target] 오퍼에 동적 데이터를 전달하는 방법을 알아봅니다.'
 title: 다이내믹 데이터를 오퍼에 전달하려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '535'
 ht-degree: 63%
 
 ---
 
 # 오퍼에 동적 데이터 전달
 
-에 저장된 방문자 정보를 동적으로 표시할 수 있습니다. [!DNL Adobe Target] 프로필. 마찬가지로 활동 정보(예: 활동 이름 또는 경험 이름)를 사용하여 방문자의 관심 사항, 과거 동작 및 전체 프로필에 따라 개인화된 콘텐츠를 동적으로 반환하는 단일 오퍼를 생성할 수도 있습니다.
+[!DNL Adobe Target] 프로필에 저장된 방문자 정보를 동적으로 표시할 수 있습니다. 마찬가지로 활동 정보(예: 활동 이름 또는 경험 이름)를 사용하여 방문자의 관심 사항, 과거 동작 및 전체 프로필에 따라 개인화된 콘텐츠를 동적으로 반환하는 단일 오퍼를 생성할 수도 있습니다.
 
 ## 비즈니스 사례
 
@@ -47,7 +47,7 @@ ht-degree: 63%
 
 `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}` 등 디버깅 목적에 대한 정보를 콘솔에 기록
 
-대상 [!DNL Recommendations] 디자인, 의 추가 예 참조 [디자인 개요](/help/main/c-recommendations/c-design-overview/design-overview.md).
+[!DNL Recommendations] 디자인에 대해서는 [디자인 개요](/help/main/c-recommendations/c-design-overview/design-overview.md)의 추가 예제를 참조하십시오.
 
 ## 구현
 
@@ -59,7 +59,7 @@ mbox로 전달된 프로필 매개 변수의 경우 다음 구문을 사용합�
 
 `${user.parameter}`
 
-에서 동적 속성을 사용할 때 [!DNL Recommendations] 디자인에서 동적 값을 제대로 렌더링하려면 달러 기호( $ ) 앞에 백슬래시( \ )를 삽입해야 합니다.
+[!DNL Recommendations] 디자인에서 동적 특성을 사용할 때 동적 값이 제대로 렌더링되려면 달러 기호( $ ) 앞에 백슬래시( \ )를 삽입해야 합니다.
 
 `\${user.endpoint.lastViewedEntity}`
 
@@ -73,7 +73,7 @@ mbox로 전달된 프로필 매개 변수의 경우 다음 구문을 사용합�
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-표시할 값을 escape하거나 escape 취소할 수도 있습니다. 예를 들어 값에 아포스트로피가 있는 경우 페이지에서 JavaScript를 중단하지 않도록 값을 이스케이프 처리할 수 있습니다. (오퍼는 JavaScript로 작성되므로 단일 아포스트로피가 따옴표와 혼동될 수 있습니다.) 예:
+표시할 값을 escape하거나 escape 취소할 수도 있습니다. 예를 들어 값에 아포스트로피가 있는 경우 값을 이스케이프 처리할 수 있으므로 페이지의 JavaScript이 손상되지 않습니다. (오퍼는 JavaScript로 작성되므로 단일 아포스트로피가 따옴표와 혼동될 수 있습니다.) 예:
 
 `${user.encodedValue encode="unescape"}`
 

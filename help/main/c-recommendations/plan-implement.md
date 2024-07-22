@@ -12,10 +12,10 @@ ht-degree: 20%
 
 ---
 
-# 계획 및 구현 [!DNL Recommendations]
+# [!DNL Recommendations] 계획 및 구현
 
-사용을 시작하기 전에 [!DNL Adobe Target Recommendations], 몇 가지 단계를 완료해야 합니다.
+[!DNL Adobe Target Recommendations] 사용을 시작하기 전에 몇 가지 단계를 완료해야 합니다.
 
-다음 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko-KR){target=_blank} 구현 방법에 대한 정보를 포함합니다 [!DNL Recommendations] 사이트에서 를 구현하고 [!DNL Target].
+[Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}에는 사이트에서 [!DNL Recommendations]을(를) 구현하는 방법과 [!DNL Target]을(를) 구현하는 방법에 대한 정보가 포함되어 있습니다.
 
-자세한 내용 및 단계별 지침은 [Recommendations 계획 및 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 다음에서 *Adobe Target 개발자 안내서* 포털.
+자세한 내용 및 단계별 지침은 *Adobe Target 개발자 안내서* 포털에서 [Recommendations 계획 및 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.

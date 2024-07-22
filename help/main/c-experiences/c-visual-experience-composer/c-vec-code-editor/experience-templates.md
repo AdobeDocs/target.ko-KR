@@ -6,14 +6,14 @@ feature: Visual Experience Composer (VEC)
 exl-id: 83bee583-656f-47d4-8892-e41b6629696f
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 77%
+source-wordcount: '446'
+ht-degree: 75%
 
 ---
 
 # 경험 템플릿
 
-다음에 대한 정보: [!DNL Adobe Target] 사용자 지정 코드에서 사용할 경험 템플릿 . [!DNL Target] 경험 템플릿은 공통된 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력으로 사전 코딩된 샘플입니다.
+사용자 지정 코드에서 사용할 [!DNL Adobe Target] 경험 템플릿에 대한 정보입니다. [!DNL Target] 경험 템플릿은 일반적인 마케터 사용 사례를 실행하는 데 사용할 구성 가능한 입력이 있는 미리 코딩된 샘플입니다.
 
 이러한 경험 템플릿은 VEC 또는 양식 기반 경험 작성기를 통해 공통 사용 사례를 실행할 시작점으로 개발자 및 마케터에게 무료로 제공됩니다.
 
@@ -51,13 +51,13 @@ ht-degree: 77%
 
 ## Exit Intent가 있는 Lightbox {#section_E624C867E4CD4F2294CFC7917EFAEBD7}
 
-[Exit Intent가 있는 Lightbox 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)은 Exit Intent에서 트리거되는 Lightbox 오버레이 팝업(마우스를 화면 오른쪽 상단으로 이동)이며 마지막으로 주의를 끌기를 원하는 웹 속성에 배치할 수 있습니다.
+[Exit Intent가 있는 Lightbox 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/lightbox-exit-intent)은 Exit Intent에서 트리거되는 lightbox 오버레이 팝업(마우스를 화면 오른쪽 상단으로 이동)이며 마지막으로 주의를 끌기를 원하는 웹 속성에 배치할 수 있습니다.
 
 ![exp-template-lightbox-exit 이미지](assets/exp-template-lightbox-exit.png)
 
 ## Lightbox {#section_EF4FBA08CE55407CAFB334340C6C1577}
 
-[Lightbox 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)은 지연이 기본 제공되는 Lightbox 오버레이 팝업이며, 일반적으로 홈페이지 및 랜딩 페이지나 기타 대량 시작 페이지에서 사용됩니다.
+[Lightbox 경험 템플릿](https://github.com/Adobe-Marketing-Cloud/target-experience-templates)은(는) 지연이 기본 제공되는 Lightbox 오버레이 팝업이며, 일반적으로 홈페이지 및 랜딩 페이지나 기타 대량 시작 페이지에서 사용됩니다.
 
 ![exp-template-lightbox 이미지](assets/exp-template-lightbox.png)
 

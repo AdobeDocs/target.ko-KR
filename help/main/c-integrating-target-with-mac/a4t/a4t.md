@@ -5,9 +5,9 @@ title: ' [!DNL Analytics] for [!DNL Target] (A4T)이란 무엇입니까?'
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
-workflow-type: ht
-source-wordcount: '1144'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '1046'
+ht-degree: 81%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 100%
 
 활동용 보고 소스로서의 [!DNL Analytics]를 사용하는 경우 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics]를 기반으로 합니다.
 
-계산된 지표를 포함하여 모든 [!DNL Analytics] 지표는 한 가지 예외를 제외하고 [!DNL Target] 및 [!DNL Analytics]의 [!UICONTROL Target 활동] 보고서에서 사용할 수 있습니다. [!UICONTROL 상승도 및 신뢰도]에 대한 계산된 지표는 지원되지 않습니다. 마찬가지로 [!DNL Analytics]에서 사용할 수 있는 모든 세그먼트를 각 솔루션에 적용할 수 있습니다. 활동이 시작된 후 또는 활동이 완료된 후 [!DNL Target]의 보고서에 지표 또는 대상자를 적용할 수 있습니다.
+계산된 지표를 포함한 모든 [!DNL Analytics] 지표는 한 가지 예외를 제외하고 [!DNL Target] 및 [!DNL Analytics]의 [!UICONTROL Target Activities] 보고서에서 사용할 수 있습니다. [!UICONTROL Lift & Confidence]에 대한 계산된 지표는 지원되지 않습니다. 마찬가지로 [!DNL Analytics]에서 사용할 수 있는 모든 세그먼트를 각 솔루션에 적용할 수 있습니다. 활동이 시작된 후 또는 활동이 완료된 후 [!DNL Target]의 보고서에 지표 또는 대상자를 적용할 수 있습니다.
 
 [!DNL Analytics]에 내장된 사용자 정의 또는 계산된 지표 등 모든 지표가 포함됩니다.
 
@@ -39,7 +39,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 * 보고 소스는 각 활동에 대해 설정됩니다. [!DNL Target]은 보고에 사용할 데이터를 계속 수집하며 [!DNL Target]에서 수집된 데이터에 활동의 기반을 두고자 하는 경우 [!DNL Target] 데이터를 계속 사용할 수 있습니다.
 * 하나의 보고 소스 또는 다른 보고 소스를 사용하십시오. 두 소스 모두에서 한 활동에 대한 데이터를 수집할 수 없습니다.
 * A4T 사용 시 활동에 사용할 수 있는 모든 성공 지표는 [!DNL Analytics] 지표입니다. 그러나 at.js를 사용하는 경우 목표 지표는 mbox 호출을 기반으로 할 수 있습니다. 예를 들어 A4T를 통해 [!DNL Analytics] 클릭 추적 코드를 구현하지 않고도 Target의 획기적인 클릭 추적 기능을 사용할 수 있습니다.
-* [!DNL Target] UI에서 A4T 활동의 보고를 보면 [!DNL Analytics] 데이터가 표시됩니다. 예를 들어 [!DNL Target]에서 [!UICONTROL 방문자] 지표를 보는 경우 이제 [!UICONTROL 참여자]라고 하는 [!DNL Target] [!UICONTROL 방문자] 지표가 아닌 [!DNL Analytics] [!UICONTROL 방문자] 지표를 사용하게 됩니다. 이 차이는 기본 트래픽 지표([!UICONTROL 방문자], [!UICONTROL 방문 횟수], [!UICONTROL 페이지 조회수]) 및 전환 지표에 특히 중요합니다.
+* [!DNL Target] UI에서 A4T 활동의 보고를 보면 [!DNL Analytics] 데이터가 표시됩니다. 예를 들어 [!DNL Target]에서 [!UICONTROL Visitor] 지표를 사용하는 경우 [!DNL Target] [!UICONTROL Visitors] 지표가 아닌 [!DNL Analytics] [!UICONTROL Visitor] 지표를 사용합니다(이제 [!UICONTROL Entrants]). 이 차이는 기본 트래픽 지표([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views])와 전환 지표에 특히 중요합니다.
 * 모든 기존 [!DNL Target] 활동은 계속 [!DNL Target] 데이터 수집을 사용하며 A4T 활성화의 영향을 받지 않습니다.
 * A4T 사용 시 하나의 mbox 기반 지표만 허용됩니다.
 * [!DNL Target]에서 [!DNL Analytics]로의 서버 간 호출은 [!DNL Analytics]로 활동 및 경험 정보를 전송합니다. 이 통합은 [!DNL Target] 또는 [!DNL Analytics]에 대해 추가 서버 호출을 발생시키지 않습니다.
@@ -60,7 +60,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 | [자동 할당을 사용하는 A/B 활동](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 예 | [자동 할당 및 자동 타겟팅 활동에 대한 A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오. |
 | [자동 타겟팅을 사용하는 A/B 활동](/help/main/c-activities/auto-target/auto-target-to-optimize.md) | 예 | 이제 자동 타겟팅 활동에 대한 A4T 지원은 [!DNL Platform Web SDK] 및 at.js 모두에 대해 지원됩니다. |
 | [경험 타겟팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |  |
-| [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 | [!UICONTROL 요소 기여도] 보고서를 가져오려면 mbox 기반 목표 지표가 필요합니다. [!UICONTROL 요소 기여도] 보고서는 현재 [!DNL Analytics] 지표를 지원하지 않습니다. |
+| [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 | [!UICONTROL Element Contribution] 보고서를 가져오려면 mbox 기반 목표 지표 목표가 필요합니다. [!UICONTROL Element Contribution] 보고서는 현재 [!DNL Analytics] 지표를 지원하지 않습니다. |
 | [Automated Personalization(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |  |
 | [Recommendations 활동](/help/main/c-recommendations/recommendations.md) | 예 |  |
 | [리디렉션 오퍼를 사용하는 모든 활동](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 예 |
@@ -69,27 +69,27 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 
 ## A4T 보고서의 예 {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-[!DNL Target]에서 A4T 보고서를 보려면 **[!UICONTROL 활동]**&#x200B;을 클릭하고, [!DNL Analytics]를 보고 소스로 사용하는 목록에서 원하는 활동을 클릭한 다음 **[!UICONTROL 보고서]** 탭을 클릭합니다.
+[!DNL Target]에서 A4T 보고서를 보려면 **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 [!DNL Analytics]을(를) 보고 소스로 사용하는 목록에서 원하는 활동을 클릭한 다음 **[!UICONTROL Reports]** 탭을 클릭하십시오.
 
 >[!NOTE]
 >
->[!UICONTROL 활동] 페이지 상단의 [!UICONTROL 보고 소스] 드롭다운 목록을 사용하여 A4T를 사용하는 활동만 표시할 수 있습니다.
+>[!UICONTROL Activities] 페이지 상단의 [!UICONTROL Reporting Source] 드롭다운 목록을 사용하여 A4T를 사용하는 활동만 표시할 수 있습니다.
 
-보고서의 오른쪽 상단에 있는 적절한 아이콘을 클릭하여 보고서의 [!UICONTROL 표 보기] 및 [!UICONTROL 그래프 보기] 사이를 전환할 수 있습니다.
+보고서의 오른쪽 상단에 있는 적절한 아이콘을 클릭하여 보고서의 [!UICONTROL Table View]과(와) [!UICONTROL Graph View] 사이를 전환할 수 있습니다.
 
-다음 그림은 사용 가능한 [!UICONTROL  목표 지표를 표시하는 ]보고서 지표[!UICONTROL  드롭다운 목록과 함께 A4T 보고서의 ]그래프 보기[!DNL Analytics]를 보여 줍니다.
+다음 그림은 사용 가능한 [!DNL Analytics] 목표 지표를 표시하는 [!UICONTROL Report Metric] 드롭다운 목록과 함께 A4T 보고서의 [!UICONTROL Graph View]을(를) 보여 줍니다.
 
 ![a4t_report_graph1 이미지](assets/a4t_report_graph1.png)
 
-다음 그림은 사용 가능한  대상자를 표시하는 [!UICONTROL 대상자] 드롭다운 목록과 함께 A4T 보고서의 [!DNL Analytics]그래프 보기를 보여 줍니다.
+다음 그림은 사용 가능한 [!DNL Analytics]개의 대상을 표시하는 [!UICONTROL Audience] 드롭다운 목록과 함께 A4T 보고서의 [!UICONTROL Graph View]을(를) 보여 줍니다.
 
 ![a4t_report_graph2 이미지](assets/a4t_report_graph2.png)
 
-다음 그림은 A4T 보고서의 [!UICONTROL 표 보기]를 보여 줍니다.
+다음 그림은 A4T 보고서의 [!UICONTROL Table View]을(를) 보여 줍니다.
 
 ![a4t_report_table 이미지](assets/a4t_report_table.png)
 
-[!DNL Target]이 아니라 [!DNL Analytics]에서 보고서를 보려면 보고서 상단의 **[!UICONTROL Analytics에서 보기]**&#x200B;를 클릭하십시오.
+[!DNL Target]이(가) 아닌 [!DNL Analytics]에서 보고서를 보려면 보고서 상단의 **[!UICONTROL View in Analytics]**&#x200B;을(를) 클릭하십시오.
 
 ## Analytics &amp; Target: 분석 모범 사례 튜토리얼 {#section_3438E6E77A464424B717A4FD333B84B2}
 

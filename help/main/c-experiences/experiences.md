@@ -1,19 +1,19 @@
 ---
 keywords: 경험;시각적 경험 작성기;고급 경험 작성기;양식 기반 경험 작성기;양식 작성기;시각적 작성기;경험 작성기;혼합 컨텐츠;iframe;iframe 버스팅;iframe 버스트;x-frame-options;x 프레임 선택 사항;교차 원본;교차 원본 문제;인증 워크플로
 description: Adobe 경험 작성기 - 시각적 경험 작성기(VEC), 양식 기반 경험 작성기 및 단일 페이지 시각적 경험 작성기에 대해 자세히 알아보십시오.
-title: 어떤 경험 작성기가 [!DNL Target] 오퍼?
+title: ' [!DNL Target] 은(는) 어떤 경험 작성기를 제공합니까?'
 feature: Experiences and Offers
 exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 79%
 
 ---
 
 # 경험 및 오퍼
 
-의 경험 [!DNL Adobe Target] 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 결정합니다.
+[!DNL Adobe Target]의 경험은 방문자가 활동의 대상 기준을 만족할 때 표시되는 콘텐츠를 결정합니다.
 
 경험은 구매 단계 또는 다른 논리적 페이지 순서를 구성하는 페이지, 전체 웹 페이지 또는 페이지 세트에 있는 오퍼, 이미지, 텍스트, 버튼, 비디오, 이러한 여러 요소의 조합일 수 있습니다. 음성 도우미, 고객 서비스 스크립트 또는 음료 자판기의 개인화된 향에 대한 답변일 수도 있습니다. [!DNL Target] 활동에서 경험을 테스트하거나 개인화합니다.
 

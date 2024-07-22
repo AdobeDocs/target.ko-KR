@@ -1,6 +1,6 @@
 ---
 keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
-description: 단일 및 다중 값 사용자 지정 엔티티 속성을 사용하여 Adobe의 항목에 대한 추가 정보를 정의하는 방법에 대해 알아봅니다 [!DNL Target] Recommendations 카탈로그.
+description: 단일 및 다중 값 사용자 지정 엔티티 특성을 사용하여 Adobe [!DNL Target] Recommendations 카탈로그의 항목에 대한 추가 정보를 정의하는 방법을 알아봅니다.
 title: 사용자 지정 엔티티 속성을 사용하는 방법
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
@@ -15,7 +15,7 @@ ht-degree: 81%
 
 # 사용자 지정 엔티티 속성
 
-에서 단일 및 다중 값 사용자 지정 엔티티 속성 사용 [!DNL Adobe Target Recommendations] 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
+[!DNL Adobe Target Recommendations]에서 단일 및 다중 값 사용자 지정 엔터티 특성을 사용하여 카탈로그에 있는 항목에 대한 추가 정보를 정의합니다.
 
 ## 제한 {#limits}
 
@@ -63,7 +63,7 @@ ht-degree: 81%
 
 ## 다중 값 속성 구현 {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-다중 값 사용자 지정 엔티티 속성은 피드(CSV) 사용 시 지원됩니다. `targetPageParams`및 제품을 업로드할 게재 API입니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열( [] )는 값이 없는 것으로 처리됩니다.
+다중 값 사용자 지정 엔티티 속성은 피드(CSV), `targetPageParams` 및 배달 API를 사용하여 제품을 업로드할 때 지원됩니다. 새 값이 현재 값을 대체하며, 추가되지 않습니다. 빈 배열([])은 값이 없는 것으로 처리됩니다.
 
 큰따옴표는 이스케이프 처리를 해야 합니다. 예를 들어, `"[""test"", ""value""]"`는 CSV로 사용할 수 있는 올바른 JSON 배열입니다.
 
@@ -127,18 +127,18 @@ mbox 매개 변수의 배달 API를 이스케이프 처리된 JSON 배열을 포
   }
 ```
 
-다음을 참조하십시오. [Adobe Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 게재 및 엔티티 저장 API 사용에 대한 자세한 내용
+배달 및 엔티티 저장 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}를 참조하십시오.
 
 ## 다중 값 속성에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 다중 값 사용자 지정 속성에 연산자를 적용할 때, 목록에 있는 하나 이상의 값이 연산(부울 *or*)을 통과하는 경우 결과는 *true*&#x200B;가 됩니다.
 
-다음 예에서 규칙은 다음과 같습니다. `message contains abc`.
+다음 예제에서는 규칙이 `message contains abc`입니다.
 
 * 사례 1: `entity.genre = ["ab", "bc", "de"]`. 어떤 값도 `abc`.
 * 사례 2: `entity.genre = ["abcde","de","ef"]`. 하나의 값이 `abc`.
 
-부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어 연산자가 `notEquals`, 결과는 다음과 같습니다. *false* 일치하는 값이 있는 경우
+부정 연산자의 경우, 모든 속성 값이 연산을 통과해야 합니다(부울 *and*). 예를 들어 연산자가 `notEquals`이면 값이 일치하는 경우 결과는 *false*&#x200B;가 됩니다.
 
 알고리즘 포함 규칙, 카탈로그 규칙 및 제외 규칙의 연산자 비헤이비어에 대해서는 다음 섹션을 참조하십시오.
 

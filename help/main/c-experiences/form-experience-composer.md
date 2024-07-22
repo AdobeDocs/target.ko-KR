@@ -1,54 +1,54 @@
 ---
 keywords: 양식 기반 경험 작성기;양식 기반 작성기;세분화
-description: Adobe 사용 방법 알아보기 [!DNL Target] 비시각적 경험 작성용 양식 기반 경험 작성기 . VEC를 사용할 수 없거나 실용적이지 않은 경우 이 작성기를 사용하십시오.
+description: 비시각적 경험 작성에 Adobe [!DNL Target] 양식 기반 경험 작성기를 사용하는 방법을 알아봅니다. VEC를 사용할 수 없거나 실용적이지 않은 경우 이 작성기를 사용하십시오.
 title: 양식 기반 경험 작성기를 사용하려면 어떻게 해야 합니까?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '871'
-ht-degree: 45%
+source-wordcount: '776'
+ht-degree: 37%
 
 ---
 
 # 양식 기반 경험 작성기
 
-다음 [!DNL Adobe Target] [!UICONTROL 양식 기반 경험 작성기] 는에서 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다 [!UICONTROL A/B 테스트], [!UICONTROL 경험 타기팅], [!UICONTROL Automated Personalization], 및 [!UICONTROL Recommendations] 다음과 같은 경우 활동 [!UICONTROL 시각적 경험 작성기] (VEC)는 사용할 수 없거나 실용적이지 않습니다. 예를 들어 양식 기반 경험 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) VEC([!UICONTROL Visual Experience Composer])를 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 경험 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
 
-다음을 만드는 경우 [!UICONTROL Recommendations] 활동, 경험이 없습니다. 기준 및 디자인을 선택합니다. 여러 기준이나 디자인을 선택하는 경우 [!UICONTROL Target] 은 경험을 자동으로 생성합니다.
+[!UICONTROL Recommendations] 활동을 만드는 경우 경험이 없습니다. 기준 및 디자인을 선택합니다. 여러 기준이나 디자인을 선택하면 [!UICONTROL Target]에서 자동으로 경험을 생성합니다.
 
-1. **[!UICONTROL 활동 만들기]**&#x200B;를 클릭한 후 만들려는 활동 유형을 선택합니다.
+1. **[!UICONTROL Create Activity]**&#x200B;을(를) 클릭한 다음 만들려는 활동 유형을 선택합니다.
 
-   다음 [!UICONTROL 양식 기반 경험 작성기] 다음에 사용 가능: [!UICONTROL A/B 테스트], [!UICONTROL 경험 타기팅], [!UICONTROL Automated Personalization], 및 [!UICONTROL Recommendations] 활동.
+   [!UICONTROL Form-Based Experience Composer]은(는) [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] 및 [!UICONTROL Recommendations] 활동에 사용할 수 있습니다.
 
-1. 선택 **[!UICONTROL 양식]** 다음에서 [!UICONTROL 활동 만들기] 대화 상자.
+1. [!UICONTROL Create Activity] 대화 상자에서 **[!UICONTROL Form]** 선택
 
 1. (조건부) 작업 공간 및 속성을 선택합니다.
 
-1. **[!UICONTROL 다음]**&#x200B;을 클릭합니다.
+1. **[!UICONTROL Next]** 아이콘을 클릭합니다.
 
-   다음 [!UICONTROL 양식 기반 경험 작성기] 열림.
+   [!UICONTROL Form-Based Experience Composer]이(가) 열립니다.
 
-   ![location_refinations 이미지](assets/location_refinements.png)
+   ![위치 개선 이미지](assets/location_refinements.png)
 
-   이 화면은 를 만드는 경우 다릅니다. [!UICONTROL Recommendations] 활동. [!UICONTROL 권장 사항 활동에는 경험이 포함되지 않습니다.]
+   [!UICONTROL Recommendations] 활동을 만드는 경우 이 화면은 다릅니다. [!UICONTROL Recommendations] 활동에 경험이 포함되어 있지 않습니다.
 
-1. 을(를) 클릭하여 활동의 이름을 지정합니다.[!UICONTROL 제목 없는 활동].&quot;
+1. &quot;[!UICONTROL Untitled Activity]&quot;을(를) 클릭하여 활동 이름을 지정합니다.
 1. 위치를 선택합니다.
 
-   다음을 클릭하면 [!UICONTROL 위치 선택] 상자에 사용 가능한 위치 목록이 나타납니다. 해당 위치 중 하나를 선택합니다.
+   [!UICONTROL Select Location] 상자를 클릭하면 사용 가능한 위치 목록이 나타납니다. 해당 위치 중 하나를 선택합니다.
 
-   여기에 나열되지 않은 위치를 입력할 수도 있습니다. 이 방식은 mbox가 페이지에서 아직 만들어졌거나 열람되지 않은 경우에 유용할 수 있습니다. 위치의 이름을 입력합니다. 아직 없는 위치를 입력할 때는 주의하십시오. 철자 또는 대소문자가 mbox 호출이 수행될 때의 철자 및 대소문자와 일치하지 않으면 활동이 전달되지 않습니다. 수동으로 입력한 위치는 사용 가능한 위치 목록에 저장됩니다. 다음에 수동으로 입력한 위치를 선택하려고 하면 [!UICONTROL 위치 선택] 해당 활동에 대한 드롭다운 목록입니다.
+   여기에 나열되지 않은 위치를 입력할 수도 있습니다. 이 방식은 mbox가 페이지에서 아직 만들어졌거나 열람되지 않은 경우에 유용할 수 있습니다. 위치의 이름을 입력합니다. 아직 없는 위치를 입력할 때는 주의하십시오. 철자 또는 대소문자가 mbox 호출이 수행될 때의 철자 및 대소문자와 일치하지 않으면 활동이 전달되지 않습니다. 수동으로 입력한 위치는 사용 가능한 위치 목록에 저장됩니다. 다음에 수동으로 입력한 위치를 선택하려고 하면 해당 활동에 대한 [!UICONTROL Select Location] 드롭다운 목록에서 사용할 수 있습니다.
 
    >[!NOTE]
    >
    >활동을 만드는 동안 수동으로 입력한 위치를 만들어도 새 위치가 자동으로 만들어지지 않습니다. 위치 이름은 활동의 컨텍스트에서만 저장됩니다. 위치는 콘텐츠 게재 호출이 있을 때 만들어집니다. 위치가 생성되면 다른 활동에서 사용하거나 대상 만들기 등에 사용할 수 있습니다. 사용 가능한 위치 드롭다운 목록에서 선택합니다.
 
-1. 클릭 **[!UICONTROL 대상 개선 추가]**, 하나 이상 선택 [대상자](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) 이 활동에 대해 를 클릭한 다음 **[!UICONTROL 완료]**.
+1. **[!UICONTROL Add Audience Refinements]**&#x200B;을(를) 클릭하고 이 활동에 대해 하나 이상의 [대상](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을(를) 선택한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
    ![location_refinations_2 이미지](assets/location_refinements_2.png)
 
-   다음에서 [!UICONTROL 양식 기반 경험 작성기], 세분화는 전체 대상 기능으로 대체되었습니다. 기존 활동에 대한 세분화가 (으)로 마이그레이션되었습니다. [활동 전용 대상](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   [!UICONTROL Form-based Experience Composer]에서 세분화는 전체 대상 기능으로 대체되었습니다. 기존 활동에 대한 세분화가 [활동 전용 대상](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)(으)로 마이그레이션되었습니다.
 
 1. 해당 위치에 표시할 콘텐츠 유형을 선택합니다.
 
@@ -62,37 +62,37 @@ ht-degree: 45%
 
    이미지에 대한 링크(클릭스루, 대상, 랜딩 등)를 추가할 수도 있습니다.
 
-   1. [!UICONTROL 이미지 오퍼 변경]을 클릭합니다.
-   1. 원하는 이미지를 선택한 다음, [!UICONTROL 링크 편집]을 클릭합니다.
-   1. 사이트에서 원하는 URL 또는 페이지를 지정하고 [!UICONTROL 업데이트]을 클릭합니다.
+   1. [!UICONTROL Change Image Offer] 아이콘을 클릭합니다.
+   1. 원하는 이미지를 선택한 다음 [!UICONTROL Edit Links]을(를) 클릭합니다.
+   1. 사이트에서 원하는 URL 또는 페이지를 지정한 다음 [!UICONTROL Update]을(를) 클릭합니다.
 
    **JSON 오퍼 변경:** JSON 오퍼를 선택합니다.
 
-   **경험 구성요소 변경:** 경험 구성요소를 선택합니다. 자세한 내용은 [경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
+   **경험 조각 변경:** 경험 조각을 선택합니다. 자세한 내용은 [경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)을 참조하세요.
 
-   **리디렉션 오퍼 변경:** 리디렉션 오퍼를 선택합니다. 자세한 내용은 [리디렉션 오퍼 만들기](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+   **리디렉션 오퍼 변경:** 리디렉션 오퍼를 선택합니다. 자세한 내용은 [리디렉션 오퍼 만들기](/help/main/c-experiences/c-manage-content/offer-redirect.md)를 참조하십시오.
 
-   **원격 오퍼 변경:** 원격 오퍼를 선택합니다. 자세한 내용은 [원격 오퍼 만들기](/help/main/c-experiences/c-manage-content/about-remote-offers.md).
+   **원격 오퍼 변경:** 원격 오퍼를 선택합니다. 자세한 내용은 [원격 오퍼 만들기](/help/main/c-experiences/c-manage-content/about-remote-offers.md)를 참조하세요.
 
    **HTML 오퍼 만들기:**
 
-   1. [!UICONTROL 오퍼]를 클릭한 다음, [!UICONTROL 코드 오퍼] 탭을 선택합니다.
-   1. [!UICONTROL 만들기] > [!UICONTROL HTML 오퍼]를 클릭합니다.
+   1. [!UICONTROL Offers]을(를) 클릭한 다음 [!UICONTROL Code Offers] 탭을 선택합니다.
+   1. [!UICONTROL Create] > [!UICONTROL HTML Offer]을(를) 클릭합니다.
    1. 오퍼 이름을 입력합니다.
    1. 코드 상자에 HTML 코드를 입력하거나 붙여넣습니다.
-   1. [!UICONTROL 저장]을 클릭합니다.
+   1. [!UICONTROL Save] 아이콘을 클릭합니다.
 
    **JSON 오퍼 만들기:**
 
-   1. [!UICONTROL 오퍼]를 클릭한 다음, [!UICONTROL 코드 오퍼] 탭을 선택합니다.
-   1. [!UICONTROL 만들기] > [!UICONTROL JSON 오퍼]를 클릭합니다.
+   1. [!UICONTROL Offers]을(를) 클릭한 다음 [!UICONTROL Code Offers] 탭을 선택합니다.
+   1. [!UICONTROL Create] > [!UICONTROL JSON Offer]을(를) 클릭합니다.
    1. 오퍼 이름을 입력합니다.
    1. 코드 상자에 JSON 코드를 입력하거나 붙여 넣습니다.
-   1. [!UICONTROL 저장]을 클릭합니다.
+   1. [!UICONTROL Save] 아이콘을 클릭합니다.
 
-   **권장 사항 추가:**
+   **추천 추가:**
 
-   Recommendations 활동의 경우 컨텐츠 드롭다운에 다음이 제공됩니다. [!UICONTROL 권장 사항 추가] 옵션을 선택합니다. **[!UICONTROL 추천 추가]**&#x200B;를 클릭한 후 페이지 유형을 선택합니다. 그런 다음, 인터페이스에 정의된 일반적인 단계를 수행하여 [권장 사항 활동을 만듭니다](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Recommendations 활동의 경우 콘텐츠 드롭다운에 [!UICONTROL Add Recommendation] 옵션이 제공됩니다. **[!UICONTROL Add Recommendation]**&#x200B;을(를) 클릭한 다음 페이지 유형을 선택합니다. 그런 다음, 인터페이스에 정의된 일반적인 단계를 수행하여 [권장 사항 활동을 만듭니다](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    양식 기반 경험 작성기에서 권장 사항 기준을 선택하는 동안 선택한 기준 카드에 직접 연결되는 링크가 있으므로 기준을 빠르고 쉽게 편집할 수 있습니다.
 
@@ -104,12 +104,12 @@ ht-degree: 45%
 
    **오퍼 결정 추가:**
 
-   에서 생성된 오퍼 추가 [!DNL Adobe Journey Optimizer] (AJO) (으)로 [!DNL Adobe Target] 활동은 offer decisioning을 사용하여 웹 사이트 또는 모바일 사이트의 방문자에게 최고의 동적 오퍼 및 경험을 제공합니다. 이 옵션은 수동으로 사용할 수 있습니다. [!UICONTROL A/B 테스트] 및 [!UICONTROL 경험 타기팅] (XT) 활동만
+   [!DNL Adobe Journey Optimizer](AJO)에서 만든 오퍼를 [!DNL Adobe Target] 활동에 추가하여 offer decisioning을 사용하여 웹 사이트 또는 모바일 사이트의 방문자에게 최고의 동적 오퍼 및 경험을 제공합니다. 이 옵션은 수동 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting](XT) 활동에만 사용할 수 있습니다.
 
-   자세한 내용은 [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)을 참조하십시오.
+   자세한 내용은 [오퍼 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)을 참조하세요.
 
-1. (선택 사항, 대상 [!UICONTROL A/B 테스트], [!UICONTROL Automated Personalization], 및 [!UICONTROL 경험 타기팅] 활동) 추가적인 위치에 대해 이 프로세스를 반복하려면 **[!UICONTROL 위치 추가]** 위치 및 컨텐츠를 구성합니다.
-1. 클릭 **[!UICONTROL 다음]**&#x200B;를 클릭한 다음 활동 유형에 대한 활동 만들기 단계를 평소처럼 완료합니다.
+1. (선택 사항, [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] 및 [!UICONTROL Experience Targeting] 활동의 경우) 추가 위치에 대해 이 프로세스를 반복하려면 **[!UICONTROL Add Location]**&#x200B;을(를) 클릭하고 위치 및 콘텐츠를 구성하십시오.
+1. **[!UICONTROL Next]**&#x200B;을(를) 클릭한 다음 활동 유형에 대한 활동 만들기 단계를 평소처럼 완료합니다.
 
 * [A/B 테스트 만들기](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [경험 타깃팅 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)

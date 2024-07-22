@@ -7,18 +7,18 @@ role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 84%
+source-wordcount: '533'
+ht-degree: 85%
 
 ---
 
 # 매출 상승도 평가
 
-사용 [!DNL Adobe Target] 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 추정하기 위해.
+[!DNL Adobe Target]을(를) 사용하여 모든 사용자가 우승을 경험하는 경우 이루게 되는 매출 상승도를 예측합니다.
 
 >[!NOTE]
 >
->예상 상승도를 다음에 사용할 수 없음: [!UICONTROL 경험 타기팅] (XT) 현재 활동.
+>현재 [!UICONTROL Experience Targeting](XT) 활동에는 예상 상승도를 사용할 수 없습니다.
 
 예상 상승도 기능은 기본적으로 꺼져 있으며, 계정 환경 설정에서 활성화할 수 있습니다. Experience Cloud 관리자 사용자만 이 기능을 활성화하거나 비활성화할 수 있습니다. 예상되는 상승도가 비활성화되면 해당 필드가 인터페이스에 표시되지 않습니다. 이 기능을 비활성화해도 예상치에 사용되는 데이터를 비롯한 어떤 데이터도 손실되지 않습니다. 예상치는 기능의 활성화 여부와 관계없이 수집되는 데이터를 기준으로 합니다.
 
@@ -30,7 +30,7 @@ ht-degree: 84%
 
 수입의 예상 상승도는 기본 목표 지표에서 얻은 방문당 매출액(RPV)을 기반으로 계산됩니다.
 
-예상 상승도는 다음 공식을 사용하여 계산됩니다. (&lt;winning experience=&quot;&quot; rpv=&quot;&quot;> - &lt;control experience=&quot;&quot; rpv=&quot;&quot; span=&quot;&quot; id=&quot;0&quot; translate=&quot;no&quot; />&lt;total number=&quot;&quot; of=&quot;&quot; visitors=&quot;&quot; in=&quot;&quot; the=&quot;&quot; activity=&quot;&quot;>&#42;
+예상 상승도는 공식 (&lt;우승 경험 RPV> - &lt;제어 경험 RPV>)&#42;&lt;활동의 총 방문자 수>를 사용하여 계산됩니다.
 
 결과는 압축 양식에서 소수 앞에 한자릿수만 있으면 최대 소수 첫째 자리로 반올림됩니다. 예를 들어, $1.6M, $60K, $900, $8.5K, $205K와 같습니다.
 

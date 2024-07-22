@@ -6,8 +6,8 @@ feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 97%
+source-wordcount: '2721'
+ht-degree: 96%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 
 **Target에서는 어떤 브라우저를 지원합니까?**
 
-자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html) 표를 참조하십시오. {target=_blank} Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
+자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
 
 ## 활동 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -105,7 +105,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
-이 작업도 가능합니다. Simply [사용할 수 있는 저장 옵션을 사용하여 단계를 종료하지 않고도 증분 변경을 수행할 수 있습니다](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+이 작업도 가능합니다. [사용할 수 있는 저장 옵션을 사용하여 ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 단계를 종료하지 않고 증분 변경을 하기만 하면 됩니다.
 
 **방금 생성한 활동을 미리 보고 QA를 수행하려면 어떻게 해야 합니까?**
 
@@ -168,7 +168,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 이 문제는 사이트에 HTTP 리소스와 HTTPS 리소스를 모두 가져오는 사이트가 혼합된 콘텐츠가 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
 
-이러한 이동이 완료될 때까지는 [브라우저에서 혼합 콘텐츠 활성화](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) 의 지침에 따라 브라우저가 혼합된 콘텐츠를 로드할 수 있도록 하십시오. 이는 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
+이렇게 되기 전까지는 [브라우저에서 혼합 콘텐츠 사용](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)의 지침에 따라 브라우저에서 혼합 콘텐츠를 로드할 수 있도록 하십시오. 이는 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
 
 **Target at.js 라이브러리가 아직 배포되지 않았더라도 사이트에서 VEC(시각적 경험 작성기)를 사용해볼 수 있습니까?**
 
@@ -180,7 +180,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 차단을 해제할 수 있는 [양식 기반 접근 방식](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 도 있습니다.
 
-또한 [고급 경험 작성기](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)가 유용한 경우와 그 이유도 읽어보십시오. IT 부서에 연락하여 [Adobe의 프록시 서버도 허용 목록에 포함](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) 해야 할 수 있습니다.
+또한 [고급 경험 작성기](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)가 유용한 경우와 그 이유도 읽어 보십시오. 허용 목록에 추가하다 IT 부서에 연락하여 [Adobe의 프록시 서버](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)도 연결해야 할 수 있습니다.
 
 **응답하는 사이트가 있습니다. 활동을 만드는 동안, 핵심 디바이스를 고려하고 있는지를 어떻게 확인할 수 있습니까?**
 
@@ -309,4 +309,4 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. 다음을 참조하십시오 [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
+API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}를 참조하십시오.

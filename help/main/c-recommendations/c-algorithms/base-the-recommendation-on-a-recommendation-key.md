@@ -1,60 +1,60 @@
 ---
 keywords: 권장 사항 키;권장 사항 논리;현재 범주;사용자 지정 속성;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 범주;인기도;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기;최근에 본 항목
-description: 방문자 행동 컨텍스트를 사용하여 Adobe에서 관련 결과를 표시하는 키를 기반으로 권장 사항을 사용하는 방법에 대해 알아봅니다 [!DNL Target] Recommendations 활동.
+description: 방문자 행동 컨텍스트를 사용하여 Adobe [!DNL Target] Recommendations 활동에서 관련 결과를 표시하는 키를 기반으로 권장 사항을 사용하는 방법에 대해 알아봅니다.
 title: 권장 사항 키를 기반으로 권장 사항을 만들려면 어떻게 합니까?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
-source-wordcount: '4013'
-ht-degree: 35%
+source-wordcount: '3845'
+ht-degree: 34%
 
 ---
 
 # 권장 사항 키를 기반으로 권장 사항 만들기
 
-알고리즘 기반 Recommendations은에서 적절한 결과를 보여주기 위해 방문자 행동 컨텍스트를 사용합니다. [!DNL Adobe Target] [!DNL Recommendations] 활동.
+알고리즘 기반의 Recommendations은 방문자 행동 컨텍스트를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] 활동에서 관련 결과를 표시합니다.
 
 각 알고리즘 유형은 다음 표와 같이 해당 유형에 적합한 다양한 알고리즘을 제공합니다.
 
 | 알고리즘 유형 | 사용 시기 | 사용 가능한 알고리즘 |
 | --- | --- | --- |
-| [!UICONTROL 장바구니 기반] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul> |
-| [!UICONTROL 인기도 기반] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. | <ul><li>사이트에서 가장 많이 본 항목</li><li>범주별 최고 조회수</li><li>항목별 가장 많이 본 항목 속성</li><li>사이트 전체 최상위 판매자</li><li>범주별 최상위 판매자</li><li>항목 속성별 최상위 판매자</li><li>Analytics 지표 상위</li></ul> |
-| [!UICONTROL 항목 기반] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후 권장 사항을 제공합니다. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>속성이 비슷한 항목</li></ul> |
-| [!UICONTROL 사용자 기반] | 사용자의 행동을 기반으로 권장 사항을 제공합니다. | <ul><li>최근에 본 항목</li><li>추천 항목</li></ul> |
-| [!UICONTROL 사용자 지정 기준] | 업로드하는 사용자 지정 파일을 기반으로 권장 사항을 제공합니다. | <ul><li>사용자 지정 알고리즘</li></ul> |
+| [!UICONTROL Cart-Based] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul> |
+| [!UICONTROL Popularity-Based] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. | <ul><li>사이트에서 가장 많이 본 항목</li><li>범주별 최고 조회수</li><li>항목별 가장 많이 본 항목 속성</li><li>사이트 전체 최상위 판매자</li><li>범주별 최상위 판매자</li><li>항목 속성별 최상위 판매자</li><li>Analytics 지표 상위</li></ul> |
+| [!UICONTROL Item-Based] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후 권장 사항을 제공합니다. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>속성이 비슷한 항목</li></ul> |
+| [!UICONTROL User-Based] | 사용자의 행동을 기반으로 권장 사항을 제공합니다. | <ul><li>최근에 본 항목</li><li>추천 항목</li></ul> |
+| [!UICONTROL Custom Criteria] | 업로드하는 사용자 지정 파일을 기반으로 권장 사항을 제공합니다. | <ul><li>사용자 지정 알고리즘</li></ul> |
 
 각 기준은 자체 탭에 정의됩니다. 트래픽은 여러 기준 테스트에 고르게 분할됩니다. 즉, 두 개의 기준이 있으면 트래픽이 이러한 두 기준 간에 동일하게 분할됩니다. 두 개의 기준과 두 개의 디자인이 있는 경우 트래픽이 네 개의 조합 간에 균일하게 분할됩니다. 또한 비교를 위해 기본 콘텐츠를 보는 사이트 방문자의 비율도 지정할 수 있습니다. 이 경우 지정된 비율의 방문자는 기본 콘텐츠를 보고 나머지 방문자는 기준과 디자인 조합 간에 분할됩니다.
 
-기준을 만들고 해당 알고리즘 유형 및 알고리즘을 정의하는 방법에 대한 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md).
+기준을 만들고 해당 알고리즘 유형 및 알고리즘을 정의하는 방법에 대한 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
 
 다른 권장 사항 알고리즘은 서로 다른 유형의 페이지에 배치될 수 있도록 해줍니다. 각 알고리즘 유형 및 사용 가능한 알고리즘에 대한 자세한 내용은 다음 섹션을 참조하십시오.
 
 ## 장바구니 기반 {#cart-based}
 
-다음 [!UICONTROL 장바구니 기반] 알고리즘 유형 을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 추천 키는 다음을 통해 제공됩니다. [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 쉼표로 구분된 값. 처음 10개의 값만 고려됩니다.
+[!UICONTROL Cart-Based] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 권장 사항 키는 쉼표로 구분된 값으로 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을(를) 통해 제공됩니다. 처음 10개의 값만 고려됩니다.
 
-장바구니 기반 권장 사항 로직은 와 유사합니다.[!UICONTROL 추천 항목]&quot; 사용자 기반 알고리즘 및 &quot;[!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]&quot; 및 &quot;[!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]&quot; 항목 기반 알고리즘.
+장바구니 기반 권장 사항 논리는 &quot;[!UICONTROL Recommended For You]&quot; 사용자 기반 알고리즘 및 &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; 및 &quot;[!UICONTROL People Who Bought These, Bought Those]&quot; 항목 기반 알고리즘과 유사합니다.
 
-[!DNL Target] 은 공동 작업 필터링 기술을 사용하여 방문자 장바구니에 있는 각 항목의 유사성을 파악한 다음 각 항목 간에 이러한 행동 유사성을 결합하여 병합 목록을 가져옵니다.
+[!DNL Target]은(는) 공동 작업 필터링 기법을 사용하여 방문자 장바구니에 있는 각 항목의 유사성을 확인한 다음 각 항목 간에 이러한 비헤이비어 유사성을 결합하여 병합 목록을 가져옵니다.
 
-[!DNL Target] 또한 마케터에게 단일 세션 내에서 또는 여러 세션에서 방문자 행동을 볼 수 있는 옵션을 제공합니다.
+또한 [!DNL Target]을(를) 통해 마케터는 단일 세션 내에서 또는 여러 세션에서 방문자 행동을 볼 수 있습니다.
 
-* **[!UICONTROL 단일 세션]**: 다른 방문자가 단일 세션 내에서 수행한 작업을 기반으로 합니다.
+* **[!UICONTROL Single Session]**: 다른 방문자가 단일 세션 내에서 수행한 작업을 기반으로 합니다.
 
   사용, 상황 또는 이벤트에 따라 제품이 서로 강력하게 &quot;함께&quot; 이동한다는 느낌이 있을 때 단일 세션 내에서 동작을 살펴보는 것이 적절할 수 있습니다. 예를 들어 방문자가 프린터를 구입하고 있으며 잉크와 용지도 필요할 수 있습니다. 또는 방문자가 땅콩 버터를 구매하고 빵과 젤리도 필요할 수 있습니다.
 
-* **[!UICONTROL 세션 간]**: 다른 방문자가 여러 세션에서 수행한 작업을 기반으로 합니다.
+* **[!UICONTROL Across Sessions]**: 다른 방문자가 여러 세션에서 수행한 작업을 기반으로 합니다.
 
   방문자의 선호도나 취향에 따라 제품이 서로 강하게 &quot;함께&quot; 이동한다는 느낌이 있을 때 여러 세션에서 동작을 살펴보는 것이 적절할 수 있습니다. 예를 들어 방문자는 스타워즈를 좋아하고 인디애나 존스를 좋아하지만, 같은 자리에서 두 영화를 모두 보고 싶지 않은 경우에도 마찬가지입니다. 또는 방문자가 보드 게임 &quot;Codenames&quot;를 좋아하고 보드 게임 &quot;Avalon&quot;을 좋아할 수도 있습니다. 방문자가 두 게임을 동시에 플레이할 수 없는 경우에도 마찬가지입니다. 
 
-[!DNL Target] 는 단일 세션 내에서 방문자 행동을 보는지 아니면 여러 세션에서 방문자 행동을 보는지 여부에 관계없이 현재 장바구니에 있는 항목을 기반으로 각 방문자에 대한 권장 사항을 제공합니다.
+[!DNL Target]은(는) 단일 세션 내에서 방문자 행동을 보는지 아니면 여러 세션에서 방문자 행동을 보는지 여부에 관계없이 현재 장바구니에 있는 항목을 기준으로 각 방문자에 대해 권장 사항을 제공합니다.
 
-다음 알고리즘은에서 사용할 수 있습니다. [!UICONTROL 장바구니 기반] 알고리즘 유형:
+[!UICONTROL Cart-Based] 알고리즘 유형에서 다음 알고리즘을 사용할 수 있습니다.
 
-### [!UICONTROL 이 항목을 보고 다른 항목도 본 사람]
+### [!UICONTROL People Who Viewed This, Viewed Those]
 
 지정한 항목을 본 것과 동일한 세션에서 가장 자주 본 항목을 추천합니다.
 
@@ -99,11 +99,11 @@ ht-degree: 35%
 * 마지막으로 본 항목
 * 가장 많이 본 항목
 
-## [!UICONTROL 인기도 기반]
+## [!UICONTROL Popularity-Based]
 
-다음 [!UICONTROL 인기도 기반] 알고리즘 유형을 사용하면 사이트에서 항목의 전체 인기도를 기반으로 하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천을 수행할 수 있습니다.
+[!UICONTROL Popularity-Based] 알고리즘 유형을 사용하면 사이트 전체 항목의 전체 인기 또는 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기에 따라 권장 사항을 만들 수 있습니다.
 
-다음 알고리즘은에서 사용할 수 있습니다. [!UICONTROL 인기도 기반] 알고리즘 유형:
+[!UICONTROL Popularity-Based] 알고리즘 유형에서 다음 알고리즘을 사용할 수 있습니다.
 
 ### 사이트에서 가장 많이 본 항목 {#most-viewed}
 
@@ -172,13 +172,13 @@ ht-degree: 35%
 
 ### Analytics 지표 상위
 
-&quot;상단 x&quot;를 표시합니다. 여기서 *x* 임의 항목 [!DNL Analytics] 지표. mbox의 동작 데이터를 사용할 때 최상위 판매됨 또는 최상위 조회됨 (x = &quot;판매됨&quot; 또는 x = &quot;조회됨&quot;)을 사용할 수 있습니다. 의 동작 데이터를 사용하는 경우 [!DNL Adobe Analytics], x = &quot;Cart Adds&quot; 또는 기타 일부 항목을 사용할 수 있습니다 [!DNL Analytics] 지표.
+*x*&#x200B;이(가) 임의의 [!DNL Analytics] 지표인 &quot;상단 x&quot;를 표시합니다. mbox의 동작 데이터를 사용할 때 최상위 판매됨 또는 최상위 조회됨 (x = &quot;판매됨&quot; 또는 x = &quot;조회됨&quot;)을 사용할 수 있습니다. [!DNL Adobe Analytics]의 동작 데이터를 사용하는 경우 x = &quot;장바구니 추가&quot; 또는 다른 [!DNL Analytics] 지표를 사용할 수 있습니다.
 
-## [!UICONTROL 항목 기반]
+## [!UICONTROL Item-Based]
 
-다음 [!UICONTROL 항목 기반] 권장 사항 유형 을 사용하면 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후에 권장 사항을 제공할 수 있습니다.
+[!UICONTROL Item-Based] 권장 사항 유형을 사용하면 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후 권장 사항을 제공할 수 있습니다.
 
-다음 알고리즘은에서 사용할 수 있습니다. [!UICONTROL 항목 기반] 알고리즘 유형:
+[!UICONTROL Item-Based] 알고리즘 유형에서 다음 알고리즘을 사용할 수 있습니다.
 
 ### 이 항목을 보고 다른 항목도 본 사람 {#viewed-viewed}
 
@@ -240,25 +240,25 @@ ht-degree: 35%
 * 마지막으로 본 항목
 * 가장 많이 본 항목
 
-자세한 내용은 [컨텐츠 유사성](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+자세한 내용은 [콘텐츠 유사성](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)을 참조하세요.
 
-## [!UICONTROL 사용자 기반]
+## [!UICONTROL User-Based]
 
 사용자 기반 알고리즘 유형을 사용하면 사용자의 비헤이비어에 따라 권장 사항을 제공할 수 있습니다.
 
-다음 알고리즘은에서 사용할 수 있습니다. [!UICONTROL 사용자 기반] 알고리즘 유형:
+[!UICONTROL User-Based] 알고리즘 유형에서 다음 알고리즘을 사용할 수 있습니다.
 
 ### 최근에 본 항목 {#recently-viewed}
 
 방문자의 기록(여러 세션)을 사용하여 디자인의 슬롯 수에 따라 방문자가 마지막으로 본 *x*&#x200B;개 항목을 표시합니다.
 
-최근에 본 항목 알고리즘은 지정된 항목에 따른 결과를 반환합니다 [환경](/help/main/administrating-target/hosts.md). 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 각 사이트에는 해당 사이트에서 최근에 본 항목만 표시됩니다. 방문자가 동일한 환경에 있는 두 사이트 간에 전환하는 경우 방문자에게 두 사이트에 대해 최근에 본 동일한 항목이 표시됩니다.
+최근에 본 항목 알고리즘은 주어진 [환경](/help/main/administrating-target/hosts.md)에 따른 결과를 반환합니다. 방문자가 서로 다른 환경에 속한 두 사이트 간에 전환하는 경우 각 사이트에는 해당 사이트에서 최근에 본 항목만 표시됩니다. 방문자가 동일한 환경에 있는 두 사이트 간에 전환하는 경우 방문자에게 두 사이트에 대해 최근에 본 동일한 항목이 표시됩니다.
 
 >[!NOTE]
 >
->를 사용할 수 없습니다. [!UICONTROL 최근에 본 항목] 백업 권장 사항 기준.
+>백업 권장 사항에는 [!UICONTROL Recently Viewed Items] 기준을 사용할 수 없습니다.
 
-[!UICONTROL 최근에 본 항목]/Media는 특정 특성이 있는 항목만 표시되도록 필터링할 수 있습니다.
+특정 특성이 있는 항목만 표시되도록 [!UICONTROL Recently Viewed Items]/미디어를 필터링할 수 있습니다.
 
 * 최근에 본 항목 기준은 권장 사항에 있는 다른 기준처럼 구성이 가능합니다.
 * 다른 기준과 동일한 방법으로 [컬렉션](/help/main/c-recommendations/c-products/collections.md), [제외](/help/main/c-recommendations/c-products/exclusions.md) 및 [포함](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)(가격 및 재고에 대한 특별한 규칙 포함)을 사용할 수 있습니다.
@@ -269,7 +269,7 @@ ht-degree: 35%
 
 >[!NOTE]
 >
->[!UICONTROL 최근에 본 항목] 활동에 대한 제외 전역 설정과 선택한 컬렉션 설정을 모두 준수합니다. 항목이 전역 제외에 의해 제외되거나 선택한 컬렉션에 포함되지 않은 경우 표시되지 않습니다. 따라서 를 사용할 때 [!UICONTROL 최근에 본 항목] 기준, 일반적으로 &quot;모든 컬렉션&quot; 설정을 사용해야 합니다.
+>[!UICONTROL Recently Viewed Items]은(는) 활동에 대한 제외 전역 설정과 선택한 컬렉션 설정을 모두 준수합니다. 항목이 전역 제외에 의해 제외되거나 선택한 컬렉션에 포함되지 않은 경우 표시되지 않습니다. 따라서 [!UICONTROL Recently Viewed Items] 기준을 사용하는 경우 일반적으로 &quot;모든 컬렉션&quot; 설정을 사용해야 합니다.
 
 ### 추천 항목 {#recommended-for-you}
 
@@ -303,7 +303,7 @@ ht-degree: 35%
 
 자신만의 사용자 지정 기준 출력의 맨 위에서 실시간 필터링을 수행할 수 있습니다. 예를 들어 권장 사항 항목을 방문자가 선호하는 범주 또는 브랜드의 항목으로만 제한할 수 있습니다. 이렇게 하면 오프라인 계산을 실시간 필터링과 결합할 수 있습니다.
 
-이 기능은 다음을 사용할 수 있음을 의미합니다. [!DNL Target] 오프라인 계산된 권장 사항 또는 사용자 지정 조정 목록의 맨 위에 개인화를 추가합니다. 이 작업에서는 데이터 과학자 및 연구의 힘을 Adobe의 유효성이 증명된 전달, 런타임 필터링, A/B 테스트, 타깃팅, 보고, 통합 등과 결합합니다.
+이 기능은 [!DNL Target]을(를) 사용하여 오프라인 계산된 권장 사항이나 사용자 지정 조정 목록의 맨 위에 개인화를 추가할 수 있음을 의미합니다. 이 작업에서는 데이터 과학자 및 연구의 힘을 Adobe의 유효성이 증명된 전달, 런타임 필터링, A/B 테스트, 타깃팅, 보고, 통합 등과 결합합니다.
 
 사용자 지정 기준에 포함 규칙을 추가하면 기존의 정적 권장 사항이 방문자의 관심 사항을 기반으로 하는 동적 권장 사항으로 변경됩니다.
 
@@ -318,7 +318,7 @@ ht-degree: 35%
 
 ## 권장 사항 키 {#keys}
 
-다음 권장 사항 키는 [!UICONTROL 권장 사항 키] 드롭다운 목록:
+[!UICONTROL Recommendation Key] 드롭다운 목록에서 다음 권장 사항 키를 사용할 수 있습니다.
 
 ### 현재 항목 {#current-item}
 
@@ -330,12 +330,12 @@ ht-degree: 35%
 
 다음 알고리즘과 함께 사용할 수 있습니다.
 
-* [!UICONTROL 비슷한 속성을 갖는 항목]
-* [!UICONTROL 이 항목을 보고 다른 항목도 본 사람]
-* [!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]
-* [!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
 
-사용 [!UICONTROL 현재 항목] 사이트의 권장 사항 키:
+다음에서 사이트의 [!UICONTROL Current Item] 권장 사항 키 사용:
 
 * 제품 페이지와 같은 단일 항목 페이지입니다.
 * null 검색 결과 페이지는 사용하지 마십시오.
@@ -346,12 +346,12 @@ ht-degree: 35%
 
 다음 알고리즘과 함께 사용할 수 있습니다.
 
-* [!UICONTROL 비슷한 속성을 갖는 항목]
-* [!UICONTROL 이 항목을 보고 다른 항목도 본 사람]
-* [!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]
-* [!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
 
-사용 [!UICONTROL 마지막으로 구매한 항목] 사이트의 권장 사항 키:
+다음에서 사이트의 [!UICONTROL Last Purchased Item] 권장 사항 키 사용:
 
 * 홈 페이지, 내 계정 페이지, 오프사이트 광고
 * 제품 페이지 또는 구매와 관련된 페이지에서는 사용하지 마십시오.
@@ -360,22 +360,22 @@ ht-degree: 35%
 
 사용자 지정 프로필 속성값을 기준으로 하여 권장 사항을 만들 수 있습니다. 예를 들어 방문자가 가장 최근에 큐에 추가한 동영상을 기반으로 권장 동영상을 표시하려 한다고 가정합니다.
 
-1. 에서 사용자 지정 프로필 속성을 선택합니다. **[!UICONTROL 권장 사항 키]** 드롭다운 목록(예: &quot;Last Show Added to Watchlist&quot;).
-1. 그런 다음 을 선택합니다. **[!UICONTROL 권장 사항 논리]** (예: &quot;People Who Viewed This, Viewed That&quot;).
+1. **[!UICONTROL Recommendation Key]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예: &quot;Last Show Added to Watchlist&quot;).
+1. 그런 다음 **[!UICONTROL Recommendation Logic]**&#x200B;을(를) 선택합니다(예: &quot;People Who Viewed This, Viewed That&quot;).
 
    ![새 기준 만들기 대화 상자](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
 사용자 지정 프로필 속성이 단일 엔티티 ID와 직접 일치하지 않는 경우 엔티티에 대한 일치가 어떻게 일치하는지 [!DNL Recommendations]에 설명해야 합니다. 예를 들어 방문자가 좋아하는 브랜드에서 상위 판매 항목을 표시한다고 가정합니다.
 
-1. 에서 사용자 지정 프로필 속성을 선택합니다. **[!UICONTROL 권장 사항 키]** 드롭다운 목록(예: &quot;Favorite Brand&quot;).
+1. **[!UICONTROL Recommendation Key]** 드롭다운 목록에서 사용자 지정 프로필 속성을 선택합니다(예: &quot;Favorite Brand&quot;).
 
-1. 그런 다음 를 선택합니다. **[!UICONTROL 권장 사항 논리]** 이 키와 함께 사용하려는 경우(예: &quot;Top Sellers&quot;)
+1. 그런 다음 이 키와 함께 사용할 **[!UICONTROL Recommendation Logic]**&#x200B;을(를) 선택합니다(예: &quot;Top Sellers&quot;).
 
-   [!UICONTROL 다음의 고유한 값으로 그룹화] 옵션이 표시됩니다.
+   [!UICONTROL Group By Unique Value Of] 옵션이 표시됩니다.
 
-1. 선택한 키와 일치하는 엔티티 속성을 선택합니다. 이 경우 &quot;Favorite Brand&quot;가 `entity.brand`.
+1. 선택한 키와 일치하는 엔티티 속성을 선택합니다. 이 경우 &quot;Favorite Brand&quot;는 `entity.brand`에 일치합니다.
 
-   [!DNL Recommendations] 이제에서 각 브랜드에 대한 &quot;Top Sellers&quot; 목록을 생성하고 방문자의 Favorite Brand 프로필 속성에 저장된 값을 기반으로 적절한 &quot;Top Sellers&quot; 목록을 표시합니다.
+   이제 [!DNL Recommendations]에서 각 브랜드에 대한 &quot;Top Sellers&quot; 목록을 생성하고 방문자의 Favorite Brand 프로필 특성에 저장된 값을 기반으로 적절한 &quot;Top Sellers&quot; 목록을 표시합니다.
 
    ![새 기준 만들기 대화 상자 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
@@ -385,12 +385,12 @@ ht-degree: 35%
 
 다음 알고리즘과 함께 사용할 수 있습니다.
 
-* [!UICONTROL 비슷한 속성을 갖는 항목]
-* [!UICONTROL 이 항목을 보고 다른 항목도 본 사람]
-* [!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]
-* [!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
 
-사용 [!UICONTROL 마지막으로 본 항목] 사이트의 권장 사항 키:
+다음에서 사이트의 [!UICONTROL Last Viewed Item] 권장 사항 키 사용:
 
 * 홈 페이지, 내 계정 페이지, 오프사이트 광고
 * 제품 페이지 또는 구매와 관련된 페이지에서는 사용하지 마십시오.
@@ -403,10 +403,10 @@ ht-degree: 35%
 
 이 권장 사항 키는 다음 알고리즘과 함께 사용할 수 있습니다.
 
-* [!UICONTROL 비슷한 속성을 갖는 항목]
-* [!UICONTROL 이 항목을 보고 다른 항목도 본 사람]
-* [!UICONTROL 이 항목을 보고 다른 항목을 구입한 사람]
-* [!UICONTROL 이 항목을 구입하고 다른 항목도 구입한 사람]
+* [!UICONTROL Items with similar attributes]
+* [!UICONTROL People Who Viewed This, Viewed That]
+* [!UICONTROL People Who Viewed This, Bought That]
+* [!UICONTROL People Who Bought This, Bought That]
 
 ### 현재 카테고리 {#current-category}
 
@@ -421,7 +421,7 @@ ht-degree: 35%
 * 최상위 판매자
 * 가장 많이 본 항목
 
-사용 [!UICONTROL 현재 범주] 사이트의 권장 사항 키:
+다음에서 사이트의 [!UICONTROL Current Category] 권장 사항 키 사용:
 
 * 단일 카테고리 페이지입니다.
 * null 검색 결과 페이지는 사용하지 마십시오.
@@ -439,7 +439,7 @@ ht-degree: 35%
 * 최상위 판매자
 * 가장 많이 본 항목
 
-사용 [!UICONTROL 현재 범주] 사이트의 권장 사항 키:
+다음에서 사이트의 [!UICONTROL Current Category] 권장 사항 키 사용:
 
 * 단일 카테고리 페이지입니다.
 * null 검색 결과 페이지는 사용하지 마십시오.

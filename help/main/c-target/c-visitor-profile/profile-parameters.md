@@ -5,9 +5,9 @@ title: 프로필 속성이란?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
-workflow-type: ht
-source-wordcount: '2465'
-ht-degree: 100%
+workflow-type: tm+mt
+source-wordcount: '2426'
+ht-degree: 93%
 
 ---
 
@@ -21,11 +21,11 @@ ht-degree: 100%
 
 프로필 속성을 설정하려면:
 
-1. **[!UICONTROL 대상자]** > **[!UICONTROL 프로필 스크립트]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Audiences]** > **[!UICONTROL Profile Scripts.]** 클릭
 
    ![프로필 스크립트 탭](/help/main/c-target/c-visitor-profile/assets/create-script.png)
 
-1. **[!UICONTROL 스크립트 만들기]**&#x200B;를 클릭합니다.
+1. **[!UICONTROL Create Script]** 아이콘을 클릭합니다.
 
    ![프로필 스크립트 만들기 대화 상자](/help/main/c-target/c-visitor-profile/assets/profile-script.png)
 
@@ -33,7 +33,7 @@ ht-degree: 100%
 
    | 매개변수 유형 | 설명 |
    |--- |--- |
-   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. *Target 개발자 안내서*&#x200B;의 [글로벌 Mbox에 매개변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을 참조하십시오.<P>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개 이상의 프로필 속성을 전달해야 하는 경우 [!UICONTROL 프로필 업데이트 API] 방법을 사용하십시오. 자세한 내용은 *Target 개발자 안내서*&#x200B;의 [프로필 업데이트](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}를 참조하십시오. |
+   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. *Target 개발자 안내서*&#x200B;의 [글로벌 Mbox에 매개변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을 참조하십시오.<P>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개가 넘는 프로필 특성을 전달해야 하는 경우 [!UICONTROL Profile Update API] 메서드를 사용하여 전달하십시오. 자세한 내용은 *Target 개발자 안내서*&#x200B;의 [프로필 업데이트](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}를 참조하십시오. |
    | 프로필 | JavaScript 코드 스니펫으로 바로 정의됩니다. 이들 스니펫은 소비자가 소비한 금액 합계와 같이 실행 중인 합계를 저장할 수 있으며 각 mbox 요청에 대해 실행됩니다. 아래의 *프로필 스크립트 속성*&#x200B;을 참조하십시오. |
 
 ## 프로필 스크립트 속성 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -46,13 +46,13 @@ ht-degree: 100%
 
 ## 프로필 스크립트 만들기 {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-프로필 스크립트는 [!DNL Target] 인터페이스의 [!UICONTROL 대상자] 탭에서 사용할 수 있습니다.
+프로필 스크립트는 [!DNL Target] 인터페이스의 [!UICONTROL Audiences] 탭에서 사용할 수 있습니다.
 
-프로필 스크립트를 추가하려면 **[!UICONTROL 프로필 스크립트]** 탭, **[!UICONTROL 스크립트 만들기]**&#x200B;를 클릭한 다음 스크립트를 작성합니다.
+프로필 스크립트를 추가하려면 **[!UICONTROL Profile Scripts]** 탭, **[!UICONTROL Create Script]**&#x200B;을(를) 클릭한 다음 스크립트를 작성하십시오.
 
 또는
 
-기존 프로필 스크립트를 복사하려면 [!UICONTROL 프로필 스크립트] 목록에서 원하는 스크립트에 대한 생략 아이콘을 클릭한 다음 **[!UICONTROL 복제]**&#x200B;를 클릭합니다.
+기존 프로필 스크립트를 복사하려면 [!UICONTROL Profile Scripts] 목록에서 원하는 스크립트에 대한 줄임표 아이콘을 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다.
 
 그러면 대상자를 편집하여 유사한 대상자를 만들 수 있습니다.
 
@@ -85,21 +85,21 @@ if (mbox.name == 'Track_Interest') {
 
 오퍼 정보 카드와 유사한 프로필 스크립트 정보 팝업 카드를 볼 수 있습니다. 이러한 프로필 스크립트 정보 카드를 사용하면 선택한 프로필 스크립트를 참조하는 활동 목록과 함께 다른 유용한 메타데이터를 볼 수 있습니다.
 
-예를 들어 다음 프로필 스크립트 정보 카드는 목록([!UICONTROL 대상자] > [!UICONTROL 프로필 스크립트])에서 원하는 프로필 스크립트에 대한 [!UICONTROL 정보] 아이콘을 클릭하여 사용할 수 있습니다.
+예를 들어 다음 프로필 스크립트 정보 카드는 목록에서 원하는 프로필 스크립트에 대한 [!UICONTROL Info] 아이콘을 클릭하여 액세스합니다([!UICONTROL Audiences] > [!UICONTROL Profile Scripts]).
 
-[!UICONTROL 스크립트 정보] 탭에는 이름, 설명 및 스크립트 코드가 포함됩니다.
+[!UICONTROL Script Info] 탭에는 이름, 설명 및 스크립트 코드가 포함됩니다.
 
 ![프로필 스크립트 정보 카드](assets/profile_script_info_card.png)
 
-선택한 프로필 스크립트를 참조하는 대상자 및 활동을 보려면 **[!UICONTROL 세부 정보 보기]**&#x200B;를 클릭하십시오.
+선택한 프로필 스크립트를 참조하는 대상자 및 활동을 보려면 **[!UICONTROL View full details]**&#x200B;을(를) 클릭하십시오.
 
 ![프로필 스크립트 정보 카드 > 스크립트 사용 탭](assets/profile_script_info_card_usage_tab.png)
 
 >[!NOTE]
 >
->[!UICONTROL 스크립트 사용] 탭에는 다음과 같은 경우 선택한 프로필 스크립트를 참조하는 활동이 표시되지 않습니다.
+>[!UICONTROL Script Usage] 탭에는 다음과 같은 경우 선택한 프로필 스크립트를 참조하는 활동이 표시되지 않습니다.
 >
-> * 활동이 [!UICONTROL 초안] 상태입니다.
+> * 활동이 [!UICONTROL Draft] 상태입니다.
 > * 활동에 사용된 콘텐츠 또는 오퍼가 스크립트 변수(활동 내의 인라인 오퍼 또는 오퍼 라이브러리 내의 오퍼)를 사용합니다.
 
 ## Target이 프로필 스크립트를 비활성화하는 특정 상황 {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
@@ -156,7 +156,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **프로필 스크립트를 응답 토큰으로 추가하여 프로필 스크립트 디버그:**
 
-  [!DNL Target]에서 **[!UICONTROL 관리]**&#x200B;를 클릭하고, **[!UICONTROL 응답 토큰]**&#x200B;을 클릭한 다음 디버그하려는 프로필 스크립트를 활성화합니다.
+  [!DNL Target]에서 **[!UICONTROL Administration]**&#x200B;을(를) 클릭하고 **[!UICONTROL Response Tokens]**&#x200B;을(를) 클릭한 다음 디버그하려는 프로필 스크립트를 사용하도록 설정합니다.
 
   [!DNL Target]이 있는 사이트의 페이지를 로드할 때마다 [!DNL Target]의 응답의 일부에는 아래와 같이 지정된 프로필 스크립트 값이 포함됩니다.
 
@@ -164,7 +164,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **mboxTrace 디버깅 도구를 사용하여 프로필 스크립트를 디버그합니다.**
 
-  이 방법을 사용하려면 [!UICONTROL 디버거 도구] 섹션에서 **[!UICONTROL Target]** > **[!UICONTROL 관리]** > **[!UICONTROL 구현]** > **[!UICONTROL 인증 토큰 생성]**&#x200B;을 클릭하여 생성할 수 있는 인증 토큰이 필요합니다.
+  이 메서드를 사용하려면 [!UICONTROL Debugger tools] 섹션에서 **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]**&#x200B;을(를) 클릭하여 생성할 수 있는 인증 토큰이 필요합니다.
 
   그런 다음 이들 두 가지 매개변수를 페이지 URL의 “?” 뒤에 추가하십시오. `mboxTrace=window&authorization=YOURTOKEN`
 
