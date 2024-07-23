@@ -22,7 +22,7 @@ ht-degree: 3%
 
 개발자 포털에는 다음 구현 유형에 대한 정보가 포함되어 있습니다.
 
-* **클라이언트측**: [!DNL Adobe Experience Platform Web SDK] 또는 [!DNL Target Web SDK](at.js)을 사용하여 구현하는 방법에 대한 정보입니다.
+* **클라이언트측**: [!DNL Adobe Experience Platform Web SDK] 또는 [!DNL Target Web SDK] (at.js)을 사용하여 구현하는 방법에 대한 정보입니다.
 * **서버측**: Node.JS, JAVA, .NET 및 Python SDK 사용에 대한 구현 정보입니다.
 * **하이브리드**: 클라이언트측과 서버측 구현의 조합을 사용하는 경우 구현에 대한 정보입니다.
 * **Recommendations**: [Target Premium](/help/main/c-intro/intro.md#premium) 제공 항목인 [!DNL Recommendations]을 구현하는 데 도움이 되는 정보입니다.
