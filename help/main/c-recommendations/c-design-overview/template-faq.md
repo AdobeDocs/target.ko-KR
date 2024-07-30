@@ -1,14 +1,14 @@
 ---
 keywords: 권장 사항;자주 묻는 질문;faq
-description: Adobe [!DNL Target] Recommendations 디자인에 대한 FAQ 목록과 그에 대한 답변을 검토하십시오.
-title: ' [!DNL Target] Recommendations의 디자인 질문에 대한 답변은 어디에서 할 수 있습니까?'
+description: ' [!DNL Target Recommendations] 디자인에 대한 FAQ 및 답변.'
+title: ' [!DNL Target Recommendations]에 대한 디자인 질문에 대한 답변은 어디에서 얻을 수 있습니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
 workflow-type: tm+mt
-source-wordcount: '470'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 58%
 
 ---
 
@@ -32,7 +32,7 @@ ht-degree: 62%
 
 ## 디자인에 카테고리가 표시되지 않는 이유는 무엇입니까? `$entity1.categoryId`을(를) 사용하고 있습니다. {#section_073309B8051049C7953D396A93EA0713}
 
-카테고리 ID는 디자인에 표시할 수 없습니다. 여러 카테고리가 저장될 수 있으므로 시스템에서는 어느 카테고리를 표시할지 모르게 됩니다.
+카테고리 ID는 디자인에 표시할 수 없습니다. 여러 카테고리를 저장할 수 있으므로 시스템에서는 표시할 카테고리를 알지 못합니다.
 
 ## 즉시 업데이트를 받으려면 디자인을 어떻게 변경해야 합니까? {#section_28EE35A5B10B47ECA4A332F0E5B2598F}
 
@@ -40,13 +40,13 @@ ht-degree: 62%
 
 ## 디자인에서 표시할 주요 정보를 캡처할 수 있습니까? 예: 주요 제품 카테고리를 표시하려는 경우 Velocity 디자인에서 해당 값을 어떻게 코딩할 수 있습니까? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
-`$key. *`값`*`매개 변수가 디자인에서 표시할 주요 제품 정보 대부분을 캡처합니다. 예: 주요 제품 썸네일을 표시하려면 `$key.thumbnailURL`을 사용합니다.
+`$key. *`값`*`매개 변수가 디자인에서 표시할 주요 제품 정보 대부분을 캡처합니다. 예를 들어 주요 제품 썸네일을 표시하려면 `$key.thumbnailURL`을(를) 사용합니다.
 
 ## 어느 버전의 Velocity를 사용합니까? {#section_28F00E15A4A54A768782A3F5BB0CDB21}
 
 추가 도구 또는 라이브러리가 추가되어 있는 버전 1.7. Velocity의 기본 기능을 사용할 수 있습니다.
 
-## 기존 개체 값을 빈 값으로 바꾸려면 어떻게 해야 합니까? 예를 들어 판촉 행사가 끝나면 항목의 entity.message를 지워야 합니다. {#section_B88F2C2925DC4508974B2F8B13F961CB}
+## 기존 개체 값을 빈 값으로 바꾸려면 어떻게 해야 합니까? 예를 들어 판촉 행사가 끝나면 항목의 `entity.message`을(를) 지워야 합니다. {#section_B88F2C2925DC4508974B2F8B13F961CB}
 
 JavaScript 줄바꿈 없는 공백으로 보내면 됩니다. 개발자가 값으로 `\u00A0`을 보내게 하십시오. 예: `entity.message=\u00A0` null 대신 아무런 값이 표시되지 않는 경우 해당 값이 기본값이 되는 것으로 간주할 수 있습니다.
 

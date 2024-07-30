@@ -1,14 +1,15 @@
 ---
 keywords: 권장 사항 디자인;디자인 만들기;디자인 복사
-description: 기본 디자인을 사용하거나 Adobe 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만들어  [!DNL Target] Recommendations 디자인을 만드는 방법을 알아봅니다.
+description: 기본 디자인을 사용하거나 페이지의 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만들어  [!DNL Target Recommendations] 디자인을 만드는 방법을 알아봅니다.
 title: Recommendations에서 디자인을 만들려면 어떻게 해야 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
-exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
+hide: true
+hidefromtoc: true
 source-git-commit: d33fa5b84ccffc20d8db638aafcc0601c060dbcb
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 20%
+source-wordcount: '972'
+ht-degree: 19%
 
 ---
 
@@ -33,7 +34,7 @@ ht-degree: 20%
 
 ![사용자 지정 디자인](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자인 라이브러리에서 활동 작성 프로세스 중에 디자인을 만들 수 있습니다. 다음 섹션에서는 라이브러리에서 디자인을 생성하는 것으로 가정하지만 단계는 유사합니다.
+[!UICONTROL Visual Experience Composer](VEC) 내에서 또는 활동 만들기 외부의 디자인 라이브러리에서 활동 만들기 프로세스 중에 디자인을 만들 수 있습니다. 다음 섹션에서는 라이브러리에서 디자인을 생성하는 것으로 가정하지만 단계는 유사합니다.
 
 ## 디자인 만들기
 
@@ -43,15 +44,12 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 1. **[!UICONTROL Recommendations]** > **[!UICONTROL Designs]**&#x200B;을(를) 클릭하여 [!UICONTROL Designs] 라이브러리를 표시합니다.
 
-   ![디자인 라이브러리](/help/main/c-recommendations/c-design-overview/assets/design-library.png)
 
 1. 만들려는 디자인에 대한 카드 위로 마우스를 가져간 다음 **[!UICONTROL Copy]** 아이콘을 클릭합니다.
 
-   ![Card_CopyDesign 이미지](assets/Card_CopyDesign.png)
+   ![Card_CopyDesign 이미지](/help/main/c-recommendations/c-design-overview/assets/card-copy-design.png)
 
    [!UICONTROL Create Design] 대화 상자가 표시됩니다.
-
-   ![createDesign 이미지](assets/createDesign.png)
 
 1. **[!UICONTROL Information]** 패널에서 디자인 카드에 표시할 **[!UICONTROL Content Name]** 및 선택적 미리 보기 이미지를 추가합니다.
 
@@ -59,7 +57,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 1. (조건부) 원하는 대로 디자인 **[!UICONTROL Code]**&#x200B;을(를) 편집합니다.
 
-   권장 디자인은 오픈 소스 [!DNL Velocity] 디자인 언어를 사용합니다. [!DNL Velocity]에 대한 정보는 [https://velocity.apache.org](https://velocity.apache.org) 및 [다음을 사용하여 디자인 사용자 지정 [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)에서 찾을 수 있습니다.
+   권장 디자인은 오픈 소스 Velocity 디자인 언어를 사용합니다. Velocity에 대한 정보는 [https://velocity.apache.org](https://velocity.apache.org) 및 [Velocity를 사용하여 디자인 사용자 지정](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)에서 찾을 수 있습니다.
 
    디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 허용하기 위해 `<div>` 태그로 줄바꿈됩니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. HTML 코드가 아닌 코드를 사용하려면 [!UICONTROL HTML Design] 토글을 &quot;끄기&quot; 위치로 밉니다.
 
@@ -91,17 +89,15 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 [!UICONTROL Design] 라이브러리에서 원하는 디자인 위로 마우스를 가져간 다음 해당 아이콘(편집, 복사 또는 삭제)을 클릭합니다.
 
-![디자인을 가리키기 아이콘](/help/main/c-recommendations/c-design-overview/assets/hover-icons-design.png)
-
 기존 디자인을 복사하여 수정할 수 있는 중복 디자인을 생성할 수 있습니다. 이 프로세스를 사용하면 적은 노력으로 유사한 디자인을 만들 수 있습니다.
 
-디자인은 전체 계정에서 사용할 수 있습니다. 디자인을 삭제하기 전에 다른 계정에서 사용을 고려하십시오. 삭제된 디자인을 복구할 수 없습니다.
+디자인은 전체 계정에서 사용할 수 있습니다. 디자인을 삭제하기 전에 계정 간 사용을 고려해야 합니다. 삭제된 디자인을 복구할 수 없습니다.
 
 ## JSON 예 {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-다음 예제에서는 양식 기반 편집기를 통해 활동을 구성할 때 JSON 응답을 반환하는 방법을 보여 줍니다.
+다음 예제에서는 [양식 기반 편집기](/help/main/c-experiences/form-experience-composer.md)를 통해 활동을 구성할 때 JSON 응답을 반환하는 방법을 보여 줍니다.
 
-1. 디자인 라이브러리 또는 양식 기반 워크플로에서 디자인을 만듭니다. [!UICONTROL Visual Experience Composer](VEC) 워크플로 내에서 디자인을 만들려고 하면 클릭 추적을 위해 `<div>`에 래핑된 HTML 디자인 이외의 다른 디자인을 만들 수 없습니다.
+1. [!UICONTROL Design library] 또는 양식 기반 워크플로 내에서 디자인을 만듭니다. [!UICONTROL Visual Experience Composer](VEC) 워크플로 내에서 디자인을 만들려고 하면 클릭 추적을 위해 `<div>`에 래핑된 HTML 디자인 이외의 다른 디자인을 만들 수 없습니다.
 
 1. &quot;HTML 디자인&quot; 선택 사항이 꺼져 있는지 확인합니다.
 
@@ -174,13 +170,13 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 ## 추가 JSON 개체 팁 및 요령 {#section_C305673C68944749969DB239E3221DC2}
 
-다음 구문으로 디자인을 설정하여 간단한 쉼표로 구분된 항목 목록만 다시 전송할 수도 있습니다.
+다음 구문을 사용하여 디자인을 설정하여 쉼표로 구분된 간단한 항목 목록을 다시 보낼 수도 있습니다.
 
 ```
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-또는 응답에서 추가 정보를 전송할 수도 있습니다. 다음 코드 파일은 연결된 슬롯(순서)이 있는 엔티티 ID보다 훨씬 더 많은 내용을 반환하는 더 복잡한 예입니다. 이 디자인 예는 반환된 항목과 연결된 활동 세부 사항, Target 프로필 세부 사항(해당하는 경우) 및 기타 `entity.attributes`도 반환합니다.
+또는 응답에서 추가 정보를 전송할 수도 있습니다. 다음 코드 파일은 연결된 슬롯(순서)이 있는 엔티티 ID보다 훨씬 더 많은 내용을 반환하는 더 복잡한 예입니다. 이 디자인 예는 반환된 항목과 연결된 활동 세부 사항, [!UICONTROL Target Profile] 세부 사항(해당하는 경우) 및 기타 `entity.attributes`도 반환합니다.
 
 ```javascript
     {   
