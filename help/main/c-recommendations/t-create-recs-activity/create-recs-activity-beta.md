@@ -1,24 +1,25 @@
 ---
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
-description: Adobe [!DNL Target] VEC(시각적 경험 작성기)를 사용하여  [!DNL Target] 사용 페이지에서 직접 Recommendations 활동을 만드는 방법에 대해 알아봅니다.
-title: Recommendations 활동을 만들려면 어떻게 합니까?
+description: VEC( [!DNL Target] [!UICONTROL Visual Experience Composer])를 사용하여  [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.
+title: ' [!DNL Recommendations] 활동을 만드는 방법'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
-exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
+hide: true
+hidefromtoc: true
 source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
 workflow-type: tm+mt
-source-wordcount: '1249'
-ht-degree: 55%
+source-wordcount: '1214'
+ht-degree: 51%
 
 ---
 
-# 권장 사항 활동 만들기
+# [!DNL Recommendations] 활동 만들기
 
-Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target 시각적 경험 작성기(VEC)를 사용하십시오.
+[!DNL Target] [!UICONTROL Visual Experience Composer](VEC)을(를) 사용하여 [!DNL Target]을(를) 사용할 수 있는 페이지에서 직접 [!DNL Recommendations] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
 
-1. **[!UICONTROL Recommendations]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**&#x200B;을(를) 클릭합니다.
 
-1. 필요한 경우 **[!UICONTROL Visual (Default)]**&#x200B;을(를) 선택합니다.
+1. 필요한 경우 **[!UICONTROL Visual]**&#x200B;을(를) 선택합니다.
 
    ![권장 사항 활동 만들기 대화 상자](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
@@ -26,23 +27,23 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    >[!NOTE]
    >
-   >Target은 VEC 및 양식 기반 경험 작성기 외에도 단일 페이지 애플리케이션 VEC와 모바일 앱용 VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/main/c-experiences/experiences.md)를 참조하십시오.
+   >VEC 및 [!UICONTROL Form-Based Experience Composer] 외에 [!DNL Target]에서 [!UICONTROL Single Page Application] VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/main/c-experiences/experiences.md)를 참조하십시오.
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
    >
-   >이전 그림에서 [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/main/c-intro/intro.md) 기능입니다. 이 선택 사항이 표시되지 않는 경우 조직에 Target Standard 라이센스가 있는 것입니다.
+   >이전 그림에서 [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/main/c-intro/intro.md) 기능입니다. 이 옵션이 표시되지 않는 경우 조직에 [!UICONTROL Target Standard] 라이선스가 있습니다.
 
 1. (조건부) [Target Premium 고객](/help/main/c-intro/intro.md#premium)인 경우 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
 
-1. 활동 URL을 지정한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 활동 URL을 지정한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
    >[!NOTE]
    >
    >[!DNL Target]은 URL 프로토콜([!DNL https]와 [!DNL http])을 구분하지 않습니다. 따라서 [!DNL `http://www.adobe.com`] 및 [!DNL `https://wwww.adobe.com`]이(가) 모두 일치합니다.
 
-   활동 URL은 권장 사항이 표시될 페이지입니다.
+   활동 URL은 권장 사항이 표시되는 페이지입니다.
 
-   [!UICONTROL Next]을(를) 클릭하면 VEC가 열리고 페이지가 표시됩니다. 현재 요소를 권장 사항으로 바꾸거나 권장 사항을 삽입할 수 있습니다.
+   [!UICONTROL Create]을(를) 클릭하면 VEC가 열리고 페이지가 표시됩니다. 현재 요소를 권장 사항으로 바꾸거나 권장 사항을 삽입할 수 있습니다.
 
 1. 페이지의 요소를 클릭한 다음, 해당 요소가 있는 위치에서 권장 사항을 사용할 수 있는 경우 **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]** 또는 **[!UICONTROL Insert Recommendations After]**&#x200B;을(를) 클릭합니다.
 
