@@ -1,20 +1,24 @@
 ---
 keywords: 문제 해결, 자주 묻는 질문, FAQ, FAQ, 권장 사항, 특수 문자, 속성 가중치, 콘텐츠 유사성
-description: Adobe  [!DNL Target]  Recommendations 활동에 대해 자주 묻는 질문과 대답 목록을 보십시오.
-title: ' [!DNL Target]  Recommendations에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
+description: ' [!DNL Target Recommendations] 활동에 대해 자주 묻는 질문과 대답 목록을 봅니다.'
+title: ' [!DNL Recommendations]에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '3448'
-ht-degree: 86%
+source-wordcount: '3485'
+ht-degree: 84%
 
 ---
 
 # 권장 사항 FAQ
 
 [!DNL Adobe Target] [!DNL Recommendations] 활동에 대한 FAQ 목록.
+
+## [!DNL Target] API를 사용하여 [!DNL Target] UI에서 만든 시각적 오퍼를 관리할 수 있습니까?
+
+아니오. [!DNL Target] UI에서 만들어진 시각적 오퍼가 있는 [!DNL Recommendations] 활동은 [!DNL Target] API를 사용하여 관리할 수 없습니다. 이러한 활동은 [!UICONTROL Activities] 목록에 표시되지만 GET/PUT을 사용하여 읽거나 업데이트할 수 없습니다.
 
 ## 숫자 값으로 사용자 지정 특성을 검색할 때 [!UICONTROL Catalog Search]에 올바른 결과가 표시되지 않는 이유는 무엇입니까?
 

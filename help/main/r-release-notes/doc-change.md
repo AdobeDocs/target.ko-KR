@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 69ce4977d766d34367c46cd103ede90dd96c88e4
+source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 17%
+source-wordcount: '338'
+ht-degree: 16%
 
 ---
 
@@ -18,6 +18,7 @@ ht-degree: 17%
 ## 업데이트
 
 |날짜|주제|변경 사항|
+|8월 1일|[Recommendations FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md)|다음 FAQ 추가: &quot;[!DNL Target] API를 사용하여 [!DNL Target] UI에서 만든 시각적 오퍼를 관리할 수 있습니까?&quot;|
 |7월 10일|[프록시 구성(Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank}|새 섹션 추가됨: 온디바이스 의사 결정|
 |6월 3일|[우선 순위](/help/main/c-activities/priority.md)|여러 [!UICONTROL Form-Based Experience Composer] 및 VEC 활동의 콘텐츠가 전달될 수 있음을 나타내는 등 전체 주제가 업데이트되었습니다. 이전에는 양식 기반 워크플로우에서 하나의 활동만 전달할 수 있었습니다. 더 이상 게재할 수 있는 양식 기반 활동 수에 제한이 없습니다.|
 |5월 17일|[[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)과(와) 관련된 문제 해결|[!UICONTROL Enhanced Experience Composer]을(를) 사용할 때 허용 목록에 추가하다할 수 있는 추가 IP 주소가 추가되었습니다.|
