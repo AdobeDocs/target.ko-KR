@@ -5,7 +5,7 @@ title: Recommendations 활동을 만들려면 어떻게 합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4
 workflow-type: tm+mt
 source-wordcount: '1249'
 ht-degree: 55%
@@ -16,7 +16,7 @@ ht-degree: 55%
 
 Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 만들고 Target 내에서 해당 페이지의 부분을 수정하려면 Target 시각적 경험 작성기(VEC)를 사용하십시오.
 
-1. **[!UICONTROL Recommendations]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**&#x200B;을(를) 클릭합니다.
 
 1. 필요한 경우 **[!UICONTROL Visual (Default)]**&#x200B;을(를) 선택합니다.
 
