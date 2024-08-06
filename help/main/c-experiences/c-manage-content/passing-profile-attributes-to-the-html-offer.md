@@ -1,13 +1,13 @@
 ---
 keywords: 동적 데이터;자산;데이터;오퍼;개인화된 오퍼;개인 오퍼;토큰 바꾸기
-description: ' [!DNL Adobe Target] 오퍼에 동적 데이터를 전달하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target]의 오퍼에 동적 데이터를 전달하는 방법을 알아봅니다.'
 title: 다이내믹 데이터를 오퍼에 전달하려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
-source-wordcount: '535'
-ht-degree: 63%
+source-wordcount: '536'
+ht-degree: 55%
 
 ---
 
@@ -69,7 +69,7 @@ mbox로 전달된 프로필 매개 변수의 경우 다음 구문을 사용합�
 
 `${user.testAttribute default="All Items!"}`
 
-`testAttribute`가 없거나 비어 있는 경우 &quot;&quot;모든 항목&quot;&quot;이 작성되었습니다. 빈 프로필 속성 값이 유효하고 기본값을 표시하는 대신 해당 값을 쓰려는 경우 다음을 사용할 수 있습니다.
+`testAttribute`이(가) 없거나 비어 있으면 &quot;모든 항목&quot;이 표시됩니다. 작성되었습니다. 빈 프로필 속성 값이 유효하고 기본값을 표시하는 대신 해당 값을 쓰려는 경우 다음을 사용할 수 있습니다.
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
