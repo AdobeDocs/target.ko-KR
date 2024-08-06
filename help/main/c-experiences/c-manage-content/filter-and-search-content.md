@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] 오퍼 라이브러리에서 코드 및 이미�
 title: 오퍼 라이브러리에서 콘텐츠를 검색하려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 8%
@@ -51,7 +51,7 @@ ht-degree: 8%
    * 만료 상태: 만료됨.
    * 평균 등급: 1~5.
    * 방향: 가로, 세로 또는 사각형.
-   * 스타일: 색상 또는 흑백
+   * 스타일: 컬러 또는 흑백.
    * 사용 점수: 최소에서 최대
    * 노출 점수: 최소에서 최대
    * 점수: 1부터 5까지를 클릭합니다.
