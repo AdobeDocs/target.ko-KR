@@ -6,22 +6,24 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 14eb82806c9642c69c204d32d0e51a71d6461b65
+source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
 workflow-type: tm+mt
-source-wordcount: '414'
-ht-degree: 76%
+source-wordcount: '447'
+ht-degree: 71%
 
 ---
 
 # [!DNL Target] [!UICONTROL Activities], [!UICONTROL Offers] 및 [!UICONTROL Recommendations] UI 새로 고침 Beta 프로그램
 
-이 문서의 링크를 사용하여 [!UICONTROL Activities], [!UICONTROL Offers] 및 [!UICONTROL Recommendations]에 대한 [!DNL Adobe Target] UI 새로 고침을 위한 Beta 프로그램의 일부로 업데이트된 설명서에 액세스합니다.
+[!UICONTROL Activities], [!UICONTROL Offers] 및 [!UICONTROL Recommendations]에 대한 [!DNL Adobe Target] UI 새로 고침을 위해 Beta 프로그램의 일부로 업데이트된 설명서에 액세스하려면 이 링크를 사용하십시오.
 
 >[!NOTE]
 >
->이 문서의 정보는 Beta 프로그램 중에 자주 업데이트됩니다.
+>[!DNL Adobe Target] 팀은 테스트 및 피드백 목적으로 일부 고객을 위해 새로운 기능을 사용하는 경우가 많습니다. 테스트 기간이 완료되면 향후 [!DNL Target] 릴리스의 모든 고객에 대해 이러한 기능이 활성화되어 릴리스 정보에 발표됩니다.
+>
+>이 문서의 정보는 예고 없이 Beta 프로그램 중에 자주 업데이트됩니다.
 
-+++ 활동(확장하려면 클릭)
++++활동(확장하려면 클릭)
 
 + [활동 개요](c-activities/activities.md){target=_blank}
 + [Target 활동 유형](c-activities/target-activities-guide.md){target=_blank}
@@ -105,7 +107,7 @@ ht-degree: 76%
 
 +++
 
-+++ 오퍼(확장하려면 클릭)
++++오퍼(확장하려면 클릭)
 
 + [오퍼 개요](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
