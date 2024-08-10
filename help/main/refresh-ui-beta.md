@@ -6,7 +6,7 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 46ec133920ada0154e143eed8eb5e020aec3a875
+source-git-commit: 878ad2a0cce193e5905824fe02d7380c5cff7136
 workflow-type: tm+mt
 source-wordcount: '447'
 ht-degree: 71%
@@ -23,7 +23,9 @@ ht-degree: 71%
 >
 >이 문서의 정보는 예고 없이 Beta 프로그램 중에 자주 업데이트됩니다.
 
-+++활동(확장하려면 클릭)
+## 활동
+
++++확장하려면 클릭
 
 + [활동 개요](c-activities/activities.md){target=_blank}
 + [Target 활동 유형](c-activities/target-activities-guide.md){target=_blank}
@@ -107,7 +109,9 @@ ht-degree: 71%
 
 +++
 
-+++오퍼(확장하려면 클릭)
+## 오퍼
+
++++확장하려면 클릭
 
 + [오퍼 개요](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
 + [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
