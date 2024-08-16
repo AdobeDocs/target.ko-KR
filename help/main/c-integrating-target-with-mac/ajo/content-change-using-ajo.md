@@ -6,16 +6,18 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: bbf56b2d041ea6537116d900278242a7a679dedd
+source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
 workflow-type: tm+mt
-source-wordcount: '500'
-ht-degree: 2%
+source-wordcount: '702'
+ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Journey Optimizer]에서 A/B 테스트를 통한 콘텐츠 변경
 
 이 사용 사례는 [!DNL Adobe Journey Optimizer]에서 효과적인 A/B 테스트 콘텐츠 변경 내용에 대한 비밀을 잠금 해제하는 데 도움이 됩니다.
+
+이 사용 사례는 [!DNL Adobe Target]에서 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을 사용하지만 [!DNL Journey Optimizer]을(를) 사용하는 A/B 테스트에서 익숙한 작업을 수행하는 방법을 보여 주기 위해 설계되었습니다.
 
 ## 시나리오
 
@@ -29,6 +31,10 @@ ht-degree: 2%
 
 ## 단계별 지침
 
+>[!NOTE]
+>
+>이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너에서 사용 가능한 옵션에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;의 [웹 콘텐츠 편집](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}을 참조하십시오.
+
 사용자의 이름을 사용하여 다양한 이미지를 테스트하고 메시지를 개인화하여 웹 페이지를 최적화하려면 다음 단계를 수행하십시오.
 
 1. [!DNL Adobe Journey Optimizer]에서 왼쪽 레일의 **캠페인**&#x200B;을 클릭하여 [!UICONTROL Campaigns] 페이지를 표시합니다.
@@ -41,21 +47,27 @@ ht-degree: 2%
 
    ![Adobe Journey Optimizer의 캠페인 세부 정보 페이지](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
-1. 캠페인을 설명하는 이름과 설명(선택 사항)을 입력합니다.
+1. **[!UICONTROL Properties]** 섹션에서 캠페인에 대한 설명 이름과 선택적 설명을 입력합니다.
 
-1. (조건부) **[!UICONTROL Select Audience]**&#x200B;을(를) 클릭하고 원하는 대상을 선택합니다.
+1. (조건부) **[!UICONTROL Audience]** 섹션에서 **[!UICONTROL Select Audience]**&#x200B;을(를) 클릭하고 원하는 대상을 선택합니다.
 
    이 사용 사례에서는 모든 방문자에 대해 캠페인을 활성화하도록 선택했습니다(기본값).
 
-1. **[!UICONTROL Action]** 드롭다운 목록에서 **[!UICONTROL Web]**&#x200B;을(를) 선택한 다음 새 웹 구성을 선택하거나 만듭니다.
+1. **[!UICONTROL Action]** 섹션의 **[!UICONTROL Action]** 드롭다운 목록에서 **[!UICONTROL Web]**&#x200B;을(를) 선택한 다음 새 웹 구성을 선택하거나 만듭니다.
 
    웹 구성 또는 채널 표면은 시스템 관리자가 정의한 구성입니다. 웹 구성에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다.
 
    자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [채널 표면 설정](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}을 참조하세요.
 
-1. [!DNL Journey Optimizer] 웹 디자이너에서 웹 사이트를 열려면 **[!UICONTROL Edit Content]**&#x200B;을(를) 클릭하십시오.
+1. **[!UICONTROL Action]** 섹션에서 **[!UICONTROL Edit Content]**&#x200B;을(를) 클릭하여 [!DNL Journey Optimizer] 웹 디자이너에서 웹 사이트를 엽니다.
+
+   A/B 테스트를 위해서는 두 개 이상의 실험이 필요합니다. 기존 홈 페이지를 첫 번째 실험으로 사용할 수 있습니다. 후속 단계에서는 두 번째 실험을 설정하는 방법을 설명합니다.
 
    ![LUMA 웹 사이트의 요가 랜딩 페이지](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
+
+1. 더 잘 작동하는 콘텐츠를 테스트하기 위한 실험을 만들려면 **[!UICONTROL Create Experiment]**&#x200B;을(를) 클릭합니다.
+
+   콘텐츠 실험을 통해 메시지 콘텐츠, 주제 또는 발신자를 다양하게 설정하여 여러 처리를 정의하고 대상자에 가장 적합한 조합을 결정할 수 있습니다. 자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}를 참조하십시오.
 
 1. 오른쪽 레일에서 **[!UICONTROL Edit Web Page]**&#x200B;을(를) 클릭합니다.
 
@@ -73,6 +85,8 @@ ht-degree: 2%
 
    ![Personalization 단추 추가](/help/main/c-integrating-target-with-mac/ajo/assets/add-personalization-button.png)
 
+   프로필 특성에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [개인화 편집기 시작하기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}를 참조하십시오.
+
 1. &quot;이름&quot; 프로필 특성을 검색하여 선택하고 원하는 대로 텍스트를 조정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![이름에 대한 프로필 특성 추가](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
@@ -84,6 +98,15 @@ ht-degree: 2%
    ![뒤로 화살표](/help/main/c-integrating-target-with-mac/ajo/assets/back-arrow.png)
 
 1. **[!UICONTROL Review to Activate]**&#x200B;을(를) 클릭하고 모든 항목이 예상대로 표시되는지 확인한 다음 **활성화**&#x200B;를 클릭합니다.
+
+## 보고서 보기
+
+보고서 단추를 클릭한 다음 원하는 보고 기간을 클릭합니다.
+
+* [!UICONTROL View all time report]
+* [!UICONTROL View last 24hrs report]
+
+자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [새 보고 인터페이스 시작](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}을 참조하세요.
 
 >[!MORELIKETHIS]
 >
