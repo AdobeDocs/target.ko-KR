@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 75c6760b57242222dc97a7bf61b6323f682b9da9
+source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
 workflow-type: tm+mt
-source-wordcount: '1356'
+source-wordcount: '1359'
 ht-degree: 83%
 
 ---
@@ -88,7 +88,7 @@ ht-degree: 83%
          + [상승도 및 신뢰도 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md)
          + [지표 정의 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md)
          + [분류 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
-         + [지표, 대상 및 보고서 공유 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
+         + [지표, 대상자 및 보고서 공유 - A4T FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
          + [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [A4T를 사용할 때와 사용하지 않을 때 Target과 Analytics 간에 예상되는 데이터 분산](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + Adobe Customer Journey Analytics {#cja}과(와) Target 통합
@@ -97,7 +97,7 @@ ht-degree: 83%
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
       + [통합 [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
       + Adobe Journey Optimizer 사용 사례 {#use-cases}
-         + [마스터링 최적화 - Adobe Journey Optimizer의 주요 사용 사례](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + [Adobe Journey Optimizer의 주요 최적화 사용 사례 - 웹 및 코드 기반 채널](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Adobe Journey Optimizer의 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
    + AEM(Adobe Experience Manager) {#aem}과(와) Target 통합
@@ -121,11 +121,11 @@ ht-degree: 83%
          + [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [대상 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
+         + [대상자 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Analytics 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [A/B 테스트의 여러 경험 대상](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/B 테스트의 여러 경험 대상자](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + 자동 할당 {#auto-allocate}
       + [자동 할당 개요](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
@@ -190,12 +190,12 @@ ht-degree: 83%
       + [활동 QA 북마클릿](c-activities/c-activity-qa/activity-qa-bookmark.md)
       + [활동 QA 및 서버측 전달 사용](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md)
 + 대상자 {#audiences}
-   + [대상 개요](c-target/target.md)
+   + [대상자 개요](c-target/target.md)
    + 대상자 만들기 {#create-audiences}
-      + [대상 만들기 개요](c-target/c-audiences/audiences.md)
-      + [Target에서 대상 작성](c-target/c-audiences/create-audience.md)
-      + 대상의 범주 {#categories-audiences}
-         + [대상의 범주 개요](c-target/c-audiences/c-target-rules/target-rules.md)
+      + [대상자 만들기 개요](c-target/c-audiences/audiences.md)
+      + [Target에서 대상자 작성](c-target/c-audiences/create-audience.md)
+      + 대상자의 범주 {#categories-audiences}
+         + [대상자의 범주 개요](c-target/c-audiences/c-target-rules/target-rules.md)
          + [브라우저](c-target/c-audiences/c-target-rules/browser.md)
          + [사용자 지정 매개 변수](c-target/c-audiences/c-target-rules/custom-parameters.md)
          + [지역](c-target/c-audiences/c-target-rules/geo.md)
@@ -207,11 +207,11 @@ ht-degree: 83%
          + [시간대](c-target/c-audiences/c-target-rules/time-frame.md)
          + [트래픽 소스](c-target/c-audiences/c-target-rules/traffic-sources.md)
          + [방문자 프로필](c-target/c-audiences/c-target-rules/visitor-profile.md)
-      + [프로필 속성 비교 대상 만들기](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
-   + [여러 대상 결합](c-target/combining-multiple-audiences.md)
-   + [활동 전용 대상 만들기](c-target/creating-activity-only-audience.md)
-   + [보고용 대상 필터](c-target/managing-audience-filters.md)
-   + [성공 지표에 보고 대상 적용](c-target/apply-reporting-audience-success-metric.md)
+      + [프로필 속성 비교 대상자 만들기](c-target/c-audiences/creating-a-profile-attribute-comparison-audience.md)
+   + [여러 대상자 결합](c-target/combining-multiple-audiences.md)
+   + [활동 전용 대상자 만들기](c-target/creating-activity-only-audience.md)
+   + [보고용 대상자 필터](c-target/managing-audience-filters.md)
+   + [성공 지표에 보고 대상자 적용](c-target/apply-reporting-audience-success-metric.md)
    + 방문자 프로필 {#visitor-profiles}
       + [방문자 프로필 개요](c-target/c-visitor-profile/visitor-profile.md)
       + [방문자 프로필 라이프타임](c-target/c-visitor-profile/visitor-profile-lifetime.md)
@@ -221,8 +221,8 @@ ht-degree: 83%
       + [고객 속성](c-target/c-visitor-profile/working-with-customer-attributes.md)
       + [mbox3rdPartyId에 대한 실시간 프로필 동기화](c-target/c-visitor-profile/3rd-party-id.md)
       + [프로필 및 변수 용어집](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
-   + Target 및 대상 FAQ {#faq-audiences}
-      + [Target 및 대상 FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+   + Target 및 대상자 FAQ {#faq-audiences}
+      + [Target 및 대상자 FAQ](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 + 경험 및 오퍼 {#experiences}
    + [경험 및 오퍼 개요](c-experiences/experiences.md)
    + VEC(시각적 경험 작성기) {#vec}
