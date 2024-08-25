@@ -2,7 +2,7 @@
 keywords: 권장 사항;설정;이름;목표;우선순위;지속 기간;보고 설정;기타 메타데이터
 description: Adobe Target에서 Recommendations 활동을 설명하고 제어하는 데 사용되는 설정을 구성하는 방법에 대해 알아봅니다.
 title: Recommendations 활동 설정을 구성하는 방법
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
@@ -45,7 +45,7 @@ ht-degree: 48%
 
 슬라이더를 조정하여 우선순위의 수준을 파악합니다.
 
-대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
+대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
 ## 지속 시간
 

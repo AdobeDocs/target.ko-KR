@@ -2,7 +2,7 @@
 keywords: 사용자 추가;프로젝트;사용자 그룹;속성;작업 공간;속성 관리;속성;at_property;역할;권한
 description: Adobe Target에 사용자를 추가하고, 작업 공간, 사용자 그룹 및 속성을 만들고, 구현을 업데이트하고, 역할 및 권한을 지정하는 방법을 알아봅니다.
 title: 엔터프라이즈 권한은 어떻게 구성합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935

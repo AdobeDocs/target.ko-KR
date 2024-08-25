@@ -3,7 +3,7 @@ keywords: ajo;adobe 여정 최적화 도구;adobe 여정 최적화 도구 target
 description: ' [!DNL Adobe Target Recommendations] 을(를)  [!DNL Adobe Journey Optimizer]과(와) 통합합니다.'
 title: ' [!DNL Adobe Journey Optimizer]을(를) 사용하는 고객 여정에서  [!DNL Target Recommendations] 을(를) 사용하려면 어떻게 합니까?'
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true

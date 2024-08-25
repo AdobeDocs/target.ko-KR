@@ -128,17 +128,17 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 ## 대상자 {#section_FA6314777ABC46D8B198D6F388051460}
 
-**활동에 고유한 대상 세그먼트를 활동에서 만들 수 있습니까? 이러한 대상은 재사용 요인이 없으므로 대상 라이브러리에서 만들고 싶지 않습니다.**
+**활동에 고유한 대상자 세그먼트를 활동에서 만들 수 있습니까? 이러한 대상자는 재사용 요인이 없으므로 대상자 라이브러리에서 만들고 싶지 않습니다.**
 
-활동에 대해 로컬인 대상을 정의하려면 [활동 전용 대상 기능](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) 을 사용하십시오.
+활동에 대해 로컬인 대상자를 정의하려면 [활동 전용 대상자 기능](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) 을 사용하십시오.
 
 **해당 위치를 기준으로 사용자를 타기팅하려면 어떻게 해야 합니까?**
 
-[지역 대상](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)을 사용해 보십시오. 이 기능의 정확성 수준에 대해 읽어 보십시오.
+[지역 대상자](/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670)를 사용해 보십시오. 이 기능의 정확성 수준에 대해 읽어 보십시오.
 
 **세션에서 페이지에 대한 일부 속성을 기준으로 사용자를 타기팅할 수 있습니까?**
 
-최상의 방법은 mbox와 [사용자 지정 대상](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B) 을 사용하여 적절한 경험을 전달하는 것입니다.
+최상의 방법은 mbox와 [사용자 지정 대상자](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md#concept_C4C6E00D7C5A4BE9B72D471DB2E3027B)를 사용하여 적절한 경험을 전달하는 것입니다.
 
 **여러 방문에 걸친 방문자 속성에 따라 경험을 제공할 수 있습니까?**
 
@@ -265,13 +265,13 @@ JSON 오퍼가 있는 [양식 기반 활동](/help/main/c-experiences/form-exper
 
 **여러 사용자 세그먼트에 대해 보고 기능을 분류할 수 있습니까?**
 
-안내가 있는 3파트로 구성된 활동 워크플로의 3단계에 포함된 목표 및 설정 페이지에서 사용할 수 있는 [보고 대상 기능에서](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) 이 작업을 수행할 수 있습니다.
+안내가 있는 3파트로 구성된 활동 워크플로의 3단계에 포함된 목표 및 설정 페이지에서 사용할 수 있는 [보고 대상자 기능에서](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) 이 작업을 수행할 수 있습니다.
 
 이러한 세그먼트 50개와 적용 지점(활동 시작 또는 특정 지표)을 추가하는 옵션을 통해 보다 강력한 분류 기능을 사용할 수 있습니다.
 
-Target은 사용자가 이러한 대상을 추가할 때 이와 관련된 데이터를 수집하므로 테스트를 실행하기 전에 세그먼트를 추가하지 않으면 문제가 됩니다.
+Target은 사용자가 이러한 대상자를 추가할 때 이와 관련된 데이터를 수집하므로 테스트를 실행하기 전에 세그먼트를 추가하지 않으면 문제가 됩니다.
 
-**활동을 실행하기 전에 대상을 정의할 수 없습니다. Target 활동 제한에서 보고 대상의 이러한 측면을 알게 되었습니다.**
+**활동을 실행하기 전에 대상자를 정의할 수 없습니다. Target 활동 제한에서 보고 대상자의 이러한 측면을 알게 되었습니다.**
 
 **이 프로세스를 좀 더 쉽게 수행하려면 어떻게 해야 합니까?**
 
@@ -287,7 +287,7 @@ Target은 사용자가 이러한 대상을 추가할 때 이와 관련된 데이
 
 **보고서를 어떻게 해석해야 합니까?**
 
-Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러 지표 선택, 표 및 그래프 보기, 평균 실행](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 과 같은 기능으로 보고서를 최대한 직관적인 방식으로 만들어 강력하지만 쉬운 보고서 분석을 가능하게 했습니다. 대상에 대한 추가적인 분석을 위해 [Analytics for Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 활동을 사용하는 경우 Analytics를 살펴볼 수 있습니다.
+Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러 지표 선택, 표 및 그래프 보기, 평균 실행](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 과 같은 기능으로 보고서를 최대한 직관적인 방식으로 만들어 강력하지만 쉬운 보고서 분석을 가능하게 했습니다. 대상자에 대한 추가적인 분석을 위해 [Analytics for Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 활동을 사용하는 경우 Analytics를 살펴볼 수 있습니다.
 
 ## 응답 토큰 {#section_C2A7118B4B62482A9D630C2212112A3D}
 

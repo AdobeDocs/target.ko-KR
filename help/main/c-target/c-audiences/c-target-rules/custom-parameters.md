@@ -17,7 +17,7 @@ ht-degree: 38%
 
 자세한 내용은 [글로벌 mbox에 매개 변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을 참조하세요.
 
-mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 때 `mboxParameter`에 대해 묻는 메시지가 `mboxName`에 더 이상 표시되지 않습니다. 이제 mbox 이름은 선택 사항입니다. 따라서 여러 mbox의 매개 변수를 사용하거나 가장자리에 아직 기록되지 않은 매개 변수를 참조할 수 있습니다.
+mbox 매개 변수를 기반으로 하여 사용자 지정 대상자를 작성할 때 `mboxParameter`에 대해 묻는 메시지가 `mboxName`에 더 이상 표시되지 않습니다. 이제 mbox 이름은 선택 사항입니다. 따라서 여러 mbox의 매개 변수를 사용하거나 가장자리에 아직 기록되지 않은 매개 변수를 참조할 수 있습니다.
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
 1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
@@ -54,7 +54,7 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
    * Start with
    * 다음으로 끝남
 
-   ![사용자 지정 매개 변수 대상](assets/custom.png)
+   ![사용자 지정 매개 변수 대상자](assets/custom.png)
 
 1. 새 라인에 각 값을 입력합니다.
 1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
@@ -68,7 +68,7 @@ mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 �
 
 ## 고려 사항 {#considerations}
 
-* 대상 및 활동은 특정 mbox에 대해 평가됩니다. 예를 들어 글로벌 mbox가 특정 매개 변수를 전달하지만 지역 mbox가 전달하지 않으면 해당 매개 변수를 타깃팅하는 활동/대상은 지역 mbox에서 사용할 수 없습니다.
+* 대상자 및 활동은 특정 mbox에 대해 평가됩니다. 예를 들어 글로벌 mbox가 특정 매개 변수를 전달하지만 지역 mbox가 전달하지 않으면 해당 매개 변수를 타깃팅하는 활동/대상은 지역 mbox에서 사용할 수 없습니다.
 * 타깃팅은 mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId 및 mboxVersion과 같은 내부 mbox 매개 변수에서 평가되지 않습니다.
 
 ## 교육 비디오: 대상자 ![튜토리얼 배지](/help/main/assets/tutorial.png) 만들기

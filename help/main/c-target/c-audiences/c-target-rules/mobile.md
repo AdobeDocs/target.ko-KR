@@ -79,7 +79,7 @@ iOS 12.2 이상 업데이트는 iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 
 
 모바일 규칙을 사용하여 macOS에서 Safari 버전 14.0.2 이상을 실행하는 장치를 타깃팅할 때, Apple의 사용자 에이전트 및 DeviceAtlas와 관련된 알려진 문제로 인해 [!DNL Target]에서 Mac 및 iPad 장치의 Safari를 잘못 식별합니다. 이 문제는 차후에 해결될 것입니다.
 
-## 교육 비디오: 대상 만들기
+## 교육 비디오: 대상자 만들기
 
 다음 비디오에는 대상 카테고리 사용에 대한 정보가 포함되어 있습니다.
 

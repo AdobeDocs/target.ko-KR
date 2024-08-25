@@ -2,7 +2,7 @@
 keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;배달 API;다운로드 전용 템플릿;이메일 템플릿;일괄처리;작성 시간 이메일
 description: ' [!DNL Target Recommendations], including using the [!DNL Target]  배달 API, Rawbox 템플릿 및 다운로드 전용 템플릿을 포함하여 이메일을 Adobe Target Recommendations과 통합하는 방법에 대해 알아보십시오.'
 title: Recommendations를 이메일과 통합하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf

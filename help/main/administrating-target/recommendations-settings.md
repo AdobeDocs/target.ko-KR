@@ -2,7 +2,7 @@
 keywords: 권장 사항;권장 사항 구현;클라이언트 코드;인증 토큰;업계 카테고리;호환되지 않는 모드 필터링;기본 호스트 그룹;썸네일 기반;인증 토큰 생성;인증 토큰;
 description: ' [!DNL Adobe Target Recommendations]에 대한 설정을 구성하는 방법을 알아봅니다.'
 title: Recommendations에 대한 설정을 구성하는 방법
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Administration & Configuration
 role: Admin
 hide: true

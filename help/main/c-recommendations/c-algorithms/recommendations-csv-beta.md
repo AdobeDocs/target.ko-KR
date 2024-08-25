@@ -2,11 +2,12 @@
 keywords: 사용자 지정 기준 만들기;알고리즘;기준;권장 사항 기준;csv;ftp;csv 업로드
 description: Adobe [!DNL Target] Recommendations에서 CSV 파일을 업로드하여 권장 사항을 사용자 지정하는 방법을 알아봅니다.
 title: ' [!DNL Recommendations]에서 사용자 지정 기준을 업로드하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77bbdd4438aa17f2e8d96e00bd3d37806a474585
+exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '594'
 ht-degree: 32%

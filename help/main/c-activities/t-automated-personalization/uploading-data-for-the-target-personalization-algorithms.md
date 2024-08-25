@@ -3,7 +3,7 @@ keywords: Automated Personalization;ap;데이터 업로드;오프라인 데이�
 description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target] 활동에서 개인화 모델을 만들 때 오프라인 데이터를 업로드하는 방법을 알아봅니다.'
 title: Personalization 알고리즘을 위해 데이터를 업로드하려면 어떻게 해야 합니까?
 feature: Automated Personalization, Auto-Target
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c
 workflow-type: tm+mt

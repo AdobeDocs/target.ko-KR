@@ -1,5 +1,5 @@
 ---
-keywords: 대상;대상 규칙;대상 만들기;대상 작성;대상 타깃팅;보고 대상;보고서 대상;세그먼트;사용자 지정 프로필 매개 변수;대상 정의;대상 목록
+keywords: 대상자;대상자 규칙;대상자 만들기;대상자 작성;대상자 타기팅;보고 대상자;보고서 대상자;세그먼트;사용자 지정 프로필 매개 변수;대상자 정의;대상자 목록
 description: ' [!DNL Adobe Target]에서 대상을 사용하는 방법을 알아봅니다.'
 title: 대상 목록은 어떻게 사용합니까?
 feature: Audiences
@@ -28,7 +28,7 @@ ht-degree: 22%
 * **타깃팅 대상:** 다양한 유형의 방문자에게 다양한 콘텐츠를 전달하는 데 사용됩니다.
 * **보고 대상:** 테스트 결과를 분석할 수 있도록 다양한 유형의 방문자가 동일한 콘텐츠에 어떻게 반응하는지를 판별하는 데 사용됩니다.
 
-  [!DNL Target]에서는 [!DNL Target]을 보고 소스로 사용하는 경우에만 보고 대상을 구성할 수 있습니다. [Adobe Analytics을 보고 소스로 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)하는 경우 [!DNL Analytics] 내에서 보고 대상을 구성해야 합니다.
+  [!DNL Target]에서는 [!DNL Target]을 보고 소스로 사용하는 경우에만 보고 대상자를 구성할 수 있습니다. [Adobe Analytics을 보고 소스로 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)하는 경우 [!DNL Analytics] 내에서 보고 대상을 구성해야 합니다.
 
 ## [!UICONTROL Audiences] 목록 사용 {#use-list}
 
@@ -66,7 +66,7 @@ ht-degree: 22%
 
 [!UICONTROL Search audiences] 상자를 사용하여 [!UICONTROL Audiences] 목록을 검색합니다. 대상 이름의 일부를 검색하거나 특정 문자열을 따옴표로 묶을 수 있습니다.
 
-대상 이름이나 마지막으로 수정한 날짜별로 [!UICONTROL Audiences] 목록을 정렬할 수 있습니다. 이름이나 날짜별로 정렬하려면 열 헤더를 클릭한 다음, 대상을 오름차순이나 내림차순으로 표시하도록 선택하십시오.
+대상 이름이나 마지막으로 수정한 날짜별로 [!UICONTROL Audiences] 목록을 정렬할 수 있습니다. 이름이나 날짜별로 정렬하려면 열 헤더를 클릭한 다음, 대상자를 오름차순이나 내림차순으로 표시하도록 선택하십시오.
 
 ## 대상 정의 보기 {#section_11B9C4A777E14D36BA1E925021945780}
 
@@ -74,11 +74,11 @@ ht-degree: 22%
 
 예를 들어 원하는 대상의 [!UICONTROL View Details] 아이콘을 클릭하여 다음 대상 정의 카드에 액세스합니다.
 
-![활동 > 대상 정의](assets/audience_definition_list.png)
+![활동 > 대상자 정의](assets/audience_definition_list.png)
 
 다음 대상 정의 카드는 활동의 [!UICONTROL Overview] 페이지에서 [!UICONTROL View Details] 아이콘을 클릭하여 액세스합니다.
 
-![활동 > 대상 정의](assets/view-details-activity-overview.png)
+![활동 > 대상자 정의](assets/view-details-activity-overview.png)
 
 대상 정의 카드는 대상의 유형, 소스 및 속성을 보여 줍니다. 해당되는 경우 해당 대상자를 참조하는 다른 활동을 보려면 **[!UICONTROL View full details]**&#x200B;을(를) 클릭하십시오. 활동의 [!UICONTROL Overview] 페이지에서 대상 정의 카드를 보는 경우 **[!UICONTROL Audience Usage]**&#x200B;을(를) 클릭합니다.
 
@@ -118,7 +118,7 @@ Keep the following points in mind as you work with imported audiences:
 * 용어 &quot;대상&quot; 설명
 * 최적화에 대상을 사용하는 두 가지 방법 설명
 * 대상자 목록에서 대상자 찾기
-* 활동을 대상에 타기팅
+* 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)

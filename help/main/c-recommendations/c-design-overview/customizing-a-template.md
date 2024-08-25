@@ -2,7 +2,7 @@
 keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
 description: 공개 소스 [!DNL Velocity] 디자인 언어를 사용하여  [!DNL Target] Recommendations에서 권장 사항 디자인을 사용자 지정하는 방법을 알아봅니다.
 title: Velocity를 사용하여 디자인을 사용자 지정하는 방법
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76

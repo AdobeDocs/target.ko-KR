@@ -2,7 +2,7 @@
 keywords: 자동 타겟;타기팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결;트래픽
 description: '[!UICONTROL Auto-Target] 활동에 대한 문제 해결 주제 및 FAQ를 살펴봅니다.'
 title: '[!UICONTROL Auto-Target] 활동 문제를 해결하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: 3e8c2d77f300bf0e2ca83a53d30e7b9eee48894e

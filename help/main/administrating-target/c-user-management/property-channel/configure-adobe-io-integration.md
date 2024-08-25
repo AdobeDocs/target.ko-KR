@@ -2,7 +2,7 @@
 keywords: 통합;역할;사용자 권한;Admin Console
 description: Adobe Target에서 원하는 역할을 가진 모든 작업 공간에 기존 Adobe I/O 통합 액세스 권한을 부여하는 방법을 알아봅니다.
 title: 작업 공간에 Adobe I/O 액세스 권한을 부여하고 역할을 할당하는 방법은 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
@@ -35,7 +35,7 @@ ht-degree: 59%
 * 팀이 API를 탐색하고 그에 따라 역할을 선택할 준비가 될 때마다 작업 영역을 보유한 각 팀이 자체 통합을 할 수 있도록 허용합니다.
 * 위의 시나리오 중 몇 가지를 혼합하여 사용할 수 있습니다.
 
-**필요한 조치**: 현재 모든 작업 영역의 리소스(활동, 대상, 제안 및 보고)에서 CRUD 운영을 위해 API를 활용하는 고객은 사용 사례에 따라 원하는 역할을 가진 모든 작업 영역에 기존 Adobe I/O 통합 액세스 권한을 부여해야 합니다. [!DNL Adobe Admin Console]에서 각 [!DNL Target] [!UICONTROL Product Profile]을(를) 선택하고 [!UICONTROL Integration] 탭에 통합을 추가하면 됩니다. 9월 릴리스 이전에는 [!UICONTROL Product Role] 드롭다운 목록에서 선택한 사항과 관계없이, [!UICONTROL Approver] 액세스를 사용하여 모든 통합이 작동했습니다. 이제 원하는 역할을 선택할 수 있습니다.
+**필요한 조치**: 현재 모든 작업 영역의 리소스(활동, 대상자, 제안 및 보고)에서 CRUD 운영을 위해 API를 활용하는 고객은 사용 사례에 따라 원하는 역할을 가진 모든 작업 영역에 기존 Adobe I/O 통합 액세스 권한을 부여해야 합니다. [!DNL Adobe Admin Console]에서 각 [!DNL Target] [!UICONTROL Product Profile]을(를) 선택하고 [!UICONTROL Integration] 탭에 통합을 추가하면 됩니다. 9월 릴리스 이전에는 [!UICONTROL Product Role] 드롭다운 목록에서 선택한 사항과 관계없이, [!UICONTROL Approver] 액세스를 사용하여 모든 통합이 작동했습니다. 이제 원하는 역할을 선택할 수 있습니다.
 
 >[!NOTE]
 >

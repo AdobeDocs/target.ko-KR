@@ -2,7 +2,7 @@
 keywords: 컬렉션;타깃팅
 description: ' [!DNL Target Recommendations]에서 제품 컬렉션 또는 항목을 사용하는 방법을 알아봅니다.'
 title: Recommendations 활동에서 컬렉션을 사용하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: c8bd2bb45ee8ef1a849fd9091554caec77effba0

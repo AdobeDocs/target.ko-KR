@@ -1,5 +1,5 @@
 ---
-keywords: 타깃팅;대상;보고;성공 지표
+keywords: 타기팅;대상자;보고;성공 지표
 description: ' [!DNL Adobe Target] 에서 사용자를 보고 대상이 될 수 있는 성공 지표를 선택하는 방법을 알아봅니다.'
 title: 성공 지표에 보고 대상을 적용할 수 있습니까?
 feature: Success Metrics
@@ -11,7 +11,7 @@ ht-degree: 36%
 
 ---
 
-# 성공 지표에 보고 대상 적용
+# 성공 지표에 보고 대상자 적용
 
 [!DNL Adobe Target]에서 사용자를 보고 대상이 될 수 있도록 하는 성공 지표를 선택하십시오.
 

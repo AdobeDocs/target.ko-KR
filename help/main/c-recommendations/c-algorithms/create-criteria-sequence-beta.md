@@ -2,11 +2,12 @@
 keywords: 기준 시퀀스;여러 기준;알고리즘;기준;권장 사항 기준;시퀀스;반환되는 항목 수 제한;슬롯 수준 제어;슬롯
 description: 최대 5개의 기준 시퀀스를 설정하여 Recommendations 활동에 표시되는 항목을 보다 세밀하게 제어하는 방법에 대해 알아봅니다.
 title: Recommendations에서 기준 시퀀스를 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8b0e0414603761b1c67b13d74ffa96d745c99e3
+exl-id: 9c521c61-7141-4fbc-81b7-a5b62dea10b6
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '751'
 ht-degree: 18%

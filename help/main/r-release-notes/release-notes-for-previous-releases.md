@@ -383,7 +383,7 @@ ht-degree: 85%
 
 | 기능 | 설명 |
 | --- | --- |
-| IPv6 지원을 통해 대상 평가 정확도 향상 및 최종 사용자 지연 시간 감소(TNT-43364, TNT-44692) | 방문자의 지리적 위치는 이제 IPv4 주소만 사용하는 것이 아니라 IPv6 주소로 결정됩니다. 배달 API는 IPv6 입력 매개변수도 지원합니다. 필터링 및 허용 목록은 IPv4 및 IPv6 주소를 모두 지원합니다. 이 릴리스의 IPv6 지원은 방문자가 보다 정확하게 대상에 포함됨을 의미합니다(더 정확하게 활동 자격을 부여하거나 필터링 기준에 포함됨). 또한 IPv6 클라이언트가 직접 라우팅되므로 IPv6-IPv4 게이트웨이의 오버헤드가 발생하지 않으므로 데이터 지연 시간이 향상됩니다. |
+| IPv6 지원을 통해 대상자 평가 정확도 향상 및 최종 사용자 지연 시간 감소(TNT-43364, TNT-44692) | 방문자의 지리적 위치는 이제 IPv4 주소만 사용하는 것이 아니라 IPv6 주소로 결정됩니다. 배달 API는 IPv6 입력 매개변수도 지원합니다. 필터링 및 허용 목록은 IPv4 및 IPv6 주소를 모두 지원합니다. 이 릴리스의 IPv6 지원은 방문자가 보다 정확하게 대상자에 포함됨을 의미합니다(더 정확하게 활동 자격을 부여하거나 필터링 기준에 포함됨). 또한 IPv6 클라이언트가 직접 라우팅되므로 IPv6-IPv4 게이트웨이의 오버헤드가 발생하지 않으므로 데이터 지연 시간이 향상됩니다. |
 | A4T 클라이언트측 페이로드 처리 문제 해결(TNT-44926) | A4T 서버측 통합을 통해 Adobe Target이 봇에서 전송된 요청을 식별하는 경우 페이로드를 Analytics로 전달하지 않으며 [!DNL Target] 로그에 mod_stats 이벤트가 기록되지 않습니다. 이 릴리스에서는 A4T 페이로드에 대한 비헤이비어가 A4T 서버측과 동일하도록 A4T 클라이언트측 로깅이 향상되었습니다. 봇으로 식별된 방문자는 [!DNL Target] 카운트/보고 대상에서 제외됩니다. (해당 문제는 클라이언트측 페이로드 처리를 사용하는 구현으로 제한되었으며 서버측에는 영향이 없었습니다. 이 릴리스에서는 서버측과 클라이언트측 모두 페이로드 처리에 대해 비헤이비어가 일관됩니다.) |
 
 ### [!DNL Target Standard/Premium] 22.6.2 (2022년 6월 30일)
@@ -396,8 +396,8 @@ ht-degree: 85%
 | *Adobe Target 개발자 안내서* | 다음 *Adobe Target 개발자 안내서* 모두 통합 [!DNL Target] 개발자 콘텐츠를 하나의 편리한 안내서에 추가했습니다. 안내서에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다.<br>자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}를 참조하세요. |
 
 * [!UICONTROL Editor] 역할이 있는 사용자는 더 이상 라이브 활동에서 대상을 편집할 수 없습니다. (TGT-43582)
-* 고객이 대상 이름의 첫 문자로 느낌표( ! )를 사용하여 대상을 저장하려고 하면 경고 메시지가 표시됩니다(예: !London). (TGT-43643)
-* 일부 고객의 대상 정의 세부 정보 카드에 종료된 활동이 아직 활성 상태로 나타나는 문제를 해결했습니다. (TGT-43527)
+* 고객이 대상자 이름의 첫 문자로 느낌표( ! )를 사용하여 대상자를 저장하려고 하면 경고 메시지가 표시됩니다(예: !London). (TGT-43643)
+* 일부 고객의 대상자 정의 세부 정보 카드에 종료된 활동이 아직 활성 상태로 나타나는 문제를 해결했습니다. (TGT-43527)
 
 ### [!DNL Target Standard/Premium] 22.6.1 (순차적 공개: 2022년 6월 7~9일)
 
@@ -410,7 +410,7 @@ ht-degree: 85%
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
 * 대상이 과거에 저장된 이전 데이터베이스와 백엔드에서 직접 정보를 검색하는 새 아키텍처 사이의 불일치 상태를 방지하기 위해 새 [!UICONTROL Audiences] 페이지에 대한 개선 사항이 제공되었습니다. (TGT-43552)
-* 대상 UI가 “빈” 컨테이너를 생성하여 일부 고객이 통합 대상을 저장하지 못하는 문제가 해결되었습니다. (TGT-43588)
+* 타깃 UI가 “빈” 컨테이너를 생성하여 일부 고객이 통합 대상자를 저장하지 못하는 문제가 해결되었습니다. (TGT-43588)
 
 ### Target 플랫폼 릴리스 (2022년 5월 25일)
 
@@ -438,12 +438,12 @@ ht-degree: 85%
 * 일부 고객이 AP 활동에 특정 제안을 추가(또는 편집)하지 못하도록 하는 문제가 해결되었습니다. (TGT-43503)
 * 다음 오류 메시지를 표시하는 [!DNL Target] UI 문제가 해결되었습니다. “전역 mbox가 동기화되지 않을 수 있습니다. 재저장을 해 보십시오.” 이 문제는 UI 문제였으며 고객의 구현에 영향을 미치지 않았습니다. (TGT-43475)
 * 새 [!UICONTROL Audiences] UI가 배포되기 전에 세분화 및 대상이 만들어진 경우 한 고객이 해당 활동에 대한 경험 수준 세분화 및 대상을 편집하지 못하도록 하는 문제가 해결되었습니다. (TGT-43433)
-* 고객이 활동에 대한 보고 대상을 편집하는 동안 중복 [!DNL Adobe Audience Manager] (AAM) 대상을 선택할 수 있는 문제가 해결되었습니다. (TGT-43430)
-* 고객이 다른 작업 영역에서 중복 대상을 만들 수 없는 문제를 수정했습니다. (TGT-43423)
+* 고객이 활동에 대한 보고 대상자를 편집하는 동안 중복 [!DNL Adobe Audience Manager] (AAM) 대상자를 선택할 수 있는 문제가 해결되었습니다. (TGT-43430)
+* 고객이 다른 작업 영역에서 중복 대상자를 만들 수 없는 문제를 수정했습니다. (TGT-43423)
 * 고객이 [!UICONTROL Form-Based Experience Composer]에서 만든 활동에서 임시 오퍼가 있는 위치를 삭제할 수 없는 문제를 해결했습니다. (TGT-43315)
 * 고객이 이미지 오퍼를 클릭하고 UI를 새로 고친 후 코드 오퍼에 액세스하지 못하는 문제를 수정했습니다. (TGT-43566)
 * 스크립트를 편집하고 활성화하고 비활성화한 후 프로필 스크립트를 편집하면 편집되지 않은 원래 스크립트로 되돌아가는 문제가 해결되었습니다. 프로필 스크립트는 이제 편집된 상태로 유지됩니다. (TGT-43249)
-* 대상을 다른 작업 영역으로 이동하려고 할 때 다음 오류가 발생하는 문제가 수정되었습니다. “요청을 완료할 수 없습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.” (TGT-43212)
+* 대상자를 다른 작업 영역으로 이동하려고 할 때 다음 오류가 발생하는 문제가 수정되었습니다. “요청을 완료할 수 없습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.” (TGT-43212)
 * SPA(단일 페이지 앱) 페이지에 대한 사용자 지정 코드 수정을 복제할 때 오류가 발생하는 문제가 해결되었습니다. (TGT-43137)
 * 경험을 복제한 다음 프로모션을 편집하면 원본 프로모션이 영향을 받던 문제가 해결되었습니다. (TGT-41775)
 
@@ -497,7 +497,7 @@ ht-degree: 85%
 | 기능 | 세부 사항 |
 | --- | --- |
 | [!DNL Target]의 [!DNL Adobe Experience Platform] 대상자 | 이제 [!DNL Target]에서 [!DNL Adobe Experience Platform] 대상자를 소비하고 사용할 수 있습니다. [!DNL Target] 팀, [!DNL Experience Platform] [!DNL Destinations] 팀 및 [!DNL Unified Profile Service] 팀이 &quot;Same Page/Next Page Personalization&quot; 사용 사례의 일반 가용성을 기쁘게 발표합니다.<br>[!DNL Adobe Experience Platform]에서 생성된 대상자를 사용하면 더 풍부한 고객 데이터를 제공하여 보다 효과적인 개인화를 실현할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 기반으로 구축된 [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=ko-KR){target=_blank}(RTCP)은 기업이 여러 엔터프라이즈 소스로부터의 알려진 데이터와 익명 데이터를 통합하여 모든 채널 및 장치에서 실시간으로 개인화된 고객 경험을 제공하는 데 사용할 수 있는 고객 프로필을 만들 수 있도록 지원합니다.<br>자세한 내용은 *대상자 만들기*&#x200B;에서 [Adobe Experience Platform의 대상자 사용](/help/main/c-target/c-audiences/audiences.md#aep)을 참조하십시오.<br>Adobe 블로그를 읽고 비디오를 시청하십시오. [[!DNL Adobe] 다음 비디오와 함께 Same Page Enhanced Personalization 발표 [!DNL Adobe Target] 및 [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}. |
-| [!UICONTROL Audiences] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL Audiences] 및 [!UICONTROL Profile Scripts] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상을 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상 빌더 디자인](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 &quot;대상 Source&quot; 필터</li><li>세션 영구 검색 및 필터 옵션</li><li>[!DNL Target Premium] 고객을 위해 작업 영역 간에 대상자를 이동할 수 있습니다.</li></ul>자세한 내용은 [대상자](/help/main/c-target/target.md)를 참조하십시오.<br>**참고**: 이 기능은 향후 8주 이내에 다른 지역의 고객에게도 제공될 예정입니다. |
+| [!UICONTROL Audiences] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL Audiences] 및 [!UICONTROL Profile Scripts] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상자를 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상자 빌더 디자인](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 &quot;대상 Source&quot; 필터</li><li>세션 영구 검색 및 필터 옵션</li><li>[!DNL Target Premium] 고객을 위해 작업 영역 간에 대상자를 이동할 수 있습니다.</li></ul>자세한 내용은 [대상자](/help/main/c-target/target.md)를 참조하십시오.<br>**참고**: 이 기능은 향후 8주 이내에 다른 지역의 고객에게도 제공될 예정입니다. |
 | [!UICONTROL Profile Scripts] UI 새로 고침 | [!UICONTROL Profile Scripts] 라이브러리도 업데이트되었으며, 새로 고침된 인터페이스와 몇 가지 생산성 업데이트가 포함되어 있습니다.<ul><li>여러 프로필 스크립트를 동시 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트용 새로운 편집기 코드</li><li>코드 편집기 내 구문 강조 표시 및 오류 검사</li><li>키보드 단축키를 통한 자동 완성 토큰(mbox 또는 프로필) 매개 변수</li></ul>자세한 내용은 [방문자 프로필](/help/main/c-target/c-visitor-profile/visitor-profile.md)을 참조하십시오.<br>**참고**: 이 기능은 향후 8주 이내에 다른 지역의 고객에게도 제공될 예정입니다. |
 
 ### [!DNL Target Standard/Premium] 22.1.1 (2022년 1월 12일)
@@ -515,9 +515,9 @@ ht-degree: 85%
 이번 릴리스에는 다음과 같은 변경 및 개선 사항이 포함되어 있습니다.
 
 * 활동을 편집할 때 조합된 대상에 대해 [!UICONTROL Include] 및 [!UICONTROL Exclude] 옵션이 비활성화되도록 하는 문제가 해결되었습니다. (TGT-43422)
-* 활동 편집 시 일부 고객이 사용 가능한 대상 목록을 볼 수 없도록 하는 문제가 해결되었습니다. (TGT-43404)
+* 활동 편집 시 일부 고객이 사용 가능한 대상자 목록을 볼 수 없도록 하는 문제가 해결되었습니다. (TGT-43404)
 * 일부 고객이 [!UICONTROL Administration] > [!UICONTROL Reporting]의 &quot;[!UICONTROL IPs to exclude from [!DNL Target] reporting data]&quot; 목록에서 IP 주소를 삭제하지 못하는 문제를 해결했습니다. (TGT-43384)
-* 변수가 “다음보다 큼“인지, “다음보다 크거나 같음“인지, “다음보다 작음” 인지, 또는 “다음보다 작거나 같음”인지 확인하는 대상 기준에 음수를 사용할 수 없도록 하는 문제가 해결되었습니다. (TGT-43367)
+* 변수가 “다음보다 큼“인지, “다음보다 크거나 같음“인지, “다음보다 작음” 인지, 또는 “다음보다 작거나 같음”인지 확인하는 대상자 기준에 음수를 사용할 수 없도록 하는 문제가 해결되었습니다. (TGT-43367)
 * 조합된 대상 생성 시 고객이 [!UICONTROL Audience Details] 카드를 볼 수 없도록 하는 문제가 해결되었습니다. (TGT-43303)
 
 ### at.js 버전 2.8.0 (2022년 1월 7일)
@@ -562,17 +562,17 @@ ht-degree: 85%
 
 [!DNL Adobe Experience Platform Web SDK]에 [!DNL Target] [!UICONTROL Audiences]을(를) 사용할 때 다음과 같은 기능이 추가되었습니다.
 
-* [!DNL Target] UI의 다양한 위치에 경고 아이콘, 팝오버 및 메시지를 추가하여 소스에서 대상이 삭제되었고 [!DNL Target] 활동에서 더 이상 사용할 수 없음을 표시할 수 있습니다.
+* [!DNL Target] UI의 다양한 위치에 경고 아이콘, 팝오버 및 메시지를 추가하여 소스에서 대상자가 삭제되었고 [!DNL Target] 활동에서 더 이상 사용할 수 없음을 표시할 수 있습니다.
 
   다음 그림은 아이콘, 팝오버 및 메시지가 표시되는 일부 위치를 보여 줍니다.
 
    * [!UICONTROL Activity] 목록 페이지
 
-     ![활동 목록 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-audiences-list.png)
+     ![활동 목록 페이지의 소스 메시지에서 삭제된 대상자](assets/deleted-at-source-audiences-list.png)
 
    * [!UICONTROL Overview] 활동 페이지:
 
-     ![개요 페이지의 소스 메시지에서 삭제된 대상](assets/deleted-at-source-overview.png)
+     ![개요 페이지의 소스 메시지에서 삭제된 대상자](assets/deleted-at-source-overview.png)
 
    * 활동 만들기 워크플로의 [!UICONTROL Experiences] 단계:
 
@@ -596,9 +596,9 @@ ht-degree: 85%
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL Audiences] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL Audiences] 및 [!UICONTROL Profile Scripts] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상을 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상 빌더 디자인](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 &quot;대상 Source&quot; 필터</li><li>세션 영구 검색 및 필터 옵션</li></ul>자세한 내용은 [대상자](/help/main/c-target/target.md)를 참조하십시오. |
+| [!UICONTROL Audiences] UI 새로 고침 | [!DNL Target] 사용자의 사용자 경험을 개선하기 위한 [!DNL Adobe Target] 팀의 지속적인 노력의 일환으로 이 릴리스는 [!DNL Target] UI의 [!UICONTROL Audiences] 및 [!UICONTROL Profile Scripts] 페이지를 새로 고칩니다. 이 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않고 디자인 패턴을 통합하고 표준화합니다.<ul><li>여러 대상자를 동시 선택하고 삭제할 수 있는 기능</li><li>새로 단장된 [대상자 빌더 디자인](/help/main/c-target/c-audiences/create-audience.md)</li><li>[!UICONTROL Audience] 라이브러리 규칙 빌더의 제외 규칙 지원</li><li>신속한 대상 검색을 위한 새로운 &quot;대상 Source&quot; 필터</li><li>세션 영구 검색 및 필터 옵션</li></ul>자세한 내용은 [대상자](/help/main/c-target/target.md)를 참조하십시오. |
 | [!UICONTROL Profile Scripts] UI 새로 고침 | [!UICONTROL Profile Scripts] 라이브러리도 업데이트되었으며, 새로 고침된 인터페이스와 몇 가지 생산성 업데이트가 포함되어 있습니다.<ul><li>여러 프로필 스크립트를 동시 선택하고 삭제할 수 있는 기능</li><li>프로필 스크립트용 새로운 편집기 코드</li><li>코드 편집기 내 구문 강조 표시 및 오류 검사</li><li>키보드 단축키를 통한 자동 완성 토큰(mbox 또는 프로필) 매개 변수</li></ul>자세한 내용은 [방문자 프로필](/help/main/c-target/c-visitor-profile/visitor-profile.md)을 참조하십시오. |
-| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;Target Premium에 포함된 항목을 확인하십시오.&quot;} Recommendations 기준 만들기 및 편집 | 목표 달성에 적합한 추천 항목 알고리즘 및 설정 선택을 단순화하기 위해 [!UICONTROL Recommendations Criteria] 만들기 및 편집 워크플로가 간소화되었습니다.<br>자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오. |
+| [!BADGE Premium]{type=Positive url=&quot;/help/main/c-intro/intro.md#premium newtab=true&quot; tooltip=&quot;Target Premium에 포함된 내용 보기&quot;} Recommendations 기준 만들기 및 편집 | 목표 달성에 적합한 추천 항목 알고리즘 및 설정 선택을 단순화하기 위해 [!UICONTROL Recommendations Criteria] 만들기 및 편집 워크플로가 간소화되었습니다.<br>자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오. |
 | ![프리미엄 배지](/help/main/assets/premium.png) 추천 전환 확인 기간 및 알고리즘 새로 고침 빈도 개선 사항 | 이제 6시간 전환 확인 기간을 통해 “가장 많이 본 항목”과 ”최상위 판매자” 알고리즘을 실행하여 가장 최근에 트렌딩하는 콘텐츠를 캡처할 수 있습니다. 6시간 전환 확인 기간을 선택하면 하루에 3~6시간마다 추천 결과가 업데이트됩니다.<br>자세한 내용은 *기준 만들기*&#x200B;의 [데이터 소스](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#data-source)를 참조하십시오. |
 
 ### [!DNL Target Standard/Premium] 21.9.1(2021년 9월 14일)
@@ -737,7 +737,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 
 * [!UICONTROL Auto-Target](AT) 및 [!UICONTROL Automated Personalization](AP) 활동에 대한 [!UICONTROL Personalization Insights]개의 보고서가 이제 매일 생성됩니다. 지난 15일, 30일 및 60일 동안 [!UICONTROL Automated Segments] 또는 [!UICONTROL Important Attributes]을(를) 제공하는 보고서를 선택할 수 있습니다. 다른 전환 확인 기간 설정을 매일 실행할 수 있도록 45일 및 90일 옵션이 제거되었습니다. (TGT-39472)
 * 고객이 활동의 [!UICONTROL Goals & Settings] 페이지에서 [!UICONTROL Edit Dependency]을(를) 클릭할 때 현재 종속성이 표시되지 않는 문제를 해결했습니다. (TGT-39340)
-* 작업 영역의 [!UICONTROL Audience Library]을(를) 새로 고칠 때 발생하는 문제를 해결했습니다. 새로 고치기 전에 현재 선택한 작업 영역의 대상이 표시되었습니다. 새로 고친 후 [!UICONTROL Default Workspace] 및 대상이 표시되었습니다. 이제 새로 고친 후에도 현재 작업 영역과 해당 대상이 유지됩니다. (TGT-38871)
+* 작업 영역의 [!UICONTROL Audience Library]을(를) 새로 고칠 때 발생하는 문제를 해결했습니다. 새로 고치기 전에 현재 선택한 작업 영역의 대상자가 표시되었습니다. 새로 고친 후 [!UICONTROL Default Workspace] 및 대상이 표시되었습니다. 이제 새로 고친 후에도 현재 작업 영역과 해당 대상자가 유지됩니다. (TGT-38871)
 * [!UICONTROL Recommendations] 활동을 복사하고 나중에 기준 시퀀스를 변경하여 원래 활동을 편집할 때 발생하는 문제를 해결했습니다. 원래 활동의 기준 시퀀스 변경도 복사된 활동에 잘못 적용되었습니다. (TGT-39155)
 * [!UICONTROL Recommendations] 제외에 대해 표시되는 제품 수가 올바르지 않은 문제를 해결했습니다. (TGT-39599)
 
@@ -960,7 +960,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* 대상에 대해 디바이스 및 브라우저 유형을 잘못 인증한 문제를 해결했습니다. (TGT-36266)
+* 대상자에 대해 디바이스 및 브라우저 유형을 잘못 인증한 문제를 해결했습니다. (TGT-36266)
 * 963픽셀 미만의 화면에서 보고서 데이터를 볼 수 없는 문제를 해결했습니다. (TGT-36549)
 * 자동 타겟 설정 보고서가 올바르게 렌더링되지 않는 문제를 해결했습니다. (TGT-36619)
 * Analytics for Target(A4t)을 사용하는 자동 할당 및 자동 타겟 활동에서 호환되지 않는 지표를 선택할 수 있는 문제를 해결했습니다. (TGT-36646)
@@ -1026,7 +1026,7 @@ Target at.js JavaScript 라이브러리의 다음 새 버전을 사용할 수 �
 Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔드 향상 및 개선 사항이 포함되어 있습니다. 또한 다음과 같은 수정 사항이 포함되어 있습니다.
 
 * 기존 Adobe for Target(A4T) 활동의 목표 및 설정 페이지에서 Adobe Analytics 추적 서버 필드가 비어 있는 문제를 해결했습니다. (TGT-35960)
-* 범주 관심도에 대한 대상을 만드는 동안 두 번째 드롭다운 목록에서 선택한 항목이 표시되지 않도록 한 사용자 인터페이스의 문제를 해결했습니다. (TGT-36098)
+* 범주 관심도에 대한 대상자를 만드는 동안 두 번째 드롭다운 목록에서 선택한 항목이 표시되지 않도록 한 사용자 인터페이스의 문제를 해결했습니다. (TGT-36098)
 
 ## 릴리스 정보 - 2019 {#releases-2019}
 
@@ -1270,7 +1270,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 | 단일 페이지 앱 시각적 경험 작성기 | SPA(단일 페이지 앱)에 대한 VEC(시각적 경험 작성기)를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같은 가장 인기 있는 프레임워크의 활동을 작성하는 데 사용할 수 있습니다. (TGT-27916)<br>자세한 내용은 [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md) 및 [단일 페이지 응용 프로그램 통합](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/target-atjs-single-page-application.html?lang=ko-KR){target=_blank}을 참조하십시오.<br>위의 문서 외에도, 이 기능을 처리하는 SPA와 at.js 및 그 구현 방법과 관련된 항목이 많습니다. 자세한 내용은 [설명서 변경 내용](/help/main/r-release-notes/doc-change.md)을 참조하십시오. |
 | 시각적 경험 작성기 | 시각적 경험 작성기(VEC)에는 다음 개선 사항이 포함되어 있어 작업을 보다 빠르고 효율적으로 수행할 수 있습니다.<ul><li>이제 [AEM 경험 구성 요소](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md)를 삽입하는 동안 VEC에서 다음 항목 앞에 삽입 및 다음 항목 뒤에 삽입 선택 사항을 사용할 수 있습니다. [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오. (TGT-32385)</li><li>Google Chrome용 [!DNL Adobe Target] VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다. [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 참조하십시오. (TGT-32746)</li></ul> |
 | [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting] 활동의 ![Premium 배지](/help/main/assets/premium.png)<br>Recommendations | 이제 [!UICONTROL A/B Test]([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)과 [!UICONTROL Experience Targeting](XT) 활동 내에 권장 사항을 포함할 수 있습니다. 이에 따라 다음과 같이 완전히 새로운 기능을 사용할 수 있게 됩니다.<ul><li>동일한 활동에서 권장 사항 및 비권장 사항 콘텐츠를 테스트하고 타기팅할 수 있습니다.</li><li>권장 사항들의 순서를 포함하여 페이지에서의 권장 사항 배치를 쉽게 실험할 수 있습니다.</li><li>[!UICONTROL Auto-Allocate]을(를) 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동으로 푸시합니다.</li><li>[!UICONTROL Auto-Target]을(를) 사용하여 방문자를 개별 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.</li></ul>시작하려면 VEC를 사용하여 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting] 활동을 만들고 [!UICONTROL Insert Before], [!UICONTROL Insert After] 또는 [!UICONTROL Replace With] 작업을 사용하여 권장 사항을 경험에 추가하십시오. (RECS-6166)<br>자세한 내용은 [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
-| ![Premium 배지](/help/main/assets/premium.png)<br>Target API의 엔터프라이즈 권한 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. 자동화된 개인화(AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
+| ![Premium 배지](/help/main/assets/premium.png)<br>Target API의 엔터프라이즈 권한 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상자를 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. 자동화된 개인화(AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -1280,8 +1280,8 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| 타기팅<br>2019년 1월 25일 | 프로필 스크립트나 다른 입력 소스(예: mbox 매개 변수, 프로필 매개 변수 등)에 의해 반환된 비십진수 및 십진수 값과의 &quot;같음&quot;(equals) 비교를 위해 타기팅 일치가 작동하는 방식을 변경했습니다.<br>자세한 내용은 [타겟 및 대상](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) FAQ를 참조하십시오. |
-| 프로필 스크립트<br>2019년 1월 17일 | 성능상의 이유로 256자를 넘지 않는 반환 값이 좋습니다.<br>문자열 반환 값의 경우 반환 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>배열 반환 값의 경우, 연결된 배열 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>오퍼 크기, 대상, 프로필, 값, 매개 변수 등 Target의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한에 대해서는 [제한 사항](/help/main/r-troubleshooting-target/target-limits.md)을 참조하십시오. |
+| 타기팅<br>2019년 1월 25일 | 프로필 스크립트나 다른 입력 소스(예: mbox 매개 변수, 프로필 매개 변수 등)에 의해 반환된 비십진수 및 십진수 값과의 &quot;같음&quot;(equals) 비교를 위해 타기팅 일치가 작동하는 방식을 변경했습니다.<br>자세한 내용은 [타깃 및 대상자](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) FAQ를 참조하십시오. |
+| 프로필 스크립트<br>2019년 1월 17일 | 성능상의 이유로 256자를 넘지 않는 반환 값이 좋습니다.<br>문자열 반환 값의 경우 반환 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>배열 반환 값의 경우, 연결된 배열 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>오퍼 크기, 대상자, 프로필, 값, 매개 변수 등 Target의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한에 대해서는 [제한 사항](/help/main/r-troubleshooting-target/target-limits.md)을 참조하십시오. |
 | at.js<br>2019년 1월 16일 | at.js 1.6.4는 유지보수 릴리스이며 다음 문제를 해결합니다.<ul><li>Microsoft Internet Explorer 11에서 중복된 오퍼가 적용되는 경합 조건 매니페스트를 수정했습니다. (TNT-31374)</li><li>클릭 토큰 및 HTML 오퍼와 함께 기본 오퍼가 있을 때 클릭 추적에 영향을 주는 문제를 해결했습니다. (TNT-31493)</li><li>각 Target 요청에서 mboxEdgeCluster 쿠키를 확장했습니다. 이 쿠키는 mboxEdgeOverride가 활성화된 경우에만 사용됩니다. (TNT-31485)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.1.1(2019년 1월 22일) {#release-19-1-1-previous}
@@ -1292,12 +1292,12 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| [!DNL Target] API에서 ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상을 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. Automated Personalization (AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
+| [!DNL Target] API에서 ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions] 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상자를 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. Automated Personalization (AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
 | ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링 | 이제 선택한 환경(호스트 그룹)에 대한 [!UICONTROL Recommendations] 컬렉션 및 제외 콘텐츠를 미리 볼 수 있습니다.<br/>이전에는, 컬렉션이나 제외를 볼 때, 들어 있는 항목이 기본 호스트 그룹([!UICONTROL Recommendations > Settings > Default Host Group]에 지정됨)에 대한 결과였습니다.<br/>이제 컬렉션이나 제외를 만들거나 업데이트할 때 [!UICONTROL Environment] 선택기를 사용하여 결과를 미리 볼 환경을 선택할 수 있습니다. 컬렉션과 제외를 만들거나 편집하기 전에 적절한 기본 호스트 그룹을 선택하기 위해 더 이상 [!UICONTROL Settings] 페이지로 이동할 필요가 없으므로 새 [!UICONTROL Environment] 필터를 사용하면 시간과 노력이 절약됩니다.<br/>**참고:** 선택한 환경을 변경한 후 [!UICONTROL Search]을(를) 클릭하여 반환된 결과를 업데이트해야 합니다.<br/>새 [!UICONTROL Environment] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>[!UICONTROL Catalog Search]([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection] 대화 상자([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection] 대화 상자([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion] 대화 상자([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion] 대화 상자([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>자세한 내용은 다음 주제를 참조하십시오.<uL><li>[컬렉션](/help/main/c-recommendations/c-products/collections.md)</li><li>[제외](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **개선 사항, 수정 및 변경 사항**
 
-* 사용자가 대상을 편집하는 동안 세션 만료 시 로그인 팝업 대화 상자를 통해 로그인할 때 저장 버튼이 비활성화되는 문제를 해결했습니다. (TGT-32722)
+* 사용자가 대상자를 편집하는 동안 세션 만료 시 로그인 팝업 대화 상자를 통해 로그인할 때 저장 버튼이 비활성화되는 문제를 해결했습니다. (TGT-32722)
 
 ## 릴리스 정보 - 2018 {#reference_36ACC83E135A41F28104C44755C26D5B}
 
@@ -1371,7 +1371,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동에 대한 보고 소스 </p> </td> 
-   <td colname="col2"> <p><span class="wintitle"> 관리 </span> &gt; <span class="wintitle"> 시각적 경험 작성기 </span>에서 활동의 보고 소스인 <span class="keyword"> Target </span> 또는 <span class="keyword"> Adobe Analytics </span>를 선택할 수 있습니다. 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다. </p> <p>이번 릴리스부터 <span class="wintitle"> 환경 설정 </span> 또는 활동별로 보고 소스를 선택할 때 알아두어야 하는 몇 가지 중요한 작업 과정 고려 사항이 있습니다.</p></td> 
+   <td colname="col2"> <p><span class="wintitle"> 관리 </span> &gt; <span class="wintitle"> 시각적 경험 작성기 </span>에서 활동의 보고 소스인 <span class="keyword"> Target </span> 또는 <span class="keyword"> Adobe Analytics </span>를 선택할 수 있습니다. 또한 활동별로 보고 소스를 선택하도록 지정할 수 있습니다. </p> <p>이번 릴리스부터 <span class="wintitle"> 환경 설정 </span> 또는 활동별로 보고 소스를 선택할 때 알아두어야 하는 몇 가지 중요한 워크플로 고려 사항이 있습니다.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1745,7 +1745,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>대상자 </p> </td> 
-   <td colname="col2"> <p>mbox 매개 변수를 기반으로 하여 사용자 지정 대상을 작성할 때 <span class="codeph"> mboxName </span> 에 대해 묻는 메시지가 <span class="codeph"> mboxParameter </span>에 더 이상 표시되지 않습니다. 이제 mbox 이름은 선택 사항입니다. 따라서 여러 mbox의 매개 변수를 사용하거나 가장자리에 아직 기록되지 않은 매개 변수를 참조할 수 있습니다. (TGT-25807) </p> <p> <p>참고: 이 기능은 Target UI에 표시되지만, 현재는 비활성화되어 있습니다. 이 기능은 곧 사용할 수 있습니다(날짜가 제공됨). </p> </p> 
+   <td colname="col2"> <p>mbox 매개 변수를 기반으로 하여 사용자 지정 대상자를 작성할 때 <span class="codeph"> mboxName </span> 에 대해 묻는 메시지가 <span class="codeph"> mboxParameter </span>에 더 이상 표시되지 않습니다. 이제 mbox 이름은 선택 사항입니다. 따라서 여러 mbox의 매개 변수를 사용하거나 가장자리에 아직 기록되지 않은 매개 변수를 참조할 수 있습니다. (TGT-25807) </p> <p> <p>참고: 이 기능은 Target UI에 표시되지만, 현재는 비활성화되어 있습니다. 이 기능은 곧 사용할 수 있습니다(날짜가 제공됨). </p> </p> 
   </td> 
   </tr> 
  </tbody> 
@@ -1857,7 +1857,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 이 [!DNL Target] 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* A/B 및 경험 타기팅 (XT) 활동을 작성하거나 편집할 때 Target에서는 마지막으로 연 경험, 페이지 또는 경험 버전에 대한 정보가 유지(여러 대상 기능을 통해)되며 사용자가 다음번에 Target UI를 열면 해당 페이지가 열립니다. (TGT-28225)
+* A/B 및 경험 타기팅 (XT) 활동을 작성하거나 편집할 때 Target에서는 마지막으로 연 경험, 페이지 또는 경험 버전에 대한 정보가 유지(여러 대상자 기능을 통해)되며 사용자가 다음번에 Target UI를 열면 해당 페이지가 열립니다. (TGT-28225)
 * 규정 준수를 위한 보안 수정 사항이 작성되었습니다.
 
 ### Target Standard/Premium 18.2.1(2018년 2월 15일) {#section_837CBBB7A89D45D99855A8C5F5E7BFFB}
@@ -1926,8 +1926,8 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1"> <p>대상자 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
-      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>이제 시작 및 종료 날짜 없이 시간대 대상을 만들 수 있습니다. 이렇게 하면 활동 수준에서 시작 및 종료 날짜를 제어하면서 여러 활동에서 동일한 대상(대상 복사본을 만들지 않고)을 사용할 수 있습니다. <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">시간대</a>를 참조하십시오. (TGT-25975) </p> </li> 
-      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>대상 선택 &gt; 활동 전용 대상 페이지에서 대상 위로 마우스를 가져가면 활동 전용 대상에 대해 복사 및 편집 기능을 사용할 수 있습니다. 이전에는 라이브러리 대상에서만 이 기능을 사용할 수 있었습니다. <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> 활동 전용 대상 만들기 </a>을(를) 참조하십시오. (TGT-27410) </p> </li> 
+      <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>이제 시작 및 종료 날짜 없이 시간대 대상을 만들 수 있습니다. 이렇게 하면 활동 수준에서 시작 및 종료 날짜를 제어하면서 여러 활동에서 동일한 대상자(대상자 복사본을 만들지 않고)를 사용할 수 있습니다. <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">시간대</a>를 참조하십시오. (TGT-25975) </p> </li> 
+      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>대상자 선택 &gt; 활동 전용 대상자 페이지에서 대상자 위로 마우스를 가져가면 활동 전용 대상자에 대해 복사 및 편집 기능을 사용할 수 있습니다. 이전에는 라이브러리 대상에서만 이 기능을 사용할 수 있었습니다. <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> 활동 전용 대상 만들기 </a>을(를) 참조하십시오. (TGT-27410) </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>여러 활동의 활동 전용 대상에 동일한 이름을 사용할 수 있습니다. 이전에는 이름이 중복되면 타임스탬프가 추가됩니다. 이름이 "Target on Weekday"인 중복 대상은 "Target on Weekday-1456732099201"으로 저장됩니다. </p> <p>라이브러리 대상은 여전히 고유한 이름이 필요합니다. (TGT-17967) </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -2046,9 +2046,9 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1"> <p>대상자 </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6E91AEC68A6E45D8B2907C77E752FEC6"> 
-      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>활동을 만들 때 안내가 있는 3단계 워크플로에서 활동 전용 대상을 만들 수 있습니다. 이 대상은 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 대상 라이브러리에 저장되지는 않습니다. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>자세한 내용은 <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> 활동 전용 대상자 작성 </a>을 참조하십시오. </p> </li> 
-      <li id="li_691812682A5B42C0941324F2BC7D5740"> <p>모든 활동에 대해 해당 사용자에게 대상 자격을 부여하는 성공 지표를 선택할 수 있습니다. 이전에는 Target에서 사용자가 활동을 시작할 때 대상 자격이 부여되었지만, 이제 성공 지표를 선택하여 대상을 평가할 시기를 선택할 수 있습니다. (TGT-15805) </p> <p> <img src="assets/success_metric.png" id="image_0CEC6015A2C4429790A063FE54CC1A35" /> </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="/help/main/c-target/apply-reporting-audience-success-metric.md#concept_5F11149ACCA84FE79C7B9F766B6B0595" format="dita" scope="local"> 성공 지표에 보고 대상 적용 </a>을 참조하십시오. </p> </td> 
+      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>활동을 만들 때 안내가 있는 3단계 워크플로에서 활동 전용 대상자를 만들 수 있습니다. 이 대상자는 동일한 활동 내의 다른 위치에서 사용될 수 있지만 다른 활동에서 사용할 수 있도록 대상자 라이브러리에 저장되지는 않습니다. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>자세한 내용은 <a href="/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> 활동 전용 대상자 작성 </a>을 참조하십시오. </p> </li> 
+      <li id="li_691812682A5B42C0941324F2BC7D5740"> <p>모든 활동에 대해 해당 사용자에게 대상 자격을 부여하는 성공 지표를 선택할 수 있습니다. 이전에는 Target에서 사용자가 활동을 시작할 때 대상자로 선별되었지만, 이제 성공 지표를 선택하여 대상자를 평가할 시기를 선택할 수 있습니다. (TGT-15805) </p> <p> <img src="assets/success_metric.png" id="image_0CEC6015A2C4429790A063FE54CC1A35" /> </p> </li> 
+     </ul> </p> <p>자세한 내용은 <a href="/help/main/c-target/apply-reporting-audience-success-metric.md#concept_5F11149ACCA84FE79C7B9F766B6B0595" format="dita" scope="local"> 성공 지표에 보고 대상자 적용 </a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>자동 타겟 </p> </td> 
@@ -2084,7 +2084,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 * 가져온 대상(Target Classic, Experience Cloud 등) 대상 라이브러리에서 삭제할 수 있습니다. 활성 활동에 사용된 대상을 삭제하려고 하면 Target에서 경고가 표시됩니다. (TGT-25171)
 * Target Classic에서 가져온 대상은 이제 대상 라이브러리에서 Adobe Target Classic으로 레이블이 지정됩니다. 이전에는 Target Standard/Premium과 Target Classic 간의 UI가 다르지 않았습니다. (TGT-27093)
 * 컬렉션은 이제 모든 기준(최근에 본 항목 포함)에 적용됩니다. (TGT-26646)
-* 대상 라이브러리 및 오퍼 라이브러리에서 작업 영역별로 필터링할 수 있습니다(Enterprise 사용자 권한이 있는 Target Premium 사용자에게 적용). (TGT-26813)
+* 대상자 라이브러리 및 오퍼 라이브러리에서 작업 영역별로 필터링할 수 있습니다(Enterprise 사용자 권한이 있는 Target Premium 사용자에게 적용). (TGT-26813)
 * 표에서의 스크롤 작업과 필터 드롭다운 목록의 배치 기능이 향상되도록 보고서 UI가 개선되었습니다. (TGT-23713 및 TGT-26819)
 
 ### 타겟 플랫폼 변경(2017년 10월 13일) {#section_6C298C5C3D01415CB4B658EB2166096C}
@@ -2132,10 +2132,10 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col2"> <p>활동 만들기 워크플로가 다음과 같이 개선되었습니다. </p> <p> 
      <ul id="ul_2D251AC11FC54E86AE84DEFFB6FDF43C"> 
       <li id="li_AB8F12B3CF654120BD16EAE570517741"> <p>활동을 편집하는 동안, 현재 표시된 단계에서 원하는 부분을 변경한 후 분할 버튼의 드롭다운을 클릭하고 <span class="wintitle"> 다음 </span>을 선택하여 다음 단계로 이동한 후 <span class="wintitle"> 저장하고 닫기 </span>를 클릭하여 변경 사항을 저장하고 활동의 <span class="wintitle"> 개요 </span> 페이지를 표시하거나 <span class="wintitle"> 저장 </span>을 클릭하여 변경 사항을 저장한 후 해당 단계에 남아 있습니다. </p> <p> <img src="assets/edit_split_button_2.png" id="image_ABC7EE42F5D341EC88AACC54CA98DA2F" /> </p> <p>자세한 내용은 <a href="/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> 활동 편집 또는 초안으로 저장 </a>을 참조하십시오. </p> </li> 
-      <li id="li_4C71E2570ECF4BBAB08443D89230CE82"> <p>활동을 편집하는 동안, 원하는 워크플로 단계를 열고 변경을 수행한 후(예를 들어 경험 백분율, 대상 등) 안내가 있는 3단계 워크플로를 진행할 필요 없이 활동을 저장하거나 닫을 수 있습니다. </p> <p> <img src="assets/edit_activity.png" id="image_0B9A2EF729C34A1D9FA84B8B7B17A3C1" /> </p> <p>자세한 내용은 <a href="/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> 활동 편집 또는 초안으로 저장 </a>을 참조하십시오. </p> </li> 
+      <li id="li_4C71E2570ECF4BBAB08443D89230CE82"> <p>활동을 편집하는 동안, 원하는 워크플로 단계를 열고 변경을 수행한 후(예를 들어 경험 백분율, 대상자 등) 안내가 있는 3단계 워크플로를 진행할 필요 없이 활동을 저장하거나 닫을 수 있습니다. </p> <p> <img src="assets/edit_activity.png" id="image_0B9A2EF729C34A1D9FA84B8B7B17A3C1" /> </p> <p>자세한 내용은 <a href="/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> 활동 편집 또는 초안으로 저장 </a>을 참조하십시오. </p> </li> 
       <li id="li_43C15B13E4F7475E9376A98222AA0253"> <p>아직 저장되지 않은 새 활동을 만들거나 이전에 초안 양식으로 저장된 활동을 편집하는 경우, 분할 버튼에 <span class="wintitle"> 초안 저장 </span> 옵션이 표시됩니다. </p> <p> <img src="assets/save_draft.png" id="image_3975786947CE4E39B900AA81D838B9B3" /> </p> <p>자세한 내용은 <a href="/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0" format="dita" scope="local"> 활동 편집 또는 초안으로 저장 </a>을 참조하십시오. </p> </li> 
-      <li id="li_36EF9AD13B2D40ADB99343C9F758D5FD"> <p>이제 안내가 있는 3단계 워크플로 중 2단계에서 타기팅을 선택하면서, <span class="wintitle"> 대상 선택 </span> 대화 상자에서 원하는 대상 위로 마우스를 가져간 후 대상을 편집하거나 복사할 수 있습니다. </p> <p> <img src="assets/audience_picker_hover.png" id="image_6DC33A0856A346948E517F0BA4C9039F" /> </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087" format="dita" scope="local"> 대상 선택 </a>을 참조하십시오. </p> </td> 
+      <li id="li_36EF9AD13B2D40ADB99343C9F758D5FD"> <p>이제 안내가 있는 3단계 워크플로 중 2단계에서 타기팅을 선택하면서, <span class="wintitle"> 대상자 선택 </span> 대화 상자에서 원하는 대상자 위로 마우스를 가져간 후 대상자를 편집하거나 복사할 수 있습니다. </p> <p> <img src="assets/audience_picker_hover.png" id="image_6DC33A0856A346948E517F0BA4C9039F" /> </p> </li> 
+     </ul> </p> <p>자세한 내용은 <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087" format="dita" scope="local"> 대상자 선택 </a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>보고 </p> </td> 
@@ -2147,7 +2147,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>대상자 </p> </td> 
-   <td colname="col2"> <p>이제 Target Classic에서 가져왔거나 API를 통해 만든 대상의 정의를 볼 수 있습니다. (TGT-22630) </p> <p> <img src="assets/imported_mobile_audience_rn.png" id="image_6ED9EA63FD7D440286DBAFDBD696BA64" /> </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> 대상 정보 </a>의 "대상 정의 보기"를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>이제 Target Classic에서 가져왔거나 API를 통해 만든 대상의 정의를 볼 수 있습니다. (TGT-22630) </p> <p> <img src="assets/imported_mobile_audience_rn.png" id="image_6ED9EA63FD7D440286DBAFDBD696BA64" /> </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> 대상자 정보 </a>의 "대상자 정의 보기"를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>코드 편집기 </p> </td> 
@@ -2181,7 +2181,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 자세한 내용은 [브라우저에서 혼합 콘텐츠 활성화](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)를 참조하십시오.
 
-* 관리, 대상 및 권장 사항 페이지에서 옵션을 구성하는 동안 사용자의 Target 세션 시간이 초과되면 워크플로가 개선되었습니다. 사용자가 저장을 클릭하면 세션 만료 메시지가 표시되지만, 다시 로그인하면 성공적인 로그인을 사용자에게 알리는 대화 상자가 표시되며, UI는 데이터 손실 없이 Target의 동일한 페이지에 그대로 유지됩니다. (TGT-25557)
+* 관리, 대상자 및 권장 사항 페이지에서 옵션을 구성하는 동안 사용자의 Target 세션 시간이 초과되면 워크플로가 개선되었습니다. 사용자가 저장을 클릭하면 세션 만료 메시지가 표시되지만, 다시 로그인하면 성공적인 로그인을 사용자에게 알리는 대화 상자가 표시되며, UI는 데이터 손실 없이 Target의 동일한 페이지에 그대로 유지됩니다. (TGT-25557)
 
 ### 타겟 플랫폼 변경(2017년 9월 27일 목요일) {#section_AC32516DFBA64AD2AC9A74171D452778}
 
@@ -2232,7 +2232,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>QA 모드 </p> </td> 
-   <td colname="col2"> <p>절대 변경되지 않는 미리보기 링크, 선택적 대상 타기팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고를 사용하여 간편한 활동 QA를 수행할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">활동 QA</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>절대 변경되지 않는 미리보기 링크, 선택적 대상자 타기팅 및 라이브 활동 데이터에서 세그먼트화된 QA 보고를 사용하여 간편한 활동 QA를 수행할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">활동 QA</a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2241,7 +2241,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 이번 [!DNL Target] 릴리스에는 다음과 같은 고객용 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
 
-* 대상을 열지 않고 Target UI의 팝업 카드에서 대상 정의 세부 사항을 볼 수 있는 위치가 더 추가되었습니다. 이 기능은 [!DNL Target Standard/Premium. (TGT-25772)]에서 작성한 대상에만 적용됩니다.
+* 대상자를 열지 않고 Target UI의 팝업 카드에서 대상자 정의 세부 사항을 볼 수 있는 위치가 더 추가되었습니다. 이 기능은 [!DNL Target Standard/Premium. (TGT-25772)]에서 작성한 대상자에만 적용됩니다.
 * 활동 만들기/개요 내에서 임시 대상의 정의를 볼 수 있습니다. (TGT-25570)
 * `entiites` 및 `entityN.categoriesList` 변수는 [Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59) 배열로 사용할 수 있습니다.
 
@@ -2313,7 +2313,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p>대상자 </p> </td> 
-   <td colname="col2"> <p>이제 대상을 열지 않고도 Target UI의 다양한 위치에서 팝업 카드의 대상 정의 세부 사항을 볼 수 있습니다. 이 기능은 <span class="keyword"> Target Standard/Premium </span>에서 만든 대상에만 적용됩니다. </p> <p> <img src="assets/audience_details.png" id="image_AD0F411715DA43ACB4A913B1E54C13DC" /> </p> </td> 
+   <td colname="col2"> <p>이제 대상자를 열지 않고도 Target UI의 다양한 위치에서 팝업 카드의 대상자 정의 세부 사항을 볼 수 있습니다. 이 기능은 <span class="keyword"> Target Standard/Premium </span>에서 만든 대상자에만 적용됩니다. </p> <p> <img src="assets/audience_details.png" id="image_AD0F411715DA43ACB4A913B1E54C13DC" /> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>성공 지표 </p> </td> 
@@ -2337,7 +2337,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>대상자 </p> </td> 
-   <td colname="col2"> <p>이제 대상 사이트 페이지 유형 및 비교 연산자는 Target Classic의 유형 및 비교 연산자와 일치합니다. </p> <p>이제 자체 "사용자 정의 쿼리 매개 변수" 또는 "사용자 정의 헤더"를 사용하여 사이트 페이지 대상을 만들 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/site-pages.md#concept_6425D5304568490899E8340CC94798A9" format="dita" scope="local"> 사이트 페이지 </a>을(를) 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>이제 대상자 사이트 페이지 유형 및 비교 연산자는 Target Classic의 유형 및 비교 연산자와 일치합니다. </p> <p>이제 자체 "사용자 정의 쿼리 매개 변수" 또는 "사용자 정의 헤더"를 사용하여 사이트 페이지 대상을 만들 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/site-pages.md#concept_6425D5304568490899E8340CC94798A9" format="dita" scope="local"> 사이트 페이지 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동 </p> </td> 
@@ -2525,10 +2525,10 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>대상자 </p> </td> 
-   <td colname="col2"> <p>대상 타기팅에 대해 다음과 같은 기능이 개선되었습니다. </p> <p> 
+   <td colname="col2"> <p>대상자 타기팅에 대해 다음과 같은 기능이 개선되었습니다. </p> <p> 
      <ul id="ul_C920198404654C97A33190A29ACA6990"> 
-      <li id="li_DB52EF909C9640649981940460CDF2B5"> <p><b>주 및 일 분할:</b> <span class="wintitle"> 주 및 일 분할 </span> 옵션을 설정하여 대상 타기팅에 대한 반복 패턴을 만들 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> 시간대 </a>를 참조하십시오. </p> </li> 
-      <li id="li_2541A6EF2D604CE098012A16909C237E"> <p><b> 조합된 대상에서 제외:</b> 이제 여러 대상을 조합할 때 제외 규칙을 추가하고 대상을 제외할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> 여러 대상 결합 </a>을 참조하십시오. </p> </li> 
+      <li id="li_DB52EF909C9640649981940460CDF2B5"> <p><b>주 및 일 분할:</b> <span class="wintitle"> 주 및 일 분할 </span> 옵션을 설정하여 대상자 타기팅에 대한 반복 패턴을 만들 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> 시간대 </a>를 참조하십시오. </p> </li> 
+      <li id="li_2541A6EF2D604CE098012A16909C237E"> <p><b> 조합된 대상자에서 제외:</b> 이제 여러 대상자를 조합할 때 제외 규칙을 추가하고 대상자를 제외할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> 여러 대상자 결합 </a>을 참조하십시오. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -2566,7 +2566,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 이번 [!DNL Target] 릴리스는 사용 편의성과 성능 개선에 주안점을 두며, 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
 
 * [!DNL Target] 사용자 인터페이스의 오른쪽 상단에서 액세스할 수 있는 도움말 메뉴에 추가 항목이 추가되었습니다. 새 옵션에는 &quot;블로그&quot; 및 &quot;비디오&quot;가 포함됩니다. &quot;Adobe Experience Cloud 상태&quot; 옵션은 이제 &quot;Adobe Target Standard/Premium 상태&quot;로 표시됩니다. (TGT-22629)
-* 대상을 삭제하면 [!DNL Target] 에는 해당 대상을 참조하는 활동 목록이 표시됩니다. 사용자는 목록에서 각 활동을 클릭하여 [!UICONTROL Overview] 페이지를 표시할 수 있습니다. (TGT-17997)
+* 대상자를 삭제하면 [!DNL Target] 에는 해당 대상자를 참조하는 활동 목록이 표시됩니다. 사용자는 목록에서 각 활동을 클릭하여 [!UICONTROL Overview] 페이지를 표시할 수 있습니다. (TGT-17997)
 * 사용자가 현재 세션에서 캠페인/활동과 상호 작용하지 않더라도 사용자가 참여하는 모든 캠페인/활동에 대한 캠페인 ID를 반환하도록 `user.activeCampaigns` 이 개선되었습니다. (TNT-26237)
 * 이제 모든 활동 이름이 목록에 로드되기 전에 [!UICONTROL Activities] 페이지의 [!UICONTROL Create Activity] 단추가 활성화됩니다. 이러한 개선을 통해 특히, 계정에 구성된 활동이 많은 경우 새 활동을 더 빠르게 만들 수 있습니다. (TGT-21470)
 * 프록시를 통해 액세스하는 HTTPS 실행 웹 사이트의 로드 시간을 단축하도록 EEC(고급 경험 작성기)가 개선되었습니다. Target은 더 이상 프록시를 통해 정적 리소스를 가져오지 않습니다. (TGT-21793)
@@ -2666,7 +2666,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1"> <p>대상자 </p> </td> 
    <td colname="col2"> <p>이제 대상에 대해 다음 개선 사항을 사용할 수 있습니다. </p> <p> 
      <ul id="ul_F1D1F97266134D4ABE627CF2DCE2C6D4"> 
-      <li id="li_99A611FCC1254D229D79B8FD075B952A"> <p> 이제 대상 타기팅 모바일 디바이스를 만들 때 드롭다운 목록에서 <span class="wintitle"> 디바이스 마케팅 이름 </span>을 내장 옵션으로 사용할 수 있습니다. </p> <p>이 변경을 통해 해당 디바이스 모델 번호를 검색하지 않고도 디바이스 모델 이름을 쉽게 선택할 수 있습니다. 예를 들어 Galaxy S7의 마케팅 디바이스 이름은 "Samsung Galaxy S7 Edge"이지만 디바이스 모델은 "SM-G9350"입니다. (TGT-18393) </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> 모바일 </a>을 참조하십시오. </p> </li> 
+      <li id="li_99A611FCC1254D229D79B8FD075B952A"> <p> 이제 대상자 타기팅 모바일 디바이스를 만들 때 드롭다운 목록에서 <span class="wintitle"> 디바이스 마케팅 이름 </span>을 내장 옵션으로 사용할 수 있습니다. </p> <p>이 변경을 통해 해당 디바이스 모델 번호를 검색하지 않고도 디바이스 모델 이름을 쉽게 선택할 수 있습니다. 예를 들어 Galaxy S7의 마케팅 디바이스 이름은 "Samsung Galaxy S7 Edge"이지만 디바이스 모델은 "SM-G9350"입니다. (TGT-18393) </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89" format="dita" scope="local"> 모바일 </a>을 참조하십시오. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -2714,7 +2714,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> 통신사별 Target 모바일 디바이스 </td> 
-   <td colname="col2"> <p>모바일 통신사(Verizon, Sprint, AT&amp;T, T-Mobile 등)를 기준으로 타겟 모바일 디바이스에 대한 대상을 만듭니다. <span class="wintitle"> 모바일 통신사 </span> 옵션은 <span class="wintitle"> 지역 </span> 설정 아래에 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> 지역 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>모바일 통신사(Verizon, Sprint, AT&amp;T, T-Mobile 등)를 기준으로 모바일 디바이스를 타기팅하는 대상자를 만듭니다. <span class="wintitle"> 모바일 통신사 </span> 옵션은 <span class="wintitle"> 지역 </span> 설정 아래에 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670" format="dita" scope="local"> 지역 </a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Target UI에서 mboxTrace 인증 토큰 생성 </td> 
@@ -2771,11 +2771,11 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> 대상 조합 </td> 
-   <td colname="col2"> <p>활동 만들기 워크플로 동안 신속하게 여러 대상(<span class="keyword"> Adobe Experience Cloud </span> 대상 및 <span class="keyword"> Target </span> 대상)을 조합합니다. </p> <p>예를 들어 세 번째 영구 대상을 만드는 대신, 충성도 상태에 대한 특정 <span class="keyword"> Audience Manager </span> 세그먼트를 포함하여 모든 충성도 고객을 타기팅하고, 현재 세션 동안 충성도 프로그램에 등록한 사람들로 구성된 <span class="keyword"> Target </span> 세그먼트와 조합할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> 여러 대상 결합 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>활동 만들기 워크플로 동안 신속하게 여러 대상자(<span class="keyword"> Adobe Experience Cloud </span> 대상자 및 <span class="keyword"> Target </span> 대상자)를 조합합니다. </p> <p>예를 들어 세 번째 영구 대상을 만드는 대신, 충성도 상태에 대한 특정 <span class="keyword"> Audience Manager </span> 세그먼트를 포함하여 모든 충성도 고객을 타기팅하고, 현재 세션 동안 충성도 프로그램에 등록한 사람들로 구성된 <span class="keyword"> Target </span> 세그먼트와 조합할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> 여러 대상자 결합 </a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 특정 기간의 Target 방문자 </td> 
-   <td colname="col2"> <p>대상을 타기팅할 시작 및 종료 날짜를 추가합니다. </p> <p>예를 들어 위에서 언급한 새로운 결합된 임시 대상을 사용하는 경우 블랙 프라이데이 이전 3일 동안에 특정 콘텐츠에 돈을 덜 쓰는 대상과 블랙 프라이데이 이후에 다른 콘텐츠에 돈을 덜 쓰는 대상을 타기팅할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> 시간대 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>대상자를 타기팅할 시작 및 종료 날짜를 추가합니다. </p> <p>예를 들어 위에서 언급한 새로운 결합된 임시 대상자를 사용하는 경우 블랙 프라이데이 이전 3일 동안에 특정 콘텐츠에 돈을 덜 쓰는 대상자와 블랙 프라이데이 이후에 다른 콘텐츠에 돈을 덜 쓰는 대상자를 타기팅할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> 시간대 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 스마트 컬렉션 저장 </td> 
@@ -2836,11 +2836,11 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> 대상 조합 </td> 
-   <td colname="col2"> <p>활동 만들기 워크플로 동안 신속하게 여러 대상(<span class="keyword"> Adobe Experience Cloud </span> 대상 및 <span class="keyword"> Target </span> 대상)을 조합합니다. </p> <p>예를 들어 세 번째 영구 대상을 만드는 대신, 충성도 상태에 대한 특정 <span class="keyword"> Audience Manager </span> 세그먼트를 포함하여 모든 충성도 고객을 타기팅하고, 현재 세션 동안 충성도 프로그램에 등록한 사람들로 구성된 <span class="keyword"> Target </span> 세그먼트와 조합할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> 여러 대상 결합 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>활동 만들기 워크플로 동안 신속하게 여러 대상자(<span class="keyword"> Adobe Experience Cloud </span> 대상자 및 <span class="keyword"> Target </span> 대상자)를 조합합니다. </p> <p>예를 들어 세 번째 영구 대상을 만드는 대신, 충성도 상태에 대한 특정 <span class="keyword"> Audience Manager </span> 세그먼트를 포함하여 모든 충성도 고객을 타기팅하고, 현재 세션 동안 충성도 프로그램에 등록한 사람들로 구성된 <span class="keyword"> Target </span> 세그먼트와 조합할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5" format="dita" scope="local"> 여러 대상자 결합 </a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 특정 기간의 Target 방문자 </td> 
-   <td colname="col2"> <p>대상을 타기팅할 시작 및 종료 날짜를 추가합니다. </p> <p>예를 들어 위에서 언급한 새로운 결합된 임시 대상을 사용하는 경우 블랙 프라이데이 이전 3일 동안에 특정 콘텐츠에 돈을 덜 쓰는 대상과 블랙 프라이데이 이후에 다른 콘텐츠에 돈을 덜 쓰는 대상을 타기팅할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> 시간대 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>대상자를 타기팅할 시작 및 종료 날짜를 추가합니다. </p> <p>예를 들어 위에서 언급한 새로운 결합된 임시 대상자를 사용하는 경우 블랙 프라이데이 이전 3일 동안에 특정 콘텐츠에 돈을 덜 쓰는 대상자와 블랙 프라이데이 이후에 다른 콘텐츠에 돈을 덜 쓰는 대상자를 타기팅할 수 있습니다. </p> <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local"> 시간대 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 스마트 컬렉션 저장 </td> 
@@ -2996,7 +2996,7 @@ Adobe Target Standard/Premium 16.7.1(2016년 7월 21일) 릴리스에는 다음�
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Automated Personalization 활동의 각 요청에 대해 mbox 항목 조건 평가 </td> 
-   <td colname="col2"> <p>Automated Personalization 활동에서 보다 정확한 오퍼 전달을 위해 각 요청에 대해 항목 기준(URL 타기팅, 템플릿 규칙, 대상 타겟)이 평가됩니다. </p> <p>자세한 내용은 <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Automated Personalization 활동에서 보다 정확한 오퍼 전달을 위해 각 요청에 대해 항목 기준(URL 타기팅, 템플릿 규칙, 대상자 타깃)이 평가됩니다. </p> <p>자세한 내용은 <a href="/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local"> Automated Personalization </a>를 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3045,7 +3045,7 @@ Adobe Target Standard/Premium 16.5.1(2016년 5월 19일) 릴리스에는 다음�
  <tbody> 
   <tr> 
    <td colname="col1"> 경험 버전 </td> 
-   <td colname="col2"> <p>이제 다른 대상으로 타기팅된 버전을 A/B 활동의 경험 내에서 설정할 수 있습니다. </p> <p><a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">다중 대상자에게 경험을 타겟하기</a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>이제 다른 대상자로 타기팅된 버전을 A/B 활동의 경험 내에서 설정할 수 있습니다. </p> <p><a href="/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF" format="dita" scope="local">다중 대상자에게 경험을 타겟하기</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> 권장 사항 사용자 지정 알고리즘 </td> 
@@ -3225,7 +3225,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
   </tr> 
   <tr> 
    <td colname="col1"> 종속적 성공 지표 </td> 
-   <td colname="col2"> <p>이 기능은 이전에 다른 성공 지표에 도달한 적이 있는 사용자만 성공 지표에 도달한 것으로 계산하는 성공 지표 기준 옵션을 제공합니다. </p> <p> 예를 들어 홈 페이지에서 영웅 이미지를 변경하는 테스트가 있을 수 있습니다. 마케터는 영웅 이미지를 클릭한 사람의 경우만 전환으로 계산하기를 원할 수 있습니다. 따라서 마케터는 "홈 페이지 영웅 클릭"에 대해 성공 지표를 설정하고 구매에 대해 다른 지표를 설정할 수 있습니다. 그런 후 마케터는 "구매" 지표에 대해 방문자가 "홈 페이지 영웅 클릭" 성공 지표에 먼저 도달하도록 하는 규칙을 추가할 수 있습니다. </p> <p> <p>참고: 성공 지표의 한 위치에 대해 대상 타기팅을 설정하면 해당 지표에 대해서는 이 기능이 지원되지 않습니다. </p> </p> <p> 종속적 성공 지표는 AB, XT 및 MVT 활동에서만 지원됩니다. 자동화된 맞춤설정 및 권장 사항 지원은 이후에 사용할 수 있게 될 예정입니다. </p> <p>자세한 내용은 <a href="/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local"> 성공 지표 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>이 기능은 이전에 다른 성공 지표에 도달한 적이 있는 사용자만 성공 지표에 도달한 것으로 계산하는 성공 지표 기준 옵션을 제공합니다. </p> <p> 예를 들어 홈 페이지에서 영웅 이미지를 변경하는 테스트가 있을 수 있습니다. 마케터는 영웅 이미지를 클릭한 사람의 경우만 전환으로 계산하기를 원할 수 있습니다. 따라서 마케터는 "홈 페이지 영웅 클릭"에 대해 성공 지표를 설정하고 구매에 대해 다른 지표를 설정할 수 있습니다. 그런 후 마케터는 "구매" 지표에 대해 방문자가 "홈 페이지 영웅 클릭" 성공 지표에 먼저 도달하도록 하는 규칙을 추가할 수 있습니다. </p> <p> <p>참고: 성공 지표의 한 위치에 대해 대상자 타기팅을 설정하면 해당 지표에 대해서는 이 기능이 지원되지 않습니다. </p> </p> <p> 종속적 성공 지표는 AB, XT 및 MVT 활동에서만 지원됩니다. 자동화된 맞춤설정 및 권장 사항 지원은 이후에 사용할 수 있게 될 예정입니다. </p> <p>자세한 내용은 <a href="/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924" format="dita" scope="local"> 성공 지표 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 향상된 자동 할당 유용성 </td> 
@@ -3257,7 +3257,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
 
 | 기능 | 설명 |
 |---|---|
-| 비율별 활동 항목 타기팅. | 이제 [A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 및 [다변량](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 활동에 대한 항목을 방문자 또는 대상 구성원의 백분율로 제한할 수 있습니다. 예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다. |
+| 비율별 활동 항목 타기팅. | 이제 [A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 및 [다변량](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) 활동에 대한 항목을 방문자 또는 대상 구성원의 백분율로 제한할 수 있습니다. 예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다. |
 | 자동 할당에서 매출, 주문 및 참여 지원 | 이제 자동 할당을 선택하고 A/B 활동의 목표로 매출(RPV), 주문 및 참여 지표를 선택할 수 있습니다. 이전에는 전환 지표만 지원되었습니다. [자동화된 트래픽 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)을 참조하십시오. |
 | 소스별 필터링 | 이제 활동이 생성된 소스별로 활동 목록을 필터링할 수 있습니다. 선택 항목은 Adobe Target 및 Adobe Experience Manager입니다. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. |
 | 향상된 자동화된 맞춤설정 성능 | 자동화된 맞춤설정이 많은 수의 오퍼/위치 조합에 대해 더 나은 성능을 제공하도록 재디자인되었습니다. |
@@ -3752,7 +3752,7 @@ target/r_release-notes-2015.xml
       <li id="li_6D112A4DB2344B4E9F1B84E943A43DD8">ISP </li> 
       <li id="li_5C95F3F55D194D81905F8138FB546288">네트워크 도메인 </li> 
       <li id="li_63E3606516BC4FFC8C91E49297542464">연결 속도(옵션: 광대역, 전화 접속, 모바일, t1, t3, 위성) </li> 
-     </ul> </p> <p><a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> 대상 </a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p><a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> 대상자 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>권장 사항 Premium의 새로운 기능 </p> </td> 
@@ -3856,7 +3856,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe Analytics에서 고객 속성 업로드 </p> </td> 
-   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 기업 고객 데이터를 캡처하는 Analytics 사용자는 이 데이터를 Experience Cloud에 업로드할 수 있습니다. </p> <p>데이터가 Experience Cloud에 업로드되면 세그먼트 정의에 사용자 특성을 포함하는 대상 세그먼트를 Analytics에서 생성하여 Target으로 해당 대상을 공유하는 등의 작업을 할 수 있습니다. </p> <p> <p>참고: Target에서는 아직 원시 고객 속성을 직접 사용할 수 없습니다. </p> </p></td> 
+   <td colname="col2"> <p>CRM(고객 관계 관리) 데이터베이스에서 기업 고객 데이터를 캡처하는 Analytics 사용자는 이 데이터를 Experience Cloud에 업로드할 수 있습니다. </p> <p>데이터가 Experience Cloud에 업로드되면 세그먼트 정의에 사용자 특성을 포함하는 대상자 세그먼트를 Analytics에서 생성하여 Target으로 해당 대상자를 공유하는 등의 작업을 할 수 있습니다. </p> <p> <p>참고: Target에서는 아직 원시 고객 속성을 직접 사용할 수 없습니다. </p> </p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3919,7 +3919,7 @@ target/r_release-notes-2015.xml
   </tr> 
   <tr> 
    <td colname="col1"> 모바일 디바이스 타기팅 </td> 
-   <td colname="col2"> 대상을 만들 때 모바일 디바이스 옵션을 선택할 수 있습니다. <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local">대상</a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> 대상자를 만들 때 모바일 디바이스 옵션을 선택할 수 있습니다. <p>자세한 내용은 <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local">대상자</a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 클릭 추적(Automated Personalization) </td> 
@@ -4077,15 +4077,15 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> Adobe Target에 대한 Adobe Analytics의 향상된 보고 기능 </td> 
-   <td colname="col2"> Adobe Analytics 고객은 <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> 테스트 설정 프로세스 </a> 동안 Analytics를 기본 보고 소스로 선택할 수 있습니다. 더 이상 결과를 필터링하는 데 사용할 성공 지표 또는 대상을 모두 선택할 필요가 없습니다. 보고 내에서, Analytics에 정의된 아무 성공 지표나 대상 세그먼트를 선택하고 이를 최적화 결과에 대한 광범위한 필터링 및 드릴다운 분석을 위해 보고에 소급하여 적용할 수 있습니다. <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>을(를) 방문하세요. </p> </p> </td> 
+   <td colname="col2"> Adobe Analytics 고객은 <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md#task_FE48F7B077C44A5BA015B087428412EF" format="dita" scope="local"> 테스트 설정 프로세스 </a> 동안 Analytics를 기본 보고 소스로 선택할 수 있습니다. 더 이상 결과를 필터링하는 데 사용할 성공 지표 또는 대상자를 모두 선택할 필요가 없습니다. 보고 내에서, Analytics에 정의된 아무 성공 지표나 대상자 세그먼트를 선택하고 이를 최적화 결과에 대한 광범위한 필터링 및 드릴다운 분석을 위해 보고에 소급하여 적용할 수 있습니다. <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>을(를) 방문하세요. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td colname="col1"> 마스터 마케팅 프로필 실시간 대상 </td> 
-   <td colname="col2"> 방문자 ID 및 데이터를 솔루션 간에 사용할 수 있도록 하나의 실행 가능한 프로필로 통합하는 마스터 마케팅 프로필을 활용하십시오. Adobe Analytics의 세그먼트 작성 프로세스 동안 확인란을 선택하면 Adobe Target의 사용자 지정 대상 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 Target에서 방문자를 타기팅하는 데 사용할 수 있습니다. <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>을(를) 방문하세요. </p> </p> </td> 
+   <td colname="col1"> 마스터 마케팅 프로필 실시간 대상자 </td> 
+   <td colname="col2"> 방문자 ID 및 데이터를 솔루션 간에 사용할 수 있도록 하나의 실행 가능한 프로필로 통합하는 마스터 마케팅 프로필을 활용하십시오. Adobe Analytics의 세그먼트 작성 프로세스 동안 확인란을 선택하면 Adobe Target의 사용자 지정 대상자 라이브러리 내에서 세그먼트를 사용할 수 있습니다. Analytics나 Audience Manager에서 만들어진 세그먼트는 Target에서 방문자를 타기팅하는 데 사용할 수 있습니다. <p> <p>참고: 이 기능에 대한 액세스 권한을 요청하려면 <a href="https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y" format="http" scope="external"> https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y </a>을(를) 방문하세요. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 경험 타기팅 활동 유형 </td> 
-   <td colname="col2"> <a href="/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> 다른 대상에 대한 다른 경험들을 하나의 활동에서 타기팅합니다 </a>. <p> <p>참고: 이는 Target Advanced의 랜딩 페이지 캠페인과 유사한 기능을 제공합니다. </p> </p> </td> 
+   <td colname="col2"> <a href="/help/main/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4" format="dita" scope="local"> 다른 대상자에 대한 다른 경험들을 하나의 활동에서 타기팅합니다 </a>. <p> <p>참고: 이는 Target Advanced의 랜딩 페이지 캠페인과 유사한 기능을 제공합니다. </p> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 다중 페이지 테스트 </td> 
@@ -4154,11 +4154,11 @@ target/r_release-notes-2014.xml
  <tbody> 
   <tr> 
    <td colname="col1"> 활동 충돌 </td> 
-   <td colname="col2"> <p> Target Standard가 충돌하는 활동 목록을 제공합니다. 여러 활동이 동일한 페이지로 콘텐츠를 전송하도록 설정되면 활동 충돌이 발생합니다. 활동 충돌이 발생하면 다른 활동이 입력되었기 때문에 예상되는 콘텐츠가 페이지에 표시되지 않을 수 있습니다. </p> <p> 각 활동의 대상 타기팅에 상관없이 동일한 URL의 모든 활동이 나열됩니다. </p> <p> 활동에 충돌이 있으면 활동 개요 페이지에서 <span class="wintitle"> 충돌 </span> 탭을 사용할 수 있습니다. 충돌하는 활동 목록은 이 탭을 열어서 확인할 수 있습니다. 목록에서 활동을 클릭하면 해당 활동에 대한 개요 페이지를 확인할 수 있습니다. </p> <p><a href="/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> 활동 충돌 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p> Target Standard가 충돌하는 활동 목록을 제공합니다. 여러 활동이 동일한 페이지로 콘텐츠를 전송하도록 설정되면 활동 충돌이 발생합니다. 활동 충돌이 발생하면 다른 활동이 입력되었기 때문에 예상되는 콘텐츠가 페이지에 표시되지 않을 수 있습니다. </p> <p> 각 활동의 대상자 타기팅에 상관없이 동일한 URL의 모든 활동이 나열됩니다. </p> <p> 활동에 충돌이 있으면 활동 개요 페이지에서 <span class="wintitle"> 충돌 </span> 탭을 사용할 수 있습니다. 충돌하는 활동 목록은 이 탭을 열어서 확인할 수 있습니다. 목록에서 활동을 클릭하면 해당 활동에 대한 개요 페이지를 확인할 수 있습니다. </p> <p><a href="/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E" format="dita" scope="local"> 활동 충돌 </a>을 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 새로운 타기팅 옵션: 프로필, 사용자 </td> 
-   <td colname="col2"> 프로필 및 사용자 매개 변수를 타기팅할 수 있습니다. <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> 대상 </a>을 참조하십시오. </td> 
+   <td colname="col2"> 프로필 및 사용자 매개 변수를 타기팅할 수 있습니다. <a href="/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271" format="dita" scope="local"> 대상자 </a>를 참조하십시오. </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 요소 삽입 </td> 
@@ -4204,7 +4204,7 @@ target/r_release-notes-2014.xml
   </tr> 
   <tr> 
    <td colname="col1"> 고객을 설정할 때 위치 타기팅 </td> 
-   <td colname="col2"> <p>고객을 만들 때 위치(mbox)를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. </p> <p><a href="/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local"> 새 대상 만들기 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>고객을 만들 때 위치(mbox)를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. </p> <p><a href="/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1" format="dita" scope="local"> 새 대상자 만들기 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 링크 미리보기(개선 사항) </td> 

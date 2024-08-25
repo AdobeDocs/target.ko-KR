@@ -2,7 +2,7 @@
 keywords: 권장 사항;설정;환경 설정;업계 카테고리;호환되지 않는 기준 필터링;기본 호스트 그룹;썸네일 기본 url;Recommendations API 토큰
 description: Adobe Target에서 Recommendations 활동을 구현하는 방법을 알아봅니다.
 title: Recommendations 활동을 구현하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1

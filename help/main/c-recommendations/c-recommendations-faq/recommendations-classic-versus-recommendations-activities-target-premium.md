@@ -2,7 +2,7 @@
 keywords: 권장 사항, 권장 사항 알고리즘, 권장 사항 활동, recommendations classic
 description: 정보를 검토하면,  [!DNL Target]  Premium의 기존 Recommendations Classic과 Recommendations 활동의 차이점을 이해하는 데 도움이 됩니다.
 title: ' [!DNL Target]  Premium에서 Recommendations Classic과 Recommendations 간의 차이점은 무엇입니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -67,7 +67,7 @@ ht-degree: 88%
 
 ## 타겟 지정 {#section_93295EA0DBA14210B8518AF4802A459F}
 
-[!DNL Recommendations Classic]에는 6개의 타기팅 선택 사항이 있었습니다. 권장 사항 활동은 Target의 전체 타기팅 선택 사항을 사용합니다. [!DNL Target] 또는 기타 [!DNL Adobe Experience Cloud] 대상(예: [!DNL Audience Manager] 및 [!DNL Analytics])을 사용하여 대상을 정의한 다음, 각 디자인을 보게 되는 활동 참여자의 백분율과 통제군을 보게 되는 백분율을 선택하십시오.
+[!DNL Recommendations Classic]에는 6개의 타기팅 선택 사항이 있었습니다. 권장 사항 활동은 Target의 전체 타기팅 선택 사항을 사용합니다. [!DNL Target] 또는 기타 [!DNL Adobe Experience Cloud] 대상자(예: [!DNL Audience Manager] 및 [!DNL Analytics])를 사용하여 대상자를 정의한 다음, 각 디자인을 보게 되는 활동 참여자의 백분율과 통제군을 보게 되는 백분율을 선택하십시오.
 
 ![overview_targeting 이미지](assets/overview_targeting.png)
 

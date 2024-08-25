@@ -1,5 +1,5 @@
 ---
-keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;타겟;대상
+keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;타깃;대상자
 description: 경험 타기팅 및 Adobe [!DNL Target] 활동에 사용된 대상에 대한 FAQ를 봅니다.
 title: 타겟 및 대상에 대한 질문과 대답은 어디에서 찾을 수 있습니까?
 feature: Audiences
@@ -11,9 +11,9 @@ ht-degree: 56%
 
 ---
 
-# Target 및 대상 FAQ
+# Target 및 대상자 FAQ
 
-경험 타깃팅 및 대상에 대한 FAQ 목록
+경험 타기팅 및 대상자에 대한 FAQ 목록
 
 ## [!DNL Target]은(는) 타깃팅에서 URL을 어떻게 평가합니까? {#url}
 
@@ -68,7 +68,7 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 ## 대상을 작성할 때 [!DNL Target] 라이브러리 아래의 사전 작성 대상이 다른 범주 아래에 표시되는 이유는 무엇입니까? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-타겟 라이브러리 카테고리의 사전 빌드된 대상은 이전 대상으로서, 다른 카테고리에 있습니다. 일례로, 이전 타겟 라이브러리 > 새 방문자 수 대상에는 이에 대응하는 업데이트된 상대(방문자 프로필 > 새 방문자)가 있습니다.
+타깃 라이브러리 카테고리의 사전 빌드된 대상자는 이전 대상자로서, 다른 카테고리에 있습니다. 일례로, 이전 타깃 라이브러리 > 새 방문자 대상자에는 이에 대응하는 업데이트된 상대(방문자 프로필 > 새 방문자)가 있습니다.
 
 성과가 개선되었으므로 최신 대상을 사용하는 것이 좋습니다(우수 사례). 일부 고객이 이전의 사전 빌드된 대상을 사용 중일 수 있으므로 이러한 대상을 Target 인터페이스에서 제거하지 않았습니다.
 
@@ -86,9 +86,9 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 ## [!DNL Target], Adobe Audience Manager(AAM) 및 핵심 서비스의 대상 라이브러리에 있는 동일한 대상의 이름이 서로 다른 이유는 무엇입니까? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-[!DNL Target]의 대상 이름은 고유합니다. 그러나 [!DNL AAM]과 [!DNL Audience Library]에서는 여러 대상(서로 다른 폴더에 있을 경우)에 대해 동일한 이름을 사용할 수 있습니다. [!DNL Target]에 [!DNL AAM] 또는 [!DNL Audience Library] 대상에 해당하는 대상 이름이 발생하면 [!DNL Target]은 해당 이름에 &quot;#&lt;number>&quot;를 추가합니다.
+[!DNL Target]의 대상자 이름은 고유합니다. 그러나 [!DNL AAM]과 [!DNL Audience Library]에서는 여러 대상자(서로 다른 폴더에 있을 경우)에 대해 동일한 이름을 사용할 수 있습니다. [!DNL Target]에 [!DNL AAM] 또는 [!DNL Audience Library] 대상자에 해당하는 대상자 이름이 발생하면 [!DNL Target]은 해당 이름에 &quot;#&lt;number>&quot;를 추가합니다.
 
-예를 들어, &quot;PC 사용자&quot;([!DNL AAM]에서)와 &quot;PC 사용자 #1&quot;([!DNL Target]에서)이라는 대상이 표시될 수 있습니다.
+예를 들어, &quot;PC 사용자&quot;([!DNL AAM]에서)와 &quot;PC 사용자 #1&quot;([!DNL Target]에서)이라는 대상자가 표시될 수 있습니다.
 
 ## 대상의 이름을 바꿀 수 없는 이유는 무엇입니까? {#section_54E420556F534D20836E261E253D8B97}
 
@@ -104,7 +104,7 @@ URL 문자열에서 동일한 매개 변수 이름을 두 번 이상 사용하�
 
 ## API를 통해 만들어진 대상에 대한 변경 사항이 [!DNL Target] UI에 반영되지 않는 이유는 무엇입니까? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
-오퍼 및 프로필 스크립트와 달리 Target Standard를 통해 작성된 대상에 대해 API에서 변경한 사항은 현재 Target UI에 다시 동기화되지 않습니다.
+오퍼 및 프로필 스크립트와 달리 Target Standard를 통해 작성된 대상자에 대해 API에서 변경한 사항은 현재 Target UI에 다시 동기화되지 않습니다.
 
 ## 숫자를 나타내는 문자열(부동 소수점 숫자도 지원됨)은 숫자로 비교됩니다.{#strings-that-represent-numbers}
 

@@ -21,7 +21,7 @@ ht-degree: 31%
 
 [!DNL People] 서비스의 [고객 특성](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)은(는) [!DNL Adobe Experience Cloud]의 일부이며 엔터프라이즈가 고객 데이터를 [!DNL Experience Cloud] 플랫폼으로 푸시할 수 있는 도구를 제공합니다.
 
-[!DNL Experience Cloud]로 온보딩되는 데이터는 모든 [!DNL Experience Cloud] 워크플로우에 사용할 수 있습니다. [!DNL Target]은(는) 특성을 기반으로 재방문 고객을 타깃팅하기 위해 이 데이터를 사용합니다. [!DNL Adobe Analytics]는 이러한 속성을 사용하며, 분석 및 세그멘테이션에 사용될 수 있습니다.
+[!DNL Experience Cloud]로 온보딩되는 데이터는 모든 [!DNL Experience Cloud] 워크플로에 사용할 수 있습니다. [!DNL Target]은(는) 특성을 기반으로 재방문 고객을 타깃팅하기 위해 이 데이터를 사용합니다. [!DNL Adobe Analytics]는 이러한 속성을 사용하며, 분석 및 세그멘테이션에 사용될 수 있습니다.
 
 ![crs 예제](/help/main/c-target/c-visitor-profile/assets/crs.png)
 
@@ -116,9 +116,9 @@ ht-degree: 31%
 
 ### 타깃팅 대상자 만들기
 
-대상을 만들 때 [!DNL Target]에서 [!UICONTROL Visitor Profile] 섹션에서 고객 특성을 선택할 수 있습니다. 모든 고객 속성에는 목록에 &lt; data_source_name > 접두사가 있습니다. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상을 구성합니다.
+대상을 만들 때 [!DNL Target]에서 [!UICONTROL Visitor Profile] 섹션에서 고객 특성을 선택할 수 있습니다. 모든 고객 속성에는 목록에 &lt; data_source_name > 접두사가 있습니다. 필요에 따라 이러한 특성을 다른 데이터 특성과 결합하여 대상자를 구성합니다.
 
-![Target 대상](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
+![Target 대상자](/help/main/c-target/c-visitor-profile/assets/TargetAudience.png)
 
 ### 토큰을 사용하여 프로필 스크립트 만들기
 

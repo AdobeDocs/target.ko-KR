@@ -43,7 +43,7 @@ ht-degree: 34%
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
-1. (조건부) [Target Premium 고객](/help/main/c-intro/intro.md#premium)인 경우 **[!UICONTROL Choose Workspace]** 드롭다운 목록에서 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 선택하십시오.
+1. (조건부) [Target Premium 고객](/help/main/c-intro/intro.md#premium)인 경우 **[!UICONTROL Choose Workspace]** 드롭다운 목록에서 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을(를) 선택하십시오.
 
    이전 그림에서 [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/main/c-intro/intro.md) 기능이며 조직에 [!UICONTROL Target Standard] 라이선스가 있는 경우 표시되지 않을 수 있습니다.
 
@@ -91,7 +91,7 @@ ht-degree: 34%
 
    ![A/B 테스트 타깃팅 단계](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new.png)
 
-   흐름 다이어그램은 활동의 대상을 선택하고, 경험을 설정하는 단계를 안내합니다.
+   흐름 다이어그램은 활동의 대상자를 선택하고, 경험을 설정하는 단계를 안내합니다.
 
 1. **[!UICONTROL Audience]** 상자에서 편집 아이콘(세로 줄임표)을 클릭하고 **[!UICONTROL Replace Audience]**&#x200B;을 클릭한 다음 [활동에 대한 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)합니다.
 
@@ -99,9 +99,9 @@ ht-degree: 34%
 
 1. 활동을 입력하려는 자격 있는 방문자의 비율을 선택합니다.
 
-   ![대상 비율](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   ![대상자 비율](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
-   예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다.
+   예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다.
 
 1. 트래픽 할당을 설정합니다.
 
@@ -111,7 +111,7 @@ ht-degree: 34%
 
    * **[!UICONTROL Manual (Default)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다. 
 
-   * **[!UICONTROL Auto-allocate to best experience]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 실적 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [[!UICONTROL Auto-Allocate] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)를 참조하십시오.
+   * **[!UICONTROL Auto-allocate to best experience]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 성과 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [[!UICONTROL Auto-Allocate] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)를 참조하십시오.
 
    * **[!UICONTROL Auto-target for personalized experiences]**: [!DNL Target]은(는) 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험을 식별한 후 개별 고객 프로필 및 유사한 방문자의 이전 동작을 기준으로 방문자에게 가장 잘 맞춤 설정된 경험을 제공함으로써 콘텐츠를 개인화하고 전환을 유도합니다. 자세한 내용은 [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)를 참조하십시오.
 
@@ -127,7 +127,7 @@ ht-degree: 34%
 
 ## 교육 비디오: A/B 테스트 만들기(8:36) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
-이 비디오에서는 [!DNL Target]의 안내가 있는 3단계 워크플로우를 사용하여 A/B 테스트를 만드는 방법을 보여 줍니다.
+이 비디오에서는 [!DNL Target]의 안내가 있는 3단계 워크플로를 사용하여 A/B 테스트를 만드는 방법을 보여 줍니다.
 
 * [!DNL Adobe Target]에서 [!UICONTROL A/B Test] 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당

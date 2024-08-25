@@ -2,7 +2,7 @@
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결
 description: ' [!DNL Target] 의 [!UICONTROL Auto-Target] 활동이 고객 프로필과 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL Auto-Target] 활동이란?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
@@ -132,7 +132,7 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 
 ### [!DNL Target]은(는) 자동으로 모든 [!DNL Adobe Experience Cloud] 공유 대상을 사용하여 개인화 모델을 만듭니다.
 
-* 모델에 대상을 추가하기 위해 특정한 작업을 수행할 필요가 없습니다. [!DNL Target]에서 [!DNL Experience Cloud Audiences] 사용에 대한 자세한 내용은 [Experience Cloud 대상](/help/main/c-integrating-target-with-mac/mmp.md)을 참조하십시오.
+* 모델에 대상을 추가하기 위해 특정한 작업을 수행할 필요가 없습니다. [!DNL Target]에서 [!DNL Experience Cloud Audiences] 사용에 대한 자세한 내용은 [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)를 참조하십시오.
 
 ### 마케터는 오프라인 데이터, 성향 점수 또는 기타 사용자 지정 데이터를 업로드하여 개인화 모델을 만들 수 있습니다.
 

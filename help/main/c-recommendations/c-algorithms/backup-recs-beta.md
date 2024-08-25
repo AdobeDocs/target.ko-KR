@@ -1,12 +1,13 @@
 ---
 keywords: 권장 사항;백업;백업
-description: ' [!DNL Target Recommendations] Adobe에서 백업 권장 사항을 사용하는 방법을 알아봅니다. '
+description: ' [!DNL Target Recommendations] Adobe에서 백업 권장 사항을 사용하는 방법을 알아봅니다.'
 title: ' [!DNL Target Recommendations]에서 백업 권장 사항을 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
+exl-id: 3968e96d-cc46-4f2d-8aee-6dafee756790
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 70%

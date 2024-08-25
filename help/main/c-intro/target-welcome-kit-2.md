@@ -31,7 +31,7 @@ ht-degree: 79%
 | 자동 할당 | 둘 이상의 경험에서 최고의 성능을 발휘하는 경험을 식별하고, 테스트가 계속 실행되고 학습하는 동안 전환을 늘리기 위해 더 많은 트래픽을 자동으로 승자에게 재할당합니다. [!DNL Adobe Sensei]으로 구동되는 인공 지능을 사용합니다. [자세히 알아보기](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) |
 | 자동 타겟<br>(Premium) | [!DNL Target] 의 Adobe Sensei AI를 활용하여 각 방문자의 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 토대로 여러 방문자의 최상의 경험을 결정하고 전달합니다. 자동 타겟을 사용하면 규모에 맞게 개인화할 수 있습니다. [자세히 알아보기](/help/main/c-activities/auto-target/auto-target-to-optimize.md) |
 | Automated Personalization<br>(Premium) | [!DNL Adobe Sensei] 에서 제공하는 고급 머신 러닝 알고리즘과 자동화를 사용하여 오퍼의 다양한 이미지, 복사 및 기타 요소를 검토하고 방문자당 전환 또는 매출 증대와 같은 비즈니스 목표를 가장 잘 달성하는 각 방문자에게 최상의 조합을 제공합니다. [자세히 알아보기](/help/main/c-activities/t-automated-personalization/automated-personalization.md) |
-| 경험 타기팅(XT) | 사용자가 정의한 규칙 및 기준 세트를 기준으로 특정 대상에게 콘텐츠를 전달합니다. **[!UICONTROL Experience Targeting]**&#x200B;은(는) 대상자가 가치 있고 어떤 경험이 그들과 공감하는지 잘 알고 있을 때 특정 경험이나 콘텐츠를 특정 대상자에게 타기팅하는 데 유용합니다. [자세히 알아보기](/help/main/c-activities/t-experience-target/experience-target.md) |
+| 경험 타기팅(XT) | 사용자가 정의한 규칙 및 기준 세트를 기준으로 특정 대상자에게 콘텐츠를 전달합니다. **[!UICONTROL Experience Targeting]**&#x200B;은(는) 대상자가 가치 있고 어떤 경험이 그들과 공감하는지 잘 알고 있을 때 특정 경험이나 콘텐츠를 특정 대상자에게 타기팅하는 데 유용합니다. [자세히 알아보기](/help/main/c-activities/t-experience-target/experience-target.md) |
 | MVT(다변량 테스트) | 세 가지 다른 배경 이미지, 두 가지 변형 복사본 및 두 가지 다른 버튼 색상과 같이 페이지에 있는 요소의 변형 또는 디지털 경험의 가능한 모든 조합을 비교합니다. MVT는 어떤 조합이 특정 대상자를 위해 가장 잘 수행되고 어떤 요소가 결과에 가장 큰 영향을 미치는지 결정합니다. [자세히 알아보기](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) |
 | Recommendations<br>(Premium) | Adobe Sensei AI를 사용하여 이전 활동과 다른 고객의 활동에 따라 관심 있는 제품 또는 콘텐츠를 자동으로 제안합니다. [자세히 알아보기](/help/main/c-recommendations/recommendations.md) |
 
@@ -64,7 +64,7 @@ ht-degree: 79%
 | --- | --- |
 | 경험 | 구매 단계 또는 다른 논리적 페이지 순서를 구성하는 페이지, 전체 웹 페이지 또는 페이지 세트에 있는 오퍼, 이미지, 텍스트, 버튼, 비디오, 이러한 여러 요소의 조합입니다. 음성 도우미, 고객 서비스 스크립트 또는 음료 자판기의 개인화된 향에 대한 답변일 수도 있습니다. [!DNL Target] 활동에서 경험을 테스트하거나 개인화합니다. [자세히 알아보기](/help/main/c-experiences/experiences.md) |
 | 오퍼 | 이미지, 텍스트, HTML, 링크, 비디오, 콜 투 액션 버튼, 음성 도우미 응답 또는 기타 모든 종류의 콘텐츠를 포함할 수 있는 콘텐츠 블록입니다. 할인, 무료 배송 등을 제안할 수 있습니다. 오퍼는 웹 페이지에 표시될 수 있지만 음성 도우미나 게임 콘솔과 같은 고객 터치포인트에서도 경험할 수 있습니다. 오퍼를 테스트할 때 다른 오퍼와 비교하여 성공 여부를 측정합니다. [자세히 알아보기](/help/main/c-experiences/c-manage-content/manage-content.md) |
-| 대상자 | 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. 대상 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타기팅할 수 있습니다. 방문자가 타겟 대상의 일부로 식별되면 [!DNL Target] 은 활동 작성 중에 정의된 기준에 따라 표시할 경험을 결정합니다. [자세히 알아보기](/help/main/c-target/target.md) |
+| 대상자 | 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. 대상자 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상자에 타기팅할 수 있습니다. 방문자가 타깃 대상자의 일부로 식별되면 [!DNL Target] 은 활동 작성 중에 정의된 기준에 따라 표시할 경험을 결정합니다. [자세히 알아보기](/help/main/c-target/target.md) |
 | 성공 지표 | [!DNL Target] 활동에서 주어진 경험 또는 오퍼의 성공 여부를 확인할 수 있는 주요 비즈니스 조치입니다. 예를 들어 새 오퍼가 방문자당 매출을 늘리는지 또는 장바구니에 품목을 추가할지 여부를 결정할 수 있습니다. 성공 지표는 등록, 주문 또는 구매 흐름과 관련된 문제뿐만 아니라 방문자나 고객 참여와 관련된 문제를 발견하는 데에도 유용할 수 있습니다. [자세히 알아보기](/help/main/c-activities/r-success-metrics/success-metrics.md) |
 | 보고서 | 데이터를 기반으로 결정을 내리는 데 도움이 되는 활동의 진행 상황과 결과에 대한 정보입니다. 보고서 데이터를 통해 테스트 종료 시점을 결정하고 우승자인 경험 또는 오퍼를 보여 주고 다음 작업을 결정하는 데 필요한 인사이트 또는 통찰력을 제공할 수 있습니다. [자세히 알아보기](/help/main/c-reports/reports.md) |
 

@@ -2,7 +2,7 @@
 keywords: 권장 사항;자주 묻는 질문;faq
 description: ' [!DNL Target Recommendations] 디자인에 대한 FAQ 및 답변.'
 title: ' [!DNL Target Recommendations]에 대한 디자인 질문에 대한 답변은 어디에서 얻을 수 있습니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76

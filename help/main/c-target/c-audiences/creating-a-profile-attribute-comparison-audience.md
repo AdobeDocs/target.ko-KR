@@ -1,5 +1,5 @@
 ---
-keywords: 대상;성향;프로필 속성;비교하기;비교;대상 만들기;대상 작성
+keywords: 대상자;성향;프로필 속성;비교하기;비교;대상자 만들기;대상자 작성
 description: 두 프로필 속성을 비교할 대상을 정의하는 방법을 알아봅니다.
 title: 대상에서 사용할 두 프로필 속성을 비교할 수 있습니까?
 feature: Audiences
@@ -11,9 +11,9 @@ ht-degree: 49%
 
 ---
 
-# 프로필 속성 비교 대상 만들기
+# 프로필 속성 비교 대상자 만들기
 
-[!DNL Adobe Target]에서 대상을 정의하여 [대상 라이브러리](/help/main/c-target/c-audiences/audiences.md) 또는 [활동 전용 대상](/help/main/c-target/creating-activity-only-audience.md)의 두 프로필 특성을 비교합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상을 정의합니다.
+[!DNL Adobe Target]에서 대상을 정의하여 [대상 라이브러리](/help/main/c-target/c-audiences/audiences.md) 또는 [활동 전용 대상](/help/main/c-target/creating-activity-only-audience.md)의 두 프로필 특성을 비교합니다. 보다 큼, 보다 작음 또는 같음 등의 연산자를 사용하여 두 개 다른 프로필 속성 값을 동적으로 비교하는 대상자를 정의합니다.
 
 >[!NOTE]
 >
@@ -21,7 +21,7 @@ ht-degree: 49%
 
 ## 개요 {#section_303CBC78194D49A2A004945D425441E1}
 
-대상은 [!DNL Target] 활동에서 포함되거나 제외되는 사용자를 결정하는 규칙으로 정의됩니다. 대상 정의에는 여러 규칙이 포함될 수 있으며 각 규칙에는 여러 매개 변수가 포함될 수 있습니다. 포함된 규칙 중 하나가 [!UICONTROL Visitor Profile] 범주를 사용하는 경우 방문자 프로필 특성의 특정 값을 기준으로 규칙을 정의하거나 해당 특성의 값을 다른 방문자 프로필 특성과 비교할 수 있습니다.
+대상자는 [!DNL Target] 활동에서 포함되거나 제외되는 사용자를 결정하는 규칙으로 정의됩니다. 대상 정의에는 여러 규칙이 포함될 수 있으며 각 규칙에는 여러 매개 변수가 포함될 수 있습니다. 포함된 규칙 중 하나가 [!UICONTROL Visitor Profile] 범주를 사용하는 경우 방문자 프로필 특성의 특정 값을 기준으로 규칙을 정의하거나 해당 특성의 값을 다른 방문자 프로필 특성과 비교할 수 있습니다.
 
 예를 들어 가구 회사에 근무하면서 두 개의 고객 성향 점수를 [!DNL Target]에 업로드했다고 가정해 보겠습니다.
 
@@ -32,7 +32,7 @@ ht-degree: 49%
 
 자세한 내용은 [데이터를 Target으로 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}을 참조하세요.
 
-## 프로필 속성 비교 대상 만들기 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
+## 프로필 속성 비교 대상자 만들기 {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
 1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.

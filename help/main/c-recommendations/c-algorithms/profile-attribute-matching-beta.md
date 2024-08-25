@@ -2,11 +2,12 @@
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;동적;프로필 속성 일치
 description: 항목(엔티티)을 사용자 프로필의 값과 비교하여  [!DNL Target Recommendations] 에서 동적으로 필터링하는 방법을 알아봅니다.
 title: Recommendations 활동에서 프로필 속성 일치로 필터링하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+exl-id: 47ebfc0a-c220-4474-8a17-6fbfa0f94f0f
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '475'
 ht-degree: 0%

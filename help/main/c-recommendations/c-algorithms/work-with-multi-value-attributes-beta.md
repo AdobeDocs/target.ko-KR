@@ -5,7 +5,8 @@ title: Recommendations에서 다중 값 속성을 사용할 수 있습니까?
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
+exl-id: 94ac0f06-56e9-4ee7-a48e-f2485ec5ccfe
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 9%

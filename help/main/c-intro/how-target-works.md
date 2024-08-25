@@ -132,7 +132,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target]은 현재 중국에 에지 클러스터를 보유하고 있지 않으며, 방문자 실적은 중국의 [!DNL Target] 고객에 한정되어 있습니다. 국가 내에서 방화벽과 에지 클러스터 부족으로 인해 [!DNL Target] 이 배포된 사이트의 환경이 영향을 받을 수 있습니다. 경험을 렌더링하기 위해 속도가 느릴 수 있으며 페이지 로드에 영향을 미칠 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
+>[!DNL Adobe Target]은 현재 중국에 에지 클러스터를 보유하고 있지 않으며, 방문자 성과는 중국의 [!DNL Target] 고객에 한정되어 있습니다. 국가 내에서 방화벽과 에지 클러스터 부족으로 인해 [!DNL Target] 이 배포된 사이트의 환경이 영향을 받을 수 있습니다. 경험을 렌더링하기 위해 속도가 느릴 수 있으며 페이지 로드에 영향을 미칠 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
 
 원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}를 참조하십시오.
 

@@ -2,7 +2,7 @@
 keywords: 자동화된 개인화;ap;대상;앙상블;랜덤 포레스트;multi-armed bandit;thompson 샘플링;ml;머신 러닝
 description: 고급 머신 러닝을 사용하여 각 방문자에게 다양한 오퍼 변형을 일치시키는  [!DNL Adobe Target] 의 [!UICONTROL Automated Personalization](AP) 활동을 사용하는 방법에 대해 알아봅니다.
 title: '[!UICONTROL Automated Personalization](AP) 활동이란 무엇입니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
@@ -62,7 +62,7 @@ Random Forest는 선도적인 머신 러닝 방식입니다. 데이터 과학 �
 
 ## [!DNL Target]은(는) 자동으로 모든 [!DNL Adobe Experience Cloud] 공유 대상을 사용하여 개인화 모델을 만듭니다
 
-* 모델에 대상을 추가하기 위해 수행해야 할 특별한 작업은 없습니다. [!DNL Target]에서 [!DNL Experience Cloud Audiences] 사용에 대한 자세한 내용은 [Experience Cloud 대상](/help/main/c-integrating-target-with-mac/mmp.md)을 참조하십시오.
+* 모델에 대상을 추가하기 위해 수행해야 할 특별한 작업은 없습니다. [!DNL Target]에서 [!DNL Experience Cloud Audiences] 사용에 대한 자세한 내용은 [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)를 참조하십시오.
 
 ## 마케터는 오프라인 데이터, 성향 점수 또는 기타 사용자 지정 데이터를 업로드하여 개인화 모델을 만들 수 있습니다
 

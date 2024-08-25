@@ -1,5 +1,5 @@
 ---
-keywords: 활동 설정;A/B 목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
+keywords: 활동 설정;A/B 목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상자;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
 description: '[!UICONTROL Goals and Settings] 페이지를 사용하여 A/B 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
 title: ' [!DNL Target] A/B 활동에서 목표와 설정을 지정하는 방법'
 feature: A/B Tests
@@ -24,7 +24,7 @@ ht-degree: 35%
 | 설정의 지침을 완료하여 이 설정을 변경할 수 있습니다 | 설명 |
 |--- |--- |
 | [!UICONTROL Objective] | 추가 목표를 입력합니다. 목표는 사용자와 팀 구성원이 활동을 식별하는 데 도움이 되는 모든 정보일 수 있습니다. |
-| [!UICONTROL Priority] | 설정에 따라 [!UICONTROL Priority]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다.<P>대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>이 옵션이 [!UICONTROL Administration](기본값)에서 활성화되지 않으면 우선 순위 [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]을(를) 지정하십시오.<P>[세분화된 우선 순위](/help/main/administrating-target/reporting.md)를 사용하려면 [!UICONTROL Administration] > [!UICONTROL Reporting]을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오. <P>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오(0 = [!UICONTROL Low] 및 999 = [!UICONTROL High]). <P>이전 버전의 [!DNL Target]에서 만든 활동의 경우 [!UICONTROL Low] 우선 순위는 0으로, [!UICONTROL Medium]은(는) 5로, [!UICONTROL High]은(는) 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<P>참고: 세분화된 우선순위를 사용한 후에 이 선택 사항을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
+| [!UICONTROL Priority] | 설정에 따라 [!UICONTROL Priority]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>이 옵션이 [!UICONTROL Administration](기본값)에서 활성화되지 않으면 우선 순위 [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]을(를) 지정하십시오.<P>[세분화된 우선 순위](/help/main/administrating-target/reporting.md)를 사용하려면 [!UICONTROL Administration] > [!UICONTROL Reporting]을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오. <P>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오(0 = [!UICONTROL Low] 및 999 = [!UICONTROL High]). <P>이전 버전의 [!DNL Target]에서 만든 활동의 경우 [!UICONTROL Low] 우선 순위는 0으로, [!UICONTROL Medium]은(는) 5로, [!UICONTROL High]은(는) 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<P>참고: 세분화된 우선순위를 사용한 후에 이 선택 사항을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
 | 지속 시간 | 활동은 승인될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 이와 마찬가지로, 활동은 비활성화될 때 종료되거나 날짜 및 시간을 설정하여 종료할 수 있습니다. 시간 선택기는 24시간 형식을 사용하며 00:00은 자정을 나타냅니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오. |
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}

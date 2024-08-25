@@ -2,7 +2,7 @@
 keywords: 트래픽 견적 도구;자동화된 개인화;ap;트래픽 예측
 description: ' [!DNL Adobe Target] [!UICONTROL Traffic Estimator]을(를) 사용하여 [!UICONTROL Automated Personalization] 활동이 성공하기에 충분한 트래픽이 있는지 확인하십시오.'
 title: 성공적인 [!UICONTROL Automated Personalization] 활동을 위해 필요한 트래픽의 양은 어느 정도입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe

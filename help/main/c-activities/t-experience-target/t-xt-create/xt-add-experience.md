@@ -1,5 +1,5 @@
 ---
-keywords: 경험 만들기;경험 생성;우선순위;대상;경험;시각적 경험 작성기
+keywords: 경험 만들기;경험 생성;우선순위;대상자;경험;시각적 경험 작성기
 description: '[!UICONTROL Experience Targeting](XT) 활동에서  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)를 사용하여 페이지에서 경험을 만들고 편집하는 방법을 알아봅니다.'
 title: '[!UICONTROL Experience Targeting] 활동에서 경험을 만들려면 어떻게 해야 합니까?'
 feature: Experience Targeting
@@ -19,7 +19,7 @@ ht-degree: 36%
 
    [[!UICONTROL Experience Targeting] 활동을 만드는 동안](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 세 부분으로 구성된 안내 워크플로우([!UICONTROL Experiences])의 1단계는 [!UICONTROL All Visitors] 대상이 있는 기본 [!UICONTROL Experience A]을(를) 표시합니다.
 
-   ![모든 방문자 대상](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
+   ![모든 방문자 대상자](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
    이제 변경 사항이 [!UICONTROL Experience A]에 적용됩니다. 아래 단계에서 **[!UICONTROL Add Experience Targeting]**&#x200B;을(를) 클릭하여 추가 경험을 만듭니다.
 
@@ -35,9 +35,9 @@ ht-degree: 36%
 
    [!UICONTROL Add Audience] 대화 상자가 표시됩니다. 경험을 대상으로 타깃팅하려면 경험을 추가하기 전에 대상을 선택하십시오.
 
-   대상 라이브러리에는 [!DNL Target]의 일부로 사전에 만들어진 공통 대상을 포함하여 이전에 정의한 대상들이 포함되어 있습니다. 라이브러리에서 대상을 선택하거나, [새 대상을 만듭니다](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   대상자 라이브러리에는 [!DNL Target]의 일부로 사전에 만들어진 공통 대상자를 포함하여 이전에 정의한 대상자가 포함되어 있습니다. 라이브러리에서 대상자를 선택하거나, [새 대상자를 만듭니다](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
-   기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
+   기존 대상자를 선택할 수 있을 뿐만 아니라, 새 대상자를 만들지 않고 여러 대상자를 결합하여 임시로 결합한 대상자를 만들 수도 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
    대상을 만들 때 위치를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. [!UICONTROL Custom]([!UICONTROL Create Audience] > [!UICONTROL Custom])에서 위치를 선택한 다음 원하는 매개 변수를 지정합니다.
 
@@ -110,7 +110,7 @@ ht-degree: 36%
 
 * [!UICONTROL Experience Targeting] 활동을 구성하는 안내가 있는 3단계 워크플로를 설명합니다.
 * 지리적 영역에 있는 대상자에게 위치 특정 콘텐츠를 전달하는 방법을 설명합니다.
-* 올바른 콘텐츠가 올바른 대상에게 전달되도록 하기 위해 경험을 재정렬하는 방법을 설명합니다.
+* 올바른 콘텐츠가 올바른 대상자에게 전달되도록 하기 위해 경험을 재정렬하는 방법을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
 

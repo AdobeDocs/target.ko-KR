@@ -2,7 +2,7 @@
 keywords: 작업 공간;속성 관리;권한;제품 구성;제품 프로필;역할;프로젝트;관찰자;편집자;승인자;게시자
 description: 개별 작업 공간(제품 프로필)을 만든 다음 사용자에게 개별 페이지, 속성 또는 웹 사이트에 대한 다양한 역할과 권한을 할당하는 방법을 알아봅니다.
 title: 엔터프라이즈 사용자 권한이란 무엇이며 어떻게 사용할 수 있습니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
@@ -230,20 +230,20 @@ ht-degree: 48%
    * 사용자
 
 * 사용자는 한 작업 공간(제품 프로필)에서 다른 작업 공간으로 리소스를 이동할 수 없습니다. 그러나 복사는 지원됩니다.
-* [!DNL Audiences] 페이지에서 대상을 볼 때 페이지가 예상보다 더 느리게 로드됩니다. 어떤 방식으로든 검색 막대와 상호 작용하는 경우 대상이 더 빠르게 표시됩니다. 이 문제는 알려져 있으며 향후 업데이트에서 수정됩니다. 이 문제는 활동 생성 워크플로우 중에 대상을 선택하는 데 영향을 주지 않습니다.
+* [!DNL Audiences] 페이지에서 대상자를 볼 때 페이지가 예상보다 더 느리게 로드됩니다. 어떤 방식으로든 검색 막대와 상호 작용하는 경우 대상이 더 빠르게 표시됩니다. 이 문제는 알려져 있으며 향후 업데이트에서 수정됩니다. 이 문제는 활동 생성 워크플로우 중에 대상을 선택하는 데 영향을 주지 않습니다.
 * 다음 리소스는 새 Enterprise 권한 모델에 속합니다.
 
    * [!DNL Target Standard/Premium] 내에서 만든 활동, 대상 및 코드 오퍼는 고객이 사용 권한을 사용하도록 설정된 후에 사용할 수 있습니다. (참고: 고객은 [!DNL Target Premium]에 대한 권한이 있어야 합니다.)
    * 기본 Workspace의 기존 활동에 속성을 추가할 수 있지만 이 접근 방식은 변경될 수 있습니다.
-   * (Enterprise 권한이 활성화된 후에) Target Premium에서 만든 새 리소스(예: 활동, 코드 오퍼 및 대상)만 권한으로 제한할 수 있습니다.
+   * 엔터프라이즈 권한이 활성화된 후에 Target Premium 내에서 만든 새 리소스(예: 활동, 코드 오퍼 및 대상)만 권한으로 제한할 수 있습니다.
    * 외부 리소스는 기본 작업 공간의 사용자만 사용할 수 있습니다. 기본 작업 공간의 사용자 역할은 전역적으로 (모든 Target 요청 및 모든 Target 리소스에) 적용됩니다.
 
 * 다음 리소스는 새 엔터프라이즈 권한 모델에 속하지 *않습니다*.
 
    * 이미지 오퍼
    * 기준 라이브러리, 디자인 라이브러리, 카탈로그, 권장 사항 설정 등을 포함한 모든 권장 사항 리소스.
-   * Enterprise 권한을 활성화하기 전에 Target Premium에서 만든 기존 리소스(예: 활동, 코드 오퍼 및 대상)은 복사할 수 있지만 다른 작업 공간으로 이동할 수는 없습니다.
-   * 활동, 대상, 코드 오퍼, 이미지 오퍼 또는 Target Classic, Adobe Experience Manager(AEM), Adobe Mobile Services와 같은 솔루션이나 메서드를 사용하여 만든 기타 모든 리소스와 API를 통해 만든 리소스는 엔터프라이즈 권한 모델로 제어할 수 없지만 기본 Workspace의 일부입니다. API를 통해 만든 리소스에는 활동, 대상, 코드 오퍼, 이미지 오퍼가 포함됩니다.
+   * Enterprise 권한을 활성화하기 전에 Target Premium 내에서 생성된 기존 리소스(예: 활동, 코드 오퍼 및 대상)는 복사할 수 있지만 다른 작업 공간으로 이동할 수는 없습니다.
+   * 활동, 대상, 코드 오퍼, 이미지 오퍼 또는 Target Classic, Adobe Experience Manager(AEM), Adobe Mobile Services와 같은 솔루션이나 메서드를 사용하여 만든 기타 모든 리소스와 API를 통해 만든 리소스는 엔터프라이즈 권한 모델로 제어할 수 없지만 기본 Workspace의 일부입니다. API를 통해 만든 리소스에는 활동, 대상자, 코드 오퍼, 이미지 오퍼가 포함됩니다.
    * 이미지 오퍼(`https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library`에 저장된 자산)는 현재 엔터프라이즈 권한 모델로 제어할 수 없습니다.
    * 클릭 추적 및 리디렉션은 대상 링크 또는 대상 페이지가 활동에 포함된 속성의 일부일 때 작동합니다. 또한 `targetPageParams()` 함수를 사용할 때는 clickTracking이 작동하지 않을 수 있습니다. `targetPageParamsAll()`이 권장되는 함수입니다.
 

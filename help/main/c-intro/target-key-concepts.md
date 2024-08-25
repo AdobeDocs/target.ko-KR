@@ -21,7 +21,7 @@ ht-degree: 98%
 
 예를 들어 여성의 여름 신발에 대한 정보를 강조 표시하는 페이지와 보다 일반적인 여성 의류를 강조 표시하는 페이지 등 두 개의 다른 랜딩 페이지를 테스트하는 활동을 디자인할 수 있습니다. 활동은 이러한 각 랜딩 페이지가 표시되는 시기를 제어하는 조건과 보다 성공적인 페이지를 확인하는 지표를 결정합니다. 특정 조건이 충족될 때 시작되고 종료되도록 활동이 구성됩니다. 이러한 조건에는 특정 날짜 사이의 활동 시작 및 종료가 포함되거나 활동이 승인될 때 시작되고 비활성화될 때 종료되는 것이 포함됩니다.
 
-활동을 디자인할 때는 신중하게 계획합니다. 활동이 시작되는 시기와 지속되는 기간을 결정합니다. 그런 후에 오퍼를 표시하고 각 오퍼에 대상을 할당합니다.
+활동을 디자인할 때는 신중하게 계획합니다. 활동이 시작되는 시기와 지속되는 기간을 결정합니다. 그런 후에 오퍼를 표시하고 각 오퍼에 대상자를 할당합니다.
 
 Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자세한 내용을 알 수 있는 링크와 함께 각 활동 유형에 대한 개요를 제공합니다. Target 팀에서는 목적에 가장 적합한 활동 유형을 선택하는 데 도움이 되도록 [Adobe Target 활동 안내서](/help/main/c-activities/target-activities-guide.md)를 만들었습니다.
 
@@ -31,8 +31,8 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 | [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | 자동 할당은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.<br>**참고:** 이제 [자동 할당 활동 내에 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
 | [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/main/assets/premium.png) | 자동 타겟은 고급 머신 러닝을 사용하여 여러 가지 고성능 마케터 정의 경험을 식별합니다. 자동 타겟 활동은 각 방문자의 개별 고객 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 토대로 각 방문자에게 가장 적합한 경험을 제공하여 콘텐츠를 개인화하고 전환을 유도합니다.<br>**참고:** 이제 [자동 타겟 활동 내에 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
 | [Analytics 데이터 사용](/help/main/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | [!DNL Adobe Analytics] 를 보고 소스로 사용하도록 활동을 구성할 수 있습니다. 이 활동 유형을 사용하려면  [!DNL Adobe Experience Cloud] 계정을 [!DNL Analytics] 와 [!DNL Target] 모두에 연결해야 합니다. |
-| [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 다변량 테스트(MVT)는 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
-| [경험 타기팅](/help/main/c-activities/t-experience-target/experience-target.md) | 경험 타기팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.<br>**참고:** 이제 [경험 타기팅 활동 내에 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
+| [다변량 테스트](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 다변량 테스트(MVT)는 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상자에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
+| [경험 타기팅](/help/main/c-activities/t-experience-target/experience-target.md) | 경험 타기팅(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상자에 전달합니다.<br>**참고:** 이제 [경험 타기팅 활동 내에 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함할 수 있습니다. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
 | [자동화된 개인화](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/main/assets/premium.png) | 자동화된 개인화(AP)는 콘텐츠를 개인화하고 전환을 유도하기 위해 오퍼나 메시지를 결합하고 고급 머신 러닝을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다. |
 | [Recommendations](/help/main/c-recommendations/recommendations.md)<br>![Target Premium](/help/main/assets/premium.png) | 권장 사항은 사이트에서의 사용자 활동에 따라 웹 사이트 사용자에게 제품을 제안하는 방법을 결정합니다.<br>예를 들어 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여 주는 권장 사항을 생성할 수 있습니다. 또는 &quot;이 항목을 보고 다른 항목도 본 사람&quot; 알고리즘을 사용하여 방문자에게 보고 있는 것과 유사한 비디오를 추천하여 미디어 사이트에서 더 많은 시간을 소비하도록 할 수도 있습니다.<br>**참고:** 이제 A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타기팅(XT) 활동 내에 권장 사항을 포함할 수 있습니다. [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
 
@@ -47,7 +47,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 [!DNL Target Standard]에서 위치는 추적하려는 각 페이지의 `<head>` 섹션에서 [!DNL Target] 을 활성화하는 단일 코드 행을 페이지가 포함하는 한 페이지의 모든 요소가 될 수 있습니다. 이 코드 행은 정보를 수집하고 방문자에게 타기팅된 경험을 전달하는 데 필요한 JavaScript 라이브러리를 호출합니다.
 
-위치는 대상과 결합하여 고객에게 타기팅 정보에 대한 선택 사항을 거의 무제한으로 제공합니다. 예를 들어 방문자가 이전에 사이트를 방문한 적이 없는 경우 신규 고객용 할인 쿠폰을 표시할 수 있습니다. 마찬가지로, 페이지가 재방문 고객에게 더 최적화된 오퍼를 표시하도록 변경될 수도 있습니다.
+위치는 대상자와 결합하여 고객에게 타기팅 정보에 대한 선택 사항을 거의 무제한으로 제공합니다. 예를 들어 방문자가 이전에 사이트를 방문한 적이 없는 경우 신규 고객용 할인 쿠폰을 표시할 수 있습니다. 마찬가지로, 페이지가 재방문 고객에게 더 최적화된 오퍼를 표시하도록 변경될 수도 있습니다.
 
 또한 위치를 이용하여 웹 사이트를 통해 방문자의 진행 상황을 추적할 수 있습니다. 또한 위치를 이용하여 방문자가 장바구니에 항목 추가, 구입 완료 등의 특정 성공 지표를 완료하는지 여부를 추적할 수도 있습니다.
 
@@ -85,21 +85,21 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 특정 기준을 충족하는 활동 참여자에게 타기팅된 콘텐츠를 최적화하십시오.
 
-대상은 활동에 대한 타겟을 정의하며 타기팅을 사용할 수 있는 모든 곳에서 사용됩니다.
+대상자는 활동에 대한 타깃을 정의하며 타기팅을 사용할 수 있는 모든 곳에서 사용됩니다.
 
-[!DNL Target] 대상은 정의된 방문자 기준 세트입니다. 오퍼를 특정 대상(또는 세그먼트)에 타기팅할 수 있습니다. 해당 대상에 속하는 방문자에게만 이들을 타기팅하는 경험이 표시됩니다.
+[!DNL Target] 대상자는 정의된 방문자 기준 세트입니다. 오퍼를 특정 대상자(또는 세그먼트)에 타기팅할 수 있습니다. 해당 대상자에 속하는 방문자에게만 이들을 타기팅하는 경험이 표시됩니다.
 
-예를 들어 활동을 특정 브라우저나 운영 체제를 사용하는 방문자로 구성된 대상에 타기팅할 수 있습니다.
+예를 들어 활동을 특정 브라우저나 운영 체제를 사용하는 방문자로 구성된 대상자에 타기팅할 수 있습니다.
 
 또는 활동을 한 지역의 방문자나 특정 검색 엔진에서 페이지에 액세스하는 사람들에 타기팅할 수 있습니다.
 
-여러 활동에서 재사용할 수 있도록 대상을 저장하거나, 특정 활동용으로 대상을 만들 수 있습니다.
+여러 활동에서 재사용할 수 있도록 대상자를 저장하거나, 특정 활동용으로 대상자자를 만들 수 있습니다.
 
 | 대상 유형 | 설명 |
 |--- |--- |
-| 재사용 가능한 대상 | 재사용 가능한 대상은 활동용으로 선택할 수 있습니다. 이러한 대상 중 하나를 변경하면 이 대상을 사용하는 모든 활동에 대해 대상이 변경됩니다. |
+| 재사용 가능한 대상 | 재사용 가능한 대상자는 활동용으로 선택할 수 있습니다. 이러한 대상 중 하나를 변경하면 이 대상을 사용하는 모든 활동에 대해 대상이 변경됩니다. |
 | 사용자 지정 세그먼트 | 사용자 지정 세그먼트(캠페인별 세그먼트라고도 함)는 Target Classic에서 캠페인에 따라 다릅니다. 캠페인의 일부로 생성되며 다른 캠페인에서 다시 사용할 수 없습니다. |
-| 공유 대상 | 대상은 [!DNL Adobe Experience Cloud] 솔루션에서 공유할 수 있습니다. 예가 필요하면 [대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR) 을 참조하십시오. |
+| 공유 대상 | 대상자는 [!DNL Adobe Experience Cloud] 솔루션에서 공유할 수 있습니다. 예가 필요하면 [대상자](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)를 참조하십시오. |
 
 방문자 프로필에서 어떻게 사이트 방문자에 대한 정보를 추적하는지에 대해서는 [방문자 프로필](/help/main/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1)을 참조하십시오.
 
@@ -117,14 +117,14 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 표는 자�
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Adobe Target에서 대상 사용(6:21) ![개요 배지](/help/main/assets/overview.png)
+### Adobe Target에서 대상자 사용(6:21) ![개요 배지](/help/main/assets/overview.png)
 
-다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상을 사용하는 방법을 설명합니다.
+다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상자를 사용하는 방법을 설명합니다.
 
 * 용어 &quot;대상&quot; 설명
 * 최적화에 대상을 사용하는 두 가지 방법 설명
 * 대상자 목록에서 대상자 찾기
-* 활동을 대상에 타기팅
+* 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)

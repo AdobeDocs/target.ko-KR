@@ -2,11 +2,12 @@
 keywords: 기준;알고리즘;업계 카테고리;페이지 유형;권장 사항 키;권장 사항 논리;논리;데이터 범위;전환 확인 기간;동작 데이터 소스;부분 디자인;백업 권장 사항;포함 규칙;속성 가중치;현재 카테고리;사용자 지정 속성;마지막 구매 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 카테고리;인기;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;최근에 본 항목
 description: ' [!DNL Recommendations] 활동의 콘텐츠를 제어하는 기준을 만들어 활동에 가장 적합한 권장 사항을 표시하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Recommendations]에서 [!UICONTROL Criteria]을(를) 만들려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: c8b0e0414603761b1c67b13d74ffa96d745c99e3
+exl-id: 7937e54a-7c10-445d-9d9a-9ddbdaa8086e
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 47%

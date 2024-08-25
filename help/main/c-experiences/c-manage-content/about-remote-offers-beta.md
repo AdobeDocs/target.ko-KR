@@ -16,7 +16,7 @@ ht-degree: 21%
 
 # 원격 오퍼 만들기
 
-원격 오퍼를 사용하여 [!DNL Adobe Target] 이 참조하고 사용자의 웹 사이트에 전달하는 콘텐츠를 [!DNL Target] 외부에 호스팅합니다. 이 콘텐츠는 편의성이나 보안상의 이유로 CMS(콘텐츠 관리) 또는 다른 시스템에 있을 수 있습니다.
+원격 오퍼를 사용하여 [!DNL Adobe Target] 이 참조하고 사용자의 웹 사이트에 전달하는 콘텐츠를 [!DNL Target] 외부에 호스팅합니다. 이 콘텐츠는 편의성이나 보안상의 이유로 콘텐츠 관리(CMS) 또는 다른 시스템에 있을 수 있습니다.
 
 >[!NOTE]
 >
@@ -61,7 +61,7 @@ ht-degree: 21%
 
    수사적 이름을 사용하면 [!UICONTROL Assets] 라이브러리에서 오퍼를 빠르게 찾을 수 있습니다.
 
-1. (조건부) [Target Premium 계정](/help/main/c-intro/intro.md#premium)이 있는 경우 원하는 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)을 선택하십시오.
+1. (조건부) [Target Premium 계정](/help/main/c-intro/intro.md#premium)이 있는 경우 원하는 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)을(를) 선택하십시오.
 
 1. 리디렉션 URL 유형을 지정합니다.
 

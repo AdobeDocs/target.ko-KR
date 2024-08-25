@@ -19,7 +19,7 @@ Target Standard 및 Target Premium을 최대한 활용하는 데 도움이 되�
 
 * Experience Cloud 및 일반 기능
 * 활동 만들기
-* 대상 및 타기팅
+* 대상자 및 타기팅
 * 에셋 관리
 * 설정 및 환경 설정
 * 구현 및 문제 해결

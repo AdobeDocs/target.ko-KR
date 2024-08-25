@@ -38,11 +38,11 @@ ht-degree: 78%
       * [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
       * [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
       * [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank}
-      * [대상 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
+      * [대상자 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
       * [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
       * [Analytics 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
       * [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [A/B 테스트의 여러 경험 대상](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [A/B 테스트의 여러 경험 대상자](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
 * 자동 할당 {#auto-allocate}
    * [자동 할당 개요](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
    * [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}

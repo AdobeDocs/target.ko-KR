@@ -2,7 +2,7 @@
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
 description: Adobe [!DNL Target] VEC(시각적 경험 작성기)를 사용하여  [!DNL Target] 사용 페이지에서 직접 Recommendations 활동을 만드는 방법에 대해 알아봅니다.
 title: Recommendations 활동을 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 3c687b2d28f576a60951c8bb10434250104500b4
@@ -125,7 +125,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
    ![권장 사항 흐름 다이어그램](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
-   흐름 다이어그램은 활동의 대상을 선택하고, 경험을 설정하고, 성공 지표를 지정하는 단계를 안내합니다.
+   흐름 다이어그램은 활동의 대상자를 선택하고, 경험을 설정하고, 성공 지표를 지정하는 단계를 안내합니다.
 
    흐름 다이어그램에서 다음을 수행할 수 있습니다.
 
@@ -133,7 +133,7 @@ Target을 사용할 수 있는 페이지에서 바로 권장 사항 활동을 �
 
      >[!NOTE]
      >
-     >기존 대상을 선택할 수 있을 뿐만 아니라, [활동 전용 대상을 만들거나](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483), 새 대상을 만들지 않고 [여러 대상을 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 임시 대상을 만들 수도 있습니다.
+     >기존 대상자를 선택할 수 있을 뿐만 아니라, [활동 전용 대상자를 만들거나](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483), 새 대상자를 만들지 않고 [여러 대상자를 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 임시 대상자를 만들 수도 있습니다.
 
      기본적으로 모든 사용자는 권장 사항을 볼 수 있습니다. 그러나 권장 사항을 특정 대상으로 타깃팅할 수 있습니다.
 

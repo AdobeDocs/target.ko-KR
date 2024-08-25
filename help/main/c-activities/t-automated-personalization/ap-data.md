@@ -2,7 +2,7 @@
 keywords: 환경 데이터;세션 데이터;지역 데이터;지리적 데이터;장치 데이터;모바일 데이터;속성;프로필 속성;개인화 알고리즘;머신 러닝 알고리즘;머신 러닝 알고리즘
 description: ' [!DNL Adobe Target] 수집 및 사용하여 머신 러닝 알고리즘을 작성하는 데이터를 알아봅니다.'
 title: 머신 러닝 알고리즘을 구축하기 위해 수집되는 데이터는 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
 source-git-commit: 3f64da1c9a1146e4d2d9389d6d5ce764764d2d9c

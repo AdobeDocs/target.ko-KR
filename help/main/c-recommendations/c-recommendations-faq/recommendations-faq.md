@@ -2,7 +2,7 @@
 keywords: 문제 해결, 자주 묻는 질문, FAQ, FAQ, 권장 사항, 특수 문자, 속성 가중치, 콘텐츠 유사성
 description: ' [!DNL Target Recommendations] 활동에 대해 자주 묻는 질문과 대답 목록을 봅니다.'
 title: ' [!DNL Recommendations]에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 25c520eec2983df39c43feb50447b5d6adccdf3f

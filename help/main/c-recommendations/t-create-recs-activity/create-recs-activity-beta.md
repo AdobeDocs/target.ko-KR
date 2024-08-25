@@ -2,7 +2,7 @@
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
 description: VEC( [!DNL Target] [!UICONTROL Visual Experience Composer])를 사용하여  [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.
 title: ' [!DNL Recommendations] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -126,7 +126,7 @@ ht-degree: 51%
 
    ![권장 사항 흐름 다이어그램](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
-   흐름 다이어그램은 활동의 대상을 선택하고, 경험을 설정하고, 성공 지표를 지정하는 단계를 안내합니다.
+   흐름 다이어그램은 활동의 대상자를 선택하고, 경험을 설정하고, 성공 지표를 지정하는 단계를 안내합니다.
 
    흐름 다이어그램에서 다음을 수행할 수 있습니다.
 
@@ -134,7 +134,7 @@ ht-degree: 51%
 
      >[!NOTE]
      >
-     >기존 대상을 선택할 수 있을 뿐만 아니라, [활동 전용 대상을 만들거나](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483), 새 대상을 만들지 않고 [여러 대상을 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 임시 대상을 만들 수도 있습니다.
+     >기존 대상자를 선택할 수 있을 뿐만 아니라, [활동 전용 대상자를 만들거나](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483), 새 대상자를 만들지 않고 [여러 대상자를 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 임시 대상자를 만들 수도 있습니다.
 
      기본적으로 모든 사용자는 권장 사항을 볼 수 있습니다. 그러나 권장 사항을 특정 대상으로 타깃팅할 수 있습니다.
 

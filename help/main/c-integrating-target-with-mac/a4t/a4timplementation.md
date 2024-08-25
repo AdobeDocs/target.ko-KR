@@ -29,7 +29,7 @@ A4T를 구현하기 전에 [!DNL Analytics] 및 [!DNL Target]을(를) 프로비�
 
 ### 3단계: Edge 구성 만들기
 
-Edge 구성 도구를 사용하여 [!DNL Adobe Experience Platform]을(를) 사용하여 Edge 구성을 만듭니다. [데이터스트림 만들기 및 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko-KR)을 구성합니다.
+Edge 구성 도구를 사용하여 [!DNL Adobe Experience Platform]을(를) 사용하여 Edge 구성을 만듭니다. [데이터스트림 만들기 및 구성](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko)을 구성합니다.
 
 ### 4단계: Platform Web SDK 설치 및 구성
 

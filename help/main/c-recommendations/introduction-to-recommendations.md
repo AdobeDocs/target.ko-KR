@@ -2,7 +2,7 @@
 keywords: Recommendations;소개;소개;웨비나;데모
 description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe  [!DNL Target] 의 권장 사항 활동에 대해 알아보십시오.
 title: Recommendations 활동이란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
@@ -123,13 +123,13 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 [!DNL Recommendations] 활동은 다음과 같은 구성 요소로 구성됩니다.
 
-* **대상**: 이러한 추천은 누가 보게 됩니까?
+* **대상자**: 이러한 추천은 누가 보게 됩니까?
 * **기준**: 어떤 항목을 추천해야 합니까?
 * **디자인**: 추천 항목은 어떻게 표시됩니까?
 
-![추천 활동을 구성하는 요소(대상, 기준 및 디자인)를 보여 주는 일러스트레이션](/help/main/c-recommendations/assets/intro-12.png)
+![추천 활동을 구성하는 요소(대상자, 기준 및 디자인)를 보여 주는 일러스트레이션](/help/main/c-recommendations/assets/intro-12.png)
 
-기본적으로 [!DNL Target] 에는 14개의 내장된 대상, 42개의 내장된 기준 및 10개의 내장된 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. [!DNL Target]에서 대상을 만드는 ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)에 대한 이전 [웨비나가 있습니다. 이 섹션에서는 어떤 항목을 추천할 지에 대한 기준을 정의하는 데 중점을 둡니다.
+기본적으로 [!DNL Target] 에는 14개의 내장된 대상자, 42개의 내장된 기준 및 10개의 내장된 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. [!DNL Target]에서 대상을 만드는 ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)에 대한 이전 [웨비나가 있습니다. 이 섹션에서는 어떤 항목을 추천할 지에 대한 기준을 정의하는 데 중점을 둡니다.
 
 Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화를 위한 메뉴와 같습니다.
 

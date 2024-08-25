@@ -17,7 +17,7 @@ ht-degree: 36%
 
 예를 들어 여성의 여름 신발에 대한 정보를 강조 표시하는 페이지와 보다 일반적인 여름 의류를 강조 표시하는 랜딩 페이지 등 두 개의 다른 랜딩 페이지를 테스트하는 활동을 디자인할 수 있습니다. 활동은 이러한 각 랜딩 페이지가 표시되는 시기를 제어하는 조건과 보다 성공적인 페이지를 확인하는 지표를 결정합니다. 특정 날짜 사이 등의 특정 조건이 충족될 때 시작되고 종료되거나 활동이 승인될 때 시작되고 비활성화될 때 종료되도록 활동이 구성됩니다.
 
-활동을 디자인할 때는 신중하게 계획해야 합니다. 활동이 시작되는 시기와 지속되는 기간을 결정합니다. 그런 후에 오퍼를 표시하고 각 오퍼에 대상을 할당합니다.
+활동을 디자인할 때는 신중하게 계획해야 합니다. 활동이 시작되는 시기와 지속되는 기간을 결정합니다. 그런 후에 오퍼를 표시하고 각 오퍼에 대상자를 할당합니다.
 
 ## 활동 목록 {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
@@ -42,7 +42,7 @@ ht-degree: 36%
 | [!UICONTROL Name] | 활동의 이름입니다. 활동 이름을 클릭하여 해당 활동의 [!UICONTROL Overview] 페이지를 표시합니다. <P>각 활동 이름 옆의 **[!UICONTROL Quick Info]** 아이콘을 클릭하면 팝업 카드에서 해당 활동에 대한 자세한 정보를 볼 수 있습니다.<p>각 활동 이름 옆의 **[!UICONTROL More actions]** 아이콘(가로 줄임표)을 클릭하여 활동에 대한 빠른 작업을 수행할 수 있는 메뉴를 엽니다. 사용 권한 및 활동 상태에 따라 [!UICONTROL Edit], [!UICONTROL Activate], [!UICONTROL Deactivate], [!UICONTROL Copy], [!UICONTROL Delete] 및 [!UICONTROL Archive] 작업을 사용할 수 있습니다. 각 작업에 대한 자세한 내용은 아래의 [빠른 작업 수행](#quick-actions)을 참조하십시오.<P>테이블 헤더를 클릭하여 목록을 이름별로 오름차순 또는 내림차순으로 정렬합니다. |
 | [!UICONTROL Status] | 활동의 상태는 다음 중 하나일 수 있습니다.<ul><li>**라이브**: 활동이 현재 실행 중입니다.</li><li>**초안**: 활동 설정이 시작되었지만 활동이 [초안 모드](/help/main/c-activities/edit-activity.md)이며 아직 실행할 준비가 되지 않았습니다.</li><li>**예약됨**: 지정된 시작 날짜 및 시간에 도달하면 활동이 활성화되도록 준비되었습니다.</li><li>**비활성**: 활동이 일시 정지되었거나 비활성화되었습니다.</li><li>**동기화 중**: 활동이 저장되었으며 [!DNL Target] 배달 네트워크에 동기화되고 있습니다.</li><li>**종료**: 활동의 지정한 종료 날짜 및 시간에 도달하여 활동이 더 이상 지원되지 않습니다.</li><li>**보관됨**: 활동이 보관되었습니다. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.</li></ul>**참고**: API 방법을 사용하여 [!DNL Target] UI 외부에서의 활동 활성화와 같은 특정 작업을 수행하면 업데이트가 [!DNL Target] UI로 전파되는 데 최대 10분이 걸릴 수 있습니다. |
 | [!UICONTROL Last Updated] | 활동을 마지막으로 업데이트한 날짜 및 시간과 그 사람.<P>날짜별로 목록을 오름차순 또는 내림차순으로 정렬하려면 테이블 헤더를 클릭하십시오. |
-| [!UICONTROL Priority] | 활동의 우선 순위입니다.<P>대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>[설정](/help/main/administrating-target/reporting.md)에 따라 [!UICONTROL Priority]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다. |
+| [!UICONTROL Priority] | 활동의 우선 순위입니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>[설정](/help/main/administrating-target/reporting.md)에 따라 [!UICONTROL Priority]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. 낮음, 중간 또는 높음의 레거시 설정을 사용하거나 0에서 999까지 세분화된 우선순위를 사용할 수 있습니다. |
 | [!UICONTROL Property] | 활동에 대한 [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 표시합니다.<P>Enterprise 사용자 권한은 [Target Premium](/help/main/c-intro/intro.md#premium) 기능입니다. |
 | [!UICONTROL Estimated Lift in Revenue] | 대상의 100%에게 가장 성과가 좋은 경험이 표시되는 경우 수입의 예상되는 증가를 보여줍니다.<P>다음 공식을 사용하여 계산됩니다.<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>압축 양식에서 소수 앞에 한자릿수만 있으면 최대 소수 첫째 자리로 반올림됩니다. 예를 들어, $1.6M, $60K, $900, $8.5K, $205K와 같습니다.<P>승자를 확정하기에 충분한 데이터가 없거나 예상 비용이 없는 활동의 경우 이 열에 &quot;---&quot;이 표시됩니다.<P>자세한 내용은 [매출 상승도 평가](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오. |
 | [!UICONTROL Source] | 활동이 만들어진 위치를 표시합니다. [!DNL Adobe Target], [Adobe Target API](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html) 또는 [모바일 서비스 Adobe](https://developer.adobe.com/client-sdks/documentation/). |

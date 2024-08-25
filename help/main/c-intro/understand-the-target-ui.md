@@ -152,9 +152,9 @@ ht-degree: 31%
 
 대상을 만들고 기존 대상을 관리할 수 있는 [!UICONTROL Audiences] 목록을 표시하려면 **[!UICONTROL Audiences]** 탭을 클릭하십시오.
 
-![대상 목록](/help/main/c-intro/assets/audience-list.png)
+![대상자 목록](/help/main/c-intro/assets/audience-list.png)
 
-대상은 타깃팅된 활동을 보는 유사한 활동 참여자의 그룹입니다. 대상은 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. [!UICONTROL Audience] 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅할 수 있습니다. 방문자가 타겟 대상의 일부로 식별되면 [!DNL Target] 은 활동 작성 중에 정의된 기준에 따라 표시할 경험을 결정합니다.
+대상은 타깃팅된 활동을 보는 유사한 활동 참여자의 그룹입니다. 대상자는 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. [!UICONTROL Audience] 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅할 수 있습니다. 방문자가 타깃 대상자의 일부로 식별되면 [!DNL Target] 은 활동 작성 중에 정의된 기준에 따라 표시할 경험을 결정합니다.
 
 [!DNL Target]의 대상 유형에 대한 자세한 내용과 [!UICONTROL Audience] 목록의 사용자 인터페이스에 대한 자세한 내용은 [대상 만들기](/help/main/c-target/c-audiences/create-audience.md)를 참조하십시오.
 

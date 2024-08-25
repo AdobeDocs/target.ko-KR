@@ -69,7 +69,7 @@ ht-degree: 49%
 >
 >[!UICONTROL Production] 환경은 삭제할 수 없지만 이름을 바꿀 수는 있습니다.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."}
 
 선택한 환경(호스트 그룹)에 대한 권장 사항 컬렉션 및 제외 컨텐츠를 미리 볼 수 있습니다.
 

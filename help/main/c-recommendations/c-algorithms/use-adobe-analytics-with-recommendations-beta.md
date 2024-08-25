@@ -2,11 +2,12 @@
 keywords: 동작 데이터 소스;분석;권장 사항;기준;제품 변수
 description: ' [!DNL Target Recommendations]에서 동작 데이터 소스로  [!DNL Adobe Analytics] 을(를) 사용하는 방법을 알아보세요.'
 title: ' [!DNL Adobe Analytics] with [!DNL Target Recommendations]을(를) 사용하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 6d2a313b0e54aa5f6717eee850c79e4092309e7d
+exl-id: 818c5dc6-c9b1-4596-8608-1842c9620dc2
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '757'
 ht-degree: 0%

@@ -72,10 +72,10 @@ ht-degree: 96%
    * [분류 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
    * [Test&amp;Target에 대한 이전 SiteCatalyst 통합 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
 
-## 대상 및 타겟
+## 대상자 및 타깃
 
 * [Target 최적화 및 개인화 FAQ](/help/main/c-intro/cmp-target-standard-cheatsheet.md)
-* [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
+* [Target 및 대상자 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
 * [프로필 스크립트 속성](/help/main/c-target/c-visitor-profile/profile-parameters.md)
 * [사이트 페이지](/help/main/c-target/c-audiences/c-target-rules/site-pages.md)
 

@@ -1,5 +1,5 @@
 ---
-keywords: 활동 설정;경험 타깃팅 목표 및 설정;xt 목표 및 설정;경험 타깃팅;목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
+keywords: 활동 설정;경험 타깃팅 목표 및 설정;xt 목표 및 설정;경험 타깃팅;목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상자;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
 description: ' [!DNL Adobe Target] 의 [!UICONTROL Goals & Settings] 페이지를 사용하여 [!UICONTROL Experience Targeting](XT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
 title: '[!UICONTROL Experience Targeting] 활동에서 [!UICONTROL Goals & Settings]을(를) 지정하는 방법'
 feature: Experience Targeting
@@ -33,7 +33,7 @@ ht-degree: 39%
 
 설정에 따라 [!UICONTROL Priority]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다.
 
-대상이 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
+대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
 이 옵션이 [!UICONTROL Administration](기본값)에서 활성화되지 않으면 우선 순위 [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]을(를) 지정하십시오.
 
@@ -102,7 +102,7 @@ ht-degree: 39%
 
 ### [!UICONTROL Audiences for Reporting]
 
-기본적으로 보고서에는 자격을 갖춘 모든 방문자의 결과가 표시됩니다. 보고서 대상을 추가하여 특정 대상에 대한 정보만 표시할 수 있습니다.
+기본적으로 보고서에는 자격을 갖춘 모든 방문자의 결과가 표시됩니다. 보고서 대상자를 추가하여 특정 대상자에 대한 정보만 표시할 수 있습니다.
 
 [!DNL Analytics]을(를) 보고 솔루션으로 선택하는 경우에는 이 설정을 사용할 수 없습니다. [!DNL Analytics] 보고서 세트에 대해 정의된 대상이 적용됩니다.
 

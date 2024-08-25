@@ -101,15 +101,15 @@ ht-degree: 56%
 
 1. [!UICONTROL Targeting] 페이지로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
-1. 활동을 시작할 자격 있는 방문자의 대상 및 비율을 선택합니다.
+1. 활동을 시작할 자격 있는 방문자의 대상자 및 비율을 선택합니다.
 
    ![MVT 활동의 타깃팅 페이지](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
 
-   예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아&quot; 대상의 45%로 제한할 수 있습니다.
+   예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다.
 
    >[!NOTE]
    >
-   >기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 임시로 결합한 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
+   >기존 대상자를 선택할 수 있을 뿐만 아니라, 새 대상자를 만들지 않고 여러 대상자를 결합하여 임시로 결합한 대상자를 만들 수도 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
 1. [테스트 요약을 검토하고](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)원하는 대로 변경한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 

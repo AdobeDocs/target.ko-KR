@@ -1,5 +1,5 @@
 ---
-keywords: 우선순위;경험 작성;우선순위;경험;대상;경험;경험 전환;시각적 경험 작성기
+keywords: 우선순위;경험 작성;우선순위;경험;대상자;경험;경험 전환;시각적 경험 작성기
 description: 프로필이 발전함에 따라 방문자가 XT( [!DNL Adobe Target] [!UICONTROL Experience Targeting]) 활동에서 경험 사이를 전환하는 방법에 대해 알아봅니다.
 title: 방문자가 [!UICONTROL Experience Targeting] 활동에서 경험을 전환할 수 있습니까?
 feature: Experience Targeting
@@ -46,13 +46,13 @@ ht-degree: 43%
 
   ![우선 순위 미국 > 모든 방문자](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
-  이를 원치 않을 경우 다음 예와 같이 타깃팅된 대상의 역으로 명시적으로 정의된 새 대상을 만들 수 있습니다.
+  이를 원치 않을 경우 다음 예와 같이 타기팅된 대상자의 역으로 명시적으로 정의된 새 대상자를 만들 수 있습니다.
 
   ![우선 순위 미국 > 미국 외](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
 * **단일 경험 [!UICONTROL Experience Targeting] 활동을 사용하면 방문자가 해당 경험에 속한 대상에 대한 자격을 중단하더라도 해당 경험에 그대로 유지됩니다.**
 
-  이를 원치 않을 경우, 역대상(예: &quot;미국&quot;에 상대되는 &quot;미국 아님&quot;)으로 타깃팅된 다른 경험을 만들 수 있습니다. 
+  이를 원치 않을 경우, 역대상자(예: &quot;미국&quot;에 상대되는 &quot;미국 아님&quot;)로 타기팅된 다른 경험을 만들 수 있습니다. 
 
   다른 옵션으로는 아래와 같이 100% 트래픽 할당으로 원하는 대상자를 타깃팅하는 [!UICONTROL A/B Test] 활동을 만들 수 있습니다.
 

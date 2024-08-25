@@ -2,7 +2,7 @@
 keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;제외 그룹;
 description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 활동에서 제외를 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 제외를 관리하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -23,7 +23,7 @@ ht-degree: 41%
 
 제외 그룹은 양립할 수 없는 오퍼가 서로 다른 위치의 동일한 경험에서 제공되지 않도록 하는 좋은 방법입니다. 예를 들어 두 가지 오퍼가 있다고 가정해 보겠습니다. 하나는 모든 상품에 대해 20% 할인이고 다른 하나는 15% 할인입니다. 이 두 오퍼가 동일한 경험의 방문자에게 표시되지 않도록 할 수 있습니다. 이 두 오퍼를 제외 그룹에 추가하는 경우 이러한 상황이 발생하지 않는지 확인할 수 있습니다.
 
-AP 활동에서 특정 오퍼를 볼 수 있는 대상을 제한할 수도 있습니다. 자세한 내용은 [자동화된 개인화 오퍼 타깃팅](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)을 참조하십시오.
+AP 활동에서 특정 오퍼를 볼 수 있는 대상자를 제한할 수도 있습니다. 자세한 내용은 [자동화된 개인화 오퍼 타깃팅](/help/main/c-activities/t-automated-personalization/ap-target-offers.md)을 참조하십시오.
 
 **제외 그룹을 만들려면 다음을 수행하십시오.**
 

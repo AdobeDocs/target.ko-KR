@@ -2,11 +2,12 @@
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;정적;정적 필터
 description: Adobe [!DNL Target] Recommendations에서 포함 규칙을 사용하여 필터링할 하나 이상의 정적 값을 수동으로 입력하는 방법을 알아봅니다.
 title: Recommendations 활동에서 정적 값을 기준으로 필터링하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: b6a55260fd49e07e2b217f6becfbc778251a5d0d
+exl-id: 52755b3a-ae6d-4fe4-8f1c-a660b038f2fb
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 45%

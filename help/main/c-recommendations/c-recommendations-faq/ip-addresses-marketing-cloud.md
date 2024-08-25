@@ -2,7 +2,7 @@
 keywords: IP 주소, IP 주소, 허용 목록, 허용 목록, 방화벽, recs, 피드, 서버, adobe marketing cloud, 권장 사항
 description: ' [!DNL Target]  Recommendations 피드 처리 서버에서 사용된 IP 주소 목록을 보고 Adobe 서버에서 시작된 IP 주소를 허용하도록 방화벽을 구성할 수 있습니다.'
 title: Recommendations 피드-처리 서버에서 사용하는 IP 주소는 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 source-git-commit: be5b3158c758fa08802c1dc0541c9e989a2c7740

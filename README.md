@@ -1,8 +1,8 @@
 ---
 source-git-commit: b58048fcf65b4d691a95788a7963ccdd4ecf1505
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '398'
+ht-degree: 91%
 
 ---
 # 기여 문서
@@ -35,7 +35,7 @@ If you submit a pull request with significant changes to documentation and code 
 
 ### Adobe 직원의 주요 변경 사항
 
-[!UICONTROL Adobe Experience Cloud] 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 `https://git.corp.adobe.com/AdobeDocs`에서 개인 리포지토리를 사용해야 합니다.
+[!UICONTROL Adobe Experience Cloud] 솔루션에 대한 제품 팀의 테크니컬 라이터, 프로그램 관리자 또는 개발자이고 기술 문서에 기여하거나 기술 문서를 작성하는 것이 본인의 직무인 경우 개인 리포지토리(`https://git.corp.adobe.com/AdobeDocs`)를 사용해야 합니다.
 
 <!--Employees from other parts of the Adobe world should use the public repo for minor updates.-->
 

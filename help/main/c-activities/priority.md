@@ -23,7 +23,7 @@ ht-degree: 37%
 1. [!DNL Target]은(는) 해당 URL에서 실행 중인 모든 활동을 가져옵니다.
 1. [!DNL Target]이(가) 방문자를 활동에 일치시키려고 합니다.
 
-   방문자가 이미 [!UICONTROL A/B Test] 또는 [!UICONTROL Multivariate Test] 활동에 있는 경우 전환될 때까지 해당 활동에 일치합니다. 이전에 [!UICONTROL Experience Targeting] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
+   방문자가 이미 [!UICONTROL A/B Test] 또는 [!UICONTROL Multivariate Test] 활동에 있는 경우 전환될 때까지 해당 활동에 일치합니다. 이전에 [!UICONTROL Experience Targeting] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상자 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
 
 1. 방문자가 대응하는 모든 활동 및 경험에 대한 콘텐츠가 페이지에 반환됩니다.
 1. 각 활동의 콘텐츠가 서로 다른 [CSS 선택기](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337)를 참조하는 경우 모든 콘텐츠가 표시됩니다.
@@ -49,7 +49,7 @@ ht-degree: 37%
 1. [!DNL Target]은(는) 해당 [!DNL Target] 요청에서 실행 중인 모든 활동을 가져옵니다.
 1. [!DNL Target]이(가) 방문자를 활동에 일치시키려고 합니다.
 
-   방문자가 이미 [!UICONTROL A/B Test] 또는 [!UICONTROL Multivariate Test] 활동에 있는 경우 전환될 때까지 해당 테스트와 일치합니다. 이전에 [!UICONTROL Experience Targeting] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
+   방문자가 이미 [!UICONTROL A/B Test] 또는 [!UICONTROL Multivariate Test] 활동에 있는 경우 전환될 때까지 해당 테스트와 일치합니다. 이전에 [!UICONTROL Experience Targeting] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상자 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
 
 1. 양식 기반 활동의 우선순위가 가장 높다면, 해당 활동 콘텐츠가 VEC 활동의 모든 일치하는 활동 콘텐츠와 함께 반환됩니다.
 1. VEC 활동이 가장 높은 우선 순위인 경우, 일치하는 모든 VEC 활동의 콘텐츠가 반환되지만 양식 기반 활동 콘텐츠는 반환되지 않습니다.
@@ -70,7 +70,7 @@ ht-degree: 37%
 1. [!DNL Target]은(는) 해당 [!DNL Target] 요청에서 실행 중인 모든 활동을 가져옵니다.
 1. [!DNL Target]이(가) 방문자를 우선 순위가 가장 높은 활동에 일치시키려고 합니다.
 
-   방문자가 이미 [!UICONTROL A/B Test] 또는 [!UICONTROL Multivariate Test] 활동에 있는 경우 전환될 때까지 해당 활동에 일치합니다. 이전에 [!UICONTROL Experience Targeting] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
+   방문자가 이미 [!UICONTROL A/B Test] 또는 [!UICONTROL Multivariate Test] 활동에 있는 경우 전환될 때까지 해당 활동에 일치합니다. 이전에 [!UICONTROL Experience Targeting] 활동에 있었던 사용자는 다시 일치해야 합니다. 대상자 규칙을 충족한다면 방문자는 해당 활동 및 특정 경험에 속하게 됩니다.
 
 1. 여러 활동이 우선순위 수준을 공유하는 경우 두 개의 타이 브레이커가 있습니다.
 

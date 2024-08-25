@@ -2,7 +2,7 @@
 keywords: 동작 데이터 소스;분석;권장 사항;기준;제품 변수
 description: ' [!DNL Analytics] in [!DNL Target Recommendations]의 보기 기반 및/또는 구매 기반 행동 데이터를 사용하기 위해 행동 데이터 소스로  [!DNL Adobe Analytics] 을(를) 사용하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Adobe Analytics] with [!DNL Target Recommendations]을(를) 사용하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

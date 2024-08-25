@@ -1,5 +1,5 @@
 ---
-keywords: 여러 대상;경험 버전;target 경험 버전
+keywords: 여러 대상자;경험 버전;target 경험 버전
 description: ' [!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다양한 대상자에게 타깃팅하는 방법에 대해 알아봅니다.'
 title: A/B 활동에서 여러 경험 버전을 사용할 수 있습니까?
 feature: A/B Tests
@@ -11,7 +11,7 @@ ht-degree: 53%
 
 ---
 
-# A/B 테스트의 여러 경험 대상
+# A/B 테스트의 여러 경험 대상자
 
 [!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다른 대상자에게 타깃팅할 수 있습니다. [!UICONTROL Visual Experience Composer](VEC) 또는 양식 기반 경험 작성기에서 경험에 대한 여러 대상을 설정할 수 있습니다.
 
@@ -31,19 +31,19 @@ ht-degree: 53%
 
 1. [평소대로 A/B 활동을 만듭니다.](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 
-   여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상을 선택합니다.
+   여러 버전이 있는 경험을 구성할 때는 다음 단계에 표시된 것처럼 각 버전의 대상자를 선택합니다.
 
 1. 경험을 선택한 다음 **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**&#x200B;을(를) 클릭합니다.
 
-   ![여러 대상 선택 사항](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+   ![여러 대상자 선택 사항](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
-1. **[!UICONTROL Add Audience]**&#x200B;을(를) 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상에 대해 이 작업을 반복합니다.
+1. **[!UICONTROL Add Audience]**&#x200B;을(를) 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
 
    ![exp-versions 이미지](assets/exp-versions.png)
 
-   대상이 아직 존재하지 않는 경우 [대상 만들기](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
+   대상자가 아직 존재하지 않는 경우 [대상자 만들기](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
 
-   방문자가 둘 이상의 대상에 적격인 경우, 모든 대상을 위한 콘텐츠가 반환되고 목록의 마지막 콘텐츠가 페이지에서 실제로 렌더링됩니다.
+   방문자가 둘 이상의 대상자에 적격인 경우, 모든 대상자를 위한 콘텐츠가 반환되고 목록의 마지막 콘텐츠가 페이지에서 실제로 렌더링됩니다.
 
 1. 활동을 계속 설정합니다.
 

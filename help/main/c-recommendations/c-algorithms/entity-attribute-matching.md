@@ -2,7 +2,7 @@
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;동적;엔티티 속성 일치
 description: 잠재적인 항목 풀을 사용자가 상호 작용한 특정 항목과 비교하여 Adobe [!DNL Target] Recommendations에서 동적으로 필터링하는 방법에 대해 알아봅니다.
 title: Recommendations 활동에서 엔티티 속성 일치로 필터링하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3

@@ -2,7 +2,7 @@
 keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
 description: 피드가 CSV 파일, Google 제품 검색 피드 형식 및  [!DNL Analytics] 제품 분류를 사용하여  [!DNL Adobe Target] [!DNL Recommendations]에 엔티티를 가져오는 방법에 대해 알아봅니다.
 title: ' [!DNL Target Recommendations]에서 [!UICONTROL Feeds]을(를) 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: a0cf6d497fc5b9a04888d0c6597c98bbbb639cbe

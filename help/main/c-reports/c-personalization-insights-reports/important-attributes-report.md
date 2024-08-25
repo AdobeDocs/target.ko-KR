@@ -2,7 +2,7 @@
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
 description: 개인화 모델 및 상대적 중요도에 영향을 준 상위 특성을 보여 주는 [!UICONTROL Important Attributes] 보고서를 사용하는 방법을 알아봅니다.
 title: 중요 속성 보고서란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1

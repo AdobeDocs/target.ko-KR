@@ -1,5 +1,5 @@
 ---
-keywords: Experience Cloud 대상;대상
+keywords: Experience Cloud 대상자;대상자
 description: Adobe Experience Cloud Audiences를 통해 Experience Cloud 솔루션이 웹 사이트 방문자에 대한 정보를 다른 Adobe 솔루션과 소통하고 공유할 수 있는 방법에 대해 알아봅니다.
 title: Target에서 Adobe Experience Cloud 대상자는 어떻게 사용합니까?
 feature: Integrations

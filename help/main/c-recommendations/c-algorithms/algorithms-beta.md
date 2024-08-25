@@ -2,11 +2,12 @@
 keywords: 권장 사항;권장 사항 활동;기준;알고리즘;권장 사항 키;사용자 지정 키;업계 카테고리;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어;게시
 description: ' [!DNL Target] [!DNL Recommendations] Adobe에서 기준을 사용하는 방법을 알아봅니다.'
 title: ' [!DNL Target] Recommendations에서 기준을 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 9c6ff35269a81aa0c2ea331985c6f5ddd5c8ccb3
+exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
+source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
 workflow-type: tm+mt
 source-wordcount: '499'
 ht-degree: 6%

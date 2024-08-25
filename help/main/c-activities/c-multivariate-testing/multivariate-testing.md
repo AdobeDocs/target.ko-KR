@@ -81,7 +81,7 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 * 변경할 요소와 각 요소의 버전 수(3x2, 4x3 등)를 선택합니다.
 * 번호 지정 방식을 일관성 있게 유지합니다. 예를 들어, 단추가 요소 1이고 선택 사항이 파란색, 녹색 및 노란색인 경우 파란색 단추는 1-1, 녹색 단추는 1-2, 노란색 단추는 1-3이 됩니다.
 * 오프라인 스프레드시트는 필요한 경험의 적절한 개수를 제공합니다(3x2의 경우 4개, 4x3의 경우 9개 등).
-* [VEC(시각적 경험 작성기)](/help/main/c-experiences/experiences.md)를 사용하여 A/B 워크플로우에서 경험을 구축합니다. 사용자 지정 코드를 사용하거나 HTML, WYSIWYG 또는 모든 조합을 편집할 수 있습니다.
+* [VEC(시각적 경험 작성기)](/help/main/c-experiences/experiences.md)를 사용하여 A/B 워크플로에서 경험을 구축합니다. 사용자 지정 코드를 사용하거나 HTML, WYSIWYG 또는 모든 조합을 편집할 수 있습니다.
 * 활동이 끝나면(샘플 크기 계산기에 따라) 스프레드시트를 통해 결과를 실행하여 다른 세부 사항을 얻습니다.
 
 추가적인 고려 사항 및 우수 사례를 알려면 [다변량 테스트 우수 사례](/help/main/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD)를 참조하십시오.

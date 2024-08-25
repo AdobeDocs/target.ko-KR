@@ -2,7 +2,7 @@
 keywords: 경험;제어;자동화된 개인화;자동 타겟
 description: ' [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization](AP) 또는 [!UICONTROL Auto-Target] 활동을 만드는 동안 컨트롤로 사용할 환경을 선택하는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 특정 경험을 제어로 사용하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인하십시오."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
