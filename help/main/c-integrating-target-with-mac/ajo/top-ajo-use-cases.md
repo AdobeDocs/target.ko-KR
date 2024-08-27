@@ -6,16 +6,16 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 011a47ea8d19387d6ef3c633c2a253e2f82a50d0
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '159'
 ht-degree: 7%
 
 ---
 
-# [!DNL Adobe Journey Optimizer]의 주요 최적화 사용 사례 - 웹 및 코드 기반 채널
+# [!DNL Adobe Journey Optimizer] - 웹 및 코드 기반 채널의 주요 최적화 사용 사례
 
-[!DNL Adobe Journey Optimizer]에서 가장 영향력 있는 최적화 사용 사례를 효과적으로 구현하는 방법을 알아봅니다.
+웹 및 코드 기반 채널에서 [!DNL Adobe Journey Optimizer]에서 가장 영향력 있는 최적화 사용 사례를 효과적으로 구현하는 방법을 알아봅니다.
 
 ## 전제 조건
 

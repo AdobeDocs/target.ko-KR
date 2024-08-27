@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 9a9447b3067311ef203e91b186fff506e60bf590
+source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
 workflow-type: tm+mt
-source-wordcount: '702'
+source-wordcount: '743'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 1%
 
 이 사용 사례는 [!DNL Adobe Target]에서 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을 사용하지만 [!DNL Journey Optimizer]을(를) 사용하는 A/B 테스트에서 익숙한 작업을 수행하는 방법을 보여 주기 위해 설계되었습니다.
 
-## 시나리오
+## 가능한 시나리오
 
-한 의류 회사는 다양한 이미지를 테스트하고 프로필 속성의 사용자 이름으로 캠페인 랜딩 페이지를 개인화하여 전환을 늘렸습니다.
+* 한 의류 회사는 다양한 이미지를 테스트하고 프로필 속성의 사용자 이름으로 캠페인 랜딩 페이지를 개인화하여 전환을 늘렸습니다.
+
+* 한 전자상거래 업체는 캠페인 랜딩 페이지에서 다양한 제품 설명과 이미지를 테스트한 결과, 자사 골드 충성도 회원이 전환율이 높아져 매출 증가로 이어지는 것을 발견했다.
 
 ## 이점 및 가치
 
@@ -29,13 +31,13 @@ ht-degree: 1%
 * **데이터 기반 결정**: 데이터를 활용하여 콘텐츠 전략에서 정보에 입각한 결정을 내려 최대의 효과를 얻을 수 있습니다.
 * **개인화된 사용자 경험**: 모든 대상 세그먼트의 고유한 환경 설정 및 요구 사항을 충족하도록 콘텐츠를 맞춤화합니다.
 
-## 단계별 지침
+## 단계
 
 >[!NOTE]
 >
->이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너에서 사용 가능한 옵션에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;의 [웹 콘텐츠 편집](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}을 참조하십시오.
+>이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너에서 사용 가능한 옵션에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;의 [웹 콘텐츠 편집](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}을 참조하십시오. 페이지 하단에 있는 비디오가 특히 유용합니다.
 
-사용자의 이름을 사용하여 다양한 이미지를 테스트하고 메시지를 개인화하여 웹 페이지를 최적화하려면 다음 단계를 수행하십시오.
+프로필 스크립트를 사용하여 다양한 이미지를 테스트하고 사용자의 이름으로 메시지를 개인화하여 웹 페이지를 최적화하려면 다음 단계를 수행하십시오.
 
 1. [!DNL Adobe Journey Optimizer]에서 왼쪽 레일의 **캠페인**&#x200B;을 클릭하여 [!UICONTROL Campaigns] 페이지를 표시합니다.
 
@@ -51,7 +53,7 @@ ht-degree: 1%
 
 1. (조건부) **[!UICONTROL Audience]** 섹션에서 **[!UICONTROL Select Audience]**&#x200B;을(를) 클릭하고 원하는 대상을 선택합니다.
 
-   이 사용 사례에서는 모든 방문자에 대해 캠페인을 활성화하도록 선택했습니다(기본값).
+   이 사용 사례에서는 [!UICONTROL All Visitors](기본값)에 대한 캠페인을 활성화하도록 선택했습니다.
 
 1. **[!UICONTROL Action]** 섹션의 **[!UICONTROL Action]** 드롭다운 목록에서 **[!UICONTROL Web]**&#x200B;을(를) 선택한 다음 새 웹 구성을 선택하거나 만듭니다.
 
@@ -111,6 +113,6 @@ ht-degree: 1%
 >[!MORELIKETHIS]
 >
 >*Journey Optimizer 설명서*&#x200B;의 [웹 콘텐츠 편집](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}
->[*Journey Optimizer 설명서*&#x200B;의 방법 비디오](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/web-spa#video){target=_blank}
+>[*Journey Optimizer 설명서*&#x200B;의 방법 비디오](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}
 >[*Journey Optimizer Tutorials*&#x200B;에서 캠페인 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}
 
