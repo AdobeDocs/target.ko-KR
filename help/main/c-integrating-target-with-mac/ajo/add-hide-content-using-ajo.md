@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: b68ee55246f46f59bc0117e7702b06589fc1e58c
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '588'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,13 @@ ht-degree: 1%
 
    ![LUMA 웹 사이트의 요가 랜딩 페이지](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. 콜 투 액션 단추를 추가하려면 오른쪽 레일에서 **[!UICONTROL Edit Web Page]**&#x200B;을(를) 클릭합니다.
+1. 요소 숨기기를 추가하려면 오른쪽 레일에서 **[!UICONTROL Edit Web Page]**&#x200B;을(를) 클릭합니다.
 
-1. 다음을 클릭합니다.
+1. 숨기려는 요소를 클릭한 다음 오른쪽 레일에서 [!UICONTROL Hide] 단추를 클릭합니다.
+
+   오른쪽 레일에는 선택한 요소에 대해 수행할 수 있는 옵션이 표시됩니다. 이러한 옵션은 선택한 요소에 따라 다릅니다.
+
+   ![요소 숨기기 단추](/help/main/c-integrating-target-with-mac/ajo/assets/hide-element.png)
 
 1. 왼쪽 위 모서리에 있는 뒤로 화살표를 클릭하여 웹 디자이너로 돌아갑니다.
 
