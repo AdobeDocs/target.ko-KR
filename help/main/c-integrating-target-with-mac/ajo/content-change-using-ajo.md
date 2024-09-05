@@ -6,9 +6,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: 7cf9a9425b9fb17c6e9595cedb7395f6610006ec
+source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -17,13 +17,9 @@ ht-degree: 1%
 
 이 사용 사례는 [!DNL Adobe Journey Optimizer]에서 효과적인 A/B 테스트 콘텐츠 변경 내용에 대한 비밀을 잠금 해제하는 데 도움이 됩니다.
 
-이 사용 사례는 [!DNL Adobe Target]에서 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을 사용하지만 [!DNL Journey Optimizer]을(를) 사용하는 A/B 테스트에서 익숙한 작업을 수행하는 방법을 보여 주기 위해 설계되었습니다.
+이 사용 사례에서는 [!DNL Adobe Target] 대신 [!DNL Journey Optimizer]을(를) 사용하여 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)으로 A/B 테스트와 같은 익숙한 작업을 수행하는 방법을 보여 줍니다.
 
-## 가능한 시나리오
-
-* 한 의류 회사는 다양한 이미지를 테스트하고 프로필 속성의 사용자 이름으로 캠페인 랜딩 페이지를 개인화하여 전환을 늘렸습니다.
-
-* 한 전자상거래 업체는 캠페인 랜딩 페이지에서 다양한 제품 설명과 이미지를 테스트한 결과, 자사 골드 충성도 회원이 전환율이 높아져 매출 증가로 이어지는 것을 발견했다.
+이 사용 사례는 [!DNL Adobe Target]을(를) 사용하여 수행했을 수 있는 익숙한 작업, [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을(를) 사용하여 A/B 테스트를 수행했을 수 있지만 [!DNL Journey Optimizer]을(를) 사용하는 방법을 보여 주기 위해 설계되었습니다.
 
 ## 이점 및 가치
 
@@ -31,11 +27,19 @@ ht-degree: 1%
 * **데이터 기반 결정**: 데이터를 활용하여 콘텐츠 전략에서 정보에 입각한 결정을 내려 최대의 효과를 얻을 수 있습니다.
 * **개인화된 사용자 경험**: 모든 대상 세그먼트의 고유한 환경 설정 및 요구 사항을 충족하도록 콘텐츠를 맞춤화합니다.
 
+## 가능한 시나리오
+
+* 한 의류 회사는 다양한 이미지를 테스트하고 클릭 유도 문안 텍스트에서 사용자 이름으로 캠페인 랜딩 페이지를 개인화하여 전환을 늘렸습니다.
+
+* 한 이커머스 회사는 캠페인 랜딩 페이지에서 다양한 제품 설명과 이미지를 테스트해 골드 충성도 회원이 전환율이 높아져 매출 증가로 연결됐다는 사실을 밝혀냈다.
+
 ## 단계
 
 >[!NOTE]
 >
->이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너에서 사용 가능한 옵션에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;의 [웹 콘텐츠 편집](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}을 참조하십시오. 페이지 하단에 있는 비디오가 특히 유용합니다.
+>이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너에서 사용 가능한 옵션에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;의 [웹 콘텐츠 편집](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}을 참조하십시오.
+>
+>페이지 하단에 있는 비디오가 특히 유용합니다.
 
 프로필 스크립트를 사용하여 다양한 이미지를 테스트하고 사용자의 이름으로 메시지를 개인화하여 웹 페이지를 최적화하려면 다음 단계를 수행하십시오.
 
@@ -53,7 +57,7 @@ ht-degree: 1%
 
 1. (조건부) **[!UICONTROL Audience]** 섹션에서 **[!UICONTROL Select Audience]**&#x200B;을(를) 클릭하고 원하는 대상을 선택합니다.
 
-   이 사용 사례에서는 [!UICONTROL All Visitors](기본값)에 대한 캠페인을 활성화하도록 선택했습니다.
+   이 사용 사례의 경우 [!UICONTROL All Visitors]에 대한 캠페인(기본값)을 활성화할 수 있습니다.
 
 1. **[!UICONTROL Action]** 섹션의 **[!UICONTROL Action]** 드롭다운 목록에서 **[!UICONTROL Web]**&#x200B;을(를) 선택한 다음 새 웹 구성을 선택하거나 만듭니다.
 
@@ -67,9 +71,23 @@ ht-degree: 1%
 
    ![LUMA 웹 사이트의 요가 랜딩 페이지](/help/main/c-integrating-target-with-mac/ajo/assets/luma-yoga-landing.png)
 
-1. 더 잘 작동하는 콘텐츠를 테스트하기 위한 실험을 만들려면 **[!UICONTROL Create Experiment]**&#x200B;을(를) 클릭합니다.
+1. 더 나은 성과를 확인하는 실험을 만들려면 **[!UICONTROL Create Experiment]**&#x200B;을(를) 클릭합니다.
 
-   콘텐츠 실험을 통해 메시지 콘텐츠, 주제 또는 발신자를 다양하게 설정하여 여러 처리를 정의하고 대상자에 가장 적합한 조합을 결정할 수 있습니다. 자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}를 참조하십시오.
+   콘텐츠 실험을 통해 메시지 콘텐츠, 주제 또는 발신자를 다양하게 설정하여 여러 처리를 정의하고 대상자에게 가장 적합한 조합을 결정할 수 있습니다. 자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [콘텐츠 실험 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/content-experiment/content-experiment){target=_blank}를 참조하십시오.
+
+1. 성공 지표를 선택하고 클릭 작업을 수행합니다.
+
+   자세한 내용 및 관련 문서에 대한 링크를 보려면 도움말 아이콘을 클릭하십시오.
+
+1. **[!UICONTROL Add Treatment]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+
+   이 사용 사례에서는 각 실험에 대해 분포를 50%로 유지할 수 있다.
+
+1. [!UICONTROL Campaign] 세부 정보 페이지의 **[!UICONTROL Action]**&#x200B;에서 **[!UICONTROL Edit Content]**&#x200B;을(를) 클릭합니다.
+
+1. 처리 B 아래에서 Web 을 클릭합니다.
+
+   이 사용 사례의 경우 A/B 테스트의 첫 번째 경험으로 원본 경험을 사용하려면 [!UICONTROL Treatment A]을(를) 변경하지 마십시오.
 
 1. 오른쪽 레일에서 **[!UICONTROL Edit Web Page]**&#x200B;을(를) 클릭합니다.
 
@@ -89,7 +107,7 @@ ht-degree: 1%
 
    프로필 특성에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [개인화 편집기 시작하기](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/content-management/personalization/expression-editor/personalization-build-expressions){target=_blank}를 참조하십시오.
 
-1. &quot;이름&quot; 프로필 특성을 검색하여 선택하고 원하는 대로 텍스트를 조정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 플러스 기호를 검색하여 &quot;이름&quot; 프로필 특성을 추가하고 텍스트를 원하는 대로 조정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    ![이름에 대한 프로필 특성 추가](/help/main/c-integrating-target-with-mac/ajo/assets/add-profile-attribute-for-name.png)
 
@@ -103,7 +121,7 @@ ht-degree: 1%
 
 ## 보고서 보기
 
-보고서 단추를 클릭한 다음 원하는 보고 기간을 클릭합니다.
+[!UICONTROL Reports] 단추를 클릭한 다음 원하는 보고 기간을 클릭합니다.
 
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
