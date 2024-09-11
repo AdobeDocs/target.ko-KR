@@ -5,10 +5,10 @@ title: ' [!DNL Target Standard] 계정에 대해 사용자를 추가하고 권�
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
 workflow-type: tm+mt
-source-wordcount: '826'
-ht-degree: 66%
+source-wordcount: '862'
+ht-degree: 63%
 
 ---
 
@@ -79,6 +79,10 @@ ht-degree: 66%
 시스템 관리자만 [!DNL Target]에서 사용자 역할을 설정할 수 있습니다. 예를 들어 [!UICONTROL Standard] 승인자 사용자는 [!DNL Experience Cloud] 관리자 권한도 보유하고 있지 않으면 관찰자를 승인자로 변경할 수 없습니다.
 
 시스템 관리자 사용자는 시스템에 사용자를 추가해야 합니다. 사용자는 자동으로 추가되지 않습니다. [!DNL Experience Cloud]에서 이메일을 통해 초대되며 계정 등록 전 이메일 주소를 확인해야 합니다.
+
+>[!NOTE]
+>
+>[!DNL Target]에서 활동을 보려면 적어도 [!UICONTROL Observer] 역할이 있는 작업 영역에 사용자를 직접 할당해야 합니다. 사용자 그룹만 통한 할당은 충분하지 않습니다. 일반적으로 사용자에게 기본 작업 영역에 대한 액세스 권한을 부여하는 것이 좋습니다.
 
 1. [Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL Products]**&#x200B;을(를) 클릭한 다음 원하는 제품의 이름을 선택합니다.
 
