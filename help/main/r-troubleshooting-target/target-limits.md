@@ -5,9 +5,9 @@ title: ' [!DNL Adobe Target]의 다양한 문자, 크기 및 기타 제한 사�
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 5ab209ae91580403ad9ec63998fcf3077400490f
+source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
 workflow-type: tm+mt
-source-wordcount: '1693'
+source-wordcount: '1704'
 ht-degree: 76%
 
 ---
@@ -179,7 +179,7 @@ ht-degree: 76%
 
 * **제한**: 250자.
 
-  [!DNL Delivery API]용(at.js 2.*x*), 일괄 mbox V2 및 [!DNL Adobe Experience Platform Web SDK] (alloy.js) 통합, mbox 이름 *can*&#x200B;에는 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자 중 하나가 포함됩니다.
+  [!DNL Delivery API]용(at.js 2.*x*), 일괄 mbox V2 및 [!DNL Adobe Experience Platform Web SDK](alloy.js) 통합, mbox 이름 *can*&#x200B;에는 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자 중 하나가 포함됩니다.
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
@@ -251,7 +251,9 @@ ht-degree: 76%
 
 ### 오퍼 수
 
-* **권장 제한**: 총 50,000개의 오퍼.
+* **제한**: 총 150,000개의 오퍼입니다.
+
+  150,000개의 오퍼 제한을 초과하면 활동 동기화 오류가 발생합니다.
 
 ### 오퍼 크기 {#offer-size}
 
