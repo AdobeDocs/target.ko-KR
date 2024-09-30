@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c4d5c5d415a16661a56bb0c4d5b72f295baf30a
+source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
 workflow-type: tm+mt
-source-wordcount: '384'
-ht-degree: 19%
+source-wordcount: '398'
+ht-degree: 22%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 19%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 9월 29일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | at.js 2.11.6 릴리스에 대한 정보가 추가되었습니다. |
 | 9월 11일 | [사용자](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | 역할 및 권한 지정 아래에 다음 참고가 추가되었습니다.<P> [!DNL Target]에서 활동을 보려면 적어도 [!UICONTROL Observer] 역할이 있는 작업 영역에 사용자를 직접 할당해야 합니다. 사용자 그룹만 통한 할당은 충분하지 않습니다. 일반적으로 사용자에게 기본 작업 영역에 대한 액세스 권한을 부여하는 것이 좋습니다. |
 | 8월 1일 | [권장 사항 FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | FAQ: &quot;[!DNL Target] API를 사용하여 [!DNL Target] UI에서 만든 시각적 오퍼를 관리할 수 있습니까?&quot;가 추가되었습니다. |
 | 7월 10일 | [프록시 구성(Java)](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/java/proxy-configuration){target=_blank} | 새로운 섹션 추가: 온디바이스 의사 결정 |
