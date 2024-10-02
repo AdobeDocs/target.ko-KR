@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 74dbbb2f56e62c2c5595497c7ae1e264f9ffd9d4
+source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '825'
+ht-degree: 8%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 0%
 | 필드 검색 | **[!UICONTROL Search in]** 필드를 사용하여 오퍼를 빠르게 찾거나 [!UICONTROL Offers] 라이브러리에 표시되는 오퍼 수를 줄이십시오. [!UICONTROL Offer Name], [!UICONTROL AEM Paths] 또는 [!UICONTROL AEM Tags]별로 검색할 수 있습니다. |
 | [!UICONTROL Create Folder] | **[!UICONTROL Create Folder]**&#x200B;을(를) 클릭하여 [!UICONTROL Offer] 라이브러리에 폴더를 만들어 코드 오퍼, 이미지 오퍼와 다른 폴더를 보관하여 하위 폴더 구조를 만듭니다.<P>자세한 내용은 [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder.md)를 참조하십시오. |
 | [!UICONTROL [!UICONTROL Create Offer]] | 오퍼를 만들려면 **[!UICONTROL Create Offer]**&#x200B;을(를) 클릭합니다.<P>다양한 오퍼 유형 만들기에 대한 자세한 내용은 다음을 참조하십시오. <ul><li>HTML 오퍼</li><li>[JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[오퍼 리디렉션](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[원격 오퍼](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
-| 대량 작업 확인란<P>![일괄 작업 아이콘](/help/main/assets/icons/Selection.svg) | 모든 활동 또는 선택한 활동에 대해 일괄 작업을 수행하려면 [!UICONTROL Bulk Operations] 확인란을 클릭하십시오.<P>사용 권한 및 오퍼 상태에 따라 사용 가능한 작업 목록을 보려면 아래의 [빠른 작업 수행](#quick-actions)을 참조하십시오. |
+| 대량 작업 확인란<P>![일괄 작업 아이콘](/help/main/assets/icons/Rectangle.svg) | 모든 오퍼 또는 선택한 오퍼에 일괄 작업을 수행하려면 [!UICONTROL Bulk Operations] 확인란을 클릭하십시오.<P>사용 권한 및 오퍼 상태에 따라 사용 가능한 작업 목록을 보려면 아래의 [빠른 작업 수행](#quick-actions)을 참조하십시오. |
 | [!UICONTROL Name] | 각 오퍼의 이름입니다.<P>오퍼 ID, 유형, 오퍼 날짜, 마지막으로 수정한 사람 등을 포함하여 팝업 카드에서 해당 오퍼에 대한 자세한 정보를 보려면 각 오퍼 이름 옆의 **[!UICONTROL Quick Info]** 아이콘(![빠른 정보 아이콘](/help/main/assets/icons/InfoOutline.svg))을 클릭합니다.<p>각 오퍼 이름 옆의 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭하여 활동에 대한 빠른 작업을 수행할 수 있는 메뉴를 엽니다. 사용 권한 및 오퍼 상태에 따라 [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] 및 [!UICONTROL Move] 작업을 사용할 수 있습니다. 각 작업에 대한 자세한 내용은 아래의 [빠른 작업 수행](#quick-actions)을 참조하십시오.<P>테이블 헤더를 클릭하여 목록을 이름별로 오름차순 또는 내림차순으로 정렬합니다. |
 | [!UICONTROL Type] | 오퍼 유형: [!UICONTROL HTML Offers], [[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) 및 [[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
 | [!UICONTROL Source] | 오퍼가 만들어진 위치를 표시합니다. [!DNL Adobe Target], [!DNL Adobe Target Classic] 및 [!DNL Adobe Experience Manager]. |
