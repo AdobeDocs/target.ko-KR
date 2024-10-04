@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: 3959641b-e436-4890-86ec-72abf173540d
-source-git-commit: 7802e4b84791645193661320b9e8db15e286a250
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '325'
 ht-degree: 7%
 
 ---
@@ -30,7 +30,7 @@ ht-degree: 7%
 
    ![코드 오퍼 탭](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
 
-1. **[!UICONTROL Create]** > **[!UICONTROL Folder]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create Folder]을(를) 클릭합니다.
 
 1. 폴더의 수사적 이름을 입력합니다.
 
@@ -44,9 +44,8 @@ ht-degree: 7%
 
 1. **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**&#x200B;을(를) 클릭합니다.
 
-   ![이미지 오퍼 탭](/help/main/c-experiences/c-manage-content/assets/image-offers-tab-new.png)
-
 1. **[!UICONTROL Create]** > **[!UICONTROL Folder]**&#x200B;을(를) 클릭합니다.
+
 1. 폴더에 대한 설명 **[!UICONTROL Title]**&#x200B;을(를) 지정하십시오.
 
    예를 들어 보유하고 있는 콘텐츠의 유형을 포함할 수 있습니다.
@@ -54,9 +53,9 @@ ht-degree: 7%
    이름에는 퍼센트 기호 `%`, 슬래시 `/`, 백슬래시 `\`, 콜론 `:`, 별표 `*`, 물음표 `?`, 큰따옴표 `"`, 대괄호 `[`, 대괄호 `]`, 더하기 기호: `+`, 파이프: `|`, 마침표: `.`, 숫자 기호: `#`, 중괄호: `{`, 중괄호 `}`, 삽입 기호 `^` 또는 세미콜론 `;` 문자를 사용할 수 없습니다. 이 문자 대신 하이픈(`- `)을 사용할 수 있습니다.
 
 1. (선택 사항) 설명하는 **[!UICONTROL Name]**&#x200B;을(를) 지정합니다.
-1. (선택 사항) **[!UICONTROL Private]** 확인란을 선택하여 폴더와 해당 내용만 볼 수 있도록 비공개 폴더로 지정합니다.
+1. (선택 사항) **[!UICONTROL Private]**&#x200B;을(를) 선택하여 폴더와 해당 컨텐츠만 볼 수 있도록 비공개 폴더를 지정합니다.
 
-1. (선택 사항) **[!UICONTROL Reorder-able in List View]** 확인란을 선택하여 나와 다른 사용자가 [!UICONTROL List View]에서 폴더 위치를 다시 정렬할 수 있도록 지정합니다.
+1. (선택 사항) **[!UICONTROL Reorder-able in List View]**&#x200B;을(를) 선택하여 나와 다른 사용자가 [!UICONTROL List View]에서 폴더 위치를 다시 정렬할 수 있도록 지정합니다.
 
 1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
 

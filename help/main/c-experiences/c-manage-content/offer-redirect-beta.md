@@ -1,16 +1,16 @@
 ---
-keywords: 리디렉션 오퍼;리디렉션 오퍼 만들기;html 오퍼 추가;리디렉션에서 모든 URL 매개 변수 전달;리디렉션에서 mboxSessionId 전달(리디렉션이 다른 도메인으로 진행될 경우에만 필요함)
-description: ' [!DNL Target] 에서 리디렉션 오퍼를 만들어 브라우저가 새 페이지로 리디렉션하는 방법을 알아봅니다.'
+keywords: 리디렉션 오퍼;리디렉션 오퍼 만들기;html 오퍼 추가;리디렉션에서 모든 URL 매개 변수 전달
+description: 브라우저가 새 페이지로 리디렉션되도록 리디렉션 오퍼를 만드는 방법을 알아봅니다.
 title: 리디렉션 오퍼를 만들려면 어떻게 합니까?
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: 751a8d97-2e35-4527-99f3-d7a42c104fcb
-source-git-commit: 182b5f286edd33f24b2b7efe3f9c583f7d0bc1ca
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '1189'
-ht-degree: 31%
+source-wordcount: '1137'
+ht-degree: 29%
 
 ---
 
@@ -30,7 +30,7 @@ ht-degree: 31%
 >
 >* AJAX mbox(`mboxUpdate`)에서 리디렉션 오퍼를 사용할 수 없습니다.
 >
->* Analytics를 보고 소스(A4T)로 사용하는 활동의 리디렉션 오퍼의 경우 구현은 특정 최소 요구 사항을 충족해야 합니다. 또한 사용자가 알아야 하는 중요한 정보도 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)를 참조하십시오.
+>* [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)을(를) 사용하는 활동의 리디렉션 오퍼의 경우 구현은 특정 최소 요구 사항을 충족해야 합니다. 또한 사용자가 알아야 하는 중요한 정보도 있습니다. 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905)를 참조하십시오.
 >
 >* 리디렉션하는 경험을 설정하는 방법에 대한 자세한 내용은 [URL로 리디렉션](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA)을 참조하십시오.
 
@@ -43,13 +43,7 @@ ht-degree: 31%
 ## [!UICONTROL Code Offers] 페이지에서 리디렉션 오퍼 만들기
 
 1. **[!UICONTROL Offers]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Code Offers]** 탭을 선택합니다.
-
-   ![코드 오퍼 탭](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. **[!UICONTROL Create Offer]** > **[!UICONTROL Redirect Offer]**&#x200B;을(를) 클릭합니다.
-
-   ![리디렉션 오퍼 만들기 대화 상자](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer-new.png)
-
 1. 오퍼에 대해 수사적 이름을 지정합니다.
 
    수사적 이름을 사용하면 [!UICONTROL Assets] 라이브러리에서 오퍼를 빠르게 찾을 수 있습니다.
@@ -64,7 +58,7 @@ ht-degree: 31%
 
 1. 원하는 옵션을 선택하여 리디렉션 오퍼를 사용자 지정합니다. 
 
-   * **모든 URL 매개 변수 포함:** 이전 페이지에 있는 모든 URL 매개 변수를 리디렉션된 페이지에 전파하려면 토글을 밀어 이 옵션을 사용하도록 설정합니다.
+   * **모든 URL 매개 변수 포함:** 이전 페이지에 있는 모든 URL 매개 변수를 리디렉션된 페이지에 전파하려면 이 옵션을 사용합니다.
 
      예를 들어, 남성 페이지에서 남성 셔츠 카테고리 페이지로 사람들을 직접 리디렉션하려고 할 수 있습니다. 사람들이 자신의 사이트에 이메일, 배너 광고, 검색 광고를 통해 도달했는지 아니면 구조적으로 도달했는지를 추적하는 방법으로서 URL의 동적 매개 변수를 전달하고자 할 수도 있습니다. 이 옵션을 활성화하면 URL 상자에 입력한 내용이 `https://www.mycompany.com/mensShirts.html`일 때 `https://www.mycompany.com/mens.html?emailId=123` 페이지의 리디렉션 오퍼가 자동으로 `https://www.mycompany.com/mensShirts.html?emailId=123`이(가) 됩니다.
 
@@ -81,17 +75,8 @@ ht-degree: 31%
 ## [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 리디렉션 오퍼 만들기
 
 1. [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하여 활동을 만드는 동안 **[!UICONTROL Content]** 섹션을 표시할 위치를 선택하십시오.
-
-   양식 기반 경험 작성기의 ![콘텐츠 섹션](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. **[!UICONTROL Default Content]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL Change Redirect Offer]**&#x200B;을(를) 클릭합니다.
-
-   ![리디렉션 오퍼 옵션 변경](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option.png)
-
 1. **[!UICONTROL Create]** > **[!UICONTROL Redirect Offer]**&#x200B;을(를) 클릭합니다.
-
-   ![리디렉션 오퍼 만들기 대화 상자](/help/main/c-experiences/c-manage-content/assets/create-redirect-offer.png)
-
 1. 오퍼에 대해 수사적 이름을 지정합니다.
 
    수사적 이름을 사용하면 [!UICONTROL Assets] 라이브러리에서 오퍼를 빠르게 찾을 수 있습니다.
@@ -131,11 +116,7 @@ ht-degree: 31%
 1. 원하는 위치를 지정하고 필요에 따라 대상 세분화를 추가합니다.
 
 1. **[!UICONTROL Content]** 섹션에서 드롭다운 목록을 클릭한 다음 **[!UICONTROL Change Redirect Offer]**&#x200B;을(를) 클릭합니다.
-
-   ![리디렉션 오퍼 옵션 변경](/help/main/c-experiences/c-manage-content/assets/change-redirect-offer-option2.png)
-
 1. [!UICONTROL Select Remote Offer] 대화 상자에서 원하는 리디렉션 오퍼를 선택한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
-
 1. 활동 구성을 완료합니다.
 
 ## 교육 비디오: 양식 기반 작성기 ![튜토리얼 배지](/help/main/assets/tutorial.png)

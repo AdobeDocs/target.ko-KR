@@ -1,16 +1,16 @@
 ---
 keywords: 컨텐츠;자산;컨텐츠 관리;오퍼;자산 관리;선택 모드 들어가기;선택 모드
-description: '[!UICONTROL Offers] 라이브러리를 사용하여 코드 및 이미지 오퍼를 효율적으로 관리하는 방법을 알아봅니다. 워크플로를 간소화하고 프로젝트를 향상시킬 수 있는 모범 사례와 팁에 대해 알아봅니다.'
+description: '[!UICONTROL Offers] 라이브러리를 사용하여 코드 및 이미지 오퍼를 효율적으로 관리하는 방법을 알아봅니다.'
 title: 코드 및 이미지 오퍼를 관리하는 방법
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 2831d370d774ce389a8c3621fa5e4354223af993
+source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
 workflow-type: tm+mt
-source-wordcount: '825'
-ht-degree: 8%
+source-wordcount: '812'
+ht-degree: 9%
 
 ---
 
