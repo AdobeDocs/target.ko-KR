@@ -4,14 +4,14 @@ description: Adobe [!DNL Target] 오퍼 라이브러리에서 코드 및 이미�
 title: 오퍼 라이브러리에서 콘텐츠를 검색하려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
-source-git-commit: c9d987a7e27bbaa605f4d7b45975c854b61783de
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '233'
-ht-degree: 8%
+source-wordcount: '235'
+ht-degree: 7%
 
 ---
 
-# 콘텐츠 검색
+# 콘텐츠 검색 및 필터링
 
 [!DNL Adobe Target]의 [!UICONTROL Offers] 라이브러리에서 키워드로 자산을 검색합니다.
 

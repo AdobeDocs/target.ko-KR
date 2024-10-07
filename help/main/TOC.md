@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 000c41efa783889bcb2af20c84956411f73baf40
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '1367'
-ht-degree: 83%
+source-wordcount: '1374'
+ht-degree: 82%
 
 ---
 
@@ -266,7 +266,8 @@ ht-degree: 83%
       + [JSON 오퍼 만들기 Beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [라이브러리에서 콘텐츠 작업](c-experiences/c-manage-content/assets-working.md)
       + [라이브러리 베타에서 컨텐츠 작업](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
-      + [콘텐츠 검색](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [콘텐츠 검색 및 필터링](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [콘텐츠 베타 검색 및 필터링](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [오퍼에 동적 데이터 전달](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM 경험 및 컨텐츠 조각](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 보고서 {#reports}

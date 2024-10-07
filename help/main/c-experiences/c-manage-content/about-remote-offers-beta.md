@@ -1,22 +1,22 @@
 ---
 keywords: 원격 오퍼;캐시된 컨텐츠;다이내믹 컨텐츠;url 유형
-description: ' [!DNL Target] 에서 원격 오퍼를 사용하여 외부 콘텐츠(CMS 또는 다른 시스템의 콘텐츠)를 호스팅하는 방법을 알아봅니다.'
+description: ' [!DNL Target] 에서 원격 오퍼를 활용하여 CMS 또는 다른 시스템에서 외부 콘텐츠를 호스팅하는 방법에 대해 알아봅니다.'
 title: 원격 오퍼를 만드는 방법
 feature: Experiences and Offers
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: dedef7763a1d69f80c569a0e7edaadfb310b1a15
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '1087'
-ht-degree: 21%
+source-wordcount: '1064'
+ht-degree: 19%
 
 ---
 
 # 원격 오퍼 만들기
 
-원격 오퍼를 사용하여 [!DNL Adobe Target] 이 참조하고 사용자의 웹 사이트에 전달하는 콘텐츠를 [!DNL Target] 외부에 호스팅합니다. 이 콘텐츠는 편의성이나 보안상의 이유로 콘텐츠 관리(CMS) 또는 다른 시스템에 있을 수 있습니다.
+원격 오퍼를 사용하여 [!DNL Adobe Target] 외부에 있는 콘텐츠를 호스팅하면 [!DNL Target]에서 이 콘텐츠를 참조하고 사용자 웹 사이트로 전달할 수 있습니다. 이 콘텐츠는 간편한 사용 또는 보안상의 이유로 콘텐츠 관리 시스템(CMS) 또는 다른 시스템에 상주할 수 있습니다.
 
 >[!NOTE]
 >
@@ -51,21 +51,17 @@ ht-degree: 21%
 
 1. **[!UICONTROL Offers]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Code Offers]** 탭을 선택합니다.
 
-   ![오퍼 > 코드 오퍼](/help/main/c-experiences/c-manage-content/assets/offers-code-offers-new.png)
-
 1. **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**&#x200B;을(를) 클릭합니다.
 
-   ![원격 오퍼 만들기 대화 상자](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui_new.png)
+1. [!UICONTROL Create Remote Offer] 대화 상자에서 오퍼를 설명하는 이름을 입력합니다.
 
-1. 오퍼에 대해 수사적 이름을 지정합니다.
-
-   수사적 이름을 사용하면 [!UICONTROL Assets] 라이브러리에서 오퍼를 빠르게 찾을 수 있습니다.
+   수사적 이름을 사용하면 [!UICONTROL Offers] 라이브러리에서 오퍼를 빠르게 찾을 수 있습니다.
 
 1. (조건부) [Target Premium 계정](/help/main/c-intro/intro.md#premium)이 있는 경우 원하는 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)을(를) 선택하십시오.
 
 1. 리디렉션 URL 유형을 지정합니다.
 
-   자세한 내용은 아래의 [리디렉션 URL 유형: 캐시됨 또는 동적](#url-type)을 참조하십시오.
+   자세한 내용은 아래의 [리디렉션 URL 형식: [!UICONTROL Onsite Cached] 또는 [!UICONTROL Onsite Dynamic]](#url-type)을(를) 참조하십시오.
 
 1. 원격 오퍼에 대한 절대 원격 URL을 지정합니다.
 
@@ -75,15 +71,9 @@ ht-degree: 21%
 
 1. [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하여 활동을 만드는 동안 **[!UICONTROL Content]** 섹션을 표시할 위치를 선택하십시오.
 
-   양식 기반 경험 작성기의 ![콘텐츠 섹션](/help/main/c-experiences/c-manage-content/assets/form-based-content.png)
-
 1. **[!UICONTROL Default Content]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL Change Remote Offer]**&#x200B;을(를) 클릭합니다.
 
-   ![원격 오퍼 옵션 변경](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
-
 1. **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**&#x200B;을(를) 클릭합니다.
-
-   ![원격 오퍼 만들기 대화 상자](/help/main/c-experiences/c-manage-content/assets/remote_offer_ui.png)
 
 1. 오퍼에 대해 수사적 이름을 지정합니다.
 
@@ -91,27 +81,27 @@ ht-degree: 21%
 
 1. 리디렉션 URL 유형을 지정합니다.
 
-   자세한 내용은 아래의 [리디렉션 URL 유형: 캐시됨 또는 동적](#url-type)을 참조하십시오.
+   자세한 내용은 아래의 [리디렉션 URL 형식: [!UICONTROL Onsite Cached] 또는 [!UICONTROL Onsite Dynamic]](#url-type)을(를) 참조하십시오.
 
 1. 원격 오퍼에 대한 원격 URL을 지정하십시오.
 
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
-## 리디렉션 URL 유형: 캐시됨 또는 동적 {#url-type}
+## 리디렉션 URL 유형: [!UICONTROL Onsite Cached] 또는 [!UICONTROL Onsite Dynamic] {#url-type}
 
 다음 정보는 두 옵션 간의 차이점을 이해하는 데 도움이 됩니다.
 
-### 캐시된 URL
+### [!UICONTROL Onsite Cached] URL
 
 캐시된 원격 오퍼에 대한 콘텐츠가 [!DNL Target]에서 제공됩니다.
 
 [!DNL Target]은(는) 두 시간마다 원격 URL에서 콘텐츠를 가져온 다음 [!DNL Target] 내부에 콘텐츠를 저장합니다. 방문자가 원격 오퍼가 포함된 경험이 있는 사이트를 로드하면 [!DNL Target]에서 오퍼를 제공합니다.
 
-[!DNL Target]에 로그인한 사용자는 콘텐츠를 변경할 수 없으므로 캐시된 원격 오퍼는 향상된 보안을 제공합니다. 콘텐츠를 변경하려면 누군가가 로그 또는 다른 시스템에서 콘텐츠를 변경해야 합니다.
+[!DNL Target]에 로그인한 사용자는 콘텐츠를 변경할 수 없으므로 캐시된 원격 오퍼는 향상된 보안을 제공합니다. 콘텐츠를 변경하려면 누군가가 콘텐츠 관리 시스템이나 다른 시스템에 로그인하여 콘텐츠를 변경해야 합니다.
 
 캐시된 원격 오퍼에 대한 절대 또는 상대 URL을 지정할 수 있습니다.
 
-### 동적 URL
+### [!UICONTROL Onsite Dynamic] URL
 
 동적 원격 오퍼는 [!DNL Target]이(가) 아닌 콘텐츠 관리 또는 다른 시스템에서 제공됩니다.
 
@@ -132,8 +122,6 @@ ht-degree: 21%
 1. 원하는 위치를 지정하고 필요에 따라 대상 세분화를 추가합니다.
 
 1. **[!UICONTROL Content]** 섹션에서 드롭다운 목록을 클릭한 다음 **[!UICONTROL Change Remote Offer]**&#x200B;을(를) 클릭합니다.
-
-   ![원격 오퍼 옵션 변경](/help/main/c-experiences/c-manage-content/assets/change-remote-offer.png)
 
 1. [!UICONTROL Select Remote Offer] 대화 상자에서 원하는 원격 오퍼를 선택한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
@@ -159,9 +147,9 @@ ht-degree: 21%
 
 ## 원격 오퍼 선택 표 {#reference_B23BEDD29DDD47709A7651AFD27E776B}
 
-원격 오퍼 선택 표는 선택할 원격 오퍼의 유형([!UICONTROL Cached] 또는 [!UICONTROL Dynamic])을 결정하는 데 도움이 됩니다.
+원격 오퍼 선택 표는 선택할 원격 오퍼의 유형([!UICONTROL Onsite Cached] 또는 [!UICONTROL Onsite Dynamic])을 결정하는 데 도움이 됩니다.
 
-| 기능 | 캐시됨 | 동적 |
+| 기능 | 온사이트 캐시 | 온사이트 동적 |
 |--- |--- |--- |
 | 방문자가 요청할 때마다 업데이트 | 아니오 | 예 |
 | 컨텐츠 업데이트 | 2시간마다 캐시됨 | 각 요청 시 즉시 업데이트됨 |

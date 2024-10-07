@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 9065fa16a2a5d742f7f91297ec7e7448db8cc7fc
+source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
 workflow-type: tm+mt
-source-wordcount: '426'
+source-wordcount: '421'
 ht-degree: 25%
 
 ---
@@ -33,13 +33,7 @@ JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시
 ## JSON 오퍼 만들기 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. **[!UICONTROL Offers]** > **[!UICONTROL Code Offers]**&#x200B;을(를) 클릭합니다.
-
-   ![오퍼 > 코드 오퍼 탭](/help/main/c-experiences/c-manage-content/assets/code-offers-tab-new.png)
-
 1. **[!UICONTROL Create Offer]** > **[!UICONTROL JSON Offer]**&#x200B;을(를) 클릭합니다.
-
-   ![offer-json 이미지](assets/offer-json-new.png)
-
 1. 오퍼 이름을 입력합니다.
 1. (조건부) [[!DNL Target] Premium 계정](/help/main/c-intro/intro.md#premium)이 있는 경우 원하는 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#workspace)을 선택하세요.
 1. (조건부) 원하는 프로필 속성을 선택합니다.
@@ -143,6 +137,4 @@ Real-Time CDP 프로필 특성을 [!DNL Target]과(와) 공유하여 HTML 및 JS
 
 ## JSON 오퍼 유형별 오퍼 필터링 {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
-**[!UICONTROL Show filters]** 아이콘을 클릭한 다음 **[!UICONTROL JSON]** 확인란을 선택하여 JSON 오퍼 유형별로 [!UICONTROL Offers] 라이브러리를 필터링할 수 있습니다.
-
-![offer-json-filter 이미지](assets/offer-json-filter-new.png)
+**[!UICONTROL Show filters]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭한 다음 **[!UICONTROL JSON Offers]** 확인란을 선택하여 [!UICONTROL Offers] 라이브러리를 JSON 오퍼 유형별로 필터링할 수 있습니다.
