@@ -4,10 +4,10 @@ description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 보고서�
 title: A4T를 사용하여 보고서를 보는 것과 관련된 질문에 대한 답변을 찾으시나요?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-source-git-commit: 79ae58377c9eea0faca1ade11f2ab53da56b7bc1
+source-git-commit: c747a8a0ed480130f254818e21b98addca16ca41
 workflow-type: tm+mt
-source-wordcount: '2573'
-ht-degree: 25%
+source-wordcount: '2539'
+ht-degree: 24%
 
 ---
 
@@ -33,12 +33,10 @@ ht-degree: 25%
 
 +++
 
-## [!DNL Analysis Workspace]에서 &quot;동일한 터치&quot; Attribution IQ 모델을 적용할 수 있습니까?
+## [!DNL Analysis Workspace]에서 사용되는 Attribution IQ 모델은 무엇입니까?
 
 +++답변
-[!DNL Analysis Workspace]에서 [!DNL Target]개의 활동 노출 횟수 및 변환을 사용하는 경우 정확한 계산을 위해 &quot;동일한 터치&quot; Attribution IQ 모델을 지표에 적용합니다. [기본값이 아닌 속성 모델](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)을 적용하려면 지표를 마우스 오른쪽 버튼으로 클릭하여 **열 설정을 수정하고 > 기본값이 아닌 속성 모델을 활성화하고 > 동일 터치 모델을 선택**&#x200B;합니다. 이 모델이 적용되지 않으면 지표가 과대 평가됩니다.
-
-현재 모든 [!DNL Adobe Analytics] 패키지는 [!UICONTROL Attribution IQ]을(를) 사용하여 이 모델을 추가할 수 있습니다. [!UICONTROL Attribution IQ]에 대한 액세스 권한이 없는 경우 [!UICONTROL Reports & Analytics]의 A4T 데이터를 사용하십시오.
+[!DNL Analysis Workspace]에서 [!DNL Target]개의 활동 노출 및 전환을 사용할 때 정확한 계산을 위해 &quot;동일한 터치&quot; Attribution IQ 모델이 지표에 적용되는 기본 모델입니다. 이 모델은 99%의 경우 효과가 좋습니다. 하지만 Attribution IQ에서 이 표준 속성을 재정의할 수 있습니다.
 
 +++
 
