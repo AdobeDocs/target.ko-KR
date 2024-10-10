@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
+source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
 workflow-type: tm+mt
-source-wordcount: '1385'
-ht-degree: 82%
+source-wordcount: '1394'
+ht-degree: 81%
 
 ---
 
@@ -123,8 +123,11 @@ ht-degree: 82%
          + [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [A/B 테스트 베타 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
+         + [활동 URL 베타](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
+         + [경험 베타 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [대상자 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
+         + [대상 베타 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Analytics 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
