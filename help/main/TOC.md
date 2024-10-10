@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 54be0689d6e8aea9d7923a93a1660548894d9941
 workflow-type: tm+mt
-source-wordcount: '1374'
+source-wordcount: '1385'
 ht-degree: 82%
 
 ---
@@ -115,11 +115,13 @@ ht-degree: 82%
    + [Target 활동 유형](c-activities/target-activities-guide.md)
    + A/B 테스트 {#abtest}
       + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
+      + [A/B 테스트 개요 베타](c-activities/t-test-ab/test-ab-beta.md)
       + [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md)
       + [10가지 일반적인 A/B 테스트 위험 및 이를 피하는 방법](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A 테스트](/help/main/c-activities/t-test-ab/aa-testing.md)
       + A/B 테스트 만들기 {#create}
          + [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [A/B 테스트 베타 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [대상자 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
