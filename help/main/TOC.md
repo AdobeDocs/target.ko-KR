@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 81%
+source-wordcount: '1410'
+ht-degree: 80%
 
 ---
 
@@ -129,9 +129,12 @@ ht-degree: 81%
          + [대상자 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
          + [대상 베타 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
+         + [목표 및 설정 베타](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Analytics 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
+         + [지표 베타 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [A/B 테스트의 여러 경험 대상자](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [A/B 테스트 베타의 여러 경험 대상](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + 자동 할당 {#auto-allocate}
       + [자동 할당 개요](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
