@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
 workflow-type: tm+mt
-source-wordcount: '1426'
-ht-degree: 80%
+source-wordcount: '1447'
+ht-degree: 78%
 
 ---
 
@@ -153,10 +153,13 @@ ht-degree: 80%
       + [Automated Personalization 개요](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest 알고리즘](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Automated Personalization 활동 만들기](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [Automated Personalization 활동 Beta 만들기](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [Target의 개인화 알고리즘을 위한 데이터 업로드](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target의 개인화 알고리즘을 위한 데이터 수집](c-activities/t-automated-personalization/ap-data.md)
       + [성공에 필요한 트래픽 예측](c-activities/t-automated-personalization/ap-traffic-estimator.md)
+      + [성공 Beta에 필요한 트래픽 예측](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [Automated Personalization 테스트를 위한 경험 미리보기](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Automated Personalization 테스트 베타에 대한 경험 미리 보기](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Target Automated Personalization 오퍼](c-activities/t-automated-personalization/ap-target-offers.md)
       + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Automated Personalization의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
