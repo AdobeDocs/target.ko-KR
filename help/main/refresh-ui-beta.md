@@ -6,7 +6,8 @@ badgePremium: label="Beta" type="Informative" url="https://experienceleague.adob
 feature: Release Notes
 hide: true
 hidefromtoc: true
-source-git-commit: 23f6a8bfd198649ea1e234dbd57593eb868fc569
+exl-id: 54834393-9121-41e7-93fb-b00924869d73
+source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
 workflow-type: tm+mt
 source-wordcount: '597'
 ht-degree: 78%
@@ -30,19 +31,19 @@ ht-degree: 78%
 * [활동 개요](c-activities/activities.md){target=_blank}
 * [Target 활동 유형](c-activities/target-activities-guide.md){target=_blank}
 * A/B 테스트 {#abtest}
-   * [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md){target=_blank}
+   * [A/B 테스트 개요](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
    * [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
    * [10가지 일반적인 A/B 테스트 위험 및 이를 피하는 방법](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
    * [A/B 테스트](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
    * A/B 테스트 만들기 {#create}
-      * [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md){target=_blank}
-      * [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md){target=_blank}
-      * [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md){target=_blank}
+      * [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
+      * [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
+      * [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
       * [대상자 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
-      * [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md){target=_blank}
+      * [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
       * [Analytics 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
-      * [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md){target=_blank}
-      * [A/B 테스트의 여러 경험 대상자](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md){target=_blank}
+      * [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
+      * [A/B 테스트의 여러 경험 대상자](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * 자동 할당 {#auto-allocate}
    * [자동 할당 개요](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
    * [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
@@ -180,4 +181,3 @@ ht-degree: 78%
    * [Recommendations Classic 설명서](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++
-
