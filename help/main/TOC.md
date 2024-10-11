@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: f4af2527bfed992e6d341b503aa84ae74dc34d89
+source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '1410'
+source-wordcount: '1426'
 ht-degree: 80%
 
 ---
@@ -138,11 +138,15 @@ ht-degree: 80%
    + 자동 할당 {#auto-allocate}
       + [자동 할당 개요](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [자동 할당 보고서 해석 베타](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [자동 할당을 통해 수동 테스트보다 더 빠른 테스트 결과와 더 높은 매출을 얻을 수 있음](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + 자동 타기팅 {#auto-target}
       + [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+      + [자동 타겟 개요 베타](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md)
+      + [자동 Target 활동 Beta 만들기](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [자동 타겟 FAQ 및 문제 해결](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [보고 및 자동 타겟](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}

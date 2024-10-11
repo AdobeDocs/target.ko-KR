@@ -1,28 +1,27 @@
 ---
-keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: ' [!DNL Target]이(가) 활성화된 페이지에서 직접 A/B 테스트 활동을 만들 수 있도록 [!UICONTROL Visual Experience Composer](VEC)을(를) 기본으로 제공합니다.'
-title: A/B 테스트를 만들려면 어떻게 해야 합니까?
-feature: A/B Tests
+keywords: 자동 타겟 만들기;A/B 테스트;자동 타겟 활동;새 a/b 활동;자동 타겟;개인화된 경험에 대한 자동 타겟;개인화된;최적화
+description: '[!UICONTROL Visual Experience Composer](VEC)을(를) 사용하여 [!UICONTROL Auto-Target] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
+title: '[!UICONTROL Auto-Target] 활동을 만드는 방법'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+feature: Auto-Target
 hide: true
 hidefromtoc: true
 source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 16%
+source-wordcount: '919'
+ht-degree: 18%
 
 ---
 
-# A/B 테스트 활동 만들기
+# [!UICONTROL Auto-Target] 활동 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer](VEC)을(를) 활용하여 [!DNL Target]이 활성화된 페이지에서 직접 [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내의 페이지 섹션을 수정합니다.
+[!DNL Target]을(를) 사용할 수 있는 페이지에서 바로 [!UICONTROL Auto-Target] [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer](VEC)를 사용하십시오.
 
 >[!NOTE]
 >
->[!DNL Target]은(는) [!UICONTROL Manual](기본값) [!UICONTROL A/B Test] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target].
->
->*A/B 테스트 개요*&#x200B;에서 [A/B 테스트 활동 유형](/help/main/c-activities/t-test-ab/test-ab.md#types)을 참조하세요.
+>[!UICONTROL Auto-Target]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다. 이 라이센스에서 제공하는 고급 기능에 대한 자세한 내용은 [Target Premium](/help/main/c-intro/intro.md)을 참조하십시오.
 
-수동 [!UICONTROL A/B Test] 활동을 만들려면:
+[!UICONTROL Auto-Target] 활동을 만들려면:
 
 1. **[!UICONTROL Activities]** 목록에서 **[!UICONTROL Create Activity]** > **[!UICONTROL A/B Test]**&#x200B;을(를) 클릭합니다.
 
@@ -108,11 +107,11 @@ ht-degree: 16%
 
    예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다.
 
-1. **[!UICONTROL Traffic Allocation]** 컨트롤을 클릭한 다음 아래와 같이 오른쪽 창에서 원하는 트래픽 할당 방법을 선택합니다.
+1. **[!UICONTROL Traffic Allocation]** 컨트롤을 클릭한 다음 오른쪽 창에서 원하는 트래픽 할당 방법을 선택합니다. 이 시나리오에서는 **[!UICONTROL Auto-Taget for personalized experiences]**&#x200B;을(를) 클릭합니다.
 
    ![트래픽 할당 메서드 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
 
-   원하는 트래픽 할당 방법을 선택합니다.
+   다음 트래픽 할당 방법을 사용할 수 있습니다.
 
    * **[!UICONTROL Manual (Default)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다. 
 
@@ -125,6 +124,10 @@ ht-degree: 16%
 1. 대상, 경험 선택 사항 및 트래픽 할당 선택 사항이 만족스러우면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 안내가 있는 3단계 워크플로의 세 번째 단계로 이동합니다.
 
 1. 활동에 대한 [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)을 지정합니다.
+
+   >[!NOTE]
+   >
+   >이 활동에 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)을 사용하려면 자동 할당 및 자동 타겟 활동에 대한 [A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)의 중요 정보를 참조하십시오.
 
 1. **[!UICONTROL Save & Close]** 또는 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
