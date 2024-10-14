@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 22%
+source-wordcount: '420'
+ht-degree: 24%
 
 ---
 
@@ -19,6 +19,7 @@ ht-degree: 22%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 10월 14일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 24.10.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 9월 30일 | [제한 사항](/help/main/r-troubleshooting-target/target-limits.md) | 허용된 오퍼 수를 업데이트했습니다. |
 | 9월 29일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | at.js 2.11.6 릴리스에 대한 정보가 추가되었습니다. |
 | 9월 11일 | [사용자](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) | 역할 및 권한 지정 아래에 다음 참고가 추가되었습니다.<P> [!DNL Target]에서 활동을 보려면 적어도 [!UICONTROL Observer] 역할이 있는 작업 영역에 사용자를 직접 할당해야 합니다. 사용자 그룹만 통한 할당은 충분하지 않습니다. 일반적으로 사용자에게 기본 작업 영역에 대한 액세스 권한을 부여하는 것이 좋습니다. |
