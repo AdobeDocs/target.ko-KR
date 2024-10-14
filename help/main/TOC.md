@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+source-git-commit: 2eb99fb0c108b600d098fc14036b678c50e689b3
 workflow-type: tm+mt
-source-wordcount: '1447'
+source-wordcount: '1454'
 ht-degree: 78%
 
 ---
@@ -161,7 +161,9 @@ ht-degree: 78%
       + [Automated Personalization 테스트를 위한 경험 미리보기](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Automated Personalization 테스트 베타에 대한 경험 미리 보기](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Target Automated Personalization 오퍼](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Target Automated Personalization 오퍼-베타](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [제외 관리 베타](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Automated Personalization의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](c-activities/t-automated-personalization/experience-as-control.md)
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)

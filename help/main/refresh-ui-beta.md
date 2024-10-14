@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: f44189ee552f153f8b0d08bc427189712e37d636
+source-git-commit: 8038be5a536ad52b5fd7e1c835bb0b48630a8a11
 workflow-type: tm+mt
-source-wordcount: '597'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 75%
 
 ---
 
@@ -28,42 +28,27 @@ ht-degree: 78%
 
 +++확장하려면 클릭
 
-* [활동 개요](c-activities/activities.md){target=_blank}
-* [Target 활동 유형](c-activities/target-activities-guide.md){target=_blank}
 * A/B 테스트 {#abtest}
    * [A/B 테스트 개요](c-activities/t-test-ab/test-ab-beta.md){target=_blank}
-   * [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md){target=_blank}
-   * [10가지 일반적인 A/B 테스트 위험 및 이를 피하는 방법](c-activities/t-test-ab/common-ab-testing-pitfalls.md){target=_blank}
-   * [A/B 테스트](/help/main/c-activities/t-test-ab/aa-testing.md){target=_blank}
-   * A/B 테스트 만들기 {#create}
       * [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md){target=_blank}
       * [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md){target=_blank}
       * [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md){target=_blank}
-      * [대상자 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md){target=_blank}
       * [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md){target=_blank}
-      * [Analytics 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md){target=_blank}
       * [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md){target=_blank}
       * [A/B 테스트의 여러 경험 대상자](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md){target=_blank}
 * 자동 할당 {#auto-allocate}
-   * [자동 할당 개요](c-activities/automated-traffic-allocation/automated-traffic-allocation.md){target=_blank}
-   * [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md){target=_blank}
-   * [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner.md){target=_blank}
-   * [자동 할당을 통해 수동 테스트보다 더 빠른 테스트 결과와 더 높은 매출을 얻을 수 있음](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md){target=_blank}
+   * [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md){target=_blank}
+   * [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner-beta.md){target=_blank}
 * 자동 타기팅 {#auto-target}
-   * [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md){target=_blank}
-   * [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md){target=_blank}
+   * [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
+   * [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [자동 타겟 FAQ 및 문제 해결](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-   * [보고 및 자동 타겟](/help/main/c-activities/auto-target/reporting-and-auto-target.md){target=_blank}
-* 자동화된 개인화 {#automated-personalization}
-   * [자동화된 개인화 개요](c-activities/t-automated-personalization/automated-personalization.md){target=_blank}
-   * [Random Forest 알고리즘](c-activities/t-automated-personalization/algo-random-forest.md){target=_blank}
-   * [자동화된 개인화 활동 만들기](c-activities/t-automated-personalization/create-ap-activity.md){target=_blank}
-   * [Target의 개인화 알고리즘을 위한 데이터 업로드](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md){target=_blank}
-   * [Target의 개인화 알고리즘을 위한 데이터 수집](c-activities/t-automated-personalization/ap-data.md){target=_blank}
-   * [성공에 필요한 트래픽 예측](c-activities/t-automated-personalization/ap-traffic-estimator.md){target=_blank}
-   * [자동화된 개인화 테스트를 위한 경험 미리보기](c-activities/t-automated-personalization/ap-preview-experiences.md){target=_blank}
+* Automated Personalization {#automated-personalization}
+   * [자동화된 개인화 활동 만들기](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
+   * [성공에 필요한 트래픽 예측](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
+   * [자동화된 개인화 테스트를 위한 경험 미리보기](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
    * [자동화된 개인화 오퍼 타기팅](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
-   * [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md){target=_blank}
+   * [제외 관리](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
    * [자동화된 개인화의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
    * [자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
    * [자동화된 개인화 FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}
