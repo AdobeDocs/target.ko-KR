@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer](VEC)에서 일부 웹 사�
 title: '[!UICONTROL Visual Editing Helper] 확장을 사용하는 방법'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 8edae6a197a3ac82b85fcce4d99c8b0d5f45c712
+source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '712'
+ht-degree: 60%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 64%
 
 >[!IMPORTANT]
 >
->이 새 확장 기능은 이전의 [Target VEC Helper 브라우저 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 대체합니다. 이 문서의 맨 위에 있는 중요 참고 사항을 참조하십시오. Manifest v3의 향상된 보안 기능 때문에 [!DNL Adobe]에서 [!DNL Target]에서 웹 사이트를 계속 시각적으로 작성하려면 이 새 확장을 다운로드해야 합니다.
+>* 이 새 확장 기능은 이전의 [Target VEC Helper 브라우저 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 대체합니다. 이 문서의 맨 위에 있는 중요 참고 사항을 참조하십시오. Manifest v3의 향상된 보안 기능 때문에 [!DNL Adobe]에서 [!DNL Target]에서 웹 사이트를 계속 시각적으로 작성하려면 이 새 확장을 다운로드해야 합니다.
+>
+>* 이 새 확장은 현재 개인 Chrome 웹 스토어를 지원하지 않습니다. 이 기능은 2025년 1월 말까지 지원됩니다. 비공개 Chrome 웹 스토어를 사용하여 확장을 업로드하는 고객의 경우 대신 [레거시 [!UICONTROL Visual Experience Composer] 도우미 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 사용하십시오.
 
 ## 일부 웹 사이트가 VEC에서 안정적으로 열리지 않을 수 있는 이유
 
