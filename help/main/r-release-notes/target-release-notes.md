@@ -4,7 +4,7 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 78a7f7deb2654b7a1cb25e43beabf82b161205ff
+source-git-commit: 4b613a26824bff069c189f5e401b008fe2632e11
 workflow-type: tm+mt
 source-wordcount: '231'
 ht-degree: 79%
@@ -15,7 +15,7 @@ ht-degree: 79%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2024년 10월 14일 화요일**
+**마지막 업데이트: 2024년 10월 17일 금요일**
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 79%
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## [!DNL Target Standard/Premium] 24.10.2(2024년 10월 16일)
+## [!DNL Target Standard/Premium] 24.10.2(2024년 10월 21일)
 
 이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
