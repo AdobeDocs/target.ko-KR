@@ -1,13 +1,13 @@
 ---
-keywords: Target;홈;자주 찾는 항목;Adobe Target;Target Standard;Target Premium;Target 설명서;Adobe Target 설명서
+keywords: Target;홈;인기 항목;adobe target;target standard;target premium;target 설명서;adobe target 설명서;실무자 안내서;사용 안내서
 title: Adobe Target 비즈니스 실무자 안내서
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
+source-git-commit: 9761a1ce4a583b39f7093bf9a3761e5268fe0e9c
 workflow-type: tm+mt
-source-wordcount: '506'
-ht-degree: 100%
+source-wordcount: '510'
+ht-degree: 96%
 
 ---
 
