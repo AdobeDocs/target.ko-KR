@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: b1ead7317debadafcb42469894cdb7b6ba337110
 workflow-type: tm+mt
-source-wordcount: '447'
+source-wordcount: '459'
 ht-degree: 23%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 23%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 10월 22일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 다음과 같은 중요한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__` 범위 최적화</li></ul> |
 | 10월 14일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 24.10.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [[!UICONTROL Visual Experience Composer] 도우미 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | 비공개 Chrome 웹 스토어에서 확장 기능 사용에 대한 중요한 정보가 추가되었습니다. |
 |  | [[!UICONTROL Visual Editing Helper] 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | 비공개 Chrome 웹 스토어에서 확장 기능 사용에 대한 중요한 정보가 추가되었습니다. |
