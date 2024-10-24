@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 8038be5a536ad52b5fd7e1c835bb0b48630a8a11
+source-git-commit: 33195758db8ac27a9b45f77f5518c4c4ce5c70d9
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 75%
+source-wordcount: '351'
+ht-degree: 62%
 
 ---
 
@@ -43,57 +43,59 @@ ht-degree: 75%
    * [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [자동 타겟 FAQ 및 문제 해결](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-* Automated Personalization {#automated-personalization}
-   * [자동화된 개인화 활동 만들기](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
-   * [성공에 필요한 트래픽 예측](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
-   * [자동화된 개인화 테스트를 위한 경험 미리보기](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
-   * [자동화된 개인화 오퍼 타기팅](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
-   * [제외 관리](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
-   * [자동화된 개인화의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
-   * [자동화된 개인화 또는 자동 타겟 활동에 대한 제어 선택](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
-   * [자동화된 개인화 FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}
-   * [자동화된 개인화 문제 해결](c-activities/t-automated-personalization/ap-trouble.md){target=_blank}
-* 경험 타기팅 {#experience-targeting}
-   * [경험 타기팅 개요](c-activities/t-experience-target/experience-target.md){target=_blank}
-   * 경험 타기팅 활동 만들기 {#create-targeting}
-      * [활동을 만듭니다](c-activities/t-experience-target/t-xt-create/xt-create.md){target=_blank}
-      * [활동 URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md){target=_blank}
-      * [경험을 만듭니다](c-activities/t-experience-target/t-xt-create/xt-add-experience.md){target=_blank}
-      * [경험 타기팅에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md){target=_blank}
-      * [목표 및 설정](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md){target=_blank}
-      * [지표 설정](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md){target=_blank}
-* 다변량 테스트 {#multivariate-test}
-   * [다변량 테스트 개요](c-activities/c-multivariate-testing/multivariate-testing.md){target=_blank}
-   * [다변량 테스트 모범 사례](c-activities/c-multivariate-testing/best-practices.md){target=_blank}
-   * [다변량 테스트 계획](c-activities/c-multivariate-testing/plan-mvt.md){target=_blank}
-   * 다변량 테스트 만들기 {#create-mvt}
-      * [테스트 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md){target=_blank}
-      * [활동 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md){target=_blank}
-      * [조합 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md){target=_blank}
-      * [다변량 테스트에 대한 경험 미리보기](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md){target=_blank}
-      * [성공적인 테스트에 필요한 트래픽 예측](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md){target=_blank}
-      * [테스트 요약](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md){target=_blank}
-      * [목표 및 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md){target=_blank}
-      * [지표 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md){target=_blank}
-      * [다변량 테스트 문제 해결](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md){target=_blank}
-* [권장 사항 활동](c-activities/recommendations-activity.md){target=_blank}
-* [활동 편집 또는 초안으로 저장](c-activities/edit-activity.md){target=_blank}
-* [우선순위](c-activities/priority.md){target=_blank}
-* [활동 설정](c-activities/activity-settings.md){target=_blank}
-* 성공 지표 {#success-metrics}
-   * [성공 지표](c-activities/r-success-metrics/success-metrics.md){target=_blank}
-   * [클릭 추적](c-activities/r-success-metrics/click-tracking.md){target=_blank}
-   * [캡처 점수](c-activities/r-success-metrics/capture-score.md){target=_blank}
-* [활동 변경 로그](c-activities/change-log.md){target=_blank}
-* 활동 문제 해결 {#troubleshoot-activities}
-   * [활동 문제 해결 개요](c-activities/c-troubleshooting-activities/troubleshooting-activities.md){target=_blank}
-   * [콘텐츠 전달 문제 해결](c-activities/c-troubleshooting-activities/content-trouble.md){target=_blank}
-* 활동 QA {#activity-qa}
-   * [활동 QA 개요](c-activities/c-activity-qa/activity-qa.md){target=_blank}
-   * [활동 QA 북마클릿](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
-   * [활동 QA 및 서버 측 전달 사용](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}
 
 +++
+
+<!-- 
+* Automated Personalization {#automated-personalization}
+   * [Create an Automated Personalization activity](c-activities/t-automated-personalization/create-ap-activity-beta.md){target=_blank}
+   * [Estimate the traffic required for success](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md){target=_blank}
+   * [Preview experiences for an Automated Personalization test](c-activities/t-automated-personalization/ap-preview-experiences-beta.md){target=_blank}
+   * [Target Automated Personalization offers](c-activities/t-automated-personalization/ap-target-offers.md){target=_blank}
+   * [Manage exclusions](c-activities/t-automated-personalization/managing-exclusions-beta.md){target=_blank}
+   * [Offer reporting groups in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md){target=_blank}
+   * [Select the control for your Automated Personalization or Auto-Target activity](c-activities/t-automated-personalization/experience-as-control.md){target=_blank}
+   * [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md){target=_blank}
+   * [Troubleshoot Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md){target=_blank}
+* Experience Targeting {#experience-targeting}
+   * [Experience Targeting overview](c-activities/t-experience-target/experience-target.md){target=_blank}
+   * Create an Experience Targeting activity {#create-targeting}
+      * [Create an activity](c-activities/t-experience-target/t-xt-create/xt-create.md){target=_blank}
+      * [Activity URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md){target=_blank}
+      * [Create an experience](c-activities/t-experience-target/t-xt-create/xt-add-experience.md){target=_blank}
+      * [Switching experiences in Experience Targeting](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md){target=_blank}
+      * [Goals and settings](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md){target=_blank}
+      * [Set metrics](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md){target=_blank}
+* Multivariate Test {#multivariate-test}
+   * [Multivariate Test overview](c-activities/c-multivariate-testing/multivariate-testing.md){target=_blank}
+   * [Multivariate Test best practices](c-activities/c-multivariate-testing/best-practices.md){target=_blank}
+   * [Plan a Multivariate Test](c-activities/c-multivariate-testing/plan-mvt.md){target=_blank}
+   * Create a Multivariate Test {#create-mvt}
+      * [Create a test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md){target=_blank}
+      * [Activity URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md){target=_blank}
+      * [Create combinations](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md){target=_blank}
+      * [Preview experiences for a Multivariate Test](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md){target=_blank}
+      * [Estimate the traffic required for a successful test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md){target=_blank}
+      * [Test summary](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md){target=_blank}
+      * [Goals and settings](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md){target=_blank}
+      * [Set metrics](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md){target=_blank}
+      * [Troubleshoot Multivariate Tests](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md){target=_blank}
+* [Recommendations activity](c-activities/recommendations-activity.md){target=_blank}
+* [Edit an activity or save as draft](c-activities/edit-activity.md){target=_blank}
+* [Priority](c-activities/priority.md){target=_blank}
+* [Activity settings](c-activities/activity-settings.md){target=_blank}
+* Success metrics {#success-metrics}
+   * [Success metrics](c-activities/r-success-metrics/success-metrics.md){target=_blank}
+   * [Click tracking](c-activities/r-success-metrics/click-tracking.md){target=_blank}
+   * [Capture score](c-activities/r-success-metrics/capture-score.md){target=_blank}
+* [Activity change log](c-activities/change-log.md){target=_blank}
+* Troubleshoot activities {#troubleshoot-activities}
+   * [Troubleshoot activities overview](c-activities/c-troubleshooting-activities/troubleshooting-activities.md){target=_blank}
+   * [Troubleshoot content delivery](c-activities/c-troubleshooting-activities/content-trouble.md){target=_blank}
+* Activity QA {#activity-qa}
+   * [Activity QA overview](c-activities/c-activity-qa/activity-qa.md){target=_blank}
+   * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
+   * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
 
 ## 오퍼
 
