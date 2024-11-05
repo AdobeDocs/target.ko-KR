@@ -7,20 +7,20 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: e83ad57e-716d-4595-b5cf-3a882fcb9e37
-source-git-commit: c7d6998ffb048b1a7895e4c48b557cdb16ff510c
+source-git-commit: 4b57712b838906611702db521b51af84077501e6
 workflow-type: tm+mt
-source-wordcount: '1064'
+source-wordcount: '1048'
 ht-degree: 19%
 
 ---
 
 # 원격 오퍼 만들기
 
-원격 오퍼를 사용하여 [!DNL Adobe Target] 외부에 있는 콘텐츠를 호스팅하면 [!DNL Target]에서 이 콘텐츠를 참조하고 사용자 웹 사이트로 전달할 수 있습니다. 이 콘텐츠는 간편한 사용 또는 보안상의 이유로 콘텐츠 관리 시스템(CMS) 또는 다른 시스템에 상주할 수 있습니다.
+원격 오퍼를 사용하여 [!DNL Adobe Target]의 외부에 있는 콘텐츠를 호스팅하면 [!DNL Target]이(가) 이 콘텐츠를 참조하고 사용자 웹 사이트로 전달할 수 있습니다. 이 콘텐츠는 간편한 사용 또는 보안상의 이유로 콘텐츠 관리 시스템(CMS) 또는 다른 시스템에 상주할 수 있습니다.
 
 >[!NOTE]
 >
->이 문서에는 현재 Beta 프로그램의 일부인 [!DNL Target] 사용자 인터페이스 업데이트에 대한 정보가 포함되어 있습니다. [!DNL Adobe Target] 팀은 테스트 및 피드백 목적으로 일부 고객을 위해 새로운 기능을 사용하는 경우가 많습니다. 테스트 기간이 완료되면 향후 [!DNL Target Standard/Premium] 릴리스의 모든 고객에 대해 이러한 기능이 활성화되어 릴리스 정보에 발표됩니다.
+>이 문서에는 현재 Beta 프로그램의 일부인 [!DNL Target] 사용자 인터페이스 업데이트에 대한 정보가 포함되어 있습니다. [!DNL Adobe Target] 팀은 테스트 및 피드백 목적으로 일부 고객을 위해 새로운 기능을 사용하는 경우가 많습니다. 테스트 기간이 완료되면 향후 [!DNL Target] 릴리스에서 모든 고객에 대해 이러한 기능이 활성화되고 [릴리스 정보](/help/main/r-release-notes/release-notes.md)에 발표됩니다.
 
 원격 오퍼는 [!UICONTROL Offers] > [!UICONTROL Code Offers] 페이지나 [Forms 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)에서 만들 수 있습니다. [!UICONTROL Visual Experience Composer](VEC)에서 원격 오퍼를 만들거나 적용할 수 없습니다. [!DNL Target] 요청 위치에 콘텐츠가 삽입되므로 이러한 위치는 전역 [!DNL Target] 요청에 적합하지 않을 수 있습니다.
 
@@ -70,14 +70,15 @@ ht-degree: 19%
 ## [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼 만들기
 
 1. [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하여 활동을 만드는 동안 **[!UICONTROL Content]** 섹션을 표시할 위치를 선택하십시오.
+1. **[!UICONTROL Content]** 드롭다운 목록을 클릭하고 **[!UICONTROL List]** 아이콘(![목록](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 **[!UICONTROL Change Remote Offer]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Default Content]** 드롭다운 목록을 클릭한 다음 **[!UICONTROL Change Remote Offer]**&#x200B;을(를) 클릭합니다.
-
-1. **[!UICONTROL Create]** > **[!UICONTROL Remote Offer]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**&#x200B;을(를) 클릭합니다.
 
 1. 오퍼에 대해 수사적 이름을 지정합니다.
 
    수사적 이름을 사용하면 [!UICONTROL Assets] 라이브러리에서 오퍼를 빠르게 찾을 수 있습니다.
+
+1. (조건부) [Target Premium 계정](/help/main/c-intro/intro.md#premium)이 있는 경우 원하는 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md##section_B82EB409B67C4D9D9D20CE30E48DB1DC)을(를) 선택하십시오.
 
 1. 리디렉션 URL 유형을 지정합니다.
 
@@ -85,7 +86,7 @@ ht-degree: 19%
 
 1. 원격 오퍼에 대한 원격 URL을 지정하십시오.
 
-1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
 
 ## 리디렉션 URL 유형: [!UICONTROL Onsite Cached] 또는 [!UICONTROL Onsite Dynamic] {#url-type}
 
@@ -111,7 +112,7 @@ ht-degree: 19%
 
 ## 활동에서 원격 오퍼 사용
 
-[!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼를 적용해야 합니다. 현재 VEC([!UICONTROL Visual Experience Composer])를 사용하여 원격 오퍼를 적용할 수 없습니다.
+[!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼를 적용합니다. 현재 VEC([!UICONTROL Visual Experience Composer])를 사용하여 원격 오퍼를 적용할 수 없습니다.
 
 [!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) [!UICONTROL Visual Experience Composer]을(를) 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting](XT), [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼를 사용하는 경험을 만들 수 있습니다.
 
@@ -121,9 +122,9 @@ ht-degree: 19%
 
 1. 원하는 위치를 지정하고 필요에 따라 대상 세분화를 추가합니다.
 
-1. **[!UICONTROL Content]** 섹션에서 드롭다운 목록을 클릭한 다음 **[!UICONTROL Change Remote Offer]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Content]** 드롭다운 목록을 클릭하고 **[!UICONTROL List]** 아이콘(![목록](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 **[!UICONTROL Change Remote Offer]**&#x200B;을(를) 클릭합니다.
 
-1. [!UICONTROL Select Remote Offer] 대화 상자에서 원하는 원격 오퍼를 선택한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Change Remote Offer] 대화 상자에서 원하는 원격 오퍼를 선택한 다음 **[!UICONTROL Create Offer]** > **[!UICONTROL Remote Offer]**&#x200B;을(를) 클릭합니다.
 
 1. 활동 구성을 완료합니다.
 
@@ -158,13 +159,3 @@ ht-degree: 19%
 | 오퍼에 JavaScript가 포함될 수 있음 | 예 | 예 |
 | 오퍼 URL | 절대 또는 상대 | 상대 |
 | 요청 컴퓨터 | Adobe 서버 | 방문자 쿠키가 저장되어 있는 방문자 컴퓨터 |
-
-## 교육 비디오: 양식 기반 작성기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
-
-이 비디오는 원격 오퍼를 만드는 데 사용할 수 있는 [!UICONTROL Form-Based Experience Composer]에 대한 데모를 제공합니다.
-
-* [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 활동 만들기
-* [!UICONTROL Form-Based Experience Composer]과(와) [!UICONTROL Visual Experience Composer]을(를) 사용하는 시점 이해
-* 개선을 통해 위치 타깃팅
-
->[!VIDEO](https://video.tv.adobe.com/v/17390)
