@@ -7,10 +7,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 46c298a8fe73fa06c7f11266090aa1c51f062e65
+source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
 workflow-type: tm+mt
-source-wordcount: '812'
-ht-degree: 9%
+source-wordcount: '866'
+ht-degree: 8%
 
 ---
 
@@ -20,7 +20,7 @@ ht-degree: 9%
 
 >[!NOTE]
 >
->이 문서에는 현재 Beta 프로그램의 일부인 [!DNL Target] 사용자 인터페이스 업데이트에 대한 정보가 포함되어 있습니다. [!DNL Adobe Target] 팀은 테스트 및 피드백 목적으로 일부 고객을 위해 새로운 기능을 사용하는 경우가 많습니다. 테스트 기간이 완료되면 향후 [!DNL Target Standard/Premium] 릴리스의 모든 고객에 대해 이러한 기능이 활성화되어 릴리스 정보에 발표됩니다.
+>이 문서에는 현재 Beta 프로그램의 일부인 [!DNL Target] 사용자 인터페이스 업데이트에 대한 정보가 포함되어 있습니다. [!DNL Adobe Target] 팀은 테스트 및 피드백 목적으로 일부 고객을 위해 새로운 기능을 사용하는 경우가 많습니다. 테스트 기간이 완료되면 향후 [!DNL Target] 릴리스에서 모든 고객에 대해 이러한 기능이 활성화되고 [릴리스 정보](/help/main/r-release-notes/release-notes.md)에 발표됩니다.
 
 [!UICONTROL Offers] 라이브러리를 표시하려면 [!DNL Target] UI 상단의 **[!UICONTROL Offers]** 탭을 클릭합니다.
 
@@ -33,14 +33,16 @@ ht-degree: 9%
 | 요소 | 설명 |
 |--- |--- |
 | 왼쪽 탐색 레일 | [!UICONTROL Code Offers] 또는 [!UICONTROL Image Offers] 표시 간에 전환합니다. |
+| [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![필터 표시/필터 숨기기 아이콘](/help/main/assets/icons/RailLeft.svg) | 오퍼 폴더 구조를 표시하거나 폴더 구조를 표시하지 않으려면 **[!UICONTROL Show Folders]** 또는 **[!UICONTROL Hide Folders]** 아이콘을 클릭하십시오.<P>자세한 내용은 [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder.md)를 참조하십시오. |
 | [!UICONTROL Show filters] 아이콘<P>![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) | [!UICONTROL Type], [!UICONTROL Source] 및 [!UICONTROL AEM Type]별로 오퍼를 필터링하려면 **[!UICONTROL Show filters]** 아이콘을 클릭하십시오.<P>자세한 내용은 아래의 [오퍼 목록에 필터 적용](#filters)을 참조하세요. |
 | 필드 검색 | **[!UICONTROL Search in]** 필드를 사용하여 오퍼를 빠르게 찾거나 [!UICONTROL Offers] 라이브러리에 표시되는 오퍼 수를 줄이십시오. [!UICONTROL Offer Name], [!UICONTROL AEM Paths] 또는 [!UICONTROL AEM Tags]별로 검색할 수 있습니다. |
 | [!UICONTROL Create Folder] | **[!UICONTROL Create Folder]**&#x200B;을(를) 클릭하여 [!UICONTROL Offer] 라이브러리에 폴더를 만들어 코드 오퍼, 이미지 오퍼와 다른 폴더를 보관하여 하위 폴더 구조를 만듭니다.<P>자세한 내용은 [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder.md)를 참조하십시오. |
 | [!UICONTROL [!UICONTROL Create Offer]] | 오퍼를 만들려면 **[!UICONTROL Create Offer]**&#x200B;을(를) 클릭합니다.<P>다양한 오퍼 유형 만들기에 대한 자세한 내용은 다음을 참조하십시오. <ul><li>HTML 오퍼</li><li>[JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[오퍼 리디렉션](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[원격 오퍼](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | 대량 작업 확인란<P>![일괄 작업 아이콘](/help/main/assets/icons/Rectangle.svg) | 모든 오퍼 또는 선택한 오퍼에 일괄 작업을 수행하려면 [!UICONTROL Bulk Operations] 확인란을 클릭하십시오.<P>사용 권한 및 오퍼 상태에 따라 사용 가능한 작업 목록을 보려면 아래의 [빠른 작업 수행](#quick-actions)을 참조하십시오. |
-| [!UICONTROL Name] | 각 오퍼의 이름입니다.<P>오퍼 ID, 유형, 오퍼 날짜, 마지막으로 수정한 사람 등을 포함하여 팝업 카드에서 해당 오퍼에 대한 자세한 정보를 보려면 각 오퍼 이름 옆의 **[!UICONTROL Quick Info]** 아이콘(![빠른 정보 아이콘](/help/main/assets/icons/InfoOutline.svg))을 클릭합니다.<p>각 오퍼 이름 옆의 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭하여 활동에 대한 빠른 작업을 수행할 수 있는 메뉴를 엽니다. 사용 권한 및 오퍼 상태에 따라 [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] 및 [!UICONTROL Move] 작업을 사용할 수 있습니다. 각 작업에 대한 자세한 내용은 아래의 [빠른 작업 수행](#quick-actions)을 참조하십시오.<P>테이블 헤더를 클릭하여 목록을 이름별로 오름차순 또는 내림차순으로 정렬합니다. |
+| [!UICONTROL Name] | 각 오퍼의 이름입니다.<P>오퍼 ID, 유형, 오퍼가 마지막으로 수정된 날짜, 사용자 등을 포함하여 팝업 카드에서 해당 오퍼에 대한 자세한 정보를 보려면 각 오퍼 이름 옆의 **[!UICONTROL Quick Info]** 아이콘(![빠른 정보 아이콘](/help/main/assets/icons/InfoOutline.svg))을 클릭합니다.<p>각 오퍼 이름 옆의 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭하여 활동에 대한 빠른 작업을 수행할 수 있는 메뉴를 엽니다. 사용 권한 및 오퍼 상태에 따라 [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] 및 [!UICONTROL Move] 작업을 사용할 수 있습니다. 각 작업에 대한 자세한 내용은 아래의 [빠른 작업 수행](#quick-actions)을 참조하십시오.<P>테이블 헤더를 클릭하여 목록을 이름별로 오름차순 또는 내림차순으로 정렬합니다. |
 | [!UICONTROL Type] | 오퍼 유형: [!UICONTROL HTML Offers], [[!UICONTROL Redirect Offers]](/help/main/c-experiences/c-manage-content/offer-redirect.md), [[!UICONTROL Remote Offers]](/help/main/c-experiences/c-manage-content/about-remote-offers.md) 및 [[!UICONTROL JSON Offers]](/help/main/c-experiences/c-manage-content/create-json-offer.md). |
 | [!UICONTROL Source] | 오퍼가 만들어진 위치를 표시합니다. [!DNL Adobe Target], [!DNL Adobe Target Classic] 및 [!DNL Adobe Experience Manager]. |
+| [!UICONTROL Last updated] | 오퍼를 마지막으로 수정한 날짜 및 시간을 표시합니다.<P>날짜별로 목록을 오름차순 또는 내림차순으로 정렬하려면 테이블 헤더를 클릭하십시오. |
 
 ## 오퍼 라이브러리에 필터 적용 {#filters}
 
@@ -64,18 +66,18 @@ ht-degree: 9%
 
 ### 추가 작업
 
-코드 오퍼와 이미지 오퍼에 사용할 수 있는 작업은 약간 다릅니다. 다음 섹션에는 추가 정보가 포함됩니다.
+[!UICONTROL Code Offers]과(와) [!UICONTROL Image Offers]에 사용할 수 있는 작업이 약간 다릅니다. 다음 섹션에는 추가 정보가 포함됩니다.
 
 #### [!UICONTROL Code Offer] 옵션
 
 각 오퍼 이름 옆의 **[!UICONTROL More actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭하여 활동에 대한 빠른 작업을 수행할 수 있는 메뉴를 엽니다.
 
-사용 권한 및 오퍼 상태에 따라 [!UICONTROL Edit], [!UICONTROL Copy], [!UICONTROL Delete] 및 [!UICONTROL Move] 작업을 사용할 수 있습니다.
+사용 권한 및 오퍼 상태에 따라 다음 작업을 사용할 수 있습니다.
 
 * [!UICONTROL Edit]
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
-* [!UICONTROL Move](예를 들어 하나 이상의 항목을 폴더로 이동하려면 원하는 항목의 **[!UICONTROL Move]** 아이콘을 클릭하고 원하는 폴더를 클릭한 다음 **[!UICONTROL Drop]**&#x200B;을(를) 클릭합니다.
+* [!UICONTROL Move](예: 하나 이상의 항목을 폴더로 이동하려면 원하는 항목 옆의 **[!UICONTROL Move]**&#x200B;을(를) 클릭하고 원하는 폴더를 클릭한 다음 **[!UICONTROL Move]**&#x200B;을(를) 클릭합니다.
 
 사용 권한에 따라 일부 옵션의 아이콘이 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL Observer] 권한이 있는 사용자는 [!UICONTROL Copy] 옵션을 사용할 수 있는 권한이 없습니다.
 
@@ -108,11 +110,8 @@ ht-degree: 9%
 다음 정보를 사용할 수 있습니다.
 
 * [!UICONTROL Name]
-* [!UICONTROL Source]
 * [!UICONTROL Offer ID]
 * [!UICONTROL Type]
 * [!UICONTROL Last Modified]
-* [!UICONTROL Offer path]
-
 
 각 오퍼의 정의 팝업 카드에서 코드 오퍼를 참조하는 오퍼의 특성 및 활동을 보려면 [!UICONTROL View Full Details] 링크를 클릭하십시오. 이 기능은 이미지 오퍼에는 적용되지 않습니다. 오퍼를 편집할 때 이 방법으로 다른 활동에 영향을 주는 일을 피할 수 있습니다. 정보에 [!UICONTROL Live Activities] 및 [!UICONTROL Inactive Activities]에 대한 세부 정보가 포함되어 있습니다.
