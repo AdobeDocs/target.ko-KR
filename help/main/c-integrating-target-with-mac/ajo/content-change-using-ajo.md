@@ -6,9 +6,10 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 feature: Integrations
 hide: true
 hidefromtoc: true
-source-git-commit: a8d1ad897972edd4263901d411f57b4d22fdd1eb
+exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
+source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '794'
 ht-degree: 1%
 
 ---
@@ -17,9 +18,7 @@ ht-degree: 1%
 
 이 사용 사례는 [!DNL Adobe Journey Optimizer]에서 효과적인 A/B 테스트 콘텐츠 변경 내용에 대한 비밀을 잠금 해제하는 데 도움이 됩니다.
 
-이 사용 사례에서는 [!DNL Adobe Target] 대신 [!DNL Journey Optimizer]을(를) 사용하여 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)으로 A/B 테스트와 같은 익숙한 작업을 수행하는 방법을 보여 줍니다.
-
-이 사용 사례는 [!DNL Adobe Target]을(를) 사용하여 수행했을 수 있는 익숙한 작업, [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을(를) 사용하여 A/B 테스트를 수행했을 수 있지만 [!DNL Journey Optimizer]을(를) 사용하는 방법을 보여 주기 위해 설계되었습니다.
+이 사용 사례에서는 [!DNL Adobe Target] 대신 [!DNL Journey Optimizer]을(를) 사용하여 [!DNL Adobe Target]의 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을 통해 A/B 테스트와 같은 익숙한 작업을 수행하는 방법을 보여 줍니다.
 
 ## 이점 및 가치
 
@@ -31,7 +30,7 @@ ht-degree: 1%
 
 * 한 의류 회사는 다양한 이미지를 테스트하고 클릭 유도 문안 텍스트에서 사용자 이름으로 캠페인 랜딩 페이지를 개인화하여 전환을 늘렸습니다.
 
-* 한 이커머스 회사는 캠페인 랜딩 페이지에서 다양한 제품 설명과 이미지를 테스트해 골드 충성도 회원이 전환율이 높아져 매출 증가로 연결됐다는 사실을 밝혀냈다.
+* 한 전자상거래 업체는 자사 골드 충성도 멤버들이 캠페인 랜딩 페이지에서 다양한 제품 설명과 이미지를 테스트해 전환율이 높아져 매출 증가를 이끌었다는 사실을 발견했다.
 
 ## 단계
 
@@ -41,17 +40,13 @@ ht-degree: 1%
 >
 >페이지 하단에 있는 비디오가 특히 유용합니다.
 
-프로필 스크립트를 사용하여 다양한 이미지를 테스트하고 사용자의 이름으로 메시지를 개인화하여 웹 페이지를 최적화하려면 다음 단계를 수행하십시오.
+프로필 스크립트를 사용하여 다양한 이미지를 테스트하고 사용자의 이름으로 메시지를 개인화하여 웹 페이지를 최적화하려면 다음을 수행하십시오.
 
-1. [!DNL Adobe Journey Optimizer]에서 왼쪽 레일의 **캠페인**&#x200B;을 클릭하여 [!UICONTROL Campaigns] 페이지를 표시합니다.
-
-   캠페인 탭이 강조 표시된 ![Adobe Journey Optimizer 랜딩 페이지입니다.](/help/main/c-integrating-target-with-mac/ajo/assets/ajo-landing-page.png)
+1. [!DNL Journey Optimizer]에서 왼쪽 레일의 **캠페인**&#x200B;을 클릭하여 [!UICONTROL Campaigns] 페이지를 표시합니다.
 
 1. [!UICONTROL Campaigns] 페이지의 오른쪽 위 모서리에서 **[!UICONTROL Create Campaign]**&#x200B;을(를) 클릭합니다.
 
 1. **[!UICONTROL Scheduled - Marketing]**(기본값)을 선택한 다음 **만들기**&#x200B;를 클릭하여 [!UICONTROL Campaign] 세부 정보 페이지를 표시합니다.
-
-   ![Adobe Journey Optimizer의 캠페인 세부 정보 페이지](/help/main/c-integrating-target-with-mac/ajo/assets/campaign-details.png)
 
 1. **[!UICONTROL Properties]** 섹션에서 캠페인에 대한 설명 이름과 선택적 설명을 입력합니다.
 
@@ -85,7 +80,7 @@ ht-degree: 1%
 
 1. [!UICONTROL Campaign] 세부 정보 페이지의 **[!UICONTROL Action]**&#x200B;에서 **[!UICONTROL Edit Content]**&#x200B;을(를) 클릭합니다.
 
-1. 처리 B 아래에서 Web 을 클릭합니다.
+1. 처리 B 아래에서 웹 을 클릭합니다.
 
    이 사용 사례의 경우 A/B 테스트의 첫 번째 경험으로 원본 경험을 사용하려면 [!UICONTROL Treatment A]을(를) 변경하지 마십시오.
 
@@ -133,4 +128,3 @@ ht-degree: 1%
 >*Journey Optimizer 설명서*&#x200B;의 [웹 콘텐츠 편집](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}
 >[*Journey Optimizer 설명서*&#x200B;의 방법 비디오](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}
 >[*Journey Optimizer Tutorials*&#x200B;에서 캠페인 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}
-
