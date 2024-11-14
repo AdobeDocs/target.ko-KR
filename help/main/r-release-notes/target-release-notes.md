@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a708699926bd6cc89adc5c72d88be1ca4f0f0495
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 26%
+source-wordcount: '588'
+ht-degree: 27%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 26%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2024년 10월 22일 수요일**
+**마지막 업데이트 날짜: 2024년 11월 14일 금요일**
 
 >[!NOTE]
 >
@@ -58,12 +58,13 @@ ht-degree: 26%
 
 질문이 있는 경우 [고객 지원 Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오. (KB-2179)
 
-## [!DNL Target Standard/Premium] 24.10.2(2024년 10월 21일)
+<!-- 
+## [!DNL Target Standard/Premium] 24.10.2 (October 21, 2024)
 
-이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
+This release contains the following fixes:
 
-* [!UICONTROL Recommendations] 활동이 [!UICONTROL Compose] 및 [!UICONTROL Browse] 모드에서 로드되지 않는 문제를 해결했습니다. (TGT-50709)
-* 취소를 클릭한 후 [!UICONTROL Visual Experience Composer](VEC)에서 [!UICONTROL Activities Library](으)로 리디렉션되는 새 [[!DNL Google Chrome] [!UICONTROL Visual Editing Helper] 확장 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 문제를 해결했습니다. 이 수정 전에 고객은 새 활동을 만들기 전에 [!UICONTROL Activities Library]을(를) 새로 고쳐야 했습니다. (TGT-49980)
+* Fixed an issue that prevented [!UICONTROL Recommendations] activities from loading in [!UICONTROL Compose] and [!UICONTROL Browse] modes. (TGT-50709)
+* Fixed an issue with the new [[!DNL Google Chrome] [!UICONTROL Visual Editing Helper] extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) that caused a redirect from the [!UICONTROL Visual Experience Composer] (VEC) to the [!UICONTROL Activities Library] after clicking Cancel. Before this fix, customers needed to refresh the [!UICONTROL Activities Library] before being able to create new activities. (TGT-49980)-->
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

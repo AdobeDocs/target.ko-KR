@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a708699926bd6cc89adc5c72d88be1ca4f0f0495
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '736'
-ht-degree: 37%
+source-wordcount: '699'
+ht-degree: 39%
 
 ---
 
@@ -53,12 +53,6 @@ ht-degree: 37%
   이 구현 유형은 [!DNL Adobe]에서 권장하는 새로운 [분할 호출 구현 접근 방식](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}입니다. 이 방법을 사용하면 새 최적화는 [!DNL Analytics] 또는 A4T 보고서에 영향을 주지 않습니다.
 
 질문이 있는 경우 [고객 지원 Adobe](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오. (KB-2179)
-
-## at.js 버전 2.11.6(2024년 9월 29일)
-
-* [!UICONTROL Visual Experience Composer](VEC) 또는 [!UICONTROL Form-Based Experience Composer] 내의 리디렉션 오퍼에서 [!DNL Target]이(가) 올바르게 작동하지 않는 문제를 해결했습니다.
-
-at.js 릴리스에 대한 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [at.js 버전 세부 사항](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}을 참조하십시오.
 
 ## 추가 릴리스 정보 및 버전 세부 정보
 

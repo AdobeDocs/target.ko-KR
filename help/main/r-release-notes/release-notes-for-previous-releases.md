@@ -4,10 +4,10 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 61557ba80f5fb29098d108af6ed3fd864cadcae6
+source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
 workflow-type: tm+mt
-source-wordcount: '38259'
-ht-degree: 85%
+source-wordcount: '38296'
+ht-degree: 84%
 
 ---
 
@@ -22,6 +22,12 @@ ht-degree: 85%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2024
+
+### at.js 버전 2.11.6(2024년 9월 29일)
+
+* [!UICONTROL Visual Experience Composer](VEC) 또는 [!UICONTROL Form-Based Experience Composer] 내의 리디렉션 오퍼에서 [!DNL Target]이(가) 올바르게 작동하지 않는 문제를 해결했습니다.
+
+at.js 릴리스에 대한 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [at.js 버전 세부 사항](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}을 참조하십시오.
 
 ### [!DNL Adobe Customer Journey Analytics]의 [!DNL Target] 보고(2024년 5월 8일)
 
@@ -1293,7 +1299,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 | 기능/향상 | 설명 |
 | --- | --- |
 | 타기팅<br>2019년 1월 25일 | 프로필 스크립트나 다른 입력 소스(예: mbox 매개 변수, 프로필 매개 변수 등)에 의해 반환된 비십진수 및 십진수 값과의 &quot;같음&quot;(equals) 비교를 위해 타기팅 일치가 작동하는 방식을 변경했습니다.<br>자세한 내용은 [타깃 및 대상자](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) FAQ를 참조하십시오. |
-| 프로필 스크립트<br>2019년 1월 17일 | 성능상의 이유로 256자를 넘지 않는 반환 값이 좋습니다.<br>문자열 반환 값의 경우 반환 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>배열 반환 값의 경우, 연결된 배열 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>오퍼 크기, 대상자, 프로필, 값, 매개 변수 등 Target의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한에 대해서는 [제한 사항](/help/main/r-troubleshooting-target/target-limits.md)을 참조하십시오. |
+| 프로필 스크립트<br>2019년 1월 17일 | 성능상의 이유로 256자를 넘지 않는 반환 값이 좋습니다.<br>문자열 반환 값의 경우 반환 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>배열 반환 값의 경우, 연결된 배열 값의 크기가 2048자를 초과하는 경우 시스템에 의해 스크립트가 비활성화됩니다.<br>Target의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)에 대한 자세한 내용은 [제한](/help/main/r-troubleshooting-target/target-limits.md)을 참조하십시오. |
 | at.js<br>2019년 1월 16일 | at.js 1.6.4는 유지보수 릴리스이며 다음 문제를 해결합니다.<ul><li>Microsoft Internet Explorer 11에서 중복된 오퍼가 적용되는 경합 조건 매니페스트를 수정했습니다. (TNT-31374)</li><li>클릭 토큰 및 HTML 오퍼와 함께 기본 오퍼가 있을 때 클릭 추적에 영향을 주는 문제를 해결했습니다. (TNT-31493)</li><li>각 Target 요청에서 mboxEdgeCluster 쿠키를 확장했습니다. 이 쿠키는 mboxEdgeOverride가 활성화된 경우에만 사용됩니다. (TNT-31485)</li></ul> |
 
 ### [!DNL Target] Standard/Premium 19.1.1(2019년 1월 22일) {#release-19-1-1-previous}
@@ -2093,7 +2099,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 이 [!DNL Target] 릴리스에는 다음과 같은 고객을 위한 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* 가져온 대상(Target Classic, Experience Cloud 등) 대상 라이브러리에서 삭제할 수 있습니다. 활성 활동에 사용된 대상을 삭제하려고 하면 Target에서 경고가 표시됩니다. (TGT-25171)
+* 대상 라이브러리에서 가져온 대상(Target Classic, Experience Cloud 등)을 삭제할 수 있습니다. 활성 활동에 사용된 대상을 삭제하려고 하면 Target에서 경고가 표시됩니다. (TGT-25171)
 * Target Classic에서 가져온 대상은 이제 대상 라이브러리에서 Adobe Target Classic으로 레이블이 지정됩니다. 이전에는 Target Standard/Premium과 Target Classic 간의 UI가 다르지 않았습니다. (TGT-27093)
 * 컬렉션은 이제 모든 기준(최근에 본 항목 포함)에 적용됩니다. (TGT-26646)
 * 대상자 라이브러리 및 오퍼 라이브러리에서 작업 영역별로 필터링할 수 있습니다(Enterprise 사용자 권한이 있는 Target Premium 사용자에게 적용). (TGT-26813)
@@ -2368,7 +2374,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
   사용자가 [!DNL Target] 페이지에서 간헐적인 작업을 수행하고 세션 시간 제한이 발생하는 경우, 다시 로그온하도록 지시된 후 [!DNL Target] UI에서 마지막으로 작업한 페이지로 이동됩니다.
 
-* 사용자가 다른 위치로 이동하고(경험 변경, 페이지 전환, 대상 전환, 다음 클릭 등) 변경 사항을 저장하는 것을 잊어버릴 경우 사용자 지정 코드 변경 사항이 유실되는 문제가 수정되었습니다. 이제 변경 사항을 저장하라는 메시지가 표시됩니다. (TGT-23766)
+* 사용자가 다른 곳으로 이동(경험 변경, 페이지 전환, 대상자 전환, 다음 클릭 등)하고 변경 사항을 저장하지 않으면 사용자 지정 코드 변경 사항이 손실되는 문제를 해결했습니다. 이제 변경 사항을 저장하라는 메시지가 표시됩니다. (TGT-23766)
 * 활동이 보관될 경우 &quot;활동 업데이트 중&quot; 대신 &quot;활동을 보관함&quot;이 표시됩니다. (KB-1517)
 * Target UI 내의 다음 위치에 있는 드롭다운 선택기가 속도 및 성능 향상을 위해 자동 완성 기능으로 대체되었습니다(TGT-22939).
 
@@ -2559,7 +2565,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 * [!UICONTROL Analytics for Target](A4T)을(를) 보고 소스로 사용하는 활동에서 리디렉션 오퍼를 지원하도록 [!DNL Target] 사용자 인터페이스가 업데이트되었습니다. 이 기능을 사용하려면 곧 출시될 예정인 [!DNL at.js] 0.9.6이 필요합니다.
 * [!DNL Target] 사용자 인터페이스가 다음을 비롯한 일부 위치에서 업데이트되었습니다.
 
-   * 보고서 및 활동의 일부 옵션([!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs] 등) [!UICONTROL More Options] 아이콘(![icon_more_options 이미지](assets/icon_more_options.png))을 클릭하여 액세스할 수 있습니다.
+   * 보고서 및 활동에서 이제 [!UICONTROL More Options] 아이콘(![icon_more_options 이미지](assets/icon_more_options.png))을 클릭하여 일부 옵션([!UICONTROL Edit], [!UICONTROL Share to Feed], [!UICONTROL View Experience URLs] 등)에 액세스할 수 있습니다.
 
      .
    * [!UICONTROL Offers] 라이브러리에서 오퍼가 카드가 아닌 목록에 표시됩니다. [!UICONTROL Offers] 라이브러리 UI 전체에서 다른 부수적 UI가 변경되었습니다.
