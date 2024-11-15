@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 활동을 통해 특정 대상을 위한 콘�
 title: ' [!DNL Target]을(를) 사용하여 콘텐츠를 개인화하고 페이지 디자인을 테스트하려면 어떻게 해야 합니까?'
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d7515bab57c5e2973cfd5d2ac75d76c048786646
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
-source-wordcount: '2225'
-ht-degree: 28%
+source-wordcount: '2313'
+ht-degree: 26%
 
 ---
 
@@ -75,7 +75,7 @@ ht-degree: 28%
 | 속성 | 세부 사항 |
 | --- | --- |
 | [!UICONTROL Type] | [활동 유형](#types)별로 필터링합니다. |
-| [!UICONTROL Status] | 활동 상태별로 필터링합니다. |
+| [!UICONTROL Status] | 활동 상태별로 필터링합니다.<ul><li>**[!UICONTROL Live]**: 활동이 현재 실행 중입니다.</li><li>**[!UICONTROL Draft]**: 활동 설정이 시작되었지만 활동이 [초안 모드](/help/main/c-activities/edit-activity.md)이고 아직 실행할 준비가 되지 않았습니다.</li><li>**[!UICONTROL Scheduled]**: 지정된 시작 날짜 및 시간에 도달하면 활동이 활성화되도록 준비되었습니다.</li><li>**[!UICONTROL Inactive]**: 활동이 일시 중지되었거나 비활성화되었습니다.</li><li>**[!UICONTROL Syncing]**: 활동이 저장되었으며 [!DNL Target] 배달 네트워크에 동기화되고 있습니다.</li><li>**[!UICONTROL Ended]**: 활동의 지정한 종료 날짜 및 시간에 도달하여 활동이 더 이상 지원되지 않습니다.</li><li>**[!UICONTROL Archived]**: 활동이 보관되었습니다. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.</li></ul> |
 | [!UICONTROL Reporting Source] | 보고 소스로 필터링합니다.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): [!UICONTROL Analytics for Target](A4T)을 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): [!DNL Target]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): [!DNL Adobe Customer Analytics]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li></ul> |
 | [!UICONTROL Experience Composer] | 활동을 만드는 동안 경험 작성기가 사용된 기준 필터링:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): VEC([!UICONTROL Visual Experience Composer])를 사용하여 만든 활동을 표시합니다.</li><li>[양식 기반](/help/main/c-experiences/form-experience-composer.md): [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 만든 활동을 표시합니다.</li></ul> |
 | [!UICONTROL Metrics Type] | 활동을 만드는 동안 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md)를 선택한 기준 필터링.<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
@@ -94,7 +94,7 @@ ht-degree: 28%
 | [!UICONTROL Edit] | 활동을 변경합니다. 모든 활동은 편집할 수 있습니다.<P>활동을 편집할 수 있는 다양한 방법에 대한 자세한 내용은 [활동 편집 또는 초안으로 저장](/help/main/c-activities/edit-activity.md)을 참조하십시오. |
 | [!UICONTROL Deactivate] | 라이브 또는 예약된 활동을 중지합니다. 비활성화된 활동은 다시 활성화하거나 보관할 수 있습니다.<P>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
 | [!UICONTROL Activate] | 비활성 활동 또는 활성화할 준비가 된 활동을 시작합니다. |
-| [!UICONTROL Archive] | 활동을 보관 파일에 보냅니다. 기본적으로 보관된 활동은 더 이상 [!UICONTROL Activities] 목록에 표시되지 않습니다. 보관된 활동을 보려면 이러한 활동을 포함하도록 활동 목록에 대한 필터를 변경하십시오. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.<P>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
+| [!UICONTROL Archive] | 활동을 보관 파일에 보냅니다. 기본적으로 보관된 활동은 더 이상 [!UICONTROL Activities] 목록에 표시되지 않습니다. 보관된 활동을 포함하도록 [!UICONTROL Activities] 목록에 대한 필터를 변경하십시오. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.<P>활동을 비활성화하거나 보관한 후에 다시 활성화하는 경우, 비활성화 또는 보관 이전에 활동에 있었던 방문자는 재활성화 이후에도 계속해서 해당 활동에 속하게 됩니다. 두 이벤트 사이의 시간 동안 기록된 전환 지표는 해당 활동으로 분류되지 않습니다. |
 | [!UICONTROL Copy] | 활동을 복사합니다. 모든 활동은 복사할 수 있습니다. 활동을 복사하면 동일한 이름에 &quot;사본&quot;이 추가된 채 새 활동이 만들어집니다. 예를 들어, &quot;브라우저 오퍼&quot;라는 테스트는 &quot;브라우저 오퍼 사본&quot;으로 복사됩니다.<P>시각적 오퍼는 활동과 함께 복사됩니다. 원래 활동에 영향을 주지 않고 사본에서 오퍼를 안전하게 편집할 수 있습니다. 유일한 예외는 콘텐츠/자산 폴더에 있는 저장된 오퍼와 이미지입니다. |
 | [!UICONTROL Delete] | 초안이나 활동을 삭제합니다.<P>**참고**: 삭제된 활동은 복구할 수 없습니다. 이 활동이 다시 필요하지 않은지 확신할 수 없는 경우 [!UICONTROL Archive] 작업을 사용하십시오. 그런 다음 필요한 경우 활동을 다시 활성화할 수 있습니다. |
 
@@ -102,7 +102,7 @@ ht-degree: 28%
 
 [!UICONTROL Activity] 목록에 대한 다음 세부 정보를 참고하십시오.
 
-* 보관되고 종료된 활동이 [!UICONTROL Activities] 목록에 표시되지 않습니다. 이러한 활동을 보려면 목록 맨 위에 있는 [필터 아이콘](#filters)(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) )을 사용하여 필터링하십시오.
+* [!UICONTROL Archived] 및 [!UICONTROL Ended] 활동이 [!UICONTROL Activities] 목록에 표시되지 않습니다. 이러한 활동을 보려면 목록 맨 위에 있는 [필터 아이콘](#filters)(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) )을 사용하여 필터링하십시오.
 * 원래 [!DNL Target Classic]에서 만들어진 활동이 비활성화되거나 삭제되면 [!DNL Target Standard/Premium]에서 삭제됩니다. 원래 [!DNL Target Classic]에서 만들어진 삭제된 활동은 [!DNL Target Standard/Premium]의 [!UICONTROL Archive] 폴더로 전송되지 않습니다. 보관된 폴더 기능은 [!DNL Target Standard/Premium]에서 만들어진 활동에만 적용됩니다.
 * [!UICONTROL Automated Personalization](AP), [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 이외의 모든 활동 유형에서는 [!DNL Target] 또는 [!DNL Adobe Analytics]을(를) 데이터 소스로 사용하도록 선택할 수 있습니다. [!UICONTROL Automated Personalization], [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] *항상*&#x200B;은(는) [!DNL Target] 데이터를 사용합니다.
 * 활동은 몇 가지 채널에서 사용할 수 있습니다.
@@ -115,7 +115,7 @@ ht-degree: 28%
 
 ## 제한 {#section_049D4684403A4E07B998067EB8E9BE56}
 
-각 Target 활동에는 다음의 콘텐츠 제한 사항이 있습니다.
+각 [!DNL Target] 활동에는 다음과 같은 콘텐츠 제한 사항이 있습니다.
 
 | 항목 |  제한 |
 |--- |--- |
@@ -129,11 +129,11 @@ ht-degree: 28%
 
 활동에서 이러한 항목의 수를 늘리면 [!DNL Target]에서 활동을 동기화하는 데 걸리는 시간도 늘어납니다.
 
-V[!UICONTROL Visual Experience Composer] VEC에 대한 추가적인 제한 사항은 [시각적 경험 작성기 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)을 참조하십시오.
+[!UICONTROL Visual Experience Composer](VEC)의 추가 제한에 대해서는 [시각적 경험 작성기 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)을 참조하십시오.
 
 ## [!DNL Target] 외부에서 업데이트된 활동을 위해 [!DNL Target](으)로 가져온 특성 {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 [!DNL Target]에서 만든 활동이 [!DNL Target] 외부에서(예를 들어 API를 통해) 업데이트된 경우 `thirdpartyId`, `startDate`, `endDate`, `status`, `priority` 및 `marketingCloudMetadata(remoteModifiedBy)` 활동 특성을 다시 [!DNL Target](으)로 가져옵니다.
 
-이 가져오기 작업은 활동 페이지를 열 때 실행되며 최대 지연 시간은 10분입니다.
+이 가져오기 작업은 [!UICONTROL Activities] 목록을 열 때 실행되며 최대 지연 시간은 10분입니다.
 

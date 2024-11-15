@@ -1,10 +1,10 @@
 ---
 keywords: 활동 안내서;활동;활동;활동 유형;활동 작업
 description: ' [!DNL Adobe Target]의 다양한 활동 유형을 설명하는 대화형 PDF를 다운로드하십시오.'
-title: ' [!DNL Target]에서 사용할 수 있는 활동 유형은 무엇입니까?'
+title: ' [!DNL Target]에서 사용할 수 있는 활동 유형'
 feature: Activities
 exl-id: fa62592d-230a-4388-94bb-d9bc3bdfe973
-source-git-commit: ea63fe92d55f6fba8fda18dc7ea358def638a8ac
+source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
 workflow-type: tm+mt
 source-wordcount: '1413'
 ht-degree: 68%
