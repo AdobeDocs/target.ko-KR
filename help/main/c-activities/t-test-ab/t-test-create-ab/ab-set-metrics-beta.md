@@ -5,7 +5,8 @@ title: A/B 활동에서 목표 지표를 설정하려면 어떻게 합니까?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: b7955ed7-61b4-429f-80ff-8efcafc10542
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 58%

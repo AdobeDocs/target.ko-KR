@@ -5,10 +5,11 @@ title: A [!DNL Target] A/B 활동에서 대상을 선택하려면 어떻게 해�
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: cc823f84fb93cbe2e55d394d0f6f4fe48bbd5293
+exl-id: 117cec36-87ef-4bd5-8a39-fb885b679d95
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 12%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
@@ -40,10 +41,12 @@ ht-degree: 12%
 
 1. (조건부) **대상 결합**&#x200B;에서 [여러 대상을 결합하는 대상 만들기](/help/main/c-target/combining-multiple-audiences.md)를 클릭합니다.
 
-1. (조건부) [!UICONTROL Audience Library]에 없는 새 대상을 만들려면 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md)에서 다음 옵션 중 선택할 수 있습니다.
+1. (조건부) [!UICONTROL Audience Library]에 없는 새 대상을 만들려면 **대상 만들기**&#x200B;를 클릭하고 대상을 정의한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
-   * [!UICONTROL Audience Library]에 저장되어 다른 활동에서 다시 사용할 수 있는 온디맨드 대상을 만듭니다.
-   * [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만드십시오.
+   [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md)에서 다음 옵션 중 선택할 수 있습니다.
+
+   * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
+   * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
 
 1. 오른쪽 창에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동에 포함할 자격 있는 방문자의 비율을 지정합니다.
 
@@ -51,7 +54,7 @@ ht-degree: 12%
 
 >[!NOTE]
 >
->대상자 목록을 연 상태에서 가져온 대상자가 10분 이상되면 배경에서 자동으로 대상자를 가져옵니다.
+>[!UICONTROL Audience] 목록을 열고 가져온 대상이 10분 이상 오래되면 백그라운드에서 대상을 자동으로 가져옵니다.
 
 ## 대상자 정보 보기
 
@@ -64,4 +67,3 @@ ht-degree: 12%
 [!UICONTROL Add Audience] 대화 상자에서 원하는 대상 옆에 있는 [!UICONTROL More Actions] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/More.svg))을 클릭한 다음 [!UICONTROL Edit] 또는 [!UICONTROL Copy]을(를) 클릭하여 대상을 편집하거나 복사할 수 있습니다.
 
 기존 대상과 유사한 대상을 만들려는 경우 대상을 복사하면 유용합니다. 대상을 복사하고 편집을 한 다음 새 대상으로 저장할 수 있습니다.
-

@@ -5,7 +5,8 @@ title: ' [!DNL Target] A/B 활동에서 목표와 설정을 지정하는 방법'
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 22a12d29fb894e916783efc65dfe8dfd698dff83
+exl-id: aeafb4d8-a486-46cf-8871-4c220bc3674e
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '1133'
 ht-degree: 30%
@@ -16,7 +17,7 @@ ht-degree: 30%
 
 [!DNL Adobe Target]의 [!UICONTROL Goals & Settings] 페이지에서 활동 목표에 대한 정보를 지정합니다.
 
-사용 가능한 설정은 Target 또는 [Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md)을 보고 소스로 사용하는지에 따라 다릅니다.
+사용 가능한 설정은 Target 또는 [Analytics를 보고 소스로 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)하는지에 따라 다릅니다.
 
 ## [!UICONTROL Activity Settings] {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -54,7 +55,7 @@ ht-degree: 30%
 | 설정 | 설명 |
 |--- |--- |
 | [!UICONTROL Which success metric must be reached before incrementing this metric?] | 다른 성공 지표에 도달한 적이 있는 경우에만 이 옵션을 사용하여 성공 지표에 도달한 것으로 카운트하십시오. 예를 들어, 방문자가 전환하기 전에 오퍼를 클릭하거나 특정 페이지에 도달한 경우에만 활동 전환이 유효할 수 있습니다. 여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다. 두 성공 지표(또는 여러 개의 성공 지표)를 정의한 다음 두 성공 지표를 서로 종속시킵니다. [!UICONTROL Add Dependency] 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다. 종속성을 추가하려면 다음을 수행하십시오.<ul><li>추가 지표를 추가한 후 [!UICONTROL Advanced Settings]을(를) 클릭합니다.</li><li>[!UICONTROL Add Dependency] 옵션을 클릭합니다.</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 [!UICONTROL Reached]을(를) 클릭하여 [!UICONTROL Reached]과(와) [!UICONTROL  Not Reached] 사이의 설정을 전환합니다.</li><li>종속성을 추가한 후 편집하거나 제거할 수 있습니다.</li></ul> |
-| [!UICONTROL What will happen after a user encounters this goal metric?] | 사용자가 목표 지표에 도달한 다음에 진행되는 상황을 지정할 수 있는 세 가지 옵션이 있습니다.<ul><li>카운트가 증분되는 방식을 지정하려면 [!UICONTROL Increment Count & Keep User in Activity]을(를) 선택하십시오.</li><li>[!UICONTROL Increment Count, Release User & Allow Reentry]을(를) 선택하여 사용자가 활동을 다시 입력할 때 표시되는 경험을 지정합니다.</li><li>[!UICONTROL Increment Count, Release User & Bar from Reentry]을(를) 선택하여 활동 콘텐츠 대신 사용자에게 표시되는 콘텐츠를 지정합니다.</li></ul> |
+| [!UICONTROL What will happen after a user encounters this goal metric?] | 사용자가 목표 지표에 도달한 다음에 진행되는 상황을 지정할 수 있는 세 가지 옵션이 있습니다.<ul><li>카운트가 증분되는 방식을 지정하려면 **[!UICONTROL Increment Count & Keep User in Activity]**&#x200B;을(를) 선택하십시오.</li><li>**[!UICONTROL Increment Count, Release User & Allow Reentry]**&#x200B;을(를) 선택하여 사용자가 활동을 다시 입력할 때 표시되는 경험을 지정합니다.</li><li>**[!UICONTROL Increment Count, Release User & Bar from Reentry]**&#x200B;을(를) 선택하여 활동 콘텐츠 대신 사용자에게 표시되는 콘텐츠를 지정합니다.</li></ul> |
 | [!UICONTROL How will the count be incremented?] | 카운트를 늘리는 방법에는 다음 세 가지가 있습니다.<ul><li>[!UICONTROL Once per Entrant]</li><li>[!UICONTROL On Every Impression (Excluding page refreshes)]</li><li>[!UICONTROL On Every Impression]</li></ul> |
 
 고급 설정에 대한 자세한 내용은 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.

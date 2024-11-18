@@ -1,11 +1,12 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: ' [!DNL Target]이(가) 활성화된 페이지에서 직접 A/B 테스트 활동을 만들 수 있도록 [!UICONTROL Visual Experience Composer](VEC)을(를) 기본으로 제공합니다.'
+description: '[!UICONTROL Visual Experience Composer](VEC)을 사용하여  [!DNL Target]이(가) 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 35b8d451-289f-4c9d-82ed-c3bdb091c8e3
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
 source-wordcount: '885'
 ht-degree: 16%
@@ -101,8 +102,8 @@ ht-degree: 16%
 
       [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
 
-      * [!UICONTROL Audience Library]에 저장되어 다른 활동에서 다시 사용할 수 있는 온디맨드 대상을 만듭니다.
-      * [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만드십시오.
+      * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
+      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
 
    1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
 

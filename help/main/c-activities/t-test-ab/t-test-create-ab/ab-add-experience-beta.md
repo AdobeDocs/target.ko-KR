@@ -1,13 +1,14 @@
 ---
 keywords: 타깃팅;경험;경험 추가;경험 추가
-description: 기본으로 [!UICONTROL Visual Experience Composer](VEC)를 사용하여 활동에 경험을 추가합니다.
+description: '[!UICONTROL Visual Experience Composer](VEC)을(를) 사용하여 활동에 경험을 추가합니다.'
 title: A/B 활동에서 경험을 추가하려면 어떻게 합니까?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 4b2d6cc6-f280-4d65-8153-53e9cd61d15a
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '387'
 ht-degree: 28%
 
 ---

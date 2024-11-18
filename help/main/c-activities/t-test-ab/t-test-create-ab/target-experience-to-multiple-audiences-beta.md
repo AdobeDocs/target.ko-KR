@@ -5,9 +5,10 @@ title: A/B 활동에서 여러 경험 버전을 사용할 수 있습니까?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: ec35109b5d668a96f7e71149df7c965ce2bf3ceb
+exl-id: 791423e3-c748-4771-b824-c5ba6d3d6c32
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '593'
 ht-degree: 52%
 
 ---
@@ -36,7 +37,7 @@ ht-degree: 52%
 
 1. 경험을 선택한 다음 **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**&#x200B;을(를) 클릭합니다.
 
-1. Experience Audiences 창에서 **[!UICONTROL Add Audience]** 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭한 다음, 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
+1. [!UICONTROL Experience Audiences] 창에서 **[!UICONTROL Add Audience]** 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
 
    대상자가 아직 존재하지 않는 경우 [대상자 만들기](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
 

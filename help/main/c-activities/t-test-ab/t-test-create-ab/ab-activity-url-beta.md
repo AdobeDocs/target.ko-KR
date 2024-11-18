@@ -5,9 +5,10 @@ title: A/B 활동의 활동 URL이란 무엇입니까?
 feature: A/B Tests
 hide: true
 hidefromtoc: true
-source-git-commit: 6e9d18b8347d8ae68be699640c4cde91bdec762c
+exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
+source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
 workflow-type: tm+mt
-source-wordcount: '225'
+source-wordcount: '227'
 ht-degree: 40%
 
 ---
@@ -26,7 +27,7 @@ ht-degree: 40%
 
 기본적으로 [!UICONTROL Visual Experience Composer]은(는) [시각적 경험 작성기 설정](/help/main/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
 
-1. [!UICONTROL Visual Experience Composer]이(가) 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL Experiences]** 페이지에서 페이지 상단의 **[!UICONTROL Configure]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
+1. (조건부) [!UICONTROL Visual Experience Composer]이(가) 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL Experiences]** 페이지에서 페이지 상단의 **[!UICONTROL Configure]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL URL]** 필드에 URL을 지정하십시오.
 
@@ -40,6 +41,7 @@ ht-degree: 40%
    * 해시(#) 조각
    * 쿼리
    * mbox 매개 변수
+   * 사용자 정의
 
    추가 규칙은 AND 또는 OR로 활동 URL에 조인할 수 있습니다. 추가하는 모든 규칙은 AND를 사용하여 서로 평가됩니다.
 
