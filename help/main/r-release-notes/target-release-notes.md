@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d823e9993ff17f1970dc1deac996928781c7e79d
+source-git-commit: 7017c2f9d5294bd4f74a6fc359cdafbf13c6ab4c
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 27%
+source-wordcount: '623'
+ht-degree: 26%
 
 ---
 
@@ -28,6 +28,10 @@ ht-degree: 27%
 2024년 7월 22일부터 2024년 8월 15일 사이에 [!DNL Target] 팀은 `__view__` 범위를 최적화하여 활동 노출, 방문 및 방문자 보고의 정확도를 개선했습니다. 이 최적화는 자동 렌더링된 제안에 대한 보고 데이터를 자동으로 캡처하는 것을 목표로 하며 대부분의 계정에 투명해야 합니다.
 
 모든 새 [!DNL Adobe Experience Platform Web SDK] 고객은 이 최적화를 사용할 수 있습니다. 그러나 at.js에서 마이그레이션하고 아래의 구현 단계를 따르지 않은 고객은 최적화를 사용할 수 없습니다. 이러한 고객은 2025년 2월 3일까지 구현을 검토해야 합니다. 이 날짜 이후, 모든 고객을 위해 최적화를 활성화합니다. 그때까지 구현을 검토하고 조정하지 않으면 아래 언급된 대로 보고서에 영향을 줄 수 있습니다. 구현이 영향을 받는지 확인하거나 구현을 조정하는 데 더 많은 시간이 필요한 경우 [!DNL Adobe Customer Care]에 문의하십시오.
+
+>[!IMPORTANT]
+>
+>구현 검토를 완료하고 2025년 2월 3일까지 문제를 해결할 수 없는 경우 6개월 1회 연장을 요청할 수 있습니다. 2025년 1월 31일까지 요청이 제출되었는지 확인합니다. Adobe이 요청을 검토하고 결정합니다.
 
 수동 제안 렌더링의 경우 이 최적화를 활용하려면 [[!DNL Platform Web SDK implementation]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}을(를) 검토하여 경험을 수동으로 렌더링한 후 또는 경험을 렌더링하기 위해 `applyPropositions` 메서드(또는 해당 [!DNL Launch] 작업을 도우미로 사용)를 사용할 때 알림을 보내고 있는지 확인하십시오.
 
