@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7017c2f9d5294bd4f74a6fc359cdafbf13c6ab4c
+source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
 workflow-type: tm+mt
-source-wordcount: '623'
+source-wordcount: '624'
 ht-degree: 26%
 
 ---
