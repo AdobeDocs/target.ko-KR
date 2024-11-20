@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: 5b66b2d209398f8cbc69eac7fb2e2f12844fcc7d
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '529'
 ht-degree: 19%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 19%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 11월 20일 | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Target 에지 IP 주소 목록을 허용 목록에 추가하다로 업데이트했습니다. |
 | 11월 19일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` 범위 최적화(2024년 10월 22일)&quot; 섹션에 다음과 같은 중요한 메모를 추가했습니다.<ul><li>중요: 2025년 2월 3일까지 구현 검토를 완료하고 문제를 해결할 수 없는 경우 6개월 1회 연장을 요청할 수 있습니다. 2025년 1월 31일까지 요청이 제출되었는지 확인합니다. Adobe이 요청을 검토하고 결정합니다.</li><ul> |
 | 10월 22일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 다음과 같은 중요한 정보가 추가되었습니다.<ul><li>[!DNL Adobe Experience Platform Web SDK] `__view__` 범위 최적화</li></ul> |
 | 10월 14일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target Standard/Premium] 24.10.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
