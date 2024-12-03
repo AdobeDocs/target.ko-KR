@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3f3f7484145c9fd43bf7ff7356cca0997057ef02
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 26%
+source-wordcount: '729'
+ht-degree: 22%
 
 ---
 
@@ -15,13 +15,27 @@ ht-degree: 26%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2024년 11월 14일 금요일**
+**마지막 업데이트: 2024년 12월 3일 수요일**
 
 >[!NOTE]
 >
 >릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+
+## [!UICONTROL Offers Library] 사용자 인터페이스 업데이트(2024년 1월 9일)
+
+[!DNL Adobe Target] 사용자의 사용자 환경을 개선하기 위해 이 릴리스는 [!UICONTROL Offers Library] 사용자 인터페이스를 업데이트합니다. 이 업데이트는 최신 [!DNL Adobe Spectrum] 디자인 시스템을 사용하여 일관되지 않은 디자인 패턴을 표준화하고 다음과 같은 새로운 개선 사항을 도입했습니다.
+
+* **일괄 오퍼 관리**: 동시에 여러 오퍼를 선택하고 삭제합니다.
+
+* **코드 편집기 업그레이드**: 구문 강조 표시 및 줄 번호를 사용하여 HTML 및 JSON 편집기를 새로 고쳤습니다.
+
+* **향상된 오퍼 카드**: 더 쉬운 정보 액세스를 위해 빠른 정보 및 상세 카드를 개선했습니다.
+
+* **영구 검색 및 필터**: 세션 영구 검색 및 필터 옵션을 추가합니다.
+
+2025년 1월 9일부터 모든 [!DNL Target] 고객은 새 UI에 액세스할 수 있으며 필요한 경우 현재 버전의 UI로 다시 전환할 수 있습니다.
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` 범위 최적화(2024년 10월 22일)
 

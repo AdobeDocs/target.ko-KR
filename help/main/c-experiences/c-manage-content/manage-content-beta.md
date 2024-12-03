@@ -7,9 +7,9 @@ badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.c
 hide: true
 hidefromtoc: true
 exl-id: f64aec3d-5f83-4bd1-8e64-df1779809812
-source-git-commit: 0c86e142b7d459d07af51ec0c3454611564c8e08
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '866'
+source-wordcount: '873'
 ht-degree: 8%
 
 ---
@@ -35,7 +35,7 @@ ht-degree: 8%
 | 왼쪽 탐색 레일 | [!UICONTROL Code Offers] 또는 [!UICONTROL Image Offers] 표시 간에 전환합니다. |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![필터 표시/필터 숨기기 아이콘](/help/main/assets/icons/RailLeft.svg) | 오퍼 폴더 구조를 표시하거나 폴더 구조를 표시하지 않으려면 **[!UICONTROL Show Folders]** 또는 **[!UICONTROL Hide Folders]** 아이콘을 클릭하십시오.<P>자세한 내용은 [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder.md)를 참조하십시오. |
 | [!UICONTROL Show filters] 아이콘<P>![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) | [!UICONTROL Type], [!UICONTROL Source] 및 [!UICONTROL AEM Type]별로 오퍼를 필터링하려면 **[!UICONTROL Show filters]** 아이콘을 클릭하십시오.<P>자세한 내용은 아래의 [오퍼 목록에 필터 적용](#filters)을 참조하세요. |
-| 필드 검색 | **[!UICONTROL Search in]** 필드를 사용하여 오퍼를 빠르게 찾거나 [!UICONTROL Offers] 라이브러리에 표시되는 오퍼 수를 줄이십시오. [!UICONTROL Offer Name], [!UICONTROL AEM Paths] 또는 [!UICONTROL AEM Tags]별로 검색할 수 있습니다. |
+| 필드 검색 | **[!UICONTROL Search in]** 필드를 사용하여 오퍼를 빠르게 찾거나 [!UICONTROL Offers] 라이브러리에 표시되는 오퍼 수를 줄이십시오. [!UICONTROL Offer Name], [!UICONTROL AEM Paths] 또는 [!UICONTROL AEM Tags]별로 검색할 수 있습니다. 검색 옵션은 세션 지속적입니다. |
 | [!UICONTROL Create Folder] | **[!UICONTROL Create Folder]**&#x200B;을(를) 클릭하여 [!UICONTROL Offer] 라이브러리에 폴더를 만들어 코드 오퍼, 이미지 오퍼와 다른 폴더를 보관하여 하위 폴더 구조를 만듭니다.<P>자세한 내용은 [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder.md)를 참조하십시오. |
 | [!UICONTROL [!UICONTROL Create Offer]] | 오퍼를 만들려면 **[!UICONTROL Create Offer]**&#x200B;을(를) 클릭합니다.<P>다양한 오퍼 유형 만들기에 대한 자세한 내용은 다음을 참조하십시오. <ul><li>HTML 오퍼</li><li>[JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[오퍼 리디렉션](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[원격 오퍼](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
 | 대량 작업 확인란<P>![일괄 작업 아이콘](/help/main/assets/icons/Rectangle.svg) | 모든 오퍼 또는 선택한 오퍼에 일괄 작업을 수행하려면 [!UICONTROL Bulk Operations] 확인란을 클릭하십시오.<P>사용 권한 및 오퍼 상태에 따라 사용 가능한 작업 목록을 보려면 아래의 [빠른 작업 수행](#quick-actions)을 참조하십시오. |
@@ -55,6 +55,8 @@ ht-degree: 8%
 * **[!UICONTROL Source]**: [!DNL Adobe Target], [!DNL Adobe Target Classic] 및 [!DNL Adobe Experience Manager].
 
 * **AEM 유형**: [콘텐츠 조각](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) 및 [경험 조각](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md). 다른 조각 유형에 대한 자세한 내용은 [AEM 경험 조각 및 콘텐츠 조각 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)를 참조하십시오.
+
+필터는 세션을 지속합니다.
 
 ## 빠른 작업 수행 {#quick-actions}
 

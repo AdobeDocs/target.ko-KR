@@ -6,9 +6,9 @@ feature: Experiences and Offers
 hide: true
 hidefromtoc: true
 exl-id: e022c2d1-3326-405b-aead-5bb4ffa309b3
-source-git-commit: 4b57712b838906611702db521b51af84077501e6
+source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '425'
 ht-degree: 25%
 
 ---
@@ -46,17 +46,7 @@ JSON 오퍼는 [양식 기반 경험 작성기](/help/main/c-experiences/form-ex
 
 다음은 한 예입니다.
 
-```json
-adobe.target.getOffer({ 
-  mbox: "some-mbox", 
-  success: function(actions) { 
-    console.log('Success', actions); 
-  }, 
-  error: function(status, error) { 
-    console.log('Error', status, error); 
-  } 
-});
-```
+![JSON 오퍼 만들기 대화 상자](/help/main/c-experiences/c-manage-content/assets/json-example.png)
 
 성공 콜백에 전달된 작업은 개체의 배열입니다. 단일 JSON 오퍼가 있다고 가정할 때 해당 오퍼에는 다음 내용이 포함됩니다.
 
