@@ -6,7 +6,8 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Auto-Target
 hide: true
 hidefromtoc: true
-source-git-commit: 5fc18c6d3b493ea0a58048cc20ce3a6c2ffb7d14
+exl-id: 3e55e032-3a70-4023-b705-2e489aa60277
+source-git-commit: 5846e567cffda70ecd75f2975b0891f9a3f423a5
 workflow-type: tm+mt
 source-wordcount: '1828'
 ht-degree: 18%
@@ -35,7 +36,7 @@ ht-degree: 18%
 
 안내가 있는 3단계 워크플로우를 사용하여 [A/B 활동을 만드는 중](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) **[!UICONTROL Targeting]** 페이지에서 **[!UICONTROL Auto-Target for personalized experiences]** 옵션을 선택합니다(2단계).
 
-![트래픽 할당 메서드 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/traffic-allocation-method-new.png)
+![트래픽 할당 메서드 설정](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번의 클릭으로 마케터가 정의한 일련의 경험들을 기반으로 개인화하는 기계 학습을 활용할 수 있습니다. [!UICONTROL Auto-Target]은(는) 각 방문자에 대해 표시할 경험을 결정함으로써 기존의 A/B 테스트나 [!UICONTROL Auto Allocate]에 비해 최대 최적화를 제공하도록 설계되었습니다. 목표가 단일 승자를 찾는 것인 A/B 활동과 달리 [!UICONTROL Auto-Target]은(는) 주어진 방문자에게 최상의 경험을 자동으로 결정합니다. 최상의 경험은 고도로 개인화된 경험을 제공하기 위해 방문자의 프로필 및 기타 컨텍스트 정보를 기반으로 합니다.
 
