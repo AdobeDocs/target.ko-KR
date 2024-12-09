@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '576'
 ht-degree: 19%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 19%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 12월 9일 | [[!UICONTROL Visual Experience Composer] 모범 사례 및 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | 다음과 같은 제한이 추가되었습니다.<ul><li>다시 정렬할 [!UICONTROL Button] 요소를 선택할 수 없습니다.<P>[!UICONTROL Button]개의 요소를 다시 정렬하기 위해 직접 선택할 수 없습니다. 재배치를 사용하려면 더 큰 컨테이너에 버튼을 배치하십시오.</li></ul> |
 | 12월 3일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 예정된 [!UICONTROL Offers Library] 사용자 인터페이스 업데이트에 대한 프리릴리스 정보가 추가되었습니다. |
 | 11월 20일 | [Target Edge 노드를 허용 목록에 추가](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges#target-edge-ip-addresses){target=_blank} | Target 에지 IP 주소 목록을 허용 목록에 추가하다로 업데이트했습니다. |
 | 11월 19일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | &quot;[!DNL Adobe Experience Platform Web SDK] `__view__` 범위 최적화(2024년 10월 22일)&quot; 섹션에 다음과 같은 중요한 메모를 추가했습니다.<ul><li>중요: 2025년 2월 3일까지 구현 검토를 완료하고 문제를 해결할 수 없는 경우 6개월 1회 연장을 요청할 수 있습니다. 2025년 1월 31일까지 요청이 제출되었는지 확인합니다. Adobe이 요청을 검토하고 결정합니다.</li><ul> |

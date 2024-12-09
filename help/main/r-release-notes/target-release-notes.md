@@ -4,7 +4,7 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6d18b76da95ad5c5b4d4144c75921a1c42313789
+source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
 workflow-type: tm+mt
 source-wordcount: '729'
 ht-degree: 22%
@@ -29,9 +29,9 @@ ht-degree: 22%
 
 * **일괄 오퍼 관리**: 동시에 여러 오퍼를 선택하고 삭제합니다.
 
-* **코드 편집기 업그레이드**: 구문 강조 표시 및 줄 번호를 사용하여 HTML 및 JSON 편집기를 새로 고쳤습니다.
+* **[!UICONTROL Code Editor]업그레이드**: 구문 강조 표시 및 줄 번호를 사용하여 HTML 및 JSON 편집기를 새로 고쳤습니다.
 
-* **향상된 오퍼 카드**: 더 쉬운 정보 액세스를 위해 빠른 정보 및 상세 카드를 개선했습니다.
+* **향상된 오퍼 카드**: 더 쉬운 정보 액세스를 위해 빠른 정보 및 세부 정보 카드를 개선했습니다.
 
 * **영구 검색 및 필터**: 세션 영구 검색 및 필터 옵션을 추가합니다.
 
