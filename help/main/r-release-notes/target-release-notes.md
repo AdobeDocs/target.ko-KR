@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '729'
-ht-degree: 22%
+source-wordcount: '744'
+ht-degree: 21%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 22%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2024년 12월 3일 수요일**
+**마지막 업데이트: 2024년 12월 11일 목요일**
 
 >[!NOTE]
 >
@@ -36,6 +36,10 @@ ht-degree: 22%
 * **영구 검색 및 필터**: 세션 영구 검색 및 필터 옵션을 추가합니다.
 
 2025년 1월 9일부터 모든 [!DNL Target] 고객은 새 UI에 액세스할 수 있으며 필요한 경우 현재 버전의 UI로 다시 전환할 수 있습니다.
+
+다음은 이 릴리스의 변경 사항을 강조 표시하는 짧은 비디오입니다.
+
+![오퍼 UI 비디오 새로 고침](/help/main/r-release-notes/assets/offers-video-v2.gif)
 
 ## [!DNL Adobe Experience Platform Web SDK] `__view__` 범위 최적화(2024년 10월 22일)
 

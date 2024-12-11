@@ -6,9 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: fe6e5130-53a0-4254-8299-b52086c20004
+source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1767'
 ht-degree: 27%
 
 ---
@@ -43,7 +44,7 @@ ht-degree: 27%
 
    지정된 URL의 페이지가 VEC에서 열립니다.
 
-1. VEC의 맨 위에서 **[!UICONTROL Untitled Activity]**&#x200B;을(를) 클릭한 다음 제공된 공간에 활동 이름을 지정합니다.
+1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 
