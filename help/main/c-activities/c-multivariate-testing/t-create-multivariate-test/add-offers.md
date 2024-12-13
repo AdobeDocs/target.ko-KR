@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] 에서 [!UICONTROL Visual Experience Composer](
 title: '[!UICONTROL Multivariate Test](MVT)에서 조합을 만들려면 어떻게 해야 합니까?'
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
 workflow-type: tm+mt
 source-wordcount: '485'
 ht-degree: 56%
@@ -64,3 +64,4 @@ VEC를 사용하여 오퍼를 만들고 편집하는 방법에 대한 자세한 
 * 테스트할 요소가 3개 이상 있어야 합니다. 테스트할 요소가 3개 미만이면 일련의 A/B 테스트를 실행합니다.
 * 각 요소의 대안은 서로 상당히 달라야 한다.
 * 필수 사항은 아니지만, 각 요소에 동일한 개수의 대체 항목을 사용하는 것이 좋습니다.
+
