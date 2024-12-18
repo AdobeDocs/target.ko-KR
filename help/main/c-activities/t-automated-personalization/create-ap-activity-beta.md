@@ -7,9 +7,9 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1769'
 ht-degree: 27%
 
 ---
@@ -74,9 +74,7 @@ ht-degree: 27%
 
    자산 관리자에서 한꺼번에 여러 이미지를 선택할 수 있습니다. 이렇게 하면 활동에 대해 구성된 각 이미지가 있는 페이지를 빠르게 볼 수 있습니다. 또한 오퍼의 텍스트 요소를 쉽게 편집할 수 있습니다. 요소를 편집하면 해당 요소가 변경되었음을 나타내는 막대가 표시됩니다.
 
-1. 사용 가능한 조합을 구성하려면 **[!UICONTROL Manage Content]**&#x200B;을(를) 클릭하십시오.
-
-   ![콘텐츠 관리 옵션](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+1. **[!UICONTROL Manage Content]** 아이콘(![콘텐츠 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭하여 사용 가능한 조합을 구성합니다.
 
    화면 맨 위에 [!UICONTROL Experiences], [!UICONTROL Offers] 및 [!UICONTROL Exclusion Groups] 옵션이 있는 대화 상자가 표시됩니다.
 
