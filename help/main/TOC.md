@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 65367f0a032d2eb680e26d43ee79f5ae0890024b
+source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
 workflow-type: tm+mt
-source-wordcount: '1457'
-ht-degree: 78%
+source-wordcount: '1420'
+ht-degree: 80%
 
 ---
 
@@ -66,7 +66,7 @@ ht-degree: 78%
          + [Enterprise 사용자 권한](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Enterprise 권한 구성](administrating-target/c-user-management/property-channel/properties-overview.md)
          + [작업 영역에 Adobe I/O 통합 액세스 권한을 부여하고 역할 할당](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
-   + [Recommendations](/help/main/administrating-target/recommendations-settings.md)
+   + [추천](/help/main/administrating-target/recommendations-settings.md)
 + Target 구현 {#implement-target}
    + [Target 구현 개요](c-implementing-target/implementing-target.md)
 + Target과 Experience Cloud 통합{#integrate}
@@ -271,21 +271,13 @@ ht-degree: 78%
    + [SPA(단일 페이지 앱) 시각적 경험 작성기](c-experiences/spa-visual-experience-composer.md)
    + 오퍼 {#offers}
       + [오퍼 개요](c-experiences/c-manage-content/manage-content.md)
-      + [오퍼 개요 베타](/help/main/c-experiences/c-manage-content/manage-content-beta.md)
       + [오퍼 폴더 만들기](c-experiences/c-manage-content/create-content-folder.md)
-      + [오퍼 폴더 Beta 만들기](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md)
       + [업로드 컨텐츠](c-experiences/c-manage-content/assets-upload.md)
-      + [이미지 오퍼 베타 업로드 또는 삭제](/help/main/c-experiences/c-manage-content/assets-upload-beta.md)
       + [리디렉션 오퍼 만들기](c-experiences/c-manage-content/offer-redirect.md)
-      + [리디렉션 오퍼 Beta 만들기](c-experiences/c-manage-content/offer-redirect-beta.md)
       + [원격 오퍼 만들기](c-experiences/c-manage-content/about-remote-offers.md)
-      + [원격 오퍼 Beta 만들기](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md)
       + [JSON 오퍼 만들기](c-experiences/c-manage-content/create-json-offer.md)
-      + [JSON 오퍼 만들기 Beta](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md)
       + [라이브러리에서 콘텐츠 작업](c-experiences/c-manage-content/assets-working.md)
-      + [라이브러리 베타에서 컨텐츠 작업](/help/main/c-experiences/c-manage-content/assets-working-beta.md)
       + [콘텐츠 검색 및 필터링](c-experiences/c-manage-content/filter-and-search-content.md)
-      + [콘텐츠 베타 검색 및 필터링](/help/main/c-experiences/c-manage-content/filter-and-search-content-beta.md)
       + [오퍼에 동적 데이터 전달](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [AEM 경험 및 컨텐츠 조각](c-experiences/c-manage-content/aem-experience-fragments.md)
 + 보고서 {#reports}
@@ -352,7 +344,7 @@ ht-degree: 78%
       + [백업 권장 사항 사용](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [다중 값 특성 관련 작업](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
       + [다중 값 특성 Beta 작업](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
-      + [Recommendations와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [추천와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
       + [Recommendations 베타와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + 디자인 {#recommendations-design}
       + [디자인 개요](c-recommendations/c-design-overview/design-overview.md)
@@ -366,13 +358,13 @@ ht-degree: 78%
       + [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [권장 사항 활동 미리보기 및 시작](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
-   + [오퍼로서의 Recommendations](c-recommendations/recommendations-as-an-offer.md)
+   + [오퍼로서의 추천](c-recommendations/recommendations-as-an-offer.md)
    + FAQ {#recommendations-faq}
       + [권장 사항 FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
       + [이메일에 권장 사항 통합](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [권장 사항 피드 처리 서버에서 사용하는 IP 주소](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [권장 사항 Classic과 Target Premium의 권장 사항 활동 비교](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Recommendations Classic 설명서입니다](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+   + [추천 Classic 설명서입니다](/help/main/c-recommendations/recommendations-classic-documentaton.md)
 + Target 문제 해결 {#troubleshoot}
    + [Target 문제 해결](r-troubleshooting-target/troubleshooting-target.md)
    + [제한](r-troubleshooting-target/target-limits.md)

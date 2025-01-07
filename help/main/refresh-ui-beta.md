@@ -7,9 +7,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 33195758db8ac27a9b45f77f5518c4c4ce5c70d9
+source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '308'
 ht-degree: 62%
 
 ---
@@ -97,25 +97,7 @@ ht-degree: 62%
    * [Activity QA bookmarklet](c-activities/c-activity-qa/activity-qa-bookmark.md){target=_blank}
    * [Use Activity QA with server-side delivery](c-activities/c-activity-qa/use-qa-mode-with-server-side-delivery.md){target=_blank}-->
 
-## 오퍼
-
-+++확장하려면 클릭
-
-* [오퍼 개요](/help/main/c-experiences/c-manage-content/manage-content-beta.md){target="_blank"}
-* [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder-beta.md){target="_blank"}
-* [콘텐츠 업로드](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [이미지 오퍼 업로드 또는 삭제](/help/main/c-experiences/c-manage-content/assets-upload-beta.md){target="_blank"}
-* [리디렉션 오퍼 만들기](/help/main/c-experiences/c-manage-content/offer-redirect-beta.md){target="_blank"}
-* [원격 오퍼 만들기](/help/main/c-experiences/c-manage-content/about-remote-offers-beta.md){target="_blank"}
-* [JSON 오퍼 만들기](/help/main/c-experiences/c-manage-content/create-json-offer-beta.md){target="_blank"}
-* [라이브러리에서 콘텐츠 작업](/help/main/c-experiences/c-manage-content/assets-working-beta.md){target="_blank"}
-* [콘텐츠 검색](/help/main/c-experiences/c-manage-content/filter-and-search-content.md){target="_blank"}
-* [오퍼에 동적 데이터 전달](/help/main/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md){target="_blank"}
-* [AEM 경험 및 콘텐츠 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md){target="_blank"}
-
-+++
-
-## Recommendations
+## 추천
 
 +++확장하려면 클릭
 
@@ -146,7 +128,7 @@ ht-degree: 62%
          * [정적 필터](/help/main/c-recommendations/c-algorithms/static-value-beta.md){target="_blank"}
       * [백업 권장 사항 사용](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md){target="_blank"}
       * [다중 값 특성 관련 작업](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md){target="_blank"}
-      * [Recommendations와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md){target="_blank"}
+      * [추천와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md){target="_blank"}
    * 디자인 {#recommendations-design}
       * [디자인 개요](c-recommendations/c-design-overview/design-overview.md){target="_blank"}
       * [디자인 만들기](c-recommendations/c-design-overview/create-design.md){target="_blank"}
@@ -159,12 +141,12 @@ ht-degree: 62%
       * [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
       * [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
       * [권장 사항 활동 미리보기 및 시작](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
-   * [오퍼로서의 Recommendations](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
+   * [오퍼로서의 추천](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * FAQ {#recommendations-faq}
       * [권장 사항 FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}
       * [이메일에 권장 사항 통합](c-recommendations/c-recommendations-faq/integrating-recs-email.md){target="_blank"}
       * [권장 사항 피드 처리 서버에서 사용하는 IP 주소](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md){target="_blank"}
       * [권장 사항 Classic과 Target Premium의 권장 사항 활동 비교](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md){target="_blank"}
-   * [Recommendations Classic 설명서](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
+   * [추천 Classic 설명서](/help/main/c-recommendations/recommendations-classic-documentaton.md){target="_blank"}
 
 +++

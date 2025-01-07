@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8bfad2fe6804c241deec6c8ea70e2f8e7d79d8c6
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '624'
 ht-degree: 19%
 
 ---
@@ -19,6 +19,7 @@ ht-degree: 19%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 1월 7일 | [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!UICONTROL Offers Library] 사용자 인터페이스 업데이트에 대한 릴리스 정보를 추가했습니다(2025년 1월 9일로 예약됨). UI 변경 사항을 반영하도록 모든 오퍼 문서가 업데이트되었습니다. |
 | 12월 9일 | [[!UICONTROL Visual Experience Composer] 모범 사례 및 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md) | 다음과 같은 제한이 추가되었습니다.<ul><li>다시 정렬할 [!UICONTROL Button] 요소를 선택할 수 없습니다.<P>[!UICONTROL Button]개의 요소를 다시 정렬하기 위해 직접 선택할 수 없습니다. 재배치를 사용하려면 더 큰 컨테이너에 버튼을 배치하십시오.</li></ul> |
 |  | [adobe.target.triggerView(viewName, options) - at.js 2.x](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-triggerview-atjs-2){target=_blank} | 다음 섹션이 추가되었습니다.<ul><li>예: Adobe Visual Editing Helper 확장 기능을 사용한 `triggerView()`에 대한 최상의 호환성</li></ul> |
 | 12월 3일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 예정된 [!UICONTROL Offers Library] 사용자 인터페이스 업데이트에 대한 프리릴리스 정보가 추가되었습니다. |

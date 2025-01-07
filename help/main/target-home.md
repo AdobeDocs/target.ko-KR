@@ -4,7 +4,7 @@ title: Adobe Target 비즈니스 실무자 안내서
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 320e2e3828061ee38342dfabcdd50a682a7125a5
 workflow-type: tm+mt
 source-wordcount: '510'
 ht-degree: 96%
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 [!DNL Adobe Target]은 사용자의 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널의 매출을 극대화하도록 고객의 경험을 조정하고 개인화하는 데 필요한 모든 기능을 제공하는 [!DNL Adobe Experience Cloud] 솔루션입니다.
 
-**마지막 업데이트: 2024년 12월 9일 화요일 ([변경 사항 보기](r-release-notes/doc-change.md))**
+**마지막 업데이트: 2025년 1월 7일 수요일 ([변경 사항 보기](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -52,7 +52,7 @@ ht-degree: 96%
 - [활동](c-activities/activities.md): [!DNL Target] 활동을 설정, 관리 및 QA하는 방법을 설명합니다.
 - [대상자](c-target/target.md): 타겟팅된 활동에서 콘텐츠 및 경험을 보게 되는 사용자를 결정하는 방법을 설명합니다.
 - [경험 및 오퍼](c-experiences/experiences.md): 방문자가 활동의 대상자 기준을 만족할 때 표시되는 콘텐츠를 지정하는 방법을 설명합니다.
-- [Recommendations](c-recommendations/recommendations.md): [!DNL Recommendations] 활동이 어떻게 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시하는지 설명합니다.
+- [추천](c-recommendations/recommendations.md): [!DNL Recommendations] 활동이 어떻게 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시하는지 설명합니다.
 
 ## 개발자 {#developers}
 
@@ -75,5 +75,5 @@ ht-degree: 96%
 
 | Adobe [!DNL Target] 솔루션 도움말 | [!DNL Adobe Experience Cloud] 리소스 |
 |--- |--- |
-| <ul><li>[Adobe Target 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium Recommendations](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ko-KR)</li><li>[Target API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[Experience Cloud 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ko-KR)</li><li>[Adobe 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[Adobe Target 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium 추천](c-recommendations/recommendations.md)</li><li>[Adobe 추천 Classic](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html?lang=ko-KR)</li><li>[Target API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[Target 커뮤니티 포럼](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Experience Cloud 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[Experience Cloud 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[Adobe Experience Cloud 설명서](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html?lang=ko-KR)</li><li>[Adobe 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |  |
 

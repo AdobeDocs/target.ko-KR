@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cf00d2e43b0d0746e4369fcc7933a79f465c9549
+source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '757'
 ht-degree: 21%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 21%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2024년 12월 11일 목요일**
+**마지막 업데이트: 2025년 1월 7일 수요일**
 
 >[!NOTE]
 >
@@ -27,7 +27,7 @@ ht-degree: 21%
 
 [!DNL Adobe Target] 사용자의 사용자 환경을 개선하기 위해 이 릴리스는 [!UICONTROL Offers Library] 사용자 인터페이스를 업데이트합니다. 이 업데이트는 최신 [!DNL Adobe Spectrum] 디자인 시스템을 사용하여 일관되지 않은 디자인 패턴을 표준화하고 다음과 같은 새로운 개선 사항을 도입했습니다.
 
-* **일괄 오퍼 관리**: 동시에 여러 오퍼를 선택하고 삭제합니다.
+* **일괄 오퍼 관리**: 여러 오퍼를 동시에 선택하고 삭제하거나 이동합니다.
 
 * **[!UICONTROL Code Editor]업그레이드**: 구문 강조 표시 및 줄 번호를 사용하여 HTML 및 JSON 편집기를 새로 고쳤습니다.
 
@@ -36,6 +36,8 @@ ht-degree: 21%
 * **영구 검색 및 필터**: 세션 영구 검색 및 필터 옵션을 추가합니다.
 
 2025년 1월 9일부터 모든 [!DNL Target] 고객은 새 UI에 액세스할 수 있으며 필요한 경우 현재 버전의 UI로 다시 전환할 수 있습니다.
+
+자세한 내용은 이 섹션의 [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md) 및 하위 문서를 참조하십시오.
 
 다음은 이 릴리스의 변경 사항을 강조 표시하는 짧은 비디오입니다.
 
