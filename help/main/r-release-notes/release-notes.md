@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f3090ad7ab1c3d15de496039e76bb5ec0b02886f
+source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
 workflow-type: tm+mt
-source-wordcount: '868'
-ht-degree: 31%
+source-wordcount: '842'
+ht-degree: 32%
 
 ---
 
@@ -30,8 +30,6 @@ ht-degree: 31%
 * **향상된 오퍼 카드**: 더 쉬운 정보 액세스를 위해 빠른 정보 및 세부 정보 카드를 개선했습니다.
 
 * **영구 검색 및 필터**: 세션 영구 검색 및 필터 옵션을 추가합니다.
-
-2025년 1월 9일부터 모든 [!DNL Target] 고객은 새 UI에 액세스할 수 있으며 필요한 경우 현재 버전의 UI로 다시 전환할 수 있습니다.
 
 자세한 내용은 이 섹션의 [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md) 및 하위 문서를 참조하십시오.
 
