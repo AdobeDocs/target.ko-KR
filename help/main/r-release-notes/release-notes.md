@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: f034aba7fe4f54b937dee0846140af140052694c
+source-git-commit: 872b63bc7df255af8334fa29fa89e1c532d3a734
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 32%
+source-wordcount: '856'
+ht-degree: 31%
 
 ---
 
@@ -31,7 +31,7 @@ ht-degree: 32%
 
 * **영구 검색 및 필터**: 세션 영구 검색 및 필터 옵션을 추가합니다.
 
-자세한 내용은 이 섹션의 [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md) 및 하위 문서를 참조하십시오.
+자세한 내용은 이 섹션의 [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md) 및 하위 문서를 참조하십시오. 이 UI 변경 사항을 반영하도록 이 섹션의 모든 오퍼 문서가 업데이트되었습니다.
 
 다음은 이 릴리스의 변경 사항을 강조 표시하는 짧은 비디오입니다.
 
