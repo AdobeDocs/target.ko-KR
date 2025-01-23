@@ -7,10 +7,10 @@ feature: Automated Personalization
 hide: true
 hidefromtoc: true
 exl-id: fe6e5130-53a0-4254-8299-b52086c20004
-source-git-commit: 48dcf100228beb160179e5bb7cfe7db36419b832
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 27%
+source-wordcount: '1844'
+ht-degree: 23%
 
 ---
 
@@ -76,9 +76,7 @@ ht-degree: 27%
 
 1. **[!UICONTROL Manage Content]** 아이콘(![콘텐츠 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭하여 사용 가능한 조합을 구성합니다.
 
-   화면 맨 위에 [!UICONTROL Experiences], [!UICONTROL Offers] 및 [!UICONTROL Exclusion Groups] 옵션이 있는 대화 상자가 표시됩니다.
-
-   ![콘텐츠 관리 대화 상자](/help/main/c-activities/t-automated-personalization/assets/ap_content-new.png)
+   대화 상자가 화면 맨 위에 두 개의 옵션([!UICONTROL Experiences] 및 [!UICONTROL Offers])과 함께 표시됩니다.
 
    >[!NOTE]
    >
@@ -86,37 +84,60 @@ ht-degree: 27%
 
    [!UICONTROL Experiences] 목록에는 활동에 대해 선택된 각 콘텐츠 부분과 지정된 위치가 표시됩니다.
 
-   원하는 경험을 마우스로 가리킨 다음 [!UICONTROL Exclude] 아이콘을 클릭하여 특정 경험을 제외할 수 있습니다.
+   원하는 경험 옆에 있는 확인란을 선택한 다음 [!UICONTROL Exclude] 아이콘을 클릭하여 특정 경험을 제외할 수 있습니다.
 
-   ![제외 아이콘 가리키기](/help/main/c-activities/t-automated-personalization/assets/icon-exclude.png)
-
-   관련 경험에 대한 확인란을 선택한 다음, 대화 상자의 오른쪽 맨 위에 있는 [!UICONTROL Exclude] 아이콘을 클릭하여 경험을 묶음으로 제외하거나 포함할 수 있습니다.
-
-   ![일괄 제외 옵션](/help/main/c-activities/t-automated-personalization/assets/batch-exclude.png)
-
-   [!UICONTROL Status] 드롭다운 목록을 클릭하여 제외되었거나 포함된 활동만 표시하도록 이 목록 보기를 필터링할 수 있습니다.
+   관련 경험에 대한 확인란을 선택한 다음 [!UICONTROL Exclude] 아이콘을 클릭하여 경험을 묶음으로 제외하거나 포함할 수 있습니다.
 
 1. (조건부) **[!UICONTROL Offers]**&#x200B;을(를) 클릭하여 콘텐츠를 선택하고 이를 보고 그룹에 지정하거나 특정 방문자만 타깃팅으로 한 특정 오퍼를 볼 수 있도록 합니다.
 
    보고 그룹에 대한 자세한 내용은 [Automated Personalization의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)을 참조하세요.
 
-1. (조건부) 활동에서 제외할 요소의 조합을 선택하려면 **[!UICONTROL Exclusion Groups]**&#x200B;을(를) 클릭합니다.
+<!--
+1. (Conditional) Click **[!UICONTROL Exclusion Groups]** to choose any combination of elements that you want to exclude from the activity.
 
-   ![콘텐츠 관리 대화 상자의 제외 그룹 탭](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
+   ![Exclusion Groups tab of Manage Content dialog box](/help/main/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
-   AP 테스트에서 최대 30,000개의 경험을 만들 수 있지만, 이 알고리즘은 사용되는 고유 경험이 10,000개보다 작을 때 가장 잘 수행됩니다. 이 제한은 활동이 [!UICONTROL Disalow Duplicates] 옵션을 활성화한 경우에도 적용됩니다.
+   Although you can create up to 30,000 experiences in an AP test, the algorithm performs its best when fewer than 10,000 distinct experiences are used. This same limit is applied even when the activity has enabled the [!UICONTROL Disalow Duplicates] option.
 
-   현재, 활동에 포함된 제외 그룹이 없는 경우 **제외 그룹 만들기**&#x200B;를 클릭합니다. 제외할 조합만 표시하는 목록을 만들도록 필터링할 수 있습니다. 제외 그룹의 이름을 지정한 다음 **저장**&#x200B;을 클릭합니다.
+   If you do not currently have any exclusion groups included in your activity, click **Create Exclusion Group**. You can filter to create a list that shows only the combinations you want to exclude. Name your exclusion group, then click **Save**.
 
-   기존 제외 그룹을 편집하려면 편집할 그룹 위로 마우스를 가져간 후 연필 아이콘을 클릭합니다.
+   To edit an existing exclusion group, hover over the group you want to edit, then click the pencil icon.-->
 
 1. 활동의 콘텐츠 설정을 완료했으면 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
-1. **타깃팅** 단계는 다른 [!DNL Target] 활동 유형을 사용해본 적이 있는 경우 친숙하게 보입니다. 여기서 대상을 선택하고 **[!UICONTROL Custom Allocation]** 드롭다운 목록을 클릭한 후 **다음**&#x200B;을(를) 클릭하여 제어 경험을 보는 방문자의 비율을 지정할 수 있습니다.
+1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 [!UICONTROL Visual Experience Composer]의 맨 위에서 **[!UICONTROL Targeting]**&#x200B;을(를) 클릭합니다.
 
-   [!UICONTROL Custom Allocation] 드롭다운 목록에서 다음 옵션 중 하나를 선택할 수 있습니다.
+   **타깃팅** 단계는 다른 [!DNL Target] 활동 유형을 사용해본 적이 있는 경우 친숙하게 보입니다. 여기에서 대상을 선택하고 각 경험을 보는 방문자의 비율을 지정할 수 있습니다.
 
-   ![트래픽 할당 목표 드롭다운 목록](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
+   흐름 다이어그램이 열립니다.
+
+   ![AP 테스트 타깃팅 단계](/help/main/c-activities/t-automated-personalization/assets/ap-traffic-flow.png)
+
+   흐름 다이어그램은 대상과 해당 트래픽 비율을 할당하고, 트래픽 할당 방법을 선택하고, 활동의 각 경험에 대한 트래픽 할당을 지정하는 단계를 안내합니다.
+
+1. (조건부) **[!UICONTROL All Visitors]** 컨트롤을 클릭하여 활동에 대한 다른 대상을 선택합니다.
+
+   [!UICONTROL All Visitors] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다.
+
+   오른쪽 프레임이 표시되어 대상을 추가 또는 삭제하고 활동에 대한 방문자 비율을 할당할 수 있습니다.
+
+   1. 대상을 변경하려면 오른쪽 프레임에서 **[!UICONTROL Replace]아이콘**(![바꾸기 아이콘](/help/main/assets/icons/Retweet.svg))을 클릭합니다.
+   1. [!UICONTROL Add Audience] 대화 상자에서 [원하는 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)한 다음 **[!UICONTROL Assign Audience]**&#x200B;을(를) 클릭합니다.
+
+      **대상 결합**&#x200B;을 클릭하여 [여러 대상을 결합하는 대상을 만들 수 있습니다](/help/main/c-target/combining-multiple-audiences.md).
+
+      [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
+
+      * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
+      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
+
+   1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
+
+   예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다.
+
+1. **[!UICONTROL Traffic Allocation]** 컨트롤을 클릭하여 다음 옵션 중에서 선택합니다.
+
+   ![트래픽 할당 목표 옵션](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap-new.png)
 
    * **[!UICONTROL Evaluate Personalization Algorithm (50/50)]:** 목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다. 임의 경험을 제어로 사용하는 것이 좋습니다.
    * **[!UICONTROL Maximizing Personalization Traffic (90/10)]:** 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 방문자의 10%를 제어로 넣으십시오. 이 옵션은 시간에 따라 알고리즘이 계속 학습할 수 있는 충분한 데이터가 있는지 확인합니다. 여기서 장점은 더 많은 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어진다는 점입니다. 목표에 관계없이 이 옵션은 특정 경험을 제어로 사용할 때 권장되는 트래픽 분할입니다.
@@ -137,7 +158,7 @@ ht-degree: 27%
 
    | 설정 | 설명 |
    |--- |--- |
-   | [!UICONTROL Name] | 활동의 이름을 지정합니다. 팀 구성원이 [!UICONTROL Activities] 목록에서 활동을 인식할 수 있을 만큼 충분히 설명적인 이름을 지정합니다. 활동 이름에 허용되지 않는 문자를 확인하려면 위의 표를 참조하십시오. |
+   | [!UICONTROL Name] | 활동의 이름을 지정합니다. 팀 구성원이 [!UICONTROL Activities] 목록에서 활동을 인식할 수 있을 만큼 충분히 설명적인 이름을 지정합니다. 활동 이름에 허용되지 않는 문자를 확인하려면 위의 테이블을 참조하십시오. |
    | [!UICONTROL Objective] | (선택 사항) 테스트의 목표를 입력합니다. 목표는 활동의 목적을 기억하는 데 도움이 됩니다. |
    | [!UICONTROL Priority] | 설정에 따라 [!UICONTROL Priority]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>이 옵션이 [!UICONTROL Administration] > [!UICONTROL Reporting](기본값)에서 활성화되지 않으면 우선 순위([!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High])를 지정하십시오.<P>세분화된 우선 순위를 사용하려면 [!UICONTROL Administration] > [!UICONTROL Reporting]을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.<P>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.<ul><li>0 = 낮음</li><li>999 = 높음</li></ul>이전 버전의 [!DNL Target Standard/Premium]에서 만든 활동의 경우 [!UICONTROL Low] 우선 순위는 0으로, [!UICONTROL Medium] 우선 순위는 5로, [!UICONTROL High] 우선 순위는 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<P>**참고**: 세분화된 우선순위를 사용한 후에 이 옵션을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
    | [!UICONTROL Duration] | 활동의 시작 및 종료 날짜를 설정합니다. [!UICONTROL When Activated]을(를) 선택하거나 특정 날짜 및 시간을 지정할 수 있습니다. |

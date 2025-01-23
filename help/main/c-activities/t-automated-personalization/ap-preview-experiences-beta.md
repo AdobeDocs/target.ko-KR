@@ -6,10 +6,11 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization
 hide: true
 hidefromtoc: true
-source-git-commit: 144a0ff89d11f523cba0780f60db942ca5773105
+exl-id: 35f9d20e-923e-4305-9e42-8197b68e8ccf
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 8%
+source-wordcount: '191'
+ht-degree: 10%
 
 ---
 
@@ -29,6 +30,6 @@ ht-degree: 8%
 
    충돌하는 변형을 표시하는 경험이나 미적으로 균형 잡히지 않은 경험을 제외하도록 선택할 수 있습니다.
 
-1. (조건부) 여러 경험을 제외하려면 원하는 경험에 대한 확인란을 선택한 다음 제외할 경험 옆에 있는 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 **[!UICONTROL Exclude]**&#x200B;을(를) 클릭합니다.
+1. (조건부) 여러 경험을 제외하려면 원하는 경험에 대한 확인란을 선택한 다음 **[!UICONTROL Exclude]**&#x200B;을(를) 클릭합니다.
 
-1. (조건부) 제외된 여러 경험을 포함하려면 원하는 경험에 대한 확인란을 선택한 다음 포함할 경험 옆에 있는 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 **[!UICONTROL Include]**&#x200B;을(를) 클릭합니다.
+1. (조건부) 제외된 여러 경험을 포함하려면 원하는 경험에 대한 확인란을 선택한 다음 **[!UICONTROL Include]**&#x200B;을(를) 클릭합니다.

@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 69c4bb69f77258d0e5d5d18750ccbeee0474763d
+source-git-commit: 2c10ec521ceed1901ef8c3f95eb11654a7182590
 workflow-type: tm+mt
-source-wordcount: '308'
-ht-degree: 62%
+source-wordcount: '340'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,11 @@ ht-degree: 62%
    * [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md){target=_blank}
    * [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target-beta.md){target=_blank}
    * [자동 타겟 FAQ 및 문제 해결](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md){target=_blank}
-
+* Automated Personalization {#automated-personalization}
+   * [Automated Personalization 활동 만들기](/help/main/c-activities/t-automated-personalization/create-ap-activity-beta.md)
+   * [성공에 필요한 트래픽 예측](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-traffic-estimator-beta)
+   * [VEC(시각적 경험 작성기)에서 Automated Personalization 활동의 경험 미리 보기](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
+   * [자동화된 개인화 오퍼 타기팅](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
 +++
 
 <!-- 
