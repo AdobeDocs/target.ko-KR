@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 872b63bc7df255af8334fa29fa89e1c532d3a734
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '856'
-ht-degree: 31%
+source-wordcount: '894'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,13 @@ ht-degree: 31%
 
 ## [!UICONTROL Offers Library] 사용자 인터페이스 업데이트(2025년 1월 9일)
 
-[!DNL Adobe Target] 사용자의 사용자 환경을 개선하기 위해 이 릴리스는 [!UICONTROL Offers Library] 사용자 인터페이스를 업데이트합니다. 이 업데이트는 최신 [!DNL Adobe Spectrum] 디자인 시스템을 사용하여 일관되지 않은 디자인 패턴을 표준화하고 다음과 같은 새로운 개선 사항을 도입했습니다.
+[!DNL Adobe Target] 사용자의 사용자 환경을 개선하기 위해 이 릴리스는 [!UICONTROL Offers Library] 사용자 인터페이스를 업데이트합니다.
+
+>[!NOTE]
+>
+>모든 고객을 위한 원활한 롤아웃을 보장하기 위해 이 릴리스는 제어된 단계로 배포됩니다. 첫 번째 단계에서 Target 고객의 초기 그룹이 새 오퍼 UI로 업그레이드되었습니다. 이후 단계에서는 나머지 고객을 업그레이드합니다.
+
+이 업데이트는 최신 [!DNL Adobe Spectrum] 디자인 시스템을 사용하여 일관되지 않은 디자인 패턴을 표준화하고 다음과 같은 새로운 개선 사항을 도입했습니다.
 
 * **일괄 오퍼 관리**: 여러 오퍼를 동시에 선택하고 삭제하거나 이동합니다.
 

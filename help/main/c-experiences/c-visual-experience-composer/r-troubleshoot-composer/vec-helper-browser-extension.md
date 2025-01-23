@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer](VEC)에서 일부 웹 사�
 title: '[!UICONTROL Visual Experience Composer](VEC) Helper 확장 프로그램을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 6c702ab7d787c266d90162ef894f780770a69e37
+source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
 workflow-type: tm+mt
-source-wordcount: '1077'
-ht-degree: 49%
+source-wordcount: '1043'
+ht-degree: 50%
 
 ---
 
@@ -22,8 +22,6 @@ VEC Helper 브라우저가 [!DNL Chrome] 확장명입니다. [!DNL Mozilla Firef
 >* 이 문서에 설명된 레거시 [!DNL Target] VEC Helper 확장 프로그램은 매니페스트 V2를 사용하여 만들어졌습니다. [!DNL Google]이(가) 2024년 6월부터 Manifest V2를 사용하여 만든 확장을 더 이상 허용하지 않는다고 발표했습니다. 자세한 내용은 *개발자용 Chrome* 사이트에서 [!DNL Google]의 [Manifest V2 지원 타임라인 공지](https://developer.chrome.com/docs/extensions/develop/migrate/mv2-deprecation-timeline){target=_blank}를 참조하십시오.
 >
 >* 2024년 6월부터 [!DNL Google]은(는) Manifest V2를 사용하여 만든 확장을 비활성화하기 시작합니다. 여기에는 이 항목에 설명된 확장도 포함됩니다. [!DNL Adobe]에서는 가능한 한 빨리 고객이 최신 [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)(으)로 이동할 것을 권장합니다.
->
->* 개인 Chrome 웹 스토어를 사용하는 고객은 2025년 1월 말까지 [새 [!UICONTROL Visual Editing Helper] 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)에서 이 사용 사례에 대한 지원이 구현될 때까지 이 버전의 확장을 계속 사용해야 합니다.
 
 ## 일부 웹 사이트가 VEC에서 안정적으로 열리지 않을 수 있는 이유
 
