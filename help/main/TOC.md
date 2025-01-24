@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 80%
+source-wordcount: '1436'
+ht-degree: 79%
 
 ---
 
@@ -166,7 +166,9 @@ ht-degree: 80%
       + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)
       + [제외 관리 베타](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Automated Personalization의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
+      + [Automated Personalization-Beta의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Automated Personalization 또는 자동 타겟 활동 베타에 대한 컨트롤 선택](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Automated Personalization 문제 해결](c-activities/t-automated-personalization/ap-trouble.md)
    + 경험 타기팅 {#experience-targeting}
