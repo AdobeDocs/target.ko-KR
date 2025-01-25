@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 에서 [!UICONTROL Experience Targeting](XT) 
 title: '[!UICONTROL Experience Targeting](XT) 활동이란 무엇입니까?'
 feature: Experience Targeting
 exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 46%
+source-wordcount: '432'
+ht-degree: 40%
 
 ---
 
@@ -40,13 +40,3 @@ ht-degree: 46%
 * 올바른 콘텐츠가 올바른 대상자에게 전달되도록 하기 위해 경험을 재정렬하는 방법을 설명합니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/22418/)
-
-### 활동 유형(9:03)
-
-다음 비디오에서는 [!DNL Target]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!UICONTROL Experience Targeting] 은 오전 5:15부터 설명합니다.
-
-* [!DNL Target]에 포함된 활동 유형 설명
-* 목표를 달성하기 위한 적절한 활동 유형 선택
-* 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
-
->[!VIDEO](https://video.tv.adobe.com/v/17386)

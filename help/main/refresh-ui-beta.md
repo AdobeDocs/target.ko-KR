@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '356'
-ht-degree: 58%
+source-wordcount: '372'
+ht-degree: 56%
 
 ---
 
@@ -49,7 +49,12 @@ ht-degree: 58%
    * [VEC(시각적 경험 작성기)에서 Automated Personalization 활동의 경험 미리 보기](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-preview-experiences-beta)
    * [자동화된 개인화 오퍼 타기팅](https://experienceleague.adobe.com/en/docs/target/using/activities/automated-personalization/ap-target-offers)
    * [Automated Personalization-Beta의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
-   * [Automated Personalization 또는 자동 타겟 활동 베타 컨트롤을 선택합니다](c-activities/t-automated-personalization/experience-as-control-beta.md)
+   * [Automated Personalization 또는 자동 타겟 활동 베타에 대한 컨트롤 선택](c-activities/t-automated-personalization/experience-as-control-beta.md)
+* XT(경험 타기팅) {#xt}
+   * [activity-beta 만들기](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
+   * [활동 URL-Beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
+   * [Experience-Beta 만들기](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
+   * [경험 타깃팅 베타에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
 +++
 
 <!-- 

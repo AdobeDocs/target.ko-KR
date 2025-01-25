@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 19f70ce944e4db4aa0774da034a0d16be34a4ec8
+source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
 workflow-type: tm+mt
-source-wordcount: '1436'
-ht-degree: 79%
+source-wordcount: '1449'
+ht-degree: 78%
 
 ---
 
@@ -175,9 +175,13 @@ ht-degree: 79%
       + [경험 타기팅 개요](c-activities/t-experience-target/experience-target.md)
       + 경험 타기팅 활동 만들기 {#create-targeting}
          + [활동을 만듭니다](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [activity-beta 만들기](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [활동 URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
+         + [활동 URL-Beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [경험을 만듭니다](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
+         + [Experience-Beta 만들기](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [경험 타기팅에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
+         + [경험 타깃팅 베타에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [목표 및 설정](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [지표 설정](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + 다변량 테스트 {#multivariate-test}
