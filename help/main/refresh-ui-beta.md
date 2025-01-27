@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 438b65368b81f71d684444352035ce73627e698f
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 56%
+source-wordcount: '407'
+ht-degree: 51%
 
 ---
 
@@ -55,6 +55,14 @@ ht-degree: 56%
    * [활동 URL-Beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
    * [Experience-Beta 만들기](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
    * [경험 타깃팅 베타에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
+* MVT(다변량 테스트) {#mvt}
+   * [테스트 Beta 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
+   * [활동 URL 베타](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
+   * [조합 만들기 Beta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
+   * [다변량 테스트 베타에 대한 경험 미리 보기](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
+   * [성공적인 테스트 베타에 필요한 트래픽 예측](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
+   * [테스트 요약 베타](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
+   * [지표 베타 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
 +++
 
 <!-- 

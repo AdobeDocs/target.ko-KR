@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 269ab2df7538d7e93774e3687bb931c9aaac27b6
+source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
 workflow-type: tm+mt
-source-wordcount: '1449'
-ht-degree: 78%
+source-wordcount: '1481'
+ht-degree: 77%
 
 ---
 
@@ -190,13 +190,20 @@ ht-degree: 78%
       + [다변량 테스트 계획](c-activities/c-multivariate-testing/plan-mvt.md)
       + 다변량 테스트 만들기 {#create-mvt}
          + [테스트 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
+         + [테스트 Beta 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [활동 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
+         + [활동 URL 베타](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [조합 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
+         + [조합 만들기 Beta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [다변량 테스트에 대한 경험 미리보기](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
+         + [다변량 테스트 베타에 대한 경험 미리 보기](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [성공적인 테스트에 필요한 트래픽 예측](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
+         + [성공적인 테스트 베타에 필요한 트래픽 예측](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [테스트 요약](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
+         + [테스트 요약 베타](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [목표 및 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [지표 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
+         + [지표 베타 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [다변량 테스트 문제 해결](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [권장 사항 활동](c-activities/recommendations-activity.md)
    + [활동 편집 또는 초안으로 저장](c-activities/edit-activity.md)
