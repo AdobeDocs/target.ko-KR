@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 활동을 통해 특정 대상을 위한 콘�
 title: ' [!DNL Target]을(를) 사용하여 콘텐츠를 개인화하고 페이지 디자인을 테스트하려면 어떻게 해야 합니까?'
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2218'
+ht-degree: 26%
 
 ---
 
@@ -25,15 +25,12 @@ ht-degree: 0%
 
 [!DNL Target] UI 상단의 [!UICONTROL Activities] 탭을 클릭하여 [!UICONTROL Activities] 목록을 표시할 수도 있습니다.
 
-![활동 목록](/help/main/c-activities/assets/activities-list-new.png)
-
 [!UICONTROL Activities] 목록은 [!DNL Target] 구현의 모든 활동에 대한 개요를 제공하며 다양한 작업을 수행할 수 있도록 해 줍니다.
 
 다음 표는 [!DNL Target] UI의 [!UICONTROL Activities] 목록에 있는 다양한 요소를 이해하는 데 도움이 됩니다.
 
 | 요소 | 설명 |
 |--- |--- |
-| 왼쪽 탐색 레일 | 저장된 활동 또는 라이브 활동과 실패한 활동 또는 [초안 활동](/help/main/c-activities/edit-activity.md) 간을 전환합니다. |
 | [!UICONTROL Show filters] 아이콘<P>![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) | 목록 맨 위에 있는 **[!UICONTROL Show Filters]** 아이콘을 클릭하여 필터에 액세스하여 활동을 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source] 및 [!UICONTROL Properties]별로 필터링합니다.<P>자세한 내용은 아래의 [[!UICONTROL Activities] 목록에 필터 적용](#filters)을 참조하십시오. |
 | 필드 검색 | 활동을 빠르게 찾거나 [!UICONTROL Activity] 목록에 표시되는 활동 수를 줄이십시오. 드롭다운을 사용하여 [!UICONTROL Activity Name], [!UICONTROL URL] 또는 [!UICONTROL ID]별로 검색할 수 있습니다. |
 | [!UICONTROL Create Activity] | 활동을 만듭니다.<P>다양한 활동 유형 만들기에 대한 자세한 내용은 다음을 참조하십시오. <ul><li>[[!UICONTROL A/B Test] 활동 만들기](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[[!UICONTROL Auto-Allocate] 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[[!UICONTROL Auto-Target] 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[[!UICONTROL Automated Personalization] 활동 만들기](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[[!UICONTROL Experience Targeting] 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[활동 만들기](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[[!UICONTROL Recommendations] 활동 만들기](/help/main/c-recommendations/recommendations.md)</li></ul>각 유형에 대한 자세한 내용은 아래의 [활동 유형](#types)을 참조하세요. |

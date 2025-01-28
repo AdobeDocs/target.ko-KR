@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: da477e5c-1ce7-4042-b56d-8ae1b50ceb88
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '693'
 ht-degree: 26%
 
 ---
@@ -42,15 +42,11 @@ ht-degree: 26%
 
 1. 기존 컬렉션 목록을 표시하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Collections]**&#x200B;을(를) 클릭합니다.
 
-   ![컬렉션 목록](assets/collections-list.png)
-
-   [!UICONTROL Collections] 페이지에 기존 컬렉션 목록이 표시됩니다. [!UICONTROL Create Collection] 단추를 클릭하여 새 컬렉션을 만듭니다. 원하는 컬렉션 옆에 있는 줄임표 아이콘을 클릭한 다음 원하는 옵션을 클릭하여 기존 컬렉션을 편집, 복사 및 삭제할 수도 있습니다.
+   [!UICONTROL Collections] 페이지에 기존 컬렉션 목록이 표시됩니다. [!UICONTROL Create Collection] 단추를 클릭하여 새 컬렉션을 만듭니다. 원하는 컬렉션 옆에 있는 추가 작업 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭한 다음 원하는 옵션을 클릭하여 기존 컬렉션을 편집, 복사 및 삭제할 수도 있습니다.
 
    [!UICONTROL Collections] 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 Recommendations [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하세요.
 
 1. **[!UICONTROL Create Collection]** 아이콘을 클릭합니다.
-
-   ![컬렉션 만들기](/help/main/c-recommendations/c-products/assets/create-collection.png)
 
 1. 컬렉션에 대한 **[!UICONTROL Name]**&#x200B;을(를) 입력하십시오.
 
@@ -80,9 +76,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 컬렉션 편집, 복사 또는 삭제
 
-목록에서 원하는 컬렉션 옆에 있는 **줄임표** 아이콘을 클릭한 다음 편집, 복사 또는 삭제와 같은 적절한 아이콘을 클릭합니다.
-
-![가리킨 아이콘: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/hover-icons-new.png)
+목록에서 원하는 컬렉션 옆의 (![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음, 적절한 아이콘([!UICONTROL Edit], [!UICONTROL Copy] 또는 [!DNL Delete])을 클릭합니다.
 
 기존 컬렉션을 복사하여 수정할 수 있는 중복 컬렉션을 만들 수 있습니다. 이를 통해 적은 노력으로 유사한 컬렉션을 만들 수 있습니다.
 
@@ -96,8 +90,4 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 기준과 디자인을 선택하면 원하는 컬렉션을 선택할 수 있는 [!UICONTROL Options] 페이지가 표시됩니다.
 
-   ![컬렉션 옵션 선택](/help/main/c-recommendations/c-products/assets/choose-collection.png)
-
-1. (조건부) 기존 컬렉션 설정을 변경하려면 **[!UICONTROL Experiences]** 페이지(세 부분으로 구성된 안내 워크플로의 2단계)에서 권장 사항을 삽입한 위치를 클릭하고 **[!UICONTROL Change Collection]**&#x200B;을(를) 클릭한 다음 원하는 컬렉션을 선택하십시오.
-
-   ![컬렉션 옵션 변경](/help/main/c-recommendations/c-products/assets/change-collection.png)
+1. (조건부) 기존 컬렉션 설정을 변경하려면 **[!UICONTROL Experiences]** 페이지(3단계 안내 워크플로의 1단계)에서 권장 사항을 삽입한 위치를 클릭하고 **[!UICONTROL Change Collection]**&#x200B;을(를) 클릭한 다음 원하는 컬렉션을 선택합니다.

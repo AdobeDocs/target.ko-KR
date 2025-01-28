@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 7809984d-259d-4b99-93cd-3073e2fcf8bb
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '499'
-ht-degree: 6%
+source-wordcount: '496'
+ht-degree: 5%
 
 ---
 
@@ -35,8 +35,6 @@ ht-degree: 6%
 ## 알고리즘 유형 {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 선택하는 알고리즘 유형에 따라 사용 가능한 알고리즘이 결정됩니다.
-
-![기준 페이지](assets/criteria-page-new.png)
 
 다음 표에서는 다양한 알고리즘 유형과 함께 제공되는 알고리즘에 대해 설명합니다.
 
@@ -76,11 +74,9 @@ ht-degree: 6%
 
 [!UICONTROL Name] 열에서 원하는 기준을 클릭하여 기준 세부 정보를 볼 수 있습니다.
 
-![기준 카드 가리키기](/help/main/c-recommendations/c-algorithms/assets/criteria-hover.png)
+**[!UICONTROL Attributes]** 및 세부 정보 섹션에서 [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] 및 마지막으로 수정된 정보(날짜 및 알고리즘을 수정한 사람)를 포함하여 선택한 기준에 대한 일반 정보를 볼 수 있습니다.
 
-**[!UICONTROL Algorithm Info]** 탭에서는 [!UICONTROL Name], [!UICONTROL Description], [!UICONTROL Industry Vertical], [!UICONTROL Page Types], [!UICONTROL Recommendation Key], [!UICONTROL Recommendation Logic], [!UICONTROL Algorithm ID] 및 마지막으로 수정된 정보(날짜 및 알고리즘을 수정한 사람)를 포함하여 선택한 기준에 대한 일반 정보를 볼 수 있습니다.
-
-**[!UICONTROL Algorithm Usage]** 섹션을 통해 선택한 조건을 참조하는 활동 목록을 볼 수 있습니다.
+**[!UICONTROL Usage]** 섹션을 통해 선택한 조건을 참조하는 활동 목록을 볼 수 있습니다.
 
 >[!NOTE]
 >

@@ -7,9 +7,9 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 53adc701-c389-4adf-a9c8-ca778aa0a8f3
-source-git-commit: 406076ba986171c29dfb7817a8ef0ef9bd52c458
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '2423'
+source-wordcount: '2417'
 ht-degree: 38%
 
 ---
@@ -37,8 +37,6 @@ ht-degree: 38%
 
 [!UICONTROL Feeds] 목록( **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]**)에는 만들어진 피드에 대한 정보가 있습니다.
 
-![피드 페이지](/help/main/c-recommendations/c-products/assets/feeds-page-new.png)
-
 [!UICONTROL Feeds] 페이지에 다음 열이 포함되어 있습니다.
 
 * **이름**: 만드는 중에 지정된 피드의 이름입니다. 피드의 이름을 편집하려면 피드 자체를 편집해야 합니다. 피드를 새 이름으로 저장하면 피드가 새로 고쳐집니다.
@@ -48,11 +46,11 @@ ht-degree: 38%
 * **일정**: [!UICONTROL Daily], [!UICONTROL Weekly], [!DNL Every 2 Weeks] 또는 [!UICONTROL Never] 피드의 업데이트 일정을 표시합니다.
 * **마지막 업데이트**: 피드를 마지막으로 업데이트한 날짜와 시간, 피드를 업데이트한 사람의 이름을 표시합니다.
 
-[!UICONTROL Customize Table] 아이콘(![표 사용자 지정 아이콘](/help/main/c-recommendations/c-products/assets/customize-table-icon.png))을 클릭하여 표시할 열을 선택하거나 선택 취소합니다.
+[!UICONTROL Customize Table] 아이콘(![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭하여 표시할 열을 선택하거나 선택 취소합니다.
 
-[!UICONTROL Information] 아이콘을 클릭하면 마지막 업로드 날짜와 피드의 URL을 표시하는 카드가 표시됩니다.
+[!UICONTROL Information] 아이콘(![정보 아이콘](/help/main/assets/icons/InfoOutline.svg))을 클릭하여 마지막 업로드 날짜와 피드의 URL을 표시하는 카드를 표시합니다.
 
-[!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] 및 [!UICONTROL Delete] 작업에 액세스하려면 줄임표 아이콘을 클릭하십시오.
+[!UICONTROL More Actions] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭하여 [!UICONTROL Deactivate], [!DNL Edit], [!UICONTROL Copy] 및 [!UICONTROL Delete] 작업에 액세스합니다.
 
 >[!IMPORTANT]
 >
@@ -233,8 +231,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. [!DNL Target] 인터페이스 내에서 **[!UICONTROL Recommendations]** > **[!UICONTROL Feeds]** > **[!UICONTROL Create Feed]**&#x200B;을(를) 클릭합니다.
 
-   ![피드 만들기 대화 상자](assets/CreateFeed.png)
-
 1. 피드의 수사적 이름을 지정합니다.
 1. **[!UICONTROL Source Type]** 선택.
 
@@ -261,8 +257,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL Next]** 화살표를 클릭하여 [!UICONTROL Schedule] 옵션을 표시합니다.
 
-   ![단계 결과](assets/CreateFeedSchedule.png)
-
 1. 업데이트 선택 사항을 선택합니다. 
 
    * [!UICONTROL Daily]
@@ -275,8 +269,6 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
    이 선택 사항은 브라우저에서 사용되는 시간대를 기반으로 합니다. 다른 시간대의 시간을 사용하려면 시간대에 따라 시간을 계산해야 합니다.
 
 1. **[!UICONTROL Next]** 화살표를 클릭하여 [!UICONTROL Mapping] 옵션을 표시한 다음 데이터를 [!DNL Target] 정의에 매핑하는 방법을 지정합니다.
-
-   ![단계 결과](assets/CreatFeedMapping.png)
 
 1. (선택 사항) 피드가 환경(호스트 그룹)에 속하도록 하려면 호스트 그룹을 선택합니다.
 

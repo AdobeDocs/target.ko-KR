@@ -7,7 +7,7 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 7937e54a-7c10-445d-9d9a-9ddbdaa8086e
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
 source-wordcount: '2554'
 ht-degree: 47%
@@ -90,6 +90,43 @@ ht-degree: 47%
 
 [!UICONTROL Recommendation Key] 선택에 대한 자세한 내용은 [권장 사항 키를 기반으로 권장 사항 만들기](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)를 참조하십시오.
 
+## [!UICONTROL Backup Content] {#content}
+
+[!UICONTROL Backup Content] 규칙은 권장 항목 수가 [권장 사항 디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을 채우지 못할 경우 발생하는 결과를 결정합니다. [!DNL Recommendations] 기준에서 디자인에 필요한 권장 사항보다 적은 수의 권장 사항을 반환할 수 있습니다. 예를 들어 디자인에 4개 항목에 대한 슬롯이 있지만 기준에 따라 2개 항목만 권장되는 경우 나머지 슬롯을 비워두거나, 백업 권장 사항을 사용하여 추가 슬롯을 채우거나, 권장 사항을 표시하지 않도록 선택할 수 있습니다.
+
+1. (선택 사항) **[!UICONTROL Partial Design Rendering]** 토글을 &quot;켜짐&quot; 위치로 밉니다.
+
+   가능한 많은 슬롯이 채워지지만 디자인 템플릿에는 나머지 슬롯에 사용할 빈 공간이 포함될 수 있습니다. 이 옵션이 비활성화되고 사용 가능한 모든 슬롯을 채우기에 충분한 컨텐츠가 없는 경우 권장 사항이 제공되지 않고 대신 기본 컨텐츠가 표시됩니다.
+
+   권장 사항을 빈 슬롯과 함께 제공하려면 이 옵션을 활성화합니다. 다음 단계에서 설명한 대로 사이트에서 유사하거나 인기 있는 콘텐츠로 채워진 빈 슬롯이 있는 기준에 따라 추천 슬롯을 콘텐츠로 채우려면 백업 추천 을 사용합니다.
+
+1. (선택 사항) **[!UICONTROL Show Backup Content]** 토글을 &quot;켜짐&quot; 위치로 밉니다.
+
+   디자인에서 남은 빈 슬롯을 사이트 전체에서 가장 많이 본 제품을 임의로 채웁니다.
+
+   백업 권장 사항을 사용하면 권장 사항 디자인이 사용 가능한 모든 슬롯을 채웁니다. 아래 그림과 같이 4 x 1 디자인이 있다고 가정합니다.
+
+   ![4 x 1 디자인](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
+
+   기준에 따라 두 개의 항목만 추천된다고 가정해 봅시다. [!UICONTROL Partial Design Rendering] 옵션을 사용하면 처음 두 슬롯은 채워지지만 나머지 두 슬롯은 비어 있습니다. 그러나 [!UICONTROL Show Backup Recommendations] 옵션을 사용하면 처음 두 슬롯은 지정한 조건에 따라 채워지고 나머지 두 슬롯은 백업 권장 사항에 따라 채워집니다.
+
+   다음 매트릭스는 [!UICONTROL Partial Design Rendering] 및 [!UICONTROL Backup Content] 옵션을 사용할 때 관찰할 결과를 보여 줍니다.
+
+   | 부분 디자인 렌더링 | 백업 컨텐츠 | 결과 |
+   |--- |--- |--- |
+   | 비활성화됨 | 비활성화됨 | 디자인이 요구하는 곳보다 더 적은 수의 권장 사항이 반환되면 권장 사항 디자인은 기본 콘텐츠로 대체되고 추가 권장 사항은 표시되지 않습니다. |
+   | 활성화됨 | 비활성화됨 | 디자인이 렌더링되지만 디자인 요구하는 것보다 더 적은 수의 권장 사항이 반환되면 빈 공백이 포함될 수 있습니다. |
+   | 활성화됨 | 활성화됨 | 백업 권장 사항은 사용 가능한 디자인 &quot;슬롯&quot;을 채우고 디자인을 완전히 렌더링합니다.<br>백업 권장 사항에 포함 규칙을 적용하여 적격의 백업 권장 사항 수를 디자인을 채울 수 없는 지점까지 제한하면 디자인이 부분적으로 렌더링됩니다.<br>이 조건에 따라 어떤 권장 사항도 반환되지 않고 포함 규칙이 백업 권장 사항 수를 0으로 제한하면 디자인이 기본 콘텐츠로 바뀝니다. |
+   | 비활성화됨 | 활성화됨 | 백업 권장 사항은 사용 가능한 디자인 &quot;슬롯&quot;을 채우고 디자인을 완전히 렌더링합니다.<br>백업 권장 사항에 포함 규칙을 적용하여 적격의 백업 권장 사항 수를 디자인을 채울 수 없는 지점까지 제한하면 디자인이 기본 콘텐츠로 바뀌고 권장 사항은 표시되지 않습니다. |
+
+   자세한 내용은 [백업 권장 사항 사용](/help/main/c-recommendations/c-algorithms/backup-recs.md)을 참조하세요.
+
+1. (조건부) 이전 단계에서 **[!UICONTROL Show Backup Content]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Apply inclusion rules to backup recommendations]**&#x200B;을(를) 활성화할 수 있습니다.
+
+   포함 규칙은 권장 사항에 포함되는 항목을 결정합니다. 사용 가능한 옵션은 수직 시장에 따라 다릅니다.
+
+   자세한 내용은 아래의 [포함 규칙 지정](#inclusion)을 참조하십시오.
+
 ## [!UICONTROL Data Source] {#data-source}
 
 1. 원하는 **[!UICONTROL Behavioral Data Source]**&#x200B;을(를) 선택하십시오. [!UICONTROL Adobe Target] 또는 [!UICONTROL Analytics].
@@ -129,43 +166,6 @@ ht-degree: 47%
    | 2주 | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL Popularity-Based] 알고리즘</li><li>[!UICONTROL Item-Based] 알고리즘</li><li>모든 [!UICONTROL User-Based] 알고리즘</li><li>[!UICONTROL Cart-Based] 알고리즘</li></ul> |
    | 1개월(30일) | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL Popularity-Based] 알고리즘</li><li>[!UICONTROL Item-Based] 알고리즘</li><li>[!UICONTROL User-Based] 알고리즘</li><li>[!UICONTROL Cart-Based] 알고리즘</li></ul> |
    | 2개월(61일) | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL Popularity-Based] 알고리즘</li><li>[!UICONTROL Item-Based] 알고리즘</li><li>[!UICONTROL User-Based] 알고리즘</li><li>[!UICONTROL Cart-Based] 알고리즘</li></ul> |
-
-## [!UICONTROL Backup Content] {#content}
-
-[!UICONTROL Backup Content] 규칙은 권장 항목 수가 [권장 사항 디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을 채우지 못할 경우 발생하는 결과를 결정합니다. [!DNL Recommendations] 기준에서 디자인에 필요한 권장 사항보다 적은 수의 권장 사항을 반환할 수 있습니다. 예를 들어 디자인에 4개 항목에 대한 슬롯이 있지만 기준에 따라 2개 항목만 권장되는 경우 나머지 슬롯을 비워두거나, 백업 권장 사항을 사용하여 추가 슬롯을 채우거나, 권장 사항을 표시하지 않도록 선택할 수 있습니다.
-
-1. (선택 사항) **[!UICONTROL Partial Design Rendering]** 토글을 &quot;켜짐&quot; 위치로 밉니다.
-
-   가능한 많은 슬롯이 채워지지만 디자인 템플릿에는 나머지 슬롯에 사용할 빈 공간이 포함될 수 있습니다. 이 옵션이 비활성화되고 사용 가능한 모든 슬롯을 채우기에 충분한 컨텐츠가 없는 경우 권장 사항이 제공되지 않고 대신 기본 컨텐츠가 표시됩니다.
-
-   권장 사항을 빈 슬롯과 함께 제공하려면 이 옵션을 활성화합니다. 다음 단계에서 설명한 대로 사이트에서 유사하거나 인기 있는 콘텐츠로 채워진 빈 슬롯이 있는 기준에 따라 추천 슬롯을 콘텐츠로 채우려면 백업 추천 을 사용합니다.
-
-1. (선택 사항) **[!UICONTROL Show Backup Content]** 토글을 &quot;켜짐&quot; 위치로 밉니다.
-
-   디자인에서 남은 빈 슬롯을 사이트 전체에서 가장 많이 본 제품을 임의로 채웁니다.
-
-   백업 권장 사항을 사용하면 권장 사항 디자인이 사용 가능한 모든 슬롯을 채웁니다. 아래 그림과 같이 4 x 1 디자인이 있다고 가정합니다.
-
-   ![4 x 1 디자인](/help/main/c-recommendations/c-design-overview/assets/velocity_example.png)
-
-   기준에 따라 두 개의 항목만 추천된다고 가정해 봅시다. [!UICONTROL Partial Design Rendering] 옵션을 사용하면 처음 두 슬롯은 채워지지만 나머지 두 슬롯은 비어 있습니다. 그러나 [!UICONTROL Show Backup Recommendations] 옵션을 사용하면 처음 두 슬롯은 지정한 조건에 따라 채워지고 나머지 두 슬롯은 백업 권장 사항에 따라 채워집니다.
-
-   다음 매트릭스는 [!UICONTROL Partial Design Rendering] 및 [!UICONTROL Backup Content] 옵션을 사용할 때 관찰할 결과를 보여 줍니다.
-
-   | 부분 디자인 렌더링 | 백업 컨텐츠 | 결과 |
-   |--- |--- |--- |
-   | 비활성화됨 | 비활성화됨 | 디자인이 요구하는 곳보다 더 적은 수의 권장 사항이 반환되면 권장 사항 디자인은 기본 콘텐츠로 대체되고 추가 권장 사항은 표시되지 않습니다. |
-   | 활성화됨 | 비활성화됨 | 디자인이 렌더링되지만 디자인 요구하는 것보다 더 적은 수의 권장 사항이 반환되면 빈 공백이 포함될 수 있습니다. |
-   | 활성화됨 | 활성화됨 | 백업 권장 사항은 사용 가능한 디자인 &quot;슬롯&quot;을 채우고 디자인을 완전히 렌더링합니다.<br>백업 권장 사항에 포함 규칙을 적용하여 적격의 백업 권장 사항 수를 디자인을 채울 수 없는 지점까지 제한하면 디자인이 부분적으로 렌더링됩니다.<br>이 조건에 따라 어떤 권장 사항도 반환되지 않고 포함 규칙이 백업 권장 사항 수를 0으로 제한하면 디자인이 기본 콘텐츠로 바뀝니다. |
-   | 비활성화됨 | 활성화됨 | 백업 권장 사항은 사용 가능한 디자인 &quot;슬롯&quot;을 채우고 디자인을 완전히 렌더링합니다.<br>백업 권장 사항에 포함 규칙을 적용하여 적격의 백업 권장 사항 수를 디자인을 채울 수 없는 지점까지 제한하면 디자인이 기본 콘텐츠로 바뀌고 권장 사항은 표시되지 않습니다. |
-
-   자세한 내용은 [백업 권장 사항 사용](/help/main/c-recommendations/c-algorithms/backup-recs.md)을 참조하세요.
-
-1. (조건부) 이전 단계에서 **[!UICONTROL Show Backup Content]**&#x200B;을(를) 선택한 경우 **[!UICONTROL Apply inclusion rules to backup recommendations]**&#x200B;을(를) 활성화할 수 있습니다.
-
-   포함 규칙은 권장 사항에 포함되는 항목을 결정합니다. 사용 가능한 옵션은 수직 시장에 따라 다릅니다.
-
-   자세한 내용은 아래의 [포함 규칙 지정](#inclusion)을 참조하십시오.
 
 ## 컨텐츠 유사성 {#similarity}
 

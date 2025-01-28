@@ -6,10 +6,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: fb3c63b4-08be-4dac-b5a1-c6c1ecd4c4b3
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '513'
-ht-degree: 18%
+source-wordcount: '503'
+ht-degree: 14%
 
 ---
 
@@ -37,23 +37,17 @@ ht-degree: 18%
 
 1. 기존 제외 목록을 표시하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;을(를) 클릭합니다.
 
-   ![exclusions_list 이미지](assets/exclusions-list.png)
-
    [!UICONTROL Exclusions] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 Recommendations [호스트 그룹](/help/main/administrating-target/hosts.md)(환경) 내에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하는 방법에 대한 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [계획 및 구현 [!DNL Recommendations]](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}을 참조하십시오.
 
-1. (조건부) [!UICONTROL Filter] 아이콘을 클릭한 다음 제외를 만들거나 업데이트하여 해당 환경에서 제외 콘텐츠를 미리 보는 동안 **[!UICONTROL Environment]** 드롭다운 목록에서 원하는 [환경](/help/main/administrating-target/environments.md)을(를) 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
-
-   ![제외 만들기](/help/main/c-recommendations/c-products/assets/choose-environment.png)
+1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외 콘텐츠를 미리 보는 동안 **[!UICONTROL Show Filters]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭한 다음 **[!UICONTROL Environment]** 드롭다운 목록에서 원하는 [환경](/help/main/administrating-target/environments.md)을(를) 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
 1. **[!UICONTROL Create Exclusion]** 아이콘을 클릭합니다.
-
-   ![제외 대화 상자 만들기](/help/main/c-recommendations/c-products/assets/create-exclusion.png)
 
 1. 제외 **[!UICONTROL Name]**&#x200B;을(를) 입력하고 선택적 설명을 입력하십시오.
 
 1. 규칙 빌더를 사용하여 제외 항목을 만듭니다.
 
-   규칙 목록에서 매개 변수를 선택하고 연산자를 선택한 다음, 하나 이상의 값을 입력하여 제품을 식별하십시오. 여러 값을 입력할 경우에는 쉼표로 구분합니다.
+   [!UICONTROL Rules] 목록에서 매개 변수를 선택하고 연산자를 선택한 다음 하나 이상의 값을 입력하여 제품을 식별하십시오. 여러 값을 입력할 경우에는 쉼표로 구분합니다.
 
 1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
 
@@ -71,9 +65,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 ## 제외 편집, 복사 또는 삭제
 
-목록에서 원하는 제외 옆에 있는 **줄임표** 아이콘을 클릭한 다음 편집, 복사 또는 삭제와 같은 해당 아이콘을 클릭합니다.
-
-![옵션: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/edit-copy-delete.png)
+목록에서 원하는 제외 옆에 있는 추가 작업 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 해당 아이콘([!UICONTROL Edit], [!UICONTROL Copy] 또는 [!UICONTROL Delete])을 클릭합니다.
 
 기존 제외를 복사하여 수정할 수 있는 중복 제외를 생성할 수 있습니다. 이 옵션을 사용하면 적은 노력으로 유사한 제외를 만들 수 있습니다.
 

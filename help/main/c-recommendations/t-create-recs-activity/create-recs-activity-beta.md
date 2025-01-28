@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 hide: true
 hidefromtoc: true
-source-git-commit: 77fc3215f20b0d5f6407fc07889748b5734ca9ea
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1176'
 ht-degree: 51%
 
 ---
@@ -21,19 +21,15 @@ ht-degree: 51%
 
 1. 필요한 경우 **[!UICONTROL Visual]**&#x200B;을(를) 선택합니다.
 
-   ![권장 사항 활동 만들기 대화 상자](/help/main/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
-
-   양식 기반 경험 작성기를 사용하려면 [!UICONTROL Form]을(를) 선택합니다. 자세한 내용은 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 참조하십시오.
+   [!UICONTROL Form-Based Experience Composer]을(를) 사용하려면 [!UICONTROL Form]을(를) 선택하십시오. 자세한 내용은 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 참조하십시오.
 
    >[!NOTE]
    >
    >VEC 및 [!UICONTROL Form-Based Experience Composer] 외에 [!DNL Target]에서 [!UICONTROL Single Page Application] VEC를 제공합니다. 여러 작성기에 대한 자세한 내용은 [경험 및 오퍼](/help/main/c-experiences/experiences.md)를 참조하십시오.
    >
    >문제가 있는 경우 VEC에 대한 문제 해결 정보가 필요하면 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
-   >
-   >이전 그림에서 [!UICONTROL [Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/main/c-intro/intro.md) 기능입니다. 이 옵션이 표시되지 않는 경우 조직에 [!UICONTROL Target Standard] 라이선스가 있습니다.
 
-1. (조건부) [Target Premium 고객](/help/main/c-intro/intro.md#premium)인 경우 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 선택합니다.
+1. (조건부) [작업 영역](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을(를) 선택합니다.
 
 1. 활동 URL을 지정한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 

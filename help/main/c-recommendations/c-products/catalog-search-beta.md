@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: 6b0175b1-0eee-498d-8a08-513cf6695114
-source-git-commit: 16a7c11e8b9b1a08b1e467519f997d0b05e47529
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '539'
-ht-degree: 21%
+source-wordcount: '508'
+ht-degree: 22%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 21%
 
 ## [!UICONTROL Catalog Search] 액세스
 
-[!UICONTROL Catalog Search] 페이지에 액세스하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Catalog Search] 페이지에 액세스하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**&#x200B;을(를) 클릭합니다.
 
-![카탈로그 검색 페이지](/help/main/c-recommendations/c-products/assets/catalog-search-new.png)
+1. (선택 사항) 필터를 검색에 적용하려면 **[!UICONTROL Show Filters]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭합니다. [!UICONTROL Environment], [!UICONTROL Collections], [!UICONTROL Category], [!UICONTROL Brand], [!UICONTROL Inventory] 및 [!UICONTROL Value] 기준으로 필터링할 수 있습니다.
 
 ## 단순 검색 수행
 
@@ -45,8 +45,6 @@ ht-degree: 21%
    > 숫자 값으로 사용자 지정 특성에 대한 카탈로그 검색을 수행할 때 결과는 사용자 지정 특성을 숫자 값 대신 문자열 유형으로 간주합니다.
    >
    >현재 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면 문자열에서 숫자로 유형을 변경해야 하는 특성을 참조하는 [고객 문제를 여십시오](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
-
-   필터를 사용하여 원하는 제품을 찾을 수도 있습니다. 예를 들어 **[!UICONTROL Show Filters]** 아이콘(![필터 표시 아이콘](/help/main/c-recommendations/c-products/assets/icon-show-filters.png))을 클릭하고 [!UICONTROL Collections] 패싯을 확장한 다음 하나 이상의 컬렉션을 선택하면 카탈로그에서 선택한 컬렉션에 속하는 모든 제품이 표시됩니다.
 
 <!-- ### Perform an advanced search {#advanced-search}
 
@@ -110,7 +108,7 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 [환경](/help/main/administrating-target/environments.md)을 사용하면 쉽게 관리하고 개별적으로 보고할 수 있도록 사이트와 사전 프로덕션 환경을 구성할 수 있습니다.
 
-1. 필터 표시 아이콘(![필터 표시 아이콘](/help/main/c-recommendations/c-products/assets/icon-show-filters.png))을 클릭합니다.
+1. 필터 표시 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭합니다.
 
 1. **[!UICONTROL Environment]** 드롭다운 목록에서 원하는 환경을 선택합니다.
 
@@ -134,10 +132,10 @@ Keep in mind that the additional filter facets are available in the current sess
 
 ## 열 수정
 
-[!UICONTROL Catalog Search] 페이지에서 활성 열을 일시적으로 수정할 수 있습니다.
+[!UICONTROL Catalog Search] 페이지에서 활성 열을 수정할 수 있습니다.
 
-1. **[!UICONTROL Customize Table]** 아이콘(![표 사용자 지정 아이콘](/help/main/c-recommendations/c-products/assets/icon-customize-table.png))을 클릭합니다.
+1. **[!UICONTROL Customize Table]** 아이콘(![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg))을 클릭합니다.
 
 1. 표시하거나 숨길 열을 선택하거나 선택 취소합니다.
 
-변경한 내용은 현재 세션에만 적용됩니다.
+모든 변경 사항은 세션 간에 지속됩니다.

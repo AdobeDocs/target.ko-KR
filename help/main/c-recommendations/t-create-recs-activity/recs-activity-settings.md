@@ -5,10 +5,10 @@ title: Recommendations 활동 설정을 구성하는 방법
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '581'
-ht-degree: 48%
+source-wordcount: '588'
+ht-degree: 45%
 
 ---
 
@@ -16,13 +16,11 @@ ht-degree: 48%
 
 [!DNL Adobe Target]에서 [!UICONTROL Recommendations] 활동을 설명하고 제어하는 데 사용할 수 있는 설정에 대한 정보입니다.
 
-![권장 사항 목표 및 설정 페이지](/help/main/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
-
 다음 섹션에서는 [!UICONTROL Recommendations] 활동에 사용 가능한 설정을 설명합니다.
 
 ## 이름
 
-사용자 및 팀이 활동을 식별하는 데 도움이 되는 수사적 이름을 제공하십시오.
+추가 작업 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭한 다음 **[!UICONTROL Rename]**&#x200B;을 클릭하여 사용자와 팀이 활동을 식별하는 데 도움이 되는 수사적 이름을 제공합니다.
 
 다음 문자는 활동 이름에서 허용되지 않습니다.
 

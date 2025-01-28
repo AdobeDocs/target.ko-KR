@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 3809d98ae58e4832cdf4739d2435a222febaef6d
 workflow-type: tm+mt
-source-wordcount: '1485'
+source-wordcount: '1493'
 ht-degree: 76%
 
 ---
@@ -363,12 +363,14 @@ ht-degree: 76%
    + 디자인 {#recommendations-design}
       + [디자인 개요](c-recommendations/c-design-overview/design-overview.md)
       + [디자인 만들기](c-recommendations/c-design-overview/create-design.md)
-      + [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
+      + [디자인 베타 만들기](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [디자인 FAQ](c-recommendations/c-design-overview/template-faq.md)
       + [Velocity를 사용하여 디자인 사용자 지정](c-recommendations/c-design-overview/customizing-a-template.md)
    + 활동 {#recommendations-activity}
       + [권장 사항 활동 만들기](c-recommendations/t-create-recs-activity/create-recs-activity.md)
+      + [Recommendations 활동 Beta 만들기](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
       + [기준 선택](c-recommendations/t-create-recs-activity/algo-select-recs.md)
+      + [기준 Beta 선택](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [권장 사항 활동 미리보기 및 시작](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

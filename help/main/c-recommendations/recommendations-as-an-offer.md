@@ -1,18 +1,18 @@
 ---
-keywords: Recommendations;오퍼
-description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe Recommendations를 사용하는 방법에 대해 알아봅니다.
-title: 다른 활동 유형에서 Recommendations를 제안으로 사용하는 방법은 무엇입니까?
+keywords: 추천;오퍼
+description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe 추천를 사용하는 방법에 대해 알아봅니다.
+title: 다른 활동 유형에서 추천를 제안으로 사용하는 방법은 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 59%
+source-wordcount: '507'
+ht-degree: 60%
 
 ---
 
-# 오퍼로서의 Recommendations
+# 오퍼로서의 추천
 
 이제 [!UICONTROL A/B Test]([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)과 [!UICONTROL Experience Targeting](XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
@@ -33,11 +33,9 @@ ht-degree: 59%
    >
    >A/B 테스트의 경우 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) 선택 사항을 선택하여 트래픽을 가장 성과가 좋은 권장 사항에 자동 푸시하거나 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 선택 사항을 선택하여 방문자를 해당 프로필에 따라 맞춤 권장 사항 경험에 할당할 수 있습니다.
 
-1. [경험](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 만드는 동안 권장 사항을 오퍼로 추가할 요소를 클릭하고 **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]** 또는 **[!UICONTROL Replace With]** 작업을 선택한 다음 [!UICONTROL Recommendation]을(를) 선택합니다.
+1. [경험](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 만드는 동안 권장 사항을 오퍼로 추가할 요소를 클릭하고 **[!UICONTROL Replace Content]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Recommendation]**&#x200B;을(를) 선택합니다.
 
-   다음 그림은 [!UICONTROL Insert After > Recommendation] 옵션을 보여 줍니다.
-
-   ![오퍼로서 권장 사항 삽입](/help/main/c-recommendations/assets/replace-after-recommendations.png)
+   ![오퍼로서 권장 사항 삽입](/help/main/c-recommendations/t-create-recs-activity/assets/recs-as-offer.png)
 
 1. 다음 선택 사항 중에서 선택하여 페이지 유형별로 인기 있는 권장 사항 기준을 확인합니다.
 
@@ -121,6 +119,6 @@ ht-degree: 59%
 
 ![추천 오퍼 상태](/help/main/c-recommendations/assets/recs-offer-status.png)
 
-## 교육 비디오: 오퍼로서의 Recommendations ![개요 배지](/help/main/assets/overview.png)
+## 교육 비디오: 오퍼로서의 추천 ![개요 배지](/help/main/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)

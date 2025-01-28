@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
+source-git-commit: b25516a9b348fa845e9336f4dccfc2d8fb3344b4
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '413'
+ht-degree: 47%
 
 ---
 
@@ -94,7 +94,6 @@ ht-degree: 0%
       * [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md){target="_blank"}
       * [기준 시퀀스 만들기](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md){target="_blank"}
       * [권장 사항 키](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md){target="_blank"}를 기반으로 권장 사항 만들기
-      * [Target의 추천 알고리즘에 숨겨진 과학](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md){target="_blank"}
       * [사용자 지정 기준 업로드](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md){target="_blank"}
       * 동적 및 정적 포함 규칙 {#dynamic-static}{target="_blank"}
          * [동적 및 정적 포함 규칙 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md){target="_blank"}
@@ -112,11 +111,11 @@ ht-degree: 0%
       * [디자인 FAQ](c-recommendations/c-design-overview/template-faq.md){target="_blank"}
       * [Velocity를 사용하여 디자인 사용자 지정](c-recommendations/c-design-overview/customizing-a-template.md){target="_blank"}
    * 활동 {#recommendations-activity}
-      * [권장 사항 활동 만들기](c-recommendations/t-create-recs-activity/create-recs-activity.md){target="_blank"}
+      * [Recommendations 활동 Beta 만들기](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md){target="_blank"}
       * [기준 선택](c-recommendations/t-create-recs-activity/algo-select-recs.md){target="_blank"}
+      * [기준 베타 선택](/help/main/c-recommendations/t-create-recs-activity/algo-select-rec-beta.md){target="_blank"}
       * [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md){target="_blank"}
       * [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md){target="_blank"}
-      * [권장 사항 활동 미리보기 및 시작](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md){target="_blank"}
    * [오퍼로서의 추천](c-recommendations/recommendations-as-an-offer.md){target="_blank"}
    * FAQ {#recommendations-faq}
       * [권장 사항 FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md){target="_blank"}

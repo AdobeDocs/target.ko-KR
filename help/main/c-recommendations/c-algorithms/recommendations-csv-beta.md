@@ -7,10 +7,10 @@ feature: Recommendations
 hide: true
 hidefromtoc: true
 exl-id: ce974152-c83e-46cb-b1cd-c5e2d10c5436
-source-git-commit: 22b0ba18efb736b291f9b7951acd9f706beedbe1
+source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
 workflow-type: tm+mt
-source-wordcount: '594'
-ht-degree: 32%
+source-wordcount: '606'
+ht-degree: 33%
 
 ---
 
@@ -46,15 +46,13 @@ CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용�
 
 1. **[!UICONTROL Upload CSV]** 섹션에서 CSV 파일의 **[!UICONTROL Location]**&#x200B;을(를) 선택합니다.
 
-   <!--The CSV file must be formatted correctly to upload successfully. Click **[!UICONTROL Download the CSV template]** to get a correctly formatted CSV file.-->
+CSV 파일을 성공적으로 업로드하려면 형식이 올바르게 지정되어야 합니다. 올바른 형식의 CSV 파일을 가져오려면 **[!UICONTROL Download the CSV template]**&#x200B;을(를) 클릭하십시오.
 
-   다음 두 가지 위치 옵션이 있습니다.
+다음 두 가지 위치 옵션이 있습니다.
 
-   * **FTP:** FTP 서버에서 CSV 파일을 업로드하려면 **[!UICONTROL FTP]**&#x200B;을(를) 선택한 다음 필요한 정보를 입력합니다. SSL을 사용할 수 있습니다. SSL은 FTPS 프로토콜을 사용하여 CSV 파일을 안전하게 전송합니다.
-
-     ![CSV 파일을 업로드하는 FTP 옵션](/help/main/c-recommendations/c-algorithms/assets/ftp.png)
-
-   * **URL:** URL에서 CSV 파일을 업로드하려면 **[!UICONTROL URL]**&#x200B;을(를) 선택한 다음 피드 URL을 입력하십시오.
+    * **FTP:** FTP 서버에서 CSV 파일을 업로드하려면 **[!UICONTROL FTP]**을 선택한 다음 필요한 정보를 입력합니다. SSL을 사용할 수 있습니다. SSL은 FTPS 프로토콜을 사용하여 CSV 파일을 안전하게 전송합니다.
+    
+    * **URL:** URL에서 CSV 파일을 업로드하려면 **[!UICONTROL URL]**을 선택한 다음 피드 URL을 입력하십시오.
 
 1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
 
