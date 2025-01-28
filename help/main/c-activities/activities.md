@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 활동을 통해 특정 대상을 위한 콘�
 title: ' [!DNL Target]을(를) 사용하여 콘텐츠를 개인화하고 페이지 디자인을 테스트하려면 어떻게 해야 합니까?'
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: 1e23c1170475869e2798e23551d63575031502b4
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '2313'
-ht-degree: 26%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -48,13 +48,14 @@ ht-degree: 26%
 | [!UICONTROL Property] | 활동에 대한 [속성](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 표시합니다.<P>Enterprise 사용자 권한은 [Target Premium](/help/main/c-intro/intro.md#premium) 기능입니다. |
 | [!UICONTROL Estimated Lift in Revenue] | 대상의 100%에게 가장 성과가 좋은 경험이 표시되는 경우 수입의 예상되는 증가를 보여줍니다.<P>다음 공식을 사용하여 계산됩니다.<P>`(<winning experience> - <control experience>)*<total number of visitors>`<P>압축 양식에서 소수 앞에 한자릿수만 있으면 최대 소수 첫째 자리로 반올림됩니다. 예를 들어, $1.6M, $60K, $900, $8.5K, $205K와 같습니다.<P>승자를 확정하기에 충분한 데이터가 없거나 예상 비용이 없는 활동의 경우 이 열에 &quot;---&quot;이 표시됩니다.<P>자세한 내용은 [매출 상승도 평가](/help/main/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)를 참조하십시오. |
 | [!UICONTROL Source] | 활동이 만들어진 위치를 표시합니다. [!DNL Adobe Target], [Adobe Target API](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview), [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform.html), [Adobe Experience Manager](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html) 또는 [모바일 서비스 Adobe](https://developer.adobe.com/client-sdks/documentation/). |
-| [!UICONTROL Location] | 활동용 URL은 활동이 표시되는 위치를 나타냅니다. 이 열은 활동을 빠르게 식별하고 특정 페이지에서 이미 활동이 실행 중인지 여부를 판별하는 데 도움이 됩니다.<P>활동이 여러 URL에서 실행되는 경우 링크에 추가로 사용된 URL의 수가 표시됩니다. 해당 활동에 대한 전체 URL 목록을 보려면 링크를 클릭하십시오.<P>URL을 기반으로 검색할 수 있습니다. 검색 상자 옆에 있는 드롭다운 목록을 사용하고 [!UICONTROL URL]을(를) 선택합니다. |
 | [!UICONTROL Author] | 활동을 만든 사람의 이름입니다. |
 | [!UICONTROL Decisioning Method] | 각 활동에 사용된 의사 결정 메서드: [서버측](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ko-KR) 또는 [클라이언트측](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html). |
 
+<!--|[!UICONTROL Location]|The URL for the activity identifies where the activity is displayed. This column helps you quickly identify an activity and determine whether a particular page already has an activity running on it.<P>If an activity runs on multiple URLs, a link shows how many more URLs are used. Click the link to view the complete list of URLs for that activity.<P>You can search based on the URL. Use the drop-down list next to the search box and select [!UICONTROL URL].|-->
+
 ## 활동 유형 {#types}
 
-[!DNL Target]에 여러 활동 유형이 포함되어 있습니다. 다음 표는 자세한 내용을 알 수 있는 링크와 함께 각 활동 유형에 대한 개요를 제공합니다. 목적에 가장 적합한 활동 유형을 선택하는 데 도움이 되도록 [Adobe Target 활동 안내서](/help/main/c-activities/target-activities-guide.md)를 사용하십시오.
+[!DNL Target]에 여러 활동 유형이 포함되어 있습니다. 다음 테이블은 자세한 내용을 알 수 있는 링크와 함께 각 활동 유형에 대한 개요를 제공합니다. 목적에 가장 적합한 활동 유형을 선택하는 데 도움이 되도록 [Adobe Target 활동 안내서](/help/main/c-activities/target-activities-guide.md)를 사용하십시오.
 
 | 활동 유형 | 설명 |
 |--- |--- |
@@ -64,7 +65,7 @@ ht-degree: 26%
 | [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | [!UICONTROL Multivariate Testing](MVT)은 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
 | [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) | [!UICONTROL Experience Targeting](XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다. |
 | [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<P>![Target Premium](/help/main/assets/premium.png) | [!UICONTROL Automated Personalization](AP)은(는) 콘텐츠를 개인화하고 전환을 유도하기 위해 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다. |
-| [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | 권장 사항은 사이트에서의 방문자의 활동에 따라 웹 사이트 방문자에게 제품을 제안하는 방법을 결정합니다.<P>예를 들어, 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여 주는 권장 사항을 생성할 수 있습니다. 또는 &quot;이 동영상을 본 사용자&quot; 알고리즘을 사용하여 시청 중인 비디오와 유사한 비디오를 추천하여 방문자가 미디어 사이트에서 더 많은 시간을 보내도록 유도할 수 있습니다.<P>**참고**: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting](XT) 활동 내에 권장 사항을 포함할 수도 있습니다. 자세한 내용은 [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
+| [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | 권장 사항은 사이트에서의 방문자의 활동에 따라 웹 사이트 방문자에게 제품을 제안하는 방법을 결정합니다.<P>예를 들어, 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여 주는 권장 사항을 생성할 수 있습니다. 또는 &quot;이 동영상을 본 사용자&quot; 알고리즘을 사용하여 시청 중인 비디오와 유사한 비디오를 추천하여 방문자가 미디어 사이트에서 더 많은 시간을 보내도록 유도할 수 있습니다.<P>**참고**: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting](XT) 활동 내에 권장 사항을 포함할 수도 있습니다. 자세한 내용은 [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
 
 ## 활동 목록에 필터 적용 {#filters}
 

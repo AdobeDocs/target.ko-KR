@@ -6,10 +6,10 @@ feature: A/B Tests
 hide: true
 hidefromtoc: true
 exl-id: 7f1b8364-790d-4767-bff3-4217ced1a77b
-source-git-commit: d5bd3b0d7cdf6eb06175a6365da6b8173f76800f
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
-source-wordcount: '227'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -47,9 +47,9 @@ ht-degree: 40%
 
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-<!-- If you entered a URL for a site that does not include the [!DNL Target]s JavaScript code, you cannot select page elements.
+   [!DNL Target]의 JavaScript 코드가 포함되지 않은 사이트 URL을 입력하면 페이지 요소를 선택할 수 없습니다.
 
-By default, the [!UICONTROL Visual Experience Composer] does not allow changes to elements containing JavaScript, such as rotating banners. You can toggle off **[!UICONTROL Render using JavaScript]** if you want to be able to alter those elements using the [!UICONTROL Visual Experience Composer].-->
+   기본적으로 [!UICONTROL Visual Experience Composer]에서는 회전 배너와 같은 JavaScript이 포함된 요소를 변경할 수 없습니다. [!UICONTROL Visual Experience Composer]을(를) 사용하여 해당 요소를 변경하려면 **[!UICONTROL Render using JavaScript]**&#x200B;을(를) 끌 수 있습니다.—>
 
 >[!NOTE]
 >

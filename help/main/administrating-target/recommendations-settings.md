@@ -8,7 +8,7 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
-source-git-commit: f29f9b5c234dc629d104afaccdf50010dc825ea1
+source-git-commit: d92c09b905b10c6d0175a5de137d573f8cd475d7
 workflow-type: tm+mt
 source-wordcount: '115'
 ht-degree: 0%
@@ -31,4 +31,4 @@ ht-degree: 0%
 * 썸네일 기본 URL 지정
 * 사용자 지정 속성 키 구성
 
-자세한 내용은 **[!DNL Adobe Target]개발자 안내서**&#x200B;에서 [Recommendations 계획 및 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations-beta){target=_blank}을 참조하세요.
+자세한 내용은 **[!DNL Adobe Target]개발자 안내서**&#x200B;에서 [Recommendations 계획 및 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}을 참조하세요.
