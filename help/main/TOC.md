@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 4805da617962e29794bd3af16138f3887ad250d0
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1481'
-ht-degree: 77%
+source-wordcount: '1485'
+ht-degree: 76%
 
 ---
 
@@ -47,6 +47,7 @@ ht-degree: 77%
    + [Target 최적화 및 개인화 FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target 관리 {#administer}
    + [Target 관리 개요](administrating-target/administrating-target.md)
+   + [Target 관리 개요 Beta](administrating-target/administrating-target-beta.md)
    + [관리자의 첫 단계](administrating-target/start-target.md)
    + [시각적 경험 작성기 구성](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + 보고 {#reporting}

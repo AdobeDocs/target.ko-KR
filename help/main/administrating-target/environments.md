@@ -5,10 +5,10 @@ title: 환경은 무엇이며 어떻게 사용할 수 있습니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 516d3969c8a6ed073b9f8d53c842e4d759cee8a2
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '646'
-ht-degree: 49%
+source-wordcount: '644'
+ht-degree: 47%
 
 ---
 
@@ -23,8 +23,6 @@ ht-degree: 49%
 새 웹 사이트 또는 도메인에서 [!DNL Target] 요청을 받으면 이러한 새 도메인이 항상 [!UICONTROL Production] 환경에 표시됩니다. [!UICONTROL Production] 환경에서는 설정을 변경할 수 없으므로 알 수 없거나 새 사이트에는 활성 상태이고 준비된 콘텐츠만 표시됩니다. 활동을 활성화하기 전에 호스트 관리를 사용하면 테스트, 스테이징 및 개발 환경에서 새 활동과 컨텐츠의 품질을 쉽게 보장할 수도 있습니다.
 
 환경을 관리하려면 **[!UICONTROL Administration]** > **[!UICONTROL Environments]**&#x200B;을(를) 클릭합니다.
-
-![환경 목록](/help/main/administrating-target/assets/environments.png)
 
 ## 환경 추가 {#section_32097D0993724DF3A202D164D3F18674}
 
@@ -75,7 +73,7 @@ ht-degree: 49%
 
 {{premium-note}}
 
-환경을 사용하여 카탈로그에 있는 사용 가능한 항목을 다양한 용도로 구분할 수 있습니다. 예를 들어 [!UICONTROL Development] 및 [!UICONTROL Production] 환경, 다른 브랜드 또는 다른 지역에 대해 호스트 그룹을 사용할 수 있습니다. 기본적으로 카탈로그 검색, 컬렉션 및 제외의 미리 보기 결과는 기본 호스트 그룹을 기반으로 합니다. (환경 필터를 사용하여 다른 결과를 미리 볼 호스트 그룹을 선택할 수도 있습니다.) 기본적으로 항목을 만들거나 업데이트할 때 환경 ID를 지정하지 않는 한 새로 추가된 항목은 모든 호스트 그룹에서 사용할 수 있습니다.
+환경을 사용하여 카탈로그에 있는 사용 가능한 항목을 다양한 용도로 구분할 수 있습니다. 예를 들어 [!UICONTROL Development] 및 [!UICONTROL Production] 환경, 다른 브랜드 또는 다른 지역에 대해 호스트 그룹을 사용할 수 있습니다. 기본적으로 카탈로그 검색, 컬렉션 및 제외의 미리 보기 결과는 기본 호스트 그룹을 기반으로 합니다. (환경 필터를 사용하여 다른 호스트 그룹을 선택하여 결과를 미리 볼 수도 있습니다.) 기본적으로 항목을 만들거나 업데이트할 때 환경 ID를 지정하지 않는 한 새로 추가된 항목은 모든 호스트 그룹에서 사용할 수 있습니다.
 
 >[!NOTE]
 >

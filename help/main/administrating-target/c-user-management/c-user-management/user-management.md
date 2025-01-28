@@ -5,9 +5,9 @@ title: ' [!DNL Target Standard] 계정에 대해 사용자를 추가하고 권�
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 8560fa828fac91170fd295c9ef9a9b0e6ce1651c
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '847'
 ht-degree: 63%
 
 ---
@@ -41,8 +41,6 @@ ht-degree: 63%
 [!DNL Target] UI에서 사용자의 작업 영역별 역할 및 이메일 주소를 포함하여 현재 사용자 목록을 볼 수 있습니다.
 
 [!UICONTROL Users] 페이지를 보려면 **[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;을(를) 클릭합니다.
-
-![Target 내 사용자 목록](/help/main/administrating-target/c-user-management/c-user-management/assets/user-list-target.png)
 
 >[!NOTE]
 >
@@ -86,19 +84,11 @@ ht-degree: 63%
 
 1. [Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL Products]**&#x200B;을(를) 클릭한 다음 원하는 제품의 이름을 선택합니다.
 
-   ![제품 탭](/help/main/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
-
 1. 원하는 작업 영역(예: 기본 작업 영역)을 클릭합니다.
-
-   ![기본 작업 영역](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
    [!UICONTROL Users] 탭에는 해당 작업 영역의 모든 사용자가 표시됩니다.
 
-   ![구성 사용자](/help/main/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
-
 1. [!UICONTROL Product Role] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] 또는 [!UICONTROL Publisher])을 선택합니다.
-
-   ![제품 역할 드롭다운 목록](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | 역할 | 설명 |
    |--- |--- |

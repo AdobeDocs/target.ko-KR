@@ -7,10 +7,10 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 54834393-9121-41e7-93fb-b00924869d73
-source-git-commit: 438b65368b81f71d684444352035ce73627e698f
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 51%
+source-wordcount: '415'
+ht-degree: 50%
 
 ---
 
@@ -23,6 +23,13 @@ ht-degree: 51%
 >[!DNL Adobe Target] 팀은 테스트 및 피드백 목적으로 일부 고객을 위해 새로운 기능을 사용하는 경우가 많습니다. 테스트 기간이 완료되면 향후 [!DNL Target] 릴리스의 모든 고객에 대해 이러한 기능이 활성화되어 릴리스 정보에 발표됩니다.
 >
 >이 문서의 정보는 예고 없이 Beta 프로그램 중에 자주 업데이트됩니다.
+
+## 관리
+
++++확장하려면 클릭
+
+* [Target 개요 관리 Beta](administrating-target/administrating-target-beta.md)
++++
 
 ## 활동
 

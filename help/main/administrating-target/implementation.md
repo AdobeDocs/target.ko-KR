@@ -1,13 +1,13 @@
 ---
 keywords: 구현;구현
-description: 사이트에서 Adobe [!DNL Target] 을(를) 구현하는 방법을 알아봅니다. 전역 설정, 구현 방법(AEP Web SDK 또는 at.js) 등을 설정합니다.
+description: 사이트에서 Adobe [!DNL Target] 을(를) 구현하는 방법을 알아봅니다. 전역 설정, 구현 방법(AEP 웹 SDK 또는 at.js) 등을 설정합니다.
 title: 내 사이트에서  [!DNL Target] 을(를) 구현하는 방법
 feature: Administration & Configuration
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '149'
+source-wordcount: '147'
 ht-degree: 2%
 
 ---
@@ -25,5 +25,3 @@ ht-degree: 2%
 1. [!UICONTROL Implementation] 페이지에 액세스하려면 **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**&#x200B;을(를) 클릭합니다.
 
 1. 이 페이지의 설정에 적용할 수 있는 정보는 [태그 관리자 없이 Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}을 참조하십시오.
-
-![구현 페이지](/help/main/administrating-target/assets/implementation.png)

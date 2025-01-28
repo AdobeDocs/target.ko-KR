@@ -5,9 +5,9 @@ title: 호스트는 무엇이며 어떻게 사용할 수 있습니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1029'
+source-wordcount: '1027'
 ht-degree: 17%
 
 ---
@@ -23,8 +23,6 @@ ht-degree: 17%
 기본적으로 [!DNL Target]은(는) [!DNL Target]개의 요청을 하고 [!DNL Target]개의 응답을 받을 수 있는 호스트를 제한하지 않습니다. 새 호스트가 요청을 수행하면 자동으로 작동합니다. 이 프로세스를 통해 알 수 없거나 예상할 수 없는 다른 도메인에서 테스트할 수도 있습니다. 이 기본 동작을 재정의하려는 경우 허용 목록에 추가하다 차단 목록에 추가하다 작업을 재정의하거나 재정의하여 [!DNL Target]을(를) 사용하는 호스트를 제한하도록 설정할 수 있습니다.
 
 호스트를 관리하려면 **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**&#x200B;을(를) 클릭합니다.
-
-![hosts_list 이미지](assets/hosts_list.png)
 
 ## 호스트 인식 {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 

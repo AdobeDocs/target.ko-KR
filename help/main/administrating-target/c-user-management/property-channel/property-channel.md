@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '3171'
+source-wordcount: '3165'
 ht-degree: 48%
 
 ---
@@ -192,18 +192,12 @@ ht-degree: 48%
 
 * **Workspace(제품 프로필) 드롭다운 목록:** [!UICONTROL Activities], [!UICONTROL Audiences] 및 [!UICONTROL Offers] 페이지의 맨 위에 Workspace 드롭다운 목록이 표시됩니다. 원하는 작업 공간을 선택하여 선택한 작업 공간의 항목만 표시하도록 목록을 필터링합니다.
 
-  ![workspace_drop-down 이미지](assets/workspace_drop-down.png)
-
 * **활동 만들기:** 활동을 만들 때 현재 선택한 작업 영역에서 만들어집니다. 활동에 대해 원하는 채널(웹, 모바일 앱, 이메일 또는 기타/API)을 선택할 수 있는 첫 번째 대화 상자에 채널 선택 옵션이 표시됩니다.
-
-  ![channel_options 이미지](assets/channel_options.png)
 
 * **대상 만들기:** 대상을 만들면 현재 선택한 작업 영역에서 만들어집니다.
 * **대상 목록:** [!UICONTROL Audiences] 페이지에서 [!UICONTROL More Actions] > [!DNL Move] 옵션을 사용하여 작업 영역 간에 대상을 이동할 수 있습니다.
 * **오퍼 만들기:** 오퍼를 만들 때 현재 선택한 작업 영역에 오퍼가 만들어집니다.
 * **속성 페이지(관리 > 속성):** [!UICONTROL Search] 상자를 사용하여 [!UICONTROL Property] 목록을 검색할 수 있습니다.
-
-  ![properties_list 이미지](assets/properties_list.png)
 
 ## 주의 사항 {#section_9714311B1CD9497A86F4910F8AE635E2}
 

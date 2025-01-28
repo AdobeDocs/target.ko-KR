@@ -5,9 +5,9 @@ title: 응답 토큰이란 무엇이며 어떻게 사용해야 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 74355ad115eba20a0078aa15970b23c5754842a4
+source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1622'
 ht-degree: 22%
 
 ---
@@ -26,7 +26,7 @@ ht-degree: 22%
 
 | Target SDK | 제안된 작업 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK를 다운로드하는 방법에 대한 자세한 내용은 *Platform Web SDK 개요* 안내서에서 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}를 참조하십시오. 각 버전의 Platform Web SDK의 새로운 기능에 대한 자세한 내용은 *Platform Web SDK 개요* 안내서의 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)를 참조하십시오. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK을 다운로드하는 방법에 대한 자세한 내용은 *Platform Web SDK 개요* 안내서에서 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank}를 참조하십시오. Platform Web SDK의 각 버전에 대한 새로운 기능은 *Platform Web SDK 개요* 안내서의 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html)를 참조하십시오. |
 | [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js 다운로드에 대한 자세한 내용은 [at.js 다운로드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js(사용 중단됨)에는 존재했지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
 
 ## 응답 토큰 사용 {#section_A9E141DDCBA84308926E68D05FD2AC62}
@@ -35,12 +35,10 @@ ht-degree: 22%
 
    추가 정보:
 
-   * **Platform Web SDK**: *Platform Web SDK 개요* 안내서에서 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)를 참조하십시오.
+   * **Platform Web SDK**: *Platform Web SDK 개요* 안내서의 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html)를 참조하십시오.
    * **at.js**: [at.js 다운로드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}를 참조하십시오.
 
 1. [!DNL Target]에서 **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**&#x200B;을(를) 클릭합니다.
-
-   ![response_tokens-new 이미지](assets/response_tokens-new.png)
 
 1. `activity.id` 및 `offer.id`과(와) 같이 원하는 응답 토큰을 활성화합니다.
 
@@ -71,8 +69,6 @@ ht-degree: 22%
 1. (조건부) 프로필 매개 변수를 응답 토큰으로 사용하지만 매개 변수가 [!DNL Target] 요청을 통해 전달되지 않아 [!DNL Target] UI에 로드되지 않은 경우 [!UICONTROL Add Response Token] 단추를 사용하여 프로필을 UI에 추가할 수 있습니다.
 
    **[!UICONTROL Add Response Token]**&#x200B;을(를) 클릭하고 토큰 이름을 입력한 다음 **[!UICONTROL Activate]**&#x200B;을(를) 클릭합니다.
-
-   ![response_token_create image](assets/response_token_create.png)
 
 1. 활동을 만듭니다.
 
@@ -220,9 +216,9 @@ ht-degree: 22%
 
 다음 섹션에서는 [!DNL Target] 데이터를 Google Analytics 4로 보내는 방법을 설명합니다. 응답 토큰으로 전송된 데이터를 다른 타사 통합으로 전송할 수도 있습니다.
 
-### ![AEP 배지](/help/main/assets/platform.png) Platform Web SDK를 통해 Google Analytics에게 데이터 전송
+### ![AEP 배지](/help/main/assets/platform.png) Platform Web SDK을 통해 Google Analytics에게 데이터 전송
 
-Google Analytics은 HTML 페이지에 다음 코드를 추가하여 Platform Web SDK 버전 2.6.0 이상을 통해 데이터를 전송할 수 있습니다.
+Google Analytics은 HTML 페이지에 다음 코드를 추가하여 Platform Web SDK 버전 2.6.0 이상을 통해 데이터를 보낼 수 있습니다.
 
 >[!NOTE]
 >
