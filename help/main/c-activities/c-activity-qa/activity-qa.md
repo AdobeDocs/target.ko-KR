@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] QA URL을 사용하여, 변경되지 않는 미
 title: 활동을 QA하려면 어떻게 합니까?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 4b7c6d82e6988c64ace401d8f749b181b8dc1866
+source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
 workflow-type: tm+mt
-source-wordcount: '1665'
+source-wordcount: '1658'
 ht-degree: 28%
 
 ---
@@ -31,11 +31,7 @@ ht-degree: 28%
 
 1. 활동의 [!UICONTROL Overview] 페이지에서 **[!UICONTROL Activity QA]**&#x200B;을(를) 클릭합니다.
 
-   ![활동 QA 링크](assets/qa_link.png)
-
 1. 다음 설정을 구성합니다.
-
-   ![QA 링크 구성 옵션](assets/qa_link_config.png)
 
    * **[!UICONTROL Match audience rules to see experiences]:** 때로는 대상 일치가 작동하는지 확인해야 합니다. 다른 경우에는 활동의 모양과 느낌을 확인해야 합니다. 이 설정을 &quot;켬&quot; 위치로 전환할 경우, 테스터는 타깃팅 요구 사항을 충족해야 경험을 볼 수 있는 자격이 생깁니다. 경험 타깃팅(XT) 활동의 경우 하나의 활동 URL이 제공됩니다. 사용자에게 표시되는 경험은 타깃팅 규칙 중 하나에 대한 사용자 자격에 의해 결정됩니다.
 
