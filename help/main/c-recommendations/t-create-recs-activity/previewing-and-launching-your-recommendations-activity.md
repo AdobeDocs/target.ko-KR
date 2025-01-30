@@ -4,10 +4,10 @@ description: 활동을 시작하기 전에 결과를 사용할 수 있도록 Ado
 title: Recommendations 활동을 미리 보고 시작하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
 workflow-type: tm+mt
-source-wordcount: '1340'
-ht-degree: 16%
+source-wordcount: '1316'
+ht-degree: 15%
 
 ---
 
@@ -21,11 +21,7 @@ ht-degree: 16%
 
 기준 상태가 나열된 [!UICONTROL Activity] 개요 다이어그램에서 알고리즘의 실행이 완료되었는지 여부를 확인할 수 있습니다. 다음 그림은 [!DNL Recommendations] 활동의 [!UICONTROL Overview] 페이지에 있는 활동 다이어그램의 상태를 보여 줍니다.
 
-![Recommendations 활동 개요 페이지](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
-
-다음 그림은 [!UICONTROL A/B Test] 또는 XT 활동의 [!UICONTROL Overview] 페이지에 있는 상태를 보여 줍니다.
-
-![A/B 테스트 개요 페이지](/help/main/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
+![Recommendations 활동 개요 페이지](/help/main/c-recommendations/t-create-recs-activity/assets/recs-overview-new.png)
 
 상태 결과에는 아래 그림과 같이 다음과 같은 항목이 포함됩니다.
 
@@ -45,7 +41,7 @@ ht-degree: 16%
 
 mbox를 동작 데이터 소스로 선택한 경우, 기준이 만들어지면 즉시 실행됩니다. 사용되는 동작 데이터의 분량과 카탈로그 크기에 따라 알고리즘을 실행하는 데 최대 12시간이 걸릴 수 있습니다. 일반적으로 기준 구성을 변경하면 알고리즘이 재실행됩니다. 수행된 변경 사항에 따라 재실행이 완료될 때까지 이전에 계산된 권장 사항을 사용할 수 없거나, 더 큰 변경의 경우 재실행이 완료될 때까지 백업이나 기본 콘텐츠만 사용할 수 있습니다. 알고리즘이 수정되지 않으면 [!DNL Target]이 선택한 데이터 범위에 따라 12~48시간 간격으로 자동 재실행됩니다.
 
-### Adobe Analytics
+### [!DNL Adobe Analytics]
 
 기준이 [!DNL Adobe Analytics]을 동작 데이터 소스로 사용하는 경우 기준 가용성의 시간은 선택한 보고서 세트 및 전환 창이 다른 모든 기준에 사용되었는지 여부에 따라 달라집니다.
 
@@ -59,9 +55,7 @@ mbox를 동작 데이터 소스로 선택한 경우, 기준이 만들어지면 �
 
 ## QA 링크를 사용하여 Recommendations 미리 보기
 
-알고리즘에서 결과가 준비되면 [!DNL Adobe Target]의 [QA 링크](/help/main/c-activities/c-activity-qa/activity-qa.md) 기능을 사용하여 해당 결과를 미리 볼 수 있습니다. QA 링크는 활동 개요 페이지의 [!UICONTROL Activity QA] 섹션에서 사용할 수 있습니다.
-
-![활동 QA 링크](/help/main/c-recommendations/t-create-recs-activity/assets/qa-link.png)
+알고리즘에서 결과가 준비되면 [!DNL Adobe Target]의 [QA 링크](/help/main/c-activities/c-activity-qa/activity-qa.md) 기능을 사용하여 해당 결과를 미리 볼 수 있습니다. QA 링크는 [!UICONTROL Activity] 개요 페이지의 [!UICONTROL Activity Location] 섹션에서 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -103,17 +97,11 @@ CSV 파일을 다운로드하고 있습니다. 이 폴더를 열어 추천 항�
 
 ## Recommendations 활동 활성화
 
-[!UICONTROL Activity Overview] 탭에서 상태 옆에 있는 드롭다운 화살표를 클릭한 다음 **[!UICONTROL Activate]**&#x200B;을(를) 선택합니다.
+[!UICONTROL Activity Overview] 탭에서 상태 드롭다운 화살표를 클릭한 다음 **[!UICONTROL Activate]**&#x200B;을(를) 선택합니다.
 
-![옵션 활성화](/help/main/c-recommendations/t-create-recs-activity/assets/activate.png)
-
-상태가 [!UICONTROL Activating]이(가) 됩니다.
-
-![활성화](/help/main/c-recommendations/t-create-recs-activity/assets/activating.png)
+[!UICONTROL Recommendations] 활동이 현재 [!UICONTROL Inactive] 상태인 경우 드롭다운 목록에 [!UICONTROL Inactive] 레이블이 지정됩니다.
 
 몇 초에서 몇 분 후 상태가 [!UICONTROL Live](으)로 전환됩니다.
-
-![라이브](/help/main/c-recommendations/t-create-recs-activity/assets/live.png)
 
 동일한 드롭다운 목록을 사용하여 활동을 비활성화하거나 보관할 수도 있습니다.
 
