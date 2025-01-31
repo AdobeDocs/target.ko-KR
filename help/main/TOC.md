@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 99ea312405e397e97e64e32d2685e8a6966d8928
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '1496'
-ht-degree: 76%
+source-wordcount: '1519'
+ht-degree: 74%
 
 ---
 
@@ -261,8 +261,11 @@ ht-degree: 76%
    + [경험 및 오퍼 개요](c-experiences/experiences.md)
    + VEC(시각적 경험 작성기) {#vec}
       + [시각적 경험 작성기 개요](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+      + [시각적 경험 작성기 개요 베타](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [시각적 경험 작성기 옵션](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [시각적 경험 작성기 선택 사항 Beta](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [유사한 페이지에 동일한 경험 포함](c-experiences/c-visual-experience-composer/temtest.md)
+      + [유사한 페이지에 동일한 경험 포함 베타](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [다중 페이지 활동](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [활동 충돌](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + 수정 사항 {#modifications}
@@ -281,6 +284,7 @@ ht-degree: 76%
          + [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL로 리디렉션](c-experiences/c-visual-experience-composer/redirect-offer.md)
+      + [URL 베타로 리디렉션](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [시각적 경험 작성기에서 작동하는 회전 메뉴 만들기](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [양식 기반 경험 작성기](c-experiences/form-experience-composer.md)
    + [SPA(단일 페이지 앱) 시각적 경험 작성기](c-experiences/spa-visual-experience-composer.md)

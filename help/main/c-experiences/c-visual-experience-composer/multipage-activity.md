@@ -4,10 +4,10 @@ description: Adobe에서 다중 페이지 활동을 만드는 방법을 알아�
 title: 다중 페이지 활동을 만들려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
 workflow-type: tm+mt
-source-wordcount: '375'
-ht-degree: 68%
+source-wordcount: '341'
+ht-degree: 54%
 
 ---
 
@@ -27,21 +27,13 @@ ht-degree: 68%
 
 테스트에 페이지를 추가하려면 다음을 수행하십시오.
 
-1. **[!UICONTROL Configure]** 톱니바퀴 아이콘을 클릭합니다.
+1. **[!UICONTROL Configure]** 아이콘(![구성 아이콘](/help/main/assets/icons/Setting.svg))을 클릭합니다.
 1. **[!UICONTROL Add Additional Pages]** 아이콘을 클릭합니다.
 
-   화면 왼쪽에 탐색 막대가 나타납니다.
+   [!UICONTROL Pages] 창이 화면 왼쪽에 표시됩니다.
 
-   ![multipage_nav 이미지](assets/multipage_nav.png)
+1. 페이지를 지정하고 기본 페이지를 설정합니다.
 
-1. 탐색 막대를 사용하여 페이지를 지정하고 기본 페이지를 설정합니다.
+   **[!UICONTROL Add Page]**( ![추가 아이콘](/help/main/assets/icons/Add.svg) )을 클릭하여 페이지를 추가하고 페이지 이름과 URL을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
-   페이지를 추가하려면 **[!UICONTROL Add Page]**&#x200B;을(를) 클릭하십시오.
-
-   작업 메뉴를 표시하려면 세 개의 수직 줄임표 아이콘을 클릭하십시오.
-
-   ![multipage_menu 이미지](assets/multipage_menu.png)
-
-   이 메뉴를 사용하여 페이지의 이름을 바꾸거나, 다중 페이지 활동 내에서 리디렉션 테스트를 수행하거나, 페이지를 삭제하십시오.
-
-1. 시각적 경험 작성기를 사용하여 각 페이지에서 오퍼가 표시되는 방식을 디자인합니다.
+1. [!UICONTROL Visual Experience Composer]을(를) 사용하여 각 페이지에서 오퍼의 모양을 디자인합니다.
