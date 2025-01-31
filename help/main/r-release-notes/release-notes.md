@@ -6,9 +6,9 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '905'
 ht-degree: 30%
 
 ---
@@ -19,7 +19,11 @@ ht-degree: 30%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!UICONTROL Offers Library] 사용자 인터페이스 업데이트(2025년 1월 9일)
+## Target Standard/Premium 25.1.1(2025년 1월 9일)
+
+이번 릴리스에는 다음 업데이트가 포함됩니다.
+
+### [!UICONTROL Offers Library] 사용자 인터페이스 업데이트
 
 [!DNL Adobe Target] 사용자의 사용자 환경을 개선하기 위해 이 릴리스는 [!UICONTROL Offers Library] 사용자 인터페이스를 업데이트합니다.
 
