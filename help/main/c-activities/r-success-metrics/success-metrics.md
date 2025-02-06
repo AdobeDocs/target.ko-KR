@@ -4,10 +4,10 @@ description: 활동의 성공을 결정하는 데 도움이 되는 Adobe [!DNL T
 title: 성공 지표란 무엇입니까?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '1188'
-ht-degree: 43%
+source-wordcount: '1190'
+ht-degree: 41%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 43%
 
 | 성공 지표 | 측정 방법 | 정의 |
 |--- |--- |--- |
-| 변환 | 전환 기반 | 전환은 방문자가 사용자가 정의한 사이트에서 작업을 수행할 때입니다. 예를 들면 다음과 같습니다 <ul><li>단추를 클릭함</li><li>페이지 확인함</li><li>설문 조사 완료됨</li><li>구매함</li></ul>전환은 방문자당 한 번 또는 방문자가 전환을 완료할 때마다 계산됩니다. |
+| 전환 | 전환 기반 | 전환은 방문자가 사용자가 정의한 사이트에서 작업을 수행할 때입니다. 예를 들면 다음과 같습니다 <ul><li>단추를 클릭함</li><li>페이지 확인함</li><li>설문 조사 완료됨</li><li>구매함</li></ul>전환은 방문자당 한 번 또는 방문자가 전환을 완료할 때마다 계산됩니다. |
 | 수입 | 전환 기반 | 방문에서 생성된 수익입니다. 다음 매출 지표 중에서 선택할 수 있습니다.<ul><li>RPV(방문자당 매출)</li><li>AOV(평균 주문 가격)</li><li>총 판매 수</li><li>주문</li></ul> |
 | 페이지 보기 횟수 | 참여 기반 | 각 고유한 방문은 전환으로 간주됩니다. |
 | 사용자 지정 점수 지정 | 참여 기반 | 방문자가 활동의 첫 디스플레이 [!DNL Target] 요청을 처음 본 시점부터 시작하여 사이트에서 방문한 페이지에 할당된 값에 따라 집계된 점수입니다. |
@@ -57,9 +57,9 @@ ht-degree: 43%
 
 고급 설정을 사용하여 성공을 측정하는 방법을 관리할 수 있습니다. 옵션에는 종속성 추가, 활동에 사용자를 유지할지 또는 제거할지 선택, 참가자 당 한 번 또는 노출 시마다 지표를 계산할지 여부가 포함됩니다.
 
-[!UICONTROL Advanced Settings] 옵션에 액세스하려면 **[!UICONTROL vertical ellipses]** > **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다.
+[!UICONTROL Advanced Settings] 옵션에 액세스하려면 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭한 다음 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다.
 
-![고급 설정 메뉴](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
+![고급 설정 메뉴](/help/main/c-activities/r-success-metrics/assets/advanced-settings-refresh.png)
 
 >[!NOTE]
 >
@@ -68,8 +68,6 @@ ht-degree: 43%
 ### 종속성 추가
 
 고급 설정을 사용하여 종속적 성공 지표를 만들고, 방문자가 먼저 다른 지표에 도달하는 경우에만 지표를 1씩 증분할 수 있습니다.
-
-![종속성 추가](/help/main/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 예를 들어, 방문자가 전환하기 전에 해당 오퍼를 클릭하거나 특정 페이지에 도달한 경우에만 테스트 전환이 유효할 수 있습니다.
 
@@ -83,7 +81,7 @@ ht-degree: 43%
 종속적 성공 지표는 다음과 같은 경우에 전환되지 않습니다.
 
 * metric1이 metric2에 종속되고 metric2가 metric1에 종속되는 순환 종속성을 만드는 경우 두 지표 모두 전환될 수 없습니다.
-* 자동화된 개인화 활동은 전환 지표에 도달할 때 사용자를 해제하고 활동을 다시 시작하므로, 전환 지표에 종속되는 모든 지표가 전환되지 않습니다.
+* [!UICONTROL Automated Personalization] 활동은 사용자를 해제하고 전환 지표에 도달하면 활동을 다시 시작하므로 전환 지표에 종속된 지표는 전환되지 않습니다.
 
 ### 사용자가 이 목표 지표에 도달한 후에 어떤 상황이 진행됩니까?
 

@@ -1,14 +1,14 @@
 ---
 keywords: 트래픽 견적 도구;자동화된 개인화;ap;트래픽 예측
-description: ' [!DNL Adobe Target] [!UICONTROL Traffic Estimator]을(를) 사용하여 [!UICONTROL Automated Personalization] 활동이 성공하기에 충분한 트래픽이 있는지 확인하십시오.'
+description: '[!UICONTROL Traffic Estimator]을(를) 사용하여 [!UICONTROL Automated Personalization] 활동을 성공적으로 수행할 수 있는 트래픽이 충분한지 평가하십시오.'
 title: 성공적인 [!UICONTROL Automated Personalization] 활동을 위해 필요한 트래픽의 양은 어느 정도입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: eacee6f353aa685d17b781ac82d3f79574384dfe
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '710'
-ht-degree: 10%
+source-wordcount: '721'
+ht-degree: 9%
 
 ---
 
@@ -24,13 +24,13 @@ ht-degree: 10%
 
 ## 트래픽 견적 도구 사용
 
-1. [!UICONTROL Automated Personalization] 활동에 있는 [!UICONTROL Visual Experience Composer]의 [!UICONTROL Experiences] 페이지에서 **[!UICONTROL Traffic]** 아이콘을 클릭합니다.
+1. [!UICONTROL Automated Personalization] 활동에 있는 [!UICONTROL Visual Experience Composer]의 [!UICONTROL Experiences] 페이지에서 [!UICONTROL Experiences] 페이지의 왼쪽 상단 모서리에 있는 **[!UICONTROL Traffic]** 아이콘(![트래픽 견적 도구 아이콘](/help/main/assets/icons/Gauge2.svg))을 클릭합니다.
 
-   ![트래픽 아이콘](/help/main/c-activities/t-automated-personalization/assets/icon-traffic.png)
+   [!UICONTROL Traffic Estimator]이(가) 열립니다.
 
-   [!UICONTROL Traffic Estimator]이(가) 열립니다. **[!UICONTROL Traffic]**&#x200B;을(를) 다시 클릭하여 [!UICONTROL Traffic Estimator]을(를) 숨길 수 있습니다.
+   ![트래픽 견적 도구 사용자 인터페이스](assets/ap-est.png)
 
-   ![트래픽 견적 도구 사용자 인터페이스](assets/ap_est.png)
+   아이콘을 다시 클릭하여 [!UICONTROL Traffic Estimator]을(를) 숨길 수 있습니다.
 
 1. 일반적인 전환율(또는 이 활동에서 예상하는 전환율), 일별 예상 활동 노출 수 및 테스트 기간을 지정합니다.
 
@@ -45,19 +45,19 @@ ht-degree: 10%
 
    [!UICONTROL Traffic Estimator]의 상단 근처에서 입력한 값이 계산되고 결과가 표시됩니다.
 
-   ![값 및 결과가 표시된 트래픽 예상](assets/ap_est_no.png)
+   ![값 및 결과가 표시된 트래픽 예상](assets/ap-est-no.png)
 
    숫자를 변경하면 예측값이 변경됩니다. 예를 들어, 많은 조합을 테스트하고 있으며 전환율과 노출이 너무 낮은 경우 [!UICONTROL Traffic Estimator]은 테스트를 성공적으로 실행하기 위해 실행해야 하는 시간을 보여줍니다. 또는 트래픽이 낮은 경우 [!UICONTROL Traffic Estimator]에서 더 적은 수의 오퍼 조합을 제안하여 원하는 일수로 테스트를 실행할 수 있습니다.
 
    트래픽이 충분하지 않은 경우 다음 사항을 고려하십시오.
 
-   * 한 경험 변형에서 여러 오퍼 변경 사항을 가진 경험을 만들려면 [!UICONTROL Automated Personalization] 대신 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동을 사용하는 것이 좋습니다.
+   * 하나의 경험 변형에서 여러 개의 오퍼 변경 사항이 있는 경험을 만들려면 [!UICONTROL Automated Personalization] 대신 [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동을 사용하는 것이 좋습니다.
    * [!UICONTROL Automated Personalization] 활동 내에서 오퍼 조합 수를 줄이십시오.
    * 활동의 지속 기간을 늘립니다.
 
    [!UICONTROL Traffic Estimator]이(가) 트래픽이 충분함을 나타낼 때까지 숫자를 조정한 다음 그에 따라 테스트를 디자인합니다.
 
-   ![트래픽 견적 도구(충분한 트래픽 메시지 표시)](assets/ap_est_yes.png)
+   ![트래픽 견적 도구(충분한 트래픽 메시지 표시)](assets/ap-est-yes.png)
 
    트래픽이 충분하면 [!UICONTROL Traffic] 아이콘에 녹색 확인이 표시됩니다. 충분하지 않은 경우 아이콘은 빨간색 경고 레이블을 표시합니다.
 

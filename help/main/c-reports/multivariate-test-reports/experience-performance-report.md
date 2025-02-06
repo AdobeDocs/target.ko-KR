@@ -4,26 +4,24 @@ description: 활동의 각 경험이 어떻게 수행되는지 보여 주는 Ado
 title: 다변량 테스트에 경험 성과 보고서를 사용하려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '338'
-ht-degree: 81%
+source-wordcount: '326'
+ht-degree: 75%
 
 ---
 
-# 경험 성과 보고서 (MVT)
+# [!UICONTROL Experience Performance] 보고서(MVT)
 
-경험 성과 보고서는 활동에 있는 각 경험의 성과를 보여줍니다. 이 보고서에는 참여자 수, 전환율, 상승도 및 신뢰도에 대한 정보가 포함되어 있습니다.
+[!UICONTROL Experience Performance] 보고서는 활동에 있는 각 경험의 성과를 보여줍니다. 이 보고서에는 참여자 수, 전환율, 상승도 및 신뢰도에 대한 정보가 포함되어 있습니다.
 
 하나 이상의 경험을 선택하여 비교할 수 있습니다. 경험을 클릭하고 **[!UICONTROL Preview]**&#x200B;을(를) 선택하여 브라우저 탭에서 경험을 엽니다.
-
-![Adobe Target의 경험 성과 보고서](/help/main/c-reports/assets/experienceperformancetable.png)
 
 보고서 상단에 지표, 시작 및 종료 날짜, 보고서에 사용된 대상이 표시됩니다. 이러한 요소는 변경할 수 있습니다.
 
 >[!NOTE]
 >
->Analytics를 보고 소스로 사용하는 경우에만 대상자 및 지표 선택기를 사용할 수 있습니다.
+>대상 및 지표 선택기는 [!DNL Analytics]을(를) 보고 소스로 사용하는 경우에만 사용할 수 있습니다.
 
 그런 다음, 특정 시간 간격으로 각 경험을 시각적으로 비교할 수 있는 선 그래프가 표시됩니다. 이 그래프는 각 경험의 성과를 확인하고 하루 중 특정 시간이 성과에 어떤 영향을 주는지 파악하는 데 유용합니다.
 
@@ -33,7 +31,7 @@ ht-degree: 81%
 >
 >최고 성과 5개 또는 최저 성과 5개 필터가 선택되어 있을 때 다변량 테스트 보고서에는 제외되는 모든 경험이 표시되지 않습니다.
 
-그래프 아래의 표는 각 경험을 본 참여자의 수와 성공 지표와 관련된 기타 정보를 보여줍니다.
+그래프 아래의 테이블은 각 경험을 본 참여자의 수와 성공 지표와 관련된 기타 정보를 보여줍니다.
 
 ## 교육 비디오: MVT 테스트 ![튜토리얼 배지](/help/main/assets/tutorial.png) 만들기
 

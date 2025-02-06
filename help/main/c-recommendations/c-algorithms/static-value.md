@@ -5,16 +5,16 @@ title: Recommendations 활동에서 정적 값을 기준으로 필터링하려�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '238'
+source-wordcount: '235'
 ht-degree: 45%
 
 ---
 
-# 정적 필터
+# [!UICONTROL Static Filter]
 
-[!DNL Adobe Target] [!DNL Recommendations]에서 포함 규칙을 사용하여 필터링할 정적 값을 하나 이상 수동으로 입력하십시오.
+[!DNL Adobe Target Recommendations]의 포함 규칙을 사용하여 필터링할 정적 값을 하나 이상 수동으로 입력하십시오.
 
 예를 들어 MPA(영화 협회) 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 컨텐츠만 추천합니다.
 
@@ -26,6 +26,4 @@ ht-degree: 45%
 
 ## G 또는 PG 등급의 콘텐츠 추천
 
-정적 값으로 포함 규칙을 만들어 MPA 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 콘텐츠만 추천하도록 하려면(&quot;R&quot; 및 &quot;NC17&quot; 콘텐츠 제외), 아래와 같이 &quot;동영상 등급이 g 등급&quot;과 &quot;동영상 등급이 pg 등급&quot;인 다음 필터링 규칙을 만들 수 있습니다.
-
-![동영상 등급 예제](/help/main/c-recommendations/c-algorithms/assets/movies.png)
+정적 값으로 포함 규칙을 만들어 MPA 등급이 &quot;G&quot; 또는 &quot;PG&quot;인 콘텐츠만 추천하도록 하려면(&quot;R&quot; 및 &quot;NC17&quot; 콘텐츠 제외), 다음 필터링 규칙을 만들 수 있습니다. &quot;동영상 등급이 모든 g 등급&quot;과 &quot;동영상 등급이 모든 pg 등급&quot;입니다.

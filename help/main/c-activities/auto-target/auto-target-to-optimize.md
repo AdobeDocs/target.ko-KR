@@ -1,14 +1,14 @@
 ---
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제해결
-description: ' [!DNL Target] 의 [!UICONTROL Auto-Target] 활동이 고객 프로필과 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공하는 방법에 대해 알아봅니다.'
+description: '[!UICONTROL Auto-Target] 활동이 고객 프로필 및 유사한 방문자의 행동을 기반으로 각 방문자에게 가장 적합한 경험을 제공하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL Auto-Target] 활동이란?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 1b1b2271738d12f8da4e695900b70e280f50d8cf
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 21%
+source-wordcount: '1828'
+ht-degree: 18%
 
 ---
 
@@ -34,7 +34,7 @@ ht-degree: 21%
 
 안내가 있는 3단계 워크플로우를 사용하여 [A/B 활동을 만드는 중](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) **[!UICONTROL Targeting]** 페이지에서 **[!UICONTROL Auto-Target for personalized experiences]** 옵션을 선택합니다(2단계).
 
-![개인화된 경험에 대한 자동 타겟](/help/main/c-activities/assets/auto-target-ui-new.png)
+![트래픽 할당 메서드 설정](/help/main/c-activities/automated-traffic-allocation/assets/auto-target.png)
 
 A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번의 클릭으로 마케터가 정의한 일련의 경험들을 기반으로 개인화하는 기계 학습을 활용할 수 있습니다. [!UICONTROL Auto-Target]은(는) 각 방문자에 대해 표시할 경험을 결정함으로써 기존의 A/B 테스트나 [!UICONTROL Auto Allocate]에 비해 최대 최적화를 제공하도록 설계되었습니다. 목표가 단일 승자를 찾는 것인 A/B 활동과 달리 [!UICONTROL Auto-Target]은(는) 주어진 방문자에게 최상의 경험을 자동으로 결정합니다. 최상의 경험은 고도로 개인화된 경험을 제공하기 위해 방문자의 프로필 및 기타 컨텍스트 정보를 기반으로 합니다.
 
@@ -52,7 +52,7 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 
   두 번째 모델 세트의 트래픽은 각 모델링 그룹 (AP) 또는 경험 (AT)에 대해 빌드됩니다. 이러한 각 모델에 대해 모든 환경의 히트 및 전환이 고려됩니다.
 
-  요청은 환경에 관계없이 동일한 모델에서 제공되지만, 복수의 트래픽은 식별된 전체 우승 경험이 실제 동작과 일관되도록 기본 환경에서 가져와야 합니다.
+  요청은 환경에 관계없이 동일한 모델로 제공됩니다. 그러나, 복수의 트래픽은 식별된 전체 우승 경험이 실제 동작과 일관되도록 기본 환경에서 가져와야 합니다.
 
 * 최소 2개의 경험을 사용합니다.
 
@@ -82,21 +82,21 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 
 [!UICONTROL Custom Allocation] 드롭다운 목록에서 다음 옵션 중 하나를 선택할 수 있습니다.
 
-* [!UICONTROL Evaluate Personalization Algorithm]
-* [!UICONTROL Maximize Personalization Traffic]
+* [!UICONTROL Evaluate Personalization Algorithm (50/50)]
+* [!UICONTROL Maximize Personalization Traffic (90/10)]
 * [!UICONTROL Custom Allocation]
 
-![할당 목표 드롭다운 목록](/help/main/c-activities/assets/split-new.png)
+![할당 목표 드롭다운 목록](/help/main/c-activities/assets/split-new-ui.png)
+
+다음 표에서는 세 가지 옵션에 대해 설명합니다.
 
 | 활동 목표 | 제안된 트래픽 할당 | 트레이드오프 |
 |--- |--- |--- |
-| **개인화 알고리즘 평가(50/50)**: 목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다. 임의 경험을 제어로 사용하는 것이 좋습니다. | 50% 통제/50% 개인화 경험 분할 | <ul><li>통제 경험과 개인화된 경험 간 상승도의 정확성을 극대화합니다.</li><li>개인화된 경험을 가진 방문자가 상대적으로 적습니다</li></ul> |
-| **Personalization 트래픽 최대화(90/10)**: 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 10%의 방문자를 제어 알고리즘에 추가하여 충분한 데이터를 보장함으로써 시간에 따른 학습이 계속 진행될 수 있게 합니다. 여기서 장점은 더 많은 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어진다는 점입니다. 목표에 관계없이, 특정 경험을 제어로 사용할 때 권장되는 트래픽 분할입니다. | 10%~30% 통제/70%~90% 개인화된 경험 분할을 사용하는 것이 좋습니다. | <ul><li>개인화된 경험이 있는 방문자의 수를 극대화합니다.</li><li>상승도를 극대화합니다.</li><li>활동에 대한 상승도 크기와 관련하여 정확도가 낮습니다.</li></ul> |
+| **[!UICONTROL Evaluate Personalization Algorithm (50/50)]**: 목표가 알고리즘을 테스트하는 것이면 제어 및 타깃팅된 알고리즘 간에 50/50%로 분할된 방문자를 사용합니다. 이 분할은 가장 정확한 상승도 추정치를 제공합니다. 임의 경험을 제어로 사용하는 것이 좋습니다. | 50% 통제/50% 개인화 경험 분할 | <ul><li>통제 경험과 개인화된 경험 간 상승도의 정확성을 극대화합니다.</li><li>개인화된 경험을 가진 방문자가 상대적으로 적습니다</li></ul> |
+| **[!UICONTROL Maximize Personalization Traffic (90/10)]**: 목표가 &quot;상시 설정&quot; 활동을 만드는 것이면 10%의 방문자를 제어 알고리즘에 추가하여 충분한 데이터를 보장함으로써 시간에 따른 학습이 계속 진행될 수 있게 합니다. 여기서 장점은 더 많은 트래픽 비율을 개인화하는 대신 정확한 상승도를 파악하는 데는 정밀도가 떨어진다는 점입니다. 목표에 관계없이, 특정 경험을 제어로 사용할 때 권장되는 트래픽 분할입니다. | 10%~30% 통제/70%~90% 개인화된 경험 분할을 사용하는 것이 좋습니다. | <ul><li>개인화된 경험을 가진 방문자의 수를 최대화합니다.</li><li>상승도를 극대화합니다.</li><li>활동에 대한 상승도 크기와 관련하여 정확도가 낮습니다.</li></ul> |
 | **사용자 지정 할당** | 백분율을 원하는 대로 수동으로 분할하십시오. | <ul><li>원하는 결과를 얻지 못할 수 있습니다. 잘 모르는 경우에는 앞의 선택 사항들 중 하나에 대한 제안을 따르십시오.</li></ul> |
 
-[!UICONTROL Control] 백분율을 조정하려면 [!UICONTROL Allocation] 열의 아이콘을 클릭합니다. 통제군은 10% 미만으로 줄일 수 없습니다.
-
-![자동 타겟 트래픽 할당 변경](/help/main/c-activities/assets/auto-target-control.png)
+[!UICONTROL Control] 백분율을 조정하려면 [!UICONTROL Traffic Allocation] 창에서 [!UICONTROL Experiences]을(를) 클릭한 다음 원하는 대로 백분율을 조정하십시오. 통제군은 10% 미만으로 줄일 수 없습니다.
 
 특정 경험을 [선택하여 컨트롤로](/help/main/c-activities/t-automated-personalization/experience-as-control.md) 사용하거나 임의의 선택 사항을 사용할 수 있습니다.
 
@@ -113,7 +113,7 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 ### 알고리즘은 각 방문에 대해 유리한 결과를 최적화합니다.
 
 * 알고리즘은 최고의 경험을 제공하기 위해 방문자의 전환 성향(또는 전환으로 인한 예상 매출)을 예측합니다.
-* 기존 세션이 종료되면 방문자에게 새 경험을 부여할 수 있습니다(방문자가 컨트롤 그룹에 속해 있지 않은 경우 첫 번째 방문에 할당된 경험은 후속 방문에 대해 동일하게 유지됨).
+* 기존 세션이 종료되면 방문자에게 새 경험을 부여할 수 있습니다(방문자가 컨트롤 그룹에 속해 있지 않은 경우 첫 번째 방문에서 할당된 경험은 후속 방문에도 동일하게 유지됨).
 * 세션 내에서는 시각적 일관성을 유지하기 위해 예측이 변경되지 않습니다.
 
 ### 이 알고리즘은 방문자 행동 변화에 적응합니다.
@@ -158,20 +158,8 @@ A/B 활동 흐름 내의 [!UICONTROL Auto-Target] 옵션을 사용하면 한 번
 ### [!UICONTROL Auto-Target]은(는) 광범위한 온라인 테스트 프레임워크를 제공합니다.
 
 * Multi-arm bandit은 [!DNL Adobe]명의 데이터 과학자와 연구원이 실제 환경에서 지속적으로 개선되는 이점을 이해할 수 있는 대규모 온라인 테스트 프레임워크의 일부입니다.
-* 앞으로 이 테스트 베드를 통해 [!DNL Adobe] 머신 러닝 플랫폼을 데이터에 정통한 클라이언트에게 열어 해당 클라이언트가 [!DNL Target] 모델을 늘릴 수 있습니다.
+* 앞으로 이 테스트 베드를 통해 [!DNL Adobe] 머신 러닝 플랫폼을 데이터 전문 클라이언트에게 열어 해당 고객이 직접 모델을 가져와 [!DNL Target] 모델을 늘릴 수 있습니다.
 
 ## 보고 및 [!UICONTROL Auto-Target] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
 자세한 내용은 [보고 및 자동 타겟](/help/main/c-activities/auto-target/reporting-and-auto-target.md)을 참조하세요.
-
-## 교육 비디오: 자동 타겟 활동 이해
-
-이 비디오에서는 [!UICONTROL Auto-Target] A/B 활동을 설정하는 방법을 설명합니다.
-
-이 교육을 완료하면 다음 작업을 수행할 수 있습니다.
-
-* [!UICONTROL Auto-Target] 테스트 정의
-* [!UICONTROL Auto-Target]과(와) [!UICONTROL Automated Personalization] 비교 및 대조
-* [!UICONTROL Auto-Target]개 활동 만들기
-
->[!VIDEO](https://video.tv.adobe.com/v/18558)

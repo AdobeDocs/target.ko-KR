@@ -4,30 +4,28 @@ description: Excel, Access 또는 기타 데이터 분석 프로그램으로 빠
 title: 보고서 데이터를 CSV 파일로 다운로드하려면 어떻게 합니까?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 37%
+source-wordcount: '652'
+ht-degree: 34%
 
 ---
 
 # CSV 파일로 데이터 다운로드
 
-데이터를 .csv 형식으로 다운로드하면 Excel, Access 또는 기타 데이터 분석 프로그램으로 빠르게 가져올 수 있습니다.
+데이터를 .csv 형식으로 다운로드하면 [!DNL Excel], [!DNL Access] 또는 기타 데이터 분석 프로그램으로 빠르게 가져올 수 있습니다.
 
 데이터를 CSV 파일로 다운로드하려면 다음을 수행하십시오.
 
 1. **[!UICONTROL Activities]**&#x200B;을 클릭한 다음, 목록에서 원하는 활동을 클릭합니다.
 
-   활동이 많은 경우 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] 및 [!UICONTROL Activity Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링할 수 있습니다.
+   많은 활동이 있는 경우 필터( ![필터 아이콘](/help/main/assets/icons/Filter.svg) ) 아이콘을 클릭하여 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] 및 [!UICONTROL Activity Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링합니다.
 
 1. **[!UICONTROL Reports]** 탭을 클릭합니다.
-1. **[!UICONTROL Download]** 아이콘을 클릭한 다음 Excel 및 기타 도구에서 분석할 수 있도록 다운로드할 보고서 유형을 선택하십시오.
+1. **[!UICONTROL Download]**( ![다운로드 아이콘](/help/main/assets/icons/Download.svg)) 아이콘을 클릭한 다음 Excel 및 기타 도구에서 분석할 수 있도록 다운로드할 보고서 유형을 선택하십시오.
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-   ![다운로드 옵션](/help/main/c-reports/assets/download-options.png)
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 

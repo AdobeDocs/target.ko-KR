@@ -4,10 +4,10 @@ description: ' [!DNL Target] Adobe의 보고서에 영향을 주지 않도록 �
 title: 보고서에서 예외적인 값을 제외하려면 어떻게 합니까?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '318'
-ht-degree: 65%
+ht-degree: 64%
 
 ---
 
@@ -29,10 +29,8 @@ ht-degree: 65%
 
 **보고서에서 예외적인 값을 제외하려면**
 
-1. 매출 또는 참여 지표 유형을 포함하는 활동을 연 다음 **[!UICONTROL Reports]** 탭을 클릭합니다.
-1. 톱니바퀴 아이콘을 클릭하여 **[!UICONTROL Settings]** 대화 상자를 표시합니다.
-
-   ![단계 결과](assets/exclude_extreme_values.png)
+1. [!UICONTROL Revenue] 또는 [!UICONTROL Engagement] 지표 유형을 포함하는 활동을 연 다음 **[!UICONTROL Reports]** 탭을 클릭합니다.
+1. 보고서 설정(![보고서 설정 아이콘](/help/main/assets/icons/Setting.svg) ) 아이콘을 클릭하여 **[!UICONTROL Settings]** 대화 상자를 표시합니다.
 
 1. 원하는 대로 **[!UICONTROL Exclude Extreme Values]** 토글을 &quot;켜기&quot; 또는 &quot;끄기&quot; 위치로 밉니다.
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.

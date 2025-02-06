@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] 에서 [!UICONTROL Visual Experience Composer](
 title: '[!UICONTROL Multivariate Test](MVT)에서 조합을 만들려면 어떻게 해야 합니까?'
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
-source-git-commit: 4a18dc6c9988e593a65bdcf695113d7179d88290
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
-source-wordcount: '485'
-ht-degree: 56%
+source-wordcount: '470'
+ht-degree: 54%
 
 ---
 
@@ -27,33 +27,25 @@ VEC를 사용하여 오퍼를 만들고 편집하는 방법에 대한 자세한 
 
 하나의 위치에서 여러 개의 이미지 오퍼를 테스트하여 가장 성공적인 이미지를 파악합니다.
 
-1. 페이지에서 이미지를 클릭한 다음 **[!UICONTROL Change Image]**&#x200B;을(를) 선택합니다.
+1. 페이지에서 이미지를 클릭한 다음 **[!UICONTROL Change Image Offer]**&#x200B;을(를) 선택합니다.
 
-   ![이미지 변경 옵션](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
-
-1. 테스트에 포함할 모든 이미지를 선택한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-
-   ![이미지 추가에 사용된 콘텐츠 선택 대화 상자](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
+1. [!UICONTROL Image Offer] 대화 상자에서 테스트에 포함할 모든 이미지를 선택한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
 각 이미지가 해당 위치에서 별도의 경험이 됩니다.
 
 ## HTML 오퍼 {#section_DF016101AFA9412C9B99862C23DE77B1}
 
-하나의 위치에서 여러 개의 텍스트/HTML 오퍼를 테스트하여 가장 성공적인 오퍼를 파악합니다.
+하나의 위치에서 여러 개의 HTML 오퍼를 테스트하여 가장 성공적인 오퍼를 파악합니다.
 
-1. 페이지에서 텍스트/HTML 오퍼를 클릭한 다음 **[!UICONTROL Change Text/HTML]**&#x200B;을(를) 클릭합니다.
+1. 페이지에서 HTML 오퍼를 클릭한 다음 **[!UICONTROL Change HTML Offer]**&#x200B;을(를) 클릭합니다.
 
-   ![텍스트/HTML 변경](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changehtml.png)
+1. **[!UICONTROL Create Offer]**&#x200B;을(를) 클릭하고 **[!UICONTROL HTML Offer]**&#x200B;을(를) 클릭한 다음, 오퍼 이름을 지정하고, HTML 오퍼의 코드를 입력하거나 붙여 넣은 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Add Text/HTML Offer]**&#x200B;을(를) 클릭하고 오퍼의 이름을 지정한 다음 텍스트/HTML 오퍼의 코드를 입력하거나 붙여 넣습니다.
-
-   ![오퍼 편집](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
-
-   포함하려는 모든 추가적인 텍스트/HTML 오퍼에 이 작업을 반복합니다.
+   포함하려는 모든 추가적인 HTML 오퍼에 이 작업을 반복합니다.
 
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
-각 텍스트/HTML 오퍼가 해당 위치에서 별도의 경험이 됩니다.
+각 HTML 오퍼가 해당 위치에서 별도의 경험이 됩니다.
 
 ## 우수 사례 {#section_2E98C23D2F1A460FA732A31799CE6291}
 
@@ -64,4 +56,3 @@ VEC를 사용하여 오퍼를 만들고 편집하는 방법에 대한 자세한 
 * 테스트할 요소가 3개 이상 있어야 합니다. 테스트할 요소가 3개 미만이면 일련의 A/B 테스트를 실행합니다.
 * 각 요소의 대안은 서로 상당히 달라야 한다.
 * 필수 사항은 아니지만, 각 요소에 동일한 개수의 대체 항목을 사용하는 것이 좋습니다.
-

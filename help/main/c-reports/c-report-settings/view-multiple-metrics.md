@@ -4,9 +4,9 @@ description: Adobe Target을 사용하여 보고서에서 볼 여러 지표를 �
 title: 보고서에서 여러 지표를 보려면 어떻게 합니까?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '399'
+source-wordcount: '391'
 ht-degree: 12%
 
 ---
@@ -27,8 +27,6 @@ ht-degree: 12%
 1. 보고서를 표시하려면 **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 목록에서 원하는 활동을 클릭한 다음 **[!UICONTROL Reports]** 탭을 클릭하십시오.
 1. **[!UICONTROL Report Metric]** 드롭다운 목록을 클릭하여 [!UICONTROL Shown Metrics] 및 [!UICONTROL Hidden Metrics] 목록을 표시합니다.
 
-   ![multiple_metrics 이미지](assets/multiple_metrics.png)
-
    [!UICONTROL Search] 상자를 사용하여 [!UICONTROL Shown Metrics] 목록에 추가할 사용 가능한 지표를 빠르게 찾을 수 있습니다.
 
    보고서의 [!UICONTROL Table View] 및 [!UICONTROL Graph View] 모드 모두에서 여러 지표를 선택할 수 있습니다.
@@ -46,10 +44,6 @@ ht-degree: 12%
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 1. (조건부) [!UICONTROL Table View]에서 보고서를 보는 동안 모든 지표의 열 머리글을 마우스 포인터로 가리켜서 파란색 화살표를 표시합니다. 화살표를 클릭하여 테이블을 확장하면 해당 지표에 대한 [!UICONTROL Lift] 및 [!UICONTROL Confidence]이(가) 표시됩니다.
 
-   ![multiple_metrics_table 이미지](assets/multiple_metrics_table.png)
-
    한 번에 하나의 지표/열만 확장할 수 있습니다. 열을 축소하려면 화살표를 다시 클릭하십시오.
 
-1. (조건부) 그래프 보기에서 보고서를 보는 동안 드롭다운 목록에서 표시할 개별 지표를 선택할 수 있습니다.
-
-   ![multiple_metrics_graph 이미지](assets/multiple_metrics_graph.png)
+1. (조건부) [!UICONTROL Graph View]에서 보고서를 보는 동안 드롭다운 목록에서 표시할 개별 지표를 선택할 수 있습니다.

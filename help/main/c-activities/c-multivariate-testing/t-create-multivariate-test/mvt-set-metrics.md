@@ -4,7 +4,7 @@ description: '[!UICONTROL Conversion], [!UICONTROL Revenue] 및 [!UICONTROL Enga
 title: '[!UICONTROL Multivariate Test](MVT) 활동에서 목표 지표를 설정하려면 어떻게 합니까?'
 feature: Multivariate Tests
 exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
-source-git-commit: 6c00224e814abb33cdf968a249bd36fb2e5ed2ed
+source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
 workflow-type: tm+mt
 source-wordcount: '322'
 ht-degree: 60%
@@ -20,7 +20,7 @@ ht-degree: 60%
 1. 활동의 목표를 지정합니다.
 1. [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
 
-   ![지표 설정 목록](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
+   ![지표 설정 목록](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list-new.png)
 
    [!UICONTROL Select Metrics] 페이지에 활동에 대해 선택할 수 있는 성공 지표가 나열됩니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
@@ -41,7 +41,7 @@ ht-degree: 60%
    자세한 내용은 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오
 
 1. (선택 사항) 추가 지표를 추가합니다.
-1. 지표 설정이 끝나면 **[!UICONTROL Continue]**&#x200B;을(를) 클릭합니다.
+1. 지표 설정이 끝나면 **[!UICONTROL Save and Close]**&#x200B;을(를) 클릭합니다.
 
 지표의 이름을 지정하거나 지표의 이름을 바꾸는 경우 다음 문자가 허용되지 않습니다.
 

@@ -1,12 +1,12 @@
 ---
 keywords: 다중 값;속성;권장 사항;다중 값;다중 값;다중 값
-description: 여러 배우와 함께 영화를 추천할 때와 같이 특별한 다중 값 연산자를 사용하여 Adobe [!DNL Target] Recommendations에서 다중 값 필드로 작업하는 방법에 대해 알아봅니다.
+description: 특수 다중 값 연산자를 사용하여  [!DNL Target Recommendations] 에서 다중 값 필드로 작업하는 방법을 알아봅니다.
 title: Recommendations에서 다중 값 속성을 사용할 수 있습니까?
 feature: Recommendations
 exl-id: 82018a9a-0983-458c-9387-3602dab4409b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '441'
 ht-degree: 9%
 
 ---
@@ -74,7 +74,7 @@ function targetPageParams() {
 
 ### 예: 최근에 시청한 항목 제외
 
-사용자의 마지막 10개 시청 동영상에 포함된 영화가 추천되지 않도록 하려는 경우 먼저 `user.lastWatchedMovies`(이)라는 프로필 스크립트를 작성하여 마지막으로 본 10개의 동영상을 JSON 배열로 추적합니다. 그런 다음 다음 다음 포함 규칙을 사용하여 항목을 제외할 수 있습니다.
+사용자의 마지막 10개 시청 동영상에 포함된 영화를 추천하지 않도록 하려는 경우 먼저 `user.lastWatchedMovies`(이)라는 프로필 스크립트를 작성하여 마지막으로 본 10개의 동영상을 JSON 배열로 추적합니다. 그런 다음 다음 다음 포함 규칙을 사용하여 항목을 제외할 수 있습니다.
 
 ```
 `Profile Attribute Matching`
@@ -118,7 +118,7 @@ function targetPageParams() {
 
 ### 예: 사용자의 즐겨찾기에서 항목을 추천하는 기준의 API 생성
 
-모든 기준과 마찬가지로 다중 값 필터링 규칙을 사용하는 기준은 Adobe I/O API를 통해 만들 수 있습니다. 엔터티 특성 `id`이(가) mbox 매개 변수 목록 `favorites`에 포함된 기준을 만드는 예제 API 호출이 여기에 제공됩니다.
+모든 기준과 같이 다중 값 필터링 규칙을 사용하는 기준은 [!DNL Adobe Target] API를 통해 만들 수 있습니다. 엔터티 특성 `id`이(가) mbox 매개 변수 목록 `favorites`에 포함된 기준을 만드는 예제 API 호출이 여기에 제공됩니다.
 
 ```
 curl -X POST \
@@ -158,7 +158,7 @@ curl -X POST \
 이 플러그인은 페이지의 JavaScript과 쌍을 이루어 즐겨찾기 컨텐츠를 전달합니다.
 
 ```
-<!-- pass in the value of mbox parameter “favorites” as JSON array -->
+<!-- pass in the value of mbox parameter "favorites" as JSON array -->
 <script type="text/javascript">
    mboxCreate('myMbox','entity.id=<key>','favorites=["a","b","c"]');
 </script>

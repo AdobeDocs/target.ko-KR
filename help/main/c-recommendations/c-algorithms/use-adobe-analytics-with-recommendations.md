@@ -1,32 +1,30 @@
 ---
 keywords: 동작 데이터 소스;분석;권장 사항;기준;제품 변수
-description: ' [!DNL Analytics] in [!DNL Target Recommendations]의 보기 기반 및/또는 구매 기반 행동 데이터를 사용하기 위해 행동 데이터 소스로  [!DNL Adobe Analytics] 을(를) 사용하는 방법에 대해 알아봅니다.'
+description: ' [!DNL Target Recommendations]에서 동작 데이터 소스로  [!DNL Adobe Analytics] 을(를) 사용하는 방법을 알아보세요.'
 title: ' [!DNL Adobe Analytics] with [!DNL Target Recommendations]을(를) 사용하려면 어떻게 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '778'
-ht-degree: 1%
+source-wordcount: '757'
+ht-degree: 0%
 
 ---
 
 # [!DNL Recommendations]과(와) 함께 [!DNL Adobe Analytics] 사용
 
-[!DNL Adobe Analytics]을(를) 동작 데이터 소스로 사용하면 클라이언트는 [!DNL Adobe Target] [!DNL Recommendations] 활동에서 [!DNL Analytics]의 보기 기반 및/또는 구매 기반 동작 데이터를 사용할 수 있습니다. 이 기능은 [!DNL Target Recommendations] 설정이 처음이고 [!DNL Analytics]에 사용할 내역 데이터가 많은 경우 특히 유용합니다.
+[!DNL Adobe Analytics]을(를) 동작 데이터 소스로 사용하면 클라이언트가 [!DNL Adobe Target Recommendations] 활동에서 [!DNL Analytics]의 보기 기반 및 구매 기반 동작 데이터를 사용할 수 있습니다. 이 기능은 [!DNL Target Recommendations] 설정이 처음이고 [!DNL Analytics]에 사용할 내역 데이터가 많은 경우 특히 유용합니다.
 
 [!DNL Analytics]을(를) 동작 데이터 원본으로 사용하면 사용자 동작에 대한 풍부한 정보 원본으로 사용할 수 있습니다. 이 정보에는 [!DNL Analytics]과(와) 공유된 서드파티 원본 또는 피드의 데이터가 포함될 수 있습니다.
 
 [!DNL Recommendations]에서 [기준을 만드는 중](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)에 사용할 데이터 원본을 선택할 수 있는 라디오 단추가 두 개 있습니다. [!UICONTROL mboxes] 또는 [!UICONTROL Analytics]. 기준을 만들려면 [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]을(를) 클릭합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
 
-![동작 데이터 원본 단추](assets/behavioral-data-source.png)
-
 >[!NOTE]
 >
 >이 두 단추가 계정에 표시되지 않으면 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하세요.
 
-## Target의 Analytics 데이터에 대한 사용 사례
+## [!DNL Target]의 [!DNL Analytics] 데이터에 대한 사용 사례
 
 [!DNL Analytics]을(를) 권장 사항에 대한 동작 데이터 소스로 사용하면 모든 [!DNL Target] 엔티티 매개 변수와 함께 엔티티 페이지에 태그를 지정할 필요 없이 특정 사용 사례를 배포할 수도 있습니다. 이를 위해서는 특정 사전 요구 사항이 적용되어야 하지만 해당 기능이 원활하게 작동하려면 &quot;제품 변수&quot;의 가용성이 가장 중요합니다. 일반 eVar 및 Prop으로는 이 핸드셰이크가 [!DNL Analytics]에서 [!DNL Target] 사이에 자동으로 발생하지 않습니다.
 
@@ -63,13 +61,9 @@ ht-degree: 1%
 
 1. [!DNL Target]에서 **[!UICONTROL Recommendations]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Feeds]** 탭을 클릭합니다.
 
-   ![피드](/help/main/c-recommendations/c-algorithms/assets/feeds-tab.png)
-
 1. **[!UICONTROL Create Feed]** 아이콘을 클릭합니다.
 
 1. **[!UICONTROL Analytics Classifications]**&#x200B;을(를) 선택한 다음 보고서 세트를 지정합니다.
-
-   ![Analytics 분류 옵션](/help/main/c-recommendations/c-algorithms/assets/analytics-classifications.png)
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 **[!UICONTROL Schedule]** 설정으로 이동한 다음 피드의 빈도 기간을 선택하십시오.
 
@@ -81,8 +75,6 @@ ht-degree: 1%
    피드가 처리할 시간을 선택할 수도 있습니다.
 
 1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 **[!UICONTROL Mapping]** 설정으로 이동한 다음 필드 열 헤더를 적절한 [!UICONTROL Recommendations] 필드 이름에 매핑합니다.
-
-   ![매핑 섹션](/help/main/c-recommendations/c-algorithms/assets/mapping.png)
 
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 

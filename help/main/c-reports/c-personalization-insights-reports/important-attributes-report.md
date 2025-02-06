@@ -5,9 +5,9 @@ title: 중요 속성 보고서란 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '1790'
+source-wordcount: '1773'
 ht-degree: 56%
 
 ---
@@ -36,25 +36,20 @@ ht-degree: 56%
 
 1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭한 다음 목록에서 원하는 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동을 클릭합니다.
 
-   활동이 많은 경우 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] 및 [!UICONTROL Activity Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링할 수 있습니다.
+   많은 활동이 있는 경우 필터( ![필터 아이콘](/help/main/assets/icons/Filter.svg) ) 아이콘을 클릭하여 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] 및 [!UICONTROL Activity Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링합니다.
 
 1. **[!UICONTROL Reports]** 아이콘을 클릭합니다.
 
-   활동의 성능에 대한 정보를 제공하는 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 타겟 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 보고서가 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 두 개의 [!UICONTROL Personalization Insights] 보고서를 나타냅니다. [!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes].
+   활동의 성능에 대한 정보를 제공하는 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 타겟 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 보고서가 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 두 개의 [!UICONTROL Personalization Insights] 보고서를 나타냅니다. **[!UICONTROL Automated Segments]**(![자동화된 세그먼트 보고서](/help/main/assets/icons/AutomatedSegment.svg)) 및 **[!UICONTROL Important Attributes]**(![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg)).
 
-   ![Automated Personalization 활동에 대한 요약 보고서](/help/main/c-reports/assets/summary-report-ap.png)
 
    [!UICONTROL Auto-Target]에는 [!UICONTROL Summary] 보고서의 그래픽 보기에 대한 추가 그래프 아이콘이 있습니다.
-
-   ![자동 타겟 활동에 대한 요약 보고서](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
    >[!UICONTROL Important Attributes] 보고서는 활동을 활성화한 후 적어도 15일 이후에나 사용할 수 있습니다. 이 초기 기간 동안에는 이 보고서에 액세스하거나 [!UICONTROL Important Attributes] 아이콘을 클릭할 수 없습니다. 15일 이후에는 활동에 개인화된 트래픽이 충분하다고 가정하여 [!UICONTROL Important Attributes] 보고서를 사용할 수 있습니다.
 
-1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL Important Attributes]** 아이콘을 클릭합니다.
-
-   ![Adobe Target 보고서의 중요 특성 아이콘](/help/main/c-reports/assets/model_attribute_ranking.png)
+1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL Important Attributes]**(![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg)) 아이콘을 클릭합니다.
 
 1. 원하는 날짜 범위를 선택합니다.
 
@@ -62,17 +57,11 @@ ht-degree: 56%
 
    이러한 고정 날짜 범위를 사용하면 [!UICONTROL Personalization Insights]에서 충분히 큰 데이터 범위를 사용하여 활동의 단기 패턴에서 통찰력을 얻을 가능성을 줄일 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;은 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
-   ![Adobe Target 보고서의 캘린더](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   [!UICONTROL Choose Duration] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
-
-   ![보고서에서 기간 선택 드롭다운 목록](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   [!UICONTROL Preset Date Range] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
 
 1. [!UICONTROL Important Attributes] 보고서 데이터를 검토하십시오.
 
-   ![Adobe Target의 중요 특성 보고서](/help/main/c-reports/assets/model_attribute_ranking_report.png)
-
-1. (선택 사항) Excel 및 기타 도구에서 분석할 [보고서를 CSV 형식으로 다운로드](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)합니다.
+1. (선택 사항) 다운로드 ( ![다운로드 아이콘](/help/main/assets/icons/Download.svg)) 아이콘을 클릭하여 Excel 및 기타 도구에서 분석할 보고서를 [CSV 형식으로 다운로드](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)합니다.
 
    >[!NOTE]
    >
@@ -84,7 +73,7 @@ ht-degree: 56%
 
 | 요소 | 세부 사항 |
 |--- |--- |
-| 막대 그래프 | 화면 맨 위에 있는 여러 색의 막대 그래프를 사용하면 이러한 상대적 중요도 점수를 시각화할 수 있으며, 테이블에서 해당하는 각 속성 옆에 있는 점의 색상에 매핑됩니다. 또한 막대형 차트에서 특정 색상을 마우스로 가리키면 색상이 나타내는 속성을 볼 수 있습니다.  상위 100개 속성의 중요도 점수는 100%에 추가됩니다. Target의 개인화 모델에서 사용할 수 있는 특성을 더 추가하는 방법에 대한 자세한 내용은 [Target의 Personalization 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오. |
+| 막대 그래프 | 화면 맨 위에 있는 여러 색의 막대 그래프를 사용하면 이러한 상대적 중요도 점수를 시각화할 수 있으며, 테이블에서 해당하는 각 속성 옆에 있는 점의 색상에 매핑됩니다. 또한 막대 그래프에서 특정 색상을 마우스로 가리키면 색상이 나타내는 속성을 볼 수 있습니다.  상위 100개 속성의 중요도 점수는 100%에 추가됩니다. Target의 개인화 모델에서 사용할 수 있는 특성을 더 추가하는 방법에 대한 자세한 내용은 [Target의 Personalization 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오. |
 | 모델 속성 등급 차트 | 모델 속성 등급에는 Target의 개인화 모델이 각 방문자를 표시하는 콘텐츠를 결정하는 데 가장 중요한 상위 10개 속성이 포함되어 있습니다. 중요도 점수는 상위 100개 속성을 기준으로 하여 이 활동에서 특정 속성이 Target의 개인화 모델에 얼마나 중요한지를 보여 줍니다. |
 
 ## 중요 속성 FAQ {#section_740910A52FA646B4AC9452F98C2F5719}

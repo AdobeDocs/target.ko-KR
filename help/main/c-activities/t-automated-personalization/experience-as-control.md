@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Automated Personalization, Auto-Target
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 29f8c19e24443e84b8d900f630495d163530f80e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '737'
-ht-degree: 42%
+source-wordcount: '768'
+ht-degree: 39%
 
 ---
 
@@ -30,8 +30,15 @@ AP([[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-
 ## 특정 경험을 제어로 지정
 
 1. [[!UICONTROL Automated Personalization] 활동](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) 또는 [[!UICONTROL Auto-Target] 활동](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)을 만들거나 편집하는 동안 필요에 따라 경험을 구성하십시오.
-1. [!UICONTROL Targeting] 페이지(3단계 안내 워크플로의 2단계)에서 원하는 경험을 제어로 선택합니다.
-1. 제어 경험과 다른 경험에 대해 원하는 트래픽 할당을 지정합니다.
+1. [!UICONTROL Targeting] 페이지(3단계 안내 워크플로의 2단계)에서 제어 환경을 클릭하여 오른쪽 창에 [!UICONTROL Control] 옵션을 표시합니다.
+
+   ![컨트롤 창](/help/main/c-activities/t-automated-personalization/assets/control.png)
+
+1. [!UICONTROL Control] 드롭다운 목록에서 [!UICONTROL Random Experience]을(를) 선택하거나 컨트롤에 사용할 환경을 선택합니다.
+
+1. [!UICONTROL Traffic Allocation] 컨트롤을 클릭한 다음 컨트롤 경험과 다른 경험에 대해 원하는 트래픽 할당을 지정합니다.
+
+   ![트래픽 할당 레일](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation.png)
 
    특정 경험 컨트롤의 경우 10%~30%가 권장됩니다.
 

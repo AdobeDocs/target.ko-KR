@@ -1,14 +1,14 @@
 ---
 keywords: 권장 사항;백업;백업
-description: Adobe [!DNL Target] Recommendations에서 백업 권장 사항을 사용하는 방법을 알아봅니다. 권장 사항 항목이 충분하지 않은 권장 사항에는 백업 알고리즘의 결과가 표시됩니다.
-title: Recommendations에서 백업 권장 사항을 사용하려면 어떻게 합니까?
+description: ' [!DNL Target Recommendations] Adobe에서 백업 권장 사항을 사용하는 방법을 알아봅니다.'
+title: ' [!DNL Target Recommendations]에서 백업 권장 사항을 사용하는 방법'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 6e15b9b10e6a40c8efec06c45442b0f9894e648e
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '527'
-ht-degree: 77%
+source-wordcount: '508'
+ht-degree: 70%
 
 ---
 
@@ -22,11 +22,11 @@ ht-degree: 77%
 >
 >[!UICONTROL Partial Design Rendering] 및 [!UICONTROL Show Backup Recommendations] 옵션을 함께 사용하거나 별도로 사용할 때 관찰할 결과를 설명하는 행렬을 포함하여 추가 정보는 기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 주제의 [콘텐츠 섹션에 포함되어 있습니다.
 
-백업 권장 사항 기능은 항상 사이트에서 가장 많이 본 항목을 사용하여 알고리즘의 데이터가 사용된 후 나머지 슬롯을 채웁니다. 예를 들어, 템플릿이 권장된 5개 항목을 표시하도록 구성되었고 *구매 친화성* 알고리즘을 사용하고 있지만 데이터가 5개 슬롯 중 2개만 채울 수 있는 경우 백업 권장 사항 기능은 가장 많이 본 항목으로 다른 세 개의 슬롯을 채웁니다.
+백업 권장 사항 기능은 항상 사이트에서 가장 많이 본 항목을 사용하여 알고리즘 데이터가 사용된 후 나머지 슬롯을 채웁니다. 예를 들어, 템플릿이 권장된 5개 항목을 표시하도록 구성되었고 *구매 친화성* 알고리즘을 사용하고 있지만 데이터가 5개 슬롯 중 2개만 채울 수 있는 경우 백업 권장 사항 기능은 가장 많이 본 항목으로 다른 세 개의 슬롯을 채웁니다.
 
 백업 권장 사항은 전체 사이트에서 가장 많이 본 상위 500개 제품에서 임의로 선택됩니다. 백업 권장 사항의 데이터 기간은 일주일입니다.
 
-가장 많이 본 500개의 결과가 순차적으로 정렬된 다음, 20개의 버킷으로 분할됩니다. 버킷은 순서대로 제공되지만 각 버킷 내의 결과는 순서가 무작위로 지정되어 페이지에 반환됩니다. 사용자가 페이지를 새로 고치면 새롭고 순서가 무작위로 지정된 결과가 표시됩니다. 컬렉션과 필터링 규칙의 결합에서 비롯된 결과 세트가 20보다 작으면 컬렉션에서 무작위로 선택됩니다.
+가장 많이 본 500개의 결과가 순차적으로 정렬된 다음, 20개의 버킷으로 분할됩니다. 버킷은 순서대로 제공되지만 각 버킷 내의 결과는 순서가 무작위로 지정되어 페이지에 반환됩니다. 사용자가 페이지를 새로 고치면 새롭고 순서가 무작위로 지정된 결과가 표시됩니다. 컬렉션과 필터링 규칙의 통합으로 설정된 결과가 20보다 작으면 컬렉션에서 무작위로 선택됩니다.
 
 이 버킷 지정 프로세스는 백업 권장 사항이 다음 순서로 표시됨을 의미합니다.
 

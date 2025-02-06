@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 의 [!UICONTROL Visual Experience Composer](V
 title: '[!UICONTROL Experience Targeting] 활동을 만드는 방법'
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
-source-git-commit: 4faafcef38d02674072d8b20ae03d3e2ef2115d6
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '397'
-ht-degree: 38%
+source-wordcount: '389'
+ht-degree: 33%
 
 ---
 
@@ -25,15 +25,13 @@ ht-degree: 38%
 
 1. [!UICONTROL Activities] 목록에서 **[!UICONTROL Create Activity]** > **[!UICONTROL Experience Targeting]**&#x200B;을(를) 클릭합니다.
 
-   ![활동 만들기 > 경험 타깃팅](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
-
    >[!NOTE]
    >
    >사용 가능한 활동 유형은 [!DNL Target] 계정에 따라 다릅니다. 일부 활동 유형은 목록에 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL Automated Personalization]은(는) [Target Premium 기능](/help/main/c-intro/intro.md#premium)입니다.
    >
    >[!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.
 
-1. 필요한 경우 **[!UICONTROL Visual (Default)]**&#x200B;을(를) 선택합니다.
+1. 필요한 경우 **[!UICONTROL Visual]**&#x200B;을(를) 선택합니다.
 
    [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하려면 [!UICONTROL Form]을(를) 선택하십시오.
 
@@ -53,11 +51,7 @@ ht-degree: 38%
 
    VEC가 열리고 URL에 지정된 페이지가 표시됩니다.
 
-   ![VEC 내의 경험 타깃팅 활동](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
-
-1. 제공된 공간에 활동의 이름을 입력합니다.
-
-   ![이름 필드](/help/main/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
+1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 

@@ -4,10 +4,10 @@ description: '[!UICONTROL Experience Targeting] 활동이  [!DNL Adobe Target]�
 title: '[!UICONTROL Experience Targeting](XT) 활동의 [!UICONTROL Activity URL]은(는) 무엇입니까?'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
-source-git-commit: 24513d8cb39d38dcfbc74bf40961d5517cc90a4b
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '263'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -27,13 +27,11 @@ ht-degree: 39%
 
 1. (조건부) VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL Configure]**&#x200B;을(를) 클릭하고 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택한 다음 [!UICONTROL URL] 필드에 URL을 지정하십시오.
 
-   ![페이지 전달 대화 상자](/help/main/c-activities/t-experience-target/t-xt-create/assets/url-config-new.png)
-
    >[!NOTE]
    >
    >페이지를 변경한 후에 하나 이상의 경험에 대해 이 URL을 변경하면 해당 경험은 새 페이지를 사용하여 재설정되고 수행한 변경 사항은 손실됩니다.
 
-1. (조건부) 활동에 페이지 또는 섹션을 추가하려면 **[!UICONTROL Add Template Rule]**&#x200B;을(를) 클릭합니다.
+1. (조건부) 활동에 페이지 또는 섹션을 추가하려면 **[!UICONTROL Add Rule]**&#x200B;을(를) 클릭합니다.
 
    추가 규칙은 다음 중 하나를 기반으로 할 수 있습니다.
 

@@ -4,10 +4,10 @@ description: 방문자를 같은 페이지에 표시하는 대신 다른 페이�
 title: 페이지를 다른 URL로 리디렉션할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
-source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
+source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
-source-wordcount: '475'
-ht-degree: 68%
+source-wordcount: '472'
+ht-degree: 66%
 
 ---
 
@@ -31,16 +31,13 @@ ht-degree: 68%
 리디렉션 오퍼를 만들려면:
 
 1. 경험을 만듭니다.
-1. 마우스를 경험으로 가져간 후 URL로 리디렉션 아이콘(![icon_redirect_url 이미지](assets/icon_redirect_url.png))을 클릭합니다.
-
-   ![exp_actions 이미지](assets/exp_actions.png)
-
-1. URL을 입력합니다.
+1. [!UICONTROL Experiences] 프레임에서 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭하여 원하는 경험을 만듭니다.
+1. **[!UICONTROL Redirect to URL]** 아이콘을 클릭합니다.
+1. URL로 리디렉션 대화 상자에서 URL을 입력합니다.
 1. 원할 경우 현재 쿼리 매개 변수를 포함하는 옵션을 선택합니다.
 
    이 옵션을 선택하면 방문자 URL에서 ? 다음에 나오는 모든 항목이 리디렉션 시 리디렉션 URL에 추가됩니다.
 
-   이 옵션은 기본적으로 선택되어 있습니다.
 1. (선택 사항) 추가 규칙을 만듭니다.
 
    추가 규칙은 다음 중 하나를 기반으로 할 수 있습니다.

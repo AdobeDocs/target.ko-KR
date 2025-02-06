@@ -5,9 +5,9 @@ title: '[!UICONTROL Automated Personalization] 활동에서 오퍼 보고 그룹
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '817'
 ht-degree: 15%
 
 ---
@@ -33,26 +33,17 @@ ht-degree: 15%
 
 ## 보고 그룹 설정
 
-1. AP 활동의 **[!UICONTROL Experiences]** 페이지에서 **[!UICONTROL Manage Content]** 아이콘을 클릭합니다.
-
-   ![콘텐츠 관리 아이콘](/help/main/c-reports/assets/ap_manage_content.png)
-
+1. AP 활동의 **[!UICONTROL Experiences]** 페이지에서 **[!UICONTROL Manage Content]** 아이콘(![콘텐츠 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭합니다
 1. [!UICONTROL Manage Content] 대화 상자 상단의 **[!UICONTROL Offers]** 탭을 클릭합니다.
-1. (조건부) 원하는 오퍼 위로 마우스를 이동한 다음 **[!UICONTROL Reporting Group]** 폴더 아이콘을 클릭하여 보고 그룹에 특정 경험을 추가합니다.
+1. (조건부) 원하는 오퍼에 대해 [!UICONTROL More Actions] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 **[!UICONTROL Reporting Group]**&#x200B;을(를) 클릭하여 보고 그룹에 특정 경험을 추가합니다.
 
-   ![보고 그룹 아이콘](/help/main/c-reports/assets/ap_manage_content_2.png)
+1. (조건부) 관련 경험에 대한 확인란을 선택한 다음 대화 상자 하단의 **[!UICONTROL Reporting Group]**&#x200B;을(를) 클릭하여 배치에 보고 그룹의 경험을 포함합니다.
 
-1. (조건부) 관련 경험에 대한 확인란을 선택한 다음 대화 상자의 오른쪽 맨 위에 있는 **[!UICONTROL Reporting Group]** 폴더 아이콘을 클릭하여 배치에 보고 그룹의 경험을 포함합니다.
-
-   ![보고 그룹 아이콘](/help/main/c-reports/assets/ap_manage_content_3.png)
-
-1. 선택한 오퍼를 기존 보고 그룹에 할당하려면 **[!UICONTROL Existing]**&#x200B;을(를) 선택하고 드롭다운 목록에서 원하는 보고 그룹을 선택한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
+1. 선택한 오퍼를 기존 보고 그룹에 할당하려면 **[!UICONTROL Existing]**&#x200B;을(를) 선택하고 드롭다운 목록에서 원하는 보고 그룹을 선택한 다음 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
    또는
 
-   선택한 오퍼를 할당할 보고 그룹을 만들려면 **[!UICONTROL New]**&#x200B;을(를) 선택하고 새 보고 그룹의 이름을 지정한 다음 **[!UICONTROL Apply]**&#x200B;을(를) 클릭합니다.
-
-   ![새 보고 그룹을 만드는 새 아이콘](/help/main/c-reports/assets/ap_reporting_groups.png)
+   선택한 오퍼를 할당할 보고 그룹을 만들려면 **[!UICONTROL New]**&#x200B;을(를) 선택하고 새 보고 그룹의 이름을 지정한 다음 **[!UICONTROL Confirm]**&#x200B;을(를) 클릭합니다.
 
 [!UICONTROL Location] 목록을 사용하여 위치별로 오퍼를 필터링할 수 있습니다. [!UICONTROL Report Group] 목록을 사용하여 보고 그룹별로 오퍼를 필터링합니다. [!UICONTROL Report Group] 목록을 사용하여 [!UICONTROL Unassigned Offers]을(를) 필터링할 수도 있으므로 현재 보고 그룹에 할당되지 않은 오퍼에 보고 그룹을 할당할 수 있습니다.
 
@@ -81,5 +72,3 @@ ht-degree: 15%
    ![오퍼 그룹: 제어 및 타깃팅](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
 
 [!UICONTROL Automated Personalization]개 보고서([!UICONTROL Offer Level] 보고서 포함) 사용에 대한 자세한 내용은 [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)를 참조하십시오.
-
-

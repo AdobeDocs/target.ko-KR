@@ -1,13 +1,13 @@
 ---
 keywords: A/B;활동 지표;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-description: '[!UICONTROL Conversion], [!UICONTROL Revenue] 및 [!UICONTROL Engagement]과(와) 같이 방문이 성공적으로 수행된 시기를 결정하기 위해  [!DNL Adobe Target] A/B 활동에서 지표를 지정하는 방법을 알아봅니다.'
+description: '[!UICONTROL Conversion], [!UICONTROL Revenue] 및 [!UICONTROL Engagement]을(를) 포함하여 방문 성공을 결정하기 위해 A/B 활동에서 지표를 설정하는 방법에 대해 알아봅니다.'
 title: A/B 활동에서 목표 지표를 설정하려면 어떻게 합니까?
 feature: A/B Tests
 exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
-source-git-commit: 2d5272a852dc879e7307695744b70afe7fee9a38
+source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 59%
+source-wordcount: '284'
+ht-degree: 58%
 
 ---
 
@@ -18,8 +18,6 @@ ht-degree: 59%
 성공 지표에 대한 자세한 내용은 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 
 1. **[!UICONTROL Goals & Settings]** 페이지의 **[!UICONTROL Reporting Settings]** 섹션에서 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
-
-   ![성공 지표 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    [!UICONTROL Select Metrics] 옵션은 활동에 대해 선택할 수 있는 성공 지표를 나열합니다. 성공 지표는 다음 카테고리로 구분됩니다.
 
@@ -53,13 +51,3 @@ ht-degree: 59%
 | + | 플러스 |
 | - | 빼기 |
 | @ | 로그인 |
-
-## 교육 비디오: 활동 지표(7:43) ![튜토리얼 배지](/help/main/assets/tutorial.png)
-
-이 비디오에는 성공 지표 사용에 대한 정보가 포함되어 있습니다.
-
-* &quot;목표&quot; 지표 이해
-* 변환, 수입 및 참여 지표 이해 및 빌드
-* 클릭 추적 지표 빌드
-
->[!VIDEO](https://video.tv.adobe.com/v/17380)

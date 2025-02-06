@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 의 [!UICONTROL Visual Experience Composer](V
 title: '[!UICONTROL Multivariate Test]을(를) 만드는 방법'
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 7853d8c5934e40d1026e067dfa413f520ecba931
+source-git-commit: be118753eed999ce24d547c90ac9d195cce7e9e9
 workflow-type: tm+mt
-source-wordcount: '504'
-ht-degree: 56%
+source-wordcount: '724'
+ht-degree: 26%
 
 ---
 
@@ -21,8 +21,6 @@ ht-degree: 56%
 
 1. **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**&#x200B;을(를) 클릭합니다.
 
-   ![다변량 테스트 만들기](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
-
    >[!NOTE]
    >
    >[!DNL Target]에서 사용 가능한 다양한 활동 유형과 그 차이점에 대한 자세한 내용은 [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 참조하십시오. 필요한 활동 유형 세트를 결정하는 데 도움이 되는 [타겟 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.
@@ -31,7 +29,7 @@ ht-degree: 56%
 
 1. (조건부) [Target Premium](/help/main/c-intro/intro.md#premium) 고객인 경우 [작업 영역을 선택](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)합니다.
 
-1. 테스트할 페이지의 [URL을 지정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
+1. 테스트할 페이지의 [URL을 지정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0)한 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
    >[!NOTE]
    >
@@ -41,9 +39,8 @@ ht-degree: 56%
 
    [!UICONTROL Visual Experience Composer]이(가) 열립니다.
 
-1. 활동의 이름을 입력합니다.
-
-   ![활동 이름 필드](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
+1. 
+   1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 
@@ -71,8 +68,6 @@ ht-degree: 56%
 
 1. [각 위치에 오퍼를 만듭니다](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
-   ![텍스트/HTML 편집 대화 상자](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
-
    다음과 같은 종류의 오퍼를 추가할 수 있습니다.
 
    * HTML
@@ -81,35 +76,45 @@ ht-degree: 56%
 
 1. **[!UICONTROL Preview]**&#x200B;을(를) 클릭하여 [환경을 미리 봅니다](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md).
 
-   ![미리 보기 환경](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt.png)
+1. **[!UICONTROL Show Experiences]** 아이콘(![경험 표시 아이콘](/help/main/assets/icons/WebPages.svg))을 클릭하여 왼쪽 프레임에 모든 경험 목록을 표시합니다.
 
-   각 경험을 보고, 테스트에 포함하지 않으려는 경험을 제외할 수 있습니다. 경험을 한 개 이상의 제외하려면 원하는 확인란을 선택한 다음 **[!UICONTROL Exclude]** 을(를) 클릭합니다.
+1. 목록에서 특정 경험을 클릭하여 해당 경험을 봅니다.
 
-   ![경험 제외](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
+1. (조건부) 활동에서 경험을 한 개 이상 제외하려면 **[!UICONTROL Manage Content]** 아이콘(![경험 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭하여 [!UICONTROL Manage Experiences] 대화 상자를 표시합니다.
+
+1. (조건부) [!UICONTROL Manage Experiences] 대화 상자에서 제외하려는 경험 옆에 있는 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 **[!UICONTROL Exclude]**&#x200B;을(를) 클릭합니다.
+
+   충돌하는 변형을 표시하는 경험이나 미적으로 균형 잡히지 않은 경험을 제외하도록 선택할 수 있습니다.
+
+1. (조건부) 여러 경험을 제외하려면 원하는 경험에 대한 확인란을 선택한 다음 **[!UICONTROL Exclude]**&#x200B;을(를) 클릭합니다.
 
 1. [트래픽 견적 도구를 사용하여](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) 테스트 계획의 가능성을 테스트합니다.
 
-   ![트래픽 표시기](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
-
-   다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
-
-   ![견적 도구 이미지](assets/estimator.png)
-
-   다음 그림은 활동에 트래픽이 충분하지 않음을 나타냅니다.
-
-   ![estimator2 이미지](assets/estimator2.png)
-
 1. [!UICONTROL Targeting] 페이지로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
 
-1. 활동을 시작할 자격 있는 방문자의 대상자 및 비율을 선택합니다.
+   **타깃팅** 단계는 다른 [!DNL Target] 활동 유형을 사용해본 적이 있는 경우 친숙하게 보입니다. 여기에서 대상을 선택하고 각 경험을 보는 방문자의 비율을 지정할 수 있습니다.
 
-   ![MVT 활동의 타깃팅 페이지](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
+   흐름 다이어그램은 대상과 해당 트래픽 비율을 할당하고, 트래픽 할당 방법을 선택하고, 활동의 각 경험에 대한 트래픽 할당을 지정하는 단계를 안내합니다.
+
+1. (조건부) **[!UICONTROL All Visitors]** 컨트롤을 클릭하여 활동에 대한 다른 대상을 선택합니다.
+
+   [!UICONTROL All Visitors] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다.
+
+   오른쪽 프레임이 표시되어 대상을 추가 또는 삭제하고 활동에 대한 방문자 비율을 할당할 수 있습니다.
+
+   1. 대상을 변경하려면 오른쪽 프레임에서 **[!UICONTROL Replace]아이콘**(![바꾸기 아이콘](/help/main/assets/icons/Retweet.svg))을 클릭합니다.
+   1. [!UICONTROL Add Audience] 대화 상자에서 [원하는 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)한 다음 **[!UICONTROL Assign Audience]**&#x200B;을(를) 클릭합니다.
+
+      **대상 결합**&#x200B;을 클릭하여 [여러 대상을 결합하는 대상을 만들 수 있습니다](/help/main/c-target/combining-multiple-audiences.md).
+
+      [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
+
+      * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
+      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
+
+   1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
 
    예를 들어 항목 수를 모든 방문자의 50% 또는 &quot;캘리포니아인&quot; 대상자의 45%로 제한할 수 있습니다.
-
-   >[!NOTE]
-   >
-   >기존 대상자를 선택할 수 있을 뿐만 아니라, 새 대상자를 만들지 않고 여러 대상자를 결합하여 임시로 결합한 대상자를 만들 수도 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
 1. [테스트 요약을 검토하고](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7)원하는 대로 변경한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 

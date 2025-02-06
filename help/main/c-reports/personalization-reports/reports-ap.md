@@ -5,10 +5,10 @@ title: Automated Personalization 요약 보고서는 어떻게 사용합니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '647'
-ht-degree: 11%
+source-wordcount: '641'
+ht-degree: 10%
 
 ---
 
@@ -22,9 +22,9 @@ ht-degree: 11%
 
 1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 목록에서 원하는 [!UICONTROL Automated Personalization] 활동을 클릭한 다음 **[!UICONTROL Reports]** 탭을 클릭합니다.
 
-   많은 활동이 있는 경우 [!UICONTROL Type] 드롭다운 목록에서 [!UICONTROL Automated Personalization]을(를) 선택하여 목록을 필터링할 수 있습니다.
+   많은 활동이 있는 경우 필터( ![필터 아이콘](/help/main/assets/icons/Filter.svg) ) 아이콘을 클릭하여 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] 및 [!UICONTROL Activity Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링합니다.
 
-1. (선택 사항) 사용 가능한 모든 성공 지표로 분류된 요약 보기(예: 제어 및 타깃팅된 트래픽 비교)를 다운로드하려면 **[!UICONTROL Download]** 아이콘을 클릭합니다.
+1. (선택 사항) 사용 가능한 모든 성공 지표로 분류된 요약 보기(예: 제어 및 타깃팅된 트래픽 비교)를 다운로드하려면 **[!UICONTROL Download]** ( ![다운로드 아이콘](/help/main/assets/icons/Download.svg) ) 아이콘을 클릭합니다.
 
 [!UICONTROL Automated Personalization]은(는) 다음 보고서를 제공합니다.
 
@@ -37,8 +37,6 @@ ht-degree: 11%
 
 [!UICONTROL Activity Level] 보고서는 [!UICONTROL Automated Personalization] 알고리즘 사용의 집계 성과를 임의로 제공된 콘텐츠(제어)와 비교합니다.
 
-![활동 수준 보고서](/help/main/c-reports/assets/box_plot_ap.png)
-
 상승도, 신뢰도, 트렌드, 지속 기간 등을 포함하여 A/B 테스트에 대한 결과 해석의 표준 규칙이 여전히 적용됩니다. 결과 해석에 대한 자세한 내용은 [A/Bn 테스트의 통계 계산](/help/main/c-reports/statistical-methodology/statistical-calculations.md)을 참조하십시오.
 
 ## 오퍼 수준 보고서 {#section_CAA6409879E349C6906E2BE8156D87A1}
@@ -46,8 +44,6 @@ ht-degree: 11%
 Random Forest 경험에 대한 [!UICONTROL Offer Level] 보고서는 각 알고리즘이 적용한 오퍼의 성능을 임의로 제공된 동일한 오퍼(제어)와 비교합니다. 따라서 이 보기에서 오퍼를 서로 비교해서는 안 됩니다.
 
 [!UICONTROL Offer Level] 보고서를 보려면 경험 알고리즘(Random Forest 또는 컨트롤)을 클릭하십시오.
-
-![Adobe Target의 오퍼 수준 보고서](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 >[!NOTE]
 >
@@ -59,15 +55,11 @@ Random Forest 경험에 대한 [!UICONTROL Offer Level] 보고서는 각 알고�
 
 [!UICONTROL Automated Segments] 아이콘을 클릭합니다. 이 보고서는 서로 다른 방문자가 AP/AT 활동의 오퍼/경험에 어떻게 다르게 반응하는지를 보여 줍니다. 이 보고서는 Target의 개인화 모델에 정의된 다른 자동화된 세그먼트가 활동의 오퍼/경험에 응답하는 방식을 보여 줍니다.
 
-![자동화된 세그먼트 아이콘](/help/main/c-reports/assets/icon-automated-sements-ap.png)
-
 자세한 내용은 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)를 참조하십시오.
 
 ## 중요 속성
 
 [!UICONTROL Important Attributes] 아이콘을 클릭합니다. 이 보고서는 다른 활동에서 다른 속성이 모델이 개인화를 결정하는 방법에 대해 얼마나 중요한지 (또는 덜 중요한지) 보여줍니다. 이 보고서는 모델 및 모델의 상대적 중요도에 영향을 미친 주요 속성을 보여 줍니다.
-
-![중요 특성 아이콘](/help/main/c-reports/assets/icon-important-attributes-ap.png)
 
 자세한 내용은 [중요 특성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md)를 참조하십시오.
 

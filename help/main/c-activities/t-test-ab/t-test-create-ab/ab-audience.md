@@ -1,84 +1,67 @@
 ---
 keywords: 대상자;대상자 선택;대상자 선택;선택기
-description: 대상은 Adobe [!DNL Target] 활동에 입력된 사이트 방문자를 결정합니다.
+description: 대상 기준에 따라 Adobe [!DNL Target] 활동에 참여하는 사이트 방문자를 정의합니다.
 title: A [!DNL Target] A/B 활동에서 대상을 선택하려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 281ae227-c593-4b71-ad12-865430b332be
-source-git-commit: 676350453268e4ffc04df83dcda0525842ca8b07
+source-git-commit: f6845756f9d4220214b0d9131cd5f27db2ae94a9
 workflow-type: tm+mt
-source-wordcount: '425'
-ht-degree: 66%
+source-wordcount: '526'
+ht-degree: 8%
 
 ---
 
 # 대상자 선택
 
-대상은 [!DNL Adobe Target] 활동에 입력된 사이트 방문자를 결정합니다.
+대상은 자격 있는 방문자가 [!DNL Adobe Target] 활동에 입력되는지 확인합니다.
 
->[!NOTE]
->
->기존 대상자를 선택할 수 있을 뿐만 아니라, 새 대상자를 만들지 않고 여러 대상자를 결합하여 임시로 결합한 대상자를 만들 수도 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
+[활동을 만들 때](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)의 세 부분으로 구성된 안내 워크플로의 [!UICONTROL Targeting] 단계에는 대상 및 해당 트래픽 비율을 할당하고, 트래픽 할당 방법을 선택하고, 활동의 각 경험에 대해 트래픽 할당을 지정하는 단계를 안내하는 흐름 다이어그램이 표시됩니다.
 
-1. [!UICONTROL Audience] 상자에서 **[!UICONTROL Edit]** 아이콘(세로 줄임표)을 클릭한 다음 **[!UICONTROL Replace Audience]**&#x200B;을(를) 클릭합니다.
+![A/B 테스트 타깃팅 단계](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
-   ![대상자 바꾸기 선택 사항](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
+흐름 다이어그램의 모든 옵션에 대한 자세한 내용은 [A/B 테스트 활동 만들기](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)를 참조하십시오.
 
-   기본적으로 모든 방문자는 대상입니다. 그러나 대상을 변경할 수 있습니다. 대상 라이브러리에서 대상을 선택하거나 활동 전용 대상을 만들 수 있습니다. 대상 라이브러리에는 [!DNL Target]의 일부로 미리 만들어진 공통 대상을 포함하여 이전에 정의된 대상이 포함되어 있습니다.
+## 활동에 대한 대상 선택
 
-1. 원하는 대상자를 선택하거나 만듭니다.
+1. **[!UICONTROL All Visitors]** 컨트롤을 클릭하여 활동에 대한 다른 대상을 선택합니다.
 
-   * 라이브러리에서 대상자 선택
-   * [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)
-   * [새 대상자 만들기](/help/main/c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1)
-   * [활동 전용 대상을 만듭니다](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   [!UICONTROL All Visitors] 대상이 기본값으로 설정됩니다. 다른 대상을 선택하면 해당 이름이 가장 왼쪽 컨트롤에 표시됩니다.
 
    특정 대상 타깃팅이 없는 A/B 테스트의 경우 기본값 [!UICONTROL All Visitors]을(를) 선택하십시오.
 
-   아래 표시된 대로 [!UICONTROL Add Audience] 대화 상자에서 원하는 대상 위로 마우스를 가져간 후 대상을 편집하거나 복사할 수도 있습니다.
+   오른쪽 프레임이 표시되어 대상을 추가 또는 삭제하고 활동에 대한 방문자 비율을 할당할 수 있습니다.
 
-   기존 대상과 유사한 대상을 만들려는 경우 대상을 복사하면 유용합니다. 대상의 복사본을 만들어 편집한 다음, 새 대상으로 저장할 수 있습니다. 이 마우스로 가리키는 기능은 다른 활동 유형에서도 사용할 수 있습니다.
+1. 대상을 변경하려면 오른쪽 프레임에서 **[!UICONTROL Replace]아이콘**(![바꾸기 아이콘](/help/main/assets/icons/Retweet.svg))을 클릭합니다.
 
-   ![대상자를 마우스로 가리키기](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audience_picker_hover-new.png)
+1. [!UICONTROL Add Audience] 대화 상자에서 [원하는 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)한 다음 **[!UICONTROL Assign Audience]**&#x200B;을(를) 클릭합니다.
 
-   고객을 만들 때 위치(mbox)를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. [!UICONTROL Custom Parameters]에서 mbox를 선택한 다음 원하는 매개 변수를 지정합니다.
+   기본적으로 모든 방문자는 대상입니다. 그러나 대상을 변경할 수 있습니다. 대상자가 [!UICONTROL Audience Library]에서 선택되었거나 활동 전용 대상자를 만들 수 있습니다. [!UICONTROL Audience Library]에는 [!DNL Target]의 일부로 미리 만들어진 공통 대상을 포함하여 이전에 정의된 대상이 포함되어 있습니다.
 
-   >[!NOTE]
-   >
-   >대상자 목록을 연 상태에서 가져온 대상자가 10분 이상되면 배경에서 자동으로 대상자를 가져옵니다.
+1. (조건부) **대상 결합**&#x200B;에서 [여러 대상을 결합하는 대상 만들기](/help/main/c-target/combining-multiple-audiences.md)를 클릭합니다.
 
-1. (조건부) 활동에 포함할 자격 있는 방문자의 비율을 지정합니다.
+1. (조건부) [!UICONTROL Audience Library]에 없는 새 대상을 만들려면 **대상 만들기**&#x200B;를 클릭하고 대상을 정의한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
-   예를 들어, 모든 방문자의 50%를 포함하도록 선택할 수 있습니다.
+   [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md)에서 다음 옵션 중 선택할 수 있습니다.
 
-   ![대상자 비율](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
+   * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
+   * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
 
-   Target에서 [트래픽을 자동으로 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)하도록 선택할 수도 있습니다.
+1. 오른쪽 창에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동에 포함할 자격 있는 방문자의 비율을 지정합니다.
 
-## 교육 비디오
+1. 대상자가 만족스러우면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 안내가 있는 3단계 워크플로의 세 번째 단계로 이동합니다.
 
-다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
+>[!NOTE]
+>
+>[!UICONTROL Audience] 목록을 열고 가져온 대상이 10분 이상 오래되면 백그라운드에서 대상을 자동으로 가져옵니다.
 
-### Adobe Target에서 대상자 사용(6:21) ![개요 배지](/help/main/assets/overview.png)
+## 대상자 정보 보기
 
-다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상자를 사용하는 방법을 설명합니다.
+1. [!UICONTROL Add Audiences] 대화 상자에서 대상 옆에 있는 **[!UICONTROL Information]** 아이콘(![정보 아이콘](/help/main/assets/icons/InfoOutline.svg) )을 클릭하여 원본 및 특성을 포함하여 해당 대상에 대한 세부 정보를 봅니다.
 
-* 용어 &quot;대상&quot; 설명
-* 최적화에 대상을 사용하는 두 가지 방법 설명
-* 대상자 목록에서 대상자 찾기
-* 활동을 대상자에 타기팅
-* 활동에서 수동 보고에 대상 사용
+1. 대상자에 대한 추가 세부 정보를 보려면 **[!UICONTROL View Full Details]**&#x200B;을(를) 클릭하십시오. 세부 정보에는 대상자의 속성, 대상자의 설명, 작업 공간, 유형 및 소스, 이 대상자를 참조하는 활동 목록이 포함됩니다. 활동 이름, 상태, 작업 공간 및 대상자를 마지막으로 수정한 시기와 대상자를 포함하여 각 대상자에 대한 정보를 볼 수 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+## 대상자 편집 또는 복사
 
-### 활동 워크플로 - 타깃팅(2:14) ![튜토리얼 배지](/help/main/assets/tutorial.png)
+[!UICONTROL Add Audience] 대화 상자에서 원하는 대상 옆에 있는 [!UICONTROL More Actions] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/More.svg))을 클릭한 다음 [!UICONTROL Edit] 또는 [!UICONTROL Copy]을(를) 클릭하여 대상을 편집하거나 복사할 수 있습니다.
 
-다음 비디오에는 대상 설정에 대한 정보가 포함되어 있습니다.
-
-* 활동에 대상 지정
-* 트래픽을 늘이기 또는 줄이기
-* 트래픽 할당 방법 선택
-* 서로 다른 경험에 트래픽 할당
-
->[!VIDEO](https://video.tv.adobe.com/v/17385)
-
-자세한 내용은 [대상자](/help/main/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271)를 참조하십시오.
+기존 대상과 유사한 대상을 만들려는 경우 대상을 복사하면 유용합니다. 대상을 복사하고 편집을 한 다음 새 대상으로 저장할 수 있습니다.

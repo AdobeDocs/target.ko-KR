@@ -4,10 +4,10 @@ description: 각 요소 및 각 오퍼의 성과를 보여 주는  [!DNL Target]
 title: '[!UICONTROL Multivariate Test] 활동에 대해 [!UICONTROL Location Contribution] 보고서를 사용하는 방법'
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
-source-git-commit: 6f70ff18cfbee5c02e6bb2bd345acbd2e1b2006f
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 39%
+source-wordcount: '259'
+ht-degree: 38%
 
 ---
 
@@ -31,14 +31,10 @@ ht-degree: 39%
 
 첫 번째 표는 각 요소의 상대적인 영향을 보여줍니다. 이 표에서는 오퍼를 추가한 요소 중 가장 많은 전환을 초래하는 요소를 보여 줍니다.
 
-![Adobe Target의 위치 기여도 보고서](/help/main/c-reports/assets/locationcontributiontop.png)
-
 두 번째 표는 오퍼 수준의 보고서를 보여줍니다. 이 표는 각 요소의 각 오퍼에 대한 전환율, 상승도, 신뢰도를 보여줍니다. 이 테이블은 가장 성공적인 오퍼를 결정하는 데 도움이 됩니다. 두 번째 열은 하나의 표준화와 해당 오퍼의 선택된 지표(전환율, RPV, AOV, 주문 수 또는 참여 지표)에 대한 값을 보여줍니다.
 
-![Adobe Target의 위치 기여도 보고서](/help/main/c-reports/assets/locationcontributionbottom.png)
+## 교육 비디오: MVT 테스트 만들기
 
-## 교육 비디오: MVT 테스트 ![튜토리얼 배지](/help/main/assets/tutorial.png) 만들기
-
-다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 작성하는 방법을 보여줍니다. 위치 기여도 보고서는 8:45부터 설명됩니다.
+이 비디오에서는 안내가 있는 [!DNL Target] 3단계 워크플로우를 사용하여 다변량 테스트를 만드는 방법을 보여 줍니다. 위치 기여도 보고서는 8:45부터 설명됩니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17395)

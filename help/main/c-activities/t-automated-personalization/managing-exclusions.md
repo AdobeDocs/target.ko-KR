@@ -1,14 +1,14 @@
 ---
 keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;제외 그룹;
-description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 활동에서 제외를 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.'
+description: '[!UICONTROL Automated Personalization](AP) 활동에서 제외를 관리합니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 제외를 관리하려면 어떻게 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: b5f06878a6ca8b4c571bfe05a52bfb3f471a697e
+source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '915'
 ht-degree: 41%
 
 ---
@@ -27,9 +27,11 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상자를 제한할 수도 �
 
 **제외 그룹을 만들려면 다음을 수행하십시오.**
 
-1. [AP 활동을 만들거나 편집](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)하는 동안 헤더 막대에서 **[!UICONTROL Manage Content]**&#x200B;을(를) 클릭합니다.
+1. [AP 활동을 만들거나 편집](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)하는 동안 **[!UICONTROL Manage Content]** 아이콘(![콘텐츠 관리 아이콘](/help/main/assets/icons/Experience.svg))을 클릭합니다.
 
-   ![콘텐츠 관리 링크](/help/main/c-activities/t-automated-personalization/assets/manage-content.png)
+   [!UICONTROL Manage Content] 대화 상자가 표시됩니다.
+
+1. **[!UICONTROL Experiences]** 탭을 클릭합니다.
 
 1. [!UICONTROL Manage Content] 대화 상자에서 **[!UICONTROL Exclusion Groups]**&#x200B;을(를) 클릭합니다.
 

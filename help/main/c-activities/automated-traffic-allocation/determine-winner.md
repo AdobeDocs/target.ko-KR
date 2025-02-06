@@ -1,17 +1,17 @@
 ---
 keywords: 자동화된 트래픽 할당;타깃팅;승자;통계적 보장;신뢰도;승자 결정;상승도;신뢰도;기본값;기본 경험;자동 할당;자동 할당
-description: 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 Adobe [!DNL Target] 에서 [!UICONTROL Auto-Allocate] A/B 활동의 결과를 해석하는 방법을 알아봅니다.
+description: 상승도 및 신뢰도와 같은 주요 지표를 중심으로 [!UICONTROL Auto-Allocate] A/B 활동 결과를 해석하는 방법을 알아봅니다.
 title: '[!UICONTROL Auto-Allocate] 보고서를 어떻게 해석합니까?'
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: e9976135c46f6658030b07fce384364f0c9ff0ed
+source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
 workflow-type: tm+mt
-source-wordcount: '1171'
-ht-degree: 21%
+source-wordcount: '1163'
+ht-degree: 20%
 
 ---
 
-# 자동 할당 보고서 해석
+# [!UICONTROL Auto-Allocate]개 보고서 해석
 
 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 [!UICONTROL Adobe Target]의 [!UICONTROL Auto-Allocate] A/B 활동 결과를 해석합니다.
 
@@ -23,23 +23,23 @@ ht-degree: 21%
 
 [!UICONTROL Auto-Allocate] 기능을 사용하는 경우 [!DNL Target]은(는) 활동이 충분한 신뢰도로 최소 전환 횟수에 도달할 때까지 &quot;아직 우승자 없음&quot;을 나타내는 배지를 활동 페이지 맨 위에 표시합니다.
 
-![우승자 배지 없음](/help/main/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![우승자 배지 없음](/help/main/c-activities/automated-traffic-allocation/assets/no-winner-new.png)
 
-명백한 승자를 선언할 때 [!DNL Target]에 &quot;우승자: 경험 *X*&quot;이(가) 표시됩니다.
+명백한 승자를 선언하면 [!DNL Target]에 &quot;우승자: 경험 *X*&quot; 배지가 표시됩니다.
 
-![우승자 이미지](assets/winner.png)
+![우승자 배지](/help/main/c-activities/automated-traffic-allocation/assets/winner-new.png)
 
 >[!NOTE]
 >
->자동 할당 활동은 통제군과의 쌍별 비교를 수행할 뿐만 아니라 모든 선택 사항 중에서 최고의 경험을 찾도록 설계되었습니다.
+>[!UICONTROL Auto-Allocate] 활동은 통제군과의 쌍별 비교를 수행할 뿐만 아니라 모든 선택 사항 중에서 최상의 경험을 찾도록 설계되었습니다.
 
-## 자동 할당의 통계적 보장 {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## [!UICONTROL Auto-Allocate]의 통계적 보장 {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 A/B 활동이 끝날 때 [!UICONTROL Auto-Allocate]은(는) 결정된 우승자가 5%의 유효 긍정 오류(false-positive) 비율을 갖도록 보장합니다. 이것은 5% 동안만 결정된 승자가 활동의 모든 경험 중에서 실제로 최고의 경험이 아님을 의미합니다. 동일한 경험을 가진 [A/A 테스트](/help/main/c-activities/t-test-ab/aa-testing.md)의 경우 [!DNL Target]에서 5% 미만의 시간 동안 테스트를 완료합니다. A/A 테스트(동일한 경험 사용)에 대한 예상 동작은 무기한으로 실행되는 것이므로 승자 배지가 나타나지 않아야 합니다.
 
 [!DNL Target]은(는) [!UICONTROL Auto-Allocate]에 대해 p 값 기반 신뢰도를 사용하지 않습니다.
 
-[!UICONTROL Auto-Allocate] 활동의 [!UICONTROL Confidence] 열(아래 그림 참조)에는 경험이 1% 오차 범위 내에서 승자가 될 확률이 표시됩니다. 알고리즘에서는 최고 전환율과 차순위 전환율 간에 최소 1%의 감지 가능한 효과를 사용합니다. 알고리즘에서는 [Bernstein 부등식](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)을 사용하여 이 확률을 계산합니다.
+[!UICONTROL Auto-Allocate] 활동의 [!UICONTROL Confidence] 열에는 경험이 오류 1% 이내의 승자가 될 가능성이 표시됩니다. 알고리즘에서는 최고 전환율과 차순위 전환율 간에 최소 1%의 감지 가능한 효과를 사용합니다. 알고리즘에서는 [Bernstein 부등식](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)을 사용하여 이 확률을 계산합니다.
 
 일반 A/B 테스트는 p 값을 기반으로 신뢰도를 계산합니다. [!UICONTROL Auto-Allocate]은(는) p 값을 사용하지 않습니다. p 값은 주어진 경험이 통제 경험과 다를 확률을 &quot;대략&quot; 계산합니다. 이 p값은 경험이 통제 경험과 다른지 여부를 판별하는 데에만 사용할 수 있습니다. 이 값은 경험이 통제 경험이 아닌 다른 경험과 다른지 판별하는 데에는 사용할 수 없습니다.
 
@@ -82,5 +82,3 @@ FAQ에 대한 다음 답변을 고려하십시오.
 &quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지는 현재 [!DNL Analysis Workspace]의 [!UICONTROL A4T] 패널에서 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!UICONTROL Auto-Allocate] 활동에 대한 [!DNL Target] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다.
 
 이 제한 사항과 기타 제한 사항 및 메모에 대한 자세한 내용은 [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동에 대한 *A4T 지원*&#x200B;의 [자동 할당](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)을 참조하십시오.
-
-

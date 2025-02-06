@@ -4,16 +4,16 @@ description: 사용자 지정된 대상을 만들고 활동에 사용할 수 있
 title: 대상을 만들려면 어떻게 합니까?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
+source-git-commit: 19d2b14f137fe4dbf95e9f9f9b84f80b93d1e281
 workflow-type: tm+mt
 source-wordcount: '524'
-ht-degree: 55%
+ht-degree: 48%
 
 ---
 
 # [!DNL Target]에서 대상 작성
 
-사용자 지정된 대상을 만들고 활동에서 사용할 수 있도록 [!DNL Adobe Target] [!UICONTROL Audiences] 라이브러리에 저장할 수 있습니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수도 있습니다.
+사용자 지정된 대상을 만들고 활동에서 사용할 수 있도록 [!DNL Adobe Target] [!UICONTROL Audiences] 라이브러리에 저장합니다. 기존 대상을 복사한 다음 편집하여 유사한 대상을 만들고 여러 대상을 결합할 수도 있습니다.
 
 ## 대상자 개요
 
@@ -25,13 +25,13 @@ ht-degree: 55%
 
 두 부울 연산자를 혼합하여 복합 규칙을 만들 수 있지만 동일한 규칙 수준의 연산자가 일치해야 합니다. 사용자 인터페이스는 올바른 연산자를 자동으로 적용합니다.
 
-예를 들어, 다음 규칙은 Windows 컴퓨터에서 Chrome *또는* Firefox를 사용하는 방문자를 타깃팅합니다.
+예를 들어, 다음 규칙은 [!DNL Windows] 컴퓨터에서 [!DNL Chrome] *또는* [!DNL Firefox]을(를) 사용하는 방문자를 타깃팅합니다.
 
 ![대상자 만들기](assets/audience_create.png)
 
 >[!NOTE]
 >
->모든 잠재적 대상자 구성원을 제외하는 규칙을 작성하지 않도록 주의하십시오. 예를 들어 고객이 Chrome *과* Firefox를 동시에 사용하여 페이지를 방문할 수는 없습니다.
+>모든 잠재적 대상자 구성원을 제외하는 규칙을 작성하지 않도록 주의하십시오. 예를 들어 [!DNL Chrome] *및* [!DNL Firefox]을(를) 동시에 사용하여 다른 사용자가 페이지를 방문할 수는 없습니다.
 
 ## 대상자 만들기
 
@@ -43,7 +43,7 @@ ht-degree: 55%
 
    또는
 
-   기존 대상을 복사하려면 [!UICONTROL Audiences] 목록에서 **[!UICONTROL More Actions]** 아이콘(줄임표 아이콘)을 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다. 그러면 대상자를 편집하여 유사한 대상자를 만들 수 있습니다.
+   기존 대상을 복사하려면 [!UICONTROL Audiences] 목록에서 복사할 대상에 대해 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭한 다음 **[!UICONTROL Duplicate]**&#x200B;을(를) 클릭합니다. 그러면 대상자를 편집하여 유사한 대상자를 만들 수 있습니다.
 
 1. 고유한 설명 대상 이름과 설명(선택 사항)을 입력합니다.
 
@@ -55,7 +55,7 @@ ht-degree: 55%
 
    `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
-1. 오른쪽에 있는 **[!UICONTROL Attributes]** 목록에서 원하는 특성을 대상 빌더 창으로 끌어다 놓습니다.
+1. 왼쪽의 **[!UICONTROL Attributes]** 목록에서 원하는 특성을 대상 빌더 창으로 끌어다 놓습니다.
 
    ![특성 드래그 앤 드롭](assets/drag-attribute.png)
 
@@ -63,7 +63,7 @@ ht-degree: 55%
 
 1. 규칙 매개 변수를 정의합니다.
 
-   예를 들어, 다음 대상은 Macintosh 운영 체제를 사용하는 Utah에서 온 방문자를 타깃팅합니다.
+   예를 들어 다음 대상은 [!DNL Macintosh] 운영 체제를 사용하는 유타 지역 방문자를 타깃팅합니다.
 
    ![유타/Macintosh 대상](assets/adience-builder.png)
 

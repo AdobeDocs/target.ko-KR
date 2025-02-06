@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: f968ec45f015fa0b195007f5790b9efb743c8b65
+source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
-source-wordcount: '1519'
-ht-degree: 74%
+source-wordcount: '1259'
+ht-degree: 89%
 
 ---
 
@@ -22,7 +22,6 @@ ht-degree: 74%
    + [시스템 상태 업데이트 및 사전 알림](r-release-notes/system-status-updates.md)
    + [설명서 변경 내용](r-release-notes/doc-change.md)
    + [이전 릴리스에 대한 릴리스 정보](r-release-notes/release-notes-for-previous-releases.md)
-   + [Target 활동, 오퍼 및 Recommendations UI 새로 고침 Beta 프로그램](/help/main/refresh-ui-beta.md)
 + 소개 {#introduction}
    + [Target 소개](c-intro/intro.md)
    + [Adobe Experience Cloud에서 Target에 액세스](c-intro/target-access-from-mac.md)
@@ -47,7 +46,6 @@ ht-degree: 74%
    + [Target 최적화 및 개인화 FAQ](c-intro/cmp-target-standard-cheatsheet.md)
 + Target 관리 {#administer}
    + [Target 관리 개요](administrating-target/administrating-target.md)
-   + [Target 관리 개요 Beta](administrating-target/administrating-target-beta.md)
    + [관리자의 첫 단계](administrating-target/start-target.md)
    + [시각적 경험 작성기 구성](/help/main/administrating-target/visual-experience-composer-set-up.md)
    + 보고 {#reporting}
@@ -117,72 +115,49 @@ ht-degree: 74%
    + [Target 활동 유형](c-activities/target-activities-guide.md)
    + A/B 테스트 {#abtest}
       + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
-      + [A/B 테스트 개요 베타](c-activities/t-test-ab/test-ab-beta.md)
       + [A/B 테스트를 얼마 동안 실행해야 합니까?](c-activities/t-test-ab/sample-size-determination.md)
       + [10가지 일반적인 A/B 테스트 위험 및 이를 피하는 방법](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + [A/A 테스트](/help/main/c-activities/t-test-ab/aa-testing.md)
       + A/B 테스트 만들기 {#create}
          + [A/B 테스트 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-         + [A/B 테스트 베타 만들기](c-activities/t-test-ab/t-test-create-ab/test-create-ab-beta.md)
          + [활동 URL](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
-         + [활동 URL 베타](c-activities/t-test-ab/t-test-create-ab/ab-activity-url-beta.md)
          + [경험 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
-         + [경험 베타 추가](c-activities/t-test-ab/t-test-create-ab/ab-add-experience-beta.md)
          + [대상자 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
-         + [대상 베타 선택](c-activities/t-test-ab/t-test-create-ab/ab-audience-beta.md)
          + [목표 및 설정](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
-         + [목표 및 설정 베타](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings-beta.md)
          + [Analytics 데이터 사용](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [지표 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [지표 베타 설정](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics-beta.md)
          + [A/B 테스트의 여러 경험 대상자](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
-         + [A/B 테스트 베타의 여러 경험 대상](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences-beta.md)
    + 자동 할당 {#auto-allocate}
       + [자동 할당 개요](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
-      + [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity-beta.md)
       + [자동 할당 보고서 해석](c-activities/automated-traffic-allocation/determine-winner.md)
-      + [자동 할당 보고서 해석 베타](c-activities/automated-traffic-allocation/determine-winner-beta.md)
       + [자동 할당을 통해 수동 테스트보다 더 빠른 테스트 결과와 더 높은 매출을 얻을 수 있음](/help/main/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + 자동 타기팅 {#auto-target}
       + [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-      + [자동 타겟 개요 베타](/help/main/c-activities/auto-target/auto-target-to-optimize-beta.md)
       + [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [자동 Target 활동 Beta 만들기](/help/main/c-activities/auto-target/create-auto-target-beta.md)
       + [자동 타겟 FAQ 및 문제 해결](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [보고 및 자동 타겟](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Automated Personalization 개요](c-activities/t-automated-personalization/automated-personalization.md)
       + [Random Forest 알고리즘](c-activities/t-automated-personalization/algo-random-forest.md)
       + [Automated Personalization 활동 만들기](c-activities/t-automated-personalization/create-ap-activity.md)
-      + [Automated Personalization 활동 Beta 만들기](c-activities/t-automated-personalization/create-ap-activity-beta.md)
       + [Target의 개인화 알고리즘을 위한 데이터 업로드](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Target의 개인화 알고리즘을 위한 데이터 수집](c-activities/t-automated-personalization/ap-data.md)
       + [성공에 필요한 트래픽 예측](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [성공 Beta에 필요한 트래픽 예측](c-activities/t-automated-personalization/ap-traffic-estimator-beta.md)
       + [Automated Personalization 테스트를 위한 경험 미리보기](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Automated Personalization 테스트 베타에 대한 경험 미리 보기](c-activities/t-automated-personalization/ap-preview-experiences-beta.md)
       + [Target Automated Personalization 오퍼](c-activities/t-automated-personalization/ap-target-offers.md)
-      + [Target Automated Personalization 오퍼-베타](c-activities/t-automated-personalization/ap-target-offers-beta.md)
       + [제외 관리](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [제외 관리 베타](c-activities/t-automated-personalization/managing-exclusions-beta.md)
       + [Automated Personalization의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
-      + [Automated Personalization-Beta의 오퍼 보고 그룹](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization-beta.md)
       + [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Automated Personalization 또는 자동 타겟 활동 베타에 대한 컨트롤 선택](c-activities/t-automated-personalization/experience-as-control-beta.md)
       + [Automated Personalization FAQ](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Automated Personalization 문제 해결](c-activities/t-automated-personalization/ap-trouble.md)
    + 경험 타기팅 {#experience-targeting}
       + [경험 타기팅 개요](c-activities/t-experience-target/experience-target.md)
       + 경험 타기팅 활동 만들기 {#create-targeting}
          + [활동을 만듭니다](c-activities/t-experience-target/t-xt-create/xt-create.md)
-         + [activity-beta 만들기](c-activities/t-experience-target/t-xt-create/xt-create-beta.md)
          + [활동 URL](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
-         + [활동 URL-Beta](c-activities/t-experience-target/t-xt-create/xt-activity-url-beta.md)
          + [경험을 만듭니다](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
-         + [Experience-Beta 만들기](c-activities/t-experience-target/t-xt-create/xt-add-experience-beta.md)
          + [경험 타기팅에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
-         + [경험 타깃팅 베타에서 경험 전환](c-activities/t-experience-target/t-xt-create/xt-switching-experiences-beta.md)
          + [목표 및 설정](c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)
          + [지표 설정](c-activities/t-experience-target/t-xt-create/xt-set-metrics.md)
    + 다변량 테스트 {#multivariate-test}
@@ -191,20 +166,13 @@ ht-degree: 74%
       + [다변량 테스트 계획](c-activities/c-multivariate-testing/plan-mvt.md)
       + 다변량 테스트 만들기 {#create-mvt}
          + [테스트 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
-         + [테스트 Beta 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test-beta.md)
          + [활동 URL](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
-         + [활동 URL 베타](c-activities/c-multivariate-testing/t-create-multivariate-test/url-beta.md)
          + [조합 만들기](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
-         + [조합 만들기 Beta](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers-beta.md)
          + [다변량 테스트에 대한 경험 미리보기](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
-         + [다변량 테스트 베타에 대한 경험 미리 보기](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences-beta.md)
          + [성공적인 테스트에 필요한 트래픽 예측](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
-         + [성공적인 테스트 베타에 필요한 트래픽 예측](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator-beta.md)
          + [테스트 요약](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
-         + [테스트 요약 베타](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary-beta.md)
          + [목표 및 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
          + [지표 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
-         + [지표 베타 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics-beta.md)
          + [다변량 테스트 문제 해결](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [권장 사항 활동](c-activities/recommendations-activity.md)
    + [활동 편집 또는 초안으로 저장](c-activities/edit-activity.md)
@@ -212,7 +180,6 @@ ht-degree: 74%
    + [활동 설정](c-activities/activity-settings.md)
    + 성공 지표 {#success-metrics}
       + [성공 지표](c-activities/r-success-metrics/success-metrics.md)
-      + [성공 지표 베타](c-activities/r-success-metrics/success-metrics-beta.md)
       + [클릭 추적](c-activities/r-success-metrics/click-tracking.md)
       + [캡처 점수](c-activities/r-success-metrics/capture-score.md)
    + [활동 변경 로그](c-activities/change-log.md)
@@ -261,11 +228,8 @@ ht-degree: 74%
    + [경험 및 오퍼 개요](c-experiences/experiences.md)
    + VEC(시각적 경험 작성기) {#vec}
       + [시각적 경험 작성기 개요](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
-      + [시각적 경험 작성기 개요 베타](c-experiences/c-visual-experience-composer/visual-experience-composer-beta.md)
       + [시각적 경험 작성기 옵션](c-experiences/c-visual-experience-composer/viztarget-options.md)
-      + [시각적 경험 작성기 선택 사항 Beta](c-experiences/c-visual-experience-composer/viztarget-options-beta.md)
       + [유사한 페이지에 동일한 경험 포함](c-experiences/c-visual-experience-composer/temtest.md)
-      + [유사한 페이지에 동일한 경험 포함 베타](c-experiences/c-visual-experience-composer/temtest-beta.md)
       + [다중 페이지 활동](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [활동 충돌](c-experiences/c-visual-experience-composer/activity-collisions.md)
       + 수정 사항 {#modifications}
@@ -284,7 +248,6 @@ ht-degree: 74%
          + [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL로 리디렉션](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [URL 베타로 리디렉션](c-experiences/c-visual-experience-composer/redirect-offer-beta.md)
       + [시각적 경험 작성기에서 작동하는 회전 메뉴 만들기](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [양식 기반 경험 작성기](c-experiences/form-experience-composer.md)
    + [SPA(단일 페이지 앱) 시각적 경험 작성기](c-experiences/spa-visual-experience-composer.md)
@@ -329,53 +292,32 @@ ht-degree: 74%
       + [엔티티 속성](c-recommendations/c-products/entity-attributes.md)
       + [사용자 지정 엔티티 속성](c-recommendations/c-products/custom-entity-attributes.md)
       + [피드](c-recommendations/c-products/feeds.md)
-      + [피드 베타](/help/main/c-recommendations/c-products/feeds-beta.md)
       + [카탈로그 검색](c-recommendations/c-products/catalog-search.md)
-      + [카탈로그 검색 베타](/help/main/c-recommendations/c-products/catalog-search-beta.md)
       + [컬렉션](c-recommendations/c-products/collections.md)
-      + [컬렉션 베타](/help/main/c-recommendations/c-products/collections-beta.md)
       + [제외](c-recommendations/c-products/exclusions.md)
-      + [제외 베타](/help/main/c-recommendations/c-products/exclusions-beta.md)
    + 기준 {#criteria}
       + [기준 개요](c-recommendations/c-algorithms/algorithms.md)
-      + [기준 개요 Beta](/help/main/c-recommendations/c-algorithms/algorithms-beta.md)
       + [기준 만들기](c-recommendations/c-algorithms/create-new-algorithm.md)
-      + [기준 Beta 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm-beta.md)
       + [기준 시퀀스 만들기](c-recommendations/c-algorithms/create-criteria-sequence.md)
-      + [기준 시퀀스 Beta 만들기](/help/main/c-recommendations/c-algorithms/create-criteria-sequence-beta.md)
       + [권장 사항 키를 기반으로 권장 사항 만들기](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [권장 사항 키 Beta를 기반으로 권장 사항 만들기](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key-beta.md)
       + [Target의 추천 알고리즘에 숨겨진 과학](/help/main/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [사용자 지정 기준 업로드](c-recommendations/c-algorithms/recommendations-csv.md)
-      + [사용자 지정 기준 Beta 업로드](/help/main/c-recommendations/c-algorithms/recommendations-csv-beta.md)
       + 동적 및 정적 포함 규칙 {#dynamic-static}
          + [동적 및 정적 포함 규칙 사용](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
-         + [동적 및 정적 포함 규칙 베타 사용](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules-beta.md)
          + [엔티티 속성 일치](/help/main/c-recommendations/c-algorithms/entity-attribute-matching.md)
-         + [Beta와 일치하는 엔티티 속성](/help/main/c-recommendations/c-algorithms/entity-attribute-matching-beta.md)
          + [프로필 속성 일치](/help/main/c-recommendations/c-algorithms/profile-attribute-matching.md)
-         + [프로필 속성 일치 베타](/help/main/c-recommendations/c-algorithms/profile-attribute-matching-beta.md)
          + [매개 변수 일치](/help/main/c-recommendations/c-algorithms/parameter-matching.md)
-         + [매개 변수 일치 Beta](/help/main/c-recommendations/c-algorithms/parameter-matching-beta.md)
          + [정적 필터](/help/main/c-recommendations/c-algorithms/static-value.md)
-         + [정적 필터 베타](/help/main/c-recommendations/c-algorithms/static-value-beta.md)
       + [백업 권장 사항 사용](c-recommendations/c-algorithms/backup-recs.md)
-      + [백업 권장 사항 사용](/help/main/c-recommendations/c-algorithms/backup-recs-beta.md)
       + [다중 값 특성 관련 작업](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [다중 값 특성 Beta 작업](/help/main/c-recommendations/c-algorithms/work-with-multi-value-attributes-beta.md)
       + [추천와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
-      + [Recommendations 베타와 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations-beta.md)
    + 디자인 {#recommendations-design}
       + [디자인 개요](c-recommendations/c-design-overview/design-overview.md)
       + [디자인 만들기](c-recommendations/c-design-overview/create-design.md)
-      + [디자인 베타 만들기](/help/main/c-recommendations/c-design-overview/create-design-beta.md)
       + [디자인 FAQ](c-recommendations/c-design-overview/template-faq.md)
       + [Velocity를 사용하여 디자인 사용자 지정](c-recommendations/c-design-overview/customizing-a-template.md)
    + 활동 {#recommendations-activity}
       + [권장 사항 활동 만들기](c-recommendations/t-create-recs-activity/create-recs-activity.md)
-      + [Recommendations 활동 Beta 만들기](c-recommendations/t-create-recs-activity/create-recs-activity-beta.md)
-      + [기준 선택](c-recommendations/t-create-recs-activity/algo-select-recs.md)
-      + [기준 Beta 선택](c-recommendations/t-create-recs-activity/algo-select-rec-beta.md)
       + [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
       + [권장 사항 활동 미리보기 및 시작](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)

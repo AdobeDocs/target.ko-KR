@@ -5,10 +5,10 @@ title: 자동화된 세그먼트 보고서란 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
-source-wordcount: '2080'
-ht-degree: 60%
+source-wordcount: '2066'
+ht-degree: 59%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 60%
 
 >[!NOTE]
 >
->Personalization Insights 보고서를 사용할 때는 다음 사항을 고려하십시오.
+>[!UICONTROL Personalization Insights] 보고서를 사용할 때는 다음 사항을 고려하십시오.
 >
 >* AP 및 AT 활동은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에는 포함되지 않습니다.
 >
@@ -36,13 +36,11 @@ ht-degree: 60%
 
 1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭한 다음 목록에서 원하는 [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) 또는 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 활동을 클릭합니다.
 
-   활동이 많은 경우 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] 및 [!UICONTROL Activity Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링할 수 있습니다.
+   많은 활동이 있는 경우 필터( ![필터 아이콘](/help/main/assets/icons/Filter.svg) ) 아이콘을 클릭하여 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type] 및 [!UICONTROL Activity Source] 드롭다운 목록에서 옵션을 선택하여 목록을 필터링합니다.
 
 1. **[!UICONTROL Reports]** 아이콘을 클릭합니다.
 
-   활동의 성능에 대한 정보를 제공하는 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 타겟 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 보고서가 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 두 개의 개인화 인사이트 보고서인 자동화된 세그먼트 및 중요 속성 보고서를 나타냅니다. 자동 타깃팅에는 [!UICONTROL Summary] 보고서의 그래픽 보기를 위한 추가 그래프 아이콘이 있습니다.
-
-   Adobe Target의 ![Personalization 통찰력 보고서](/help/main/c-reports/assets/personalization_insights.png)
+   활동의 성능에 대한 정보를 제공하는 [Automated Personalization 요약](/help/main/c-reports/personalization-reports/reports-ap.md) 또는 [자동 타겟 요약](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) 보고서가 첫 번째 화면 아이콘으로 표시됩니다. 두 개의 추가 아이콘은 두 개의 [!UICONTROL Personalization Insights] 보고서를 나타냅니다. **[!UICONTROL Automated Segments]**(![자동화된 세그먼트 보고서](/help/main/assets/icons/AutomatedSegment.svg)) 및 **[!UICONTROL Important Attributes]**(![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg)). 자동 타깃팅에는 [!UICONTROL Summary] 보고서의 그래픽 보기를 위한 추가 그래프 아이콘이 있습니다.
 
    >[!IMPORTANT]
    >
@@ -50,23 +48,15 @@ ht-degree: 60%
 
 1. 활동을 활성화한 후 15일이 지나면 **[!UICONTROL Automated Segments]** 아이콘을 클릭합니다.
 
-   ![자동화된 세그먼트 아이콘](/help/main/c-reports/assets/icon-automated-sements.png)
-
 1. 원하는 날짜 범위를 선택합니다.
 
    [!UICONTROL Summary] 보고서(성과 보고)와 달리 [!UICONTROL Automated Segments]을(를) 포함한 [!UICONTROL Personalization Insights]은(는) 고정 날짜 범위인 15일, 30일, 60일에 대해서만 사용할 수 있습니다. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL Personalization Insights]에서 충분히 큰 데이터 범위를 사용하여 활동의 단기 패턴에서 통찰력을 얻을 가능성을 줄일 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;이 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
-   ![Adobe Target 보고서의 캘린더](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
-
-   [!UICONTROL Choose Duration] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
-
-   ![Adobe Target의 기간 드롭다운 목록](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   [!UICONTROL Preset Date Range] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
 
 1. [!UICONTROL Automated Segments] 보고서 데이터를 검토하십시오.
 
-   ![자동화된 세그먼트 보고서](/help/main/c-reports/assets/automated_segments_report.png)
-
-1. (선택 사항) Excel 및 기타 도구에서 분석할 [보고서를 CSV 형식으로 다운로드](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)합니다.
+1. (선택 사항) Excel 및 기타 도구에서 분석할 수 있도록 **[!UICONTROL Download]** ( ![다운로드 아이콘](/help/main/assets/icons/Download.svg) ) 아이콘을 클릭하여 [CSV 형식으로 보고서 다운로드](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF)합니다.
 
    >[!NOTE]
    >
