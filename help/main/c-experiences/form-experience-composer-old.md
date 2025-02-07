@@ -6,8 +6,8 @@ feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
 source-git-commit: 2f86c9ee89b4e1698180f6b3dc9df393733eb780
 workflow-type: tm+mt
-source-wordcount: '867'
-ht-degree: 33%
+source-wordcount: '776'
+ht-degree: 37%
 
 ---
 
@@ -23,45 +23,17 @@ ht-degree: 33%
 
 1. [!UICONTROL Create Activity] 대화 상자에서 **[!UICONTROL Form]** 선택
 
-1. (조건부) [Target Premium 고객](/help/main/c-intro/intro.md#premium)인 경우 **[!UICONTROL Choose Workspace]** 드롭다운 목록에서 [작업 공간](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을(를) 선택하십시오.
+1. (조건부) 작업 공간 및 속성을 선택합니다.
 
-   [[!UICONTROL Choose Workplace]](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 옵션은 [Target Premium](/help/main/c-intro/intro.md) 기능이며 조직에 [!UICONTROL Target Standard] 라이선스가 있는 경우 표시되지 않을 수 있습니다.
-
-1. 속성을 선택합니다.
-
-1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Next]** 아이콘을 클릭합니다.
 
    [!UICONTROL Form-Based Experience Composer]이(가) 열립니다.
 
+   ![위치 개선 이미지](assets/location_refinements.png)
+
    [!UICONTROL Recommendations] 활동을 만드는 경우 이 화면은 다릅니다. [!UICONTROL Recommendations] 활동에 경험이 포함되어 있지 않습니다.
 
-1. 
-   1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
-
-   활동 이름은 다음 문자로 시작할 수 없습니다.
-
-   | 문자 | 설명 |
-   |--- |--- |
-   | `=` | 다음과 같음 |
-   | `+` | 플러스 |
-   | `-` | 빼기 |
-   | `@` | 로그인 |
-
-   활동 이름에는 다음 문자 시퀀스를 사용할 수 없습니다.
-
-   | 문자 시퀀스 | 설명 |
-   |--- |--- |
-   | ;= | 세미콜론, 다음과 같음 |
-   | ;+ | 세미콜론, 플러스 |
-   | ;- | 세미콜론, 빼기 |
-   | ;@ | 세미콜론, @ 기호 |
-   | ,= | 쉼표, 같음 |
-   | ,+ | 쉼표, 더하기 |
-   | ,- | 쉼표, 빼기 |
-   | ,@ | 쉼표, @ 기호 |
-   | `[`&quot; | 대괄호 열기, 큰따옴표 |
-   | &quot;`]` | 큰따옴표, 대괄호 닫기 |
-
+1. &quot;[!UICONTROL Untitled Activity]&quot;을(를) 클릭하여 활동 이름을 지정합니다.
 1. 위치를 선택합니다.
 
    [!UICONTROL Select Location] 상자를 클릭하면 사용 가능한 위치 목록이 나타납니다. 해당 위치 중 하나를 선택합니다.
@@ -74,9 +46,13 @@ ht-degree: 33%
 
 1. **[!UICONTROL Add Audience Refinements]**&#x200B;을(를) 클릭하고 이 활동에 대해 하나 이상의 [대상](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522)을(를) 선택한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
+   ![location_refinations_2 이미지](assets/location_refinements_2.png)
+
    [!UICONTROL Form-based Experience Composer]에서 세분화는 전체 대상 기능으로 대체되었습니다. 기존 활동에 대한 세분화가 [활동 전용 대상](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)(으)로 마이그레이션되었습니다.
 
 1. 해당 위치에 표시할 콘텐츠 유형을 선택합니다.
+
+   ![form_content 이미지](assets/form_content.png)
 
 1. 선택한 콘텐츠 유형에 대해 콘텐츠를 지정합니다.
 
@@ -120,7 +96,11 @@ ht-degree: 33%
 
    양식 기반 경험 작성기에서 권장 사항 기준을 선택하는 동안 선택한 기준 카드에 직접 연결되는 링크가 있으므로 기준을 빠르고 쉽게 편집할 수 있습니다.
 
-   [!DNL Target]의 [!UICONTROL Targeting] 페이지에서 안내가 있는 3단계 워크플로:
+   ![change_criteria 이미지](assets/change_criteria.png)
+
+   Target 3단계 안내 워크플로우의 타깃팅 페이지에서 다음을 수행합니다.
+
+   ![change_criteria_2 이미지](assets/change_criteria_2.png)
 
    **오퍼 결정 추가:**
 
