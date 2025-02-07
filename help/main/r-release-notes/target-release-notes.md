@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 266b854f819d358afa464e65245900cbf7281c3e
+source-git-commit: f4562e10183f141fd78eb1e6daa95bd4e17be430
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1130'
 ht-degree: 14%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2025년 1월 31일 토요일**
+**마지막 업데이트 날짜: 2025년 2월 7일 토요일**
 
 >[!NOTE]
 >
@@ -23,7 +23,7 @@ ht-degree: 14%
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
 
-## Target Standard/Premium 25.2.1 (2025년 2월 6일 금요일)
+## Target Standard/Premium 25.2.1 (2025년 2월 11일 수요일)
 
 이번 릴리스에는 다음 업데이트가 포함됩니다.
 
@@ -36,7 +36,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->2월 6일 목요일부터 고객은 점진적으로 새로운 [!UICONTROL Activities] UI에 액세스할 수 있습니다. 모든 고객을 위한 원활한 롤아웃을 보장하기 위해 이 릴리스는 제어된 단계로 배포됩니다. 첫 번째 단계에서는 [!DNL Target] 고객의 초기 그룹을 새 [!UICONTROL Activities] UI로 업그레이드합니다. 이후 단계에서는 나머지 고객을 업그레이드합니다.
+>2월 11일부터 고객은 점진적으로 새로운 [!UICONTROL Activities] UI에 액세스할 수 있습니다. 모든 고객을 위한 원활한 롤아웃을 보장하기 위해 이 릴리스는 제어된 단계로 배포됩니다. 첫 번째 단계에서는 [!DNL Target] 고객의 초기 그룹을 새 [!UICONTROL Activities] UI로 업그레이드합니다. 이후 단계에서는 나머지 고객을 업그레이드합니다.
 
 최신 [!DNL Adobe Spectrum] 디자인 시스템을 기반으로 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않은 디자인 패턴을 표준화합니다.
 
@@ -56,7 +56,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->2월 6일 목요일부터 고객은 점진적으로 새로운 [!UICONTROL Recommendations] UI에 액세스할 수 있습니다. 모든 고객을 위한 원활한 롤아웃을 보장하기 위해 이 릴리스는 제어된 단계로 배포됩니다. 첫 번째 단계에서는 [!DNL Target] 고객의 초기 그룹을 새 [!UICONTROL Activities] UI로 업그레이드합니다. 이후 단계에서는 나머지 고객을 업그레이드합니다.
+>2월 11일부터 고객은 점진적으로 새로운 [!UICONTROL Recommendations] UI에 액세스할 수 있습니다. 모든 고객을 위한 원활한 롤아웃을 보장하기 위해 이 릴리스는 제어된 단계로 배포됩니다. 첫 번째 단계에서는 [!DNL Target] 고객의 초기 그룹을 새 [!UICONTROL Activities] UI로 업그레이드합니다. 이후 단계에서는 나머지 고객을 업그레이드합니다.
 
 최신 [!DNL Adobe Spectrum] 디자인 시스템을 기반으로 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않은 디자인 패턴을 표준화합니다.
 
