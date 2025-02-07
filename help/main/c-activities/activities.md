@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 활동을 통해 특정 대상을 위한 콘�
 title: ' [!DNL Target]을(를) 사용하여 콘텐츠를 개인화하고 페이지 디자인을 테스트하려면 어떻게 해야 합니까?'
 feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-source-git-commit: b7c7e8d85f7f39024ed5e57177e5c9f628460e9c
+source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
 workflow-type: tm+mt
-source-wordcount: '2218'
+source-wordcount: '2237'
 ht-degree: 26%
 
 ---
@@ -31,8 +31,8 @@ ht-degree: 26%
 
 | 요소 | 설명 |
 |--- |--- |
-| [!UICONTROL Show filters] 아이콘<P>![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) | 목록 맨 위에 있는 **[!UICONTROL Show Filters]** 아이콘을 클릭하여 필터에 액세스하여 활동을 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source] 및 [!UICONTROL Properties]별로 필터링합니다.<P>자세한 내용은 아래의 [[!UICONTROL Activities] 목록에 필터 적용](#filters)을 참조하십시오. |
-| 필드 검색 | 활동을 빠르게 찾거나 [!UICONTROL Activity] 목록에 표시되는 활동 수를 줄이십시오. 드롭다운을 사용하여 [!UICONTROL Activity Name], [!UICONTROL URL] 또는 [!UICONTROL ID]별로 검색할 수 있습니다. |
+| [!UICONTROL Show filters] 아이콘<P>![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) | 목록 맨 위에 있는 **[!UICONTROL Show Filters]** 아이콘을 클릭하여 필터에 액세스하여 활동을 [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], [!UICONTROL Decisioning Source], [!UICONTROL Activity Source] 및 [!UICONTROL Properties]별로 필터링합니다.<P>구성하는 필터는 현재 세션에서 영구적입니다.<P>자세한 내용은 아래의 [[!UICONTROL Activities] 목록에 필터 적용](#filters)을 참조하십시오. |
+| 필드 검색 | 활동을 빠르게 찾거나 [!UICONTROL Activity] 목록에 표시되는 활동 수를 줄이십시오. 드롭다운을 사용하여 [!UICONTROL Activity Name], [!UICONTROL URL] 또는 [!UICONTROL ID]별로 검색할 수 있습니다.<P>사용자가 구성하는 검색 옵션은 현재 세션에서 지속됩니다. |
 | [!UICONTROL Create Activity] | 활동을 만듭니다.<P>다양한 활동 유형 만들기에 대한 자세한 내용은 다음을 참조하십시오. <ul><li>[[!UICONTROL A/B Test] 활동 만들기](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)</li><li>[[!UICONTROL Auto-Allocate] 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)</li><li>[[!UICONTROL Auto-Target] 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md)</li><li>[[!UICONTROL Automated Personalization] 활동 만들기](/help/main/c-activities/t-automated-personalization/create-ap-activity.md)</li><li>[[!UICONTROL Experience Targeting] 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md)</li><li>[활동 만들기](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)</li><li>[[!UICONTROL Recommendations] 활동 만들기](/help/main/c-recommendations/recommendations.md)</li></ul>각 유형에 대한 자세한 내용은 아래의 [활동 유형](#types)을 참조하세요. |
 | [!UICONTROL Create mobile preview link]<P>![추가 작업 메뉴](/help/main/assets/icons/MoreVertical.svg) | [모바일 미리 보기 링크](https://experienceleague.adobe.com/en/docs/target-dev/developer/mobile-apps/target-mobile-preview)를 사용하여 모바일 앱 활동에 대한 간단한 전체 QA를 수행합니다.<P>**추가 옵션** 아이콘을 클릭하고 **모바일 미리 보기 링크 만들기**&#x200B;를 선택한 다음 모바일에서 테스트할 활동을 선택하십시오. |
 | 표 맞춤화<P>![표 사용자 지정 아이콘](/help/main/assets/icons/ColumnSetting.svg) | 페이지의 오른쪽 상단에 있는 **[!UICONTROL Customize Table]** 아이콘을 클릭한 다음 원하는 열을 선택하거나 선택 취소하여 [!UICONTROL Activity] 목록에 표시되는 열을 변경합니다.<P>변경 내용은 계정에 적용되며 [!DNL Target]에서 로그아웃한 후에도 활성 상태로 유지됩니다. |
