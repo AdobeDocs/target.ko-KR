@@ -4,16 +4,20 @@ description: Adobe Target에서 시각적 경험 작성기(VEC) 사용의 기본
 title: 시각적 경험 작성기(VEC)를 사용하려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 51650f2a-1f24-40c7-8692-77f55656b4f6
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1101'
-ht-degree: 59%
+source-wordcount: '1130'
+ht-degree: 57%
 
 ---
 
 # 시각적 경험 작성기(VEC)
 
 [!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer](VEC) 사용에 대한 정보입니다.
+
+>[!NOTE]
+>
+>[!DNL Target Standard/Premium] 25.2.1(2025년 2월 11일) 릴리스에는 VEC의 업데이트된 버전이 포함되어 있습니다. 업데이트된 VEC가 이전 버전과 어떻게 다른지에 대한 자세한 내용은 [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)을 참조하십시오.
 
 VEC는 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 [!DNL Target] 활동에 대한 경험과 오퍼를 만들 수 있습니다.
 

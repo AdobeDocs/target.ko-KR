@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1131'
+source-wordcount: '1148'
 ht-degree: 14%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 14%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2025년 2월 7일 토요일**
+**마지막 업데이트 날짜: 2025년 2월 10일 화요일**
 
 >[!NOTE]
 >
@@ -41,11 +41,14 @@ ht-degree: 14%
 최신 [!DNL Adobe Spectrum] 디자인 시스템을 기반으로 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않은 디자인 패턴을 표준화합니다.
 
 * 활동 결과에 대한 더 나은 통찰력을 위해 [다시 디자인된 보고](/help/main/administrating-target/reporting.md)
-* [!UICONTROL Audit] 페이지가 업데이트되어 [!DNL Audit API]에서 실시간 인사이트에 대한 정보를 가져옵니다.
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) 페이지, 이제 실시간 인사이트를 위해 [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}에서 정보를 가져옵니다.
 * 서로 다른 팀 요구 사항에 대해 보다 유연하게 사용할 수 있도록 [사용자 지정 가능한 목록 보기](/help/main/c-activities/activities.md)
 * 보다 쉽게 정보에 액세스할 수 있도록 [빠른 정보 및 세부 정보 화면 향상](/help/main/c-activities/activities.md)
 * [세션 영구 검색 및 필터 옵션](/help/main/c-activities/activities.md)
 * 브라우저 공급자의 최신 보안 업데이트 및 최신 사용자 인터페이스를 지원하여 [다시 빌드된 [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)
+
+  업데이트된 VEC가 이전 버전과 어떻게 다른지에 대한 자세한 내용은 [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)을 참조하십시오.
+
 * 보안을 강화하고 자사 쿠키에 대한 지원을 개선하기 위해 매니페스트 V3을 지원하는 [업데이트 [!DNL Chrome] 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
 
 ![활동 새로 고침](/help/main/r-release-notes/assets/activities-refresh.png)

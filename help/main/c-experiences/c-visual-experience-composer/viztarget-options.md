@@ -4,16 +4,21 @@ description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)�
 title: '[!UICONTROL Visual Experience Composer](VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '978'
-ht-degree: 16%
+source-wordcount: '1007'
+ht-degree: 14%
 
 ---
 
 # 시각적 경험 작성기 옵션
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다
+
+>[!NOTE]
+>
+>[!DNL Target Standard/Premium] 25.2.1(2025년 2월 11일) 릴리스에는 VEC의 업데이트된 버전이 포함되어 있습니다. 업데이트된 VEC가 이전 버전과 어떻게 다른지에 대한 자세한 내용은 [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)을 참조하십시오.
+
 
 다양한 [!UICONTROL Visual Experience Composer](VEC) 작업은 작업을 보다 빠르고 효율적으로 수행할 수 있도록 적절한 메뉴 옵션으로 그룹화됩니다.
 

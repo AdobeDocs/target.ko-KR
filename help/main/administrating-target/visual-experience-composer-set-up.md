@@ -5,9 +5,9 @@ title: 시각적 경험 작성기(VEC)를 구성하려면 어떻게 해야 합�
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '679'
 ht-degree: 49%
 
 ---
@@ -55,7 +55,12 @@ EEC([!UICONTROL Enhanced Experience Composer])를 사용하여 웹 사이트를 
 
 경험 스냅샷을 활성화하면 활동 워크플로우 다이어그램에서 경험에 대한 썸네일이 생성됩니다. 스냅샷을 비활성화하면 일부 사용자의 경우 성능이 더 빨라질 수 있습니다.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."}
+## 모바일 뷰포트 구성
+
+>[!NOTE]
+>
+>[!UICONTROL Mobile Viewport Configuration] 설정은 [Target Premium](/help/main/c-intro/intro.md#premium) 기능입니다.
+
 
 경험을 미리 볼 때 사용할 장치를 추가할 수 있습니다. 각 장치에는 연결된 대상이 있습니다.
 

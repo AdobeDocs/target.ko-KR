@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1263'
 ht-degree: 89%
 
 ---
@@ -229,6 +229,7 @@ ht-degree: 89%
    + VEC(시각적 경험 작성기) {#vec}
       + [시각적 경험 작성기 개요](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [시각적 경험 작성기 옵션](c-experiences/c-visual-experience-composer/viztarget-options.md)
+      + [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
       + [유사한 페이지에 동일한 경험 포함](c-experiences/c-visual-experience-composer/temtest.md)
       + [다중 페이지 활동](c-experiences/c-visual-experience-composer/multipage-activity.md)
       + [활동 충돌](c-experiences/c-visual-experience-composer/activity-collisions.md)
