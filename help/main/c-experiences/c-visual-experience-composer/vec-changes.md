@@ -4,7 +4,7 @@ description: Adobe Target 25.2.1 릴리스(2025년 2월 11일)에서 VEC(시각�
 title: 새로운 시각적 경험 작성기 (VEC)에는 어떤 변경 사항이 도입됩니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3d6597c869d5959e34c6108d6c8b9bfa750ab6c6
+source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 0%
@@ -57,7 +57,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ### [!UICONTROL Properties] 패널(신규)
 
-새 [!UICONTROL Properties] 패널을 사용하면 해당 요소가 HTML 요소인지 아니면 [!DNL Target]과(와) 관련된 개체(예: 권장 사항이나 오퍼)인지 여부에 관계없이 페이지에서 선택한 요소의 속성을 변경할 수 있습니다.
+새 [!UICONTROL Properties] 패널을 사용하면 페이지에서 선택한 요소의 속성을 변경할 수 있습니다. 이러한 요소가 HTML 요소인지 [!DNL Target]과(와) 관련된 개체(예: 권장 사항 또는 오퍼)인지 여부입니다.
 
 ![속성 패널](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
 
