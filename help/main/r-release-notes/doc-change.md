@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: be6bc2b1ed05f1e54ac6399a20e1e26dd78b4e2a
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 36%
+source-wordcount: '187'
+ht-degree: 32%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 36%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
-| 2월 11일 | [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | VEC의 이전 버전과 업데이트된 버전 간의 차이점을 설명하는 새 문서입니다. |
+| 2월 12일 | [지원되는 브라우저](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | [!DNL Adobe Experience Platform Web SDK]을(를) 사용하여 Target 구현에서 지원하는 브라우저에 대한 정보를 추가했습니다. |
+|  | [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md) | VEC의 이전 버전과 업데이트된 버전 간의 차이점을 설명하는 새 문서입니다. |
 |  | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.2.1 사용자 인터페이스 업데이트에 대한 릴리스 정보가 추가되었습니다(2025년 2월 12일로 예약됨). UI 변경 사항을 반영하도록 많은 문서가 업데이트되었습니다. |
 
 ### [!DNL Target Standard/Premium] 25.1.1 (2025년 1월 9일 금요일)
