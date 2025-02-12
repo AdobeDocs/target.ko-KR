@@ -4,16 +4,16 @@ description: Adobe Target 25.2.1 릴리스(2025년 2월 11일)에서 VEC(시각�
 title: 새로운 시각적 경험 작성기 (VEC)에는 어떤 변경 사항이 도입됩니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 84a73954261c61a48c92b40b879937febaa57f24
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '648'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Visual Experience Composer]개 변경
 
-[!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 11일)에서는 업데이트된 [!UICONTROL Visual Experience Composer](VEC)이 도입되었습니다. 이 문서에서는 VEC의 이전 버전과 업데이트된 버전의 차이점에 대해 설명합니다.
+[!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 12일)에서는 업데이트된 [!UICONTROL Visual Experience Composer](VEC)이 도입되었습니다. 이 문서에서는 VEC의 이전 버전과 업데이트된 버전의 차이점에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
@@ -37,11 +37,11 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ### [!UICONTROL Components] 패널(신규)
 
-새 [!UICONTROL Components] 패널을 사용하여 웹 페이지에 여러 구성 요소를 추가하고 필요한 구성 요소를 편집할 수 있습니다.
+새 [!UICONTROL Components] 패널을 사용하여 웹 페이지에 여러 구성 요소를 추가하고 필요에 따라 편집할 수 있습니다.
 
 ![구성 요소 패널](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-새 구성 요소를 추가하려면 삽입하려는 구성 요소를 편집 캔버스의 기존 페이지 요소 위로 드래그합니다. 그런 다음 선택한 요소 뒤의 앞에 구성 요소를 삽입하도록 선택합니다.
+새 구성 요소를 추가하려면 삽입하려는 구성 요소 패널의 구성 요소를 디자인 캔버스의 기존 페이지 요소 위로 드래그합니다. 그런 다음 선택한 요소 뒤의 앞에 구성 요소를 삽입하도록 선택합니다.
 
 이전 VEC 버전과 비교할 때 선택한 요소를 구성 요소로 바꿀 수 없습니다.
 

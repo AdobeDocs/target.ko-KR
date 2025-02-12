@@ -5,14 +5,14 @@ title: 시각적 경험 작성기(VEC)를 구성하려면 어떻게 해야 합�
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '679'
+source-wordcount: '676'
 ht-degree: 49%
 
 ---
 
-# 시각적 경험 작성기 구성
+# [!UICONTROL Visual Experience Composer] 구성
 
 일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)을(를) 구성합니다.
 

@@ -4,21 +4,134 @@ description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)�
 title: '[!UICONTROL Visual Experience Composer](VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
+source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
 workflow-type: tm+mt
-source-wordcount: '1007'
-ht-degree: 14%
+source-wordcount: '1847'
+ht-degree: 9%
 
 ---
 
 # 시각적 경험 작성기 옵션
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다
+[!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 12일)에서는 업데이트된 [!UICONTROL Visual Experience Composer](VEC)이 도입되었습니다. 이 문서에서는 업데이트된 UI 및 해당 옵션에 대해 설명합니다.
+
+>[!IMPORTANT]
+>
+>업데이트된 [!UICONTROL Visual Editing Composer]에는 Chrome 웹 스토어에서 사용할 수 있는 [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] 확장 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)이(가) 필요합니다.
+
+VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
+
+![VEC(시각적 경험 작성기)](/help/main/c-experiences/c-visual-experience-composer/assets/new-vec.png)
+
+## VEC UI 개요
+
+다음 섹션에서는 [!UICONTROL A/B Test] 활동에 대해 업데이트된 VEC에서 사용할 수 있는 옵션에 대해 설명합니다. 옵션은 활동 유형에 따라 다릅니다.
+
+### [!UICONTROL Experiences] 패널
+
+[!UICONTROL Experiences] 패널이 VEC의 왼쪽 레일에 표시됩니다.
+
+![경험 패널](/help/main/c-experiences/c-visual-experience-composer/assets/experiences-panel.png)
+
+[!UICONTROL Experiences] 패널을 사용하여 경험을 보거나, 만들거나, 이름을 바꾸거나, 제거할 수 있습니다.
+
+[!UICONTROL Experiences] 패널에서 다음 옵션을 사용할 수 있습니다.
+
+* **경험 보기**: 경험을 보려면 원하는 경험을 클릭하여 [!UICONTROL Design] 캔버스에 표시하십시오.
+* **경험 추가**: **[!UICONTROL Add]** 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭하여 새 경험을 추가합니다. 원하는 대로 새 경험을 구성합니다.
+* **경험 이름 바꾸기**: **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/Rename.svg))을 클릭하여 [!UICONTROL Rename Experience] 대화 상자를 표시합니다. 새 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+* **경험 복제, 삭제 또는 리디렉션**: **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 **[!UICONTROL Duplicate]**, **[!UICONTROL Delete]** 또는 **[!UICONTROL Redirect to URL]**&#x200B;을(를) 선택합니다.
+
+### 활동 설정/구성
+
+[!UICONTROL Design] 캔버스 위에 표시된 [!UICONTROL Configure] 아이콘(![구성 아이콘](/help/main/assets/icons/Setting.svg))을 클릭하여 활동 속성 메뉴를 표시합니다.
+
+![활동 구성 옵션](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
+
+다음 옵션을 사용할 수 있습니다.
+
+* **[!UICONTROL Properties]**: 활동에 속성을 할당하거나 활동에서 속성을 제거합니다. [!UICONTROL Properties]은(는) ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) 기능입니다. 자세한 내용은 [엔터프라이즈 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하십시오.
+* **[!UICONTROL Page Delivery]**: 사이트의 유사한 페이지에 동일한 경험을 포함하십시오. 페이지 템플릿을 사용하여 페이지에 구조를 제공하거나 페이지에 유사한 요소가 포함되어 있는 경우 유사한 구조의 페이지 요소에서 또는 전체 도메인에서 변형을 테스트할 수 있습니다. 자세한 내용은 [유사한 페이지에 동일한 경험 포함](/help/main/c-experiences/c-visual-experience-composer/temtest.md)을 참조하십시오.
+* **[!UICONTROL Site Preferences]**: 사이트 환경 설정을 구성하여 [!DNL Target]에서 CSS 선택기를 생성하는 방법을 지정하십시오. 자세한 내용은 [구성 [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md)의 _CSS 선택기_&#x200B;를 참조하십시오.
+* **추가 페이지 추가**: 활동에 페이지를 추가하여 여러 페이지에 걸쳐 각 페이지별 디자인을 사용하여 스토리를 만들 수 있는 다중 페이지 활동을 만듭니다. 자세한 내용은 [다중 페이지 활동](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)을 참조하세요.
+* **단일 대상**: 활동에 단일 대상을 사용합니다.
+* **여러 대상**: 활동에 여러 대상을 할당합니다. 대상자 추가 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg) )을 클릭한 다음, 목록에서 대상자를 하나 이상 선택합니다. [!UICONTROL Add Audiences] 대화 상자에서 [대상을 결합](/help/main/c-target/combining-multiple-audiences.md)하거나 [새 대상을 만들기](/help/main/c-target/c-audiences/create-audience.md)할 수도 있습니다.
+
+### [!UICONTROL Design]/[!UICONTROL Browse] 모드
+
+디자인 캔버스 위에 표시된 [!UICONTROL Design]/[!UICONTROL Browse] 전환을 사용하여 디자인과 찾아보기 모드 간에 전환합니다.
+
+![디자인 및 찾아보기 전환](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
+
+[!UICONTROL Browse] 모드를 사용하여 사이트를 탐색하고 업데이트할 보기 또는 페이지를 선택하십시오. 변경 내용을 추가하거나 편집하려면 [!UICONTROL Design] 모드로 다시 전환하십시오.
+
+### [!UICONTROL Undo]/[!UICONTROL Redo]
+
+[!UICONTROL Undo] 아이콘(![실행 취소 아이콘](/help/main/assets/icons/Undo.svg))을 클릭하여 변경 내용을 실행 취소할 수 있습니다.
+
+![VEC의 실행 취소 아이콘](/help/main/c-experiences/c-visual-experience-composer/assets/undo.png)
+
+작업을 다시 실행하려면 실행 취소/[!UICONTROL Redo] 단추 그룹을 확장하고 [!UICONTROL Redo]을(를) 선택합니다.
+
+### [!UICONTROL Components] 패널
+
+새 [!UICONTROL Components] 패널을 사용하여 웹 페이지에 여러 구성 요소를 추가하고 필요에 따라 편집할 수 있습니다.
+
+![구성 요소 패널](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1(2025년 2월 12일) 릴리스에는 VEC의 업데이트된 버전이 포함되어 있습니다. 업데이트된 VEC가 이전 버전과 어떻게 다른지에 대한 자세한 내용은 [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)을 참조하십시오.
+>이 영역에 [!UICONTROL Components] 패널 대신 [!UICONTROL Modifications] 패널이 표시되면 **[!UICONTROL Show Components]** 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))을 클릭합니다. [!UICONTROL Show Components] 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))과 [!UICONTROL Show Modifications] 아이콘(![수정 사항 표시 패널](/help/main/assets/icons/History.svg))을 전환하여 적절한 옵션을 표시합니다.
 
+경험에 새 구성 요소를 추가하려면 다음 작업을 수행하십시오.
+
+1. 추가하려는 구성 요소를 클릭하여 강조 표시합니다.
+
+   사용 가능한 구성 요소는 논리 컨테이너로 그룹화됩니다.
+
+   * [!UICONTROL Basic]
+      * [!UICONTROL Divider]
+      * [!UICONTROL HTML]
+      * [!UICONTROL Image]
+   * [!UICONTROL Text]
+      * [!UICONTROL Heading]
+      * [!UICONTROL Paragraph]
+      * [!UICONTROL Link]
+   * [!UICONTROL Dynamic]
+      * [[!UICONTROL Recommendation]](/help/main/c-recommendations/recommendations-as-an-offer.md)
+      * [[!UICONTROL Experience Fragment]](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md)
+      * [[!UICONTROL HTML Offer]](/help/main/c-experiences/c-manage-content/manage-content.md)
+
+1. 구성 요소를 [!UICONTROL Design] 캔버스의 기존 페이지 요소 위로 드래그합니다.
+1. 선택한 요소 뒤에 구성 요소를 삽입하려면 선택합니다.
+
+   이전 VEC 버전과 비교할 때 선택한 요소를 구성 요소로 바꿀 수 없습니다.
+
+### [!UICONTROL Modifications] 패널
+
+[!UICONTROL Modifications] 패널을 열려면 [!UICONTROL Components] 패널에서 [!UICONTROL Show Modifications] 아이콘(![수정 사항 패널 표시](/help/main/assets/icons/History.svg) )을 클릭합니다.
+
+![수정 사항 패널](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>[!UICONTROL Show Components] 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))과 [!UICONTROL Show Modifications] 아이콘(![수정 사항 표시 패널](/help/main/assets/icons/History.svg))을 전환하여 적절한 옵션을 표시합니다.
+
+[!UICONTROL Modifications] 패널에는 [!UICONTROL Visual Experience Composer](VEC)의 페이지에 적용된 모든 변경 내용이 표시되며, 이를 통해 CSS 선택기, Mbox 및 사용자 지정 코드와 같은 추가 변경 내용을 적용할 수 있습니다.
+
+패널 헤더의 **[!UICONTROL More Options]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭하여 수정 사항을 추가하거나, 모든 수정 사항을 삭제하거나, 모든 잘못된 수정 사항을 삭제합니다. 대량 작업을 수행하려면 [!UICONTROL Select]을(를) 클릭하십시오. [!UICONTROL Apply to All Pages] 또는 [!UICONTROL Delete].
+
+각 수정 사항 옆의 **[!UICONTROL More Options]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg) )을 클릭하여 해당 정보를 보거나, 수정 사항을 삭제하거나, 수정 사항을 더 많은 보기에 적용합니다.
+
+### [!UICONTROL Design] 캔버스
+
+[!UICONTROL Design] 캔버스를 사용하면 화면 맞춤, [!UICONTROL Desktop], [!UICONTROL Tablet], [!UICONTROL Mobile Landscape] 및 [!UICONTROL Mobile Portrait]을(를) 포함한 뷰포트를 선택할 수 있습니다. 기본적으로 캔버스는 [관리](/help/main/administrating-target/visual-experience-composer-set-up.md) 섹션에 정의된 뷰포트와 함께 페이지에 맞게 화면에 표시됩니다.
+
+![뷰포트 옵션](/help/main/c-experiences/c-visual-experience-composer/assets/viewports.png)
+
+적절한 아이콘(![확대 아이콘](/help/main/assets/icons/ZoomIn.svg) 또는 ![축소 아이콘](/help/main/assets/icons/ZoomOut.svg))을 클릭하여 확대하거나 축소할 수도 있습니다.
+
+[!UICONTROL Design] 캔버스에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
 
 다양한 [!UICONTROL Visual Experience Composer](VEC) 작업은 작업을 보다 빠르고 효율적으로 수행할 수 있도록 적절한 메뉴 옵션으로 그룹화됩니다.
 
@@ -26,15 +139,29 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->사용 가능한 옵션은 만들거나 편집하는 활동 유형과 요소에 따라 다릅니다. 다음 섹션에는 이미지 및 텍스트에 대한 다양한 옵션에 대한 정보가 포함되어 있습니다.
+>사용 가능한 옵션은 만들거나 편집하는 활동 유형과 요소에 따라 다릅니다. [!UICONTROL A/B Test] 활동에서 이미지 및 오퍼 편집에 대한 자세한 내용은 아래의 [캔버스를 사용하여 요소 편집](#design)을 참조하십시오.[!UICONTROL Design]
 
-## 이미지 옵션
+### [!UICONTROL Properties] 패널
+
+[!UICONTROL Properties] 패널을 사용하면 해당 요소가 HTML 요소인지 또는 [!DNL Target]과(와) 관련된 개체(예: 권장 사항이나 오퍼)인지 여부에 관계없이 페이지에서 선택한 요소의 속성을 변경할 수 있습니다.
+
+![속성 패널](/help/main/c-experiences/c-visual-experience-composer/assets/properties-panel.png)
+
+패널 위쪽에 있는 아이콘을 클릭하여 HTML 코드를 편집하거나 요소를 삭제, 복제 또는 숨깁니다. 변경 내용이 [!UICONTROL Modifications] 패널에 나타납니다.
+
+오른쪽 레일에서 [!UICONTROL Properties] 패널을 접을 수 있습니다. 패널 오른쪽에 있는 [!UICONTROL Show/Hide Properties] 아이콘(![속성 아이콘](/help/main/assets/icons/Propertie.svg))을 클릭하여 [!UICONTROL Properties] 패널을 축소하거나 표시합니다.
+
+## [!UICONTROL Design] 캔버스를 사용하여 요소 편집 {#design}
+
+다음 단원에서는 [!UICONTROL Design] 캔버스에서 이미지와 텍스트를 편집하는 방법을 보여 줍니다. 디자인 캔버스 와 구성 요소, 수정 사항 및 속성 패널은 활동에 대한 경험을 쉽게 만들 수 있는 강력한 도구를 제공합니다.
+
+### 이미지 옵션
 
 [!UICONTROL A/B Test] 활동에서 이미지를 클릭하면 VEC가 다음 그림과 유사합니다.
 
 이미지가 선택된 ![VEC](/help/main/c-experiences/c-visual-experience-composer/assets/vec-image.png)
 
-왼쪽의 구성 요소 프레임에서 구성 요소를 선택하여 다음 요소를 삽입합니다.
+다음 요소를 삽입하려면 왼쪽의 [!UICONTROL Components] 프레임에서 구성 요소를 선택하십시오.
 
 * 기본(구분선, HTML, 이미지).
 * 텍스트(제목, 단락, 링크).
@@ -47,7 +174,7 @@ ht-degree: 14%
 * 개인화 추가( ![Personalization 추가 아이콘](/help/main/assets/icons/PersonalizationField.svg) ).
 * 이미지를 삭제합니다(![삭제 아이콘](/help/main/assets/icons/Delete.svg)).
 
-오른쪽의 프레임을 통해 이미지의 속성을 추가로 구성할 수 있습니다.
+오른쪽의 [!UICONTROL Properties] 창을 사용하면 이미지의 속성을 추가로 구성할 수 있습니다.
 
 프레임 상단의 아이콘을 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -67,7 +194,7 @@ ht-degree: 14%
 * 요소의 효과(불투명도)를 구성합니다. 이미지의 세피아, 회색 음영, 대비, 밝기 및 흐림 값을 구성하려면 [!UICONTROL Show Advanced Options]을(를) 클릭합니다. 이미지를 반전하거나 회전할 수도 있습니다.
 * 이미지의 인라인 스타일을 구성합니다.
 
-## 텍스트 옵션
+### 텍스트 옵션
 
 [!UICONTROL A/B Test] 활동에서 텍스트를 클릭하면 VEC가 다음 그림과 유사합니다.
 
@@ -88,12 +215,12 @@ ht-degree: 14%
 * 텍스트의 특성(굵게, 기울임꼴, 밑줄 또는 취소선)을 구성합니다(![텍스트 특성 선택 아이콘](/help/main/assets/icons/Text.svg)).
 * 텍스트의 맞춤을 구성합니다(왼쪽, 가운데, 오른쪽, 양쪽 맞춤)(![텍스트 맞춤 아이콘](/help/main/assets/icons/TextAlignCenter.svg) ).
 * 링크를 삽입합니다( ![링크 삽입 아이콘](/help/main/assets/icons/Link.svg)).
-* 콘텐츠를 HTML 오퍼, [경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) 또는 [권장 사항]/help/main/c-recommendations/recommendations-as-an-offer.md)으로 바꾸십시오.
+* 콘텐츠를 HTML 오퍼, [경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) 또는 [권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)(으)로 바꾸십시오.
 * HTML(![HTML 삽입 아이콘](/help/main/assets/icons/Code.svg) )를 편집합니다.
 * 개인화 추가( ![Personalization 추가 아이콘](/help/main/assets/icons/PersonalizationField.svg) ).
 * 이미지를 삭제합니다(![삭제 아이콘](/help/main/assets/icons/Delete.svg)).
 
-오른쪽의 프레임을 통해 텍스트의 속성을 추가로 구성할 수 있습니다.
+오른쪽의 [!UICONTROL Properties] 패널을 통해 텍스트의 속성을 추가로 구성할 수 있습니다.
 
 프레임 상단의 아이콘을 사용하면 다음 작업을 수행할 수 있습니다.
 
@@ -115,7 +242,7 @@ ht-degree: 14%
 * 요소의 효과(불투명도)를 구성합니다. 이미지의 세피아, 회색 음영, 대비, 밝기 및 흐림 값을 구성하려면 [!UICONTROL Show Advanced Options]을(를) 클릭합니다. 텍스트를 반전하거나 회전할 수도 있습니다.
 * 인라인 스타일을 구성합니다.
 
-## HTML 편집 {#html}
+## HTML 편집
 
 HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽입할 수 있습니다.
 
