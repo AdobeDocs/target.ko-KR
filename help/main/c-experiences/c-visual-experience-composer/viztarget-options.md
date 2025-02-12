@@ -1,10 +1,10 @@
 ---
-keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;offer decisioning
+keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;오퍼 의사 결정
 description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
 title: '[!UICONTROL Visual Experience Composer](VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 457b02cb3cbaeee8ad9b56844891dd7e9f6f2d86
+source-git-commit: 35699792dac84c93775aab9dde46d62c988e2838
 workflow-type: tm+mt
 source-wordcount: '1007'
 ht-degree: 14%
@@ -17,7 +17,7 @@ ht-degree: 14%
 
 >[!NOTE]
 >
->[!DNL Target Standard/Premium] 25.2.1(2025년 2월 11일) 릴리스에는 VEC의 업데이트된 버전이 포함되어 있습니다. 업데이트된 VEC가 이전 버전과 어떻게 다른지에 대한 자세한 내용은 [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)을 참조하십시오.
+>[!DNL Target Standard/Premium] 25.2.1(2025년 2월 12일) 릴리스에는 VEC의 업데이트된 버전이 포함되어 있습니다. 업데이트된 VEC가 이전 버전과 어떻게 다른지에 대한 자세한 내용은 [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)을 참조하십시오.
 
 
 다양한 [!UICONTROL Visual Experience Composer](VEC) 작업은 작업을 보다 빠르고 효율적으로 수행할 수 있도록 적절한 메뉴 옵션으로 그룹화됩니다.
@@ -36,7 +36,7 @@ ht-degree: 14%
 
 왼쪽의 구성 요소 프레임에서 구성 요소를 선택하여 다음 요소를 삽입합니다.
 
-* 기본(구분자, HTML, 이미지).
+* 기본(구분선, HTML, 이미지).
 * 텍스트(제목, 단락, 링크).
 * 동적([권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md), [경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML 오퍼).
 
@@ -51,7 +51,7 @@ ht-degree: 14%
 
 프레임 상단의 아이콘을 사용하면 다음 작업을 수행할 수 있습니다.
 
-* HTML(![HTML 삽입 아이콘](/help/main/assets/icons/Code.svg) )을 편집합니다. 자세한 내용은 아래의 [HTML 편집](#html)을 참조하십시오.
+* HTML(![HTML 삽입 아이콘](/help/main/assets/icons/Code.svg) )를 편집합니다. 자세한 내용은 아래 [HTML 편집](#html)을 참조하십시오.
 * 이미지를 복제합니다(![복제 아이콘](/help/main/assets/icons/Code.svg)).
 * 이미지를 삭제합니다(![삭제 아이콘](/help/main/assets/icons/Delete.svg)).
 * 이미지를 숨깁니다(![숨기기 아이콘](/help/main/assets/icons/VisibilityOff.svg)).
@@ -75,7 +75,7 @@ ht-degree: 14%
 
 다음 요소를 삽입하려면 왼쪽의 [!UICONTROL Components] 프레임에서 구성 요소를 선택하십시오.
 
-* 기본(구분자, HTML, 이미지).
+* 기본(구분선, HTML, 이미지).
 * 텍스트(제목, 단락, 링크).
 * 동적([권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md), [경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), HTML 오퍼).
 
@@ -89,7 +89,7 @@ ht-degree: 14%
 * 텍스트의 맞춤을 구성합니다(왼쪽, 가운데, 오른쪽, 양쪽 맞춤)(![텍스트 맞춤 아이콘](/help/main/assets/icons/TextAlignCenter.svg) ).
 * 링크를 삽입합니다( ![링크 삽입 아이콘](/help/main/assets/icons/Link.svg)).
 * 콘텐츠를 HTML 오퍼, [경험 조각](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) 또는 [권장 사항]/help/main/c-recommendations/recommendations-as-an-offer.md)으로 바꾸십시오.
-* HTML(![HTML 삽입 아이콘](/help/main/assets/icons/Code.svg) )을 편집합니다.
+* HTML(![HTML 삽입 아이콘](/help/main/assets/icons/Code.svg) )를 편집합니다.
 * 개인화 추가( ![Personalization 추가 아이콘](/help/main/assets/icons/PersonalizationField.svg) ).
 * 이미지를 삭제합니다(![삭제 아이콘](/help/main/assets/icons/Delete.svg)).
 
@@ -97,7 +97,7 @@ ht-degree: 14%
 
 프레임 상단의 아이콘을 사용하면 다음 작업을 수행할 수 있습니다.
 
-* HTML(![HTML 삽입 아이콘](/help/main/assets/icons/Code.svg) )을 편집합니다. 자세한 내용은 아래의 [HTML 편집](#html)을 참조하십시오.
+* HTML(![HTML 삽입 아이콘](/help/main/assets/icons/Code.svg) )를 편집합니다. 자세한 내용은 아래 [HTML 편집](#html)을 참조하십시오.
 * 텍스트를 복제합니다(![복제 아이콘](/help/main/assets/icons/Code.svg)).
 * 텍스트를 삭제합니다(![삭제 아이콘](/help/main/assets/icons/Delete.svg)).
 * 텍스트를 숨깁니다(![숨기기 아이콘](/help/main/assets/icons/VisibilityOff.svg)).
@@ -119,7 +119,7 @@ ht-degree: 14%
 
 HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽입할 수 있습니다.
 
-[!UICONTROL A/B] 및 [!UICONTROL Experience Targeting] 활동에 대한 텍스트와 HTML을 편집할 때 여러 서식 있는 텍스트 서식 옵션을 사용할 수 있습니다. 글꼴을 선택하고, 글꼴 스타일을 선택하고, 텍스트 정렬을 변경하고, 기타 표준 텍스트 서식 옵션을 사용할 수 있습니다. HTML을 수정할 때 HTML의 코드 보기와 리치 편집 보기 간에 전환할 수 있습니다.
+[!UICONTROL A/B] 및 [!UICONTROL Experience Targeting] 활동에 대해 텍스트와 HTML을 편집할 때 여러 서식 있는 텍스트 서식 옵션을 사용할 수 있습니다. 글꼴을 선택하고, 글꼴 스타일을 선택하고, 텍스트 정렬을 변경하고, 기타 표준 텍스트 서식 옵션을 사용할 수 있습니다. HTML을 수정할 때 HTML의 코드 보기와 리치 편집 보기 간에 전환할 수 있습니다.
 
 다음 HTML5 태그를 중첩할 수 있습니다.
 
