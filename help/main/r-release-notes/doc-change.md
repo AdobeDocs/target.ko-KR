@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
+source-git-commit: e4263593b9279847c565396c7b11d55c503b5507
 workflow-type: tm+mt
 source-wordcount: '221'
 ht-degree: 30%
@@ -17,7 +17,7 @@ ht-degree: 30%
 
 ## 업데이트
 
-### [!DNL Target Standard/Premium] 25.2.1(2025년 2월 12일)
+### [!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일)
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
