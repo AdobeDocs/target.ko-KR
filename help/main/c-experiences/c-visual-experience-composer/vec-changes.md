@@ -1,10 +1,10 @@
 ---
 keywords: 시각적 경험 작성기;vec;wysiwyg
-description: Adobe Target 25.2.1 릴리스(2025년 2월 11일)에서 VEC(시각적 경험 작성기)에 도입된 변경 사항을 이해합니다.
+description: Adobe Target 25.2.1 릴리스(2025년 2월 17일)에서 VEC(시각적 경험 작성기)에 도입된 변경 사항을 이해합니다.
 title: 새로운 시각적 경험 작성기 (VEC)에는 어떤 변경 사항이 도입됩니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # [!UICONTROL Visual Experience Composer]개 변경
 
-[!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 12일)에서는 업데이트된 [!UICONTROL Visual Experience Composer](VEC)이 도입되었습니다. 이 문서에서는 VEC의 이전 버전과 업데이트된 버전의 차이점에 대해 설명합니다.
+[!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 17일)에서는 업데이트된 [!UICONTROL Visual Experience Composer](VEC)이 도입되었습니다. 이 문서에서는 VEC의 이전 버전과 업데이트된 버전의 차이점에 대해 설명합니다.
 
 >[!IMPORTANT]
 >

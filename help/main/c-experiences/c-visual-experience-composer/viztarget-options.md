@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)�
 title: '[!UICONTROL Visual Experience Composer](VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 3aeac3344c2bbc2a44da80b5a359e55c9419b59b
 workflow-type: tm+mt
 source-wordcount: '1847'
 ht-degree: 9%
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # 시각적 경험 작성기 옵션
 
-[!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 12일)에서는 업데이트된 [!UICONTROL Visual Experience Composer](VEC)이 도입되었습니다. 이 문서에서는 업데이트된 UI 및 해당 옵션에 대해 설명합니다.
+[!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 17일)에서는 업데이트된 [!UICONTROL Visual Experience Composer](VEC)이 도입되었습니다. 이 문서에서는 업데이트된 UI 및 해당 옵션에 대해 설명합니다.
 
 >[!IMPORTANT]
 >
