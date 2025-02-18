@@ -4,9 +4,9 @@ description: ' [!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytic
 title: ' [!DNL Adobe Customer Journey Analytics]에서  [!DNL Target] 보고 중'
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 5e86d3a95dad291f6c876f126568ba685ff32670
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1037'
 ht-degree: 54%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 54%
 
 * 마케터가 언제든지 [!DNL Customer Journey Analytics] 성공 지표 또는 보고 세그먼트를 [!DNL Target] 활동 보고서에 동적으로 적용할 수 있습니다. 활동을 실행하기 전에 모든 항목을 지정할 필요는 없습니다.
 * 마케터는 [실험 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}과 같은 [!DNL Customer Journey Analytics] 기능을 사용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
-* 마케터는 [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/reporting/cja-ajo){target=_blank} 및 [!DNL Target]에 대한 단일 보고 소스를 가질 수 있습니다. 두 개인화 제품 모두 [!DNL Customer Journey Analytics]에 연결하여 웹 개인화를 보다 전체적으로 살펴볼 수 있습니다.
+* 마케터는 [!DNL Adobe Journey Optimizer] 및 [!DNL Target]에 대한 단일 보고 소스를 가질 수 있습니다. 두 개인화 제품 모두 [!DNL Customer Journey Analytics]에 연결하여 웹 개인화를 보다 전체적으로 살펴볼 수 있습니다.
 
 ## 고려 사항
 
@@ -41,7 +41,7 @@ ht-degree: 54%
 * 기존의 모든 [!DNL Target] 활동은 [!DNL Target] 데이터 수집을 계속 사용하며 이 통합을 활성화해도 영향을 받지 않습니다.
 * 이 통합을 사용하려면 기본 구현 메서드에 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform){target=_blank} 및 [!DNL Target]이(가) [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}을(를) 통해 구현되었습니다.
 
-  현재 [!DNL Adobe Experience Platform Web SDK]이(가) 구현되지 않은 경우 [[!DNL Adobe Analytics] 소스 연결](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)을 만들어 데이터를 [!DNL Adobe Experience Platform](으)로 가져올 수도 있습니다. 이 메서드를 사용하려면 [!DNL Customer Journey Analytics]에서 사용하는 [!DNL Adobe Experience Platform] 샌드박스와 함께 [!DNL Analytics] 보고서 세트를 선택해야 합니다.
+  현재 [!DNL Adobe Experience Platform Web SDK]이(가) 구현되지 않은 경우 [[!DNL Adobe Analytics] 소스 연결](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)을 만들어 데이터를 [!DNL Adobe Experience Platform]&#x200B;(으)로 가져올 수도 있습니다. 이 메서드를 사용하려면 [!DNL Customer Journey Analytics]에서 사용하는 [!DNL Adobe Experience Platform] 샌드박스와 함께 [!DNL Analytics] 보고서 세트를 선택해야 합니다.
 
   ![보고 설정 대화 상자의 샌드박스 옵션](/help/main/c-integrating-target-with-mac/cja/assets/aep-sandbox.png)
 
@@ -53,7 +53,7 @@ ht-degree: 54%
 
 ## 지원되는 활동 유형 {#supported-activities}
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} 또는 [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript 라이브러리를 사용할 때 다음 활동 유형이 지원됩니다.
+다음 활동 유형은 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} 또는 [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript 라이브러리를 사용할 때 지원됩니다.
 
 | 활동 유형 | 지원됨? |
 |--- |--- |
@@ -63,7 +63,7 @@ ht-degree: 54%
 | [경험 타겟팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |
 | [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 |
 | [Automated Personalization(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |
-| [Recommendations 활동](/help/main/c-recommendations/recommendations.md) | 예 |
+| [추천 활동](/help/main/c-recommendations/recommendations.md) | 예 |
 
 ## [!DNL Customer Journey Analytics]를 보고 소스로 사용하는 활동 만들기
 

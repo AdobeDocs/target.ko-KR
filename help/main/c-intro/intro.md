@@ -1,15 +1,15 @@
 ---
-keywords: Target Standard;Recommendations;Target Premium;자동 개인화;자동-타겟;자동 타겟;권한;adobe target이란;
-description: Adobe [!DNL Target] 표준 및 Adobe [!DNL Target] Premium의 기본 사항에 대해 알아봅니다. [!DNL Target] Premium에는 표준 제품에서 사용할 수 없는 고급 기능이 포함되어 있습니다.
+keywords: Target Standard;추천;Target Premium;자동 개인화;자동-타겟;자동 타겟;권한;adobe target이란;
+description: Adobe [!DNL Target] Standard 및 Adobe [!DNL Target] Premium의 기본 사항에 대해 알아봅니다. [!DNL Target] Premium에는 표준 제품에서 사용할 수 없는 고급 기능이 포함되어 있습니다.
 landing-page-description: 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있습니다.
 short-description: 고객의 경험을 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화할 수 있습니다.
 title: Target은 무슨 프로그램입니까?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 73%
+source-wordcount: '1019'
+ht-degree: 72%
 
 ---
 
@@ -65,9 +65,9 @@ ht-degree: 73%
 
   &quot;이 항목을 보고 다른 항목도 구입한 사람&quot; 기준을 사용하여, 권장 사항에 있는 첫 번째 제품을 표시하지 않고 고객이 한 제품을 본 후에 구입한 다른 제품을 표시합니다.
 
-### 오퍼로서의 Recommendations
+### 오퍼로서의 추천
 
-[오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)을(를) 사용하면 [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting](XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+[오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)을(를) 사용하면 [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해 줍니다.
 
@@ -88,7 +88,7 @@ ht-degree: 73%
 
 Beta 기능을 설명하는 [!DNL Target] 가이드의 문서에는 각 페이지 상단에 있는 Beta 배지 또는 영향을 받는 텍스트 근처에 있는 인라인이 포함됩니다. Beta 배지는 클릭할 수 있으며 이 섹션에 대한 링크를 포함합니다.
 
-## Recommendations Classic  {#section_9554068100054D2DBDB298CBE5A0E413}
+## 추천 Classic  {#section_9554068100054D2DBDB298CBE5A0E413}
 
 >[!IMPORTANT]
 >
@@ -102,7 +102,7 @@ Beta 기능을 설명하는 [!DNL Target] 가이드의 문서에는 각 페이�
 
 이 시작 키트를 사용하여 [!DNL Adobe Target] 에서 최적화 및 개인화 프로그램을 구축하십시오. 시작 키트에는 첫 번째 [!DNL Target] 활동을 준비하고 시작하는 데 도움이 되는 주요 정보, 도구 및 리소스가 포함되어 있습니다. 이 키트에는 단기적인 빠른 승리와 장기적인 최적화 전략에 대한 아이디어가 포함되어 있습니다.
 
-[Adobe Target 시작 키트](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target 시작 키트](/help/main/c-intro/target-welcome-kit.md)
 
 ## 교육 비디오: 활동 유형(9:03) ![개요 배지](/help/main/assets/overview.png)
 

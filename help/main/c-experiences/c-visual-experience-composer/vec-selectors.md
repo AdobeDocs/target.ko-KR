@@ -1,12 +1,12 @@
 ---
 keywords: 경험 타깃팅;랜딩 페이지 테스트
-description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현식입니다. Adobe [!DNL Target] VEC(시각적 경험 작성기)에서 요소 선택기를 사용하는 방법을 알아봅니다.
+description: 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현식입니다. Adobe [!DNL Target] 시각적 경험 작성기(VEC)에서 요소 선택기를 사용하는 방법을 알아봅니다.
 title: VEC(시각적 경험 작성기)에서 요소 선택기를 사용할 수 있습니까?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '390'
 ht-degree: 85%
 
 ---
@@ -27,7 +27,7 @@ MDN(Mozilla Developer Network)의 [Selectors](https://developer.mozilla.org/en-U
 
 CSS 선택기를 사용할 시점과 고유한 ID를 사용할 시점에 대해서는 [시각적 경험 작성기 우수 사례 및 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6)을 참조하십시오.
 
-## Adobe [!DNL Target]이(가) 요소에 대한 선택기를 생성하는 방법 {#section_D89D954BCBFB486CA081BE183776A475}
+## Adobe [!DNL Target]에서 요소에 대한 선택기를 생성하는 방법 {#section_D89D954BCBFB486CA081BE183776A475}
 
 Target에서는 단순 알고리즘을 사용하여 선택기를 만듭니다. 다음은 생성 논리에 대한 간략한 설명입니다.
 
@@ -91,8 +91,6 @@ Target에서는 단순 알고리즘을 사용하여 선택기를 만듭니다. �
    ```
 
    선택기: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
-
-   [CSS Tricks 웹 페이지의 nth-of-type](https://css-tricks.com/almanac/selectors/n/nth-of-type/)에 대해 자세히 알 수 있습니다.
 
 위 프로세스에서는
 

@@ -4,9 +4,9 @@ description: 테스트 및 개인화 작업의 일부로 Adobe  [!DNL Target] �
 title: Target을 사용하기 위한 팁과 요령은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2890'
+source-wordcount: '2883'
 ht-degree: 72%
 
 ---
@@ -33,7 +33,7 @@ ht-degree: 72%
 
 단계별 지침은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md) 을 참조하십시오.
 
-**알아 둘 사항**: [!DNL Adobe Audience Manager] 대상자는 [!DNL Target] 에서 자동으로 사용할 수 있습니다. 그러나 [!DNL Adobe Analytics] 대상자를 공유하려면 약간의 수동 설정이 필요합니다. [!DNL Analytics]의 대상 작성 프로세스 중에 &quot;Experience Cloud 대상으로 만들기&quot; 상자를 선택하면 됩니다. 그런 다음 [!DNL Target]에서 &quot;Experience Cloud 대상자 가져오기&quot;를 클릭합니다.
+**알아 둘 사항**: [!DNL Adobe Audience Manager] 대상자는 [!DNL Target] 에서 자동으로 사용할 수 있습니다. 그러나 [!DNL Adobe Analytics] 대상자를 공유하려면 약간의 수동 설정이 필요합니다. [!DNL Analytics]의 대상 구축 프로세스 중에 &quot;Experience Cloud 대상으로 만들기&quot; 상자를 선택하면 됩니다. 그런 다음 [!DNL Target]에서 &quot;Experience Cloud 대상자 가져오기&quot;를 클릭합니다.
 
 ## 팁 3: 서드파티 도구에서 사용할 데이터를 [!DNL Target]에서 내보냅니다.
 
@@ -79,7 +79,7 @@ Target Standard를 사용 중이십니까? 읽기 전용, 편집자 및 승인�
 
 경험 버전을 사용하면 원하는 수의 대상자에 대해 변형으로 테스트를 한 번 실행할 수 있습니다. 예를 들어 세 명의 다른 대상자에 대해 각각 테스트를 실행하지 않고도 미국, 영국, 그리고 U.A.E.의 고객을 위한 이미지 및 환율 변동과 함께 무료 배송을 제공하는 배너 광고를 만들 수 있습니다.
 
-단계별 지침은 [A/B 테스트의 여러 경험 대상자](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) 및 [Adobe Target의 경험 버전](https://helpx.adobe.com/target/how-to/experience-versions.html?playlist=/ccx/v1/collection/product/target/seg-%20ment/business-practitioners/explevel/beginner-adls/applaunch/how-to-2/collection.ccx.js?ref=helpx.adobe.com) 을 참조하십시오.
+단계별 지침은 [A/B 테스트의 여러 경험 대상](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)을 참조하십시오.
 
 ## 팁 8: 유사한 페이지에 활동 경험을 복제하여 시간을 절약하십시오.
 

@@ -7,9 +7,9 @@ feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: e5aed7cd-7701-4133-ac7c-98e528c8a763
-source-git-commit: b4f9e14f9dfa94f8648686e43e66eee7e0f7daa1
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '794'
+source-wordcount: '798'
 ht-degree: 1%
 
 ---
@@ -36,7 +36,7 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너에서 사용 가능한 옵션에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;의 [웹 콘텐츠 편집](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}을 참조하십시오.
+>이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너의 사용 가능한 옵션에 대한 자세한 내용은 *Journey Optimizer 설명서*&#x200B;에서 [웹 디자이너와 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}을 참조하십시오.
 >
 >페이지 하단에 있는 비디오가 특히 유용합니다.
 
@@ -125,6 +125,6 @@ ht-degree: 1%
 
 >[!MORELIKETHIS]
 >
->*Journey Optimizer 설명서*&#x200B;의 [웹 콘텐츠 편집](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content){target=_blank}
+>*Journey Optimizer 설명서*&#x200B;에서 [웹 디자이너와 작업](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}
 >[*Journey Optimizer 설명서*&#x200B;의 방법 비디오](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/web/author-web-pages/edit-web-content#video){target=_blank}
->[*Journey Optimizer Tutorials*&#x200B;에서 캠페인 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}
+>[*Journey Optimizer 자습서*&#x200B;에서 캠페인 만들기](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}

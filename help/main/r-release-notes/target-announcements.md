@@ -3,10 +3,12 @@ keywords: 알림;스킬 빌더;개발자 채팅;커피 브레이크;이벤트;fo
 description: 알림을 읽고 스킬 빌더 세션, 개발자 및 제품 관리자 채팅, 웨비나 등을 포함한 Adobe [!DNL Target] 이벤트에 등록하십시오.
 title: ' [!DNL Target] 공지 및 이벤트 정보는 어디에서 확인할 수 있습니까?'
 feature: Release Notes
+hide: true
+hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b9aebf56ea46c40ca4693e85460358f2e406bbec
+source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
 workflow-type: tm+mt
-source-wordcount: '2350'
+source-wordcount: '2052'
 ht-degree: 98%
 
 ---
@@ -36,7 +38,11 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
 +++ -->
 
-## Adobe Target 2024 개인 맞춤화 완성 웨비나 시리즈 {#maturity-series}
+## 과거 웨비나 및 스킬 빌더 세션 녹화
+
+이전 이벤트의 녹화분 액세스(가능한 경우):
+
+### Adobe Target 2024 개인 맞춤화 완성 웨비나 시리즈 {#maturity-series}
 
 이 라이브 웨비나 시리즈는 고객이 [!DNL Adobe Experience Platform]을 통해 실험 및 개인화 여정을 확장함에 따라 AI 기반 개인화를 실현할 수 있는 주요 [!DNL Adobe Target] 기능, 사용 사례 및 팁을 강조합니다.
 
@@ -46,37 +52,25 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 * **고유 기능 극대화**: ROI, 매출 및 전환율을 극대화하기 위한 고성능 추천을 통해 성공을 위한 경험을 맞춤화합니다.
 * **고급 Personalization 전략**: AI/ML 고급 기술을 심층적으로 분석하여 비즈니스 영향력을 확장하고, 새로운 세그먼트/대상과 공감하고, 개인화 모델을 미세 조정하여 최적화된 경험을 만듭니다.
 
-* **[여기에서 등록](https://adobe-target-personalization-maturity-webinar-series-q1-2024.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++날짜 및 세부 정보
++++세부 사항
 
 * **가능성의 예술**
-   * **2024년 1월 16일 화요일**
-   * **오전 10시 ~ 11시 (PST, -8 GMT)**
 
-     개인화 완성의 핵심에는 인공 지능과 머신 러닝이 있습니다. [!DNL Adobe Target]은 이러한 기술을 활용하여 사용자 행동을 이해하고 선호도를 예측하며 콘텐츠를 동적으로 맞춤화합니다. AI와 ML의 강력한 기능을 활용하여 브랜드가 정적 A/B 테스트 및 규칙 기반 개인화 이상으로 역동적이고 컨텍스트에 맞는 경험을 제공하는 방법을 알아보십시오.
+  개인화 완성의 핵심에는 인공 지능과 머신 러닝이 있습니다. [!DNL Adobe Target]은 이러한 기술을 활용하여 사용자 행동을 이해하고 선호도를 예측하며 콘텐츠를 동적으로 맞춤화합니다. AI와 ML의 강력한 기능을 활용하여 브랜드가 정적 A/B 테스트 및 규칙 기반 개인화 이상으로 역동적이고 컨텍스트에 맞는 경험을 제공하는 방법을 알아보십시오.
 
-     [녹화본을 시청하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
+  [녹화본을 시청하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **고성능 권장 사항**
-   * **2024년 2월 13일 화요일**
-   * **오전 10시 ~ 11시 (PST, -8 GMT)**
 
-     비즈니스의 판도를 바꾸고 참여와 매출을 증대시키는 추천 알고리즘에 대해 알아봅니다. 개인화된 제품 제안부터 콘텐츠 추천에 이르기까지 사용자의 여정을 원활하게 안내하는 기능은 비즈니스 성장을 크게 촉진하는 데 직접적으로 기여합니다.
+  비즈니스의 판도를 바꾸고 참여와 매출을 증대시키는 추천 알고리즘에 대해 알아봅니다. 개인화된 제품 제안부터 콘텐츠 추천에 이르기까지 사용자의 여정을 원활하게 안내하는 기능은 비즈니스 성장을 크게 촉진하는 데 직접적으로 기여합니다.
 
-     [녹화본을 시청하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
+  [녹화본을 시청하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **AI 기반 개인화 잠금 해제**
-   * **2024년 3월 12일 화요일**
-   * **오전 10시 ~ 11시 (PST, -8 GMT)**
 
-     [!DNL Adobe Target]은 개인화된 경험을 위해 고객 라이프사이클의 모든 단계에서 AI 기반의 1:1 개인화 기능을 촉진합니다. 확보부터 유지까지 기업이 프로세스를 간소화하고 수동 작업을 최소화하며 규모에 맞게 상황별 고객 경험을 제공할 수 있는 인사이트를 확보하는 방법에 대해 알아보십시오.
+  [!DNL Adobe Target]은 개인화된 경험을 위해 고객 라이프사이클의 모든 단계에서 AI 기반의 1:1 개인화 기능을 촉진합니다. 확보부터 유지까지 기업이 프로세스를 간소화하고 수동 작업을 최소화하며 규모에 맞게 상황별 고객 경험을 제공할 수 있는 인사이트를 확보하는 방법에 대해 알아보십시오.
 
 +++
-
-## 과거 웨비나 및 스킬 빌더 세션 녹화
-
-이전 이벤트의 녹화분 액세스(가능한 경우):
 
 ### 성수기 준비로 최대 ROI 영향을 위한 전략 수립
 
@@ -156,7 +150,7 @@ Adobe 고객 성공 관리자인 Ramon Cespedes가 제시하는 개인화 제공
 
   교육 과정 맵:
 
-   * [!UICONTROL A/B Test], [!UICONTROL Multivariate Testing](MVT), (XT), 자동화된 테스트 및 개인화
+   * [!UICONTROL A/B Test], [!UICONTROL Multivariate Testing]&#x200B;(MVT), (XT), 자동화된 테스트 및 개인화
    * 활동 설정에 대한 단계별 워크플로
    * 일괄 경험 프리페치, 모바일에 대한 개인화 항시 활성화
    * 테스트에 대한 라이프사이클 지표 및 고객 경험 전반에 걸친 타겟팅
@@ -184,18 +178,16 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 
 공급망 문제, 서비스 오류 및 인력 부족이 가속화되는 시기에 충성도를 높이는 것은 대부분의 여행, 접대 및 외식 브랜드가 직면한 과제입니다. AI의 시대에 브랜드는 이미 산업을 떠난 필요한 리소스 없이 어떻게 경험을 확장할 수 있을까요? 디지털 기술의 발전은 20~25배 더 빠르게 가속화되어 가속화된 고객 기대치에 부응할 뿐만 아니라 자동화를 통한 팀의 확장에 기여했습니다.
 
-* **[웨비나 녹화 자료를 시청하려면 등록](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
++++세부 사항
 
-  +++세부 사항
+2022년, 시스템은 실시간 충성도 활성화를 구현하기 위한 지속적인 인텔리전스를 제공할 수 있는 역량에서 정점에 도달했습니다.
 
-  2022년, 시스템은 실시간 충성도 활성화를 구현하기 위한 지속적인 인텔리전스를 제공할 수 있는 역량에서 정점에 도달했습니다.
+다음 주제들을 살펴보겠습니다.
 
-  다음 주제들을 살펴보겠습니다.
-
-   * 디지털 붕괴 가속화 및 AI의 부상
-   * 얼리 어답터가 매출 및 순이익 성장 모두에서 우위를 차지하는 이유
-   * 여행에서의 개인화 자동화
-   * 작동 중인 실시간 충성도 활성화
+* 디지털 붕괴 가속화 및 AI의 부상
+* 얼리 어답터가 매출 및 순이익 성장 모두에서 우위를 차지하는 이유
+* 여행에서의 개인화 자동화
+* 작동 중인 실시간 충성도 활성화
 
 +++
 
@@ -225,35 +217,6 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
    * 웹, 모바일 앱, 이메일, IoT 및 각 디지털 접점을 최적화하여 전환율과 참여도를 높이는 문제를 극복하십시오.
    * 개인화, 타겟팅 및 테스트를 위한 [!DNL Adobe Analytics] 및 [!DNL Target] 워크플로 단계별 둘러보기
    * 방문자 행동을 예측하는 속성과 주요 시각화 및 세분화 분석에 가장 중요한 속성을 잠금 해제하는 주요 사용 사례
-
-+++
-
-### City National Bank: Zero to Hero - 개인화 프로그램 시작 및 확장 (2022년 6월 9일)
-
-브랜드 충성도를 높이기 위해 “관계 은행”이 되는 모범 사례를 알아보십시오. 성공적인 개인화 프로그램을 빌드하고 확장하도록 인력과 프로세스를 이끄는 방법을 알아보십시오.
-
-* [녹화 링크](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
-
-  +++세부 사항
-
-  브랜드 충성도를 높이기 위해 “관계 은행”이 되는 모범 사례와 성공적인 개인화 프로그램을 빌드하고 확장하도록 인력과 프로세스를 이끄는 방법을 알아보려면 Heather Adkins(SVP 마케팅 기술)와 함께하십시오.
-
-+++
-
-### [!DNL Adobe]: 영향력이 큰 최적화 기회 발견 (2022년 6월 16일)
-
-그 어느 때보다 디지털화된 새로운 표준에 진입함에 따라 조직이 탁월한 디지털 경험을 제공할 수 있는 모든 기회를 포착하는 것이 중요합니다. 충분히 좋은 것만으로는 더 이상 충분하지 않습니다. 경쟁력을 유지하려면 훌륭한 경험이 필요합니다.
-
-* [녹화 링크](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
-
-  +++세부 사항
-
-  다음과 같은 개인화 프로그램을 시작하는 데 도움이 되는 검증된 전략을 공유하려면 Kaitlin White(Adobe 제품 마케팅 관리자)와 함께하십시오.
-
-   * 새로운 잠재 고객 또는 고객을 확보하기 위한 즉각적인 사고
-   * 보다 직관적인 경험을 위해 사용자 마찰 수정
-   * 개인화를 위한 고객 선호도 활용
-   * 조직에서 영향력이 큰 기회를 발견하는 데 도움이 되는 다양한 아이디어
 
 +++
 
@@ -304,21 +267,6 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
    * 진정한 관계를 발전시키기 위해 크로스 채널을 통해 성공적인 경험을 구현하십시오.
    * 참여도를 높이고 맞춤형 오퍼를 채택하여 비즈니스 성장 가속화
    * 가치 창출 시간 및 ROI를 위해 멀티채널 캠페인을 최적화합니다.
-
-+++
-
-### [!DNL Adobe Target]을 사용한 실시간 개인 설정
-
-* **[웨비나 녹화 자료를 시청하려면 등록](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-  +++세부 사항
-
-  이 세션에서는 [!DNL Adobe Target]이 실시간 개인화를 위해 여러 소스에서 데이터를 결합할 때의 격차를 해소하는 방법에 대해 알아봅니다.
-
-   * 더 빠른 비즈니스 성장을 위해 맞춤화 성능과 속도가 중요한 이유
-   * 팀이 자사 데이터 전략을 구축하고 데이터 단편화 문제를 해결하는 방법
-   * 밀리초 단위로 맞춤화된 경험을 제공하기 위한 통합 워크플로
-   * 관련 메시지, 콘텐츠 및 오퍼를 통해 실시간으로 고객과 잠재 고객의 참여를 유도하기 위한 브랜드의 고유 사용 사례
 
 +++
 
