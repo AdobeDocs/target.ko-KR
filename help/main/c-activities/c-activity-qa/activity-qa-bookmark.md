@@ -1,10 +1,10 @@
 ---
 keywords: qa;미리 보기;북마클릿;미리 보기 링크
-description: Adobe [!DNL Target] QA 북마클릿을 사용하여  [!DNL Target] QA 모드를 강제로 해제하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] QA 북마클릿을 사용하여  [!DNL Target] QA 모드에서 해제하기 위한 방법을 알아봅니다.
 title: 활동 QA 북마클릿을 사용하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: dbfe59eb-6853-4909-abf1-e5630e979a98
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 13%
@@ -61,12 +61,13 @@ javascript:(
         var isSet = document.cookie.split(';').some(function (cookie) {
             return cookie.trim().startsWith(AT_QA_MODE);
         });
-        if (isSet) {
-            document.cookie = AT_QA_MODE + '; Path=/; Max-Age=-0;';
-            var url = window.location.href.split('at_preview_token',2)[0];
-            window.open(url.substring(0, url.length - 1), '_self', 'noreferrer');
+        if (isSet) {            
+            document.cookie = AT_QA_MODE + ';domain='+window.location.hostname+";Path=/; Max-Age=-0;";
+            var token = window.location.href.indexOf("?at_preview_token")<0? "&at_preview_token" : "?at_preview_token";
+            var url = window.location.href.split(token,2)[0];
+            window.open(url, '_self', 'noreferrer');
         }
-    })();
+    })(); 
 ```
 
 ## 활동 QA 북마클릿 사용

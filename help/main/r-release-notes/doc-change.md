@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 4b5111c00384fdc73eaadbf0eec22ac6c2784a22
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '267'
 ht-degree: 28%
 
 ---
@@ -23,6 +23,7 @@ ht-degree: 28%
 |--- |--- |--- |
 | 2월 26일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 다음 릴리스에 대한 정보가 추가되었습니다.<ul><li>[!DNL Target Standard/Premium] 25.2.3(2025년 2월 26일)</li><li>at.js 버전 2.11.7(2025년 2월 26일)</li></ul> |
 |  | [at.js 버전 세부 정보](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | at.js 버전 2.11.7(2025년 2월 26일)에 대한 정보가 추가되었습니다. |
+|  | [활동 QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2.x에 대한 활동 QA 북마클릿을 업데이트했습니다. |
 | 2월 13일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.2.1 사용자 인터페이스 업데이트 릴리스를 2025년 2월 17일로 변경했습니다. |
 | 2월 12일 | [시각적 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | [!DNL Target Standard/Premium] 25.2.1 릴리스(2025년 2월 12일)에 도입된 업데이트된 VEC를 설명하기 위해 전체 항목이 업데이트되었습니다. |
 |  | [지원되는 브라우저](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | [!DNL Adobe Experience Platform Web SDK]을(를) 사용하여 Target 구현에서 지원하는 브라우저에 대한 정보를 추가했습니다. |
