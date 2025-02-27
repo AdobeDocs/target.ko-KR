@@ -4,7 +4,7 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '38891'
 ht-degree: 83%
@@ -2536,7 +2536,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target 포럼의 새 위치 </p> </td> 
-   <td colname="col2"> <p> Target 포럼이 새 <a href="https://forums.adobe.com/community/experience-cloud/marketing-cloud/target" format="https" scope="external"> Adobe 커뮤니티 플랫폼 </a>으로 이동되었습니다. </p> </td> 
+   <td colname="col2"> <p> Target 포럼이 새 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external"> Adobe 커뮤니티 플랫폼 </a>으로 이동되었습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>

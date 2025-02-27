@@ -6,9 +6,9 @@ feature: Release Notes
 hide: true
 hidefromtoc: true
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
-source-wordcount: '2052'
+source-wordcount: '2049'
 ht-degree: 98%
 
 ---
@@ -207,16 +207,14 @@ Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 �
 
 머신 러닝 모델과 데이터 인사이트가 마케터, 개발자 및 제품 소유자에게 중요한 개인화된 경험을 통해 소비자를 참여시킬 수 있는 새로운 기회를 열어줌에 따라 인공 지능이 어떻게 소비자의 기대치를 계속해서 재정의하는지 알아보십시오. 개인화, 타겟팅 및 테스트를 위한 [!DNL Adobe Analytics] + [!DNL Adobe Target] 워크플로를 단계별로 살펴보십시오.
 
-* [녹화 링크](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
++++세부 사항
 
-  +++세부 사항
+Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 다음 사항에 대해 논의하십시오.
 
-  Jordan Ison([!DNL Adobe]의 수석 전문가 솔루션 컨설턴트)과 함께 다음 사항에 대해 논의하십시오.
-
-   * 마케터, 개발자 및 제품 팀이 AI의 “블랙박스”를 열어 향후 테스트 및 개인화 전략을 추진하는 방법
-   * 웹, 모바일 앱, 이메일, IoT 및 각 디지털 접점을 최적화하여 전환율과 참여도를 높이는 문제를 극복하십시오.
-   * 개인화, 타겟팅 및 테스트를 위한 [!DNL Adobe Analytics] 및 [!DNL Target] 워크플로 단계별 둘러보기
-   * 방문자 행동을 예측하는 속성과 주요 시각화 및 세분화 분석에 가장 중요한 속성을 잠금 해제하는 주요 사용 사례
+* 마케터, 개발자 및 제품 팀이 AI의 “블랙박스”를 열어 향후 테스트 및 개인화 전략을 추진하는 방법
+* 웹, 모바일 앱, 이메일, IoT 및 각 디지털 접점을 최적화하여 전환율과 참여도를 높이는 문제를 극복하십시오.
+* 개인화, 타겟팅 및 테스트를 위한 [!DNL Adobe Analytics] 및 [!DNL Target] 워크플로 단계별 둘러보기
+* 방문자 행동을 예측하는 속성과 주요 시각화 및 세분화 분석에 가장 중요한 속성을 잠금 해제하는 주요 사용 사례
 
 +++
 
