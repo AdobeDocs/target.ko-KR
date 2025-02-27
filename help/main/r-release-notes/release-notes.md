@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b68c3d2e7e884e176a61598d1ab4a423aa1c9088
+source-git-commit: 3b79138f305454c29850a1ce3999aa324f95359f
 workflow-type: tm+mt
-source-wordcount: '1520'
-ht-degree: 20%
+source-wordcount: '1533'
+ht-degree: 19%
 
 ---
 
@@ -39,6 +39,8 @@ ht-degree: 20%
 이번 릴리스에는 다음 업데이트가 포함됩니다.
 
 * `localStorage`을(를) 사용할 수 없을 때 원격 분석 로깅을 수정했습니다. 원격 분석으로 인해 일부 고객의 브라우저에서 `localStorage`을(를) 사용하지 않도록 설정한 문제가 발생했습니다.
+
+이 릴리스 및 이전 at.js 릴리스에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}을 참조하십시오.
 
 ## Target Standard/Premium 25.2.1 (2025년 2월 17일 화요일)
 
