@@ -6,9 +6,9 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3b79138f305454c29850a1ce3999aa324f95359f
+source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1669'
 ht-degree: 19%
 
 ---
@@ -18,6 +18,18 @@ ht-degree: 19%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 25.3.1(2025년 3월 3일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* 결합된 대상은 하위 그룹을 포함할 수 있으며 각 그룹에는 여러 대상이 포함됩니다. 이 릴리스에서는 하위 그룹 대상이 [!UICONTROL Rules] 대화 상자에 표시되지 않는 문제를 해결했습니다. (TGT-51813)
+* 이전 활동을 열 때 일부 경험 대상이 [!UICONTROL All Visitors]&#x200B;(으)로 대체되는 문제가 해결되었습니다. (TGT-51812)
+* 활동 전용 대상이 있는 활동을 편집할 수 없는 문제를 해결했습니다. (TGT-51807)
+* 업데이트된 [!DNL Target] UI에서 페이지 헤드 수정 사항을 편집할 수 없는 문제를 해결했습니다. (TGT-51797)
+* 경험을 복제하고 다른 경험을 삭제한 다음 활동을 저장하려고 할 때 발생하는 null 오류를 해결했습니다. (TGT-51796)
+* 활동을 만드는 [!UICONTROL Targeting] 단계 동안 대상 제외 규칙이 대상의 정보 패널에 표시되지 않는 문제를 해결했습니다. (TGT-51579)
+* 한국어로 현지화된 오류 메시지가 업데이트되었습니다. (TGT-51701 및 TGT-51699)
 
 ## [!DNL Target Standard/Premium] 25.2.3(2025년 2월 26일)
 
