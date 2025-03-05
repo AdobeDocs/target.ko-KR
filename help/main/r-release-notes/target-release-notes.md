@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: fe370f57978ace161ca2ba2b9f6b11ae8f9b4cfa
+source-git-commit: 82e10bdecbaff95e16c34ae5b4b0acad9f2b6e5e
 workflow-type: tm+mt
-source-wordcount: '1538'
+source-wordcount: '1696'
 ht-degree: 13%
 
 ---
@@ -15,13 +15,27 @@ ht-degree: 13%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2025년 3월 3일 화요일**
+**마지막 업데이트: 2025년 3월 5일 목요일**
 
 >[!NOTE]
 >
 >릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+
+## [!DNL Target Standard/Premium] 25.3.2(2025년 3월 6일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* 활동 전용 대상을 사용하여 활동을 복사하는 경우 원래 활동의 대상을 대신 잘못 사용하여 새 활동을 만들지 못하는 문제가 해결되었습니다. (TGT-51855)
+* 활동 전용 대상이 있는 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동을 편집할 수 없는 문제를 해결했습니다. (TGT-51846)
+* [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 첫 번째 편집 시 환경에 수정 사항을 올바르게 적용하지 못하는 문제를 해결했습니다. (TGT-51843)
+* VEC 내에서 특정 요소를 클릭할 때 &#39;ID&#39; 오류를 트리거하는 문제를 해결했습니다. (TGT-51814)
+* 활동을 만드는 동안 VEC에서 오류 처리가 업데이트되었습니다. (TGT-51759)
+* 활동을 저장할 때 [!UICONTROL Modifications] 패널에서 보기가 누락되어 &#39;잘못된 사용자 입력&#39; 오류가 발생하는 문제를 해결했습니다. (TGT-51827)
+* 권장 사항 기준을 만들 수 없는 문제를 해결했습니다. (TGT-51834)
+* 다른 URL로 리디렉션하기 전에 확인 메시지를 추가했습니다. (TGT-51703)
+* 오퍼 및 폴더 내의 GraphQL 통합 테스트와 관련된 문제가 해결되었습니다. (TGT-51839)
 
 ## [!DNL Target Standard/Premium] 25.3.1(2025년 3월 3일)
 
