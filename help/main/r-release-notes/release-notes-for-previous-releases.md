@@ -4,10 +4,10 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
+source-git-commit: 7924bf0238eeba92be286441f537bfe84e93060e
 workflow-type: tm+mt
-source-wordcount: '38891'
-ht-degree: 83%
+source-wordcount: '39655'
+ht-degree: 81%
 
 ---
 
@@ -22,6 +22,94 @@ ht-degree: 83%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2025
+
+### [!DNL Target Standard/Premium] 25.3.1(2025년 3월 3일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* 결합된 대상은 하위 그룹을 포함할 수 있으며 각 그룹에는 여러 대상이 포함됩니다. 이 릴리스에서는 하위 그룹 대상이 [!UICONTROL Rules] 대화 상자에 표시되지 않는 문제를 해결했습니다. (TGT-51813)
+* 이전 활동을 열 때 일부 경험 대상이 [!UICONTROL All Visitors]&#x200B;(으)로 대체되는 문제가 해결되었습니다. (TGT-51812)
+* 활동 전용 대상이 있는 활동을 편집할 수 없는 문제를 해결했습니다. (TGT-51807)
+* 업데이트된 [!DNL Target] UI에서 페이지 헤드 수정 사항을 편집할 수 없는 문제를 해결했습니다. (TGT-51797)
+* 경험을 복제하고 다른 경험을 삭제한 다음 활동을 저장하려고 할 때 발생하는 null 오류를 해결했습니다. (TGT-51796)
+* 활동을 만드는 [!UICONTROL Targeting] 단계 동안 대상 제외 규칙이 대상의 정보 패널에 표시되지 않는 문제를 해결했습니다. (TGT-51579)
+* 한국어로 현지화된 오류 메시지가 업데이트되었습니다. (TGT-51701 및 TGT-51699)
+
+### [!DNL Target Standard/Premium] 25.2.3(2025년 2월 26일)
+
+이번 릴리스에는 다음 업데이트가 포함됩니다.
+
+* 일부 활동에 대해 활동 업데이트 후 [!DNL Target] 25.2.1 릴리스를 업데이트하지 못하는 문제를 해결했습니다. (TGT-51781)
+* 활동 만들기 프로세스를 취소([!UICONTROL Add Audience] 대신 [!UICONTROL Cancel] 선택)할 때 모든 상태 대상 변경 내용이 제거되던 문제를 해결했습니다. (TGT-51769 및 TGT-51770)
+* 특히 사용자 지정 코드를 사용할 때 일부 활동에 대해 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을(를) 로드하지 못하던 문제를 해결했습니다.  문제로 인해 VEC에 빈 화면이 표시되거나 [!DNL Target] UI가 이전 버전으로 되돌아갔습니다. (TGT-51758)
+* 대상에 대한 페이지 전달을 편집한 후 수정 사항이 삭제되는 문제를 해결했습니다. (TGT-51756)
+* [!UICONTROL Goals & Settings] 페이지에서 지표 유형을 변경할 때 모든 비지표 대상(페이지 및 경험 대상)이 활동에서 제거되던 문제를 해결했습니다. (TGT-51753)
+* 활동을 편집하는 동안 [!UICONTROL Cancel]을(를) 클릭하면 Target UI가 [!UICONTROL Activity Details] 페이지 대신 [!UICONTROL Activities List] 페이지로 이동하는 문제가 해결되었습니다. (TGT-51731)
+* 고객이 [!UICONTROL Export Reports to CSV] 옵션을 통해 보고서를 다운로드할 수 없는 문제를 해결했습니다. (TGT-51708)
+* [!DNL Target Standard] 고객이 [!DNL Target Premium] 기능인 [!UICONTROL Properties]을(를) 사용하는 것으로 잘못 표시되는 양식 기반 경험 작성기의 문제를 해결했습니다. (TGT-51678)
+* 새 오퍼를 만들 때 [!DNL Adobe Experience Platform] 특성이 표시되지 않도록 차단하는 문제를 해결했습니다. (TGT-51665)
+* [!DNL Recommendations] 인벤토리에 대한 모든 활성 필터를 빠른 검색으로 이동하여 UI를 [!UICONTROL Filter] 레일이 아닌 [!UICONTROL Catalog Search]과(와) 맞췄습니다. (TGT-50723)
+
+### at.js 버전 2.11.7(2025년 2월 26일)
+
+이번 릴리스에는 다음 업데이트가 포함됩니다.
+
+* `localStorage`을(를) 사용할 수 없을 때 원격 분석 로깅을 수정했습니다. 원격 분석으로 인해 일부 고객의 브라우저에서 `localStorage`을(를) 사용하지 않도록 설정한 문제가 발생했습니다.
+
+이 릴리스 및 이전 at.js 릴리스에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}을 참조하십시오.
+
+### Target Standard/Premium 25.2.1 (2025년 2월 17일 화요일)
+
+이번 릴리스에는 다음 업데이트가 포함됩니다.
+
+* [!UICONTROL Activities] 사용자 인터페이스 업데이트
+* [!DNL Recommendations] 사용자 인터페이스 업데이트
+
+#### [!UICONTROL Activities] 사용자 인터페이스 업데이트
+
+[!DNL Adobe Target] UI 현대화 작업이 계속됨에 따라 업데이트된 [!UICONTROL Activities] 사용자 인터페이스의 일반 가용성을 알려드립니다.
+
+>[!NOTE]
+>
+>2월 17일부터 고객은 점진적으로 새로운 [!UICONTROL Activities] UI에 액세스할 수 있습니다. 모든 고객을 위한 원활한 롤아웃을 보장하기 위해 이 릴리스는 제어된 단계로 배포됩니다. 첫 번째 단계에서는 [!DNL Target] 고객의 초기 그룹을 새 [!UICONTROL Activities] UI로 업그레이드합니다. 이후 단계에서는 나머지 고객을 업그레이드합니다.
+
+최신 [!DNL Adobe Spectrum] 디자인 시스템을 기반으로 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않은 디자인 패턴을 표준화합니다.
+
+* 활동 결과에 대한 더 나은 통찰력을 위해 [다시 디자인된 보고](/help/main/administrating-target/reporting.md).
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) 페이지, 이제 실시간 인사이트를 위해 [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}에서 정보를 가져옵니다.
+* 서로 다른 팀 요구 사항에 대해 보다 유연하게 작업하도록 [사용자 지정 가능한 목록 보기](/help/main/c-activities/activities.md)입니다.
+* 보다 쉽게 정보에 액세스할 수 있도록 [빠른 정보 및 세부 정보 화면을 개선했습니다](/help/main/c-activities/activities.md).
+* [세션 영구 검색 및 필터 옵션](/help/main/c-activities/activities.md).
+* 브라우저 공급자의 최신 보안 업데이트 및 최신 사용자 인터페이스를 지원하여 [다시 빌드된 [!UICONTROL Visual Editing Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)입니다.
+
+  업데이트된 VEC가 이전 버전과 어떻게 다른지에 대한 자세한 내용은 다음을 참조하십시오.
+
+   * [시각적 경험 작성기 변경 사항](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md)
+   * [시각적 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
+
+* 보안을 강화하고 자사 쿠키에 대한 지원을 개선하기 위해 매니페스트 V3을 지원하는 [업데이트됨 [!DNL Chrome] 확장](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+
+![활동 새로 고침](/help/main/r-release-notes/assets/activities-refresh.png)
+
+#### [!DNL Recommendations] 사용자 인터페이스 업데이트
+
+[!DNL Adobe Target] UI 현대화 작업이 계속됨에 따라 업데이트된 [!DNL Recommendations] 사용자 인터페이스의 일반 가용성을 알려드립니다.
+
+>[!NOTE]
+>
+>2월 17일부터 고객은 점진적으로 새로운 [!UICONTROL Recommendations] UI에 액세스할 수 있습니다. 모든 고객을 위한 원활한 롤아웃을 보장하기 위해 이 릴리스는 제어된 단계로 배포됩니다. 첫 번째 단계에서는 [!DNL Target] 고객의 초기 그룹을 새 [!UICONTROL Activities] UI로 업그레이드합니다. 이후 단계에서는 나머지 고객을 업그레이드합니다.
+
+최신 [!DNL Adobe Spectrum] 디자인 시스템을 기반으로 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않은 디자인 패턴을 표준화합니다.
+
+* 이제 [제품 카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md)에 제품의 실시간 동기화를 허용하는 업데이트된 데이터베이스가 있습니다.
+* API를 통해 만든 [!UICONTROL Recommendations]개 개체([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] 및 [!UICONTROL Exclusions]) [를 이제 UI에서 사용할 수 있습니다](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md).
+* [권장 사항 설정](/help/main/administrating-target/recommendations-settings.md)이(가) [!UICONTROL Administration] 섹션 아래에 통합되었습니다.
+* 다양한 팀 요구 사항에 대해 더 나은 유연성을 위해 사용자 정의 가능한 목록 보기.
+* [구문 강조 표시 및 줄 번호 매기기](/help/main/c-experiences/c-manage-content/create-json-offer.md)로 HTML 및 JSON 코드 편집기를 새로 고쳤습니다.
+* 빠른 정보 및 세부 정보 화면을 개선하여 정보에 보다 쉽게 액세스할 수 있습니다.
+* 세션 영구 검색 및 필터 옵션.
+
+![권장 사항 UI 새로 고침](/help/main/r-release-notes/assets/recs-ui-refresh.png)
 
 ### Target Standard/Premium 25.1.1(2025년 1월 9일)
 
