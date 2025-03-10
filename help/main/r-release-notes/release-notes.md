@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7196b966c46043db536313c7841fe8611268d373
+source-git-commit: cee17e318dedffaadccd2f93ae593e5fdd2bd600
 workflow-type: tm+mt
-source-wordcount: '661'
-ht-degree: 47%
+source-wordcount: '643'
+ht-degree: 48%
 
 ---
 
@@ -26,7 +26,6 @@ ht-degree: 47%
 * 활동 전용 대상이 [!UICONTROL Audiences] 패널에 표시되지 않아서 편집하거나 재사용할 수 없는 문제가 해결되었습니다. (TGT-51860)
 * [!DNL Target Standard] 고객이 [!UICONTROL Analytics for Target]&#x200B;(A4T) 보고를 사용하여 활동을 만들 수 없도록 차단하는 문제를 해결했습니다. (TGT-51854)
 * 일괄 작성 및 편집 작업 중에 페이로드에서 로컬 ID 카운터를 제외하는 문제를 해결했습니다. (TGT-51867)
-* [!DNL Axe Developer Hub]을(를) 통합하여 액세스 가능성 보고서를 개선하고 적용 범위, 보고, 팀 공동 작업, 수동 테스트 지원, 규정 준수 표준 및 사용자 경험을 개선했습니다.
 
 ## [!DNL Target Standard/Premium] 25.3.2(2025년 3월 6일)
 
