@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7196b966c46043db536313c7841fe8611268d373
+source-git-commit: 0cf160d93e2ed23de704dcb1065adf304ab78be4
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 36%
+source-wordcount: '325'
+ht-degree: 38%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 36%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 3월 11일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.5 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 3월 7일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.4 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 3월 6일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 3월 3일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
