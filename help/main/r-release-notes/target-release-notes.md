@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 911950b341d8221145eeacfa288926b0a1be434e
+source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
 workflow-type: tm+mt
-source-wordcount: '620'
-ht-degree: 33%
+source-wordcount: '593'
+ht-degree: 34%
 
 ---
 
@@ -27,7 +27,6 @@ ht-degree: 33%
 
 이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
 
-* 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 이동 경로가 편집기 하단에 항상 표시되지 않아 요소를 정확하게 선택할 수 없는 문제가 해결되었습니다. (TGT-51844)
 * 사용자가 [!UICONTROL Modifications] 패널에서 오퍼를 변경할 수 없는 문제를 해결했습니다. (TGT-51800)
 * [!UICONTROL ClickTrack] 모드를 포함하여 경험 및 대상을 위한 왼쪽 패널에 액션이 잘못 표시되는 문제를 해결했습니다. (TGT-51895)
 * [!UICONTROL ClickTrack] 선택기가 올바른 대상 페이지에 적용되지 않던 문제를 해결했습니다. (TGT-51871)
