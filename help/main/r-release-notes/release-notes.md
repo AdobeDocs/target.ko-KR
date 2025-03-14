@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 729b88c3db9e88a5cd428587e34614c5d56542da
+source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 45%
+source-wordcount: '837'
+ht-degree: 39%
 
 ---
 
@@ -18,6 +18,18 @@ ht-degree: 45%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 25.3.6(2025년 3월 14일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* 동일한 [!UICONTROL ClickTrack] 선택기를 여러 번 사용할 때 [!UICONTROL Click Tracking]이(가) 활성화된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 활동에서 &quot;잘못된 사용자 입력&quot; 오류가 해결되었습니다. (TGT-51921)
+* 공유 위치(예: HEAD 선택기) 및 동일한 오퍼가 있는 VEC 활동에서 &quot;잘못된 사용자 입력&quot; 오류가 수정되었습니다. (TGT-51879)
+* 대상 간에 경험 수정 사항이 공유되는 문제를 해결했습니다. (TGT-51815)
+* 세그먼트 ID 충돌로 인해 활동을 만들 때 발생하는 유효성 검사 오류를 해결했습니다. [!DNL Target]이(가) 익명 세그먼트를 사용하는 기존 활동을 검색했을 때 오류가 발생했습니다. (TGT-51784)
+* [!DNL Target]이(가) 대상에서 제외 규칙이 있는 활동을 저장하지 못하는 문제가 해결되었습니다. (TGT-51581)
+* 고객이 기본 작업 영역에 액세스하지 않고 폴더를 생성, 삭제 또는 이동할 수 없는 문제를 해결했습니다. (TGT-51499)
+* [!DNL Analytics] 지표 목록을 검색할 때 GET 요청이 실패하는 문제를 해결했습니다. (TGT-51106)
 
 ## [!DNL Target Standard/Premium] 25.3.5(2025년 3월 11일)
 
