@@ -4,9 +4,9 @@ description: ' [!DNL Analytics] 을(를) 보고 소스(A4T)로 사용하는 [!DN
 title: A4T가 [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동을 지원합니까?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 99bd509988a7d1545a6a1fe59aa59f35ef0a7d11
+source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
 workflow-type: tm+mt
-source-wordcount: '1133'
+source-wordcount: '1146'
 ht-degree: 1%
 
 ---
@@ -62,6 +62,10 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 * 전환 지표 [!DNL Adobe Analytics]개
 * [!DNL Adobe Analytics]개의 사용자 지정 이벤트
 
+>[!NOTE]
+>
+>[!UICONTROL Use an Analytics Metric]을(를) 선택한 후 [!UICONTROL Maximize Unique Visitor Conversion Rate]을(를) 선택하여 사용 가능한 [!DNL Adobe Analytics] 전환 지표를 보고 [!UICONTROL Maximize Metric Value per Visitor]을(를) 선택하여 [!DNL Adobe Analytics] 사용자 지정 이벤트를 살펴보십시오.
+
 [!DNL Target]을(를) 사용하면 [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동에 [!UICONTROL A4T]을(를) 사용할 때 이항 이벤트를 기반으로 하는 지표 또는 연속 이벤트를 기반으로 하는 지표를 선택할 수 있습니다.
 
 * **이항 이벤트를 기반으로 하는 지표**: 이항 이벤트가 발생하거나 발생하지 않습니다. 이항 이벤트에는 클릭, 전환, 순서 등이 포함됩니다. 이러한 유형의 이벤트는 베르누이, 이진 또는 이산 이벤트라고도 합니다.
@@ -103,7 +107,7 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 ### 자동 할당 및 자동 타겟 {#both}
 
 * [!UICONTROL Auto-Allocate] 또는 [!UICONTROL Auto-Target]에 대한 보고 소스로 [!DNL Adobe Analytics]을(를) 사용하는 경우 항상 [!DNL Analytics]에서 보고서를 확인해야 합니다.
-* 활동이 활성화된 후에는 보고 소스를 [!DNL Analytics]에서 [!DNL Target](으)로 또는 그 반대로 변경할 수 없습니다.
+* 활동이 활성화된 후에는 보고 소스를 [!DNL Analytics]에서 [!DNL Target]&#x200B;(으)로 또는 그 반대로 변경할 수 없습니다.
 * 계산된 지표는 기본 목표 지표로 지원되지 않지만, 대신 사용자 지정 이벤트를 기본 목표 지표로 선택하여 의도된 결과를 얻을 수 있는 경우가 많습니다. 예를 들어 &quot;방문자당 양식 완료&quot;와 같은 지표에 대해 최적화하려면 &quot;양식 완료&quot;에 해당하는 사용자 지정 이벤트를 기본 목표 지표로 선택합니다. [!DNL Target]은(는) 트래픽 분포가 균일하지 않은 것을 고려하여 방문 단위로 전환 지표를 자동으로 표준화하므로 표준화를 수행하기 위해 계산된 지표를 사용할 필요는 없습니다.
 
 ### 자동 할당 {#aa}
@@ -131,12 +135,12 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 이 튜토리얼에서는 [!DNL Analysis Workspace]의 [!UICONTROL Auto-Allocate] 활동을 분석하기 위한 권장 수정 사항을 안내합니다.
 
-자세한 내용은 *Adobe Target Tutorials*&#x200B;에서 [자동 할당 활동을 위해 Analysis Workspace에서 A4T 보고서를 설정하는 방법](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ko-KR){target=_blank}을 참조하십시오.
+자세한 내용은 *Adobe Target 자습서*&#x200B;에서 [자동 할당 활동을 위해 Analysis Workspace에서 A4T 보고서를 설정하는 방법](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=ko-KR){target=_blank}을 참조하십시오.
 
 ### [!UICONTROL Auto-Target] 활동에 대해 [!DNL Analysis Workspace]에서 A4T 보고서 설정 중
 
 이 튜토리얼에서는 [!DNL Analysis Workspace]의 [!UICONTROL Auto-Target] 활동을 분석하기 위한 권장 수정 사항을 안내합니다.
 
-자세한 내용은 *Adobe Target Tutorials*&#x200B;에서 [자동 타겟 활동을 위해 Analysis Workspace에서 A4T 보고서를 설정하는 방법](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ko-KR){target=_blank}을 참조하십시오.
+자세한 내용은 *Adobe Target 자습서*&#x200B;에서 [자동 타겟 활동을 위해 Analysis Workspace에서 A4T 보고서를 설정하는 방법](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ko-KR){target=_blank}을 참조하십시오.
 
 
