@@ -4,9 +4,9 @@ description: 특정 조건에서 EEC(Adobe [!DNL Target] 고급 경험 작성기
 title: 고급 경험 작성기 관련 문제를 해결하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
+source-git-commit: b14c39bd1de3f8d78aa720f7a064009759916802
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '443'
 ht-degree: 23%
 
 ---
