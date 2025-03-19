@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
+source-git-commit: 1908c9ebe94931778e792a75e75eff04076ae5c5
 workflow-type: tm+mt
-source-wordcount: '368'
-ht-degree: 37%
+source-wordcount: '380'
+ht-degree: 36%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 37%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 3월 19일 | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)과(와) 관련된 문제 해결 | IP 주소 을(를) 허용 목록에 추가하다 로 업데이트했습니다. |
 | 3월 18일 | [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동에 대한 [A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | *지원되는 목표 지표* 섹션에 메모를 추가했습니다. |
 | 3월 14일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.6 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 3월 13일 | [지원되는 브라우저](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 지원되는 브라우저를 업데이트하고 &quot;시각적 편집 요구 사항&quot; 섹션을 추가했습니다. |
