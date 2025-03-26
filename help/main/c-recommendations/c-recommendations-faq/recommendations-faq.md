@@ -5,10 +5,10 @@ title: ' [!DNL Recommendations]에 대한 질문과 대답은 어디에서 찾�
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 25b448ad99618dca8b5aa4b698976a3d9aa76dec
+source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
 workflow-type: tm+mt
-source-wordcount: '3506'
-ht-degree: 84%
+source-wordcount: '3444'
+ht-degree: 83%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 84%
 
 ## API를 통해 만든 [!DNL Recommendations]개의 개체가 [!DNL Target] UI에 표시됩니까?
 
-예. 이제 API를 통해 만든 [!UICONTROL Recommendations]개의 개체([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] 및 [!UICONTROL Exclusions])를 UI에서 사용할 수 있습니다.
+예. API를 통해 만든 [!UICONTROL Recommendations]개의 개체([!UICONTROL Criteria], [!UICONTROL Designs], [!UICONTROL Collections] 및 [!UICONTROL Exclusions])는 UI에서 사용할 수 있으며 API 또는 [!DNL Target] UI를 통해 편집할 수 있습니다.
 
 ## [!DNL Target] API를 사용하여 [!DNL Target] UI에서 만든 시각적 오퍼를 관리할 수 있습니까?
 
-아니오. [!DNL Target] UI에서 만들어진 시각적 오퍼가 있는 [!DNL Recommendations] 활동은 [!DNL Target] API를 사용하여 관리할 수 없습니다. 이러한 활동은 [!UICONTROL Activities] 목록에 표시되지만 GET/PUT을 사용하여 읽거나 업데이트할 수 없습니다.
+아니오. [!DNL Target] UI에서 만들어진 시각적 오퍼가 있는 [!DNL Recommendations] 활동은 [!DNL Target] API를 사용하여 관리할 수 없습니다. 이러한 활동은 [!UICONTROL Activities] 목록에 표시되지만, 읽거나 업데이트할 수 없습니다(GET/PUT 사용).
 
 ## 숫자 값으로 사용자 지정 특성을 검색할 때 [!UICONTROL Catalog Search]에 올바른 결과가 표시되지 않는 이유는 무엇입니까?
 
@@ -107,7 +107,7 @@ mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 �
 
 >[!NOTE]
 >
->이 설정은 [!UICONTROL Visual Experience Composer](VEC)에서 만들어진 활동에만 적용됩니다. 이 설정은 양식 기반 경험 작성기에서 만들어진 활동에는 적용되지 않습니다([!DNL Target]에는 위치 컨텍스트가 없습니다).
+>이 설정은 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 만들어진 활동에만 적용됩니다. 이 설정은 양식 기반 경험 작성기에서 만들어진 활동에는 적용되지 않습니다([!DNL Target]에는 위치 컨텍스트가 없습니다).
 
 [!UICONTROL Filter Incompatible Criteria] 설정에 액세스하려면 [!UICONTROL Recommendations] > [!UICONTROL Settings]을(를) 클릭합니다.
 
@@ -137,7 +137,7 @@ mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 �
 
   ![product_catalog 이미지](assets/product_catalog.png)
 
-* 색인이 최신 상태입니까? [!DNL /target/products.html#productSearch](으)로 이동하여 색인이 몇 시간 경과되었는지 확인합니다(예: &quot;색인화된 후 3시간 경과&quot;). 필요에 따라 색인을 새로 고칠 수 있습니다.
+* 색인이 최신 상태입니까? [!DNL /target/products.html#productSearch]&#x200B;(으)로 이동하여 색인이 몇 시간 경과되었는지 확인합니다(예: &quot;색인화된 후 3시간 경과&quot;). 필요에 따라 색인을 새로 고칠 수 있습니다.
 * 엔티티가 더 이상 컬렉션 규칙과 일치하지 않도록 피드 또는 데이터 계층에서 변경한 것이 있습니까? 대소문자가 일치하는지 확인하십시오(대소문자 구분).
 * 피드가 성공적으로 실행되었습니까? FTP 디렉터리, 암호 등을 변경한 사람이 있습니까?
 * [!DNL Target]은(는) 게재(고객의 페이지/앱에서) 업데이트가 최대한 빨리 일어나도록 최선을 다합니다. 그러나, [!DNL Target]은 마케터를 위해 UI에 일부 표시를 제공해야 합니다. [!DNL Target]은 UI 업데이트가 동기화되는 것을 기다리기 위해 게재 업데이트를 지연하지 않습니다. [mboxTrace](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md) 를 사용하여 요청이 들어올 당시 시스템의 내용을 확인할 수 있습니다.
@@ -291,6 +291,5 @@ mbox 매개 변수를 기반으로 한 권장 사항, 기준, 프로모션 또�
 * [!DNL Target] 이 getOffer()와 함께 JSON 오퍼를 반환하면 JSON 유형으로 반환됩니다. 그러나 JSON 추천 설계를 반환하면 HTML 형식으로 반환됩니다.
 * 피드나 API를 통해 업데이트를 받지 못한 후 60일이 지나면 만료된 엔티티가 올바르게 만료됩니다. 그러나 만료된 엔티티는 만료 후 카탈로그 검색 색인에서 제거되지 않습니다. 피드 또는 API를 통해 삭제된 엔티티도 현재 카탈로그 검색 색인에서 제거되지 않습니다. (IRI-857)
 * A/B 및 Experience 타겟팅 활동의 추천 오퍼는 추천 트레이의 시각적 미리보기를 표시하지 않습니다(TGT-33426).
-* API를 통해 생성된 컬렉션, 제외, 기준 및 디자인은 Target 사용자 인터페이스에 표시되지 않으며 API를 통해서만 편집할 수 있습니다. 마찬가지로, Target UI에서 이러한 항목을 생성한 후 나중에 API를 통해 편집하면 이러한 변경 내용이 Target UI에 반영되지 않습니다. API를 통해 편집된 항목은 API를 통해 계속 편집되어야 수정 사항이 손실되지 않습니다. (TGT-35777)
 * API를 통해 생성된 추천 활동은 사용자 인터페이스에서 볼 수 있지만 API를 통해서만 편집할 수 있습니다.
 * 기준 목록(카드) 보기에 표시된 사용자 정의 기준 피드 상태는 10분마다 새로 고침되며 특수한 상황에서 10분 이상 걸릴 수 있습니다. 사용자 정의 기준 편집 보기에 표시된 상태를 실시간으로 가져오며 상태는 항상 최신입니다. (TGT-35896, TGT-36173)
