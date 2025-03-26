@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: cd335504f5354aa9052ae7e958cf803cd90a9ae9
+source-git-commit: bdc2f76af2a1f1554556d56a983748aa2c9caf2c
 workflow-type: tm+mt
-source-wordcount: '726'
-ht-degree: 30%
+source-wordcount: '1047'
+ht-degree: 24%
 
 ---
 
@@ -22,6 +22,30 @@ ht-degree: 30%
 >릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+
+## [!DNL Target Standard/Premium] 25.3.7(2025년 3월 26일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* 수정 후 페이지가 삭제될 경우 다중 페이지 활동 저장을 차단하는 문제를 해결했습니다. (TGT-51988)
+* 활동을 편집할 때 발생한 오류를 해결했습니다. `default message [Invalid optionLocalIds: xx]]`. (TGT-51985)
+* 활동에 새 수정 사항을 추가하면 기존 수정 사항이 제거되는 문제가 해결되었습니다. (TGT-51981)
+* 활동을 만들거나 편집하는 동안 대상을 &quot;[!UICONTROL All visitors]&quot;(으)로 바꾸면 &quot;중복 대상은 허용되지 않습니다&quot; 오류가 발생하는 문제가 해결되었습니다. (TGT-51978)
+* [!UICONTROL A/B Test] 활동을 저장할 때 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. (TGT-51976)
+* [!UICONTROL Goals & Settings] 페이지에서 계산된 지표가 올바르게 표시되지 않는 문제를 해결했습니다. (TGT-51975)
+* `pageviews` 지표에 대한 [!DNL Analytics] 구성에서 `companyName` 및 `reportSuite`과(와) 일치하지 않는 문제를 해결했습니다. (TGT-51965)
+* 활동에서 경험을 전환하면 수정 사항이 제거되던 문제를 해결했습니다. (TGT-51945)
+* 페이지 대상자를 제거하면 [!UICONTROL ClickTrack]개의 선택기도 제거되던 문제를 해결했습니다. (TGT-51935)
+* [!UICONTROL Overview] 페이지를 연 후 활동을 편집할 수 없도록 하는 문제를 해결했습니다. (TGT-51931)
+* 활동을 만드는 동안 `[Unused optionLocalIds: 0]]` 오류가 발생하는 문제를 해결했습니다. (TGT-51920)
+* 텍스트 스타일 변경 사항을 제거한 후 일부 변경 사항이 올바르게 번역되지 않던 문제를 해결했습니다. (TGT-51876)
+* [!UICONTROL Form-Based Experience Composer]에서 타깃팅된 대상이 올바르게 업데이트되지 않는 문제를 해결했습니다. (TGT-51845)
+* 활동을 탐색하는 동안 [!UICONTROL Visual Experience Composer]의 URL이 올바르게 업데이트되지 않는 문제를 해결했습니다. (TGT-51832)
+* 활동을 만들고 오퍼를 추가할 때 올바르게 표시되더라도 오퍼가 [!UICONTROL Offers] UI에 표시되지 않는 문제를 해결했습니다. (TGT-51805)
+* 개인화되거나 타겟팅된 콘텐츠를 전달할 수 없을 때 일부 활동에 기본 콘텐츠를 표시하는 대체 화면이 부족했던 문제를 해결했습니다. (TGT-51638)
+* [!UICONTROL Offers] UI에서 라이브 오퍼 및 특정 폴더가 올바르게 표시되지 않는 문제를 해결했습니다. (TGT-51628)
+* 일부 URL 문자열 및 goURL이 올바르게 현지화되지 않는 문제를 해결했습니다. (TGT-35741)
+* 역할([!UICONTROL Approver], [!UICONTROL Editor] 및 [!UICONTROL Observer])이 [!DNL Target] UI에서 올바르게 현지화되지 않는 문제를 해결했습니다. (TGT-29925)
 
 ## [!DNL Target Standard/Premium] 25.3.6(2025년 3월 14일)
 
