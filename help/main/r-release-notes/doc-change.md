@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 37%
+source-wordcount: '436'
+ht-degree: 35%
 
 ---
 
@@ -23,6 +23,7 @@ ht-degree: 37%
 |--- |--- |--- |
 | 3월 26일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.7 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [권장 사항 FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | API를 통해 만든 [!DNL Recommendations] 개체를 [!DNL Target] UI에서 사용할 수 있음을 나타내기 위해 FAQ가 업데이트되었습니다. |
+|  | [컬렉션](/help/main/c-recommendations/c-products/collections.md) | 다음 참고 사항 추가: 컬렉션 규칙은 기준 실행 후 생성된 권장 사항 항목에 적용됩니다. 이는 출력에서 ER(엔티티 권장 사항)에만 영향을 주고 키에는 영향을 주지 않습니다. |
 | 3월 19일 | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)과(와) 관련된 문제 해결 | IP 주소 을(를) 허용 목록에 추가하다 로 업데이트했습니다. |
 | 3월 18일 | [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동에 대한 [A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | *지원되는 목표 지표* 섹션에 메모를 추가했습니다. |
 | 3월 14일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.6 릴리스에 대한 릴리스 정보가 추가되었습니다. |

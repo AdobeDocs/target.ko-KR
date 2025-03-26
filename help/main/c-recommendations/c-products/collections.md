@@ -1,14 +1,14 @@
 ---
 keywords: 컬렉션;타깃팅
 description: ' [!DNL Target Recommendations]에서 제품 컬렉션 또는 항목을 사용하는 방법을 알아봅니다.'
-title: Recommendations 활동에서 컬렉션을 사용하려면 어떻게 해야 합니까?
+title: Recommendations 활동에서 컬렉션을 사용하는 방법은 무엇입니까?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: be9cb6da17f125c127d64ed8f9002987188fdf3d
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 26%
+source-wordcount: '716'
+ht-degree: 25%
 
 ---
 
@@ -32,7 +32,9 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->컬렉션은 [!UICONTROL Recently Viewed Items] 권장 사항 키를 사용할 때 적용되지 않습니다.
+>* 컬렉션 규칙은 기준 실행 후 생성된 권장 사항 항목에 적용됩니다. 이는 출력에서 ER(엔티티 권장 사항)에만 영향을 주고 키에는 영향을 주지 않습니다.
+>
+>* 컬렉션은 [!UICONTROL Recently Viewed Items] 권장 사항 키를 사용할 때 적용되지 않습니다.
 
 ## 컬렉션 만들기 {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
@@ -42,7 +44,7 @@ ht-degree: 26%
 
    [!UICONTROL Collections] 페이지에 기존 컬렉션 목록이 표시됩니다. [!UICONTROL Create Collection] 단추를 클릭하여 새 컬렉션을 만듭니다. 원하는 컬렉션 옆에 있는 추가 작업 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) )을 클릭한 다음 원하는 옵션을 클릭하여 기존 컬렉션을 편집, 복사 및 삭제할 수도 있습니다.
 
-   [!UICONTROL Collections] 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 Recommendations [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하세요.
+   [!UICONTROL Collections] 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하세요.
 
 1. **[!UICONTROL Create Collection]** 아이콘을 클릭합니다.
 
@@ -84,7 +86,7 @@ After creating a search using "id > contains," for example, you can then click [
 
 1. 위에서 언급한 방법 중 하나를 사용하여 컬렉션을 만듭니다.
 
-1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 [새 Recommendations 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) 활동을 만들거나 기존 활동을 편집합니다.
+1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 [새 권장 사항 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) 활동을 만들거나 기존 활동을 편집합니다.
 
 1. 기준과 디자인을 선택하면 원하는 컬렉션을 선택할 수 있는 [!UICONTROL Options] 페이지가 표시됩니다.
 
