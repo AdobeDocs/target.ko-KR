@@ -5,10 +5,10 @@ title: ' [!DNL Target] 관리를 시작하려면 어디서 시작해야 합니�
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: d40c25f75103327e749ad864b17df926cb323be0
+source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 35%
+source-wordcount: '443'
+ht-degree: 32%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 35%
 
 이 문서에는 [!DNL Adobe Target] 관리자가 [!DNL Adobe Experience Cloud]에 대한 이메일 초대를 받은 후 수행해야 하는 첫 번째 단계가 포함되어 있습니다.
 
-## [!DNL Target](으)로 초대 받기 {#task_3E0817630774431983FAA3D2CB2E75BD}
+## [!DNL Target]&#x200B;(으)로 초대 받기 {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 [!DNL Adobe Admin Console]의 시스템 관리자가 귀하를 가입하도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행됩니다.
 
@@ -26,7 +26,7 @@ ht-degree: 35%
 
 ## 초대 수락 {#task_24FE66659E634B24AB61DB8497772E17}
 
-[!DNL Adobe Experience Cloud]에 가입하라는 초대를 받으면 초대를 수락하고 로그인한 다음 [!UICONTROL End User License Agreement](EULA)에 동의하십시오.
+[!DNL Adobe Experience Cloud]에 가입하라는 초대를 받으면 초대를 수락하고 로그인한 다음 [!UICONTROL End User License Agreement]&#x200B;(EULA)에 동의하십시오.
 
 1. [!DNL Adobe Experience Cloud] 에 대한 초대를 수락합니다.
 1. Adobe ID가 없는 경우 ID를 만들라는 메시지가 표시됩니다.
@@ -58,6 +58,10 @@ ht-degree: 35%
 
 다음 단계는 [!DNL Target Standard] 및 [!DNL Target Premium]에서 사용자를 설정하는 것입니다. 자세한 내용은 [사용자 관리](/help/main/administrating-target/c-user-management/user-management.md)를 참조하십시오.
 
->[!IMPORTANT]
->
->[!DNL Adobe Admin Console]에서 [!UICONTROL Product Admin] 또는 [!UICONTROL System Admin] 권한이 있는 사용자는 [!DNL Target] 역할에 관계없이 [!DNL Target]의 [!UICONTROL Administration] 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다. [!DNL Adobe Admin Console]에서 [!UICONTROL Product Admin] 또는 [!UICONTROL System Admin] 권한이 없는 사용자는 특정 [!DNL Target] 역할이 있어야 이러한 변경 작업을 수행할 수 있습니다.
+## [!UICONTROL Administration] 설정을 편집하는 데 필요한 권한 {#admin-permissions}
+
+**2025년 4월 22일 이전**: [!DNL Adobe Admin Console]에 [!UICONTROL Approvers] 권한이 있는 사용자는 [!DNL Target] 역할에 관계없이 [!DNL Target]의 [[!UICONTROL Administration] 페이지](/help/main/administrating-target/administrating-target.md) 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다.
+
+**2025년 4월 22일**: [!UICONTROL Product] 및 [!UICONTROL Solutions] 관리자만 [!DNL Target] 작업 영역의 역할에 관계없이 [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) 섹션의 설정을 업데이트할 수 있습니다. 이 권한이 없는 사용자는 [!UICONTROL Administration] 섹션에 대한 읽기 전용 액세스 권한을 갖게 됩니다.
+
+이 업데이트는 [!DNL Target] 인스턴스 구성에 대한 조직의 제어를 강화하여 다양한 테스트 및 개인화 팀의 활동 전달에 영향을 줄 수 있는 우발적인 업데이트를 방지합니다.
