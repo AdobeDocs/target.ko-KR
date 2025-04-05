@@ -5,7 +5,7 @@ title: 호스트는 무엇이며 어떻게 사용할 수 있습니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1027'
 ht-degree: 17%
@@ -21,6 +21,8 @@ ht-degree: 17%
 호스트는 [!DNL Target] 요청이 수행된 모든 도메인입니다. 웹 사이트에서는 일반적으로 [!DNL Target]을(를) 요청하는 URL의 `location.hostname` 속성입니다.
 
 기본적으로 [!DNL Target]은(는) [!DNL Target]개의 요청을 하고 [!DNL Target]개의 응답을 받을 수 있는 호스트를 제한하지 않습니다. 새 호스트가 요청을 수행하면 자동으로 작동합니다. 이 프로세스를 통해 알 수 없거나 예상할 수 없는 다른 도메인에서 테스트할 수도 있습니다. 이 기본 동작을 재정의하려는 경우 허용 목록에 추가하다 차단 목록에 추가하다 작업을 재정의하거나 재정의하여 [!DNL Target]을(를) 사용하는 호스트를 제한하도록 설정할 수 있습니다.
+
+{{permissions-update}}
 
 호스트를 관리하려면 **[!UICONTROL Administration]** > **[!UICONTROL Hosts]**&#x200B;을(를) 클릭합니다.
 
@@ -61,7 +63,7 @@ ht-degree: 17%
 
 [!UICONTROL Hosts] 목록을 검색하려면 [!UICONTROL Search Hosts] 상자에 검색어를 입력하십시오.
 
-## [!DNL Target] 요청을 [!DNL Target](으)로 보내도록 승인된 호스트를 지정하는 허용 목록을 만듭니다. {#allowlist}
+## [!DNL Target] 요청을 [!DNL Target]&#x200B;(으)로 보내도록 승인된 호스트를 지정하는 허용 목록을 만듭니다. {#allowlist}
 
 [!DNL Target]개의 요청을 [!DNL Target]에 보내도록 승인된 호스트(도메인)를 지정하는 허용 목록에 추가하다를 만들 수 있습니다. 요청을 생성하는 다른 모든 호스트는 주석 처리된 인증 오류 응답을 받게 됩니다. 기본적으로 [!DNL Target] 요청이 포함된 모든 호스트는 [!UICONTROL Production] 환경에서 [!DNL Target]에 등록되며 모든 활성 상태의 승인된 활동에 액세스할 수 있습니다. 이 방법을 원하지 않는 경우 대신 허용 목록에 추가하다를 사용하여 [!DNL Target]개의 요청을 하고 [!DNL Target]개의 콘텐츠를 수신할 수 있는 특정 호스트를 기록할 수 있습니다. 모든 호스트는 [!UICONTROL Hosts] 목록에 계속 표시되며, 환경은 여전히 이러한 호스트를 그룹화하고 호스트에 활성 및/또는 비활성 활동을 볼 수 있는지 여부와 같이 각 호스트에 다른 수준을 할당하는 데 사용할 수 있습니다.
 
@@ -89,7 +91,7 @@ ht-degree: 17%
 
 다른 사이트의 도메인이 환경에 표시되는 경우가 있습니다. 도메인이 at.js를 호출하면 목록에 표시됩니다. 예를 들어 웹 페이지 중 하나를 서버로 복사하면 해당 도메인이 환경에 표시됩니다. 스파이더 엔진, 언어 번역기 사이트 또는 로컬 디스크 드라이브에서 도메인을 볼 수도 있습니다.
 
-`mboxHost`가 API 호출에서 전달되는 경우 전달된 환경에 대해 전환이 기록됩니다. 환경이 전달되지 않으면 호출에 있는 호스트의 기본값이 [!UICONTROL Production](으)로 설정됩니다.
+`mboxHost`가 API 호출에서 전달되는 경우 전달된 환경에 대해 전환이 기록됩니다. 환경이 전달되지 않으면 호출에 있는 호스트의 기본값이 [!UICONTROL Production]&#x200B;(으)로 설정됩니다.
 
 [!UICONTROL Host Does Not Contain] 상자에서 원하는 호스트를 추가하여 [!DNL Target]에 [!DNL Target] 요청을 보낼 수 없는 호스트(도메인)를 지정하는 차단 목록에 추가하다를 만들 수도 있습니다.
 

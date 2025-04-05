@@ -5,7 +5,7 @@ title: 응답 토큰이란 무엇이며 어떻게 사용해야 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 22%
@@ -19,6 +19,8 @@ ht-degree: 22%
 응답 토큰을 사용하면 사용할 변수(키 값 쌍)를 선택한 다음 [!DNL Target] 응답의 일부로 전송할 수 있습니다. 스위치를 사용하여 변수를 활성화하면 [!DNL Target] 응답이 있는 상태로 변수가 전송되며, 이 응답은 네트워크 호출에서 확인할 수 있습니다. 응답 토큰은 [!UICONTROL Preview] 모드에서도 작동합니다.
 
 플러그인과 응답 토큰 간의 주요 차이점은 플러그인이 전달 시 실행되는 페이지에 JavaScript을 전달한다는 것입니다. 그러나 응답 토큰은 이벤트 리스너를 사용할 때 읽고 작용할 수 있는 개체를 전달합니다. 응답 토큰 접근 방식은 더 안전하며 타사 통합을 보다 쉽게 개발하고 유지 관리할 수 있도록 해줍니다.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -84,7 +86,7 @@ ht-degree: 22%
 
 | 개체 | 정보 |
 | --- | --- |
-| 유형 - Personalization.decision | [!DNL Target] 또는 Offer decisioning 공급자의 결정 여부입니다. |
+| 유형 - Personalization.decision | [!DNL Target] 또는 Offer Decisioning 공급자가 결정했는지 여부. |
 | DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target]이(가) 응답 토큰 메타데이터와 값을 페이지에 제공합니다. |
 | 메타 | 페이지에 전달되는 메타데이터입니다. |
 | 데이터 | 페이지에 전달된 메타데이터의 값입니다. |
@@ -212,11 +214,11 @@ ht-degree: 22%
 
 [!DNL Target]은(는) 정기적으로 특성을 새로 고칩니다. 켜지지 않는 속성은 다음 새로 고침 중에 제거됩니다. 그러나 전환된 속성이 제거되어 있는 경우 해당 스크립트를 해제할 때까지 속성 목록에서 제거되지 않습니다. 예를 들어 토큰으로 사용된 프로필 스크립트를 제거했습니다. [!DNL Target]은(는) 삭제되거나 이름이 바뀌는 경우 목록에서 전환된 속성만 제거합니다.
 
-## Google Analytics에게 데이터 보내기
+## Google Analytics으로 데이터 보내기
 
 다음 섹션에서는 [!DNL Target] 데이터를 Google Analytics 4로 보내는 방법을 설명합니다. 응답 토큰으로 전송된 데이터를 다른 타사 통합으로 전송할 수도 있습니다.
 
-### ![AEP 배지](/help/main/assets/platform.png) Platform Web SDK을 통해 Google Analytics에게 데이터 전송
+### ![AEP 배지](/help/main/assets/platform.png) Platform Web SDK을 통해 Google Analytics으로 데이터 전송
 
 Google Analytics은 HTML 페이지에 다음 코드를 추가하여 Platform Web SDK 버전 2.6.0 이상을 통해 데이터를 보낼 수 있습니다.
 
@@ -254,7 +256,7 @@ Google Analytics은 HTML 페이지에 다음 코드를 추가하여 Platform Web
 </script>
 ```
 
-### ![at.js 배지](/help/main/assets/atjs.png) at.js를 통해 Google Analytics에게 데이터 보내기 {#section_04AA830826D94D4EBEC741B7C4F86156}
+### ![at.js 배지](/help/main/assets/atjs.png) at.js를 통해 Google Analytics에 데이터 전송 {#section_04AA830826D94D4EBEC741B7C4F86156}
 
 at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리틱스에 데이터를 전송할 수 있습니다.
 

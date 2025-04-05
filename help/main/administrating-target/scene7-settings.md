@@ -5,7 +5,7 @@ title: Dynamic Media Classic(Scene7) 통합을 구성하는 방법은 무엇입�
 feature: Administration & Configuration
 role: Admin
 exl-id: 315670ca-a4d1-4808-b3ec-f2ac195c281a
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '391'
 ht-degree: 92%
@@ -14,7 +14,9 @@ ht-degree: 92%
 
 # Dynamic Media Classic(이전 Scene7) 구성
 
-[!DNL Adobe Target]을(를) [!DNL Adobe Dynamic Media Classic](이전 [!DNL Scene7])과 통합하여 [!UICONTROL Content Library]에서 DAM(디지털 에셋 관리)을 제공할 수 있습니다.
+[!DNL Adobe Target]을(를) [!DNL Adobe Dynamic Media Classic]&#x200B;(이전 [!DNL Scene7])과 통합하여 [!UICONTROL Content Library]에서 DAM(디지털 에셋 관리)을 제공할 수 있습니다.
+
+{{permissions-update}}
 
 >[!NOTE]
 >

@@ -5,7 +5,7 @@ title: 사용자 관리는 어떻게 구성합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '217'
 ht-degree: 61%
@@ -15,6 +15,8 @@ ht-degree: 61%
 # 사용자 관리
 
 [!DNL Target] Standard에서 사용자를 관리하고 [!DNL Target] Premium에서 [!UICONTROL Properties] 및 [!UICONTROL Permissions] 엔터티를 관리하는 방법에 대한 정보입니다.
+
+{{permissions-update}}
 
 >[!NOTE]
 >

@@ -5,7 +5,7 @@ title: 환경은 무엇이며 어떻게 사용할 수 있습니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 47%
@@ -18,9 +18,11 @@ ht-degree: 47%
 
 관리하기 쉽도록 호스트는 환경으로 번들됩니다. 예를 들어 수십 개의 호스트를 두세 개의 환경으로 그룹화할 수 있습니다. 사전 설정 환경에는 [!UICONTROL Production], [!UICONTROL Staging] 및 [!UICONTROL Development]이(가) 포함됩니다. 필요한 경우 새 환경을 추가하거나 환경의 이름을 바꿀 수 있습니다.
 
-기본 환경인 하나의 환경은 [!UICONTROL Production](으)로 이름이 지정됩니다. 이 기본 환경은 이름을 변경하는 경우에도 삭제할 수 없습니다. [!DNL Target]은 이 위치에서 승인된 최종 활동 및 테스트를 제공한다고 가정합니다.
+기본 환경인 하나의 환경은 [!UICONTROL Production]&#x200B;(으)로 이름이 지정됩니다. 이 기본 환경은 이름을 변경하는 경우에도 삭제할 수 없습니다. [!DNL Target]은 이 위치에서 승인된 최종 활동 및 테스트를 제공한다고 가정합니다.
 
 새 웹 사이트 또는 도메인에서 [!DNL Target] 요청을 받으면 이러한 새 도메인이 항상 [!UICONTROL Production] 환경에 표시됩니다. [!UICONTROL Production] 환경에서는 설정을 변경할 수 없으므로 알 수 없거나 새 사이트에는 활성 상태이고 준비된 콘텐츠만 표시됩니다. 활동을 활성화하기 전에 호스트 관리를 사용하면 테스트, 스테이징 및 개발 환경에서 새 활동과 컨텐츠의 품질을 쉽게 보장할 수도 있습니다.
+
+{{permissions-update}}
 
 환경을 관리하려면 **[!UICONTROL Administration]** > **[!UICONTROL Environments]**&#x200B;을(를) 클릭합니다.
 

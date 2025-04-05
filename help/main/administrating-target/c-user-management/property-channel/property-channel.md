@@ -6,7 +6,7 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 484971ab0fcd07205935c0fef3ea1484f40c3e96
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '3165'
 ht-degree: 48%
@@ -16,6 +16,8 @@ ht-degree: 48%
 # Enterprise 사용자 권한
 
 엔터프라이즈 사용자 권한은 [!DNL Adobe Target]에 대한 엔터프라이즈 수준의 사용자 액세스를 공식적으로 관리하는 수단입니다. [!DNL Target]에 사용자를 추가하고, 역할에 따라 권한을 할당하고, 서로 다른 부서, 글로벌 위치, 채널 및 기타 논리 그룹을 기반으로 팀을 위한 작업 영역을 만듭니다. 사용자에게 [!UICONTROL Observer], [!UICONTROL Editor], [!UICONTROL Approver] 또는 [!UICONTROL Publisher] 역할을 할당할 수 있습니다.
+
+{{permissions-update}}
 
 ## 엔터프라이즈 사용자 권한에 대한 액세스 권한 보유 여부 확인
 
@@ -55,7 +57,7 @@ ht-degree: 48%
 
 작업 공간을 사용하면 조직에서는 특정 사용자 세트를 특정 속성 세트에 할당할 수 있습니다. 여러 가지 방식에서 작업 공간은 [!DNL Adobe Analytics]의 보고서 세트와 비슷합니다.
 
-참고: 작업 공간은 [!DNL Adobe Admin Console for Enterprise]에서 [!UICONTROL Product Profiles](으)로 알려져 있습니다.
+참고: 작업 공간은 [!DNL Adobe Admin Console for Enterprise]에서 [!UICONTROL Product Profiles]&#x200B;(으)로 알려져 있습니다.
 
 다국적 조직에 속하는 경우 유럽 웹 페이지, 속성 또는 사이트를 위한 작업 공간과 미국 웹 페이지, 속성 또는 사이트를 위한 또 다른 작업 공간이 있을 수 있습니다. 복수 브랜드 조직에 속하는 경우에는 각 브랜드를 위한 독립된 작업 공간이 있을 수 있습니다.
 
@@ -67,7 +69,7 @@ ht-degree: 48%
 
 새 엔터프라이즈 권한 모델 마이그레이션 전에 만들어진 모든 대상 및 활동은 아래 설명된 &quot;기본 Workspace&quot;에 그룹화됩니다.
 
-[!DNL Adobe Experience Manager](AEM), [!DNL Adobe Mobile Services] 및 [!DNL Adobe Target Classic]을(를) 통해 만든 모든 활동은 &quot;기본 Workspace&quot;의 일부입니다.
+[!DNL Adobe Experience Manager]&#x200B;(AEM), [!DNL Adobe Mobile Services] 및 [!DNL Adobe Target Classic]을(를) 통해 만든 모든 활동은 &quot;기본 Workspace&quot;의 일부입니다.
 
 ### 기본 작업 영역
 

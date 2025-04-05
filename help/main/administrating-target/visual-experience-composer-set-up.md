@@ -5,7 +5,7 @@ title: 시각적 경험 작성기(VEC)를 구성하려면 어떻게 해야 합�
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 3821d868f45b85d2f6f0e204f9828544b759067b
+source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '676'
 ht-degree: 49%
@@ -14,9 +14,11 @@ ht-degree: 49%
 
 # [!UICONTROL Visual Experience Composer] 구성
 
-일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)을(를) 구성합니다.
+일반 설정, 모바일 뷰포트 구성 및 CSS 선택기를 지정하여 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을(를) 구성합니다.
 
 [!UICONTROL Visual Experience Composer] 구성 페이지에 액세스하려면 **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**&#x200B;을(를) 클릭합니다.
+
+{{permissions-update}}
 
 >[!NOTE]
 >
@@ -36,7 +38,7 @@ ht-degree: 49%
 
 ### 고급 경험 작성기 활성화 {#eec}
 
-iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 확장 버전과 호환되지 않을 수 있습니다. 원래 [!UICONTROL Visual Experience Composer](으)로 되돌리려면 이 옵션을 선택 취소합니다. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
+iFrame 버스팅 사이트 및 혼합 콘텐츠가 있는 사이트에서 편집할 수 있도록 허용합니다. 일부 사이트가 확장 버전과 호환되지 않을 수 있습니다. 원래 [!UICONTROL Visual Experience Composer]&#x200B;(으)로 되돌리려면 이 옵션을 선택 취소합니다. 사이트의 활동 전달은 이 선택 옵션의 영향을 받지 않습니다.
 
 자세한 내용은 [시각적 경험 작성기 문제 해결](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)을 참조하십시오.
 
@@ -86,7 +88,7 @@ EEC([!UICONTROL Enhanced Experience Composer])를 사용하여 웹 사이트를 
 
 ### 요소 클래스 사용
 
-기본적으로 [!DNL Target]은 요소 ID만 사용합니다. 그러나 페이지가 클래스를 사용하여 [!DNL Adobe Experience Manager](으)로 작성된 페이지와 같은 요소를 식별하도록 디자인된 경우 [!UICONTROL Use element classes]도 선택해야 합니다.
+기본적으로 [!DNL Target]은 요소 ID만 사용합니다. 그러나 페이지가 클래스를 사용하여 [!DNL Adobe Experience Manager]&#x200B;(으)로 작성된 페이지와 같은 요소를 식별하도록 디자인된 경우 [!UICONTROL Use element classes]도 선택해야 합니다.
 
 >[!NOTE]
 >
