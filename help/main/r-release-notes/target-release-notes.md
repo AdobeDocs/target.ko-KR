@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
+source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
 workflow-type: tm+mt
-source-wordcount: '501'
-ht-degree: 38%
+source-wordcount: '653'
+ht-degree: 31%
 
 ---
 
@@ -30,6 +30,22 @@ ht-degree: 38%
 2025년 4월 22일부터 [!DNL Target] 작업 영역의 역할에 관계없이 [!UICONTROL Product] 및 [!UICONTROL Solutions] 관리자만 [!UICONTROL Administration] 섹션의 설정을 업데이트할 수 있습니다. 이 권한이 없는 사용자는 [!UICONTROL Administration] 섹션에 대한 읽기 전용 액세스 권한을 갖게 됩니다.
 
 자세한 내용은 [Target 관리](/help/main/administrating-target/start-target.md)를 참조하십시오.
+
+## [!DNL Target Standard/Premium] 25.4.3(2025년 4월 10일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* [!UICONTROL Form-Based Experience Composer]의 [!UICONTROL Activity QA] 링크가 [!DNL Adobe Experience Cloud] 홈 페이지로 잘못 리디렉션되는 문제가 해결되었습니다. (TGT-52055)
+* 활동에서 중복 옵션을 확인하는 방법을 사용자에게 안내하는 오류 메시지를 추가했습니다. (TGT-51927)
+
+## [!DNL Target Standard/Premium] 25.4.2(2025년 4월 8일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* 저장하고 다시 연 후 [!UICONTROL A/B Test] 활동에 추가된 추가 페이지가 유지되지 않던 문제를 수정했습니다. (TGT-51994)
+* 고객이 인라인 스타일 섹션에서 스타일을 삭제할 수 없는 문제를 해결했습니다. (TGT-52070)
+* 기존 UI와 유사한 [!UICONTROL Activity QA] 대화 상자에서 [대상 정의 카드](/help/main/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780)에 대한 액세스를 복원했습니다. (TGT-52056)
+* 업데이트된 UI는 수정 없이 페이지 또는 대상자를 저장하지 않았습니다. 고객이 새 페이지나 대상을 활동에 추가했지만 변경하지 않는 경우 [!DNL Target]이(가) 저장 시 수정되지 않은 대상을 삭제했습니다. 이 동작을 사용자에게 알리기 위해 관련 위치에 알림이 추가되었습니다. (TGT-52104)
 
 ## [!DNL Target Standard/Premium] 25.4.1(2025년 4월 2일)
 

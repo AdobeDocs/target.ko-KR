@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 203c0ca94b198ee7ce8379731d31d32b27cb8a0d
 workflow-type: tm+mt
-source-wordcount: '530'
-ht-degree: 36%
+source-wordcount: '549'
+ht-degree: 35%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 36%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 4월 7일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 예정된 다음 릴리스에 대한 프리릴리스 정보가 추가되었습니다.<UL><li>[!DNL Target Standard/Premium] 25.4.2(2025년 4월 8일)</li><li>[!DNL Target Standard/Premium] 25.4.3(2025년 4월 10일)</li></ul> |
 | 4월 4일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 2025년 4월 22일로 예정된 [!DNL Target] 권한 업데이트에 대한 릴리스 정보가 업데이트되었습니다. |
 |  | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 2025년 4월 22일로 예정된 [!DNL Target] 권한 업데이트에 대한 프리릴리스 정보가 업데이트되었습니다. |
 |  | [관리자의 첫 단계](/help/main/administrating-target/start-target.md#admin-permissions) | 섹션: &quot;[!UICONTROL Administration] 설정을 편집하는 데 필요한 권한&quot;이 새로 추가되었습니다. |
