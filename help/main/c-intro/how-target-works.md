@@ -4,7 +4,7 @@ description: JavaScript 라이브러리(AEP Web SDK at.js), 서버 호출 사용
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
 workflow-type: tm+mt
 source-wordcount: '2400'
 ht-degree: 23%
@@ -103,10 +103,10 @@ Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 �
 
 다음 정보는 아래 표와 같이 [!DNL Target] 서버 호출에 사용되는 계산 전략을 이해하는 데 도움이 됩니다.
 
-* **한 번 계산**: API 호출당 한 번 계산
+* **한 번 계산**: API 호출당 한 번 계산됩니다.
 * **mbox 수 계산**: 단일 API 호출의 페이로드에서 배열 아래의 mbox 수를 계산합니다.
-* **무시**: 전혀 계산되지 않음
-* **보기 수 계산(한 번)**: 페이로드의 배열 아래 보기 수를 계산합니다. 일반적인 구현에서 보기 알림에는 알림 배열 아래에 하나의 보기만 있으므로 대부분의 구현에서 한 번 계산하는 것과 같습니다
+* **무시**: 전혀 계산되지 않습니다.
+* **보기 수 계산(한 번)**: 페이로드의 배열 아래 보기 수를 계산합니다. 일반적인 구현에서 보기 알림에는 알림 배열 아래에 하나의 보기만 있으므로 대부분의 구현에서 한 번 계산하는 것과 같습니다.
 
 | 엔드포인트 | 가져오기 유형 | 옵션 | 계산 전략 |
 |--- |--- |--- |-- |
