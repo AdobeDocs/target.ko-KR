@@ -4,10 +4,10 @@ description: JavaScript 라이브러리(AEP Web SDK at.js), 서버 호출 사용
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 70b3dbc7f0521e865de781e72bb1e5ca98df0258
+source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
 workflow-type: tm+mt
-source-wordcount: '2306'
-ht-degree: 24%
+source-wordcount: '2400'
+ht-degree: 23%
 
 ---
 
@@ -29,18 +29,18 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 사이트와 통합됩니다.
 
 * **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}**: 이 클라이언트측 JavaScript 라이브러리를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform Edge Network]을(를) 통해 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]은(는) 새 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]을(를) 구현할 것을 권장합니다.
-* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}**: [!DNL Target]에 대한 이 구현 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 옵션을 제공합니다. 새 기능으로 자주 업데이트되는 [!DNL Adobe]에서는 모든 [at.js 사용자를 최신 버전으로 업데이트할 것을 권장합니다](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}**: [!DNL Target]에 대한 이 구현 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 옵션을 제공합니다. 새 기능으로 자주 업데이트되는 [!DNL Adobe]은(는) 모든 [at.js 사용자를 최신 버전으로 업데이트할 것을 권장합니다](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >mbox.js 라이브러리는 [!DNL Target]에 대한 레거시 구현이며 2021년 3월 31일 이후에는 더 이상 지원되지 않습니다. [!UICONTROL Experience Platform Web SDK]&#x200B;(기본 설정) 또는 at.js 최신 버전으로 업그레이드하십시오.
 
-사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
+사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
 
 다음 리소스에는 [!DNL Experience Platform Web SDK] 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [ [!DNL Adobe Experience Platform]을 사용하여 [!DNL Target] 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 확장 기능](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [ [!DNL Target] 을 사용하여 [!DNL Adobe Experience Platform]구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 실시간 요청이 타기팅 시스템으로 전송되어 제공할 콘텐츠를 결정합니다. 이 요청은 마케터가 관리하는 활동 및 경험에 의해 제어되며, 페이지가 로드될 때마다 만들어지고 이행됩니다. 콘텐츠는 개별 사이트 방문자를 대상으로 하며 응답률, 획득률 및 매출을 극대화합니다. 개인화된 컨텐츠는 방문자가 반응하거나, 상호 작용하거나, 구매할 수 있도록 하는 데 도움이 됩니다.
 
@@ -100,6 +100,13 @@ Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 �
 ## [!DNL Target]에서 서버 호출 사용량을 계산하는 방법 {#usage}
 
 [!DNL Target]은(는) 고객에게 가치를 제공하는 서버 호출만 계산합니다. 다음 표에서는 [!DNL Target]이(가) 끝점, 단일 mbox, 일괄 mbox 호출, 실행, 미리 가져오기 및 알림 호출을 계산하는 방식을 보여 줍니다.
+
+다음 정보는 아래 표와 같이 [!DNL Target] 서버 호출에 사용되는 계산 전략을 이해하는 데 도움이 됩니다.
+
+* **한 번 계산**: API 호출당 한 번 계산
+* **mbox 수 계산**: 단일 API 호출의 페이로드에서 배열 아래의 mbox 수를 계산합니다.
+* **무시**: 전혀 계산되지 않음
+* **보기 수 계산(한 번)**: 페이로드의 배열 아래 보기 수를 계산합니다. 일반적인 구현에서 보기 알림에는 알림 배열 아래에 하나의 보기만 있으므로 대부분의 구현에서 한 번 계산하는 것과 같습니다
 
 | 엔드포인트 | 가져오기 유형 | 옵션 | 계산 전략 |
 |--- |--- |--- |-- |
