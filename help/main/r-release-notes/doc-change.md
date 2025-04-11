@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 21ee4fc1e0d986e6c1852c1bda647f4cb36ec606
+source-git-commit: b9ec7af30fda6e97e3b0372a02a682a177764742
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 33%
+source-wordcount: '625'
+ht-degree: 34%
 
 ---
 
@@ -21,7 +21,8 @@ ht-degree: 33%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
-| 4월 9일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 25.4.3 릴리스에 대한 프리릴리스 정보 날짜를 업데이트했습니다. |
+| 4월 11일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+| 4월 9일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 25.4.4 릴리스에 대한 프리릴리스 정보 날짜를 업데이트했습니다. |
 | 4월 8일 | [CNAME 및 대상](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/implement-cname-support-in-target){target=_blank} | 다음 내용이 업데이트되었습니다.<ul><li>모든 인증서는 RSA SHA-256이며 키는 기본적으로 RSA 2048비트입니다. 2048비트보다 큰 키 크기는 고객 지원 센터를 통해 명시적으로 요청해야 합니다. (이전에 언급된 2048비트보다 큰 키 크기는 지원되지 않았습니다.)</li><li>Bash 스크립트가 업데이트되었습니다.</li><li>유효성 검사 출력 코드 조각을 업데이트했습니다.</li></ul> |
 | 4월 7일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 예정된 다음 릴리스에 대한 프리릴리스 정보가 추가되었습니다.<UL><li>[!DNL Target Standard/Premium] 25.4.3(2025년 4월 10일)</li></ul> |
 | 4월 4일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 2025년 4월 22일로 예정된 [!DNL Target] 권한 업데이트에 대한 릴리스 정보가 업데이트되었습니다. |
