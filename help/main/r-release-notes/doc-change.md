@@ -4,10 +4,10 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 09e35c7a70785424bea0b63956d01e5e3944bfa9
+source-git-commit: 02447c110372536022df0afb2329c708be675d2a
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 34%
+source-wordcount: '647'
+ht-degree: 35%
 
 ---
 
@@ -21,6 +21,7 @@ ht-degree: 34%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 4월 17일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.4 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 4월 11일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [방법 [!DNL Target] 작동 방식](/help/main/c-intro/how-target-works.md#usage) | 새 섹션 추가: &quot;[!DNL Target]에서 서버 호출 사용량을 계산하는 방법&quot; |
 | 4월 9일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 25.4.4 릴리스에 대한 프리릴리스 정보 날짜를 업데이트했습니다. |
@@ -36,7 +37,7 @@ ht-degree: 34%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
-| 3월 31일 | [at.js 버전 세부 정보](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | at.js 2.11.8 릴리스에 대한 정보가 추가되었습니다. |
+| 3월 31일 | [at.js 버전 세부 사항](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | at.js 2.11.8 릴리스에 대한 정보가 추가되었습니다. |
 | 3월 26일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.7 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [권장 사항 FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | API를 통해 만든 [!DNL Recommendations] 개체를 [!DNL Target] UI에서 사용할 수 있음을 나타내기 위해 FAQ가 업데이트되었습니다. |
 |  | [컬렉션](/help/main/c-recommendations/c-products/collections.md) | 다음 참고 사항 추가: 컬렉션 규칙은 기준 실행 후 생성된 권장 사항 항목에 적용됩니다. 이는 출력에서 ER(엔티티 권장 사항)에만 영향을 주고 키에는 영향을 주지 않습니다. |
@@ -55,7 +56,7 @@ ht-degree: 34%
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
 | 2월 26일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 다음 릴리스에 대한 정보가 추가되었습니다.<ul><li>[!DNL Target Standard/Premium] 25.2.3(2025년 2월 26일)</li><li>at.js 버전 2.11.7(2025년 2월 26일)</li></ul> |
-|  | [at.js 버전 세부 정보](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | at.js 버전 2.11.7(2025년 2월 26일)에 대한 정보가 추가되었습니다. |
+|  | [at.js 버전 세부 사항](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank} | at.js 버전 2.11.7(2025년 2월 26일)에 대한 정보가 추가되었습니다. |
 |  | [활동 QA 북마클릿](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md) | at.js 2.x에 대한 활동 QA 북마클릿을 업데이트했습니다. |
 | 2월 13일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.2.1 사용자 인터페이스 업데이트 릴리스를 2025년 2월 17일로 변경했습니다. |
 | 2월 12일 | [시각적 경험 작성기 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | [!DNL Target Standard/Premium] 25.2.1 릴리스(2025년 2월 12일)에 도입된 업데이트된 VEC를 설명하기 위해 전체 항목이 업데이트되었습니다. |
