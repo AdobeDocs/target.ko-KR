@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 938351d258746031a6e47a935a37e2caccbf6e36
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '239'
-ht-degree: 67%
+source-wordcount: '373'
+ht-degree: 47%
 
 ---
 
@@ -22,6 +22,19 @@ ht-degree: 67%
 >릴리스 일자, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다.
 >
 >현재 릴리스에 대한 정보를 보려면 [Target 릴리스 정보](release-notes.md)를 참조하십시오. 이러한 페이지에 대한 정보는 릴리스 일자에 따라 동일하거나 다를 수 있습니다. 괄호로 묶인 문제 번호는 내부 [!DNL Adobe] 용입니다.
+
+## [!DNL Target Standard/Premium] 25.4.5(2025년 4월 24일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* 활동을 편집하거나 저장할 때 여러 경험 대상이 표시되는 문제를 해결했습니다. (TGT-52134)
+* [!DNL Recommendations] 활동을 활성화한 후 권장 사항이 고객의 웹 사이트에 표시되지 않는 문제를 해결했습니다. (TGT-52164)
+* 옵션이 변경되지 않은 경우 `OptionLocalIDs`이(가) 더 이상 잘못 증가하지 않습니다. (TGT-52187)
+* 이제 다운로드된 보고 파일에 보고 UI에 있는 데이터가 올바르게 표시됩니다. (TGT-52068)
+* Target이 웹 사이트 URL에서 &quot;#&quot; 문자를 인식하지 못하게 하는 문제를 해결했습니다. (TGT-52093)
+* 페이지 전달 규칙을 추가한 후 배치 작업이 더 이상 실패하지 않습니다. (TGT-52097)
+* [!DNL Target]이(가) 웹 사이트의 URL에서 모든 쿼리 매개 변수를 트리밍하는 문제를 해결했습니다. (TGT-52100)
+* 업데이트된 UI에서 대상 세분화 및 활동 대상이 반전되는 문제가 해결되었습니다. (TGT-52158)
 
 ## 타겟 권한 업데이트(2025년 4월 22일)
 

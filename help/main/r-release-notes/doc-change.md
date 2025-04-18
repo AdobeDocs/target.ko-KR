@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 02447c110372536022df0afb2329c708be675d2a
+source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
 workflow-type: tm+mt
-source-wordcount: '647'
+source-wordcount: '659'
 ht-degree: 35%
 
 ---
@@ -22,6 +22,7 @@ ht-degree: 35%
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
 | 4월 17일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.4 릴리스에 대한 릴리스 정보가 추가되었습니다. |
+|  | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 25.4.5 릴리스에 대한 프리릴리스 정보 날짜가 추가되었습니다. |
 | 4월 11일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [방법 [!DNL Target] 작동 방식](/help/main/c-intro/how-target-works.md#usage) | 새 섹션 추가: &quot;[!DNL Target]에서 서버 호출 사용량을 계산하는 방법&quot; |
 | 4월 9일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 25.4.4 릴리스에 대한 프리릴리스 정보 날짜를 업데이트했습니다. |
