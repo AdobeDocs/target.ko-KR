@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 872e56662e04e3fabda7ff38233adfea32efbe48
+source-git-commit: ad82d108adc6f5c76b2104f40fb0bb2c66e98a2b
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 47%
+source-wordcount: '589'
+ht-degree: 33%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 47%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 일자: 2025년 4월 17일 금요일**
+**마지막 업데이트 일자: 2025년 4월 23일 목요일**
 
 >[!NOTE]
 >
@@ -27,14 +27,25 @@ ht-degree: 47%
 
 이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
 
-* 활동을 편집하거나 저장할 때 여러 경험 대상이 표시되는 문제를 해결했습니다. (TGT-52134)
 * [!DNL Recommendations] 활동을 활성화한 후 권장 사항이 고객의 웹 사이트에 표시되지 않는 문제를 해결했습니다. (TGT-52164)
 * 옵션이 변경되지 않은 경우 `OptionLocalIDs`이(가) 더 이상 잘못 증가하지 않습니다. (TGT-52187)
 * 이제 다운로드된 보고 파일에 보고 UI에 있는 데이터가 올바르게 표시됩니다. (TGT-52068)
-* Target이 웹 사이트 URL에서 &quot;#&quot; 문자를 인식하지 못하게 하는 문제를 해결했습니다. (TGT-52093)
 * 페이지 전달 규칙을 추가한 후 배치 작업이 더 이상 실패하지 않습니다. (TGT-52097)
 * [!DNL Target]이(가) 웹 사이트의 URL에서 모든 쿼리 매개 변수를 트리밍하는 문제를 해결했습니다. (TGT-52100)
-* 업데이트된 UI에서 대상 세분화 및 활동 대상이 반전되는 문제가 해결되었습니다. (TGT-52158)
+* 고객이 기존 및 업데이트된 Target UI에서 활동을 만들 수 없는 콘솔 오류를 해결했습니다. (TGT-52181)
+* 고객이 새 페이지를 추가할 수 없도록 차단하여 잘못된 사용자 입력 오류가 발생하는 문제를 해결했습니다. (TGT-52258)
+* 페이지를 추가한 후 [!UICONTROL Experiences] 탭으로 다시 이동한 후 수정 사항이 사라지는 문제를 해결했습니다. (TGT-52264)
+* [!UICONTROL Experience Targeting]&#x200B;(XT) 활동에서 고객이 대상을 변경할 수 없도록 차단하는 문제를 해결했습니다. (TGT-52191)
+* 지원되지 않는 UI 규칙으로 인해 XT 활동을 편집할 수 없는 오류가 수정되었습니다. (TGT-52273)
+* 웹 페이지에 성공적으로 전달되었지만 활동 수정 사항이 [!DNL Target] UI에 표시되지 않는 문제를 해결했습니다. (TGT-52192)
+* 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 이동 경로가 편집기 하단에 항상 표시되지 않아 요소를 정확하게 선택할 수 없는 문제가 해결되었습니다. (TGT-51169)
+* 페이지 매김 때문에 [!UICONTROL Audience] 드롭다운 목록에 모든 대상이 표시되지 않던 문제를 해결했습니다. (TGT-52204)
+* [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에 새 오퍼를 추가할 때 잘못된 사용자 입력 메시지가 발생하는 문제를 해결했습니다. (TGT-52210)
+* 고객이 A4T에 액세스할 수 없어도 [!UICONTROL Analytics for Target]&#x200B;(A4T)이 보고 소스로 잘못 선택되던 문제를 해결했습니다. (TGT-52226)
+* [!UICONTROL View a Page] URL 지표로 활동을 저장할 수 없는 문제를 해결했습니다. (TGT-52260)
+* 고객이 활동 내에 오퍼를 만드는 동안 작업 영역을 선택할 수 없도록 차단하는 문제를 해결했습니다. (TGT-52289)
+* 다른 경험으로 전환할 때 한 경험의 수정 사항이 잘못 표시되던 문제를 수정했습니다. (TGT-52184)
+* 활동을 연 후 [!DNL Target] UI에 기본 오퍼가 잘못 표시되는 문제가 해결되었습니다. (TGT-52198)
 
 ## 타겟 권한 업데이트(2025년 4월 22일)
 
