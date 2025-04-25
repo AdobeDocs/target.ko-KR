@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: b09796cd8464b54dcc1945ae1ec00eb914ba218c
+source-git-commit: 24cbccca7ac76dd77668abf0b4498ab4fd374893
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 31%
+source-wordcount: '707'
+ht-degree: 29%
 
 ---
 
@@ -48,6 +48,14 @@ ht-degree: 31%
 * 고객이 활동 내에 오퍼를 만드는 동안 작업 영역을 선택할 수 없도록 차단하는 문제를 해결했습니다. (TGT-52289)
 * 다른 경험으로 전환할 때 한 경험의 수정 사항이 잘못 표시되던 문제를 수정했습니다. (TGT-52184)
 * 활동을 열 때 [!DNL Target] UI에 기본 오퍼가 잘못 표시되는 문제가 해결되었습니다. (TGT-52198)
+
+## [!DNL Target Standard/Premium] 25.4.5(2025년 4월 25일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* [!DNL Target]이(가) 웹 사이트 URL에서 &quot;#&quot; 문자를 인식하지 못하게 하는 문제를 해결했습니다. (TGT-52093)
+* [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에 대해 업데이트된 UI에서 대상을 지우고 결합된 대상을 편집할 수 없는 문제를 해결했습니다. (TGT-52149)
+* 업데이트된 UI에서 대상 세분화 및 활동 대상이 반전되는 문제가 해결되었습니다. (TGT-52158)
 
 ## 타겟 권한 업데이트(2025년 4월 22일)
 
