@@ -4,9 +4,9 @@ description: ' [!DNL Adobe Target] 설명서의 중요한 추가 사항 및 변�
 title: ' [!DNL Target] 설명서 업데이트는 어디에서 찾을 수 있습니까?'
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4104b6cb67347205c0143c9dea46dd483a8266ce
+source-git-commit: 579ebd9bebd3faa724f0d1d542f4d23766adefe3
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '713'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,7 @@ ht-degree: 34%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
+| 4월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.5 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 4월 23일 | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations)과 통합 | *Real-Time CDP 프로필 특성 기능 제한 및 고려 사항* 섹션에 다음을 추가했습니다. <ul><li>[!DNL Target]은(는) 오퍼에 사용할 [!DNL Adobe Experience Platform] 프로필 특성에 대해 &quot;문자열&quot; 데이터 형식만 지원합니다. &quot;Map&quot; 및 &quot;Array&quot; 유형 속성은 아직 지원되지 않습니다.</li></ul> |
 | 4월 17일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.4 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 25.4.5 릴리스에 대한 프리릴리스 정보 날짜가 추가되었습니다. |
