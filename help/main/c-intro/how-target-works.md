@@ -4,10 +4,10 @@ description: JavaScript 라이브러리(AEP Web SDK at.js), 서버 호출 사용
 title: ' [!DNL Target] 은 어떻게 작동합니까?'
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 673fe3d19ff569d8dd8c659e77a85a7fb74bbae7
+source-git-commit: c5cca9b4b95289626ade1654bb508ee9f0bf35f3
 workflow-type: tm+mt
-source-wordcount: '2400'
-ht-degree: 23%
+source-wordcount: '2215'
+ht-degree: 24%
 
 ---
 
@@ -29,18 +29,18 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 사이트와 통합됩니다.
 
 * **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}**: 이 클라이언트측 JavaScript 라이브러리를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform Edge Network]을(를) 통해 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]은(는) 새 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]을(를) 구현할 것을 권장합니다.
-* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}**: [!DNL Target]에 대한 이 구현 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 옵션을 제공합니다. 새 기능으로 자주 업데이트되는 [!DNL Adobe]은(는) 모든 [at.js 사용자를 최신 버전으로 업데이트할 것을 권장합니다](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}**: [!DNL Target]에 대한 이 구현 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 옵션을 제공합니다. 새 기능으로 자주 업데이트되는 [!DNL Adobe]에서는 모든 [at.js 사용자를 최신 버전으로 업데이트할 것을 권장합니다](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >mbox.js 라이브러리는 [!DNL Target]에 대한 레거시 구현이며 2021년 3월 31일 이후에는 더 이상 지원되지 않습니다. [!UICONTROL Experience Platform Web SDK]&#x200B;(기본 설정) 또는 at.js 최신 버전으로 업그레이드하십시오.
 
-사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 Adobe Experience Platform의 [태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
+사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
 
 다음 리소스에는 [!DNL Experience Platform Web SDK] 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [[!DNL Adobe Experience Platform Web SDK] 확장 기능](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [ [!DNL Target] 을 사용하여 [!DNL Adobe Experience Platform]구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [ [!DNL Adobe Experience Platform]을 사용하여 [!DNL Target] 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 실시간 요청이 타기팅 시스템으로 전송되어 제공할 콘텐츠를 결정합니다. 이 요청은 마케터가 관리하는 활동 및 경험에 의해 제어되며, 페이지가 로드될 때마다 만들어지고 이행됩니다. 콘텐츠는 개별 사이트 방문자를 대상으로 하며 응답률, 획득률 및 매출을 극대화합니다. 개인화된 컨텐츠는 방문자가 반응하거나, 상호 작용하거나, 구매할 수 있도록 하는 데 도움이 됩니다.
 
@@ -97,33 +97,36 @@ Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 �
 
 자세한 내용은 [권장 사항](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)을 참조하십시오.
 
-## [!DNL Target]에서 서버 호출 사용량을 계산하는 방법 {#usage}
+<!--
+## How [!DNL Target] counts server-call usage {#usage}
 
-[!DNL Target]은(는) 고객에게 가치를 제공하는 서버 호출만 계산합니다. 다음 표에서는 [!DNL Target]이(가) 끝점, 단일 mbox, 일괄 mbox 호출, 실행, 미리 가져오기 및 알림 호출을 계산하는 방식을 보여 줍니다.
+[!DNL Target] counts only server calls that provide value to customers. The following table shows how [!DNL Target] counts endpoints, single mbox, batch mbox calls, execute, prefetch, and notification calls.
 
-다음 정보는 아래 표와 같이 [!DNL Target] 서버 호출에 사용되는 계산 전략을 이해하는 데 도움이 됩니다.
+The following information helps you understand the counting strategy used for [!DNL Target] server calls, as shown in the table below:
 
-* **한 번 계산**: API 호출당 한 번 계산됩니다.
-* **mbox 수 계산**: 단일 API 호출의 페이로드에서 배열 아래의 mbox 수를 계산합니다.
-* **무시**: 전혀 계산되지 않습니다.
-* **보기 수 계산(한 번)**: 페이로드의 배열 아래 보기 수를 계산합니다. 일반적인 구현에서 보기 알림에는 알림 배열 아래에 하나의 보기만 있으므로 대부분의 구현에서 한 번 계산하는 것과 같습니다.
+* **Count Once**: Counts once per API call.
+* **Count the Number of mboxes**: Counts the number of mboxes under the array in the payload of a single API call.
+* **Ignore**: Is not counted at all.
+* **Count the Number of Views (Once)**: Counts the number of views under the array in the payload. In a typical implementation, a view notification has only one view under the notifications array, making this equivalent to counting once in most implementations.
 
-| 엔드포인트 | 가져오기 유형 | 옵션 | 계산 전략 |
+|Endpoint|Fetch type|Options|Counting strategy|
 |--- |--- |--- |-- |
-| `rest//v1/mbox` | 단일 | [!UICONTROL execute] | 한 번 카운트 |
-| `rest/v2/batchmbox` | 배치 | [!UICONTROL execute] | mbox 수 계산 |
-|  | 배치 | [!UICONTROL prefetch] | 무시 |
-|  | 배치 | [!UICONTROL notifications] | mbox 수 계산 |
-| `/ubox/[raw\|image\|page]` | 단일 | [!UICONTROL execute] | 한 번 카운트 |
-| `rest/v1/delivery`<p>`/rest/v1/target-upstream` | 단일 | [!UICONTROL execute] > [!UICONTROL pageLoad] | 한 번 카운트 |
-|  | 단일 | [!UICONTROL prefetch] > [!UICONTROL pageLoad] | 무시 |
-|  | 단일 | [!UICONTROL prefetch] > [!UICONTROL views] | 무시 |
-|  | 배치 | [!UICONTROL execute] > [!UICONTROL mboxes] | mbox 수 계산 |
-|  | 배치 | [!UICONTROL prefetch] > [!UICONTROL mboxes] | 무시 |
-|  | 배치 | [!UICONTROL notifications] > [!UICONTROL views] | 보기 횟수 계산(한 번) |
-|  | 배치 | [!UICONTROL notifications] > [!UICONTROL pageLoad] | 한 번 카운트 |
-|  | 배치 | [!UICONTROL notifications] > 유형([!UICONTROL conversions]) | 한 번 카운트 |
-|  | 배치 | [!UICONTROL notifications] > [!UICONTROL mboxes] | mbox 수 계산 |
+|`rest//v1/mbox`|Single|[!UICONTROL execute]|Count once|
+|`rest/v2/batchmbox`|Batch|[!UICONTROL execute]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch]|Ignore|
+||Batch|[!UICONTROL notifications]|Count the number of mboxes|
+|`/ubox/[raw\|image\|page]`|Single|[!UICONTROL execute]|Count once|
+|`rest/v1/delivery`<p>`/rest/v1/target-upstream`|Single|[!UICONTROL execute] > [!UICONTROL pageLoad]|Count once|
+||Single|[!UICONTROL prefetch] > [!UICONTROL pageLoad]|Ignore|
+||Single|[!UICONTROL prefetch] > [!UICONTROL views]|Ignore|
+||Batch|[!UICONTROL execute] > [!UICONTROL mboxes]|Count the number of mboxes|
+||Batch|[!UICONTROL prefetch] > [!UICONTROL mboxes]|Ignore|
+||Batch|[!UICONTROL notifications] > [!UICONTROL views]|Count the number of views (once)|
+||Batch|[!UICONTROL notifications] > [!UICONTROL pageLoad]|Count once|
+||Batch|[!UICONTROL notifications] > type ([!UICONTROL conversions])|Count once|
+||Batch|[!UICONTROL notifications] > [!UICONTROL mboxes]|Count the number of mboxes|
+
+-->
 
 ## 에지 네트워크 {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
