@@ -125,7 +125,7 @@ ht-degree: 19%
 
   이 동작이 요구 사항과 일치하지 않으면 다음 작업 중 하나를 수행하는 것이 좋습니다.
 
-   * 타깃팅용으로 사용하려면 [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을(를) [!DNL Target]에 전달하십시오.
+   * 타깃팅용으로 사용하려면 [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ko){target=_blank}을(를) [!DNL Target]에 전달하십시오.
    * 랜딩 페이지 활동 대신 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을 사용하십시오. A/B 테스트 활동은 동일한 방문자에 대한 경험을 전환하지 않습니다.
    * 대신 [방문자 프로필](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md)을 사용하십시오.
 

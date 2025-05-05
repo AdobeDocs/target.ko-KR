@@ -20,7 +20,7 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 * [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) multi-armed bandit 기능을 사용하여 트래픽을 승리 경험으로 유도합니다.
 * [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 앙상블 머신 러닝 알고리즘을 사용하여 각 방문자에게 가장 적합한 경험을 선택하십시오. [!UICONTROL Auto-Target]은(는) [!DNL Adobe Analytics] 목표 지표와 [!DNL Adobe Analytics]의 풍부한 보고 및 분석 기능을 사용하는 동안 각 사용자의 프로필, 동작 및 컨텍스트를 기반으로 최상의 경험을 선택합니다.
 
-[A/B 테스트 및 경험 타깃팅 활동과 함께 사용할 A4T를 구현했는지 확인](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). `analyticsLogging = client_side`을(를) 사용하는 경우 `sessionId` 값도 [!DNL Analytics]에 전달해야 합니다. 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;에서 [Analytics for Target(A4T) 보고](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}를 참조하십시오.
+[A/B 테스트 및 경험 타깃팅 활동과 함께 사용할 A4T를 구현했는지 확인](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). `analyticsLogging = client_side`을(를) 사용하는 경우 `sessionId` 값도 [!DNL Analytics]에 전달해야 합니다. 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;에서 [Analytics for Target(A4T) 보고](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=ko){target=_blank}를 참조하십시오.
 
 시작하려면 다음 단계를 따르십시오. 
 
@@ -125,7 +125,7 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * [!UICONTROL Auto-Target] 활동에 대한 데이터 소스로 [!DNL Analytics]을(를) 사용하는 경우 6시간이 경과하면 세션이 종료됩니다. 6시간 후에 발생하는 전환은 계산되지 않습니다.
 
-자세한 내용은 *Analytics 도구 안내서*&#x200B;에서 [속성 모델 및 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)을 참조하십시오.
+자세한 내용은 *Analytics 도구 안내서*&#x200B;에서 [속성 모델 및 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ko)을 참조하십시오.
 
 ## 자습서
 

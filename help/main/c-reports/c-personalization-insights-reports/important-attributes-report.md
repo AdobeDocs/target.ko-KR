@@ -2,7 +2,7 @@
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;faq;자주 묻는 질문;중요 속성
 description: 개인화 모델 및 상대적 중요도에 영향을 준 상위 특성을 보여 주는 [!UICONTROL Important Attributes] 보고서를 사용하는 방법을 알아봅니다.
 title: 중요 속성 보고서란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
@@ -92,13 +92,13 @@ ht-degree: 56%
 
 속성은 트래픽을 개인화하는 방법을 학습하기 위해 개인화 알고리즘에 사용된 방문자 또는 방문자의 특정 방문에 대한 정보입니다. 예를 들어, 브라우저 유형, 위치, 방문 요일 등이 속성이 될 수 있습니다.
 
-개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 특성을 Target에 업로드하는 방법에 대한 자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}을 참조하십시오.
+개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 특성을 Target에 업로드하는 방법에 대한 자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}을 참조하십시오.
 
 ### 모델에서 교육에 사용하지 않으려는 하나 이상의 속성이 표시됩니다. 교육 모델에서 해당 속성을 제거할 수 있습니까? {#models-api}
 
 차단 목록에 추가하다 0 API라고도 하는 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동을 위한 머신 러닝 모델에 사용되는 속성(기능이라고도 함)의 목록을 사용자가 관리할 수 있도록 해줍니다. [!UICONTROL Models API] AP 또는 AT 활동용 모델에서 하나 이상의 속성을 사용하지 못하도록 하려면 모델 API를 사용하여 이러한 속성을 &quot;차단 목록&quot;에 추가할 수 있습니다.
 
-자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [모델 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}를 참조하십시오. API를 사용하여 특성을 차단하려면 [모델 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}를 참조하세요.
+자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [모델 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}를 참조하십시오. API를 사용하여 특성을 차단하려면 [모델 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html?lang=ko){target=_blank}를 참조하세요.
 
 ### [!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 보고서의 정보가 CSV 다운로드와 동일합니까?
 

@@ -2,7 +2,7 @@
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;자동화된 세그먼트;faq;자주 묻는 질문;중요 속성
 description: Automated Personalization(AP) 및 자동 타겟(AT) 활동용 전문 보고서 - 자동화된 세그먼트와 중요 속성을 사용하는 방법에 대해 알아봅니다.
 title: Personalization 인사이트 보고서는 어떻게 사용합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4

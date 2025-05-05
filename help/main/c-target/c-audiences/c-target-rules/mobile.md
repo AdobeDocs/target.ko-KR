@@ -33,7 +33,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->Mobile SDK를 사용하는 고객은 이 기능을 적용하기 위해 아무 작업도 하지 않아도 됩니다. at.js를 사용하는 고객은 [at.js 버전 1.5.0으로 업그레이드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 이상이어야 합니다.
+>Mobile SDK를 사용하는 고객은 이 기능을 적용하기 위해 아무 작업도 하지 않아도 됩니다. at.js를 사용하는 고객은 [at.js 버전 1.5.0으로 업그레이드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} 이상이어야 합니다.
 
 모바일 장치 속성을 두 개 이상 선택할 수 있습니다. 여러 선택 항목은 OR 연산자로 연결됩니다.
 

@@ -2,7 +2,7 @@
 keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;배달 API;다운로드 전용 템플릿;이메일 템플릿;일괄처리;작성 시간 이메일
 description: ' [!DNL Target Recommendations], including using the [!DNL Target]  배달 API, Rawbox 템플릿 및 다운로드 전용 템플릿을 포함하여 이메일을 Adobe Target Recommendations과 통합하는 방법에 대해 알아보십시오.'
 title: Recommendations를 이메일과 통합하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >모든 이메일 수신자(예: API 호출)에 대해 `sessionId` 및 `tntId` 또는 `thirdPartyId` 중 하나에 고유값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면, 단일 프로필 내에서 많은 이벤트가 생성되어 API 응답이 느려지거나 실패할 수 있습니다.
 
-자세한 내용은 [배달 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}를 참조하십시오.
+자세한 내용은 [배달 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=ko){target=_blank}를 참조하십시오.
 
 ## 방법 2: rawbox 이메일 템플릿 사용 {#rawbox}
 

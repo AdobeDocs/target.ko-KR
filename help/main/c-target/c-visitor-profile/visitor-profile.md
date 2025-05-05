@@ -24,6 +24,6 @@ ht-degree: 38%
 - [방문자 프로필 라이프타임](visitor-profile-lifetime.md)
 - [프로필 속성](profile-parameters.md)
 - [범주 친화성](category-affinity.md)
-- [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+- [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
 - [mbox3rdPartyID에 대한 실시간 프로필 동기화](3rd-party-id.md)
 - [프로필 및 변수 용어집](variables-profiles-parameters-methods.md)

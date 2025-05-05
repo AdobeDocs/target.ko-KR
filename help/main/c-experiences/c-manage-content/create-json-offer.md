@@ -23,10 +23,10 @@ JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시
 
 * JSON 오퍼는 현재 [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Experience Targeting] (XT) 활동에만 사용할 수 있습니다.
 * JSON 오퍼는 [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md)에서만 사용할 수 있습니다.
-* JSON 오퍼는 [Server Side API 및 Mobile Node.js, Java, .NET 및 Python SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/server-side-overview){target=_blank}를 사용할 때 바로 검색할 수 있습니다.
-* 브라우저에서 at.js 1.2.3(또는 이상)을 통해서만, `setJson` 작업을 사용하여 작업을 필터링함으로써 [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}을(를) 사용하여 JSON 오퍼를 검색할 수 있습니다.
+* JSON 오퍼는 [Server Side API 및 Mobile Node.js, Java, .NET 및 Python SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/server-side/server-side-overview){target=_blank}를 사용할 때 바로 검색할 수 있습니다.
+* 브라우저에서 at.js 1.2.3(또는 이상)을 통해서만, `setJson` 작업을 사용하여 작업을 필터링함으로써 [getOffer()](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}을(를) 사용하여 JSON 오퍼를 검색할 수 있습니다.
 * JSON 오퍼는 문자열이 아닌 기본 JSON 개체로 제공됩니다. 이러한 개체의 소비자는 개체를 문자열로 처리하고 JSON 개체로 변환하도록 더 이상 요구받지 않습니다.
-* JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 [getOffer()](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}을(를) 사용하여 오퍼를 명시적으로 가져오기 위한 코드를 작성해야 합니다.
+* JSON 오퍼는 비시각적 오퍼이므로 다른 오퍼(예: HTML 오퍼)와는 대조적으로 자동으로 적용되지 않습니다. 개발자는 [getOffer()](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer){target=_blank}을(를) 사용하여 오퍼를 명시적으로 가져오기 위한 코드를 작성해야 합니다.
 
 ## JSON 오퍼 만들기 {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 

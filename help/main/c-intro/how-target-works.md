@@ -28,19 +28,19 @@ JavaScript 라이브러리([!DNL Adobe Experience Platform Web SDK] 및 at.js)�
 
 Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 사이트와 통합됩니다.
 
-* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}**: 이 클라이언트측 JavaScript 라이브러리를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform Edge Network]을(를) 통해 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]은(는) 새 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]을(를) 구현할 것을 권장합니다.
-* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank}**: [!DNL Target]에 대한 이 구현 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 옵션을 제공합니다. 새 기능으로 자주 업데이트되는 [!DNL Adobe]에서는 모든 [at.js 사용자를 최신 버전으로 업데이트할 것을 권장합니다](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
+* **[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}**: 이 클라이언트측 JavaScript 라이브러리를 사용하면 [!DNL Adobe Experience Cloud] 고객이 [!DNL Experience Platform Edge Network]을(를) 통해 다양한 서비스와 상호 작용할 수 있습니다. [!DNL Adobe]은(는) 새 [!DNL Target] 고객이 [!DNL Experience Platform Web SDK]을(를) 구현할 것을 권장합니다.
+* **[at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=ko){target=_blank}**: [!DNL Target]에 대한 이 구현 라이브러리는 웹 구현에 대한 페이지 로드 시간을 향상시키고, 단일 페이지 애플리케이션에 대해 더 나은 옵션을 제공합니다. 새 기능으로 자주 업데이트되는 [!DNL Adobe]에서는 모든 [at.js 사용자를 최신 버전으로 업데이트할 것을 권장합니다](https://experienceleague-review.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
 >mbox.js 라이브러리는 [!DNL Target]에 대한 레거시 구현이며 2021년 3월 31일 이후에는 더 이상 지원되지 않습니다. [!UICONTROL Experience Platform Web SDK]&#x200B;(기본 설정) 또는 at.js 최신 버전으로 업그레이드하십시오.
 
-사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
+사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
 
 다음 리소스에는 [!DNL Experience Platform Web SDK] 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [ [!DNL Adobe Experience Platform]을 사용하여 [!DNL Target] 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ko){target=_blank}
+* [ [!DNL Adobe Experience Platform]을 사용하여 [!DNL Target] 구현](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 실시간 요청이 타기팅 시스템으로 전송되어 제공할 콘텐츠를 결정합니다. 이 요청은 마케터가 관리하는 활동 및 경험에 의해 제어되며, 페이지가 로드될 때마다 만들어지고 이행됩니다. 콘텐츠는 개별 사이트 방문자를 대상으로 하며 응답률, 획득률 및 매출을 극대화합니다. 개인화된 컨텐츠는 방문자가 반응하거나, 상호 작용하거나, 구매할 수 있도록 하는 데 도움이 됩니다.
 
@@ -172,7 +172,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 >
 >[!DNL Target]은(는) 현재 중국에 Edge 클러스터가 없으므로 해당 지역의 [!DNL Target] 고객에 대한 방문자 성능이 제한됩니다. 방화벽과 Edge 클러스터 부재는 사이트 경험에 영향을 주어 느린 렌더링 및 페이지 로드 시간을 초래할 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
 
-원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}를 참조하십시오.
+원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/ko/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}를 참조하십시오.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

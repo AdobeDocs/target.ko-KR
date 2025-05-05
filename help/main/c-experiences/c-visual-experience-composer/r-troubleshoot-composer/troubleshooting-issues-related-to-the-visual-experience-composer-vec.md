@@ -139,7 +139,7 @@ ht-degree: 24%
 
 ## 찾아보기 모드를 사용할 때 VEC가 손상된 것으로 나타납니다. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-찾아보기 모드를 사용하는 동안 [!DNL Target] 라이브러리가 구현되지 않았거나([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) Frame-Buster 헤더가 포함된 URL에 액세스하면 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해 [!DNL Target]이(가) 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
+찾아보기 모드를 사용하는 동안 [!DNL Target] 라이브러리가 구현되지 않았거나([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=ko){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}) Frame-Buster 헤더가 포함된 URL에 액세스하면 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해 [!DNL Target]이(가) 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
 
 이 문제는 VEC가 `<iframe>`에서 웹 페이지를 로드하기 때문에 발생합니다. 브라우저의 현재 보안 메커니즘은 동일한 원본 정책으로 인해 [!DNL Target] UI가 지정된 프레임의 요소에 액세스하지 못하도록 합니다. 브라우저는 `location.href`과(와) 같은 정보를 포함하는 다른 원본의 프레임에 액세스하려는 스크립트를 차단합니다.
 

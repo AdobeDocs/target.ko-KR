@@ -45,7 +45,7 @@ ht-degree: 22%
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform] 소스는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
+  >[!DNL Adobe Experience Platform] 소스는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
   >
   >AEP/RTCDP([!DNL Real-time Customer Data Platform])에서 [!DNL Target]개의 [!UICONTROL Destinations] 카드를 구성하려면 [!DNL Target]에서 사용자가 [!UICONTROL Approver] 이상 상태여야 합니다.
   >

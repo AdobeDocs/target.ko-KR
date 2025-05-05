@@ -96,7 +96,7 @@ ht-degree: 96%
 
 ## 글로벌 mbox
 
-* [글로벌 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [글로벌 mbox](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ko)
 
 ## 호스트/환경
 
@@ -108,23 +108,23 @@ ht-degree: 96%
 
 ### 일반 구현
 
-* [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
-* [Target에서 클라우드 기반 인스턴스 사용](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
+* [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko)
+* [Target에서 클라우드 기반 인스턴스 사용](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html?lang=ko)
 
 ### 글로벌 mbox
 
-* [글로벌 mbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
+* [글로벌 mbox FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html?lang=ko)
 
 ### at.js
 
-* [at.js FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html)
-* [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
-* [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
+* [at.js FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html?lang=ko)
+* [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=ko)
+* [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko)
 * 고객 지원 팀에서 진행한 이니셔티브인 &quot;운영시간&quot; 비디오입니다.
 
 ## 모바일 앱
 
-* [모바일 앱을 위한 Target FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
+* [모바일 앱을 위한 Target FAQ](https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html?lang=ko)
 
 ## 보고
 
@@ -133,7 +133,7 @@ ht-degree: 96%
 
 ## SEO(검색 엔진 최적화)
 
-* [SEO(검색 엔진 최적화) 친화도 테스트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
+* [SEO(검색 엔진 최적화) 친화도 테스트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko)
 
 ## 보안
 

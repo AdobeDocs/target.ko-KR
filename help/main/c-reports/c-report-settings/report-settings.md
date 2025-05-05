@@ -135,7 +135,7 @@ ht-degree: 48%
 
 >[!NOTE]
 >
->조직에서 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank}(AEP)을 사용하여 [!DNL Target]에 지표 데이터를 보내는 경우 AEP 데이터 스트림의 환경이 [!DNL Target] 보고서 설정의 환경과 일치해야 합니다.
+>조직에서 [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html?lang=ko){target=_blank}(AEP)을 사용하여 [!DNL Target]에 지표 데이터를 보내는 경우 AEP 데이터 스트림의 환경이 [!DNL Target] 보고서 설정의 환경과 일치해야 합니다.
 
 ### 보고 데이터 재설정
 

@@ -19,7 +19,7 @@ ht-degree: 14%
 >
 >at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 만드는 동안 [!UICONTROL Goals & Settings] 페이지의 [!UICONTROL Tracking Server] 필드를 비워 둘 수 있습니다.
 >
->[!DNL Target] 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2 모두에 있는 Hide Body(본문 숨기기) 및 Show Body(본문 표시) 호출을 보여줍니다.*x*. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전 중 가장 최근의 업데이트로 업그레이드하십시오. 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하세요.
+>[!DNL Target] 팀은 at.js 1을 모두 지원합니다.*x*&#x200B;와 at.js 2 모두에 있는 Hide Body(본문 숨기기) 및 Show Body(본문 표시) 호출을 보여줍니다.*x*. 지원되는 버전을 실행 중인지 확인하려면 at.js의 주요 버전 중 가장 최근의 업데이트로 업그레이드하십시오. 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하세요.
 
 [!DNL Target]의 데이터가 [!DNL Analytics]의 올바른 위치로 이동하도록 하려면 A4T에서는 [!DNL Target]의 모든 Modstats 호출에서 [!DNL Analytics] 추적 서버를 보내야 합니다. 여러 추적 서버를 사용하는 구현의 경우 [!DNL Adobe Experience Platform Debugger] 또는 브라우저의 개발자 도구를 사용하여 활동에 대한 올바른 추적 서버를 결정하십시오.
 
@@ -29,7 +29,7 @@ ht-degree: 14%
 
 1. 활동을 만드는 페이지에서 [!DNL Adobe Experience Platform Debugger]을(를) 엽니다.
 
-   디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 개요](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html)를 참조하십시오.
+   디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 개요](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/overview.html?lang=ko)를 참조하십시오.
 
 1. 왼쪽 탐색 메뉴에서 **[!UICONTROL Analytics]**&#x200B;을(를) 클릭합니다.
 

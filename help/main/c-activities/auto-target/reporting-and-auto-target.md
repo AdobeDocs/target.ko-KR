@@ -2,7 +2,7 @@
 keywords: 자동 타겟;타깃팅;트래픽 할당;자주 묻는 질문;faq;문제 해결;문제 해결;보고;보고서;자동 타겟 요약 보고서;요약 보고서;자동화된 세그먼트;중요 속성
 description: ' [!DNL Target]에서 [!UICONTROL Auto-Target]개의 활동 보고서를 해석하는 방법을 알아봅니다.'
 title: '[!UICONTROL Auto-Target] 보고서를 어떻게 해석합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Auto-Target
 exl-id: df3f2d91-13f8-4acb-ba31-68f91500610b
 source-git-commit: 79fcfe80d8c77d59965e6565a36cf15eb63f8323

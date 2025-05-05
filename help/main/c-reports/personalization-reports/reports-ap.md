@@ -2,7 +2,7 @@
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;활동 수준 보고서;오퍼 수준 보고서;오퍼 세부 사항 보고서;faq
 description: Adobe Target에서 Automated Personalization 요약 보고서를 해석하는 방법에 대해 알아봅니다. 이 보고서에서 자동화된 세그먼트 및 중요 속성 보고서로 전환할 수 있습니다.
 title: Automated Personalization 요약 보고서는 어떻게 사용합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1

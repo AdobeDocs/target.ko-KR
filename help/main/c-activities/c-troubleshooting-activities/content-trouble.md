@@ -111,7 +111,7 @@ Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현�
 
 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}를 참조하십시오.
+자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=ko){target=_blank}를 참조하십시오.
 
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 

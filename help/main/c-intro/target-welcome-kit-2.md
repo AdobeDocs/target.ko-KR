@@ -52,8 +52,8 @@ ht-degree: 79%
 
 | 구현 유형 | 세부 사항 |
 | --- | --- |
-| 클라이언트측 | [!DNL Target]의 이러한 구현으로 [!DNL Target] 은 활동과 관련된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, **[!UICONTROL Visual Experience Composer]**(VEC) 또는 비시각적 인터페이스 **[!UICONTROL Form-based Experience Composer]**&#x200B;을(를) 사용하여 테스트 및 개인화 경험을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}. |
-| 서버측 | 이 유형의 [!DNL Target] 구현에서 클라이언트 디바이스는 서버를 통해 경험에 대한 요청을 하고, 서버는 [!DNL Target]에 요청을 보내고, [!DNL Target] 은 서버에 응답을 되돌려 보내며, 서버는 클라이언트 디바이스에 전달할 경험을 결정합니다. 경험은 음성 도우미를 통해 또는 시각적이지 않은 경험 또는 브라우저를 기반으로 하지 않는 디바이스를 통해 이메일이나 키오스크에 표시될 수 있습니다. 서버가 클라이언트와 [!DNL Target] 사이에 존재하기 때문에 제어력과 보안이 필요하거나 서버에서 실행하려는 복잡한 백엔드 프로세스가 있는 경우에 이러한 유형의 구현이 이상적입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}. |
+| 클라이언트측 | [!DNL Target]의 이러한 구현으로 [!DNL Target] 은 활동과 관련된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, **[!UICONTROL Visual Experience Composer]**(VEC) 또는 비시각적 인터페이스 **[!UICONTROL Form-based Experience Composer]**&#x200B;을(를) 사용하여 테스트 및 개인화 경험을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank}. |
+| 서버측 | 이 유형의 [!DNL Target] 구현에서 클라이언트 디바이스는 서버를 통해 경험에 대한 요청을 하고, 서버는 [!DNL Target]에 요청을 보내고, [!DNL Target] 은 서버에 응답을 되돌려 보내며, 서버는 클라이언트 디바이스에 전달할 경험을 결정합니다. 경험은 음성 도우미를 통해 또는 시각적이지 않은 경험 또는 브라우저를 기반으로 하지 않는 디바이스를 통해 이메일이나 키오스크에 표시될 수 있습니다. 서버가 클라이언트와 [!DNL Target] 사이에 존재하기 때문에 제어력과 보안이 필요하거나 서버에서 실행하려는 복잡한 백엔드 프로세스가 있는 경우에 이러한 유형의 구현이 이상적입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}. |
 | 하이브리드 구현 | 이 구현에서는 주어진 사용 사례에 가장 적합한 구현 접근 방식을 선택합니다. 예를 들어 클라이언트측 구현을 사용하여 홈 페이지의 히어로 배너에서 A/B 제안을 테스트할 수 있지만, 서버측 구현을 사용하여 클라이언트 브라우저에 표시할 내부 검색 결과, 스마트 자동차 대시보드에 표시할 경험 또는 음성 지원에서 전달할 음성 응답을 결정할 수도 있습니다. |
 
 ## 활동 요소

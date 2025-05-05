@@ -3,8 +3,8 @@ keywords: ajo;adobe 여정 최적화 도구;adobe 여정 최적화 도구 target
 description: ' [!DNL Adobe Target Recommendations] 을(를)  [!DNL Adobe Journey Optimizer]과(와) 통합합니다.'
 title: ' [!DNL Adobe Journey Optimizer]을(를) 사용하는 고객 여정에서  [!DNL Target Recommendations] 을(를) 사용하려면 어떻게 합니까?'
 feature: Integrations
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: 81bbbd51-47fc-4e23-a1cb-7c18fea1c159
@@ -25,11 +25,11 @@ ht-degree: 1%
 
 [!DNL Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합을 사용하려면 다음이 필요합니다.
 
-* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)이(가) [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}을(를) 사용하여 구현되었습니다.
+* [[!DNL Adobe Target Premium]](/help/main/c-intro/intro.md#premium)이(가) [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}을(를) 사용하여 구현되었습니다.
 
   이 기능은 [!DNL Target Standard] 라이선스나 at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현하는 경우에는 사용할 수 없습니다.
 
-* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/ajo-home){target=_blank}.
+* [[!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/ajo-home){target=_blank}.
 
 ## 샘플 사용 사례
 

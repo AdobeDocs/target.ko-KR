@@ -85,7 +85,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}이(가) 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
+>**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=ko){target=_blank}이(가) 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
 >
 >허용 목록이 환경보다 우선합니다. 허용 목록에 추가하다 기능을 사용하기 전에 허용 목록에 추가하다에서 허용된 호스트를 모두 지운 다음 호스트 목록에 만 나타납니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer] 및 오퍼 결정에 대한 자세한 내용은 *[!DNL Journey Optimizer]* 설명서에서 다음 항목을 참조하십시오.
 
-* [Journey Optimizer 시작](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
+* [Journey Optimizer 시작](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=ko)
 
 * [의사 결정 관리 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=ko-KR)
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 [!DNL Target]에서 오퍼 결정을 사용하려면 다음이 필요합니다.
 
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}를 사용하여 [!DNL Adobe Target Standard] 또는 [!DNL Adobe Target Premium]을(를) 구현했습니다.
+* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}를 사용하여 [!DNL Adobe Target Standard] 또는 [!DNL Adobe Target Premium]을(를) 구현했습니다.
 
   at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현할 때는 이 기능을 사용할 수 없습니다.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. **[!UICONTROL Add Offer Decision]** 대화 상자에서 원하는 샌드박스와 배치를 선택합니다.
 
-   [!DNL Adobe Experience Platform]의 [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}을(를) 사용하면 인스턴스를 가상 환경으로 분할할 수 있습니다. 예를 들어 프로덕션 환경과 스테이징 환경이 있을 수 있습니다. [!DNL Adobe Journey Optimizer]의 [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}을(를) 사용하면 올바른 오퍼 콘텐츠가 올바른 위치에 표시되는지 확인할 수 있습니다.
+   [!DNL Adobe Experience Platform]의 [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=ko){target=_blank}을(를) 사용하면 인스턴스를 가상 환경으로 분할할 수 있습니다. 예를 들어 프로덕션 환경과 스테이징 환경이 있을 수 있습니다. [!DNL Adobe Journey Optimizer]의 [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=ko){target=_blank}을(를) 사용하면 올바른 오퍼 콘텐츠가 올바른 위치에 표시되는지 확인할 수 있습니다.
 
    ![오퍼 결정 추가 대화 상자의 샌드박스 및 배치 드롭다운 목록](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -100,7 +100,7 @@ ht-degree: 0%
 
 오퍼 결정을 사용할 때 다음 정보를 고려하십시오.
 
-* offer decisioning 통합은 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}를 기반으로 [!DNL Target] 구현에 대해 작동합니다. at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현하는 경우에는 이 기능을 사용할 수 없습니다.
+* offer decisioning 통합은 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}를 기반으로 [!DNL Target] 구현에 대해 작동합니다. at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현하는 경우에는 이 기능을 사용할 수 없습니다.
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer] 통합은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 및 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동만 지원합니다. 이 기능은 다른 활동 유형에는 사용할 수 없습니다.
 
