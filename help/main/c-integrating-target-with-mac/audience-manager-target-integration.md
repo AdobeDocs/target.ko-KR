@@ -19,5 +19,5 @@ ht-degree: 0%
 
 ## 비디오: [!DNL Target]과(와) [!DNL Adobe Audience Manager] 통합(3:06)
 
->[!VIDEO](https://video.tv.adobe.com/v/35151)
+>[!VIDEO](https://video.tv.adobe.com/v/3421746?captions=kor)
 

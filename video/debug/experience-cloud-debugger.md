@@ -17,15 +17,15 @@ ht-degree: 100%
 
 ## 확장 추가
 
->[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33241/?quality=12&captions=kor)
 
 ## 기본 [!DNL Target] 디버깅
 
->[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33299/?quality=12&captions=kor)
 
 ## Mbox 추적
 
->[!VIDEO](https://video.tv.adobe.com/v/23113/?quality=12)
+>[!VIDEO](https://video.tv.adobe.com/v/33304/?quality=12&captions=kor)
 
 ## 추가 리소스
 

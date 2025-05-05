@@ -210,7 +210,7 @@ ht-degree: 55%
 
 * 기본 작업 영역 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421734?captions=kor)
 
 ### Adobe Target에서 속성을 만드는 방법(3:05) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

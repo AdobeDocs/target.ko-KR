@@ -206,12 +206,12 @@ adobe.target.trackEvent({
 
 ### 확장 ![튜토리얼 배지](/help/main/assets/tutorial.png) 추가
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33241?captions=kor)
 
 ### 기본 Adobe 타겟 디버깅 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33299?captions=kor)
 
 ### Mbox 추적 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/33304?captions=kor)

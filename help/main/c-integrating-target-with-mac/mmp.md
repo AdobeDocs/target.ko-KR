@@ -26,4 +26,4 @@ ht-degree: 7%
 * [!DNL Adobe Experience Cloud] (AEC) 관리 패널 탐색
 * [!DNL Experience Cloud] ID(ECID)에 대한 요구 사항 나열
 
->[!VIDEO](https://video.tv.adobe.com/v/35152)
+>[!VIDEO](https://video.tv.adobe.com/v/3421752?captions=kor)

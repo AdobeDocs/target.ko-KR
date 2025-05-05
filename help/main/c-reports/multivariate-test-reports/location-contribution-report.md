@@ -37,4 +37,4 @@ ht-degree: 38%
 
 이 비디오에서는 안내가 있는 [!DNL Target] 3단계 워크플로우를 사용하여 다변량 테스트를 만드는 방법을 보여 줍니다. 위치 기여도 보고서는 8:45부터 설명됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)

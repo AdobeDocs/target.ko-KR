@@ -246,4 +246,4 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 * [!DNL Adobe Target]에서 A/B 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/30529?captions=kor)

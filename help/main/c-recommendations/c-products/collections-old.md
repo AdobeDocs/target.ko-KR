@@ -109,4 +109,4 @@ ht-degree: 40%
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/27689)
+>[!VIDEO](https://video.tv.adobe.com/v/35499?captions=kor)
