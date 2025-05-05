@@ -13,7 +13,7 @@ ht-degree: 45%
 
 # [!UICONTROL Visual Experience Composer] 및 [!UICONTROL Enhanced Experience Composer]과(와) 관련된 문제 해결
 
-표시 문제 및 기타 문제는 특정 조건에서 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC) 및 [!UICONTROL Enhanced Experience Composer](EEC)에서 발생하는 경우가 있습니다.
+표시 문제 및 기타 문제는 특정 조건에서 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) 및 [!UICONTROL Enhanced Experience Composer] (EEC)에서 발생하는 경우가 있습니다.
 
 ## Google Chrome SameSite 쿠키 시행 정책이 VEC 및 EEC에 어떤 영향을 미칩니까? {#samesite}
 

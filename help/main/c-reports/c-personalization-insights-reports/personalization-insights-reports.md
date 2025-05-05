@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!UICONTROL Personalization Insights]개 보고서
 
-[!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target](AT) 활동 사용자([!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 보고서)가 2개의 전문 보고서를 사용할 수 있습니다.
+[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동 사용자([!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 보고서)가 2개의 전문 보고서를 사용할 수 있습니다.
 
 ## 고려 사항
 
@@ -84,13 +84,13 @@ AP 또는 자동 타겟 모델에 사용되는 두 가지 유형의 특성이 [!
 
 ## 자주 묻는 질문
 
-[!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target] [!UICONTROL Insights] 보고서에 대한 FAQ 목록.
+[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] [!UICONTROL Insights] 보고서에 대한 FAQ 목록.
 
-### [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target] 모델의 데이터는 얼마나 지속됩니까?
+### [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 모델의 데이터는 얼마나 지속됩니까?
 
-[!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target] 모델은 활동에 대한 지난 45일 사용자 동작(사용자 프로필, 노출 이벤트 및 전환 이벤트)에 대해 교육됩니다.
+[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 모델은 활동에 대한 지난 45일 사용자 동작(사용자 프로필, 노출 이벤트 및 전환 이벤트)에 대해 교육됩니다.
 
-[!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target] 모델은 사용자 동작, 교육 레코드 및 모델 결정 데이터를 90일 동안 유지하여 [!UICONTROL Insights] 보고서를 생성합니다. 90일 이후에는 교육 기록 및 모델 결정을 삭제합니다. [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target] 모델도 2년 동안 보고 목적으로 집계된 경험/오퍼 수준 노출 및 전환 데이터를 유지합니다. 이 데이터는 집계 수준 데이터이며 개별 수준 프로필 데이터를 포함하지 않습니다.
+[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 모델은 사용자 동작, 교육 레코드 및 모델 결정 데이터를 90일 동안 유지하여 [!UICONTROL Insights] 보고서를 생성합니다. 90일 이후에는 교육 기록 및 모델 결정을 삭제합니다. [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 모델도 2년 동안 보고 목적으로 집계된 경험/오퍼 수준 노출 및 전환 데이터를 유지합니다. 이 데이터는 집계 수준 데이터이며 개별 수준 프로필 데이터를 포함하지 않습니다.
 
 ## 교육 비디오: Personalization Insights 보고서 사용 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

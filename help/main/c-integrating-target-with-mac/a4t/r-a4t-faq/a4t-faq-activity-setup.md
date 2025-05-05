@@ -13,7 +13,7 @@ ht-degree: 6%
 
 # 활동 설정 - A4T FAQ
 
-이 주제에서는 활동 설정과 [!DNL Analytics]을(를) [!DNL Target](A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
+이 주제에서는 활동 설정과 [!DNL Analytics]을(를) [!DNL Target] (A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
 ## 보고 소스로 [!DNL Analytics]을(를) 지원하는 활동 유형(A4T)은 무엇입니까? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
@@ -45,7 +45,7 @@ A4T 보고를 사용하는 별도의 [작업 영역](/help/main/administrating-t
 
 
 +++답변
-활동이 만들어지면 [!DNL Target]에서 [!DNL Analytics](으)로 분류 파일을 보냅니다. [!DNL Analytics]이(가) 데이터를 캡처하고 처리 중이지만 분류 파일이 업데이트될 때까지 보고서에 표시되지 않습니다. 이 프로세스를 완료하는 데 24~72시간이 걸릴 수 있습니다. 72시간 후에도 데이터가 표시되지 않으면 [Client Care에 문의](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)하세요. 또는 활동을 시작하는 것을 알고 있는 경우 며칠 전에 활동을 만들 수 있으며 활동이 저장되면 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. [!DNL Analytics]에서 데이터를 처리하는 데 45~90분이 소요됩니다.
+활동이 만들어지면 [!DNL Target]에서 [!DNL Analytics] (으)로 분류 파일을 보냅니다. [!DNL Analytics]이(가) 데이터를 캡처하고 처리 중이지만 분류 파일이 업데이트될 때까지 보고서에 표시되지 않습니다. 이 프로세스를 완료하는 데 24~72시간이 걸릴 수 있습니다. 72시간 후에도 데이터가 표시되지 않으면 [Client Care에 문의](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)하세요. 또는 활동을 시작하는 것을 알고 있는 경우 며칠 전에 활동을 만들 수 있으며 활동이 저장되면 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. [!DNL Analytics]에서 데이터를 처리하는 데 45~90분이 소요됩니다.
 
 +++
 

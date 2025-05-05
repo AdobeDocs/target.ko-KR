@@ -188,6 +188,6 @@ ht-degree: 31%
 
 ![관리 페이지](/help/main/c-intro/assets/administration.png)
 
-[!UICONTROL Administration] 페이지에서는 [!UICONTROL Visual Experience Composer](VEC), 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Target]을(를) 관리할 수 있습니다.
+[!UICONTROL Administration] 페이지에서는 [!UICONTROL Visual Experience Composer] (VEC), 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Target]을(를) 관리할 수 있습니다.
 
 자세한 내용 및 사용자 인터페이스에 대해 알아보려면 [Target 관리 개요](/help/main/administrating-target/administrating-target.md) 를 참조하십시오.

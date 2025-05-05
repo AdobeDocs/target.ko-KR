@@ -1,6 +1,6 @@
 ---
 keywords: 다변량 테스트;mvt;전체 계승;mvt 또는 a/b;다변량 a/b;트래픽 견적 도구;mvt 사용 시기;mvt 고려 사항;다변량;부분 계승;부분 계승;전체 계승
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Multivariate Test](MVT)을(를) 사용하여 페이지의 요소 간에 오퍼 조합을 비교하여 성과가 가장 좋은 조합을 판별하는 방법에 대해 알아봅니다.'
+description: ' [!DNL Adobe Target] 의 [!UICONTROL Multivariate Test] (MVT)을(를) 사용하여 페이지의 요소 간에 오퍼 조합을 비교하여 성과가 가장 좋은 조합을 판별하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL Multivariate Test]이란?'
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
@@ -13,7 +13,7 @@ ht-degree: 47%
 
 # [!UICONTROL Multivariate Test] 개요
 
-[!DNL Adobe Target]의 [!UICONTROL Multivariate Test](MVT) 활동은 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. [!UICONTROL Multivariate Test] 활동은 또한 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
+[!DNL Adobe Target]의 [!UICONTROL Multivariate Test] (MVT) 활동은 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. [!UICONTROL Multivariate Test] 활동은 또한 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
 
 다변량 테스트는 페이지의 다른 요소와 비교하여 특정 요소가 전환에 미치는 상대적 영향을 찾는 데 도움이 됩니다. 다변량 테스트는 효과적인 것으로 나타난 요소의 조합을 구체화하는 데 도움이 될 수도 있습니다.
 
@@ -102,7 +102,7 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 
 ### 다변량 테스트 만들기(9:25) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
-이 비디오에서는 [!DNL]Target의 안내가 있는 3단계 워크플로우를 사용하여 다변량 테스트를 이해하고 계획하고 만드는 방법을 설명합니다.
+이 비디오에서는 Target의 안내가 있는 3단계 워크플로우를 사용하여 다변량 테스트를 이해하고 계획하고 만드는 방법을 설명합니다.
 
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기

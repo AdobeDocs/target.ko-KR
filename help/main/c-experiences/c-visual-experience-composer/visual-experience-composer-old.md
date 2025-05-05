@@ -13,7 +13,7 @@ ht-degree: 73%
 
 # 시각적 경험 작성기(VEC)
 
-[!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer](VEC) 사용에 대한 정보입니다.
+[!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer] (VEC) 사용에 대한 정보입니다.
 
 VEC는 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 타겟 활동에 대한 경험과 오퍼를 만들 수 있습니다.
 

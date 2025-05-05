@@ -14,7 +14,7 @@ ht-degree: 15%
 
 # 권장 사항 활동 미리보기 및 시작
 
-[Recommendations 오퍼](/help/main/c-recommendations/recommendations-as-an-offer.md)가 포함된 [!UICONTROL Recommendations], [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting](XT) 활동을 만든 후에는 활동을 시작하기 전에 결과를 사용할 수 있도록 권장 사항을 미리 보는 것이 좋습니다. [!DNL Target Recommendations]은(는) 권장 사항을 미리 보는 여러 가지 방법을 제공합니다.
+[Recommendations 오퍼](/help/main/c-recommendations/recommendations-as-an-offer.md)가 포함된 [!UICONTROL Recommendations], [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting] (XT) 활동을 만든 후에는 활동을 시작하기 전에 결과를 사용할 수 있도록 권장 사항을 미리 보는 것이 좋습니다. [!DNL Target Recommendations]은(는) 권장 사항을 미리 보는 여러 가지 방법을 제공합니다.
 
 ## Recommendations 알고리즘 상태 확인
 
@@ -48,7 +48,7 @@ mbox를 동작 데이터 소스로 선택한 경우, 기준이 만들어지면 �
 
 * **1회성 보고서 세트 설정**: 보고서 세트가 지정된 데이터 범위 전환 확인 기간과 함께 처음 사용되는 경우, [!DNL Target Recommendations]은 2~7일 동안 [!DNL Analytics]에서 선택한 보고서 세트에 대한 동작 데이터를 완전히 다운로드할 수 있습니다. 이 기간은 [!DNL Analytics] 시스템 로드에 따라 다릅니다.
 * **이미 사용 가능한 보고서 세트를 사용하는 새 기준 또는 편집된 기준**: 새 기준을 만들거나 기존 기준을 편집할 때 선택한 보고서 세트를 선택한 데이터 범위와 같거나 그보다 적은 데이터 범위를 갖는 [!DNL Target Recommendations]과(와) 함께 이미 사용한 경우 데이터를 즉시 사용할 수 있으며 일회성 설정이 필요하지 않습니다. 이러한 경우, 또는 선택한 보고서 세트나 데이터 범위를 수정하지 않고 알고리즘 설정이 편집된 경우 알고리즘이 12시간 이내에 실행되거나 재실행됩니다.
-* **지속적인 알고리즘 실행**: 데이터는 매일 [!DNL Analytics]에서 [!DNL Target Recommendations]으로 이동합니다. 예를 들어 [!UICONTROL Viewed Affinity] 권장 사항의 경우 사용자가 제품을 볼 때 제품 보기 추적 호출이 실시간에 가깝게 [!DNL Analytics]에 전달됩니다. [!DNL Analytics] 데이터가 다음 날 일찍 [!DNL Target](으)로 푸시되고 [!DNL Target]이(가) 12시간 이내에 알고리즘을 실행합니다.
+* **지속적인 알고리즘 실행**: 데이터는 매일 [!DNL Analytics]에서 [!DNL Target Recommendations]으로 이동합니다. 예를 들어 [!UICONTROL Viewed Affinity] 권장 사항의 경우 사용자가 제품을 볼 때 제품 보기 추적 호출이 실시간에 가깝게 [!DNL Analytics]에 전달됩니다. [!DNL Analytics] 데이터가 다음 날 일찍 [!DNL Target] (으)로 푸시되고 [!DNL Target]이(가) 12시간 이내에 알고리즘을 실행합니다.
 
 >[!NOTE]
 >
@@ -102,13 +102,13 @@ CSV 파일을 다운로드하고 있습니다. 이 폴더를 열어 추천 항�
 
 [!UICONTROL Recommendations] 활동이 현재 [!UICONTROL Inactive] 상태인 경우 드롭다운 목록에 [!UICONTROL Inactive] 레이블이 지정됩니다.
 
-몇 초에서 몇 분 후 상태가 [!UICONTROL Live](으)로 전환됩니다.
+몇 초에서 몇 분 후 상태가 [!UICONTROL Live] (으)로 전환됩니다.
 
 동일한 드롭다운 목록을 사용하여 활동을 비활성화하거나 보관할 수도 있습니다.
 
 ## Recommendations 설정 변경 시 중단 방지
 
-라이브 활동에서 [!DNL Recommendations]개의 컬렉션, 기준, 프로모션 또는 디자인 설정을 변경하면 알고리즘이 유효하지 않게 되고 알고리즘의 상태가 [!UICONTROL Results Not Ready](으)로 변경될 수 있습니다.
+라이브 활동에서 [!DNL Recommendations]개의 컬렉션, 기준, 프로모션 또는 디자인 설정을 변경하면 알고리즘이 유효하지 않게 되고 알고리즘의 상태가 [!UICONTROL Results Not Ready] (으)로 변경될 수 있습니다.
 
 라이브 활동이 중단되지 않도록 하려면 라이브 활동을 수정할 때 다음 접근 방식을 취하는 것이 좋습니다.
 

@@ -59,9 +59,9 @@ ht-degree: 34%
 
 * 경험
 
-  [!UICONTROL A/B Test], [!UICONTROL Experience Targeting](XT) 및 [!UICONTROL Multivariate Test](MVT) 활동에 대한 [!UICONTROL Order Details] 보고서에서 [!UICONTROL Experience] 열에는 `localId` 경험이 포함되어 있습니다. 이것은 오퍼 토큰에 있는 `$campaign.recipe.id`의 값 출력입니다.
+  [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT) 및 [!UICONTROL Multivariate Test] (MVT) 활동에 대한 [!UICONTROL Order Details] 보고서에서 [!UICONTROL Experience] 열에는 `localId` 경험이 포함되어 있습니다. 이것은 오퍼 토큰에 있는 `$campaign.recipe.id`의 값 출력입니다.
 
-  [!UICONTROL Automated Personalization](AP) 활동에 대한 [!UICONTROL Experience] 열이 없습니다. [!DNL Target]의 다른 곳에 표시된 대로 현재 [!UICONTROL Algorithm Name] 열이 &quot;컨트롤&quot; 및 &quot;타깃팅된&quot; 용어로 대체되었습니다.
+  [!UICONTROL Automated Personalization] (AP) 활동에 대한 [!UICONTROL Experience] 열이 없습니다. [!DNL Target]의 다른 곳에 표시된 대로 현재 [!UICONTROL Algorithm Name] 열이 &quot;컨트롤&quot; 및 &quot;타깃팅된&quot; 용어로 대체되었습니다.
 
   [!UICONTROL Recommendations] 활동에 영향을 주지 않았습니다.
 

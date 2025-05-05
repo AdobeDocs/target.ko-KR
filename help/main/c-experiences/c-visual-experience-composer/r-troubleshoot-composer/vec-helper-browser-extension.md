@@ -1,7 +1,7 @@
 ---
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 기능;브라우저
-description: '[!UICONTROL Visual Experience Composer](VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아봅니다. VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
-title: '[!UICONTROL Visual Experience Composer](VEC) Helper 확장 프로그램을 사용하려면 어떻게 해야 합니까?'
+description: '[!UICONTROL Visual Experience Composer] (VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아봅니다. VEC Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
+title: '[!UICONTROL Visual Experience Composer] (VEC) Helper 확장 프로그램을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
 source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
@@ -13,7 +13,7 @@ ht-degree: 50%
 
 # [!UICONTROL Visual Experience Composer] 도우미 확장
 
-[!DNL Google Chrome]용 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC) Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다.
+[!DNL Google Chrome]용 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper 브라우저 확장 프로그램을 사용하면 VEC에서 웹 사이트를 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다.
 
 VEC Helper 브라우저가 [!DNL Chrome] 확장명입니다. [!DNL Mozilla Firefox]을(를) 사용할 때는 이 확장이 필요하지 않습니다.
 
@@ -50,7 +50,7 @@ Chrome용 VEC Helper 브라우저 확장 프로그램은 고객이 현재 [!DNL 
 
   EEC(고급 경험 작성기)를 사용하면 확장 기능이 at.js에 삽입되지는 않지만 SameSite 쿠키 기능은 여전히 존재합니다. 웹 페이지에서 at.js를 삽입하려면 EEC를 끕니다.
 
-* [모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)은(는) [!UICONTROL Enhanced Experience Composer](EEC) 없이도 지원됩니다.
+* [모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)은(는) [!UICONTROL Enhanced Experience Composer] (EEC) 없이도 지원됩니다.
 * [!DNL Target]을 처음 사용하는 고객은 IT 개발자가 아직 웹 사이트에서 [!DNL Target]을 구현하지 않았더라도 확장 기능을 사용하여 [!DNL Target]을 실험해 볼 수 있습니다.
 * 이제 여러 고객의 웹 사이트 및 [!DNL Target] 계정을 제공하는 파트너는 타사 도구에서 여러 규칙을 관리하는 대신 VEC 로드를 지원하는 단일 메커니즘을 보유합니다.
 

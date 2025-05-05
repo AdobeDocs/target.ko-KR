@@ -77,7 +77,7 @@ FAQ에 대한 다음 답변을 고려하십시오.
 
 * 보고서가 보드 전체에서 0%를 표시한다면 활동이 너무 이른 것일 수 있습니다.
 
-### [!UICONTROL Analytics as the reporting source](A4T)을(를) 사용하는 [!UICONTROL Auto-Allocate] 활동에 &quot;우승자 없음&quot;, &quot;우승자&quot; 및 &quot;별&quot; 배지를 사용할 수 있습니까?
+### [!UICONTROL Analytics as the reporting source] (A4T)을(를) 사용하는 [!UICONTROL Auto-Allocate] 활동에 &quot;우승자 없음&quot;, &quot;우승자&quot; 및 &quot;별&quot; 배지를 사용할 수 있습니까?
 
 &quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지는 현재 [!DNL Analysis Workspace]의 [!UICONTROL A4T] 패널에서 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!UICONTROL Auto-Allocate] 활동에 대한 [!DNL Target] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다.
 

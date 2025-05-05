@@ -33,7 +33,7 @@ ht-degree: 19%
 
      이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * [!UICONTROL URL]([!DNL Target]이(가) URL을 평가하는 방법에 대한 자세한 내용은 [대상 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
+      * [!UICONTROL URL] ([!DNL Target]이(가) URL을 평가하는 방법에 대한 자세한 내용은 [대상 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -45,7 +45,7 @@ ht-degree: 19%
 
      이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * [!UICONTROL URL](Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
+      * [!UICONTROL URL] (Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -56,7 +56,7 @@ ht-degree: 19%
 
      이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * [!UICONTROL URL](Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
+      * [!UICONTROL URL] (Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]

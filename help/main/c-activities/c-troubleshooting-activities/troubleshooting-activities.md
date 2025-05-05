@@ -55,7 +55,7 @@ ht-degree: 44%
 
 **옵션:**
 
-* [!UICONTROL Visual Experience Composer](으)로 이동하여 URL > 고급 > 현재 페이지를 클릭합니다.
+* [!UICONTROL Visual Experience Composer] (으)로 이동하여 URL > 고급 > 현재 페이지를 클릭합니다.
 
 ## 새 경험이 아니라 이전 경험이 표시됩니다.
 
@@ -82,7 +82,7 @@ ht-degree: 44%
 
 ## 활동 설정 후 페이지의 구조가 변경되었습니다.
 
-**유효성 검사:** 기존 활동에 대한 [!UICONTROL Visual Experience Composer](으)로 이동합니다. 선택기(또는 구조)가 변경되었음을 나타내는 경고 메시지를 찾으십시오.
+**유효성 검사:** 기존 활동에 대한 [!UICONTROL Visual Experience Composer] (으)로 이동합니다. 선택기(또는 구조)가 변경되었음을 나타내는 경고 메시지를 찾으십시오.
 
 **옵션:**
 

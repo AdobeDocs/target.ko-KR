@@ -26,7 +26,7 @@ ht-degree: 40%
 
 특정 항목을 판촉하거나, 항목을 동적으로 판촉하거나, 속성을 기준으로 항목을 판촉하거나, 컬렉션을 판촉할 수 있습니다.
 
-[!DNL Target] UI](assets/add_promotion_toggles.png)의 ![[!UICONTROL Front Promotion] 및 [!UICONTROL Back Promotion] 옵션
+[!DNL Target] UI![&#128279;](assets/add_promotion_toggles.png)의 [!UICONTROL Front Promotion] 및 [!UICONTROL Back Promotion] 옵션
 
 >[!NOTE]
 >

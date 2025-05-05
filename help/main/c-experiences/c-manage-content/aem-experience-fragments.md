@@ -13,6 +13,6 @@ ht-degree: 22%
 
 # AEM 경험 및 컨텐츠 조각
 
-최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 만들어진 XF(경험 조각) 및 CF(콘텐츠 조각)를 사용합니다.
+최적화 또는 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 만들어진 XF(경험 조각) 및 CF(콘텐츠 조각)를 사용합니다.
 
 자세한 내용은 [AEM 경험 조각 및 콘텐츠 조각 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)를 참조하십시오.

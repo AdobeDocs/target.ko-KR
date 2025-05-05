@@ -81,7 +81,7 @@ ht-degree: 28%
 * 계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 [!UICONTROL Activity QA] 미리 보기 링크가 로드되지 않을 수 있습니다. 미리 보기 링크를 다시 시도하면 작동합니다. 이 상황이 계속 발생하지 않도록 하려면 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오.
 * [!UICONTROL Activity QA] URL은 [Analytics를 보고 소스로](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)하는 활동에서 사용할 수 있습니다. [!UICONTROL Activity QA]을(를) 사용하여 QA를 수행하는 동안 생성된 히트는 활동이 라이브로 전환된 후에도 활동의 데이터가 흐르는 동일한 보고서 세트로 이동합니다.
 * [!UICONTROL Activity QA]은(는) 보관된 활동이나 종료 날짜가 지난 활동에 대한 콘텐츠를 표시하지 않습니다. 종료된 활동을 비활성화하는 경우 [!UICONTROL Activity QA]이(가) 작동하도록 활동을 다시 저장해야 합니다.
-* [!DNL Target Classic]에서 [!DNL Target Standard/Premium](으)로 가져온 활동은 QA URL을 지원하지 않습니다.
+* [!DNL Target Classic]에서 [!DNL Target Standard/Premium] (으)로 가져온 활동은 QA URL을 지원하지 않습니다.
 * [!UICONTROL Auto-Allocate] 및 [!UICONTROL Recommendations] 활동에서 모델은 [!UICONTROL Activity QA]에서 캡처된 방문의 영향을 받지 않습니다.
 * 활동을 만드는 동안 &quot;URL은&quot;을 지정한 경우([양식 기반 작성기에서 개선](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 또는 [시각적 경험 작성기에서 페이지 전달 옵션)](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), [!UICONTROL Activity QA]이(가) URL 매개 변수를 추가하므로 QA URL이 작동하지 않습니다. 이 문제를 해결하려면 QA URL을 클릭하여 사이트로 이동하고 추가된 매개 변수를 URL에서 제거한 다음, 새 URL을 로드하십시오.
 * at.js 1이 있는 경우Safari나 타사 쿠키를 차단하는 다른 브라우저를 사용하는 경우 *x*, [!UICONTROL Activity QA] 모드가 고정되지 않습니다. 이러한 경우 탐색하는 각 URL에 미리보기 매개 변수를 추가해야 합니다. [CNAME](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}을 구현한 경우에도 마찬가지입니다.
@@ -102,7 +102,7 @@ ht-degree: 28%
   | `at_preview_evaluate_as_true_audience_ids` | 문자열 | Empty | [!DNL Target] 요청 범위에서 항상(타깃팅 및 보고 수준에서) &quot;true&quot;로 평가되어야 하는 segmentId-s의 밑줄로 구분된(&quot;_&quot;) 목록입니다. |
   | `_AT_Debug` | 문자열 | 창 또는 콘솔 | 콘솔 로깅 또는 새 창입니다. |
   | `adobe_mc_ref` |  |  | 기본 페이지의 참조 URL을 새 페이지에 전달합니다. `AppMeasurement.js` 버전 2.1 이상에서 사용하는 경우 [!DNL Adobe Analytics]는 이 매개 변수값을 새 페이지의 참조 URL로 사용합니다. |
-  | `adobe_mc_sdid` |  |  | [!DNL Supplemental Data Id](SDID) 및 [!DNL Experience Cloud Org Id]을(를) 기본 페이지에서 새 페이지로 전달합니다. 이 ID를 전달하면 [!UICONTROL Analytics for Target](A4T)이(가) 기본 페이지의 [!DNL Target] 요청을 새 페이지의 [!DNL Analytics] 요청과 함께 &quot;결합&quot;할 수 있습니다. |
+  | `adobe_mc_sdid` |  |  | [!DNL Supplemental Data Id] (SDID) 및 [!DNL Experience Cloud Org Id]을(를) 기본 페이지에서 새 페이지로 전달합니다. 이 ID를 전달하면 [!UICONTROL Analytics for Target] (A4T)이(가) 기본 페이지의 [!DNL Target] 요청을 새 페이지의 [!DNL Analytics] 요청과 함께 &quot;결합&quot;할 수 있습니다. |
 
 * [!UICONTROL Target QA Mode] UI는 다중 페이지 활동에서 경험의 첫 번째 URL만 표시합니다. 여정 테스트를 만들고 URL1에서 URL2로 이동한다고 가정합니다. 그러나 URL2로 이동하려는 경우 URL1에 대해 제공된 모든 URL 매개 변수를 복사하여 URL1에 표시된 대로 &quot;?&quot;를 지정한 후 URL2에 적용합니다.
 * 계정에 저장된 활동이 너무 많으면 저장된 활동에 대한 활동 QA 미리보기 링크가 로드되지 않을 수 있습니다. 미리보기 링크를 다시 시도하십시오. 이 문제가 계속 발생하지 않도록 하기 위해 더 이상 적극적으로 사용되지 않는 저장된 활동을 보관하십시오.
@@ -122,7 +122,7 @@ ht-degree: 28%
 | [!UICONTROL A/B Test] | 예 | 예 | 예 |
 | [!UICONTROL Auto-Allocate] | 예 | 예 | 예 |
 | [!UICONTROL Auto-Target] | 예 | 예 | 예 |
-| [!UICONTROL Automated Personalization](AP) | 예 | 예 | 예 |
-| [!UICONTROL Experience Targeting](XT) | 예 | 예 | 예 |
-| [!UICONTROL Multivariate Test](MVT) | 예 | 예 | 예 |
+| [!UICONTROL Automated Personalization] (AP) | 예 | 예 | 예 |
+| [!UICONTROL Experience Targeting] (XT) | 예 | 예 | 예 |
+| [!UICONTROL Multivariate Test] (MVT) | 예 | 예 | 예 |
 | [!UICONTROL Recommendations] | 예 | 예 | 예 |

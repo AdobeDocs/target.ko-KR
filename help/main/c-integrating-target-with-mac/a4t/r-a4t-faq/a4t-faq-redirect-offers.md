@@ -45,7 +45,7 @@ ht-degree: 44%
 ## A4T 활동에서 리디렉션 오퍼를 사용할 때 트래픽 분배의 불일치를 최소화하려면 어떻게 해야 합니까? {#discrepancies}
 
 +++답변
-[!UICONTROL Analytics for Target](A4T)으로 구성된 활동에서 리디렉션 오퍼를 사용할 때 제한된 수의 고객이 트래픽 분포에서 높은 차이를 보고했습니다.
+[!UICONTROL Analytics for Target] (A4T)으로 구성된 활동에서 리디렉션 오퍼를 사용할 때 제한된 수의 고객이 트래픽 분포에서 높은 차이를 보고했습니다.
 
 다음 사항을 고려하십시오.
 
@@ -156,7 +156,7 @@ Adobe은 IT 팀에 얘기해서 `adobe_mc_ref` 및 `adobe_mc_sdid`이(가) 허�
 
 +++
 
-### [!UICONTROL Visual Experience Composer](VEC) 및 [!UICONTROL Form-Based Experience Composer]이(가) 지원됩니까?
+### [!UICONTROL Visual Experience Composer] (VEC) 및 [!UICONTROL Form-Based Experience Composer]이(가) 지원됩니까?
 
 +++답변
 예. 기본 제공 리디렉션 오퍼를 사용하는 경우 [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC) 및 [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)이(가) 지원됩니다.

@@ -24,7 +24,7 @@ ht-degree: 59%
 1. 활동에 대한 [!UICONTROL Goals & Settings] 페이지에서 목표를 설정할 때 **[!UICONTROL Conversion]** 성공 지표를 선택하십시오.
 1. 작업에 대해 **[!UICONTROL Clicked an element]**&#x200B;을(를) 선택한 다음 **[!UICONTROL Select elements]**&#x200B;을(를) 클릭합니다.
 
-   페이지가 [!UICONTROL Visual Experience Composer](VEC)에서 열립니다.
+   페이지가 [!UICONTROL Visual Experience Composer] (VEC)에서 열립니다.
 
 1. 추적할 요소를 선택합니다.
 
@@ -36,7 +36,7 @@ ht-degree: 59%
 
 ## 선택한 요소 패널 {#selected-elements}
 
-[!UICONTROL A/B Test], [!UICONTROL Experience Targeting](XT), [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Multivariate Test](MVT) 활동의 경우 [!UICONTROL Selected Elements] 패널에 오른쪽의 클릭 추적에 대해 선택한 요소가 나열됩니다.
+[!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Multivariate Test] (MVT) 활동의 경우 [!UICONTROL Selected Elements] 패널에 오른쪽의 클릭 추적에 대해 선택한 요소가 나열됩니다.
 
 ![선택한 요소 패널](/help/main/c-activities/r-success-metrics/assets/selected-elements.png)
 
@@ -76,7 +76,7 @@ ht-degree: 59%
 * 둘 이상의 요소를 선택하는 경우 참여자가 선택된 요소 중 하나를 클릭하면 해당 클릭은 카운트됩니다. 각 항목을 별도로 카운트하려면 각 요소에 대해 개별 성공 지표를 설정하십시오. 페이지에서 여러 요소를 클릭하여 한 항목을 계산하려면 CSS 요소 선택기를 여러 요소와 일치하도록 편집합니다.
 * 추적할 요소의 수준을 선택해야 합니다. 예를 들어, 단추를 지정할 때 단추 텍스트가 아닌 링크를 선택해야 합니다.
 * 클릭 이벤트는 클릭이 진행된 동일한 페이지에 있는 [!DNL Target]으로 전송됩니다.
-* 클릭 추적 지표가 [!UICONTROL Analytics for Target](A4T) 활동의 목표 지표인 경우 방문자는 지표가 추적할 수 있도록 페이지 로드 후 60초 이내에 이 요소를 클릭해야 합니다.
+* 클릭 추적 지표가 [!UICONTROL Analytics for Target] (A4T) 활동의 목표 지표인 경우 방문자는 지표가 추적할 수 있도록 페이지 로드 후 60초 이내에 이 요소를 클릭해야 합니다.
 * 클릭 추적은 다음을 포함하여 선택기에 이스케이프된 문자를 포함하는 요소에는 작동하지 않습니다.
 
   | 문자 | 설명 |

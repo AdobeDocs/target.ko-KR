@@ -13,7 +13,7 @@ ht-degree: 34%
 
 # A/B 테스트 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer](VEC)을(를) 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
+[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
 
 >[!NOTE]
 >
@@ -95,7 +95,7 @@ ht-degree: 34%
 
 1. **[!UICONTROL Audience]** 상자에서 편집 아이콘(세로 줄임표)을 클릭하고 **[!UICONTROL Replace Audience]**&#x200B;을 클릭한 다음 [활동에 대한 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)합니다.
 
-   기본적으로 대상은 [!UICONTROL All Visitors](으)로 설정됩니다.
+   기본적으로 대상은 [!UICONTROL All Visitors] (으)로 설정됩니다.
 
 1. 활동을 입력하려는 자격 있는 방문자의 비율을 선택합니다.
 

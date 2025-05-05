@@ -71,7 +71,7 @@ ht-degree: 34%
 
 ### iOS 12.2 이상을 실행하는 타깃팅 디바이스
 
-iOS 12.2에 도입된 새로운 변경 사항으로 인해 iPhone 모델을 지정하는 [!UICONTROL Device Marketing Name] 및 [!UICONTROL Device Model](으)로 정의된 규칙으로 대상을 만드는 것이 영향을 받습니다. [!DNL Target]은(는) 더 이상 iOS 12.2 이상이 설치된 iPhone 사용자를 타깃팅할 수 없습니다. 그러나 이러한 사용자에게 iOS 12.2 이상이 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
+iOS 12.2에 도입된 새로운 변경 사항으로 인해 iPhone 모델을 지정하는 [!UICONTROL Device Marketing Name] 및 [!UICONTROL Device Model] (으)로 정의된 규칙으로 대상을 만드는 것이 영향을 받습니다. [!DNL Target]은(는) 더 이상 iOS 12.2 이상이 설치된 iPhone 사용자를 타깃팅할 수 없습니다. 그러나 이러한 사용자에게 iOS 12.2 이상이 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
 
 iOS 12.2 이상 업데이트는 iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina 디스플레이, iPad Retina(4세대), iPod Touch 4 및 iPod Touch 5와 같은 모델을 iOS 12.2로 업그레이드하는 것을 지원하지 않으므로 이러한 모델을 식별하는 데 영향을 주지 않습니다.
 

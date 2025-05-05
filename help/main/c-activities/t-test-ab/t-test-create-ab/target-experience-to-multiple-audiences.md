@@ -13,7 +13,7 @@ ht-degree: 52%
 
 # A/B 테스트의 여러 경험 대상자
 
-[!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다른 대상자에게 타깃팅할 수 있습니다. [!UICONTROL Visual Experience Composer](VEC) 또는 양식 기반 경험 작성기에서 경험에 대한 여러 대상을 설정할 수 있습니다.
+[!DNL Adobe Target] A/B 활동에서 동일한 경험의 버전을 다른 대상자에게 타깃팅할 수 있습니다. [!UICONTROL Visual Experience Composer] (VEC) 또는 양식 기반 경험 작성기에서 경험에 대한 여러 대상을 설정할 수 있습니다.
 
 방문자는 프로필이 변경될 때 경험 대상 간에 전환할 수 있습니다. 방문자는 활동 라이프타임 동안 동일한 경험에 머무르지 않습니다.
 

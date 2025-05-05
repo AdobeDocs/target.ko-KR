@@ -169,8 +169,8 @@ ht-degree: 48%
 
 * **테이블 보기**: 보고서를 테이블로 보려면 **[!UICONTROL Table View]**( ![테이블 보기 아이콘](/help/main/assets/icons/Table.svg)) 아이콘을 클릭하십시오.
 * **그래프 보기**: 보고서를 그래프로 보려면 **[!UICONTROL Graph View]**( ![그래프 보기 아이콘](/help/main/assets/icons/GraphTrend.svg)) 아이콘을 클릭하십시오.
-* **자동화된 세그먼트**:([!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target](AT) 활동에만 사용 가능) **[!UICONTROL Automated Segments] ( ![자동화된 세그먼트 아이콘](/help/main/assets/icons/AutomatedSegment.svg) ) 아이콘을 클릭하여 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)를 봅니다.
-* **중요 특성**: ([!DNL Automated Personalization](AP) 및 [!UICONTROL Auto-Target](AT) 활동에만 사용 가능) **[!UICONTROL Important Attributes]**( ![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg)) 아이콘을 클릭하여 [중요 특성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md)를 봅니다.
+* **자동화된 세그먼트**:([!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동에만 사용 가능) **[!UICONTROL Automated Segments] ( ![자동화된 세그먼트 아이콘](/help/main/assets/icons/AutomatedSegment.svg) ) 아이콘을 클릭하여 [자동화된 세그먼트 보고서](/help/main/c-reports/c-personalization-insights-reports/automated-segments-report.md)를 봅니다.
+* **중요 특성**: ([!DNL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동에만 사용 가능) **[!UICONTROL Important Attributes]**( ![중요 특성 아이콘](/help/main/assets/icons/ViewList.svg)) 아이콘을 클릭하여 [중요 특성 보고서](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md)를 봅니다.
 
 ## 평균 상승도, 상승도 한계 및 신뢰 구간 {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -212,7 +212,7 @@ MVT(다변량 테스트) 활동에 대한 위치별 기여도를 표시하도록
 
 [!UICONTROL Graph View]에서 보고서를 볼 때만 사용할 수 있습니다.
 
-보고서에서 그래프에 대한 계산 방법론을 선택할 수 있습니다. [!UICONTROL Automated Personalization](AP) 활동에는 지원되지 않습니다.
+보고서에서 그래프에 대한 계산 방법론을 선택할 수 있습니다. [!UICONTROL Automated Personalization] (AP) 활동에는 지원되지 않습니다.
 
 그래프 모드에서 보고서를 보는 동안 [!UICONTROL Counting Methodology] 옵션에 액세스하려면 **[!UICONTROL My Primary Goal]** 드롭다운을 클릭한 다음 계산 방법을 선택하십시오.
 
@@ -230,9 +230,9 @@ MVT(다변량 테스트) 활동에 대한 위치별 기여도를 표시하도록
 
 그래프가 작성되는 기본 순서는 다음과 같습니다.
 
-* **[!UICONTROL A/B Test]([!UICONTROL Auto-Allocate] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
-* **[!UICONTROL Experience Targeting](XT)**: 활동의 경험 순서.
-* **[!UICONTROL Multivariate Test](MVT)**: 경험 이름별 알파벳순
+* **[!UICONTROL A/B Test] ([!UICONTROL Auto-Allocate] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
+* **[!UICONTROL Experience Targeting] (XT)**: 활동의 경험 순서.
+* **[!UICONTROL Multivariate Test] (MVT)**: 경험 이름별 알파벳순
 * **[!UICONTROL Recommendations]**: 내림차순으로 작성된 경험 순서입니다.
 
 [!UICONTROL Counting Methodology] 옵션을 사용하여 작업할 때 다음 주의 사항을 고려하십시오.

@@ -13,7 +13,7 @@ ht-degree: 57%
 
 # [!UICONTROL Multivariate Test] 모범 사례
 
-[!DNL Adobe Target]에서 [!UICONTROL Multivariate Test](MVT) 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 데 도움이 되는 팁입니다.
+[!DNL Adobe Target]에서 [!UICONTROL Multivariate Test] (MVT) 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 데 도움이 되는 팁입니다.
 
 ## 계획 {#section_4D4A1F6226F042379BF48DB753608579}
 

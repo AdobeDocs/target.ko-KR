@@ -1,6 +1,6 @@
 ---
 keywords: 경험 타깃팅;xt;만들기
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Visual Experience Composer](VEC)를 사용하여 [!UICONTROL Experience Targeting](XT) 활동을 만드는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target] 의 [!UICONTROL Visual Experience Composer] (VEC)를 사용하여 [!UICONTROL Experience Targeting] (XT) 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Experience Targeting] 활동을 만드는 방법'
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
@@ -11,11 +11,11 @@ ht-degree: 33%
 
 ---
 
-# [!UICONTROL Experience Targeting](XT) 활동 만들기
+# [!UICONTROL Experience Targeting] (XT) 활동 만들기
 
-[!DNL Target]이(가) 활성화된 페이지에서 [!UICONTROL Experience Targeting](XT) 활동을 만들고 [!DNL Adobe Target] 내에서 해당 페이지의 부분을 수정하려면 [!UICONTROL Visual Experience Composer](VEC)를 사용하십시오.
+[!DNL Target]이(가) 활성화된 페이지에서 [!UICONTROL Experience Targeting] (XT) 활동을 만들고 [!DNL Adobe Target] 내에서 해당 페이지의 부분을 수정하려면 [!UICONTROL Visual Experience Composer] (VEC)를 사용하십시오.
 
-[!UICONTROL Experience Targeting](XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
+[!UICONTROL Experience Targeting] (XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 
 [지리 기반의 타깃팅](/help/main/c-target/c-audiences/c-target-rules/geo.md)을(를) 포함한 [!UICONTROL Experience Targeting]은(는) 특정 경험이나 콘텐츠를 특정 대상으로 타깃팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상자에 다양한 콘텐츠 변형을 전달할 수 있습니다.
 

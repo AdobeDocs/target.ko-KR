@@ -14,7 +14,7 @@ ht-degree: 51%
 
 # [!DNL Recommendations] 활동 만들기
 
-[!DNL Target] [!UICONTROL Visual Experience Composer](VEC)을(를) 사용하여 [!DNL Target]을(를) 사용할 수 있는 페이지에서 직접 [!DNL Recommendations] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
+[!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 [!DNL Target]을(를) 사용할 수 있는 페이지에서 직접 [!DNL Recommendations] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**&#x200B;을(를) 클릭합니다.
 

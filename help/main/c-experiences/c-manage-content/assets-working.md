@@ -29,7 +29,7 @@ ht-degree: 12%
 
 [!UICONTROL Code Offers] 페이지를 볼 때 오퍼 또는 폴더 옆에 있는 [!UICONTROL Quick Info] 아이콘(![빠른 정보 아이콘](/help/main/assets/icons/InfoOutline.svg)) 또는 [!UICONTROL More Actions] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg))을 클릭한 다음 해당 아이콘을 선택하여 항목에 대해 다음 작업을 수행할 수 있습니다.
 
-* **정보**: **[!UICONTROL Quick Info]아이콘**( ![빠른 정보 아이콘](/help/main/assets/icons/InfoOutline.svg) )을 클릭하여 [!UICONTROL Offer ID], [!UICONTROL Type], [!UICONTROL Last Modified](날짜, 시간 및 수정자의 이름)을 포함한 오퍼 정보를 봅니다. 오퍼 특성 및 활동 사용량(활동 이름, 상태, 작업 공간, 수정된 날짜 및 시간)을 포함한 추가 정보를 보려면 [!UICONTROL View Full Details]을(를) 클릭하십시오.
+* **정보**: **[!UICONTROL Quick Info]아이콘**( ![빠른 정보 아이콘](/help/main/assets/icons/InfoOutline.svg) )을 클릭하여 [!UICONTROL Offer ID], [!UICONTROL Type], [!UICONTROL Last Modified] (날짜, 시간 및 수정자의 이름)을 포함한 오퍼 정보를 봅니다. 오퍼 특성 및 활동 사용량(활동 이름, 상태, 작업 공간, 수정된 날짜 및 시간)을 포함한 추가 정보를 보려면 [!UICONTROL View Full Details]을(를) 클릭하십시오.
 * **[!UICONTROL Edit]**: 폴더 또는 오퍼를 편집하려면 **[!UICONTROL More Actions]아이콘**(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Edit]**&#x200B;을(를) 클릭합니다.
 * **[!UICONTROL Copy]**: **[!UICONTROL More Actions]아이콘**(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Copy]**&#x200B;을(를) 클릭하여 오퍼를 복사합니다. 오퍼를 복사한 다음 편집하면 유사한 새 오퍼를 쉽게 만들 수 있습니다.
 * **[!UICONTROL Delete]**: **[!UICONTROL More Actions]아이콘**(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallList.svg) ) > **[!UICONTROL Delete]**&#x200B;을(를) 클릭하여 오퍼 또는 폴더를 삭제합니다.

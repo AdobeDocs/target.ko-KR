@@ -21,7 +21,7 @@ ht-degree: 78%
 
 ## 리소스 링크
 
-* **Adobe Target 설정**: [!UICONTROL Visual Experience Composer](VEC), 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다. [Target 개요 관리](/help/main/administrating-target/administrating-target.md)를 참조하십시오.
+* **Adobe Target 설정**: [!UICONTROL Visual Experience Composer] (VEC), 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다. [Target 개요 관리](/help/main/administrating-target/administrating-target.md)를 참조하십시오.
 * **Adobe Target 제품 설명서**: Adobe Target에 대해 알아야 할 모든 사항. [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ko_KR)를 참조하십시오.
 * **Adobe Target API 및 SDK 설명서**: 클라이언트측 애플리케이션, 서버측 애플리케이션, 모바일 앱, IoT 등에 [!DNL Target] 을 구현하는 방법에 대해 알아보십시오. 또한 [!DNL Target] 데이터를 서드파티 솔루션과 교환하는 방법에 대해서도 알아보십시오. [Adobe Target API 개요](/help/main/api/api-overview.md)를 참조하십시오.
 * **Adobe Target 활동 안내서**: [!DNL Target]에서 사용할 수 있는 다양한 활동에 대해 소개합니다. [Target 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.

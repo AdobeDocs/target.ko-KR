@@ -19,7 +19,7 @@ ht-degree: 37%
 
 회사에서 VEC만 사용하는 경우 동일한 호출에 대해 여러 활동의 콘텐츠가 반환될 수 있습니다. 활동은 다음 결정 플로우를 사용하여 전달됩니다.
 
-1. [!DNL Target] 서버 호출이 URL에 대한 정보를 사용하여 [!DNL Target](으)로 이동합니다.
+1. [!DNL Target] 서버 호출이 URL에 대한 정보를 사용하여 [!DNL Target] (으)로 이동합니다.
 1. [!DNL Target]은(는) 해당 URL에서 실행 중인 모든 활동을 가져옵니다.
 1. [!DNL Target]이(가) 방문자를 활동에 일치시키려고 합니다.
 
@@ -45,7 +45,7 @@ ht-degree: 37%
 
 활동 전달은 다음 결정 플로우를 사용하여 결정됩니다.
 
-1. [!DNL Target] 서버 호출이 [!DNL Target] 요청 및 URL에 대한 정보를 사용하여 [!DNL Target](으)로 이동합니다.
+1. [!DNL Target] 서버 호출이 [!DNL Target] 요청 및 URL에 대한 정보를 사용하여 [!DNL Target] (으)로 이동합니다.
 1. [!DNL Target]은(는) 해당 [!DNL Target] 요청에서 실행 중인 모든 활동을 가져옵니다.
 1. [!DNL Target]이(가) 방문자를 활동에 일치시키려고 합니다.
 
@@ -66,7 +66,7 @@ ht-degree: 37%
 
 회사에서 양식 기반 작성기의 글로벌 [!DNL Target] 요청 이외의 [!DNL Target]개의 요청을 사용하는 경우 호출당 하나의 활동에서만 콘텐츠를 반환할 수 있습니다. 활동 전달은 다음 결정 플로우를 사용하여 결정됩니다.
 
-1. [!DNL Target] 서버 호출이 [!DNL Target] 요청 및 URL에 대한 정보를 사용하여 [!DNL Target](으)로 이동합니다.
+1. [!DNL Target] 서버 호출이 [!DNL Target] 요청 및 URL에 대한 정보를 사용하여 [!DNL Target] (으)로 이동합니다.
 1. [!DNL Target]은(는) 해당 [!DNL Target] 요청에서 실행 중인 모든 활동을 가져옵니다.
 1. [!DNL Target]이(가) 방문자를 우선 순위가 가장 높은 활동에 일치시키려고 합니다.
 

@@ -32,16 +32,16 @@ ht-degree: 24%
 
 1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)에 설명된 대로 활동을 만들거나 편집합니다.
 
-1. 경험이 표시되는 페이지를 지정하려면 [!UICONTROL Visual Experience Composer](VEC)에서 [!UICONTROL Configure] 아이콘(![구성 아이콘](/help/main/assets/icons/Setting.svg))을 클릭한 다음 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
+1. 경험이 표시되는 페이지를 지정하려면 [!UICONTROL Visual Experience Composer] (VEC)에서 [!UICONTROL Configure] 아이콘(![구성 아이콘](/help/main/assets/icons/Setting.svg))을 클릭한 다음 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Add Rule]**&#x200B;을(를) 클릭한 다음 경험을 추가할 페이지에 대한 기준을 지정합니다.
 
 1. 페이지 범위를 지정합니다. 페이지 범위는 다음 중 하나일 수 있습니다.
 
-   * [!UICONTROL URL]([!DNL Target]이(가) URL을 평가하는 방법에 대한 자세한 내용은 [대상 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
+   * [!UICONTROL URL] ([!DNL Target]이(가) URL을 평가하는 방법에 대한 자세한 내용은 [대상 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
    * [!UICONTROL Domain]
    * [!UICONTROL Path]
-   * [!UICONTROL Hash (#) Fragment](# 기호 뒤에 오는 URL 부분을 대상으로 함)
+   * [!UICONTROL Hash (#) Fragment] (# 기호 뒤에 오는 URL 부분을 대상으로 함)
    * [!UICONTROL Query]
    * [!UICONTROL Custom]
 

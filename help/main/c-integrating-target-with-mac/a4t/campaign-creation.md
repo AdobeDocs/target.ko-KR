@@ -42,7 +42,7 @@ ht-degree: 30%
 
    * 사용 가능한 보고서 세트가 없는 오류가 표시되지만 계정이 제대로 설정되어 있습니다.
 
-     [!DNL Analytics] 회사를 확인하세요. [!DNL Adobe Experience Cloud] 계정이 둘 이상의 [!DNL Analytics] 회사에 연결되어 있는 경우 [!DNL Target]에서 로그아웃한 다음 올바른 회사의 [!DNL Analytics]에 로그인하십시오. [!DNL Target](으)로 돌아오면 보고서 세트가 로드됩니다.
+     [!DNL Analytics] 회사를 확인하세요. [!DNL Adobe Experience Cloud] 계정이 둘 이상의 [!DNL Analytics] 회사에 연결되어 있는 경우 [!DNL Target]에서 로그아웃한 다음 올바른 회사의 [!DNL Analytics]에 로그인하십시오. [!DNL Target] (으)로 돌아오면 보고서 세트가 로드됩니다.
 
    * 예상한 보고서 세트가 표시되지 않습니다.
 
@@ -61,7 +61,7 @@ ht-degree: 30%
 
    >[!NOTE]
    >
-   >사용자 지정 대상 기반 지표를 [!DNL Analytics] 데이터에만 의존하지 않고 [!DNL Analytics]에 보낼 수 있습니다. 예를 들어, 일반적으로 [!DNL Analytics]에서 추적하지 않는 페이지 클릭을 모니터링할 수 있습니다. 이 사용자 지정 지표는 [!DNL Target] 서버에서 자동으로 [!DNL Analytics](으)로 전송되며 [!DNL Analytics]의 지표 선택기에서 &quot;[!DNL Target] 전환&quot; 지표로 표시됩니다. [!DNL Analytics] 지표를 사용하도록 선택하면 [!DNL Target] 전환 지표가 비어 있습니다.
+   >사용자 지정 대상 기반 지표를 [!DNL Analytics] 데이터에만 의존하지 않고 [!DNL Analytics]에 보낼 수 있습니다. 예를 들어, 일반적으로 [!DNL Analytics]에서 추적하지 않는 페이지 클릭을 모니터링할 수 있습니다. 이 사용자 지정 지표는 [!DNL Target] 서버에서 자동으로 [!DNL Analytics] (으)로 전송되며 [!DNL Analytics]의 지표 선택기에서 &quot;[!DNL Target] 전환&quot; 지표로 표시됩니다. [!DNL Analytics] 지표를 사용하도록 선택하면 [!DNL Target] 전환 지표가 비어 있습니다.
 
    목표를 설정해도 테스트 결과를 평가할 때 다른 지표를 사용할 수 있습니다. 하지만 이 목표를 통해 활동에서 개선할 점을 알 수 있습니다.
 

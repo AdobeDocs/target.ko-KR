@@ -32,7 +32,7 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->인증된(로그인한) 사용자와 인증되지 않은 사용자를 구분하려면 mbox3rdPartyID 대신 [!DNL Adobe Experience Cloud Identity Service](ECID)를 사용하십시오. 사용자가 mbox3rdPartyID에 연결되면, 로그아웃 후에도 사용자와 연결된 상태로 유지됩니다.
+>인증된(로그인한) 사용자와 인증되지 않은 사용자를 구분하려면 mbox3rdPartyID 대신 [!DNL Adobe Experience Cloud Identity Service] (ECID)를 사용하십시오. 사용자가 mbox3rdPartyID에 연결되면, 로그아웃 후에도 사용자와 연결된 상태로 유지됩니다.
 
 >[!NOTE]
 >
@@ -44,7 +44,7 @@ ht-degree: 18%
 
   예를 들어 방문자가 로그인하기 전에 페이지에 액세스하여 경험을 본다고 가정해 보겠습니다. 글로벌 mbox에서 `3rdPartyID`을(를) 사용하지 않습니다. 로그인 후 방문자는 세 개의 경험 중 하나를 하위 mbox로 보고, 일부는 `3rdPartyID`을(를) 사용합니다. 방문자는 사이트에서 다양한 페이지를 방문한 다음 뒤로 단추를 사용하여 로그인하기 전에 액세스한 기본 페이지로 돌아가서 다른 경험을 봅니다. 이 시나리오에서는 글로벌 mbox가 `3rdPartyID`을(를) 전달하지 않았지만 하나 이상의 하위 mbox가 전달했습니다. `3rdPartyID`이(가) PCID보다 우선했습니다.
 
-* 다음 두 가지 방법을 사용하여 방문자의 고객 ID를 [!DNL Target](으)로 보낼 수 있습니다.
+* 다음 두 가지 방법을 사용하여 방문자의 고객 ID를 [!DNL Target] (으)로 보낼 수 있습니다.
 
    1. `mbox3rdPartyId`/`thirdPartyId` 사용
 

@@ -13,7 +13,7 @@ ht-degree: 46%
 
 # 초기 사용 권한 제공 - A4T FAQ
 
-이 항목에는 [!DNL Adobe Target](A4T)의 보고 소스로 사용되는 [!DNL Adobe Analytics] 프로비저닝과 관련하여 자주 묻는 질문에 대한 답변이 포함되어 있습니다.
+이 항목에는 [!DNL Adobe Target] (A4T)의 보고 소스로 사용되는 [!DNL Adobe Analytics] 프로비저닝과 관련하여 자주 묻는 질문에 대한 답변이 포함되어 있습니다.
 
 ## 다중 페이지 A4T 활동을 설정하려면 어떻게 해야 합니까?
 

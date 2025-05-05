@@ -1,6 +1,6 @@
 ---
 keywords: Automated Personalization;ap;데이터 업로드;오프라인 데이터;개인화 알고리즘;자동 타겟;자동 타겟;우수 사례
-description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target] 활동에서 개인화 모델을 만들 때 오프라인 데이터를 업로드하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 활동에서 개인화 모델을 만들 때 오프라인 데이터를 업로드하는 방법을 알아봅니다.'
 title: Personalization 알고리즘을 위해 데이터를 업로드하려면 어떻게 해야 합니까?
 feature: Automated Personalization, Auto-Target
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
@@ -14,9 +14,9 @@ ht-degree: 10%
 
 # [!DNL Target] 개인화 알고리즘에 대한 데이터 업로드
 
-CRM 정보 또는 고객 이탈 성향 점수와 같은 오프라인 데이터는 [!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target] 활동에서 개인화 모델을 작성할 때 매우 유용할 수 있습니다.
+CRM 정보 또는 고객 이탈 성향 점수와 같은 오프라인 데이터는 [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 활동에서 개인화 모델을 작성할 때 매우 유용할 수 있습니다.
 
-[!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target] 개인화 알고리즘에서 데이터를 입력하는 방법에는 여러 가지가 있습니다. [데이터를 Target에 가져오는 메서드](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}의 메서드 외에도 [!DNL Experience Cloud]개의 공유 대상([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) 및 활동 보고 대상도 [!DNL Target] 알고리즘에서 사용됩니다.
+[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 개인화 알고리즘에서 데이터를 입력하는 방법에는 여러 가지가 있습니다. [데이터를 Target에 가져오는 메서드](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}의 메서드 외에도 [!DNL Experience Cloud]개의 공유 대상([!UICONTROL Adobe Analytics], [!DNL Audience Manager]) 및 활동 보고 대상도 [!DNL Target] 알고리즘에서 사용됩니다.
 
 [!UICONTROL Automated Personalization] 및 [!UICONTROL Auto-Target] 개인화 알고리즘에서 자동으로 수집 및 사용되는 데이터에 대한 자세한 내용은 [Automated Personalization 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오.
 

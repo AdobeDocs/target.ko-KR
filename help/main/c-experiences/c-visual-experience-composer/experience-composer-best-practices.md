@@ -1,6 +1,6 @@
 ---
 keywords: 시각적 경험 작성기;시각적 경험 작성기 우수 사례;시각적 경험 작성기 제한 사항;시각적 경험 작성기 주의 사항;vec 우수 사례;vec
-description: '[!UICONTROL Visual Experience Composer](VEC)을 사용할 때 경험이 예상대로 작동하도록 하는 모범 사례를 알아봅니다.'
+description: '[!UICONTROL Visual Experience Composer] (VEC)을 사용할 때 경험이 예상대로 작동하도록 하는 모범 사례를 알아봅니다.'
 title: '[!UICONTROL Visual Experience Composer] 모범 사례 및 제한 사항은 무엇입니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
@@ -13,7 +13,7 @@ ht-degree: 85%
 
 # [!UICONTROL Visual Experience Composer] 모범 사례 및 제한 사항
 
-다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. [!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer](VEC)를 사용할 때 알고 있어야 하는 다른 팁과 제한 사항도 있습니다.
+다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. [!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer] (VEC)를 사용할 때 알고 있어야 하는 다른 팁과 제한 사항도 있습니다.
 
 ## 우수 사례 {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 

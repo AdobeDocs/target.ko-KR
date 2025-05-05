@@ -13,7 +13,7 @@ ht-degree: 32%
 
 # [!DNL Target]을(를) Adobe Campaign과 통합
 
-[!DNL Target]을(를) [!DNL Adobe Campaign](으)로 사용하여 전자 메일 콘텐츠를 최적화합니다.
+[!DNL Target]을(를) [!DNL Adobe Campaign] (으)로 사용하여 전자 메일 콘텐츠를 최적화합니다.
 
 전자 메일 콘텐츠를 최적화하려면 [!DNL Target]에서 리디렉션 오퍼를 만든 다음 [!DNL Adobe Campaign]을(를) 사용하여 전자 메일 오퍼를 관리할 수 있습니다. 예를 들어, 남성 수신자와 여성 수신자에 대해 서로 다른 오퍼를 표시할 수 있습니다.
 

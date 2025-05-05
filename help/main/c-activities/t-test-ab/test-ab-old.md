@@ -54,7 +54,7 @@ A/B 테스트를 설정할 때 각 경험을 보는 방문자의 비율을 결�
 
 ## A/B 활동 내에 권장 사항 포함
 
-[!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 활동(및 [!UICONTROL Experience Targeting](XT) 활동) 내에 권장 사항을 포함할 수 있습니다. 자세한 내용은 [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오.
+[!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 활동(및 [!UICONTROL Experience Targeting] (XT) 활동) 내에 권장 사항을 포함할 수 있습니다. 자세한 내용은 [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오.
 
 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다.
 

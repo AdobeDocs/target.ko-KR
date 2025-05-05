@@ -1,6 +1,6 @@
 ---
 keywords: 문제 해결;자주 묻는 질문;FAQ;FAQ;자동화된 개인화;제어;기본 경험;우수 사례
-description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization](AP) 활동에 대한 FAQ 및 답변 목록을 살펴봅니다.'
+description: '[!UICONTROL Adobe Target]의 [!UICONTROL Automated Personalization] (AP) 활동에 대한 FAQ 및 답변 목록을 살펴봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동에 대한 FAQ를 찾으려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
@@ -54,7 +54,7 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 
   활동의 목표와 선택한 제어 유형에 따라 고려할 시나리오가 세 가지가 있습니다.
 
-   * **제어 및 활동 목표로서의 무작위 경험은 개인화 알고리즘의 효과를 테스트하는 것입니다**: 개인화 알고리즘을 평가하는 것이 목표라면 리프트를 정확하게 파악하고자 합니다. 단순히 [!UICONTROL A/B Test](임의로 제공된 제어)을 수행한 경우 경험 또는 오퍼에 대한 전환율을 비교하려고 할 수도 있습니다. 이 경우, 임의로 제공된 환경에 대한 제어에 50% 할당을 사용하는 것이 좋습니다.
+   * **제어 및 활동 목표로서의 무작위 경험은 개인화 알고리즘의 효과를 테스트하는 것입니다**: 개인화 알고리즘을 평가하는 것이 목표라면 리프트를 정확하게 파악하고자 합니다. 단순히 [!UICONTROL A/B Test] (임의로 제공된 제어)을 수행한 경우 경험 또는 오퍼에 대한 전환율을 비교하려고 할 수도 있습니다. 이 경우, 임의로 제공된 환경에 대한 제어에 50% 할당을 사용하는 것이 좋습니다.
    * **&quot;무작위 경험&quot;을 제어 및 활동 목표로 사용하여 개인화된 트래픽을 최대화하는 것입니다**: 알고리즘을 사용하는 데 익숙하고 최대 트래픽 양을 개인화하려는 경우 제어에 10%~30%를 할당하는 것이 좋습니다. 여기서 장점은 리프트 정보에 표시되는 정확도입니다. 제어 트래픽으로 유입되는 트래픽이 감소하므로 제어 트래픽의 신뢰 구간이 더 큽니다.
    * **다음 두 가지 목표 유형을 사용하여 특정 경험을 제어로 사용**: 특정 마케터 중심의 경험을 개인화 모델과 비교하려면 제어의 10%~30% 할당이 권장됩니다. 한 개의 경험만 제어로 선택하면 활동의 모든 오퍼 또는 경험에 트래픽이 분산되지 않습니다.
 
@@ -168,7 +168,7 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 
 +++세부 정보 보기
 
-[!UICONTROL Automated Personalization]개의 활동이 세션당 한 번 평가됩니다. 특정 경험에 적합한 활성 세션이 있고 이제 여기에 새 오퍼가 추가된 경우 방문자는 이전에 표시된 오퍼와 함께 새 콘텐츠를 보게 됩니다. 이러한 방문자는 이전에 해당 경험에 대한 자격이 있었으므로 세션 중에 이러한 경험을 계속 보게 됩니다. 모든 페이지 방문 시 이를 평가하려면 [!UICONTROL Experience Targeting](XT) 활동 유형으로 변경해야 합니다.
+[!UICONTROL Automated Personalization]개의 활동이 세션당 한 번 평가됩니다. 특정 경험에 적합한 활성 세션이 있고 이제 여기에 새 오퍼가 추가된 경우 방문자는 이전에 표시된 오퍼와 함께 새 콘텐츠를 보게 됩니다. 이러한 방문자는 이전에 해당 경험에 대한 자격이 있었으므로 세션 중에 이러한 경험을 계속 보게 됩니다. 모든 페이지 방문 시 이를 평가하려면 [!UICONTROL Experience Targeting] (XT) 활동 유형으로 변경해야 합니다.
 
 +++
 
@@ -178,7 +178,7 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
 
 [!DNL Adobe]은(는) 활동 중간에 목표 지표를 변경하지 않는 것이 좋습니다. [!DNL Target] UI를 사용하는 활동 중에 목표 지표를 변경할 수 있지만 항상 새 활동을 시작해야 합니다. [!DNL Adobe]은(는) 활동이 실행된 후 목표 지표를 변경하면 어떻게 되는지 보증하지 않습니다.
 
-이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics](A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
+이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics] (A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
 
 +++
 

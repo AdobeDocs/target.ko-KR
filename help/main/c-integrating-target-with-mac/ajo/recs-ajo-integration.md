@@ -45,7 +45,7 @@ ht-degree: 1%
 
   지정된 기간 후에 [!DNL Journey Optimizer]의 사용자 지정 작업에서 [!DNL Target Recommendations]을(를) 호출하여 각 방문자의 EDID([!DNL Adobe Experience Cloud Identifier]), 방문자의 [!DNL Target] 프로필 및 [사용자 기반](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) 알고리즘을 사용하여 각 방문자가 본 항목을 결정합니다. 그런 다음 [!DNL Adobe Journey Optimizer]은(는) 자격 있는 대상의 각 구성원에게 이미지와 각 방문자의 표시된 항목에 대한 링크가 포함된 개인화된 전자 메일을 보내어 방문자가 돌아와서 구매하도록 합니다.
 
-  이 시나리오에서는 [!UICONTROL Experience Cloud Visitor ID](ECID) 및 각 방문자의 [!DNL Target] 프로필에 있는 콘텐츠를 사용하여 최근에 본 알고리즘을 기반으로 권장 사항을 생성합니다.
+  이 시나리오에서는 [!UICONTROL Experience Cloud Visitor ID] (ECID) 및 각 방문자의 [!DNL Target] 프로필에 있는 콘텐츠를 사용하여 최근에 본 알고리즘을 기반으로 권장 사항을 생성합니다.
 
   예를 들어 방문자가 소매 웹 사이트를 방문하여 여러 개의 시계를 본다고 가정해 봅시다. 이 방문자의 [!DNL Target] 프로필이 표시된 시계 목록으로 업데이트되었습니다. [!DNL Target]이(가) ECID와 방문자의 [!DNL Target] 프로필을 사용하여 [!DNL Journey Optimizer]에게 권장 사항을 보냅니다. 그런 다음 [!DNL Journey Optimizer]은(는) 최근에 본 알고리즘을 사용하여 이 방문자가 본 시계에 대한 이미지와 링크가 포함된 전자 메일을 보냅니다. 다른 방문자는 이 방문자가 본 항목에 대한 이미지와 링크가 포함된 개인화된 이메일을 수신합니다. 각 이메일 메시지는 각 방문자에 대해 개인화됩니다.
 

@@ -65,7 +65,7 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 
 * 이 통합은 [!DNL Analytics]을(를) 보고 소스로 사용하도록 선택하면 새 활동에서 활성화됩니다. 이 문서에 설명된 대로 구현을 변경해도 기존 활동에는 영향을 주지 않습니다.
 * [!DNL Target]에 대한 보고 소스로 [!DNL Analytics]을(를) 설정하는 프로세스에는 몇 가지 구현 단계 후 프로비저닝 단계가 포함됩니다. 구현을 시작하기 전에 아래 설명된 프로세스를 자세히 읽어 보십시오. 이 단계를 완료하면 [!DNL Analytics]이(가) 활성화되어 있을 때 보고 소스로 사용할 준비가 된 것입니다. 제공 프로세스는 업무일 기준으로 5일 정도 걸릴 수 있습니다.
-* [!DNL Visitor ID service]이(가) [!DNL Adobe Experience Cloud]에서 공유 [!DNL Visitor ID]을(를) 만듭니다. [!DNL Target] mboxPC ID 또는 [!DNL Audience Manager] UUID를 바꾸지는 않지만 [!DNL Analytics]이(가) 새 방문자를 식별하는 방식을 바꿉니다. 올바르게 설정된 경우 재방문자 [!DNL Analytics]명도 이전 [!DNL Analytics] ID를 통해 식별되어야 합니다. 마찬가지로 [!DNL Target] mboxPCid가 그대로 유지되므로 [!DNL Visitor ID service](으)로 업그레이드할 때 [!DNL Target] 방문자 프로필 데이터가 손실되지 않습니다.
+* [!DNL Visitor ID service]이(가) [!DNL Adobe Experience Cloud]에서 공유 [!DNL Visitor ID]을(를) 만듭니다. [!DNL Target] mboxPC ID 또는 [!DNL Audience Manager] UUID를 바꾸지는 않지만 [!DNL Analytics]이(가) 새 방문자를 식별하는 방식을 바꿉니다. 올바르게 설정된 경우 재방문자 [!DNL Analytics]명도 이전 [!DNL Analytics] ID를 통해 식별되어야 합니다. 마찬가지로 [!DNL Target] mboxPCid가 그대로 유지되므로 [!DNL Visitor ID service] (으)로 업그레이드할 때 [!DNL Target] 방문자 프로필 데이터가 손실되지 않습니다.
 * [!DNL Visitor ID service]은(는) [!DNL Analytics] 및 [!DNL Target] 페이지 코드 앞에서 실행해야 합니다. `VisitorAPI.js`이(가) 다른 모든 [!DNL Experience Cloud] 솔루션의 태그 위에 나타나는지 확인하십시오.
 
 ## 지연 {#section_9489BE6FD21641A4844E591711E3F813}
@@ -101,7 +101,7 @@ at.js, [!DNL Experience Cloud Visitor ID Service] 및 appMeasurement.js가 페�
 
 ![요청 양식](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-[!UICONTROL Shared Audiences]을(를) 요청하면 [!UICONTROL Target] 및 [!UICONTROL Adobe Audience Manager](AAM)에서 정보를 공유할 수 있습니다(이 경우 대상).
+[!UICONTROL Shared Audiences]을(를) 요청하면 [!UICONTROL Target] 및 [!UICONTROL Adobe Audience Manager] (AAM)에서 정보를 공유할 수 있습니다(이 경우 대상).
 
 >[!IMPORTANT]
 >

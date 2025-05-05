@@ -23,7 +23,7 @@ ht-degree: 38%
 >
 >* 대상 및 지표 선택기는 [!DNL Analytics]이(가) 보고 소스로 사용(A4T)되는 경우에만 사용할 수 있습니다.
 >
->* 활동이 [!UICONTROL Analytics as the reporting source](A4T)을 사용하도록 구성된 경우에도 [!UICONTROL Location Contribution] 보고서에 대한 데이터를 [!DNL Target] 백엔드에서 가져옵니다.
+>* 활동이 [!UICONTROL Analytics as the reporting source] (A4T)을 사용하도록 구성된 경우에도 [!UICONTROL Location Contribution] 보고서에 대한 데이터를 [!DNL Target] 백엔드에서 가져옵니다.
 >
 >* [!DNL Target] 계정 수준에서 다른 기본 환경이 정의된 경우에도 &quot;프로덕션&quot; 환경에 대해 [!UICONTROL Location Contribution] 보고서의 데이터를 가져옵니다.
 

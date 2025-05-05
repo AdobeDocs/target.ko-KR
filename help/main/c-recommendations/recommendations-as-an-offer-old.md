@@ -15,7 +15,7 @@ ht-degree: 47%
 
 # 오퍼로서의 추천
 
-이제 [!UICONTROL A/B Test]([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)과 [!UICONTROL Experience Targeting](XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+이제 [!UICONTROL A/B Test] ([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)과 [!UICONTROL Experience Targeting] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해 줍니다.
 
@@ -55,7 +55,7 @@ ht-degree: 47%
 
 1. **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭하거나 기존 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md)을(를) 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 [!UICONTROL Select Design] 대화 상자를 표시합니다.
 
-1. **[!UICONTROL Create Design]**&#x200B;을(를) 클릭하거나 기존 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을(를) 선택한 다음 **[!UICONTROL  Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create Design]**&#x200B;을(를) 클릭하거나 기존 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을(를) 선택한 다음 **[!UICONTROL &#x200B; Next]**&#x200B;을(를) 클릭합니다.
 
 1. [!UICONTROL Options] 대화 상자에서 다음을 지정합니다.
 

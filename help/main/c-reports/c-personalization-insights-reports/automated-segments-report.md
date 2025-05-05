@@ -14,7 +14,7 @@ ht-degree: 59%
 
 # [!UICONTROL Automated Segments] 보고서
 
-[!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target](AT) 활동의 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 [!UICONTROL Automated Segments] 보고서에 대한 정보입니다.
+[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동의 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 [!UICONTROL Automated Segments] 보고서에 대한 정보입니다.
 
 >[!NOTE]
 >

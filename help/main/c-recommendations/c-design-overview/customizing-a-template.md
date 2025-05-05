@@ -22,7 +22,7 @@ ht-degree: 33%
 
 모든 [!DNL Velocity] 논리, 구문 등을 권장 사항 디자인에 사용할 수 있습니다. 즉, JavaScript 대신 [!DNL Velocity]을(를) 사용하여 *for* 루프, *if* 문 및 기타 코드를 만들 수 있습니다.
 
-`productPage` mbox 또는 CSV 업로드에서 [!DNL Recommendations](으)로 전송된 엔터티 특성은 &quot;다중 값&quot; 특성을 제외하고 디자인에 표시할 수 있습니다. 모든 유형의 특성을 보낼 수 있지만, [!DNL Target]은(는) 형식이 &quot;multi-value&quot;인 특성을 템플릿을 반복할 수 있는 배열로 전달하지 않습니다(예: `entityN.categoriesList`).
+`productPage` mbox 또는 CSV 업로드에서 [!DNL Recommendations] (으)로 전송된 엔터티 특성은 &quot;다중 값&quot; 특성을 제외하고 디자인에 표시할 수 있습니다. 모든 유형의 특성을 보낼 수 있지만, [!DNL Target]은(는) 형식이 &quot;multi-value&quot;인 특성을 템플릿을 반복할 수 있는 배열로 전달하지 않습니다(예: `entityN.categoriesList`).
 
 이러한 값은 다음 구문으로 참조합니다.
 
@@ -210,7 +210,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![rec_key 이미지](assets/rec_key.png)
 
-[!DNL Recommendations] 활동을 만들 때 &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]은(는) [!UICONTROL Visual Experience Composer](VEC)에 임의의 제품을 표시합니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
+[!DNL Recommendations] 활동을 만들 때 &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]은(는) [!UICONTROL Visual Experience Composer] (VEC)에 임의의 제품을 표시합니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
 
 ## 문자열 값에서 대체 수행 {#section_01F8C993C79F42978ED00E39956FA8CA}
 

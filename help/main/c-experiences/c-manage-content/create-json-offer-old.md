@@ -21,7 +21,7 @@ JSON 오퍼는 양식 기반 활동에서 SPA 프레임워크 또는 서버측 �
 
 JSON 오퍼를 사용하여 작업할 때에는 다음 정보를 고려하십시오.
 
-* JSON 오퍼는 현재 [!UICONTROL A/B Test], [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Experience Targeting](XT) 활동에만 사용할 수 있습니다.
+* JSON 오퍼는 현재 [!UICONTROL A/B Test], [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Experience Targeting] (XT) 활동에만 사용할 수 있습니다.
 * JSON 오퍼는 [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md)에서만 사용할 수 있습니다.
 * JSON 오퍼는 [Server Side API 및 Mobile Node.js, Java, .NET 및 Python SDK](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}를 사용할 때 바로 검색할 수 있습니다.
 * 브라우저에서 at.js 1.2.3(또는 이상)을 통해서만, `setJson` 작업을 사용하여 작업을 필터링함으로써 [getOffer()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-getoffer.html){target=_blank}을(를) 사용하여 JSON 오퍼를 검색할 수 있습니다.

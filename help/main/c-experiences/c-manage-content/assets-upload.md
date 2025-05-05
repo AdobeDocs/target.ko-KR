@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 이미지 오퍼 또는 폴더 삭제
 
-1. (조건부) [!UICONTROL Card View]과(와) [!UICONTROL List View] 간을 전환하려면 콘텐츠 라이브러리의 오른쪽 맨 위 모서리에 있는 [!UICONTROL Card View](![카드 보기 아이콘](/help/main/assets/icons/ViewCard.svg)) 아이콘 또는 [!UICONTROL List View](![목록 보기 아이콘](/help/main/assets/icons/ViewList.svg)) 아이콘을 클릭합니다.
+1. (조건부) [!UICONTROL Card View]과(와) [!UICONTROL List View] 간을 전환하려면 콘텐츠 라이브러리의 오른쪽 맨 위 모서리에 있는 [!UICONTROL Card View] (![카드 보기 아이콘](/help/main/assets/icons/ViewCard.svg)) 아이콘 또는 [!UICONTROL List View] (![목록 보기 아이콘](/help/main/assets/icons/ViewList.svg)) 아이콘을 클릭합니다.
 
 1. [!UICONTROL Card View]에서 원하는 이미지 오퍼 또는 폴더를 마우스로 가리키고 **[!UICONTROL Select]** 아이콘(![선택 아이콘](/help/main/assets/icons/CheckmarkCircleOutline.svg))을 클릭한 다음 **[!UICONTROL Delete]** 아이콘(![삭제 아이콘](/help/main/assets/icons/DeleteOutline.svg))을 클릭합니다.
 

@@ -83,7 +83,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 >
 >활동에 경험이 두 개만 있는 경우, [!DNL Target]이(가) 75% 신뢰도로 우수성이 검증된 경험을 찾을 때까지 두 경험은 동일한 트래픽을 받습니다. 이 시점에서 트래픽의 2/3는 승자에게 할당되고 1/3은 패자에게 할당됩니다. 이후 경험이 95% 신뢰도에 도달하면 트래픽의 90%를 승자에게 할당하고, 10%를 패자에게 할당합니다. [!DNL Target]은(는) 마지막에 긍정 오류(false positive)를 피하기 위해(즉, 일부 탐색 유지) 항상 일부 트래픽을 &quot;손실&quot; 경험에 보냅니다.
 
-[!UICONTROL Auto-Allocate] 활동이 활성화되면 Tar[!DNL]get UI에서 다음 작업이 허용되지 않습니다.
+[!UICONTROL Auto-Allocate] 활동이 활성화되면 Target UI에서 다음 작업이 허용되지 않습니다.
 
 * &quot;트래픽 할당&quot; 모드를 &quot;수동&quot;으로 전환
 * 목표 지표 유형 변경
@@ -95,7 +95,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 ## 주의 사항 {#section_5C83F89F85C14FD181930AA420435E1D}
 
-[!UICONTROL Auto-Allocate](으)로 작업할 때 다음 정보를 고려하십시오.
+[!UICONTROL Auto-Allocate] (으)로 작업할 때 다음 정보를 고려하십시오.
 
 ### [!UICONTROL Auto-Allocate] 기능은 하나의 고급 지표 설정에서만 작동합니다. [!UICONTROL Increment Count and Keep User in Activity]
 
@@ -137,7 +137,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 [!UICONTROL Auto-Allocate] 활동과 함께 작업할 때 다음 FAQ 및 답변을 참조하십시오.
 
-### [!UICONTROL Analytics for Target](A4T)에서 [!UICONTROL Auto-Allocate]개의 활동을 지원합니까?
+### [!UICONTROL Analytics for Target] (A4T)에서 [!UICONTROL Auto-Allocate]개의 활동을 지원합니까?
 
 예. 자세한 내용은 자동 할당 및 자동 타겟 활동에 대한 [A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오.
 
@@ -194,13 +194,13 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 [!DNL Adobe]은(는) 활동 중간에 목표 지표를 변경하지 않는 것이 좋습니다. [!DNL Target] UI를 사용하는 활동 중에 목표 지표를 변경할 수 있지만 항상 새 활동을 시작해야 합니다. [!DNL Adobe]은(는) 활동이 실행된 후 목표 지표를 변경할 경우 어떤 결과가 발생하는지 보장하지 않습니다.
 
-이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics](A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
+이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics] (A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
 
 ### [!UICONTROL Auto-Allocate] 활동 중간에 보고 소스를 변경할 수 있습니까? {#change-reporting}
 
 [!DNL Adobe]은(는) 활동 중간에 보고 소스를 변경하지 않는 것이 좋습니다. [!DNL Target] UI를 사용하는 활동 중에 보고 소스를 변경([!DNL Target]에서 A4T 또는 그 반대)할 수 있지만 항상 새 활동을 시작해야 합니다. [!DNL Adobe]은(는) 활동 실행 후 활동에서 보고 소스를 변경할 경우 발생하는 결과를 보장하지 않습니다.
 
-이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics](A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
+이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics] (A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
 
 ### [!UICONTROL Auto-Allocate] 활동을 실행하는 동안 [!UICONTROL Reset Report Data] 옵션을 사용할 수 있습니까?
 
@@ -208,7 +208,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 ### [!UICONTROL Auto-Allocate]은(는) 환경과 관련하여 모델을 어떻게 구축합니까?
 
-[!UICONTROL Auto-Allocate]은(는) 기본 환경에서만 기록된 트래픽 및 전환 동작을 기반으로 모델을 만듭니다. 기본적으로 [!UICONTROL Production]이(가) 기본 환경이지만 [!DNL Target]([관리 > 환경](/help/main/administrating-target/environments.md))에서 기본 환경을 변경할 수 있습니다.
+[!UICONTROL Auto-Allocate]은(는) 기본 환경에서만 기록된 트래픽 및 전환 동작을 기반으로 모델을 만듭니다. 기본적으로 [!UICONTROL Production]이(가) 기본 환경이지만 [!DNL Target] ([관리 > 환경](/help/main/administrating-target/environments.md))에서 기본 환경을 변경할 수 있습니다.
 
 히트가 다른(기본값이 아닌) 환경에서 발생하는 경우 트래픽은 기본 환경에서 관찰된 전환 동작에 따라 분산됩니다. 해당 히트의 결과(전환 또는 비전환)는 보고 목적으로 기록되지만 [!UICONTROL Auto-Allocate] 모델에서는 고려되지 않습니다.
 

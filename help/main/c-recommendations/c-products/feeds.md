@@ -14,7 +14,7 @@ ht-degree: 38%
 
 # 피드
 
-피드를 사용하여 [!DNL Adobe Target] [!DNL Recommendations](으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
+피드를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] (으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
 
 ## 피드 개요 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
@@ -216,7 +216,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 >[!IMPORTANT]
 >
->[!DNL Analytics] 제품 분류를 사용하여 엔터티 데이터를 [!DNL Recommendations](으)로 가져오기 전에 이 방법이 기본 방법이 아니라는 것을 알아 두십시오.
+>[!DNL Analytics] 제품 분류를 사용하여 엔터티 데이터를 [!DNL Recommendations] (으)로 가져오기 전에 이 방법이 기본 방법이 아니라는 것을 알아 두십시오.
 >
 > 다음 주의 사항에 유의하십시오.
 >

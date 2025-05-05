@@ -104,7 +104,7 @@ ht-degree: 37%
 
    **오퍼 결정 추가:**
 
-   [!DNL Adobe Journey Optimizer](AJO)에서 만든 오퍼를 [!DNL Adobe Target] 활동에 추가하여 offer decisioning을 사용하여 웹 사이트 또는 모바일 사이트의 방문자에게 최고의 동적 오퍼 및 경험을 제공합니다. 이 옵션은 수동 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting](XT) 활동에만 사용할 수 있습니다.
+   [!DNL Adobe Journey Optimizer] (AJO)에서 만든 오퍼를 [!DNL Adobe Target] 활동에 추가하여 offer decisioning을 사용하여 웹 사이트 또는 모바일 사이트의 방문자에게 최고의 동적 오퍼 및 경험을 제공합니다. 이 옵션은 수동 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting] (XT) 활동에만 사용할 수 있습니다.
 
    자세한 내용은 [오퍼 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)을 참조하세요.
 

@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;경험;경험 추가;경험 추가
-description: '[!UICONTROL Visual Experience Composer](VEC)을(를) 사용하여 활동에 경험을 추가합니다.'
+description: '[!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 활동에 경험을 추가합니다.'
 title: A/B 활동에서 경험을 추가하려면 어떻게 합니까?
 feature: A/B Tests
 exl-id: c0f1b5a7-07b0-46c2-97f3-95dcc0fcbe3d
@@ -13,7 +13,7 @@ ht-degree: 28%
 
 # 경험 추가
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)은 페이지에서 경험을 추가하고 편집하기 위한 시각적 인터페이스를 제공합니다.
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)은 페이지에서 경험을 추가하고 편집하기 위한 시각적 인터페이스를 제공합니다.
 
 경험에 대한 자세한 내용은 [경험](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
 
@@ -25,7 +25,7 @@ ht-degree: 28%
 
    페이지의 요소 위로 마우스를 가져가면 요소가 강조 표시됩니다. 강조 표시된 요소는 VEC를 사용하여 변경할 수 있습니다.
 
-   [!DNL Target Classic](이전의 [!DNL Test&Target])을(를) 사용하여 페이지에서 [!DNL Target] 요청을 만든 경우 해당 [!DNL Target] 요청은 요청 이름을 나타내는 요소로 표시되며 다른 요소와 같이 수정할 수 있습니다.
+   [!DNL Target Classic] (이전의 [!DNL Test&Target])을(를) 사용하여 페이지에서 [!DNL Target] 요청을 만든 경우 해당 [!DNL Target] 요청은 요청 이름을 나타내는 요소로 표시되며 다른 요소와 같이 수정할 수 있습니다.
 
    표시된 페이지의 요소에서 수행하여 경험을 변경할 수 있는 작업 목록은 [시각적 경험 작성기 선택 사항](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하십시오.
 

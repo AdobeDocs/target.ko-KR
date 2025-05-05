@@ -13,7 +13,7 @@ ht-degree: 57%
 
 # 시각적 경험 작성기(VEC)
 
-[!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer](VEC) 사용에 대한 정보입니다.
+[!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer] (VEC) 사용에 대한 정보입니다.
 
 >[!NOTE]
 >

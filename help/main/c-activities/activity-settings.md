@@ -24,7 +24,7 @@ ht-degree: 74%
 
    대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-   이 옵션이 [!UICONTROL Administration] > [!UICONTROL Reporting](기본값)에서 활성화되지 않으면 우선순위를 낮음, Medium 또는 높음으로 지정하십시오.
+   이 옵션이 [!UICONTROL Administration] > [!UICONTROL Reporting] (기본값)에서 활성화되지 않으면 우선순위를 낮음, Medium 또는 높음으로 지정하십시오.
 
    세분화된 우선 순위를 사용하려면 [!UICONTROL Administration] > [!UICONTROL Reporting]을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.
 

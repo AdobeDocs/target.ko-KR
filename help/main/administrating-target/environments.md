@@ -50,7 +50,7 @@ ht-degree: 47%
 >
 >[!DNL Recommendations] 사용자는 호스트가 호스트 그룹을 전환할 경우 자신들의 행동 데이터베이스와 제품 데이터베이스를 다시 구축해야 합니다.
 >
-> [!DNL Adobe Experience Platform] 데이터 스트림](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}에서 [기본 환경을 지정하는 경우 이 설정은 [!DNL Target]의 설정을 무시합니다.
+> [!DNL Adobe Experience Platform] 데이터 스트림[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}에서 기본 환경을 지정하는 경우 이 설정은 [!DNL Target]의 설정을 무시합니다.
 
 ## 환경 이름 변경 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 

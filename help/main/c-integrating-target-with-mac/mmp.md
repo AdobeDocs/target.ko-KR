@@ -21,9 +21,9 @@ ht-degree: 7%
 
 이 비디오에서는 다음 방법을 알아봅니다.
 
-* [!DNL Analytics] 및 [!DNL Audience Manager](으)로 대상자 만들기 및 사용 설명
+* [!DNL Analytics] 및 [!DNL Audience Manager] (으)로 대상자 만들기 및 사용 설명
 * 다른 [!DNL Adobe] 솔루션에서 대상을 가져오는 방법을 설명합니다.
-* [!DNL Adobe Experience Cloud](AEC) 관리 패널 탐색
+* [!DNL Adobe Experience Cloud] (AEC) 관리 패널 탐색
 * [!DNL Experience Cloud] ID(ECID)에 대한 요구 사항 나열
 
 >[!VIDEO](https://video.tv.adobe.com/v/35152)

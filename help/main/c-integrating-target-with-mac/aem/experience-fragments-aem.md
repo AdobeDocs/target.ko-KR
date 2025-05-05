@@ -13,7 +13,7 @@ ht-degree: 36%
 
 # AEM [!UICONTROL Experience Fragments]
 
-최적화 및 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 만든 [!UICONTROL Experience Fragments](XF)을(를) 사용합니다.
+최적화 및 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 만든 [!UICONTROL Experience Fragments] (XF)을(를) 사용합니다.
 
 ## 고려 사항
 
@@ -25,12 +25,12 @@ ht-degree: 36%
    * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
    * [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization](AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Experience Targeting](XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]은(는) 다음 활동 유형에 사용할 수 없습니다.
 
-   * [[!UICONTROL Multivariate Test](MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
 * [시각적 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC) 및 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL Experience Fragments]을(를) 사용할 수 있습니다.
@@ -80,7 +80,7 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
 
 3. **[!UICONTROL Save & Close]** 아이콘을 클릭합니다.
 
-### 4단계: [!UICONTROL Experience Fragment]을(를) Publish하고 [!DNL Target](으)로 내보내기
+### 4단계: [!UICONTROL Experience Fragment]을(를) Publish하고 [!DNL Target] (으)로 내보내기
 
 [!DNL AEM] 버전에 따른 단계별 지침은 다음 링크를 참조하십시오.
 
@@ -96,7 +96,7 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
 
 [!UICONTROL Experience Fragment]을(를) HTML 또는 JSON 오퍼로 [!DNL Target]에 가져왔습니다. [!UICONTROL Experience Fragment] &quot;기본&quot; 버전이 [!DNL AEM]에 남아 있습니다. [!DNL Target]에서 [!UICONTROL Experience Fragment]을(를) 편집할 수 없습니다.
 
-[!DNL Target](으)로 내보내는 [!UICONTROL Experience Fragment] 형식을 구분할 수 있도록 [!UICONTROL HTML XFs] 및 [!UICONTROL JSON XFs](으)로 필터링하고 검색할 수 있습니다.
+[!DNL Target] (으)로 내보내는 [!UICONTROL Experience Fragment] 형식을 구분할 수 있도록 [!UICONTROL HTML XFs] 및 [!UICONTROL JSON XFs] (으)로 필터링하고 검색할 수 있습니다.
 
 ![경험 조각 유형별 필터링: Target UI의 HTML 또는 JSON](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
@@ -113,7 +113,7 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
 >
 >* [!DNL Target]의 AI 및 ML 기능을 완전히 사용하려면 활동을 만드는 동안 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 타겟팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 선택하면 됩니다.
 >
->* [!UICONTROL Experience Fragments]은(는) [!DNL Recommendations] 활동에서 지원되지 않습니다. 하지만 권장 사항에 [!UICONTROL Experience Fragments]을(를) 사용하려면 [!UICONTROL A/B Test] 활동([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함) 또는 [!UICONTROL Experience Targeting](XT) 활동을 만들고 [오퍼로 권장 사항을 포함](/help/main/c-recommendations/recommendations-as-an-offer.md)할 수 있습니다.
+>* [!UICONTROL Experience Fragments]은(는) [!DNL Recommendations] 활동에서 지원되지 않습니다. 하지만 권장 사항에 [!UICONTROL Experience Fragments]을(를) 사용하려면 [!UICONTROL A/B Test] 활동([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함) 또는 [!UICONTROL Experience Targeting] (XT) 활동을 만들고 [오퍼로 권장 사항을 포함](/help/main/c-recommendations/recommendations-as-an-offer.md)할 수 있습니다.
 
 **VEC를 사용하여 [!UICONTROL Experience Fragments]을(를) 사용하려면:**
 
@@ -139,7 +139,7 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
    * **A/B 테스트:** [A/B 테스트 만들기](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **자동 할당:** [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **자동 타겟팅:** [자동 타겟팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **AP(Automated Personalization):**[Automated Personalization 활동 작성](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **AP(Automated Personalization):**&#x200B;[Automated Personalization 활동 작성](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **경험 타겟팅(XT):** [경험 타겟팅 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **A/B 테스트 또는 XT 활동의 Recommendations:** [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
@@ -161,9 +161,9 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
 * [!DNL Target]은(는) 현재 10분마다 가져올 [!UICONTROL Experience Fragments]을(를) 찾습니다. 가져온 [!UICONTROL Experience Fragment]은(는) 10분 이내에 [!DNL Target]에서 사용할 수 있어야 하지만, 이 기간은 앞으로 더 짧아질 것입니다.
 * [!UICONTROL Experience Fragment]을(를) HTML 또는 JSON 오퍼로 [!DNL Target]에 가져왔습니다. [!UICONTROL Experience Fragment] &quot;기본&quot; 버전이 [!DNL AEM]에 남아 있습니다. [!DNL Target]에서 [!UICONTROL Experience Fragment]을(를) 편집할 수 없습니다.
 * [!DNL Adobe I/O]을(를) 사용하여 [!UICONTROL Experience Fragments]을(를) 만들 수 없습니다. 위에서 설명한 대로 AEM을 사용하여 [!UICONTROL Experience Fragments]을(를) 만듭니다.
-* AEM에서 [!UICONTROL Experience Fragment]을(를) 업데이트하는 경우 [!DNL Target]에서 최신 변경 사항을 사용할 수 있도록 [!UICONTROL Experience Fragment]을(를) 게시하고 [!DNL Target](으)로 다시 내보내야 합니다.
+* AEM에서 [!UICONTROL Experience Fragment]을(를) 업데이트하는 경우 [!DNL Target]에서 최신 변경 사항을 사용할 수 있도록 [!UICONTROL Experience Fragment]을(를) 게시하고 [!DNL Target] (으)로 다시 내보내야 합니다.
 
-## [!UICONTROL Target](으)로 내보낸 [!UICONTROL Experience Fragments]에서 ClientLib 및 외부 HTML 제거 중
+## [!UICONTROL Target] (으)로 내보낸 [!UICONTROL Experience Fragments]에서 ClientLib 및 외부 HTML 제거 중
 
 AEM에서 제공한 페이지에서 [!DNL Target]과(와) 함께 [!UICONTROL Experience Fragment] 오퍼를 사용할 때 타깃팅된 페이지에 필요한 모든 클라이언트 라이브러리가 이미 포함되어 있습니다. 오퍼에 불필요한 HTML 요소도 필요하지 않습니다.
 

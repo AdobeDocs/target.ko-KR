@@ -32,7 +32,7 @@ ht-degree: 33%
 
 1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)에 설명된 대로 활동을 만들거나 편집합니다.
 
-1. 경험이 나타날 페이지를 지정하려면 [!UICONTROL Visual Experience Composer](VEC)에서 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
+1. 경험이 나타날 페이지를 지정하려면 [!UICONTROL Visual Experience Composer] (VEC)에서 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
 
    ![톱니바퀴 아이콘 > 페이지 전달](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 

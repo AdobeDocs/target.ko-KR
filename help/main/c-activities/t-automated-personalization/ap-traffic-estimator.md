@@ -14,13 +14,13 @@ ht-degree: 9%
 
 # 성공에 필요한 트래픽 예측
 
-[!DNL Adobe Target] [!UICONTROL Traffic Estimator]은(는) [!UICONTROL Automated Personalization](AP) 활동을 성공적으로 수행할 수 있는 트래픽이 충분한지 여부를 알 수 있는 피드백을 제공합니다.
+[!DNL Adobe Target] [!UICONTROL Traffic Estimator]은(는) [!UICONTROL Automated Personalization] (AP) 활동을 성공적으로 수행할 수 있는 트래픽이 충분한지 여부를 알 수 있는 피드백을 제공합니다.
 
 [!UICONTROL Automated Personalization] 활동은 여러 오퍼 조합을 사용하므로 의미 있는 결과를 제공하는 데 필요한 트래픽의 양을 파악하는 것이 중요합니다. [!UICONTROL Traffic Estimator]은(는) 페이지 및 테스트되는 경험 수에 대한 통계를 사용하여 성공적인 활동을 만드는 데 필요한 트래픽의 양과 테스트 기간을 예측합니다.
 
 [!UICONTROL Traffic Estimator]은(는) 예상 페이지 노출 횟수와 해당 페이지의 일반 전환율을 비교하여 개인화된 모델을 생성할 트래픽이 충분한지 확인합니다. 이상적으로는 활동이 성공하려면 올바른 샘플 크기를 사용되어 개인화된 콘텐츠가 활동 지속 기간의 50% 또는 14일 중에서 더 짧은 기간 안에 준비될 수 있어야 합니다. 이 프로세스를 통해 개인화된 콘텐츠를 획득하고 전달할 콘텐츠를 학습하는 데 충분한 시간이 소요됩니다.
 
-[!DNL Target]은(는) 개인화 알고리즘이 빌드될 때까지 경험을 임의로 제공합니다. 각 오퍼 옆의 확인 표시 아이콘은 해당 오퍼에 대한 모델이 준비되고, [!DNL Target]에서 개인화된 콘텐츠를 전달할 수 있게 되면 표시됩니다. 상승도는 모델이 준비된 후에만 예상되므로 시각적 표시를 통해 올바른 기대를 설정할 수 있습니다. 모델이 준비되는 시기에 대한 지침을 얻으려면 [!UICONTROL Visual Experience Composer](VEC)의 [!UICONTROL Traffic Estimator]을(를) 사용하십시오.
+[!DNL Target]은(는) 개인화 알고리즘이 빌드될 때까지 경험을 임의로 제공합니다. 각 오퍼 옆의 확인 표시 아이콘은 해당 오퍼에 대한 모델이 준비되고, [!DNL Target]에서 개인화된 콘텐츠를 전달할 수 있게 되면 표시됩니다. 상승도는 모델이 준비된 후에만 예상되므로 시각적 표시를 통해 올바른 기대를 설정할 수 있습니다. 모델이 준비되는 시기에 대한 지침을 얻으려면 [!UICONTROL Visual Experience Composer] (VEC)의 [!UICONTROL Traffic Estimator]을(를) 사용하십시오.
 
 ## 트래픽 견적 도구 사용
 

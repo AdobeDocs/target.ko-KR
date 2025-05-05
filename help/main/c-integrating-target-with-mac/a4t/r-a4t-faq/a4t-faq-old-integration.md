@@ -13,7 +13,7 @@ ht-degree: 38%
 
 # 기존 SiteCatalyst-Test&amp;Target 통합 - A4T FAQ
 
-이 주제에서는 Test&amp;Target에 대한 이전 SiteCatalyst과 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target](A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
+이 주제에서는 Test&amp;Target에 대한 이전 SiteCatalyst과 [!DNL Adobe Analytics]을(를) [!DNL Adobe Target] (A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
 ## Analytics에 활동 보고서와 캠페인>레서피 보고서가 표시되는 이유는 무엇입니까? {#section_ECF18A7E759A4E7F93553DB187A677E9}
 

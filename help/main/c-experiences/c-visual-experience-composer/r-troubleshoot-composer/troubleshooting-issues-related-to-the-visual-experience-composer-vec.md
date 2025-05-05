@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;tls;tls 1.2
-description: '[!UICONTROL Visual Experience Composer](VEC)의 문제를 해결하는 방법을 알아봅니다.'
+description: '[!UICONTROL Visual Experience Composer] (VEC)의 문제를 해결하는 방법을 알아봅니다.'
 title: '[!UICONTROL Visual Experience Composer]과(와) 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
@@ -13,7 +13,7 @@ ht-degree: 24%
 
 # [!UICONTROL Visual Experience Composer]과(와) 관련된 문제 해결
 
-특정 조건에서 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에 문제가 발생하는 경우가 있습니다.
+특정 조건에서 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)에 문제가 발생하는 경우가 있습니다.
 
 ## [!UICONTROL Visual Experience Composer]에서 웹 사이트를 열면 [!DNL Target] 라이브러리가 로드되지 않습니다. (VEC만 해당) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
@@ -39,7 +39,7 @@ ht-degree: 24%
 
 ![콘솔 오류 메시지](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
-[!UICONTROL Visual Experience Composer]과(와) [!UICONTROL Enhanced Experience Composer]이(가) 모두 작동하지 않는 경우 사이트의 X-Frame 헤더 옵션을 덮어쓰고 iFrame에서 로드되도록 하여 VEC를 활성화하는 응답 헤더 수정(Firefox)이나 [!DNL Requestly]([!DNL Chrome] 또는 [!DNL Firefox])과 같은 브라우저 확장 프로그램을 사용하십시오. 브라우저 확장을 사용할 수 없는 경우 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하십시오.
+[!UICONTROL Visual Experience Composer]과(와) [!UICONTROL Enhanced Experience Composer]이(가) 모두 작동하지 않는 경우 사이트의 X-Frame 헤더 옵션을 덮어쓰고 iFrame에서 로드되도록 하여 VEC를 활성화하는 응답 헤더 수정(Firefox)이나 [!DNL Requestly] ([!DNL Chrome] 또는 [!DNL Firefox])과 같은 브라우저 확장 프로그램을 사용하십시오. 브라우저 확장을 사용할 수 없는 경우 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하십시오.
 
 >[!NOTE]
 >
@@ -109,7 +109,7 @@ ht-degree: 24%
 
 * 최신 버전의 확장 [[!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper extension]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)에서는 VEC와의 호환성을 최상으로 유지합니다.
 
-  최신 버전을 사용 중인지 확인하려면 [!UICONTROL Extensions] > [!UICONTROL Manage Extensions](으)로 이동한 다음 [!UICONTROL Details]을(를) 클릭합니다.
+  최신 버전을 사용 중인지 확인하려면 [!UICONTROL Extensions] > [!UICONTROL Manage Extensions] (으)로 이동한 다음 [!UICONTROL Details]을(를) 클릭합니다.
 
 * [!UICONTROL Visual Experience Composer]에서 웹 페이지를 수정하려면 라이브러리를 작성해야 합니다. 이러한 라이브러리는 at.js 라이브러리에 포함되어 있으며 VEC를 사용할 때마다 [!DNL Adobe] 서버에서 확장을 통해 다운로드됩니다.
 

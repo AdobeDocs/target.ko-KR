@@ -118,7 +118,7 @@ ht-degree: 29%
 
 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼를 적용해야 합니다. 현재 VEC를 사용하여 원격 오퍼를 적용할 수 없습니다.
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting](XT), [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼를 사용하는 경험을 만들 수 있습니다.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 원격 오퍼를 사용하는 경험을 만들 수 있습니다.
 
 1. [!UICONTROL Form-Based Experience Composer]에서 활동을 만들거나 편집합니다.
 

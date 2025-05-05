@@ -65,14 +65,14 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 
 * 사용자가 처음 활동 자격을 얻으면 ***고유 방문자 수***&#x200B;가 한 번 증가합니다.
 * ***방문***&#x200B;은(는) 사용자(고유 방문자)가 활동을 시작하면 해당 활동이 후속 방문에서 보이지 않더라도 각 세션에 대해 증가합니다.
-* ***활동 노출 수***&#x200B;는 활동 콘텐츠가 제공될 때마다 증가합니다. ([!DNL Target](으)로 측정).
+* ***활동 노출 수***&#x200B;는 활동 콘텐츠가 제공될 때마다 증가합니다. ([!DNL Target] (으)로 측정).
 
 방문자가 활동을 포함하는 페이지를 볼 때 해당 활동의 이름을 포함하는 방문자에 대해 변수가 설정됩니다. 각 계산 방법이 비교하는 방식에 대한 내용은 아래에서 자세한 시나리오를 참조하십시오.
 
 다음 사항을 고려하십시오.
 
 * 사용자가 활동 자격을 확보하고 [!DNL Target]에서 콘텐츠가 반환될 때 위의 지표를 트리거합니다. 이는 사용자가 반드시 오퍼를 보았다는 것을 의미하지는 않습니다. 활동 경험이 스크롤해야 볼 수 있는 부분에 있고 사용자가 페이지를 아래로 스크롤하지 않는 경우 [!DNL Target]에서 오퍼를 제공했지만 사용자는 볼 수 없습니다.
-* 동일한 활동의 동일한 페이지에 여러 개의 mbox 호출이 있는 경우가 아니라면 [!UICONTROL Activity Impressions]([!DNL Target](으)로 측정) 및 [!UICONTROL Instances]([!DNL Analytics](으)로 측정)은 같습니다. 이로 인해 여러 [!UICONTROL Activity Impressions]이(가) 계산되지만 단일 [!UICONTROL Instance]만 계산됩니다.
+* 동일한 활동의 동일한 페이지에 여러 개의 mbox 호출이 있는 경우가 아니라면 [!UICONTROL Activity Impressions] ([!DNL Target] (으)로 측정) 및 [!UICONTROL Instances] ([!DNL Analytics] (으)로 측정)은 같습니다. 이로 인해 여러 [!UICONTROL Activity Impressions]이(가) 계산되지만 단일 [!UICONTROL Instance]만 계산됩니다.
 
 자세한 내용은 *Adobe Target Tutorials*&#x200B;에서 [자동 타겟 활동을 위해 Analysis Workspace에서 A4T 보고서를 설정하는 방법](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=ko-KR)을 참조하십시오.
 
@@ -105,7 +105,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 
 +++
 
-## 활동이 비활성화된 후에도 [!DNL Target] 지표를 [!DNL Analytics](으)로 보내는 이유는 무엇입니까? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## 활동이 비활성화된 후에도 [!DNL Target] 지표를 [!DNL Analytics] (으)로 보내는 이유는 무엇입니까? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 +++답변
 [!DNL Analytics]에 전송된 [!DNL Target] 변수에 기본 90일 만료 기간이 있습니다. 이 만료 기간은 필요한 경우 고객 지원 센터에서 조정할 수 있습니다. 이 설정은 모든 활동에 대해 전역적입니다. 하지만 한 가지 경우에는 조정해서는 안 됩니다.
@@ -160,7 +160,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 
 +++
 
-## [!DNL Analytics] 및 [!UICONTROL Analytics for Adobe Target](A4T)에서 [!UICONTROL Unique Visitors] 지표에 대한 숫자를 다르게 계산하는 이유는 무엇입니까? {#section_0C3B648AB54041F9A2AA839D51791883}
+## [!DNL Analytics] 및 [!UICONTROL Analytics for Adobe Target] (A4T)에서 [!UICONTROL Unique Visitors] 지표에 대한 숫자를 다르게 계산하는 이유는 무엇입니까? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 +++답변
 [Welch의 t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}(신뢰도 지표)를 사용하여 테스트 승자를 선택하는 A/B 테스트를 실행할 때, 가정 중 하나는 고정된 시간대가 있다는 것입니다. 고정된 샘플 크기를 확인하지 않는 한 테스트는 통계적으로 유효하지 않습니다.
@@ -203,7 +203,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 ## A4T를 사용하는 [!UICONTROL Auto-Target] 활동에서 할당된 [!DNL Analytics] 및 전환 크레딧에서 방문 횟수는 어떻게 계산됩니까?
 
 +++답변
-방문자가 A4T 활동에서 자격을 얻거나, 콘텐츠를 보거나, 변환할 때 [!DNL Target]이(가) 이벤트 데이터를 [!DNL Analytics](으)로 보냅니다. 이 이벤트 데이터를 사용하면 [!DNL Analytics]이(가) 페이지에서 발생하는 전환 이벤트와 기타 클릭스트림 이벤트를 관련 [!DNL Target] 활동 및 경험에 연결할 수 있습니다.
+방문자가 A4T 활동에서 자격을 얻거나, 콘텐츠를 보거나, 변환할 때 [!DNL Target]이(가) 이벤트 데이터를 [!DNL Analytics] (으)로 보냅니다. 이 이벤트 데이터를 사용하면 [!DNL Analytics]이(가) 페이지에서 발생하는 전환 이벤트와 기타 클릭스트림 이벤트를 관련 [!DNL Target] 활동 및 경험에 연결할 수 있습니다.
 
 [!DNL Analytics] 보고서를 볼 때 몇 가지 유의해야 할 사항은 다음과 같습니다.
 
@@ -214,7 +214,7 @@ A4T 보고에는 지표를 표준화하는 몇 가지 옵션이 있습니다. �
 
 +++
 
-## [!UICONTROL Analytics for Target](A4T)을(를) 사용할 때 [!DNL Analysis Workspace]에서 활동 노출 횟수를 추적하는 방법은 무엇입니까? {#activity-impressions}
+## [!UICONTROL Analytics for Target] (A4T)을(를) 사용할 때 [!DNL Analysis Workspace]에서 활동 노출 횟수를 추적하는 방법은 무엇입니까? {#activity-impressions}
 
 +++답변
 

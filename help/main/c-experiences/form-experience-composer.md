@@ -35,7 +35,7 @@ ht-degree: 33%
 
    [!UICONTROL Recommendations] 활동을 만드는 경우 이 화면은 다릅니다. [!UICONTROL Recommendations] 활동에 경험이 포함되어 있지 않습니다.
 
-1. 
+1. &#x200B;
    1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
@@ -124,7 +124,7 @@ ht-degree: 33%
 
    **오퍼 결정 추가:**
 
-   [!DNL Adobe Journey Optimizer](AJO)에서 만든 오퍼를 [!DNL Adobe Target] 활동에 추가하여 offer decisioning을 사용하여 웹 사이트 또는 모바일 사이트의 방문자에게 최고의 동적 오퍼 및 경험을 제공합니다. 이 옵션은 수동 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting](XT) 활동에만 사용할 수 있습니다.
+   [!DNL Adobe Journey Optimizer] (AJO)에서 만든 오퍼를 [!DNL Adobe Target] 활동에 추가하여 offer decisioning을 사용하여 웹 사이트 또는 모바일 사이트의 방문자에게 최고의 동적 오퍼 및 경험을 제공합니다. 이 옵션은 수동 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting] (XT) 활동에만 사용할 수 있습니다.
 
    자세한 내용은 [오퍼 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)을 참조하세요.
 

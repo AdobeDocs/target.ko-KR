@@ -30,7 +30,7 @@ ht-degree: 49%
 
 1. URL을 검토 및/또는 지정합니다.
 
-   * [!UICONTROL Visual Experience Composer](VEC)을(를) 사용하는 경우 활동에 지정한 기본 URL이 자동으로 입력되며 활동의 각 경험에 대한 링크가 생성됩니다. 원할 경우 이 URL을 변경하고 다른 URL을 추가할 수 있습니다.
+   * [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하는 경우 활동에 지정한 기본 URL이 자동으로 입력되며 활동의 각 경험에 대한 링크가 생성됩니다. 원할 경우 이 URL을 변경하고 다른 URL을 추가할 수 있습니다.
    * [!UICONTROL Form-Based Experience Composer]을(를) 사용하는 경우 기본 URL이 자동으로 입력되지 않습니다. 이전에 경험 미리 보기 URL을 만들지 않은 경우 **새 URL 추가**&#x200B;를 클릭합니다. 미리 보려는 모든 URL과 각 URL의 이름을 지정해야 합니다.
 
    여러 URL을 추가할 수 있습니다. 이러한 기능은 다중 페이지 테스트 또는 템플릿 테스트를 실행하며 둘 이상의 페이지에서 활동을 미리 보려는 경우에 유용합니다.

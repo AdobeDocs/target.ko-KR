@@ -1,6 +1,6 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: '[!UICONTROL Visual Experience Composer](VEC)을 사용하여  [!DNL Target]이(가) 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
+description: '[!UICONTROL Visual Experience Composer] (VEC)을 사용하여  [!DNL Target]이(가) 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
@@ -13,11 +13,11 @@ ht-degree: 16%
 
 # A/B 테스트 활동 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer](VEC)을(를) 활용하여 [!DNL Target]이 활성화된 페이지에서 직접 [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내의 페이지 섹션을 수정합니다.
+[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer] (VEC)을(를) 활용하여 [!DNL Target]이 활성화된 페이지에서 직접 [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내의 페이지 섹션을 수정합니다.
 
 >[!NOTE]
 >
->[!DNL Target]은(는) [!UICONTROL Manual](기본값) [!UICONTROL A/B Test] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target].
+>[!DNL Target]은(는) [!UICONTROL Manual] (기본값) [!UICONTROL A/B Test] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target].
 >
 >*A/B 테스트 개요*&#x200B;에서 [A/B 테스트 활동 유형](/help/main/c-activities/t-test-ab/test-ab.md#types)을 참조하세요.
 

@@ -59,10 +59,10 @@ ht-degree: 26%
 | [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md) | A/B 테스트에서는 웹 사이트 콘텐츠의 버전을 두 개 이상 비교하여 사전 지정된 테스트 기간 동안 전환율이 가장 많이 향상된 버전을 확인합니다. |
 | [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | A/B 테스트 유형인 [!UICONTROL Auto-Allocate]은(는) 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다. |
 | [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)<P>![Target Premium](/help/main/assets/premium.png) | A/B 테스트의 한 유형인 자동 타겟 은 컨텐츠를 개인화하고 전환을 유도하기 위해 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험 중에서 식별하고, 개별 고객의 프로필과 이 프로필과 유사한 프로필을 가진 이전 방문자의 행동을 기반으로 각 방문자에게 가장 잘 맞춤 설정된 경험을 제공합니다. |
-| [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | [!UICONTROL Multivariate Testing](MVT)은 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
-| [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) | [!UICONTROL Experience Targeting](XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다. |
-| [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<P>![Target Premium](/help/main/assets/premium.png) | [!UICONTROL Automated Personalization](AP)은(는) 콘텐츠를 개인화하고 전환을 유도하기 위해 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다. |
-| [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | 권장 사항은 사이트에서의 방문자의 활동에 따라 웹 사이트 방문자에게 제품을 제안하는 방법을 결정합니다.<P>예를 들어, 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여 주는 권장 사항을 생성할 수 있습니다. 또는 &quot;이 동영상을 본 사용자&quot; 알고리즘을 사용하여 시청 중인 비디오와 유사한 비디오를 추천하여 방문자가 미디어 사이트에서 더 많은 시간을 보내도록 유도할 수 있습니다.<P>**참고**: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting](XT) 활동 내에 권장 사항을 포함할 수도 있습니다. 자세한 내용은 [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
+| [[!UICONTROL Multivariate Test]](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | [!UICONTROL Multivariate Testing] (MVT)은 페이지의 요소에 있는 오퍼 조합을 비교하여 특정 대상에 대해 성과가 가장 좋은 조합을 판별하고 활동의 성공에 영향을 가장 많이 주는 요소를 식별합니다. |
+| [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) | [!UICONTROL Experience Targeting] (XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다. |
+| [[!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<P>![Target Premium](/help/main/assets/premium.png) | [!UICONTROL Automated Personalization] (AP)은(는) 콘텐츠를 개인화하고 전환을 유도하기 위해 오퍼나 메시지를 결합하고 고급 기계 학습을 사용하여 방문자의 개별 고객 프로필을 기반으로 다양한 변형을 각 방문자와 연결합니다. |
+| [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)<P>![Target Premium](/help/main/assets/premium.png) | 권장 사항은 사이트에서의 방문자의 활동에 따라 웹 사이트 방문자에게 제품을 제안하는 방법을 결정합니다.<P>예를 들어, 배낭을 구입하는 사람이 하이킹 신발과 등산용 스틱까지 구입하도록 하려는 경우, &quot;이 항목을 구입하고 다른 항목도 구입한 사람&quot; 알고리즘을 사용하여 종종 함께 구입하는 항목을 보여 주는 권장 사항을 생성할 수 있습니다. 또는 &quot;이 동영상을 본 사용자&quot; 알고리즘을 사용하여 시청 중인 비디오와 유사한 비디오를 추천하여 방문자가 미디어 사이트에서 더 많은 시간을 보내도록 유도할 수 있습니다.<P>**참고**: [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting] (XT) 활동 내에 권장 사항을 포함할 수도 있습니다. 자세한 내용은 [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. 이 기능을 사용하려면 [Target Premium 라이선스](/help/main/c-intro/intro.md#premium)가 있어야 합니다. |
 
 ## 활동 목록에 필터 적용 {#filters}
 
@@ -74,7 +74,7 @@ ht-degree: 26%
 | --- | --- |
 | [!UICONTROL Type] | [활동 유형](#types)별로 필터링합니다. |
 | [!UICONTROL Status] | 활동 상태별로 필터링합니다.<ul><li>**[!UICONTROL Live]**: 활동이 현재 실행 중입니다.</li><li>**[!UICONTROL Draft]**: 활동 설정이 시작되었지만 활동이 [초안 모드](/help/main/c-activities/edit-activity.md)이고 아직 실행할 준비가 되지 않았습니다.</li><li>**[!UICONTROL Scheduled]**: 지정된 시작 날짜 및 시간에 도달하면 활동이 활성화되도록 준비되었습니다.</li><li>**[!UICONTROL Inactive]**: 활동이 일시 중지되었거나 비활성화되었습니다.</li><li>**[!UICONTROL Syncing]**: 활동이 저장되었으며 [!DNL Target] 배달 네트워크에 동기화되고 있습니다.</li><li>**[!UICONTROL Ended]**: 활동의 지정한 종료 날짜 및 시간에 도달하여 활동이 더 이상 지원되지 않습니다.</li><li>**[!UICONTROL Archived]**: 활동이 보관되었습니다. 보관된 활동을 활성화하여 다시 사용할 수 있습니다.</li></ul> |
-| [!UICONTROL Reporting Source] | 보고 소스로 필터링합니다.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): [!UICONTROL Analytics for Target](A4T)을 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): [!DNL Target]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): [!DNL Adobe Customer Analytics]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li></ul> |
+| [!UICONTROL Reporting Source] | 보고 소스로 필터링합니다.<ul><li>[[!DNL Analytics]](/help/main/c-integrating-target-with-mac/a4t/a4t.md): [!UICONTROL Analytics for Target] (A4T)을 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Target]](/help/main/c-reports/reports.md): [!DNL Target]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li><li>[[!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md): [!DNL Adobe Customer Analytics]을(를) 보고 소스로 사용하는 활동을 표시합니다.</li></ul> |
 | [!UICONTROL Experience Composer] | 활동을 만드는 동안 경험 작성기가 사용된 기준 필터링:<ul><li>[Visual](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md): VEC([!UICONTROL Visual Experience Composer])를 사용하여 만든 활동을 표시합니다.</li><li>[양식 기반](/help/main/c-experiences/form-experience-composer.md): [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 만든 활동을 표시합니다.</li></ul> |
 | [!UICONTROL Metrics Type] | 활동을 만드는 동안 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md)를 선택한 기준 필터링.<ul><li>[!UICONTROL Conversion]</li><li>[!UICONTROL Revenue]</li><li>[!UICONTROL Engagement]</li><li>[!UICONTROL Use an Analytics metric]</lI></ul> |
 | [!UICONTROL Decisioning Method] | 각 활동에 사용된 의사 결정 방법으로 필터링합니다.<ul><li>[서버측](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ko-KR): 서버측 의사 결정을 사용하는 활동을 표시합니다.</li><li>[클라이언트측](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html): 클라이언트측 의사 결정을 사용하는 활동을 표시합니다.</li></ul> |
@@ -102,7 +102,7 @@ ht-degree: 26%
 
 * [!UICONTROL Archived] 및 [!UICONTROL Ended] 활동이 [!UICONTROL Activities] 목록에 표시되지 않습니다. 이러한 활동을 보려면 목록 맨 위에 있는 [필터 아이콘](#filters)(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) )을 사용하여 필터링하십시오.
 * 원래 [!DNL Target Classic]에서 만들어진 활동이 비활성화되거나 삭제되면 [!DNL Target Standard/Premium]에서 삭제됩니다. 원래 [!DNL Target Classic]에서 만들어진 삭제된 활동은 [!DNL Target Standard/Premium]의 [!UICONTROL Archive] 폴더로 전송되지 않습니다. 보관된 폴더 기능은 [!DNL Target Standard/Premium]에서 만들어진 활동에만 적용됩니다.
-* [!UICONTROL Automated Personalization](AP), [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 이외의 모든 활동 유형에서는 [!DNL Target] 또는 [!DNL Adobe Analytics]을(를) 데이터 소스로 사용하도록 선택할 수 있습니다. [!UICONTROL Automated Personalization], [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] *항상*&#x200B;은(는) [!DNL Target] 데이터를 사용합니다.
+* [!UICONTROL Automated Personalization] (AP), [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 이외의 모든 활동 유형에서는 [!DNL Target] 또는 [!DNL Adobe Analytics]을(를) 데이터 소스로 사용하도록 선택할 수 있습니다. [!UICONTROL Automated Personalization], [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] *항상*&#x200B;은(는) [!DNL Target] 데이터를 사용합니다.
 * 활동은 몇 가지 채널에서 사용할 수 있습니다.
 
    * 웹 및 모바일 사이트
@@ -127,11 +127,11 @@ ht-degree: 26%
 
 활동에서 이러한 항목의 수를 늘리면 [!DNL Target]에서 활동을 동기화하는 데 걸리는 시간도 늘어납니다.
 
-[!UICONTROL Visual Experience Composer](VEC)의 추가 제한에 대해서는 [시각적 경험 작성기 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)을 참조하십시오.
+[!UICONTROL Visual Experience Composer] (VEC)의 추가 제한에 대해서는 [시각적 경험 작성기 제한 사항](/help/main/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721)을 참조하십시오.
 
-## [!DNL Target] 외부에서 업데이트된 활동을 위해 [!DNL Target](으)로 가져온 특성 {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## [!DNL Target] 외부에서 업데이트된 활동을 위해 [!DNL Target] (으)로 가져온 특성 {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
-[!DNL Target]에서 만든 활동이 [!DNL Target] 외부에서(예를 들어 API를 통해) 업데이트된 경우 `thirdpartyId`, `startDate`, `endDate`, `status`, `priority` 및 `marketingCloudMetadata(remoteModifiedBy)` 활동 특성을 다시 [!DNL Target](으)로 가져옵니다.
+[!DNL Target]에서 만든 활동이 [!DNL Target] 외부에서(예를 들어 API를 통해) 업데이트된 경우 `thirdpartyId`, `startDate`, `endDate`, `status`, `priority` 및 `marketingCloudMetadata(remoteModifiedBy)` 활동 특성을 다시 [!DNL Target] (으)로 가져옵니다.
 
 이 가져오기 작업은 [!UICONTROL Activities] 목록을 열 때 실행되며 최대 지연 시간은 10분입니다.
 

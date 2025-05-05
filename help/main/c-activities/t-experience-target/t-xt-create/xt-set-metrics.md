@@ -11,9 +11,9 @@ ht-degree: 56%
 
 ---
 
-# [!UICONTROL Experience Targeting](XT) 활동에서 지표 설정
+# [!UICONTROL Experience Targeting] (XT) 활동에서 지표 설정
 
-[!DNL Adobe Target] [!UICONTROL Experience Targeting](XT) 활동에서 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
+[!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) 활동에서 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 
 성공 지표에 대한 자세한 내용은 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 

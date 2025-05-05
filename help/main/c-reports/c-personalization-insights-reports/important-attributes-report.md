@@ -14,7 +14,7 @@ ht-degree: 56%
 
 # 중요 속성 보고서
 
-[!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target](AT) 활동의 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 [!UICONTROL Important Attributes] 보고서에 대한 정보입니다.
+[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동의 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 [!UICONTROL Important Attributes] 보고서에 대한 정보입니다.
 
 >[!NOTE]
 >
@@ -96,7 +96,7 @@ ht-degree: 56%
 
 ### 모델에서 교육에 사용하지 않으려는 하나 이상의 속성이 표시됩니다. 교육 모델에서 해당 속성을 제거할 수 있습니까? {#models-api}
 
-차단 목록에 추가하다 0 API라고도 하는 [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target](AT) 활동을 위한 머신 러닝 모델에 사용되는 속성(기능이라고도 함)의 목록을 사용자가 관리할 수 있도록 해줍니다. [!UICONTROL Models API] AP 또는 AT 활동용 모델에서 하나 이상의 속성을 사용하지 못하도록 하려면 모델 API를 사용하여 이러한 속성을 &quot;차단 목록&quot;에 추가할 수 있습니다.
+차단 목록에 추가하다 0 API라고도 하는 [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동을 위한 머신 러닝 모델에 사용되는 속성(기능이라고도 함)의 목록을 사용자가 관리할 수 있도록 해줍니다. [!UICONTROL Models API] AP 또는 AT 활동용 모델에서 하나 이상의 속성을 사용하지 못하도록 하려면 모델 API를 사용하여 이러한 속성을 &quot;차단 목록&quot;에 추가할 수 있습니다.
 
 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [모델 API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}를 참조하십시오. API를 사용하여 특성을 차단하려면 [모델 API](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api-overview.html){target=_blank}를 참조하세요.
 
@@ -146,4 +146,4 @@ Personalization Insights 보고([!UICONTROL Automated Segments] 및 [!UICONTROL 
 
 다음 문제는 현재 [!DNL Target] 엔지니어링 팀에서 조사하고 있습니다.
 
-* [!UICONTROL Automated Personalization](AP) 및 [!UICONTROL Auto-Target](AT) 활동에 대한 [!UICONTROL Important Attributes] 보고서에 [!DNL Adobe Experience Platform] 세그먼트 이름이 표시되지 않습니다. (TOP-3813)
+* [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동에 대한 [!UICONTROL Important Attributes] 보고서에 [!DNL Adobe Experience Platform] 세그먼트 이름이 표시되지 않습니다. (TOP-3813)

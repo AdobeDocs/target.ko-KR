@@ -1,7 +1,7 @@
 ---
 keywords: 다변량;mvt;미리 보기;경험
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Multivariate Test](MVT) 활동에서 [!UICONTROL Visual Experience Composer](VEC)을(를) 사용하여 각 경험을 미리 보는 방법에 대해 알아봅니다.'
-title: '[!UICONTROL Multivariate Test](MVT)에 대한 경험을 미리 보려면 어떻게 해야 합니까?'
+description: ' [!DNL Adobe Target] 의 [!UICONTROL Multivariate Test] (MVT) 활동에서 [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 각 경험을 미리 보는 방법에 대해 알아봅니다.'
+title: '[!UICONTROL Multivariate Test] (MVT)에 대한 경험을 미리 보려면 어떻게 해야 합니까?'
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
@@ -15,7 +15,7 @@ ht-degree: 25%
 
 [!DNL Adobe Target]의 [!UICONTROL Multivariate Test]은(는) 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 
-1. [!UICONTROL Visual Experience Composer](VEC)에서 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Visual Experience Composer] (VEC)에서 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
    모든 경험 목록이 표시됩니다.
 
@@ -35,4 +35,4 @@ ht-degree: 25%
 
    기본적으로 모든 경험은 다변량 테스트에 포함됩니다. 제외된 경험을 포함하려면 제외된 경험을 선택하고 **[!UICONTROL Include]**&#x200B;을(를) 클릭합니다.
 
-1. 변경할 수 있도록 **[!UICONTROL Exit Preview Mode]**&#x200B;을(를) 클릭하여 [!UICONTROL Visual Experience Composer](으)로 돌아가거나 **[!UICONTROL Continue]**&#x200B;을(를) 클릭하여 테스트 요약으로 이동합니다.
+1. 변경할 수 있도록 **[!UICONTROL Exit Preview Mode]**&#x200B;을(를) 클릭하여 [!UICONTROL Visual Experience Composer] (으)로 돌아가거나 **[!UICONTROL Continue]**&#x200B;을(를) 클릭하여 테스트 요약으로 이동합니다.

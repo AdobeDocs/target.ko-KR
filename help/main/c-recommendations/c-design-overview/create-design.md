@@ -33,7 +33,7 @@ ht-degree: 19%
 
 ![사용자 지정 디자인](/help/main/c-recommendations/c-design-overview/assets/custom-design.png)
 
-[!UICONTROL Visual Experience Composer](VEC) 내에서 또는 활동 만들기 외부의 디자인 라이브러리에서 활동 만들기 프로세스 중에 디자인을 만들 수 있습니다. 다음 섹션에서는 라이브러리에서 디자인을 생성하는 것으로 가정하지만 단계는 유사합니다.
+[!UICONTROL Visual Experience Composer] (VEC) 내에서 또는 활동 만들기 외부의 디자인 라이브러리에서 활동 만들기 프로세스 중에 디자인을 만들 수 있습니다. 다음 섹션에서는 라이브러리에서 디자인을 생성하는 것으로 가정하지만 단계는 유사합니다.
 
 ## 디자인 만들기
 
@@ -48,7 +48,7 @@ ht-degree: 19%
 
    [!UICONTROL Create Design] 대화 상자가 표시됩니다.
 
-1. 디자인 카드에 표시할 **[!UICONTROL  Name]** 및 선택적 미리 보기 이미지를 입력하십시오.
+1. 디자인 카드에 표시할 **[!UICONTROL &#x200B; Name]** 및 선택적 미리 보기 이미지를 입력하십시오.
 
    기본 디자인을 사용하면 디자인 이름과 &quot;복사본&quot;이 **[!UICONTROL Content Name]** 필드에 나타납니다. 이름을 편집할 수 있습니다. 디자인 카드에 표시할 이미지를 선택할 수도 있습니다.
 
@@ -94,7 +94,7 @@ ht-degree: 19%
 
 다음 예제에서는 [양식 기반 편집기](/help/main/c-experiences/form-experience-composer.md)를 통해 활동을 구성할 때 JSON 응답을 반환하는 방법을 보여 줍니다.
 
-1. [!UICONTROL Design library] 또는 양식 기반 워크플로 내에서 디자인을 만듭니다. [!UICONTROL Visual Experience Composer](VEC) 워크플로 내에서 디자인을 만들려고 하면 클릭 추적을 위해 `<div>`에 래핑된 HTML 디자인 이외의 다른 디자인을 만들 수 없습니다.
+1. [!UICONTROL Design library] 또는 양식 기반 워크플로 내에서 디자인을 만듭니다. [!UICONTROL Visual Experience Composer] (VEC) 워크플로 내에서 디자인을 만들려고 하면 클릭 추적을 위해 `<div>`에 래핑된 HTML 디자인 이외의 다른 디자인을 만들 수 없습니다.
 
 1. &quot;HTML 디자인&quot; 선택 사항이 꺼져 있는지 확인합니다.
 

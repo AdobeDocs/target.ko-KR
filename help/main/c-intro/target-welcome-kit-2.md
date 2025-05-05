@@ -74,7 +74,7 @@ ht-degree: 79%
 
 | 도구 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer](VEC) | 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 [!DNL Target] 활동에 대한 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
+| [!UICONTROL Visual Experience Composer] (VEC) | 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 [!DNL Target] 활동에 대한 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
 | [!UICONTROL Form-based Experience Composer] | 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 A/B 테스트, 경험 타깃팅, Automated Personalization 및 Recommendations 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/form-experience-composer.md) |
 | [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | SPA용 VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같이 인기 있는 프레임워크의 A/B 테스트 및 경험 타기팅(XT) 활동을 만드는 데 사용할 수 있습니다. [자세히 알아보기](/help/main/c-experiences/spa-visual-experience-composer.md) |
 

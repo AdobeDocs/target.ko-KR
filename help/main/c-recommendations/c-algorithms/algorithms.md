@@ -78,4 +78,4 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->[!UICONTROL Algorithm Usage] 기능은 현재 [!DNL Recommendations] 활동에만 지원됩니다. 이 기능은 현재 [오퍼로서 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함하는 [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting](XT) 활동에 대해 지원되지 않습니다.
+>[!UICONTROL Algorithm Usage] 기능은 현재 [!DNL Recommendations] 활동에만 지원됩니다. 이 기능은 현재 [오퍼로서 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함하는 [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting] (XT) 활동에 대해 지원되지 않습니다.

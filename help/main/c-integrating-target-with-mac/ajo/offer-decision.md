@@ -15,7 +15,7 @@ ht-degree: 0%
 
 [!DNL Adobe Journey Optimizer] 오퍼 의사 결정과 함께 [!DNL Adobe Target]을(를) 사용하여 웹 및 모바일에서 방문자에 대한 다음 최상의 오퍼를 결정하고 전달합니다.
 
-[!UICONTROL Visual Experience Composer](VEC) 또는 [!UICONTROL Form-Based Composer]을(를) 사용하여 [!DNL Adobe Journey Optimizer]에서 만든 오퍼 결정을 [!DNL Target] 활동(수동 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting])에 추가하여 [!DNL Target]에서 제공하는 인바운드 채널에서 방문자에게 개인화된 오퍼를 테스트하고 전달합니다.
+[!UICONTROL Visual Experience Composer] (VEC) 또는 [!UICONTROL Form-Based Composer]을(를) 사용하여 [!DNL Adobe Journey Optimizer]에서 만든 오퍼 결정을 [!DNL Target] 활동(수동 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting])에 추가하여 [!DNL Target]에서 제공하는 인바운드 채널에서 방문자에게 개인화된 오퍼를 테스트하고 전달합니다.
 
 [!DNL Adobe Journey Optimizer] 및 오퍼 결정에 대한 자세한 내용은 *[!DNL Journey Optimizer]* 설명서에서 다음 항목을 참조하십시오.
 
@@ -31,7 +31,7 @@ ht-degree: 0%
 
   at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현할 때는 이 기능을 사용할 수 없습니다.
 
-* [!DNL Adobe Journey Optimizer Ultimate](AJO + Offer decisioning) 또는 [!DNL Adobe Experience Platform] 및 [!UICONTROL Offer Decisioning] 응용 프로그램 서비스 추가 기능입니다.
+* [!DNL Adobe Journey Optimizer Ultimate] (AJO + Offer decisioning) 또는 [!DNL Adobe Experience Platform] 및 [!UICONTROL Offer Decisioning] 응용 프로그램 서비스 추가 기능입니다.
 
 ## 샘플 사용 사례
 
@@ -52,11 +52,11 @@ ht-degree: 0%
 
 게임 조직의 마케터로서 독일, 프랑스, 멕시코, 브라질 등 다양한 지역의 데스크탑 및 모바일 사용자를 위한 게임 스트리밍 플랫폼을 위한 개인화된 오퍼를 제공하고자 합니다. 방문자가 이러한 지역 중 하나에서 데스크탑 또는 모바일 웹 사이트에 액세스하면 로컬 언어로 게임 스트리밍에 대한 오퍼를 로컬 통화에 대한 해당 가격과 함께 제공하려고 합니다.
 
-[!DNL Adobe Journey Optimizer]에서 타깃팅된 각 지역에 대해 개인화된 홈 페이지 주인공 오퍼와 기본 홈 페이지 주인공이 있는 대체 오퍼를 만들 수 있습니다. 그런 다음 이러한 오퍼와 해당 자격 규칙을 통합하는 오퍼 결정을 만들 수 있습니다. 그런 다음 [!DNL Target]에서 [!DNL Experience Targeting](XT) 활동을 만들고 데스크탑 또는 모바일 웹 사이트에 해당 오퍼 결정을 삽입하여 방문자에게 개인화된 경험을 제공할 수 있습니다.
+[!DNL Adobe Journey Optimizer]에서 타깃팅된 각 지역에 대해 개인화된 홈 페이지 주인공 오퍼와 기본 홈 페이지 주인공이 있는 대체 오퍼를 만들 수 있습니다. 그런 다음 이러한 오퍼와 해당 자격 규칙을 통합하는 오퍼 결정을 만들 수 있습니다. 그런 다음 [!DNL Target]에서 [!DNL Experience Targeting] (XT) 활동을 만들고 데스크탑 또는 모바일 웹 사이트에 해당 오퍼 결정을 삽입하여 방문자에게 개인화된 경험을 제공할 수 있습니다.
 
 ## 오퍼 결정을 사용하는 경험을 만듭니다.
 
-1. [!UICONTROL Visual Experience Composer](VEC)에서 수동 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting](XT) 활동을 편집하거나 만드는 동안 페이지 요소를 클릭하여 [옵션 메뉴](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)를 표시합니다.
+1. [!UICONTROL Visual Experience Composer] (VEC)에서 수동 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting] (XT) 활동을 편집하거나 만드는 동안 페이지 요소를 클릭하여 [옵션 메뉴](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)를 표시합니다.
 
    ![시각적 경험 작성기의 옵션 메뉴](assets/options-menu1.png)
 

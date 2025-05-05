@@ -19,7 +19,7 @@ ht-degree: 8%
 
 ![오퍼 페이지](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-[!UICONTROL Offers] 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager](AEM), [!DNL Adobe Mobile Services](AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다.
+[!UICONTROL Offers] 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다.
 
 [!UICONTROL Offers] 라이브러리는 모든 코드 및 이미지 오퍼에 대한 개요를 제공하며 사용자가 다양한 작업을 수행할 수 있도록 해 줍니다.
 
@@ -72,7 +72,7 @@ ht-degree: 8%
 * [!UICONTROL Edit]
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
-* [!UICONTROL Move](예: 하나 이상의 항목을 폴더로 이동하려면 원하는 항목 옆의 **[!UICONTROL Move]**&#x200B;을(를) 클릭하고 원하는 폴더를 클릭한 다음 **[!UICONTROL Move]**&#x200B;을(를) 클릭합니다.
+* [!UICONTROL Move] (예: 하나 이상의 항목을 폴더로 이동하려면 원하는 항목 옆의 **[!UICONTROL Move]**&#x200B;을(를) 클릭하고 원하는 폴더를 클릭한 다음 **[!UICONTROL Move]**&#x200B;을(를) 클릭합니다.
 
 사용 권한에 따라 일부 옵션의 아이콘이 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL Observer] 권한이 있는 사용자는 [!UICONTROL Copy] 옵션을 사용할 수 있는 권한이 없습니다.
 

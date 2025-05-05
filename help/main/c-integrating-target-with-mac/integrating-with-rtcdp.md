@@ -110,7 +110,7 @@ AEP/통합 프로필 속성을 [!DNL Target]과 공유하기 위한 JSON 오퍼�
 * *대상 개요* 안내서의 [Adobe Target 연결](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank}
 * *대상 개요* 안내서의 [특성 매핑](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-profile-request-destinations.html?lang=ko#map-attributes){target=_blank}.
 * *대상 개요* 안내서의 [Edge 개인화 대상에 대해 대상을 활성화](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/activate-edge-personalization-destinations.html){target=_blank}.
-* *대상 개요* 안내서의 &quot;자주 묻는 질문&quot;에서  [!DNL Adobe Target] 및 사용자 지정 Personalization 대상](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}을(를) 통한 [같은 페이지 및 다음 페이지 개인화
+* *대상 개요* 안내서의 &quot;자주 묻는 질문&quot;에서  [!DNL Adobe Target] 및 사용자 지정 Personalization 대상[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/destinations/destinations-faq.html?lang=en#same-next-page-personalization){target=_blank}을(를) 통한 같은 페이지 및 다음 페이지 개인화
 
 ## 비디오 및 블로그 게시물 {#videos-blogs}
 

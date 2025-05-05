@@ -1,6 +1,6 @@
 ---
 keywords: vec;시각적 경험 작성기; vec;iframe;확장 프로그램;브라우저;faq
-description: '[!UICONTROL Visual Experience Composer](VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아봅니다. [!UICONTROL Visual Editing Helper] 브라우저 확장을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
+description: '[!UICONTROL Visual Experience Composer] (VEC)에서 일부 웹 사이트가 안정적으로 열리지 않는 이유를 알아봅니다. [!UICONTROL Visual Editing Helper] 브라우저 확장을 사용하면 VEC에서 웹 사이트를 안정적으로 로드할 수 있습니다.'
 title: '[!UICONTROL Visual Editing Helper] 확장을 사용하는 방법'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
@@ -13,7 +13,7 @@ ht-degree: 64%
 
 # [!UICONTROL Visual Editing Helper] 확장
 
-[!DNL Google Chrome]에 대한 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브라우저 확장을 사용하면 웹 사이트를 [!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다.
+[!DNL Google Chrome]에 대한 [!DNL Adobe Experience Cloud] [!UICONTROL Visual Editing Helper] 브라우저 확장을 사용하면 웹 사이트를 [!UICONTROL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)에 안정적으로 로드하여 웹 경험을 빠르게 작성 및 QA할 수 있습니다.
 
 >[!IMPORTANT]
 >
@@ -34,7 +34,7 @@ ht-degree: 64%
 
   [고급 경험 작성기](/help/main/administrating-target/visual-experience-composer-set-up.md#eec)를 사용하면 확장 기능이 at.js에 삽입되지는 않지만 SameSite 쿠키 기능은 여전히 존재합니다. 웹 페이지에서 at.js를 삽입하려면 EEC를 끕니다.
 
-* [모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)은(는) [!UICONTROL Enhanced Experience Composer](EEC) 없이도 지원됩니다.
+* [모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md)은(는) [!UICONTROL Enhanced Experience Composer] (EEC) 없이도 지원됩니다.
 * [!DNL Target]을 처음 사용하는 고객은 IT 개발자가 아직 웹 사이트에서 [!DNL Target]을 구현하지 않았더라도 확장 기능을 사용하여 [!DNL Target]을 실험해 볼 수 있습니다.
 * 이제 여러 고객의 웹 사이트 및 [!DNL Target] 계정을 제공하는 파트너는 서드파티 도구에서 여러 규칙을 관리하는 대신 VEC 로드를 지원하는 단일 메커니즘을 보유합니다.
 
@@ -61,7 +61,7 @@ ht-degree: 64%
 
 ## 자주 묻는 질문
 
-### 확장 기능이 활성화된 경우 [!DNL Adobe Target] 또는 [!UICONTROL Adobe Journey Optimizer](AJO) 외부에서 사용될 때 수행되는 작업이 있습니까?
+### 확장 기능이 활성화된 경우 [!DNL Adobe Target] 또는 [!UICONTROL Adobe Journey Optimizer] (AJO) 외부에서 사용될 때 수행되는 작업이 있습니까?
 
 확장 기능은 해당 웹 사이트가 [!DNL Adobe] 제품([!DNL Target], [!DNL AJO])의 iFrame 내부에 로드된 경우에만 활성화됩니다. 이 흐름을 벗어나면 확장 기능은 헤더를 추가, 제거 또는 수정하지 않으며, 확장 기능은 웹 사이트 내부에 코드를 삽입하지 않습니다.
 

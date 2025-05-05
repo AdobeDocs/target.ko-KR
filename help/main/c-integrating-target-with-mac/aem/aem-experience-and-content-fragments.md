@@ -13,7 +13,7 @@ ht-degree: 40%
 
 # AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments] 개요
 
-최적화 및 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 만든 [!UICONTROL Experience Fragments](XF) 및 [!UICONTROL Content Fragments](CF)를 사용합니다.
+최적화 및 개인화를 지원하기 위해 [!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 만든 [!UICONTROL Experience Fragments] (XF) 및 [!UICONTROL Content Fragments] (CF)를 사용합니다.
 
 [!DNL Target] 활동의 [!DNL AEM]에서 만든 [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]을(를) 사용하면 [!DNL AEM]의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(기계 학습) 기능과 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.
 
@@ -32,12 +32,12 @@ ht-degree: 40%
    * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
    * [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization](AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Experience Targeting](XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]은(는) 다음 활동 유형에 사용할 수 없습니다.
 
-   * [[!UICONTROL Multivariate Test](MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
 * [시각적 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC) 및 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 사용하여 [!DNL Target] 활동에서 [!UICONTROL Experience Fragments]을(를) 사용할 수 있습니다.

@@ -172,7 +172,7 @@ ht-degree: 29%
 
 ### [!UICONTROL Top by Analytics Metric]
 
-*x*&#x200B;이(가) 임의의 [!DNL Analytics] 지표인 &quot;상단 x&quot;를 표시합니다. mbox의 동작 데이터를 사용할 때 [!UICONTROL Top Sold] 또는 [!UICONTROL Top Viewed](x = &quot;Sold&quot; 또는 x = &quot;Viewed&quot;)을 사용할 수 있습니다. [!DNL Adobe Analytics]의 동작 데이터를 사용하는 경우 x = &quot;장바구니 추가&quot; 또는 다른 [!DNL Analytics] 지표를 사용할 수 있습니다.
+*x*&#x200B;이(가) 임의의 [!DNL Analytics] 지표인 &quot;상단 x&quot;를 표시합니다. mbox의 동작 데이터를 사용할 때 [!UICONTROL Top Sold] 또는 [!UICONTROL Top Viewed] (x = &quot;Sold&quot; 또는 x = &quot;Viewed&quot;)을 사용할 수 있습니다. [!DNL Adobe Analytics]의 동작 데이터를 사용하는 경우 x = &quot;장바구니 추가&quot; 또는 다른 [!DNL Analytics] 지표를 사용할 수 있습니다.
 
 ## [!UICONTROL Item-Based]
 

@@ -1,6 +1,6 @@
 ---
 keywords: 자동화된 개인화;오퍼;타겟;대상;타깃팅 규칙;타깃팅
-description: ' [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization](AP) 활동을 사용하여 특정 대상에게 개별 오퍼를 타깃팅하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization] (AP) 활동을 사용하여 특정 대상에게 개별 오퍼를 타깃팅하는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization]개 오퍼를 타깃팅하려면 어떻게 해야 합니까?'
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
@@ -15,7 +15,7 @@ ht-degree: 27%
 
 # [!UICONTROL Automated Personalization]개 오퍼 타깃팅
 
-[!DNL Adobe Target] [!DNL Automated Personalization](AP) 활동에서 오퍼를 특정 대상에 타깃팅할 수 있습니다.
+[!DNL Adobe Target] [!DNL Automated Personalization] (AP) 활동에서 오퍼를 특정 대상에 타깃팅할 수 있습니다.
 
 이 기능을 사용하면 특정 방문자가 볼 수 있는 오퍼의 수가 줄어듭니다. 예를 들어, 오퍼가 세 개인 [!UICONTROL Automated Personalization] 활동을 고려해 보십시오. 오퍼 1에는 대상 A로 노출을 제한하는 타깃팅 규칙이 있습니다. 두 방문자가 이 활동을 보았습니다.
 

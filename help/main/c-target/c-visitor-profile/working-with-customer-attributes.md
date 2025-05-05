@@ -34,7 +34,7 @@ ht-degree: 31%
    * 업로드를 여러 파일로 분할해야 하는 경우 새 파일을 제출하기 전에 파일이 완전히 처리되었는지 확인하십시오. 배치에서 다음 파일을 제출하기 전에 배치의 각 파일이 완전히 처리되었는지 확인합니다.
 
 * [!DNL Adobe]은(는) CRM 데이터베이스의 고객 특성(방문자 프로필) 데이터 100%가 [!DNL Experience Cloud]에 온보딩되어 [!DNL Target]에서 타깃팅에 사용될 수 있다고 보장하지 않습니다. 현재 설계에서는 적은 비율의 데이터(대규모 프로덕션 배치의 최대 0.1%)가 온보딩되지 않을 수 있습니다.
-* [!DNL Experience Cloud]에서 [!DNL Target](으)로 가져온 고객 특성 데이터의 수명은 기본적으로 14일인 방문자 프로필의 수명에 따라 다릅니다. 자세한 내용은 [방문자 프로필 라이프타임](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)을 참조하세요.
+* [!DNL Experience Cloud]에서 [!DNL Target] (으)로 가져온 고객 특성 데이터의 수명은 기본적으로 14일인 방문자 프로필의 수명에 따라 다릅니다. 자세한 내용은 [방문자 프로필 라이프타임](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD)을 참조하세요.
 * `vst.*` 매개 변수가 방문자를 식별하는 유일한 항목일 경우 `authState`이(가) UNAUTHENTICATED (0)이면 기존의 &quot;인증됨&quot; 프로필을 가져오지 않습니다. `authState`이(가) AUTHENTICATED (1)로 변경되는 경우에만 프로필이 재생됩니다.
 
   예를 들어 `vst.myDataSource.id` 매개 변수가 방문자를 식별하는 데 사용되고(`myDataSource`은(는) 데이터 소스 별칭임) MCID 또는 타사 ID가 없는 경우 매개 변수 `vst.myDataSource.authState=0`을(를) 사용하면 고객 특성 가져오기를 통해 작성되었을 수 있는 프로필을 가져오지 않습니다. 인증된 프로필을 가져오려면 `vst.myDataSource.authState`의 값이 1(AUTHENTICATED)이어야 합니다.
@@ -178,7 +178,7 @@ Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속�
 
 `mboxUpdate`이(가) `mbox3rdPartyId`(으)로 제대로 수행되지 않았습니다.
 
-### 문제 6: 고객 특성을 [!DNL Target](으)로 가져오지 않음
+### 문제 6: 고객 특성을 [!DNL Target] (으)로 가져오지 않음
 
 Target에서 고객 특성 데이터를 찾을 수 없는 경우 지난 *x*&#x200B;일 내에 가져오기가 발생했는지 확인하십시오. 여기서 *x*&#x200B;은(는) Target [방문자 프로필 라이프타임](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) 값(기본값 14일)입니다.
 

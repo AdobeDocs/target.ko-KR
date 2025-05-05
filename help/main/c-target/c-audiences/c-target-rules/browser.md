@@ -169,11 +169,11 @@ JavaScript 대상은 [!DNL Target Classic] UI에서 더 이상 사용되지 않�
 
 조건이 무효화된 경우 등 사용할 수 있는 다른 가능한 설정이 많이 있습니다. 무효화된 조건의 예는 다음과 같습니다.
 
-* **브라우저가 iPhone과 일치하지 않습니다**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple]([!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone]이(가) 있는 Or 컨테이너는 [!UICONTROL false]임)
+* **브라우저가 iPhone과 일치하지 않습니다**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] ([!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone]이(가) 있는 Or 컨테이너는 [!UICONTROL false]임)
 
   ![휴대폰이 아님](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **브라우저가 iPad과 일치하지 않습니다**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple]([!UICONTROL Mobile] > [!UICONTROL Is Tablet]이(가) 있는 Or 컨테이너는 [!UICONTROL false]임).
+* **브라우저가 iPad과 일치하지 않습니다**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] ([!UICONTROL Mobile] > [!UICONTROL Is Tablet]이(가) 있는 Or 컨테이너는 [!UICONTROL false]임).
 
   ![태블릿 아님](/help/main/r-release-notes/assets/tablet-false.png)
 

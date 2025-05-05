@@ -1,6 +1,6 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Visual Experience Composer](VEC)을(를) 사용하여 [!UICONTROL Multivariate Test](MVT)을(를) 만드는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target] 의 [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 [!UICONTROL Multivariate Test] (MVT)을(를) 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Multivariate Test]을(를) 만드는 방법'
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -13,11 +13,11 @@ ht-degree: 26%
 
 # 다변량 테스트 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer](VEC)을(를) 사용하면 [!UICONTROL Multivariate Test]을(를) 쉽게 만들고 [!DNL Target] 내에서 페이지의 일부를 수정할 수 있습니다.
+[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하면 [!UICONTROL Multivariate Test]을(를) 쉽게 만들고 [!DNL Target] 내에서 페이지의 일부를 수정할 수 있습니다.
 
 [!DNL Target] 가리키고 클릭 편집기를 사용하여 원하는 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
 
-[!UICONTROL Multivariate Test](MVT)은 페이지 우선 보고서를 사용합니다. 즉, 테스트가 해당 페이지에 대해 디자인한 경험을 사용하여 특정 URL에서 실행됩니다.
+[!UICONTROL Multivariate Test] (MVT)은 페이지 우선 보고서를 사용합니다. 즉, 테스트가 해당 페이지에 대해 디자인한 경험을 사용하여 특정 URL에서 실행됩니다.
 
 1. **[!UICONTROL Create Activity]** > **[!UICONTROL Multivariate Test]**&#x200B;을(를) 클릭합니다.
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
    [!UICONTROL Visual Experience Composer]이(가) 열립니다.
 
-1. 
+1. &#x200B;
    1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.

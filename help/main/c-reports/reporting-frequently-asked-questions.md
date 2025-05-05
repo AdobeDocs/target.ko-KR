@@ -61,7 +61,7 @@ ht-degree: 20%
 
 일부 방문자가 &quot;증분 카운트 및 사용자를 활동에 유지&quot;로 구성된 전환 지표에 도달했습니다. 이러한 사용자 중 일부가 전환 지표에 여러 번 도달한다고 가정할 때 전환 지표가 증가하지 않습니다. 그러나 이 설정을 지정하면, 일부 사용자가 전환 지표를 히트한 다음 홈 페이지로 다시 이동하여 활동에 다시 자격을 부여하고 새 방문을 기록할 수 있습니다.
 
-## [!UICONTROL Experience Targeting](XT) 보고서에 제어 경험에 대한 지표가 포함되는 이유는 무엇입니까?
+## [!UICONTROL Experience Targeting] (XT) 보고서에 제어 경험에 대한 지표가 포함되는 이유는 무엇입니까?
 
 XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인 시나리오인 [!UICONTROL A/B Test] 활동과 유사한 방식으로 XT 활동을 사용하는 경우 제어 경험 데이터가 유용합니다. 보고서에서 유용하지 않은 경우 제어 경험 데이터를 무시할 수 있습니다.
 
@@ -113,7 +113,7 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization](AP) 활동을 업데이트하고 제어 경험을 트래픽을 받는 경험으로 변경하는 방법에 대한 자세한 내용은 [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오.
+>[!UICONTROL Automated Personalization] (AP) 활동을 업데이트하고 제어 경험을 트래픽을 받는 경험으로 변경하는 방법에 대한 자세한 내용은 [Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택](/help/main/c-activities/t-automated-personalization/experience-as-control.md)을 참조하십시오.
 
 
 ## A/B 또는 MVT 활동에서 경험 간의 트래픽 분할이 불균일한 이유는 무엇입니까? {#uneven}

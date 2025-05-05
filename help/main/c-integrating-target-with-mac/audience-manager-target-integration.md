@@ -11,7 +11,7 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Target]을(를) [!DNL Adobe Audience Manager](AAM)과(와) 통합
+# [!DNL Target]을(를) [!DNL Adobe Audience Manager] (AAM)과(와) 통합
 
 [!DNL Target]/[!DNL Audience Manager] 통합을 사용하여 [!DNL Audience Manager] 세그먼트를 [!DNL Target]에 보낼 수 있습니다.
 

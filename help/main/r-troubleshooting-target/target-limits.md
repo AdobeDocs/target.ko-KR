@@ -155,7 +155,7 @@ ht-degree: 76%
 
 ### 활동별 경험 수
 
-* **제한**: [!UICONTROL Experience Targeting](XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test](MVT) 및 [!UICONTROL Auto-Target] 활동당 2,000개 경험.
+* **제한**: [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) 및 [!UICONTROL Auto-Target] 활동당 2,000개 경험.
 
   AP (Automated Personalization) 활동당 30,000개 경험.
 
@@ -179,7 +179,7 @@ ht-degree: 76%
 
 * **제한**: 250자.
 
-  [!DNL Delivery API]용(at.js 2.*x*), 일괄 mbox V2 및 [!DNL Adobe Experience Platform Web SDK](alloy.js) 통합, mbox 이름 *can*&#x200B;에는 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자 중 하나가 포함됩니다.
+  [!DNL Delivery API]용(at.js 2.*x*), 일괄 mbox V2 및 [!DNL Adobe Experience Platform Web SDK] (alloy.js) 통합, mbox 이름 *can*&#x200B;에는 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자 중 하나가 포함됩니다.
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }

@@ -13,7 +13,7 @@ ht-degree: 21%
 
 # AEM [!UICONTROL Content Fragments]
 
-[!DNL Target] 활동의 [!DNL Adobe Experience Manager](AEM)에서 만든 [!UICONTROL Content Fragments](CF)를 사용하여 Headless 개인화 및 실험을 지원합니다.
+[!DNL Target] 활동의 [!DNL Adobe Experience Manager] (AEM)에서 만든 [!UICONTROL Content Fragments] (CF)를 사용하여 Headless 개인화 및 실험을 지원합니다.
 
 ## 고려 사항
 
@@ -25,12 +25,12 @@ ht-degree: 21%
    * [[!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md)
    * [[!UICONTROL Auto-Allocate]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
    * [[!UICONTROL Auto-Target]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * [[!UICONTROL Automated Personalization](AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
-   * [[!UICONTROL Experience Targeting](XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+   * [[!UICONTROL Automated Personalization] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Experience Targeting] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
 
 * [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]은(는) 다음 활동 유형에 사용할 수 없습니다.
 
-   * [[!UICONTROL Multivariate Test](MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Multivariate Test] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
 * [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)만 사용하여 [!DNL Target] 활동에서 [!UICONTROL Content Fragments]을(를) 사용할 수 있습니다. VEC([!UICONTROL Visual Experience Composer])를 사용하여 [!DNL Target] 활동에서 [!UICONTROL Content Fragments]을(를) *할 수 없습니다*.
@@ -57,7 +57,7 @@ AEM [!UICONTROL Content Fragments] 및 [!UICONTROL Experience Fragments]에 대�
 
 [!UICONTROL Content Fragment]을(를) JSON 오퍼로 [!DNL Target]에 가져왔습니다. [!UICONTROL Content Fragment] &quot;기본&quot; 버전이 [!DNL AEM]에 남아 있습니다. [!DNL Target]에서 [!UICONTROL Content Fragment]을(를) 편집할 수 없습니다.
 
-[!UICONTROL HTML XFs], [!UICONTROL JSON XFs] 및 [!UICONTROL Content Fragments] 기준으로 필터링하고 검색하면 [!DNL Target](으)로 내보내는 다양한 오퍼 유형을 구분할 수 있습니다.
+[!UICONTROL HTML XFs], [!UICONTROL JSON XFs] 및 [!UICONTROL Content Fragments] 기준으로 필터링하고 검색하면 [!DNL Target] (으)로 내보내는 다양한 오퍼 유형을 구분할 수 있습니다.
 
 ![콘텐츠 조각 유형별 필터링: Target UI의 HTML 또는 JSON](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
 
@@ -73,7 +73,7 @@ AEM [!UICONTROL Content Fragments] 및 [!UICONTROL Experience Fragments]에 대�
 >
 >* [!DNL Target] AI 및 ML 기능을 완전히 사용하려면 [!UICONTROL A/B Test] 활동을 만드는 동안 [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) 또는 [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md)을 선택할 수 있습니다.
 >
->* [!UICONTROL Content Fragments]은(는) [!DNL Recommendations] 활동에서 지원되지 않습니다. 하지만 권장 사항에 [!UICONTROL Content Fragments]을(를) 사용하려면 [!UICONTROL A/B Test] 활동([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함) 또는 [!UICONTROL Experience Targeting](XT) 활동을 만들고 [오퍼로 권장 사항을 포함](/help/main/c-recommendations/recommendations-as-an-offer.md)할 수 있습니다.
+>* [!UICONTROL Content Fragments]은(는) [!DNL Recommendations] 활동에서 지원되지 않습니다. 하지만 권장 사항에 [!UICONTROL Content Fragments]을(를) 사용하려면 [!UICONTROL A/B Test] 활동([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함) 또는 [!UICONTROL Experience Targeting] (XT) 활동을 만들고 [오퍼로 권장 사항을 포함](/help/main/c-recommendations/recommendations-as-an-offer.md)할 수 있습니다.
 
 **[!UICONTROL Form-based Experience Composer]을(를) 사용하여 [!UICONTROL Content Fragments]을(를) 사용하려면:**
 
@@ -91,4 +91,4 @@ AEM [!UICONTROL Content Fragments] 및 [!UICONTROL Experience Fragments]에 대�
 * [!DNL Target]은(는) 현재 10분마다 가져올 [!UICONTROL Content Fragments]을(를) 찾습니다. 가져온 [!UICONTROL Content Fragment]은(는) 10분 이내에 [!DNL Target]에서 사용할 수 있어야 하지만, 이 기간은 앞으로 더 짧아질 것입니다.
 * [!UICONTROL Content Fragment]을(를) JSON 오퍼로 [!DNL Target]에 가져왔습니다. [!UICONTROL Content Fragment] &quot;기본&quot; 버전이 [!DNL AEM]에 남아 있습니다. [!DNL Target]에서 [!UICONTROL Content Fragment]을(를) 편집할 수 없습니다.
 * [!DNL Adobe I/O]을(를) 사용하여 [!UICONTROL Content Fragments]을(를) 만들 수 없습니다. 위에서 설명한 대로 AEM을 사용하여 [!UICONTROL Content Fragments]을(를) 만듭니다.
-* AEM에서 [!UICONTROL Content Fragment]을(를) 업데이트하는 경우 [!DNL Target]에서 최신 변경 사항을 사용할 수 있도록 [!UICONTROL Content Fragment]을(를) 게시하고 [!DNL Target](으)로 다시 내보내야 합니다.
+* AEM에서 [!UICONTROL Content Fragment]을(를) 업데이트하는 경우 [!DNL Target]에서 최신 변경 사항을 사용할 수 있도록 [!UICONTROL Content Fragment]을(를) 게시하고 [!DNL Target] (으)로 다시 내보내야 합니다.

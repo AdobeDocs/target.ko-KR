@@ -74,7 +74,7 @@ ht-degree: 15%
 
 1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 목록에서 원하는 [!UICONTROL Automated Personalization] 활동을 클릭한 다음 **[!UICONTROL Reports]** 탭을 클릭하여 [오퍼 수준](/help/main/c-reports/personalization-reports/reports-ap.md) 보고서를 표시합니다.
 
-   많은 활동이 있는 경우 [!UICONTROL Show Filters](단계) 아이콘을 클릭한 다음 [!UICONTROL Automated Personalization] 확인란을 선택하여 [!UICONTROL Automated Personalization]개의 활동만 표시하도록 목록을 필터링합니다.
+   많은 활동이 있는 경우 [!UICONTROL Show Filters] (단계) 아이콘을 클릭한 다음 [!UICONTROL Automated Personalization] 확인란을 선택하여 [!UICONTROL Automated Personalization]개의 활동만 표시하도록 목록을 필터링합니다.
 
 1. 테이블의 **[!UICONTROL Control]** 또는 **[!UICONTROL Targeted]**&#x200B;을(를) 클릭하여 그룹화되지 않은 오퍼 및 오퍼를 보고 그룹 내에 표시합니다.
 
