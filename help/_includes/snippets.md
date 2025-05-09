@@ -1,8 +1,8 @@
 ---
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
 workflow-type: tm+mt
-source-wordcount: '64'
-ht-degree: 32%
+source-wordcount: '50'
+ht-degree: 42%
 
 ---
 # 스니펫
@@ -17,6 +17,6 @@ ht-degree: 32%
 
 >[!IMPORTANT]
 >
->2025년 4월 22일부터 [!DNL Target] 작업 영역의 역할에 관계없이 [!UICONTROL Product] 및 [!UICONTROL Solutions] 관리자만 [!UICONTROL Administration] 섹션의 설정을 업데이트할 수 있습니다. 이 권한이 없는 사용자는 [!UICONTROL Administration] 섹션에 대한 읽기 전용 액세스 권한을 갖게 됩니다. 자세한 내용은 [!UICONTROL Administration] 설정을 편집하는 데 필요한 [권한](/help/main/administrating-target/start-target.md#admin-permissions)을 참조하세요.
+>[!UICONTROL Product Administrator] 및 [!UICONTROL System Administrator] 권한이 있는 [!DNL Target] 사용자는 [!DNL Target]의 역할에 관계없이 [!UICONTROL Administration] 페이지의 모든 설정을 편집할 수 있습니다. 이러한 권한이 없는 사용자는 이러한 설정에 대해 읽기 전용 액세스 권한을 갖습니다.
 
 
