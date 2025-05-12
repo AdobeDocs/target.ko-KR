@@ -1,23 +1,23 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: '[!UICONTROL Visual Experience Composer] (VEC)을 사용하여  [!DNL Target]이(가) 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
+description: '[!UICONTROL Visual Experience Composer]​(VEC)을 사용하여  [!DNL Target]이(가) 활성화된 페이지에서 직접 A/B 테스트 활동을 만듭니다.'
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
-source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '888'
 ht-degree: 16%
 
 ---
 
 # A/B 테스트 활동 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer] (VEC)을(를) 활용하여 [!DNL Target]이 활성화된 페이지에서 직접 [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내의 페이지 섹션을 수정합니다.
+[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을(를) 활용하여 [!DNL Target]이 활성화된 페이지에서 직접 [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내의 페이지 섹션을 수정합니다.
 
 >[!NOTE]
 >
->[!DNL Target]은(는) [!UICONTROL Manual] (기본값) [!UICONTROL A/B Test] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target].
+>[!DNL Target]은(는) [!UICONTROL Manual]&#x200B;(기본값) [!UICONTROL A/B Test] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target].
 >
 >*A/B 테스트 개요*&#x200B;에서 [A/B 테스트 활동 유형](/help/main/c-activities/t-test-ab/test-ab.md#types)을 참조하세요.
 
@@ -47,7 +47,7 @@ ht-degree: 16%
 
    [!UICONTROL Visual Experience Composer]이(가) 열리고 URL에 지정된 페이지가 표시됩니다.
 
-1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 활동의 이름을 지정하려면 &quot;[!UICONTROL Untitled Activity]&quot; 옆에 있는 **[!UICONTROL Edit]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 

@@ -1,19 +1,19 @@
 ---
 keywords: 자동 할당 만들기;A/B 테스트;자동 할당 활동;새 a/b 활동;자동 할당;최고 경험에 자동 할당;할당;자동 할당
-description: '[!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 [!UICONTROL Auto-Allocate] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
+description: '[!UICONTROL Visual Experience Composer]​(VEC)을(를) 사용하여 [!UICONTROL Auto-Allocate] A/B 테스트 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Auto-Allocate] 활동을 만드는 방법'
 feature: Auto-Allocate
 exl-id: 30bc95e0-4f5e-4d1f-bad2-7b20b8f3c7d2
-source-git-commit: 32a91a41cd182d3a55ded7dea8c1c6ea6f46aa71
+source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '901'
 ht-degree: 15%
 
 ---
 
 # [!UICONTROL Auto-Allocate] 활동 만들기
 
-[!DNL Target]을(를) 사용할 수 있는 페이지에서 바로 [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer] (VEC)를 사용하십시오.
+[!DNL Target]을(를) 사용할 수 있는 페이지에서 바로 [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)를 사용하십시오.
 
 [!DNL Target]은(는) [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Manual (Default)] 및 [!UICONTROL Auto-Target]. *A/B 테스트 개요*&#x200B;에서 [A/B 테스트 활동 유형](/help/main/c-activities/t-test-ab/test-ab.md#types)을 참조하세요.
 
@@ -43,7 +43,7 @@ ht-degree: 15%
 
    [!UICONTROL Visual Experience Composer]이(가) 열리고 URL에 지정된 페이지가 표시됩니다.
 
-1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 활동의 이름을 지정하려면 &quot;[!UICONTROL Untitled Activity]&quot; 옆에 있는 **[!UICONTROL Edit]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 
