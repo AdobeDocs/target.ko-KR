@@ -5,9 +5,9 @@ title: 호스트는 무엇이며 어떻게 사용할 수 있습니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: 0ab5b7d7cbfaef86b9a045883f597900dba72416
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1029'
 ht-degree: 17%
 
 ---
@@ -51,7 +51,7 @@ ht-degree: 17%
 
    기본적으로 새로 인식된 호스트는 [!UICONTROL Production] 환경에 배치됩니다. [!UICONTROL Production] 환경은 이러한 호스트에서 비활성 활동을 볼 수 없기 때문에 가장 안전한 환경입니다.
 
-1. (조건부) 호스트를 [!UICONTROL Development], [!UICONTROL Staging] 또는 다른 환경으로 이동하려면 **[!UICONTROL Move]** 아이콘(![이동 아이콘](/help/main/administrating-target/assets/icon-move.png))을 클릭합니다.
+1. (조건부) 호스트를 [!UICONTROL Development], [!UICONTROL Staging] 또는 다른 환경으로 이동하려면 **[!UICONTROL Move]** 아이콘(![이동 아이콘](/help/main/assets/icons/MoveTo.svg))을 클릭합니다.
 
 >[!NOTE]
 >
@@ -85,7 +85,7 @@ ht-degree: 17%
 
 >[!IMPORTANT]
 >
->**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html?lang=ko){target=_blank}이(가) 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
+>**보안 모범 사례**: [!DNL Target]을(를) 사용하는 경우 이 허용 목록에 추가하다의 ubox 기능은 [리디렉터](https://experienceleague.adobe.com/docs/target-dev/developer/implement-email/working-with-redirectors.html){target=_blank}가 탐색할 수 있는 도메인 목록도 제어합니다. ubox를 구현의 일부로 사용할 때 리디렉션할 도메인을 추가해야 합니다. 허용 목록에 추가하다를 지정하지 않고 [!DNL Adobe]을(를) 지정하지 않으면 리디렉션 URL을 확인할 수 없습니다.
 >
 >허용 목록이 환경보다 우선합니다. 허용 목록에 추가하다 기능을 사용하기 전에 허용 목록에 추가하다에서 허용된 호스트를 모두 지운 다음 호스트 목록에 만 나타납니다. 그런 후 호스트를 원하는 환경으로 이동할 수 있습니다.
 
@@ -103,7 +103,7 @@ ht-degree: 17%
 
 더 이상 필요하지 않은 호스트를 삭제할 수 있습니다.
 
-1. [!UICONTROL Hosts] 목록에서 **[!UICONTROL Delete]** 아이콘을 클릭합니다.
+1. [!UICONTROL Hosts] 목록에서 **[!UICONTROL Delete]** 아이콘(![삭제 아이콘](/help/main/assets/icons/DeleteOutline.svg))을 클릭합니다.
 1. **[!UICONTROL Delete]**&#x200B;을(를) 클릭하여 삭제를 확인합니다.
 
 >[!NOTE]
