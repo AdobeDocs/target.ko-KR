@@ -4,10 +4,10 @@ description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Tar
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
 workflow-type: tm+mt
-source-wordcount: '2721'
-ht-degree: 96%
+source-wordcount: '2678'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보
 
 **Target에서는 어떤 브라우저를 지원합니까?**
 
-자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko){target=_blank} 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
+자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
 
 ## 활동 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 경험 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -212,13 +212,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 작성 및 찾아보기 기능을 사용하여 선택한 페이지로 이동하고 경험을 작성하십시오.
 
-![vec2 이미지](assets/vec2.png)
-
-**안내가 있는 3부분 워크플로, 2단계(타기팅 페이지)에서 선택한 경험으로 이동할 수 있습니까?**
-
-2단계에서 경험 이름 앞에 있는 썸네일을 클릭하면 선택한 경험이 표시됩니다.
-
-![thumbnail_experiences 이미지](assets/thumbnail_experiences.png)
+![디자인 및 찾아보기 전환](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
 **저는 이전 Target 클래식 사용자입니다. 특정 사용 사례에 내 mbox를 활용할 수 있습니까?**
 
@@ -258,7 +252,7 @@ JSON 오퍼가 있는 [양식 기반 활동](/help/main/c-experiences/form-exper
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -287,7 +281,7 @@ Target은 사용자가 이러한 대상자를 추가할 때 이와 관련된 데
 
 **보고서를 어떻게 해석해야 합니까?**
 
-Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러 지표 선택, 표 및 그래프 보기, 평균 실행](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 과 같은 기능으로 보고서를 최대한 직관적인 방식으로 만들어 강력하지만 쉬운 보고서 분석을 가능하게 했습니다. 대상자에 대한 추가적인 분석을 위해 [Analytics for Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 활동을 사용하는 경우 Analytics를 살펴볼 수 있습니다.
+Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러 지표 선택, 테이블 및 그래프 보기, 평균 실행](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 과 같은 기능으로 보고서를 최대한 직관적인 방식으로 만들어 강력하지만 쉬운 보고서 분석을 가능하게 했습니다. 대상자에 대한 추가적인 분석을 위해 [Analytics for Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 활동을 사용하는 경우 Analytics를 살펴볼 수 있습니다.
 
 ## 응답 토큰 {#section_C2A7118B4B62482A9D630C2212112A3D}
 
@@ -309,4 +303,4 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}를 참조하십시오.
+API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}를 참조하십시오.
