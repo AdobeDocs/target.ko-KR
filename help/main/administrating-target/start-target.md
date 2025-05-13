@@ -5,9 +5,9 @@ title: ' [!DNL Target] 관리를 시작하려면 어디서 시작해야 합니�
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: 0618d39fc5966c64cceea8f5bcccb625fc243ebb
+source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
 workflow-type: tm+mt
-source-wordcount: '443'
+source-wordcount: '440'
 ht-degree: 32%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 32%
 
 ## [!DNL Target]&#x200B;(으)로 초대 받기 {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-[!DNL Adobe Admin Console]의 시스템 관리자가 귀하를 가입하도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행됩니다.
+[!DNL Adobe Admin Console]의 시스템 관리자가 귀하를 가입하도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com)에서 수행됩니다.
 
-자세한 내용은 *Experience Cloud 및 핵심 서비스 도움말*&#x200B;에서 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)를 참조하십시오.
+자세한 내용은 *Experience Cloud 및 핵심 서비스 도움말*&#x200B;에서 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다.
 
