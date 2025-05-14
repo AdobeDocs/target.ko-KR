@@ -6,14 +6,14 @@ feature: Overview
 hide: true
 hidefromtoc: true
 exl-id: f46d95f3-0ca3-4d96-92a7-b67a2c8a4678
-source-git-commit: d1afb007d3cd257a2682c5d3a1833bbc33cad1a8
+source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 1%
+source-wordcount: '234'
+ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Target]에서 [!DNL Adobe Experience Platform] [!DNL AI Assistant] 사용
+# [!DNL Adobe Experience Platform] [!DNL AI Assistant] 개요
 
 [!DNL Adobe Experience Platform]의 [!DNL AI Assistant]은(는) [!DNL Adobe] 개념을 탐색하고 이해하는 데 사용할 수 있는 사용자 인터페이스 기능입니다. [!DNL AI Assistant]은(는) [!DNL Adobe Target]을(를) 포함하여 [!DNL Adobe Experience Cloud]의 여러 제품에서 사용할 수 있습니다.
 
@@ -33,51 +33,16 @@ ht-degree: 1%
 >
 >현재 [!DNL Target]에서 고객 운영 통찰력을 사용할 수 없습니다.
 
-## [!DNL Target]의 [!DNL AI Assistant] 액세스
-
-[!DNL AI Assistant]에 액세스하려면 먼저 조직에서 추가 법률 약관에 동의해야 합니다. 그런 다음 Adobe 계정 팀에 연락하여 이러한 약관에 대한 지침을 확인하십시오.
-
-자세한 내용은 *[!DNL Experience Platform]* 설명서의 [액세스 [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access){target=_blank}를 참조하십시오.
-
-## [!UICONTROL AI Assistant]에 대한 사용자 권한 사용
-
-[!UICONTROL Target]에서 [!UICONTROL AI Assistant] 기능을 사용하려면 개별 사용자 권한을 명시적으로 사용하도록 설정해야 합니다.
-
-{{permissions-update}}
-
-1. [!DNL Target]의 **[!UICONTROL Administration]** 탭으로 이동합니다.
-1. 왼쪽 메뉴에서 **[!UICONTROL Users]**&#x200B;을(를) 선택합니다.
-1. 목록에서 관리할 사용자를 찾거나 검색 창을 사용하여 찾습니다.
-1. [!UICONTROL Target AI Assistant]에 대한 액세스 권한을 부여할 사용자의 **[!UICONTROL AI Permissions]** 열 위로 마우스를 가져갑니다.
-
-   권한 팝업이 표시됩니다.
-
-   ![AI 길잡이 설정](/help/main/c-intro/assets/ai-pop-up2.png)
-
-1. 토글을 사용하여 해당 사용자에 대해 **[!UICONTROL Target AI Assistant]** 권한을 활성화하거나 비활성화합니다.
-
-   ![AI 관리자 권한 팝업](/help/main/c-intro/assets/ai-pop-up.png)
-
-   활성화하면 사용자는 [!DNL Target] 내의 [!UICONTROL AI Assistant]에 액세스할 수 있습니다. 이 권한이 활성화된 사용자만 [!DNL Target] 인터페이스에서 [!UICONTROL AI Assistant] 기능을 볼 수 있습니다. 이 권한을 사용하면 AI 기반 도구에 대한 액세스를 제어하고 조직의 정책에 맞게 조정할 수 있습니다.
-
 ## [!DNL AI Assistant] 설명서
 
-[!DNL AI Assistant]에 대한 자세한 내용은 다음 설명서를 참조하세요.
+다른 [!DNL Adobe Experience Cloud] 설명서에 포함된 [!DNL AI Assistant]에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 | 주제 | 설명 |
 | --- | --- |
-| [[!DNL AI Assistant] in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/home){target=_blank} | [!DNL AI Assistant] 기능에 대해 알아봅니다. 방법 비디오가 포함되어 있습니다. |
-| [액세스 [!DNL AI Assistant] 위치 [!DNL Experience Platform]](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access){target=_blank} | 조직 및 해당 사용자의 [!DNL AI Assistant]에 액세스하는 방법을 알아봅니다. |
-|  [!DNL AI Assistant][&#128279;](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/questions){target=_blank}에 대한 질문 안내서 | [!DNL AI Assistant]을(를) 쿼리할 때 사용할 수 있는 예제 질문을 봅니다. |
-| [[!DNL AI Assistant] UI 안내서](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | [!DNL Adobe Experience Platform] UI에서 [!DNL AI Assistant]을(를) 사용하는 방법을 알아봅니다. |
-|  [!DNL AI Assistant]의 [개인 정보, 보안 및 거버넌스](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/privacy){target=_blank} | [!DNL Adobe Experience Platform]의 [!DNL AI Assistant]이(가) 개인 정보, 보안 및 거버넌스를 전면에 내세워 어떻게 만들어졌는지 알아봅니다. [!DNL AI Assistant]에서 기대할 수 있는 고객 신뢰 중심 기능에 대해 알아봅니다. |
-| [FAQ](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/faq){target=_blank} | [!DNL AI Assistant]에 대해 자주 묻는 질문에 대한 답변을 읽어 보십시오. |
-| [[!DNL Adobe Experience Platform] 릴리스 정보](https://experienceleague.adobe.com/ko/docs/experience-platform/release-notes/latest){target=_blank} | [!DNL AI Assistant]을(를) 포함하여 [!DNL Adobe Experience Platform]의 기존 기능 및 설명서에 대한 업데이트를 읽어 보십시오. |
-
-## 교육 비디오
-
-### AI Assistant 액세스
-
-[!DNL Adobe Experience Platform] 내에서 [!DNL AI Assistant]에 대한 액세스 및 사용 권한을 설정하는 방법에 대해 알아봅니다.
-
->[!VIDEO](https://video.tv.adobe.com/v/3436470/?learn=on&#x26;enablevpops)
+| [[!DNL AI Assistant] in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/home){target=_blank} | [!DNL AI Assistant] 기능에 대해 알아봅니다. 방법 비디오가 포함되어 있습니다. |
+| [액세스 [!DNL AI Assistant] 위치 [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank} | 조직 및 해당 사용자의 [!DNL AI Assistant]에 액세스하는 방법을 알아봅니다. |
+|  [!DNL AI Assistant]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/questions){target=_blank}에 대한 [질문 안내서 | [!DNL AI Assistant]을(를) 쿼리할 때 사용할 수 있는 예제 질문을 봅니다. |
+| [[!DNL AI Assistant] UI 안내서](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/ui-guide){target=_blank} | [!DNL Adobe Experience Platform] UI에서 [!DNL AI Assistant]을(를) 사용하는 방법을 알아봅니다. |
+|  [!DNL AI Assistant]의 [개인 정보, 보안 및 거버넌스](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/privacy){target=_blank} | [!DNL Adobe Experience Platform]의 [!DNL AI Assistant]이(가) 개인 정보, 보안 및 거버넌스를 전면에 내세워 어떻게 만들어졌는지 알아봅니다. [!DNL AI Assistant]에서 기대할 수 있는 고객 신뢰 중심 기능에 대해 알아봅니다. |
+| [FAQ](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/faq){target=_blank} | [!DNL AI Assistant]에 대해 자주 묻는 질문에 대한 답변을 읽어 보십시오. |
+| [[!DNL Adobe Experience Platform] 릴리스 정보](https://experienceleague.adobe.com/en/docs/experience-platform/release-notes/latest){target=_blank} | [!DNL AI Assistant]을(를) 포함하여 [!DNL Adobe Experience Platform]의 기존 기능 및 설명서에 대한 업데이트를 읽어 보십시오. |
