@@ -60,10 +60,10 @@ ht-degree: 6%
 
 [!DNL AI Assistant]의 [!DNL Adobe Experience Platform] 응용 프로그램에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441031/?learn=on&#x26;enablevpops&captions=kor)
 
 ### AI Assistant의 응답 유효성 검사
 
 [!DNL Adobe Experience Platform]의 [!DNL AI Assistant]이(가) 제공하는 응답을 확인하고 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3441746/?learn=on&#x26;enablevpops&captions=kor)
