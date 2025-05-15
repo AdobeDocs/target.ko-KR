@@ -4,10 +4,10 @@ description: 사용자 인터페이스를 숙지하고 보다 심층적인 정�
 title: ' [!DNL Target] UI는 어떻게 사용합니까?'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 1ab7bb6aef5982f13191ff4f0573e87aac815938
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 28%
+source-wordcount: '1387'
+ht-degree: 26%
 
 ---
 
@@ -39,25 +39,25 @@ ht-degree: 28%
 
 피드백에 대한 설명을 제공하고, 적용 가능한 파일 또는 스크린샷과 필요한 추가 세부 정보를 포함한 다음 **[!UICONTROL Submit]**&#x200B;을(를) 클릭하십시오.
 
-### [!DNL AI Assistant]&#x200B;(2025년 5월 20일 릴리스 예정)
+### [!DNL AI Assistant]
 
-(조건부) 조직에서 AI Assistant를 사용할 수 있는 권한을 부여 받은 경우 AI Assistant 아이콘을 클릭합니다.
+(조건부) 조직에서 [!DNL AI Assistant]을(를) 사용할 수 있는 권한을 부여한 경우 [!DNL AI Assistant] 아이콘을 클릭합니다.
+
+자세한 내용은 [Adobe Experience Platform AI Assistant 개요](/help/main/c-intro/ai-assistant.md)를 참조하십시오.
 
 ### 도움말
 
-도움말 아이콘을 사용하면 정보, 비디오, 블로그 등에 액세스하여 [!DNL Target] 을 보다 효과적으로 사용할 수 있습니다. 지원 티켓을 만들거나 지원 전화번호를 찾거나 Twitter를 통해 질문하거나 [!DNL Target]에 대한 피드백을 제공하여 [!DNL Target] 팀이 어떻게 하고 있는지 알 수 있습니다.
+[!UICONTROL Help] 아이콘( ![도움말 아이콘](/help/main/assets/icons/HelpOutline.svg))을 클릭하면 정보, 비디오, 블로그 등에 액세스하여 [!DNL Target]을(를) 보다 효과적으로 사용할 수 있습니다. 지원 티켓을 만들거나 지원 전화번호를 찾거나 Twitter를 통해 질문하거나 [!DNL Target]에 대한 피드백을 제공하여 [!DNL Target] 팀이 어떻게 하고 있는지 알 수 있습니다.
 
 ![도움말](/help/main/c-intro/assets/help.png)
 
-### 알림 및 공지 {#notifications-announcements}
+### 요청, 알림 및 공지 {#notifications-announcements}
 
-[!UICONTROL Notifications] 및 [!UICONTROL Announcements] 패널을 통해 [!DNL Adobe Target]에 대한 모든 정보를 최신 상태로 유지할 수 있습니다. 사전 알림을 통해 [!DNL Adobe Experience Cloud]개 솔루션 및 [!DNL Target]개 이벤트의 상태를 파악할 수 있습니다. 사전 알림은 중단 이벤트 및 유지 관리 이벤트를 알려 줍니다.
+[!UICONTROL Requests], [!UICONTROL Notifications] 및 [!UICONTROL Announcements] 패널을 사용하면 모든 항목 [!DNL Adobe Target]에 대한 최신 정보를 유지할 수 있습니다. 사전 알림을 통해 [!DNL Adobe Experience Cloud]개 솔루션 및 [!DNL Target]개 이벤트의 상태를 파악할 수 있습니다. 사전 알림은 중단 이벤트 및 유지 관리 이벤트를 알려 줍니다.
 
-알림을 보려면 헤더에서 벨 아이콘을 클릭합니다.
+알림을 보려면 헤더에서 [!UICONTROL Notifications] 아이콘(![알림 아이콘](/help/main/assets/icons/Bell.svg))을 클릭하십시오.
 
-알림 및 공지를 위한 ![벨 아이콘](assets/bell-icon.png)
-
-패널에 [!UICONTROL Notifications] 및 [!UICONTROL Announcements]에 대한 탭이 있습니다.
+패널에 [!UICONTROL Requests], [!UICONTROL Notifications] 및 [!UICONTROL Announcements]에 대한 탭이 있습니다.
 
 ![알림](assets/notifications.png)
 

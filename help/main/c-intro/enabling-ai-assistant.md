@@ -1,12 +1,13 @@
 ---
 keywords: ai 도우미, 인공 지능 도우미
-description: ' [!DNL AI Assistant] in[!DNL &#x200B; Adobe Target]을(를) 활성화하는 방법을 알아보세요.'
+description: ' [!DNL AI Assistant] in[!DNL  Adobe Target]을(를) 활성화하는 방법을 알아보세요.'
 title: ' [!DNL AI Assistant] in [!DNL Target]을(를) 활성화하려면 어떻게 해야 합니까?'
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 feature: Overview
-source-git-commit: b30c7e0bed23b87a34dae5d47bcbe80edd957bb3
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '205'
-ht-degree: 0%
+source-wordcount: '214'
+ht-degree: 5%
 
 ---
 
@@ -18,7 +19,7 @@ ht-degree: 0%
 
 [!DNL AI Assistant]에 액세스하려면 먼저 조직에서 추가 법률 약관에 동의해야 합니다. 그런 다음 Adobe 계정 팀에 연락하여 이러한 약관에 대한 지침을 확인하십시오.
 
-자세한 내용은 *[!DNL Experience Platform]* 설명서의 [액세스 [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access){target=_blank}를 참조하십시오.
+자세한 내용은 *[!DNL Experience Platform]* 설명서의 [액세스 [!DNL AI Assistant] in [!DNL Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform/ai-assistant/access){target=_blank}를 참조하십시오.
 
 ## [!UICONTROL AI Assistant]에 대한 사용자 권한 사용
 

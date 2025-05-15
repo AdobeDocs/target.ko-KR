@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3ff1ff8fc09bc1fc4d808d1c5763cf35ad968668
+source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
-source-wordcount: '279'
-ht-degree: 54%
+source-wordcount: '289'
+ht-degree: 52%
 
 ---
 
@@ -31,12 +31,14 @@ ht-degree: 54%
 
 [!DNL Target]에서 [!DNL AI Assistant]의 첫 번째 단계는 [!DNL Experience League] 설명서에 기반을 둔 중요한 제품 지식을 제공합니다. 프로필 스크립트를 설정하든, 오류를 해결하든 아니면 AEP Web SDK으로 업그레이드하든 관계없이 [!DNL AI Assistant]에서 다루었습니다.
 
+자세한 내용은 [Adobe Experience Platform AI Assistant 개요](/help/main/c-intro/ai-assistant.md)를 참조하십시오.
+
 ## 추가 릴리스 정보 및 버전 세부 정보
 
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 노트: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
