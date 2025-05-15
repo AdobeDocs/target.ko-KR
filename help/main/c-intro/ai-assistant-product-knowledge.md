@@ -3,7 +3,7 @@ keywords: ai 도우미, 인공 지능 도우미
 description: ' [!DNL AI Assistant]을(를) 통해  [!DNL Target] 제품 지식을 얻는 방법에 대해 알아봅니다.'
 title: 제품 지식을 얻으려면  [!DNL AI Assistant] in [!DNL Target] 을(를) 어떻게 사용합니까?
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
 source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
 workflow-type: tm+mt
