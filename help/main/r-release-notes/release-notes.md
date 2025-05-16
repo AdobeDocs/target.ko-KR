@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b1fb49d78b3a159c16e8ebb855ff175c26681da6
+source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
 workflow-type: tm+mt
-source-wordcount: '874'
-ht-degree: 36%
+source-wordcount: '987'
+ht-degree: 32%
 
 ---
 
@@ -18,6 +18,16 @@ ht-degree: 36%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Adobe Target] [!DNL AI Assistant] 릴리스(2025년 5월 16일)
+
+[!DNL Adobe Target]에 [!DNL AI Assistant]의 시작을 알려드리겠습니다! 이 강력한 사용자 인터페이스 기능은 [!DNL Target] 개념을 쉽게 탐색하고 이해할 수 있도록 설계되었습니다. [!DNL Target]을(를) 포함하여 [!DNL Adobe Experience Cloud]의 여러 제품에서 사용할 수 있습니다. [!DNL AI Assistant]이(가) 사용자의 경험을 혁신하기 위해 여기에 있습니다.
+
+[!UICONTROL Target]의 [!DNL AI Assistant]은(는) [!DNL Experience Platform]개의 응용 프로그램 및 서비스를 통해 워크플로를 가속화하는 데 사용할 수 있는 대화 도구입니다. [!DNL AI Assistant]을(를) 사용하여 전반적인 생산성을 높이고 제품 지식을 이해합니다.
+
+[!DNL Target]에서 [!DNL AI Assistant]의 첫 번째 단계는 [!DNL Experience League] 설명서에 기반을 둔 중요한 제품 지식을 제공합니다. 프로필 스크립트를 설정하든, 오류를 해결하든 아니면 AEP Web SDK으로 업그레이드하든 관계없이 [!DNL AI Assistant]에서 다루었습니다.
+
+자세한 내용은 [Adobe Experience Platform AI Assistant 개요](/help/main/c-intro/ai-assistant.md)를 참조하십시오.
 
 ## [!DNL Target Standard/Premium] 25.5.2(2025년 5월 8일)
 
@@ -62,7 +72,7 @@ ht-degree: 36%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
