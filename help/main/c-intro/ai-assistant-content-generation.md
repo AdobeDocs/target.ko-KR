@@ -20,7 +20,7 @@ Target에서 AI Assistant를 사용하여 텍스트 코드 조각을 맞춤화�
 
 ## 사전 요구 사항
 
-1.  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)의 [활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
+1. [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
 
    * 조직은 먼저 법률 약관에 동의해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
    * 관리자가 [!DNL AI Assistant]에 액세스할 수 있는 충분한 권한을 부여해야 합니다.
@@ -29,7 +29,7 @@ Target에서 AI Assistant를 사용하여 텍스트 코드 조각을 맞춤화�
 
 [!DNL AI Assistant]을(를) 사용하여 텍스트를 생성하려면:
 
-1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)(VEC) 내에서 VEC UI의 오른쪽 레일에 있는 **[!UICONTROL Show Content Assistant](![Show Content Assistant icon](/help/main/assets/icons/MagicWand.svg) ) 아이콘**&#x200B;을 클릭합니다.
+1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)(VEC) 내에서 VEC UI의 오른쪽 레일에 있는 **[!UICONTROL Show Content Assistant] (![Show Content Assistant icon](/help/main/assets/icons/MagicWand.svg) ) 아이콘**&#x200B;을 클릭합니다.
 
    ![Content Assistant 표시 아이콘](/help/main/c-intro/assets/ai-assistant-conntet-generation-icon.png)
 
