@@ -4,9 +4,9 @@ description: ' [!DNL AI Assistant]을(를) 통해  [!DNL Target] 제품 지식�
 title: 제품 지식을 얻으려면  [!DNL AI Assistant] in [!DNL Target] 을(를) 어떻게 사용합니까?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '319'
 ht-degree: 6%
 
 ---
@@ -23,12 +23,18 @@ ht-degree: 6%
 * 활동을 저장할 때 오류가 발생합니다. 어떤 의미입니까?
 * at.js 구현을 AEP Web SDK으로 업그레이드해야 합니까?
 
-[!DNL AI Assistant]에 액세스하려면:
+## [!DNL AI Assistant] 액세스
 
-1. [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
+제품 지식을 위해 [!DNL AI Assistant]에 액세스하려면:
+
+1.  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)의 [활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
 
    * 조직은 먼저 법률 약관에 동의해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
    * 관리자가 [!DNL AI Assistant]에 액세스할 수 있는 충분한 권한을 부여해야 합니다.
+
+## AI Assistant 사용 및 제품 지식 얻기
+
+제품 지식을 위해 [!DNL AI Assistant]에 액세스하려면:
 
 1. [!DNL Target] 내에서 UI의 오른쪽 상단 모서리에 있는 **[!DNL AI Assistant]아이콘**&#x200B;을 클릭합니다.
 
@@ -60,10 +66,10 @@ ht-degree: 6%
 
 [!DNL AI Assistant]의 [!DNL Adobe Experience Platform] 응용 프로그램에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441031/?learn=on&#x26;enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### AI Assistant의 응답 유효성 검사
 
 [!DNL Adobe Experience Platform]의 [!DNL AI Assistant]이(가) 제공하는 응답을 확인하고 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441746/?learn=on&#x26;enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)

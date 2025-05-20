@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: 5ae34c65a9c65a9385c6041756a4835af29e61d1
+source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1283'
 ht-degree: 85%
 
 ---
@@ -31,6 +31,7 @@ ht-degree: 85%
       + [AI Assistant 개요](/help/main/c-intro/ai-assistant.md)
       + [AI Assistant 활성화](/help/main/c-intro/enabling-ai-assistant.md)
       + [AI Assistant를 사용하여 제품 지식 얻기](/help/main/c-intro/ai-assistant-product-knowledge.md)
+      + [콘텐츠 생성에 AI Assistant 사용](/help/main/c-intro/ai-assistant-content-generation.md)
    + Adobe Target 시작 키트 {#welcome}
       + [Target 시작 키트 개요](/help/main/c-intro/target-welcome-kit.md)
       + [1장: 소개](/help/main/c-intro/target-welcome-kit-1.md)
