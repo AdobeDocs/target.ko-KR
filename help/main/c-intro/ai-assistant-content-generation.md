@@ -75,7 +75,7 @@ Target에서 AI Assistant를 사용하여 텍스트 코드 조각을 맞춤화�
 
 ### 콘텐츠 생성을 위해 AI Assistant를 사용하여 콘텐츠 생성
 
->[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor">https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor)
 
 
 
