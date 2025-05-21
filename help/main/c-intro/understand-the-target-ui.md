@@ -4,10 +4,10 @@ description: 사용자 인터페이스를 숙지하고 보다 심층적인 정�
 title: ' [!DNL Target] UI는 어떻게 사용합니까?'
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 84f2e590ee9fb984a3b272240b0373072057ca32
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 26%
+source-wordcount: '1355'
+ht-degree: 23%
 
 ---
 
@@ -63,6 +63,12 @@ ht-degree: 26%
 
 다음 섹션에는 각 탭과 알림 및 공지를 구성하는 방법에 대한 정보가 포함되어 있습니다.
 
+#### [!UICONTROL Requests]
+
+[!UICONTROL Requests] 패널에서 [!DNL Adobe] 제품 및 솔루션, 동료 사용자와의 공동 작업 및 기타 관련 업데이트에 대한 중요한 정보를 받습니다.
+
+다른 사용자가 개체를 승인하거나 개체에 대한 액세스 권한을 부여하라는 요청을 보내면 해당 요청이 [!UICONTROL Requests] 패널에 표시됩니다.
+
 #### 알림 {#notifications}
 
 [!DNL Target] 이벤트 알림에는 다음이 포함됩니다.
@@ -97,9 +103,9 @@ ht-degree: 26%
    * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
-원하는 알림 위로 마우스를 이동한 다음 확인 표시를 클릭하여 개별 알림을 읽은 상태로 표시할 수 있습니다. 패널 하단의 [!UICONTROL "Mark as Read"] 또는 [!UICONTROL "View All"]을(를) 클릭하여 모든 알림을 읽음으로 표시하거나 모든 알림을 볼 수 있습니다.
+원하는 알림 위로 마우스를 이동한 다음 [!UICONTROL Mark as Read]&#x200B;(![읽은 상태로 표시 아이콘](/help/main/assets/icons/CheckmarkCircle.svg) ) 아이콘을 클릭하여 개별 알림을 읽은 상태로 표시할 수 있습니다. 패널 하단의 [!UICONTROL Mark as Read] 또는 [!UICONTROL View All]을(를) 클릭하여 모든 알림을 읽음으로 표시하거나 모든 알림을 볼 수 있습니다.
 
-알림을 마우스로 가리키고 &quot;[!UICONTROL Remind me]&quot; 아이콘을 클릭한 다음 알림을 받으려는 시간(5분, 15분, 1시간 또는 내일)을 선택하여 알림을 다시 받도록 미리 알림을 설정할 수도 있습니다.
+알림 위로 마우스를 이동하고 [!UICONTROL Snooze]&#x200B;(![다시 알림 아이콘](/help/main/assets/icons/Clock.svg)) 아이콘을 클릭하여 다시 알림을 받도록 미리 알림을 설정할 수도 있습니다. 그런 다음 5분, 15분, 1시간 또는 내일 중 알림을 받으려는 시점을 선택할 수 있습니다.
 
 #### 공지
 
@@ -111,33 +117,31 @@ ht-degree: 26%
 
 알림 환경 설정을 편집하려면:
 
-1. 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL Notifications]**&#x200B;을(를) 클릭합니다.
-1. **[!UICONTROL Target]**&#x200B;에서 **[!UICONTROL Customize]**&#x200B;을(를) 클릭합니다.
-1. 알림을 수신할 범주 선택 또는 선택 해제:
+1. [!UICONTROL Edit Preferences]&#x200B;( ![환경 설정 편집 아이콘](/help/main/assets/icons/Setting.svg) ) 아이콘을 클릭한 다음 왼쪽 레일에서 **[!UICONTROL Notifications]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Target]**&#x200B;에서 알림을 받을 방법을 선택하십시오.
 
-   * 요청: 다른 사용자가 개체를 승인하거나 개체에 대한 액세스 권한을 부여하기 위한 요청을 전송하는 경우입니다. 이 범주에서 구독을 취소할 수 없습니다.
-   * 나에게 할당됨: 다른 사용자가 개체를 귀하에게 할당할 때.
-   * 언급: 다른 사용자가 귀하를 댓글에서 언급할 때.
-   * 새 릴리스: 액세스 권한이 있는 제품 또는 서비스에 새 릴리스를 사용할 수 있는 경우.
-   * 나와 공유: 다른 사용자가 사용자와 오브젝트를 공유할 때입니다.
-   * 콘텐츠 업데이트: 다른 사용자가 귀하가 만들었거나 팔로우하는 개체를 편집, 삭제 또는 댓글을 다는 경우.
-   * 기타:
+   * [!UICONTROL In-app]
+   * [!UICONTROL Email]
+   * [!DNL Slack]
+
+1. 높은 우선 순위로 간주할 범주를 선택합니다.
 
    >[!NOTE]
    >
-   >[!DNL Target]에 적용되는 알림 범주는 &quot;새 릴리스&quot; 및 &quot;콘텐츠 업데이트&quot;뿐입니다. 다른 범주는 다른 Adobe 솔루션에 적용됩니다.
+   >&quot;[!UICONTROL New releases]&quot; 및 &quot;[!UICONTROL Updates on content]&quot;은(는) [!DNL Target]에 적용되는 유일한 알림 범주입니다. 다른 범주는 다른 [!DNL Adobe] 솔루션에 적용됩니다.
 
-1. 높은 우선 순위로 간주할 범주를 선택합니다.
 1. 브라우저에 경고를 표시할 알림을 선택합니다.
 
    이러한 경고는 브라우저의 오른쪽 상단 모서리에 몇 초 동안 표시됩니다. 우선 순위가 높은 범주, 모든 범주를 확인하거나 모든 알림 팝업을 숨기도록 선택할 수 있습니다. 알림을 닫을 때까지 알림을 표시할지 또는 알림 기간을 구성할 수도 있습니다.
 
 1. 알림 이메일을 받을 빈도 선택:
 
-   * 이메일 전송 안 함
-   * 인스턴트 알림
-   * 일별 요약
-   * 주별 다이제스트
+   * [!UICONTROL Don't send emails]
+   * [!UICONTROL Instant notifications]
+   * [!UICONTROL Daily digest]
+   * [!UICONTROL Weekly digest]
+
+1. 작업 공간에 대한 Slack 알림을 구성합니다.
 
 ### 앱 전환기
 
@@ -151,13 +155,11 @@ ht-degree: 26%
 
 ![프로필 아바타](/help/main/c-intro/assets/change-language.png)
 
-이제 [!DNL Target] 헤더 왼쪽에 있는 탭에 대해 설명하겠습니다.
+이제 [!DNL Target] 헤더의 왼쪽에 있는 탭에 대해 설명하겠습니다.
 
 ## 활동
 
 [!DNL Target]을(를) 열 때 **[!UICONTROL Activities]** 목록이 기본 보기입니다. 이 페이지에서 활동을 만들고 기존 활동을 관리할 수 있습니다.
-
-![활동 목록](/help/main/c-intro/assets/activities-list.png)
 
 [!DNL Target]에서 사용할 수 있는 활동 유형에 대한 자세한 내용과 [!UICONTROL Activity] 목록의 사용자 인터페이스에 대한 자세한 내용은 [활동](/help/main/c-activities/activities.md)을 참조하세요.
 
@@ -165,17 +167,13 @@ ht-degree: 26%
 
 대상을 만들고 기존 대상을 관리할 수 있는 [!UICONTROL Audiences] 목록을 표시하려면 **[!UICONTROL Audiences]** 탭을 클릭하십시오.
 
-![대상자 목록](/help/main/c-intro/assets/audience-list.png)
-
-대상은 타깃팅된 활동을 보는 유사한 활동 참여자의 그룹입니다. 대상자는 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. [!UICONTROL Audience] 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅할 수 있습니다. 방문자가 타깃 대상자의 일부로 식별되면 [!DNL Target] 은 활동 작성 중에 정의된 기준에 따라 표시할 경험을 결정합니다.
+대상은 타깃팅된 활동을 보는 유사한 활동 참여자의 그룹입니다. 대상은 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. [!UICONTROL Audience] 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅할 수 있습니다. 방문자가 타깃 대상자의 일부로 식별되면 [!DNL Target] 은 활동 작성 중에 정의된 기준에 따라 표시할 경험을 결정합니다.
 
 [!DNL Target]의 대상 유형에 대한 자세한 내용과 [!UICONTROL Audience] 목록의 사용자 인터페이스에 대한 자세한 내용은 [대상 만들기](/help/main/c-target/c-audiences/create-audience.md)를 참조하십시오.
 
 ## 오퍼
 
 경험 및 오퍼를 만들고 기존 경험 및 오퍼를 관리할 수 있는 [!UICONTROL Offers] 목록을 표시하려면 **[!UICONTROL Offers]** 탭을 클릭하십시오.
-
-![오퍼 목록](/help/main/c-intro/assets/offers.png)
 
 경험은 구매 단계 또는 다른 논리적 페이지 순서를 구성하는 페이지, 전체 웹 페이지 또는 페이지 세트에 있는 오퍼, 이미지, 텍스트, 버튼, 비디오, 이러한 여러 요소의 조합일 수 있습니다. 음성 도우미, 고객 서비스 스크립트 또는 음료 자판기의 개인화된 향에 대한 답변일 수도 있습니다. [!DNL Target] 활동에서 경험을 테스트하거나 개인화합니다.
 
@@ -187,9 +185,7 @@ ht-degree: 26%
 
 >[!NOTE]
 >
->권장 사항 활동은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다 . 이 기능은 [!DNL Target Standard] 라이선스가 없는 [!DNL Target Premium] 에서는 사용할 수 없습니다. 자세한 내용은 [Target 소개](/help/main/c-intro/intro.md#premium) 에서 *Target Premium* 을 참조하십시오.
-
-![추천](/help/main/c-intro/assets/recommendations.png)
+>[!UICONTROL Recommendations] 활동은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!UICONTROL Recommendations] 활동은 [!DNL Target Premium] 라이선스가 없는 [!DNL Target Standard]에서 사용할 수 없습니다. 자세한 내용은 [Target 소개](/help/main/c-intro/intro.md#premium) 에서 *Target Premium* 을 참조하십시오.
 
 [!UICONTROL Recommendations] 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
@@ -199,8 +195,10 @@ ht-degree: 26%
 
 [!UICONTROL Administration] 페이지에 액세스하려면 **[!UICONTROL Administration]** 탭을 클릭하십시오.
 
-![관리 페이지](/help/main/c-intro/assets/administration.png)
-
-[!UICONTROL Administration] 페이지에서는 [!UICONTROL Visual Experience Composer]&#x200B;(VEC), 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Target]을(를) 관리할 수 있습니다.
+[!UICONTROL Administration] 페이지에서는 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 구성 설정, 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰, 사용자 및 권장 사항을 포함하여 [!DNL Target]을(를) 관리할 수 있습니다.
 
 자세한 내용 및 사용자 인터페이스에 대해 알아보려면 [Target 관리 개요](/help/main/administrating-target/administrating-target.md) 를 참조하십시오.
+
+## 시각적 경험 작성기(VEC)
+
+[!DNL Target] UI 외에 VEC UI도 잘 알고 있어야 합니다. 자세한 내용은 [[!DNL Visual Experience Composer] 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 참조하세요.

@@ -4,9 +4,9 @@ description: ' [!DNL AI Assistant]을(를) 통해  [!DNL Target] 제품 지식�
 title: 제품 지식을 얻으려면  [!DNL AI Assistant] in [!DNL Target] 을(를) 어떻게 사용합니까?
 feature: Overview
 exl-id: 48a6a9d3-07e8-4858-b15b-48d182161a76
-source-git-commit: 04e06151e87df0fea7b4eacbe4993dc7fb3702e2
+source-git-commit: 41889716a2793c846085d765d5e6f9db0fc70c30
 workflow-type: tm+mt
-source-wordcount: '319'
+source-wordcount: '316'
 ht-degree: 6%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 6%
 
 제품 지식을 위해 [!DNL AI Assistant]에 액세스하려면:
 
-1. [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
+1.  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)의 [활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
 
    * 조직은 먼저 법률 약관에 동의해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
    * 관리자가 [!DNL AI Assistant]에 액세스할 수 있는 충분한 권한을 부여해야 합니다.
@@ -54,11 +54,11 @@ ht-degree: 6%
    >
    >AI가 생성하는 답변은 부정확하거나 오해의 소지가 있을 수 있습니다. 답변과 소스를 다시 한 번 확인하시기 바랍니다.
 
-1. (선택 사항) AI Assistant에 피드백을 제공합니다.
+1. (선택 사항) [!DNL AI Assistant]에게 피드백을 제공하십시오.
 
-   * Thumbs Up 아이콘(![Thumbs Up 아이콘](/help/main/assets/icons/ThumbUp.svg) )을 클릭하여 응답이 올바른지 [!DNL AI Assistant]에 알립니다.
-   * Thumbs Down 아이콘(![Thumbs Down 아이콘](/help/main/assets/icons/ThumbDown.svg) )을 클릭하여 응답이 잘못되었음을 [!DNL AI Assistant]에 알립니다.
-   * 보고서 결과 아이콘(![보고서 결과 아이콘](/help/main/assets/icons/Flag.svg))을 클릭하여 [!DNL AI Assistant]에 문제를 보고합니다.
+   * Thumbs up ( ![Thumbs up icon](/help/main/assets/icons/ThumbUp.svg) ) 아이콘을 클릭하여 응답이 올바른지 [!DNL AI Assistant]에 알립니다.
+   * Thumbs down( ![Thumbs down 아이콘](/help/main/assets/icons/ThumbDown.svg)) 아이콘을 클릭하여 응답이 잘못되었음을 [!DNL AI Assistant]에 알립니다.
+   * 보고서 결과( ![보고서 결과 아이콘](/help/main/assets/icons/Flag.svg)) 아이콘을 클릭하여 [!DNL AI Assistant]에 문제를 보고합니다.
 
 ## 교육 비디오
 
@@ -66,10 +66,10 @@ ht-degree: 6%
 
 [!DNL AI Assistant]의 [!DNL Adobe Experience Platform] 응용 프로그램에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441031/?learn=on&#x26;enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3441024/?learn=on&#x26;enablevpops)
 
 ### AI Assistant의 응답 유효성 검사
 
 [!DNL Adobe Experience Platform]의 [!DNL AI Assistant]이(가) 제공하는 응답을 확인하고 확인하는 방법을 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3441746/?learn=on&#x26;enablevpops&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3441738/?learn=on&#x26;enablevpops)
