@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 63df83fd7479c7be7e4cd4c08501ab17511a41fb
+source-git-commit: dc9797cc0afdb3fed5b4bb95cf134e702cec42d7
 workflow-type: tm+mt
-source-wordcount: '987'
-ht-degree: 32%
+source-wordcount: '1372'
+ht-degree: 26%
 
 ---
 
@@ -18,6 +18,32 @@ ht-degree: 32%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 25.5.3(2025년 5월 22일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* [!UICONTROL Activities] 목록의 이름별 검색 기능이 다중 단어 쿼리에서 올바르게 작동하지 않는 문제를 해결했습니다. (TGT-52529)
+* [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에서 경험을 제외하지 못하는 문제를 해결했습니다. (TGT-52383)
+* AP 활동에서 콘텐츠를 관리할 때 [!UICONTROL Filter Rules]에서 &quot;[!UICONTROL Contains]&quot; 옵션이 누락되는 문제를 해결했습니다. (TGT-52384)
+* [!DNL Target]의 내부 시스템에서 `optionLocalId` 값을 사용하여 기본 오퍼를 추적하고 보고하는 방법과 관련된 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동의 보고 불일치를 수정했습니다.
+* QA 링크가 의도한 활동 경험을 전달하지 못하는 문제를 해결했습니다. (TGT-52163)
+* [!UICONTROL Approver] 권한이 있는 사용자가 라이브 활동을 편집할 수 없도록 잘못 차단되어 &quot;액세스 거부됨&quot; 오류 메시지가 표시되는 문제를 해결했습니다. (TGT-52416)
+* 업데이트된 [!DNL Target] UI의 특정 활동에 대해 대상 세분화가 표시되지 않는 문제가 해결되었습니다. (TGT-52057)
+* 업데이트된 UI에서 대상 세분화 및 활동 대상이 반전되는 문제가 해결되었습니다. (TGT-52158)
+* 임시 오퍼를 생성하여 오퍼가 중복되던 문제를 수정했습니다. (TGT-51938)
+* 오퍼 업데이트를 차단하고 &quot;잘못된 사용자&quot; 오류를 잘못 표시하는 문제를 해결했습니다. (TGT-52361)
+* 기존 활동을 저장할 수 없어 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. (TGT-52422)
+* 코드를 변경하지 않은 경우에도 기존 HTML 오퍼 편집을 차단하여 저장 시 &quot;잘못된 사용자 입력&quot; 오류를 트리거하는 문제를 해결했습니다. (TGT-52351)
+* [!DNL Target]이(가) 웹 사이트 URL에서 &quot;#&quot; 문자를 인식하지 못하게 하는 문제를 해결했습니다. (TGT-52093)
+* [!DNL Recommendations] 활동을 편집하여 프로모션을 추가하거나 업데이트하지 못했으며, 이로 인해 저장 실패 및 프로모션 중복이 발생하는 문제를 해결했습니다. (TGT-52343)
+* [!DNL Recommendations] 활동에서 기준이나 디자인을 변경할 수 없어 &quot;잘못된 JSON: 인식할 수 없는 속성 이름&quot; 오류가 발생하는 문제를 해결했습니다. (TGT-52375)
+* [!DNL Recommendations] 활동에 대한 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 시퀀스 기준이 올바르게 표시되지 않는 문제가 수정되었습니다. (TGT-52435)
+* [!DNL Adobe Experience Platform Web SDK]을(를) 사용할 때 SPA 페이지에서 보기가 올바르게 식별되지 않는 문제를 해결했습니다. (TGT-52106)
+* 일괄 처리 작업 페이로드에 포함되더라도 ODS(온디바이스 의사 결정) 세부 사항이 올바르게 저장되지 않는 문제가 해결되었습니다. (TGT-52406)
+* 편집 중에 읽고 업데이트할 수 있는 `audienceMetadata` 필드를 활동에 추가했습니다. (TGT-51004)
+* 대상 기간이 잘못된 경우 사용자에게 경고하는 오류 메시지가 추가되었습니다. (TGT52522)
+* 유형이 다른 중복 대상을 지원하도록 활동 구조가 업데이트되었습니다. (TGT-51200)
 
 ## [!DNL Adobe Target] [!DNL AI Assistant] 릴리스(2025년 5월 16일)
 
@@ -72,7 +98,7 @@ ht-degree: 32%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
