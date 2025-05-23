@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: dc9797cc0afdb3fed5b4bb95cf134e702cec42d7
+source-git-commit: 15aa5cc44cd610dd330b5c1fb4f0a771f71b2f84
 workflow-type: tm+mt
-source-wordcount: '1372'
-ht-degree: 26%
+source-wordcount: '1670'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,31 @@ ht-degree: 26%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## Target UI 버전 전환 중단(2025년 5월 23일) {#toggle}
+
+새 [!DNL Target] 사용자 인터페이스의 롤아웃이 **2025년 5월 27일**&#x200B;까지 완료됩니다. 이 시점에서 모든 고객은 최신 UI 버전에 액세스할 수 있습니다.
+
+**2025년 6월 22일**&#x200B;부터 UI 버전 토글이 제거됩니다. 모든 사용자는 이전 버전으로 되돌릴 옵션 없이 새 인터페이스로 영구적으로 전환됩니다.
+
+**UI 버전 전환에 대한 중요 정보**
+
+토글 단추를 사용하여 업데이트된 [!DNL Target] UI와 레거시 버전 간을 전환할 수 있는 임시 기능을 제공하고 있습니다. 이 옵션은 UI 롤아웃의 마지막 단계 동안에만 사용할 수 있습니다.
+
+![Target UI 버전 전환](/help/main/r-release-notes/assets/toggle.png)
+
+롤아웃이 완료되면 토글이 제거되고 모든 사용자가 **2025년 6월 22일**&#x200B;에 업데이트된 UI로 영구적으로 전환됩니다. Adobe에서는 이 기능이 곧 단계적으로 중단되므로 미리 계획을 수립하는 것이 좋습니다.
+
+**UI 전환 동작 제한**
+
+* **새 활동의 가시성**: 기존 UI로 다시 전환하면 업데이트된 UI에서 만들어진 활동이 표시되지 않습니다.
+* **기존 활동 편집**: 업데이트된 UI를 사용하는 동안 기존 활동(원래 기존 UI에서 만들어짐)에 대한 변경 사항이 웹 사이트에 게시됩니다. 그러나 다시 전환하는 경우 이러한 업데이트가 이전 UI에 표시되지 않습니다. 이전 UI에서 마지막으로 수행한 업데이트만 표시됩니다.
+* **활동 세부 정보의 일관성**: 사용하는 UI에 관계없이 가장 최근의 변경 내용이 라이브 웹 사이트에 반영됩니다. 하지만 기존 UI에는 해당 버전 내에서 변경된 최신 변경 사항만 표시됩니다. 업데이트된 UI에서 편집된 활동이 기존 UI에 표시되는 것과 다른 경우 혼동을 일으킬 수 있습니다.
+
+업데이트된 UI에 대한 자세한 내용은 이전 릴리스에 대한 다음 참고 사항을 참조하십시오.
+
+* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)
+* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1)
 
 ## [!DNL Target Standard/Premium] 25.5.3(2025년 5월 22일)
 
@@ -98,7 +123,7 @@ ht-degree: 26%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
