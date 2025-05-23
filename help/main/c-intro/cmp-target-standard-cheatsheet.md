@@ -4,36 +4,36 @@ description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Tar
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 7dc7f6f053fa935c0166edde3e0fe09d161a7a67
+source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
 workflow-type: tm+mt
-source-wordcount: '2678'
-ht-degree: 97%
+source-wordcount: '2623'
+ht-degree: 81%
 
 ---
 
 # Target 최적화 및 개인화 FAQ
 
-Adobe Target의 기능 사용에 대한 자주 묻는 질문과 자세한 정보로 연결되는 링크 목록입니다.
+[!DNL Adobe Target]의 기능 사용에 대한 FAQ 목록, 자세한 정보 및 링크.
 
 ## 일반 정보 {#section_CE5713B5AAC341C9A75586C107797FA3}
 
-**다른 고객이 더 나은 결과를 위해 Adobe Target을 어떻게 활용하는지를 알려면 어떻게 해야 합니까?**
+**다른 고객이 더 나은 결과를 위해 [!DNL Target]을(를) 어떻게 활용했는지 어떻게 알 수 있습니까?**
 
 다음은 [고객 성공 사례](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)의 일부에 불과합니다. 여러분과 같은 고객이 어떻게 Target을 활용하여 최적화 및 개인화를 향상시킴으로써 비즈니스 목표를 달성하는지 확인하십시오.
 
 이러한 사례 연구 일부에서는 Adobe Target Premium의 기능을 활용했습니다.
 
-**최신 Target 기능은 어디에서 확인할 수 있습니까?**
+**최신 [!DNL Target] 기능에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
 최신 릴리스에 대한 세부 내용을 확인하려면 [릴리스 정보](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) 를 참조하십시오. 모든 [이전 릴리스](/help/main/r-release-notes/release-notes-for-previous-releases.md) 에 대한 정보도 온라인으로 이용할 수 있습니다.
 
-**Adobe에서는 Target에 대한 답변과 추가 정보를 찾을 수 있는 커뮤니티/포럼을 운영하고 있습니까?**
+**[!DNL Adobe]에 [!DNL Target]에 대한 답변과 추가 정보를 찾을 수 있는 커뮤니티/포럼이 있습니까?**
 
 [Target 커뮤니티 포럼](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42)을 확인하십시오. 여기서는 고객에게 도움을 드리며, 보다 중요한 점은 여러분과 같은 Adobe Target 실무 담당자들이 서로에게 도움을 줄 수 있다는 것입니다. 결과적으로 커뮤니티 및 포럼의 성공은 해당 구성원들의 적극적인 참여에 달려 있습니다. 커뮤니티에 참여하고 질문에 대한 답변을 찾고 답변을 제공해 주시기 바랍니다.
 
-**Target에서는 어떤 브라우저를 지원합니까?**
+**[!DNL Target]에서 지원하는 브라우저는 무엇입니까?**
 
-자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko){target=_blank} 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
+자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
 
 ## 활동 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -99,7 +99,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 활동을 활성화해야 합니다. 라이브 활동만 지정된 일정을 준수합니다. 종료 날짜에 도달하면 활동이 종료됨 상태로 전환됩니다.
 
-**타기팅 단계만 변경하고, 안내가 있는 전체 3단계 워크플로(편집용)는 거치지 않을 수 있습니까?**
+**[!UICONTROL Targeting] 단계만 변경하고, 안내가 있는 전체 3단계 워크플로(편집용)는 거치지 않을 수 있습니까?**
 
 [활동 개요 페이지에서 원하는 단계를 직접 입력](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 한 후 저장 및 닫기 선택 사항으로 해당 단계를 종료하여 쉽게 수행할 수 있습니다.
 
@@ -111,7 +111,7 @@ Target에는 지표 종속성 기능을 통해 이를 수행할 수 있는 강�
 
 QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-activity-qa/activity-qa.md) 을 사용하십시오. 활동이 라이브 상태가 된 후에 의도에 맞으며 테스트한 대로 작동되도록 하려면 QA 팀과 링크를 공유하고, 보고 작업을 비롯한 활동을 완전히 테스트할 수도 있습니다.
 
-**Target의 의사 결정 능력을 사용하여 SPA(단일 페이지 애플리케이션) 또는 서버측 통합에 사용할 수 있는 경험/오퍼를 받으려면 어떻게 해야 합니까?**
+**SPA(단일 페이지 애플리케이션) 또는 서버측 통합에 사용할 수 있는 경험/오퍼를 받으려면 [!DNL Target]의 의사 결정 능력을 어떻게 사용할 수 있습니까?**
 
 [JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) 가 있는 [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 의 기능을 사용하여 목표를 달성할 수 있습니다.
 
@@ -128,7 +128,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 ## 대상자 {#section_FA6314777ABC46D8B198D6F388051460}
 
-**활동에 고유한 대상자 세그먼트를 활동에서 만들 수 있습니까? 이러한 대상자는 재사용 요인이 없으므로 대상자 라이브러리에서 만들고 싶지 않습니다.**
+**활동에 고유한 대상자 세그먼트를 활동에서 만들 수 있습니까? 이러한 대상은 재사용 요인이 없으므로 [!UICONTROL Audience Library]에서 만들지 않습니다.**
 
 활동에 대해 로컬인 대상자를 정의하려면 [활동 전용 대상자 기능](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) 을 사용하십시오.
 
@@ -150,12 +150,12 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 [Target의 안내가 있는 3가지 부분 워크플로의 2단계(타기팅 페이지)](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) 에서 사용할 수 있는 백분율 할당 컨트롤을 사용하여 어떤 방식으로 활동 설정을 시작할지 결정하십시오.
 
-**또한 Adobe Analytics가 있으며 Target에서 이를 활용하려고 합니다. 두 가지 솔루션을 통합하여 어떤 핵심 기능을 얻을 수 있습니까?**
+**또한 [!DNL Adobe Analytics]이(가) 있으며 [!DNL Target]에서 이를 활용하려고 합니다. 두 가지 솔루션을 통합하여 어떤 핵심 기능을 얻을 수 있습니까?**
 
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 경험 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -164,17 +164,17 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 제공된 단일 URL에 대한 경험을 만드는 동안 구조가 유사한 여러 페이지를 활동에 포함하도록 [템플릿 규칙](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) 을 확인하십시오.
 
-**VEC(시각적 경험 작성기)에서 내 페이지를 로드하려고 할 때 &quot;브라우저에서 스크립트가 로드되도록 허용&quot; 메시지가 표시됩니다. 이 문제를 방지하려면 어떻게 해야 합니까?**
+**VEC([!UICONTROL Visual Experience Composer])에서 내 페이지를 로드하려고 할 때 &quot;브라우저에서 스크립트가 로드되도록 허용&quot; 메시지가 표시됩니다. 이 문제를 방지하려면 어떻게 해야 합니까?**
 
 이 문제는 사이트에 HTTP 리소스와 HTTPS 리소스를 모두 가져오는 사이트가 혼합된 콘텐츠가 있기 때문입니다. IT 팀에 HTTPS로 완전히 이동할 것을 요청하십시오.
 
 이렇게 되기 전까지는 [브라우저에서 혼합 콘텐츠 사용](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)의 지침에 따라 브라우저에서 혼합 콘텐츠를 로드할 수 있도록 하십시오. 이는 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
 
-**Target at.js 라이브러리가 아직 배포되지 않았더라도 사이트에서 VEC(시각적 경험 작성기)를 사용해볼 수 있습니까?**
+**at.js 라이브러리 [!DNL Target]이(가) 아직 배포되지 않았더라도 사이트에서 VEC([!UICONTROL Visual Experience Composer])를 사용해볼 수 있습니까?**
 
 [고급 경험 작성기](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)를 사용하여 페이지를 로드해 보십시오.
 
-**내 사이트가 VEC(시각적 경험 작성기) 내에서 로드되지 않는 이유는 무엇입니까?**
+**내 사이트가 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 내에서 로드되지 않는 이유는 무엇입니까?**
 
 도움말 페이지에 설명된 [문제 해결 정보](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4) 를 사용해 보십시오. 이 접근 방식 중 어느 것으로도 문제가 해결하지 않으면 [Adobe 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) 에 문의하십시오.
 
@@ -186,7 +186,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 [모바일 뷰포트](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5) 기능을 사용해 보십시오. 이 기능은 고급 경험 작성기가 활성화된 경우에만 작동합니다.
 
-**제게는 여러 도메인이 있습니다. 도메인 중 하나에서는 고급 경험 작성기가 활성화되어야 하지만 다른 도메인은 이 기능이 비활성화되어야 합니다. 이 작업을 어떻게 수행할 수 있습니까?**
+**제게는 여러 도메인이 있습니다. 도메인 중 하나에서는 [!UICONTROL Enhanced Experience Composer]을(를) 활성화해야 하지만 다른 도메인은 비활성화해야 합니다. 이 작업을 어떻게 수행할 수 있습니까?**
 
 항상 [활동 수준의 고급 경험 작성기 옵션](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) 을 사용하여 기본 설정을 재정의할 수 있습니다(관리 > 시각적 경험 작성기).
 
@@ -198,7 +198,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 [여러 경험 버전 기능](/help/main/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md#task_0138112E283A4A5B9F8AB9AAF2FBC2FF)을 사용하면 쉽게 원하는 테스트를 수행할 수 있습니다. 이러한 테스트에서 전달에 대한 뉘앙스를 이해해 보십시오.
 
-**VEC(시각적 경험 작성기)에서 수정한 내용을 어떻게 볼 수 있습니까?**
+**VEC([!UICONTROL Visual Experience Composer])에서 수정한 내용을 어떻게 볼 수 있습니까?**
 
 사용자가 변경한 내용은 항상 [코드 편집기](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)에 표시됩니다. 수정 탭에는 오퍼에 적용한 CSS 선택기 또는 mbox가 표시됩니다.
 
@@ -208,13 +208,13 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 여러 방법 중 하나는 [사용자 지정 코드 편집기](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5)를 사용하는 것입니다. 계속해서 JavaScript를 섹션에 입력하면 전달됩니다. 필요에 따라 헤드 또는 본문 맨 위에 JavaScript를 전달할 수 있는 옵션이 있습니다.
 
-**VEC(시각적 경험 작성기)의 로그인 페이지 또는 특정 URL이 없는 내부에 깊게 삽입되어 있는 페이지를 건너뛸 수 없는 이유는 무엇입니까?**
+**VEC([!UICONTROL Visual Experience Composer])의 로그인 페이지 또는 특정 URL이 없는 내부에 깊게 삽입되어 있는 페이지를 건너뛸 수 없는 이유는 무엇입니까?**
 
-작성 및 찾아보기 기능을 사용하여 선택한 페이지로 이동하고 경험을 작성하십시오.
+[!UICONTROL Compose] 및 [!UICONTROL Browse] 기능을 사용하여 선택한 페이지로 이동하고 환경을 만드십시오.
 
 ![디자인 및 찾아보기 전환](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
-**저는 이전 Target 클래식 사용자입니다. 특정 사용 사례에 내 mbox를 활용할 수 있습니까?**
+**이전 [!DNL Target Classic] 사용자입니다. 특정 사용 사례에 내 mbox를 활용할 수 있습니까?**
 
 활성을 만들려면 [양식 기반 접근 방법](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 을 사용하십시오.
 
@@ -240,19 +240,19 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 [디버거](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) 를 사용하고 [활동 충돌](/help/main/c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E)이 있는지 확인하십시오.
 
-**Target의 의사 결정 능력을 사용하여 SPA(단일 페이지 애플리케이션) 또는 서버측 통합에 사용할 수 있는 경험/오퍼를 받을 수 있습니까?**
+**SPA(단일 페이지 애플리케이션) 또는 서버측 통합에 사용할 수 있는 경험/오퍼를 받기 위해 [!UICONTROL Target]의 의사 결정 능력을 사용할 수 있습니까?**
 
-JSON 오퍼가 있는 [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) [기능을](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) 사용하여 목표를 달성할 수 있습니다.
+[JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) 가 있는 [양식 기반 활동](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) 의 기능을 사용하여 목표를 달성할 수 있습니다.
 
 ## 보고서(A4T(Analytics for Target) 포함) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-**또한 Adobe Analytics가 있으며 Target에서 이를 활용하려고 합니다. 두 가지 솔루션을 통합하여 어떤 핵심 기능을 얻을 수 있습니까?**
+**또한 [!DNL Adobe Analytics]이(가) 있으며 [!DNL Target]에서 이를 활용하려고 합니다. 두 가지 솔루션을 통합하여 어떤 핵심 기능을 얻을 수 있습니까?**
 
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -261,7 +261,7 @@ JSON 오퍼가 있는 [양식 기반 활동](/help/main/c-experiences/form-exper
 
 안내가 있는 3파트로 구성된 활동 워크플로의 3단계에 포함된 목표 및 설정 페이지에서 사용할 수 있는 [보고 대상자 기능에서](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) 이 작업을 수행할 수 있습니다.
 
-이러한 세그먼트 50개와 적용 지점(활동 시작 또는 특정 지표)을 추가하는 옵션을 통해 보다 강력한 분류 기능을 사용할 수 있습니다.
+이러한 세그먼트 50개와 적용 지점([!UICONTROL Activity Entry] 또는 특정 지표)을 추가하는 옵션을 통해 보다 강력한 분류 기능을 사용할 수 있습니다.
 
 Target은 사용자가 이러한 대상자를 추가할 때 이와 관련된 데이터를 수집하므로 테스트를 실행하기 전에 세그먼트를 추가하지 않으면 문제가 됩니다.
 
@@ -269,13 +269,13 @@ Target은 사용자가 이러한 대상자를 추가할 때 이와 관련된 데
 
 **이 프로세스를 좀 더 쉽게 수행하려면 어떻게 해야 합니까?**
 
-[A4T(타겟 분석)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 가 편리한 위치입니다. Adobe Analytics가 있는 경우 소스를 Analytics로 선택하면 이러한 제한이 해소됩니다. 이제 언제든지 아무 대상에서나 분석을 수행할 수 있으며, 보고 대상을 미리 정의할 필요가 없습니다.
+[A4T(타겟 분석)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) 가 편리한 위치입니다. [!DNL Adobe Analytics]이(가) 있는 경우 소스를 [!DNL Analytics]&#x200B;(으)로 선택하면 이 제한이 제거됩니다. 이제 언제든지 아무 대상에서나 분석을 수행할 수 있으며, 보고 대상을 미리 정의할 필요가 없습니다.
 
 **오프라인 보고 계산을 수행할 수 있습니까?**
 
-보고서 페이지의 [CSV로 보고서 내보내기 및 주문 세부사항을 CSV로 다운로드 옵션](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) 을 사용하여 원하는 보고 데이터를 다운로드하십시오.
+Rep보고서 페이지의 [CSV로 보고서 내보내기 및 주문 세부 사항을 CSV로 다운로드 옵션](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)을 사용하여 원하는 보고 데이터를 다운로드하십시오.
 
-**보고서를 평가하기 위해 제어 경험을 변경하거나 방문자에서 방문으로 카운트 방법을 변경할 수 있습니까?**
+**보고서를 평가하기 위해 제어 환경을 변경하거나 계산 방법을 [!UICONTROL Visitors]에서 [!UICONTROL Visits]&#x200B;(으)로 변경할 수 있습니까?**
 
 다음 [보고서 페이지의 설정 톱니바퀴](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA)를 사용하여 이러한 변경 작업을 수행합니다. 이러한 설정을 잘 읽어 보고 계산이 어떻게 다른지 이해하도록 하십시오.
 
@@ -285,22 +285,22 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 ## 응답 토큰 {#section_C2A7118B4B62482A9D630C2212112A3D}
 
-**Google Analytics 또는 ClickTale 같은 서드파티 시스템과 통합하여 제공된 활동 정보를 분석을 위해 최종 사용자에게 전달할 수 있습니까?**
+**분석을 위해 최종 사용자에게 전달된 활동 정보를 전달할 때 [!DNL Google Analytics] 또는 [!DNL ClickTal]e와 같은 서드파티 시스템과 통합할 수 있습니까?**
 
 이에 대한 해결 방법도 있습니다. [응답 토큰 기능](/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4)을 사용하면 됩니다.
 
 ## 문제 해결 {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
 
-**Adobe Target이 사용 가능한지를 어떻게 알 수 있습니까?**
+**[!DNL Target]의 사용 가능 상태를 어떻게 알 수 있습니까?**
 
-. [Adobe 시스템 상태 페이지](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD) 에서 Target을 포함한 Adobe 제품 및 Experience Cloud 솔루션의 상태를 볼 수 있습니다. 이 페이지는 발생할 수 있는 문제가 시스템 업데이트 또는 일상적인 유지 관리로 인한 문제인지를 확인하는 데 도움이 됩니다.
+[Adobe 시스템 상태 페이지](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)를 사용하여 [!DNL Target]을(를) 포함한 [!DNL Adobe] 제품 및 [!DNL Experience Cloud] 솔루션의 상태를 볼 수 있습니다. 이 페이지는 발생할 수 있는 문제가 시스템 업데이트 또는 일상적인 유지 관리로 인한 문제인지를 확인하는 데 도움이 됩니다.
 
 **문제 해결 안내서가 있습니까?**
 
 문제로 인해 불편을 겪게 해드려서 죄송합니다. [Target 문제 해결](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839)을 확인하십시오.
 
-## Target API {#section_714E85EFF6E3400389EF2E40D538E1DA}
+## [!DNL Target] API {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}를 참조하십시오.
+API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}를 참조하십시오.
