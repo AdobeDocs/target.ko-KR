@@ -33,7 +33,7 @@ ht-degree: 81%
 
 **[!DNL Target]에서 지원하는 브라우저는 무엇입니까?**
 
-자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
+자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko){target=_blank} 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
 
 ## 활동 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 경험 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -252,7 +252,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
 
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -303,4 +303,4 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}를 참조하십시오.
+API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}를 참조하십시오.
