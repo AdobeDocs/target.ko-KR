@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 97fd3be049ffb0f9dd27c89288a82695d86d5302
+source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
 workflow-type: tm+mt
-source-wordcount: '1744'
-ht-degree: 20%
+source-wordcount: '2119'
+ht-degree: 18%
 
 ---
 
@@ -18,6 +18,24 @@ ht-degree: 20%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 25.5.4(2025년 5월 29일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* QA 모드에서 URL을 추가하거나 편집할 수 없는 문제를 해결했습니다. (TGT-51941)
+* 기존 [!DNL Target] UI의 기능에 맞추기 위해 [!UICONTROL Reports] > [!UICONTROL Report Settings]&#x200B;( ![보고서 설정 아이콘](/help/main/assets/icons/Setting.svg)) 아래에 QA 모드 트래픽 설정이 추가되었습니다. (TGT-52228 및 TGT-52329)
+* 양식 기반 활동에서 잘못된 QA 링크가 생성되던 문제를 수정했습니다. 활동 URL/위치에 끝에 의도하지 않은 &quot;1&quot;이 포함되었습니다. 이는 이제 정확한 연결을 위해 제거되었습니다. (TGT-52355 및 TGT-52358)
+* 양식 기반 활동에서 잘못된 QA 링크가 생성되던 문제를 수정했습니다. 활동 URL의 시작 부분에 의도하지 않은 `http://pid-ppc`이(가) 포함되었습니다. 이 URL은 이제 정확한 연결을 위해 제거되었습니다. (TGT-52557)
+* [!DNL Target]에서 양식 기반 활동에 대해 잘못된 QA 링크를 생성하는 문제를 해결했습니다. (TGT-52528 및 TGT-52603)
+* 수정된 활동 저장이 처리 중이지만 완료되지 않은 것으로 나타나며 [!DNL Target]에 오류 메시지가 표시되지 않는 문제를 해결했습니다. (TGT-52461)
+* 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 `at_property` 값을 자동으로 검색하지 못하는 문제가 해결되었습니다. (TGT-52347)
+* 양식 요소와 상호 작용할 때 VEC에서 [!UICONTROL Browse]과(와) [!UICONTROL Design] 모드 간을 전환한 후 하나만 예상될 때 두 개의 수정 사항이 기록되는 문제를 해결했습니다. (TGT-52455)
+* 선택기가 잘못되었거나, 이미 사용되었거나, 표시되지 않는다는 오류 때문에 업데이트된 VEC에서 [!UICONTROL Clicked an Element] 설정을 선택할 수 없는 문제를 해결했습니다. (TGT-52467)
+* 업데이트된 VEC에 [!UICONTROL Recommendation Offer] 상자를 추가하면 중복(고스트) 상자가 표시되는 문제가 해결되었습니다. 경험 A와 경험 B 간을 전환하면 더 많은 고스트 상자가 반복적으로 추가되었습니다. (TGT-52505 및 TGT-52519)
+* 업데이트된 [!DNL Target] UI에서 [!UICONTROL Offer] 메뉴를 통해 변경된 HTML 오퍼가 관련 활동에 반영되지 않거나 그 반대의 경우 문제가 해결되었습니다. 이제 이 동작은 [!UICONTROL Offer] 메뉴와 활동 간에 업데이트가 올바르게 동기화되는 레거시 UI와 일치합니다. (TGT-52540 및 TGT-52541)
+* [!UICONTROL Offers Library]의 [!UICONTROL Experience Fragments]에 대한 최근 업데이트를 활동 내에서 사용하려고 할 때 반영하지 않는 문제를 해결했습니다. (TGT-52659)
+* 확인 메시지의 중국어 간체 번역에서 현지화 문제를 해결했습니다. 이전 버전은 고객의 스타일 안내서와 달리 위치명 주위에 따옴표가 부족하고 비공식적인 언어를 사용했습니다. 업데이트된 번역문은 이제 적절한 구두점과 형식적인 어조를 사용합니다. (TGT-52364)
 
 ## Target UI 버전 전환 중단(2025년 5월 23일) {#toggle}
 
@@ -130,7 +148,7 @@ ht-degree: 20%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
