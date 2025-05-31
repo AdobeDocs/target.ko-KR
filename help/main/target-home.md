@@ -4,10 +4,10 @@ title: Adobe Target 비즈니스 실무자 안내서
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 5d36a47a6cdd4d87345bd83f6060b4245d271d6b
+source-git-commit: f624da04eb62b40989237c92f5bc88530603bd10
 workflow-type: tm+mt
-source-wordcount: '625'
-ht-degree: 30%
+source-wordcount: '614'
+ht-degree: 31%
 
 ---
 
@@ -18,6 +18,14 @@ ht-degree: 30%
 **마지막 업데이트 날짜: 2025년 5월 29일( [설명서 업데이트: 변경 사항 보기](r-release-notes/doc-change.md) )**
 
 >[!BEGINTABS]
+
+>[!TAB 중요]
+
+**Target UI가 완전히 롤아웃되었습니다**
+
+2025년 5월 27일부터 모든 고객은 새로운 [!DNL Target] UI에 액세스할 수 있습니다. 2025년 6월 22일부터 UI 토글이 제거되며 모든 사용자는 업데이트된 UI로 영구적으로 전환되며, 되돌릴 옵션은 없습니다.
+
+[![자세히 알아보기 아이콘](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md#toggle)
 
 >[!TAB 새로운 기능]
 
@@ -37,7 +45,7 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 >[!TAB AI 길잡이]
 
-[!DNL Adobe Experience Platform]&#x200B;**에서**&#x200B;모임 [!DNL AI Assistant]
+[!DNL Adobe Experience Platform]**에서**&#x200B;모임 [!DNL AI Assistant]
 
 [!DNL AI Assistant]은(는) [!DNL Adobe Experience Cloud] 탐색에 대한 유용한 안내서입니다. [!DNL Target]과(와) 같은 제품에서 사용할 수 있는 [!DNL AI Assistant]은(는) 인터페이스에서 바로 주요 개념과 기능을 빠르게 이해할 수 있도록 도와줍니다.
 
@@ -47,14 +55,10 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 이 안내서 외에 다음과 같은 [!DNL Adobe Target] 안내서도 이용할 수 있습니다.
 
-- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/overview){target=_blank}
-- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/ko/docs/target-learn/tutorials/overview){target=_blank}
+- [[!UICONTROL Adobe Target Developer Guide]](https://experienceleague.adobe.com/en/docs/target-dev/developer/overview){target=_blank}
+- [[!UICONTROL Adobe Target Tutorials]](https://experienceleague.adobe.com/en/docs/target-learn/tutorials/overview){target=_blank}
 
 >[!ENDTABS]
-
->[!IMPORTANT]
->
->새 [!DNL Target] UI의 롤아웃이 2025년 5월 27일에 완료되었습니다. 이제 모든 고객이 최신 UI 버전에 액세스할 수 있습니다. 2025년 6월 22일부터 UI 버전 토글이 제거됩니다. 모든 사용자는 이전 버전으로 되돌릴 옵션 없이 새 인터페이스로 영구적으로 전환됩니다. 자세한 내용은 [Target UI 버전 사용 중단 전환](/help/main/r-release-notes/release-notes.md#toggle)을 참조하세요.
 
 다음 섹션에서는 일반적인 직무에 따라 의도된 대상자별로 작성된 이 안내서의 유용한 링크들을 안내합니다.
 
@@ -107,5 +111,5 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 | Adobe [!DNL Target] 솔루션 도움말 | [!DNL Adobe Experience Cloud] 리소스 |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko)</li><li>[[!DNL Experience Cloud] 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[[!DNL Experience Cloud] 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[[!DNL Adobe] 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[[!DNL Adobe Target] 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[[!DNL Experience Cloud] 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[[!DNL Adobe] 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |  |
 
