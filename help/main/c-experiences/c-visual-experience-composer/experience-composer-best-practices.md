@@ -1,19 +1,19 @@
 ---
 keywords: 시각적 경험 작성기;시각적 경험 작성기 우수 사례;시각적 경험 작성기 제한 사항;시각적 경험 작성기 주의 사항;vec 우수 사례;vec
-description: '[!UICONTROL Visual Experience Composer] (VEC)을 사용할 때 경험이 예상대로 작동하도록 하는 모범 사례를 알아봅니다.'
+description: '[!UICONTROL Visual Experience Composer]​(VEC)을 사용할 때 경험이 예상대로 작동하도록 하는 모범 사례를 알아봅니다.'
 title: '[!UICONTROL Visual Experience Composer] 모범 사례 및 제한 사항은 무엇입니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 0192f66413cc98e5e91168d0ee558f1eb66e67d8
+source-git-commit: 197aa3a0ab060481120abd0d12cdb7b581369929
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 85%
+source-wordcount: '2512'
+ht-degree: 81%
 
 ---
 
 # [!UICONTROL Visual Experience Composer] 모범 사례 및 제한 사항
 
-다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. [!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer] (VEC)를 사용할 때 알고 있어야 하는 다른 팁과 제한 사항도 있습니다.
+다음 우수 사례는 경험이 예상대로 작동하도록 하는 데 도움이 될 수 있습니다. [!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)를 사용할 때 알고 있어야 하는 다른 팁과 제한 사항도 있습니다.
 
 ## 우수 사례 {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
@@ -224,6 +224,18 @@ mbox에 오퍼가 포함된 경우 mbox가 잘못 구현되면 요소를 삽입�
 ## 제한 {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 VEC를 사용할 때는 다음 제한 사항을 고려하십시오.
+
+### Chrome 확장 정책 변경 사항과의 VEC 호환성 처리.
+
+Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}의 업데이트된 [V3 매니페스트 정책으로 인해 확장에서 브라우저에서 구문 분석하기 전에 원본 DOM을 더 이상 수정할 수 없습니다. 따라서 iframe 버스팅 구현과 같은 특정 보안 스크립트는 VEC에서 페이지가 로드되지 않도록 차단할 수 있습니다.
+
+호환성을 보장하려면 페이지가 [!DNL Target] iframe 내부에 로드될 때 이러한 스크립트를 조건부로 비활성화해야 합니다. VEC 로드 중에 [!DNL Target]에서 삽입한 `window.adobeVecExtension` 개체가 있는지 확인하여 이 프로세스를 안전하게 수행할 수 있습니다.
+
+다음 코드 조각은 웹 페이지가 VEC에 로드되지 않을 수 있는 iframe 버스팅 코드의 예입니다.
+
+`window.top.location = window.self.location;`
+
+`top.location.href = self.location.href;`
 
 ### 요소를 컨테이너 외부로 이동한 다음 CSS 속성을 이동할 수 없습니다.
 
