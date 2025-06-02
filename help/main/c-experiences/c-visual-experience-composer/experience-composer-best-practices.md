@@ -227,7 +227,7 @@ VEC를 사용할 때는 다음 제한 사항을 고려하십시오.
 
 ### Chrome 확장 정책 변경 사항과의 VEC 호환성 처리. {#ext}
 
-Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}의 업데이트된 [V3 매니페스트 정책으로 인해 확장에서 브라우저에서 구문 분석하기 전에 원본 DOM을 더 이상 수정할 수 없습니다. 따라서 iframe 버스팅 구현과 같은 특정 보안 스크립트는 VEC에서 페이지가 로드되지 않도록 차단할 수 있습니다.
+Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}의 업데이트된 V3 매니페스트 정책으로 인해 확장에서 브라우저에서 구문 분석하기 전에 원본 DOM을 더 이상 수정할 수 없습니다. 따라서 iframe 버스팅 구현과 같은 특정 보안 스크립트는 VEC에서 페이지가 로드되지 않도록 차단할 수 있습니다.
 
 호환성을 보장하려면 페이지가 [!DNL Target] iframe 내부에 로드될 때 이러한 스크립트를 조건부로 비활성화해야 합니다. VEC 로드 중에 [!DNL Target]에서 삽입한 `window.adobeVecExtension` 개체가 있는지 확인하여 이 프로세스를 안전하게 수행할 수 있습니다.
 
