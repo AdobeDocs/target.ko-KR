@@ -4,10 +4,10 @@ description: ' [!DNL Analytics] 을(를) 보고 소스(A4T)로 사용하는 [!DN
 title: A4T가 [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동을 지원합니까?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 80e4741f5f501a48b15b718c6c0bf55a86c4d676
+source-git-commit: ddced04c730519dae74e70a60bed26462825ad23
 workflow-type: tm+mt
-source-wordcount: '1146'
-ht-degree: 1%
+source-wordcount: '1276'
+ht-degree: 4%
 
 ---
 
@@ -20,22 +20,29 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 * [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) multi-armed bandit 기능을 사용하여 트래픽을 승리 경험으로 유도합니다.
 * [자동 타겟](/help/main/c-activities/auto-target/auto-target-to-optimize.md) 앙상블 머신 러닝 알고리즘을 사용하여 각 방문자에게 가장 적합한 경험을 선택하십시오. [!UICONTROL Auto-Target]은(는) [!DNL Adobe Analytics] 목표 지표와 [!DNL Adobe Analytics]의 풍부한 보고 및 분석 기능을 사용하는 동안 각 사용자의 프로필, 동작 및 컨텍스트를 기반으로 최상의 경험을 선택합니다.
 
-[A/B 테스트 및 경험 타깃팅 활동과 함께 사용할 A4T를 구현했는지 확인](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). `analyticsLogging = client_side`을(를) 사용하는 경우 `sessionId` 값도 [!DNL Analytics]에 전달해야 합니다. 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;에서 [Analytics for Target(A4T) 보고](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html?lang=ko){target=_blank}를 참조하십시오.
+[A/B 테스트 및 경험 타깃팅 활동과 함께 사용할 A4T를 구현했는지 확인](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). `analyticsLogging = client_side`을(를) 사용하는 경우 `sessionId` 값도 [!DNL Analytics]에 전달해야 합니다. 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [Analytics for Target(A4T) 보고](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank}를 참조하십시오.
 
 시작하려면 다음 단계를 따르십시오. 
 
-1. [[!UICONTROL A/B Test] 활동을 만드는 중](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) **[!UICONTROL Targeting]** 페이지에서 다음 옵션 중 하나를 **[!UICONTROL Traffic Allocation Method]**(으)로 선택합니다.
+1. [[!UICONTROL A/B Test] 활동을 만드는 중](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) **[!UICONTROL Targeting]** 페이지에서 **[!UICONTROL Traffic Allocation]** 컨트롤을 클릭한 다음 오른쪽 창에서 원하는 트래픽 할당 방법을 선택하십시오.
 
-   * [!UICONTROL Auto-Allocate to best experience]
-   * [!UICONTROL Auto-Target for personalized experiences]
+   ![트래픽 할당 메서드 설정](/help/main/c-activities/assets/auto-target.png)
 
-   ![트래픽 할당 방법 옵션: 수동, 자동 할당 및 자동 타겟](/help/main/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
+   다음 트래픽 할당 방법을 사용할 수 있습니다.
+
+   * **[!UICONTROL Manual (Default)]**: 각 경험을 보게 하려는 참여자의 비율을 지정합니다. 이 비율을 모든 경험 간에 균일하게 분산하거나 각 경험에 대해 시간 비율을 더 높거나 낮게 지정할 수 있습니다. 모든 경험의 합계는 100%여야 합니다. 
+
+   * **[!UICONTROL Auto-Allocate to best experience]**: 대부분의 활동 참여자가 자동으로 더 높은 성과를 보이는 경험으로 이동됩니다. 일부 방문자는 경험을 탐색하고 성과 동향 변화를 인식하기 위해 모든 경험에 할당됩니다. 자세한 내용은 [[!UICONTROL Auto-Allocate] 개요](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)를 참조하십시오.
+
+   * **[!UICONTROL Auto-Target for personalized experiences]**: [!DNL Target]은(는) 고급 기계 학습을 사용하여 성과가 좋은 마케터가 정의한 여러 경험을 식별한 후 개별 고객 프로필 및 유사한 방문자의 이전 동작을 기준으로 방문자에게 가장 잘 맞춤 설정된 경험을 제공함으로써 콘텐츠를 개인화하고 전환을 유도합니다. 자세한 내용은 [자동 타겟 개요](/help/main/c-activities/auto-target/auto-target-to-optimize.md)를 참조하십시오.
 
    자세한 내용과 단계별 지침은 [자동 할당 활동 만들기](/help/main/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) 및 [자동 타겟 활동 만들기](/help/main/c-activities/auto-target/create-auto-target.md)를 참조하십시오.
 
-1. **[!UICONTROL Goals & Settings]** 페이지에서 **[!UICONTROL Reporting Source]**&#x200B;에 대해 **[!UICONTROL Adobe Analytics]**&#x200B;을(를) 선택하고 원하는 최적화 목표에 해당하는 보고서 세트를 선택합니다.
+1. **[!UICONTROL Goals & Settings]** 페이지에서 **[!UICONTROL Reporting Source]**&#x200B;에 대해 **[!UICONTROL Adobe Analytics]**&#x200B;을(를) 선택하고 원하는 최적화 목표에 해당하는 회사 및 보고서 세트를 선택합니다.
 
    ![목표 및 설정 페이지의 Source 보고 섹션](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
+1. 추적 서버와 샌드박스를 지정합니다.
 
 1. [!UICONTROL Primary Goal] 지표를 선택하십시오.
 
@@ -113,8 +120,8 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 ### 자동 할당 {#aa}
 
 * **교육 빈도**: [!UICONTROL Auto-Allocate] 모델은 평소처럼 매시간 계속 교육합니다.
-* **속성 모델**: [!DNL Target]에서는 A4T를 사용하는 [!UICONTROL &#x200B; Auto-Allocate] 활동에 대해 [!DNL Adobe Analytics] 기본 속성 모델을 사용합니다.
-* **신뢰도**: [!UICONTROL Auto-Allocate] 활동에 사용되는 신뢰 수식이 [!DNL Adobe Analytics] [!UICONTROL A4T] 패널에 기본적으로 표시되는 수식과 다릅니다. [여기에 설명된 대로](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) [!UICONTROL Auto-Allocate]은(는) 일반 [!UICONTROL A/B Test] 활동보다 더 보수적인 신뢰 구간을 사용합니다. 이러한 보수적 신뢰 수준은 데이터에 대한 반복적인 평가(peeks)를 보상한다. 따라서 [!DNL Adobe Analytics]의 기본 보고서에 [!UICONTROL Auto-Allocate] 알고리즘에서 사용 중인 구간에 비해 더 좁은 신뢰 구간이 표시됩니다. 그럼에도 불구하고, 보내는 더 많은 고유 방문자가 있는 경험을 기반으로 알고리즘에서 선호하는 경험을 결정할 수 있습니다.
+* **속성 모델**: [!DNL Target]에서는 A4T를 사용하는 [!UICONTROL  Auto-Allocate] 활동에 대해 [!DNL Adobe Analytics] 기본 속성 모델을 사용합니다.
+* **신뢰도**: [!UICONTROL Auto-Allocate] 활동에 사용되는 신뢰 수식이 [!DNL Adobe Analytics] [!UICONTROL A4T] 패널에 기본적으로 표시되는 수식과 다릅니다. [여기에 설명된 대로](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)[!UICONTROL Auto-Allocate]은(는) 일반 [!UICONTROL A/B Test] 활동보다 더 보수적인 신뢰 구간을 사용합니다. 이러한 보수적 신뢰 수준은 데이터에 대한 반복적인 평가(peeks)를 보상한다. 따라서 [!DNL Adobe Analytics]의 기본 보고서에 [!UICONTROL Auto-Allocate] 알고리즘에서 사용 중인 구간에 비해 더 좁은 신뢰 구간이 표시됩니다. 그럼에도 불구하고, 보내는 더 많은 고유 방문자가 있는 경험을 기반으로 알고리즘에서 선호하는 경험을 결정할 수 있습니다.
 * **우승자 상태**: 현재 [!DNL Analysis Workspace]의 [!UICONTROL A4T] 패널에서 [&quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지](/help/main/c-activities/automated-traffic-allocation/determine-winner.md)를 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!UICONTROL Auto-Allocate] 활동에 대한 [!DNL Target] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다. 이 배지는 [!UICONTROL Auto-Allocate]에서 사용하는 계산이 아니라 일반 신뢰도 계산을 반영합니다.
 
 ### 자동 타겟 {#at}
@@ -125,7 +132,7 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 
 * [!UICONTROL Auto-Target] 활동에 대한 데이터 소스로 [!DNL Analytics]을(를) 사용하는 경우 6시간이 경과하면 세션이 종료됩니다. 6시간 후에 발생하는 전환은 계산되지 않습니다.
 
-자세한 내용은 *Analytics 도구 안내서*&#x200B;에서 [속성 모델 및 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html?lang=ko)을 참조하십시오.
+자세한 내용은 *Analytics 도구 안내서*&#x200B;에서 [속성 모델 및 전환 확인 기간](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html)을 참조하십시오.
 
 ## 자습서
 
