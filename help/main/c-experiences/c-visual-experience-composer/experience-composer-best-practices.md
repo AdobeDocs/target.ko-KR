@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer]​(VEC)을 사용할 때 �
 title: '[!UICONTROL Visual Experience Composer] 모범 사례 및 제한 사항은 무엇입니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
-source-git-commit: 7577a4da162c94b78cceb8618eefa95cde426081
+source-git-commit: d94dad7795ef024feb19234c2a20423b074ea768
 workflow-type: tm+mt
-source-wordcount: '2512'
-ht-degree: 81%
+source-wordcount: '2534'
+ht-degree: 80%
 
 ---
 
@@ -227,7 +227,7 @@ VEC를 사용할 때는 다음 제한 사항을 고려하십시오.
 
 ### Chrome 확장 정책 변경 사항과의 VEC 호환성 처리. {#ext}
 
-Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}의 업데이트된 V3 매니페스트 정책으로 인해 확장에서 브라우저에서 구문 분석하기 전에 원본 DOM을 더 이상 수정할 수 없습니다. 따라서 iframe 버스팅 구현과 같은 특정 보안 스크립트는 VEC에서 페이지가 로드되지 않도록 차단할 수 있습니다.
+Google Chrome](https://developer.chrome.com/docs/extensions/develop/migrate/what-is-mv3){target=_blank}의 업데이트된 [V3 매니페스트 정책으로 인해 확장에서 브라우저에서 구문 분석하기 전에 원본 DOM을 더 이상 수정할 수 없습니다. 따라서 iframe 버스팅 구현과 같은 특정 보안 스크립트는 VEC에서 페이지가 로드되지 않도록 차단할 수 있습니다.
 
 호환성을 보장하려면 페이지가 [!DNL Target] iframe 내부에 로드될 때 이러한 스크립트를 조건부로 비활성화해야 합니다. VEC 로드 중에 [!DNL Target]에서 삽입한 `window.adobeVecExtension` 개체가 있는지 확인하여 이 프로세스를 안전하게 수행할 수 있습니다.
 
@@ -236,6 +236,14 @@ Google Chrome[&#128279;](https://developer.chrome.com/docs/extensions/develop/mi
 `window.top.location = window.self.location;`
 
 `top.location.href = self.location.href;`
+
+웹 페이지가 [!DNL Target] 내부에 임베드되었는지 확인하는 간단한 검사를 사용할 수 있습니다. 코드 조각은 다음과 같아야 합니다.
+
+```
+if(!window.adobeVecExtension) {
+    // additional security logic
+}
+```
 
 ### 요소를 컨테이너 외부로 이동한 다음 CSS 속성을 이동할 수 없습니다.
 
