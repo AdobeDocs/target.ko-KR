@@ -5,9 +5,9 @@ title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 8efcbd1c610a71c9afcb6a0bb6bd31bff6876a8f
+source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,12 @@ ht-degree: 0%
 
 업데이트된 [!DNL Adobe Target] UI에 대한 일반적인 질문에 대한 답변을 찾아보고 자세한 내용을 볼 수 있는 유용한 팁과 링크를 찾아보십시오.
 
+## 업데이트된 [!DNL Target] UI에 대한 자세한 정보는 어디에서 찾을 수 있습니까?
+
++++세부 정보
 {{updated-ui}}
+
++++
 
 ## 업데이트된 UI를 현재 모든 [!DNL Target] 고객, [!UICONTROL Standard] 및 [!UICONTROL Premium]이(가) 사용할 수 있습니까?
 
@@ -118,7 +123,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 [!DNL Adobe Analytics]&#x200B;(AA) 또는 [!DNL Customer Journey Analytics]&#x200B;(CJA)을(를) [!DNL Target]과(와) 통합하는 범위는 현재 설정에 따라 중간에서 고급 작업까지 다양할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 사용하고 [!DNL Platform Web SDK]을(를) 구현한 경우 통합이 보다 간소화됩니다. 그러나 at.js 또는 AppMeasurement을 사용하는 기존 구현에는 다음을 포함한 추가 구성이 필요할 수 있습니다.
 
 * [Analytics for Target(A4T) 통합 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
-* [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [!DNL Target] 보고 통합.
+*  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [[!DNL Target] 보고 통합.
 * 보고서 세트 및 데이터 보기 매핑
 * 일관된 ID 확인(ECID)
 * 데이터 수집 및 속성 설정 유효성 검사

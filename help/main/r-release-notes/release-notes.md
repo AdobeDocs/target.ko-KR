@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bc9a0fe1977629a00eebb2f7aafd30263c8b55af
+source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
 workflow-type: tm+mt
-source-wordcount: '2119'
-ht-degree: 18%
+source-wordcount: '1105'
+ht-degree: 28%
 
 ---
 
@@ -19,23 +19,30 @@ ht-degree: 18%
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
 
-## [!DNL Target Standard/Premium] 25.5.4(2025년 5월 29일)
+## [!DNL Target Standard/Premium] 25.6.1 (2025년 6월 6일 토요일)
 
 이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
 
-* QA 모드에서 URL을 추가하거나 편집할 수 없는 문제를 해결했습니다. (TGT-51941)
-* 기존 [!DNL Target] UI의 기능에 맞추기 위해 [!UICONTROL Reports] > [!UICONTROL Report Settings]&#x200B;( ![보고서 설정 아이콘](/help/main/assets/icons/Setting.svg)) 아래에 QA 모드 트래픽 설정이 추가되었습니다. (TGT-52228 및 TGT-52329)
-* 양식 기반 활동에서 잘못된 QA 링크가 생성되던 문제를 수정했습니다. 활동 URL/위치에 끝에 의도하지 않은 &quot;1&quot;이 포함되었습니다. 이는 이제 정확한 연결을 위해 제거되었습니다. (TGT-52355 및 TGT-52358)
-* 양식 기반 활동에서 잘못된 QA 링크가 생성되던 문제를 수정했습니다. 활동 URL의 시작 부분에 의도하지 않은 `http://pid-ppc`이(가) 포함되었습니다. 이 URL은 이제 정확한 연결을 위해 제거되었습니다. (TGT-52557)
-* [!DNL Target]에서 양식 기반 활동에 대해 잘못된 QA 링크를 생성하는 문제를 해결했습니다. (TGT-52528 및 TGT-52603)
-* 수정된 활동 저장이 처리 중이지만 완료되지 않은 것으로 나타나며 [!DNL Target]에 오류 메시지가 표시되지 않는 문제를 해결했습니다. (TGT-52461)
-* 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 `at_property` 값을 자동으로 검색하지 못하는 문제가 해결되었습니다. (TGT-52347)
-* 양식 요소와 상호 작용할 때 VEC에서 [!UICONTROL Browse]과(와) [!UICONTROL Design] 모드 간을 전환한 후 하나만 예상될 때 두 개의 수정 사항이 기록되는 문제를 해결했습니다. (TGT-52455)
-* 선택기가 잘못되었거나, 이미 사용되었거나, 표시되지 않는다는 오류 때문에 업데이트된 VEC에서 [!UICONTROL Clicked an Element] 설정을 선택할 수 없는 문제를 해결했습니다. (TGT-52467)
-* 업데이트된 VEC에 [!UICONTROL Recommendation Offer] 상자를 추가하면 중복(고스트) 상자가 표시되는 문제가 해결되었습니다. 경험 A와 경험 B 간을 전환하면 더 많은 고스트 상자가 반복적으로 추가되었습니다. (TGT-52505 및 TGT-52519)
-* 업데이트된 [!DNL Target] UI에서 [!UICONTROL Offer] 메뉴를 통해 변경된 HTML 오퍼가 관련 활동에 반영되지 않거나 그 반대의 경우 문제가 해결되었습니다. 이제 이 동작은 [!UICONTROL Offer] 메뉴와 활동 간에 업데이트가 올바르게 동기화되는 레거시 UI와 일치합니다. (TGT-52540 및 TGT-52541)
-* [!UICONTROL Offers Library]의 [!UICONTROL Experience Fragments]에 대한 최근 업데이트를 활동 내에서 사용하려고 할 때 반영하지 않는 문제를 해결했습니다. (TGT-52659)
-* 확인 메시지의 중국어 간체 번역에서 현지화 문제를 해결했습니다. 이전 버전은 고객의 스타일 안내서와 달리 위치명 주위에 따옴표가 부족하고 비공식적인 언어를 사용했습니다. 업데이트된 번역문은 이제 적절한 구두점과 형식적인 어조를 사용합니다. (TGT-52364)
+* QA 링크가 연결된 활동에 대한 올바른 경험을 전달하지 못했던 문제를 수정했습니다. (TGT-52163 및 TGT-52790)
+* QA 링크에 관련 대상 ID가 누락되는 문제를 해결했습니다. (TGT-52722)
+* 구성된 페이지 전달 URL 조건이 정확하게 충족될 때만 경험이 전달되도록 하는 문제가 수정되었습니다. (TGT-52696)
+* 고객이 [!DNL Recommendations] 디자인 템플릿을 만들 수 없는 문제를 해결했습니다. 템플릿을 만들려고 하면 &quot;스크립트 내에 최소 1개의 엔티티 변수가 사용되어야 합니다.&quot; 오류가 트리거되었습니다. (TGT-52395)
+* Velocity 배열을 사용하여 [!DNL Recommendations] 디자인을 저장할 수 없는 문제를 해결했습니다. &quot;스크립트 내에 최소 1개의 엔티티 변수가 사용되어야 합니다.&quot; 오류 메시지가 잘못 트리거되었습니다. (TGT-52734)
+* 내부 웹 페이지에 대해 페이지를 로드하지 못했을 때 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 수정 사항에 액세스할 수 없는 문제를 해결했습니다. (TGT-52488 &amp;TGT-52470)
+* VEC의 더 작은 화면 크기에서 [!UICONTROL Modifications] 패널이 표시되지 않는 문제를 해결했습니다. (TGT-52470)
+* 업데이트된 VEC에서 [!UICONTROL Browse] 모드에서 [!UICONTROL Design] 모드로 다시 전환하면 콘솔 오류가 발생하여 더 이상 상호 작용하지 못하는 문제가 해결되었습니다. (TGT-52532)
+* VEC에서 특정 요소를 클릭하면 의도하지 않게 크기가 확장되는 문제를 해결했습니다. (TGT-52497)
+* 특정 페이지 요소가 VEC에서 로드되지 않거나 인식되지 않아 버튼 또는 배너를 선택하는 등의 상호 작용을 방지하고 활동에서 정확한 이벤트 추적을 중단하는 문제를 해결했습니다. (TGT-52663)
+* 고객이 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에서 오퍼를 삭제하거나 제거할 수 없는 문제를 해결했습니다. (TGT-52690)
+* 다중 페이지 활동에서 일관되지 않은 활동 자격 동작을 발생시킨 문제를 수정했습니다. (TGT-52694)
+* 활동의 [!UICONTROL Overview] 페이지에 [!UICONTROL Activity Location]에 대한 잘못된 URL이 표시되는 문제를 해결했습니다. (TGT-52695)
+* 업데이트된 [!DNL Target] UI에서 활동 위치에 대한 중복 항목이 표시되는 문제를 해결했습니다. (TGT-52693)
+* 고객이 활동을 편집하거나 복사할 수 없도록 `getAudiencesV3` 오류를 트리거하는 문제를 해결했습니다. (TGT-52709)
+* [!UICONTROL Experience Fragments] 또는 HTML 오퍼를 활동에 추가할 때 잘못된 페이로드 오류가 발생하는 문제를 해결했습니다. (TGT-52779 및 TGT-52773)
+* 잘못된 입력 오류로 인해 E[!UICONTROL xperience Fragments]이(가) 올바르게 표시되지 않는 업데이트된 [!DNL Target] UI의 문제를 해결했습니다. (TGT-52701)
+* 잘못된 사용자 오류로 인해 고객이 [!UICONTROL Form-based Experience Composer]에서 활동을 편집할 수 없는 문제를 해결했습니다. (TGT-52470)
+* 이전 번역이 기본 다국어 평면 외부의 문자를 사용하던 한국어의 현지화 문제를 해결했습니다. 업데이트된 번역문은 의도된 의미를 정확하게 전달하는 적절한 문자를 사용한다. (TGT-52508 및 TGT-52509)
+* 활동에 대한 시작 및 종료 날짜를 선택할 때 &quot;날짜&quot;에 대한 번역이 일관되지 않았던 한글의 현지화 문제를 해결했습니다. (TGT-52510)
 
 ## Target UI 버전 전환 중단(2025년 5월 23일) {#toggle}
 
@@ -69,86 +76,12 @@ ht-degree: 18%
 
 * [[!UICONTROL Visual Experience Composer] 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): 이 문서에서는 업데이트된 VEC UI 및 해당 옵션에 대해 설명합니다.
 
-## [!DNL Target Standard/Premium] 25.5.3(2025년 5월 22일)
-
-이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
-
-* [!UICONTROL Activities] 목록의 이름별 검색 기능이 다중 단어 쿼리에서 올바르게 작동하지 않는 문제를 해결했습니다. (TGT-52529)
-* [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에서 경험을 제외하지 못하는 문제를 해결했습니다. (TGT-52383)
-* AP 활동에서 콘텐츠를 관리할 때 [!UICONTROL Filter Rules]에서 &quot;[!UICONTROL Contains]&quot; 옵션이 누락되는 문제를 해결했습니다. (TGT-52384)
-* [!DNL Target]의 내부 시스템에서 `optionLocalId` 값을 사용하여 기본 오퍼를 추적하고 보고하는 방법과 관련된 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동의 보고 불일치를 수정했습니다.
-* QA 링크가 의도한 활동 경험을 전달하지 못하는 문제를 해결했습니다. (TGT-52163)
-* [!UICONTROL Approver] 권한이 있는 사용자가 라이브 활동을 편집할 수 없도록 잘못 차단되어 &quot;액세스 거부됨&quot; 오류 메시지가 표시되는 문제를 해결했습니다. (TGT-52416)
-* 업데이트된 [!DNL Target] UI의 특정 활동에 대해 대상 세분화가 표시되지 않는 문제가 해결되었습니다. (TGT-52057)
-* 업데이트된 UI에서 대상 세분화 및 활동 대상이 반전되는 문제가 해결되었습니다. (TGT-52158)
-* 임시 오퍼를 생성하여 오퍼가 중복되던 문제를 수정했습니다. (TGT-51938)
-* 오퍼 업데이트를 차단하고 &quot;잘못된 사용자&quot; 오류를 잘못 표시하는 문제를 해결했습니다. (TGT-52361)
-* 기존 활동을 저장할 수 없어 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. (TGT-52422)
-* 코드를 변경하지 않은 경우에도 기존 HTML 오퍼 편집을 차단하여 저장 시 &quot;잘못된 사용자 입력&quot; 오류를 트리거하는 문제를 해결했습니다. (TGT-52351)
-* [!DNL Target]이(가) 웹 사이트 URL에서 &quot;#&quot; 문자를 인식하지 못하게 하는 문제를 해결했습니다. (TGT-52093)
-* [!DNL Recommendations] 활동을 편집하여 프로모션을 추가하거나 업데이트하지 못했으며, 이로 인해 저장 실패 및 프로모션 중복이 발생하는 문제를 해결했습니다. (TGT-52343)
-* [!DNL Recommendations] 활동에서 기준이나 디자인을 변경할 수 없어 &quot;잘못된 JSON: 인식할 수 없는 속성 이름&quot; 오류가 발생하는 문제를 해결했습니다. (TGT-52375)
-* [!DNL Recommendations] 활동에 대한 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 시퀀스 기준이 올바르게 표시되지 않는 문제가 수정되었습니다. (TGT-52435)
-* [!DNL Adobe Experience Platform Web SDK]을(를) 사용할 때 SPA 페이지에서 보기가 올바르게 식별되지 않는 문제를 해결했습니다. (TGT-52106)
-* 일괄 처리 작업 페이로드에 포함되더라도 ODS(온디바이스 의사 결정) 세부 사항이 올바르게 저장되지 않는 문제가 해결되었습니다. (TGT-52406)
-* 편집 중에 읽고 업데이트할 수 있는 `audienceMetadata` 필드를 활동에 추가했습니다. (TGT-51004)
-* 대상 기간이 잘못된 경우 사용자에게 경고하는 오류 메시지가 추가되었습니다. (TGT52522)
-* 유형이 다른 중복 대상을 지원하도록 활동 구조가 업데이트되었습니다. (TGT-51200)
-
-## [!DNL Adobe Target] [!DNL AI Assistant] 릴리스(2025년 5월 16일)
-
-[!DNL Adobe Target]에 [!DNL AI Assistant]의 시작을 알려드리겠습니다! 이 강력한 사용자 인터페이스 기능은 [!DNL Target] 개념을 쉽게 탐색하고 이해할 수 있도록 설계되었습니다. [!DNL Target]을(를) 포함하여 [!DNL Adobe Experience Cloud]의 여러 제품에서 사용할 수 있습니다. [!DNL AI Assistant]이(가) 사용자의 경험을 혁신하기 위해 여기에 있습니다.
-
-[!UICONTROL Target]의 [!DNL AI Assistant]은(는) [!DNL Experience Platform]개의 응용 프로그램 및 서비스를 통해 워크플로를 가속화하는 데 사용할 수 있는 대화 도구입니다. [!DNL AI Assistant]을(를) 사용하여 전반적인 생산성을 높이고 제품 지식을 이해합니다.
-
-[!DNL Target]에서 [!DNL AI Assistant]의 첫 번째 단계는 [!DNL Experience League] 설명서에 기반을 둔 중요한 제품 지식을 제공합니다. 프로필 스크립트를 설정하든, 오류를 해결하든 아니면 AEP Web SDK으로 업그레이드하든 관계없이 [!DNL AI Assistant]에서 다루었습니다.
-
-자세한 내용은 [Adobe Experience Platform AI Assistant 개요](/help/main/c-intro/ai-assistant.md)를 참조하십시오.
-
-## [!DNL Target Standard/Premium] 25.5.2(2025년 5월 8일)
-
-이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
-
-* [!UICONTROL Product Administrator] 및 [!UICONTROL System Administrator] 권한이 있는 [!DNL Target] 사용자는 이제 [!DNL Target]의 역할에 관계없이 [!UICONTROL Administration] 페이지의 모든 설정을 편집할 수 있습니다. 이러한 권한이 없는 사용자는 이러한 설정에 대해 읽기 전용 액세스 권한을 갖습니다. 이 업데이트는 [관리 설정](/help/main/administrating-target/administrating-target.md)에 대한 액세스 제어를 강화합니다. (TGT-48179)
-* [사이트 환경 설정](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) 활동을 저장할 수 없는 캐싱 문제를 해결했습니다. (TGT-52213)
-* 고객이 VEC에서 사이트를 로드한 후 [!UICONTROL Site Preferences] 섹션에서 ID 및 클래스별로 선택을 활성화할 수 없는 문제를 해결했습니다. [!UICONTROL Site Preferences] 설정을 사용하도록 설정한 후에도 사용하지 않도록 자동으로 되돌렸습니다. (TGT-52207)
-* [페이지 배달](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#settings) URL이 슬래시(/)로 끝났을 때 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 올바른 페이지를 표시하지 못하는 문제를 해결했습니다. (TGT-52237)
-* 경험을 변경할 때 사용자 지정 코드 수정 사항을 제거할 수 없는 문제를 해결했습니다. (TGT-52240)
-* VEC의 HTML 수정 사항이 기존 페이지 요소를 오버레이하는 문제를 해결했습니다. (TGT-52265)
-* 기존 사용자 지정 코드가 편집기에 표시되지 않아서 업데이트된 VEC에서 사용자 지정 코드를 편집할 수 없는 문제가 해결되었습니다. (TGT-52272)
-* Recommendations 활동을 저장할 때 &quot;중복 이름이 허용되지 않습니다&quot; 오류 메시지가 표시되는 문제를 해결했습니다. (TGT-52318)
-* 업데이트된 VEC에서 고객이 텍스트 요소를 편집하거나 컨테이너 개체를 제거하지 못하는 문제를 해결했습니다. (TGT-52348)
-* [!UICONTROL Overview] 활동 페이지에서 [!DNL Customer Journey Analytics]이(가) 올바르게 표시되지 않도록 차단하는 문제를 해결했습니다. (TGT-52359)
-* 보고 그룹이 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에서 지속되지 않는 문제를 해결했습니다. (TGT-52368)
-* Offer Decisioning이 포함된 활동을 저장할 수 없는 문제를 해결했습니다. (TGT-52390)
-* 기본 오퍼를 선택했지만 다른 오퍼 콘텐츠가 [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Multivariate Test]&#x200B;(MVT) 활동에 표시되는 문제를 해결했습니다. (TGT-52372)
-* 전체 조직 액세스와 특정 조직 + 사용자 액세스 사이에서 OR로 확인하는 GET 권한 논리를 수정했습니다. (TGT-52374)
-* [!UICONTROL Show Only Selected]이(가) 활성화되었음에도 불구하고 [!UICONTROL Managed Content] 및 [!UICONTROL Reporting Audiences]에 대한 대상을 선택한 후 대상 이름이 표시되지 않는 문제를 해결했습니다. (TGT-52393)
-
-## [!DNL Target Standard/Premium] 25.5.1(2025년 5월 5일)
-
-이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
-
-* 업데이트된 UI의 특정 활동에 대해 대상 세분화가 표시되지 않는 문제를 해결했습니다. (TGT-52057)
-* 활동에서 결합된 대상을 사용할 수 없는 문제를 해결했습니다. (TGT-52346)
-* 동일한 작업 영역의 활동 전용 대상을 사용하여 기본값이 아닌 작업 영역에서 새 활동을 만들 수 없는 문제를 해결했습니다. (TGE-52349)
-* 새 대상을 만들고 선택한 후 활동 전용 대상이 업데이트된 UI에서 사라지는 문제를 해결했습니다. (TGT=52091)
-* 활동에서 중복 대상을 사용할 수 없는 문제를 해결했습니다. (TGT-51200 및 TGT-52057)
-* 업데이트된 UI에서 대상 세분화 및 활동 대상이 반전되는 문제가 해결되었습니다. (TGT-52158)
-* 사용자 입력 오류: &quot;이 사용자에게 기본이 아닌 작업 영역이 허용되지 않습니다.&quot;로 인해 새 활동을 만들 수 없는 문제가 해결되었습니다. (TGT-52267)
-* 기본 및 비기본 작업 영역 모두에 대해 업데이트된 UI에 오퍼가 표시되지 않는 문제를 해결했습니다. 이제 [!DNL Target]에 두 작업 영역의 오퍼가 표시됩니다. (TGT-52339)
-* [!DNL Target]이(가) 활동을 편집하고 수정된 웹 사이트 요소를 변경할 때 고객에게 경고하지 않는 문제를 해결했습니다. (TGT-52100)
-* 임시 오퍼를 사용하여 오퍼를 편집하면 기존 오퍼를 업데이트하는 대신 새 오퍼가 만들어지는 문제를 해결했습니다. (TGT-52135)
-* 오퍼를 폴더로 이동할 때 잘못된 페이로드 오류가 발생하는 문제를 해결했습니다. (TGT-52325)
-* 오퍼를 폴더로 이동할 때 사용자 입력 오류가 발생하는 문제를 해결했습니다. (TGT-52296)
-* 각 활동에 대해 `audienceMetadata` 필드를 추가했으며 활동을 편집할 때 읽고 업데이트했는지 확인했습니다. (TGT-51004)
-
 ## 추가 릴리스 정보 및 버전 세부 정보
 
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
