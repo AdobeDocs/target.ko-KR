@@ -5,21 +5,31 @@ title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: 5f41bcebce4e103fada006f53cd3ccd297769d0d
+source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
 workflow-type: tm+mt
-source-wordcount: '770'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
-# Target UI FAQ가 업데이트되었습니다.
+# [!DNL Target] UI 업데이트 FAQ
 
-업데이트된 [!DNL Adobe Target] UI에 대한 일반적인 질문에 대한 답변을 찾아보고 자세한 내용을 볼 수 있는 유용한 팁과 링크를 찾아보십시오.
+2025년에 새로 업데이트된 [!DNL Adobe Target]의 사용자 인터페이스는 모든 역할에서 유용성과 효율성을 향상시키도록 디자인된 간소화되고 직관적인 환경을 도입했습니다. 이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
 
 ## 업데이트된 [!DNL Target] UI에 대한 자세한 정보는 어디에서 찾을 수 있습니까?
 
 +++세부 정보
-{{updated-ui}}
+다음 리소스는 업데이트된 [!DNL Target] UI에 대한 자세한 정보를 제공합니다.
+
+* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!UICONTROL Activities], [!UICONTROL Recommendations] 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 [!DNL Target]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+
+* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!UICONTROL Offers Library]에 대한 [!DNL Target]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+
+* [UI 이해 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): [!DNL Target]에 익숙해지는 데 도움이 되는 간단한 개요를 제공하고 자세한 정보와 단계별 지침을 제공하는 링크를 제공합니다.
+
+* [[!UICONTROL Visual Experience Composer] 변경 내용](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 17일)에서는 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 도입되었습니다. 이 문서에서는 VEC의 기존 버전과 업데이트된 버전의 차이점에 대해 설명합니다.
+
+* [[!UICONTROL Visual Experience Composer] 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): 이 문서에서는 업데이트된 VEC UI 및 해당 옵션에 대해 설명합니다.
 
 +++
 
@@ -50,7 +60,7 @@ UI 버전 전환은 전환 단추를 사용하여 업데이트된 [!DNL Target] 
 
 UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활동의 편집 및 활동 세부 사항의 일관성을 비롯한 몇 가지 제한 사항이 있습니다.
 
-임시 UI 버전 전환 롤아웃 및 사용 중단에 대한 자세한 내용은 *이전 릴리스에 대한 릴리스 노트*&#x200B;의 [Target UI 버전 전환 사용 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
+자세한 내용은 *이전 릴리스에 대한 릴리스 노트*&#x200B;에서 [Target UI 버전 전환 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
 
 ++++
 
@@ -61,7 +71,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활동의 편집 및 활동 세부 사항의 일관성을 비롯한 몇 가지 제한 사항이 있습니다.
 
-임시 UI 버전 전환 롤아웃 및 사용 중단에 대한 자세한 내용은 *이전 릴리스에 대한 릴리스 노트*&#x200B;의 [Target UI 버전 전환 사용 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
+자세한 내용은 *이전 릴리스에 대한 릴리스 노트*&#x200B;에서 [Target UI 버전 전환 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
 
 +++
 
@@ -123,7 +133,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 [!DNL Adobe Analytics]&#x200B;(AA) 또는 [!DNL Customer Journey Analytics]&#x200B;(CJA)을(를) [!DNL Target]과(와) 통합하는 범위는 현재 설정에 따라 중간에서 고급 작업까지 다양할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 사용하고 [!DNL Platform Web SDK]을(를) 구현한 경우 통합이 보다 간소화됩니다. 그러나 at.js 또는 AppMeasurement을 사용하는 기존 구현에는 다음을 포함한 추가 구성이 필요할 수 있습니다.
 
 * [Analytics for Target(A4T) 통합 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
-* [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [!DNL Target] 보고 통합.
+*  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [[!DNL Target] 보고 통합.
 * 보고서 세트 및 데이터 보기 매핑
 * 일관된 ID 확인(ECID)
 * 데이터 수집 및 속성 설정 유효성 검사
