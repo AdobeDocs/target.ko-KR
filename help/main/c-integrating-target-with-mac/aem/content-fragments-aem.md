@@ -39,15 +39,15 @@ AEM [!UICONTROL Content Fragments] 및 [!UICONTROL Experience Fragments]에 대�
 
 ## 요구 사항 {#requirements}
 
-[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html){target=_blank}을 사용하고 있어야 합니다. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
+[[!DNL AEM] as a Cloud Service](https://experienceleague.adobe.com/docs/experience-manager-cloud-service.html?lang=ko){target=_blank}을 사용하고 있어야 합니다. 계정 담당자는 사용자가 이 기능을 사용하기 위한 요구 사항을 충족하는지 확인할 수 있습니다.
 
 [Adobe Target 고객 지원](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 연락하여 통합을 활성화하고 인증 세부 사항을 제공받으십시오.
 
 ## [!DNL AEM]에서 [!UICONTROL Content Fragments] 구성 및 작업 {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
-[!DNL Target] 활동에 사용할 [!UICONTROL Content Fragments]을(를) 내보내려면 AEM에서 몇 가지 사전 단계를 수행해야 합니다. 자세한 내용은 *Adobe Target as a Cloud Service 설명서*&#x200B;에서 [Experience Manager으로 콘텐츠 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html){target=_blank}를 참조하십시오.
+[!DNL Target] 활동에 사용할 [!UICONTROL Content Fragments]을(를) 내보내려면 AEM에서 몇 가지 사전 단계를 수행해야 합니다. 자세한 내용은 *Adobe Target as a Cloud Service 설명서*&#x200B;에서 [Experience Manager으로 콘텐츠 조각 내보내기](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/content-fragments-target.html?lang=ko){target=_blank}를 참조하십시오.
 
-[!UICONTROL Content Fragments]의 디자인, 만들기, 조정 및 게시에 대한 자세한 내용은 [Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html){target=_blank}에서 [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ko){target=_blank} 및 [콘텐츠 조각을 사용하여 작업](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html){target=_blank}을 참조하세요.
+[!UICONTROL Content Fragments]의 디자인, 만들기, 조정 및 게시에 대한 자세한 내용은 [Experience Manager as a Cloud Service 설명서](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/home.html?lang=ko){target=_blank}에서 [[!UICONTROL Content Fragments]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/content-fragments.html?lang=ko){target=_blank} 및 [콘텐츠 조각을 사용하여 작업](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/administering/content-fragments/content-fragments.html?lang=ko){target=_blank}을 참조하세요.
 
 ## [!DNL Target] 활동에서 [!UICONTROL Content Fragments] 사용 중 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
