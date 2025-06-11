@@ -5,9 +5,9 @@ title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수
 feature: Overview
 hide: true
 hidefromtoc: true
-source-git-commit: b43d852a077bad7dfcc6ab39b7865bd20d77d539
+source-git-commit: bd39f65366e131fe92061430fd11a47d471851d8
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '1012'
 ht-degree: 0%
 
 ---
@@ -60,6 +60,11 @@ UI 버전 전환은 전환 단추를 사용하여 업데이트된 [!DNL Target] 
 
 UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활동의 편집 및 활동 세부 사항의 일관성을 비롯한 몇 가지 제한 사항이 있습니다.
 
+>[!NOTE]
+>
+>6월 22일 이후에도 토글을 유지해야 하는 특별한 경우가 있는 고객은 Adobe 고객 지원 센터에 문의할 수 있습니다.
+
+
 자세한 내용은 *이전 릴리스에 대한 릴리스 노트*&#x200B;에서 [Target UI 버전 전환 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
 
 ++++
@@ -85,21 +90,23 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 ## 기존 UI에서 오퍼를 만드는 것과 업데이트된 UI의 차이점은 무엇입니까? 추가 속성이 필요합니까?
 
 +++세부 정보
-무티, 도움이 필요해
+[!UICONTROL Offer Library] UI에는 모든 오퍼에 대해 일관된 특성 정의가 필요합니다. 활동 전용(애드혹) 오퍼를 생성할 때 사용자는 오퍼 이름도 지정해야 합니다. 이 정보는 [!UICONTROL Form-based Experience Composer]에 표시되므로 코드나 콘텐츠를 검토하지 않고도 오퍼를 보다 쉽게 식별할 수 있습니다.
 
 +++
 
 ## 업데이트된 UI의 오퍼 미리보기 링크는 어떻게 됩니까?
 
 +++세부 정보
-무티, 도움이 필요해
+선택한 조각에 해당하는 정보 아이콘(![정보 아이콘](/help/main/assets/icons/InfoOutline.svg) )을 클릭할 때 표시되는 [!UICONTROL Quick Info] 팝오버에서 [!UICONTROL Experience Fragment] 미리 보기 링크를 사용할 수 있습니다.
 
 +++
 
 ## 업데이트된 UI로 기존 활동을 편집할 때 [!UICONTROL Enhanced Experience Composer]을(를) 비활성화해야 합니다. [!DNL Adobe]님이 다른 고객과 유사한 행동을 관찰했습니까?
 
 +++세부 정보
-무티, 도움이 필요해
+예. [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension]을(를) 사용하는 경우 [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC) 을(를) 비활성화해야 할 수 있습니다.
+
+추가 정보는 [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)을 참조하십시오.
 
 +++
 
@@ -113,7 +120,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 +++
 
-## 찾아보기가 작동하지 않거나 찾아보기를 허용하는 데 문제가 있습니다. [!DNL Adobe]님이 다른 고객과 유사한 행동을 관찰했습니까?
+## [!UICONTROL Browse]이(가) 작동하지 않거나 검색할 수 있도록 허용하는 문제가 발생했습니다. [!DNL Adobe]님이 다른 고객과 유사한 행동을 관찰했습니까?
 
 +++세부 정보
 무티, 도움이 필요해
@@ -123,7 +130,9 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 ## 환경이 새 권장 사항 UI에서 기본적으로 스테이징으로 재설정됩니까?
 
 +++세부 정보
-무티, 도움이 필요해
+이제 환경은 고객이 사용한 마지막 환경으로 기본 설정됩니다. 환경을 전환하려면 [!UICONTROL Catalog Search] UI의 오른쪽 위 모서리에 있는 [!UICONTROL Environment] 선택기를 사용하십시오.
+
+![환경 스위치](/help/main/c-intro/assets/environmnent.png)
 
 +++
 
@@ -133,7 +142,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 [!DNL Adobe Analytics]&#x200B;(AA) 또는 [!DNL Customer Journey Analytics]&#x200B;(CJA)을(를) [!DNL Target]과(와) 통합하는 범위는 현재 설정에 따라 중간에서 고급 작업까지 다양할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 사용하고 [!DNL Platform Web SDK]을(를) 구현한 경우 통합이 보다 간소화됩니다. 그러나 at.js 또는 AppMeasurement을 사용하는 기존 구현에는 다음을 포함한 추가 구성이 필요할 수 있습니다.
 
 * [Analytics for Target(A4T) 통합 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
-* [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [!DNL Target] 보고 통합.
+*  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [[!DNL Target] 보고 통합.
 * 보고서 세트 및 데이터 보기 매핑
 * 일관된 ID 확인(ECID)
 * 데이터 수집 및 속성 설정 유효성 검사
