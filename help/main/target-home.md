@@ -4,9 +4,9 @@ title: Adobe Target 비즈니스 실무자 안내서
 description: Adobe [!DNL Target] 을 사용하여 고객의 경험을 개인화하여 웹과 모바일 사이트, 앱 및 기타 디지털 채널에서 매출을 극대화하는 방법에 대해 알아보십시오.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: 1b000b2c063ad3ace641ef2b2e08c53affd646e7
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '668'
 ht-degree: 26%
 
 ---
@@ -29,9 +29,15 @@ ht-degree: 26%
 
 >[!TAB 새로운 기능]
 
+**Target 25.6.2가 활성 상태입니다!**
+
+이번 릴리스는 업데이트된 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 수정 사항 및 개선 사항에 중점을 둡니다.
+
+[![자세히 알아보기 아이콘](/help/main/assets/learn-more.svg)](/help/main/r-release-notes/release-notes.md)
+
 **[!DNL Target]UI 업데이트 FAQ**
 
-2025년 6월 6일에 릴리스된 이 업데이트는 새로운 UI 개선 사항 및 주요 설명서 개선 사항을 제공합니다. 이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
+이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
 
 [![자세히 알아보기 아이콘](/help/main/assets/learn-more.svg)](/help/main/c-intro/updated-ui-faq.md)
 
@@ -45,7 +51,7 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 >[!TAB AI 길잡이]
 
-[!DNL Adobe Experience Platform]&#x200B;**에서**&#x200B;모임 [!DNL AI Assistant]
+[!DNL Adobe Experience Platform]**에서**&#x200B;모임 [!DNL AI Assistant]
 
 [!DNL AI Assistant]은(는) [!DNL Adobe Experience Cloud] 탐색에 대한 유용한 안내서입니다. [!DNL Target]과(와) 같은 제품에서 사용할 수 있는 [!DNL AI Assistant]은(는) 인터페이스에서 바로 주요 개념과 기능을 빠르게 이해할 수 있도록 도와줍니다.
 
@@ -112,5 +118,5 @@ UI는 명확성과 효율성을 위해 설계되어 [!DNL Target]을(를) 최대
 
 | Adobe [!DNL Target] 솔루션 도움말 | [!DNL Adobe Experience Cloud] 리소스 |
 |--- |--- |
-| <ul><li>[[!DNL Adobe Target] 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko)</li><li>[[!DNL Experience Cloud] 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[[!DNL Experience Cloud] 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[[!DNL Adobe] 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[[!DNL Adobe Target] 학습 및 지원](https://helpx.adobe.com/kr/support/target.html)</li><li>[Premium [!DNL Recommendations]](c-recommendations/recommendations.md)</li><li>[[!DNL Adobe Recommendations Classic]](/help/main/assets/adobe-recommendations-classic.pdf)</li><li>[[!DNL Target] API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/target-api-overview.html?lang=ko-KR){target=_blank}</li></ul> | <ul><li>[[!UICONTROL Target Community Forum]](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)</li><li>[[!DNL Experience Cloud] 릴리스 정보](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html?lang=ko-KR)</li><li>[[!DNL Experience Cloud] 도움말 홈](https://helpx.adobe.com/kr/support/experience-cloud.html)</li><li>[[!DNL Adobe] 교육 및 튜토리얼](https://helpx.adobe.com/kr/learning.html?promoid=KAUDK)</li></ul> |  |
 

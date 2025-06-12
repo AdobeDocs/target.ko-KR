@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
 workflow-type: tm+mt
-source-wordcount: '1174'
-ht-degree: 26%
+source-wordcount: '1701'
+ht-degree: 21%
 
 ---
 
@@ -18,6 +18,38 @@ ht-degree: 26%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 25.6.2 (2025년 6월 12일 금요일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* 업데이트된 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 일반적인 질문을 해결하기 위해 [새 FAQ 문서](/help/main/c-intro/updated-ui-faq.md)을 추가했습니다.
+* [!UICONTROL Page Delivery]의 &quot;[!UICONTROL URL - does not contain]&quot; 규칙이 작동하지 않아 콘텐츠를 차단해야 하는 경우에도 표시할 수 있는 문제가 해결되었습니다. (TGT-52754)
+* [!UICONTROL Page Delivery]에 오류 메시지가 잘못 표시되는 문제가 해결되었습니다. &quot;중복된 페이지 URL은 허용되지 않습니다. (TGT-52765)
+* 경험 조각이 포함된 [!UICONTROL Page Delivery]개의 URL에 대한 대상이 #에서 잘못 추가된 문제를 해결했습니다. (TGT-52786)
+* [!UICONTROL Goals and Settings] 페이지에서 활동을 복사하고 설정을 편집하면 [!DNL Target] UI가 응답하지 않는 문제를 해결했습니다. (TGT-52797)
+* [!UICONTROL A/B Test] 활동의 추가 페이지를 동일한 URL로 잘못 리디렉션할 수 있는 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)의 문제를 해결했습니다. (TGT-51838)
+* 활동을 편집할 때 [!UICONTROL Goals and Settings] 페이지의 지표 변경 사항이 저장되지 않던 문제를 수정했습니다. (TGT-52799)
+* 웹 편집기를 로드하는 동안 새 경험을 추가하면 새 경험이 이전 경험의 콘텐츠를 복제하는 문제가 해결되었습니다. (TGT-51397)
+* 기존 Target UI에서 이전에 사용할 수 있었던 기능인 `<head>` 태그 외부에서 사용자 지정 코드를 사용하는 기능을 복원했습니다. (TGT-52304 및 TGT-52300)
+* 활동을 만드는 동안 기본 작업 영역을 선택할 때 불필요한 유효성 검사가 제거되었습니다. 필수 속성 유효성 검사는 더 이상 기본 작업 영역에 적용되지 않지만, 기본값이 아닌 작업 영역에는 그대로 유지됩니다. (TGT-52449)
+* 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 `triggerView()` 호출이 검색되지 않는 문제를 해결했습니다. (TGT-52575)
+* 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 사용자가 [!UICONTROL Single Page Application]&#x200B;(SPA) 보기에 수정 사항을 추가하지 못하는 문제를 해결했습니다. (TGT-52556)
+* 업데이트된 [!DNL Target] UI에서 고객이 오퍼 세부 정보를 볼 수 없는 문제를 해결했습니다. (TGT-52607)
+* [!UICONTROL Offers Library]의 오퍼에 대한 업데이트가 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 반영되지 않는 문제를 해결했습니다. (TGT-52637)
+* 활동을 만드는 동안 오퍼 섹션이 제대로 표시되지 않는 문제를 해결했습니다. (TGT-52773)
+* `optionGroups`에서 참조된 모든 `optionLocalIds`이(가) 옵션 배열에 있는지 확인하기 위해 유효성 검사를 추가했습니다. 잘못된 참조는 활동을 만드는 동안 자동으로 제거됩니다. (TGT-52687)
+* 새 오퍼를 추가한 후 보고 그룹 및 제외가 유지되지 않던 문제를 수정했습니다. (TGT-52728)
+* [!UICONTROL Activity QA] 단추가 없는 활동에 빈 옵션 선택기가 표시되는 문제가 해결되었습니다. (TGT-52733)
+* QA 링크가 콘텐츠를 제대로 렌더링하지 못하는 문제를 해결했습니다. (TGT-52718)
+* 요소를 경험 조각으로 바꾸면 QA 환경에서 변경 사항이 올바르게 반영되지 않는 문제를 해결했습니다. (TGT-52762)
+* 사용자가 경험 조각을 추가하려고 할 때 &quot;잘못된 입력&quot; 오류가 발생하는 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)의 문제를 해결했습니다. (TGT-52701)
+* 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 대상 타깃팅을 편집할 때 &quot;대상 편집&quot; 모달이 비어 있는 것으로 표시되는 문제가 해결되었습니다. (TGT-52749)
+* 선택한 작업 영역에서 엔티티에 액세스할 수 없는 경우 사용자에게 알리는 메시지가 추가되었습니다. (TGT-52767)
+* UI에서 조건에 환경 ID를 수동으로 할당할 수 없었던 문제가 해결되었습니다. 대신 기본적으로 [!UICONTROL Product Catalog Search] 호스트 그룹의 ID가 사용됩니다. 이 수정 사항은 이제 기본값뿐만 아니라 모든 환경에 기준 변경 사항이 적용되도록 합니다. (TGT-52817)
+* 권장 사항이 있는 [!UICONTROL Experience Targeting] (XT) 활동에 대해 &quot;[!UICONTROL Download Recommendations data]&quot; 옵션이 누락되는 문제를 해결했습니다. (TGT-52730 및 TGT-52756)
+
+
 
 ## [!DNL Target Standard/Premium] 25.6.1 (2025년 6월 6일 토요일)
 
@@ -87,7 +119,7 @@ ht-degree: 26%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
