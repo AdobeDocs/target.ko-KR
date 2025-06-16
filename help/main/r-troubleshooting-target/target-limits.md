@@ -5,16 +5,16 @@ title: ' [!DNL Adobe Target]의 다양한 문자, 크기 및 기타 제한 사�
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: cc7d3b4752c6dba50a8643bfbc475045221d9ca8
+source-git-commit: 09874362863144992c69d4b79a935c9d9a769dc1
 workflow-type: tm+mt
-source-wordcount: '1704'
-ht-degree: 76%
+source-wordcount: '1734'
+ht-degree: 73%
 
 ---
 
 # 제한
 
-문자 제한 및 기타 제한 사항 (오퍼 크기, 대상자, 프로필, 값, 매개 변수 등) - [!DNL Adobe Target]에서의 활동 및 기타 요소에 영향을 미치는 제한 사항입니다.
+[!DNL Adobe Target]의 활동 및 기타 요소에 영향을 주는 문자 제한 및 기타 제한(오퍼 크기, 대상, 프로필, 값, 매개 변수 등)입니다.
 
 >[!NOTE]
 >
@@ -84,7 +84,7 @@ ht-degree: 76%
 
   일괄 처리 mbox 요청은 순차적으로 처리되므로 각 반복에 대한 전체 응답 시간이 늘어납니다. 일괄 처리 요청에 mbox가 많을수록 응답 지연이 늘어날 수 있으므로 시간 초과가 발생할 수 있습니다. 지연 시간이 긴 일괄 처리 요청에서 경험 렌더링이 차단되는 경우 사용자가 경험 렌더링을 기다리면 지연 시간이 저하되어 사용자 경험이 저하될 수 있습니다.
 
-* **제한**: [!DNL Target] 콘텐츠 게재 요청에 대한 60MB HTTP POST 본문 크기입니다.
+* **제한**: [!DNL Target] 콘텐츠 게재 요청에 대한 60MB의 HTTP POST 본문 크기입니다.
 
   [!DNL Target] 콘텐츠 게재 요청의 HTTP POST 본문 크기가 60MB를 초과하면 응답 오류 코드 `HTTP 413 Request Entity Too Large`이(가) 발생합니다.
 
@@ -155,7 +155,7 @@ ht-degree: 76%
 
 ### 활동별 경험 수
 
-* **제한**: [!UICONTROL Experience Targeting] (XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test] (MVT) 및 [!UICONTROL Auto-Target] 활동당 2,000개 경험.
+* **제한**: [!UICONTROL Experience Targeting]&#x200B;(XT), [!UICONTROL A/B Test], [!UICONTROL Multivariate Test]&#x200B;(MVT) 및 [!UICONTROL Auto-Target] 활동당 2,000개 경험.
 
   AP (Automated Personalization) 활동당 30,000개 경험.
 
@@ -179,7 +179,7 @@ ht-degree: 76%
 
 * **제한**: 250자.
 
-  [!DNL Delivery API]용(at.js 2.*x*), 일괄 mbox V2 및 [!DNL Adobe Experience Platform Web SDK] (alloy.js) 통합, mbox 이름 *can*&#x200B;에는 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자 중 하나가 포함됩니다.
+  [!DNL Delivery API]용(at.js 2.*x*), 일괄 mbox V2 및 [!DNL Adobe Experience Platform Web SDK]&#x200B;(alloy.js) 통합, mbox 이름 *can*&#x200B;에는 영숫자 문자(A-Z, a-z, 0-9)와 다음 문자 중 하나가 포함됩니다.
 
   ```
   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
@@ -294,6 +294,10 @@ ht-degree: 76%
 ## 보고 대상자/세그먼트
 
 * **제한**: 활동당 50개의 보고 대상자/세그먼트.
+
+## sessionID
+
+세션 ID는 인쇄 가능한 모든 문자열이 될 수 있습니다. 단, 공백, 물음표( ? ), 중괄호( { } ) 또는 슬래시( / )를 사용할 수 있습니다. 길이는 1~128자 사이여야 합니다.
 
 ## [!DNL Target] UI의 스크립트 프로필 입력 상자
 
