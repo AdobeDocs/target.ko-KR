@@ -4,21 +4,21 @@ description: ' [!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytic
 title: ' [!DNL Adobe Customer Journey Analytics]에서  [!DNL Target] 보고 중'
 feature: Integrations
 exl-id: 67b20bf6-ffbe-4220-9455-cb3886bb9227
-source-git-commit: 3d87ca98558e583b782cf2f5021c0487de6e16f6
+source-git-commit: 62a2fe830ca9b99513bade70481c66b7b93dfe62
 workflow-type: tm+mt
-source-wordcount: '1266'
+source-wordcount: '1265'
 ht-degree: 41%
 
 ---
 
 # [!DNL Adobe Customer Journey Analytics]의 [!DNL Target] 보고
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics){target=_blank}과(와) [!DNL Target] 간의 통합은 최적화 프로그램에 강력한 분석과 시간 절약에 유용한 도구를 제공합니다.
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}과(와) [!DNL Target] 간의 통합은 최적화 프로그램에 강력한 분석과 시간 절약에 유용한 도구를 제공합니다.
 
 [!DNL Customer Journey Analytics]를 [!DNL Target]에 대한 보고 소스로 사용하는 경우의 주요 이점은 다음과 같습니다.
 
 * 마케터가 언제든지 [!DNL Customer Journey Analytics] 성공 지표 또는 보고 세그먼트를 [!DNL Target] 활동 보고서에 동적으로 적용할 수 있습니다. 활동을 실행하기 전에 모든 항목을 지정할 필요는 없습니다.
-* 마케터는 [실험 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}과 같은 [!DNL Customer Journey Analytics] 기능을 사용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
+* 마케터는 [실험 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank}과 같은 [!DNL Customer Journey Analytics] 기능을 사용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
 * 마케터는 [!DNL Adobe Journey Optimizer] 및 [!DNL Target]에 대한 단일 보고 소스를 가질 수 있습니다. 두 개인화 제품 모두 [!DNL Customer Journey Analytics]에 연결하여 웹 개인화를 보다 전체적으로 살펴볼 수 있습니다.
 
 ## 고려 사항
@@ -34,14 +34,14 @@ ht-degree: 41%
    * [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 계정이 있는 경우 *사용자*&#x200B;에서 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 참조하십시오.
    * [Target Premium](/help/main/c-intro/intro.md#premium) 계정이 있는 경우 *Enterprise 사용자 권한*&#x200B;에서 [역할 및 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#roles-permissions)을 참조하십시오.
 
-* 보고 소스로서 [!DNL Customer Journey Analytics]를 사용하는 [!DNL Target] 활동을 설정하는 [!DNL Adobe Experience Platform] 역할의 일부여야 합니다. 자세한 내용은 *데이터 설계자 및 엔지니어 자습서에서*&#x200B;권한 구성&#x200B;*의 [역할 추가 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ko/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}를 참조하십시오.*
+* 보고 소스로서 [!DNL Customer Journey Analytics]를 사용하는 [!DNL Target] 활동을 설정하는 [!DNL Adobe Experience Platform] 역할의 일부여야 합니다. 자세한 내용은 *데이터 설계자 및 엔지니어 자습서에서*&#x200B;권한 구성&#x200B;*의 [역할 추가 [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/platform-learn/getting-started-for-data-architects-and-data-engineers/configure-permissions#add-a-role-in-adobe-experience-platform-requires-a-system-administrator-or-product-admin){target=_blank}를 참조하십시오.*
 * 설정에 따라 활동별로 또는 조직 수준에서 보고가 변경될 수 있습니다. *Target의 보고 구성*&#x200B;에서 [Cloud 솔루션 보고](/help/main/administrating-target/reporting.md#solution)를 참조하십시오.
 * 하나의 보고 소스 또는 다른 보고 소스를 사용하십시오. 여러 보고 소스에서 한 활동에 대한 데이터를 수집할 수 없습니다.
 * [!DNL Customer Journey Analytics]를 보고 소스로 설정하면 보고용 샌드박스를 지정하라는 메시지가 표시됩니다. 구성 중에는 액세스 권한이 있는 샌드박스만 표시됩니다.
 * 기존의 모든 [!DNL Target] 활동은 [!DNL Target] 데이터 수집을 계속 사용하며 이 통합을 활성화해도 영향을 받지 않습니다.
-* 이 통합을 사용하려면 기본 구현 방법에 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/ko/docs/experience-platform){target=_blank} 및 [!DNL Target]이(가) [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}을(를) 통해 구현되었습니다.
+* 이 통합을 사용하려면 기본 구현 방법에 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/en/docs/experience-platform){target=_blank} 및 [!DNL Target]이(가) [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank}을(를) 통해 구현되었습니다.
 
-  현재 [!DNL Adobe Experience Platform Web SDK]이(가) 구현되지 않은 경우 [[!DNL Adobe Analytics] 소스 연결](https://experienceleague.adobe.com/ko/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)을 만들어 데이터를 [!DNL Adobe Experience Platform]&#x200B;(으)로 가져올 수도 있습니다. 이 메서드를 사용하려면 [!DNL Customer Journey Analytics]에서 사용하는 [!DNL Adobe Experience Platform] 샌드박스와 함께 [!DNL Analytics] 보고서 세트를 선택해야 합니다.
+  현재 [!DNL Adobe Experience Platform Web SDK]이(가) 구현되지 않은 경우 [[!DNL Adobe Analytics] 소스 연결](https://experienceleague.adobe.com/en/docs/experience-platform/sources/ui-tutorials/create/adobe-applications/analytics)을 만들어 데이터를 [!DNL Adobe Experience Platform]&#x200B;(으)로 가져올 수도 있습니다. 이 메서드를 사용하려면 [!DNL Customer Journey Analytics]에서 사용하는 [!DNL Adobe Experience Platform] 샌드박스와 함께 [!DNL Analytics] 보고서 세트를 선택해야 합니다.
 
   ![보고 설정 대화 상자의 샌드박스 옵션](/help/main/c-integrating-target-with-mac/cja/assets/aep-sandbox.png)
 
@@ -49,11 +49,11 @@ ht-degree: 41%
   >
   >[!DNL Adobe Analytics] 원본 연결을 사용하는 경우 [!DNL Adobe Analytics]과(와) [!DNL Customer Journey Analytics]에 모두 보고서가 있습니다. 그러나 이 두 가지 솔루션 간에 알고리즘이 다르기 때문에 결과는 일치하지 않을 수 있습니다.
 
-* 시기에 대한 질문이 있으면 *[!DNL Adobe Customer Analytics]안내서*&#x200B;의 *자주 묻는 질문*&#x200B;에서 [지연 고려 사항](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank}을 참조하십시오.
+* 시기에 대한 질문이 있으면 *[!DNL Adobe Customer Analytics]안내서*&#x200B;의 *자주 묻는 질문*&#x200B;에서 [지연 고려 사항](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank}을 참조하십시오.
 
 ## 지원되는 활동 유형 {#supported-activities}
 
-[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} 또는 [at.js](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript 라이브러리를 사용할 때 다음 활동 유형이 지원됩니다.
+[Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep-web-sdk){target=_blank} 또는 [at.js](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/overview){target=_blank} JavaScript 라이브러리를 사용할 때 다음 활동 유형이 지원됩니다.
 
 | 활동 유형 | 지원됨? |
 |--- |--- |
@@ -102,9 +102,9 @@ ht-degree: 41%
 
 1. [!DNL Customer Journey Analytics]의 **[!UICONTROL Connections]** 페이지에서 **[!UICONTROL Create a new connection]**&#x200B;을(를) 클릭합니다.
 
-   [!DNL Customer Journey Analytics]![&#128279;](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)에서 새 연결 링크 만들기
+   [!DNL Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/assets/create-connection.png)에서 ![새 연결 링크 만들기
 
-1. 올바른 정보로 [연결 및 데이터 설정](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/overview){target=_blank}을 구성하십시오.
+1. 올바른 정보로 [연결 및 데이터 설정](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/overview){target=_blank}을 구성하십시오.
 1. 데이터스트림을 구성할 때 사용한 이벤트 데이터 세트를 추가합니다.
 1. **[!UICONTROL Adobe Target Classification Events]** 조회 데이터 세트를 추가한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 
@@ -112,7 +112,7 @@ ht-degree: 41%
 
 1. 이벤트 데이터 세트를 구성하십시오.
 
-   자세한 내용은 *[!DNL Adobe Customer Journey Analytics]안내서*&#x200B;의 *연결 만들기*&#x200B;에서 [데이터 세트 추가 및 구성](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank}을 참조하십시오.
+   자세한 내용은 *[!DNL Adobe Customer Journey Analytics]안내서*&#x200B;의 *연결 만들기*&#x200B;에서 [데이터 세트 추가 및 구성](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank}을 참조하십시오.
 
 1. [!UICONTROL Key] 필드를 &quot;key&quot;로 사용하고 [!UICONTROL Matching] 키 필드를 다음 경로로 사용하여 조회 데이터 세트를 구성합니다.
 
@@ -130,7 +130,7 @@ ht-degree: 41%
 
 1. 데이터 보기를 설정하고 위에서 만든 연결을 가리키는지 확인합니다.
 
-   자세한 내용은 *[!DNL Adobe Customer Journey Analytics]가이드의 [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank}*&#x200B;을 참조하세요.
+   자세한 내용은 *[!DNL Adobe Customer Journey Analytics]가이드의 [데이터 보기 만들기 또는 편집](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank}*&#x200B;을 참조하세요.
 
 1. [!DNL Customer Journey Analytics]에서 [!DNL Target] 데이터를 제대로 보려면 조회 데이터 세트에서 다음 필드를 차원으로 추가해야 합니다.
 
@@ -164,20 +164,20 @@ ht-degree: 41%
 >
 >* [!DNL Target]/[!DNL Customer Journey Analytics] 통합에는 A4T와 같은 미리 작성된 보고서가 포함되어 있지 않습니다. 모든 활동 보고서는 [!DNL Customer Journey Analytics]에서 수동으로 만들어야 합니다.
 >
->* [!UICONTROL Use a CJA Metric]을(를) 활동의 목표 지표로 선택한 경우 이 옵션을 사용하면 나중에 성공 지표를 유연하게 정의할 수 있습니다. [!UICONTROL Experimentation] 패널을 구성할 때까지 [!DNL Customer Journey Analytics] 성공 지표를 선택하지 않았으므로 [!DNL Customer Journey Analytics]이(가) 전환율 및 상승도를 계산할 지표를 모르므로 미리 작성된 보고서를 고급 버전에서 사용할 수 없습니다.
+>* [!UICONTROL Use a CJA Metric]을(를) 활동의 목표 지표로 선택한 경우 이 옵션을 사용하면 나중에 성공 지표를 유연하게 정의할 수 있습니다. [!UICONTROL Experimentation] 패널을 구성할 때까지 [!DNL Customer Journey Analytics] 성공 지표를 선택하지 않았기 때문에 [!DNL Customer Journey Analytics]이(가) 전환율 및 상승도를 계산할 지표를 모르므로 미리 작성된 보고서를 미리 사용할 수 없습니다.
 
 1. [!DNL Customer Journey Analytics]에서 실험 패널을 만든 다음 **[!UICONTROL Experiment]** 드롭다운 메뉴에서 활동을 선택합니다.
 
-   자세한 내용은 *[!DNL Customer Journey Analytics]* 안내서의 *실험 패널*&#x200B;에서 [실험 패널](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}을 참조하세요.
+   자세한 내용은 *[!DNL Customer Journey Analytics]* 안내서의 *실험 패널*&#x200B;에서 [실험 패널](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}을 참조하세요.
 
    ![Customer Journey Analytics의 실험 패널](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
    >[!IMPORTANT]
    >
-   >활동이 [!UICONTROL Experiment] 드롭다운 목록에 나타나지 않으면 올바른 데이터 보기가 선택되었는지, [!DNL Target] 차원에 필요한 컨텍스트 레이블이 포함되어 있는지 확인하십시오([데이터 보기 설정](https://experienceleague.adobe.com/ko/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}의 3단계 참조).
+   >활동이 [!UICONTROL Experiment] 드롭다운 목록에 나타나지 않으면 올바른 데이터 보기가 선택되었는지, [!DNL Target] 차원에 필요한 컨텍스트 레이블이 포함되어 있는지 확인하십시오([데이터 보기 설정](https://experienceleague.adobe.com/en/docs/target/using/integrate/cja/target-reporting-in-cja#set-up-data-views){target=_blank}의 3단계 참조).
 
 1. **[!UICONTROL Build]** 아이콘을 클릭합니다.
 
-   [!UICONTROL Experimentation] 패널은 실험의 성과를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다. 자세한 내용은 *[!DNL Customer Journey Analytics]* 안내서의 *실험 패널*&#x200B;에서 [[!UICONTROL Panel output]](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}을(를) 참조하십시오.
+   [!UICONTROL Experimentation] 패널은 실험의 성과를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다. 자세한 내용은 *[!DNL Customer Journey Analytics]* 안내서의 *실험 패널*&#x200B;에서 [[!UICONTROL Panel output]](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}을(를) 참조하십시오.
 
    ![실험](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)
