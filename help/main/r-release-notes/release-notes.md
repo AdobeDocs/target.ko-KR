@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 1d72a708ce68d34a603f750010caa4eb68290f7a
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
-source-wordcount: '1701'
-ht-degree: 21%
+source-wordcount: '1935'
+ht-degree: 19%
 
 ---
 
@@ -18,6 +18,28 @@ ht-degree: 21%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## 업데이트됨: [!DNL Target] UI 버전 전환 중단(2025년 6월 17일) {#revised}
+
+2025년 6월 17일부터 모든 IMS 조직은 새 경험 테스트를 시작하려면 특정 사용자 또는 조직 전체에 대해 업데이트된 [!DNL Target] UI에 대해 활성화되어야 합니다.
+
+주로 복잡한 고객 맞춤화와 관련된 최근 문제가 확인되어 [!DNL Target] 팀이 사용 중단 타임라인을 조정했습니다.
+
+* **2025년 6월 30일**: [업데이트됨 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)는 UI 버전 전환을 사용하도록 설정한 모든 IMS 조직의 기본 환경이 됩니다.
+
+   * 현재 기존 UI가 표시되는 고객은 기본적으로 이제 로그인 시 업데이트된 UI를 보게 됩니다.
+   * UI 버전 토글 기능은 7월 말까지 계속 사용할 수 있으며, 필요한 경우 다시 전환할 수 있습니다.
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe]은(는) 업데이트된 [!DNL Target] UI를 사용할 것을 강력히 권장합니다. 차단 문제가 발생하는 경우에만 레거시 UI로 다시 전환하십시오. 전환에 대한 중요 정보는 이전 릴리스의 릴리스 정보에서 [[!DNL Target] UI 버전 전환 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
+
+* **7월 15일부터 2025년 7월 30일까지**: UI 버전 토글이 단계적으로 영구적으로 비활성화됩니다. 영향을 받는 IMS 조직은 더 이상 기존 UI로 되돌릴 수 없습니다.
+
+   * 예외는 사안별로 검토할 것입니다.
+   * 전환 중단 지연은 차단 문제가 해결되는 동안 잠시(며칠) 동안만 부여됩니다.
+
+문제가 있거나 이 전환 중에 문제가 예상되는 경우 [Adobe 고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)에 문의하십시오.
 
 ## [!DNL Target Standard/Premium] 25.6.2 (2025년 6월 12일 금요일)
 
@@ -49,8 +71,6 @@ ht-degree: 21%
 * UI에서 조건에 환경 ID를 수동으로 할당할 수 없었던 문제가 해결되었습니다. 대신 기본적으로 [!UICONTROL Product Catalog Search] 호스트 그룹의 ID가 사용됩니다. 이 수정 사항은 이제 기본값뿐만 아니라 모든 환경에 기준 변경 사항이 적용되도록 합니다. (TGT-52817)
 * 권장 사항이 있는 [!UICONTROL Experience Targeting] (XT) 활동에 대해 &quot;[!UICONTROL Download Recommendations data]&quot; 옵션이 누락되는 문제를 해결했습니다. (TGT-52730 및 TGT-52756)
 
-
-
 ## [!DNL Target Standard/Premium] 25.6.1 (2025년 6월 6일 토요일)
 
 이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
@@ -76,7 +96,11 @@ ht-degree: 21%
 * 이전 번역이 기본 다국어 평면 외부의 문자를 사용하던 한국어의 현지화 문제를 해결했습니다. 업데이트된 번역문은 의도된 의미를 정확하게 전달하는 적절한 문자를 사용한다. (TGT-52508 및 TGT-52509)
 * 활동에 대한 시작 및 종료 날짜를 선택할 때 &quot;날짜&quot;에 대한 번역이 일관되지 않았던 한글의 현지화 문제를 해결했습니다. (TGT-52510)
 
-## Target UI 버전 전환 중단(2025년 5월 23일) {#toggle}
+## [!DNL Target] UI 버전 전환 사용 중단(2025년 5월 23일) {#toggle}
+
+>[!IMPORTANT]
+>
+>[!DNL Target] 팀이 UI 버전 전환 사용 중단에 대한 타임라인을 조정했습니다. 자세한 내용은 [업데이트됨: [!DNL Target] UI 버전 전환 사용 중단(2025년 6월 17일)](#revised)을 참조하십시오.
 
 새 [!DNL Target] 사용자 인터페이스의 롤아웃이 **2025년 5월 27일**&#x200B;까지 완료됩니다. 이 시점에서 모든 고객은 최신 UI 버전에 액세스할 수 있습니다.
 
@@ -119,7 +143,7 @@ ht-degree: 21%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 

@@ -1,5 +1,5 @@
 ---
-source-git-commit: 3dab3c070eecb415136d880ab1a4326dfe8856d8
+source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
 workflow-type: tm+mt
 source-wordcount: '210'
 ht-degree: 10%
@@ -23,7 +23,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->2025년의 새로운 기능인 [!DNL Target]에서는 업데이트된 UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을 도입했습니다. 자세한 내용을 보려면 다음 링크를 클릭하십시오.
+>2025년에 새로 도입되었으며 [!DNL Target]에서 업데이트된 UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을 도입했습니다. 자세한 내용을 보려면 다음 링크를 클릭하십시오.
 >
 >* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!UICONTROL Activities], [!UICONTROL Recommendations] 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 [!DNL Target]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
 >
