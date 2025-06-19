@@ -3,7 +3,8 @@ keywords: target 사용자 인터페이스;사용자 인터페이스;ui;자주 �
 description: 업데이트된  [!DNL Target]t 사용자 인터페이스에 대한 질문과 대답입니다.
 title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Overview
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
+source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
 workflow-type: tm+mt
 source-wordcount: '1031'
 ht-degree: 0%
@@ -14,7 +15,7 @@ ht-degree: 0%
 
 2025년에 새로 업데이트된 [!DNL Adobe Target]의 사용자 인터페이스는 모든 역할에서 유용성과 효율성을 향상시키도록 디자인된 간소화되고 직관적인 환경을 도입했습니다. 이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
 
-## Target UI 버전 사용 중단 토글 타임라인이 업데이트되었습니다.
+## Target UI 버전 사용 중단 토글 타임라인이 업데이트되었습니까?
 
 +++세부 정보
 예. [업데이트됨: [!DNL Target] UI 버전 전환 사용 중단(2025년 6월 17일)](/help/main/r-release-notes/release-notes.md#revised)에서 새 타임라인과 중요한 정보를 찾을 수 있습니다.
@@ -139,13 +140,9 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 [!DNL Adobe Analytics]&#x200B;(AA) 또는 [!DNL Customer Journey Analytics]&#x200B;(CJA)을(를) [!DNL Target]과(와) 통합하는 범위는 현재 설정에 따라 중간에서 고급 작업까지 다양할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 사용하고 [!DNL Platform Web SDK]을(를) 구현한 경우 통합이 보다 간소화됩니다. 그러나 at.js 또는 AppMeasurement을 사용하는 기존 구현에는 다음을 포함한 추가 구성이 필요할 수 있습니다.
 
 * [Analytics for Target(A4T) 통합 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
-* [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [!DNL Target] 보고 통합.
+*  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [[!DNL Target] 보고 통합.
 * 보고서 세트 및 데이터 보기 매핑
 * 일관된 ID 확인(ECID)
 * 데이터 수집 및 속성 설정 유효성 검사
 
 +++
-
-
-
-
