@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d87f1fbe78512363d4fe30935cbb4f2556b4a06b
+source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
 workflow-type: tm+mt
-source-wordcount: '1935'
-ht-degree: 19%
+source-wordcount: '2330'
+ht-degree: 17%
 
 ---
 
@@ -18,6 +18,26 @@ ht-degree: 19%
 이들 릴리스 정보는 [!DNL Adobe Target Standard] 및 [!DNL Target Premium] 릴리스 각각에 대한 기능, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js 및 기타 플랫폼 변경 내용에 대한 릴리스 정보도 포함됩니다.
 
 (괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.)
+
+## [!DNL Target Standard/Premium] 25.6.3 (2025년 6월 20일 토요일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+* 기존 VEC에서 사용할 수 있는 기능에 맞게 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) UI에 [!UICONTROL Rearrange] 옵션을 추가했습니다. (TGT-46957)
+* 한 작업 영역에서 다른 작업 영역으로 활동을 복사하면 &quot;null이 아니어야 합니다&quot; 또는 &quot;문제가 발생했습니다&quot;와 같은 오류가 트리거되는 문제가 해결되었습니다. (TGT-52474)
+* 특정 활동에 대해 [!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 보고서가 생성되지 않는 문제가 해결되었습니다. (TGT-52904)
+* 업데이트된 VEC에서 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동의 기본 콘텐츠 처리가 이전 UI와 일치하지 않는 문제를 해결했습니다. 이제 명시적으로 추가된 그룹이 없을 때 시스템은 `optionGroupLocalId = 0`을(를) 가진 &quot;기본 콘텐츠&quot;라는 기본 `optionGroup`을(를) 자동으로 추가합니다. 이 그룹에는 기본 옵션(예: `optionLocalId: 0`)이 포함되어 있습니다. 기본 콘텐츠가 제거되면 해당 옵션 그룹도 제거됩니다. (TGT-52651)
+* 이전에 제거한 경험에서 `experienceLocalId`을(를) 다시 사용할 수 없도록 잘못 설정된 [!UICONTROL Multivariate Test]&#x200B;(MVT) 활동의 문제를 해결했습니다. (TGT-52672)
+* 경험 조각이 포함된 활동을 복사하거나 편집할 수 없는 문제를 해결했습니다. 이 오류로 인해 `Enum "AemOfferType" cannot represent value: "html"` 오류가 트리거되었습니다. (TGT-52635)
+* 슬래시(/)와 같은 잘못된 문자로 인해 활동 위치의 URL에 쿼리 매개 변수가 표시되지 않는 문제가 해결되었습니다. (TNT52845)
+* 백 엔드 API를 통해 [!DNL A/B Test] 활동 업데이트에 대한 유효성 검사 오류 메시지가 개선되었습니다. 중복된 위치 이름이 있으면 메시지에 `locations.selectors`에 대해 &quot;중복된 이름은 사용할 수 없습니다.&quot;라는 메시지가 표시됩니다. (TGT-52589)
+* 요청 페이로드의 인식할 수 없는 속성으로 인해 실시간 [!UICONTROL Recommendations] 활동을 업데이트할 때 발생하는 오류를 수정했습니다. 이제 시스템에서 &quot;잘못된 JSON&quot;을 올바르게 처리합니다. 인식할 수 없는 속성 이름 오류. (TGT-52723)
+* [!DNL Recommendations] 디자인을 만들 수 없는 문제를 해결했습니다. [!UICONTROL Create]을(를) 클릭하면 &quot;스크립트 내에 최소 1개의 엔터티 변수가 사용되어야 합니다.&quot;라는 메시지가 트리거되었습니다. (TGT-52395 및 TGT-52899)
+* 수정 없이 [!DNL Recommendations] 디자인을 다시 저장하는 작업이 차단되는 문제를 해결했습니다. (TGT-52879)
+* [!UICONTROL Recommendations] 활동을 저장할 때 &quot;400 잘못된 요청&quot; 오류가 발생하는 백엔드 유효성 검사 오류를 해결했습니다. (TGT-52716)
+* [!UICONTROL Location] 드롭다운에서 특수 문자가 있는 mbox를 마우스로 가리키면 편집기가 비어 있고 &quot;Element&quot;에서 &quot;querySelector&quot;를 실행하지 못했습니다.&quot;가 트리거되는 [!UICONTROL Form-Based Experience Composer]의 문제를 해결했습니다. 라는 오류가 표시됩니다. (TGT-52717)
+* 새로운 &quot;PARTIALLY_IMPORTED&quot; 표시기로 피드 상태 정확도를 개선했습니다. 이전에는 파일의 모든 행을 가져오지 않았더라도 피드가 &quot;성공&quot;으로 표시되었으므로 이는 잘못된 선택이었습니다. (TGT-52892)
+* AP V2로 마이그레이션한 후 특정 API 호출이 `/admin/rest/ui/v1/campaigns`에 대해 클라이언트측 오류를 반환한 오류를 해결했습니다(HTTP 4xx). (TGT-52721)
 
 ## 업데이트됨: [!DNL Target] UI 버전 전환 중단(2025년 6월 17일) {#revised}
 
@@ -143,7 +163,7 @@ ht-degree: 19%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
