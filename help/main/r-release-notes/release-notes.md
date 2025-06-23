@@ -6,9 +6,9 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 3795350d8466a99c129e7f134533c88c3375b3e3
+source-git-commit: c380a07cb46241e428ad4946643eb2c011638c24
 workflow-type: tm+mt
-source-wordcount: '2330'
+source-wordcount: '2311'
 ht-degree: 17%
 
 ---
@@ -23,7 +23,6 @@ ht-degree: 17%
 
 이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
 
-* 기존 VEC에서 사용할 수 있는 기능에 맞게 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) UI에 [!UICONTROL Rearrange] 옵션을 추가했습니다. (TGT-46957)
 * 한 작업 영역에서 다른 작업 영역으로 활동을 복사하면 &quot;null이 아니어야 합니다&quot; 또는 &quot;문제가 발생했습니다&quot;와 같은 오류가 트리거되는 문제가 해결되었습니다. (TGT-52474)
 * 특정 활동에 대해 [!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 보고서가 생성되지 않는 문제가 해결되었습니다. (TGT-52904)
 * 업데이트된 VEC에서 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동의 기본 콘텐츠 처리가 이전 UI와 일치하지 않는 문제를 해결했습니다. 이제 명시적으로 추가된 그룹이 없을 때 시스템은 `optionGroupLocalId = 0`을(를) 가진 &quot;기본 콘텐츠&quot;라는 기본 `optionGroup`을(를) 자동으로 추가합니다. 이 그룹에는 기본 옵션(예: `optionLocalId: 0`)이 포함되어 있습니다. 기본 콘텐츠가 제거되면 해당 옵션 그룹도 제거됩니다. (TGT-52651)
@@ -163,7 +162,7 @@ ht-degree: 17%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
