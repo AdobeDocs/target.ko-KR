@@ -3,26 +3,24 @@ keywords: ai 도우미;인공 지능 도우미;콘텐츠 생성;콘텐츠 가속
 description: ' [!DNL AI Assistant]을(를) 사용하여 매력적인 콘텐츠를 생성하는 방법을 알아봅니다.'
 title: ' [!DNL AI Assistant] in [!DNL Target] 을(를) 사용하여 매력적인 콘텐츠를 만들려면 어떻게 해야 합니까?'
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
+source-git-commit: a2441f9bb2ffed981e1541c58a16f11f4f3a3f90
 workflow-type: tm+mt
-source-wordcount: '762'
+source-wordcount: '740'
 ht-degree: 1%
 
 ---
 
 # 콘텐츠 생성에 [!DNL Adobe Target]의 [!DNL AI Assistant] 사용
 
-대상자에게 직접 말하는 AI(인공 지능)를 사용하여 경험에 사용할 텍스트 코드 조각을 맞춤화하고 참여, 상호 작용 및 전환을 향상시켜 활동의 효과를 높이려면 [!DNL Adobe Target]의 [!DNL AI Assistant]을(를) 사용하십시오.
-
-[!DNL Adobe Target]의 [!DNL AI Assistant] 기능을 사용하여 생성 AI에 의해 제공되는 활동 콘텐츠를 높이십시오.
+[!DNL Adobe Target]에서 [!DNL AI Assistant]&#x200B;(으)로 참여 및 전환을 유도합니다. 생성 AI를 활용하여 대상자와 공감하고 활동 컨텐츠를 향상시키는 개인화되고 영향력이 큰 텍스트를 제작할 수 있습니다.
 
 ## 사전 요구 사항
 
-1. [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
+1.  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)의 [활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
 
    * 조직은 먼저 법률 약관에 동의해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
    * 관리자가 [!DNL AI Assistant]에 액세스할 수 있는 충분한 권한을 부여해야 합니다.
@@ -55,10 +53,13 @@ ht-degree: 1%
 
      옵션은 [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO]&#x200B;(누락의 우려), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] 및 [!UICONTROL Education & Insights]입니다.
 
-   * **언어**: 텍스트에 사용할 언어를 선택합니다. [!DNL AI Assistant]은(는) 현재 영어로만 제공됩니다.
+   * **언어**: 텍스트에 사용할 언어를 선택합니다.
+
+     [!DNL AI Assistant]은(는) 현재 영어로만 제공됩니다.
+
    * **음색**: 텍스트 음색이 대상자에게 울려 퍼집니다. [!DNL AI Assistant]이(가) 유익하거나, 흥미롭고, 장난스럽거나, 설득력 있게 들리도록 들릴지 여부에 관계없이 메시지를 적절히 조정할 수 있습니다.
 
-     옵션에는 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] 및 [!UICONTROL Conversational]이(가) 포함됩니다.
+     옵션은 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] 및 [!UICONTROL Conversational]입니다.
 
 1. 슬라이더를 사용하여 텍스트 길이([!UICONTROL Shorter Text] ~ [!UICONTROL Larger Text])를 선택하십시오.
 
@@ -97,4 +98,4 @@ ht-degree: 1%
 
 ### 콘텐츠 생성을 위해 AI Assistant를 사용하여 콘텐츠 생성
 
->[!VIDEO](https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor">https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
