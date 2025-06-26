@@ -3,7 +3,7 @@ keywords: ai 도우미;인공 지능 도우미;콘텐츠 생성;콘텐츠 가속
 description: ' [!DNL AI Assistant]을(를) 사용하여 매력적인 콘텐츠를 생성하는 방법을 알아봅니다.'
 title: ' [!DNL AI Assistant] in [!DNL Target] 을(를) 사용하여 매력적인 콘텐츠를 만들려면 어떻게 해야 합니까?'
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
