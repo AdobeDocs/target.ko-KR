@@ -22,7 +22,7 @@ ht-degree: 1%
 
 ## 사전 요구 사항
 
-1.  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)의 [활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
+1. [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
 
    * 조직은 먼저 법률 약관에 동의해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
    * 관리자가 [!DNL AI Assistant]에 액세스할 수 있는 충분한 권한을 부여해야 합니다.
@@ -58,7 +58,7 @@ ht-degree: 1%
    * **언어**: 텍스트에 사용할 언어를 선택합니다. [!DNL AI Assistant]은(는) 현재 영어로만 제공됩니다.
    * **음색**: 텍스트 음색이 대상자에게 울려 퍼집니다. [!DNL AI Assistant]이(가) 유익하거나, 흥미롭고, 장난스럽거나, 설득력 있게 들리도록 들릴지 여부에 관계없이 메시지를 적절히 조정할 수 있습니다.
 
-     옵션에는 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] 및 [!UICONTROL Conversational]이(가) 포함됩니다.
+     옵션에는 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] 및 [!UICONTROL Conversational]이(가) 포함됩니다.
 
 1. 슬라이더를 사용하여 텍스트 길이([!UICONTROL Shorter Text] ~ [!UICONTROL Larger Text])를 선택하십시오.
 
