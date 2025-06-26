@@ -1,35 +1,35 @@
 ---
 keywords: ai 도우미;인공 지능 도우미;콘텐츠 생성;콘텐츠 가속기;콘텐츠 생성;콘텐츠 생성
-description: ' [!DNL AI Assistant]을(를) 사용하여 콘텐츠를 생성하는 방법에 대해 알아봅니다.'
-title: ' [!DNL AI Assistant] in [!DNL Target] 을(를) 사용하여 콘텐츠를 생성하는 방법'
+description: ' [!DNL AI Assistant]을(를) 사용하여 매력적인 콘텐츠를 생성하는 방법을 알아봅니다.'
+title: ' [!DNL AI Assistant] in [!DNL Target] 을(를) 사용하여 매력적인 콘텐츠를 만들려면 어떻게 해야 합니까?'
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
-source-git-commit: 5ad564e43cd6f66e7f31072348f17e52013ed759
+source-git-commit: 37f599913a2b80b4ece1bf69ba3b21f54f44d18a
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '762'
 ht-degree: 1%
 
 ---
 
 # 콘텐츠 생성에 [!DNL Adobe Target]의 [!DNL AI Assistant] 사용
 
-[!DNL Adobe Target]의 [!DNL AI Assistant]을(를) 사용하면 텍스트 코드 조각을 맞춤화하고 대상자에게 직접 전달하는 인공 지능(AI)을 사용하여 이미지를 선택하여 참여와 상호 작용을 향상시켜 활동의 효과를 높일 수 있습니다.
+대상자에게 직접 말하는 AI(인공 지능)를 사용하여 경험에 사용할 텍스트 코드 조각을 맞춤화하고 참여, 상호 작용 및 전환을 향상시켜 활동의 효과를 높이려면 [!DNL Adobe Target]의 [!DNL AI Assistant]을(를) 사용하십시오.
 
 [!DNL Adobe Target]의 [!DNL AI Assistant] 기능을 사용하여 생성 AI에 의해 제공되는 활동 콘텐츠를 높이십시오.
 
 ## 사전 요구 사항
 
-1. [!DNL Adobe Target][&#128279;](/help/main/c-intro/enabling-ai-assistant.md)의 활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
+1.  [!DNL Adobe Target]](/help/main/c-intro/enabling-ai-assistant.md)의 [활성화 [!DNL Adobe Experience Platform] [!DNL AI Assistant]에서 필수 구성 요소 작업을 완료했는지 확인하십시오.
 
    * 조직은 먼저 법률 약관에 동의해야 합니다. 자세한 내용은 Adobe 계정 팀에 문의하십시오.
    * 관리자가 [!DNL AI Assistant]에 액세스할 수 있는 충분한 권한을 부여해야 합니다.
 
 ## 텍스트 생성
 
-[!DNL AI Assistant]을(를) 사용하여 텍스트를 생성하려면:
+[!DNL AI Assistant]을(를) 사용하여 매력적인 텍스트를 생성하려면:
 
 1. [[!DNL Target] [!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)(VEC) 내에서 VEC UI의 오른쪽 레일에 있는 **[!UICONTROL Show Content Assistant]**(![Show Content Assistant 아이콘](/help/main/assets/icons/MagicWand.svg)) 아이콘을 클릭합니다.
 
@@ -52,8 +52,13 @@ ht-degree: 1%
 1. **[!UICONTROL Text Settings]** 아이콘을 클릭하여 텍스트의 색조와 통신 전략을 지정합니다.
 
    * **커뮤니케이션 전략**: 생성된 텍스트에 가장 적합한 커뮤니케이션 스타일을 선택합니다.
+
+     옵션은 [!UICONTROL None], [!UICONTROL Urgent], [!UICONTROL FOMO]&#x200B;(누락의 우려), [!UICONTROL Social Proof], [!UICONTROL Scarcity], [!UICONTROL Incentive], [!UICONTROL Exclusivity], [!UICONTROL Gameification], [!UICONTROL Informative] 및 [!UICONTROL Education & Insights]입니다.
+
    * **언어**: 텍스트에 사용할 언어를 선택합니다. [!DNL AI Assistant]은(는) 현재 영어로만 제공됩니다.
    * **음색**: 텍스트 음색이 대상자에게 울려 퍼집니다. [!DNL AI Assistant]이(가) 유익하거나, 흥미롭고, 장난스럽거나, 설득력 있게 들리도록 들릴지 여부에 관계없이 메시지를 적절히 조정할 수 있습니다.
+
+     옵션에는 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] 및 [!UICONTROL Conversational]이(가) 포함됩니다.
 
 1. 슬라이더를 사용하여 텍스트 길이([!UICONTROL Shorter Text] ~ [!UICONTROL Larger Text])를 선택하십시오.
 
@@ -67,9 +72,9 @@ ht-degree: 1%
 
    ![생성된 텍스트가 있는 AI 길잡이](/help/main/c-intro/assets/ai-text-done.png)
 
-1. (조건부) 변경 내용을 취소하려면 [실행 취소] 아이콘(![실행 취소 아이콘](/help/main/assets/icons/Undo.svg))을 클릭합니다.
+1. (조건부) 변경 내용을 취소하려면 [!UICONTROL Undo] 아이콘(![실행 취소 아이콘](/help/main/assets/icons/Undo.svg))을 클릭합니다.
 
-1. (선택 사항) AI Assistant에 피드백을 제공합니다.
+1. (선택 사항) [!DNL AI Assistant]에게 피드백을 제공하십시오.
 
    * Thumbs 위쪽 아이콘(![Thumbs 위쪽](/help/main/assets/icons/ThumbUp.svg)) 아이콘을 클릭하여 [!DNL AI Assistant]에게 변형을 좋아한다고 알립니다.
    * Thumbs Down( ![Thumbs Down 아이콘](/help/main/assets/icons/ThumbDown.svg)) 아이콘을 클릭하여 [!DNL AI Assistant]에게 변형을 좋아하지 않음을 알립니다.
@@ -92,4 +97,4 @@ ht-degree: 1%
 
 ### 콘텐츠 생성을 위해 AI Assistant를 사용하여 콘텐츠 생성
 
->[!VIDEO](https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor">https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)
