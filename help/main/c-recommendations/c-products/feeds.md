@@ -1,20 +1,20 @@
 ---
 keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
-description: 피드가 CSV 파일,  [!DNL Google Product Search] 피드 형식 및  [!DNL Analytics] 제품 분류를 사용하여  [!DNL Adobe Target] [!DNL Recommendations]에 엔티티를 가져오는 방법에 대해 알아봅니다.
-title: ' [!DNL Target Recommendations]에서 [!UICONTROL Feeds]을(를) 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+description: 피드가 CSV 파일,  [!DNL Adobe Target] [!DNL Recommendations]피드 형식 및  [!DNL Google Product Search] 제품 분류를 사용하여  [!DNL Analytics] 에 엔티티를 가져오는 방법에 대해 알아봅니다.
+title: '[!UICONTROL Feeds]에서  [!DNL Target Recommendations]을(를) 사용하는 방법'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: 5a8b4006a2c43c9cac2d22e7663aa21043f98d9a
 workflow-type: tm+mt
-source-wordcount: '2417'
-ht-degree: 38%
+source-wordcount: '2613'
+ht-degree: 35%
 
 ---
 
 # 피드
 
-피드를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] (으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
+피드를 사용하여 [!DNL Adobe Target] [!DNL Recommendations]&#x200B;(으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, [!DNL Google Product Search] 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
 
 ## 피드 개요 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
@@ -121,11 +121,11 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 >
 >[!DNL Google] 데이터를 사용할 필요는 없습니다. [!DNL Recommendations]은(는) [!DNL Google]과(와) 동일한 형식을 사용합니다. 이 방법을 사용하여 보유하고 있는 데이터를 업로드하고 사용 가능한 예약 기능을 이용할 수 있습니다. 그러나 파일을 설정할 때 미리 정의된 특성 이름 [!DNL Google]을(를) 유지해야 합니다.
 
-대부분의 소매업체는 제품을 [!DNL Google]에 업로드하므로 방문자가 [!DNL Google] 제품 검색을 사용하면 해당 제품이 표시됩니다. [!DNL Recommendations]은(는) 정확히 엔터티 피드에 대해 [!DNL Google] 사양을 따릅니다. 엔터티 피드는 .xml, .txt 또는 .tsv를 통해 [!DNL Recommendations]에 전송될 수 있으며, Google에서 정의한 [특성을 사용할 수 있습니다](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 결과는 [[!DNL Google] 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
+대부분의 소매업체는 제품을 [!DNL Google]에 업로드하므로 방문자가 [!DNL Google] 제품 검색을 사용하면 해당 제품이 표시됩니다. [!DNL Recommendations]은(는) 정확히 엔터티 피드에 대해 [!DNL Google] 사양을 따릅니다. 엔터티 피드는 .xml, .txt 또는 .tsv를 통해 [!DNL Recommendations]에 전송될 수 있으며, Google에서 정의한 [특성을 사용할 수 있습니다](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). 결과는 [[!DNL Google] 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
 
 >[!NOTE]
 >
->[!DNL Google] 피드 콘텐츠를 호스팅하는 서버에서는 POST 메서드가 허용되어야 합니다.
+>POST 메서드는 [!DNL Google] 피드 콘텐츠를 호스팅하는 서버에서 허용되어야 합니다.
 
 [!DNL Recommendations]명의 사용자가 이미 URL 또는 FTP를 통해 [!DNL Google]에게 전송할 .xml 또는 .txt 피드를 구성했으므로, 엔터티 피드는 해당 제품 데이터를 수락하고 이를 사용하여 권장 사항 카탈로그를 만듭니다. 피드가 존재하며 권장 사항 서버가 데이터를 검색하는 위치를 지정합니다.
 
@@ -212,11 +212,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Adobe Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 *Analytics 구성 요소* 안내서에서 [분류 정보](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko)를 참조하십시오. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
+[!DNL Adobe Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 [Analytics 구성 요소](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 안내서에서 *분류 정보*&#x200B;를 참조하십시오. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
 
 >[!IMPORTANT]
 >
->[!DNL Analytics] 제품 분류를 사용하여 엔터티 데이터를 [!DNL Recommendations] (으)로 가져오기 전에 이 방법이 기본 방법이 아니라는 것을 알아 두십시오.
+>[!DNL Recommendations] 제품 분류를 사용하여 엔터티 데이터를 [!DNL Analytics]&#x200B;(으)로 가져오기 전에 이 방법이 기본 방법이 아니라는 것을 알아 두십시오.
 >
 > 다음 주의 사항에 유의하십시오.
 >
@@ -274,7 +274,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
-피드를 만들거나 편집한 후 피드가 즉시 실행됩니다. 그러면 피드는 사용자가 설정한 매개 변수에 따라 업데이트됩니다. 정보가 나오려면 시간이 좀 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태는 [!UICONTROL Feeds] 목록의 [피드 상태](/help/main/c-recommendations/c-products/feeds.md#status)에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
+피드를 만들거나 편집한 후 피드가 즉시 실행됩니다. 그러면 피드는 사용자가 설정한 매개 변수에 따라 업데이트됩니다. 정보가 나오려면 시간이 좀 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태는 [ 목록의 ](/help/main/c-recommendations/c-products/feeds.md#status)피드 상태[!UICONTROL Feeds]에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
 
 색인화가 진행 중인 동안 개별 값이 색인화되기 전에 제품 및 피드 헤더가 표시됩니다. 이렇게 하면 색인화가 완료되기 전에 컬렉션, 제외, 디자인 및 활동을 만들 수 있도록 제품을 검색하고 볼 수 있습니다.
 
@@ -298,6 +298,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 | [!UICONTROL Downloading Feed File] | [!DNL Target]이(가) 피드 파일을 다운로드하고 있습니다. |
 | [!UICONTROL Importing Items] | [!DNL Target]이(가) 피드 파일에서 항목을 가져오는 중입니다. |
 | 피드를 *시간 내에* 성공적으로 가져옴 | [!DNL Target]이(가) 피드 파일을 콘텐츠 전달 시스템으로 가져왔습니다. 항목 속성에 대한 변경 사항은 콘텐츠 전달 시스템에서 만들어졌으며, 곧 전달된 권장 사항에 반영될 예정입니다. 예상 변경 사항이 표시되지 않으면 다시 시도하여 권장 사항이 포함된 페이지를 새로 고치십시오.<br>메모:<ul><li>항목의 속성에 대한 변경 사항으로 인해 항목이 권장 사항에서 제외되는 경우 제외 사항이 즉시 반영됩니다. 항목이 새로 추가되거나 특성을 변경하면 해당 항목이 권장 사항에서 더 이상 제외되지 *않습니다*. 이 경우 24시간 내에 다음 알고리즘 업데이트가 발생할 때까지 반영되지 않습니다.</li><li>이 상태가 표시되면 업데이트가 [!UICONTROL Catalog Search] UI에 아직 반영되지 않았을 수 있습니다. 검색 가능한 카탈로그가 마지막으로 업데이트된 시간을 나타내는 별도의 상태가 [!UICONTROL Catalog Search]에 나열됩니다.</li></ul> |
+| 부분 가져오기 실패 | 이전에는 모든 행이 업로드되지 않은 경우에도 피드가 성공으로 표시되었습니다. 따라서 피드가 성공적으로 표시되었을 때 모든 행이 업로드되었다는 잘못된 인상을 만듭니다.<P>다음은 부분 피드 가져오기가 발생할 수 있는 이유에 대한 시나리오입니다.<ul><li>프로덕션 환경에 대한 피드 파일(예: 100개 행)을 업로드했습니다.</li><li>피드가 실행되어 해당 행 중 80개를 업로드하고 잘못된 형식, 필드 초과 문자 등으로 인해 20개의 행을 삭제했습니다.</li><li>UI에서 피드가 성공으로 표시되어 100개의 행이 모두 업로드된 것처럼 보입니다.</li><li>활동 전달에 20개 제품 중 일부가 예상되지만 발생하지 않습니다.</li><li> 해당 제품에 대한 제품 세부 사항이 있는 피드를 업로드했기 때문에 이 시점에서 혼란스럽습니다. Entity API를 통해 쿼리할 때 백엔드에 표시되지 않는데, 이는 해당 API가 백엔드에 없음을 나타냅니다.</li></ul>이러한 혼동을 제거하기 위해 피드에 발생한 사항을 정확히 알 수 있도록 메시지가 개선됩니다. 성공으로 표시하기보다는 이제 부분 가져오기 실패로 표시됩니다. |
 | [!UICONTROL Failed to Index] | 색인 작업에 실패했습니다. 다시 시도하십시오. |
 | [!UICONTROL Server Not Found] | FTP 또는 URL 위치가 잘못되었거나 접속할 수 없습니다. |
 
@@ -338,14 +339,14 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Recommendations의 피드 이해(3:01) ![개요 배지](/help/main/assets/overview.png)
+### 권장 사항에서 피드 이해(3:01) ![개요 배지](/help/main/assets/overview.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
 * 피드의 목적 이해
 * 피드 값 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/33985?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 피드 만들기(6:44) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -354,4 +355,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 피드 설정
 * 사용할 피드 유형 파악
 
->[!VIDEO](https://video.tv.adobe.com/v/33984?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
