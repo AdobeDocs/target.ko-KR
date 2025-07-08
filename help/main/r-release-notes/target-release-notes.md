@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: a527cc60552a47f65a079009400049b738adf811
+source-git-commit: 54e97914f5d1f61dc04bc8afb34eac2899933a90
 workflow-type: tm+mt
-source-wordcount: '1893'
+source-wordcount: '1888'
 ht-degree: 11%
 
 ---
@@ -58,7 +58,6 @@ ht-degree: 11%
 * [!UICONTROL Targeting]에서 [!UICONTROL Experiences]&#x200B;(으)로 다시 이동할 때 HTML 오퍼를 사용하여 수정한 내용이 누락된 것으로 표시되는 고객의 동작을 명확히 했습니다. 이 고객의 경우 영향을 받는 웹 사이트에서 각 페이지 로드와 함께 변경된 여러 DOM 선택기를 동적으로 생성했습니다. 따라서 편집기를 다시 열 때 원래 수정에 사용된 선택기를 찾을 수 없으므로 수정 사항이 누락되거나 유효하지 않은 것으로 표시됩니다. 설계대로 작동합니다. 수정 사항이 편집기에서 시각적으로 지속되도록 하려면 클라이언트가 페이지 다시 로드 간에 변경되지 않는 안정적이고 일관된 선택기를 사용하는 것이 좋습니다. (TGT-52874)
 * 제외된 경험의 일부인 오퍼를 삭제하거나 비활성화하려고 할 때 &quot;잘못된 사용자 입력&quot; 오류가 트리거되는 문제를 해결했습니다. 이 문제는 오퍼가 포함된 경험에서 활발하게 사용되지 않았음에도 불구하고 발생했습니다. (TGT-52917)
 * 사용자가 다른 지표를 선택한 후에도 [!UICONTROL Revenue] 단계의 [!UICONTROL Goals & Settings] 지표 드롭다운이 [!UICONTROL Revenue per Visit]&#x200B;(RPVISIT)으로 잘못 설정되던 문제를 수정했습니다.  지표 구성 패널을 축소하고 다시 확장하는 동안 문제가 발생하여 이전에 선택한 값이 재설정되었습니다. (TGT-52811 및 TGT-52878)
-* 차단된 문제가 해결되었습니다.
 * [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Multivariate Testing]&#x200B;(MVT) 활동의 오퍼 이름 지정 및 콘텐츠 변환과 관련된 활동 만들기 워크플로의 몇 가지 문제를 해결했습니다.
 
   해결된 주요 문제:
@@ -93,7 +92,7 @@ ht-degree: 11%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 노트: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
