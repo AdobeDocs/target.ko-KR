@@ -346,7 +346,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 피드의 목적 이해
 * 피드 값 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/27695)
+>[!VIDEO](https://video.tv.adobe.com/v/33985?captions=kor)
 
 ### 피드 만들기(6:44) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -355,4 +355,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 피드 설정
 * 사용할 피드 유형 파악
 
->[!VIDEO](https://video.tv.adobe.com/v/27696)
+>[!VIDEO](https://video.tv.adobe.com/v/33984?captions=kor)
