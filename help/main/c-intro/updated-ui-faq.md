@@ -4,9 +4,9 @@ description: 업데이트된  [!DNL Target]t 사용자 인터페이스에 대한
 title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 05a4358e0115d7bfd13ec715a0e7eb96f1f2265b
+source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
 workflow-type: tm+mt
-source-wordcount: '1031'
+source-wordcount: '953'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 ## Target UI 버전 사용 중단 토글 타임라인이 업데이트되었습니까?
 
 +++세부 정보
-예. [업데이트됨: [!DNL Target] UI 버전 전환 사용 중단(2025년 6월 17일)](/help/main/r-release-notes/release-notes.md#revised)에서 새 타임라인과 중요한 정보를 찾을 수 있습니다.
+예. [알아야 하는 시간에 따른 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)에서 새 타임라인과 중요한 정보를 찾을 수 있습니다.
 
 +++
 
@@ -27,9 +27,9 @@ ht-degree: 0%
 +++세부 정보
 다음 리소스는 업데이트된 [!DNL Target] UI에 대한 자세한 정보를 제공합니다.
 
-* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!UICONTROL Activities], [!UICONTROL Recommendations] 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 [!DNL Target]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!DNL Target], [!UICONTROL Activities] 및 [!UICONTROL Recommendations]&#x200B;(VEC)에 대한 [!UICONTROL Visual Experience Composer]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
 
-* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!UICONTROL Offers Library]에 대한 [!DNL Target]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!DNL Target]에 대한 [!UICONTROL Offers Library]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
 
 * [UI 이해 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): [!DNL Target]에 익숙해지는 데 도움이 되는 간단한 개요를 제공하고 자세한 정보와 단계별 지침을 제공하는 링크를 제공합니다.
 
@@ -44,9 +44,7 @@ ht-degree: 0%
 +++세부 정보
 업데이트된 UI는 모든 [!DNL Target] 고객, [!UICONTROL Standard] 및 [!UICONTROL Premium]에서 사용할 수 있습니다. 업그레이드된 라이센스나 SKU는 필요하지 않습니다.
 
-새 [!DNL Target] UI의 롤아웃이 2025년 5월 27일에 완료되었습니다. 이 시점에서 모든 고객은 최신 UI 버전에 액세스할 수 있습니다.
-
-임시 UI 버전 전환 롤아웃 및 사용 중단에 대한 자세한 내용은 *이전 릴리스에 대한 릴리스 노트*&#x200B;의 [Target UI 버전 전환 사용 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
+임시 UI 버전 전환 롤아웃 및 사용 중단에 대한 자세한 내용은 [알아야 하는 시간에 민감한 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)를 참조하십시오.
 
 +++
 
@@ -55,22 +53,18 @@ ht-degree: 0%
 +++세부 정보
 [!DNL Target] 팀이 새 UI 롤아웃과 관련된 문제를 적극적으로 해결하고 있습니다. 업데이트 및 지속적인 개선 사항은 릴리스 정보에 자세히 설명되어 있습니다.
 
-임시 UI 버전 전환 롤아웃 및 사용 중단에 대한 자세한 내용은 *이전 릴리스에 대한 릴리스 노트*&#x200B;의 [Target UI 버전 전환 사용 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
+임시 UI 버전 전환 롤아웃 및 사용 중단에 대한 자세한 내용은 [알아야 하는 시간에 민감한 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)를 참조하십시오.
 
 +++
 
 ## 고객이 기존 UI를 계속 사용하고자 하는 경우, UI 버전을 계정에 대해 유지되도록 전환할 수 있습니까?
 
 +++세부 정보
-UI 버전 전환은 전환 단추를 사용하여 업데이트된 [!DNL Target] UI와 레거시 버전 간을 전환할 수 있는 임시 기능입니다. 이 옵션은 UI 롤아웃의 마지막 단계 동안에만 사용할 수 있습니다. 롤아웃이 완료되면 토글이 삭제되고 모든 사용자가 2025년 6월 22일에 업데이트된 UI로 영구적으로 전환됩니다.
+UI 버전 전환은 전환 단추를 사용하여 업데이트된 [!DNL Target] UI와 레거시 버전 간을 전환할 수 있는 임시 기능입니다. 이 옵션은 UI 롤아웃의 마지막 단계 동안에만 사용할 수 있습니다. 롤아웃이 완료되면 토글이 제거되고 모든 사용자가 업데이트된 UI로 영구적으로 전환됩니다.
 
 UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활동의 편집 및 활동 세부 사항의 일관성을 비롯한 몇 가지 제한 사항이 있습니다.
 
->[!NOTE]
->
->6월 22일 이후에도 토글을 유지해야 하는 특별한 경우가 있는 고객은 Adobe 고객 지원 센터에 문의할 수 있습니다. 자세한 내용은 [업데이트됨: [!DNL Target] UI 버전 전환 사용 중단(2025년 6월 17일)](/help/main/r-release-notes/release-notes.md#revised)을 참조하십시오.
-
-자세한 내용은 *이전 릴리스에 대한 릴리스 노트*&#x200B;에서 [Target UI 버전 전환 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
+자세한 내용은 [알고 있어야 하는 시간에 민감한 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)를 참조하십시오.
 
 ++++
 
@@ -81,7 +75,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활동의 편집 및 활동 세부 사항의 일관성을 비롯한 몇 가지 제한 사항이 있습니다.
 
-자세한 내용은 *이전 릴리스에 대한 릴리스 노트*&#x200B;에서 [Target UI 버전 전환 중단(2025년 5월 23일)](/help/main/r-release-notes/release-notes-for-previous-releases.md#toggle)을 참조하십시오.
+자세한 내용은 [알고 있어야 하는 시간에 민감한 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)를 참조하십시오.
 
 +++
 
@@ -102,7 +96,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 ## 업데이트된 UI의 오퍼 미리보기 링크는 어떻게 됩니까?
 
 +++세부 정보
-선택한 조각에 해당하는 정보 아이콘(![정보 아이콘](/help/main/assets/icons/InfoOutline.svg) )을 클릭할 때 표시되는 [!UICONTROL Quick Info] 팝오버에서 [!UICONTROL Experience Fragment] 미리 보기 링크를 사용할 수 있습니다.
+선택한 조각에 해당하는 정보 아이콘([!UICONTROL Experience Fragment]정보 아이콘[!UICONTROL Quick Info] )을 클릭할 때 표시되는 ![ 팝오버에서 ](/help/main/assets/icons/InfoOutline.svg) 미리 보기 링크를 사용할 수 있습니다.
 
 +++
 
@@ -128,7 +122,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 ## 환경이 새 권장 사항 UI에서 기본적으로 스테이징으로 재설정됩니까?
 
 +++세부 정보
-이제 환경은 고객이 사용한 마지막 환경으로 기본 설정됩니다. 환경을 전환하려면 [!UICONTROL Catalog Search] UI의 오른쪽 위 모서리에 있는 [!UICONTROL Environment] 선택기를 사용하십시오.
+이제 환경은 고객이 사용한 마지막 환경으로 기본 설정됩니다. 환경을 전환하려면 [!UICONTROL Environment] UI의 오른쪽 위 모서리에 있는 [!UICONTROL Catalog Search] 선택기를 사용하십시오.
 
 ![환경 스위치](/help/main/c-intro/assets/environmnent.png)
 
@@ -140,7 +134,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 [!DNL Adobe Analytics]&#x200B;(AA) 또는 [!DNL Customer Journey Analytics]&#x200B;(CJA)을(를) [!DNL Target]과(와) 통합하는 범위는 현재 설정에 따라 중간에서 고급 작업까지 다양할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 사용하고 [!DNL Platform Web SDK]을(를) 구현한 경우 통합이 보다 간소화됩니다. 그러나 at.js 또는 AppMeasurement을 사용하는 기존 구현에는 다음을 포함한 추가 구성이 필요할 수 있습니다.
 
 * [Analytics for Target(A4T) 통합 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)
-* [!DNL Adobe Customer Journey Analytics][&#128279;](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)에서 [!DNL Target] 보고 통합.
+* [[!DNL Target] 에서  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)보고 통합.
 * 보고서 세트 및 데이터 보기 매핑
 * 일관된 ID 확인(ECID)
 * 데이터 수집 및 속성 설정 유효성 검사
