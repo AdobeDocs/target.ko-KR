@@ -4,9 +4,9 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: dc291b4573e00512edd44b94304be2a25106b234
+source-git-commit: 3bae9b212182cbbe9a801a1e2cdb401162fa1eb6
 workflow-type: tm+mt
-source-wordcount: '1882'
+source-wordcount: '1893'
 ht-degree: 11%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 11%
 
 ## [!DNL Target Standard/Premium] 25.7.1(2025년 7월 8일)
 
-이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+주로 복잡한 고객 맞춤화와 관련된 최근 문제가 확인되어 이 릴리스에는 다음 수정 사항 및 업데이트가 포함되어 있습니다.
 
 * 활동이 저장되기 전이라도 위치에서 제거된 후 바로 UI에서 활동 전용 대상 세분화가 사라지는 문제를 해결했습니다. 이 동작은 예상 기능 및 도구 설명 지침과 모순됩니다. 이 지침에는 &quot;활동이 저장되면 이 라이브러리에서 사용되지 않은 모든 대상이 삭제됩니다.&quot;가 표시됩니다. (TGT-52982)
 * [!UICONTROL All Visitors] 이외의 대상을 활동에 할당하려고 할 때 발생하는 문제를 해결했습니다. 저장하면 다음과 같은 오류 메시지가 표시됩니다. &quot;요청을 완료할 수 없습니다. 문제가 지속되면 Adobe client-care에 문의하십시오.&quot; (TGT-53008)
@@ -93,7 +93,7 @@ ht-degree: 11%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 노트: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
