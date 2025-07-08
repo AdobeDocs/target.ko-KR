@@ -4,7 +4,7 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 3bae9b212182cbbe9a801a1e2cdb401162fa1eb6
+source-git-commit: a527cc60552a47f65a079009400049b738adf811
 workflow-type: tm+mt
 source-wordcount: '1893'
 ht-degree: 11%
@@ -15,7 +15,7 @@ ht-degree: 11%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트 날짜: 2025년 7월 7일**
+**마지막 업데이트 날짜: 2025년 7월 8일**
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ ht-degree: 11%
 >
 >* 괄호로 묶인 문제 번호는 내부 [!DNL Adobe]용입니다.
 
-## [!DNL Target Standard/Premium] 25.7.1(2025년 7월 8일)
+## [!DNL Target Standard/Premium] 25.7.1(2025년 7월 9일)
 
 주로 복잡한 고객 맞춤화와 관련된 최근 문제가 확인되어 이 릴리스에는 다음 수정 사항 및 업데이트가 포함되어 있습니다.
 
@@ -93,7 +93,7 @@ ht-degree: 11%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 노트: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
