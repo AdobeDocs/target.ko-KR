@@ -43,7 +43,7 @@ ht-degree: 12%
 * [!UICONTROL All Visitors] 이외의 대상을 활동에 할당하려고 할 때 발생하는 문제를 해결했습니다. 저장하면 다음과 같은 오류 메시지가 표시됩니다. &quot;요청을 완료할 수 없습니다. 문제가 지속되면 [!UICONTROL Adobe Client Care]에 문의하십시오.&quot; (TGT-53008)
 * 활동 편집기 내에서 새 대상을 만들고 할당한 후 활동 저장을 차단하는 문제를 해결했습니다. 표시되는 오류 메시지: &quot;요청을 완료할 수 없습니다. 문제가 지속되면 [!UICONTROL Adobe Client Care]에 문의하십시오.&quot; (TGT-52977)
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 * 기존 활동을 복사하고 보고 소스를 [!DNL Adobe Analytics]&#x200B;(A4T)으로 변경하면 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. [!DNL Analytics], `restart_same_experience` 및 `restart_random_experience`과(와) 같이 `restart_new_experience` 보고와 호환되지 않는 특정 지표 작업이 원래 활동에서 유지된 경우 오류가 트리거되었습니다. (TGT-52900)
 * [!DNL Adobe Analytics] 단계에서 [!UICONTROL Goals & Settings]&#x200B;(A4T)을(를) 보고 소스로 선택할 때 고객이 활동을 만들거나 저장할 수 없도록 하는 문제를 해결했습니다. 특히 [!UICONTROL Custom Event] 지표(예: &quot;사용자 지정 이벤트 16&quot;)를 선택할 때 문제가 발생하여 다음 오류가 발생했습니다. &quot;잘못된 사용자 입력&quot; (TGT-52910)
@@ -86,7 +86,7 @@ ht-degree: 12%
 * [!UICONTROL Export order details to CSV] 페이지에서 &quot;[!UICONTROL Reports]&quot;을(를) 선택하면 다운로드되는 빈 파일이 발생하는 문제가 해결되었습니다. 이 문제는 활동에 유효한 주문 데이터가 있는 경우에도 발생했습니다. (TGT-52225)
 * 새 보고 대상을 만들고 할당한 후 활동을 저장하려고 할 때 발생하는 문제를 해결했습니다. 반환된 오류 메시지: &quot;액세스 거부됨. 이 작업을 수행하려면 [editor] 권한이 모두 필요합니다.&quot; 이 문제는 사용자가 승인자 수준 액세스 권한을 가지고 있음에도 불구하고 발생했습니다. (TGT-53103)
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 * 보기에 수정 사항을 적용하면 보기가 복제되고 활동이 &quot;잘못된 사용자 입력&quot; 오류를 반환하는 문제를 해결했습니다. 이 수정 사항은 중복 또는 유효성 검사 오류를 트리거하지 않고 보기 수정 사항이 올바르게 적용되도록 합니다. (TGT-52886)
 * 사용자 지정 코드 수정 사항이 잘못된 경험에 대해 잘못 표시되던 문제를 수정했습니다. 구체적으로, 한 경험을 위해 의도된 변경 사항이 다른 경험에서 나타나, 라이브 활동의 혼란과 잠재적인 오구성을 초래했다. (TGT-52776)
