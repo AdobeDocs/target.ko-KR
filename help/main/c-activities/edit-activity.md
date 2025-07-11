@@ -4,61 +4,48 @@ description: 활동을 초안 양식으로 저장하는 방법을 포함하여 A
 title: 활동을 편집하거나 초안으로 저장하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: cdd2a3995ef5b386afd45fed17c490ab9e6864fa
 workflow-type: tm+mt
-source-wordcount: '1169'
-ht-degree: 52%
+source-wordcount: '1011'
+ht-degree: 44%
 
 ---
 
 # 활동 편집 또는 초안으로 저장
 
-활동을 초안 양식으로 저장하는 등 [!DNL Adobe Target]에서 기존 활동을 편집할 수 있는 다양한 방법에 대한 정보입니다.
+변경 내용을 초안으로 저장하는 방법을 포함하여 [!DNL Adobe Target]에서 기존 활동을 편집하는 방법을 알아봅니다. 이 문서에서는 활성화 전에 변경 내용이 안전하게 저장되도록 하면서 경험을 업데이트하든, 타깃팅 규칙을 조정하든, 목표를 구성하든, 활동을 수정하기 위해 [!DNL Target] 인터페이스에서 사용할 수 있는 다양한 방법에 대해 설명합니다.
 
-Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습니다. 프로세스는 선택한 방법에 따라 달라집니다.
+[!DNL Target]은(는) UI에서 기존 활동을 편집할 수 있는 다양한 위치를 제공합니다. 프로세스는 선택한 방법에 따라 달라집니다.
 
 ## 활동 페이지에서 마우스로 가리키면 나타나는 단추를 사용하여 활동 편집 {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
-1. **[!UICONTROL Activities]** 페이지에서 편집할 활동을 마우스로 가리킨 다음 **[!UICONTROL Edit]** 아이콘을 클릭합니다.
+1. **[!UICONTROL Activities]** 페이지에서 편집할 활동 옆에 있는 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 [!UICONTROL **편집**]&#x200B;을 클릭합니다.
 
-   ![편집 아이콘](/help/main/c-activities/assets/hover_edit.png)
-
-   Target은 VEC(시각적 경험 작성기)에서 활동을 열면 [!UICONTROL Experiences] 페이지가 표시됩니다(3단계 안내 워크플로우의 첫 번째 단계).
+   Target이 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 활동을 열면 [!UICONTROL Experiences] 페이지가 표시됩니다(3단계 안내 워크플로우의 첫 번째 단계).
 
 1. [VEC 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 사용하여 원하는 대로 활동을 편집합니다.
 
-1. 분할 단추를 클릭하여 다음 단계로 이동하거나 활동을 저장합니다.
+1. **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 다음 단계로 이동한 다음 필요한 편집을 수행합니다.
 
-   ![분할 단추](/help/main/c-activities/assets/edit_split_button_2.png)
+1. **목표 및 설정** 페이지로 이동하면 다음과 같은 옵션이 제공됩니다.
 
-   * **다음:** 3단계 워크플로우에서 다른 페이지를 편집하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 원하는 단계로 이동하십시오. 예를 들어 위의 그림에서 [!UICONTROL Next]을(를) 클릭하면 [!UICONTROL Targeting] 단계가 표시됩니다.
-   * **저장 및 닫기:** 현재 단계에서 원하는 대로 변경하고, 분할 단추의 드롭다운을 클릭한 다음 **[!UICONTROL Save and Close]**&#x200B;을(를) 선택하여 변경 사항을 저장하고 활동의 [!UICONTROL Overview] 페이지를 표시합니다.
-   * **저장:** 한 단계에서 원하는 대로 변경하고, 분할 단추의 드롭다운을 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 선택하여 변경 내용을 저장하고 계속 변경 작업을 수행할 수 있는 해당 단계에 남습니다. 추가적인 변경 작업을 수행하려면 먼저 저장이 완료될 때까지 기다리십시오. 저장이 완료된 후 변경 사항이 적용된 채 VEC가 다시 로드됩니다.
+   * **[!UICONTROL Save & Close]:** **[!UICONTROL Save and Close]**&#x200B;을(를) 클릭하여 변경 내용을 저장하고 활동의 [!UICONTROL Overview] 페이지를 표시합니다.
+   * **저장:** **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 선택하여 변경 내용을 저장하고 계속 변경 작업을 수행할 수 있는 VEC에 남습니다. 추가적인 변경 작업을 수행하려면 먼저 저장이 완료될 때까지 기다리십시오. 저장이 완료된 후 변경 사항이 적용된 채 VEC가 다시 로드됩니다.
 
-## 활동 페이지에서 해당 이름을 클릭하여 활동을 열어 활동 편집 {#section_176180DAD17E40CEA441903F39E0AA1C}
+## [!UICONTROL Activities] 페이지에서 해당 이름을 클릭하여 활동을 열어 활동 편집 {#section_176180DAD17E40CEA441903F39E0AA1C}
 
-1. 워크플로우를 차례차례 이동하지 않으려면 [활동] 페이지에서 원하는 활동을 클릭하여 연 다음, **[!UICONTROL Edit Activity]** 드롭다운 목록에서 옵션을 선택하십시오.
+1. 워크플로우를 차례차례 이동하지 않으려면 [!UICONTROL Activities] 페이지에서 원하는 활동을 클릭하여 연 다음, **[!UICONTROL Edit Activity]** 드롭다운 목록에서 옵션을 선택한 다음, 원하는 옵션을 선택하십시오.
 
-   ![활동 편집 드롭다운](/help/main/c-activities/assets/edit_activity.png)
+   * **경험 편집:**: [!UICONTROL Experiences] 페이지(3단계 안내가 있는 워크플로의 첫 번째 단계)로 바로 이동합니다.
+   * **타깃팅 편집**: [!UICONTROL Targeting] 페이지(3단계 안내가 있는 워크플로우에서 두 번째 단계)로 바로 이동합니다.
+   * **[!UICONTROL Goals & Settings]**: [!UICONTROL Goals & Settings] 페이지(3단계 안내가 있는 워크플로우에서 세 번째 단계)로 바로 이동합니다.
 
-1. 원하는 선택 사항을 선택합니다.
+1. 원하는 대로 변경한 다음 활동을 저장합니다.
 
-   * **경험 편집:**: [!UICONTROL Experiences] 페이지(안내가 있는 워크플로우에서 첫 번째 단계)로 바로 이동합니다. 원하는 대로 변경한 다음, 분할 단추(위에 설명)를 사용하여 활동을 저장하십시오.
+   * **[!UICONTROL Save & Close]:** **[!UICONTROL Save and Close]**&#x200B;을(를) 클릭하여 변경 내용을 저장하고 활동의 [!UICONTROL Overview] 페이지를 표시합니다.
+   * **저장:** **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 선택하여 변경 내용을 저장하고 계속 변경 작업을 수행할 수 있는 VEC에 남습니다. 추가적인 변경 작업을 수행하려면 먼저 저장이 완료될 때까지 기다리십시오. 저장이 완료된 후 변경 사항이 적용된 채 VEC가 다시 로드됩니다.
 
-      * 변경 사항을 저장하고 활동의 개요 페이지를 표시하려면 **[!UICONTROL Save & Close]**&#x200B;을(를) 클릭하십시오.
-      * 변경 내용을 저장하고 계속 변경 작업을 수행할 수 있는 해당 단계에 남으려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오. 추가적인 변경 작업을 수행하려면 먼저 저장이 완료될 때까지 기다리십시오. 저장이 완료된 후 변경 사항이 적용된 채 VEC가 다시 로드됩니다.
-
-   * **타깃팅 편집:**: [!UICONTROL Targeting] 페이지(안내가 있는 워크플로우에서 두 번째 단계)로 바로 이동합니다. 원하는 대로 변경한 다음, 분할 단추(위에 설명)를 사용하여 활동을 저장하십시오.
-
-      * 변경 사항을 저장하고 활동의 개요 페이지를 표시하려면 **[!UICONTROL Save & Close]**&#x200B;을(를) 클릭하십시오.
-      * 변경 내용을 저장하고 계속 변경 작업을 수행할 수 있는 해당 단계에 남으려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오. 추가적인 변경 작업을 수행하려면 먼저 저장이 완료될 때까지 기다리십시오. 저장이 완료된 후 변경 사항이 적용된 채 VEC가 다시 로드됩니다.
-
-   * **목표 및 설정 편집:**: [!UICONTROL Goals & Settings] 페이지(안내가 있는 워크플로우에서 마지막 단계)로 바로 이동합니다. 원하는 대로 변경한 다음, 분할 단추(위에 설명)를 사용하여 활동을 저장하십시오.
-
-      * 변경 사항을 저장하고 활동의 개요 페이지를 표시하려면 **[!UICONTROL Save & Close]**&#x200B;을(를) 클릭하십시오.
-      * 변경 내용을 저장하고 계속 변경 작업을 수행할 수 있는 해당 단계에 남으려면 **[!UICONTROL Save]**&#x200B;을(를) 클릭하십시오. 추가적인 변경 작업을 수행하려면 먼저 저장이 완료될 때까지 기다리십시오. 저장이 완료된 후 변경 사항이 적용된 채 VEC가 다시 로드됩니다.
-
-## Recommendations Classic에서 생성한 이전 활동과 작업 {#classic}
+## [!DNL Recommendations Classic]에서 생성한 이전 활동으로 작업 {#classic}
 
 [!UICONTROL Activities] 목록에는 [!DNL Recommendations Classic]을(를) 포함하여 다양한 소스에서 만들어진 활동이 표시됩니다. 다음 작업은 [!DNL Recommendations Classic]에서 생성한 이전 활동으로 작업할 때 사용할 수 있습니다.
 
@@ -72,7 +59,7 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
 
 ## 활동을 초안 양식으로 저장 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-아직 저장되지 않은 새 활동을 만들거나 이전에 초안 양식으로 저장된 활동을 편집하는 경우, 분할 단추에 초안 저장 옵션이 표시됩니다.
+아직 저장되지 않은 새 활동을 만들거나 이전에 초안 양식으로 저장된 활동을 편집하는 경우, 분할 단추에 [!UICONTROL Save Draft] 옵션이 표시됩니다.
 
 활동 설정이 시작되었지만 실행할 준비가 되지 않은 경우 활동을 초안 모드로 저장할 수 있습니다.
 
@@ -97,7 +84,7 @@ Target의 UI에서는 다양한 곳에서 기존 활동을 편집할 수 있습�
 
 작업 공간 및 Enterprise 사용자 권한 기능에 대한 자세한 내용은 [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)을 참조하세요.
 
-환경에 엔터프라이즈 사용자 권한이 활성화되어 있는 경우, 활동을 동일한 작업 공간이나 또 다른 작업 공간에 복사할 수 있습니다. 현재 활동을 한 작업 공간에서 다른 작업 공간으로 이동할 수는 없습니다. 다른 작업 영역에 활동을 복사하려면 [!UICONTROL Activities] 페이지에서 복사할 활동을 마우스로 가리킨 다음 [!UICONTROL Copy] 아이콘을 클릭하고 드롭다운 목록에서 원하는 작업 영역을 선택하십시오.
+환경에 엔터프라이즈 사용자 권한이 활성화되어 있는 경우, 활동을 동일한 작업 공간이나 또 다른 작업 공간에 복사할 수 있습니다. 현재 활동을 한 작업 공간에서 다른 작업 공간으로 이동할 수는 없습니다. 다른 작업 영역에 활동을 복사하려면 [!UICONTROL Activities] 페이지에서 복사할 활동 옆에 있는 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 [!UICONTROL **복사**]&#x200B;를 클릭합니다.
 
 작업 공간에서 복사/편집 기능을 사용할 때에는 다음 정보를 고려하십시오.
 
