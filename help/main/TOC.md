@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '1287'
-ht-degree: 85%
+source-wordcount: '1283'
+ht-degree: 84%
 
 ---
 
@@ -180,7 +180,7 @@ ht-degree: 85%
          + [지표 설정](c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md)
          + [다변량 테스트 문제 해결](c-activities/c-multivariate-testing/t-create-multivariate-test/troubleshooting.md)
    + [권장 사항 활동](c-activities/recommendations-activity.md)
-   + [활동 편집 또는 초안으로 저장](c-activities/edit-activity.md)
+   + [활동 편집](c-activities/edit-activity.md)
    + [우선순위](c-activities/priority.md)
    + [활동 설정](c-activities/activity-settings.md)
    + 성공 지표 {#success-metrics}

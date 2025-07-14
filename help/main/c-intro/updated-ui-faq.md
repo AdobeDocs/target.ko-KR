@@ -4,9 +4,9 @@ description: 업데이트된  [!DNL Target]t 사용자 인터페이스에 대한
 title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 107770a27a80943db858729ce1cb3dceeda22dfb
+source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
 workflow-type: tm+mt
-source-wordcount: '953'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,15 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활동의 편집 및 활동 세부 사항의 일관성을 비롯한 몇 가지 제한 사항이 있습니다.
 
 자세한 내용은 [알고 있어야 하는 시간에 민감한 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)를 참조하십시오.
+
++++
+
+## [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 계속 사용할 수 있습니까?
+
++++세부 사항
+
+
+사용자 인터페이스에 대한 최신 업데이트를 통해 [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 더 이상 사용할 수 없습니다. 자세한 내용은 [의 ](/help/main/c-activities/activities.md#filters)활동 목록에 필터 적용&#x200B;*[!UICONTROL Activities overview]* 아래의 상태를 참조하십시오.
 
 +++
 
