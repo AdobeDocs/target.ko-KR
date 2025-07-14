@@ -1,14 +1,14 @@
 ---
-keywords: 릴리스 노트;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트,현재 업데이트
+keywords: 릴리스 정보;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트;현재 업데이트
 description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
 landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
 short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 576ec970f572176b28d1b9f050706574e6813b0c
+source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
 workflow-type: tm+mt
-source-wordcount: '2514'
+source-wordcount: '2594'
 ht-degree: 13%
 
 ---
@@ -99,14 +99,14 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 * 기존 활동을 복사하고 보고 소스를 [!DNL Adobe Analytics]&#x200B;(A4T)으로 변경하면 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. [!DNL Analytics], `restart_same_experience` 및 `restart_random_experience`과(와) 같이 `restart_new_experience` 보고와 호환되지 않는 특정 지표 작업이 원래 활동에서 유지된 경우 오류가 트리거되었습니다. (TGT-52900)
 * [!DNL Adobe Analytics] 단계에서 [!UICONTROL Goals & Settings]&#x200B;(A4T)을(를) 보고 소스로 선택할 때 고객이 활동을 만들거나 저장할 수 없도록 하는 문제를 해결했습니다. 특히 [!UICONTROL Custom Event] 지표(예: &quot;사용자 지정 이벤트 16&quot;)를 선택할 때 문제가 발생하여 다음 오류가 발생했습니다. &quot;잘못된 사용자 입력&quot; (TGT-52910)
 * &quot;[!UICONTROL View in Analytics]&quot; 링크를 클릭하면 의도한 [!DNL Analytics] 대시보드가 아닌 홈 페이지로 리디렉션되는 문제가 해결되었습니다. (TGT-53092 및 TGT-53093)
-<!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)
-* Fixed an issue when viewing a [!DNL Recommendations] activity in the updated [!UICONTROL Overview] UI, the [!UICONTROL Goals & Settings] section fails to load when [!DNL Adobe Analytics] (A4T) is selected as the reporting source. The following error message was displayed: "Something went wrong. We cannot complete your request. Please contact Adobe Client Care if the problem persists." (TGT-52999)-->
+  <!-- * Fixed an issue when cloning an existing activity and changing the reporting source from [!DNL Target] to [!DNL Adobe Analytics], users encounter a "400 - Invalid User Input" error, preventing the activity from being saved. (TGT-52875)-->
+* [!DNL Recommendations]&#x200B;(A4T)을(를) 보고 소스로 선택하면 업데이트된 [!UICONTROL Overview] UI에서 [!UICONTROL Goals & Settings] 활동을 볼 때 [!DNL Adobe Analytics] 섹션이 로드되지 않는 문제를 해결했습니다. 다음 오류 메시지가 표시되었습니다. &quot;문제가 발생했습니다. 요청을 완료할 수 없습니다. 문제가 지속되면 Adobe 클라이언트 지원 센터에 문의하십시오.”라는 오류 메시지가 표시됩니다. (TGT-52999)
 
 +++
 
@@ -132,8 +132,7 @@ ht-degree: 13%
 **로컬라이제이션**
 
 +++세부 정보 보기
-* 문자열 &quot;Preview Experience&quot;에 대한 한국어 로케일(ko-KR)의 컨텍스트 번역 문제를 해결했습니다. (TGT-52928)
-* 여러 텍스트 문자열의 중국어 간체(zh_CN) 변환에서 식별된 용어 불일치가 수정되었습니다. (TGT-52954 및 TGT-52955)
+* 프랑스어(fr_FR), 독일어(de_DE), 이탈리아어(it_IT), 한국어(ko_KO) 및 중국어 간체(zh_CN)에 대한 새 UI의 현지화 문자열이 업데이트되었습니다.
 
 +++
 
@@ -145,6 +144,7 @@ ht-degree: 13%
 * 단일 규칙으로 만든 프로모션이 규칙의 논리에 관계없이 &quot;항목 목록&quot; 프로모션 유형으로 잘못 해석되어 표시되는 [!DNL Recommendations] UI의 문제가 해결되었습니다. (TGT-53063)
 * 업데이트된 [!UICONTROL Overview]UI를 사용할 때 [!UICONTROL Download Recommendations Data]을(를) 포함하는 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동에 대해 &quot;[!DNL Recommendations]&quot; 단추가 누락되는 문제를 해결했습니다. (TGT-52730 및 TGT-52756)
 * 이전에는 피드에서 성공적으로 가져온 엔티티 수만 권장 사항 UI에 표시되었습니다. 그러나 백 엔드 메시지 형식에는 가져온 엔터티 수와 `# of entities imported / # of total entities` 형식의 총 엔터티 수가 모두 포함됩니다. 이러한 불일치로 인해 사용자는 UI에서 첫 번째 값(가져온 개수)만 볼 수 있었고, 이로 인해 혼동이 발생했습니다. 이제 UI에 두 숫자가 모두 표시됩니다. (TGT-53073)
+* 추천이 있는 양식 기반 A/B 활동에서 &quot;[!UICONTROL Promote by attribute]&quot; 프로모션을 구성할 때 고객이 필터링 규칙을 저장할 수 없는 문제를 해결했습니다. 활동을 저장하고 다시 연 후 필터링 규칙이 누락되어 활동을 저장할 수 없습니다. (TGT-53057)
 
 +++
 
@@ -156,7 +156,7 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
 * 보기에 수정 사항을 적용하면 보기가 복제되고 활동이 &quot;잘못된 사용자 입력&quot; 오류를 반환하는 문제를 해결했습니다. 이 수정 사항은 중복 또는 유효성 검사 오류를 트리거하지 않고 보기 수정 사항이 올바르게 적용되도록 합니다. (TGT-52886)
@@ -190,7 +190,7 @@ ht-degree: 13%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
