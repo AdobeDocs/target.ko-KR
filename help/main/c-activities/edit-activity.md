@@ -1,13 +1,13 @@
 ---
-keywords: 활동;활동;활동 유형;활동 편집;편집
+keywords: 활동;활동;활동 유형;활동 편집;편집;복사
 description: 기존 활동을 편집할 수 있는 다양한 방법에 대해 알아봅니다.
 title: 활동을 편집하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: caf431736f1e59473d3d5e564ab71088545837b7
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 41%
+source-wordcount: '889'
+ht-degree: 28%
 
 ---
 
@@ -77,7 +77,24 @@ ht-degree: 41%
 
 작업 공간에서 복사/편집 기능을 사용할 때에는 다음 정보를 고려하십시오.
 
-* 동일한 작업 영역 내에서 활동을 복사하면 새로 복사된 활동의 만들기 흐름의 첫 번째 단계가 편집 모드에서 열립니다.
-* 활동을 다른 작업 공간에 복사할 때에는 활동이 활동 작성 플로우에서 다른 작업 공간을 열지 않고 이 작업 공간에 복사됩니다. 활동이 성공적으로 복사되면 활동이 성공적으로 복사되었음을 나타내는 메시지가 표시되는데 이 메시지에 새 활동을 여는 링크가 포함됩니다.
+* 동일한 작업 영역 내 또는 기본 작업 영역에서 기본이 아닌 작업 영역으로 활동을 복사하면 활동 마법사가 자동으로 열립니다. 작업 영역 간 복사본에서는 활동 속성만 업데이트하면 됩니다.
+* 활동이 기본이 아닌 작업 영역에서 다른 작업 영역으로 복사되면(기본이 아니든) 활동 마법사가 열리며 설정을 완료하려면 몇 가지 수동 입력이 필요합니다.
+   * **[!UICONTROL Properties]**: 작업 영역 간에 속성이 다를 수 있습니다. 이 경우 경고가 트리거될 수 있습니다.
 
-환경에 엔터프라이즈 사용자 권한 기능이 활성화되어 있지 않은 경우에는 모든 활동이 복사하기 전에 편집 모드로 열립니다.
+      * [!UICONTROL Form-Based Experience Composer]에서 즉각적인 가시성을 위해 경고가 사용자 인터페이스 내에 직접 표시됩니다.
+
+        ![양식 기반 작업 영역 경고](/help/main/c-activities/assets/form-based-warning.png)
+
+      * VEC에서 [!UICONTROL Configure] > [!UICONTROL Properties]을(를) 클릭하면 경고가 표시됩니다.
+
+        ![vec-warning](/help/main/c-activities/assets/vec-warning.png)
+
+        이 문제를 해결하려면 [!UICONTROL Add/Remove]을(를) 클릭하여 선택 가능한 대상 작업 영역에서 사용할 수 있는 속성만 표시합니다.
+
+   * **대상 및 오퍼**: 원본 작업 영역의 모든 대상 및 오퍼를 바꿔야 합니다. 또는 [!UICONTROL Audiences] 또는 [!UICONTROL Offers] 페이지에서 복사한 다음 활동 내의 해당 목록에서 적절한 항목을 선택할 수 있습니다.
+
+   * **필수 수동 변경**: 모든 필수 수동 변경 내용이 마지막 단계([!UICONTROL Save & Close])에 요약됩니다. 팝업에 업데이트가 필요한 엔티티 목록이 표시되므로 활동 설정을 완료하기 전에 필요한 모든 사항을 조정할 수 있습니다.
+
+     ![Workspace 유효성 검사 경고](/help/main/c-activities/assets/work-space-validation.png)
+
+환경에 [!UICONTROL Enterprise User Permissions] 기능이 활성화되어 있지 않으면 모든 활동이 복사 전에 편집 모드로 열립니다.
