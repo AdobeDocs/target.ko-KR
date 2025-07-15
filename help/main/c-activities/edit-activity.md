@@ -4,10 +4,10 @@ description: 기존 활동을 편집할 수 있는 다양한 방법에 대해 �
 title: 활동을 편집하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: cf7bc0f9ce72d5a170db76f5a932b196d4e1ddb0
+source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
 workflow-type: tm+mt
-source-wordcount: '890'
-ht-degree: 28%
+source-wordcount: '883'
+ht-degree: 24%
 
 ---
 
@@ -67,13 +67,13 @@ ht-degree: 28%
 
 >[!NOTE]
 >
->작업 공간은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있는 속성 및 권한 기능의 일부입니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다.
+>작업 영역은 [!UICONTROL Properties and Permissions] 솔루션의 일부로 사용할 수 있는 [!DNL Target Premium] 기능의 일부입니다. 이 기능은 [!DNL Target Premium] 라이센스가 없는 [!DNL Target Standard]에서는 사용할 수 없습니다.
 
 다국적 조직에 속하는 경우 유럽 웹 페이지, 속성 또는 사이트를 위한 작업 공간과 미국 웹 페이지, 속성 또는 사이트를 위한 또 다른 작업 공간이 있을 수 있습니다. 복수 브랜드 조직에 속하는 경우에는 각 브랜드를 위한 독립된 작업 공간이 있을 수 있습니다.
 
 작업 공간 및 Enterprise 사용자 권한 기능에 대한 자세한 내용은 [Enterprise 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838)을 참조하세요.
 
-환경에 엔터프라이즈 사용자 권한이 활성화되어 있는 경우, 활동을 동일한 작업 공간이나 또 다른 작업 공간에 복사할 수 있습니다. 현재 활동을 한 작업 공간에서 다른 작업 공간으로 이동할 수는 없습니다. 다른 작업 영역에 활동을 복사하려면 [!UICONTROL Activities] 페이지에서 복사할 활동 옆에 있는 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 [!UICONTROL **복사**] 또는 **[!UICONTROL Edit]**&#x200B;를 클릭합니다.
+환경에 [!UICONTROL Enterprise User Permissions]이(가) 활성화되어 있으면 활동을 동일한 작업 영역이나 다른 작업 영역에 복사할 수 있습니다. 현재 활동을 한 작업 공간에서 다른 작업 공간으로 이동할 수는 없습니다. 다른 작업 영역에 활동을 복사하려면 [!UICONTROL Activities] 페이지에서 복사할 활동 옆에 있는 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 [!UICONTROL **복사**]&#x200B;를 클릭합니다.
 
 작업 공간에서 복사/편집 기능을 사용할 때에는 다음 정보를 고려하십시오.
 
