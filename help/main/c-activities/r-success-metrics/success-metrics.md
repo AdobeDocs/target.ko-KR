@@ -4,9 +4,9 @@ description: 활동의 성공을 결정하는 데 도움이 되는 성공 지표
 title: 성공 지표란 무엇입니까?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: ad26684d40ccb5239a345da73adfa924a04189ef
+source-git-commit: a34d40bef584bfa941731df718cb402c658f5d28
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1362'
 ht-degree: 22%
 
 ---
@@ -33,8 +33,8 @@ ht-degree: 22%
 
 | 성공 지표 | 측정 방법 | 정의 |
 |--- |--- |--- |
-| [!UICONTROL Con]버전 | 전환 기반 | 전환은 방문자가 사용자가 정의한 사이트에서 작업을 수행할 때입니다. 예를 들면 다음과 같습니다 <ul><li>페이지 확인함</li><li>mbox 확인함</li><li>요소를 클릭함</li></ul>전환은 방문자당 한 번 또는 방문자가 전환을 완료할 때마다 계산됩니다. |
-| [!UICONTROL Revenue] | 전환 기반 | 방문에서 생성된 수익입니다. 매출 지표를 하나만 선택할 수 있습니다.<ul><li>mbox 확인함</li></ul>업데이트된 [!DNL Target] UI가 매출 성공 지표와 관련된 변경 사항에 대한 자세한 내용은 아래의 [성공 지표와 관련된 UI 변경 사항](#changes)을 참조하십시오. |
+| [!UICONTROL Conversion] | 전환 기반 | 전환은 방문자가 사용자가 정의한 사이트에서 작업을 수행할 때입니다. 예를 들면 다음과 같습니다 <ul><li>페이지 확인함</li><li>mbox 확인함</li><li>요소를 클릭함</li></ul>전환은 방문자당 한 번 또는 방문자가 전환을 완료할 때마다 계산됩니다. |
+| [!UICONTROL Revenue] | 전환 기반 | 방문에서 생성된 수익입니다. 매출 지표를 하나만 선택할 수 있습니다.<ul><li>mbox 확인함</li></ul>매출 성공 지표와 관련된 업데이트된 [!DNL Target] UI의 변경 사항에 대한 자세한 내용은 아래의 [업데이트됨 [!DNL Target] UI 변경 사항](#changes)을 참조하십시오. |
 | [!UICONTROL Engagement] | 참여 기반 | 방문에서 생성된 참여. 다음 참여 지표 중에서 선택할 수 있습니다.<UL><li>페이지 보기 수: 각각의 고유한 방문은 전환으로 계산됩니다.</li><li>[!UICONTROL Custom Scoring]: 방문자가 활동의 첫 번째 디스플레이 [!DNL Target] 요청을 처음 본 시점부터 시작하여 사이트에서 방문한 페이지에 할당된 값에 따라 집계된 점수입니다.</li>[!DNL Time on Site]: 방문자가 활동의 첫 번째 디스플레이 [!DNL Target] 요청을 본 시점부터 세션의 요청이 있는 최종 페이지 로드까지 방문에서 보낸 시간(초)입니다.</UL> |
 
 참여 기반 지표(전환 기반 및 매출 기반 지표와 달리)의 경우 방문자는 각 방문에서 활동 자격을 다시 부여하여 해당 세션에 대한 카운트를 늘려야 합니다. 연관된 지표는 적격 재확인 이후 증가하기 시작하고, 각 방문자의 세션 종료 시 중지됩니다. 세션은 활동이 없는 경우 30분 후에 종료됩니다. 따라서 테스트 중에는 결과가 즉시 표시되지 않지만 해당 세션의 모든 결과는 세션이 종료된 후 몇 분 내에 사용할 수 있습니다.
@@ -111,11 +111,11 @@ ht-degree: 22%
 
   성공 지표가 노출 시마다 증가하도록 설정되어 있으면 [!DNL Target]은(는) 방문자가 이 성공 지표를 방문할 때마다 방문자를 다시 계산합니다. 그런 다음 [!DNL Target]은(는) 성공 지표 &quot;멤버십&quot;을 0으로 재설정하여 다음 노출 시 다시 카운트될 수 있도록 합니다. 따라서 이 지표를 먼저 확인해야 하는 다른 지표가 있으면 [!DNL Target]은(는) 사용자가 첫 번째 지표를 보았음을 인식하지 못합니다.
 
-## Target UI 변경 사항이 업데이트되었습니다.
+## 업데이트된 [!DNL Target]개의 UI 변경 사항 {#changes}
 
 2015년 2월 17일에 시작된 [[!DNL Target Standard/Premium] 25.2.1 릴리스](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2)에서는 업데이트된 [!DNL Target] 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) UI가 도입되었습니다. 이 섹션에서는 특히 성공 지표의 구성 및 관리와 관련된 기존 UI와 업데이트된 UI 간의 주요 차이점에 대해 간략히 설명합니다.
 
-### [!UICONTROL Revenue] 성공 지표와 관련된 UI 변경 사항 {#changes}
+### [!UICONTROL Revenue] 성공 지표와 관련된 UI 변경 사항
 
 업데이트된 [!DNL Target] 인터페이스에서 [!UICONTROL Default View for Reporting] 드롭다운이 제거되었습니다. 이 필드는 이전 UI에서 [!DNL Overview] > [!UICONTROL Reports] 아래에 기본 보고 보기를 저장했으므로 중복되었습니다.
 
