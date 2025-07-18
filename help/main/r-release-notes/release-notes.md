@@ -6,10 +6,10 @@ short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: e612ec5814c931349699b6b4d2c9fa71b493413c
+source-git-commit: d6d58e94f4d4745b0783321671025d9cdd07f57f
 workflow-type: tm+mt
-source-wordcount: '2594'
-ht-degree: 13%
+source-wordcount: '3287'
+ht-degree: 12%
 
 ---
 
@@ -61,8 +61,8 @@ ht-degree: 13%
 다음 정보는 버전 토글을 사용할 때 알아 두어야 할 제한 사항에 대해 설명합니다.
 
 * **새 활동의 가시성**: 기존 UI로 다시 전환하면 업데이트된 UI에서 만들어진 활동이 표시되지 않습니다.
-* **기존 활동 편집**: 업데이트된 UI를 사용하는 동안 기존 활동(원래 기존 UI에서 만들어짐)에 대한 변경 사항이 웹 사이트에 게시됩니다. 그러나 다시 전환하는 경우 이러한 업데이트가 이전 UI에 표시되지 않습니다. 이전 UI에서 마지막으로 수행한 업데이트만 표시됩니다.
-* **활동 세부 정보의 일관성**: 사용하는 UI에 관계없이 가장 최근의 변경 내용이 라이브 웹 사이트에 반영됩니다. 하지만 기존 UI에는 해당 버전 내에서 변경된 최신 변경 사항만 표시됩니다. 업데이트된 UI에서 편집된 활동이 기존 UI에 표시되는 것과 다른 경우 혼동을 일으킬 수 있습니다.
+* **기존 활동 편집**: 업데이트된 UI를 사용하는 동안 기존 활동(원래 기존 UI에서 만들어짐)에 대한 변경 사항이 웹 사이트에 게시됩니다. 그러나 다시 전환하는 경우 이러한 업데이트가 이전 UI에 표시되지 않습니다. 이전 UI에서 수행한 마지막 업데이트만 표시됩니다.
+* **활동 세부 정보의 일관성**: 사용하는 UI에 관계없이 가장 최근의 변경 내용이 라이브 웹 사이트에 반영됩니다. 하지만 기존 UI에는 해당 버전 내에서 변경된 최신 변경 사항만 표시됩니다. 업데이트된 UI에서 편집된 활동이 기존 UI에 표시되는 것과 다른 경우 이 상황이 혼동을 일으킬 수 있습니다.
 
 #### 업데이트된 UI에 대해 알아볼 수 있는 추가 리소스
 
@@ -72,6 +72,91 @@ ht-degree: 13%
 * [UI 이해 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): [!DNL Target]에 익숙해지는 데 도움이 되는 간단한 개요를 제공하고 자세한 정보와 단계별 지침을 제공하는 링크를 제공합니다.
 * [[!UICONTROL Visual Experience Composer] 변경 내용](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 17일)에서는 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 도입되었습니다. 이 문서에서는 VEC의 기존 버전과 업데이트된 버전의 차이점에 대해 설명합니다.
 * [[!UICONTROL Visual Experience Composer] 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): 이 문서에서는 업데이트된 VEC UI 및 해당 옵션에 대해 설명합니다.
+
++++
+
+## [!DNL Target Standard/Premium] 25.7.2(2025년 7월 18일)
+
+주로 복잡한 고객 맞춤화와 관련된 최근 문제가 확인되어 이 릴리스에는 다음 수정 사항 및 업데이트가 포함되어 있습니다.
+
+**활동**
+
++++세부 정보 보기
+* 저장하지 않은 변경 내용으로 활동 편집을 취소할 때 확인 경고가 추가되었습니다. &quot;이 활동을 저장하시겠습니까? 저장하지 않으면 변경 내용이 모두 손실됩니다.&quot; 이 메시지는 우발적인 데이터 손실을 방지하는 데 도움이 됩니다. (TGT-52865)
+* [!UICONTROL Priority]의 [!UICONTROL Goals & Settings] 슬라이더에 레거시 기능을 복원하여 고객이 레거시 UI에서 지원되는 대로 숫자 값을 직접 입력할 수 있도록 했습니다. (TGT-53185 및 TGT-53219)
+
++++
+
+**대상자**
+
++++세부 정보 보기
+* 사용자 지정 대상이 포함된 활동을 저장하거나 편집할 수 없는 문제가 해결되었습니다. 고객에게 오류 메시지 &quot;요청을 완료할 수 없습니다. 문제가 지속되면 [!DNL Adobe Client Care]에 문의하십시오.&quot; 특정 활동에 변경 사항을 저장하거나 변경 없이 저장하려고 할 때. (TGT-53189)
+
++++
+
+**[!UICONTROL Analytics for Target](A4T)**
+
++++세부 정보 보기
+* 고객이 [!UICONTROL Goals & Settings] 페이지에서 특정 활동에 대한 보고서를 볼 때 [!UICONTROL View in Analytics] 링크가 프로덕션 환경 대신 QA 환경을 잘못 가리키는 문제가 해결되었습니다. (TGT-53163)
+
++++
+
+**[!UICONTROL Experiences]및[!UICONTROL Offers]**
+
++++세부 정보 보기
+* 사용자 지정 코드를 통해 `triggerView`을(를) 호출하면 무한 루프가 발생하는 문제가 해결되었습니다. (TGT-52885)
+* 활동에 대해 정의된 `LocalIds`과(와) 경험 정의에 사용된 `LocalIds` 간에 불일치가 발생하는 문제가 해결되었습니다. (TGT-52669)
+* [!UICONTROL Overview] 활동 페이지에서 지표 이름이 누락되고 올바른 지표 이름 대신 &#39;오퍼&#39;만 표시되는 문제가 해결되었습니다. (TGT-53054)
+
++++
+
+**양식 기반 경험 작성기**
+
++++세부 정보 보기
+* 활동이 저장되지 않고 오류 메시지를 트리거하는 [!UICONTROL Form-Based Experience Composer]의 문제를 해결했습니다. &quot;정의되지 않은 속성을 읽을 수 없습니다(&#39;맵&#39; 읽기)&quot;. (TGT-53145)
+
++++
+
+**추천**
+
++++세부 정보 보기
+* [!UICONTROL Catalog Search]에서 제품을 클릭하면 &#39;제품 세부 정보를 검색하지 못했습니다&#39;라는 오류가 표시되고 닫기 옵션 없이 모달이 열리는 문제가 해결되었습니다. (TGT-53082)
+* 컬렉션이나 프로모션을 변경할 때 [ 활동의 ](/help/main/c-recommendations/recommendations-as-an-offer.md)오퍼로서의 권장 사항[!UICONTROL A/B Test]이 올바르게 업데이트되지 않는 문제를 해결했습니다. (TGT-52884)
+* 업데이트된 UI에서 엔티티를 클릭하면 다음과 같은 오류가 표시되는 프로덕션 환경의 문제가 해결되었습니다. &quot;제품 세부 정보를 검색하지 못했습니다. 이 문제가 지속되면 [!DNL Adobe Client Care]에 문의하십시오.&quot; (TGT-53071)
+
++++
+
+**보고서**
+
++++세부 정보 보기
+* 주문 세부 사항을 CSV 파일로 저장하면 빈 파일이 발생하는 문제가 해결되었습니다. (TGT-52225)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++세부 정보 보기
+* 여러 경험에 사용된 선택기가 선택된 상태로 일관되게 강조 표시되지 않던 [!UICONTROL Goals & Settings] 페이지의 문제를 해결했습니다. (TGT-53062)
+* 활동 편집을 할 수 없고 다음과 같은 오류 메시지가 트리거되는 문제를 해결했습니다. &quot;정의되지 않은 속성을 읽을 수 없습니다(&#39;맵&#39; 읽기).&quot; (TGT-53161)
+
++++
+
+**작업 공간**
+
++++세부 정보 보기
+* 작업 영역을 전환할 때 임시 오퍼를 보다 효율적으로 처리할 수 있습니다.
+   * 기본 작업 영역에서 기본값이 아닌 작업 영역으로(또는 기본값이 아닌 작업 영역 사이에서) 전환할 때 이제 임시 오퍼가 올바르게 복사됩니다. 초기화 중에 작업 공간 컨텍스트가 업데이트되고 고유성을 보장하기 위해 새 ID가 오퍼에 할당됩니다.
+   * 동일한 작업 영역 내에 있을 때는 변경 사항이 발생하지 않습니다. (TGT-53079)
+* 고객이 [다른 작업 영역 간에 활동을 복사할 수 없도록](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6)하는 문제가 해결되었습니다. (TGT-52753 및 TGT-47094)
+* 작업 영역 간 속성을 변경할 때 발생하는 문제를 해결했습니다.
+   * 기본 작업 영역을 기본이 아닌 작업 영역으로 전환할 때 현재 속성이 대상 작업 영역에 있으면 속성이 유지됩니다.
+   * [!UICONTROL Properties] 목록에 경고가 표시되고(일부 속성이 호환되지 않을 수 있음을 나타낼 수 있음) 고객이 [!UICONTROL Add] 또는 [!UICONTROL Remove]을(를) 클릭한 다음 [!UICONTROL Save]을(를) 클릭하면 대상 작업 영역에 없는 모든 속성이 제거됩니다. 고객이 [!UICONTROL Cancel]을(를) 클릭하면 대상 작업 영역에 없는 경우에도 모든 속성이 유지됩니다. (TGT-47094)
+   * 동일한 작업공간에 있거나 기본이 아닌 작업공간에서 기본 또는 다른 작업공간으로 전환하는 경우 모든 것이 그대로 유지됩니다. (TGT-53078)
+* 활동의 원래 작업 영역 컨텍스트를 준수하도록 엔티티 유효성 검사 논리를 업데이트했습니다. [!UICONTROL Experience Fragments]&#x200B;(XF)과 같은 엔터티는 이제 활동이 원래 만들어진 작업 영역을 기반으로 유효성이 검사됩니다. 예를 들어, 기본 작업공간에 XF가 존재하고 활동이 작업공간 X에서 작업공간 Y로 복사되는 경우 원본(기본) 작업공간에서 XF가 유효한 한 유효성 검사가 계속 진행됩니다. (TGT-53196)
+* 활동을 복제하는 동안 임시 대상 복사에 대한 지원이 개선되었습니다.
+   * 지표, 보고, 페이지 및 활동 전용 유형을 포함한 임시 대상은 이제 다음 시나리오에서 자동으로 복사됩니다.
+      * 기본 작업 영역에서 기본이 아닌 작업 영역으로 활동을 복사할 경우.
+      * 동일한 작업 영역 내에서 활동을 복사할 때. (TGT-53197)
 
 +++
 
@@ -99,7 +184,7 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 * 기존 활동을 복사하고 보고 소스를 [!DNL Adobe Analytics]&#x200B;(A4T)으로 변경하면 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. [!DNL Analytics], `restart_same_experience` 및 `restart_random_experience`과(와) 같이 `restart_new_experience` 보고와 호환되지 않는 특정 지표 작업이 원래 활동에서 유지된 경우 오류가 트리거되었습니다. (TGT-52900)
@@ -114,10 +199,10 @@ ht-degree: 13%
 
 +++세부 정보 보기
 <!-- * Fixed an issue where using the [!UICONTROL Manage Content] feature in [!UICONTROL Automated Personalization] (AP) activities caused the page to crash and remain blank. This issue occurred after clicking [!UICONTROL Done] in the content manager, particularly in activities created or edited in the updated UI. (TGT-53047)-->
-* 모든 콘텐츠 옵션이 제거된 후 [!UICONTROL Manage Content] 기능이 위치 상태를 제대로 확인하지 못하는 문제를 해결했습니다. 이렇게 하면 활동 구성을 저장하거나 진행하려고 할 때 일관되지 않은 동작이나 오류가 발생할 수 있습니다. (TGT-52801)
-* 새 페이지를 추가하고 다른 경험 내에서 특정 요소를 삭제할 때 사용자에게 &quot;잘못된 입력&quot; 오류가 발생하는 문제를 해결했습니다. 요소 조작 중, 특히 경험 간에 전환하고 공유 페이지 구조를 수정할 때 중복 `LocalIds`이(가) 발생하여 오류가 트리거되었습니다. (TGT-52720)
+* 모든 콘텐츠 옵션이 제거된 후 [!UICONTROL Manage Content] 기능이 위치 상태를 제대로 확인하지 못하는 문제를 해결했습니다. 이 문제로 인해 활동 구성을 저장하거나 진행하려고 할 때 일관되지 않은 동작이나 오류가 발생할 수 있습니다. (TGT-52801)
+* 새 페이지를 추가하고 다른 경험 내에서 특정 요소를 삭제할 때 사용자에게 &quot;잘못된 입력&quot; 오류가 발생하는 문제를 해결했습니다. 이 오류는 요소 조작 중, 특히 경험 간에 전환하고 공유 페이지 구조를 수정할 때 중복 `LocalIds`이(가) 발생하여 트리거됩니다. (TGT-52720)
 * [!UICONTROL Generate Adhoc Offer] 기능을 사용하면 정의되지 않은 위치가 [!UICONTROL Manage Content] 패널에 표시되는 문제가 해결되었습니다. (TGT-53076 및 TGT-53070)
-* [!UICONTROL Targeting]에서 [!UICONTROL Experiences]&#x200B;(으)로 다시 이동할 때 HTML 오퍼를 사용하여 수정한 내용이 누락된 것으로 표시되는 고객의 동작을 명확히 했습니다. 이 고객의 경우 영향을 받는 웹 사이트에서 각 페이지 로드와 함께 변경된 여러 DOM 선택기를 동적으로 생성했습니다. 따라서 편집기를 다시 열 때 원래 수정에 사용된 선택기를 찾을 수 없으므로 수정 사항이 누락되거나 유효하지 않은 것으로 표시됩니다. 설계대로 작동합니다. 수정 사항이 편집기에서 시각적으로 지속되도록 하려면 클라이언트가 페이지 다시 로드 간에 변경되지 않는 안정적이고 일관된 선택기를 사용하는 것이 좋습니다. (TGT-52874)
+* [!UICONTROL Targeting]에서 [!UICONTROL Experiences]&#x200B;(으)로 다시 이동할 때 HTML 오퍼를 사용하여 수정한 내용이 누락된 것으로 표시되는 고객의 동작을 명확히 했습니다. 이 고객의 경우 영향을 받는 웹 사이트에서 각 페이지 로드와 함께 변경된 여러 DOM 선택기를 동적으로 생성했습니다. 따라서 편집기를 다시 열 때 원래 수정에 사용된 선택기를 찾을 수 없으므로 수정 사항이 누락되거나 유효하지 않은 것으로 표시됩니다. 이 시나리오는 설계된 대로 작동합니다. 수정 사항이 편집기에서 시각적으로 지속되도록 하려면 클라이언트가 페이지 다시 로드 간에 변경되지 않는 안정적이고 일관된 선택기를 사용하는 것이 좋습니다. (TGT-52874)
 * 제외된 경험의 일부인 오퍼를 삭제하거나 비활성화하려고 할 때 &quot;잘못된 사용자 입력&quot; 오류가 트리거되는 문제를 해결했습니다. 이 문제는 오퍼가 포함된 경험에서 활발하게 사용되지 않았음에도 불구하고 발생했습니다. (TGT-52917)
 
 +++
@@ -156,7 +241,7 @@ ht-degree: 13%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
 * 보기에 수정 사항을 적용하면 보기가 복제되고 활동이 &quot;잘못된 사용자 입력&quot; 오류를 반환하는 문제를 해결했습니다. 이 수정 사항은 중복 또는 유효성 검사 오류를 트리거하지 않고 보기 수정 사항이 올바르게 적용되도록 합니다. (TGT-52886)
@@ -174,7 +259,7 @@ ht-degree: 13%
 * 사용자 지정 코드 변경 사항이 올바르게 저장되지 않고 동일한 활동 내의 여러 경험에 의도하지 않게 미러링되는 문제가 수정되었습니다. 또한 특정 활동을 열거나 새로 고칠 때 액세스 문제가 발생하여 화면이 비어 있습니다. 이제 안정적인 활동 편집과 정확한 경험 격리를 위해 이러한 문제가 해결되었습니다. (TGT-52594)
 * 사용자가 [!UICONTROL Browse Mode]에서 다른 URL을 탐색할 수 없는 문제를 해결했습니다. 이렇게 하면 테스터와 편집자가 동일한 활동 세션 내에서 대체 페이지를 확인하거나 미리 볼 수 없습니다. (TGT-53052)
 * 활동을 만드는 동안 여러 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 인스턴스가 동시에 열리는 문제를 해결했습니다. 이 문제는 사용자가 [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC)을(를) 사용하지 않도록 설정하고 [!UICONTROL Page Delivery] 단계에서 웹 사이트 URL에서 슬래시를 제거할 때 발생했습니다. (TGT-52782)
-* 사용자가 다른 지표를 선택한 후에도 [!UICONTROL Revenue] 단계의 [!UICONTROL Goals & Settings] 지표 드롭다운이 [!UICONTROL Revenue per Visit]&#x200B;(RPVISIT)으로 잘못 설정되던 문제를 수정했습니다.  지표 구성 패널을 축소하고 다시 확장하는 동안 문제가 발생하여 이전에 선택한 값이 재설정되었습니다. (TGT-52811 및 TGT-52878)
+* 사용자가 다른 지표를 선택한 후에도 [!UICONTROL Revenue] 단계의 [!UICONTROL Goals & Settings] 지표 드롭다운이 [!UICONTROL Revenue per Visit]&#x200B;(RPVISIT)으로 잘못 설정되던 문제를 수정했습니다.  지표 구성 패널을 축소하고 다시 확장할 때 문제가 발생하여 이전에 선택한 값이 재설정되었습니다. (TGT-52811 및 TGT-52878)
 * [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Multivariate Testing]&#x200B;(MVT) 활동의 오퍼 이름 지정 및 콘텐츠 변환과 관련된 활동 만들기 워크플로의 몇 가지 문제를 해결했습니다.
 
   해결된 주요 문제:
@@ -190,7 +275,7 @@ ht-degree: 13%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
