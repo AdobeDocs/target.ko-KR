@@ -94,7 +94,7 @@ ht-degree: 12%
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++세부 정보 보기
 * 고객이 [!UICONTROL Goals & Settings] 페이지에서 특정 활동에 대한 보고서를 볼 때 [!UICONTROL View in Analytics] 링크가 프로덕션 환경 대신 QA 환경을 잘못 가리키는 문제가 해결되었습니다. (TGT-53163)
@@ -133,7 +133,7 @@ ht-degree: 12%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++세부 정보 보기
 * 여러 경험에 사용된 선택기가 선택된 상태로 일관되게 강조 표시되지 않던 [!UICONTROL Goals & Settings] 페이지의 문제를 해결했습니다. (TGT-53062)
@@ -184,7 +184,7 @@ ht-degree: 12%
 
 +++
 
-**[!UICONTROL Analytics for Target](A4T)**
+**[!UICONTROL Analytics for Target] (A4T)**
 
 +++세부 정보 보기
 * 기존 활동을 복사하고 보고 소스를 [!DNL Adobe Analytics]&#x200B;(A4T)으로 변경하면 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. [!DNL Analytics], `restart_same_experience` 및 `restart_random_experience`과(와) 같이 `restart_new_experience` 보고와 호환되지 않는 특정 지표 작업이 원래 활동에서 유지된 경우 오류가 트리거되었습니다. (TGT-52900)
@@ -241,7 +241,7 @@ ht-degree: 12%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++세부 정보 보기
 * 보기에 수정 사항을 적용하면 보기가 복제되고 활동이 &quot;잘못된 사용자 입력&quot; 오류를 반환하는 문제를 해결했습니다. 이 수정 사항은 중복 또는 유효성 검사 오류를 트리거하지 않고 보기 수정 사항이 올바르게 적용되도록 합니다. (TGT-52886)
