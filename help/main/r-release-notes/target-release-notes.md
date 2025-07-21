@@ -4,7 +4,7 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Ta
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: df7e28060a6add53e1aaed928351b4f399b19c17
+source-git-commit: 2812132c2720f54fa7bee2b0a5e16623362fdc33
 workflow-type: tm+mt
 source-wordcount: '466'
 ht-degree: 34%
@@ -33,6 +33,8 @@ ht-degree: 34%
 
 +++세부 정보 보기
 * 빌더 클래스의 `buildViews` 메서드가 `viewMaxLocalId`을(를) 할당된 가장 높은 `viewLocalId`이(가) 아닌 총 보기 수로 잘못 설정하는 문제를 해결했습니다. (TGT-53207)
+
++++
 
 **양식 기반 경험 작성기**
 
@@ -69,7 +71,7 @@ ht-degree: 34%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 노트: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
