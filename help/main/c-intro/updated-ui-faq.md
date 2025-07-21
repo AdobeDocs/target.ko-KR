@@ -4,10 +4,10 @@ description: 업데이트된  [!DNL Target]t 사용자 인터페이스에 대한
 title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 0%
+source-wordcount: '1084'
+ht-degree: 1%
 
 ---
 
@@ -79,11 +79,29 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 +++
 
-## [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 계속 사용할 수 있습니까?
+## [!UICONTROL Components] 패널을 확대할 수 있도록 [!UICONTROL Modifications] 및 [!UICONTROL Design] 레일을 축소할 수 있습니까? {#collapse}
 
 +++세부 사항
 
+예. 두 레일을 축소하여 [!UICONTROL Design] 캔버스를 확장하면 보다 쉽게 편집할 수 있습니다. 방법은 다음과 같습니다.
 
+>[!NOTE]
+>
+>[!UICONTROL Show Components] 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))과 [!UICONTROL Show Modifications] 아이콘(![수정 사항 표시 레일](/help/main/assets/icons/History.svg))은 적절한 옵션을 표시하도록 전환합니다.
+
+**[!UICONTROL Components] 레일 축소**
+
+[!UICONTROL Components] 레일이 열려 있는 동안 [!UICONTROL Design] 레일을 축소하고 [!UICONTROL Components] 캔버스를 확대하려면 (![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg)) 아이콘을 클릭합니다.
+
+**[!UICONTROL Modifications] 레일 축소**
+
+[!UICONTROL Modifications] 레일이 열려 있는 동안 [!UICONTROL Design] 레일을 축소하고 [!UICONTROL Modifications] 캔버스를 확대하려면 [!UICONTROL Show Modifications] 아이콘(![수정 사항 레일 표시](/help/main/assets/icons/History.svg)) 아이콘을 클릭합니다.
+
++++
+
+## [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 계속 사용할 수 있습니까?
+
++++세부 정보
 사용자 인터페이스에 대한 최신 업데이트를 통해 [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 더 이상 사용할 수 없습니다. 자세한 내용은 [의 ](/help/main/c-activities/activities.md#filters)활동 목록에 필터 적용&#x200B;*[!UICONTROL Activities overview]* 아래의 상태를 참조하십시오.
 
 +++

@@ -4,9 +4,9 @@ description: Adobe Target 25.2.1 릴리스(2025년 2월 17일)에서 VEC(시각�
 title: 새로운 시각적 경험 작성기 (VEC)에는 어떤 변경 사항이 도입됩니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '781'
+source-wordcount: '876'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->업데이트된 [!UICONTROL Visual Editing Composer]에는 [!DNL Chrome Web Store]에서 사용할 수 있는 [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] 확장 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)이(가) 필요합니다.
+>업데이트된 [!UICONTROL Visual Editing Composer]에는 [!DNL Adobe Experience Cloud]에서 사용할 수 있는 [[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Chrome Web Store]이(가) 필요합니다.
 
 VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
@@ -43,17 +43,29 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 새 구성 요소를 추가하려면 삽입하려는 [!UICONTROL Components] 레일의 구성 요소를 [!UICONTROL Design] 캔버스의 기존 페이지 요소 위로 드래그합니다. 그런 다음 선택한 요소 뒤의 앞에 구성 요소를 삽입하도록 선택합니다.
 
+>[!NOTE]
+>
+>이 영역에 [!UICONTROL Modifications] 레일 대신 [!UICONTROL Components] 레일이 표시되면 **[!UICONTROL Show Components]** 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))을 클릭합니다. [!UICONTROL Show Components] 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))과 [!UICONTROL Show Modifications] 아이콘(![수정 사항 표시 레일](/help/main/assets/icons/History.svg))은 적절한 옵션을 표시하도록 전환합니다.
+>
+>[!UICONTROL Components] 레일이 열려 있는 동안 [!UICONTROL Design] 레일을 축소하고 [!UICONTROL Components] 캔버스를 확대하려면 (![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg)) 아이콘을 클릭합니다.
+
 ### [!UICONTROL Modifications] 레일
 
-[!UICONTROL Modifications] 레일을 열려면 [!UICONTROL Components] 레일에서 [!UICONTROL Show Modifications] 아이콘(![수정 사항 레일 표시](/help/main/assets/icons/History.svg))을 클릭합니다. [!UICONTROL Modifications] 레일이 편집 캔버스의 오른쪽에서 왼쪽으로 위치가 변경되었습니다.
+[!UICONTROL Modifications] 레일을 열려면 [!UICONTROL Show Modifications] 레일에서 ![ 아이콘(](/help/main/assets/icons/History.svg)수정 사항 레일 표시[!UICONTROL Components])을 클릭합니다. [!UICONTROL Modifications] 레일이 편집 캔버스의 오른쪽에서 왼쪽으로 위치가 변경되었습니다.
 
 ![수정 레일](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
+
+>[!NOTE]
+>
+>[!UICONTROL Show Components] 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))과 [!UICONTROL Show Modifications] 아이콘(![수정 사항 표시 레일](/help/main/assets/icons/History.svg))은 적절한 옵션을 표시하도록 전환합니다.
+>
+>[!UICONTROL Modifications] 레일이 열려 있는 동안 [!UICONTROL Design] 레일을 축소하고 [!UICONTROL Modifications] 캔버스를 확대하려면 [!UICONTROL Show Modifications] 아이콘(![수정 사항 레일 표시](/help/main/assets/icons/History.svg)) 아이콘을 클릭합니다.
 
 [!UICONTROL Modifications] 레일에는 VEC에서 페이지에 적용된 모든 변경 내용이 표시되며, 이를 통해 CSS 선택기, Mbox 및 사용자 지정 코드와 같은 추가 변경 내용을 적용할 수 있습니다.
 
 수정 사항을 추가하거나, 모든 수정 사항을 삭제하거나, 모든 잘못된 수정 사항을 삭제하려면 [!UICONTROL More Options] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭하십시오. 대량 작업을 수행하려면 [!UICONTROL Select]을(를) 클릭하십시오. [!UICONTROL Apply to All Pages] 또는 [!UICONTROL Delete].
 
-[!UICONTROL Modifications] 레일을 다시 표시하려면 [!UICONTROL Modifications] 레일에서 [!UICONTROL Hide Modifications] 아이콘(![수정 사항 레일 표시](/help/main/assets/icons/History.svg))을 클릭하십시오.
+[!UICONTROL Modifications] 레일을 다시 표시하려면 [!UICONTROL Hide Modifications] 레일에서 ![ 아이콘(](/help/main/assets/icons/History.svg)수정 사항 레일 표시[!UICONTROL Modifications])을 클릭하십시오.
 
 ### [!UICONTROL Properties] 레일(신규)
 
@@ -65,7 +77,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ![속성 아이콘](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
 
-오른쪽 레일에서 [!UICONTROL Properties] 레일을 접을 수 있습니다. [!UICONTROL Properties] 레일을 축소하거나 표시하려면 레일의 오른쪽에 있는 [!UICONTROL Show/Hide Properties] 아이콘(![속성 아이콘](/help/main/assets/icons/Propertie.svg))을 클릭합니다.
+오른쪽 레일에서 [!UICONTROL Properties] 레일을 접을 수 있습니다. [!UICONTROL Show/Hide Properties] 레일을 축소하거나 표시하려면 레일의 오른쪽에 있는 ![ 아이콘(](/help/main/assets/icons/Propertie.svg)속성 아이콘[!UICONTROL Properties])을 클릭합니다.
 
 ### 활동 설정/구성
 
@@ -79,7 +91,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] 모드
 
-[!UICONTROL Properties] 레일의 맨 위에 표시된 [!UICONTROL Design]/[!UICONTROL Browse] 전환기를 사용하여 디자인과 찾아보기 모드를 전환합니다.
+[!UICONTROL Design] 레일의 맨 위에 표시된 [!UICONTROL Browse]/[!UICONTROL Properties] 전환기를 사용하여 디자인과 찾아보기 모드를 전환합니다.
 
 ![디자인 및 찾아보기 전환](/help/main/c-experiences/c-visual-experience-composer/assets/design-browse-mode.png)
 
@@ -111,9 +123,9 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ## 업데이트된 UI에 대한 추가 정보
 
-* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!UICONTROL Activities], [!UICONTROL Recommendations] 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 [!DNL Target]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!DNL Target], [!UICONTROL Activities] 및 [!UICONTROL Recommendations]&#x200B;(VEC)에 대한 [!UICONTROL Visual Experience Composer]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
 
-* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!UICONTROL Offers Library]에 대한 [!DNL Target]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!DNL Target]에 대한 [!UICONTROL Offers Library]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
 
 * [UI 이해 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): [!DNL Target]에 익숙해지는 데 도움이 되는 간단한 개요를 제공하고 자세한 정보와 단계별 지침을 제공하는 링크를 제공합니다.
 

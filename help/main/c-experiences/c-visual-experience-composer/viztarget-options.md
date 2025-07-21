@@ -1,17 +1,17 @@
 ---
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;오퍼 의사 결정
-description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
+description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
 title: '[!UICONTROL Visual Experience Composer]​(VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: b1bde455f686c34e7a5184868ce63db0b74e2af7
+source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
 workflow-type: tm+mt
-source-wordcount: '1998'
+source-wordcount: '2047'
 ht-degree: 8%
 
 ---
 
-# 시각적 경험 작성기 옵션
+# [!UICONTROL Visual Experience Composer] 옵션
 
 [!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 17일)에서는 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 도입되었습니다. 이 문서에서는 업데이트된 UI 및 해당 옵션에 대해 설명합니다.
 
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->업데이트된 [!UICONTROL Visual Editing Composer]에는 [!DNL Chrome Web Store]에서 사용할 수 있는 [!DNL Adobe Experience Cloud] [[!UICONTROL Visual Editing Helper] 확장 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)이(가) 필요합니다.
+>업데이트된 [!UICONTROL Visual Editing Composer]에는 [!DNL Adobe Experience Cloud]에서 사용할 수 있는 [[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Chrome Web Store]이(가) 필요합니다.
 
 VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
@@ -48,7 +48,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ### 활동 설정/구성 {#settings}
 
-[!UICONTROL Design] 캔버스 위에 표시된 [!UICONTROL Configure] 아이콘(![구성 아이콘](/help/main/assets/icons/Setting.svg))을 클릭하여 활동 속성 메뉴를 표시합니다.
+[!UICONTROL Configure] 캔버스 위에 표시된 ![ 아이콘(](/help/main/assets/icons/Setting.svg)구성 아이콘[!UICONTROL Design])을 클릭하여 활동 속성 메뉴를 표시합니다.
 
 ![활동 구성 옵션](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
@@ -56,10 +56,10 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 * **[!UICONTROL Properties]**: 활동에 속성을 할당하거나 활동에서 속성을 제거합니다. [!UICONTROL Properties]은(는) ([[!DNL Target Premium]](/help/main/c-intro/intro.md#premium) 기능입니다. 자세한 내용은 [엔터프라이즈 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하십시오.
 * **[!UICONTROL Page Delivery]**: 사이트의 유사한 페이지에 동일한 경험을 포함하십시오. 페이지 템플릿을 사용하여 페이지에 구조를 제공하거나 페이지에 유사한 요소가 포함되어 있는 경우 유사한 구조의 페이지 요소에서 또는 전체 도메인에서 변형을 테스트할 수 있습니다. 자세한 내용은 [유사한 페이지에 동일한 경험 포함](/help/main/c-experiences/c-visual-experience-composer/temtest.md)을 참조하십시오.
-* **[!UICONTROL Site Preferences]**: 사이트 환경 설정을 구성하여 [!DNL Target]에서 CSS 선택기를 생성하는 방법을 지정하십시오. 자세한 내용은 [구성 [!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md)의 _CSS 선택기_&#x200B;를 참조하십시오.
+* **[!UICONTROL Site Preferences]**: 사이트 환경 설정을 구성하여 [!DNL Target]에서 CSS 선택기를 생성하는 방법을 지정하십시오. 자세한 내용은 _구성_&#x200B;의 [CSS 선택기[!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md)를 참조하십시오.
 * **추가 페이지 추가**: 활동에 페이지를 추가하여 여러 페이지에 걸쳐 각 페이지별 디자인을 사용하여 스토리를 만들 수 있는 다중 페이지 활동을 만듭니다. 자세한 내용은 [다중 페이지 활동](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)을 참조하세요.
 * **단일 대상**: 활동에 단일 대상을 사용합니다.
-* **여러 대상**: 활동에 여러 대상을 할당합니다. 대상자 추가 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg) )을 클릭한 다음, 목록에서 대상자를 하나 이상 선택합니다. [!UICONTROL Add Audiences] 대화 상자에서 [대상을 결합](/help/main/c-target/combining-multiple-audiences.md)하거나 [새 대상을 만들기](/help/main/c-target/c-audiences/create-audience.md)할 수도 있습니다.
+* **여러 대상**: 활동에 여러 대상을 할당합니다. 대상자 추가 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg) )을 클릭한 다음, 목록에서 대상자를 하나 이상 선택합니다. [ 대화 상자에서 ](/help/main/c-target/combining-multiple-audiences.md)대상을 결합[하거나 ](/help/main/c-target/c-audiences/create-audience.md)새 대상을 만들기[!UICONTROL Add Audiences]할 수도 있습니다.
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] 모드
 
@@ -85,7 +85,9 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 >[!NOTE]
 >
->이 영역에 [!UICONTROL Components] 레일 대신 [!UICONTROL Modifications] 레일이 표시되면 **[!UICONTROL Show Components]** 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))을 클릭합니다. [!UICONTROL Show Components] 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))과 [!UICONTROL Show Modifications] 아이콘(![수정 사항 표시 레일](/help/main/assets/icons/History.svg))은 적절한 옵션을 표시하도록 전환합니다.
+>이 영역에 [!UICONTROL Modifications] 레일 대신 [!UICONTROL Components] 레일이 표시되면 **[!UICONTROL Show Components]** 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))을 클릭합니다. [!UICONTROL Show Components] 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))과 [!UICONTROL Show Modifications] 아이콘(![수정 사항 표시 레일](/help/main/assets/icons/History.svg))은 적절한 옵션을 표시하도록 전환합니다.
+>
+>[!UICONTROL Components] 레일이 열려 있는 동안 [!UICONTROL Design] 레일을 축소하고 [!UICONTROL Components] 캔버스를 확대하려면 (![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg)) 아이콘을 클릭합니다.
 
 경험에 새 구성 요소를 추가하려면 다음 작업을 수행하십시오.
 
@@ -111,13 +113,15 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ### [!UICONTROL Modifications] 레일
 
-[!UICONTROL Modifications] 레일을 열려면 [!UICONTROL Components] 레일에서 [!UICONTROL Show Modifications] 아이콘(![수정 사항 레일 표시](/help/main/assets/icons/History.svg))을 클릭합니다.
+[!UICONTROL Modifications] 레일을 열려면 [!UICONTROL Show Modifications] 레일에서 ![ 아이콘(](/help/main/assets/icons/History.svg)수정 사항 레일 표시[!UICONTROL Components])을 클릭합니다.
 
 ![수정 레일](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
 >[!NOTE]
 >
 >[!UICONTROL Show Components] 아이콘(![구성 요소 표시 아이콘](/help/main/assets/icons/Add.svg))과 [!UICONTROL Show Modifications] 아이콘(![수정 사항 표시 레일](/help/main/assets/icons/History.svg))은 적절한 옵션을 표시하도록 전환합니다.
+>
+>[!UICONTROL Modifications] 레일이 열려 있는 동안 [!UICONTROL Design] 레일을 축소하고 [!UICONTROL Modifications] 캔버스를 확대하려면 [!UICONTROL Show Modifications] 아이콘(![수정 사항 레일 표시](/help/main/assets/icons/History.svg)) 아이콘을 클릭합니다.
 
 [!UICONTROL Modifications] 레일에는 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 페이지에 적용된 모든 변경 내용이 표시되며 추가 변경을 수행할 수 있습니다(CSS 선택기, Mbox, 사용자 지정 코드 등).
 
@@ -141,7 +145,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 >[!NOTE]
 >
->사용 가능한 옵션은 만들거나 편집하는 활동 유형과 요소에 따라 다릅니다. [!UICONTROL A/B Test] 활동에서 이미지 및 오퍼 편집에 대한 자세한 내용은 아래의 [캔버스를 사용하여 요소 편집](#design)을 참조하십시오.[!UICONTROL Design]
+>사용 가능한 옵션은 만들거나 편집하는 활동 유형과 요소에 따라 다릅니다. [!UICONTROL A/B Test] 활동에서 이미지 및 오퍼 편집에 대한 자세한 내용은 아래의 [캔버스를 사용하여 요소 편집[!UICONTROL Design]을 참조하십시오.](#design)
 
 ### [!UICONTROL Properties] 레일
 
@@ -151,7 +155,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 레일 상단의 아이콘을 클릭하여 HTML 코드를 편집하거나 요소를 삭제, 복제 또는 숨깁니다. [!UICONTROL Modifications] 레일에 변경 내용이 나타납니다.
 
-오른쪽 레일에서 [!UICONTROL Properties] 레일을 접을 수 있습니다. [!UICONTROL Properties] 레일을 축소하거나 표시하려면 레일의 오른쪽에 있는 [!UICONTROL Show/Hide Properties] 아이콘(![속성 아이콘](/help/main/assets/icons/Propertie.svg))을 클릭합니다.
+디자인 캔버스를 숨기고 디자인 캔버스를 확대할 수 있도록 오른쪽 레일에서 [!UICONTROL Properties] 레일을 접을 수 있습니다. [!UICONTROL Show/Hide Properties] 레일을 축소하거나 표시하려면 레일의 오른쪽에 있는 ![ 아이콘(](/help/main/assets/icons/Propertie.svg)속성 아이콘[!UICONTROL Properties])을 클릭합니다.
 
 ## [!UICONTROL Design] 캔버스를 사용하여 요소 편집 {#design}
 
@@ -277,9 +281,9 @@ DOM 경로 기능은 [클릭 추적](/help/main/c-activities/r-success-metrics/c
 
 ## 업데이트된 UI에 대한 추가 정보
 
-* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!UICONTROL Activities], [!UICONTROL Recommendations] 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 [!DNL Target]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!DNL Target], [!UICONTROL Activities] 및 [!UICONTROL Recommendations]&#x200B;(VEC)에 대한 [!UICONTROL Visual Experience Composer]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
 
-* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!UICONTROL Offers Library]에 대한 [!DNL Target]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!DNL Target]에 대한 [!UICONTROL Offers Library]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
 
 * [UI 이해 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): [!DNL Target]에 익숙해지는 데 도움이 되는 간단한 개요를 제공하고 자세한 정보와 단계별 지침을 제공하는 링크를 제공합니다.
 
@@ -483,7 +487,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -515,7 +519,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -547,7 +551,7 @@ The following options are available:
 
 ### [!UICONTROL Offer Decision]
 
-Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank} to present the best offer and experience to your customers using offer decisioning.
+Add an [offer created in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} to present the best offer and experience to your customers using offer decisioning.
 
 **Note:** This option is available when editing or creating [manual [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) or [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md) (XT) activities only. This option is not available for other activity types.
 
@@ -637,7 +641,7 @@ Undo changes you make to your activities during an editing session. You can also
 
 ## Considerations {#considerations}
 
-* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank} for more information.
+* If an offer contains HTML content, see "How at.js renders offers with HTML content" in [How at.js works](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} for more information.
 
 ## Custom element support {#custom}
 
@@ -645,9 +649,9 @@ The VEC supports [Web Components](https://developer.mozilla.org/en-US/docs/Web/W
 
 >[!NOTE]
 >
->VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
+>VEC support for custom elements is supported in [at.js version](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 (or later){target=_blank}. Ensure that your website has the required version deployed. If you are using the [Visual Experience Composer helper extension](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), it must also have the required version of at.js deployed. The VEC options described above are not visible and available for use with non-supported versions of at.js.
 >
->VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}.
+>VEC support for custom elements is currently not supported with the [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}.
 
 Most VEC actions are supported on custom events and inside custom events, with the following exceptions: 
 
