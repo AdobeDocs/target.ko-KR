@@ -4,10 +4,10 @@ description: 업데이트된  [!DNL Target]t 사용자 인터페이스에 대한
 title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: c8cbf4998c304910a63e31acc3ec93a04ac652ae
+source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
 workflow-type: tm+mt
-source-wordcount: '1084'
-ht-degree: 1%
+source-wordcount: '1112'
+ht-degree: 0%
 
 ---
 
@@ -79,11 +79,11 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 +++
 
-## [!UICONTROL Components] 패널을 확대할 수 있도록 [!UICONTROL Modifications] 및 [!UICONTROL Design] 레일을 축소할 수 있습니까? {#collapse}
+## [!UICONTROL Components] 패널을 확대할 수 있도록 [!UICONTROL Modifications], [!UICONTROL Properties] 및 [!UICONTROL Design] 레일을 축소할 수 있습니까? {#collapse}
 
 +++세부 사항
 
-예. 두 레일을 축소하여 [!UICONTROL Design] 캔버스를 확장하면 보다 쉽게 편집할 수 있습니다. 방법은 다음과 같습니다.
+예. 이러한 레일을 축소하여 [!UICONTROL Design] 캔버스를 확장하면 보다 쉽게 편집할 수 있습니다. 방법은 다음과 같습니다.
 
 >[!NOTE]
 >
@@ -96,6 +96,10 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 **[!UICONTROL Modifications] 레일 축소**
 
 [!UICONTROL Modifications] 레일이 열려 있는 동안 [!UICONTROL Design] 레일을 축소하고 [!UICONTROL Modifications] 캔버스를 확대하려면 [!UICONTROL Show Modifications] 아이콘(![수정 사항 레일 표시](/help/main/assets/icons/History.svg)) 아이콘을 클릭합니다.
+
+**[!UICONTROL Properties] 레일 축소**
+
+[!UICONTROL Properties] 레일을 축소하고 [!UICONTROL Design] 캔버스를 확대하려면 레일의 오른쪽에 있는 [!UICONTROL Show/Hide Properties] 아이콘(![속성 아이콘](/help/main/assets/icons/Propertie.svg))을 클릭하여 [!UICONTROL Properties] 레일을 축소하거나 표시합니다.
 
 +++
 
