@@ -5,9 +5,9 @@ title: ' [!DNL Target] 관리를 시작하려면 어디서 시작해야 합니�
 feature: Administration & Configuration
 role: Admin
 exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
-source-git-commit: e2954a6d93041712a141a7029a964e596c80f8be
+source-git-commit: 614fd89c9746ce55f502debd5b689c34de400ae5
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '436'
 ht-degree: 32%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 32%
 
 ## [!DNL Target]&#x200B;(으)로 초대 받기 {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-[!DNL Adobe Admin Console]의 시스템 관리자가 귀하를 가입하도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 그룹에 추가해야 합니다. 이러한 작업은 모두 [[!DNL Adobe Admin Console]](https://adminconsole.adobe.com)에서 수행됩니다.
+[!DNL Adobe Admin Console]의 시스템 관리자가 귀하를 가입하도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 제품 프로필(사용자 그룹)에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행됩니다.
 
-자세한 내용은 *Experience Cloud 및 핵심 서비스 도움말*&#x200B;에서 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)를 참조하십시오.
+자세한 내용은 [사용자 그룹 관리](https://helpx.adobe.com/enterprise/using/users.html)를 참조하십시오.
 
 시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다.
 
@@ -50,7 +50,7 @@ ht-degree: 32%
 
 ## 자기 자신에게 승인자 역할 지정 {#task_15CAA437A71444E2932B333D5E66A3C7}
 
-[!DNL Adobe Experience Cloud] 가입 초대를 수락하고 로그인한 후 [!DNL Target]이(가) [!DNL Experience Cloud] 계정에 추가되었는지 확인한 다음, [!DNL Target]에 대한 [!UICONTROL Approver] 역할을 자신에게 할당하십시오.
+[!DNL Adobe Experience Cloud] 가입 초대를 수락하고 로그인한 후 [!DNL Target]이(가) [!DNL Experience Cloud] 계정에 추가되었는지 확인한 다음, [!UICONTROL Approver]에 대한 [!DNL Target] 역할을 자신에게 할당하십시오.
 
 조직에 [Target Standard](/help/main/c-intro/intro.md#section_ACD5EFF17AAB4E979CBEFA0145CCD905) 라이센스가 있는 경우 *사용자*&#x200B;의 [역할 및 권한 지정](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions)을 참조하십시오.
 
@@ -60,8 +60,8 @@ ht-degree: 32%
 
 ## [!UICONTROL Administration] 설정을 편집하는 데 필요한 권한 {#admin-permissions}
 
-**2025년 4월 22일 이전**: [!DNL Adobe Admin Console]에 [!UICONTROL Approvers] 권한이 있는 사용자는 [!DNL Target] 역할에 관계없이 [!DNL Target]의 [[!UICONTROL Administration] 페이지](/help/main/administrating-target/administrating-target.md) 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다.
+**2025년 4월 22일 이전**: [!UICONTROL Approvers]에 [!DNL Adobe Admin Console] 권한이 있는 사용자는 [[!UICONTROL Administration] 역할에 관계없이 ](/help/main/administrating-target/administrating-target.md)의 [!DNL Target] 페이지[!DNL Target] 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다.
 
-**2025년 4월 22일**: [!UICONTROL Product] 및 [!UICONTROL Solutions] 관리자만 [!DNL Target] 작업 영역의 역할에 관계없이 [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) 섹션의 설정을 업데이트할 수 있습니다. 이 권한이 없는 사용자는 [!UICONTROL Administration] 섹션에 대한 읽기 전용 액세스 권한을 갖게 됩니다.
+**2025년 4월 22일**: [!UICONTROL Product] 및 [!UICONTROL Solutions] 관리자만 [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) 작업 영역의 역할에 관계없이 [!DNL Target] 섹션의 설정을 업데이트할 수 있습니다. 이 권한이 없는 사용자는 [!UICONTROL Administration] 섹션에 대한 읽기 전용 액세스 권한을 갖게 됩니다.
 
 이 업데이트는 [!DNL Target] 인스턴스 구성에 대한 조직의 제어를 강화하여 다양한 테스트 및 개인화 팀의 활동 전달에 영향을 줄 수 있는 우발적인 업데이트를 방지합니다.
