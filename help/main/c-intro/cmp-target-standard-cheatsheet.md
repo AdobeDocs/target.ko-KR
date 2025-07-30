@@ -1,39 +1,63 @@
 ---
 keywords: Target Standard;faq;자주 묻는 질문;치트 시트;치트시트
-description: 자세한 정보를 보려면 정보 및 링크와 함께 Adobe Target의 기능 사용에 대한 자주 묻는 질문 목록을 살펴보십시오.
+description: 자세한 정보를 보려면 정보 및 링크와 함께  [!DNL Target]의 기능 사용에 대한 자주 묻는 질문 목록을 살펴보십시오.
 title: 최적화 및 개인화 질문에 대한 답변은 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 21d31fdf145f7c74be717885c15b35c3d1d61ed9
+source-git-commit: 6304cafb00916491cbeab0299f527df56da30ee6
 workflow-type: tm+mt
-source-wordcount: '2623'
-ht-degree: 81%
+source-wordcount: '2693'
+ht-degree: 74%
 
 ---
 
 # Target 최적화 및 개인화 FAQ
 
-[!DNL Adobe Target]의 기능 사용에 대한 FAQ 목록, 자세한 정보 및 링크.
+[!DNL Adobe Target] 기능 사용에 대한 FAQ에 대한 답변을 살펴보십시오. 심층적인 통찰력을 위한 직접 링크를 통해 실험을 최적화하고, 경험을 개인화하고, 유용한 리소스에 액세스하는 방법을 알아보십시오.
 
 ## 일반 정보 {#section_CE5713B5AAC341C9A75586C107797FA3}
 
+**업데이트된 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 정보는 어디에서 찾을 수 있습니까?**
+
++++세부 정보 보기
+
+사용자 인터페이스는 [!DNL Target]을 최대한 활용할 수 있도록 논리적이고 사용자에게 친숙한 형식으로 배열되어 있습니다. 다음의 간략한 개요는 [!DNL Target] 및 VEC에 익숙해지는 데 도움이 되며, 자세한 정보 및 단계별 지침을 위한 링크를 제공합니다.
+
+자세한 내용은 [UI 이해 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)를 참조하십시오.
+
++++
+
 **다른 고객이 더 나은 결과를 위해 [!DNL Target]을(를) 어떻게 활용했는지 어떻게 알 수 있습니까?**
 
-다음은 [고객 성공 사례](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)의 일부에 불과합니다. 여러분과 같은 고객이 어떻게 Target을 활용하여 최적화 및 개인화를 향상시킴으로써 비즈니스 목표를 달성하는지 확인하십시오.
++++세부 정보 보기
+실제 [고객 성공 사례](https://www.adobe.com/in/marketing-cloud/target/resources.html#x)를 살펴보고 조직에서 [!DNL Target]을(를) 사용하여 최적화를 높이고 경험을 개인화하고 측정 가능한 비즈니스 성과를 달성하는 방법을 알아보십시오.
 
-이러한 사례 연구 일부에서는 Adobe Target Premium의 기능을 활용했습니다.
++++
 
 **최신 [!DNL Target] 기능에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-최신 릴리스에 대한 세부 내용을 확인하려면 [릴리스 정보](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) 를 참조하십시오. 모든 [이전 릴리스](/help/main/r-release-notes/release-notes-for-previous-releases.md) 에 대한 정보도 온라인으로 이용할 수 있습니다.
++++세부 정보 보기
+[!DNL Target] 릴리스를 통해 업데이트된 상태를 유지합니다.
+
+* **최신 릴리스**: 새로운 기능, 개선 사항 및 버그 수정에 대한 자세한 내용은 [[!DNL Target] 릴리스 정보(현재)](/help/main/r-release-notes/release-notes.md)를 확인하십시오.
+* **예정된 릴리스**: [[!DNL Target] 릴리스 정보(사전 릴리스)](/help/main/r-release-notes/target-release-notes.md)를 방문하여 다음에 나올 항목을 미리 보십시오.
+* **이전 버전**: 이전 릴리스에 대한 [릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md)에서 이전 업데이트 및 변경 내용을 찾아봅니다.
+
++++
 
 **[!DNL Adobe]에 [!DNL Target]에 대한 답변과 추가 정보를 찾을 수 있는 커뮤니티/포럼이 있습니까?**
 
-[Target 커뮤니티 포럼](/help/main/cmp-resources-and-contact-information.md#concept_9C203A8AED054DFFA9A504811DB6BA42)을 확인하십시오. 여기서는 고객에게 도움을 드리며, 보다 중요한 점은 여러분과 같은 Adobe Target 실무 담당자들이 서로에게 도움을 줄 수 있다는 것입니다. 결과적으로 커뮤니티 및 포럼의 성공은 해당 구성원들의 적극적인 참여에 달려 있습니다. 커뮤니티에 참여하고 질문에 대한 답변을 찾고 답변을 제공해 주시기 바랍니다.
++++세부 정보 보기
+[!DNL Target]Target 커뮤니티 포럼[에서 동료 ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank} 실무자와 연결합니다. [!DNL Target]을(를) 사용하여 개인 맞춤화 및 실험을 추진하는 다른 사용자와 전문성을 공유하고 질문하고 공동 작업하십시오. 번영하는 공동체는 적극적인 참여에 달려 있다. 귀하의 통찰력과 경험은 다른 사람이 성공하는 데 도움이 될 수 있습니다. 뛰어들어 기여하고 필요한 답변을 찾아보십시오.
+
++++
 
 **[!DNL Target]에서 지원하는 브라우저는 무엇입니까?**
 
-자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko){target=_blank} 표를 참조하십시오. Target Standard/Premium Experience Cloud 인터페이스 지원과 데스크탑/디바이스에 대한 최종 사용자 브라우저 지원의 두 가지 측면이 제공됩니다.
++++세부 정보 보기
+자세한 내용은 [지원되는 브라우저](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html){target=_blank} 표를 참조하십시오. 데스크톱/장치에서는 [!DNL Target Standard/Premium] 인터페이스 지원과 최종 사용자 브라우저 지원의 두 가지 측면이 있습니다.
+
++++
 
 ## 활동 {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +179,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 제품의 다음 측면을 확인하십시오.
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## 경험 {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -170,7 +194,7 @@ QA를 수행하려면 [강력한 QA 모드 기능](/help/main/c-activities/c-act
 
 이렇게 되기 전까지는 [브라우저에서 혼합 콘텐츠 사용](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C)의 지침에 따라 브라우저에서 혼합 콘텐츠를 로드할 수 있도록 하십시오. 이는 대부분의 최신 브라우저가 제공하는 보안 기능입니다.
 
-**at.js 라이브러리 [!DNL Target]이(가) 아직 배포되지 않았더라도 사이트에서 VEC([!UICONTROL Visual Experience Composer])를 사용해볼 수 있습니까?**
+**at.js 라이브러리 [!UICONTROL Visual Experience Composer]이(가) 아직 배포되지 않았더라도 사이트에서 VEC([!DNL Target])를 사용해볼 수 있습니까?**
 
 [고급 경험 작성기](/help/main/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D)를 사용하여 페이지를 로드해 보십시오.
 
@@ -252,7 +276,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko)
+* [고객 속성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [대상자](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -273,7 +297,7 @@ Target은 사용자가 이러한 대상자를 추가할 때 이와 관련된 데
 
 **오프라인 보고 계산을 수행할 수 있습니까?**
 
-Rep보고서 페이지의 [CSV로 보고서 내보내기 및 주문 세부 사항을 CSV로 다운로드 옵션](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)을 사용하여 원하는 보고 데이터를 다운로드하십시오.
+Rep[보고서 페이지의 ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)CSV로 보고서 내보내기 및 주문 세부 사항을 CSV로 다운로드 옵션을 사용하여 원하는 보고 데이터를 다운로드하십시오.
 
 **보고서를 평가하기 위해 제어 환경을 변경하거나 계산 방법을 [!UICONTROL Visitors]에서 [!UICONTROL Visits]&#x200B;(으)로 변경할 수 있습니까?**
 
@@ -293,7 +317,7 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **[!DNL Target]의 사용 가능 상태를 어떻게 알 수 있습니까?**
 
-[Adobe 시스템 상태 페이지](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)를 사용하여 [!DNL Target]을(를) 포함한 [!DNL Adobe] 제품 및 [!DNL Experience Cloud] 솔루션의 상태를 볼 수 있습니다. 이 페이지는 발생할 수 있는 문제가 시스템 업데이트 또는 일상적인 유지 관리로 인한 문제인지를 확인하는 데 도움이 됩니다.
+[Adobe 시스템 상태 페이지](/help/main/r-release-notes/system-status-updates.md#concept_5CBDF506BEFA40E483CC7DE0DA915EAD)를 사용하여 [!DNL Adobe]을(를) 포함한 [!DNL Experience Cloud] 제품 및 [!DNL Target] 솔루션의 상태를 볼 수 있습니다. 이 페이지는 발생할 수 있는 문제가 시스템 업데이트 또는 일상적인 유지 관리로 인한 문제인지를 확인하는 데 도움이 됩니다.
 
 **문제 해결 안내서가 있습니까?**
 
@@ -303,4 +327,4 @@ Adobe는 [신뢰 구간 막대, 리프트 경계, 중요도/신뢰도 및 여러
 
 **Target API에 대한 자세한 내용은 어디에서 확인할 수 있습니까?**
 
-API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}를 참조하십시오.
+API에 대한 완전한 설명서가 있습니다. [배달 API, NodeJS SDK 및 추천 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}를 참조하십시오.
