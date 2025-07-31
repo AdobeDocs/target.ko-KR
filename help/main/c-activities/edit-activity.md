@@ -4,10 +4,10 @@ description: 기존 활동을 편집할 수 있는 다양한 방법에 대해 �
 title: 활동을 편집하려면 어떻게 해야 합니까?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 34633032385f848dcc87fe1bc8cd025e42bcc3e9
+source-git-commit: 53bac4b1e778fb760a37e7287e0d8dbbe3a56b47
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 24%
+source-wordcount: '956'
+ht-degree: 22%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 24%
 
 1. **[!UICONTROL Activities]** 페이지에서 편집할 활동 옆에 있는 **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭한 다음 [!UICONTROL **편집**]&#x200B;을 클릭합니다.
 
-   Target이 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 활동을 열면 [!UICONTROL Experiences] 페이지가 표시됩니다(3단계 안내 워크플로우의 첫 번째 단계).
+   [!DNL Target]이(가) [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 활동을 열면 [!UICONTROL Experiences] 페이지가 표시됩니다(3단계 안내 워크플로우의 첫 번째 단계).
 
 1. [VEC 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)을 사용하여 원하는 대로 활동을 편집합니다.
 
@@ -44,22 +44,6 @@ ht-degree: 24%
 
    * **[!UICONTROL Save & Close]:** **[!UICONTROL Save and Close]**&#x200B;을(를) 클릭하여 변경 내용을 저장하고 활동의 [!UICONTROL Overview] 페이지를 표시합니다.
    * **저장:** **[!UICONTROL More Actions]** 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭한 다음 **[!UICONTROL Save]**&#x200B;을(를) 선택하여 변경 내용을 저장하고 계속 변경 작업을 수행할 수 있는 VEC에 남습니다. 추가적인 변경 작업을 수행하려면 먼저 저장이 완료될 때까지 기다리십시오. 저장이 완료된 후 변경 사항이 적용된 채 VEC가 다시 로드됩니다.
-
-## [!DNL Recommendations Classic]에서 생성한 이전 활동으로 작업 {#classic}
-
-[!UICONTROL Activities] 목록에는 [!DNL Recommendations Classic]을(를) 포함하여 다양한 소스에서 만들어진 활동이 표시됩니다. 다음 작업은 [!DNL Recommendations Classic]에서 생성한 이전 활동으로 작업할 때 사용할 수 있습니다.
-
-* [!UICONTROL Activate]
-* [!UICONTROL Deactivate]
-* [!UICONTROL Archive]
-* [!UICONTROL Copy]
-* [!UICONTROL Delete]
-
-[!DNL Recommendations] 활동을 직접 편집할 수는 없습니다. 활동을 편집하려면, [!DNL Target Premium]을 사용하여 활동 사본을 만든 다음 새로 만든 활동을 저장해야 합니다. 그런 다음 새로 만든 이 활동을 필요에 따라 편집할 수 있습니다.
-
-## 활동을 초안 양식으로 저장 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
-
-초안으로 저장 기능은 더 이상 사용할 수 없습니다. 자세한 내용은 *[!UICONTROL Status]*&#x200B;활동 목록에 필터 적용[의 ](/help/main/c-activities/activities.md#filters)을(를) 참조하십시오.
 
 ## 작업 공간을 사용할 때 활동 복사/편집 {#section_45A92E1DD3934523B07E71EF90C4F8B6}
 
@@ -91,10 +75,38 @@ ht-degree: 24%
 
         이 문제를 해결하려면 [!UICONTROL Add/Remove]을(를) 클릭하여 선택 가능한 대상 작업 영역에서 사용할 수 있는 속성만 표시합니다.
 
-   * **대상 및 오퍼**: 원본 작업 영역의 모든 대상 및 오퍼를 바꿔야 합니다. 또는 [!UICONTROL Audiences] 또는 [!UICONTROL Offers] 페이지에서 복사한 다음 활동 내의 해당 목록에서 적절한 항목을 선택할 수 있습니다.
+   * **대상 및 오퍼**: 활동을 새 작업 영역에 복사할 때 원본 작업 영역의 연결된 모든 대상 및 오퍼가 `Entity Name Copy <Date>` 형식을 사용하여 복제됩니다.
 
-   * **필수 수동 변경**: 모든 필수 수동 변경 내용이 마지막 단계([!UICONTROL Save & Close])에 요약됩니다. 팝업에 업데이트가 필요한 엔티티 목록이 표시되므로 활동 설정을 완료하기 전에 필요한 모든 사항을 조정할 수 있습니다.
+     동작 세부 사항:
 
-     ![Workspace 유효성 검사 경고](/help/main/c-activities/assets/work-space-validation.png)
+      * 복사된 대상 및 오퍼는 활동을 저장하고 다시 열 때까지 [!UICONTROL Audiences] 및 [!UICONTROL Offers] 목록에 표시되지 않습니다.
+      * 이러한 엔티티는 복사 직후 편집할 수 없습니다. 고객은 초기 편집 세션 중에 이러한 항목에 대한 VEC의 빈 콘텐츠를 볼 수 있습니다.
+      * 고객은 필요한 경우 복사한 대상자 또는 오퍼를 대상 작업 공간의 다른 대상자로 바꿀 수 있습니다.
 
-환경에 [!UICONTROL Enterprise User Permissions] 기능이 활성화되어 있지 않으면 모든 활동이 복사 전에 편집 모드로 열립니다.
+     이 프로세스를 통해 사용자 정의 유연성을 유지하면서 작업 영역 간 작업을 보다 원활하게 복제할 수 있습니다.
+
+     활동을 복사할 때 현재 작업 공간이나 기본 작업 공간에 저장되지 않은 결합된 대상, 타깃팅되지 않은 대상 및 오퍼는 수동으로 교체해야 합니다.
+
+     이렇게 결합된 대상, 비타겟 대상 및 오퍼를 수동으로 교체하면 복사한 활동에서 유효하고 액세스 가능한 엔티티만 사용되고 편집이나 게재 중에 오류가 발생하지 않습니다.
+
+     ![경고 메시지](/help/main/c-activities/assets/copy.png)
+
+>[!NOTE]
+>
+>환경에 [!UICONTROL Enterprise User Permissions] 기능이 활성화되어 있지 않으면 모든 활동이 복사 전에 편집 모드로 열립니다.
+
+## 활동을 초안 양식으로 저장 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+
+[!UICONTROL Save as Draft] 기능을 더 이상 사용할 수 없습니다. 자세한 내용은 *[!UICONTROL Status]*&#x200B;활동 목록에 필터 적용[의 ](/help/main/c-activities/activities.md#filters)을(를) 참조하십시오.
+
+## [!DNL Recommendations Classic]에서 생성한 이전 활동으로 작업 {#classic}
+
+[!UICONTROL Activities] 목록에는 [!DNL Recommendations Classic]을(를) 포함하여 다양한 소스에서 만들어진 활동이 표시됩니다. 다음 작업은 [!DNL Recommendations Classic]에서 생성한 이전 활동으로 작업할 때 사용할 수 있습니다.
+
+* [!UICONTROL Activate]
+* [!UICONTROL Deactivate]
+* [!UICONTROL Archive]
+* [!UICONTROL Copy]
+* [!UICONTROL Delete]
+
+[!DNL Recommendations] 활동을 직접 편집할 수는 없습니다. 활동을 편집하려면, [!DNL Target Premium]을 사용하여 활동 사본을 만든 다음 새로 만든 활동을 저장해야 합니다. 그런 다음 새로 만든 이 활동을 필요에 따라 편집할 수 있습니다.
