@@ -1,12 +1,12 @@
 ---
 keywords: 보고서;통계 방법론;통계 계산;통계;평균;전환율;방문자당 매출;rpv;신뢰 구간;상승도;상승도 t-테스트;오프라인 계산
-description: ' [!DNL Adobe Target]의 수동 [!UICONTROL A/B Test] 활동에 사용되는 통계 계산에 대해 알아봅니다.'
+description: '[!UICONTROL A/B Test]의 수동  [!DNL Adobe Target] 활동에 사용되는 통계 계산에 대해 알아봅니다.'
 title: '[!UICONTROL A/B Test] 활동에 사용되는 통계 계산에 대해 알아보려면 어떻게 해야 합니까?'
 feature: Reports
 exl-id: 5f7377b9-0567-4b6f-8968-4696b2088d0a
-source-git-commit: bb95d160940737e23022d70cbe56567f79cbf255
+source-git-commit: 18f8ccd3edfda635c3f47bd67ff0b7a516748fa8
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1143'
 ht-degree: 2%
 
 ---
@@ -27,11 +27,11 @@ ht-degree: 2%
 
 ### RPV(방문자당 전환율 및 수익) 캠페인
 
-다음 그림은 [!DNL Target] 보고서의 [!UICONTROL Conversion Rate], [!UICONTROL Confidence Interval of Conversion Rate] 및 [!UICONTROL Conversions] 수를 보여줍니다. 예를 들어 첫 번째 줄은 경험 A의 경우 [!UICONTROL Conversion Rate]이(가) 25.81%이고 [!UICONTROL Confidence Interval]이(가) ±7.7%이며 32개의 전환이 기록되었음을 보여 줍니다. 124명의 방문자가 이 경험을 봤다고 가정하면 32/124 = 25.81%에 해당합니다.
+다음 그림은 [!UICONTROL Conversion Rate] 보고서의 [!UICONTROL Confidence Interval of Conversion Rate], [!UICONTROL Conversions] 및 [!DNL Target] 수를 보여줍니다. 예를 들어 첫 번째 줄은 경험 A의 경우 [!UICONTROL Conversion Rate]이(가) 25.81%이고 [!UICONTROL Confidence Interval]이(가) ±7.7%이며 32개의 전환이 기록되었음을 보여 줍니다. 124명의 방문자가 이 경험을 봤다고 가정하면 32/124 = 25.81%에 해당합니다.
 
 <p style="text-align:center;"><img width="25%" src="img/conv_rate.png"></p>
 
-실험에서 각 경험 *ν*&#x200B;에 대한 전환율 또는 **평균**, *μ<sub>ν</sub>*&#x200B;은 해당 지표에 할당된 단위 수 *N<sub>ν</sub>*&#x200B;에 대한 지표 합계의 비율로 정의됩니다.
+실험에서 각 경험 **ν**&#x200B;에 대한 전환율 또는 *평균<sub>,</sub>*&#x200B;μ&#x200B;*ν*&#x200B;은 해당 지표에 할당된 단위 수 *N<sub>ν</sub>*&#x200B;에 대한 지표 합계의 비율로 정의됩니다.
 
 <p style="text-align:center;"><img width="125px" src="img/mean_definition.png"></p>
 
@@ -51,6 +51,8 @@ ht-degree: 2%
 
 실험을 실행할 때 주어진 경험에 대한 전환율은 &quot;true&quot; 전환율의 *estimate*&#x200B;입니다. 이 추정치에서 불확실성을 정량화하기 위해 [!DNL Target]은(는) 신뢰 구간을 사용합니다. [!DNL Target]은(는) 항상 95% 신뢰 구간을 보고합니다. 즉, 계산된 신뢰 구간의 95%에 경험의 실제 전환율이 포함되어 있습니다.
 
+현재 선두이거나 우승한 경험 옆에도 &quot;신뢰도&quot; 수치가 보고됩니다. 이 수치는 선행 경험의 [!UICONTROL Confidence]이(가) 60% 이상에 도달할 때까지만 보고됩니다. 활동에 두 개의 경험이 있는 경우, 이 숫자는 경험이 다른 경험보다 더 잘 수행되고 있다는 신뢰 수준을 나타냅니다. 활동에 경험이 두 개 이상 있는 경우, 이 숫자는 정의된 &quot;제어&quot; 경험보다 경험이 더 잘 수행되고 있다는 신뢰 수준을 나타냅니다. 제어 경험이 이기는 경우 &quot;신뢰도&quot; 수치가 보고되지 않습니다.
+
 전환율 *μ<sub>ν</sub>*&#x200B;의 95% 신뢰 구간이 값의 범위로 정의됩니다.
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
@@ -69,7 +71,7 @@ ht-degree: 2%
 
 ## 상승도
 
-다음 그림은 [!DNL Target] 보고서의 [!UICONTROL Lift] 및 [!UICONTROL Confidence Interval of Lift]을(를) 보여 줍니다. 숫자는 상승도 한계 범위의 평균을 나타내고 화살표는 상승도가 양수이거나 음수이면 반영합니다. 신뢰도가 95%를 넘을 때까지 화살표가 회색으로 표시됩니다. 신뢰도가 임계값을 넘으면 양수 또는 음수 상승도를 기준으로 화살표가 녹색 또는 빨간색입니다.
+다음 그림은 [!UICONTROL Lift] 보고서의 [!UICONTROL Confidence Interval of Lift] 및 [!DNL Target]을(를) 보여 줍니다. 숫자는 상승도 한계 범위의 평균을 나타내고 화살표는 상승도가 양수이거나 음수이면 반영합니다. 신뢰도가 95%를 넘을 때까지 화살표가 회색으로 표시됩니다. 신뢰도가 임계값을 넘으면 양수 또는 음수 상승도를 기준으로 화살표가 녹색 또는 빨간색입니다.
 
 <p style="text-align:center;"><img width="35%" src="img/lift.png"></p>
 
