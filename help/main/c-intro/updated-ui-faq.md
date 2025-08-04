@@ -4,9 +4,9 @@ description: 업데이트된  [!DNL Target]t 사용자 인터페이스에 대한
 title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: b91abbd3b7418fd4d1444d96f160c3d9017f3bf8
+source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
-source-wordcount: '1112'
+source-wordcount: '1361'
 ht-degree: 0%
 
 ---
@@ -76,6 +76,35 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활동의 편집 및 활동 세부 사항의 일관성을 비롯한 몇 가지 제한 사항이 있습니다.
 
 자세한 내용은 [알고 있어야 하는 시간에 민감한 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)를 참조하십시오.
+
++++
+
+## 업데이트된 VEC는 옵션의 재배열, 크기 조정, 이동, 숨기기 및 제거를 어떻게 처리하며 이러한 옵션은 기존 VEC와 어떻게 다릅니까? {#options}
+
++++세부 정보
+**[!UICONTROL Rearrange*]*: 이전 VEC에서 다시 정렬 옵션은 오버레이를 사용하여 사용자가 해당 형제 그룹 내의 요소를 다시 배치할 수 있도록 했습니다. 움직임은 형제 요소 간의 순서를 바꾸는 것으로 한정되었다.
+
+업데이트된 VEC에서 이 기능은 앞으로 이동 및 뒤로 이동 작업을 통해 간소화됩니다. 이러한 컨트롤은 겹침 순서에서 요소를 앞이나 뒤로 이동하여 레이아웃에서 요소의 위치를 가로와 세로 모두 조정합니다.
+
+**크기 조정**: [!UICONTROL Resize] 기능은 [!UICONTROL Properties] 섹션 아래의 [!UICONTROL Size] 패널에 있습니다. 사용자는 요소의 너비와 높이를 직접 조정할 수 있습니다. 고급 설정에는 다음이 포함됩니다.
+
+* 최소/최대 너비 및 높이 컨트롤
+* 오버플로 비헤이비어 설정
+* 미디어 요소에 대한 오브젝트 맞춤 옵션
+
+이러한 도구를 사용하면 요소 치수 및 레이아웃 동작을 정밀하게 제어할 수 있습니다.
+
+**이동**: [!UICONTROL Move] 옵션은 [!UICONTROL Properties] 섹션 아래의 [!UICONTROL Position] 패널에 있습니다. 이 옵션을 사용하면 다음과 같은 작업을 수행할 수 있습니다.
+
+* 요소의 위치(예: 절대, 상대, 고정)를 설정합니다
+* 계층화를 위한 z-색인 정의
+* 위치 지정 유형 선택
+
+업데이트된 [!UICONTROL Properties] 레일은 사용자 지정 인라인 스타일도 지원하므로 사전 설정 옵션이 레이아웃 요구 사항에 맞지 않을 때 유연성을 제공합니다.
+
+**[!UICONTROL Hide]**: [!UICONTROL Hide] 기능은 [!UICONTROL Properties] 패널에 있습니다. 요소를 선택한 후 [!UICONTROL Hide Element]을(를) 클릭하여 삭제하지 않고 보기에서 제거합니다. 이 기능은 디자인 또는 미리 보기 중 가시성을 관리하는 데 유용합니다.
+
+**[!UICONTROL Remove]**: [!UICONTROL Remove] 기능은 [!UICONTROL Properties] 패널을 통해 액세스할 수 있습니다. 요소를 선택한 후 요소 제거 를 클릭하여 페이지에서 요소를 삭제합니다. 이 작업은 레이아웃에서 요소를 영구적으로 제거합니다.
 
 +++
 
