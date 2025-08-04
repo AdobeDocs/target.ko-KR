@@ -2,13 +2,13 @@
 keywords: 릴리스 정보;새로운 기능;릴리스;업데이트;업데이트;릴리스;향상;향상;수정;버그 수정;업데이트;현재 업데이트
 description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능 및 개선, 수정 사항에 대해 알아봅니다.
 landing-page-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
-short-description: ' [!DNL Adobe Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
+short-description: ' [!DNL Target]의 현재 릴리스에 포함된 새로운 기능, 개선 사항 및 수정 사항에 대해 알아봅니다.'
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 265108dbb0a459e1b111fda01a35042170f05562
+source-git-commit: f00cec3194863bb7187d4cdc91c39a87b624e9bd
 workflow-type: tm+mt
-source-wordcount: '4383'
+source-wordcount: '4816'
 ht-degree: 11%
 
 ---
@@ -75,6 +75,66 @@ ht-degree: 11%
 
 +++
 
+## [!DNL Target Standard/Premium] 25.7.4(2025년 8월 1일)
+
+이 릴리스는 주로 복잡한 고객 맞춤화로 인한 최근 문제를 해결하며 다음과 같은 수정 사항 및 개선 사항을 포함합니다.
+
+**활동**
+
++++세부 정보 보기
+* 고객이 변경하지 않고도 라이브 활동을 저장하려고 할 때 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. GraphQL 응답은 중복 LocalId 문제를 나타냅니다. (TGT-53329 및 TGT-53373 및 TGT-53195)
+* 업데이트된 VEC에서 리디렉션 경험을 만들지 못하는 문제를 해결했습니다. 리디렉션 URL이 무시되고 대신 원래 페이지가 표시되었습니다. (TGT-53306)
+
++++
+
+**로컬라이제이션**
+
++++세부 정보 보기
+* [!UICONTROL Create Criteria] 모달의 현지화 문제를 해결했습니다. [!UICONTROL Choose Price Rule] 드롭다운 목록에서 &quot;다음 값 사이&quot; 옵션을 선택하면 문자열 &quot;to&quot;가 [!UICONTROL Inclusion Rules] 섹션에서 현지화되지 않았습니다. (TGT-49754)
+* 피드 만들기 마법사의 [!UICONTROL All host groups] 드롭다운 목록에 있는 문자열 &quot;[!UICONTROL Environment]&quot;이(가) 올바르게 현지화되지 않은 현지화 문제를 해결했습니다. (TGT-46737)
+
++++
+
+**QA**
+
++++세부 정보 보기
+* QA 환경이 여러 탭에서 데이터를 로드하지 못하여 인터페이스를 사용할 수 없는 문제를 해결했습니다. (TGT-53377)
+* QA 환경에서 활동을 만들 수 없는 문제를 해결했습니다. 프로세스가 완료되지 않고 [!UICONTROL Activities] 페이지로 리디렉션되었습니다. (TGT-53328)
+
++++
+
+**추천**
+
++++세부 정보 보기
+* [!DNL Recommendations]에서 컬렉션을 만드는 동안 &quot;딥러닝&quot; 피연산자 위로 마우스를 가져가면 페이지가 충돌하는 문제가 해결되었습니다. (TGT-53305)
+* 업데이트된 UI에서 [!UICONTROL Catalog Search]의 필터 제안이 부정확하던 문제를 해결했습니다. (TGT-52007)
+* [!DNL Recommendations] UI에서 &quot;값이 있음&quot; 또는 &quot;값이 없음&quot; 연산자를 사용할 때 피연산자 필터가 표시되는 문제를 해결했습니다. 숨겨야 합니다. (TGT-53012)
+
++++
+
+**VEC(시각적 경험 작성기)**
+
++++세부 정보 보기
+* AP(Automated Personalization) 활동을 편집하는 동안 사용자가 [!UICONTROL Manage Content]을(를) 클릭한 다음 [!UICONTROL Done]을(를) 클릭하면 페이지가 비어 있고 응답하지 않는 문제를 해결했습니다. (TGT-53047 및 TGT-52993)
+* [!UICONTROL Viewed an mbox]에서 [!UICONTROL Goals & Settings] 전환 지표를 선택하면 페이지가 충돌하는 문제가 해결되었습니다. (TGT-53346, TGT-53343 및 TGT-53348)
+* [!UICONTROL Redirect to URL] 기능이 예상대로 작동하지 않는 문제가 해결되었습니다. 올바른 URL이 있어도 리디렉션이 수행되지 않습니다. (TGT-53307)
+
++++
+
+**작업 공간**
+
++++세부 정보 보기
+* 작업 영역 간 활동을 복사할 때 중복 &quot;대상 복사&quot; 항목 및 ID 충돌이 발생하는 문제를 해결했습니다. 이제 대상이 고유 ID, 작업 영역 컨텍스트 및 조합된 대상(최대 5개 수준)에 대한 순환 처리로 복사됩니다. (TGT-53081)
+* 작업 영역이 &quot;[!UICONTROL All Workspaces]&quot;(으)로 설정되어 있을 때 기본 작업 영역에 이미 있는 활동을 복사하면 잘못된 오류가 발생하는 문제를 해결했습니다.
+
+  &quot;기본이 아닌 작업 공간에 대해 하나 이상의 속성을 포함해야 합니다.&quot;
+
+  복사본이 기본 작업 영역 내에 있으므로 속성이 필요하지 않습니다. 속성을 추가하고 저장하려고 하면 두 번째 오류가 발생합니다.
+
+  &quot;잘못된 사용자 입력&quot;
+
++++
+
 ## [!DNL Target Standard/Premium] 25.7.3(2025년 7월 24일)
 
 주로 복잡한 고객 맞춤화와 관련된 최근 문제가 확인되어 이 릴리스에는 다음 수정 사항 및 업데이트가 포함되어 있습니다.
@@ -137,7 +197,6 @@ ht-degree: 11%
 **VEC(시각적 경험 작성기)**
 
 +++세부 정보 보기
-
 * 보기에 수정 사항을 적용하면 중복이 발생하고 &#39;잘못된 사용자 입력&#39; 오류가 트리거되는 VEC의 문제가 해결되었습니다. (TGT-52886)
 * VEC에서 이미지 오퍼를 구성할 때 [!UICONTROL Undo] 및 [!UICONTROL Insert Before] 옵션에 대한 [!UICONTROL Insert After] 기능 문제를 해결했습니다.
 
@@ -191,7 +250,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 * 고객이 [!UICONTROL Goals & Settings] 페이지에서 특정 활동에 대한 보고서를 볼 때 [!UICONTROL View in Analytics] 링크가 프로덕션 환경 대신 QA 환경을 잘못 가리키는 문제가 해결되었습니다. (TGT-53163)
@@ -230,7 +289,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
 * 여러 경험에 사용된 선택기가 선택된 상태로 일관되게 강조 표시되지 않던 [!UICONTROL Goals & Settings] 페이지의 문제를 해결했습니다. (TGT-53062)
@@ -281,7 +340,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 * 기존 활동을 복사하고 보고 소스를 [!DNL Adobe Analytics]&#x200B;(A4T)으로 변경하면 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. [!DNL Analytics], `restart_same_experience` 및 `restart_random_experience`과(와) 같이 `restart_new_experience` 보고와 호환되지 않는 특정 지표 작업이 원래 활동에서 유지된 경우 오류가 트리거되었습니다. (TGT-52900)
@@ -338,7 +397,7 @@ ht-degree: 11%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
 * 보기에 수정 사항을 적용하면 보기가 복제되고 활동이 &quot;잘못된 사용자 입력&quot; 오류를 반환하는 문제를 해결했습니다. 이 수정 사항은 중복 또는 유효성 검사 오류를 트리거하지 않고 보기 수정 사항이 올바르게 적용되도록 합니다. (TGT-52886)
@@ -372,7 +431,7 @@ ht-degree: 11%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
