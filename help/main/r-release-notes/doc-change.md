@@ -21,7 +21,7 @@ ht-degree: 36%
 
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
-| 8월 5일 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | *데이터 수집* 가이드의 전체 *Adobe Experience Platform Web SDK* 문서를 이동하여 [!DNL Target]과(와) 관련된 모든 정보를 단일 개발자 가이드로 통합했습니다. 이렇게 하면 콘텐츠를 구성하고 쉽게 참조할 수 있습니다. |
+| 8월 5일 | [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/aep/aep-web-sdk-overview){target=_blank} | *데이터 수집* 가이드의 전체 *Adobe Experience Platform Web SDK* 문서를 이동하여 [!DNL Target]과(와) 관련된 모든 정보를 단일 개발자 가이드로 통합했습니다. 이렇게 하면 콘텐츠를 구성하고 쉽게 참조할 수 있습니다. |
 | 8월 4일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.7.4 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [[!DNL Target] UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md#options) | FAQ: &quot;업데이트된 VEC는 어떻게 재배열, 크기 조정, 이동, 숨기기 및 제거 옵션을 처리하며 이러한 옵션은 이전 VEC와 어떻게 다릅니까?&quot;가 추가되었습니다. |
 | 7월 29일 | [활동 편집](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6) | *작업 공간을 사용할 때 활동 복사/편집* 아래의 대상 및 오퍼 섹션을 업데이트합니다. |
