@@ -19,7 +19,7 @@ ht-degree: 24%
 
 >[!NOTE]
 >
->이 문서는 at.js 구현에만 적용됩니다. [!UICONTROL Analytics for Target]을(를) 사용하여 [!DNL Adobe Experience Platform Web SDK]&#x200B;(A4T)을(를) 구현하는 방법에 대한 자세한 내용은 Experience Platform Web SDK의 [Target용 Adobe Analytics(A4T) 로깅](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html){target=_blank}을 참조하십시오.
+>이 문서는 at.js 구현에만 적용됩니다. [!UICONTROL Analytics for Target]을(를) 사용하여 [!DNL Adobe Experience Platform Web SDK]&#x200B;(A4T)을(를) 구현하는 방법에 대한 자세한 내용은 Experience Platform Web SDK의 [Target용 Adobe Analytics(A4T) 로깅](https://experienceleague.adobe.com/docs/target-dev/developer/a4t/overview-a4t.html?lang=ko){target=_blank}을 참조하십시오.
 
 ## 구현 요구 사항 {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
