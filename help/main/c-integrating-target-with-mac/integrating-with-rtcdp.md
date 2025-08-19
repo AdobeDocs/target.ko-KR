@@ -128,25 +128,25 @@ Target 및 RTCDP를 통한 향상된 개인화에 대한 자세한 내용은 다
 
 [!DNL Real-Time CDP]에서 [!DNL Target]으로 세그먼트 및 프로필 속성 전송을 시작하기 위해 [!DNL Real-Time Customer Data Platform]에서 [!DNL Adobe Target] 대상을 구성하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3418799/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3449800/?learn=on&captions=kor)
 
 ### 비디오: 세그먼트 및 프로필 속성 활성화
 
 실시간 개인화된 웹 사이트의 콘텐츠, 모바일 앱 및 기타 디지털 속성을 표시하기 위해 [!DNL Adobe Real-Time Customer Data Platform]에서 [!DNL Adobe Target]으로 세그먼트 및 프로필 속성을 활성화하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419036/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3447362/?learn=on&captions=kor)
 
 ### 비디오: [!DNL Target]에서 [!DNL Real-Time CDP] 세그먼트 사용하기
 
 [!DNL Real-Time Customer Data Platform]세그먼트[!DNL Adobe Target]를 사용하여 웹 사이트 및 모바일 앱에서 개인화된 경험을 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419149/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3446834/?learn=on&captions=kor)
 
 ### 비디오: [!DNL Adobe Target]에서 [!DNL Real-Time CDP] 프로필 속성 사용하기
 
 [!DNL Adobe Target]에서 [!DNL Adobe Real-Time Customer Data Platform] 프로필 속성을 사용하여 웹 사이트 및 모바일 앱에서 개인화된 경험을 제공하는 방법에 대해 알아봅니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3419318/?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3451900/?learn=on&captions=kor)
 
 ### [!DNL Adobe Target] 블로그 및 비디오: 동일 페이지의 향상된 개인화
 

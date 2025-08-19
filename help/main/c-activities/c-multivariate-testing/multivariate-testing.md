@@ -98,7 +98,7 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
 
 ### 다변량 테스트 만들기(9:25) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -107,4 +107,4 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)

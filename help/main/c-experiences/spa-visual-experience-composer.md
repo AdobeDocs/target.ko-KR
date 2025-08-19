@@ -437,6 +437,6 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 
 ## 교육 비디오: Adobe Target에서의 SPA용 VEC 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/34786?captions=kor)
 
 자세한 내용은 [Adobe Target에서 SPA VEC(단일 페이지 애플리케이션용 시각적 경험 작성기) 사용](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html)을 참조하십시오.

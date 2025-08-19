@@ -37,4 +37,4 @@ ht-degree: 72%
 
 다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 다변량 테스트를 작성하는 방법을 보여줍니다. 경험 성과 보고서는 8:20부터 설명되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)

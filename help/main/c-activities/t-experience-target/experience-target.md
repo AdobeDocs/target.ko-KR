@@ -39,4 +39,4 @@ ht-degree: 40%
 * 지리적 영역에 있는 대상자에게 위치 특정 콘텐츠를 전달하는 방법을 설명합니다.
 * 올바른 콘텐츠가 올바른 대상자에게 전달되도록 하기 위해 경험을 재정렬하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/30948?captions=kor)

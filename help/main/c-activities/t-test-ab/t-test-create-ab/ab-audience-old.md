@@ -68,7 +68,7 @@ ht-degree: 64%
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)
 
 ### 활동 워크플로 - 타깃팅(2:14) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

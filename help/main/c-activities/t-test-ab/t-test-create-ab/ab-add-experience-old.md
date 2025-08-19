@@ -104,4 +104,4 @@ ht-degree: 43%
 * 페이지 콘텐츠 변경
 * 페이지 레이아웃 변경
 
->[!VIDEO](https://video.tv.adobe.com/v/17399)
+>[!VIDEO](https://video.tv.adobe.com/v/30516?captions=kor)

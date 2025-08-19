@@ -121,4 +121,4 @@ Keep the following points in mind as you work with imported audiences:
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)

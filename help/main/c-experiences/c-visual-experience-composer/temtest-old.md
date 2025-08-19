@@ -107,4 +107,4 @@ ht-degree: 33%
 * 반응형 웹 사이트용 경험 미리보기 및 빌드
 * 오버레이를 사용하여 요소 유형을 강조 표시
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/30526?captions=kor)

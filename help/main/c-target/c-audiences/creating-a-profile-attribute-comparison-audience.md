@@ -65,4 +65,4 @@ ht-degree: 51%
 
 이 기능을 사용할 수 있는 시나리오 및 자세한 내용은 비디오를 참조하십시오.
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/30947?captions=kor)

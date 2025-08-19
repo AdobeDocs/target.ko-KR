@@ -320,4 +320,4 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
 * 사용자 지정 디자인 만들기
 * 디자인에서 디스플레이 변수를 참조하는 방법 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/27687)
+>[!VIDEO](https://video.tv.adobe.com/v/35323?captions=kor)

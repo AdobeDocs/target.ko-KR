@@ -311,7 +311,7 @@ ht-degree: 48%
 * 속성 및 작업 공간의 개념과 이러한 경계 및 그룹화를 통해 사용자의 액세스 수준을 제어하는 방법
 * 조직이 고려할 다양한 속성 예제
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/)
+>[!VIDEO](https://video.tv.adobe.com/v/3421740?captions=kor)
 
 ### 운영 시간: [!DNL Target] Premium 작업 공간
 

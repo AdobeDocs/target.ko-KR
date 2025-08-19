@@ -426,4 +426,4 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 >
 >비디오에는 각각 `option.name` 및 `option.id`(으)로 바뀐 `offer.name` 및 `offer.id`이(가) 언급되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/)
+>[!VIDEO](https://video.tv.adobe.com/v/33347?captions=kor)

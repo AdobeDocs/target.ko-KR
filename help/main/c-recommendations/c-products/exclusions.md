@@ -76,4 +76,4 @@ After creating a search using "id > contains," for example, you can then click [
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/27689)
+>[!VIDEO](https://video.tv.adobe.com/v/35499?captions=kor)
