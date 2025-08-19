@@ -13,13 +13,13 @@ ht-degree: 0%
 
 # 오퍼 의사 결정 사용
 
-[!DNL Adobe Journey Optimizer] 오퍼 의사 결정과 함께 [!DNL Adobe Target]을(를) 사용하여 웹 및 모바일에서 방문자에 대한 다음 최상의 오퍼를 결정하고 전달합니다.
+[!DNL Adobe Target] 오퍼 의사 결정과 함께 [!DNL Adobe Journey Optimizer]을(를) 사용하여 웹 및 모바일에서 방문자에 대한 다음 최상의 오퍼를 결정하고 전달합니다.
 
-[!UICONTROL Visual Experience Composer]&#x200B;(VEC) 또는 [!UICONTROL Form-Based Composer]을(를) 사용하여 [!DNL Adobe Journey Optimizer]에서 만든 오퍼 결정을 [!DNL Target] 활동(수동 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting])에 추가하여 [!DNL Target]에서 제공하는 인바운드 채널에서 방문자에게 개인화된 오퍼를 테스트하고 전달합니다.
+[!DNL Adobe Journey Optimizer]&#x200B;(VEC) 또는 [!DNL Target]을(를) 사용하여 [!UICONTROL A/B Test]에서 만든 오퍼 결정을 [!UICONTROL Experience Targeting] 활동(수동 [!UICONTROL Visual Experience Composer] 또는 [!UICONTROL Form-Based Composer])에 추가하여 [!DNL Target]에서 제공하는 인바운드 채널에서 방문자에게 개인화된 오퍼를 테스트하고 전달합니다.
 
 [!DNL Adobe Journey Optimizer] 및 오퍼 결정에 대한 자세한 내용은 *[!DNL Journey Optimizer]* 설명서에서 다음 항목을 참조하십시오.
 
-* [Journey Optimizer 시작](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html?lang=ko)
+* [Journey Optimizer 시작](https://experienceleague.adobe.com/docs/journey-optimizer/using/get-started/get-started.html)
 
 * [의사 결정 관리 정보](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/get-started-decision/starting-offer-decisioning.html?lang=ko-KR)
 
@@ -27,7 +27,7 @@ ht-degree: 0%
 
 [!DNL Target]에서 오퍼 결정을 사용하려면 다음이 필요합니다.
 
-* [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}을(를) 사용하여 [!DNL Adobe Target Standard] 또는 [!DNL Adobe Target Premium]을(를) 구현했습니다.
+* [!DNL Adobe Target Standard]Adobe Experience Platform Web SDK[!DNL Adobe Target Premium]을(를) 사용하여 [ 또는 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}을(를) 구현했습니다.
 
   at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현할 때는 이 기능을 사용할 수 없습니다.
 
@@ -56,13 +56,13 @@ ht-degree: 0%
 
 ## 오퍼 결정을 사용하는 경험을 만듭니다.
 
-1. [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 수동 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동을 편집하거나 만드는 동안 페이지 요소를 클릭하여 [옵션 메뉴](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)를 표시합니다.
+1. [!UICONTROL A/B Test]&#x200B;(VEC)에서 수동 [!UICONTROL Experience Targeting] 또는 [!UICONTROL Visual Experience Composer]&#x200B;(XT) 활동을 편집하거나 만드는 동안 페이지 요소를 클릭하여 [옵션 메뉴](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)를 표시합니다.
 
    ![시각적 경험 작성기의 옵션 메뉴](assets/options-menu1.png)
 
    >[!NOTE]
    >
-   >[[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)에서 [!UICONTROL Offer Decisions]을(를) 사용하는 경험을 만들 수도 있습니다.
+   >[!UICONTROL Offer Decisions]에서 [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)을(를) 사용하는 경험을 만들 수도 있습니다.
 
 1. **[!UICONTROL Replace Content]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Offer Decision]**&#x200B;을(를) 클릭합니다.
 
@@ -72,7 +72,7 @@ ht-degree: 0%
 
 1. VEC 오른쪽의 **[!UICONTROL Add Offer Decision]** 레일에서 원하는 샌드박스를 선택한 다음 오퍼 결정.배치 선택을 클릭합니다.
 
-   [!DNL Adobe Experience Platform]의 [샌드박스](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html?lang=ko){target=_blank}를 사용하면 인스턴스를 가상 환경으로 분할할 수 있습니다. 예를 들어 프로덕션 환경과 스테이징 환경이 있을 수 있습니다. [!DNL Adobe Journey Optimizer]의 [placement](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html?lang=ko){target=_blank}을(를) 사용하면 올바른 오퍼 콘텐츠가 올바른 위치에 표시되는지 확인할 수 있습니다.
+   [의 ](https://experienceleague.adobe.com/docs/experience-platform/sandbox/ui/overview.html){target=_blank}샌드박스[!DNL Adobe Experience Platform]를 사용하면 인스턴스를 가상 환경으로 분할할 수 있습니다. 예를 들어 프로덕션 환경과 스테이징 환경이 있을 수 있습니다. [의 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioning/create-components/creating-placements.html){target=_blank}placement[!DNL Adobe Journey Optimizer]을(를) 사용하면 올바른 오퍼 콘텐츠가 올바른 위치에 표시되는지 확인할 수 있습니다.
 
    ![오퍼 결정 추가 대화 상자의 샌드박스 및 배치 드롭다운 목록](/help/main/c-integrating-target-with-mac/ajo/assets/sandbox-placement.png)
 
@@ -80,7 +80,7 @@ ht-degree: 0%
 
    ![오퍼 결정 선택 대화 상자](/help/main/c-integrating-target-with-mac/ajo/assets/select-offer-decision.png)
 
-   [!UICONTROL Modifications] 레일에서 새로 만든 오퍼 결정을 볼 수 있는 웹 사이트가 VEC에 표시됩니다. [!UICONTROL Offer Decision] 레일의 아래쪽에 있는 [!UICONTROL Offer Preview] 아래에 있는 오퍼를 클릭하여 오퍼 결정을 검사할 수 있습니다.
+   [!UICONTROL Modifications] 레일에서 새로 만든 오퍼 결정을 볼 수 있는 웹 사이트가 VEC에 표시됩니다. [!UICONTROL Offer Preview] 레일의 아래쪽에 있는 [!UICONTROL Offer Decision] 아래에 있는 오퍼를 클릭하여 오퍼 결정을 검사할 수 있습니다.
 
    <!--You can examine the various offers contained in the offer by clicking the appropriate icon at the bottom of the [!UICONTROL Offer Preview] dialog box, including the fallback offer. A fallback offer is the default offer displayed when a visitor is not eligible for any of the personalized offers in the collection.-->
 
@@ -96,14 +96,14 @@ ht-degree: 0%
 
 오퍼 결정을 사용할 때 다음 정보를 고려하십시오.
 
-* Offer Decisioning 통합은 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}을(를) 기반으로 [!DNL Target] 구현에 대해 작동합니다. at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현하는 경우에는 이 기능을 사용할 수 없습니다.
+* Offer Decisioning 통합은 [!DNL Target]Adobe Experience Platform Web SDK[을(를) 기반으로 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 구현에 대해 작동합니다. at.js 또는 다른 [!DNL Target] SDK를 사용하여 [!DNL Target]을(를) 구현하는 경우에는 이 기능을 사용할 수 없습니다.
 
 * [!DNL Target]/[!DNL Adobe Journey Optimizer] 통합은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 및 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동만 지원합니다. 이 기능은 다른 활동 유형에는 사용할 수 없습니다.
 
-* 활동에서 오퍼 결정을 사용하는 경우 [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)을(를) 사용할 수 없습니다. 활동에서 오퍼 결정을 사용하는 경우 활동 설정 중 [!UICONTROL Goals and Settings] 페이지에서 [!DNL Target]을(를) 보고 소스로 선택합니다.
+* 활동에서 오퍼 결정을 사용하는 경우 [[!UICONTROL Analytics as the reporting source]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)을(를) 사용할 수 없습니다. 활동에서 오퍼 결정을 사용하는 경우 활동 설정 중 [!DNL Target] 페이지에서 [!UICONTROL Goals and Settings]을(를) 보고 소스로 선택합니다.
 
 * 텍스트/html 컨텐츠 유형의 오퍼는 deliveryURL 컨텐츠 전달을 지원하지 않습니다. deliveryURL은 클라이언트가 컨텐츠를 명시적으로 가져오고 작성하는 경우에만 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)를 통해 지원됩니다.
 
 * [!DNL Target] 보고에서는 오퍼 결정 수준 보고를 제공하지 않습니다.
 
-* 오퍼 결정을 포함하는 [!DNL Target] 경험에 대해 [QA 링크](/help/main/c-activities/c-activity-qa/activity-qa.md)을(를) 시각화하는 것은 해당 오퍼 결정에 대한 [!DNL Adobe Journey Optimizer]의 빈도 제한 설정에 영향을 줍니다.
+* 오퍼 결정을 포함하는 [ 경험에 대해 ](/help/main/c-activities/c-activity-qa/activity-qa.md)QA 링크[!DNL Target]을(를) 시각화하는 것은 해당 오퍼 결정에 대한 [!DNL Adobe Journey Optimizer]의 빈도 제한 설정에 영향을 줍니다.

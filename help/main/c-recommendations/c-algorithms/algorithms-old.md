@@ -1,8 +1,8 @@
 ---
 keywords: 권장 사항;권장 사항 활동;기준;알고리즘;권장 사항 키;사용자 지정 키;업계 카테고리;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어;게시
-description: ' [!DNL Target] [!DNL Recommendations] Adobe에서 기준을 사용하는 방법을 알아봅니다.'
-title: ' [!DNL Target] Recommendations에서 기준을 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+description: Adobe [!DNL Target] [!DNL Recommendations]에서 기준을 사용하는 방법을 알아봅니다.
+title: ' [!DNL Target] 추천에서 기준을 사용하는 방법'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -40,7 +40,7 @@ ht-degree: 15%
 
 | 알고리즘 유형 | 사용 시기 | 사용 가능한 알고리즘 |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul>자세한 내용은 *추천 키를 기반으로 추천*&#x200B;의 [장바구니 기반](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)을 참조하세요. |
+| [!UICONTROL Cart-Based] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li></ul>자세한 내용은 [추천 키를 기반으로 추천](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)의 *장바구니 기반*&#x200B;을 참조하세요. |
 | [!UICONTROL Popularity-Based] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. | <ul><li>사이트에서 가장 많이 본 항목</li><li>범주별 최고 조회수</li><li>항목별 가장 많이 본 항목 속성</li><li>사이트 전체 최상위 판매자</li><li>범주별 최상위 판매자</li><li>항목 속성별 최상위 판매자</li><li>Analytics 지표 상위</li></ul> |
 | [!UICONTROL Item-Based] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후 권장 사항을 제공합니다. | <ul><li>이 항목을 보고 다른 항목도 본 사람</li><li>이 항목을 보고 다른 항목을 구입한 사람</li><li>이 항목을 구입하고 다른 항목도 구입한 사람</li><li>속성이 비슷한 항목</li></ul> |
 | [!UICONTROL User-Based] | 사용자의 행동을 기반으로 권장 사항을 제공합니다. | <ul><li>최근에 본 항목</li><li>추천 항목</li></ul> |
@@ -64,9 +64,9 @@ ht-degree: 15%
 
 1. [기본 정보 섹션](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)에 정보를 입력하십시오.
 
-1. [권장 알고리즘](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) 섹션의 **[!UICONTROL Algorithm Type]** 목록에서 **[!UICONTROL Item Based]**&#x200B;을(를) 선택합니다.
+1. [권장 알고리즘](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) 섹션의 **[!UICONTROL Item Based]** 목록에서 **[!UICONTROL Algorithm Type]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Algorithm]** 목록에서 **[!UICONTROL People Who Viewed This, Viewed That]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL People Who Viewed This, Viewed That]** 목록에서 **[!UICONTROL Algorithm]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Recommendation Key]** 목록에서 사용자 지정 프로필 특성을 선택합니다(예: [!UICONTROL Last Show Added to Watchlist]).
 
@@ -88,4 +88,4 @@ ht-degree: 15%
 
 >[!NOTE]
 >
->[!UICONTROL Algorithm Usage] 기능은 현재 Recommendations 활동에만 지원됩니다. 이 기능은 [오퍼로서 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함하는 A/B 테스트, 자동 할당, 자동 타겟 및 경험 타깃팅(XT) 활동에 대해서는 현재 지원되지 않습니다.
+>[!UICONTROL Algorithm Usage] 기능은 현재 권장 사항 활동에만 지원됩니다. 이 기능은 [오퍼로서 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함하는 A/B 테스트, 자동 할당, 자동 타겟 및 경험 타깃팅(XT) 활동에 대해서는 현재 지원되지 않습니다.

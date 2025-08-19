@@ -1,8 +1,8 @@
 ---
 keywords: 사용자 지정 디자인;속도;소수점;쉼표;디자인 사용자 지정
-description: 공개 소스 [!DNL Velocity] 디자인 언어를 사용하여  [!DNL Target] Recommendations에서 권장 사항 디자인을 사용자 지정하는 방법을 알아봅니다.
+description: 공개 소스 [!DNL Velocity] 디자인 언어를 사용하여 [!DNL Target] 권장 사항에서 권장 사항 디자인을 사용자 지정하는 방법을 알아봅니다.
 title: Velocity를 사용하여 디자인을 사용자 지정하는 방법
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: eba9e0b02ce74fea127d2cb2d08d04dcd2da2d76
@@ -14,15 +14,15 @@ ht-degree: 33%
 
 # [!DNL Velocity]을(를) 사용하여 디자인 사용자 지정
 
-[!DNL Adobe Target Recommendations]에서 권장 사항 디자인을 사용자 지정하려면 공개 원본 [!DNL Velocity] 디자인 언어를 사용하십시오.
+[!DNL Velocity]에서 권장 사항 디자인을 사용자 지정하려면 공개 원본 [!DNL Adobe Target Recommendations] 디자인 언어를 사용하십시오.
 
 ## [!DNL Velocity] 개요 {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 [!DNL Velocity]에 대한 정보는 [https://velocity.apache.org](https://velocity.apache.org)에 있습니다.
 
-모든 [!DNL Velocity] 논리, 구문 등을 권장 사항 디자인에 사용할 수 있습니다. 즉, JavaScript 대신 [!DNL Velocity]을(를) 사용하여 *for* 루프, *if* 문 및 기타 코드를 만들 수 있습니다.
+모든 [!DNL Velocity] 논리, 구문 등을 권장 사항 디자인에 사용할 수 있습니다. 즉, JavaScript 대신 *을(를) 사용하여* for *루프,* if[!DNL Velocity] 문 및 기타 코드를 만들 수 있습니다.
 
-`productPage` mbox 또는 CSV 업로드에서 [!DNL Recommendations] (으)로 전송된 엔터티 특성은 &quot;다중 값&quot; 특성을 제외하고 디자인에 표시할 수 있습니다. 모든 유형의 특성을 보낼 수 있지만, [!DNL Target]은(는) 형식이 &quot;multi-value&quot;인 특성을 템플릿을 반복할 수 있는 배열로 전달하지 않습니다(예: `entityN.categoriesList`).
+[!DNL Recommendations] mbox 또는 CSV 업로드에서 `productPage`(으)로 전송된 엔터티 특성은 &quot;다중 값&quot; 특성을 제외하고 디자인에 표시할 수 있습니다. 모든 유형의 특성을 보낼 수 있지만, [!DNL Target]은(는) 형식이 &quot;multi-value&quot;인 특성을 템플릿을 반복할 수 있는 배열로 전달하지 않습니다(예: `entityN.categoriesList`).
 
 이러한 값은 다음 구문으로 참조합니다.
 
@@ -30,7 +30,7 @@ ht-degree: 33%
 $entityN.variable
 ```
 
-엔터티 특성 이름은 선행 *$* 문자 뒤에 [!DNL Velocity] 템플릿 언어(VTL) 식별자가 있는 [!DNL Velocity] 줄임 표기법을 따라야 합니다. VTL 식별자는 알파벳 문자(a-z 또는 A-Z)로 시작해야 합니다.
+엔터티 특성 이름은 선행 [!DNL Velocity]$*문자 뒤에* 템플릿 언어(VTL) 식별자가 있는 [!DNL Velocity] 줄임 표기법을 따라야 합니다. VTL 식별자는 알파벳 문자(a-z 또는 A-Z)로 시작해야 합니다.
 
 속도 엔티티 속성 이름은 다음 문자 유형으로 제한됩니다.
 
@@ -210,7 +210,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ![rec_key 이미지](assets/rec_key.png)
 
-[!DNL Recommendations] 활동을 만들 때 &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]은(는) [!UICONTROL Visual Experience Composer] (VEC)에 임의의 제품을 표시합니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
+[!DNL Recommendations] 활동을 만들 때 &quot;마지막으로 구매한 항목&quot;과 같은 방문자 프로필에서 키 항목을 가져오는 경우 [!DNL Target]은(는) [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 임의의 제품을 표시합니다. 이것은 활동을 설계하는 동안에는 프로필을 사용할 수 없기 때문입니다. 방문자가 페이지를 볼 때에는 예상되는 키 항목이 표시됩니다.
 
 ## 문자열 값에서 대체 수행 {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -240,7 +240,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 ## 템플릿 크기 사용자 지정 및 빈 값 확인 {#default}
 
-다음 템플릿은 [!DNL Velocity] 스크립트를 사용하여 엔터티 표시의 동적 크기 조정을 제어하므로 [!DNL Recommendations]에서 반환된 일치하는 엔터티가 충분하지 않은 경우 빈 HTML 요소를 생성하지 않도록 일대다 결과를 사용합니다. 이 스크립트는 백업 권장 사항이 적합하지 않고 [!UICONTROL Partial Template Rendering]이(가) 활성화된 시나리오에 가장 적합합니다.
+다음 템플릿은 [!DNL Velocity] 스크립트를 사용하여 엔터티 표시의 동적 크기 조정을 제어하므로 [!DNL Recommendations]에서 반환된 일치하는 엔터티가 충분하지 않은 경우 빈 HTML 요소를 만들지 않도록 일대다 결과를 수용합니다. 이 스크립트는 백업 권장 사항이 적합하지 않고 [!UICONTROL Partial Template Rendering]이(가) 활성화된 시나리오에 가장 적합합니다.
 
 다음 HTML 코드 조각은 4x2 기본 디자인에서 기존 HTML 부분을 대체합니다(간결성을 위해 CSS가 여기에 포함되지 않음).
 

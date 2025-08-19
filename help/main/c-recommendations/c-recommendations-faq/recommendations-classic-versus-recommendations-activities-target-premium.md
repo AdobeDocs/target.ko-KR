@@ -1,8 +1,8 @@
 ---
 keywords: 권장 사항, 권장 사항 알고리즘, 권장 사항 활동, recommendations classic
-description: 정보를 검토하면,  [!DNL Target]  Premium의 기존 Recommendations Classic과 Recommendations 활동의 차이점을 이해하는 데 도움이 됩니다.
-title: ' [!DNL Target]  Premium에서 Recommendations Classic과 Recommendations 간의 차이점은 무엇입니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+description: 정보를 검토하면,  [!DNL Target]  Premium의 기존 추천 Classic과 추천 활동의 차이점을 이해하는 데 도움이 됩니다.
+title: ' [!DNL Target]  Premium에서 추천 Classic과 추천 간의 차이점은 무엇입니까?'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -12,7 +12,7 @@ ht-degree: 88%
 
 ---
 
-# Recommendations Classic과 Recommendations 활동 비교: [!DNL Target] Premium
+# 권장 사항 Classic과 [!DNL Target] Premium의 권장 사항 활동 비교
 
 권장 사항 Classic과 Target Premium의 권장 사항 활동 중에 선택하는 데 도움이 되는 정보.
 
@@ -28,9 +28,9 @@ ht-degree: 88%
 
 [!DNL Target] 의 [!DNL Recommendations] 활동은 다음 기본 영역에서 [!DNL Recommendations Classic] 보다 개선되어 있습니다.
 
-## 오퍼로서의 Recommendations
+## 오퍼로서의 추천
 
-[!UICONTROL A/B Test] ([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)와 [!UICONTROL Experience Targeting] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+[!UICONTROL A/B Test]&#x200B;([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)와 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해 줍니다.
 
@@ -39,9 +39,9 @@ ht-degree: 88%
 * [!UICONTROL Auto-Allocate]을(를) 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동으로 푸시합니다.
 * [!UICONTROL Auto-Target]을(를) 사용하여 방문자를 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
 
-시작하려면 [!UICONTROL Visual Experience Composer]을(를) 사용하여 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting] 활동을 만들고 [!UICONTROL Insert Before], [!UICONTROL Insert After] 또는 [!UICONTROL Replace With] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
+시작하려면 [!UICONTROL A/B Test]을(를) 사용하여 [!UICONTROL Experience Targeting] 또는 [!UICONTROL Visual Experience Composer] 활동을 만들고 [!UICONTROL Insert Before], [!UICONTROL Insert After] 또는 [!UICONTROL Replace With] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
 
-자세한 내용은 [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오.
+자세한 내용은 [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오.
 
 ## 기준 {#section_117709846DAA404580EBE879FFCBD9BA}
 

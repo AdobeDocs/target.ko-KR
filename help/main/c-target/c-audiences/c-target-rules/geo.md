@@ -8,7 +8,7 @@ exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 source-git-commit: 195028613dec0294c816703b9145e720e3209d74
 workflow-type: tm+mt
 source-wordcount: '1014'
-ht-degree: 41%
+ht-degree: 42%
 
 ---
 
@@ -164,7 +164,7 @@ AOL이 트래픽을 프록싱하는 방식으로 인해 [!DNL Target]은(는) �
 ### 푸에르토리코와 홍콩과 같은 지역은 지리 기반의 타깃팅 구조에 어떻게 매핑됩니까?
 
 +++세부 정보 보기
-푸에르토리코, 홍콩 및 기타 지역은 별도의 &quot;국가&quot; 가치로 취급됩니다.
+푸에르토리코, 홍콩 및 기타 지역은 &quot;국가&quot; 값으로 취급됩니다.
 
 +++
 

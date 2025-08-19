@@ -20,7 +20,7 @@ ht-degree: 32%
 
 [!DNL Adobe Admin Console]의 시스템 관리자가 귀하를 가입하도록 초대하여 [!DNL Target]에서 사용자로 추가해야 합니다. 그런 다음 시스템 관리자가 귀하를 하나 이상의 역할별 제품 프로필(사용자 그룹)에 추가해야 합니다. 이러한 작업은 모두 [Adobe Admin Console](https://adminconsole.adobe.com)에서 수행됩니다.
 
-자세한 내용은 [사용자 그룹 관리](https://helpx.adobe.com/kr/enterprise/using/users.html)를 참조하십시오.
+자세한 내용은 [사용자 그룹 관리](https://helpx.adobe.com/enterprise/using/users.html)를 참조하십시오.
 
 시스템 관리자가 이러한 단계를 수행하면 초대 이메일을 받게 됩니다.
 

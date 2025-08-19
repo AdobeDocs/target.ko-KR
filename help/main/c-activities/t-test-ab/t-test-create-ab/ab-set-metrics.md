@@ -17,7 +17,7 @@ ht-degree: 58%
 
 성공 지표에 대한 자세한 내용은 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 
-1. **[!UICONTROL Goals & Settings]** 페이지의 **[!UICONTROL Reporting Settings]** 섹션에서 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
+1. **[!UICONTROL Reporting Settings]** 페이지의 **[!UICONTROL Goals & Settings]** 섹션에서 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 선택합니다.
 
    [!UICONTROL Select Metrics] 옵션은 활동에 대해 선택할 수 있는 성공 지표를 나열합니다. 성공 지표는 다음 카테고리로 구분됩니다.
 

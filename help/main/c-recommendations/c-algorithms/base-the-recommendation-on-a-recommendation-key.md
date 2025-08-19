@@ -1,7 +1,7 @@
 ---
 keywords: 권장 사항 키;권장 사항 논리;현재 범주;사용자 지정 속성;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 범주;인기도;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기;최근에 본 항목
 description: 방문자 동작 컨텍스트를 사용하여 [!UICONTROL Recommendations] 활동에서 관련 결과를 표시하는 키를 기반으로 권장 사항을 사용하는 방법에 대해 알아봅니다.
-title: '[!UICONTROL Recommendation Key]에서 [!UICONTROL Recommendation]을(를) 기준으로 하려면 어떻게 합니까?'
+title: '[!UICONTROL Recommendation]에서 [!UICONTROL Recommendation Key]을(를) 기준으로 하려면 어떻게 합니까?'
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
@@ -14,7 +14,7 @@ ht-degree: 29%
 
 # 권장 사항 키를 기반으로 권장 사항 만들기
 
-알고리즘 기반의 Recommendations은 방문자 행동 컨텍스트를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] 활동에서 관련 결과를 표시합니다.
+알고리즘을 기반으로 한 권장 사항은 방문자 동작 컨텍스트를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] 활동에서 관련 결과를 표시합니다.
 
 각 알고리즘 유형은 다음 표와 같이 해당 유형에 적합한 다양한 알고리즘을 제공합니다.
 
@@ -34,7 +34,7 @@ ht-degree: 29%
 
 ## 장바구니 기반 {#cart-based}
 
-[!UICONTROL Cart-Based] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 권장 사항 키는 쉼표로 구분된 값으로 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을(를) 통해 제공됩니다. 처음 10개의 값만 고려됩니다.
+[!UICONTROL Cart-Based] 알고리즘 유형을 사용하면 방문자의 현재 장바구니의 내용에 따라 항목을 추천할 수 있습니다. 권장 사항 키는 [mbox 매개 변수 `cartIds`](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을(를) 통해 쉼표로 구분된 값으로 제공됩니다. 처음 10개의 값만 고려됩니다.
 
 장바구니 기반 권장 사항 논리는 &quot;[!UICONTROL Recommended For You]&quot; 사용자 기반 알고리즘 및 &quot;[!UICONTROL People Who Viewed These, Bought Those]&quot; 및 &quot;[!UICONTROL People Who Bought These, Bought Those]&quot; 항목 기반 알고리즘과 유사합니다.
 
@@ -62,7 +62,7 @@ ht-degree: 29%
 
 이 논리를 사용하면 항목을 본 다른 방문자도 본 항목을 추천하여 추가 전환 기회를 만들 수 있습니다. 예를 들어 사이트에서 도로 자전거를 보는 방문자는 자전거 헬멧, 자전거 키트, 자물쇠 등도 살펴볼 수 있습니다. 다른 제품이 매출을 증대하는 데 도움이 됨을 제안하는 이 논리를 사용하여 권장 사항을 만들 수 있습니다.
 
-이 알고리즘을 선택하는 경우 다음 Recommendations 키를 선택할 수 있습니다.
+이 알고리즘을 선택하는 경우 다음 권장 사항 키를 선택할 수 있습니다.
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -77,7 +77,7 @@ ht-degree: 29%
 
 이 논리를 사용하면 제품을 본 다른 방문자가 구매한 항목을 표시하는 제품 페이지 등에 권장 사항을 표시하여 교차 판매 기회를 늘릴 수 있습니다. 예를 들어 방문자가 낚싯대를 보고 있는 경우, 권장 사항에는 다른 방문자가 구매한 항목(태클 상자, 장롱 및 낚시 미끼와 같은)이 추가로 표시될 수 있습니다. 방문자가 사이트를 탐색할 때 추가 구매 추천을 제공합니다.
 
-이 알고리즘을 선택하는 경우 다음 Recommendations 키를 선택할 수 있습니다.
+이 알고리즘을 선택하는 경우 다음 권장 사항 키를 선택할 수 있습니다.
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -92,7 +92,7 @@ ht-degree: 29%
 
 이 논리를 사용하면 다른 구매자가 구매한 항목을 표시하는 장바구니 요약 페이지에 추천을 표시하여 교차 판매 기회를 늘릴 수 있습니다. 예를 들어 방문자가 정장을 구매하는 경우, 권장 사항에는 다른 방문자가 정장과 함께 구매한 넥타이, 정장 신발 및 커프링크와 같은 추가 항목이 표시될 수 있습니다. 방문자가 구매를 검토하면, 추가 권장 사항을 제공합니다.
 
-이 알고리즘을 선택하는 경우 다음 Recommendations 키를 선택할 수 있습니다.
+이 알고리즘을 선택하는 경우 다음 권장 사항 키를 선택할 수 있습니다.
 
 * [!UICONTROL Current Item]
 * [!UICONTROL Last Purchased Item]
@@ -132,7 +132,7 @@ ht-degree: 29%
 
 홈 페이지 또는 랜딩 페이지 및 오프사이트 광고와 같은 일반 페이지에서 이 알고리즘을 사용합니다.
 
-가장 많이 본 카테고리 알고리즘을 선택하는 경우 다음 Recommendations 키를 선택할 수 있습니다.
+가장 많이 본 카테고리 알고리즘을 선택하는 경우 다음 권장 사항 키를 선택할 수 있습니다.
 
 * [!UICONTROL Current Category]
 * [!UICONTROL Favorite Category]
@@ -172,7 +172,7 @@ ht-degree: 29%
 
 ### [!UICONTROL Top by Analytics Metric]
 
-*x*&#x200B;이(가) 임의의 [!DNL Analytics] 지표인 &quot;상단 x&quot;를 표시합니다. mbox의 동작 데이터를 사용할 때 [!UICONTROL Top Sold] 또는 [!UICONTROL Top Viewed] (x = &quot;Sold&quot; 또는 x = &quot;Viewed&quot;)을 사용할 수 있습니다. [!DNL Adobe Analytics]의 동작 데이터를 사용하는 경우 x = &quot;장바구니 추가&quot; 또는 다른 [!DNL Analytics] 지표를 사용할 수 있습니다.
+*x*&#x200B;이(가) 임의의 [!DNL Analytics] 지표인 &quot;상단 x&quot;를 표시합니다. mbox의 동작 데이터를 사용할 때 [!UICONTROL Top Sold] 또는 [!UICONTROL Top Viewed]&#x200B;(x = &quot;Sold&quot; 또는 x = &quot;Viewed&quot;)을 사용할 수 있습니다. [!DNL Adobe Analytics]의 동작 데이터를 사용하는 경우 x = &quot;장바구니 추가&quot; 또는 다른 [!DNL Analytics] 지표를 사용할 수 있습니다.
 
 ## [!UICONTROL Item-Based]
 
@@ -373,7 +373,7 @@ ht-degree: 29%
 
 1. 선택한 키와 일치하는 엔티티 속성을 선택합니다. 이 경우 &quot;[!UICONTROL Favorite Brand]&quot;은(는) `entity.brand`과(와) 일치합니다.
 
-   [!DNL Recommendations]은(는) 이제 각 브랜드에 대한 &quot;[!UICONTROL Top Sellers]&quot; 목록을 생성하고 방문자의 [!UICONTROL Favorite Brand] 프로필 특성에 저장된 값을 기반으로 적절한 &quot;[!UICONTROL Top Sellers]&quot; 목록을 표시합니다.
+   [!DNL Recommendations]은(는) 이제 각 브랜드에 대한 &quot;[!UICONTROL Top Sellers]&quot; 목록을 생성하고 방문자의 [!UICONTROL Top Sellers] 프로필 특성에 저장된 값을 기반으로 적절한 &quot;[!UICONTROL Favorite Brand]&quot; 목록을 표시합니다.
 
 ### [!UICONTROL Last Viewed Item] {#last-viewed}
 
@@ -446,7 +446,7 @@ ht-degree: 29%
 
 예를 들어 매우 강력한 관심도를 설정하고 디자인에 5개의 항목이 포함되어 있으며 그중 세 개 항목이 연결 임계값의 강도를 충족하는 경우, 최소 강도 요구 사항을 충족하지 않는 두 항목은 권장 사항에 표시되지 않고 정의된 백업 항목으로 교체됩니다. 친화성이 가장 강한 항목부터 표시됩니다.
 
-예를 들어 온라인 소매업체는 방문자가 이전 세션 중에 관심을 보였던 항목을 이후 방문에서 추천할 수 있습니다. 각 방문자의 세션에 대한 활동이 캡처되어 최신성 및 빈도 모델을 기반으로 친화성을 계산합니다. 이 방문자가 사이트로 돌아가면 사이트 친화성은 사이트에 대한 이전 작업을 기반으로 한 권장 사항을 표시하는 데 사용됩니다.
+예를 들어 온라인 retailer은 방문자가 이전 세션 중에 관심을 보였던 항목을 이후 방문에서 추천할 수 있습니다. 각 방문자의 세션에 대한 활동이 캡처되어 최신성 및 빈도 모델을 기반으로 친화성을 계산합니다. 이 방문자가 사이트로 돌아가면 사이트 친화성은 사이트에 대한 이전 작업을 기반으로 한 권장 사항을 표시하는 데 사용됩니다.
 
 제품 컬렉션과 사이트 행동이 다양한 일부 고객의 경우 사이트 관심도를 낮게 설정하면 더 좋은 결과를 얻을 수도 있습니다.
 

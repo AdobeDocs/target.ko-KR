@@ -13,7 +13,7 @@ ht-degree: 58%
 
 # 시각적 경험 작성기에서 작동하는 회전 메뉴 만들기
 
-이 항목에서는 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여 줍니다.
+이 항목에서는 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 편집할 수 있는 회전 메뉴를 만드는 방법을 보여 줍니다.
 
 아래 단계를 사용하면 [!DNL Target]에서는 항상 선택한 슬라이드가 몇 초 후에 시각적 경험 작성기에서 변경되더라도 선택한 슬라이드에 올바른 슬라이드에 대한 &#39;선택기&#39;가 있다는 것을 알고 있습니다.
 

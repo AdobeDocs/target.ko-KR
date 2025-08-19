@@ -59,9 +59,9 @@ ht-degree: 34%
 
 * 경험
 
-  [!UICONTROL A/B Test], [!UICONTROL Experience Targeting] (XT) 및 [!UICONTROL Multivariate Test] (MVT) 활동에 대한 [!UICONTROL Order Details] 보고서에서 [!UICONTROL Experience] 열에는 `localId` 경험이 포함되어 있습니다. 이것은 오퍼 토큰에 있는 `$campaign.recipe.id`의 값 출력입니다.
+  [!UICONTROL Order Details], [!UICONTROL A/B Test]&#x200B;(XT) 및 [!UICONTROL Experience Targeting]&#x200B;(MVT) 활동에 대한 [!UICONTROL Multivariate Test] 보고서에서 [!UICONTROL Experience] 열에는 `localId` 경험이 포함되어 있습니다. 이것은 오퍼 토큰에 있는 `$campaign.recipe.id`의 값 출력입니다.
 
-  [!UICONTROL Automated Personalization] (AP) 활동에 대한 [!UICONTROL Experience] 열이 없습니다. [!DNL Target]의 다른 곳에 표시된 대로 현재 [!UICONTROL Algorithm Name] 열이 &quot;컨트롤&quot; 및 &quot;타깃팅된&quot; 용어로 대체되었습니다.
+  [!UICONTROL Experience]&#x200B;(AP) 활동에 대한 [!UICONTROL Automated Personalization] 열이 없습니다. [!UICONTROL Algorithm Name]의 다른 곳에 표시된 대로 현재 [!DNL Target] 열이 &quot;컨트롤&quot; 및 &quot;타깃팅된&quot; 용어로 대체되었습니다.
 
   [!UICONTROL Recommendations] 활동에 영향을 주지 않았습니다.
 
@@ -80,8 +80,8 @@ ht-degree: 34%
 
 다음 정보는 [!UICONTROL Download] 옵션에 적용됩니다.
 
-* [!UICONTROL A/B Test], [!UICONTROL Automated Personalization], [!UICONTROL Experience Targeting] 및 [!UICONTROL Multivariate] 활동에 대한 보고서를 모두 다운로드할 수 있습니다. [!UICONTROL Recommendations] 활동에 대한 [!UICONTROL Success Metrics] 보고서를 다운로드할 수 없습니다.
-* [!DNL Target] 버전 15.7.1(2015년 7월) 이전에 만든 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting] 활동에는 [!UICONTROL Download] 옵션을 사용할 수 없습니다.
+* [!UICONTROL A/B Test], [!UICONTROL Automated Personalization], [!UICONTROL Experience Targeting] 및 [!UICONTROL Multivariate] 활동에 대한 보고서를 모두 다운로드할 수 있습니다. [!UICONTROL Success Metrics] 활동에 대한 [!UICONTROL Recommendations] 보고서를 다운로드할 수 없습니다.
+* [!UICONTROL Download] 버전 15.7.1(2015년 7월) 이전에 만든 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting] 활동에는 [!DNL Target] 옵션을 사용할 수 없습니다.
 * 연결된 데이터가 없는 경험은 다운로드한 보고서에 기록되지 않습니다.
 * [!DNL Target] 보고 UI에 적용된 대상은 다운로드 보고서로 넘겨지지 않습니다.
 * 활동이 둘 이상의 지표를 사용하는 경우 .csv 파일로 다운로드하기 위해 생성된 보고서가 일관성이 없습니다. 다운로드 가능한 보고서는 보고서 설정만 기반으로 생성되며 사용된 다른 지표에 대해 동일한 값을 고려합니다. 진실의 소스는 항상 [!DNL Target] UI에 표시되는 보고서입니다.

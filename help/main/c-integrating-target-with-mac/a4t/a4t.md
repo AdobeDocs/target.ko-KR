@@ -6,8 +6,8 @@ feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 source-git-commit: f7bb9b5d6e96095a31f50f1976b87d9ee7b7eb51
 workflow-type: tm+mt
-source-wordcount: '1046'
-ht-degree: 81%
+source-wordcount: '1045'
+ht-degree: 80%
 
 ---
 
@@ -27,9 +27,9 @@ ht-degree: 81%
 
 활동용 보고 소스로서의 [!DNL Analytics]를 사용하는 경우 해당 활동에 대한 모든 보고 및 세분화는 [!DNL Analytics]를 기반으로 합니다.
 
-계산된 지표를 포함한 모든 [!DNL Analytics] 지표는 한 가지 예외를 제외하고 [!DNL Target] 및 [!DNL Analytics]의 [!UICONTROL Target Activities] 보고서에서 사용할 수 있습니다. [!UICONTROL Lift & Confidence]에 대한 계산된 지표는 지원되지 않습니다. 마찬가지로 [!DNL Analytics]에서 사용할 수 있는 모든 세그먼트를 각 솔루션에 적용할 수 있습니다. 활동이 시작된 후 또는 활동이 완료된 후 [!DNL Target]의 보고서에 지표 또는 대상자를 적용할 수 있습니다.
+계산된 지표를 포함한 모든 [!DNL Analytics] 지표는 한 가지 예외를 제외하고 [!DNL Target] 및 [!UICONTROL Target Activities]의 [!DNL Analytics] 보고서에서 사용할 수 있습니다. [!UICONTROL Lift & Confidence]에 대한 계산된 지표는 지원되지 않습니다. 마찬가지로 [!DNL Analytics]에서 사용할 수 있는 모든 세그먼트를 각 솔루션에 적용할 수 있습니다. 활동이 시작된 후 또는 활동이 완료된 후 [!DNL Target]의 보고서에 지표 또는 대상자를 적용할 수 있습니다.
 
-[!DNL Analytics]에 내장된 사용자 정의 또는 계산된 지표 등 모든 지표가 포함됩니다.
+[!DNL Analytics]에 기본 제공 사용자 정의 또는 계산된 지표 등 모든 지표가 포함됩니다.
 
 분류 기간 후에 데이터는 웹 사이트에서 수집되고 약 1시간 후에 보고서에 표시됩니다. 보고서에 있는 모든 지표, 세그먼트, 값은 활동을 설정할 때 선택한 보고서 세트에서 가져옵니다.
 
@@ -39,7 +39,7 @@ A4T를 사용하려면 다음 사항을 염두에 두십시오.
 * 보고 소스는 각 활동에 대해 설정됩니다. [!DNL Target]은 보고에 사용할 데이터를 계속 수집하며 [!DNL Target]에서 수집된 데이터에 활동의 기반을 두고자 하는 경우 [!DNL Target] 데이터를 계속 사용할 수 있습니다.
 * 하나의 보고 소스 또는 다른 보고 소스를 사용하십시오. 두 소스 모두에서 한 활동에 대한 데이터를 수집할 수 없습니다.
 * A4T 사용 시 활동에 사용할 수 있는 모든 성공 지표는 [!DNL Analytics] 지표입니다. 그러나 at.js를 사용하는 경우 목표 지표는 mbox 호출을 기반으로 할 수 있습니다. 예를 들어 A4T를 통해 [!DNL Analytics] 클릭 추적 코드를 구현하지 않고도 Target의 획기적인 클릭 추적 기능을 사용할 수 있습니다.
-* [!DNL Target] UI에서 A4T 활동의 보고를 보면 [!DNL Analytics] 데이터가 표시됩니다. 예를 들어 [!DNL Target]에서 [!UICONTROL Visitor] 지표를 사용하는 경우 [!DNL Target] [!UICONTROL Visitors] 지표가 아닌 [!DNL Analytics] [!UICONTROL Visitor] 지표를 사용합니다(이제 [!UICONTROL Entrants]). 이 차이는 기본 트래픽 지표([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views])와 전환 지표에 특히 중요합니다.
+* [!DNL Target] UI에서 A4T 활동의 보고를 보면 [!DNL Analytics] 데이터가 표시됩니다. 예를 들어 [!UICONTROL Visitor]에서 [!DNL Target] 지표를 사용하는 경우 [!DNL Analytics] [!UICONTROL Visitor] 지표가 아닌 [!DNL Target] [!UICONTROL Visitors] 지표를 사용합니다(이제 [!UICONTROL Entrants]). 이 차이는 기본 트래픽 지표([!UICONTROL Visitors], [!UICONTROL Visits], [!UICONTROL Page Views])와 전환 지표에 특히 중요합니다.
 * 모든 기존 [!DNL Target] 활동은 계속 [!DNL Target] 데이터 수집을 사용하며 A4T 활성화의 영향을 받지 않습니다.
 * A4T 사용 시 하나의 mbox 기반 지표만 허용됩니다.
 * [!DNL Target]에서 [!DNL Analytics]로의 서버 간 호출은 [!DNL Analytics]로 활동 및 경험 정보를 전송합니다. 이 통합은 [!DNL Target] 또는 [!DNL Analytics]에 대해 추가 서버 호출을 발생시키지 않습니다.
@@ -62,7 +62,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 | [경험 타겟팅(XT)](/help/main/c-activities/t-experience-target/experience-target.md) | 예 |  |
 | [다변량 테스트(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) | 예 | [!UICONTROL Element Contribution] 보고서를 가져오려면 mbox 기반 목표 지표 목표가 필요합니다. [!UICONTROL Element Contribution] 보고서는 현재 [!DNL Analytics] 지표를 지원하지 않습니다. |
 | [Automated Personalization(AP) 활동](/help/main/c-activities/t-automated-personalization/automated-personalization.md) | 아니요 |  |
-| [Recommendations 활동](/help/main/c-recommendations/recommendations.md) | 예 |  |
+| [추천 활동](/help/main/c-recommendations/recommendations.md) | 예 |  |
 | [리디렉션 오퍼를 사용하는 모든 활동](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | 예 |
 
 일부 활동 유형은 아직 A4T를 지원하지 않으므로 `orderConfirmPage` mbox와 같이 중요한 전환 mbox를 유지하거나 구현하는 것이 좋습니다.
@@ -73,15 +73,15 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 
 >[!NOTE]
 >
->[!UICONTROL Activities] 페이지 상단의 [!UICONTROL Reporting Source] 드롭다운 목록을 사용하여 A4T를 사용하는 활동만 표시할 수 있습니다.
+>[!UICONTROL Reporting Source] 페이지 상단의 [!UICONTROL Activities] 드롭다운 목록을 사용하여 A4T를 사용하는 활동만 표시할 수 있습니다.
 
 보고서의 오른쪽 상단에 있는 적절한 아이콘을 클릭하여 보고서의 [!UICONTROL Table View]과(와) [!UICONTROL Graph View] 사이를 전환할 수 있습니다.
 
-다음 그림은 사용 가능한 [!DNL Analytics] 목표 지표를 표시하는 [!UICONTROL Report Metric] 드롭다운 목록과 함께 A4T 보고서의 [!UICONTROL Graph View]을(를) 보여 줍니다.
+다음 그림은 사용 가능한 [!UICONTROL Graph View] 목표 지표를 표시하는 [!UICONTROL Report Metric] 드롭다운 목록과 함께 A4T 보고서의 [!DNL Analytics]을(를) 보여 줍니다.
 
 ![a4t_report_graph1 이미지](assets/a4t_report_graph1.png)
 
-다음 그림은 사용 가능한 [!DNL Analytics]개의 대상을 표시하는 [!UICONTROL Audience] 드롭다운 목록과 함께 A4T 보고서의 [!UICONTROL Graph View]을(를) 보여 줍니다.
+다음 그림은 사용 가능한 [!UICONTROL Graph View]개의 대상을 표시하는 [!UICONTROL Audience] 드롭다운 목록과 함께 A4T 보고서의 [!DNL Analytics]을(를) 보여 줍니다.
 
 ![a4t_report_graph2 이미지](assets/a4t_report_graph2.png)
 
@@ -89,7 +89,7 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 
 ![a4t_report_table 이미지](assets/a4t_report_table.png)
 
-[!DNL Target]이(가) 아닌 [!DNL Analytics]에서 보고서를 보려면 보고서 상단의 **[!UICONTROL View in Analytics]**&#x200B;을(를) 클릭하십시오.
+[!DNL Analytics]이(가) 아닌 [!DNL Target]에서 보고서를 보려면 보고서 상단의 **[!UICONTROL View in Analytics]**&#x200B;을(를) 클릭하십시오.
 
 ## Analytics &amp; Target: 분석 모범 사례 튜토리얼 {#section_3438E6E77A464424B717A4FD333B84B2}
 
@@ -107,9 +107,9 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 * A4T의 작동 방식에 대해 설명합니다.
 * A4T를 사용하기 위해 필요한 전제 조건을 이해합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421728?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Analytics/Adobe Target Integration(A4T) (40:33) ![튜토리얼 배지](/help/main/assets/tutorial.png)
+### Analytics/Adobe Target 통합(A4T) (40:33) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
 이 비디오는 Adobe 고객 지원 팀에서 진행한 이니셔티브인 &quot;[운영시간](/help/main/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)&quot; 기록입니다.
 
@@ -118,11 +118,11 @@ at.js 및 [!DNL Adobe Experience Platform Web SDK]를 통한 A4T 구현에 대�
 * Analytics에서 사용할 이상적인 보고서에 대해 알아보기
 * A4T와 관련된 일반적인 질문에 대한 답변
 
-[Analytics/Target 통합(A4T) 운영 시간](https://helpx.adobe.com/kr/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target 통합(A4T) 운영 시간](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
 
 >[!MORELIKETHIS]
 >
 >* [Analytics for [!DNL Target] 구현](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md): at.js 및 Platform Web SDK에 대한 구현 정보가 포함되어 있습니다.
 >* [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
->* [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=ko): Platform Web SDK에 대한 개요 정보가 포함되어 있습니다.
->* [Target 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=ko): [!DNL Target] 및 [!DNL Platform Web SDK]와 관련된 정보가 포함되어 있습니다.
+>* [Adobe Experience Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html): Platform Web SDK에 대한 개요 정보가 포함되어 있습니다.
+>* [Target 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html): [!DNL Target] 및 [!DNL Platform Web SDK]와 관련된 정보가 포함되어 있습니다.

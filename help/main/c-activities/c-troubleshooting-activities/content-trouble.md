@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 87%
+ht-degree: 89%
 
 ---
 
@@ -89,7 +89,7 @@ mboxTrace를 사용하여 [!DNL Target] 응답에 첨부된 추적 정보를 수
 
 ## mboxDebug {#mboxdebug}
 
-mboxDebug를 사용하려면 URL 끝에 mboxDebug 매개 변수를 추가합니다. 다음 표에서는 [!DNL Target] 응답과 관련 있는 URL 매개 변수에 대한 정보를 보여 줍니다.
+mboxDebug를 사용하려면 URL 끝에 mboxDebug 매개 변수를 추가합니다. 다음 테이블에서는 [!DNL Target] 응답과 관련 있는 URL 매개 변수에 대한 정보를 보여 줍니다.
 
 >[!NOTE]
 >
@@ -107,11 +107,11 @@ mboxDebug를 사용하려면 URL 끝에 mboxDebug 매개 변수를 추가합니�
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현을 이해할 수 있습니다. 라이브러리 구성을 빠르게 보고, 요청을 검토하여 사용자 지정 매개 변수가 올바르게 전달되고 있는지 확인한 다음, 콘솔 로깅을 켜고, Target 요청을 모두 비활성화할 수 있습니다. Experience Cloud를 인증하면 강력한 MboxTrace 도구를 사용하여 활동 및 대상자 자격과 방문자 프로필을 검사할 수 있습니다.
+Adobe Experience Cloud Debugger를 사용하면 쉽고 빠르게 대상 구현을 이해할 수 있습니다. 라이브러리 구성을 빠르게 보고, 요청을 검토하여 사용자 지정 매개 변수가 올바르게 전달되고 있는지 확인한 다음, 콘솔 로깅을 켜고, Target 요청을 모두 비활성화할 수 있습니다. Experience Cloud를 인증하면 강력한 MboxTrace 도구를 사용하여 활동 및 대상자 선별과 방문자 프로필을 검사할 수 있습니다.
 
 자세한 내용은 아래 교육 비디오를 참조하십시오.
 
-자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html?lang=ko){target=_blank}를 참조하십시오.
+자세한 내용은 [Adobe Experience Cloud Debugger를 사용하여 at.js 디버그](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}를 참조하십시오.
 
 ## 최상위 판매자가 권장 사항에 나타나지 않습니다. {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target에서는 더 이상 IE 8을 지원하지 않습니다.
 
 ## Target 쿠키가 설정되지 않습니다. {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank}을(를) 참조하십시오.
+사이트에 [!DNL us.domain.com]과 같은 하위 도메인이 있지만 [!DNL domain.com] ([!DNL us.domain.com]이 아님)에 Target 쿠키 세트가 필요한 경우 `cookieDomain` 설정을 무시해야 합니다. 자세한 내용은 [targetGlobalSettings()](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank}를 참조하십시오.
 
 ## 요소가 Adobe Experience Manager 개인화에도 속하면 Target 콘텐츠가 깜박이거나 표시되지 않습니다. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -155,7 +155,7 @@ DOM 요소가 Adobe Experience Manager(AEM) 개인화 타기팅 및 Target 활�
 
 [!UICONTROL Activity URL]은(는) 방문자에게 활동 자격을 부여하고 활동 경험을 사용자에게 렌더링하는 페이지를 결정합니다. 활동을 만드는 동안 메시지가 표시되면 전체 URL을 입력해도 해당 사이트 페이지(특히 쿼리 문자열 매개 변수가 포함된 URL)에 콘텐츠가 항상 전달되는 것은 아닙니다.
 
-기본적으로 [!UICONTROL Visual Experience Composer] (VEC)은 [시각적 경험 작성기 설정](/help/main/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만드는 동안 다른 페이지를 지정할 수도 있습니다.
+기본적으로 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)은 [시각적 경험 작성기 설정](/help/main/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만드는 동안 다른 페이지를 지정할 수도 있습니다.
 
 VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL Configure gear icon]**&#x200B;을(를) 클릭하고 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택한 다음 [!UICONTROL Activity URL] 필드에 원하는 URL을 지정하십시오.
 
@@ -183,7 +183,7 @@ VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL Configure
 
 ### 옵션 3: 전체 URL을 타기팅하는 대신 URL의 특정 부분을 활용합니다.
 
-이 시나리오에서 URL은 `https://shopping.mycart.com?type=Summers%20Offers`이고 추가 템플릿 규칙은 OR 연산자로 구분된 [!UICONTROL type] > [!UICONTROL is (case sensitive)] > type=Summers%20Offers로 [!UICONTROL Query]을(를) 지정합니다.
+이 시나리오에서 URL은 `https://shopping.mycart.com?type=Summers%20Offers`이고 추가 템플릿 규칙은 OR 연산자로 구분된 [!UICONTROL Query] > [!UICONTROL type] > type=Summers%20Offers로 [!UICONTROL is (case sensitive)]을(를) 지정합니다.
 
 ![URL의 특정 부분을 활용하는 템플릿 규칙](assets/option3.png)
 
@@ -206,12 +206,12 @@ adobe.target.trackEvent({
 
 ### 확장 ![튜토리얼 배지](/help/main/assets/tutorial.png) 추가
 
->[!VIDEO](https://video.tv.adobe.com/v/33241?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
 ### 기본 Adobe 타겟 디버깅 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33299?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
 ### Mbox 추적 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33304?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)

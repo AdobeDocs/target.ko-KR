@@ -1,13 +1,13 @@
 ---
 keywords: mvt;다변량 테스트;위치 기여도 보고서
-description: 각 요소 및 각 오퍼의 성과를 보여 주는  [!DNL Target] [!UICONTROL Experience Targeting] Adobe 활동에 대한 위치 기여도 보고서를 사용하는 방법에 대해 알아봅니다.
-title: '[!UICONTROL Multivariate Test] 활동에 대해 [!UICONTROL Location Contribution] 보고서를 사용하는 방법'
+description: 각 요소 및 각 오퍼의 성과를 보여 주는 Adobe [!DNL Target] [!UICONTROL Experience Targeting] 활동에 대한 위치 기여도 보고서를 사용하는 방법에 대해 알아봅니다.
+title: '[!UICONTROL Location Contribution] 활동에 대해 [!UICONTROL Multivariate Test] 보고서를 사용하는 방법'
 feature: Reports
 exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '259'
-ht-degree: 38%
+ht-degree: 35%
 
 ---
 
@@ -23,9 +23,9 @@ ht-degree: 38%
 >
 >* 대상 및 지표 선택기는 [!DNL Analytics]이(가) 보고 소스로 사용(A4T)되는 경우에만 사용할 수 있습니다.
 >
->* 활동이 [!UICONTROL Analytics as the reporting source] (A4T)을 사용하도록 구성된 경우에도 [!UICONTROL Location Contribution] 보고서에 대한 데이터를 [!DNL Target] 백엔드에서 가져옵니다.
+>* 활동이 [!UICONTROL Location Contribution]&#x200B;(A4T)을 사용하도록 구성된 경우에도 [!DNL Target] 보고서에 대한 데이터를 [!UICONTROL Analytics as the reporting source] 백엔드에서 가져옵니다.
 >
->* [!DNL Target] 계정 수준에서 다른 기본 환경이 정의된 경우에도 &quot;프로덕션&quot; 환경에 대해 [!UICONTROL Location Contribution] 보고서의 데이터를 가져옵니다.
+>* [!UICONTROL Location Contribution] 계정 수준에서 다른 기본 환경이 정의된 경우에도 &quot;프로덕션&quot; 환경에 대해 [!DNL Target] 보고서의 데이터를 가져옵니다.
 
 [!UICONTROL Location Contribution] 보고서에는 두 개의 테이블이 포함되어 있습니다.
 
@@ -35,6 +35,6 @@ ht-degree: 38%
 
 ## 교육 비디오: MVT 테스트 만들기
 
-이 비디오에서는 안내가 있는 [!DNL Target] 3단계 워크플로우를 사용하여 다변량 테스트를 만드는 방법을 보여 줍니다. 위치 기여도 보고서는 8:45부터 설명됩니다.
+이 비디오에서는 안내가 있는 [!DNL Target] 3단계 워크플로우를 사용하여 다변량 테스트를 만드는 방법을 보여 줍니다. 위치 기여도 보고서는 8:45부터 시작됩니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

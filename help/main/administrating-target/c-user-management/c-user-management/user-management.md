@@ -20,17 +20,17 @@ ht-degree: 63%
 >
 >[!UICONTROL Properties] 및 [!UICONTROL Permissions] 기능은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target] Premium 라이선스가 없는 [!DNL Target] Standard에서는 사용할 수 없습니다.
 >
->[!DNL Target] UI의 맨 위에서 [!UICONTROL Administration] 링크를 클릭하여 조직에 [!UICONTROL Standard] 또는 [!UICONTROL Premium] 라이선스가 있는지 여부를 알 수 있습니다.
+>[!UICONTROL Standard] UI의 맨 위에서 [!UICONTROL Premium] 링크를 클릭하여 조직에 [!UICONTROL Administration] 또는 [!DNL Target] 라이선스가 있는지 여부를 알 수 있습니다.
 >
->* **[!DNL Target][!UICONTROL Standard] 고객**: **[!UICONTROL Properties]** 탭이 아닌 [!UICONTROL Users] 탭([!UICONTROL Administration > Users])이 표시되면 조직에 [!DNL Target] [!UICONTROL Standard] 라이선스가 있는 것입니다. [!DNL Target] [!UICONTROL Standard] 고객은 이 문서의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
+>* **[!DNL Target][!UICONTROL Standard] 고객**: [!UICONTROL Users] 탭이 아닌 [!UICONTROL Administration > Users] 탭(**[!UICONTROL Properties]**)이 표시되면 조직에 [!DNL Target] [!UICONTROL Standard] 라이선스가 있는 것입니다. [!DNL Target] [!UICONTROL Standard] 고객은 이 문서의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 지정해야 합니다.
 >
 >* **[!DNL Target]Premium 고객**: [!UICONTROL Users] 탭과 [!UICONTROL Properties] 탭([!UICONTROL Administration > Properties])이 표시되면 조직에 [!DNL Target] Premium 라이선스가 있습니다. [!DNL Target] Premium 고객은 [기업 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md) 및 [기업 권한 구성](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md)의 지침에 따라 [!DNL Adobe Admin Console]에서 사용자를 추가하고 권한을 할당해야 합니다.
 >
->사용자 및 권한 관리 방법에 대한 자세한 내용은 *Enterprise 및 Teams 사용 안내서*&#x200B;의 [제품 및 프로필 관리](https://helpx.adobe.com/kr/enterprise/using/manage-products-and-profiles.html)를 참조하십시오.
+>사용자 및 권한 관리 방법에 대한 자세한 내용은 *Enterprise 및 Teams 사용 안내서*&#x200B;의 [제품 및 프로필 관리](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html)를 참조하십시오.
 
 [!DNL Adobe Target]을 시작하면 [!DNL Adobe Experience Cloud] 계정에 미리 채워져 있는 ID(Adobe.com으로 끝남)를 발견하게 됩니다. 이들 ID는 [!DNL Adobe] 팀원을 위한 것으로, 이를 통해 도움이 필요한 경우 새 계정 및 [!DNL Adobe Target] 사용에 대한 지원을 받을 수 있습니다. 지원을 받으려면 일반적인 방법으로 Adobe 팀에 문의하십시오.
 
-새 사용자가 [!DNL Adobe Experience Cloud] 계정을 사용하여 로그인한 다음 [!DNL Target]에 로그인해야 [!UICONTROL Users] 페이지에 표시됩니다.
+새 사용자가 [!UICONTROL Users] 계정을 사용하여 로그인한 다음 [!DNL Adobe Experience Cloud]에 로그인해야 [!DNL Target] 페이지에 표시됩니다.
 
 기본적으로 모든 [!DNL Target] 사용자는 [!UICONTROL Observer] 권한으로 시작합니다.
 
@@ -62,15 +62,15 @@ ht-degree: 63%
 
 모든 사용자 관리는 [!DNL Adobe Admin Console for Enterprise]에서 수행해야 합니다. 그러나 [!DNL Target]의 모든 기존 사용자는 [!DNL Target]에서 [!DNL Admin Console for Enterprise]로 마이그레이션됩니다.
 
-1. [Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL Users]** > **[!UICONTROL Users]**&#x200B;을(를) 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.
-1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/kr/enterprise/help/users.html)에 있는 지침을 따릅니다.
+1. [Admin Console에서 ](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE) > **[!UICONTROL Users]**&#x200B;을(를) 클릭하여 새 사용자를 만들거나 기존 사용자를 편집합니다.**[!UICONTROL Users]**
+1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 사용자 그룹 만들기 {#user-groups}
 
 개발자, 분석가, 마케터, 경영진 등과 같은 사용자 그룹을 만든 다음 여러 [!DNL Adobe] 제품 및 작업 영역에서 권한을 지정할 수 있습니다. 새 팀원에게 다른 [!DNL Adobe] 제품에 대한 모든 적절한 권한을 지정하면 특정 사용자 그룹에 팀원을 쉽게 추가할 수 있습니다.
 
 1. [Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE)에서 **[!UICONTROL Users]** > **[!UICONTROL User Groups]**&#x200B;을(를) 클릭하여 새 사용자 그룹을 만들거나 기존 사용자 그룹을 편집합니다.
-1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/kr/enterprise/help/users.html)에 있는 지침을 따릅니다.
+1. *Enterprise 사용 안내서*&#x200B;의 [Experience Cloud에서 사용자 및 그룹 관리](https://helpx.adobe.com/enterprise/help/users.html)에 있는 지침을 따릅니다.
 
 ## 역할 및 권한 지정 {#roles-permissions}
 
@@ -88,7 +88,7 @@ ht-degree: 63%
 
    [!UICONTROL Users] 탭에는 해당 작업 영역의 모든 사용자가 표시됩니다.
 
-1. [!UICONTROL Product Role] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할([!UICONTROL Approver], [!UICONTROL Editor], [!UICONTROL Observer] 또는 [!UICONTROL Publisher])을 선택합니다.
+1. [!UICONTROL Approver] 열의 각 사용자에 대한 드롭다운 목록을 사용하여 원하는 권한 역할([!UICONTROL Editor], [!UICONTROL Observer], [!UICONTROL Publisher] 또는 [!UICONTROL Product Role])을 선택합니다.
 
    | 역할 | 설명 |
    |--- |--- |
@@ -97,7 +97,7 @@ ht-degree: 63%
    | [!UICONTROL Observer] | 활동을 볼 수 있지만 만들거나 편집할 수는 없습니다. |
    | [!UICONTROL Publisher] | [!UICONTROL Observer] 역할과 비슷합니다(활동을 볼 수 있지만 만들거나 편집할 수는 없음). 그러나 [!UICONTROL Publisher] 역할에는 활동을 활성화할 수 있는 추가 권한이 있습니다. |
 
-자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제품 권한 및 역할 관리](https://helpx.adobe.com/kr/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
+자세한 내용은 *Enterprise 사용 안내서*&#x200B;의 [Admin Console에서 제품 권한 및 역할 관리](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html)를 참조하십시오.
 
 ## 교육 비디오: Adobe Target 작업 영역을 구성하는 방법 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -113,4 +113,4 @@ ht-degree: 63%
 >
 >[!DNL Target] [!UICONTROL Administration] 메뉴 UI(이전 [!UICONTROL Setup])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오에서 설명하는 정보는 일반적으로 정확하지만 옵션이 약간 다른 위치에 있을 수 있습니다. 업데이트된 비디오는 곧 게시될 예정입니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/3421734?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/)

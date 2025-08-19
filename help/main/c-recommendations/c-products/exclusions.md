@@ -35,9 +35,9 @@ ht-degree: 14%
 
 1. 기존 제외 목록을 표시하려면 **[!UICONTROL Recommendations]** > **[!UICONTROL Exclusions]**&#x200B;을(를) 클릭합니다.
 
-   [!UICONTROL Exclusions] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 Recommendations [호스트 그룹](/help/main/administrating-target/hosts.md)(환경) 내에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하는 방법에 대한 자세한 내용은 *Adobe Target 개발자 안내서*&#x200B;의 [계획 및 구현 [!DNL Recommendations]](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}을 참조하십시오.
+   [!UICONTROL Exclusions] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경) 내에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하는 방법에 대한 자세한 내용은 [Adobe Target 개발자 안내서 [!DNL Recommendations]의 ](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}계획 및 구현&#x200B;**&#x200B;을 참조하십시오.
 
-1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외 콘텐츠를 미리 보는 동안 **[!UICONTROL Show Filters]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭한 다음 **[!UICONTROL Environment]** 드롭다운 목록에서 원하는 [환경](/help/main/administrating-target/environments.md)을(를) 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
+1. (조건부) 제외를 만들거나 업데이트하여 해당 환경에서 제외 콘텐츠를 미리 보는 동안 **[!UICONTROL Show Filters]** 아이콘(![필터 표시 아이콘](/help/main/assets/icons/Filter.svg))을 클릭한 다음 [ 드롭다운 목록에서 원하는 ](/help/main/administrating-target/environments.md)환경&#x200B;**[!UICONTROL Environment]**&#x200B;을(를) 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
 1. **[!UICONTROL Create Exclusion]** 아이콘을 클릭합니다.
 
@@ -69,11 +69,11 @@ After creating a search using "id > contains," for example, you can then click [
 
 제외는 전체 계정에서 사용할 수 있습니다. 제외를 삭제하기 전에 이 주의 사항을 고려해야 합니다. 삭제된 제외는 복구할 수 없습니다.
 
-## 교육 비디오: Recommendations(7:05)에서 컬렉션 및 제외 만들기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
+## 교육 비디오: 권장 사항(7:05)에서 컬렉션 및 제외 만들기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/35499?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

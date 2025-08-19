@@ -1,7 +1,7 @@
 ---
 keywords: 권장 사항 디자인;템플릿;디자인 만들기;전달;출력
-description: Adobe [!DNL Target] Recommendations에서 디자인을 사용하여 권장 사항이 페이지에 표시되는 방식(1X4, 1X6, 2X2 등)을 정의하는 방법에 대해 알아봅니다.
-title: Recommendations에서 디자인을 사용하는 방법
+description: Adobe의 디자인을 사용하는 방법 [!DNL Target] 권장 사항을 사용하여 페이지에 권장 사항이 표시되는 방식(1X4, 1X6, 2X2 등)을 정의하는 방법을 알아봅니다.
+title: 추천에서 디자인을 사용하는 방법
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0

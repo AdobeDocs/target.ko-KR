@@ -20,7 +20,7 @@ ht-degree: 53%
 여러 트래픽 소스를 결합하여 복잡한 타깃팅 규칙을 만들 수 있습니다.
 
 1. [!DNL Target] 인터페이스에서 **[!UICONTROL Audiences]** > **[!UICONTROL Create Audience]**&#x200B;을(를) 클릭합니다.
-1. &#x200B;
+1. 
    1. 대상자의 이름을 지정하고 선택적 설명을 추가합니다.
 1. **[!UICONTROL Traffic Sources]**&#x200B;을(를) 대상 빌더 창으로 끌어서 놓습니다.
 

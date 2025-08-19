@@ -2,7 +2,7 @@
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;auto target 보고서;자동 타겟 보고서;개인화;통찰력;자동화된 세그먼트;faq;자주 묻는 질문;중요 속성
 description: Automated Personalization(AP) 및 자동 타겟(AT) 활동용 전문 보고서 - 자동화된 세그먼트와 중요 속성을 사용하는 방법에 대해 알아봅니다.
 title: Personalization 인사이트 보고서는 어떻게 사용합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 source-git-commit: 6c8f042acb257fc908349c679bf745e477f94af4
@@ -14,7 +14,7 @@ ht-degree: 28%
 
 # [!UICONTROL Personalization Insights]개 보고서
 
-[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동 사용자([!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 보고서)가 2개의 전문 보고서를 사용할 수 있습니다.
+[!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target]&#x200B;(AT) 활동 사용자([!UICONTROL Automated Segments] 및 [!UICONTROL Important Attributes] 보고서)가 2개의 전문 보고서를 사용할 수 있습니다.
 
 ## 고려 사항
 
@@ -44,7 +44,7 @@ ht-degree: 28%
 
 * 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
 
-* [!UICONTROL Personalization Insights] 보고서는 [!UICONTROL Report Metric] 드롭다운 목록에서 [!UICONTROL Primary Goal]을(를) 선택한 경우에만 사용할 수 있습니다.
+* [!UICONTROL Personalization Insights] 보고서는 [!UICONTROL Primary Goal] 드롭다운 목록에서 [!UICONTROL Report Metric]을(를) 선택한 경우에만 사용할 수 있습니다.
 
 * [!UICONTROL Personalization Insights] 보고서는 [기본 환경](/help/main/administrating-target/hosts.md)에서만 지원됩니다.
 
@@ -67,7 +67,7 @@ ht-degree: 28%
 
 AP 또는 자동 타겟 모델에 사용되는 두 가지 유형의 특성이 [!UICONTROL Personalization Insights] 보고서에 표시됩니다.
 
-* **Target에서 자동으로 수집한 특성:** [!DNL Target]은(는) 기본 데이터 집합을 사용하여 Personalization Insights에 반영된 AP 및 AT 활동에서 개인화 알고리즘을 만듭니다. 데이터 형식, 예제 특성 및 [!UICONTROL Personalization Insights] 명명 규칙에 대해서는 [Target의 Personalization 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. 이러한 속성이 고려되지만 개별 활동의 모델은 최종 모델에서 이러한 모든 속성을 사용하지 않을 수 있습니다.
+* **Target에서 자동으로 수집한 특성:** [!DNL Target]은(는) 기본 데이터 집합을 사용하여 Personalization Insights에 반영된 AP 및 AT 활동에서 개인화 알고리즘을 만듭니다. 데이터 형식, 예제 특성 및 [ 명명 규칙에 대해서는 ](/help/main/c-activities/t-automated-personalization/ap-data.md)Target의 Personalization 알고리즘에 대한 데이터 수집[!UICONTROL Personalization Insights]을 참조하십시오. 이러한 속성이 고려되지만 개별 활동의 모델은 최종 모델에서 이러한 모든 속성을 사용하지 않을 수 있습니다.
 * **Target에 전달된 특성:** [Target Personalization 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
 
 [!DNL Target]은(는) 추가 데이터를 [!DNL Target]에 전달하여 AP 및 AT 활동에서 개인화 알고리즘을 만드는 데 사용되는 기본 데이터 집합을 보강하는 다양한 방법을 제공합니다.
@@ -84,17 +84,17 @@ AP 또는 자동 타겟 모델에 사용되는 두 가지 유형의 특성이 [!
 
 ## 자주 묻는 질문
 
-[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] [!UICONTROL Insights] 보고서에 대한 FAQ 목록.
+[!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target] [!UICONTROL Insights] 보고서에 대한 FAQ 목록.
 
-### [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 모델의 데이터는 얼마나 지속됩니까?
+### [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target] 모델의 데이터는 얼마나 지속됩니까?
 
-[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 모델은 활동에 대한 지난 45일 사용자 동작(사용자 프로필, 노출 이벤트 및 전환 이벤트)에 대해 교육됩니다.
+[!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target] 모델은 활동에 대한 지난 45일 사용자 동작(사용자 프로필, 노출 이벤트 및 전환 이벤트)에 대해 교육됩니다.
 
-[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 모델은 사용자 동작, 교육 레코드 및 모델 결정 데이터를 90일 동안 유지하여 [!UICONTROL Insights] 보고서를 생성합니다. 90일 이후에는 교육 기록 및 모델 결정을 삭제합니다. [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 모델도 2년 동안 보고 목적으로 집계된 경험/오퍼 수준 노출 및 전환 데이터를 유지합니다. 이 데이터는 집계 수준 데이터이며 개별 수준 프로필 데이터를 포함하지 않습니다.
+[!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target] 모델은 사용자 동작, 교육 레코드 및 모델 결정 데이터를 90일 동안 유지하여 [!UICONTROL Insights] 보고서를 생성합니다. 90일 이후에는 교육 기록 및 모델 결정을 삭제합니다. [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Auto-Target] 모델도 2년 동안 보고 목적으로 집계된 경험/오퍼 수준 노출 및 전환 데이터를 유지합니다. 이 데이터는 집계 수준 데이터이며 개별 수준 프로필 데이터를 포함하지 않습니다.
 
 ## 교육 비디오: Personalization Insights 보고서 사용 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/30949?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
 자세한 내용은 [Adobe Target에서 Personalization 통찰력 보고서 사용](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html)을 참조하십시오.
 

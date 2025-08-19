@@ -7,7 +7,7 @@ exl-id: 281ae227-c593-4b71-ad12-865430b332be
 source-git-commit: eb7e892a85fa3952ffc22172085d421756d0dfb5
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 66%
+ht-degree: 64%
 
 ---
 
@@ -58,7 +58,7 @@ ht-degree: 66%
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Adobe Target에서 대상자 사용(6:21) ![개요 배지](/help/main/assets/overview.png)
+### Adobe Target(6:21)에서 대상 사용 ![개요 배지](/help/main/assets/overview.png)
 
 다음 비디오에서는 [!DNL Target Standard/Premium]에서 대상자를 사용하는 방법을 설명합니다.
 
@@ -68,7 +68,7 @@ ht-degree: 66%
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
 
 ### 활동 워크플로 - 타깃팅(2:14) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 

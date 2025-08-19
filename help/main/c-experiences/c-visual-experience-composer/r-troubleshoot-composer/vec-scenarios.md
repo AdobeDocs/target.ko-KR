@@ -1,5 +1,5 @@
 ---
-keywords: Recommendations
+keywords: 추천
 description: VEC(시각적 경험 작성기)에서 페이지에 적용된 변경 사항이 Adobe Target의 경험 표시 기능에 어떻게 영향을 주는지를 보여 주는 일반적인 시나리오를 살펴봅니다.
 title: 일반적인 페이지 수정 시나리오는 무엇입니까?
 feature: Visual Experience Composer (VEC)

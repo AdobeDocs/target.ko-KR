@@ -2,7 +2,7 @@
 keywords: 추천;오퍼
 description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe 추천를 사용하는 방법에 대해 알아봅니다.
 title: 다른 활동 유형에서 추천를 제안으로 사용하는 방법은 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 hide: true
 hidefromtoc: true
@@ -15,7 +15,7 @@ ht-degree: 47%
 
 # 오퍼로서의 추천
 
-이제 [!UICONTROL A/B Test] ([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)과 [!UICONTROL Experience Targeting] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+이제 [!UICONTROL A/B Test]&#x200B;([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)과 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해 줍니다.
 
@@ -24,7 +24,7 @@ ht-degree: 47%
 * [!UICONTROL Auto-Allocate]을(를) 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동으로 푸시합니다.
 * [!UICONTROL Auto-Target]을(를) 사용하여 방문자를 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
 
-시작하려면 [!UICONTROL Visual Experience Composer]을(를) 사용하여 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting] 활동을 만들고 [!UICONTROL Recommend] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
+시작하려면 [!UICONTROL A/B Test]을(를) 사용하여 [!UICONTROL Experience Targeting] 또는 [!UICONTROL Visual Experience Composer] 활동을 만들고 [!UICONTROL Recommend] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
 
 ## A/B 테스트 또는 XT 활동에서 오퍼로서 권장 사항 추가
 
@@ -55,7 +55,7 @@ ht-degree: 47%
 
 1. **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭하거나 기존 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md)을(를) 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 [!UICONTROL Select Design] 대화 상자를 표시합니다.
 
-1. **[!UICONTROL Create Design]**&#x200B;을(를) 클릭하거나 기존 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을(를) 선택한 다음 **[!UICONTROL &#x200B; Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create Design]**&#x200B;을(를) 클릭하거나 기존 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을(를) 선택한 다음 **[!UICONTROL  Next]**&#x200B;을(를) 클릭합니다.
 
 1. [!UICONTROL Options] 대화 상자에서 다음을 지정합니다.
 
@@ -67,11 +67,11 @@ ht-degree: 47%
 
 ## 권장 사항 오퍼의 구성 편집
 
-1. [!UICONTROL Recommendation] 레일에서 [!UICONTROL Criteria Name], [!UICONTROL Design Name] 또는 [!UICONTROL Collection Name] 옆에 있는 **[!UICONTROL Edit]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하여 요소를 변경합니다.
+1. [!UICONTROL Recommendation] 레일에서 **[!UICONTROL Edit]**, ![ 또는 ](/help/main/assets/icons/Edit.svg) 옆에 있는 [!UICONTROL Criteria Name] 아이콘([!UICONTROL Design Name]편집 아이콘[!UICONTROL Collection Name])을 클릭하여 요소를 변경합니다.
 
 ## 권장 사항 오퍼 삭제
 
-1. [!UICONTROL Recommendation] 패널 위쪽에 있는 **[!UICONTROL Delete]** 아이콘(![삭제 아이콘](/help/main/assets/icons/Delete.svg))을 클릭합니다.
+1. **[!UICONTROL Delete]** 패널 위쪽에 있는 ![ 아이콘(](/help/main/assets/icons/Delete.svg)삭제 아이콘[!UICONTROL Recommendation])을 클릭합니다.
 
 ### 권장 사항 오퍼 상태 보기 {#status}
 

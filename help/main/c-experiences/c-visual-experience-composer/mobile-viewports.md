@@ -7,7 +7,7 @@ exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '1350'
-ht-degree: 96%
+ht-degree: 94%
 
 ---
 
@@ -104,7 +104,7 @@ ht-degree: 96%
 
    또는
 
-   기존 모바일 뷰포트의 구성을 변경하려면 해당 뷰포트를 선택한 다음 [!UICONTROL Edit] (연필) 아이콘을 클릭합니다.
+   기존 모바일 뷰포트의 구성을 변경하려면 해당 뷰포트를 선택한 다음 [!UICONTROL Edit]&#x200B;(연필) 아이콘을 클릭합니다.
 
 1. 모바일 뷰포트의 이름을 입력합니다.
 
@@ -137,7 +137,7 @@ ht-degree: 96%
 모바일 뷰포트를 [!DNL Target] 활동에 추가하여 모바일 화면용 반응형 경험을 작성할 수 있습니다.
 
 1. [원하는 활동](/help/main/c-activities/activities.md)을 만듭니다.
-1. [!UICONTROL Visual Experience Composer] (VEC)에서 **[!UICONTROL Settings]** 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL Add Mobile Viewports]**&#x200B;을(를) 선택합니다.
+1. [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 **[!UICONTROL Settings]** 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL Add Mobile Viewports]**&#x200B;을(를) 선택합니다.
 
    ![모바일 뷰포트 옵션 추가](/help/main/c-experiences/c-visual-experience-composer/assets/add-mobile-viewports.png)
 
@@ -174,10 +174,10 @@ ht-degree: 96%
 * 반응형 웹 사이트용 경험 미리보기 및 빌드
 * 오버레이를 사용하여 요소 유형을 강조 표시
 
->[!VIDEO](https://video.tv.adobe.com/v/30526?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
 ### Adobe Target ![개요 배지](/help/main/assets/overview.png)의 계정 환경 설정
 
-이 비디오에는 모바일 뷰포트 설정에 대한 정보(4:40)가 포함되어 있습니다.
+이 비디오에는 4:40부터 시작되는 모바일 뷰포트 설정에 대한 정보가 포함되어 있습니다.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

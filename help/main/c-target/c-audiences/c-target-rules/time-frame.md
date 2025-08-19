@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 source-git-commit: 0e4698935b90cc0236abe6a47a6183c7fd2a7b20
 workflow-type: tm+mt
-source-wordcount: '437'
-ht-degree: 35%
+source-wordcount: '431'
+ht-degree: 25%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 35%
    >
    >다음 사항을 고려하십시오.
    >
-   >* 시작/종료일 시간대는 GMT +/- NN:NN 형식으로 표시되며, 여기서 NN:NN은 GMT로부터의 오프셋으로서, 방문자의 시간대가 아닌 계정 수준 시간대를 반영합니다. 예를 들어, 캘리포니아 시간대는 GMT -08:00로 표시됩니다.
+   >* 시작/종료 날짜의 시간대는 GMT +/- NN:NN(으)로 표시됩니다. 여기서 NN:NN은(는) GMT로부터의 오프셋으로서, 방문자의 시간대가 아닌 계정 수준 시간대를 반영합니다. 예를 들어, 캘리포니아 시간대는 GMT -08:00(으)로 표시됩니다.
    >
    >* [!DNL Target] 시간 대상은 일광 절약 시간제(DST) 변경을 고려하지 않습니다. 일광 절약 시간 변경 사항을 고려하려면 대상을 수동으로 다시 저장해야 합니다.
 
@@ -47,7 +47,7 @@ ht-degree: 35%
 
    >[!NOTE]
    >
-   >[!UICONTROL Week and Day Parting]의 시간대는 GMT +/- NN:NN 형식으로 표시되며, 여기서 NN:NN은 GMT로부터의 오프셋으로서, 방문자의 시간대가 아닌 계정 수준 시간대를 반영합니다. 예를 들어 태평양 일광 절약 시간제에 대한 캘리포니아 시간대는 GMT -07:00로 표시됩니다.
+   >[!UICONTROL Week and Day Parting]의 시간대는 GMT +/- NN:NN(으)로 표시됩니다. 여기서 NN:NN은(는) GMT로부터의 오프셋이며 방문자의 시간대가 아닌 계정 수준 시간대를 반영합니다. 예를 들어 태평양 일광 절약 시간제에 대한 캘리포니아 시간대는 GMT -07:00(으)로 표시됩니다.
 
 1. (선택 사항) 대상에 대한 추가 규칙을 설정합니다.
 

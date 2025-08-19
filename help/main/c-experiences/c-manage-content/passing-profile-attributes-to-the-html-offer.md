@@ -7,7 +7,7 @@ exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 source-git-commit: 2e607b92e9d3408c1e91abd4646fe8eb840f2c30
 workflow-type: tm+mt
 source-wordcount: '536'
-ht-degree: 55%
+ht-degree: 52%
 
 ---
 
@@ -73,7 +73,7 @@ mbox로 전달된 프로필 매개 변수의 경우 다음 구문을 사용합�
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
-표시할 값을 escape하거나 escape 취소할 수도 있습니다. 예를 들어 값에 아포스트로피가 있는 경우 값을 이스케이프 처리할 수 있으므로 페이지의 JavaScript이 손상되지 않습니다. (오퍼는 JavaScript로 작성되므로 단일 아포스트로피가 따옴표와 혼동될 수 있습니다.) 예:
+표시할 값을 escape하거나 escape 취소할 수도 있습니다. 예를 들어 값에 아포스트로피가 있는 경우 값을 이스케이프 처리할 수 있으므로 페이지의 JavaScript이 손상되지 않습니다. (오퍼는 JavaScript으로 작성되므로 하나의 아포스트로피를 인용과 혼동할 수 있습니다.) 예:
 
 `${user.encodedValue encode="unescape"}`
 

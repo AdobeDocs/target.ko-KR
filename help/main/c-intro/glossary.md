@@ -138,7 +138,7 @@ RIA(Rich Internet Application)에서는 DHTML 및 AJAX와 같은 기술을 사�
 
 동적 페이지 기술을 사용하여 값을 오퍼에 전달합니다.
 
-## 전자 {#section_55C3D8AF3D31494784C70090D8343244}
+## E {#section_55C3D8AF3D31494784C70090D8343244}
 
 **참여**
 
@@ -146,7 +146,7 @@ RIA(Rich Internet Application)에서는 DHTML 및 AJAX와 같은 기술을 사�
 
 **향상된 환경 작성기**
 
-[!UICONTROL Enhanced Experience Composer]은(는) [!DNL Target] 구현을 아직 포함하지 않는 iframe 버스팅 사이트 또는 페이지의 경험을 편집하는 데 도움이 되는 [!UICONTROL Visual Experience Composer]의 확장입니다. [!UICONTROL Visual Experience Composer]에서 페이지를 여는 데 문제가 있으면 [!UICONTROL Enhanced Experience Composer]을(를) 사용해 보세요.
+[!UICONTROL Enhanced Experience Composer]은(는) [!UICONTROL Visual Experience Composer] 구현을 아직 포함하지 않는 iframe 버스팅 사이트 또는 페이지의 경험을 편집하는 데 도움이 되는 [!DNL Target]의 확장입니다. [!UICONTROL Visual Experience Composer]에서 페이지를 여는 데 문제가 있으면 [!UICONTROL Enhanced Experience Composer]을(를) 사용해 보세요.
 
 **Enterprise 사용자 권한**
 
@@ -196,7 +196,7 @@ Target Standard의 활동에 대한 시각적 표시입니다.
 
 성공적인 활동을 신호로 보내는 전환 또는 결과입니다. 몇 가지 특정 방법으로 개선할 목표가 없으면 테스트를 실행하지 않는 것이 좋습니다.
 
-## 시간 {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **호스트**
 
@@ -234,7 +234,7 @@ mbox에서 방문자의 쿠키로 전달된 방문자별 매개 변수입니다.
 
 **mbox 매개 변수**
 
-URL이 아닌 페이지로 전달됩니다. 매개 변수는 데이터베이스에서 데이터를 전달하고 매출 데이터를 추적하거나 Adobe Recommendations를 실행하는 데 사용됩니다. 페이지 매개 변수라고도 합니다.
+URL이 아닌 페이지로 전달됩니다. 매개 변수는 데이터베이스에서 데이터를 전달하고 매출 데이터를 추적하거나 Adobe 추천를 실행하는 데 사용됩니다. 페이지 매개 변수라고도 합니다.
 
 **다변량 테스트**
 

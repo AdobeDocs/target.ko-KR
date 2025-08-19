@@ -13,7 +13,7 @@ ht-degree: 19%
 
 # 업로드 컨텐츠
 
-[!DNL Adobe Target]의 [!UICONTROL Image Offers] 목록에 이미지를 업로드하여 활동에서 이미지 오퍼로 사용할 수 있습니다. 활동에 이미지 오퍼가 더 이상 필요하지 않은 경우에도 삭제할 수 있습니다.
+[!UICONTROL Image Offers]의 [!DNL Adobe Target] 목록에 이미지를 업로드하여 활동에서 이미지 오퍼로 사용할 수 있습니다. 활동에 이미지 오퍼가 더 이상 필요하지 않은 경우에도 삭제할 수 있습니다.
 
 ## 목록에 이미지 오퍼 추가
 
@@ -39,7 +39,7 @@ ht-degree: 19%
 
 이 비디오에는 컨텐츠 관리에 대한 정보가 포함되어 있습니다.
 
-* [Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html?lang=ko)와 Target 컨텐츠 라이브러리 간 연결
+* [Experience Cloud 자산 라이브러리](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html)와 Target 컨텐츠 라이브러리 간 연결
 * 사용자 지정 HTML 오퍼
 * 시각적 경험 작성기의 사용자 지정 HTML 오퍼
 

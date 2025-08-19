@@ -55,7 +55,7 @@ ht-degree: 44%
 
 **옵션:**
 
-* [!UICONTROL Visual Experience Composer] (으)로 이동하여 URL > 고급 > 현재 페이지를 클릭합니다.
+* [!UICONTROL Visual Experience Composer]&#x200B;(으)로 이동하여 URL > 고급 > 현재 페이지를 클릭합니다.
 
 ## 새 경험이 아니라 이전 경험이 표시됩니다.
 
@@ -76,13 +76,13 @@ ht-degree: 44%
 [!DNL Target]에서 사용자로 추가된 후 활동을 만들려면 [!UICONTROL Approver] 역할이 있어야 합니다.
 
 * 계정 관리자에게 자신을 승인자로 지정해 달라고 요청하십시오.
-* 관리자의 경우 [!DNL Target]의 **[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;에서 [!UICONTROL Approver] 역할을 지정하십시오.
+* 관리자의 경우 [!UICONTROL Approver]의 **[!UICONTROL Administration]** > **[!UICONTROL Users]**&#x200B;에서 [!DNL Target] 역할을 지정하십시오.
 
   [자신에게 승인자 역할 지정](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7)을 참조하십시오.
 
 ## 활동 설정 후 페이지의 구조가 변경되었습니다.
 
-**유효성 검사:** 기존 활동에 대한 [!UICONTROL Visual Experience Composer] (으)로 이동합니다. 선택기(또는 구조)가 변경되었음을 나타내는 경고 메시지를 찾으십시오.
+**유효성 검사:** 기존 활동에 대한 [!UICONTROL Visual Experience Composer]&#x200B;(으)로 이동합니다. 선택기(또는 구조)가 변경되었음을 나타내는 경고 메시지를 찾으십시오.
 
 **옵션:**
 
@@ -130,7 +130,7 @@ ht-degree: 44%
 
 **참고:** 이름은 같지만 매개 변수가 다른 여러 개의 ajax [!DNL Target] 호출이 같은 페이지에서 작동하지 않습니다. 첫 번째 호출만 수행됩니다.
 
-## [!DNL Target] API를 사용하여 활동을 활성화했지만 활동이 [!DNL Target] UI에서 [!UICONTROL Inactive] 상태로 표시됩니다.
+## [!DNL Target] API를 사용하여 활동을 활성화했지만 활동이 [!UICONTROL Inactive] UI에서 [!DNL Target] 상태로 표시됩니다.
 
 [!DNL Target] API를 사용하여 UI 외부에서의 활동 활성화와 같은 특정 작업을 수행하면 업데이트가 UI로 전파되는 데 최대 10분이 걸릴 수 있습니다.
 

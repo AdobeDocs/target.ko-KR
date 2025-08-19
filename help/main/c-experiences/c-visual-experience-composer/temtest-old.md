@@ -1,6 +1,6 @@
 ---
 keywords: 템플릿 테스트;템플릿;유사한 페이지의 동일한 경험;템플릿 테스트
-description: Adobe [!DNL Target] VEC(시각적 경험 작성기)를 사용하여 구조가 비슷하거나 동일한 템플릿 요소를 포함하는 여러 페이지에 동일한 경험을 포함하는 방법에 대해 알아봅니다.
+description: Adobe [!DNL Target] 시각적 경험 작성기(VEC)를 사용하여 구조가 유사하거나 동일한 템플릿 요소를 포함하는 여러 페이지에 동일한 경험을 포함하는 방법에 대해 알아봅니다.
 title: 유사한 페이지에 동일한 경험을 포함할 수 있습니까?
 feature: Experiences and Offers
 exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
@@ -32,7 +32,7 @@ ht-degree: 33%
 
 1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)에 설명된 대로 활동을 만들거나 편집합니다.
 
-1. 경험이 나타날 페이지를 지정하려면 [!UICONTROL Visual Experience Composer] (VEC)에서 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
+1. 경험이 나타날 페이지를 지정하려면 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 톱니바퀴 아이콘을 클릭한 다음 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택합니다.
 
    ![톱니바퀴 아이콘 > 페이지 전달](/help/main/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
@@ -107,4 +107,4 @@ ht-degree: 33%
 * 반응형 웹 사이트용 경험 미리보기 및 빌드
 * 오버레이를 사용하여 요소 유형을 강조 표시
 
->[!VIDEO](https://video.tv.adobe.com/v/30526?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)

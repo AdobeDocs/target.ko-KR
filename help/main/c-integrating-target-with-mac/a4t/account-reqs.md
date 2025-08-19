@@ -1,6 +1,6 @@
 ---
 keywords: Analytics를 보고 소스로 사용;a4t;A4T;요구 사항
-description: A4T(Analytics for [!DNL Target] 을(를) 사용하여 Adobe [!DNL Target] 에서 Adobe Analytics 기반 활동을 만드는 데 필요한 사용자 계정 요구 사항을 구성하는 방법에 대해 알아봅니다.
+description: A4T(Analytics for [!DNL Target] 을(를) 사용하여  [!DNL Target] Adobe에서 Adobe Analytics 기반 활동을 만드는 데 필요한 사용자 계정 요구 사항을 구성하는 방법에 대해 알아봅니다.
 title: A4T에 필요한 사용자 권한 요구 사항은 무엇입니까?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
@@ -28,13 +28,13 @@ ht-degree: 35%
 
 [!DNL Analytics] 및 [!DNL Target] 사용자 계정이 Adobe ID에 연결되어 있어야 합니다.
 
-자세한 내용은 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)을 참조하세요.
+자세한 내용은 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)을 참조하세요.
 
 ### Experience Cloud 그룹 멤버십 구성
 
 하나 이상의 [!DNL Experience Cloud] 그룹의 구성원으로서 [!DNL Analytics] 및 [!DNL Target]에 액세스할 수 있어야 합니다.
 
-자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)를 참조하십시오.
+자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
@@ -52,7 +52,7 @@ ht-degree: 35%
 
 1. [!UICONTROL Web Services Access] 그룹에 대한 액세스를 구성합니다.
 
-   [!DNL Target]의 보고 소스로 [!DNL Analytics]을(를) 사용하려면 [!DNL Analytics]의 [!UICONTROL Web Services Access] 그룹에 액세스해야 합니다.
+   [!UICONTROL Web Services Access]의 보고 소스로 [!DNL Analytics]을(를) 사용하려면 [!DNL Analytics]의 [!DNL Target] 그룹에 액세스해야 합니다.
 
 
 ## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}

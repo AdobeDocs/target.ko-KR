@@ -13,7 +13,7 @@ ht-degree: 18%
 
 # mbox3rdPartyId에 대한 실시간 프로필 동기화
 
-[!DNL Adobe Target]의 `mbox3rdPartyId`은(는) 회사의 충성도 프로그램을 위한 멤버십 ID와 같은 회사의 방문자 ID입니다.
+`mbox3rdPartyId`의 [!DNL Adobe Target]은(는) 회사의 충성도 프로그램을 위한 멤버십 ID와 같은 회사의 방문자 ID입니다.
 
 방문자가 회사 사이트에 로그인하면 일반적으로 회사는 방문자 계정, 포인트 카드, 멤버십 번호 또는 해당 회사에 대한 기타 적용 가능한 식별자에 연결되는 ID를 만듭니다.
 
@@ -32,11 +32,11 @@ ht-degree: 18%
 
 >[!NOTE]
 >
->인증된(로그인한) 사용자와 인증되지 않은 사용자를 구분하려면 mbox3rdPartyID 대신 [!DNL Adobe Experience Cloud Identity Service] (ECID)를 사용하십시오. 사용자가 mbox3rdPartyID에 연결되면, 로그아웃 후에도 사용자와 연결된 상태로 유지됩니다.
+>인증된(로그인한) 사용자와 인증되지 않은 사용자를 구분하려면 mbox3rdPartyID 대신 [!DNL Adobe Experience Cloud Identity Service]&#x200B;(ECID)를 사용하십시오. 사용자가 mbox3rdPartyID에 연결되면, 로그아웃 후에도 사용자와 연결된 상태로 유지됩니다.
 
 >[!NOTE]
 >
->[!DNL Target] 프로필이 mbox3rdPartyID를 기반으로 병합될 수 있고 여전히 활동 정보가 있더라도 [!DNL Adobe Experience Cloud] ID(ECID)가 변경되는 경우(예: 방문자가 장치 변경) [!DNL Adobe Analytics] 목표가 추적되지 않습니다. 동일한 ECID로 식별된 방문자의 경우(동일한 장치로 페이지에 액세스하는 방문자) A4T([!DNL Analytics for Target])가 예상대로 작동해야 합니다.
+>[!DNL Adobe Analytics] 프로필이 mbox3rdPartyID를 기반으로 병합될 수 있고 여전히 활동 정보가 있더라도 [!DNL Adobe Experience Cloud] ID(ECID)가 변경되는 경우(예: 방문자가 장치 변경) [!DNL Target] 목표가 추적되지 않습니다. 동일한 ECID로 식별된 방문자의 경우(동일한 장치로 페이지에 액세스하는 방문자) A4T([!DNL Analytics for Target])가 예상대로 작동해야 합니다.
 
 ## 고려 사항 {#considerations}
 
@@ -44,7 +44,7 @@ ht-degree: 18%
 
   예를 들어 방문자가 로그인하기 전에 페이지에 액세스하여 경험을 본다고 가정해 보겠습니다. 글로벌 mbox에서 `3rdPartyID`을(를) 사용하지 않습니다. 로그인 후 방문자는 세 개의 경험 중 하나를 하위 mbox로 보고, 일부는 `3rdPartyID`을(를) 사용합니다. 방문자는 사이트에서 다양한 페이지를 방문한 다음 뒤로 단추를 사용하여 로그인하기 전에 액세스한 기본 페이지로 돌아가서 다른 경험을 봅니다. 이 시나리오에서는 글로벌 mbox가 `3rdPartyID`을(를) 전달하지 않았지만 하나 이상의 하위 mbox가 전달했습니다. `3rdPartyID`이(가) PCID보다 우선했습니다.
 
-* 다음 두 가지 방법을 사용하여 방문자의 고객 ID를 [!DNL Target] (으)로 보낼 수 있습니다.
+* 다음 두 가지 방법을 사용하여 방문자의 고객 ID를 [!DNL Target]&#x200B;(으)로 보낼 수 있습니다.
 
    1. `mbox3rdPartyId`/`thirdPartyId` 사용
 
@@ -58,13 +58,13 @@ ht-degree: 18%
       * `customerIds`은(는) 배달 API 페이로드에서 직접 설정할 때 사용되는 매개 변수 이름으로, 일반적으로 서버측 또는 IOT(사물인터넷) 구현에서 수행됩니다.
       * `mbox3rdPartyId`/`thirdPartyId`과(와) 달리 이 방법에서는 여러 ID를 목록으로 보낼 수 있지만, [!DNL Target]은(는) TnT ID당 하나의 고객 ID만 지원하므로 알려진 별칭(고객 특성 UI에 구성된 별칭)이 있는 목록의 첫 번째 ID를 사용합니다.
 
-  [!DNL Target]이(가) 유일한 [!DNL Adobe Experience Cloud] 솔루션이고 고객 특성을 사용하지 않으려는 경우 `mbox3rdPartyId`/`thirdPartyId`을(를) 사용할 수 있습니다. 다른 모든 경우에는 고객 ID를 보낼 때 `setCustomerId`/`customerIds`을(를) 사용하는 것이 좋습니다.
+  `mbox3rdPartyId`이(가) 유일한 `thirdPartyId` 솔루션이고 고객 특성을 사용하지 않으려는 경우 [!DNL Target]/[!DNL Adobe Experience Cloud]을(를) 사용할 수 있습니다. 다른 모든 경우에는 고객 ID를 보낼 때 `setCustomerId`/`customerIds`을(를) 사용하는 것이 좋습니다.
 
   >[!IMPORTANT]
   >
   > 한 방문자에 대해 위에서 언급한 두 접근 방식을 혼용하여 사용하면 인증되지 않고 인증된 [!DNL Target] 프로필에 대해 잘못된 프로필 병합이 발생할 수 있습니다.
   >
-  >Adobe은 `mbox3rdPartyId`/`thirdPartyId`과(와) `setCustomerID`/`customerIds`을(를) 함께 사용하지 않는 것이 좋습니다.
+  >Adobe에서는 `mbox3rdPartyId`/`thirdPartyId`과(와) `setCustomerID`/`customerIds`을(를) 함께 사용하지 않는 것이 좋습니다.
   >
   >두 접근 방식을 서로 바꿔서 사용해야 하는 경우 `setCustomerID`/`customerIds`에서 사용하는 목록의 첫 번째 ID가 `thirdPartyId`/`mbox3rdPartyId`에서 사용하는 ID인지 또는 그 반대의 ID인지 확인하십시오.
 

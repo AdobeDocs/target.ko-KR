@@ -1,23 +1,23 @@
 ---
 keywords: 경험 만들기;경험 생성;우선순위;대상자;경험;시각적 경험 작성기
-description: '[!UICONTROL Experience Targeting] (XT) 활동에서  [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)를 사용하여 페이지에서 경험을 만들고 편집하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](XT) 활동에서 [!UICONTROL Experience Targeting]​(VEC)를 사용하여 페이지에서 경험을 만들고 편집하는 방법을 알아봅니다.'
 title: '[!UICONTROL Experience Targeting] 활동에서 경험을 만들려면 어떻게 해야 합니까?'
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
 workflow-type: tm+mt
 source-wordcount: '897'
-ht-degree: 24%
+ht-degree: 23%
 
 ---
 
-# [!UICONTROL Experience Targeting] (XT) 활동에서 경험 만들기
+# [!UICONTROL Experience Targeting]&#x200B;(XT) 활동에서 경험 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer] (VEC)은 [!UICONTROL Experience Targeting] (XT) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
+[!UICONTROL Visual Experience Composer]의 [!DNL Adobe Target]&#x200B;(VEC)은 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동에서 페이지에서 경험을 편집할 수 있는 시각적 인터페이스를 제공합니다.
 
 1. 변경할 요소를 선택하고 원하는 대로 변경합니다.
 
-   [[!UICONTROL Experience Targeting] 활동을 만드는 동안](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 세 부분으로 구성된 안내 워크플로우([!UICONTROL Experiences])의 1단계는 [!UICONTROL All Visitors] 대상이 있는 기본 [!UICONTROL Experience A]을(를) 표시합니다.
+   [[!UICONTROL Experience Targeting] 활동을 만드는 동안](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 세 부분으로 구성된 안내 워크플로우([!UICONTROL Experiences])의 1단계는 [!UICONTROL Experience A] 대상이 있는 기본 [!UICONTROL All Visitors]을(를) 표시합니다.
 
    ![모든 방문자 대상자](/help/main/c-activities/t-experience-target/t-xt-create/assets/all-visitors-new.png)
 
@@ -37,7 +37,7 @@ ht-degree: 24%
 
    기존 대상을 선택할 수 있을 뿐만 아니라, 새 대상을 만들지 않고 여러 대상을 결합하여 주문형 결합 대상을 만들 수도 있습니다. 자세한 내용은 [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)을 참조하십시오.
 
-   대상을 만들 때 위치를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. [!UICONTROL Custom] ([!UICONTROL Create Audience] > [!UICONTROL Custom])에서 위치를 선택한 다음 원하는 매개 변수를 지정합니다.
+   대상을 만들 때 위치를 선택하고 해당 위치에 대한 매개 변수를 지정할 수 있습니다. [!UICONTROL Custom]&#x200B;([!UICONTROL Create Audience] > [!UICONTROL Custom])에서 위치를 선택한 다음 원하는 매개 변수를 지정합니다.
 
    >[!NOTE]
    >
@@ -90,31 +90,31 @@ ht-degree: 24%
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### A/B 테스트에서 [!UICONTROL Experience Targeting] (으)로
+### A/B 테스트에서 [!UICONTROL Experience Targeting]&#x200B;(으)로
 
-이 비디오에서는 [!UICONTROL Experience Targeting] (XT)을(를) 사용하여 A/B 테스트를 한 단계 업그레이드하는 방법에 대해 설명합니다.
+이 비디오에서는 [!UICONTROL Experience Targeting]&#x200B;(XT)을(를) 사용하여 A/B 테스트를 한 단계 업그레이드하는 방법에 대해 설명합니다.
 
 * [!UICONTROL Experience Targeting] 활동을 구성하는 안내가 있는 3단계 워크플로를 설명합니다.
 * 지리적 영역에 있는 대상자에게 위치 특정 콘텐츠를 전달하는 방법을 설명합니다.
 * 올바른 콘텐츠가 올바른 대상자에게 전달되도록 하기 위해 경험을 재정렬하는 방법을 설명합니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/30948?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### 활동 유형(9:03)
 
-다음 비디오에서는 [!DNL Target]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!UICONTROL Experience Targeting] 은 오전 5:15부터 설명합니다.
+다음 비디오에서는 [!DNL Target]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!UICONTROL Experience Targeting]은(는) 5:15부터 논의됩니다.
 
 * [!DNL Adobe Target]에 포함된 활동 유형 설명
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### [!UICONTROL Visual Experience Composer] 사용
 
-이 비디오에서는 [!UICONTROL Experience Targeting] (VEC) 옵션 사용에 대한 정보를 제공합니다.
+이 비디오에서는 [!UICONTROL Experience Targeting]&#x200B;(VEC) 옵션 사용에 대한 정보를 제공합니다.
 
 * 페이지 콘텐츠 변경
 * 페이지 레이아웃 변경
 
->[!VIDEO](https://video.tv.adobe.com/v/30516?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)

@@ -92,7 +92,7 @@ ht-degree: 56%
       * `A` (링크) 태그: 기본 동작은 HREF 속성으로 정의된 URL로 이동하는 것입니다.
       * `FORM` 태그: 기본 동작은 양식을 제출하는 것입니다.
 
-  이 기본 동작은 [!DNL Analytics] 클릭 추적을 방해할 수 있습니다. [!DNL Analytics]을(를) 사용하는 경우 [!DNL Target]이(가) 아닌 클릭 추적을 위해 [!DNL Analytics]을(를) 사용해야 합니다.
+  이 기본 동작은 [!DNL Analytics] 클릭 추적을 방해할 수 있습니다. [!DNL Analytics]을(를) 사용하는 경우 [!DNL Analytics]이(가) 아닌 클릭 추적을 위해 [!DNL Target]을(를) 사용해야 합니다.
 
 * 클릭 추적은 페이지 및 활동 URL이 다른 속성에 속하는 페이지에 기록되지 않습니다. Enterprise 사용자 권한은 [!DNL Target Premium] 기능입니다. 자세한 내용은 [엔터프라이즈 사용자 권한](/help/main/administrating-target/c-user-management/property-channel/property-channel.md)을 참조하십시오.
 

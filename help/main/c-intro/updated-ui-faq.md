@@ -7,7 +7,7 @@ exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
 source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
 workflow-type: tm+mt
 source-wordcount: '1361'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 ## Target UI 버전 사용 중단 토글 타임라인이 업데이트되었습니까?
 
-+++세부 정보
++++세부 사항
 예. [알아야 하는 시간에 따른 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)에서 새 타임라인과 중요한 정보를 찾을 수 있습니다.
 
 +++
 
 ## 업데이트된 [!DNL Target] UI에 대한 자세한 정보는 어디에서 찾을 수 있습니까?
 
-+++세부 정보
++++세부 사항
 다음 리소스는 업데이트된 [!DNL Target] UI에 대한 자세한 정보를 제공합니다.
 
 * [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!DNL Target], [!UICONTROL Activities] 및 [!UICONTROL Recommendations]&#x200B;(VEC)에 대한 [!UICONTROL Visual Experience Composer]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
@@ -41,7 +41,7 @@ ht-degree: 0%
 
 ## 업데이트된 UI를 현재 모든 [!DNL Target] 고객, [!UICONTROL Standard] 및 [!UICONTROL Premium]이(가) 사용할 수 있습니까?
 
-+++세부 정보
++++세부 사항
 업데이트된 UI는 모든 [!DNL Target] 고객, [!UICONTROL Standard] 및 [!UICONTROL Premium]에서 사용할 수 있습니다. 업그레이드된 라이센스나 SKU는 필요하지 않습니다.
 
 임시 UI 버전 전환 롤아웃 및 사용 중단에 대한 자세한 내용은 [알아야 하는 시간에 민감한 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)를 참조하십시오.
@@ -50,7 +50,7 @@ ht-degree: 0%
 
 ## 기존 UI가 더 이상 사용되지 않기 전에 현재 버그 목록이 수정됩니까?
 
-+++세부 정보
++++세부 사항
 [!DNL Target] 팀이 새 UI 롤아웃과 관련된 문제를 적극적으로 해결하고 있습니다. 업데이트 및 지속적인 개선 사항은 릴리스 정보에 자세히 설명되어 있습니다.
 
 임시 UI 버전 전환 롤아웃 및 사용 중단에 대한 자세한 내용은 [알아야 하는 시간에 민감한 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)를 참조하십시오.
@@ -59,7 +59,7 @@ ht-degree: 0%
 
 ## 고객이 기존 UI를 계속 사용하고자 하는 경우, UI 버전을 계정에 대해 유지되도록 전환할 수 있습니까?
 
-+++세부 정보
++++세부 사항
 UI 버전 전환은 전환 단추를 사용하여 업데이트된 [!DNL Target] UI와 레거시 버전 간을 전환할 수 있는 임시 기능입니다. 이 옵션은 UI 롤아웃의 마지막 단계 동안에만 사용할 수 있습니다. 롤아웃이 완료되면 토글이 제거되고 모든 사용자가 업데이트된 UI로 영구적으로 전환됩니다.
 
 UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활동의 편집 및 활동 세부 사항의 일관성을 비롯한 몇 가지 제한 사항이 있습니다.
@@ -70,7 +70,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 ## 전체 롤아웃이 완료될 때까지 [!DNL Adobe]에서 업데이트된 UI로의 마이그레이션을 연기할 수 있습니까?
 
-+++세부 정보
++++세부 사항
 [!DNL Target]은(는) UI 마이그레이션 타이밍을 지연하거나 사용자 지정하는 옵션을 제공하지 않습니다. 고객은 단계적으로 전환되며 [!DNL Adobe]에서 롤아웃 일정을 관리합니다. 최신 업데이트는 릴리스 노트를 참조하십시오.
 
 UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활동의 편집 및 활동 세부 사항의 일관성을 비롯한 몇 가지 제한 사항이 있습니다.
@@ -81,7 +81,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 ## 업데이트된 VEC는 옵션의 재배열, 크기 조정, 이동, 숨기기 및 제거를 어떻게 처리하며 이러한 옵션은 기존 VEC와 어떻게 다릅니까? {#options}
 
-+++세부 정보
++++세부 사항
 **[!UICONTROL Rearrange*]*: 이전 VEC에서 다시 정렬 옵션은 오버레이를 사용하여 사용자가 해당 형제 그룹 내의 요소를 다시 배치할 수 있도록 했습니다. 움직임은 형제 요소 간의 순서를 바꾸는 것으로 한정되었다.
 
 업데이트된 VEC에서 이 기능은 앞으로 이동 및 뒤로 이동 작업을 통해 간소화됩니다. 이러한 컨트롤은 겹침 순서에서 요소를 앞이나 뒤로 이동하여 레이아웃에서 요소의 위치를 가로와 세로 모두 조정합니다.
@@ -134,35 +134,35 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 ## [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 계속 사용할 수 있습니까?
 
-+++세부 정보
++++세부 사항
 사용자 인터페이스에 대한 최신 업데이트를 통해 [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 더 이상 사용할 수 없습니다. 자세한 내용은 [의 ](/help/main/c-activities/activities.md#filters)활동 목록에 필터 적용&#x200B;*[!UICONTROL Activities overview]* 아래의 상태를 참조하십시오.
 
 +++
 
 ## 활동이 기존 UI 또는 업데이트된 UI에서 생성 또는 편집되었는지 어떻게 알 수 있습니까?
 
-+++세부 정보
++++세부 사항
 업데이트된 UI에서 만들어지거나 편집된 활동은 동일한 안내가 있는 3단계 워크플로우를 따르며 UI별 메타데이터 또는 레거시 생성 활동에 없는 서식이 포함될 수 있습니다. 인터페이스에 표시되는 태그나 레이블이 없지만 레이아웃, 구조 또는 사용 가능한 옵션(예: 향상된 타겟팅 또는 미리보기 기능)의 차이는 사용된 UI를 나타낼 수 있습니다. 자세한 식별은 활동의 변경 기록을 확인하거나 구현 로그를 참조하십시오.
 
 +++
 
 ## 기존 UI에서 오퍼를 만드는 것과 업데이트된 UI의 차이점은 무엇입니까? 추가 속성이 필요합니까?
 
-+++세부 정보
++++세부 사항
 [!UICONTROL Offer Library] UI에는 모든 오퍼에 대해 일관된 특성 정의가 필요합니다. 활동 전용(애드혹) 오퍼를 생성할 때 사용자는 오퍼 이름도 지정해야 합니다. 이 정보는 [!UICONTROL Form-based Experience Composer]에 표시되므로 코드나 콘텐츠를 검토하지 않고도 오퍼를 보다 쉽게 식별할 수 있습니다.
 
 +++
 
 ## 업데이트된 UI의 오퍼 미리보기 링크는 어떻게 됩니까?
 
-+++세부 정보
++++세부 사항
 선택한 조각에 해당하는 정보 아이콘([!UICONTROL Experience Fragment]정보 아이콘[!UICONTROL Quick Info] )을 클릭할 때 표시되는 ![ 팝오버에서 ](/help/main/assets/icons/InfoOutline.svg) 미리 보기 링크를 사용할 수 있습니다.
 
 +++
 
 ## 업데이트된 UI로 기존 활동을 편집할 때 [!UICONTROL Enhanced Experience Composer]을(를) 비활성화해야 합니다. [!DNL Adobe]님이 다른 고객과 유사한 행동을 관찰했습니까?
 
-+++세부 정보
++++세부 사항
 예. [!DNL Adobe Experience Cloud] [!DNL Visual Editing Helper extension]을(를) 사용하는 경우 [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC) 을(를) 비활성화해야 할 수 있습니다.
 
 추가 정보는 [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)을 참조하십시오.
@@ -171,7 +171,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 ## 허용 목록에 추가를 위한 새로운 IP들의 세부사항을 알려주실 수 있나요?
 
-+++세부 정보
++++세부 사항
 허용 목록에 추가하다할 수 있는 IP 주소에 대한 자세한 내용은 다음 문서를 참조하십시오.
 
 * **향상된 경험 작성기(EEC)**: [EEC가 공용 IP에서 액세스할 수 없는 내부 QA URL을 로드하지 않습니다](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF)(*향상된 경험 작성기 관련 문제 해결*)
@@ -181,7 +181,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 ## 환경이 새 권장 사항 UI에서 기본적으로 스테이징으로 재설정됩니까?
 
-+++세부 정보
++++세부 사항
 이제 환경은 고객이 사용한 마지막 환경으로 기본 설정됩니다. 환경을 전환하려면 [!UICONTROL Environment] UI의 오른쪽 위 모서리에 있는 [!UICONTROL Catalog Search] 선택기를 사용하십시오.
 
 ![환경 스위치](/help/main/c-intro/assets/environmnent.png)
@@ -190,7 +190,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 
 ## [!DNL Adobe Analytics] 또는 [!DNL Customer Journey Analytics]을(를) [!DNL Target]에 연결하는 것이 얼마나 복잡합니까?
 
-+++세부 정보
++++세부 사항
 [!DNL Adobe Analytics]&#x200B;(AA) 또는 [!DNL Customer Journey Analytics]&#x200B;(CJA)을(를) [!DNL Target]과(와) 통합하는 범위는 현재 설정에 따라 중간에서 고급 작업까지 다양할 수 있습니다. [!DNL Adobe Experience Platform]을(를) 사용하고 [!DNL Platform Web SDK]을(를) 구현한 경우 통합이 보다 간소화됩니다. 그러나 at.js 또는 AppMeasurement을 사용하는 기존 구현에는 다음을 포함한 추가 구성이 필요할 수 있습니다.
 
 * [Analytics for Target(A4T) 통합 사용](/help/main/c-integrating-target-with-mac/a4t/a4t.md)

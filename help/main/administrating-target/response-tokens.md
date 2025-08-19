@@ -8,7 +8,7 @@ exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
 source-wordcount: '1622'
-ht-degree: 22%
+ht-degree: 24%
 
 ---
 
@@ -28,8 +28,8 @@ ht-degree: 22%
 
 | Target SDK | 제안된 작업 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK을 다운로드하는 방법에 대한 자세한 내용은 *Platform Web SDK 개요* 안내서에서 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko){target=_blank}를 참조하십시오. Platform Web SDK의 각 버전에 대한 새로운 기능은 *Platform Web SDK 개요* 안내서의 [릴리스 정보](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko)를 참조하십시오. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank} | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js 다운로드에 대한 자세한 내용은 [at.js 다운로드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko){target=_blank}를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js(사용 중단됨)에는 존재했지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK을 다운로드하는 방법에 대한 자세한 내용은 [Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 안내서에서 *SDK 설치*&#x200B;를 참조하십시오. Platform Web SDK의 각 버전에 대한 새로운 기능은 [Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 안내서의 *릴리스 정보*&#x200B;를 참조하십시오. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js(사용 중단됨)에는 존재했지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
 
 ## 응답 토큰 사용 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ ht-degree: 22%
 
    추가 정보:
 
-   * **Platform Web SDK**: *Platform Web SDK 개요* 안내서의 [SDK 설치](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko)를 참조하십시오.
-   * **at.js**: [at.js 다운로드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko){target=_blank}를 참조하십시오.
+   * **Platform Web SDK**: [Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 안내서의 *SDK 설치*&#x200B;를 참조하십시오.
+   * **at.js**: [at.js 다운로드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}를 참조하십시오.
 
 1. [!DNL Target]에서 **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**&#x200B;을(를) 클릭합니다.
 
@@ -48,7 +48,7 @@ ht-degree: 22%
 
    | 유형 | 매개 변수 | 참고 |
    |--- |--- |--- |
-   | 내장 프로필 | `profile.activeActivities` | 방문자가 자격을 갖는 일련의 `activityIds`를 반환합니다. 사용자가 자격을 갖게 됨에 따라 증가합니다. 예를 들어, 두 개의 서로 다른 활동을 전달하는 두 개의 [!DNL Target] 요청이 있는 페이지에서 두 번째 요청에는 두 활동이 모두 포함됩니다. |
+   | 기본 제공 프로필 | `profile.activeActivities` | 방문자가 자격을 갖는 일련의 `activityIds`를 반환합니다. 사용자가 자격을 갖게 됨에 따라 증가합니다. 예를 들어, 두 개의 서로 다른 활동을 전달하는 두 개의 [!DNL Target] 요청이 있는 페이지에서 두 번째 요청에는 두 활동이 모두 포함됩니다. |
    |  | `profile.isFirstSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
    |  | `profile.isNewSession` | &quot;true&quot; 또는 &quot;false&quot;를 반환합니다. |
    |  | `profile.daysSinceLastVisit` | 방문자가 마지막으로 방문한 이후 경과한 일수를 반환합니다. |
@@ -147,7 +147,7 @@ ht-degree: 22%
 
 ### 사용자 지정 이벤트를 사용하는 ![at.js 배지](/help/main/assets/atjs.png) at.js
 
-[at.js 사용자 지정 이벤트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=ko){target=_blank}를 사용하여 [!DNL Target] 응답을 수신하고 응답 토큰을 읽습니다.
+[at.js 사용자 지정 이벤트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank}를 사용하여 [!DNL Target] 응답을 수신하고 응답 토큰을 읽습니다.
 
 다음 코드 샘플은 [!DNL at.js] 사용자 지정 이벤트 핸들러를 HTML 페이지에 바로 추가합니다.
 
@@ -424,6 +424,6 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 >
 >[!DNL Target] [!UICONTROL Administration] 메뉴 UI(이전 [!UICONTROL Setup])는 향상된 성능을 제공하고, 새로운 기능을 출시할 때 필요한 유지 관리 시간을 줄이고, 제품 전반에 걸쳐 사용자 경험을 개선할 수 있도록 새롭게 디자인되었습니다. 다음 비디오의 정보는 정확하지만 옵션이 약간 다른 위치에 있습니다.
 >
->비디오에는 각각 `offer.name` 및 `offer.id`(으)로 바뀐 `option.name` 및 `option.id`이(가) 언급되어 있습니다.
+>비디오에는 각각 `option.name` 및 `option.id`(으)로 바뀐 `offer.name` 및 `offer.id`이(가) 언급되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/33347?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)

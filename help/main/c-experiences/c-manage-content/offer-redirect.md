@@ -19,7 +19,7 @@ ht-degree: 25%
 
 >[!NOTE]
 >
-> * 리디렉션 오퍼는 [!UICONTROL Offers] > [!UICONTROL Code Offers] 페이지 또는 [Forms 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)에서 만들 수 있습니다. [!UICONTROL Visual Experience Composer] (VEC)에서 리디렉션 오퍼를 만들거나 적용할 수 없습니다. [!DNL Target] 요청 위치에 콘텐츠가 삽입되므로 이러한 위치는 전역 [!DNL Target] 요청에 적합하지 않을 수 있습니다.
+> * 리디렉션 오퍼는 [!UICONTROL Offers] > [!UICONTROL Code Offers] 페이지 또는 [Forms 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)에서 만들 수 있습니다. [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 리디렉션 오퍼를 만들거나 적용할 수 없습니다. [!DNL Target] 요청 위치에 콘텐츠가 삽입되므로 이러한 위치는 전역 [!DNL Target] 요청에 적합하지 않을 수 있습니다.
 >
 >* AJAX mbox(`mboxUpdate`)에서 리디렉션 오퍼를 사용할 수 없습니다.
 >
@@ -53,7 +53,7 @@ ht-degree: 25%
 
    * **[!UICONTROL Include all URL parameters]:** 이전 페이지에 있는 모든 URL 매개 변수를 리디렉션된 페이지에 전파하려면 이 옵션을 사용합니다.
 
-     예를 들어, 남성 페이지에서 남성 셔츠 카테고리 페이지로 사람들을 직접 리디렉션하려고 할 수 있습니다. 사람들이 이메일, 배너 광고, 검색 광고를 통해 사이트에 도달했는지 또는 유기적으로 도달했는지를 추적하는 방법으로서 URL의 동적 매개 변수를 전달하고자 할 수도 있습니다. 이 옵션을 활성화하면 URL 상자에 입력한 내용이 `https://www.mycompany.com/mensShirts.html`일 때 `https://www.mycompany.com/mens.html?emailId=123` 페이지의 리디렉션 오퍼가 자동으로 `https://www.mycompany.com/mensShirts.html?emailId=123`이(가) 됩니다.
+     예를 들어, 남성 페이지에서 남성 셔츠 카테고리 페이지로 사람들을 직접 리디렉션하려고 할 수 있습니다. 사람들이 이메일, 배너 광고, 검색 광고를 통해 사이트에 도달했는지 또는 유기적으로 도달했는지를 추적하는 방법으로서 URL의 동적 매개 변수를 전달하고자 할 수도 있습니다. 이 옵션을 활성화하면 URL 상자에 입력한 내용이 `https://www.mycompany.com/mens.html?emailId=123`일 때 `https://www.mycompany.com/mensShirts.html?emailId=123` 페이지의 리디렉션 오퍼가 자동으로 `https://www.mycompany.com/mensShirts.html`이(가) 됩니다.
 
    * **[!UICONTROL Pass mbox session ID]:** 다른 도메인으로 리디렉션하는 데 필요합니다. `sessionId`을(를) 리디렉션에 자동으로 포함하려면 토글을 밀어 이 옵션을 사용하도록 설정합니다. 이 옵션은 이메일 클릭 수 또는 한 도메인에서 다른 도메인으로의 클릭 수를 테스트할 때만 필요합니다. `sessionId`를 사용하여 방문자의 쿠키가 일치하는지 확인하므로, 방문자를 계속 추적할 수 있고 적절한 컨텐츠가 표시됩니다.
 
@@ -84,7 +84,7 @@ ht-degree: 25%
 
    * **[!UICONTROL Include all URL parameters]:** 이전 페이지에 있는 모든 URL 매개 변수를 리디렉션된 페이지에 전파하려면 토글을 밀어 이 옵션을 사용하도록 설정합니다.
 
-     예를 들어, 남성 페이지에서 남성 셔츠 카테고리 페이지로 사람들을 직접 리디렉션하려고 할 수 있습니다. 사람들이 이메일, 배너 광고, 검색 광고를 통해 사이트에 도달했는지 또는 유기적으로 도달했는지를 추적하는 방법으로서 URL의 동적 매개 변수를 전달하고자 할 수도 있습니다. 이 옵션을 활성화하면 URL 상자에 입력한 내용이 `https://www.mycompany.com/mensShirts.html`일 때 `https://www.mycompany.com/mens.html?emailId=123` 페이지의 리디렉션 오퍼가 자동으로 `https://www.mycompany.com/mensShirts.html?emailId=123`이(가) 됩니다.
+     예를 들어, 남성 페이지에서 남성 셔츠 카테고리 페이지로 사람들을 직접 리디렉션하려고 할 수 있습니다. 사람들이 이메일, 배너 광고, 검색 광고를 통해 사이트에 도달했는지 또는 유기적으로 도달했는지를 추적하는 방법으로서 URL의 동적 매개 변수를 전달하고자 할 수도 있습니다. 이 옵션을 활성화하면 URL 상자에 입력한 내용이 `https://www.mycompany.com/mens.html?emailId=123`일 때 `https://www.mycompany.com/mensShirts.html?emailId=123` 페이지의 리디렉션 오퍼가 자동으로 `https://www.mycompany.com/mensShirts.html`이(가) 됩니다.
 
    * **[!UICONTROL Pass mbox session ID]:** 다른 도메인으로 리디렉션하는 데 필요합니다. `sessionId`을(를) 리디렉션에 자동으로 포함하려면 토글을 밀어 이 옵션을 사용하도록 설정합니다. 이 옵션은 이메일 클릭 수 또는 한 도메인에서 다른 도메인으로의 클릭 수를 테스트할 때만 필요합니다. `sessionId`를 사용하여 방문자의 쿠키가 일치하는지 확인하므로, 방문자를 계속 추적할 수 있고 적절한 컨텐츠가 표시됩니다.
 
@@ -100,7 +100,7 @@ ht-degree: 25%
 
 [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)을(를) 사용하여 리디렉션 오퍼를 적용합니다. 현재 VEC([!UICONTROL Visual Experience Composer])를 사용하여 리디렉션 오퍼를 적용할 수 없습니다.
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) [!UICONTROL Visual Experience Composer]을(를) 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 리디렉션 오퍼를 사용하는 경험을 만들 수 있습니다.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) [!UICONTROL A/B Tests]을(를) 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization]&#x200B;(XT), [!UICONTROL Recommendations]&#x200B;(AP) 및 [!UICONTROL Visual Experience Composer] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 리디렉션 오퍼를 사용하는 경험을 만들 수 있습니다.
 
 1. [!UICONTROL Form-Based Experience Composer]에서 활동을 만들거나 편집합니다.
 

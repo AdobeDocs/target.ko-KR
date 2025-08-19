@@ -1,6 +1,6 @@
 ---
 keywords: Target;보고서;보고서 설정;환경;상승도;상승도 한계;분산;신뢰도;통제
-description: 활동의 상승도 한계와 신뢰 수준을 이해하는 데 도움이 되는 데이터 포인트와 시각화 표시를 포함하는 Adobe [!DNL Target] 보고서를 해석하는 방법에 대해 알아봅니다.
+description: 활동의 상승도 한계와 신뢰 수준을 이해하는 데 도움이 되는 데이터 포인트와 시각화 표시를 포함하는 Adobe [!DNL Target] 보고서를 해석하는 방법을 알아봅니다.
 title: 평균 상승도, 상승도 한계 및 신뢰 구간을 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323

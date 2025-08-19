@@ -3,7 +3,7 @@ keywords: ai 도우미;인공 지능 도우미;콘텐츠 생성;콘텐츠 가속
 description: ' [!DNL AI Assistant]을(를) 사용하여 매력적인 콘텐츠를 생성하는 방법을 알아봅니다.'
 title: ' [!DNL AI Assistant] in [!DNL Target] 을(를) 사용하여 매력적인 콘텐츠를 만들려면 어떻게 해야 합니까?'
 feature: Overview
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 hide: true
 hidefromtoc: true
 exl-id: eb6f07d8-729e-4f94-ae7a-a054bf54b030
@@ -59,7 +59,7 @@ ht-degree: 1%
 
    * **음색**: 텍스트 음색이 대상자에게 울려 퍼집니다. [!DNL AI Assistant]이(가) 유익하거나, 흥미롭고, 장난스럽거나, 설득력 있게 들리도록 들릴지 여부에 관계없이 메시지를 적절히 조정할 수 있습니다.
 
-     옵션은 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] 및 [!UICONTROL Conversational]입니다.
+     옵션은 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] 및 [!UICONTROL Conversational]입니다.
 
 1. 슬라이더를 사용하여 짧음에서 길음 사이의 텍스트 길이를 선택합니다.
 
@@ -100,4 +100,4 @@ ht-degree: 1%
 
 ### 콘텐츠 생성을 위해 AI Assistant를 사용하여 콘텐츠 생성
 
->[!VIDEO](https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor">https://video.tv.adobe.com/v/3434642/?learn=on&captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/3434635/?learn=on">https://video.tv.adobe.com/v/3434635/?learn=on)

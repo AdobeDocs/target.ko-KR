@@ -7,18 +7,18 @@ exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 source-git-commit: 981cff428d9e8849b9bbcbf7bef389dad0fbb32a
 workflow-type: tm+mt
 source-wordcount: '596'
-ht-degree: 6%
+ht-degree: 10%
 
 ---
 
 # 활동 설정 - A4T FAQ
 
-이 주제에서는 활동 설정과 [!DNL Analytics]을(를) [!DNL Target] (A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
+이 주제에서는 활동 설정과 [!DNL Analytics]을(를) [!DNL Target]&#x200B;(A4T)의 보고 소스로 사용하는 것과 관련하여 자주 묻는 질문에 대한 답변을 제공합니다.
 
 ## 보고 소스로 [!DNL Analytics]을(를) 지원하는 활동 유형(A4T)은 무엇입니까? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
 +++답변
-전체 목록이 필요하면 [Adobe Analytics as the Reporting Source for Adobe Target(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)의 &quot;지원되는 활동 유형&quot;을 참조하십시오.
+전체 목록이 필요하면 [Adobe Target용 보고 소스로서의 Adobe Analytics(A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)에서 &quot;지원되는 활동 유형&quot;을 참조하십시오.
 
 +++
 
@@ -45,23 +45,23 @@ A4T 보고를 사용하는 별도의 [작업 영역](/help/main/administrating-t
 
 
 +++답변
-활동이 만들어지면 [!DNL Target]에서 [!DNL Analytics] (으)로 분류 파일을 보냅니다. [!DNL Analytics]이(가) 데이터를 캡처하고 처리 중이지만 분류 파일이 업데이트될 때까지 보고서에 표시되지 않습니다. 이 프로세스를 완료하는 데 24~72시간이 걸릴 수 있습니다. 72시간 후에도 데이터가 표시되지 않으면 [Client Care에 문의](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)하세요. 또는 활동을 시작하는 것을 알고 있는 경우 며칠 전에 활동을 만들 수 있으며 활동이 저장되면 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. [!DNL Analytics]에서 데이터를 처리하는 데 45~90분이 소요됩니다.
+활동이 만들어지면 [!DNL Target]에서 [!DNL Analytics]&#x200B;(으)로 분류 파일을 보냅니다. [!DNL Analytics]이(가) 데이터를 캡처하고 처리 중이지만 분류 파일이 업데이트될 때까지 보고서에 표시되지 않습니다. 이 프로세스를 완료하는 데 24~72시간이 걸릴 수 있습니다. 72시간 후에도 데이터가 표시되지 않으면 [Client Care에 문의](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)하세요. 또는 활동을 시작하는 것을 알고 있는 경우 며칠 전에 활동을 만들 수 있으며 활동이 저장되면 분류가 전송됩니다. 이렇게 하면 활동이 실행될 때 데이터가 보고서에 표시됩니다. [!DNL Analytics]에서 데이터를 처리하는 데 45~90분이 소요됩니다.
 
 +++
 
 ## 활동을 만들 때 Analytics를 보고 소스로 선택할 수 없는 이유는 무엇입니까? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
 +++답변
-[!UICONTROL Administration]에서 [!UICONTROL Reporting Settings] 옵션을 변경할 수 있습니다.
+[!UICONTROL Reporting Settings]에서 [!UICONTROL Administration] 옵션을 변경할 수 있습니다.
 
 1. [!DNL Target]에서 **[!UICONTROL Administration]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Experience Cloud solution used for reporting]** 드롭다운 목록에서 **[!UICONTROL Select per Activity]**&#x200B;을(를) 클릭합니다.
 
 ![활동당 이미지 선택](assets/select-per-activity.png)
 
-**[!UICONTROL Goal & Settings]** 화면에서 **[!UICONTROL Reporting Source]** 드롭다운 목록을 사용하여 활동을 만들고 편집할 수 있습니다.
+**[!UICONTROL Reporting Source]** 화면에서 **[!UICONTROL Goal & Settings]** 드롭다운 목록을 사용하여 활동을 만들고 편집할 수 있습니다.
 
-항상 [!DNL Analytics]을(를) 보고 소스로 사용하려면 [!UICONTROL Administration]의 드롭다운 목록에서 **[!UICONTROL Adobe Analytics]**&#x200B;을(를) 선택하십시오.
+항상 [!DNL Analytics]을(를) 보고 소스로 사용하려면 **[!UICONTROL Adobe Analytics]**&#x200B;의 드롭다운 목록에서 [!UICONTROL Administration]을(를) 선택하십시오.
 
 +++
 
@@ -79,9 +79,9 @@ A4T 보고를 사용하는 별도의 [작업 영역](/help/main/administrating-t
 
 +++
 
-## [!UICONTROL Auto-Allocate] 활동의 최적화 목표로 적용된 세그먼트로 이항 [!DNL Analytics] 지표를 사용할 수 있습니까? {#binomial}
+## [!DNL Analytics] 활동의 최적화 목표로 적용된 세그먼트로 이항 [!UICONTROL Auto-Allocate] 지표를 사용할 수 있습니까? {#binomial}
 
 +++답변
-[!UICONTROL Auto-Allocate] 활동의 최적화 목표로 적용된 세그먼트에는 [!DNL Analytics] 지표를 사용할 수 없습니다. 해결 방법으로, 동일한 목표를 달성하는 사용자 정의 이벤트를 정의하고 이 이벤트를 최적화 목표 지표로 사용할 수 있습니다.
+[!DNL Analytics] 활동의 최적화 목표로 적용된 세그먼트에는 [!UICONTROL Auto-Allocate] 지표를 사용할 수 없습니다. 해결 방법으로, 동일한 목표를 달성하는 사용자 정의 이벤트를 정의하고 이 이벤트를 최적화 목표 지표로 사용할 수 있습니다.
 
 +++

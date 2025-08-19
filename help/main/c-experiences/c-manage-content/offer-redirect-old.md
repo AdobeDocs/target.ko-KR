@@ -1,6 +1,6 @@
 ---
 keywords: 리디렉션 오퍼;리디렉션 오퍼 만들기;html 오퍼 추가;리디렉션에서 모든 URL 매개 변수 전달;리디렉션에서 mboxSessionId 전달(리디렉션이 다른 도메인으로 진행될 경우에만 필요함)
-description: ' [!DNL Target]  Adobe에서 리디렉션 오퍼를 만들어 브라우저가 새 페이지로 리디렉션하는 방법을 알아봅니다.'
+description: Adobe [!DNL Target] 에서 리디렉션 오퍼를 만들어 브라우저가 새 페이지로 리디렉션하는 방법을 알아봅니다.
 title: 리디렉션 오퍼를 만들려면 어떻게 합니까?
 feature: Experiences and Offers
 exl-id: b7b960cb-5057-455b-8fab-86dd37343a04
@@ -57,7 +57,7 @@ ht-degree: 45%
 
    * **모든 URL 매개 변수 포함:** 이전 페이지에 있는 모든 URL 매개 변수를 리디렉션된 페이지에 전파하려면 토글을 밀어 이 옵션을 사용하도록 설정합니다.
 
-     예를 들어, 남성 페이지에서 남성 셔츠 카테고리 페이지로 사람들을 직접 리디렉션하려고 할 수 있습니다. 사람들이 자신의 사이트에 이메일, 배너 광고, 검색 광고를 통해 도달했는지 아니면 구조적으로 도달했는지를 추적하는 방법으로서 URL의 동적 매개 변수를 전달하고자 할 수도 있습니다. 이 옵션을 활성화하면 URL 상자에 입력한 내용이 `https://www.mycompany.com/mensShirts.html`일 때 `https://www.mycompany.com/mens.html?emailId=123` 페이지의 리디렉션 오퍼가 자동으로 `https://www.mycompany.com/mensShirts.html?emailId=123`이(가) 됩니다.
+     예를 들어, 남성 페이지에서 남성 셔츠 카테고리 페이지로 사람들을 직접 리디렉션하려고 할 수 있습니다. 사람들이 자신의 사이트에 이메일, 배너 광고, 검색 광고를 통해 도달했는지 아니면 구조적으로 도달했는지를 추적하는 방법으로서 URL의 동적 매개 변수를 전달하고자 할 수도 있습니다. 이 옵션을 활성화하면 URL 상자에 입력한 내용이 `https://www.mycompany.com/mens.html?emailId=123`일 때 `https://www.mycompany.com/mensShirts.html?emailId=123` 페이지의 리디렉션 오퍼가 자동으로 `https://www.mycompany.com/mensShirts.html`이(가) 됩니다.
 
    * **mbox 세션 ID 전달:** 다른 도메인으로 리디렉션하는 데 필요합니다. `sessionId`을(를) 리디렉션에 자동으로 포함하려면 토글을 밀어 이 옵션을 사용하도록 설정합니다. 이메일에서의 클릭이나 한 도메인에서 다른 도메인으로의 클릭을 테스트할 때만 필요합니다. `sessionId`를 사용하여 방문자의 쿠키가 일치하는지 확인하므로, 방문자를 계속 추적할 수 있고 적절한 컨텐츠가 표시됩니다.
 
@@ -97,7 +97,7 @@ ht-degree: 45%
 
    * **모든 URL 매개 변수 포함:** 이전 페이지에 있는 모든 URL 매개 변수를 리디렉션된 페이지에 전파하려면 토글을 밀어 이 옵션을 사용하도록 설정합니다.
 
-     예를 들어, 남성 페이지에서 남성 셔츠 카테고리 페이지로 사람들을 직접 리디렉션하려고 할 수 있습니다. 사람들이 자신의 사이트에 이메일, 배너 광고, 검색 광고를 통해 도달했는지 아니면 구조적으로 도달했는지를 추적하는 방법으로서 URL의 동적 매개 변수를 전달하고자 할 수도 있습니다. 이 옵션을 활성화하면 URL 상자에 입력한 내용이 `https://www.mycompany.com/mensShirts.html`일 때 `https://www.mycompany.com/mens.html?emailId=123` 페이지의 리디렉션 오퍼가 자동으로 `https://www.mycompany.com/mensShirts.html?emailId=123`이(가) 됩니다.
+     예를 들어, 남성 페이지에서 남성 셔츠 카테고리 페이지로 사람들을 직접 리디렉션하려고 할 수 있습니다. 사람들이 자신의 사이트에 이메일, 배너 광고, 검색 광고를 통해 도달했는지 아니면 구조적으로 도달했는지를 추적하는 방법으로서 URL의 동적 매개 변수를 전달하고자 할 수도 있습니다. 이 옵션을 활성화하면 URL 상자에 입력한 내용이 `https://www.mycompany.com/mens.html?emailId=123`일 때 `https://www.mycompany.com/mensShirts.html?emailId=123` 페이지의 리디렉션 오퍼가 자동으로 `https://www.mycompany.com/mensShirts.html`이(가) 됩니다.
 
    * **mbox 세션 ID 전달:** 다른 도메인으로 리디렉션하는 데 필요합니다. `sessionId`을(를) 리디렉션에 자동으로 포함하려면 토글을 밀어 이 옵션을 사용하도록 설정합니다. 이메일에서의 클릭이나 한 도메인에서 다른 도메인으로의 클릭을 테스트할 때만 필요합니다. `sessionId`를 사용하여 방문자의 쿠키가 일치하는지 확인하므로, 방문자를 계속 추적할 수 있고 적절한 컨텐츠가 표시됩니다.
 
@@ -113,7 +113,7 @@ ht-degree: 45%
 
 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 리디렉션 오퍼를 적용해야 합니다. 현재 VEC를 사용하여 리디렉션 오퍼를 적용할 수 없습니다.
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 리디렉션 오퍼를 사용하는 경험을 만들 수 있습니다.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting]&#x200B;(XT), [!UICONTROL Automated Personalization]&#x200B;(AP) 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 리디렉션 오퍼를 사용하는 경험을 만들 수 있습니다.
 
 1. [!UICONTROL Form-Based Experience Composer]에서 활동을 만들거나 편집합니다.
 

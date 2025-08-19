@@ -1,6 +1,6 @@
 ---
 keywords: 타겟 지정
-description: ' [!DNL Target]  Adobe이 각 경험에 대한 전환율, 상승도, 신뢰도 및 신뢰 구간을 표시하고 계산하는 방법을 알아봅니다.'
+description: Adobe [!DNL Target] 에서 각 경험에 대한 전환율, 상승도, 신뢰도 및 신뢰 구간을 표시하고 계산하는 방법을 알아봅니다.
 title: 전환율, 상승도 및 신뢰 수준을 보려면 어떻게 해야 합니까?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
@@ -108,7 +108,7 @@ A4T의 경우 연속 변수(이진 지표가 아님)에 대해 [Welch의 t-test]
 1. **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Data Warehouse Request]** 탭에서 필드를 채웁니다.
 
-   각 필드에 대한 자세한 내용은 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=ko)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
+   각 필드에 대한 자세한 내용은 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
 
    | 필드 | 지침 |
    |--- |--- |
@@ -128,8 +128,8 @@ A4T의 경우 연속 변수(이진 지표가 아님)에 대해 [Welch의 t-test]
 
 [!DNL Data Warehouse]에 대한 자세한 내용은 [!DNL Analytics] 도움말 설명서에서 다음 링크를 참조하십시오.
 
-* [Data Warehouse 요청 만들기](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ko)
-* [Data Warehouse 모범 사례](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ko)
+* [Data Warehouse 요청 만들기](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse 모범 사례](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## 계산 방법 {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -176,7 +176,7 @@ A/B 테스트는 제어 변형(경험이라고도 함)의 일부 비즈니스 �
 
 ### 더 자세히
 
-온라인 A/B 테스트를 실행할 때 각 사용자/방문자는 단일 변형에 임의로 할당됩니다. 그런 다음 관심 있는 비즈니스 지표(예: 전환, 주문, 매출 등)를 측정합니다. 각 변형의 방문자용. 그런 다음 사용하는 통계 테스트는 평균 비즈니스 지표(예: 전환율, 사용자당 주문, 사용자당 매출 등)에 대한 가설을 테스트합니다. 은 제어 및 주어진 대체 변형에 대해 같습니다.
+온라인 A/B 테스트를 실행할 때 각 사용자/방문자는 단일 변형에 임의로 할당됩니다. 그런 다음 각 변형에서 방문자에 대한 관심 비즈니스 지표(예: 전환, 주문, 매출 등)를 측정합니다. 그런 다음 사용하는 통계 테스트는 평균 비즈니스 지표(예: 전환율, 사용자당 주문, 사용자당 매출 등)가 제어 및 주어진 대체 변형에 대해 동일하다는 가설을 테스트합니다.
 
 비즈니스 지표 자체는 일부 임의 분포에 따라 분포될 수 있지만 이 지표의 평균 분포(각 변형 내)는 [중앙 제한 정리](https://en.wikipedia.org/wiki/Central_limit_theorem)를 통해 정규 분포에 수렴해야 합니다. 평균의 이 샘플링 분포가 얼마나 빨리 정상으로 수렴되는지에 대한 보장은 없지만 온라인 테스트의 방문자 규모를 고려할 때 일반적으로 이 조건이 달성됩니다.
 

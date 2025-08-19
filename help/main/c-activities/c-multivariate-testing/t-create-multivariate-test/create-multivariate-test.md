@@ -1,6 +1,6 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 만들기;다변량 테스트 생성;mvt 만들기;mvt 생성;mvt 방법;다변량 테스트 방법
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Visual Experience Composer]​(VEC)을(를) 사용하여 [!UICONTROL Multivariate Test]​(MVT)을(를) 만드는 방법을 알아봅니다.'
+description: '[!UICONTROL Visual Experience Composer]의  [!DNL Adobe Target] (VEC)을(를) 사용하여 [!UICONTROL Multivariate Test]​(MVT)을(를) 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Multivariate Test]을(를) 만드는 방법'
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
@@ -13,7 +13,7 @@ ht-degree: 26%
 
 # 다변량 테스트 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을(를) 사용하면 [!UICONTROL Multivariate Test]을(를) 쉽게 만들고 [!DNL Target] 내에서 페이지의 일부를 수정할 수 있습니다.
+[!UICONTROL Visual Experience Composer]의 [!DNL Adobe Target]&#x200B;(VEC)을(를) 사용하면 [!UICONTROL Multivariate Test]을(를) 쉽게 만들고 [!DNL Target] 내에서 페이지의 일부를 수정할 수 있습니다.
 
 [!DNL Target] 가리키고 클릭 편집기를 사용하여 원하는 위치를 선택하고 여러 오퍼를 추가할 수 있습니다.
 
@@ -39,7 +39,7 @@ ht-degree: 26%
 
    [!UICONTROL Visual Experience Composer]이(가) 열립니다.
 
-1. 활동의 이름을 지정하려면 &quot;[!UICONTROL Untitled Activity]&quot; 옆에 있는 **[!UICONTROL Edit]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 활동의 이름을 지정하려면 &quot;**[!UICONTROL Edit]**&quot; 옆에 있는 ![ 아이콘(](/help/main/assets/icons/Edit.svg)편집 아이콘[!UICONTROL Untitled Activity])을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 
@@ -89,7 +89,7 @@ ht-degree: 26%
 
 1. [트래픽 견적 도구를 사용하여](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) 테스트 계획의 가능성을 테스트합니다.
 
-1. [!UICONTROL Targeting] 페이지로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
+1. **[!UICONTROL Next]** 페이지로 이동하려면 [!UICONTROL Targeting]을(를) 클릭하십시오.
 
    **타깃팅** 단계는 다른 [!DNL Target] 활동 유형을 사용해본 적이 있는 경우 친숙하게 보입니다. 여기에서 대상을 선택하고 각 경험을 보는 방문자의 비율을 지정할 수 있습니다.
 
@@ -109,7 +109,7 @@ ht-degree: 26%
       [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
 
       * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
-      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
+      * **[!UICONTROL This activity only]**: [에 저장되지 않고 현재 활동에서만 사용할 수 있는 ](/help/main/c-target/creating-activity-only-audience.md)활동별 대상[!UICONTROL Audience Library]을 만듭니다.
 
    1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
 
@@ -128,4 +128,4 @@ ht-degree: 26%
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

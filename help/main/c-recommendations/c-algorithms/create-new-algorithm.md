@@ -1,8 +1,8 @@
 ---
 keywords: 기준;알고리즘;업계 카테고리;페이지 유형;권장 사항 키;권장 사항 논리;논리;데이터 범위;전환 확인 기간;동작 데이터 소스;부분 디자인;백업 권장 사항;포함 규칙;속성 가중치;현재 카테고리;사용자 지정 속성;마지막 구매 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;즐겨찾기 카테고리;인기;최근에 본 항목;마지막으로 구매한 항목;마지막으로 본 항목;가장 많이 본 항목;가장 많이 본 항목;최근에 본 항목
 description: ' [!DNL Recommendations] 활동의 콘텐츠를 제어하는 기준을 만들어 활동에 가장 적합한 권장 사항을 표시하는 방법에 대해 알아봅니다.'
-title: ' [!DNL Recommendations]에서 [!UICONTROL Criteria]을(를) 만들려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+title: '[!UICONTROL Criteria]에서  [!DNL Recommendations]을(를) 만들려면 어떻게 해야 합니까?'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -23,7 +23,7 @@ ht-degree: 47%
 [!UICONTROL Create New Criteria] 화면에 액세스하는 방법에는 여러 가지가 있습니다. 일부 화면 옵션은 화면에 도달하는 방법에 따라 달라집니다.
 
 * **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** 라이브러리 화면에서 **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!DNL Recommendations] 활동에 사용 가능해집니다.
-* [!UICONTROL Visual Experience Composer] (VEC)을 사용하여 [!DNL Recommendations] 활동을 만드는 경우 페이지에서 요소를 선택하고 [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before] 또는 [!UICONTROL Insert Recommendations After]을(를) 클릭하면 즉시 [!UICONTROL Select Criteria] 화면으로 이동합니다. 그런 다음 사용 가능한 기준을 선택하거나 **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭할 수 있습니다. 새 기준을 만들면 다른 [!DNL Recommendations] 활동과 함께 사용할 기준을 저장할 수 있습니다. 자세한 내용은 [Recommendations 활동 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)를 참조하십시오.
+* [!DNL Recommendations]&#x200B;(VEC)을 사용하여 [!UICONTROL Visual Experience Composer] 활동을 만드는 경우 페이지에서 요소를 선택하고 [!UICONTROL Select Criteria], [!UICONTROL Replace w/ Recommendations] 또는 [!UICONTROL Insert Recommendations Before]을(를) 클릭하면 즉시 [!UICONTROL Insert Recommendations After] 화면으로 이동합니다. 그런 다음 사용 가능한 기준을 선택하거나 **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭할 수 있습니다. 새 기준을 만들면 다른 [!DNL Recommendations] 활동과 함께 사용할 기준을 저장할 수 있습니다. 자세한 내용은 [권장 사항 활동 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)를 참조하십시오.
 * [!DNL Recommendations] 활동을 편집하는 경우 페이지에서 [!UICONTROL Recommendations Location] 상자를 클릭하고 **[!UICONTROL Change Criteria]**&#x200B;을(를) 선택합니다. [!UICONTROL Select Criteria] 화면에서 **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭합니다. 다른 [!DNL Recommendations] 활동과 함께 사용할 새 기준을 저장하는 선택 사항이 있습니다.
 
 다음 단계에서는 첫 번째 메서드를 사용하여 [!UICONTROL Create New Criteria] 화면에 액세스한다고 가정합니다. **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** 라이브러리 화면.
@@ -143,7 +143,7 @@ ht-degree: 47%
    * **이미 사용 가능한 보고서 세트를 사용하는 새 기준 또는 편집된 기준**: 새 기준을 만들거나 기존 기준을 편집할 때 선택한 보고서 세트를 선택한 데이터 범위와 같거나 그보다 적은 데이터 범위를 갖는 [!DNL Target Recommendations]에서 이미 사용한 경우 데이터를 즉시 사용할 수 있으며 일회성 설정이 필요하지 않습니다. 이러한 경우, 또는 선택한 보고서 세트나 데이터 범위를 수정하지 않고 알고리즘 설정이 편집된 경우 알고리즘이 12시간 이내에 실행되거나 재실행됩니다.
    * **지속적인 알고리즘 실행**: 데이터는 매일 [!DNL Analytics]에서 [!DNL Target Recommendations]으로 이동합니다. 예를 들어 [!UICONTROL Viewed Affinity] 권장 사항의 경우 사용자가 제품을 볼 때 제품 보기 추적 호출이 실시간에 가깝게 [!DNL Analytics]에 전달됩니다. [!DNL Analytics] 데이터가 다음 날 일찍 [!DNL Target]에 푸시되고 [!DNL Target]이 12시간 이내에 알고리즘을 실행합니다.
 
-   자세한 내용은 [Target Recommendations에서 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)을 참조하십시오.
+   자세한 내용은 [Target 권장 사항과 함께 Adobe Analytics 사용](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)을 참조하세요.
 
 1. 표시할 권장 사항을 결정할 때 사용할 사용 가능한 내역 사용자 동작 데이터의 시간 범위를 결정하려면 **[!UICONTROL Lookback Window]**&#x200B;을(를) 설정하십시오. 이 옵션은 [!UICONTROL Items with Similar Attributes] 및 [!UICONTROL Custom Algorithms]을(를) 제외한 모든 알고리즘에 사용할 수 있습니다.
 
@@ -157,7 +157,7 @@ ht-degree: 47%
 
    | 전환 확인 기간 옵션 | 업데이트된 빈도(마우스로 가리키면 표시됨) | 지원되는 알고리즘 |
    | --- | --- | --- |
-   | 6시간 | 알고리즘은 3~6시간마다 실행됩니다 | 선택한 [!UICONTROL Behavioral Data Source]이(가) [!DNL Adobe Target]인 경우 [!UICONTROL Popularity-Based] 알고리즘 |
+   | 6시간 | 알고리즘은 3~6시간마다 실행됩니다 | 선택한 [!UICONTROL Popularity-Based]이(가) [!UICONTROL Behavioral Data Source]인 경우 [!DNL Adobe Target] 알고리즘 |
    | 하루 | 알고리즘은 12~24시간마다 실행됩니다 | [!UICONTROL Popularity-Based] 알고리즘 |
    | 2일 | 알고리즘은 12~24시간마다 실행됩니다 | <ul><li>[!UICONTROL Popularity-Based] 알고리즘</li><li>[!UICONTROL Item-Based] 알고리즘</li><li>[!UICONTROL User-Based] 알고리즘</li><li>[!UICONTROL Cart-Based] 알고리즘</li></ul> |
    | 1주 | 알고리즘은 24-48시간마다 실행됩니다 | <ul><li>[!UICONTROL Popularity-Based] 알고리즘</li><li>[!UICONTROL Item-Based] 알고리즘</li><li>[!UICONTROL User-Based] 알고리즘</li><li>[!UICONTROL Cart-Based] 알고리즘</li></ul> |
@@ -171,7 +171,7 @@ ht-degree: 47%
 
 >[!NOTE]
 >
->**[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]**&#x200B;을(를) [!UICONTROL Algorithm Type] 및 [!UICONTROL Algorithm] (으)로 선택한 경우 콘텐츠 유사성 규칙을 설정할 수 있습니다.
+>**[!UICONTROL Item-Based]**/ **[!UICONTROL Media with Similar Attributes]**&#x200B;을(를) [!UICONTROL Algorithm Type] 및 [!UICONTROL Algorithm]&#x200B;(으)로 선택한 경우 콘텐츠 유사성 규칙을 설정할 수 있습니다.
 
 콘텐츠 유사성은 항목 속성 키워드를 비교하고 여러 항목에 공통되는 키워드의 수에 따라 권장 사항을 제공합니다. 콘텐츠 유사성을 기준으로 하는 권장 사항은 강력한 결과를 전달하기 위해 과거 데이터가 필요하지 않습니다.
 

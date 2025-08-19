@@ -2,19 +2,19 @@
 keywords: 권장 사항 만들기;권장 사항 활동;새 권장 사항;권장 사항 개요
 description: VEC( [!DNL Target] [!UICONTROL Visual Experience Composer])를 사용하여  [!DNL Recommendations] 활동을 만드는 방법을 알아봅니다.
 title: ' [!DNL Recommendations] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '1176'
-ht-degree: 51%
+ht-degree: 52%
 
 ---
 
 # [!DNL Recommendations] 활동 만들기
 
-[!DNL Target] [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 [!DNL Target]을(를) 사용할 수 있는 페이지에서 직접 [!DNL Recommendations] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
+[!DNL Target] [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을(를) 사용하여 [!DNL Recommendations]을(를) 사용할 수 있는 페이지에서 직접 [!DNL Target] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
 
 1. **[!UICONTROL Activities]** > **[!UICONTROL Create Activity]** > **[!UICONTROL Recommendations]**&#x200B;을(를) 클릭합니다.
 
@@ -73,7 +73,7 @@ ht-degree: 51%
 
    >[!NOTE]
    >
-   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL Compatible]** 확인란의 선택을 취소하십시오. Recommendations 설정에 따라 [!UICONTROL Compatible] 옵션이 표시되지 않을 수 있습니다(**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). 자세한 내용은 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하세요.
+   >모든 기준이 모든 페이지에서 올바르게 실행되지는 않습니다. 페이지 또는 mbox는 호환될 현재 항목/현재 카테고리에 대한 `entity.id` 또는 `entity.categoryId`를 제공해야 합니다. 일반적으로 호환 가능한 기준만 표시하는 것이 가장 좋습니다. 그러나 활동에 대해 호환되지 않는 기준을 사용할 수 있도록 하려면 **[!UICONTROL Compatible]** 확인란의 선택을 취소하십시오. 권장 사항 설정에 따라 [!UICONTROL Compatible] 옵션이 표시되지 않을 수 있습니다(**[!UICONTROL Recommendations]** > **[!UICONTROL Settings]** > **[!UICONTROL Filter Incompatible Criteria]**). 자세한 내용은 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
 
    ![기준 선택 대화 상자](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
@@ -144,7 +144,7 @@ ht-degree: 51%
 1. 완료되면 **[!UICONTROL Next]**&#x200B;을(를) 클릭합니다.
 1. 활동 설정을 지정합니다.
 
-   예를 들어, 활동에 대한 이름(필수) 및 목표(선택 사항)를 입력합니다. 설정에 대한 자세한 내용은 [Recommendations 활동 설정](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)을 참조하세요.
+   예를 들어, 활동에 대한 이름(필수) 및 목표(선택 사항)를 입력합니다. 설정에 대한 자세한 내용은 [권장 사항 활동 설정](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)을 참조하세요.
 
    >[!NOTE]
    >
@@ -172,6 +172,6 @@ ht-degree: 51%
 
    활동 충돌은 여러 활동이 동일한 페이지로 콘텐츠를 전달하도록 설정되어 있을 때 발생하며, 이로 인해 예상치 못한 콘텐츠가 표시될 수 있습니다.
 
-## 교육 비디오: Recommendations 활동 만들기(7:15) ![튜토리얼 배지](/help/main/assets/tutorial.png)
+## 교육 비디오: 권장 사항 활동 만들기(7:15) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/33986?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27688)

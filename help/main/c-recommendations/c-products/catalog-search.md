@@ -2,7 +2,7 @@
 keywords: 카탈로그 검색;카탈로그;검색;제외;컬렉션;필터;권장 사항
 description: ' [!DNL Recommendations] [!UICONTROL Catalog Search]을(를) 사용하여 제품 또는 콘텐츠를 찾고 카탈로그에서 항목을 제거하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Recommendations] [!UICONTROL Catalog Search]을(를) 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,7 +14,7 @@ ht-degree: 22%
 
 # [!UICONTROL Catalog Search]
 
-[!DNL Adobe Recommendations]의 [!UICONTROL Catalog Search] 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고 패싯을 필터링하고 테이블에서 열을 수정하고 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.
+[!UICONTROL Catalog Search]의 [!DNL Adobe Recommendations] 페이지는 카탈로그에서 제품이나 콘텐츠를 찾는 데 도움이 됩니다. 이 페이지에서 수행할 수 있는 가장 기본적인 작업은 항목을 검색하는 것입니다. 또한 환경을 변경하고 패싯을 필터링하고 테이블에서 열을 수정하고 새 검색 패싯을 추가하는 등의 작업을 수행할 수 있습니다.
 
 카탈로그는 전체 제품 세트(엔티티)를 나타냅니다. 카탈로그에는 제품을 논리 버킷으로 구성하는 여러 컬렉션이 포함될 수 있습니다.
 

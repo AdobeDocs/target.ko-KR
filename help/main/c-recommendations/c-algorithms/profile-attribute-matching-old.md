@@ -1,8 +1,8 @@
 ---
 keywords: 포함 규칙;포함 기준;권장 사항;프로모션;프로모션;동적 필터링;동적;프로필 속성 일치
-description: 항목(엔티티)을 사용자 프로필의 값과 비교하여 Adobe [!DNL Target] Recommendations에서 동적으로 필터링하는 방법을 알아봅니다.
+description: 항목(엔티티)을 사용자 프로필에 있는 값과 비교하여 Adobe [!DNL Target] 권장 사항에서 동적으로 필터링하는 방법을 알아봅니다.
 title: Recommendations 활동에서 프로필 속성 일치로 필터링하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -65,10 +65,10 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 방문자가 홈 페이지로 돌아오면 더 많은 작은 팬 또는 큰 팬을 클릭했는지 여부에 따라 필터링된 권장 사항이 표시됩니다.
 
-Recommendations은 웹 사이트에서 더 많은 작은 팬을 보는 것을 기반으로 합니다.
+웹 사이트에서 더 많은 작은 팬을 보는 것을 기반으로 하는 추천:
 
 ![소규모 팬 추천](/help/main/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendations은 웹 사이트에서 더 많은 대형 팬을 보는 것을 기반으로 합니다.
+웹 사이트에서 더 많은 대형 팬을 보는 것을 기반으로 하는 추천:
 
 ![대규모 팬 추천](/help/main/c-recommendations/c-algorithms/assets/large-fans.png)

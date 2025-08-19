@@ -40,7 +40,7 @@ function targetPageParams() {
 }
 ```
 
-자세한 내용은 *사용자 지정 엔터티 특성*&#x200B;에서 [다중 값 특성 구현](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)을 참조하십시오.
+자세한 내용은 [사용자 지정 엔터티 특성](/help/main/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14)에서 *다중 값 특성 구현*&#x200B;을 참조하십시오.
 
 ## CSV 파일에 다중 값 엔티티 속성 전달
 

@@ -1,8 +1,8 @@
 ---
 keywords: 권장 사항;권장 사항 활동;기준;알고리즘;권장 사항 키;사용자 지정 키;업계 카테고리;소매;전자 상거래;리드 생성;b2b;금융 서비스;미디어;게시
-description: ' [!DNL Target] [!DNL Recommendations] Adobe에서 기준을 사용하는 방법을 알아봅니다.'
-title: ' [!DNL Target] Recommendations에서 기준을 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+description: Adobe [!DNL Target] [!DNL Recommendations]에서 기준을 사용하는 방법을 알아봅니다.
+title: ' [!DNL Target] 추천에서 기준을 사용하는 방법'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 # [!UICONTROL Criteria]
 
-[!DNL Adobe Target] [!DNL Recommendations]의 [!UICONTROL Criteria]은(는) 사전 결정된 방문자 동작 집합을 기반으로 추천할 제품 또는 콘텐츠를 결정하는 규칙입니다. 기준은 인기 있는 트렌드, 방문자의 현재 및 과거 행동 또는 유사한 제품 및 콘텐츠를 기반으로 할 수 있습니다. 여러 알고리즘을 추가하여 여러 권장 사항 유형을 서로 비교하면서 테스트할 수 있습니다.
+[!UICONTROL Criteria] [!DNL Adobe Target]의 [!DNL Recommendations]은(는) 사전 결정된 방문자 동작 집합을 기반으로 추천할 제품 또는 콘텐츠를 결정하는 규칙입니다. 기준은 인기 있는 트렌드, 방문자의 현재 및 과거 행동 또는 유사한 제품 및 콘텐츠를 기반으로 할 수 있습니다. 여러 알고리즘을 추가하여 여러 권장 사항 유형을 서로 비교하면서 테스트할 수 있습니다.
 
 다음 섹션에서는 각 키에 사용할 수 있는 기준 키와 권장 사항 논리에 대해 자세히 설명합니다. 자세한 내용을 보려면 링크를 클릭하십시오.
 
@@ -38,7 +38,7 @@ ht-degree: 5%
 
 | 알고리즘 유형 | 사용 시기 | 사용 가능한 알고리즘 |
 | --- | --- | --- |
-| [!UICONTROL Cart-Based] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다. | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>자세한 내용은 *추천 키를 기반으로 추천*&#x200B;의 [장바구니 기반](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)을 참조하세요. |
+| [!UICONTROL Cart-Based] | 사용자의 장바구니 콘텐츠를 기반으로 추천을 제공합니다. | <ul><li>[!UICONTROL People Who Viewed These, Also Viewed]</li><li>[!UICONTROL People Who Viewed These, Also Bought]</li><li>[!UICONTROL People Who Bought These, Also Bought]</li></ul>자세한 내용은 [추천 키를 기반으로 추천](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based)의 *장바구니 기반*&#x200B;을 참조하세요. |
 | [!UICONTROL Popularity-Based] | 사이트에서 항목의 전체 인기도를 기반으로 추천하거나 사용자가 좋아하거나 가장 많이 본 카테고리, 브랜드, 장르 등의 항목 인기도를 기반으로 추천합니다. | <ul><li>[!UICONTROL Most Viewed Across the Site]</li><li>[!UICONTROL Most Viewed by Category]</li><li>[!UICONTROL Most Viewed by Item Attribute]</li><li>[!UICONTROL Top Sellers Across the Site]</li><li>[!UICONTROL Top Sellers by Category]</li><li>[!UICONTROL Top Sellers by Item Attribute]</li><li>[!UICONTROL Top by Analytics Metric]</li></ul> |
 | [!UICONTROL Item-Based] | 사용자가 현재 보고 있거나 최근에 본 항목과 유사한 항목을 찾은 후 권장 사항을 제공합니다. | <ul><li>[!UICONTROL People Who Viewed This, Viewed That]</li><li>[!UICONTROL People Who Viewed This, Bought That]</li><li>[!UICONTROL People Who Bought This, Bought That]</li><li>[!UICONTROL Items with Similar Attributes]</li></ul> |
 | [!UICONTROL User-Based] | 사용자의 행동을 기반으로 권장 사항을 제공합니다. | <ul><li>[!UICONTROL Recently Viewed Items]</li><li>[!UICONTROL Recommended for You]</li></ul> |
@@ -62,9 +62,9 @@ ht-degree: 5%
 
 1. [기본 정보 섹션](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#info)에 정보를 입력하십시오.
 
-1. [권장 알고리즘](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) 섹션의 **[!UICONTROL Algorithm Type]** 목록에서 **[!UICONTROL Item Based]**&#x200B;을(를) 선택합니다.
+1. [권장 알고리즘](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo) 섹션의 **[!UICONTROL Item Based]** 목록에서 **[!UICONTROL Algorithm Type]**&#x200B;을(를) 선택합니다.
 
-1. **[!UICONTROL Algorithm]** 목록에서 **[!UICONTROL People Who Viewed This, Viewed That]**&#x200B;을(를) 선택합니다.
+1. **[!UICONTROL People Who Viewed This, Viewed That]** 목록에서 **[!UICONTROL Algorithm]**&#x200B;을(를) 선택합니다.
 
 1. **[!UICONTROL Recommendation Key]** 목록에서 사용자 지정 프로필 특성을 선택합니다(예: [!UICONTROL Last Show Added to Watchlist]).
 
@@ -78,4 +78,4 @@ ht-degree: 5%
 
 >[!NOTE]
 >
->[!UICONTROL Algorithm Usage] 기능은 현재 [!DNL Recommendations] 활동에만 지원됩니다. 이 기능은 현재 [오퍼로서 권장 사항](/help/main/c-recommendations/recommendations-as-an-offer.md)을 포함하는 [!UICONTROL A/B Test], [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Experience Targeting] (XT) 활동에 대해 지원되지 않습니다.
+>[!UICONTROL Algorithm Usage] 기능은 현재 [!DNL Recommendations] 활동에만 지원됩니다. 이 기능은 현재 [!UICONTROL A/B Test]오퍼로서 권장 사항[!UICONTROL Auto-Allocate]을 포함하는 [!UICONTROL Auto-Target], [!UICONTROL Experience Targeting], [ 및 ](/help/main/c-recommendations/recommendations-as-an-offer.md)(XT) 활동에 대해 지원되지 않습니다.

@@ -2,7 +2,7 @@
 keywords: 경험 미리 보기;경험 URL;URL 생성;경험 URL 보기
 description: Adobe [!DNL Target] Automated Personalization 활동에 대한 경험 미리 보기 URL을 사용하여 활동이 라이브 상태가 되기 전에 사이트에서 직접 경험 콘텐츠를 보는 방법에 대해 알아봅니다.
 title: Automated Personalization 활동에서 경험 미리보기 URL을 사용하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
 source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
@@ -30,7 +30,7 @@ ht-degree: 49%
 
 1. URL을 검토 및/또는 지정합니다.
 
-   * [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하는 경우 활동에 지정한 기본 URL이 자동으로 입력되며 활동의 각 경험에 대한 링크가 생성됩니다. 원할 경우 이 URL을 변경하고 다른 URL을 추가할 수 있습니다.
+   * [!UICONTROL Visual Experience Composer]&#x200B;(VEC)을(를) 사용하는 경우 활동에 지정한 기본 URL이 자동으로 입력되며 활동의 각 경험에 대한 링크가 생성됩니다. 원할 경우 이 URL을 변경하고 다른 URL을 추가할 수 있습니다.
    * [!UICONTROL Form-Based Experience Composer]을(를) 사용하는 경우 기본 URL이 자동으로 입력되지 않습니다. 이전에 경험 미리 보기 URL을 만들지 않은 경우 **새 URL 추가**&#x200B;를 클릭합니다. 미리 보려는 모든 URL과 각 URL의 이름을 지정해야 합니다.
 
    여러 URL을 추가할 수 있습니다. 이러한 기능은 다중 페이지 테스트 또는 템플릿 테스트를 실행하며 둘 이상의 페이지에서 활동을 미리 보려는 경우에 유용합니다.

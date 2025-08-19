@@ -1,6 +1,6 @@
 ---
 keywords: Target;보고서;보고서 설정;예외적인 주문;예외적인 값
-description: ' [!DNL Target] Adobe의 보고서에 영향을 주지 않도록 예외적인 값을 제외하여 활동 결과에 영향을 주지 않도록 하는 방법에 대해 알아봅니다.'
+description: 예외적인 몇 가지 주문이 활동 결과에 영향을 주지 않도록 Adobe의 보고서에 영향을 주지 않도록 예외적인 값을 제외하는 방법을 알아봅니다 [!DNL Target] .
 title: 보고서에서 예외적인 값을 제외하려면 어떻게 합니까?
 feature: Reports
 exl-id: fd2d0c18-62c0-41e0-800c-b2ae123f0e74

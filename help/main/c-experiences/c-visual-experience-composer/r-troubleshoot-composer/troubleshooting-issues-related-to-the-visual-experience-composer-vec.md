@@ -17,8 +17,8 @@ ht-degree: 23%
 
 ## [!UICONTROL Visual Experience Composer]에서 웹 사이트를 열면 [!DNL Target] 라이브러리가 로드되지 않습니다. (VEC만 해당) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
-+++세부 정보
-[!DNL Target]이(가) [!UICONTROL Visual Experience Composer]에서 웹 사이트를 여는 동안 두 개의 매개 변수(`mboxEdit=1` 및 `mboxDisable=1`)를 추가합니다.
++++세부 사항
+[!DNL Target]이(가) `mboxEdit=1`에서 웹 사이트를 여는 동안 두 개의 매개 변수(`mboxDisable=1` 및 [!UICONTROL Visual Experience Composer])를 추가합니다.
 
 한 페이지에서 다른 페이지로 이동하는 동안(페이지 다시 로드 없이) 웹 사이트(특히 단일 페이지 앱)가 매개 변수를 자르거나, 실제로 매개 변수를 제거하는 경우 [!DNL Target] 기능이 중단되고 [!DNL Target] 라이브러리가 로드되지 않습니다.
 
@@ -28,7 +28,7 @@ ht-degree: 23%
 
 ## 내 페이지가 EEC에서 열리지 않거나 느리게 로드됩니다. VEC에서 활동 또는 경험이 느리게 로드됩니다. (VEC만 해당) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
-+++세부 정보
++++세부 사항
 여러 문제가 [!UICONTROL Target] 경험 작성기의 페이지 성능에 영향을 줄 수 있습니다. 일반적인 몇 가지 문제는 다음과 같습니다.
 
 * 페이지에 mbox가 없습니다.
@@ -47,7 +47,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->다음 정보 외에 [!DNL Google Chrome]에 대해 [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper] 확장 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)을(를) 사용할 수 있습니다.
+>다음 정보 외에 [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]에 대해 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Google Chrome]을(를) 사용할 수 있습니다.
 
 >[!NOTE]
 >
@@ -63,10 +63,10 @@ ht-degree: 23%
 >
 >* VEC에서 편집할 때 규칙을 활성화하고 VEC를 사용하지 않을 때 규칙을 비활성화하십시오.
 
-**[!DNL Chrome] 또는 [!DNL Firefox]에서 [!DNL Requestly] 확장을 사용하려면:**
+**[!DNL Requestly] 또는 [!DNL Chrome]에서 [!DNL Firefox] 확장을 사용하려면:**
 
 1. [!UICONTROL Enhanced Experienced Composer]을(를) 끕니다.
-1. [!DNL Chrome] 또는 [!DNL Firefox]에 [!DNL Requestly] 브라우저 확장을 설치합니다.
+1. [!DNL Requestly] 또는 [!DNL Chrome]에 [!DNL Firefox] 브라우저 확장을 설치합니다.
 1. 확장을 열고 다음을 사용하여 구성합니다.
 1. **[!UICONTROL Modify headers]**&#x200B;을(를) 선택합니다.
 1. 다음을 입력하십시오.
@@ -93,12 +93,12 @@ ht-degree: 23%
 
    이제 [!UICONTROL Visual Experience Composer]을(를) 사용하여 페이지를 빠르게 로드할 수 있습니다.
 
-**[!UICONTROL Firefox]에서 [!DNL Modify Response Headers] 확장을 사용하려면:**
+**[!DNL Modify Response Headers]에서 [!UICONTROL Firefox] 확장을 사용하려면:**
 
-1. [!DNL Firefox]에 [!UICONTROL Modify Response Headers]을(를) 설치하고 브라우저를 다시 시작합니다.
+1. [!UICONTROL Modify Response Headers]에 [!DNL Firefox]을(를) 설치하고 브라우저를 다시 시작합니다.
 1. [!DNL Firefox] 확장에서 응답 헤더 수정 확장을 선택합니다.
 1. **[!UICONTROL Preferences]** 아이콘을 클릭합니다.
-1. [!UICONTROL Action] 드롭다운에서 **[!UICONTROL Filter]** 선택.
+1. **[!UICONTROL Filter]** 드롭다운에서 [!UICONTROL Action] 선택.
 1. [!UICONTROL Header Name] 필드에 **[!UICONTROL X-Frame-Options]**&#x200B;을(를) 입력합니다.
 1. **[!UICONTROL x-frame-options]**&#x200B;을(를) 사용하여 필터를 추가하려면 4단계와 5단계를 반복합니다.
 1. **[!UICONTROL Add]** 아이콘을 클릭합니다.
@@ -106,7 +106,7 @@ ht-degree: 23%
 
 ![Firefox 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox_extension.png)
 
-확장을 설정한 후 [!DNL Target]을(를) 엽니다. [!UICONTROL Enhanced Experience Composer]이(가) 비활성화되어 있더라도 이제 페이지가 [!UICONTROL Visual Experience Composer]에 로드됩니다.
+확장을 설정한 후 [!DNL Target]을(를) 엽니다. [!UICONTROL Visual Experience Composer]이(가) 비활성화되어 있더라도 이제 페이지가 [!UICONTROL Enhanced Experience Composer]에 로드됩니다.
 
 +++
 
@@ -147,8 +147,8 @@ ht-degree: 23%
 
 ## [!UICONTROL Browse] 모드를 사용하면 VEC가 손상된 것으로 나타납니다. (VEC만 해당) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-+++세부 정보
-[!UICONTROL Browse] 모드를 사용하는 동안 [!DNL Target] 라이브러리가 구현되지 않았거나([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html?lang=ko){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}) Frame-Buster 헤더가 포함된 URL에 액세스하면 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해 [!DNL Target]이(가) 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
++++세부 사항
+[!UICONTROL Browse] 모드를 사용하는 동안 [!DNL Target] 라이브러리가 구현되지 않았거나([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) Frame-Buster 헤더가 포함된 URL에 액세스하면 VEC가 손상된 것으로 표시됩니다. 브라우저 보안 문제로 인해 [!DNL Target]이(가) 탐색한 URL에 제대로 액세스할 수 없거나 페이지가 로드될 경우 VEC URL이 일관되게 업데이트되지 않습니다.
 
 이 문제는 VEC가 `<iframe>`에서 웹 페이지를 로드하기 때문에 발생합니다. 브라우저의 현재 보안 메커니즘은 동일한 원본 정책으로 인해 [!DNL Target] UI가 지정된 프레임의 요소에 액세스하지 못하도록 합니다. 브라우저는 `location.href`과(와) 같은 정보를 포함하는 다른 원본의 프레임에 액세스하려는 스크립트를 차단합니다.
 
@@ -158,7 +158,7 @@ ht-degree: 23%
 
 ## [!UICONTROL Visual Experience Composer]의 CSS 충돌로 인해 발생하는 문제
 
-+++세부 정보
++++세부 사항
 편집기에서 웹 페이지를 로드하는 동안 가시성에 영향을 줄 수 있는 CSS 파일이 있는지 확인합니다. 예를 들어 페이지 본문에서 `overflow: hidden` 속성을 사용하면 스크롤 문제가 발생하거나 메뉴를 작성하는 데 방해가 될 수 있는 클릭 이벤트가 트리거될 수 있습니다.
 
 +++

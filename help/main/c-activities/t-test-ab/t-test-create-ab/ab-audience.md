@@ -15,7 +15,7 @@ ht-degree: 8%
 
 대상은 자격 있는 방문자가 [!DNL Adobe Target] 활동에 입력되는지 확인합니다.
 
-[활동을 만들 때](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)의 세 부분으로 구성된 안내 워크플로의 [!UICONTROL Targeting] 단계에는 대상 및 해당 트래픽 비율을 할당하고, 트래픽 할당 방법을 선택하고, 활동의 각 경험에 대해 트래픽 할당을 지정하는 단계를 안내하는 흐름 다이어그램이 표시됩니다.
+[!UICONTROL Targeting]활동을 만들 때[의 세 부분으로 구성된 안내 워크플로의 ](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) 단계에는 대상 및 해당 트래픽 비율을 할당하고, 트래픽 할당 방법을 선택하고, 활동의 각 경험에 대해 트래픽 할당을 지정하는 단계를 안내하는 흐름 다이어그램이 표시됩니다.
 
 ![A/B 테스트 타깃팅 단계](/help/main/c-activities/t-test-ab/t-test-create-ab/assets/ab_flow-new-ui.png)
 
@@ -44,7 +44,7 @@ ht-degree: 8%
    [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md)에서 다음 옵션 중 선택할 수 있습니다.
 
    * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
-   * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
+   * **[!UICONTROL This activity only]**: [에 저장되지 않고 현재 활동에서만 사용할 수 있는 ](/help/main/c-target/creating-activity-only-audience.md)활동별 대상[!UICONTROL Audience Library]을 만듭니다.
 
 1. 오른쪽 창에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동에 포함할 자격 있는 방문자의 비율을 지정합니다.
 
@@ -62,6 +62,6 @@ ht-degree: 8%
 
 ## 대상자 편집 또는 복사
 
-[!UICONTROL Add Audience] 대화 상자에서 원하는 대상 옆에 있는 [!UICONTROL More Actions] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/More.svg))을 클릭한 다음 [!UICONTROL Edit] 또는 [!UICONTROL Copy]을(를) 클릭하여 대상을 편집하거나 복사할 수 있습니다.
+[!UICONTROL More Actions] 대화 상자에서 원하는 대상 옆에 있는 ![ 아이콘(](/help/main/assets/icons/More.svg)추가 작업 아이콘[!UICONTROL Add Audience])을 클릭한 다음 [!UICONTROL Edit] 또는 [!UICONTROL Copy]을(를) 클릭하여 대상을 편집하거나 복사할 수 있습니다.
 
 기존 대상과 유사한 대상을 만들려는 경우 대상을 복사하면 유용합니다. 대상을 복사하고 편집을 한 다음 새 대상으로 저장할 수 있습니다.

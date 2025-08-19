@@ -1,7 +1,7 @@
 ---
 keywords: 다변량;mvt;미리 보기;경험
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Multivariate Test] (MVT) 활동에서 [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 각 경험을 미리 보는 방법에 대해 알아봅니다.'
-title: '[!UICONTROL Multivariate Test] (MVT)에 대한 경험을 미리 보려면 어떻게 해야 합니까?'
+description: '[!UICONTROL Multivariate Test]의  [!DNL Adobe Target] (MVT) 활동에서 [!UICONTROL Visual Experience Composer]​(VEC)을(를) 사용하여 각 경험을 미리 보는 방법에 대해 알아봅니다.'
+title: '[!UICONTROL Multivariate Test]​(MVT)에 대한 경험을 미리 보려면 어떻게 해야 합니까?'
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
@@ -13,7 +13,7 @@ ht-degree: 9%
 
 # [!UICONTROL Multivariate Test]에 대한 경험 미리 보기
 
-[!DNL Adobe Target]의 [!UICONTROL Multivariate Test]은(는) 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
+[!UICONTROL Multivariate Test]의 [!DNL Adobe Target]은(는) 한 페이지의 여러 경험을 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 
 1. **[!UICONTROL Preview]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Show Experiences]** 아이콘(![경험 표시 아이콘](/help/main/assets/icons/WebPages.svg))을 클릭하여 왼쪽 프레임에 모든 경험 목록을 표시합니다.
 

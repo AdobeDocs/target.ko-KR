@@ -7,7 +7,7 @@ exl-id: 649eaf48-210c-4192-b727-53f0d146a1e2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 86%
+ht-degree: 88%
 
 ---
 
@@ -35,7 +35,7 @@ Target의 기능을 강조 표시하는 방법 비디오 및 튜토리얼 컬렉
 
 ![Experience League 비디오](/help/main/c-intro/assets/experience-league.png)
 
-## Adobe [!DNL Target] Tutorials {#tutorials}
+## Adobe [!DNL Target] 튜토리얼 {#tutorials}
 
 다음 [!DNL Target] 개념 및 도구에 대한 비디오 소개는 [Adobe Target 튜토리얼](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=ko-KR) 페이지에서 확인할 수 있습니다.
 

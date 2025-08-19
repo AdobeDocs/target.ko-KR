@@ -1,14 +1,14 @@
 ---
-keywords: Recommendations;소개;소개;웨비나;데모
+keywords: 추천;소개;소개;웨비나;데모
 description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe  [!DNL Target] 의 권장 사항 활동에 대해 알아보십시오.
-title: Recommendations 활동이란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+title: 추천 활동이란 무엇입니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '2086'
-ht-degree: 90%
+ht-degree: 89%
 
 ---
 
@@ -53,7 +53,7 @@ Adobe는 소매점에서 사용하는 모든 종류의 추천에 대해 알고 �
 
 우수한 추천은 연관성이 있고 개인화되어야 합니다. 즉, 연관성과 개인화를 위해서는 3가지가 필요합니다.
 
-* **마케팅 담당자의 제어**: 추천 항목의 연관성을 높임. 마케팅 담당자는 중요한 컨텍스트를 표로 가져와 제품 또는 콘텐츠의 어떤 속성이 추천 모델과 관련이 있는지 알고 있습니다. 비디오 사이트를 운영하는 경우 사용자가 동일한 감독의 영화를 보는 데 관심이 있을 수 있지만 동일한 스튜디오에서 제작한 영화를 보는 것에는 관심이 없을 수 있습니다. [!DNL Target] 은 이 도메인 지식을 사용하여 알고리즘을 개선할 수 있는 제어 기능을 제공합니다.
+* **마케팅 담당자의 제어**: 추천 항목의 연관성을 높임. 마케팅 담당자는 중요한 컨텍스트를 테이블로 가져와 제품 또는 콘텐츠의 어떤 속성이 추천 모델과 관련이 있는지 알고 있습니다. 비디오 사이트를 운영하는 경우 사용자가 동일한 감독의 영화를 보는 데 관심이 있을 수 있지만 동일한 스튜디오에서 제작한 영화를 보는 것에는 관심이 없을 수 있습니다. [!DNL Target] 은 이 도메인 지식을 사용하여 알고리즘을 개선할 수 있는 제어 기능을 제공합니다.
 * **정교한 모델**: 카탈로그 및 상호 작용 이벤트에서 수백만 개의 항목을 파악. [!DNL Target] 은 10년 이상의 경험을 바탕으로 한 정교한 머신 러닝 기능을 갖추고 있으며 매년 수십 억 건의 추천을 처리합니다.
 * **사용자 컨텍스트**: 추천이 적시에 적절한 사용자에게 제공되도록 함. 누군가 방금 본 비디오나 누군가가 방금 장바구니에 추가한 셔츠를 추천하고 싶지 않을 것입니다. Target의 풍부한 사용자 프로필을 추천에 사용하여 개인화를 보장할 수 있습니다.
 
@@ -105,7 +105,7 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 [!DNL Target] 은 사용자가 보고 구매하는 항목이 무엇인지 확인해야 합니다. 구매가 컨텍스트와 관련이 없는 경우 PDF 다운로드, 설문 조사 완료, 뉴스레터 가입, 비디오 보기 등과 같은 다른 유형의 전환 이벤트를 추적할 수 있습니다.
 
-사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=ko){target=_blank}의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다. 실시간 API를 통해 오프라인 또는 인앱 인터랙션을 [!DNL Target]에 보낼 수도 있습니다.
+사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다. 실시간 API를 통해 오프라인 또는 인앱 인터랙션을 [!DNL Target]에 보낼 수도 있습니다.
 
 ### 상황에 맞는 추천 받기
 
@@ -129,7 +129,7 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 ![추천 활동을 구성하는 요소(대상자, 기준 및 디자인)를 보여 주는 일러스트레이션](/help/main/c-recommendations/assets/intro-12.png)
 
-기본적으로 [!DNL Target] 에는 14개의 내장된 대상자, 42개의 내장된 기준 및 10개의 내장된 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. [!DNL Target]에서 대상을 만드는 [&#128279;](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)에 대한 이전 웨비나가 있습니다. 이 섹션에서는 어떤 항목을 추천할 지에 대한 기준을 정의하는 데 중점을 둡니다.
+기본적으로 [!DNL Target] 에는 14개의 기본 제공 대상자, 42개의 기본 제공 기준 및 10개의 기본 제공 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. [에서 대상을 만드는 ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)에 대한 이전 [!DNL Target]웨비나가 있습니다. 이 섹션에서는 어떤 항목을 추천할 지에 대한 기준을 정의하는 데 중점을 둡니다.
 
 Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화를 위한 메뉴와 같습니다.
 
@@ -193,8 +193,8 @@ Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화
 
 ## 데모
 
-위에서 설명한 추천 단계에 표시된 작업을 완료하면 최종 추천이 표시됩니다. [!DNL Target]에서 제품 내 데모를 시청하려면 아래 링크를 클릭하십시오. *Adobe Target 기본 사항 웨비나*&#x200B;에서 9시에 시작됩니다.
+위에서 설명한 추천 단계에 표시된 작업을 완료하면 최종 추천이 표시됩니다. [!DNL Target]에서 제품 내 데모를 시청하려면 아래 링크와 연결된 :00Adobe Target 기본 사항 웨비나&#x200B;*에서 21*&#x200B;부터 데모를 시작합니다.
 
-## Adobe [!DNL Target] 기본 사항 웨비나: Recommendations 소개 {#intro-to-recs}
+## Adobe [!DNL Target] 기본 사항 웨비나: 추천 소개 {#intro-to-recs}
 
-[Recommendations 소개](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[추천 소개](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)

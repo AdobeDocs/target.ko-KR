@@ -1,14 +1,14 @@
 ---
 keywords: 컬렉션;타깃팅
 description: ' [!DNL Target Recommendations]에서 제품 컬렉션 또는 항목을 사용하는 방법을 알아봅니다.'
-title: Recommendations 활동에서 컬렉션을 사용하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+title: Recommendations 활동에서 컬렉션을 사용하는 방법은 무엇입니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '849'
-ht-degree: 40%
+ht-degree: 41%
 
 ---
 
@@ -46,7 +46,7 @@ ht-degree: 40%
 
    ![가리킨 아이콘: 편집, 복사 및 삭제](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   [!UICONTROL Collections] 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 Recommendations [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하세요.
+   [!UICONTROL Collections] 목록 보기의 각 컬렉션에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경)에서 해당 컬렉션에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
 
 1. **[!UICONTROL Create Collection]** 아이콘을 클릭합니다.
 
@@ -88,11 +88,11 @@ ht-degree: 40%
 
 컬렉션은 전체 계정에서 사용할 수 있습니다. 컬렉션을 삭제하기 전에 이를 고려해야 합니다. 삭제된 컬렉션은 복구할 수 없습니다.
 
-## Recommendations 활동에서 컬렉션 사용
+## 권장 사항 활동에서 컬렉션 사용
 
 1. 위에서 언급한 방법 중 하나를 사용하여 컬렉션을 만듭니다.
 
-1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 [새 Recommendations 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) 활동을 만들거나 기존 활동을 편집합니다.
+1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 [새 권장 사항 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md) 활동을 만들거나 기존 활동을 편집합니다.
 
 1. 조건 및 디자인을 선택한 후 원하는 컬렉션을 선택하면 [!UICONTROL Options] 페이지가 표시됩니다.
 
@@ -102,11 +102,11 @@ ht-degree: 40%
 
    ![컬렉션 옵션 변경](/help/main/c-recommendations/c-products/assets/change-collection.png)
 
-## 교육 비디오: Recommendations(7:05)에서 컬렉션 및 제외 만들기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
+## 교육 비디오: 권장 사항(7:05)에서 컬렉션 및 제외 만들기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/35499?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

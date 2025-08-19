@@ -33,7 +33,7 @@ ht-degree: 79%
 | Automated Personalization<br>(Premium) | [!DNL Adobe Sensei] 에서 제공하는 고급 머신 러닝 알고리즘과 자동화를 사용하여 오퍼의 다양한 이미지, 복사 및 기타 요소를 검토하고 방문자당 전환 또는 매출 증대와 같은 비즈니스 목표를 가장 잘 달성하는 각 방문자에게 최상의 조합을 제공합니다. [자세히 알아보기](/help/main/c-activities/t-automated-personalization/automated-personalization.md) |
 | 경험 타기팅(XT) | 사용자가 정의한 규칙 및 기준 세트를 기준으로 특정 대상자에게 콘텐츠를 전달합니다. **[!UICONTROL Experience Targeting]**&#x200B;은(는) 대상자가 가치 있고 어떤 경험이 그들과 공감하는지 잘 알고 있을 때 특정 경험이나 콘텐츠를 특정 대상자에게 타기팅하는 데 유용합니다. [자세히 알아보기](/help/main/c-activities/t-experience-target/experience-target.md) |
 | MVT(다변량 테스트) | 세 가지 다른 배경 이미지, 두 가지 변형 복사본 및 두 가지 다른 버튼 색상과 같이 페이지에 있는 요소의 변형 또는 디지털 경험의 가능한 모든 조합을 비교합니다. MVT는 어떤 조합이 특정 대상자를 위해 가장 잘 수행되고 어떤 요소가 결과에 가장 큰 영향을 미치는지 결정합니다. [자세히 알아보기](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) |
-| Recommendations<br>(Premium) | Adobe Sensei AI를 사용하여 이전 활동과 다른 고객의 활동에 따라 관심 있는 제품 또는 콘텐츠를 자동으로 제안합니다. [자세히 알아보기](/help/main/c-recommendations/recommendations.md) |
+| 추천<br>(Premium) | Adobe Sensei AI를 사용하여 이전 활동과 다른 고객의 활동에 따라 관심 있는 제품 또는 콘텐츠를 자동으로 제안합니다. [자세히 알아보기](/help/main/c-recommendations/recommendations.md) |
 
 ## 채널
 
@@ -52,8 +52,8 @@ ht-degree: 79%
 
 | 구현 유형 | 세부 사항 |
 | --- | --- |
-| 클라이언트측 | [!DNL Target]의 이러한 구현으로 [!DNL Target] 은 활동과 관련된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, **[!UICONTROL Visual Experience Composer]**(VEC) 또는 비시각적 인터페이스 **[!UICONTROL Form-based Experience Composer]**&#x200B;을(를) 사용하여 테스트 및 개인화 경험을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank}. |
-| 서버측 | 이 유형의 [!DNL Target] 구현에서 클라이언트 디바이스는 서버를 통해 경험에 대한 요청을 하고, 서버는 [!DNL Target]에 요청을 보내고, [!DNL Target] 은 서버에 응답을 되돌려 보내며, 서버는 클라이언트 디바이스에 전달할 경험을 결정합니다. 경험은 음성 도우미를 통해 또는 시각적이지 않은 경험 또는 브라우저를 기반으로 하지 않는 디바이스를 통해 이메일이나 키오스크에 표시될 수 있습니다. 서버가 클라이언트와 [!DNL Target] 사이에 존재하기 때문에 제어력과 보안이 필요하거나 서버에서 실행하려는 복잡한 백엔드 프로세스가 있는 경우에 이러한 유형의 구현이 이상적입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html?lang=ko){target=_blank}. |
+| 클라이언트측 | [!DNL Target]의 이러한 구현으로 [!DNL Target] 은 활동과 관련된 경험을 클라이언트 브라우저에 직접 전달합니다. 브라우저는 표시할 경험을 결정하고 표시합니다. 클라이언트측 구현에서는 WYSIWYG 편집기, **[!UICONTROL Visual Experience Composer]**(VEC) 또는 비시각적 인터페이스인 **[!UICONTROL Form-based Experience Composer]**&#x200B;을(를) 사용하여 테스트 및 개인화 경험을 만들 수 있습니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} |
+| 서버측 | 이 유형의 [!DNL Target] 구현에서 클라이언트 디바이스는 서버를 통해 경험에 대한 요청을 하고, 서버는 [!DNL Target]에 요청을 보내고, [!DNL Target] 은 서버에 응답을 되돌려 보내며, 서버는 클라이언트 디바이스에 전달할 경험을 결정합니다. 경험은 음성 도우미를 통해 또는 시각적이지 않은 경험 또는 브라우저를 기반으로 하지 않는 디바이스를 통해 이메일이나 키오스크에 표시될 수 있습니다. 서버가 클라이언트와 [!DNL Target] 사이에 존재하기 때문에 제어력과 보안이 필요하거나 서버에서 실행하려는 복잡한 백엔드 프로세스가 있는 경우에 이러한 유형의 구현이 이상적입니다. [자세히 알아보기](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank} |
 | 하이브리드 구현 | 이 구현에서는 주어진 사용 사례에 가장 적합한 구현 접근 방식을 선택합니다. 예를 들어 클라이언트측 구현을 사용하여 홈 페이지의 히어로 배너에서 A/B 제안을 테스트할 수 있지만, 서버측 구현을 사용하여 클라이언트 브라우저에 표시할 내부 검색 결과, 스마트 자동차 대시보드에 표시할 경험 또는 음성 지원에서 전달할 음성 응답을 결정할 수도 있습니다. |
 
 ## 활동 요소
@@ -74,8 +74,8 @@ ht-degree: 79%
 
 | 도구 | 세부 사항 |
 | --- | --- |
-| [!UICONTROL Visual Experience Composer] (VEC) | 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 [!DNL Target] 활동에 대한 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
-| [!UICONTROL Form-based Experience Composer] | 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 A/B 테스트, 경험 타깃팅, Automated Personalization 및 Recommendations 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/form-experience-composer.md) |
+| [!UICONTROL Visual Experience Composer]&#x200B;(VEC) | 사이트 컨텍스트에서 개인화된 경험과 오퍼를 쉽게 만들고 테스트할 수 있는 WYSIWYG 사용자 인터페이스입니다. 웹 페이지(또는 오퍼) 또는 모바일 웹 페이지의 레이아웃 및 콘텐츠를 드래그 앤 드롭하고, 교체하고, 수정하여 [!DNL Target] 활동에 대한 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) |
+| [!UICONTROL Form-based Experience Composer] | 시각적 경험 작성기가 사용이 불가능하거나 실용적이지 않을 때 A/B 테스트, 경험 타깃팅, Automated Personalization 및 권장 사항 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다. [자세히 알아보기](/help/main/c-experiences/form-experience-composer.md) |
 | [!UICONTROL Single Page Application (SPA) Visual Experience Composer] | SPA용 VEC를 사용하면 마케터가 지속적인 개발에 의존하지 않고 자체적인 방식으로 SPA에 대한 테스트를 만들고 콘텐츠를 개인화할 수 있습니다. VEC는 React 및 Angular와 같이 인기 있는 프레임워크의 A/B 테스트 및 경험 타기팅(XT) 활동을 만드는 데 사용할 수 있습니다. [자세히 알아보기](/help/main/c-experiences/spa-visual-experience-composer.md) |
 
 ## 거버넌스 및 제어
@@ -94,7 +94,7 @@ ht-degree: 79%
 
 | 통합 | 세부 사항 |
 | --- | --- |
-| Adobe Experience Cloud | [!DNL Target] 은 다른 [!DNL Adobe Experience Cloud] 솔루션과 함께 내장된 기능을 통해 규모에 맞게 경험을 개인화할 수 있습니다. . [!DNL Target] 의 강력한 기능을 [Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md), [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md), [Adobe Audience Manager(AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md) 및 [Adobe Experience Manager(AEM)](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) 와 함께 활용하십시오. |
+| Adobe Experience Cloud | [!DNL Target] 은 다른 [!DNL Adobe Experience Cloud] 솔루션과 함께 임베드된 기능을 통해 규모에 맞게 경험을 개인화할 수 있습니다. . [!DNL Target] 의 강력한 기능을 [Adobe Analytics](/help/main/c-integrating-target-with-mac/a4t/a4t.md), [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/main/c-integrating-target-with-mac/campaign-and-target.md), [Adobe Audience Manager(AAM)](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md) 및 [Adobe Experience Manager(AEM)](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) 와 함께 활용하십시오. |
 | Target API(Premium) | [!UICONTROL Target]은(는) Adobe Target을 퍼스트, 세컨드 및 서드파티 시스템과 통합하는 데 사용할 수 있는 API를 40개 이상 제공합니다. [자세히 알아보기](/help/main/api/api-overview.md) |
 
 ## 다음 사항에 주의하십시오.

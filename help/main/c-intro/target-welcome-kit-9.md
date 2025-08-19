@@ -21,7 +21,7 @@ ht-degree: 78%
 
 ## 리소스 링크
 
-* **Adobe Target 설정**: [!UICONTROL Visual Experience Composer] (VEC), 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Adobe Target]을(를) 관리하는 데 도움이 되는 정보입니다. [Target 개요 관리](/help/main/administrating-target/administrating-target.md)를 참조하십시오.
+* **Adobe Target 설정**: [!DNL Adobe Target]&#x200B;(VEC), 보고, [!UICONTROL Visual Experience Composer] 구성, 구현, 호스트, 환경, 응답 토큰 및 사용자에 대한 구성 설정을 포함하여 [!DNL Scene7]을(를) 관리하는 데 도움이 되는 정보입니다. [Target 개요 관리](/help/main/administrating-target/administrating-target.md)를 참조하십시오.
 * **Adobe Target 제품 설명서**: Adobe Target에 대해 알아야 할 모든 사항. [Adobe Target 제품 설명서](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=ko_KR)를 참조하십시오.
 * **Adobe Target API 및 SDK 설명서**: 클라이언트측 애플리케이션, 서버측 애플리케이션, 모바일 앱, IoT 등에 [!DNL Target] 을 구현하는 방법에 대해 알아보십시오. 또한 [!DNL Target] 데이터를 서드파티 솔루션과 교환하는 방법에 대해서도 알아보십시오. [Adobe Target API 개요](/help/main/api/api-overview.md)를 참조하십시오.
 * **Adobe Target 활동 안내서**: [!DNL Target]에서 사용할 수 있는 다양한 활동에 대해 소개합니다. [Target 활동 유형](/help/main/c-activities/target-activities-guide.md)을 참조하십시오.
@@ -42,6 +42,6 @@ ht-degree: 78%
 
 * **Adobe Target 홈페이지**: [!DNL Adobe Target]의 홈페이지에서 Adobe의 역량에 대해 알아보고 최신 성공 사례를 살펴보십시오. [Adobe Target](https://www.adobe.com/kr/marketing/target.html)을 참조하십시오.
 * **블로그**: [Target 블로그](https://blog.adobe.com/en/topics/target)를 팔로우하여 최신 뉴스, 팁 및 성공 사례에 대해 최신 정보를 유지하십시오.
-* **Experience League**: 경험 비즈니스를 시작하는 데 필요한 가이드, 이벤트 및 교육에 대해 알아보고 Target 커뮤니티와 연결하여 원하는 답을 찾으십시오. [Adobe Experience League 홈 페이지](https://experienceleague.adobe.com/ko#home)를 참조하십시오.
+* **Experience League**: 경험 비즈니스를 시작하는 데 필요한 가이드, 이벤트 및 교육에 대해 알아보고 Target 커뮤니티와 연결하여 원하는 답을 찾으십시오. [Adobe Experience League 홈 페이지](https://experienceleague.adobe.com/#home)를 참조하십시오.
 * **Adobe Target 인증**: 새로운 Adobe Target 시험을 통해 Adobe Certified Expert 지위를 획득하십시오. 여기에서 시험 또는 교육 과정을 예약합니다. [교육 및 인증](/help/main/c-intro/training-and-certification.md)을 참조하십시오.
 * **Adobe Target 릴리스 정보**: 각 [!DNL Target Standard] 및 [!DNL Target Premium] 릴리스에 대한 특징, 개선 사항 및 수정 사항에 대한 정보를 제공합니다. 뿐만 아니라 해당되는 경우 Target API, SDK, JavaScript 라이브러리(at.js) 및 기타 플랫폼 변경 사항에 대한 릴리스 정보도 포함됩니다. [Target 릴리스 정보(최신)](/help/main/r-release-notes/release-notes.md)를 참조하십시오.

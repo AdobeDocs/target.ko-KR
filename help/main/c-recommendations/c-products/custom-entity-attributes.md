@@ -2,7 +2,7 @@
 keywords: 다중 값 엔티티 속성;사용자 지정 엔티티 속성;올바른 JSON;엔티티 속성값;JSON 배열;다중 값;복수 값
 description: 단일 및 다중 값 사용자 지정 엔티티 특성을 사용하여 Adobe [!DNL Target] Recommendations 카탈로그의 항목에 대한 추가 정보를 정의하는 방법을 알아봅니다.
 title: 사용자 지정 엔티티 속성을 사용하는 방법
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
@@ -127,7 +127,7 @@ mbox 매개 변수의 배달 API를 이스케이프 처리된 JSON 배열을 포
   }
 ```
 
-배달 및 엔티티 저장 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}를 참조하십시오.
+배달 및 저장 엔터티 API 사용에 대한 자세한 내용은 [Adobe Recommendations API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}를 참조하세요.
 
 ## 다중 값 속성에 연산자 사용 {#section_83C2288A805242D9A02EBC4F07DEE945}
 

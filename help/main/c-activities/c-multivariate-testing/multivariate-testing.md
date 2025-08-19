@@ -1,19 +1,19 @@
 ---
 keywords: 다변량 테스트;mvt;전체 계승;mvt 또는 a/b;다변량 a/b;트래픽 견적 도구;mvt 사용 시기;mvt 고려 사항;다변량;부분 계승;부분 계승;전체 계승
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Multivariate Test] (MVT)을(를) 사용하여 페이지의 요소 간에 오퍼 조합을 비교하여 성과가 가장 좋은 조합을 판별하는 방법에 대해 알아봅니다.'
+description: '[!UICONTROL Multivariate Test]의  [!DNL Adobe Target] (MVT)을(를) 사용하여 페이지의 요소 간에 오퍼 조합을 비교하여 성과가 가장 좋은 조합을 판별하는 방법에 대해 알아봅니다.'
 title: '[!UICONTROL Multivariate Test]이란?'
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
 source-git-commit: 0d73a062f70080057c3323f5150af067e3a2e27e
 workflow-type: tm+mt
 source-wordcount: '1438'
-ht-degree: 47%
+ht-degree: 46%
 
 ---
 
 # [!UICONTROL Multivariate Test] 개요
 
-[!DNL Adobe Target]의 [!UICONTROL Multivariate Test] (MVT) 활동은 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. [!UICONTROL Multivariate Test] 활동은 또한 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
+[!UICONTROL Multivariate Test]의 [!DNL Adobe Target]&#x200B;(MVT) 활동은 페이지의 요소 간에 오퍼 조합을 비교하여 특정 대상에 가장 뛰어난 조합을 결정합니다. [!UICONTROL Multivariate Test] 활동은 또한 활동의 성공에 가장 큰 영향을 미치는 요소를 식별하는 데 도움이 됩니다.
 
 다변량 테스트는 페이지의 다른 요소와 비교하여 특정 요소가 전환에 미치는 상대적 영향을 찾는 데 도움이 됩니다. 다변량 테스트는 효과적인 것으로 나타난 요소의 조합을 구체화하는 데 도움이 될 수도 있습니다.
 
@@ -55,7 +55,7 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 
 * MVT 테스트를 사용하여 가장 중요한 요소를 파악한 후에 해당 요소에 좀 더 집중적인 A/B 테스트를 실행합니다.
 
-  각기 다른 경험의 수가 5개를 초과하고 둘 이상의 요소에 걸쳐 있는 경우 A/B 테스트를 실행하기 전에 MVT 테스트를 실행하는 것이 좋습니다. MVT 테스트는 페이지에서 전환 개선 가능성이 가장 높은 영역을 보여줍니다. 마케터는 이러한 점에 중점을 두어야 합니다. 예를 들어, MVT 테스트는 클릭 유도 문안이 목표 달성을 위한 가장 중요한 요소임을 보여줄 수 있습니다. 목표 달성에 가장 유용한 요소 및 콘텐츠를 파악한 후에는 A/B 테스트를 실행하여 결과를 세분화할 수 있습니다. 예를 들어 두 개의 특정 이미지를 서로 테스트하거나 클릭 유도 문안의 문구 또는 색상을 비교할 수 있습니다. MVT 테스트 다음에 하나 이상의 A/B 테스트를 실행하면 원하는 결과에 대해 가능성이 가장 높은 콘텐츠를 판단할 수 있습니다.
+  각기 다른 경험의 수가 5개를 초과하고 둘 이상의 요소에 걸쳐 있는 경우 A/B 테스트를 실행하기 전에 MVT 테스트를 실행하는 것이 좋습니다. MVT 테스트는 페이지에서 전환 개선 가능성이 가장 높은 영역을 보여줍니다. 마케터는 이러한 점에 중점을 두어야 합니다. 예를 들어, MVT 테스트는 클릭 유도 문안이 목표 달성을 위한 가장 중요한 요소임을 보여줄 수 있습니다. 목표 달성에 가장 유용한 요소 및 콘텐츠를 파악한 후에는 A/B 테스트를 실행하여 결과를 세분화할 수 있습니다. 예를 들어 두 개의 특정 이미지를 서로 테스트하거나 call to action의 단어 또는 색상을 비교할 수 있습니다. MVT 테스트 다음에 하나 이상의 A/B 테스트를 실행하면 원하는 결과에 대해 가능성이 가장 높은 콘텐츠를 판단할 수 있습니다.
 
 ## 고려 사항 {#section_979FE3F398654C1EA1C86E7DBC9A8DAD}
 
@@ -71,7 +71,7 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 
 ## 부분 요인 테스트
 
-[!DNL Target]에서는 내장된 활동 선택 사항으로서 전체 계승 다변량 테스트를 제공합니다. 통계에서,
+[!DNL Target]에서는 기본 제공 활동 선택 사항으로 전체 계승 다변량 테스트를 제공합니다. 통계에서,
 &quot;실험 설계&quot;는 결과에 영향을 미치는 요소를 결정하기 위한 다양한 접근 방식 또는 설계를 제공합니다. 이러한 접근 방식은 부분 요인 테스트를 위한 [Taguchi 메서드](https://en.wikipedia.org/wiki/Taguchi_methods)입니다. Taguchi를 사용하면 마케터가 테스트해야 하는 경험의 순열 수를 줄이고 결과적으로 다변량 테스트에 대한 트래픽 요구 사항을 감소시키는 일련의 가정을 할 수 있습니다. 이 기능 및 테스트 접근 방식은 [!DNL Target]에서 이 [오프라인 스프레드시트](/help/main/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx)를 사용하여 적용할 수 있습니다.
 
 팀이 다른 실험 계획 접근 방식을 사용한다면 이 계산 스프레드시트를 사용자 지정 실험 디자인을 위한 참조 구현으로 사용할 수 있습니다.
@@ -98,13 +98,13 @@ Target의 [트래픽 견적 도구](/help/main/c-activities/c-multivariate-testi
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### 다변량 테스트 만들기(9:25) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
-이 비디오에서는 Target의 안내가 있는 3단계 워크플로우를 사용하여 다변량 테스트를 이해하고 계획하고 만드는 방법을 설명합니다.
+이 비디오에서는 [!DNL]Target의 안내가 있는 3단계 워크플로우를 사용하여 다변량 테스트를 이해하고 계획하고 만드는 방법을 설명합니다.
 
 * 다변량 테스트 정의 및 디자인
 * 다변량 테스트 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/30528?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)

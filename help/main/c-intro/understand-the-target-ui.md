@@ -67,7 +67,7 @@ ht-degree: 23%
 
 #### [!UICONTROL Requests]
 
-[!UICONTROL Requests] 패널에서 [!DNL Adobe] 제품 및 솔루션, 동료 사용자와의 공동 작업 및 기타 관련 업데이트에 대한 중요한 정보를 받습니다.
+[!DNL Adobe] 패널에서 [!UICONTROL Requests] 제품 및 솔루션, 동료 사용자와의 공동 작업 및 기타 관련 업데이트에 대한 중요한 정보를 받습니다.
 
 다른 사용자가 개체를 승인하거나 개체에 대한 액세스 권한을 부여하라는 요청을 보내면 해당 요청이 [!UICONTROL Requests] 패널에 표시됩니다.
 
@@ -161,43 +161,43 @@ ht-degree: 23%
 
 ## 활동
 
-[!DNL Target]을(를) 열 때 **[!UICONTROL Activities]** 목록이 기본 보기입니다. 이 페이지에서 활동을 만들고 기존 활동을 관리할 수 있습니다.
+**[!UICONTROL Activities]**&#x200B;을(를) 열 때 [!DNL Target] 목록이 기본 보기입니다. 이 페이지에서 활동을 만들고 기존 활동을 관리할 수 있습니다.
 
-[!DNL Target]에서 사용할 수 있는 활동 유형에 대한 자세한 내용과 [!UICONTROL Activity] 목록의 사용자 인터페이스에 대한 자세한 내용은 [활동](/help/main/c-activities/activities.md)을 참조하세요.
+[에서 사용할 수 있는 활동 유형에 대한 자세한 내용과 ](/help/main/c-activities/activities.md) 목록의 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]활동[!UICONTROL Activity]을 참조하세요.
 
 ## 대상자
 
-대상을 만들고 기존 대상을 관리할 수 있는 [!UICONTROL Audiences] 목록을 표시하려면 **[!UICONTROL Audiences]** 탭을 클릭하십시오.
+대상을 만들고 기존 대상을 관리할 수 있는 **[!UICONTROL Audiences]** 목록을 표시하려면 [!UICONTROL Audiences] 탭을 클릭하십시오.
 
 대상은 타깃팅된 활동을 보는 유사한 활동 참여자의 그룹입니다. 대상은 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. [!UICONTROL Audience] 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅할 수 있습니다. 방문자가 타깃 대상자의 일부로 식별되면 [!DNL Target] 은 활동 작성 중에 정의된 기준에 따라 표시할 경험을 결정합니다.
 
-[!DNL Target]의 대상 유형에 대한 자세한 내용과 [!UICONTROL Audience] 목록의 사용자 인터페이스에 대한 자세한 내용은 [대상 만들기](/help/main/c-target/c-audiences/create-audience.md)를 참조하십시오.
+[의 대상 유형에 대한 자세한 내용과 ](/help/main/c-target/c-audiences/create-audience.md) 목록의 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]대상 만들기[!UICONTROL Audience]를 참조하십시오.
 
 ## 오퍼
 
-경험 및 오퍼를 만들고 기존 경험 및 오퍼를 관리할 수 있는 [!UICONTROL Offers] 목록을 표시하려면 **[!UICONTROL Offers]** 탭을 클릭하십시오.
+경험 및 오퍼를 만들고 기존 경험 및 오퍼를 관리할 수 있는 **[!UICONTROL Offers]** 목록을 표시하려면 [!UICONTROL Offers] 탭을 클릭하십시오.
 
 경험은 구매 단계 또는 다른 논리적 페이지 순서를 구성하는 페이지, 전체 웹 페이지 또는 페이지 세트에 있는 오퍼, 이미지, 텍스트, 버튼, 비디오, 이러한 여러 요소의 조합일 수 있습니다. 음성 도우미, 고객 서비스 스크립트 또는 음료 자판기의 개인화된 향에 대한 답변일 수도 있습니다. [!DNL Target] 활동에서 경험을 테스트하거나 개인화합니다.
 
-[!DNL Target]의 오퍼 형식에 대한 자세한 내용과 [!UICONTROL Offer] 목록의 사용자 인터페이스에 대한 자세한 내용은 [오퍼](/help/main/c-experiences/c-manage-content/manage-content.md)를 참조하십시오.
+[의 오퍼 형식에 대한 자세한 내용과 ](/help/main/c-experiences/c-manage-content/manage-content.md) 목록의 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]오퍼[!UICONTROL Offer]를 참조하십시오.
 
 ## 추천
 
-[!DNL Target Recommendations]에 액세스하려면 **[!UICONTROL Recommendations]** 탭을 클릭하십시오.
+**[!UICONTROL Recommendations]**&#x200B;에 액세스하려면 [!DNL Target Recommendations] 탭을 클릭하십시오.
 
 >[!NOTE]
 >
->[!UICONTROL Recommendations] 활동은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!UICONTROL Recommendations] 활동은 [!DNL Target Premium] 라이선스가 없는 [!DNL Target Standard]에서 사용할 수 없습니다. 자세한 내용은 [Target 소개](/help/main/c-intro/intro.md#premium) 에서 *Target Premium* 을 참조하십시오.
+>[!UICONTROL Recommendations] 활동은 [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!UICONTROL Recommendations] 활동은 [!DNL Target Standard] 라이선스가 없는 [!DNL Target Premium]에서 사용할 수 없습니다. 자세한 내용은 [Target 소개](/help/main/c-intro/intro.md#premium) 에서 *Target Premium* 을 참조하십시오.
 
 [!UICONTROL Recommendations] 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
-[!DNL Target]의 [!UICONTROL Recommendations]에 대한 자세한 내용과 [!UICONTROL Recommendations] 사용자 인터페이스에 대한 자세한 내용은 [권장 사항](/help/main/c-recommendations/recommendations.md)을 참조하세요.
+[의 ](/help/main/c-recommendations/recommendations.md)에 대한 자세한 내용과 [!UICONTROL Recommendations] 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]권장 사항[!UICONTROL Recommendations]을 참조하세요.
 
 ## 관리
 
-[!UICONTROL Administration] 페이지에 액세스하려면 **[!UICONTROL Administration]** 탭을 클릭하십시오.
+**[!UICONTROL Administration]** 페이지에 액세스하려면 [!UICONTROL Administration] 탭을 클릭하십시오.
 
-[!UICONTROL Administration] 페이지에서는 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 구성 설정, 보고, [!DNL Scene7] 구성, 구현, 호스트, 환경, 응답 토큰, 사용자 및 권장 사항을 포함하여 [!DNL Target]을(를) 관리할 수 있습니다.
+[!UICONTROL Administration] 페이지에서는 [!DNL Target]&#x200B;(VEC)에 대한 구성 설정, 보고, [!UICONTROL Visual Experience Composer] 구성, 구현, 호스트, 환경, 응답 토큰, 사용자 및 권장 사항을 포함하여 [!DNL Scene7]을(를) 관리할 수 있습니다.
 
 자세한 내용 및 사용자 인터페이스에 대해 알아보려면 [Target 관리 개요](/help/main/administrating-target/administrating-target.md) 를 참조하십시오.
 

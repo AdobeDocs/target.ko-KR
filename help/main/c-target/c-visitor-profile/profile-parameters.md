@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 356b04745b58670b4bf39be929e785b8490d78ff
 workflow-type: tm+mt
 source-wordcount: '2426'
-ht-degree: 93%
+ht-degree: 92%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 93%
 
    | 매개변수 유형 | 설명 |
    |--- |--- |
-   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. *Target 개발자 안내서*&#x200B;의 [글로벌 Mbox에 매개변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ko){target=_blank}을 참조하십시오.<P>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개가 넘는 프로필 특성을 전달해야 하는 경우 [!UICONTROL Profile Update API] 메서드를 사용하여 전달하십시오. 자세한 내용은 *Target 개발자 안내서*&#x200B;의 [프로필 업데이트](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html?lang=ko){target=_blank}를 참조하십시오. |
+   | mbox | mbox를 만들 때 페이지 코드를 통해 직접 전달됩니다. [Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}에서 *글로벌 Mbox에 매개 변수 전달*&#x200B;을 참조하십시오.<P>**참고**: [!DNL Target]에는 mbox 호출당 50개의 고유 프로필 속성 제한이 있습니다. [!DNL Target]에 50개가 넘는 프로필 특성을 전달해야 하는 경우 [!UICONTROL Profile Update API] 메서드를 사용하여 전달하십시오. 자세한 내용은 [Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/api/profile-apis/profile-api-overview.html){target=_blank}에서 *프로필 업데이트*&#x200B;를 참조하십시오. |
    | 프로필 | JavaScript 코드 스니펫으로 바로 정의됩니다. 이들 스니펫은 소비자가 소비한 금액 합계와 같이 실행 중인 합계를 저장할 수 있으며 각 mbox 요청에 대해 실행됩니다. 아래의 *프로필 스크립트 속성*&#x200B;을 참조하십시오. |
 
 ## 프로필 스크립트 속성 {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -46,7 +46,7 @@ ht-degree: 93%
 
 ## 프로필 스크립트 만들기 {#section_CB02F8B97CAF407DA84F7591A7504810}
 
-프로필 스크립트는 [!DNL Target] 인터페이스의 [!UICONTROL Audiences] 탭에서 사용할 수 있습니다.
+프로필 스크립트는 [!UICONTROL Audiences] 인터페이스의 [!DNL Target] 탭에서 사용할 수 있습니다.
 
 프로필 스크립트를 추가하려면 **[!UICONTROL Profile Scripts]** 탭, **[!UICONTROL Create Script]**&#x200B;을(를) 클릭한 다음 스크립트를 작성하십시오.
 
@@ -164,7 +164,7 @@ if (mbox.name == 'Track_Interest') {
 
 * **mboxTrace 디버깅 도구를 사용하여 프로필 스크립트를 디버그합니다.**
 
-  이 메서드를 사용하려면 [!UICONTROL Debugger tools] 섹션에서 **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]**&#x200B;을(를) 클릭하여 생성할 수 있는 인증 토큰이 필요합니다.
+  이 메서드를 사용하려면 **[!UICONTROL Target]** 섹션에서 **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** > [!UICONTROL Debugger tools]을(를) 클릭하여 생성할 수 있는 인증 토큰이 필요합니다.
 
   그런 다음 이들 두 가지 매개변수를 페이지 URL의 “?” 뒤에 추가하십시오. `mboxTrace=window&authorization=YOURTOKEN`
 
@@ -176,7 +176,7 @@ if (mbox.name == 'Track_Interest') {
 
 **이 프로필 스크립트를 사용하여 데이터 계층에 있는 페이지에서 정보를 캡처할 수 있습니까?**
 
-프로필 스크립트는 서버측을 실행하므로 페이지를 직접 읽을 수 없습니다. 데이터는 mbox 요청이나 [Target으로 데이터를 가져오는 다른 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}을 통해 전달되어야 합니다. 데이터가 [!DNL Target]에 있으면 프로필 스크립트는 데이터를 mbox 매개변수 또는 프로필 매개변수로 읽을 수 있습니다.
+프로필 스크립트는 서버측을 실행하므로 페이지를 직접 읽을 수 없습니다. 데이터를 Target으로 가져오는 다른 [방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}이나 mbox 요청을 통해 전달해야 합니다. 데이터가 [!DNL Target]에 있으면 프로필 스크립트는 데이터를 mbox 매개변수 또는 프로필 매개변수로 읽을 수 있습니다.
 
 ## 스크립트 프로필 매개변수에 대한 JavaScript 참조
 

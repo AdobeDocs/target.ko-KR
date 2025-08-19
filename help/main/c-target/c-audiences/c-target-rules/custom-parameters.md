@@ -15,7 +15,7 @@ ht-degree: 38%
 
 사용자 지정 매개 변수는 [!DNL Adobe Target]의 mbox 매개 변수입니다. mbox 매개 변수를 mbox에 전달하거나 `targetPageParams` 함수를 사용하는 경우 해당 매개 변수가 여기에 표시되어 대상에 사용됩니다.
 
-자세한 내용은 [글로벌 mbox에 매개 변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ko){target=_blank}을 참조하세요.
+자세한 내용은 [글로벌 mbox에 매개 변수 전달](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을 참조하세요.
 
 mbox 매개 변수를 기반으로 하여 사용자 지정 대상자를 작성할 때 `mboxParameter`에 대해 묻는 메시지가 `mboxName`에 더 이상 표시되지 않습니다. 이제 mbox 이름은 선택 사항입니다. 따라서 여러 mbox의 매개 변수를 사용하거나 가장자리에 아직 기록되지 않은 매개 변수를 참조할 수 있습니다.
 

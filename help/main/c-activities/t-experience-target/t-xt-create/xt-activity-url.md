@@ -1,7 +1,7 @@
 ---
 keywords: 경험 타깃팅;xt;활동 url;url
-description: '[!UICONTROL Experience Targeting] 활동이  [!DNL Adobe Target]을(를) 사용하여 디자인될 때 열리고 테스트에 사용되는 페이지를 결정하는 [!UICONTROL Activity URL]을(를) 지정하는 방법을 알아봅니다.'
-title: '[!UICONTROL Experience Targeting] (XT) 활동의 [!UICONTROL Activity URL]은(는) 무엇입니까?'
+description: '[!UICONTROL Activity URL] 활동이 [!UICONTROL Experience Targeting]을(를) 사용하여 디자인될 때 열리고 테스트에 사용되는 페이지를 결정하는  [!DNL Adobe Target]을(를) 지정하는 방법을 알아봅니다.'
+title: '[!UICONTROL Activity URL]​(XT) 활동의 [!UICONTROL Experience Targeting]은(는) 무엇입니까?'
 feature: Experience Targeting
 exl-id: 8e3be814-6ad6-4ffa-be8d-68f0cb7857b5
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -11,9 +11,9 @@ ht-degree: 38%
 
 ---
 
-# [!UICONTROL Experience Targeting] (XT) 활동의 활동 URL
+# [!UICONTROL Experience Targeting]&#x200B;(XT) 활동의 활동 URL
 
-[!UICONTROL Activity URL]은(는) [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) 활동에 사용되는 페이지를 결정합니다. 활동을 디자인할 때 [!UICONTROL Visual Experience Composer] (VEC) 또는 [!UICONTROL Form-Based Experience Composer]에서 열리는 페이지입니다.
+[!UICONTROL Activity URL]은(는) [!DNL Adobe Target] [!UICONTROL Experience Targeting]&#x200B;(XT) 활동에 사용되는 페이지를 결정합니다. 활동을 디자인할 때 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 또는 [!UICONTROL Form-Based Experience Composer]에서 열리는 페이지입니다.
 
 1. [XT 활동을 만드는](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md) 동안 메시지가 표시되면 활동 URL을 지정합니다. 전체 URL(`https://` 포함)을 입력한 다음 **[!UICONTROL Create Activity]**&#x200B;을(를) 클릭합니다.
 
@@ -23,7 +23,7 @@ ht-degree: 38%
    >
    >기본적으로 VEC 또는 [양식 기반 경험 작성기](/help/main/c-experiences/form-experience-composer.md)는 [시각적 경험 작성기 설정](/help/main/administrating-target/visual-experience-composer-set-up.md)에 지정된 페이지를 엽니다. 활동을 만들 때 다른 페이지를 지정할 수 있습니다.
    >
-   >[[!DNL Target] at.js JavaScript 라이브러리 또는 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html?lang=ko){target=_blank}이 포함되지 않은 사이트 URL을 지정하면 페이지 요소를 선택할 수 없습니다.
+   >[[!DNL Target] at.js JavaScript 라이브러리 또는 [!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/overview.html){target=_blank}이(가) 포함되지 않은 사이트 URL을 지정하면 페이지 요소를 선택할 수 없습니다.
 
 1. (조건부) VEC가 열린 후에 다른 페이지를 표시하려면 **[!UICONTROL Configure]**&#x200B;을(를) 클릭하고 **[!UICONTROL Page Delivery]**&#x200B;을(를) 선택한 다음 [!UICONTROL URL] 필드에 URL을 지정하십시오.
 

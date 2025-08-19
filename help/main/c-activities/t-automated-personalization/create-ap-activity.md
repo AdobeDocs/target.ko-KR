@@ -1,8 +1,8 @@
 ---
 keywords: 자동화된 개인화;ap
-description: '[!UICONTROL Visual Experience Composer]을(를) 사용하여 [!UICONTROL Automated Personalization]​(AP) 활동을 만드는 방법을 알아봅니다.'
+description: '[!UICONTROL Automated Personalization]을(를) 사용하여 [!UICONTROL Visual Experience Composer]​(AP) 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Automated Personalization] 활동을 만드는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 source-git-commit: 9cc1eb4c5c95ea51bc0a1fc9e89b245a18c9914b
@@ -14,9 +14,9 @@ ht-degree: 23%
 
 # [!UICONTROL Automated Personalization] 활동 만들기
 
-[!UICONTROL Visual Experience Composer]&#x200B;(VEC)를 사용하여 [!DNL Adobe Target]에서 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동을 만듭니다.
+[!UICONTROL Automated Personalization]&#x200B;(VEC)를 사용하여 [!DNL Adobe Target]에서 [!UICONTROL Visual Experience Composer]&#x200B;(AP) 활동을 만듭니다.
 
-[!DNL Target]의 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동 워크플로는 다른 활동 유형의 워크플로와 다릅니다.
+[!UICONTROL Automated Personalization]의 [!DNL Target]&#x200B;(AP) 활동 워크플로는 다른 활동 유형의 워크플로와 다릅니다.
 
 1. [!DNL Target] [!UICONTROL Activities] 목록에서 **[!UICONTROL Create Activity]** > **[!UICONTROL Automated Personalization]**&#x200B;을(를) 클릭합니다.
 
@@ -42,7 +42,7 @@ ht-degree: 23%
 
    지정된 URL의 페이지가 VEC에서 열립니다.
 
-1. 활동의 이름을 지정하려면 &quot;[!UICONTROL Untitled Activity]&quot; 옆에 있는 **[!UICONTROL Edit]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 활동의 이름을 지정하려면 &quot;**[!UICONTROL Edit]**&quot; 옆에 있는 ![ 아이콘(](/help/main/assets/icons/Edit.svg)편집 아이콘[!UICONTROL Untitled Activity])을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 
@@ -103,7 +103,7 @@ ht-degree: 23%
 
 1. 활동의 콘텐츠 설정을 완료했으면 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
-1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 [!UICONTROL Visual Experience Composer]의 맨 위에서 **[!UICONTROL Targeting]**&#x200B;을(를) 클릭합니다.
+1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 **[!UICONTROL Targeting]**&#x200B;의 맨 위에서 [!UICONTROL Visual Experience Composer]을(를) 클릭합니다.
 
    **타깃팅** 단계는 다른 [!DNL Target] 활동 유형을 사용해본 적이 있는 경우 친숙하게 보입니다. 여기에서 대상을 선택하고 각 경험을 보는 방문자의 비율을 지정할 수 있습니다.
 
@@ -127,7 +127,7 @@ ht-degree: 23%
       [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
 
       * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
-      * **[!UICONTROL This activity only]**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상](/help/main/c-target/creating-activity-only-audience.md)을 만듭니다.
+      * **[!UICONTROL This activity only]**: [에 저장되지 않고 현재 활동에서만 사용할 수 있는 ](/help/main/c-target/creating-activity-only-audience.md)활동별 대상[!UICONTROL Audience Library]을 만듭니다.
 
    1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
 
@@ -158,9 +158,9 @@ ht-degree: 23%
    |--- |--- |
    | [!UICONTROL Name] | 활동의 이름을 지정합니다. 팀 구성원이 [!UICONTROL Activities] 목록에서 활동을 인식할 수 있을 만큼 충분히 설명적인 이름을 지정합니다. 활동 이름에 허용되지 않는 문자를 확인하려면 위의 테이블을 참조하십시오. |
    | [!UICONTROL Objective] | (선택 사항) 테스트의 목표를 입력합니다. 목표는 활동의 목적을 기억하는 데 도움이 됩니다. |
-   | [!UICONTROL Priority] | 설정에 따라 [!UICONTROL Priority]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>이 옵션이 [!UICONTROL Administration] > [!UICONTROL Reporting]&#x200B;(기본값)에서 활성화되지 않으면 우선 순위([!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High])를 지정하십시오.<P>세분화된 우선 순위를 사용하려면 [!UICONTROL Administration] > [!UICONTROL Reporting]을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.<P>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.<ul><li>0 = 낮음</li><li>999 = 높음</li></ul>이전 버전의 [!DNL Target Standard/Premium]에서 만든 활동의 경우 [!UICONTROL Low] 우선 순위는 0으로, [!UICONTROL Medium] 우선 순위는 5로, [!UICONTROL High] 우선 순위는 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<P>**참고**: 세분화된 우선순위를 사용한 후에 이 옵션을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
+   | [!UICONTROL Priority] | 설정에 따라 [!DNL Target]에 대한 [!UICONTROL Priority] UI 및 옵션이 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다.<P>대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.<P>이 옵션이 [!UICONTROL Administration] > [!UICONTROL Reporting]&#x200B;(기본값)에서 활성화되지 않으면 우선 순위([!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High])를 지정하십시오.<P>세분화된 우선 순위를 사용하려면 [!UICONTROL Administration] > [!UICONTROL Reporting]을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.<P>이 옵션이 활성화되면 0에서 999 사이의 값을 지정하십시오.<ul><li>0 = 낮음</li><li>999 = 높음</li></ul>이전 버전의 [!DNL Target Standard/Premium]에서 만든 활동의 경우 [!UICONTROL Low] 우선 순위는 0으로, [!UICONTROL Medium] 우선 순위는 5로, [!UICONTROL High] 우선 순위는 10으로 전환됩니다. 필요에 따라 이러한 값을 조정할 수 있습니다.<P>**참고**: 세분화된 우선순위를 사용한 후에 이 옵션을 비활성화하려면 먼저 모든 우선순위를 0, 5, 10으로 다시 설정해야 합니다. |
    | [!UICONTROL Duration] | 활동의 시작 및 종료 날짜를 설정합니다. [!UICONTROL When Activated]을(를) 선택하거나 특정 날짜 및 시간을 지정할 수 있습니다. |
-   | [!UICONTROL Optimization Goal] | 다음 두 개의 매개 변수로 구성되는 최적화 목표를 지정하십시오.<ul><li>활동으로 측정하려는 작업</li><li>목표가 달성되었음을 보여 주는 작업으로, 활동 참여자가 수행한 것입니다.</li></ul>[!UICONTROL My Primary Goal]의 오른쪽에 있는 세 점을 선택하여 최적화 목표의 이름을 지정할 수 있습니다. [!UICONTROL Automated Personalization] 활동은 [!UICONTROL Conversion] 또는 [!UICONTROL Revenue]을(를) 측정할 수 있습니다. 페이지 보기 또는 mbox 보기를 통해 전환할 수 있습니다. 클릭을 추적할 수도 있습니다.<P>또한 기본 목표는 경험의 성공을 계산하기 위해 모델링 시스템에서 사용하는 모델링 지표가 됩니다.<P>모델링 목표에 도달한 후 추적 목적으로 활동에 방문자를 유지할 수 있습니다. 예를 들어 [!UICONTROL Automated Personalization] 활동은 종종 클릭률을 향상시키는 데 사용되며 모델링 목표로 설정됩니다. 그러나 증가된 클릭률이 최종 전환으로 이어지는 방식을 확인하는 것이 중요하므로 최종 전환까지 추적하는 것이 반드시 필요합니다.<P>여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다.<P>두 성공 지표(또는 여러 개의 성공 지표)를 정의해야 상호 종속성을 만들 수 있습니다.<P>[!UICONTROL Add Dependency] 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다.<P>종속성을 추가하려면 다음을 수행하십시오.<ol><li>추가 지표를 추가한 후 [!UICONTROL Additional Goal]의 오른쪽에 있는 세 점 메뉴 아래에서 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다.</li><li>[!UICONTROL Reporting Settings] 섹션 아래쪽의 **[!UICONTROL Add Dependency]** 옵션을 클릭합니다.</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 [!UICONTROL Reached]을(를) 클릭하여 [!UICONTROL Reached]과(와) [!UICONTROL Not Reached] 사이의 설정을 전환합니다.</li></ol>종속성을 추가한 후 편집하거나 제거할 수 있습니다. |
+   | [!UICONTROL Optimization Goal] | 다음 두 개의 매개 변수로 구성되는 최적화 목표를 지정하십시오.<ul><li>활동으로 측정하려는 작업</li><li>목표가 달성되었음을 보여 주는 작업으로, 활동 참여자가 수행한 것입니다.</li></ul>[!UICONTROL My Primary Goal]의 오른쪽에 있는 세 점을 선택하여 최적화 목표의 이름을 지정할 수 있습니다. [!UICONTROL Automated Personalization] 활동은 [!UICONTROL Conversion] 또는 [!UICONTROL Revenue]을(를) 측정할 수 있습니다. 페이지 보기 또는 mbox 보기를 통해 전환할 수 있습니다. 클릭을 추적할 수도 있습니다.<P>또한 기본 목표는 경험의 성공을 계산하기 위해 모델링 시스템에서 사용하는 모델링 지표가 됩니다.<P>모델링 목표에 도달한 후 추적 목적으로 활동에 방문자를 유지할 수 있습니다. 예를 들어 [!UICONTROL Automated Personalization] 활동은 종종 클릭률을 향상시키는 데 사용되며 모델링 목표로 설정됩니다. 그러나 증가된 클릭률이 최종 전환으로 이어지는 방식을 확인하는 것이 중요하므로 최종 전환까지 추적하는 것이 반드시 필요합니다.<P>여러 지표에 대한 종속성과 유연성을 제공하여 카운트를 늘리기 위해 지표에 도달해야 할지 또는 도달하지 않아야 할지를 선택할 수 있습니다.<P>두 성공 지표(또는 여러 개의 성공 지표)를 정의해야 상호 종속성을 만들 수 있습니다.<P>[!UICONTROL Add Dependency] 옵션을 사용하면 다른 성공 지표에 도달했거나 도달하지 않은 경우 성공 지표를 늘릴 수 있습니다.<P>종속성을 추가하려면 다음을 수행하십시오.<ol><li>추가 지표를 추가한 후 **[!UICONTROL Advanced Settings]**&#x200B;의 오른쪽에 있는 세 점 메뉴 아래에서 [!UICONTROL Additional Goal]을(를) 클릭합니다.</li><li>**[!UICONTROL Add Dependency]** 섹션 아래쪽의 [!UICONTROL Reporting Settings] 옵션을 클릭합니다.</li><li>왼쪽 창에서 오른쪽 창으로 원하는 지표를 드래그해 놓은 다음 [!UICONTROL Reached]을(를) 클릭하여 [!UICONTROL Reached]과(와) [!UICONTROL Not Reached] 사이의 설정을 전환합니다.</li></ol>종속성을 추가한 후 편집하거나 제거할 수 있습니다. |
    | [!UICONTROL Conversion Metric] | 기본적으로 전환 지표는 최적화 목표 지표와 동일합니다. 그러나 [!UICONTROL Same as Optimization Goal] 옵션을 선택 취소하여 별도의 전환 지표를 정의할 수 있습니다. |
    | [!UICONTROL Additional Metrics] | 사용할 추가 보고 지표를 추가합니다. 변환 또는 수입 지표를 추가할 수 있습니다.<P>**참고**: [!UICONTROL Engagement] 지표는 추가 지표로 지원되지 않습니다. [!DNL Target] UI를 통해 [!UICONTROL Engagement] 지표를 선택할 수 있지만 데이터가 보고서에 정확하게 표시되지 않습니다. |
    | [!UICONTROL Audiences for Reporting] | 보고서의 대상별로 필터링하려면 대상을 추가합니다. 기본적으로 보고서는 자격 있는 모든 방문자의 결과를 표시합니다. 방문자의 보다 구체적인 하위 집합을 위해 결과를 필터링하려면 대상을 추가합니다.<P>**참고**: 다른 활동 형식과 달리 [!UICONTROL Automated Personalization]에서는 [!UICONTROL Adobe Analytics]을(를) 보고 소스로 사용(A4T)할 수 없습니다. |

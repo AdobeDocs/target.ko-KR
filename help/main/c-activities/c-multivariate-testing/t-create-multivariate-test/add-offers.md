@@ -1,7 +1,7 @@
 ---
 keywords: mvt;다변량 테스트;오퍼;조합
-description: Adobe [!DNL Target] 에서 [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 [!UICONTROL Multivariate Test] (MVT)에 포함할 오퍼를 만드는 방법을 알아봅니다.
-title: '[!UICONTROL Multivariate Test] (MVT)에서 조합을 만들려면 어떻게 해야 합니까?'
+description: Adobe[!UICONTROL Visual Experience Composer]에서  [!DNL Target] (VEC)을(를) 사용하여 [!UICONTROL Multivariate Test]​(MVT)에 포함할 오퍼를 만드는 방법을 알아봅니다.
+title: '[!UICONTROL Multivariate Test]​(MVT)에서 조합을 만들려면 어떻게 해야 합니까?'
 feature: Multivariate Tests
 exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 source-git-commit: 8f9c0ea65197fd639d463628e54db79db993c2da
@@ -13,7 +13,7 @@ ht-degree: 54%
 
 # 조합 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 [!UICONTROL Multivariate Test] (MVT)에 포함할 오퍼를 만드십시오.
+[!UICONTROL Visual Experience Composer]의 [!DNL Adobe Target]&#x200B;(VEC)을(를) 사용하여 [!UICONTROL Multivariate Test]&#x200B;(MVT)에 포함할 오퍼를 만드십시오.
 
 VEC를 사용하여 오퍼를 만들고 편집하는 방법에 대한 자세한 내용은 [시각적 경험 작성기 선택 사항을 참조하십시오.](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md)
 
@@ -39,7 +39,7 @@ VEC를 사용하여 오퍼를 만들고 편집하는 방법에 대한 자세한 
 
 1. 페이지에서 HTML 오퍼를 클릭한 다음 **[!UICONTROL Change HTML Offer]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Create Offer]**&#x200B;을(를) 클릭하고 **[!UICONTROL HTML Offer]**&#x200B;을(를) 클릭한 다음, 오퍼 이름을 지정하고, HTML 오퍼의 코드를 입력하거나 붙여 넣은 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create Offer]**&#x200B;을(를) 클릭하고 **[!UICONTROL HTML Offer]**&#x200B;을(를) 클릭한 다음, 오퍼 이름을 지정하고, HTML 오퍼에 대한 코드를 입력하거나 붙여 넣은 다음 **[!UICONTROL Create]**&#x200B;을(를) 클릭합니다.
 
    포함하려는 모든 추가적인 HTML 오퍼에 이 작업을 반복합니다.
 

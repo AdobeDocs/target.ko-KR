@@ -13,7 +13,7 @@ ht-degree: 7%
 
 # 콘텐츠 검색 및 필터링
 
-[!DNL Adobe Target]의 [!UICONTROL Offers] 라이브러리에서 키워드로 자산을 검색합니다.
+[!UICONTROL Offers]의 [!DNL Adobe Target] 라이브러리에서 키워드로 자산을 검색합니다.
 
 ## 키워드로 코드 오퍼 검색
 
@@ -26,7 +26,7 @@ ht-degree: 7%
 
 1. **[!UICONTROL Offers]** > **[!UICONTROL Image Offers]**&#x200B;을(를) 클릭합니다.
 
-1. (선택 사항) [!UICONTROL Card View]과(와) [!UICONTROL List View] 사이를 전환하고 콘텐츠 라이브러리의 오른쪽 위 모서리에 있는 [!UICONTROL Card View] 아이콘 또는 [!UICONTROL List View] 아이콘을 클릭합니다. [!UICONTROL List View]을(를) 볼 때 [!UICONTROL View Settings]을(를) 사용하여 열을 추가로 구성할 수도 있습니다.
+1. (선택 사항) [!UICONTROL Card View]과(와) [!UICONTROL List View] 사이를 전환하고 콘텐츠 라이브러리의 오른쪽 위 모서리에 있는 [!UICONTROL Card View] 아이콘 또는 [!UICONTROL List View] 아이콘을 클릭합니다. [!UICONTROL View Settings]을(를) 볼 때 [!UICONTROL List View]을(를) 사용하여 열을 추가로 구성할 수도 있습니다.
 
    다음 그림은 [!UICONTROL List View]을(를) 볼 때 사용할 수 있는 옵션을 보여 줍니다.
 

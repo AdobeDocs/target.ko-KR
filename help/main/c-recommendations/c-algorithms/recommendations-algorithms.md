@@ -1,8 +1,8 @@
 ---
 keywords: 권장 사항 알고리즘;모델 교육;모델 제공;컨텐츠 전달;항목 기반;사용자 기반;인기도 기반;장바구니 기반;사용자 지정 기준
 description: 모델 교육 및 모델 서비스를 포함하여  [!DNL Target Recommendations]에서 사용되는 알고리즘에 대해 알아봅니다.
-title: Target의 Recommendations 알고리즘에 숨겨진 과학에 대한 내용은 어디에서 확인할 수 있습니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+title: Target의 추천 알고리즘에 숨겨진 과학에 대한 내용은 어디에서 확인할 수 있습니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
@@ -51,13 +51,13 @@ ht-degree: 0%
 
 &quot;이 항목을 보거나 구매한 사람 및 이 항목을 보거나 구매한 사람&quot; 알고리즘의 목표는 모든 항목 쌍 간의 유사성 s(A,B)를 계산하는 것입니다. 주어진 항목 A에 대해 상위 권장 사항은 그 유사성 s(A,B)별로 순서가 지정됩니다.
 
-이러한 유사성의 한 예는 항목 간의 공동 발생입니다. 두 항목을 모두 구매한 사용자 수의 간단한 카운트입니다. 직관적이긴 하지만, 이러한 지표는 인기 항목을 추천하는 것에 치우쳐 있다는 점에서 순진하다. 예를 들어, 식료품 소매점에서 대부분의 사람들이 빵을 구매할 경우, 빵은 모든 품목과 높은 동반 발생을 보이겠지만 반드시 좋은 추천은 아니다. [!DNL Target]은(는) 대신 로그 우도비(LLR)라고 하는 더 정교한 유사성 지표를 사용합니다. 이 양은 두 문항 A와 B의 동시 발생 확률이 서로 미발생 확률과 매우 다를 때 크다. 자세한 내용을 보려면 [!UICONTROL People Who Viewed This, Bought That] 알고리즘의 사례를 고려하십시오. B를 구매했을 확률이 A를 보았는지 여부와 관계없이 *not*&#x200B;일 때 LLR 유사도가 크다.
+이러한 유사성의 한 예는 항목 간의 공동 발생입니다. 두 항목을 모두 구매한 사용자 수의 간단한 카운트입니다. 직관적이긴 하지만, 이러한 지표는 인기 항목을 추천하는 것에 치우쳐 있다는 점에서 순진하다. 예를 들어, 식료품 retailer에서 대부분의 사람들이 빵을 구매한다면, 빵은 모든 품목과 높은 동시성을 가지지만, 반드시 좋은 추천은 아니다. [!DNL Target]은(는) 대신 로그 우도비(LLR)라고 하는 더 정교한 유사성 지표를 사용합니다. 이 양은 두 문항 A와 B의 동시 발생 확률이 서로 미발생 확률과 매우 다를 때 크다. 자세한 내용을 보려면 [!UICONTROL People Who Viewed This, Bought That] 알고리즘의 사례를 고려하십시오. B를 구매했을 확률이 A를 보았는지 여부와 관계없이 *not*&#x200B;일 때 LLR 유사도가 크다.
 
 예를 들어
 
 ![열람한/구매한 알고리즘에 대한 수식](assets/formula.png)
 
-그런 다음 항목 B는 항목 A와 함께 권장되지 않습니다. 이 로그 가능성 비율 유사성 계산에 대한 전체 세부 정보가 [이 PDF에 제공됩니다](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
+그런 다음 항목 B는 항목 A와 함께 권장되지 않습니다. 이 로그 가능성 비율 유사성 계산에 대한 전체 세부 정보가 [이 PDF에서](/help/main/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)에 제공됩니다.
 
 실제 알고리즘 구현의 논리 흐름은 다음 도식도에 나와 있습니다.
 
@@ -65,7 +65,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집한 방문자 보기 및 구매 형식의 행동 데이터입니다.
+* **입력 데이터**: [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 방문자 보기 및 구매 형식의 행동 데이터입니다.
 
 * **모델 교육**:
 
@@ -73,7 +73,7 @@ ht-degree: 0%
    * **항목 유사성 계산**: 이 유사성 점수로 모든 후보 항목 쌍 간의 로그 가능성 비율 유사성과 항목의 순위 쌍을 계산하는 핵심 계산 단계입니다.
    * **오프라인 필터링**: 마지막으로 적용 가능한 모든 동적 필터가 적용됩니다(예: 동적 범주 제외). 이 단계 후에는 사전 계산된 권장 사항이 전역적으로 캐시되어 제공할 수 있습니다.
 
-* **모델 제공**: Recommendations 콘텐츠가 [!DNL Target]의 [전역 &quot;Edge&quot; 네트워크에서 전달됩니다](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). [!DNL Target]에 mbox 요청을 하고 권장 사항 콘텐츠를 페이지로 전달해야 한다고 결정되면 권장 사항 알고리즘에 대한 적절한 [항목 키](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)에 대한 요청을 요청에서 구문 분석하거나 사용자 프로필에서 조회한 다음 이전 단계에서 계산된 권장 사항을 검색하는 데 사용합니다. 적절한 [디자인](/help/main/c-recommendations/c-design-overview/create-design.md)이 렌더링되기 전에 현재 동적 필터가 추가로 적용됩니다.
+* **모델 제공**: 권장 사항 콘텐츠가 [!DNL Target]의 [글로벌 &quot;Edge&quot; 네트워크에서 전달됩니다](/help/main/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934). [!DNL Target]에 mbox 요청을 하고 권장 사항 콘텐츠를 페이지로 전달해야 한다고 결정되면 권장 사항 알고리즘에 대한 적절한 [항목 키](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#keys)에 대한 요청을 요청에서 구문 분석하거나 사용자 프로필에서 조회한 다음 이전 단계에서 계산된 권장 사항을 검색하는 데 사용합니다. 적절한 [디자인](/help/main/c-recommendations/c-design-overview/create-design.md)이 렌더링되기 전에 현재 동적 필터가 추가로 적용됩니다.
 
 ## 콘텐츠 유사성
 
@@ -89,7 +89,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 앞에서 설명한 대로 이 알고리즘은 순전히 카탈로그 데이터([카탈로그 피드, 엔터티 API 또는 페이지 업데이트를 통해 [!DNL Target]에 수집됨](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을(를) 기반으로 합니다.
+* **입력 데이터**: 앞에서 설명한 대로 이 알고리즘은 순전히 카탈로그 데이터([!DNL Target]카탈로그 피드, 엔터티 API 또는 페이지 업데이트를 통해 [에 수집됨](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을(를) 기반으로 합니다.
 
 * **모델 교육**:
 
@@ -119,7 +119,7 @@ ht-degree: 0%
 
 권장 사항 알고리즘 집합 [!DNL Target]에 추가된 가장 최근 항목은 [!UICONTROL Recommended For You]과(와) 일련의 장바구니 기반 권장 사항 알고리즘입니다. 두 유형의 알고리즘 모두 협업 필터링 기법을 사용하여 개별 항목 기반 추천을 형성합니다. 그런 다음, 서비스 시 사용자의 검색 기록([!UICONTROL Recommended For You]의 경우)에 있는 여러 항목 또는 사용자의 현재 장바구니( 장바구니 기반 권장 사항의 경우)를 사용하여 이러한 항목 기반 권장 사항을 검색한 다음, 병합하여 최종 권장 사항 목록을 만듭니다. 개인화된 추천 알고리즘의 다양한 유형이 존재한다는 점을 참고하십시오. 다중 키 알고리즘의 선택은 방문자가 검색 기록을 가지고 있고 최신 방문자 행동에 대응하기 위해 권장 사항을 업데이트할 수 있는 직후에 권장 사항을 사용할 수 있음을 의미합니다.
 
-이러한 알고리즘은 항목 기반 권장 사항 섹션에 설명된 기본 공동 작업 필터링 기술을 기반으로 하지만 하이퍼파라미터 튜닝을 통합하여 항목 간 최적의 유사성 지표를 결정합니다. 이 알고리즘은 각 사용자에 대해 행동 데이터를 시간별로 분할하고, 사용자가 나중에 보거나 구매하는 항목을 예측하려고 시도하는 동안 이전 데이터에 대한 추천 모델을 교육합니다. 그런 다음 최적의 [평균 평균 정밀도](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))를 생성하는 유사성 지표가 선택됩니다.
+이러한 알고리즘은 항목 기반 권장 사항 섹션에 설명된 기본 공동 작업 필터링 기술을 기반으로 하지만 하이퍼파라미터 튜닝을 통합하여 항목 간 최적의 유사성 지표를 결정합니다. 이 알고리즘은 각 사용자에 대해 행동 데이터를 시간별로 분할하고, 사용자가 나중에 보거나 구매하는 항목을 예측하려고 시도하는 동안 이전 데이터에 대한 추천 모델을 교육합니다. 그런 다음 최적의 [평균 평균 정밀도]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))를 생성하는 유사성 지표가 선택됩니다.
 
 다음 다이어그램에는 모델 교육 및 채점 단계의 논리가 나와 있습니다.
 
@@ -127,7 +127,7 @@ ht-degree: 0%
 
 이러한 단계의 세부 사항은 다음과 같습니다.
 
-* **입력 데이터**: 항목-항목 공동 작업 필터링(CF) 방법과 동일합니다. [!UICONTROL Both Recommended For You] 및 장바구니 기반 알고리즘에서는 [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집한 사용자의 보기 및 구매 형식의 행동 데이터를 사용합니다.
+* **입력 데이터**: 항목-항목 공동 작업 필터링(CF) 방법과 동일합니다. [!UICONTROL Both Recommended For You] 및 장바구니 기반 알고리즘에서는 [Target 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 또는 [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}에서 수집된 사용자의 보기 및 구매 형식의 행동 데이터를 사용합니다.
 
 * **모델 교육**:
 
@@ -139,7 +139,7 @@ ht-degree: 0%
 
   ![교육 계산을 보여 주는 수식](assets/formula4.png)
 
-   * **항목 유사성 모델 평가**: 모델 평가는 이전 단계에서 생성된 권장 사항을 취하고 테스트 데이터 집합에 대한 예측을 수행하여 수행됩니다. 온라인 채점 단계는 테스트 데이터 세트에서 각 사용자의 항목 사용을 시간 순으로 정렬한 다음, 후속 보기 및 구매를 예측하기 위해 정렬된 항목 하위 집합에 대해 100개의 권장 사항을 만드는 방식으로 모방됩니다. 이러한 권장 사항의 품질을 평가하는 데 정보 검색 지표인 [평균 정밀도](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))가 사용됩니다. 이 지표는 권장 사항 순서를 고려하며 권장 사항 목록 위에 있는 관련 항목을 선호합니다. 이는 등급 시스템의 중요한 속성입니다.
+   * **항목 유사성 모델 평가**: 모델 평가는 이전 단계에서 생성된 권장 사항을 취하고 테스트 데이터 집합에 대한 예측을 수행하여 수행됩니다. 온라인 채점 단계는 테스트 데이터 세트에서 각 사용자의 항목 사용을 시간 순으로 정렬한 다음, 후속 보기 및 구매를 예측하기 위해 정렬된 항목 하위 집합에 대해 100개의 권장 사항을 만드는 방식으로 모방됩니다. 이러한 권장 사항의 품질을 평가하는 데 정보 검색 지표인 [평균 정밀도]&#x200B;(https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval))가 사용됩니다. 이 지표는 권장 사항 순서를 고려하며 권장 사항 목록 위에 있는 관련 항목을 선호합니다. 이는 등급 시스템의 중요한 속성입니다.
    * **모델 선택**: 오프라인 평가 후 평균 평균 정밀도가 가장 높은 모델이 선택되고 모든 개별 항목 권장 사항이 계산됩니다.
    * **오프라인 필터링**: 모델 교육의 마지막 단계는 적용 가능한 동적 필터를 적용하는 것입니다. 이 단계 후에는 사전 계산된 권장 사항이 전역적으로 캐시되어 제공할 수 있습니다.
 

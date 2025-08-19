@@ -51,7 +51,7 @@ A/B 테스트 설정 워크플로의 두 번째 단계에서 [자동 타겟](/he
 
 ## Activity Planner를 통한 활동 계획
 
-저장하고 반복하여 사용할 수 있는 독립 실행형 PDF으로 [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf)를 포함했습니다. PDF 파일을 보려면 링크를 클릭하십시오. PDF 파일을 다운로드하려면 마우스 오른쪽 버튼을 클릭하십시오.
+저장하고 반복하여 사용할 수 있는 독립 실행형 PDF으로 [Adobe Target Activity Planner](/help/main/assets/activity-planner.pdf)가 포함되어 있습니다. PDF 파일을 보려면 링크를 클릭하십시오. PDF 파일을 다운로드하려면 마우스 오른쪽 버튼을 클릭하십시오.
 
 효과적인 활동을 하기 위해서는 플래너의 각 영역을 작성해야 합니다. 테스트 및 개인화 활동에 대한 아이디어를 브레인스토밍할 때 이 도구를 사용하십시오.
 

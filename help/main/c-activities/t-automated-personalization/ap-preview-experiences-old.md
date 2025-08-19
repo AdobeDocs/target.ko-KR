@@ -1,8 +1,8 @@
 ---
 keywords: Automated Personalization;ap;미리 보기;경험 제외
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Automated Personalization] (AP) 활동에서 [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 각 경험을 미리 보는 방법에 대해 알아봅니다.'
+description: '[!UICONTROL Automated Personalization]의  [!DNL Adobe Target] (AP) 활동에서 [!UICONTROL Visual Experience Composer]​(VEC)을(를) 사용하여 각 경험을 미리 보는 방법에 대해 알아봅니다.'
 title: VEC에서 [!UICONTROL Automated Personalization] 경험을 미리 보려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88
@@ -12,11 +12,11 @@ ht-degree: 15%
 
 ---
 
-# [!UICONTROL Visual Experience Composer] (VEC)의 [!UICONTROL Automated Personalization] 활동에서 경험 미리 보기
+# [!UICONTROL Automated Personalization]&#x200B;(VEC)의 [!UICONTROL Visual Experience Composer] 활동에서 경험 미리 보기
 
-[!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 활동은 한 페이지의 여러 오퍼를 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
+[!DNL Adobe Target] [!UICONTROL Automated Personalization]&#x200B;(AP) 활동은 한 페이지의 여러 오퍼를 비교하므로 각 경험과 함께 페이지를 미리 보는 것이 좋습니다.
 
-1. [!UICONTROL Visual Experience Composer] (VEC)에서 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
+1. [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 **[!UICONTROL Preview]**&#x200B;을(를) 클릭합니다.
 
    ![미리 보기 아이콘](/help/main/c-activities/t-automated-personalization/assets/preview.png)
 
@@ -44,4 +44,4 @@ ht-degree: 15%
 
    제외된 여러 경험을 포함하려면 원하는 경험에 대한 확인란을 선택한 다음 목록의 오른쪽 상단에 있는 **[!UICONTROL Include]** 아이콘을 클릭합니다.
 
-1. 추가 변경을 수행할 수 있도록 [!UICONTROL Visual Experience Composer] (으)로 돌아가려면 **[!UICONTROL Compose]**&#x200B;을(를) 클릭하고 [!UICONTROL Targeting] 단계로 이동하려면 **[!UICONTROL Next]**&#x200B;을(를) 클릭하십시오.
+1. 추가 변경을 수행할 수 있도록 **[!UICONTROL Compose]**(으)로 돌아가려면 [!UICONTROL Visual Experience Composer]을(를) 클릭하고 **[!UICONTROL Next]** 단계로 이동하려면 [!UICONTROL Targeting]을(를) 클릭하십시오.

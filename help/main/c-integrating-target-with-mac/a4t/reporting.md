@@ -13,11 +13,11 @@ ht-degree: 39%
 
 # A4T 보고
 
-[!DNL Adobe Analytics]을(를) [!DNL Adobe Target]에 대한 보고 소스로 사용(A4T)하면 [!DNL Target] 활동에 대한 [!DNL Analytics] 보고서에 액세스할 수 있습니다.
+[!DNL Adobe Analytics]을(를) [!DNL Adobe Target]에 대한 보고 소스로 사용(A4T)하면 [!DNL Analytics] 활동에 대한 [!DNL Target] 보고서에 액세스할 수 있습니다.
 
 [!DNL Analytics]과(와) [!DNL Target] 모두에서 활동에 대한 보고서를 볼 수 있습니다.
 
-[!DNL Target]에 대해 [!DNL Analytics]을(를) 사용하는 보고 모범 사례를 보려면 [이 Adobe Spark Page을 방문하세요](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+[!DNL Analytics]에 대해 [!DNL Target]을(를) 사용하는 보고 모범 사례를 보려면 [이 Adobe Spark 페이지를 방문](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)하십시오.
 
 ## 개요 {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -45,16 +45,16 @@ ht-degree: 39%
 
 ### 지표
 
-* [!UICONTROL Activity Impressions] - [!DNL Target] 보고서의 [!UICONTROL Entrants] 숫자와 일치합니다.
-* [!UICONTROL Activity Conversions] - [!DNL Target] 보고서의 [!UICONTROL Custom Conversions] 숫자와 일치합니다.
+* [!UICONTROL Activity Impressions] - [!UICONTROL Entrants] 보고서의 [!DNL Target] 숫자와 일치합니다.
+* [!UICONTROL Activity Conversions] - [!UICONTROL Custom Conversions] 보고서의 [!DNL Target] 숫자와 일치합니다.
 
-[!DNL Analysis Workspace]에서 [!UICONTROL Analytics for Target] 패널을 사용하여 향상도와 신뢰도로 [!DNL Target] 활동 및 경험을 분석하십시오. 자세한 내용은 *Analytics 도구 안내서*&#x200B;의 [Analytics for Target(A4T) 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ko-KR)을 참조하십시오.
+[!DNL Analysis Workspace]에서 [!UICONTROL Analytics for Target] 패널을 사용하여 향상도와 신뢰도로 [!DNL Target] 활동 및 경험을 분석하십시오. 자세한 내용은 [Analytics 도구 안내서](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ko-KR)의 *Analytics for Target(A4T) 패널*&#x200B;을 참조하십시오.
 
 >[!IMPORTANT]
 >
->[!DNL Analytics]의 [!UICONTROL Target Activities] 보고서에 활동을 나열하는 대신 &quot;지정되지 않음&quot;이 나열되면 프로비저닝된 계정에 업데이트가 필요합니다. 이 문제를 해결하려면 고객 지원팀에 문의하십시오.
+>[!UICONTROL Target Activities]의 [!DNL Analytics] 보고서에 활동을 나열하는 대신 &quot;지정되지 않음&quot;이 나열되면 프로비저닝된 계정에 업데이트가 필요합니다. 이 문제를 해결하려면 고객 지원팀에 문의하십시오.
 
-자세한 내용 및 예를 보려면 Adobe Experience League에서 제공하는 [Analytics &amp; Target: 분석 모범 사례](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) 자습서를 여십시오.
+자세한 내용 및 예를 보려면 Adobe Experience League에서 제공한 [Analytics &amp; Target: 분석 우수 사례](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) 자습서를 여십시오.
 
 ## [!DNL Target]의 보고서 {#section_C0D1F17F88374B6690BF904D7B83B42E}
 
@@ -73,7 +73,7 @@ ht-degree: 39%
 
 ## 활동 만들기 {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
-활동을 만드는 동안 [!UICONTROL Settings] 페이지에서 활동에 대한 목표를 지정해야 합니다. 이 목표는 보고서의 기본 지표가 되며 지표 선택기에서 첫 번째 옵션으로 항상 표시됩니다. 일반 Target 활동에서와 같이 보고용 세그먼트를 선택할 수는 없습니다. [!DNL Analytics]이(가) 있는 테스트에서는 [!DNL Target]개의 대상이 아닌 [!DNL Adobe Analytics]개의 세그먼트를 사용합니다.
+활동을 만드는 동안 [!UICONTROL Settings] 페이지에서 활동에 대한 목표를 지정해야 합니다. 이 목표는 보고서의 기본 지표가 되며 지표 선택기에서 첫 번째 옵션으로 항상 표시됩니다. 일반 Target 활동에서와 같이 보고용 세그먼트를 선택할 수는 없습니다. [!DNL Analytics]이(가) 있는 테스트에서는 [!DNL Adobe Analytics]개의 대상이 아닌 [!DNL Target]개의 세그먼트를 사용합니다.
 
 ## Analytics for Adobe Target (A4T)에 사용할 오프라인 계산 수행 {#section_B34BD016C8274C97AC9564F426B9607E}
 
@@ -89,7 +89,7 @@ A4T의 경우 연속 변수(이진 지표가 아님)에 대해 [Welch의 t-test]
 1. **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Data Warehouse Request]** 탭에서 필드를 채웁니다.
 
-   각 필드에 대한 자세한 내용은 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=ko)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
+   각 필드에 대한 자세한 내용은 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
 
    | 필드 | 지침 |
    |--- |--- |
@@ -109,5 +109,5 @@ A4T의 경우 연속 변수(이진 지표가 아님)에 대해 [Welch의 t-test]
 
 [!DNL Data Warehouse]에 대한 자세한 내용은 [!DNL Analytics] 도움말 설명서에서 다음 링크를 참조하십시오.
 
-* [Data Warehouse 요청 만들기](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ko)
-* [Data Warehouse 모범 사례](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ko)
+* [Data Warehouse 요청 만들기](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Data Warehouse 모범 사례](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)

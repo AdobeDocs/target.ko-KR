@@ -25,7 +25,7 @@ ht-degree: 48%
 
 두 부울 연산자를 혼합하여 복합 규칙을 만들 수 있지만 동일한 규칙 수준의 연산자가 일치해야 합니다. 사용자 인터페이스는 올바른 연산자를 자동으로 적용합니다.
 
-예를 들어, 다음 규칙은 [!DNL Windows] 컴퓨터에서 [!DNL Chrome] *또는* [!DNL Firefox]을(를) 사용하는 방문자를 타깃팅합니다.
+예를 들어, 다음 규칙은 [!DNL Chrome] 컴퓨터에서 ** 또는 [!DNL Firefox] [!DNL Windows]을(를) 사용하는 방문자를 타깃팅합니다.
 
 ![대상자 만들기](assets/audience_create.png)
 

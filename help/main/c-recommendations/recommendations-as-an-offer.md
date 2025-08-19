@@ -2,7 +2,7 @@
 keywords: 추천;오퍼
 description: A/B 테스트(자동 할당 및 자동 타겟 포함) 및 경험 타깃팅(XT) 활동에서 오퍼로서 Adobe 추천를 사용하는 방법에 대해 알아봅니다.
 title: 다른 활동 유형에서 추천를 제안으로 사용하는 방법은 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: ec520555-b439-46a9-ab2d-f0981532bffb
 source-git-commit: f848c79cb95009b5810a1707d04e548a57220e12
@@ -14,7 +14,7 @@ ht-degree: 60%
 
 # 오퍼로서의 추천
 
-이제 [!UICONTROL A/B Test] ([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)과 [!UICONTROL Experience Targeting] (XT) 활동 내에 권장 사항을 포함할 수 있습니다.
+이제 [!UICONTROL A/B Test]&#x200B;([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함)과 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동 내에 권장 사항을 포함할 수 있습니다.
 
 이 기능은 다음과 같이 완전히 새로운 기능을 사용할 수 있도록 해 줍니다.
 
@@ -23,7 +23,7 @@ ht-degree: 60%
 * [!UICONTROL Auto-Allocate]을(를) 사용하여 트래픽을 가장 성과가 가장 좋은 권장 사항 경험에 자동으로 푸시합니다.
 * [!UICONTROL Auto-Target]을(를) 사용하여 방문자를 프로필에 따라 맞춤 권장 사항 경험에 동적으로 지정할 수 있습니다.
 
-시작하려면 [!UICONTROL Visual Experience Composer]을(를) 사용하여 [!UICONTROL A/B Test] 또는 [!UICONTROL Experience Targeting] 활동을 만들고 [!UICONTROL Insert Before], [!UICONTROL Insert After] 또는 [!UICONTROL Replace With] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
+시작하려면 [!UICONTROL A/B Test]을(를) 사용하여 [!UICONTROL Experience Targeting] 또는 [!UICONTROL Visual Experience Composer] 활동을 만들고 [!UICONTROL Insert Before], [!UICONTROL Insert After] 또는 [!UICONTROL Replace With] 작업을 사용하여 권장 사항을 경험에 추가하십시오.
 
 ## A/B 테스트 또는 XT 활동에서 오퍼로서 권장 사항 추가
 
@@ -111,7 +111,7 @@ ht-degree: 60%
 
 ### 권장 사항 오퍼 상태 보기 {#status}
 
-권장 사항 오퍼의 (알고리즘) 상태는 Recommendations 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 [!UICONTROL Overview] 페이지 하단에 표시됩니다.
+권장 사항 오퍼의 (알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 [!UICONTROL Overview] 페이지 하단에 표시됩니다.
 
 * 결과 준비
 * 결과가 준비되지 않음

@@ -6,8 +6,8 @@ feature: Audiences
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 69%
+source-wordcount: '494'
+ht-degree: 68%
 
 ---
 
@@ -44,7 +44,7 @@ ISP, 도메인 이름 및 연결 속도 등 네트워크 세부 사항을 기준
      >
      >ISP를 기반으로 타깃팅할 때에는 일반 이름을 사용하지 말고 ISP 이름을 사용하십시오. 대소문자를 구분하지 않는 규칙을 작성하거나 항상 소문자 형식을 사용하는지 확인합니다.
 
-     ISP 및 도메인 이름 값을 테스트할 수 있습니다. [https://www.whoismyisp.org](https://www.whoismyisp.org)은(는) 타깃팅용으로 적합한 리소스입니다. 위 표에 제공된 샘플 IP 주소를 사용하거나 원하는 IP 주소를 입력할 수 있습니다. 그런 다음 `mboxOverride.browserIp= URL` 매개 변수를 사용하여 IP 주소를 모방하십시오.
+     ISP 및 도메인 이름 값을 테스트할 수 있습니다. [https://www.whoismyisp.org](https://www.whoismyisp.org)은(는) 타깃팅용으로 적합한 리소스입니다. 위 테이블에 제공된 샘플 IP 주소를 사용하거나 원하는 IP 주소를 입력할 수 있습니다. 그런 다음 `mboxOverride.browserIp= URL` 매개 변수를 사용하여 IP 주소를 모방하십시오.
 
    * **도메인 이름:** 이 이름은 방문자 IP 주소의 도메인 이름입니다. 이 이름은 [!DNL Target]에 사용하는 웹 사이트의 도메인 이름이 아닙니다. 이 도메인 이름은 방문자의 IP 주소와 관련되며 때로는 호스트 이름이라고도 합니다. ISP 이름과 유사합니다. 호스트 이름이 도메인 이름이 아니라, ISP 이름을 새로이 브랜딩한 회사의 이전 이름을 참조하는 경우도 있습니다.
    * **연결 속도:** 이 속도는 방문자가 인터넷에 연결한 속도입니다. 선택 사항에는 광대역, 케이블, 전화 접속, 모바일, oc3, oc12, 위성, t1, t2, 무선 및 xdsl 등이 있습니다.

@@ -1,8 +1,8 @@
 ---
 keywords: 동작 데이터 소스;분석;권장 사항;기준;제품 변수
-description: ' [!DNL Analytics] in [!DNL Target Recommendations]의 보기 기반 및/또는 구매 기반 행동 데이터를 사용하기 위해 행동 데이터 소스로  [!DNL Adobe Analytics] 을(를) 사용하는 방법에 대해 알아봅니다.'
+description: ' [!DNL Adobe Analytics] in [!DNL Analytics] 의 보기 기반 및/또는 구매 기반 행동 데이터를 사용하기 위해 행동 데이터 소스로  [!DNL Target Recommendations]을(를) 사용하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Adobe Analytics] with [!DNL Target Recommendations]을(를) 사용하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -12,13 +12,13 @@ ht-degree: 1%
 
 ---
 
-# [!DNL Recommendations]과(와) 함께 [!DNL Adobe Analytics] 사용
+# [!DNL Adobe Analytics]과(와) 함께 [!DNL Recommendations] 사용
 
-[!DNL Adobe Analytics]을(를) 동작 데이터 소스로 사용하면 클라이언트는 [!DNL Adobe Target] [!DNL Recommendations] 활동에서 [!DNL Analytics]의 보기 기반 및/또는 구매 기반 동작 데이터를 사용할 수 있습니다. 이 기능은 [!DNL Target Recommendations] 설정이 처음이고 [!DNL Analytics]에 사용할 내역 데이터가 많은 경우 특히 유용합니다.
+[!DNL Adobe Analytics]을(를) 동작 데이터 소스로 사용하면 클라이언트는 [!DNL Analytics] [!DNL Adobe Target] 활동에서 [!DNL Recommendations]의 보기 기반 및/또는 구매 기반 동작 데이터를 사용할 수 있습니다. 이 기능은 [!DNL Target Recommendations] 설정이 처음이고 [!DNL Analytics]에 사용할 내역 데이터가 많은 경우 특히 유용합니다.
 
 [!DNL Analytics]을(를) 동작 데이터 원본으로 사용하면 사용자 동작에 대한 풍부한 정보 원본으로 사용할 수 있습니다. 이 정보에는 [!DNL Analytics]과(와) 공유된 서드파티 원본 또는 피드의 데이터가 포함될 수 있습니다.
 
-[!DNL Recommendations]에서 [기준을 만드는 중](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)에 사용할 데이터 원본을 선택할 수 있는 라디오 단추가 두 개 있습니다. [!UICONTROL mboxes] 또는 [!UICONTROL Analytics]. 기준을 만들려면 [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]을(를) 클릭합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
+[에서 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)기준을 만드는 중[!DNL Recommendations]에 사용할 데이터 원본을 선택할 수 있는 라디오 단추가 두 개 있습니다. [!UICONTROL mboxes] 또는 [!UICONTROL Analytics]. 기준을 만들려면 [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]을(를) 클릭합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
 
 ![동작 데이터 원본 단추](assets/behavioral-data-source.png)
 
@@ -41,7 +41,7 @@ ht-degree: 1%
 
 ### 필수 구성 요소: [!DNL Analytics]에서 제품 변수를 설정합니다.
 
-[!DNL Target Recommendations]에 필요한 필수 특성을 사용하여 [!DNL Analytics]에서 제품 변수를 구현합니다.
+[!DNL Analytics]에 필요한 필수 특성을 사용하여 [!DNL Target Recommendations]에서 제품 변수를 구현합니다.
 
 [!DNL Target Recommendations] 샘플 피드 형식은 제품 변수에서 모든 특성을 정의해야 하는 가이드 역할을 합니다. 나중에 해당 값은 각 [!DNL Target] 엔터티 값에 대해 [!DNL Target] UI 내에서 &quot;매핑&quot;되어야 합니다.
 
@@ -49,7 +49,7 @@ ht-degree: 1%
 >
 >콘텐츠 사이트인 경우 해당 콘텐츠 조각을 &quot;제품&quot;으로 취급하고 해당 콘텐츠에 대한 관련 속성을 속성으로 전달해야 합니다. 이러한 속성에는 작성자 이름, 게시 날짜, 콘텐츠 제목, 릴리스 월 등이 포함될 수 있습니다. 카테고리 수준 또는 카테고리 유형의 세부기간은 사용 사례 요구 사항에 따라 비즈니스에서 결정해야 합니다.
 
-제품 변수를 설정하는 방법에 대한 자세한 내용은 *Adobe Analytics 구현* 안내서에서 [제품](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html?lang=ko)을 참조하십시오. 해당 설명서의 일부 참고에는 이 설명서를 배포하는 팀의 재량이 필요합니다(예: 범주). 이 활동을 수행하기 전에 항상 [!DNL Adobe]과(와) 상담하는 것이 좋습니다.
+제품 변수를 설정하는 방법에 대한 자세한 내용은 [Adobe Analytics 구현](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) 안내서에서 *제품*&#x200B;을 참조하십시오. 해당 설명서의 일부 참고에는 이 설명서를 배포하는 팀의 재량이 필요합니다(예: 범주). 이 활동을 수행하기 전에 항상 [!DNL Adobe]과(와) 상담하는 것이 좋습니다.
 
 ### 고려 사항
 
@@ -88,9 +88,9 @@ ht-degree: 1%
 
 ## 자주 묻는 질문
 
-[!DNL Target]에서 [!DNL Analytics]을(를) 사용할 때 다음 FAQ를 고려하십시오.
+[!DNL Analytics]에서 [!DNL Target]을(를) 사용할 때 다음 FAQ를 고려하십시오.
 
-### [!DNL Target] mbox 호출 내에 `entity.id` 및 `entity.categoryId` 값을 전달해야 합니까?
+### `entity.id` mbox 호출 내에 `entity.categoryId` 및 [!DNL Target] 값을 전달해야 합니까?
 
 예, 이 두 값은 여전히 필수입니다. 나머지 속성은 이 문서에서 설명한 대로 [!DNL Analytics] 피드를 통해 전달할 수 있습니다.
 

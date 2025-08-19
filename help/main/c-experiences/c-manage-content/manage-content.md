@@ -13,13 +13,13 @@ ht-degree: 8%
 
 # 오퍼
 
-[!DNL Adobe Target]의 [!UICONTROL Offers] 라이브러리를 사용하여 코드 및 이미지 오퍼를 효율적으로 관리하는 방법을 알아봅니다.
+[!UICONTROL Offers]의 [!DNL Adobe Target] 라이브러리를 사용하여 코드 및 이미지 오퍼를 효율적으로 관리하는 방법을 알아봅니다.
 
-[!UICONTROL Offers] 라이브러리를 표시하려면 [!DNL Target] UI 상단의 **[!UICONTROL Offers]** 탭을 클릭합니다.
+[!UICONTROL Offers] 라이브러리를 표시하려면 **[!UICONTROL Offers]** UI 상단의 [!DNL Target] 탭을 클릭합니다.
 
 ![오퍼 페이지](/help/main/c-experiences/c-manage-content/assets/offers-page-new.png)
 
-[!UICONTROL Offers] 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager] (AEM), [!DNL Adobe Mobile Services] (AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다.
+[!UICONTROL Offers] 라이브러리에는 [!DNL Target Standard/Premium], [!DNL Target Classic], [!DNL Adobe Experience Manager]&#x200B;(AEM), [!DNL Adobe Mobile Services]&#x200B;(AMS) 및 API를 통해 설정한 오퍼가 있습니다. [!DNL Target Classic] 또는 기타 솔루션에서 만든 오퍼는 [!DNL Target Standard/Premium]에서 편집할 수 있습니다.
 
 [!UICONTROL Offers] 라이브러리는 모든 코드 및 이미지 오퍼에 대한 개요를 제공하며 사용자가 다양한 작업을 수행할 수 있도록 해 줍니다.
 
@@ -27,7 +27,7 @@ ht-degree: 8%
 |--- |--- |
 | 왼쪽 탐색 레일 | [!UICONTROL Code Offers] 또는 [!UICONTROL Image Offers] 표시 간에 전환합니다. |
 | [!UICONTROL Show Folders] / [!UICONTROL Hide Folders]<P>![필터 표시/필터 숨기기 아이콘](/help/main/assets/icons/RailLeft.svg) | 오퍼 폴더 구조를 표시하거나 폴더 구조를 표시하지 않으려면 **[!UICONTROL Show Folders]** 또는 **[!UICONTROL Hide Folders]** 아이콘을 클릭하십시오.<P>자세한 내용은 [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder.md)를 참조하십시오. |
-| [!UICONTROL Show filters] 아이콘<P>![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) | [!UICONTROL Type], [!UICONTROL Source] 및 [!UICONTROL AEM Type]별로 오퍼를 필터링하려면 **[!UICONTROL Show filters]** 아이콘을 클릭하십시오.<P>자세한 내용은 아래의 [오퍼 목록에 필터 적용](#filters)을 참조하세요. |
+| [!UICONTROL Show filters] 아이콘<P>![필터 표시 아이콘](/help/main/assets/icons/Filter.svg) | **[!UICONTROL Show filters]**, [!UICONTROL Type] 및 [!UICONTROL Source]별로 오퍼를 필터링하려면 [!UICONTROL AEM Type] 아이콘을 클릭하십시오.<P>자세한 내용은 아래의 [오퍼 목록에 필터 적용](#filters)을 참조하세요. |
 | 필드 검색 | **[!UICONTROL Search in]** 필드를 사용하여 오퍼를 빠르게 찾거나 [!UICONTROL Offers] 라이브러리에 표시되는 오퍼 수를 줄이십시오. [!UICONTROL Offer Name], [!UICONTROL AEM Paths] 또는 [!UICONTROL AEM Tags]별로 검색할 수 있습니다. 검색 옵션은 세션 지속적입니다. |
 | [!UICONTROL Create Folder] | **[!UICONTROL Create Folder]**&#x200B;을(를) 클릭하여 [!UICONTROL Offer] 라이브러리에 폴더를 만들어 코드 오퍼, 이미지 오퍼와 다른 폴더를 보관하여 하위 폴더 구조를 만듭니다.<P>자세한 내용은 [오퍼 폴더 만들기](/help/main/c-experiences/c-manage-content/create-content-folder.md)를 참조하십시오. |
 | [!UICONTROL [!UICONTROL Create Offer]] | 오퍼를 만들려면 **[!UICONTROL Create Offer]**&#x200B;을(를) 클릭합니다.<P>다양한 오퍼 유형 만들기에 대한 자세한 내용은 다음을 참조하십시오. <ul><li>HTML 오퍼</li><li>[JSON 오퍼](/help/main/c-experiences/c-manage-content/create-json-offer.md)</li><li>[오퍼 리디렉션](/help/main/c-experiences/c-manage-content/offer-redirect.md)</li><li>[원격 오퍼](/help/main/c-experiences/c-manage-content/about-remote-offers.md)</li></ul> |
@@ -72,7 +72,7 @@ ht-degree: 8%
 * [!UICONTROL Edit]
 * [!UICONTROL Copy]
 * [!UICONTROL Delete]
-* [!UICONTROL Move] (예: 하나 이상의 항목을 폴더로 이동하려면 원하는 항목 옆의 **[!UICONTROL Move]**&#x200B;을(를) 클릭하고 원하는 폴더를 클릭한 다음 **[!UICONTROL Move]**&#x200B;을(를) 클릭합니다.
+* [!UICONTROL Move]&#x200B;(예: 하나 이상의 항목을 폴더로 이동하려면 원하는 항목 옆의 **[!UICONTROL Move]**&#x200B;을(를) 클릭하고 원하는 폴더를 클릭한 다음 **[!UICONTROL Move]**&#x200B;을(를) 클릭합니다.
 
 사용 권한에 따라 일부 옵션의 아이콘이 표시되지 않을 수 있습니다. 예를 들어 [!UICONTROL Observer] 권한이 있는 사용자는 [!UICONTROL Copy] 옵션을 사용할 수 있는 권한이 없습니다.
 

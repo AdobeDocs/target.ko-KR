@@ -17,7 +17,7 @@ ht-degree: 87%
 
 최신 브라우저는 보안 콘텐츠가 비보안 콘텐츠와 혼합된 경우 페이지 표시를 차단하거나 경고 메시지를 표시할 수 있습니다.
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer] (VEC)이 혼합 콘텐츠가 포함된 페이지를 열려고 하면 경고 메시지가 표시됩니다. 이 메시지는 브라우저에서 차단을 비활성화하는 방법을 알려 줍니다. 차단을 비활성화하면 HTTP 사이트 또는 혼합 콘텐츠(HTTPS 및 HTTP)가 있는 사이트를 열 수 있습니다.
+[!UICONTROL Visual Experience Composer]의 [!DNL Adobe Target]&#x200B;(VEC)이 혼합 콘텐츠가 포함된 페이지를 열려고 하면 경고 메시지가 표시됩니다. 이 메시지는 브라우저에서 차단을 비활성화하는 방법을 알려 줍니다. 차단을 비활성화하면 HTTP 사이트 또는 혼합 콘텐츠(HTTPS 및 HTTP)가 있는 사이트를 열 수 있습니다.
 
 ![혼합 콘텐츠 경고](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -82,6 +82,6 @@ Google Chrome 도움말의 &quot;[안전하지 않은 사이트에 대한 경고
 
 1. **[!UICONTROL Insecure content]**(으)로 스크롤
 
-1. **[!UICONTROL Insecure content]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Allow]** 옆에 있는 **[!UICONTROL Add]**&#x200B;을(를) 클릭하고 비보안 콘텐츠를 허용할 사이트를 추가한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Insecure content]**&#x200B;을(를) 클릭한 다음 **[!UICONTROL Add]** 옆에 있는 **[!UICONTROL Allow]**&#x200B;을(를) 클릭하고 비보안 콘텐츠를 허용할 사이트를 추가한 다음 **[!UICONTROL Add]**&#x200B;을(를) 클릭합니다.
 
 1. VEC 페이지를 다시 로드합니다.

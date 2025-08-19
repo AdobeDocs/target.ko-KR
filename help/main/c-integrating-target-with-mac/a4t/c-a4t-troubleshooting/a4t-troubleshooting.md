@@ -43,7 +43,7 @@ ht-degree: 88%
 
 데이터와 함께 표시하기 위해 사용하는 지표에 따라 보고서에 &quot;[!UICONTROL Unspecified]&quot; 이벤트 행이 표시될 수 있습니다.
 
-일반적으로 이 행은 보고서에서 [!DNL Target]과(와) 관련되지 않은 일반적인 지표(예: [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] 등)를 선택하는 경우 표시됩니다. 이 경우 [!UICONTROL "Unspecified"] 행에는 [!DNL Target] 활동과 연결되지 않은 모든 [!UICONTROL Page Views], [!UICONTROL Visits] 및 [!UICONTROL Unique Visitors]이(가) 포함됩니다.
+일반적으로 이 행은 보고서에서 [!DNL Target]과(와) 관련되지 않은 일반적인 지표(예: [!UICONTROL Page Views], [!UICONTROL Visits], [!UICONTROL Unique Visitors] 등)를 선택하는 경우 표시됩니다. 이 경우 [!UICONTROL "Unspecified"] 행에는 [!UICONTROL Page Views] 활동과 연결되지 않은 모든 [!UICONTROL Visits], [!UICONTROL Unique Visitors] 및 [!DNL Target]이(가) 포함됩니다.
 
 이 행에는 [!DNL Target] 관련 정보가 포함되지 않습니다(예: 방문자 수, 방문 횟수 또는 노출 횟수 없음). 자세한 내용은 *Analytics 기술 노트*&#x200B;에서 [보고의 “지정되지 않음”, “없음”, “기타” 및 “알 수 없음”](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=ko)을 참조하십시오.
 
@@ -59,7 +59,7 @@ A4T 활동을 사용하려면 Analytics 추적 서버를 지정해야 합니다.
 
 >[!NOTE]
 >
->at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 만드는 동안 [!UICONTROL Goals & Settings] 페이지의 [!UICONTROL Tracking Server] 필드를 비워 둘 수 있습니다.
+>at.js 버전 0.9.1 이상을 사용 중이면 활동 생성 도중 추적 서버를 지정하지 않아도 됩니다. at.js 라이브러리는 [!DNL Target]에 추적 서버 값을 자동으로 전송합니다. 활동을 만드는 동안 [!UICONTROL Tracking Server] 페이지의 [!UICONTROL Goals & Settings] 필드를 비워 둘 수 있습니다.
 
 ## 내 Analytics 세그먼트가 Target에 표시되지 않습니다. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
@@ -92,7 +92,7 @@ A4T 활동을 생성하기 전에 올바른 권한이 있는지 확인하십시�
 
 보조 ID를 검사하는 가장 간편한 방법은 Adobe Experience Platform Debugger를 사용하는 것입니다.
 
-디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 소개](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html?lang=ko)를 참조하십시오.
+디버거를 설치하지 않았다면 [Adobe Experience Platform Debugger 소개](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html)를 참조하십시오.
 
 ![디버거](/help/main/c-integrating-target-with-mac/a4t/assets/debugger.png)
 

@@ -13,7 +13,7 @@ ht-degree: 46%
 
 # 활동 충돌
 
-[!DNL Adobe Target]의 [!UICONTROL Activity Overview] 페이지에 있는 [!UICONTROL Collisions] 탭에는 사이트의 활동 충돌이 나열됩니다.
+[!UICONTROL Collisions]의 [!UICONTROL Activity Overview] 페이지에 있는 [!DNL Adobe Target] 탭에는 사이트의 활동 충돌이 나열됩니다.
 
 여러 활동이 동일한 페이지로 콘텐츠를 전송하도록 설정되면 활동 충돌이 발생합니다. 활동 충돌이 발생하면 페이지에 예상 콘텐츠가 표시되지 않을 수 있습니다.
 

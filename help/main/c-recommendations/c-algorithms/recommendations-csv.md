@@ -1,8 +1,8 @@
 ---
 keywords: 사용자 지정 기준 만들기;알고리즘;기준;권장 사항 기준;csv;ftp;csv 업로드
-description: Adobe [!DNL Target] Recommendations에서 CSV 파일을 업로드하여 권장 사항을 사용자 지정하는 방법을 알아봅니다.
+description: CSV 파일을 업로드하여 Adobe [!DNL Target] Recommendations에서 권장 사항을 사용자 지정하는 방법을 알아봅니다.
 title: ' [!DNL Recommendations]에서 사용자 지정 기준을 업로드하려면 어떻게 해야 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -19,7 +19,7 @@ CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용�
 [!UICONTROL Create New Criteria] 화면에 액세스하는 방법에는 여러 가지가 있습니다. 일부 화면 옵션은 화면에 도달하는 방법에 따라 달라집니다.
 
 * **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** 라이브러리 화면에서 **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭합니다. 여기서 만드는 기준은 자동으로 모든 [!DNL Recommendations] 활동에 사용 가능해집니다.
-* [!UICONTROL Visual Experience Composer] (VEC)을 사용하여 [!DNL Recommendations] 활동을 만드는 경우 페이지에서 요소를 선택하고 [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before] 또는 [!UICONTROL Insert Recommendations After]을(를) 클릭하면 즉시 [!UICONTROL Select Criteria] 화면으로 이동합니다. 그런 다음 사용 가능한 기준을 선택하거나 **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭할 수 있습니다. 새 기준을 만들면 다른 [!DNL Recommendations] 활동과 함께 사용할 기준을 저장할 수 있습니다. 자세한 내용은 [Recommendations 활동 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)를 참조하십시오.
+* [!DNL Recommendations]&#x200B;(VEC)을 사용하여 [!UICONTROL Visual Experience Composer] 활동을 만드는 경우 페이지에서 요소를 선택하고 [!UICONTROL Select Criteria], [!UICONTROL Replace w/ Recommendations] 또는 [!UICONTROL Insert Recommendations Before]을(를) 클릭하면 즉시 [!UICONTROL Insert Recommendations After] 화면으로 이동합니다. 그런 다음 사용 가능한 기준을 선택하거나 **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭할 수 있습니다. 새 기준을 만들면 다른 [!DNL Recommendations] 활동과 함께 사용할 기준을 저장할 수 있습니다. 자세한 내용은 [권장 사항 활동 만들기](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md)를 참조하십시오.
 * [!DNL Recommendations] 활동을 편집하는 경우 페이지에서 [!UICONTROL Recommendations Location] 상자를 클릭하고 **[!UICONTROL Change Criteria]**&#x200B;을(를) 선택합니다. [!UICONTROL Select Criteria] 화면에서 **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭합니다. 다른 [!DNL Recommendations] 활동과 함께 사용할 새 기준을 저장할 수 있습니다.
 
 다음 단계에서는 첫 번째 메서드를 사용하여 [!UICONTROL Create New Criteria] 화면에 액세스한다고 가정합니다. **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** 라이브러리 화면.
@@ -36,7 +36,7 @@ CSV 파일을 업로드하여 [!DNL Adobe Target]에서 권장 사항을 사용�
 
    >[!NOTE]
    >
-   >위의 단계를 수행하면 [!UICONTROL Create Criteria] 대화 상자의 아래쪽에 [!UICONTROL Upload CSV] 섹션이 표시됩니다.
+   >위의 단계를 수행하면 [!UICONTROL Upload CSV] 대화 상자의 아래쪽에 [!UICONTROL Create Criteria] 섹션이 표시됩니다.
 
 1. (조건부) [백업 컨텐츠](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#content) 섹션의 정보를 입력합니다.
 
@@ -48,9 +48,9 @@ CSV 파일을 성공적으로 업로드하려면 형식이 올바르게 지정�
 
 다음 두 가지 위치 옵션이 있습니다.
 
-    * **FTP:** FTP 서버에서 CSV 파일을 업로드하려면 **[!UICONTROL FTP]**&#x200B;을 선택한 다음 필요한 정보를 입력합니다. SSL을 사용할 수 있습니다. SSL은 FTPS 프로토콜을 사용하여 CSV 파일을 안전하게 전송합니다.
+    * **FTP:** FTP 서버에서 CSV 파일을 업로드하려면 **[!UICONTROL FTP]**을 선택한 다음 필요한 정보를 입력합니다. SSL을 사용할 수 있습니다. SSL은 FTPS 프로토콜을 사용하여 CSV 파일을 안전하게 전송합니다.
     
-    * **URL:** URL에서 CSV 파일을 업로드하려면 **[!UICONTROL URL]**&#x200B;을 선택한 다음 피드 URL을 입력하십시오.
+    * **URL:** URL에서 CSV 파일을 업로드하려면 **[!UICONTROL URL]**을 선택한 다음 피드 URL을 입력하십시오.
 
 1. **[!UICONTROL Create]** 아이콘을 클릭합니다.
 

@@ -21,7 +21,7 @@ ht-degree: 22%
 * [활동별 대상 만들기](/help/main/c-target/creating-activity-only-audience.md) 및 타깃팅
 * [여러 대상을 결합](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)하여 임시 대상을 만듭니다.
 
-[!DNL Target] 및 다른 [!DNL Adobe Experience Cloud] 응용 프로그램에서 실시간 타깃팅 및 개인화에 [!DNL Adobe Analytics]이(가) 수집한 대상 데이터를 사용할 수도 있습니다. *Experience Cloud 중앙 인터페이스 구성 요소* 안내서의 [Experience Cloud 대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)을 참조하세요.
+[!DNL Adobe Analytics] 및 다른 [!DNL Target] 응용 프로그램에서 실시간 타깃팅 및 개인화에 [!DNL Adobe Experience Cloud]이(가) 수집한 대상 데이터를 사용할 수도 있습니다. [Experience Cloud 중앙 인터페이스 구성 요소](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR) 안내서에서 *Experience Cloud 대상*&#x200B;을 참조하십시오.
 
 [!DNL Target]에는 두 가지 유형의 대상이 있습니다.
 
@@ -45,9 +45,9 @@ ht-degree: 22%
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform] 소스는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
+  >[!DNL Adobe Experience Platform] 소스는 [!DNL Target]Adobe Experience Platform Web SDK[를 사용하는 모든 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
   >
-  >AEP/RTCDP([!DNL Real-time Customer Data Platform])에서 [!DNL Target]개의 [!UICONTROL Destinations] 카드를 구성하려면 [!DNL Target]에서 사용자가 [!UICONTROL Approver] 이상 상태여야 합니다.
+  >AEP/RTCDP([!UICONTROL Approver])에서 [!DNL Target] [!DNL Target] 카드를 구성하려면 [!UICONTROL Destinations]에서 사용자가 [!DNL Real-time Customer Data Platform] 이상 상태여야 합니다.
   >
   >자세한 내용은 [Adobe Experience Platform의 대상 사용](#aep)을 참조하세요.
 
@@ -60,9 +60,9 @@ ht-degree: 22%
 
 사용자 지정 프로필 매개 변수와 `user.` 매개 변수를 타깃팅할 수도 있습니다. 대상을 만들 때 활동을 타깃팅하는 데 사용할 속성을 대상 빌더 창으로 드래그합니다. 원하는 속성이 표시되지 않으면 mbox에서 속성을 실행하지 않은 것입니다. 다른 사용자 지정 mbox 매개 변수는 [!UICONTROL Custom Parameters] 드롭다운 목록에서 사용할 수 있습니다.
 
-[!UICONTROL Filters] 단추를 사용하여 [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud] 및 [!DNL Adobe Experience Platform] 원본별로 [!UICONTROL Audiences] 목록을 필터링하세요.
+[!UICONTROL Filters] 단추를 사용하여 [!UICONTROL Audiences], [!DNL Adobe Target], [!DNL Adobe Target Classic] 및 [!DNL Experience Cloud] 원본별로 [!DNL Adobe Experience Platform] 목록을 필터링하세요.
 
-[!UICONTROL Audiences] 목록의 ![필터 옵션](assets/filters.png)
+![ 목록의 [!UICONTROL Audiences]필터 옵션](assets/filters.png)
 
 [!UICONTROL Search audiences] 상자를 사용하여 [!UICONTROL Audiences] 목록을 검색합니다. 대상 이름의 일부를 검색하거나 특정 문자열을 따옴표로 묶을 수 있습니다.
 
@@ -76,7 +76,7 @@ ht-degree: 22%
 
 ![활동 > 대상자 정의](assets/audience_definition_list.png)
 
-다음 대상 정의 카드는 활동의 [!UICONTROL Overview] 페이지에서 [!UICONTROL View Details] 아이콘을 클릭하여 액세스합니다.
+다음 대상 정의 카드는 활동의 [!UICONTROL View Details] 페이지에서 [!UICONTROL Overview] 아이콘을 클릭하여 액세스합니다.
 
 ![활동 > 대상자 정의](assets/view-details-activity-overview.png)
 
@@ -121,4 +121,4 @@ Keep the following points in mind as you work with imported audiences:
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

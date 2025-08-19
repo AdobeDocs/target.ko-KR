@@ -9,7 +9,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b66abe9649f8c257891c1cd8e5736b7f91501c13
 workflow-type: tm+mt
 source-wordcount: '2049'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -22,7 +22,7 @@ ht-degree: 98%
 * **High Performance Recommendations Webinar Follow-up Questions (Part 2 of Personalization Maturity Series)**
 * **Wednesday, February 28, 2024**
 * **8:00 - 9:00 (PST -8 GMT)**
-* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123?profile.language=ko){target=_blank}**
+* **[Registration information](https://experienceleaguecommunities.adobe.com/t5/target-community-events/at-community-q-amp-a-coffee-break-wednesday-2-28-24-8am-pt-high/ec-p/647204/thread-id/123){target=_blank}**
 
 +++Details
 
@@ -32,9 +32,9 @@ Join [!DNL Adobe Target] experts Cristinel Anastasoaie, Brent Kostak, and Timoth
 * How a non-technical user or marketer is in full control of configuring and managing the algorithms.
 * How to use AI and custom features with recommendations to unlock use cases that have immense impact on reduction in clicks and increasing revenue.
 
-If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ko){target=_blank}.
+If you missed the original webinar, [listen to the recording](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}.
 
-Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686?profile.language=ko){target=_blank}."
+Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, covering "[Unlocking AI Powered Recommendations](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-3-12-24-p3-adobe-target-personalization/m-p/639301/thread-id/3686){target=_blank}."
 
 +++ -->
 
@@ -58,13 +58,13 @@ Be sure to register for Part 3 of the Webinar Series coming up on 3/12/24, cover
 
   개인화 완성의 핵심에는 인공 지능과 머신 러닝이 있습니다. [!DNL Adobe Target]은 이러한 기술을 활용하여 사용자 행동을 이해하고 선호도를 예측하며 콘텐츠를 동적으로 맞춤화합니다. AI와 ML의 강력한 기능을 활용하여 브랜드가 정적 A/B 테스트 및 규칙 기반 개인화 이상으로 역동적이고 컨텍스트에 맞는 경험을 제공하는 방법을 알아보십시오.
 
-  [녹화본을 시청하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284?profile.language=ko){target=_blank}
+  [녹음/녹화를 청취하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-2024-1-16-24-p1-adobe-target-personalization/td-p/639284){target=_blank}
 
 * **고성능 권장 사항**
 
   비즈니스의 판도를 바꾸고 참여와 매출을 증대시키는 추천 알고리즘에 대해 알아봅니다. 개인화된 제품 제안부터 콘텐츠 추천에 이르기까지 사용자의 여정을 원활하게 안내하는 기능은 비즈니스 성장을 크게 촉진하는 데 직접적으로 기여합니다.
 
-  [녹화본을 시청하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295?profile.language=ko#M3685){target=_blank}
+  [녹음/녹화를 청취하십시오.](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/webinar-recording-2-13-24-p2-adobe-target-personalization/m-p/639295#M3685){target=_blank}
 
 * **AI 기반 개인화 잠금 해제**
 
@@ -160,7 +160,7 @@ Adobe 고객 성공 관리자인 Ramon Cespedes가 제시하는 개인화 제공
 
 ### 셰프의 컬렉션: 개인화 레시피 (2022년 8월 30일)
 
-Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 아이디어를 제공하는 [!DNL Adobe Target] 팀에 참여하십시오. 당사의 최신 전자책 “셰프의 컬렉션: 개인화를 위한 아이디어”를 기반으로 합니다.
+Target을 최대한 활용할 수 있는 방법에 대한 몇 가지 새로운 아이디어를 제공하는 [!DNL Adobe Target] [!DNL]팀에 참여하십시오. 당사의 최신 전자책 “셰프의 컬렉션: 개인화를 위한 아이디어”를 기반으로 합니다.
 
 * [녹화 링크](https://video.tv.adobe.com/v/346970/){target=_blank}
 

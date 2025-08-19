@@ -1,8 +1,8 @@
 ---
 keywords: 권장 사항;권장 사항 기준;권장 사항 알고리즘;권장 사항 활동;기준;권장 사항 타기팅;recs
 description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe  [!DNL Target] 의 권장 사항 활동에 대해 알아보십시오.
-title: ' [!DNL Target]  Recommendations이란 무엇입니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+title: ' [!DNL Target]  추천이란 무엇입니까?'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
@@ -12,7 +12,7 @@ ht-degree: 97%
 
 ---
 
-# Recommendations
+# 추천
 
 [!DNL Adobe Target Recommendations] 활동은 이전 사용자 활동, 환경 설정 또는 기타 기준을 기반으로 방문자의 흥미를 끌 수 있는 제품, 서비스 또는 콘텐츠를 자동으로 표시합니다. [!DNL Target Recommendations] 는 방문자가 모를 수 있는 관련 항목을 방문자에게 표시하는 데 도움이 됩니다. [!DNL Recommendations] 를 사용하면 방문자에게 적절한 시간과 장소에 관련 콘텐츠를 제공할 수 있습니다.
 
@@ -20,7 +20,7 @@ ht-degree: 97%
 >
 >[!DNL Recommendations] 작업은 [Target Premium 솔루션](/help/main/c-intro/intro.md#premium)의 일부로 사용할 수 있습니다. 이 기능은 [!DNL Target Premium] 라이선스가 없는 [!DNL Target Standard] 에서는 사용할 수 없습니다.
 >
->[!DNL Recommendations Classic]을 사용 중이라면 [Recommendations Classic과 Target Premium의 권장 사항 활동 비교](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) 를 참조하십시오.
+>[!DNL Recommendations Classic]을 사용 중이라면 [추천 Classic과 Target Premium의 권장 사항 활동 비교](/help/main/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) 를 참조하십시오.
 
 [!DNL Recommendations] 은 채널, 앱, 페이지, 이메일 메시지 및 기타 전달 선택 사항에 대해 실시간 제안을 최적화 및 사용자 지정하여 관리 노력을 줄이면서도 참여 및 전환을 높이는 데 유용합니다.
 
@@ -60,17 +60,17 @@ ht-degree: 97%
 | 디자인 | 디자인은 행, 열, 테이블 또는 그리드 같이 [!DNL Recommendations] 활동에서 권장 사항의 모양을 정의합니다. 이 문서 맨 위에 있는 그림은 4 x 1 디자인을 보여 줍니다. 자세한 내용은 [디자인 만들기](/help/main/c-recommendations/c-design-overview/create-design.md)를 참조하십시오. |
 | 위치 | 위치는 개인화 및 최적화를 위해 활동을 실행하는 웹 페이지, 모바일 앱 또는 이메일의 특정 콘텐츠 영역을 나타냅니다. |
 | 대상자 | 대상자는 대상 활동을 볼 수 있는 유사한 활동 참여자의 그룹입니다. 대상자는 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. 대상자 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상자에 타기팅할 수 있습니다. 자세한 내용은 [대상자](/help/main/c-target/target.md)를 참조하십시오. |
-| 오퍼로서의 Recommendations | A/B 테스트(자동 할당 및 자동 타겟 포함) 및 XT(경험 타기팅) 활동 내에 권장 사항을 포함할 수 있는 기능입니다. 자세한 내용은 [오퍼로서의 Recommendations](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
+| 오퍼로서의 추천 | A/B 테스트(자동 할당 및 자동 타겟 포함) 및 XT(경험 타기팅) 활동 내에 권장 사항을 포함할 수 있는 기능입니다. 자세한 내용은 [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)를 참조하십시오. |
 
 ## 교육 비디오: 활동 유형 ![개요 배지](/help/main/assets/overview.png)
 
-다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!DNL Recommendations] 은 7:20부터 설명합니다.
+다음 비디오에서는 [!DNL Target Standard/Premium]에서 사용할 수 있는 활동 유형에 대해 설명합니다. [!DNL Recommendations]은(는) 7:20부터 논의됩니다.
 
 * [!DNL Adobe Target]에 포함된 활동 유형 설명
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Adobe Target 기본 사항 웨비나: Recommendations 소개 ![튜토리얼 배지](/help/main/assets/tutorial.png) {#intro-to-recs}
 

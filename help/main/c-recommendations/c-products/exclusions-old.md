@@ -1,13 +1,13 @@
 ---
 keywords: 제외
-description: Adobe [!DNL Target] Recommendations에서 제외를 만들어 제품 또는 콘텐츠를 방문자에게 추천하지 않도록 하는 방법에 대해 알아봅니다.
-title: Recommendations 활동에서 제외를 사용하려면 어떻게 합니까?
+description: Adobe에서 제외를 만드는 방법 [!DNL Target] 방문자에게 제품이나 콘텐츠를 추천하지 않도록 하는 방법에 대해 알아봅니다.
+title: 권장 사항 활동에서 제외를 사용하는 방법은 무엇입니까?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '598'
-ht-degree: 28%
+ht-degree: 29%
 
 ---
 
@@ -37,7 +37,7 @@ ht-degree: 28%
 
    ![exclusions_list 이미지](assets/exclusions_list.png)
 
-   [!UICONTROL Exclusions] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 Recommendations [호스트 그룹](/help/main/administrating-target/hosts.md)(환경) 내에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}을 참조하세요.
+   [!UICONTROL Exclusions] 목록 보기의 각 제외에 대해 보고된 &quot;항목 수&quot;는 구성된 기본 권장 사항 [호스트 그룹](/help/main/administrating-target/hosts.md)(환경) 내에서 해당 제외에 대한 규칙과 일치하는 제품의 수입니다. 기본 호스트 그룹을 변경하려면 [설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}을 참조하십시오.
 
 1. **[!UICONTROL Create Exclusion]** 아이콘을 클릭합니다.
 
@@ -55,7 +55,7 @@ ht-degree: 28%
 
 ## 고급 검색을 사용하여 제외 만들기
 
-[카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md#save-as) 페이지에서 [!UICONTROL Advanced Search]을(를) 사용하여 제외를 만들 수도 있습니다([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+[!UICONTROL Advanced Search]카탈로그 검색[ 페이지에서 ](/help/main/c-recommendations/c-products/catalog-search.md#save-as)을(를) 사용하여 제외를 만들 수도 있습니다([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![다른 이름으로 저장 대화 상자](/help/main/c-recommendations/c-products/assets/save-as.png)
 
@@ -75,11 +75,11 @@ ht-degree: 28%
 
 제외는 전체 계정에서 사용할 수 있습니다. 제외를 삭제하기 전에 이를 고려하십시오. 삭제된 제외는 복구할 수 없습니다.
 
-## 교육 비디오: Recommendations(7:05)에서 컬렉션 및 제외 만들기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
+## 교육 비디오: 권장 사항(7:05)에서 컬렉션 및 제외 만들기 ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
 * 컬렉션 만들기
 * 제외 만들기
 
->[!VIDEO](https://video.tv.adobe.com/v/35499?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)

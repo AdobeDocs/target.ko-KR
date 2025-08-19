@@ -1,21 +1,21 @@
 ---
-keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;offer decisioning
-description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
-title: '[!UICONTROL Visual Experience Composer] (VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
+keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;오퍼 의사 결정
+description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
+title: '[!UICONTROL Visual Experience Composer]​(VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
 source-git-commit: be9996c4dce0a3135a39fcbf0608b57b6e742ac3
 workflow-type: tm+mt
 source-wordcount: '2667'
-ht-degree: 55%
+ht-degree: 56%
 
 ---
 
 # 시각적 경험 작성기 옵션
 
-[!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
+[!DNL Adobe Target] [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에서 페이지 요소를 클릭하면 메뉴에 해당 요소 유형에 사용할 수 있는 옵션이 표시됩니다. 또한 페이지 구조를 쉽게 탐색할 수 있는 DOM 경로가 페이지 하단에 표시됩니다.
 
-다양한 [!UICONTROL Visual Experience Composer] (VEC) 작업은 작업을 보다 빠르고 효율적으로 수행할 수 있도록 적절한 메뉴 옵션으로 그룹화됩니다.
+다양한 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 작업은 작업을 보다 빠르고 효율적으로 수행할 수 있도록 적절한 메뉴 옵션으로 그룹화됩니다.
 
 ![VEC 선택 사항 메뉴](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
@@ -33,7 +33,7 @@ ht-degree: 55%
 
 HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽입할 수 있습니다.
 
-[!UICONTROL A/B] 및 [!UICONTROL Experience Targeting] 활동에 대한 텍스트와 HTML을 편집할 때 여러 서식 있는 텍스트 서식 옵션을 사용할 수 있습니다. 글꼴을 선택하고, 글꼴 스타일을 선택하고, 텍스트 정렬을 변경하고, 기타 표준 텍스트 서식 옵션을 사용할 수 있습니다. HTML을 수정할 때 HTML의 코드 보기와 서식 편집 보기 간을 전환할 수 있습니다.
+[!UICONTROL A/B] 및 [!UICONTROL Experience Targeting] 활동에 대해 텍스트와 HTML을 편집할 때 여러 서식 있는 텍스트 서식 옵션을 사용할 수 있습니다. 글꼴을 선택하고, 글꼴 스타일을 선택하고, 텍스트 정렬을 변경하고, 기타 표준 텍스트 서식 옵션을 사용할 수 있습니다. HTML을 수정할 때 HTML의 코드 보기와 서식 편집 보기 간을 전환할 수 있습니다.
 
 다음 HTML5 태그를 중첩할 수 있습니다.
 
@@ -60,7 +60,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
 ![스타일 패널](/help/main/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-다른 스타일을 적용할 때 섹션을 변경한 후 [!UICONTROL Styles] 패널의 오른쪽 상단 모서리에 표시되는 [!UICONTROL Revert] 아이콘을 클릭하여 언제든지 변경 사항을 되돌릴 수 있습니다. [!UICONTROL Revert] 아이콘을 클릭하면 현재 섹션의 패널에서 변경한 모든 내용을 되돌립니다.
+다른 스타일을 적용할 때 섹션을 변경한 후 [!UICONTROL Revert] 패널의 오른쪽 상단 모서리에 표시되는 [!UICONTROL Styles] 아이콘을 클릭하여 언제든지 변경 사항을 되돌릴 수 있습니다. [!UICONTROL Revert] 아이콘을 클릭하면 현재 섹션의 패널에서 변경한 모든 내용을 되돌립니다.
 
 아래 설명된 대로 각 섹션을 확장하여 스타일을 편집하거나 추가합니다. 변경 사항을 저장하려면 패널 상단에 있는 [!UICONTROL Back] 아이콘을 클릭하여 패널의 주 표시로 돌아간 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
@@ -88,14 +88,14 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
   요소의 타이포그래피를 변경합니다. 타이포그래피 편집은 빠르고 간단합니다.
 
-  서식 있는 텍스트 편집기(텍스트/HTML 편집)를 미세 조정에 사용할 수 있지만, 이 옵션을 통해 전체 요소를 변경하는 빠른 작업을 사용할 수 있습니다. 타이포그래피 변경 사항을 텍스트의 한 부분(전체 텍스트 아님)에만 적용하려면 [서식 있는 텍스트 편집기](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)를 사용합니다.
+  서식 있는 텍스트 편집기(텍스트 편집/HTML)를 미세 조정에 사용할 수 있지만, 이 옵션을 통해 전체 요소를 변경하는 빠른 작업을 사용할 수 있습니다. 타이포그래피 변경 사항을 텍스트의 한 부분(전체 텍스트 아님)에만 적용하려면 [서식 있는 텍스트 편집기](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)를 사용합니다.
 
   다음과 같은 타이포그래피 스타일을 편집할 수 있습니다.
 
    * [!UICONTROL Font size]
    * [!UICONTROL Font weight]
    * [!UICONTROL Font style]
-   * [!UICONTROL Color] (색 코드 지정 또는 색 선택기 사용)
+   * [!UICONTROL Color]&#x200B;(색 코드 지정 또는 색 선택기 사용)
    * [!UICONTROL Word spacing]
    * [!UICONTROL Line height]
    * [!UICONTROL Text alignment]
@@ -107,7 +107,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
   각 여백에 대한 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
    * [!UICONTROL Auto]
-   * [!UICONTROL Value] (슬라이더를 드래그하여 여백을 설정하거나 각 여백에 대한 픽셀 수 지정)
+   * [!UICONTROL Value]&#x200B;(슬라이더를 드래그하여 여백을 설정하거나 각 여백에 대한 픽셀 수 지정)
 
   여백은 양수 및 음수 값을 지원합니다.
 
@@ -129,9 +129,9 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
   각 테두리(위쪽, 오른쪽, 아래쪽, 왼쪽)에 대한 다음 스타일을 편집할 수 있습니다.
 
-   * [!UICONTROL Border style] (없음, 숨김, 점선, 파선, 단색 또는 이중)
-   * [!UICONTROL Border color] (색 코드 지정 또는 색 선택기 사용)
-   * [!UICONTROL Border width] (슬라이더를 드래그하여 테두리 폭을 선택하거나 폭을 픽셀 단위로 지정)
+   * [!UICONTROL Border style]&#x200B;(없음, 숨김, 점선, 파선, 단색 또는 이중)
+   * [!UICONTROL Border color]&#x200B;(색 코드 지정 또는 색 선택기 사용)
+   * [!UICONTROL Border width]&#x200B;(슬라이더를 드래그하여 테두리 폭을 선택하거나 폭을 픽셀 단위로 지정)
 
   테두리는 폭 조절을 0부터 지원합니다.
 
@@ -152,7 +152,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
   각 위치에 대한 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
    * [!UICONTROL Auto]
-   * [!UICONTROL Value] (슬라이더를 드래그하여 요소를 배치하거나 요소를 이동할 픽셀 수 지정)
+   * [!UICONTROL Value]&#x200B;(슬라이더를 드래그하여 요소를 배치하거나 요소를 이동할 픽셀 수 지정)
 
   위치는 양수 및 음수 값을 지원합니다.
 
@@ -165,7 +165,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
   [!UICONTROL Width] 및 [!UICONTROL Height] 옆에 있는 드롭다운 아이콘을 클릭하여 다음 옵션 중에서 선택합니다.
 
    * [!UICONTROL Auto]
-   * [!UICONTROL Value] (슬라이더를 드래그하여 요소의 크기를 지정하거나 각 차원의 픽셀 수 지정)
+   * [!UICONTROL Value]&#x200B;(슬라이더를 드래그하여 요소의 크기를 지정하거나 각 차원의 픽셀 수 지정)
 
 * **[!UICONTROL Filter]**
 
@@ -178,7 +178,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
    * [!UICONTROL Blur]
    * [!UICONTROL Opacity]
    * [!UICONTROL Invert]
-*[!UICONTROL &#x200B; Hue-rotate]
+*[!UICONTROL  Hue-rotate]
    * [!UICONTROL Saturate]
 
 * **[!UICONTROL CSS Editor]**
@@ -217,7 +217,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
 ### [!UICONTROL Offer Decision]
 
- [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}에서 만든 오퍼를 추가하여 offer decisioning을 사용하는 고객에게 최상의 오퍼와 경험을 제공하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -249,7 +249,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL Offer Decision]
 
- [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}에서 만든 오퍼를 추가하여 offer decisioning을 사용하는 고객에게 최상의 오퍼와 경험을 제공하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -281,7 +281,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL Offer Decision]
 
- [!DNL Adobe Journey Optimizer][&#128279;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}에서 만든 오퍼를 추가하여 offer decisioning을 사용하는 고객에게 최상의 오퍼와 경험을 제공하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -309,7 +309,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 [!UICONTROL Content Library]에서 다른 오퍼를 선택하십시오.
 
-**참고:**&#x200B;[!DNL Target] HTML 오퍼는 서버에 저장됩니다.
+**참고:**[!DNL Target] HTML 오퍼는 서버에 저장됩니다.
 
 HTML 오퍼는 최대 256KB까지 가능합니다.
 
@@ -345,7 +345,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 CSS 제한 때문에 요소가 상위 요소 내에 남아 있어야 하는 것과 같은 특정 상황에서는 요소를 상위 요소 외부로 이동할 수 없습니다. 요소는 다음 CSS 속성 `overflow: hidden`을 갖는 컨테이너 외부로 이동할 수 없습니다.
 
-DOM 요소의 소극적 로드로 인해 [!UICONTROL Move] 및 [!UICONTROL Rearrange] 작업과 일관되지 않은 동작에 대한 자세한 내용은 위의 [!UICONTROL Rearrange]을(를) 참조하십시오.
+DOM 요소의 소극적 로드로 인해 [!UICONTROL Rearrange] 및 [!UICONTROL Move] 작업과 일관되지 않은 동작에 대한 자세한 내용은 위의 [!UICONTROL Rearrange]을(를) 참조하십시오.
 
 ### [!UICONTROL Hide]
 
@@ -371,7 +371,7 @@ DOM 요소의 소극적 로드로 인해 [!UICONTROL Move] 및 [!UICONTROL Rearr
 
 ## 고려 사항 {#considerations}
 
-* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at.js 작동 방식](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank}에서 &quot;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&quot;을 참조하십시오.
+* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}에서 &#39;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&#39;을 참조하십시오.
 
 ## 사용자 지정 요소 지원 {#custom}
 
@@ -379,9 +379,9 @@ VEC는 사용자 지정 요소 및 사용자 지정 요소 내부의 요소에 �
 
 >[!NOTE]
 >
->사용자 지정 요소에 대한 VEC 지원은 [at.js 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} 2.7.0 이상{target=_blank}에서 지원됩니다. 웹 사이트에 필요한 버전이 배포되어 있는지 확인합니다. [시각적 경험 작성기 Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 사용하는 경우 필요한 at.js 버전도 배포되어 있어야 합니다. 위에 설명된 VEC 옵션은 표시되지 않으며 at.js의 지원되지 않는 버전에서 사용할 수 있습니다.
+>사용자 지정 요소에 대한 VEC 지원은 [at.js 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 이상{target=_blank}에서 지원됩니다. 웹 사이트에 필요한 버전이 배포되어 있는지 확인합니다. [시각적 경험 작성기 Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 사용하는 경우 필요한 at.js 버전도 배포되어 있어야 합니다. 위에 설명된 VEC 옵션은 표시되지 않으며 at.js의 지원되지 않는 버전에서 사용할 수 있습니다.
 >
->사용자 지정 요소에 대한 VEC 지원은 현재 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}에서 지원되지 않습니다.
+>사용자 지정 요소에 대한 VEC 지원은 현재 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}에서 지원되지 않습니다.
 
 대부분의 VEC 작업은 다음 예외를 제외하고 사용자 지정 이벤트 및 사용자 지정 이벤트 내에서 지원됩니다.
 

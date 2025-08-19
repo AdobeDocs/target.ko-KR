@@ -15,15 +15,15 @@ ht-degree: 7%
 
 [!DNL Adobe Experience Cloud Audiences]은(는) 각 솔루션에서 동일한 데이터를 사용할 수 있도록 [!DNL Adobe Experience Cloud] 솔루션에서 웹 사이트 방문자에 대한 정보를 전달하고 공유할 수 있는 기능을 제공합니다.
 
-자세한 내용은 *핵심 서비스 사용 안내서*&#x200B;의 [대상](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)을 참조하세요.
+자세한 내용은 [핵심 서비스 사용 안내서](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=ko-KR)의 *대상*&#x200B;을 참조하세요.
 
-## 비디오: [!DNL Target]과(와) [!DNL Experience Cloud Audiences] 통합(10:48)
+## 비디오: [!DNL Target]을(를) [!DNL Experience Cloud Audiences]&#x200B;(10:48)과(와) 통합
 
 이 비디오에서는 다음 방법을 알아봅니다.
 
-* [!DNL Analytics] 및 [!DNL Audience Manager] (으)로 대상자 만들기 및 사용 설명
+* [!DNL Analytics] 및 [!DNL Audience Manager]&#x200B;(으)로 대상자 만들기 및 사용 설명
 * 다른 [!DNL Adobe] 솔루션에서 대상을 가져오는 방법을 설명합니다.
-* [!DNL Adobe Experience Cloud] (AEC) 관리 패널 탐색
+* [!DNL Adobe Experience Cloud]&#x200B;(AEC) 관리 패널 탐색
 * [!DNL Experience Cloud] ID(ECID)에 대한 요구 사항 나열
 
->[!VIDEO](https://video.tv.adobe.com/v/3421752?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/35152)

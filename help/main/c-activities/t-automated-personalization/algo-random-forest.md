@@ -1,8 +1,8 @@
 ---
 keywords: random forest;의사 결정 트리;ap;Automated Personalization
-description: ' [!DNL Adobe Target] 이(가) [!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] 활동 모두에서 Random Forest 알고리즘을 사용하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target] 이(가) [!UICONTROL Automated Personalization]​(AP) 및 [!UICONTROL Auto-Target] 활동 모두에서 Random Forest 알고리즘을 사용하는 방법을 알아봅니다.'
 title: ' [!DNL Target] Random Forest 알고리즘을 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 source-git-commit: d5b24f298ae405d57c2ba639082cbe99c4e358fd
@@ -45,7 +45,7 @@ Random Forest 알고리즘은 [!UICONTROL Automated Personalization] 및 [!UICON
 
 ## Random Forest에서는 의사 결정 트리를 어떻게 사용합니까? {#section_536C105EF9F540C096D60450CAC6F627}
 
-의사 결정 트리는 강력한 통계 도구일 수 있습니다. 그러나 몇 가지 단점이 있습니다. 가장 큰 단점은 이 트리가 데이터를 &quot;과잉 맞춤&quot;(over-fit)하여 개별 트리가 초기 트리를 만드는 데 사용되지 않은 미래 데이터는 제대로 예측하지 못할 수 있다는 것입니다. 이 문제를 통계적 학습에서는 [편향-분산 트레이드오프](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)(bias-variance tradeoff)라고 합니다. 랜덤 포레스트는 이 과적합 문제를 극복하는 데 도움이 된다. 가장 높은 수준에서 Random Forest는 개별 트리보다 더 나은 모델을 만들어내기 위해 함께 &quot;투표&quot;하고, 동일한 데이터 세트에서 약간 다르게 만들어지는 의사 결정 트리들의 컬렉션입니다. 트리는 대체 항목이 있는 방문 레코드의 하위 집합을 임의로 선택하고(Bagging이라고 함), 속성의 하위 집합을 임의로 선택하여 빌드하므로 포리스트는 약간 다른 결정 트리로 구성됩니다. 이 방법에서 Random Forest에서 만들어진 트리들은 약간씩 다르게 변형됩니다. 이 통제된 크기의 차이를 포함하는 것은 알고리즘의 예측 정확도를 향상시키는 데 도움이 됩니다.
+의사 결정 트리는 강력한 통계 도구일 수 있습니다. 그러나 몇 가지 단점이 있습니다. 가장 큰 단점은 이 트리가 데이터를 &quot;과잉 맞춤&quot;(over-fit)하여 개별 트리가 초기 트리를 만드는 데 사용되지 않은 미래 데이터는 제대로 예측하지 못할 수 있다는 것입니다. 이 문제를 통계적 학습에서는 [편향-분산 트레이드오프](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff)&#x200B;(bias-variance tradeoff)라고 합니다. 랜덤 포레스트는 이 과적합 문제를 극복하는 데 도움이 된다. 가장 높은 수준에서 Random Forest는 개별 트리보다 더 나은 모델을 만들어내기 위해 함께 &quot;투표&quot;하고, 동일한 데이터 세트에서 약간 다르게 만들어지는 의사 결정 트리들의 컬렉션입니다. 트리는 대체 항목이 있는 방문 레코드의 하위 집합을 임의로 선택하고(Bagging이라고 함), 속성의 하위 집합을 임의로 선택하여 빌드하므로 포리스트는 약간 다른 결정 트리로 구성됩니다. 이 방법에서 Random Forest에서 만들어진 트리들은 약간씩 다르게 변형됩니다. 이 통제된 크기의 차이를 포함하는 것은 알고리즘의 예측 정확도를 향상시키는 데 도움이 됩니다.
 
 ## [!DNL Target] 개인화 알고리즘에서 Random Forest를 사용하는 방법은 무엇입니까? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 

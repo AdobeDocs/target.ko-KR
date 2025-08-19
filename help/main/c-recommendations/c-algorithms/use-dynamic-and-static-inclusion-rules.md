@@ -1,8 +1,8 @@
 ---
 keywords: 포함 규칙;포함 기준;권장 사항;새 기준 만들기;프로모션;판촉;동적 필터링;동적;비어 있는 값;필터링 규칙 무시;정적 필터;값으로 필터링;엔티티 속성 일치;프로필 속성 일치;매개 변수 일치;값으로 필터링 정적 필터
-description: 기준 및 프로모션을 위해  [!DNL Target] Recommendations에서 포함 규칙을 만드는 방법을 알아봅니다.
+description: 기준 및 프로모션에 대한  [!DNL Target] 권장 사항에서 포함 규칙을 만드는 방법을 알아봅니다.
 title: Recommendations에서 동적 및 정적 포함 규칙을 사용하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
@@ -25,7 +25,7 @@ ht-degree: 16%
 
 ### 기준에 필터링 규칙 추가
 
-1. [기준을 만드는 중](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)(**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**) **[!UICONTROL Inclusion Rules]** 아래의 **[!UICONTROL Add Filtering Rule]**&#x200B;을(를) 클릭합니다.
+1. [기준을 만드는 중](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE)(**[!UICONTROL Recommendations]> [!UICONTROL Criteria] > [!UICONTROL Create Criteria] >[!UICONTROL Create Criteria]**) **[!UICONTROL Add Filtering Rule]** 아래의 **[!UICONTROL Inclusion Rules]**&#x200B;을(를) 클릭합니다.
 
    ![필터링 규칙 추가](/help/main/c-recommendations/c-algorithms/assets/add-fitering-rule.png)
 
@@ -83,7 +83,7 @@ ht-degree: 16%
 | [!UICONTROL does not equal any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | 동적 프로모션에서 &quot;[!UICONTROL does not equal any of]&quot; 연산자를 사용할 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품, 문서 또는 동영상 등) 다음 방법으로 다른 항목을 프로모션할 수 있습니다.<ul><li>다른 TV 시리즈</li><li>다른 장르</li><li>다른 제품 시리즈</li><li>다른 스타일 ID</li></ul> |
 | [!UICONTROL is greater than or equal to any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL is greater than or equal to any of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>가격은 같거나 더 비쌉니다</li></ul> |
 | [!UICONTROL is less than or equal to any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL is less than or equal to an of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>비용은 동일하거나 더 저렴함</li><li>비용이 덜 드는 항목 제외</li></ul> |
-| [!UICONTROL contains any of] ([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL contains any of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>제목에 동일한 브랜드 포함</li></ul> |
+| [!UICONTROL contains any of]&#x200B;([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL contains any of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>제목에 동일한 브랜드 포함</li></ul> |
 | [!UICONTROL does not contain any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;다음 중 포함하는 항목 없음&quot; 연산자를 사용하는 경우, 방문자가 웹 사이트에서 항목을 보고 있으면(제품 등) 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>제목에 욕설이 포함되어 있지 않음</li></ul> |
 | [!UICONTROL starts with any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL starts with an of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>iPhone으로 시작하는 제품 이름</li></ul> |
 | [!UICONTROL ends with any of]<P>([!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], [!UICONTROL Parameter Matching] 및 [!UICONTROL Static Filter]에서 사용 가능) | &quot;[!UICONTROL ends with an of]&quot; 연산자를 사용하면 방문자가 웹 사이트(제품 등)에서 항목을 볼 때 다음과 같은 다른 항목을 프로모션할 수 있습니다.<ul><li>콘텐츠는 영어를 나타내는 EN으로 끝납니다.</li></ul> |
@@ -105,7 +105,7 @@ ht-degree: 16%
 
 원하는 작업을 선택하려면 톱니바퀴 아이콘(![icon_gear 이미지](assets/icon_gear.png))을 마우스로 가리킨 다음, 원하는 작업을 선택하십시오.
 
-| 작업 | 사용 가능한 경우 | 세부 사항 |
+| 액션 | 사용 가능한 경우 | 세부 사항 |
 |--- |--- |--- |
 | [!UICONTROL Ignore this filtering rule] | [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 이 작업은 [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching]의 기본값입니다.<P>이 선택 사항은 규칙이 무시되도록 지정합니다. 예를 들어 세 개의 필터링 규칙이 있고 세 번째 규칙이 어떤 값도 전달하지 않는 경우, 결과를 반환하는 대신 빈 값으로 세 번째 규칙을 무시할 수 있습니다. |
 | [!UICONTROL Do not show any results for this criteria]<P>(기준만) | [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching] 및 [!UICONTROL Parameter Matching] | 이 작업은 [!UICONTROL Entity Attribute Matching]의 기본값입니다.<P>이 작업은 이 옵션을 추가하기 전에 [!DNL Target]이(가) 빈 값을 처리한 방식입니다. 이 기준에 대한 결과는 표시되지 않습니다. |

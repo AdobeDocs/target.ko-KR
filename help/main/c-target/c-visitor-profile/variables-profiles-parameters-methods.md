@@ -29,7 +29,7 @@ ht-degree: 67%
 | user.daysSinceLastVisit |  |
 | user.browser | 사용자 에이전트 |
 | user.browserType | 브라우저 유형(예: safari, chrome 등)을 반환합니다. |
-| user.header | mbox 요청 헤더 데이터의 모든 `user.header` 프로필이 내장되어 있습니다. |
+| user.header | mbox 요청 헤더 데이터의 모든 `user.header` 프로필이 기본 제공됩니다. |
 | user.header(&#39;x-forwarded-for&#39;) | 방문자가 켜져 있는 네트워크 연결의 공개 IP 주소입니다.<br>여러 가지 방법으로 가져올 수 있습니다(예: [whatismyip.com](https://www.whatismyip.com/)). IP 주소는 10., 192.168. 또는 172.으로 시작하는 NAT 주소(내부 주소)가 아닙니다.<br>참고: user.header(&#39;x-cluster-client-ip&#39;)는 더 이상 사용되지 않습니다. |
 | user.header(&#39;host&#39;) | 웹 사이트 호스트 이름 |
 | user.header(&#39;cookie&#39;) | 방문자 쿠키 데이터 |
@@ -85,7 +85,7 @@ ht-degree: 67%
 | mbox.param(&#39;param_name&#39;) |  |
 | 모든 요청을 통해 자동 전달된 매개 변수:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | 주문 mbox를 통해 전달된 매개 변수:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | 고객 ID를 Target의 mboxPCID와 동기화하는 mbox 매개 변수입니다. 고객 ID는 회사에서 방문자를 추적하는 데 사용하는 CRM ID, 멤버십 ID 또는 유사한 ID입니다. 그런 다음 이 ID를 사용하여 프로필 API 및 [고객 특성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html?lang=ko){target=_blank}을 통해 정보를 추가할 수 있습니다. |
+| mbox3rdPartyId | 고객 ID를 Target의 mboxPCID와 동기화하는 mbox 매개 변수입니다. 고객 ID는 회사에서 방문자를 추적하는 데 사용하는 CRM ID, 멤버십 ID 또는 유사한 ID입니다. 그런 다음 이 ID를 사용하여 프로필 API 및 [고객 특성](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html){target=_blank}을 통해 정보를 추가할 수 있습니다. |
 | mboxPageValue | 각 mbox 호출에서 페이지는 값을 지정받습니다. |
 | mboxDebug | 디버그 정보로만 사용됩니다. at.js가 이 정보를 찾는 페이지 URL에 추가됩니다. |
 | mboxOverride.browserIp | 다른 위치에서는 어떻게 보이는지 테스트할 수 있도록 실제 위치가 아닌 다른 지역을 설정합니다.<br>**참고:** mboxOverride 매개 변수는 프로덕션 환경이 아닌, 활동을 테스트할 때만 사용하는 것이 좋습니다. mboxOverride 매개 변수를 사용하면 [Analytics for Target](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T)을 사용할 때 불일치가 보고될 수 있습니다. 활동을 라이브 환경에 푸시하기 전에 활동이 예상대로 작동하는지 확인하려면 테스트할 때 [활동 QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)를 사용해야 합니다. |

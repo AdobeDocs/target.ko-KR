@@ -1,6 +1,6 @@
 ---
 keywords: 개요 및 참조
-description: Adobe Campaign과 함께 Adobe [!DNL Target] 을(를) 사용하여 전자 메일 콘텐츠를 최적화하는 방법을 알아봅니다.
+description: Adobe [!DNL Target] 을(를) Adobe Campaign과 함께 사용하여 전자 메일 콘텐츠를 최적화하는 방법에 대해 알아봅니다.
 title: ' [!DNL Target] 을(를) Adobe Campaign과 통합하려면 어떻게 합니까?'
 feature: Integrations
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
@@ -13,7 +13,7 @@ ht-degree: 32%
 
 # [!DNL Target]을(를) Adobe Campaign과 통합
 
-[!DNL Target]을(를) [!DNL Adobe Campaign] (으)로 사용하여 전자 메일 콘텐츠를 최적화합니다.
+[!DNL Target]을(를) [!DNL Adobe Campaign]&#x200B;(으)로 사용하여 전자 메일 콘텐츠를 최적화합니다.
 
 전자 메일 콘텐츠를 최적화하려면 [!DNL Target]에서 리디렉션 오퍼를 만든 다음 [!DNL Adobe Campaign]을(를) 사용하여 전자 메일 오퍼를 관리할 수 있습니다. 예를 들어, 남성 수신자와 여성 수신자에 대해 서로 다른 오퍼를 표시할 수 있습니다.
 
@@ -51,13 +51,13 @@ ht-degree: 32%
 
   [리디렉션 오퍼 만들기](/help/main/c-experiences/c-manage-content/offer-redirect.md)를 참조하십시오.
 
-* 각 오퍼 및 원하는 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md)에 대한 경험이 있는 [!DNL Target] 활동.
+* 각 오퍼 및 원하는 [!DNL Target]성공 지표[에 대한 경험이 있는 ](/help/main/c-activities/r-success-metrics/success-metrics.md) 활동.
 
   [URL로 리디렉션](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)을 참조하십시오.
 
-통합의 [!DNL Campaign] 부분을 설정하기 전에 [!DNL Target]에서 활동을 시작하십시오.
+통합의 [!DNL Target] 부분을 설정하기 전에 [!DNL Campaign]에서 활동을 시작하십시오.
 
-## [!DNL Adobe Campaign] 전자 메일에 [!DNL Target] 오퍼 포함 {#section_B201BBE27A704E18AF0D553F35695837}
+## [!DNL Target] 전자 메일에 [!DNL Adobe Campaign] 오퍼 포함 {#section_B201BBE27A704E18AF0D553F35695837}
 
 1. [!DNL Adobe Campaign]에서 전자 메일을 만듭니다.
 1. 전자 메일 속성에서 **[!UICONTROL Include]** > **[!UICONTROL Dynamic image served by Adobe Target]**&#x200B;을(를) 클릭합니다.
@@ -66,7 +66,7 @@ ht-degree: 32%
 1. 수신자의 성별 등과 같은 기타 의사결정 매개 변수를 추가합니다.
 1. 각 오퍼의 수신자를 한 명 이상 선택하고(이 경우에는 여성 및 남성) 이메일을 미리 봅니다.
 1. [!DNL Campaign]에서 활동 및 테넌트의 이름을 제어하는 데 사용하는 [!DNL Target] Edge 서버를 정의합니다.
-1. [!DNL Experience Cloud]의 리소스에 액세스할 수 있도록 [!DNL Adobe Experience Cloud]에 사용되는 외부 계정을 지정하십시오.
+1. [!DNL Adobe Experience Cloud]의 리소스에 액세스할 수 있도록 [!DNL Experience Cloud]에 사용되는 외부 계정을 지정하십시오.
 
 자세한 내용은 [!DNL Adobe Campaign] 설명서를 참조하십시오.
 

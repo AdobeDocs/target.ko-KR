@@ -1,6 +1,6 @@
 ---
 keywords: 자동화된 트래픽 할당;타깃팅;증분 카운트 및 사용자를 활동에 유지;트래픽 할당;자동 할당;자동 할당
-description: 둘 이상의 경험에서 승자를 식별하고 더 많은 트래픽을 승자에게 자동으로 재할당하는  [!DNL Adobe Target] 의 [!UICONTROL Auto-Allocate] 활동을 사용하는 방법을 알아봅니다.
+description: 둘 이상의 경험에서 승자를 식별하고 더 많은 트래픽을 승자에게 자동으로 재할당하는 [!UICONTROL Auto-Allocate]의  [!DNL Adobe Target]  활동을 사용하는 방법을 알아봅니다.
 title: '[!UICONTROL Auto-Allocate] 활동이란?'
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
@@ -13,9 +13,9 @@ ht-degree: 35%
 
 # [!UICONTROL Auto-Allocate] 개요
 
-[!DNL Adobe Target]의 [!UICONTROL Auto-Allocate] 활동은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.
+[!UICONTROL Auto-Allocate]의 [!DNL Adobe Target] 활동은 둘 이상의 경험에서 승자를 식별하고, 테스트가 계속 실행되고 학습되는 동안 변환을 늘리기 위해 더 많은 트래픽을 승자에게 자동으로 재할당합니다.
 
-안내가 있는 3단계 워크플로우를 사용하여 [A/B 활동을 만드는 중](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) **[!UICONTROL Targeting]** 페이지에서 **[!UICONTROL Auto-Allocate to best experience]** 옵션을 선택합니다(2단계).
+안내가 있는 3단계 워크플로우를 사용하여 [A/B 활동을 만드는 중](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) **[!UICONTROL Auto-Allocate to best experience]** 페이지에서 **[!UICONTROL Targeting]** 옵션을 선택합니다(2단계).
 
 ## 과제 {#section_85D5A03637204BACA75E19646162ACFF}
 
@@ -29,7 +29,7 @@ ht-degree: 35%
 
 [!DNL Target]의 일반 A/B 테스트에서는 도전자와 통제자의 쌍별 비교만 표시합니다. 예를 들어 활동에 A, B, C 및 D 경험이 있는 경우(여기서 A는 제어), 일반 [!DNL Target] A/B 테스트는 A 대 B, A 대 C 및 A 대 D를 비교합니다.
 
-이러한 테스트에서는 [!DNL Target]을(를) 포함한 대부분의 제품이 [Welch의 t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}을(를) 사용하여 p 값 기반 신뢰도를 생성합니다. 그런 다음 이 신뢰도 값을 사용하여 도전군이 통제군과 충분히 다른지 판별합니다. 그러나 [!DNL Target]은(는) &quot;최상의&quot; 환경을 찾는 데 필요한 암시적 비교(B 대 C, B 대 D, C 대 D)를 자동으로 수행하지 않습니다. 그 결과, 마케터는 결과를 수동으로 분석하여 &quot;최상의&quot; 경험을 결정해야 합니다.
+이러한 테스트에서는 [!DNL Target]을(를) 포함한 대부분의 제품이 [Welch의 t-test](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank}를 사용하여 p 값 기반 신뢰도를 생성합니다. 그런 다음 이 신뢰도 값을 사용하여 도전군이 통제군과 충분히 다른지 판별합니다. 그러나 [!DNL Target]은(는) &quot;최상의&quot; 환경을 찾는 데 필요한 암시적 비교(B 대 C, B 대 D, C 대 D)를 자동으로 수행하지 않습니다. 그 결과, 마케터는 결과를 수동으로 분석하여 &quot;최상의&quot; 경험을 결정해야 합니다.
 
 [!UICONTROL Auto-Allocate]은(는) 경험에 대한 모든 암시적 비교를 수행하고 &quot;true&quot; 승자를 생성합니다. 이 테스트에는 &quot;통제&quot; 경험이라는 개념이 없습니다.
 
@@ -70,7 +70,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 그림에서는 분명한 승자가 결정되기 전까지 각 경험에 할당된 트래픽이 활동 라이프타임의 몇 개 라운드 동안 어떻게 진행되는지를 보여줍니다.
 
-| 라운드 | 설명 |
+| 반올림 | 설명 |
 |--- |--- |
 | ![준비 라운드](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-0.png){width="200" zoomable="yes"} | **준비 라운드(0)**: 준비 라운드 동안 해당 활동에 있는 각 경험에 최소 1,000명의 방문자와 50개의 전환이 생길 때까지 각 경험은 동일한 트래픽 할당을 받습니다.<ul><li>경험 A=25%</li><li>경험 B=25%</li><li>경험 C=25%</li><li>경험 D=25%</li></ul>각 경험에 1,000명의 방문자와 50개의 전환이 생기면 [!DNL Target]에서 자동 트래픽 할당을 시작합니다. 모든 할당은 라운드에서 발생하며 각 라운드에 대해 두 개의 경험이 선택됩니다.<br>D와(과) C, 두 개의 경험만 다음 라운드로 이동합니다.<br>앞쪽으로 이동하면 트래픽의 80%가 두 경험에 동일하게 할당됩니다. 다른 두 경험은 계속 참여하지만 새 방문자가 활동을 시작할 때 20% 무작위 트래픽 할당의 일부로만 제공됩니다.<br>모든 할당은 매시간마다 업데이트되며(위의 x축에 라운드별로 표시됨), 각 라운드 후에는 누적 데이터가 비교됩니다. |
 | ![1라운드](/help/main/c-activities/automated-traffic-allocation/assets/aa-phase-1.png){width="200" zoomable="yes"} | **1라운드**: 이 라운드 동안 트래픽의 80%가 경험 C와 D에 할당됩니다(각각 40%). 트래픽의 20%는 경험 A, B, C 및 D에 무작위로 할당됩니다(각각 5%). 이 라운드 동안 경험 A는 잘 수행됩니다.<ul><li>알고리즘에서는 경험 D가 전환율이 가장 높아서(각 활동의 세로 눈금으로 표시됨) 경험 D가 다음 라운드로 이동하도록 선택됩니다.</li><li>알고리즘에서 경험 A는 나머지 경험의 Bernstein 95% 신뢰 구간에 대한 상한이 가장 높으므로 경험 A도 순방향으로 이동하도록 선택됩니다.</li></ul>경험 D와 A가 순방향으로 이동합니다. |
@@ -83,7 +83,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 >
 >활동에 경험이 두 개만 있는 경우, [!DNL Target]이(가) 75% 신뢰도로 우수성이 검증된 경험을 찾을 때까지 두 경험은 동일한 트래픽을 받습니다. 이 시점에서 트래픽의 2/3는 승자에게 할당되고 1/3은 패자에게 할당됩니다. 이후 경험이 95% 신뢰도에 도달하면 트래픽의 90%를 승자에게 할당하고, 10%를 패자에게 할당합니다. [!DNL Target]은(는) 마지막에 긍정 오류(false positive)를 피하기 위해(즉, 일부 탐색 유지) 항상 일부 트래픽을 &quot;손실&quot; 경험에 보냅니다.
 
-[!UICONTROL Auto-Allocate] 활동이 활성화되면 Target UI에서 다음 작업이 허용되지 않습니다.
+[!UICONTROL Auto-Allocate] 활동이 활성화되면 Tar[!DNL]get UI에서 다음 작업이 허용되지 않습니다.
 
 * &quot;트래픽 할당&quot; 모드를 &quot;수동&quot;으로 전환
 * 목표 지표 유형 변경
@@ -95,7 +95,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 ## 주의 사항 {#section_5C83F89F85C14FD181930AA420435E1D}
 
-[!UICONTROL Auto-Allocate] (으)로 작업할 때 다음 정보를 고려하십시오.
+[!UICONTROL Auto-Allocate]&#x200B;(으)로 작업할 때 다음 정보를 고려하십시오.
 
 ### [!UICONTROL Auto-Allocate] 기능은 하나의 고급 지표 설정에서만 작동합니다. [!UICONTROL Increment Count and Keep User in Activity]
 
@@ -137,7 +137,7 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 [!UICONTROL Auto-Allocate] 활동과 함께 작업할 때 다음 FAQ 및 답변을 참조하십시오.
 
-### [!UICONTROL Analytics for Target] (A4T)에서 [!UICONTROL Auto-Allocate]개의 활동을 지원합니까?
+### [!UICONTROL Analytics for Target]&#x200B;(A4T)에서 [!UICONTROL Auto-Allocate]개의 활동을 지원합니까?
 
 예. 자세한 내용은 자동 할당 및 자동 타겟 활동에 대한 [A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md)을 참조하십시오.
 
@@ -194,21 +194,21 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 [!DNL Adobe]은(는) 활동 중간에 목표 지표를 변경하지 않는 것이 좋습니다. [!DNL Target] UI를 사용하는 활동 중에 목표 지표를 변경할 수 있지만 항상 새 활동을 시작해야 합니다. [!DNL Adobe]은(는) 활동이 실행된 후 목표 지표를 변경할 경우 어떤 결과가 발생하는지 보장하지 않습니다.
 
-이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics] (A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
+이 권장 사항은 [!UICONTROL Auto-Allocate] 또는 [!UICONTROL Auto-Target]&#x200B;(A4T)을 보고 소스로 사용하는 [!UICONTROL Automated Personalization], [!DNL Target] 및 [!DNL Analytics] 활동에 적용됩니다.
 
 ### [!UICONTROL Auto-Allocate] 활동 중간에 보고 소스를 변경할 수 있습니까? {#change-reporting}
 
 [!DNL Adobe]은(는) 활동 중간에 보고 소스를 변경하지 않는 것이 좋습니다. [!DNL Target] UI를 사용하는 활동 중에 보고 소스를 변경([!DNL Target]에서 A4T 또는 그 반대)할 수 있지만 항상 새 활동을 시작해야 합니다. [!DNL Adobe]은(는) 활동 실행 후 활동에서 보고 소스를 변경할 경우 발생하는 결과를 보장하지 않습니다.
 
-이 권장 사항은 [!DNL Target] 또는 [!DNL Analytics] (A4T)을 보고 소스로 사용하는 [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에 적용됩니다.
+이 권장 사항은 [!UICONTROL Auto-Allocate] 또는 [!UICONTROL Auto-Target]&#x200B;(A4T)을 보고 소스로 사용하는 [!UICONTROL Automated Personalization], [!DNL Target] 및 [!DNL Analytics] 활동에 적용됩니다.
 
-### [!UICONTROL Auto-Allocate] 활동을 실행하는 동안 [!UICONTROL Reset Report Data] 옵션을 사용할 수 있습니까?
+### [!UICONTROL Reset Report Data] 활동을 실행하는 동안 [!UICONTROL Auto-Allocate] 옵션을 사용할 수 있습니까?
 
-[!UICONTROL Auto-Allocate] 활동에 [!UICONTROL Reset Report Data] 옵션을 사용하는 것은 권장되지 않습니다. 이 옵션을 사용하면 표시되는 보고 데이터는 제거되지만 [!UICONTROL Auto-Allocate] 모델에서 모든 교육 기록이 제거되지는 않습니다. [!UICONTROL Auto-Allocate] 활동에 [!UICONTROL Reset Report Data] 옵션을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화하십시오. 이 지침은 [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에도 적용됩니다.
+[!UICONTROL Reset Report Data] 활동에 [!UICONTROL Auto-Allocate] 옵션을 사용하는 것은 권장되지 않습니다. 이 옵션을 사용하면 표시되는 보고 데이터는 제거되지만 [!UICONTROL Auto-Allocate] 모델에서 모든 교육 기록이 제거되지는 않습니다. [!UICONTROL Reset Report Data] 활동에 [!UICONTROL Auto-Allocate] 옵션을 사용하는 대신 새 활동을 만들고 원래 활동을 비활성화하십시오. 이 지침은 [!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에도 적용됩니다.
 
 ### [!UICONTROL Auto-Allocate]은(는) 환경과 관련하여 모델을 어떻게 구축합니까?
 
-[!UICONTROL Auto-Allocate]은(는) 기본 환경에서만 기록된 트래픽 및 전환 동작을 기반으로 모델을 만듭니다. 기본적으로 [!UICONTROL Production]이(가) 기본 환경이지만 [!DNL Target] ([관리 > 환경](/help/main/administrating-target/environments.md))에서 기본 환경을 변경할 수 있습니다.
+[!UICONTROL Auto-Allocate]은(는) 기본 환경에서만 기록된 트래픽 및 전환 동작을 기반으로 모델을 만듭니다. 기본적으로 [!UICONTROL Production]이(가) 기본 환경이지만 [!DNL Target]&#x200B;([관리 > 환경](/help/main/administrating-target/environments.md))에서 기본 환경을 변경할 수 있습니다.
 
 히트가 다른(기본값이 아닌) 환경에서 발생하는 경우 트래픽은 기본 환경에서 관찰된 전환 동작에 따라 분산됩니다. 해당 히트의 결과(전환 또는 비전환)는 보고 목적으로 기록되지만 [!UICONTROL Auto-Allocate] 모델에서는 고려되지 않습니다.
 
@@ -241,9 +241,9 @@ multi-armed bandit 접근 방식은 잘 수행되는 경험을 이용하는 동�
 
 ### A/B 테스트 만들기(8:36) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
-다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 A/B 테스트를 작성하는 방법을 보여줍니다. [!UICONTROL Auto-Allocate] 은 오전 4:45부터 설명합니다.
+다음 비디오에서는 Target 3단계 안내가 있는 워크플로우를 사용하여 A/B 테스트를 작성하는 방법을 보여줍니다. [!UICONTROL Auto-Allocate]은(는) 4:45부터 논의됩니다.
 
 * [!DNL Adobe Target]에서 A/B 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/30529?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)

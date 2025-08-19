@@ -1,20 +1,20 @@
 ---
 keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
-description: 피드가 CSV 파일, Google 제품 검색 피드 형식 및  [!DNL Analytics] 제품 분류를 사용하여  [!DNL Adobe Target] [!DNL Recommendations]에 엔티티를 가져오는 방법에 대해 알아봅니다.
-title: ' [!DNL Target Recommendations]에서 [!UICONTROL Feeds]을(를) 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+description: 피드가 CSV 파일, Google 제품 검색 피드 형식 및  [!DNL Adobe Target] [!DNL Recommendations]제품 분류를 사용하여  [!DNL Analytics] 에 엔티티를 가져오는 방법에 대해 알아봅니다.
+title: '[!UICONTROL Feeds]에서  [!DNL Target Recommendations]을(를) 사용하는 방법'
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
 workflow-type: tm+mt
 source-wordcount: '2463'
-ht-degree: 45%
+ht-degree: 44%
 
 ---
 
 # 피드
 
-피드를 사용하여 [!DNL Adobe Target] [!DNL Recommendations] (으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, Google 제품 검색 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
+피드를 사용하여 [!DNL Adobe Target] [!DNL Recommendations]&#x200B;(으)로 가져온 엔터티를 가져옵니다. 엔터티는 CSV 파일, Google 제품 검색 피드 형식 및 [!DNL Adobe Analytics] 제품 분류를 사용하여 보낼 수 있습니다.
 
 ## 피드 개요 {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
@@ -121,7 +121,7 @@ Google Product Search 피드 유형에서는 Google 형식을 사용합니다. [
 >
 >Google 데이터를 사용할 필요는 없습니다. [!DNL Recommendations]은(는) Google과 동일한 형식을 사용합니다. 이 방법을 사용하여 보유하고 있는 데이터를 업로드하고 사용 가능한 예약 기능을 이용할 수 있습니다. 하지만 파일을 설정할 때에는 Google의 사전 정의된 속성 이름을 보유하고 있어야 합니다.
 
-대부분의 소매업체는 제품을 Google에 업로드하므로 방문자가 Google 제품 검색을 사용하면 해당 제품이 표시됩니다. [!DNL Recommendations]는 정확히 개체 피드에 대해 Google의 사양을 따릅니다. 엔터티 피드는 .xml, .txt 또는 .tsv를 통해 [!DNL Recommendations]에 전송될 수 있으며, Google에서 정의한 [특성을 사용할 수 있습니다](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). 결과는 [Google 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
+대부분의 소매업체는 제품을 Google에 업로드하므로 방문자가 Google 제품 검색을 사용하면 해당 제품이 표시됩니다. [!DNL Recommendations]는 정확히 개체 피드에 대해 Google의 사양을 따릅니다. 엔터티 피드는 .xml, .txt 또는 .tsv를 통해 [!DNL Recommendations]에 전송될 수 있으며, Google에서 정의한 [특성을 사용할 수 있습니다](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). 결과는 [Google 쇼핑 페이지](https://www.google.com/prdhp)에서 검색할 수 있습니다.
 
 >[!NOTE]
 >
@@ -212,11 +212,11 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 *Analytics 구성 요소* 안내서에서 [분류 정보](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko)를 참조하십시오. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
+[!DNL Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 [Analytics 구성 요소](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 안내서에서 *분류 정보*&#x200B;를 참조하십시오. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
 
 >[!IMPORTANT]
 >
->[!DNL Analytics] 제품 분류를 사용하여 엔터티 데이터를 [!DNL Recommendations] (으)로 가져오기 전에 이 방법이 기본 방법이 아니라는 것을 알아 두십시오.
+>[!DNL Recommendations] 제품 분류를 사용하여 엔터티 데이터를 [!DNL Analytics]&#x200B;(으)로 가져오기 전에 이 방법이 기본 방법이 아니라는 것을 알아 두십시오.
 >
 > 다음 주의 사항에 유의하십시오.
 >
@@ -328,15 +328,15 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 **예제 1:**
 
-* 1일: 매일 오전 9시(PST)에 피드 처리
-* 2일째: 오후 3시 30분인데 피드가 어제 오전 9시 이후에 실행되지 않았습니다.
+* 1일: 매일 오전 9시(PST)에 피드 처리:00
+* 2일: 오후 3:30이고 피드가 어제 이후 오전 9:00에 실행되지 않습니다.
 
 약 6.5시간 전에 색인이 실행되어야 했는데 그렇지 않으므로 상태는 노란색이어야 합니다. 6.5시간 +24는 피드 창의 127%입니다.
 
 **예제 2:**
 
-* 1월 1일: 매월 피드 프로세스는 오전 9시(PST)입니다.
-* 2월 3일: 오전 10시이며 피드가 한 달, 하루, 한 시간 전에 실행되지 않습니다.
+* 1월 1일: 매월 피드 프로세스는 오전 9시(PST)에 있습니다.:00
+* 2월 3일: 오전 10:00이며 피드가 한 달, 하루, 한 시간 전에 실행되지 않습니다.
 
 약 1일 1시간 전에 색인이 실행되어야 했는데 그렇지 않으므로 상태는 노란색이어야 합니다. 이것은 빈도 설정의 (31+(1/25))/30 = 1.03%에 불과하지만 하루 지연의 최대값을 초과했습니다.
 
@@ -344,14 +344,14 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 다음 비디오에는 이 문서에서 설명한 개념에 대한 자세한 정보가 포함되어 있습니다.
 
-### Recommendations의 피드 이해(3:01) ![개요 배지](/help/main/assets/overview.png)
+### 권장 사항(3:01)의 피드 이해 ![개요 배지](/help/main/assets/overview.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
 * 피드의 목적 이해
 * 피드 값 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/33985?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### 피드 만들기(6:44) ![튜토리얼 배지](/help/main/assets/tutorial.png)
 
@@ -360,4 +360,4 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 * 피드 설정
 * 사용할 피드 유형 파악
 
->[!VIDEO](https://video.tv.adobe.com/v/33984?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)

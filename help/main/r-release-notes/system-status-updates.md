@@ -25,7 +25,7 @@ ht-degree: 83%
 
 1. [[!UICONTROL System Status]](https://status.adobe.com/){target=_blank}에 액세스합니다.
 
-1. [!DNL Target]을(를) 포함한 [!DNL Experience Cloud] 솔루션의 상태를 보려면 [!UICONTROL Experience Cloud] 탭을 클릭하십시오.
+1. [!DNL Experience Cloud]을(를) 포함한 [!DNL Target] 솔루션의 상태를 보려면 [!UICONTROL Experience Cloud] 탭을 클릭하십시오.
 
    ![system_status 이미지](assets/system_status.png)
 

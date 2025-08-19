@@ -33,7 +33,7 @@ ht-degree: 19%
 
      이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * [!UICONTROL URL] ([!DNL Target]이(가) URL을 평가하는 방법에 대한 자세한 내용은 [대상 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
+      * [!UICONTROL URL]&#x200B;([!DNL Target]이(가) URL을 평가하는 방법에 대한 자세한 내용은 [대상 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -45,7 +45,7 @@ ht-degree: 19%
 
      이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * [!UICONTROL URL] (Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
+      * [!UICONTROL URL]&#x200B;(Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -56,7 +56,7 @@ ht-degree: 19%
 
      이 옵션을 선택하는 경우 두 번째 드롭다운 목록에서 다음 옵션을 사용할 수 있습니다.
 
-      * [!UICONTROL URL] (Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
+      * [!UICONTROL URL]&#x200B;(Target에서 URL을 평가하는 방법에 대한 자세한 내용은 [Target 및 대상 FAQ](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)를 참조하십시오.)
       * [!UICONTROL Domain]
       * [!UICONTROL Query]
       * [!UICONTROL Subdomain]
@@ -121,11 +121,11 @@ ht-degree: 19%
 
 ## 문제 해결 {#ts}
 
-* 랜딩 페이지 대상이 제대로 작동하려면 요청에 at.js JavaScript 라이브러리가 `document.referrer` 특성을 사용하여 페이지에서 가져오는 `mboxReferrer` 매개 변수 집합(배달 API의 경우 `context.address.referringUrl` 매개 변수)이 있어야 합니다. 이 `HTMLDocument` 특성은 사용자가 탐색한 페이지의 URI를 반환합니다. 이 속성의 값은 사용자가 페이지로 직접 이동할 때(링크가 아니라 책갈피 등을 통해) 빈 문자열입니다.
+* 랜딩 페이지 대상이 제대로 작동하려면 요청에 at.js JavaScript 라이브러리가 `mboxReferrer` 특성을 사용하여 페이지에서 가져오는 `context.address.referringUrl` 매개 변수 집합(배달 API의 경우 `document.referrer` 매개 변수)이 있어야 합니다. 이 `HTMLDocument` 특성은 사용자가 탐색한 페이지의 URI를 반환합니다. 이 속성의 값은 사용자가 페이지로 직접 이동할 때(링크가 아니라 책갈피 등을 통해) 빈 문자열입니다.
 
   이 동작이 요구 사항과 일치하지 않으면 다음 작업 중 하나를 수행하는 것이 좋습니다.
 
-   * 타깃팅용으로 사용하려면 [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html?lang=ko){target=_blank}을(를) [!DNL Target]에 전달하십시오.
+   * 타깃팅용으로 사용하려면 [mbox 매개 변수](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/global-mbox/pass-parameters-to-global-mbox.html){target=_blank}을(를) [!DNL Target]에 전달하십시오.
    * 랜딩 페이지 활동 대신 [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을 사용하십시오. A/B 테스트 활동은 동일한 방문자에 대한 경험을 전환하지 않습니다.
    * 대신 [방문자 프로필](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md)을 사용하십시오.
 

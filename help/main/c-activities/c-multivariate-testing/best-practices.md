@@ -1,6 +1,6 @@
 ---
 keywords: mvt;다변량 테스트;다변량 테스트 모범 사례;mvt 모범 사례;mvt 조합;mvt 보고서
-description: ' [!DNL Adobe Target]에서 [!UICONTROL Multivariate Test] 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 방법을 알아봅니다.'
+description: '[!UICONTROL Multivariate Test]에서  [!DNL Adobe Target] 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 방법을 알아봅니다.'
 title: '[!UICONTROL Multivariate Test] 활동에 대한 모범 사례는 무엇입니까?'
 feature: Multivariate Tests
 exl-id: bcd15517-1b5f-4425-9404-1d7dd0689e28
@@ -13,7 +13,7 @@ ht-degree: 57%
 
 # [!UICONTROL Multivariate Test] 모범 사례
 
-[!DNL Adobe Target]에서 [!UICONTROL Multivariate Test] (MVT) 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 데 도움이 되는 팁입니다.
+[!UICONTROL Multivariate Test]에서 [!DNL Adobe Target]&#x200B;(MVT) 활동을 만들고 실행할 때 발생할 수 있는 알려진 문제를 수정하고, 문제를 방지하고, 성능을 개선하는 데 도움이 되는 팁입니다.
 
 ## 계획 {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -65,4 +65,4 @@ ht-degree: 57%
 
 * MVT 테스트 다음에 하나 이상의 A/B 테스트를 실행하면 원하는 결과에 대해 가능성이 가장 높은 콘텐츠를 판단할 수 있습니다.
 
-  목표 달성에 가장 유용한 위치 및 콘텐츠를 파악한 후에는 A/B 테스트를 실행하여 결과를 세분화할 수 있습니다. 예를 들어 어떤 위치가 가장 중요한지 알고 있는 경우 두 개의 특정 이미지를 서로 테스트하거나 클릭 유도 문안의 문구 또는 색상을 비교합니다.
+  목표 달성에 가장 유용한 위치 및 콘텐츠를 파악한 후에는 A/B 테스트를 실행하여 결과를 세분화할 수 있습니다. 예를 들어 어떤 위치가 가장 중요한지 알고 있는 경우 두 개의 특정 이미지를 서로 테스트하거나 call to action의 단어 또는 색상을 비교합니다.

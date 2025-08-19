@@ -1,6 +1,6 @@
 ---
 keywords: 다중 페이지;여정 테스트;다중 페이지 활동
-description: Adobe에서 다중 페이지 활동을 만드는 방법을 알아봅니다 [!DNL Target] 각 페이지별 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 만들 수 있습니다.
+description: Adobe에서 다중 페이지 활동을 만드는 방법을 알아봅니다 [!DNL Target] 에서는 각 페이지별로 다른 디자인을 사용하여 여러 페이지에 걸쳐 스토리를 만들 수 있습니다.
 title: 다중 페이지 활동을 만들려면 어떻게 해야 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
@@ -17,7 +17,7 @@ ht-degree: 54%
 
 예를 들어 특정 금액을 초과하는 구매 항목을 무료로 배송하는 오퍼를 테스트할 수 있습니다. 해당 페이지가 랜딩 페이지, 범주 페이지 및 특정 제품 페이지에 나타나되, 각 페이지 유형에서 다른 위치에 다른 크기로 표시되도록 할 수 있습니다. 홈페이지에 눈에 띄는 오퍼를 표시한 다음, 다른 관련 페이지에서 더 작은 오퍼로 해당 오퍼를 보강할 수도 있습니다.
 
-다중 페이지 활동을 사용하여 데스크톱 사이트와 비응답형 모바일 사이트용으로 서로 다른 레이아웃을 정의할 수도 있습니다. 사이트에 [!DNL `www.mysite.com`] 대신 [!DNL m.mysite.com]과(와) 같은 별도의 모바일 사이트가 있는 경우 대신 [다중 페이지 활동](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 만들고 [!DNL m.mysite.com]을(를) 별도의 페이지로 추가한 다음 모바일 편집을 적용하여 동일한 경험에서 데스크톱 버전 및 모바일 버전을 적절하게 변경해야 합니다. 응답형 모바일 사이트의 경우 [모바일 경험 편집](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)을 사용하십시오.
+다중 페이지 활동을 사용하여 데스크톱 사이트와 비응답형 모바일 사이트용으로 서로 다른 레이아웃을 정의할 수도 있습니다. 사이트에 [!DNL m.mysite.com] 대신 [!DNL `www.mysite.com`]과(와) 같은 별도의 모바일 사이트가 있는 경우 대신 [다중 페이지 활동](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48)을 만들고 [!DNL m.mysite.com]을(를) 별도의 페이지로 추가한 다음 모바일 편집을 적용하여 동일한 경험에서 데스크톱 버전 및 모바일 버전을 적절하게 변경해야 합니다. 응답형 모바일 사이트의 경우 [모바일 경험 편집](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5)을 사용하십시오.
 
 >[!NOTE]
 >

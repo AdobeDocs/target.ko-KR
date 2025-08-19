@@ -7,8 +7,8 @@ role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
 source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 47%
+source-wordcount: '653'
+ht-degree: 46%
 
 ---
 
@@ -50,7 +50,7 @@ ht-degree: 47%
 >
 >[!DNL Recommendations] 사용자는 호스트가 호스트 그룹을 전환할 경우 자신들의 행동 데이터베이스와 제품 데이터베이스를 다시 구축해야 합니다.
 >
-> [!DNL Adobe Experience Platform] 데이터 스트림[&#128279;](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=ko#target){target=_blank}에서 기본 환경을 지정하는 경우 이 설정은 [!DNL Target]의 설정을 무시합니다.
+>[데이터 스트림 [!DNL Adobe Experience Platform] 에서 ](https://experienceleague.adobe.com/docs/experience-platform/datastreams/configure.html?lang=en#target){target=_blank}기본 환경을 지정하는 경우 이 설정은 [!DNL Target]의 설정을 무시합니다.
 
 ## 환경 이름 변경 {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
@@ -69,7 +69,7 @@ ht-degree: 47%
 >
 >[!UICONTROL Production] 환경은 삭제할 수 없지만 이름을 바꿀 수는 있습니다.
 
-## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."}
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."} 권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링
 
 선택한 환경(호스트 그룹)에 대한 권장 사항 컬렉션 및 제외 컨텐츠를 미리 볼 수 있습니다.
 

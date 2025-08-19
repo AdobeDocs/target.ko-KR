@@ -13,7 +13,7 @@ ht-degree: 37%
 
 # 양식 기반 경험 작성기
 
-[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) VEC([!UICONTROL Visual Experience Composer])를 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] 및 [!UICONTROL Recommendations] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 경험 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer]은(는) VEC([!UICONTROL A/B Test])를 사용할 수 없거나 실용적이지 않을 때 [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization], [!UICONTROL Recommendations] 및 [!UICONTROL Visual Experience Composer] 활동에 사용할 경험을 만드는 데 유용한 시각적이지 않은 경험 및 오퍼 만들기 인터페이스입니다. 예를 들어 양식 기반 경험 작성기를 사용하여 이메일, 키오스크 및 음성 도우미에 게재할 경험과 오퍼를 만들 수 있습니다.
 
 [!UICONTROL Recommendations] 활동을 만드는 경우 경험이 없습니다. 기준 및 디자인을 선택합니다. 여러 기준이나 디자인을 선택하면 [!UICONTROL Target]에서 자동으로 경험을 생성합니다.
 
@@ -21,7 +21,7 @@ ht-degree: 37%
 
    [!UICONTROL Form-Based Experience Composer]은(는) [!UICONTROL A/B Test], [!UICONTROL Experience Targeting], [!UICONTROL Automated Personalization] 및 [!UICONTROL Recommendations] 활동에 사용할 수 있습니다.
 
-1. [!UICONTROL Create Activity] 대화 상자에서 **[!UICONTROL Form]** 선택
+1. **[!UICONTROL Form]** 대화 상자에서 [!UICONTROL Create Activity] 선택
 
 1. (조건부) 작업 공간 및 속성을 선택합니다.
 
@@ -92,7 +92,7 @@ ht-degree: 37%
 
    **추천 추가:**
 
-   Recommendations 활동의 경우 콘텐츠 드롭다운에 [!UICONTROL Add Recommendation] 옵션이 제공됩니다. **[!UICONTROL Add Recommendation]**&#x200B;을(를) 클릭한 다음 페이지 유형을 선택합니다. 그런 다음, 인터페이스에 정의된 일반적인 단계를 수행하여 [권장 사항 활동을 만듭니다](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   권장 사항 활동의 경우 콘텐츠 드롭다운에 [!UICONTROL Add Recommendation] 옵션이 제공됩니다. **[!UICONTROL Add Recommendation]**&#x200B;을(를) 클릭한 다음 페이지 유형을 선택합니다. 그런 다음, 인터페이스에 정의된 일반적인 단계를 수행하여 [권장 사항 활동을 만듭니다](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    양식 기반 경험 작성기에서 권장 사항 기준을 선택하는 동안 선택한 기준 카드에 직접 연결되는 링크가 있으므로 기준을 빠르고 쉽게 편집할 수 있습니다.
 
@@ -104,7 +104,7 @@ ht-degree: 37%
 
    **오퍼 결정 추가:**
 
-   [!DNL Adobe Journey Optimizer] (AJO)에서 만든 오퍼를 [!DNL Adobe Target] 활동에 추가하여 offer decisioning을 사용하여 웹 사이트 또는 모바일 사이트의 방문자에게 최고의 동적 오퍼 및 경험을 제공합니다. 이 옵션은 수동 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting] (XT) 활동에만 사용할 수 있습니다.
+   [!DNL Adobe Journey Optimizer]&#x200B;(AJO)에서 만든 오퍼를 [!DNL Adobe Target] 활동에 추가하여 Offer Decisioning을 사용하여 웹 사이트 또는 모바일 사이트의 방문자에게 최고의 동적 오퍼와 경험을 제공하십시오. 이 옵션은 수동 [!UICONTROL A/B Test] 및 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동에만 사용할 수 있습니다.
 
    자세한 내용은 [오퍼 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)을 참조하세요.
 

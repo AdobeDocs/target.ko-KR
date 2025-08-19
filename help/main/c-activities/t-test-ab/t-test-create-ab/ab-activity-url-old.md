@@ -48,7 +48,7 @@ ht-degree: 44%
 
 [!DNL Target] Standard JavaScript 코드가 포함되지 않은 사이트 URL을 입력하면 페이지 요소를 선택할 수 없습니다.
 
-기본적으로 [!UICONTROL Visual Experience Composer]에서는 회전 배너와 같은 JavaScript이 포함된 요소를 변경할 수 없습니다. [!UICONTROL Visual Experience Composer]을(를) 사용하여 해당 요소를 변경하려면 **[!UICONTROL Render using JavaScript]**&#x200B;을(를) 끌 수 있습니다.
+기본적으로 [!UICONTROL Visual Experience Composer]에서는 회전 배너와 같은 JavaScript이 포함된 요소를 변경할 수 없습니다. **[!UICONTROL Render using JavaScript]**&#x200B;을(를) 사용하여 해당 요소를 변경하려면 [!UICONTROL Visual Experience Composer]을(를) 끌 수 있습니다.
 
 >[!NOTE]
 >

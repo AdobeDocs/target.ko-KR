@@ -17,7 +17,7 @@ ht-degree: 38%
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform] 소스는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=ko){target=_blank}를 사용하는 모든 [!DNL Target] 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 이 항목에서 설명한 대로 그대로 사용하거나 기존 대상과 결합할 수 있습니다.
+>[!DNL Adobe Experience Platform] 소스는 [!DNL Target]Adobe Experience Platform Web SDK[를 사용하는 모든 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank} 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 이 항목에서 설명한 대로 그대로 사용하거나 기존 대상과 결합할 수 있습니다.
 >
 >자세한 내용은 [Adobe Experience Platform의 대상 사용](/help/main/c-target/c-audiences/audiences.md#aep)을 참조하세요.
 
@@ -99,7 +99,7 @@ AND와 OR 연산자를 사용하여 최대 20개의 대상을 결합할 수 있�
 
 보고에서 사용할 결합된 임시 대상을 활동의 [!UICONTROL Goals & Settings] 페이지에서 만들어 수 있습니다.
 
-1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만드는 동안 **[!UICONTROL Goals & Settings]** 페이지에서 [!UICONTROL Audiences for Reporting] 아래의 **[!UICONTROL Add Audience]** 아이콘을 클릭하여 [!UICONTROL Choose Audience] 페이지를 표시합니다.
+1. [활동](/help/main/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)을 편집하거나 만드는 동안 **[!UICONTROL Goals & Settings]** 페이지에서 **[!UICONTROL Add Audience]** 아래의 [!UICONTROL Audiences for Reporting] 아이콘을 클릭하여 [!UICONTROL Choose Audience] 페이지를 표시합니다.
 
    ![combine_multiple_audiences6 이미지](assets/combine_multiple_audiences6.png)
 

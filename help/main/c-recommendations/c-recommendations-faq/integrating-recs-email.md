@@ -1,8 +1,8 @@
 ---
 keywords: 이메일;ESP;이메일 서비스 제공업체;rawbox;배달 API;다운로드 전용 템플릿;이메일 템플릿;일괄처리;작성 시간 이메일
-description: ' [!DNL Target Recommendations], including using the [!DNL Target]  배달 API, Rawbox 템플릿 및 다운로드 전용 템플릿을 포함하여 이메일을 Adobe Target Recommendations과 통합하는 방법에 대해 알아보십시오.'
-title: Recommendations를 이메일과 통합하려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+description: ' [!DNL Target Recommendations], including using the [!DNL Target]  배달 API, Rawbox 템플릿 및 다운로드 전용 템플릿을 포함하여 이메일을 Adobe Target 추천과 통합하는 방법에 대해 알아 보십시오.'
+title: 추천를 이메일과 통합하려면 어떻게 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: 1f505991ea9a0caf0d6d49f6464550243128ffaf
@@ -78,7 +78,7 @@ curl -X POST \
 >
 >모든 이메일 수신자(예: API 호출)에 대해 `sessionId` 및 `tntId` 또는 `thirdPartyId` 중 하나에 고유값을 제공해야 합니다. 이러한 필드에 고유한 값을 제공하지 않으면, 단일 프로필 내에서 많은 이벤트가 생성되어 API 응답이 느려지거나 실패할 수 있습니다.
 
-자세한 내용은 [배달 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html?lang=ko){target=_blank}를 참조하십시오.
+자세한 내용은 [배달 API 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/api/delivery-api/overview.html){target=_blank}를 참조하십시오.
 
 ## 방법 2: rawbox 이메일 템플릿 사용 {#rawbox}
 
@@ -125,7 +125,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | 매개 변수 | 값 | 설명 | 유효성 검사 |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | Recommendations에 사용되는 클라이언트의 코드입니다. Adobe 컨설턴트가 이 값을 제공할 수 있습니다. |  |
+| `client_code` | *client_code* | 권장 사항에 사용되는 클라이언트의 코드입니다. Adobe 컨설턴트가 이 값을 제공할 수 있습니다. |  |
 | `mbox` | *mboxName* | 타기팅에 사용되는 mbox 이름입니다. | 모든 mbox 통화에 대해 동일한 유효성 검사입니다.<br>250자로 제한됩니다.<br>포함할 수 없는 문자는 다음과 같습니다. `', ", %22, %27, <, >, %3C, %3E` |
 | `mboxXDomain` | 비활성화됨 | 응답이 비웹 환경에서 쿠키를 설정하지 못하도록 합니다. |  |
 | `entity.id`<br>(특정 유형의 기준, 즉 보기/보기, 보기/구매, 구매/구매에 필요) | *entity_id* | 권장 사항의 기준이 되는 productId(예: 장바구니에서 구매하지 않은 제품 또는 이전 구매)입니다.<br>기준에 따라 필요한 경우, rawbox 호출에 `entity.id`를 포함해야 합니다. |  |

@@ -41,7 +41,7 @@ ht-degree: 28%
 
 활동 전용 대상을 사용할 때는 다음 정보에 유의하십시오.
 
-* [!UICONTROL Visual Experience Composer] (VEC) 또는 [!UICONTROL Form-Based Experience Composer]에서 활동 전용 대상을 만들 수 있습니다. 이 기능은 이전 버전의 [!DNL Target]에서 세분화 규칙을 대체합니다.
+* [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 또는 [!UICONTROL Form-Based Experience Composer]에서 활동 전용 대상을 만들 수 있습니다. 이 기능은 이전 버전의 [!DNL Target]에서 세분화 규칙을 대체합니다.
 * 다른 활동에서 재사용하기 위해 활동을 만들어 [!UICONTROL Audience Library]에 저장하거나 활동 전용 대상을 만들 수 있습니다. 대상을 저장한 후에는 대상 유형을 변경할 수 없습니다.
 * 기존 활동에 대한 구체화 내용은 활동 전용 대상으로 마이그레이션됩니다.
 * 활동 전용 대상의 상태는 [!UICONTROL Used] 또는 [!UICONTROL Unused]입니다. 사용되지 않음 활동 전용 대상은 활동을 저장할 때까지 표시됩니다. 사용되지 않음 상태로 두고 활동을 저장하려고 하면 사용되지 않음 활동 전용 대상은 삭제된다는 사실을 알리는 경고 메시지가 표시됩니다.

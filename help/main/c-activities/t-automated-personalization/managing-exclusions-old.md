@@ -1,8 +1,8 @@
 ---
 keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;제외 그룹;
-description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) 활동에서 제외를 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.'
+description: ' [!DNL Adobe Target] [!UICONTROL Automated Personalization](AP) 활동에서 제외를 관리합니다. 제외 그룹을 만들고 중복 오퍼, 특정 경험 및 기본 콘텐츠를 제외합니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 제외를 관리하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
@@ -15,11 +15,11 @@ ht-degree: 41%
 
 # 제외 관리
 
-[!DNL Adobe Target]의 [!UICONTROL Automated Personalization] (AP) 활동에서 제외 그룹을 만들고, 중복 오퍼를 제외하고, 특정 경험을 제외하고, 기본 콘텐츠를 제외하여 제외를 관리합니다.
+[!UICONTROL Automated Personalization]의 [!DNL Adobe Target]&#x200B;(AP) 활동에서 제외 그룹을 만들고, 중복 오퍼를 제외하고, 특정 경험을 제외하고, 기본 콘텐츠를 제외하여 제외를 관리합니다.
 
 ## 제외 그룹 만들기 {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
-[!UICONTROL Automated Personalization] (AP) 활동에 제외 그룹을 만들어 지정된 오퍼가 있는 경험이 자동으로 제외되도록 합니다.
+[!UICONTROL Automated Personalization]&#x200B;(AP) 활동에 제외 그룹을 만들어 지정된 오퍼가 있는 경험이 자동으로 제외되도록 합니다.
 
 제외 그룹은 양립할 수 없는 오퍼가 서로 다른 위치의 동일한 경험에서 제공되지 않도록 하는 좋은 방법입니다. 예를 들어 두 가지 오퍼가 있다고 가정해 보겠습니다. 하나는 모든 상품에 대해 20% 할인이고 다른 하나는 15% 할인입니다. 이 두 오퍼가 동일한 경험의 방문자에게 표시되지 않도록 할 수 있습니다. 이 두 오퍼를 제외 그룹에 추가하는 경우 이러한 상황이 발생하지 않는지 확인할 수 있습니다.
 
@@ -87,7 +87,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상자를 제한할 수도 �
 
    [!UICONTROL Status] 드롭다운 목록을 클릭하여 제외되었거나 포함된 활동만 표시하도록 이 목록 보기를 필터링할 수 있습니다.
 
-   이제 경험이 활동에서 제외되고 해당 [!UICONTROL Status]이(가) [!UICONTROL Excluded] (으)로 표시됩니다.
+   이제 경험이 활동에서 제외되고 해당 [!UICONTROL Status]이(가) [!UICONTROL Excluded]&#x200B;(으)로 표시됩니다.
 
    ![제외된 경험](/help/main/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
@@ -124,7 +124,7 @@ AP 활동에서 특정 오퍼를 볼 수 있는 대상자를 제한할 수도 �
 
 **기본 콘텐츠를 제외하려면 [!UICONTROL Form-Based Experience Composer]:**
 
-1. AP 활동을 만들거나 편집하는 동안 **[!UICONTROL Change Text/HTML]** 또는 **[!UICONTROL Content]** 아래의 **[!UICONTROL Change Image Offer]**&#x200B;을(를) 클릭합니다.
+1. AP 활동을 만들거나 편집하는 동안 **[!UICONTROL Change Text/HTML]** 또는 **[!UICONTROL Change Image Offer]** 아래의 **[!UICONTROL Content]**&#x200B;을(를) 클릭합니다.
 1. 대화 상자에서 새 콘텐츠를 만들고 기본 콘텐츠의 오른쪽에 있는 **[!UICONTROL Include]**&#x200B;을 선택 취소합니다(또는 [!UICONTROL Select Content] 화면에서 기본 이미지/비디오를 선택 취소합니다.).
 
    [!UICONTROL Include] 확인란은 콘텐츠 또는 오퍼 유형에 따라 약간 다른 위치에 있습니다.

@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Target]을(를) [!DNL Adobe Audience Manager] (AAM)과(와) 통합
+# [!DNL Target]을(를) [!DNL Adobe Audience Manager]과(와) 통합(AAM)
 
 [!DNL Target]/[!DNL Audience Manager] 통합을 사용하여 [!DNL Audience Manager] 세그먼트를 [!DNL Target]에 보낼 수 있습니다.
 
-자세한 내용은 *[!DNL Audience Manager]사용 안내서*&#x200B;에서 [통합 [!DNL Audience Manager] 을(를) [!DNL Target]](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html?lang=ko)을(를) 참조하십시오.
+자세한 내용은 [ 사용 안내서 [!DNL Audience Manager] 에서  [!DNL Target]통합](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html)을(를)*[!DNL Audience Manager]*&#x200B;을(를) 참조하십시오.
 
-## 비디오: [!DNL Target]과(와) [!DNL Adobe Audience Manager] 통합(3:06)
+## 비디오: [!DNL Target]을(를) [!DNL Adobe Audience Manager]&#x200B;(3:06)과(와) 통합
 
->[!VIDEO](https://video.tv.adobe.com/v/3421746?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/35151)
 

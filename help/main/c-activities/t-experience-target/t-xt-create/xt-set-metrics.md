@@ -1,6 +1,6 @@
 ---
 keywords: 경험 타깃팅;xt;지표;지표 설정;목표 지표;활동 설정;성공 지표;전환;매출;참여
-description: '[!UICONTROL Conversion], [!UICONTROL Revenue] 또는 [!UICONTROL Engagement]과(와) 같이 방문이 성공적으로 수행된 시기를 확인하기 위해  [!DNL Adobe Target] [!UICONTROL Experience Targeting] 활동에 지표를 지정하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target] [!UICONTROL Experience Targeting], [!UICONTROL Conversion] 또는 [!UICONTROL Revenue]과(와) 같이 방문이 성공적으로 수행된 시기를 확인하기 위해 [!UICONTROL Engagement] 활동에 지표를 지정하는 방법을 알아봅니다.'
 title: '[!UICONTROL Experience Targeting] 활동에서 목표 지표를 설정하려면 어떻게 해야 합니까?'
 feature: Experience Targeting
 exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
@@ -11,9 +11,9 @@ ht-degree: 56%
 
 ---
 
-# [!UICONTROL Experience Targeting] (XT) 활동에서 지표 설정
+# [!UICONTROL Experience Targeting]&#x200B;(XT) 활동에서 지표 설정
 
-[!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) 활동에서 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
+[!DNL Adobe Target] [!UICONTROL Experience Targeting]&#x200B;(XT) 활동에서 지표를 사용하여 방문이 성공적으로 수행된 시기를 확인합니다.
 
 성공 지표에 대한 자세한 내용은 [성공 지표](/help/main/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)를 참조하십시오.
 

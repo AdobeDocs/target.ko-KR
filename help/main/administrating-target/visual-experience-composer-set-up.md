@@ -98,7 +98,7 @@ EEC([!UICONTROL Enhanced Experience Composer])를 사용하여 웹 사이트를 
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization] 및 [!UICONTROL Multivariate Testing] 활동에서는 활동별 설정을 재정의할 수 없습니다.  선택기에 대한 추가 정보는 [&#128279;](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기를 참조하십시오.
+>[!UICONTROL Automated Personalization] 및 [!UICONTROL Multivariate Testing] 활동에서는 활동별 설정을 재정의할 수 없습니다.  선택기에 대한 추가 정보는 ](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md)시각적 경험 작성기에서 사용되는 요소 선택기[를 참조하십시오.
 
 ## 교육 비디오: 계정 환경 설정(7:33) ![개요 배지](/help/main/assets/overview.png)
 

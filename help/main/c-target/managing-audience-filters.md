@@ -26,7 +26,7 @@ ht-degree: 72%
 * **2-4개 대상자로 시작합니다.** 트래픽 소스 등의 기본 정보에 주력합니다.
 * **필요한 경우 대상자 이름을 변경합니다.** 활동이 활성 상태인 경우에도 수집 중인 결과에 보다 의미 있는 대상자 이름이 되도록 데이터에 영향을 주지 않고 대상자 이름을 변경할 수 있습니다.
 * **정확한 값을 입력합니다.** 대상자 필터 값은 대소문자를 구분합니다. 예를 들어 도시를 필터링하는 대상자를 사용하는 경우 &quot;OR&quot; 조건을 사용하여 &quot;Vienna&quot;, &quot;vienna&quot;, &quot;wien&quot;, &quot;Wien&quot; 등의 가능한 철자 및 대문자화 변형을 포함해야 합니다.
-* [!UICONTROL Audiences] 목록에서 만든 **대상은 다시 사용할 수 있습니다.** 활동의 일부로 만들어진 대상자는 재사용할 수 없습니다.
+* **목록에서 만든 [!UICONTROL Audiences]대상은 다시 사용할 수 있습니다.** 활동의 일부로 만들어진 대상자는 재사용할 수 없습니다.
 
 다음 섹션에서는 대상을 설정하고 대상에 대해 보고하는 방법에 대해 자세히 설명합니다.
 
@@ -35,5 +35,5 @@ ht-degree: 72%
 | 적절한 활동 또는 테스트 만들기 | [활동 및 테스트](/help/main/c-intro/target-key-concepts.md) |
 | 필요한 경우 대상자 만들기 | [대상자 만들기](/help/main/c-target/c-audiences/create-audience.md) |
 | 필요한 경우 여러 대상자 결합 | [여러 대상자 결합](/help/main/c-target/combining-multiple-audiences.md) |
-| 활동의 목표 및 설정 페이지에서 대상자 적용 | A/B 테스트: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>경험 타깃팅: [목표 및 설정](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>다변량 테스트: [목표 및 설정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>Recommendations: [Recommendations 활동 설정](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>활동 설정: [활동 설정](/help/main/c-activities/activity-settings.md) |
+| 활동의 목표 및 설정 페이지에서 대상자 적용 | A/B 테스트: [목표 및 설정](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)<br>Automated Personalization: [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md)<br>경험 타깃팅: [목표 및 설정](/help/main/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md)<br>다변량 테스트: [목표 및 설정](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)<br>권장 사항: [권장 사항 활동 설정](/help/main/c-recommendations/t-create-recs-activity/recs-activity-settings.md)<br>활동 설정: [활동 설정](/help/main/c-activities/activity-settings.md) |
 | 대상자 필터에 대한 정보가 있는 보고서 보기 | [보고서 설정](/help/main/c-reports/c-report-settings/report-settings.md) |

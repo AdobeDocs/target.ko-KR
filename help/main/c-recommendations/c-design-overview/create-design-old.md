@@ -1,8 +1,8 @@
 ---
 keywords: 권장 사항 디자인;디자인 만들기;디자인 복사
-description: 기본 디자인을 사용하거나 Adobe 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만들어  [!DNL Target] Recommendations 디자인을 만드는 방법을 알아봅니다.
-title: Recommendations에서 디자인을 만들려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+description: 기본 디자인을 사용하거나 페이지의 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만들어 Adobe [!DNL Target] 권장 사항 디자인을 만드는 방법을 알아봅니다.
+title: Recommendations에서 디자인을 만들려면 어떻게 합니까?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -61,7 +61,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
    권장 디자인은 오픈 소스 [!DNL Velocity] 디자인 언어를 사용합니다. [!DNL Velocity]에 대한 정보는 [https://velocity.apache.org](https://velocity.apache.org) 및 [다음을 사용하여 디자인 사용자 지정 [!DNL Velocity]](/help/main/c-recommendations/c-design-overview/customizing-a-template.md)에서 찾을 수 있습니다.
 
-   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 허용하기 위해 `<div>` 태그로 줄바꿈됩니다. 비 HTML 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. HTML 코드가 아닌 코드를 사용하려면 [!UICONTROL HTML Design] 토글을 &quot;끄기&quot; 위치로 밉니다.
+   디자인은 HTML 또는 비 HTML일 수 있습니다. 기본적으로 HTML 디자인은 웹 환경에서 클릭 추적을 허용하기 위해 `<div>` 태그로 줄바꿈됩니다. HTML 이외 디자인은 클릭 추적이 불가능한 웹이 아닌 환경을 위한 것입니다. HTML 이외의 코드를 사용하려면 [!UICONTROL HTML Design] 토글을 &quot;끄기&quot; 위치로 밉니다.
 
    >[!NOTE]
    >
@@ -101,7 +101,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
 
 다음 예제에서는 양식 기반 편집기를 통해 활동을 구성할 때 JSON 응답을 반환하는 방법을 보여 줍니다.
 
-1. 디자인 라이브러리 또는 양식 기반 워크플로에서 디자인을 만듭니다. [!UICONTROL Visual Experience Composer] (VEC) 워크플로 내에서 디자인을 만들려고 하면 클릭 추적을 위해 `<div>`에 래핑된 HTML 디자인 이외의 다른 디자인을 만들 수 없습니다.
+1. 디자인 라이브러리 또는 양식 기반 워크플로에서 디자인을 만듭니다. [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 워크플로 내에서 디자인을 만들려고 하면 클릭 추적을 위해 `<div>`에 래핑된 HTML 디자인 이외의 다른 디자인을 만들 수 없습니다.
 
 1. &quot;HTML 디자인&quot; 선택 사항이 꺼져 있는지 확인합니다.
 
@@ -164,7 +164,7 @@ VEC(시각적 경험 작성기) 내에서 또는 활동 작성 외부의 디자�
    | 매개 변수 | 값 |
    |--- |--- |
    | `[YOUR_CLIENT_CODE]` | Target 클라이언트 코드(/help/target/products.html#recsSettings > Recommendations API 토큰 > 클라이언트 코드에서 사용 가능). |
-   | `[YOUR_MBOX_NAME]` | 양식 기반 Recommendations의 &quot;위치&quot; 섹션에서 선택한 이름입니다. 이 경우 Sample_Recs_Response입니다. |
+   | `[YOUR_MBOX_NAME]` | 양식 기반 권장 사항의 &quot;위치&quot; 섹션에서 선택한 이름(이 경우 Sample_Recs_Response). |
    | `[ENTITY_ID` | 카탈로그에 있는 항목의 `entity.id`입니다. |
    | `[AT_PROPERTY_TOKEN]` | (선택 사항) 활동 설정 중에 속성(엔터프라이즈 권한의 일부)을 선택한 경우 추가하십시오. |
 
@@ -320,11 +320,11 @@ entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id,
     }  
 ```
 
-## 교육 비디오: Recommendations에서 사용자 지정 디자인 만들기(3:20) ![개요 배지](/help/main/assets/overview.png)
+## 교육 비디오: 권장 사항(3:20)에서 사용자 지정 디자인 만들기 ![개요 배지](/help/main/assets/overview.png)
 
 이 비디오에는 다음 정보가 포함됩니다.
 
 * 사용자 지정 디자인 만들기
 * 디자인에서 디스플레이 변수를 참조하는 방법 이해
 
->[!VIDEO](https://video.tv.adobe.com/v/35323?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)

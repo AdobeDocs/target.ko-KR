@@ -15,7 +15,7 @@ ht-degree: 56%
 
 [!DNL Adobe Target]의 카테고리 친화성 기능은 사용자가 방문하는 사이트의 카테고리를 자동으로 캡처한 다음 각 카테고리에 대한 사용자의 친화성을 계산하여 카테고리를 타깃팅하고 세그먼트화할 수 있도록 합니다. 카테고리 관심도는 해당 정보에 대해 행동할 가능성이 가장 높은 방문자를 대상으로 콘텐츠를 지정합니다.
 
-## [!DNL Target] (으)로 카테고리 선호도 정보 전달 {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## [!DNL Target]&#x200B;(으)로 카테고리 선호도 정보 전달 {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 사용자가 사이트를 방문할 때마다 방문자와 관련된 프로필 매개 변수가 [!DNL Target]의 데이터베이스에 기록됩니다. 이 데이터는 사용자의 쿠키에 연결되어 있습니다. 한 가지 유용한 매개 변수는 `user.categoryId`(제품 페이지에서 할당된 mbox 매개 변수)입니다. 방문자가 계속 탐색하거나 다른 세션을 위해 재방문할 때 특정 사용자가 보는 제품 카테고리를 기록할 수 있습니다. 또한 임의의 mbox(중첩된 mbox 포함)에서 mbox 매개 변수 `user.categoryId`, URL 매개 변수 `user.categoryId` 또는 글로벌 mbox를 사용하는 [!DNL Target] 페이지 매개 변수로 카테고리 정보를 전달하여 카테고리 정보를 기록할 수도 있습니다. 자세한 내용은 계정 담당자에게 문의하십시오.
 
@@ -29,7 +29,7 @@ ht-degree: 56%
 
 >[!IMPORTANT]
 >
->카테고리 관심도 알고리즘에 사용되는 `user.categoryId` 특성은 [!DNL Adobe Target Recommendations]의 제품 및 콘텐츠 권장 사항에 사용되는 `entity.categoryId` 특성과 다릅니다. `user.categoryId`는 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId`는 현재 페이지의 카테고리 또는 현재 항목의 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 [!DNL Target]에 전달하십시오.
+>카테고리 관심도 알고리즘에 사용되는 `user.categoryId` 특성은 `entity.categoryId`의 제품 및 콘텐츠 권장 사항에 사용되는 [!DNL Adobe Target Recommendations] 특성과 다릅니다. `user.categoryId`는 사용자의 즐겨찾기 카테고리를 추적하는 데 필요합니다. `entity.categoryId`는 현재 페이지의 카테고리 또는 현재 항목의 카테고리에 대한 권장 사항을 기반으로 해야 합니다. 두 기능을 모두 사용하려면 두 값을 [!DNL Target]에 전달하십시오.
 
 ## 카테고리 관심도에 대한 비즈니스 사례 {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 

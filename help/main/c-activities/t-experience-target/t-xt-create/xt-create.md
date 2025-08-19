@@ -1,6 +1,6 @@
 ---
 keywords: 경험 타깃팅;xt;만들기
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Visual Experience Composer]​(VEC)를 사용하여 [!UICONTROL Experience Targeting]​(XT) 활동을 만드는 방법을 알아봅니다.'
+description: '[!UICONTROL Visual Experience Composer]의  [!DNL Adobe Target] (VEC)를 사용하여 [!UICONTROL Experience Targeting]​(XT) 활동을 만드는 방법을 알아봅니다.'
 title: '[!UICONTROL Experience Targeting] 활동을 만드는 방법'
 feature: Experience Targeting
 exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
@@ -13,11 +13,11 @@ ht-degree: 33%
 
 # [!UICONTROL Experience Targeting]&#x200B;(XT) 활동 만들기
 
-[!DNL Target]이(가) 활성화된 페이지에서 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동을 만들고 [!DNL Adobe Target] 내에서 해당 페이지의 부분을 수정하려면 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)를 사용하십시오.
+[!UICONTROL Visual Experience Composer]이(가) 활성화된 페이지에서 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Adobe Target]&#x200B;(VEC)를 사용하십시오.
 
 [!UICONTROL Experience Targeting]&#x200B;(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 
-[지리 기반의 타깃팅](/help/main/c-target/c-audiences/c-target-rules/geo.md)을(를) 포함한 [!UICONTROL Experience Targeting]은(는) 특정 경험이나 콘텐츠를 특정 대상으로 타깃팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상자에 다양한 콘텐츠 변형을 전달할 수 있습니다.
+[!UICONTROL Experience Targeting]지리 기반의 타깃팅[을(를) 포함한 ](/help/main/c-target/c-audiences/c-target-rules/geo.md)은(는) 특정 경험이나 콘텐츠를 특정 대상으로 타깃팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상자에 다양한 콘텐츠 변형을 전달할 수 있습니다.
 
 [!UICONTROL Experience Targeting], 사용 사례 시나리오 및 교육 비디오에 대한 자세한 내용은 [경험 타기팅](/help/main/c-activities/t-experience-target/experience-target.md)을 참조하세요.
 
@@ -51,7 +51,7 @@ ht-degree: 33%
 
    VEC가 열리고 URL에 지정된 페이지가 표시됩니다.
 
-1. 활동의 이름을 지정하려면 &quot;[!UICONTROL Untitled Activity]&quot; 옆에 있는 **[!UICONTROL Edit]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 활동의 이름을 지정하려면 &quot;**[!UICONTROL Edit]**&quot; 옆에 있는 ![ 아이콘(](/help/main/assets/icons/Edit.svg)편집 아이콘[!UICONTROL Untitled Activity])을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 

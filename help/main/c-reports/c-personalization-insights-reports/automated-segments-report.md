@@ -2,19 +2,19 @@
 keywords: 타깃팅;AP 보고서;자동화된 개인화 보고서;자동 타겟;auto target;자동 타겟 보고서;auto target 보고서;개인화;통찰력;자동화된 세그먼트;faq;자주 묻는 질문
 description: 자동화된 세그먼트 보고서를 보고 Adobe [!DNL Target] 개인화 모델로 정의되는 서로 다른 세그먼트가 활동의 오퍼/경험에 어떻게 반응하는지 알아봅니다.
 title: 자동화된 세그먼트 보고서란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 source-git-commit: c1a71d1fb6fa9b5c14e22fa3199358a4594bb4a1
 workflow-type: tm+mt
 source-wordcount: '2066'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
 # [!UICONTROL Automated Segments] 보고서
 
-[!UICONTROL Automated Personalization] (AP) 및 [!UICONTROL Auto-Target] (AT) 활동의 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 [!UICONTROL Automated Segments] 보고서에 대한 정보입니다.
+[!UICONTROL Automated Segments]&#x200B;(AP) 및 [!UICONTROL Automated Personalization]&#x200B;(AT) 활동의 사용자가 사용할 수 있는 두 개의 전문 보고서 중 하나인 [!UICONTROL Auto-Target] 보고서에 대한 정보입니다.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ ht-degree: 59%
 >
 >* [!UICONTROL Personalization Insights] 보고서는 전환 최적화 목표를 사용하는 AP 및 AT 활동에만 사용할 수 있습니다. 활동이 이미 활성화된 후에 수익에서 전환하도록 최적화 목표가 변경된 활동도 지원되지 않습니다.
 >
->* [!UICONTROL Personalization Insights] 보고서는 [!UICONTROL Report Metric] 드롭다운 목록에서 [!UICONTROL Primary Goal]을(를) 선택한 경우에만 사용할 수 있습니다.
+>* [!UICONTROL Personalization Insights] 보고서는 [!UICONTROL Primary Goal] 드롭다운 목록에서 [!UICONTROL Report Metric]을(를) 선택한 경우에만 사용할 수 있습니다.
 >
 >* [!UICONTROL Personalization Insights] 보고서는 [기본 환경](/help/main/administrating-target/hosts.md)에서만 지원됩니다.
 >
@@ -50,7 +50,7 @@ ht-degree: 59%
 
 1. 원하는 날짜 범위를 선택합니다.
 
-   [!UICONTROL Summary] 보고서(성과 보고)와 달리 [!UICONTROL Automated Segments]을(를) 포함한 [!UICONTROL Personalization Insights]은(는) 고정 날짜 범위인 15일, 30일, 60일에 대해서만 사용할 수 있습니다. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL Personalization Insights]에서 충분히 큰 데이터 범위를 사용하여 활동의 단기 패턴에서 통찰력을 얻을 가능성을 줄일 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;이 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
+   [!UICONTROL Summary] 보고서(성과 보고)와 달리 [!UICONTROL Personalization Insights]을(를) 포함한 [!UICONTROL Automated Segments]은(는) 고정 날짜 범위인 15일, 30일, 60일에 대해서만 사용할 수 있습니다. 이러한 고정 날짜 범위를 사용하면 [!UICONTROL Personalization Insights]에서 충분히 큰 데이터 범위를 사용하여 활동의 단기 패턴에서 통찰력을 얻을 가능성을 줄일 수 있습니다. 날짜 범위에 대해 가능한 두 가지 의사 결정은 &quot;종료 날짜&quot; 및 &quot;지속 시간&quot;입니다. &quot;시작&quot;이 회색으로 표시됩니다. 시작 날짜는 선택한 종료 날짜 및 지속 시간에 따라 자동으로 변경됩니다.
 
    [!UICONTROL Preset Date Range] 드롭다운 목록에서 사용 가능한 고정 날짜 범위에 액세스할 수 있습니다.
 
@@ -102,7 +102,7 @@ ht-degree: 59%
 
 속성은 트래픽을 개인화하는 방법을 학습하기 위해 개인화 알고리즘에 사용된 방문자 또는 방문자의 특정 방문에 대한 정보입니다. 예를 들어, 브라우저 유형, 위치, 방문 요일 등이 속성이 될 수 있습니다.
 
-개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 특성을 Target에 업로드하는 방법에 대한 자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank}을 참조하십시오.
+개인화 모델에서 [!DNL Target]이 사용하는 속성에 대한 자세한 내용은 [Target의 개인화 알고리즘에 대한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. Target의 개인화 모델에 사용할 새 속성을 Target에 업로드하는 방법에 대한 자세한 내용은 [데이터를 Target에 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}을 참조하십시오.
 
 **자동화된 세그먼트란?**
 
@@ -138,7 +138,7 @@ Personalization Insights 보고([!UICONTROL Automated Segments] 및 [!UICONTROL 
 
 **어떻게 [!UICONTROL Personalization Insights]이(가) 만들어졌습니까?**
 
-[!UICONTROL Personalization Insights]은(는) MAGIX(Model Agnostic Globally Interpretable Explanations)라는 Adobe 특허 출원 기술을 사용하여 만들어집니다. [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 Adobe 연구 팀이 게시한 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
+[!UICONTROL Personalization Insights]은(는) MAGIX(Model Agnostic Globally Interpretable Explanations)라는 Adobe 특허 출원 기술을 사용하여 만들어집니다. [arXiv.org 웹 사이트](https://arxiv.org/abs/1706.07160)에 게시된 Adobe 연구 팀의 문서에서 MAGIX에 대해 자세히 알아볼 수 있습니다.
 
 **[!UICONTROL Automated Segments] 보고서의 총 방문자 트래픽 데이터가 AP 또는 AT 요약/성과 보고서와 일치하지 않는 이유는 무엇입니까?**
 

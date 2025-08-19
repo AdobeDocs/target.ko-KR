@@ -37,7 +37,7 @@ ht-degree: 50%
 
    ![Adobe 계정](/help/main/c-intro/assets/adobe-account.png)
 
-1. [!UICONTROL Account] 페이지의 **[!UICONTROL Preferred languages]** 섹션에서 **[!UICONTROL Add]**.
+1. **[!UICONTROL Preferred languages]** 페이지의 [!UICONTROL Account] 섹션에서 **[!UICONTROL Add]**.
 
    텍스트는 Adobe이 사용자에게 연락할 때 [!DNL Adobe]에서 사용할 언어임을 나타냅니다. UI에서 [!DNL Target] 및 기타 [!DNL Adobe Experience Cloud] 솔루션에 사용되는 언어이기도 합니다. 언어를 두 개 이상 선택할 수 있습니다.
 

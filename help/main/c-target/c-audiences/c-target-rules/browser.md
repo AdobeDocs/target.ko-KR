@@ -28,11 +28,11 @@ ht-degree: 33%
 
 >[!IMPORTANT]
 >
->[!DNL Target] Standard/Premium 24.3.1(2024년 3월 4~6일)부터 Target UI를 사용하여 만든 기본 제공 대상(예: `Browser:iPad` 및 `Browser:iPhone`)이 `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` 및 `profile.mobile.isTablet`을(를) 사용하여 [!DNL iPad] 및 [!DNL iPhone]에 대한 적절한 타깃팅을 수행하도록 업데이트되었습니다.
+>[!DNL Target] Standard/Premium 24.3.1(2024년 3월 4~6일)부터 Target UI를 사용하여 만든 기본 제공 대상(예: `Browser:iPad` 및 `Browser:iPhone`)이 [!DNL iPad], [!DNL iPhone] 및 `profile.mobile.deviceVendor`을(를) 사용하여 `profile.mobile.isMobilePhone` 및 `profile.mobile.isTablet`에 대한 적절한 타깃팅을 수행하도록 업데이트되었습니다.
 >
 >이 업데이트에는 고객 측에서 작업을 수행할 필요가 없습니다. [!DNL Target] UI의 레이블은 나중에 변경되며 이러한 변경이 이루어지면 [[!DNL Target] 릴리스 노트(현재)](/help/main/r-release-notes/release-notes.md)에 발표됩니다.
 >
->해결 방법 설정은 아래의 [대상 특성 [!UICONTROL Browser]의  [!DNL iPad] 및 [!DNL iPhone] 업데이트(2024년 4월 30일)](#updates)를 참조하십시오.
+>해결 방법 설정은 아래의 [대상 특성  [!DNL iPad] 의  [!DNL iPhone] 및[!UICONTROL Browser]업데이트(2024년 4월 30일)](#updates)를 참조하십시오.
 
 브라우저를 타깃팅하는 방법에는 두 가지가 있습니다.
 
@@ -135,17 +135,17 @@ ht-degree: 33%
 
 >[!VIDEO](https://video.tv.adobe.com/v/17392)
 
-## [!UICONTROL Browser] 대상 특성의 [!DNL iPad] 및 [!DNL iPhone]에 대한 업데이트(2024년 4월 30일) {#updates}
+## [!DNL iPad] 대상 특성의 [!DNL iPhone] 및 [!UICONTROL Browser]에 대한 업데이트(2024년 4월 30일) {#updates}
 
 [!DNL Adobe Target]을(를) 사용하면 페이지를 방문할 때 특정 브라우저나 브라우저 옵션을 사용하는 사용자를 포함하여 [여러 범주 특성 중 하나를 타깃팅할 수 있습니다](/help/main/c-target/c-audiences/c-target-rules/target-rules.md).
 
-[!DNL Target] Standard/Premium 24.3.1(2024년 3월 4~6일)부터 Target UI를 사용하여 만든 기본 제공 대상(예: `Browser:iPad` 및 `Browser:iPhone`)이 `profile.mobile.deviceVendor`, `profile.mobile.isMobilePhone` 및 `profile.mobile.isTablet`을(를) 사용하여 [!DNL iPad] 및 [!DNL iPhone]에 대한 적절한 타깃팅을 수행하도록 업데이트되었습니다.
+[!DNL Target] Standard/Premium 24.3.1(2024년 3월 4~6일)부터 Target UI를 사용하여 만든 기본 제공 대상(예: `Browser:iPad` 및 `Browser:iPhone`)이 [!DNL iPad], [!DNL iPhone] 및 `profile.mobile.deviceVendor`을(를) 사용하여 `profile.mobile.isMobilePhone` 및 `profile.mobile.isTablet`에 대한 적절한 타깃팅을 수행하도록 업데이트되었습니다.
 
-`Browser:iPad` 및 `Browser:iPhone`과(와) 같이 [!DNL Target] UI를 사용하여 만든 기본 제공 대상은 자동으로 새 대상 정의로 이동되며 고객 측에서 작업을 수행할 필요가 없습니다. 그러나 앞으로 [아래 설명](#ui)된 설정을 사용해야 합니다.
+[!DNL Target] 및 `Browser:iPad`과(와) 같이 `Browser:iPhone` UI를 사용하여 만든 기본 제공 대상은 자동으로 새 대상 정의로 이동되며 고객 측에서 작업을 수행할 필요가 없습니다. 그러나 앞으로 [아래 설명](#ui)된 설정을 사용해야 합니다.
 
 프로필 스크립트에서 `user.browserType`을(를) 사용하여 [!DNL iPhone] 또는 [!DNL iPad]인지(예: `user.browserType == 'iphone'` 또는 `user.browserType != 'ipad'`) 확인하는 경우 이러한 대상이 예상대로 계속 작동하도록 하려면 해당 프로필 스크립트를 2024년 4월 30일 전에 [아래 지시](#profile-scripts)로 변경해야 합니다.
 
-JavaScript 대상은 [!DNL Target Classic] UI에서 더 이상 사용되지 않는 [!DNL Target] 식을 사용하는 레거시 대상입니다. 이러한 대상은 API를 통해서만 수정할 수 있습니다. 고객은 활동에서 이전 대상을 계속 사용하는 경우에만 이러한 대상을 업데이트해야 합니다.
+JavaScript 대상은 [!DNL Target] UI에서 더 이상 사용되지 않는 [!DNL Target Classic] 식을 사용하는 레거시 대상입니다. 이러한 대상은 API를 통해서만 수정할 수 있습니다. 고객은 활동에서 이전 대상을 계속 사용하는 경우에만 이러한 대상을 업데이트해야 합니다.
 
 ### [!DNL Target] UI를 사용하여 만든 대상자 {#ui}
 
@@ -169,17 +169,17 @@ JavaScript 대상은 [!DNL Target Classic] UI에서 더 이상 사용되지 않�
 
 조건이 무효화된 경우 등 사용할 수 있는 다른 가능한 설정이 많이 있습니다. 무효화된 조건의 예는 다음과 같습니다.
 
-* **브라우저가 iPhone과 일치하지 않습니다**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] ([!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone]이(가) 있는 Or 컨테이너는 [!UICONTROL false]임)
+* **브라우저가 iPhone과 일치하지 않습니다**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple]&#x200B;([!UICONTROL Mobile] > [!UICONTROL Is Mobile Phone]이(가) 있는 Or 컨테이너는 [!UICONTROL false]임)
 
   ![휴대폰이 아님](/help/main/r-release-notes/assets/mobile-phone-false.png)
 
-* **브라우저가 iPad과 일치하지 않습니다**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple] ([!UICONTROL Mobile] > [!UICONTROL Is Tablet]이(가) 있는 Or 컨테이너는 [!UICONTROL false]임).
+* **브라우저가 iPad과 일치하지 않습니다**: [!UICONTROL Mobile] > [!UICONTROL Device Vendor] [!UICONTROL does not match] [!UICONTROL Apple]&#x200B;([!UICONTROL Mobile] > [!UICONTROL Is Tablet]이(가) 있는 Or 컨테이너는 [!UICONTROL false]임).
 
   ![태블릿 아님](/help/main/r-release-notes/assets/tablet-false.png)
 
 ### 프로필 스크립트를 사용하여 생성된 대상자 {#profile-scripts}
 
-기존 [!DNL Target Classic] 대상자 또는 프로필 스크립트에서 `user.browserType`을(를) 사용하는 경우 변경 사항에 다음이 포함되어야 합니다.
+기존 `user.browserType` 대상자 또는 프로필 스크립트에서 [!DNL Target Classic]을(를) 사용하는 경우 변경 사항에 다음이 포함되어야 합니다.
 
 * **BrowserType이 iPhone입니다**:
 

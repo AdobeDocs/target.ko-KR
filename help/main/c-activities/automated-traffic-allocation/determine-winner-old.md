@@ -1,6 +1,6 @@
 ---
 keywords: 자동화된 트래픽 할당;타깃팅;승자;통계적 보장;신뢰도;승자 결정;상승도;신뢰도;기본값;기본 경험;자동 할당;자동 할당
-description: 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 Adobe [!DNL Target] 에서 [!UICONTROL Auto-Allocate] A/B 활동의 결과를 해석하는 방법을 알아봅니다.
+description: 상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 Adobe[!UICONTROL Auto-Allocate]에서  [!DNL Target]  A/B 활동의 결과를 해석하는 방법을 알아봅니다.
 title: '[!UICONTROL Auto-Allocate] 보고서를 어떻게 해석합니까?'
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
@@ -13,7 +13,7 @@ ht-degree: 21%
 
 # 자동 할당 보고서 해석
 
-상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 [!UICONTROL Adobe Target]의 [!UICONTROL Auto-Allocate] A/B 활동 결과를 해석합니다.
+상승도 및 신뢰도를 포함한 중요한 지표를 검사하여 [!UICONTROL Auto-Allocate]의 [!UICONTROL Adobe Target] A/B 활동 결과를 해석합니다.
 
 많은 마케터가 결과가 명확한 승자를 표시하기 전에 가장 성과가 좋은 경험을 조급하게 선언합니다. [!DNL Target]을(를) 사용하면 우승자를 쉽게 결정할 수 있습니다.
 
@@ -39,7 +39,7 @@ A/B 활동이 끝날 때 [!UICONTROL Auto-Allocate]은(는) 결정된 우승자�
 
 [!DNL Target]은(는) [!UICONTROL Auto-Allocate]에 대해 p 값 기반 신뢰도를 사용하지 않습니다.
 
-[!UICONTROL Auto-Allocate] 활동의 [!UICONTROL Confidence] 열(아래 그림 참조)에는 경험이 1% 오차 범위 내에서 승자가 될 확률이 표시됩니다. 알고리즘에서는 최고 전환율과 차순위 전환율 간에 최소 1%의 감지 가능한 효과를 사용합니다. 알고리즘에서는 [Bernstein 부등식](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)을 사용하여 이 확률을 계산합니다.
+[!UICONTROL Confidence] 활동의 [!UICONTROL Auto-Allocate] 열(아래 그림 참조)에는 경험이 1% 오차 범위 내에서 승자가 될 확률이 표시됩니다. 알고리즘에서는 최고 전환율과 차순위 전환율 간에 최소 1%의 감지 가능한 효과를 사용합니다. 알고리즘에서는 [Bernstein 부등식](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29)을 사용하여 이 확률을 계산합니다.
 
 일반 A/B 테스트는 p 값을 기반으로 신뢰도를 계산합니다. [!UICONTROL Auto-Allocate]은(는) p 값을 사용하지 않습니다. p 값은 주어진 경험이 통제 경험과 다를 확률을 &quot;대략&quot; 계산합니다. 이 p값은 경험이 통제 경험과 다른지 여부를 판별하는 데에만 사용할 수 있습니다. 이 값은 경험이 통제 경험이 아닌 다른 경험과 다른지 판별하는 데에는 사용할 수 없습니다.
 
@@ -77,10 +77,10 @@ FAQ에 대한 다음 답변을 고려하십시오.
 
 * 보고서가 보드 전체에서 0%를 표시한다면 활동이 너무 이른 것일 수 있습니다.
 
-### [!UICONTROL Analytics as the reporting source] (A4T)을(를) 사용하는 [!UICONTROL Auto-Allocate] 활동에 &quot;우승자 없음&quot;, &quot;우승자&quot; 및 &quot;별&quot; 배지를 사용할 수 있습니까?
+### [!UICONTROL Auto-Allocate]&#x200B;(A4T)을(를) 사용하는 [!UICONTROL Analytics as the reporting source] 활동에 &quot;우승자 없음&quot;, &quot;우승자&quot; 및 &quot;별&quot; 배지를 사용할 수 있습니까?
 
-&quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지는 현재 [!DNL Analysis Workspace]의 [!UICONTROL A4T] 패널에서 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!UICONTROL Auto-Allocate] 활동에 대한 [!DNL Target] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다.
+&quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지는 현재 [!UICONTROL A4T]의 [!DNL Analysis Workspace] 패널에서 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!DNL Target] 활동에 대한 [!UICONTROL Auto-Allocate] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다.
 
-이 제한 사항과 기타 제한 사항 및 메모에 대한 자세한 내용은 [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 활동에 대한 *A4T 지원*&#x200B;의 [자동 할당](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)을 참조하십시오.
+이 제한 사항과 기타 제한 사항 및 메모에 대한 자세한 내용은 [ 및 ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) 활동에 대한 *A4T 지원[!UICONTROL Auto-Allocate]의 [!UICONTROL Auto-Target]자동 할당*&#x200B;을 참조하십시오.
 
 

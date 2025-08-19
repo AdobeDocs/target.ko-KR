@@ -1,6 +1,6 @@
 ---
 keywords: 설정;설정;설정;설정;관리
-description: 환경 설정, 구현, 사용자 관리, 속성, Adobe Target 구성, 호스트 관리 및 응답 토큰을 포함하여 Scene7을 설정합니다.
+description: 환경 설정, 구현, 사용자 관리, 속성, Scene7 구성, 호스트 관리 및 응답 토큰을 포함하여 Adobe Target을 설정합니다.
 title: Target을 관리하려면 어떻게 해야 합니까?
 feature: Administration & Configuration
 role: Admin

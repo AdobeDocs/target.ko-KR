@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # 이미지 오퍼 업로드 또는 삭제
 
-[!DNL Adobe Target]의 [!UICONTROL Image Offers] 라이브러리에 이미지를 업로드하여 활동에서 이미지 오퍼로 사용할 수 있습니다. 활동에 이미지 오퍼가 더 이상 필요하지 않은 경우에도 삭제할 수 있습니다.
+[!UICONTROL Image Offers]의 [!DNL Adobe Target] 라이브러리에 이미지를 업로드하여 활동에서 이미지 오퍼로 사용할 수 있습니다. 활동에 이미지 오퍼가 더 이상 필요하지 않은 경우에도 삭제할 수 있습니다.
 
 ## 목록에 이미지 오퍼 추가
 
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 ## 이미지 오퍼 또는 폴더 삭제
 
-1. (조건부) [!UICONTROL Card View]과(와) [!UICONTROL List View] 간을 전환하려면 콘텐츠 라이브러리의 오른쪽 맨 위 모서리에 있는 [!UICONTROL Card View] (![카드 보기 아이콘](/help/main/assets/icons/ViewCard.svg)) 아이콘 또는 [!UICONTROL List View] (![목록 보기 아이콘](/help/main/assets/icons/ViewList.svg)) 아이콘을 클릭합니다.
+1. (조건부) [!UICONTROL Card View]과(와) [!UICONTROL List View] 간을 전환하려면 콘텐츠 라이브러리의 오른쪽 맨 위 모서리에 있는 [!UICONTROL Card View]&#x200B;(![카드 보기 아이콘](/help/main/assets/icons/ViewCard.svg)) 아이콘 또는 [!UICONTROL List View]&#x200B;(![목록 보기 아이콘](/help/main/assets/icons/ViewList.svg)) 아이콘을 클릭합니다.
 
 1. [!UICONTROL Card View]에서 원하는 이미지 오퍼 또는 폴더를 마우스로 가리키고 **[!UICONTROL Select]** 아이콘(![선택 아이콘](/help/main/assets/icons/CheckmarkCircleOutline.svg))을 클릭한 다음 **[!UICONTROL Delete]** 아이콘(![삭제 아이콘](/help/main/assets/icons/DeleteOutline.svg))을 클릭합니다.
 

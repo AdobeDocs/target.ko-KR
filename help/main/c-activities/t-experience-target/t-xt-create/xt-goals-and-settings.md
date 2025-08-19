@@ -1,17 +1,17 @@
 ---
 keywords: 활동 설정;경험 타깃팅 목표 및 설정;xt 목표 및 설정;경험 타깃팅;목표 및 설정;보고 설정;목표 지표;성공 지표;종속 성공 지표;고급 설정;기본 목표;추가 지표;목표;우선순위;지속 기간;보고 솔루션;목표;보고 대상자;이 지표를 늘리려면 어떤 성공 지표에 도달해야 합니까;사용자가 이 목표 지표를 접하면 어떻게 됩니까;메모
-description: ' [!DNL Adobe Target] 의 [!UICONTROL Goals & Settings] 페이지를 사용하여 [!UICONTROL Experience Targeting] (XT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
-title: '[!UICONTROL Experience Targeting] 활동에서 [!UICONTROL Goals & Settings]을(를) 지정하는 방법'
+description: '[!UICONTROL Goals & Settings]의  [!DNL Adobe Target]  페이지를 사용하여 [!UICONTROL Experience Targeting]​(XT) 활동의 목표에 대한 정보를 지정하는 방법을 알아봅니다.'
+title: '[!UICONTROL Goals & Settings] 활동에서 [!UICONTROL Experience Targeting]을(를) 지정하는 방법'
 feature: Experience Targeting
 exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 source-git-commit: af8291a27e62a588046f66f20f8d3a47c8af0a18
 workflow-type: tm+mt
 source-wordcount: '1147'
-ht-degree: 39%
+ht-degree: 38%
 
 ---
 
-# [!UICONTROL Experience Targeting] (XT) 활동의 목표 및 설정
+# [!UICONTROL Experience Targeting]&#x200B;(XT) 활동의 목표 및 설정
 
 [!UICONTROL Goals & Settings] 페이지에서 테스트 목표에 대한 정보를 입력할 수 있습니다.
 
@@ -31,11 +31,11 @@ ht-degree: 39%
 
 ### [!UICONTROL Priority]
 
-설정에 따라 [!UICONTROL Priority]에 대한 [!DNL Target] UI 및 옵션이 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다.
+설정에 따라 [!DNL Target]에 대한 [!UICONTROL Priority] UI 및 옵션이 달라집니다. [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]의 기존 설정을 사용하거나 0에서 999까지 세분화된 우선 순위를 사용할 수 있습니다.
 
 대상자가 같은 동일한 위치에 여러 개의 활동이 지정되는 경우 우선순위가 사용됩니다. 위치에 둘 이상의 활동이 지정되는 경우 우선순위가 가장 높은 활동이 표시됩니다.
 
-이 옵션이 [!UICONTROL Administration] (기본값)에서 활성화되지 않으면 우선 순위 [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]을(를) 지정하십시오.
+이 옵션이 [!UICONTROL Administration]&#x200B;(기본값)에서 활성화되지 않으면 우선 순위 [!UICONTROL Low], [!UICONTROL Medium] 또는 [!UICONTROL High]을(를) 지정하십시오.
 
 세분화된 우선 순위를 사용하려면 **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**&#x200B;을(를) 클릭한 다음 [!UICONTROL Enable Fine-Grained Priorities] 옵션을 &quot;켜기&quot; 위치로 전환하십시오.
 
@@ -52,7 +52,7 @@ ht-degree: 39%
 
 ### [!UICONTROL Duration]
 
-활동은 승인될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 마찬가지로, 활동이 비활성화되거나 활동이 종료되는 날짜 및 시간을 설정할 수 있습니다. 시간 선택기는 24시간 형식을 사용하며 00:00은 자정을 나타냅니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
+활동은 승인될 때 시작되거나 특정 날짜 및 시간을 설정하여 시작할 수 있습니다. 마찬가지로, 활동이 비활성화되거나 활동이 종료되는 날짜 및 시간을 설정할 수 있습니다. 시간 선택기는 24시간 시계를 사용하며 00:00은(는) 자정입니다. 해당 시간대는 브라우저에 구성된 시간대로 설정됩니다. 다른 시간대를 사용하려면 브라우저를 다른 시간대로 설정하고 브라우저를 다시 시작하십시오.
 
 ## [!UICONTROL Reporting Settings] {#section_13119392051044FBA6387D9B3B1C43CF}
 
@@ -72,11 +72,11 @@ ht-degree: 39%
 
 **[!DNL Adobe Analytics]**: 보고 솔루션의 차이점과 각각의 장점에 대해 알아보려면 [[!DNL Adobe Analytics] 의 보고 소스로 [!DNL Target]](/help/main/c-integrating-target-with-mac/a4t/a4t.md)를 참조하십시오.
 
-[!DNL Target] (A4T)에 대한 보고 소스로 [!DNL Analytics]을(를) 선택할 때 [!DNL Target] 활동 데이터를 받을 [!DNL Analytics] 보고서 세트를 선택합니다. 이렇게 하려면 먼저 사용자 계정이 연결된 [!DNL Analytics] 회사 중에서 선택한 다음 활동에 대한 보고서 세트를 선택합니다. [!DNL Target]에 연결하기 위해 제공된 보고서 세트만 선택할 수 있습니다. 예상한 보고서 세트가 표시되지 않으면 먼저 로그아웃했다가 [!DNL Adobe Experience Cloud]에 다시 로그인하여 다시 시도하십시오. 보고서 세트가 여전히 목록에서 누락된 경우 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
+[!DNL Analytics]&#x200B;(A4T)에 대한 보고 소스로 [!DNL Target]을(를) 선택할 때 [!DNL Analytics] 활동 데이터를 받을 [!DNL Target] 보고서 세트를 선택합니다. 이렇게 하려면 먼저 사용자 계정이 연결된 [!DNL Analytics] 회사 중에서 선택한 다음 활동에 대한 보고서 세트를 선택합니다. [!DNL Target]에 연결하기 위해 제공된 보고서 세트만 선택할 수 있습니다. 예상한 보고서 세트가 표시되지 않으면 먼저 로그아웃했다가 [!DNL Adobe Experience Cloud]에 다시 로그인하여 다시 시도하십시오. 보고서 세트가 여전히 목록에서 누락된 경우 [고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오.
 
-[!DNL Analytics for Target] (A4T)에서는 결과를 올바로 보고하려면 추적 서버가 필요합니다. 기본 추적 서버가 [!UICONTROL Tracking Server] 필드에 표시됩니다. 추적 서버를 두 개 이상 사용하는 경우 이 필드에 올바른 추적 서버를 포함해야 합니다. 자세한 내용은 [Analytics 추적 서버 사용](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
+[!DNL Analytics for Target]&#x200B;(A4T)에서는 결과를 올바로 보고하려면 추적 서버가 필요합니다. 기본 추적 서버가 [!UICONTROL Tracking Server] 필드에 표시됩니다. 추적 서버를 두 개 이상 사용하는 경우 이 필드에 올바른 추적 서버를 포함해야 합니다. 자세한 내용은 [Analytics 추적 서버 사용](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823)을 참조하십시오.
 
-**[!DNL Adobe Customer Journey Analytics]**: [!DNL Adobe Customer Journey Analytics]과(와) [!DNL Target] 간의 통합에 대한 자세한 내용은 [[!DNL Target] 보고 위치 [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)를 참조하십시오.
+**[!DNL Adobe Customer Journey Analytics]**: [[!DNL Target] 과(와)  [!DNL Adobe Customer Journey Analytics]](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md) 간의 통합에 대한 자세한 내용은 [!DNL Adobe Customer Journey Analytics]보고 위치[!DNL Target]를 참조하십시오.
 
 ### [!UICONTROL Goal Metric]
 
@@ -86,7 +86,7 @@ ht-degree: 39%
 
 >[!NOTE]
 >
->보고 솔루션을 [!DNL Analytics] (으)로 설정한 경우 사용 가능한 목표 지표는 [!UICONTROL Conversion]뿐입니다. [!DNL Analytics] 지표를 목표로 선택할 수 없습니다.
+>보고 솔루션을 [!DNL Analytics]&#x200B;(으)로 설정한 경우 사용 가능한 목표 지표는 [!UICONTROL Conversion]뿐입니다. [!DNL Analytics] 지표를 목표로 선택할 수 없습니다.
 
 성공 지표를 선택하면 선택기가 표시됩니다. 이 선택기를 사용하여 성공 지표의 자세한 정보를 선택합니다.
 
@@ -98,7 +98,7 @@ ht-degree: 39%
 
 추가 성공 지표를 만듭니다.
 
-보고 솔루션을 [!DNL Analytics] (으)로 설정한 경우에는 이 설정을 사용할 수 없습니다. 이 경우 [!DNL Analytics] 보고서 세트에 대해 정의된 지표가 적용됩니다.
+보고 솔루션을 [!DNL Analytics]&#x200B;(으)로 설정한 경우에는 이 설정을 사용할 수 없습니다. 이 경우 [!DNL Analytics] 보고서 세트에 대해 정의된 지표가 적용됩니다.
 
 ### [!UICONTROL Audiences for Reporting]
 

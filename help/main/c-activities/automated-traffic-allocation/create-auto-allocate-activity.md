@@ -13,9 +13,9 @@ ht-degree: 15%
 
 # [!UICONTROL Auto-Allocate] 활동 만들기
 
-[!DNL Target]을(를) 사용할 수 있는 페이지에서 바로 [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)를 사용하십시오.
+[!UICONTROL Visual Experience Composer]을(를) 사용할 수 있는 페이지에서 바로 [!DNL Adobe Target] [!UICONTROL Auto-Allocate] 활동을 만들고 [!UICONTROL A/B Test] 내에서 해당 페이지의 부분을 수정하려면 [!DNL Target]의 [!DNL Target]&#x200B;(VEC)를 사용하십시오.
 
-[!DNL Target]은(는) [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Manual (Default)] 및 [!UICONTROL Auto-Target]. *A/B 테스트 개요*&#x200B;에서 [A/B 테스트 활동 유형](/help/main/c-activities/t-test-ab/test-ab.md#types)을 참조하세요.
+[!UICONTROL Auto-Allocate]은(는) [!UICONTROL A/B Test] [!DNL Target] 활동(이 문서에서 설명됨) 외에도 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Manual (Default)] 및 [!UICONTROL Auto-Target]. [A/B 테스트 개요](/help/main/c-activities/t-test-ab/test-ab.md#types)에서 *A/B 테스트 활동 유형*&#x200B;을 참조하세요.
 
 [!UICONTROL Auto-Allocate] 활동을 만들려면:
 
@@ -43,7 +43,7 @@ ht-degree: 15%
 
    [!UICONTROL Visual Experience Composer]이(가) 열리고 URL에 지정된 페이지가 표시됩니다.
 
-1. 활동의 이름을 지정하려면 &quot;[!UICONTROL Untitled Activity]&quot; 옆에 있는 **[!UICONTROL Edit]** 아이콘(![편집 아이콘](/help/main/assets/icons/Edit.svg))을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 활동의 이름을 지정하려면 &quot;**[!UICONTROL Edit]**&quot; 옆에 있는 ![ 아이콘(](/help/main/assets/icons/Edit.svg)편집 아이콘[!UICONTROL Untitled Activity])을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 
@@ -71,11 +71,11 @@ ht-degree: 15%
 
 1. 페이지의 요소를 변경하여 새 경험을 만듭니다.
 
-   새 활동을 만든 후 [!UICONTROL Visual Experience Composer]의 왼쪽에 두 개의 탭([!UICONTROL Experience A] 및 [!UICONTROL Experience B])이 표시됩니다. [!UICONTROL Experience A]은(는) 제어 경험입니다. 포커스는 원하는 대로 수정할 수 있는 [!UICONTROL Experience B] 탭에 있습니다. [!UICONTROL Experience B]은(는) 테스트에 추가할 수 있는 대체 경험입니다. [!UICONTROL Experiences] 창 상단의 [!UICONTROL Add] 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg))을 클릭하여 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
+   새 활동을 만든 후 [!UICONTROL Visual Experience Composer]의 왼쪽에 두 개의 탭([!UICONTROL Experience A] 및 [!UICONTROL Experience B])이 표시됩니다. [!UICONTROL Experience A]은(는) 제어 경험입니다. 포커스는 원하는 대로 수정할 수 있는 [!UICONTROL Experience B] 탭에 있습니다. [!UICONTROL Experience B]은(는) 테스트에 추가할 수 있는 대체 경험입니다. [!UICONTROL Add] 창 상단의 ![ 아이콘(](/help/main/assets/icons/Add.svg)추가 아이콘[!UICONTROL Experiences])을 클릭하여 테스트에 여러 경험을 추가할 수 있습니다. 기본 사이트 경험을 옵션으로 포함하지 않으려면 활동에서 경험 A를 삭제할 수도 있습니다.
 
    [!UICONTROL Visual Experience Composer]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. [!UICONTROL Experience B]을(를) 수정하려면 2단계부터 시작하십시오.
 
-1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 [!UICONTROL Visual Experience Composer]의 맨 위에서 **[!UICONTROL Targeting]**&#x200B;을(를) 클릭합니다.
+1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 **[!UICONTROL Targeting]**&#x200B;의 맨 위에서 [!UICONTROL Visual Experience Composer]을(를) 클릭합니다.
 
    흐름 다이어그램이 열립니다.
 
@@ -97,7 +97,7 @@ ht-degree: 15%
       [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
 
       * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
-      * **이 활동만**: [!UICONTROL Audience Library]에 저장되지 않고 현재 활동에서만 사용할 수 있는 [활동별 대상 만들기](/help/main/c-target/creating-activity-only-audience.md)
+      * **이 활동만**: [에 저장되지 않고 현재 활동에서만 사용할 수 있는 ](/help/main/c-target/creating-activity-only-audience.md)활동별 대상 만들기[!UICONTROL Audience Library]
 
    1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
 

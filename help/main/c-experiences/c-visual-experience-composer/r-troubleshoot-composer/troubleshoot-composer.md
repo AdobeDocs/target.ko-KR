@@ -13,7 +13,7 @@ ht-degree: 67%
 
 # 시각적 경험 작성기 및 고급 경험 작성기 문제 해결
 
-특정 조건에서 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) 및 [!UICONTROL Enhanced Experience Composer] (EEC)에 문제가 발생하는 경우가 있습니다.
+특정 조건에서 [!DNL Adobe Target] [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 및 [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC)에 문제가 발생하는 경우가 있습니다.
 
 VEC는 [!DNL Adobe Target]의 주요 기능 중 하나입니다. VEC는 마케터와 디자이너가 시각적 인터페이스를 사용하여 콘텐츠를 만들고 변경할 수 있도록 하는 편집기입니다. 코드를 직접 편집하지 않고도 많은 디자인을 작성할 수 있습니다. 또한 작성기에서 사용 가능한 편집 선택 사항을 사용하여 HTML 및 JavaScript를 편집할 수도 있습니다.
 

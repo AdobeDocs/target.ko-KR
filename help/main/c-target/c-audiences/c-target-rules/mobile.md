@@ -7,7 +7,7 @@ exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
 workflow-type: tm+mt
 source-wordcount: '672'
-ht-degree: 34%
+ht-degree: 35%
 
 ---
 
@@ -33,7 +33,7 @@ ht-degree: 34%
 
 >[!NOTE]
 >
->Mobile SDK를 사용하는 고객은 이 기능을 적용하기 위해 아무 작업도 하지 않아도 됩니다. at.js를 사용하는 고객은 [at.js 버전 1.5.0으로 업그레이드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} 이상이어야 합니다.
+>Mobile SDK을 사용하는 고객은 이 기능을 적용하기 위해 아무 작업도 하지 않아도 됩니다. at.js를 사용하는 고객은 [at.js 버전 1.5.0으로 업그레이드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}(또는 그 이상 버전)해야 합니다.
 
 모바일 장치 속성을 두 개 이상 선택할 수 있습니다. 여러 선택 항목은 OR 연산자로 연결됩니다.
 
@@ -71,7 +71,7 @@ ht-degree: 34%
 
 ### iOS 12.2 이상을 실행하는 타깃팅 디바이스
 
-iOS 12.2에 도입된 새로운 변경 사항으로 인해 iPhone 모델을 지정하는 [!UICONTROL Device Marketing Name] 및 [!UICONTROL Device Model] (으)로 정의된 규칙으로 대상을 만드는 것이 영향을 받습니다. [!DNL Target]은(는) 더 이상 iOS 12.2 이상이 설치된 iPhone 사용자를 타깃팅할 수 없습니다. 그러나 이러한 사용자에게 iOS 12.2 이상이 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
+iOS 12.2에 도입된 새로운 변경 사항으로 인해 iPhone 모델을 지정하는 [!UICONTROL Device Marketing Name] 및 [!UICONTROL Device Model]&#x200B;(으)로 정의된 규칙으로 대상을 만드는 것이 영향을 받습니다. [!DNL Target]은(는) 더 이상 iOS 12.2 이상이 설치된 iPhone 사용자를 타깃팅할 수 없습니다. 그러나 이러한 사용자에게 iOS 12.2 이상이 없는 경우 iPhone 모델 타깃팅이 계속 제대로 작동합니다.
 
 iOS 12.2 이상 업데이트는 iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad / Retina 디스플레이, iPad Retina(4세대), iPod Touch 4 및 iPod Touch 5와 같은 모델을 iOS 12.2로 업그레이드하는 것을 지원하지 않으므로 이러한 모델을 식별하는 데 영향을 주지 않습니다.
 

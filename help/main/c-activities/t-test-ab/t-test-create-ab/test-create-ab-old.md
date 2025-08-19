@@ -1,6 +1,6 @@
 ---
 keywords: A/B 만들기;A/B 테스트;A/B 활동;새 a/b 활동;a/b 만들기
-description: ' [!DNL Target]  Adobe에서 VEC(시각적 경험 작성기)를 사용하여  [!DNL Target] 사용 페이지에서 직접 A/B 테스트 활동을 만드는 방법을 알아봅니다.'
+description: Adobe [!DNL Target] 에서 VEC(시각적 경험 작성기)를 사용하여  [!DNL Target] 사용 페이지에서 직접 A/B 테스트 활동을 만드는 방법을 알아봅니다.
 title: A/B 테스트를 만들려면 어떻게 해야 합니까?
 feature: A/B Tests
 exl-id: 76002873-0b7c-44a8-8e89-8ad28b63eccb
@@ -13,13 +13,13 @@ ht-degree: 34%
 
 # A/B 테스트 만들기
 
-[!DNL Adobe Target]의 [!UICONTROL Visual Experience Composer] (VEC)을(를) 사용하여 [!DNL Target]이 활성화된 페이지에서 직접 [!UICONTROL A/B Test] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
+[!UICONTROL Visual Experience Composer]의 [!DNL Adobe Target]&#x200B;(VEC)을(를) 사용하여 [!UICONTROL A/B Test]이 활성화된 페이지에서 직접 [!DNL Target] 활동을 만들고 [!DNL Target] 내에서 해당 페이지의 부분을 수정합니다.
 
 >[!NOTE]
 >
 >수동(기본값) [!UICONTROL A/B Test] 활동(이 문서에서 설명됨) 외에 [!DNL Target]에서는 두 가지 유형의 [!UICONTROL A/B Test] 활동을 추가로 제공합니다. [!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target].
 >
->*A/B 테스트 개요*&#x200B;에서 [A/B 테스트 활동 유형](/help/main/c-activities/t-test-ab/test-ab.md#types)을 참조하세요.
+>[A/B 테스트 개요](/help/main/c-activities/t-test-ab/test-ab.md#types)에서 *A/B 테스트 활동 유형*&#x200B;을 참조하세요.
 
 수동 [!UICONTROL A/B Test] 활동을 만들려면:
 
@@ -85,7 +85,7 @@ ht-degree: 34%
 
    [!UICONTROL Visual Experience Composer]에서 경험을 추가 및 수정하는 방법에 대한 자세한 내용은 [경험 추가](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00)를 참조하십시오. 경험 B를 수정하려면 2단계부터 시작하십시오.
 
-1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 [!UICONTROL Visual Experience Composer]의 맨 위에서 **[!UICONTROL Targeting]**&#x200B;을(를) 클릭합니다.
+1. 안내가 있는 3단계 워크플로우에서 다음 단계로 이동하려면 **[!UICONTROL Targeting]**&#x200B;의 맨 위에서 [!UICONTROL Visual Experience Composer]을(를) 클릭합니다.
 
    흐름 다이어그램이 열립니다.
 
@@ -95,7 +95,7 @@ ht-degree: 34%
 
 1. **[!UICONTROL Audience]** 상자에서 편집 아이콘(세로 줄임표)을 클릭하고 **[!UICONTROL Replace Audience]**&#x200B;을 클릭한 다음 [활동에 대한 대상을 선택](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-audience.md)합니다.
 
-   기본적으로 대상은 [!UICONTROL All Visitors] (으)로 설정됩니다.
+   기본적으로 대상은 [!UICONTROL All Visitors]&#x200B;(으)로 설정됩니다.
 
 1. 활동을 입력하려는 자격 있는 방문자의 비율을 선택합니다.
 
@@ -129,7 +129,7 @@ ht-degree: 34%
 
 이 비디오에서는 [!DNL Target]의 안내가 있는 3단계 워크플로를 사용하여 A/B 테스트를 만드는 방법을 보여 줍니다.
 
-* [!DNL Adobe Target]에서 [!UICONTROL A/B Test] 활동 만들기
+* [!UICONTROL A/B Test]에서 [!DNL Adobe Target] 활동 만들기
 * 수동 분할 또는 자동 트래픽 할당을 사용한 트래픽 할당
 
->[!VIDEO](https://video.tv.adobe.com/v/30529?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
