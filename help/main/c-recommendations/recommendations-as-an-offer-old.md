@@ -55,7 +55,7 @@ ht-degree: 47%
 
 1. **[!UICONTROL Create Criteria]**&#x200B;을(를) 클릭하거나 기존 [기준](/help/main/c-recommendations/c-algorithms/algorithms.md)을(를) 선택한 다음 **[!UICONTROL Next]**&#x200B;을(를) 클릭하여 [!UICONTROL Select Design] 대화 상자를 표시합니다.
 
-1. **[!UICONTROL Create Design]**&#x200B;을(를) 클릭하거나 기존 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을(를) 선택한 다음 **[!UICONTROL  Next]**&#x200B;을(를) 클릭합니다.
+1. **[!UICONTROL Create Design]**&#x200B;을(를) 클릭하거나 기존 [디자인](/help/main/c-recommendations/c-design-overview/design-overview.md)을(를) 선택한 다음 **[!UICONTROL &#x200B; Next]**&#x200B;을(를) 클릭합니다.
 
 1. [!UICONTROL Options] 대화 상자에서 다음을 지정합니다.
 

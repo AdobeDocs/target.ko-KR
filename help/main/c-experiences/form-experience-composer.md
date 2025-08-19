@@ -35,7 +35,7 @@ ht-degree: 33%
 
    [!UICONTROL Recommendations] 활동을 만드는 경우 이 화면은 다릅니다. [!UICONTROL Recommendations] 활동에 경험이 포함되어 있지 않습니다.
 
-1. 
+1. &#x200B;
    1. **[!UICONTROL Rename]** 아이콘(![이름 바꾸기 아이콘](/help/main/assets/icons/MoreSmallListVert.svg))을 클릭하고 **[!UICONTROL Rename]**&#x200B;을 클릭한 다음 활동의 이름을 지정하고 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.

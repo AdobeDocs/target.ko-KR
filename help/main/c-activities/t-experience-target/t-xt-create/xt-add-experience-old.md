@@ -1,6 +1,6 @@
 ---
 keywords: 경험 만들기;경험 생성;우선순위;대상자;경험;시각적 경험 작성기
-description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](XT) 활동에서 [!UICONTROL Experience Targeting]​(VEC)를 사용하여 페이지에서 경험을 만들고 편집하는 방법을 알아봅니다.'
+description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (XT) 활동에서 [!UICONTROL Experience Targeting]​(VEC)를 사용하여 페이지에서 경험을 만들고 편집하는 방법을 알아봅니다.'
 title: '[!UICONTROL Experience Targeting] 활동에서 경험을 만들려면 어떻게 해야 합니까?'
 feature: Experience Targeting
 exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad

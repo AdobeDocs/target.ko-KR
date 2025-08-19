@@ -420,7 +420,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **보고서를 어떻게 해석해야 합니까?**
 
 +++세부 정보 보기
-[!DNL Target] 팀은 강력하면서도 쉬운 보고서 분석을 위해 [신뢰 구간 막대, 상승도 한계, 중요도/신뢰도 및 다중 지표 선택, 테이블 및 그래프 보기, 평균 실행 등과 같은 기능을 사용하여 보고서를 가능한 한 직관적으로 만들려고 했습니다.](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 대상에 대한 추가 분석을 위해 [!DNL Analytics]Analytics for Target(A4T)[ 활동을 사용하는 경우 ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)을(를) 살펴볼 수 있습니다.
+[!DNL Target] 팀은 강력하면서도 쉬운 보고서 분석을 위해 [신뢰 구간 막대, 상승도 한계, 중요도/신뢰도 및 다중 지표 선택, 테이블 및 그래프 보기, 평균 실행 등과 같은 기능을 사용하여 보고서를 가능한 한 직관적으로 만들려고 했습니다.](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 대상에 대한 추가 분석을 위해 [!DNL Analytics]Analytics for Target(A4T) [ 활동을 사용하는 경우 ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)을(를) 살펴볼 수 있습니다.
 
 +++
 

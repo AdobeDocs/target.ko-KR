@@ -96,4 +96,4 @@ ht-degree: 2%
 >[!MORELIKETHIS]
 >
 >[Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*
->>[](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*
+>&#x200B;>[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*

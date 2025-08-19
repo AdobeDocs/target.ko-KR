@@ -41,7 +41,7 @@ ht-degree: 15%
    * **타사 추적 서버**: 타사 추적 서버는 일반적으로 `[company].sc.omtrdc.net`이며 여기서 회사는 회사 이름이지만 항상 `sc.omtrdc.net`로 끝납니다.
    * **CNAME 구현**: `sstats.adobe.com`은(는) https(보안) 요청에 대한 CNAME 자사 추적 서버의 예입니다. `stats.adobe.com`은(는) http(비보안) 페이지에 대한 CNAME 자사 요청의 예입니다.
 
-1.  필드의 전체 컨텐츠를 복사합니다. 
+1. 필드의 전체 컨텐츠를 복사합니다. 
 
 1. 활동의 **[!UICONTROL Reporting Settings]** 화면에 있는 **[!UICONTROL Goal & Settings]** 섹션에서 **[!UICONTROL Tracking Server]** 필드에 추적 서버 정보를 붙여 넣습니다.
 
@@ -69,7 +69,7 @@ ht-degree: 15%
    * **타사 추적 서버**: 타사 추적 서버는 일반적으로 `[company].sc.omtrdc.net`이며 여기서 회사는 회사 이름이지만 항상 `sc.omtrdc.net`로 끝납니다.
    * **CNAME 구현**: `sstats.adobe.com`은(는) https(보안) 요청에 대한 CNAME 자사 추적 서버의 예입니다. `stats.adobe.com`은(는) http(비보안) 페이지에 대한 CNAME 자사 요청의 예입니다.
 
-1.  필드의 전체 컨텐츠를 복사합니다. 
+1. 필드의 전체 컨텐츠를 복사합니다. 
 
 1. 활동의 **[!UICONTROL Reporting Settings]** 화면에 있는 **[!UICONTROL Goal & Settings]** 섹션에서 **[!UICONTROL Tracking Server]** 필드에 추적 서버 정보를 붙여 넣습니다.
 

@@ -182,7 +182,7 @@ Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속�
 
 Target에서 고객 특성 데이터를 찾을 수 없는 경우 지난 *x*&#x200B;일 내에 가져오기가 발생했는지 확인하십시오. 여기서 *x*&#x200B;은(는) Target [방문자 프로필 라이프타임](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) 값(기본값 14일)입니다.
 
-## 교육 비디오: 고객 특성 ![튜토리얼 배지](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}를 사용하여 오프라인 데이터 업로드
+## 교육 비디오: 고객 특성 ![튜토리얼 배지](/help/main/assets/tutorial.png)를 사용하여 오프라인 데이터 업로드 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
 이 비디오는 오프라인 CRM, 헬프 데스크, POS 및 기타 마케팅 데이터를 [!DNL Experience Cloud People] 서비스로 가져와서 알려진 ID를 사용하여 방문자와 연결하는 방법을 보여 줍니다.
 

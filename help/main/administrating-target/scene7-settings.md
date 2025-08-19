@@ -42,7 +42,7 @@ ht-degree: 92%
 
 1. 다음 [!DNL Dynamic Media Classic] 계정 정보를 지정합니다.
 
-   **지역**[!DNL Dynamic Media]: 계정의 지역: 북미, 유럽 또는 아시아.
+   **지역**&#x200B;[!DNL Dynamic Media]: 계정의 지역: 북미, 유럽 또는 아시아.
 
    **임시 폴더**: 대상 폴더 외부에 있고 수동으로 [!DNL Dynamic Media]에 업로드되는 콘텐츠의 위치입니다.
 

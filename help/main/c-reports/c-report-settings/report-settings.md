@@ -230,9 +230,9 @@ MVT(다변량 테스트) 활동에 대한 위치별 기여도를 표시하도록
 
 그래프가 작성되는 기본 순서는 다음과 같습니다.
 
-* **[!UICONTROL A/B Test]([!UICONTROL Auto-Allocate] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
-* **[!UICONTROL Experience Targeting](XT)**: 활동의 경험 순서.
-* **[!UICONTROL Multivariate Test](MVT)**: 경험 이름별 알파벳순
+* **[!UICONTROL A/B Test] ([!UICONTROL Auto-Allocate] 및 [!UICONTROL Automated Personalization] 포함)**: 내림차순으로 경험 생성 순서.
+* **[!UICONTROL Experience Targeting] (XT)**: 활동의 경험 순서.
+* **[!UICONTROL Multivariate Test] (MVT)**: 경험 이름별 알파벳순
 * **[!UICONTROL Recommendations]**: 내림차순으로 작성된 경험 순서입니다.
 
 [!UICONTROL Counting Methodology] 옵션을 사용하여 작업할 때 다음 주의 사항을 고려하십시오.

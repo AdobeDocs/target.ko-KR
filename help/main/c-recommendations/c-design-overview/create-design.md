@@ -48,7 +48,7 @@ ht-degree: 19%
 
    [!UICONTROL Create Design] 대화 상자가 표시됩니다.
 
-1. 디자인 카드에 표시할 **[!UICONTROL  Name]** 및 선택적 미리 보기 이미지를 입력하십시오.
+1. 디자인 카드에 표시할 **[!UICONTROL &#x200B; Name]** 및 선택적 미리 보기 이미지를 입력하십시오.
 
    기본 디자인을 사용하면 디자인 이름과 &quot;복사본&quot;이 **[!UICONTROL Content Name]** 필드에 나타납니다. 이름을 편집할 수 있습니다. 디자인 카드에 표시할 이미지를 선택할 수도 있습니다.
 

@@ -59,7 +59,7 @@ ht-degree: 1%
 
    * **음색**: 텍스트 음색이 대상자에게 울려 퍼집니다. [!DNL AI Assistant]이(가) 유익하거나, 흥미롭고, 장난스럽거나, 설득력 있게 들리도록 들릴지 여부에 관계없이 메시지를 적절히 조정할 수 있습니다.
 
-     옵션은 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL  Story Telling] 및 [!UICONTROL Conversational]입니다.
+     옵션은 [!UICONTROL None], [!UICONTROL Professional], [!UICONTROL Empathetic], [!UICONTROL Humorous], [!UICONTROL Exciting], [!UICONTROL Inspirational], [!UICONTROL Persuasive], [!UICONTROL Friendly], [!UICONTROL Formal], [!UICONTROL Apologetic], [!UICONTROL Assertive], [!UICONTROL &#x200B; Story Telling] 및 [!UICONTROL Conversational]입니다.
 
 1. 슬라이더를 사용하여 짧음에서 길음 사이의 텍스트 길이를 선택합니다.
 

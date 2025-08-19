@@ -1,6 +1,6 @@
 ---
 keywords: 타깃팅;시각적 경험 작성기;허용 목록;허용 목록에 추가하다;허용 목록;고급 시각적 경험 작성기;vec;시각적 경험 작성기 문제 해결;문제 해결;eec;고급 경험 작성기;tls;tls 1.2
-description: 특정 조건에서  [!DNL Target] [!UICONTROL Visual Experience Composer](VEC) 및 [!UICONTROL Enhanced Experience Composer]​(EEC)에서 가끔 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
+description: 특정 조건에서  [!DNL Target] [!UICONTROL Visual Experience Composer] (VEC) 및 [!UICONTROL Enhanced Experience Composer]​(EEC)에서 가끔 발생하는 문제를 해결하는 방법에 대해 알아봅니다.
 title: '[!UICONTROL Visual Experience Composer] 및 [!UICONTROL Enhanced Experience Composer]과(와) 관련된 문제를 해결하려면 어떻게 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383

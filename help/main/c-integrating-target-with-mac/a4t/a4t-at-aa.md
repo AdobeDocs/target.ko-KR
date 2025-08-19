@@ -120,8 +120,8 @@ A4T 통합을 통해 다음과 같은 작업을 수행할 수 있습니다.
 ### 자동 할당 {#aa}
 
 * **교육 빈도**: [!UICONTROL Auto-Allocate] 모델은 평소처럼 매시간 계속 교육합니다.
-* **속성 모델**: [!DNL Target]에서는 A4T를 사용하는 [!DNL Adobe Analytics] 활동에 대해 [!UICONTROL  Auto-Allocate] 기본 속성 모델을 사용합니다.
-* **신뢰도**: [!UICONTROL Auto-Allocate] 활동에 사용되는 신뢰 수식이 [!DNL Adobe Analytics] [!UICONTROL A4T] 패널에 기본적으로 표시되는 수식과 다릅니다. [여기에 설명된 대로](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)[!UICONTROL Auto-Allocate]은(는) 일반 [!UICONTROL A/B Test] 활동보다 더 보수적인 신뢰 구간을 사용합니다. 이러한 보수적 신뢰 수준은 데이터에 대한 반복적인 평가(peeks)를 보상한다. 따라서 [!DNL Adobe Analytics]의 기본 보고서에 [!UICONTROL Auto-Allocate] 알고리즘에서 사용 중인 구간에 비해 더 좁은 신뢰 구간이 표시됩니다. 그럼에도 불구하고, 보내는 더 많은 고유 방문자가 있는 경험을 기반으로 알고리즘에서 선호하는 경험을 결정할 수 있습니다.
+* **속성 모델**: [!DNL Target]에서는 A4T를 사용하는 [!DNL Adobe Analytics] 활동에 대해 [!UICONTROL &#x200B; Auto-Allocate] 기본 속성 모델을 사용합니다.
+* **신뢰도**: [!UICONTROL Auto-Allocate] 활동에 사용되는 신뢰 수식이 [!DNL Adobe Analytics] [!UICONTROL A4T] 패널에 기본적으로 표시되는 수식과 다릅니다. [여기에 설명된 대로](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) [!UICONTROL Auto-Allocate]은(는) 일반 [!UICONTROL A/B Test] 활동보다 더 보수적인 신뢰 구간을 사용합니다. 이러한 보수적 신뢰 수준은 데이터에 대한 반복적인 평가(peeks)를 보상한다. 따라서 [!DNL Adobe Analytics]의 기본 보고서에 [!UICONTROL Auto-Allocate] 알고리즘에서 사용 중인 구간에 비해 더 좁은 신뢰 구간이 표시됩니다. 그럼에도 불구하고, 보내는 더 많은 고유 방문자가 있는 경험을 기반으로 알고리즘에서 선호하는 경험을 결정할 수 있습니다.
 * **우승자 상태**: 현재 [의 ](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) 패널에서 [!UICONTROL A4T]&quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지[!DNL Analysis Workspace]를 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!DNL Target] 활동에 대한 [!UICONTROL Auto-Allocate] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다. 이 배지는 [!UICONTROL Auto-Allocate]에서 사용하는 계산이 아니라 일반 신뢰도 계산을 반영합니다.
 
 ### 자동 타겟 {#at}
