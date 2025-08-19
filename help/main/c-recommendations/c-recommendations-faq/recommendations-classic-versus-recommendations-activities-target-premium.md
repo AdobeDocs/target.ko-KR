@@ -2,7 +2,7 @@
 keywords: 권장 사항, 권장 사항 알고리즘, 권장 사항 활동, recommendations classic
 description: 정보를 검토하면,  [!DNL Target]  Premium의 기존 추천 Classic과 추천 활동의 차이점을 이해하는 데 도움이 됩니다.
 title: ' [!DNL Target]  Premium에서 추천 Classic과 추천 간의 차이점은 무엇입니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
 source-git-commit: 07062b7df75300bd7558a24da5121df454520e42

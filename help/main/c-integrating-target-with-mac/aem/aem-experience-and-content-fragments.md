@@ -47,4 +47,4 @@ ht-degree: 40%
 
 [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments]과(와) [!UICONTROL Content Fragments]은(는) 겉보기에는 비슷해 보일 수 있지만 각 조각 유형이 다른 사용 사례에서 주요 역할을 합니다.
 
-[!UICONTROL Experience Fragments]과(와) [!UICONTROL Content Fragments]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 튜토리얼 가이드[!UICONTROL Content Fragments]에서 [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html){target=_blank} 및 [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html){target=_blank} 이해 를 참조하십시오.
+[!UICONTROL Experience Fragments]과(와) [!UICONTROL Content Fragments]의 유사성, 차이성, 사용 시기 및 방법에 대한 자세한 내용은 [AEM Sites 비디오 및 튜토리얼 가이드[!UICONTROL Content Fragments]에서 [!UICONTROL Experience Fragments]](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/content-fragments/understand-content-fragments-and-experience-fragments.html?lang=ko){target=_blank} 및 [&#128279;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/overview.html?lang=ko){target=_blank} 이해 를 참조하십시오.

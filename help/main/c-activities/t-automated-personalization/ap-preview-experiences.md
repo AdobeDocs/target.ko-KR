@@ -2,7 +2,7 @@
 keywords: Automated Personalization;ap;미리 보기;경험 제외
 description: '[!UICONTROL Automated Personalization]​(VEC)를 사용하여 [!UICONTROL Visual Experience Composer]​(AP) 활동에서 각 경험을 미리 보는 방법에 대해 알아봅니다.'
 title: VEC에서 [!UICONTROL Automated Personalization] 경험을 미리 보려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
 source-git-commit: 3a44c05bea24c622292dd0b774f88f0c93be1d88

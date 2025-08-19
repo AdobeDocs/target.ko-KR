@@ -35,12 +35,12 @@ Target은 [!DNL Experience Platform Web SDK] 또는 at.js를 사용하여 웹 �
 >
 >mbox.js 라이브러리는 [!DNL Target]에 대한 레거시 구현이며 2021년 3월 31일 이후에는 더 이상 지원되지 않습니다. [!UICONTROL Experience Platform Web SDK]&#x200B;(기본 설정) 또는 at.js 최신 버전으로 업그레이드하십시오.
 
-사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/en/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
+사이트의 모든 페이지에서 [!UICONTROL Experience Platform Web SDK] 또는 at.js를 참조합니다. 예를 들어 이러한 라이브러리 중 하나를 글로벌 헤더에 추가합니다. 또는 [Adobe Experience Platform의 태그](https://experienceleague.adobe.com/ko/docs/experience-platform/tags/home){target=_blank}를 사용하여 [!DNL Target]을(를) 구현합니다.
 
 다음 리소스에는 [!DNL Experience Platform Web SDK] 또는 at.js를 구현하는 데 도움이 되는 자세한 정보가 포함되어 있습니다.
 
-* [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
-* [ [!DNL Adobe Experience Platform]을 사용하여 [!DNL Target] 구현](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
+* [[!DNL Adobe Experience Platform Web SDK] 확장](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=ko){target=_blank}
+* [ [!DNL Adobe Experience Platform]을 사용하여 [!DNL Target] 구현](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch){target=_blank}
 
 방문자가 [!DNL Target]에 최적화된 페이지를 요청할 때마다 실시간 요청이 타기팅 시스템으로 전송되어 제공할 콘텐츠를 결정합니다. 이 요청은 마케터가 관리하는 활동 및 경험에 의해 제어되며, 페이지가 로드될 때마다 만들어지고 이행됩니다. 콘텐츠는 개별 사이트 방문자를 대상으로 하며 응답률, 획득률 및 매출을 극대화합니다. 개인화된 컨텐츠는 방문자가 반응하거나, 상호 작용하거나, 구매할 수 있도록 하는 데 도움이 됩니다.
 
@@ -172,7 +172,7 @@ AWS(Amazon Web Services)에서 호스팅되는 [!DNL Target] 에지 클러스터
 >
 >[!DNL Target]은(는) 현재 중국에 Edge 클러스터가 없으므로 해당 지역의 [!DNL Target] 고객에 대한 방문자 성능이 제한됩니다. 방화벽과 Edge 클러스터 부재는 사이트 경험에 영향을 주어 느린 렌더링 및 페이지 로드 시간을 초래할 수 있습니다. 또한 마케터는 [!DNL Target] 작성 UI 사용 시 지연을 경험할 수 있습니다.
 
-원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}를 참조하십시오.
+원하는 경우 [!DNL Target] 에지 클러스터를 허용 목록에 추가할 수 있습니다. 자세한 내용은 [Target 에지 노드를 허용 목록에 추가](https://experienceleague.adobe.com/ko/docs/target-dev/developer/implementation/privacy/allowlist-edges){target=_blank}를 참조하십시오.
 
 ## 보호된 사용자 경험 {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

@@ -2,7 +2,7 @@
 keywords: 권장 사항 디자인;디자인 만들기;디자인 복사
 description: 기본 디자인을 사용하거나 페이지의 레이아웃에 가장 잘 맞는 사용자 지정 디자인을 만들어  [!DNL Target Recommendations] 디자인을 만드는 방법을 알아봅니다.
 title: Recommendations에서 디자인을 만들려면 어떻게 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c

@@ -2,7 +2,7 @@
 keywords: 문제 해결, 자주 묻는 질문, FAQ, FAQ, 권장 사항, 특수 문자, 속성 가중치, 콘텐츠 유사성
 description: ' [!DNL Target Recommendations] 활동에 대해 자주 묻는 질문과 대답 목록을 봅니다.'
 title: ' [!DNL Recommendations]에 대한 질문과 대답은 어디에서 찾을 수 있습니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 18f6c06aa06e9526ee65bd3cc0f9b552c91c10e7
@@ -103,7 +103,7 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 mbox에 범주 ID가 있는 위치를 사용하는 경우 기준 선택기는 적용 가능한 모든 기준을 포함합니다.
 
-[!DNL Target]은 알고리즘 선택기의 인텔리전스 필터링을 제어할 수 있도록 [호환되지 않는 조건 필터링](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} 설정을 가지고 있습니다.
+[!DNL Target]은 알고리즘 선택기의 인텔리전스 필터링을 제어할 수 있도록 [호환되지 않는 조건 필터링](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank} 설정을 가지고 있습니다.
 
 >[!NOTE]
 >

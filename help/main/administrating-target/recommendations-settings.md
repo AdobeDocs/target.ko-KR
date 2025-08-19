@@ -2,7 +2,7 @@
 keywords: 권장 사항;권장 사항 구현;클라이언트 코드;인증 토큰;업계 카테고리;호환되지 않는 모드 필터링;기본 호스트 그룹;썸네일 기반;인증 토큰 생성;인증 토큰;
 description: ' [!DNL Adobe Target Recommendations]에 대한 설정을 구성하는 방법을 알아봅니다.'
 title: 권장 사항에 대한 설정을 구성하려면 어떻게 해야 합니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Administration & Configuration
 role: Admin
 exl-id: 5dbae0d9-897f-4e0a-b013-0e9ad6654150
@@ -31,4 +31,4 @@ ht-degree: 0%
 * 썸네일 기본 URL 지정
 * 사용자 지정 속성 키 구성
 
-자세한 내용은 [ 개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations){target=_blank}에서 **[!DNL Adobe Target]권장 사항 계획 및 구현**&#x200B;을 참조하세요.
+자세한 내용은 [ 개발자 안내서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}에서 **[!DNL Adobe Target]권장 사항 계획 및 구현**&#x200B;을 참조하세요.

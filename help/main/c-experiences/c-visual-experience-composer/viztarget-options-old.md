@@ -217,7 +217,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
 ### [!UICONTROL Offer Decision]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -249,7 +249,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL Offer Decision]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -281,7 +281,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL Offer Decision]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank}오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -371,7 +371,7 @@ DOM 요소의 소극적 로드로 인해 [!UICONTROL Rearrange] 및 [!UICONTROL 
 
 ## 고려 사항 {#considerations}
 
-* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank}에서 &#39;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&#39;을 참조하십시오.
+* 오퍼에 HTML 콘텐츠가 포함되어 있는 경우, 자세한 내용은 [at. js 작동 방식](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank}에서 &#39;at.js가 HTML 콘텐츠에서 오퍼를 렌더링하는 방법&#39;을 참조하십시오.
 
 ## 사용자 지정 요소 지원 {#custom}
 
@@ -379,7 +379,7 @@ VEC는 사용자 지정 요소 및 사용자 지정 요소 내부의 요소에 �
 
 >[!NOTE]
 >
->사용자 지정 요소에 대한 VEC 지원은 [at.js 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 2.7.0 이상{target=_blank}에서 지원됩니다. 웹 사이트에 필요한 버전이 배포되어 있는지 확인합니다. [시각적 경험 작성기 Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 사용하는 경우 필요한 at.js 버전도 배포되어 있어야 합니다. 위에 설명된 VEC 옵션은 표시되지 않으며 at.js의 지원되지 않는 버전에서 사용할 수 있습니다.
+>사용자 지정 요소에 대한 VEC 지원은 [at.js 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} 2.7.0 이상{target=_blank}에서 지원됩니다. 웹 사이트에 필요한 버전이 배포되어 있는지 확인합니다. [시각적 경험 작성기 Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 사용하는 경우 필요한 at.js 버전도 배포되어 있어야 합니다. 위에 설명된 VEC 옵션은 표시되지 않으며 at.js의 지원되지 않는 버전에서 사용할 수 있습니다.
 >
 >사용자 지정 요소에 대한 VEC 지원은 현재 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}에서 지원되지 않습니다.
 

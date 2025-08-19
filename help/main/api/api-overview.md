@@ -16,7 +16,7 @@ ht-degree: 0%
 
 [!DNL Adobe Target]을(를) 사용하기 전에 사이트에서 구현해야 합니다.
 
-[Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}에 [!DNL Target]을(를) 구현하기 전에 알아야 할 정보가 포함되어 있습니다.
+[Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}에 [!DNL Target]을(를) 구현하기 전에 알아야 할 정보가 포함되어 있습니다.
 
 개발자 포털에는 다음 구현 유형에 대한 정보가 포함되어 있습니다.
 
@@ -33,4 +33,4 @@ ht-degree: 0%
 * 보고 API.
 * 권장 사항 API.
 
-자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html){target=_blank}의 [Target API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}를 참조하십시오.
+자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/before-implement/considerations-before-you-implement-target.html?lang=ko){target=_blank}의 [Target API 개요](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}를 참조하십시오.

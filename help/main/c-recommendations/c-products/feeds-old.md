@@ -2,7 +2,7 @@
 keywords: 권장 사항 피드, 피드, SAINT, ftp, csv, 분류, 분석 분류
 description: 피드가 CSV 파일, Google 제품 검색 피드 형식 및  [!DNL Adobe Target] [!DNL Recommendations]제품 분류를 사용하여  [!DNL Analytics] 에 엔티티를 가져오는 방법에 대해 알아봅니다.
 title: '[!UICONTROL Feeds]에서  [!DNL Target Recommendations]을(를) 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
@@ -212,7 +212,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### [!DNL Analytics] 제품 분류 {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-[!DNL Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 [Analytics 구성 요소](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) 안내서에서 *분류 정보*&#x200B;를 참조하십시오. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
+[!DNL Analytics] 제품 분류는 권장 사항에 사용할 수 있는 분류입니다. 이 분류 파일에 대한 자세한 내용은 [Analytics 구성 요소](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html?lang=ko) 안내서에서 *분류 정보*&#x200B;를 참조하십시오. 권장 사항에 필요한 일부 정보는 현재 구현에서 사용하지 못할 수 있으므로, 분류 파일에 추가할 경우 이 사용 안내서를 따르십시오.
 
 >[!IMPORTANT]
 >

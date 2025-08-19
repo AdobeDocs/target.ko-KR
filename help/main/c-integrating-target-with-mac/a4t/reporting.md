@@ -89,7 +89,7 @@ A4T의 경우 연속 변수(이진 지표가 아님)에 대해 [Welch의 t-test]
 1. **[!UICONTROL Tools]** > **[!UICONTROL Data Warehouse]**&#x200B;을(를) 클릭합니다.
 1. **[!UICONTROL Data Warehouse Request]** 탭에서 필드를 채웁니다.
 
-   각 필드에 대한 자세한 내용은 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
+   각 필드에 대한 자세한 내용은 [Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse.html?lang=ko)의 &quot;데이터 웨어하우스 설명&quot;을 참조하십시오.
 
    | 필드 | 지침 |
    |--- |--- |
@@ -109,5 +109,5 @@ A4T의 경우 연속 변수(이진 지표가 아님)에 대해 [Welch의 t-test]
 
 [!DNL Data Warehouse]에 대한 자세한 내용은 [!DNL Analytics] 도움말 설명서에서 다음 링크를 참조하십시오.
 
-* [Data Warehouse 요청 만들기](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Data Warehouse 모범 사례](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Data Warehouse 요청 만들기](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html?lang=ko)
+* [Data Warehouse 모범 사례](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html?lang=ko)

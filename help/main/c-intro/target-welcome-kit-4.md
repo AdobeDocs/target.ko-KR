@@ -25,7 +25,7 @@ ht-degree: 72%
 
 **알아 둘 사항**: [!DNL Target] 은 다양한 기술과 잘 작동하는 개방적이고 독립적인 플랫폼이기 때문에 CRM 또는 구매한 데이터를 다양한 방법으로 추가할 수 있습니다. 즉, 조직에 가장 적합한 방법을 선택할 수 있습니다.
 
-자세한 내용은 [Target으로 데이터를 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank} 을 참조하십시오.
+자세한 내용은 [Target으로 데이터를 가져오는 방법](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html?lang=ko){target=_blank} 을 참조하십시오.
 
 ## 팁 2: [!DNL Target] 대상자를 다른 Adobe Experience Cloud 대상자와 혼합하여 보다 심층적으로 개인화할 수 있습니다.
 

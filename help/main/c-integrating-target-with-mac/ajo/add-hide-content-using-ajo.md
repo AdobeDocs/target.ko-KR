@@ -2,7 +2,7 @@
 keywords: 최적화;개인화;adobe 여정 최적화 도구;ajo;사용 사례;시나리오;콘텐츠 추가;콘텐츠 숨기기;구성 요소 추가;구성 요소 숨기기
 description: ' [!DNL Adobe Journey Optimizer]을(를) 사용하여 웹 페이지에서 구성 요소를 추가하거나 숨기는 방법에 대해 알아봅니다.'
 title: ' [!DNL Adobe Journey Optimizer]에서 웹 페이지에 구성 요소 추가 또는 숨기기'
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 feature: Integrations
 hide: true
 hidefromtoc: true
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너의 사용 가능한 옵션에 대한 자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*&#x200B;을 참조하십시오.
+>이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너의 사용 가능한 옵션에 대한 자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*&#x200B;을 참조하십시오.
 >
 >페이지 하단에 있는 비디오가 특히 유용합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
    웹 구성 또는 채널 표면은 시스템 관리자가 정의한 구성입니다. 웹 구성에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다.
 
-   자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}에서 *채널 표면 설정*&#x200B;을 참조하세요.
+   자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}에서 *채널 표면 설정*&#x200B;을 참조하세요.
 
 1. **[!UICONTROL Action]** 섹션에서 **[!UICONTROL Edit Content]**&#x200B;을(를) 클릭하여 [!DNL Journey Optimizer] 웹 디자이너에서 웹 사이트를 엽니다.
 
@@ -91,9 +91,9 @@ ht-degree: 2%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}에서 *새 보고 인터페이스 시작*&#x200B;을 참조하세요.
+자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}에서 *새 보고 인터페이스 시작*&#x200B;을 참조하세요.
 
 >[!MORELIKETHIS]
 >
->[Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*
->&#x200B;>[&#128279;](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*
+>[Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*
+>&#x200B;>[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*

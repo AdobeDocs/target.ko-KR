@@ -125,6 +125,6 @@ XT 활동에는 항상 제어 경험이 있어야 합니다. 매우 일반적인
 * A/B 및 MVT 테스트의 모범 사례는 트래픽 분할을 균일하게 유지하는 것입니다. 테스트 중에 경험 간의 트래픽 분포(예: 90/10에서 50/50)를 변경하면 경험 간에 방문자가 고르지 않을 수 있습니다. 낮은 트래픽 경험은 &quot;따라잡을 수 없음&quot;일 수 있습니다.
 * 위의 모범 사례를 따르고 있고 트래픽 분할이 시간이 지남에 따라 정규화되지 않는 경우 다음을 확인해야 합니다.
 
-   * 최신 at.js 라이브러리를 사용하고 있습니까? 현재 버전 및 관련 릴리스 정보에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.
+   * 최신 at.js 라이브러리를 사용하고 있습니까? 현재 버전 및 관련 릴리스 정보에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하십시오.
 
    * 리디렉션 테스트입니까? 페이지에서 태그가 실행되는 타이밍이 올바르지 않으면 트래픽 분할이 균일하지 않을 수 있습니다. 특히 [!DNL Analytics]을(를) [!DNL Target] 활동의 데이터 소스로 사용할 때 그렇습니다. Analytics for Target(A4T)을 사용하는 리디렉션 활동에 대한 트래픽 분포가 불균일한 문제를 해결하기 위한 자세한 내용은 [리디렉션 오퍼 - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)를 참조하십시오.

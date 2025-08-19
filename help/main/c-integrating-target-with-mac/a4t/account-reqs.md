@@ -28,13 +28,13 @@ ht-degree: 35%
 
 [!DNL Analytics] 및 [!DNL Target] 사용자 계정이 Adobe ID에 연결되어 있어야 합니다.
 
-자세한 내용은 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=en)을 참조하세요.
+자세한 내용은 [조직 및 계정 연결](https://experienceleague.adobe.com/docs/core-services/interface/administration/organizations.html?lang=ko)을 참조하세요.
 
 ### Experience Cloud 그룹 멤버십 구성
 
 하나 이상의 [!DNL Experience Cloud] 그룹의 구성원으로서 [!DNL Analytics] 및 [!DNL Target]에 액세스할 수 있어야 합니다.
 
-자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)를 참조하십시오.
+자세한 내용은 [Experience Cloud 사용자 및 제품 관리](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html?lang=ko)를 참조하십시오.
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
