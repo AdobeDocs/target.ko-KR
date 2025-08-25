@@ -39,7 +39,7 @@ ht-degree: 44%
 **[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++세부 정보 보기
-* **AP(1}) 또는 MVT(2}) 활동에서 위치 이름 변경이 [!UICONTROL Automated Personalization] 단계로 이동한 다음 다시 돌아온 후에도 지속되지 않는 문제를 해결했습니다.[!UICONTROL Multivariate Test][!UICONTROL Targeting]** 고객은 이제 위치 이름을 성공적으로 편집하고 저장할 수 있으며, 변경 내용은 활동 만들기 프로세스 전체에서 계속 표시됩니다. (TGT-52367)
+* **AP(1&rbrace;) 또는 MVT(2&rbrace;) 활동에서 위치 이름 변경이 [!UICONTROL Automated Personalization] 단계로 이동한 다음 다시 돌아온 후에도 지속되지 않는 문제를 해결했습니다.[!UICONTROL Multivariate Test][!UICONTROL Targeting]** 고객은 이제 위치 이름을 성공적으로 편집하고 저장할 수 있으며, 변경 내용은 활동 만들기 프로세스 전체에서 계속 표시됩니다. (TGT-52367)
 
 +++
 
