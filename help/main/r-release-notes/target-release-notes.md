@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Target]�
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 45ccd33be239b95d19fc611caea9482f89b02066
+source-git-commit: 65bc050a189b65af57b1258afeff497a0dafcfb5
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 55%
+source-wordcount: '282'
+ht-degree: 44%
 
 ---
 
@@ -29,10 +29,17 @@ ht-degree: 55%
 
 이번 릴리스에는 다음과 같은 업데이트 및 수정 사항이 포함되어 있습니다.
 
-**VEC(시각적 경험 작성기)**
+**[!DNL Recommendations]**
 
 +++세부 정보 보기
-* **AP(1&rbrace;) 또는 MVT(2&rbrace;) 활동에서 위치 이름 변경이 [!UICONTROL Automated Personalization] 단계로 이동한 다음 다시 돌아온 후에도 지속되지 않는 문제를 해결했습니다.[!UICONTROL Multivariate Test][!UICONTROL Targeting]** 고객은 이제 위치 이름을 성공적으로 편집하고 저장할 수 있으며, 변경 내용은 활동 만들기 프로세스 전체에서 계속 표시됩니다. (TGT-52367)
+**고급 검색 필터링이 [!UICONTROL Product Catalog Search]에서 대소문자를 구분하지 않도록 UI를 업데이트했습니다.**: 백 엔드와 GraphQL 쿼리가 모두 대소문자를 구분하지 않지만 [!UICONTROL Advanced Search] 페이지의 [!UICONTROL Product Catalog Search] UI는 이전에 반환된 값에서 정확한 대소문자를 일치했습니다. 이러한 불일치는 혼동을 야기하고 검색 정확도를 감소시켰습니다. [!UICONTROL Advanced Search] 필터링은 이제 대/소문자를 구분하지 않으며 백엔드 동작에 맞게 정렬되고 유용성이 개선되었습니다.
+
++++
+
+**[!UICONTROL Visual Experience Composer (VEC)]**
+
++++세부 정보 보기
+* **AP(1}) 또는 MVT(2}) 활동에서 위치 이름 변경이 [!UICONTROL Automated Personalization] 단계로 이동한 다음 다시 돌아온 후에도 지속되지 않는 문제를 해결했습니다.[!UICONTROL Multivariate Test][!UICONTROL Targeting]** 고객은 이제 위치 이름을 성공적으로 편집하고 저장할 수 있으며, 변경 내용은 활동 만들기 프로세스 전체에서 계속 표시됩니다. (TGT-52367)
 
 +++
 
@@ -41,7 +48,7 @@ ht-degree: 55%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 노트: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
