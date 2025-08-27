@@ -4,9 +4,9 @@ description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 리디렉�
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
 workflow-type: tm+mt
-source-wordcount: '1430'
+source-wordcount: '1431'
 ht-degree: 50%
 
 ---
@@ -19,6 +19,27 @@ ht-degree: 50%
 
 +++답변
 예. 구현에서 [!DNL at.js]을(를) 사용하는 경우 지원합니다. 그러나 Analytics를 보고 소스로 사용하는 활동에서 [리디렉션 오퍼](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94)를 사용하기 위해서는 구현이 아래 나열된 최소 요구 사항을 충족해야 합니다.
+
++++
+
+## ![Adobe Experience Platform Web SDK 배지](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]에서 A4T에 대한 리디렉션 오퍼를 지원합니까? {#platform}
+
++++답변
+다음 FAQ는 [!DNL Platform Web SDK]에서 A4T 및 리디렉션 오퍼를 사용하는 방법에 대한 자세한 정보를 제공합니다.
+
++++
+
+### Analytics for Target(A4T)에서 리디렉션 오퍼를 지원합니까?
+
++++답변
+예. Platform Web SDK을 통한 A4T는 [리디렉션 오퍼](/help/main/c-experiences/c-manage-content/offer-redirect.md)를 지원합니다.
+
++++
+
+### [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 및 [!UICONTROL Form-Based Experience Composer]이(가) 지원됩니까?
+
++++답변
+예. 기본 제공 리디렉션 오퍼를 사용하는 경우 [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC) 및 [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)이(가) 지원됩니다.
 
 +++
 
@@ -63,7 +84,7 @@ ht-degree: 50%
 ## 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 카운트되는 이유는 무엇입니까? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++답변
-at.js 버전 1.6.3 이상을 사용하는 경우 두 페이지에서 페이지 보기 수를 계산하는 것은 문제가 되지 않습니다. 이 경합 조건은 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀에서는 at.js의 현재 버전과 바로 전 버전, 이렇게 두 버전을 유지 관리합니다. [지원되는 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 실행 중인지 확인하려면 at.js를 필요에 따라 업그레이드하십시오.
+at.js 버전 1.6.3 이상을 사용하는 경우 두 페이지에서 페이지 보기 수를 계산하는 것은 문제가 되지 않습니다. 이 경합 조건은 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀에서는 at.js의 현재 버전과 바로 전 버전, 이렇게 두 버전을 유지 관리합니다. [지원되는 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 실행 중인지 확인하려면 at.js를 필요에 따라 업그레이드하십시오.
 
 at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션이 첫 페이지에서 실행되기 전에 Analytics 호출이 실행될 수 있는 경합 조건이 발생할 수 있습니다. 이 경우 원래 페이지 및 리디렉션 페이지의 페이지 보기가 모두 카운트될 수 있습니다. 실제로는 방문자에게 첫 번째 페이지가 &quot;표시&quot;되지 않았는데 첫 번째 페이지에 추가 페이지 보기가 발생할 수 있습니다.
 
@@ -142,24 +163,6 @@ Adobe에서는 IT 팀에 얘기해서 `adobe_mc_ref` 및 `adobe_mc_sdid`이(가)
 
 +++답변
 아니요, [!DNL Analytics]를 보고 소스로 사용(A4T)하는 활동에는 기본 제공 리디렉션 오퍼를 사용해야 합니다. [!DNL Target]의 관점에서 HTML 오퍼는 불투명합니다. [!DNL Target]은 HTML의 특정 부분이 리디렉션을 인스턴스화하는 JavaScript를 포함한다는 것을 알 수 없습니다.
-
-+++
-
-## ![Adobe Experience Platform Web SDK 배지](/help/main/assets/platform.png) [!DNL Adobe Experience Platform Web SDK]에서 A4T에 대한 리디렉션 오퍼를 지원합니까? {#platform}
-
-다음 FAQ는 [!DNL Platform Web SDK]에서 A4T 및 리디렉션 오퍼를 사용하는 방법에 대한 자세한 정보를 제공합니다.
-
-### Analytics for Target(A4T)에서 리디렉션 오퍼를 지원합니까?
-
-+++답변
-예. Platform Web SDK을 통한 A4T는 [리디렉션 오퍼](/help/main/c-experiences/c-manage-content/offer-redirect.md)를 지원합니다.
-
-+++
-
-### [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 및 [!UICONTROL Form-Based Experience Composer]이(가) 지원됩니까?
-
-+++답변
-예. 기본 제공 리디렉션 오퍼를 사용하는 경우 [[!UICONTROL Visual Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)(VEC) 및 [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)이(가) 지원됩니다.
 
 +++
 
