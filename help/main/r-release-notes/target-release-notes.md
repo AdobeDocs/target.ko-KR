@@ -4,10 +4,10 @@ description: SDK, API, JavaScript 라이브러리를 포함하여 [!DNL Target]�
 title: 예정된 [!DNL Target] 릴리스에는 어떤 새로운 기능과 개선 사항이 포함됩니까?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 65bc050a189b65af57b1258afeff497a0dafcfb5
+source-git-commit: be371f3631d79c65c632a23776ab08de21b031eb
 workflow-type: tm+mt
-source-wordcount: '282'
-ht-degree: 44%
+source-wordcount: '2610'
+ht-degree: 7%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 44%
 
 이 문서에는 SDK, API 및 JavaScript 라이브러리를 포함하여 예정된 [!DNL Adobe Target] 릴리스에 대한 프리릴리스 정보가 포함되어 있습니다.
 
-**마지막 업데이트: 2025년 8월 21일**
+**마지막 업데이트: 2025년 8월 27일**
 
 >[!NOTE]
 >
@@ -29,17 +29,128 @@ ht-degree: 44%
 
 이번 릴리스에는 다음과 같은 업데이트 및 수정 사항이 포함되어 있습니다.
 
+**[!UICONTROL Activities]**
+
++++세부 정보 보기
+* **활동 만들기 프로세스 중에 예약된 활동이 업데이트된 UI에서 &quot;[!UICONTROL Live]&quot; 상태를 잘못 표시하는 문제가 해결되었습니다.**: 향후 활성화 날짜가 있는 활동이 이제 &quot;[!UICONTROL Scheduled]&quot; 상태를 올바르게 표시합니다. (TGT-53187)
+* **예약된 활동이 페이지를 새로 고칠 때까지 [!UICONTROL Live] 상태를 잘못 표시함**: 고객이 미래 날짜 및 시간에 활동을 라이브로 예약하는 경우 상태가 처음에 [!UICONTROL Live] 대신 [!UICONTROL Scheduled]&#x200B;(으)로 표시되었다고 보고했습니다. 이는 올바른 스케줄링 행동을 나타내는 확인 메시지에도 불구하고 혼동을 초래하였다. 이제 페이지 새로 고침 없이도 활동 상태가 저장 후 즉시 [!UICONTROL Scheduled]을(를) 정확하게 반영합니다. (TGT-52937)
+* **복제된 경험에 대한 변경 내용이 원래 경험에 의도하지 않게 영향을 주었습니다**: 고객이 활동 내에서 경험을 복제하고 새 대상을 할당할 때 디자인 또는 기준과 같이 복제된 경험에 대한 모든 변경 내용이 원래 경험에도 반영되었다고 보고했습니다. 이를 통해 독립적인 변형을 만들 수 없었고 프로덕션 워크플로우에 영향을 주었습니다. 이제 복제된 경험을 원본 버전에 영향을 주지 않고 독립적으로 편집할 수 있습니다. (TGT-53361)
+* **`InvalidProperty.Json` 오류로 인해 고객이 활동을 저장할 수 없는 문제를 해결했습니다**: 이전에는 고객이 변경하지 않고 활동을 저장하려고 할 때 &quot;잘못된 사용자 입력&quot; 오류가 발생했습니다. JSON 페이로드에 인식할 수 없는 속성 이름 &#39;content&#39;로 인해 오류가 발생했습니다. 이 문제는 해결되었으며, 수정되지 않은 경우에도 활동을 업데이트된 UI에 성공적으로 저장할 수 있습니다. (TGT-53513)
+
++++
+
+**Analytics for Target (A4T)**
+
++++세부 정보 보기
+* **A4T 활동을 만들 때 보고서 세트 이름을 입력할 수 없음**: 업데이트된 UI에서 [!UICONTROL Report Suite]을(를) 보고 소스로 선택할 때 고객이 [!UICONTROL Analytics] 드롭다운에 입력할 수 없습니다.  이 문제로 인해 특히 목록이 큰 조직의 경우 특정 보고서 세트를 찾는 것이 어려웠습니다. 이제 드롭다운에서 이름별로 입력 및 검색을 지원하므로 활동 만들기 프로세스 동안 효율성이 향상됩니다. (TGT-53345)
+
++++
+
+**[!UICONTROL Audiences]**
+
++++세부 정보 보기
+* **만료된 &quot;시간대&quot; 대상자가 제거 후에도 활동 저장을 차단했습니다**: 이전에는 해당 대상자가 제거된 후에도 이전에 만료된 &quot;시간대&quot; 대상자를 포함했다면 고객은 활동을 저장할 수 없었습니다. 이 문제는 활동 전용 대상의 유효성 검사가 지속되어 오류가 계속 트리거되었기 때문에 발생했습니다. 이제 만료된 대상자가 제거되면 활동을 예상대로 저장할 수 있습니다. (TGT-53517)
+* **활동을 저장한 후 추가 페이지 및 여러 대상이 사라짐**: 이전에는 활동 만들기 프로세스에서 [!UICONTROL A/B Test] 활동을 만든 고객이 저장한 후 구성된 추가 페이지 및 여러 대상이 손실되었습니다. 이 동작은 예기치 않았으며 설정 중에 혼동을 일으켰습니다. 이제 활동을 저장한 후 이러한 구성이 올바르게 유지됩니다. (TGT-52357)
+
++++
+
+**의사 결정 오퍼**
+
++++세부 정보 보기
+* **업데이트된 VEC에서 의사 결정 오퍼를 편집하거나 특정 페이지 요소를 선택할 수 없음**: 업데이트된 UI에서 고객이 기존 활동을 업데이트하거나 새 활동을 만드는 기능을 차단한 여러 문제가 발생했습니다.
+
+   * 의사 결정 오퍼가 HTML 오퍼로 잘못 표시되어 편집할 수 없습니다.
+   * VEC에서 특정 페이지 요소를 선택할 수 없습니다.
+   * 편집 중에 변경한 사항이 저장되지 않았습니다.
+   * 특정 지역 URL이 VEC에서 제대로 로드되지 않아 수동으로 쿠키를 조정해야 합니다.
+
+  이제 고객이 의사 결정 오퍼를 편집하고, 페이지 요소를 정확하게 선택하고, 예상대로 변경 사항을 저장할 수 있습니다. 지역 페이지도 VEC에 올바르게 로드됩니다. (TGT-53425)
+
+* **저장한 후 예기치 않게 오퍼 결정 선택기를 수정하고 변경할 수 없습니다**: 고객이 업데이트된 UI에서 오퍼 결정을 적용할 때 선택기를 기본값에서 변경할 수 없다고 보고했습니다. 선택기 수정 시도(예: `#tf-cq-hr or body`(으)로)가 무시되었으며 활동을 저장한 후 선택기가 `#cdq_element_0`과(와) 같은 일반 값으로 대체되었습니다. 이 문제로 인해 오퍼가 VEC(시각적 경험 작성기)에서 사라지고 추가 편집 내용이 차단되었습니다. 이제 고객은 의도한 대로 오퍼 결정 선택기를 수정할 수 있으며 저장된 선택기는 예기치 않은 변경 없이 올바르게 유지됩니다. (TGT-53433)
+* **저장한 후 오퍼 결정이 활동에서 사라짐**: 고객이 활동을 저장한 후 업데이트된 UI의 페이지 요소에 적용된 오퍼 결정이 더 이상 표시되지 않는다고 보고했습니다. 선택기가 예기치 않게 변경되고 다시 편집 시 오퍼가 VEC에서 렌더링되지 않는 경우가 있었습니다. 이제 저장 후 오퍼 결정이 올바르게 유지되고 선택기가 안정적으로 유지되므로 오퍼가 예상대로 표시되고 편집할 수 있습니다. (TGT-53434)
+
++++
+
+**경험 조각**
+
++++세부 정보 보기
+* **고객이 [!UICONTROL Experience Fragments] 또는 [!UICONTROL Insert Before]을(를) 사용하여[!UICONTROL Insert After]**&#x200B;을(를) 삽입하는 동안 오류가 발생했습니다. 고객은 업데이트된 UI에서 [!UICONTROL Experience Fragments] 또는 [!UICONTROL Insert Before] 옵션을 사용하여 [!UICONTROL Insert After]을(를) 활동에 삽입하려고 할 때 오류가 발생했습니다. 표시되는 오류 메시지는 다음과 같습니다.
+
+  &quot;오퍼 콘텐츠에는 정확히 하나의 HTML 요소가 포함되어야 합니다.&quot;
+
+  이 문제는 업데이트된 UI에만 해당되며 이전 버전에서는 발생하지 않았습니다. 이제 해결되었으며 고객은 이 오류가 발생하지 않고 [!UICONTROL Experience Fragments]을(를) 삽입할 수 있습니다. (TGT-53432)
+
+* **활동에 [!UICONTROL Experience Fragment]을(를) 추가할 때 오류 메시지**: 이전에는 [!UICONTROL Experience Fragment] 또는 [!UICONTROL Insert Before] 옵션을 사용하여 [!UICONTROL Insert After]을(를) 삽입하려는 고객에게 다음과 같은 오류가 발생했습니다. &quot;오퍼 콘텐츠에 정확히 하나의 HTML 요소가 있어야 합니다.&quot; 조각이 유효하고 레거시 UI에서 수락됨에도 불구하고 이 오류가 발생했으며, 레거시 UI에는 이 구성을 지원하기 위한 토글이 포함되어 있습니다. 문제가 업데이트된 VEC에서 해결되었습니다. (TGT-53442)
+
++++
+
+**로컬라이제이션**
+
++++세부 정보 보기
+* **[!UICONTROL Goals & Settings] 단계의 Toast 메시지가 현지화되지 않았습니다**: 이전에는 고객이 활동 만들기 프로세스 중에 [!UICONTROL Objective] 필드에 지원되지 않는 문자(예: 이모지)를 입력할 때 현지화되지 않은 toast 메시지가 발생했습니다. 이제 지원되는 모든 언어에서 Toast 메시지가 올바르게 현지화되어 글로벌 고객이 일관되고 액세스할 수 있는 환경을 유지할 수 있습니다. (TGT-52251)
+* **[!UICONTROL Create Audience] 대화 상자의 문자열이 현지화되지 않았습니다**: 이전에는 시간 프레임 특성을 구성할 때 &quot;&#39;repeat 안 함&#39;의 시작 또는 종료 날짜를 선택하십시오&quot;라는 메시지가 [!UICONTROL Create Audience] 모달에 현지화되지 않은 상태로 표시되었습니다. 이제 문자열이 지원되는 모든 언어에서 올바르게 현지화되어 [!UICONTROL Audiences] 워크플로우에서 글로벌 고객의 일관된 환경을 보장합니다. (TGT-52253)
+* **[!UICONTROL Create Audience] 대화 상자의 도구 설명이 현지화되지 않았습니다**: 이전에는 고객이 대상 이름 필드에 지원되지 않는 문자(예: 이모지)를 입력한 후 오류 도구 설명을 마우스로 가리키면 도구 설명이 현지화되지 않은 것으로 표시되었습니다. 이제 도구 설명에 지원되는 모든 언어에 대해 올바르게 지역화된 메시징이 표시되므로 [!UICONTROL Audiences] 워크플로우에서 일관되고 액세스 가능한 환경이 보장됩니다. (TGT-52254)
+
++++
+
 **[!DNL Recommendations]**
 
 +++세부 정보 보기
-**고급 검색 필터링이 [!UICONTROL Product Catalog Search]에서 대소문자를 구분하지 않도록 UI를 업데이트했습니다.**: 백 엔드와 GraphQL 쿼리가 모두 대소문자를 구분하지 않지만 [!UICONTROL Advanced Search] 페이지의 [!UICONTROL Product Catalog Search] UI는 이전에 반환된 값에서 정확한 대소문자를 일치했습니다. 이러한 불일치는 혼동을 야기하고 검색 정확도를 감소시켰습니다. [!UICONTROL Advanced Search] 필터링은 이제 대/소문자를 구분하지 않으며 백엔드 동작에 맞게 정렬되고 유용성이 개선되었습니다.
+* **라이브 활동에서 [!UICONTROL Front Promotion]을(를) 비활성화할 수 없음**: 고객이 업데이트된 UI를 사용하여 라이브 활동에서 [!UICONTROL Front Promotion]을(를) 비활성화할 수 없는 문제가 해결되었습니다. 활동 만들기 프로세스 동안 프로모션 섹션에서 변경된 사항이 예상대로 유지되므로 [!UICONTROL Product Catalog Search]에서 라이브 활동을 정확하게 구성할 수 있습니다. (TGT-53231)
+* **중복된 경험의 권장 사항을 편집하면 원본 경험에 영향을 미침**: 고객이 활동 내에서 경험을 복제하고 중복에서 권장 사항 디자인 또는 기준을 수정할 때 이러한 변경 사항이 실수로 원본 경험에 적용되었다고 보고했습니다.  이 문제로 인해 독립 변형이 생성되지 않았으며 업데이트된 활동 만들기 프로세스에서 예상 동작이 중단되었습니다. 이제 복제된 경험을 원본 버전에 영향을 주지 않고 독립적으로 편집할 수 있습니다. (TGT-53369)
+* **[!UICONTROL Recommendations] 탭에서 컬렉션 또는 제외를 편집할 때 제품 목록을 볼 수 없음** 이전에는 적용된 규칙으로 필터링된 제품 목록이 편집 모달에 표시되지 않아서 고객이 어떤 제품을 포함 또는 제외했는지 확인하기 어려웠습니다. 이제 규칙이 수정되면 제품 목록이 올바르게 표시되고 실시간으로 업데이트되므로 업데이트된 [!DNL Recommendations] UI의 가시성과 유용성이 향상됩니다. (TGT-53481)
+* **[!UICONTROL View Details] 탭에서 [!UICONTROL Recommendations] 대화 상자의 레이아웃을 업데이트했습니다**: 이전에는 [!UICONTROL View Details] 대화 상자에 명확한 구조가 없으므로 고객이 항목별 및 인벤토리 관련 정보에 액세스하는 데 어려움이 있었습니다. 레이아웃이 두 개의 탭을 포함하도록 업데이트되었습니다. 한 탭에는 선택한 항목에 대한 세부 정보가 표시되고 두 번째 탭에는 현재 컬렉션 또는 제외 규칙으로 필터링된 인벤토리가 표시됩니다. 이 개선 사항을 통해 업데이트된 [!DNL Recommendations] UI의 명확성과 유용성이 향상되었습니다. (TGT-53503)
+* **고객이 [!UICONTROL Goals & Settings] 드롭다운에서 보고서 세트를 검색할 수 없음**: 이전에는 활동 만들기 프로세스의 [!UICONTROL Goals & Settings] 섹션에 있는 보고서 세트 드롭다운에서 검색을 위한 텍스트 입력을 지원하지 않아 많은 보고서 세트를 보유한 고객이 올바른 보고서 세트를 찾기 어려웠습니다. 기존 UI에서 사용할 수 있는 이 기능이 복원되었습니다. 이제 고객은 를 입력하여 보다 효율적으로 보고서 세트를 검색 및 선택할 수 있습니다. (TGT-53514)
+* **고객이 [!DNL Recommendations] UI에서 사용자 지정 기준 CSV를 다운로드할 수 없음**: 이전에는 [!UICONTROL Recommendations] 탭에서 사용자 지정 기준 CSV에 대한 다운로드 링크를 클릭하면 404 오류가 반환되었고 새 탭에서 열지 못했습니다. 이제 다운로드 링크가 새 탭에서 열리고 CSV 파일을 올바르게 제공하므로 사용자 지정 기준을 관리하는 고객의 접근성과 유용성이 향상됩니다. (TGT-51966)
+* **입력 데이터 없이 [!UICONTROL Recommendations] 프로모션을 사용하면 일반 오류 메시지가 트리거되었습니다**: 이전에는 필수 필드를 지정하지 않고 권장활동 활동에서 전면 또는 후면 프로모션을 사용하는 고객에게 `error.restapi.missingFields` 코드와 함께 모호한 &quot;잘못된 입력 오류&quot;가 발생했습니다. 이제 시스템에서 누락된 필드를 나타내는 명확하고 실행 가능한 오류 메시지를 제공하므로 활용성이 향상되고 활동 만들기 프로세스 중 혼동이 줄어듭니다. (TGT-52616)
+* **제품 썸네일 및 이미지가[!UICONTROL Catalog Search]**&#x200B;에서 일관되게 로드되지 않음: 특히 열 가시성을 탐색 또는 수정한 후 [!UICONTROL Catalog Search]의 제품 썸네일 및 전체 크기 이미지가 간헐적으로 누락되었거나 끊겼다고 고객이 보고했습니다. 이제 열 설정이나 탐색 동작에 관계없이 썸네일과 이미지가 안정적으로 로드되어 [!UICONTROL Recommendations] 워크플로우의 전반적인 환경이 개선됩니다. (TGT-52778)
+* **[!UICONTROL Designs] 환경에서 [!UICONTROL Criteria] 및 [!UICONTROL Stage]을(를) 만들 수 없음**: [!UICONTROL Designs] 환경의 [!UICONTROL Criteria] 탭에서 [!UICONTROL Recommendations] 또는 [!UICONTROL Stage]을(를) 만드는 동안 고객에게 &quot;잘못된 사용자 입력&quot; 오류가 발생했습니다. 이제 고객은 [!UICONTROL Designs] 환경에서 오류 없이 [!UICONTROL Criteria] 및 [!UICONTROL Stage]을(를) 만들 수 있습니다. (TGT-53205)
+* **[!UICONTROL Promotions]이(가) 저장 후 [!UICONTROL Recommendations] 활동에서 제거되지 않았습니다.**: 고객이 [!DNL Recommendation] 활동에 추가된 프로모션이 제거 및 저장된 후에도 계속 표시된다고 보고했습니다. 이 문제는 스테이징 및 프로덕션 환경 모두에 영향을 주었고 여러 번 저장 시도 시에도 지속되었습니다. 이제 프로모션에 업데이트된 활동 만들기 프로세스에서 활동 편집 중에 변경된 사항이 올바르게 반영됩니다. (TGT-53490)
+
++++
+
+**[!UICONTROL Reports]**
+
++++세부 정보 보기
+* **[!UICONTROL Automated Segments]이(가) 활동 보고서에 null 대상을 표시함**: 고객은 올바른 세그먼트 데이터가 필요하지만 활동의 [!UICONTROL Automated Segments] 섹션에서 [!UICONTROL Reports]을(를) 볼 때 대상 필드가 null로 표시되었음을 확인했습니다. 이 문제는 대상 타기팅에 대한 가시성 및 보고 정확성에 영향을 주었습니다. 이제 [!UICONTROL Automated Segments]이(가) 활동 보고서에 연결된 대상 정보를 올바르게 표시합니다. (TGT-52793)
+* **활동 보고서를 CSV 형식으로 다운로드하지 못했습니다**: [!UICONTROL Reports] 탭에서 활동 보고서를 내보내려는 고객이 CSV 다운로드 옵션을 선택할 때 오류가 발생했습니다. 이 문제는 표준 보고서와 주문 세부 사항 내보내기 모두에 영향을 주었습니다. 이제 보고서가 CSV 형식으로 올바르게 다운로드됩니다. (TGT-53464)
+
++++
+
+**단일 페이지 응용 프로그램(SPA)**
+
++++세부 정보 보기
+* **[!UICONTROL Browse]과(와) [!UICONTROL Design] 모드 간을 전환하면 웹 편집기에서 SPA(단일 페이지 응용 프로그램) 상태가 재설정됩니다**: 고객이 VEC에서 [!UICONTROL Browse]과(와) [!UICONTROL Design] 모드 간을 전환하면 웹 편집기가 다시 로드되어 SPA 상태가 재설정되고 활동 만들기 프로세스가 중단된다고 보고했습니다. 이제 편집기에서는 모드를 전환할 때 SPA 탐색 상태를 유지하여 보다 원활하고 일관된 편집 환경을 보장합니다. (TGT-53074)
 
 +++
 
 **[!UICONTROL Visual Experience Composer (VEC)]**
 
 +++세부 정보 보기
-* **AP(1&rbrace;) 또는 MVT(2&rbrace;) 활동에서 위치 이름 변경이 [!UICONTROL Automated Personalization] 단계로 이동한 다음 다시 돌아온 후에도 지속되지 않는 문제를 해결했습니다.[!UICONTROL Multivariate Test][!UICONTROL Targeting]** 고객은 이제 위치 이름을 성공적으로 편집하고 저장할 수 있으며, 변경 내용은 활동 만들기 프로세스 전체에서 계속 표시됩니다. (TGT-52367)
+* **AP([!UICONTROL Automated Personalization]) 또는 MVT([!UICONTROL Multivariate Test]) 활동에서 위치 이름 변경은 [!UICONTROL Targeting] 단계로 이동한 다음 다시 돌아온 후에도 지속되지 않습니다.** 고객은 이제 위치 이름을 성공적으로 편집하고 저장할 수 있으며, 변경 내용은 활동 만들기 프로세스 전체에서 계속 표시됩니다. (TGT-52367)
+* **[!UICONTROL Stage] 환경의 테넌트에 표시되는 레거시 VEC UI**: [!UICONTROL Stage] 환경의 특정 테넌트에 액세스할 때 업데이트된 VEC 대신 레거시 UI가 잘못 표시되는 문제가 해결되었습니다. 이 문제는 여러 로그인 경로에서 재현할 수 있으며 [!UICONTROL Activities] 섹션에 영향을 주었습니다. 이제 업데이트된 UI가 [!UICONTROL Stage] 환경의 두 테넌트에 대해 올바르게 표시됩니다. (TGT-52261)
+* **배경색을 선택하면 업데이트된 VEC에서 페이지가 충돌합니다**:
+업데이트된 VEC의 [!UICONTROL Style] 패널에서 배경색을 선택하면 페이지가 충돌하고 비어 있는 문제가 해결되었습니다. 콘솔 오류가 정의되지 않은 요소에서 속성을 읽지 못했음을 나타냅니다. 특히 `querySelector`과(와) 관련성이 있습니다. 이제 고객은 충돌을 트리거하지 않고 배경색을 안전하게 선택할 수 있습니다. (TGT-53561)
+* **잘못된 사용자 입력 오류로 인해 활동을 저장할 수 없습니다.**: 업데이트된 VEC에서 기존 활동을 저장하려고 할 때 발생하는 오류를 해결했습니다. 이 오류는 동일한 속성으로 새 활동을 만들 때가 아니라 편집 중에만 발생했습니다. 포함된 오류 메시지:
+
+  `Invalid Json. Unrecognized property name 'content'. Location: line - 1, column - 432.`
+
+  이제 영향을 받는 속성을 사용하는 활동을 편집한 후 저장할 수 있습니다. (TGT-53507)
+
+* **투명 이미지에 업데이트된 VEC에서 &quot;fmt=png-alpha&quot; 매개 변수가 더 이상 포함되지 않음**: 고객이 업데이트된 UI에서 이미지를 바꿀 때 투명 배경이 더 이상 유지되지 않는다고 보고했습니다. 업데이트된 VEC에서 생성된 이미지 URL에서 `fmt=png-alpha` 매개 변수를 생략하여 이전에 이전 UI에서 투명도를 보장했습니다. 이제 업데이트된 UI가 투명 이미지에 대한 `fmt=png-alpha` 매개 변수를 올바르게 추가하여 예상 렌더링 동작을 복원합니다. (TGT-52615)
+* **고객이 두 위치를 추가하지 않으면 AP 활동에서 타깃팅 섹션으로 진행할 수 없습니다**: 업데이트된 UI에서 [!UICONTROL Automated Personalization]&#x200B;(AP) 활동을 만드는 고객은 두 위치를 추가하지 않으면 타깃팅 섹션으로 진행할 수 없습니다. 이 동작은 한 위치로도 충분했던 이전 UI와 다릅니다. 이 문제로 인해 한 위치만 사용하려는 고객의 활동 생성 및 저장이 차단되었습니다. 이제 고객은 타겟팅을 진행하고 단일 위치에서 AP 활동을 저장하여 예상 기능을 복원할 수 있습니다. (TGT-53426)
+* **경험을 전환할 때 작업 영역에서 HTML 오퍼가 중복됨**: 이전에는 고객이 경험 간에 전환한 후 작업 영역의 복제된 경험 콘텐츠에 HTML 오퍼를 삽입했습니다. 이 문제로 인해 작업 영역이 스크롤할 수 없게 되어 사용성에 영향을 미칩니다. HTML 오퍼가 더 이상 중복되지 않으며 업데이트된 VEC에서 경험을 전환할 때 작업 영역을 스크롤할 수 있습니다. (TGT-53487)
+* **CSS 선택기를 수동으로 업데이트하면 VEC 화면이 비어 있음**: 고객이 VEC에서 오퍼를 편집하는 동안 CSS 선택기를 수동으로 업데이트하면 선택기가 유효하고 페이지에 있는 경우에도 빈 화면이 트리거된다고 보고했습니다. 활동 만들기 프로세스 중에 선택기를 수동으로 업데이트할 때 이제 VEC 화면이 안정적으로 유지됩니다. (TGT-53553)
+* **에서 &#39;지정된 날짜 및 시간&#39;을 선택할 때 시작 날짜 필드의[!UICONTROL Goals & Settings]**&#x200B;잘림 문제: 고객이 활동을 만드는 동안 [!DNL Start date] 페이지의 기간 섹션에서 지정된 날짜 및 시간 옵션을 선택할 때 [!UICONTROL Goals & Settings] 필드에 잘림 문제가 발생했습니다. 이제 지원되는 로케일에서 전체 날짜 및 시간이 올바르게 표시됩니다. (TGT-47843)
+* **레일에서 브라우저를 최소화할 때 [!UICONTROL Manage Content]필터 아이콘이 사라짐**: 브라우저 창의 크기를 조정하거나 최소화할 때 [!UICONTROL Manage Content] 활동 만들기 흐름의 [!UICONTROL Automated Personalization] 레일에 있는 필터 아이콘이 사라졌다고 고객이 보고했습니다. 이제 필터 아이콘이 브라우저 크기에 상관없이 표시되고 액세스할 수 있으므로 화면 해상도 전체에서 유용성이 향상됩니다. (TGT-51449)
+
++++
+
+**[!UICONTROL Workspaces]**
+
++++세부 정보 보기
+* **단일 작업 영역으로 제한된 고객은 다른 작업 영역의 활동을 볼 수 있습니다**: 특정 작업 영역으로 제한된 액세스 권한이 있는 고객은 업데이트된 UI에서 [!UICONTROL All Workspaces]을(를) 선택하고 다른 작업 영역의 활동을 볼 수 있습니다. 이 동작은 지정된 범위를 벗어나는 라이브 활동에 의도하지 않은 변경이 발생할 위험이 있었습니다. 이제 Workspace 제한이 올바르게 적용되며, 고객은 할당된 작업 영역 내에서만 활동을 볼 수 있습니다. (TGT-53101)
+* **고객은 액세스 권한 없이 [!UICONTROL Default Workspace]의 활동을 볼 수 있습니다**: 고객은 액세스 권한이 없더라도 [!UICONTROL Default Workspace]의 활동을 볼 수 있습니다. 이제 Workspace 권한이 업데이트된 UI에 올바르게 적용되어 고객이 할당된 작업 영역과 연결된 활동만 볼 수 있습니다. (TGT-53297)
 
 +++
 
@@ -48,7 +159,7 @@ ht-degree: 44%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 노트: Adobe Target Platform Experience Web SDK]&#x200B;(https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=e n) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 프리릴리스 정보 {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
