@@ -13,7 +13,7 @@ ht-degree: 1%
 
 # 활동 변경 로그
 
-[!DNL Adobe Target] [!UICONTROL Change Log]은(는) 변경된 내용, 변경한 사람, 발생한 시간 등 활동 작업을 기록합니다. [!UICONTROL Change Log] 페이지는 실시간 인사이트를 위해 [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}에서 채워집니다.
+[!DNL Adobe Target] [!UICONTROL Change Log]은(는) 변경된 내용, 변경한 사람, 발생한 시간 등 활동 작업을 기록합니다. [!UICONTROL Change Log] 페이지는 실시간 인사이트를 위해 [[!UICONTROL Audi Query API]](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}에서 채워집니다.
 
 [!UICONTROL Change Log] 페이지에 액세스하려면:
 
