@@ -52,7 +52,7 @@ ht-degree: 20%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++세부 정보 보기
 * **함수 누락으로 인해 [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC)을(를) 사용하여 &quot;쿠키 수락&quot;을 클릭하지 못했습니다**: 고객이 EEC를 통해 쿠키를 수락하려고 하면 콘솔 오류가 발생한다고 보고했습니다. `handleclickAcceptAllButton is not defined`. 이제 쿠키 수락 기능이 예상대로 작동하여 업데이트된 UI에서 활동을 만드는 동안 더 원활한 경험을 보장합니다. (TGT-52794)
