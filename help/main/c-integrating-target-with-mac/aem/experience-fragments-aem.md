@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Experience Manager] [!UICONTROL Experience Fragments]
 title: ' [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Experience Fragments]을(를) 사용하는 방법'
 feature: Integrations
 exl-id: 400d0cde-e435-4cac-9bf0-64a6cad98995
-source-git-commit: b29614680b27c9c33f11eed85d8ab4feebc28b0d
+source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
 workflow-type: tm+mt
 source-wordcount: '1084'
 ht-degree: 26%
@@ -58,10 +58,10 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
 
 자세한 내용은 다음 문서를 참조하십시오.
 
-* **AEM as a Cloud Service**: [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} 안내서의 *Adobe Target과 통합*
-* **Adobe Developer**: [관리 사용 안내서](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html?lang=ko){target=_blank} 설명서에서 *Adobe I/0*&#x200B;을(를) 사용하여 Adobe Target과 통합
+* **AEM as a Cloud Service**: [Experience Manager as a Cloud Service](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target){target=_blank} 안내서의 *Adobe Target과 통합*
+* **Adobe Developer**: [관리 사용 안내서](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-target-ims-adobe-io.html){target=_blank} 설명서에서 *Adobe I/0*&#x200B;을(를) 사용하여 Adobe Target과 통합
 * **[!DNL AEM]6.5**: [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=ko){target=_blank} 설명서의 *Adobe Analytics 및 Adobe Target 선택*.
-* **[!DNL AEM]6.4**: [Adobe Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=ko){target=_blank} 설명서의 *Adobe Analytics 및 Adobe Target 선택*.
+* **[!DNL AEM]6.4**: [Adobe Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html){target=_blank} 설명서의 *Adobe Analytics 및 Adobe Target 선택*.
 
 ### 2단계: 경험 조각 만들기
 
@@ -84,9 +84,9 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
 
 [!DNL AEM] 버전에 따른 단계별 지침은 다음 링크를 참조하십시오.
 
-* **AEM as a Cloud Service**: [Experience Manager as a Cloud Service[!UICONTROL Experience Fragments] 안내서에서 ](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}Adobe Target으로 *내보내기*
+* **AEM as a Cloud Service**: [Experience Manager as a Cloud Service[!UICONTROL Experience Fragments] 안내서에서 ](https://experienceleague.adobe.com/en/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}Adobe Target으로 *내보내기*
 * **[!DNL AEM]6.5**: [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=ko){target=_blank} 설명서의 *Target으로 경험 조각 내보내기*.
-* **[!DNL AEM]6.4**: [Adobe Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ko){target=_blank} 설명서의 *Target으로 경험 조각 내보내기*.
+* **[!DNL AEM]6.4**: [Adobe Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html){target=_blank} 설명서의 *Target으로 경험 조각 내보내기*.
 
 ## [!UICONTROL Experience Fragments] 활동에서 [!DNL Target] 사용 중 {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -134,7 +134,7 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
    * **A/B 테스트:** [A/B 테스트 만들기](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
    * **자동 할당:** [자동 할당](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **자동 타겟팅:** [자동 타겟팅](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
-   * **AP(Automated Personalization):**&#x200B;[Automated Personalization 활동 작성](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **AP(Automated Personalization):**[Automated Personalization 활동 작성](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **경험 타겟팅(XT):** [경험 타겟팅 활동 만들기](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **A/B 테스트 또는 XT 활동의 추천:** [오퍼로서의 추천](/help/main/c-recommendations/recommendations-as-an-offer.md)
 
@@ -164,16 +164,16 @@ AEM에서 제공한 페이지에서 [!UICONTROL Experience Fragment]과(와) 함
 
 경우에 따라 전체 HTML 페이지가 [!UICONTROL Experience Fragment]을(를) 래핑하여 문제가 발생합니다. [!UICONTROL Experience Fragment]이(가) HTML, HEAD, BODY 등이 있는 전체 HTML 페이지가 아닌 작은 HTML 페이지인지 확인합니다.
 
-자세한 내용은 블로그 게시물 [AEM 6.5: Target으로 내보낸 [!UICONTROL Experience Fragments]에서 clientlib 제거](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}를 참조하십시오.
+자세한 내용은 블로그 게시물 [AEM 6.5: Target으로 내보낸 [!UICONTROL Experience Fragments]에서 clientlib 제거](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser/){target=_blank}를 참조하십시오.
 
 ## 교육 비디오: [!UICONTROL Experience Fragments]에서 AEM [!DNL Adobe Target] 사용
 
 다음 비디오는 [!UICONTROL Experience Fragments]을(를) 설정하고 사용하는 방법을 보여 줍니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/34816?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
 
 >[!NOTE]
 >
 >4[!DNL AEM]에 설명된 :54 딥링크 기능이 제거되었습니다.
 
-자세한 내용은 [Adobe Target 비디오 및 자습서[!UICONTROL Experience Fragments] 페이지에서 ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ko)AEM Sites과 함께 *사용*&#x200B;을 참조하십시오.
+자세한 내용은 [Adobe Target 비디오 및 자습서[!UICONTROL Experience Fragments] 페이지에서 ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html)AEM Sites과 함께 *사용*&#x200B;을 참조하십시오.
