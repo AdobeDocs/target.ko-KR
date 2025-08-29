@@ -54,7 +54,7 @@ ht-degree: 17%
 * **보고서 페이지에서 대상을 전환하면 대상 UI에 오류가 발생했습니다**: 고객이 업데이트된 대상 UI의 RepOrts 섹션에서 특정 대상을 선택할 때 오류가 발생했습니다. 이 문제는 백엔드 GraphQL 호출에서 잘못된 대상 처리로 인해 예기치 않은 오류가 발생하고 데이터가 누락되어 발생했습니다. 이 문제는 해결되었으며 이제 데이터를 사용할 수 없는 경우에도 데스크탑 대상자가 오류 없이 로드됩니다. (TGT-53370)
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++세부 정보 보기
 * **함수 누락으로 인해 [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC)을(를) 사용하여 &quot;쿠키 수락&quot;을 클릭하지 못했습니다**: 고객이 EEC를 통해 쿠키를 수락하려고 하면 콘솔 오류가 발생한다고 보고했습니다. `handleclickAcceptAllButton is not defined`. 이제 쿠키 수락 기능이 예상대로 작동하여 업데이트된 UI에서 활동을 만드는 동안 더 원활한 경험을 보장합니다. (TGT-52794)
