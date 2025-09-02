@@ -6,9 +6,9 @@ short-description: ' [!DNL Target]의 현재 릴리스에 포함된 새로운 �
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b178785b1936cff2b55c85e41fc44f230243f849
+source-git-commit: 223a0f62bcd9a52bd9181e0a439e02164abbfec4
 workflow-type: tm+mt
-source-wordcount: '5850'
+source-wordcount: '7159'
 ht-degree: 6%
 
 ---
@@ -75,6 +75,57 @@ ht-degree: 6%
 
 +++
 
+## [!DNL Target Standard/Premium] 25.8.4(2025년 9월 1일)
+
+이번 릴리스에는 다음과 같은 업데이트 및 수정 사항이 포함되어 있습니다.
+
+**[!UICONTROL Activities]**
+
++++세부 정보 보기
+* **고객은[!UICONTROL Activity Overview]**&#x200B;에서 활동 또는 문서 이름을 복사할 수 없습니다. 이전에는 업데이트된 활동 만들기 프로세스에서 [!UICONTROL Activity overview]에서 직접 활동 또는 관련 오퍼/문서를 복사할 수 없었습니다. 이 제한 사항은 특히 작은 화면에서 유용성에 영향을 주었습니다. 이제 고객은 해결 방법 없이 활동과 문서 이름을 모두 쉽게 복사할 수 있습니다. (TGT-51850)
+* **활동을 만드는 동안 조정된 [!DNL Target] 고객 데이터를 사전에 수집**: [!DNL Target] 고객의 보고서, 콘텐츠 및 스크린샷을 사전에 수집하도록 설정하여 활동 만들기 프로세스를 개선했습니다. 이러한 향상된 기능은 기존 사용 사례에서 식별된 데이터 차이를 해결하고 활동 및 실험 설정 중 더 정확한 통찰력을 확보하는 데 도움이 됩니다. (TGT-52415)
+* **AP 활동이 [!UICONTROL Reports] 섹션에서 모델 준비 데이터를 가져오지 못했습니다.**: [!UICONTROL Reports] 섹션에서 Automated Personalization(AP) 활동을 보는 고객은 보고서 그룹 및 오퍼 수준에서 모델 준비 표시기를 볼 수 없습니다. 이 문제는 모델 준비 데이터를 백엔드에서 올바르게 가져오지 않았기 때문에 발생했습니다. 기능이 복원되었으며 이제 모델 준비 데이터가 예상대로 표시됩니다. (TGT-53600 및 TGT-53601)
+* **나중에 예약된 활동이 [!UICONTROL Live] 개요에서 &quot;[!UICONTROL Activity]&quot; 상태를 잘못 표시함**: 고객은 나중에 시작하도록 예약된 활동이 [!UICONTROL Live] 개요에서 &quot;[!UICONTROL Activity]&quot;(으)로 잘못 표시되었음을 관찰했습니다. 이 상태 불일치가 해결되었으며, 이제 페이지를 새로 고칠 필요 없이 예약된 활동이 &quot;[!UICONTROL Scheduled]&quot;(으)로 올바르게 표시됩니다. (TGT-52835)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++세부 정보 보기
+* **제품 목록이 [!UICONTROL View Collection] 대화 상자에 표시되지 않았습니다.** 이전에는 [!UICONTROL Recommendations] 탭에서 컬렉션을 볼 때 고객이 제품 목록을 볼 수 없었습니다. 이제 [!UICONTROL View Collection] 대화 상자에 관련 제품이 올바르게 표시되므로 업데이트된 [!UICONTROL Recommendations] UI의 투명성과 유용성이 향상되었습니다. (TGT-50531)
+* **[!UICONTROL Product Catalog Search] 고급 검색에서 대소문자를 구분하는 필터링을 수행하는 문제가 해결되었습니다**: 이제 [!UICONTROL Product Catalog Search] 페이지의 고급 검색 필터링에서 백엔드와 GraphQL 서비스 모두의 동작에 맞게 대소문자를 구분하는 것을 올바르게 무시합니다. 이 업데이트는 텍스트 대소문자에 관계없이 고객을 위한 일관되고 정확한 제안 결과를 보장합니다. (TGT-53585)
+* **업데이트된 [!UICONTROL Product Catalog Search] UI에서 고급 검색이 제안을 제공하지 않았습니다**: 업데이트된 [!UICONTROL Product Catalog Search] UI에서 고급 검색 기능을 사용하는 고객은 제안이 표시되지 않았으므로 정확한 철자로 정확한 값을 입력해야 합니다. 이 문제로 인해 제품을 효율적으로 찾는 데 어려움을 겪었습니다. 이제 고급 검색 입력 중에 예상대로 제안이 표시됩니다. (TGT-52008)
+* **일부 승인자가[!UICONTROL Product Catalog Search]**&#x200B;에서 제품을 볼 수 없습니다. [!UICONTROL Approver] 권한이 있는 고객은 동일한 역할을 가진 다른 사용자가 액세스 권한을 가지고 있음에도 불구하고 [!UICONTROL Product Catalog Search]에서 제품을 볼 수 없습니다. 이 문제는 권한 불일치가 카탈로그 가시성에 영향을 미쳐 발생했습니다. 이제 모든 승인자가 [!UICONTROL Recommendations] 섹션에서 예상대로 제품을 볼 수 있습니다. (TGT-53617)
+
++++
+
+**[!UICONTROL Reports]**
+
++++세부 정보 보기
+* **잘못된 대상 이름 오류로 인해 데스크톱 대상에 대한 보고서를 로드하지 못했습니다.**: 고객이 활동 만들기 프로세스에서 한 대상에 대한 보고서를 보려고 하면 GraphQL 오류가 발생했습니다. 시스템에서 &quot;잘못된 대상 이름: XXXXX&quot; 메시지를 반환하여 보고 데이터에 액세스할 수 없습니다. 이제 보고서가 데스크탑 대상자에 대해 올바르게 로드됩니다. (TGT-53371)
+* **보고서 페이지에서 대상을 전환하면 대상 UI에 오류가 발생했습니다**: 고객이 [!UICONTROL Reports] 섹션에서 특정 대상을 선택할 때 오류가 발생했습니다. 이 문제는 백엔드 GraphQL 호출에서 잘못된 대상 처리로 인해 예기치 않은 오류가 발생하고 데이터가 누락되어 발생했습니다. 이 문제는 해결되었으며 이제 데이터를 사용할 수 없는 경우에도 데스크탑 대상자가 오류 없이 로드됩니다. (TGT-53370)
+* **[!UICONTROL Graph view]섹션의 [!UICONTROL Reports]에[!DNL Analytics]**&#x200B;의 값이 표시되지 않음: Re[!UICONTROL Graph view]포트 섹션의 에 액세스하는 고객에게 데이터가 누락되었습니다. 모든 값은 0으로 표시됩니다. 이 문제는 [!UICONTROL Analytics]에서 잘못된 데이터 검색으로 인해 발생했습니다. 이제 [!UICONTROL Graph view]에 예상대로 정확한 값이 표시됩니다. (TGT-52792)
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++세부 정보 보기
+* **함수 누락으로 인해 [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC)을(를) 사용하여 &quot;쿠키 수락&quot;을 클릭하지 못했습니다**: 고객이 EEC를 통해 쿠키를 수락하려고 하면 콘솔 오류가 발생한다고 보고했습니다. `handleclickAcceptAllButton is not defined`. 이제 쿠키 수락 기능이 예상대로 작동하여 업데이트된 UI에서 활동을 만드는 동안 더 원활한 경험을 보장합니다. (TGT-52794)
+* **새 EEC UI가 이전 UI에서 이전에 지원된 특정 페이지를 로드하지 못했습니다.**: 고객이 새 EEC가 사이트에서 iframe 버스팅 코드가 있어도 레거시 UI에서 액세스할 수 있었던 일부 페이지를 로드할 수 없다고 보고했습니다. 업데이트된 활동 만들기 프로세스는 이제 이러한 페이지 로드를 지원하며, 활동 만들기 워크플로우에 대한 호환성을 복원합니다. (TGT-53061)
+* **경험을 편집할 때 VEC에 빈 흰색 화면이 표시됨**: 특정 테넌트의 고객이 업데이트된 VEC에서 경험을 편집하려고 할 때 VEC 화면이 비어 있다고 보고했습니다. 이 문제는 새로 생성된 활동과 이전 활동 모두에 영향을 주어 워크플로우 연속성을 방해했습니다. 이제 VEC가 올바르게 로드되어 고객이 중단 없이 경험을 편집할 수 있습니다. (TGT-53547)
+* **특정 활동을 로드할 때 VEC가 충돌하여 빈 화면이 표시됨**: 특정 테넌트의 고객이 VEC가 특정 활동을 로드하지 못했다고 보고했습니다. 경험 편집기가 충돌하기 전에 &quot;초기 수정 사항 적용&quot;에 멈춰 있어 빈 화면이 표시됩니다. 콘솔 오류가 정의되지 않은 속성을 읽지 못했음을 나타냅니다. 이제 편집기는 업데이트된 VEC에서 오류 없이 영향을 받는 활동을 로드합니다. (TGT-53548)
+* **백스페이스를 사용하여 모든 날짜 값을 지우면 페이지가 충돌합니다**: [!UICONTROL Goals & Settings] 섹션에서 활동을 예약하는 고객이 백스페이스를 사용하여 &quot;[!UICONTROL Specified Date & Time]&quot; 필드의 모든 값을 지울 때 충돌이 발생했습니다. 이 문제는 날짜 처리 논리의 null 참조 오류로 인해 발생했습니다. 이제 페이지는 충돌하지 않고 빈 날짜 입력을 정상적으로 처리합니다. (TGT-53624)
+* **잘못된 페이로드로 인해 [!UICONTROL Product Catalog Search]에 제품이 표시되지 않음**: [!UICONTROL Recommendations]의 [!UICONTROL Product Catalog Search] 섹션에 액세스하는 고객이 잘못된 GraphQL 페이로드로 인해 빈 결과를 발견했습니다. 이 백엔드 오류로 인해 제품 데이터가 올바르게 로드되지 않았습니다. 이제 제품이 업데이트된 UI에서 예상대로 표시됩니다. (TGT-53630)
+* **[!DNL Scene7]개의 이미지가 업데이트된 VEC에 낮은 해상도로 저장되었습니다.**: 업데이트된 VEC에서 경험을 편집하는 고객은 [!UICONTROL Scene7]개의 이미지 URL이 해상도 매개 변수 없이 저장되었으므로 낮은 품질의 이미지가 전달됩니다(의도한 800×800 대신 400×400). 이제 이미지 URL은 올바른 해상도를 위해 올바른 매개 변수를 유지합니다. (TGT-52631)
+* **VEC에서 라이브 활동을 편집할 수 있음**: 고객은 업데이트된 VEC에서 라이브 활동에 대한 편집 옵션에 액세스할 수 있으므로 의도하지 않은 변경이 발생할 수 있습니다. 이 문제는 라이브 활동에 대한 편집 기능을 비활성화하여 해결되었습니다. 이제 편집자의 활동 목록 및 개요에서 편집 단추가 표시되지 않지만 승인자 및 기타 역할은 영향을 받지 않습니다. (TGT-53055)
+* **업데이트된 VEC에서 [!UICONTROL Failed] 및 [!UICONTROL Draft] 활동 섹션이 해제됨**: [!UICONTROL Failed] 및 [!UICONTROL Draft] 활동 옵션이 업데이트된 VEC에서 제거되었습니다. 새 UI는 더 이상 초안 상태를 지원하지 않으며 실패한 캠페인은 백엔드에 저장되지 않습니다. 이러한 옵션은 더 이상 관련이 없습니다. 활동 관리를 간소화하기 위해 관련 필터 및 백엔드 필드(예: `uiSyncFailed`, `errorMessage`)도 제거되었습니다. (TGT-53150)
+* **활동에 대한 VEC에 로그인할 수 없음**: VEC를 통해 사이트에 로그인하려는 고객이 반복적으로 로그인 페이지로 리디렉션되어 활동 편집에 액세스할 수 없습니다. 이 문제는 내부적으로 재현할 수 없었고 사이트 측 세션 처리와 관련이 있을 수 있습니다. 로그인 흐름이 안정화되어 이제 고객은 리디렉션 오류 없이 VEC에 액세스할 수 있습니다. (TGT-53524)
+* **[!UICONTROL Browse] 모드에서 뒤로 단추를 두 번 누르면 VEC가 충돌합니다**: VEC에서 [!UICONTROL Browse] 모드를 탐색하는 고객의 경우 브라우저의 뒤로 단추를 두 번 누르면 충돌이 발생합니다. 이 문제로 인해 편집기가 중지되었으며 페이지를 새로 고쳐야 합니다. 이제 편집기가 충돌하지 않고 뒤로 탐색을 안정적으로 처리합니다. (GT-53568)
+* **정의되지 않은 위치 매핑으로 인해 활동을 편집할 수 없음**: `LocationMapping.behaviorTargetedActivity` 논리에 위치 ID가 정의되지 않아 고객이 활동을 편집하는 동안 오류가 발생했습니다. 이 문제로 인해 400개의 오류가 발생하고 활동 업데이트가 차단되었습니다. 이제 위치 관련 유효성 검사 오류 없이 활동을 편집할 수 있습니다. (TGT-53607)
+* **활동을 저장하면 잘못된 사용자 입력 오류가 트리거됨**: 업데이트된 VEC에서 약간의 수정을 한 후 활동을 저장하려고 할 때 고객이 잘못된 사용자 입력 오류가 발생했습니다. 백엔드 유효성 검사 논리의 위치 매핑이 일치하지 않아 오류가 발생했습니다. 이제 위치 관련 오류를 트리거하지 않고 활동을 저장할 수 있습니다. (TGT-53603)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.8.3(2025년 8월 21일)
 
 이번 릴리스에는 다음과 같은 업데이트 및 수정 사항이 포함되어 있습니다.
@@ -88,7 +139,7 @@ ht-degree: 6%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 * **활동 만들기 프로세스 중에 고객이 보고서 세트 이름을 입력할 수 없는 문제가 해결되었습니다.**: 활동 만들기 프로세스 중에 [!DNL Adobe Analytics]을(를) 보고 소스로 사용하는 고객이 특정 보고서 세트를 검색하기 위해 [!UICONTROL Report Suite] 드롭다운 목록에 입력할 수 없습니다. 이는 수동 스크롤이 설정을 크게 지연시킨 많은 보고서 세트를 사용하는 조직의 워크플로우에 영향을 주었습니다. 드롭다운 목록이 알파벳순으로 정렬되지 않았고 입력된 입력에 일관되게 응답하지 않아 &quot;Office + Store - Web - Prod&quot;와 같은 보고서 세트를 찾기 어려웠습니다. 이 문제는 해결되었으며 고객은 이제 보고서 세트 이름을 입력하여 효율적으로 검색할 수 있습니다. (TGT-53345)
@@ -122,7 +173,7 @@ ht-degree: 6%
 
 +++세부 정보 보기
 * **사용자 지정 기준 CSV 다운로드가 404 오류를 반환하는 [!DNL Recommendations] UI의 문제가 해결되었습니다**: 고객이 활동 만들기 프로세스에서 사용자 지정 기준 CSV를 다운로드할 수 없는 문제가 해결되었습니다. 이제 다운로드 링크가 제대로 작동하여 고객이 예상대로 사용자 지정 기준을 내보낼 수 있습니다. (TGT-51966)
-* **[!UICONTROL Catalog Search]**&#x200B;에서 일관되지 않은 이미지 로드 문제 해결: [!UICONTROL &#x200B; Catalog Search]의 썸네일 및 이미지가 활동 만들기 프로세스에서 일관되게 로드되지 않는 문제가 해결되었습니다. 이미지가 나타나지 않는 한 &quot;썸네일 URL&quot; 열이 표시되고 일부 제품 이미지가 탐색 또는 검색 작업 후 부분적으로 로드되거나 전혀 로드되지 않습니다. 이미지 로드 동작이 안정되었으며 이제 열 가시성 또는 탐색 동작에 관계없이 썸네일이 안정적으로 표시됩니다. (TGT-52778)
+* **[!UICONTROL Catalog Search]**&#x200B;에서 일관되지 않은 이미지 로드 문제 해결: [!UICONTROL  Catalog Search]의 썸네일 및 이미지가 활동 만들기 프로세스에서 일관되게 로드되지 않는 문제가 해결되었습니다. 이미지가 나타나지 않는 한 &quot;썸네일 URL&quot; 열이 표시되고 일부 제품 이미지가 탐색 또는 검색 작업 후 부분적으로 로드되거나 전혀 로드되지 않습니다. 이미지 로드 동작이 안정되었으며 이제 열 가시성 또는 탐색 동작에 관계없이 썸네일이 안정적으로 표시됩니다. (TGT-52778)
 * **중복된 경험에서 권장 사항을 편집하면 원본 경험에 영향을 주는 문제가 해결되었습니다.**: 중복된 경험에서 권장 사항을 수정하면 의도하지 않게 원본 경험이 변경되었다고 고객이 보고했습니다. 특히 활동 만들기 프로세스에서 경험 B를 복제하고 해당 디자인 또는 기준을 편집한 후에는 별도의 엔티티임에도 불구하고 원래 경험 B에 동일한 변경 사항이 반영되었습니다. 이제 중복된 경험은 별도의 구성을 유지하므로, 한 경험에 대한 편집 내용이 원본에 영향을 주지 않습니다. (TGT-53369)
 * **중복된 경험에 대한 변경 내용이 활동의 원래 경험에 의도하지 않게 영향을 주는 문제를 해결했습니다.**: 고객이 활동 내에서 경험을 복제하고 새 대상을 할당할 때 중복된 경험의 디자인 또는 기준에 대한 변경 내용이 원래 경험에도 반영되었다고 보고했습니다. 이 문제는 원래 버전을 직접 편집하지 않았더라도 발생하며, 동일한 활동 내에서 독립적인 변형을 만드는 기능에 영향을 줍니다. 활동 만들기 프로세스는 이제 복제된 경험을 올바르게 격리하여 한 경험에 대한 편집 내용이 원본에 영향을 주지 않도록 합니다. (TGT-53361)
 * **[!UICONTROL Recommendation Catalog]에서 간헐적으로 전체 제품 특성 데이터를 표시하지 못하는 문제가 해결되었습니다.**: 업데이트된 [!DNL Recommendations] UI에서 피드에 데이터가 있어도 고객에게 메시지와 같은 특정 제품 특성이 [!UICONTROL Catalog Search] 결과에 일관되게 표시되지 않는 문제가 발생했습니다. 이 문제는 고객이 누락된 값을 검색하기 위해 열 가시성을 수동으로 다시 구성해야 했습니다. [!UICONTROL Catalog Search]은(는) 이제 구성된 모든 특성을 안정적으로 표시하므로 수동으로 열을 재설정할 필요가 없습니다. (TGT-52769)
@@ -153,7 +204,7 @@ ht-degree: 6%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
 * **AP 활동의 [!UICONTROL Targeting] 단계로의 진행을 차단하는 활동 만들기 프로세스의 문제 해결**: 고객이 두 위치를 추가하지 않으면 [!UICONTROL Targeting]&#x200B;(AP) 활동의 [!UICONTROL Automated Personalization] 단계로 진행할 수 없는 활동 만들기 프로세스의 문제를 해결했습니다. 이 동작은 오퍼가 여러 개인 단일 위치만으로도 충분했던 이전 경험과 다릅니다. 요구 사항이 수정되어 고객이 단일 위치 설정을 AP 워크플로우의 일부로 계속 사용할 수 있습니다. (TGT-53426)
@@ -306,7 +357,7 @@ ht-degree: 6%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
