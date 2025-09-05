@@ -5,7 +5,7 @@ title: 응답 토큰이란 무엇이며 어떻게 사용해야 합니까?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 12831d6584acc482db415629d7e70a18e39c47c2
+source-git-commit: a1617f64f0633a87ea4c1f8e5104a1d177df04e2
 workflow-type: tm+mt
 source-wordcount: '1622'
 ht-degree: 24%
@@ -28,8 +28,8 @@ ht-degree: 24%
 
 | Target SDK | 제안된 작업 |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK을 다운로드하는 방법에 대한 자세한 내용은 [Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko){target=_blank} 안내서에서 *SDK 설치*&#x200B;를 참조하십시오. Platform Web SDK의 각 버전에 대한 새로운 기능은 [Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) 안내서의 *릴리스 정보*&#x200B;를 참조하십시오. |
-| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html?lang=ko){target=_blank} | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko){target=_blank}를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js(사용 중단됨)에는 존재했지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
+| [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Platform Web SDK 버전 2.6.0 이상을 사용 중인지 확인하십시오. 최신 버전의 Platform Web SDK을 다운로드하는 방법에 대한 자세한 내용은 [Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} 안내서에서 *SDK 설치*&#x200B;를 참조하십시오. Platform Web SDK의 각 버전에 대한 새로운 기능은 [Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) 안내서의 *릴리스 정보*&#x200B;를 참조하십시오. |
+| [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | at.js 버전 1.1 이상을 사용 중인지 확인하십시오. 최신 버전의 at.js를 다운로드하는 방법에 대해서는 [at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=en){target=_blank}를 참조하십시오. 각 at.js 버전의 새로운 기능에 대한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.<br>at.js를 사용하는 고객은 응답 토큰을 사용하고 플러그인을 사용하지 않는 것이 좋습니다. mbox.js(사용 중단됨)에는 존재했지만 at.js에는 존재하지 않는 내부 메서드에 의존하는 일부 플러그인은 전달되지만 실패합니다. |
 
 ## 응답 토큰 사용 {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -37,8 +37,8 @@ ht-degree: 24%
 
    추가 정보:
 
-   * **Platform Web SDK**: [Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html?lang=ko) 안내서의 *SDK 설치*&#x200B;를 참조하십시오.
-   * **at.js**: [at.js 다운로드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko){target=_blank}를 참조하십시오.
+   * **Platform Web SDK**: [Platform Web SDK 개요](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) 안내서의 *SDK 설치*&#x200B;를 참조하십시오.
+   * **at.js**: [at.js 다운로드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}를 참조하십시오.
 
 1. [!DNL Target]에서 **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**&#x200B;을(를) 클릭합니다.
 
@@ -58,7 +58,7 @@ ht-degree: 24%
    |  | `profile.categoryAffinity` | 방문자가 즐겨 찾는 카테고리를 반환합니다. |
    |  | `profile.categoryAffinities` | 방문자의 상위 5개 카테고리의 배열을 문자열로 반환합니다. |
    | 활동 | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | 현재 활동의 세부 정보.<br> 오퍼 매개 변수의 값은 경험 수준에서 평가됩니다. |
-   | 지역 | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 활동에서 지역 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md)을 참조하십시오. |
+   | 지역 | `geo.country`<br>`geo.countryCode`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | 활동에서 지역 기반의 타깃팅을 사용하는 방법에 대한 자세한 내용은 [지역](/help/main/c-target/c-audiences/c-target-rules/geo.md)을 참조하십시오. |
    | 트래픽 할당 메서드 <br>([!UICONTROL Auto-Target] 및 [!UICONTROL Automated Personalization] 활동에만 적용) | `experience.trafficAllocationId` | 방문자가 &quot;제어&quot; 트래픽에서 경험을 받은 경우 0을 반환하고, 방문자가 &quot;대상&quot; 트래픽 분배에서 경험을 받은 경우 1을 반환합니다. |
    |  | `experience.trafficAllocationType` | &quot;제어&quot; 또는 &quot;타깃팅&quot;을 반환합니다. |
 
@@ -147,7 +147,7 @@ ht-degree: 24%
 
 ### 사용자 지정 이벤트를 사용하는 ![at.js 배지](/help/main/assets/atjs.png) at.js
 
-[at.js 사용자 지정 이벤트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=ko){target=_blank}를 사용하여 [!DNL Target] 응답을 수신하고 응답 토큰을 읽습니다.
+[at.js 사용자 지정 이벤트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html?lang=en){target=_blank}를 사용하여 [!DNL Target] 응답을 수신하고 응답 토큰을 읽습니다.
 
 다음 코드 샘플은 [!DNL at.js] 사용자 지정 이벤트 핸들러를 HTML 페이지에 바로 추가합니다.
 
@@ -426,4 +426,4 @@ at.js를 통해 HTML 페이지에 다음 코드를 추가하여 Google 애널리
 >
 >비디오에는 각각 `option.name` 및 `option.id`(으)로 바뀐 `offer.name` 및 `offer.id`이(가) 언급되어 있습니다.
 
->[!VIDEO](https://video.tv.adobe.com/v/33347?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
