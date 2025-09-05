@@ -4,10 +4,10 @@ description: Adobe Target의 이전 릴리스에 포함된 기능, 개선 사항
 title: 이전 릴리스에는 어떤 기능이 포함됩니까?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 00c52d362f3d3a4f3bf9c90475dc8ad4c1f88311
+source-git-commit: 6c3236f12d94c6511a53433ca0f71f05488a73c1
 workflow-type: tm+mt
-source-wordcount: '48946'
-ht-degree: 68%
+source-wordcount: '55229'
+ht-degree: 60%
 
 ---
 
@@ -22,6 +22,283 @@ ht-degree: 68%
 >현재 월의 Target 릴리스(플랫폼 및 Target Standard/Premium)에 대한 정보는 [Target 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A)를 참조하십시오.
 
 ## 릴리스 정보 - 2025
+
+### [!DNL Target Standard/Premium] 25.8.4(2025년 9월 1일)
+
+이번 릴리스에는 다음과 같은 업데이트 및 수정 사항이 포함되어 있습니다.
+
+**[!UICONTROL Activities]**
+
++++세부 정보 보기
+* **고객은[!UICONTROL Activity Overview]**&#x200B;에서 활동 또는 문서 이름을 복사할 수 없습니다. 이전에는 업데이트된 활동 만들기 프로세스에서 [!UICONTROL Activity overview]에서 직접 활동 또는 관련 오퍼/문서를 복사할 수 없었습니다. 이 제한 사항은 특히 작은 화면에서 유용성에 영향을 주었습니다. 이제 고객은 해결 방법 없이 활동과 문서 이름을 모두 쉽게 복사할 수 있습니다. (TGT-51850)
+* **활동을 만드는 동안 조정된 [!DNL Target] 고객 데이터를 사전에 수집**: [!DNL Target] 고객의 보고서, 콘텐츠 및 스크린샷을 사전에 수집하도록 설정하여 활동 만들기 프로세스를 개선했습니다. 이러한 향상된 기능은 기존 사용 사례에서 식별된 데이터 차이를 해결하고 활동 및 실험 설정 중 더 정확한 통찰력을 확보하는 데 도움이 됩니다. (TGT-52415)
+* **AP 활동이 [!UICONTROL Reports] 섹션에서 모델 준비 데이터를 가져오지 못했습니다.**: [!UICONTROL Reports] 섹션에서 Automated Personalization(AP) 활동을 보는 고객은 보고서 그룹 및 오퍼 수준에서 모델 준비 표시기를 볼 수 없습니다. 이 문제는 모델 준비 데이터를 백엔드에서 올바르게 가져오지 않았기 때문에 발생했습니다. 기능이 복원되었으며 이제 모델 준비 데이터가 예상대로 표시됩니다. (TGT-53600 및 TGT-53601)
+* **나중에 예약된 활동이 [!UICONTROL Live] 개요에서 &quot;[!UICONTROL Activity]&quot; 상태를 잘못 표시함**: 고객은 나중에 시작하도록 예약된 활동이 [!UICONTROL Live] 개요에서 &quot;[!UICONTROL Activity]&quot;(으)로 잘못 표시되었음을 관찰했습니다. 이 상태 불일치가 해결되었으며, 이제 페이지를 새로 고칠 필요 없이 예약된 활동이 &quot;[!UICONTROL Scheduled]&quot;(으)로 올바르게 표시됩니다. (TGT-52835)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++세부 정보 보기
+* **제품 목록이 [!UICONTROL View Collection] 대화 상자에 표시되지 않았습니다.** 이전에는 [!UICONTROL Recommendations] 탭에서 컬렉션을 볼 때 고객이 제품 목록을 볼 수 없었습니다. 이제 [!UICONTROL View Collection] 대화 상자에 관련 제품이 올바르게 표시되므로 업데이트된 [!UICONTROL Recommendations] UI의 투명성과 유용성이 향상되었습니다. (TGT-50531)
+* **[!UICONTROL Product Catalog Search] 고급 검색에서 대소문자를 구분하는 필터링을 수행하는 문제가 해결되었습니다**: 이제 [!UICONTROL Product Catalog Search] 페이지의 고급 검색 필터링에서 백엔드와 GraphQL 서비스 모두의 동작에 맞게 대소문자를 구분하는 것을 올바르게 무시합니다. 이 업데이트는 텍스트 대소문자에 관계없이 고객을 위한 일관되고 정확한 제안 결과를 보장합니다. (TGT-53585)
+* **업데이트된 [!UICONTROL Product Catalog Search] UI에서 고급 검색이 제안을 제공하지 않았습니다**: 업데이트된 [!UICONTROL Product Catalog Search] UI에서 고급 검색 기능을 사용하는 고객은 제안이 표시되지 않았으므로 정확한 철자로 정확한 값을 입력해야 합니다. 이 문제로 인해 제품을 효율적으로 찾는 데 어려움을 겪었습니다. 이제 고급 검색 입력 중에 예상대로 제안이 표시됩니다. (TGT-52008)
+* **일부 승인자가[!UICONTROL Product Catalog Search]**&#x200B;에서 제품을 볼 수 없습니다. [!UICONTROL Approver] 권한이 있는 고객은 동일한 역할을 가진 다른 사용자가 액세스 권한을 가지고 있음에도 불구하고 [!UICONTROL Product Catalog Search]에서 제품을 볼 수 없습니다. 이 문제는 권한 불일치가 카탈로그 가시성에 영향을 미쳐 발생했습니다. 이제 모든 승인자가 [!UICONTROL Recommendations] 섹션에서 예상대로 제품을 볼 수 있습니다. (TGT-53617)
+
++++
+
+**[!UICONTROL Reports]**
+
++++세부 정보 보기
+* **잘못된 대상 이름 오류로 인해 데스크톱 대상에 대한 보고서를 로드하지 못했습니다.**: 고객이 활동 만들기 프로세스에서 한 대상에 대한 보고서를 보려고 하면 GraphQL 오류가 발생했습니다. 시스템에서 &quot;잘못된 대상 이름: XXXXX&quot; 메시지를 반환하여 보고 데이터에 액세스할 수 없습니다. 이제 보고서가 데스크탑 대상자에 대해 올바르게 로드됩니다. (TGT-53371)
+* **보고서 페이지에서 대상을 전환하면 대상 UI에 오류가 발생했습니다**: 고객이 [!UICONTROL Reports] 섹션에서 특정 대상을 선택할 때 오류가 발생했습니다. 이 문제는 백엔드 GraphQL 호출에서 잘못된 대상 처리로 인해 예기치 않은 오류가 발생하고 데이터가 누락되어 발생했습니다. 이 문제는 해결되었으며 이제 데이터를 사용할 수 없는 경우에도 데스크탑 대상자가 오류 없이 로드됩니다. (TGT-53370)
+* **[!UICONTROL Graph view]섹션의 [!UICONTROL Reports]에[!DNL Analytics]**&#x200B;의 값이 표시되지 않음: Re[!UICONTROL Graph view]포트 섹션의 에 액세스하는 고객에게 데이터가 누락되었습니다. 모든 값은 0으로 표시됩니다. 이 문제는 [!UICONTROL Analytics]에서 잘못된 데이터 검색으로 인해 발생했습니다. 이제 [!UICONTROL Graph view]에 예상대로 정확한 값이 표시됩니다. (TGT-52792)
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++세부 정보 보기
+* **함수 누락으로 인해 [!UICONTROL Enhanced Experience Composer]&#x200B;(EEC)을(를) 사용하여 &quot;쿠키 수락&quot;을 클릭하지 못했습니다**: 고객이 EEC를 통해 쿠키를 수락하려고 하면 콘솔 오류가 발생한다고 보고했습니다. `handleclickAcceptAllButton is not defined`. 이제 쿠키 수락 기능이 예상대로 작동하여 업데이트된 UI에서 활동을 만드는 동안 더 원활한 경험을 보장합니다. (TGT-52794)
+* **새 EEC UI가 이전 UI에서 이전에 지원된 특정 페이지를 로드하지 못했습니다.**: 고객이 새 EEC가 사이트에서 iframe 버스팅 코드가 있어도 레거시 UI에서 액세스할 수 있었던 일부 페이지를 로드할 수 없다고 보고했습니다. 업데이트된 활동 만들기 프로세스는 이제 이러한 페이지 로드를 지원하며, 활동 만들기 워크플로우에 대한 호환성을 복원합니다. (TGT-53061)
+* **경험을 편집할 때 VEC에 빈 흰색 화면이 표시됨**: 특정 테넌트의 고객이 업데이트된 VEC에서 경험을 편집하려고 할 때 VEC 화면이 비어 있다고 보고했습니다. 이 문제는 새로 생성된 활동과 이전 활동 모두에 영향을 주어 워크플로우 연속성을 방해했습니다. 이제 VEC가 올바르게 로드되어 고객이 중단 없이 경험을 편집할 수 있습니다. (TGT-53547)
+* **특정 활동을 로드할 때 VEC가 충돌하여 빈 화면이 표시됨**: 특정 테넌트의 고객이 VEC가 특정 활동을 로드하지 못했다고 보고했습니다. 경험 편집기가 충돌하기 전에 &quot;초기 수정 사항 적용&quot;에 멈춰 있어 빈 화면이 표시됩니다. 콘솔 오류가 정의되지 않은 속성을 읽지 못했음을 나타냅니다. 이제 편집기는 업데이트된 VEC에서 오류 없이 영향을 받는 활동을 로드합니다. (TGT-53548)
+* **백스페이스를 사용하여 모든 날짜 값을 지우면 페이지가 충돌합니다**: [!UICONTROL Goals & Settings] 섹션에서 활동을 예약하는 고객이 백스페이스를 사용하여 &quot;[!UICONTROL Specified Date & Time]&quot; 필드의 모든 값을 지울 때 충돌이 발생했습니다. 이 문제는 날짜 처리 논리의 null 참조 오류로 인해 발생했습니다. 이제 페이지는 충돌하지 않고 빈 날짜 입력을 정상적으로 처리합니다. (TGT-53624)
+* **잘못된 페이로드로 인해 [!UICONTROL Product Catalog Search]에 제품이 표시되지 않음**: [!UICONTROL Recommendations]의 [!UICONTROL Product Catalog Search] 섹션에 액세스하는 고객이 잘못된 GraphQL 페이로드로 인해 빈 결과를 발견했습니다. 이 백엔드 오류로 인해 제품 데이터가 올바르게 로드되지 않았습니다. 이제 제품이 업데이트된 UI에서 예상대로 표시됩니다. (TGT-53630)
+* **[!DNL Scene7]개의 이미지가 업데이트된 VEC에 낮은 해상도로 저장되었습니다.**: 업데이트된 VEC에서 경험을 편집하는 고객은 [!UICONTROL Scene7]개의 이미지 URL이 해상도 매개 변수 없이 저장되었으므로 낮은 품질의 이미지가 전달됩니다(의도한 800×800 대신 400×400). 이제 이미지 URL은 올바른 해상도를 위해 올바른 매개 변수를 유지합니다. (TGT-52631)
+* **VEC에서 라이브 활동을 편집할 수 있음**: 고객은 업데이트된 VEC에서 라이브 활동에 대한 편집 옵션에 액세스할 수 있으므로 의도하지 않은 변경이 발생할 수 있습니다. 이 문제는 라이브 활동에 대한 편집 기능을 비활성화하여 해결되었습니다. 이제 편집자의 활동 목록 및 개요에서 편집 단추가 표시되지 않지만 승인자 및 기타 역할은 영향을 받지 않습니다. (TGT-53055)
+* **업데이트된 VEC에서 [!UICONTROL Failed] 및 [!UICONTROL Draft] 활동 섹션이 해제됨**: [!UICONTROL Failed] 및 [!UICONTROL Draft] 활동 옵션이 업데이트된 VEC에서 제거되었습니다. 새 UI는 더 이상 초안 상태를 지원하지 않으며 실패한 캠페인은 백엔드에 저장되지 않습니다. 이러한 옵션은 더 이상 관련이 없습니다. 활동 관리를 간소화하기 위해 관련 필터 및 백엔드 필드(예: `uiSyncFailed`, `errorMessage`)도 제거되었습니다. (TGT-53150)
+* **활동에 대한 VEC에 로그인할 수 없음**: VEC를 통해 사이트에 로그인하려는 고객이 반복적으로 로그인 페이지로 리디렉션되어 활동 편집에 액세스할 수 없습니다. 이 문제는 내부적으로 재현할 수 없었고 사이트 측 세션 처리와 관련이 있을 수 있습니다. 로그인 흐름이 안정화되어 이제 고객은 리디렉션 오류 없이 VEC에 액세스할 수 있습니다. (TGT-53524)
+* **[!UICONTROL Browse] 모드에서 뒤로 단추를 두 번 누르면 VEC가 충돌합니다**: VEC에서 [!UICONTROL Browse] 모드를 탐색하는 고객의 경우 브라우저의 뒤로 단추를 두 번 누르면 충돌이 발생합니다. 이 문제로 인해 편집기가 중지되었으며 페이지를 새로 고쳐야 합니다. 이제 편집기가 충돌하지 않고 뒤로 탐색을 안정적으로 처리합니다. (GT-53568)
+* **정의되지 않은 위치 매핑으로 인해 활동을 편집할 수 없음**: `LocationMapping.behaviorTargetedActivity` 논리에 위치 ID가 정의되지 않아 고객이 활동을 편집하는 동안 오류가 발생했습니다. 이 문제로 인해 400개의 오류가 발생하고 활동 업데이트가 차단되었습니다. 이제 위치 관련 유효성 검사 오류 없이 활동을 편집할 수 있습니다. (TGT-53607)
+* **활동을 저장하면 잘못된 사용자 입력 오류가 트리거됨**: 업데이트된 VEC에서 약간의 수정을 한 후 활동을 저장하려고 할 때 고객이 잘못된 사용자 입력 오류가 발생했습니다. 백엔드 유효성 검사 논리의 위치 매핑이 일치하지 않아 오류가 발생했습니다. 이제 위치 관련 오류를 트리거하지 않고 활동을 저장할 수 있습니다. (TGT-53603)
+
++++
+
+### [!DNL Target Standard/Premium] 25.8.3(2025년 8월 21일)
+
+이번 릴리스에는 다음과 같은 업데이트 및 수정 사항이 포함되어 있습니다.
+
+**[!UICONTROL Activities]**
+
++++세부 정보 보기
+* **잘못된 속성 데이터로 인해 활동을 저장하면 잘못된 사용자 입력 오류가 발생하는 문제가 해결되었습니다**: 고객이 기존 활동을 저장하려고 할 때 심각한 오류가 발생했습니다. 오류 메시지는 JSON 페이로드에 인식되지 않은 속성 이름 콘텐츠를 참조하는 잘못된 사용자 입력을 나타냈습니다. 특히, 동일한 속성을 사용하는 새 활동이 성공적으로 저장되었으므로 문제가 이전 활동 데이터로 격리되었음을 나타냅니다. 이제 활동 만들기 프로세스가 기존 속성 구성을 올바르게 처리하므로 잘못된 입력 오류가 발생하지 않고 새 활동 및 기존 활동에서 일관된 저장 동작이 보장됩니다. (TGT-53507)
+* **InvalidProperty.Json 오류로 인해 고객이 활동을 저장할 수 없는 문제를 해결했습니다**: 고객이 수정하지 않고도 업데이트된 UI에서 활동을 저장하려고 할 때 오류가 발생했습니다. 오류 메시지에 잘못된 JSON 구조가 표시되었습니다. &quot;잘못된 JSON. 인식할 수 없는 속성 이름 &#39;content&#39;. 위치: 라인 - 1, 열 - 432.&quot; 이 문제는 요청 페이로드의 인식할 수 없는 속성으로 인해 발생했으며 이제 해결되었습니다. 고객은 이 오류가 발생하지 않고 활동을 저장할 수 있습니다. (TGT-53513)
+* **예약된 활동이 페이지를 새로 고칠 때까지 [!UICONTROL Live] 상태를 잘못 표시하는 문제가 해결되었습니다.**: 고객은 향후 날짜 및 시간에 활동을 시작하도록 예약할 때 상태가 [!UICONTROL Live] 대신 [!UICONTROL Scheduled]&#x200B;(으)로 즉시 표시되었음을 확인했습니다. 확인 메시지에서 활동이 예약되었음을 올바르게 표시했지만 이로 인해 혼동이 발생했습니다. 페이지를 새로 고치면 상태 표시가 수정되었습니다. 이제 이 문제가 해결되었으며 새로 고침할 필요 없이 예약된 활동이 예약된 상태를 올바르게 표시합니다. (TGT-52937)
+
++++
+
+**[!UICONTROL Analytics for Target](A4T)**
+
++++세부 정보 보기
+* **활동 만들기 프로세스 중에 고객이 보고서 세트 이름을 입력할 수 없는 문제가 해결되었습니다.**: 활동 만들기 프로세스 중에 [!DNL Adobe Analytics]을(를) 보고 소스로 사용하는 고객이 특정 보고서 세트를 검색하기 위해 [!UICONTROL Report Suite] 드롭다운 목록에 입력할 수 없습니다. 이는 수동 스크롤이 설정을 크게 지연시킨 많은 보고서 세트를 사용하는 조직의 워크플로우에 영향을 주었습니다. 드롭다운 목록이 알파벳순으로 정렬되지 않았고 입력된 입력에 일관되게 응답하지 않아 &quot;Office + Store - Web - Prod&quot;와 같은 보고서 세트를 찾기 어려웠습니다. 이 문제는 해결되었으며 고객은 이제 보고서 세트 이름을 입력하여 효율적으로 검색할 수 있습니다. (TGT-53345)
+
++++
+
+**[!UICONTROL Audiences]**
+
++++세부 정보 보기
+* **만료된 &quot;시간대&quot; 대상자가 제거 후에도 활동 저장을 차단하는 문제를 해결했습니다**: 만료된 &quot;시간대&quot; 대상자와 관련된 오류로 인해 고객이 업데이트된 UI에서 활동을 저장할 수 없습니다. 영향을 받는 대상을 제거한 후에도 지속되는 오류 메시지: &quot;활동에 잘못된 시간대의 대상이 포함되어 있습니다.&quot; 이 문제는 시스템이 활동 전용 대상이 더 이상 사용되지 않는 경우에도 계속하여 유효성을 검사했기 때문에 발생했습니다. 그 행동은 시간대 불일치로 더욱 복잡해졌다. 유효성 검사 논리가 수정되었으며 이제 고객은 이 오류가 발생하지 않고 활동을 저장할 수 있습니다. (TGT-53517)
+
++++
+
+**[!UICONTROL Experience Fragment]초**
+
++++세부 정보 보기
+* **고객이 UI에서 [!UICONTROL Insert Before] 또는 [!UICONTROL Insert After]을(를) 사용하여 경험 조각을 삽입할 수 없는 문제를 해결했습니다.** 고객이 업데이트된 UI에서 &quot;다음 항목 앞에 삽입&quot; 또는 &quot;다음 항목 뒤에 삽입&quot; 옵션을 사용하여 활동에 [!UICONTROL Experience Fragments]을(를) 삽입하려고 할 때 오류가 발생했습니다. 표시되는 오류 메시지: &quot;오퍼 콘텐츠에는 정확히 하나의 HTML 요소가 포함되어야 합니다.&quot; 이 문제는 업데이트된 UI에만 해당되며 이전 버전에서는 발생하지 않았습니다. 이제 이 문제가 해결되었으며 고객은 이 오류가 발생하지 않고 [!UICONTROL Experience Fragments]을(를) 삽입할 수 있습니다. (TGT-53442)
+
++++
+
+**[!UICONTROL Offer decisions]**
+
++++세부 정보 보기
+* **고객이 업데이트된 UI에서 의사 결정 오퍼를 편집하고 특정 페이지 요소를 선택할 수 없는 문제가 해결되었습니다.**: 업데이트된 활동 만들기 프로세스에서 고객은 시각적 경험 작성기(VEC)에서 기존 의사 결정 오퍼를 편집하거나 특정 페이지 요소를 선택할 수 없었습니다. 의사 결정 오퍼가 HTML 오퍼로 잘못 표시되었으며 편집 중에 변경된 사항이 저장되지 않았습니다. 또한 일본 사이트와 같은 특정 지역 URL이 VEC에서 제대로 로드되지 않아 활동 만들기 및 업데이트가 차단됩니다. 이제 의사 결정 오퍼가 올바르게 표시되고, 페이지 요소는 예상대로 선택할 수 있으며, 지역 URL이 VEC에 제대로 로드되어 전체 편집 기능이 복원됩니다. (TGT-53425)
+* **저장한 후 [!UICONTROL Offer Decision] 선택기를 예기치 않게 수정하고 변경할 수 없는 문제가 해결되었습니다.**: 업데이트된 활동 만들기 프로세스에서 고객이 의도한 대로 [!UICONTROL Offer Decision] 선택기를 수정할 수 없습니다. 선택기를 변경하려는 시도가 실패하여 저장한 후 선택기가 잘못된 값으로 되돌아갔습니다. 이 동작으로 인해 의사 결정 오퍼가 시각적 경험 작성기 (VEC)에서 사라져 추가 편집이 차단되었습니다. 이제 선택기 변경 사항이 올바르게 보존되고, 저장 후 의사 결정 오퍼가 VEC에 표시되고 편집 가능한 상태로 유지됩니다.(TGT-53433)
+* **저장 후 [!UICONTROL Offer Decisions]이(가) 활동에서 사라지는 문제를 해결했습니다**: 활동 만들기 프로세스 중에 추가된 [!UICONTROL Offer Decisions]이(가) 활동을 저장하고 다시 연 후 유지되지 않았습니다. 동적 콘텐츠를 편집하고 특정 선택기 및 속성을 사용하여 [!UICONTROL Offer Decisions]을(를) 삽입하는 동안 이 문제가 발생했습니다. 저장 후 [!UICONTROL Offer Decisions]이(가) 올바르게 유지되고 선택기가 그대로 유지되므로 일관된 타기팅 및 편집 동작이 보장됩니다. (TGT-53434)
+
++++
+
+**[!DNL Recommendations]**
+
++++세부 정보 보기
+* **사용자 지정 기준 CSV 다운로드가 404 오류를 반환하는 [!DNL Recommendations] UI의 문제가 해결되었습니다**: 고객이 활동 만들기 프로세스에서 사용자 지정 기준 CSV를 다운로드할 수 없는 문제가 해결되었습니다. 이제 다운로드 링크가 제대로 작동하여 고객이 예상대로 사용자 지정 기준을 내보낼 수 있습니다. (TGT-51966)
+* **[!UICONTROL Catalog Search]**&#x200B;에서 일관되지 않은 이미지 로드 문제 해결: [!UICONTROL  Catalog Search]의 썸네일 및 이미지가 활동 만들기 프로세스에서 일관되게 로드되지 않는 문제가 해결되었습니다. 이미지가 나타나지 않는 한 &quot;썸네일 URL&quot; 열이 표시되고 일부 제품 이미지가 탐색 또는 검색 작업 후 부분적으로 로드되거나 전혀 로드되지 않습니다. 이미지 로드 동작이 안정되었으며 이제 열 가시성 또는 탐색 동작에 관계없이 썸네일이 안정적으로 표시됩니다. (TGT-52778)
+* **중복된 경험에서 권장 사항을 편집하면 원본 경험에 영향을 주는 문제가 해결되었습니다.**: 중복된 경험에서 권장 사항을 수정하면 의도하지 않게 원본 경험이 변경되었다고 고객이 보고했습니다. 특히 활동 만들기 프로세스에서 경험 B를 복제하고 해당 디자인 또는 기준을 편집한 후에는 별도의 엔티티임에도 불구하고 원래 경험 B에 동일한 변경 사항이 반영되었습니다. 이제 중복된 경험은 별도의 구성을 유지하므로, 한 경험에 대한 편집 내용이 원본에 영향을 주지 않습니다. (TGT-53369)
+* **중복된 경험에 대한 변경 내용이 활동의 원래 경험에 의도하지 않게 영향을 주는 문제를 해결했습니다.**: 고객이 활동 내에서 경험을 복제하고 새 대상을 할당할 때 중복된 경험의 디자인 또는 기준에 대한 변경 내용이 원래 경험에도 반영되었다고 보고했습니다. 이 문제는 원래 버전을 직접 편집하지 않았더라도 발생하며, 동일한 활동 내에서 독립적인 변형을 만드는 기능에 영향을 줍니다. 활동 만들기 프로세스는 이제 복제된 경험을 올바르게 격리하여 한 경험에 대한 편집 내용이 원본에 영향을 주지 않도록 합니다. (TGT-53361)
+* **[!UICONTROL Recommendation Catalog]에서 간헐적으로 전체 제품 특성 데이터를 표시하지 못하는 문제가 해결되었습니다.**: 업데이트된 [!DNL Recommendations] UI에서 피드에 데이터가 있어도 고객에게 메시지와 같은 특정 제품 특성이 [!UICONTROL Catalog Search] 결과에 일관되게 표시되지 않는 문제가 발생했습니다. 이 문제는 고객이 누락된 값을 검색하기 위해 열 가시성을 수동으로 다시 구성해야 했습니다. [!UICONTROL Catalog Search]은(는) 이제 구성된 모든 특성을 안정적으로 표시하므로 수동으로 열을 재설정할 필요가 없습니다. (TGT-52769)
+* **라이브 활동에서 [!UICONTROL Front Promotion]을(를) 비활성화할 수 없는 문제가 해결되었습니다.**: 라이브 활동에서 [!UICONTROL Front Promotion]을(를) 비활성화하려는 시도가 저장되지 않았습니다. [!UICONTROL Change Promotion]을(를) 선택하고 비활성화한 후에도 활동을 다시 편집할 때 프로모션이 활성 상태로 유지되어 추천 구성에 대한 업데이트가 수행되지 않았습니다. 이제 프로모션 설정이 올바르게 저장되므로 고객이 예상대로 라이브 활동에서 프로모션을 비활성화하거나 수정할 수 있습니다. (TGT-53231)
+* **데이터 없이 [!DNL Recommendations] [!UICONTROL Promotion]을(를) 사용하면 명확하지 않은 오류 메시지가 트리거되는 문제가 해결되었습니다.**: 필수 값을 지정하지 않고 [!UICONTROL Front] 활동에서 [!UICONTROL Back Promotion] 또는 [!DNL Recommendations]을(를) 사용하면 일반적인 &quot;잘못된 입력 오류&quot; 메시지가 표시됩니다. 기본 문제는 구성 필드가 누락되었지만 오류 메시지에 원인이 명확하게 표시되지 않아 문제 해결이 어려웠습니다. 이제 활동 만들기 프로세스에서 `collectionId` 또는 규칙과 같은 필수 필드가 누락된 경우 명확하고 실행 가능한 오류 메시지를 제공하므로 고객이 구성 문제를 신속하게 식별하고 해결할 수 있습니다. (TGT-52616)
+* **[!UICONTROL Product] 탭 내의 [!UICONTROL Edit] 모달에 [!UICONTROL Recommendations] 목록이 표시되지 않는 문제를 해결했습니다**: [!UICONTROL collection] 탭에서 [!UICONTROL exclusion] 또는 [!UICONTROL Recommendations]을(를) 편집할 때 고객이 필터링된 제품 목록을 볼 수 없습니다. 해당 목록은 적용된 규칙을 기반으로 실시간으로 업데이트될 예정이었으나 의도한 대로 나타나지 않았다. 이 문제는 해결되었으며 이제 규칙이 수정되면 제품 목록이 올바르게 표시되고 동적으로 업데이트됩니다. (TGT-53481)
+* **업데이트된 UI에서 [세부 정보 보기] 대화 상자의 레이아웃 문제를 해결했습니다**: 명확성과 유용성을 개선하기 위해 업데이트된 UI에서 [세부 정보 보기] 모달의 레이아웃이 수정되었습니다. 이제 대화 상자에 두 개의 탭이 포함됩니다.
+   * [!UICONTROL Details] 탭: 선택한 항목에 대한 모든 관련 정보를 표시합니다.
+   * [!UICONTROL Inventory] 탭: 현재 컬렉션 및 제외 규칙으로 필터링된 모든 제품을 표시합니다.
+
+  이 향상된 기능을 통해 고객은 활동 만들기 프로세스 내에서 품목별 데이터 및 재고 컨텍스트를 보다 쉽게 탐색하고 이해할 수 있습니다. (TGT-53503)
+
+   * **저장한 후 권장 사항 활동에서 제거된 프로모션이 다시 표시되는 문제가 해결되었습니다**: 고객이 [!UICONTROL front] 또는 [!UICONTROL back] 프로모션이 [!DNL Recommendations] 활동에서 제거되고 활동이 저장되었을 때 다시 열면 프로모션이 계속 표시된다고 보고했습니다. 이 문제는 스테이징 환경과 프로덕션 환경 모두에서 발생했으며 업데이트된 활동 만들기 프로세스에 영향을 주었습니다. 문제가 해결되었습니다. 활동에서 제거된 프로모션은 이제 저장 후 올바르게 지속됩니다. (TGT-53490)
+
++++
+
+**보고서**
+
++++세부 정보 보기
+* **[!UICONTROL Automated Segments] 보고서에 null 대상 값이 표시되던 문제를 해결했습니다**: 고객이 활동 보고서의 [!UICONTROL Automated Segments]이(가) 대상 데이터에 대해 null을 표시한다고 보고하여 세그먼트 성능을 정확하게 분석할 수 없습니다. 올바른 대상 데이터가 필요하지만 [!UICONTROL Reports] 섹션에 액세스하고 [!UICONTROL Automated Segments]을(를) 선택할 때 이 문제가 발생했습니다. 이제 [!UICONTROL Automated Segments]에 대상 값이 올바르게 표시되므로 안정적인 보고 및 세분화 통찰력이 보장됩니다. (TGT-52793)
+
++++
+
+**단일 페이지 응용 프로그램(SPA)**
+
++++세부 정보 보기
+* **[!UICONTROL Browse]과(와) [!UICONTROL Design] 모드 간 전환으로 인해 업데이트된 UI에서 SPA 상태가 재설정되는 문제가 해결되었습니다.**: 고객이 업데이트된 UI에서 [!UICONTROL Browse]과(와) [!UICONTROL Design] 모드 간 전환으로 인해 웹 편집기가 다시 로드되어 SPA 상태가 재설정되었다고 보고했습니다. 이 문제로 인해 워크플로우가 중단되었으며 고객이 정보를 다시 입력해야 했습니다. 문제가 해결되었습니다. 이제 모드 간에 전환할 때 SPA 상태가 유지되므로 활동을 만드는 동안 더 유연하고 일관된 경험이 보장됩니다. (TGT-53074)
+
++++
+
+**[!UICONTROL Visual Experience Composer](VEC)**
+
++++세부 정보 보기
+* **AP 활동의 [!UICONTROL Targeting] 단계로의 진행을 차단하는 활동 만들기 프로세스의 문제 해결**: 고객이 두 위치를 추가하지 않으면 [!UICONTROL Targeting]&#x200B;(AP) 활동의 [!UICONTROL Automated Personalization] 단계로 진행할 수 없는 활동 만들기 프로세스의 문제를 해결했습니다. 이 동작은 오퍼가 여러 개인 단일 위치만으로도 충분했던 이전 경험과 다릅니다. 요구 사항이 수정되어 고객이 단일 위치 설정을 AP 워크플로우의 일부로 계속 사용할 수 있습니다. (TGT-53426)
+* **새 활동 만들기 프로세스에서 투명 이미지에 대해 fmt=png-alpha 매개 변수를 설정하지 않은 문제가 해결되었습니다**: 업데이트된 UI에서 활동 만들기 프로세스 중에 삽입된 이미지는 기본적으로 `fmt=png-alpha` 매개 변수를 더 이상 포함하지 않으므로 투명도가 손실됩니다. 이 동작은 투명 배경을 유지하면서 자동으로 매개 변수를 이미지 URL에 추가한 이전 UI와 다릅니다. 이제 활동 만들기 프로세스에서 투명도가 필요한 경우 `fmt=png-alpha` 매개 변수를 이미지 URL에 올바르게 적용하여 투명한 에셋의 일관된 렌더링을 보장합니다. (TGT-52615)
+* **고객이 업데이트된 UI에서 보고서 세트를 검색할 수 없는 문제를 해결했습니다**: 업데이트된 UI에서 [!UICONTROL Report Suites] 섹션의 [!UICONTROL Goals & Settings] 드롭다운 목록에서 고객이 입력 및 검색을 허용하지 않으므로 특히 항목 수가 많은 테넌트의 경우 특정 보고서 세트를 찾기 어렵습니다. 기존 UI와 달리 목록이 정렬되지 않아 입력 기반 필터링이 부족했다. 이 문제는 해결되었습니다. 이제 고객이 을 입력하여 보고서 세트를 검색 및 필터링할 수 있으므로, 기존 UI에서 사용할 수 있는 기능이 복원됩니다. (TGT-53514)
+
++++
+
+**[!UICONTROL Workspaces]**
+
++++세부 정보 보기
+* **단일 작업 영역으로 제한된 고객이 다른 작업 영역의 활동을 볼 수 있는 문제를 해결했습니다**: 활동 만들기 프로세스에서 [!UICONTROL All Workspaces]을(를) 선택할 때 한 작업 영역으로 제한된 액세스 권한을 가진 고객이 예기치 않게 모든 작업 영역의 활동을 볼 수 있었습니다. 이러한 가시성은 다른 작업 공간의 라이브 활동에 의도하지 않은 변경을 초래할 수 있으며, 웹 사이트 성능에 영향을 줄 수 있습니다. 고객이 할당된 작업 영역 내의 활동만 보고 상호 작용할 수 있도록 Workspace 액세스 제어를 강화했습니다. (TGT-53101)
+* **고객이 액세스 권한 없이 [!UICONTROL Default Workspace]의 활동을 볼 수 있는 문제를 해결했습니다.** 스테이징 작업 영역에만 액세스할 수 있는 고객이 활동 만들기 프로세스를 통해 [!UICONTROL Default Workspace]의 활동을 볼 수 있습니다. 이 동작은 올바른 백엔드 구성 및 액세스 권한에도 불구하고 발생했습니다. 고객이 할당된 작업 영역 내에서만 활동을 볼 수 있도록 Workspace 액세스 제어가 강화되었습니다.(TGT-53297)
+
++++
+
+### [!DNL Target Standard/Premium] 25.8.2(2025년 8월 14일)
+
+이번 릴리스에는 다음과 같은 수정 사항 및 업데이트가 포함됩니다.
+
+**[!UICONTROL Activities]**
+
++++세부 정보 보기
+* **업데이트된 [!DNL Target] UI의 활동 로드 문제 해결**: 편집하려고 할 때 특정 활동이 로드되지 않는 업데이트된 [!DNL Target] UI의 문제를 해결했습니다. 이 문제로 인해 고객이 사용자를 알 수 없는 로드 화면에 둡니다. 이 문제는 여러 활동에 영향을 미쳤으며 고객 간에 일관되지 않게 발생하는 것으로 보고되었습니다. 이 수정 사항으로 인해 영향을 받는 활동이 제대로 로드되어 원활한 편집이 허용되고 활동 워크플로우가 중단되는 것이 줄어듭니다. (TGT-53209)
+* **`optionLocalId` 유효성 검사로 인해 활동 만들기 프로세스의 저장 오류가 해결되었습니다.**: 백 엔드 유효성 검사 오류로 인해 고객이 변경 사항을 저장할 수 없는 활동 만들기 프로세스의 문제를 해결했습니다. `OptionLocalIdReferentialIntegrity.ABActivity - Invalid optionLocalIds:` 이 문제는 활동 내의 특정 요소를 수정할 때 발생하여 저장 작업이 실패했습니다. 이 문제를 해결하면 `optionLocalId` 참조의 유효성이 올바르게 확인되므로 고객은 이 오류가 발생하지 않고 활동을 저장할 수 있습니다. (TGT-53293)
+* **페이지를 전환할 때 잘못된 옵션 참조로 인해 활동 만들기 프로세스에서 충돌이 발생함**: 편집하는 동안 페이지를 세 번 전환한 후 UI가 충돌하는 활동 만들기 프로세스의 문제를 해결했습니다. 잘못된 옵션 참조에 의해 충돌이 트리거되어 &quot;localId가 &#39;7&#39;인 옵션을 찾을 수 없습니다&quot;와 같은 콘솔 오류가 발생했습니다. 이 업데이트를 통해 고객은 이제 시스템 장애나 중단 없이 페이지 간에 전환하고 수정 사항을 적용할 수 있습니다. (TGT-53295)
+* **경험을 편집할 때 잘못된 사용자 입력으로 인해 활동 만들기 프로세스의 저장 오류가 해결되었습니다.**: 잘못된 사용자 입력 오류로 인해 고객이 활동에 변경 사항을 저장할 수 없는 활동 만들기 프로세스의 문제가 해결되었습니다. 업데이트된 UI에서 경험을 수정하는 동안 오류가 발생하여 업데이트가 커밋되지 않았습니다. 이제 활동을 성공적으로 저장할 수 있으므로 고객이 중단 없이 편집하고 게시할 수 있습니다. (TGT-53267)
+* **업데이트된 UI에서 편집을 차단하는 활동 만들기 프로세스의 로드 문제가 해결되었습니다**: 지속적인 로드 화면으로 인해 고객이 업데이트된 UI에서 활동을 편집할 수 없는 활동 만들기 프로세스의 문제가 해결되었습니다. 이제 고객은 로드 오류가 발생하지 않고 활동을 열고 수정할 수 있습니다. (TGT-53415)
+* **업데이트된 UI에서 AP 활동에 대한 활동 만들기 프로세스의 경험 요구 사항 문제 해결**: [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에 업데이트된 UI에서 두 개의 경험이 아니라 두 개의 위치가 필요한 활동 만들기 프로세스의 문제를 해결했습니다. 이 동작은 고객이 이전에 지원된 여러 오퍼로 단일 위치를 구성한 사용 사례를 차단했습니다. 원래 기능과 일치하도록 요구 사항이 수정되어 고객이 위치 수에 관계없이 두 개의 경험을 사용하여 AP 활동을 진행할 수 있습니다. (TGT-53429)
+* **저장되지 않은 입력을 방지하고 명확성을 개선하기 위해 클릭 추적 모드에서 추적된 요소 필드 동작을 수정했습니다**: [!UICONTROL Tracked Element] 모드의 [!DNL Click Track] 필드를 편집할 수 있지만 입력한 이름을 유지하지 않아 고객에게 혼동을 주는 활동 만들기 프로세스의 문제를 해결했습니다. 이제 필드가 비활성화되어 저장되지 않은 입력을 방지할 수 있으며 목표 구성 및 추적 정확도를 개선하기 위해 선택한 요소의 이름이 명확해졌습니다.**(TGT-53458)
+* **[!UICONTROL Click Track] 모드에서 추적된 구성 요소의 이름을 차단하는 활동 만들기 프로세스의 문제가 해결되었습니다.**: 고객이 [!UICONTROL Click Track] 모드에서 추적된 구성 요소의 이름을 지정할 수 없는 활동 만들기 프로세스의 문제가 해결되었습니다. 이름을 입력한 후 필드는 편집 가능한 것으로 표시되었지만 입력을 보존하지 않았으므로 편집 모드에서 &quot;MY PRIMARY GOAL 0&quot;과 같은 일반 레이블로 기본 설정됩니다. 이제 추적된 요소 필드가 비활성화되고 목표 설정 및 추적 정확도를 개선하기 위해 이름 지정 동작이 명확해졌습니다. (TGT-51396)
+
++++
+
+**경험 조각(XF)**
+
++++세부 정보 보기
+* **AEM에서 내보낸 조각을 의도하지 않게 HTML에서 편집할 수 있도록 허용하는 활동 만들기 프로세스의 문제가 해결되었습니다.**: 고객이 [!DNL Experience Fragments] 내의 [!DNL Adobe Experience Manager]&#x200B;(AEM)에서 내보낸 [!DNL Target]의 HTML(XF)를 편집할 수 있도록 허용하는 활동 만들기 프로세스의 문제가 해결되었습니다. AEM에서 게시한 XF는 편집을 위해 잠긴 상태로 유지되어야 하므로 이 동작은 의도하지 않았습니다. 이 수정 사항을 적용하면 AEM에서 내보낸 조각에 대해 &quot;HTML 편집&quot; 옵션을 더 이상 사용할 수 없어 컨텐츠 무결성과 예상 거버넌스가 유지됩니다. (TGT-53286)
+* **업데이트된 UI 내에서 활동 만들기 프로세스의 XF 콘텐츠에 대한 간헐적인 미리 보기 문제가 해결되었습니다.**: 활동 만들기 프로세스의 XF 콘텐츠가 업데이트된 UI 내의 미리 보기 모드에서 간헐적으로 렌더링되지 않는 문제가 해결되었습니다. 콘텐츠가 올바르게 전달되었지만 미리보기가 일관되게 표시되지 않아 고객이 오퍼 설정을 확인하는 데 어려움이 있습니다. 이제 XF 미리보기가 안정적으로 로드되어 활동 구성 중에 신뢰도와 효율성이 향상됩니다. (TGT-53318)
+
++++
+
+**QA 모드**
+
++++세부 정보 보기
+* **URL의 선행 공백으로 인해 QA 링크가 끊어지는 활동 만들기 프로세스의 문제가 해결되었습니다.**: 저장할 때 활동 URL의 선행 공백이 제대로 트리밍되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다. 이로 인해 백엔드에서 잘못된 QA 링크와 잘못된 서식이 지정되었습니다. 업데이트 후 URL이 이제 깔끔하게 저장되므로 링크가 끊어지는 것을 방지하고 고객의 QA 워크플로우의 안정성이 향상됩니다. (TGT-53427)
+
++++
+
+**[!UICONTROL Recommendations]**
+
++++세부 정보 보기
+* **카탈로그 검색 UI에서 고급 검색이 제안을 제공하지 못하는 문제를 해결했습니다**: 새 [!UICONTROL Catalog Search] UI에서 [!UICONTROL Advanced Search] 기능이 제안을 제공하지 못하는 문제를 해결했습니다. 사용자는 정확한 철자로 정확한 값을 입력해야 하므로 검색 경험이 번거롭고 오류가 발생하기 쉽습니다. 이 수정 사항을 통해 [!UICONTROL Advanced Search]은(는) 이제 사용자가 입력할 때 관련 제안을 제공하므로 유용성이 향상되고 제품을 찾을 때 마찰이 줄어듭니다. (TGT-52008)
+* **응답성과 엔터티 상호 작용을 개선하기 위해 여러 UI 및 필터링 문제를 해결했습니다.**: 작은 화면 장치의 기준 세부 정보의 응답성 저하, 환경 필터에서 &quot;모든 호스트 그룹&quot;을 선택할 때 결과 부족, 이름이 없는 엔터티와 상호 작용할 수 없는 문제 등 여러 문제를 해결했습니다. 이러한 수정 사항은 화면 크기에서 유용성을 향상시키고, 정확한 필터링을 보장하며, 모든 제품 엔티티와 완벽하게 상호 작용할 수 있도록 하여 사용자의 전반적인 경험을 향상시켜 줍니다. (TGT-52992)
+* **활동을 만드는 동안 권장 사항 세부 정보 보기에서 누락된 제품 ID를 수정했습니다**: 제품 세부 정보 화면에서 제품 ID가 누락되어 고객이 워크플로우 중에 제품 ID를 복사하거나 참조하기 어려웠던 [!DNL Recommendations] 활동 만들기 프로세스의 문제를 해결했습니다. 이제 제품 ID가 세부 사항 보기에 명확하게 표시되므로 가시성이 향상되고 고객을 위한 보다 효율적인 제품 관리를 지원합니다. (TGT-51964)
+* **제품 메시지가 권장 사항 보기에 표시되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다**: 메시지가 있어도 [!UICONTROL Message] 보기의 [!DNL Recommendations] 열에 제품 데이터가 표시되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다. 고객은 콘텐츠를 일시적으로 표시하기 위해 열을 수동으로 제거하고 다시 추가해야 했는데, 스크롤하거나 검색할 때 종종 다시 사라집니다. 이 업데이트는 제품 메시지의 일관된 가시성을 복원하여 카탈로그 탐색 및 검토 워크플로우를 개선합니다. (TGT-52777)
+* **권장 사항 보기에서 &#39;모든 호스트 그룹&#39;을 선택하면 결과가 반환되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다**: [!DNL Recommendations] 보기에서 &#39;모든 호스트 그룹&#39; 환경을 선택하면 결과가 반환되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다. 이제 고객은 모든 호스트 그룹의 제품 데이터를 예상대로 볼 수 있으므로 활동 설정 중 가시성과 필터링 정확성이 향상됩니다. (TGT-53006)
+* **저장한 후 전면 프로모션 전환이 지속되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다.**: 활동 설정에서 전면 프로모션 전환을 사용하지 않도록 설정하는 것이 저장한 후 지속되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다. 전면 프로모션을 제거하려는 고객이 활동 재방문 시 토글이 다시 활성화되어 적절한 사용자 지정이 되지 않았음을 발견했습니다. 이 업데이트를 통해 변경 사항을 안정적으로 저장할 수 있으므로 고객은 프로모션 설정을 완벽하게 제어할 수 있습니다. (TGT-53215)
+* **[!UICONTROL Last Updated] 열별로 일관되지 않은 정렬 문제를 해결했습니다.** [!UICONTROL Last updated] 열별로 카탈로그를 정렬하면 일관되지 않은 결과가 발생하는 활동 만들기 프로세스의 문제를 해결했습니다. 고객이 업데이트 타임스탬프를 기반으로 제품 데이터를 안정적으로 구성할 수 없어 카탈로그 검토 및 관리가 더욱 어려웠습니다. 이제 정렬이 예상대로 작동하여 업데이트된 UI의 정확도와 유용성이 개선됩니다. (TGT-53116)
+
++++
+
+**VEC(시각적 경험 작성기)**
+
++++세부 정보 보기
+* **활동 만들기 프로세스의 활동 로드 및 [!UICONTROL Cancel] 단추 문제 해결**: 특정 활동이 로드되지 않고 고객이 수정 사항에 액세스할 수 없는 활동 만들기 프로세스의 문제를 해결했습니다. 또한 [!UICONTROL Cancel] 단추가 응답하지 않아 고객이 로드 프로세스를 중지하거나 편집 보기를 종료하지 못했습니다. 이 수정 사항으로 인해 활동이 안정적으로 로드되고 [!UICONTROL Cancel] 버튼이 예상대로 작동하여 시각적 경험 작성기의 전반적인 안정성과 사용자 경험이 향상됩니다. (VEC)(TGT-53218)
+* **편집을 차단하고 [!UICONTROL Cancel] 단추를 사용하지 않도록 설정한 업데이트된 VEC UI의 경험 전환 문제**: XT(경험 타깃팅) 활동에서 경험 간을 전환할 때 수정 사항을 로드하지 못하는 업데이트된 VEC UI의 문제를 해결했습니다. 고객이 처음에 입력한 경험 이외의 경험을 편집할 수 없으며 [!UICONTROL Cancel] 버튼이 없거나 응답하지 않습니다. 이 수정 사항을 통해 이제 모든 경험에서 수정 사항이 올바르게 로드되고 Helper 확장이 없어도 [!UICONTROL Cancel] 단추가 안정적으로 작동하여 편집 워크플로가 개선되고 문제가 줄어듭니다. (TGT-53256)
+* **활동 만들기 프로세스에서 여러 경험 사이를 전환할 때 발생하는 흰색 화면 문제를 해결했습니다**: 여러 경험 사이를 전환하면 흰색 화면이 표시되는 문제를 해결했습니다. 또한 고객이 활동 내에서 여러 경험을 수정하려고 할 때 흰색 화면이 표시되는 활동 만들기 프로세스의 문제를 수정했습니다. 이 문제는 두 경험에 변경 사항을 적용한 다음 세 번째 경험을 선택한 후에 발생했으며 더 이상 편집할 수 없습니다. 업데이트는 경험 간의 원활한 전환을 보장하므로 고객이 중단 없이 수정할 수 있습니다. (TGT-53266)
+* **사용자 지정 코드 변경 내용이 편집 세션 간에 안정적으로 저장되지 않는 VEC의 문제를 해결했습니다**: VEC(시각적 경험 작성기)에서 수정한 사용자 지정 코드가 한 번의 시도에서 안정적으로 저장되지 않는 문제를 해결했습니다. 고객은 [!UICONTROL Edit Content] 및 최종 [!UICONTROL Save] 단추를 모두 사용한 후에도 웹 사이트 및 QA URL에서 스타일 업데이트 또는 HTML 편집과 같은 변경 사항이 간헐적으로 누락되었다고 보고했습니다. 모든 사용자 지정 코드 변경 사항이 편집 세션 간에 예상대로 유지되도록 이 회귀 문제를 해결했습니다.**(TGT-53418)
+* **활동을 만드는 동안 업데이트된 UI에서 누락된 `triggerViews`이(가) 수정됨**: `triggerViews`이(가) 페이지에서 올바르게 구현되었는데도 업데이트된 UI에 표시되지 않는 활동 만들기 프로세스의 문제를 해결했습니다. 이로 인해 여러 고객에게 영향을 주었고 활동 설정 중에 보기 기반 트리거를 확인하기 어렵게 되었습니다. 이제 `TriggerViews`이(가) 예상대로 표시되어 고객이 구성을 안정적으로 완료하고 테스트할 수 있습니다. (TGT-53239)
+* **업데이트된 UI의 특정 웹 페이지에 대한 활동 만들기 프로세스의 보기 로드 문제가 해결되었습니다**: 게재 또는 상호 작용 호출에서 올바르게 구현되고 표시되더라도 특정 웹 페이지에 대한 업데이트된 UI에서 보기가 로드되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다. 이로 인해 여러 고객에게 영향을 주었고 보기 기반 타깃팅의 유효성을 검사하는 것이 어려워졌습니다. 이제 지원되는 페이지에서 보기가 일관되게 채워져 활동 설정 중 안정성이 향상됩니다. (TGT-53246)
+* **업데이트된 UI의 활동 만들기 프로세스의 간헐적 보기 로드 문제가 해결되었습니다**: 활동 편집 중에 업데이트된 UI에 보기가 간헐적으로 표시되지 않는 활동 만들기 프로세스의 문제가 해결되었습니다. 올바른 보기 이름이 네트워크 페이로드에 표시되었지만 인터페이스에서 일관되게 인식되지 않아 고객이 보기 기반 개인화를 구성할 수 있는 기능에 영향을 주었습니다. 보기가 이제 안정적으로 표시되어 더 원활한 설정 및 유효성 검사 워크플로우를 지원합니다. (TGT-53223)
+* **활동 만들기 프로세스에서 추적된 작업 이름이 업데이트된 UI에 저장되지 않는 문제가 해결되었습니다.**: 활동 만들기 프로세스에서 추적된 작업 지표를 업데이트된 UI에 저장할 수 없는 문제가 해결되었습니다. 추적된 요소의 이름을 지정하고 활동을 저장한 후 다시 열면 이름이 기본 레이블로 재설정되므로 혼동이 발생하고 목표 구성이 중단됩니다. 추적된 작업은 이제 할당된 이름을 유지하여 고객이 전환 지표를 정확하게 설정하고 관리할 수 있습니다. (TGT-53453)
+
++++
+
+### [!DNL Target Standard/Premium] 25.8.1(2025년 8월 7일)
+
+이 릴리스에는 다음 개선 사항 및 수정 사항이 포함되어 있습니다.
+
+**활동**
+
++++세부 정보 보기
+* 입력 값의 공백으로 인한 페이지 유형 삭제 시 오류, 작업 영역 간 신뢰할 수 없는 활동 복사, QA 환경에서 제대로 작동하지 않는 페이지 전달 규칙을 포함하여 업데이트된 UI와 관련된 여러 문제를 해결했습니다. (TGT-52703)
+* 업데이트된 [!DNL Target] UI에서 [!UICONTROL Editor] 역할을 가진 사용자가 라이브 활동에 액세스하여 편집을 시도할 수 있는 문제를 해결했습니다. 이를 제한해야 합니다. 활동 목록 및 개요 화면에 라이브 활동에 대한 편집 옵션이 잘못 표시되어 의도하지 않은 변경이 발생할 수 있습니다. (TGT-53055)
+* [!UICONTROL Advanced Search] UI에서 &quot;값이 있음&quot; 또는 &quot;값이 없음&quot; 연산자를 선택하면 피연산자를 입력하라는 메시지가 표시되는 문제가 해결되었습니다. 이러한 조건에는 피연산자가 필요하지 않습니다. (TGT-51961)
+* 샌드박스 환경에서도 스테이징에서 프로덕션 작업 영역으로 활동을 복사하려는 시도가 일관되게 실패하는 업데이트된 UI 문제를 해결했습니다. 유효한 구성을 사용하고 적절한 작업 영역 권한이 있음에도 불구하고 고객에게 &quot;활동에서 이미 사용한 익명 대상&quot; 및 &quot;잘못된 대상 ID&quot;와 같은 다양한 오류 메시지가 발생했습니다. (TGT-52394)
+
++++
+
+**경험 조각(XF)**
+
++++세부 정보 보기
+* 컨텐츠 전달에서 올바르게 작동하지만 XF(경험 조각) 컨텐츠가 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 미리 보기에서 렌더링되지 않는 문제를 해결했습니다. (TGT-53318)
+
++++
+
+**로컬라이제이션**
+
++++세부 정보 보기
+* QA 테넌트의 여러 언어 환경에서 &quot;프로모션&quot; 섹션의 &quot;프로모션 추가&quot; 버튼이 현지화되지 않고 표시되는 현지화 문제를 해결했습니다. (TGT-53263)
+
++++
+
+**오퍼**
+
++++세부 정보 보기
+* VEC(시각적 경험 작성기)를 통해 기존 HTML 오퍼를 편집하면 컨텐츠 전달에서 모든 수정 사항이 제거되던 문제를 해결했습니다. 변경 사항은 수정 탭에 회색으로 표시되며, 기존 UI에 올바르게 적용되었더라도 QA 미리 보기에 반영되지 않습니다. (TGT-52863)
+* [!DNL Target] 탭에서 다시 [!UICONTROL Visual Experience Composer]&#x200B;(으)로 이동한 후 [!UICONTROL Targeting]&#x200B;(VEC)에서 수정된 HTML 오퍼가 지속되지 않는 업데이트된 [!UICONTROL Experiences] UI의 문제를 해결했습니다. (TGT-52874)
+* 업데이트된 [!DNL Target] UI에서 동일한 선택기의 앞에 한 개의 HTML 오퍼를 삽입하고 그 뒤에 다른 오퍼를 삽입하면 잘못된 위치가 생성되는 문제를 해결했습니다. 고객이 [!UICONTROL Targeting] 탭에서 [!UICONTROL Experience] 탭으로 돌아왔을 때 하나의 선택기만 유지되어 수정 내용이 손실되고 컨텐츠 전달이 중단되었습니다. 이 동작은 고유한 위치 식별자를 사용하여 두 수정 사항을 모두 올바르게 보존한 레거시 UI와 다릅니다. (TGT-52891)
+* 업데이트된 [!DNL Target] UI에서 [!UICONTROL Modifications] 레일 내에서 추가된 오퍼를 클릭하면 오른쪽의 [!UICONTROL Configuration] 패널이 간헐적으로 나타났다가 사라져 오퍼 설정과 상호 작용하기 어려운 문제가 해결되었습니다. (TGT-53288)
+* 활동 내의 대상별 변형에 추가된 HTML 오퍼가 수정 섹션에 일관되게 저장되거나 표시되지 않던 문제를 수정했습니다. 편집하는 동안 대상 간에 전환한 후 이전에 적용된 오퍼가 간혹 사라지거나 렌더링에 실패하여 유효성 검사가 중단되고 활동 준비가 지연될 수 있습니다. (TGT-53440)
+* 오퍼를 포함한 활동을 복사하면 새 활동에서 중복 오퍼가 만들어지는 문제가 해결되었습니다. 이 동작은 특히 작업 영역 간에 활동을 이동할 때 불필요한 혼란과 혼동을 초래했습니다. 이 문제를 해결하면 [!DNL Target] 오퍼가 이제 복제 없이 대상 작업 영역에 올바르게 복사되어 활동 관리가 간소화되고 워크플로우 효율성이 향상됩니다. (TGT-53454)
+
++++
+
+**단일 페이지 응용 프로그램(SPA)**
+
++++세부 정보 보기
+* 업데이트된 VEC에서 고객이 [!UICONTROL Single Page Application]&#x200B;(SPA) 보기에 수정 사항을 적용하지 못하는 문제를 해결했습니다. 이전 UI에서 만든 활동이 보기별 타깃팅을 지원하지만, 새 UI는 보기 전환 컨트롤이 비활성화되어 표시된 상태에서 해당 보기에 대한 편집을 감지하거나 허용하지 못했습니다. (TGT-52556)
+
++++
+
+**VEC(시각적 경험 작성기)**
+
++++세부 정보 보기
+* [!UICONTROL Visual Experience Composer] 내의 경험에 대한 수정 사항이 표시되지 않거나 UI에 일관되지 않게 표시되는 문제가 해결되었습니다. (TGT-TGT-53381)
+* 업데이트된 VEC에서 [!UICONTROL Manage Content] 섹션이 경험 썸네일에 대한 대체 텍스트를 표시하지 못하는 문제를 해결했습니다. 이 문제로 인해 사용자가 문서를 식별하는 데 어려움을 겪었습니다. 특히 파일 이름이 길거나 잘린 경우 더욱 그렇습니다. (TGT-52291)
+* 고객이 VEC 활동에서 [!UICONTROL page delivery] 규칙을 구성할 때 잘못된 유효성 검사 오류가 발생하는 오류를 수정했습니다. 특히, 텍스트 값을 입력할 때 텍스트가 지원되어야 하지만 &quot;다음 중 1개 이상의 항목과 같음&quot; 및 &quot;다음 중 같은 항목 없음&quot;과 같은 연산자는 &quot;연산자 유형에 대한 잘못된 입력&quot;을 트리거했습니다. (TGT-52629)
+* &quot;오퍼 선택&quot; 단추를 사용하여 오퍼를 선택할 때 업데이트된 UI의 [!UICONTROL Modifications] 패널에서 일관되지 않은 동작을 발생시킨 몇 가지 문제를 해결했습니다. 기존 오퍼를 바꾸는 대신 UI에서 중복을 추가하고 두 오퍼 중 하나와 상호 작용하려고 시도하면 `selectorNotFound`과(와) 같은 콘솔 오류가 발생했습니다. 또한 일부 오퍼에는 &quot;오퍼 선택&quot; 버튼이 표시되지 않고 편집 가능한 속성만 표시됩니다. (TGT-53321)
+* 컨트롤 그룹에 대해 올바르게 저장되었는데도 활동 설정 중에 변경된 HTML 코드 변경 사항이 변형 페이지에서 지속되지 않는 업데이트된 [!DNL Target] UI의 문제를 해결했습니다. 페이지를 그룹화하지 않고 테스트를 여러 번 다시 만들려고 했지만, 변형 페이지가 수정 사항을 지속적으로 유지하지 못하여 콘텐츠 전달 및 QA 유효성 검사에 영향을 주었습니다. (TGT-53436)
+* 업데이트된 VEC에서 페이지 전달 규칙의 &quot;다음 중 1개 이상의 항목과 같음&quot; 연산자가 입력 값을 수락하지 못하는 문제를 해결했습니다. 모든 mbox에 대해 고객 매개 변수를 구성할 때 이 연산자를 선택하면 &quot;잘못된 입력&quot; 오류가 발생하여 규칙이 생성되지 않습니다. (TGT-52623)
+
++++
+
+**작업 공간**
+
++++세부 정보 보기
+* 작업 영역 간 활동을 복사할 때 워크플로우가 개선되었습니다. 작업 영역 간 복사 활동으로 인해 이전에는 대상 누락 및 미할당 속성으로 인해 동기화 오류가 발생했습니다. 이 업데이트에서는 복사된 활동을 올바르게 구성하고 게시할 준비가 되도록 하는 보다 스마트하고 직관적인 워크플로우를 도입합니다. (TGT-47094)
+* `copyActivityBatchOperations` 돌연변이의 실패로 인해 고객이 작업 영역 간 활동을 복사할 수 없는 문제가 해결되었습니다. 활동을 복제하려고 하면 서버 오류(500)와 null 응답 페이로드가 발생했습니다. (TGT-52405)
+* 구성에서 참조된 오퍼를 선택한 작업 영역 내에서 액세스할 수 없을 때 활동을 동기화하지 못하는 문제를 해결했습니다. 이로 인해 게시 오류가 발생하고 활동이 실패 상태로 남았습니다. (TGT-52535)
+* 업데이트된 [!DNL Target] UI에서 작업 영역 간에 활동을 복사할 때 여러 문제가 해결되었습니다. 사용자가 소스 및 대상 작업 영역 모두에서 &quot;[!UICONTROL Approver]&quot; 역할을 가지고 있더라도 고객 액세스, 특히 라이브 활동 및 잘못된 권한 유효성 검사와 관련된 오류가 발생했습니다. (TGT-53002)
+* 업데이트된 UI에서 동일한 작업 영역 내의 활동을 복사하는 경우 관련 오퍼 및 대상이 불필요하게 중복되는 문제를 해결했습니다. (TGT-53457)
+* 임시(익명) 대상이 기본이 아닌 작업 영역 간에 또는 기본이 아닌 작업 영역에서 기본 작업 영역으로 올바르게 복사되지 않는 문제를 해결했습니다. 이전 업데이트에서는 기본이 아닌 동일한 작업 영역 시나리오에 대해 적절한 중복을 보장했지만, 이 개선 사항은 여러 작업 영역에 걸쳐 있는 결합된 대상 구성을 유지하는 데 중점을 둡니다. 이 수정 사항은 모든 작업 영역 전환에서 일관된 대상 동작과 정확한 타겟팅을 보장합니다. (TGT-53268)
+
++++
 
 ### [!DNL Target Standard/Premium] 25.7.4(2025년 8월 1일)
 
@@ -198,7 +475,7 @@ ht-degree: 68%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 * 고객이 [!UICONTROL Goals & Settings] 페이지에서 특정 활동에 대한 보고서를 볼 때 [!UICONTROL View in Analytics] 링크가 프로덕션 환경 대신 QA 환경을 잘못 가리키는 문제가 해결되었습니다. (TGT-53163)
@@ -237,7 +514,7 @@ ht-degree: 68%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
 * 여러 경험에 사용된 선택기가 선택된 상태로 일관되게 강조 표시되지 않던 [!UICONTROL Goals & Settings] 페이지의 문제를 해결했습니다. (TGT-53062)
@@ -288,7 +565,7 @@ ht-degree: 68%
 
 +++
 
-**[!UICONTROL Analytics for Target] (A4T)**
+**[!UICONTROL Analytics for Target](A4T)**
 
 +++세부 정보 보기
 * 기존 활동을 복사하고 보고 소스를 [!DNL Adobe Analytics]&#x200B;(A4T)으로 변경하면 &quot;잘못된 사용자 입력&quot; 오류가 발생하는 문제를 해결했습니다. [!DNL Analytics], `restart_same_experience` 및 `restart_random_experience`과(와) 같이 `restart_new_experience` 보고와 호환되지 않는 특정 지표 작업이 원래 활동에서 유지된 경우 오류가 트리거되었습니다. (TGT-52900)
@@ -335,7 +612,7 @@ ht-degree: 68%
 * 이전에는 피드에서 성공적으로 가져온 엔티티 수만 권장 사항 UI에 표시되었습니다. 그러나 백 엔드 메시지 형식에는 가져온 엔터티 수와 `# of entities imported / # of total entities` 형식의 총 엔터티 수가 모두 포함됩니다. 이러한 불일치로 인해 사용자는 UI에서 첫 번째 값(가져온 개수)만 볼 수 있었고, 이로 인해 혼동이 발생했습니다. 이제 UI에 두 숫자가 모두 표시됩니다. (TGT-53073)
 * 추천이 있는 양식 기반 A/B 활동에서 &quot;[!UICONTROL Promote by attribute]&quot; 프로모션을 구성할 때 고객이 필터링 규칙을 저장할 수 없는 문제를 해결했습니다. 활동을 저장하고 다시 연 후 필터링 규칙이 누락되어 활동을 저장할 수 없습니다. (TGT-53057)
 
-+++
+  +++
 
 **보고서**
 
@@ -345,7 +622,7 @@ ht-degree: 68%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
 * 보기에 수정 사항을 적용하면 보기가 복제되고 활동이 &quot;잘못된 사용자 입력&quot; 오류를 반환하는 문제를 해결했습니다. 이 수정 사항은 중복 또는 유효성 검사 오류를 트리거하지 않고 보기 수정 사항이 올바르게 적용되도록 합니다. (TGT-52886)
@@ -372,7 +649,7 @@ ht-degree: 68%
    * 오른쪽 패널을 통해 오퍼의 이름을 바꾸면 UI에서 이름이 업데이트되었지만 변경 내용이 [!UICONTROL Manage Content] 탭 또는 [!UICONTROL Offers] 탭에 반영되지 않아 지속적인 유효성 검사 오류가 발생했습니다.
    * MVT 활동에서는 이름을 바꾼 후에도 중복 이름 오류가 지속되지 않지만 UI는 탭 간에 업데이트된 오퍼 이름을 일관되게 반영하지 못했습니다. (TGT-52933)
 
-+++
+  +++
 
 ### [!DNL Target Standard/Premium] 25.6.4 (2025년 6월 27일 토요일)
 
@@ -767,7 +1044,7 @@ ht-degree: 68%
 
 * `localStorage`을(를) 사용할 수 없을 때 원격 분석 로깅을 수정했습니다. 원격 분석으로 인해 일부 고객의 브라우저에서 `localStorage`을(를) 사용하지 않도록 설정한 문제가 발생했습니다.
 
-이 릴리스 및 이전 at.js 릴리스에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}을 참조하십시오.
+이 릴리스 및 이전 at.js 릴리스에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}을 참조하십시오.
 
 ### Target Standard/Premium 25.2.1 (2025년 2월 17일 화요일) {#ui-update-2}
 
@@ -791,7 +1068,7 @@ ht-degree: 68%
 최신 [!DNL Adobe Spectrum] 디자인 시스템을 기반으로 업데이트는 다음과 같은 새로운 개선 사항을 추가하면서 이전에 일관되지 않은 디자인 패턴을 표준화합니다.
 
 * 활동 결과에 대한 더 나은 통찰력을 위해 [다시 디자인된 보고](/help/main/administrating-target/reporting.md).
-* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) 페이지, 이제 실시간 인사이트를 위해 [[!DNL Audit Query API]](https://experienceleague.adobe.com/ko/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}에서 정보를 가져옵니다.
+* [[!UICONTROL Updated Change Log]](/help/main/c-activities/change-log.md) 페이지, 이제 실시간 인사이트를 위해 [[!DNL Audit Query API]](https://experienceleague.adobe.com/en/docs/experience-platform/landing/governance-privacy-security/audit-logs/audit-api/overview){target=_blank}에서 정보를 가져옵니다.
 * 서로 다른 팀 요구 사항에 따라 유연성을 높일 수 있도록 [사용자 지정 가능한 목록 보기](/help/main/c-activities/activities.md)를 제공합니다.
 * 보다 쉽게 정보에 액세스할 수 있도록 [빠른 정보 및 세부 정보 화면을 개선했습니다](/help/main/c-activities/activities.md).
 * [세션 영구 검색 및 필터 옵션](/help/main/c-activities/activities.md).
@@ -878,7 +1155,7 @@ ht-degree: 68%
 * [[!UICONTROL Form-Based Experience Composer]](/help/main/c-experiences/form-experience-composer.md)에서 만든 활동에서 사용자 지정 결정 범위 사용
 * 전역 `renderDecisions: true` 범위를 사용하는 [!UICONTROL Form-Based Experience Composer]을(를) 사용하여 만든 활동을 가져올 때 `__view__`을(를) 사용하지 않음
 
-알림이 [데이터 수집](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} 가이드의 *개인화된 콘텐츠 렌더링*&#x200B;에 설명된 대로 구현되지 않으면 보고 데이터가 [!DNL Target] 및 [Analytics for Target 보고](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)에서 누락될 수 있습니다. 특정 시나리오에서는 보고 데이터가 캡처되지 않기 때문에 잘못된 트래픽 분할을 볼 수 있습니다. 또는 다른 시나리오에서 동일한 이벤트를 반복적으로 보고합니다.
+알림이 [데이터 수집](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/personalization/rendering-personalization-content){target=_blank} 가이드의 *개인화된 콘텐츠 렌더링*&#x200B;에 설명된 대로 구현되지 않으면 보고 데이터가 [!DNL Target] 및 [Analytics for Target 보고](/help/main/c-integrating-target-with-mac/a4t/a4t.md)(A4T)에서 누락될 수 있습니다. 특정 시나리오에서는 보고 데이터가 캡처되지 않기 때문에 잘못된 트래픽 분할을 볼 수 있습니다. 또는 다른 시나리오에서 동일한 이벤트를 반복적으로 보고합니다.
 
 구현에 따라 [!DNL Analytics] 및 A4T 보고 영향을 확인하십시오.
 
@@ -895,7 +1172,7 @@ ht-degree: 68%
 
 * **분할 호출(페이지 이벤트의 상단 및 하단이라고도 함)을 사용합니다.**
 
-  이 구현 유형은 [이(가) 권장하는 새로운 ](https://experienceleague.adobe.com/ko/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}분할 호출 구현 접근 방식[!DNL Adobe]입니다. 이 방법을 사용하면 새 최적화는 [!DNL Analytics] 또는 A4T 보고서에 영향을 주지 않습니다.
+  이 구현 유형은 [이(가) 권장하는 새로운 ](https://experienceleague.adobe.com/en/docs/experience-platform/web-sdk/use-cases/top-bottom-page-events){target=_blank}분할 호출 구현 접근 방식[!DNL Adobe]입니다. 이 방법을 사용하면 새 최적화는 [!DNL Analytics] 또는 A4T 보고서에 영향을 주지 않습니다.
 
 질문이 있는 경우 [Adobe 고객 지원 센터](/help/main/cmp-resources-and-contact-information.md##reference_ACA3391A00EF467B87930A450050077C)에 문의하십시오. (KB-2179)
 
@@ -903,16 +1180,16 @@ ht-degree: 68%
 
 * [!DNL Target]&#x200B;(VEC) 또는 [!UICONTROL Visual Experience Composer] 내의 리디렉션 오퍼에서 [!UICONTROL Form-Based Experience Composer]이(가) 올바르게 작동하지 않는 문제를 해결했습니다.
 
-at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}의 *at.js 버전 세부 사항*&#x200B;을 참조하십시오.
+at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions){target=_blank}의 *at.js 버전 세부 사항*&#x200B;을 참조하십시오.
 
 ### [!DNL Target]의 [!DNL Adobe Customer Journey Analytics] 보고(2024년 5월 8일)
 
-[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/ko/docs/customer-journey-analytics){target=_blank}과(와) [!DNL Target] 간의 통합은 최적화 프로그램에 강력한 분석과 시간 절약에 유용한 도구를 제공합니다.
+[Adobe Customer Journey Analytics](https://experienceleague.adobe.com/en/docs/customer-journey-analytics){target=_blank}과(와) [!DNL Target] 간의 통합은 최적화 프로그램에 강력한 분석과 시간 절약에 유용한 도구를 제공합니다.
 
 [!DNL Customer Journey Analytics]를 [!DNL Target]에 대한 보고 소스로 사용하는 경우의 주요 이점은 다음과 같습니다.
 
 * 마케터가 언제든지 [!DNL Customer Journey Analytics] 성공 지표 또는 보고 세그먼트를 [!DNL Target] 활동 보고서에 동적으로 적용할 수 있습니다. 활동을 실행하기 전에 모든 항목을 지정할 필요는 없습니다.
-* 마케터는 [!DNL Customer Journey Analytics]실험 패널[과 같은 ](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank} 기능을 사용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
+* 마케터는 [!DNL Customer Journey Analytics]실험 패널[과 같은 ](https://experienceleague.adobe.com/en/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank} 기능을 사용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
 
 자세한 내용은 [Adobe Customer Journey Analytics의 Target 보고](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)를 참조하십시오.
 
@@ -999,7 +1276,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| [!DNL Recommendations] 구현 패턴 | *at.js를 사용하는 추천 구현 패턴* 문서는 at.js JavaScript 라이브러리를 사용할 때 [!DNL Adobe Target Recommendations] 구현을 이해하고 생성하는 데 도움이 됩니다.<P>자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html?lang=ko){target=_blank}의 *at.js를 사용한 권장 사항 구현 패턴 개요*&#x200B;를 참조하십시오. |
+| [!DNL Recommendations] 구현 패턴 | *at.js를 사용하는 추천 구현 패턴* 문서는 at.js JavaScript 라이브러리를 사용할 때 [!DNL Adobe Target Recommendations] 구현을 이해하고 생성하는 데 도움이 됩니다.<P>자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/implementation-patterns/atjs/recs-implementation-pattern-atjs.html){target=_blank}의 *at.js를 사용한 권장 사항 구현 패턴 개요*&#x200B;를 참조하십시오. |
 
 * 동적 프레임워크에 대한 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) 개선 사항이 추가되었습니다. (TGT-44064)
 * `getViewInAnalyticsId` 요청에서 선택한 날짜가 제대로 업데이트되지 않는 문제가 수정되었습니다. 이 수정 사항은 날짜 범위 및 지표 보고서 설정이 변경되는 경우 보고 시 [!DNL Analytics] 링크를 다시 계산하는 데 도움이 됩니다. (TGT-46246)
@@ -1033,7 +1310,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 예정된 Edge 인프라 업그레이드를 수행하려면 추가 IP 또는 도메인이 허용 목록에 있어야 합니다. Edge 배포 41-48에 대한 NAT 및 IP/도메인을 검토하고 허용 목록에 추가하십시오. 인프라 업그레이드는 2023년 8월 9일에 시작됩니다.
 
-허용 목록에 추가하다 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html?lang=ko){target=_blank}의 *Target 에지 노드*&#x200B;를 참조하십시오.
+허용 목록에 추가하다 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}의 *Target 에지 노드*&#x200B;를 참조하십시오.
 
 ### [!DNL Target] Standard/Premium 23.8.1 (2023년 8월 9일)
 
@@ -1101,7 +1378,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 | 기능 | 세부 사항 |
 |--- |--- |
 | Headless 개인화 및 실험을 위한 AEM [!UICONTROL Content Fragments] | [!DNL Adobe Experience Manager] 활동에서 [!UICONTROL Content Fragments]&#x200B;(AEM) [!DNL Target]을(를) 사용합니다. AEM의 편의성과 기능을 [!DNL Target]의 강력한 AI(인공 지능) 및 ML(머신 러닝) 기능과 결합하여 headless 개인화와 실험을 지원할 수 있습니다.<P>자세한 내용은 [AEM [!UICONTROL Content Fragments]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md)을(를) 참조하십시오. |
-| [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank} | *Adobe Target 개발자 안내서*&#x200B;가 *[!UICONTROL Adobe Experience League]*(으)로 재배치되었습니다. *[!UICONTROL Experience League]*(으)로 이동하면 추가 언어로 된 텍스트를 현지화하는 데 도움이 되며, *Experience League* 내의 검색을 통합하여 *[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;과(와) *[!UICONTROL Adobe Target Developer Guide]* 모두의 검색 결과를 확장하고 제공하고 추가적인 이점을 제공합니다.<P>이전 위치에서 *[!UICONTROL Experience League]*(으)로 자동으로 리디렉션됩니다. 필요에 따라 책갈피를 업데이트하십시오. |
+| [*Adobe Target 개발자 안내서*](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | *Adobe Target 개발자 안내서*&#x200B;가 *[!UICONTROL Adobe Experience League]*(으)로 재배치되었습니다. *[!UICONTROL Experience League]*(으)로 이동하면 추가 언어로 된 텍스트를 현지화하는 데 도움이 되며, *Experience League* 내의 검색을 통합하여 *[!UICONTROL Adobe Target Business Practitioner Guide]*&#x200B;과(와) *[!UICONTROL Adobe Target Developer Guide]* 모두의 검색 결과를 확장하고 제공하고 추가적인 이점을 제공합니다.<P>이전 위치에서 *[!UICONTROL Experience League]*(으)로 자동으로 리디렉션됩니다. 필요에 따라 책갈피를 업데이트하십시오. |
 
 ### [!DNL Target] Standard/Premium 23.3.1 (2023년 3월 28~30일)
 
@@ -1129,7 +1406,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 * `trackEvent` 함수가 항상 오류를 반환하는 문제가 해결되었습니다.
 
-모든 at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}의 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}을 참조하십시오.
+모든 at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}의 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}을 참조하십시오.
 
 ### [!DNL Target] Standard/Premium 22.15.1 (2023년 3월 8일, 9일)
 
@@ -1150,7 +1427,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 >[!NOTE]
 >
->VEC에서 작성된 변경 내용을 전달하려면 버전이 2.8보다 큰 [!DNL Target] SDK([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko){target=_blank}(alloy.js))를 사용해야 합니다.
+>VEC에서 작성된 변경 내용을 전달하려면 버전이 2.8보다 큰 [!DNL Target] SDK([at.js](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 또는 [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank}(alloy.js))를 사용해야 합니다.
 
 **알려진 문제**: [!DNL Adobe Experience Platform Web SDK]를 사용할 때 그림자 루트 요소의 클릭 추적이 제대로 작동하지 않습니다. (TNT-47012)
 
@@ -1158,7 +1435,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 * `trackEvent` 함수가 항상 오류를 반환하는 문제가 해결되었습니다.
 
-모든 at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}의 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}을 참조하십시오.
+모든 at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}의 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}을 참조하십시오.
 
 ### [!DNL Target] Standard/Premium 22.14.5 (2023년 2월 13~15일)
 
@@ -1178,7 +1455,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 * 이름에 점이 있는 매개변수를 포함하는 대상자 규칙과 관련된 활동이 온디바이스 결정을 위해 예상되는 경험을 반환하지 않는 버그가 수정되었습니다.
 * at.js 2.6.0에서 새로 발생한, `mboxDisable`이 활성화된 경우에도 at.js가 게재 호출을 시작하는 버그가 수정되었습니다.
 
-모든 at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}의 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}을 참조하십시오.
+모든 at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}의 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}을 참조하십시오.
 
 ### [!DNL Target] Standard/Premium 22.13.3 (2023년 1월 25~26일)
 
@@ -1201,7 +1478,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 * 활동이 라이브 상태가 된 후 [!UICONTROL Same as Optimization Goal] 페이지에서 [!UICONTROL Goals & Settings] 설정을 변경할 수 없습니다. (TGT-43923)
 * [!DNL Target Standard]에서 [!DNL Target Premium]으로 업그레이드할 때 [!DNL Target] 백엔드의 기본 작업 공간에 문제가 발생하는 문제를 해결했습니다. (TGT-44081 및 TGT-44306)
 * 이름에 점 문자 “.”를 포함하는 [!DNL Analytics] 보고서 세트를 허용하도록 변경했습니다. 이에 따라 보고서 세트가 [!DNL Target] UI에서 사용되어 [!DNL Analytics] 분류 피드를 생성할 수 있습니다.
-* 지원되는 모든 SDK(Node.js, Java, .NET 및 Python)에 대해 온디바이스 결정을 사용하는 방법을 설명하는 페이지를 가리키도록 &quot;온디바이스 의사 결정을 사용하는 구현 방법&quot;에 대한 [!UICONTROL Implementation] 페이지([!UICONTROL Administration] > [!UICONTROL Implementation])의 링크를 변경했습니다. 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html?lang=ko){target=_blank}에서 [Target SDK 시작하기](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}를 참조하십시오.
+* 지원되는 모든 SDK(Node.js, Java, .NET 및 Python)에 대해 온디바이스 결정을 사용하는 방법을 설명하는 페이지를 가리키도록 &quot;온디바이스 의사 결정을 사용하는 구현 방법&quot;에 대한 [!UICONTROL Implementation] 페이지([!UICONTROL Administration] > [!UICONTROL Implementation])의 링크를 변경했습니다. 자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/getting-started.html){target=_blank}에서 [Target SDK 시작하기](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}를 참조하십시오.
 * [!DNL Scene7] 및 [!DNL Target]을 사용할 때 파일 업로드 문제를 발생시키는 문제를 해결했습니다.
 * 내부 사용성 감사 결과를 사용하여 장애가 있는 사용자를 위한 [!DNL Target] UI 접근성을 개선했습니다. 이러한 접근성 향상에는 이전에 키보드에서 사용할 수 없었던 기능에 대한 액세스, 대체 텍스트 향상, UI의 일부를 보다 유용하게 확대/축소하는 기능, 개선된 키보드 포커스 등이 포함됩니다. (TGT-42759)
 * [!DNL Target] UI 전반에 걸쳐 다양한 현지화 수정을 수행했습니다.
@@ -1212,7 +1489,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 사용자가 [!DNL Adobe Target]&#x200B;(AP) 및 [!UICONTROL Automated Personalization]&#x200B;(AT) 활동을 위해 머신 러닝 모델에 사용되는 기능 목록을 관리할 수 있도록 차단 목록에 추가하다 API라고도 하는 새로운 [!UICONTROL Auto-Target] 모델 API를 제공합니다.
 
-자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}의 *모델 API 개요*&#x200B;를 참조하십시오.
+자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html){target=_blank}의 *모델 API 개요*&#x200B;를 참조하십시오.
 
 ### [!DNL Target] Standard/Premium 22.10.3 (순차적 공개, 2022년 10월 25~27일)
 
@@ -1286,7 +1563,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 | 기능 | 설명 |
 | --- | ---  |
 | 제품 내 알림 | 다음의 관련 제품 내 알림을 확인하십시오.<ul><li>**활동**: 활동이 승인되거나 비활성화될 때 수동으로 또는 시작 또는 종료 날짜에 도달하면 모든 활동 유형에 대한 알림입니다. 알림에는 활동의 개요 페이지에 대한 링크가 있는 활동의 이름이 포함되어 있습니다.</li><li>**프로필 스크립트** 프로필 스크립트가 수동으로 또는 Target에 의해 활성화되거나 비활성화될 때의 알림입니다.</li><li>**추천 피드**: 추천 피드가 활성화 또는 비활성화될 때 수동으로 또는 Target에 의해 알려 줍니다. 추천 피드가 실패하면 알림도 전송됩니다.</li></ul> 기본적으로 제품 관리자, 게시자 및 승인자가 알림을 받습니다. 알림은 Experience Cloud 환경 설정 내에서 구성할 수 있습니다.<br>자세한 내용은 [알림 및 공지](/help/main/c-intro/understand-the-target-ui.md#notifications-announcements). |
-| *Adobe Target 개발자 안내서* | 다음 *Adobe Target 개발자 안내서* 모두 통합 [!DNL Target] 개발자 콘텐츠를 하나의 편리한 안내서에 추가했습니다. 안내서에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다.<br>자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}를 참조하십시오. |
+| *Adobe Target 개발자 안내서* | 다음 *Adobe Target 개발자 안내서* 모두 통합 [!DNL Target] 개발자 콘텐츠를 하나의 편리한 안내서에 추가했습니다. 안내서에는 [!DNL Target] 및 [!DNL Recommendations] 구현, [!DNL Target] SDK 및 [!DNL Target] API에 대한 정보가 포함되어 있습니다.<br>자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}를 참조하십시오. |
 
 * [!UICONTROL Editor] 역할이 있는 사용자는 더 이상 라이브 활동에서 대상을 편집할 수 없습니다. (TGT-43582)
 * 고객이 대상자 이름의 첫 문자로 느낌표( ! )를 사용하여 대상자를 저장하려고 하면 경고 메시지가 표시됩니다(예: !London). (TGT-43643)
@@ -1309,12 +1586,12 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 이번 릴리스에는 다음과 같은 개선 및 수정 사항이 포함되어 있습니다.
 
-* [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=ko){target=_blank} 지원이 추가되었습니다.
+* [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} 지원이 추가되었습니다.
 * [!UICONTROL Offer Decisions]&#x200B;(XT) 활동에서 [!UICONTROL Experience Targeting]을(를) 렌더링할 때 간헐적으로 시간 초과가 발생하는 문제가 해결되었습니다. (TNT-44611)
 
 ### at.js 버전 2.9.0(2022년 5월 27일)
 
-* [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html?lang=ko){target=_blank} 지원이 추가되었습니다.
+* [사용자 에이전트 클라이언트 힌트](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/user-agent-and-client-hints.html){target=_blank} 지원이 추가되었습니다.
 * 동일한 페이지의 여러 mbox 요청에 서로 다른 노출 ID가 있는 버그가 수정되었습니다.
 
 ### [!DNL Target Standard/Premium] 22.5.1 (순차적 공개, 2022년 5월 11~13일)
@@ -1345,7 +1622,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 이번 릴리스에는 다음과 같은 수정 사항이 포함됩니다.
 
 * 3개의 장바구니 기반 알고리즘이 [!DNL Target] 백엔드에서 동일한 구매/구매 조건을 사용하는 오류가 해결되었습니다. (TGT-43456)
-* [!DNL Target]Business ID 계정[ 및 PBA(정책 기반 인증)를 사용하는 조직에 대해 ](https://helpx.adobe.com/kr/enterprise/using/identity.html){target=_blank} UI 토큰 새로 고침을 사용하도록 설정했습니다. (TGT-42590)
+* [!DNL Target]Business ID 계정[ 및 PBA(정책 기반 인증)를 사용하는 조직에 대해 ](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} UI 토큰 새로 고침을 사용하도록 설정했습니다. (TGT-42590)
 
 ### [!DNL Target] 플랫폼 릴리스 (2022년 4월 27일 목요일)
 
@@ -1439,7 +1716,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| 장바구니 기반 추천 | 방문자 장바구니의 콘텐츠를 기반으로 추천을 제공하는 새로운 알고리즘 제품군을 추가했습니다.<br>자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)의 “장바구니 기반”, [추천 계획 및 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}의 “장바구니 추가/장바구니 보기/체크아웃 페이지“와 “방문자의 장바구니에 이미 있는 항목 제외“ 및 [추천 키를 기준으로 추천](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)의 “장바구니 기반”을 참조하십시오. |
+| 장바구니 기반 추천 | 방문자 장바구니의 콘텐츠를 기반으로 추천을 제공하는 새로운 알고리즘 제품군을 추가했습니다.<br>자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)의 “장바구니 기반”, [추천 계획 및 구현](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}의 “장바구니 추가/장바구니 보기/체크아웃 페이지“와 “방문자의 장바구니에 이미 있는 항목 제외“ 및 [추천 키를 기준으로 추천](/help/main/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)의 “장바구니 기반”을 참조하십시오. |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (2021년 10월 19일)
 
@@ -1554,7 +1831,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 온 디바이스 결정 기능을 탑재한 새 [!DNL Adobe Target] Python SDK를 이제 이용할 수 있습니다. 이 최신 추가 기능은 서버측 SDK의 [!DNL Target] 제품군을 강화합니다. 이러한 SDK를 이용하면 [!DNL Target]과 통합할 수 있고 원하는 언어로 값까지 시간을 단축할 수 있습니다. 시장이 퍼스트파티 데이터가 귀중해지는 쿠키 없는 세상으로 전환하여 점점 더 많은 이들이 서버측 통합을 선택하고 있습니다. Target SDK는 시장에서 가장 인기 있는 프로그래밍 언어(Python, Java, JavaScript, C# / .Net)로 이용할 수 있습니다.
 
-자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html?lang=ko){target=_blank}의 [Python SDK 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html?lang=ko){target=_blank}를 참조하십시오.
+자세한 내용은 [Adobe Target 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/python/overview.html){target=_blank}의 [Python SDK 설명서](https://experienceleague.adobe.com/docs/target-dev/developer/overview.html){target=_blank}를 참조하십시오.
 
 ### Target Standard/Premium 21.5.1(2021년 6월 7일)
 
@@ -1666,7 +1943,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| 온디바이스 의사 결정 | 디바이스에서 의사 결정을 통해 마케터와 제품 개발자는 사용자 디바이스 내에서 채널 간에 거의 0에 가까운 지연 시간에 실험 및 머신 러닝 기반 개인화를 제공할 수 있습니다.<br>속도 및 성능 문제 - 고객 인사이트 및 사용자 만족도.<br>디바이스에서 의사 결정을 통해 A/B 테스트 및 Experience Targeting (XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 디바이스에 로드되는 &quot;최적화 아티팩트:&quot; JSON 개체로 컴파일할 수 있습니다. 또한 디바이스에서 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되기 때문에 [!DNL Target] 사용자는 빠른 분석과 빠른 경험 반복을 얻을 수 있습니다.<br>자세한 내용은 *[at.js에 대한 온디바이스 의사 결정](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html?lang=ko){target=_blank} 및 서버측에 대한 [온디바이스 의사 결정 소개](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ko-KR){target=_blank}를 참조하십시오. |
+| 온디바이스 의사 결정 | 디바이스에서 의사 결정을 통해 마케터와 제품 개발자는 사용자 디바이스 내에서 채널 간에 거의 0에 가까운 지연 시간에 실험 및 머신 러닝 기반 개인화를 제공할 수 있습니다.<br>속도 및 성능 문제 - 고객 인사이트 및 사용자 만족도.<br>디바이스에서 의사 결정을 통해 A/B 테스트 및 Experience Targeting (XT) 활동 유형의 주요 개인화 및 실험 지침을 CDN을 통해 고객 디바이스에 로드되는 &quot;최적화 아티팩트:&quot; JSON 개체로 컴파일할 수 있습니다. 또한 디바이스에서 의사 결정은 기본적으로 [!DNL Adobe Experience Cloud] 제품과 연결되기 때문에 [!DNL Target] 사용자는 빠른 분석과 빠른 경험 반복을 얻을 수 있습니다.<br>자세한 내용은 *[at.js에 대한 온디바이스 의사 결정](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/on-device-decisioning/on-device-decisioning.html){target=_blank} 및 서버측에 대한 [온디바이스 의사 결정 소개](https://experienceleague.adobe.com/docs/target-dev/developer/server-side/on-device-decisioning/overview.html?lang=ko-KR){target=_blank}를 참조하십시오. |
 
 이번 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
@@ -1777,8 +2054,8 @@ at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| at.js 1.8.2 | at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.<ul><li>CNAME 및 에지 재정의 at.js 1을 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35064)</li></ul>자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하십시오. |
-| at.js 2.3.1 | at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.<ul><li>[targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank}를 통해 `deviceIdLifetime` 설정을 재정의할 수 있게 했습니다. (TNT-36349)</li><li>CNAME 및 에지 재정의 at.js 2를 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35065)</li><li>[!DNL Target] [!DNL Launch] 확장 v2 및 [!DNL Adobe Analytics] [!DNL Launch] 확장을 사용할 때 [!DNL Target] 이 [!DNL Analytics] `sendBeacon` 호출을 지연시키는 문제를 해결했습니다. (TNT-36407, TNT-35990, TNT-36000)</li></ul>자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하십시오. |
+| at.js 1.8.2 | at.js 유지 관리 릴리스이며, 다음과 같은 수정 사항이 포함되어 있습니다.<ul><li>CNAME 및 에지 재정의 at.js 1을 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35064)</li></ul>자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오. |
+| at.js 2.3.1 | at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 사항이 포함되어 있습니다.<ul><li>[targetGlobalSettings](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html?lang=ko-KR){target=_blank}를 통해 `deviceIdLifetime` 설정을 재정의할 수 있게 했습니다. (TNT-36349)</li><li>CNAME 및 에지 재정의 at.js 2를 사용할 때 문제를 해결했습니다.*x* 가 서버 도메인을 잘못 만들어 [!DNL Target] 요청에 실패할 수 있습니다. (TNT-35065)</li><li>[!DNL Target] [!DNL Launch] 확장 v2 및 [!DNL Adobe Analytics] [!DNL Launch] 확장을 사용할 때 [!DNL Target] 이 [!DNL Analytics] `sendBeacon` 호출을 지연시키는 문제를 해결했습니다. (TNT-36407, TNT-35990, TNT-36000)</li></ul>자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오. |
 
 ### Profile Batch Status API v2 변경(2020년 5월 4일)
 
@@ -1872,7 +2149,7 @@ Target at.js JavaScript 라이브러리의 다음 새 버전을 사용할 수 �
 * at.js 버전 2.3.0
 * at.js 버전 1.8.1
 
-자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하십시오.
+자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.
 
 ### Target Standard/Premium 20.2.1(2020년 3월 23일)
 
@@ -2004,8 +2281,8 @@ Target Standard/Premium 20.1.1 릴리스는 유지 보수 릴리스이며 백엔
 | 기능/향상 | 설명 |
 | --- | --- |
 | ![Premium 배지](/help/main/assets/premium.png)<br>A/B 테스트 및 XT(경험 타기팅) 활동의 권장 사항 | 권장 사항 오퍼(알고리즘) 상태는 권장 사항 오퍼가 포함된 A/B 테스트 및 XT 활동에 대한 개요 페이지에 표시됩니다. 결과 준비됨, 결과가 준비되지 않음 및 피드 장애 상태가 있습니다. (TGT-33649)<br>오퍼로서의 [권장 사항 보기](/help/main/c-recommendations/recommendations-as-an-offer.md#status). |
-| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이번 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 사용해야 합니다.<br>at.js 2.x에서 [도메인 간 추적 지원](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하십시오. |
-| ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2를 Target에서 지원 | 현재 Target 고객은 Apple의 CNAME 인증 프로그램을 활용하여 Adobe의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 도입했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 향후 ITP 릴리스를 완화할 수 있도록 Target의 JavaScript 라이브러리와 함께 [ECID 라이브러리 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 배포하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>. [Apple ITP(Intelligent Tracking Prevention) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html?lang=ko){target=_blank}를 참조하십시오. |
+| ECID(Experience Cloud ID) 라이브러리를 통해 at.js 2.0+에 대한 도메인 간 추적 지원 | 이전에는 도메인 간 추적이 at.js 2.*x*&#x200B;에는 사용할 수 없습니다. 이번 릴리스를 통해 at.js 2.0 이상을 사용하는 고객은 이제 ECID 라이브러리를 통해 도메인 간 추적을 활용할 수 있습니다. 도메인 간 추적을 수행하려면 at.js 2.0 이상 버전과 함께 ECID 라이브러리를 페이지에 설치해야 합니다. [Experience Cloud ID 라이브러리 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 사용해야 합니다.<br>at.js 2.x에서 [도메인 간 추적 지원](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오. |
+| ECID(Experience Cloud ID) 라이브러리 4.3을 통해 Apple의 ITP 2.1 및 ITP 2.2를 Target에서 지원 | 현재 Target 고객은 Apple의 CNAME 인증 프로그램을 활용하여 Adobe의 ITP 2.1 및 ITP 2.2를 완화할 수 있습니다.<br>이번 릴리스에서는 Target이 ECID 라이브러리 4.3과의 매끄러운 통합을 도입했습니다. 이 라이브러리는 서버측 쿠키를 활용하여 ITP 2.1과 ITP 2.2를 완화합니다. Target 고객은 향후 ITP 릴리스를 완화할 수 있도록 Target의 JavaScript 라이브러리와 함께 [ECID 라이브러리 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=ko-KR)를 배포하는 것이 좋습니다. ECID 라이브러리는 브라우저에 도입된 변화무쌍한 쿠키 정책에 강력한 솔루션을 제공하는 향상된 기능을 지속적으로 배포합니다.<br>. [Apple ITP(Intelligent Tracking Prevention) 2.x](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/apple-itp-2x.html){target=_blank}를 참조하십시오. |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -2031,7 +2308,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 * 요청 페이로드가 쿼리 매개 변수 또는 요청 페이로드에 존재하지 않는 `mboxThirdPartyId` 함수를 사용하여 `targetPageParams`을 전달할 때 발생하는 문제를 해결했습니다. (TNT-32613)
 * Chromium 기반 브라우저(Google Chrome 포함)에서 디스플레이 및 클릭 알림 응답이 차단되는 문제를 해결했습니다. (TNT-32290)
 
-이 버전 및 이전 버전의 at.js에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하십시오.
+이 버전 및 이전 버전의 at.js에 대한 자세한 내용은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오.
 
 ### Target Standard/Premium 19.6.1(2019년 6월 26일) {#tgt-19-6-1-historical}
 
@@ -2045,7 +2322,7 @@ at.js 유지 관리 릴리스이며, 다음과 같은 개선 기능 및 수정 �
 | SPA VEC(Single Page App Visual Experience Composer) | **안내 워크플로**: 새로운 안내 워크플로를 통해 페이지 전달 규칙 설정을 실행하도록 구성하는 방법을 이해하고 단일 페이지 앱에 대한 활동을 성공적으로 실행할 수 있습니다. (TGT-33718)<br> [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md#page-delivery-settings)를 참조하십시오.<br>**복제 수정 사항**: 이제 SPA VEC를 사용하여 수정 사항을 정의한 다음, 단일 페이지 앱의 다른 보기에서 사용하기 위해 해당 수정 내용을 복제할 수 있습니다. (TGT-33882)<br>. [SPA(단일 페이지 앱) 시각적 경험 작성기](/help/main/c-experiences/spa-visual-experience-composer.md)를 참조하십시오. |
 | ![프리미엄 배지](/help/main/assets/premium.png) AP (Automated Personalization) 및 자동 타겟 | **특정 환경을 제어로 사용**: AP 또는 자동 타겟 활동을 작성하는 동안 컨트롤로 사용할 환경을 선택할 수 있습니다. 이 기능을 사용하면 활동에 구성된 트래픽 할당 비율에 따라 전체 제어 트래픽을 특정 환경으로 라우팅할 수 있습니다. 그런 다음 해당 경험의 제어 트래픽에 대해 개인화된 트래픽의 성능 보고서를 평가할 수 있습니다. 현재 제어 옵션(임의로 제공된 경험)은 계속 사용할 수 있습니다. (TGT-32801, TGT-26572, TGT-26571)<br>Automated Personalization 또는 자동 타겟 활동에 대한 제어 선택[을 참조하십시오.](/help/main/c-activities/t-automated-personalization/experience-as-control.md)<br>**개인화 인사이트 보고서**: 방문자가 특정 위치에서 특정 콘텐츠를 볼 때 마케터에게 친숙한 속성 이름 지정은 보다 의미 있는 정보를 제공합니다. (TGT-33421 및 TGT-34957)<br>. [Target의 개인화 알고리즘을 위한 데이터 수집](/help/main/c-activities/t-automated-personalization/ap-data.md)을 참조하십시오. |
 | ![프리미엄 배지](/help/main/assets/premium.png) 권장 사항 | 최근에 본 항목 로직을 생성하는 동안 이전에 구입한 추천 항목 전환을 사용할 수 있습니다. (TGT-34030)<br>자세한 내용은 &quot;기준 만들기&quot;에서 [최근에 본 항목](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased)을 참조하세요.&quot; |
-| Google Chrome samesite 쿠키 정책 | Google은 최근에 Chrome 76(2019년 7월 30일 출시 예정)부터 웹 사이트에서 작동할 수 있는 쿠키와 사용자를 추적할 수 있는 쿠키를 개발자 명시적으로 지정해야 한다고 발표했습니다.<br>업계에서 소비자를 위해 보다 안전한 웹을 만들기 위해 노력함에 따라 Target은 방문자의 개인정보 보호 기대치를 충족시키는 동시에 개인화된 경험을 제공하기 위해 노력을 아끼지 않고 있습니다.<br>다음 [Google Chrome SameSite 쿠키 정책](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html?lang=ko){target=_blank}을 참조하십시오. |
+| Google Chrome samesite 쿠키 정책 | Google은 최근에 Chrome 76(2019년 7월 30일 출시 예정)부터 웹 사이트에서 작동할 수 있는 쿠키와 사용자를 추적할 수 있는 쿠키를 개발자 명시적으로 지정해야 한다고 발표했습니다.<br>업계에서 소비자를 위해 보다 안전한 웹을 만들기 위해 노력함에 따라 Target은 방문자의 개인정보 보호 기대치를 충족시키는 동시에 개인화된 경험을 제공하기 위해 노력을 아끼지 않고 있습니다.<br>다음 [Google Chrome SameSite 쿠키 정책](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/google-chrome-samesite-cookie-policies.html){target=_blank}을 참조하십시오. |
 
 ### at.js 버전 2.1.0(2019년 6월 3일) {#atjs-210}
 
@@ -2053,10 +2330,10 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| Adobe 옵트인 지원 | Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인정보 및 GDPR(일반 데이터 보호 규정)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=ko){target=_blank}을 참조하십시오. |
+| Adobe 옵트인 지원 | Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인정보 및 GDPR(일반 데이터 보호 규정)](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank}을 참조하십시오. |
 | 업계 표준의 CSP 규격 | at.js는 더 이상 eval()을 사용하여 JavaScript를 실행하지 않습니다. |
 | 클라이언트측 분석 로깅 | 클라이언트측이든 아니면 서버측이든 간에 분석 데이터를 Adobe Analytics에 전송하는 방법을 고객이 완벽하게 제어할 수 있도록 합니다.<br>자세한 내용은 [클라이언트측 분석](/help/main/c-integrating-target-with-mac/a4t/before-implement.md#client-side) 로깅을 *참조하십시오*. |
-| 알림 보내기 | 경험이 `applyOffer()` 또는 `applyOffers()` 대신 코드로 렌더링될 때 개발자가 알림을 전송할 수 있습니다.<br>자세한 내용은 [adobe.target.sendNotifications(options)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-sendnotifications-atjs-21.html?lang=ko){target=_blank}를 참조하십시오. |
+| 알림 보내기 | 경험이 `applyOffer()` 또는 `applyOffers()` 대신 코드로 렌더링될 때 개발자가 알림을 전송할 수 있습니다.<br>자세한 내용은 [adobe.target.sendNotifications(options)](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/adobe-target-sendnotifications-atjs-21.html){target=_blank}를 참조하십시오. |
 | 파일 크기 감소 | at.js의 크기가 24%까지 줄어들었습니다. 파일 크기가 작을수록 페이지 로드 성능이 향상되고 페이지의 at.js 다운로드 시간이 줄어듭니다. |
 | at.js 설명서 업데이트 | at.js 2.1.0 릴리스로 인해 업데이트된 모든 문서의 전체 목록은 2019년 6월 3일 [문서 변경 사항](/help/main/r-release-notes/doc-change.md)의 항목을 참조하십시오. |
 
@@ -2149,8 +2426,8 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 
 | 기능/향상 | 설명 |
 | --- | --- |
-| at.js 버전 2.0.0<br>2019년 2월 19일 | 이제 at.js 2.x를 사용할 수 있습니다.<br>최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.<br>at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같은 몇 가지 이점이 있습니다.<ul><li>페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.</li><li>오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.</li><li>간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타기팅 (XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.</li></ul>at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>다음 함수는 at.js 2.x의 도입으로 더 이상 사용되지 않습니다.<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} 및 [at.js 함수](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}를 참조하십시오.<br>**참고**: [일반 데이터 보호 규정](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=ko){target=_blank}(GDPR){target=_blank}에 대한 Adobe 옵트인 지원이 필요한 경우 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다. |
-| at.js 버전 1.7.0<br>2019년 2월 14일 | at.js 1.7.0을 사용할 수 있습니다.<br>이번 릴리스는 Adobe 옵트인을 지원합니다. Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 일반 데이터 보호 규정](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html?lang=ko){target=_blank}(GDPR){target=_blank}을 참조하세요.<br>또한 이번 릴리스에서는 Target이 리디렉션 URL에서 발생하는 매개 변수로 리디렉션 URL 매개 변수를 무시할 수 있는 문제를 수정합니다.<br>**참고**: GDPR에 대한 Adobe 옵트인 지원이 필요한 경우에는 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다.<br>모든 버전의 목록은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 참조하십시오. |
+| at.js 버전 2.0.0<br>2019년 2월 19일 | 이제 at.js 2.x를 사용할 수 있습니다.<br>최신 at.js 버전에서는 차세대 클라이언트측 기술에 대한 개인화를 실행하도록 기업을 지원하는 다양한 기능을 제공합니다. 이 새로운 버전은 단일 페이지 애플리케이션(SPA)과 조화로운 상호 작용을 하도록 at.js를 업그레이드하는 데 주력하고 있습니다.<br>at.js 2.x를 사용하면 이전 버전에서 사용할 수 없는 다음과 같은 몇 가지 이점이 있습니다.<ul><li>페이지 로드 시 모든 오퍼를 캐시하여 여러 서버 호출을 하나의 서버 호출로 줄일 수 있습니다.</li><li>오퍼가 기존 서버 호출로 인해 초래되는 지연 없이 캐시를 통해 즉시 표시되므로 사이트에서 최종 사용자의 경험을 크게 향상시킬 수 있습니다.</li><li>간단한 1줄의 코드 및 일회용 개발자 설정으로 마케터가 단일 페이지 애플리케이션에서 시각적 경험 작성기(VEC)를 통해 A/B 및 경험 타기팅 (XT) 활동을 만들고 실행할 수 있도록 할 수 습니다.</li></ul>at.js 2.x에서는 다음과 같은 새로운 기능을 도입했습니다.<ul><li>getOffers()</li><li>applyOffers()</li><li>triggerView()</li></ul>다음 함수는 at.js 2.x의 도입으로 더 이상 사용되지 않습니다.<ul><li>mboxCreate()</li><li>mboxDefine</li><li>registerExtension()</li></ul>자세한 내용은 [at.js 1.x에서 at.js 2.x로 업그레이드](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} 및 [at.js 함수](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}를 참조하십시오.<br>**참고**: [일반 데이터 보호 규정](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank}(GDPR){target=_blank}에 대한 Adobe 옵트인 지원이 필요한 경우 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다. |
+| at.js 버전 1.7.0<br>2019년 2월 14일 | at.js 1.7.0을 사용할 수 있습니다.<br>이번 릴리스는 Adobe 옵트인을 지원합니다. Adobe 옵트인(Opt-in)은 동의 관리 플랫폼과 Adobe 솔루션과의 통합을 간소화하는 방법입니다.<br>Adobe 옵트인에 대한 자세한 내용은 [개인 정보 보호 및 일반 데이터 보호 규정](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/privacy/cmp-privacy-and-general-data-protection-regulation.html){target=_blank}(GDPR){target=_blank}을 참조하세요.<br>또한 이번 릴리스에서는 Target이 리디렉션 URL에서 발생하는 매개 변수로 리디렉션 URL 매개 변수를 무시할 수 있는 문제를 수정합니다.<br>**참고**: GDPR에 대한 Adobe 옵트인 지원이 필요한 경우에는 현재 at.js 1.7.0을 사용해야 합니다. 옵트인 지원은 at.js 2.x에서 지원되지 않습니다.<br>모든 버전의 목록은 [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 참조하십시오. |
 
 ### [!DNL Target] Standard/Premium 19.2.1(2019년 2월 19일) {#target-19-2-1}
 
@@ -2186,7 +2463,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
 | 기능/향상 | 설명 |
 | --- | --- |
 | ![ API에서 ](/help/main/assets/premium.png)<br/>[!UICONTROL Enterprise Permissions]Target Premium 배지[!DNL Target] 지원 | 이제 [Adobe Target 관리 API](https://developers.adobetarget.com/api/#admin-apis) 는 Target UI에 있는 것과 동일한 엔터프라이즈 권한 기능을 최대한 활용합니다. **2019년 2월 21일**&#x200B;부터 시스템 관리자는 프로그래밍 방식으로 보고서 데이터에 액세스하고 작업 영역에서 활동, 오퍼 및 대상자를 만들고 관리할 수 있습니다. 이러한 작업은 이전에는 기본 작업 영역으로만 제한되었습니다. Automated Personalization (AP) 활동에 대한 지원은 차후 릴리스에서 제공될 예정입니다. |
-| ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링 | 이제 선택한 환경(호스트 그룹)에 대한 [!UICONTROL Recommendations] 컬렉션 및 제외 콘텐츠를 미리 볼 수 있습니다.<br/>이전에는, 컬렉션이나 제외를 볼 때, 들어 있는 항목이 기본 호스트 그룹([!UICONTROL Recommendations > Settings > Default Host Group]에 지정됨)에 대한 결과였습니다.<br/>이제 컬렉션이나 제외를 만들거나 업데이트할 때 [!UICONTROL Environment] 선택기를 사용하여 결과를 미리 볼 환경을 선택할 수 있습니다. 컬렉션과 제외를 만들거나 편집하기 전에 적절한 기본 호스트 그룹을 선택하기 위해 더 이상 [!UICONTROL Environment] 페이지로 이동할 필요가 없으므로 새 [!UICONTROL Settings] 필터를 사용하면 시간과 노력이 절약됩니다.<br/>**참고:** 선택한 환경을 변경한 후 [!UICONTROL Search]을(를) 클릭하여 반환된 결과를 업데이트해야 합니다.<br/>새 [!UICONTROL Environment] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>[!UICONTROL Catalog Search]&#x200B;([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection] 대화 상자([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection] 대화 상자([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion] 대화 상자([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion] 대화 상자([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>자세한 내용은 다음 주제를 참조하십시오.<uL><li>[컬렉션](/help/main/c-recommendations/c-products/collections.md)</li><li>[제외](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html?lang=ko){target=_blank}</li><li>[권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
+| ![Target Premium 배지](/help/main/assets/premium.png)<br/>[!UICONTROL Recommendations]: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링 | 이제 선택한 환경(호스트 그룹)에 대한 [!UICONTROL Recommendations] 컬렉션 및 제외 콘텐츠를 미리 볼 수 있습니다.<br/>이전에는, 컬렉션이나 제외를 볼 때, 들어 있는 항목이 기본 호스트 그룹([!UICONTROL Recommendations > Settings > Default Host Group]에 지정됨)에 대한 결과였습니다.<br/>이제 컬렉션이나 제외를 만들거나 업데이트할 때 [!UICONTROL Environment] 선택기를 사용하여 결과를 미리 볼 환경을 선택할 수 있습니다. 컬렉션과 제외를 만들거나 편집하기 전에 적절한 기본 호스트 그룹을 선택하기 위해 더 이상 [!UICONTROL Environment] 페이지로 이동할 필요가 없으므로 새 [!UICONTROL Settings] 필터를 사용하면 시간과 노력이 절약됩니다.<br/>**참고:** 선택한 환경을 변경한 후 [!UICONTROL Search]을(를) 클릭하여 반환된 결과를 업데이트해야 합니다.<br/>새 [!UICONTROL Environment] 필터는 [!DNL Target] UI의 다음 위치에서 사용할 수 있습니다.<ul><li>[!UICONTROL Catalog Search]&#x200B;([!UICONTROL Recommendations > Catalog Search])</li><li>[!UICONTROL Create Collection] 대화 상자([!UICONTROL Recommendations > Collections > Create New])</li><li>[!UICONTROL Update Collection] 대화 상자([!UICONTROL Recommendations > Collections > Edit])</li><li>[!UICONTROL Create Exclusion] 대화 상자([!UICONTROL Recommendations > Exclusions > Create New])</li><li>[!UICONTROL Update Exclusion] 대화 상자([!UICONTROL Recommendations > Exclusions > Edit])</li></ul><br>자세한 내용은 다음 주제를 참조하십시오.<uL><li>[컬렉션](/help/main/c-recommendations/c-products/collections.md)</li><li>[제외](/help/main/c-recommendations/c-products/exclusions.md)</li><li>[카탈로그 검색](/help/main/c-recommendations/c-products/catalog-search.md)</li><li>[설정](https://experienceleague.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}</li><li>[권장 사항: 환경(호스트 그룹)별로 컬렉션 및 제외 필터링](/help/main/administrating-target/hosts.md)</li></ul>(TGT-20622)</ul> |
 
 **개선 사항, 수정 및 변경 사항**
 
@@ -2212,7 +2489,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
       <li id="li_6504E90D7C534A1BB9A2DE8510CE3B90"> <p>동일한 CSS 선택기에 적용되는 서로 다른 활동의 시각적 경험 작성기(VEC) 오퍼가 활동 우선순위를 준수하지 않는 at.js 1.6.2에서 발생하는 문제를 수정했습니다. (TNT-31052) </p> </li> 
       <li id="li_D347CA513F1240E4BF79D757287AB30C"> <p>약속에 대한 기본 지원이 없는 환경에서 약속 시간 제한 관련 문제를 해결했습니다. (TNT-30974) </p> </li> 
       <li id="li_17F41A84CCFF41D7993E35DE10F87066"> <p>이제 콘텐츠 렌더링 실패 이벤트를 통해 문제가 올바로 캡처되고 보고됩니다. 이전에는 사실이 아님에도 불구하고 JavaScript가 성공적으로 실행된 것으로 보고되었습니다. (TNT-30599) </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="dita" scope="local"> at.js 버전 세부 사항</a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js 버전 세부 사항</a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2297,7 +2574,7 @@ at.js 2.1.0에서 다음과 같은 흥미로운 기능을 알려드리겠습니�
    <td colname="col2"> <p>유지보수 릴리스이며 다음 문제를 해결합니다. </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>일부 고객 사이트에서 무한 "비동기화" 루프가 발생하는 문제를 해결했습니다. </p> </li> 
-     </ul> </p> <p> <p>중요: 또한 at.js 버전 1.6.2에는 at.js 버전 1.6.1 및 1.6.0에 포함된 모든 개선 사항 및 수정 사항이 포함되어 있으며 이러한 버전은 더 이상 다운로드할 수 없습니다. 1.6.1 또는 1.6.0을 사용하는 경우 버전 1.6.2로 업그레이드하는 것이 좋습니다. </p> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="html" scope="external"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p> <p>중요: 또한 at.js 버전 1.6.2에는 at.js 버전 1.6.1 및 1.6.0에 포함된 모든 개선 사항 및 수정 사항이 포함되어 있으며 이러한 버전은 더 이상 다운로드할 수 없습니다. 1.6.1 또는 1.6.0을 사용하는 경우 버전 1.6.2로 업그레이드하는 것이 좋습니다. </p> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2505,7 +2782,7 @@ target/r_release-notes-2018.xml
   </tr> 
   <tr> 
    <td colname="col1"> <p>지원되는 브라우저 </p> </td> 
-   <td colname="col2"> <p>Target UI 및 콘텐츠 배송에 대한 Microsoft Edge 지원이 추가되었습니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. (TGT-14102) </p> </td> 
+   <td colname="col2"> <p>Target UI 및 콘텐츠 배송에 대한 Microsoft Edge 지원이 추가되었습니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. (TGT-14102) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>권장 사항 </p> </td> 
@@ -2614,7 +2891,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p>AEM(Adobe Experience Manager) 경험 구성 요소 </p> </td> 
-   <td colname="col2"> <p>Target 활동에 AEM에서 만든 경험 조각을 사용하면 AEM의 편의성과 기능을 Target의 강력한 AI(Automated Intelligence) 및 머신 러닝(ML) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.&nbsp;&nbsp; </p> <p>AEM에서는 모든 콘텐츠 및 에셋을 중앙 위치에 가져와서 개인화 전략을 실행합니다. AEM을 사용하면 코드를 작성하지 않고도 한 위치에서 데스크탑, 태블릿 및 휴대 디바이스의 콘텐츠를 쉽게 만들 수 있습니다. AEM 모든 장치를 위해 페이지를 만들 필요가 없이, 콘텐츠를 사용하여 각 경험이 자동으로 조정됩니다. </p> <p> Target을 사용하면 행동 변수, 컨텍스트 변수 및 오프라인 변수를 통합하는 규칙 기반 및 AI 중심 머신 러닝 접근 방식들의 결합을 기반으로 다양한 규모의 개인화된 경험을 제공할 수 있습니다.Target을 사용하면 A/B와 다변량 활동을 쉽게 설정 및 실행하여 최상의 오퍼, 콘텐츠 및 경험을 결정할 수 있습니다. </p> <p>경험 조각은 콘텐츠/경험 작성자 및 관리자를 Target을 사용하여 비즈니스 결과를 이끄는 최적화 및 개인화 전문가에게 연결하기 위한 매우 큰 단계를 나타냅니다. </p> <p>자세한 내용은 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> AEM 경험 구성 요소 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Target 활동에 AEM에서 만든 경험 조각을 사용하면 AEM의 편의성과 기능을 Target의 강력한 AI(Automated Intelligence) 및 머신 러닝(ML) 기능을 결합하여 경험을 다양한 규모로 테스트 및 개인화할 수 있습니다.&amp;nbsp;&amp;nbsp; </p> <p>AEM에서는 모든 콘텐츠 및 에셋을 중앙 위치에 가져와서 개인화 전략을 실행합니다. AEM을 사용하면 코드를 작성하지 않고도 한 위치에서 데스크탑, 태블릿 및 휴대 디바이스의 콘텐츠를 쉽게 만들 수 있습니다. AEM 모든 장치를 위해 페이지를 만들 필요가 없이, 콘텐츠를 사용하여 각 경험이 자동으로 조정됩니다. </p> <p> Target을 사용하면 행동 변수, 컨텍스트 변수 및 오프라인 변수를 통합하는 규칙 기반 및 AI 중심 머신 러닝 접근 방식들의 결합을 기반으로 다양한 규모의 개인화된 경험을 제공할 수 있습니다.Target을 사용하면 A/B와 다변량 활동을 쉽게 설정 및 실행하여 최상의 오퍼, 콘텐츠 및 경험을 결정할 수 있습니다. </p> <p>경험 조각은 콘텐츠/경험 작성자 및 관리자를 Target을 사용하여 비즈니스 결과를 이끄는 최적화 및 개인화 전문가에게 연결하기 위한 매우 큰 단계를 나타냅니다. </p> <p>자세한 내용은 <a href="/help/main/c-experiences/c-manage-content/aem-experience-fragments.md#topic_1E1E4EA01F074349B2CF8785387B5FE8" format="dita" scope="local"> AEM 경험 구성 요소 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>보고서 </p> </td> 
@@ -2648,7 +2925,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 이 [!DNL Target] 릴리스에는 다음과 같은 개선 사항, 수정 사항 및 변경 사항이 포함되어 있습니다.
 
-* TLS(전송 계층 보안)는 네트워크를 통해 데이터를 안전하게 교환해야 하는 웹 브라우저 및 애플리케이션에서 현재 사용되는 가장 널리 배포된 보안 프로토콜입니다. Adobe는 이전 프로토콜의 서비스를 종료해야 하는 보안 준수 표준을 사용하며 최신 버전 및 보안 버전을 사용하기 위해 TLS 1.2의 사용을 권장합니다. Target 18.4.1 릴리스(2018년 4월 25일)부터 Adobe Target은 TLS 1.2 암호화의 진행을 위한 조치를 취하고, 2018년 9월 12일까지 TLS 1.0 암호화에 대한 지원을 단계적으로 완전히 중단합니다. 세부 사항을 살펴보고 원활한 전환을 위한 변경을 계획하는 것이 중요합니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html?lang=ko){target=_blank}을 참조하십시오.
+* TLS(전송 계층 보안)는 네트워크를 통해 데이터를 안전하게 교환해야 하는 웹 브라우저 및 애플리케이션에서 현재 사용되는 가장 널리 배포된 보안 프로토콜입니다. Adobe는 이전 프로토콜의 서비스를 종료해야 하는 보안 준수 표준을 사용하며 최신 버전 및 보안 버전을 사용하기 위해 TLS 1.2의 사용을 권장합니다. Target 18.4.1 릴리스(2018년 4월 25일)부터 Adobe Target은 TLS 1.2 암호화의 진행을 위한 조치를 취하고, 2018년 9월 12일까지 TLS 1.0 암호화에 대한 지원을 단계적으로 완전히 중단합니다. 세부 사항을 살펴보고 원활한 전환을 위한 변경을 계획하는 것이 중요합니다. 자세한 내용은 [TLS(Transport Layer Security) 암호화 변경](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/tls-transport-layer-security-encryption.html){target=_blank}을 참조하십시오.
 * 가용성 향상을 위해 권장 사항 기준 카드에 대한 UI가 개선되었습니다. (TGT-27829)
 
 ### at.js(2018년 4월 3일) {#section_932DF1004F4648668FE4984BFAF2EC49}
@@ -2665,7 +2942,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>현재 at.js 버전 1.3.0을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko" format="dita" scope="local"> at.js 다운로드 </a> 및 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
+   <td colname="col2"> <p>현재 at.js 버전 1.3.0을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js 다운로드 </a> 및 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
      <ul id="ul_349BEB37B6C94FF0801F121042037803"> 
       <li id="li_4C2F82F4DD394ED5A0BFF978B15FEDDF"> <p>at.js와의 상호 작용을 추적, 디버깅 및 사용자 지정하는 데 도움이 되도록 다음과 같은 새 이벤트를 사용할 수 있습니다. </p> <p> 
         <ul id="ul_EFF7E2FCEA0D42298779DDE13B54503F"> 
@@ -2674,14 +2951,14 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
          <li id="li_DAF9CC1E86834C62B93419429B43A2CB"> <p>CONTENT_RENDERING_START </p> </li> 
          <li id="li_A52DC337115248A1BE5AF5B358BE5A9A"> <p>CONTENT_RENDERING_NO_OFFERS </p> </li> 
          <li id="li_7D71E48016B1446995493EBBF7D32447"> <p>CONTENT_RENDERING_REDIRECT </p> </li> 
-        </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html?lang=ko" format="dita" scope="local"> at.js 사용자 지정 이벤트 </a>을(를) 참조하십시오. </p> </li> 
-      <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>데이터 공급자에서 가져온 추가 매개 변수로 at.js 요청을 확장할 수 있습니다. 데이터 공급자는 <span class="codeph"> dataProviders 키 </span> 아래의 <span class="codeph"> window.targetGlobalSettings </span>에 추가되어야 합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html?lang=ko" format="dita" scope="local"> targetGlobalSettings() </a>의 "데이터 제공업체"를 참조하십시오. </p> </li> 
+        </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> at.js 사용자 지정 이벤트 </a>을(를) 참조하십시오. </p> </li> 
+      <li id="li_E2704294F8BA47FFAABE7572F67FB5C0"> <p>데이터 공급자에서 가져온 추가 매개 변수로 at.js 요청을 확장할 수 있습니다. 데이터 공급자는 <span class="codeph"> dataProviders 키 </span> 아래의 <span class="codeph"> window.targetGlobalSettings </span>에 추가되어야 합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> targetGlobalSettings() </a>의 "데이터 제공업체"를 참조하십시오. </p> </li> 
       <li id="li_02EAFE6DA0D44CF88980184FD14226A5"> <p>이제 at.js 요청은 GET을 사용하지만 URL 크기가 2048자를 초과하면 POST로 전환됩니다. 필요한 경우 크기 제한을 늘릴 수 있는 <span class="codeph"> urlSizeLimit </span> 라는 새 특성이 있습니다. 이를 통해 Target에서 동일한 기술을 사용하여 AppMeasurement에 맞게 at.js를 조정할 수 있습니다. </p> </li> 
-      <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>이제 Target에서는 강제로 <span class="codeph"> adobe.target.applyOffer(옵션) </span> 함수의 <span class="codeph"> mbox </span> 키가 사용되도록 합니다. 이 키는 과거에는 필요했지만 현재 Target에서는 이 키를 적용하여 적절한 유효성 검사가 수행되는지와 고객이 함수를 올바르게 사용하고 있는지를 확인합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html?lang=ko" format="dita" scope="local"> adobe.target.applyOffer(옵션) </a>를 참조하십시오. </p> </li> 
+      <li id="li_43363A4F3A764394AA88D2595F93D8C0"> <p>이제 Target에서는 강제로 <span class="codeph"> adobe.target.applyOffer(옵션) </span> 함수의 <span class="codeph"> mbox </span> 키가 사용되도록 합니다. 이 키는 과거에는 필요했지만 현재 Target에서는 이 키를 적용하여 적절한 유효성 검사가 수행되는지와 고객이 함수를 올바르게 사용하고 있는지를 확인합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> adobe.target.applyOffer(옵션) </a>를 참조하십시오. </p> </li> 
       <li id="li_7336D8D48A894291A378E0BB212B7F9B"> <p>at.js의 이벤트 및 클릭 추적 기능이 개선되었습니다. at.js는 <span class="codeph"> navigator.sendBeacon() </span>을 사용하여 이벤트 추적 데이터를 전송하고, <span class="codeph"> navigator.sendBeacon() </span> 이 지원되지 않을 때 동기 XHR로 대체됩니다. 이 대체 항목은 주로 Internet Explorer 10 및 11과 일부 Safari 버전에 영향을 줍니다. Safari는 iOS 11.3 릴리스에서 <span class="codeph"> navigator.sendBeacon() </span>을 추가로 지원합니다. </p> </li> 
       <li id="li_28D7324137B14C75BF6F1EA0B2487C9B"> <p>이제 페이지가 백그라운드 탭에서 열릴 때도 at.js가 오퍼를 렌더링할 수 있습니다. 백그라운드 탭의 브라우저 조절 동작으로 인해 <span class="codeph"> requestAnimationFrame() </span> 이 비활성화될 때 일부 Target 고객에서 문제가 발생합니다. </p> </li> 
       <li id="li_3278979E1C6C41DEA7E8025AEB337985"> <p>이번 릴리스에서는 Chrome CPU 프로필 검사 시 호출 스택 단축을 비롯하여 여러 가지 성능이 개선되었습니다. </p> </li> 
-      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0은 더 이상 Microsoft Internet Explorer 9에서 콘텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 <span class="codeph"> XMLHttpRequest </span>를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다. </p> </li> 
+      <li id="li_AAA9C0DCC3354DFA8907968C8E6427F6"> <p>at.js 1.3.0은 더 이상 Microsoft Internet Explorer 9에서 콘텐츠 전달을 지원하지 않습니다. 지원되는 브라우저 목록에 대해서는 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. 앞으로, 모든 요청은 JSONP 요청 없이 CORS가 지원되는 <span class="codeph"> XMLHttpRequest </span>를 통해 실행됩니다. 이 변경 사항은 보안을 크게 향상시킵니다. </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 
@@ -2741,7 +3018,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>Adobe Lauch용 Target 확장 </p> </td> 
-   <td colname="col2"> <p>Launch는 Adobe의 차세대 태그 관리 기능입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. </p> <p>Target 확장을 사용하면 환경에서 Target을 빠르고 쉽게 구현할 수 있습니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=ko" format="dita" scope="local"> Adobe Launch를 사용하여 Target 구현 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Launch는 Adobe의 차세대 태그 관리 기능입니다. Launch는 관련 고객 환경을 향상하는 데 필요한 모든 분석, 마케팅 및 광고 태그를 배포하고 관리하는 간단한 방법을 고객에게 제공합니다. </p> <p>Target 확장을 사용하면 환경에서 Target을 빠르고 쉽게 구현할 수 있습니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html" format="dita" scope="local"> Adobe Launch를 사용하여 Target 구현 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2882,7 +3159,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p>at.js </p> </td> 
-   <td colname="col2"> <p>현재 at.js 버전 1.2.2을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p> 
+   <td colname="col2"> <p>현재 at.js 버전 1.2.2을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p> 
      <ul id="ul_3C4C9385A0F3489AA2137A2C88AE93CF"> 
       <li id="li_E658799D930547E6901ACFBF7C541F1F"> <p>Target 라이브러리가 QUIRKS 모드를 사용하여 페이지에 로드될 때 JavaScript 오류를 반환한 문제가 수정되었습니다. (TNT-28312) </p> </li> 
       <li id="li_050620115ED84CBDA736D94E9AAC6550"> <p>Target 클릭 추적으로 인해 Analytics 데이터 컬렉션 호출이 중단되는 문제가 수정되었습니다. (TNT-28261) </p> </li> 
@@ -2992,7 +3269,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017년 10월 13일</b> </p> <p> 이제 <span class="filepath"> at.js </span> 버전 1.2.1을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
+   <td colname="col2"> <p><b>2017년 10월 13일</b> </p> <p> 이제 <span class="filepath"> at.js </span> 버전 1.2.1을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
      <ul id="ul_14D6BB3B51974789BBFC036A45B7A56B"> 
       <li id="li_AE9826C8FC4A4DF4BE61BB72C2946C93"> <p>target="_blank"인 링크에 대한 클릭 추적을 수행할 경우 새 탭에서 링크가 열리지 않도록 하는 문제가 수정되었습니다. </p> </li> 
      </ul> </p> </td> 
@@ -3018,7 +3295,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>모바일 배치 및 프리페치 전달 </p> </td> 
-   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 여러 mbox용 콘텐츠를 단일 호출로 미리 가져온 후, 최종 사용자가 콘텐츠를 보는 방법, 시기 및 보는지 여부를 신경쓰지 않고 디바이스에 로컬로 캐시할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html?lang=ko" format="dita" scope="local"> 미리 가져오기 오퍼 콘텐츠 </a>을(를) 참조하십시오. </p> </td> 
+   <td colname="col2"> <p><b>업데이트 날짜: 2017년 10월 12일</b> </p> <p> 여러 mbox용 콘텐츠를 단일 호출로 미리 가져온 후, 최종 사용자가 콘텐츠를 보는 방법, 시기 및 보는지 여부를 신경쓰지 않고 디바이스에 로컬로 캐시할 수 있습니다. </p> <p>이 기능을 사용하려면 해당 Adobe Mobile SDK 4.14 이상 버전을 다운로드한 후 설치해야 합니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/mobile-apps/version-4/prefetch-offer-content.html" format="dita" scope="local"> 미리 가져오기 오퍼 콘텐츠 </a>을(를) 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>활동 </p> </td> 
@@ -3066,7 +3343,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 * 승인자 권한이 있는 사용자는 이제 프로필 API 인증 토큰을 생성하고 활성화할 수 있습니다. (TGT-24074)
 
-  자세한 내용은 [프로필 API 설정](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html?lang=ko){target=_blank}을 참조하십시오.
+  자세한 내용은 [프로필 API 설정](https://experienceleague.adobe.com/docs/target-dev/developer/implementation/methods/profile-api-settings.html){target=_blank}을 참조하십시오.
 
 * 시각적 경험 작성기에서 활동을 작성할 때 사용자가 페이지를 다시 로드하면 활동 URL 및 연관된 속성이 UI에 유지됩니다. 활동이 혼합 콘텐츠(보안 및 비보안 콘텐츠)를 사용하거나 권한 문제가 있는 경우, 다시 로드해야 할 수 있습니다. (TGT-28230)
 * 활동이 혼합 콘텐츠(보안 및 비보안 콘텐츠)를 사용할 경우의 메시징이 개선되었습니다. 메시지는 사용자가 HTTP 사이트 또는 혼합 호출(HTTPS 및 HTTP)이 있는 사이트를 여는 데 필요한 단계를 수행하는 데 도움이 되는 정보를 제공합니다. (TGT-26271)
@@ -3087,7 +3364,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017년 9월 27일</b> </p> <p> <span class="filepath"> at.j s </span> 버전 1.2.0은 이제 대부분의 버그 수정 사항을 포함하는 유지 관리 릴리스로 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
+   <td colname="col2"> <p><b>2017년 9월 27일</b> </p> <p> <span class="filepath"> at.j s </span> 버전 1.2.0은 이제 대부분의 버그 수정 사항을 포함하는 유지 관리 릴리스로 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>클릭 추적 특수 사례에 대해 기본 동작이 수행되지 않도록 하는 문제가 수정되었습니다. (TNT-28089) </p> </li> 
       <li id="li_53806C902AA04B31B59AA87A1E707348"> <p><span class="codeph"> target="_blank" </span> 인 링크에 대한 클릭 추적을 수행할 경우 새 탭에서 링크가 열리지 않도록 하는 문제가 수정되었습니다. (TNT-28072) </p> </li> 
@@ -3149,7 +3426,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>2017년 8월 3일</b> </p> <p> 이제 <span class="filepath"> at.js </span> 버전 1.1을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 1.1에 포함되어 있습니다. </p> <p> 
+   <td colname="col2"> <p><b>2017년 8월 3일</b> </p> <p> 이제 <span class="filepath"> at.js </span> 버전 1.1을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 1.1에 포함되어 있습니다. </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>응답 토큰 처리가 추가되었습니다. 자세한 내용은 <a href="/help/main/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local"> 응답 토큰 </a>을 참조하십시오. </p> </li> 
       <li id="li_741CD22B7D074FBA90180B2E36FACE0D"> <p><span class="codeph"> document.currentScript polyfill </span> 이 Angular 1.X를 방해하지 않도록 문제가 해결되었습니다. </p> </li> 
@@ -3342,7 +3619,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
   </tr> 
   <tr> 
    <td colname="col1"> <p>Target 포럼의 새 위치 </p> </td> 
-   <td colname="col2"> <p> Target 포럼이 새 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko" format="https" scope="external"> Adobe 커뮤니티 플랫폼 </a>으로 이동되었습니다. </p> </td> 
+   <td colname="col2"> <p> Target 포럼이 새 <a href="https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community" format="https" scope="external"> Adobe 커뮤니티 플랫폼 </a>으로 이동되었습니다. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3383,18 +3660,18 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p> 이제 <span class="filepath"> at.js </span> 버전 0.9.6을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 0.9.6에 포함되어 있습니다. </p> <p> 
+   <td colname="col2"> <p> 이제 <span class="filepath"> at.js </span> 버전 0.9.6을 사용할 수 있습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js 다운로드 </a>를 참조하십시오. </p> <p>다음 개선 사항 및 수정 사항이 <span class="filepath"> at.js </span> 버전 0.9.6에 포함되어 있습니다. </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>A4T에 대해 리디렉션 오퍼가 지원됩니다. <span class="filepath"> at.js </span> 버전 0.9.6을 다운로드하여 설치한 후에는 <span class="keyword"> Adobe Analytics </span>를 <span class="keyword"> Target </span> 에 대한 보고 소스로 사용하는 (A4T) 활동에서 리디렉션 오퍼를 사용할 수 있습니다. <span class="filepath"> at.js </span> 버전 0.9.6 외에, 리디렉션 오퍼 및 A4T를 사용하기 위해 구현이 충족해야 하는 다른 최소 요구 사항도 있습니다. 자세한 내용 및 알고 있어야 하는 추가 중요한 정보는 <a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local"> 리디렉션 오퍼 - A4T FAQ </a>를 참조하십시오. </p> </li> 
       <li id="li_DA5321D72E81496DB7C49D589E1A59C4"> <p>방문자 API가 페이지에 있고 <span class="codeph"> visitorApiTimeout </span> 설정이 너무 적극적이었던 <span class="filepath"> at.js </span> 0.9.6 이전에는 Target에서 <span class="keyword"> Target </span> 요청에 MCID 데이터를 전송하지 않는 상황이 발생할 수 있었습니다. 이로 인해 A4T를 사용할 때 <span class="keyword"> Analytics </span> 에서 연결되지 않은 히트 발생과 같은 문제가 나타날 수 있습니다. </p> <p>이 동작은 <span class="filepath"> visitorApiTimeout </span> 이 1ms로 설정되어 있더라도 Target은 SDID, 추적 서버 및 고객 ID를 수집한 후 Target 요청에 전송하려고 하므로 <span class="codeph"> at.js </span> 0.9.6에서 변경되었습니다. </p> </li> 
-      <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p><span class="codeph"> selectorsPollingTimeout </span> 설정이 추가되었습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html?lang=ko" format="dita" scope="local"> targetGlobalSettings() </a>를 참조하십시오. </p> </li> 
-      <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p><span class="codeph"> getOffer() </span>의 응답 형식이 변경되었습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html?lang=ko" format="dita" scope="local"> adobe.target.getOffer(options) </a>를 참조하십시오. </p> </li> 
+      <li id="li_B11CE11D9A594CB1ABB85BD0D93C4A15"> <p><span class="codeph"> selectorsPollingTimeout </span> 설정이 추가되었습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> targetGlobalSettings() </a>를 참조하십시오. </p> </li> 
+      <li id="li_D6F862099A374FE394F4DA3520A1BBF0"> <p><span class="codeph"> getOffer() </span>의 응답 형식이 변경되었습니다. 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> adobe.target.getOffer(options) </a>를 참조하십시오. </p> </li> 
       <li id="li_80166567ED8945ECB37FEEE2C5F06ACE"> <p>지원되지 않는 <span class="codeph"> &lt;!DOCTYPE&gt; </span> 선언에 대한 콘솔 로깅이 추가되었습니다. </p> </li> 
       <li id="li_02904EBAE8D3400092B762F0B28B0C86"> <p>여러 기본 오퍼가 단일 mbox에 전달된 경우 <span class="keyword"> Target Classic </span> 플러그인이 올바르게 적용되지 않던 문제가 수정되었습니다. (TGT-22664)</p> </li> 
       <li id="li_7016022D9DDE4529B77984F195825AB7"> <p>mbox 쿠키가 이러한 도메인에 대해 올바르게 설정되도록 하기 위해 두 문자로 이루어진 TLD(최상위 도메인)의 쿠키 설정이 개선되었습니다(예: <span class="filepath"> test.no </span>, <span class="filepath"> autodrives.ca </span>등). </p> </li> 
       <li id="li_3B1F618DEC744056B5BB172C4DBB359A"> <p>쿠키를 저장할 때 사용해야 하는 최상위 도메인을 추출하는 알고리즘이 <span class="codeph"> at.js </span> 버전 0.9.6에서 변경되었습니다. 이러한 변경으로 인해 쿠키를 IP를 사용하는 주소에 저장할 수 없습니다. 대부분의 경우 IP 주소는 테스트 용도로 사용되지만, 해결 방법으로 DNS 항목을 사용하거나, 로컬 상자에서 호스트 파일을 조정할 수 있습니다. </p> </li> 
       <li id="li_A52181499E63402DB4E16E33E36A9400"> <p>속성이 정수 대신 문자열 값일 때 이동 및 재정렬 작업 처리 방식이 수정되었습니다. </p> </li> 
-     </ul> </p> <p>이 버전 및 이전 버전의 <span class="filepath"> at.js </span>에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p>이 버전 및 이전 버전의 <span class="filepath"> at.js </span>에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3453,7 +3730,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
 
 >[!NOTE]
 >
->FP-11577을 사용하는 [!DNL Adobe Experience Manager] 6.2(또는 이상)에서는 이제 [!DNL at.js] 통합으로 [!UICONTROL Adobe Target Cloud Services] 구현을 지원합니다. 자세한 [내용은](https://experienceleague.adobe.com/docs/?lang=ko) [Adobe Experience Manager 6.2](https://experienceleague.adobe.com/docs/?lang=ko) 설명서에서 *기능 팩 및 Adobe Target과 통합을* 참조하십시오.
+>FP-11577을 사용하는 [!DNL Adobe Experience Manager] 6.2(또는 이상)에서는 이제 [!DNL at.js] 통합으로 [!UICONTROL Adobe Target Cloud Services] 구현을 지원합니다. 자세한 [내용은](https://experienceleague.adobe.com/docs/) [Adobe Experience Manager 6.2](https://experienceleague.adobe.com/docs/) 설명서에서 *기능 팩 및 Adobe Target과 통합을* 참조하십시오.
 
 이번 [!DNL Target] 릴리스는 사용 편의성과 성능 개선에 주안점을 두며, 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다(괄호 안에 있는 문제 번호는 내부 Adobe용임).
 
@@ -3494,10 +3771,10 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
    <td colname="col1"> <p> <span class="codeph"> at.js </span> 버전 0.9.4 </p> </td> 
    <td colname="col2"> <p>2017년 1월 18일 </p> <p> <span class="codeph"> at.js </span> 버전 0.9.4에는 다음 변경 사항이 포함되어 있습니다. </p> <p> 
      <ul id="ul_8F149C28E2D946B9888B4D2F45167C3C"> 
-      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> 이제 mbox 이름에는 앰퍼샌드(&amp;)를 비롯한 특수 문자가 포함될 수 있습니다. (TNT-26144) </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko" format="dita" scope="local"> at.js 구성 </a>을 참조하십시오. </p> </li> 
-      <li id="li_99309046030B4D93B59113C01A8789DA"> <p>. <span class="codeph"> at.js에서 </span> HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 <span class="codeph"> secureOnly </span> 설정이 추가되었습니다. 이 설정은 기본값이 False이고 <span class="codeph"> targetGlobalSettings </span>를 통해 대체할 수 있는 고급 설정입니다. (TNT-26183) </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html?lang=ko" format="dita" scope="local"> targetGlobalSettings() </a>를 참조하십시오. </p> </li> 
-      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>. <span class="wintitle"> at.js </span> 버전 0.9.3 및 이전 버전에서 <span class="codeph"> 레거시 브라우저 지원 </span> 옵션을 사용할 수 있습니다. 이 옵션은 <span class="codeph"> at.js </span> 버전 0.9.4에서 제거되었습니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html?lang=ko" format="dita" scope="local"> at.js 구성 </a>을 참조하십시오. </p> </li> 
-     </ul> </p> <p>각 버전의 <span class="codeph"> at.js </span>변경 사항에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="html" scope="external"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+      <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> 이제 mbox 이름에는 앰퍼샌드(&amp;)를 비롯한 특수 문자가 포함될 수 있습니다. (TNT-26144) </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js 구성 </a>을 참조하십시오. </p> </li> 
+      <li id="li_99309046030B4D93B59113C01A8789DA"> <p>. <span class="codeph"> at.js에서 </span> HTTPS만 사용되는지 또는 페이지 프로토콜을 기준으로 HTTP와 HTTPS 간을 전환할 수 있는지를 나타내는 <span class="codeph"> secureOnly </span> 설정이 추가되었습니다. 이 설정은 기본값이 False이고 <span class="codeph"> targetGlobalSettings </span>를 통해 대체할 수 있는 고급 설정입니다. (TNT-26183) </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-functions.html" format="dita" scope="local"> targetGlobalSettings() </a>를 참조하십시오. </p> </li> 
+      <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>. <span class="wintitle"> at.js </span> 버전 0.9.3 및 이전 버전에서 <span class="codeph"> 레거시 브라우저 지원 </span> 옵션을 사용할 수 있습니다. 이 옵션은 <span class="codeph"> at.js </span> 버전 0.9.4에서 제거되었습니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html" format="dita" scope="local"> at.js 구성 </a>을 참조하십시오. </p> </li> 
+     </ul> </p> <p>각 버전의 <span class="codeph"> at.js </span>변경 사항에 대한 자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="html" scope="external"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3644,7 +3921,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_E916EB3A77ED4CFF90CF6B4D30F188B1"> <p><span class="codeph"> at.js </span> 설정에서 레거시 브라우저가 비활성화될 경우 Microsoft Internet Explorer 11에서 mbox가 실행되도록 합니다. </p> </li> 
       <li id="li_1130509832CE429DB6DE636404CC54E1"> <p>다이내믹 원격 오퍼가 실패하는 경우(예를 들어 URL이 올바르지 않고 404 오류를 반환하는 경우) 기본 콘텐츠가 렌더링되도록 합니다. </p> </li> 
       <li id="li_21B5225D894B43CB863A775C937F66F4"> <p>DOM에서 VEC 클릭 추적 선택기를 찾을 수 없는 경우 요소가 빠르게 표시되도록 합니다. </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3709,7 +3986,7 @@ Recommendations Download API를 사용하여 스프레드시트나 텍스트 편
       <li id="li_689FF306179F4EC3B391DEE3C53F4B1D"> <p>Device Graph 옵트아웃을 활성화하거나 비활성화하는 <span class="codeph"> optoutEnabled </span> 설정이 추가되었습니다. 이 설정이 <span class="codeph"> true </span> 로 설정되고 방문자가 추적을 옵트아웃한 경우 방문자의 브라우저는 mbox 호출을 수행하지 않습니다. Device Graph는 현재 Beta 버전입니다. 이 설정은 기본적으로 <span class="codeph"> false </span> 로 설정되지만 Device Graph를 사용하는 경우에는 <span class="codeph"> true </span> 로 설정되어야 합니다.</p> </li> 
       <li id="li_663462C0680049F89CA8FE1853F31807"> <p>알림 메커니즘에 대한 <span class="codeph"> CustomEvent </span> 지원이 추가되었습니다. 이전에는 <span class="codeph"> at.js </span> 이벤트 알림 메커니즘을 <span class="codeph"> document.addEventListener() </span>와 같은 표준 DOM API를 통해 사용할 수 없었습니다. 이제 <span class="codeph"> document.addEventListener() </span>를 사용하여 요청 이벤트 및 콘텐츠 렌더링 이벤트와 같은 <span class="codeph"> at.js </span> 이벤트에 가입할 수 있습니다. </p> </li> 
       <li id="li_3FB2914F8D2F4AFFAA9B4622E8CA1EFF"> <p>VEC(시각적 경험 작성기)에서 만든 오퍼와 관련된 문제가 수정되었습니다. 이번 릴리스 이전에 Target은 선택기를 숨기고, 모든 선택기가 선택될 때만 숨김을 해제했습니다. <span class="codeph"> at.js </span> 0.9.2 Target은 일치하는 선택기가 확인되면 바로 숨김을 해제합니다. </p> </li> 
-     </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+     </ul> </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3823,7 +4100,7 @@ Adobe Target Standard/Premium 16.8.1(2016년 8월 23일) 릴리스에는 다음�
  <tbody> 
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js </span> 버전 0.9.1 </p> </td> 
-   <td colname="col2"> <p>2016년 7월 14일 </p> <p> 현재 <span class="filepath"> at.js </span> 버전 0.9.1을 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>2016년 7월 14일 </p> <p> 현재 <span class="filepath"> at.js </span> 버전 0.9.1을 사용할 수 있습니다. </p> <p>자세한 내용은 <a href="https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html" format="dita" scope="local"> at.js 버전 세부 사항 </a>을 참조하십시오. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3976,7 +4253,7 @@ Adobe Target Standard/Premium 16.5.1(2016년 5월 19일) 릴리스에는 다음�
    <td colname="col1" class="premium"> 권장 사항 CSV 다운로드 </td> 
    <td colname="col2"> <p>이제 CSV 다운로드에는 개체 권장 사항이 없는 환경을 포함하여 모든 환경에 대한 라인이 있습니다(예: 
      <code>
-       &#x200B;# environment: 1724 
+       # environment: 1724 
      </code>). </p> </td> 
   </tr> 
  </tbody> 
@@ -4191,7 +4468,7 @@ at.js를 구현할 때는 다음에 유의하십시오.
   </tr> 
   <tr> 
    <td colname="col1"> Internet Explorer 11 지원 </td> 
-   <td colname="col2"> <p>Internet Explorer 11은 이제 타겟 인터페이스에서 지원됩니다. </p> <p><a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=ko" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. </p> </td> 
+   <td colname="col2"> <p>Internet Explorer 11은 이제 타겟 인터페이스에서 지원됩니다. </p> <p><a href="https://experienceleague.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html" format="dita" scope="local"> 지원되는 브라우저 </a>를 참조하십시오. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> 연속 변수에 대한 타겟 보고서에서 신뢰 구간 보기 </td> 
