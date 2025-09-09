@@ -4,7 +4,7 @@ description: Excel, Access 또는 기타 데이터 분석 프로그램으로 빠
 title: 보고서 데이터를 CSV 파일로 다운로드하려면 어떻게 합니까?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: e42398b8774fff57c00658636a52bd0038ad94b4
+source-git-commit: c0342f51d998d27eef9af189c7ebb364095699ed
 workflow-type: tm+mt
 source-wordcount: '732'
 ht-degree: 30%
@@ -26,20 +26,6 @@ ht-degree: 30%
 
    * [!UICONTROL Export Reports to CSV]
    * [!UICONTROL Export Order Details to CSV]
-
-## 인기도 및 키 기반 알고리즘에 대한 CSV 다운로드 형식 {#format}
-
-CSV 다운로드 파일은 백엔드 기준 실행 후 생성된 결과를 일관되게 반영합니다.
-
-**인기도 알고리즘(키가 아닌 기반)의 경우 파일에 다음이 포함됩니다.**
-
-* 앞에 *가 붙은 백업 권장 사항 행
-* 알고리즘 설정을 기반으로 한 권장 사항을 나열하는 별도의 행
-
-**키 기반 알고리즘의 경우 파일에 다음이 포함됩니다.**
-
-* 인기도 알고리즘과 유사한 백업 행
-* 첫 번째 항목이 키의 제품 ID이고 그 뒤에 추천 후보를 나타내는 쉼표로 구분된 제품 ID가 오는 키-값 형식의 여러 행
 
 ## [!UICONTROL Export Report to CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -83,6 +69,20 @@ CSV 다운로드 파일은 백엔드 기준 실행 후 생성된 결과를 일�
 >
 >* 주문 보고서 데이터에는 기본 환경(호스트 그룹)의 경우는 4주, 비기본 환경의 경우는 2주 동안의 데이터가 포함됩니다.
 >* &quot;[!UICONTROL Increment count and keep the user in the activity]&quot;(으)로 설정된 매출 지표는 동일한 방문자가 수행한 첫 번째 주문에 대해서만 주문 세부 정보를 기록합니다. 모든 후속 주문은 전환 수를 증가시키지만 RPV/AOV/매출에는 매출을 추가하지 않으며 [!UICONTROL Order Details] 보고서에 포함되지 않습니다.
+
+## 인기도 및 키 기반 알고리즘에 대한 CSV 다운로드 형식 {#format}
+
+CSV 다운로드 파일은 백엔드 기준 실행 후 생성된 결과를 일관되게 반영합니다.
+
+**인기도 알고리즘(키가 아닌 기반)의 경우 파일에 다음이 포함됩니다.**
+
+* 앞에 *가 붙은 백업 권장 사항 행
+* 알고리즘 설정을 기반으로 한 권장 사항을 나열하는 별도의 행
+
+**키 기반 알고리즘의 경우 파일에 다음이 포함됩니다.**
+
+* 인기도 알고리즘과 유사한 백업 행
+* 첫 번째 항목이 키의 제품 ID이고 그 뒤에 추천 후보를 나타내는 쉼표로 구분된 제품 ID가 오는 키-값 형식의 여러 행
 
 ## 우수 사례
 
