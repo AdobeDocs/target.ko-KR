@@ -4,9 +4,9 @@ description: 활동을 시작하기 전에 결과를 사용할 수 있도록 Ado
 title: 권장 사항 활동을 미리 보고 시작하려면 어떻게 합니까?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 75ab3bff7064c8f7df14a42422373cb64d96150a
+source-git-commit: 26b0c5455e82014dab92c925ecc88bddb3947d2f
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1398'
 ht-degree: 15%
 
 ---
@@ -94,6 +94,20 @@ CSV 파일을 다운로드하고 있습니다. 이 폴더를 열어 추천 항�
 >[!NOTE]
 >
 >[!UICONTROL User-Based Recommendations] 알고리즘을 포함하는 활동에는 결과 다운로드를 사용할 수 없습니다. [!UICONTROL Recently-Viewed Items] 권장 사항 논리를 사용하는 기준에는 결과 다운로드를 사용할 수 없습니다.
+
+### 인기도 기반 및 키 기반 알고리즘을 위한 CSV 다운로드 형식 {#format}
+
+CSV 다운로드 파일은 백엔드 기준 실행 후 생성된 결과를 일관되게 반영합니다.
+
+* **인기도 기반 알고리즘(키가 아닌 알고리즘)의 경우 파일에 다음이 포함됩니다.**
+
+   * 앞에 * (별표)가 붙은 백업 권장 사항 행
+   * 알고리즘 설정을 기반으로 한 권장 사항을 나열하는 별도의 행
+
+* **키 기반 알고리즘의 경우 파일에 다음이 포함됩니다.**
+
+   * 인기도 기반 알고리즘과 유사한 백업 행
+   * 첫 번째 항목이 키의 제품 ID이고 그 뒤에 추천 후보를 나타내는 쉼표로 구분된 제품 ID가 오는 키-값 형식의 여러 행
 
 ## 권장 사항 활동 활성화
 
