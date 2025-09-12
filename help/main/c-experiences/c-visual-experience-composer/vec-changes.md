@@ -4,9 +4,9 @@ description: Adobe Target 25.2.1 릴리스(2025년 2월 17일)에서 VEC(시각�
 title: 새로운 시각적 경험 작성기 (VEC)에는 어떤 변경 사항이 도입됩니까?
 feature: Visual Experience Composer (VEC)
 exl-id: 4c7a5657-93d9-4355-9d2b-c992b36bcb50
-source-git-commit: 51e484d54f4d318ea59fdfdb16d1ed7014abdfdb
+source-git-commit: 2dabda04aabe720b28e31033052e2076e78d1376
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '873'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ![구성 요소 레일](/help/main/c-experiences/c-visual-experience-composer/assets/components-panel.png)
 
-새 구성 요소를 추가하려면 삽입하려는 [!UICONTROL Components] 레일의 구성 요소를 [!UICONTROL Design] 캔버스의 기존 페이지 요소 위로 드래그합니다. 그런 다음 선택한 요소 뒤의 앞에 구성 요소를 삽입하도록 선택합니다.
+새 구성 요소를 추가하려면 [!UICONTROL Components] 레일에서 원하는 구성 요소를 선택하고 페이지의 기존 요소를 마우스로 가리킨 다음 선택한 요소 앞에 구성 요소를 삽입하도록 선택합니다.
 
 >[!NOTE]
 >
