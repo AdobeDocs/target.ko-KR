@@ -85,7 +85,7 @@ ht-degree: 14%
 * 동일한 데이터 스트림 ID는 서로 다른 샌드박스에 구성된 경우에만 서로 다른 연결에 사용할 수 있습니다.
 * 이 규칙은 &quot;없음&quot;을 선택한 경우를 포함하여 모든 데이터 스트림 선택 사항에 적용됩니다.
 
-이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 [Adobe Target 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} 안내서의 *Experience Platform 연결*&#x200B;을 참조하십시오.
+이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 [Adobe Target 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} 안내서의 *Experience Platform 연결*&#x200B;을 참조하십시오.
 
 ## [!DNL Target Standard/Premium] 25.9.1(2025년 9월 5일)
 
@@ -147,7 +147,7 @@ ht-degree: 14%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
