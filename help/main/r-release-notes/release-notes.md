@@ -6,10 +6,10 @@ short-description: ' [!DNL Target]의 현재 릴리스에 포함된 새로운 �
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 29ddf23b41531e5fab80fe7d0f6bc913e778d839
+source-git-commit: 098415849152065b734cbebbab8dcf1d0805e202
 workflow-type: tm+mt
-source-wordcount: '1670'
-ht-degree: 15%
+source-wordcount: '1779'
+ht-degree: 14%
 
 ---
 
@@ -75,6 +75,18 @@ ht-degree: 15%
 
 +++
 
+## 데이터스트림 업데이트(2025년 9월 19일)
+
+[!DNL Adobe Target] 대상 연결에 대해 데이터 스트림 ID와 샌드박스 조합이 고유해야 합니다.
+
+데이터 스트림 ID와 샌드박스 이름의 조합이 IMS 조직 내에서 고유해야 한다고 강제하기 위해 [!DNL Target] 대상 연결에 대한 유효성 검사 논리를 업데이트했습니다. 이것은 다음을 의미합니다.
+
+* 여러 [!DNL Target] 대상 연결에서 동일한 데이터 스트림 ID + 샌드박스 이름 쌍을 다시 사용할 수 없습니다.
+* 동일한 데이터 스트림 ID는 서로 다른 샌드박스에 구성된 경우에만 서로 다른 연결에 사용할 수 있습니다.
+* 이 규칙은 &quot;없음&quot;을 선택한 경우를 포함하여 모든 데이터 스트림 선택 사항에 적용됩니다.
+
+이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 [Adobe Target 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} 안내서의 *Experience Platform 연결*&#x200B;을 참조하십시오.
+
 ## [!DNL Target Standard/Premium] 25.9.1(2025년 9월 5일)
 
 이번 릴리스에는 다음과 같은 업데이트 및 수정 사항이 포함되어 있습니다.
@@ -135,7 +147,7 @@ ht-degree: 15%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
