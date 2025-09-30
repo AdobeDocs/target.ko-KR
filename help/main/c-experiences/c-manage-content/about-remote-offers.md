@@ -4,9 +4,9 @@ description: ' [!DNL Target] 에서 원격 오퍼를 활용하여 CMS 또는 다
 title: 원격 오퍼를 만드는 방법
 feature: Experiences and Offers
 exl-id: 6a5283ee-c1fb-49f7-8e7f-c23ccde26ade
-source-git-commit: e8201198dc6ac36e803153d5c6b345a30716204a
+source-git-commit: 856396264c4a7b7e3370cd268e7f010092e2eae2
 workflow-type: tm+mt
-source-wordcount: '987'
+source-wordcount: '1029'
 ht-degree: 19%
 
 ---
@@ -31,6 +31,17 @@ ht-degree: 19%
 ## 원격 오퍼 사용 우수 사례 {#section_7718512D08E14121B6F6B8C38134F4BC}
 
 활동에서 원격 오퍼를 사용하는 우수 사례:
+
+* 원격 오퍼는 다음 위치에서 지원됩니다.
+
+   * A/B 활동
+   * XT (경험 타기팅) 활동
+   * 양식 기반 워크플로
+
+* 원격 오퍼는 다음 위치에서 지원되지 않습니다.
+
+   * [프리미엄 기능](/help/main/c-intro/intro.md#premium)(Automated Personalization(AP), 자동 타겟 및 권장 사항)
+   * 원격 오퍼를 지원하지 않는 VEC에 의존하기 때문에 Multivariate Testing(MVT)가 발생합니다.
 
 * 오퍼가 [!DNL Target] 요청과 동일한 도메인에 있는 경우 [!UICONTROL Cached] 옵션을 사용하면 오퍼 위치를 설명하는 데 상대 URL을 사용할 수 있습니다.
 

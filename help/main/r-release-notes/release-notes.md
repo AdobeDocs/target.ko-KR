@@ -6,10 +6,10 @@ short-description: ' [!DNL Target]의 현재 릴리스에 포함된 새로운 �
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 186bfa96c0849d9cd838b3d493c10cccfd4ff068
+source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
 workflow-type: tm+mt
-source-wordcount: '4104'
-ht-degree: 8%
+source-wordcount: '5412'
+ht-degree: 7%
 
 ---
 
@@ -75,6 +75,64 @@ ht-degree: 8%
 
 +++
 
+## [!DNL Target Standard/Premium] 25.9.3(2025년 9월 30일)
+
+이번 릴리스에는 다음과 같은 개선 사항 및 수정 사항이 포함되어 있습니다.
+
++++[!UICONTROL Audiences]
+
+* **대상 제외 규칙이 [!DNL Target] UI에 포함된 것으로 잘못 표시되었습니다.제외 규칙으로 구성된** 대상이 활동 내에서 타깃팅을 편집할 때 포함된 것으로 표시되었습니다. 제외 로직이 실행 중에 올바르게 적용되었지만 UI가 규칙을 정확하게 반영하지 못하여 &quot;제외&quot; 레이블이 생략되었습니다. 이제 [!DNL Target] UI에 대상 구성 및 타기팅 워크플로 모두에서 제외 규칙이 올바르게 표시되므로 캠페인 설정을 명확하고 일관되게 유지할 수 있습니다. (TGT-53808)
+* **[!UICONTROL Targeting] 섹션에 대상 규칙이 제외되도록 설정되어 있지 않습니다.제외 논리로 구성된** 대상이 활동 만들기 UI의 [!UICONTROL Targeting] 섹션에 포함된 것으로 잘못 표시되었습니다. 백엔드가 제외 규칙을 올바르게 적용했지만 UI가 이를 시각적으로 나타내지 못하여 &quot;제외&quot; 레이블이 생략되고 캠페인 설정 중에 혼동이 발생했습니다. 이제 [!UICONTROL Targeting] 섹션에 제외 규칙이 명확하게 표시되므로 대상 구성과 타깃팅 시각화 간의 일관성이 보장됩니다. (TGT-53809)
+
++++
+
++++로컬라이제이션
+
+* **중국어 간체 번역의 &quot;전체 세부 정보 보기&quot;에서 용어 불일치가 수정되었습니다.**
+이전에는 용어 &quot;세부 정보&quot;가 중국어 간체(zh_CN) 로케일에서 &quot;详情&quot;로 잘못 번역되어 설정된 용어 지침을 위반했습니다. 이는 용어 와의 일관성을 보장하기 위해 &quot;详细信息&quot;로 수정되었습니다. (TGT-53741)
+
++++
+
++++[!UICONTROL Recommendations]
+
+* **VEC에서 추천 상자를 찾아 선택하기 어려웠습니다.** (VEC)에서 권장 사항 오퍼를 추가한 후 왼쪽 패널에서 수정 사항을 클릭해도 페이지의 해당 권장 사항 상자로 강조 표시되거나 스크롤되지 않습니다. 따라서 오퍼를 찾고 편집하는 것이 어려워졌습니다. 특히 선택기 아래에 숨겨지거나 거의 스타일이 지정되지 않은 경우 더욱 그러합니다. 이제 권장 사항 수정을 클릭하면 연결된 요소가 올바르게 강조 표시되고 스크롤되어 업데이트된 활동 만들기 프로세스에서 유용성과 편집 효율성을 향상시킬 수 있습니다. (TGT-52571)
+* 활동을 저장한 후 **권장 사항 선택기가 잘못 다시 작성되었습니다.** VEC의 요소에 권장 사항을 추가할 때 선택기가 처음에는 정확했지만 활동을 저장하고 다시 연 후 일반 선택기로 변경되었습니다. 원본 선택기를 수동으로 복원하려고 하면 유효성 검사 오류가 발생했습니다. 이제 권장 사항 선택기는 저장 후 정확하게 유지되므로 업데이트된 활동 만들기 프로세스에서 신뢰할 수 있는 타깃팅과 편집이 보장됩니다. (TGT-53709)
+* 기존 활동을 수정할 때 **기준 콘텐츠를 편집할 수 없습니다.** 활동을 편집할 때 [!UICONTROL Criteria] 콘텐츠 섹션이 비활성화되어 있고 단추가 회색으로 표시되고 응답하지 않습니다. 활동 업데이트 중에 [!UICONTROL Criteria] 구성을 완전히 편집할 수 있도록 하여 이 문제를 해결했습니다. 이제 고객은 선택 항목을 전환하거나 해결 방법을 사용하지 않고도 [!UICONTROL Criteria] 콘텐츠를 수정할 수 있으므로 업데이트된 활동 만들기 프로세스에서 유연성과 유용성이 향상됩니다. (TGT-53812)
+* **활동 내에서 조건을 편집할 수 없습니다.** 활동 내에서 조건에 액세스할 때 [!UICONTROL Edit Criteria] 및 [!UICONTROL Remove Criteria] 옵션이 비활성화되었습니다. 그러나 [!UICONTROL Recommendations] 탭을 통해 동일한 기준을 성공적으로 편집할 수 있습니다. 이제 활동 편집 워크플로와 [!UICONTROL Recommendations] 탭 모두에서 기준을 완전히 편집할 수 있으므로 일관되고 효율적인 편집 환경이 보장됩니다. (TGT-53814)
+
++++
+
++++[!UICONTROL Reports]
+
+* **A[!UICONTROL utomated Personalization] 활동에서 임시 오퍼를 생성하면 보고가 일치하지 않습니다.** [!UICONTROL Automated Personalization]&#x200B;(AP) 활동에서 임시 오퍼 생성 기능을 사용하면 보고가 부정확해졌습니다. 특히 오퍼 ID가 여러 위치에서 재사용되었기 때문에 보고 데이터가 잘못 사용되거나 덮어쓰기되었습니다. 이제 애드혹 오퍼는 위치당 고유한 식별자를 사용하여 생성되므로, 구성된 모든 경험에서 정확한 추적 및 보고를 수행할 수 있습니다. (TGT-53757)
+* JavaScript 오류로 인해 **활동 보고서를 로드하지 못했습니다.** 고객이 특정 활동에 대한 [!UICONTROL Reports] 탭에 액세스할 때 &quot;문제가 발생했습니다&quot;라는 메시지가 발생했습니다. JavaScript 예외로 인해 오류가 발생했습니다. `getAnalyticsReportSummary` GraphQL 호출 동안 트리거된 정의되지 않은 속성을 읽을 수 없습니다(&#39;indexOf&#39; 읽기). 이제 보고서가 올바르게 로드되며, 업데이트된 활동 만들기 워크플로우에서 유사한 오류를 방지하기 위해 오류 처리가 개선되었습니다. (TGT-53797)
+* **스크롤 막대와 상호 작용한 후 보고서가 충돌했습니다.** [!UICONTROL Reports] 탭에서 스크롤 막대를 클릭하면 페이지가 충돌하고 JavaScript 오류가 발생했습니다.
+  이제 `SyntaxError: Failed to execute 'querySelector' on 'Element': '[data-key="a-currentcopy"hiretalent""]' is not a valid selector.` 보고서가 오류 또는 충돌을 트리거하지 않고 올바르게 로드되고 스크롤됩니다. (TGT-53828)
+* **보고서에 기본 지표가 표시되지 않았습니다.** mbox를 사용하여 전환 지표로 구성된 기본 지표가 활동 보고서에 없습니다. 지표 이름 또는 mbox 이름으로 검색해도 결과가 없으므로 주요 성능 데이터가 표시되지 않습니다. 이제 기본 지표가 [!UICONTROL Reports] 탭에 올바르게 표시되어 캠페인 성과를 정확하게 추적 및 분석할 수 있습니다. (TGT-53773)
+* **가로 스크롤 막대와 상호 작용할 때 업데이트된 UI의 [!UICONTROL Reports] 탭이 충돌했습니다.** 가로 스크롤 막대를 사용하여 지표를 볼 수 없도록 액세스할 때 &quot;문제가 발생했습니다&quot; 오류가 발생하여 [!UICONTROL Reports] 보기가 간헐적으로 중단되었습니다. 스크롤 막대가 이제 안정적으로 작동하므로 고객은 확대/축소나 시프트 스크롤 사용과 같은 해결 방법 없이 모든 지표를 보고 분석할 수 있습니다. (TGT-53824)
+
++++
+
++++[!UICONTROL Visual Experience Composer]&#x200B;(VEC)
+
+* **VEC에서 탐색 표시를 클릭해도 편집 메뉴가 일관되게 표시되지 않습니다.**
+(VEC)의 이동 경로를 통해 HTML 요소를 선택할 때 편집 메뉴가 간헐적으로 나타나지 않거나 빠르게 사라져 요소 선택을 신뢰할 수 없습니다. 이제 이동 경로를 통해 탐색할 때 편집 메뉴가 일관되게 표시되므로 업데이트된 활동 만들기 프로세스에서 요소 선택 워크플로가 개선됩니다. (TGT-52873)
+* **컨텍스트 메뉴가 간헐적으로 VEC에 표시되지 않습니다.** 요소를 클릭할 때 업데이트된 VEC UI의 컨텍스트 메뉴가 일관되게 나타나지 않아 편집 옵션에 액세스하는 데 어려움이 있습니다. 이제 요소 선택 시 컨텍스트 메뉴가 안정적으로 표시되므로 업데이트된 활동 만들기 프로세스에서 편집 워크플로와 전반적인 유용성이 향상됩니다. (TGT-53015)
+* **VEC의 특정 요소에 대해 컨텍스트 메뉴가 표시되지 않습니다.** 업데이트된 VEC에서 특정 요소를 선택할 때 컨텍스트 메뉴가 표시되지 않으므로 수정 사항을 적용하기 어렵습니다. 이제 지원되는 모든 요소에 대해 컨텍스트 메뉴가 일관되게 표시되므로 업데이트된 활동 만들기 워크플로우에서 편집 환경의 안정성과 유용성이 개선됩니다. (TGT-53248)
+* VEC에서 탐색 표시를 사용할 때 처음 클릭할 때 **컨텍스트 메뉴가 사라졌습니다.** VEC에서 탐색 표시를 통해 상위 요소를 선택하면 컨텍스트 메뉴가 잠시 나타났다가 사라져 편집 옵션에 액세스하는 데 어려움이 있습니다. 이제 컨텍스트 메뉴가 이동 경로를 통해 요소를 탐색할 때 표시 및 작동 상태로 유지되므로 업데이트된 활동 만들기 프로세스에서 요소 선택 워크플로의 안정성이 향상됩니다. (TGT-53424)
+* **VEC의 최상위 요소에 대한 컨텍스트 메뉴가 나타나지 않았습니다.** VEC에서 [탐색 표시]를 통해 `<div>` 또는 `<main>` 태그와 같은 최상위 요소를 선택하면 컨텍스트 메뉴가 트리거되지 않으므로 추가 편집 작업을 수행할 수 없습니다. 이제 컨텍스트 메뉴가 최상위 컨테이너를 포함하여 지원되는 모든 요소에 일관되게 표시되므로 활동 만들기 워크플로의 유연성과 유용성이 향상됩니다. (TGT-53770)
+* **특정 페이지의 요소를 VEC에서 편집할 수 없습니다.** 페이지의 특정 요소를 업데이트된 VEC에서 선택하거나 편집할 수 없습니다. 이 문제는 해당 페이지로 분리되었으며 동일한 계정 내의 다른 페이지에는 영향을 주지 않았습니다. 이제 페이지의 모든 요소를 예상대로 선택 및 편집할 수 있으므로 활동 만들기 워크플로우에서 전체 기능을 복원할 수 있습니다. (TGT-53353)
+* **VEC에서 요소를 선택하는 동안 자식 요소를 볼 때 워크플로가 개선되었습니다.** 활동을 만드는 동안 유용성과 정밀도를 개선하기 위해 이제 VEC가 상위 HTML 요소 위로 마우스를 이동하거나 선택할 때 하위 요소를 표시합니다. 이 향상된 기능을 통해 고객은 페이지 구조를 더 잘 이해하고 더 정확하게 수정할 수 있으므로 업데이트된 UI에서 편집 워크플로우를 간소화할 수 있습니다. (TGT-53416)
+* 수정 표시줄을 사용하여 기존 활동의 **요소를 편집할 수 없습니다.** 이전에 만든 활동을 편집할 때 수정 표시줄이 페이지의 특정 요소에 대해 활성화되지 않아 업데이트가 수행되지 않습니다. 이 문제는 주로 수정된 활동에서 관찰되었으며 새로 생성된 활동에서는 재현되기 어려웠습니다. 이제 수정 표시줄이 일관되게 표시되고 지원되는 모든 요소를 편집할 수 있으므로 업데이트된 활동 만들기 워크플로우에서 안정성과 유용성이 향상됩니다. (TGT-53013)
+
++++
+
++++[!UICONTROL Workspaces]
+
+* **활동을 다른 작업 영역에 복제하면 &quot;잘못된 사용자 입력&quot; 오류가 트리거되었습니다.** 작업 영역 간에 작업을 복제하려고 하면 &quot;InvalidProperty.Json - 인식할 수 없는 속성 이름 &#39;content&#39;가 발생했습니다.&quot; 오류가 발생했습니다. 이 문제는 복제 프로세스 중에 활동 메타데이터를 잘못 처리했기 때문에 발생했습니다. 이제 유효성 검사 오류를 트리거하지 않고 작업 공간 간에 활동을 성공적으로 복제하여 더 원활한 활동 배포 워크플로우를 보장할 수 있습니다. (TGT-53731 및 TGT-53736)
+
++++
+
 ## [!DNL Target Standard/Premium] 25.9.2(2025년 9월 22일)
 
 이번 릴리스에는 다음과 같은 수정 사항 및 개선 사항이 포함됩니다.
@@ -83,14 +141,14 @@ ht-degree: 8%
 
 +++세부 정보 보기
 * **잘못된 대상 ID로 인해 활동을 복사할 수 없는 문제가 해결되었습니다.업데이트된 활동 만들기 프로세스에서 활동을 복사하려는** 고객에게 잘못된 대상 ID(예: -1752722444307)로 인해 오류가 발생했습니다. 이 백엔드 유효성 검사 문제로 인해 동일한 작업 영역 내에서 활동이 중복되지 않았습니다. 이 문제는 해결되었으며 이제 대상 관련 오류 없이 활동을 복사할 수 있습니다. (TGT-53717)
-* **[!UICONTROL Automated Personalization] 모달의 [!UICONTROL Manage Content] 활동에서 활동 전용 대상에 대해 잘못된 사용자 입력 오류가 표시되는 문제를 해결했습니다.** 고객이 AP 활동에 대한 [!UICONTROL &#x200B; Manage Content] 모달에서 활동 전용 대상을 구성할 때 잘못된 사용자 입력 오류가 발생했습니다. 대상이 이전에 성공적으로 사용되었지만 이 문제가 발생했습니다. 이제 결합된 대상 구성이 유효성 검사 오류를 트리거하지 않고 올바르게 저장됩니다. (TGT-53749)
+* **[!UICONTROL Automated Personalization] 모달의 [!UICONTROL Manage Content] 활동에서 활동 전용 대상에 대해 잘못된 사용자 입력 오류가 표시되는 문제를 해결했습니다.** 고객이 AP 활동에 대한 [!UICONTROL  Manage Content] 모달에서 활동 전용 대상을 구성할 때 잘못된 사용자 입력 오류가 발생했습니다. 대상이 이전에 성공적으로 사용되었지만 이 문제가 발생했습니다. 이제 결합된 대상 구성이 유효성 검사 오류를 트리거하지 않고 올바르게 저장됩니다. (TGT-53749)
 
 +++
 
 **설명서**
 
 +++세부 정보 보기
-* **Target별 웹 SDK 문서 페이지를 Adobe Target 저장소로 이동했습니다.** 웹 SDK 문서 재구성의 일부로 [!DNL Target]별 콘텐츠가 일반 웹 SDK 문서에서 [!DNL Adobe Target] [개발자 안내서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}(으)로 마이그레이션되었습니다. 이 변경 사항은 콘텐츠 검색 기능을 향상시키고 솔루션별 지침을 해당 제품 팀이 유지할 수 있도록 합니다. (TGT-53374)
+* **Target별 웹 SDK 문서 페이지를 Adobe Target 저장소로 이동했습니다.** 웹 SDK 문서 재구성의 일부로 [!DNL Target]별 콘텐츠가 일반 웹 SDK 문서에서 [!DNL Adobe Target] [개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}(으)로 마이그레이션되었습니다. 이 변경 사항은 콘텐츠 검색 기능을 향상시키고 솔루션별 지침을 해당 제품 팀이 유지할 수 있도록 합니다. (TGT-53374)
 
 +++
 
@@ -166,7 +224,7 @@ ht-degree: 8%
 * 동일한 데이터 스트림 ID는 서로 다른 샌드박스에 구성된 경우에만 서로 다른 연결에 사용할 수 있습니다.
 * 이 규칙은 &quot;없음&quot;을 선택한 경우를 포함하여 모든 데이터 스트림 선택 사항에 적용됩니다.
 
-이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 [Adobe Target 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} 안내서의 *Experience Platform 연결*&#x200B;을 참조하십시오.
+이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 [Adobe Target 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} 안내서의 *Experience Platform 연결*&#x200B;을 참조하십시오.
 
 ## [!DNL Target Standard/Premium] 25.9.1(2025년 9월 5일)
 
@@ -228,7 +286,7 @@ ht-degree: 8%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
