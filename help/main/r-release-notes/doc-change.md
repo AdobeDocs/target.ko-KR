@@ -26,7 +26,7 @@ ht-degree: 35%
 | 9월 30일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.9.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 9월 29일 | [원격 오퍼 만들기](/help/main/c-experiences/c-manage-content/about-remote-offers.md) | 원격 오퍼를 지원하는 활동 유형을 설명하는 정보가 추가되었습니다. |
 | 9월 22일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.9.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
-| 9월 19일 | [ 대상 가이드의 ](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}Adobe Target 연결[!DNL Adobe Experience Platform]. | 다음 참고 정보를 업데이트했습니다. *조직 전체의 데이터 스트림 고유성*. |
+| 9월 19일 | [&#x200B; 대상 가이드의 &#x200B;](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank}Adobe Target 연결[!DNL Adobe Experience Platform]. | 다음 참고 정보를 업데이트했습니다. *조직 전체의 데이터 스트림 고유성*. |
 |  | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | 데이터 스트림/샌드박스 기능 업데이트에 대한 릴리스 정보가 추가되었습니다. |
 | 9월 9일 | [권장 사항 활동 미리보기 및 시작](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md#format) | 섹션: &quot;인기 및 키 기반 알고리즘을 위한 CSV 다운로드 형식&quot;이 새로 추가되었습니다. |
 | 9월 5일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.9.1 릴리스에 대한 릴리스 정보가 추가되었습니다. |
@@ -39,11 +39,11 @@ ht-degree: 35%
 | 9월 1일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.8.4 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 8월 27일 | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] 25.8.4 릴리스에 대한 프리릴리스 정보가 업데이트되었습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다. 이 문서의 정보는 특히 릴리스 전에 자주 업데이트됩니다. |
 |  | [시각적 경험 작성기에 사용된 요소 선택기](/help/main/c-experiences/c-visual-experience-composer/vec-selectors.md) | &quot;[!UICONTROL Use preferred selectors]&quot; 옵션을 추가했습니다. |
-| 8월 22일 | [ 개발자 안내서 [!DNL Target]의 ](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}CNAME 및&#x200B;*[!DNL Target]* | 워크플로를 개선하기 위해 전체 문서가 업데이트되었습니다. |
-|  | [ 개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank}에서 *[!DNL Target]권장 사항 계획 및 구현* | [!DNL Recommendations]을(를) 통해 [!UICONTROL Catalogs] [!DNL Target Delivery API]을(를) 업데이트할 때 주의하는 방법에 대한 메모를 추가했습니다. |
+| 8월 22일 | [&#x200B; 개발자 안내서 [!DNL Target]의 &#x200B;](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/implement-cname-support-in-target.html){target=_blank}CNAME 및&#x200B;*[!DNL Target]* | 워크플로를 개선하기 위해 전체 문서가 업데이트되었습니다. |
+|  | [&#x200B; 개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/recommendations#set-up-your-recommendations-catalog){target=_blank}에서 *[!DNL Target]권장 사항 계획 및 구현* | [!DNL Recommendations]을(를) 통해 [!UICONTROL Catalogs] [!DNL Target Delivery API]을(를) 업데이트할 때 주의하는 방법에 대한 메모를 추가했습니다. |
 | 8월 21일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.8.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
-| 8월 18일 | [ 개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank}의 *[!DNL Target]Analytics for Target(A4T) 보고* | 다음 섹션이 업데이트되었습니다.<ul><li>GET 요청 코드 스니펫이 업데이트되었습니다.</li><li>쿼리 문자열 매개 변수 및 변수 테이블을 업데이트했습니다.</li><li>*샘플 A4T 데이터 삽입 HTTP Get 호출* 섹션을 업데이트했습니다.</li></ul> |
-|  | [ 개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank}의 *[!DNL Target]Adobe Target 벌크 프로필 업데이트 API* | 사용할 API 버전에 대한 메모를 업데이트합니다. |
+| 8월 18일 | [&#x200B; 개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/server-side/integration/a4t-reporting){target=_blank}의 *[!DNL Target]Analytics for Target(A4T) 보고* | 다음 섹션이 업데이트되었습니다.<ul><li>GET 요청 코드 스니펫이 업데이트되었습니다.</li><li>쿼리 문자열 매개 변수 및 변수 테이블을 업데이트했습니다.</li><li>*샘플 A4T 데이터 삽입 HTTP Get 호출* 섹션을 업데이트했습니다.</li></ul> |
+|  | [&#x200B; 개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/api/profile-apis/profile-bulk-api){target=_blank}의 *[!DNL Target]Adobe Target 벌크 프로필 업데이트 API* | 사용할 API 버전에 대한 메모를 업데이트합니다. |
 |  | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] 25.8.3 릴리스(2025년 8월 21일)에 대한 프리릴리스 정보가 업데이트되었습니다. 릴리스 날짜, 기능 및 기타 정보는 예고 없이 변경될 수 있습니다. 이 문서의 정보는 특히 릴리스 전에 자주 업데이트됩니다. |
 | 8월 14일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.8.2 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 8월 11일 | [Experience Platform Web SDK에서 A4T(Adobe Analytics for Target) 로깅](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t){target=_blank} | 콘텐츠 구성 및 접근성을 개선하기 위해 [!UICONTROL Analytics for Target]데이터 수집[!DNL Adobe Experience Platform Web SDK] 가이드의 *을(를) 사용하는*(A4T)에 대한 전체 구현 지침을 [!DNL Target] 개발자 가이드로 이동했습니다. 이러한 통합을 통해 이제 모든 [!DNL Target] 관련 정보가 간소화된 단일 위치에 수용되므로 개발자는 관련 콘텐츠를 더 쉽게 찾고 참조할 수 있습니다. |
@@ -105,7 +105,7 @@ ht-degree: 35%
 | 날짜 | 주제 | 변경 사항 |
 |--- |--- |--- |
 | 4월 25일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.5 릴리스에 대한 릴리스 정보가 추가되었습니다. |
-| 4월 23일 | [ [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations)과 통합 | *Real-Time CDP 프로필 특성 기능 제한 및 고려 사항* 섹션에 다음을 추가했습니다. <ul><li>[!DNL Target]은(는) 오퍼에 사용할 [!DNL Adobe Experience Platform] 프로필 특성에 대해 &quot;문자열&quot; 데이터 형식만 지원합니다. &quot;Map&quot; 및 &quot;Array&quot; 유형 속성은 아직 지원되지 않습니다.</li></ul> |
+| 4월 23일 | [&#x200B; [!DNL Real-Time Customer Data Platform]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#limitations)과 통합 | *Real-Time CDP 프로필 특성 기능 제한 및 고려 사항* 섹션에 다음을 추가했습니다. <ul><li>[!DNL Target]은(는) 오퍼에 사용할 [!DNL Adobe Experience Platform] 프로필 특성에 대해 &quot;문자열&quot; 데이터 형식만 지원합니다. &quot;Map&quot; 및 &quot;Array&quot; 유형 속성은 아직 지원되지 않습니다.</li></ul> |
 | 4월 17일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.4 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 |  | [[!DNL Target] 릴리스 정보 (프리릴리스)](/help/main/r-release-notes/target-release-notes.md) | 25.4.5 릴리스에 대한 프리릴리스 정보 날짜가 추가되었습니다. |
 | 4월 11일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.4.3 릴리스에 대한 릴리스 정보가 추가되었습니다. |
@@ -127,7 +127,7 @@ ht-degree: 35%
 |  | [권장 사항 FAQ](/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md) | API를 통해 만든 [!DNL Recommendations] 개체를 [!DNL Target] UI에서 사용할 수 있음을 나타내기 위해 FAQ가 업데이트되었습니다. |
 |  | [컬렉션](/help/main/c-recommendations/c-products/collections.md) | 다음 참고 사항 추가: 컬렉션 규칙은 기준 실행 후 생성된 권장 사항 항목에 적용됩니다. 이는 출력에서 ER(엔티티 권장 사항)에만 영향을 주고 키에는 영향을 주지 않습니다. |
 | 3월 19일 | [[!UICONTROL Enhanced Experience Composer]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)과(와) 관련된 문제 해결 | IP 주소 을(를) 허용 목록에 추가하다 로 업데이트했습니다. |
-| 3월 18일 | [ 및 [!UICONTROL Auto-Allocate] 활동에 대한 [!UICONTROL Auto-Target]A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | *지원되는 목표 지표* 섹션에 메모를 추가했습니다. |
+| 3월 18일 | [&#x200B; 및 [!UICONTROL Auto-Allocate] 활동에 대한 [!UICONTROL Auto-Target]A4T 지원](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | *지원되는 목표 지표* 섹션에 메모를 추가했습니다. |
 | 3월 14일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.6 릴리스에 대한 릴리스 정보가 추가되었습니다. |
 | 3월 13일 | [지원되는 브라우저](https://experienceleague.adobe.com/en/docs/target-dev/developer/implementation/supported-browsers){target=_blank} | 지원되는 브라우저를 업데이트하고 &quot;시각적 편집 요구 사항&quot; 섹션을 추가했습니다. |
 | 3월 11일 | [[!DNL Target] 릴리스 정보 (현재)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] 25.3.5 릴리스에 대한 릴리스 정보가 추가되었습니다. |
