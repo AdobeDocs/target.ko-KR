@@ -6,7 +6,7 @@ short-description: ' [!DNL Target]의 현재 릴리스에 포함된 새로운 �
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
+source-git-commit: f0536e466d59fc4e3cccd61c25b7fe7f48f03954
 workflow-type: tm+mt
 source-wordcount: '4858'
 ht-degree: 7%
@@ -95,14 +95,14 @@ ht-degree: 7%
 
 +++세부 정보 보기
 * **잘못된 대상 ID로 인해 활동을 복사할 수 없는 문제가 해결되었습니다.업데이트된 활동 만들기 프로세스에서 활동을 복사하려는** 고객에게 잘못된 대상 ID(예: -1752722444307)로 인해 오류가 발생했습니다. 이 백엔드 유효성 검사 문제로 인해 동일한 작업 영역 내에서 활동이 중복되지 않았습니다. 이 문제는 해결되었으며 이제 대상 관련 오류 없이 활동을 복사할 수 있습니다. (TGT-53717)
-* **[!UICONTROL Automated Personalization] 모달의 [!UICONTROL Manage Content] 활동에서 활동 전용 대상에 대해 잘못된 사용자 입력 오류가 표시되는 문제를 해결했습니다.** 고객이 AP 활동에 대한 [!UICONTROL &#x200B; Manage Content] 모달에서 활동 전용 대상을 구성할 때 잘못된 사용자 입력 오류가 발생했습니다. 대상이 이전에 성공적으로 사용되었지만 이 문제가 발생했습니다. 이제 결합된 대상 구성이 유효성 검사 오류를 트리거하지 않고 올바르게 저장됩니다. (TGT-53749)
+* **[!UICONTROL Automated Personalization] 모달의 [!UICONTROL Manage Content] 활동에서 활동 전용 대상에 대해 잘못된 사용자 입력 오류가 표시되는 문제를 해결했습니다.** 고객이 AP 활동에 대한 [!UICONTROL  Manage Content] 모달에서 활동 전용 대상을 구성할 때 잘못된 사용자 입력 오류가 발생했습니다. 대상이 이전에 성공적으로 사용되었지만 이 문제가 발생했습니다. 이제 결합된 대상 구성이 유효성 검사 오류를 트리거하지 않고 올바르게 저장됩니다. (TGT-53749)
 
 +++
 
 **설명서**
 
 +++세부 정보 보기
-* **Target별 웹 SDK 문서 페이지를 Adobe Target 저장소로 이동했습니다.** 웹 SDK 문서 재구성의 일부로 [!DNL Target]별 콘텐츠가 일반 웹 SDK 문서에서 [!DNL Adobe Target] [개발자 안내서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}(으)로 마이그레이션되었습니다. 이 변경 사항은 콘텐츠 검색 기능을 향상시키고 솔루션별 지침을 해당 제품 팀이 유지할 수 있도록 합니다. (TGT-53374)
+* **Target별 웹 SDK 문서 페이지를 Adobe Target 저장소로 이동했습니다.** 웹 SDK 문서 재구성의 일부로 [!DNL Target]별 콘텐츠가 일반 웹 SDK 문서에서 [!DNL Adobe Target] [개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}(으)로 마이그레이션되었습니다. 이 변경 사항은 콘텐츠 검색 기능을 향상시키고 솔루션별 지침을 해당 제품 팀이 유지할 수 있도록 합니다. (TGT-53374)
 
 +++
 
@@ -123,7 +123,7 @@ ht-degree: 7%
 **[!DNL Recommendations]**
 
 +++세부 정보 보기
-* 업데이트된 UI에서 만들어진 **활동에 대해 [!UICONTROL Recommendations]클릭 추적이 복원되었습니다.** 업데이트된 UI에서 만들어진 [!UICONTROL Recommendations]개의 활동이 클릭 추적을 등록하지 못해 보고된 전환이 0이 되는 ab 문제가 해결되었습니다. 레거시 UI에 내장된 활동이 예상대로 클릭을 올바르게 추적하고 전환을 보고했습니다. 이 수정 사항으로 인해 업데이트된 UI에서 생성된 권장 사항 활동에 이제 올바른 추적 속성, 전환 보고 복원 및 A4T 지표와의 정렬이 포함됩니다. (TGT-53287)
+* 업데이트된 UI에서 만들어진 **활동에 대해 [!UICONTROL Recommendations]클릭 추적이 복원되었습니다.** 업데이트된 UI에서 만들어진 [!UICONTROL Recommendations]개의 활동이 클릭 추적을 등록하지 못해 보고된 전환이 0이 되는 문제를 해결했습니다. 레거시 UI에 내장된 활동이 예상대로 클릭을 올바르게 추적하고 전환을 보고했습니다. 이 수정 사항으로 인해 업데이트된 UI에서 생성된 권장 사항 활동에 이제 올바른 추적 속성, 전환 보고 복원 및 A4T 지표와의 정렬이 포함됩니다. (TGT-53287)
 * **추천 활동에 대한 클릭 추적이 복원되었습니다.** 업데이트된 UI에서 만들어진 [!UICONTROL Recommendations]개의 활동이 클릭 추적을 등록하지 못해 보고된 전환이 0이 되는 문제를 해결했습니다. 기존 UI가 추적 ID(`at-track-click`)를 [!UICONTROL Recommendations] 콘텐츠에 올바르게 적용한 반면 업데이트된 UI는 실수로 자리 표시자(`__recsClickTrackIdPlaceholder__`)를 삽입하여 백엔드 추적을 방지했습니다. 이 수정 사항으로 인해 [!DNL Recommendations] 콘텐츠에 올바른 추적 ID가 포함되어 전환 보고를 복원하고 A4T 지표와 정렬됩니다. (TGT-53496)
 * 업데이트된 UI에서 **컬렉션 편집기 충돌이 해결되었습니다.** 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC) UI에서 편집기 패널에서 컬렉션을 열면 페이지가 TypeError로 충돌하는 문제가 해결되었습니다. 정의되지 않은 속성을 읽을 수 없습니다(&#39;customLocale&#39; 읽기). 이 오류는 [!UICONTROL Recommendations] 및 A/B 테스트를 포함한 여러 활동 유형에서 발생했습니다. (TGT-53703)
 * **선택한 컬렉션을 제거하는 옵션이 VEC에서 복원되었습니다.** 사용자가 [!UICONTROL Recommendations] 활동에서 선택한 컬렉션만 바꿀 수 있지만 완전히 제거할 수 없는 VEC의 문제를 해결했습니다. 이러한 제한은 대체 없이 컬렉션을 깔끔하게 제거해야 하는 사용 사례를 차단했습니다. 이 수정 사항에서는 선택한 컬렉션을 제거하는 명확한 옵션이 도입되어 활동 설정의 융통성을 높이고 이전 UI 동작과 일치할 수 있습니다. (TGT-53652)
@@ -178,7 +178,7 @@ ht-degree: 7%
 * 동일한 데이터 스트림 ID는 서로 다른 샌드박스에 구성된 경우에만 서로 다른 연결에 사용할 수 있습니다.
 * 이 규칙은 &quot;없음&quot;을 선택한 경우를 포함하여 모든 데이터 스트림 선택 사항에 적용됩니다.
 
-이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 [Adobe Target 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} 안내서의 *Experience Platform 연결*&#x200B;을 참조하십시오.
+이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 [Adobe Target 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} 안내서의 *Experience Platform 연결*&#x200B;을 참조하십시오.
 
 ## [!DNL Target Standard/Premium] 25.9.1(2025년 9월 5일)
 
@@ -240,7 +240,7 @@ ht-degree: 7%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
