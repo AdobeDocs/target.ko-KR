@@ -4,7 +4,7 @@ description: '[!UICONTROL Visual Experience Composer]​(VEC)에서 일부 웹 �
 title: '[!UICONTROL Visual Experience Composer]​(VEC) Helper 확장 프로그램을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 6f4fd14a46f06c1366c02cfaf5a0cee5edbb00c4
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 50%
@@ -56,7 +56,7 @@ Chrome용 VEC Helper 브라우저 확장 프로그램은 고객이 현재 [!DNL 
 
 ## VEC Helper 브라우저 확장 프로그램 받기 및 설치
 
-1. Chrome 웹 스토어의 [Adobe Target VEC Helper 브라우저 확장 프로그램](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak)&#x200B;(으)로 이동합니다.
+1. Chrome 웹 스토어의 [Adobe Target VEC Helper 브라우저 확장 프로그램](https://chromewebstore.google.com/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca)&#x200B;(으)로 이동합니다.
 1. **[!UICONTROL Add to Chrome > Add Extension]** 아이콘을 클릭합니다.
 1. [!DNL Target]에서 VEC를 엽니다.
 1. 확장 프로그램을 사용하려면 VEC 또는 [QA 모드](/help/main/c-activities/c-activity-qa/activity-qa.md)에 있는 동안 Chrome 브라우저의 도구 모음에서 VEC Helper 브라우저 확장 프로그램 아이콘(![VEC Helper 아이콘](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png))을 클릭합니다.
