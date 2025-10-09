@@ -2,13 +2,13 @@
 keywords: 중복 제거;중복 허용;중복 오퍼 제외;자동화된 개인화;중복 오퍼 허용 안 함;제외;기본 컨텐츠;
 description: '[!UICONTROL Automated Personalization]​(AP) 활동에서 제외를 관리합니다.'
 title: '[!UICONTROL Automated Personalization] 활동에서 제외를 관리하려면 어떻게 합니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: a68e7501fbb157a1ac5b0c0cbb3d574abdb747dd
+source-git-commit: 2715e803938ee552e2c6db438ed4dbece4b6220e
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '483'
 ht-degree: 21%
 
 ---
@@ -58,7 +58,7 @@ AP 활동에서 특정 오퍼 조합을 제외하려면 특정 경험을 제외�
    ![옵션 변경](/help/main/c-activities/t-automated-personalization/assets/options.png)
 1. 새 콘텐츠를 만듭니다.
 
-1. **[!UICONTROL More Actions]**(![추가 작업 아이콘](/help/main/assets/icons/Setting.svg)) 아이콘을 클릭한 다음 **기본 오퍼 제외/기본값 포함**/ 전환을 클릭하여 기본 오퍼를 제외하거나 포함하십시오.
+1. **[!UICONTROL More Actions]**(![추가 작업 아이콘](/help/main/assets/icons/Setting.svg)) 아이콘을 클릭한 다음 **기본 오퍼 제외/기본 오퍼 포함**/ 전환을 클릭하여 기본 오퍼를 제외하거나 포함합니다.
 
    <!-- Depending on the content or offer type, the [!UICONTROL Include] checkbox is in a slightly different place. 
 
