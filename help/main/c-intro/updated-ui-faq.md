@@ -4,21 +4,64 @@ description: 업데이트된  [!DNL Target]t 사용자 인터페이스에 대한
 title: 업데이트된 [!DNL Target] UI에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Overview
 exl-id: 75db4791-ca51-472d-99dd-583f7a74b222
-source-git-commit: 91059ceb8cc0fd4e7aa72f347ffd1584999ed264
+source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 2%
+source-wordcount: '1875'
+ht-degree: 1%
 
 ---
 
 # [!DNL Target] UI 업데이트 FAQ
 
-2025년에 새로 업데이트된 [!DNL Adobe Target]의 사용자 인터페이스는 모든 역할에서 유용성과 효율성을 향상시키도록 디자인된 간소화되고 직관적인 환경을 도입했습니다. 이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
+2025년에 새로 설계된 [!DNL Adobe Target] 사용자 인터페이스는 모든 사용자에게 보다 깨끗하고 직관적인 환경을 제공합니다. 이 FAQ에서는 탐색 변경, 기능 배치 및 임시 UI 토글 제거를 포함하여 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 주요 업데이트를 다룹니다. 마케터, 개발자 또는 관리자이든, 원활한 전환과 스마트한 워크플로우에 대한 안내서입니다.
 
 ## Target UI 버전 사용 중단 토글 타임라인이 업데이트되었습니까?
 
-+++세부 사항
-예. [알아야 하는 시간에 따른 업데이트](/help/main/r-release-notes/release-notes.md#time-sensitive)에서 새 타임라인과 중요한 정보를 찾을 수 있습니다.
++++세부 정보 보기
+[!DNL Target] 팀은 토글 단추를 사용하여 업데이트된 [!DNL Target] UI와 레거시 버전 간을 전환할 수 있는 임시 기능을 제공하고 있습니다. 이 옵션은 UI 롤아웃의 마지막 단계 동안에만 사용할 수 있습니다.
+
+![Target UI 버전 전환](/help/main/r-release-notes/assets/toggle.png)
+
+롤아웃이 완료되면 토글이 제거되고 모든 사용자가 업데이트된 UI로 영구적으로 전환됩니다. [!DNL Adobe]은(는) 이 기능이 곧 단계적으로 중단될 예정이므로 미리 계획하는 것이 좋습니다.
+
+### 사용 중단 타임라인
+
+주로 복잡한 고객 맞춤화와 관련된 최근 문제가 확인되어 [!DNL Target] 팀이 사용 중단 타임라인을 조정했습니다.
+
+* **2025년 6월 17일**: 모든 IMS 조직이 특정 사용자 또는 조직 전체에 대해 업데이트된 [!DNL Target] UI에 대해 활성화되어 새 경험 테스트를 시작합니다.
+
+* **2025년 6월 30일**: [업데이트됨 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)는 UI 버전 전환을 사용하도록 설정한 모든 IMS 조직의 기본 환경이 되었습니다.
+
+   * 현재 기존 UI가 표시되는 고객은 기본적으로 이제 로그인 시 업데이트된 UI가 표시됩니다.
+   * UI 버전 토글 기능은 7월 말까지 계속 사용할 수 있으며, 필요한 경우 다시 전환할 수 있습니다.
+
+  >[!IMPORTANT]
+  >
+  > [!DNL Adobe]은(는) 업데이트된 [!DNL Target] UI를 사용할 것을 강력히 권장합니다. [전환 스위치 동작의 제한](#limitations) 때문에 차단기 문제가 발생하는 경우에만 레거시 UI로 다시 전환하십시오.
+
+* **7월 15일부터 2025년 7월 30일까지**: UI 버전 토글이 단계적으로 영구적으로 비활성화됩니다. 영향을 받는 IMS 조직은 더 이상 기존 UI로 되돌릴 수 없습니다.
+
+   * 예외는 사안별로 검토됩니다.
+   * 전환 중단 지연은 차단 문제가 해결되는 동안 잠시(며칠) 동안만 부여됩니다.
+
+문제가 있거나 이 전환 중에 문제가 예상되면 [Adobe 고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)에 문의하십시오.
+
+### UI 전환 동작 제한 사항 {#limitations}
+
+다음 정보는 버전 토글을 사용할 때 알아 두어야 할 제한 사항에 대해 설명합니다.
+
+* **새 활동의 가시성**: 기존 UI로 다시 전환하면 업데이트된 UI에서 만들어진 활동이 표시되지 않습니다.
+* **기존 활동 편집**: 업데이트된 UI를 사용하는 동안 기존 활동(원래 기존 UI에서 만들어짐)에 대한 변경 사항이 웹 사이트에 게시됩니다. 그러나 다시 전환하는 경우 이러한 업데이트가 이전 UI에 표시되지 않습니다. 이전 UI에서 수행한 마지막 업데이트만 표시됩니다.
+* **활동 세부 정보의 일관성**: 사용하는 UI에 관계없이 가장 최근의 변경 내용이 라이브 웹 사이트에 반영됩니다. 하지만 기존 UI에는 해당 버전 내에서 변경된 최신 변경 사항만 표시됩니다. 업데이트된 UI에서 편집된 활동이 기존 UI에 표시되는 것과 다른 경우 이 상황이 혼동을 일으킬 수 있습니다.
+
+### 업데이트된 UI에 대해 알아볼 수 있는 추가 리소스
+
+* [[!DNL Target] UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md): 이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
+* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!DNL Target], [!UICONTROL Activities] 및 [!UICONTROL Recommendations]&#x200B;(VEC)에 대한 [!UICONTROL Visual Experience Composer]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!DNL Target]에 대한 [!UICONTROL Offers Library]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
+* [UI 이해 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): [!DNL Target]에 익숙해지는 데 도움이 되는 간단한 개요를 제공하고 자세한 정보와 단계별 지침을 제공하는 링크를 제공합니다.
+* [[!UICONTROL Visual Experience Composer] 변경 내용](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 17일)에서는 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 도입되었습니다. 이 문서에서는 VEC의 기존 버전과 업데이트된 버전의 차이점에 대해 설명합니다.
+* [[!UICONTROL Visual Experience Composer] 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): 이 문서에서는 업데이트된 VEC UI 및 해당 옵션에 대해 설명합니다.
 
 +++
 
@@ -26,8 +69,6 @@ ht-degree: 2%
 
 +++세부 사항
 다음 리소스는 업데이트된 [!DNL Target] UI에 대한 자세한 정보를 제공합니다.
-
-* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!DNL Target], [!UICONTROL Activities] 및 [!UICONTROL Recommendations]&#x200B;(VEC)에 대한 [!UICONTROL Visual Experience Composer]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
 
 * [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!DNL Target]에 대한 [!UICONTROL Offers Library]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
 

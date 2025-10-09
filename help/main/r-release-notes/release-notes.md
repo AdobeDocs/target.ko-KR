@@ -6,9 +6,9 @@ short-description: ' [!DNL Target]의 현재 릴리스에 포함된 새로운 �
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 405faeac7fc633a64c441edeb2a95d90d896b21d
+source-git-commit: 6cba2e93d61d3044d1bf7ce2f5bb6cc1f2d71e4a
 workflow-type: tm+mt
-source-wordcount: '5412'
+source-wordcount: '4858'
 ht-degree: 7%
 
 ---
@@ -23,57 +23,11 @@ ht-degree: 7%
 
 [!BADGE 중요]{type=Informative}
 
-[!DNL Adobe Target] 및 구현과 관련된 시간에 민감한 업데이트의 경우 [!DNL Adobe]은(는) [!UICONTROL Experience League]을(를) 통해 자세한 릴리스 정보 및 설명서를 제공합니다. 구현과 관련된 몇 가지 주요 사항은 다음과 같습니다.
+[!DNL Adobe Target] 및 구현과 관련된 시간에 민감한 업데이트의 경우 [!DNL Adobe]에서 [!UICONTROL Experience League]을(를) 통해 자세한 릴리스 정보 및 설명서를 제공합니다. 구현과 관련된 몇 가지 주요 사항은 다음과 같습니다.
 
 ### [!DNL Target] UI 버전 사용 중단 전환
 
-+++세부 정보 보기
-[!DNL Target] 팀은 토글 단추를 사용하여 업데이트된 [!DNL Target] UI와 레거시 버전 간을 전환할 수 있는 임시 기능을 제공하고 있습니다. 이 옵션은 UI 롤아웃의 마지막 단계 동안에만 사용할 수 있습니다.
-
-![Target UI 버전 전환](/help/main/r-release-notes/assets/toggle.png)
-
-롤아웃이 완료되면 토글이 제거되고 모든 사용자가 업데이트된 UI로 영구적으로 전환됩니다. [!DNL Adobe]은(는) 이 기능이 곧 단계적으로 중단될 예정이므로 미리 계획하는 것이 좋습니다.
-
-#### 사용 중단 타임라인
-
-주로 복잡한 고객 맞춤화와 관련된 최근 문제가 확인되어 [!DNL Target] 팀이 사용 중단 타임라인을 조정했습니다.
-
-* **2025년 6월 17일**: 모든 IMS 조직이 특정 사용자 또는 조직 전체에 대해 업데이트된 [!DNL Target] UI에 대해 활성화되어 새 경험 테스트를 시작합니다.
-
-* **2025년 6월 30일**: [업데이트됨 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md)는 UI 버전 전환을 사용하도록 설정한 모든 IMS 조직의 기본 환경이 되었습니다.
-
-   * 현재 기존 UI가 표시되는 고객은 기본적으로 이제 로그인 시 업데이트된 UI가 표시됩니다.
-   * UI 버전 토글 기능은 7월 말까지 계속 사용할 수 있으며, 필요한 경우 다시 전환할 수 있습니다.
-
-  >[!IMPORTANT]
-  >
-  > [!DNL Adobe]은(는) 업데이트된 [!DNL Target] UI를 사용할 것을 강력히 권장합니다. [전환 스위치 동작의 제한](#limitations) 때문에 차단기 문제가 발생하는 경우에만 레거시 UI로 다시 전환하십시오.
-
-* **7월 15일부터 2025년 7월 30일까지**: UI 버전 토글이 단계적으로 영구적으로 비활성화됩니다. 영향을 받는 IMS 조직은 더 이상 기존 UI로 되돌릴 수 없습니다.
-
-   * 예외는 사안별로 검토됩니다.
-   * 전환 중단 지연은 차단 문제가 해결되는 동안 잠시(며칠) 동안만 부여됩니다.
-
-문제가 있거나 이 전환 중에 문제가 예상되면 [Adobe 고객 지원 센터](/help/main/cmp-resources-and-contact-information.md#/help/main/cmp-resources-and-contact-information.md)에 문의하십시오.
-
-#### UI 전환 동작 제한 사항 {#limitations}
-
-다음 정보는 버전 토글을 사용할 때 알아 두어야 할 제한 사항에 대해 설명합니다.
-
-* **새 활동의 가시성**: 기존 UI로 다시 전환하면 업데이트된 UI에서 만들어진 활동이 표시되지 않습니다.
-* **기존 활동 편집**: 업데이트된 UI를 사용하는 동안 기존 활동(원래 기존 UI에서 만들어짐)에 대한 변경 사항이 웹 사이트에 게시됩니다. 그러나 다시 전환하는 경우 이러한 업데이트가 이전 UI에 표시되지 않습니다. 이전 UI에서 수행한 마지막 업데이트만 표시됩니다.
-* **활동 세부 정보의 일관성**: 사용하는 UI에 관계없이 가장 최근의 변경 내용이 라이브 웹 사이트에 반영됩니다. 하지만 기존 UI에는 해당 버전 내에서 변경된 최신 변경 사항만 표시됩니다. 업데이트된 UI에서 편집된 활동이 기존 UI에 표시되는 것과 다른 경우 이 상황이 혼동을 일으킬 수 있습니다.
-
-#### 업데이트된 UI에 대해 알아볼 수 있는 추가 리소스
-
-* [[!DNL Target] UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md): 이 FAQ는 탐색 변경, 기능 위치 및 임시 UI 버전 전환 중단 등 새 [!DNL Target] UI 및 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)에 대한 일반적인 질문을 해결합니다. 마케터, 개발자 또는 관리자이든, 이 FAQ는 원활하게 전환하고 업데이트된 UI를 최대한 활용하는 데 도움이 됩니다.
-* [[!DNL Target Standard/Premium] 25.2.1(2025년 2월 17일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-2): [!DNL Target], [!UICONTROL Activities] 및 [!UICONTROL Recommendations]&#x200B;(VEC)에 대한 [!UICONTROL Visual Experience Composer]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
-* [[!DNL Target Standard/Premium] 25.1.1(2025년 1월 9일) 릴리스 정보](/help/main/r-release-notes/release-notes-for-previous-releases.md#ui-update-1): [!DNL Target]에 대한 [!UICONTROL Offers Library]의 주요 UI 변경 사항에 대한 요약을 제공합니다.
-* [UI 이해 [!DNL Target] UI](/help/main/c-intro/understand-the-target-ui.md): [!DNL Target]에 익숙해지는 데 도움이 되는 간단한 개요를 제공하고 자세한 정보와 단계별 지침을 제공하는 링크를 제공합니다.
-* [[!UICONTROL Visual Experience Composer] 변경 내용](/help/main/c-experiences/c-visual-experience-composer/vec-changes.md): [!DNL Adobe Target Standard/Premium] 25.2.1 릴리스(2015년 2월 17일)에서는 업데이트된 [!UICONTROL Visual Experience Composer]&#x200B;(VEC)이 도입되었습니다. 이 문서에서는 VEC의 기존 버전과 업데이트된 버전의 차이점에 대해 설명합니다.
-* [[!UICONTROL Visual Experience Composer] 옵션](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md): 이 문서에서는 업데이트된 VEC UI 및 해당 옵션에 대해 설명합니다.
-
-+++
+자세한 내용은 [[!DNL Target] UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md)를 참조하십시오.
 
 ## [!DNL Target Standard/Premium] 25.9.3(2025년 9월 30일)
 
@@ -141,14 +95,14 @@ ht-degree: 7%
 
 +++세부 정보 보기
 * **잘못된 대상 ID로 인해 활동을 복사할 수 없는 문제가 해결되었습니다.업데이트된 활동 만들기 프로세스에서 활동을 복사하려는** 고객에게 잘못된 대상 ID(예: -1752722444307)로 인해 오류가 발생했습니다. 이 백엔드 유효성 검사 문제로 인해 동일한 작업 영역 내에서 활동이 중복되지 않았습니다. 이 문제는 해결되었으며 이제 대상 관련 오류 없이 활동을 복사할 수 있습니다. (TGT-53717)
-* **[!UICONTROL Automated Personalization] 모달의 [!UICONTROL Manage Content] 활동에서 활동 전용 대상에 대해 잘못된 사용자 입력 오류가 표시되는 문제를 해결했습니다.** 고객이 AP 활동에 대한 [!UICONTROL &#x200B; Manage Content] 모달에서 활동 전용 대상을 구성할 때 잘못된 사용자 입력 오류가 발생했습니다. 대상이 이전에 성공적으로 사용되었지만 이 문제가 발생했습니다. 이제 결합된 대상 구성이 유효성 검사 오류를 트리거하지 않고 올바르게 저장됩니다. (TGT-53749)
+* **[!UICONTROL Automated Personalization] 모달의 [!UICONTROL Manage Content] 활동에서 활동 전용 대상에 대해 잘못된 사용자 입력 오류가 표시되는 문제를 해결했습니다.** 고객이 AP 활동에 대한 [!UICONTROL  Manage Content] 모달에서 활동 전용 대상을 구성할 때 잘못된 사용자 입력 오류가 발생했습니다. 대상이 이전에 성공적으로 사용되었지만 이 문제가 발생했습니다. 이제 결합된 대상 구성이 유효성 검사 오류를 트리거하지 않고 올바르게 저장됩니다. (TGT-53749)
 
 +++
 
 **설명서**
 
 +++세부 정보 보기
-* **Target별 웹 SDK 문서 페이지를 Adobe Target 저장소로 이동했습니다.** 웹 SDK 문서 재구성의 일부로 [!DNL Target]별 콘텐츠가 일반 웹 SDK 문서에서 [!DNL Adobe Target] [개발자 안내서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}(으)로 마이그레이션되었습니다. 이 변경 사항은 콘텐츠 검색 기능을 향상시키고 솔루션별 지침을 해당 제품 팀이 유지할 수 있도록 합니다. (TGT-53374)
+* **Target별 웹 SDK 문서 페이지를 Adobe Target 저장소로 이동했습니다.** 웹 SDK 문서 재구성의 일부로 [!DNL Target]별 콘텐츠가 일반 웹 SDK 문서에서 [!DNL Adobe Target] [개발자 안내서](https://experienceleague.adobe.com/en/docs/target-dev/developer/a4t/overview-a4t?lang=en){target=_blank}(으)로 마이그레이션되었습니다. 이 변경 사항은 콘텐츠 검색 기능을 향상시키고 솔루션별 지침을 해당 제품 팀이 유지할 수 있도록 합니다. (TGT-53374)
 
 +++
 
@@ -224,7 +178,7 @@ ht-degree: 7%
 * 동일한 데이터 스트림 ID는 서로 다른 샌드박스에 구성된 경우에만 서로 다른 연결에 사용할 수 있습니다.
 * 이 규칙은 &quot;없음&quot;을 선택한 경우를 포함하여 모든 데이터 스트림 선택 사항에 적용됩니다.
 
-이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 [Adobe Target 대상](https://experienceleague.adobe.com/ko/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} 안내서의 *Experience Platform 연결*&#x200B;을 참조하십시오.
+이 업데이트는 일관된 구성을 보장하며 다중 샌드박스 환경 간의 충돌을 방지합니다. 자세한 내용은 [Adobe Target 대상](https://experienceleague.adobe.com/en/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection){target=_blank} 안내서의 *Experience Platform 연결*&#x200B;을 참조하십시오.
 
 ## [!DNL Target Standard/Premium] 25.9.1(2025년 9월 5일)
 
@@ -286,7 +240,7 @@ ht-degree: 7%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
