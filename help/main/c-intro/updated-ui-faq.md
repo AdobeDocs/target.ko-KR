@@ -176,7 +176,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 ## [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 계속 사용할 수 있습니까?
 
 +++세부 사항
-사용자 인터페이스에 대한 최신 업데이트를 통해 [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 더 이상 사용할 수 없습니다. 자세한 내용은 [의 ](/help/main/c-activities/activities.md#filters)활동 목록에 필터 적용&#x200B;*[!UICONTROL Activities overview]* 아래의 상태를 참조하십시오.
+사용자 인터페이스에 대한 최신 업데이트를 통해 [!UICONTROL Save as Draft] 및 [!UICONTROL Syncing] 상태를 더 이상 사용할 수 없습니다. 자세한 내용은 [의 &#x200B;](/help/main/c-activities/activities.md#filters)활동 목록에 필터 적용&#x200B;*[!UICONTROL Activities overview]* 아래의 상태를 참조하십시오.
 
 +++
 
@@ -197,7 +197,7 @@ UI 버전 토글을 사용하는 데에는 새 활동의 가시성, 기존 활�
 ## 업데이트된 UI의 오퍼 미리보기 링크는 어떻게 됩니까?
 
 +++세부 사항
-선택한 조각에 해당하는 정보 아이콘([!UICONTROL Experience Fragment]정보 아이콘[!UICONTROL Quick Info] )을 클릭할 때 표시되는 ![ 팝오버에서 ](/help/main/assets/icons/InfoOutline.svg) 미리 보기 링크를 사용할 수 있습니다.
+선택한 조각에 해당하는 정보 아이콘([!UICONTROL Experience Fragment]정보 아이콘[!UICONTROL Quick Info] )을 클릭할 때 표시되는 ![&#x200B; 팝오버에서 &#x200B;](/help/main/assets/icons/InfoOutline.svg) 미리 보기 링크를 사용할 수 있습니다.
 
 +++
 
