@@ -2,13 +2,13 @@
 keywords: 추천;소개;소개;웨비나;데모
 description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe  [!DNL Target] 의 권장 사항 활동에 대해 알아보십시오.
 title: 추천 활동이란 무엇입니까?
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: fd0ae95b63b924471247ab7155363bf0ba1e617c
 workflow-type: tm+mt
-source-wordcount: '2086'
-ht-degree: 89%
+source-wordcount: '2049'
+ht-degree: 86%
 
 ---
 
@@ -39,11 +39,11 @@ Adobe는 소매점에서 사용하는 모든 종류의 추천에 대해 알고 �
 * **게시**: 웹 게시자는 [!DNL Target Recommendations] 를 사용하여 사이트 방문자에게 문서를 추천하고 참여를 유도합니다.
 * **비디오 튜토리얼**: [!DNL Adobe Creative Cloud] 은 [!DNL Target] 을 사용하여 Photoshop 애플리케이션에서 Photoshop 사용자에게 비디오 튜토리얼을 추천합니다.
 * **게임**: 게임 업체는 콘솔 내의 사용자에게 게임과 콘텐츠를 추천하기 위해 [!DNL Target] 을 사용합니다.
-* **B2B 판매**: [B2B 업체는 Target를 사용하여 B2B 잠재 고객에게 비디오, 백서 및 블로그 게시물을 추천하고 다운로드를 제공하며 기존 고객을 지원합니다](https://theblog.adobe.com/testing-shifts-high-gear-intel).
+* **B2B 판매**: B2B 업체는 Target를 사용하여 B2B 잠재 고객에게 비디오, 백서 및 블로그 게시물을 추천하고 다운로드를 제공하며 기존 고객을 지원합니다.
 
 * **여행**: [독일 여행 예약자는 Target을 사용하여 호텔 등을 여행객에게 추천합니다](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **소매**: [선도적인 BB 소매업체는 Target를 사용하여 브라우저와 모바일에서 방문자가 재방문할 수 있는 상위 범주와 제품을 추천합니다](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
+* **소매**: 선도적인 B2B retailer은 [!DNL Target]을(를) 사용하여 브라우저와 모바일에서 방문자가 재방문할 수 있는 상위 카테고리와 제품을 추천합니다.
 
 다음은 고객이 Target을 사용하여 개인화된 추천을 제공하는 방법 중 일부입니다.
 
@@ -85,7 +85,7 @@ Adobe는 소매점에서 사용하는 모든 종류의 추천에 대해 알고 �
 
 가장 간편하고 자주 사용하는 방법은 제품 정보 관리 시스템 또는 콘텐츠 관리 시스템에서 매일 또는 매주 CSV 파일을 전송하는 것입니다. 그러나 [!DNL Adobe Target] Javascript 라이브러리를 사용하여 페이지에서 데이터 레이어에 대한 정보를 전달하거나, Adobe API를 사용하여 소스 시스템에서 직접 정보를 전달하거나, 이미 카탈로그 데이터를 [!DNL Analytics]에 전달한 경우 [!DNL Adobe Analytics] 통합을 사용할 수 있습니다.
 
-예를 들어 경우에 따라 CSV 파일을 통해 대부분의 데이터를 매일 전달하고 API를 통해 보다 자주 인벤토리 업데이트를 전달하는 등 여러 옵션을 함께 사용할 수 있습니다.
+예를 들어 경우에 따라 CSV 파일을 통해 대부분의 데이터를 매일 전달하고, API를 통해 더 자주 재고 업데이트를 전달하는 등 여러 옵션을 함께 사용할 수 있습니다.
 
 IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
@@ -105,7 +105,7 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 [!DNL Target] 은 사용자가 보고 구매하는 항목이 무엇인지 확인해야 합니다. 구매가 컨텍스트와 관련이 없는 경우 PDF 다운로드, 설문 조사 완료, 뉴스레터 가입, 비디오 보기 등과 같은 다른 유형의 전환 이벤트를 추적할 수 있습니다.
 
-사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html?lang=ko){target=_blank}의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다. 실시간 API를 통해 오프라인 또는 인앱 인터랙션을 [!DNL Target]에 보낼 수도 있습니다.
+사이트에서 A/B 테스트 활동을 실행하는 데 이미 [!DNL Target] 을 사용 중인 경우 이 단계를 이미 완료했을 수 있습니다. 또는 사이트 방문 횟수 및 전환 동작에 대해 보고하기 위해 [!DNL Adobe Analytics] 을 사용하는 경우 [!DNL Analytics] 을 동작 데이터 소스로 사용할 수 있습니다. 그렇지 않은 경우 [[!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}의 태그와 같은 태그 관리자를 사용하여 설정하는 것이 더 쉽습니다. 실시간 API를 통해 오프라인 또는 인앱 인터랙션을 [!DNL Target]에 보낼 수도 있습니다.
 
 ### 상황에 맞는 추천 받기
 
@@ -129,9 +129,9 @@ IT 부서에서 일반적으로 이 단계 설정을 지원합니다.
 
 ![추천 활동을 구성하는 요소(대상자, 기준 및 디자인)를 보여 주는 일러스트레이션](/help/main/c-recommendations/assets/intro-12.png)
 
-기본적으로 [!DNL Target] 에는 14개의 기본 제공 대상자, 42개의 기본 제공 기준 및 10개의 기본 제공 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다. [에서 대상을 만드는 ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)에 대한 이전 [!DNL Target]웨비나가 있습니다. 이 섹션에서는 어떤 항목을 추천할 지에 대한 기준을 정의하는 데 중점을 둡니다.
+기본적으로 [!DNL Target] 에는 14개의 기본 제공 대상자, 42개의 기본 제공 기준 및 10개의 기본 제공 디자인 템플릿이 포함되어 있습니다. 이러한 각 항목을 사용자 정의하거나 직접 추가할 수 있습니다.
 
-Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화를 위한 메뉴와 같습니다.
+[!DNL Target]은(는) 기준 카드의 개념을 사용합니다. 기준 카드는 개인화를 위한 메뉴와 같습니다.
 
 ![기준 카드 일러스트레이션](/help/main/c-recommendations/assets/intro-13.png)
 
@@ -194,7 +194,3 @@ Target는 기준 카드의 개념을 사용합니다. 기준 카드는 개인화
 ## 데모
 
 위에서 설명한 추천 단계에 표시된 작업을 완료하면 최종 추천이 표시됩니다. [!DNL Target]에서 제품 내 데모를 시청하려면 아래 링크와 연결된 :00Adobe Target 기본 사항 웨비나&#x200B;*에서 21*&#x200B;부터 데모를 시작합니다.
-
-## Adobe [!DNL Target] 기본 사항 웨비나: 추천 소개 {#intro-to-recs}
-
-[추천 소개](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
