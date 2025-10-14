@@ -15,7 +15,7 @@ ht-degree: 40%
 
 [!UICONTROL Experience Targeting]&#x200B;(XT)에서는 마케터가 정의한 규칙 및 기준에 따라 콘텐츠를 특정 대상에 전달합니다.
 
-[!UICONTROL Experience Targeting]지리 기반의 타깃팅[을(를) 포함한 ](/help/main/c-target/c-audiences/c-target-rules/geo.md)은(는) 특정 경험이나 콘텐츠를 특정 대상으로 타깃팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상자에 다양한 콘텐츠 변형을 전달할 수 있습니다.
+[!UICONTROL Experience Targeting]지리 기반의 타깃팅[을(를) 포함한 &#x200B;](/help/main/c-target/c-audiences/c-target-rules/geo.md)은(는) 특정 경험이나 콘텐츠를 특정 대상으로 타깃팅하는 규칙을 정의할 때 유용합니다. 활동에서 여러 규칙을 정의하여 다른 대상자에 다양한 콘텐츠 변형을 전달할 수 있습니다.
 
 방문자가 사이트를 볼 때 [!UICONTROL Experience Targeting]&#x200B;(XT)는 이러한 방문자를 평가하여 설정된 기준을 충족하는지 여부를 판단합니다. 기준을 충족하면 적격 대상자를 위해 디자인된 활동 및 경험이 표시됩니다. 단일 활동 내에서 여러 대상자에 대한 경험을 만들 수 있습니다.
 

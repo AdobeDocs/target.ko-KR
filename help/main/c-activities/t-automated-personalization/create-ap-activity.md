@@ -42,7 +42,7 @@ ht-degree: 23%
 
    지정된 URL의 페이지가 VEC에서 열립니다.
 
-1. 활동의 이름을 지정하려면 &quot;**[!UICONTROL Edit]**&quot; 옆에 있는 ![ 아이콘(](/help/main/assets/icons/Edit.svg)편집 아이콘[!UICONTROL Untitled Activity])을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
+1. 활동의 이름을 지정하려면 &quot;**[!UICONTROL Edit]**&quot; 옆에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/Edit.svg)편집 아이콘[!UICONTROL Untitled Activity])을 클릭하고 활동에 대한 수사적 이름을 지정한 다음 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
    활동 이름은 다음 문자로 시작할 수 없습니다.
 
@@ -127,7 +127,7 @@ ht-degree: 23%
       [!UICONTROL Audience Library]에 없는 새 대상을 만들어야 하는 경우 **대상 만들기**&#x200B;를 클릭합니다. [대상자 만들기 워크플로](/help/main/c-target/c-audiences/audiences.md) 동안 다음 옵션 중에서 선택할 수 있습니다.
 
       * **[!UICONTROL Audience Library]**: [!UICONTROL Audience Library]에 저장된 온디맨드 대상을 만들어 다른 활동에서 다시 사용할 수 있습니다.
-      * **[!UICONTROL This activity only]**: [에 저장되지 않고 현재 활동에서만 사용할 수 있는 ](/help/main/c-target/creating-activity-only-audience.md)활동별 대상[!UICONTROL Audience Library]을 만듭니다.
+      * **[!UICONTROL This activity only]**: [에 저장되지 않고 현재 활동에서만 사용할 수 있는 &#x200B;](/help/main/c-target/creating-activity-only-audience.md)활동별 대상[!UICONTROL Audience Library]을 만듭니다.
 
    1. 오른쪽 프레임에서 **[!UICONTROL Visitor Percentage]**&#x200B;을(를) 클릭한 다음 활동을 시작할 자격 있는 방문자의 비율을 선택합니다.
 

@@ -115,7 +115,7 @@ ht-degree: 56%
    * **설명:** 속성에 대한 선택적 설명을 지정합니다.
    * **채널:**&#x200B;속성에 대해 원하는 채널, 즉 웹, 모바일 앱, 이메일 또는 기타/API(예를 들어 셋톱 박스 또는 PlayStation 콘솔)를 선택합니다.
 
-1. **[!UICONTROL Copy]** 5: at_property 매개 변수를 포함하도록 구현 업데이트[의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사하려면 ](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)을(를) 클릭하십시오.
+1. **[!UICONTROL Copy]** 5: at_property 매개 변수를 포함하도록 구현 업데이트[의 단계를 수행하는 동안 사용할 코드를 클립보드에 복사하려면 &#x200B;](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8)을(를) 클릭하십시오.
 1. 완료되면 **[!UICONTROL Save]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]

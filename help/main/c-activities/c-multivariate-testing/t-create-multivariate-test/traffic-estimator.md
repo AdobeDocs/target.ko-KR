@@ -25,7 +25,7 @@ ht-degree: 21%
 
 [!UICONTROL Traffic Estimator]은(는) 테스트를 성공하기 위해 충분한 트래픽이 있는지 여부를 알 수 있는 피드백도 제공합니다.
 
-1. [!UICONTROL Experiences] 활동에 있는 [!UICONTROL Visual Experience Composer]의 [!UICONTROL Multivariate] 페이지에서 **[!UICONTROL Traffic]** 페이지의 왼쪽 상단 모서리에 있는 ![ 아이콘(](/help/main/assets/icons/Gauge2.svg)트래픽 견적 도구 아이콘[!UICONTROL Experiences])을 클릭합니다.
+1. [!UICONTROL Experiences] 활동에 있는 [!UICONTROL Visual Experience Composer]의 [!UICONTROL Multivariate] 페이지에서 **[!UICONTROL Traffic]** 페이지의 왼쪽 상단 모서리에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/Gauge2.svg)트래픽 견적 도구 아이콘[!UICONTROL Experiences])을 클릭합니다.
 
    [!UICONTROL Traffic Estimator]이(가) 열립니다.
 

@@ -19,7 +19,7 @@ ht-degree: 0%
 
 [!DNL AI Assistant]에 액세스하려면 먼저 조직에서 추가 법률 약관에 동의해야 합니다. 그런 다음 Adobe 계정 팀에 연락하여 이러한 약관에 대한 지침을 확인하십시오.
 
-자세한 내용은 [ 설명서의  [!DNL AI Assistant] 액세스 [!DNL Experience Platform]in](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access){target=_blank}*[!DNL Experience Platform]*&#x200B;를 참조하십시오.
+자세한 내용은 [&#x200B; 설명서의  [!DNL AI Assistant] 액세스 [!DNL Experience Platform]in](https://experienceleague.adobe.com/ko/docs/experience-platform/ai-assistant/access){target=_blank}*[!DNL Experience Platform]*&#x200B;를 참조하십시오.
 
 ## [!UICONTROL AI Assistant]에 대한 사용자 권한 사용
 

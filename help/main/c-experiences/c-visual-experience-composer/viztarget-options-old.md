@@ -217,7 +217,7 @@ HTML 코드 외에도, 사용자 지정 자바스크립트를 편집하고 삽�
 
 ### [!UICONTROL Offer Decision]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [&#x200B; [!DNL Adobe Journey Optimizer]에서 만든 &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -249,7 +249,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL Offer Decision]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [&#x200B; [!DNL Adobe Journey Optimizer]에서 만든 &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 
@@ -281,7 +281,7 @@ A/B 테스트(자동 할당 및 자동 타겟 포함)와 경험 타깃팅(XT) �
 
 ### [!UICONTROL Offer Decision]
 
-Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [ [!DNL Adobe Journey Optimizer]에서 만든 ](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}오퍼를 추가하십시오.
+Offer Decisioning을 사용하여 고객에게 최상의 혜택과 경험을 제공하려면 [&#x200B; [!DNL Adobe Journey Optimizer]에서 만든 &#x200B;](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html?lang=ko){target=_blank}오퍼를 추가하십시오.
 
 **참고:** 이 옵션은 [수동 [!UICONTROL A/B Test]](/help/main/c-activities/t-test-ab/test-ab.md#types) 또는 [[!UICONTROL Experience Targeting]](/help/main/c-activities/t-experience-target/experience-target.md)(XT) 활동을 편집하거나 만들 때만 사용할 수 있습니다. 이 옵션은 다른 활동 유형에는 사용할 수 없습니다.
 

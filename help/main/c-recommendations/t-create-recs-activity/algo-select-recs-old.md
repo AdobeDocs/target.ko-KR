@@ -14,7 +14,7 @@ ht-degree: 55%
 
 # 기준 선택
 
-[ 활동에서 사용할 ](/help/main/c-recommendations/c-algorithms/algorithms.md)기준[!DNL Adobe Target Recommendations]을(를) 선택하십시오. 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.
+[&#x200B; 활동에서 사용할 &#x200B;](/help/main/c-recommendations/c-algorithms/algorithms.md)기준[!DNL Adobe Target Recommendations]을(를) 선택하십시오. 기준은 사전 결정된 방문자 행동 세트를 기준으로 추천할 제품을 결정하는 규칙입니다.
 
 두 개 이상의 기준을 추가하여 여러 권장 사항 유형을 서로 비교하면서 테스트할 수 있습니다.
 

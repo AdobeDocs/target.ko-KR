@@ -80,7 +80,7 @@ SameSite 쿠키 시행 정책으로 인해 차단된 쿠키를 확인하려면 [
 
 >[!NOTE]
 >
->다음 정보 외에 [에 대해 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC Helper 브라우저 확장 기능[!DNL Google Chrome]을 사용할 수 있습니다.
+>다음 정보 외에 [에 대해 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Adobe Target VEC Helper 브라우저 확장 기능[!DNL Google Chrome]을 사용할 수 있습니다.
 
 ![cps_headers 이미지](assets/cps_headers.png)
 

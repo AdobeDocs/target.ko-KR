@@ -51,7 +51,7 @@ ht-degree: 17%
 
    기본적으로 새로 인식된 호스트는 [!UICONTROL Production] 환경에 배치됩니다. [!UICONTROL Production] 환경은 이러한 호스트에서 비활성 활동을 볼 수 없기 때문에 가장 안전한 환경입니다.
 
-1. (조건부) 호스트를 **[!UICONTROL Move]**, ![ 또는 다른 환경으로 이동하려면 ](/help/main/assets/icons/MoveTo.svg) 아이콘([!UICONTROL Development]이동 아이콘[!UICONTROL Staging])을 클릭합니다.
+1. (조건부) 호스트를 **[!UICONTROL Move]**, ![&#x200B; 또는 다른 환경으로 이동하려면 &#x200B;](/help/main/assets/icons/MoveTo.svg) 아이콘([!UICONTROL Development]이동 아이콘[!UICONTROL Staging])을 클릭합니다.
 
 >[!NOTE]
 >

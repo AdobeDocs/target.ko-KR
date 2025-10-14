@@ -51,7 +51,7 @@ ht-degree: 10%
 
    트래픽이 충분하지 않은 경우 다음 사항을 고려하십시오.
 
-   * 한 경험 변형에서 여러 오퍼 변경 사항을 가진 경험을 만들려면 [ 대신 ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)자동 타겟[!UICONTROL Automated Personalization] 활동을 사용하는 것이 좋습니다.
+   * 한 경험 변형에서 여러 오퍼 변경 사항을 가진 경험을 만들려면 [&#x200B; 대신 &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)자동 타겟[!UICONTROL Automated Personalization] 활동을 사용하는 것이 좋습니다.
    * [!UICONTROL Automated Personalization] 활동 내에서 오퍼 조합 수를 줄이십시오.
    * 활동의 지속 기간을 늘립니다.
 

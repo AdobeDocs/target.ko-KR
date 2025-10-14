@@ -52,7 +52,7 @@ ht-degree: 26%
 
    선택적 **[!UICONTROL Description]**&#x200B;을(를) 입력할 수도 있습니다.
 
-1. (조건부) 컬렉션을 만들거나 업데이트하여 해당 환경에서 컬렉션의 내용을 미리 보는 동안 [ 필터에서 ](/help/main/administrating-target/environments.md)환경&#x200B;**[!UICONTROL Environment]**&#x200B;을(를) 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
+1. (조건부) 컬렉션을 만들거나 업데이트하여 해당 환경에서 컬렉션의 내용을 미리 보는 동안 [&#x200B; 필터에서 &#x200B;](/help/main/administrating-target/environments.md)환경&#x200B;**[!UICONTROL Environment]**&#x200B;을(를) 선택합니다. 기본적으로 기본 호스트 그룹의 결과가 표시됩니다.
 
 1. 컬렉션을 만드는 데 사용되는 규칙을 설정합니다.
 

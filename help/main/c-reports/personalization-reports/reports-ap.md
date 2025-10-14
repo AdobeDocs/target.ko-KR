@@ -18,7 +18,7 @@ ht-degree: 10%
 
 >[!NOTE]
 >
->[!UICONTROL Automated Personalization]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Standard]Target Premium 라이선스[가 없는 ](/help/main/c-intro/intro.md#premium)에는 포함되어 있지 않습니다.
+>[!UICONTROL Automated Personalization]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Standard]Target Premium 라이선스[가 없는 &#x200B;](/help/main/c-intro/intro.md#premium)에는 포함되어 있지 않습니다.
 
 1. **[!UICONTROL Activities]**&#x200B;을(를) 클릭하고 목록에서 원하는 [!UICONTROL Automated Personalization] 활동을 클릭한 다음 **[!UICONTROL Reports]** 탭을 클릭합니다.
 

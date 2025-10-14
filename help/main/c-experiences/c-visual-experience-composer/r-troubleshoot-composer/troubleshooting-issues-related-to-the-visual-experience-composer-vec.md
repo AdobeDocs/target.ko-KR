@@ -47,7 +47,7 @@ ht-degree: 23%
 
 >[!NOTE]
 >
->다음 정보 외에 [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]에 대해 ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Google Chrome]을(를) 사용할 수 있습니다.
+>다음 정보 외에 [[!DNL Adobe Target] [!UICONTROL Visual Editing Helper]에 대해 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Google Chrome]을(를) 사용할 수 있습니다.
 
 >[!NOTE]
 >

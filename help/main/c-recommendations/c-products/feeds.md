@@ -274,7 +274,7 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 1. **[!UICONTROL Save]** 아이콘을 클릭합니다.
 
-피드를 만들거나 편집한 후 피드가 즉시 실행됩니다. 그러면 피드는 사용자가 설정한 매개 변수에 따라 업데이트됩니다. 정보가 나오려면 시간이 좀 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태는 [ 목록의 ](/help/main/c-recommendations/c-products/feeds.md#status)피드 상태[!UICONTROL Feeds]에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
+피드를 만들거나 편집한 후 피드가 즉시 실행됩니다. 그러면 피드는 사용자가 설정한 매개 변수에 따라 업데이트됩니다. 정보가 나오려면 시간이 좀 걸립니다. 먼저 피드를 동기화한 후에 처리하고 색인화해야만 게시하고 사용할 수 있게 됩니다. 현재 상태는 [&#x200B; 목록의 &#x200B;](/help/main/c-recommendations/c-products/feeds.md#status)피드 상태[!UICONTROL Feeds]에 표시됩니다. [!DNL Target]을 닫은 후에 프로세스를 완료하고 프로세스를 계속 진행할 수 있습니다.
 
 색인화가 진행 중인 동안 개별 값이 색인화되기 전에 제품 및 피드 헤더가 표시됩니다. 이렇게 하면 색인화가 완료되기 전에 컬렉션, 제외, 디자인 및 활동을 만들 수 있도록 제품을 검색하고 볼 수 있습니다.
 

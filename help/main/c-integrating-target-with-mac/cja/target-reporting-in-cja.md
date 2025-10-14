@@ -18,7 +18,7 @@ ht-degree: 40%
 [!DNL Customer Journey Analytics]를 [!DNL Target]에 대한 보고 소스로 사용하는 경우의 주요 이점은 다음과 같습니다.
 
 * 마케터가 언제든지 [!DNL Customer Journey Analytics] 성공 지표 또는 보고 세그먼트를 [!DNL Target] 활동 보고서에 동적으로 적용할 수 있습니다. 활동을 실행하기 전에 모든 항목을 지정할 필요는 없습니다.
-* 마케터는 [!DNL Customer Journey Analytics]실험 패널[과 같은 ](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank} 기능을 사용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
+* 마케터는 [!DNL Customer Journey Analytics]실험 패널[과 같은 &#x200B;](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation){target=_blank} 기능을 사용하여 웹 사이트 개인화를 추가로 분석할 수 있습니다.
 * 마케터는 [!DNL Adobe Journey Optimizer] 및 [!DNL Target]에 대한 단일 보고 소스를 가질 수 있습니다. 두 개인화 제품 모두 [!DNL Customer Journey Analytics]에 연결하여 웹 개인화를 보다 전체적으로 살펴볼 수 있습니다.
 
 ## 고려 사항
@@ -49,7 +49,7 @@ ht-degree: 40%
   >
   >[!DNL Adobe Analytics] 원본 연결을 사용하는 경우 [!DNL Adobe Analytics]과(와) [!DNL Customer Journey Analytics]에 모두 보고서가 있습니다. 그러나 이 두 가지 솔루션 간에 알고리즘이 다르기 때문에 결과는 일치하지 않을 수 있습니다.
 
-* 시기에 대한 질문이 있으면 [ 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank}의 *자주 묻는 질문*&#x200B;에서 *[!DNL Adobe Customer Analytics]지연 고려 사항*&#x200B;을 참조하십시오.
+* 시기에 대한 질문이 있으면 [&#x200B; 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-overview/cja-faq#latency){target=_blank}의 *자주 묻는 질문*&#x200B;에서 *[!DNL Adobe Customer Analytics]지연 고려 사항*&#x200B;을 참조하십시오.
 
 ## 지원되는 활동 유형 {#supported-activities}
 
@@ -112,7 +112,7 @@ ht-degree: 40%
 
 1. 이벤트 데이터 세트를 구성하십시오.
 
-   자세한 내용은 [ 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank}의 *연결 만들기*&#x200B;에서 *[!DNL Adobe Customer Journey Analytics]데이터 세트 추가 및 구성*&#x200B;을 참조하십시오.
+   자세한 내용은 [&#x200B; 안내서](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-connections/create-connection#add-dataset){target=_blank}의 *연결 만들기*&#x200B;에서 *[!DNL Adobe Customer Journey Analytics]데이터 세트 추가 및 구성*&#x200B;을 참조하십시오.
 
 1. [!UICONTROL Key] 필드를 &quot;key&quot;로 사용하고 [!UICONTROL Matching] 키 필드를 다음 경로로 사용하여 조회 데이터 세트를 구성합니다.
 
@@ -130,7 +130,7 @@ ht-degree: 40%
 
 1. 데이터 보기를 설정하고 위에서 만든 연결을 가리키는지 확인합니다.
 
-   자세한 내용은 [ 가이드의 ](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank}데이터 보기 만들기 또는 편집&#x200B;*[!DNL Adobe Customer Journey Analytics]*&#x200B;을 참조하세요.
+   자세한 내용은 [&#x200B; 가이드의 &#x200B;](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-dataviews/create-dataview){target=_blank}데이터 보기 만들기 또는 편집&#x200B;*[!DNL Adobe Customer Journey Analytics]*&#x200B;을 참조하세요.
 
 1. [!DNL Customer Journey Analytics]에서 [!DNL Target] 데이터를 제대로 보려면 조회 데이터 세트에서 다음 필드를 차원으로 추가해야 합니다.
 
@@ -168,7 +168,7 @@ ht-degree: 40%
 
 1. [!DNL Customer Journey Analytics]에서 실험 패널을 만든 다음 **[!UICONTROL Experiment]** 드롭다운 메뉴에서 활동을 선택합니다.
 
-   자세한 내용은 [ 안내서의 ](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}실험 패널&#x200B;*에서*&#x200B;실험 패널&#x200B;*[!DNL Customer Journey Analytics]*&#x200B;을 참조하세요.
+   자세한 내용은 [&#x200B; 안내서의 &#x200B;](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation?lang=en#use){target=_blank}실험 패널&#x200B;*에서*&#x200B;실험 패널&#x200B;*[!DNL Customer Journey Analytics]*&#x200B;을 참조하세요.
 
    ![Customer Journey Analytics의 실험 패널](/help/main/c-integrating-target-with-mac/cja/assets/experimentation-panel.png)
 
@@ -178,6 +178,6 @@ ht-degree: 40%
 
 1. **[!UICONTROL Build]** 아이콘을 클릭합니다.
 
-   [!UICONTROL Experimentation] 패널은 실험의 성과를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다. 자세한 내용은 [[!UICONTROL Panel output] 안내서의 ](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}실험 패널&#x200B;*에서**[!DNL Customer Journey Analytics]*&#x200B;을(를) 참조하십시오.
+   [!UICONTROL Experimentation] 패널은 실험의 성과를 더 잘 이해할 수 있도록 풍부한 데이터 및 시각화를 반환합니다. 자세한 내용은 [[!UICONTROL Panel output] 안내서의 &#x200B;](https://experienceleague.adobe.com/ko/docs/analytics-platform/using/cja-workspace/panels/experimentation#panel-output){target=_blank}실험 패널&#x200B;*에서**[!DNL Customer Journey Analytics]*&#x200B;을(를) 참조하십시오.
 
    ![실험](/help/main/c-integrating-target-with-mac/cja/assets/experimentation.png)

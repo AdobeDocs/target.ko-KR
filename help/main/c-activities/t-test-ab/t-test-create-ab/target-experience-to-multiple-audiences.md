@@ -35,7 +35,7 @@ ht-degree: 52%
 
 1. 경험을 선택한 다음 **[!UICONTROL Configure]** > **[!UICONTROL Multiple Audiences]**&#x200B;을(를) 클릭합니다.
 
-1. **[!UICONTROL Add Audience]** 창에서 ![ 아이콘(](/help/main/assets/icons/Add.svg)추가 아이콘[!UICONTROL Experience Audiences])을 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
+1. **[!UICONTROL Add Audience]** 창에서 ![&#x200B; 아이콘(](/help/main/assets/icons/Add.svg)추가 아이콘[!UICONTROL Experience Audiences])을 클릭한 다음 타깃팅할 첫 번째 대상을 선택합니다. 각 대상자에 대해 이 작업을 반복합니다.
 
    대상자가 아직 존재하지 않는 경우 [대상자 만들기](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558)를 클릭하고 설정합니다.
 

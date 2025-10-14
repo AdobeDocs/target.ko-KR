@@ -15,7 +15,7 @@ ht-degree: 31%
 
 요소 선택기는 하나 이상의 요소를 식별할 수 있는 CSS 표현식입니다.
 
-MDN([)의 ](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)Selectors *[!DNL Mozilla Developer Network]* 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
+MDN([)의 &#x200B;](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors)Selectors *[!DNL Mozilla Developer Network]* 문서에서 CSS 선택기에 대한 기본 정보를 찾을 수 있습니다.
 
 계정 환경 설정에서 요소 클래스나 요소 ID를 사용하지 여부를 설정할 수 있습니다. **[!UICONTROL Administration > Visual Experience Composer]**&#x200B;을(를) 클릭한 다음 선호하는 CSS 선택기를 선택하십시오.
 

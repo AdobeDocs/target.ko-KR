@@ -23,7 +23,7 @@ ht-degree: 0%
 * [!DNL Adobe Experience Platform Web SDK] 또는 [!DNL Target Web SDK]&#x200B;(at.js)을 사용하여 구현하는 방법에 대한 정보가 포함된 클라이언트측
 * Node.JS, JAVA, .NET 및 Python SDK 사용에 대한 구현 정보가 포함된 서버측.
 * 하이브리드 - 클라이언트측과 서버측 구현을 조합하여 사용하는 경우 구현에 도움이 되는 정보입니다.
-* 권장 사항, [!DNL Recommendations]Target Premium[ 제공 항목인 ](/help/main/c-intro/intro.md#premium)을(를) 구현하는 데 도움이 되는 정보.
+* 권장 사항, [!DNL Recommendations]Target Premium[&#x200B; 제공 항목인 &#x200B;](/help/main/c-intro/intro.md#premium)을(를) 구현하는 데 도움이 되는 정보.
 * 모바일 앱.
 * 이메일.
 

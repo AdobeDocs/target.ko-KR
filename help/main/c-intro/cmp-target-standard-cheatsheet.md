@@ -48,7 +48,7 @@ ht-degree: 50%
 **[!DNL Adobe]에 [!DNL Target]에 대한 답변과 추가 정보를 찾을 수 있는 커뮤니티/포럼이 있습니까?**
 
 +++세부 정보 보기
-[!DNL Target]Target 커뮤니티 포럼[에서 동료 ](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko){target=_blank} 실무자와 연결합니다. [!DNL Target]을(를) 사용하여 개인 맞춤화 및 실험을 추진하는 다른 사용자와 전문성을 공유하고 질문하고 공동 작업하십시오. 번영하는 공동체는 적극적인 참여에 달려 있다. 귀하의 통찰력과 경험은 다른 사람이 성공하는 데 도움이 될 수 있습니다. 뛰어들어 기여하고 필요한 답변을 찾아보십시오.
+[!DNL Target]Target 커뮤니티 포럼[에서 동료 &#x200B;](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community?profile.language=ko){target=_blank} 실무자와 연결합니다. [!DNL Target]을(를) 사용하여 개인 맞춤화 및 실험을 추진하는 다른 사용자와 전문성을 공유하고 질문하고 공동 작업하십시오. 번영하는 공동체는 적극적인 참여에 달려 있다. 귀하의 통찰력과 경험은 다른 사람이 성공하는 데 도움이 될 수 있습니다. 뛰어들어 기여하고 필요한 답변을 찾아보십시오.
 
 +++
 
@@ -92,7 +92,7 @@ ht-degree: 50%
 **내 요구에 가장 잘 맞는 활동 유형을 어떻게 알 수 있습니까?**
 
 +++세부 정보 보기
-[에서 제공한 각 선택 사항이 적용되는 사례를 알려면 ](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)Target 활동 안내서[!DNL Target]를 읽어 보십시오.
+[에서 제공한 각 선택 사항이 적용되는 사례를 알려면 &#x200B;](/help/main/c-activities/target-activities-guide.md#concept_D974B0918EB74B3B8CB07ACD32BF37A1)Target 활동 안내서[!DNL Target]를 읽어 보십시오.
 
 [권장 사항 활동](/help/main/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0)도 고려해 보십시오.
 
@@ -144,7 +144,7 @@ ht-degree: 50%
 **고정된 시간에 활동을 시작 및 종료하도록 예약할 수 있습니까?**
 
 +++세부 정보 보기
-시작 및 종료 날짜를 지정하여 3파트 활동 워크플로 중 [ 단계에서 [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)예약 기능을 사용하십시오.
+시작 및 종료 날짜를 지정하여 3파트 활동 워크플로 중 [&#x200B; 단계에서 [!UICONTROL Goals & Settings]](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC)예약 기능을 사용하십시오.
 
 활동을 활성화해야 합니다. 라이브 활동만 지정된 일정을 준수합니다. 종료 날짜에 도달하면 활동이 [!UICONTROL Ended] 상태로 전환됩니다.
 
@@ -160,7 +160,7 @@ ht-degree: 50%
 **특정 단계를 유지하면서 활동(예: 오퍼 텍스트 또는 사용자 지정 코드)을 계속 수정한 후 다른 탭에서 QA를 수행할 수 있습니까?**
 
 +++세부 정보 보기
-가능합니다. [사용할 수 있는 [!UICONTROL Save] 옵션을 사용하여 ](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 단계를 종료하지 않고 증분 변경을 하기만 하면 됩니다.
+가능합니다. [사용할 수 있는 [!UICONTROL Save] 옵션을 사용하여 &#x200B;](/help/main/c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) 단계를 종료하지 않고 증분 변경을 하기만 하면 됩니다.
 
 +++
 
@@ -388,7 +388,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **여러 사용자 세그먼트에 대해 보고 기능을 분류할 수 있습니까?**
 
 +++세부 정보 보기
-안내가 있는 3파트로 구성된 활동 워크플로우의 3단계에서 [ 페이지에서 사용할 수 있는 ](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)보고 대상 기능[!UICONTROL Goals & Settings]이 여기에 있습니다.
+안내가 있는 3파트로 구성된 활동 워크플로우의 3단계에서 [&#x200B; 페이지에서 사용할 수 있는 &#x200B;](/help/main/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF)보고 대상 기능[!UICONTROL Goals & Settings]이 여기에 있습니다.
 
 이러한 세그먼트 50개와 적용 지점([!UICONTROL Activity Entry] 또는 특정 지표)을 추가하는 옵션을 통해 보다 강력한 분류 기능을 사용할 수 있습니다.
 
@@ -406,7 +406,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **오프라인 보고 계산을 수행할 수 있습니까?**
 
 +++세부 정보 보기
-[ 페이지에서 ](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)CSV로 보고서 내보내기 및 주문 세부 사항을 CSV로 다운로드 옵션[!UICONTROL Reports]을 사용하여 원하는 보고 데이터를 다운로드하십시오.
+[&#x200B; 페이지에서 &#x200B;](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)CSV로 보고서 내보내기 및 주문 세부 사항을 CSV로 다운로드 옵션[!UICONTROL Reports]을 사용하여 원하는 보고 데이터를 다운로드하십시오.
 
 +++
 
@@ -420,7 +420,7 @@ CSS 선택기는 Sizzle 선택기입니다. 이 섹션을 사용하여 약간 �
 **보고서를 어떻게 해석해야 합니까?**
 
 +++세부 정보 보기
-[!DNL Target] 팀은 강력하면서도 쉬운 보고서 분석을 위해 [신뢰 구간 막대, 상승도 한계, 중요도/신뢰도 및 다중 지표 선택, 테이블 및 그래프 보기, 평균 실행 등과 같은 기능을 사용하여 보고서를 가능한 한 직관적으로 만들려고 했습니다.](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 대상에 대한 추가 분석을 위해 [!DNL Analytics]Analytics for Target(A4T) [ 활동을 사용하는 경우 ](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)을(를) 살펴볼 수 있습니다.
+[!DNL Target] 팀은 강력하면서도 쉬운 보고서 분석을 위해 [신뢰 구간 막대, 상승도 한계, 중요도/신뢰도 및 다중 지표 선택, 테이블 및 그래프 보기, 평균 실행 등과 같은 기능을 사용하여 보고서를 가능한 한 직관적으로 만들려고 했습니다.](/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) 대상에 대한 추가 분석을 위해 [!DNL Analytics]Analytics for Target(A4T) [&#x200B; 활동을 사용하는 경우 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)을(를) 살펴볼 수 있습니다.
 
 +++
 

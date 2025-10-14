@@ -60,7 +60,7 @@ ht-degree: 32%
 
 ## [!UICONTROL Administration] 설정을 편집하는 데 필요한 권한 {#admin-permissions}
 
-**2025년 4월 22일 이전**: [!UICONTROL Approvers]에 [!DNL Adobe Admin Console] 권한이 있는 사용자는 [[!UICONTROL Administration] 역할에 관계없이 ](/help/main/administrating-target/administrating-target.md)의 [!DNL Target] 페이지[!DNL Target] 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다.
+**2025년 4월 22일 이전**: [!UICONTROL Approvers]에 [!DNL Adobe Admin Console] 권한이 있는 사용자는 [[!UICONTROL Administration] 역할에 관계없이 &#x200B;](/help/main/administrating-target/administrating-target.md)의 [!DNL Target] 페이지[!DNL Target] 페이지에서 모든 설정을 편집하거나 변경할 수 있습니다.
 
 **2025년 4월 22일**: [!UICONTROL Product] 및 [!UICONTROL Solutions] 관리자만 [[!UICONTROL Administration]](/help/main/administrating-target/administrating-target.md) 작업 영역의 역할에 관계없이 [!DNL Target] 섹션의 설정을 업데이트할 수 있습니다. 이 권한이 없는 사용자는 [!UICONTROL Administration] 섹션에 대한 읽기 전용 액세스 권한을 갖게 됩니다.
 

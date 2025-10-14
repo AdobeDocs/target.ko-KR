@@ -21,7 +21,7 @@ ht-degree: 12%
 
    [!UICONTROL Offer library]을(를) 검색하고 [!UICONTROL Smart Collections]을(를) 만드는 방법에 대한 자세한 내용은 [콘텐츠 필터링 및 검색](/help/main/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276)을 참조하십시오.
 
-1. (조건부) 이미지 오퍼의 경우 [!UICONTROL Card View]과(와) [!UICONTROL List View] 사이를 전환하고 [!UICONTROL Card View] 라이브러리의 오른쪽 위 모서리에 있는 ![ 아이콘(](/help/main/assets/icons/ViewCard.svg)카드 보기 아이콘[!UICONTROL List View]) 또는 ![ 아이콘(](/help/main/assets/icons/ViewList.svg)목록 보기 아이콘[!UICONTROL Asset])을 클릭합니다.
+1. (조건부) 이미지 오퍼의 경우 [!UICONTROL Card View]과(와) [!UICONTROL List View] 사이를 전환하고 [!UICONTROL Card View] 라이브러리의 오른쪽 위 모서리에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/ViewCard.svg)카드 보기 아이콘[!UICONTROL List View]) 또는 ![&#x200B; 아이콘(](/help/main/assets/icons/ViewList.svg)목록 보기 아이콘[!UICONTROL Asset])을 클릭합니다.
 
 1. 다음 섹션에 설명된 대로 원하는 작업을 수행합니다.
 

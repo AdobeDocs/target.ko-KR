@@ -97,7 +97,7 @@ ht-degree: 22%
 
 ## 활동을 초안 양식으로 저장 {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
-[!UICONTROL Save as Draft] 기능을 더 이상 사용할 수 없습니다. 자세한 내용은 *[!UICONTROL Status]*&#x200B;활동 목록에 필터 적용[의 ](/help/main/c-activities/activities.md#filters)을(를) 참조하십시오.
+[!UICONTROL Save as Draft] 기능을 더 이상 사용할 수 없습니다. 자세한 내용은 *[!UICONTROL Status]*&#x200B;활동 목록에 필터 적용[의 &#x200B;](/help/main/c-activities/activities.md#filters)을(를) 참조하십시오.
 
 ## [!DNL Recommendations Classic]에서 생성한 이전 활동으로 작업 {#classic}
 

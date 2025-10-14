@@ -89,7 +89,7 @@ A/B 테스트 결과에 경험들 중 하나 이상에서 통계적으로 의미
 +++답변
 일반적으로 [!UICONTROL Auto-Target] 활동에 모델을 만드는 데 걸리는 시간은 선택한 활동 위치에 대한 트래픽 및 활동 성공 지표와 관련된 전환율에 따라 다릅니다.
 
-[!UICONTROL Auto-Target]은(는) 해당 경험에 대해 50개 이상의 전환이 있을 때까지 해당 경험에 대한 개인화된 모델을 구축하려고 시도하지 않습니다. 더욱이, 구축된 모델의 품질이 충분하지 않다면([AUC라고 알려진 메트릭 ](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)을(를) 사용하여 홀드아웃 &quot;테스트&quot; 데이터에 대한 오프라인 평가에 의해 결정됨), 모델은 개인화된 방식으로 트래픽을 서비스하는 데 사용되지 않습니다.
+[!UICONTROL Auto-Target]은(는) 해당 경험에 대해 50개 이상의 전환이 있을 때까지 해당 경험에 대한 개인화된 모델을 구축하려고 시도하지 않습니다. 더욱이, 구축된 모델의 품질이 충분하지 않다면([AUC라고 알려진 메트릭 &#x200B;](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)을(를) 사용하여 홀드아웃 &quot;테스트&quot; 데이터에 대한 오프라인 평가에 의해 결정됨), 모델은 개인화된 방식으로 트래픽을 서비스하는 데 사용되지 않습니다.
 
 [!UICONTROL Auto-Target]의 모델 구축에 대해 몇 가지 더 유의해야 할 사항은 다음과 같습니다.
 

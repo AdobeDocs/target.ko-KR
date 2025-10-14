@@ -81,4 +81,4 @@ FAQ에 대한 다음 답변을 고려하십시오.
 
 &quot;아직 우승자 없음&quot; 및 &quot;우승자&quot; 배지는 현재 [!UICONTROL A4T]의 [!DNL Analysis Workspace] 패널에서 사용할 수 없습니다. 같은 보고서를 [!DNL Target]에서 보는 경우에는 이 배지도 사용할 수 없습니다. A4T를 사용하는 [!DNL Target] 활동에 대한 [!UICONTROL Auto-Allocate] 보고서에 표시된 우승자 &quot;별&quot; 배지는 무시해야 합니다.
 
-이 제한 사항과 기타 제한 사항 및 메모에 대한 자세한 내용은 [ 및 ](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) 활동에 대한 *A4T 지원[!UICONTROL Auto-Allocate]의 [!UICONTROL Auto-Target]자동 할당*&#x200B;을 참조하십시오.
+이 제한 사항과 기타 제한 사항 및 메모에 대한 자세한 내용은 [&#x200B; 및 &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) 활동에 대한 *A4T 지원[!UICONTROL Auto-Allocate]의 [!UICONTROL Auto-Target]자동 할당*&#x200B;을 참조하십시오.

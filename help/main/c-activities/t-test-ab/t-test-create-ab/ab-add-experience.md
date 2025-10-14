@@ -17,7 +17,7 @@ ht-degree: 28%
 
 경험에 대한 자세한 내용은 [경험](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)을 참조하십시오.
 
-1. VEC의 **[!UICONTROL Experiences]** 페이지에서 [!UICONTROL Add] 창 상단의 ![ 아이콘(](/help/main/assets/icons/Add.svg)추가 아이콘[!UICONTROL Experiences])을 클릭합니다.
+1. VEC의 **[!UICONTROL Experiences]** 페이지에서 [!UICONTROL Add] 창 상단의 ![&#x200B; 아이콘(](/help/main/assets/icons/Add.svg)추가 아이콘[!UICONTROL Experiences])을 클릭합니다.
 
    VEC는 새 활동을 만든 후 왼쪽에 경험 A와 경험 B, 이렇게 두 개의 탭을 표시합니다. 경험 A는 제어 경험입니다. 테스트에 여러 경험을 추가할 수 있습니다.
 

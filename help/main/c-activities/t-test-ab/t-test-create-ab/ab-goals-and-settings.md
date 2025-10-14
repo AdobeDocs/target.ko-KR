@@ -42,7 +42,7 @@ ht-degree: 29%
 
 [!UICONTROL Advanced Settings] 페이지의 [!UICONTROL Goals & Settings] 섹션에서 고급 옵션을 구성할 수 있습니다.
 
-고급 설정을 지정하려면 **[!UICONTROL More]** 섹션에서 ![ 아이콘(](/help/main/assets/icons/MoreSmallList.svg)추가 아이콘[!UICONTROL My Primary Goal])을 클릭한 다음 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다.
+고급 설정을 지정하려면 **[!UICONTROL More]** 섹션에서 ![&#x200B; 아이콘(](/help/main/assets/icons/MoreSmallList.svg)추가 아이콘[!UICONTROL My Primary Goal])을 클릭한 다음 **[!UICONTROL Advanced Settings]**&#x200B;을(를) 클릭합니다.
 
 >[!NOTE]
 >

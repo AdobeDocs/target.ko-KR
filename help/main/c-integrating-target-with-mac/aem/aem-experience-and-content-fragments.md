@@ -40,8 +40,8 @@ ht-degree: 40%
    * [[!UICONTROL Multivariate Test]&#x200B;(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* [!UICONTROL Experience Fragments]시각적 경험 작성기[!DNL Target]&#x200B;(VEC) 및 [양식 기반 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 사용하여 [ 활동에서 ](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다.
-* [!UICONTROL Content Fragments]양식 기반 경험 작성기[!DNL Target]만 사용하여 [ 활동에서 ](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다.
+* [!UICONTROL Experience Fragments]시각적 경험 작성기[!DNL Target]&#x200B;(VEC) 및 [양식 기반 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 사용하여 [&#x200B; 활동에서 &#x200B;](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다.
+* [!UICONTROL Content Fragments]양식 기반 경험 작성기[!DNL Target]만 사용하여 [&#x200B; 활동에서 &#x200B;](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다.
 
 ## [!UICONTROL Experience Fragments]과(와) [!UICONTROL Content Fragments]의 차이점은 무엇입니까?
 

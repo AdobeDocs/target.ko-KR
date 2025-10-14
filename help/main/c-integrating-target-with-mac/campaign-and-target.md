@@ -51,7 +51,7 @@ ht-degree: 32%
 
   [리디렉션 오퍼 만들기](/help/main/c-experiences/c-manage-content/offer-redirect.md)를 참조하십시오.
 
-* 각 오퍼 및 원하는 [!DNL Target]성공 지표[에 대한 경험이 있는 ](/help/main/c-activities/r-success-metrics/success-metrics.md) 활동.
+* 각 오퍼 및 원하는 [!DNL Target]성공 지표[에 대한 경험이 있는 &#x200B;](/help/main/c-activities/r-success-metrics/success-metrics.md) 활동.
 
   [URL로 리디렉션](/help/main/c-experiences/c-visual-experience-composer/redirect-offer.md)을 참조하십시오.
 

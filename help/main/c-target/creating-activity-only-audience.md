@@ -52,4 +52,4 @@ ht-degree: 28%
   다음 대체 요소를 사용하여 제외 규칙을 사용할 수 있습니다.
 
    * [활동 전용 대상 대신 라이브러리 대상을 만들어 사용](/help/main/c-target/c-audiences/create-audience.md)합니다.
-   * [여러 ](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)(최대 20개) 라이브러리 대상을 활동 전용 대상으로 결합합니다. 대상을 조합할 때, 조합된 대상을 활동 전용 대상으로 저장하는 경우에도 개별 라이브러리 대상의 포함 및 제외 규칙을 사용할 수 있습니다.
+   * [여러 &#x200B;](/help/main/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5)(최대 20개) 라이브러리 대상을 활동 전용 대상으로 결합합니다. 대상을 조합할 때, 조합된 대상을 활동 전용 대상으로 저장하는 경우에도 개별 라이브러리 대상의 포함 및 제외 규칙을 사용할 수 있습니다.

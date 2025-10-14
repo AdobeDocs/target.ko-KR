@@ -18,7 +18,7 @@ ht-degree: 0%
 
 [!DNL Analytics]을(를) 동작 데이터 원본으로 사용하면 사용자 동작에 대한 풍부한 정보 원본으로 사용할 수 있습니다. 이 정보에는 [!DNL Analytics]과(와) 공유된 서드파티 원본 또는 피드의 데이터가 포함될 수 있습니다.
 
-[에서 ](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)기준을 만드는 중[!DNL Recommendations]에 사용할 데이터 원본을 선택할 수 있는 라디오 단추가 두 개 있습니다. [!UICONTROL mboxes] 또는 [!UICONTROL Analytics]. 기준을 만들려면 [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]을(를) 클릭합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
+[에서 &#x200B;](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)기준을 만드는 중[!DNL Recommendations]에 사용할 데이터 원본을 선택할 수 있는 라디오 단추가 두 개 있습니다. [!UICONTROL mboxes] 또는 [!UICONTROL Analytics]. 기준을 만들려면 [!UICONTROL Recommendations] > [!UICONTROL Criteria] > [!UICONTROL Create Criteria] > [!UICONTROL Create Criteria]을(를) 클릭합니다. 자세한 내용은 [기준 만들기](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md)를 참조하십시오.
 
 >[!NOTE]
 >

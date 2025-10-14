@@ -119,7 +119,7 @@ ID, 이름, 메시지, 범주 등을 포함한 개별 항목의 세부 사항을
 
 ## 고급 검색을 기반으로 컬렉션 또는 제외 만들기 {#save-as}
 
-[ 페이지에서 ](/help/main/c-recommendations/c-products/collections.md)을(를) 사용하여 [컬렉션](/help/main/c-recommendations/c-products/exclusions.md) 또는 [!UICONTROL Advanced Search]제외[!UICONTROL Catalog Search]을(를) 만들 수 있습니다([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+[&#x200B; 페이지에서 &#x200B;](/help/main/c-recommendations/c-products/collections.md)을(를) 사용하여 [컬렉션](/help/main/c-recommendations/c-products/exclusions.md) 또는 [!UICONTROL Advanced Search]제외[!UICONTROL Catalog Search]을(를) 만들 수 있습니다([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 1. [고급 검색](#advanced-search)을 수행합니다.
 

@@ -49,7 +49,7 @@ AP([Automated Personalization](/help/main/c-activities/t-automated-personalizati
       * 선택한 위치는 성공 지표에 영향을 주지 않습니다.
       * 전환 단계에서 최적화 목표가 너무 멀어서 선택한 오퍼의 영향을 받을 수 없습니다.
 
-* [ 활동에서 개인화 모델을 만드는 데 걸리는 시간을 파악할 수 있도록 ](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)트래픽 견적 도구[!UICONTROL Automated Personalization]를 사용하십시오.
+* [&#x200B; 활동에서 개인화 모델을 만드는 데 걸리는 시간을 파악할 수 있도록 &#x200B;](/help/main/c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714)트래픽 견적 도구[!UICONTROL Automated Personalization]를 사용하십시오.
 * 목표를 기반으로 활동을 시작하기 전에 통제와 타깃팅 간의 할당을 결정합니다.
 
   활동의 목표와 선택한 제어 유형에 따라 고려할 시나리오가 세 가지가 있습니다.

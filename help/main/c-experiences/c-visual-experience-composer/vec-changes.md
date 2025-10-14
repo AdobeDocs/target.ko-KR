@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->업데이트된 [!UICONTROL Visual Editing Composer]에는 [!DNL Adobe Experience Cloud]에서 사용할 수 있는 [[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Chrome Web Store]이(가) 필요합니다.
+>업데이트된 [!UICONTROL Visual Editing Composer]에는 [!DNL Adobe Experience Cloud]에서 사용할 수 있는 [[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Chrome Web Store]이(가) 필요합니다.
 
 VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
@@ -51,7 +51,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ### [!UICONTROL Modifications] 레일
 
-[!UICONTROL Modifications] 레일을 열려면 [!UICONTROL Show Modifications] 레일에서 ![ 아이콘(](/help/main/assets/icons/History.svg)수정 사항 레일 표시[!UICONTROL Components])을 클릭합니다. [!UICONTROL Modifications] 레일이 편집 캔버스의 오른쪽에서 왼쪽으로 위치가 변경되었습니다.
+[!UICONTROL Modifications] 레일을 열려면 [!UICONTROL Show Modifications] 레일에서 ![&#x200B; 아이콘(](/help/main/assets/icons/History.svg)수정 사항 레일 표시[!UICONTROL Components])을 클릭합니다. [!UICONTROL Modifications] 레일이 편집 캔버스의 오른쪽에서 왼쪽으로 위치가 변경되었습니다.
 
 ![수정 레일](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
@@ -65,7 +65,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 수정 사항을 추가하거나, 모든 수정 사항을 삭제하거나, 모든 잘못된 수정 사항을 삭제하려면 [!UICONTROL More Options] 아이콘(![추가 작업 아이콘](/help/main/assets/icons/MoreSmall.svg))을 클릭하십시오. 대량 작업을 수행하려면 [!UICONTROL Select]을(를) 클릭하십시오. [!UICONTROL Apply to All Pages] 또는 [!UICONTROL Delete].
 
-[!UICONTROL Modifications] 레일을 다시 표시하려면 [!UICONTROL Hide Modifications] 레일에서 ![ 아이콘(](/help/main/assets/icons/History.svg)수정 사항 레일 표시[!UICONTROL Modifications])을 클릭하십시오.
+[!UICONTROL Modifications] 레일을 다시 표시하려면 [!UICONTROL Hide Modifications] 레일에서 ![&#x200B; 아이콘(](/help/main/assets/icons/History.svg)수정 사항 레일 표시[!UICONTROL Modifications])을 클릭하십시오.
 
 ### [!UICONTROL Properties] 레일(신규)
 
@@ -77,7 +77,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ![속성 아이콘](/help/main/c-experiences/c-visual-experience-composer/assets/options-icons.png)
 
-오른쪽 레일에서 [!UICONTROL Properties] 레일을 접을 수 있습니다. [!UICONTROL Show/Hide Properties] 레일을 축소하거나 표시하려면 레일의 오른쪽에 있는 ![ 아이콘(](/help/main/assets/icons/Propertie.svg)속성 아이콘[!UICONTROL Properties])을 클릭합니다.
+오른쪽 레일에서 [!UICONTROL Properties] 레일을 접을 수 있습니다. [!UICONTROL Show/Hide Properties] 레일을 축소하거나 표시하려면 레일의 오른쪽에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/Propertie.svg)속성 아이콘[!UICONTROL Properties])을 클릭합니다.
 
 ### 활동 설정/구성
 

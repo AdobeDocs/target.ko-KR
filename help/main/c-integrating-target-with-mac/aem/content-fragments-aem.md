@@ -33,7 +33,7 @@ Headless 개인화 및 실험을 지원하기 위해 [!UICONTROL Content Fragmen
    * [[!UICONTROL Multivariate Test]&#x200B;(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* [!UICONTROL Content Fragments]양식 기반 경험 작성기[!DNL Target]만 사용하여 [ 활동에서 ](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다. VEC(*)를 사용하여* 활동에서 [!UICONTROL Content Fragments]을(를) [!DNL Target]할 수 없습니다[!UICONTROL Visual Experience Composer].
+* [!UICONTROL Content Fragments]양식 기반 경험 작성기[!DNL Target]만 사용하여 [&#x200B; 활동에서 &#x200B;](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다. VEC(*)를 사용하여* 활동에서 [!UICONTROL Content Fragments]을(를) [!DNL Target]할 수 없습니다[!UICONTROL Visual Experience Composer].
 
 AEM [!UICONTROL Content Fragments] 및 [!UICONTROL Experience Fragments]에 대한 자세한 내용은 [AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments] 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)를 참조하세요.
 
@@ -63,13 +63,13 @@ AEM [!UICONTROL Content Fragments] 및 [!UICONTROL Experience Fragments]에 대�
 
 마우스로 목록의 [!UICONTROL Experience Fragment]을(를) 가리킨 다음 [!UICONTROL View] 아이콘 ![정보 아이콘](/help/main/assets/icons/InfoOutline.svg)을(를) 클릭하여 [!UICONTROL Content Fragment], [!UICONTROL Name], [!UICONTROL Type], [!UICONTROL Offer ID] 및 마지막 수정 정보를 포함한 [!UICONTROL Offer path]에 대한 추가 정보를 볼 수 있습니다. 이 오퍼를 참조하는 활동을 보려면 [!UICONTROL [!UICONTROL View Full Details]]을(를) 클릭하십시오.
 
-[!UICONTROL Content Fragments]양식 기반 경험 작성기[!DNL Target]만 사용하여 [ 활동에서 ](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다. *VEC(*&#x200B;시각적 경험 작성기[!UICONTROL Content Fragments])를 사용하여 [!DNL Target] 활동에서 [을(를) 사용할 수 ](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)없습니다. [!UICONTROL Content Fragments]은(는) [!DNL Target]에서 JSON으로 내보내지며 VEC를 사용하여 만든 활동에서 사용할 수 없습니다.
+[!UICONTROL Content Fragments]양식 기반 경험 작성기[!DNL Target]만 사용하여 [&#x200B; 활동에서 &#x200B;](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다. *VEC(*&#x200B;시각적 경험 작성기[!UICONTROL Content Fragments])를 사용하여 [!DNL Target] 활동에서 [을(를) 사용할 수 &#x200B;](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)없습니다. [!UICONTROL Content Fragments]은(는) [!DNL Target]에서 JSON으로 내보내지며 VEC를 사용하여 만든 활동에서 사용할 수 없습니다.
 
 >[!TIP]
 >
 >[!UICONTROL Content Fragments]에서 인공 지능, 머신 러닝 및 권장 사항 사용:
 >
->* [!DNL Target] AI 및 ML 기능을 완전히 사용하려면 [ 활동을 만드는 동안 ](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)자동 할당[ 또는 ](/help/main/c-activities/auto-target/auto-target-to-optimize.md)자동 타겟[!UICONTROL A/B Test]을 선택할 수 있습니다.
+>* [!DNL Target] AI 및 ML 기능을 완전히 사용하려면 [&#x200B; 활동을 만드는 동안 &#x200B;](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)자동 할당[&#x200B; 또는 &#x200B;](/help/main/c-activities/auto-target/auto-target-to-optimize.md)자동 타겟[!UICONTROL A/B Test]을 선택할 수 있습니다.
 >
 >* [!UICONTROL Content Fragments]은(는) [!DNL Recommendations] 활동에서 지원되지 않습니다. 하지만 권장 사항에 [!UICONTROL Content Fragments]을(를) 사용하려면 [!UICONTROL A/B Test] 활동([!UICONTROL Auto-Allocate] 및 [!UICONTROL Auto-Target] 포함) 또는 [!UICONTROL Experience Targeting]&#x200B;(XT) 활동을 만들고 [오퍼로 권장 사항을 포함](/help/main/c-recommendations/recommendations-as-an-offer.md)할 수 있습니다.
 

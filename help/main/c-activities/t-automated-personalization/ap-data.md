@@ -38,10 +38,10 @@ ht-degree: 51%
 | --- | --- | --- | --- |
 | 페이지 매개 변수 | 상자 | [!DNL Target] 호출에서 전달된 사용자 지정 페이지 매개 변수(&quot;mbox 매개 변수&quot;)입니다. | 사용자 지정 - Mbox 매개 변수 - [매개 변수 이름] |
 | [!DNL Target] 프로필 | PRO | 사용자 지정 프로필 특성은 API 또는 페이지 매개 변수 및 [!DNL Target] 프로필 스크립트를 통해 [!DNL Target] 프로필에 직접 업로드됩니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
-| 고객 속성 | CRS | [!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service]을(를) 통해 ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ko){target=_blank} 프로필에 업로드된 고객 특성입니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
+| 고객 속성 | CRS | [!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service]을(를) 통해 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ko){target=_blank} 프로필에 업로드된 고객 특성입니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
 | URL 매개 변수 | URL | 현재 표시된 페이지의 URL 및 모든 URL 매개 변수. | 사용자 지정 - URL 매개 변수 - [URL 매개 변수] |
 | 참조 URL | 참조 | 참조 URL 및 참조 URL에 대한 모든 URL 매개 변수 | 사용자 지정 - [참조 URL 매개 변수] - [매개 변수 값] |
-| [!DNL Adobe Experience Cloud]개의 공유 대상 | AAM | 다른 [!DNL Target] 솔루션(예: [!DNL Adobe Experience Cloud][!DNL Adobe Audience Manager]을 통해 [!DNL Adobe Analytics] 및 [[!DNL Experience Cloud Audience Library])의 ](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ko){target=_blank}과(와) 모든 대상을 공유했습니다. | 사용자 지정 - Experience Cloud 대상 - [대상 이름] |
+| [!DNL Adobe Experience Cloud]개의 공유 대상 | AAM | 다른 [!DNL Target] 솔루션(예: [!DNL Adobe Experience Cloud][!DNL Adobe Audience Manager]을 통해 [!DNL Adobe Analytics] 및 [[!DNL Experience Cloud Audience Library])의 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ko){target=_blank}과(와) 모든 대상을 공유했습니다. | 사용자 지정 - Experience Cloud 대상 - [대상 이름] |
 | 대상 [!DNL Adobe Experience Platform Real-time CDP]개 | UPS | [!DNL Target]을(를) 통해 [!UICONTROL Destinations]과(와) 공유되는 Platform Real-time CDP 대상자입니다. |  |
 
 
@@ -49,7 +49,7 @@ ht-degree: 51%
 
 [!DNL Target] 기계 학습 알고리즘에서 기능을 차단하여 [!UICONTROL Automated Personalization] 또는 [!UICONTROL Auto-Target] 모델 또는 활동에서 사용할 수 없습니다.
 
-자세한 내용은 [ 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}의 *[!DNL Adobe Target]모델 API(차단 목록에 추가) 개요*&#x200B;를 참조하십시오.
+자세한 내용은 [&#x200B; 개발자 안내서](https://experienceleague.adobe.com/docs/target-dev/developer/api/models-api/models-api.html?lang=ko){target=_blank}의 *[!DNL Adobe Target]모델 API(차단 목록에 추가) 개요*&#x200B;를 참조하십시오.
 
 ## 장치 및 모바일 데이터 {#device-mobile}
 

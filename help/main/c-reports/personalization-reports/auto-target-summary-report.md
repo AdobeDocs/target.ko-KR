@@ -18,7 +18,7 @@ ht-degree: 37%
 
 >[!NOTE]
 >
->[!UICONTROL Auto-Target]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Standard]Target Premium 라이선스[가 없는 ](/help/main/c-intro/intro.md#premium)에는 포함되어 있지 않습니다.
+>[!UICONTROL Auto-Target]은(는) [!DNL Target Premium] 솔루션의 일부로 사용할 수 있습니다. [!DNL Target Standard]Target Premium 라이선스[가 없는 &#x200B;](/help/main/c-intro/intro.md#premium)에는 포함되어 있지 않습니다.
 
 [!UICONTROL Auto-Target Summary] 보고서를 표시하려면:
 

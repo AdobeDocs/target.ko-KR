@@ -392,7 +392,7 @@ VEC의 세 부분으로 구성된 안내 활동 만들기 워크플로우 내에
 * URL 아래 있는 홈 보기에서 배경색을 변경했습니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ko#/](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ko#/).
 * 제품 보기에서 URL 아래에 있는 단추 색상을 변경했습니다. [https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ko#/products](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ko#/products).
 
-위의 예를 염두에 두고, at.js 2가 있는 SPA에서 [!UICONTROL Page Delivery]https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ko#/[만 포함하도록 ](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ko#/) 설정을 구성할 경우 어떻게 됩니까?*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
+위의 예를 염두에 두고, at.js 2가 있는 SPA에서 [!UICONTROL Page Delivery]https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ko#/[만 포함하도록 &#x200B;](https://experienceleague.adobe.com/developer/ashop-react-demo/at-js/?lang=ko#/) 설정을 구성할 경우 어떻게 됩니까?*x*&#x200B;를 사용하는 SPA에서)하면 어떻게 될까요.
 
 ![페이지 전달 대화 상자](/help/main/c-experiences/assets/spa-page-delivery.png)
 

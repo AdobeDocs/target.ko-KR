@@ -93,7 +93,7 @@ A4T와 함께 리디렉션 오퍼를 사용하려면 다음 라이브러리 버�
 
 at.js, [!DNL Experience Cloud Visitor ID Service] 및 appMeasurement.js가 페이지에 있는 경우 올바른 보충 ID가 페이지에 포함되어 있으면 [!DNL Analytics] 및 [!DNL Target]은(는) 백엔드에서 보고 및 분석 목적을 위해 이벤트를 올바르게 결합합니다. A4T가 올바르게 작동하기 위해 추가 작업을 관리하고 수행할 필요가 없습니다.
 
-보고 목적으로 [!DNL Target]과(와) 관련된 분석 데이터를 [!DNL Analytics]에 보내는 시기와 방법을 보다 세밀하게 제어하려는 경우가 있습니다. 내부 용도로 사용하는 사내 분석 도구가 있을 수 있습니다. 그러나 사내 분석 제품을 통해 분석 데이터를 [!DNL Analytics]에 보내어 조직의 다른 구성원이 [!DNL Analytics]을(를) 시각적 보고 소스로 계속 사용할 수 있도록 하려는 경우도 있습니다. 자세한 내용은 [7단계: ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)Analytics for Target 구현&#x200B;*의 모든 사이트 페이지에서 at.js 참조*&#x200B;를 참조하십시오.
+보고 목적으로 [!DNL Target]과(와) 관련된 분석 데이터를 [!DNL Analytics]에 보내는 시기와 방법을 보다 세밀하게 제어하려는 경우가 있습니다. 내부 용도로 사용하는 사내 분석 도구가 있을 수 있습니다. 그러나 사내 분석 제품을 통해 분석 데이터를 [!DNL Analytics]에 보내어 조직의 다른 구성원이 [!DNL Analytics]을(를) 시각적 보고 소스로 계속 사용할 수 있도록 하려는 경우도 있습니다. 자세한 내용은 [7단계: &#x200B;](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#step7)Analytics for Target 구현&#x200B;*의 모든 사이트 페이지에서 at.js 참조*&#x200B;를 참조하십시오.
 
 ## 공유 대상
 

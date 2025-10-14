@@ -31,4 +31,4 @@ ht-degree: 0%
 * 썸네일 기본 URL 지정
 * 사용자 지정 속성 키 구성
 
-자세한 내용은 [ 개발자 안내서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}에서 **[!DNL Adobe Target]권장 사항 계획 및 구현**&#x200B;을 참조하세요.
+자세한 내용은 [&#x200B; 개발자 안내서](https://experienceleague.adobe.com/ko/docs/target-dev/developer/recommendations){target=_blank}에서 **[!DNL Adobe Target]권장 사항 계획 및 구현**&#x200B;을 참조하세요.

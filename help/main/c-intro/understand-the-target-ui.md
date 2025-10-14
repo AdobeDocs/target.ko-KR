@@ -163,7 +163,7 @@ ht-degree: 23%
 
 **[!UICONTROL Activities]**&#x200B;을(를) 열 때 [!DNL Target] 목록이 기본 보기입니다. 이 페이지에서 활동을 만들고 기존 활동을 관리할 수 있습니다.
 
-[에서 사용할 수 있는 활동 유형에 대한 자세한 내용과 ](/help/main/c-activities/activities.md) 목록의 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]활동[!UICONTROL Activity]을 참조하세요.
+[에서 사용할 수 있는 활동 유형에 대한 자세한 내용과 &#x200B;](/help/main/c-activities/activities.md) 목록의 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]활동[!UICONTROL Activity]을 참조하세요.
 
 ## 대상자
 
@@ -171,7 +171,7 @@ ht-degree: 23%
 
 대상은 타깃팅된 활동을 보는 유사한 활동 참여자의 그룹입니다. 대상은 새 방문자, 재방문자 또는 중서부의 재방문자와 같이 동일한 특성을 가진 사람 그룹입니다. [!UICONTROL Audience] 기능을 사용하면 적절한 시간에 적절한 사람에게 적절한 메시지를 표시하여 웹 마케팅을 최적화하도록 다양한 콘텐츠 및 경험을 특정 대상에 타깃팅할 수 있습니다. 방문자가 타깃 대상자의 일부로 식별되면 [!DNL Target] 은 활동 작성 중에 정의된 기준에 따라 표시할 경험을 결정합니다.
 
-[의 대상 유형에 대한 자세한 내용과 ](/help/main/c-target/c-audiences/create-audience.md) 목록의 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]대상 만들기[!UICONTROL Audience]를 참조하십시오.
+[의 대상 유형에 대한 자세한 내용과 &#x200B;](/help/main/c-target/c-audiences/create-audience.md) 목록의 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]대상 만들기[!UICONTROL Audience]를 참조하십시오.
 
 ## 오퍼
 
@@ -179,7 +179,7 @@ ht-degree: 23%
 
 경험은 구매 단계 또는 다른 논리적 페이지 순서를 구성하는 페이지, 전체 웹 페이지 또는 페이지 세트에 있는 오퍼, 이미지, 텍스트, 버튼, 비디오, 이러한 여러 요소의 조합일 수 있습니다. 음성 도우미, 고객 서비스 스크립트 또는 음료 자판기의 개인화된 향에 대한 답변일 수도 있습니다. [!DNL Target] 활동에서 경험을 테스트하거나 개인화합니다.
 
-[의 오퍼 형식에 대한 자세한 내용과 ](/help/main/c-experiences/c-manage-content/manage-content.md) 목록의 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]오퍼[!UICONTROL Offer]를 참조하십시오.
+[의 오퍼 형식에 대한 자세한 내용과 &#x200B;](/help/main/c-experiences/c-manage-content/manage-content.md) 목록의 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]오퍼[!UICONTROL Offer]를 참조하십시오.
 
 ## 추천
 
@@ -191,7 +191,7 @@ ht-degree: 23%
 
 [!UICONTROL Recommendations] 활동은 이전 사용자 활동이나 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 제품이나 콘텐츠를 자동으로 표시합니다. 권장 사항은 고객이 모를 수 있는 관련 항목을 고객에게 표시하는 데 도움이 됩니다.
 
-[의 ](/help/main/c-recommendations/recommendations.md)에 대한 자세한 내용과 [!UICONTROL Recommendations] 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]권장 사항[!UICONTROL Recommendations]을 참조하세요.
+[의 &#x200B;](/help/main/c-recommendations/recommendations.md)에 대한 자세한 내용과 [!UICONTROL Recommendations] 사용자 인터페이스에 대한 자세한 내용은 [!DNL Target]권장 사항[!UICONTROL Recommendations]을 참조하세요.
 
 ## 관리
 

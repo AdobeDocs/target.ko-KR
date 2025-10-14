@@ -20,7 +20,7 @@ ht-degree: 26%
 +++답변
 [!DNL Analysis Workspace]을(를) 사용하여 [!DNL Target] 활동 및 경험을 분석할 수 있습니다. [Analytics for Target 패널](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=ko-KR)을 사용하면 최대 3개의 성공 지표에 대한 상승도 및 신뢰도를 볼 수 있습니다. 표 및 시각화를 사용하여 더 깊이 파고들 수도 있습니다.
 
-자세한 내용과 예를 보려면 [에서 제공하는 ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)Analytics &amp; Target: 분석 모범 사례 자습서[!UICONTROL Adobe Experience League]를 여십시오.
+자세한 내용과 예를 보려면 [에서 제공하는 &#x200B;](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)Analytics &amp; Target: 분석 모범 사례 자습서[!UICONTROL Adobe Experience League]를 여십시오.
 
 +++
 

@@ -33,7 +33,7 @@ ht-degree: 26%
    * [[!UICONTROL Multivariate Test]&#x200B;(MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
    * [[!UICONTROL Recommendations]](/help/main/c-recommendations/recommendations.md)
 
-* [!UICONTROL Experience Fragments]시각적 경험 작성기[!DNL Target]&#x200B;(VEC) 및 [양식 기반 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 사용하여 [ 활동에서 ](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다.
+* [!UICONTROL Experience Fragments]시각적 경험 작성기[!DNL Target]&#x200B;(VEC) 및 [양식 기반 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 사용하여 [&#x200B; 활동에서 &#x200B;](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다.
 
 AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대한 자세한 내용은 [AEM [!UICONTROL Experience Fragments] 및 콘텐츠 조각 개요](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md)를 참조하십시오.
 
@@ -84,7 +84,7 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
 
 [!DNL AEM] 버전에 따른 단계별 지침은 다음 링크를 참조하십시오.
 
-* **AEM as a Cloud Service**: [Experience Manager as a Cloud Service[!UICONTROL Experience Fragments] 안내서에서 ](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}Adobe Target으로 *내보내기*
+* **AEM as a Cloud Service**: [Experience Manager as a Cloud Service[!UICONTROL Experience Fragments] 안내서에서 &#x200B;](https://experienceleague.adobe.com/ko/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target?lang=en){target=_blank}Adobe Target으로 *내보내기*
 * **[!DNL AEM]6.5**: [Adobe Experience Manager 6.5](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=ko){target=_blank} 설명서의 *Target으로 경험 조각 내보내기*.
 * **[!DNL AEM]6.4**: [Adobe Experience Manager 6.4](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=ko){target=_blank} 설명서의 *Target으로 경험 조각 내보내기*.
 
@@ -104,7 +104,7 @@ AEM [!UICONTROL Experience Fragments] 및 [!UICONTROL Content Fragments]에 대�
 
 ![경험 조각 정보 팝업](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
 
-[!UICONTROL Experience Fragments]시각적 경험 작성기[!DNL Target]&#x200B;(VEC) 및 [양식 기반 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 사용하여 [ 활동에서 ](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다.
+[!UICONTROL Experience Fragments]시각적 경험 작성기[!DNL Target]&#x200B;(VEC) 및 [양식 기반 경험 작성기](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md)를 사용하여 [&#x200B; 활동에서 &#x200B;](/help/main/c-experiences/form-experience-composer.md)을(를) 사용할 수 있습니다.
 
 >[!TIP]
 >
@@ -176,4 +176,4 @@ AEM에서 제공한 페이지에서 [!UICONTROL Experience Fragment]과(와) 함
 >
 >4[!DNL AEM]에 설명된 :54 딥링크 기능이 제거되었습니다.
 
-자세한 내용은 [Adobe Target 비디오 및 자습서[!UICONTROL Experience Fragments] 페이지에서 ](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ko)AEM Sites과 함께 *사용*&#x200B;을 참조하십시오.
+자세한 내용은 [Adobe Target 비디오 및 자습서[!UICONTROL Experience Fragments] 페이지에서 &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=ko)AEM Sites과 함께 *사용*&#x200B;을 참조하십시오.

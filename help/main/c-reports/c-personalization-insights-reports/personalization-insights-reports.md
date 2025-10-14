@@ -67,7 +67,7 @@ ht-degree: 28%
 
 AP 또는 자동 타겟 모델에 사용되는 두 가지 유형의 특성이 [!UICONTROL Personalization Insights] 보고서에 표시됩니다.
 
-* **Target에서 자동으로 수집한 특성:** [!DNL Target]은(는) 기본 데이터 집합을 사용하여 Personalization Insights에 반영된 AP 및 AT 활동에서 개인화 알고리즘을 만듭니다. 데이터 형식, 예제 특성 및 [ 명명 규칙에 대해서는 ](/help/main/c-activities/t-automated-personalization/ap-data.md)Target의 Personalization 알고리즘에 대한 데이터 수집[!UICONTROL Personalization Insights]을 참조하십시오. 이러한 속성이 고려되지만 개별 활동의 모델은 최종 모델에서 이러한 모든 속성을 사용하지 않을 수 있습니다.
+* **Target에서 자동으로 수집한 특성:** [!DNL Target]은(는) 기본 데이터 집합을 사용하여 Personalization Insights에 반영된 AP 및 AT 활동에서 개인화 알고리즘을 만듭니다. 데이터 형식, 예제 특성 및 [&#x200B; 명명 규칙에 대해서는 &#x200B;](/help/main/c-activities/t-automated-personalization/ap-data.md)Target의 Personalization 알고리즘에 대한 데이터 수집[!UICONTROL Personalization Insights]을 참조하십시오. 이러한 속성이 고려되지만 개별 활동의 모델은 최종 모델에서 이러한 모든 속성을 사용하지 않을 수 있습니다.
 * **Target에 전달된 특성:** [Target Personalization 알고리즘을 위한 데이터 업로드](/help/main/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)를 참조하십시오.
 
 [!DNL Target]은(는) 추가 데이터를 [!DNL Target]에 전달하여 AP 및 AT 활동에서 개인화 알고리즘을 만드는 데 사용되는 기본 데이터 집합을 보강하는 다양한 방법을 제공합니다.

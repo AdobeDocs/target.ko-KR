@@ -174,7 +174,7 @@ adobe.target.getOffers({
 }
 ```
 
-[!DNL Analytics]데이터 삽입 API[를 통해 페이로드를 ](https://helpx.adobe.com/kr/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)에 전달할 수 있습니다.
+[!DNL Analytics]데이터 삽입 API[를 통해 페이로드를 &#x200B;](https://helpx.adobe.com/kr/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)에 전달할 수 있습니다.
 
 ### 8단계: 구현의 유효성 검사 {#step8}
 

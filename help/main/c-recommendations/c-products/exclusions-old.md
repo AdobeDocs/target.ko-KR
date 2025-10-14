@@ -55,7 +55,7 @@ ht-degree: 29%
 
 ## 고급 검색을 사용하여 제외 만들기
 
-[!UICONTROL Advanced Search]카탈로그 검색[ 페이지에서 ](/help/main/c-recommendations/c-products/catalog-search.md#save-as)을(를) 사용하여 제외를 만들 수도 있습니다([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
+[!UICONTROL Advanced Search]카탈로그 검색[&#x200B; 페이지에서 &#x200B;](/help/main/c-recommendations/c-products/catalog-search.md#save-as)을(를) 사용하여 제외를 만들 수도 있습니다([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
 ![다른 이름으로 저장 대화 상자](/help/main/c-recommendations/c-products/assets/save-as.png)
 
