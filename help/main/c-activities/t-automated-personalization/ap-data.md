@@ -41,7 +41,7 @@ ht-degree: 51%
 | 고객 속성 | CRS | [!DNL Target][[!DNL Adobe Experience Cloud Customer Attributes Service]을(를) 통해 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ko){target=_blank} 프로필에 업로드된 고객 특성입니다. | 사용자 지정 - 방문자 프로필 - [특성 이름] |
 | URL 매개 변수 | URL | 현재 표시된 페이지의 URL 및 모든 URL 매개 변수. | 사용자 지정 - URL 매개 변수 - [URL 매개 변수] |
 | 참조 URL | 참조 | 참조 URL 및 참조 URL에 대한 모든 URL 매개 변수 | 사용자 지정 - [참조 URL 매개 변수] - [매개 변수 값] |
-| [!DNL Adobe Experience Cloud]개의 공유 대상 | AAM | 다른 [!DNL Target] 솔루션(예: [!DNL Adobe Experience Cloud][!DNL Adobe Audience Manager]을 통해 [!DNL Adobe Analytics] 및 [[!DNL Experience Cloud Audience Library])의 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ko){target=_blank}과(와) 모든 대상을 공유했습니다. | 사용자 지정 - Experience Cloud 대상 - [대상 이름] |
+| [!DNL Adobe Experience Cloud]개의 공유 대상 | AAM | 다른 [!DNL Target] 솔루션(예: [!DNL Adobe Experience Cloud]&#x200B;[!DNL Adobe Audience Manager]을 통해 [!DNL Adobe Analytics] 및 [[!DNL Experience Cloud Audience Library])의 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html?lang=ko){target=_blank}과(와) 모든 대상을 공유했습니다. | 사용자 지정 - Experience Cloud 대상 - [대상 이름] |
 | 대상 [!DNL Adobe Experience Platform Real-time CDP]개 | UPS | [!DNL Target]을(를) 통해 [!UICONTROL Destinations]과(와) 공유되는 Platform Real-time CDP 대상자입니다. |  |
 
 

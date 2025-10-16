@@ -1839,7 +1839,7 @@ at.js 릴리스에 대한 자세한 내용은 [Adobe Target 개발자 안내서]
 
 | 기능 | 세부 사항 |
 | --- | --- |
-| ![Premium 배지](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] API | 검색 기준과 일치하는 항목을 식별하고 카탈로그의 관리를 단순화하려면 API를 통해 프로그래밍 방식으로 [!DNL Recommendations] 제품과 콘텐츠 카탈로그를 검색하십시오.<br>**제한과 참고 사항**:<ul><li>API를 통한 카탈로그 검색은 2,000,000개가 넘는 항목을 가진 환경에 대해서는 지원되지 않습니다.</li><li>API를 통한 카탈로그 검색 결과는 [!DNL Target] UI를 통한 카탈로그 검색 결과보다 더 빠르게 업데이트됩니다. [!DNL Target] UI의 카탈로그 검색은 최신 결과를 반영하는 데 시간이 더 걸릴 수 있습니다.</li></ul>자세한 내용은 *[!DNL Adobe Target][!DNL Recommendations] API* 안내서의 [엔티티 검색](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)을 참조하십시오. |
+| ![Premium 배지](/help/main/assets/premium.png) [!DNL Recommendations] [!UICONTROL Catalog Search] API | 검색 기준과 일치하는 항목을 식별하고 카탈로그의 관리를 단순화하려면 API를 통해 프로그래밍 방식으로 [!DNL Recommendations] 제품과 콘텐츠 카탈로그를 검색하십시오.<br>**제한과 참고 사항**:<ul><li>API를 통한 카탈로그 검색은 2,000,000개가 넘는 항목을 가진 환경에 대해서는 지원되지 않습니다.</li><li>API를 통한 카탈로그 검색 결과는 [!DNL Target] UI를 통한 카탈로그 검색 결과보다 더 빠르게 업데이트됩니다. [!DNL Target] UI의 카탈로그 검색은 최신 결과를 반영하는 데 시간이 더 걸릴 수 있습니다.</li></ul>자세한 내용은 *[!DNL Adobe Target]&#x200B;[!DNL Recommendations] API* 안내서의 [엔티티 검색](https://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities)을 참조하십시오. |
 
 이 릴리스 유지 보수 릴리스가 포함하는 수정 사항은 다음과 같습니다.
 
