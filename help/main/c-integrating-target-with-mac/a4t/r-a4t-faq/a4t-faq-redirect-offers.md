@@ -4,7 +4,7 @@ description: Analytics for [!DNL Target] (A4T)을(를) 사용할 때 리디렉�
 title: A4T를 사용하는 리디렉션 오퍼에 대한 FAQ는 어디에서 찾을 수 있습니까?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: bb41de751246a77e71e65c11f020bc39f3105da6
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1431'
 ht-degree: 50%
@@ -84,7 +84,7 @@ ht-degree: 50%
 ## 원래 페이지의 페이지 보기 횟수와 리디렉션 페이지의 페이지 보기 횟수가 카운트되는 이유는 무엇입니까? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 +++답변
-at.js 버전 1.6.3 이상을 사용하는 경우 두 페이지에서 페이지 보기 수를 계산하는 것은 문제가 되지 않습니다. 이 경합 조건은 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀에서는 at.js의 현재 버전과 바로 전 버전, 이렇게 두 버전을 유지 관리합니다. [지원되는 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank}을 실행 중인지 확인하려면 at.js를 필요에 따라 업그레이드하십시오.
+at.js 버전 1.6.3 이상을 사용하는 경우 두 페이지에서 페이지 보기 수를 계산하는 것은 문제가 되지 않습니다. 이 경합 조건은 이전 버전을 사용하는 고객에게만 영향을 줍니다. Target 팀에서는 at.js의 현재 버전과 바로 전 버전, 이렇게 두 버전을 유지 관리합니다. [지원되는 버전](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}을 실행 중인지 확인하려면 at.js를 필요에 따라 업그레이드하십시오.
 
 at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션이 첫 페이지에서 실행되기 전에 Analytics 호출이 실행될 수 있는 경합 조건이 발생할 수 있습니다. 이 경우 원래 페이지 및 리디렉션 페이지의 페이지 보기가 모두 카운트될 수 있습니다. 실제로는 방문자에게 첫 번째 페이지가 &quot;표시&quot;되지 않았는데 첫 번째 페이지에 추가 페이지 보기가 발생할 수 있습니다.
 
@@ -110,7 +110,7 @@ at.js의 지원되지 않는 이전 버전을 사용하는 경우, 리디렉션�
 
 | 매개 변수 | 설명 |
 |--- |--- |
-| `adobe_mc_sdid` | `adobe_mc_sdid` 매개 변수는 SDID(Supplemental Data Id)와 Experience Cloud 조직 ID를 기본 페이지에서 새 페이지로 전달합니다. 이러한 ID를 사용하면 A4T가 기본 페이지의 Target 요청을 새 페이지의 Analytic 요청과 함께 &quot;결합&quot;(stitch)할 수 있습니다.<br>URL에서 sdid를 전달할 수 있는 예상 형식은 `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322`입니다(하이브리드 앱의 경우 또는 한 앱에서 웹 사이트 또는 한 웹 사이트에서 다른 웹 사이트로) |
+| `adobe_mc_sdid` | `adobe_mc_sdid` 매개 변수는 SDID(Supplemental Data Id)와 Experience Cloud 조직 ID를 기본 페이지에서 새 페이지로 전달합니다. 이러한 ID를 사용하면 A4T가 기본 페이지의 Target 요청을 새 페이지의 Analytic 요청과 함께 &quot;결합&quot;(stitch)할 수 있습니다.<br>URL에서 sdid를 전달할 수 있는 예상 형식은 `ex. adobe_mc_sdid=SDID=123\|MCORGID=123456789@AdobeOrg\|TS=1498569322`입니다(하이브리드 앱의 경우 또는 한 앱에서 웹 사이트 또는 한 웹 사이트에서 다른 웹 사이트로) |
 | `adobe_mc_ref` | `adobe_mc_ref` 매개 변수는 기본 페이지의 참조 URL을 새 페이지에 전달합니다. AppMeasurement.js 버전 2.1 이상에서 사용하는 경우 Analytics는 이 매개 변수 값을 새 페이지의 참조 URL로 사용합니다. |
 
 이 매개 변수들은 페이지에 방문자 ID 서비스가 구현되어 있으면 VEC 및 양식 기반 경험 작성기에서 내장 리디렉션 오퍼를 사용할 때 리디렉션 URL에 자동으로 추가됩니다. VEC 또는 양식 기반 편집기에서 자신만의 사용자 지정 리디렉션 코드를 사용하는 경우 사용자 지정 코드와 함께 이 매개 변수를 전달해야 합니다.

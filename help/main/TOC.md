@@ -3,10 +3,10 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
 feature-set: Target
-source-git-commit: c445775bc96623f9742f648a82ed9b4e64bd463a
+source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 84%
+ht-degree: 85%
 
 ---
 
@@ -29,7 +29,7 @@ ht-degree: 84%
    + [Target UI 이해](/help/main/c-intro/understand-the-target-ui.md)
    + [Target UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md)
    + Adobe Target AI Assistant {#assistant-ai}
-      + [AI Assistant 개요](/help/main/c-intro/ai-assistant.md)
+      + [AI 어시스턴트 개요](/help/main/c-intro/ai-assistant.md)
       + [AI Assistant 활성화](/help/main/c-intro/enabling-ai-assistant.md)
       + [AI Assistant를 사용하여 제품 지식 얻기](/help/main/c-intro/ai-assistant-product-knowledge.md)
       + [콘텐츠 생성에 AI Assistant 사용](/help/main/c-intro/ai-assistant-content-generation.md)
@@ -100,7 +100,7 @@ ht-degree: 84%
       + [Adobe Customer Journey Analytics의 Target 보고](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [통합 [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md) {#recs-ajo} {#hidden}
+      + [ [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer 사용 사례 {#use-cases}
          + [Adobe Journey Optimizer의 주요 최적화 사용 사례 - 웹 및 코드 기반 채널](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Adobe Journey Optimizer의 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
