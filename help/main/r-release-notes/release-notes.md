@@ -79,18 +79,18 @@ ht-degree: 19%
 **[!UICONTROL Reports]**
 
 +++세부 정보 보기
-* **[!UICONTROL Multivariate Test](MVT) 위치 및 그래프 보고 문제로 인해 보고서를 생성할 수 없습니다.** MVT 활동이 Target UI에서 [!UICONTROL Location Contribution] 및 그래프 보고서를 생성하지 못하고 &quot;문제가 발생했습니다. 요청을 완료할 수 없습니다.&quot; 이제 보고서가 UI 내에서 올바르게 로드되어 전체 가시성이 보장됩니다. (TGT-53654)
+* **[!UICONTROL Multivariate Test] (MVT) 위치 및 그래프 보고 문제로 인해 보고서를 생성할 수 없습니다.** MVT 활동이 Target UI에서 [!UICONTROL Location Contribution] 및 그래프 보고서를 생성하지 못하고 &quot;문제가 발생했습니다. 요청을 완료할 수 없습니다.&quot; 이제 보고서가 UI 내에서 올바르게 로드되어 전체 가시성이 보장됩니다. (TGT-53654)
 * **기여 보고서 오류로 인해 [!UICONTROL Element]MVT 보고서가 로드되지 않습니다.** MVT 활동 보고서가 Target UI에서 로드되지 않고 &quot;요소 기여도 보고서를 가져올 수 없습니다.&quot;라는 오류가 표시되는 문제를 해결했습니다. 이제 보고서가 올바르게 표시되므로 요소 기여도를 완전히 볼 수 있습니다. (TGT-53691)
 * **(XT) 활동에 대해 [!UICONTROL Experience Targeting]주문 세부 사항을 CSV 문제로 내보냅니다.** XT 활동에 대해 [!UICONTROL Export Order Details to CSV] 옵션이 잘못 표시되고 빈 파일이 반환되는 문제가 해결되었습니다. 이제 AP 활동에 대해서만 옵션이 표시되므로 정확한 내보내기 기능을 보장하고 혼동을 방지할 수 있습니다. (TGT-53798)
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++세부 정보 보기
 * **[!UICONTROL Delete Modification]단추 문제로 인해 활동 수정 사항을 제거할 수 없습니다.** [!UICONTROL Delete Modification] UI의 [!DNL Target] 단추가 작동하지 않아 사용자가 활동 내에서 수정 사항을 제거할 수 없는 문제가 해결되었습니다. 이제 버튼이 예상대로 작동하므로 수정 사항을 지연 없이 안정적으로 삭제할 수 있습니다. (TGT-53728)
 * 업데이트된 UI에서 **기본 설정 선택기를 인식할 수 없습니다.** 업데이트된 UI에서 `data-target-component-id`과 같은 기본 설정 선택기가 VEC 내의 CSS 선택기 목록에 표시되지 않는 문제를 해결했습니다. 이제 사용자는 동적으로 생성된 클래스 이름 대신 기본 속성을 안정적으로 선택하여 SPA 페이지 업데이트 전반에 걸쳐 안정적인 타겟팅을 보장할 수 있습니다. (TGT-53908)
-* **페이지와 [!UICONTROL Edit]페이지 사이에서 [!UICONTROL Overview]활동 위치 정렬이 일치하지 않습니다.** [!UICONTROL Overview] 페이지의 활동 위치 번호 매기기가 [!UICONTROL  Edit Experience] 페이지의 업데이트와 일치하지 않는 문제를 해결했습니다. 이제 위치가 두 보기에서 일관되게 유지되므로 정확한 정렬을 보장하고 위치 누락 또는 번호가 잘못 지정되는 것을 방지할 수 있습니다. (TGT-53960 및 TGT-53954)
+* **페이지와 [!UICONTROL Edit]페이지 사이에서 [!UICONTROL Overview]활동 위치 정렬이 일치하지 않습니다.** [!UICONTROL Overview] 페이지의 활동 위치 번호 매기기가 [!UICONTROL &#x200B; Edit Experience] 페이지의 업데이트와 일치하지 않는 문제를 해결했습니다. 이제 위치가 두 보기에서 일관되게 유지되므로 정확한 정렬을 보장하고 위치 누락 또는 번호가 잘못 지정되는 것을 방지할 수 있습니다. (TGT-53960 및 TGT-53954)
 * **업데이트된 VEC에서 [!UICONTROL Design] 모드로 다시 전환할 수 없습니다.** 사용자가 [!UICONTROL Design] 모드에서 새 페이지로 이동한 후 [!UICONTROL Browse] 모드로 다시 전환할 수 없는 업데이트된 VEC UI의 문제를 해결했습니다. 이제 [!UICONTROL Design] 토글이 올바르게 작동하여 페이지 전체에 수정 사항을 매끄럽게 적용할 수 있습니다. (TGT-53988 및 TGT-53993)
 * **쿼리 매개 변수가 활동 개요에 표시되지 않습니다.** 업데이트된 UI에서 활동에 대한 [!UICONTROL Overview] 페이지에 쿼리 매개 변수가 표시되지 않아 [!UICONTROL Overview]과(와) 페이지 배달 URL 간의 불일치가 발생하는 문제를 해결했습니다. 이제 쿼리 매개 변수가 올바르게 표시되므로 활동 위치가 보기 간에 완전히 표시되고 일관되게 표시됩니다. (TGT-53701)
 
