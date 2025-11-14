@@ -6,10 +6,10 @@ short-description: ' [!DNL Target]의 현재 릴리스에 포함된 새로운 �
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 693b862bc39fc3b1b7d93988bd80cdd51657354b
+source-git-commit: e5bc137ed1f32b07569a4f1a31746da19fb164d3
 workflow-type: tm+mt
-source-wordcount: '1430'
-ht-degree: 19%
+source-wordcount: '1736'
+ht-degree: 17%
 
 ---
 
@@ -28,6 +28,25 @@ ht-degree: 19%
 ### [!DNL Target] UI 버전 사용 중단 전환
 
 자세한 내용은 [[!DNL Target] UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md)를 참조하십시오.
+
+## [!DNL Target Standard/Premium] 25.11.2(2025년 11월 14일)
+
+**의사 결정 오퍼**
+
++++세부 정보 보기
+* **숨겨진 선택기나 잘못된 선택기가 있는 오퍼 결정은 업데이트된 UI에서 편집할 수 없습니다.** 업데이트된 UI에서 요소가 VEC(시각적 경험 작성기)에 표시되지 않으면 숨겨진 선택기나 잘못된 선택기에 연결된 오퍼 결정을 편집할 수 없는 문제가 해결되었습니다. 이제 패널에서 직접 편집할 수 있으므로 기존 UI에서 사용할 수 있는 기능을 복원하고 선택기 가시성에 관계없이 오퍼 결정을 수정할 수 있습니다. (TGT-53899)
+
++++
+
+**추천**
+
++++세부 정보 보기
+* **활동에서 기준을 편집하면 페이지가 충돌합니다.** 활동 기준을 편집하면 `useCrudActionsCtx`과(와) 관련된 콘솔 오류로 인해 페이지가 충돌하는 업데이트된 UI의 문제를 해결했습니다. 이제 기준 편집기가 로드되고 올바르게 작동하여 활동을 중단 없이 편집할 수 있습니다. (TGT-53971)
+* **[!UICONTROL Message]열이 간헐적으로 업데이트된 UI에 제품 데이터를 표시하지 못했습니다.** 피드에 값이 있어도 업데이트된 [!UICONTROL Recommendations] UI에서 [!UICONTROL Message]의 [!UICONTROL Catalog Search] 열에 간헐적으로 제품 데이터가 표시되지 않는 문제를 해결했습니다. 이제 열에 모든 제품에서 올바른 메시지 값이 일관되게 표시되므로 열을 수동으로 재구성할 필요 없이 안정적인 가시성이 보장됩니다. (TGT-52777)
+* 업데이트된 UI에서 활동을 저장한 후 **[!UICONTROL Download Recommendations Data]단추가 표시되지 않습니다.** 다시 저장한 후에도 저장된 특정 활동에 대해 [!UICONTROL Download Recommendations Data] 단추가 표시되지 않는 업데이트된 UI의 문제를 해결했습니다. 이제 버튼이 모든 활동에 일관되게 표시되므로 사용자가 해결 방법 없이 추천 데이터를 안정적으로 내보낼 수 있습니다. (TGT-53802)
+* **컬렉션에서 특정 제품을 열면 &quot;요청한 리소스를 찾을 수 없습니다.&quot;라는 오류가 반환되고 모달에는 닫기 옵션이 없습니다.** 업데이트된 Recommendations UI에서 컬렉션에서 특정 제품을 열면 &quot;요청한 리소스를 찾을 수 없음&quot; 오류가 발생하고 닫기 옵션이 없는 빈 모달이 표시되는 문제를 해결했습니다. 이제 모달이 제품 세부 정보를 올바르게 로드하며, 항상 닫기 옵션을 사용하여 정상적으로 종료할 수 있습니다. (TGT-53986)
+
++++
 
 ## [!DNL Target Standard/Premium] 25.11.1(2025년 11월 10일)
 
@@ -79,18 +98,18 @@ ht-degree: 19%
 **[!UICONTROL Reports]**
 
 +++세부 정보 보기
-* **[!UICONTROL Multivariate Test] (MVT) 위치 및 그래프 보고 문제로 인해 보고서를 생성할 수 없습니다.** MVT 활동이 Target UI에서 [!UICONTROL Location Contribution] 및 그래프 보고서를 생성하지 못하고 &quot;문제가 발생했습니다. 요청을 완료할 수 없습니다.&quot; 이제 보고서가 UI 내에서 올바르게 로드되어 전체 가시성이 보장됩니다. (TGT-53654)
+* **[!UICONTROL Multivariate Test](MVT) 위치 및 그래프 보고 문제로 인해 보고서를 생성할 수 없습니다.** MVT 활동이 Target UI에서 [!UICONTROL Location Contribution] 및 그래프 보고서를 생성하지 못하고 &quot;문제가 발생했습니다. 요청을 완료할 수 없습니다.&quot; 이제 보고서가 UI 내에서 올바르게 로드되어 전체 가시성이 보장됩니다. (TGT-53654)
 * **기여 보고서 오류로 인해 [!UICONTROL Element]MVT 보고서가 로드되지 않습니다.** MVT 활동 보고서가 Target UI에서 로드되지 않고 &quot;요소 기여도 보고서를 가져올 수 없습니다.&quot;라는 오류가 표시되는 문제를 해결했습니다. 이제 보고서가 올바르게 표시되므로 요소 기여도를 완전히 볼 수 있습니다. (TGT-53691)
 * **(XT) 활동에 대해 [!UICONTROL Experience Targeting]주문 세부 사항을 CSV 문제로 내보냅니다.** XT 활동에 대해 [!UICONTROL Export Order Details to CSV] 옵션이 잘못 표시되고 빈 파일이 반환되는 문제가 해결되었습니다. 이제 AP 활동에 대해서만 옵션이 표시되므로 정확한 내보내기 기능을 보장하고 혼동을 방지할 수 있습니다. (TGT-53798)
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
 * **[!UICONTROL Delete Modification]단추 문제로 인해 활동 수정 사항을 제거할 수 없습니다.** [!UICONTROL Delete Modification] UI의 [!DNL Target] 단추가 작동하지 않아 사용자가 활동 내에서 수정 사항을 제거할 수 없는 문제가 해결되었습니다. 이제 버튼이 예상대로 작동하므로 수정 사항을 지연 없이 안정적으로 삭제할 수 있습니다. (TGT-53728)
 * 업데이트된 UI에서 **기본 설정 선택기를 인식할 수 없습니다.** 업데이트된 UI에서 `data-target-component-id`과 같은 기본 설정 선택기가 VEC 내의 CSS 선택기 목록에 표시되지 않는 문제를 해결했습니다. 이제 사용자는 동적으로 생성된 클래스 이름 대신 기본 속성을 안정적으로 선택하여 SPA 페이지 업데이트 전반에 걸쳐 안정적인 타겟팅을 보장할 수 있습니다. (TGT-53908)
-* **페이지와 [!UICONTROL Edit]페이지 사이에서 [!UICONTROL Overview]활동 위치 정렬이 일치하지 않습니다.** [!UICONTROL Overview] 페이지의 활동 위치 번호 매기기가 [!UICONTROL &#x200B; Edit Experience] 페이지의 업데이트와 일치하지 않는 문제를 해결했습니다. 이제 위치가 두 보기에서 일관되게 유지되므로 정확한 정렬을 보장하고 위치 누락 또는 번호가 잘못 지정되는 것을 방지할 수 있습니다. (TGT-53960 및 TGT-53954)
+* **페이지와 [!UICONTROL Edit]페이지 사이에서 [!UICONTROL Overview]활동 위치 정렬이 일치하지 않습니다.** [!UICONTROL Overview] 페이지의 활동 위치 번호 매기기가 [!UICONTROL  Edit Experience] 페이지의 업데이트와 일치하지 않는 문제를 해결했습니다. 이제 위치가 두 보기에서 일관되게 유지되므로 정확한 정렬을 보장하고 위치 누락 또는 번호가 잘못 지정되는 것을 방지할 수 있습니다. (TGT-53960 및 TGT-53954)
 * **업데이트된 VEC에서 [!UICONTROL Design] 모드로 다시 전환할 수 없습니다.** 사용자가 [!UICONTROL Design] 모드에서 새 페이지로 이동한 후 [!UICONTROL Browse] 모드로 다시 전환할 수 없는 업데이트된 VEC UI의 문제를 해결했습니다. 이제 [!UICONTROL Design] 토글이 올바르게 작동하여 페이지 전체에 수정 사항을 매끄럽게 적용할 수 있습니다. (TGT-53988 및 TGT-53993)
 * **쿼리 매개 변수가 활동 개요에 표시되지 않습니다.** 업데이트된 UI에서 활동에 대한 [!UICONTROL Overview] 페이지에 쿼리 매개 변수가 표시되지 않아 [!UICONTROL Overview]과(와) 페이지 배달 URL 간의 불일치가 발생하는 문제를 해결했습니다. 이제 쿼리 매개 변수가 올바르게 표시되므로 활동 위치가 보기 간에 완전히 표시되고 일관되게 표시됩니다. (TGT-53701)
 
@@ -101,7 +120,7 @@ ht-degree: 19%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
