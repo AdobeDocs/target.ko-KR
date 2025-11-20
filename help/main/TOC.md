@@ -1,12 +1,12 @@
 ---
 user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
-user-guide-description: 고객의 경험을 맞춤화 및 개인화하여 웹 및 모바일 사이트, 앱, 소셜 미디어 및 기타 디지털 채널에서 매출을 극대화하는 방법을 알아봅니다.
+user-guide-description: 웹 사이트, 앱 및 소셜 채널 전반에서 고객 경험을 개인화하여 매출을 증대하는 방법을 살펴보십시오.
 feature-set: Target
-source-git-commit: e45ac15a60c83e35b8b2b2ba29a42727faf746df
+source-git-commit: cc827c129da7208ee09d257faafa65ae6e7f4cf7
 workflow-type: tm+mt
-source-wordcount: '1283'
-ht-degree: 85%
+source-wordcount: '1273'
+ht-degree: 83%
 
 ---
 
@@ -100,7 +100,7 @@ ht-degree: 85%
       + [Adobe Customer Journey Analytics의 Target 보고](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [&#x200B; [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + [ [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer 사용 사례 {#use-cases}
          + [Adobe Journey Optimizer의 주요 최적화 사용 사례 - 웹 및 코드 기반 채널](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Adobe Journey Optimizer의 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
@@ -254,7 +254,7 @@ ht-degree: 85%
          + [Visual Editing Helper 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [시각적 경험 작성기 Helper 확장 프로그램](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [URL로 리디렉션](c-experiences/c-visual-experience-composer/redirect-offer.md)
-      + [시각적 경험 작성기에서 작동하는 회전 메뉴 만들기](c-experiences/c-visual-experience-composer/vec-carousels.md)
+      + [시각적 경험 작성기에서 작동하는 슬라이드 만들기](c-experiences/c-visual-experience-composer/vec-carousels.md)
    + [양식 기반 경험 작성기](c-experiences/form-experience-composer.md)
    + [SPA(단일 페이지 앱) 시각적 경험 작성기](c-experiences/spa-visual-experience-composer.md)
    + 오퍼 {#offers}
@@ -281,7 +281,7 @@ ht-degree: 85%
       + [Auto-Target 요약 보고서](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Automated Personalization 요약 보고서](/help/main/c-reports/personalization-reports/reports-ap.md)
    + Personalization 통찰력 보고서 {#insights}
-      + [개인화 통찰력 보고서 개요](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
+      + [개인화 인사이트 보고서 개요](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [자동화된 세그먼트 보고서](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [중요 속성 보고서](c-reports/c-personalization-insights-reports/important-attributes-report.md)
    + 다변량 테스트 보고서 {#multivariate-test-reports}
@@ -333,7 +333,7 @@ ht-degree: 85%
       + [이메일에 권장 사항 통합](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [권장 사항 피드 처리 서버에서 사용하는 IP 주소](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [권장 사항 Classic과 Target Premium의 권장 사항 활동 비교](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [추천 Classic 설명서입니다](/help/main/c-recommendations/recommendations-classic-documentaton.md)
+   + [추천 Classic 설명서입니다](/help/main/c-recommendations/recommendations-classic-documentation.md)
 + Target 문제 해결 {#troubleshoot}
    + [Target 문제 해결](r-troubleshooting-target/troubleshooting-target.md)
    + [제한](r-troubleshooting-target/target-limits.md)
