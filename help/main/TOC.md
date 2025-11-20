@@ -100,7 +100,7 @@ ht-degree: 83%
       + [Adobe Customer Journey Analytics의 Target 보고](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [&#x200B; [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + [ [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer 사용 사례 {#use-cases}
          + [Adobe Journey Optimizer의 주요 최적화 사용 사례 - 웹 및 코드 기반 채널](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Adobe Journey Optimizer의 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
