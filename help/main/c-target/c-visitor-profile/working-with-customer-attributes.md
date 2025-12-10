@@ -4,22 +4,22 @@ description: ' [!DNL Adobe Target]의 콘텐츠 타겟팅을 위해 CRM(고객 �
 title: 고객 속성이란 무엇이며 어떻게 사용해야 합니까?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 0b17b61bb60162af6bc35246219355077ab6bf44
 workflow-type: tm+mt
-source-wordcount: '1513'
-ht-degree: 31%
+source-wordcount: '1502'
+ht-degree: 29%
 
 ---
 
 # 고객 속성
 
-[!DNL Adobe Target] 서비스에서 고객 특성을 사용하여 [!DNL Adobe Enterprise Cloud People]의 콘텐츠 타겟팅을 위해 고객 관계 관리(CRM) 데이터베이스의 엔터프라이즈 고객 데이터를 사용하는 방법에 대한 정보입니다.
+[!DNL Adobe Target] 서비스에서 고객 특성을 사용하여 [!DNL Adobe Experience Cloud People]의 콘텐츠 타겟팅을 위해 고객 관계 관리(CRM) 데이터베이스의 엔터프라이즈 고객 데이터를 사용하는 방법에 대한 정보입니다.
 
-여러 소스를 통해 수집되고 CRM 데이터베이스 내에 저장된 기업 고객 데이터는 [!DNL Target]에서 고객에게 가장 관련 있는 컨텐츠를 전략적으로 전달하고, 특히 재방문 고객에 중점을 두는 데 사용될 수 있습니다. [!DNL People] 서비스의 대상 및 고객 특성(이전 프로필 및 대상)은 데이터 수집 및 분석과 테스트 및 최적화를 하나로 결합하여 데이터와 통찰력을 실용적으로 만듭니다.
+여러 소스를 통해 수집되고 CRM 데이터베이스 내에 저장된 기업 고객 데이터는 [!DNL Target]에서 고객에게 가장 관련 있는 컨텐츠를 전략적으로 전달하고, 특히 재방문 고객에 중점을 두는 데 사용될 수 있습니다. [!DNL People] 서비스의 대상 및 고객 속성(이전 프로필 및 대상)은 데이터 수집 및 분석과 테스트 및 최적화를 함께 가져와서 데이터와 통찰력을 실행 가능하게 만듭니다.
 
 ## 고객 속성 개요 {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[&#x200B; 서비스의 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html?lang=ko)고객 특성[!DNL People]은(는) [!DNL Adobe Experience Cloud]의 일부이며 엔터프라이즈가 고객 데이터를 [!DNL Experience Cloud] 플랫폼으로 푸시할 수 있는 도구를 제공합니다.
+[ 서비스의 ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)고객 특성[!DNL People]은(는) [!DNL Adobe Experience Cloud]의 일부이며 엔터프라이즈가 고객 데이터를 [!DNL Experience Cloud] 플랫폼으로 푸시할 수 있는 도구를 제공합니다.
 
 [!DNL Experience Cloud]로 온보딩되는 데이터는 모든 [!DNL Experience Cloud] 워크플로에 사용할 수 있습니다. [!DNL Target]은(는) 특성을 기반으로 재방문 고객을 타깃팅하기 위해 이 데이터를 사용합니다. [!DNL Adobe Analytics]는 이러한 속성을 사용하며, 분석 및 세그멘테이션에 사용될 수 있습니다.
 
@@ -27,8 +27,8 @@ ht-degree: 31%
 
 다음 정보를 고객 특성 및 [!DNL Target]을(를) 사용한 작업으로 간주하십시오.
 
-* [!UICONTROL Customer attributes] 서비스에서 [!DNL People] 기능을 사용하기 전에 충족해야 하는 몇 가지 전제 조건 요구 사항이 있습니다. 자세한 내용은 [Experience Cloud 서비스 및 관리 설명서](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=ko#section_BD38693AFBF34926BA28E964963B4EA0)의 *고객 특성*&#x200B;에서 &quot;고객 특성을 업로드하기 위한 사전 요구 사항&quot;을 참조하십시오.
-* [Experience Cloud 중앙 인터페이스 구성 요소 안내서](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ko-KR)의 *고객 특성에 대한 데이터 파일 및 데이터 원본 정보*&#x200B;에 설명된 대로 파일 업로드에 대한 제한 사항을 알아 두십시오. 모범 사례:
+* [!UICONTROL Customer Attributes] 서비스에서 [!DNL People] 기능을 사용하기 전에 충족해야 하는 몇 가지 전제 조건 요구 사항이 있습니다. 자세한 내용은 [Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) 안내서의 *고객 특성*&#x200B;에서 &quot;고객 특성을 업로드하기 위한 필수 구성 요소&quot;를 참조하십시오.
+* [Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ko-KR) 안내서의 *고객 특성 데이터 파일 및 소스*&#x200B;에 설명된 대로 파일 업로드에 대한 제한 사항에 유의하십시오. 모범 사례:
 
    * 하나의 대용량 파일을 업로드합니다([지정된 제한](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=ko-KR) 내). 작은 여러 파일보다 큰 단일 파일이 선호됩니다.
    * 업로드를 여러 파일로 분할해야 하는 경우 새 파일을 제출하기 전에 파일이 완전히 처리되었는지 확인하십시오. 배치에서 다음 파일을 제출하기 전에 배치의 각 파일이 완전히 처리되었는지 확인합니다.
@@ -43,11 +43,11 @@ ht-degree: 31%
 
 ## 인물 서비스에서 고객 속성 액세스
 
-1. [!DNL Adobe Experience Cloud]에서 메뉴 아이콘(![메뉴 아이콘](/help/main/c-target/c-visitor-profile/assets/menu-icon.png))을 클릭한 다음 **[!UICONTROL People]**&#x200B;을(를) 클릭합니다.
+1. [!DNL Experience Cloud]에서 메뉴 아이콘(![메뉴 아이콘](/help/main/c-target/c-visitor-profile/assets/menu-icon.png))을 클릭한 다음 **[!UICONTROL People]**&#x200B;을(를) 클릭합니다.
 
    ![사람](/help/main/c-target/c-visitor-profile/assets/people.png)
 
-1. **[!UICONTROL Customer Attributes]** 탭을 클릭합니다.
+1. **[!UICONTROL Customer Attributes]** 아이콘을 클릭합니다.
 
    ![고객 특성 탭](/help/main/c-target/c-visitor-profile/assets/customer-attributes-tab.png)
 
@@ -57,7 +57,7 @@ ht-degree: 31%
 
 ![crm 워크플로](/help/main/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-다음 각 작업을 완료하기 위한 자세한 지침은 [Experience Cloud 서비스 및 관리 설명서](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html?lang=ko)의 *고객 특성 소스 만들기 및 데이터 파일 업로드*&#x200B;에서 찾을 수 있습니다.
+다음 각 작업을 완료하기 위한 자세한 지침은 [Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/t-crs-usecase.html) 안내서의 *고객 특성 소스 만들기 및 데이터 파일 업로드*&#x200B;에서 찾을 수 있습니다.
 
 1. 데이터 파일 만들기.
 
@@ -82,7 +82,7 @@ ht-degree: 31%
    데이터 파일은 파일 업로드 요구 사항을 준수해야 하며 100MB를 초과할 수 없습니다. 파일이 너무 크거나 반복적으로 업로드해야 하는 데이터가 있는 경우 파일을 FTP로 대신 전송할 수 있습니다.
 
    * **HTTPS:** .csv 데이터 파일을 드래그 앤 드롭하거나 **[!UICONTROL Browse]**&#x200B;을(를) 클릭하여 파일 시스템에서 업로드할 수 있습니다.
-   * **FTP:** FTP 링크를 클릭하여 [FTP를 통해 파일을 업로드](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html?lang=ko)합니다. 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. 암호를 지정한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
+   * **FTP:** FTP 링크를 클릭하여 [FTP를 통해 파일을 업로드](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html)합니다. 첫 번째 단계는 Adobe 제공 FTP 서버에 대한 암호를 제공하는 것입니다. 암호를 지정한 다음 **[!UICONTROL Done]**&#x200B;을(를) 클릭합니다.
 
    이제 CSV/ZIP/GZIP 파일을 FTP 서버로 전송하십시오. 이 파일이 성공적으로 전송되면 동일한 이름과 `.fin` 확장명을 가진 파일을 만듭니다. 이 빈 파일을 서버로 전송합니다. 전송 종료를 나타내며 [!DNL Experience Cloud]에서 데이터 파일 처리를 시작합니다.
 
@@ -98,7 +98,7 @@ ht-degree: 31%
 
 1. 가입 구성 및 속성 소스 활성화.
 
-   **[!UICONTROL Add Subscription]**&#x200B;을(를) 클릭한 다음 이러한 특성을 구독할 솔루션을 선택합니다. [구독 구성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html?lang=ko)은(는) [!DNL Experience Cloud]과(와) 솔루션 간에 데이터 흐름을 설정합니다. 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
+   **[!UICONTROL Add Subscription]**&#x200B;을(를) 클릭한 다음 이러한 특성을 구독할 솔루션을 선택합니다. [구독 구성](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/subscription.html)은(는) [!DNL Experience Cloud]과(와) 솔루션 간에 데이터 흐름을 설정합니다. 속성 소스를 활성화하면 데이터가 구독 중인 솔루션으로 유입될 수 있습니다. 업로드한 고객 레코드는 웹 사이트 또는 애플리케이션에서 들어오는 ID 신호와 대조됩니다.
 
    ![솔루션 구성](/help/main/c-target/c-visitor-profile/assets/solution.png)
 
@@ -140,11 +140,11 @@ ht-degree: 31%
 
 ### Experience Cloud ID 서비스 사용
 
-Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속성을 사용하려면 고객 ID 및 인증 상태를 설정해야 합니다. 자세한 내용은 [Experience Cloud ID 서비스 도움말](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html?lang=ko)에서 *고객 ID 및 인증 상태*&#x200B;를 참조하십시오.
+Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속성을 사용하려면 고객 ID 및 인증 상태를 설정해야 합니다. 자세한 내용은 [Experience Cloud ID 서비스](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) 안내서의 *고객 ID 및 인증 상태*&#x200B;를 참조하십시오.
 
-[!DNL Target]에서 고객 속성을 사용하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
+[!DNL Target]에서 고객 특성을 사용하는 방법에 대한 자세한 내용은 다음 리소스를 참조하십시오.
 
-* [고객 특성 소스를 만들고 데이터 파일 업로드](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html?lang=ko)&#x200B;(*Experience Cloud 서비스 및 관리 설명서*)
+* [Experience Cloud 인터페이스 및 관리](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) 안내서에서 *고객 특성 데이터를 만들고 업로드*
 
 ## 고객에게 자주 발생하는 문제 {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
@@ -182,7 +182,7 @@ Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속�
 
 Target에서 고객 특성 데이터를 찾을 수 없는 경우 지난 *x*&#x200B;일 내에 가져오기가 발생했는지 확인하십시오. 여기서 *x*&#x200B;은(는) Target [방문자 프로필 라이프타임](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) 값(기본값 14일)입니다.
 
-## 교육 비디오: 고객 특성 ![튜토리얼 배지](/help/main/assets/tutorial.png)를 사용하여 오프라인 데이터 업로드 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
+## 교육 비디오: 고객 특성 ![튜토리얼 배지](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}를 사용하여 오프라인 데이터 업로드
 
 이 비디오는 오프라인 CRM, 헬프 데스크, POS 및 기타 마케팅 데이터를 [!DNL Experience Cloud People] 서비스로 가져와서 알려진 ID를 사용하여 방문자와 연결하는 방법을 보여 줍니다.
 
