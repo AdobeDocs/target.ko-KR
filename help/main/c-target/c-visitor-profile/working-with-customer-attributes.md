@@ -19,7 +19,7 @@ ht-degree: 29%
 
 ## 고객 속성 개요 {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[ 서비스의 ](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)고객 특성[!DNL People]은(는) [!DNL Adobe Experience Cloud]의 일부이며 엔터프라이즈가 고객 데이터를 [!DNL Experience Cloud] 플랫폼으로 푸시할 수 있는 도구를 제공합니다.
+[&#x200B; 서비스의 &#x200B;](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/attributes.html)고객 특성[!DNL People]은(는) [!DNL Adobe Experience Cloud]의 일부이며 엔터프라이즈가 고객 데이터를 [!DNL Experience Cloud] 플랫폼으로 푸시할 수 있는 도구를 제공합니다.
 
 [!DNL Experience Cloud]로 온보딩되는 데이터는 모든 [!DNL Experience Cloud] 워크플로에 사용할 수 있습니다. [!DNL Target]은(는) 특성을 기반으로 재방문 고객을 타깃팅하기 위해 이 데이터를 사용합니다. [!DNL Adobe Analytics]는 이러한 속성을 사용하며, 분석 및 세그멘테이션에 사용될 수 있습니다.
 
@@ -182,7 +182,7 @@ Experience Cloud ID 서비스를 사용하는 경우 타깃팅에서 고객 속�
 
 Target에서 고객 특성 데이터를 찾을 수 없는 경우 지난 *x*&#x200B;일 내에 가져오기가 발생했는지 확인하십시오. 여기서 *x*&#x200B;은(는) Target [방문자 프로필 라이프타임](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) 값(기본값 14일)입니다.
 
-## 교육 비디오: 고객 특성 ![튜토리얼 배지](/help/main/assets/tutorial.png) {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}를 사용하여 오프라인 데이터 업로드
+## 교육 비디오: 고객 특성 ![튜토리얼 배지](/help/main/assets/tutorial.png)를 사용하여 오프라인 데이터 업로드 {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8}
 
 이 비디오는 오프라인 CRM, 헬프 데스크, POS 및 기타 마케팅 데이터를 [!DNL Experience Cloud People] 서비스로 가져와서 알려진 ID를 사용하여 방문자와 연결하는 방법을 보여 줍니다.
 
