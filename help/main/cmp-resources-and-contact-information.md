@@ -34,7 +34,7 @@ Target 기능에 대해 학습하는 데 도움이 되는 추가 리소스 및 T
 ## Target 기본 사항 웨비나 시리즈 {#concept_11902FAC95C64479AABE020557A7EEE4}
 
 +++세부 정보 보기
-[이(가) 제공한 고객 성공 이니셔티브인 ](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}[Target 기본 사항 웨비나 시리즈][!UICONTROL Adobe Target Community]를 살펴보십시오. 예정된 세션에 대한 등록 세부 정보에 액세스하고 이전 웨비나의 녹화본을 탐색하여 [!DNL Target] 기능, 모범 사례 및 실제 사용 사례를 더 깊이 이해할 수 있습니다.
+[이(가) 제공한 고객 성공 이니셔티브인 &#x200B;](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html){target=_blank}[Target 기본 사항 웨비나 시리즈]&#x200B;[!UICONTROL Adobe Target Community]를 살펴보십시오. 예정된 세션에 대한 등록 세부 정보에 액세스하고 이전 웨비나의 녹화본을 탐색하여 [!DNL Target] 기능, 모범 사례 및 실제 사용 사례를 더 깊이 이해할 수 있습니다.
 
 +++
 
