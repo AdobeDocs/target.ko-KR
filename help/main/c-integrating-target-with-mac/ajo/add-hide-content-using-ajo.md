@@ -2,14 +2,14 @@
 keywords: 최적화;개인화;adobe 여정 최적화 도구;ajo;사용 사례;시나리오;콘텐츠 추가;콘텐츠 숨기기;구성 요소 추가;구성 요소 숨기기
 description: ' [!DNL Adobe Journey Optimizer]을(를) 사용하여 웹 페이지에서 구성 요소를 추가하거나 숨기는 방법에 대해 알아봅니다.'
 title: ' [!DNL Adobe Journey Optimizer]에서 웹 페이지에 구성 요소 추가 또는 숨기기'
-badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
+badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip=" [!DNL Adobe Target]의 Beta 기능"
 feature: Integrations
 hide: true
 hidefromtoc: true
 exl-id: 8c4fba88-908e-4742-ac4b-bdf7f4c882db
-source-git-commit: 52f11998149cddeb4245a0f07280562d79332a04
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '585'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 2%
 
 이 사용 사례는 [!DNL Adobe Journey Optimizer]에서 효과적인 A/B 테스트 콘텐츠 변경 내용에 대한 비밀을 잠금 해제하는 데 도움이 됩니다.
 
-이 사용 사례에서는 [&#x200B; 대신 &#x200B;](/help/main/c-activities/t-test-ab/test-ab.md)을(를) 사용하여 [!DNL Journey Optimizer]A/B 테스트 활동[!DNL Adobe Target]으로 A/B 테스트와 같은 익숙한 작업을 수행하는 방법을 보여 줍니다.
+이 사용 사례에서는 [ 대신 ](/help/main/c-activities/t-test-ab/test-ab.md)을(를) 사용하여 [!DNL Journey Optimizer]A/B 테스트 활동[!DNL Adobe Target]으로 A/B 테스트와 같은 익숙한 작업을 수행하는 방법을 보여 줍니다.
 
 이 사용 사례는 [!DNL Adobe Target]을(를) 사용하여 수행했을 수 있는 익숙한 작업, [A/B 테스트 활동](/help/main/c-activities/t-test-ab/test-ab.md)을(를) 사용하여 A/B 테스트를 수행했을 수 있지만 [!DNL Journey Optimizer]을(를) 사용하는 방법을 보여 주기 위해 설계되었습니다.
 
@@ -26,7 +26,7 @@ ht-degree: 2%
 
 * **사용자 참여 개선**: 프로모션과 같은 관련 정보를 강조 표시하는 최적화된 페이지 디자인으로 사용자의 관심을 사로잡습니다.
 * **검색 기능 개선**: 웹 또는 모바일 앱에 전략적으로 새 구성 요소나 콘텐츠를 배치하여 작업을 간소화하고 탐색을 향상시킵니다.
-* **추가 접점을 늘립니다**: 비즈니스 영향을 가속화하기 위해 전환 이벤트 및 목표를 효과적으로 안내합니다.
+* **추가 터치 포인트 증가**: 비즈니스 영향을 가속화하는 전환 이벤트 및 목표를 효과적으로 사용자에게 안내합니다.
 
 ## 가능한 시나리오
 
@@ -38,7 +38,7 @@ ht-degree: 2%
 
 >[!NOTE]
 >
->이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너의 사용 가능한 옵션에 대한 자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*&#x200B;을 참조하십시오.
+>이 섹션의 지침은 이미지를 변경하고 프로필 속성을 사용하여 텍스트 메시지를 개인화하는 데 필요한 단계를 강조 표시합니다. [!DNL Journey Optimizer] 웹 디자이너의 사용 가능한 옵션에 대한 자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*&#x200B;을 참조하십시오.
 >
 >페이지 하단에 있는 비디오가 특히 유용합니다.
 
@@ -64,7 +64,7 @@ ht-degree: 2%
 
    웹 구성 또는 채널 표면은 시스템 관리자가 정의한 구성입니다. 웹 구성에는 헤더 매개 변수, 하위 도메인, 모바일 앱 등과 같이 메시지를 전송하기 위한 모든 기술 매개 변수가 포함되어 있습니다.
 
-   자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}에서 *채널 표면 설정*&#x200B;을 참조하세요.
+   자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/configuration/channel-surfaces#set-up-channel-surfaces){target=_blank}에서 *채널 표면 설정*&#x200B;을 참조하세요.
 
 1. **[!UICONTROL Action]** 섹션에서 **[!UICONTROL Edit Content]**&#x200B;을(를) 클릭하여 [!DNL Journey Optimizer] 웹 디자이너에서 웹 사이트를 엽니다.
 
@@ -91,9 +91,9 @@ ht-degree: 2%
 * [!UICONTROL View all time report]
 * [!UICONTROL View last 24hrs report]
 
-자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}에서 *새 보고 인터페이스 시작*&#x200B;을 참조하세요.
+자세한 내용은 [Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channel-report/report-gs-cja){target=_blank}에서 *새 보고 인터페이스 시작*&#x200B;을 참조하세요.
 
 >[!MORELIKETHIS]
 >
->[Journey Optimizer 설명서](https://experienceleague.adobe.com/ko/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*
->&#x200B;>[&#128279;](https://experienceleague.adobe.com/ko/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*
+>[Journey Optimizer 설명서](https://experienceleague.adobe.com/en/docs/journey-optimizer/using/channels/web/author-web-pages/web-visual-editor){target=_blank}에서 *웹 디자이너와 작업*
+>[](https://experienceleague.adobe.com/en/docs/journey-optimizer-learn/tutorials/create-campaigns/create-a-campaign){target=_blank}Journey Optimizer 자습서&#x200B;*에서 캠페인 만들기*

@@ -4,10 +4,10 @@ description: Adobe Target의 기본 사항에 대해 알아보십시오. 이 문
 title: Target을 사용하려면 어떻게 합니까?
 feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 122484056e73f8f679312a3e776e623d905701d5
 workflow-type: tm+mt
-source-wordcount: '1523'
-ht-degree: 98%
+source-wordcount: '1524'
+ht-degree: 96%
 
 ---
 
@@ -61,7 +61,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 테이블은
 
 경험은 다른 페이지 디자인일 수도 있습니다. 예를 들어 한 경험에서는 페이지의 맨 위에 하나의 링크 세트를 배치할 수 있으며, 반면에 다른 경험에서는 다른 링크가 배치되거나 다른 순서로 배열된 동일한 링크들이 배치될 수 있습니다. 한 이미지가 다른 이미지보다 더 많은 상승도를 제공하는지 테스트하거나, 광고를 페이지 상단에서 클릭할 가능성이 더 큰지 아니면 다른 위치에서 클릭할 가능성이 더 큰지 테스트할 수 있습니다.
 
-[!DNL Target] 은 디지털 터치포인트에서 각 방문자에 대한 경험을 최적화하고, 서로 다른 경험을 테스트하여 가장 성공적인 경험을 결정합니다. 신중하게 계획된 경험 타기팅을 통해 사이트 방문자에게 가장 적합한 오퍼가 페이지에서 적절한 위치에 표시되도록 하여 성공적인 방문 가능성을 높일 수 있습니다.
+[!DNL Target]은(는) 디지털 터치 포인트에서 각 방문자에 대한 경험을 최적화하고, 서로 다른 경험을 테스트하여 가장 성공적인 경험을 결정합니다. 신중하게 계획된 경험 타기팅을 통해 사이트 방문자에게 가장 적합한 오퍼가 페이지에서 적절한 위치에 표시되도록 하여 성공적인 방문 가능성을 높일 수 있습니다.
 
 ## 오퍼 {#section_973D4CC4CEB44711BBB9A21BF74B89E9}
 
@@ -115,7 +115,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 테이블은
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Adobe Target(6:21)에서 대상 사용 ![개요 배지](/help/main/assets/overview.png)
 
@@ -127,4 +127,4 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 테이블은
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)
