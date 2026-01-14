@@ -115,7 +115,7 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 테이블은
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
 
 ### Adobe Target(6:21)에서 대상 사용 ![개요 배지](/help/main/assets/overview.png)
 
@@ -127,4 +127,4 @@ Target에는 여러 가지 활동 유형이 포함됩니다. 다음 테이블은
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)
