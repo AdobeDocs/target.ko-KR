@@ -4,10 +4,10 @@ description: '[!UICONTROL Visual Experience Composer]​(VEC)에서 일부 웹 �
 title: '[!UICONTROL Visual Editing Helper] 확장을 사용하는 방법'
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: c41580bcbecf2eb2c14f13ce8e66e854c655d059
+source-git-commit: 86139b5971f98091affefd771d9d138e31574727
 workflow-type: tm+mt
-source-wordcount: '672'
-ht-degree: 64%
+source-wordcount: '765'
+ht-degree: 56%
 
 ---
 
@@ -18,6 +18,17 @@ ht-degree: 64%
 >[!IMPORTANT]
 >
 >* 이 새 확장 기능은 이전의 [Target VEC Helper 브라우저 확장 기능](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)을 대체합니다. 이 문서의 맨 위에 있는 중요 참고 사항을 참조하십시오. Manifest v3의 향상된 보안 기능 때문에 [!DNL Adobe]에서 [!DNL Target]에서 웹 사이트를 계속 시각적으로 작성하려면 이 새 확장을 다운로드해야 합니다.
+
+## [!UICONTROL Visual Editing Helper] 확장 변경 사항(2026년 1월 17일)
+
+### **VEC Helper에서 새 시작 쿠키 정리 실험 기능을 추가하여 문제를 해결했습니다.**
+
+* VEC Helper에 새 시작 쿠키 정리 실험 기능을 추가하여 문제를 해결했습니다.
+* 이 개선 사항은 작성을 시작할 때 탭당 한 번씩 분할되지 않은 쿠키를 정리하여 지속적이 아닌 방식으로 처리함으로써 성능과 안정성을 개선합니다.
+* 이 기능은 탭 기록을 추적하여 중복 정리를 방지하며, 탭을 다시 열면 정리가 올바르게 작동하도록 탭을 닫을 때 기록을 지웁니다.
+* 일관된 비헤이비어를 보장하기 위해 포괄적인 단위 테스트가 추가되었습니다.
+
+![VEC 새 옵션](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper.png)
 
 ## 일부 웹 사이트가 VEC에서 안정적으로 열리지 않을 수 있는 이유
 
