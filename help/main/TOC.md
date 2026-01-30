@@ -3,9 +3,9 @@ user-guide-title: Adobe Target 비즈니스 실무자 안내서
 breadcrumb-title: Target 안내서
 user-guide-description: 웹 사이트, 앱 및 소셜 채널 전반에서 고객 경험을 개인화하여 매출을 증대하는 방법을 살펴보십시오.
 feature-set: Target
-source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
+source-git-commit: 6b92e823c854996e074716a7b8c4856176710c24
 workflow-type: tm+mt
-source-wordcount: '1275'
+source-wordcount: '1273'
 ht-degree: 83%
 
 ---
@@ -100,7 +100,7 @@ ht-degree: 83%
       + [Adobe Customer Journey Analytics의 Target 보고](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + [&#x200B; [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + [ [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer] 통합](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer 사용 사례 {#use-cases}
          + [Adobe Journey Optimizer의 주요 최적화 사용 사례 - 웹 및 코드 기반 채널](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
          + [Adobe Journey Optimizer의 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
@@ -117,7 +117,6 @@ ht-degree: 83%
    + [Adobe Campaign과 Target 통합](c-integrating-target-with-mac/campaign-and-target.md)
 + 활동 {#activities}
    + [활동 개요](c-activities/activities.md)
-   + [Insights 대시보드](c-activities/insights-dashboard.md)
    + [Target 활동 유형](c-activities/target-activities-guide.md)
    + A/B 테스트 {#abtest}
       + [A/B 테스트 개요](c-activities/t-test-ab/test-ab.md)
