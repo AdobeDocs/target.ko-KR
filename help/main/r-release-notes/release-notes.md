@@ -6,10 +6,10 @@ short-description: ' [!DNL Target]의 현재 릴리스에 포함된 새로운 �
 title: 현재 릴리스에는 무엇이 포함됩니까?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 550fa1e8d4127babe02403708b73862505bf8c99
+source-git-commit: f06882e99ba67f4c1fb13656b218744f8c0428e1
 workflow-type: tm+mt
-source-wordcount: '1772'
-ht-degree: 15%
+source-wordcount: '1862'
+ht-degree: 14%
 
 ---
 
@@ -29,6 +29,14 @@ ht-degree: 15%
 
 자세한 내용은 [[!DNL Target] UI 업데이트 FAQ](/help/main/c-intro/updated-ui-faq.md)를 참조하십시오.
 
+## [!DNL Target Standard/Premium] 26.1.2 (2026년 1월 30일 토요일)
+
+**Adobe Target 통찰력 대시보드**
+
+이제 Adobe Target에는 조직이 실험 및 개인화를 위해 Target을 사용하는 방법에 대한 높은 수준의 보기를 제공하는 새로운 인사이트 대시보드가 포함되어 있습니다. 대시보드에는 라이브 활동, 활동 라이브 및 수정됨, 완료된 활동, 게시된 활동 및 A/B 테스트 활동과 같은 주요 지표가 표시됩니다. 시간 범위 선택기를 사용하여 2025년의 요약 보기를 포함하여 다양한 기간의 트렌드를 살펴보십시오. 이 대시보드는 시간이 지남에 따라 채택 및 활동을 추적하는 지속적인 방법으로 계속 사용할 수 있습니다.
+
+[Adobe Target 통찰력 대시보드](/help/main/c-activities/insights-dashboard.md)를 참조하세요.
+
 ## [!DNL Target Standard/Premium] 26.1.1 (2026년 1월 18일 월요일)
 
 **활동**
@@ -47,6 +55,7 @@ ht-degree: 15%
 **속성**
 
 +++세부 정보 보기
+
 * **이미 제거된 경우 활동 편집에서 자동 검색 속성을 추가해서는 안 됩니다.** 이 수정 사항은 활동을 편집하면 사용자가 이전에 제거한 자동 검색 속성이 자동으로 다시 시작되는 문제를 해결합니다. 편집을 위해 활동을 다시 열 때 시스템에서 제거된 속성을 잘못 복원하여 [!UICONTROL Properties List]에서 일관되지 않은 동작과 혼동을 초래했습니다. 업데이트는 자동 검색 속성이 제거되면 이후에 편집하는 동안 제거된 상태로 유지되며 사용자가 명시적으로 다시 추가하지 않으면 다시 나타나지 않습니다. (TGT-54182)
 * **자동으로 검색된 속성을 이미 제거한 경우에는 추가하지 마십시오.** 이 수정 사항을 사용하면 사용자가 활동에서 자동 검색 속성을 수동으로 제거한 후 활동 편집기 내에서 이후에 탐색하는 동안 시스템이 더 이상 속성을 다시 도입하지 않습니다. 이전에는 사용자가 자동 검색 속성을 선택 취소하고 [!UICONTROL Targeting] 단계로 이동한 다음 [!UICONTROL Experiences]&#x200B;(으)로 돌아오면 편집기에서 활동 편집기 상태 슬라이스에 저장된 자동 검색 목록을 기반으로 제거된 속성을 다시 채웁니다. 업데이트된 논리는 이제 자동 감지된 속성을 ~ActivityState~ 슬라이스의 현재 속성과 비교하고, 사용자가 이미 제거한 자동 감지된 속성을 다시 추가하는 것을 방지합니다. 이렇게 하면 여러 단계에서 일관된 동작이 발생하고 사용자 의도를 따릅니다. (TGT-54181)
 * **자동으로 검색된 텍스트를 속성 목록에 추가합니다.** 이 향상된 기능은 [!UICONTROL Properties List]을(를) 업데이트하여 시스템에서 자동으로 감지한 모든 속성에 레이블을 지정합니다. 자동 검색 속성도 사용자가 볼 수 있는 [!UICONTROL Properties List]에 있으면 이제 ~ActivityEditorSlice~ 상태에 저장된 값을 사용하여 이름 옆에 &quot;(자동 검색)&quot; 텍스트가 표시됩니다. 이렇게 하면 기존 UI의 동작이 미러링되며 사용자가 수동으로 선택한 속성과 자동으로 식별된 속성을 쉽게 구분할 수 있습니다. (TGT-54120)
@@ -57,6 +66,7 @@ ht-degree: 15%
 **추천**
 
 +++세부 정보 보기
+
 * **[!UICONTROL Environment]드롭다운에는 100개의 결과만 표시됩니다.** 이 수정 사항은 환경이 100개를 초과하는 고객이 [!UICONTROL Environment] 내의 [!UICONTROL Recommendations] 드롭다운에서 처음 100개의 항목만 볼 수 있는 제한을 해결합니다. 기본 GraphQL 쿼리(~getEnvironmentsV2~)는 100의 하드 코딩된 페이지 크기로 페이지 매김되어 추가 페이지를 사용할 수 있는 경우에도 UI에 부분 목록만 표시됩니다. 환경이 100개를 초과하는 고객의 경우 이 문제로 인해 옵션이 누락되고 선택 경험이 불완전합니다. 업데이트는 제한이 증가하여 모든 환경이 반환되고 표시되므로 환경 수에 관계없이 전체 가시성이 보장됩니다. (TGT-53903)
 
 +++
@@ -77,9 +87,10 @@ ht-degree: 15%
 
 +++
 
-**[!UICONTROL Visual Experience Composer] (VEC)**
+**[!UICONTROL Visual Experience Composer](VEC)**
 
 +++세부 정보 보기
+
 * **[!UICONTROL Experience Fragment]이름이 새 VEC UI**&#x200B;에서 잘렸습니다(TGT-54312).
 * **[!UICONTROL Advanced Settings] 지표에 [!UICONTROL Revenue]을(를) 사용할 수 없습니다.** 이 수정 사항은 사용자가 [!UICONTROL Advanced Settings]의 [!UICONTROL Revenue] 지표에 대해 [!UICONTROL Goals & Settings]을(를) 구성할 때 403 &quot;액세스 거부&quot; 오류가 발생하는 문제를 해결합니다. 기본 목표에 연결된 종속성 조건을 추가할 때 문제가 발생했습니다. 활동을 만들고 편집할 수 있는 권한이 이미 있는 사용자에게도 백엔드에 편집기 권한이 잘못 필요했습니다. 그 결과, 올바른 구성에도 불구하고 활동을 저장하지 못했습니다. 업데이트는 적절한 액세스 권한이 있는 사용자가 금지된 리소스 오류를 트리거하지 않고 매출 지표 종속성을 성공적으로 추가할 수 있도록 권한 검사를 수정합니다. (TGT-54092)
 * **추가 단추가 선택한 이미지에 적용되지 않는 문제를 해결했습니다.** 고객이 활동 만들기 프로세스에서 이미지를 선택하거나 업데이트할 때 특정 이미지를 추가하지 못하는 문제를 해결했습니다. 고객이 특정 자산(예: &quot;ipp&quot;를 검색할 때 반환된 이미지)을 검색할 때 [!UICONTROL Add] 단추를 클릭해도 선택한 이미지가 적용되지 않고 수정되지 않았습니다. `Homepage-banner-1-moz.jpg`과(와) 같은 다른 이미지를 선택하면 예상대로 계속 작동합니다. 이 업데이트를 통해 모든 유효한 이미지를 업데이트된 UI에서 일관되게 적용할 수 있습니다. (TGT-53610)
@@ -93,7 +104,7 @@ ht-degree: 15%
 | 리소스 | 세부 사항 |
 |--- |--- |
 | [릴리스 정보: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=ko) | Platform Web SDK의 각 버전 변경 내용에 대한 세부 사항입니다. |
-| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html?lang=ko){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
+| [at.js 버전 세부 사항](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | [!DNL Adobe Target] at.js JavaScript 라이브러리의 각 버전 변경 내용에 대한 세부 사항입니다. |
 
 ## 설명서 변경 내용, 이전 릴리스 정보 및 Experience Cloud 릴리스 정보
 
