@@ -77,7 +77,7 @@ ht-degree: 15%
 
 +++
 
-**[!UICONTROL Visual Experience Composer](VEC)**
+**[!UICONTROL Visual Experience Composer] (VEC)**
 
 +++세부 정보 보기
 * **[!UICONTROL Experience Fragment]이름이 새 VEC UI**&#x200B;에서 잘렸습니다(TGT-54312).
