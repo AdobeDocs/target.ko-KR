@@ -4,7 +4,7 @@ description: Adobe [!DNL Target] 에서 SPA VEC를 사용하여 지속적인 개
 title: SPA VEC(단일 페이지 앱 시각적 경험 작성기)를 사용하려면 어떻게 합니까?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 3c9fcd7de9aac50617c5d9f7d9244026cd988d52
 workflow-type: tm+mt
 source-wordcount: '3569'
 ht-degree: 64%
