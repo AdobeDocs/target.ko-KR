@@ -15,7 +15,7 @@ ht-degree: 84%
 
 + [Adobe Target 비즈니스 실무자 안내서 홈](target-home.md)
 + Target 릴리스 노트 {#release-notes}
-   + {hide-from-toc}[Target 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md)
+   + [hide-from-tocTarget 알림 및 이벤트](/help/main/r-release-notes/target-announcements.md)
    + [Target 릴리스 정보 (현재)](r-release-notes/release-notes.md)
    + [Target 릴리스 정보(프리릴리스)](r-release-notes/target-release-notes.md)
    + [Target 설명서 개요](/help/main/r-release-notes/target-documentation.md)
@@ -32,7 +32,7 @@ ht-degree: 84%
       + [AI 어시스턴트 개요](/help/main/c-intro/ai-assistant.md)
       + [AI Assistant 활성화](/help/main/c-intro/enabling-ai-assistant.md)
       + [AI Assistant를 사용하여 제품 지식 얻기](/help/main/c-intro/ai-assistant-product-knowledge.md)
-      + {hide-from-toc}[콘텐츠 생성에 AI Assistant 사용](/help/main/c-intro/ai-assistant-content-generation.md)
+      + [hide-from-toc콘텐츠 생성에 AI Assistant 사용](/help/main/c-intro/ai-assistant-content-generation.md)
    + Adobe Target 시작 키트 {#welcome}
       + [Target 시작 키트 개요](/help/main/c-intro/target-welcome-kit.md)
       + [1장: 소개](/help/main/c-intro/target-welcome-kit-1.md)
@@ -100,11 +100,11 @@ ht-degree: 84%
       + [Adobe Customer Journey Analytics의 Target 보고](/help/main/c-integrating-target-with-mac/cja/target-reporting-in-cja.md)
    + Adobe Journey Optimizer(AJO)와 Target 통합 {#ajo}
       + [오퍼 의사 결정 사용](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md)
-      + {hide-from-toc}[통합 [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
+      + [hide-from-toc통합 [!DNL Adobe Target Recommendations] 및 [!DNL Adobe Journey Optimizer]](/help/main/c-integrating-target-with-mac/ajo/recs-ajo-integration.md)
       + Adobe Journey Optimizer 사용 사례 {#use-cases}
-         + {hide-from-toc}[Adobe Journey Optimizer의 주요 최적화 사용 사례 - 웹 및 코드 기반 채널](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
-         + {hide-from-toc}[Adobe Journey Optimizer에서 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
-         + {hide-from-toc}[웹 페이지에 구성 요소 추가 또는 숨기기](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
+         + [hide-from-tocAdobe Journey Optimizer의 주요 최적화 사용 사례 - 웹 및 코드 기반 채널](/help/main/c-integrating-target-with-mac/ajo/top-ajo-use-cases.md)
+         + [hide-from-tocAdobe Journey Optimizer에서 A/B 테스트를 통한 콘텐츠 변경](/help/main/c-integrating-target-with-mac/ajo/content-change-using-ajo.md)
+         + [hide-from-toc웹 페이지에 구성 요소 추가 또는 숨기기](/help/main/c-integrating-target-with-mac/ajo/add-hide-content-using-ajo.md)
    + [Experience Cloud 대상자](/help/main/c-integrating-target-with-mac/mmp.md)
    + Adobe Experience Manager(AEM)와 Target 통합 {#aem}
       + [AEM과 Target 통합 개요](/help/main/c-integrating-target-with-mac/aem/aem-target-integration.md)
@@ -327,7 +327,7 @@ ht-degree: 84%
       + [권장 사항 활동 만들기](c-recommendations/t-create-recs-activity/create-recs-activity.md)
       + [프로모션 추가](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [권장 사항 활동 설정](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
-      + {hide-from-toc}[권장 사항 활동 미리보기 및 시작](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
+      + [hide-from-toc권장 사항 활동 미리보기 및 시작](/help/main/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [오퍼로서의 추천](c-recommendations/recommendations-as-an-offer.md)
    + FAQ {#recommendations-faq}
       + [권장 사항 FAQ](c-recommendations/c-recommendations-faq/recommendations-faq.md)
