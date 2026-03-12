@@ -2,13 +2,13 @@
 keywords: 권장 사항;권장 사항 기준;권장 사항 알고리즘;권장 사항 활동;기준;권장 사항 타기팅;recs
 description: 이전 사용자 활동 또는 기타 알고리즘을 기반으로 고객의 흥미를 끌 수 있는 콘텐츠를 자동으로 표시하는 Adobe  [!DNL Target] 의 권장 사항 활동에 대해 알아보십시오.
 title: ' [!DNL Target]  추천이란 무엇입니까?'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 52025f1128e8c736bd1cb4eff871b65a00ec1c98
 workflow-type: tm+mt
-source-wordcount: '922'
-ht-degree: 97%
+source-wordcount: '855'
+ht-degree: 98%
 
 ---
 
@@ -70,10 +70,12 @@ ht-degree: 97%
 * 목표를 달성하기 위한 적절한 활동 유형 선택
 * 모든 활동 유형에 적용되는 3단계 안내가 있는 워크플로 설명
 
->[!VIDEO](https://video.tv.adobe.com/v/30520?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Adobe Target 기본 사항 웨비나: Recommendations 소개 ![튜토리얼 배지](/help/main/assets/tutorial.png) {#intro-to-recs}
+<!--
+## Adobe Target Basics Webinar: Introduction to Recommendations ![Tutorial badge](/help/main/assets/tutorial.png) {#intro-to-recs}
 
-*권장 사항 소개* 웨비나에서는 [!DNL Adobe Target Recommendations] 값을 활용하는 방법에 대한 심층적인 설명을 포함합니다. 이 [!DNL Target] 활동에서는 이전 방문 횟수에 따라 실시간 제안을 최적화하여 고객의 흥미를 끌 수 있는 제품 또는 콘텐츠를 자동으로 표시하는 방법을 알아봅니다. 또한 [!DNL Target] UI에서 [!DNL Recommendations] 활동을 구축하는 방법에 관한 단계별 개요를 살펴보십시오.
+The *Introduction to Recommendations* webinar includes an in-depth exploration of how to leverage the value of [!DNL Adobe Target Recommendations]. Find out how this [!DNL Target] activity automatically displays products or content that might interest your customers by optimizing real-time suggestions based on previous visits. Further, dive into the [!DNL Target] UI for a step-by-step overview of how to build a [!DNL Recommendations] activity.
 
-[권장 사항 소개](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduction to Recommendations](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+-->
