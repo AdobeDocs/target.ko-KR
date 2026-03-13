@@ -1,6 +1,6 @@
 ---
 keywords: 시각적 경험 작성기 선택 사항;경험 작성기 선택 사항;경험 선택 사항;텍스트 편집;html 편집;텍스트/html 편집;배경색 편집;배경색;요소 삽입;링크 편집;링크;시각적 경험 작성기 링크;css 클래스 편집;오퍼 바꾸기;오퍼 바꾸기;이미지 교체;이미지 바꾸기;항목 제거;항목 제거;항목 숨기기;항목 숨기기;재배열;요소 이동;요소 이동;요소 크기 조정;요소 크기 조정;요소;선택 확장;이 링크로 이동;링크 탐색;링크 탐색;탐색;링크;실행 취소;다시 실행;실행 취소/다시 실행;사용자 지정 이벤트;웹 구성 요소;오퍼 결정;오퍼 의사 결정
-description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer](VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
+description: ' [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC)에서 사용할 수 있는 옵션을 살펴보십시오.'
 title: '[!UICONTROL Visual Experience Composer]​(VEC) 옵션을 사용하려면 어떻게 해야 합니까?'
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
@@ -21,7 +21,7 @@ ht-degree: 8%
 
 >[!IMPORTANT]
 >
->업데이트된 [!UICONTROL Visual Editing Composer]에는 [!DNL Adobe Experience Cloud]에서 사용할 수 있는 [[!UICONTROL Visual Editing Helper] ](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Chrome Web Store]이(가) 필요합니다.
+>업데이트된 [!UICONTROL Visual Editing Composer]에는 [!DNL Adobe Experience Cloud]에서 사용할 수 있는 [[!UICONTROL Visual Editing Helper] &#x200B;](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) 확장 [!DNL Chrome Web Store]이(가) 필요합니다.
 
 VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
@@ -48,7 +48,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ### 활동 설정/구성 {#settings}
 
-[!UICONTROL Configure] 캔버스 위에 표시된 ![ 아이콘(](/help/main/assets/icons/Setting.svg)구성 아이콘[!UICONTROL Design])을 클릭하여 활동 속성 메뉴를 표시합니다.
+[!UICONTROL Configure] 캔버스 위에 표시된 ![&#x200B; 아이콘(](/help/main/assets/icons/Setting.svg)구성 아이콘[!UICONTROL Design])을 클릭하여 활동 속성 메뉴를 표시합니다.
 
 ![활동 구성 옵션](/help/main/c-experiences/c-visual-experience-composer/assets/configure-options.png)
 
@@ -59,7 +59,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 * **[!UICONTROL Site Preferences]**: 사이트 환경 설정을 구성하여 [!DNL Target]에서 CSS 선택기를 생성하는 방법을 지정하십시오. 자세한 내용은 _구성_&#x200B;의 [CSS 선택기[!UICONTROL Visual Experience Composer]](/help/main/administrating-target/visual-experience-composer-set-up.md)를 참조하십시오.
 * **추가 페이지 추가**: 활동에 페이지를 추가하여 여러 페이지에 걸쳐 각 페이지별 디자인을 사용하여 스토리를 만들 수 있는 다중 페이지 활동을 만듭니다. 자세한 내용은 [다중 페이지 활동](/help/main/c-experiences/c-visual-experience-composer/multipage-activity.md)을 참조하세요.
 * **단일 대상**: 활동에 단일 대상을 사용합니다.
-* **여러 대상**: 활동에 여러 대상을 할당합니다. 대상자 추가 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg) )을 클릭한 다음, 목록에서 대상자를 하나 이상 선택합니다. [ 대화 상자에서 ](/help/main/c-target/combining-multiple-audiences.md)대상을 결합[하거나 ](/help/main/c-target/c-audiences/create-audience.md)새 대상을 만들기[!UICONTROL Add Audiences]할 수도 있습니다.
+* **여러 대상**: 활동에 여러 대상을 할당합니다. 대상자 추가 아이콘(![추가 아이콘](/help/main/assets/icons/Add.svg) )을 클릭한 다음, 목록에서 대상자를 하나 이상 선택합니다. [&#x200B; 대화 상자에서 &#x200B;](/help/main/c-target/combining-multiple-audiences.md)대상을 결합[하거나 &#x200B;](/help/main/c-target/c-audiences/create-audience.md)새 대상을 만들기[!UICONTROL Add Audiences]할 수도 있습니다.
 
 ### [!UICONTROL Design]/[!UICONTROL Browse] 모드
 
@@ -113,7 +113,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 ### [!UICONTROL Modifications] 레일
 
-[!UICONTROL Modifications] 레일을 열려면 [!UICONTROL Show Modifications] 레일에서 ![ 아이콘(](/help/main/assets/icons/History.svg)수정 사항 레일 표시[!UICONTROL Components])을 클릭합니다.
+[!UICONTROL Modifications] 레일을 열려면 [!UICONTROL Show Modifications] 레일에서 ![&#x200B; 아이콘(](/help/main/assets/icons/History.svg)수정 사항 레일 표시[!UICONTROL Components])을 클릭합니다.
 
 ![수정 레일](/help/main/c-experiences/c-visual-experience-composer/assets/modifications-panel.png)
 
@@ -155,7 +155,7 @@ VEC는 기존 활동을 작성하거나 편집할 때 표시됩니다.
 
 레일 상단의 아이콘을 클릭하여 HTML 코드를 편집하거나 요소를 삭제, 복제 또는 숨깁니다. [!UICONTROL Modifications] 레일에 변경 내용이 나타납니다.
 
-디자인 캔버스를 숨기고 디자인 캔버스를 확대할 수 있도록 오른쪽 레일에서 [!UICONTROL Properties] 레일을 접을 수 있습니다. [!UICONTROL Show/Hide Properties] 레일을 축소하거나 표시하려면 레일의 오른쪽에 있는 ![ 아이콘(](/help/main/assets/icons/Propertie.svg)속성 아이콘[!UICONTROL Properties])을 클릭합니다.
+디자인 캔버스를 숨기고 디자인 캔버스를 확대할 수 있도록 오른쪽 레일에서 [!UICONTROL Properties] 레일을 접을 수 있습니다. [!UICONTROL Show/Hide Properties] 레일을 축소하거나 표시하려면 레일의 오른쪽에 있는 ![&#x200B; 아이콘(](/help/main/assets/icons/Propertie.svg)속성 아이콘[!UICONTROL Properties])을 클릭합니다.
 
 ## [!UICONTROL Design] 캔버스를 사용하여 요소 편집 {#design}
 
