@@ -4,7 +4,7 @@ description: ' [!DNL Adobe Target]에서 대상을 사용하는 방법을 알아
 title: 대상 목록은 어떻게 사용합니까?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: fe1e97710e7692ba7724103853ed7438c3f361b1
+source-git-commit: f984f2db3ccfb02629ddfd4f3c5f957256bd9f6a
 workflow-type: tm+mt
 source-wordcount: '760'
 ht-degree: 22%
@@ -45,7 +45,7 @@ ht-degree: 22%
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform] 소스는 [!DNL Target]Adobe Experience Platform Web SDK[를 사용하는 모든 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
+  >[!DNL Adobe Experience Platform] 소스는 [!DNL Target]Adobe Experience Platform Web SDK[를 사용하는 모든 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
   >
   >AEP/RTCDP([!UICONTROL Approver])에서 [!DNL Target] [!DNL Target] 카드를 구성하려면 [!UICONTROL Destinations]에서 사용자가 [!DNL Real-time Customer Data Platform] 이상 상태여야 합니다.
   >
@@ -62,7 +62,7 @@ ht-degree: 22%
 
 [!UICONTROL Filters] 단추를 사용하여 [!UICONTROL Audiences], [!DNL Adobe Target], [!DNL Adobe Target Classic] 및 [!DNL Experience Cloud] 원본별로 [!DNL Adobe Experience Platform] 목록을 필터링하세요.
 
-![&#x200B; 목록의 [!UICONTROL Audiences]필터 옵션](assets/filters.png)
+![ 목록의 [!UICONTROL Audiences]필터 옵션](assets/filters.png)
 
 [!UICONTROL Search audiences] 상자를 사용하여 [!UICONTROL Audiences] 목록을 검색합니다. 대상 이름의 일부를 검색하거나 특정 문자열을 따옴표로 묶을 수 있습니다.
 
@@ -88,7 +88,8 @@ ht-degree: 22%
 
 ![audience_definition_list_usage 이미지](assets/audience_definition_list_usage.png)
 
-<!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
+<!--
+The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 
 ![Usage tab on Audience Definition card](assets/audience_definition_mc.png)
 
@@ -103,7 +104,8 @@ The following details are available for these imported audience types:
 Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
-* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+* Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.
+-->
 
 ## [!DNL Adobe Experience Platform]의 대상자 사용 {#aep}
 
@@ -121,4 +123,4 @@ Keep the following points in mind as you work with imported audiences:
 * 활동을 대상자에 타기팅
 * 활동에서 수동 보고에 대상 사용
 
->[!VIDEO](https://video.tv.adobe.com/v/30527?captions=kor)
+>[!VIDEO](https://video.tv.adobe.com/v/17398)

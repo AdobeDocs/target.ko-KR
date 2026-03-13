@@ -2,10 +2,10 @@
 keywords: 카탈로그 검색;카탈로그;검색;제외;컬렉션;필터;권장 사항
 description: ' [!DNL Recommendations] [!UICONTROL Catalog Search]을(를) 사용하여 제품 또는 콘텐츠를 찾고 카탈로그에서 항목을 제거하는 방법에 대해 알아봅니다.'
 title: ' [!DNL Recommendations] [!UICONTROL Catalog Search]을(를) 사용하는 방법'
-badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=ko#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="Target Premium에 포함된 내용을 확인합니다."
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 02ffe8da6cdf96039218656b9690fa719a77910c
+source-git-commit: e60820368eb5a83470dace93acf73709b15d2f9d
 workflow-type: tm+mt
 source-wordcount: '508'
 ht-degree: 22%
@@ -42,9 +42,10 @@ ht-degree: 22%
    >
    > 숫자 값으로 사용자 지정 특성에 대한 카탈로그 검색을 수행할 때 결과는 사용자 지정 특성을 숫자 값 대신 문자열 유형으로 간주합니다.
    >
-   >현재 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면 문자열에서 숫자로 유형을 변경해야 하는 특성을 참조하는 [고객 문제를 여십시오](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   >현재 속성 유형을 변경할 수 있는 기능이 없습니다. 변경하려면 문자열에서 숫자로 유형을 변경해야 하는 속성을 참조하는 [고객 문제를 여십시오](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-<!-- ### Perform an advanced search {#advanced-search}
+<!--
+### Perform an advanced search {#advanced-search}
 
 You can use [!UICONTROL Advanced Search] to further refine your search results or to save your search results as a [collection](/help/main/c-recommendations/c-products/collections.md) or [exclusion](/help/main/c-recommendations/c-products/exclusions.md).
 
@@ -64,7 +65,8 @@ You can use [!UICONTROL Advanced Search] to further refine your search results o
 
    ![Save as options](/help/main/c-recommendations/c-products/assets/save-as.png)
 
-   For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.-->
+   For more information, see [Create a collection or exclusion based on Advanced Search](#save-as) below.
+-->
 
 ## 항목의 세부 사항 보기
 
@@ -88,7 +90,8 @@ ID, 이름, 메시지, 범주 등을 포함한 개별 항목의 세부 사항을
 
 피드 파일, API 또는 mbox 업데이트를 통해 업데이트가 수신되면 카탈로그가 자동으로 새로고침됩니다. 업데이트는 일반적으로 1시간 이내에 완료됩니다. 업데이트가 진행 중인 경우 가장 최근 업데이트가 시작된 시간이 표시됩니다. 진행 중인 업데이트가 없으면 가장 최근 업데이트가 시작되고 완료된 시간이 표시됩니다.
 
-<!-- ## Create a collection or exclusion based on Advanced Search {#save-as}
+<!--
+## Create a collection or exclusion based on Advanced Search {#save-as}
 
 You can create [collections](/help/main/c-recommendations/c-products/collections.md) or [exclusions](/help/main/c-recommendations/c-products/exclusions.md) using [!UICONTROL Advanced Search] on the [!UICONTROL Catalog Search] page ([!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
@@ -100,7 +103,8 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
    >[!IMPORTANT]
    >
-   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.-->
+   >The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. This mismatch might lead to confusion. Ensure that you consider case-sensitivity when you create collections or exclusions based on results using the [!UICONTROL Advanced Search] functionality. For example, if you perform a search for "Holiday," that initial search lists results containing "Holiday" and "holiday." If you then create a catalog with the intent to return products containing "holiday," only products containing "holiday" are returned. Products containing "Holiday" are not returned. Exclusions are handled in a similar fashion.
+-->
 
 ## 환경 변경
 
@@ -110,7 +114,8 @@ You can create [collections](/help/main/c-recommendations/c-products/collections
 
 1. **[!UICONTROL Environment]** 드롭다운 목록에서 원하는 환경을 선택합니다.
 
-<!-- ## Modify the Catalog Search page (filters and columns)
+<!--
+## Modify the Catalog Search page (filters and columns)
 
 You can temporarily modify the available filters and columns on the [!UICONTROL Catalog Search] page for the current session.
 
@@ -126,7 +131,8 @@ You can add additional filter facets to the [!UICONTROL Catalog Search] page.
 
    ![Add filters](/help/main/c-recommendations/c-products/assets/add-filters.png)
 
-Keep in mind that the additional filter facets are available in the current session only.-->
+Keep in mind that the additional filter facets are available in the current session only.
+-->
 
 ## 열 수정
 
