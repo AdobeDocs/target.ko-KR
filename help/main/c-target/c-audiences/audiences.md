@@ -45,7 +45,7 @@ ht-degree: 22%
 
   >[!NOTE]
   >
-  >[!DNL Adobe Experience Platform] 소스는 [!DNL Target]Adobe Experience Platform Web SDK[를 사용하는 모든 ](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
+  >[!DNL Adobe Experience Platform] 소스는 [!DNL Target]Adobe Experience Platform Web SDK[를 사용하는 모든 &#x200B;](https://experienceleague.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} 고객이 사용할 수 있습니다. [!DNL Adobe Experience Platform]에서 사용할 수 있는 대상은 그대로 사용하거나 [기존 대상과 결합](/help/main/c-target/combining-multiple-audiences.md)할 수 있습니다.
   >
   >AEP/RTCDP([!UICONTROL Approver])에서 [!DNL Target] [!DNL Target] 카드를 구성하려면 [!UICONTROL Destinations]에서 사용자가 [!DNL Real-time Customer Data Platform] 이상 상태여야 합니다.
   >
@@ -62,7 +62,7 @@ ht-degree: 22%
 
 [!UICONTROL Filters] 단추를 사용하여 [!UICONTROL Audiences], [!DNL Adobe Target], [!DNL Adobe Target Classic] 및 [!DNL Experience Cloud] 원본별로 [!DNL Adobe Experience Platform] 목록을 필터링하세요.
 
-![ 목록의 [!UICONTROL Audiences]필터 옵션](assets/filters.png)
+![&#x200B; 목록의 [!UICONTROL Audiences]필터 옵션](assets/filters.png)
 
 [!UICONTROL Search audiences] 상자를 사용하여 [!UICONTROL Audiences] 목록을 검색합니다. 대상 이름의 일부를 검색하거나 특정 문자열을 따옴표로 묶을 수 있습니다.
 
